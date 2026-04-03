@@ -64,6 +64,56 @@ ROUND_ORDER = {
 }
 MATCH_STATUS_MAP = {1: "scheduled"}
 HOST_CODES = {"CAN", "MEX", "USA"}
+FLAG_ICONS_CODE_BY_FIFA_CODE = {
+    "ALG": "dz",
+    "ARG": "ar",
+    "AUS": "au",
+    "AUT": "at",
+    "BEL": "be",
+    "BIH": "ba",
+    "BRA": "br",
+    "CAN": "ca",
+    "CIV": "ci",
+    "COD": "cd",
+    "COL": "co",
+    "CPV": "cv",
+    "CRO": "hr",
+    "CUW": "cw",
+    "CZE": "cz",
+    "ECU": "ec",
+    "EGY": "eg",
+    "ENG": "gb-eng",
+    "ESP": "es",
+    "FRA": "fr",
+    "GER": "de",
+    "GHA": "gh",
+    "HAI": "ht",
+    "IRN": "ir",
+    "IRQ": "iq",
+    "JOR": "jo",
+    "JPN": "jp",
+    "KOR": "kr",
+    "KSA": "sa",
+    "MAR": "ma",
+    "MEX": "mx",
+    "NED": "nl",
+    "NOR": "no",
+    "NZL": "nz",
+    "PAN": "pa",
+    "PAR": "py",
+    "POR": "pt",
+    "QAT": "qa",
+    "RSA": "za",
+    "SCO": "gb-sct",
+    "SEN": "sn",
+    "SUI": "ch",
+    "SWE": "se",
+    "TUN": "tn",
+    "TUR": "tr",
+    "URU": "uy",
+    "USA": "us",
+    "UZB": "uz",
+}
 
 REQUEST_HEADERS = {
     "User-Agent": (
@@ -535,12 +585,15 @@ def build_teams_rows(
     rows = []
     for team in sorted(qualified_teams.values(), key=lambda item: (item.group_code, item.tournament_name)):
         ranking = fifa_rankings.get(team.fifa_code, {})
+        flag_icon_code = FLAG_ICONS_CODE_BY_FIFA_CODE.get(team.fifa_code, "")
         rows.append(
             {
                 "team_id": team.team_id,
                 "canonical_name": team.canonical_name,
                 "tournament_name": team.tournament_name,
                 "fifa_code": team.fifa_code,
+                "flag_icon_code": flag_icon_code,
+                "flag_icon_css_class": f"fi fi-{flag_icon_code}" if flag_icon_code else "",
                 "confederation": ranking.get("ConfederationName", ""),
                 "group_code": team.group_code,
                 "is_host": team.fifa_code in HOST_CODES,
@@ -833,7 +886,7 @@ def main() -> None:
     datasets = {
         "teams.csv": (
             teams_rows,
-            ["team_id", "canonical_name", "tournament_name", "fifa_code", "confederation", "group_code", "is_host", "qualification_path", "world_cup_participations", "squad_status", "source_url", "source_as_of"],
+            ["team_id", "canonical_name", "tournament_name", "fifa_code", "flag_icon_code", "flag_icon_css_class", "confederation", "group_code", "is_host", "qualification_path", "world_cup_participations", "squad_status", "source_url", "source_as_of"],
         ),
         "groups.csv": (
             groups_rows,
