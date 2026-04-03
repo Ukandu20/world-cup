@@ -2,6 +2,7 @@ import html
 from pathlib import Path
 import subprocess
 import tempfile
+import textwrap
 
 import numpy as np
 import pandas as pd
@@ -15,6 +16,7 @@ SIMULATION_COUNT = 20000
 GROUP_ORDER = list("ABCDEFGHIJKL")
 VIEW_OPTIONS = ("Single group", "All groups", "All teams")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
+CURRENT_HOLDER_TEAM_ID = "ARG"
 PROBABILITY_PALETTES = {
     "prob_1": ((220, 252, 231), (22, 163, 74)),
     "prob_2": ((219, 234, 254), (37, 99, 235)),
@@ -146,8 +148,9 @@ def shared_css() -> str:
     }
     .wc-grid {
         display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
         gap: 16px;
+        align-items: start;
     }
     .wc-grid-single {
         display: grid;
@@ -193,24 +196,34 @@ def shared_css() -> str:
         font-weight: 700;
         font-size: 0.92rem;
     }
+    .wc-table-wrap {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 0.15rem;
+    }
     table.wc-table {
         width: 100%;
+        min-width: 720px;
         border-collapse: collapse;
-        table-layout: fixed;
+        table-layout: auto;
     }
     .wc-table thead th {
         background: #0f172a;
         color: #ffffff;
-        font-size: 0.76rem;
+        font-size: clamp(0.68rem, 0.64rem + 0.18vw, 0.76rem);
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.04em;
         padding: 0.78rem 0.65rem;
         text-align: left;
+        white-space: nowrap;
     }
     .wc-table thead th.wc-num,
     .wc-table tbody td.wc-num {
         text-align: right;
+        white-space: nowrap;
     }
     .wc-table thead th.wc-group-col,
     .wc-table tbody td.wc-group-col {
@@ -221,9 +234,10 @@ def shared_css() -> str:
         border-bottom: 1px solid #e8eef5;
         padding: 0.72rem 0.65rem;
         color: #0f172a;
-        font-size: 0.93rem;
+        font-size: clamp(0.82rem, 0.78rem + 0.2vw, 0.93rem);
         vertical-align: middle;
         background-color: rgba(255, 255, 255, 0.82);
+        overflow-wrap: anywhere;
     }
     .wc-table tbody tr:last-child td {
         border-bottom: none;
@@ -244,7 +258,19 @@ def shared_css() -> str:
     .wc-name-text {
         overflow: hidden;
         text-overflow: ellipsis;
-        white-space: nowrap;
+        white-space: normal;
+        line-height: 1.22;
+    }
+    .wc-holder-cell {
+        background: linear-gradient(180deg, #fef3c7 0%, #fde68a 100%);
+        color: #7c4a03;
+    }
+    .wc-holder-cell .wc-name-text {
+        color: #7c4a03;
+        font-weight: 800;
+    }
+    .wc-holder-cell .fi {
+        box-shadow: inset 0 0 0 1px rgba(124, 74, 3, 0.18), 0 0 0 2px rgba(251, 191, 36, 0.22);
     }
     .wc-prob {
         font-variant-numeric: tabular-nums;
@@ -257,6 +283,31 @@ def shared_css() -> str:
         color: #475569;
         margin-bottom: 0.35rem;
     }
+    .wc-grid .wc-table-wrap {
+        overflow-x: visible;
+    }
+    .wc-grid table.wc-table {
+        min-width: 0;
+        table-layout: fixed;
+    }
+    .wc-grid .wc-table thead th {
+        font-size: 0.62rem;
+        padding: 0.56rem 0.34rem;
+    }
+    .wc-grid .wc-table tbody td {
+        font-size: 0.78rem;
+        padding: 0.56rem 0.34rem;
+    }
+    .wc-grid .wc-name-cell {
+        justify-content: center;
+        gap: 0;
+    }
+    .wc-grid .wc-name-cell .fi {
+        font-size: 1.05rem;
+    }
+    .wc-grid .wc-name-text {
+        display: none;
+    }
     .wc-header {
         margin-bottom: 1.2rem;
     }
@@ -265,15 +316,17 @@ def shared_css() -> str:
         font-size: 0.92rem;
         margin-top: 0.35rem;
     }
-    @media (max-width: 1200px) {
+    @media (max-width: 1380px) {
         .wc-grid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
         }
     }
-    @media (max-width: 760px) {
+    @media (max-width: 860px) {
         .wc-grid {
             grid-template-columns: 1fr;
         }
+    }
+    @media (max-width: 760px) {
         .wc-export-page {
             padding: 12px;
         }
@@ -281,6 +334,19 @@ def shared_css() -> str:
         .wc-table tbody td {
             padding-left: 0.5rem;
             padding-right: 0.5rem;
+        }
+        table.wc-table {
+            min-width: 560px;
+        }
+        .wc-name-cell {
+            justify-content: center;
+            gap: 0;
+        }
+        .wc-name-cell .fi {
+            font-size: 1.28rem;
+        }
+        .wc-name-text {
+            display: none;
         }
     }
     """
@@ -308,6 +374,11 @@ def probability_cell_style(column_name: str, value: float, column_min: float, co
     green = round(light_rgb[1] + (dark_rgb[1] - light_rgb[1]) * intensity)
     blue = round(light_rgb[2] + (dark_rgb[2] - light_rgb[2]) * intensity)
     return f"background-color: rgb({red}, {green}, {blue});"
+
+
+def current_holder_cell_class(team_id: str) -> str:
+    """Return the cell class for the current World Cup holder."""
+    return " wc-holder-cell" if team_id == CURRENT_HOLDER_TEAM_ID else ""
 
 
 def render_name_cell(flag_icon_code: str, display_name: str) -> str:
@@ -351,7 +422,7 @@ def build_table_html(df: pd.DataFrame, title: str, include_group_column: bool = 
             cells.append(f'<td class="wc-group-col"><span class="wc-group-pill">{html.escape(str(row.group_code))}</span></td>')
         cells.extend(
             [
-                f"<td>{render_name_cell(row.flag_icon_code, row.display_name)}</td>",
+                f'<td class="{current_holder_cell_class(row.team_id).strip()}">{render_name_cell(row.flag_icon_code, row.display_name)}</td>',
                 f'<td class="wc-num">{int(row.world_rank)}</td>',
                 f'<td class="wc-num">{int(row.elo_rating)}</td>',
                 f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_1", row.prob_1, *column_ranges["prob_1"])}">{format_percent(row.prob_1)}</td>',
@@ -366,21 +437,25 @@ def build_table_html(df: pd.DataFrame, title: str, include_group_column: bool = 
     if title.startswith("Group "):
         group_pill = f'<span class="wc-group-pill">{html.escape(title.split()[-1])}</span>'
     card_title = html.escape(title)
-    return f"""
-    <div class="wc-card">
-      <div class="wc-card-header">
-        <div>
-          <div class="wc-card-subtitle">Pre-Tournament Probability Table</div>
-          <div class="wc-card-title">{card_title}</div>
+    return textwrap.dedent(
+        f"""
+        <div class="wc-card">
+          <div class="wc-card-header">
+            <div>
+              <div class="wc-card-subtitle">Pre-Tournament Probability Table</div>
+              <div class="wc-card-title">{card_title}</div>
+            </div>
+            {group_pill}
+          </div>
+          <div class="wc-table-wrap">
+            <table class="wc-table">
+              <thead><tr>{''.join(headers)}</tr></thead>
+              <tbody>{''.join(body_rows)}</tbody>
+            </table>
+          </div>
         </div>
-        {group_pill}
-      </div>
-      <table class="wc-table">
-        <thead><tr>{''.join(headers)}</tr></thead>
-        <tbody>{''.join(body_rows)}</tbody>
-      </table>
-    </div>
-    """
+        """
+    ).strip()
 
 
 def group_table_frame(df: pd.DataFrame, group_code: str) -> pd.DataFrame:
@@ -434,17 +509,15 @@ def current_view_tables(df: pd.DataFrame, view_mode: str, selected_group: str) -
 def render_tables(tables: list[dict[str, object]], multi_column: bool) -> None:
     """Render one or many HTML tables into the Streamlit dashboard."""
     if multi_column:
-        columns = st.columns(3)
-        for index, table in enumerate(tables):
-            with columns[index % 3]:
-                st.markdown(
-                    build_table_html(
-                        table["frame"],
-                        table["title"],
-                        include_group_column=table["include_group_column"],
-                    ),
-                    unsafe_allow_html=True,
-                )
+        grid_html = "".join(
+            build_table_html(
+                table["frame"],
+                table["title"],
+                include_group_column=table["include_group_column"],
+            )
+            for table in tables
+        )
+        st.markdown(f'<div class="wc-grid">{grid_html}</div>', unsafe_allow_html=True)
         return
 
     for table in tables:
