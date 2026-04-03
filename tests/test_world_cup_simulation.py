@@ -163,3 +163,10 @@ def test_build_table_html_smoke_contains_expected_probability_columns():
     assert "2nd %" in html
     assert "3rd %" in html
     assert "4th %" in html
+
+
+def test_build_export_stem_appends_suffix_without_overwriting_base_name():
+    home = load_home_module()
+
+    assert home.build_export_stem("group_a_view") == "group_a_view"
+    assert home.build_export_stem("group_a_view", "20260403_220500_123456") == "group_a_view_20260403_220500_123456"

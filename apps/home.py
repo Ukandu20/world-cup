@@ -1,5 +1,6 @@
 import html
 import base64
+from datetime import datetime
 from pathlib import Path
 import subprocess
 import sys
@@ -585,14 +586,31 @@ def render_export_document(page_title: str, tables: list[dict[str, object]], mul
     return document
 
 
-def export_document_png(filename_stem: str, page_title: str, tables: list[dict[str, object]], multi_column: bool) -> Path:
+def build_export_stem(filename_stem: str, export_suffix: str | None = None) -> str:
+    """Build the export filename stem, adding a unique suffix when requested."""
+    return filename_stem if not export_suffix else f"{filename_stem}_{export_suffix}"
+
+
+def generate_export_suffix() -> str:
+    """Generate a timestamp suffix so each export writes a fresh artifact."""
+    return datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+
+
+def export_document_png(
+    filename_stem: str,
+    page_title: str,
+    tables: list[dict[str, object]],
+    multi_column: bool,
+    export_suffix: str | None = None,
+) -> Path:
     """Export a complete standalone HTML view as a PNG screenshot."""
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     document = render_export_document(page_title, tables, multi_column)
-    output_path = EXPORT_DIR / f"{filename_stem}.png"
+    output_stem = build_export_stem(filename_stem, export_suffix=export_suffix)
+    output_path = EXPORT_DIR / f"{output_stem}.png"
 
     with tempfile.TemporaryDirectory(prefix="wc_export_", dir=str(EXPORT_DIR)) as temp_dir:
-        temp_html_path = Path(temp_dir) / f"{filename_stem}.html"
+        temp_html_path = Path(temp_dir) / f"{output_stem}.html"
         temp_html_path.write_text(document, encoding="utf-8")
         page_url = temp_html_path.resolve().as_uri()
 
@@ -623,16 +641,36 @@ def export_document_png(filename_stem: str, page_title: str, tables: list[dict[s
 
 def export_current_view(view_mode: str, selected_group: str, tables: list[dict[str, object]]) -> Path:
     """Export the currently visible dashboard view as one PNG file."""
+    export_suffix = generate_export_suffix()
     if view_mode == "Single group":
-        return export_document_png(f"group_{selected_group.lower()}_view", f"Group {selected_group} View", tables, multi_column=False)
+        return export_document_png(
+            f"group_{selected_group.lower()}_view",
+            f"Group {selected_group} View",
+            tables,
+            multi_column=False,
+            export_suffix=export_suffix,
+        )
     if view_mode == "All groups":
-        return export_document_png("all_groups_view", "All Groups View", tables, multi_column=True)
-    return export_document_png("all_Countries_view", "All Countries View", tables, multi_column=False)
+        return export_document_png(
+            "all_groups_view",
+            "All Groups View",
+            tables,
+            multi_column=True,
+            export_suffix=export_suffix,
+        )
+    return export_document_png(
+        "all_Countries_view",
+        "All Countries View",
+        tables,
+        multi_column=False,
+        export_suffix=export_suffix,
+    )
 
 
 def export_all_tables(df: pd.DataFrame) -> list[Path]:
     """Export every individual group table plus the combined all-Countries table as PNG files."""
     exported_paths: list[Path] = []
+    export_suffix = generate_export_suffix()
     for group_code in GROUP_ORDER:
         group_df = group_table_frame(df, group_code)
         if group_df.empty:
@@ -643,6 +681,7 @@ def export_all_tables(df: pd.DataFrame) -> list[Path]:
                 f"Group {group_code}",
                 [{"title": f"Group {group_code}", "frame": group_df, "include_group_column": False}],
                 multi_column=False,
+                export_suffix=export_suffix,
             )
         )
 
@@ -653,6 +692,7 @@ def export_all_tables(df: pd.DataFrame) -> list[Path]:
             "All Countries",
             [{"title": "All Countries", "frame": combined, "include_group_column": True}],
             multi_column=False,
+            export_suffix=export_suffix,
         )
     )
     return exported_paths
