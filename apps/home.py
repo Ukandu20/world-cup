@@ -1,20 +1,32 @@
 import html
+import base64
 from pathlib import Path
 import subprocess
+import sys
 import tempfile
 import textwrap
 
-import numpy as np
 import pandas as pd
 import streamlit as st
 
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from world_cup_simulation import simulate_group_probabilities
+
 DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
 EXPORT_DIR = ROOT / "assets" / "charts" / "generated"
+WORLD_CUP_LOGO_PATH = ROOT / "assets" / "logos" / "world-cup" / "fifa-world-cup-2026.football.cc.svg"
 SIMULATION_COUNT = 20000
+SIMULATION_OPTIONS = {
+    "10k": 10000,
+    "20k": 20000,
+    "100k": 100000,
+}
 GROUP_ORDER = list("ABCDEFGHIJKL")
-VIEW_OPTIONS = ("Single group", "All groups", "All teams")
+VIEW_OPTIONS = ("Single group", "All groups", "All Countries")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
 CURRENT_HOLDER_TEAM_ID = "ARG"
 PROBABILITY_PALETTES = {
@@ -38,20 +50,34 @@ def fix_mojibake(value: str) -> str:
 
 
 @st.cache_data(show_spinner=False)
-def load_data() -> tuple[pd.DataFrame, dict[str, str]]:
-    """Load and combine the group, team, FIFA ranking, and Elo datasets."""
+def load_world_cup_logo_data_uri() -> str:
+    """Load the local World Cup logo as a data URI for inline display and export."""
+    svg_bytes = WORLD_CUP_LOGO_PATH.read_bytes()
+    encoded = base64.b64encode(svg_bytes).decode("ascii")
+    return f"data:image/svg+xml;base64,{encoded}"
+
+
+@st.cache_data(show_spinner=False)
+def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, str]]:
+    """Load the dashboard inputs: teams, ratings, fixtures, lead-in form, and metadata."""
     teams = pd.read_csv(DATA_DIR / "teams.csv")
     groups = pd.read_csv(DATA_DIR / "groups.csv")
     fifa = pd.read_csv(DATA_DIR / "fifa_rank_snapshots.csv")
     elo = pd.read_csv(DATA_DIR / "elo_snapshots.csv")
+    fixtures = pd.read_csv(DATA_DIR / "fixtures.csv")
+    lead_in = pd.read_csv(DATA_DIR / "team_results_lead_in.csv")
     manifest = pd.read_json(DATA_DIR / "manifest.json", typ="series").to_dict()
 
     text_columns = ["canonical_name", "tournament_name"]
-    for frame in (teams, groups, fifa, elo):
+    for frame in (teams, groups, fifa, elo, fixtures, lead_in):
         for column in text_columns:
             if column in frame.columns:
                 frame[column] = frame[column].map(fix_mojibake)
     groups["team_name"] = groups["team_name"].map(fix_mojibake)
+    if "qualified_team_name" in lead_in.columns:
+        lead_in["qualified_team_name"] = lead_in["qualified_team_name"].map(fix_mojibake)
+    if "opponent_name" in lead_in.columns:
+        lead_in["opponent_name"] = lead_in["opponent_name"].map(fix_mojibake)
 
     latest_fifa = (
         fifa.sort_values(["snapshot_date", "source_as_of"])
@@ -87,45 +113,24 @@ def load_data() -> tuple[pd.DataFrame, dict[str, str]]:
         "fifa_snapshot_date": latest_fifa["fifa_snapshot_date"].dropna().max(),
         "elo_snapshot_date": latest_elo["elo_snapshot_date"].dropna().max(),
     }
-    return merged, metadata
-
-
-def zscore(series: pd.Series) -> pd.Series:
-    """Standardize a numeric series while handling empty or constant inputs safely."""
-    std = series.std(ddof=0)
-    if pd.isna(std) or std == 0:
-        return pd.Series(np.zeros(len(series)), index=series.index)
-    return (series - series.mean()) / std
+    return merged, fixtures, lead_in, metadata
 
 
 @st.cache_data(show_spinner=False)
-def simulate_probabilities(base_df: pd.DataFrame, simulations: int = SIMULATION_COUNT) -> pd.DataFrame:
-    """Estimate group finishing probabilities from a rating-weighted Monte Carlo model."""
-    df = base_df.copy()
-    df["strength_score"] = 0.65 * zscore(df["elo_rating"]) + 0.35 * zscore(df["fifa_points"])
-
-    results: list[pd.DataFrame] = []
-    for group_code in GROUP_ORDER:
-        group = df[df["group_code"] == group_code].copy()
-        if group.empty:
-            continue
-
-        scores = group["strength_score"].to_numpy(dtype=float)
-        noise = np.random.default_rng(20260403 + ord(group_code)).gumbel(size=(simulations, len(group)))
-        finish_order = np.argsort(-(scores + noise), axis=1)
-
-        probabilities = {}
-        for place in range(len(group)):
-            counts = np.bincount(finish_order[:, place], minlength=len(group))
-            probabilities[f"prob_{place + 1}"] = counts / simulations * 100
-
-        probability_frame = pd.DataFrame(probabilities)
-        probability_frame["team_id"] = group["team_id"].to_numpy()
-        probability_frame["group_code"] = group_code
-        results.append(probability_frame)
-
-    probabilities_df = pd.concat(results, ignore_index=True)
-    return df.merge(probabilities_df, on=["team_id", "group_code"], how="left")
+def simulate_probabilities(
+    base_df: pd.DataFrame,
+    fixtures_df: pd.DataFrame,
+    lead_in_df: pd.DataFrame,
+    simulations: int = SIMULATION_COUNT,
+) -> pd.DataFrame:
+    """Estimate group finishing probabilities from the fixture-based Monte Carlo model."""
+    return simulate_group_probabilities(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=simulations,
+        group_order=GROUP_ORDER,
+    )
 
 
 def shared_css() -> str:
@@ -311,6 +316,17 @@ def shared_css() -> str:
     .wc-header {
         margin-bottom: 1.2rem;
     }
+    .wc-header-bar {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .wc-title-logo {
+        width: 72px;
+        height: 72px;
+        object-fit: contain;
+        flex: 0 0 auto;
+    }
     .wc-meta {
         color: #475569;
         font-size: 0.92rem;
@@ -329,6 +345,13 @@ def shared_css() -> str:
     @media (max-width: 760px) {
         .wc-export-page {
             padding: 12px;
+        }
+        .wc-header-bar {
+            align-items: flex-start;
+        }
+        .wc-title-logo {
+            width: 56px;
+            height: 56px;
         }
         .wc-table thead th,
         .wc-table tbody td {
@@ -405,7 +428,7 @@ def build_table_html(df: pd.DataFrame, title: str, include_group_column: bool = 
         headers.append('<th class="wc-group-col">Group</th>')
     headers.extend(
         [
-            "<th>Name</th>",
+            "<th>Country</th>",
             '<th class="wc-num">World Rank</th>',
             '<th class="wc-num">Elo</th>',
             '<th class="wc-num">1st %</th>',
@@ -498,8 +521,8 @@ def current_view_tables(df: pd.DataFrame, view_mode: str, selected_group: str) -
     combined = all_teams_table_frame(df)
     return [
         {
-            "title": "All Teams",
-            "stem": "all_teams",
+            "title": "All Countries",
+            "stem": "all_Countries",
             "frame": combined,
             "include_group_column": True,
         }
@@ -604,11 +627,11 @@ def export_current_view(view_mode: str, selected_group: str, tables: list[dict[s
         return export_document_png(f"group_{selected_group.lower()}_view", f"Group {selected_group} View", tables, multi_column=False)
     if view_mode == "All groups":
         return export_document_png("all_groups_view", "All Groups View", tables, multi_column=True)
-    return export_document_png("all_teams_view", "All Teams View", tables, multi_column=False)
+    return export_document_png("all_Countries_view", "All Countries View", tables, multi_column=False)
 
 
 def export_all_tables(df: pd.DataFrame) -> list[Path]:
-    """Export every individual group table plus the combined all-teams table as PNG files."""
+    """Export every individual group table plus the combined all-Countries table as PNG files."""
     exported_paths: list[Path] = []
     for group_code in GROUP_ORDER:
         group_df = group_table_frame(df, group_code)
@@ -626,9 +649,9 @@ def export_all_tables(df: pd.DataFrame) -> list[Path]:
     combined = all_teams_table_frame(df)
     exported_paths.append(
         export_document_png(
-            "all_teams",
-            "All Teams",
-            [{"title": "All Teams", "frame": combined, "include_group_column": True}],
+            "all_Countries",
+            "All Countries",
+            [{"title": "All Countries", "frame": combined, "include_group_column": True}],
             multi_column=False,
         )
     )
@@ -640,19 +663,37 @@ def main() -> None:
     st.set_page_config(page_title="World Cup 2026 Group Dashboard", layout="wide")
     inject_styles()
 
-    base_df, metadata = load_data()
-    dashboard_df = simulate_probabilities(base_df)
+    base_df, fixtures_df, lead_in_df, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    simulation_label = st.radio(
+        "Simulation runs",
+        tuple(SIMULATION_OPTIONS.keys()),
+        index=1,
+        horizontal=True,
+    )
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    dashboard_df = simulate_probabilities(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=simulation_count,
+    )
 
     st.markdown(
         f"""
         <div class="wc-header">
-          <div class="wc-kicker">Pre-Tournament Predictions</div>
-          <h1 style="margin:0;">World Cup 2026 Group Dashboard</h1>
-          <div class="wc-meta">
-            Build date: {html.escape(str(metadata["build_date"]))} |
-            FIFA snapshot: {html.escape(str(metadata["fifa_snapshot_date"]))} |
-            Elo snapshot: {html.escape(str(metadata["elo_snapshot_date"]))} |
-            Simulations per group: {SIMULATION_COUNT:,}
+          <div class="wc-header-bar">
+            <img class="wc-title-logo" src="{world_cup_logo_data_uri}" alt="FIFA World Cup 2026 logo" />
+            <div>
+              <div class="wc-kicker">Pre-Tournament Predictions</div>
+              <h1 style="margin:0;">World Cup 2026 Group Dashboard</h1>
+              <div class="wc-meta">
+                Build date: {html.escape(str(metadata["build_date"]))} |
+                FIFA snapshot: {html.escape(str(metadata["fifa_snapshot_date"]))} |
+                Elo snapshot: {html.escape(str(metadata["elo_snapshot_date"]))} |
+                Simulations per group: {simulation_count:,}
+              </div>
+            </div>
           </div>
         </div>
         """,
@@ -660,7 +701,8 @@ def main() -> None:
     )
 
     st.caption(
-        "Probabilities are Pre-Tournament estimates from a rating-weighted simulation using Elo rating and FIFA points. "
+        "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "
+        "a blended Elo/FIFA baseline, and each country's last eight pre-tournament results. "
         "The percentage cells use color gradients so stronger finish likelihoods read more quickly."
     )
 
