@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from world_cup_simulation import simulate_group_probabilities
+from world_cup_simulation import build_deterministic_bracket, simulate_group_probabilities
 
 DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
 EXPORT_DIR = ROOT / "assets" / "charts" / "generated"
@@ -36,9 +36,10 @@ SIMULATION_OPTIONS = {
 DEFAULT_RECENT_MATCH_WINDOW = 10
 DEFAULT_SIMULATION_LABEL = "250"
 GROUP_ORDER = list("ABCDEFGHIJKL")
-VIEW_OPTIONS = ("Single group", "All groups", "All Countries")
+VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
 CURRENT_HOLDER_TEAM_ID = "ARG"
+BRACKET_HEAD_TO_HEAD_SIMULATIONS = 1000
 PROBABILITY_PALETTES = {
     "prob_1": ((220, 252, 231), (22, 163, 74)),
     "prob_2": ((219, 234, 254), (37, 99, 235)),
@@ -334,9 +335,18 @@ def shared_css() -> str:
     .wc-name-cell {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         gap: 0.62rem;
         font-weight: 600;
         min-width: 0;
+        width: 100%;
+    }
+    .wc-name-main {
+        display: flex;
+        align-items: center;
+        gap: 0.62rem;
+        min-width: 0;
+        flex: 1 1 auto;
     }
     .wc-name-cell .fi {
         font-size: 1.18rem;
@@ -349,6 +359,28 @@ def shared_css() -> str:
         text-overflow: ellipsis;
         white-space: normal;
         line-height: 1.22;
+    }
+    .wc-qual-marker {
+        position: relative;
+        flex: 0 0 auto;
+        width: 0.28rem;
+        height: 1.75rem;
+        border-radius: 999px;
+        overflow: hidden;
+        background: rgba(148, 163, 184, 0.16);
+        box-shadow: inset 0 0 0 1px rgba(148, 163, 184, 0.12);
+    }
+    .wc-qual-segment {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .wc-qual-segment-top2 {
+        bottom: 0;
+        background: linear-gradient(180deg, #22c55e 0%, #15803d 100%);
+    }
+    .wc-qual-segment-third {
+        background: linear-gradient(180deg, #fb923c 0%, #ea580c 100%);
     }
     .wc-holder-cell {
         background: linear-gradient(180deg, #fef3c7 0%, #fde68a 100%);
@@ -391,11 +423,20 @@ def shared_css() -> str:
         justify-content: center;
         gap: 0;
     }
+    .wc-grid .wc-name-main {
+        justify-content: center;
+        gap: 0;
+        flex: 0 0 auto;
+    }
     .wc-grid .wc-name-cell .fi {
         font-size: 1.05rem;
     }
     .wc-grid .wc-name-text {
         display: none;
+    }
+    .wc-grid .wc-qual-marker {
+        margin-left: 0.24rem;
+        height: 1.45rem;
     }
     .wc-header {
         margin-bottom: 1.2rem;
@@ -428,14 +469,181 @@ def shared_css() -> str:
         object-fit: contain;
         vertical-align: middle;
     }
+    .wc-bracket-board {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(190px, 230px) minmax(0, 1fr);
+        gap: 14px;
+        align-items: center;
+        margin-top: 0.65rem;
+    }
+    .wc-bracket-side {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(128px, 168px));
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+    }
+    .wc-bracket-round {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .wc-bracket-round-left-r32,
+    .wc-bracket-round-right-r32 {
+        padding-top: 0;
+    }
+    .wc-bracket-round-left-r16,
+    .wc-bracket-round-right-r16 {
+        padding-top: 2.35rem;
+    }
+    .wc-bracket-round-left-qf,
+    .wc-bracket-round-right-qf {
+        padding-top: 4.7rem;
+    }
+    .wc-bracket-round-left-sf,
+    .wc-bracket-round-right-sf {
+        padding-top: 7.05rem;
+    }
+    .wc-bracket-round-title {
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #0f172a;
+        padding: 0.2rem 0.1rem;
+    }
+    .wc-bracket-side-right .wc-bracket-round-title {
+        text-align: right;
+    }
+    .wc-bracket-final-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.85rem;
+        min-height: 100%;
+    }
+    .wc-bracket-final-title {
+        font-size: 0.9rem;
+        font-weight: 900;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #0f172a;
+    }
+    .wc-bracket-match {
+        border: 1px solid #dfe5ec;
+        border-radius: 16px;
+        background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+        box-shadow: 0 8px 20px rgba(17, 24, 39, 0.05);
+        padding: 0.65rem 0.7rem;
+    }
+    .wc-bracket-final-column .wc-bracket-match {
+        width: 100%;
+        max-width: 220px;
+        box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+    }
+    .wc-bracket-match-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.6rem;
+        margin-bottom: 0.45rem;
+    }
+    .wc-bracket-side-right .wc-bracket-match-head {
+        flex-direction: row-reverse;
+    }
+    .wc-bracket-match-number {
+        font-size: 0.72rem;
+        color: #64748b;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+    .wc-bracket-match-prob {
+        font-size: 0.76rem;
+        font-weight: 800;
+        color: #0f766e;
+        background: rgba(13, 148, 136, 0.1);
+        border-radius: 999px;
+        padding: 0.18rem 0.45rem;
+        white-space: nowrap;
+    }
+    .wc-bracket-teams {
+        display: flex;
+        flex-direction: column;
+        gap: 0.42rem;
+    }
+    .wc-bracket-team {
+        display: flex;
+        align-items: center;
+        gap: 0.55rem;
+        border-radius: 12px;
+        padding: 0.38rem 0.48rem;
+        color: #0f172a;
+        background: rgba(248, 250, 252, 0.9);
+    }
+    .wc-bracket-side-right .wc-bracket-team {
+        flex-direction: row-reverse;
+    }
+    .wc-bracket-team-win {
+        background: linear-gradient(180deg, #dcfce7 0%, #bbf7d0 100%);
+        box-shadow: inset 0 0 0 1px rgba(34, 197, 94, 0.18);
+        font-weight: 700;
+    }
+    .wc-bracket-team .fi {
+        font-size: 1rem;
+        border-radius: 999px;
+        flex: 0 0 auto;
+    }
+    .wc-bracket-team-name {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .wc-bracket-side-right .wc-bracket-team-name {
+        text-align: right;
+    }
+    .wc-bracket-note {
+        color: #475569;
+        font-size: 0.9rem;
+        margin: 0.35rem 0 0.2rem;
+    }
     @media (max-width: 1380px) {
         .wc-grid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .wc-bracket-board {
+            grid-template-columns: 1fr;
+        }
+        .wc-bracket-side {
+            grid-template-columns: repeat(2, minmax(180px, 1fr));
+        }
+        .wc-bracket-round-left-r16,
+        .wc-bracket-round-right-r16,
+        .wc-bracket-round-left-qf,
+        .wc-bracket-round-right-qf,
+        .wc-bracket-round-left-sf,
+        .wc-bracket-round-right-sf {
+            padding-top: 0;
         }
     }
     @media (max-width: 860px) {
         .wc-grid {
             grid-template-columns: 1fr;
+        }
+        .wc-bracket-side {
+            grid-template-columns: 1fr;
+        }
+        .wc-bracket-side-right .wc-bracket-round-title {
+            text-align: left;
+        }
+        .wc-bracket-side-right .wc-bracket-match-head,
+        .wc-bracket-side-right .wc-bracket-team {
+            flex-direction: row;
+        }
+        .wc-bracket-side-right .wc-bracket-team-name {
+            text-align: left;
         }
     }
     @media (max-width: 760px) {
@@ -461,11 +669,22 @@ def shared_css() -> str:
             justify-content: center;
             gap: 0;
         }
+        .wc-name-main {
+            justify-content: center;
+            gap: 0;
+        }
         .wc-name-cell .fi {
             font-size: 1.28rem;
         }
         .wc-name-text {
             display: none;
+        }
+        .wc-qual-marker {
+            margin-left: 0.24rem;
+            height: 1.5rem;
+        }
+        .wc-bracket-side {
+            grid-template-columns: 1fr;
         }
     }
     """
@@ -582,17 +801,48 @@ def current_holder_cell_class(team_id: str) -> str:
     return " wc-holder-cell" if team_id == CURRENT_HOLDER_TEAM_ID else ""
 
 
-def render_name_cell(flag_icon_code: str, display_name: str) -> str:
+def render_group_qualification_marker(top2_prob: float, third_prob: float) -> str:
+    """Render a compact vertical rail for top-two and best-third qualification chances."""
+    top2_height = max(0.0, min(100.0, float(top2_prob)))
+    third_height = max(0.0, min(100.0 - top2_height, float(third_prob)))
+    segments = []
+    if top2_height > 0:
+        segments.append(
+            f'<span class="wc-qual-segment wc-qual-segment-top2" style="height:{top2_height:.1f}%;"></span>'
+        )
+    if third_height > 0:
+        segments.append(
+            f'<span class="wc-qual-segment wc-qual-segment-third" style="bottom:{top2_height:.1f}%;height:{third_height:.1f}%;"></span>'
+        )
+    return f'<span class="wc-qual-marker" aria-hidden="true">{"".join(segments)}</span>'
+
+
+def render_name_cell(
+    flag_icon_code: str,
+    display_name: str,
+    show_group_qualification_marker: bool = False,
+    top2_prob: float = 0.0,
+    third_prob: float = 0.0,
+) -> str:
     """Render the team name cell with a flag-icons badge when a code is available."""
     safe_name = html.escape(display_name)
+    marker = render_group_qualification_marker(top2_prob, third_prob) if show_group_qualification_marker else ""
     if isinstance(flag_icon_code, str) and flag_icon_code:
         return (
             '<div class="wc-name-cell">'
+            '<span class="wc-name-main">'
             f'<span class="fi fi-{html.escape(flag_icon_code)}"></span>'
             f'<span class="wc-name-text">{safe_name}</span>'
+            "</span>"
+            f"{marker}"
             "</div>"
         )
-    return f'<div class="wc-name-cell"><span class="wc-name-text">{safe_name}</span></div>'
+    return (
+        '<div class="wc-name-cell">'
+        f'<span class="wc-name-main"><span class="wc-name-text">{safe_name}</span></span>'
+        f"{marker}"
+        "</div>"
+    )
 
 
 def champion_column_header() -> str:
@@ -615,6 +865,7 @@ def build_table_html(
     """Render one standings table as a styled HTML card."""
     df = ensure_dashboard_probability_columns(df)
     include_rank_column = include_group_column
+    show_group_qualification_marker = not include_group_column and not include_ko_column
     probability_columns = ["prob_1", "prob_2", "prob_3", "prob_4"]
     if include_ko_column:
         probability_columns.extend(column_name for column_name, _ in ALL_COUNTRIES_KNOCKOUT_COLUMNS)
@@ -654,7 +905,11 @@ def build_table_html(
             cells.append(f'<td class="wc-num">{rank}</td>')
         cells.extend(
             [
-                f'<td class="{current_holder_cell_class(row.team_id).strip()}">{render_name_cell(row.flag_icon_code, row.display_name)}</td>',
+                (
+                    f'<td class="{current_holder_cell_class(row.team_id).strip()}">'
+                    f'{render_name_cell(row.flag_icon_code, row.display_name, show_group_qualification_marker=show_group_qualification_marker, top2_prob=row.prob_1 + row.prob_2, third_prob=row.top8_third_prob)}'
+                    "</td>"
+                ),
                 f'<td class="wc-num">{int(row.world_rank)}</td>',
                 f'<td class="wc-num">{int(row.elo_rating)}</td>',
                 f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_1", row.prob_1, *column_ranges["prob_1"])}">{format_percent(row.prob_1)}</td>',
@@ -722,6 +977,138 @@ def all_teams_table_frame(df: pd.DataFrame) -> pd.DataFrame:
     sort_columns.extend(["elo_rating", "world_rank"])
     ascending.extend([False, True])
     return df.sort_values(sort_columns, ascending=ascending)
+
+
+def team_metadata_lookup(df: pd.DataFrame) -> dict[str, dict[str, str]]:
+    """Build a lookup of display labels and flag codes for bracket rendering."""
+    unique_rows = df.drop_duplicates(subset=["team_id"], keep="first")
+    return {
+        str(row.team_id): {
+            "display_name": str(row.display_name),
+            "flag_icon_code": str(row.flag_icon_code) if pd.notna(row.flag_icon_code) else "",
+        }
+        for row in unique_rows.itertuples(index=False)
+    }
+
+
+def render_bracket_team(team_id: str, metadata_lookup: dict[str, dict[str, str]], is_winner: bool) -> str:
+    """Render one team row inside a bracket match card."""
+    metadata = metadata_lookup.get(team_id, {"display_name": team_id, "flag_icon_code": ""})
+    classes = "wc-bracket-team wc-bracket-team-win" if is_winner else "wc-bracket-team"
+    team_name = html.escape(metadata["display_name"])
+    flag_icon_code = metadata["flag_icon_code"]
+    if flag_icon_code:
+        label = (
+            f'<span class="fi fi-{html.escape(flag_icon_code)}"></span>'
+            f'<span class="wc-bracket-team-name">{team_name}</span>'
+        )
+    else:
+        label = f'<span class="wc-bracket-team-name">{team_name}</span>'
+    return f'<div class="{classes}">{label}</div>'
+
+
+def render_bracket_match(match: dict[str, object], metadata_lookup: dict[str, dict[str, str]]) -> str:
+    """Render one predicted knockout match card."""
+    winner_team_id = str(match["winner_team_id"])
+    home_team_id = str(match["home_team_id"])
+    away_team_id = str(match["away_team_id"])
+    probability_label = format_percent(float(match["winner_win_prob"]))
+    return textwrap.dedent(
+        f"""
+        <div class="wc-bracket-match">
+          <div class="wc-bracket-match-head">
+            <div class="wc-bracket-match-number">Match {int(match["match_number"])}</div>
+            <div class="wc-bracket-match-prob">{probability_label}</div>
+          </div>
+          <div class="wc-bracket-teams">
+            {render_bracket_team(home_team_id, metadata_lookup, home_team_id == winner_team_id)}
+            {render_bracket_team(away_team_id, metadata_lookup, away_team_id == winner_team_id)}
+          </div>
+        </div>
+        """
+    ).strip()
+
+
+def build_bracket_round_column(round_data: dict[str, object], side: str) -> str:
+    """Render one bracket round column for the left or right half of the tree."""
+    round_code = str(round_data["round_code"]).lower()
+    classes = f"wc-bracket-round wc-bracket-round-{side}-{round_code}"
+    matches_html = "".join(round_data["matches"])
+    return textwrap.dedent(
+        f"""
+        <div class="{classes}">
+          <div class="wc-bracket-round-title">{html.escape(str(round_data["round_label"]))}</div>
+          {matches_html}
+        </div>
+        """
+    ).strip()
+
+
+def build_bracket_html(bracket_data: dict[str, object], metadata_lookup: dict[str, dict[str, str]]) -> str:
+    """Render the deterministic knockout bracket as a left-right tournament tree."""
+    round_lookup = {
+        str(round_data["round_code"]): {
+            **round_data,
+            "matches": [render_bracket_match(match, metadata_lookup) for match in round_data["matches"]],
+        }
+        for round_data in bracket_data["rounds"]
+    }
+    left_order = ["R32", "R16", "QF", "SF"]
+    right_order = ["SF", "QF", "R16", "R32"]
+    left_columns = []
+    right_columns = []
+    for round_code in left_order:
+        round_data = round_lookup[round_code]
+        midpoint = len(round_data["matches"]) // 2
+        left_columns.append(
+            build_bracket_round_column(
+                {
+                    "round_code": round_data["round_code"],
+                    "round_label": round_data["round_label"],
+                    "matches": round_data["matches"][:midpoint],
+                },
+                side="left",
+            )
+        )
+    for round_code in right_order:
+        round_data = round_lookup[round_code]
+        midpoint = len(round_data["matches"]) // 2
+        right_columns.append(
+            build_bracket_round_column(
+                {
+                    "round_code": round_data["round_code"],
+                    "round_label": round_data["round_label"],
+                    "matches": round_data["matches"][midpoint:],
+                },
+                side="right",
+            )
+        )
+    final_round = round_lookup["F"]
+    final_match_html = final_round["matches"][0] if final_round["matches"] else ""
+    qualifying_groups = html.escape(str(bracket_data["qualifying_third_place_groups"]))
+    return textwrap.dedent(
+        f"""
+        <div class="wc-card">
+          <div class="wc-card-header">
+            <div>
+              <div class="wc-card-subtitle">Predicted Knockout Bracket</div>
+              <div class="wc-card-title">Bracket</div>
+            </div>
+          </div>
+          <div class="wc-table-wrap">
+            <div class="wc-bracket-note">Best third-place groups in this predicted bracket: {qualifying_groups}</div>
+            <div class="wc-bracket-board">
+              <div class="wc-bracket-side wc-bracket-side-left">{''.join(left_columns)}</div>
+              <div class="wc-bracket-final-column">
+                <div class="wc-bracket-final-title">{html.escape(str(final_round["round_label"]))}</div>
+                {final_match_html}
+              </div>
+              <div class="wc-bracket-side wc-bracket-side-right">{''.join(right_columns)}</div>
+            </div>
+          </div>
+        </div>
+        """
+    ).strip()
 
 
 def current_view_tables(
@@ -795,6 +1182,11 @@ def render_tables(tables: list[dict[str, object]], multi_column: bool) -> None:
         )
 
 
+def render_bracket(bracket_data: dict[str, object], metadata_lookup: dict[str, dict[str, str]]) -> None:
+    """Render the deterministic knockout bracket view."""
+    st.markdown(build_bracket_html(bracket_data, metadata_lookup), unsafe_allow_html=True)
+
+
 def render_export_document(page_title: str, tables: list[dict[str, object]], multi_column: bool) -> str:
     """Render a complete standalone HTML document for export."""
     container_class = "wc-grid" if multi_column else "wc-grid-single"
@@ -825,6 +1217,30 @@ def render_export_document(page_title: str, tables: list[dict[str, object]], mul
 </html>
 """
     return document
+
+
+def render_bracket_document(
+    page_title: str,
+    bracket_data: dict[str, object],
+    metadata_lookup: dict[str, dict[str, str]],
+) -> str:
+    """Render a standalone HTML document for the bracket view."""
+    bracket_html = build_bracket_html(bracket_data, metadata_lookup)
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html.escape(page_title)}</title>
+  <style>{shared_css()}</style>
+</head>
+<body>
+  <div class="wc-export-page">
+    {bracket_html}
+  </div>
+</body>
+</html>
+"""
 
 
 def build_export_stem(filename_stem: str, export_suffix: str | None = None) -> str:
@@ -880,7 +1296,56 @@ def export_document_png(
         raise RuntimeError(f"PNG export failed: {last_error}")
 
 
-def export_current_view(view_mode: str, selected_group: str, tables: list[dict[str, object]]) -> Path:
+def export_bracket_png(
+    filename_stem: str,
+    page_title: str,
+    bracket_data: dict[str, object],
+    metadata_lookup: dict[str, dict[str, str]],
+    export_suffix: str | None = None,
+) -> Path:
+    """Export the deterministic bracket view as a PNG screenshot."""
+    EXPORT_DIR.mkdir(parents=True, exist_ok=True)
+    document = render_bracket_document(page_title, bracket_data, metadata_lookup)
+    output_stem = build_export_stem(filename_stem, export_suffix=export_suffix)
+    output_path = EXPORT_DIR / f"{output_stem}.png"
+
+    with tempfile.TemporaryDirectory(prefix="wc_export_", dir=str(EXPORT_DIR)) as temp_dir:
+        temp_html_path = Path(temp_dir) / f"{output_stem}.html"
+        temp_html_path.write_text(document, encoding="utf-8")
+        page_url = temp_html_path.resolve().as_uri()
+
+        last_error = ""
+        for channel in SCREENSHOT_CHANNELS:
+            command = [
+                "playwright.exe",
+                "screenshot",
+                "--full-page",
+                "--wait-for-timeout",
+                "1500",
+                "--channel",
+                channel,
+                page_url,
+                str(output_path),
+            ]
+            try:
+                subprocess.run(command, check=True, capture_output=True, text=True)
+                return output_path
+            except FileNotFoundError:
+                last_error = "playwright.exe was not found on PATH."
+                break
+            except subprocess.CalledProcessError as exc:
+                last_error = (exc.stderr or exc.stdout or str(exc)).strip()
+
+        raise RuntimeError(f"PNG export failed: {last_error}")
+
+
+def export_current_view(
+    view_mode: str,
+    selected_group: str,
+    tables: list[dict[str, object]],
+    bracket_data: dict[str, object] | None = None,
+    metadata_lookup: dict[str, dict[str, str]] | None = None,
+) -> Path:
     """Export the currently visible dashboard view as one PNG file."""
     export_suffix = generate_export_suffix()
     if view_mode == "Single group":
@@ -897,6 +1362,16 @@ def export_current_view(view_mode: str, selected_group: str, tables: list[dict[s
             "All Groups View",
             tables,
             multi_column=True,
+            export_suffix=export_suffix,
+        )
+    if view_mode == "Bracket":
+        if bracket_data is None or metadata_lookup is None:
+            raise ValueError("Bracket export requires bracket_data and metadata_lookup")
+        return export_bracket_png(
+            "bracket_view",
+            "Bracket View",
+            bracket_data,
+            metadata_lookup,
             export_suffix=export_suffix,
         )
     return export_document_png(
@@ -969,7 +1444,13 @@ def main() -> None:
             lead_in_df=lead_in_df,
             simulations=simulation_count,
         )
+        bracket_data = build_deterministic_bracket(
+            dashboard_df,
+            fixtures_df,
+            head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        )
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
+    metadata_lookup = team_metadata_lookup(dashboard_df)
 
     st.markdown(
         f"""
@@ -1001,12 +1482,13 @@ def main() -> None:
         "and a ratings-vs-form blend (50% / 50%). "
         "Top 8 3rd% is the share of runs where a team finishes third and still advances. "
         "KO% means reaching the Round of 32; R16%, QF%, SF%, Final%, and Champion% track deeper knockout progression. "
+        "The Bracket view turns the same simulation into one stable predicted knockout path with matchup winners and win percentages. "
         "The percentage cells use color gradients so stronger finish likelihoods read more quickly."
     )
 
     view_mode = st.radio("View", VIEW_OPTIONS, horizontal=True)
     selected_group = st.selectbox("Group", GROUP_ORDER, index=0) if view_mode == "Single group" else GROUP_ORDER[0]
-    tables = current_view_tables(
+    tables = [] if view_mode == "Bracket" else current_view_tables(
         dashboard_df,
         view_mode,
         selected_group,
@@ -1017,9 +1499,17 @@ def main() -> None:
     with action_cols[0]:
         if st.button("Export This View", use_container_width=True):
             try:
-                export_path = export_current_view(view_mode, selected_group, tables)
+                export_path = export_current_view(
+                    view_mode,
+                    selected_group,
+                    tables,
+                    bracket_data=bracket_data,
+                    metadata_lookup=metadata_lookup,
+                )
                 st.success(f"Exported current view to {export_path}")
             except RuntimeError as exc:
+                st.error(str(exc))
+            except ValueError as exc:
                 st.error(str(exc))
     with action_cols[1]:
         if st.button("Export All Tables", use_container_width=True):
@@ -1031,7 +1521,10 @@ def main() -> None:
             except RuntimeError as exc:
                 st.error(str(exc))
 
-    render_tables(tables, multi_column=multi_column)
+    if view_mode == "Bracket":
+        render_bracket(bracket_data, metadata_lookup)
+    else:
+        render_tables(tables, multi_column=multi_column)
 
 
 if __name__ == "__main__":

@@ -14,10 +14,13 @@ if str(ROOT) not in sys.path:
 
 from world_cup_simulation import (  # noqa: E402
     THIRD_PLACE_ROUTING_MAP,
+    build_deterministic_bracket,
     build_team_strengths,
     build_recent_form_metrics,
     extract_group_stage_fixtures,
+    get_modal_group_rankings,
     normalize_weight_pair,
+    predict_knockout_matchup,
     rank_best_third_place_teams,
     rank_group_standings,
     simulate_group_probabilities,
@@ -242,6 +245,27 @@ def test_simulate_group_probabilities_preserves_probability_invariants():
     assert (place_totals == 100.0).all().all()
 
 
+def test_simulate_group_probabilities_tracks_modal_group_rankings():
+    home = load_home_module()
+    base_df, fixtures_df, lead_in_df, _ = home.load_data()
+
+    dashboard_df = simulate_group_probabilities(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=40,
+    )
+
+    modal_rankings = get_modal_group_rankings(dashboard_df)
+
+    assert set(modal_rankings) == set(home.GROUP_ORDER)
+    for group_code, ranked_team_ids in modal_rankings.items():
+        assert len(ranked_team_ids) == 4
+        assert len(set(ranked_team_ids)) == 4
+        expected_group_team_ids = set(dashboard_df[dashboard_df["group_code"] == group_code]["team_id"])
+        assert set(ranked_team_ids) == expected_group_team_ids
+
+
 def test_rank_best_third_place_teams_uses_points_goal_difference_goals_for_then_strength():
     third_place_df = pd.DataFrame(
         [
@@ -291,6 +315,48 @@ def test_third_place_routing_map_includes_known_knockout_combination():
     }
 
 
+def test_predict_knockout_matchup_returns_valid_winner_and_probability():
+    prediction = predict_knockout_matchup(
+        "AAA",
+        "BBB",
+        {"AAA": 1.2, "BBB": 0.3},
+        simulations=200,
+        seed=7,
+    )
+
+    assert prediction["winner_team_id"] in {"AAA", "BBB"}
+    assert 50.0 <= prediction["winner_win_prob"] <= 100.0
+    assert abs(prediction["home_win_prob"] + prediction["away_win_prob"] - 100.0) < 1e-9
+
+
+def test_build_deterministic_bracket_produces_consistent_field():
+    home = load_home_module()
+    base_df, fixtures_df, lead_in_df, _ = home.load_data()
+    dashboard_df = simulate_group_probabilities(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=60,
+    )
+
+    bracket = build_deterministic_bracket(dashboard_df, fixtures_df, head_to_head_simulations=200, seed=11)
+
+    modal_rankings = bracket["modal_group_rankings"]
+    assert len(modal_rankings) == 12
+    assert len({rankings[0] for rankings in modal_rankings.values()}) == 12
+    assert len({rankings[1] for rankings in modal_rankings.values()}) == 12
+    assert len(bracket["qualifying_third_place_team_ids"]) == 8
+    all_qualifiers = (
+        [rankings[0] for rankings in modal_rankings.values()]
+        + [rankings[1] for rankings in modal_rankings.values()]
+        + bracket["qualifying_third_place_team_ids"]
+    )
+    assert len(all_qualifiers) == len(set(all_qualifiers))
+    assert bracket["qualifying_third_place_groups"] in THIRD_PLACE_ROUTING_MAP
+    assert [round_data["round_code"] for round_data in bracket["rounds"]] == ["R32", "R16", "QF", "SF", "F"]
+    assert sum(len(round_data["matches"]) for round_data in bracket["rounds"]) == 31
+
+
 def test_build_table_html_smoke_contains_expected_probability_columns():
     home = load_home_module()
     sample_df = pd.DataFrame(
@@ -306,6 +372,7 @@ def test_build_table_html_smoke_contains_expected_probability_columns():
                 "prob_2": 24.5,
                 "prob_3": 10.0,
                 "prob_4": 4.0,
+                "top8_third_prob": 1.0,
                 "ko_prob": 86.0,
             }
         ]
@@ -320,6 +387,115 @@ def test_build_table_html_smoke_contains_expected_probability_columns():
     assert "3rd %" in html
     assert "4th %" in html
     assert "KO %" not in html
+
+
+def test_build_table_html_group_views_include_qualification_marker():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {
+                "team_id": "ARG",
+                "group_code": "J",
+                "flag_icon_code": "ar",
+                "display_name": "Argentina",
+                "world_rank": 1,
+                "elo_rating": 2140,
+                "prob_1": 61.5,
+                "prob_2": 24.5,
+                "prob_3": 10.0,
+                "prob_4": 4.0,
+                "top8_third_prob": 1.0,
+                "ko_prob": 87.0,
+            }
+        ]
+    )
+
+    html = home.build_table_html(sample_df, "Group J", include_group_column=False, include_ko_column=False)
+
+    assert "wc-qual-marker" in html
+    assert "wc-qual-segment-top2" in html
+    assert "wc-qual-segment-third" in html
+
+
+def test_view_options_include_bracket():
+    home = load_home_module()
+
+    assert "Bracket" in home.VIEW_OPTIONS
+
+
+def test_build_bracket_html_renders_rounds_and_winner_probabilities():
+    home = load_home_module()
+    metadata_lookup = {
+        "ARG": {"display_name": "Argentina", "flag_icon_code": "ar"},
+        "FRA": {"display_name": "France", "flag_icon_code": "fr"},
+    }
+    bracket_data = {
+        "qualifying_third_place_groups": "EFGHIJKL",
+        "rounds": [
+            {
+                "round_code": "R32",
+                "round_label": "Round of 32",
+                "matches": [
+                    {
+                        "match_number": 73,
+                        "home_team_id": "ARG",
+                        "away_team_id": "FRA",
+                        "winner_team_id": "ARG",
+                        "winner_win_prob": 61.5,
+                    }
+                ],
+            },
+            {"round_code": "R16", "round_label": "Round of 16", "matches": []},
+            {"round_code": "QF", "round_label": "Quarter-finals", "matches": []},
+            {"round_code": "SF", "round_label": "Semi-finals", "matches": []},
+            {"round_code": "F", "round_label": "Final", "matches": []},
+        ],
+    }
+
+    html = home.build_bracket_html(bracket_data, metadata_lookup)
+
+    assert "Predicted Knockout Bracket" in html
+    assert "wc-bracket-side-left" in html
+    assert "wc-bracket-final-column" in html
+    assert "wc-bracket-side-right" in html
+    assert "Round of 32" in html
+    assert "Quarter-finals" in html
+    assert "61.5%" in html
+    assert "wc-bracket-team-win" in html
+    assert "Argentina" in html
+    assert "France" in html
+    assert "Play-off for third place" not in html
+
+
+def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
+    home = load_home_module()
+    captured = {}
+
+    def fake_export_bracket_png(filename_stem, page_title, bracket_data, metadata_lookup, export_suffix=None):
+        captured.update(
+            {
+                "filename_stem": filename_stem,
+                "page_title": page_title,
+                "bracket_data": bracket_data,
+                "metadata_lookup": metadata_lookup,
+                "export_suffix": export_suffix,
+            }
+        )
+        return Path("dummy.png")
+
+    monkeypatch.setattr(home, "export_bracket_png", fake_export_bracket_png)
+
+    result = home.export_current_view(
+        "Bracket",
+        "A",
+        [],
+        bracket_data={"rounds": []},
+        metadata_lookup={},
+    )
+
+    assert str(result) == "dummy.png"
+    assert captured["filename_stem"] == "bracket_view"
+    assert captured["page_title"] == "Bracket View"
 
 
 def test_build_table_html_all_countries_includes_ko_column_only_when_requested():
@@ -359,6 +535,7 @@ def test_build_table_html_all_countries_includes_ko_column_only_when_requested()
     assert "Champion %" in html
     assert "Rank" in html
     assert "86.0%" in html
+    assert "wc-qual-marker" not in html
 
 
 def test_build_table_html_all_countries_embeds_champion_trophy_icon():

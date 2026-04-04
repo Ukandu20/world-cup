@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import json
 import zlib
+from collections import Counter
 from collections.abc import Iterable
 
 import numpy as np
@@ -22,6 +23,14 @@ EXPECTED_GOALS_MAX = 3.00
 BEST_THIRD_QUALIFICATION_SLOTS = 8
 EXTRA_TIME_FACTOR = 1.0 / 3.0
 THIRD_PLACE_ROUTE_MATCHES = (79, 85, 81, 74, 82, 77, 87, 80)
+MAIN_BRACKET_ROUND_CODES = ("R32", "R16", "QF", "SF", "F")
+ROUND_CODE_LABELS = {
+    "R32": "Round of 32",
+    "R16": "Round of 16",
+    "QF": "Quarter-finals",
+    "SF": "Semi-finals",
+    "F": "Final",
+}
 THIRD_PLACE_ROUTING_COMPRESSED = (
     "eNqtXcuSJDcI/Jc578F22LH23qZLSIKuP9rYf/fMYWdUI5WAhFtfOgPEQ1kSoJ8vr4+jUG395cfPl+9/v/x4OV6+vXz//vajvv/47"
     "+1Hf/vx7x9vP+j9x59vPx7vP/56+/H6/uOftx/t/cf7v8rLr2+/QfkDtEygx29QNoDSACoWUHGCPi2gTyfoaQG1rOn5CdrZYqjNmt"
@@ -140,6 +149,12 @@ def extract_knockout_fixtures(fixtures_df: pd.DataFrame) -> pd.DataFrame:
     if knockout_fixtures.empty:
         raise ValueError("Expected knockout fixtures in fixtures_df")
     return knockout_fixtures
+
+
+def extract_main_bracket_fixtures(fixtures_df: pd.DataFrame) -> pd.DataFrame:
+    """Return knockout fixtures excluding the third-place playoff."""
+    knockout_fixtures = extract_knockout_fixtures(fixtures_df)
+    return knockout_fixtures[knockout_fixtures["round_code"].isin(MAIN_BRACKET_ROUND_CODES)].reset_index(drop=True)
 
 
 def build_recent_form_metrics(
@@ -421,6 +436,190 @@ def simulate_knockout_match(
     return winner_team_id, loser_team_id
 
 
+def stable_seed_from_tokens(*tokens: object, base_seed: int = 20260403) -> int:
+    """Build a deterministic integer seed from one or more tokens."""
+    modulus = np.iinfo(np.uint32).max
+    seed_value = int(base_seed) % modulus
+    for token in tokens:
+        for character in str(token):
+            seed_value = (seed_value * 131 + ord(character)) % modulus
+    return seed_value
+
+
+def get_modal_group_rankings(simulation_df: pd.DataFrame) -> dict[str, list[str]]:
+    """Return the most common full finishing order for each group from simulator metadata."""
+    modal_group_rankings = simulation_df.attrs.get("modal_group_rankings")
+    if not modal_group_rankings:
+        raise ValueError("simulation_df is missing modal_group_rankings metadata")
+    return {group_code: list(team_ids) for group_code, team_ids in modal_group_rankings.items()}
+
+
+def get_average_third_place_stats(simulation_df: pd.DataFrame) -> dict[str, dict[str, float]]:
+    """Return average third-place stats accumulated during simulation runs."""
+    average_stats = simulation_df.attrs.get("average_third_place_stats")
+    if not average_stats:
+        raise ValueError("simulation_df is missing average_third_place_stats metadata")
+    return {
+        team_id: {
+            "points": float(stats["points"]),
+            "goal_difference": float(stats["goal_difference"]),
+            "goals_for": float(stats["goals_for"]),
+            "team_strength": float(stats["team_strength"]),
+        }
+        for team_id, stats in average_stats.items()
+    }
+
+
+def predict_knockout_matchup(
+    home_team_id: str,
+    away_team_id: str,
+    team_strength_lookup: dict[str, float],
+    simulations: int = 1000,
+    seed: int = 20260403,
+) -> dict[str, float | str]:
+    """Estimate one knockout matchup and return the likely winner plus win probabilities."""
+    if simulations <= 0:
+        raise ValueError("simulations must be positive")
+
+    rng = np.random.default_rng(seed)
+    home_wins = 0
+    for _ in range(simulations):
+        winner_team_id, _ = simulate_knockout_match(
+            home_team_id,
+            away_team_id,
+            team_strength_lookup,
+            rng,
+        )
+        if winner_team_id == home_team_id:
+            home_wins += 1
+
+    home_win_prob = home_wins / simulations * 100
+    away_win_prob = 100.0 - home_win_prob
+    if home_win_prob > away_win_prob:
+        winner_team_id = home_team_id
+        winner_win_prob = home_win_prob
+    elif away_win_prob > home_win_prob:
+        winner_team_id = away_team_id
+        winner_win_prob = away_win_prob
+    else:
+        home_strength = float(team_strength_lookup[home_team_id])
+        away_strength = float(team_strength_lookup[away_team_id])
+        winner_team_id = home_team_id if home_strength >= away_strength else away_team_id
+        winner_win_prob = 50.0
+
+    return {
+        "home_team_id": home_team_id,
+        "away_team_id": away_team_id,
+        "home_win_prob": home_win_prob,
+        "away_win_prob": away_win_prob,
+        "winner_team_id": winner_team_id,
+        "winner_win_prob": winner_win_prob,
+    }
+
+
+def build_deterministic_bracket(
+    simulation_df: pd.DataFrame,
+    fixtures_df: pd.DataFrame,
+    head_to_head_simulations: int = 1000,
+    seed: int = 20260403,
+) -> dict[str, object]:
+    """Build one stable knockout bracket from modal group rankings and matchup win probabilities."""
+    modal_group_rankings = get_modal_group_rankings(simulation_df)
+    average_third_place_stats = get_average_third_place_stats(simulation_df)
+    main_bracket_fixtures = extract_main_bracket_fixtures(fixtures_df)
+    team_strength_lookup = simulation_df.set_index("team_id")["team_strength"].astype(float).to_dict()
+
+    third_place_rows = []
+    for group_code, ranked_team_ids in modal_group_rankings.items():
+        third_team_id = ranked_team_ids[2]
+        average_stats = average_third_place_stats.get(
+            third_team_id,
+            {
+                "points": 0.0,
+                "goal_difference": 0.0,
+                "goals_for": 0.0,
+                "team_strength": team_strength_lookup[third_team_id],
+            },
+        )
+        third_place_rows.append(
+            {
+                "team_id": third_team_id,
+                "group_code": group_code,
+                "points": average_stats["points"],
+                "goal_difference": average_stats["goal_difference"],
+                "goals_for": average_stats["goals_for"],
+                "team_strength": average_stats["team_strength"],
+            }
+        )
+
+    ranked_third_place = rank_best_third_place_teams(pd.DataFrame(third_place_rows))
+    qualifying_third_place = ranked_third_place[ranked_third_place["qualifies_as_best_third"]].copy()
+    qualifying_groups = "".join(sorted(qualifying_third_place["group_code"].astype(str).tolist()))
+    if qualifying_groups not in THIRD_PLACE_ROUTING_MAP:
+        raise ValueError(f"Missing Round of 32 routing for third-place combination {qualifying_groups}")
+    third_place_routing = THIRD_PLACE_ROUTING_MAP[qualifying_groups]
+
+    match_results: dict[int, dict[str, str]] = {}
+    round_matches: dict[str, list[dict[str, object]]] = {round_code: [] for round_code in MAIN_BRACKET_ROUND_CODES}
+    for match in main_bracket_fixtures.itertuples(index=False):
+        match_number = int(match.match_number)
+        home_team_id = resolve_knockout_slot(
+            match.home_slot_label,
+            match_number,
+            modal_group_rankings,
+            match_results,
+            third_place_routing,
+        )
+        away_team_id = resolve_knockout_slot(
+            match.away_slot_label,
+            match_number,
+            modal_group_rankings,
+            match_results,
+            third_place_routing,
+        )
+        prediction = predict_knockout_matchup(
+            home_team_id,
+            away_team_id,
+            team_strength_lookup,
+            simulations=head_to_head_simulations,
+            seed=stable_seed_from_tokens(seed, match_number, home_team_id, away_team_id),
+        )
+        winner_team_id = str(prediction["winner_team_id"])
+        loser_team_id = away_team_id if winner_team_id == home_team_id else home_team_id
+        match_results[match_number] = {
+            "winner_team_id": winner_team_id,
+            "loser_team_id": loser_team_id,
+        }
+        round_matches[match.round_code].append(
+            {
+                "match_number": match_number,
+                "round_code": match.round_code,
+                "round_label": ROUND_CODE_LABELS[match.round_code],
+                "home_team_id": home_team_id,
+                "away_team_id": away_team_id,
+                "winner_team_id": winner_team_id,
+                "winner_win_prob": float(prediction["winner_win_prob"]),
+                "home_win_prob": float(prediction["home_win_prob"]),
+                "away_win_prob": float(prediction["away_win_prob"]),
+            }
+        )
+
+    return {
+        "modal_group_rankings": modal_group_rankings,
+        "qualifying_third_place_team_ids": qualifying_third_place["team_id"].astype(str).tolist(),
+        "qualifying_third_place_groups": qualifying_groups,
+        "third_place_routing": third_place_routing,
+        "rounds": [
+            {
+                "round_code": round_code,
+                "round_label": ROUND_CODE_LABELS[round_code],
+                "matches": round_matches[round_code],
+            }
+            for round_code in MAIN_BRACKET_ROUND_CODES
+        ],
+    }
+
+
 def simulate_group_probabilities(
     base_df: pd.DataFrame,
     fixtures_df: pd.DataFrame,
@@ -458,8 +657,13 @@ def simulate_group_probabilities(
     sf_counts = np.zeros(len(strengths_df), dtype=np.int32)
     final_counts = np.zeros(len(strengths_df), dtype=np.int32)
     champion_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    third_place_finish_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    third_place_points_sum = np.zeros(len(strengths_df), dtype=np.float64)
+    third_place_gd_sum = np.zeros(len(strengths_df), dtype=np.float64)
+    third_place_gf_sum = np.zeros(len(strengths_df), dtype=np.float64)
     group_simulations: dict[str, dict[str, np.ndarray | list[str]]] = {}
     finish_counts_by_group: dict[str, np.ndarray] = {}
+    group_order_counts_by_group: dict[str, Counter[tuple[str, ...]]] = {group_code: Counter() for group_code in group_order}
 
     for group_code in group_order:
         group_table = strengths_df[strengths_df["group_code"] == group_code].copy().reset_index(drop=True)
@@ -555,12 +759,18 @@ def simulate_group_probabilities(
                 if place < 2:
                     ko_counts[team_global_indices[team_idx]] += 1
             group_rankings[group_code] = [group_simulation["team_ids"][team_idx] for team_idx in ranked_indices]
+            group_order_counts_by_group[group_code][tuple(group_rankings[group_code])] += 1
 
             third_idx = ranked_indices[2]
+            third_global_index = int(team_global_indices[third_idx])
+            third_place_finish_counts[third_global_index] += 1
+            third_place_points_sum[third_global_index] += int(points[third_idx])
+            third_place_gd_sum[third_global_index] += int(goals_for[third_idx] - goals_against[third_idx])
+            third_place_gf_sum[third_global_index] += int(goals_for[third_idx])
             third_place_rows.append(
                 {
                     "team_id": group_simulation["team_ids"][third_idx],
-                    "team_global_index": int(team_global_indices[third_idx]),
+                    "team_global_index": third_global_index,
                     "group_code": group_code,
                     "points": int(points[third_idx]),
                     "goal_difference": int(goals_for[third_idx] - goals_against[third_idx]),
@@ -647,4 +857,25 @@ def simulate_group_probabilities(
         probabilities_df[column_name] = probabilities_df["team_id"].map(
             {team_id: counts[team_global_index[team_id]] / simulations * 100 for team_id in strengths_df["team_id"]}
         )
-    return strengths_df.merge(probabilities_df, on=["team_id", "group_code"], how="left")
+    result_df = strengths_df.merge(probabilities_df, on=["team_id", "group_code"], how="left")
+    modal_group_rankings = {}
+    for group_code, order_counter in group_order_counts_by_group.items():
+        if not order_counter:
+            continue
+        modal_group_rankings[group_code] = list(
+            sorted(order_counter.items(), key=lambda item: (-item[1], item[0]))[0][0]
+        )
+    average_third_place_stats = {}
+    for team_id, global_index in team_global_index.items():
+        finish_count = int(third_place_finish_counts[global_index])
+        if finish_count == 0:
+            continue
+        average_third_place_stats[team_id] = {
+            "points": third_place_points_sum[global_index] / finish_count,
+            "goal_difference": third_place_gd_sum[global_index] / finish_count,
+            "goals_for": third_place_gf_sum[global_index] / finish_count,
+            "team_strength": float(team_strength_lookup[team_id]),
+        }
+    result_df.attrs["modal_group_rankings"] = modal_group_rankings
+    result_df.attrs["average_third_place_stats"] = average_third_place_stats
+    return result_df
