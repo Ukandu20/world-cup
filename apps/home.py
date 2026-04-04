@@ -40,6 +40,7 @@ VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
 CURRENT_HOLDER_TEAM_ID = "ARG"
 BRACKET_HEAD_TO_HEAD_SIMULATIONS = 1000
+BRACKET_EXPORT_VIEWPORT_SIZE = "1800,1200"
 PROBABILITY_PALETTES = {
     "prob_1": ((220, 252, 231), (22, 163, 74)),
     "prob_2": ((219, 234, 254), (37, 99, 235)),
@@ -1296,6 +1297,28 @@ def export_document_png(
         raise RuntimeError(f"PNG export failed: {last_error}")
 
 
+def build_screenshot_command(
+    page_url: str,
+    output_path: Path,
+    channel: str,
+    viewport_size: str | None = None,
+) -> list[str]:
+    """Build the Playwright screenshot command, optionally forcing a viewport size."""
+    command = [
+        "playwright.exe",
+        "screenshot",
+        "--full-page",
+        "--wait-for-timeout",
+        "1500",
+        "--channel",
+        channel,
+    ]
+    if viewport_size:
+        command.extend(["--viewport-size", viewport_size])
+    command.extend([page_url, str(output_path)])
+    return command
+
+
 def export_bracket_png(
     filename_stem: str,
     page_title: str,
@@ -1316,17 +1339,12 @@ def export_bracket_png(
 
         last_error = ""
         for channel in SCREENSHOT_CHANNELS:
-            command = [
-                "playwright.exe",
-                "screenshot",
-                "--full-page",
-                "--wait-for-timeout",
-                "1500",
-                "--channel",
-                channel,
+            command = build_screenshot_command(
                 page_url,
-                str(output_path),
-            ]
+                output_path,
+                channel,
+                viewport_size=BRACKET_EXPORT_VIEWPORT_SIZE,
+            )
             try:
                 subprocess.run(command, check=True, capture_output=True, text=True)
                 return output_path

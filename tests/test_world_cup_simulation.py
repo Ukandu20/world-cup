@@ -498,6 +498,21 @@ def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
     assert captured["page_title"] == "Bracket View"
 
 
+def test_build_screenshot_command_supports_forced_viewport():
+    home = load_home_module()
+
+    command = home.build_screenshot_command(
+        "file:///tmp/test.html",
+        Path("test.png"),
+        "chrome",
+        viewport_size=home.BRACKET_EXPORT_VIEWPORT_SIZE,
+    )
+
+    assert "--viewport-size" in command
+    viewport_index = command.index("--viewport-size")
+    assert command[viewport_index + 1] == home.BRACKET_EXPORT_VIEWPORT_SIZE
+
+
 def test_build_table_html_all_countries_includes_ko_column_only_when_requested():
     home = load_home_module()
     sample_df = pd.DataFrame(
