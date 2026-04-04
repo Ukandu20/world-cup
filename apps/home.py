@@ -36,6 +36,7 @@ PROBABILITY_PALETTES = {
     "prob_2": ((219, 234, 254), (37, 99, 235)),
     "prob_3": ((254, 243, 199), (217, 119, 6)),
     "prob_4": ((254, 226, 226), (220, 38, 38)),
+    "ko_prob": ((224, 242, 254), (8, 145, 178)),
 }
 
 
@@ -133,6 +134,17 @@ def simulate_probabilities(
         simulations=simulations,
         group_order=GROUP_ORDER,
     )
+
+
+def ensure_dashboard_probability_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Guarantee probability columns expected by the dashboard exist on the dataframe."""
+    normalized = df.copy()
+    for column_name in ("prob_1", "prob_2", "prob_3", "prob_4"):
+        if column_name not in normalized.columns:
+            normalized[column_name] = 0.0
+    if "ko_prob" not in normalized.columns:
+        normalized["ko_prob"] = normalized["prob_1"].fillna(0.0) + normalized["prob_2"].fillna(0.0)
+    return normalized
 
 
 def shared_css() -> str:
@@ -501,11 +513,19 @@ def render_name_cell(flag_icon_code: str, display_name: str) -> str:
     return f'<div class="wc-name-cell"><span class="wc-name-text">{safe_name}</span></div>'
 
 
-def build_table_html(df: pd.DataFrame, title: str, include_group_column: bool = False) -> str:
+def build_table_html(
+    df: pd.DataFrame,
+    title: str,
+    include_group_column: bool = False,
+    include_ko_column: bool = False,
+) -> str:
     """Render one standings table as a styled HTML card."""
+    probability_columns = ["prob_1", "prob_2", "prob_3", "prob_4"]
+    if include_ko_column:
+        probability_columns.append("ko_prob")
     column_ranges = {
         column_name: (float(df[column_name].min()), float(df[column_name].max()))
-        for column_name in ("prob_1", "prob_2", "prob_3", "prob_4")
+        for column_name in probability_columns
     }
     headers = []
     if include_group_column:
@@ -521,6 +541,8 @@ def build_table_html(df: pd.DataFrame, title: str, include_group_column: bool = 
             '<th class="wc-num">4th %</th>',
         ]
     )
+    if include_ko_column:
+        headers.append('<th class="wc-num">KO %</th>')
 
     body_rows = []
     for row in df.itertuples(index=False):
@@ -538,6 +560,10 @@ def build_table_html(df: pd.DataFrame, title: str, include_group_column: bool = 
                 f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_4", row.prob_4, *column_ranges["prob_4"])}">{format_percent(row.prob_4)}</td>',
             ]
         )
+        if include_ko_column:
+            cells.append(
+                f'<td class="wc-num wc-prob" style="{probability_cell_style("ko_prob", row.ko_prob, *column_ranges["ko_prob"])}">{format_percent(row.ko_prob)}</td>'
+            )
         body_rows.append(f"<tr>{''.join(cells)}</tr>")
 
     group_pill = ""
@@ -573,7 +599,15 @@ def group_table_frame(df: pd.DataFrame, group_code: str) -> pd.DataFrame:
 
 def all_teams_table_frame(df: pd.DataFrame) -> pd.DataFrame:
     """Return the full team table sorted globally by projected chance of finishing 1st."""
-    return df.sort_values(["prob_1", "elo_rating", "world_rank"], ascending=[False, False, True])
+    sort_columns = ["elo_rating", "world_rank"]
+    ascending = [False, True]
+    if "ko_prob" in df.columns:
+        sort_columns = ["ko_prob", "prob_1", *sort_columns]
+        ascending = [False, False, *ascending]
+    else:
+        sort_columns = ["prob_1", *sort_columns]
+        ascending = [False, *ascending]
+    return df.sort_values(sort_columns, ascending=ascending)
 
 
 def current_view_tables(df: pd.DataFrame, view_mode: str, selected_group: str) -> list[dict[str, object]]:
@@ -585,6 +619,7 @@ def current_view_tables(df: pd.DataFrame, view_mode: str, selected_group: str) -
                 "stem": f"group_{selected_group.lower()}",
                 "frame": group_table_frame(df, selected_group),
                 "include_group_column": False,
+                "include_ko_column": False,
             }
         ]
     if view_mode == "All groups":
@@ -599,6 +634,7 @@ def current_view_tables(df: pd.DataFrame, view_mode: str, selected_group: str) -
                     "stem": f"group_{group_code.lower()}",
                     "frame": group_df,
                     "include_group_column": False,
+                    "include_ko_column": False,
                 }
             )
         return tables
@@ -609,6 +645,7 @@ def current_view_tables(df: pd.DataFrame, view_mode: str, selected_group: str) -
             "stem": "all_Countries",
             "frame": combined,
             "include_group_column": True,
+            "include_ko_column": True,
         }
     ]
 
@@ -621,6 +658,7 @@ def render_tables(tables: list[dict[str, object]], multi_column: bool) -> None:
                 table["frame"],
                 table["title"],
                 include_group_column=table["include_group_column"],
+                include_ko_column=table["include_ko_column"],
             )
             for table in tables
         )
@@ -633,6 +671,7 @@ def render_tables(tables: list[dict[str, object]], multi_column: bool) -> None:
                 table["frame"],
                 table["title"],
                 include_group_column=table["include_group_column"],
+                include_ko_column=table["include_ko_column"],
             ),
             unsafe_allow_html=True,
         )
@@ -646,6 +685,7 @@ def render_export_document(page_title: str, tables: list[dict[str, object]], mul
             table["frame"],
             table["title"],
             include_group_column=table["include_group_column"],
+            include_ko_column=table["include_ko_column"],
         )
         for table in tables
     )
@@ -762,7 +802,7 @@ def export_all_tables(df: pd.DataFrame) -> list[Path]:
             export_document_png(
                 f"group_{group_code.lower()}",
                 f"Group {group_code}",
-                [{"title": f"Group {group_code}", "frame": group_df, "include_group_column": False}],
+                [{"title": f"Group {group_code}", "frame": group_df, "include_group_column": False, "include_ko_column": False}],
                 multi_column=False,
                 export_suffix=export_suffix,
             )
@@ -773,7 +813,7 @@ def export_all_tables(df: pd.DataFrame) -> list[Path]:
         export_document_png(
             "all_Countries",
             "All Countries",
-            [{"title": "All Countries", "frame": combined, "include_group_column": True}],
+            [{"title": "All Countries", "frame": combined, "include_group_column": True, "include_ko_column": True}],
             multi_column=False,
             export_suffix=export_suffix,
         )
@@ -801,6 +841,7 @@ def main() -> None:
         lead_in_df=lead_in_df,
         simulations=simulation_count,
     )
+    dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
 
     st.markdown(
         f"""
@@ -827,6 +868,7 @@ def main() -> None:
     st.caption(
         "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "
         "a blended Elo/FIFA baseline, and each country's last eight pre-tournament results. "
+        "KO% in the All Countries table means reaching the Round of 32 either by finishing top two or as one of the eight best third-place teams. "
         "The percentage cells use color gradients so stronger finish likelihoods read more quickly."
     )
 

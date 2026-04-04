@@ -15,6 +15,7 @@ if str(ROOT) not in sys.path:
 from world_cup_simulation import (  # noqa: E402
     build_recent_form_metrics,
     extract_group_stage_fixtures,
+    rank_best_third_place_teams,
     rank_group_standings,
     simulate_group_probabilities,
 )
@@ -119,14 +120,13 @@ def test_simulate_group_probabilities_preserves_probability_invariants():
         base_df=base_df,
         fixtures_df=fixtures_df,
         lead_in_df=lead_in_df,
-        simulations=250,
-        group_order=["A", "B"],
+        simulations=120,
     )
-    dashboard_df = dashboard_df[dashboard_df["group_code"].isin(["A", "B"])].copy()
 
     for _, row in dashboard_df.iterrows():
         total_probability = row["prob_1"] + row["prob_2"] + row["prob_3"] + row["prob_4"]
         assert abs(total_probability - 100.0) < 1e-9
+        assert row["ko_prob"] + 1e-9 >= row["prob_1"] + row["prob_2"]
 
     place_totals = (
         dashboard_df.groupby("group_code")[["prob_1", "prob_2", "prob_3", "prob_4"]]
@@ -134,6 +134,42 @@ def test_simulate_group_probabilities_preserves_probability_invariants():
         .round(10)
     )
     assert (place_totals == 100.0).all().all()
+
+
+def test_rank_best_third_place_teams_uses_points_goal_difference_goals_for_then_strength():
+    third_place_df = pd.DataFrame(
+        [
+            {"team_id": "A", "group_code": "A", "points": 4, "goal_difference": 1, "goals_for": 4, "team_strength": 0.1},
+            {"team_id": "B", "group_code": "B", "points": 4, "goal_difference": 1, "goals_for": 4, "team_strength": 0.8},
+            {"team_id": "C", "group_code": "C", "points": 4, "goal_difference": 1, "goals_for": 3, "team_strength": 0.9},
+            {"team_id": "D", "group_code": "D", "points": 4, "goal_difference": 0, "goals_for": 5, "team_strength": 1.0},
+        ]
+    )
+
+    ranked = rank_best_third_place_teams(third_place_df, qualification_slots=2)
+
+    assert ranked["team_id"].tolist() == ["B", "A", "C", "D"]
+    assert ranked["qualifies_as_best_third"].tolist() == [True, True, False, False]
+
+
+def test_rank_best_third_place_teams_marks_exactly_eight_qualifiers():
+    third_place_df = pd.DataFrame(
+        [
+            {
+                "team_id": f"T{index}",
+                "group_code": chr(65 + index),
+                "points": 6 - (index // 3),
+                "goal_difference": 5 - index,
+                "goals_for": 12 - index,
+                "team_strength": float(12 - index),
+            }
+            for index in range(12)
+        ]
+    )
+
+    ranked = rank_best_third_place_teams(third_place_df)
+
+    assert int(ranked["qualifies_as_best_third"].sum()) == 8
 
 
 def test_build_table_html_smoke_contains_expected_probability_columns():
@@ -151,11 +187,12 @@ def test_build_table_html_smoke_contains_expected_probability_columns():
                 "prob_2": 24.5,
                 "prob_3": 10.0,
                 "prob_4": 4.0,
+                "ko_prob": 86.0,
             }
         ]
     )
 
-    html = home.build_table_html(sample_df, "Group J", include_group_column=False)
+    html = home.build_table_html(sample_df, "Group J", include_group_column=False, include_ko_column=False)
 
     assert "Country" in html
     assert "World Rank" in html
@@ -163,6 +200,62 @@ def test_build_table_html_smoke_contains_expected_probability_columns():
     assert "2nd %" in html
     assert "3rd %" in html
     assert "4th %" in html
+    assert "KO %" not in html
+
+
+def test_build_table_html_all_countries_includes_ko_column_only_when_requested():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {
+                "team_id": "ARG",
+                "group_code": "J",
+                "flag_icon_code": "ar",
+                "display_name": "Argentina",
+                "world_rank": 1,
+                "elo_rating": 2140,
+                "prob_1": 61.5,
+                "prob_2": 24.5,
+                "prob_3": 10.0,
+                "prob_4": 4.0,
+                "ko_prob": 86.0,
+            }
+        ]
+    )
+
+    html = home.build_table_html(sample_df, "All Countries", include_group_column=True, include_ko_column=True)
+
+    assert "KO %" in html
+    assert "86.0%" in html
+
+
+def test_all_teams_table_frame_sorts_by_ko_prob_before_prob_1():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {"team_id": "A", "ko_prob": 75.0, "prob_1": 70.0, "elo_rating": 1800, "world_rank": 5},
+            {"team_id": "B", "ko_prob": 82.0, "prob_1": 40.0, "elo_rating": 1700, "world_rank": 8},
+            {"team_id": "C", "ko_prob": 75.0, "prob_1": 72.0, "elo_rating": 1750, "world_rank": 7},
+        ]
+    )
+
+    sorted_df = home.all_teams_table_frame(sample_df)
+
+    assert sorted_df["team_id"].tolist() == ["B", "C", "A"]
+
+
+def test_ensure_dashboard_probability_columns_backfills_missing_ko_prob():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {"team_id": "A", "prob_1": 40.0, "prob_2": 35.0, "prob_3": 20.0, "prob_4": 5.0},
+        ]
+    )
+
+    normalized = home.ensure_dashboard_probability_columns(sample_df)
+
+    assert "ko_prob" in normalized.columns
+    assert normalized.loc[0, "ko_prob"] == 75.0
 
 
 def test_build_export_stem_appends_suffix_without_overwriting_base_name():

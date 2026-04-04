@@ -61,8 +61,9 @@ After all simulations:
 - `prob_2` is the percentage of runs where the team finishes 2nd
 - `prob_3` is the percentage of runs where the team finishes 3rd
 - `prob_4` is the percentage of runs where the team finishes 4th
+- `ko_prob` is the percentage of runs where the team reaches the Round of 32 either via a top-two finish or as one of the eight best third-place teams
 
-These values are shown in the Streamlit group cards and combined team tables.
+The group cards continue to show `prob_1` to `prob_4`, while the combined `All Countries` table also shows `KO %`.
 
 ### Current Limitations
 

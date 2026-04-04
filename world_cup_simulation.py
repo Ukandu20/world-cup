@@ -16,6 +16,7 @@ EXPECTED_GOALS_BASE = 1.20
 EXPECTED_GOALS_SCALE = 0.40
 EXPECTED_GOALS_MIN = 0.20
 EXPECTED_GOALS_MAX = 3.00
+BEST_THIRD_QUALIFICATION_SLOTS = 8
 
 
 def zscore(series: pd.Series) -> pd.Series:
@@ -205,6 +206,28 @@ def _rank_group_indices(
     return ranked_indices
 
 
+def rank_best_third_place_teams(
+    table_df: pd.DataFrame,
+    qualification_slots: int = BEST_THIRD_QUALIFICATION_SLOTS,
+    strength_column: str = "team_strength",
+) -> pd.DataFrame:
+    """Rank third-place teams across groups and flag the best qualifiers."""
+    table = table_df.copy().reset_index(drop=True)
+    table["points"] = pd.to_numeric(table["points"], errors="coerce").fillna(0).astype(int)
+    table["goal_difference"] = pd.to_numeric(table["goal_difference"], errors="coerce").fillna(0).astype(int)
+    table["goals_for"] = pd.to_numeric(table["goals_for"], errors="coerce").fillna(0).astype(int)
+    table[strength_column] = pd.to_numeric(table[strength_column], errors="coerce").fillna(0.0)
+
+    ranked = table.sort_values(
+        ["points", "goal_difference", "goals_for", strength_column],
+        ascending=[False, False, False, False],
+        kind="stable",
+    ).reset_index(drop=True)
+    ranked["best_third_rank"] = np.arange(1, len(ranked) + 1)
+    ranked["qualifies_as_best_third"] = ranked["best_third_rank"] <= min(qualification_slots, len(ranked))
+    return ranked
+
+
 def rank_group_standings(
     table_df: pd.DataFrame,
     fixture_results_df: pd.DataFrame,
@@ -257,7 +280,11 @@ def simulate_group_probabilities(
     strengths_df = build_team_strengths(base_df, lead_in_df, match_window=RECENT_MATCH_WINDOW)
     group_fixtures = extract_group_stage_fixtures(fixtures_df, group_order=group_order)
 
-    results: list[pd.DataFrame] = []
+    team_global_index = {team_id: idx for idx, team_id in enumerate(strengths_df["team_id"])}
+    ko_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    group_simulations: dict[str, dict[str, np.ndarray | list[str]]] = {}
+    finish_counts_by_group: dict[str, np.ndarray] = {}
+
     for group_code in group_order:
         group_table = strengths_df[strengths_df["group_code"] == group_code].copy().reset_index(drop=True)
         fixtures = group_fixtures[group_fixtures["group_code"] == group_code].copy().reset_index(drop=True)
@@ -310,29 +337,79 @@ def simulate_group_probabilities(
             points[simulation_indices, home_idx] += np.where(home_scores > away_scores, 3, np.where(home_scores == away_scores, 1, 0))
             points[simulation_indices, away_idx] += np.where(home_scores < away_scores, 3, np.where(home_scores == away_scores, 1, 0))
 
-        finish_counts = np.zeros((len(team_ids), len(team_ids)), dtype=np.int32)
-        for simulation_index in range(simulations):
+        group_simulations[group_code] = {
+            "team_ids": list(team_ids),
+            "team_global_indices": np.array([team_global_index[team_id] for team_id in team_ids], dtype=int),
+            "team_strength": team_strength,
+            "fixture_pairs": fixture_pairs,
+            "points": points,
+            "goals_for": goals_for,
+            "goals_against": goals_against,
+            "simulated_home_goals": simulated_home_goals,
+            "simulated_away_goals": simulated_away_goals,
+        }
+        finish_counts_by_group[group_code] = np.zeros((len(team_ids), len(team_ids)), dtype=np.int32)
+
+    for simulation_index in range(simulations):
+        third_place_rows: list[dict[str, object]] = []
+        for group_code in group_order:
+            if group_code not in group_simulations:
+                continue
+
+            group_simulation = group_simulations[group_code]
+            points = group_simulation["points"][simulation_index]
+            goals_for = group_simulation["goals_for"][simulation_index]
+            goals_against = group_simulation["goals_against"][simulation_index]
             ranked_indices = _rank_group_indices(
-                points=points[simulation_index],
-                goals_for=goals_for[simulation_index],
-                goals_against=goals_against[simulation_index],
-                fixture_pairs=fixture_pairs,
-                home_goals=simulated_home_goals[simulation_index],
-                away_goals=simulated_away_goals[simulation_index],
-                team_strength=team_strength,
+                points=points,
+                goals_for=goals_for,
+                goals_against=goals_against,
+                fixture_pairs=group_simulation["fixture_pairs"],
+                home_goals=group_simulation["simulated_home_goals"][simulation_index],
+                away_goals=group_simulation["simulated_away_goals"][simulation_index],
+                team_strength=group_simulation["team_strength"],
             )
+
+            finish_counts = finish_counts_by_group[group_code]
+            team_global_indices = group_simulation["team_global_indices"]
             for place, team_idx in enumerate(ranked_indices):
                 finish_counts[team_idx, place] += 1
+                if place < 2:
+                    ko_counts[team_global_indices[team_idx]] += 1
 
+            third_idx = ranked_indices[2]
+            third_place_rows.append(
+                {
+                    "team_id": group_simulation["team_ids"][third_idx],
+                    "team_global_index": int(team_global_indices[third_idx]),
+                    "group_code": group_code,
+                    "points": int(points[third_idx]),
+                    "goal_difference": int(goals_for[third_idx] - goals_against[third_idx]),
+                    "goals_for": int(goals_for[third_idx]),
+                    "team_strength": float(group_simulation["team_strength"][third_idx]),
+                }
+            )
+
+        if third_place_rows:
+            ranked_third_place = rank_best_third_place_teams(pd.DataFrame(third_place_rows))
+            for row in ranked_third_place[ranked_third_place["qualifies_as_best_third"]].itertuples(index=False):
+                ko_counts[int(row.team_global_index)] += 1
+
+    results: list[pd.DataFrame] = []
+    for group_code in group_order:
+        if group_code not in group_simulations:
+            continue
+        team_ids = np.array(group_simulations[group_code]["team_ids"], dtype=object)
+        finish_counts = finish_counts_by_group[group_code]
         probability_frame = pd.DataFrame(
-            {
-                f"prob_{place + 1}": finish_counts[:, place] / simulations * 100
-                for place in range(len(team_ids))
-            }
+            {f"prob_{place + 1}": finish_counts[:, place] / simulations * 100 for place in range(len(team_ids))}
         )
         probability_frame["team_id"] = team_ids
         probability_frame["group_code"] = group_code
         results.append(probability_frame)
 
     probabilities_df = pd.concat(results, ignore_index=True)
+    probabilities_df["ko_prob"] = probabilities_df["team_id"].map(
+        {team_id: ko_counts[team_global_index[team_id]] / simulations * 100 for team_id in strengths_df["team_id"]}
+    )
     return strengths_df.merge(probabilities_df, on=["team_id", "group_code"], how="left")
