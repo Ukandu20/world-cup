@@ -9,6 +9,7 @@ import textwrap
 
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -381,6 +382,88 @@ def inject_styles() -> None:
     st.markdown(f"<style>{shared_css()}</style>", unsafe_allow_html=True)
 
 
+def get_first_kickoff_details(fixtures_df: pd.DataFrame) -> dict[str, str]:
+    """Return the earliest scheduled group-stage fixture and its formatted kickoff strings."""
+    fixtures = fixtures_df.copy()
+    fixtures["match_number"] = pd.to_numeric(fixtures["match_number"], errors="coerce")
+    fixtures["kickoff_datetime_utc"] = pd.to_datetime(fixtures["kickoff_datetime_utc"], errors="coerce", utc=True)
+    first_fixture = (
+        fixtures[(fixtures["round_code"] == "GS") & fixtures["kickoff_datetime_utc"].notna()]
+        .sort_values(["kickoff_datetime_utc", "match_number"], kind="stable")
+        .iloc[0]
+    )
+    kickoff_utc = first_fixture["kickoff_datetime_utc"]
+    kickoff_local_raw = str(first_fixture.get("kickoff_datetime_local", "")).strip()
+    local_time_label = kickoff_local_raw[11:16] if len(kickoff_local_raw) >= 16 else kickoff_utc.strftime("%H:%M")
+    return {
+        "kickoff_iso_utc": kickoff_utc.isoformat().replace("+00:00", "Z"),
+        "kickoff_date_label": kickoff_utc.strftime("%B-%d-%Y"),
+        "kickoff_utc_time_label": kickoff_utc.strftime("%H:%M"),
+        "kickoff_local_time_label": local_time_label,
+        "match_label": f'{first_fixture["home_tournament_name"]} vs {first_fixture["away_tournament_name"]}',
+    }
+
+
+def build_countdown_html(kickoff_details: dict[str, str]) -> str:
+    """Build the live countdown widget markup for the first World Cup kickoff."""
+    kickoff_iso_utc = html.escape(kickoff_details["kickoff_iso_utc"])
+    kickoff_date_label = html.escape(kickoff_details["kickoff_date_label"])
+    kickoff_utc_time_label = html.escape(kickoff_details["kickoff_utc_time_label"])
+    kickoff_local_time_label = html.escape(kickoff_details["kickoff_local_time_label"])
+    match_label = html.escape(kickoff_details["match_label"])
+    return f"""
+    <div style="margin:0 0 0.9rem;">
+      <div style="border:1px solid rgba(191,219,254,0.35);border-radius:22px;padding:22px 24px;background:
+      radial-gradient(circle at top, rgba(96,165,250,0.18), transparent 45%),
+      linear-gradient(135deg,#0f172a 0%,#172554 52%,#1e293b 100%);color:#f8fafc;box-shadow:0 16px 40px rgba(15,23,42,0.24);">
+        <div style="text-align:center;">
+          <div style="font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:#bfdbfe;margin-bottom:0.55rem;font-weight:700;">Countdown To Opening Kickoff</div>
+          <div style="font-size:1.45rem;font-weight:800;line-height:1.2;margin-bottom:0.5rem;">{match_label}</div>
+          <div id="wc-countdown-value" style="font-size:3.1rem;font-weight:900;line-height:1.02;letter-spacing:-0.04em;color:#ffffff;text-shadow:0 6px 24px rgba(147,197,253,0.22);margin:0.15rem 0 0.85rem;">Loading countdown...</div>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:18px;margin-top:0.55rem;padding-top:0.9rem;border-top:1px solid rgba(191,219,254,0.18);">
+          <div style="text-align:left;">
+            <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#93c5fd;margin-bottom:0.2rem;">Date</div>
+            <div style="font-size:1rem;font-weight:700;color:#eff6ff;">{kickoff_date_label}</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#93c5fd;margin-bottom:0.2rem;">Time [local | UTC]</div>
+            <div style="font-size:1rem;font-weight:700;color:#eff6ff;">{kickoff_local_time_label} | {kickoff_utc_time_label}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const countdownNode = document.getElementById("wc-countdown-value");
+      const kickoffTime = new Date("{kickoff_iso_utc}").getTime();
+
+      function updateCountdown() {{
+        const deltaMs = kickoffTime - Date.now();
+        if (deltaMs <= 0) {{
+          countdownNode.textContent = "Kickoff is live";
+          return;
+        }}
+
+        const totalSeconds = Math.floor(deltaMs / 1000);
+        const days = Math.floor(totalSeconds / 86400);
+        const hours = Math.floor((totalSeconds % 86400) / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = totalSeconds % 60;
+        countdownNode.textContent = `${{days}}d ${{hours}}h ${{minutes}}m ${{seconds}}s`;
+      }}
+
+      updateCountdown();
+      window.setInterval(updateCountdown, 1000);
+    </script>
+    """
+
+
+def render_countdown_timer(fixtures_df: pd.DataFrame) -> None:
+    """Render a live countdown to the first scheduled group-stage kickoff."""
+    kickoff_details = get_first_kickoff_details(fixtures_df)
+    components.html(build_countdown_html(kickoff_details), height=225)
+
+
 def format_percent(value: float) -> str:
     """Render a probability value as a one-decimal-place percentage string."""
     return f"{value:.1f}%"
@@ -739,6 +822,7 @@ def main() -> None:
         """,
         unsafe_allow_html=True,
     )
+    render_countdown_timer(fixtures_df)
 
     st.caption(
         "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "

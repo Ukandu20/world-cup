@@ -170,3 +170,16 @@ def test_build_export_stem_appends_suffix_without_overwriting_base_name():
 
     assert home.build_export_stem("group_a_view") == "group_a_view"
     assert home.build_export_stem("group_a_view", "20260403_220500_123456") == "group_a_view_20260403_220500_123456"
+
+
+def test_get_first_kickoff_details_uses_earliest_group_stage_fixture():
+    home = load_home_module()
+    fixtures_df = pd.read_csv(DATA_DIR / "fixtures.csv")
+
+    kickoff = home.get_first_kickoff_details(fixtures_df)
+
+    assert kickoff["match_label"] == "Mexico vs South Africa"
+    assert kickoff["kickoff_iso_utc"] == "2026-06-11T19:00:00Z"
+    assert kickoff["kickoff_date_label"] == "June-11-2026"
+    assert kickoff["kickoff_local_time_label"] == "13:00"
+    assert kickoff["kickoff_utc_time_label"] == "19:00"
