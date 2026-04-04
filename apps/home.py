@@ -1,6 +1,7 @@
 import html
 import base64
 from datetime import datetime
+import inspect
 from pathlib import Path
 import subprocess
 import sys
@@ -23,10 +24,16 @@ EXPORT_DIR = ROOT / "assets" / "charts" / "generated"
 WORLD_CUP_LOGO_PATH = ROOT / "assets" / "logos" / "world-cup" / "fifa-world-cup-2026.football.cc.svg"
 SIMULATION_COUNT = 20000
 SIMULATION_OPTIONS = {
+    "250": 250,
+    "500": 500,
+    "1k": 1000,
+    "5k": 5000,
     "10k": 10000,
     "20k": 20000,
     "100k": 100000,
 }
+DEFAULT_RECENT_MATCH_WINDOW = 10
+DEFAULT_SIMULATION_LABEL = "250"
 GROUP_ORDER = list("ABCDEFGHIJKL")
 VIEW_OPTIONS = ("Single group", "All groups", "All Countries")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
@@ -125,15 +132,37 @@ def simulate_probabilities(
     fixtures_df: pd.DataFrame,
     lead_in_df: pd.DataFrame,
     simulations: int = SIMULATION_COUNT,
+    match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+    baseline_rating_weights: tuple[float, float] = (1.0, 0.0),
+    form_component_weights: tuple[float, float] = (0.7, 0.3),
+    strength_blend_weights: tuple[float, float] = (0.5, 0.5),
 ) -> pd.DataFrame:
     """Estimate group finishing probabilities from the fixture-based Monte Carlo model."""
-    return simulate_group_probabilities(
-        base_df=base_df,
-        fixtures_df=fixtures_df,
-        lead_in_df=lead_in_df,
-        simulations=simulations,
-        group_order=GROUP_ORDER,
-    )
+    simulator_kwargs = {
+        "base_df": base_df,
+        "fixtures_df": fixtures_df,
+        "lead_in_df": lead_in_df,
+        "simulations": simulations,
+        "group_order": GROUP_ORDER,
+    }
+    try:
+        simulator_signature = inspect.signature(simulate_group_probabilities)
+    except (TypeError, ValueError):
+        simulator_signature = None
+    if simulator_signature is None:
+        simulator_kwargs["match_window"] = match_window
+        return simulate_group_probabilities(**simulator_kwargs)
+
+    optional_kwargs = {
+        "match_window": match_window,
+        "baseline_rating_weights": baseline_rating_weights,
+        "form_component_weights": form_component_weights,
+        "strength_blend_weights": strength_blend_weights,
+    }
+    for key, value in optional_kwargs.items():
+        if key in simulator_signature.parameters:
+            simulator_kwargs[key] = value
+    return simulate_group_probabilities(**simulator_kwargs)
 
 
 def ensure_dashboard_probability_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -146,6 +175,12 @@ def ensure_dashboard_probability_columns(df: pd.DataFrame) -> pd.DataFrame:
         normalized["ko_prob"] = normalized["prob_1"].fillna(0.0) + normalized["prob_2"].fillna(0.0)
     return normalized
 
+
+def default_simulation_settings() -> dict[str, str | int]:
+    """Return the default simulation settings for the dashboard."""
+    return {
+        "simulation_label": DEFAULT_SIMULATION_LABEL,
+    }
 
 def shared_css() -> str:
     """Return the shared CSS used by both Streamlit rendering and exported HTML files."""
@@ -520,6 +555,7 @@ def build_table_html(
     include_ko_column: bool = False,
 ) -> str:
     """Render one standings table as a styled HTML card."""
+    include_rank_column = include_group_column
     probability_columns = ["prob_1", "prob_2", "prob_3", "prob_4"]
     if include_ko_column:
         probability_columns.append("ko_prob")
@@ -532,6 +568,7 @@ def build_table_html(
         headers.append('<th class="wc-group-col">Group</th>')
     headers.extend(
         [
+            "<th>Rank</th>" if include_rank_column else "",
             "<th>Country</th>",
             '<th class="wc-num">World Rank</th>',
             '<th class="wc-num">Elo</th>',
@@ -541,14 +578,17 @@ def build_table_html(
             '<th class="wc-num">4th %</th>',
         ]
     )
+    headers = [header for header in headers if header]
     if include_ko_column:
         headers.append('<th class="wc-num">KO %</th>')
 
     body_rows = []
-    for row in df.itertuples(index=False):
+    for rank, row in enumerate(df.itertuples(index=False), start=1):
         cells = []
         if include_group_column:
             cells.append(f'<td class="wc-group-col"><span class="wc-group-pill">{html.escape(str(row.group_code))}</span></td>')
+        if include_rank_column:
+            cells.append(f'<td class="wc-num">{rank}</td>')
         cells.extend(
             [
                 f'<td class="{current_holder_cell_class(row.team_id).strip()}">{render_name_cell(row.flag_icon_code, row.display_name)}</td>',
@@ -610,7 +650,11 @@ def all_teams_table_frame(df: pd.DataFrame) -> pd.DataFrame:
     return df.sort_values(sort_columns, ascending=ascending)
 
 
-def current_view_tables(df: pd.DataFrame, view_mode: str, selected_group: str) -> list[dict[str, object]]:
+def current_view_tables(
+    df: pd.DataFrame,
+    view_mode: str,
+    selected_group: str,
+) -> list[dict[str, object]]:
     """Describe the tables needed for the active dashboard view."""
     if view_mode == "Single group":
         return [
@@ -828,19 +872,34 @@ def main() -> None:
 
     base_df, fixtures_df, lead_in_df, metadata = load_data()
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
-    simulation_label = st.radio(
-        "Simulation runs",
-        tuple(SIMULATION_OPTIONS.keys()),
-        index=1,
-        horizontal=True,
-    )
-    simulation_count = SIMULATION_OPTIONS[simulation_label]
-    dashboard_df = simulate_probabilities(
-        base_df=base_df,
-        fixtures_df=fixtures_df,
-        lead_in_df=lead_in_df,
-        simulations=simulation_count,
-    )
+    if "simulation_settings" not in st.session_state:
+        st.session_state["simulation_settings"] = default_simulation_settings()
+    current_settings = dict(st.session_state["simulation_settings"])
+
+    with st.form("simulation_filters"):
+        simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+        )
+        apply_filters = st.form_submit_button("Apply filters", use_container_width=True)
+
+    if apply_filters:
+        st.session_state["simulation_settings"] = {
+            "simulation_label": simulation_label,
+        }
+        current_settings = dict(st.session_state["simulation_settings"])
+
+    simulation_count = SIMULATION_OPTIONS[current_settings["simulation_label"]]
+    with st.spinner(f"Running {simulation_count:,} simulations..."):
+        dashboard_df = simulate_probabilities(
+            base_df=base_df,
+            fixtures_df=fixtures_df,
+            lead_in_df=lead_in_df,
+            simulations=simulation_count,
+        )
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
 
     st.markdown(
@@ -867,14 +926,21 @@ def main() -> None:
 
     st.caption(
         "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "
-        "a blended Elo/FIFA baseline, and each country's last eight pre-tournament results. "
+        "an Elo-only baseline (100% / 0%), "
+        f"recent form from the last {DEFAULT_RECENT_MATCH_WINDOW} matches, "
+        "built from points vs goal difference (70% / 30%), "
+        "and a ratings-vs-form blend (50% / 50%). "
         "KO% in the All Countries table means reaching the Round of 32 either by finishing top two or as one of the eight best third-place teams. "
         "The percentage cells use color gradients so stronger finish likelihoods read more quickly."
     )
 
     view_mode = st.radio("View", VIEW_OPTIONS, horizontal=True)
     selected_group = st.selectbox("Group", GROUP_ORDER, index=0) if view_mode == "Single group" else GROUP_ORDER[0]
-    tables = current_view_tables(dashboard_df, view_mode, selected_group)
+    tables = current_view_tables(
+        dashboard_df,
+        view_mode,
+        selected_group,
+    )
     multi_column = view_mode == "All groups"
 
     action_cols = st.columns(2)
@@ -888,7 +954,9 @@ def main() -> None:
     with action_cols[1]:
         if st.button("Export All Tables", use_container_width=True):
             try:
-                exported_paths = export_all_tables(dashboard_df)
+                exported_paths = export_all_tables(
+                    dashboard_df,
+                )
                 st.success(f"Exported {len(exported_paths)} PNG tables to {EXPORT_DIR}")
             except RuntimeError as exc:
                 st.error(str(exc))

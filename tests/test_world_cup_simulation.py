@@ -13,8 +13,10 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from world_cup_simulation import (  # noqa: E402
+    build_team_strengths,
     build_recent_form_metrics,
     extract_group_stage_fixtures,
+    normalize_weight_pair,
     rank_best_third_place_teams,
     rank_group_standings,
     simulate_group_probabilities,
@@ -71,6 +73,91 @@ def test_build_recent_form_metrics_uses_last_8_matches_only():
     assert form_df.loc["AAA", "recent_matches"] == 8
     assert form_df.loc["AAA", "points_per_match"] == 0.25
     assert form_df.loc["AAA", "goal_diff_per_match"] == -0.75
+
+
+def test_normalize_weight_pair_scales_to_one():
+    normalized = normalize_weight_pair(65, 35)
+
+    assert normalized == (0.65, 0.35)
+
+
+def test_default_simulation_settings_keep_only_simulations():
+    home = load_home_module()
+
+    defaults = home.default_simulation_settings()
+
+    assert defaults == {
+        "simulation_label": "250",
+    }
+
+
+def test_build_team_strengths_respects_custom_weight_pairs():
+    base_df = pd.DataFrame(
+        [
+            {"team_id": "A", "group_code": "A", "elo_rating": 1900, "fifa_points": 1800},
+            {"team_id": "B", "group_code": "A", "elo_rating": 1700, "fifa_points": 1500},
+        ]
+    )
+    lead_in_df = pd.DataFrame(
+        [
+            {"lead_in_id": "1", "qualified_team_id": "A", "date": "2026-01-01", "goal_difference": 3, "result": "win"},
+            {"lead_in_id": "2", "qualified_team_id": "A", "date": "2026-01-02", "goal_difference": 1, "result": "draw"},
+            {"lead_in_id": "3", "qualified_team_id": "B", "date": "2026-01-01", "goal_difference": -2, "result": "loss"},
+            {"lead_in_id": "4", "qualified_team_id": "B", "date": "2026-01-02", "goal_difference": 0, "result": "draw"},
+        ]
+    )
+
+    strengths_df = build_team_strengths(
+        base_df,
+        lead_in_df,
+        baseline_rating_weights=(1.0, 0.0),
+        form_component_weights=(1.0, 0.0),
+        strength_blend_weights=(0.0, 1.0),
+    ).set_index("team_id")
+
+    assert strengths_df.loc["A", "rating_score"] > strengths_df.loc["B", "rating_score"]
+    assert strengths_df.loc["A", "form_score"] > strengths_df.loc["B", "form_score"]
+    assert strengths_df.loc["A", "team_strength"] == strengths_df.loc["A", "form_score"]
+    assert strengths_df.loc["B", "team_strength"] == strengths_df.loc["B", "form_score"]
+
+
+def test_build_team_strengths_respects_custom_recent_match_window():
+    base_df = pd.DataFrame(
+        [
+            {"team_id": "A", "group_code": "A", "elo_rating": 1800, "fifa_points": 1700},
+            {"team_id": "B", "group_code": "A", "elo_rating": 1800, "fifa_points": 1700},
+        ]
+    )
+    lead_in_df = pd.DataFrame(
+        [
+            {"lead_in_id": "1", "qualified_team_id": "A", "date": "2026-01-01", "goal_difference": -3, "result": "loss"},
+            {"lead_in_id": "2", "qualified_team_id": "A", "date": "2026-01-02", "goal_difference": 4, "result": "win"},
+            {"lead_in_id": "3", "qualified_team_id": "B", "date": "2026-01-01", "goal_difference": 0, "result": "draw"},
+            {"lead_in_id": "4", "qualified_team_id": "B", "date": "2026-01-02", "goal_difference": 0, "result": "draw"},
+        ]
+    )
+
+    short_window = build_team_strengths(
+        base_df,
+        lead_in_df,
+        match_window=1,
+        baseline_rating_weights=(1.0, 0.0),
+        form_component_weights=(1.0, 0.0),
+        strength_blend_weights=(0.0, 1.0),
+    ).set_index("team_id")
+    long_window = build_team_strengths(
+        base_df,
+        lead_in_df,
+        match_window=2,
+        baseline_rating_weights=(1.0, 0.0),
+        form_component_weights=(1.0, 0.0),
+        strength_blend_weights=(0.0, 1.0),
+    ).set_index("team_id")
+
+    assert short_window.loc["A", "points_per_match"] == 3.0
+    assert long_window.loc["A", "points_per_match"] == 1.5
+    assert short_window.loc["A", "goal_diff_per_match"] == 4.0
+    assert long_window.loc["A", "goal_diff_per_match"] == 0.5
 
 
 def test_extract_group_stage_fixtures_has_six_matches_and_three_per_team():
@@ -226,7 +313,39 @@ def test_build_table_html_all_countries_includes_ko_column_only_when_requested()
     html = home.build_table_html(sample_df, "All Countries", include_group_column=True, include_ko_column=True)
 
     assert "KO %" in html
+    assert "Rank" in html
     assert "86.0%" in html
+
+
+def test_build_table_html_does_not_render_simulation_count_in_header():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {
+                "team_id": "ARG",
+                "group_code": "J",
+                "flag_icon_code": "ar",
+                "display_name": "Argentina",
+                "world_rank": 1,
+                "elo_rating": 2140,
+                "prob_1": 61.5,
+                "prob_2": 24.5,
+                "prob_3": 10.0,
+                "prob_4": 4.0,
+                "ko_prob": 86.0,
+            }
+        ]
+    )
+
+    html = home.build_table_html(
+        sample_df,
+        "All Countries",
+        include_group_column=True,
+        include_ko_column=True,
+    )
+
+    assert "Simulations" not in html
+    assert "&lt;/div&gt;" not in html
 
 
 def test_all_teams_table_frame_sorts_by_ko_prob_before_prob_1():
@@ -256,6 +375,123 @@ def test_ensure_dashboard_probability_columns_backfills_missing_ko_prob():
 
     assert "ko_prob" in normalized.columns
     assert normalized.loc[0, "ko_prob"] == 75.0
+
+
+def test_simulate_probabilities_accepts_custom_weight_filters():
+    home = load_home_module()
+    base_df, fixtures_df, lead_in_df, _ = home.load_data()
+
+    dashboard_df = home.simulate_probabilities(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=20,
+        baseline_rating_weights=(1.0, 0.0),
+        form_component_weights=(1.0, 0.0),
+        strength_blend_weights=(1.0, 0.0),
+    )
+
+    assert {"rating_score", "form_score", "team_strength"}.issubset(dashboard_df.columns)
+
+
+def test_simulate_probabilities_accepts_custom_recent_match_window():
+    home = load_home_module()
+    base_df, fixtures_df, lead_in_df, _ = home.load_data()
+
+    short_window_df = home.simulate_probabilities(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=20,
+        match_window=5,
+    )
+    long_window_df = home.simulate_probabilities(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=20,
+        match_window=8,
+    )
+
+    assert not short_window_df["form_score"].equals(long_window_df["form_score"])
+
+
+def test_simulate_probabilities_falls_back_when_simulator_lacks_match_window(monkeypatch):
+    home = load_home_module()
+    captured = {}
+
+    def legacy_simulator(**kwargs):
+        captured.update(kwargs)
+        return pd.DataFrame(
+            [
+                {
+                    "team_id": "A",
+                    "group_code": "A",
+                    "prob_1": 40.0,
+                    "prob_2": 35.0,
+                    "prob_3": 15.0,
+                    "prob_4": 10.0,
+                }
+            ]
+        )
+
+    monkeypatch.setattr(home, "simulate_group_probabilities", legacy_simulator)
+
+    result = home.simulate_probabilities(
+        base_df=pd.DataFrame([{"team_id": "A", "group_code": "A"}]),
+        fixtures_df=pd.DataFrame(),
+        lead_in_df=pd.DataFrame(),
+        simulations=10,
+        match_window=5,
+    )
+
+    assert "match_window" not in captured
+    assert result.loc[0, "prob_1"] == 40.0
+
+
+def test_simulate_probabilities_filters_all_unknown_optional_kwargs(monkeypatch):
+    home = load_home_module()
+    captured = {}
+
+    def legacy_simulator(base_df, fixtures_df, lead_in_df, simulations, group_order):
+        captured.update(
+            {
+                "base_df": base_df,
+                "fixtures_df": fixtures_df,
+                "lead_in_df": lead_in_df,
+                "simulations": simulations,
+                "group_order": group_order,
+            }
+        )
+        return pd.DataFrame(
+            [
+                {
+                    "team_id": "A",
+                    "group_code": "A",
+                    "prob_1": 50.0,
+                    "prob_2": 25.0,
+                    "prob_3": 15.0,
+                    "prob_4": 10.0,
+                }
+            ]
+        )
+
+    monkeypatch.setattr(home, "simulate_group_probabilities", legacy_simulator)
+
+    result = home.simulate_probabilities(
+        base_df=pd.DataFrame([{"team_id": "A", "group_code": "A"}]),
+        fixtures_df=pd.DataFrame(),
+        lead_in_df=pd.DataFrame(),
+        simulations=10,
+        match_window=5,
+        baseline_rating_weights=(1.0, 0.0),
+        form_component_weights=(1.0, 0.0),
+        strength_blend_weights=(1.0, 0.0),
+    )
+
+    assert captured["simulations"] == 10
+    assert captured["group_order"] == home.GROUP_ORDER
+    assert result.loc[0, "prob_1"] == 50.0
 
 
 def test_build_export_stem_appends_suffix_without_overwriting_base_name():

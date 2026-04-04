@@ -7,16 +7,24 @@ import pandas as pd
 
 
 DEFAULT_GROUP_ORDER = tuple("ABCDEFGHIJKL")
-RECENT_MATCH_WINDOW = 8
+RECENT_MATCH_WINDOW = 10
 RESULT_POINTS = {"win": 3, "draw": 1, "loss": 0}
-BASELINE_RATING_WEIGHTS = (0.65, 0.35)
+BASELINE_RATING_WEIGHTS = (1.0, 0.0)
 FORM_COMPONENT_WEIGHTS = (0.7, 0.3)
-STRENGTH_BLEND_WEIGHTS = (0.75, 0.25)
+STRENGTH_BLEND_WEIGHTS = (0.5, 0.5)
 EXPECTED_GOALS_BASE = 1.20
 EXPECTED_GOALS_SCALE = 0.40
 EXPECTED_GOALS_MIN = 0.20
 EXPECTED_GOALS_MAX = 3.00
 BEST_THIRD_QUALIFICATION_SLOTS = 8
+
+
+def normalize_weight_pair(primary_weight: float, secondary_weight: float) -> tuple[float, float]:
+    """Normalize a two-value weight pair so it sums to 1.0."""
+    total = float(primary_weight) + float(secondary_weight)
+    if total <= 0:
+        raise ValueError("At least one weight must be positive")
+    return float(primary_weight) / total, float(secondary_weight) / total
 
 
 def zscore(series: pd.Series) -> pd.Series:
@@ -60,10 +68,15 @@ def extract_group_stage_fixtures(fixtures_df: pd.DataFrame, group_order: Iterabl
     return group_fixtures
 
 
-def build_recent_form_metrics(lead_in_df: pd.DataFrame, match_window: int = RECENT_MATCH_WINDOW) -> pd.DataFrame:
+def build_recent_form_metrics(
+    lead_in_df: pd.DataFrame,
+    match_window: int = RECENT_MATCH_WINDOW,
+    form_component_weights: tuple[float, float] = FORM_COMPONENT_WEIGHTS,
+) -> pd.DataFrame:
     """Build recent-form metrics from each team's most recent lead-in matches."""
     if match_window <= 0:
         raise ValueError("match_window must be positive")
+    points_weight, goal_diff_weight = normalize_weight_pair(*form_component_weights)
 
     df = lead_in_df.copy()
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
@@ -86,22 +99,31 @@ def build_recent_form_metrics(lead_in_df: pd.DataFrame, match_window: int = RECE
     )
     form["points_form_z"] = zscore(form["points_per_match"])
     form["goal_diff_form_z"] = zscore(form["goal_diff_per_match"])
-    form["form_score"] = (
-        FORM_COMPONENT_WEIGHTS[0] * form["points_form_z"] + FORM_COMPONENT_WEIGHTS[1] * form["goal_diff_form_z"]
-    )
+    form["form_score"] = points_weight * form["points_form_z"] + goal_diff_weight * form["goal_diff_form_z"]
     return form
 
 
-def build_team_strengths(base_df: pd.DataFrame, lead_in_df: pd.DataFrame, match_window: int = RECENT_MATCH_WINDOW) -> pd.DataFrame:
+def build_team_strengths(
+    base_df: pd.DataFrame,
+    lead_in_df: pd.DataFrame,
+    match_window: int = RECENT_MATCH_WINDOW,
+    baseline_rating_weights: tuple[float, float] = BASELINE_RATING_WEIGHTS,
+    form_component_weights: tuple[float, float] = FORM_COMPONENT_WEIGHTS,
+    strength_blend_weights: tuple[float, float] = STRENGTH_BLEND_WEIGHTS,
+) -> pd.DataFrame:
     """Blend ratings and recent form into one pre-tournament strength score."""
+    elo_weight, fifa_weight = normalize_weight_pair(*baseline_rating_weights)
+    rating_weight, form_weight = normalize_weight_pair(*strength_blend_weights)
     df = base_df.copy()
     df["elo_rating"] = pd.to_numeric(df["elo_rating"], errors="coerce")
     df["fifa_points"] = pd.to_numeric(df["fifa_points"], errors="coerce")
-    df["rating_score"] = (
-        BASELINE_RATING_WEIGHTS[0] * zscore(df["elo_rating"]) + BASELINE_RATING_WEIGHTS[1] * zscore(df["fifa_points"])
-    )
+    df["rating_score"] = elo_weight * zscore(df["elo_rating"]) + fifa_weight * zscore(df["fifa_points"])
 
-    form = build_recent_form_metrics(lead_in_df, match_window=match_window)
+    form = build_recent_form_metrics(
+        lead_in_df,
+        match_window=match_window,
+        form_component_weights=form_component_weights,
+    )
     df = df.merge(form, left_on="team_id", right_on="qualified_team_id", how="left")
     df["recent_matches"] = df["recent_matches"].fillna(0).astype(int)
     df["points_per_match"] = df["points_per_match"].fillna(0.0)
@@ -109,9 +131,7 @@ def build_team_strengths(base_df: pd.DataFrame, lead_in_df: pd.DataFrame, match_
     df["points_form_z"] = df["points_form_z"].fillna(0.0)
     df["goal_diff_form_z"] = df["goal_diff_form_z"].fillna(0.0)
     df["form_score"] = df["form_score"].fillna(0.0)
-    df["team_strength"] = (
-        STRENGTH_BLEND_WEIGHTS[0] * df["rating_score"] + STRENGTH_BLEND_WEIGHTS[1] * df["form_score"]
-    )
+    df["team_strength"] = rating_weight * df["rating_score"] + form_weight * df["form_score"]
     return df.drop(columns=["qualified_team_id"])
 
 
@@ -271,13 +291,24 @@ def simulate_group_probabilities(
     simulations: int,
     seed: int = 20260403,
     group_order: Iterable[str] = DEFAULT_GROUP_ORDER,
+    match_window: int = RECENT_MATCH_WINDOW,
+    baseline_rating_weights: tuple[float, float] = BASELINE_RATING_WEIGHTS,
+    form_component_weights: tuple[float, float] = FORM_COMPONENT_WEIGHTS,
+    strength_blend_weights: tuple[float, float] = STRENGTH_BLEND_WEIGHTS,
 ) -> pd.DataFrame:
     """Simulate group-stage finishing probabilities from fixtures, ratings, and recent form."""
     if simulations <= 0:
         raise ValueError("simulations must be positive")
 
     group_order = list(group_order)
-    strengths_df = build_team_strengths(base_df, lead_in_df, match_window=RECENT_MATCH_WINDOW)
+    strengths_df = build_team_strengths(
+        base_df,
+        lead_in_df,
+        match_window=match_window,
+        baseline_rating_weights=baseline_rating_weights,
+        form_component_weights=form_component_weights,
+        strength_blend_weights=strength_blend_weights,
+    )
     group_fixtures = extract_group_stage_fixtures(fixtures_df, group_order=group_order)
 
     team_global_index = {team_id: idx for idx, team_id in enumerate(strengths_df["team_id"])}
