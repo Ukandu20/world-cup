@@ -13,6 +13,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from world_cup_simulation import (  # noqa: E402
+    THIRD_PLACE_ROUTING_MAP,
     build_team_strengths,
     build_recent_form_metrics,
     extract_group_stage_fixtures,
@@ -210,10 +211,28 @@ def test_simulate_group_probabilities_preserves_probability_invariants():
         simulations=120,
     )
 
+    required_columns = {
+        "top8_third_prob",
+        "ko_prob",
+        "r16_prob",
+        "qf_prob",
+        "sf_prob",
+        "final_prob",
+        "champion_prob",
+    }
+    assert required_columns.issubset(dashboard_df.columns)
+
     for _, row in dashboard_df.iterrows():
         total_probability = row["prob_1"] + row["prob_2"] + row["prob_3"] + row["prob_4"]
         assert abs(total_probability - 100.0) < 1e-9
-        assert row["ko_prob"] + 1e-9 >= row["prob_1"] + row["prob_2"]
+        assert abs(row["ko_prob"] - (row["prob_1"] + row["prob_2"] + row["top8_third_prob"])) < 1e-9
+        assert row["champion_prob"] <= row["final_prob"] + 1e-9
+        assert row["final_prob"] <= row["sf_prob"] + 1e-9
+        assert row["sf_prob"] <= row["qf_prob"] + 1e-9
+        assert row["qf_prob"] <= row["r16_prob"] + 1e-9
+        assert row["r16_prob"] <= row["ko_prob"] + 1e-9
+        for column_name in required_columns:
+            assert 0.0 <= row[column_name] <= 100.0
 
     place_totals = (
         dashboard_df.groupby("group_code")[["prob_1", "prob_2", "prob_3", "prob_4"]]
@@ -257,6 +276,19 @@ def test_rank_best_third_place_teams_marks_exactly_eight_qualifiers():
     ranked = rank_best_third_place_teams(third_place_df)
 
     assert int(ranked["qualifies_as_best_third"].sum()) == 8
+
+
+def test_third_place_routing_map_includes_known_knockout_combination():
+    assert THIRD_PLACE_ROUTING_MAP["EFGHIJKL"] == {
+        79: "E",
+        85: "J",
+        81: "I",
+        74: "F",
+        82: "H",
+        77: "G",
+        87: "L",
+        80: "K",
+    }
 
 
 def test_build_table_html_smoke_contains_expected_probability_columns():
@@ -305,16 +337,60 @@ def test_build_table_html_all_countries_includes_ko_column_only_when_requested()
                 "prob_2": 24.5,
                 "prob_3": 10.0,
                 "prob_4": 4.0,
+                "top8_third_prob": 1.0,
                 "ko_prob": 86.0,
+                "r16_prob": 61.0,
+                "qf_prob": 39.0,
+                "sf_prob": 22.0,
+                "final_prob": 12.0,
+                "champion_prob": 7.0,
             }
         ]
     )
 
     html = home.build_table_html(sample_df, "All Countries", include_group_column=True, include_ko_column=True)
 
+    assert "Top 8 3rd %" in html
     assert "KO %" in html
+    assert "R16 %" in html
+    assert "QF %" in html
+    assert "SF %" in html
+    assert "Final %" in html
+    assert "Champion %" in html
     assert "Rank" in html
     assert "86.0%" in html
+
+
+def test_build_table_html_all_countries_embeds_champion_trophy_icon():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {
+                "team_id": "ARG",
+                "group_code": "J",
+                "flag_icon_code": "ar",
+                "display_name": "Argentina",
+                "world_rank": 1,
+                "elo_rating": 2140,
+                "prob_1": 61.5,
+                "prob_2": 24.5,
+                "prob_3": 10.0,
+                "prob_4": 4.0,
+                "top8_third_prob": 1.0,
+                "ko_prob": 86.0,
+                "r16_prob": 61.0,
+                "qf_prob": 39.0,
+                "sf_prob": 22.0,
+                "final_prob": 12.0,
+                "champion_prob": 7.0,
+            }
+        ]
+    )
+
+    html = home.build_table_html(sample_df, "All Countries", include_group_column=True, include_ko_column=True)
+
+    assert "data:image/svg+xml;base64," in html
+    assert "Champion trophy" in html
 
 
 def test_build_table_html_does_not_render_simulation_count_in_header():
@@ -332,7 +408,13 @@ def test_build_table_html_does_not_render_simulation_count_in_header():
                 "prob_2": 24.5,
                 "prob_3": 10.0,
                 "prob_4": 4.0,
+                "top8_third_prob": 1.0,
                 "ko_prob": 86.0,
+                "r16_prob": 61.0,
+                "qf_prob": 39.0,
+                "sf_prob": 22.0,
+                "final_prob": 12.0,
+                "champion_prob": 7.0,
             }
         ]
     )
@@ -348,13 +430,49 @@ def test_build_table_html_does_not_render_simulation_count_in_header():
     assert "&lt;/div&gt;" not in html
 
 
-def test_all_teams_table_frame_sorts_by_ko_prob_before_prob_1():
+def test_all_teams_table_frame_sorts_by_champion_then_deeper_rounds():
     home = load_home_module()
     sample_df = pd.DataFrame(
         [
-            {"team_id": "A", "ko_prob": 75.0, "prob_1": 70.0, "elo_rating": 1800, "world_rank": 5},
-            {"team_id": "B", "ko_prob": 82.0, "prob_1": 40.0, "elo_rating": 1700, "world_rank": 8},
-            {"team_id": "C", "ko_prob": 75.0, "prob_1": 72.0, "elo_rating": 1750, "world_rank": 7},
+            {
+                "team_id": "A",
+                "champion_prob": 8.0,
+                "final_prob": 15.0,
+                "sf_prob": 28.0,
+                "qf_prob": 42.0,
+                "r16_prob": 61.0,
+                "ko_prob": 82.0,
+                "top8_third_prob": 2.0,
+                "prob_1": 40.0,
+                "elo_rating": 1800,
+                "world_rank": 5,
+            },
+            {
+                "team_id": "B",
+                "champion_prob": 10.0,
+                "final_prob": 14.0,
+                "sf_prob": 25.0,
+                "qf_prob": 40.0,
+                "r16_prob": 60.0,
+                "ko_prob": 80.0,
+                "top8_third_prob": 1.0,
+                "prob_1": 38.0,
+                "elo_rating": 1700,
+                "world_rank": 8,
+            },
+            {
+                "team_id": "C",
+                "champion_prob": 8.0,
+                "final_prob": 16.0,
+                "sf_prob": 29.0,
+                "qf_prob": 43.0,
+                "r16_prob": 62.0,
+                "ko_prob": 82.0,
+                "top8_third_prob": 3.0,
+                "prob_1": 41.0,
+                "elo_rating": 1750,
+                "world_rank": 7,
+            },
         ]
     )
 
@@ -373,7 +491,14 @@ def test_ensure_dashboard_probability_columns_backfills_missing_ko_prob():
 
     normalized = home.ensure_dashboard_probability_columns(sample_df)
 
+    assert "top8_third_prob" in normalized.columns
     assert "ko_prob" in normalized.columns
+    assert "r16_prob" in normalized.columns
+    assert "qf_prob" in normalized.columns
+    assert "sf_prob" in normalized.columns
+    assert "final_prob" in normalized.columns
+    assert "champion_prob" in normalized.columns
+    assert normalized.loc[0, "top8_third_prob"] == 0.0
     assert normalized.loc[0, "ko_prob"] == 75.0
 
 

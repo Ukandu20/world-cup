@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import base64
+import json
+import zlib
 from collections.abc import Iterable
 
 import numpy as np
@@ -17,6 +20,49 @@ EXPECTED_GOALS_SCALE = 0.40
 EXPECTED_GOALS_MIN = 0.20
 EXPECTED_GOALS_MAX = 3.00
 BEST_THIRD_QUALIFICATION_SLOTS = 8
+EXTRA_TIME_FACTOR = 1.0 / 3.0
+THIRD_PLACE_ROUTE_MATCHES = (79, 85, 81, 74, 82, 77, 87, 80)
+THIRD_PLACE_ROUTING_COMPRESSED = (
+    "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"
+)
 
 
 def normalize_weight_pair(primary_weight: float, secondary_weight: float) -> tuple[float, float]:
@@ -33,6 +79,19 @@ def zscore(series: pd.Series) -> pd.Series:
     if pd.isna(std) or std == 0:
         return pd.Series(np.zeros(len(series)), index=series.index, dtype=float)
     return (series - series.mean()) / std
+
+
+def load_third_place_routing_map() -> dict[str, dict[int, str]]:
+    """Decode the static Round of 32 routing map for best third-place teams."""
+    payload = zlib.decompress(base64.b64decode(THIRD_PLACE_ROUTING_COMPRESSED)).decode("utf-8")
+    raw_mapping = json.loads(payload)
+    return {
+        combo_key: {int(match_number): group_code for match_number, group_code in match_mapping.items()}
+        for combo_key, match_mapping in raw_mapping.items()
+    }
+
+
+THIRD_PLACE_ROUTING_MAP = load_third_place_routing_map()
 
 
 def extract_group_stage_fixtures(fixtures_df: pd.DataFrame, group_order: Iterable[str] = DEFAULT_GROUP_ORDER) -> pd.DataFrame:
@@ -66,6 +125,21 @@ def extract_group_stage_fixtures(fixtures_df: pd.DataFrame, group_order: Iterabl
             raise ValueError(f"Expected 4 teams with 3 fixtures each in Group {group_code}")
 
     return group_fixtures
+
+
+def extract_knockout_fixtures(fixtures_df: pd.DataFrame) -> pd.DataFrame:
+    """Return knockout fixtures with their bracket slot labels."""
+    df = fixtures_df.copy()
+    df["match_number"] = pd.to_numeric(df["match_number"], errors="coerce")
+    knockout_fixtures = (
+        df[df["round_code"].isin(["R32", "R16", "QF", "SF", "3P", "F"])]
+        .sort_values(["match_number"], kind="stable")
+        .loc[:, ["match_number", "round_code", "home_slot_label", "away_slot_label"]]
+        .reset_index(drop=True)
+    )
+    if knockout_fixtures.empty:
+        raise ValueError("Expected knockout fixtures in fixtures_df")
+    return knockout_fixtures
 
 
 def build_recent_form_metrics(
@@ -284,6 +358,69 @@ def rank_group_standings(
     return table.iloc[ranked_indices].reset_index(drop=True)
 
 
+def expected_goals_from_strengths(home_strength: float, away_strength: float) -> tuple[float, float]:
+    """Return expected goals for one match using the shared strength model."""
+    delta = float(home_strength) - float(away_strength)
+    home_xg = float(np.clip(EXPECTED_GOALS_BASE + EXPECTED_GOALS_SCALE * delta, EXPECTED_GOALS_MIN, EXPECTED_GOALS_MAX))
+    away_xg = float(np.clip(EXPECTED_GOALS_BASE - EXPECTED_GOALS_SCALE * delta, EXPECTED_GOALS_MIN, EXPECTED_GOALS_MAX))
+    return home_xg, away_xg
+
+
+def resolve_knockout_slot(
+    slot_label: str,
+    match_number: int,
+    group_rankings: dict[str, list[str]],
+    match_results: dict[int, dict[str, str]],
+    third_place_routing: dict[int, str],
+) -> str:
+    """Resolve a knockout slot label to a concrete team id for one simulation run."""
+    slot = str(slot_label).strip()
+    if not slot:
+        raise ValueError(f"Blank slot label for knockout match {match_number}")
+
+    if slot.startswith("W"):
+        prior_match = int(slot[1:])
+        return match_results[prior_match]["winner_team_id"]
+    if slot.startswith("RU"):
+        prior_match = int(slot[2:])
+        return match_results[prior_match]["loser_team_id"]
+    if slot[0] in {"1", "2"} and len(slot) == 2 and slot[1].isalpha():
+        return group_rankings[slot[1]][int(slot[0]) - 1]
+    if slot.startswith("3"):
+        if len(slot) == 2 and slot[1].isalpha():
+            return group_rankings[slot[1]][2]
+        resolved_group = third_place_routing[match_number]
+        return group_rankings[resolved_group][2]
+
+    raise ValueError(f"Unsupported knockout slot label '{slot}' for match {match_number}")
+
+
+def simulate_knockout_match(
+    home_team_id: str,
+    away_team_id: str,
+    team_strength_lookup: dict[str, float],
+    rng: np.random.Generator,
+) -> tuple[str, str]:
+    """Simulate one knockout match to a winner, including extra time and penalties."""
+    home_xg, away_xg = expected_goals_from_strengths(
+        team_strength_lookup[home_team_id],
+        team_strength_lookup[away_team_id],
+    )
+    home_goals = int(rng.poisson(home_xg))
+    away_goals = int(rng.poisson(away_xg))
+
+    if home_goals == away_goals:
+        home_goals += int(rng.poisson(home_xg * EXTRA_TIME_FACTOR))
+        away_goals += int(rng.poisson(away_xg * EXTRA_TIME_FACTOR))
+    if home_goals == away_goals:
+        home_wins = bool(rng.integers(0, 2))
+        winner_team_id = home_team_id if home_wins else away_team_id
+    else:
+        winner_team_id = home_team_id if home_goals > away_goals else away_team_id
+    loser_team_id = away_team_id if winner_team_id == home_team_id else home_team_id
+    return winner_team_id, loser_team_id
+
+
 def simulate_group_probabilities(
     base_df: pd.DataFrame,
     fixtures_df: pd.DataFrame,
@@ -296,7 +433,7 @@ def simulate_group_probabilities(
     form_component_weights: tuple[float, float] = FORM_COMPONENT_WEIGHTS,
     strength_blend_weights: tuple[float, float] = STRENGTH_BLEND_WEIGHTS,
 ) -> pd.DataFrame:
-    """Simulate group-stage finishing probabilities from fixtures, ratings, and recent form."""
+    """Simulate full-tournament advancement probabilities from group and knockout fixtures."""
     if simulations <= 0:
         raise ValueError("simulations must be positive")
 
@@ -310,9 +447,17 @@ def simulate_group_probabilities(
         strength_blend_weights=strength_blend_weights,
     )
     group_fixtures = extract_group_stage_fixtures(fixtures_df, group_order=group_order)
+    knockout_fixtures = extract_knockout_fixtures(fixtures_df)
 
     team_global_index = {team_id: idx for idx, team_id in enumerate(strengths_df["team_id"])}
+    team_strength_lookup = strengths_df.set_index("team_id")["team_strength"].astype(float).to_dict()
     ko_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    top8_third_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    r16_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    qf_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    sf_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    final_counts = np.zeros(len(strengths_df), dtype=np.int32)
+    champion_counts = np.zeros(len(strengths_df), dtype=np.int32)
     group_simulations: dict[str, dict[str, np.ndarray | list[str]]] = {}
     finish_counts_by_group: dict[str, np.ndarray] = {}
 
@@ -381,8 +526,10 @@ def simulate_group_probabilities(
         }
         finish_counts_by_group[group_code] = np.zeros((len(team_ids), len(team_ids)), dtype=np.int32)
 
+    knockout_rng = np.random.default_rng(seed + 4096)
     for simulation_index in range(simulations):
         third_place_rows: list[dict[str, object]] = []
+        group_rankings: dict[str, list[str]] = {}
         for group_code in group_order:
             if group_code not in group_simulations:
                 continue
@@ -407,6 +554,7 @@ def simulate_group_probabilities(
                 finish_counts[team_idx, place] += 1
                 if place < 2:
                     ko_counts[team_global_indices[team_idx]] += 1
+            group_rankings[group_code] = [group_simulation["team_ids"][team_idx] for team_idx in ranked_indices]
 
             third_idx = ranked_indices[2]
             third_place_rows.append(
@@ -423,8 +571,54 @@ def simulate_group_probabilities(
 
         if third_place_rows:
             ranked_third_place = rank_best_third_place_teams(pd.DataFrame(third_place_rows))
-            for row in ranked_third_place[ranked_third_place["qualifies_as_best_third"]].itertuples(index=False):
+            qualifying_third_place = ranked_third_place[ranked_third_place["qualifies_as_best_third"]].copy()
+            qualifying_groups = "".join(sorted(qualifying_third_place["group_code"].astype(str).tolist()))
+            if qualifying_groups not in THIRD_PLACE_ROUTING_MAP:
+                raise ValueError(f"Missing Round of 32 routing for third-place combination {qualifying_groups}")
+            third_place_routing = THIRD_PLACE_ROUTING_MAP[qualifying_groups]
+
+            for row in qualifying_third_place.itertuples(index=False):
                 ko_counts[int(row.team_global_index)] += 1
+                top8_third_counts[int(row.team_global_index)] += 1
+
+            match_results: dict[int, dict[str, str]] = {}
+            for match in knockout_fixtures.itertuples(index=False):
+                match_number = int(match.match_number)
+                home_team_id = resolve_knockout_slot(
+                    match.home_slot_label,
+                    match_number,
+                    group_rankings,
+                    match_results,
+                    third_place_routing,
+                )
+                away_team_id = resolve_knockout_slot(
+                    match.away_slot_label,
+                    match_number,
+                    group_rankings,
+                    match_results,
+                    third_place_routing,
+                )
+                winner_team_id, loser_team_id = simulate_knockout_match(
+                    home_team_id,
+                    away_team_id,
+                    team_strength_lookup,
+                    knockout_rng,
+                )
+                winner_global_idx = team_global_index[winner_team_id]
+                if match.round_code == "R32":
+                    r16_counts[winner_global_idx] += 1
+                elif match.round_code == "R16":
+                    qf_counts[winner_global_idx] += 1
+                elif match.round_code == "QF":
+                    sf_counts[winner_global_idx] += 1
+                elif match.round_code == "SF":
+                    final_counts[winner_global_idx] += 1
+                elif match.round_code == "F":
+                    champion_counts[winner_global_idx] += 1
+                match_results[match_number] = {
+                    "winner_team_id": winner_team_id,
+                    "loser_team_id": loser_team_id,
+                }
 
     results: list[pd.DataFrame] = []
     for group_code in group_order:
@@ -440,7 +634,17 @@ def simulate_group_probabilities(
         results.append(probability_frame)
 
     probabilities_df = pd.concat(results, ignore_index=True)
-    probabilities_df["ko_prob"] = probabilities_df["team_id"].map(
-        {team_id: ko_counts[team_global_index[team_id]] / simulations * 100 for team_id in strengths_df["team_id"]}
-    )
+    team_probability_maps = {
+        "top8_third_prob": top8_third_counts,
+        "ko_prob": ko_counts,
+        "r16_prob": r16_counts,
+        "qf_prob": qf_counts,
+        "sf_prob": sf_counts,
+        "final_prob": final_counts,
+        "champion_prob": champion_counts,
+    }
+    for column_name, counts in team_probability_maps.items():
+        probabilities_df[column_name] = probabilities_df["team_id"].map(
+            {team_id: counts[team_global_index[team_id]] / simulations * 100 for team_id in strengths_df["team_id"]}
+        )
     return strengths_df.merge(probabilities_df, on=["team_id", "group_code"], how="left")

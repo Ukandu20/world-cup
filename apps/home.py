@@ -22,6 +22,7 @@ from world_cup_simulation import simulate_group_probabilities
 DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
 EXPORT_DIR = ROOT / "assets" / "charts" / "generated"
 WORLD_CUP_LOGO_PATH = ROOT / "assets" / "logos" / "world-cup" / "fifa-world-cup-2026.football.cc.svg"
+CHAMPION_TROPHY_PATH = ROOT / "assets" / "logos" / "world-cup" / "Coupe-du-monde.svg"
 SIMULATION_COUNT = 20000
 SIMULATION_OPTIONS = {
     "250": 250,
@@ -43,8 +44,23 @@ PROBABILITY_PALETTES = {
     "prob_2": ((219, 234, 254), (37, 99, 235)),
     "prob_3": ((254, 243, 199), (217, 119, 6)),
     "prob_4": ((254, 226, 226), (220, 38, 38)),
+    "top8_third_prob": ((250, 245, 200), (202, 138, 4)),
     "ko_prob": ((224, 242, 254), (8, 145, 178)),
+    "r16_prob": ((224, 231, 255), (79, 70, 229)),
+    "qf_prob": ((233, 213, 255), (147, 51, 234)),
+    "sf_prob": ((255, 228, 230), (225, 29, 72)),
+    "final_prob": ((255, 237, 213), (234, 88, 12)),
+    "champion_prob": ((254, 240, 138), (202, 138, 4)),
 }
+ALL_COUNTRIES_KNOCKOUT_COLUMNS = (
+    ("top8_third_prob", "Top 8 3rd %"),
+    ("ko_prob", "KO %"),
+    ("r16_prob", "R16 %"),
+    ("qf_prob", "QF %"),
+    ("sf_prob", "SF %"),
+    ("final_prob", "Final %"),
+    ("champion_prob", "Champion %"),
+)
 
 
 def fix_mojibake(value: str) -> str:
@@ -60,11 +76,23 @@ def fix_mojibake(value: str) -> str:
 
 
 @st.cache_data(show_spinner=False)
-def load_world_cup_logo_data_uri() -> str:
-    """Load the local World Cup logo as a data URI for inline display and export."""
-    svg_bytes = WORLD_CUP_LOGO_PATH.read_bytes()
+def load_svg_data_uri(svg_path: str) -> str:
+    """Load a local SVG file as a data URI for inline display and export."""
+    svg_bytes = Path(svg_path).read_bytes()
     encoded = base64.b64encode(svg_bytes).decode("ascii")
     return f"data:image/svg+xml;base64,{encoded}"
+
+
+@st.cache_data(show_spinner=False)
+def load_world_cup_logo_data_uri() -> str:
+    """Load the dashboard World Cup logo as a data URI."""
+    return load_svg_data_uri(str(WORLD_CUP_LOGO_PATH))
+
+
+@st.cache_data(show_spinner=False)
+def load_champion_trophy_data_uri() -> str:
+    """Load the champion trophy SVG as a data URI."""
+    return load_svg_data_uri(str(CHAMPION_TROPHY_PATH))
 
 
 @st.cache_data(show_spinner=False)
@@ -171,8 +199,15 @@ def ensure_dashboard_probability_columns(df: pd.DataFrame) -> pd.DataFrame:
     for column_name in ("prob_1", "prob_2", "prob_3", "prob_4"):
         if column_name not in normalized.columns:
             normalized[column_name] = 0.0
+    for column_name in ("top8_third_prob", "r16_prob", "qf_prob", "sf_prob", "final_prob", "champion_prob"):
+        if column_name not in normalized.columns:
+            normalized[column_name] = 0.0
     if "ko_prob" not in normalized.columns:
-        normalized["ko_prob"] = normalized["prob_1"].fillna(0.0) + normalized["prob_2"].fillna(0.0)
+        normalized["ko_prob"] = (
+            normalized["prob_1"].fillna(0.0)
+            + normalized["prob_2"].fillna(0.0)
+            + normalized["top8_third_prob"].fillna(0.0)
+        )
     return normalized
 
 
@@ -381,6 +416,18 @@ def shared_css() -> str:
         font-size: 0.92rem;
         margin-top: 0.35rem;
     }
+    .wc-header-icon-label {
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.3rem;
+    }
+    .wc-header-icon {
+        width: 0.92rem;
+        height: 0.92rem;
+        object-fit: contain;
+        vertical-align: middle;
+    }
     @media (max-width: 1380px) {
         .wc-grid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -548,6 +595,17 @@ def render_name_cell(flag_icon_code: str, display_name: str) -> str:
     return f'<div class="wc-name-cell"><span class="wc-name-text">{safe_name}</span></div>'
 
 
+def champion_column_header() -> str:
+    """Render the Champion column header with the local trophy icon."""
+    trophy_data_uri = load_champion_trophy_data_uri()
+    return (
+        '<span class="wc-header-icon-label">'
+        f'<img class="wc-header-icon" src="{trophy_data_uri}" alt="Champion trophy" />'
+        "<span>Champion %</span>"
+        "</span>"
+    )
+
+
 def build_table_html(
     df: pd.DataFrame,
     title: str,
@@ -555,10 +613,11 @@ def build_table_html(
     include_ko_column: bool = False,
 ) -> str:
     """Render one standings table as a styled HTML card."""
+    df = ensure_dashboard_probability_columns(df)
     include_rank_column = include_group_column
     probability_columns = ["prob_1", "prob_2", "prob_3", "prob_4"]
     if include_ko_column:
-        probability_columns.append("ko_prob")
+        probability_columns.extend(column_name for column_name, _ in ALL_COUNTRIES_KNOCKOUT_COLUMNS)
     column_ranges = {
         column_name: (float(df[column_name].min()), float(df[column_name].max()))
         for column_name in probability_columns
@@ -580,7 +639,11 @@ def build_table_html(
     )
     headers = [header for header in headers if header]
     if include_ko_column:
-        headers.append('<th class="wc-num">KO %</th>')
+        for column_name, label in ALL_COUNTRIES_KNOCKOUT_COLUMNS:
+            if column_name == "champion_prob":
+                headers.append(f'<th class="wc-num">{champion_column_header()}</th>')
+            else:
+                headers.append(f'<th class="wc-num">{html.escape(label)}</th>')
 
     body_rows = []
     for rank, row in enumerate(df.itertuples(index=False), start=1):
@@ -601,9 +664,11 @@ def build_table_html(
             ]
         )
         if include_ko_column:
-            cells.append(
-                f'<td class="wc-num wc-prob" style="{probability_cell_style("ko_prob", row.ko_prob, *column_ranges["ko_prob"])}">{format_percent(row.ko_prob)}</td>'
-            )
+            for column_name, _ in ALL_COUNTRIES_KNOCKOUT_COLUMNS:
+                column_value = getattr(row, column_name)
+                cells.append(
+                    f'<td class="wc-num wc-prob" style="{probability_cell_style(column_name, column_value, *column_ranges[column_name])}">{format_percent(column_value)}</td>'
+                )
         body_rows.append(f"<tr>{''.join(cells)}</tr>")
 
     group_pill = ""
@@ -639,14 +704,23 @@ def group_table_frame(df: pd.DataFrame, group_code: str) -> pd.DataFrame:
 
 def all_teams_table_frame(df: pd.DataFrame) -> pd.DataFrame:
     """Return the full team table sorted globally by projected chance of finishing 1st."""
-    sort_columns = ["elo_rating", "world_rank"]
-    ascending = [False, True]
-    if "ko_prob" in df.columns:
-        sort_columns = ["ko_prob", "prob_1", *sort_columns]
-        ascending = [False, False, *ascending]
-    else:
-        sort_columns = ["prob_1", *sort_columns]
-        ascending = [False, *ascending]
+    sort_columns = []
+    ascending = []
+    for column_name in (
+        "champion_prob",
+        "final_prob",
+        "sf_prob",
+        "qf_prob",
+        "r16_prob",
+        "ko_prob",
+        "top8_third_prob",
+        "prob_1",
+    ):
+        if column_name in df.columns:
+            sort_columns.append(column_name)
+            ascending.append(False)
+    sort_columns.extend(["elo_rating", "world_rank"])
+    ascending.extend([False, True])
     return df.sort_values(sort_columns, ascending=ascending)
 
 
@@ -876,23 +950,18 @@ def main() -> None:
         st.session_state["simulation_settings"] = default_simulation_settings()
     current_settings = dict(st.session_state["simulation_settings"])
 
-    with st.form("simulation_filters"):
-        simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-        simulation_label = st.radio(
-            "Simulation runs",
-            simulation_labels,
-            index=simulation_labels.index(current_settings["simulation_label"]),
-            horizontal=True,
-        )
-        apply_filters = st.form_submit_button("Apply filters", use_container_width=True)
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+    )
+    st.session_state["simulation_settings"] = {
+        "simulation_label": simulation_label,
+    }
 
-    if apply_filters:
-        st.session_state["simulation_settings"] = {
-            "simulation_label": simulation_label,
-        }
-        current_settings = dict(st.session_state["simulation_settings"])
-
-    simulation_count = SIMULATION_OPTIONS[current_settings["simulation_label"]]
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
     with st.spinner(f"Running {simulation_count:,} simulations..."):
         dashboard_df = simulate_probabilities(
             base_df=base_df,
@@ -930,7 +999,8 @@ def main() -> None:
         f"recent form from the last {DEFAULT_RECENT_MATCH_WINDOW} matches, "
         "built from points vs goal difference (70% / 30%), "
         "and a ratings-vs-form blend (50% / 50%). "
-        "KO% in the All Countries table means reaching the Round of 32 either by finishing top two or as one of the eight best third-place teams. "
+        "Top 8 3rd% is the share of runs where a team finishes third and still advances. "
+        "KO% means reaching the Round of 32; R16%, QF%, SF%, Final%, and Champion% track deeper knockout progression. "
         "The percentage cells use color gradients so stronger finish likelihoods read more quickly."
     )
 
