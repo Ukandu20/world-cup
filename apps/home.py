@@ -17,7 +17,11 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from world_cup_simulation import build_deterministic_bracket, simulate_group_probabilities
+from world_cup_simulation import (
+    build_deterministic_bracket,
+    get_modal_group_rankings,
+    simulate_group_probabilities,
+)
 
 DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
 EXPORT_DIR = ROOT / "assets" / "charts" / "generated"
@@ -34,7 +38,7 @@ SIMULATION_OPTIONS = {
     "100k": 100000,
 }
 DEFAULT_RECENT_MATCH_WINDOW = 10
-DEFAULT_SIMULATION_LABEL = "250"
+DEFAULT_SIMULATION_LABEL = "100k"
 GROUP_ORDER = list("ABCDEFGHIJKL")
 VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
@@ -218,6 +222,13 @@ def default_simulation_settings() -> dict[str, str | int]:
     return {
         "simulation_label": DEFAULT_SIMULATION_LABEL,
     }
+
+
+def chart_subtitle(base_label: str, simulation_count: int | None = None) -> str:
+    """Return a chart subtitle with an optional simulation-count suffix."""
+    if simulation_count is None:
+        return base_label
+    return f"{base_label} | {simulation_count:,} simulations"
 
 def shared_css() -> str:
     """Return the shared CSS used by both Streamlit rendering and exported HTML files."""
@@ -862,6 +873,8 @@ def build_table_html(
     title: str,
     include_group_column: bool = False,
     include_ko_column: bool = False,
+    card_subtitle: str = "Pre-Tournament Probability Table",
+    group_pill_label: str | None = None,
 ) -> str:
     """Render one standings table as a styled HTML card."""
     df = ensure_dashboard_probability_columns(df)
@@ -928,15 +941,20 @@ def build_table_html(
         body_rows.append(f"<tr>{''.join(cells)}</tr>")
 
     group_pill = ""
-    if title.startswith("Group "):
-        group_pill = f'<span class="wc-group-pill">{html.escape(title.split()[-1])}</span>'
+    if group_pill_label is None and title.startswith("Group "):
+        title_parts = title.split()
+        if len(title_parts) >= 2:
+            group_pill_label = title_parts[1]
+    if group_pill_label:
+        group_pill = f'<span class="wc-group-pill">{html.escape(group_pill_label)}</span>'
     card_title = html.escape(title)
+    safe_card_subtitle = html.escape(card_subtitle)
     return textwrap.dedent(
         f"""
         <div class="wc-card">
           <div class="wc-card-header">
             <div>
-              <div class="wc-card-subtitle">Pre-Tournament Probability Table</div>
+              <div class="wc-card-subtitle">{safe_card_subtitle}</div>
               <div class="wc-card-title">{card_title}</div>
             </div>
             {group_pill}
@@ -953,9 +971,35 @@ def build_table_html(
 
 
 def group_table_frame(df: pd.DataFrame, group_code: str) -> pd.DataFrame:
-    """Return one group sorted by projected finish strength."""
+    """Return one group in the standard probability-table display order."""
     group_df = df[df["group_code"] == group_code].copy()
     return group_df.sort_values(["prob_1", "elo_rating", "world_rank"], ascending=[False, False, True])
+
+
+def projected_group_table_frame(df: pd.DataFrame, group_code: str) -> pd.DataFrame:
+    """Return one group ordered by the same modal ranking the deterministic bracket uses."""
+    group_df = df[df["group_code"] == group_code].copy()
+    if group_df.empty:
+        return group_df
+
+    try:
+        modal_group_rankings = get_modal_group_rankings(df)
+    except ValueError:
+        return group_table_frame(df, group_code)
+
+    projected_order = modal_group_rankings.get(group_code)
+    if not projected_order:
+        return group_table_frame(df, group_code)
+
+    projected_rank_lookup = {team_id: rank for rank, team_id in enumerate(projected_order, start=1)}
+    group_df["projected_rank"] = (
+        group_df["team_id"].map(projected_rank_lookup).fillna(len(projected_order) + 1).astype(int)
+    )
+    return group_df.sort_values(
+        ["projected_rank", "prob_1", "elo_rating", "world_rank"],
+        ascending=[True, False, False, True],
+        kind="stable",
+    ).drop(columns=["projected_rank"])
 
 
 def all_teams_table_frame(df: pd.DataFrame) -> pd.DataFrame:
@@ -1045,7 +1089,11 @@ def build_bracket_round_column(round_data: dict[str, object], side: str) -> str:
     ).strip()
 
 
-def build_bracket_html(bracket_data: dict[str, object], metadata_lookup: dict[str, dict[str, str]]) -> str:
+def build_bracket_html(
+    bracket_data: dict[str, object],
+    metadata_lookup: dict[str, dict[str, str]],
+    card_subtitle: str = "Predicted Knockout Bracket",
+) -> str:
     """Render the deterministic knockout bracket as a left-right tournament tree."""
     round_lookup = {
         str(round_data["round_code"]): {
@@ -1092,7 +1140,7 @@ def build_bracket_html(bracket_data: dict[str, object], metadata_lookup: dict[st
         <div class="wc-card">
           <div class="wc-card-header">
             <div>
-              <div class="wc-card-subtitle">Predicted Knockout Bracket</div>
+              <div class="wc-card-subtitle">{html.escape(card_subtitle)}</div>
               <div class="wc-card-title">Bracket</div>
             </div>
           </div>
@@ -1116,6 +1164,7 @@ def current_view_tables(
     df: pd.DataFrame,
     view_mode: str,
     selected_group: str,
+    simulation_count: int | None = None,
 ) -> list[dict[str, object]]:
     """Describe the tables needed for the active dashboard view."""
     if view_mode == "Single group":
@@ -1123,15 +1172,17 @@ def current_view_tables(
             {
                 "title": f"Group {selected_group}",
                 "stem": f"group_{selected_group.lower()}",
-                "frame": group_table_frame(df, selected_group),
+                "frame": projected_group_table_frame(df, selected_group),
                 "include_group_column": False,
                 "include_ko_column": False,
-            }
+                "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
+                "group_pill_label": selected_group,
+            },
         ]
     if view_mode == "All groups":
         tables = []
         for group_code in GROUP_ORDER:
-            group_df = group_table_frame(df, group_code)
+            group_df = projected_group_table_frame(df, group_code)
             if group_df.empty:
                 continue
             tables.append(
@@ -1141,6 +1192,8 @@ def current_view_tables(
                     "frame": group_df,
                     "include_group_column": False,
                     "include_ko_column": False,
+                    "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
+                    "group_pill_label": group_code,
                 }
             )
         return tables
@@ -1152,6 +1205,8 @@ def current_view_tables(
             "frame": combined,
             "include_group_column": True,
             "include_ko_column": True,
+            "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
+            "group_pill_label": None,
         }
     ]
 
@@ -1165,6 +1220,8 @@ def render_tables(tables: list[dict[str, object]], multi_column: bool) -> None:
                 table["title"],
                 include_group_column=table["include_group_column"],
                 include_ko_column=table["include_ko_column"],
+                card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
+                group_pill_label=table.get("group_pill_label"),
             )
             for table in tables
         )
@@ -1178,14 +1235,27 @@ def render_tables(tables: list[dict[str, object]], multi_column: bool) -> None:
                 table["title"],
                 include_group_column=table["include_group_column"],
                 include_ko_column=table["include_ko_column"],
+                card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
+                group_pill_label=table.get("group_pill_label"),
             ),
             unsafe_allow_html=True,
         )
 
 
-def render_bracket(bracket_data: dict[str, object], metadata_lookup: dict[str, dict[str, str]]) -> None:
+def render_bracket(
+    bracket_data: dict[str, object],
+    metadata_lookup: dict[str, dict[str, str]],
+    simulation_count: int | None = None,
+) -> None:
     """Render the deterministic knockout bracket view."""
-    st.markdown(build_bracket_html(bracket_data, metadata_lookup), unsafe_allow_html=True)
+    st.markdown(
+        build_bracket_html(
+            bracket_data,
+            metadata_lookup,
+            card_subtitle=chart_subtitle("Predicted Knockout Bracket", simulation_count),
+        ),
+        unsafe_allow_html=True,
+    )
 
 
 def render_export_document(page_title: str, tables: list[dict[str, object]], multi_column: bool) -> str:
@@ -1197,6 +1267,8 @@ def render_export_document(page_title: str, tables: list[dict[str, object]], mul
             table["title"],
             include_group_column=table["include_group_column"],
             include_ko_column=table["include_ko_column"],
+            card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
+            group_pill_label=table.get("group_pill_label"),
         )
         for table in tables
     )
@@ -1224,9 +1296,14 @@ def render_bracket_document(
     page_title: str,
     bracket_data: dict[str, object],
     metadata_lookup: dict[str, dict[str, str]],
+    simulation_count: int | None = None,
 ) -> str:
     """Render a standalone HTML document for the bracket view."""
-    bracket_html = build_bracket_html(bracket_data, metadata_lookup)
+    bracket_html = build_bracket_html(
+        bracket_data,
+        metadata_lookup,
+        card_subtitle=chart_subtitle("Predicted Knockout Bracket", simulation_count),
+    )
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1324,11 +1401,17 @@ def export_bracket_png(
     page_title: str,
     bracket_data: dict[str, object],
     metadata_lookup: dict[str, dict[str, str]],
+    simulation_count: int | None = None,
     export_suffix: str | None = None,
 ) -> Path:
     """Export the deterministic bracket view as a PNG screenshot."""
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
-    document = render_bracket_document(page_title, bracket_data, metadata_lookup)
+    document = render_bracket_document(
+        page_title,
+        bracket_data,
+        metadata_lookup,
+        simulation_count=simulation_count,
+    )
     output_stem = build_export_stem(filename_stem, export_suffix=export_suffix)
     output_path = EXPORT_DIR / f"{output_stem}.png"
 
@@ -1363,6 +1446,7 @@ def export_current_view(
     tables: list[dict[str, object]],
     bracket_data: dict[str, object] | None = None,
     metadata_lookup: dict[str, dict[str, str]] | None = None,
+    simulation_count: int | None = None,
 ) -> Path:
     """Export the currently visible dashboard view as one PNG file."""
     export_suffix = generate_export_suffix()
@@ -1390,6 +1474,7 @@ def export_current_view(
             "Bracket View",
             bracket_data,
             metadata_lookup,
+            simulation_count=simulation_count,
             export_suffix=export_suffix,
         )
     return export_document_png(
@@ -1401,19 +1486,28 @@ def export_current_view(
     )
 
 
-def export_all_tables(df: pd.DataFrame) -> list[Path]:
-    """Export every individual group table plus the combined all-Countries table as PNG files."""
+def export_all_tables(df: pd.DataFrame, simulation_count: int | None = None) -> list[Path]:
+    """Export the default group tables plus the combined all-Countries table as PNG files."""
     exported_paths: list[Path] = []
     export_suffix = generate_export_suffix()
     for group_code in GROUP_ORDER:
-        group_df = group_table_frame(df, group_code)
+        group_df = projected_group_table_frame(df, group_code)
         if group_df.empty:
             continue
         exported_paths.append(
             export_document_png(
                 f"group_{group_code.lower()}",
                 f"Group {group_code}",
-                [{"title": f"Group {group_code}", "frame": group_df, "include_group_column": False, "include_ko_column": False}],
+                [
+                    {
+                        "title": f"Group {group_code}",
+                        "frame": group_df,
+                        "include_group_column": False,
+                        "include_ko_column": False,
+                        "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
+                        "group_pill_label": group_code,
+                    }
+                ],
                 multi_column=False,
                 export_suffix=export_suffix,
             )
@@ -1424,7 +1518,16 @@ def export_all_tables(df: pd.DataFrame) -> list[Path]:
         export_document_png(
             "all_Countries",
             "All Countries",
-            [{"title": "All Countries", "frame": combined, "include_group_column": True, "include_ko_column": True}],
+            [
+                {
+                    "title": "All Countries",
+                    "frame": combined,
+                    "include_group_column": True,
+                    "include_ko_column": True,
+                    "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
+                    "group_pill_label": None,
+                }
+            ],
             multi_column=False,
             export_suffix=export_suffix,
         )
@@ -1510,6 +1613,7 @@ def main() -> None:
         dashboard_df,
         view_mode,
         selected_group,
+        simulation_count=simulation_count,
     )
     multi_column = view_mode == "All groups"
 
@@ -1523,6 +1627,7 @@ def main() -> None:
                     tables,
                     bracket_data=bracket_data,
                     metadata_lookup=metadata_lookup,
+                    simulation_count=simulation_count,
                 )
                 st.success(f"Exported current view to {export_path}")
             except RuntimeError as exc:
@@ -1534,13 +1639,14 @@ def main() -> None:
             try:
                 exported_paths = export_all_tables(
                     dashboard_df,
+                    simulation_count=simulation_count,
                 )
                 st.success(f"Exported {len(exported_paths)} PNG tables to {EXPORT_DIR}")
             except RuntimeError as exc:
                 st.error(str(exc))
 
     if view_mode == "Bracket":
-        render_bracket(bracket_data, metadata_lookup)
+        render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
     else:
         render_tables(tables, multi_column=multi_column)
 

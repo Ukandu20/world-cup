@@ -91,7 +91,7 @@ def test_default_simulation_settings_keep_only_simulations():
     defaults = home.default_simulation_settings()
 
     assert defaults == {
-        "simulation_label": "250",
+        "simulation_label": "100k",
     }
 
 
@@ -357,6 +357,23 @@ def test_build_deterministic_bracket_produces_consistent_field():
     assert sum(len(round_data["matches"]) for round_data in bracket["rounds"]) == 31
 
 
+def test_projected_group_table_frame_uses_modal_group_rankings():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {"team_id": "BBB", "group_code": "A", "display_name": "B", "flag_icon_code": "bb", "world_rank": 20, "elo_rating": 1800, "prob_1": 40.0, "prob_2": 30.0, "prob_3": 20.0, "prob_4": 10.0, "top8_third_prob": 5.0},
+            {"team_id": "CCC", "group_code": "A", "display_name": "C", "flag_icon_code": "cc", "world_rank": 30, "elo_rating": 1750, "prob_1": 25.0, "prob_2": 35.0, "prob_3": 25.0, "prob_4": 15.0, "top8_third_prob": 10.0},
+            {"team_id": "AAA", "group_code": "A", "display_name": "A", "flag_icon_code": "aa", "world_rank": 10, "elo_rating": 1900, "prob_1": 35.0, "prob_2": 25.0, "prob_3": 25.0, "prob_4": 15.0, "top8_third_prob": 8.0},
+            {"team_id": "DDD", "group_code": "A", "display_name": "D", "flag_icon_code": "dd", "world_rank": 40, "elo_rating": 1600, "prob_1": 0.0, "prob_2": 10.0, "prob_3": 30.0, "prob_4": 60.0, "top8_third_prob": 2.0},
+        ]
+    )
+    sample_df.attrs["modal_group_rankings"] = {"A": ["CCC", "AAA", "BBB", "DDD"]}
+
+    projected = home.projected_group_table_frame(sample_df, "A")
+
+    assert list(projected["team_id"]) == ["CCC", "AAA", "BBB", "DDD"]
+
+
 def test_build_table_html_smoke_contains_expected_probability_columns():
     home = load_home_module()
     sample_df = pd.DataFrame(
@@ -387,6 +404,26 @@ def test_build_table_html_smoke_contains_expected_probability_columns():
     assert "3rd %" in html
     assert "4th %" in html
     assert "KO %" not in html
+
+
+def test_current_view_tables_adds_projected_order_for_group_views():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {"team_id": "AAA", "group_code": "A", "display_name": "A", "flag_icon_code": "aa", "world_rank": 10, "elo_rating": 1900, "prob_1": 50.0, "prob_2": 20.0, "prob_3": 20.0, "prob_4": 10.0, "top8_third_prob": 5.0},
+            {"team_id": "BBB", "group_code": "A", "display_name": "B", "flag_icon_code": "bb", "world_rank": 20, "elo_rating": 1800, "prob_1": 30.0, "prob_2": 30.0, "prob_3": 20.0, "prob_4": 20.0, "top8_third_prob": 6.0},
+            {"team_id": "CCC", "group_code": "A", "display_name": "C", "flag_icon_code": "cc", "world_rank": 30, "elo_rating": 1700, "prob_1": 20.0, "prob_2": 30.0, "prob_3": 30.0, "prob_4": 20.0, "top8_third_prob": 7.0},
+            {"team_id": "DDD", "group_code": "A", "display_name": "D", "flag_icon_code": "dd", "world_rank": 40, "elo_rating": 1600, "prob_1": 0.0, "prob_2": 20.0, "prob_3": 30.0, "prob_4": 50.0, "top8_third_prob": 8.0},
+        ]
+    )
+    sample_df.attrs["modal_group_rankings"] = {"A": ["BBB", "AAA", "CCC", "DDD"]}
+
+    tables = home.current_view_tables(sample_df, "Single group", "A", simulation_count=100000)
+
+    assert len(tables) == 1
+    assert tables[0]["title"] == "Group A"
+    assert tables[0]["card_subtitle"] == "Bracket-Aligned Projected Order | 100,000 simulations"
+    assert list(tables[0]["frame"]["team_id"]) == ["BBB", "AAA", "CCC", "DDD"]
 
 
 def test_build_table_html_group_views_include_qualification_marker():
@@ -452,9 +489,13 @@ def test_build_bracket_html_renders_rounds_and_winner_probabilities():
         ],
     }
 
-    html = home.build_bracket_html(bracket_data, metadata_lookup)
+    html = home.build_bracket_html(
+        bracket_data,
+        metadata_lookup,
+        card_subtitle="Predicted Knockout Bracket | 100,000 simulations",
+    )
 
-    assert "Predicted Knockout Bracket" in html
+    assert "Predicted Knockout Bracket | 100,000 simulations" in html
     assert "wc-bracket-side-left" in html
     assert "wc-bracket-final-column" in html
     assert "wc-bracket-side-right" in html
@@ -471,13 +512,21 @@ def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
     home = load_home_module()
     captured = {}
 
-    def fake_export_bracket_png(filename_stem, page_title, bracket_data, metadata_lookup, export_suffix=None):
+    def fake_export_bracket_png(
+        filename_stem,
+        page_title,
+        bracket_data,
+        metadata_lookup,
+        simulation_count=None,
+        export_suffix=None,
+    ):
         captured.update(
             {
                 "filename_stem": filename_stem,
                 "page_title": page_title,
                 "bracket_data": bracket_data,
                 "metadata_lookup": metadata_lookup,
+                "simulation_count": simulation_count,
                 "export_suffix": export_suffix,
             }
         )
@@ -491,11 +540,13 @@ def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
         [],
         bracket_data={"rounds": []},
         metadata_lookup={},
+        simulation_count=100000,
     )
 
     assert str(result) == "dummy.png"
     assert captured["filename_stem"] == "bracket_view"
     assert captured["page_title"] == "Bracket View"
+    assert captured["simulation_count"] == 100000
 
 
 def test_build_screenshot_command_supports_forced_viewport():
@@ -585,7 +636,7 @@ def test_build_table_html_all_countries_embeds_champion_trophy_icon():
     assert "Champion trophy" in html
 
 
-def test_build_table_html_does_not_render_simulation_count_in_header():
+def test_build_table_html_renders_simulation_count_when_provided():
     home = load_home_module()
     sample_df = pd.DataFrame(
         [
@@ -616,9 +667,10 @@ def test_build_table_html_does_not_render_simulation_count_in_header():
         "All Countries",
         include_group_column=True,
         include_ko_column=True,
+        card_subtitle=home.chart_subtitle("Pre-Tournament Probability Table", 100000),
     )
 
-    assert "Simulations" not in html
+    assert "100,000 simulations" in html
     assert "&lt;/div&gt;" not in html
 
 

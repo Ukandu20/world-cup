@@ -37,7 +37,7 @@ Final blend:
 
 ### Group and Knockout Simulation
 
-For each group separately, the dashboard runs `20,000` simulations.
+By default, the dashboard runs `100,000` simulations per group.
 
 In each simulation:
 
@@ -62,6 +62,18 @@ After the group stage in each simulation:
 - knockout matches from the Round of 32 through the final use the same strength-driven Poisson goal model
 - tied knockout matches go to extra time using one-third of regulation expected goals, then to a 50/50 penalty shootout if still level
 
+### Deterministic Bracket Logic
+
+The dashboard also builds one stable predicted bracket from the Monte Carlo output.
+
+- each group stores its most common full finishing order across all simulations as `modal_group_rankings`
+- the bracket uses those modal group finishers, not the display sort from the probability tables
+- the 12 modal third-placed teams are ranked again by average simulated third-place points, goal difference, goals scored, then `team_strength`
+- the best eight third-placed groups are mapped into the Round of 32 using the fixed 2026 third-place routing combinations
+- every knockout matchup in that bracket is then simulated head-to-head multiple times to estimate the likely winner and win percentage
+
+This means the bracket is position-based: it follows projected group winners, runners-up, and qualifying third-place teams through the official knockout slots rather than taking a global top-N list of teams.
+
 ### Output Probabilities
 
 After all simulations:
@@ -78,7 +90,9 @@ After all simulations:
 - `final_prob` is the percentage of runs where the team reaches the final
 - `champion_prob` is the percentage of runs where the team wins the tournament
 
-The group cards continue to show `prob_1` to `prob_4`, while the combined `All Countries` table also shows `Top 8 3rd %`, `KO %`, `R16 %`, `QF %`, `SF %`, `Final %`, and `Champion %`.
+The `Single group` and `All groups` views now use the bracket-aligned `Projected Order` by default, so those tables match the modal group rankings that feed the deterministic bracket. The combined `All Countries` table also shows `Top 8 3rd %`, `KO %`, `R16 %`, `QF %`, `SF %`, `Final %`, and `Champion %`.
+
+Each table card and the bracket card display the simulation count used for that render.
 
 ### Current Limitations
 
