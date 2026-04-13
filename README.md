@@ -2,6 +2,10 @@
 
 This repository contains dataset-building scripts and a Streamlit dashboard for preseason World Cup 2026 tournament projections.
 
+Reference notes:
+
+- [`docs/elo_rating_reference.md`](docs/elo_rating_reference.md): stored Elo rating methodology reference based on the provided `eloratings.net` summary
+
 ## Current Probability Simulation Logic
 
 The dashboard in `apps/home.py` now uses a fixture-by-fixture Monte Carlo simulation for the full 2026 tournament.
