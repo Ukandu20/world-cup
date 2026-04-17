@@ -15,8 +15,10 @@ if str(ROOT) not in sys.path:
 from world_cup_simulation import (  # noqa: E402
     THIRD_PLACE_ROUTING_MAP,
     build_deterministic_bracket,
+    build_weighted_form_table,
     build_team_strengths,
     build_recent_form_metrics,
+    compute_elo_expected_score,
     extract_group_stage_fixtures,
     get_modal_group_rankings,
     normalize_weight_pair,
@@ -85,14 +87,125 @@ def test_normalize_weight_pair_scales_to_one():
     assert normalized == (0.65, 0.35)
 
 
-def test_default_simulation_settings_keep_only_simulations():
+def test_default_simulation_settings_include_form_window():
     home = load_home_module()
 
     defaults = home.default_simulation_settings()
 
     assert defaults == {
         "simulation_label": "100k",
+        "form_match_window": 10,
     }
+
+
+def test_build_weighted_form_table_uses_linear_recency_weights_and_confederation():
+    base_df = pd.DataFrame(
+        [
+            {
+                "team_id": "AAA",
+                "display_name": "Alpha",
+                "flag_icon_code": "aa",
+                "group_code": "A",
+                "confederation": "UEFA",
+                "elo_rating": 1900,
+                "world_rank": 5,
+            },
+            {
+                "team_id": "BBB",
+                "display_name": "Beta",
+                "flag_icon_code": "bb",
+                "group_code": "B",
+                "confederation": "CAF",
+                "elo_rating": 1750,
+                "world_rank": 18,
+            },
+        ]
+    )
+    lead_in_df = pd.DataFrame(
+        [
+            {"lead_in_id": "a1", "qualified_team_id": "AAA", "date": "2026-01-01", "team_score": 0, "opponent_score": 1, "result": "L", "team_elo_start": 1680, "opponent_elo_start": 1690, "team_elo_delta": -8},
+            {"lead_in_id": "a2", "qualified_team_id": "AAA", "date": "2026-01-02", "team_score": 1, "opponent_score": 1, "result": "D", "team_elo_start": 1700, "opponent_elo_start": 1800, "team_elo_delta": 4},
+            {"lead_in_id": "a3", "qualified_team_id": "AAA", "date": "2026-01-03", "team_score": 2, "opponent_score": 0, "result": "W", "team_elo_start": 1750, "opponent_elo_start": 1900, "team_elo_delta": 10},
+            {"lead_in_id": "b1", "qualified_team_id": "BBB", "date": "2026-01-01", "team_score": 1, "opponent_score": 0, "result": "win", "team_elo_start": 1650, "opponent_elo_start": 1600, "team_elo_delta": 6},
+            {"lead_in_id": "b2", "qualified_team_id": "BBB", "date": "2026-01-02", "team_score": 0, "opponent_score": 0, "result": "draw", "team_elo_start": 1660, "opponent_elo_start": 1610, "team_elo_delta": 1},
+            {"lead_in_id": "b3", "qualified_team_id": "BBB", "date": "2026-01-03", "team_score": 0, "opponent_score": 2, "result": "loss", "team_elo_start": 1670, "opponent_elo_start": 1620, "team_elo_delta": -5},
+        ]
+    )
+
+    form_df = build_weighted_form_table(base_df, lead_in_df, match_window=2).set_index("team_id")
+    aaa_expected_perf = (
+        (0.5 - compute_elo_expected_score(1700, 1800)) * 1
+        + (1.0 - compute_elo_expected_score(1750, 1900)) * 2
+    ) / 3
+    bbb_expected_perf = (
+        (0.5 - compute_elo_expected_score(1660, 1610)) * 1
+        + (0.0 - compute_elo_expected_score(1670, 1620)) * 2
+    ) / 3
+
+    assert form_df.index.tolist() == ["AAA", "BBB"]
+    assert form_df.loc["AAA", "confederation"] == "UEFA"
+    assert form_df.loc["AAA", "wins"] == 1
+    assert form_df.loc["AAA", "draws"] == 1
+    assert form_df.loc["AAA", "losses"] == 0
+    assert form_df.loc["AAA", "goals_for"] == 3
+    assert form_df.loc["AAA", "goals_against"] == 1
+    assert form_df.loc["AAA", "avg_opp_elo"] == 1866.7
+    assert form_df.loc["AAA", "avg_elo_gap"] == 133.3
+    assert abs(form_df.loc["AAA", "results_form"] - 0.833) < 1e-9
+    assert abs(form_df.loc["AAA", "gd_form"] - 1.333) < 1e-9
+    assert abs(form_df.loc["AAA", "expected_score"] - 0.318) < 1e-9
+    assert abs(form_df.loc["AAA", "perf_vs_exp"] - round(float(aaa_expected_perf), 3)) < 1e-9
+    assert form_df.loc["AAA", "elo_delta_form"] == 8.0
+    assert form_df.loc["AAA", "difficulty"] == 133.333
+    assert form_df.loc["AAA", "form"] == 1.0
+    assert form_df.loc["BBB", "form"] == -1.0
+    assert form_df.loc["AAA", "schedule_difficulty"] == 5.0
+    assert form_df.loc["BBB", "schedule_difficulty"] == 1.0
+    assert abs(form_df.loc["BBB", "perf_vs_exp"] - round(float(bbb_expected_perf), 3)) < 1e-9
+    assert form_df.loc["BBB", "elo_delta_form"] == -3.0
+
+
+def test_build_weighted_form_table_uses_neutral_schedule_difficulty_when_constant():
+    base_df = pd.DataFrame(
+        [
+            {"team_id": "AAA", "display_name": "Alpha", "flag_icon_code": "", "group_code": "A", "confederation": "UEFA", "elo_rating": 1800, "world_rank": 8},
+            {"team_id": "BBB", "display_name": "Beta", "flag_icon_code": "", "group_code": "B", "confederation": "CAF", "elo_rating": 1700, "world_rank": 12},
+        ]
+    )
+    lead_in_df = pd.DataFrame(
+        [
+            {"lead_in_id": "1", "qualified_team_id": "AAA", "date": "2026-01-01", "team_score": 1, "opponent_score": 0, "result": "win", "team_elo_start": 1700, "opponent_elo_start": 1750, "team_elo_delta": 8},
+            {"lead_in_id": "2", "qualified_team_id": "BBB", "date": "2026-01-01", "team_score": 0, "opponent_score": 1, "result": "loss", "team_elo_start": 1650, "opponent_elo_start": 1700, "team_elo_delta": -8},
+        ]
+    )
+
+    form_df = build_weighted_form_table(base_df, lead_in_df, match_window=1)
+
+    assert form_df["schedule_difficulty"].tolist() == [3.0, 3.0]
+
+
+def test_build_weighted_form_table_caps_goal_difference_and_uses_scoreline_when_result_missing():
+    base_df = pd.DataFrame(
+        [
+            {"team_id": "AAA", "display_name": "Alpha", "flag_icon_code": "", "group_code": "A", "confederation": "UEFA", "elo_rating": 1800, "world_rank": 8},
+            {"team_id": "BBB", "display_name": "Beta", "flag_icon_code": "", "group_code": "B", "confederation": "CAF", "elo_rating": 1700, "world_rank": 12},
+        ]
+    )
+    lead_in_df = pd.DataFrame(
+        [
+            {"lead_in_id": "1", "qualified_team_id": "AAA", "date": "2026-01-01", "team_score": 6, "opponent_score": 0, "result": None, "team_elo_start": 1700, "opponent_elo_start": 1600, "team_elo_delta": 12},
+            {"lead_in_id": "2", "qualified_team_id": "BBB", "date": "2026-01-01", "team_score": 0, "opponent_score": 5, "result": None, "team_elo_start": 1650, "opponent_elo_start": 1700, "team_elo_delta": -11},
+        ]
+    )
+
+    form_df = build_weighted_form_table(base_df, lead_in_df, match_window=1).set_index("team_id")
+
+    assert form_df.loc["AAA", "wins"] == 1
+    assert form_df.loc["AAA", "gd_form"] == 4.0
+    assert form_df.loc["AAA", "elo_delta_form"] == 12.0
+    assert form_df.loc["BBB", "losses"] == 1
+    assert form_df.loc["BBB", "gd_form"] == -4.0
+    assert form_df.loc["BBB", "elo_delta_form"] == -11.0
 
 
 def test_build_team_strengths_respects_custom_weight_pairs():
@@ -454,9 +567,403 @@ def test_build_table_html_group_views_include_qualification_marker():
     assert "wc-qual-segment-third" in html
 
 
-def test_view_options_include_bracket():
+def test_build_form_table_html_includes_confederation_column():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {
+                "team_id": "ARG",
+                "display_name": "Argentina",
+                "flag_icon_code": "ar",
+                "confederation": "CONMEBOL",
+                "wins": 7,
+                "draws": 2,
+                "losses": 1,
+                "goals_for": 18,
+                "goals_against": 7,
+                "elo_rating": 2140,
+                "avg_opp_elo": 1888.4,
+                "avg_elo_gap": 42.7,
+                "schedule_difficulty": 4.3,
+                "results_form": 0.85,
+                "gd_form": 1.7,
+                "expected_score": 0.63,
+                "perf_vs_exp": 0.22,
+                "elo_delta_form": 7.4,
+                "form": 9.1,
+            }
+        ]
+    )
+
+    html = home.build_table_html(sample_df, "Form", table_kind="form")
+
+    assert "Rank" in html
+    assert '>1<' in html
+    assert "Confederation" in html
+    assert "CONMEBOL" in html
+    assert "Results Form" in html
+    assert "GD Form" in html
+    assert "Perf vs Exp" in html
+    assert "Elo Delta Form" in html
+    assert "Sched Diff" in html
+
+
+def test_build_form_view_tables_adds_confederation_tables():
+    home = load_home_module()
+    form_df = pd.DataFrame(
+        [
+            {
+                "team_id": "A1",
+                "display_name": "Alpha",
+                "flag_icon_code": "aa",
+                "confederation": "UEFA",
+                "wins": 5,
+                "draws": 2,
+                "losses": 1,
+                "goals_for": 10,
+                "goals_against": 4,
+                "elo_rating": 1900,
+                "world_rank": 4,
+                "avg_opp_elo": 1820.0,
+                "avg_elo_gap": 40.0,
+                "schedule_difficulty": 4.2,
+                "results_form": 0.82,
+                "gd_form": 1.3,
+                "expected_score": 0.58,
+                "perf_vs_exp": 0.24,
+                "elo_delta_form": 6.8,
+                "form": 8.0,
+            },
+            {
+                "team_id": "B1",
+                "display_name": "Beta",
+                "flag_icon_code": "bb",
+                "confederation": "CAF",
+                "wins": 4,
+                "draws": 3,
+                "losses": 1,
+                "goals_for": 8,
+                "goals_against": 3,
+                "elo_rating": 1800,
+                "world_rank": 11,
+                "avg_opp_elo": 1750.0,
+                "avg_elo_gap": 5.0,
+                "schedule_difficulty": 2.5,
+                "results_form": 0.63,
+                "gd_form": 0.7,
+                "expected_score": 0.51,
+                "perf_vs_exp": 0.12,
+                "elo_delta_form": 2.1,
+                "form": 5.0,
+            },
+        ]
+    )
+
+    tables = home.build_form_view_tables(form_df, form_match_window=10)
+
+    assert [table["title"] for table in tables] == ["All Countries", "CAF", "UEFA"]
+    assert tables[1]["frame"]["confederation"].unique().tolist() == ["CAF"]
+    assert tables[2]["frame"]["confederation"].unique().tolist() == ["UEFA"]
+    assert all(table["table_kind"] == "form" for table in tables)
+
+
+def test_current_form_view_tables_separates_all_countries_and_confederations():
+    home = load_home_module()
+    form_df = pd.DataFrame(
+        [
+            {
+                "team_id": "A1",
+                "display_name": "Alpha",
+                "flag_icon_code": "aa",
+                "confederation": "UEFA",
+                "wins": 5,
+                "draws": 2,
+                "losses": 1,
+                "goals_for": 10,
+                "goals_against": 4,
+                "elo_rating": 1900,
+                "world_rank": 4,
+                "avg_opp_elo": 1820.0,
+                "avg_elo_gap": 40.0,
+                "schedule_difficulty": 4.2,
+                "results_form": 0.82,
+                "gd_form": 1.3,
+                "expected_score": 0.58,
+                "perf_vs_exp": 0.24,
+                "elo_delta_form": 6.8,
+                "form": 8.0,
+            },
+            {
+                "team_id": "B1",
+                "display_name": "Beta",
+                "flag_icon_code": "bb",
+                "confederation": "CAF",
+                "wins": 4,
+                "draws": 3,
+                "losses": 1,
+                "goals_for": 8,
+                "goals_against": 3,
+                "elo_rating": 1800,
+                "world_rank": 11,
+                "avg_opp_elo": 1750.0,
+                "avg_elo_gap": 5.0,
+                "schedule_difficulty": 2.5,
+                "results_form": 0.63,
+                "gd_form": 0.7,
+                "expected_score": 0.51,
+                "perf_vs_exp": 0.12,
+                "elo_delta_form": 2.1,
+                "form": 5.0,
+            },
+        ]
+    )
+
+    all_countries = home.current_form_view_tables(form_df, "All Countries", "", form_match_window=10)
+    single_confederation = home.current_form_view_tables(form_df, "Single confederation", "CAF", form_match_window=10)
+    all_confederations = home.current_form_view_tables(form_df, "All confederations", "", form_match_window=10)
+
+    assert [table["title"] for table in all_countries] == ["All Countries"]
+    assert [table["title"] for table in single_confederation] == ["CAF"]
+    assert single_confederation[0]["frame"]["confederation"].unique().tolist() == ["CAF"]
+    assert [table["title"] for table in all_confederations] == ["CAF", "UEFA"]
+
+
+def test_v2_view_options_include_confederation_views():
     home = load_home_module()
 
+    assert home.V2_VIEW_OPTIONS == ("All Countries", "Single confederation", "All confederations")
+
+
+def test_export_all_tables_uses_single_column_all_confederations_export(monkeypatch):
+    home = load_home_module()
+    captured_calls = []
+
+    def fake_export_document_png(
+        filename_stem,
+        page_title,
+        tables,
+        multi_column,
+        separate_sections=False,
+        export_suffix=None,
+    ):
+        captured_calls.append(
+            {
+                "filename_stem": filename_stem,
+                "page_title": page_title,
+                "tables": tables,
+                "multi_column": multi_column,
+                "separate_sections": separate_sections,
+            }
+        )
+        return Path(f"{filename_stem}.png")
+
+    monkeypatch.setattr(home, "export_document_png", fake_export_document_png)
+    monkeypatch.setattr(home, "generate_export_suffix", lambda: "stamp")
+
+    form_df = pd.DataFrame(
+        [
+            {
+                "team_id": "A1",
+                "display_name": "Alpha",
+                "flag_icon_code": "aa",
+                "confederation": "UEFA",
+                "wins": 5,
+                "draws": 2,
+                "losses": 1,
+                "goals_for": 10,
+                "goals_against": 4,
+                "elo_rating": 1900,
+                "world_rank": 4,
+                "avg_opp_elo": 1820.0,
+                "avg_elo_gap": 40.0,
+                "schedule_difficulty": 4.2,
+                "results_form": 0.82,
+                "gd_form": 1.3,
+                "expected_score": 0.58,
+                "perf_vs_exp": 0.24,
+                "elo_delta_form": 6.8,
+                "form": 8.0,
+            },
+            {
+                "team_id": "B1",
+                "display_name": "Beta",
+                "flag_icon_code": "bb",
+                "confederation": "CAF",
+                "wins": 4,
+                "draws": 3,
+                "losses": 1,
+                "goals_for": 8,
+                "goals_against": 3,
+                "elo_rating": 1800,
+                "world_rank": 11,
+                "avg_opp_elo": 1750.0,
+                "avg_elo_gap": 5.0,
+                "schedule_difficulty": 2.5,
+                "results_form": 0.63,
+                "gd_form": 0.7,
+                "expected_score": 0.51,
+                "perf_vs_exp": 0.12,
+                "elo_delta_form": 2.1,
+                "form": 5.0,
+            },
+        ]
+    )
+
+    home.export_all_tables(form_df=form_df, form_match_window=10)
+
+    all_confed_call = next(call for call in captured_calls if call["filename_stem"] == "form_all_confederations")
+    assert all_confed_call["page_title"] == "All Confederations"
+    assert all_confed_call["multi_column"] is False
+    assert all_confed_call["separate_sections"] is False
+
+
+def test_render_tables_uses_single_column_wrapper_for_stacked_sections(monkeypatch):
+    home = load_home_module()
+    captured = {}
+
+    def fake_markdown(content, unsafe_allow_html=False):
+        captured["content"] = content
+        captured["unsafe_allow_html"] = unsafe_allow_html
+
+    monkeypatch.setattr(home.st, "markdown", fake_markdown)
+
+    home.render_tables(
+        [
+            {
+                "title": "CAF",
+                "frame": pd.DataFrame(
+                    [
+                        {
+                            "team_id": "B1",
+                            "display_name": "Beta",
+                            "flag_icon_code": "bb",
+                            "confederation": "CAF",
+                            "wins": 4,
+                            "draws": 3,
+                            "losses": 1,
+                            "goals_for": 8,
+                            "goals_against": 3,
+                            "elo_rating": 1800,
+                            "world_rank": 11,
+                            "avg_opp_elo": 1750.0,
+                            "avg_elo_gap": 5.0,
+                            "schedule_difficulty": 2.5,
+                            "results_form": 0.63,
+                            "gd_form": 0.7,
+                            "expected_score": 0.51,
+                            "perf_vs_exp": 0.12,
+                            "elo_delta_form": 2.1,
+                            "form": 5.0,
+                        }
+                    ]
+                ),
+                "include_group_column": False,
+                "include_ko_column": False,
+                "card_subtitle": "Weighted Recent Form | Last 10 lead-in matches with Elo",
+                "group_pill_label": None,
+                "table_kind": "form",
+            }
+        ],
+        multi_column=False,
+    )
+
+    assert 'class="wc-grid-single"' in captured["content"]
+    assert captured["unsafe_allow_html"] is True
+
+
+def test_render_tables_can_render_separate_single_column_sections(monkeypatch):
+    home = load_home_module()
+    captured = {}
+
+    def fake_markdown(content, unsafe_allow_html=False):
+        captured["content"] = content
+        captured["unsafe_allow_html"] = unsafe_allow_html
+
+    monkeypatch.setattr(home.st, "markdown", fake_markdown)
+
+    home.render_tables(
+        [
+            {
+                "title": "CAF",
+                "frame": pd.DataFrame(
+                    [
+                        {
+                            "team_id": "B1",
+                            "display_name": "Beta",
+                            "flag_icon_code": "bb",
+                            "confederation": "CAF",
+                            "wins": 4,
+                            "draws": 3,
+                            "losses": 1,
+                            "goals_for": 8,
+                            "goals_against": 3,
+                            "elo_rating": 1800,
+                            "world_rank": 11,
+                            "avg_opp_elo": 1750.0,
+                            "avg_elo_gap": 5.0,
+                            "schedule_difficulty": 2.5,
+                            "results_form": 0.63,
+                            "gd_form": 0.7,
+                            "expected_score": 0.51,
+                            "perf_vs_exp": 0.12,
+                            "elo_delta_form": 2.1,
+                            "form": 5.0,
+                        }
+                    ]
+                ),
+                "include_group_column": False,
+                "include_ko_column": False,
+                "card_subtitle": "Weighted Recent Form | Last 10 lead-in matches with Elo",
+                "group_pill_label": None,
+                "table_kind": "form",
+            },
+            {
+                "title": "UEFA",
+                "frame": pd.DataFrame(
+                    [
+                        {
+                            "team_id": "A1",
+                            "display_name": "Alpha",
+                            "flag_icon_code": "aa",
+                            "confederation": "UEFA",
+                            "wins": 5,
+                            "draws": 2,
+                            "losses": 1,
+                            "goals_for": 10,
+                            "goals_against": 4,
+                            "elo_rating": 1900,
+                            "world_rank": 4,
+                            "avg_opp_elo": 1820.0,
+                            "avg_elo_gap": 40.0,
+                            "schedule_difficulty": 4.2,
+                            "results_form": 0.82,
+                            "gd_form": 1.3,
+                            "expected_score": 0.58,
+                            "perf_vs_exp": 0.24,
+                            "elo_delta_form": 6.8,
+                            "form": 8.0,
+                        }
+                    ]
+                ),
+                "include_group_column": False,
+                "include_ko_column": False,
+                "card_subtitle": "Weighted Recent Form | Last 10 lead-in matches with Elo",
+                "group_pill_label": None,
+                "table_kind": "form",
+            },
+        ],
+        multi_column=False,
+        separate_sections=True,
+    )
+
+    assert captured["content"].count('class="wc-grid-single"') == 2
+    assert captured["unsafe_allow_html"] is True
+
+
+def test_view_options_include_form_and_bracket():
+    home = load_home_module()
+
+    assert "Form" in home.VIEW_OPTIONS
     assert "Bracket" in home.VIEW_OPTIONS
 
 

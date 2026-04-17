@@ -19,10 +19,15 @@ RESULT_POINTS = {"win": 3, "draw": 1, "loss": 0}
 BASELINE_RATING_WEIGHTS = (1.0, 0.0)
 FORM_COMPONENT_WEIGHTS = (0.7, 0.3)
 STRENGTH_BLEND_WEIGHTS = (0.5, 0.5)
+WEIGHTED_FORM_COMPOSITE_WEIGHTS = (0.50, 0.10, 0.20, 0.05)
+WEIGHTED_FORM_GOAL_DIFFERENCE_CAP = 4
 EXPECTED_GOALS_BASE = 1.20
 EXPECTED_GOALS_SCALE = 0.40
 EXPECTED_GOALS_MIN = 0.20
 EXPECTED_GOALS_MAX = 3.00
+FORM_SCHEDULE_DIFFICULTY_MIN = 1.0
+FORM_SCHEDULE_DIFFICULTY_MAX = 5.0
+FORM_SCHEDULE_DIFFICULTY_NEUTRAL = 3.0
 BEST_THIRD_QUALIFICATION_SLOTS = 8
 EXTRA_TIME_FACTOR = 1.0 / 3.0
 THIRD_PLACE_ROUTE_MATCHES = (79, 85, 81, 74, 82, 77, 87, 80)
@@ -91,6 +96,67 @@ def zscore(series: pd.Series) -> pd.Series:
     if pd.isna(std) or std == 0:
         return pd.Series(np.zeros(len(series)), index=series.index, dtype=float)
     return (series - series.mean()) / std
+
+
+def scale_to_range(
+    series: pd.Series,
+    lower: float = FORM_SCHEDULE_DIFFICULTY_MIN,
+    upper: float = FORM_SCHEDULE_DIFFICULTY_MAX,
+    neutral: float = FORM_SCHEDULE_DIFFICULTY_NEUTRAL,
+) -> pd.Series:
+    """Scale a numeric series into a fixed range, falling back to a neutral midpoint when constant."""
+    numeric = pd.to_numeric(series, errors="coerce")
+    if numeric.empty:
+        return pd.Series(dtype=float)
+    minimum = numeric.min()
+    maximum = numeric.max()
+    if pd.isna(minimum) or pd.isna(maximum) or maximum == minimum:
+        return pd.Series(np.full(len(numeric), neutral), index=numeric.index, dtype=float)
+    scaled = lower + (numeric - minimum) * (upper - lower) / (maximum - minimum)
+    return scaled.astype(float)
+
+
+def compute_elo_expected_score(team_elo: float | pd.Series, opp_elo: float | pd.Series) -> float | pd.Series:
+    """Compute the Elo expected-score value for one team against one opponent."""
+    dr = pd.to_numeric(team_elo, errors="coerce") - pd.to_numeric(opp_elo, errors="coerce")
+    return 1.0 / (10.0 ** (-dr / 400.0) + 1.0)
+
+
+def normalize_weighted_form_result(
+    result_series: pd.Series,
+    team_score_series: pd.Series,
+    opponent_score_series: pd.Series,
+) -> pd.Series:
+    """Normalize match outcomes to win/draw/loss, falling back to the scoreline when needed."""
+    normalized = (
+        result_series.astype("string")
+        .str.strip()
+        .str.lower()
+        .map(
+            {
+                "w": "win",
+                "d": "draw",
+                "l": "loss",
+                "win": "win",
+                "draw": "draw",
+                "loss": "loss",
+            }
+        )
+    )
+    score_based = pd.Series(
+        np.select(
+            [
+                team_score_series > opponent_score_series,
+                team_score_series == opponent_score_series,
+                team_score_series < opponent_score_series,
+            ],
+            ["win", "draw", "loss"],
+            default=None,
+        ),
+        index=result_series.index,
+        dtype="object",
+    )
+    return normalized.fillna(score_based)
 
 
 def load_third_place_routing_map() -> dict[str, dict[int, str]]:
@@ -193,6 +259,155 @@ def build_recent_form_metrics(
     form["goal_diff_form_z"] = zscore(form["goal_diff_per_match"])
     form["form_score"] = points_weight * form["points_form_z"] + goal_diff_weight * form["goal_diff_form_z"]
     return form
+
+
+def build_weighted_form_table(
+    base_df: pd.DataFrame,
+    lead_in_df: pd.DataFrame,
+    match_window: int = RECENT_MATCH_WINDOW,
+) -> pd.DataFrame:
+    """Build an all-teams weighted recent-form table from the last k Elo-rated lead-in matches."""
+    if match_window <= 0:
+        raise ValueError("match_window must be positive")
+
+    required_columns = {
+        "lead_in_id",
+        "date",
+        "qualified_team_id",
+        "team_score",
+        "opponent_score",
+        "result",
+        "team_elo_start",
+        "opponent_elo_start",
+        "team_elo_delta",
+    }
+    missing_columns = required_columns.difference(lead_in_df.columns)
+    if missing_columns:
+        missing = ", ".join(sorted(missing_columns))
+        raise ValueError(f"lead_in_df is missing required columns for weighted form metrics: {missing}")
+
+    df = lead_in_df.copy()
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    numeric_columns = [
+        "team_score",
+        "opponent_score",
+        "team_elo_start",
+        "opponent_elo_start",
+        "team_elo_delta",
+    ]
+    for column_name in numeric_columns:
+        df[column_name] = pd.to_numeric(df[column_name], errors="coerce")
+    df = df.dropna(subset=numeric_columns).copy()
+    if df.empty:
+        raise ValueError("lead_in_df must include at least one lead-in row with Elo fields")
+
+    df["normalized_result"] = normalize_weighted_form_result(df["result"], df["team_score"], df["opponent_score"])
+    df = df.dropna(subset=["normalized_result"]).copy()
+    if df.empty:
+        raise ValueError("lead_in_df must include at least one rated lead-in row with a valid result")
+
+    df["goal_difference"] = df["team_score"] - df["opponent_score"]
+    df["gd_capped"] = df["goal_difference"].clip(
+        lower=-WEIGHTED_FORM_GOAL_DIFFERENCE_CAP,
+        upper=WEIGHTED_FORM_GOAL_DIFFERENCE_CAP,
+    )
+    df["elo_gap"] = df["opponent_elo_start"] - df["team_elo_start"]
+    df["actual_score"] = df["normalized_result"].map({"win": 1.0, "draw": 0.5, "loss": 0.0}).astype(float)
+    df["expected_score"] = compute_elo_expected_score(df["team_elo_start"], df["opponent_elo_start"]).astype(float)
+    df["perf_vs_exp"] = df["actual_score"] - df["expected_score"]
+
+    rows: list[dict[str, float | int | str]] = []
+    grouped = df.sort_values(["qualified_team_id", "date", "lead_in_id"], kind="stable").groupby("qualified_team_id")
+    for team_id, matches in grouped:
+        recent = matches.tail(match_window).reset_index(drop=True).copy()
+        if recent.empty:
+            continue
+        recent["recency_weight"] = np.arange(1, len(recent) + 1, dtype=float)
+        total_weight = float(recent["recency_weight"].sum())
+        rows.append(
+            {
+                "team_id": str(team_id),
+                "recent_matches": int(len(recent)),
+                "wins": int(recent["normalized_result"].eq("win").sum()),
+                "draws": int(recent["normalized_result"].eq("draw").sum()),
+                "losses": int(recent["normalized_result"].eq("loss").sum()),
+                "goals_for": int(recent["team_score"].sum()),
+                "goals_against": int(recent["opponent_score"].sum()),
+                "avg_opp_elo": float((recent["opponent_elo_start"] * recent["recency_weight"]).sum() / total_weight),
+                "avg_elo_gap": float((recent["elo_gap"] * recent["recency_weight"]).sum() / total_weight),
+                "results_form": float((recent["actual_score"] * recent["recency_weight"]).sum() / total_weight),
+                "gd_form": float((recent["gd_capped"] * recent["recency_weight"]).sum() / total_weight),
+                "difficulty": float((recent["elo_gap"] * recent["recency_weight"]).sum() / total_weight),
+                "expected_score": float((recent["expected_score"] * recent["recency_weight"]).sum() / total_weight),
+                "perf_vs_exp": float((recent["perf_vs_exp"] * recent["recency_weight"]).sum() / total_weight),
+                "elo_delta_form": float((recent["team_elo_delta"] * recent["recency_weight"]).sum() / total_weight),
+            }
+        )
+
+    form_df = pd.DataFrame(rows)
+    if form_df.empty:
+        return form_df
+
+    team_metadata_columns = [
+        "team_id",
+        "display_name",
+        "flag_icon_code",
+        "group_code",
+        "confederation",
+        "elo_rating",
+        "world_rank",
+    ]
+    team_metadata = base_df.loc[:, team_metadata_columns].drop_duplicates(subset=["team_id"], keep="first").copy()
+    team_metadata["elo_rating"] = pd.to_numeric(team_metadata["elo_rating"], errors="coerce")
+    team_metadata["world_rank"] = pd.to_numeric(team_metadata["world_rank"], errors="coerce")
+
+    form_df = team_metadata.merge(form_df, on="team_id", how="left")
+    fill_zero_columns = [
+        "recent_matches",
+        "wins",
+        "draws",
+        "losses",
+        "goals_for",
+        "goals_against",
+        "avg_opp_elo",
+        "avg_elo_gap",
+        "results_form",
+        "gd_form",
+        "difficulty",
+        "expected_score",
+        "perf_vs_exp",
+        "elo_delta_form",
+    ]
+    for column_name in fill_zero_columns:
+        form_df[column_name] = pd.to_numeric(form_df[column_name], errors="coerce").fillna(0.0)
+    integer_columns = ["recent_matches", "wins", "draws", "losses", "goals_for", "goals_against"]
+    for column_name in integer_columns:
+        form_df[column_name] = form_df[column_name].astype(int)
+
+    results_weight, gd_weight, perf_weight, elo_delta_weight = WEIGHTED_FORM_COMPOSITE_WEIGHTS
+    form_df["form"] = (
+        results_weight * zscore(form_df["results_form"])
+        + gd_weight * zscore(form_df["gd_form"])
+        + perf_weight * zscore(form_df["perf_vs_exp"])
+        + elo_delta_weight * zscore(form_df["elo_delta_form"])
+    )
+
+    form_df["schedule_difficulty"] = scale_to_range(form_df["difficulty"]).round(1)
+    form_df["avg_opp_elo"] = form_df["avg_opp_elo"].round(1)
+    form_df["avg_elo_gap"] = form_df["avg_elo_gap"].round(1)
+    form_df["results_form"] = form_df["results_form"].round(3)
+    form_df["gd_form"] = form_df["gd_form"].round(3)
+    form_df["difficulty"] = form_df["difficulty"].round(3)
+    form_df["expected_score"] = form_df["expected_score"].round(3)
+    form_df["perf_vs_exp"] = form_df["perf_vs_exp"].round(3)
+    form_df["elo_delta_form"] = form_df["elo_delta_form"].round(3)
+    form_df["form"] = form_df["form"].round(3)
+
+    return form_df.sort_values(
+        ["form", "elo_rating", "world_rank"],
+        ascending=[False, False, True],
+        kind="stable",
+    ).reset_index(drop=True)
 
 
 def build_team_strengths(

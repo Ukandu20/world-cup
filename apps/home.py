@@ -1,6 +1,7 @@
 import html
 import base64
 from datetime import datetime
+import importlib
 import inspect
 from pathlib import Path
 import subprocess
@@ -17,14 +18,17 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from world_cup_simulation import (
-    MODEL_LABEL,
-    MODEL_SUMMARY,
-    MODEL_VERSION,
-    build_deterministic_bracket,
-    get_modal_group_rankings,
-    simulate_group_probabilities,
-)
+import world_cup_simulation as simulation
+
+
+simulation = importlib.reload(simulation)
+MODEL_LABEL = simulation.MODEL_LABEL
+MODEL_SUMMARY = simulation.MODEL_SUMMARY
+MODEL_VERSION = simulation.MODEL_VERSION
+build_deterministic_bracket = simulation.build_deterministic_bracket
+build_weighted_form_table = simulation.build_weighted_form_table
+get_modal_group_rankings = simulation.get_modal_group_rankings
+simulate_group_probabilities = simulation.simulate_group_probabilities
 
 DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
 EXPORT_DIR = ROOT / "assets" / "charts" / "generated"
@@ -43,11 +47,18 @@ SIMULATION_OPTIONS = {
 DEFAULT_RECENT_MATCH_WINDOW = 10
 DEFAULT_SIMULATION_LABEL = "100k"
 GROUP_ORDER = list("ABCDEFGHIJKL")
-VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
+VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Form", "Bracket")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
 CURRENT_HOLDER_TEAM_ID = "ARG"
 BRACKET_HEAD_TO_HEAD_SIMULATIONS = 1000
 BRACKET_EXPORT_VIEWPORT_SIZE = "1800,1200"
+FORM_WINDOW_MIN = 3
+FORM_WINDOW_MAX = 20
+FORM_CONFEDERATION_ORDER = ("AFC", "CAF", "CONCACAF", "CONMEBOL", "OFC", "UEFA")
+V1_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
+V2_VIEW_OPTIONS = ("All Countries", "Single confederation", "All confederations")
+V1_STATE_KEY = "simulation_settings_v1"
+V2_STATE_KEY = "simulation_settings_v2"
 PROBABILITY_PALETTES = {
     "prob_1": ((220, 252, 231), (22, 163, 74)),
     "prob_2": ((219, 234, 254), (37, 99, 235)),
@@ -141,7 +152,7 @@ def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, str
 
     merged = (
         groups.merge(
-            teams.loc[:, ["team_id", "tournament_name", "canonical_name", "flag_icon_code", "group_code"]],
+            teams.loc[:, ["team_id", "tournament_name", "canonical_name", "flag_icon_code", "group_code", "confederation"]],
             on=["team_id", "group_code"],
             how="left",
         )
@@ -224,6 +235,7 @@ def default_simulation_settings() -> dict[str, str | int]:
     """Return the default simulation settings for the dashboard."""
     return {
         "simulation_label": DEFAULT_SIMULATION_LABEL,
+        "form_match_window": DEFAULT_RECENT_MATCH_WINDOW,
     }
 
 
@@ -232,6 +244,41 @@ def chart_subtitle(base_label: str, simulation_count: int | None = None) -> str:
     if simulation_count is None:
         return base_label
     return f"{base_label} | {simulation_count:,} simulations"
+
+
+def configure_page(page_title: str) -> None:
+    """Configure the Streamlit page once per entrypoint."""
+    st.set_page_config(page_title=page_title, layout="wide")
+
+
+def render_dashboard_header(
+    world_cup_logo_data_uri: str,
+    metadata: dict[str, str],
+    simulation_count: int,
+    title: str = "World Cup 2026 Group Dashboard",
+) -> None:
+    """Render the shared dashboard header."""
+    st.markdown(
+        f"""
+        <div class="wc-header">
+          <div class="wc-header-bar">
+            <img class="wc-title-logo" src="{world_cup_logo_data_uri}" alt="FIFA World Cup 2026 logo" />
+            <div>
+              <div class="wc-kicker">Pre-Tournament Predictions</div>
+              <h1 style="margin:0;">{html.escape(title)}</h1>
+              <div class="wc-meta">
+                Model: {html.escape(MODEL_VERSION)} ({html.escape(MODEL_LABEL)}) |
+                Build date: {html.escape(str(metadata["build_date"]))} |
+                FIFA snapshot: {html.escape(str(metadata["fifa_snapshot_date"]))} |
+                Elo snapshot: {html.escape(str(metadata["elo_snapshot_date"]))} |
+                Simulations per group: {simulation_count:,}
+              </div>
+            </div>
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 def shared_css() -> str:
     """Return the shared CSS used by both Streamlit rendering and exported HTML files."""
@@ -797,6 +844,11 @@ def format_percent(value: float) -> str:
     return f"{value:.1f}%"
 
 
+def format_decimal(value: float, decimals: int = 1) -> str:
+    """Render a numeric value with a fixed number of decimal places."""
+    return f"{float(value):.{decimals}f}"
+
+
 def probability_cell_style(column_name: str, value: float, column_min: float, column_max: float) -> str:
     """Build a column-relative heatmap fill for one probability cell."""
     light_rgb, dark_rgb = PROBABILITY_PALETTES[column_name]
@@ -871,7 +923,45 @@ def champion_column_header() -> str:
     )
 
 
-def build_table_html(
+def build_table_card_html(
+    headers: list[str],
+    body_rows: list[str],
+    title: str,
+    card_subtitle: str,
+    group_pill_label: str | None = None,
+) -> str:
+    """Render a standard card wrapper around a table body."""
+    group_pill = ""
+    if group_pill_label is None and title.startswith("Group "):
+        title_parts = title.split()
+        if len(title_parts) >= 2:
+            group_pill_label = title_parts[1]
+    if group_pill_label:
+        group_pill = f'<span class="wc-group-pill">{html.escape(group_pill_label)}</span>'
+    card_title = html.escape(title)
+    safe_card_subtitle = html.escape(card_subtitle)
+    return textwrap.dedent(
+        f"""
+        <div class="wc-card">
+          <div class="wc-card-header">
+            <div>
+              <div class="wc-card-subtitle">{safe_card_subtitle}</div>
+              <div class="wc-card-title">{card_title}</div>
+            </div>
+            {group_pill}
+          </div>
+          <div class="wc-table-wrap">
+            <table class="wc-table">
+              <thead><tr>{''.join(headers)}</tr></thead>
+              <tbody>{''.join(body_rows)}</tbody>
+            </table>
+          </div>
+        </div>
+        """
+    ).strip()
+
+
+def build_probability_table_html(
     df: pd.DataFrame,
     title: str,
     include_group_column: bool = False,
@@ -879,7 +969,7 @@ def build_table_html(
     card_subtitle: str = "Pre-Tournament Probability Table",
     group_pill_label: str | None = None,
 ) -> str:
-    """Render one standings table as a styled HTML card."""
+    """Render one probability table as a styled HTML card."""
     df = ensure_dashboard_probability_columns(df)
     include_rank_column = include_group_column
     show_group_qualification_marker = not include_group_column and not include_ko_column
@@ -943,34 +1033,93 @@ def build_table_html(
                 )
         body_rows.append(f"<tr>{''.join(cells)}</tr>")
 
-    group_pill = ""
-    if group_pill_label is None and title.startswith("Group "):
-        title_parts = title.split()
-        if len(title_parts) >= 2:
-            group_pill_label = title_parts[1]
-    if group_pill_label:
-        group_pill = f'<span class="wc-group-pill">{html.escape(group_pill_label)}</span>'
-    card_title = html.escape(title)
-    safe_card_subtitle = html.escape(card_subtitle)
-    return textwrap.dedent(
-        f"""
-        <div class="wc-card">
-          <div class="wc-card-header">
-            <div>
-              <div class="wc-card-subtitle">{safe_card_subtitle}</div>
-              <div class="wc-card-title">{card_title}</div>
-            </div>
-            {group_pill}
-          </div>
-          <div class="wc-table-wrap">
-            <table class="wc-table">
-              <thead><tr>{''.join(headers)}</tr></thead>
-              <tbody>{''.join(body_rows)}</tbody>
-            </table>
-          </div>
-        </div>
-        """
-    ).strip()
+    return build_table_card_html(headers, body_rows, title, card_subtitle, group_pill_label=group_pill_label)
+
+
+def build_form_table_html(
+    df: pd.DataFrame,
+    title: str,
+    card_subtitle: str = "Weighted Recent Form Table",
+    group_pill_label: str | None = None,
+) -> str:
+    """Render the recent-form table as a styled HTML card."""
+    headers = [
+        '<th class="wc-num">Rank</th>',
+        "<th>Country</th>",
+        "<th>Confederation</th>",
+        '<th class="wc-num">W</th>',
+        '<th class="wc-num">D</th>',
+        '<th class="wc-num">L</th>',
+        '<th class="wc-num">GS</th>',
+        '<th class="wc-num">GA</th>',
+        '<th class="wc-num">ELO</th>',
+        '<th class="wc-num">OPP</th>',
+        '<th class="wc-num">Avg Gap</th>',
+        '<th class="wc-num">Sched Diff</th>',
+        '<th class="wc-num">Results Form</th>',
+        '<th class="wc-num">GD Form</th>',
+        '<th class="wc-num">Exp</th>',
+        '<th class="wc-num">Perf vs Exp</th>',
+        '<th class="wc-num">Elo Delta Form</th>',
+        '<th class="wc-num">Form</th>',
+    ]
+
+    body_rows = []
+    for rank, row in enumerate(df.itertuples(index=False), start=1):
+        cells = [
+            f'<td class="wc-num">{rank}</td>',
+            (
+                f'<td class="{current_holder_cell_class(row.team_id).strip()}">'
+                f'{render_name_cell(row.flag_icon_code, row.display_name)}'
+                "</td>"
+            ),
+            f'<td>{html.escape(str(row.confederation))}</td>',
+            f'<td class="wc-num">{int(row.wins)}</td>',
+            f'<td class="wc-num">{int(row.draws)}</td>',
+            f'<td class="wc-num">{int(row.losses)}</td>',
+            f'<td class="wc-num">{int(row.goals_for)}</td>',
+            f'<td class="wc-num">{int(row.goals_against)}</td>',
+            f'<td class="wc-num">{int(round(float(row.elo_rating)))}</td>',
+            f'<td class="wc-num">{format_decimal(row.avg_opp_elo)}</td>',
+            f'<td class="wc-num">{format_decimal(row.avg_elo_gap)}</td>',
+            f'<td class="wc-num">{format_decimal(row.schedule_difficulty)}</td>',
+            f'<td class="wc-num">{format_decimal(row.results_form, decimals=3)}</td>',
+            f'<td class="wc-num">{format_decimal(row.gd_form, decimals=3)}</td>',
+            f'<td class="wc-num">{format_decimal(row.expected_score, decimals=3)}</td>',
+            f'<td class="wc-num">{format_decimal(row.perf_vs_exp, decimals=3)}</td>',
+            f'<td class="wc-num">{format_decimal(row.elo_delta_form, decimals=3)}</td>',
+            f'<td class="wc-num">{format_decimal(row.form)}</td>',
+        ]
+        body_rows.append(f"<tr>{''.join(cells)}</tr>")
+
+    return build_table_card_html(headers, body_rows, title, card_subtitle, group_pill_label=group_pill_label)
+
+
+def build_table_html(
+    df: pd.DataFrame,
+    title: str,
+    include_group_column: bool = False,
+    include_ko_column: bool = False,
+    card_subtitle: str = "Pre-Tournament Probability Table",
+    group_pill_label: str | None = None,
+    table_kind: str = "probability",
+) -> str:
+    """Render one dashboard table card."""
+    if table_kind == "form":
+        return build_form_table_html(
+            df,
+            title,
+            card_subtitle=card_subtitle,
+            group_pill_label=group_pill_label,
+        )
+    return build_probability_table_html(
+        df,
+        title,
+        include_group_column=include_group_column,
+        include_ko_column=include_ko_column,
+        card_subtitle=card_subtitle,
+        group_pill_label=group_pill_label,
+    )
 
 
 def group_table_frame(df: pd.DataFrame, group_code: str) -> pd.DataFrame:
@@ -1025,6 +1174,125 @@ def all_teams_table_frame(df: pd.DataFrame) -> pd.DataFrame:
     sort_columns.extend(["elo_rating", "world_rank"])
     ascending.extend([False, True])
     return df.sort_values(sort_columns, ascending=ascending)
+
+
+def form_table_frame(df: pd.DataFrame) -> pd.DataFrame:
+    """Return the full recent-form table sorted by weighted form descending."""
+    return df.sort_values(["form", "elo_rating", "world_rank"], ascending=[False, False, True], kind="stable")
+
+
+def confederation_form_table_frame(df: pd.DataFrame, confederation: str) -> pd.DataFrame:
+    """Return one confederation-specific form table sorted by weighted form descending."""
+    confed_df = df[df["confederation"] == confederation].copy()
+    return form_table_frame(confed_df)
+
+
+def ordered_confederations(df: pd.DataFrame) -> list[str]:
+    """Return confederations in a stable dashboard order, then any extras alphabetically."""
+    present = {str(value) for value in df["confederation"].dropna().unique()}
+    ordered = [confederation for confederation in FORM_CONFEDERATION_ORDER if confederation in present]
+    extras = sorted(present.difference(FORM_CONFEDERATION_ORDER))
+    return ordered + extras
+
+
+def build_form_view_tables(
+    form_df: pd.DataFrame,
+    form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+) -> list[dict[str, object]]:
+    """Build the overall form table plus one table per confederation."""
+    subtitle = f"Weighted Recent Form | Last {form_match_window} lead-in matches with Elo"
+    tables: list[dict[str, object]] = [
+        {
+            "title": "All Countries",
+            "stem": "form_all_countries",
+            "frame": form_table_frame(form_df),
+            "include_group_column": False,
+            "include_ko_column": False,
+            "card_subtitle": subtitle,
+            "group_pill_label": None,
+            "table_kind": "form",
+        }
+    ]
+    for confederation in ordered_confederations(form_df):
+        confed_df = confederation_form_table_frame(form_df, confederation)
+        if confed_df.empty:
+            continue
+        tables.append(
+            {
+                "title": confederation,
+                "stem": f"form_{confederation.lower()}",
+                "frame": confed_df,
+                "include_group_column": False,
+                "include_ko_column": False,
+                "card_subtitle": subtitle,
+                "group_pill_label": None,
+                "table_kind": "form",
+            }
+        )
+    return tables
+
+
+def build_confederation_form_tables(
+    form_df: pd.DataFrame,
+    form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+) -> list[dict[str, object]]:
+    """Build one form table per confederation."""
+    subtitle = f"Weighted Recent Form | Last {form_match_window} lead-in matches with Elo"
+    tables: list[dict[str, object]] = []
+    for confederation in ordered_confederations(form_df):
+        confed_df = confederation_form_table_frame(form_df, confederation)
+        if confed_df.empty:
+            continue
+        tables.append(
+            {
+                "title": confederation,
+                "stem": f"form_{confederation.lower()}",
+                "frame": confed_df,
+                "include_group_column": False,
+                "include_ko_column": False,
+                "card_subtitle": subtitle,
+                "group_pill_label": None,
+                "table_kind": "form",
+            }
+        )
+    return tables
+
+
+def current_form_view_tables(
+    form_df: pd.DataFrame,
+    view_mode: str,
+    selected_confederation: str,
+    form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+) -> list[dict[str, object]]:
+    """Describe the tables needed for the active V2 form view."""
+    subtitle = f"Weighted Recent Form | Last {form_match_window} lead-in matches with Elo"
+    if view_mode == "All Countries":
+        return [
+            {
+                "title": "All Countries",
+                "stem": "form_all_countries",
+                "frame": form_table_frame(form_df),
+                "include_group_column": False,
+                "include_ko_column": False,
+                "card_subtitle": subtitle,
+                "group_pill_label": None,
+                "table_kind": "form",
+            }
+        ]
+    if view_mode == "Single confederation":
+        return [
+            {
+                "title": selected_confederation,
+                "stem": f"form_{selected_confederation.lower()}",
+                "frame": confederation_form_table_frame(form_df, selected_confederation),
+                "include_group_column": False,
+                "include_ko_column": False,
+                "card_subtitle": subtitle,
+                "group_pill_label": None,
+                "table_kind": "form",
+            }
+        ]
+    return build_confederation_form_tables(form_df, form_match_window=form_match_window)
 
 
 def team_metadata_lookup(df: pd.DataFrame) -> dict[str, dict[str, str]]:
@@ -1164,12 +1432,20 @@ def build_bracket_html(
 
 
 def current_view_tables(
-    df: pd.DataFrame,
+    df: pd.DataFrame | None,
     view_mode: str,
     selected_group: str,
     simulation_count: int | None = None,
+    form_df: pd.DataFrame | None = None,
+    form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
 ) -> list[dict[str, object]]:
     """Describe the tables needed for the active dashboard view."""
+    if view_mode == "Form":
+        if form_df is None:
+            raise ValueError("Form view requires form_df")
+        return build_form_view_tables(form_df, form_match_window=form_match_window)
+    if df is None:
+        raise ValueError("Probability table views require a dataframe")
     if view_mode == "Single group":
         return [
             {
@@ -1180,6 +1456,7 @@ def current_view_tables(
                 "include_ko_column": False,
                 "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
                 "group_pill_label": selected_group,
+                "table_kind": "probability",
             },
         ]
     if view_mode == "All groups":
@@ -1197,6 +1474,7 @@ def current_view_tables(
                     "include_ko_column": False,
                     "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
                     "group_pill_label": group_code,
+                    "table_kind": "probability",
                 }
             )
         return tables
@@ -1210,39 +1488,51 @@ def current_view_tables(
             "include_ko_column": True,
             "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
             "group_pill_label": None,
+            "table_kind": "probability",
         }
     ]
 
 
-def render_tables(tables: list[dict[str, object]], multi_column: bool) -> None:
+def render_tables(
+    tables: list[dict[str, object]],
+    multi_column: bool,
+    separate_sections: bool = False,
+) -> None:
     """Render one or many HTML tables into the Streamlit dashboard."""
-    if multi_column:
-        grid_html = "".join(
-            build_table_html(
-                table["frame"],
-                table["title"],
-                include_group_column=table["include_group_column"],
-                include_ko_column=table["include_ko_column"],
-                card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
-                group_pill_label=table.get("group_pill_label"),
+    if separate_sections and not multi_column:
+        section_html = "".join(
+            (
+                '<div class="wc-grid-single">'
+                + build_table_html(
+                    table["frame"],
+                    table["title"],
+                    include_group_column=table["include_group_column"],
+                    include_ko_column=table["include_ko_column"],
+                    card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
+                    group_pill_label=table.get("group_pill_label"),
+                    table_kind=str(table.get("table_kind", "probability")),
+                )
+                + "</div>"
             )
             for table in tables
         )
-        st.markdown(f'<div class="wc-grid">{grid_html}</div>', unsafe_allow_html=True)
+        st.markdown(section_html, unsafe_allow_html=True)
         return
 
-    for table in tables:
-        st.markdown(
-            build_table_html(
-                table["frame"],
-                table["title"],
-                include_group_column=table["include_group_column"],
-                include_ko_column=table["include_ko_column"],
-                card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
-                group_pill_label=table.get("group_pill_label"),
-            ),
-            unsafe_allow_html=True,
+    container_class = "wc-grid" if multi_column else "wc-grid-single"
+    grid_html = "".join(
+        build_table_html(
+            table["frame"],
+            table["title"],
+            include_group_column=table["include_group_column"],
+            include_ko_column=table["include_ko_column"],
+            card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
+            group_pill_label=table.get("group_pill_label"),
+            table_kind=str(table.get("table_kind", "probability")),
         )
+        for table in tables
+    )
+    st.markdown(f'<div class="{container_class}">{grid_html}</div>', unsafe_allow_html=True)
 
 
 def render_bracket(
@@ -1261,20 +1551,45 @@ def render_bracket(
     )
 
 
-def render_export_document(page_title: str, tables: list[dict[str, object]], multi_column: bool) -> str:
+def render_export_document(
+    page_title: str,
+    tables: list[dict[str, object]],
+    multi_column: bool,
+    separate_sections: bool = False,
+) -> str:
     """Render a complete standalone HTML document for export."""
-    container_class = "wc-grid" if multi_column else "wc-grid-single"
-    tables_html = "".join(
-        build_table_html(
-            table["frame"],
-            table["title"],
-            include_group_column=table["include_group_column"],
-            include_ko_column=table["include_ko_column"],
-            card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
-            group_pill_label=table.get("group_pill_label"),
+    if separate_sections and not multi_column:
+        tables_html = "".join(
+            (
+                '<div class="wc-grid-single">'
+                + build_table_html(
+                    table["frame"],
+                    table["title"],
+                    include_group_column=table["include_group_column"],
+                    include_ko_column=table["include_ko_column"],
+                    card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
+                    group_pill_label=table.get("group_pill_label"),
+                    table_kind=str(table.get("table_kind", "probability")),
+                )
+                + "</div>"
+            )
+            for table in tables
         )
-        for table in tables
-    )
+    else:
+        container_class = "wc-grid" if multi_column else "wc-grid-single"
+        cards_html = "".join(
+            build_table_html(
+                table["frame"],
+                table["title"],
+                include_group_column=table["include_group_column"],
+                include_ko_column=table["include_ko_column"],
+                card_subtitle=str(table.get("card_subtitle", "Pre-Tournament Probability Table")),
+                group_pill_label=table.get("group_pill_label"),
+                table_kind=str(table.get("table_kind", "probability")),
+            )
+            for table in tables
+        )
+        tables_html = f'<div class="{container_class}">{cards_html}</div>'
     document = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1285,9 +1600,7 @@ def render_export_document(page_title: str, tables: list[dict[str, object]], mul
 </head>
 <body>
   <div class="wc-export-page">
-    <div class="{container_class}">
-      {tables_html}
-    </div>
+    {tables_html}
   </div>
 </body>
 </html>
@@ -1339,11 +1652,17 @@ def export_document_png(
     page_title: str,
     tables: list[dict[str, object]],
     multi_column: bool,
+    separate_sections: bool = False,
     export_suffix: str | None = None,
 ) -> Path:
     """Export a complete standalone HTML view as a PNG screenshot."""
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
-    document = render_export_document(page_title, tables, multi_column)
+    document = render_export_document(
+        page_title,
+        tables,
+        multi_column,
+        separate_sections=separate_sections,
+    )
     output_stem = build_export_stem(filename_stem, export_suffix=export_suffix)
     output_path = EXPORT_DIR / f"{output_stem}.png"
 
@@ -1480,6 +1799,14 @@ def export_current_view(
             simulation_count=simulation_count,
             export_suffix=export_suffix,
         )
+    if view_mode == "Form":
+        return export_document_png(
+            "form_view",
+            "Form View",
+            tables,
+            multi_column=False,
+            export_suffix=export_suffix,
+        )
     return export_document_png(
         "all_Countries_view",
         "All Countries View",
@@ -1489,65 +1816,113 @@ def export_current_view(
     )
 
 
-def export_all_tables(df: pd.DataFrame, simulation_count: int | None = None) -> list[Path]:
-    """Export the default group tables plus the combined all-Countries table as PNG files."""
+def export_all_tables(
+    probability_df: pd.DataFrame | None = None,
+    form_df: pd.DataFrame | None = None,
+    simulation_count: int | None = None,
+    form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+) -> list[Path]:
+    """Export the probability tables and optionally the form table as PNG files."""
     exported_paths: list[Path] = []
     export_suffix = generate_export_suffix()
-    for group_code in GROUP_ORDER:
-        group_df = projected_group_table_frame(df, group_code)
-        if group_df.empty:
-            continue
+    if probability_df is not None:
+        for group_code in GROUP_ORDER:
+            group_df = projected_group_table_frame(probability_df, group_code)
+            if group_df.empty:
+                continue
+            exported_paths.append(
+                export_document_png(
+                    f"group_{group_code.lower()}",
+                    f"Group {group_code}",
+                    [
+                        {
+                            "title": f"Group {group_code}",
+                            "frame": group_df,
+                            "include_group_column": False,
+                            "include_ko_column": False,
+                            "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
+                            "group_pill_label": group_code,
+                            "table_kind": "probability",
+                        }
+                    ],
+                    multi_column=False,
+                    export_suffix=export_suffix,
+                )
+            )
+
+        combined = all_teams_table_frame(probability_df)
         exported_paths.append(
             export_document_png(
-                f"group_{group_code.lower()}",
-                f"Group {group_code}",
+                "all_Countries",
+                "All Countries",
                 [
                     {
-                        "title": f"Group {group_code}",
-                        "frame": group_df,
-                        "include_group_column": False,
-                        "include_ko_column": False,
-                        "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
-                        "group_pill_label": group_code,
+                        "title": "All Countries",
+                        "frame": combined,
+                        "include_group_column": True,
+                        "include_ko_column": True,
+                        "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
+                        "group_pill_label": None,
+                        "table_kind": "probability",
                     }
                 ],
                 multi_column=False,
                 export_suffix=export_suffix,
             )
         )
-
-    combined = all_teams_table_frame(df)
-    exported_paths.append(
-        export_document_png(
-            "all_Countries",
+    if form_df is not None:
+        all_countries_tables = current_form_view_tables(
+            form_df,
             "All Countries",
-            [
-                {
-                    "title": "All Countries",
-                    "frame": combined,
-                    "include_group_column": True,
-                    "include_ko_column": True,
-                    "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
-                    "group_pill_label": None,
-                }
-            ],
-            multi_column=False,
-            export_suffix=export_suffix,
+            "",
+            form_match_window=form_match_window,
         )
-    )
+        all_confederations_tables = current_form_view_tables(
+            form_df,
+            "All confederations",
+            "",
+            form_match_window=form_match_window,
+        )
+        exported_paths.append(
+            export_document_png(
+                "form_all_countries",
+                "All Countries",
+                all_countries_tables,
+                multi_column=False,
+                export_suffix=export_suffix,
+            )
+        )
+        exported_paths.append(
+            export_document_png(
+                "form_all_confederations",
+                "All Confederations",
+                all_confederations_tables,
+                multi_column=False,
+                export_suffix=export_suffix,
+            )
+        )
+        for table in all_confederations_tables:
+            exported_paths.append(
+                export_document_png(
+                    str(table["stem"]),
+                    str(table["title"]),
+                    [table],
+                    multi_column=False,
+                    export_suffix=export_suffix,
+                )
+            )
     return exported_paths
 
 
-def main() -> None:
-    """Configure the page, prepare the data, and render the exportable HTML dashboard."""
-    st.set_page_config(page_title="World Cup 2026 Group Dashboard", layout="wide")
+def render_v1_dashboard() -> None:
+    """Render the version 1 probability and bracket dashboard."""
     inject_styles()
 
     base_df, fixtures_df, lead_in_df, metadata = load_data()
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
-    if "simulation_settings" not in st.session_state:
-        st.session_state["simulation_settings"] = default_simulation_settings()
-    current_settings = dict(st.session_state["simulation_settings"])
+    if V1_STATE_KEY not in st.session_state:
+        st.session_state[V1_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V1_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
     simulation_label = st.radio(
@@ -1555,12 +1930,35 @@ def main() -> None:
         simulation_labels,
         index=simulation_labels.index(current_settings["simulation_label"]),
         horizontal=True,
+        key="v1_simulation_label",
     )
-    st.session_state["simulation_settings"] = {
+    view_mode = st.radio("View", V1_VIEW_OPTIONS, horizontal=True, key="v1_view_mode")
+    selected_group = (
+        st.selectbox("Group", GROUP_ORDER, index=0, key="v1_selected_group")
+        if view_mode == "Single group"
+        else GROUP_ORDER[0]
+    )
+
+    st.session_state[V1_STATE_KEY] = {
         "simulation_label": simulation_label,
+        "form_match_window": DEFAULT_RECENT_MATCH_WINDOW,
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
+    render_dashboard_header(world_cup_logo_data_uri, metadata, simulation_count, title="World Cup 2026 V1")
+    render_countdown_timer(fixtures_df)
+
+    st.caption(
+        f"Model {MODEL_VERSION}: {MODEL_SUMMARY}. "
+        "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "
+        "an Elo-only baseline (100% / 0%), "
+        f"recent form from the last {DEFAULT_RECENT_MATCH_WINDOW} matches, "
+        "built from points vs goal difference (70% / 30%), "
+        "and a ratings-vs-form blend (50% / 50%). "
+        "Top 8 3rd% is the share of runs where a team finishes third and still advances. "
+        "KO% means reaching the Round of 32; R16%, QF%, SF%, Final%, and Champion% track deeper knockout progression. "
+        "This page is isolated to the original probability and bracket model."
+    )
     with st.spinner(f"Running {simulation_count:,} simulations..."):
         dashboard_df = simulate_probabilities(
             base_df=base_df,
@@ -1575,45 +1973,6 @@ def main() -> None:
         )
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
     metadata_lookup = team_metadata_lookup(dashboard_df)
-
-    st.markdown(
-        f"""
-        <div class="wc-header">
-          <div class="wc-header-bar">
-            <img class="wc-title-logo" src="{world_cup_logo_data_uri}" alt="FIFA World Cup 2026 logo" />
-            <div>
-              <div class="wc-kicker">Pre-Tournament Predictions</div>
-              <h1 style="margin:0;">World Cup 2026 Group Dashboard</h1>
-              <div class="wc-meta">
-                Model: {html.escape(MODEL_VERSION)} ({html.escape(MODEL_LABEL)}) |
-                Build date: {html.escape(str(metadata["build_date"]))} |
-                FIFA snapshot: {html.escape(str(metadata["fifa_snapshot_date"]))} |
-                Elo snapshot: {html.escape(str(metadata["elo_snapshot_date"]))} |
-                Simulations per group: {simulation_count:,}
-              </div>
-            </div>
-          </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-    render_countdown_timer(fixtures_df)
-
-    st.caption(
-        f"Model {MODEL_VERSION}: {MODEL_SUMMARY}. "
-        "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "
-        "an Elo-only baseline (100% / 0%), "
-        f"recent form from the last {DEFAULT_RECENT_MATCH_WINDOW} matches, "
-        "built from points vs goal difference (70% / 30%), "
-        "and a ratings-vs-form blend (50% / 50%). "
-        "Top 8 3rd% is the share of runs where a team finishes third and still advances. "
-        "KO% means reaching the Round of 32; R16%, QF%, SF%, Final%, and Champion% track deeper knockout progression. "
-        "The Bracket view turns the same simulation into one stable predicted knockout path with matchup winners and win percentages. "
-        "The percentage cells use color gradients so stronger finish likelihoods read more quickly."
-    )
-
-    view_mode = st.radio("View", VIEW_OPTIONS, horizontal=True)
-    selected_group = st.selectbox("Group", GROUP_ORDER, index=0) if view_mode == "Single group" else GROUP_ORDER[0]
     tables = [] if view_mode == "Bracket" else current_view_tables(
         dashboard_df,
         view_mode,
@@ -1624,7 +1983,7 @@ def main() -> None:
 
     action_cols = st.columns(2)
     with action_cols[0]:
-        if st.button("Export This View", use_container_width=True):
+        if st.button("Export This V1 View", use_container_width=True, key="v1_export_current"):
             try:
                 export_path = export_current_view(
                     view_mode,
@@ -1640,10 +1999,10 @@ def main() -> None:
             except ValueError as exc:
                 st.error(str(exc))
     with action_cols[1]:
-        if st.button("Export All Tables", use_container_width=True):
+        if st.button("Export All V1 Tables", use_container_width=True, key="v1_export_all"):
             try:
                 exported_paths = export_all_tables(
-                    dashboard_df,
+                    probability_df=dashboard_df,
                     simulation_count=simulation_count,
                 )
                 st.success(f"Exported {len(exported_paths)} PNG tables to {EXPORT_DIR}")
@@ -1651,9 +2010,130 @@ def main() -> None:
                 st.error(str(exc))
 
     if view_mode == "Bracket":
+        if bracket_data is None or metadata_lookup is None:
+            st.error("Bracket view is unavailable because no bracket data was generated.")
+            return
         render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
     else:
         render_tables(tables, multi_column=multi_column)
+
+
+def render_v2_dashboard() -> None:
+    """Render the version 2 weighted-form dashboard."""
+    inject_styles()
+
+    base_df, fixtures_df, lead_in_df, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    if V2_STATE_KEY not in st.session_state:
+        st.session_state[V2_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V2_STATE_KEY])
+
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+        key="v2_simulation_label",
+    )
+    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+    form_match_window = int(
+        st.slider(
+            "Last k matches",
+            min_value=FORM_WINDOW_MIN,
+            max_value=FORM_WINDOW_MAX,
+            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+            key="v2_form_match_window",
+        )
+    )
+    view_mode = st.radio("View", V2_VIEW_OPTIONS, horizontal=True, key="v2_view_mode")
+    st.session_state[V2_STATE_KEY] = {
+        "simulation_label": simulation_label,
+        "form_match_window": form_match_window,
+    }
+
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    render_dashboard_header(world_cup_logo_data_uri, metadata, simulation_count, title="World Cup 2026 V2")
+    render_countdown_timer(fixtures_df)
+    st.caption(
+        f"V2 isolates the weighted form model from V1. This page ranks all 48 teams over the last {form_match_window} "
+        "Elo-rated lead-in matches using a composite of results form, capped goal-difference form, performance versus Elo expectation, "
+        "and weighted Elo delta. "
+        "Use the V2 view selector the same way V1 separates single-group and all-group views."
+    )
+    with st.spinner(f"Computing weighted form for the last {form_match_window} matches..."):
+        form_df = build_weighted_form_table(base_df, lead_in_df, match_window=form_match_window)
+    available_confederations = ordered_confederations(form_df)
+    selected_confederation = (
+        st.selectbox(
+            "Confederation",
+            available_confederations,
+            index=0,
+            key="v2_selected_confederation",
+        )
+        if view_mode == "Single confederation" and available_confederations
+        else ""
+    )
+    tables = current_form_view_tables(
+        form_df,
+        view_mode,
+        selected_confederation,
+        form_match_window=form_match_window,
+    )
+
+    action_cols = st.columns(2)
+    with action_cols[0]:
+        if st.button("Export This V2 Page", use_container_width=True, key="v2_export_current"):
+            try:
+                export_stem = "form_all_countries" if view_mode == "All Countries" else (
+                    f"form_{selected_confederation.lower()}" if view_mode == "Single confederation" and selected_confederation else "form_all_confederations"
+                )
+                export_title = "All Countries" if view_mode == "All Countries" else (
+                    selected_confederation if view_mode == "Single confederation" and selected_confederation else "All Confederations"
+                )
+                export_path = export_document_png(
+                    export_stem,
+                    export_title,
+                    tables,
+                    multi_column=False,
+                    export_suffix=generate_export_suffix(),
+                )
+                st.success(f"Exported current view to {export_path}")
+            except RuntimeError as exc:
+                st.error(str(exc))
+    with action_cols[1]:
+        if st.button("Export All V2 Tables", use_container_width=True, key="v2_export_all"):
+            try:
+                exported_paths = export_all_tables(
+                    form_df=form_df,
+                    simulation_count=simulation_count,
+                    form_match_window=form_match_window,
+                )
+                st.success(f"Exported {len(exported_paths)} PNG tables to {EXPORT_DIR}")
+            except RuntimeError as exc:
+                st.error(str(exc))
+    render_tables(tables, multi_column=False)
+
+
+def main() -> None:
+    """Render the landing page for the versioned dashboard pages."""
+    configure_page("World Cup 2026 Dashboard")
+    inject_styles()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    _, fixtures_df, _, metadata = load_data()
+    render_dashboard_header(world_cup_logo_data_uri, metadata, SIMULATION_COUNT, title="World Cup 2026 Dashboard")
+    render_countdown_timer(fixtures_df)
+    st.markdown(
+        """
+        ### Versions
+        Use the sidebar pages to keep model versions isolated.
+
+        - `V1 Probabilities` contains the original group-probability and bracket workflow.
+        - `V2 Form` contains the weighted-form tables and confederation splits.
+
+        Settings and exports are separated per page so changes in one version do not interfere with the other by accident.
+        """
+    )
 
 
 if __name__ == "__main__":

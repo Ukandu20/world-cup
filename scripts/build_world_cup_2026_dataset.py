@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import re
+import time
 import unicodedata
 from collections import Counter, defaultdict
 from dataclasses import dataclass
@@ -44,6 +45,7 @@ ELO_URL = (
     "https://www.international-football.net/elo-ratings-table"
     "?year={year}&month={month:02d}&day={day:02d}"
 )
+ELO_BASE_URL = "https://www.eloratings.net"
 
 WORLD_CUP_COMPETITION_ID = "17"
 WORLD_CUP_SEASON_ID = "285023"
@@ -53,6 +55,7 @@ FREEZE_TARGET_DATE = date(2026, 6, 10)
 DEFAULT_BUILD_DATE = date(2026, 4, 3)
 DEFAULT_FIFA_RANKING_SCHEDULE_ID = "FRS_Male_Football_20260119"
 DEFAULT_FIFA_RANKING_SNAPSHOT_DATE = date(2026, 4, 1)
+REQUIRED_RATED_LEAD_IN_MATCHES = 20
 ROUND_ORDER = {
     "First Stage": ("GS", 1),
     "Round of 32": ("R32", 2),
@@ -152,15 +155,17 @@ CANONICAL_ALIASES = {
 
 ELO_NAME_ALIASES = {
     "Bosnia and Herzegovina": ["Bosnia and Herzegovina"],
-    "Cape Verde": ["Cape Verde"],
+    "Cape Verde": ["Cape Verde", "Cape Verde Islands", "Cabo Verde"],
     "Curacao": ["Curaçao", "Curacao"],
     "Czechia": ["Czech Republic", "Czechia"],
-    "DR Congo": ["Dem. Rep. of Congo", "DR Congo", "Congo DR"],
+    "DR Congo": ["Dem. Rep. of Congo", "DR Congo", "Congo DR", "Dr Congo"],
     "Iran": ["Iran", "IR Iran"],
     "Ivory Coast": ["Ivory Coast", "Côte d'Ivoire"],
+    "Jordan": ["Jordan"],
     "South Korea": ["South Korea", "Korea Republic"],
     "Turkey": ["Turkey", "Türkiye"],
     "United States": ["United States", "USA"],
+    "Uzbekistan": ["Uzbekistan"],
 }
 
 
@@ -173,15 +178,35 @@ class QualifiedTeam:
     group_code: str
 
 
+@dataclass(frozen=True)
+class MatchElo:
+    team: str
+    opponent: str
+    team_score: int
+    opponent_score: int
+    team_elo_start: int
+    opponent_elo_start: int
+    team_elo_end: int
+    opponent_elo_end: int
+    team_elo_delta: int
+
+
 def normalize_key(value: str | None) -> str:
     if value is None:
         return ""
-    normalized = unicodedata.normalize("NFKD", value)
-    normalized = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+    normalized = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
     normalized = normalized.replace("-", " ")
     normalized = re.sub(r"[^a-zA-Z0-9 ]+", " ", normalized)
     normalized = re.sub(r"\s+", " ", normalized).strip().lower()
     return normalized
+
+
+def page_name(text: str) -> str:
+    normalized = unicodedata.normalize("NFKD", text)
+    normalized = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+    normalized = normalized.replace("&", "and")
+    normalized = re.sub(r"[^A-Za-z0-9 ]+", "", normalized)
+    return normalized.replace(" ", "_")
 
 
 def parse_args() -> argparse.Namespace:
@@ -212,7 +237,7 @@ def request_json(url: str) -> dict:
 def request_text(url: str) -> str:
     response = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
     response.raise_for_status()
-    return response.text
+    return response.content.decode("utf-8", errors="replace")
 
 
 def load_csv(path: Path) -> list[dict[str, str]]:
@@ -248,6 +273,19 @@ def canonical_name_for_tournament(name: str) -> str:
     return TOURNAMENT_TO_CANONICAL.get(name, name)
 
 
+def decode_elo_delta(value: str) -> int:
+    stripped = (
+        value.strip()
+        .replace("âˆ’", "-")
+        .replace("Ã¢ÂˆÂ’", "-")
+        .replace("Ä\x88\x92", "-")
+        .replace("&minus;", "-")
+    )
+    if stripped in {"", "-", "âˆ’"}:
+        return 0
+    return int(stripped)
+
+
 def build_alias_maps(
     qualified_teams: dict[str, QualifiedTeam], former_names_rows: list[dict[str, str]]
 ) -> tuple[dict[str, str], list[tuple[str, date, date, str]]]:
@@ -260,11 +298,10 @@ def build_alias_maps(
         for alias in CANONICAL_ALIASES.get(team.canonical_name, set()):
             alias_map[normalize_key(alias)] = team.canonical_name
 
-    qualified_names = {team.canonical_name for team in qualified_teams.values()}
     for row in former_names_rows:
         current = canonical_name_for_tournament(row["current"])
-        if current not in qualified_names:
-            continue
+        alias_map.setdefault(normalize_key(current), current)
+        alias_map.setdefault(normalize_key(row["former"]), current)
         dated_former_aliases.append(
             (
                 normalize_key(row["former"]),
@@ -390,6 +427,125 @@ def map_team_to_elo(team: QualifiedTeam, elo_rows: dict[str, dict[str, object]])
         if candidate in elo_rows:
             return elo_rows[candidate]
     raise KeyError(f"No Elo row found for {team.canonical_name} ({team.fifa_code})")
+
+
+def build_elo_team_data() -> tuple[dict[str, str], dict[str, list[str]], dict[str, str]]:
+    successor_map: dict[str, str] = {}
+    for line in request_text(f"{ELO_BASE_URL}/teams.tsv").splitlines():
+        if not line.strip():
+            continue
+        current, successor = line.split("\t")[:2]
+        successor_map[current] = successor
+
+    names_by_code: dict[str, list[str]] = {}
+    code_by_name: dict[str, str] = {}
+    for line in request_text(f"{ELO_BASE_URL}/en.teams.tsv").splitlines():
+        if not line.strip():
+            continue
+        parts = line.split("\t")
+        code = parts[0]
+        names = parts[1:]
+        names_by_code[code] = names
+        for name in names:
+            code_by_name.setdefault(normalize_key(name), code)
+    return successor_map, names_by_code, code_by_name
+
+
+def map_team_to_elo_code(
+    team: QualifiedTeam,
+    code_by_name: dict[str, str],
+    elo_rankings: dict[str, dict[str, object]],
+) -> str:
+    candidate_names: list[str] = []
+    try:
+        candidate_names.append(str(map_team_to_elo(team, elo_rankings)["source_name"]))
+    except KeyError:
+        pass
+    candidate_names.extend(ELO_NAME_ALIASES.get(team.canonical_name, []))
+    candidate_names.extend([team.canonical_name, team.tournament_name])
+    for candidate in candidate_names:
+        code = code_by_name.get(normalize_key(candidate))
+        if code:
+            return code
+    raise KeyError(f"No Elo code found for {team.canonical_name} ({team.fifa_code})")
+
+
+def build_lead_in_match_elo_lookup(
+    qualified_teams: dict[str, QualifiedTeam],
+    elo_rankings: dict[str, dict[str, object]],
+    alias_map: dict[str, str],
+    dated_former_aliases: list[tuple[str, date, date, str]],
+) -> tuple[dict[tuple[str, str, str, int, int], MatchElo], dict[tuple[str, str, int, int], MatchElo]]:
+    successor_map, names_by_code, code_by_name = build_elo_team_data()
+    teams_by_page: dict[str, set[str]] = defaultdict(set)
+
+    for team in qualified_teams.values():
+        elo_code = map_team_to_elo_code(team, code_by_name, elo_rankings)
+        page_code = successor_map.get(elo_code, elo_code)
+        page_slug = page_name(names_by_code[page_code][0])
+        teams_by_page[page_slug].add(team.canonical_name)
+
+    lookup: dict[tuple[str, str, str, int, int], MatchElo] = {}
+    fallback_lookup: dict[tuple[str, str, int, int], MatchElo] = {}
+    for index, (page_slug, teams_on_page) in enumerate(sorted(teams_by_page.items()), start=1):
+        text = request_text(f"{ELO_BASE_URL}/{page_slug}.tsv")
+        for line in text.splitlines():
+            if not line.strip():
+                continue
+            fields = line.split("\t")
+            if len(fields) < 16:
+                continue
+            match_date = f"{fields[0]}-{fields[1]}-{fields[2]}"
+            try:
+                parse_iso_date(match_date)
+            except ValueError:
+                continue
+            code1 = fields[3]
+            code2 = fields[4]
+            if code1 not in names_by_code or code2 not in names_by_code:
+                continue
+            team1 = canonicalize_name(names_by_code[code1][0], parse_iso_date(match_date), alias_map, dated_former_aliases)
+            team2 = canonicalize_name(names_by_code[code2][0], parse_iso_date(match_date), alias_map, dated_former_aliases)
+            score1 = int(fields[5])
+            score2 = int(fields[6])
+            delta1 = decode_elo_delta(fields[9])
+            post1 = int(fields[10])
+            post2 = int(fields[11])
+            pre1 = post1 - delta1
+            pre2 = post2 + delta1
+
+            if team1 in teams_on_page:
+                team1_match = MatchElo(
+                    team=team1,
+                    opponent=team2,
+                    team_score=score1,
+                    opponent_score=score2,
+                    team_elo_start=pre1,
+                    opponent_elo_start=pre2,
+                    team_elo_end=post1,
+                    opponent_elo_end=post2,
+                    team_elo_delta=delta1,
+                )
+                lookup[(team1, match_date, team2, score1, score2)] = team1_match
+                fallback_lookup[(team1, match_date, score1, score2)] = team1_match
+            if team2 in teams_on_page:
+                team2_match = MatchElo(
+                    team=team2,
+                    opponent=team1,
+                    team_score=score2,
+                    opponent_score=score1,
+                    team_elo_start=pre2,
+                    opponent_elo_start=pre1,
+                    team_elo_end=post2,
+                    opponent_elo_end=post1,
+                    team_elo_delta=-delta1,
+                )
+                lookup[(team2, match_date, team1, score2, score1)] = team2_match
+                fallback_lookup[(team2, match_date, score2, score1)] = team2_match
+        if index % 10 == 0:
+            print(f"Fetched Elo team pages: {index}/{len(teams_by_page)}")
+        time.sleep(0.05)
+    return lookup, fallback_lookup
 
 
 def build_groups_rows(qualified_teams: dict[str, QualifiedTeam]) -> list[dict[str, object]]:
@@ -634,6 +790,8 @@ def build_lead_in_rows(
     results_rows: list[dict[str, str]],
     goalscorer_aggregates: dict[tuple[str, str, str], dict[str, int]],
     shootout_aggregates: dict[tuple[str, str, str], dict[str, str]],
+    match_elo_lookup: dict[tuple[str, str, str, int, int], MatchElo],
+    match_elo_fallback_lookup: dict[tuple[str, str, int, int], MatchElo],
     qualified_teams: dict[str, QualifiedTeam],
     alias_map: dict[str, str],
     dated_former_aliases: list[tuple[str, date, date, str]],
@@ -665,6 +823,13 @@ def build_lead_in_rows(
         for perspective, source_team_name, canonical_team_name, source_opponent_name, canonical_opponent_name, team_score, opponent_score in perspectives:
             if canonical_team_name not in qualified_names:
                 continue
+            elo_match = match_elo_lookup.get(
+                (canonical_team_name, result["date"], canonical_opponent_name, team_score, opponent_score)
+            )
+            if elo_match is None:
+                elo_match = match_elo_fallback_lookup.get(
+                    (canonical_team_name, result["date"], team_score, opponent_score)
+                )
             if team_score > opponent_score:
                 result_label = "win"
             elif team_score < opponent_score:
@@ -692,6 +857,9 @@ def build_lead_in_rows(
                     "team_score": team_score,
                     "opponent_score": opponent_score,
                     "goal_difference": team_score - opponent_score,
+                    "team_elo_start": elo_match.team_elo_start if elo_match else "",
+                    "opponent_elo_start": elo_match.opponent_elo_start if elo_match else "",
+                    "team_elo_delta": elo_match.team_elo_delta if elo_match else "",
                     "result": result_label,
                     "tournament": result["tournament"],
                     "city": result["city"],
@@ -823,6 +991,15 @@ def validate_outputs(
         raise ValueError("Expected Elo ratings for all 48 teams")
     if any(int(row["days_before_tournament"]) < 1 for row in lead_in_rows):
         raise ValueError("Lead-in rows must all predate tournament kickoff")
+    rated_counts = Counter(
+        row["qualified_team_id"]
+        for row in lead_in_rows
+        if row["team_elo_start"] != "" and row["opponent_elo_start"] != "" and row["team_elo_delta"] != ""
+    )
+    if any(rated_counts.get(str(row["team_id"]), 0) < REQUIRED_RATED_LEAD_IN_MATCHES for row in teams_rows):
+        raise ValueError(
+            f"Each qualified team must have at least {REQUIRED_RATED_LEAD_IN_MATCHES} lead-in matches with Elo fields"
+        )
     if any(count != 4 for count in Counter(row["group_code"] for row in groups_rows).values()):
         raise ValueError("Each group must contain exactly four teams")
 
@@ -859,6 +1036,12 @@ def main() -> None:
 
     fifa_rankings = fetch_fifa_rankings(args.fifa_ranking_schedule_id)
     elo_rankings = fetch_elo_rankings(build_date)
+    lead_in_match_elo_lookup, lead_in_match_elo_fallback_lookup = build_lead_in_match_elo_lookup(
+        qualified_teams,
+        elo_rankings,
+        alias_map,
+        dated_former_aliases,
+    )
     source_as_of = build_date.isoformat()
 
     teams_rows = build_teams_rows(qualified_teams, fifa_rankings, appearances, source_as_of)
@@ -872,6 +1055,8 @@ def main() -> None:
         results_rows,
         aggregate_goalscorers(goalscorers_rows),
         aggregate_shootouts(shootouts_rows),
+        lead_in_match_elo_lookup,
+        lead_in_match_elo_fallback_lookup,
         qualified_teams,
         alias_map,
         dated_former_aliases,
@@ -923,7 +1108,7 @@ def main() -> None:
         ),
         "team_results_lead_in.csv": (
             lead_in_rows,
-            ["lead_in_id", "match_key", "date", "qualified_team_id", "qualified_team_name", "source_team_name", "opponent_team_id", "opponent_name", "source_opponent_name", "perspective", "is_home_perspective", "home_team", "away_team", "home_team_canonical", "away_team_canonical", "team_score", "opponent_score", "goal_difference", "result", "tournament", "city", "country", "neutral", "days_before_tournament", "goalscorer_events_for_team", "goalscorer_events_for_opponent", "penalty_goal_events_for_team", "penalty_goal_events_for_opponent", "own_goal_events_for_team", "own_goal_events_for_opponent", "decided_by_shootout", "shootout_winner", "shootout_first_shooter"],
+            ["lead_in_id", "match_key", "date", "qualified_team_id", "qualified_team_name", "source_team_name", "opponent_team_id", "opponent_name", "source_opponent_name", "perspective", "is_home_perspective", "home_team", "away_team", "home_team_canonical", "away_team_canonical", "team_score", "opponent_score", "goal_difference", "team_elo_start", "opponent_elo_start", "team_elo_delta", "result", "tournament", "city", "country", "neutral", "days_before_tournament", "goalscorer_events_for_team", "goalscorer_events_for_opponent", "penalty_goal_events_for_team", "penalty_goal_events_for_opponent", "own_goal_events_for_team", "own_goal_events_for_opponent", "decided_by_shootout", "shootout_winner", "shootout_first_shooter"],
         ),
     }
     write_outputs(output_dir, datasets)
