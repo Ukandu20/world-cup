@@ -18,6 +18,9 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from world_cup_simulation import (
+    MODEL_LABEL,
+    MODEL_SUMMARY,
+    MODEL_VERSION,
     build_deterministic_bracket,
     get_modal_group_rankings,
     simulate_group_probabilities,
@@ -1582,6 +1585,7 @@ def main() -> None:
               <div class="wc-kicker">Pre-Tournament Predictions</div>
               <h1 style="margin:0;">World Cup 2026 Group Dashboard</h1>
               <div class="wc-meta">
+                Model: {html.escape(MODEL_VERSION)} ({html.escape(MODEL_LABEL)}) |
                 Build date: {html.escape(str(metadata["build_date"]))} |
                 FIFA snapshot: {html.escape(str(metadata["fifa_snapshot_date"]))} |
                 Elo snapshot: {html.escape(str(metadata["elo_snapshot_date"]))} |
@@ -1596,6 +1600,7 @@ def main() -> None:
     render_countdown_timer(fixtures_df)
 
     st.caption(
+        f"Model {MODEL_VERSION}: {MODEL_SUMMARY}. "
         "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "
         "an Elo-only baseline (100% / 0%), "
         f"recent form from the last {DEFAULT_RECENT_MATCH_WINDOW} matches, "

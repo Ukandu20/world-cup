@@ -11,6 +11,9 @@ import pandas as pd
 
 
 DEFAULT_GROUP_ORDER = tuple("ABCDEFGHIJKL")
+MODEL_VERSION = "v1"
+MODEL_LABEL = "Team-strength Monte Carlo"
+MODEL_SUMMARY = "Elo + recent form -> expected goals -> Poisson simulation"
 RECENT_MATCH_WINDOW = 10
 RESULT_POINTS = {"win": 3, "draw": 1, "loss": 0}
 BASELINE_RATING_WEIGHTS = (1.0, 0.0)
