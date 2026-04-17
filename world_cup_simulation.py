@@ -19,7 +19,7 @@ RESULT_POINTS = {"win": 3, "draw": 1, "loss": 0}
 BASELINE_RATING_WEIGHTS = (1.0, 0.0)
 FORM_COMPONENT_WEIGHTS = (0.7, 0.3)
 STRENGTH_BLEND_WEIGHTS = (0.5, 0.5)
-WEIGHTED_FORM_COMPOSITE_WEIGHTS = (0.50, 0.10, 0.20, 0.05)
+WEIGHTED_FORM_COMPOSITE_WEIGHTS = (0.4, 0.25, 0.25, 0.10)
 WEIGHTED_FORM_GOAL_DIFFERENCE_CAP = 4
 EXPECTED_GOALS_BASE = 1.20
 EXPECTED_GOALS_SCALE = 0.40
@@ -265,10 +265,17 @@ def build_weighted_form_table(
     base_df: pd.DataFrame,
     lead_in_df: pd.DataFrame,
     match_window: int = RECENT_MATCH_WINDOW,
+    composite_weights: tuple[float, float, float, float] = WEIGHTED_FORM_COMPOSITE_WEIGHTS,
 ) -> pd.DataFrame:
     """Build an all-teams weighted recent-form table from the last k Elo-rated lead-in matches."""
     if match_window <= 0:
         raise ValueError("match_window must be positive")
+    composite_weight_total = float(sum(composite_weights))
+    if composite_weight_total <= 0:
+        raise ValueError("composite_weights must contain at least one positive value")
+    results_weight, gd_weight, perf_weight, elo_delta_weight = tuple(
+        float(weight) / composite_weight_total for weight in composite_weights
+    )
 
     required_columns = {
         "lead_in_id",
@@ -384,7 +391,6 @@ def build_weighted_form_table(
     for column_name in integer_columns:
         form_df[column_name] = form_df[column_name].astype(int)
 
-    results_weight, gd_weight, perf_weight, elo_delta_weight = WEIGHTED_FORM_COMPOSITE_WEIGHTS
     form_df["form"] = (
         results_weight * zscore(form_df["results_form"])
         + gd_weight * zscore(form_df["gd_form"])
@@ -401,7 +407,7 @@ def build_weighted_form_table(
     form_df["expected_score"] = form_df["expected_score"].round(3)
     form_df["perf_vs_exp"] = form_df["perf_vs_exp"].round(3)
     form_df["elo_delta_form"] = form_df["elo_delta_form"].round(3)
-    form_df["form"] = form_df["form"].round(3)
+    form_df["form"] = form_df["form"].round(4)
 
     return form_df.sort_values(
         ["form", "elo_rating", "world_rank"],

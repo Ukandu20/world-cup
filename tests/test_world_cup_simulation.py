@@ -95,6 +95,10 @@ def test_default_simulation_settings_include_form_window():
     assert defaults == {
         "simulation_label": "100k",
         "form_match_window": 10,
+        "v2_results_weight": 40,
+        "v2_gd_weight": 25,
+        "v2_perf_weight": 25,
+        "v2_elo_delta_weight": 10,
     }
 
 
@@ -206,6 +210,34 @@ def test_build_weighted_form_table_caps_goal_difference_and_uses_scoreline_when_
     assert form_df.loc["BBB", "losses"] == 1
     assert form_df.loc["BBB", "gd_form"] == -4.0
     assert form_df.loc["BBB", "elo_delta_form"] == -11.0
+
+
+def test_build_weighted_form_table_accepts_custom_composite_weights():
+    base_df = pd.DataFrame(
+        [
+            {"team_id": "AAA", "display_name": "Alpha", "flag_icon_code": "", "group_code": "A", "confederation": "UEFA", "elo_rating": 1800, "world_rank": 8},
+            {"team_id": "BBB", "display_name": "Beta", "flag_icon_code": "", "group_code": "B", "confederation": "CAF", "elo_rating": 1700, "world_rank": 12},
+        ]
+    )
+    lead_in_df = pd.DataFrame(
+        [
+            {"lead_in_id": "a1", "qualified_team_id": "AAA", "date": "2026-01-01", "team_score": 1, "opponent_score": 0, "result": "win", "team_elo_start": 1700, "opponent_elo_start": 1650, "team_elo_delta": 2},
+            {"lead_in_id": "a2", "qualified_team_id": "AAA", "date": "2026-01-02", "team_score": 1, "opponent_score": 1, "result": "draw", "team_elo_start": 1710, "opponent_elo_start": 1670, "team_elo_delta": 1},
+            {"lead_in_id": "b1", "qualified_team_id": "BBB", "date": "2026-01-01", "team_score": 0, "opponent_score": 1, "result": "loss", "team_elo_start": 1600, "opponent_elo_start": 1750, "team_elo_delta": 10},
+            {"lead_in_id": "b2", "qualified_team_id": "BBB", "date": "2026-01-02", "team_score": 0, "opponent_score": 0, "result": "draw", "team_elo_start": 1610, "opponent_elo_start": 1760, "team_elo_delta": 9},
+        ]
+    )
+
+    default_form_df = build_weighted_form_table(base_df, lead_in_df, match_window=2).set_index("team_id")
+    elo_heavy_form_df = build_weighted_form_table(
+        base_df,
+        lead_in_df,
+        match_window=2,
+        composite_weights=(0, 0, 0, 100),
+    ).set_index("team_id")
+
+    assert default_form_df.loc["AAA", "form"] > default_form_df.loc["BBB", "form"]
+    assert elo_heavy_form_df.loc["BBB", "form"] > elo_heavy_form_df.loc["AAA", "form"]
 
 
 def test_build_team_strengths_respects_custom_weight_pairs():
@@ -606,6 +638,64 @@ def test_build_form_table_html_includes_confederation_column():
     assert "Perf vs Exp" in html
     assert "Elo Delta Form" in html
     assert "Sched Diff" in html
+    assert "#97C459" in html
+    assert "#F1EFE8" in html
+    assert ">42.7</td>" in html
+
+
+def test_build_form_table_html_reverses_schedule_difficulty_colors():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {
+                "team_id": "AAA",
+                "display_name": "Alpha",
+                "flag_icon_code": "aa",
+                "confederation": "UEFA",
+                "wins": 5,
+                "draws": 1,
+                "losses": 0,
+                "goals_for": 12,
+                "goals_against": 3,
+                "elo_rating": 1900,
+                "avg_opp_elo": 1800.0,
+                "avg_elo_gap": -20.0,
+                "schedule_difficulty": 1.0,
+                "results_form": 0.9,
+                "gd_form": 1.5,
+                "expected_score": 0.7,
+                "perf_vs_exp": 0.2,
+                "elo_delta_form": 8.0,
+                "form": 1.1,
+            },
+            {
+                "team_id": "BBB",
+                "display_name": "Beta",
+                "flag_icon_code": "bb",
+                "confederation": "CAF",
+                "wins": 1,
+                "draws": 1,
+                "losses": 4,
+                "goals_for": 4,
+                "goals_against": 11,
+                "elo_rating": 1700,
+                "avg_opp_elo": 1900.0,
+                "avg_elo_gap": 40.0,
+                "schedule_difficulty": 5.0,
+                "results_form": 0.2,
+                "gd_form": -1.7,
+                "expected_score": 0.3,
+                "perf_vs_exp": -0.4,
+                "elo_delta_form": -6.0,
+                "form": -1.0,
+            },
+        ]
+    )
+
+    html = home.build_table_html(sample_df, "Form", table_kind="form")
+
+    assert "background-color: #97C459;\">1.0</td>" in html
+    assert "background-color: #F09595;\">5.0</td>" in html
 
 
 def test_build_form_view_tables_adds_confederation_tables():

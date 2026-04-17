@@ -27,8 +27,10 @@ MODEL_SUMMARY = simulation.MODEL_SUMMARY
 MODEL_VERSION = simulation.MODEL_VERSION
 build_deterministic_bracket = simulation.build_deterministic_bracket
 build_weighted_form_table = simulation.build_weighted_form_table
+FORM_SCHEDULE_DIFFICULTY_NEUTRAL = simulation.FORM_SCHEDULE_DIFFICULTY_NEUTRAL
 get_modal_group_rankings = simulation.get_modal_group_rankings
 simulate_group_probabilities = simulation.simulate_group_probabilities
+WEIGHTED_FORM_COMPOSITE_WEIGHTS = simulation.WEIGHTED_FORM_COMPOSITE_WEIGHTS
 
 DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
 EXPORT_DIR = ROOT / "assets" / "charts" / "generated"
@@ -72,6 +74,14 @@ PROBABILITY_PALETTES = {
     "final_prob": ((255, 237, 213), (234, 88, 12)),
     "champion_prob": ((254, 240, 138), (202, 138, 4)),
 }
+FORM_DIVERGING_PALETTE = {
+    "strong_negative": "#F09595",
+    "mild_negative": "#F7C1C1",
+    "neutral": "#F1EFE8",
+    "mild_positive": "#C0DD97",
+    "strong_positive": "#97C459",
+}
+FORM_SEQUENTIAL_PALETTE = ("#F1EFE8", "#EAF3DE", "#C0DD97", "#97C459", "#639922")
 ALL_COUNTRIES_KNOCKOUT_COLUMNS = (
     ("top8_third_prob", "Top 8 3rd %"),
     ("ko_prob", "KO %"),
@@ -236,6 +246,10 @@ def default_simulation_settings() -> dict[str, str | int]:
     return {
         "simulation_label": DEFAULT_SIMULATION_LABEL,
         "form_match_window": DEFAULT_RECENT_MATCH_WINDOW,
+        "v2_results_weight": int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[0] * 100)),
+        "v2_gd_weight": int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[1] * 100)),
+        "v2_perf_weight": int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[2] * 100)),
+        "v2_elo_delta_weight": int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[3] * 100)),
     }
 
 
@@ -863,6 +877,51 @@ def probability_cell_style(column_name: str, value: float, column_min: float, co
     return f"background-color: rgb({red}, {green}, {blue});"
 
 
+def sequential_form_cell_style(value: float, column_min: float, column_max: float) -> str:
+    """Build a five-tier low-to-high style for form columns without a neutral anchor."""
+    if pd.isna(value):
+        return ""
+    if pd.isna(column_min) or pd.isna(column_max) or column_max <= column_min:
+        color = FORM_SEQUENTIAL_PALETTE[0]
+    else:
+        normalized = max(0.0, min(1.0, (float(value) - column_min) / (column_max - column_min)))
+        palette_index = min(4, int(normalized * len(FORM_SEQUENTIAL_PALETTE)))
+        color = FORM_SEQUENTIAL_PALETTE[palette_index]
+    return f"background-color: {color};"
+
+
+def diverging_form_cell_style(
+    value: float,
+    anchor: float,
+    negative_span: float,
+    positive_span: float,
+    reverse: bool = False,
+) -> str:
+    """Build a five-tier diverging style centered on a meaningful anchor."""
+    if pd.isna(value):
+        return ""
+    difference = float(value) - float(anchor)
+    negative_mild = FORM_DIVERGING_PALETTE["mild_positive"] if reverse else FORM_DIVERGING_PALETTE["mild_negative"]
+    negative_strong = FORM_DIVERGING_PALETTE["strong_positive"] if reverse else FORM_DIVERGING_PALETTE["strong_negative"]
+    positive_mild = FORM_DIVERGING_PALETTE["mild_negative"] if reverse else FORM_DIVERGING_PALETTE["mild_positive"]
+    positive_strong = FORM_DIVERGING_PALETTE["strong_negative"] if reverse else FORM_DIVERGING_PALETTE["strong_positive"]
+    if abs(difference) < 1e-12:
+        color = FORM_DIVERGING_PALETTE["neutral"]
+    elif difference < 0:
+        if negative_span <= 0:
+            color = FORM_DIVERGING_PALETTE["neutral"]
+        else:
+            normalized = min(1.0, abs(difference) / negative_span)
+            color = negative_strong if normalized >= 0.5 else negative_mild
+    else:
+        if positive_span <= 0:
+            color = FORM_DIVERGING_PALETTE["neutral"]
+        else:
+            normalized = min(1.0, difference / positive_span)
+            color = positive_strong if normalized >= 0.5 else positive_mild
+    return f"background-color: {color};"
+
+
 def current_holder_cell_class(team_id: str) -> str:
     """Return the cell class for the current World Cup holder."""
     return " wc-holder-cell" if team_id == CURRENT_HOLDER_TEAM_ID else ""
@@ -1043,6 +1102,36 @@ def build_form_table_html(
     group_pill_label: str | None = None,
 ) -> str:
     """Render the recent-form table as a styled HTML card."""
+    sequential_columns = ("results_form", "expected_score")
+    sequential_ranges = {
+        column_name: (
+            float(numeric_values.min()) if not numeric_values.empty else float("nan"),
+            float(numeric_values.max()) if not numeric_values.empty else float("nan"),
+        )
+        for column_name in sequential_columns
+        for numeric_values in [pd.to_numeric(df[column_name], errors="coerce").dropna()]
+    }
+    gd_form_values = pd.to_numeric(df["gd_form"], errors="coerce").dropna()
+    perf_vs_exp_values = pd.to_numeric(df["perf_vs_exp"], errors="coerce").dropna()
+    sched_diff_values = pd.to_numeric(df["schedule_difficulty"], errors="coerce").dropna()
+    form_values = pd.to_numeric(df["form"], errors="coerce").dropna()
+    gd_form_negative_span = float(abs(gd_form_values.min())) if not gd_form_values.empty and gd_form_values.min() < 0 else 0.0
+    gd_form_positive_span = float(gd_form_values.max()) if not gd_form_values.empty and gd_form_values.max() > 0 else 0.0
+    perf_negative_span = float(abs(perf_vs_exp_values.min())) if not perf_vs_exp_values.empty and perf_vs_exp_values.min() < 0 else 0.0
+    perf_positive_span = float(perf_vs_exp_values.max()) if not perf_vs_exp_values.empty and perf_vs_exp_values.max() > 0 else 0.0
+    sched_easy_span = (
+        float(FORM_SCHEDULE_DIFFICULTY_NEUTRAL - sched_diff_values.min())
+        if not sched_diff_values.empty and sched_diff_values.min() < FORM_SCHEDULE_DIFFICULTY_NEUTRAL
+        else 0.0
+    )
+    sched_hard_span = (
+        float(sched_diff_values.max() - FORM_SCHEDULE_DIFFICULTY_NEUTRAL)
+        if not sched_diff_values.empty and sched_diff_values.max() > FORM_SCHEDULE_DIFFICULTY_NEUTRAL
+        else 0.0
+    )
+    form_negative_span = float(abs(form_values.min())) if not form_values.empty and form_values.min() < 0 else 0.0
+    form_positive_span = float(form_values.max()) if not form_values.empty and form_values.max() > 0 else 0.0
+
     headers = [
         '<th class="wc-num">Rank</th>',
         "<th>Country</th>",
@@ -1082,13 +1171,13 @@ def build_form_table_html(
             f'<td class="wc-num">{int(round(float(row.elo_rating)))}</td>',
             f'<td class="wc-num">{format_decimal(row.avg_opp_elo)}</td>',
             f'<td class="wc-num">{format_decimal(row.avg_elo_gap)}</td>',
-            f'<td class="wc-num">{format_decimal(row.schedule_difficulty)}</td>',
-            f'<td class="wc-num">{format_decimal(row.results_form, decimals=3)}</td>',
-            f'<td class="wc-num">{format_decimal(row.gd_form, decimals=3)}</td>',
-            f'<td class="wc-num">{format_decimal(row.expected_score, decimals=3)}</td>',
-            f'<td class="wc-num">{format_decimal(row.perf_vs_exp, decimals=3)}</td>',
+            f'<td class="wc-num" style="{diverging_form_cell_style(row.schedule_difficulty, FORM_SCHEDULE_DIFFICULTY_NEUTRAL, sched_easy_span, sched_hard_span, reverse=True)}">{format_decimal(row.schedule_difficulty)}</td>',
+            f'<td class="wc-num" style="{sequential_form_cell_style(row.results_form, *sequential_ranges["results_form"])}">{format_decimal(row.results_form, decimals=3)}</td>',
+            f'<td class="wc-num" style="{diverging_form_cell_style(row.gd_form, 0.0, gd_form_negative_span, gd_form_positive_span)}">{format_decimal(row.gd_form, decimals=3)}</td>',
+            f'<td class="wc-num" style="{sequential_form_cell_style(row.expected_score, *sequential_ranges["expected_score"])}">{format_decimal(row.expected_score, decimals=3)}</td>',
+            f'<td class="wc-num" style="{diverging_form_cell_style(row.perf_vs_exp, 0.0, perf_negative_span, perf_positive_span)}">{format_decimal(row.perf_vs_exp, decimals=3)}</td>',
             f'<td class="wc-num">{format_decimal(row.elo_delta_form, decimals=3)}</td>',
-            f'<td class="wc-num">{format_decimal(row.form)}</td>',
+            f'<td class="wc-num" style="{diverging_form_cell_style(row.form, 0.0, form_negative_span, form_positive_span)}">{format_decimal(row.form)}</td>',
         ]
         body_rows.append(f"<tr>{''.join(cells)}</tr>")
 
@@ -1265,7 +1354,8 @@ def current_form_view_tables(
     form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
 ) -> list[dict[str, object]]:
     """Describe the tables needed for the active V2 form view."""
-    subtitle = f"Weighted Recent Form | Last {form_match_window} lead-in matches with Elo"
+    subtitle = f"Weighted Recent Form | Last {form_match_window} lead-in | data: eloratings.net | @cartierkut1"
+    caption = f" data: eloratings.net | @cartierkut1"
     if view_mode == "All Countries":
         return [
             {
@@ -2046,10 +2136,61 @@ def render_v2_dashboard() -> None:
             key="v2_form_match_window",
         )
     )
+    weight_cols = st.columns(4)
+    with weight_cols[0]:
+        results_weight = int(
+            st.slider(
+                "Results weight",
+                min_value=0,
+                max_value=100,
+                value=int(current_settings.get("v2_results_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[0] * 100)))),
+                key="v2_results_weight",
+            )
+        )
+    with weight_cols[1]:
+        gd_weight = int(
+            st.slider(
+                "GD weight",
+                min_value=0,
+                max_value=100,
+                value=int(current_settings.get("v2_gd_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[1] * 100)))),
+                key="v2_gd_weight",
+            )
+        )
+    with weight_cols[2]:
+        perf_weight = int(
+            st.slider(
+                "PoE weight",
+                min_value=0,
+                max_value=100,
+                value=int(current_settings.get("v2_perf_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[2] * 100)))),
+                key="v2_perf_weight",
+            )
+        )
+    with weight_cols[3]:
+        elo_delta_weight = int(
+            st.slider(
+                "Elo-delta weight",
+                min_value=0,
+                max_value=100,
+                value=int(current_settings.get("v2_elo_delta_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[3] * 100)))),
+                key="v2_elo_delta_weight",
+            )
+        )
+    form_composite_weights = (
+        results_weight,
+        gd_weight,
+        perf_weight,
+        elo_delta_weight,
+    )
     view_mode = st.radio("View", V2_VIEW_OPTIONS, horizontal=True, key="v2_view_mode")
     st.session_state[V2_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
+        "v2_results_weight": results_weight,
+        "v2_gd_weight": gd_weight,
+        "v2_perf_weight": perf_weight,
+        "v2_elo_delta_weight": elo_delta_weight,
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
@@ -2058,11 +2199,16 @@ def render_v2_dashboard() -> None:
     st.caption(
         f"V2 isolates the weighted form model from V1. This page ranks all 48 teams over the last {form_match_window} "
         "Elo-rated lead-in matches using a composite of results form, capped goal-difference form, performance versus Elo expectation, "
-        "and weighted Elo delta. "
+        f"and weighted Elo delta. Current blend: Results {results_weight}, GD {gd_weight}, PoE {perf_weight}, Elo Delta {elo_delta_weight}. "
         "Use the V2 view selector the same way V1 separates single-group and all-group views."
     )
     with st.spinner(f"Computing weighted form for the last {form_match_window} matches..."):
-        form_df = build_weighted_form_table(base_df, lead_in_df, match_window=form_match_window)
+        form_df = build_weighted_form_table(
+            base_df,
+            lead_in_df,
+            match_window=form_match_window,
+            composite_weights=form_composite_weights,
+        )
     available_confederations = ordered_confederations(form_df)
     selected_confederation = (
         st.selectbox(
