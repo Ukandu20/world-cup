@@ -14,23 +14,46 @@ if str(ROOT) not in sys.path:
 
 from world_cup_simulation import (  # noqa: E402
     THIRD_PLACE_ROUTING_MAP,
+    WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT,
     build_deterministic_bracket,
+    build_deterministic_bracket_v2,
+    build_v2_match_feature_table,
+    build_v2_team_strengths,
+    build_v2_training_frame,
     build_weighted_form_table,
     build_team_strengths,
     build_recent_form_metrics,
     compute_elo_expected_score,
     extract_group_stage_fixtures,
+    fit_v2_match_multinomial_model,
     get_modal_group_rankings,
     normalize_weight_pair,
+    predict_match_probabilities_v2,
     predict_knockout_matchup,
+    predict_knockout_matchup_v2,
     rank_best_third_place_teams,
     rank_group_standings,
     simulate_group_probabilities,
+    simulate_group_probabilities_v2,
+)
+from scripts.build_world_cup_2026_dataset import (  # noqa: E402
+    QualifiedTeam,
+    build_alias_maps,
+    compute_world_cup_history_features,
+    compute_world_cup_placement_score,
 )
 
 
 def load_home_module():
     spec = importlib.util.spec_from_file_location("world_cup_home", ROOT / "apps" / "home.py")
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    return module
+
+
+def load_page_module(page_name: str):
+    spec = importlib.util.spec_from_file_location(page_name, ROOT / "apps" / "pages" / page_name)
     module = importlib.util.module_from_spec(spec)
     assert spec.loader is not None
     spec.loader.exec_module(module)
@@ -87,6 +110,53 @@ def test_normalize_weight_pair_scales_to_one():
     assert normalized == (0.65, 0.35)
 
 
+def test_compute_world_cup_placement_score_respects_dnq_bounds_and_shape():
+    assert compute_world_cup_placement_score(rank=None, n_teams=32, qualified=False) == 0.0
+    assert compute_world_cup_placement_score(rank=1, n_teams=32, qualified=True) == 1.0
+    assert compute_world_cup_placement_score(rank=32, n_teams=32, qualified=True) == 0.05
+    assert compute_world_cup_placement_score(rank=2, n_teams=32, qualified=True) > compute_world_cup_placement_score(rank=4, n_teams=32, qualified=True)
+    assert compute_world_cup_placement_score(rank=2, n_teams=48, qualified=True) > compute_world_cup_placement_score(rank=2, n_teams=16, qualified=True)
+
+
+def test_compute_world_cup_history_features_maps_west_germany_and_uses_unique_editions():
+    qualified_teams = {
+        "GER": QualifiedTeam(team_id="GER", fifa_code="GER", tournament_name="Germany", canonical_name="Germany", group_code="A"),
+        "USA": QualifiedTeam(team_id="USA", fifa_code="USA", tournament_name="United States", canonical_name="United States", group_code="B"),
+    }
+    alias_map, dated_former_aliases = build_alias_maps(qualified_teams, [])
+
+    history_features = compute_world_cup_history_features(qualified_teams, alias_map, dated_former_aliases)
+
+    placement_df = pd.read_csv(ROOT / "INT-World Cup" / "world_cup" / "all_editions" / "placement.csv")
+    history_df = pd.read_csv(ROOT / "INT-World Cup" / "world_cup" / "fifa_world_cup_history.csv")
+    editions = sorted(history_df["Year"].astype(int).tolist())
+    edition_weight_map = {edition: (index + 1) ** 2 for index, edition in enumerate(editions)}
+    total_edition_weight = float(sum(edition_weight_map.values()))
+
+    germany_rows = placement_df[placement_df["country"].isin(["Germany", "West Germany"])]
+    germany_positions = {
+        int(row.edition): int(row.position)
+        for row in germany_rows.drop_duplicates(subset=["edition"], keep="first").itertuples(index=False)
+    }
+    expected_weighted_participations = float(sum(edition_weight_map[edition] for edition in germany_positions))
+    expected_weighted_placement = sum(
+        edition_weight_map[edition] * compute_world_cup_placement_score(
+            rank=germany_positions.get(edition),
+            n_teams=max(
+                int(history_df.loc[history_df["Year"] == edition, "Teams"].iloc[0]),
+                germany_positions.get(edition, 0),
+            ),
+            qualified=edition in germany_positions,
+        )
+        for edition in editions
+    ) / total_edition_weight
+
+    assert history_features["Germany"]["world_cup_participations"] == len(germany_positions) + 1
+    assert history_features["Germany"]["weighted_world_cup_participations"] == expected_weighted_participations
+    assert abs(history_features["Germany"]["weighted_world_cup_placement_score"] - expected_weighted_placement) < 1e-12
+    assert history_features["United States"]["world_cup_participations"] >= 1
+
+
 def test_default_simulation_settings_include_form_window():
     home = load_home_module()
 
@@ -100,6 +170,15 @@ def test_default_simulation_settings_include_form_window():
         "v2_perf_weight": 25,
         "v2_elo_delta_weight": 10,
     }
+
+
+def test_load_data_preserves_weighted_world_cup_history_columns():
+    home = load_home_module()
+
+    base_df, _, _, _ = home.load_data()
+
+    assert "weighted_world_cup_participations" in base_df.columns
+    assert "weighted_world_cup_placement_score" in base_df.columns
 
 
 def test_build_weighted_form_table_uses_linear_recency_weights_and_confederation():
@@ -161,8 +240,19 @@ def test_build_weighted_form_table_uses_linear_recency_weights_and_confederation
     assert abs(form_df.loc["AAA", "perf_vs_exp"] - round(float(aaa_expected_perf), 3)) < 1e-9
     assert form_df.loc["AAA", "elo_delta_form"] == 8.0
     assert form_df.loc["AAA", "difficulty"] == 133.333
-    assert form_df.loc["AAA", "form"] == 1.0
-    assert form_df.loc["BBB", "form"] == -1.0
+    assert form_df.loc["AAA", "results_form_z"] == 1.0
+    assert form_df.loc["AAA", "gd_form_z"] == 1.0
+    assert form_df.loc["AAA", "perf_vs_exp_z"] == 1.0
+    assert form_df.loc["AAA", "elo_delta_form_z"] == 1.0
+    assert form_df.loc["AAA", "results_score"] == 0.8333
+    assert form_df.loc["AAA", "gd_score"] == 0.6667
+    assert form_df.loc["AAA", "perf_score"] == 1.0
+    assert form_df.loc["AAA", "elo_score"] == 0.7667
+    assert form_df.loc["AAA", "form_index_0to1"] == 0.8267
+    assert form_df.loc["AAA", "form"] == 8.44
+    assert form_df.loc["BBB", "perf_score"] == 0.0952
+    assert form_df.loc["BBB", "form_index_0to1"] == 0.2138
+    assert form_df.loc["BBB", "form"] == 2.9242
     assert form_df.loc["AAA", "schedule_difficulty"] == 5.0
     assert form_df.loc["BBB", "schedule_difficulty"] == 1.0
     assert abs(form_df.loc["BBB", "perf_vs_exp"] - round(float(bbb_expected_perf), 3)) < 1e-9
@@ -207,9 +297,14 @@ def test_build_weighted_form_table_caps_goal_difference_and_uses_scoreline_when_
     assert form_df.loc["AAA", "wins"] == 1
     assert form_df.loc["AAA", "gd_form"] == 4.0
     assert form_df.loc["AAA", "elo_delta_form"] == 12.0
+    assert form_df.loc["AAA", "gd_score"] == 1.0
+    assert form_df.loc["AAA", "elo_score"] == 0.9
     assert form_df.loc["BBB", "losses"] == 1
     assert form_df.loc["BBB", "gd_form"] == -4.0
     assert form_df.loc["BBB", "elo_delta_form"] == -11.0
+    assert form_df.loc["BBB", "gd_score"] == 0.0
+    assert form_df.loc["BBB", "elo_score"] == 0.1333
+    assert form_df["form"].between(1.0, 10.0).all()
 
 
 def test_build_weighted_form_table_accepts_custom_composite_weights():
@@ -238,6 +333,69 @@ def test_build_weighted_form_table_accepts_custom_composite_weights():
 
     assert default_form_df.loc["AAA", "form"] > default_form_df.loc["BBB", "form"]
     assert elo_heavy_form_df.loc["BBB", "form"] > elo_heavy_form_df.loc["AAA", "form"]
+
+
+def test_build_v2_team_strengths_blends_rating_form_and_history():
+    base_df = pd.DataFrame(
+        [
+            {
+                "team_id": "AAA",
+                "display_name": "Alpha",
+                "flag_icon_code": "aa",
+                "group_code": "A",
+                "confederation": "UEFA",
+                "elo_rating": 1900,
+                "world_rank": 5,
+                "fifa_points": 1800,
+                "world_cup_participations": 10,
+                "weighted_world_cup_participations": WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT / 2.0,
+                "weighted_world_cup_placement_score": 0.9,
+            },
+            {
+                "team_id": "BBB",
+                "display_name": "Beta",
+                "flag_icon_code": "bb",
+                "group_code": "B",
+                "confederation": "CAF",
+                "elo_rating": 1700,
+                "world_rank": 18,
+                "fifa_points": 1500,
+                "world_cup_participations": 2,
+                "weighted_world_cup_participations": 0.0,
+                "weighted_world_cup_placement_score": 0.1,
+            },
+        ]
+    )
+    lead_in_df = pd.DataFrame(
+        [
+            {"lead_in_id": "a1", "qualified_team_id": "AAA", "date": "2026-01-01", "team_score": 2, "opponent_score": 0, "result": "win", "team_elo_start": 1800, "opponent_elo_start": 1700, "team_elo_delta": 10},
+            {"lead_in_id": "b1", "qualified_team_id": "BBB", "date": "2026-01-01", "team_score": 0, "opponent_score": 1, "result": "loss", "team_elo_start": 1600, "opponent_elo_start": 1700, "team_elo_delta": -8},
+        ]
+    )
+
+    v2_df = build_v2_team_strengths(
+        base_df,
+        lead_in_df,
+        match_window=1,
+        form_composite_weights=(100, 0, 0, 0),
+    ).set_index("team_id")
+
+    aaa_history_score = 0.7 * 0.9 + 0.3 * 0.5
+    bbb_history_score = 0.7 * 0.1 + 0.3 * 0.0
+    aaa_expected_index = 0.4 * 1.0 + 0.4 * 1.0 + 0.2 * aaa_history_score
+    bbb_expected_index = 0.4 * 0.0 + 0.4 * 0.0 + 0.2 * bbb_history_score
+
+    assert v2_df.loc["AAA", "rating_index_0to1"] == 1.0
+    assert v2_df.loc["BBB", "rating_index_0to1"] == 0.0
+    assert v2_df.loc["AAA", "form_index_0to1"] == 1.0
+    assert v2_df.loc["BBB", "form_index_0to1"] == 0.0
+    assert v2_df.loc["AAA", "weighted_world_cup_participation_ratio"] == 0.5
+    assert v2_df.loc["AAA", "history_score"] == round(aaa_history_score, 4)
+    assert v2_df.loc["BBB", "history_score"] == round(bbb_history_score, 4)
+    assert v2_df.loc["AAA", "v2_strength_index_0to1"] == round(aaa_expected_index, 4)
+    assert v2_df.loc["BBB", "v2_strength_index_0to1"] == round(bbb_expected_index, 4)
+    assert v2_df.loc["AAA", "v2_strength"] == round(1.0 + 9.0 * aaa_expected_index, 4)
+    assert v2_df.loc["AAA", "v2_strength"] > v2_df.loc["BBB", "v2_strength"]
 
 
 def test_build_team_strengths_respects_custom_weight_pairs():
@@ -638,9 +796,75 @@ def test_build_form_table_html_includes_confederation_column():
     assert "Perf vs Exp" in html
     assert "Elo Delta Form" in html
     assert "Sched Diff" in html
-    assert "#97C459" in html
-    assert "#F1EFE8" in html
+    assert "#173404" in html
+    assert "#633806" in html
+    assert "background-color: #" in html
     assert ">42.7</td>" in html
+
+
+def test_build_form_table_html_includes_v2_history_columns_when_available():
+    home = load_home_module()
+    sample_df = pd.DataFrame(
+        [
+            {
+                "team_id": "ARG",
+                "display_name": "Argentina",
+                "flag_icon_code": "ar",
+                "confederation": "CONMEBOL",
+                "wins": 7,
+                "draws": 2,
+                "losses": 1,
+                "goals_for": 18,
+                "goals_against": 7,
+                "elo_rating": 2140,
+                "avg_opp_elo": 1888.4,
+                "avg_elo_gap": 42.7,
+                "schedule_difficulty": 4.3,
+                "results_form": 0.85,
+                "gd_form": 1.7,
+                "expected_score": 0.63,
+                "perf_vs_exp": 0.22,
+                "elo_delta_form": 7.4,
+                "form": 9.1,
+                "weighted_world_cup_participations": 2500.0,
+                "weighted_world_cup_placement_score": 0.8123,
+                "history_score": 0.7186,
+                "v2_strength": 8.8,
+            }
+        ]
+    )
+
+    html = home.build_table_html(sample_df, "V2", table_kind="form")
+
+    assert "Wtd WC Apps" in html
+    assert "Wtd WC Place" in html
+    assert "History" in html
+    assert "V2 Strength" in html
+    assert ">2500.0</td>" in html
+    assert ">0.8123</td>" in html
+    assert ">8.8</td>" in html
+
+
+def test_form_color_helpers_use_gradients_within_each_tier():
+    home = load_home_module()
+
+    bad_low = home.sequential_form_cell_style(0.05, 0.0, 1.0)
+    bad_high = home.sequential_form_cell_style(0.25, 0.0, 1.0)
+    assert bad_low != bad_high
+    assert "color: #791F1F;" in bad_low
+    assert "color: #791F1F;" in bad_high
+
+    mid_low = home.sequential_form_cell_style(0.40, 0.0, 1.0)
+    mid_high = home.sequential_form_cell_style(0.60, 0.0, 1.0)
+    assert mid_low != mid_high
+    assert "color: #633806;" in mid_low
+    assert "color: #633806;" in mid_high
+
+    good_low = home.sequential_form_cell_style(0.75, 0.0, 1.0)
+    good_high = home.sequential_form_cell_style(0.95, 0.0, 1.0)
+    assert good_low != good_high
+    assert "color: #173404;" in good_low
+    assert "color: #173404;" in good_high
 
 
 def test_build_form_table_html_reverses_schedule_difficulty_colors():
@@ -694,8 +918,8 @@ def test_build_form_table_html_reverses_schedule_difficulty_colors():
 
     html = home.build_table_html(sample_df, "Form", table_kind="form")
 
-    assert "background-color: #97C459;\">1.0</td>" in html
-    assert "background-color: #F09595;\">5.0</td>" in html
+    assert "background-color: #3B6D11; color: #173404;\">1.0</td>" in html
+    assert "background-color: #A32D2D; color: #791F1F;\">5.0</td>" in html
 
 
 def test_build_form_view_tables_adds_confederation_tables():
@@ -1478,3 +1702,143 @@ def test_get_first_kickoff_details_uses_earliest_group_stage_fixture():
     assert kickoff["kickoff_date_label"] == "June-11-2026"
     assert kickoff["kickoff_local_time_label"] == "13:00"
     assert kickoff["kickoff_utc_time_label"] == "19:00"
+
+
+def test_build_v2_training_frame_uses_1950_to_2022_and_includes_knockout_rows():
+    training_df = build_v2_training_frame(match_window=4)
+
+    assert int(training_df["edition"].min()) >= 1950
+    assert int(training_df["edition"].max()) <= 2022
+    assert {"Group Stage", "Quarter-final", "Semi-final", "Final"}.issubset(set(training_df["stage"]))
+    assert {"group", "knockout"} == set(training_df["stage_bucket"])
+    assert set(training_df["outcome_label"]).issubset({"home_win", "draw", "away_win"})
+    for column_name in (
+        "elo_diff",
+        "results_form_diff",
+        "gd_form_diff",
+        "perf_vs_exp_diff",
+        "goals_for_diff",
+        "goals_against_diff",
+        "placement_diff",
+        "appearance_diff",
+    ):
+        assert column_name in training_df.columns
+
+
+def test_fit_v2_model_predicts_valid_probability_triplet():
+    home = load_home_module()
+    base_df, _, lead_in_df, _ = home.load_data()
+    feature_df = build_v2_match_feature_table(base_df, lead_in_df, match_window=4)
+    feature_lookup = feature_df.set_index("team_id").to_dict("index")
+    model_bundle = fit_v2_match_multinomial_model(match_window=4)
+
+    assert set(model_bundle["model"].classes_) == {"away_win", "draw", "home_win"}
+
+    first_team_id = str(feature_df.iloc[0]["team_id"])
+    second_team_id = str(feature_df.iloc[1]["team_id"])
+    prediction = predict_match_probabilities_v2(first_team_id, second_team_id, feature_lookup, model_bundle)
+
+    total_probability = (
+        float(prediction["home_win_prob"])
+        + float(prediction["draw_prob"])
+        + float(prediction["away_win_prob"])
+    )
+    assert abs(total_probability - 1.0) < 1e-9
+    assert 0.0 <= float(prediction["home_win_prob"]) <= 1.0
+    assert 0.0 <= float(prediction["draw_prob"]) <= 1.0
+    assert 0.0 <= float(prediction["away_win_prob"]) <= 1.0
+
+
+def test_predict_knockout_matchup_v2_returns_valid_winner_and_probability():
+    home = load_home_module()
+    base_df, _, lead_in_df, _ = home.load_data()
+    feature_df = build_v2_match_feature_table(base_df, lead_in_df, match_window=4)
+    feature_lookup = feature_df.set_index("team_id").to_dict("index")
+    model_bundle = fit_v2_match_multinomial_model(match_window=4)
+
+    prediction = predict_knockout_matchup_v2(
+        str(feature_df.iloc[0]["team_id"]),
+        str(feature_df.iloc[1]["team_id"]),
+        feature_lookup,
+        model_bundle,
+        simulations=120,
+        seed=17,
+    )
+
+    assert prediction["winner_team_id"] in {str(feature_df.iloc[0]["team_id"]), str(feature_df.iloc[1]["team_id"])}
+    assert 50.0 <= float(prediction["winner_win_prob"]) <= 100.0
+    assert abs(float(prediction["home_win_prob"]) + float(prediction["away_win_prob"]) - 100.0) < 1e-9
+
+
+def test_simulate_group_probabilities_v2_preserves_probability_invariants():
+    home = load_home_module()
+    base_df, fixtures_df, lead_in_df, _ = home.load_data()
+
+    dashboard_df = simulate_group_probabilities_v2(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=24,
+        match_window=4,
+    )
+
+    required_columns = {
+        "top8_third_prob",
+        "ko_prob",
+        "r16_prob",
+        "qf_prob",
+        "sf_prob",
+        "final_prob",
+        "champion_prob",
+    }
+    assert required_columns.issubset(dashboard_df.columns)
+    assert "team_strength" in dashboard_df.columns
+
+    for _, row in dashboard_df.iterrows():
+        total_probability = row["prob_1"] + row["prob_2"] + row["prob_3"] + row["prob_4"]
+        assert abs(total_probability - 100.0) < 1e-9
+        assert abs(row["ko_prob"] - (row["prob_1"] + row["prob_2"] + row["top8_third_prob"])) < 1e-9
+        assert row["champion_prob"] <= row["final_prob"] + 1e-9
+        assert row["final_prob"] <= row["sf_prob"] + 1e-9
+        assert row["sf_prob"] <= row["qf_prob"] + 1e-9
+        assert row["qf_prob"] <= row["r16_prob"] + 1e-9
+        assert row["r16_prob"] <= row["ko_prob"] + 1e-9
+        for column_name in required_columns:
+            assert 0.0 <= row[column_name] <= 100.0
+
+    modal_rankings = get_modal_group_rankings(dashboard_df)
+    assert set(modal_rankings) == set(home.GROUP_ORDER)
+
+
+def test_build_deterministic_bracket_v2_produces_consistent_field():
+    home = load_home_module()
+    base_df, fixtures_df, lead_in_df, _ = home.load_data()
+    dashboard_df = simulate_group_probabilities_v2(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=20,
+        match_window=4,
+    )
+    model_bundle = fit_v2_match_multinomial_model(match_window=4)
+
+    bracket = build_deterministic_bracket_v2(
+        dashboard_df,
+        fixtures_df,
+        dashboard_df,
+        model_bundle,
+        head_to_head_simulations=60,
+        seed=19,
+    )
+
+    assert [round_data["round_code"] for round_data in bracket["rounds"]] == ["R32", "R16", "QF", "SF", "F"]
+    assert sum(len(round_data["matches"]) for round_data in bracket["rounds"]) == 31
+    assert bracket["qualifying_third_place_groups"] in THIRD_PLACE_ROUTING_MAP
+
+
+def test_v2_probabilities_page_exists_and_wires_home_renderer():
+    page_path = ROOT / "apps" / "pages" / "3_V2_Probabilities.py"
+
+    assert page_path.exists()
+    page_text = page_path.read_text(encoding="utf-8")
+    assert "render_v2_probabilities_dashboard" in page_text

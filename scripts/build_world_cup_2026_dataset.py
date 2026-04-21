@@ -25,6 +25,8 @@ GOALSCORERS_PATH = DATA_DIR / "goalscorers.csv"
 SHOOTOUTS_PATH = DATA_DIR / "shootouts.csv"
 FORMER_NAMES_PATH = DATA_DIR / "former_names.csv"
 HISTORICAL_SUMMARY_PATH = WORLD_CUP_DIR / "FIFA_World_Cup_Results_All_Time_20260210_051012.csv"
+ALL_EDITIONS_PLACEMENT_PATH = WORLD_CUP_DIR / "all_editions" / "placement.csv"
+WORLD_CUP_HISTORY_PATH = WORLD_CUP_DIR / "fifa_world_cup_history.csv"
 
 FIFA_TEAMS_PAGE_URL = (
     "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams"
@@ -56,6 +58,8 @@ DEFAULT_BUILD_DATE = date(2026, 4, 3)
 DEFAULT_FIFA_RANKING_SCHEDULE_ID = "FRS_Male_Football_20260119"
 DEFAULT_FIFA_RANKING_SNAPSHOT_DATE = date(2026, 4, 1)
 REQUIRED_RATED_LEAD_IN_MATCHES = 20
+DEFAULT_PLACEMENT_SCORE_GAMMA = 0.8
+DEFAULT_PLACEMENT_SCORE_EPSILON = 0.05
 ROUND_ORDER = {
     "First Stage": ("GS", 1),
     "Round of 32": ("R32", 2),
@@ -137,6 +141,7 @@ TOURNAMENT_TO_CANONICAL = {
     "Korea Republic": "South Korea",
     "Türkiye": "Turkey",
     "USA": "United States",
+    "West Germany": "Germany",
     "Côte d'Ivoire": "Ivory Coast",
 }
 
@@ -145,6 +150,7 @@ CANONICAL_ALIASES = {
     "Cape Verde": {"Cabo Verde"},
     "Czechia": {"Czech Republic"},
     "DR Congo": {"Congo DR", "Dem. Rep. of Congo"},
+    "Germany": {"West Germany"},
     "Iran": {"IR Iran"},
     "Ivory Coast": {"Côte d'Ivoire"},
     "South Korea": {"Korea Republic"},
@@ -381,6 +387,97 @@ def compute_world_cup_appearances(
             if canonical_name in qualified_names:
                 appearances[canonical_name].add(row["date"][:4])
     return {name: len(years) + 1 for name, years in appearances.items()}
+
+
+def compute_world_cup_placement_score(
+    rank: int | None,
+    n_teams: int | None,
+    qualified: bool,
+    gamma: float = DEFAULT_PLACEMENT_SCORE_GAMMA,
+    epsilon: float = DEFAULT_PLACEMENT_SCORE_EPSILON,
+) -> float:
+    """Convert a finals placement into a bounded score with DNQ fixed at zero."""
+    if not qualified:
+        return 0.0
+    if rank is None:
+        raise ValueError("rank is required when qualified=True")
+    if n_teams is None or n_teams <= 0:
+        raise ValueError("n_teams must be positive when qualified=True")
+    if rank <= 0 or rank > n_teams:
+        raise ValueError("rank must be between 1 and n_teams inclusive")
+    if not 0.0 < epsilon < 1.0:
+        raise ValueError("epsilon must be between 0 and 1")
+    if gamma <= 0.0:
+        raise ValueError("gamma must be positive")
+    if rank == 1 or n_teams == 1:
+        return 1.0
+    scaled_rank = (rank - 1) / (n_teams - 1)
+    return float(epsilon + (1.0 - epsilon) * (1.0 - scaled_rank ** gamma))
+
+
+def compute_world_cup_history_features(
+    qualified_teams: dict[str, QualifiedTeam],
+    alias_map: dict[str, str],
+    dated_former_aliases: list[tuple[str, date, date, str]],
+) -> dict[str, dict[str, float | int]]:
+    """Aggregate weighted World Cup history features for the currently qualified teams."""
+    qualified_names = {team.canonical_name for team in qualified_teams.values()}
+    placement_rows = load_csv(ALL_EDITIONS_PLACEMENT_PATH)
+    history_rows = load_csv(WORLD_CUP_HISTORY_PATH)
+    edition_team_counts = {
+        int(row["Year"]): int(row["Teams"])
+        for row in history_rows
+        if row.get("Year") and row.get("Teams")
+    }
+    editions = sorted(edition_team_counts)
+    edition_weight_map = {edition: (index + 1) ** 2 for index, edition in enumerate(editions)}
+    total_edition_weight = float(sum(edition_weight_map.values()))
+    appearances_by_team: dict[str, dict[int, int]] = {name: {} for name in qualified_names}
+
+    for row in placement_rows:
+        edition_text = str(row.get("edition", "")).strip()
+        position_text = str(row.get("position", "")).strip()
+        country = str(row.get("country", "")).strip()
+        if not edition_text or not position_text or not country:
+            continue
+        edition = int(edition_text)
+        if edition not in edition_team_counts:
+            continue
+        canonical_name = canonicalize_name(
+            country,
+            date(edition, 12, 31),
+            alias_map,
+            dated_former_aliases,
+        )
+        if canonical_name not in qualified_names:
+            continue
+        appearances_by_team[canonical_name].setdefault(edition, int(position_text))
+
+    features: dict[str, dict[str, float | int]] = {}
+    for canonical_name in qualified_names:
+        edition_positions = appearances_by_team[canonical_name]
+        weighted_participations = float(sum(edition_weight_map[edition] for edition in edition_positions))
+        weighted_placement_total = 0.0
+
+        for edition in editions:
+            rank = edition_positions.get(edition)
+            weight = float(edition_weight_map[edition])
+            effective_team_count = max(edition_team_counts[edition], rank or 0)
+            weighted_placement_total += weight * compute_world_cup_placement_score(
+                rank=rank,
+                n_teams=effective_team_count,
+                qualified=rank is not None,
+            )
+
+        features[canonical_name] = {
+            "world_cup_participations": len(edition_positions) + 1,
+            "weighted_world_cup_participations": weighted_participations,
+            "weighted_world_cup_placement_score": (
+                weighted_placement_total / total_edition_weight if total_edition_weight else 0.0
+            ),
+        }
+
+    return features
 
 
 def fetch_fifa_rankings(ranking_schedule_id: str) -> dict[str, dict]:
@@ -735,13 +832,21 @@ def build_elo_rows(
 def build_teams_rows(
     qualified_teams: dict[str, QualifiedTeam],
     fifa_rankings: dict[str, dict],
-    appearances: dict[str, int],
+    history_features: dict[str, dict[str, float | int]],
     source_as_of: str,
 ) -> list[dict[str, object]]:
     rows = []
     for team in sorted(qualified_teams.values(), key=lambda item: (item.group_code, item.tournament_name)):
         ranking = fifa_rankings.get(team.fifa_code, {})
         flag_icon_code = FLAG_ICONS_CODE_BY_FIFA_CODE.get(team.fifa_code, "")
+        history = history_features.get(
+            team.canonical_name,
+            {
+                "world_cup_participations": 1,
+                "weighted_world_cup_participations": 0.0,
+                "weighted_world_cup_placement_score": 0.0,
+            },
+        )
         rows.append(
             {
                 "team_id": team.team_id,
@@ -754,7 +859,9 @@ def build_teams_rows(
                 "group_code": team.group_code,
                 "is_host": team.fifa_code in HOST_CODES,
                 "qualification_path": "Host nation" if team.fifa_code in HOST_CODES else "Qualified",
-                "world_cup_participations": appearances.get(team.canonical_name, 1),
+                "world_cup_participations": int(history["world_cup_participations"]),
+                "weighted_world_cup_participations": round(float(history["weighted_world_cup_participations"]), 1),
+                "weighted_world_cup_placement_score": round(float(history["weighted_world_cup_placement_score"]), 6),
                 "squad_status": "pending",
                 "source_url": FIFA_TEAMS_PAGE_URL,
                 "source_as_of": source_as_of,
@@ -1032,7 +1139,7 @@ def main() -> None:
     results_rows = load_csv(RESULTS_PATH)
     goalscorers_rows = load_csv(GOALSCORERS_PATH)
     shootouts_rows = load_csv(SHOOTOUTS_PATH)
-    appearances = compute_world_cup_appearances(results_rows, qualified_teams, alias_map, dated_former_aliases)
+    history_features = compute_world_cup_history_features(qualified_teams, alias_map, dated_former_aliases)
 
     fifa_rankings = fetch_fifa_rankings(args.fifa_ranking_schedule_id)
     elo_rankings = fetch_elo_rankings(build_date)
@@ -1044,7 +1151,7 @@ def main() -> None:
     )
     source_as_of = build_date.isoformat()
 
-    teams_rows = build_teams_rows(qualified_teams, fifa_rankings, appearances, source_as_of)
+    teams_rows = build_teams_rows(qualified_teams, fifa_rankings, history_features, source_as_of)
     groups_rows = build_groups_rows(qualified_teams)
     rounds_rows = build_rounds_rows(fixtures)
     venues_rows = build_venues_rows(fixtures, source_as_of)
@@ -1071,7 +1178,7 @@ def main() -> None:
     datasets = {
         "teams.csv": (
             teams_rows,
-            ["team_id", "canonical_name", "tournament_name", "fifa_code", "flag_icon_code", "flag_icon_css_class", "confederation", "group_code", "is_host", "qualification_path", "world_cup_participations", "squad_status", "source_url", "source_as_of"],
+            ["team_id", "canonical_name", "tournament_name", "fifa_code", "flag_icon_code", "flag_icon_css_class", "confederation", "group_code", "is_host", "qualification_path", "world_cup_participations", "weighted_world_cup_participations", "weighted_world_cup_placement_score", "squad_status", "source_url", "source_as_of"],
         ),
         "groups.csv": (
             groups_rows,

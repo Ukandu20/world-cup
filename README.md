@@ -2,6 +2,14 @@
 
 This repository contains dataset-building scripts and a Streamlit dashboard for preseason World Cup 2026 tournament projections.
 
+## Setup
+
+Install the dashboard and dataset dependencies with:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 Reference notes:
 
 - [`docs/elo_rating_reference.md`](docs/elo_rating_reference.md): stored Elo rating methodology reference based on the provided `eloratings.net` summary
@@ -107,3 +115,15 @@ The current model does not yet simulate:
 - squad availability or injuries
 
 This means the current probabilities should still be interpreted as pre-tournament forecasts rather than match-specific predictions.
+
+## V2 Multinomial Probabilities
+
+The dashboard now also includes a separate `V2 Probabilities` page.
+
+- it trains a multinomial logistic regression on World Cup matches from `1950` through `2022`
+- the training sample includes both group-stage and knockout matches
+- features are built from pre-tournament Elo, weighted recent form, and prior World Cup history
+- the model outputs `home_win`, `draw`, and `away_win` probabilities for each matchup
+- tournament simulations sample those match outcomes directly, then resolve knockout draws as penalties using the model's non-draw split
+
+The original `V1 Probabilities` page remains unchanged, and `V2 Form` remains the ranking-only page.

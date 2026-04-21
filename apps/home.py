@@ -25,11 +25,19 @@ simulation = importlib.reload(simulation)
 MODEL_LABEL = simulation.MODEL_LABEL
 MODEL_SUMMARY = simulation.MODEL_SUMMARY
 MODEL_VERSION = simulation.MODEL_VERSION
+V2_MODEL_LABEL = simulation.V2_MODEL_LABEL
+V2_MODEL_SUMMARY = simulation.V2_MODEL_SUMMARY
+V2_MODEL_VERSION = simulation.V2_MODEL_VERSION
 build_deterministic_bracket = simulation.build_deterministic_bracket
+build_deterministic_bracket_v2 = simulation.build_deterministic_bracket_v2
+build_v2_team_strengths = simulation.build_v2_team_strengths
+build_v2_match_feature_table = simulation.build_v2_match_feature_table
 build_weighted_form_table = simulation.build_weighted_form_table
+fit_v2_match_multinomial_model = simulation.fit_v2_match_multinomial_model
 FORM_SCHEDULE_DIFFICULTY_NEUTRAL = simulation.FORM_SCHEDULE_DIFFICULTY_NEUTRAL
 get_modal_group_rankings = simulation.get_modal_group_rankings
 simulate_group_probabilities = simulation.simulate_group_probabilities
+simulate_group_probabilities_v2 = simulation.simulate_group_probabilities_v2
 WEIGHTED_FORM_COMPOSITE_WEIGHTS = simulation.WEIGHTED_FORM_COMPOSITE_WEIGHTS
 
 DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
@@ -54,13 +62,18 @@ SCREENSHOT_CHANNELS = ("chrome", "msedge")
 CURRENT_HOLDER_TEAM_ID = "ARG"
 BRACKET_HEAD_TO_HEAD_SIMULATIONS = 1000
 BRACKET_EXPORT_VIEWPORT_SIZE = "1800,1200"
+EXPORT_VIEWPORT_HEIGHT = 1400
+EXPORT_MIN_VIEWPORT_WIDTH = 1400
+EXPORT_MAX_VIEWPORT_WIDTH = 3200
 FORM_WINDOW_MIN = 3
 FORM_WINDOW_MAX = 20
 FORM_CONFEDERATION_ORDER = ("AFC", "CAF", "CONCACAF", "CONMEBOL", "OFC", "UEFA")
 V1_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
 V2_VIEW_OPTIONS = ("All Countries", "Single confederation", "All confederations")
+V2_PROB_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
 V1_STATE_KEY = "simulation_settings_v1"
 V2_STATE_KEY = "simulation_settings_v2"
+V2_PROB_STATE_KEY = "simulation_settings_v2_prob"
 PROBABILITY_PALETTES = {
     "prob_1": ((220, 252, 231), (22, 163, 74)),
     "prob_2": ((219, 234, 254), (37, 99, 235)),
@@ -74,14 +87,12 @@ PROBABILITY_PALETTES = {
     "final_prob": ((255, 237, 213), (234, 88, 12)),
     "champion_prob": ((254, 240, 138), (202, 138, 4)),
 }
-FORM_DIVERGING_PALETTE = {
-    "strong_negative": "#F09595",
-    "mild_negative": "#F7C1C1",
-    "neutral": "#F1EFE8",
-    "mild_positive": "#C0DD97",
-    "strong_positive": "#97C459",
-}
-FORM_SEQUENTIAL_PALETTE = ("#F1EFE8", "#EAF3DE", "#C0DD97", "#97C459", "#639922")
+FORM_RED_TEXT = "#791F1F"
+FORM_AMBER_TEXT = "#633806"
+FORM_GREEN_TEXT = "#173404"
+FORM_RED_GRADIENT = ("#FCEBEB", "#F7C1C1", "#F09595", "#E24B4A", "#A32D2D")
+FORM_AMBER_GRADIENT = ("#FAEEDA", "#FAC775", "#EF9F27", "#BA7517", "#854F0B")
+FORM_GREEN_GRADIENT = ("#EAF3DE", "#C0DD97", "#97C459", "#639922", "#3B6D11")
 ALL_COUNTRIES_KNOCKOUT_COLUMNS = (
     ("top8_third_prob", "Top 8 3rd %"),
     ("ko_prob", "KO %"),
@@ -160,9 +171,22 @@ def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, str
         .rename(columns={"snapshot_date": "elo_snapshot_date"})
     )
 
+    team_columns = [
+        "team_id",
+        "tournament_name",
+        "canonical_name",
+        "flag_icon_code",
+        "group_code",
+        "confederation",
+        "world_cup_participations",
+        "weighted_world_cup_participations",
+        "weighted_world_cup_placement_score",
+    ]
+    available_team_columns = [column_name for column_name in team_columns if column_name in teams.columns]
+
     merged = (
         groups.merge(
-            teams.loc[:, ["team_id", "tournament_name", "canonical_name", "flag_icon_code", "group_code", "confederation"]],
+            teams.loc[:, available_team_columns],
             on=["team_id", "group_code"],
             how="left",
         )
@@ -175,6 +199,18 @@ def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, str
     merged["fifa_points"] = pd.to_numeric(merged["fifa_points"], errors="coerce")
     merged["elo_rating"] = pd.to_numeric(merged["elo_rating"], errors="coerce")
     merged["elo_rank"] = pd.to_numeric(merged["elo_rank"], errors="coerce")
+    if "world_cup_participations" in merged.columns:
+        merged["world_cup_participations"] = pd.to_numeric(merged["world_cup_participations"], errors="coerce")
+    if "weighted_world_cup_participations" in merged.columns:
+        merged["weighted_world_cup_participations"] = pd.to_numeric(
+            merged["weighted_world_cup_participations"],
+            errors="coerce",
+        )
+    if "weighted_world_cup_placement_score" in merged.columns:
+        merged["weighted_world_cup_placement_score"] = pd.to_numeric(
+            merged["weighted_world_cup_placement_score"],
+            errors="coerce",
+        )
 
     metadata = {
         "build_date": manifest.get("build_date", ""),
@@ -221,6 +257,30 @@ def simulate_probabilities(
         if key in simulator_signature.parameters:
             simulator_kwargs[key] = value
     return simulate_group_probabilities(**simulator_kwargs)
+
+
+@st.cache_resource(show_spinner=False)
+def load_v2_match_model(form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW) -> dict[str, object]:
+    """Fit and cache the v2 multinomial model artifacts for the active form window."""
+    return fit_v2_match_multinomial_model(match_window=form_match_window)
+
+
+@st.cache_data(show_spinner=False)
+def simulate_probabilities_v2_dashboard(
+    base_df: pd.DataFrame,
+    fixtures_df: pd.DataFrame,
+    lead_in_df: pd.DataFrame,
+    simulations: int = SIMULATION_COUNT,
+    match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+) -> pd.DataFrame:
+    """Estimate tournament probabilities from the v2 multinomial simulator."""
+    return simulate_group_probabilities_v2(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=simulations,
+        match_window=match_window,
+    )
 
 
 def ensure_dashboard_probability_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -270,6 +330,8 @@ def render_dashboard_header(
     metadata: dict[str, str],
     simulation_count: int,
     title: str = "World Cup 2026 Group Dashboard",
+    model_version: str = MODEL_VERSION,
+    model_label: str = MODEL_LABEL,
 ) -> None:
     """Render the shared dashboard header."""
     st.markdown(
@@ -281,7 +343,7 @@ def render_dashboard_header(
               <div class="wc-kicker">Pre-Tournament Predictions</div>
               <h1 style="margin:0;">{html.escape(title)}</h1>
               <div class="wc-meta">
-                Model: {html.escape(MODEL_VERSION)} ({html.escape(MODEL_LABEL)}) |
+                Model: {html.escape(model_version)} ({html.escape(model_label)}) |
                 Build date: {html.escape(str(metadata["build_date"]))} |
                 FIFA snapshot: {html.escape(str(metadata["fifa_snapshot_date"]))} |
                 Elo snapshot: {html.escape(str(metadata["elo_snapshot_date"]))} |
@@ -305,6 +367,11 @@ def shared_css() -> str:
         color: #0f172a;
         font-family: "Segoe UI", Tahoma, sans-serif;
     }
+    html.wc-export-mode,
+    body.wc-export-mode {
+        width: max-content;
+        min-width: 100%;
+    }
     .block-container {
         padding-top: 1.5rem;
         padding-bottom: 2rem;
@@ -323,6 +390,21 @@ def shared_css() -> str:
         grid-template-columns: 1fr;
         gap: 16px;
     }
+    .wc-export-mode .wc-grid-single {
+        width: max-content;
+    }
+    .wc-export-mode .wc-grid-single .wc-card,
+    .wc-export-mode .wc-grid-single .wc-table-wrap {
+        width: max-content;
+        max-width: none;
+    }
+    .wc-export-mode .wc-grid-single .wc-table-wrap {
+        overflow: visible;
+    }
+    .wc-export-mode .wc-grid-single table.wc-table {
+        width: max-content;
+        min-width: 0;
+    }
     .wc-card {
         border: 1px solid #dfe5ec;
         border-radius: 18px;
@@ -331,6 +413,9 @@ def shared_css() -> str:
         overflow: hidden;
         margin: 0.55rem 0 0.85rem;
         padding-bottom: 0.6rem;
+    }
+    .wc-export-mode .wc-card {
+        overflow: visible;
     }
     .wc-card-header {
         display: flex;
@@ -877,17 +962,54 @@ def probability_cell_style(column_name: str, value: float, column_min: float, co
     return f"background-color: rgb({red}, {green}, {blue});"
 
 
+def form_cell_style(fill_color: str, text_color: str) -> str:
+    """Build a consistent fill/text style for form-table cells."""
+    return f"background-color: {fill_color}; color: {text_color};"
+
+
+def interpolate_hex_color(start_hex: str, end_hex: str, weight: float) -> str:
+    """Interpolate between two hex colors and return the blended hex value."""
+    clamped_weight = max(0.0, min(1.0, float(weight)))
+    start_rgb = tuple(int(start_hex[index:index + 2], 16) for index in (1, 3, 5))
+    end_rgb = tuple(int(end_hex[index:index + 2], 16) for index in (1, 3, 5))
+    blended = tuple(
+        round(start_component + (end_component - start_component) * clamped_weight)
+        for start_component, end_component in zip(start_rgb, end_rgb)
+    )
+    return "#{:02X}{:02X}{:02X}".format(*blended)
+
+
+def gradient_fill_color(stops: tuple[str, ...], position: float) -> str:
+    """Return an interpolated fill color along a multi-stop hex gradient."""
+    if not stops:
+        raise ValueError("stops must contain at least one color")
+    if len(stops) == 1:
+        return stops[0]
+
+    clamped_position = max(0.0, min(1.0, float(position)))
+    scaled_position = clamped_position * (len(stops) - 1)
+    lower_index = min(len(stops) - 2, int(scaled_position))
+    upper_index = lower_index + 1
+    local_weight = scaled_position - lower_index
+    return interpolate_hex_color(stops[lower_index], stops[upper_index], local_weight)
+
+
 def sequential_form_cell_style(value: float, column_min: float, column_max: float) -> str:
-    """Build a five-tier low-to-high style for form columns without a neutral anchor."""
+    """Build a low-mid-high style for form columns without a neutral anchor."""
     if pd.isna(value):
         return ""
     if pd.isna(column_min) or pd.isna(column_max) or column_max <= column_min:
-        color = FORM_SEQUENTIAL_PALETTE[0]
-    else:
-        normalized = max(0.0, min(1.0, (float(value) - column_min) / (column_max - column_min)))
-        palette_index = min(4, int(normalized * len(FORM_SEQUENTIAL_PALETTE)))
-        color = FORM_SEQUENTIAL_PALETTE[palette_index]
-    return f"background-color: {color};"
+        return form_cell_style(gradient_fill_color(FORM_AMBER_GRADIENT, 0.5), FORM_AMBER_TEXT)
+
+    normalized = max(0.0, min(1.0, (float(value) - column_min) / (column_max - column_min)))
+    if normalized <= (1.0 / 3.0):
+        tier_position = 1.0 - (normalized / (1.0 / 3.0))
+        return form_cell_style(gradient_fill_color(FORM_RED_GRADIENT, tier_position), FORM_RED_TEXT)
+    if normalized <= (2.0 / 3.0):
+        tier_position = (normalized - (1.0 / 3.0)) / (1.0 / 3.0)
+        return form_cell_style(gradient_fill_color(FORM_AMBER_GRADIENT, tier_position), FORM_AMBER_TEXT)
+    tier_position = (normalized - (2.0 / 3.0)) / (1.0 / 3.0)
+    return form_cell_style(gradient_fill_color(FORM_GREEN_GRADIENT, tier_position), FORM_GREEN_TEXT)
 
 
 def diverging_form_cell_style(
@@ -897,29 +1019,35 @@ def diverging_form_cell_style(
     positive_span: float,
     reverse: bool = False,
 ) -> str:
-    """Build a five-tier diverging style centered on a meaningful anchor."""
+    """Build a red-amber-green diverging style centered on a meaningful anchor."""
     if pd.isna(value):
         return ""
     difference = float(value) - float(anchor)
-    negative_mild = FORM_DIVERGING_PALETTE["mild_positive"] if reverse else FORM_DIVERGING_PALETTE["mild_negative"]
-    negative_strong = FORM_DIVERGING_PALETTE["strong_positive"] if reverse else FORM_DIVERGING_PALETTE["strong_negative"]
-    positive_mild = FORM_DIVERGING_PALETTE["mild_negative"] if reverse else FORM_DIVERGING_PALETTE["mild_positive"]
-    positive_strong = FORM_DIVERGING_PALETTE["strong_negative"] if reverse else FORM_DIVERGING_PALETTE["strong_positive"]
+    negative_text = FORM_GREEN_TEXT if reverse else FORM_RED_TEXT
+    positive_text = FORM_RED_TEXT if reverse else FORM_GREEN_TEXT
+    negative_gradient = FORM_GREEN_GRADIENT if reverse else FORM_RED_GRADIENT
+    positive_gradient = FORM_RED_GRADIENT if reverse else FORM_GREEN_GRADIENT
+
     if abs(difference) < 1e-12:
-        color = FORM_DIVERGING_PALETTE["neutral"]
-    elif difference < 0:
+        return form_cell_style(gradient_fill_color(FORM_AMBER_GRADIENT, 0.0), FORM_AMBER_TEXT)
+
+    if difference < 0:
         if negative_span <= 0:
-            color = FORM_DIVERGING_PALETTE["neutral"]
-        else:
-            normalized = min(1.0, abs(difference) / negative_span)
-            color = negative_strong if normalized >= 0.5 else negative_mild
+            return form_cell_style(gradient_fill_color(FORM_AMBER_GRADIENT, 0.0), FORM_AMBER_TEXT)
+        normalized = min(1.0, abs(difference) / negative_span)
     else:
         if positive_span <= 0:
-            color = FORM_DIVERGING_PALETTE["neutral"]
-        else:
-            normalized = min(1.0, difference / positive_span)
-            color = positive_strong if normalized >= 0.5 else positive_mild
-    return f"background-color: {color};"
+            return form_cell_style(gradient_fill_color(FORM_AMBER_GRADIENT, 0.0), FORM_AMBER_TEXT)
+        normalized = min(1.0, difference / positive_span)
+
+    if normalized < 0.5:
+        tier_position = normalized / 0.5
+        return form_cell_style(gradient_fill_color(FORM_AMBER_GRADIENT, tier_position), FORM_AMBER_TEXT)
+    if difference < 0:
+        tier_position = (normalized - 0.5) / 0.5
+        return form_cell_style(gradient_fill_color(negative_gradient, tier_position), negative_text)
+    tier_position = (normalized - 0.5) / 0.5
+    return form_cell_style(gradient_fill_color(positive_gradient, tier_position), positive_text)
 
 
 def current_holder_cell_class(team_id: str) -> str:
@@ -1102,7 +1230,25 @@ def build_form_table_html(
     group_pill_label: str | None = None,
 ) -> str:
     """Render the recent-form table as a styled HTML card."""
-    sequential_columns = ("results_form", "expected_score")
+    has_history_columns = all(
+        column_name in df.columns
+        for column_name in (
+            "weighted_world_cup_participations",
+            "weighted_world_cup_placement_score",
+            "history_score",
+            "v2_strength",
+        )
+    )
+    sequential_columns = ["results_form", "expected_score", "form"]
+    if has_history_columns:
+        sequential_columns.extend(
+            [
+                "weighted_world_cup_participations",
+                "weighted_world_cup_placement_score",
+                "history_score",
+                "v2_strength",
+            ]
+        )
     sequential_ranges = {
         column_name: (
             float(numeric_values.min()) if not numeric_values.empty else float("nan"),
@@ -1114,7 +1260,6 @@ def build_form_table_html(
     gd_form_values = pd.to_numeric(df["gd_form"], errors="coerce").dropna()
     perf_vs_exp_values = pd.to_numeric(df["perf_vs_exp"], errors="coerce").dropna()
     sched_diff_values = pd.to_numeric(df["schedule_difficulty"], errors="coerce").dropna()
-    form_values = pd.to_numeric(df["form"], errors="coerce").dropna()
     gd_form_negative_span = float(abs(gd_form_values.min())) if not gd_form_values.empty and gd_form_values.min() < 0 else 0.0
     gd_form_positive_span = float(gd_form_values.max()) if not gd_form_values.empty and gd_form_values.max() > 0 else 0.0
     perf_negative_span = float(abs(perf_vs_exp_values.min())) if not perf_vs_exp_values.empty and perf_vs_exp_values.min() < 0 else 0.0
@@ -1129,9 +1274,6 @@ def build_form_table_html(
         if not sched_diff_values.empty and sched_diff_values.max() > FORM_SCHEDULE_DIFFICULTY_NEUTRAL
         else 0.0
     )
-    form_negative_span = float(abs(form_values.min())) if not form_values.empty and form_values.min() < 0 else 0.0
-    form_positive_span = float(form_values.max()) if not form_values.empty and form_values.max() > 0 else 0.0
-
     headers = [
         '<th class="wc-num">Rank</th>',
         "<th>Country</th>",
@@ -1152,6 +1294,15 @@ def build_form_table_html(
         '<th class="wc-num">Elo Delta Form</th>',
         '<th class="wc-num">Form</th>',
     ]
+    if has_history_columns:
+        headers.extend(
+            [
+                '<th class="wc-num">Wtd WC Apps</th>',
+                '<th class="wc-num">Wtd WC Place</th>',
+                '<th class="wc-num">History</th>',
+                '<th class="wc-num">V2 Strength</th>',
+            ]
+        )
 
     body_rows = []
     for rank, row in enumerate(df.itertuples(index=False), start=1):
@@ -1177,8 +1328,17 @@ def build_form_table_html(
             f'<td class="wc-num" style="{sequential_form_cell_style(row.expected_score, *sequential_ranges["expected_score"])}">{format_decimal(row.expected_score, decimals=3)}</td>',
             f'<td class="wc-num" style="{diverging_form_cell_style(row.perf_vs_exp, 0.0, perf_negative_span, perf_positive_span)}">{format_decimal(row.perf_vs_exp, decimals=3)}</td>',
             f'<td class="wc-num">{format_decimal(row.elo_delta_form, decimals=3)}</td>',
-            f'<td class="wc-num" style="{diverging_form_cell_style(row.form, 0.0, form_negative_span, form_positive_span)}">{format_decimal(row.form)}</td>',
+            f'<td class="wc-num" style="{sequential_form_cell_style(row.form, *sequential_ranges["form"])}">{format_decimal(row.form)}</td>',
         ]
+        if has_history_columns:
+            cells.extend(
+                [
+                    f'<td class="wc-num" style="{sequential_form_cell_style(row.weighted_world_cup_participations, *sequential_ranges["weighted_world_cup_participations"])}">{format_decimal(row.weighted_world_cup_participations)}</td>',
+                    f'<td class="wc-num" style="{sequential_form_cell_style(row.weighted_world_cup_placement_score, *sequential_ranges["weighted_world_cup_placement_score"])}">{format_decimal(row.weighted_world_cup_placement_score, decimals=4)}</td>',
+                    f'<td class="wc-num" style="{sequential_form_cell_style(row.history_score, *sequential_ranges["history_score"])}">{format_decimal(row.history_score, decimals=4)}</td>',
+                    f'<td class="wc-num" style="{sequential_form_cell_style(row.v2_strength, *sequential_ranges["v2_strength"])}">{format_decimal(row.v2_strength)}</td>',
+                ]
+            )
         body_rows.append(f"<tr>{''.join(cells)}</tr>")
 
     return build_table_card_html(headers, body_rows, title, card_subtitle, group_pill_label=group_pill_label)
@@ -1267,6 +1427,8 @@ def all_teams_table_frame(df: pd.DataFrame) -> pd.DataFrame:
 
 def form_table_frame(df: pd.DataFrame) -> pd.DataFrame:
     """Return the full recent-form table sorted by weighted form descending."""
+    if "v2_strength" in df.columns:
+        return df.sort_values(["v2_strength", "form", "elo_rating", "world_rank"], ascending=[False, False, False, True], kind="stable")
     return df.sort_values(["form", "elo_rating", "world_rank"], ascending=[False, False, True], kind="stable")
 
 
@@ -1289,7 +1451,11 @@ def build_form_view_tables(
     form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
 ) -> list[dict[str, object]]:
     """Build the overall form table plus one table per confederation."""
-    subtitle = f"Weighted Recent Form | Last {form_match_window} lead-in matches with Elo"
+    subtitle = (
+        f"V2 Team Strength | Rating 40 / Form 40 / History 20 | Last {form_match_window} Pre-tournament Matches"
+        if "v2_strength" in form_df.columns
+        else f"Weighted Recent Form | Last {form_match_window} Pre-tournament Matches | data: eloratings.net | @cartierkut1"
+    )
     tables: list[dict[str, object]] = [
         {
             "title": "All Countries",
@@ -1326,7 +1492,11 @@ def build_confederation_form_tables(
     form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
 ) -> list[dict[str, object]]:
     """Build one form table per confederation."""
-    subtitle = f"Weighted Recent Form | Last {form_match_window} lead-in matches with Elo"
+    subtitle = (
+        f"V2 Team Strength | Rating 40 / Form 40 / History 20 | Last {form_match_window} Pre-tournament Matches"
+        if "v2_strength" in form_df.columns
+        else f"Weighted Recent Form | Last {form_match_window} Pre-tournament Matches | data: eloratings.net | @cartierkut1"
+    )
     tables: list[dict[str, object]] = []
     for confederation in ordered_confederations(form_df):
         confed_df = confederation_form_table_frame(form_df, confederation)
@@ -1354,8 +1524,11 @@ def current_form_view_tables(
     form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
 ) -> list[dict[str, object]]:
     """Describe the tables needed for the active V2 form view."""
-    subtitle = f"Weighted Recent Form | Last {form_match_window} lead-in | data: eloratings.net | @cartierkut1"
-    caption = f" data: eloratings.net | @cartierkut1"
+    subtitle = (
+        f"V2 Team Strength | Rating 40 / Form 40 / History 20 | Last {form_match_window} Pre-tournament Matches"
+        if "v2_strength" in form_df.columns
+        else f"Weighted Recent Form | Last {form_match_window} Pre-tournament Matches | data: eloratings.net | @cartierkut1"
+    )
     if view_mode == "All Countries":
         return [
             {
@@ -1373,7 +1546,6 @@ def current_form_view_tables(
         return [
             {
                 "title": selected_confederation,
-                "stem": f"form_{selected_confederation.lower()}",
                 "frame": confederation_form_table_frame(form_df, selected_confederation),
                 "include_group_column": False,
                 "include_ko_column": False,
@@ -1681,14 +1853,14 @@ def render_export_document(
         )
         tables_html = f'<div class="{container_class}">{cards_html}</div>'
     document = f"""<!DOCTYPE html>
-<html lang="en">
+<html class="wc-export-mode" lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(page_title)}</title>
   <style>{shared_css()}</style>
 </head>
-<body>
+<body class="wc-export-mode">
   <div class="wc-export-page">
     {tables_html}
   </div>
@@ -1711,14 +1883,14 @@ def render_bracket_document(
         card_subtitle=chart_subtitle("Predicted Knockout Bracket", simulation_count),
     )
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html class="wc-export-mode" lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(page_title)}</title>
   <style>{shared_css()}</style>
 </head>
-<body>
+<body class="wc-export-mode">
   <div class="wc-export-page">
     {bracket_html}
   </div>
@@ -1735,6 +1907,42 @@ def build_export_stem(filename_stem: str, export_suffix: str | None = None) -> s
 def generate_export_suffix() -> str:
     """Generate a timestamp suffix so each export writes a fresh artifact."""
     return datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+
+
+def estimate_export_column_count(table: dict[str, object]) -> int:
+    """Estimate the visible column count for one exported table."""
+    table_kind = str(table.get("table_kind", "probability"))
+    if table_kind == "form":
+        frame = table.get("frame")
+        if isinstance(frame, pd.DataFrame) and "v2_strength" in frame.columns:
+            return 22
+        return 18
+
+    column_count = 7
+    if bool(table.get("include_group_column")):
+        column_count += 2
+    if bool(table.get("include_ko_column")):
+        column_count += len(ALL_COUNTRIES_KNOCKOUT_COLUMNS)
+    return column_count
+
+
+def estimate_export_viewport_size(
+    tables: list[dict[str, object]],
+    multi_column: bool,
+) -> str:
+    """Estimate a screenshot viewport wide enough for the exported content."""
+    if not tables:
+        return f"{EXPORT_MIN_VIEWPORT_WIDTH},{EXPORT_VIEWPORT_HEIGHT}"
+
+    if multi_column:
+        visible_columns = min(3, max(1, len(tables)))
+        width = 700 * visible_columns + 120
+    else:
+        column_count = max(estimate_export_column_count(table) for table in tables)
+        width = 560 + max(0, column_count - 1) * 104
+
+    width = max(EXPORT_MIN_VIEWPORT_WIDTH, min(EXPORT_MAX_VIEWPORT_WIDTH, width))
+    return f"{width},{EXPORT_VIEWPORT_HEIGHT}"
 
 
 def export_document_png(
@@ -1760,20 +1968,16 @@ def export_document_png(
         temp_html_path = Path(temp_dir) / f"{output_stem}.html"
         temp_html_path.write_text(document, encoding="utf-8")
         page_url = temp_html_path.resolve().as_uri()
+        viewport_size = estimate_export_viewport_size(tables, multi_column=multi_column)
 
         last_error = ""
         for channel in SCREENSHOT_CHANNELS:
-            command = [
-                "playwright.exe",
-                "screenshot",
-                "--full-page",
-                "--wait-for-timeout",
-                "1500",
-                "--channel",
-                channel,
+            command = build_screenshot_command(
                 page_url,
-                str(output_path),
-            ]
+                output_path,
+                channel,
+                viewport_size=viewport_size,
+            )
             try:
                 subprocess.run(command, check=True, capture_output=True, text=True)
                 return output_path
@@ -2197,17 +2401,17 @@ def render_v2_dashboard() -> None:
     render_dashboard_header(world_cup_logo_data_uri, metadata, simulation_count, title="World Cup 2026 V2")
     render_countdown_timer(fixtures_df)
     st.caption(
-        f"V2 isolates the weighted form model from V1. This page ranks all 48 teams over the last {form_match_window} "
-        "Elo-rated lead-in matches using a composite of results form, capped goal-difference form, performance versus Elo expectation, "
-        f"and weighted Elo delta. Current blend: Results {results_weight}, GD {gd_weight}, PoE {perf_weight}, Elo Delta {elo_delta_weight}. "
-        "Use the V2 view selector the same way V1 separates single-group and all-group views."
+        f"V2 isolates the history-aware model from V1. This page ranks all 48 teams using rating (40%), weighted lead-in form (40%), "
+        f"and World Cup history (20%). Form covers the last {form_match_window} Elo-rated matches with component weights: "
+        f"Results {results_weight}, GD {gd_weight}, PoE {perf_weight}, Elo Delta {elo_delta_weight}. "
+        "History blends weighted World Cup placement (70%) with weighted appearance count (30%), with DNQ editions scored as zero."
     )
-    with st.spinner(f"Computing weighted form for the last {form_match_window} matches..."):
-        form_df = build_weighted_form_table(
+    with st.spinner(f"Computing V2 history-aware strength for the last {form_match_window} matches..."):
+        form_df = build_v2_team_strengths(
             base_df,
             lead_in_df,
             match_window=form_match_window,
-            composite_weights=form_composite_weights,
+            form_composite_weights=form_composite_weights,
         )
     available_confederations = ordered_confederations(form_df)
     selected_confederation = (
@@ -2261,6 +2465,123 @@ def render_v2_dashboard() -> None:
     render_tables(tables, multi_column=False)
 
 
+def render_v2_probabilities_dashboard() -> None:
+    """Render the version 2 multinomial probability and bracket dashboard."""
+    inject_styles()
+
+    base_df, fixtures_df, lead_in_df, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    if V2_PROB_STATE_KEY not in st.session_state:
+        st.session_state[V2_PROB_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V2_PROB_STATE_KEY])
+
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+        key="v2_prob_simulation_label",
+    )
+    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+    form_match_window = int(
+        st.slider(
+            "Last k matches",
+            min_value=FORM_WINDOW_MIN,
+            max_value=FORM_WINDOW_MAX,
+            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+            key="v2_prob_form_match_window",
+        )
+    )
+    view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v2_prob_view_mode")
+    selected_group = (
+        st.selectbox("Group", GROUP_ORDER, index=0, key="v2_prob_selected_group")
+        if view_mode == "Single group"
+        else GROUP_ORDER[0]
+    )
+
+    st.session_state[V2_PROB_STATE_KEY] = {
+        "simulation_label": simulation_label,
+        "form_match_window": form_match_window,
+    }
+
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        simulation_count,
+        title="World Cup 2026 V2 Probabilities",
+        model_version=V2_MODEL_VERSION,
+        model_label=V2_MODEL_LABEL,
+    )
+    render_countdown_timer(fixtures_df)
+    st.caption(
+        f"Model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
+        f"The v2 page trains a three-class multinomial regression on all World Cup matches from 1950 through 2022, "
+        f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
+        "and prior World Cup history features. Knockout draws are interpreted using the local historical file semantics: "
+        "level before penalties, then resolved by the model's non-draw split."
+    )
+    with st.spinner(f"Training v2 model and running {simulation_count:,} simulations..."):
+        model_bundle = load_v2_match_model(form_match_window)
+        dashboard_df = simulate_probabilities_v2_dashboard(
+            base_df=base_df,
+            fixtures_df=fixtures_df,
+            lead_in_df=lead_in_df,
+            simulations=simulation_count,
+            match_window=form_match_window,
+        )
+        bracket_data = build_deterministic_bracket_v2(
+            dashboard_df,
+            fixtures_df,
+            dashboard_df,
+            model_bundle,
+            head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        )
+    dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
+    metadata_lookup = team_metadata_lookup(dashboard_df)
+    tables = [] if view_mode == "Bracket" else current_view_tables(
+        dashboard_df,
+        view_mode,
+        selected_group,
+        simulation_count=simulation_count,
+    )
+    multi_column = view_mode == "All groups"
+
+    action_cols = st.columns(2)
+    with action_cols[0]:
+        if st.button("Export This V2 Probability View", use_container_width=True, key="v2_prob_export_current"):
+            try:
+                export_path = export_current_view(
+                    view_mode,
+                    selected_group,
+                    tables,
+                    bracket_data=bracket_data,
+                    metadata_lookup=metadata_lookup,
+                    simulation_count=simulation_count,
+                )
+                st.success(f"Exported current view to {export_path}")
+            except RuntimeError as exc:
+                st.error(str(exc))
+            except ValueError as exc:
+                st.error(str(exc))
+    with action_cols[1]:
+        if st.button("Export All V2 Probability Tables", use_container_width=True, key="v2_prob_export_all"):
+            try:
+                exported_paths = export_all_tables(
+                    probability_df=dashboard_df,
+                    simulation_count=simulation_count,
+                )
+                st.success(f"Exported {len(exported_paths)} PNG tables to {EXPORT_DIR}")
+            except RuntimeError as exc:
+                st.error(str(exc))
+
+    if view_mode == "Bracket":
+        render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
+    else:
+        render_tables(tables, multi_column=multi_column)
+
+
 def main() -> None:
     """Render the landing page for the versioned dashboard pages."""
     configure_page("World Cup 2026 Dashboard")
@@ -2276,6 +2597,7 @@ def main() -> None:
 
         - `V1 Probabilities` contains the original group-probability and bracket workflow.
         - `V2 Form` contains the weighted-form tables and confederation splits.
+        - `V2 Probabilities` contains the multinomial match model and full-tournament Monte Carlo outputs.
 
         Settings and exports are separated per page so changes in one version do not interfere with the other by accident.
         """
