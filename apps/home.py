@@ -36,6 +36,7 @@ build_weighted_form_table = simulation.build_weighted_form_table
 fit_v2_match_multinomial_model = simulation.fit_v2_match_multinomial_model
 FORM_SCHEDULE_DIFFICULTY_NEUTRAL = simulation.FORM_SCHEDULE_DIFFICULTY_NEUTRAL
 get_modal_group_rankings = simulation.get_modal_group_rankings
+run_v2_backtest_2022 = simulation.run_v2_backtest_2022
 simulate_group_probabilities = simulation.simulate_group_probabilities
 simulate_group_probabilities_v2 = simulation.simulate_group_probabilities_v2
 WEIGHTED_FORM_COMPOSITE_WEIGHTS = simulation.WEIGHTED_FORM_COMPOSITE_WEIGHTS
@@ -55,7 +56,7 @@ SIMULATION_OPTIONS = {
     "100k": 100000,
 }
 DEFAULT_RECENT_MATCH_WINDOW = 10
-DEFAULT_SIMULATION_LABEL = "100k"
+DEFAULT_SIMULATION_LABEL = "20k"
 GROUP_ORDER = list("ABCDEFGHIJKL")
 VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Form", "Bracket")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
@@ -74,6 +75,7 @@ V2_PROB_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket"
 V1_STATE_KEY = "simulation_settings_v1"
 V2_STATE_KEY = "simulation_settings_v2"
 V2_PROB_STATE_KEY = "simulation_settings_v2_prob"
+V2_BACKTEST_2022_STATE_KEY = "simulation_settings_v2_backtest_2022"
 PROBABILITY_PALETTES = {
     "prob_1": ((220, 252, 231), (22, 163, 74)),
     "prob_2": ((219, 234, 254), (37, 99, 235)),
@@ -94,7 +96,6 @@ FORM_RED_GRADIENT = ("#FCEBEB", "#F7C1C1", "#F09595", "#E24B4A", "#A32D2D")
 FORM_AMBER_GRADIENT = ("#FAEEDA", "#FAC775", "#EF9F27", "#BA7517", "#854F0B")
 FORM_GREEN_GRADIENT = ("#EAF3DE", "#C0DD97", "#97C459", "#639922", "#3B6D11")
 ALL_COUNTRIES_KNOCKOUT_COLUMNS = (
-    ("top8_third_prob", "Top 8 3rd %"),
     ("ko_prob", "KO %"),
     ("r16_prob", "R16 %"),
     ("qf_prob", "QF %"),
@@ -283,6 +284,18 @@ def simulate_probabilities_v2_dashboard(
     )
 
 
+@st.cache_data(show_spinner=False)
+def run_v2_backtest_2022_dashboard(
+    simulations: int = SIMULATION_COUNT,
+    match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+) -> dict[str, object]:
+    """Run and cache the 2022 holdout backtest for the active UI settings."""
+    return run_v2_backtest_2022(
+        match_window=match_window,
+        simulations=simulations,
+    )
+
+
 def ensure_dashboard_probability_columns(df: pd.DataFrame) -> pd.DataFrame:
     """Guarantee probability columns expected by the dashboard exist on the dataframe."""
     normalized = df.copy()
@@ -317,7 +330,7 @@ def chart_subtitle(base_label: str, simulation_count: int | None = None) -> str:
     """Return a chart subtitle with an optional simulation-count suffix."""
     if simulation_count is None:
         return base_label
-    return f"{base_label} | {simulation_count:,} simulations"
+    return f"{base_label} | {simulation_count:,} simulations | @cartierkut1 | data: Kaggle,eloratings.net"
 
 
 def configure_page(page_title: str) -> None:
@@ -1153,14 +1166,15 @@ def build_probability_table_html(
     title: str,
     include_group_column: bool = False,
     include_ko_column: bool = False,
-    card_subtitle: str = "Pre-Tournament Probability Table",
+    card_subtitle: str = "Pre-Tournament Probability Odds",
     group_pill_label: str | None = None,
 ) -> str:
     """Render one probability table as a styled HTML card."""
     df = ensure_dashboard_probability_columns(df)
+    is_all_countries_view = include_group_column and include_ko_column
     include_rank_column = include_group_column
     show_group_qualification_marker = not include_group_column and not include_ko_column
-    probability_columns = ["prob_1", "prob_2", "prob_3", "prob_4"]
+    probability_columns = [] if is_all_countries_view else ["prob_1", "prob_2", "prob_3", "prob_4"]
     if include_ko_column:
         probability_columns.extend(column_name for column_name, _ in ALL_COUNTRIES_KNOCKOUT_COLUMNS)
     column_ranges = {
@@ -1174,12 +1188,13 @@ def build_probability_table_html(
         [
             "<th>Rank</th>" if include_rank_column else "",
             "<th>Country</th>",
+            "<th>Confederation</th>" if is_all_countries_view else "",
             '<th class="wc-num">World Rank</th>',
             '<th class="wc-num">Elo</th>',
-            '<th class="wc-num">1st %</th>',
-            '<th class="wc-num">2nd %</th>',
-            '<th class="wc-num">3rd %</th>',
-            '<th class="wc-num">4th %</th>',
+            '<th class="wc-num">1st %</th>' if not is_all_countries_view else "",
+            '<th class="wc-num">2nd %</th>' if not is_all_countries_view else "",
+            '<th class="wc-num">3rd %</th>' if not is_all_countries_view else "",
+            '<th class="wc-num">4th %</th>' if not is_all_countries_view else "",
         ]
     )
     headers = [header for header in headers if header]
@@ -1204,14 +1219,16 @@ def build_probability_table_html(
                     f'{render_name_cell(row.flag_icon_code, row.display_name, show_group_qualification_marker=show_group_qualification_marker, top2_prob=row.prob_1 + row.prob_2, third_prob=row.top8_third_prob)}'
                     "</td>"
                 ),
+                f'<td>{html.escape(str(getattr(row, "confederation", "")))}</td>' if is_all_countries_view else "",
                 f'<td class="wc-num">{int(row.world_rank)}</td>',
                 f'<td class="wc-num">{int(row.elo_rating)}</td>',
-                f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_1", row.prob_1, *column_ranges["prob_1"])}">{format_percent(row.prob_1)}</td>',
-                f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_2", row.prob_2, *column_ranges["prob_2"])}">{format_percent(row.prob_2)}</td>',
-                f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_3", row.prob_3, *column_ranges["prob_3"])}">{format_percent(row.prob_3)}</td>',
-                f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_4", row.prob_4, *column_ranges["prob_4"])}">{format_percent(row.prob_4)}</td>',
+                f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_1", row.prob_1, *column_ranges["prob_1"])}">{format_percent(row.prob_1)}</td>' if not is_all_countries_view else "",
+                f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_2", row.prob_2, *column_ranges["prob_2"])}">{format_percent(row.prob_2)}</td>' if not is_all_countries_view else "",
+                f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_3", row.prob_3, *column_ranges["prob_3"])}">{format_percent(row.prob_3)}</td>' if not is_all_countries_view else "",
+                f'<td class="wc-num wc-prob" style="{probability_cell_style("prob_4", row.prob_4, *column_ranges["prob_4"])}">{format_percent(row.prob_4)}</td>' if not is_all_countries_view else "",
             ]
         )
+        cells = [cell for cell in cells if cell]
         if include_ko_column:
             for column_name, _ in ALL_COUNTRIES_KNOCKOUT_COLUMNS:
                 column_value = getattr(row, column_name)
@@ -2404,7 +2421,8 @@ def render_v2_dashboard() -> None:
         f"V2 isolates the history-aware model from V1. This page ranks all 48 teams using rating (40%), weighted lead-in form (40%), "
         f"and World Cup history (20%). Form covers the last {form_match_window} Elo-rated matches with component weights: "
         f"Results {results_weight}, GD {gd_weight}, PoE {perf_weight}, Elo Delta {elo_delta_weight}. "
-        "History blends weighted World Cup placement (70%) with weighted appearance count (30%), with DNQ editions scored as zero."
+        "History blends weighted World Cup placement (70%) with weighted appearance count (30%) across the previous 5 World Cup editions, "
+        "with DNQ editions scored as zero."
     )
     with st.spinner(f"Computing V2 history-aware strength for the last {form_match_window} matches..."):
         form_df = build_v2_team_strengths(
@@ -2517,9 +2535,9 @@ def render_v2_probabilities_dashboard() -> None:
     render_countdown_timer(fixtures_df)
     st.caption(
         f"Model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
-        f"The v2 page trains a three-class multinomial regression on all World Cup matches from 1950 through 2022, "
+        "The v2 page trains a three-class multinomial regression on the previous 5 completed World Cup editions, "
         f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
-        "and prior World Cup history features. Knockout draws are interpreted using the local historical file semantics: "
+        "and prior-5-edition World Cup history features. Knockout draws are interpreted using the local historical file semantics: "
         "level before penalties, then resolved by the model's non-draw split."
     )
     with st.spinner(f"Training v2 model and running {simulation_count:,} simulations..."):
@@ -2582,6 +2600,159 @@ def render_v2_probabilities_dashboard() -> None:
         render_tables(tables, multi_column=multi_column)
 
 
+def render_v2_2022_backtest_dashboard() -> None:
+    """Render the 2022 holdout backtest page for the V2 model."""
+    inject_styles()
+
+    _, fixtures_df, _, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    if V2_BACKTEST_2022_STATE_KEY not in st.session_state:
+        st.session_state[V2_BACKTEST_2022_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V2_BACKTEST_2022_STATE_KEY])
+
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+        key="v2_backtest_2022_simulation_label",
+    )
+    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+    form_match_window = int(
+        st.slider(
+            "Last k matches",
+            min_value=FORM_WINDOW_MIN,
+            max_value=FORM_WINDOW_MAX,
+            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+            key="v2_backtest_2022_form_match_window",
+        )
+    )
+    st.session_state[V2_BACKTEST_2022_STATE_KEY] = {
+        "simulation_label": simulation_label,
+        "form_match_window": form_match_window,
+    }
+
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        simulation_count,
+        title="World Cup 2022 V2 Backtest",
+        model_version=V2_MODEL_VERSION,
+        model_label=V2_MODEL_LABEL,
+    )
+    st.caption(
+        f"Model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
+        f"This page trains the V2 multinomial model with 2022 excluded from training, then backtests the actual 2022 World Cup "
+        f"using the 5 prior completed World Cup editions, pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
+        "and prior-5-edition World Cup history features. "
+        "It reports match-level calibration plus tournament-level hit rates."
+    )
+
+    with st.spinner(f"Running the 2022 holdout backtest with {simulation_count:,} simulations..."):
+        backtest = run_v2_backtest_2022_dashboard(
+            simulations=simulation_count,
+            match_window=form_match_window,
+        )
+
+    summary_metrics = dict(backtest["summary_metrics"])
+    match_predictions = pd.DataFrame(backtest["match_predictions"]).copy()
+    team_backtest_table = pd.DataFrame(backtest["team_backtest_table"]).copy()
+    group_backtest_table = pd.DataFrame(backtest["group_backtest_table"]).copy()
+    bracket_summary = dict(backtest["bracket_summary"])
+
+    team_name_lookup = (
+        team_backtest_table.loc[:, ["team_id", "display_name"]]
+        .drop_duplicates(subset=["team_id"], keep="first")
+        .set_index("team_id")["display_name"]
+        .astype(str)
+        .to_dict()
+    )
+    predicted_champion_name = team_name_lookup.get(summary_metrics["predicted_champion_team_id"], str(summary_metrics["predicted_champion_team_id"]))
+    actual_champion_name = team_name_lookup.get(summary_metrics["actual_champion_team_id"], str(summary_metrics["actual_champion_team_id"]))
+
+    metric_cols = st.columns(6)
+    metric_cols[0].metric("Log Loss", format_decimal(summary_metrics["multiclass_log_loss"], 4))
+    metric_cols[1].metric("Brier Score", format_decimal(summary_metrics["multiclass_brier_score"], 4))
+    metric_cols[2].metric("Top-1 Accuracy", format_percent(summary_metrics["top1_match_accuracy"]))
+    metric_cols[3].metric("Champion Hit", "Yes" if summary_metrics["exact_champion_hit"] else "No")
+    metric_cols[4].metric("Semi-final Hits", f"{int(summary_metrics['semifinal_hit_count'])}/4")
+    metric_cols[5].metric("R16 Hits", f"{int(summary_metrics['round_of_16_hit_count'])}/16")
+
+    st.markdown(
+        f"**Champion**  Predicted: `{predicted_champion_name}` | Actual: `{actual_champion_name}`"
+    )
+
+    bracket_cols = st.columns(2)
+    with bracket_cols[0]:
+        predicted_finalists = ", ".join(team_name_lookup.get(team_id, str(team_id)) for team_id in bracket_summary["predicted_finalist_team_ids"])
+        predicted_semifinalists = ", ".join(team_name_lookup.get(team_id, str(team_id)) for team_id in bracket_summary["predicted_semifinalist_team_ids"])
+        st.markdown("**Predicted Bracket Summary**")
+        st.write(f"Champion: {team_name_lookup.get(bracket_summary['predicted_champion_team_id'], str(bracket_summary['predicted_champion_team_id']))}")
+        st.write(f"Finalists: {predicted_finalists}")
+        st.write(f"Semi-finalists: {predicted_semifinalists}")
+    with bracket_cols[1]:
+        actual_finalists = ", ".join(team_name_lookup.get(team_id, str(team_id)) for team_id in bracket_summary["actual_finalist_team_ids"])
+        actual_semifinalists = ", ".join(team_name_lookup.get(team_id, str(team_id)) for team_id in bracket_summary["actual_semifinalist_team_ids"])
+        st.markdown("**Actual 2022 Outcome**")
+        st.write(f"Champion: {team_name_lookup.get(bracket_summary['actual_champion_team_id'], str(bracket_summary['actual_champion_team_id']))}")
+        st.write(f"Finalists: {actual_finalists}")
+        st.write(f"Semi-finalists: {actual_semifinalists}")
+
+    st.markdown("**Match Predictions**")
+    st.dataframe(
+        match_predictions.loc[
+            :,
+            [
+                "match_number",
+                "stage",
+                "group_code",
+                "home_team",
+                "away_team",
+                "home_score",
+                "away_score",
+                "home_win_prob",
+                "draw_prob",
+                "away_win_prob",
+                "predicted_outcome",
+                "actual_outcome",
+                "top1_correct",
+            ],
+        ],
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.markdown("**Group Finish Backtest**")
+    st.dataframe(
+        group_backtest_table,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.markdown("**Team Advancement Backtest**")
+    st.dataframe(
+        team_backtest_table.loc[
+            :,
+            [
+                "group_code",
+                "display_name",
+                "actual_stage",
+                "actual_group_rank",
+                "modal_group_rank",
+                "r16_prob",
+                "qf_prob",
+                "sf_prob",
+                "final_prob",
+                "champion_prob",
+            ],
+        ],
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
 def main() -> None:
     """Render the landing page for the versioned dashboard pages."""
     configure_page("World Cup 2026 Dashboard")
@@ -2598,6 +2769,7 @@ def main() -> None:
         - `V1 Probabilities` contains the original group-probability and bracket workflow.
         - `V2 Form` contains the weighted-form tables and confederation splits.
         - `V2 Probabilities` contains the multinomial match model and full-tournament Monte Carlo outputs.
+        - `V2 2022 Backtest` evaluates the V2 model on the real 2022 tournament with 2022 excluded from training.
 
         Settings and exports are separated per page so changes in one version do not interfere with the other by accident.
         """

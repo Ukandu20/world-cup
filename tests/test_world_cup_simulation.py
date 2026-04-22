@@ -14,9 +14,12 @@ if str(ROOT) not in sys.path:
 
 from world_cup_simulation import (  # noqa: E402
     THIRD_PLACE_ROUTING_MAP,
+    V2_PREVIOUS_EDITION_LOOKBACK,
     WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT,
+    build_2022_backtest_data,
     build_deterministic_bracket,
     build_deterministic_bracket_v2,
+    build_deterministic_bracket_v2_32team,
     build_v2_match_feature_table,
     build_v2_team_strengths,
     build_v2_training_frame,
@@ -33,7 +36,9 @@ from world_cup_simulation import (  # noqa: E402
     predict_knockout_matchup_v2,
     rank_best_third_place_teams,
     rank_group_standings,
+    run_v2_backtest_2022,
     simulate_group_probabilities,
+    simulate_group_probabilities_v2_32team,
     simulate_group_probabilities_v2,
 )
 from scripts.build_world_cup_2026_dataset import (  # noqa: E402
@@ -163,7 +168,7 @@ def test_default_simulation_settings_include_form_window():
     defaults = home.default_simulation_settings()
 
     assert defaults == {
-        "simulation_label": "100k",
+        "simulation_label": "20k",
         "form_match_window": 10,
         "v2_results_weight": 40,
         "v2_gd_weight": 25,
@@ -1394,6 +1399,7 @@ def test_build_table_html_all_countries_includes_ko_column_only_when_requested()
                 "group_code": "J",
                 "flag_icon_code": "ar",
                 "display_name": "Argentina",
+                "confederation": "CONMEBOL",
                 "world_rank": 1,
                 "elo_rating": 2140,
                 "prob_1": 61.5,
@@ -1413,7 +1419,7 @@ def test_build_table_html_all_countries_includes_ko_column_only_when_requested()
 
     html = home.build_table_html(sample_df, "All Countries", include_group_column=True, include_ko_column=True)
 
-    assert "Top 8 3rd %" in html
+    assert "Confederation" in html
     assert "KO %" in html
     assert "R16 %" in html
     assert "QF %" in html
@@ -1421,6 +1427,12 @@ def test_build_table_html_all_countries_includes_ko_column_only_when_requested()
     assert "Final %" in html
     assert "Champion %" in html
     assert "Rank" in html
+    assert "1st %" not in html
+    assert "2nd %" not in html
+    assert "3rd %" not in html
+    assert "4th %" not in html
+    assert "Top 8 3rd %" not in html
+    assert "CONMEBOL" in html
     assert "86.0%" in html
     assert "wc-qual-marker" not in html
 
@@ -1434,6 +1446,7 @@ def test_build_table_html_all_countries_embeds_champion_trophy_icon():
                 "group_code": "J",
                 "flag_icon_code": "ar",
                 "display_name": "Argentina",
+                "confederation": "CONMEBOL",
                 "world_rank": 1,
                 "elo_rating": 2140,
                 "prob_1": 61.5,
@@ -1466,6 +1479,7 @@ def test_build_table_html_renders_simulation_count_when_provided():
                 "group_code": "J",
                 "flag_icon_code": "ar",
                 "display_name": "Argentina",
+                "confederation": "CONMEBOL",
                 "world_rank": 1,
                 "elo_rating": 2140,
                 "prob_1": 61.5,
@@ -1704,11 +1718,10 @@ def test_get_first_kickoff_details_uses_earliest_group_stage_fixture():
     assert kickoff["kickoff_utc_time_label"] == "19:00"
 
 
-def test_build_v2_training_frame_uses_1950_to_2022_and_includes_knockout_rows():
+def test_build_v2_training_frame_uses_previous_five_editions_and_includes_knockout_rows():
     training_df = build_v2_training_frame(match_window=4)
 
-    assert int(training_df["edition"].min()) >= 1950
-    assert int(training_df["edition"].max()) <= 2022
+    assert set(training_df["edition"].astype(int)) == {2006, 2010, 2014, 2018, 2022}
     assert {"Group Stage", "Quarter-final", "Semi-final", "Final"}.issubset(set(training_df["stage"]))
     assert {"group", "knockout"} == set(training_df["stage_bucket"])
     assert set(training_df["outcome_label"]).issubset({"home_win", "draw", "away_win"})
@@ -1725,6 +1738,13 @@ def test_build_v2_training_frame_uses_1950_to_2022_and_includes_knockout_rows():
         assert column_name in training_df.columns
 
 
+def test_build_v2_training_frame_excludes_holdout_edition():
+    training_df = build_v2_training_frame(match_window=4, exclude_editions=(2022,))
+
+    assert 2022 not in set(training_df["edition"].astype(int))
+    assert set(training_df["edition"].astype(int)) == {2002, 2006, 2010, 2014, 2018}
+
+
 def test_fit_v2_model_predicts_valid_probability_triplet():
     home = load_home_module()
     base_df, _, lead_in_df, _ = home.load_data()
@@ -1733,6 +1753,7 @@ def test_fit_v2_model_predicts_valid_probability_triplet():
     model_bundle = fit_v2_match_multinomial_model(match_window=4)
 
     assert set(model_bundle["model"].classes_) == {"away_win", "draw", "home_win"}
+    assert model_bundle["edition_lookback"] == V2_PREVIOUS_EDITION_LOOKBACK
 
     first_team_id = str(feature_df.iloc[0]["team_id"])
     second_team_id = str(feature_df.iloc[1]["team_id"])
@@ -1747,6 +1768,24 @@ def test_fit_v2_model_predicts_valid_probability_triplet():
     assert 0.0 <= float(prediction["home_win_prob"]) <= 1.0
     assert 0.0 <= float(prediction["draw_prob"]) <= 1.0
     assert 0.0 <= float(prediction["away_win_prob"]) <= 1.0
+
+
+def test_build_2022_backtest_data_constructs_expected_tournament_shape():
+    backtest_data = build_2022_backtest_data()
+    base_df = pd.DataFrame(backtest_data["base_df"])
+    fixtures_df = pd.DataFrame(backtest_data["fixtures_df"])
+
+    assert len(base_df) == 32
+    assert set(base_df["group_code"]) == set("ABCDEFGH")
+    assert (base_df.groupby("group_code").size() == 4).all()
+    assert len(fixtures_df[fixtures_df["round_code"] == "GS"]) == 48
+    assert len(fixtures_df[fixtures_df["round_code"].isin(["R16", "QF", "SF", "3P", "F"])]) == 16
+
+    knockout_labels = fixtures_df.set_index("match_number")[["home_slot_label", "away_slot_label"]].to_dict("index")
+    assert knockout_labels[49] == {"home_slot_label": "1A", "away_slot_label": "2B"}
+    assert knockout_labels[57] == {"home_slot_label": "W53", "away_slot_label": "W54"}
+    assert knockout_labels[61] == {"home_slot_label": "W57", "away_slot_label": "W58"}
+    assert knockout_labels[64] == {"home_slot_label": "W61", "away_slot_label": "W62"}
 
 
 def test_predict_knockout_matchup_v2_returns_valid_winner_and_probability():
@@ -1836,9 +1875,88 @@ def test_build_deterministic_bracket_v2_produces_consistent_field():
     assert bracket["qualifying_third_place_groups"] in THIRD_PLACE_ROUTING_MAP
 
 
+def test_simulate_group_probabilities_v2_32team_preserves_probability_invariants():
+    backtest_data = build_2022_backtest_data()
+    dashboard_df = simulate_group_probabilities_v2_32team(
+        base_df=pd.DataFrame(backtest_data["base_df"]),
+        fixtures_df=pd.DataFrame(backtest_data["fixtures_df"]),
+        lead_in_df=pd.DataFrame(backtest_data["lead_in_df"]),
+        simulations=20,
+        match_window=4,
+        exclude_editions=(2022,),
+    )
+
+    for _, row in dashboard_df.iterrows():
+        total_probability = row["prob_1"] + row["prob_2"] + row["prob_3"] + row["prob_4"]
+        assert abs(total_probability - 100.0) < 1e-9
+        assert row["champion_prob"] <= row["final_prob"] + 1e-9
+        assert row["final_prob"] <= row["sf_prob"] + 1e-9
+        assert row["sf_prob"] <= row["qf_prob"] + 1e-9
+        assert row["qf_prob"] <= row["r16_prob"] + 1e-9
+
+
+def test_build_deterministic_bracket_v2_32team_produces_consistent_field():
+    backtest_data = build_2022_backtest_data()
+    base_df = pd.DataFrame(backtest_data["base_df"])
+    fixtures_df = pd.DataFrame(backtest_data["fixtures_df"])
+    lead_in_df = pd.DataFrame(backtest_data["lead_in_df"])
+    simulation_df = simulate_group_probabilities_v2_32team(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=16,
+        match_window=4,
+        exclude_editions=(2022,),
+    )
+    feature_df = build_v2_match_feature_table(base_df, lead_in_df, match_window=4)
+    model_bundle = fit_v2_match_multinomial_model(match_window=4, exclude_editions=(2022,))
+
+    bracket = build_deterministic_bracket_v2_32team(
+        simulation_df,
+        fixtures_df,
+        feature_df,
+        model_bundle,
+        head_to_head_simulations=40,
+        seed=19,
+    )
+
+    assert [round_data["round_code"] for round_data in bracket["rounds"]] == ["R16", "QF", "SF", "F"]
+    assert sum(len(round_data["matches"]) for round_data in bracket["rounds"]) == 15
+
+
+def test_run_v2_backtest_2022_returns_valid_metrics_and_actual_champion():
+    backtest = run_v2_backtest_2022(match_window=4, simulations=20, seed=17)
+    summary_metrics = dict(backtest["summary_metrics"])
+    team_backtest_table = pd.DataFrame(backtest["team_backtest_table"])
+    match_predictions = pd.DataFrame(backtest["match_predictions"])
+
+    assert 0.0 <= float(summary_metrics["multiclass_log_loss"])
+    assert 0.0 <= float(summary_metrics["multiclass_brier_score"])
+    assert 0.0 <= float(summary_metrics["top1_match_accuracy"]) <= 100.0
+    assert int(summary_metrics["semifinal_hit_count"]) <= 4
+    assert int(summary_metrics["round_of_16_hit_count"]) <= 16
+    assert summary_metrics["actual_champion_team_id"] == "ARG"
+    assert len(match_predictions) == 64
+
+    argentina_row = team_backtest_table.loc[team_backtest_table["team_id"] == "ARG"].iloc[0]
+    assert argentina_row["actual_stage"] == "Champion"
+    assert argentina_row["champion_prob"] <= argentina_row["final_prob"] + 1e-9
+    assert argentina_row["final_prob"] <= argentina_row["sf_prob"] + 1e-9
+    assert argentina_row["sf_prob"] <= argentina_row["qf_prob"] + 1e-9
+    assert argentina_row["qf_prob"] <= argentina_row["r16_prob"] + 1e-9
+
+
 def test_v2_probabilities_page_exists_and_wires_home_renderer():
     page_path = ROOT / "apps" / "pages" / "3_V2_Probabilities.py"
 
     assert page_path.exists()
     page_text = page_path.read_text(encoding="utf-8")
     assert "render_v2_probabilities_dashboard" in page_text
+
+
+def test_v2_2022_backtest_page_exists_and_wires_home_renderer():
+    page_path = ROOT / "apps" / "pages" / "4_V2_2022_Backtest.py"
+
+    assert page_path.exists()
+    page_text = page_path.read_text(encoding="utf-8")
+    assert "render_v2_2022_backtest_dashboard" in page_text
