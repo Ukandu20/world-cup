@@ -118,12 +118,67 @@ This means the current probabilities should still be interpreted as pre-tourname
 
 ## V2 Multinomial Probabilities
 
-The dashboard now also includes a separate `V2 Probabilities` page.
+The dashboard also includes separate `V2 Form`, `V2 Probabilities`, and `V2 2022 Backtest` pages.
 
-- it trains a multinomial logistic regression on World Cup matches from `1950` through `2022`
-- the training sample includes both group-stage and knockout matches
-- features are built from pre-tournament Elo, weighted recent form, and prior World Cup history
-- the model outputs `home_win`, `draw`, and `away_win` probabilities for each matchup
-- tournament simulations sample those match outcomes directly, then resolve knockout draws as penalties using the model's non-draw split
+### Current V2 Model Card
 
-The original `V1 Probabilities` page remains unchanged, and `V2 Form` remains the ranking-only page.
+Model type:
+
+- multinomial logistic regression for match outcomes
+- output classes: `home_win`, `draw`, `away_win`
+- tournament probabilities are produced by Monte Carlo simulation on top of those match probabilities
+
+Training window:
+
+- uses the previous `5` completed World Cup editions
+- includes both group-stage and knockout matches
+- the `2022` backtest excludes `2022` from training, so it uses the previous `5` editions before that
+
+V2 team-strength inputs:
+
+- rating block: currently `Elo-only` in practice because `BASELINE_RATING_WEIGHTS = (1.0, 0.0)`
+- weighted recent form block:
+  - `results_form`
+  - `gd_form`
+  - `perf_vs_exp`
+  - `elo_delta_form`
+- World Cup history block from the previous `5` editions:
+  - weighted placement score
+  - weighted participation ratio
+
+V2 team-strength blend:
+
+- `40%` rating
+- `40%` weighted recent form
+- `20%` World Cup history
+
+History sub-weights:
+
+- `70%` weighted placement score
+- `30%` weighted participation ratio
+
+Weighted form sub-weights:
+
+- `40%` results
+- `25%` goal difference
+- `25%` performance versus Elo expectation
+- `10%` Elo delta
+
+Match-model feature set:
+
+- `elo_diff`
+- `results_form_diff`
+- `gd_form_diff`
+- `perf_vs_exp_diff`
+- `goals_for_diff`
+- `goals_against_diff`
+- `placement_diff`
+- `appearance_diff`
+
+Behavior:
+
+- `V2 Form` exposes the history-aware team ranking surface
+- `V2 Probabilities` uses the multinomial match model to simulate the 2026 tournament
+- `V2 2022 Backtest` evaluates the same model family on the real 2022 tournament with `2022` held out from training
+
+The original `V1 Probabilities` page remains unchanged.
