@@ -28,17 +28,25 @@ MODEL_VERSION = simulation.MODEL_VERSION
 V2_MODEL_LABEL = simulation.V2_MODEL_LABEL
 V2_MODEL_SUMMARY = simulation.V2_MODEL_SUMMARY
 V2_MODEL_VERSION = simulation.V2_MODEL_VERSION
+V3_MODEL_LABEL = simulation.V3_MODEL_LABEL
+V3_MODEL_SUMMARY = simulation.V3_MODEL_SUMMARY
+V3_MODEL_VERSION = simulation.V3_MODEL_VERSION
 build_deterministic_bracket = simulation.build_deterministic_bracket
 build_deterministic_bracket_v2 = simulation.build_deterministic_bracket_v2
+build_deterministic_bracket_v3 = simulation.build_deterministic_bracket_v3
 build_v2_team_strengths = simulation.build_v2_team_strengths
 build_v2_match_feature_table = simulation.build_v2_match_feature_table
+build_v3_team_feature_table = simulation.build_v3_team_feature_table
 build_weighted_form_table = simulation.build_weighted_form_table
 fit_v2_match_multinomial_model = simulation.fit_v2_match_multinomial_model
+fit_v3_poisson_models = simulation.fit_v3_poisson_models
 FORM_SCHEDULE_DIFFICULTY_NEUTRAL = simulation.FORM_SCHEDULE_DIFFICULTY_NEUTRAL
 get_modal_group_rankings = simulation.get_modal_group_rankings
 run_v2_backtest_2022 = simulation.run_v2_backtest_2022
+run_v3_2022_backtest = simulation.run_v3_2022_backtest
 simulate_group_probabilities = simulation.simulate_group_probabilities
 simulate_group_probabilities_v2 = simulation.simulate_group_probabilities_v2
+simulate_group_probabilities_v3 = simulation.simulate_group_probabilities_v3
 WEIGHTED_FORM_COMPOSITE_WEIGHTS = simulation.WEIGHTED_FORM_COMPOSITE_WEIGHTS
 
 DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
@@ -76,6 +84,8 @@ V1_STATE_KEY = "simulation_settings_v1"
 V2_STATE_KEY = "simulation_settings_v2"
 V2_PROB_STATE_KEY = "simulation_settings_v2_prob"
 V2_BACKTEST_2022_STATE_KEY = "simulation_settings_v2_backtest_2022"
+V3_PROB_STATE_KEY = "simulation_settings_v3_prob"
+V3_BACKTEST_2022_STATE_KEY = "simulation_settings_v3_backtest_2022"
 PROBABILITY_PALETTES = {
     "prob_1": ((220, 252, 231), (22, 163, 74)),
     "prob_2": ((219, 234, 254), (37, 99, 235)),
@@ -179,6 +189,7 @@ def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, str
         "flag_icon_code",
         "group_code",
         "confederation",
+        "is_host",
         "world_cup_participations",
         "weighted_world_cup_participations",
         "weighted_world_cup_placement_score",
@@ -266,6 +277,12 @@ def load_v2_match_model(form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW) ->
     return fit_v2_match_multinomial_model(match_window=form_match_window)
 
 
+@st.cache_resource(show_spinner=False)
+def load_v3_poisson_model(form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW) -> dict[str, object]:
+    """Fit and cache the v3 Poisson model artifacts for the active form window."""
+    return fit_v3_poisson_models(match_window=form_match_window)
+
+
 @st.cache_data(show_spinner=False)
 def simulate_probabilities_v2_dashboard(
     base_df: pd.DataFrame,
@@ -285,12 +302,42 @@ def simulate_probabilities_v2_dashboard(
 
 
 @st.cache_data(show_spinner=False)
+def simulate_probabilities_v3_dashboard(
+    base_df: pd.DataFrame,
+    fixtures_df: pd.DataFrame,
+    lead_in_df: pd.DataFrame,
+    simulations: int = SIMULATION_COUNT,
+    match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+) -> pd.DataFrame:
+    """Estimate tournament probabilities from the v3 Poisson simulator."""
+    return simulate_group_probabilities_v3(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=simulations,
+        match_window=match_window,
+    )
+
+
+@st.cache_data(show_spinner=False)
 def run_v2_backtest_2022_dashboard(
     simulations: int = SIMULATION_COUNT,
     match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
 ) -> dict[str, object]:
     """Run and cache the 2022 holdout backtest for the active UI settings."""
     return run_v2_backtest_2022(
+        match_window=match_window,
+        simulations=simulations,
+    )
+
+
+@st.cache_data(show_spinner=False)
+def run_v3_backtest_2022_dashboard(
+    simulations: int = SIMULATION_COUNT,
+    match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+) -> dict[str, object]:
+    """Run and cache the 2022 holdout backtest for the active V3 UI settings."""
+    return run_v3_2022_backtest(
         match_window=match_window,
         simulations=simulations,
     )
@@ -2600,6 +2647,122 @@ def render_v2_probabilities_dashboard() -> None:
         render_tables(tables, multi_column=multi_column)
 
 
+def render_v3_probabilities_dashboard() -> None:
+    """Render the version 3 Poisson probability and bracket dashboard."""
+    inject_styles()
+
+    base_df, fixtures_df, lead_in_df, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    if V3_PROB_STATE_KEY not in st.session_state:
+        st.session_state[V3_PROB_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V3_PROB_STATE_KEY])
+
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+        key="v3_prob_simulation_label",
+    )
+    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+    form_match_window = int(
+        st.slider(
+            "Last k matches",
+            min_value=FORM_WINDOW_MIN,
+            max_value=FORM_WINDOW_MAX,
+            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+            key="v3_prob_form_match_window",
+        )
+    )
+    view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v3_prob_view_mode")
+    selected_group = (
+        st.selectbox("Group", GROUP_ORDER, index=0, key="v3_prob_selected_group")
+        if view_mode == "Single group"
+        else GROUP_ORDER[0]
+    )
+
+    st.session_state[V3_PROB_STATE_KEY] = {
+        "simulation_label": simulation_label,
+        "form_match_window": form_match_window,
+    }
+
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        simulation_count,
+        title="World Cup 2026 V3 Probabilities",
+        model_version=V3_MODEL_VERSION,
+        model_label=V3_MODEL_LABEL,
+    )
+    render_countdown_timer(fixtures_df)
+    st.caption(
+        f"Model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
+        "The v3 page trains paired Poisson regressors on international matches since 1998, "
+        f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
+        "prior-5-edition World Cup pedigree, competition-importance weighting, and host flags for Canada, Mexico, and the United States."
+    )
+    with st.spinner(f"Training v3 model and running {simulation_count:,} simulations..."):
+        model_bundle = load_v3_poisson_model(form_match_window)
+        dashboard_df = simulate_probabilities_v3_dashboard(
+            base_df=base_df,
+            fixtures_df=fixtures_df,
+            lead_in_df=lead_in_df,
+            simulations=simulation_count,
+            match_window=form_match_window,
+        )
+        bracket_data = build_deterministic_bracket_v3(
+            dashboard_df,
+            fixtures_df,
+            dashboard_df,
+            model_bundle,
+            head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        )
+    dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
+    metadata_lookup = team_metadata_lookup(dashboard_df)
+    tables = [] if view_mode == "Bracket" else current_view_tables(
+        dashboard_df,
+        view_mode,
+        selected_group,
+        simulation_count=simulation_count,
+    )
+    multi_column = view_mode == "All groups"
+
+    action_cols = st.columns(2)
+    with action_cols[0]:
+        if st.button("Export This V3 Probability View", use_container_width=True, key="v3_prob_export_current"):
+            try:
+                export_path = export_current_view(
+                    view_mode,
+                    selected_group,
+                    tables,
+                    bracket_data=bracket_data,
+                    metadata_lookup=metadata_lookup,
+                    simulation_count=simulation_count,
+                )
+                st.success(f"Exported current view to {export_path}")
+            except RuntimeError as exc:
+                st.error(str(exc))
+            except ValueError as exc:
+                st.error(str(exc))
+    with action_cols[1]:
+        if st.button("Export All V3 Probability Tables", use_container_width=True, key="v3_prob_export_all"):
+            try:
+                exported_paths = export_all_tables(
+                    probability_df=dashboard_df,
+                    simulation_count=simulation_count,
+                )
+                st.success(f"Exported {len(exported_paths)} PNG tables to {EXPORT_DIR}")
+            except RuntimeError as exc:
+                st.error(str(exc))
+
+    if view_mode == "Bracket":
+        render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
+    else:
+        render_tables(tables, multi_column=multi_column)
+
+
 def render_v2_2022_backtest_dashboard() -> None:
     """Render the 2022 holdout backtest page for the V2 model."""
     inject_styles()
@@ -2753,6 +2916,163 @@ def render_v2_2022_backtest_dashboard() -> None:
     )
 
 
+def render_v3_2022_backtest_dashboard() -> None:
+    """Render the 2022 holdout backtest page for the V3 model."""
+    inject_styles()
+
+    _, fixtures_df, _, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    if V3_BACKTEST_2022_STATE_KEY not in st.session_state:
+        st.session_state[V3_BACKTEST_2022_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V3_BACKTEST_2022_STATE_KEY])
+
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+        key="v3_backtest_2022_simulation_label",
+    )
+    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+    form_match_window = int(
+        st.slider(
+            "Last k matches",
+            min_value=FORM_WINDOW_MIN,
+            max_value=FORM_WINDOW_MAX,
+            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+            key="v3_backtest_2022_form_match_window",
+        )
+    )
+    st.session_state[V3_BACKTEST_2022_STATE_KEY] = {
+        "simulation_label": simulation_label,
+        "form_match_window": form_match_window,
+    }
+
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        simulation_count,
+        title="World Cup 2022 V3 Backtest",
+        model_version=V3_MODEL_VERSION,
+        model_label=V3_MODEL_LABEL,
+    )
+    st.caption(
+        f"Model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
+        f"This page trains the V3 Poisson goal model on international matches from 1998 through the eve of the 2022 World Cup, "
+        f"then backtests the actual tournament using weighted form from the last {form_match_window} Elo-rated matches and prior-5-edition pedigree features. "
+        "It reports match-level calibration plus tournament-level hit rates."
+    )
+
+    with st.spinner(f"Running the 2022 V3 backtest with {simulation_count:,} simulations..."):
+        backtest = run_v3_backtest_2022_dashboard(
+            simulations=simulation_count,
+            match_window=form_match_window,
+        )
+
+    summary_metrics = dict(backtest["summary_metrics"])
+    match_predictions = pd.DataFrame(backtest["match_predictions"]).copy()
+    team_backtest_table = pd.DataFrame(backtest["team_backtest_table"]).copy()
+    group_backtest_table = pd.DataFrame(backtest["group_backtest_table"]).copy()
+    bracket_summary = dict(backtest["bracket_summary"])
+
+    team_name_lookup = (
+        team_backtest_table.loc[:, ["team_id", "display_name"]]
+        .drop_duplicates(subset=["team_id"], keep="first")
+        .set_index("team_id")["display_name"]
+        .astype(str)
+        .to_dict()
+    )
+    predicted_champion_name = team_name_lookup.get(summary_metrics["predicted_champion_team_id"], str(summary_metrics["predicted_champion_team_id"]))
+    actual_champion_name = team_name_lookup.get(summary_metrics["actual_champion_team_id"], str(summary_metrics["actual_champion_team_id"]))
+
+    metric_cols = st.columns(6)
+    metric_cols[0].metric("Log Loss", format_decimal(summary_metrics["multiclass_log_loss"], 4))
+    metric_cols[1].metric("Brier Score", format_decimal(summary_metrics["multiclass_brier_score"], 4))
+    metric_cols[2].metric("Top-1 Accuracy", format_percent(summary_metrics["top1_match_accuracy"]))
+    metric_cols[3].metric("Champion Hit", "Yes" if summary_metrics["exact_champion_hit"] else "No")
+    metric_cols[4].metric("Semi-final Hits", f"{int(summary_metrics['semifinal_hit_count'])}/4")
+    metric_cols[5].metric("R16 Hits", f"{int(summary_metrics['round_of_16_hit_count'])}/16")
+    st.caption(
+        f"Draw calibration: predicted {format_percent(summary_metrics['draw_rate_predicted'])} | actual {format_percent(summary_metrics['draw_rate_actual'])}"
+    )
+
+    st.markdown(
+        f"**Champion**  Predicted: `{predicted_champion_name}` | Actual: `{actual_champion_name}`"
+    )
+
+    bracket_cols = st.columns(2)
+    with bracket_cols[0]:
+        predicted_finalists = ", ".join(team_name_lookup.get(team_id, str(team_id)) for team_id in bracket_summary["predicted_finalist_team_ids"])
+        predicted_semifinalists = ", ".join(team_name_lookup.get(team_id, str(team_id)) for team_id in bracket_summary["predicted_semifinalist_team_ids"])
+        st.markdown("**Predicted Bracket Summary**")
+        st.write(f"Champion: {team_name_lookup.get(bracket_summary['predicted_champion_team_id'], str(bracket_summary['predicted_champion_team_id']))}")
+        st.write(f"Finalists: {predicted_finalists}")
+        st.write(f"Semi-finalists: {predicted_semifinalists}")
+    with bracket_cols[1]:
+        actual_finalists = ", ".join(team_name_lookup.get(team_id, str(team_id)) for team_id in bracket_summary["actual_finalist_team_ids"])
+        actual_semifinalists = ", ".join(team_name_lookup.get(team_id, str(team_id)) for team_id in bracket_summary["actual_semifinalist_team_ids"])
+        st.markdown("**Actual 2022 Outcome**")
+        st.write(f"Champion: {team_name_lookup.get(bracket_summary['actual_champion_team_id'], str(bracket_summary['actual_champion_team_id']))}")
+        st.write(f"Finalists: {actual_finalists}")
+        st.write(f"Semi-finalists: {actual_semifinalists}")
+
+    st.markdown("**Match Predictions**")
+    st.dataframe(
+        match_predictions.loc[
+            :,
+            [
+                "match_number",
+                "stage",
+                "group_code",
+                "home_team",
+                "away_team",
+                "home_score",
+                "away_score",
+                "lambda_home",
+                "lambda_away",
+                "home_win_prob",
+                "draw_prob",
+                "away_win_prob",
+                "predicted_outcome",
+                "actual_outcome",
+                "top1_correct",
+            ],
+        ],
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.markdown("**Group Finish Backtest**")
+    st.dataframe(
+        group_backtest_table,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.markdown("**Team Advancement Backtest**")
+    st.dataframe(
+        team_backtest_table.loc[
+            :,
+            [
+                "group_code",
+                "display_name",
+                "actual_stage",
+                "actual_group_rank",
+                "modal_group_rank",
+                "r16_prob",
+                "qf_prob",
+                "sf_prob",
+                "final_prob",
+                "champion_prob",
+            ],
+        ],
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
 def main() -> None:
     """Render the landing page for the versioned dashboard pages."""
     configure_page("World Cup 2026 Dashboard")
@@ -2770,6 +3090,8 @@ def main() -> None:
         - `V2 Form` contains the weighted-form tables and confederation splits.
         - `V2 Probabilities` contains the multinomial match model and full-tournament Monte Carlo outputs.
         - `V2 2022 Backtest` evaluates the V2 model on the real 2022 tournament with 2022 excluded from training.
+        - `V3 Probabilities` contains the Poisson expected-goals model and full-tournament Monte Carlo outputs.
+        - `V3 2022 Backtest` evaluates the V3 model on the real 2022 tournament using only pre-tournament data.
 
         Settings and exports are separated per page so changes in one version do not interfere with the other by accident.
         """

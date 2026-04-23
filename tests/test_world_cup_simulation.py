@@ -15,31 +15,41 @@ if str(ROOT) not in sys.path:
 from world_cup_simulation import (  # noqa: E402
     THIRD_PLACE_ROUTING_MAP,
     V2_PREVIOUS_EDITION_LOOKBACK,
+    V3_MATCH_START_YEAR,
     WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT,
     build_2022_backtest_data,
     build_deterministic_bracket,
     build_deterministic_bracket_v2,
     build_deterministic_bracket_v2_32team,
+    build_deterministic_bracket_v3,
     build_v2_match_feature_table,
     build_v2_team_strengths,
     build_v2_training_frame,
+    build_v3_team_feature_table,
+    build_v3_training_frame,
     build_weighted_form_table,
     build_team_strengths,
     build_recent_form_metrics,
+    classify_competition_importance,
     compute_elo_expected_score,
     extract_group_stage_fixtures,
     fit_v2_match_multinomial_model,
+    fit_v3_poisson_models,
     get_modal_group_rankings,
     normalize_weight_pair,
     predict_match_probabilities_v2,
     predict_knockout_matchup,
     predict_knockout_matchup_v2,
+    predict_match_lambdas_v3,
+    predict_knockout_matchup_v3,
     rank_best_third_place_teams,
     rank_group_standings,
     run_v2_backtest_2022,
+    run_v3_2022_backtest,
     simulate_group_probabilities,
     simulate_group_probabilities_v2_32team,
     simulate_group_probabilities_v2,
+    simulate_group_probabilities_v3,
 )
 from scripts.build_world_cup_2026_dataset import (  # noqa: E402
     QualifiedTeam,
@@ -730,7 +740,7 @@ def test_current_view_tables_adds_projected_order_for_group_views():
 
     assert len(tables) == 1
     assert tables[0]["title"] == "Group A"
-    assert tables[0]["card_subtitle"] == "Bracket-Aligned Projected Order | 100,000 simulations"
+    assert tables[0]["card_subtitle"] == home.chart_subtitle("Bracket-Aligned Projected Order", 100000)
     assert list(tables[0]["frame"]["team_id"]) == ["BBB", "AAA", "CCC", "DDD"]
 
 
@@ -1745,6 +1755,87 @@ def test_build_v2_training_frame_excludes_holdout_edition():
     assert set(training_df["edition"].astype(int)) == {2002, 2006, 2010, 2014, 2018}
 
 
+def test_classify_competition_importance_uses_v3_scale():
+    assert classify_competition_importance("FIFA World Cup") == 3.0
+    assert classify_competition_importance("UEFA Euro") == 2.5
+    assert classify_competition_importance("FIFA World Cup qualification") == 2.0
+    assert classify_competition_importance("Friendly") == 1.0
+    assert classify_competition_importance("Nehru Cup") == 1.5
+
+
+def test_build_v3_training_frame_respects_cutoff_and_columns():
+    results_df = pd.read_csv(ROOT / "data" / "results.csv")
+    cutoff = "2002-06-30"
+
+    training_df = build_v3_training_frame(
+        results_df,
+        match_window=4,
+        start_year=1998,
+        end_date=cutoff,
+    )
+
+    assert not training_df.empty
+    assert str(training_df["date"].max().date()) <= cutoff
+    assert training_df["date"].min().year >= 1998
+    for column_name in (
+        "elo_diff",
+        "results_form_diff",
+        "goals_for_diff",
+        "goals_against_diff",
+        "placement_diff",
+        "appearance_diff",
+        "gd_form_diff",
+        "perf_vs_exp_diff",
+        "competition_importance",
+        "neutral_site_flag",
+        "net_host_flag",
+    ):
+        assert column_name in training_df.columns
+
+
+def test_fit_v3_model_predicts_valid_lambdas_and_probability_triplet():
+    home = load_home_module()
+    base_df, _, lead_in_df, _ = home.load_data()
+    feature_df = build_v3_team_feature_table(base_df, lead_in_df, reference_date_or_edition=2026, match_window=4)
+    feature_lookup = feature_df.set_index("team_id").to_dict("index")
+    model_bundle = fit_v3_poisson_models(match_window=4)
+
+    first_team_id = str(feature_df.iloc[0]["team_id"])
+    second_team_id = str(feature_df.iloc[1]["team_id"])
+    prediction = predict_match_lambdas_v3(first_team_id, second_team_id, feature_lookup, model_bundle, neutral_site=True)
+
+    total_probability = (
+        float(prediction["home_win_prob"])
+        + float(prediction["draw_prob"])
+        + float(prediction["away_win_prob"])
+    )
+    assert model_bundle["start_year"] == V3_MATCH_START_YEAR
+    assert float(prediction["lambda_home"]) > 0.0
+    assert float(prediction["lambda_away"]) > 0.0
+    assert abs(total_probability - 1.0) < 1e-9
+
+
+def test_predict_knockout_matchup_v3_returns_valid_winner_and_probability():
+    home = load_home_module()
+    base_df, _, lead_in_df, _ = home.load_data()
+    feature_df = build_v3_team_feature_table(base_df, lead_in_df, reference_date_or_edition=2026, match_window=4)
+    feature_lookup = feature_df.set_index("team_id").to_dict("index")
+    model_bundle = fit_v3_poisson_models(match_window=4)
+
+    prediction = predict_knockout_matchup_v3(
+        str(feature_df.iloc[0]["team_id"]),
+        str(feature_df.iloc[1]["team_id"]),
+        feature_lookup,
+        model_bundle,
+        simulations=80,
+        seed=17,
+    )
+
+    assert prediction["winner_team_id"] in {str(feature_df.iloc[0]["team_id"]), str(feature_df.iloc[1]["team_id"])}
+    assert 50.0 <= float(prediction["winner_win_prob"]) <= 100.0
+    assert abs(float(prediction["home_win_prob"]) + float(prediction["away_win_prob"]) - 100.0) < 1e-9
+
+
 def test_fit_v2_model_predicts_valid_probability_triplet():
     home = load_home_module()
     base_df, _, lead_in_df, _ = home.load_data()
@@ -1849,6 +1940,44 @@ def test_simulate_group_probabilities_v2_preserves_probability_invariants():
     assert set(modal_rankings) == set(home.GROUP_ORDER)
 
 
+def test_simulate_group_probabilities_v3_preserves_probability_invariants():
+    home = load_home_module()
+    base_df, fixtures_df, lead_in_df, _ = home.load_data()
+
+    dashboard_df = simulate_group_probabilities_v3(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=12,
+        match_window=4,
+    )
+
+    required_columns = {
+        "top8_third_prob",
+        "ko_prob",
+        "r16_prob",
+        "qf_prob",
+        "sf_prob",
+        "final_prob",
+        "champion_prob",
+    }
+    assert required_columns.issubset(dashboard_df.columns)
+    assert "team_strength" in dashboard_df.columns
+
+    for _, row in dashboard_df.iterrows():
+        total_probability = row["prob_1"] + row["prob_2"] + row["prob_3"] + row["prob_4"]
+        assert abs(total_probability - 100.0) < 1e-9
+        assert abs(row["ko_prob"] - (row["prob_1"] + row["prob_2"] + row["top8_third_prob"])) < 1e-9
+        assert row["champion_prob"] <= row["final_prob"] + 1e-9
+        assert row["final_prob"] <= row["sf_prob"] + 1e-9
+        assert row["sf_prob"] <= row["qf_prob"] + 1e-9
+        assert row["qf_prob"] <= row["r16_prob"] + 1e-9
+        assert row["r16_prob"] <= row["ko_prob"] + 1e-9
+
+    modal_rankings = get_modal_group_rankings(dashboard_df)
+    assert set(modal_rankings) == set(home.GROUP_ORDER)
+
+
 def test_build_deterministic_bracket_v2_produces_consistent_field():
     home = load_home_module()
     base_df, fixtures_df, lead_in_df, _ = home.load_data()
@@ -1867,6 +1996,32 @@ def test_build_deterministic_bracket_v2_produces_consistent_field():
         dashboard_df,
         model_bundle,
         head_to_head_simulations=60,
+        seed=19,
+    )
+
+    assert [round_data["round_code"] for round_data in bracket["rounds"]] == ["R32", "R16", "QF", "SF", "F"]
+    assert sum(len(round_data["matches"]) for round_data in bracket["rounds"]) == 31
+    assert bracket["qualifying_third_place_groups"] in THIRD_PLACE_ROUTING_MAP
+
+
+def test_build_deterministic_bracket_v3_produces_consistent_field():
+    home = load_home_module()
+    base_df, fixtures_df, lead_in_df, _ = home.load_data()
+    dashboard_df = simulate_group_probabilities_v3(
+        base_df=base_df,
+        fixtures_df=fixtures_df,
+        lead_in_df=lead_in_df,
+        simulations=12,
+        match_window=4,
+    )
+    model_bundle = fit_v3_poisson_models(match_window=4)
+
+    bracket = build_deterministic_bracket_v3(
+        dashboard_df,
+        fixtures_df,
+        dashboard_df,
+        model_bundle,
+        head_to_head_simulations=40,
         seed=19,
     )
 
@@ -1946,6 +2101,30 @@ def test_run_v2_backtest_2022_returns_valid_metrics_and_actual_champion():
     assert argentina_row["qf_prob"] <= argentina_row["r16_prob"] + 1e-9
 
 
+def test_run_v3_backtest_2022_returns_valid_metrics_and_actual_champion():
+    backtest = run_v3_2022_backtest(match_window=4, simulations=12, seed=17)
+    summary_metrics = dict(backtest["summary_metrics"])
+    team_backtest_table = pd.DataFrame(backtest["team_backtest_table"])
+    match_predictions = pd.DataFrame(backtest["match_predictions"])
+
+    assert 0.0 <= float(summary_metrics["multiclass_log_loss"])
+    assert 0.0 <= float(summary_metrics["multiclass_brier_score"])
+    assert 0.0 <= float(summary_metrics["top1_match_accuracy"]) <= 100.0
+    assert 0.0 <= float(summary_metrics["draw_rate_actual"]) <= 100.0
+    assert 0.0 <= float(summary_metrics["draw_rate_predicted"]) <= 100.0
+    assert int(summary_metrics["semifinal_hit_count"]) <= 4
+    assert int(summary_metrics["round_of_16_hit_count"]) <= 16
+    assert summary_metrics["actual_champion_team_id"] == "ARG"
+    assert len(match_predictions) == 64
+
+    argentina_row = team_backtest_table.loc[team_backtest_table["team_id"] == "ARG"].iloc[0]
+    assert argentina_row["actual_stage"] == "Champion"
+    assert argentina_row["champion_prob"] <= argentina_row["final_prob"] + 1e-9
+    assert argentina_row["final_prob"] <= argentina_row["sf_prob"] + 1e-9
+    assert argentina_row["sf_prob"] <= argentina_row["qf_prob"] + 1e-9
+    assert argentina_row["qf_prob"] <= argentina_row["r16_prob"] + 1e-9
+
+
 def test_v2_probabilities_page_exists_and_wires_home_renderer():
     page_path = ROOT / "apps" / "pages" / "3_V2_Probabilities.py"
 
@@ -1960,3 +2139,32 @@ def test_v2_2022_backtest_page_exists_and_wires_home_renderer():
     assert page_path.exists()
     page_text = page_path.read_text(encoding="utf-8")
     assert "render_v2_2022_backtest_dashboard" in page_text
+
+
+def test_v3_probabilities_page_exists_and_wires_home_renderer():
+    page_path = ROOT / "apps" / "pages" / "5_V3_Probabilities.py"
+
+    assert page_path.exists()
+    page_text = page_path.read_text(encoding="utf-8")
+    assert "render_v3_probabilities_dashboard" in page_text
+
+
+def test_v3_2022_backtest_page_exists_and_wires_home_renderer():
+    page_path = ROOT / "apps" / "pages" / "6_V3_2022_Backtest.py"
+
+    assert page_path.exists()
+    page_text = page_path.read_text(encoding="utf-8")
+    assert "render_v3_2022_backtest_dashboard" in page_text
+
+
+def test_world_cup_simulation_facade_exports_representative_symbols():
+    import world_cup_simulation as simulation
+
+    assert simulation.MODEL_VERSION == "v1"
+    assert simulation.V2_MODEL_VERSION == "v2"
+    assert simulation.V3_MODEL_VERSION == "v3"
+    assert callable(simulation.simulate_group_probabilities)
+    assert callable(simulation.simulate_group_probabilities_v2)
+    assert callable(simulation.simulate_group_probabilities_v3)
+    assert callable(simulation.fit_v2_match_multinomial_model)
+    assert callable(simulation.fit_v3_poisson_models)
