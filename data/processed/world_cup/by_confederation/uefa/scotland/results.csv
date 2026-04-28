@@ -1,0 +1,850 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1872-11-30,Friendly,played,Scotland,SCO,England,ENG,TRUE,0,0,draw,Glasgow,Scotland,FALSE,2000,2000,1997,2003,-3
+1873-03-08,Friendly,played,Scotland,SCO,England,ENG,FALSE,2,4,loss,London,England,FALSE,1997,2003,1986,2014,-11
+1874-03-07,Friendly,played,Scotland,SCO,England,ENG,TRUE,2,1,win,Glasgow,Scotland,FALSE,1986,2014,1994,2006,8
+1875-03-06,Friendly,played,Scotland,SCO,England,ENG,FALSE,2,2,draw,London,England,FALSE,1994,2006,1997,2003,3
+1876-03-04,Friendly,played,Scotland,SCO,England,ENG,TRUE,3,0,win,Glasgow,Scotland,FALSE,1997,2003,2010,1990,13
+1876-03-25,Friendly,played,Scotland,SCO,Wales,WAL,TRUE,4,0,win,Glasgow,Scotland,FALSE,2010,1500,2011,1499,1
+1877-03-03,Friendly,played,Scotland,SCO,England,ENG,FALSE,3,1,win,London,England,FALSE,2011,1990,2029,1972,18
+1877-03-05,Friendly,played,Scotland,SCO,Wales,WAL,FALSE,2,0,win,Wrexham,Wales,FALSE,2029,1499,2031,1497,2
+1878-03-02,Friendly,played,Scotland,SCO,England,ENG,TRUE,7,2,win,Glasgow,Scotland,FALSE,2031,1972,2042,1961,11
+1878-03-23,Friendly,played,Scotland,SCO,Wales,WAL,TRUE,9,0,win,Glasgow,Scotland,FALSE,2042,1497,2043,1496,1
+1879-04-05,Friendly,played,Scotland,SCO,England,ENG,FALSE,4,5,loss,London,England,FALSE,2043,1962,2034,1971,-9
+1879-04-07,Friendly,played,Scotland,SCO,Wales,WAL,FALSE,3,0,win,Wrexham,Wales,FALSE,2034,1495,2037,1492,3
+1880-03-13,Friendly,played,Scotland,SCO,England,ENG,TRUE,5,4,win,Glasgow,Scotland,FALSE,2037,1971,2043,1965,6
+1880-03-27,Friendly,played,Scotland,SCO,Wales,WAL,TRUE,5,1,win,Glasgow,Scotland,FALSE,2043,1490,2044,1489,1
+1881-03-12,Friendly,played,Scotland,SCO,England,ENG,FALSE,6,1,win,London,England,FALSE,2044,1948,2064,1928,20
+1881-03-14,Friendly,played,Scotland,SCO,Wales,WAL,FALSE,5,1,win,Wrexham,Wales,FALSE,2064,1508,2067,1505,3
+1882-03-11,Friendly,played,Scotland,SCO,England,ENG,TRUE,5,1,win,Glasgow,Scotland,FALSE,2067,1931,2075,1923,8
+1882-03-25,Friendly,played,Scotland,SCO,Wales,WAL,TRUE,5,0,win,Glasgow,Scotland,FALSE,2075,1537,2076,1536,1
+1883-03-10,Friendly,played,Scotland,SCO,England,ENG,FALSE,3,2,win,Sheffield,England,FALSE,2076,1901,2084,1893,8
+1883-03-12,Friendly,played,Scotland,SCO,Wales,WAL,FALSE,3,0,win,Wrexham,Wales,FALSE,2084,1533,2086,1531,2
+1884-01-26,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,5,0,win,Belfast,Ireland,FALSE,2086,1294,2087,1293,1
+1884-03-15,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,0,win,Glasgow,Scotland,FALSE,2087,1898,2093,1892,6
+1884-03-29,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,4,1,win,Glasgow,Scotland,FALSE,2093,1524,2094,1523,1
+1885-03-14,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,8,2,win,Glasgow,Scotland,FALSE,2094,1276,2094,1276,0
+1885-03-21,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,1,draw,London,England,FALSE,2094,1889,2088,1895,-6
+1885-03-23,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,8,1,win,Wrexham,Wales,FALSE,2088,1541,2094,1535,6
+1886-03-20,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,7,2,win,Belfast,Ireland,FALSE,2094,1242,2095,1241,1
+1886-03-27,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,2095,1898,2081,1912,-14
+1886-04-10,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,4,1,win,Glasgow,Scotland,FALSE,2081,1554,2083,1552,2
+1887-02-19,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,4,1,win,Glasgow,Scotland,FALSE,2083,1240,2083,1240,0
+1887-03-19,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,3,2,win,Blackburn,England,FALSE,2083,1930,2100,1913,17
+1887-03-21,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,0,win,Wrexham,Wales,FALSE,2100,1493,2103,1490,3
+1888-03-10,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,5,1,win,Edinburgh,Scotland,FALSE,2103,1503,2104,1502,1
+1888-03-17,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,5,loss,Glasgow,Scotland,FALSE,2104,1917,2037,1984,-67
+1888-03-24,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,10,2,win,Belfast,Ireland,FALSE,2037,1277,2039,1275,2
+1888-09-19,Friendly,played,Scotland,SCO,Canada,CAN,TRUE,4,0,win,Glasgow,Scotland,FALSE,,,,,
+1889-03-09,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,7,0,win,Glasgow,Scotland,FALSE,2039,1272,2040,1271,1
+1889-04-13,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,3,2,win,London,England,FALSE,2040,1989,2063,1966,23
+1889-04-15,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,0,draw,Wrexham,Wales,FALSE,2063,1500,2046,1517,-17
+1890-03-22,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,5,0,win,Paisley,Scotland,FALSE,2046,1539,2048,1537,2
+1890-03-29,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,4,1,win,Belfast,Ireland,FALSE,2048,1238,2049,1237,1
+1890-04-05,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,2049,1977,2040,1986,-9
+1891-03-21,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,4,3,win,Wrexham,Wales,FALSE,2040,1474,2043,1471,3
+1891-03-28,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,1,win,Glasgow,Scotland,FALSE,2043,1297,2043,1297,0
+1891-04-04,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,2,loss,Blackburn,England,FALSE,2043,1989,2026,2006,-17
+1892-03-19,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,3,2,win,Belfast,Ireland,FALSE,2026,1308,2027,1307,1
+1892-03-26,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,6,1,win,Edinburgh,Scotland,FALSE,2027,1454,2029,1452,2
+1892-04-02,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,4,loss,Glasgow,Scotland,FALSE,2029,2012,1983,2058,-46
+1893-03-18,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,8,0,win,Wrexham,Wales,FALSE,1983,1451,1990,1444,7
+1893-03-25,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,6,1,win,Glasgow,Scotland,FALSE,1990,1306,1991,1305,1
+1893-04-01,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,5,loss,Richmond,England,FALSE,1991,2060,1972,2079,-19
+1894-03-24,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,5,2,win,Kilmarnock,Scotland,FALSE,1972,1435,1974,1433,2
+1894-03-31,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,2,1,win,Belfast,Ireland,FALSE,1974,1329,1976,1327,2
+1894-04-07,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1976,2064,1975,2065,-1
+1895-03-23,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,2,draw,Wrexham,Wales,FALSE,1975,1452,1958,1469,-17
+1895-03-30,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,1,win,Glasgow,Scotland,FALSE,1958,1326,1959,1325,1
+1895-04-06,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,3,loss,Liverpool,England,FALSE,1959,2047,1941,2065,-18
+1896-03-21,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,4,0,win,Dundee,Scotland,FALSE,1941,1479,1944,1476,3
+1896-03-28,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,3,3,draw,Belfast,Ireland,FALSE,1944,1308,1926,1326,-18
+1896-04-04,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,1,win,Glasgow,Scotland,FALSE,1926,2072,1949,2049,23
+1897-03-20,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,2,draw,Wrexham,Wales,FALSE,1949,1453,1933,1469,-16
+1897-03-27,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,5,1,win,Glasgow,Scotland,FALSE,1933,1348,1934,1347,1
+1897-04-03,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,1,win,London,England,FALSE,1934,2051,1965,2020,31
+1898-03-19,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,5,2,win,Motherwell,Scotland,FALSE,1965,1437,1967,1435,2
+1898-03-26,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,3,0,win,Belfast,Ireland,FALSE,1967,1376,1971,1372,4
+1898-04-02,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1971,2026,1937,2060,-34
+1899-03-18,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,6,0,win,Wrexham,Wales,FALSE,1937,1413,1944,1406,7
+1899-03-25,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,9,1,win,Glasgow,Scotland,FALSE,1944,1389,1946,1387,2
+1899-04-08,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,2,loss,Birmingham,England,FALSE,1946,2062,1937,2071,-9
+1900-02-03,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,5,2,win,Aberdeen,Scotland,FALSE,1937,1405,1939,1403,2
+1900-03-03,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,3,0,win,Belfast,Ireland,FALSE,1939,1367,1943,1363,4
+1900-04-07,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,4,1,win,Glasgow,Scotland,FALSE,1943,2055,1979,2019,36
+1901-02-23,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,11,0,win,Glasgow,Scotland,FALSE,1979,1361,1981,1359,2
+1901-03-02,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,1,draw,Wrexham,Wales,FALSE,1981,1441,1964,1458,-17
+1901-03-30,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,2,draw,London,England,FALSE,1964,2022,1973,2013,9
+1902-03-01,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,5,1,win,Belfast,Ireland,FALSE,1973,1394,1977,1390,4
+1902-03-15,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,5,1,win,Greenock,Scotland,FALSE,1977,1438,1979,1436,2
+1902-05-03,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,2,draw,Birmingham,England,FALSE,1974,2002,1981,1995,7
+1903-03-09,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,0,win,Cardiff,Wales,FALSE,1983,1435,1986,1432,3
+1903-03-21,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1986,1385,1927,1444,-59
+1903-04-04,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,1,win,Sheffield,England,FALSE,1927,1997,1956,1968,29
+1904-03-12,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,1,draw,Dundee,Scotland,FALSE,1956,1428,1937,1447,-19
+1904-03-26,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,1,draw,Dublin,Ireland,FALSE,1937,1484,1922,1499,-15
+1904-04-09,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1922,1957,1898,1981,-24
+1905-03-06,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,3,loss,Wrexham,Wales,FALSE,1898,1422,1844,1476,-54
+1905-03-18,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,4,0,win,Glasgow,Scotland,FALSE,1844,1518,1850,1512,6
+1905-04-01,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,1,loss,London,England,FALSE,1850,1964,1841,1973,-9
+1906-03-03,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,0,2,loss,Edinburgh,Scotland,FALSE,1841,1482,1785,1538,-56
+1906-03-17,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,0,win,Dublin,Ireland,FALSE,1785,1495,1795,1485,10
+1906-04-07,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,1,win,Glasgow,Scotland,FALSE,1795,1987,1820,1962,25
+1907-03-04,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,1,loss,Wrexham,Wales,FALSE,1820,1549,1791,1578,-29
+1907-03-16,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,0,win,Glasgow,Scotland,FALSE,1791,1468,1797,1462,6
+1907-04-06,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,1,draw,Newcastle,England,FALSE,1797,1980,1810,1967,13
+1908-03-07,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,1,win,Dundee,Scotland,FALSE,1810,1596,1816,1590,6
+1908-03-14,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,5,0,win,Dublin,Ireland,FALSE,1816,1457,1831,1442,15
+1908-04-04,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1831,2000,1835,1996,4
+1909-03-01,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,3,loss,Wrexham,Wales,FALSE,1835,1545,1805,1575,-30
+1909-03-15,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,5,0,win,Glasgow,Scotland,FALSE,1805,1473,1811,1467,6
+1909-04-03,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,2,loss,London,England,FALSE,1811,2150,1807,2154,-4
+1910-03-05,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,0,win,Kilmarnock,Scotland,FALSE,1807,1594,1813,1588,6
+1910-03-19,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Ireland,FALSE,1813,1466,1781,1498,-32
+1910-04-02,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,0,win,Glasgow,Scotland,FALSE,1781,2183,1832,2132,51
+1911-03-06,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,2,draw,Cardiff,Wales,FALSE,1832,1623,1826,1629,-6
+1911-03-18,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,0,win,Glasgow,Scotland,FALSE,1826,1461,1830,1457,4
+1911-04-01,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,1,draw,Liverpool,England,FALSE,1830,2155,1847,2138,17
+1912-03-02,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,0,win,Edinburgh,Scotland,FALSE,1847,1627,1852,1622,5
+1912-03-16,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,4,1,win,Belfast,Ireland,FALSE,1852,1454,1863,1443,11
+1912-03-23,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1863,2161,1873,2151,10
+1913-03-03,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,0,draw,Wrexham,Wales,FALSE,1873,1604,1864,1613,-9
+1913-03-15,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,2,1,win,Dublin,Ireland,FALSE,1864,1495,1871,1488,7
+1913-04-05,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,1,loss,London,England,FALSE,1871,2167,1867,2171,-4
+1914-02-28,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1867,1581,1851,1597,-16
+1914-03-14,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Ireland,FALSE,1851,1588,1842,1597,-9
+1914-04-04,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,3,1,win,Glasgow,Scotland,FALSE,1842,2120,1886,2076,44
+1920-02-26,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,1,draw,Cardiff,Wales,FALSE,1882,1615,1873,1624,-9
+1920-03-13,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,0,win,Glasgow,Scotland,FALSE,1873,1609,1881,1601,8
+1920-04-10,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,4,5,loss,Sheffield,England,FALSE,1881,1988,1872,1997,-9
+1921-02-12,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,1,win,Aberdeen,Scotland,FALSE,1872,1662,1878,1656,6
+1921-02-26,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,2,0,win,Belfast,Ireland,FALSE,1878,1610,1895,1593,17
+1921-04-09,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,3,0,win,Glasgow,Scotland,FALSE,1895,1944,1925,1914,30
+1921-07-09,Friendly,played,Scotland,SCO,Canada,CAN,FALSE,1,0,win,Montreal,Canada,FALSE,,,,,
+1922-02-04,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,2,loss,Wrexham,Wales,FALSE,1925,1677,1897,1705,-28
+1922-03-04,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,1,win,Glasgow,Scotland,FALSE,1897,1707,1903,1701,6
+1922-04-08,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,0,win,Birmingham,England,FALSE,1903,1931,1930,1904,27
+1923-03-03,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1930,1677,1942,1665,12
+1923-03-17,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,0,win,Paisley,Scotland,FALSE,1942,1712,1950,1704,8
+1923-04-14,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1950,1920,1943,1927,-7
+1924-02-16,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,2,loss,Cardiff,Wales,FALSE,1943,1656,1898,1701,-45
+1924-03-01,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,0,win,Glasgow,Scotland,FALSE,1898,1739,1909,1728,11
+1924-04-12,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,1,draw,London,England,FALSE,1909,1870,1912,1867,3
+1925-02-14,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,3,1,win,Edinburgh,Scotland,FALSE,1912,1768,1924,1756,12
+1925-02-28,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,3,0,win,Belfast,Northern Ireland,FALSE,1924,1682,1945,1661,21
+1925-04-04,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,0,win,Glasgow,Scotland,FALSE,1945,1919,1965,1899,20
+1925-10-31,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,3,0,win,Cardiff,Wales,FALSE,1965,1730,1987,1708,22
+1926-02-27,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,4,0,win,Glasgow,Scotland,FALSE,1987,1707,1995,1699,8
+1926-04-17,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,0,win,Manchester,England,FALSE,1995,1872,2014,1853,19
+1926-10-30,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,3,0,win,Glasgow,Scotland,FALSE,2014,1733,2021,1726,7
+1927-02-26,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,2021,1712,2035,1698,14
+1927-04-02,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,2,loss,Glasgow,Scotland,FALSE,2035,1853,2002,1886,-33
+1927-10-29,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,2,draw,Wrexham,Wales,FALSE,2002,1721,1992,1731,-10
+1928-02-25,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1992,1698,1956,1734,-36
+1928-03-31,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,5,1,win,London,England,FALSE,1956,1846,1992,1810,36
+1928-10-27,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,4,2,win,Glasgow,Scotland,FALSE,1992,1788,2001,1779,9
+1929-02-23,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,7,3,win,Belfast,Northern Ireland,FALSE,2001,1731,2021,1711,20
+1929-04-13,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,0,win,Glasgow,Scotland,FALSE,2021,1868,2029,1860,8
+1929-05-26,Friendly,played,Scotland,SCO,Norway,NOR,FALSE,7,3,win,Bergen,Norway,FALSE,2029,1546,2033,1542,4
+1929-06-01,Friendly,played,Scotland,SCO,Germany,DEU,FALSE,1,1,draw,Berlin,Germany,FALSE,2037,1801,2033,1805,-4
+1929-06-04,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,2,0,win,Amsterdam,Netherlands,FALSE,2033,1703,2039,1697,6
+1929-10-26,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,4,2,win,Cardiff,Wales,FALSE,2039,1750,2054,1735,15
+1930-02-22,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,1,win,Glasgow,Scotland,FALSE,2054,1724,2059,1719,5
+1930-04-05,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,5,loss,London,England,FALSE,2059,1956,2024,1991,-35
+1930-05-18,Friendly,played,Scotland,SCO,France,FRA,FALSE,2,0,win,Colombes,France,FALSE,2024,1517,2027,1514,3
+1930-10-25,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,1,draw,Glasgow,Scotland,FALSE,2027,1686,2010,1703,-17
+1931-02-21,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,2010,1711,2000,1721,-10
+1931-03-28,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,0,win,Glasgow,Scotland,FALSE,2000,2017,2023,1994,23
+1931-05-16,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,0,5,loss,Vienna,Austria,FALSE,2023,1923,2003,1943,-20
+1931-05-20,Friendly,played,Scotland,SCO,Italy,ITA,FALSE,0,3,loss,Rome,Italy,FALSE,2003,1975,1989,1989,-14
+1931-05-24,Friendly,played,Scotland,SCO,Switzerland,CHE,FALSE,3,2,win,Geneva,Switzerland,FALSE,1989,1563,1992,1560,3
+1931-09-19,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,1,win,Glasgow,Scotland,FALSE,1992,1705,1998,1699,6
+1931-10-31,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,3,2,win,Wrexham,Wales,FALSE,1998,1701,2008,1691,10
+1932-04-09,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,3,loss,London,England,FALSE,2008,2007,1983,2032,-25
+1932-05-08,Friendly,played,Scotland,SCO,France,FRA,FALSE,3,1,win,Colombes,France,FALSE,1983,1584,1988,1579,5
+1932-09-17,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,4,0,win,Belfast,Northern Ireland,FALSE,1988,1707,2008,1687,20
+1932-10-26,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,5,loss,Edinburgh,Scotland,FALSE,2008,1658,1943,1723,-65
+1933-04-01,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,1,win,Glasgow,Scotland,FALSE,1943,2031,1962,2012,19
+1933-09-16,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1962,1663,1926,1699,-36
+1933-10-04,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,3,loss,Cardiff,Wales,FALSE,1926,1754,1902,1778,-24
+1933-11-29,Friendly,played,Scotland,SCO,Austria,AUT,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1902,1996,1902,1996,0
+1934-04-14,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,3,loss,London,England,FALSE,1902,2003,1885,2020,-17
+1934-10-20,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,2,loss,Belfast,Northern Ireland,FALSE,1885,1684,1859,1710,-26
+1934-11-21,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,3,2,win,Aberdeen,Scotland,FALSE,1859,1784,1870,1773,11
+1935-04-06,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,0,win,Glasgow,Scotland,FALSE,1870,2035,1906,1999,36
+1935-05-19,Friendly,played,Scotland,SCO,United States,USA,FALSE,5,1,win,New York,United States,FALSE,1906,1758,1922,1742,16
+1935-06-09,Friendly,played,Scotland,SCO,United States,USA,FALSE,4,1,win,Newark,United States,FALSE,1922,1742,1936,1728,14
+1935-10-05,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,1,draw,Cardiff,Wales,FALSE,1950,1790,1947,1793,-3
+1935-11-13,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,1,win,Edinburgh,Scotland,FALSE,1947,1676,1951,1672,4
+1936-04-04,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,1,draw,London,England,FALSE,1951,1977,1958,1970,7
+1936-10-14,Friendly,played,Scotland,SCO,Germany,DEU,TRUE,2,0,win,Glasgow,Scotland,FALSE,1958,1843,1965,1836,7
+1936-10-31,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,3,1,win,Belfast,Northern Ireland,FALSE,1965,1695,1981,1679,16
+1936-12-02,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,2,loss,Dundee,Scotland,FALSE,1981,1827,1949,1859,-32
+1937-04-17,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,3,1,win,Glasgow,Scotland,FALSE,1949,1939,1970,1918,21
+1937-05-09,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,1,1,draw,Vienna,Austria,FALSE,1970,1942,1972,1940,2
+1937-10-30,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,2,loss,Cardiff,Wales,FALSE,1989,1870,1968,1891,-21
+1937-11-10,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,1,draw,Aberdeen,Scotland,FALSE,1968,1642,1951,1659,-17
+1937-12-08,Friendly,played,Scotland,SCO,Czechoslovakia,CSK,TRUE,5,0,win,Glasgow,Scotland,FALSE,1951,1866,1961,1856,10
+1938-04-09,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,0,win,London,England,FALSE,1961,1986,1988,1959,27
+1938-05-21,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,3,1,win,Amsterdam,Netherlands,FALSE,1988,1715,1996,1707,8
+1938-10-08,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1996,1686,2010,1672,14
+1938-11-09,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,3,2,win,Edinburgh,Scotland,FALSE,2010,1884,2019,1875,9
+1938-12-07,Friendly,played,Scotland,SCO,Hungary,HUN,TRUE,3,1,win,Glasgow,Scotland,FALSE,2019,1949,2027,1941,8
+1939-04-15,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,2,loss,Glasgow,Scotland,FALSE,2027,1952,1998,1981,-29
+1946-01-23,Friendly,played,Scotland,SCO,Belgium,BEL,TRUE,2,2,draw,Glasgow,Scotland,FALSE,2013,1515,2004,1524,-9
+1946-04-13,Friendly,played,Scotland,SCO,England,ENG,TRUE,1,0,win,Glasgow,Scotland,FALSE,2011,1938,2022,1927,11
+1946-04-24,Friendly,played,Scotland,SCO,England,ENG,FALSE,2,2,draw,Manchester,England,FALSE,,,,,
+1946-05-15,Friendly,played,Scotland,SCO,Switzerland,CHE,TRUE,3,1,win,Glasgow,Scotland,FALSE,2022,1795,2026,1791,4
+1946-10-19,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,3,loss,Wrexham,Wales,FALSE,2026,1850,1990,1886,-36
+1946-11-27,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1990,1649,1973,1666,-17
+1947-04-12,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,1,draw,London,England,FALSE,1973,1975,1979,1969,6
+1947-05-18,Friendly,played,Scotland,SCO,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1979,1511,1961,1529,-18
+1947-05-24,Friendly,played,Scotland,SCO,Luxembourg,,FALSE,6,0,win,Luxembourg,Luxembourg,FALSE,1961,1295,1963,1293,2
+1947-10-04,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1963,1692,1919,1736,-44
+1947-11-12,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1919,1809,1888,1840,-31
+1948-04-10,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1888,2001,1859,2030,-29
+1948-04-28,Friendly,played,Scotland,SCO,Belgium,BEL,TRUE,2,0,win,Glasgow,Scotland,FALSE,1859,1524,1861,1522,2
+1948-05-17,Friendly,played,Scotland,SCO,Switzerland,CHE,FALSE,1,2,loss,Bern,Switzerland,FALSE,1861,1743,1850,1754,-11
+1948-05-23,Friendly,played,Scotland,SCO,France,FRA,FALSE,0,3,loss,Colombes,France,FALSE,1850,1753,1833,1770,-17
+1948-10-23,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,3,1,win,Cardiff,Wales,FALSE,1833,1855,1873,1815,40
+1948-11-17,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,2,win,Glasgow,Scotland,FALSE,1873,1727,1881,1719,8
+1949-04-09,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,3,1,win,London,England,FALSE,1881,2077,1932,2026,51
+1949-04-27,Friendly,played,Scotland,SCO,France,FRA,TRUE,2,0,win,Glasgow,Scotland,FALSE,1932,1752,1937,1747,5
+1949-06-19,Friendly,played,Scotland,SCO,United States,USA,FALSE,4,0,win,New York,United States,FALSE,1937,1564,1943,1558,6
+1949-10-01,FIFA World Cup qualification,played,Scotland,SCO,Northern Ireland,NIR,FALSE,8,2,win,Belfast,Northern Ireland,FALSE,1943,1688,1968,1663,25
+1949-11-09,FIFA World Cup qualification,played,Scotland,SCO,Wales,WAL,TRUE,2,0,win,Glasgow,Scotland,FALSE,1968,1767,1977,1758,9
+1950-04-15,FIFA World Cup qualification,played,Scotland,SCO,England,ENG,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1977,2039,1955,2061,-22
+1950-04-26,Friendly,played,Scotland,SCO,Switzerland,CHE,TRUE,3,1,win,Glasgow,Scotland,FALSE,1955,1733,1959,1729,4
+1950-05-21,Friendly,played,Scotland,SCO,Portugal,PRT,FALSE,2,2,draw,Oeiras,Portugal,FALSE,1959,1682,1954,1687,-5
+1950-05-27,Friendly,played,Scotland,SCO,France,FRA,FALSE,1,0,win,Colombes,France,FALSE,1954,1727,1960,1721,6
+1950-10-21,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,3,1,win,Cardiff,Wales,FALSE,1960,1755,1981,1734,21
+1950-11-01,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,6,1,win,Glasgow,Scotland,FALSE,1981,1652,1987,1646,6
+1950-12-13,Friendly,played,Scotland,SCO,Austria,AUT,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1987,1873,1972,1888,-15
+1951-04-14,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,3,2,win,London,England,FALSE,1972,1999,1999,1972,27
+1951-05-12,Friendly,played,Scotland,SCO,Denmark,DNK,TRUE,3,1,win,Glasgow,Scotland,FALSE,1999,1735,2002,1732,3
+1951-05-16,Friendly,played,Scotland,SCO,France,FRA,TRUE,1,0,win,Glasgow,Scotland,FALSE,2002,1723,2004,1721,2
+1951-05-20,Friendly,played,Scotland,SCO,Belgium,BEL,FALSE,5,0,win,Brussels,Belgium,FALSE,2004,1680,2013,1671,9
+1951-05-27,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,0,4,loss,Vienna,Austria,FALSE,2013,1888,1993,1908,-20
+1951-10-06,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,3,0,win,Belfast,Northern Ireland,FALSE,1993,1625,2005,1613,12
+1951-11-14,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,0,1,loss,Glasgow,Scotland,FALSE,2005,1766,1970,1801,-35
+1952-04-05,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1970,1970,1944,1996,-26
+1952-04-30,Friendly,played,Scotland,SCO,United States,USA,TRUE,6,0,win,Glasgow,Scotland,FALSE,1944,1566,1947,1563,3
+1952-05-25,Friendly,played,Scotland,SCO,Denmark,DNK,FALSE,2,1,win,Copenhagen,Denmark,FALSE,1947,1737,1954,1730,7
+1952-05-30,Friendly,played,Scotland,SCO,Sweden,SWE,FALSE,1,3,loss,Solna,Sweden,FALSE,1954,1850,1939,1865,-15
+1952-10-18,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,1,win,Cardiff,Wales,FALSE,1939,1812,1957,1794,18
+1952-11-05,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1957,1613,1940,1630,-17
+1953-04-18,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,2,draw,London,England,FALSE,1940,2015,1949,2006,9
+1953-05-06,Friendly,played,Scotland,SCO,Sweden,SWE,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1949,1843,1934,1858,-15
+1953-10-03,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,3,1,win,Belfast,Northern Ireland,FALSE,1934,1607,1947,1594,13
+1953-11-04,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,3,3,draw,Glasgow,Scotland,FALSE,1947,1754,1933,1768,-14
+1954-04-03,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,4,loss,Glasgow,Scotland,FALSE,1933,2009,1901,2041,-32
+1954-05-05,Friendly,played,Scotland,SCO,Norway,NOR,TRUE,1,0,win,Glasgow,Scotland,FALSE,1901,1631,1903,1629,2
+1954-05-19,Friendly,played,Scotland,SCO,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1903,1629,1898,1634,-5
+1954-05-25,Friendly,played,Scotland,SCO,Finland,,FALSE,2,1,win,Helsinki,Finland,FALSE,1898,1432,1900,1430,2
+1954-06-16,FIFA World Cup,played,Scotland,SCO,Austria,AUT,FALSE,0,1,loss,Zürich,Switzerland,TRUE,1900,1868,1867,1901,-33
+1954-06-19,FIFA World Cup,played,Scotland,SCO,Uruguay,URY,TRUE,0,7,loss,Basel,Switzerland,TRUE,1867,1906,1807,1966,-60
+1954-10-16,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,0,win,Cardiff,Wales,FALSE,1807,1717,1828,1696,21
+1954-11-03,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1828,1612,1814,1626,-14
+1954-12-08,Friendly,played,Scotland,SCO,Hungary,HUN,TRUE,2,4,loss,Glasgow,Scotland,FALSE,1814,2189,1809,2194,-5
+1955-04-02,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,7,loss,London,England,FALSE,1809,2002,1797,2014,-12
+1955-05-04,Friendly,played,Scotland,SCO,Portugal,PRT,TRUE,3,0,win,Glasgow,Scotland,FALSE,1797,1657,1804,1650,7
+1955-05-15,Friendly,played,Scotland,SCO,Yugoslavia,YUG,FALSE,2,2,draw,Belgrade,Yugoslavia,FALSE,1804,1939,1810,1933,6
+1955-05-19,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,4,1,win,Vienna,Austria,FALSE,1810,1944,1838,1916,28
+1955-05-29,Friendly,played,Scotland,SCO,Hungary,HUN,FALSE,1,3,loss,Budapest,Hungary,FALSE,1838,2198,1836,2200,-2
+1955-10-08,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,2,loss,Belfast,Northern Ireland,FALSE,1836,1604,1809,1631,-27
+1955-11-09,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,0,win,Glasgow,Scotland,FALSE,1809,1743,1826,1726,17
+1956-04-14,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1826,1970,1829,1967,3
+1956-05-02,Friendly,played,Scotland,SCO,Austria,AUT,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1829,1908,1828,1909,-1
+1956-10-20,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,2,draw,Cardiff,Wales,FALSE,1828,1709,1827,1710,-1
+1956-11-07,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,0,win,Glasgow,Scotland,FALSE,1827,1648,1834,1641,7
+1956-11-21,Friendly,played,Scotland,SCO,Yugoslavia,YUG,TRUE,2,0,win,Glasgow,Scotland,FALSE,1834,1905,1848,1891,14
+1957-04-06,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,2,loss,London,England,FALSE,1848,2004,1841,2011,-7
+1957-05-08,FIFA World Cup qualification,played,Scotland,SCO,Spain,ESP,TRUE,4,2,win,Glasgow,Scotland,FALSE,1841,1825,1861,1805,20
+1957-05-19,FIFA World Cup qualification,played,Scotland,SCO,Switzerland,CHE,FALSE,2,1,win,Basel,Switzerland,FALSE,1861,1675,1876,1660,15
+1957-05-22,Friendly,played,Scotland,SCO,Germany,DEU,FALSE,3,1,win,Stuttgart,Germany,FALSE,,,,,
+1957-05-26,FIFA World Cup qualification,played,Scotland,SCO,Spain,ESP,FALSE,1,4,loss,Madrid,Spain,FALSE,1897,1805,1863,1839,-34
+1957-10-05,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1863,1670,1858,1675,-5
+1957-11-06,FIFA World Cup qualification,played,Scotland,SCO,Switzerland,CHE,TRUE,3,2,win,Glasgow,Scotland,FALSE,1858,1660,1864,1654,6
+1957-11-13,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1864,1683,1851,1696,-13
+1958-04-19,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,4,loss,Glasgow,Scotland,FALSE,1851,2006,1819,2038,-32
+1958-05-07,Friendly,played,Scotland,SCO,Hungary,HUN,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1819,2084,1823,2080,4
+1958-06-01,Friendly,played,Scotland,SCO,Poland,POL,FALSE,2,1,win,Warsaw,Poland,FALSE,1823,1589,1829,1583,6
+1958-06-08,FIFA World Cup,played,Scotland,SCO,Yugoslavia,YUG,TRUE,1,1,draw,Västerås,Sweden,TRUE,1829,1914,1836,1907,7
+1958-06-11,FIFA World Cup,played,Scotland,SCO,Paraguay,PRY,FALSE,2,3,loss,Norrköping,Sweden,TRUE,1836,1709,1795,1750,-41
+1958-06-15,FIFA World Cup,played,Scotland,SCO,France,FRA,FALSE,1,2,loss,Örebro,Sweden,TRUE,1795,1854,1770,1879,-25
+1958-10-18,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,3,0,win,Cardiff,Wales,FALSE,1770,1797,1817,1750,47
+1958-11-05,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1817,1769,1809,1777,-8
+1959-04-11,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,1,loss,London,England,FALSE,1809,1950,1801,1958,-8
+1959-05-06,Friendly,played,Scotland,SCO,Germany,DEU,TRUE,3,2,win,Glasgow,Scotland,FALSE,,,,,
+1959-05-27,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,2,1,win,Amsterdam,Netherlands,FALSE,1810,1714,1820,1704,10
+1959-06-03,Friendly,played,Scotland,SCO,Portugal,PRT,FALSE,0,1,loss,Lisbon,Portugal,FALSE,1820,1657,1808,1669,-12
+1959-10-03,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,4,0,win,Belfast,Northern Ireland,FALSE,1808,1801,1855,1754,47
+1960-04-09,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1844,1909,1842,1911,-2
+1960-05-04,Friendly,played,Scotland,SCO,Poland,POL,TRUE,2,3,loss,Glasgow,Scotland,FALSE,1842,1591,1824,1609,-18
+1960-05-29,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,1,4,loss,Vienna,Austria,FALSE,1824,1787,1810,1801,-14
+1960-06-05,Friendly,played,Scotland,SCO,Hungary,HUN,FALSE,3,3,draw,Budapest,Hungary,FALSE,1810,1993,1817,1986,7
+1960-06-08,Friendly,played,Scotland,SCO,Turkey,TUR,FALSE,2,4,loss,Ankara,Turkey,FALSE,1817,1717,1802,1732,-15
+1960-10-22,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,2,loss,Cardiff,Wales,FALSE,1802,1782,1779,1805,-23
+1960-11-09,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,5,2,win,Glasgow,Scotland,FALSE,1779,1686,1796,1669,17
+1961-04-15,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,3,9,loss,London,England,FALSE,1796,1949,1780,1965,-16
+1961-05-03,FIFA World Cup qualification,played,Scotland,SCO,Republic of Ireland,IRL,TRUE,4,1,win,Glasgow,Scotland,FALSE,,,,,
+1961-05-07,FIFA World Cup qualification,played,Scotland,SCO,Republic of Ireland,IRL,FALSE,3,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+1961-05-14,FIFA World Cup qualification,played,Scotland,SCO,Czechoslovakia,CSK,FALSE,0,4,loss,Bratislava,Czechoslovakia,FALSE,1843,1935,1824,1954,-19
+1961-09-29,FIFA World Cup qualification,played,Scotland,SCO,Czechoslovakia,CSK,TRUE,3,2,win,Glasgow,Scotland,FALSE,,,,,
+1961-10-07,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,6,1,win,Belfast,Northern Ireland,FALSE,1846,1601,1870,1577,24
+1961-11-08,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,0,win,Glasgow,Scotland,FALSE,1870,1816,1888,1798,18
+1961-11-29,FIFA World Cup qualification,played,Scotland,SCO,Czechoslovakia,CSK,FALSE,2,4,loss,Brussels,Belgium,TRUE,1888,1959,1864,1983,-24
+1962-04-14,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,0,win,Glasgow,Scotland,FALSE,1864,1932,1891,1905,27
+1962-05-02,Friendly,played,Scotland,SCO,Uruguay,URY,TRUE,2,3,loss,Glasgow,Scotland,FALSE,1891,1893,1878,1906,-13
+1962-10-20,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,3,2,win,Cardiff,Wales,FALSE,1878,1797,1899,1776,21
+1962-11-07,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,5,1,win,Glasgow,Scotland,FALSE,1899,1618,1907,1610,8
+1963-04-06,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,1,win,London,England,FALSE,1907,1890,1932,1865,25
+1963-05-08,Friendly,played,Scotland,SCO,Austria,AUT,TRUE,4,1,win,Glasgow,Scotland,FALSE,1932,1866,1942,1856,10
+1963-06-04,Friendly,played,Scotland,SCO,Norway,NOR,FALSE,3,4,loss,Bergen,Norway,FALSE,1942,1506,1925,1523,-17
+1963-06-09,Friendly,played,Scotland,SCO,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1963-06-13,Friendly,played,Scotland,SCO,Spain,ESP,FALSE,6,2,win,Madrid,Spain,FALSE,1911,1874,1933,1852,22
+1963-10-12,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,2,loss,Belfast,Northern Ireland,FALSE,1933,1620,1902,1651,-31
+1963-11-07,Friendly,played,Scotland,SCO,Norway,NOR,TRUE,6,1,win,Glasgow,Scotland,FALSE,1902,1497,1904,1495,2
+1963-11-20,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,1,win,Glasgow,Scotland,FALSE,1904,1757,1912,1749,8
+1964-04-11,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,0,win,Glasgow,Scotland,FALSE,1912,1947,1928,1931,16
+1964-05-12,Friendly,played,Scotland,SCO,Germany,DEU,FALSE,2,2,draw,Hanover,Germany,FALSE,,,,,
+1964-10-03,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,3,loss,Cardiff,Wales,FALSE,1930,1718,1904,1744,-26
+1964-10-21,FIFA World Cup qualification,played,Scotland,SCO,Finland,,TRUE,3,1,win,Glasgow,Scotland,FALSE,1904,1379,1906,1377,2
+1964-11-25,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,2,win,Glasgow,Scotland,FALSE,1906,1659,1911,1654,5
+1965-04-10,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,2,draw,London,England,FALSE,1911,1918,1917,1912,6
+1965-05-08,Friendly,played,Scotland,SCO,Spain,ESP,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1917,1897,1914,1900,-3
+1965-05-23,FIFA World Cup qualification,played,Scotland,SCO,Poland,POL,FALSE,1,1,draw,Chorzów,Poland,FALSE,1914,1697,1908,1703,-6
+1965-05-27,FIFA World Cup qualification,played,Scotland,SCO,Finland,,FALSE,2,1,win,Helsinki,Finland,FALSE,1908,1375,1911,1372,3
+1965-10-02,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,2,3,loss,Belfast,Northern Ireland,FALSE,1911,1643,1882,1672,-29
+1965-10-13,FIFA World Cup qualification,played,Scotland,SCO,Poland,POL,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1882,1658,1847,1693,-35
+1965-11-09,FIFA World Cup qualification,played,Scotland,SCO,Italy,ITA,TRUE,1,0,win,Glasgow,Scotland,FALSE,1847,1944,1867,1924,20
+1965-11-24,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,4,1,win,Glasgow,Scotland,FALSE,1867,1766,1884,1749,17
+1965-12-07,FIFA World Cup qualification,played,Scotland,SCO,Italy,ITA,FALSE,0,3,loss,Naples,Italy,FALSE,1884,1924,1862,1946,-22
+1966-04-02,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,3,4,loss,Glasgow,Scotland,FALSE,1862,1946,1841,1967,-21
+1966-05-11,Friendly,played,Scotland,SCO,Netherlands,NLD,TRUE,0,3,loss,Glasgow,Scotland,FALSE,1841,1656,1812,1685,-29
+1966-06-18,Friendly,played,Scotland,SCO,Portugal,PRT,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1812,1784,1798,1798,-14
+1966-06-25,Friendly,played,Scotland,SCO,Brazil,BRA,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1798,2007,1801,2004,3
+1966-10-22,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,1,1,draw,Cardiff,Wales,FALSE,1801,1696,1801,1696,0
+1966-11-16,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,1,win,Glasgow,Scotland,FALSE,1801,1715,1811,1705,10
+1967-04-15,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,3,2,win,London,England,FALSE,1811,2090,1847,2054,36
+1967-05-10,Friendly,played,Scotland,SCO,Soviet Union,SUN,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1847,1961,1833,1975,-14
+1967-05-16,Friendly,played,Scotland,SCO,Israel,ISR,FALSE,2,1,win,Ramat Gan,Israel,FALSE,1833,1520,1838,1515,5
+1967-10-21,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1855,1699,1832,1722,-23
+1967-11-22,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,3,2,win,Glasgow,Scotland,FALSE,1832,1686,1840,1678,8
+1968-02-24,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1840,2074,1847,2067,7
+1968-05-30,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,1847,1686,1845,1688,-2
+1968-10-16,Friendly,played,Scotland,SCO,Denmark,DNK,FALSE,1,0,win,Copenhagen,Denmark,FALSE,1845,1627,1852,1620,7
+1968-11-06,FIFA World Cup qualification,played,Scotland,SCO,Austria,AUT,TRUE,2,1,win,Glasgow,Scotland,FALSE,1852,1681,1859,1674,7
+1968-12-11,FIFA World Cup qualification,played,Scotland,SCO,Cyprus,,FALSE,5,0,win,Nicosia,Cyprus,FALSE,1859,1385,1867,1377,8
+1969-04-16,FIFA World Cup qualification,played,Scotland,SCO,Germany,DEU,TRUE,1,1,draw,Glasgow,Scotland,FALSE,,,,,
+1969-05-03,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,5,3,win,Wrexham,Wales,FALSE,1869,1698,1893,1674,24
+1969-05-06,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1893,1742,1881,1754,-12
+1969-05-10,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,4,loss,London,England,FALSE,1881,2070,1870,2081,-11
+1969-05-17,FIFA World Cup qualification,played,Scotland,SCO,Cyprus,,TRUE,8,0,win,Glasgow,Scotland,FALSE,1870,1367,1873,1364,3
+1969-09-21,Friendly,played,Scotland,SCO,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+1969-10-22,FIFA World Cup qualification,played,Scotland,SCO,Germany,DEU,FALSE,2,3,loss,Hamburg,Germany,FALSE,,,,,
+1969-11-05,FIFA World Cup qualification,played,Scotland,SCO,Austria,AUT,FALSE,0,2,loss,Vienna,Austria,FALSE,1861,1698,1826,1733,-35
+1970-04-18,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1826,1738,1847,1717,21
+1970-04-22,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1847,1668,1834,1681,-13
+1970-04-25,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1834,2075,1842,2067,8
+1970-11-11,UEFA Euro qualification,played,Scotland,SCO,Denmark,DNK,TRUE,1,0,win,Glasgow,Scotland,FALSE,1842,1596,1847,1591,5
+1971-02-03,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,FALSE,0,3,loss,Liège,Belgium,FALSE,1847,1742,1811,1778,-36
+1971-04-21,UEFA Euro qualification,played,Scotland,SCO,Portugal,PRT,FALSE,0,2,loss,Lisbon,Portugal,FALSE,1811,1786,1787,1810,-24
+1971-05-15,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,0,draw,Cardiff,Wales,FALSE,1787,1670,1786,1671,-1
+1971-05-18,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1786,1696,1756,1726,-30
+1971-05-22,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,3,loss,London,England,FALSE,1756,2036,1750,2042,-6
+1971-06-09,UEFA Euro qualification,played,Scotland,SCO,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1750,1557,1725,1582,-25
+1971-06-14,Friendly,played,Scotland,SCO,Soviet Union,SUN,FALSE,0,1,loss,Moscow,Soviet Union,FALSE,1725,1952,1722,1955,-3
+1971-10-13,UEFA Euro qualification,played,Scotland,SCO,Portugal,PRT,TRUE,2,1,win,Glasgow,Scotland,FALSE,1722,1820,1742,1800,20
+1971-11-10,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,TRUE,1,0,win,Aberdeen,Scotland,FALSE,1742,1823,1761,1804,19
+1971-12-01,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,1,2,loss,Amsterdam,Netherlands,FALSE,1761,1759,1754,1766,-7
+1972-04-26,Friendly,played,Scotland,SCO,Peru,PER,TRUE,2,0,win,Glasgow,Scotland,FALSE,1754,1722,1764,1712,10
+1972-05-20,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,0,win,Glasgow,Scotland,FALSE,1764,1747,1784,1727,20
+1972-05-24,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,0,win,Glasgow,Scotland,FALSE,1784,1661,1793,1652,9
+1972-05-27,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1793,1993,1779,2007,-14
+1972-06-29,Brazil Independence Cup,played,Scotland,SCO,Yugoslavia,YUG,TRUE,2,2,draw,Belo Horizonte,Brazil,TRUE,1779,1870,1784,1865,5
+1972-07-02,Brazil Independence Cup,played,Scotland,SCO,Czechoslovakia,CSK,FALSE,0,0,draw,Porto Alegre,Brazil,TRUE,1784,1897,1790,1891,6
+1972-07-05,Brazil Independence Cup,played,Scotland,SCO,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1790,2134,1787,2137,-3
+1972-10-18,FIFA World Cup qualification,played,Scotland,SCO,Denmark,DNK,FALSE,4,1,win,Copenhagen,Denmark,FALSE,1787,1716,1825,1678,38
+1972-11-15,FIFA World Cup qualification,played,Scotland,SCO,Denmark,DNK,TRUE,2,0,win,Glasgow,Scotland,FALSE,1825,1678,1837,1666,12
+1973-02-14,Friendly,played,Scotland,SCO,England,ENG,TRUE,0,5,loss,Glasgow,Scotland,FALSE,1837,1993,1820,2010,-17
+1973-05-12,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,0,win,Wrexham,Wales,FALSE,1820,1708,1849,1679,29
+1973-05-16,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1849,1718,1817,1750,-32
+1973-05-19,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,1,loss,London,England,FALSE,1817,2019,1811,2025,-6
+1973-06-22,Friendly,played,Scotland,SCO,Switzerland,CHE,FALSE,0,1,loss,Bern,Switzerland,FALSE,1811,1725,1801,1735,-10
+1973-06-30,Friendly,played,Scotland,SCO,Brazil,BRA,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1801,2129,1797,2133,-4
+1973-09-26,FIFA World Cup qualification,played,Scotland,SCO,Czechoslovakia,CSK,TRUE,2,1,win,Glasgow,Scotland,FALSE,1797,1838,1814,1821,17
+1973-10-17,FIFA World Cup qualification,played,Scotland,SCO,Czechoslovakia,CSK,FALSE,0,1,loss,Bratislava,Czechoslovakia,FALSE,1814,1821,1800,1835,-14
+1973-11-14,Friendly,played,Scotland,SCO,Germany,DEU,TRUE,1,1,draw,Glasgow,Scotland,FALSE,,,,,
+1974-03-27,Friendly,played,Scotland,SCO,Germany,DEU,FALSE,1,2,loss,Frankfurt am Main,Germany,FALSE,,,,,
+1974-05-11,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1804,1780,1777,1807,-27
+1974-05-14,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,0,win,Glasgow,Scotland,FALSE,1777,1639,1789,1627,12
+1974-05-18,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,0,win,Glasgow,Scotland,FALSE,1789,1998,1828,1959,39
+1974-06-01,Friendly,played,Scotland,SCO,Belgium,BEL,FALSE,1,2,loss,Bruges,Belgium,FALSE,1828,1881,1822,1887,-6
+1974-06-06,Friendly,played,Scotland,SCO,Norway,NOR,FALSE,2,1,win,Oslo,Norway,FALSE,1822,1460,1826,1456,4
+1974-06-14,FIFA World Cup,played,Scotland,SCO,DR Congo,,FALSE,2,0,win,Dortmund,Germany,TRUE,,,,,
+1974-06-18,FIFA World Cup,played,Scotland,SCO,Brazil,BRA,TRUE,0,0,draw,Frankfurt am Main,Germany,TRUE,1865,2103,1883,2085,18
+1974-06-22,FIFA World Cup,played,Scotland,SCO,Yugoslavia,YUG,TRUE,1,1,draw,Frankfurt am Main,Germany,TRUE,1883,1984,1891,1976,8
+1974-10-30,Friendly,played,Scotland,SCO,German DR,DDR,TRUE,3,0,win,Glasgow,Scotland,FALSE,1891,1910,1904,1897,13
+1974-11-20,UEFA Euro qualification,played,Scotland,SCO,Spain,ESP,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1904,1900,1878,1926,-26
+1975-02-05,UEFA Euro qualification,played,Scotland,SCO,Spain,ESP,FALSE,1,1,draw,Valencia,Spain,FALSE,1878,1926,1886,1918,8
+1975-04-16,Friendly,played,Scotland,SCO,Sweden,SWE,FALSE,1,1,draw,Gothenburg,Sweden,FALSE,1886,1836,1887,1835,1
+1975-05-13,Friendly,played,Scotland,SCO,Portugal,PRT,TRUE,1,0,win,Glasgow,Scotland,FALSE,1887,1846,1893,1840,6
+1975-05-17,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,2,draw,Cardiff,Wales,FALSE,1893,1733,1890,1736,-3
+1975-05-20,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,0,win,Glasgow,Scotland,FALSE,1890,1818,1909,1799,19
+1975-05-24,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,5,loss,London,England,FALSE,1909,1974,1888,1995,-21
+1975-06-01,UEFA Euro qualification,played,Scotland,SCO,Romania,ROU,FALSE,1,1,draw,Bucharest,Romania,FALSE,1888,1838,1891,1835,3
+1975-09-03,UEFA Euro qualification,played,Scotland,SCO,Denmark,DNK,FALSE,1,0,win,Copenhagen,Denmark,FALSE,1891,1601,1901,1591,10
+1975-10-29,UEFA Euro qualification,played,Scotland,SCO,Denmark,DNK,TRUE,3,1,win,Glasgow,Scotland,FALSE,1901,1598,1906,1593,5
+1975-12-17,UEFA Euro qualification,played,Scotland,SCO,Romania,ROU,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1906,1838,1897,1847,-9
+1976-04-07,Friendly,played,Scotland,SCO,Switzerland,CHE,TRUE,1,0,win,Glasgow,Scotland,FALSE,1897,1665,1900,1662,3
+1976-05-06,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,3,1,win,Glasgow,Scotland,FALSE,1900,1742,1911,1731,11
+1976-05-08,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,0,win,Glasgow,Scotland,FALSE,1911,1787,1926,1772,15
+1976-05-15,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,2,1,win,Glasgow,Scotland,FALSE,1926,2006,1945,1987,19
+1976-09-08,Friendly,played,Scotland,SCO,Finland,,TRUE,6,0,win,Glasgow,Scotland,FALSE,1945,1423,1946,1422,1
+1976-10-13,FIFA World Cup qualification,played,Scotland,SCO,Czechoslovakia,CSK,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1946,1991,1928,2009,-18
+1976-11-17,FIFA World Cup qualification,played,Scotland,SCO,Wales,WAL,TRUE,1,0,win,Glasgow,Scotland,FALSE,1928,1738,1934,1732,6
+1977-04-27,Friendly,played,Scotland,SCO,Sweden,SWE,TRUE,3,1,win,Glasgow,Scotland,FALSE,1934,1811,1941,1804,7
+1977-05-28,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,0,draw,Wrexham,Wales,FALSE,1941,1783,1938,1786,-3
+1977-06-01,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,0,win,Glasgow,Scotland,FALSE,1938,1731,1948,1721,10
+1977-06-04,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,2,1,win,London,England,FALSE,1948,1928,1973,1903,25
+1977-06-15,Friendly,played,Scotland,SCO,Chile,CHL,FALSE,4,2,win,Santiago,Chile,FALSE,1973,1656,1980,1649,7
+1977-06-18,Friendly,played,Scotland,SCO,Argentina,ARG,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1980,1922,1981,1921,1
+1977-06-23,Friendly,played,Scotland,SCO,Brazil,BRA,FALSE,0,2,loss,Rio de Janeiro,Brazil,FALSE,1981,2067,1973,2075,-8
+1977-09-07,Friendly,played,Scotland,SCO,German DR,DDR,FALSE,0,1,loss,Berlin,German DR,FALSE,1973,1969,1966,1976,-7
+1977-09-21,FIFA World Cup qualification,played,Scotland,SCO,Czechoslovakia,CSK,TRUE,3,1,win,Glasgow,Scotland,FALSE,1966,1897,1982,1881,16
+1977-10-12,FIFA World Cup qualification,played,Scotland,SCO,Wales,WAL,FALSE,2,0,win,Liverpool,England,TRUE,1982,1812,1998,1796,16
+1978-02-22,Friendly,played,Scotland,SCO,Bulgaria,BGR,TRUE,2,1,win,Glasgow,Scotland,FALSE,1998,1752,2000,1750,2
+1978-05-13,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,1,draw,Glasgow,Scotland,FALSE,2000,1729,1984,1745,-16
+1978-05-17,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1984,1780,1970,1794,-14
+1978-05-20,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1970,1962,1944,1988,-26
+1978-06-03,FIFA World Cup,played,Scotland,SCO,Peru,PER,FALSE,1,3,loss,Córdoba,Argentina,TRUE,1944,1754,1877,1821,-67
+1978-06-07,FIFA World Cup,played,Scotland,SCO,Iran,IRN,FALSE,1,1,draw,Córdoba,Argentina,TRUE,1877,1786,1869,1794,-8
+1978-06-11,FIFA World Cup,played,Scotland,SCO,Netherlands,NLD,FALSE,3,2,win,Mendoza,Argentina,TRUE,1869,2089,1916,2042,47
+1978-09-20,UEFA Euro qualification,played,Scotland,SCO,Austria,AUT,FALSE,2,3,loss,Vienna,Austria,FALSE,1916,1906,1901,1921,-15
+1978-10-25,UEFA Euro qualification,played,Scotland,SCO,Norway,NOR,TRUE,3,2,win,Glasgow,Scotland,FALSE,1901,1485,1903,1483,2
+1978-11-29,UEFA Euro qualification,played,Scotland,SCO,Portugal,PRT,FALSE,0,1,loss,Lisbon,Portugal,FALSE,1903,1875,1887,1891,-16
+1979-05-19,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,3,loss,Cardiff,Wales,FALSE,1887,1795,1853,1829,-34
+1979-05-22,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,0,win,Glasgow,Scotland,FALSE,1853,1769,1863,1759,10
+1979-05-26,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,3,loss,London,England,FALSE,1863,2017,1852,2028,-11
+1979-06-02,Friendly,played,Scotland,SCO,Argentina,ARG,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1852,2038,1841,2049,-11
+1979-06-07,UEFA Euro qualification,played,Scotland,SCO,Norway,NOR,FALSE,4,0,win,Oslo,Norway,FALSE,1841,1477,1854,1464,13
+1979-09-12,Friendly,played,Scotland,SCO,Peru,PER,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1854,1791,1850,1795,-4
+1979-10-17,UEFA Euro qualification,played,Scotland,SCO,Austria,AUT,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1850,1912,1848,1914,-2
+1979-11-21,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1848,1839,1826,1861,-22
+1979-12-19,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1826,1861,1790,1897,-36
+1980-03-26,UEFA Euro qualification,played,Scotland,SCO,Portugal,PRT,TRUE,4,1,win,Glasgow,Scotland,FALSE,1790,1852,1821,1821,31
+1980-05-16,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1821,1723,1801,1743,-20
+1980-05-21,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,0,win,Glasgow,Scotland,FALSE,1801,1867,1819,1849,18
+1980-05-24,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1819,2010,1797,2032,-22
+1980-05-28,Friendly,played,Scotland,SCO,Poland,POL,FALSE,0,1,loss,Poznań,Poland,FALSE,1797,1912,1793,1916,-4
+1980-05-31,Friendly,played,Scotland,SCO,Hungary,HUN,FALSE,1,3,loss,Budapest,Hungary,FALSE,1793,1791,1782,1802,-11
+1980-09-10,FIFA World Cup qualification,played,Scotland,SCO,Sweden,SWE,FALSE,1,0,win,Solna,Sweden,FALSE,1782,1649,1800,1631,18
+1980-10-15,FIFA World Cup qualification,played,Scotland,SCO,Portugal,PRT,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1800,1807,1795,1812,-5
+1981-02-25,FIFA World Cup qualification,played,Scotland,SCO,Israel,ISR,FALSE,1,0,win,Ramat Gan,Israel,FALSE,1795,1679,1814,1660,19
+1981-03-25,FIFA World Cup qualification,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1814,1805,1808,1811,-6
+1981-04-28,FIFA World Cup qualification,played,Scotland,SCO,Israel,ISR,TRUE,3,1,win,Glasgow,Scotland,FALSE,1808,1672,1820,1660,12
+1981-05-16,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,0,2,loss,Swansea,Wales,FALSE,1820,1884,1803,1901,-17
+1981-05-19,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,2,0,win,Glasgow,Scotland,FALSE,1803,1827,1827,1803,24
+1981-05-23,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,1,0,win,London,England,FALSE,1827,1951,1858,1920,31
+1981-09-09,FIFA World Cup qualification,played,Scotland,SCO,Sweden,SWE,TRUE,2,0,win,Glasgow,Scotland,FALSE,1858,1701,1869,1690,11
+1981-10-14,FIFA World Cup qualification,played,Scotland,SCO,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1869,1778,1870,1777,1
+1981-11-18,FIFA World Cup qualification,played,Scotland,SCO,Portugal,PRT,FALSE,1,2,loss,Lisbon,Portugal,FALSE,1870,1738,1848,1760,-22
+1982-02-24,Friendly,played,Scotland,SCO,Spain,ESP,FALSE,0,3,loss,Valencia,Spain,FALSE,1848,1880,1837,1891,-11
+1982-03-23,Friendly,played,Scotland,SCO,Netherlands,NLD,TRUE,2,1,win,Glasgow,Scotland,FALSE,1837,1912,1846,1903,9
+1982-04-28,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1846,1762,1847,1761,1
+1982-05-24,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,1,0,win,Glasgow,Scotland,FALSE,1847,1833,1861,1819,14
+1982-05-29,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1861,1947,1840,1968,-21
+1982-06-15,FIFA World Cup,played,Scotland,SCO,New Zealand,NZL,TRUE,5,2,win,Málaga,Spain,TRUE,1840,1596,1861,1575,21
+1982-06-18,FIFA World Cup,played,Scotland,SCO,Brazil,BRA,FALSE,1,4,loss,Seville,Spain,TRUE,1861,2116,1841,2136,-20
+1982-06-22,FIFA World Cup,played,Scotland,SCO,Soviet Union,SUN,FALSE,2,2,draw,Málaga,Spain,TRUE,1841,1998,1854,1985,13
+1982-10-13,UEFA Euro qualification,played,Scotland,SCO,German DR,DDR,TRUE,2,0,win,Glasgow,Scotland,FALSE,1854,1909,1880,1883,26
+1982-11-17,UEFA Euro qualification,played,Scotland,SCO,Switzerland,CHE,FALSE,0,2,loss,Bern,Switzerland,FALSE,1880,1700,1843,1737,-37
+1982-12-15,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,FALSE,2,3,loss,Brussels,Belgium,FALSE,1843,1891,1831,1903,-12
+1983-03-30,UEFA Euro qualification,played,Scotland,SCO,Switzerland,CHE,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1831,1754,1822,1763,-9
+1983-05-24,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1822,1777,1814,1785,-8
+1983-05-28,British Home Championship,played,Scotland,SCO,Wales,WAL,FALSE,2,0,win,Cardiff,Wales,FALSE,1814,1863,1856,1821,42
+1983-06-01,British Home Championship,played,Scotland,SCO,England,ENG,FALSE,0,2,loss,London,England,FALSE,1856,2012,1845,2023,-11
+1983-06-12,Friendly,played,Scotland,SCO,Canada,CAN,FALSE,2,0,win,Vancouver,Canada,FALSE,1845,1597,1854,1588,9
+1983-06-16,Friendly,played,Scotland,SCO,Canada,CAN,FALSE,3,0,win,Edmonton,Canada,FALSE,1854,1588,1864,1578,10
+1983-09-21,Friendly,played,Scotland,SCO,Uruguay,URY,TRUE,2,0,win,Glasgow,Scotland,FALSE,1872,1790,1880,1782,8
+1983-10-12,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1880,1934,1877,1937,-3
+1983-11-16,UEFA Euro qualification,played,Scotland,SCO,German DR,DDR,FALSE,1,2,loss,Halle,German DR,FALSE,1877,1856,1861,1872,-16
+1983-12-13,British Home Championship,played,Scotland,SCO,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1861,1808,1835,1834,-26
+1984-02-28,British Home Championship,played,Scotland,SCO,Wales,WAL,TRUE,2,1,win,Glasgow,Scotland,FALSE,1835,1830,1849,1816,14
+1984-05-26,British Home Championship,played,Scotland,SCO,England,ENG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1849,1970,1850,1969,1
+1984-06-01,Friendly,played,Scotland,SCO,France,FRA,FALSE,0,2,loss,Marseille,France,FALSE,1850,1954,1843,1961,-7
+1984-09-12,Friendly,played,Scotland,SCO,Yugoslavia,YUG,TRUE,6,1,win,Glasgow,Scotland,FALSE,1843,1790,1855,1778,12
+1984-10-17,FIFA World Cup qualification,played,Scotland,SCO,Iceland,ISL,TRUE,3,0,win,Glasgow,Scotland,FALSE,1855,1503,1860,1498,5
+1984-11-14,FIFA World Cup qualification,played,Scotland,SCO,Spain,ESP,TRUE,3,1,win,Glasgow,Scotland,FALSE,1860,1899,1885,1874,25
+1985-02-27,FIFA World Cup qualification,played,Scotland,SCO,Spain,ESP,FALSE,0,1,loss,Seville,Spain,FALSE,1885,1876,1870,1891,-15
+1985-03-27,FIFA World Cup qualification,played,Scotland,SCO,Wales,WAL,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1870,1769,1840,1799,-30
+1985-05-25,Rous Cup,played,Scotland,SCO,England,ENG,TRUE,1,0,win,Glasgow,Scotland,FALSE,1840,1967,1856,1951,16
+1985-05-28,FIFA World Cup qualification,played,Scotland,SCO,Iceland,ISL,FALSE,1,0,win,Reykjavík,Iceland,FALSE,1856,1491,1863,1484,7
+1985-09-10,FIFA World Cup qualification,played,Scotland,SCO,Wales,WAL,FALSE,1,1,draw,Cardiff,Wales,FALSE,1863,1815,1866,1812,3
+1985-10-16,Friendly,played,Scotland,SCO,German DR,DDR,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1866,1870,1863,1873,-3
+1985-11-20,FIFA World Cup qualification,played,Scotland,SCO,Australia,AUS,TRUE,2,0,win,Glasgow,Scotland,FALSE,1863,1644,1871,1636,8
+1985-12-04,FIFA World Cup qualification,played,Scotland,SCO,Australia,AUS,FALSE,0,0,draw,Melbourne,Australia,FALSE,1871,1636,1864,1643,-7
+1986-01-28,Friendly,played,Scotland,SCO,Israel,ISR,FALSE,1,0,win,Ramat Gan,Israel,FALSE,1864,1645,1871,1638,7
+1986-03-26,Friendly,played,Scotland,SCO,Romania,ROU,TRUE,3,0,win,Glasgow,Scotland,FALSE,1871,1795,1880,1786,9
+1986-04-23,Rous Cup,played,Scotland,SCO,England,ENG,FALSE,1,2,loss,London,England,FALSE,1880,1962,1872,1970,-8
+1986-04-29,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,0,0,draw,Eindhoven,Netherlands,FALSE,1872,1887,1875,1884,3
+1986-06-04,FIFA World Cup,played,Scotland,SCO,Denmark,DNK,TRUE,0,1,loss,Nezahualcóyotl,Mexico,TRUE,1874,1893,1846,1921,-28
+1986-06-08,FIFA World Cup,played,Scotland,SCO,Germany,DEU,FALSE,1,2,loss,Querétaro,Mexico,TRUE,,,,,
+1986-06-13,FIFA World Cup,played,Scotland,SCO,Uruguay,URY,TRUE,0,0,draw,Nezahualcóyotl,Mexico,TRUE,1823,1795,1821,1797,-2
+1986-09-10,UEFA Euro qualification,played,Scotland,SCO,Bulgaria,BGR,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1821,1767,1813,1775,-8
+1986-10-15,UEFA Euro qualification,played,Scotland,SCO,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+1986-11-12,UEFA Euro qualification,played,Scotland,SCO,Luxembourg,,TRUE,3,0,win,Glasgow,Scotland,FALSE,1815,1169,1816,1168,1
+1987-02-18,UEFA Euro qualification,played,Scotland,SCO,Republic of Ireland,IRL,TRUE,0,1,loss,Glasgow,Scotland,FALSE,,,,,
+1987-04-01,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,FALSE,1,4,loss,Brussels,Belgium,FALSE,1786,1794,1762,1818,-24
+1987-05-23,Rous Cup,played,Scotland,SCO,England,ENG,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1762,1996,1768,1990,6
+1987-05-26,Rous Cup,played,Scotland,SCO,Brazil,BRA,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1768,2006,1754,2020,-14
+1987-09-09,Friendly,played,Scotland,SCO,Hungary,HUN,TRUE,2,0,win,Glasgow,Scotland,FALSE,1754,1792,1766,1780,12
+1987-10-14,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,TRUE,2,0,win,Glasgow,Scotland,FALSE,1766,1800,1790,1776,24
+1987-11-11,UEFA Euro qualification,played,Scotland,SCO,Bulgaria,BGR,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1790,1796,1816,1770,26
+1987-12-02,UEFA Euro qualification,played,Scotland,SCO,Luxembourg,,FALSE,0,0,draw,Esch-sur-Alzette,Luxembourg,FALSE,1816,1159,1798,1177,-18
+1988-02-17,Friendly,played,Scotland,SCO,Saudi Arabia,SAU,FALSE,2,2,draw,Riyadh,Saudi Arabia,FALSE,1798,1522,1793,1527,-5
+1988-03-22,Friendly,played,Scotland,SCO,Malta,,FALSE,1,1,draw,Attard,Malta,FALSE,1793,1419,1786,1426,-7
+1988-04-27,Friendly,played,Scotland,SCO,Spain,ESP,FALSE,0,0,draw,Madrid,Spain,FALSE,1786,1931,1792,1925,6
+1988-05-17,Rous Cup,played,Scotland,SCO,Colombia,COL,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1792,1778,1787,1783,-5
+1988-05-21,Rous Cup,played,Scotland,SCO,England,ENG,FALSE,0,1,loss,London,England,FALSE,1787,1999,1783,2003,-4
+1988-09-14,FIFA World Cup qualification,played,Scotland,SCO,Norway,NOR,FALSE,2,1,win,Oslo,Norway,FALSE,1783,1688,1803,1668,20
+1988-10-19,FIFA World Cup qualification,played,Scotland,SCO,Yugoslavia,YUG,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1803,1871,1801,1873,-2
+1988-12-22,Friendly,played,Scotland,SCO,Italy,ITA,FALSE,0,2,loss,Perugia,Italy,FALSE,1801,1972,1796,1977,-5
+1989-02-08,FIFA World Cup qualification,played,Scotland,SCO,Cyprus,,FALSE,3,2,win,Limassol,Cyprus,FALSE,1796,1278,1799,1275,3
+1989-03-08,FIFA World Cup qualification,played,Scotland,SCO,France,FRA,TRUE,2,0,win,Glasgow,Scotland,FALSE,1799,1852,1825,1826,26
+1989-04-26,FIFA World Cup qualification,played,Scotland,SCO,Cyprus,,TRUE,2,1,win,Glasgow,Scotland,FALSE,1825,1275,1826,1274,1
+1989-05-27,Rous Cup,played,Scotland,SCO,England,ENG,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1826,1892,1801,1917,-25
+1989-05-30,Rous Cup,played,Scotland,SCO,Chile,CHL,TRUE,2,0,win,Glasgow,Scotland,FALSE,1801,1796,1817,1780,16
+1989-09-06,FIFA World Cup qualification,played,Scotland,SCO,Yugoslavia,YUG,FALSE,1,3,loss,Zagreb,Yugoslavia,FALSE,1817,1899,1801,1915,-16
+1989-10-11,FIFA World Cup qualification,played,Scotland,SCO,France,FRA,FALSE,0,3,loss,Paris,France,FALSE,1801,1843,1780,1864,-21
+1989-11-15,FIFA World Cup qualification,played,Scotland,SCO,Norway,NOR,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1780,1649,1768,1661,-12
+1990-03-28,Friendly,played,Scotland,SCO,Argentina,ARG,TRUE,1,0,win,Glasgow,Scotland,FALSE,1768,1791,1776,1783,8
+1990-04-25,Friendly,played,Scotland,SCO,German DR,DDR,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1776,1741,1762,1755,-14
+1990-05-16,Friendly,played,Scotland,SCO,Egypt,EGY,TRUE,1,3,loss,Aberdeen,Scotland,FALSE,1762,1601,1737,1626,-25
+1990-05-19,Friendly,played,Scotland,SCO,Poland,POL,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1737,1780,1735,1782,-2
+1990-05-28,Friendly,played,Scotland,SCO,Malta,,FALSE,2,1,win,Attard,Malta,FALSE,1735,1377,1739,1373,4
+1990-06-11,FIFA World Cup,played,Scotland,SCO,Costa Rica,CRI,FALSE,0,1,loss,Genoa,Italy,TRUE,1739,1612,1698,1653,-41
+1990-06-16,FIFA World Cup,played,Scotland,SCO,Sweden,SWE,FALSE,2,1,win,Genoa,Italy,TRUE,1698,1926,1745,1879,47
+1990-06-20,FIFA World Cup,played,Scotland,SCO,Brazil,BRA,FALSE,0,1,loss,Turin,Italy,TRUE,1745,2026,1735,2036,-10
+1990-09-12,UEFA Euro qualification,played,Scotland,SCO,Romania,ROU,TRUE,2,1,win,Glasgow,Scotland,FALSE,1735,1900,1759,1876,24
+1990-10-17,UEFA Euro qualification,played,Scotland,SCO,Switzerland,CHE,TRUE,2,1,win,Glasgow,Scotland,FALSE,1759,1732,1772,1719,13
+1990-11-14,UEFA Euro qualification,played,Scotland,SCO,Bulgaria,BGR,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,1772,1750,1776,1746,4
+1991-02-06,Friendly,played,Scotland,SCO,Soviet Union,SUN,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1776,1887,1766,1897,-10
+1991-03-27,UEFA Euro qualification,played,Scotland,SCO,Bulgaria,BGR,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1766,1746,1759,1753,-7
+1991-05-01,UEFA Euro qualification,played,Scotland,SCO,San Marino,,FALSE,2,0,win,Serravalle,San Marino,FALSE,1759,1006,1760,1005,1
+1991-09-11,UEFA Euro qualification,played,Scotland,SCO,Switzerland,CHE,FALSE,2,2,draw,Bern,Switzerland,FALSE,1760,1782,1767,1775,7
+1991-10-16,UEFA Euro qualification,played,Scotland,SCO,Romania,ROU,FALSE,0,1,loss,Bucharest,Romania,FALSE,1767,1803,1754,1816,-13
+1991-11-13,UEFA Euro qualification,played,Scotland,SCO,San Marino,,TRUE,4,0,win,Glasgow,Scotland,FALSE,1754,1001,1755,1000,1
+1992-02-19,Friendly,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,0,win,Glasgow,Scotland,FALSE,1755,1664,1760,1659,5
+1992-03-25,Friendly,played,Scotland,SCO,Finland,,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1760,1614,1754,1620,-6
+1992-05-17,Friendly,played,Scotland,SCO,United States,USA,FALSE,1,0,win,Denver,United States,FALSE,1754,1659,1764,1649,10
+1992-05-20,Friendly,played,Scotland,SCO,Canada,CAN,FALSE,3,1,win,Toronto,Canada,FALSE,1764,1552,1774,1542,10
+1992-06-03,Friendly,played,Scotland,SCO,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1774,1728,1776,1726,2
+1992-06-12,UEFA Euro,played,Scotland,SCO,Netherlands,NLD,FALSE,0,1,loss,Gothenburg,Sweden,TRUE,1776,1966,1763,1979,-13
+1992-06-15,UEFA Euro,played,Scotland,SCO,Germany,DEU,TRUE,0,2,loss,Norrköping,Sweden,TRUE,1763,2057,1751,2069,-12
+1992-06-18,UEFA Euro,played,Scotland,SCO,CIS,,TRUE,3,0,win,Norrköping,Sweden,TRUE,,,,,
+1992-09-09,FIFA World Cup qualification,played,Scotland,SCO,Switzerland,CHE,FALSE,1,3,loss,Bern,Switzerland,FALSE,1816,1776,1791,1801,-25
+1992-10-14,FIFA World Cup qualification,played,Scotland,SCO,Portugal,PRT,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1791,1780,1785,1786,-6
+1992-11-18,FIFA World Cup qualification,played,Scotland,SCO,Italy,ITA,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1785,1983,1790,1978,5
+1993-02-17,FIFA World Cup qualification,played,Scotland,SCO,Malta,,TRUE,3,0,win,Glasgow,Scotland,FALSE,1790,1374,1793,1371,3
+1993-03-24,Friendly,played,Scotland,SCO,Germany,DEU,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1793,1993,1786,2000,-7
+1993-04-28,FIFA World Cup qualification,played,Scotland,SCO,Portugal,PRT,FALSE,0,5,loss,Lisbon,Portugal,FALSE,1786,1783,1757,1812,-29
+1993-05-19,FIFA World Cup qualification,played,Scotland,SCO,Estonia,,FALSE,3,0,win,Tallinn,Estonia,FALSE,1757,1176,1761,1172,4
+1993-06-02,FIFA World Cup qualification,played,Scotland,SCO,Estonia,,TRUE,3,1,win,Aberdeen,Scotland,FALSE,1761,1172,1762,1171,1
+1993-09-08,FIFA World Cup qualification,played,Scotland,SCO,Switzerland,CHE,TRUE,1,1,draw,Aberdeen,Scotland,FALSE,1762,1862,1762,1862,0
+1993-10-13,FIFA World Cup qualification,played,Scotland,SCO,Italy,ITA,FALSE,1,3,loss,Rome,Italy,FALSE,1762,1985,1754,1993,-8
+1993-11-17,FIFA World Cup qualification,played,Scotland,SCO,Malta,,FALSE,2,0,win,Attard,Malta,FALSE,1754,1387,1765,1376,11
+1994-03-23,Friendly,played,Scotland,SCO,Netherlands,NLD,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1765,1988,1758,1995,-7
+1994-04-20,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,2,1,win,Vienna,Austria,FALSE,1758,1643,1768,1633,10
+1994-05-27,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,1,3,loss,Utrecht,Netherlands,FALSE,1768,1979,1764,1983,-4
+1994-09-07,UEFA Euro qualification,played,Scotland,SCO,Finland,,FALSE,2,0,win,Helsinki,Finland,FALSE,1764,1549,1784,1529,20
+1994-10-12,UEFA Euro qualification,played,Scotland,SCO,Faroe Islands,,TRUE,5,1,win,Glasgow,Scotland,FALSE,1784,1186,1785,1185,1
+1994-11-16,UEFA Euro qualification,played,Scotland,SCO,Russia,RUS,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1785,1842,1783,1844,-2
+1994-12-18,UEFA Euro qualification,played,Scotland,SCO,Greece,GRC,FALSE,0,1,loss,Athens,Greece,FALSE,1783,1624,1760,1647,-23
+1995-03-29,UEFA Euro qualification,played,Scotland,SCO,Russia,RUS,FALSE,0,0,draw,Moscow,Russia,FALSE,1760,1832,1769,1823,9
+1995-04-26,UEFA Euro qualification,played,Scotland,SCO,San Marino,,FALSE,2,0,win,Serravalle,San Marino,FALSE,1769,1005,1770,1004,1
+1995-05-21,Kirin Cup,played,Scotland,SCO,Japan,JPN,FALSE,0,0,draw,Hiroshima,Japan,FALSE,1770,1586,1766,1590,-4
+1995-05-24,Kirin Cup,played,Scotland,SCO,Ecuador,ECU,FALSE,2,1,win,Toyama,Japan,TRUE,1766,1638,1776,1628,10
+1995-06-07,UEFA Euro qualification,played,Scotland,SCO,Faroe Islands,,FALSE,2,0,win,Toftir,Faroe Islands,FALSE,1776,1176,1779,1173,3
+1995-08-16,UEFA Euro qualification,played,Scotland,SCO,Greece,GRC,TRUE,1,0,win,Glasgow,Scotland,FALSE,1779,1607,1786,1600,7
+1995-09-06,UEFA Euro qualification,played,Scotland,SCO,Finland,,TRUE,1,0,win,Glasgow,Scotland,FALSE,1786,1536,1791,1531,5
+1995-10-11,Friendly,played,Scotland,SCO,Sweden,SWE,FALSE,0,2,loss,Solna,Sweden,FALSE,1791,1849,1782,1858,-9
+1995-11-15,UEFA Euro qualification,played,Scotland,SCO,San Marino,,TRUE,5,0,win,Glasgow,Scotland,FALSE,1782,963,1782,963,0
+1996-03-27,Friendly,played,Scotland,SCO,Australia,AUS,TRUE,1,0,win,Glasgow,Scotland,FALSE,1782,1684,1787,1679,5
+1996-04-24,Friendly,played,Scotland,SCO,Denmark,DNK,FALSE,0,2,loss,Copenhagen,Denmark,FALSE,1787,1963,1782,1968,-5
+1996-05-26,Friendly,played,Scotland,SCO,United States,USA,FALSE,1,2,loss,New Britain,United States,FALSE,1782,1737,1774,1745,-8
+1996-05-29,Friendly,played,Scotland,SCO,Colombia,COL,FALSE,0,1,loss,Miami,United States,TRUE,1774,1877,1767,1884,-7
+1996-06-10,UEFA Euro,played,Scotland,SCO,Netherlands,NLD,FALSE,0,0,draw,Birmingham,England,TRUE,1767,1915,1777,1905,10
+1996-06-15,UEFA Euro,played,Scotland,SCO,England,ENG,FALSE,0,2,loss,London,England,FALSE,1777,1874,1759,1892,-18
+1996-06-18,UEFA Euro,played,Scotland,SCO,Switzerland,CHE,TRUE,1,0,win,Birmingham,England,TRUE,1759,1787,1786,1760,27
+1996-08-31,FIFA World Cup qualification,played,Scotland,SCO,Austria,AUT,FALSE,0,0,draw,Vienna,Austria,FALSE,1786,1696,1787,1695,1
+1996-10-05,FIFA World Cup qualification,played,Scotland,SCO,Latvia,,FALSE,2,0,win,Riga,Latvia,FALSE,1787,1398,1797,1388,10
+1996-11-10,FIFA World Cup qualification,played,Scotland,SCO,Sweden,SWE,TRUE,1,0,win,Glasgow,Scotland,FALSE,1797,1835,1813,1819,16
+1997-02-11,FIFA World Cup qualification,played,Scotland,SCO,Estonia,,FALSE,0,0,draw,Monaco,Monaco,TRUE,1813,1195,1794,1214,-19
+1997-03-29,FIFA World Cup qualification,played,Scotland,SCO,Estonia,,TRUE,2,0,win,Kilmarnock,Scotland,FALSE,1794,1237,1795,1236,1
+1997-04-02,FIFA World Cup qualification,played,Scotland,SCO,Austria,AUT,TRUE,2,0,win,Glasgow,Scotland,FALSE,1795,1706,1810,1691,15
+1997-04-30,FIFA World Cup qualification,played,Scotland,SCO,Sweden,SWE,FALSE,1,2,loss,Gothenburg,Sweden,FALSE,1810,1823,1796,1837,-14
+1997-05-27,Friendly,played,Scotland,SCO,Wales,WAL,TRUE,0,1,loss,Kilmarnock,Scotland,FALSE,1796,1580,1779,1597,-17
+1997-06-01,Friendly,played,Scotland,SCO,Malta,,FALSE,3,2,win,Attard,Malta,FALSE,1779,1248,1781,1246,2
+1997-06-08,FIFA World Cup qualification,played,Scotland,SCO,Belarus,,FALSE,1,0,win,Minsk,Belarus,FALSE,1781,1379,1787,1373,6
+1997-09-07,FIFA World Cup qualification,played,Scotland,SCO,Belarus,,TRUE,4,1,win,Aberdeen,Scotland,FALSE,1787,1363,1790,1360,3
+1997-10-11,FIFA World Cup qualification,played,Scotland,SCO,Latvia,,TRUE,2,0,win,Glasgow,Scotland,FALSE,1790,1408,1794,1404,4
+1997-11-12,Friendly,played,Scotland,SCO,France,FRA,FALSE,1,2,loss,Saint-Étienne,France,FALSE,1794,2010,1791,2013,-3
+1998-03-25,Friendly,played,Scotland,SCO,Denmark,DNK,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1791,1931,1782,1940,-9
+1998-04-22,Friendly,played,Scotland,SCO,Finland,,TRUE,1,1,draw,Edinburgh,Scotland,FALSE,1782,1524,1774,1532,-8
+1998-05-30,Friendly,played,Scotland,SCO,United States,USA,FALSE,0,0,draw,"Washington, D.C.",United States,FALSE,1774,1761,1776,1759,2
+1998-06-10,FIFA World Cup,played,Scotland,SCO,Brazil,BRA,FALSE,1,2,loss,Saint-Denis,France,TRUE,1776,2092,1768,2100,-8
+1998-06-16,FIFA World Cup,played,Scotland,SCO,Norway,NOR,TRUE,1,1,draw,Bordeaux,France,TRUE,1768,1889,1778,1879,10
+1998-06-23,FIFA World Cup,played,Scotland,SCO,Morocco,MAR,TRUE,0,3,loss,Saint-Étienne,France,TRUE,1778,1729,1718,1789,-60
+1998-09-05,UEFA Euro qualification,played,Scotland,SCO,Lithuania,,FALSE,0,0,draw,Vilnius,Lithuania,FALSE,1718,1473,1710,1481,-8
+1998-10-10,UEFA Euro qualification,played,Scotland,SCO,Estonia,,TRUE,3,2,win,Edinburgh,Scotland,FALSE,1710,1226,1711,1225,1
+1998-10-14,UEFA Euro qualification,played,Scotland,SCO,Faroe Islands,,TRUE,2,1,win,Aberdeen,Scotland,FALSE,1711,1211,1712,1210,1
+1999-03-31,UEFA Euro qualification,played,Scotland,SCO,Czechia,CZE,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1712,1912,1698,1926,-14
+1999-04-28,Friendly,played,Scotland,SCO,Germany,DEU,FALSE,1,0,win,Bremen,Germany,FALSE,1698,1961,1716,1943,18
+1999-06-05,UEFA Euro qualification,played,Scotland,SCO,Faroe Islands,,FALSE,1,1,draw,Toftir,Faroe Islands,FALSE,1716,1206,1699,1223,-17
+1999-06-09,UEFA Euro qualification,played,Scotland,SCO,Czechia,CZE,FALSE,2,3,loss,Prague,Czech Republic,FALSE,1699,1916,1693,1922,-6
+1999-09-04,UEFA Euro qualification,played,Scotland,SCO,Bosnia and Herzegovina,BIH,FALSE,2,1,win,Sarajevo,Bosnia and Herzegovina,FALSE,1693,1546,1710,1529,17
+1999-09-08,UEFA Euro qualification,played,Scotland,SCO,Estonia,,FALSE,0,0,draw,Tallinn,Estonia,FALSE,1710,1312,1696,1326,-14
+1999-10-05,UEFA Euro qualification,played,Scotland,SCO,Bosnia and Herzegovina,BIH,TRUE,1,0,win,Glasgow,Scotland,FALSE,1696,1525,1703,1518,7
+1999-10-09,UEFA Euro qualification,played,Scotland,SCO,Lithuania,,TRUE,3,0,win,Glasgow,Scotland,FALSE,1703,1484,1713,1474,10
+1999-11-13,UEFA Euro qualification,played,Scotland,SCO,England,ENG,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1713,1922,1692,1943,-21
+1999-11-17,UEFA Euro qualification,played,Scotland,SCO,England,ENG,FALSE,1,0,win,London,England,FALSE,1692,1943,1727,1908,35
+2000-03-29,Friendly,played,Scotland,SCO,France,FRA,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1727,2043,1720,2050,-7
+2000-04-26,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,0,0,draw,Arnhem,Netherlands,FALSE,1720,1958,1727,1951,7
+2000-05-30,Friendly,played,Scotland,SCO,Republic of Ireland,IRL,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+2000-09-03,FIFA World Cup qualification,played,Scotland,SCO,Latvia,,FALSE,1,0,win,Riga,Latvia,FALSE,,,,,
+2000-10-07,FIFA World Cup qualification,played,Scotland,SCO,San Marino,,FALSE,2,0,win,Serravalle,San Marino,FALSE,1750,942,1751,941,1
+2000-10-11,FIFA World Cup qualification,played,Scotland,SCO,Croatia,HRV,FALSE,1,1,draw,Zagreb,Croatia,FALSE,1751,1900,1763,1888,12
+2000-11-15,Friendly,played,Scotland,SCO,Australia,AUS,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1763,1759,1744,1778,-19
+2001-03-24,FIFA World Cup qualification,played,Scotland,SCO,Belgium,BEL,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1744,1784,1741,1787,-3
+2001-03-28,FIFA World Cup qualification,played,Scotland,SCO,San Marino,,TRUE,4,0,win,Glasgow,Scotland,FALSE,1741,937,1741,937,0
+2001-04-25,Friendly,played,Scotland,SCO,Poland,POL,FALSE,1,1,draw,Bydgoszcz,Poland,FALSE,1741,1810,1746,1805,5
+2001-09-01,FIFA World Cup qualification,played,Scotland,SCO,Croatia,HRV,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1746,1893,1749,1890,3
+2001-09-05,FIFA World Cup qualification,played,Scotland,SCO,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1749,1777,1730,1796,-19
+2001-10-06,FIFA World Cup qualification,played,Scotland,SCO,Latvia,,TRUE,2,1,win,Glasgow,Scotland,FALSE,1730,1424,1734,1420,4
+2002-03-27,Friendly,played,Scotland,SCO,France,FRA,FALSE,0,5,loss,Saint-Denis,France,FALSE,1734,2113,1732,2115,-2
+2002-04-17,Friendly,played,Scotland,SCO,Nigeria,NGA,TRUE,1,2,loss,Aberdeen,Scotland,FALSE,1732,1728,1719,1741,-13
+2002-05-16,Friendly,played,Scotland,SCO,South Korea,KOR,FALSE,1,4,loss,Busan,South Korea,FALSE,1719,1724,1707,1736,-12
+2002-05-20,Friendly,played,Scotland,SCO,South Africa,ZAF,TRUE,0,2,loss,So Kon Po,Hong Kong,TRUE,1707,1577,1676,1608,-31
+2002-08-21,Friendly,played,Scotland,SCO,Denmark,DNK,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1676,1887,1669,1894,-7
+2002-09-07,UEFA Euro qualification,played,Scotland,SCO,Faroe Islands,,FALSE,2,2,draw,Toftir,Faroe Islands,FALSE,1669,1251,1655,1265,-14
+2002-10-12,UEFA Euro qualification,played,Scotland,SCO,Iceland,ISL,FALSE,2,0,win,Reykjavík,Iceland,FALSE,1655,1578,1687,1546,32
+2002-10-15,Friendly,played,Scotland,SCO,Canada,CAN,TRUE,3,1,win,Edinburgh,Scotland,FALSE,1687,1643,1696,1634,9
+2002-11-20,Friendly,played,Scotland,SCO,Portugal,PRT,FALSE,0,2,loss,Braga,Portugal,FALSE,1696,1926,1692,1930,-4
+2003-02-12,Friendly,played,Scotland,SCO,Republic of Ireland,IRL,TRUE,0,2,loss,Glasgow,Scotland,FALSE,,,,,
+2003-03-29,UEFA Euro qualification,played,Scotland,SCO,Iceland,ISL,TRUE,2,1,win,Glasgow,Scotland,FALSE,1679,1542,1687,1534,8
+2003-04-02,UEFA Euro qualification,played,Scotland,SCO,Lithuania,,FALSE,0,1,loss,Kaunas,Lithuania,FALSE,1687,1395,1657,1425,-30
+2003-04-30,Friendly,played,Scotland,SCO,Austria,AUT,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1657,1668,1638,1687,-19
+2003-05-27,Friendly,played,Scotland,SCO,New Zealand,NZL,TRUE,1,1,draw,Edinburgh,Scotland,FALSE,1638,1565,1633,1570,-5
+2003-06-07,UEFA Euro qualification,played,Scotland,SCO,Germany,DEU,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1633,1914,1643,1904,10
+2003-08-20,Friendly,played,Scotland,SCO,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1643,1775,1649,1769,6
+2003-09-06,UEFA Euro qualification,played,Scotland,SCO,Faroe Islands,,TRUE,3,1,win,Glasgow,Scotland,FALSE,1649,1259,1652,1256,3
+2003-09-10,UEFA Euro qualification,played,Scotland,SCO,Germany,DEU,FALSE,1,2,loss,Dortmund,Germany,FALSE,1652,1884,1647,1889,-5
+2003-10-11,UEFA Euro qualification,played,Scotland,SCO,Lithuania,,TRUE,1,0,win,Glasgow,Scotland,FALSE,1647,1436,1653,1430,6
+2003-11-15,UEFA Euro qualification,played,Scotland,SCO,Netherlands,NLD,TRUE,1,0,win,Glasgow,Scotland,FALSE,1653,2015,1686,1982,33
+2003-11-19,UEFA Euro qualification,played,Scotland,SCO,Netherlands,NLD,FALSE,0,6,loss,Amsterdam,Netherlands,FALSE,1686,1982,1678,1990,-8
+2004-02-18,Friendly,played,Scotland,SCO,Wales,WAL,FALSE,0,4,loss,Cardiff,Wales,FALSE,1678,1621,1662,1637,-16
+2004-03-31,Friendly,played,Scotland,SCO,Romania,ROU,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1662,1820,1654,1828,-8
+2004-04-28,Friendly,played,Scotland,SCO,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1654,1889,1651,1892,-3
+2004-05-27,Friendly,played,Scotland,SCO,Estonia,,FALSE,1,0,win,Tallinn,Estonia,FALSE,1651,1389,1657,1383,6
+2004-05-30,Friendly,played,Scotland,SCO,Trinidad and Tobago,TTO,TRUE,4,1,win,Edinburgh,Scotland,FALSE,1657,1444,1662,1439,5
+2004-08-18,Friendly,played,Scotland,SCO,Hungary,HUN,TRUE,0,3,loss,Glasgow,Scotland,FALSE,1662,1573,1636,1599,-26
+2004-09-03,Friendly,played,Scotland,SCO,Spain,ESP,FALSE,1,1,draw,Valencia,Spain,FALSE,1636,1987,1645,1978,9
+2004-09-08,FIFA World Cup qualification,played,Scotland,SCO,Slovenia,SVN,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1645,1642,1639,1648,-6
+2004-10-09,FIFA World Cup qualification,played,Scotland,SCO,Norway,NOR,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1639,1762,1620,1781,-19
+2004-10-13,FIFA World Cup qualification,played,Scotland,SCO,Moldova,,FALSE,1,1,draw,Chișinău,Moldova,FALSE,1620,1395,1613,1402,-7
+2004-11-17,Friendly,played,Scotland,SCO,Sweden,SWE,TRUE,1,4,loss,Edinburgh,Scotland,FALSE,1613,1862,1603,1872,-10
+2005-03-26,FIFA World Cup qualification,played,Scotland,SCO,Italy,ITA,FALSE,0,2,loss,Milan,Italy,FALSE,1603,1913,1598,1918,-5
+2005-06-04,FIFA World Cup qualification,played,Scotland,SCO,Moldova,,TRUE,2,0,win,Glasgow,Scotland,FALSE,1598,1418,1608,1408,10
+2005-06-08,FIFA World Cup qualification,played,Scotland,SCO,Belarus,,FALSE,0,0,draw,Minsk,Belarus,FALSE,1608,1640,1615,1633,7
+2005-08-17,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,2,2,draw,Graz,Austria,FALSE,1615,1686,1620,1681,5
+2005-09-03,FIFA World Cup qualification,played,Scotland,SCO,Italy,ITA,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1620,1912,1630,1902,10
+2005-09-07,FIFA World Cup qualification,played,Scotland,SCO,Norway,NOR,FALSE,2,1,win,Oslo,Norway,FALSE,1630,1805,1663,1772,33
+2005-10-08,FIFA World Cup qualification,played,Scotland,SCO,Belarus,,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1663,1567,1633,1597,-30
+2005-10-12,FIFA World Cup qualification,played,Scotland,SCO,Slovenia,SVN,FALSE,3,0,win,Celje,Slovenia,FALSE,1633,1643,1679,1597,46
+2005-11-12,Friendly,played,Scotland,SCO,United States,USA,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1679,1843,1681,1841,2
+2006-03-01,Friendly,played,Scotland,SCO,Switzerland,CHE,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1681,1780,1666,1795,-15
+2006-05-11,Kirin Cup,played,Scotland,SCO,Bulgaria,BGR,FALSE,5,1,win,Kobe,Japan,TRUE,1666,1745,1700,1711,34
+2006-05-13,Kirin Cup,played,Scotland,SCO,Japan,JPN,FALSE,0,0,draw,Saitama,Japan,FALSE,1700,1790,1707,1783,7
+2006-09-02,UEFA Euro qualification,played,Scotland,SCO,Faroe Islands,,TRUE,6,0,win,Glasgow,Scotland,FALSE,1707,1190,1709,1188,2
+2006-09-06,UEFA Euro qualification,played,Scotland,SCO,Lithuania,,FALSE,2,1,win,Kaunas,Lithuania,FALSE,1709,1507,1723,1493,14
+2006-10-07,UEFA Euro qualification,played,Scotland,SCO,France,FRA,TRUE,1,0,win,Glasgow,Scotland,FALSE,1723,2090,1756,2057,33
+2006-10-11,UEFA Euro qualification,played,Scotland,SCO,Ukraine,UKR,FALSE,0,2,loss,Kyiv,Ukraine,FALSE,1756,1785,1737,1804,-19
+2007-03-24,UEFA Euro qualification,played,Scotland,SCO,Georgia,,TRUE,2,1,win,Glasgow,Scotland,FALSE,1737,1543,1743,1537,6
+2007-03-28,UEFA Euro qualification,played,Scotland,SCO,Italy,ITA,FALSE,0,2,loss,Bari,Italy,FALSE,1743,2019,1737,2025,-6
+2007-05-30,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,1,0,win,Vienna,Austria,FALSE,1737,1622,1747,1612,10
+2007-06-06,UEFA Euro qualification,played,Scotland,SCO,Faroe Islands,,FALSE,2,0,win,Toftir,Faroe Islands,FALSE,1747,1171,1751,1167,4
+2007-08-22,Friendly,played,Scotland,SCO,South Africa,ZAF,TRUE,1,0,win,Aberdeen,Scotland,FALSE,1751,1496,1753,1494,2
+2007-09-08,UEFA Euro qualification,played,Scotland,SCO,Lithuania,,TRUE,3,1,win,Glasgow,Scotland,FALSE,1753,1502,1760,1495,7
+2007-09-12,UEFA Euro qualification,played,Scotland,SCO,France,FRA,FALSE,1,0,win,Paris,France,FALSE,1760,2063,1796,2027,36
+2007-10-13,UEFA Euro qualification,played,Scotland,SCO,Ukraine,UKR,TRUE,3,1,win,Glasgow,Scotland,FALSE,1796,1782,1816,1762,20
+2007-10-17,UEFA Euro qualification,played,Scotland,SCO,Georgia,,FALSE,0,2,loss,Tbilisi,Georgia,FALSE,1816,1523,1771,1568,-45
+2007-11-17,UEFA Euro qualification,played,Scotland,SCO,Italy,ITA,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1771,2019,1759,2031,-12
+2008-03-26,Friendly,played,Scotland,SCO,Croatia,HRV,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1759,1874,1759,1874,0
+2008-05-30,Friendly,played,Scotland,SCO,Czechia,CZE,FALSE,1,3,loss,Prague,Czech Republic,FALSE,1759,1913,1753,1919,-6
+2008-08-20,Friendly,played,Scotland,SCO,Northern Ireland,NIR,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1753,1582,1746,1589,-7
+2008-09-06,FIFA World Cup qualification,played,Scotland,SCO,North Macedonia,,FALSE,0,1,loss,Skopje,North Macedonia,FALSE,1746,1570,1722,1594,-24
+2008-09-10,FIFA World Cup qualification,played,Scotland,SCO,Iceland,ISL,FALSE,2,1,win,Reykjavík,Iceland,FALSE,1722,1430,1732,1420,10
+2008-10-11,FIFA World Cup qualification,played,Scotland,SCO,Norway,NOR,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1732,1717,1726,1723,-6
+2008-11-19,Friendly,played,Scotland,SCO,Argentina,ARG,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1726,1968,1720,1974,-6
+2009-03-28,FIFA World Cup qualification,played,Scotland,SCO,Netherlands,NLD,FALSE,0,3,loss,Amsterdam,Netherlands,FALSE,1720,2020,1714,2026,-6
+2009-04-01,FIFA World Cup qualification,played,Scotland,SCO,Iceland,ISL,TRUE,2,1,win,Glasgow,Scotland,FALSE,1714,1437,1718,1433,4
+2009-08-12,FIFA World Cup qualification,played,Scotland,SCO,Norway,NOR,FALSE,0,4,loss,Oslo,Norway,FALSE,1718,1705,1690,1733,-28
+2009-09-05,FIFA World Cup qualification,played,Scotland,SCO,North Macedonia,,TRUE,2,0,win,Glasgow,Scotland,FALSE,1690,1567,1703,1554,13
+2009-09-09,FIFA World Cup qualification,played,Scotland,SCO,Netherlands,NLD,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1703,2036,1695,2044,-8
+2009-10-10,Friendly,played,Scotland,SCO,Japan,JPN,FALSE,0,2,loss,Yokohama,Japan,FALSE,1695,1777,1687,1785,-8
+2009-11-14,Friendly,played,Scotland,SCO,Wales,WAL,FALSE,0,3,loss,Cardiff,Wales,FALSE,1687,1588,1670,1605,-17
+2010-03-03,Friendly,played,Scotland,SCO,Czechia,CZE,TRUE,1,0,win,Glasgow,Scotland,FALSE,1670,1746,1679,1737,9
+2010-08-11,Friendly,played,Scotland,SCO,Sweden,SWE,FALSE,0,3,loss,Solna,Sweden,FALSE,1679,1798,1671,1806,-8
+2010-09-03,UEFA Euro qualification,played,Scotland,SCO,Lithuania,,FALSE,0,0,draw,Kaunas,Lithuania,FALSE,1671,1565,1671,1565,0
+2010-09-07,UEFA Euro qualification,played,Scotland,SCO,Liechtenstein,,TRUE,2,1,win,Glasgow,Scotland,FALSE,1671,1166,1672,1165,1
+2010-10-08,UEFA Euro qualification,played,Scotland,SCO,Czechia,CZE,FALSE,0,1,loss,Prague,Czech Republic,FALSE,1672,1721,1660,1733,-12
+2010-10-12,UEFA Euro qualification,played,Scotland,SCO,Spain,ESP,TRUE,2,3,loss,Glasgow,Scotland,FALSE,1660,2138,1656,2142,-4
+2010-11-16,Friendly,played,Scotland,SCO,Faroe Islands,,TRUE,3,0,win,Aberdeen,Scotland,FALSE,1656,1210,1657,1209,1
+2011-02-09,Nations Cup,played,Scotland,SCO,Northern Ireland,NIR,TRUE,3,0,win,Dublin,Republic of Ireland,TRUE,1657,1576,1677,1556,20
+2011-03-27,Friendly,played,Scotland,SCO,Brazil,BRA,FALSE,0,2,loss,London,England,TRUE,1677,2080,1674,2083,-3
+2011-05-25,Nations Cup,played,Scotland,SCO,Wales,WAL,FALSE,3,1,win,Dublin,Republic of Ireland,TRUE,1674,1533,1688,1519,14
+2011-05-29,Nations Cup,played,Scotland,SCO,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2011-08-10,Friendly,played,Scotland,SCO,Denmark,DNK,TRUE,2,1,win,Glasgow,Scotland,FALSE,1680,1759,1689,1750,9
+2011-09-03,UEFA Euro qualification,played,Scotland,SCO,Czechia,CZE,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1689,1727,1685,1731,-4
+2011-09-06,UEFA Euro qualification,played,Scotland,SCO,Lithuania,,TRUE,1,0,win,Glasgow,Scotland,FALSE,1685,1534,1693,1526,8
+2011-10-08,UEFA Euro qualification,played,Scotland,SCO,Liechtenstein,,FALSE,1,0,win,Vaduz,Liechtenstein,FALSE,1693,1242,1698,1237,5
+2011-10-11,UEFA Euro qualification,played,Scotland,SCO,Spain,ESP,FALSE,1,3,loss,Alicante,Spain,FALSE,1698,2134,1695,2137,-3
+2011-11-11,Friendly,played,Scotland,SCO,Cyprus,,FALSE,2,1,win,Larnaca,Cyprus,FALSE,1695,1471,1702,1464,7
+2012-02-29,Friendly,played,Scotland,SCO,Slovenia,SVN,FALSE,1,1,draw,Koper,Slovenia,FALSE,1702,1652,1703,1651,1
+2012-05-26,Friendly,played,Scotland,SCO,United States,USA,FALSE,1,5,loss,Jacksonville,United States,FALSE,1703,1748,1692,1759,-11
+2012-08-15,Friendly,played,Scotland,SCO,Australia,AUS,TRUE,3,1,win,Edinburgh,Scotland,FALSE,1692,1795,1707,1780,15
+2012-09-08,FIFA World Cup qualification,played,Scotland,SCO,Serbia,SRB,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1707,1709,1702,1714,-5
+2012-09-11,FIFA World Cup qualification,played,Scotland,SCO,North Macedonia,,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1702,1498,1688,1512,-14
+2012-10-12,FIFA World Cup qualification,played,Scotland,SCO,Wales,WAL,FALSE,1,2,loss,Cardiff,Wales,FALSE,1688,1563,1667,1584,-21
+2012-10-16,FIFA World Cup qualification,played,Scotland,SCO,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1667,1782,1654,1795,-13
+2012-11-14,Friendly,played,Scotland,SCO,Luxembourg,,FALSE,2,1,win,Luxembourg,Luxembourg,FALSE,1654,1150,1656,1148,2
+2013-02-06,Friendly,played,Scotland,SCO,Estonia,,TRUE,1,0,win,Aberdeen,Scotland,FALSE,1656,1494,1660,1490,4
+2013-03-22,FIFA World Cup qualification,played,Scotland,SCO,Wales,WAL,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1660,1586,1631,1615,-29
+2013-03-26,FIFA World Cup qualification,played,Scotland,SCO,Serbia,SRB,FALSE,0,2,loss,Novi Sad,Serbia,FALSE,1631,1683,1613,1701,-18
+2013-06-07,FIFA World Cup qualification,played,Scotland,SCO,Croatia,HRV,FALSE,1,0,win,Zagreb,Croatia,FALSE,1613,1911,1649,1875,36
+2013-08-14,Friendly,played,Scotland,SCO,England,ENG,FALSE,2,3,loss,London,England,FALSE,1649,1951,1647,1953,-2
+2013-09-06,FIFA World Cup qualification,played,Scotland,SCO,Belgium,BEL,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1647,1835,1624,1858,-23
+2013-09-10,FIFA World Cup qualification,played,Scotland,SCO,North Macedonia,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1624,1559,1646,1537,22
+2013-10-15,FIFA World Cup qualification,played,Scotland,SCO,Croatia,HRV,TRUE,2,0,win,Glasgow,Scotland,FALSE,1646,1845,1684,1807,38
+2013-11-15,Friendly,played,Scotland,SCO,United States,USA,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1684,1877,1687,1874,3
+2013-11-19,Friendly,played,Scotland,SCO,Norway,NOR,FALSE,1,0,win,Molde,Norway,FALSE,1687,1636,1698,1625,11
+2014-03-05,Friendly,played,Scotland,SCO,Poland,POL,FALSE,1,0,win,Warsaw,Poland,FALSE,1698,1645,1709,1634,11
+2014-05-28,Friendly,played,Scotland,SCO,Nigeria,NGA,FALSE,2,2,draw,London,England,TRUE,1709,1729,1710,1728,1
+2014-09-07,UEFA Euro qualification,played,Scotland,SCO,Germany,DEU,FALSE,1,2,loss,Dortmund,Germany,FALSE,1710,2198,1709,2199,-1
+2014-10-11,UEFA Euro qualification,played,Scotland,SCO,Georgia,,TRUE,1,0,win,Glasgow,Scotland,FALSE,1709,1490,1714,1485,5
+2014-10-14,UEFA Euro qualification,played,Scotland,SCO,Poland,POL,FALSE,2,2,draw,Warsaw,Poland,FALSE,1714,1707,1719,1702,5
+2014-11-14,UEFA Euro qualification,played,Scotland,SCO,Republic of Ireland,IRL,TRUE,1,0,win,Glasgow,Scotland,FALSE,,,,,
+2014-11-18,Friendly,played,Scotland,SCO,England,ENG,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1734,1911,1722,1923,-12
+2015-03-25,Friendly,played,Scotland,SCO,Northern Ireland,NIR,TRUE,1,0,win,Glasgow,Scotland,FALSE,1722,1502,1725,1499,3
+2015-03-29,UEFA Euro qualification,played,Scotland,SCO,Gibraltar,,TRUE,6,1,win,Glasgow,Scotland,FALSE,1725,1132,1726,1131,1
+2015-06-05,Friendly,played,Scotland,SCO,Qatar,QAT,TRUE,1,0,win,Edinburgh,Scotland,FALSE,1726,1547,1729,1544,3
+2015-06-13,UEFA Euro qualification,played,Scotland,SCO,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+2015-09-04,UEFA Euro qualification,played,Scotland,SCO,Georgia,,FALSE,0,1,loss,Tbilisi,Georgia,FALSE,1734,1458,1705,1487,-29
+2015-09-07,UEFA Euro qualification,played,Scotland,SCO,Germany,DEU,TRUE,2,3,loss,Glasgow,Scotland,FALSE,1705,2112,1699,2118,-6
+2015-10-08,UEFA Euro qualification,played,Scotland,SCO,Poland,POL,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1699,1734,1695,1738,-4
+2015-10-11,UEFA Euro qualification,played,Scotland,SCO,Gibraltar,,FALSE,6,0,win,Faro,Portugal,TRUE,1695,1122,1698,1119,3
+2016-03-24,Friendly,played,Scotland,SCO,Czechia,CZE,FALSE,1,0,win,Prague,Czech Republic,FALSE,1698,1765,1712,1751,14
+2016-03-29,Friendly,played,Scotland,SCO,Denmark,DNK,TRUE,1,0,win,Glasgow,Scotland,FALSE,1712,1733,1720,1725,8
+2016-05-29,Friendly,played,Scotland,SCO,Italy,ITA,FALSE,0,1,loss,Attard,Malta,TRUE,1720,1865,1714,1871,-6
+2016-06-04,Friendly,played,Scotland,SCO,France,FRA,FALSE,0,3,loss,Metz,France,FALSE,1714,1970,1710,1974,-4
+2016-09-04,FIFA World Cup qualification,played,Scotland,SCO,Malta,,FALSE,5,1,win,Attard,Malta,FALSE,1710,1238,1718,1230,8
+2016-10-08,FIFA World Cup qualification,played,Scotland,SCO,Lithuania,,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1718,1447,1702,1463,-16
+2016-10-11,FIFA World Cup qualification,played,Scotland,SCO,Slovakia,SVK,FALSE,0,3,loss,Trnava,Slovakia,FALSE,1702,1719,1678,1743,-24
+2016-11-11,FIFA World Cup qualification,played,Scotland,SCO,England,ENG,FALSE,0,3,loss,London,England,FALSE,1678,1920,1669,1929,-9
+2017-03-22,Friendly,played,Scotland,SCO,Canada,CAN,TRUE,1,1,draw,Edinburgh,Scotland,FALSE,1669,1523,1663,1529,-6
+2017-03-26,FIFA World Cup qualification,played,Scotland,SCO,Slovenia,SVN,TRUE,1,0,win,Glasgow,Scotland,FALSE,1663,1653,1677,1639,14
+2017-06-10,FIFA World Cup qualification,played,Scotland,SCO,England,ENG,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1677,1924,1685,1916,8
+2017-09-01,FIFA World Cup qualification,played,Scotland,SCO,Lithuania,,FALSE,3,0,win,Vilnius,Lithuania,FALSE,1685,1447,1707,1425,22
+2017-09-04,FIFA World Cup qualification,played,Scotland,SCO,Malta,,TRUE,2,0,win,Glasgow,Scotland,FALSE,1707,1223,1709,1221,2
+2017-10-05,FIFA World Cup qualification,played,Scotland,SCO,Slovakia,SVK,TRUE,1,0,win,Glasgow,Scotland,FALSE,1709,1767,1727,1749,18
+2017-10-08,FIFA World Cup qualification,played,Scotland,SCO,Slovenia,SVN,FALSE,2,2,draw,Ljubljana,Slovenia,FALSE,1727,1640,1728,1639,1
+2017-11-09,Friendly,played,Scotland,SCO,Netherlands,NLD,TRUE,0,1,loss,Aberdeen,Scotland,FALSE,1728,1872,1719,1881,-9
+2018-03-23,Friendly,played,Scotland,SCO,Costa Rica,CRI,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1719,1744,1707,1756,-12
+2018-03-27,Friendly,played,Scotland,SCO,Hungary,HUN,FALSE,1,0,win,Budapest,Hungary,FALSE,1707,1593,1717,1583,10
+2018-05-29,Friendly,played,Scotland,SCO,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1717,1906,1712,1911,-5
+2018-06-02,Friendly,played,Scotland,SCO,Mexico,MEX,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1712,1856,1708,1860,-4
+2018-09-07,Friendly,played,Scotland,SCO,Belgium,BEL,TRUE,0,4,loss,Glasgow,Scotland,FALSE,1708,2057,1701,2064,-7
+2018-09-10,UEFA Nations League,played,Scotland,SCO,Albania,,TRUE,2,0,win,Glasgow,Scotland,FALSE,1701,1573,1714,1560,13
+2018-10-11,UEFA Nations League,played,Scotland,SCO,Israel,ISR,FALSE,1,2,loss,Haifa,Israel,FALSE,1714,1505,1688,1531,-26
+2018-10-14,Friendly,played,Scotland,SCO,Portugal,PRT,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1688,1964,1680,1972,-8
+2018-11-17,UEFA Nations League,played,Scotland,SCO,Albania,,FALSE,4,0,win,Shkodër,Albania,FALSE,1680,1531,1712,1499,32
+2018-11-20,UEFA Nations League,played,Scotland,SCO,Israel,ISR,TRUE,3,2,win,Glasgow,Scotland,FALSE,1712,1569,1720,1561,8
+2019-03-21,UEFA Euro qualification,played,Scotland,SCO,Kazakhstan,,FALSE,0,3,loss,Nur-Sultan,Kazakhstan,FALSE,1720,1340,1662,1398,-58
+2019-03-24,UEFA Euro qualification,played,Scotland,SCO,San Marino,,FALSE,2,0,win,Serravalle,San Marino,FALSE,1662,833,1663,832,1
+2019-06-08,UEFA Euro qualification,played,Scotland,SCO,Cyprus,,TRUE,2,1,win,Glasgow,Scotland,FALSE,1663,1413,1668,1408,5
+2019-06-11,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,FALSE,0,3,loss,Brussels,Belgium,FALSE,1668,2044,1664,2048,-4
+2019-09-06,UEFA Euro qualification,played,Scotland,SCO,Russia,RUS,TRUE,1,2,loss,Glasgow,Scotland,FALSE,1664,1763,1644,1783,-20
+2019-09-09,UEFA Euro qualification,played,Scotland,SCO,Belgium,BEL,TRUE,0,4,loss,Glasgow,Scotland,FALSE,1644,2048,1633,2059,-11
+2019-10-10,UEFA Euro qualification,played,Scotland,SCO,Russia,RUS,FALSE,0,4,loss,Moscow,Russia,FALSE,1633,1785,1619,1799,-14
+2019-10-13,UEFA Euro qualification,played,Scotland,SCO,San Marino,,TRUE,6,0,win,Glasgow,Scotland,FALSE,1619,825,1619,825,0
+2019-11-16,UEFA Euro qualification,played,Scotland,SCO,Cyprus,,FALSE,2,1,win,Nicosia,Cyprus,FALSE,1619,1414,1633,1400,14
+2019-11-19,UEFA Euro qualification,played,Scotland,SCO,Kazakhstan,,TRUE,3,1,win,Glasgow,Scotland,FALSE,1633,1366,1639,1360,6
+2020-09-04,UEFA Nations League,played,Scotland,SCO,Israel,ISR,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1639,1538,1629,1548,-10
+2020-09-07,UEFA Nations League,played,Scotland,SCO,Czechia,CZE,FALSE,2,1,win,Olomouc,Czech Republic,FALSE,1629,1773,1661,1741,32
+2020-10-08,UEFA Euro qualification,played,Scotland,SCO,Israel,ISR,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1661,1551,1650,1562,-11
+2020-10-11,UEFA Nations League,played,Scotland,SCO,Slovakia,SVK,TRUE,1,0,win,Glasgow,Scotland,FALSE,1650,1688,1666,1672,16
+2020-10-14,UEFA Nations League,played,Scotland,SCO,Czechia,CZE,TRUE,1,0,win,Glasgow,Scotland,FALSE,1666,1759,1686,1739,20
+2020-11-12,UEFA Euro qualification,played,Scotland,SCO,Serbia,SRB,FALSE,1,1,draw,Belgrade,Serbia,FALSE,1686,1764,1695,1755,9
+2020-11-15,UEFA Nations League,played,Scotland,SCO,Slovakia,SVK,FALSE,0,1,loss,Trnava,Slovakia,FALSE,1695,1665,1679,1681,-16
+2020-11-18,UEFA Nations League,played,Scotland,SCO,Israel,ISR,FALSE,0,1,loss,Netanya,Israel,FALSE,1679,1571,1659,1591,-20
+2021-03-25,FIFA World Cup qualification,played,Scotland,SCO,Austria,AUT,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1659,1786,1661,1784,2
+2021-03-28,FIFA World Cup qualification,played,Scotland,SCO,Israel,ISR,FALSE,1,1,draw,Tel Aviv,Israel,FALSE,1661,1579,1662,1578,1
+2021-03-31,FIFA World Cup qualification,played,Scotland,SCO,Faroe Islands,,TRUE,4,0,win,Glasgow,Scotland,FALSE,1662,1263,1666,1259,4
+2021-06-02,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,2,2,draw,São João da Venda,Portugal,TRUE,1666,1954,1673,1947,7
+2021-06-06,Friendly,played,Scotland,SCO,Luxembourg,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1673,1391,1678,1386,5
+2021-06-14,UEFA Euro,played,Scotland,SCO,Czechia,CZE,TRUE,0,2,loss,Glasgow,Scotland,FALSE,1678,1767,1639,1806,-39
+2021-06-18,UEFA Euro,played,Scotland,SCO,England,ENG,FALSE,0,0,draw,London,England,FALSE,1639,1990,1661,1968,22
+2021-06-22,UEFA Euro,played,Scotland,SCO,Croatia,HRV,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1661,1815,1629,1847,-32
+2021-09-01,FIFA World Cup qualification,played,Scotland,SCO,Denmark,DNK,FALSE,0,2,loss,Copenhagen,Denmark,FALSE,1629,1965,1624,1970,-5
+2021-09-04,FIFA World Cup qualification,played,Scotland,SCO,Moldova,,TRUE,1,0,win,Glasgow,Scotland,FALSE,1624,1215,1626,1213,2
+2021-09-07,FIFA World Cup qualification,played,Scotland,SCO,Austria,AUT,FALSE,1,0,win,Vienna,Austria,FALSE,1626,1740,1657,1709,31
+2021-10-09,FIFA World Cup qualification,played,Scotland,SCO,Israel,ISR,TRUE,3,2,win,Glasgow,Scotland,FALSE,1657,1655,1671,1641,14
+2021-10-12,FIFA World Cup qualification,played,Scotland,SCO,Faroe Islands,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1671,1252,1676,1247,5
+2021-11-12,FIFA World Cup qualification,played,Scotland,SCO,Moldova,,FALSE,2,0,win,Chișinău,Moldova,FALSE,1676,1197,1682,1191,6
+2021-11-15,FIFA World Cup qualification,played,Scotland,SCO,Denmark,DNK,TRUE,2,0,win,Glasgow,Scotland,FALSE,1682,1983,1728,1937,46
+2022-03-24,Friendly,played,Scotland,SCO,Poland,POL,TRUE,1,1,draw,Glasgow,Scotland,FALSE,1728,1769,1726,1771,-2
+2022-03-29,Friendly,played,Scotland,SCO,Austria,AUT,FALSE,2,2,draw,Vienna,Austria,FALSE,1726,1721,1729,1718,3
+2022-06-01,FIFA World Cup qualification,played,Scotland,SCO,Ukraine,UKR,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1729,1817,1698,1848,-31
+2022-06-08,UEFA Nations League,played,Scotland,SCO,Armenia,,TRUE,2,0,win,Glasgow,Scotland,FALSE,1698,1525,1708,1515,10
+2022-06-11,UEFA Nations League,played,Scotland,SCO,Republic of Ireland,IRL,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2022-06-14,UEFA Nations League,played,Scotland,SCO,Armenia,,FALSE,4,1,win,Yerevan,Armenia,FALSE,1677,1506,1705,1478,28
+2022-09-21,UEFA Nations League,played,Scotland,SCO,Ukraine,UKR,TRUE,3,0,win,Glasgow,Scotland,FALSE,1705,1848,1744,1809,39
+2022-09-24,UEFA Nations League,played,Scotland,SCO,Republic of Ireland,IRL,TRUE,2,1,win,Glasgow,Scotland,FALSE,,,,,
+2022-09-27,UEFA Nations League,played,Scotland,SCO,Ukraine,UKR,FALSE,0,0,draw,Kraków,Poland,TRUE,1756,1826,1760,1822,4
+2022-11-16,Friendly,played,Scotland,SCO,Turkey,TUR,FALSE,1,2,loss,Diyarbakir,Turkey,FALSE,1760,1692,1751,1701,-9
+2023-03-25,UEFA Euro qualification,played,Scotland,SCO,Cyprus,,TRUE,3,0,win,Glasgow,Scotland,FALSE,1751,1355,1755,1351,4
+2023-03-28,UEFA Euro qualification,played,Scotland,SCO,Spain,ESP,TRUE,2,0,win,Glasgow,Scotland,FALSE,1755,2005,1797,1963,42
+2023-06-17,UEFA Euro qualification,played,Scotland,SCO,Norway,NOR,FALSE,2,1,win,Oslo,Norway,FALSE,1797,1745,1820,1722,23
+2023-06-20,UEFA Euro qualification,played,Scotland,SCO,Georgia,,TRUE,2,0,win,Glasgow,Scotland,FALSE,1820,1662,1831,1651,11
+2023-09-08,UEFA Euro qualification,played,Scotland,SCO,Cyprus,,FALSE,3,0,win,Larnaca,Cyprus,FALSE,1831,1342,1838,1335,7
+2023-09-12,Friendly,played,Scotland,SCO,England,ENG,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1838,1998,1826,2010,-12
+2023-10-12,UEFA Euro qualification,played,Scotland,SCO,Spain,ESP,FALSE,0,2,loss,Seville,Spain,FALSE,1826,2007,1816,2017,-10
+2023-10-17,Friendly,played,Scotland,SCO,France,FRA,FALSE,1,4,loss,Lille,France,FALSE,1816,2121,1813,2124,-3
+2023-11-16,UEFA Euro qualification,played,Scotland,SCO,Georgia,,FALSE,2,2,draw,Tbilisi,Georgia,FALSE,1813,1637,1809,1641,-4
+2023-11-19,UEFA Euro qualification,played,Scotland,SCO,Norway,NOR,TRUE,3,3,draw,Glasgow,Scotland,FALSE,1809,1746,1800,1755,-9
+2024-03-22,Friendly,played,Scotland,SCO,Netherlands,NLD,FALSE,0,4,loss,Amsterdam,Netherlands,FALSE,1800,1970,1793,1977,-7
+2024-03-26,Friendly,played,Scotland,SCO,Northern Ireland,NIR,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1793,1498,1775,1516,-18
+2024-06-03,Friendly,played,Scotland,SCO,Gibraltar,,FALSE,2,0,win,Faro-Loulé,Portugal,TRUE,1775,1046,1775,1046,0
+2024-06-07,Friendly,played,Scotland,SCO,Finland,,TRUE,2,2,draw,Glasgow,Scotland,FALSE,1775,1621,1769,1627,-6
+2024-06-14,UEFA Euro,played,Scotland,SCO,Germany,DEU,FALSE,1,5,loss,Munich,Germany,FALSE,1769,1919,1751,1937,-18
+2024-06-19,UEFA Euro,played,Scotland,SCO,Switzerland,CHE,TRUE,1,1,draw,Cologne,Germany,TRUE,1751,1844,1758,1837,7
+2024-06-23,UEFA Euro,played,Scotland,SCO,Hungary,HUN,TRUE,0,1,loss,Stuttgart,Germany,TRUE,1758,1776,1734,1800,-24
+2024-09-05,UEFA Nations League,played,Scotland,SCO,Poland,POL,TRUE,2,3,loss,Glasgow,Scotland,FALSE,1734,1729,1708,1755,-26
+2024-09-08,UEFA Nations League,played,Scotland,SCO,Portugal,PRT,FALSE,1,2,loss,Lisbon,Portugal,FALSE,1708,1971,1704,1975,-4
+2024-10-12,UEFA Nations League,played,Scotland,SCO,Croatia,HRV,FALSE,1,2,loss,Zagreb,Croatia,FALSE,1704,1911,1698,1917,-6
+2024-10-15,UEFA Nations League,played,Scotland,SCO,Portugal,PRT,TRUE,0,0,draw,Glasgow,Scotland,FALSE,1698,1994,1708,1984,10
+2024-11-15,UEFA Nations League,played,Scotland,SCO,Croatia,HRV,TRUE,1,0,win,Glasgow,Scotland,FALSE,1708,1912,1734,1886,26
+2024-11-18,UEFA Nations League,played,Scotland,SCO,Poland,POL,FALSE,2,1,win,Warsaw,Poland,FALSE,1734,1724,1759,1699,25
+2025-03-20,UEFA Nations League,played,Scotland,SCO,Greece,GRC,FALSE,1,0,win,Piraeus,Greece,FALSE,1759,1812,1787,1784,28
+2025-03-23,UEFA Nations League,played,Scotland,SCO,Greece,GRC,TRUE,0,3,loss,Glasgow,Scotland,FALSE,1787,1784,1742,1829,-45
+2025-06-06,Friendly,played,Scotland,SCO,Iceland,ISL,TRUE,1,3,loss,Glasgow,Scotland,FALSE,1742,1531,1716,1557,-26
+2025-06-09,Friendly,played,Scotland,SCO,Liechtenstein,,FALSE,4,0,win,Vaduz,Liechtenstein,FALSE,1716,906,1717,905,1
+2025-09-05,FIFA World Cup qualification,played,Scotland,SCO,Denmark,DNK,FALSE,0,0,draw,Copenhagen,Denmark,FALSE,1717,1865,1729,1853,12
+2025-09-08,FIFA World Cup qualification,played,Scotland,SCO,Belarus,,FALSE,2,0,win,Zalaegerszeg,Hungary,TRUE,1729,1487,1741,1475,12
+2025-10-09,FIFA World Cup qualification,played,Scotland,SCO,Greece,GRC,TRUE,3,1,win,Glasgow,Scotland,FALSE,1741,1799,1767,1773,26
+2025-10-12,FIFA World Cup qualification,played,Scotland,SCO,Belarus,,TRUE,2,1,win,Glasgow,Scotland,FALSE,1767,1468,1771,1464,4
+2025-11-15,FIFA World Cup qualification,played,Scotland,SCO,Greece,GRC,FALSE,2,3,loss,Piraeus,Greece,FALSE,1771,1760,1756,1775,-15
+2025-11-18,FIFA World Cup qualification,played,Scotland,SCO,Denmark,DNK,TRUE,4,2,win,Glasgow,Scotland,FALSE,1756,1899,1790,1865,34
+2026-03-28,Friendly,played,Scotland,SCO,Japan,JPN,TRUE,0,1,loss,Glasgow,Scotland,FALSE,1790,1878,1780,1888,-10
+2026-03-31,Friendly,played,Scotland,SCO,Ivory Coast,CIV,FALSE,0,1,loss,Liverpool,England,TRUE,1780,1663,1767,1676,-13

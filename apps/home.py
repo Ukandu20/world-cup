@@ -49,7 +49,7 @@ simulate_group_probabilities_v2 = simulation.simulate_group_probabilities_v2
 simulate_group_probabilities_v3 = simulation.simulate_group_probabilities_v3
 WEIGHTED_FORM_COMPOSITE_WEIGHTS = simulation.WEIGHTED_FORM_COMPOSITE_WEIGHTS
 
-DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
+DATA_DIR = simulation.WORLD_CUP_ROOT / "2026"
 EXPORT_DIR = ROOT / "assets" / "charts" / "generated"
 WORLD_CUP_LOGO_PATH = ROOT / "assets" / "logos" / "world-cup" / "fifa-world-cup-2026.football.cc.svg"
 CHAMPION_TROPHY_PATH = ROOT / "assets" / "logos" / "world-cup" / "Coupe-du-monde.svg"

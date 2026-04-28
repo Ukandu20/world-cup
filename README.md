@@ -10,6 +10,20 @@ Install the dashboard and dataset dependencies with:
 python -m pip install -r requirements.txt
 ```
 
+The app-ready dataset is committed under `data/processed/`, so a clean clone can run without your local Kaggle download cache:
+
+```bash
+streamlit run apps/home.py
+```
+
+Raw Kaggle/source downloads remain ignored and rebuild-only. To refresh the local Kaggle raw files used by the builders:
+
+```bash
+python scripts/bootstrap_kaggle_data.py
+```
+
+See [`data/README.md`](data/README.md) for the data layout and environment-variable overrides.
+
 Reference notes:
 
 - [`docs/elo_rating_reference.md`](docs/elo_rating_reference.md): stored Elo rating methodology reference based on the provided `eloratings.net` summary
@@ -20,10 +34,10 @@ The dashboard in `apps/home.py` now uses a fixture-by-fixture Monte Carlo simula
 
 ### Inputs
 
-- Elo rating from `INT-World Cup/world_cup/2026/elo_snapshots.csv`
-- FIFA points from `INT-World Cup/world_cup/2026/fifa_rank_snapshots.csv`
-- Group-stage and knockout fixtures from `INT-World Cup/world_cup/2026/fixtures.csv`
-- Lead-in results from `INT-World Cup/world_cup/2026/team_results_lead_in.csv`
+- Elo rating from `data/processed/world_cup/2026/elo_snapshots.csv`
+- FIFA points from `data/processed/world_cup/2026/fifa_rank_snapshots.csv`
+- Group-stage and knockout fixtures from `data/processed/world_cup/2026/fixtures.csv`
+- Lead-in results from `data/processed/world_cup/2026/team_results_lead_in.csv`
 
 ### Strength Model
 

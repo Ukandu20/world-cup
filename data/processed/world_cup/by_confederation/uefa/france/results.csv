@@ -1,0 +1,934 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1904-05-01,Évence Coppée Trophy,played,France,FRA,Belgium,BEL,FALSE,3,3,draw,Brussels,Belgium,FALSE,1600,1800,1610,1790,10
+1905-02-12,Friendly,played,France,FRA,Switzerland,CHE,TRUE,1,0,win,Paris,France,FALSE,1610,1500,1615,1495,5
+1905-05-07,Friendly,played,France,FRA,Belgium,BEL,FALSE,0,7,loss,Brussels,Belgium,FALSE,1615,1765,1606,1774,-9
+1906-04-22,Friendly,played,France,FRA,Belgium,BEL,TRUE,0,5,loss,Saint-Cloud,France,FALSE,1606,1763,1589,1780,-17
+1907-04-21,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,1,win,Brussels,Belgium,FALSE,1578,1809,1595,1792,17
+1908-03-08,Friendly,played,France,FRA,Switzerland,CHE,FALSE,2,1,win,Geneva,Switzerland,FALSE,1595,1495,1605,1485,10
+1908-04-12,Friendly,played,France,FRA,Belgium,BEL,TRUE,1,2,loss,Colombes,France,FALSE,1602,1784,1594,1792,-8
+1908-05-10,Friendly,played,France,FRA,Netherlands,NLD,FALSE,1,4,loss,Rotterdam,Netherlands,FALSE,1594,1890,1591,1893,-3
+1908-10-22,Olympic Games,played,France,FRA,Denmark,DNK,TRUE,1,17,loss,London,England,TRUE,1591,2000,1573,2018,-18
+1909-05-09,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,5,loss,Brussels,Belgium,FALSE,1573,1736,1567,1742,-6
+1910-04-03,Friendly,played,France,FRA,Belgium,BEL,TRUE,0,4,loss,Gentilly,France,FALSE,1564,1767,1551,1780,-13
+1910-05-15,Friendly,played,France,FRA,Italy,ITA,FALSE,2,6,loss,Milan,Italy,FALSE,1550,1700,1543,1707,-7
+1911-01-01,Friendly,played,France,FRA,Hungary,HUN,TRUE,0,3,loss,Maisons-Alfort,France,FALSE,1543,1885,1536,1892,-7
+1911-04-09,Friendly,played,France,FRA,Italy,ITA,TRUE,2,2,draw,Saint-Ouen,France,FALSE,1534,1693,1536,1691,2
+1911-04-23,Friendly,played,France,FRA,Switzerland,CHE,FALSE,2,5,loss,Geneva,Switzerland,FALSE,1536,1509,1522,1523,-14
+1911-04-30,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,7,loss,Uccle,Belgium,FALSE,1522,1755,1517,1760,-5
+1911-10-29,Friendly,played,France,FRA,Luxembourg,,FALSE,4,1,win,Luxembourg,Luxembourg,FALSE,1517,1300,1529,1288,12
+1912-01-28,Friendly,played,France,FRA,Belgium,BEL,TRUE,1,1,draw,Saint-Ouen,France,FALSE,1529,1760,1533,1756,4
+1912-02-10,Friendly,played,France,FRA,Catalonia,,TRUE,7,0,win,Paris,France,FALSE,,,,,
+1912-02-18,Friendly,played,France,FRA,Switzerland,CHE,TRUE,4,1,win,Saint-Ouen,France,FALSE,1533,1543,1546,1530,13
+1912-03-17,Friendly,played,France,FRA,Italy,ITA,FALSE,4,3,win,Turin,Italy,FALSE,1546,1665,1562,1649,16
+1912-12-01,Friendly,played,France,FRA,Catalonia,,FALSE,0,1,loss,Barcelona,Spain,FALSE,,,,,
+1913-01-12,Friendly,played,France,FRA,Italy,ITA,TRUE,1,0,win,Saint-Ouen,France,FALSE,1562,1617,1571,1608,9
+1913-02-16,Friendly,played,France,FRA,Belgium,BEL,FALSE,0,3,loss,Brussels,Belgium,FALSE,1571,1742,1565,1748,-6
+1913-03-09,Friendly,played,France,FRA,Switzerland,CHE,FALSE,4,1,win,Geneva,Switzerland,FALSE,1563,1515,1583,1495,20
+1913-04-20,Friendly,played,France,FRA,Luxembourg,,TRUE,8,0,win,Saint-Ouen,France,FALSE,1583,1288,1587,1284,4
+1914-01-25,Friendly,played,France,FRA,Belgium,BEL,TRUE,4,3,win,Lille,France,FALSE,1587,1800,1600,1787,13
+1914-02-08,Friendly,played,France,FRA,Luxembourg,,FALSE,4,5,loss,Luxembourg,Luxembourg,FALSE,1600,1284,1584,1300,-16
+1914-03-08,Friendly,played,France,FRA,Switzerland,CHE,TRUE,2,2,draw,Saint-Ouen,France,FALSE,1584,1504,1579,1509,-5
+1914-03-29,Friendly,played,France,FRA,Italy,ITA,FALSE,0,2,loss,Turin,Italy,FALSE,1579,1617,1570,1626,-9
+1914-05-31,Friendly,played,France,FRA,Hungary,HUN,FALSE,1,5,loss,Budapest,Hungary,FALSE,1570,1964,1568,1966,-2
+1919-03-09,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,2,draw,Brussels,Belgium,FALSE,1550,1777,1557,1770,7
+1919-06-24,Inter-Allied Games,played,France,FRA,Romania,ROU,TRUE,4,0,win,Paris,France,FALSE,,,,,
+1919-06-26,Inter-Allied Games,played,France,FRA,Greece,GRC,TRUE,11,0,win,Paris,France,FALSE,,,,,
+1919-06-28,Inter-Allied Games,played,France,FRA,Italy,ITA,TRUE,2,0,win,Paris,France,FALSE,,,,,
+1919-06-29,Inter-Allied Games,played,France,FRA,Czechoslovakia,CSK,TRUE,2,3,loss,Paris,France,FALSE,,,,,
+1920-01-18,Friendly,played,France,FRA,Italy,ITA,FALSE,4,9,loss,Milan,Italy,FALSE,1557,1629,1546,1640,-11
+1920-02-29,Friendly,played,France,FRA,Switzerland,CHE,FALSE,2,0,win,Geneva,Switzerland,FALSE,1546,1507,1564,1489,18
+1920-03-28,Friendly,played,France,FRA,Belgium,BEL,TRUE,2,1,win,Paris,France,FALSE,1564,1792,1578,1778,14
+1920-08-29,Olympic Games,played,France,FRA,Italy,ITA,TRUE,3,1,win,Antwerp,Belgium,TRUE,1585,1662,1640,1607,55
+1920-08-31,Olympic Games,played,France,FRA,Czechoslovakia,CSK,TRUE,1,4,loss,Antwerp,Belgium,TRUE,1640,1906,1621,1925,-19
+1921-02-20,Friendly,played,France,FRA,Italy,ITA,TRUE,1,2,loss,Marseille,France,FALSE,1608,1621,1596,1633,-12
+1921-03-06,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,3,loss,Forest,Belgium,FALSE,1596,1928,1594,1930,-2
+1921-11-13,Friendly,played,France,FRA,Netherlands,NLD,TRUE,0,5,loss,Vincennes,France,FALSE,1620,1852,1607,1865,-13
+1922-01-15,Friendly,played,France,FRA,Belgium,BEL,TRUE,2,1,win,Colombes,France,FALSE,1607,1882,1622,1867,15
+1922-04-30,Friendly,played,France,FRA,Spain,ESP,TRUE,0,4,loss,Le Bouscat,France,FALSE,1622,2024,1616,2030,-6
+1922-06-11,Friendly,played,France,FRA,Norway,NOR,FALSE,0,7,loss,Kristiania,Norway,FALSE,1616,1590,1598,1608,-18
+1923-01-28,Friendly,played,France,FRA,Spain,ESP,FALSE,0,3,loss,San Sebastián,Spain,FALSE,1598,2034,1596,2036,-2
+1923-02-25,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,4,loss,Forest,Belgium,FALSE,1596,1894,1593,1897,-3
+1923-04-02,Friendly,played,France,FRA,Netherlands,NLD,FALSE,1,8,loss,Amsterdam,Netherlands,FALSE,1593,1812,1587,1818,-6
+1923-04-22,Friendly,played,France,FRA,Switzerland,CHE,TRUE,2,2,draw,Vincennes,France,FALSE,1587,1611,1585,1613,-2
+1923-05-10,Friendly,played,France,FRA,England,ENG,TRUE,1,4,loss,Vincennes,France,FALSE,1585,1912,1578,1919,-7
+1923-10-28,Friendly,played,France,FRA,Norway,NOR,TRUE,0,2,loss,Paris,France,FALSE,1578,1602,1560,1620,-18
+1924-01-13,Friendly,played,France,FRA,Belgium,BEL,TRUE,2,0,win,Montrouge,France,FALSE,1560,1897,1584,1873,24
+1924-03-23,Friendly,played,France,FRA,Switzerland,CHE,FALSE,0,3,loss,Geneva,Switzerland,FALSE,1584,1598,1572,1610,-12
+1924-05-17,Friendly,played,France,FRA,England,ENG,TRUE,1,3,loss,Vincennes,France,FALSE,1572,1867,1565,1874,-7
+1924-05-27,Olympic Games,played,France,FRA,Latvia,,TRUE,7,0,win,Paris,France,FALSE,1565,1400,1589,1376,24
+1924-06-01,Olympic Games,played,France,FRA,Uruguay,URY,TRUE,1,5,loss,Colombes,France,FALSE,1589,2014,1574,2029,-15
+1924-06-04,Friendly,played,France,FRA,Hungary,HUN,TRUE,0,1,loss,Le Havre,France,FALSE,1574,1834,1568,1840,-6
+1924-11-11,Friendly,played,France,FRA,Belgium,BEL,FALSE,0,3,loss,Brussels,Belgium,FALSE,1568,1780,1563,1785,-5
+1925-03-22,Friendly,played,France,FRA,Italy,ITA,FALSE,0,7,loss,Turin,Italy,FALSE,1563,1714,1554,1723,-9
+1925-04-19,Friendly,played,France,FRA,Austria,AUT,TRUE,0,4,loss,Vincennes,France,FALSE,1554,1850,1545,1859,-9
+1925-05-21,Friendly,played,France,FRA,England,ENG,TRUE,2,3,loss,Colombes,France,FALSE,1545,1899,1541,1903,-4
+1926-04-11,Friendly,played,France,FRA,Belgium,BEL,TRUE,4,3,win,Vincennes,France,FALSE,1541,1742,1554,1729,13
+1926-04-18,Friendly,played,France,FRA,Portugal,PRT,TRUE,4,2,win,Toulouse,France,FALSE,1554,1691,1571,1674,17
+1926-04-25,Friendly,played,France,FRA,Switzerland,CHE,TRUE,1,0,win,Colombes,France,FALSE,1571,1733,1583,1721,12
+1926-05-30,Friendly,played,France,FRA,Austria,AUT,FALSE,1,4,loss,Vienna,Austria,FALSE,1583,1897,1580,1900,-3
+1926-06-13,Friendly,played,France,FRA,Yugoslavia,YUG,TRUE,4,1,win,Colombes,France,FALSE,1580,1555,1591,1544,11
+1926-06-20,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,2,draw,Brussels,Belgium,FALSE,1591,1742,1597,1736,6
+1927-03-16,Friendly,played,France,FRA,Portugal,PRT,FALSE,0,4,loss,Lisbon,Portugal,FALSE,1597,1676,1587,1686,-10
+1927-04-24,Friendly,played,France,FRA,Italy,ITA,TRUE,3,3,draw,Colombes,France,FALSE,1587,1773,1589,1771,2
+1927-05-22,Friendly,played,France,FRA,Spain,ESP,TRUE,1,4,loss,Colombes,France,FALSE,1589,2019,1584,2024,-5
+1927-05-26,Friendly,played,France,FRA,England,ENG,TRUE,0,6,loss,Colombes,France,FALSE,1584,1908,1575,1917,-9
+1927-06-12,Friendly,played,France,FRA,Hungary,HUN,FALSE,1,13,loss,Budapest,Hungary,FALSE,1575,1814,1568,1821,-7
+1928-02-21,Friendly,played,France,FRA,Northern Ireland,NIR,TRUE,4,0,win,Montrouge,France,FALSE,1568,1719,1589,1698,21
+1928-03-11,Friendly,played,France,FRA,Switzerland,CHE,FALSE,3,4,loss,Lausanne,Switzerland,FALSE,1589,1688,1584,1693,-5
+1928-04-15,Friendly,played,France,FRA,Belgium,BEL,TRUE,2,3,loss,Colombes,France,FALSE,1584,1680,1574,1690,-10
+1928-04-29,Friendly,played,France,FRA,Portugal,PRT,TRUE,1,1,draw,Paris,France,FALSE,1574,1708,1575,1707,1
+1928-05-13,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,0,2,loss,Colombes,France,FALSE,1575,1921,1569,1927,-6
+1928-05-17,Friendly,played,France,FRA,England,ENG,TRUE,1,5,loss,Colombes,France,FALSE,1569,1810,1557,1822,-12
+1928-05-29,Olympic Games,played,France,FRA,Italy,ITA,FALSE,3,4,loss,Amsterdam,Netherlands,TRUE,1557,1797,1545,1809,-12
+1929-02-24,Friendly,played,France,FRA,Hungary,HUN,TRUE,3,0,win,Colombes,France,FALSE,1545,1812,1570,1787,25
+1929-03-24,Friendly,played,France,FRA,Portugal,PRT,TRUE,2,0,win,Colombes,France,FALSE,1570,1710,1587,1693,17
+1929-04-14,Friendly,played,France,FRA,Spain,ESP,FALSE,1,8,loss,Zaragoza,Spain,FALSE,1587,1907,1583,1911,-4
+1929-05-09,Friendly,played,France,FRA,England,ENG,TRUE,1,4,loss,Colombes,France,FALSE,1583,1860,1574,1869,-9
+1929-05-19,Friendly,played,France,FRA,Yugoslavia,YUG,TRUE,1,3,loss,Colombes,France,FALSE,1574,1606,1556,1624,-18
+1929-05-26,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,4,loss,Liège,Belgium,FALSE,1556,1646,1547,1655,-9
+1930-02-23,Friendly,played,France,FRA,Portugal,PRT,FALSE,0,2,loss,Porto,Portugal,FALSE,1547,1701,1541,1707,-6
+1930-03-23,Friendly,played,France,FRA,Switzerland,CHE,TRUE,3,3,draw,Colombes,France,FALSE,1541,1555,1539,1557,-2
+1930-04-13,Friendly,played,France,FRA,Belgium,BEL,TRUE,1,6,loss,Colombes,France,FALSE,1539,1648,1520,1667,-19
+1930-05-11,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,2,3,loss,Colombes,France,FALSE,1520,1895,1517,1898,-3
+1930-05-18,Friendly,played,France,FRA,Scotland,SCO,TRUE,0,2,loss,Colombes,France,FALSE,1517,2024,1514,2027,-3
+1930-05-25,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,1,win,Liège,Belgium,FALSE,1514,1668,1530,1652,16
+1930-07-13,FIFA World Cup,played,France,FRA,Mexico,MEX,TRUE,4,1,win,Montevideo,Uruguay,TRUE,1547,1613,1609,1551,62
+1930-07-15,FIFA World Cup,played,France,FRA,Argentina,ARG,FALSE,0,1,loss,Montevideo,Uruguay,TRUE,1609,2073,1605,2077,-4
+1930-07-19,FIFA World Cup,played,France,FRA,Chile,CHL,FALSE,0,1,loss,Montevideo,Uruguay,TRUE,1605,1624,1577,1652,-28
+1930-08-01,Friendly,played,France,FRA,Brazil,BRA,FALSE,2,3,loss,Rio de Janeiro,Brazil,FALSE,1577,1874,1575,1876,-2
+1930-12-07,Friendly,played,France,FRA,Belgium,BEL,TRUE,2,2,draw,Montrouge,France,FALSE,1575,1602,1573,1604,-2
+1931-01-25,Friendly,played,France,FRA,Italy,ITA,FALSE,0,5,loss,Bologna,Italy,FALSE,1573,1965,1571,1967,-2
+1931-02-15,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,1,2,loss,Colombes,France,FALSE,1571,1915,1567,1919,-4
+1931-03-15,Friendly,played,France,FRA,Germany,DEU,TRUE,1,0,win,Colombes,France,FALSE,1567,1814,1581,1800,14
+1931-05-14,Friendly,played,France,FRA,England,ENG,TRUE,5,2,win,Colombes,France,FALSE,1581,1994,1611,1964,30
+1931-11-29,Friendly,played,France,FRA,Netherlands,NLD,TRUE,3,4,loss,Colombes,France,FALSE,1611,1632,1599,1644,-12
+1932-03-20,Friendly,played,France,FRA,Switzerland,CHE,FALSE,3,3,draw,Bern,Switzerland,FALSE,1599,1529,1600,1528,1
+1932-04-10,Friendly,played,France,FRA,Italy,ITA,TRUE,1,2,loss,Colombes,France,FALSE,1600,1975,1597,1978,-3
+1932-05-01,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,5,loss,Brussels,Belgium,FALSE,1597,1590,1584,1603,-13
+1932-05-08,Friendly,played,France,FRA,Scotland,SCO,TRUE,1,3,loss,Colombes,France,FALSE,1584,1983,1579,1988,-5
+1932-06-05,Friendly,played,France,FRA,Yugoslavia,YUG,FALSE,1,2,loss,Belgrade,Yugoslavia,FALSE,1579,1537,1571,1545,-8
+1932-06-09,Friendly,played,France,FRA,Bulgaria,BGR,FALSE,5,3,win,Sofia,Bulgaria,FALSE,1571,1407,1583,1395,12
+1932-06-12,Friendly,played,France,FRA,Romania,ROU,FALSE,3,6,loss,Bucharest,Romania,FALSE,1583,1642,1573,1652,-10
+1933-02-12,Friendly,played,France,FRA,Austria,AUT,TRUE,0,4,loss,Paris,France,FALSE,1573,2017,1568,2022,-5
+1933-03-19,Friendly,played,France,FRA,Germany,DEU,FALSE,3,3,draw,Berlin,Germany,FALSE,1568,1765,1575,1758,7
+1933-03-26,Friendly,played,France,FRA,Belgium,BEL,TRUE,3,0,win,Colombes,France,FALSE,1575,1596,1589,1582,14
+1933-04-23,Friendly,played,France,FRA,Spain,ESP,TRUE,1,0,win,Colombes,France,FALSE,1589,1929,1605,1913,16
+1933-05-25,Friendly,played,France,FRA,Wales,WAL,TRUE,1,1,draw,Colombes,France,FALSE,1605,1755,1606,1754,1
+1933-06-10,Friendly,played,France,FRA,Czechoslovakia,CSK,FALSE,0,4,loss,Prague,Czechoslovakia,FALSE,1606,1828,1601,1833,-5
+1933-12-06,Friendly,played,France,FRA,England,ENG,FALSE,1,4,loss,London,England,FALSE,1601,2001,1599,2003,-2
+1934-01-21,Friendly,played,France,FRA,Belgium,BEL,FALSE,3,2,win,Brussels,Belgium,FALSE,1599,1588,1612,1575,13
+1934-03-11,Friendly,played,France,FRA,Switzerland,CHE,TRUE,0,1,loss,Paris,France,FALSE,1612,1607,1599,1620,-13
+1934-03-25,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,1,2,loss,Colombes,France,FALSE,1599,1837,1593,1843,-6
+1934-04-15,FIFA World Cup qualification,played,France,FRA,Luxembourg,,FALSE,6,1,win,Luxembourg,Luxembourg,FALSE,1593,1278,1611,1260,18
+1934-05-10,Friendly,played,France,FRA,Netherlands,NLD,FALSE,5,4,win,Amsterdam,Netherlands,FALSE,1611,1722,1626,1707,15
+1934-05-27,FIFA World Cup,played,France,FRA,Austria,AUT,FALSE,2,3,loss,Turin,Italy,TRUE,1626,2050,1621,2055,-5
+1934-12-16,Friendly,played,France,FRA,Yugoslavia,YUG,TRUE,3,2,win,Paris,France,FALSE,1621,1594,1627,1588,6
+1935-01-24,Friendly,played,France,FRA,Spain,ESP,FALSE,0,2,loss,Madrid,Spain,FALSE,1627,1969,1625,1971,-2
+1935-02-17,Friendly,played,France,FRA,Italy,ITA,FALSE,1,2,loss,Rome,Italy,FALSE,1625,2044,1624,2045,-1
+1935-03-17,Friendly,played,France,FRA,Germany,DEU,TRUE,1,3,loss,Paris,France,FALSE,1624,1889,1616,1897,-8
+1935-04-14,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1616,1523,1616,1523,0
+1935-05-19,Friendly,played,France,FRA,Hungary,HUN,TRUE,2,0,win,Colombes,France,FALSE,1616,1846,1636,1826,20
+1935-10-27,Friendly,played,France,FRA,Switzerland,CHE,FALSE,1,2,loss,Geneva,Switzerland,FALSE,1636,1672,1630,1678,-6
+1935-11-10,Friendly,played,France,FRA,Sweden,SWE,TRUE,2,0,win,Paris,France,FALSE,1630,1811,1648,1793,18
+1936-01-12,Friendly,played,France,FRA,Netherlands,NLD,TRUE,1,6,loss,Paris,France,FALSE,1648,1713,1626,1735,-22
+1936-02-09,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,0,3,loss,Paris,France,FALSE,1626,1903,1617,1912,-9
+1936-03-08,Friendly,played,France,FRA,Belgium,BEL,TRUE,3,0,win,Colombes,France,FALSE,1617,1517,1625,1509,8
+1936-12-13,Friendly,played,France,FRA,Yugoslavia,YUG,TRUE,1,0,win,Paris,France,FALSE,1625,1650,1633,1642,8
+1937-01-24,Friendly,played,France,FRA,Austria,AUT,TRUE,1,2,loss,Paris,France,FALSE,1633,1901,1627,1907,-6
+1937-02-21,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,3,loss,Brussels,Belgium,FALSE,1627,1531,1612,1546,-15
+1937-03-21,Friendly,played,France,FRA,Germany,DEU,FALSE,0,4,loss,Stuttgart,Germany,FALSE,1612,1812,1606,1818,-6
+1937-05-23,Friendly,played,France,FRA,Republic of Ireland,IRL,TRUE,0,2,loss,Colombes,France,FALSE,,,,,
+1937-10-10,Friendly,played,France,FRA,Switzerland,CHE,TRUE,2,1,win,Paris,France,FALSE,1589,1596,1596,1589,7
+1937-10-31,Friendly,played,France,FRA,Netherlands,NLD,FALSE,3,2,win,Amsterdam,Netherlands,FALSE,1596,1726,1612,1710,16
+1937-12-05,Friendly,played,France,FRA,Italy,ITA,TRUE,0,0,draw,Paris,France,FALSE,1612,2057,1620,2049,8
+1938-01-30,Friendly,played,France,FRA,Belgium,BEL,TRUE,5,3,win,Paris,France,FALSE,1620,1541,1628,1533,8
+1938-03-24,Friendly,played,France,FRA,Bulgaria,BGR,TRUE,6,1,win,Paris,France,FALSE,1628,1514,1637,1505,9
+1938-05-26,Friendly,played,France,FRA,England,ENG,TRUE,2,4,loss,Colombes,France,FALSE,1637,1960,1630,1967,-7
+1938-06-05,FIFA World Cup,played,France,FRA,Belgium,BEL,TRUE,3,1,win,Colombes,France,FALSE,1630,1567,1655,1542,25
+1938-06-12,FIFA World Cup,played,France,FRA,Italy,ITA,TRUE,1,3,loss,Colombes,France,FALSE,1655,2060,1642,2073,-13
+1938-12-04,Friendly,played,France,FRA,Italy,ITA,FALSE,0,1,loss,Naples,Italy,FALSE,1642,2125,1641,2126,-1
+1939-01-22,Friendly,played,France,FRA,Poland,POL,TRUE,4,0,win,Paris,France,FALSE,1641,1591,1652,1580,11
+1939-03-16,Friendly,played,France,FRA,Hungary,HUN,TRUE,2,2,draw,Paris,France,FALSE,1652,1927,1657,1922,5
+1939-05-18,Friendly,played,France,FRA,Belgium,BEL,FALSE,3,1,win,Brussels,Belgium,FALSE,1657,1532,1671,1518,14
+1939-05-20,Friendly,played,France,FRA,Wales,WAL,TRUE,2,1,win,Colombes,France,FALSE,1671,1883,1684,1870,13
+1940-01-28,Friendly,played,France,FRA,Portugal,PRT,TRUE,3,2,win,Paris,France,FALSE,1684,1651,1690,1645,6
+1942-03-08,Friendly,played,France,FRA,Switzerland,CHE,TRUE,0,2,loss,Marseille,France,FALSE,1690,1752,1673,1769,-17
+1942-03-15,Friendly,played,France,FRA,Spain,ESP,FALSE,0,4,loss,Seville,Spain,FALSE,1673,1949,1669,1953,-4
+1944-12-24,Friendly,played,France,FRA,Belgium,BEL,TRUE,3,1,win,Paris,France,FALSE,1669,1535,1675,1529,6
+1945-04-08,Friendly,played,France,FRA,Switzerland,CHE,FALSE,0,1,loss,Lausanne,Switzerland,FALSE,1675,1744,1670,1749,-5
+1945-05-26,Friendly,played,France,FRA,England,ENG,FALSE,2,2,draw,London,England,FALSE,1670,1997,1678,1989,8
+1945-12-06,Friendly,played,France,FRA,Austria,AUT,FALSE,1,4,loss,Vienna,Austria,FALSE,1678,1894,1673,1899,-5
+1945-12-15,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1673,1504,1661,1516,-12
+1946-04-07,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,3,0,win,Colombes,France,FALSE,1661,1851,1683,1829,22
+1946-04-14,Friendly,played,France,FRA,Portugal,PRT,FALSE,1,2,loss,Oeiras,Portugal,FALSE,1683,1661,1675,1669,-8
+1946-05-05,Friendly,played,France,FRA,Austria,AUT,TRUE,3,1,win,Colombes,France,FALSE,1675,1906,1695,1886,20
+1946-05-19,Friendly,played,France,FRA,England,ENG,TRUE,2,1,win,Colombes,France,FALSE,1695,1935,1709,1921,14
+1947-03-23,Friendly,played,France,FRA,Portugal,PRT,TRUE,1,0,win,Colombes,France,FALSE,1709,1704,1716,1697,7
+1947-05-03,Friendly,played,France,FRA,England,ENG,FALSE,0,3,loss,London,England,FALSE,1716,1969,1712,1973,-4
+1947-05-26,Friendly,played,France,FRA,Netherlands,NLD,TRUE,4,0,win,Colombes,France,FALSE,1712,1680,1724,1668,12
+1947-06-01,Friendly,played,France,FRA,Belgium,BEL,TRUE,4,2,win,Colombes,France,FALSE,1724,1529,1729,1524,5
+1947-06-08,Friendly,played,France,FRA,Switzerland,CHE,FALSE,2,1,win,Lausanne,Switzerland,FALSE,1729,1790,1743,1776,14
+1947-11-23,Friendly,played,France,FRA,Portugal,PRT,FALSE,4,2,win,Oeiras,Portugal,FALSE,1743,1700,1760,1683,17
+1948-04-04,Friendly,played,France,FRA,Italy,ITA,TRUE,1,3,loss,Colombes,France,FALSE,1760,2066,1753,2073,-7
+1948-05-23,Friendly,played,France,FRA,Scotland,SCO,TRUE,3,0,win,Colombes,France,FALSE,1753,1850,1770,1833,17
+1948-06-06,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,4,loss,Brussels,Belgium,FALSE,1770,1522,1749,1543,-21
+1948-06-12,Friendly,played,France,FRA,Czechoslovakia,CSK,FALSE,4,0,win,Prague,Czechoslovakia,FALSE,1749,1780,1775,1754,26
+1948-10-17,Friendly,played,France,FRA,Belgium,BEL,TRUE,3,3,draw,Colombes,France,FALSE,1775,1543,1768,1550,-7
+1949-04-23,Friendly,played,France,FRA,Netherlands,NLD,FALSE,1,4,loss,Rotterdam,Netherlands,FALSE,1768,1695,1752,1711,-16
+1949-04-27,Friendly,played,France,FRA,Scotland,SCO,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1752,1932,1747,1937,-5
+1949-05-22,Friendly,played,France,FRA,England,ENG,TRUE,1,3,loss,Colombes,France,FALSE,1747,2019,1739,2027,-8
+1949-06-04,Friendly,played,France,FRA,Switzerland,CHE,TRUE,4,2,win,Colombes,France,FALSE,1739,1750,1750,1739,11
+1949-06-19,Friendly,played,France,FRA,Spain,ESP,TRUE,1,5,loss,Colombes,France,FALSE,1750,1878,1733,1895,-17
+1949-10-09,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,FALSE,1,1,draw,Belgrade,Yugoslavia,FALSE,1733,1796,1742,1787,9
+1949-10-30,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,TRUE,1,1,draw,Colombes,France,FALSE,1742,1787,1739,1790,-3
+1949-11-13,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,1,0,win,Colombes,France,FALSE,1739,1736,1746,1729,7
+1949-12-11,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,TRUE,2,3,loss,Florence,Italy,TRUE,1746,1768,1727,1787,-19
+1950-05-27,Friendly,played,France,FRA,Scotland,SCO,TRUE,0,1,loss,Colombes,France,FALSE,1727,1954,1721,1960,-6
+1950-06-04,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,4,loss,Brussels,Belgium,FALSE,1721,1656,1705,1672,-16
+1950-11-01,Friendly,played,France,FRA,Belgium,BEL,TRUE,3,3,draw,Colombes,France,FALSE,1705,1672,1701,1676,-4
+1950-12-10,Friendly,played,France,FRA,Netherlands,NLD,TRUE,5,2,win,Colombes,France,FALSE,1701,1638,1711,1628,10
+1951-02-06,Friendly,played,France,FRA,Yugoslavia,YUG,TRUE,2,1,win,Paris,France,FALSE,1711,1885,1723,1873,12
+1951-05-12,Friendly,played,France,FRA,Northern Ireland,NIR,FALSE,2,2,draw,Belfast,Northern Ireland,FALSE,1723,1625,1723,1625,0
+1951-05-16,Friendly,played,France,FRA,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1723,2002,1721,2004,-2
+1951-06-03,Friendly,played,France,FRA,Italy,ITA,FALSE,1,4,loss,Genoa,Italy,FALSE,1721,1984,1717,1988,-4
+1951-10-03,Friendly,played,France,FRA,England,ENG,FALSE,2,2,draw,London,England,FALSE,1717,1985,1725,1977,8
+1951-10-14,Friendly,played,France,FRA,Switzerland,CHE,FALSE,2,1,win,Geneva,Switzerland,FALSE,1725,1728,1738,1715,13
+1951-11-01,Friendly,played,France,FRA,Austria,AUT,TRUE,2,2,draw,Colombes,France,FALSE,1738,1903,1740,1901,2
+1952-03-26,Friendly,played,France,FRA,Sweden,SWE,TRUE,0,1,loss,Paris,France,FALSE,1740,1844,1730,1854,-10
+1952-04-20,Friendly,played,France,FRA,Portugal,PRT,TRUE,3,0,win,Colombes,France,FALSE,1730,1667,1740,1657,10
+1952-05-22,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,1,win,Brussels,Belgium,FALSE,1740,1700,1752,1688,12
+1952-10-05,Friendly,played,France,FRA,Germany,DEU,TRUE,3,1,win,Colombes,France,FALSE,,,,,
+1952-10-19,Friendly,played,France,FRA,Austria,AUT,FALSE,2,1,win,Vienna,Austria,FALSE,1770,1893,1786,1877,16
+1952-11-11,Friendly,played,France,FRA,Northern Ireland,NIR,TRUE,3,1,win,Colombes,France,FALSE,1786,1630,1792,1624,6
+1952-11-16,Friendly,played,France,FRA,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Éire,FALSE,,,,,
+1952-12-25,Friendly,played,France,FRA,Belgium,BEL,TRUE,0,1,loss,Colombes,France,FALSE,1790,1690,1775,1705,-15
+1953-05-14,Friendly,played,France,FRA,Wales,WAL,TRUE,6,1,win,Colombes,France,FALSE,1758,1801,1775,1784,17
+1953-06-11,Friendly,played,France,FRA,Sweden,SWE,FALSE,0,1,loss,Solna,Sweden,FALSE,1775,1826,1769,1832,-6
+1953-09-20,FIFA World Cup qualification,played,France,FRA,Luxembourg,,FALSE,6,1,win,Luxembourg,Luxembourg,FALSE,1769,1317,1778,1308,9
+1953-10-04,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,FALSE,5,3,win,Dublin,Republic of Ireland,FALSE,,,,,
+1953-10-18,Friendly,played,France,FRA,Yugoslavia,YUG,FALSE,1,3,loss,Zagreb,Yugoslavia,FALSE,1806,1934,1800,1940,-6
+1953-11-11,Friendly,played,France,FRA,Switzerland,CHE,TRUE,2,4,loss,Colombes,France,FALSE,1800,1648,1776,1672,-24
+1953-11-25,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,TRUE,1,0,win,Paris,France,FALSE,,,,,
+1953-12-17,FIFA World Cup qualification,played,France,FRA,Luxembourg,,TRUE,8,0,win,Paris,France,FALSE,1784,1302,1787,1299,3
+1954-04-11,Friendly,played,France,FRA,Italy,ITA,TRUE,1,3,loss,Colombes,France,FALSE,1787,1878,1772,1893,-15
+1954-05-30,Friendly,played,France,FRA,Belgium,BEL,FALSE,3,3,draw,Brussels,Belgium,FALSE,1772,1780,1775,1777,3
+1954-06-16,FIFA World Cup,played,France,FRA,Yugoslavia,YUG,TRUE,0,1,loss,Lausanne,Switzerland,TRUE,1775,1934,1758,1951,-17
+1954-06-19,FIFA World Cup,played,France,FRA,Mexico,MEX,TRUE,3,2,win,Geneva,Switzerland,TRUE,1758,1683,1782,1659,24
+1954-10-16,Friendly,played,France,FRA,Germany,DEU,FALSE,3,1,win,Hanover,Germany,FALSE,,,,,
+1954-11-11,Friendly,played,France,FRA,Belgium,BEL,TRUE,2,2,draw,Colombes,France,FALSE,1809,1778,1805,1782,-4
+1955-03-17,Friendly,played,France,FRA,Spain,ESP,FALSE,2,1,win,Madrid,Spain,FALSE,1805,1836,1819,1822,14
+1955-04-03,Friendly,played,France,FRA,Sweden,SWE,TRUE,2,0,win,Colombes,France,FALSE,1819,1825,1830,1814,11
+1955-05-15,Friendly,played,France,FRA,England,ENG,TRUE,1,0,win,Colombes,France,FALSE,1830,2014,1842,2002,12
+1955-10-09,Friendly,played,France,FRA,Switzerland,CHE,FALSE,2,1,win,Basel,Switzerland,FALSE,1842,1686,1850,1678,8
+1955-10-23,Friendly,played,France,FRA,Soviet Union,SUN,FALSE,2,2,draw,Moscow,Soviet Union,FALSE,1850,1765,1850,1765,0
+1955-11-11,Friendly,played,France,FRA,Yugoslavia,YUG,TRUE,1,1,draw,Colombes,France,FALSE,1850,1962,1850,1962,0
+1955-12-25,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1850,1718,1839,1729,-11
+1956-02-15,Friendly,played,France,FRA,Italy,ITA,FALSE,0,2,loss,Bologna,Italy,FALSE,1839,1839,1828,1850,-11
+1956-03-25,Friendly,played,France,FRA,Austria,AUT,TRUE,3,1,win,Colombes,France,FALSE,1828,1933,1843,1918,15
+1956-10-07,Friendly,played,France,FRA,Hungary,HUN,TRUE,1,2,loss,Colombes,France,FALSE,1843,2123,1838,2128,-5
+1956-10-21,Friendly,played,France,FRA,Soviet Union,SUN,TRUE,2,1,win,Colombes,France,FALSE,1838,1815,1845,1808,7
+1956-11-11,FIFA World Cup qualification,played,France,FRA,Belgium,BEL,TRUE,6,3,win,Colombes,France,FALSE,1845,1696,1858,1683,13
+1957-06-02,FIFA World Cup qualification,played,France,FRA,Iceland,ISL,TRUE,8,0,win,Nantes,France,FALSE,1866,1336,1868,1334,2
+1957-09-01,FIFA World Cup qualification,played,France,FRA,Iceland,ISL,FALSE,5,1,win,Reykjavík,Iceland,FALSE,1868,1299,1873,1294,5
+1957-10-06,Friendly,played,France,FRA,Hungary,HUN,FALSE,0,2,loss,Budapest,Hungary,FALSE,1873,2085,1869,2089,-4
+1957-10-27,FIFA World Cup qualification,played,France,FRA,Belgium,BEL,FALSE,0,0,draw,Brussels,Belgium,FALSE,1869,1687,1864,1692,-5
+1957-11-27,Friendly,played,France,FRA,England,ENG,FALSE,0,4,loss,London,England,FALSE,1864,1998,1856,2006,-8
+1957-12-25,Friendly,played,France,FRA,Bulgaria,BGR,TRUE,2,2,draw,Colombes,France,FALSE,1856,1656,1849,1663,-7
+1958-03-13,Friendly,played,France,FRA,Spain,ESP,TRUE,2,2,draw,Paris,France,FALSE,1849,1873,1847,1875,-2
+1958-04-16,Friendly,played,France,FRA,Switzerland,CHE,TRUE,0,0,draw,Paris,France,FALSE,1847,1623,1840,1630,-7
+1958-06-08,FIFA World Cup,played,France,FRA,Paraguay,PRY,TRUE,7,3,win,Norrköping,Sweden,TRUE,1840,1751,1882,1709,42
+1958-06-11,FIFA World Cup,played,France,FRA,Yugoslavia,YUG,TRUE,2,3,loss,Västerås,Sweden,TRUE,1882,1907,1854,1935,-28
+1958-06-15,FIFA World Cup,played,France,FRA,Scotland,SCO,TRUE,2,1,win,Örebro,Sweden,TRUE,1854,1795,1879,1770,25
+1958-06-19,FIFA World Cup,played,France,FRA,Northern Ireland,NIR,TRUE,4,0,win,Norrköping,Sweden,TRUE,1879,1820,1926,1773,47
+1958-06-24,FIFA World Cup,played,France,FRA,Brazil,BRA,FALSE,2,5,loss,Solna,Sweden,TRUE,1926,2065,1893,2098,-33
+1958-06-28,FIFA World Cup,played,France,FRA,Germany,DEU,TRUE,6,3,win,Gothenburg,Sweden,TRUE,,,,,
+1958-10-01,UEFA Euro qualification,played,France,FRA,Greece,GRC,TRUE,7,1,win,Paris,France,FALSE,1953,1491,1956,1488,3
+1958-10-05,Friendly,played,France,FRA,Austria,AUT,FALSE,2,1,win,Vienna,Austria,FALSE,1956,1827,1965,1818,9
+1958-10-26,Friendly,played,France,FRA,Germany,DEU,TRUE,2,2,draw,Colombes,France,FALSE,,,,,
+1958-11-09,Friendly,played,France,FRA,Italy,ITA,TRUE,2,2,draw,Colombes,France,FALSE,1960,1791,1954,1797,-6
+1958-12-03,UEFA Euro qualification,played,France,FRA,Greece,GRC,FALSE,1,1,draw,Athens,Greece,FALSE,1954,1488,1938,1504,-16
+1959-03-01,Friendly,played,France,FRA,Belgium,BEL,TRUE,2,2,draw,Colombes,France,FALSE,1938,1648,1930,1656,-8
+1959-10-11,Friendly,played,France,FRA,Bulgaria,BGR,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1930,1696,1916,1710,-14
+1959-11-11,Friendly,played,France,FRA,Portugal,PRT,TRUE,5,3,win,Colombes,France,FALSE,1916,1700,1920,1696,4
+1959-12-13,UEFA Euro qualification,played,France,FRA,Austria,AUT,TRUE,5,2,win,Colombes,France,FALSE,1920,1846,1939,1827,19
+1959-12-17,Friendly,played,France,FRA,Spain,ESP,TRUE,4,3,win,Paris,France,FALSE,1939,1912,1945,1906,6
+1960-02-28,Friendly,played,France,FRA,Belgium,BEL,FALSE,0,1,loss,Brussels,Belgium,FALSE,1945,1630,1929,1646,-16
+1960-03-16,Friendly,played,France,FRA,Chile,CHL,TRUE,6,0,win,Paris,France,FALSE,1929,1734,1936,1727,7
+1960-03-27,UEFA Euro qualification,played,France,FRA,Austria,AUT,FALSE,4,2,win,Vienna,Austria,FALSE,1936,1827,1965,1798,29
+1960-07-06,UEFA Euro,played,France,FRA,Yugoslavia,YUG,TRUE,4,5,loss,Paris,France,FALSE,1965,1884,1928,1921,-37
+1960-07-09,UEFA Euro,played,France,FRA,Czechoslovakia,CSK,TRUE,0,2,loss,Marseille,France,FALSE,1928,1863,1874,1917,-54
+1960-09-25,FIFA World Cup qualification,played,France,FRA,Finland,,FALSE,2,1,win,Helsinki,Finland,FALSE,1874,1258,1876,1256,2
+1960-09-28,Friendly,played,France,FRA,Poland,POL,FALSE,2,2,draw,Warsaw,Poland,FALSE,1876,1649,1872,1653,-4
+1960-10-12,Friendly,played,France,FRA,Switzerland,CHE,FALSE,2,6,loss,Basel,Switzerland,FALSE,1872,1590,1844,1618,-28
+1960-10-30,Friendly,played,France,FRA,Sweden,SWE,FALSE,0,1,loss,Solna,Sweden,FALSE,1844,1904,1838,1910,-6
+1960-12-11,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,TRUE,3,0,win,Colombes,France,FALSE,1838,1780,1858,1760,20
+1961-03-15,Friendly,played,France,FRA,Belgium,BEL,TRUE,1,1,draw,Paris,France,FALSE,1858,1597,1850,1605,-8
+1961-04-02,Friendly,played,France,FRA,Spain,ESP,FALSE,0,2,loss,Madrid,Spain,FALSE,1850,1920,1842,1928,-8
+1961-09-28,FIFA World Cup qualification,played,France,FRA,Finland,,TRUE,5,1,win,Paris,France,FALSE,1842,1284,1844,1282,2
+1961-10-18,Friendly,played,France,FRA,Belgium,BEL,FALSE,0,3,loss,Brussels,Belgium,FALSE,1844,1573,1819,1598,-25
+1961-11-12,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1819,1767,1802,1784,-17
+1961-12-10,Friendly,played,France,FRA,Spain,ESP,TRUE,1,1,draw,Colombes,France,FALSE,1802,1965,1804,1963,2
+1961-12-16,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,FALSE,0,1,loss,Milan,Italy,TRUE,1804,1784,1783,1805,-21
+1962-04-11,Friendly,played,France,FRA,Poland,POL,TRUE,1,3,loss,Paris,France,FALSE,1783,1682,1760,1705,-23
+1962-05-05,Friendly,played,France,FRA,Italy,ITA,FALSE,1,2,loss,Florence,Italy,FALSE,1760,1863,1755,1868,-5
+1962-10-03,UEFA Euro qualification,played,France,FRA,England,ENG,FALSE,1,1,draw,Sheffield,England,FALSE,1755,1913,1768,1900,13
+1962-10-24,Friendly,played,France,FRA,Germany,DEU,FALSE,2,2,draw,Stuttgart,Germany,FALSE,,,,,
+1962-11-11,Friendly,played,France,FRA,Hungary,HUN,TRUE,2,3,loss,Colombes,France,FALSE,1775,1980,1768,1987,-7
+1963-01-09,Friendly,played,France,FRA,Spain,ESP,FALSE,0,0,draw,Barcelona,Spain,FALSE,1768,1896,1774,1890,6
+1963-02-27,UEFA Euro qualification,played,France,FRA,England,ENG,TRUE,5,2,win,Paris,France,FALSE,1774,1931,1815,1890,41
+1963-04-12,African Friendship Games,played,France,FRA,Gambia,,TRUE,5,1,win,Dakar,Senegal,TRUE,,,,,
+1963-04-14,African Friendship Games,played,France,FRA,Gabon,,TRUE,3,0,win,Dakar,Senegal,TRUE,,,,,
+1963-04-16,African Friendship Games,played,France,FRA,Burkina Faso,,TRUE,1,0,win,Dakar,Senegal,TRUE,,,,,
+1963-04-17,Friendly,played,France,FRA,Netherlands,NLD,FALSE,0,1,loss,Rotterdam,Netherlands,FALSE,1815,1674,1804,1685,-11
+1963-04-18,African Friendship Games,played,France,FRA,Senegal,SEN,FALSE,0,2,loss,Dakar,Senegal,FALSE,,,,,
+1963-04-20,African Friendship Games,played,France,FRA,Madagascar,,TRUE,4,1,win,Dakar,Senegal,TRUE,,,,,
+1963-04-28,Friendly,played,France,FRA,Brazil,BRA,TRUE,2,3,loss,Colombes,France,FALSE,1804,1941,1795,1950,-9
+1963-09-29,UEFA Euro qualification,played,France,FRA,Bulgaria,BGR,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1795,1769,1779,1785,-16
+1963-10-26,UEFA Euro qualification,played,France,FRA,Bulgaria,BGR,TRUE,3,1,win,Paris,France,FALSE,1779,1785,1801,1763,22
+1963-11-11,Friendly,played,France,FRA,Switzerland,CHE,TRUE,2,2,draw,Paris,France,FALSE,1801,1573,1794,1580,-7
+1963-12-25,Friendly,played,France,FRA,Belgium,BEL,TRUE,1,2,loss,Paris,France,FALSE,1794,1716,1779,1731,-15
+1964-04-25,UEFA Euro qualification,played,France,FRA,Hungary,HUN,TRUE,1,3,loss,Colombes,France,FALSE,1779,1964,1756,1987,-23
+1964-05-23,UEFA Euro qualification,played,France,FRA,Hungary,HUN,FALSE,1,2,loss,Budapest,Hungary,FALSE,1756,1975,1751,1980,-5
+1964-10-04,FIFA World Cup qualification,played,France,FRA,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1751,1388,1762,1377,11
+1964-11-11,FIFA World Cup qualification,played,France,FRA,Norway,NOR,TRUE,1,0,win,Paris,France,FALSE,1762,1528,1767,1523,5
+1964-12-02,Friendly,played,France,FRA,Belgium,BEL,FALSE,0,3,loss,Brussels,Belgium,FALSE,1767,1708,1752,1723,-15
+1965-03-24,Friendly,played,France,FRA,Austria,AUT,TRUE,1,2,loss,Paris,France,FALSE,1752,1818,1741,1829,-11
+1965-04-18,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,FALSE,0,1,loss,Belgrade,Yugoslavia,FALSE,1741,1859,1732,1868,-9
+1965-06-03,Friendly,played,France,FRA,Argentina,ARG,TRUE,0,0,draw,Paris,France,FALSE,1732,1972,1736,1968,4
+1965-09-15,FIFA World Cup qualification,played,France,FRA,Norway,NOR,FALSE,1,0,win,Oslo,Norway,FALSE,1736,1554,1751,1539,15
+1965-10-09,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,TRUE,1,0,win,Paris,France,FALSE,1751,1825,1770,1806,19
+1965-11-06,FIFA World Cup qualification,played,France,FRA,Luxembourg,,TRUE,4,1,win,Marseille,France,FALSE,1770,1329,1773,1326,3
+1966-03-19,Friendly,played,France,FRA,Italy,ITA,TRUE,0,0,draw,Paris,France,FALSE,1773,1946,1775,1944,2
+1966-04-20,Friendly,played,France,FRA,Belgium,BEL,TRUE,0,3,loss,Paris,France,FALSE,1775,1746,1751,1770,-24
+1966-06-05,Friendly,played,France,FRA,Soviet Union,SUN,FALSE,3,3,draw,Moscow,Soviet Union,FALSE,1751,2011,1759,2003,8
+1966-07-13,FIFA World Cup,played,France,FRA,Mexico,MEX,TRUE,1,1,draw,London,England,TRUE,1759,1868,1768,1859,9
+1966-07-15,FIFA World Cup,played,France,FRA,Uruguay,URY,TRUE,1,2,loss,London,England,TRUE,1768,1866,1746,1888,-22
+1966-07-20,FIFA World Cup,played,France,FRA,England,ENG,FALSE,0,2,loss,London,England,FALSE,1746,1993,1735,2004,-11
+1966-09-28,Friendly,played,France,FRA,Hungary,HUN,FALSE,2,4,loss,Budapest,Hungary,FALSE,1735,1950,1731,1954,-4
+1966-10-22,UEFA Euro qualification,played,France,FRA,Poland,POL,TRUE,2,1,win,Paris,France,FALSE,1731,1695,1744,1682,13
+1966-11-11,UEFA Euro qualification,played,France,FRA,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1744,1752,1730,1766,-14
+1966-11-26,UEFA Euro qualification,played,France,FRA,Luxembourg,,FALSE,3,0,win,Luxembourg,Luxembourg,FALSE,1730,1321,1740,1311,10
+1967-02-28,Friendly,played,France,FRA,Corsica,,TRUE,0,2,loss,Marseille,France,FALSE,,,,,
+1967-03-22,Friendly,played,France,FRA,Romania,ROU,TRUE,1,2,loss,Paris,France,FALSE,1740,1864,1731,1873,-9
+1967-06-03,Friendly,played,France,FRA,Soviet Union,SUN,TRUE,2,4,loss,Paris,France,FALSE,1731,1963,1721,1973,-10
+1967-09-17,UEFA Euro qualification,played,France,FRA,Poland,POL,FALSE,4,1,win,Warsaw,Poland,FALSE,1721,1681,1762,1640,41
+1967-09-27,Friendly,played,France,FRA,Germany,DEU,FALSE,1,5,loss,Berlin,Germany,FALSE,,,,,
+1967-10-28,UEFA Euro qualification,played,France,FRA,Belgium,BEL,TRUE,1,1,draw,Nantes,France,FALSE,1758,1704,1750,1712,-8
+1967-12-23,UEFA Euro qualification,played,France,FRA,Luxembourg,,TRUE,3,1,win,Paris,France,FALSE,1750,1326,1753,1323,3
+1968-04-06,UEFA Euro qualification,played,France,FRA,Yugoslavia,YUG,TRUE,1,1,draw,Marseille,France,FALSE,1753,1829,1752,1830,-1
+1968-04-24,UEFA Euro qualification,played,France,FRA,Yugoslavia,YUG,FALSE,1,5,loss,Belgrade,Yugoslavia,FALSE,1752,1830,1732,1850,-20
+1968-09-25,Friendly,played,France,FRA,Germany,DEU,TRUE,1,1,draw,Marseille,France,FALSE,,,,,
+1968-10-17,Friendly,played,France,FRA,Spain,ESP,TRUE,1,3,loss,Lyon,France,FALSE,1737,1858,1723,1872,-14
+1968-11-06,FIFA World Cup qualification,played,France,FRA,Norway,NOR,TRUE,0,1,loss,Strasbourg,France,FALSE,1723,1532,1689,1566,-34
+1969-02-12,Friendly,played,France,FRA,Hungary,HUN,TRUE,2,2,draw,Lyon,France,FALSE,,,,,
+1969-03-12,Friendly,played,France,FRA,England,ENG,FALSE,0,5,loss,London,England,FALSE,1689,2050,1686,2053,-3
+1969-04-30,Friendly,played,France,FRA,Romania,ROU,TRUE,1,0,win,Paris,France,FALSE,1686,1768,1695,1759,9
+1969-09-10,FIFA World Cup qualification,played,France,FRA,Norway,NOR,FALSE,3,1,win,Oslo,Norway,FALSE,1695,1527,1719,1503,24
+1969-10-15,FIFA World Cup qualification,played,France,FRA,Sweden,SWE,FALSE,0,2,loss,Solna,Sweden,FALSE,1719,1852,1707,1864,-12
+1969-11-01,FIFA World Cup qualification,played,France,FRA,Sweden,SWE,TRUE,3,0,win,Paris,France,FALSE,1707,1864,1748,1823,41
+1970-04-08,Friendly,played,France,FRA,Bulgaria,BGR,TRUE,1,1,draw,Rouen,France,FALSE,1748,1815,1747,1816,-1
+1970-04-28,Friendly,played,France,FRA,Romania,ROU,TRUE,2,0,win,Reims,France,FALSE,1747,1799,1760,1786,13
+1970-05-03,Friendly,played,France,FRA,Switzerland,CHE,FALSE,1,2,loss,Basel,Switzerland,FALSE,1760,1642,1749,1653,-11
+1970-09-05,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,3,0,win,Nice,France,FALSE,1749,1860,1767,1842,18
+1970-10-07,Friendly,played,France,FRA,Austria,AUT,FALSE,0,1,loss,Vienna,Austria,FALSE,1767,1723,1759,1731,-8
+1970-11-11,UEFA Euro qualification,played,France,FRA,Norway,NOR,TRUE,3,1,win,Lyon,France,FALSE,1759,1532,1767,1524,8
+1970-11-15,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,1,win,Brussels,Belgium,FALSE,1767,1742,1779,1730,12
+1971-01-08,Friendly,played,France,FRA,Argentina,ARG,FALSE,4,3,win,Buenos Aires,Argentina,FALSE,1779,1839,1793,1825,14
+1971-01-13,Friendly,played,France,FRA,Argentina,ARG,FALSE,0,2,loss,Mar del Plata,Argentina,FALSE,1793,1825,1783,1835,-10
+1971-03-17,Friendly,played,France,FRA,Spain,ESP,FALSE,2,2,draw,Valencia,Spain,FALSE,1783,1874,1788,1869,5
+1971-04-24,UEFA Euro qualification,played,France,FRA,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,1788,1936,1800,1924,12
+1971-09-08,UEFA Euro qualification,played,France,FRA,Norway,NOR,FALSE,3,1,win,Oslo,Norway,FALSE,1800,1514,1815,1499,15
+1971-10-09,UEFA Euro qualification,played,France,FRA,Hungary,HUN,TRUE,0,2,loss,Colombes,France,FALSE,1815,1914,1785,1944,-30
+1971-11-10,UEFA Euro qualification,played,France,FRA,Bulgaria,BGR,TRUE,2,1,win,Nantes,France,FALSE,1785,1798,1800,1783,15
+1971-12-04,UEFA Euro qualification,played,France,FRA,Bulgaria,BGR,FALSE,1,2,loss,Sofia,Bulgaria,FALSE,1800,1777,1784,1793,-16
+1972-04-08,Friendly,played,France,FRA,Romania,ROU,FALSE,0,2,loss,Bucharest,Romania,FALSE,1784,1835,1775,1844,-9
+1972-06-18,Brazil Independence Cup,played,France,FRA,Colombia,COL,FALSE,3,2,win,Salvador,Brazil,TRUE,1775,1416,1779,1412,4
+1972-06-25,Brazil Independence Cup,played,France,FRA,Argentina,ARG,FALSE,0,0,draw,Salvador,Brazil,TRUE,1779,1886,1785,1880,6
+1972-09-02,Friendly,played,France,FRA,Greece,GRC,FALSE,3,1,win,Piraeus,Greece,FALSE,1785,1629,1798,1616,13
+1972-10-13,FIFA World Cup qualification,played,France,FRA,Soviet Union,SUN,TRUE,1,0,win,Paris,France,FALSE,1798,1943,1821,1920,23
+1972-11-15,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1973-03-03,Friendly,played,France,FRA,Portugal,PRT,TRUE,1,2,loss,Paris,France,FALSE,1792,1910,1783,1919,-9
+1973-05-19,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,TRUE,1,1,draw,Paris,France,FALSE,,,,,
+1973-05-26,FIFA World Cup qualification,played,France,FRA,Soviet Union,SUN,FALSE,0,2,loss,Moscow,Soviet Union,TRUE,1769,1927,1758,1938,-11
+1973-09-08,Friendly,played,France,FRA,Greece,GRC,TRUE,3,1,win,Paris,France,FALSE,1758,1598,1763,1593,5
+1973-10-13,Friendly,played,France,FRA,Germany,DEU,FALSE,1,2,loss,Gelsenkirchen,Germany,FALSE,,,,,
+1973-11-21,Friendly,played,France,FRA,Denmark,DNK,TRUE,3,0,win,Paris,France,FALSE,1762,1668,1771,1659,9
+1974-03-23,Friendly,played,France,FRA,Romania,ROU,TRUE,1,0,win,Paris,France,FALSE,1771,1803,1779,1795,8
+1974-04-27,Friendly,played,France,FRA,Czechoslovakia,CSK,FALSE,3,3,draw,Prague,Czechoslovakia,FALSE,1779,1841,1783,1837,4
+1974-05-18,Friendly,played,France,FRA,Argentina,ARG,TRUE,0,1,loss,Paris,France,FALSE,1783,1897,1773,1907,-10
+1974-09-07,Friendly,played,France,FRA,Poland,POL,FALSE,2,0,win,Wrocław,Poland,FALSE,1773,2059,1800,2032,27
+1974-10-12,UEFA Euro qualification,played,France,FRA,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1800,1890,1790,1900,-10
+1974-11-16,UEFA Euro qualification,played,France,FRA,German DR,DDR,TRUE,2,2,draw,Paris,France,FALSE,1790,1897,1790,1897,0
+1975-03-26,Friendly,played,France,FRA,Hungary,HUN,TRUE,2,0,win,Paris,France,FALSE,1790,1862,1804,1848,14
+1975-04-26,Friendly,played,France,FRA,Portugal,PRT,TRUE,0,2,loss,Colombes,France,FALSE,1804,1859,1787,1876,-17
+1975-05-25,UEFA Euro qualification,played,France,FRA,Iceland,ISL,FALSE,0,0,draw,Reykjavík,Iceland,FALSE,1787,1289,1771,1305,-16
+1975-09-03,UEFA Euro qualification,played,France,FRA,Iceland,ISL,TRUE,3,0,win,Nantes,France,FALSE,1771,1345,1774,1342,3
+1975-10-12,UEFA Euro qualification,played,France,FRA,German DR,DDR,FALSE,1,2,loss,Leipzig,German DR,FALSE,1774,1890,1765,1899,-9
+1975-11-15,UEFA Euro qualification,played,France,FRA,Belgium,BEL,TRUE,0,0,draw,Paris,France,FALSE,1765,1890,1766,1889,1
+1976-03-27,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,2,2,draw,Paris,France,FALSE,1766,1900,1767,1899,1
+1976-04-24,Friendly,played,France,FRA,Poland,POL,TRUE,2,0,win,Lens,France,FALSE,1767,2023,1788,2002,21
+1976-05-22,Friendly,played,France,FRA,Hungary,HUN,FALSE,0,1,loss,Budapest,Hungary,FALSE,1788,1843,1782,1849,-6
+1976-09-01,Friendly,played,France,FRA,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1782,1646,1781,1647,-1
+1976-10-09,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,FALSE,2,2,draw,Sofia,Bulgaria,FALSE,1781,1800,1788,1793,7
+1976-11-17,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,TRUE,2,0,win,Paris,France,FALSE,,,,,
+1977-02-02,Friendly,played,France,FRA,Romania,ROU,TRUE,2,0,win,Bordeaux,France,FALSE,1806,1832,1818,1820,12
+1977-02-23,Friendly,played,France,FRA,Germany,DEU,TRUE,1,0,win,Paris,France,FALSE,,,,,
+1977-03-30,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1977-04-23,Friendly,played,France,FRA,Switzerland,CHE,FALSE,4,0,win,Geneva,Switzerland,FALSE,1813,1605,1826,1592,13
+1977-06-26,Friendly,played,France,FRA,Argentina,ARG,FALSE,0,0,draw,Buenos Aires,Argentina,FALSE,1826,1921,1831,1916,5
+1977-06-30,Friendly,played,France,FRA,Brazil,BRA,FALSE,2,2,draw,Rio de Janeiro,Brazil,FALSE,1831,2067,1838,2060,7
+1977-10-08,Friendly,played,France,FRA,Soviet Union,SUN,TRUE,0,0,draw,Paris,France,FALSE,1838,1904,1837,1905,-1
+1977-11-16,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,TRUE,3,1,win,Paris,France,FALSE,1837,1768,1853,1752,16
+1978-02-08,Friendly,played,France,FRA,Italy,ITA,FALSE,2,2,draw,Naples,Italy,FALSE,1853,1948,1858,1943,5
+1978-03-08,Friendly,played,France,FRA,Portugal,PRT,TRUE,2,0,win,Paris,France,FALSE,1858,1865,1869,1854,11
+1978-04-01,Friendly,played,France,FRA,Brazil,BRA,TRUE,1,0,win,Paris,France,FALSE,1869,2071,1882,2058,13
+1978-05-11,Friendly,played,France,FRA,Iran,IRN,TRUE,2,1,win,Toulouse,France,FALSE,1882,1783,1887,1778,5
+1978-05-19,Friendly,played,France,FRA,Tunisia,TUN,TRUE,2,0,win,Villeneuve-d'Ascq,France,FALSE,1887,1664,1891,1660,4
+1978-06-02,FIFA World Cup,played,France,FRA,Italy,ITA,TRUE,1,2,loss,Mar del Plata,Argentina,TRUE,1891,1937,1865,1963,-26
+1978-06-06,FIFA World Cup,played,France,FRA,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1865,1947,1849,1963,-16
+1978-06-10,FIFA World Cup,played,France,FRA,Hungary,HUN,TRUE,3,1,win,Mar del Plata,Argentina,TRUE,1849,1852,1894,1807,45
+1978-09-01,UEFA Euro qualification,played,France,FRA,Sweden,SWE,TRUE,2,2,draw,Paris,France,FALSE,1894,1757,1882,1769,-12
+1978-10-07,UEFA Euro qualification,played,France,FRA,Luxembourg,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1882,1264,1885,1261,3
+1978-11-08,Friendly,played,France,FRA,Spain,ESP,TRUE,1,0,win,Paris,France,FALSE,1885,1970,1895,1960,10
+1979-02-25,UEFA Euro qualification,played,France,FRA,Luxembourg,,TRUE,3,0,win,Paris,France,FALSE,1895,1261,1896,1260,1
+1979-04-04,UEFA Euro qualification,played,France,FRA,Czechoslovakia,CSK,FALSE,0,2,loss,Bratislava,Czechoslovakia,FALSE,1896,1915,1876,1935,-20
+1979-05-02,Friendly,played,France,FRA,United States,USA,FALSE,6,0,win,East Rutherford,United States,FALSE,1876,1467,1882,1461,6
+1979-09-05,UEFA Euro qualification,played,France,FRA,Sweden,SWE,FALSE,3,1,win,Solna,Sweden,FALSE,1882,1712,1906,1688,24
+1979-10-10,Friendly,played,France,FRA,United States,USA,TRUE,3,0,win,Paris,France,FALSE,1906,1475,1908,1473,2
+1979-11-17,UEFA Euro qualification,played,France,FRA,Czechoslovakia,CSK,TRUE,2,1,win,Paris,France,FALSE,1908,1927,1923,1912,15
+1980-02-27,Friendly,played,France,FRA,Greece,GRC,TRUE,5,1,win,Paris,France,FALSE,1923,1699,1928,1694,5
+1980-03-26,Friendly,played,France,FRA,Netherlands,NLD,TRUE,0,0,draw,Paris,France,FALSE,1928,2031,1928,2031,0
+1980-05-23,Friendly,played,France,FRA,Soviet Union,SUN,FALSE,0,1,loss,Moscow,Soviet Union,FALSE,1928,1905,1920,1913,-8
+1980-10-11,FIFA World Cup qualification,played,France,FRA,Cyprus,,FALSE,7,0,win,Limassol,Cyprus,FALSE,1920,1271,1924,1267,4
+1980-10-28,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,TRUE,2,0,win,Paris,France,FALSE,,,,,
+1980-11-19,Friendly,played,France,FRA,Germany,DEU,FALSE,1,4,loss,Hanover,Germany,FALSE,,,,,
+1981-02-18,Friendly,played,France,FRA,Spain,ESP,FALSE,0,1,loss,Madrid,Spain,FALSE,1929,1846,1919,1856,-10
+1981-03-25,FIFA World Cup qualification,played,France,FRA,Netherlands,NLD,FALSE,0,1,loss,Rotterdam,Netherlands,FALSE,1919,1923,1905,1937,-14
+1981-04-29,FIFA World Cup qualification,played,France,FRA,Belgium,BEL,TRUE,3,2,win,Paris,France,FALSE,1905,1959,1922,1942,17
+1981-05-15,Friendly,played,France,FRA,Brazil,BRA,TRUE,1,3,loss,Paris,France,FALSE,1922,2066,1909,2079,-13
+1981-09-09,FIFA World Cup qualification,played,France,FRA,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1909,1942,1890,1961,-19
+1981-10-14,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,FALSE,2,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1981-11-18,FIFA World Cup qualification,played,France,FRA,Netherlands,NLD,TRUE,2,0,win,Paris,France,FALSE,1868,1940,1896,1912,28
+1981-12-05,FIFA World Cup qualification,played,France,FRA,Cyprus,,TRUE,4,0,win,Paris,France,FALSE,1896,1257,1897,1256,1
+1982-02-23,Friendly,played,France,FRA,Italy,ITA,TRUE,2,0,win,Paris,France,FALSE,1897,1913,1908,1902,11
+1982-03-24,Friendly,played,France,FRA,Northern Ireland,NIR,TRUE,4,0,win,Paris,France,FALSE,1908,1770,1916,1762,8
+1982-04-28,Friendly,played,France,FRA,Peru,PER,TRUE,0,1,loss,Paris,France,FALSE,1916,1749,1900,1765,-16
+1982-06-02,Friendly,played,France,FRA,Wales,WAL,TRUE,0,1,loss,Toulouse,France,FALSE,1894,1839,1880,1853,-14
+1982-06-16,FIFA World Cup,played,France,FRA,England,ENG,FALSE,1,3,loss,Bilbao,Spain,TRUE,1880,1964,1846,1998,-34
+1982-06-21,FIFA World Cup,played,France,FRA,Kuwait,KWT,TRUE,4,1,win,Valladolid,Spain,TRUE,1846,1648,1871,1623,25
+1982-06-24,FIFA World Cup,played,France,FRA,Czechoslovakia,CSK,TRUE,1,1,draw,Valladolid,Spain,TRUE,1871,1847,1869,1849,-2
+1982-06-28,FIFA World Cup,played,France,FRA,Austria,AUT,FALSE,1,0,win,Madrid,Spain,TRUE,1869,1936,1905,1900,36
+1982-07-04,FIFA World Cup,played,France,FRA,Northern Ireland,NIR,TRUE,4,1,win,Madrid,Spain,TRUE,1905,1801,1942,1764,37
+1982-07-08,FIFA World Cup,played,France,FRA,Germany,DEU,FALSE,3,3,draw,Seville,Spain,TRUE,,,,,
+1982-07-10,FIFA World Cup,played,France,FRA,Poland,POL,FALSE,2,3,loss,Alicante,Spain,TRUE,1955,1961,1926,1990,-29
+1982-08-31,Friendly,played,France,FRA,Poland,POL,TRUE,0,4,loss,Paris,France,FALSE,1926,1990,1905,2011,-21
+1982-10-06,Friendly,played,France,FRA,Hungary,HUN,TRUE,1,0,win,Paris,France,FALSE,1905,1819,1910,1814,5
+1982-11-10,Friendly,played,France,FRA,Netherlands,NLD,FALSE,2,1,win,Rotterdam,Netherlands,FALSE,1910,1889,1922,1877,12
+1983-02-16,Friendly,played,France,FRA,Portugal,PRT,FALSE,3,0,win,Guimarães,Portugal,FALSE,1922,1788,1938,1772,16
+1983-03-23,Friendly,played,France,FRA,Soviet Union,SUN,TRUE,1,1,draw,Paris,France,FALSE,1938,2009,1937,2010,-1
+1983-04-23,Friendly,played,France,FRA,Yugoslavia,YUG,TRUE,4,0,win,Paris,France,FALSE,1937,1873,1948,1862,11
+1983-05-31,Friendly,played,France,FRA,Belgium,BEL,FALSE,1,1,draw,Luxembourg,Luxembourg,TRUE,1948,1939,1948,1939,0
+1983-09-07,Friendly,played,France,FRA,Denmark,DNK,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1948,1767,1930,1785,-18
+1983-10-05,Friendly,played,France,FRA,Spain,ESP,TRUE,1,1,draw,Paris,France,FALSE,1930,1880,1926,1884,-4
+1983-11-12,Friendly,played,France,FRA,Yugoslavia,YUG,FALSE,0,0,draw,Zagreb,Yugoslavia,FALSE,1926,1847,1927,1846,1
+1984-02-29,Friendly,played,France,FRA,England,ENG,TRUE,2,0,win,Paris,France,FALSE,1927,2000,1941,1986,14
+1984-03-28,Friendly,played,France,FRA,Austria,AUT,TRUE,1,0,win,Bordeaux,France,FALSE,1941,1820,1945,1816,4
+1984-04-18,Friendly,played,France,FRA,Germany,DEU,TRUE,1,0,win,Strasbourg,France,FALSE,,,,,
+1984-06-01,Friendly,played,France,FRA,Scotland,SCO,TRUE,2,0,win,Marseille,France,FALSE,1954,1850,1961,1843,7
+1984-06-12,UEFA Euro,played,France,FRA,Denmark,DNK,TRUE,1,0,win,Paris,France,FALSE,1961,1812,1971,1802,10
+1984-06-16,UEFA Euro,played,France,FRA,Belgium,BEL,TRUE,5,0,win,Nantes,France,FALSE,1971,1935,2002,1904,31
+1984-06-19,UEFA Euro,played,France,FRA,Yugoslavia,YUG,TRUE,3,2,win,Saint-Étienne,France,FALSE,2002,1797,2009,1790,7
+1984-06-23,UEFA Euro,played,France,FRA,Portugal,PRT,TRUE,3,2,win,Marseille,France,FALSE,2009,1862,2019,1852,10
+1984-06-27,UEFA Euro,played,France,FRA,Spain,ESP,TRUE,2,0,win,Paris,France,FALSE,2019,1898,2035,1882,16
+1984-10-13,FIFA World Cup qualification,played,France,FRA,Luxembourg,,FALSE,4,0,win,Luxembourg,Luxembourg,FALSE,2035,1183,2036,1182,1
+1984-11-21,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,TRUE,1,0,win,Paris,France,FALSE,2036,1757,2040,1753,4
+1984-12-08,FIFA World Cup qualification,played,France,FRA,German DR,DDR,TRUE,2,0,win,Paris,France,FALSE,2040,1864,2050,1854,10
+1985-04-03,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,FALSE,0,0,draw,Sarajevo,Yugoslavia,FALSE,2050,1839,2044,1845,-6
+1985-05-02,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,FALSE,0,2,loss,Sofia,Bulgaria,FALSE,2044,1784,2001,1827,-43
+1985-08-21,CONMEBOL–UEFA Cup of Champions,played,France,FRA,Uruguay,URY,TRUE,2,0,win,Paris,France,FALSE,2001,1888,2018,1871,17
+1985-09-11,FIFA World Cup qualification,played,France,FRA,German DR,DDR,FALSE,0,2,loss,Leipzig,German DR,FALSE,2018,1806,1979,1845,-39
+1985-10-30,FIFA World Cup qualification,played,France,FRA,Luxembourg,,TRUE,6,0,win,Paris,France,FALSE,1979,1173,1979,1173,0
+1985-11-06,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,TRUE,2,0,win,Paris,France,FALSE,,,,,
+1986-02-26,Friendly,played,France,FRA,Northern Ireland,NIR,TRUE,0,0,draw,Paris,France,FALSE,1990,1844,1984,1850,-6
+1986-03-26,Friendly,played,France,FRA,Argentina,ARG,TRUE,2,0,win,Paris,France,FALSE,1984,1880,1991,1873,7
+1986-06-01,FIFA World Cup,played,France,FRA,Canada,CAN,FALSE,1,0,win,León,Mexico,TRUE,1995,1648,2002,1641,7
+1986-06-05,FIFA World Cup,played,France,FRA,Soviet Union,SUN,TRUE,1,1,draw,León,Mexico,TRUE,2002,1995,2001,1996,-1
+1986-06-09,FIFA World Cup,played,France,FRA,Hungary,HUN,FALSE,3,0,win,León,Mexico,TRUE,2001,1858,2033,1826,32
+1986-06-17,FIFA World Cup,played,France,FRA,Italy,ITA,FALSE,2,0,win,Mexico City,Mexico,TRUE,2033,1893,2061,1865,28
+1986-06-21,FIFA World Cup,played,France,FRA,Brazil,BRA,FALSE,1,1,draw,Guadalajara,Mexico,TRUE,2061,2013,2057,2017,-4
+1986-06-25,FIFA World Cup,played,France,FRA,Germany,DEU,TRUE,0,2,loss,Guadalajara,Mexico,TRUE,,,,,
+1986-06-28,FIFA World Cup,played,France,FRA,Belgium,BEL,TRUE,4,2,win,Puebla,Mexico,TRUE,1996,1842,2022,1816,26
+1986-08-19,Friendly,played,France,FRA,Switzerland,CHE,FALSE,0,2,loss,Lausanne,Switzerland,FALSE,2022,1728,1999,1751,-23
+1986-09-10,UEFA Euro qualification,played,France,FRA,Iceland,ISL,FALSE,0,0,draw,Reykjavík,Iceland,FALSE,1999,1463,1982,1480,-17
+1986-10-11,UEFA Euro qualification,played,France,FRA,Soviet Union,SUN,TRUE,0,2,loss,Paris,France,FALSE,1982,1944,1941,1985,-41
+1986-11-19,UEFA Euro qualification,played,France,FRA,German DR,DDR,FALSE,0,0,draw,Leipzig,German DR,FALSE,1941,1836,1941,1836,0
+1987-04-29,UEFA Euro qualification,played,France,FRA,Iceland,ISL,TRUE,2,0,win,Paris,France,FALSE,1941,1513,1944,1510,3
+1987-06-16,UEFA Euro qualification,played,France,FRA,Norway,NOR,FALSE,0,2,loss,Oslo,Norway,FALSE,1944,1698,1902,1740,-42
+1987-08-12,Friendly,played,France,FRA,Germany,DEU,FALSE,1,2,loss,Berlin,Germany,FALSE,,,,,
+1987-09-09,UEFA Euro qualification,played,France,FRA,Soviet Union,SUN,FALSE,1,1,draw,Moscow,Soviet Union,FALSE,1896,1998,1906,1988,10
+1987-10-14,UEFA Euro qualification,played,France,FRA,Norway,NOR,TRUE,1,1,draw,Paris,France,FALSE,1906,1680,1891,1695,-15
+1987-11-18,UEFA Euro qualification,played,France,FRA,German DR,DDR,TRUE,0,1,loss,Paris,France,FALSE,1891,1836,1863,1864,-28
+1988-01-27,Friendly,played,France,FRA,Israel,ISR,FALSE,1,1,draw,Ramat Gan,Israel,FALSE,1863,1560,1858,1565,-5
+1988-02-02,Tournoi de France,played,France,FRA,Switzerland,CHE,TRUE,2,1,win,Toulouse,France,FALSE,1858,1743,1865,1736,7
+1988-02-05,Tournoi de France,played,France,FRA,Morocco,MAR,TRUE,2,1,win,Monaco,Monaco,TRUE,1865,1687,1873,1679,8
+1988-03-23,Friendly,played,France,FRA,Spain,ESP,TRUE,2,1,win,Bordeaux,France,FALSE,1873,1940,1882,1931,9
+1988-04-27,Friendly,played,France,FRA,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1882,1701,1880,1703,-2
+1988-08-24,Friendly,played,France,FRA,Czechoslovakia,CSK,TRUE,1,1,draw,Paris,France,FALSE,1880,1841,1876,1845,-4
+1988-09-28,FIFA World Cup qualification,played,France,FRA,Norway,NOR,TRUE,1,0,win,Paris,France,FALSE,1876,1668,1882,1662,6
+1988-10-22,FIFA World Cup qualification,played,France,FRA,Cyprus,,FALSE,1,1,draw,Nicosia,Cyprus,FALSE,1882,1267,1864,1285,-18
+1988-11-19,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,FALSE,2,3,loss,Belgrade,Yugoslavia,FALSE,1864,1873,1850,1887,-14
+1989-02-07,Friendly,played,France,FRA,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+1989-03-08,FIFA World Cup qualification,played,France,FRA,Scotland,SCO,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1852,1799,1826,1825,-26
+1989-04-29,FIFA World Cup qualification,played,France,FRA,Yugoslavia,YUG,TRUE,0,0,draw,Paris,France,FALSE,1826,1900,1825,1901,-1
+1989-08-16,Friendly,played,France,FRA,Sweden,SWE,FALSE,4,2,win,Malmö,Sweden,FALSE,1825,1959,1849,1935,24
+1989-09-05,FIFA World Cup qualification,played,France,FRA,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1849,1649,1843,1655,-6
+1989-10-11,FIFA World Cup qualification,played,France,FRA,Scotland,SCO,TRUE,3,0,win,Paris,France,FALSE,1843,1801,1864,1780,21
+1989-11-18,FIFA World Cup qualification,played,France,FRA,Cyprus,,TRUE,2,0,win,Toulouse,France,FALSE,1864,1270,1865,1269,1
+1990-01-21,Friendly,played,France,FRA,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1865,1504,1870,1499,5
+1990-01-24,Friendly,played,France,FRA,German DR,DDR,TRUE,3,0,win,Kuwait City,Kuwait,TRUE,1870,1738,1887,1721,17
+1990-02-28,Friendly,played,France,FRA,Germany,DEU,TRUE,2,1,win,Montpellier,France,FALSE,,,,,
+1990-03-28,Friendly,played,France,FRA,Hungary,HUN,FALSE,3,1,win,Budapest,Hungary,FALSE,1897,1742,1910,1729,13
+1990-08-15,Friendly,played,France,FRA,Poland,POL,TRUE,0,0,draw,Paris,France,FALSE,1910,1791,1904,1797,-6
+1990-09-05,UEFA Euro qualification,played,France,FRA,Iceland,ISL,FALSE,2,1,win,Reykjavík,Iceland,FALSE,1904,1568,1912,1560,8
+1990-10-13,UEFA Euro qualification,played,France,FRA,Czechoslovakia,CSK,TRUE,2,1,win,Paris,France,FALSE,1912,1880,1925,1867,13
+1990-11-17,UEFA Euro qualification,played,France,FRA,Albania,,FALSE,1,0,win,Tirana,Albania,FALSE,1925,1405,1928,1402,3
+1991-02-20,UEFA Euro qualification,played,France,FRA,Spain,ESP,TRUE,3,1,win,Paris,France,FALSE,1928,1931,1950,1909,22
+1991-03-30,UEFA Euro qualification,played,France,FRA,Albania,,TRUE,5,0,win,Paris,France,FALSE,1950,1399,1952,1397,2
+1991-08-14,Friendly,played,France,FRA,Poland,POL,FALSE,5,1,win,Poznań,Poland,FALSE,1952,1786,1967,1771,15
+1991-09-04,UEFA Euro qualification,played,France,FRA,Czechoslovakia,CSK,FALSE,2,1,win,Bratislava,Czechoslovakia,FALSE,1967,1918,1990,1895,23
+1991-10-12,UEFA Euro qualification,played,France,FRA,Spain,ESP,FALSE,2,1,win,Seville,Spain,FALSE,1990,1823,2006,1807,16
+1991-11-20,UEFA Euro qualification,played,France,FRA,Iceland,ISL,TRUE,3,1,win,Paris,France,FALSE,2006,1596,2009,1593,3
+1992-02-19,Friendly,played,France,FRA,England,ENG,FALSE,0,2,loss,London,England,FALSE,2009,1988,1997,2000,-12
+1992-03-25,Friendly,played,France,FRA,Belgium,BEL,TRUE,3,3,draw,Paris,France,FALSE,1997,1804,1990,1811,-7
+1992-05-27,Friendly,played,France,FRA,Switzerland,CHE,FALSE,1,2,loss,Lausanne,Switzerland,FALSE,1990,1757,1976,1771,-14
+1992-06-05,Friendly,played,France,FRA,Netherlands,NLD,TRUE,1,1,draw,Lens,France,FALSE,1976,1963,1973,1966,-3
+1992-06-10,UEFA Euro,played,France,FRA,Sweden,SWE,FALSE,1,1,draw,Solna,Sweden,FALSE,1973,1828,1970,1831,-3
+1992-06-14,UEFA Euro,played,France,FRA,England,ENG,TRUE,0,0,draw,Malmö,Sweden,TRUE,1970,1996,1972,1994,2
+1992-06-17,UEFA Euro,played,France,FRA,Denmark,DNK,TRUE,1,2,loss,Malmö,Sweden,TRUE,1972,1859,1939,1892,-33
+1992-08-26,Friendly,played,France,FRA,Brazil,BRA,TRUE,0,2,loss,Paris,France,FALSE,1939,1984,1922,2001,-17
+1992-09-09,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,FALSE,0,2,loss,Sofia,Bulgaria,FALSE,1922,1775,1888,1809,-34
+1992-10-14,FIFA World Cup qualification,played,France,FRA,Austria,AUT,TRUE,2,0,win,Paris,France,FALSE,1888,1613,1894,1607,6
+1992-11-14,FIFA World Cup qualification,played,France,FRA,Finland,,TRUE,2,1,win,Paris,France,FALSE,1894,1578,1897,1575,3
+1993-02-17,FIFA World Cup qualification,played,France,FRA,Israel,ISR,FALSE,4,0,win,Ramat Gan,Israel,FALSE,1897,1573,1913,1557,16
+1993-03-27,FIFA World Cup qualification,played,France,FRA,Austria,AUT,FALSE,1,0,win,Vienna,Austria,FALSE,1913,1652,1924,1641,11
+1993-04-28,FIFA World Cup qualification,played,France,FRA,Sweden,SWE,TRUE,2,1,win,Paris,France,FALSE,1924,1912,1938,1898,14
+1993-07-28,Friendly,played,France,FRA,Russia,RUS,TRUE,3,1,win,Caen,France,FALSE,1938,1871,1946,1863,8
+1993-08-22,FIFA World Cup qualification,played,France,FRA,Sweden,SWE,FALSE,1,1,draw,Solna,Sweden,FALSE,1946,1894,1949,1891,3
+1993-09-08,FIFA World Cup qualification,played,France,FRA,Finland,,FALSE,2,0,win,Tampere,Finland,FALSE,1949,1525,1957,1517,8
+1993-10-13,FIFA World Cup qualification,played,France,FRA,Israel,ISR,TRUE,2,3,loss,Paris,France,FALSE,1957,1572,1919,1610,-38
+1993-11-17,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,TRUE,1,2,loss,Paris,France,FALSE,1919,1756,1886,1789,-33
+1994-02-16,Friendly,played,France,FRA,Italy,ITA,FALSE,1,0,win,Naples,Italy,FALSE,1886,2000,1901,1985,15
+1994-03-22,Friendly,played,France,FRA,Chile,CHL,TRUE,3,1,win,Lyon,France,FALSE,1901,1745,1907,1739,6
+1994-05-26,Kirin Cup,played,France,FRA,Australia,AUS,FALSE,1,0,win,Kobe,Japan,TRUE,1907,1722,1915,1714,8
+1994-05-29,Kirin Cup,played,France,FRA,Japan,JPN,FALSE,4,1,win,Tokyo,Japan,FALSE,1915,1645,1929,1631,14
+1994-08-17,Friendly,played,France,FRA,Czechia,CZE,TRUE,2,2,draw,Bordeaux,France,FALSE,1929,1864,1925,1868,-4
+1994-09-07,UEFA Euro qualification,played,France,FRA,Slovakia,SVK,FALSE,0,0,draw,Bratislava,Slovakia,FALSE,1925,1663,1916,1672,-9
+1994-10-08,UEFA Euro qualification,played,France,FRA,Romania,ROU,TRUE,0,0,draw,Saint-Étienne,France,FALSE,1916,1902,1910,1908,-6
+1994-11-16,UEFA Euro qualification,played,France,FRA,Poland,POL,FALSE,0,0,draw,Zabrze,Poland,FALSE,1910,1679,1903,1686,-7
+1994-12-13,UEFA Euro qualification,played,France,FRA,Azerbaijan,,FALSE,2,0,win,Trabzon,Turkey,TRUE,1903,1484,1908,1479,5
+1995-01-18,Friendly,played,France,FRA,Netherlands,NLD,FALSE,1,0,win,Utrecht,Netherlands,FALSE,1908,1957,1922,1943,14
+1995-03-29,UEFA Euro qualification,played,France,FRA,Israel,ISR,FALSE,0,0,draw,Ramat Gan,Israel,FALSE,1922,1615,1911,1626,-11
+1995-04-26,UEFA Euro qualification,played,France,FRA,Slovakia,SVK,TRUE,4,0,win,Nantes,France,FALSE,1911,1689,1921,1679,10
+1995-07-22,Friendly,played,France,FRA,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1921,1884,1923,1882,2
+1995-08-16,UEFA Euro qualification,played,France,FRA,Poland,POL,TRUE,1,1,draw,Paris,France,FALSE,1923,1748,1910,1761,-13
+1995-09-06,UEFA Euro qualification,played,France,FRA,Azerbaijan,,TRUE,10,0,win,Auxerre,France,FALSE,1910,1452,1914,1448,4
+1995-10-11,UEFA Euro qualification,played,France,FRA,Romania,ROU,FALSE,3,1,win,Bucharest,Romania,FALSE,1914,1907,1952,1869,38
+1995-11-15,UEFA Euro qualification,played,France,FRA,Israel,ISR,TRUE,2,0,win,Caen,France,FALSE,1952,1648,1957,1643,5
+1996-02-21,Friendly,played,France,FRA,Greece,GRC,TRUE,3,1,win,Nîmes,France,FALSE,1962,1605,1964,1603,2
+1996-03-27,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,0,win,Brussels,Belgium,FALSE,1964,1777,1975,1766,11
+1996-05-29,Friendly,played,France,FRA,Finland,,TRUE,2,0,win,Strasbourg,France,FALSE,1975,1502,1976,1501,1
+1996-06-01,Friendly,played,France,FRA,Germany,DEU,FALSE,1,0,win,Stuttgart,Germany,FALSE,1976,2050,1991,2035,15
+1996-06-05,Friendly,played,France,FRA,Armenia,,TRUE,2,0,win,Villeneuve-d'Ascq,France,FALSE,1991,1279,1991,1279,0
+1996-06-10,UEFA Euro,played,France,FRA,Romania,ROU,FALSE,1,0,win,Newcastle,England,TRUE,1991,1894,2009,1876,18
+1996-06-15,UEFA Euro,played,France,FRA,Spain,ESP,TRUE,1,1,draw,Leeds,England,TRUE,2009,1978,2007,1980,-2
+1996-06-18,UEFA Euro,played,France,FRA,Bulgaria,BGR,TRUE,3,1,win,Newcastle,England,TRUE,2007,1873,2031,1849,24
+1996-06-22,UEFA Euro,played,France,FRA,Netherlands,NLD,TRUE,0,0,draw,Liverpool,England,TRUE,2031,1897,2022,1906,-9
+1996-06-26,UEFA Euro,played,France,FRA,Czechia,CZE,TRUE,0,0,draw,Manchester,England,TRUE,2022,1941,2016,1947,-6
+1996-08-31,Friendly,played,France,FRA,Mexico,MEX,TRUE,2,0,win,Paris,France,FALSE,2016,1853,2021,1848,5
+1996-10-09,Friendly,played,France,FRA,Turkey,TUR,TRUE,4,0,win,Paris,France,FALSE,2021,1699,2024,1696,3
+1996-11-09,Friendly,played,France,FRA,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,2024,1962,2015,1971,-9
+1997-01-22,Friendly,played,France,FRA,Portugal,PRT,FALSE,2,0,win,Braga,Portugal,FALSE,2015,1888,2029,1874,14
+1997-02-26,Friendly,played,France,FRA,Netherlands,NLD,TRUE,2,1,win,Paris,France,FALSE,2029,1961,2035,1955,6
+1997-04-02,Friendly,played,France,FRA,Sweden,SWE,TRUE,1,0,win,Paris,France,FALSE,2035,1826,2038,1823,3
+1997-06-03,Tournoi de France,played,France,FRA,Brazil,BRA,TRUE,1,1,draw,Lyon,France,FALSE,2038,2058,2035,2061,-3
+1997-06-07,Tournoi de France,played,France,FRA,England,ENG,TRUE,0,1,loss,Montpellier,France,FALSE,2035,1988,2014,2009,-21
+1997-06-11,Tournoi de France,played,France,FRA,Italy,ITA,TRUE,2,2,draw,Paris,France,FALSE,2014,1977,2008,1983,-6
+1997-10-11,Friendly,played,France,FRA,South Africa,ZAF,TRUE,2,1,win,Lens,France,FALSE,2008,1723,2010,1721,2
+1997-11-12,Friendly,played,France,FRA,Scotland,SCO,TRUE,2,1,win,Saint-Étienne,France,FALSE,2010,1794,2013,1791,3
+1998-01-28,Friendly,played,France,FRA,Spain,ESP,TRUE,1,0,win,Saint-Denis,France,FALSE,2013,2040,2021,2032,8
+1998-02-25,Friendly,played,France,FRA,Norway,NOR,TRUE,3,3,draw,Marseille,France,FALSE,2021,1858,2015,1864,-6
+1998-03-25,Friendly,played,France,FRA,Russia,RUS,FALSE,0,1,loss,Moscow,Russia,FALSE,2015,1871,2004,1882,-11
+1998-04-22,Friendly,played,France,FRA,Sweden,SWE,FALSE,0,0,draw,Solna,Sweden,FALSE,2004,1804,2001,1807,-3
+1998-05-27,King Hassan II Tournament,played,France,FRA,Belgium,BEL,FALSE,1,0,win,Casablanca,Morocco,TRUE,2001,1806,2008,1799,7
+1998-05-29,King Hassan II Tournament,played,France,FRA,Morocco,MAR,FALSE,2,2,draw,Casablanca,Morocco,FALSE,2008,1717,2000,1725,-8
+1998-06-05,Friendly,played,France,FRA,Finland,,FALSE,1,0,win,Helsinki,Finland,FALSE,2000,1540,2002,1538,2
+1998-06-12,FIFA World Cup,played,France,FRA,South Africa,ZAF,TRUE,3,0,win,Marseille,France,FALSE,2002,1637,2009,1630,7
+1998-06-18,FIFA World Cup,played,France,FRA,Saudi Arabia,SAU,TRUE,4,0,win,Saint-Denis,France,FALSE,2009,1632,2016,1625,7
+1998-06-24,FIFA World Cup,played,France,FRA,Denmark,DNK,TRUE,2,1,win,Lyon,France,FALSE,2016,1875,2028,1863,12
+1998-06-28,FIFA World Cup,played,France,FRA,Paraguay,PRY,TRUE,1,0,win,Lens,France,FALSE,2028,1813,2036,1805,8
+1998-07-03,FIFA World Cup,played,France,FRA,Italy,ITA,TRUE,0,0,draw,Saint-Denis,France,FALSE,2036,2005,2025,2016,-11
+1998-07-08,FIFA World Cup,played,France,FRA,Croatia,HRV,TRUE,2,1,win,Saint-Denis,France,FALSE,2025,1992,2044,1973,19
+1998-07-12,FIFA World Cup,played,France,FRA,Brazil,BRA,TRUE,3,0,win,Saint-Denis,France,FALSE,2044,2091,2089,2046,45
+1998-08-19,Friendly,played,France,FRA,Austria,AUT,FALSE,2,2,draw,Vienna,Austria,FALSE,2089,1702,2082,1709,-7
+1998-09-05,UEFA Euro qualification,played,France,FRA,Iceland,ISL,FALSE,1,1,draw,Reykjavík,Iceland,FALSE,2082,1490,2064,1508,-18
+1998-10-10,UEFA Euro qualification,played,France,FRA,Russia,RUS,FALSE,3,2,win,Moscow,Russia,FALSE,2064,1826,2076,1814,12
+1998-10-14,UEFA Euro qualification,played,France,FRA,Andorra,,TRUE,2,0,win,Saint-Denis,France,FALSE,2076,1056,2076,1056,0
+1999-01-20,Friendly,played,France,FRA,Morocco,MAR,TRUE,1,0,win,Marseille,France,FALSE,2076,1777,2078,1775,2
+1999-02-10,Friendly,played,France,FRA,England,ENG,FALSE,2,0,win,London,England,FALSE,2078,1946,2092,1932,14
+1999-03-27,UEFA Euro qualification,played,France,FRA,Ukraine,UKR,TRUE,0,0,draw,Saint-Denis,France,FALSE,2092,1730,2075,1747,-17
+1999-03-31,UEFA Euro qualification,played,France,FRA,Armenia,,TRUE,2,0,win,Saint-Denis,France,FALSE,2075,1369,2076,1368,1
+1999-06-05,UEFA Euro qualification,played,France,FRA,Russia,RUS,TRUE,2,3,loss,Saint-Denis,France,FALSE,2076,1782,2040,1818,-36
+1999-06-09,UEFA Euro qualification,played,France,FRA,Andorra,,FALSE,1,0,win,Barcelona,Spain,TRUE,2040,1052,2040,1052,0
+1999-08-18,Friendly,played,France,FRA,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,2040,1577,2042,1575,2
+1999-09-04,UEFA Euro qualification,played,France,FRA,Ukraine,UKR,FALSE,0,0,draw,Kyiv,Ukraine,FALSE,2042,1717,2031,1728,-11
+1999-09-08,UEFA Euro qualification,played,France,FRA,Armenia,,FALSE,3,2,win,Yerevan,Armenia,FALSE,2031,1355,2032,1354,1
+1999-10-09,UEFA Euro qualification,played,France,FRA,Iceland,ISL,TRUE,3,2,win,Saint-Denis,France,FALSE,2032,1558,2033,1557,1
+1999-11-13,Friendly,played,France,FRA,Croatia,HRV,TRUE,3,0,win,Saint-Denis,France,FALSE,2033,1924,2041,1916,8
+2000-02-23,Friendly,played,France,FRA,Poland,POL,TRUE,1,0,win,Saint-Denis,France,FALSE,2041,1740,2043,1738,2
+2000-03-29,Friendly,played,France,FRA,Scotland,SCO,FALSE,2,0,win,Glasgow,Scotland,FALSE,2043,1727,2050,1720,7
+2000-04-26,Friendly,played,France,FRA,Slovenia,SVN,TRUE,3,2,win,Saint-Denis,France,FALSE,2050,1622,2051,1621,1
+2000-05-28,Friendly,played,France,FRA,Croatia,HRV,FALSE,2,0,win,Zagreb,Croatia,FALSE,2051,1919,2065,1905,14
+2000-06-04,King Hassan II Tournament,played,France,FRA,Japan,JPN,TRUE,2,2,draw,Casablanca,Morocco,TRUE,2065,1614,2052,1627,-13
+2000-06-06,King Hassan II Tournament,played,France,FRA,Morocco,MAR,FALSE,5,1,win,Casablanca,Morocco,FALSE,2052,1735,2065,1722,13
+2000-06-11,UEFA Euro,played,France,FRA,Denmark,DNK,TRUE,3,0,win,Bruges,Belgium,TRUE,2065,1824,2082,1807,17
+2000-06-16,UEFA Euro,played,France,FRA,Czechia,CZE,FALSE,2,1,win,Bruges,Belgium,TRUE,2082,1927,2097,1912,15
+2000-06-21,UEFA Euro,played,France,FRA,Netherlands,NLD,FALSE,2,3,loss,Amsterdam,Netherlands,FALSE,2097,1994,2072,2019,-25
+2000-06-25,UEFA Euro,played,France,FRA,Spain,ESP,FALSE,2,1,win,Bruges,Belgium,TRUE,2072,2014,2093,1993,21
+2000-06-28,UEFA Euro,played,France,FRA,Portugal,PRT,TRUE,2,1,win,Brussels,Belgium,TRUE,2093,2004,2112,1985,19
+2000-07-02,UEFA Euro,played,France,FRA,Italy,ITA,TRUE,2,1,win,Rotterdam,Netherlands,TRUE,2112,2029,2131,2010,19
+2000-09-02,Friendly,played,France,FRA,England,ENG,TRUE,1,1,draw,Saint-Denis,France,FALSE,2131,1884,2123,1892,-8
+2000-10-04,Friendly,played,France,FRA,Cameroon,CMR,TRUE,1,1,draw,Saint-Denis,France,FALSE,2123,1710,2114,1719,-9
+2000-10-07,Friendly,played,France,FRA,South Africa,ZAF,FALSE,0,0,draw,Johannesburg,South Africa,FALSE,2114,1650,2102,1662,-12
+2000-11-15,Friendly,played,France,FRA,Turkey,TUR,FALSE,4,0,win,Istanbul,Turkey,FALSE,2102,1762,2110,1754,8
+2001-02-27,Friendly,played,France,FRA,Germany,DEU,TRUE,1,0,win,Saint-Denis,France,FALSE,2110,1882,2113,1879,3
+2001-03-24,Friendly,played,France,FRA,Japan,JPN,TRUE,5,0,win,Saint-Denis,France,FALSE,2113,1795,2116,1792,3
+2001-03-28,Friendly,played,France,FRA,Spain,ESP,FALSE,1,2,loss,Valencia,Spain,FALSE,2116,1944,2104,1956,-12
+2001-04-25,Friendly,played,France,FRA,Portugal,PRT,TRUE,4,0,win,Saint-Denis,France,FALSE,2104,2011,2113,2002,9
+2001-05-30,Confederations Cup,played,France,FRA,South Korea,KOR,FALSE,5,0,win,Daegu,South Korea,FALSE,2113,1795,2135,1773,22
+2001-06-01,Confederations Cup,played,France,FRA,Australia,AUS,FALSE,0,1,loss,Daegu,South Korea,TRUE,2135,1813,2092,1856,-43
+2001-06-03,Confederations Cup,played,France,FRA,Mexico,MEX,TRUE,4,0,win,Ulsan,South Korea,TRUE,2092,1722,2102,1712,10
+2001-06-07,Confederations Cup,played,France,FRA,Brazil,BRA,TRUE,2,1,win,Suwon,South Korea,TRUE,2102,1967,2118,1951,16
+2001-06-10,Confederations Cup,played,France,FRA,Japan,JPN,FALSE,1,0,win,Yokohama,Japan,FALSE,2118,1844,2131,1831,13
+2001-08-15,Friendly,played,France,FRA,Denmark,DNK,TRUE,1,0,win,Nantes,France,FALSE,2131,1823,2133,1821,2
+2001-09-01,Friendly,played,France,FRA,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,2133,1645,2115,1663,-18
+2001-10-06,Friendly,played,France,FRA,Algeria,DZA,TRUE,4,1,win,Saint-Denis,France,FALSE,2115,1516,2116,1515,1
+2001-11-11,Friendly,played,France,FRA,Australia,AUS,FALSE,1,1,draw,Melbourne,Australia,FALSE,2116,1840,2111,1845,-5
+2002-02-13,Friendly,played,France,FRA,Romania,ROU,TRUE,2,1,win,Saint-Denis,France,FALSE,2111,1816,2113,1814,2
+2002-03-27,Friendly,played,France,FRA,Scotland,SCO,TRUE,5,0,win,Saint-Denis,France,FALSE,2113,1734,2115,1732,2
+2002-04-17,Friendly,played,France,FRA,Russia,RUS,TRUE,0,0,draw,Saint-Denis,France,FALSE,2115,1810,2107,1818,-8
+2002-05-18,Friendly,played,France,FRA,Belgium,BEL,TRUE,1,2,loss,Saint-Denis,France,FALSE,2107,1811,2089,1829,-18
+2002-05-26,Friendly,played,France,FRA,South Korea,KOR,FALSE,3,2,win,Suwon,South Korea,FALSE,2089,1739,2093,1735,4
+2002-05-31,FIFA World Cup,played,France,FRA,Senegal,SEN,TRUE,0,1,loss,Seoul,South Korea,TRUE,2093,1698,2039,1752,-54
+2002-06-06,FIFA World Cup,played,France,FRA,Uruguay,URY,TRUE,0,0,draw,Busan,South Korea,TRUE,2039,1785,2020,1804,-19
+2002-06-11,FIFA World Cup,played,France,FRA,Denmark,DNK,FALSE,0,2,loss,Incheon,South Korea,TRUE,2020,1876,1957,1939,-63
+2002-08-21,Friendly,played,France,FRA,Tunisia,TUN,FALSE,1,1,draw,Radès,Tunisia,FALSE,1957,1603,1951,1609,-6
+2002-09-07,UEFA Euro qualification,played,France,FRA,Cyprus,,FALSE,2,1,win,Nicosia,Cyprus,FALSE,1951,1502,1956,1497,5
+2002-10-12,UEFA Euro qualification,played,France,FRA,Slovenia,SVN,TRUE,5,0,win,Saint-Denis,France,FALSE,1956,1668,1964,1660,8
+2002-10-16,UEFA Euro qualification,played,France,FRA,Malta,,FALSE,4,0,win,Attard,Malta,FALSE,1964,1248,1966,1246,2
+2002-11-20,Friendly,played,France,FRA,Serbia,SRB,TRUE,3,0,win,Saint-Denis,France,FALSE,,,,,
+2003-02-12,Friendly,played,France,FRA,Czechia,CZE,TRUE,0,2,loss,Saint-Denis,France,FALSE,1973,1866,1950,1889,-23
+2003-03-29,UEFA Euro qualification,played,France,FRA,Malta,,TRUE,6,0,win,Lens,France,FALSE,1950,1244,1951,1243,1
+2003-04-02,UEFA Euro qualification,played,France,FRA,Israel,ISR,FALSE,2,1,win,Palermo,Italy,TRUE,1951,1675,1958,1668,7
+2003-04-30,Friendly,played,France,FRA,Egypt,EGY,TRUE,5,0,win,Saint-Denis,France,FALSE,1958,1612,1961,1609,3
+2003-06-18,Confederations Cup,played,France,FRA,Colombia,COL,TRUE,1,0,win,Lyon,France,FALSE,1961,1856,1973,1844,12
+2003-06-20,Confederations Cup,played,France,FRA,Japan,JPN,TRUE,2,1,win,Saint-Étienne,France,FALSE,1973,1797,1981,1789,8
+2003-06-22,Confederations Cup,played,France,FRA,New Zealand,NZL,TRUE,5,0,win,Saint-Denis,France,FALSE,1981,1536,1985,1532,4
+2003-06-26,Confederations Cup,played,France,FRA,Turkey,TUR,TRUE,3,2,win,Saint-Denis,France,FALSE,1985,1875,1996,1864,11
+2003-06-29,Confederations Cup,played,France,FRA,Cameroon,CMR,TRUE,1,0,win,Saint-Denis,France,FALSE,1996,1849,2006,1839,10
+2003-08-20,Friendly,played,France,FRA,Switzerland,CHE,FALSE,2,0,win,Geneva,Switzerland,FALSE,2006,1721,2014,1713,8
+2003-09-06,UEFA Euro qualification,played,France,FRA,Cyprus,,TRUE,5,0,win,Saint-Denis,France,FALSE,2014,1462,2016,1460,2
+2003-09-10,UEFA Euro qualification,played,France,FRA,Slovenia,SVN,FALSE,2,0,win,Ljubljana,Slovenia,FALSE,2016,1692,2029,1679,13
+2003-10-11,UEFA Euro qualification,played,France,FRA,Israel,ISR,TRUE,3,0,win,Saint-Denis,France,FALSE,2029,1655,2033,1651,4
+2003-11-15,Friendly,played,France,FRA,Germany,DEU,FALSE,3,0,win,Gelsenkirchen,Germany,FALSE,2033,1895,2049,1879,16
+2004-02-18,Friendly,played,France,FRA,Belgium,BEL,FALSE,2,0,win,Brussels,Belgium,FALSE,2049,1802,2058,1793,9
+2004-03-31,Friendly,played,France,FRA,Netherlands,NLD,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,2058,1994,2059,1993,1
+2004-05-20,Friendly,played,France,FRA,Brazil,BRA,TRUE,0,0,draw,Saint-Denis,France,FALSE,2059,1987,2054,1992,-5
+2004-05-28,Friendly,played,France,FRA,Andorra,,TRUE,4,0,win,Montpellier,France,FALSE,2054,1060,2054,1060,0
+2004-06-06,Friendly,played,France,FRA,Ukraine,UKR,TRUE,1,0,win,Saint-Denis,France,FALSE,2054,1643,2055,1642,1
+2004-06-13,UEFA Euro,played,France,FRA,England,ENG,TRUE,2,1,win,Lisbon,Portugal,TRUE,2055,1938,2072,1921,17
+2004-06-17,UEFA Euro,played,France,FRA,Croatia,HRV,FALSE,2,2,draw,Leiria,Portugal,TRUE,2072,1829,2057,1844,-15
+2004-06-21,UEFA Euro,played,France,FRA,Switzerland,CHE,FALSE,3,1,win,Coimbra,Portugal,TRUE,2057,1695,2065,1687,8
+2004-06-25,UEFA Euro,played,France,FRA,Greece,GRC,TRUE,0,1,loss,Lisbon,Portugal,TRUE,2065,1817,2025,1857,-40
+2004-08-18,Friendly,played,France,FRA,Bosnia and Herzegovina,BIH,TRUE,1,1,draw,Rennes,France,FALSE,2025,1599,2016,1608,-9
+2004-09-04,FIFA World Cup qualification,played,France,FRA,Israel,ISR,TRUE,0,0,draw,Saint-Denis,France,FALSE,2016,1655,1999,1672,-17
+2004-09-08,FIFA World Cup qualification,played,France,FRA,Faroe Islands,,FALSE,2,0,win,Tórshavn,Faroe Islands,FALSE,1999,1242,2000,1241,1
+2004-10-09,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,TRUE,0,0,draw,Saint-Denis,France,FALSE,,,,,
+2004-10-13,FIFA World Cup qualification,played,France,FRA,Cyprus,,FALSE,2,0,win,Nicosia,Cyprus,FALSE,1987,1457,1992,1452,5
+2004-11-17,Friendly,played,France,FRA,Poland,POL,TRUE,0,0,draw,Saint-Denis,France,FALSE,1992,1794,1985,1801,-7
+2005-02-09,Friendly,played,France,FRA,Sweden,SWE,TRUE,1,1,draw,Saint-Denis,France,FALSE,1985,1869,1979,1875,-6
+2005-03-26,FIFA World Cup qualification,played,France,FRA,Switzerland,CHE,TRUE,0,0,draw,Saint-Denis,France,FALSE,1979,1697,1963,1713,-16
+2005-03-30,FIFA World Cup qualification,played,France,FRA,Israel,ISR,FALSE,1,1,draw,Ramat Gan,Israel,FALSE,1963,1692,1954,1701,-9
+2005-05-31,Friendly,played,France,FRA,Hungary,HUN,TRUE,2,1,win,Metz,France,FALSE,1954,1597,1955,1596,1
+2005-08-17,Friendly,played,France,FRA,Ivory Coast,CIV,TRUE,3,0,win,Montpellier,France,FALSE,1955,1691,1959,1687,4
+2005-09-03,FIFA World Cup qualification,played,France,FRA,Faroe Islands,,TRUE,3,0,win,Lens,France,FALSE,1959,1220,1960,1219,1
+2005-09-07,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+2005-10-08,FIFA World Cup qualification,played,France,FRA,Switzerland,CHE,FALSE,1,1,draw,Bern,Switzerland,FALSE,1979,1756,1972,1763,-7
+2005-10-12,FIFA World Cup qualification,played,France,FRA,Cyprus,,TRUE,4,0,win,Saint-Denis,France,FALSE,1972,1453,1974,1451,2
+2005-11-09,Friendly,played,France,FRA,Costa Rica,CRI,TRUE,3,2,win,Fort-de-France,Martinique,TRUE,1974,1737,1978,1733,4
+2005-11-12,Friendly,played,France,FRA,Germany,DEU,TRUE,0,0,draw,Saint-Denis,France,FALSE,1978,1886,1973,1891,-5
+2006-03-01,Friendly,played,France,FRA,Slovakia,SVK,TRUE,1,2,loss,Saint-Denis,France,FALSE,1973,1682,1955,1700,-18
+2006-05-27,Friendly,played,France,FRA,Mexico,MEX,TRUE,1,0,win,Saint-Denis,France,FALSE,1955,1848,1960,1843,5
+2006-05-31,Friendly,played,France,FRA,Denmark,DNK,TRUE,2,0,win,Lens,France,FALSE,1960,1894,1968,1886,8
+2006-06-07,Friendly,played,France,FRA,China PR,,TRUE,3,1,win,Saint-Étienne,France,FALSE,,,,,
+2006-06-13,FIFA World Cup,played,France,FRA,Switzerland,CHE,TRUE,0,0,draw,Stuttgart,Germany,TRUE,1970,1799,1956,1813,-14
+2006-06-18,FIFA World Cup,played,France,FRA,South Korea,KOR,TRUE,1,1,draw,Leipzig,Germany,TRUE,1956,1755,1940,1771,-16
+2006-06-23,FIFA World Cup,played,France,FRA,Togo,TGO,FALSE,2,0,win,Cologne,Germany,TRUE,1940,1466,1946,1460,6
+2006-06-27,FIFA World Cup,played,France,FRA,Spain,ESP,FALSE,3,1,win,Hanover,Germany,TRUE,1946,2011,1999,1958,53
+2006-07-01,FIFA World Cup,played,France,FRA,Brazil,BRA,FALSE,1,0,win,Frankfurt am Main,Germany,TRUE,1999,2097,2037,2059,38
+2006-07-05,FIFA World Cup,played,France,FRA,Portugal,PRT,FALSE,1,0,win,Munich,Germany,TRUE,2037,2006,2064,1979,27
+2006-07-09,FIFA World Cup,played,France,FRA,Italy,ITA,FALSE,1,1,draw,Berlin,Germany,TRUE,2064,2078,2065,2077,1
+2006-08-16,Friendly,played,France,FRA,Bosnia and Herzegovina,BIH,FALSE,2,1,win,Sarajevo,Bosnia and Herzegovina,FALSE,2065,1623,2067,1621,2
+2006-09-02,UEFA Euro qualification,played,France,FRA,Georgia,,FALSE,3,0,win,Tbilisi,Georgia,FALSE,2067,1518,2072,1513,5
+2006-09-06,UEFA Euro qualification,played,France,FRA,Italy,ITA,TRUE,3,1,win,Saint-Denis,France,FALSE,2072,2031,2090,2013,18
+2006-10-07,UEFA Euro qualification,played,France,FRA,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,2090,1723,2057,1756,-33
+2006-10-11,UEFA Euro qualification,played,France,FRA,Faroe Islands,,TRUE,5,0,win,Montbéliard,France,FALSE,2057,1179,2057,1179,0
+2006-11-15,Friendly,played,France,FRA,Greece,GRC,TRUE,1,0,win,Saint-Denis,France,FALSE,2057,1841,2060,1838,3
+2007-02-07,Friendly,played,France,FRA,Argentina,ARG,TRUE,0,1,loss,Saint-Denis,France,FALSE,2060,1980,2045,1995,-15
+2007-03-24,UEFA Euro qualification,played,France,FRA,Lithuania,,FALSE,1,0,win,Kaunas,Lithuania,FALSE,2045,1492,2048,1489,3
+2007-03-28,Friendly,played,France,FRA,Austria,AUT,TRUE,1,0,win,Saint-Denis,France,FALSE,2048,1623,2049,1622,1
+2007-06-02,UEFA Euro qualification,played,France,FRA,Ukraine,UKR,TRUE,2,0,win,Saint-Denis,France,FALSE,2049,1810,2056,1803,7
+2007-06-06,UEFA Euro qualification,played,France,FRA,Georgia,,TRUE,1,0,win,Auxerre,France,FALSE,2056,1524,2057,1523,1
+2007-08-22,Friendly,played,France,FRA,Slovakia,SVK,FALSE,1,0,win,Trnava,Slovakia,FALSE,2057,1721,2061,1717,4
+2007-09-08,UEFA Euro qualification,played,France,FRA,Italy,ITA,FALSE,0,0,draw,Milan,Italy,FALSE,2061,2004,2063,2002,2
+2007-09-12,UEFA Euro qualification,played,France,FRA,Scotland,SCO,TRUE,0,1,loss,Paris,France,FALSE,2063,1760,2027,1796,-36
+2007-10-13,UEFA Euro qualification,played,France,FRA,Faroe Islands,,FALSE,6,0,win,Tórshavn,Faroe Islands,FALSE,2027,1164,2028,1163,1
+2007-10-17,UEFA Euro qualification,played,France,FRA,Lithuania,,TRUE,2,0,win,Nantes,France,FALSE,2028,1498,2030,1496,2
+2007-11-16,Friendly,played,France,FRA,Morocco,MAR,TRUE,2,2,draw,Saint-Denis,France,FALSE,2030,1659,2021,1668,-9
+2007-11-21,UEFA Euro qualification,played,France,FRA,Ukraine,UKR,FALSE,2,2,draw,Kyiv,Ukraine,FALSE,2021,1720,2011,1730,-10
+2008-02-06,Friendly,played,France,FRA,Spain,ESP,FALSE,0,1,loss,Málaga,Spain,FALSE,2011,1964,2003,1972,-8
+2008-03-26,Friendly,played,France,FRA,England,ENG,TRUE,1,0,win,Saint-Denis,France,FALSE,2003,1915,2008,1910,5
+2008-05-27,Friendly,played,France,FRA,Ecuador,ECU,TRUE,2,0,win,Grenoble,France,FALSE,2008,1679,2010,1677,2
+2008-05-31,Friendly,played,France,FRA,Paraguay,PRY,TRUE,0,0,draw,Toulouse,France,FALSE,2010,1798,2003,1805,-7
+2008-06-03,Friendly,played,France,FRA,Colombia,COL,TRUE,1,0,win,Saint-Denis,France,FALSE,2003,1820,2006,1817,3
+2008-06-09,UEFA Euro,played,France,FRA,Romania,ROU,FALSE,0,0,draw,Zürich,Switzerland,TRUE,2006,1908,1999,1915,-7
+2008-06-13,UEFA Euro,played,France,FRA,Netherlands,NLD,FALSE,1,4,loss,Bern,Switzerland,TRUE,1999,2022,1958,2063,-41
+2008-06-17,UEFA Euro,played,France,FRA,Italy,ITA,TRUE,0,2,loss,Zürich,Switzerland,TRUE,1958,1976,1922,2012,-36
+2008-08-20,Friendly,played,France,FRA,Sweden,SWE,FALSE,3,2,win,Gothenburg,Sweden,FALSE,1922,1773,1931,1764,9
+2008-09-06,FIFA World Cup qualification,played,France,FRA,Austria,AUT,FALSE,1,3,loss,Vienna,Austria,FALSE,1931,1590,1883,1638,-48
+2008-09-10,FIFA World Cup qualification,played,France,FRA,Serbia,SRB,TRUE,2,1,win,Saint-Denis,France,FALSE,1883,1730,1891,1722,8
+2008-10-11,FIFA World Cup qualification,played,France,FRA,Romania,ROU,FALSE,2,2,draw,Constanţa,Romania,FALSE,1891,1835,1894,1832,3
+2008-10-14,Friendly,played,France,FRA,Tunisia,TUN,TRUE,3,1,win,Saint-Denis,France,FALSE,1894,1613,1897,1610,3
+2008-11-19,Friendly,played,France,FRA,Uruguay,URY,TRUE,0,0,draw,Saint-Denis,France,FALSE,1897,1826,1892,1831,-5
+2009-02-11,Friendly,played,France,FRA,Argentina,ARG,TRUE,0,2,loss,Marseille,France,FALSE,1892,1974,1876,1990,-16
+2009-03-28,FIFA World Cup qualification,played,France,FRA,Lithuania,,FALSE,1,0,win,Kaunas,Lithuania,FALSE,1876,1634,1888,1622,12
+2009-04-01,FIFA World Cup qualification,played,France,FRA,Lithuania,,TRUE,1,0,win,Saint-Denis,France,FALSE,1888,1622,1892,1618,4
+2009-06-02,Friendly,played,France,FRA,Nigeria,NGA,TRUE,0,1,loss,Saint-Étienne,France,FALSE,1892,1726,1876,1742,-16
+2009-06-05,Friendly,played,France,FRA,Turkey,TUR,TRUE,1,0,win,Lyon,France,FALSE,1876,1811,1882,1805,6
+2009-08-12,FIFA World Cup qualification,played,France,FRA,Faroe Islands,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1882,1184,1883,1183,1
+2009-09-05,FIFA World Cup qualification,played,France,FRA,Romania,ROU,TRUE,1,1,draw,Saint-Denis,France,FALSE,1883,1793,1873,1803,-10
+2009-09-09,FIFA World Cup qualification,played,France,FRA,Serbia,SRB,FALSE,1,1,draw,Belgrade,Serbia,FALSE,1873,1826,1876,1823,3
+2009-10-10,FIFA World Cup qualification,played,France,FRA,Faroe Islands,,TRUE,5,0,win,Guingamp,France,FALSE,1876,1214,1877,1213,1
+2009-10-14,FIFA World Cup qualification,played,France,FRA,Austria,AUT,TRUE,3,1,win,Saint-Denis,France,FALSE,1877,1597,1883,1591,6
+2009-11-14,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+2009-11-18,FIFA World Cup qualification,played,France,FRA,Republic of Ireland,IRL,TRUE,1,1,draw,Saint-Denis,France,FALSE,,,,,
+2010-03-03,Friendly,played,France,FRA,Spain,ESP,TRUE,0,2,loss,Saint-Denis,France,FALSE,1890,2094,1879,2105,-11
+2010-05-26,Friendly,played,France,FRA,Costa Rica,CRI,TRUE,2,1,win,Lens,France,FALSE,1879,1699,1882,1696,3
+2010-05-30,Friendly,played,France,FRA,Tunisia,TUN,FALSE,1,1,draw,Radès,Tunisia,FALSE,1882,1608,1877,1613,-5
+2010-06-04,Friendly,played,France,FRA,China PR,,TRUE,0,1,loss,Saint-Pierre,Réunion,TRUE,,,,,
+2010-06-11,FIFA World Cup,played,France,FRA,Uruguay,URY,FALSE,0,0,draw,Cape Town,South Africa,TRUE,1861,1845,1860,1846,-1
+2010-06-17,FIFA World Cup,played,France,FRA,Mexico,MEX,TRUE,0,2,loss,Polokwane,South Africa,TRUE,1860,1882,1818,1924,-42
+2010-06-22,FIFA World Cup,played,France,FRA,South Africa,ZAF,FALSE,1,2,loss,Bloemfontein,South Africa,FALSE,1818,1575,1776,1617,-42
+2010-08-11,Friendly,played,France,FRA,Norway,NOR,FALSE,1,2,loss,Oslo,Norway,FALSE,1776,1749,1768,1757,-8
+2010-09-03,UEFA Euro qualification,played,France,FRA,Belarus,,TRUE,0,1,loss,Saint-Denis,France,FALSE,1768,1618,1736,1650,-32
+2010-09-07,UEFA Euro qualification,played,France,FRA,Bosnia and Herzegovina,BIH,FALSE,2,0,win,Sarajevo,Bosnia and Herzegovina,FALSE,1736,1641,1766,1611,30
+2010-10-09,UEFA Euro qualification,played,France,FRA,Romania,ROU,TRUE,2,0,win,Saint-Denis,France,FALSE,1766,1727,1785,1708,19
+2010-10-12,UEFA Euro qualification,played,France,FRA,Luxembourg,,TRUE,2,0,win,Metz,France,FALSE,1785,1108,1786,1107,1
+2010-11-17,Friendly,played,France,FRA,England,ENG,FALSE,2,1,win,London,England,FALSE,1786,1940,1802,1924,16
+2011-02-09,Friendly,played,France,FRA,Brazil,BRA,TRUE,1,0,win,Saint-Denis,France,FALSE,1802,2095,1817,2080,15
+2011-03-25,UEFA Euro qualification,played,France,FRA,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1817,1132,1819,1130,2
+2011-03-29,Friendly,played,France,FRA,Croatia,HRV,TRUE,0,0,draw,Saint-Denis,France,FALSE,1819,1883,1818,1884,-1
+2011-06-03,UEFA Euro qualification,played,France,FRA,Belarus,,FALSE,1,1,draw,Minsk,Belarus,FALSE,1818,1625,1813,1630,-5
+2011-06-06,Friendly,played,France,FRA,Ukraine,UKR,FALSE,4,1,win,Donetsk,Ukraine,FALSE,1813,1792,1834,1771,21
+2011-06-09,Friendly,played,France,FRA,Poland,POL,FALSE,1,0,win,Warsaw,Poland,FALSE,1834,1690,1843,1681,9
+2011-08-10,Friendly,played,France,FRA,Chile,CHL,TRUE,1,1,draw,Montpellier,France,FALSE,1843,1903,1842,1904,-1
+2011-09-02,UEFA Euro qualification,played,France,FRA,Albania,,FALSE,2,1,win,Tirana,Albania,FALSE,1842,1536,1851,1527,9
+2011-09-06,UEFA Euro qualification,played,France,FRA,Romania,ROU,FALSE,0,0,draw,Bucharest,Romania,FALSE,1851,1710,1849,1712,-2
+2011-10-07,UEFA Euro qualification,played,France,FRA,Albania,,TRUE,3,0,win,Saint-Denis,France,FALSE,1849,1493,1854,1488,5
+2011-10-11,UEFA Euro qualification,played,France,FRA,Bosnia and Herzegovina,BIH,TRUE,1,1,draw,Saint-Denis,France,FALSE,1854,1688,1841,1701,-13
+2011-11-11,Friendly,played,France,FRA,United States,USA,TRUE,1,0,win,Saint-Denis,France,FALSE,1841,1706,1845,1702,4
+2011-11-15,Friendly,played,France,FRA,Belgium,BEL,TRUE,0,0,draw,Saint-Denis,France,FALSE,1845,1678,1839,1684,-6
+2012-02-29,Friendly,played,France,FRA,Germany,DEU,FALSE,2,1,win,Bremen,Germany,FALSE,1839,2082,1857,2064,18
+2012-05-27,Friendly,played,France,FRA,Iceland,ISL,TRUE,3,2,win,Valenciennes,France,FALSE,1857,1436,1858,1435,1
+2012-05-31,Friendly,played,France,FRA,Serbia,SRB,TRUE,2,0,win,Reims,France,FALSE,1858,1720,1864,1714,6
+2012-06-05,Friendly,played,France,FRA,Estonia,,TRUE,4,0,win,Le Mans,France,FALSE,1864,1524,1867,1521,3
+2012-06-11,UEFA Euro,played,France,FRA,England,ENG,TRUE,1,1,draw,Donetsk,Ukraine,TRUE,1867,1955,1873,1949,6
+2012-06-15,UEFA Euro,played,France,FRA,Ukraine,UKR,FALSE,2,0,win,Donetsk,Ukraine,FALSE,1873,1783,1912,1744,39
+2012-06-19,UEFA Euro,played,France,FRA,Sweden,SWE,FALSE,0,2,loss,Kyiv,Ukraine,TRUE,1912,1843,1867,1888,-45
+2012-06-23,UEFA Euro,played,France,FRA,Spain,ESP,FALSE,0,2,loss,Donetsk,Ukraine,TRUE,1867,2132,1854,2145,-13
+2012-08-15,Friendly,played,France,FRA,Uruguay,URY,TRUE,0,0,draw,Le Havre,France,FALSE,1854,1976,1855,1975,1
+2012-09-07,FIFA World Cup qualification,played,France,FRA,Finland,,FALSE,1,0,win,Helsinki,Finland,FALSE,1855,1623,1868,1610,13
+2012-09-11,FIFA World Cup qualification,played,France,FRA,Belarus,,TRUE,3,1,win,Saint-Denis,France,FALSE,1868,1571,1874,1565,6
+2012-10-12,Friendly,played,France,FRA,Japan,JPN,TRUE,0,1,loss,Saint-Denis,France,FALSE,1874,1801,1859,1816,-15
+2012-10-16,FIFA World Cup qualification,played,France,FRA,Spain,ESP,FALSE,1,1,draw,Madrid,Spain,FALSE,1859,2160,1875,2144,16
+2012-11-14,Friendly,played,France,FRA,Italy,ITA,FALSE,2,1,win,Parma,Italy,FALSE,1875,1924,1889,1910,14
+2013-02-06,Friendly,played,France,FRA,Germany,DEU,TRUE,1,2,loss,Saint-Denis,France,FALSE,1889,2052,1881,2060,-8
+2013-03-22,FIFA World Cup qualification,played,France,FRA,Georgia,,TRUE,3,1,win,Saint-Denis,France,FALSE,1881,1522,1885,1518,4
+2013-03-26,FIFA World Cup qualification,played,France,FRA,Spain,ESP,TRUE,0,1,loss,Saint-Denis,France,FALSE,1885,2134,1873,2146,-12
+2013-06-05,Friendly,played,France,FRA,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1873,1813,1864,1822,-9
+2013-06-09,Friendly,played,France,FRA,Brazil,BRA,FALSE,0,3,loss,Porto Alegre,Brazil,FALSE,1864,2036,1858,2042,-6
+2013-08-14,Friendly,played,France,FRA,Belgium,BEL,FALSE,0,0,draw,Brussels,Belgium,FALSE,1858,1837,1860,1835,2
+2013-09-06,FIFA World Cup qualification,played,France,FRA,Georgia,,FALSE,0,0,draw,Tbilisi,Georgia,FALSE,1860,1499,1847,1512,-13
+2013-09-10,FIFA World Cup qualification,played,France,FRA,Belarus,,FALSE,4,2,win,Homel,Belarus,FALSE,1847,1601,1865,1583,18
+2013-10-11,Friendly,played,France,FRA,Australia,AUS,TRUE,6,0,win,Saint-Denis,France,FALSE,1865,1720,1873,1712,8
+2013-10-15,FIFA World Cup qualification,played,France,FRA,Finland,,TRUE,3,0,win,Saint-Denis,France,FALSE,1873,1683,1884,1672,11
+2013-11-15,FIFA World Cup qualification,played,France,FRA,Ukraine,UKR,FALSE,0,2,loss,Kyiv,Ukraine,FALSE,1884,1818,1857,1845,-27
+2013-11-19,FIFA World Cup qualification,played,France,FRA,Ukraine,UKR,TRUE,3,0,win,Saint-Denis,France,FALSE,1857,1845,1881,1821,24
+2014-03-05,Friendly,played,France,FRA,Netherlands,NLD,TRUE,2,0,win,Saint-Denis,France,FALSE,1881,2003,1897,1987,16
+2014-05-27,Friendly,played,France,FRA,Norway,NOR,TRUE,4,0,win,Saint-Denis,France,FALSE,1897,1618,1901,1614,4
+2014-06-01,Friendly,played,France,FRA,Paraguay,PRY,TRUE,1,1,draw,Nice,France,FALSE,1901,1701,1894,1708,-7
+2014-06-08,Friendly,played,France,FRA,Jamaica,JAM,TRUE,8,0,win,Villeneuve-d'Ascq,France,FALSE,1894,1524,1897,1521,3
+2014-06-15,FIFA World Cup,played,France,FRA,Honduras,HND,TRUE,3,0,win,Porto Alegre,Brazil,TRUE,1897,1669,1919,1647,22
+2014-06-20,FIFA World Cup,played,France,FRA,Switzerland,CHE,FALSE,5,2,win,Salvador,Brazil,TRUE,1919,1882,1966,1835,47
+2014-06-25,FIFA World Cup,played,France,FRA,Ecuador,ECU,FALSE,0,0,draw,Rio de Janeiro,Brazil,TRUE,1966,1825,1954,1837,-12
+2014-06-30,FIFA World Cup,played,France,FRA,Nigeria,NGA,TRUE,2,0,win,Brasília,Brazil,TRUE,1954,1750,1975,1729,21
+2014-07-04,FIFA World Cup,played,France,FRA,Germany,DEU,TRUE,0,1,loss,Rio de Janeiro,Brazil,TRUE,1975,2103,1956,2122,-19
+2014-09-04,Friendly,played,France,FRA,Spain,ESP,TRUE,1,0,win,Saint-Denis,France,FALSE,1956,1991,1964,1983,8
+2014-09-07,Friendly,played,France,FRA,Serbia,SRB,FALSE,1,1,draw,Belgrade,Serbia,FALSE,1964,1765,1961,1768,-3
+2014-10-11,Friendly,played,France,FRA,Portugal,PRT,TRUE,2,1,win,Saint-Denis,France,FALSE,1961,1880,1966,1875,5
+2014-10-14,Friendly,played,France,FRA,Armenia,,FALSE,3,0,win,Yerevan,Armenia,FALSE,1966,1557,1971,1552,5
+2014-11-14,Friendly,played,France,FRA,Albania,,TRUE,1,1,draw,Rennes,France,FALSE,1971,1569,1962,1578,-9
+2014-11-18,Friendly,played,France,FRA,Sweden,SWE,TRUE,1,0,win,Marseille,France,FALSE,1962,1786,1965,1783,3
+2015-03-26,Friendly,played,France,FRA,Brazil,BRA,TRUE,1,3,loss,Saint-Denis,France,FALSE,1965,2041,1949,2057,-16
+2015-03-29,Friendly,played,France,FRA,Denmark,DNK,TRUE,2,0,win,Saint-Étienne,France,FALSE,1949,1763,1954,1758,5
+2015-06-07,Friendly,played,France,FRA,Belgium,BEL,TRUE,3,4,loss,Saint-Denis,France,FALSE,1954,1912,1940,1926,-14
+2015-06-13,Friendly,played,France,FRA,Albania,,FALSE,0,1,loss,Elbasan,Albania,FALSE,1940,1589,1924,1605,-16
+2015-09-04,Friendly,played,France,FRA,Portugal,PRT,FALSE,1,0,win,Lisbon,Portugal,FALSE,1924,1905,1936,1893,12
+2015-09-07,Friendly,played,France,FRA,Serbia,SRB,TRUE,2,1,win,Bordeaux,France,FALSE,1936,1715,1939,1712,3
+2015-10-08,Friendly,played,France,FRA,Armenia,,TRUE,4,0,win,Nice,France,FALSE,1939,1526,1941,1524,2
+2015-10-11,Friendly,played,France,FRA,Denmark,DNK,FALSE,2,1,win,Copenhagen,Denmark,FALSE,1941,1752,1948,1745,7
+2015-11-13,Friendly,played,France,FRA,Germany,DEU,TRUE,2,0,win,Saint-Denis,France,FALSE,1948,2085,1965,2068,17
+2015-11-17,Friendly,played,France,FRA,England,ENG,FALSE,0,2,loss,London,England,FALSE,1965,1946,1953,1958,-12
+2016-03-25,Friendly,played,France,FRA,Netherlands,NLD,FALSE,3,2,win,Amsterdam,Netherlands,FALSE,1953,1897,1964,1886,11
+2016-03-29,Friendly,played,France,FRA,Russia,RUS,TRUE,4,2,win,Saint-Denis,France,FALSE,1964,1774,1969,1769,5
+2016-05-30,Friendly,played,France,FRA,Cameroon,CMR,TRUE,3,2,win,Nantes,France,FALSE,1969,1605,1970,1604,1
+2016-06-04,Friendly,played,France,FRA,Scotland,SCO,TRUE,3,0,win,Metz,France,FALSE,1970,1714,1974,1710,4
+2016-06-10,UEFA Euro,played,France,FRA,Romania,ROU,TRUE,2,1,win,Saint-Denis,France,FALSE,1974,1759,1981,1752,7
+2016-06-15,UEFA Euro,played,France,FRA,Albania,,TRUE,2,0,win,Marseille,France,FALSE,1981,1600,1985,1596,4
+2016-06-19,UEFA Euro,played,France,FRA,Switzerland,CHE,TRUE,0,0,draw,Villeneuve-d'Ascq,France,FALSE,1985,1783,1967,1801,-18
+2016-06-26,UEFA Euro,played,France,FRA,Republic of Ireland,IRL,TRUE,2,1,win,Lyon,France,FALSE,,,,,
+2016-07-03,UEFA Euro,played,France,FRA,Iceland,ISL,TRUE,5,2,win,Saint-Denis,France,FALSE,1975,1754,1987,1742,12
+2016-07-07,UEFA Euro,played,France,FRA,Germany,DEU,TRUE,2,0,win,Marseille,France,FALSE,1987,2048,2020,2015,33
+2016-07-10,UEFA Euro,played,France,FRA,Portugal,PRT,TRUE,0,1,loss,Saint-Denis,France,FALSE,2020,1920,1982,1958,-38
+2016-09-01,Friendly,played,France,FRA,Italy,ITA,FALSE,3,1,win,Bari,Italy,FALSE,1982,1949,2000,1931,18
+2016-09-06,FIFA World Cup qualification,played,France,FRA,Belarus,,FALSE,0,0,draw,Barysaw,Belarus,FALSE,2000,1598,1986,1612,-14
+2016-10-07,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,TRUE,4,1,win,Saint-Denis,France,FALSE,1986,1587,1990,1583,4
+2016-10-10,FIFA World Cup qualification,played,France,FRA,Netherlands,NLD,FALSE,1,0,win,Amsterdam,Netherlands,FALSE,1990,1909,2011,1888,21
+2016-11-11,FIFA World Cup qualification,played,France,FRA,Sweden,SWE,TRUE,2,1,win,Saint-Denis,France,FALSE,2011,1754,2016,1749,5
+2016-11-15,Friendly,played,France,FRA,Ivory Coast,CIV,TRUE,0,0,draw,Lens,France,FALSE,2016,1717,2008,1725,-8
+2017-03-25,FIFA World Cup qualification,played,France,FRA,Luxembourg,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,2008,1243,2009,1242,1
+2017-03-28,Friendly,played,France,FRA,Spain,ESP,TRUE,0,2,loss,Saint-Denis,France,FALSE,2009,1983,1989,2003,-20
+2017-06-02,Friendly,played,France,FRA,Paraguay,PRY,TRUE,5,0,win,Rennes,France,FALSE,1989,1720,1993,1716,4
+2017-06-09,FIFA World Cup qualification,played,France,FRA,Sweden,SWE,FALSE,1,2,loss,Solna,Sweden,FALSE,1993,1785,1967,1811,-26
+2017-06-13,Friendly,played,France,FRA,England,ENG,TRUE,3,2,win,Saint-Denis,France,FALSE,1967,1916,1973,1910,6
+2017-08-31,FIFA World Cup qualification,played,France,FRA,Netherlands,NLD,TRUE,4,0,win,Saint-Denis,France,FALSE,1973,1848,1989,1832,16
+2017-09-03,FIFA World Cup qualification,played,France,FRA,Luxembourg,,TRUE,0,0,draw,Toulouse,France,FALSE,1989,1278,1969,1298,-20
+2017-10-07,FIFA World Cup qualification,played,France,FRA,Bulgaria,BGR,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1969,1629,1977,1621,8
+2017-10-10,FIFA World Cup qualification,played,France,FRA,Belarus,,TRUE,2,1,win,Saint-Denis,France,FALSE,1977,1509,1978,1508,1
+2017-11-10,Friendly,played,France,FRA,Wales,WAL,TRUE,2,0,win,Saint-Denis,France,FALSE,1978,1773,1982,1769,4
+2017-11-14,Friendly,played,France,FRA,Germany,DEU,FALSE,2,2,draw,Cologne,Germany,FALSE,1982,2114,1988,2108,6
+2018-03-23,Friendly,played,France,FRA,Colombia,COL,TRUE,2,3,loss,Saint-Denis,France,FALSE,1988,1926,1974,1940,-14
+2018-03-27,Friendly,played,France,FRA,Russia,RUS,FALSE,3,1,win,Saint Petersburg,Russia,FALSE,1974,1691,1982,1683,8
+2018-05-28,Friendly,played,France,FRA,Republic of Ireland,IRL,TRUE,2,0,win,Saint-Denis,France,FALSE,,,,,
+2018-06-01,Friendly,played,France,FRA,Italy,ITA,TRUE,3,1,win,Nice,France,FALSE,1985,1900,1993,1892,8
+2018-06-09,Friendly,played,France,FRA,United States,USA,TRUE,1,1,draw,Lyon,France,FALSE,1993,1755,1986,1762,-7
+2018-06-16,FIFA World Cup,played,France,FRA,Australia,AUS,TRUE,2,1,win,Kazan,Russia,TRUE,1986,1743,1998,1731,12
+2018-06-21,FIFA World Cup,played,France,FRA,Peru,PER,TRUE,1,0,win,Ekaterinburg,Russia,TRUE,1998,1880,2018,1860,20
+2018-06-26,FIFA World Cup,played,France,FRA,Denmark,DNK,FALSE,0,0,draw,Moscow,Russia,TRUE,2018,1876,2006,1888,-12
+2018-06-30,FIFA World Cup,played,France,FRA,Argentina,ARG,TRUE,4,3,win,Kazan,Russia,TRUE,2006,1917,2028,1895,22
+2018-07-06,FIFA World Cup,played,France,FRA,Uruguay,URY,FALSE,2,0,win,Nizhny Novgorod,Russia,TRUE,2028,1983,2067,1944,39
+2018-07-10,FIFA World Cup,played,France,FRA,Belgium,BEL,TRUE,1,0,win,Saint Petersburg,Russia,TRUE,2067,2050,2096,2021,29
+2018-07-15,FIFA World Cup,played,France,FRA,Croatia,HRV,TRUE,4,2,win,Moscow,Russia,TRUE,2096,1972,2126,1942,30
+2018-09-06,UEFA Nations League,played,France,FRA,Germany,DEU,FALSE,0,0,draw,Munich,Germany,FALSE,2126,1963,2122,1967,-4
+2018-09-09,UEFA Nations League,played,France,FRA,Netherlands,NLD,TRUE,2,1,win,Paris,France,FALSE,2122,1914,2128,1908,6
+2018-10-11,Friendly,played,France,FRA,Iceland,ISL,TRUE,2,2,draw,Guingamp,France,FALSE,2128,1681,2119,1690,-9
+2018-10-16,UEFA Nations League,played,France,FRA,Germany,DEU,TRUE,2,1,win,Paris,France,FALSE,2119,1941,2126,1934,7
+2018-11-16,UEFA Nations League,played,France,FRA,Netherlands,NLD,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,2126,1945,2089,1982,-37
+2018-11-20,Friendly,played,France,FRA,Uruguay,URY,TRUE,1,0,win,Paris,France,FALSE,2089,1925,2093,1921,4
+2019-03-22,UEFA Euro qualification,played,France,FRA,Moldova,,FALSE,4,1,win,Chișinău,Moldova,FALSE,2093,1313,2094,1312,1
+2019-03-25,UEFA Euro qualification,played,France,FRA,Iceland,ISL,TRUE,4,0,win,Paris,France,FALSE,2094,1671,2098,1667,4
+2019-06-02,Friendly,played,France,FRA,Bolivia,BOL,TRUE,2,0,win,Nantes,France,FALSE,2098,1638,2099,1637,1
+2019-06-08,UEFA Euro qualification,played,France,FRA,Turkey,TUR,FALSE,0,2,loss,Konya,Turkey,FALSE,2099,1730,2050,1779,-49
+2019-06-11,UEFA Euro qualification,played,France,FRA,Andorra,,FALSE,4,0,win,Andorra la Vella,Andorra,FALSE,2050,1065,2050,1065,0
+2019-09-07,UEFA Euro qualification,played,France,FRA,Albania,,TRUE,4,1,win,Paris,France,FALSE,2050,1503,2052,1501,2
+2019-09-10,UEFA Euro qualification,played,France,FRA,Andorra,,TRUE,3,0,win,Paris,France,FALSE,2052,1065,2052,1065,0
+2019-10-11,UEFA Euro qualification,played,France,FRA,Iceland,ISL,FALSE,1,0,win,Reykjavík,Iceland,FALSE,2052,1660,2058,1654,6
+2019-10-14,UEFA Euro qualification,played,France,FRA,Turkey,TUR,TRUE,1,1,draw,Paris,France,FALSE,2058,1772,2042,1788,-16
+2019-11-14,UEFA Euro qualification,played,France,FRA,Moldova,,TRUE,2,1,win,Paris,France,FALSE,2042,1244,2042,1244,0
+2019-11-17,UEFA Euro qualification,played,France,FRA,Albania,,FALSE,2,0,win,Tirana,Albania,FALSE,2042,1536,2047,1531,5
+2020-09-05,UEFA Nations League,played,France,FRA,Sweden,SWE,FALSE,1,0,win,Stockholm,Sweden,FALSE,2047,1863,2062,1848,15
+2020-09-08,UEFA Nations League,played,France,FRA,Croatia,HRV,TRUE,4,2,win,Paris,France,FALSE,2062,1901,2073,1890,11
+2020-10-07,Friendly,played,France,FRA,Ukraine,UKR,TRUE,7,1,win,Paris,France,FALSE,2073,1858,2079,1852,6
+2020-10-11,UEFA Nations League,played,France,FRA,Portugal,PRT,TRUE,0,0,draw,Paris,France,FALSE,2079,2028,2071,2036,-8
+2020-10-14,UEFA Nations League,played,France,FRA,Croatia,HRV,FALSE,2,1,win,Zagreb,Croatia,FALSE,2071,1914,2088,1897,17
+2020-11-11,Friendly,played,France,FRA,Finland,,TRUE,0,2,loss,Paris,France,FALSE,2088,1680,2060,1708,-28
+2020-11-14,UEFA Nations League,played,France,FRA,Portugal,PRT,FALSE,1,0,win,Lisbon,Portugal,FALSE,2060,2046,2085,2021,25
+2020-11-17,UEFA Nations League,played,France,FRA,Sweden,SWE,TRUE,4,2,win,Paris,France,FALSE,2085,1827,2092,1820,7
+2021-03-24,FIFA World Cup qualification,played,France,FRA,Ukraine,UKR,TRUE,1,1,draw,Paris,France,FALSE,2092,1834,2077,1849,-15
+2021-03-28,FIFA World Cup qualification,played,France,FRA,Kazakhstan,,FALSE,2,0,win,Nur-Sultan,Kazakhstan,FALSE,2077,1333,2078,1332,1
+2021-03-31,FIFA World Cup qualification,played,France,FRA,Bosnia and Herzegovina,BIH,FALSE,1,0,win,Sarajevo,Bosnia and Herzegovina,FALSE,2078,1640,2083,1635,5
+2021-06-02,Friendly,played,France,FRA,Wales,WAL,TRUE,3,0,win,Nice,France,FALSE,2083,1845,2087,1841,4
+2021-06-08,Friendly,played,France,FRA,Bulgaria,BGR,TRUE,3,0,win,Paris,France,FALSE,2087,1500,2088,1499,1
+2021-06-15,UEFA Euro,played,France,FRA,Germany,DEU,FALSE,1,0,win,Munich,Germany,FALSE,2088,1935,2109,1914,21
+2021-06-19,UEFA Euro,played,France,FRA,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,2109,1719,2092,1736,-17
+2021-06-23,UEFA Euro,played,France,FRA,Portugal,PRT,FALSE,2,2,draw,Budapest,Hungary,TRUE,2092,2018,2087,2023,-5
+2021-06-28,UEFA Euro,played,France,FRA,Switzerland,CHE,TRUE,3,3,draw,Bucharest,Romania,TRUE,2087,1893,2074,1906,-13
+2021-09-01,FIFA World Cup qualification,played,France,FRA,Bosnia and Herzegovina,BIH,TRUE,1,1,draw,Strasbourg,France,FALSE,2074,1628,2056,1646,-18
+2021-09-04,FIFA World Cup qualification,played,France,FRA,Ukraine,UKR,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,2056,1780,2047,1789,-9
+2021-09-07,FIFA World Cup qualification,played,France,FRA,Finland,,TRUE,2,0,win,Lyon,France,FALSE,2047,1708,2051,1704,4
+2021-10-07,UEFA Nations League,played,France,FRA,Belgium,BEL,FALSE,3,2,win,Turin,Italy,TRUE,2051,2135,2082,2104,31
+2021-10-10,UEFA Nations League,played,France,FRA,Spain,ESP,FALSE,2,1,win,Milan,Italy,TRUE,2082,2044,2104,2022,22
+2021-11-13,FIFA World Cup qualification,played,France,FRA,Kazakhstan,,TRUE,8,0,win,Paris,France,FALSE,2104,1345,2105,1344,1
+2021-11-16,FIFA World Cup qualification,played,France,FRA,Finland,,FALSE,2,0,win,Helsinki,Finland,FALSE,2105,1732,2115,1722,10
+2022-03-25,Friendly,played,France,FRA,Ivory Coast,CIV,TRUE,2,1,win,Marseille,France,FALSE,2115,1684,2116,1683,1
+2022-03-29,Friendly,played,France,FRA,South Africa,ZAF,TRUE,5,0,win,Villeneuve D'Ascq,Algeria,TRUE,2116,1543,2117,1542,1
+2022-06-03,UEFA Nations League,played,France,FRA,Denmark,DNK,TRUE,1,2,loss,Paris,France,FALSE,2117,1936,2084,1969,-33
+2022-06-06,UEFA Nations League,played,France,FRA,Croatia,HRV,FALSE,1,1,draw,Split,Croatia,FALSE,2084,1798,2074,1808,-10
+2022-06-10,UEFA Nations League,played,France,FRA,Austria,AUT,FALSE,1,1,draw,Vienna,Austria,FALSE,2074,1759,2063,1770,-11
+2022-06-13,UEFA Nations League,played,France,FRA,Croatia,HRV,TRUE,0,1,loss,Paris,France,FALSE,2063,1841,2028,1876,-35
+2022-09-22,UEFA Nations League,played,France,FRA,Austria,AUT,TRUE,2,0,win,Paris,France,FALSE,2028,1760,2034,1754,6
+2022-09-25,UEFA Nations League,played,France,FRA,Denmark,DNK,FALSE,0,2,loss,Copenhagen,Denmark,FALSE,2034,1942,2005,1971,-29
+2022-11-22,FIFA World Cup,played,France,FRA,Australia,AUS,TRUE,4,1,win,Al Wakrah,Qatar,TRUE,2005,1721,2022,1704,17
+2022-11-26,FIFA World Cup,played,France,FRA,Denmark,DNK,TRUE,2,1,win,Doha,Qatar,TRUE,2022,1952,2046,1928,24
+2022-11-30,FIFA World Cup,played,France,FRA,Tunisia,TUN,FALSE,0,1,loss,Al Rayyan,Qatar,TRUE,2046,1692,1993,1745,-53
+2022-12-04,FIFA World Cup,played,France,FRA,Poland,POL,TRUE,3,1,win,Doha,Qatar,TRUE,1993,1826,2018,1801,25
+2022-12-10,FIFA World Cup,played,France,FRA,England,ENG,FALSE,2,1,win,Al Khor,Qatar,TRUE,2018,1994,2046,1966,28
+2022-12-14,FIFA World Cup,played,France,FRA,Morocco,MAR,TRUE,2,0,win,Al Khor,Qatar,TRUE,2046,1923,2076,1893,30
+2022-12-18,FIFA World Cup,played,France,FRA,Argentina,ARG,FALSE,3,3,draw,Lusail,Qatar,TRUE,2076,2150,2082,2144,6
+2023-03-24,UEFA Euro qualification,played,France,FRA,Netherlands,NLD,TRUE,4,0,win,Paris,France,FALSE,2082,2073,2108,2047,26
+2023-03-27,UEFA Euro qualification,played,France,FRA,Republic of Ireland,IRL,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+2023-06-16,UEFA Euro qualification,played,France,FRA,Gibraltar,,FALSE,3,0,win,Faro-Loulé,Portugal,TRUE,2113,1066,2113,1066,0
+2023-06-19,UEFA Euro qualification,played,France,FRA,Greece,GRC,TRUE,1,0,win,Paris,France,FALSE,2113,1696,2115,1694,2
+2023-09-07,UEFA Euro qualification,played,France,FRA,Republic of Ireland,IRL,TRUE,2,0,win,Paris,France,FALSE,,,,,
+2023-09-12,Friendly,played,France,FRA,Germany,DEU,FALSE,1,2,loss,Dortmund,Germany,FALSE,2117,1888,2103,1902,-14
+2023-10-13,UEFA Euro qualification,played,France,FRA,Netherlands,NLD,FALSE,2,1,win,Amsterdam,Netherlands,FALSE,2103,1972,2121,1954,18
+2023-10-17,Friendly,played,France,FRA,Scotland,SCO,TRUE,4,1,win,Lille,France,FALSE,2121,1816,2124,1813,3
+2023-11-18,UEFA Euro qualification,played,France,FRA,Gibraltar,,TRUE,14,0,win,Nice,France,FALSE,2124,1057,2124,1057,0
+2023-11-21,UEFA Euro qualification,played,France,FRA,Greece,GRC,FALSE,2,2,draw,Athens,Greece,FALSE,2124,1714,2110,1728,-14
+2024-03-23,Friendly,played,France,FRA,Germany,DEU,TRUE,0,2,loss,Lyon,France,FALSE,2110,1885,2084,1911,-26
+2024-03-26,Friendly,played,France,FRA,Chile,CHL,TRUE,3,2,win,Marseille,France,FALSE,2084,1714,2085,1713,1
+2024-06-05,Friendly,played,France,FRA,Luxembourg,,TRUE,3,0,win,Metz,France,FALSE,2085,1513,2086,1512,1
+2024-06-09,Friendly,played,France,FRA,Canada,CAN,TRUE,0,0,draw,Bordeaux,France,FALSE,2086,1711,2077,1720,-9
+2024-06-17,UEFA Euro,played,France,FRA,Austria,AUT,FALSE,1,0,win,Düsseldorf,Germany,TRUE,2077,1863,2088,1852,11
+2024-06-21,UEFA Euro,played,France,FRA,Netherlands,NLD,FALSE,0,0,draw,Leipzig,Germany,TRUE,2088,1985,2081,1992,-7
+2024-06-25,UEFA Euro,played,France,FRA,Poland,POL,TRUE,1,1,draw,Dortmund,Germany,TRUE,2081,1709,2061,1729,-20
+2024-07-01,UEFA Euro,played,France,FRA,Belgium,BEL,TRUE,1,0,win,Düsseldorf,Germany,TRUE,2061,1951,2078,1934,17
+2024-07-05,UEFA Euro,played,France,FRA,Portugal,PRT,FALSE,0,0,draw,Hamburg,Germany,TRUE,2078,1950,2069,1959,-9
+2024-07-09,UEFA Euro,played,France,FRA,Spain,ESP,FALSE,1,2,loss,Munich,Germany,TRUE,2069,2112,2047,2134,-22
+2024-09-06,UEFA Nations League,played,France,FRA,Italy,ITA,TRUE,1,3,loss,Paris,France,FALSE,2047,1890,1998,1939,-49
+2024-09-09,UEFA Nations League,played,France,FRA,Belgium,BEL,TRUE,2,0,win,Décines-Charpieu,France,FALSE,1998,1940,2015,1923,17
+2024-10-10,UEFA Nations League,played,France,FRA,Israel,ISR,FALSE,4,1,win,Budapest,Hungary,TRUE,2015,1557,2020,1552,5
+2024-10-14,UEFA Nations League,played,France,FRA,Belgium,BEL,FALSE,2,1,win,Leuven,Belgium,FALSE,2020,1930,2041,1909,21
+2024-11-14,UEFA Nations League,played,France,FRA,Israel,ISR,TRUE,0,0,draw,Paris,France,FALSE,2041,1548,2022,1567,-19
+2024-11-17,UEFA Nations League,played,France,FRA,Italy,ITA,FALSE,3,1,win,Milan,Italy,FALSE,2022,1964,2056,1930,34
+2025-03-20,UEFA Nations League,played,France,FRA,Croatia,HRV,FALSE,0,2,loss,Split,Croatia,FALSE,2056,1886,2011,1931,-45
+2025-03-23,UEFA Nations League,played,France,FRA,Croatia,HRV,TRUE,2,0,win,Paris,France,FALSE,2011,1931,2031,1911,20
+2025-06-05,UEFA Nations League,played,France,FRA,Spain,ESP,FALSE,4,5,loss,Stuttgart,Germany,TRUE,2031,2150,2014,2167,-17
+2025-06-08,UEFA Nations League,played,France,FRA,Germany,DEU,FALSE,2,0,win,Stuttgart,Germany,FALSE,2014,1955,2056,1913,42
+2025-09-05,FIFA World Cup qualification,played,France,FRA,Ukraine,UKR,FALSE,2,0,win,Wrocław,Poland,TRUE,2056,1799,2067,1788,11
+2025-09-09,FIFA World Cup qualification,played,France,FRA,Iceland,ISL,TRUE,2,1,win,Paris,France,FALSE,2067,1563,2068,1562,1
+2025-10-10,FIFA World Cup qualification,played,France,FRA,Azerbaijan,,TRUE,3,0,win,Paris,France,FALSE,2068,1367,2069,1366,1
+2025-10-13,FIFA World Cup qualification,played,France,FRA,Iceland,ISL,FALSE,2,2,draw,Reykjavík,Iceland,FALSE,2069,1541,2052,1558,-17
+2025-11-13,FIFA World Cup qualification,played,France,FRA,Ukraine,UKR,TRUE,4,0,win,Paris,France,FALSE,2052,1797,2061,1788,9
+2025-11-16,FIFA World Cup qualification,played,France,FRA,Azerbaijan,,FALSE,3,1,win,Baku,Azerbaijan,FALSE,2061,1341,2063,1339,2
+2026-03-26,Friendly,played,France,FRA,Brazil,BRA,FALSE,2,1,win,Foxborough,United States,TRUE,2063,1978,2071,1970,8
+2026-03-29,Friendly,played,France,FRA,Colombia,COL,FALSE,3,1,win,Landover,United States,TRUE,2071,1986,2082,1975,11

@@ -1,0 +1,637 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1961-12-05,Friendly,played,Senegal,SEN,Gambia,,TRUE,2,3,loss,Dakar,Senegal,FALSE,,,,,
+1961-12-25,African Friendship Games,played,Senegal,SEN,Gabon,,TRUE,3,2,win,Abidjan,Ivory Coast,TRUE,1590,1380,1599,1371,9
+1961-12-27,African Friendship Games,played,Senegal,SEN,Cameroon,CMR,TRUE,4,0,win,Abidjan,Ivory Coast,TRUE,1599,1541,1630,1510,31
+1961-12-29,African Friendship Games,played,Senegal,SEN,Ivory Coast,CIV,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1630,1647,1636,1641,6
+1961-12-31,African Friendship Games,played,Senegal,SEN,Benin,,FALSE,3,4,loss,Abidjan,Ivory Coast,TRUE,1636,1513,1609,1540,-27
+1962-11-30,Friendly,played,Senegal,SEN,Ivory Coast,CIV,TRUE,1,1,draw,Dakar,Senegal,FALSE,,,,,
+1963-02-24,Friendly,played,Senegal,SEN,Mali,,FALSE,1,3,loss,Kumasi,Ghana,TRUE,1607,1582,1583,1606,-24
+1963-02-27,Friendly,played,Senegal,SEN,Nigeria,NGA,FALSE,0,4,loss,Kumasi,Ghana,TRUE,1583,1642,1560,1665,-23
+1963-04-12,African Friendship Games,played,Senegal,SEN,Cameroon,CMR,TRUE,1,0,win,Dakar,Senegal,FALSE,,,,,
+1963-04-14,African Friendship Games,played,Senegal,SEN,Nigeria,NGA,TRUE,5,1,win,Dakar,Senegal,FALSE,1571,1666,1608,1629,37
+1963-04-16,African Friendship Games,played,Senegal,SEN,Niger,,TRUE,3,1,win,Dakar,Senegal,FALSE,1608,1096,1610,1094,2
+1963-04-18,African Friendship Games,played,Senegal,SEN,France,FRA,TRUE,2,0,win,Dakar,Senegal,FALSE,,,,,
+1963-04-20,African Friendship Games,played,Senegal,SEN,Tunisia,TUN,TRUE,1,1,draw,Dakar,Senegal,FALSE,1610,1592,1603,1599,-7
+1963-11-21,Friendly,played,Senegal,SEN,Ethiopia,,TRUE,1,2,loss,Dakar,Senegal,FALSE,1603,1556,1589,1570,-14
+1963-12-15,Friendly,played,Senegal,SEN,Guinea,,TRUE,1,1,draw,Dakar,Senegal,FALSE,1589,1616,1587,1618,-2
+1965-02-25,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,TRUE,2,0,win,Dakar,Senegal,FALSE,,,,,
+1965-03-31,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,FALSE,1,3,loss,Conakry,Guinea,FALSE,,,,,
+1965-04-18,African Cup of Nations qualification,played,Senegal,SEN,Mali,,FALSE,2,0,win,Bamako,Mali,FALSE,1559,1564,1598,1525,39
+1965-05-05,African Cup of Nations qualification,played,Senegal,SEN,Mali,,TRUE,3,1,win,Dakar,Senegal,FALSE,1598,1524,1614,1508,16
+1965-11-14,African Cup of Nations,played,Senegal,SEN,Tunisia,TUN,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1614,1642,1623,1633,9
+1965-11-19,African Cup of Nations,played,Senegal,SEN,Ethiopia,,FALSE,5,1,win,Tunis,Tunisia,TRUE,1623,1524,1657,1490,34
+1965-11-21,African Cup of Nations,played,Senegal,SEN,Ivory Coast,CIV,FALSE,0,1,loss,Tunis,Tunisia,TRUE,1657,1679,1634,1702,-23
+1966-03-06,Friendly,played,Senegal,SEN,Guinea,,FALSE,0,5,loss,Conakry,Guinea,FALSE,1634,1573,1616,1591,-18
+1967-02-25,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,FALSE,0,3,loss,Conakry,Guinea,FALSE,,,,,
+1967-03-19,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,TRUE,4,1,win,Dakar,Senegal,FALSE,1568,1620,1598,1590,30
+1967-04-09,African Cup of Nations qualification,played,Senegal,SEN,Liberia,,FALSE,1,1,draw,Monrovia,Liberia,FALSE,,,,,
+1967-07-02,African Cup of Nations qualification,played,Senegal,SEN,Liberia,,TRUE,4,1,win,Dakar,Senegal,FALSE,1583,1371,1593,1361,10
+1967-11-22,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,TRUE,2,1,win,Dakar,Senegal,FALSE,,,,,
+1968-01-12,African Cup of Nations,played,Senegal,SEN,Ghana,GHA,FALSE,2,2,draw,Asmara,Ethiopia,TRUE,1599,1743,1609,1733,10
+1968-01-14,African Cup of Nations,played,Senegal,SEN,Congo,,FALSE,2,1,win,Asmara,Ethiopia,TRUE,1609,1561,1631,1539,22
+1968-01-16,African Cup of Nations,played,Senegal,SEN,DR Congo,,FALSE,1,2,loss,Asmara,Ethiopia,TRUE,1631,1678,1609,1700,-22
+1968-11-03,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,FALSE,0,1,loss,Casablanca,Morocco,FALSE,1615,1661,1603,1673,-12
+1968-12-01,Friendly,played,Senegal,SEN,Ghana,GHA,FALSE,0,2,loss,Accra,Ghana,FALSE,1603,1643,1594,1652,-9
+1969-01-05,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,TRUE,2,1,win,Dakar,Senegal,FALSE,1594,1673,1613,1654,19
+1969-01-22,Friendly,played,Senegal,SEN,Congo,,FALSE,0,1,loss,Brazzaville,Congo,FALSE,1613,1550,1604,1559,-9
+1969-01-24,Friendly,played,Senegal,SEN,Cameroon,CMR,TRUE,3,2,win,Dakar,Senegal,FALSE,1604,1537,1616,1525,12
+1969-01-26,Friendly,played,Senegal,SEN,DR Congo,,FALSE,0,4,loss,Kinshasa,Congo-Kinshasa,FALSE,1616,1752,1604,1764,-12
+1969-02-13,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,FALSE,0,2,loss,Las Palmas,Spain,TRUE,1604,1646,1578,1672,-26
+1969-10-12,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,FALSE,3,4,loss,Conakry,Guinea,FALSE,1578,1628,1566,1640,-12
+1969-10-26,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,TRUE,1,1,draw,Dakar,Senegal,FALSE,1566,1640,1565,1641,-1
+1970-05-14,Friendly,played,Senegal,SEN,Guinea,,FALSE,1,3,loss,Conakry,Guinea,FALSE,1559,1644,1551,1652,-8
+1970-05-17,Friendly,played,Senegal,SEN,Guinea,,FALSE,0,4,loss,Conakry,Guinea,FALSE,1551,1652,1542,1661,-9
+1970-10-11,Friendly,played,Senegal,SEN,Sierra Leone,,FALSE,0,1,loss,Freetown,Sierra Leone,FALSE,1542,1363,1530,1375,-12
+1970-10-18,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,1,0,win,Abidjan,Ivory Coast,FALSE,1530,1664,1546,1648,16
+1970-10-25,Friendly,played,Senegal,SEN,Togo,TGO,FALSE,0,3,loss,Lomé,Togo,FALSE,1546,1446,1528,1464,-18
+1970-11-15,Friendly,played,Senegal,SEN,Guinea,,FALSE,0,1,loss,Conakry,Guinea,FALSE,1528,1638,1519,1647,-9
+1970-12-19,Friendly,played,Senegal,SEN,Malawi,,TRUE,4,1,win,Dakar,Senegal,FALSE,,,,,
+1971-03-04,Friendly,played,Senegal,SEN,Cameroon,CMR,FALSE,1,1,draw,Yaoundé,Cameroon,FALSE,1521,1583,1525,1579,4
+1971-03-07,Friendly,played,Senegal,SEN,Cameroon,CMR,FALSE,2,1,win,Yaoundé,Cameroon,FALSE,1525,1579,1539,1565,14
+1971-03-10,Friendly,played,Senegal,SEN,Cameroon,CMR,TRUE,3,0,win,Dakar,Senegal,FALSE,1539,1565,1553,1551,14
+1971-07-25,Friendly,played,Senegal,SEN,Sierra Leone,,TRUE,2,1,win,Dakar,Senegal,FALSE,1576,1387,1579,1384,3
+1971-08-18,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,FALSE,0,1,loss,Conakry,Guinea,FALSE,,,,,
+1971-09-01,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,TRUE,0,0,draw,Dakar,Senegal,FALSE,,,,,
+1971-12-19,Friendly,played,Senegal,SEN,Mali,,TRUE,4,1,win,Dakar,Senegal,FALSE,1576,1610,1590,1596,14
+1972-01-09,Friendly,played,Senegal,SEN,Congo,,TRUE,0,2,loss,Dakar,Senegal,FALSE,1590,1591,1571,1610,-19
+1972-02-17,Friendly,played,Senegal,SEN,Morocco,MAR,TRUE,1,3,loss,Dakar,Senegal,FALSE,1571,1680,1556,1695,-15
+1972-11-19,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,FALSE,0,0,draw,Rabat,Morocco,FALSE,1569,1645,1578,1636,9
+1972-11-29,Friendly,played,Senegal,SEN,China PR,,TRUE,0,0,draw,Dakar,Senegal,FALSE,,,,,
+1972-12-03,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,TRUE,1,2,loss,Dakar,Senegal,FALSE,1577,1636,1555,1658,-22
+1973-01-01,Friendly,played,Senegal,SEN,Gambia,,FALSE,1,2,loss,Banjul,Gambia,FALSE,,,,,
+1973-02-17,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,1,3,loss,Casablanca,Morocco,FALSE,1541,1666,1535,1672,-6
+1973-04-08,African Cup of Nations qualification,played,Senegal,SEN,Ghana,GHA,FALSE,2,3,loss,Accra,Ghana,FALSE,,,,,
+1973-04-21,African Cup of Nations qualification,played,Senegal,SEN,Ghana,GHA,TRUE,1,0,win,Dakar,Senegal,FALSE,1525,1642,1546,1621,21
+1974-08-11,Friendly,played,Senegal,SEN,China PR,,FALSE,2,5,loss,Beijing,China PR,FALSE,,,,,
+1975-02-02,Friendly,played,Senegal,SEN,Nigeria,NGA,TRUE,0,1,loss,Dakar,Senegal,FALSE,1518,1621,1508,1631,-10
+1975-02-16,Friendly,played,Senegal,SEN,Mali,,FALSE,1,2,loss,Bamako,Mali,FALSE,1508,1516,1501,1523,-7
+1975-02-22,Friendly,played,Senegal,SEN,Nigeria,NGA,FALSE,1,1,draw,Lagos,Nigeria,FALSE,1501,1636,1507,1630,6
+1975-03-22,African Cup of Nations qualification,played,Senegal,SEN,Morocco,MAR,FALSE,0,4,loss,Fez,Morocco,FALSE,1507,1731,1497,1741,-10
+1975-03-22,African Cup of Nations qualification,played,Senegal,SEN,Morocco,MAR,TRUE,2,1,win,Kaolack,Senegal,FALSE,,,,,
+1975-04-26,Friendly,played,Senegal,SEN,Ivory Coast,CIV,TRUE,1,0,win,Dakar,Senegal,FALSE,,,,,
+1975-04-27,Friendly,played,Senegal,SEN,Nigeria,NGA,TRUE,1,0,win,Dakar,Senegal,FALSE,,,,,
+1976-01-15,Friendly,played,Senegal,SEN,Mauritania,,FALSE,4,1,win,Banjul,Gambia,TRUE,1543,958,1545,956,2
+1976-01-16,Friendly,played,Senegal,SEN,Guinea,,FALSE,2,2,draw,Banjul,Gambia,TRUE,1545,1664,1552,1657,7
+1976-03-21,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,1,4,loss,Abidjan,Ivory Coast,FALSE,1551,1487,1535,1503,-16
+1976-10-17,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,FALSE,0,1,loss,Lomé,Togo,FALSE,1526,1480,1509,1497,-17
+1976-10-31,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,TRUE,1,1,draw,Dakar,Senegal,FALSE,1509,1497,1503,1503,-6
+1977-02-02,Friendly,played,Senegal,SEN,Denmark,DNK,TRUE,2,3,loss,Kaolack,Senegal,FALSE,1503,1646,1494,1655,-9
+1977-03-05,Friendly,played,Senegal,SEN,Guinea,,TRUE,1,0,win,Dakar,Senegal,FALSE,1494,1764,1509,1749,15
+1977-03-13,African Cup of Nations qualification,played,Senegal,SEN,Togo,TGO,TRUE,2,1,win,Dakar,Senegal,FALSE,1509,1497,1523,1483,14
+1977-03-26,African Cup of Nations qualification,played,Senegal,SEN,Togo,TGO,FALSE,1,0,win,Lomé,Togo,FALSE,1523,1483,1546,1460,23
+1977-05-01,Friendly,played,Senegal,SEN,Algeria,DZA,FALSE,0,2,loss,Algiers,Algeria,FALSE,1546,1510,1534,1522,-12
+1977-05-28,Friendly,played,Senegal,SEN,Morocco,MAR,TRUE,3,2,win,Dakar,Senegal,FALSE,1534,1712,1546,1700,12
+1977-06-05,Friendly,played,Senegal,SEN,Mauritania,,FALSE,2,1,win,Nouakchott,Mauritania,FALSE,1546,924,1547,923,1
+1977-06-12,African Cup of Nations qualification,played,Senegal,SEN,Nigeria,NGA,TRUE,3,1,win,Dakar,Senegal,FALSE,1547,1687,1580,1654,33
+1977-06-26,African Cup of Nations qualification,played,Senegal,SEN,Nigeria,NGA,FALSE,0,3,loss,Lagos,Nigeria,FALSE,,,,,
+1979-01-09,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,FALSE,1,0,win,Bissau,Guinea-Bissau,TRUE,1561,1191,1565,1187,4
+1979-01-11,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,2,0,win,Bissau,Guinea-Bissau,FALSE,1565,1322,1583,1304,18
+1979-01-13,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,3,1,win,Bissau,Guinea-Bissau,TRUE,1583,1666,1620,1629,37
+1979-01-14,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,1,0,win,Bissau,Guinea-Bissau,TRUE,1620,1571,1637,1554,17
+1979-01-30,Friendly,played,Senegal,SEN,Guinea,,FALSE,1,1,draw,Monrovia,Liberia,TRUE,1637,1596,1635,1598,-2
+1979-02-01,Friendly,played,Senegal,SEN,Liberia,,FALSE,1,1,draw,Monrovia,Liberia,FALSE,1635,1357,1628,1364,-7
+1979-02-03,Friendly,played,Senegal,SEN,Togo,TGO,TRUE,0,1,loss,Monrovia,Liberia,TRUE,1628,1441,1606,1463,-22
+1979-03-10,Friendly,played,Senegal,SEN,Mali,,TRUE,2,1,win,Dakar,Senegal,FALSE,,,,,
+1979-03-25,Friendly,played,Senegal,SEN,Mali,,FALSE,1,2,loss,Bamako,Mali,FALSE,1612,1548,1603,1557,-9
+1979-09-29,Friendly,played,Senegal,SEN,Nigeria,NGA,TRUE,0,2,loss,Dakar,Senegal,FALSE,1604,1664,1587,1681,-17
+1979-11-03,Friendly,played,Senegal,SEN,Sierra Leone,,FALSE,0,1,loss,Freetown,Sierra Leone,FALSE,1587,1374,1574,1387,-13
+1979-12-26,Friendly,played,Senegal,SEN,Tunisia,TUN,FALSE,1,3,loss,Tunis,Tunisia,FALSE,1574,1655,1562,1667,-12
+1980-02-10,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,0,1,loss,Banjul,Gambia,TRUE,1562,1565,1542,1585,-20
+1980-02-14,Amílcar Cabral Cup,played,Senegal,SEN,Mauritania,,FALSE,2,1,win,Banjul,Gambia,TRUE,1542,969,1543,968,1
+1980-02-16,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,2,1,win,Banjul,Gambia,TRUE,1543,1588,1566,1565,23
+1980-02-18,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,FALSE,1,0,win,Banjul,Gambia,FALSE,1566,1315,1578,1303,12
+1980-02-25,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,2,3,loss,Casablanca,Morocco,FALSE,1578,1548,1570,1556,-8
+1980-04-05,Friendly,played,Senegal,SEN,Tunisia,TUN,TRUE,0,2,loss,Dakar,Senegal,FALSE,1570,1654,1554,1670,-16
+1980-05-01,Friendly,played,Senegal,SEN,Guinea,,TRUE,1,0,win,Dakar,Senegal,FALSE,1554,1521,1560,1515,6
+1980-06-22,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,TRUE,0,1,loss,Dakar,Senegal,FALSE,1560,1623,1538,1645,-22
+1980-07-02,Friendly,played,Senegal,SEN,Mauritania,,FALSE,3,1,win,Nouakchott,Mauritania,FALSE,1505,985,1507,983,2
+1980-07-06,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,FALSE,0,0,draw,Casablanca,Morocco,FALSE,1507,1645,1519,1633,12
+1980-11-09,Friendly,played,Senegal,SEN,Mauritania,,TRUE,3,0,win,Dakar,Senegal,FALSE,1519,1020,1520,1019,1
+1980-11-17,African Cup of Nations qualification,played,Senegal,SEN,Sierra Leone,,TRUE,2,0,win,Dakar,Senegal,FALSE,,,,,
+1980-11-30,African Cup of Nations qualification,played,Senegal,SEN,Sierra Leone,,FALSE,2,1,win,Freetown,Sierra Leone,FALSE,1521,1405,1540,1386,19
+1981-02-03,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,FALSE,1,0,win,Bamako,Mali,TRUE,1540,1196,1545,1191,5
+1981-02-05,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,1,0,win,Bamako,Mali,TRUE,1545,1307,1553,1299,8
+1981-02-10,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,0,1,loss,Bamako,Mali,TRUE,1553,1519,1531,1541,-22
+1981-02-12,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,FALSE,5,1,win,Bamako,Mali,TRUE,1531,1231,1542,1220,11
+1981-03-25,Friendly,played,Senegal,SEN,Guinea,,TRUE,0,1,loss,Dakar,Senegal,FALSE,1542,1546,1529,1559,-13
+1981-04-03,Friendly,played,Senegal,SEN,Algeria,DZA,FALSE,0,2,loss,Oran,Algeria,FALSE,1529,1671,1523,1677,-6
+1981-04-12,African Cup of Nations qualification,played,Senegal,SEN,Tunisia,TUN,FALSE,0,1,loss,Tunis,Tunisia,FALSE,1523,1670,1515,1678,-8
+1981-04-26,African Cup of Nations qualification,played,Senegal,SEN,Tunisia,TUN,TRUE,0,0,draw,Dakar,Senegal,FALSE,1515,1678,1524,1669,9
+1981-11-01,Friendly,played,Senegal,SEN,Morocco,MAR,TRUE,2,0,win,Dakar,Senegal,FALSE,1524,1658,1540,1642,16
+1982-01-24,Friendly,played,Senegal,SEN,Burkina Faso,,FALSE,0,0,draw,Bobo Dioulasso,Upper Volta,FALSE,1540,1294,1536,1298,-4
+1982-01-31,Friendly,played,Senegal,SEN,Benin,,TRUE,1,0,win,Dakar,Senegal,FALSE,1536,1305,1539,1302,3
+1982-02-11,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,1,1,draw,Praia,Cape Verde,TRUE,1539,1502,1537,1504,-2
+1982-02-13,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,1,0,win,Praia,Cape Verde,TRUE,1537,1248,1543,1242,6
+1982-02-15,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,TRUE,2,0,win,Praia,Cape Verde,TRUE,1543,1385,1560,1368,17
+1982-02-17,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,1,0,win,Praia,Cape Verde,TRUE,1560,1521,1578,1503,18
+1982-02-19,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,0,3,loss,Praia,Cape Verde,TRUE,1578,1516,1537,1557,-41
+1982-05-01,Friendly,played,Senegal,SEN,Cameroon,CMR,FALSE,1,2,loss,Douala,Cameroon,FALSE,1541,1627,1533,1635,-8
+1982-05-04,Friendly,played,Senegal,SEN,Ghana,GHA,FALSE,0,0,draw,Yaoundé,Cameroon,TRUE,1533,1713,1540,1706,7
+1982-05-05,Friendly,played,Senegal,SEN,Guinea,,FALSE,1,1,draw,Yaoundé,Cameroon,TRUE,1540,1564,1541,1563,1
+1982-05-12,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,1,2,loss,Casablanca,Morocco,FALSE,1541,1582,1535,1588,-6
+1982-08-06,Merdeka Tournament,played,Senegal,SEN,South Korea,KOR,FALSE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1535,1683,1567,1651,32
+1982-08-09,Merdeka Tournament,played,Senegal,SEN,United Arab Emirates,ARE,TRUE,3,1,win,Kuala Lumpur,Malaysia,TRUE,1567,1154,1571,1150,4
+1982-08-11,Merdeka Tournament,played,Senegal,SEN,Indonesia,IDN,FALSE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,1571,1293,1561,1303,-10
+1982-08-13,Merdeka Tournament,played,Senegal,SEN,Malaysia,,FALSE,0,1,loss,Kuantan,Malaysia,FALSE,1561,1265,1538,1288,-23
+1982-08-20,Merdeka Tournament,played,Senegal,SEN,Ghana,GHA,FALSE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,1543,1726,1550,1719,7
+1982-10-27,Friendly,played,Senegal,SEN,Togo,TGO,TRUE,1,2,loss,Dakar,Senegal,FALSE,1550,1455,1535,1470,-15
+1982-11-14,African Cup of Nations qualification,played,Senegal,SEN,Niger,,FALSE,0,0,draw,Niamey,Niger,FALSE,1535,1251,1525,1261,-10
+1982-11-28,African Cup of Nations qualification,played,Senegal,SEN,Niger,,TRUE,1,0,win,Dakar,Senegal,FALSE,1525,1261,1529,1257,4
+1983-01-23,Friendly,played,Senegal,SEN,Niger,,FALSE,0,2,loss,Niamey,Niger,FALSE,1529,1257,1485,1301,-44
+1983-02-01,Friendly,played,Senegal,SEN,Guinea,,TRUE,1,0,win,Dakar,Senegal,FALSE,1485,1569,1495,1559,10
+1983-02-06,Friendly,played,Senegal,SEN,Niger,,TRUE,2,0,win,Dakar,Senegal,FALSE,1495,1301,1504,1292,9
+1983-03-09,Friendly,played,Senegal,SEN,Morocco,MAR,TRUE,1,0,win,Dakar,Senegal,FALSE,1504,1575,1513,1566,9
+1983-03-10,Friendly,played,Senegal,SEN,Morocco,MAR,TRUE,0,0,draw,Dakar,Senegal,FALSE,1513,1566,1512,1567,-1
+1983-04-08,African Cup of Nations qualification,played,Senegal,SEN,Libya,,FALSE,1,2,loss,Tripoli,Libya,FALSE,1512,1610,1502,1620,-10
+1983-04-24,African Cup of Nations qualification,played,Senegal,SEN,Libya,,TRUE,1,0,win,Dakar,Senegal,FALSE,1502,1620,1523,1599,21
+1983-07-20,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,1,1,draw,Nouakchott,Mauritania,TRUE,1545,1283,1532,1296,-13
+1983-07-23,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,FALSE,2,1,win,Nouakchott,Mauritania,TRUE,1532,1394,1544,1382,12
+1983-07-24,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,1,1,draw,Nouakchott,Mauritania,TRUE,1544,1401,1536,1409,-8
+1983-07-27,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,2,1,win,Nouakchott,Mauritania,TRUE,1536,1485,1553,1468,17
+1983-07-29,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,3,0,win,Nouakchott,Mauritania,TRUE,1553,1340,1569,1324,16
+1983-08-13,African Cup of Nations qualification,played,Senegal,SEN,Algeria,DZA,TRUE,1,1,draw,Dakar,Senegal,FALSE,,,,,
+1983-08-28,African Cup of Nations qualification,played,Senegal,SEN,Algeria,DZA,FALSE,0,2,loss,Algiers,Algeria,FALSE,1569,1668,1555,1682,-14
+1983-11-15,Friendly,played,Senegal,SEN,Nigeria,NGA,FALSE,0,1,loss,Lagos,Nigeria,FALSE,1542,1568,1529,1581,-13
+1983-11-19,Friendly,played,Senegal,SEN,Nigeria,NGA,TRUE,0,1,loss,Dakar,Senegal,FALSE,1529,1581,1506,1604,-23
+1984-01-02,Friendly,played,Senegal,SEN,Gambia,,FALSE,2,2,draw,Banjul,Gambia,FALSE,1506,1379,1505,1380,-1
+1984-01-04,Friendly,played,Senegal,SEN,Mauritania,,FALSE,2,0,win,Banjul,Gambia,TRUE,1505,1071,1508,1068,3
+1984-01-18,Friendly,played,Senegal,SEN,Guinea,,TRUE,1,0,win,Dakar,Senegal,FALSE,1508,1401,1513,1396,5
+1984-01-29,Friendly,played,Senegal,SEN,Liberia,,FALSE,0,0,draw,Abidjan,Ivory Coast,TRUE,1513,1325,1506,1332,-7
+1984-01-31,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,0,1,loss,Abidjan,Ivory Coast,FALSE,1506,1565,1497,1574,-9
+1984-02-02,Friendly,played,Senegal,SEN,Mali,,FALSE,1,1,draw,Abidjan,Ivory Coast,TRUE,1497,1458,1495,1460,-2
+1984-02-05,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,3,4,loss,Abidjan,Ivory Coast,FALSE,1495,1581,1487,1589,-8
+1984-02-09,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,3,2,win,Freetown,Sierra Leone,TRUE,1487,1324,1498,1313,11
+1984-02-11,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,0,1,loss,Freetown,Sierra Leone,TRUE,1498,1474,1477,1495,-21
+1984-02-13,Amílcar Cabral Cup,played,Senegal,SEN,Mauritania,,FALSE,6,0,win,Freetown,Sierra Leone,TRUE,1477,1056,1484,1049,7
+1984-02-15,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,FALSE,1,0,win,Freetown,Sierra Leone,TRUE,1484,1389,1499,1374,15
+1984-02-19,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,FALSE,0,0,draw,Freetown,Sierra Leone,FALSE,1499,1335,1495,1339,-4
+1984-06-23,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,1,2,loss,Casablanca,Morocco,FALSE,1495,1618,1491,1622,-4
+1984-07-01,FIFA World Cup qualification,played,Senegal,SEN,Angola,AGO,FALSE,0,1,loss,Luanda,Angola,FALSE,1491,1452,1474,1469,-17
+1984-07-15,FIFA World Cup qualification,played,Senegal,SEN,Angola,AGO,TRUE,1,0,win,Dakar,Senegal,FALSE,1474,1469,1488,1455,14
+1985-02-12,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,2,0,win,Bakau,Gambia,TRUE,1488,1408,1511,1385,23
+1985-02-14,Amílcar Cabral Cup,played,Senegal,SEN,Mauritania,,FALSE,2,0,win,Bakau,Gambia,TRUE,1511,1103,1516,1098,5
+1985-02-16,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,2,2,draw,Bakau,Gambia,TRUE,1516,1500,1515,1501,-1
+1985-02-19,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,FALSE,1,0,win,Bakau,Gambia,TRUE,1515,1260,1522,1253,7
+1985-02-22,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,FALSE,1,0,win,Bakau,Gambia,FALSE,1522,1335,1537,1320,15
+1985-03-31,African Cup of Nations qualification,played,Senegal,SEN,Togo,TGO,FALSE,1,0,win,Tsévié,Togo,FALSE,1537,1501,1561,1477,24
+1985-04-14,African Cup of Nations qualification,played,Senegal,SEN,Togo,TGO,TRUE,1,1,draw,Dakar,Senegal,FALSE,1561,1449,1550,1460,-11
+1985-05-10,Friendly,played,Senegal,SEN,Mauritania,,FALSE,0,0,draw,Nouakchott,Mauritania,FALSE,1550,1108,1542,1116,-8
+1985-08-18,African Cup of Nations qualification,played,Senegal,SEN,Zimbabwe,,FALSE,0,1,loss,Harare,Zimbabwe,FALSE,1542,1475,1524,1493,-18
+1985-09-01,African Cup of Nations qualification,played,Senegal,SEN,Zimbabwe,,TRUE,3,0,win,Dakar,Senegal,FALSE,1524,1493,1546,1471,22
+1985-12-25,Friendly,played,Senegal,SEN,Guinea,,TRUE,3,1,win,Dakar,Senegal,FALSE,1546,1373,1556,1363,10
+1985-12-29,Friendly,played,Senegal,SEN,Ivory Coast,CIV,TRUE,2,0,win,Dakar,Senegal,FALSE,1556,1626,1583,1599,27
+1986-01-22,Friendly,played,Senegal,SEN,Gabon,,FALSE,1,0,win,Libreville,Gabon,FALSE,1583,1434,1592,1425,9
+1986-02-01,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,TRUE,2,1,win,Dakar,Senegal,FALSE,1592,1356,1597,1351,5
+1986-02-05,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,TRUE,1,0,win,Dakar,Senegal,FALSE,1597,1448,1605,1440,8
+1986-02-08,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,TRUE,1,0,win,Dakar,Senegal,FALSE,1605,1337,1609,1333,4
+1986-02-10,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,TRUE,3,1,win,Dakar,Senegal,FALSE,1609,1391,1617,1383,8
+1986-03-07,African Cup of Nations,played,Senegal,SEN,Egypt,EGY,FALSE,1,0,win,Cairo,Egypt,FALSE,1617,1605,1648,1574,31
+1986-03-10,African Cup of Nations,played,Senegal,SEN,Mozambique,,FALSE,2,0,win,Cairo,Egypt,TRUE,1648,1365,1660,1353,12
+1986-03-13,African Cup of Nations,played,Senegal,SEN,Ivory Coast,CIV,FALSE,0,1,loss,Cairo,Egypt,TRUE,1660,1587,1630,1617,-30
+1986-08-13,Friendly,played,Senegal,SEN,Gabon,,TRUE,1,0,win,Dakar,Senegal,FALSE,1630,1425,1633,1422,3
+1987-02-23,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,TRUE,0,1,loss,Conakry,Guinea,TRUE,1633,1390,1601,1422,-32
+1987-02-25,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,FALSE,2,0,win,Conakry,Guinea,TRUE,1601,1262,1608,1255,7
+1987-03-01,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,0,1,loss,Conakry,Guinea,FALSE,1608,1354,1580,1382,-28
+1987-03-02,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,TRUE,0,0,draw,Conakry,Guinea,TRUE,1580,1437,1572,1445,-8
+1987-03-29,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,TRUE,4,0,win,Dakar,Senegal,FALSE,1572,1398,1585,1385,13
+1987-04-12,African Cup of Nations qualification,played,Senegal,SEN,Guinea,,FALSE,0,0,draw,Conakry,Guinea,FALSE,1585,1385,1579,1391,-6
+1987-05-27,Kirin Cup,played,Senegal,SEN,Japan,JPN,FALSE,2,2,draw,Hiroshima,Japan,FALSE,1579,1469,1579,1469,0
+1987-07-05,African Cup of Nations qualification,played,Senegal,SEN,DR Congo,,TRUE,0,0,draw,Dakar,Senegal,FALSE,,,,,
+1987-07-19,African Cup of Nations qualification,played,Senegal,SEN,DR Congo,,FALSE,0,0,draw,Kinshasa,Zaïre,FALSE,,,,,
+1987-08-02,All-African Games,played,Senegal,SEN,Egypt,EGY,FALSE,0,1,loss,Nairobi,Kenya,TRUE,1543,1689,1531,1701,-12
+1987-08-04,All-African Games,played,Senegal,SEN,Malawi,,FALSE,0,2,loss,Nairobi,Kenya,TRUE,1531,1422,1492,1461,-39
+1987-08-06,All-African Games,played,Senegal,SEN,Ivory Coast,CIV,FALSE,0,1,loss,Nairobi,Kenya,TRUE,1492,1649,1480,1661,-12
+1987-08-08,All-African Games,played,Senegal,SEN,Tunisia,TUN,TRUE,1,0,win,Nairobi,Kenya,TRUE,1480,1460,1499,1441,19
+1987-12-19,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,0,1,loss,Monrovia,Liberia,TRUE,1499,1615,1485,1629,-14
+1987-12-22,Friendly,played,Senegal,SEN,Burkina Faso,,FALSE,1,0,win,Monrovia,Liberia,TRUE,1485,1308,1496,1297,11
+1988-04-28,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,FALSE,4,0,win,Bissau,Guinea-Bissau,TRUE,1496,1303,1515,1284,19
+1988-04-30,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,1,1,draw,Bissau,Guinea-Bissau,FALSE,1515,1264,1507,1272,-8
+1988-05-02,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,TRUE,2,2,draw,Bissau,Guinea-Bissau,TRUE,1507,1498,1506,1499,-1
+1988-05-05,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,1,1,draw,Bissau,Guinea-Bissau,TRUE,1506,1358,1498,1366,-8
+1988-05-07,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,TRUE,2,1,win,Bissau,Guinea-Bissau,TRUE,1498,1451,1515,1434,17
+1988-11-17,Friendly,played,Senegal,SEN,Cape Verde,,FALSE,1,0,win,Praia,Cape Verde,FALSE,1515,1239,1523,1231,8
+1988-11-18,Friendly,played,Senegal,SEN,Angola,AGO,FALSE,2,1,win,Praia,Cape Verde,TRUE,1523,1504,1537,1490,14
+1989-01-29,Friendly,played,Senegal,SEN,DR Congo,,TRUE,1,1,draw,Dakar,Senegal,FALSE,,,,,
+1989-01-31,Friendly,played,Senegal,SEN,DR Congo,,TRUE,2,1,win,Dakar,Senegal,FALSE,,,,,
+1989-05-24,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,0,0,draw,Bamako,Mali,TRUE,1553,1293,1540,1306,-13
+1989-05-27,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,2,2,draw,Bamako,Mali,FALSE,1540,1391,1537,1394,-3
+1989-05-30,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,FALSE,1,2,loss,Bamako,Mali,TRUE,1537,1219,1503,1253,-34
+1989-07-16,African Cup of Nations qualification,played,Senegal,SEN,Tunisia,TUN,TRUE,3,0,win,Dakar,Senegal,FALSE,,,,,
+1989-07-30,African Cup of Nations qualification,played,Senegal,SEN,Tunisia,TUN,FALSE,1,0,win,Tunis,Tunisia,FALSE,,,,,
+1989-11-21,Friendly,played,Senegal,SEN,Central African Republic,,TRUE,3,0,win,Dakar,Senegal,FALSE,1546,1221,1549,1218,3
+1989-12-24,Friendly,played,Senegal,SEN,Sierra Leone,,TRUE,1,0,win,Dakar,Senegal,FALSE,1548,1364,1551,1361,3
+1989-12-31,Friendly,played,Senegal,SEN,Algeria,DZA,TRUE,0,0,draw,Dakar,Senegal,FALSE,1551,1641,1551,1641,0
+1990-01-24,Friendly,played,Senegal,SEN,Liberia,,FALSE,1,0,win,Bauchi,Nigeria,TRUE,1551,1427,1564,1414,13
+1990-01-28,Friendly,played,Senegal,SEN,Nigeria,NGA,FALSE,1,1,draw,Bauchi,Nigeria,FALSE,,,,,
+1990-03-03,African Cup of Nations,played,Senegal,SEN,Kenya,,TRUE,0,0,draw,Annaba,Algeria,TRUE,1573,1440,1564,1449,-9
+1990-03-06,African Cup of Nations,played,Senegal,SEN,Cameroon,CMR,FALSE,2,0,win,Annaba,Algeria,TRUE,1564,1659,1612,1611,48
+1990-03-09,African Cup of Nations,played,Senegal,SEN,Zambia,,FALSE,0,0,draw,Annaba,Algeria,TRUE,1612,1561,1608,1565,-4
+1990-03-12,African Cup of Nations,played,Senegal,SEN,Algeria,DZA,FALSE,1,2,loss,Algiers,Algeria,FALSE,1608,1738,1597,1749,-11
+1990-03-15,African Cup of Nations,played,Senegal,SEN,Zambia,,TRUE,0,1,loss,Algiers,Algeria,TRUE,1597,1536,1568,1565,-29
+1990-12-18,Friendly,played,Senegal,SEN,Algeria,DZA,FALSE,0,1,loss,Constantine,Algeria,FALSE,1545,1765,1542,1768,-3
+1991-01-21,Dakar Tournament,played,Senegal,SEN,Ivory Coast,CIV,TRUE,0,0,draw,Dakar,Senegal,FALSE,,,,,
+1991-01-22,Dakar Tournament,played,Senegal,SEN,Algeria,DZA,TRUE,2,2,draw,Dakar,Senegal,FALSE,,,,,
+1991-02-15,Friendly,played,Senegal,SEN,Ivory Coast,CIV,TRUE,0,0,draw,Dakar,Senegal,FALSE,1546,1611,1544,1613,-2
+1991-02-17,Friendly,played,Senegal,SEN,Algeria,DZA,TRUE,1,3,loss,Dakar,Senegal,FALSE,,,,,
+1991-05-05,Friendly,played,Senegal,SEN,Ivory Coast,CIV,TRUE,0,0,draw,Dakar,Senegal,FALSE,1549,1620,1547,1622,-2
+1991-06-09,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1547,1622,1531,1638,-16
+1991-10-31,Friendly,played,Senegal,SEN,Ghana,GHA,FALSE,3,2,win,Abidjan,Ivory Coast,TRUE,1531,1525,1551,1505,20
+1991-11-02,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,0,1,loss,Abidjan,Ivory Coast,FALSE,1551,1682,1543,1690,-8
+1991-11-24,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,TRUE,4,0,win,Dakar,Senegal,FALSE,1543,1313,1553,1303,10
+1991-11-27,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,TRUE,0,0,draw,Dakar,Senegal,FALSE,1553,1317,1538,1332,-15
+1991-11-30,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,TRUE,2,0,win,Dakar,Senegal,FALSE,1538,1276,1545,1269,7
+1991-12-02,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,TRUE,1,0,win,Dakar,Senegal,FALSE,1545,1337,1551,1331,6
+1991-12-16,Friendly,played,Senegal,SEN,Algeria,DZA,FALSE,1,3,loss,Algiers,Algeria,FALSE,1551,1736,1546,1741,-5
+1992-01-12,African Cup of Nations,played,Senegal,SEN,Nigeria,NGA,TRUE,1,2,loss,Dakar,Senegal,FALSE,1546,1600,1518,1628,-28
+1992-01-16,African Cup of Nations,played,Senegal,SEN,Kenya,,TRUE,3,0,win,Dakar,Senegal,FALSE,1518,1462,1543,1437,25
+1992-01-19,African Cup of Nations,played,Senegal,SEN,Cameroon,CMR,TRUE,0,1,loss,Dakar,Senegal,FALSE,1543,1683,1521,1705,-22
+1992-08-30,African Cup of Nations qualification,played,Senegal,SEN,Guinea-Bissau,,TRUE,3,0,win,Dakar,Senegal,FALSE,1533,1323,1543,1313,10
+1992-10-25,FIFA World Cup qualification,played,Senegal,SEN,Mozambique,,FALSE,1,0,win,Maputo,Mozambique,FALSE,1543,1332,1557,1318,14
+1992-11-08,African Cup of Nations qualification,played,Senegal,SEN,Sierra Leone,,FALSE,0,2,loss,Freetown,Sierra Leone,FALSE,1557,1469,1520,1506,-37
+1992-11-17,Friendly,played,Senegal,SEN,United Arab Emirates,ARE,FALSE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1520,1494,1522,1492,2
+1992-11-19,Friendly,played,Senegal,SEN,United Arab Emirates,ARE,FALSE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1522,1492,1524,1490,2
+1992-12-19,FIFA World Cup qualification,played,Senegal,SEN,Gabon,,FALSE,2,3,loss,Libreville,Gabon,FALSE,1524,1459,1506,1477,-18
+1993-01-10,African Cup of Nations qualification,played,Senegal,SEN,Algeria,DZA,TRUE,1,2,loss,Dakar,Senegal,FALSE,1506,1613,1486,1633,-20
+1993-01-30,FIFA World Cup qualification,played,Senegal,SEN,Mozambique,,TRUE,6,1,win,Dakar,Senegal,FALSE,1483,1320,1497,1306,14
+1993-02-27,FIFA World Cup qualification,played,Senegal,SEN,Gabon,,TRUE,1,0,win,Dakar,Senegal,FALSE,1497,1454,1509,1442,12
+1993-04-11,African Cup of Nations qualification,played,Senegal,SEN,Guinea-Bissau,,FALSE,3,0,win,Bissau,Guinea-Bissau,FALSE,1509,1285,1532,1262,23
+1993-04-18,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,FALSE,0,1,loss,Casablanca,Morocco,FALSE,1532,1566,1519,1579,-13
+1993-06-20,Friendly,played,Senegal,SEN,Mali,,FALSE,2,0,win,Bamako,Mali,FALSE,1519,1422,1534,1407,15
+1993-07-11,African Cup of Nations qualification,played,Senegal,SEN,Sierra Leone,,TRUE,1,1,draw,Dakar,Senegal,FALSE,1534,1517,1528,1523,-6
+1993-07-17,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,TRUE,1,3,loss,Dakar,Senegal,FALSE,1528,1585,1494,1619,-34
+1993-07-25,African Cup of Nations qualification,played,Senegal,SEN,Algeria,DZA,FALSE,0,4,loss,Tlemcen,Algeria,FALSE,1494,1599,1476,1617,-18
+1993-08-07,FIFA World Cup qualification,played,Senegal,SEN,Zambia,,TRUE,0,0,draw,Abidjan,Ivory Coast,TRUE,1476,1645,1485,1636,9
+1993-09-19,Friendly,played,Senegal,SEN,Zimbabwe,,FALSE,0,2,loss,Harare,Zimbabwe,FALSE,1485,1547,1477,1555,-8
+1993-09-26,FIFA World Cup qualification,played,Senegal,SEN,Zambia,,FALSE,0,4,loss,Lusaka,Zambia,FALSE,1477,1636,1463,1650,-14
+1993-11-27,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,TRUE,0,1,loss,Freetown,Sierra Leone,TRUE,1463,1465,1443,1485,-20
+1993-11-29,Amílcar Cabral Cup,played,Senegal,SEN,Mauritania,,TRUE,4,0,win,Freetown,Sierra Leone,TRUE,1443,1085,1451,1077,8
+1993-12-01,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,TRUE,0,0,draw,Freetown,Sierra Leone,TRUE,1451,1251,1441,1261,-10
+1993-12-03,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,FALSE,2,0,win,Freetown,Sierra Leone,TRUE,1441,1318,1461,1298,20
+1993-12-05,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,FALSE,0,2,loss,Freetown,Sierra Leone,FALSE,1461,1488,1442,1507,-19
+1994-01-23,Friendly,played,Senegal,SEN,Mali,,FALSE,0,1,loss,Bamako,Mali,FALSE,1442,1413,1434,1421,-8
+1994-01-30,Friendly,played,Senegal,SEN,Mali,,TRUE,0,0,draw,Dakar,Senegal,FALSE,1434,1421,1431,1424,-3
+1994-02-07,Friendly,played,Senegal,SEN,Gambia,,FALSE,0,0,draw,Banjul,Gambia,FALSE,1431,1341,1431,1341,0
+1994-02-27,Friendly,played,Senegal,SEN,Gabon,,FALSE,0,0,draw,Moanda,Gabon,FALSE,1431,1432,1434,1429,3
+1994-03-29,African Cup of Nations,played,Senegal,SEN,Guinea,,TRUE,2,1,win,Sousse,Tunisia,TRUE,1434,1403,1457,1380,23
+1994-03-31,African Cup of Nations,played,Senegal,SEN,Ghana,GHA,FALSE,0,1,loss,Sousse,Tunisia,TRUE,1457,1636,1444,1649,-13
+1994-04-03,African Cup of Nations,played,Senegal,SEN,Zambia,,FALSE,0,1,loss,Sousse,Tunisia,TRUE,1444,1674,1433,1685,-11
+1994-09-03,African Cup of Nations qualification,played,Senegal,SEN,Mauritania,,TRUE,0,0,draw,Dakar,Senegal,FALSE,1433,1087,1416,1104,-17
+1994-10-09,Friendly,played,Senegal,SEN,Niger,,TRUE,3,1,win,Dakar,Senegal,FALSE,1416,1355,1425,1346,9
+1994-10-16,African Cup of Nations qualification,played,Senegal,SEN,Togo,TGO,FALSE,0,2,loss,Lomé,Togo,FALSE,1425,1290,1392,1323,-33
+1994-10-23,Friendly,played,Senegal,SEN,Oman,,FALSE,1,0,win,Muscat,Oman,FALSE,1392,1305,1402,1295,10
+1994-10-25,Friendly,played,Senegal,SEN,Oman,,FALSE,1,2,loss,Muscat,Oman,FALSE,1402,1295,1392,1305,-10
+1994-10-28,Friendly,played,Senegal,SEN,United Arab Emirates,ARE,FALSE,2,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1392,1484,1387,1489,-5
+1995-01-07,African Cup of Nations qualification,played,Senegal,SEN,Tunisia,TUN,TRUE,0,0,draw,Ziguinchor,Senegal,FALSE,1418,1588,1422,1584,4
+1995-01-22,African Cup of Nations qualification,played,Senegal,SEN,Liberia,,FALSE,1,1,draw,Monrovia,Liberia,FALSE,1422,1356,1424,1354,2
+1995-03-01,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,0,2,loss,Casablanca,Morocco,FALSE,1424,1599,1419,1604,-5
+1995-04-07,African Cup of Nations qualification,played,Senegal,SEN,Mauritania,,FALSE,1,0,win,Nouakchott,Mauritania,FALSE,1419,1162,1431,1150,12
+1995-04-22,African Cup of Nations qualification,played,Senegal,SEN,Togo,TGO,TRUE,5,1,win,Dakar,Senegal,FALSE,1431,1348,1450,1329,19
+1995-07-15,African Cup of Nations qualification,played,Senegal,SEN,Tunisia,TUN,FALSE,0,4,loss,Tunis,Tunisia,FALSE,1450,1554,1432,1572,-18
+1995-07-30,African Cup of Nations qualification,played,Senegal,SEN,Liberia,,TRUE,3,0,win,Dakar,Senegal,FALSE,1432,1423,1456,1399,24
+1995-11-18,Amílcar Cabral Cup,played,Senegal,SEN,Guinea-Bissau,,FALSE,1,2,loss,Nouakchott,Mauritania,TRUE,1456,1203,1424,1235,-32
+1995-11-20,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,TRUE,3,0,win,Nouakchott,Mauritania,TRUE,1424,1376,1454,1346,30
+1995-11-22,Amílcar Cabral Cup,played,Senegal,SEN,Sierra Leone,,TRUE,1,1,draw,Nouakchott,Mauritania,TRUE,1454,1530,1458,1526,4
+1996-04-21,Friendly,played,Senegal,SEN,Gambia,,FALSE,2,1,win,Banjul,Gambia,FALSE,1458,1328,1467,1319,9
+1996-05-17,Friendly,played,Senegal,SEN,Mauritania,,FALSE,0,0,draw,Nouakchott,Mauritania,FALSE,1467,1260,1464,1263,-3
+1996-05-26,Friendly,played,Senegal,SEN,Tunisia,TUN,FALSE,0,2,loss,Tunis,Tunisia,FALSE,1464,1601,1458,1607,-6
+1996-06-02,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,FALSE,1,2,loss,Lomé,Togo,FALSE,1458,1296,1434,1320,-24
+1996-06-16,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,TRUE,1,1,draw,Dakar,Senegal,FALSE,,,,,
+1996-09-15,Friendly,played,Senegal,SEN,Mali,,TRUE,1,0,win,Saint-Louis,Senegal,FALSE,1424,1309,1428,1305,4
+1996-10-06,African Cup of Nations qualification,played,Senegal,SEN,Ethiopia,,FALSE,2,1,win,Addis Ababa,Ethiopia,FALSE,1428,1331,1448,1311,20
+1997-02-16,Friendly,played,Senegal,SEN,Mali,,TRUE,1,1,draw,Dakar,Senegal,FALSE,1452,1395,1448,1399,-4
+1997-03-29,Friendly,played,Senegal,SEN,Sierra Leone,,FALSE,1,2,loss,Freetown,Sierra Leone,FALSE,1454,1418,1446,1426,-8
+1997-05-08,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,1,4,loss,Bouaké,Ivory Coast,FALSE,1446,1537,1437,1546,-9
+1997-06-05,Friendly,played,Senegal,SEN,Algeria,DZA,TRUE,0,0,draw,Dakar,Senegal,FALSE,,,,,
+1997-06-22,African Cup of Nations qualification,played,Senegal,SEN,Ethiopia,,TRUE,3,0,win,Dakar,Senegal,FALSE,1438,1315,1453,1300,15
+1997-07-13,African Cup of Nations qualification,played,Senegal,SEN,Egypt,EGY,FALSE,0,2,loss,Cairo,Egypt,FALSE,1453,1567,1439,1581,-14
+1997-07-27,African Cup of Nations qualification,played,Senegal,SEN,Morocco,MAR,FALSE,0,3,loss,Rabat,Morocco,FALSE,1439,1724,1432,1731,-7
+1997-11-19,Friendly,played,Senegal,SEN,Mali,,TRUE,1,2,loss,Dakar,Senegal,FALSE,1432,1366,1418,1380,-14
+1997-11-28,Amílcar Cabral Cup,played,Senegal,SEN,Mauritania,,FALSE,1,1,draw,Banjul,Gambia,TRUE,1418,1178,1406,1190,-12
+1997-11-30,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,TRUE,2,0,win,Banjul,Gambia,TRUE,1406,1280,1426,1260,20
+1997-12-02,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,FALSE,0,0,draw,Banjul,Gambia,FALSE,1426,1330,1426,1330,0
+1997-12-05,Amílcar Cabral Cup,played,Senegal,SEN,Guinea,,FALSE,2,1,win,Banjul,Gambia,TRUE,1426,1501,1450,1477,24
+1997-12-07,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,FALSE,0,1,loss,Banjul,Gambia,TRUE,1450,1429,1429,1450,-21
+1998-07-22,Friendly,played,Senegal,SEN,Cape Verde,,TRUE,1,0,win,Dakar,Senegal,FALSE,1429,1256,1432,1253,3
+1998-07-26,Friendly,played,Senegal,SEN,Mali,,TRUE,3,1,win,Dakar,Senegal,FALSE,1432,1453,1444,1441,12
+1998-08-31,Friendly,played,Senegal,SEN,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1444,1388,1445,1387,1
+1998-09-02,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,0,2,loss,Tangier,Morocco,FALSE,1445,1789,1443,1791,-2
+1998-09-17,Friendly,played,Senegal,SEN,Saudi Arabia,SAU,FALSE,2,3,loss,Dammam,Saudi Arabia,FALSE,1443,1633,1440,1636,-3
+1998-12-13,African Cup of Nations qualification,played,Senegal,SEN,Burundi,,FALSE,0,1,loss,Bujumbura,Burundi,FALSE,1440,1451,1426,1465,-14
+1999-01-10,Friendly,played,Senegal,SEN,Guinea,,TRUE,1,0,win,Dakar,Senegal,FALSE,1426,1448,1434,1440,8
+1999-01-13,Friendly,played,Senegal,SEN,Guinea,,TRUE,1,0,win,Dakar,Senegal,FALSE,1434,1440,1441,1433,7
+1999-01-23,African Cup of Nations qualification,played,Senegal,SEN,Burkina Faso,,TRUE,1,1,draw,Dakar,Senegal,FALSE,1441,1420,1434,1427,-7
+1999-05-16,Friendly,played,Senegal,SEN,Libya,,FALSE,1,2,loss,Tripoli,Libya,FALSE,1443,1358,1433,1368,-10
+1999-06-01,Friendly,played,Senegal,SEN,Mali,,FALSE,1,1,draw,Bamako,Mali,FALSE,1433,1439,1436,1436,3
+1999-06-06,African Cup of Nations qualification,played,Senegal,SEN,Burkina Faso,,FALSE,2,2,draw,Ouagadougou,Burkina Faso,FALSE,1436,1463,1443,1456,7
+1999-06-19,African Cup of Nations qualification,played,Senegal,SEN,Burundi,,TRUE,1,0,win,Dakar,Senegal,FALSE,1443,1409,1456,1396,13
+1999-07-18,African Cup of Nations qualification,played,Senegal,SEN,Eritrea,,TRUE,6,2,win,Dakar,Senegal,FALSE,1456,1221,1466,1211,10
+1999-08-08,African Cup of Nations qualification,played,Senegal,SEN,Zimbabwe,,TRUE,2,0,win,Dakar,Senegal,FALSE,1453,1503,1479,1477,26
+1999-11-20,Friendly,played,Senegal,SEN,Ivory Coast,CIV,TRUE,3,0,win,Dakar,Senegal,FALSE,1494,1573,1510,1557,16
+1999-12-12,Friendly,played,Senegal,SEN,Gambia,,TRUE,3,0,win,Dakar,Senegal,FALSE,1510,1308,1515,1303,5
+1999-12-21,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,0,0,draw,Agadir,Morocco,FALSE,1515,1766,1523,1758,8
+2000-01-13,Friendly,played,Senegal,SEN,Cameroon,CMR,TRUE,0,0,draw,Dakar,Senegal,FALSE,1523,1577,1522,1578,-1
+2000-01-25,African Cup of Nations,played,Senegal,SEN,Burkina Faso,,FALSE,3,1,win,Kano,Nigeria,TRUE,1522,1434,1550,1406,28
+2000-01-28,African Cup of Nations,played,Senegal,SEN,Egypt,EGY,FALSE,0,1,loss,Kano,Nigeria,TRUE,1550,1645,1532,1663,-18
+2000-02-01,African Cup of Nations,played,Senegal,SEN,Zambia,,FALSE,2,2,draw,Lagos,Nigeria,TRUE,1532,1546,1533,1545,1
+2000-02-07,African Cup of Nations,played,Senegal,SEN,Nigeria,NGA,FALSE,1,2,loss,Lagos,Nigeria,FALSE,1533,1728,1525,1736,-8
+2000-04-09,FIFA World Cup qualification,played,Senegal,SEN,Benin,,FALSE,1,1,draw,Cotonou,Benin,FALSE,1525,1236,1515,1246,-10
+2000-04-23,FIFA World Cup qualification,played,Senegal,SEN,Benin,,TRUE,1,0,win,Dakar,Senegal,FALSE,1515,1246,1519,1242,4
+2000-05-06,Amílcar Cabral Cup,played,Senegal,SEN,Gambia,,FALSE,1,1,draw,Praia,Cape Verde,TRUE,1519,1288,1507,1300,-12
+2000-05-08,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,FALSE,2,2,draw,Praia,Cape Verde,FALSE,1507,1266,1499,1274,-8
+2000-05-11,Amílcar Cabral Cup,played,Senegal,SEN,Mali,,TRUE,2,2,draw,Praia,Cape Verde,TRUE,1499,1442,1496,1445,-3
+2000-05-14,Amílcar Cabral Cup,played,Senegal,SEN,Cape Verde,,FALSE,0,1,loss,Praia,Cape Verde,FALSE,1496,1314,1471,1339,-25
+2000-06-04,Friendly,played,Senegal,SEN,Zambia,,TRUE,0,0,draw,Dakar,Senegal,FALSE,1471,1532,1470,1533,-1
+2000-06-06,Friendly,played,Senegal,SEN,Zambia,,TRUE,0,0,draw,Dakar,Senegal,FALSE,1470,1533,1469,1534,-1
+2000-06-11,Friendly,played,Senegal,SEN,Tunisia,TUN,FALSE,1,4,loss,Tunis,Tunisia,FALSE,1469,1631,1463,1637,-6
+2000-06-16,FIFA World Cup qualification,played,Senegal,SEN,Algeria,DZA,FALSE,1,1,draw,Annaba,Algeria,FALSE,1463,1521,1472,1512,9
+2000-07-09,FIFA World Cup qualification,played,Senegal,SEN,Egypt,EGY,TRUE,0,0,draw,Dakar,Senegal,FALSE,1472,1659,1477,1654,5
+2000-09-24,African Cup of Nations qualification,played,Senegal,SEN,Togo,TGO,TRUE,0,0,draw,Dakar,Senegal,FALSE,1477,1385,1467,1395,-10
+2001-01-13,African Cup of Nations qualification,played,Senegal,SEN,Uganda,,FALSE,1,1,draw,Kampala,Uganda,FALSE,1454,1436,1459,1431,5
+2001-02-04,Friendly,played,Senegal,SEN,Mali,,TRUE,1,0,win,Dakar,Senegal,FALSE,1459,1425,1465,1419,6
+2001-02-24,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,FALSE,0,0,draw,Rabat,Morocco,FALSE,1465,1692,1480,1677,15
+2001-03-10,FIFA World Cup qualification,played,Senegal,SEN,Namibia,,TRUE,4,0,win,Dakar,Senegal,FALSE,1480,1328,1494,1314,14
+2001-03-24,African Cup of Nations qualification,played,Senegal,SEN,Uganda,,TRUE,3,0,win,Dakar,Senegal,FALSE,1494,1418,1513,1399,19
+2001-04-21,FIFA World Cup qualification,played,Senegal,SEN,Algeria,DZA,TRUE,3,0,win,Dakar,Senegal,FALSE,1513,1530,1540,1503,27
+2001-05-06,FIFA World Cup qualification,played,Senegal,SEN,Egypt,EGY,FALSE,0,1,loss,Cairo,Egypt,FALSE,1540,1645,1531,1654,-9
+2001-06-03,Friendly,played,Senegal,SEN,Gambia,,FALSE,0,0,draw,Banjul,Gambia,FALSE,1531,1299,1527,1303,-4
+2001-06-17,African Cup of Nations qualification,played,Senegal,SEN,Togo,TGO,FALSE,0,1,loss,Lomé,Togo,FALSE,1527,1475,1510,1492,-17
+2001-07-14,FIFA World Cup qualification,played,Senegal,SEN,Morocco,MAR,TRUE,1,0,win,Dakar,Senegal,FALSE,1510,1681,1534,1657,24
+2001-07-21,FIFA World Cup qualification,played,Senegal,SEN,Namibia,,FALSE,5,0,win,Windhoek,Namibia,FALSE,1534,1284,1558,1260,24
+2001-10-04,Friendly,played,Senegal,SEN,Japan,JPN,FALSE,2,0,win,Lens,France,TRUE,1558,1887,1584,1861,26
+2001-11-08,Friendly,played,Senegal,SEN,South Korea,KOR,FALSE,1,0,win,Jeonju,South Korea,FALSE,1584,1801,1601,1784,17
+2001-12-26,Friendly,played,Senegal,SEN,Burkina Faso,,TRUE,2,4,loss,Dakar,Senegal,FALSE,1601,1364,1575,1390,-26
+2001-12-30,Friendly,played,Senegal,SEN,Algeria,DZA,TRUE,1,0,win,Dakar,Senegal,FALSE,1575,1518,1581,1512,6
+2002-01-20,African Cup of Nations,played,Senegal,SEN,Egypt,EGY,FALSE,1,0,win,Bamako,Mali,TRUE,1581,1623,1609,1595,28
+2002-01-26,African Cup of Nations,played,Senegal,SEN,Zambia,,TRUE,1,0,win,Bamako,Mali,TRUE,1609,1486,1626,1469,17
+2002-01-31,African Cup of Nations,played,Senegal,SEN,Tunisia,TUN,TRUE,0,0,draw,Kayes,Mali,TRUE,1626,1627,1626,1627,0
+2002-02-04,African Cup of Nations,played,Senegal,SEN,DR Congo,,TRUE,2,0,win,Bamako,Mali,TRUE,1626,1477,1648,1455,22
+2002-02-07,African Cup of Nations,played,Senegal,SEN,Nigeria,NGA,FALSE,2,1,win,Bamako,Mali,TRUE,1648,1742,1680,1710,32
+2002-02-10,African Cup of Nations,played,Senegal,SEN,Cameroon,CMR,TRUE,0,0,draw,Bamako,Mali,TRUE,1680,1811,1689,1802,9
+2002-03-27,Friendly,played,Senegal,SEN,Bolivia,BOL,TRUE,2,1,win,Dakar,Senegal,FALSE,1689,1564,1693,1560,4
+2002-05-14,Friendly,played,Senegal,SEN,Saudi Arabia,SAU,FALSE,2,3,loss,Riyadh,Saudi Arabia,FALSE,1693,1689,1686,1696,-7
+2002-05-23,Friendly,played,Senegal,SEN,Ecuador,ECU,FALSE,1,0,win,Tottori,Japan,TRUE,1686,1740,1698,1728,12
+2002-05-31,FIFA World Cup,played,Senegal,SEN,France,FRA,FALSE,1,0,win,Seoul,South Korea,TRUE,1698,2093,1752,2039,54
+2002-06-06,FIFA World Cup,played,Senegal,SEN,Denmark,DNK,FALSE,1,1,draw,Daegu,South Korea,TRUE,1752,1887,1763,1876,11
+2002-06-11,FIFA World Cup,played,Senegal,SEN,Uruguay,URY,TRUE,3,3,draw,Suwon,South Korea,TRUE,1763,1804,1767,1800,4
+2002-06-16,FIFA World Cup,played,Senegal,SEN,Sweden,SWE,FALSE,2,1,win,Ōita,Japan,TRUE,1767,1899,1808,1858,41
+2002-06-22,FIFA World Cup,played,Senegal,SEN,Turkey,TUR,TRUE,0,1,loss,Osaka,Japan,TRUE,1808,1822,1779,1851,-29
+2002-09-08,African Cup of Nations qualification,played,Senegal,SEN,Lesotho,,FALSE,1,0,win,Maseru,Lesotho,FALSE,1779,1146,1781,1144,2
+2002-10-12,Friendly,played,Senegal,SEN,Nigeria,NGA,TRUE,2,2,draw,Dakar,Senegal,FALSE,1781,1743,1777,1747,-4
+2002-11-19,Friendly,played,Senegal,SEN,South Africa,ZAF,FALSE,1,1,draw,Johannesburg,South Africa,FALSE,1777,1662,1776,1663,-1
+2003-02-12,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,0,1,loss,Paris,France,TRUE,1776,1553,1760,1569,-16
+2003-03-30,African Cup of Nations qualification,played,Senegal,SEN,Gambia,,FALSE,0,0,draw,Bakau,Gambia,FALSE,1760,1362,1746,1376,-14
+2003-04-30,Friendly,played,Senegal,SEN,Tunisia,TUN,FALSE,0,1,loss,Tunis,Tunisia,FALSE,1746,1634,1736,1644,-10
+2003-05-31,Friendly,played,Senegal,SEN,Cape Verde,,TRUE,2,1,win,Dakar,Senegal,FALSE,1736,1364,1737,1363,1
+2003-06-07,African Cup of Nations qualification,played,Senegal,SEN,Gambia,,TRUE,3,1,win,Dakar,Senegal,FALSE,1737,1380,1741,1376,4
+2003-06-14,African Cup of Nations qualification,played,Senegal,SEN,Lesotho,,TRUE,3,0,win,Dakar,Senegal,FALSE,1741,1159,1742,1158,1
+2003-09-10,Friendly,played,Senegal,SEN,Japan,JPN,FALSE,1,0,win,Niigata,Japan,FALSE,1742,1781,1756,1767,14
+2003-10-10,Friendly,played,Senegal,SEN,Egypt,EGY,FALSE,0,1,loss,Cairo,Egypt,FALSE,1756,1626,1745,1637,-11
+2003-11-15,Friendly,played,Senegal,SEN,Ivory Coast,CIV,TRUE,1,0,win,Dakar,Senegal,FALSE,1745,1594,1749,1590,4
+2004-01-18,Friendly,played,Senegal,SEN,South Africa,ZAF,TRUE,2,1,win,Dakar,Senegal,FALSE,1749,1596,1753,1592,4
+2004-01-26,African Cup of Nations,played,Senegal,SEN,Burkina Faso,,TRUE,0,0,draw,Tunis,Tunisia,TRUE,1753,1434,1735,1452,-18
+2004-01-30,African Cup of Nations,played,Senegal,SEN,Kenya,,TRUE,3,0,win,Bizerte,Tunisia,TRUE,1735,1420,1747,1408,12
+2004-02-02,African Cup of Nations,played,Senegal,SEN,Mali,,TRUE,1,1,draw,Tunis,Tunisia,TRUE,1747,1622,1738,1631,-9
+2004-02-07,African Cup of Nations,played,Senegal,SEN,Tunisia,TUN,FALSE,0,1,loss,Radès,Tunisia,FALSE,1738,1653,1714,1677,-24
+2004-05-29,Friendly,played,Senegal,SEN,Guinea,,TRUE,1,1,draw,Paris,France,TRUE,1714,1513,1709,1518,-5
+2004-06-05,FIFA World Cup qualification,played,Senegal,SEN,Congo,,TRUE,2,0,win,Dakar,Senegal,FALSE,1709,1390,1714,1385,5
+2004-06-13,Friendly,played,Senegal,SEN,Cape Verde,,FALSE,3,1,win,Praia,Cape Verde,FALSE,1714,1349,1719,1344,5
+2004-06-20,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,FALSE,1,3,loss,Lomé,Togo,FALSE,1719,1422,1674,1467,-45
+2004-07-03,FIFA World Cup qualification,played,Senegal,SEN,Zambia,,TRUE,1,0,win,Dakar,Senegal,FALSE,1674,1461,1680,1455,6
+2004-08-18,Friendly,played,Senegal,SEN,Ivory Coast,CIV,TRUE,1,2,loss,Avignon,France,TRUE,1680,1646,1669,1657,-11
+2004-09-05,FIFA World Cup qualification,played,Senegal,SEN,Mali,,FALSE,2,2,draw,Bamako,Mali,FALSE,1669,1538,1667,1540,-2
+2004-10-10,FIFA World Cup qualification,played,Senegal,SEN,Liberia,,FALSE,3,0,win,Paynesville,Liberia,FALSE,1667,1388,1685,1370,18
+2004-11-17,Friendly,played,Senegal,SEN,Algeria,DZA,FALSE,2,1,win,Toulon,France,TRUE,1685,1423,1689,1419,4
+2005-02-09,Friendly,played,Senegal,SEN,Cameroon,CMR,FALSE,0,1,loss,Créteil,France,TRUE,1689,1700,1679,1710,-10
+2005-03-26,FIFA World Cup qualification,played,Senegal,SEN,Liberia,,TRUE,6,1,win,Dakar,Senegal,FALSE,1679,1370,1686,1363,7
+2005-06-05,FIFA World Cup qualification,played,Senegal,SEN,Congo,,FALSE,0,0,draw,Brazzaville,Congo,FALSE,1686,1355,1674,1367,-12
+2005-06-18,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,TRUE,2,2,draw,Dakar,Senegal,FALSE,1674,1557,1663,1568,-11
+2005-08-17,Friendly,played,Senegal,SEN,Ghana,GHA,TRUE,0,0,draw,London,England,TRUE,1663,1542,1660,1545,-3
+2005-09-03,FIFA World Cup qualification,played,Senegal,SEN,Zambia,,FALSE,1,0,win,Chililabombwe,Zambia,FALSE,1660,1500,1677,1483,17
+2005-10-08,FIFA World Cup qualification,played,Senegal,SEN,Mali,,TRUE,3,0,win,Dakar,Senegal,FALSE,1677,1522,1690,1509,13
+2005-11-12,Friendly,played,Senegal,SEN,South Africa,ZAF,FALSE,3,2,win,Port Elizabeth,South Africa,FALSE,1690,1529,1702,1517,12
+2005-12-27,Friendly,played,Senegal,SEN,Ecuador,ECU,FALSE,2,1,win,Cairo,Egypt,TRUE,1702,1759,1719,1742,17
+2005-12-29,Friendly,played,Senegal,SEN,Egypt,EGY,FALSE,2,4,loss,Cairo,Egypt,FALSE,1719,1695,1701,1713,-18
+2006-01-14,Friendly,played,Senegal,SEN,DR Congo,,TRUE,0,0,draw,Dakar,Senegal,FALSE,1701,1448,1693,1456,-8
+2006-01-23,African Cup of Nations,played,Senegal,SEN,Zimbabwe,,FALSE,2,0,win,Port Said,Egypt,TRUE,1693,1495,1711,1477,18
+2006-01-27,African Cup of Nations,played,Senegal,SEN,Ghana,GHA,FALSE,0,1,loss,Port Said,Egypt,TRUE,1711,1570,1676,1605,-35
+2006-01-31,African Cup of Nations,played,Senegal,SEN,Nigeria,NGA,FALSE,1,2,loss,Port Said,Egypt,TRUE,1676,1777,1658,1795,-18
+2006-02-03,African Cup of Nations,played,Senegal,SEN,Guinea,,FALSE,3,2,win,Alexandria,Egypt,TRUE,1658,1641,1682,1617,24
+2006-02-07,African Cup of Nations,played,Senegal,SEN,Egypt,EGY,FALSE,1,2,loss,Cairo,Egypt,FALSE,1682,1743,1668,1757,-14
+2006-02-09,African Cup of Nations,played,Senegal,SEN,Nigeria,NGA,TRUE,0,1,loss,Cairo,Egypt,TRUE,1668,1758,1649,1777,-19
+2006-03-01,Friendly,played,Senegal,SEN,Norway,NOR,TRUE,2,1,win,Dakar,Senegal,FALSE,1649,1748,1659,1738,10
+2006-05-23,Friendly,played,Senegal,SEN,South Korea,KOR,FALSE,1,1,draw,Seoul,South Korea,FALSE,1659,1762,1664,1757,5
+2006-08-16,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,1,0,win,Tours,France,TRUE,1664,1769,1677,1756,13
+2006-09-02,African Cup of Nations qualification,played,Senegal,SEN,Mozambique,,TRUE,2,0,win,Dakar,Senegal,FALSE,1677,1285,1680,1282,3
+2006-10-07,African Cup of Nations qualification,played,Senegal,SEN,Burkina Faso,,FALSE,0,1,loss,Ouagadougou,Burkina Faso,FALSE,1680,1381,1650,1411,-30
+2007-02-07,Friendly,played,Senegal,SEN,Benin,,TRUE,2,1,win,Rouen,France,TRUE,1650,1275,1652,1273,2
+2007-03-24,African Cup of Nations qualification,played,Senegal,SEN,Tanzania,,TRUE,4,0,win,Dakar,Senegal,FALSE,1652,1314,1658,1308,6
+2007-06-02,African Cup of Nations qualification,played,Senegal,SEN,Tanzania,,FALSE,1,1,draw,Mwanza,Tanzania,FALSE,1658,1313,1646,1325,-12
+2007-06-10,Friendly,played,Senegal,SEN,Malawi,,FALSE,3,2,win,Blantyre,Malawi,FALSE,1646,1295,1650,1291,4
+2007-06-17,African Cup of Nations qualification,played,Senegal,SEN,Mozambique,,FALSE,0,0,draw,Maputo,Mozambique,FALSE,1650,1332,1639,1343,-11
+2007-08-21,Friendly,played,Senegal,SEN,Ghana,GHA,FALSE,1,1,draw,London,England,TRUE,1639,1767,1643,1763,4
+2007-09-08,African Cup of Nations qualification,played,Senegal,SEN,Burkina Faso,,TRUE,5,1,win,Dakar,Senegal,FALSE,1643,1341,1650,1334,7
+2007-10-14,Friendly,played,Senegal,SEN,Guinea,,TRUE,3,1,win,Rouen,France,TRUE,1650,1610,1663,1597,13
+2007-11-17,Friendly,played,Senegal,SEN,Mali,,TRUE,3,2,win,Bondoufle,France,TRUE,1663,1593,1671,1585,8
+2007-11-21,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,0,3,loss,Bondoufle,France,TRUE,1671,1668,1653,1686,-18
+2008-01-12,Friendly,played,Senegal,SEN,Namibia,,TRUE,3,1,win,Dakar,Senegal,FALSE,1653,1275,1655,1273,2
+2008-01-16,Friendly,played,Senegal,SEN,Benin,,FALSE,2,1,win,Ouagadougou,Burkina Faso,TRUE,1655,1379,1658,1376,3
+2008-01-23,African Cup of Nations,played,Senegal,SEN,Tunisia,TUN,FALSE,2,2,draw,Tamale,Ghana,TRUE,1658,1624,1656,1626,-2
+2008-01-27,African Cup of Nations,played,Senegal,SEN,Angola,AGO,TRUE,1,3,loss,Tamale,Ghana,TRUE,1656,1528,1605,1579,-51
+2008-01-31,African Cup of Nations,played,Senegal,SEN,South Africa,ZAF,TRUE,1,1,draw,Kumasi,Ghana,TRUE,1605,1472,1596,1481,-9
+2008-05-31,FIFA World Cup qualification,played,Senegal,SEN,Algeria,DZA,TRUE,1,0,win,Dakar,Senegal,FALSE,1596,1402,1602,1396,6
+2008-06-08,FIFA World Cup qualification,played,Senegal,SEN,Gambia,,FALSE,0,0,draw,Bakau,Gambia,FALSE,1602,1349,1594,1357,-8
+2008-06-15,FIFA World Cup qualification,played,Senegal,SEN,Liberia,,FALSE,2,2,draw,Paynesville,Liberia,FALSE,1594,1243,1582,1255,-12
+2008-06-21,FIFA World Cup qualification,played,Senegal,SEN,Liberia,,TRUE,3,1,win,Dakar,Senegal,FALSE,1582,1255,1587,1250,5
+2008-08-20,Friendly,played,Senegal,SEN,Libya,,FALSE,0,0,draw,Tripoli,Libya,FALSE,1587,1531,1588,1530,1
+2008-09-05,FIFA World Cup qualification,played,Senegal,SEN,Algeria,DZA,FALSE,2,3,loss,Blida,Algeria,FALSE,1588,1417,1564,1441,-24
+2008-10-11,FIFA World Cup qualification,played,Senegal,SEN,Gambia,,TRUE,1,1,draw,Dakar,Senegal,FALSE,1564,1377,1550,1391,-14
+2009-03-28,Friendly,played,Senegal,SEN,Oman,,FALSE,0,2,loss,Muscat,Oman,FALSE,1543,1608,1535,1616,-8
+2009-04-01,Friendly,played,Senegal,SEN,Iran,IRN,FALSE,1,1,draw,Tehran,Iran,FALSE,1535,1736,1542,1729,7
+2009-08-12,Friendly,played,Senegal,SEN,DR Congo,,FALSE,2,1,win,Blois,France,TRUE,1542,1427,1549,1420,7
+2009-09-05,Friendly,played,Senegal,SEN,Angola,AGO,FALSE,1,1,draw,Lisbon,Portugal,TRUE,1549,1473,1547,1475,-2
+2009-10-14,Friendly,played,Senegal,SEN,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1549,1748,1544,1753,-5
+2010-03-03,Friendly,played,Senegal,SEN,Greece,GRC,FALSE,2,0,win,Vólos,Greece,FALSE,1544,1783,1570,1757,26
+2010-05-10,Friendly,played,Senegal,SEN,Mexico,MEX,FALSE,0,1,loss,Chicago,United States,TRUE,1570,1886,1567,1889,-3
+2010-05-27,Friendly,played,Senegal,SEN,Denmark,DNK,FALSE,0,2,loss,Aalborg,Denmark,FALSE,1567,1798,1563,1802,-4
+2010-08-11,Friendly,played,Senegal,SEN,Cape Verde,,TRUE,1,0,win,Dakar,Senegal,FALSE,1563,1370,1566,1367,3
+2010-09-05,African Cup of Nations qualification,played,Senegal,SEN,DR Congo,,FALSE,4,2,win,Lubumbashi,DR Congo,FALSE,1566,1412,1591,1387,25
+2010-10-09,African Cup of Nations qualification,played,Senegal,SEN,Mauritius,,TRUE,7,0,win,Dakar,Senegal,FALSE,1591,1031,1593,1029,2
+2010-11-17,Friendly,played,Senegal,SEN,Gabon,,FALSE,2,1,win,Saint-Gratien,France,TRUE,1568,1575,1578,1565,10
+2011-02-09,Friendly,played,Senegal,SEN,Guinea,,TRUE,3,0,win,Dakar,Senegal,FALSE,1578,1513,1588,1503,10
+2011-03-26,African Cup of Nations qualification,played,Senegal,SEN,Cameroon,CMR,TRUE,1,0,win,Dakar,Senegal,FALSE,1588,1658,1606,1640,18
+2011-06-04,African Cup of Nations qualification,played,Senegal,SEN,Cameroon,CMR,FALSE,0,0,draw,Yaoundé,Cameroon,FALSE,1606,1640,1613,1633,7
+2011-06-25,Friendly,played,Senegal,SEN,Colombia,COL,FALSE,0,2,loss,Medellín,Colombia,FALSE,,,,,
+2011-06-28,Friendly,played,Senegal,SEN,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,,,,,
+2011-08-10,Friendly,played,Senegal,SEN,Morocco,MAR,TRUE,0,2,loss,Dakar,Senegal,FALSE,1613,1572,1592,1593,-21
+2011-09-03,African Cup of Nations qualification,played,Senegal,SEN,DR Congo,,TRUE,2,0,win,Dakar,Senegal,FALSE,1592,1416,1602,1406,10
+2011-10-09,African Cup of Nations qualification,played,Senegal,SEN,Mauritius,,FALSE,2,0,win,Mapou,Mauritius,FALSE,1602,1027,1606,1023,4
+2012-01-12,Friendly,played,Senegal,SEN,Sudan,,TRUE,1,0,win,Dakar,Senegal,FALSE,1619,1400,1622,1397,3
+2012-01-21,African Cup of Nations,played,Senegal,SEN,Zambia,,TRUE,1,2,loss,Bata,Equatorial Guinea,TRUE,1622,1521,1590,1553,-32
+2012-01-25,African Cup of Nations,played,Senegal,SEN,Equatorial Guinea,,FALSE,1,2,loss,Bata,Equatorial Guinea,FALSE,1590,1265,1551,1304,-39
+2012-01-29,African Cup of Nations,played,Senegal,SEN,Libya,,FALSE,1,2,loss,Bata,Equatorial Guinea,TRUE,1551,1463,1520,1494,-31
+2012-02-29,Friendly,played,Senegal,SEN,South Africa,ZAF,FALSE,0,0,draw,Durban,South Africa,FALSE,1520,1588,1524,1584,4
+2012-05-25,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,1,0,win,Marrakech,Morocco,FALSE,1524,1543,1537,1530,13
+2012-06-02,FIFA World Cup qualification,played,Senegal,SEN,Liberia,,TRUE,3,1,win,Dakar,Senegal,FALSE,1537,1264,1543,1258,6
+2012-06-09,FIFA World Cup qualification,played,Senegal,SEN,Uganda,,FALSE,1,1,draw,Kampala,Uganda,FALSE,1543,1505,1547,1501,4
+2012-09-08,African Cup of Nations qualification,played,Senegal,SEN,Ivory Coast,CIV,FALSE,2,4,loss,Abidjan,Ivory Coast,FALSE,1547,1799,1540,1806,-7
+2012-10-13,African Cup of Nations qualification,played,Senegal,SEN,Ivory Coast,CIV,TRUE,0,2,loss,Dakar,Senegal,FALSE,1540,1806,1523,1823,-17
+2012-11-14,Friendly,played,Senegal,SEN,Niger,,FALSE,1,1,draw,Niamey,Niger,FALSE,1523,1345,1521,1347,-2
+2013-03-16,Friendly,played,Senegal,SEN,Libya,,TRUE,0,4,loss,Casablanca,Morocco,TRUE,,,,,
+2013-03-23,FIFA World Cup qualification,played,Senegal,SEN,Angola,AGO,TRUE,1,1,draw,Conakry,Guinea,TRUE,1520,1461,1517,1464,-3
+2013-06-08,FIFA World Cup qualification,played,Senegal,SEN,Angola,AGO,FALSE,1,1,draw,Luanda,Angola,FALSE,1517,1464,1520,1461,3
+2013-06-16,FIFA World Cup qualification,played,Senegal,SEN,Liberia,,FALSE,2,0,win,Paynesville,Liberia,FALSE,1520,1354,1544,1330,24
+2013-08-14,Friendly,played,Senegal,SEN,Zambia,,FALSE,1,1,draw,Saint-Leu-la-Forêt,France,TRUE,1544,1546,1544,1546,0
+2013-09-07,FIFA World Cup qualification,played,Senegal,SEN,Uganda,,TRUE,1,0,win,Marrakech,Morocco,TRUE,1544,1526,1563,1507,19
+2013-10-12,FIFA World Cup qualification,played,Senegal,SEN,Ivory Coast,CIV,FALSE,1,3,loss,Abidjan,Ivory Coast,FALSE,1563,1778,1555,1786,-8
+2013-11-16,FIFA World Cup qualification,played,Senegal,SEN,Ivory Coast,CIV,TRUE,1,1,draw,Casablanca,Morocco,TRUE,1555,1786,1567,1774,12
+2014-03-05,Friendly,played,Senegal,SEN,Mali,,FALSE,1,1,draw,Saint-Leu-la-Forêt,France,TRUE,1567,1555,1567,1555,0
+2014-05-21,Friendly,played,Senegal,SEN,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1567,1530,1569,1528,2
+2014-05-25,Friendly,played,Senegal,SEN,Kosovo,,FALSE,3,1,win,Lancy,Switzerland,TRUE,1569,1371,1576,1364,7
+2014-05-31,Friendly,played,Senegal,SEN,Colombia,COL,FALSE,2,2,draw,Buenos Aires,Argentina,TRUE,1576,1925,1584,1917,8
+2014-09-05,African Cup of Nations qualification,played,Senegal,SEN,Egypt,EGY,TRUE,2,0,win,Dakar,Senegal,FALSE,1584,1683,1614,1653,30
+2014-09-10,African Cup of Nations qualification,played,Senegal,SEN,Botswana,,FALSE,2,0,win,Gaborone,Botswana,FALSE,1614,1340,1630,1324,16
+2014-10-10,African Cup of Nations qualification,played,Senegal,SEN,Tunisia,TUN,TRUE,0,0,draw,Dakar,Senegal,FALSE,1630,1564,1621,1573,-9
+2014-10-15,African Cup of Nations qualification,played,Senegal,SEN,Tunisia,TUN,FALSE,0,1,loss,Monastir,Tunisia,FALSE,1621,1573,1604,1590,-17
+2014-11-15,African Cup of Nations qualification,played,Senegal,SEN,Egypt,EGY,FALSE,1,0,win,Cairo,Egypt,FALSE,1604,1642,1632,1614,28
+2014-11-19,African Cup of Nations qualification,played,Senegal,SEN,Botswana,,TRUE,3,0,win,Dakar,Senegal,FALSE,1632,1314,1638,1308,6
+2015-01-09,Friendly,played,Senegal,SEN,Gabon,,TRUE,1,0,win,Casablanca,Morocco,TRUE,1638,1527,1645,1520,7
+2015-01-13,Friendly,played,Senegal,SEN,Guinea,,TRUE,5,2,win,Casablanca,Morocco,TRUE,1645,1590,1660,1575,15
+2015-01-19,African Cup of Nations,played,Senegal,SEN,Ghana,GHA,FALSE,2,1,win,Mongomo,Equatorial Guinea,TRUE,1660,1678,1686,1652,26
+2015-01-23,African Cup of Nations,played,Senegal,SEN,South Africa,ZAF,FALSE,1,1,draw,Mongomo,Equatorial Guinea,TRUE,1686,1610,1681,1615,-5
+2015-01-27,African Cup of Nations,played,Senegal,SEN,Algeria,DZA,TRUE,0,2,loss,Malabo,Equatorial Guinea,TRUE,1681,1678,1643,1716,-38
+2015-03-28,Friendly,played,Senegal,SEN,Ghana,GHA,FALSE,2,1,win,Le Havre,France,TRUE,1643,1748,1656,1735,13
+2015-06-13,African Cup of Nations qualification,played,Senegal,SEN,Burundi,,TRUE,3,1,win,Dakar,Senegal,FALSE,1656,1313,1660,1309,4
+2015-09-05,African Cup of Nations qualification,played,Senegal,SEN,Namibia,,FALSE,2,0,win,Windhoek,Namibia,FALSE,1660,1364,1675,1349,15
+2015-09-08,Friendly,played,Senegal,SEN,South Africa,ZAF,FALSE,0,1,loss,Johannesburg,South Africa,FALSE,1675,1500,1657,1518,-18
+2015-10-13,Friendly,played,Senegal,SEN,Algeria,DZA,FALSE,0,1,loss,Algiers,Algeria,FALSE,1657,1665,1650,1672,-7
+2015-11-13,FIFA World Cup qualification,played,Senegal,SEN,Madagascar,,FALSE,2,2,draw,Antananarivo,Madagascar,FALSE,1650,1271,1637,1284,-13
+2015-11-17,FIFA World Cup qualification,played,Senegal,SEN,Madagascar,,TRUE,3,0,win,Dakar,Senegal,FALSE,1637,1284,1642,1279,5
+2016-03-26,African Cup of Nations qualification,played,Senegal,SEN,Niger,,TRUE,2,0,win,Dakar,Senegal,FALSE,1642,1286,1646,1282,4
+2016-03-29,African Cup of Nations qualification,played,Senegal,SEN,Niger,,FALSE,2,1,win,Niamey,Niger,FALSE,1646,1282,1653,1275,7
+2016-05-28,Friendly,played,Senegal,SEN,Rwanda,,FALSE,2,0,win,Kigali,Rwanda,FALSE,1653,1322,1659,1316,6
+2016-06-04,African Cup of Nations qualification,played,Senegal,SEN,Burundi,,FALSE,2,0,win,Bujumbura,Burundi,FALSE,1659,1350,1673,1336,14
+2016-09-03,African Cup of Nations qualification,played,Senegal,SEN,Namibia,,TRUE,2,0,win,Dakar,Senegal,FALSE,1673,1376,1679,1370,6
+2016-10-08,FIFA World Cup qualification,played,Senegal,SEN,Cape Verde,,TRUE,2,0,win,Dakar,Senegal,FALSE,1679,1475,1688,1466,9
+2017-01-08,Friendly,played,Senegal,SEN,Libya,,FALSE,2,1,win,Brazzaville,Congo,TRUE,1668,1466,1673,1461,5
+2017-01-11,Friendly,played,Senegal,SEN,Congo,,FALSE,2,0,win,Brazzaville,Congo,FALSE,1673,1432,1682,1423,9
+2017-01-15,African Cup of Nations,played,Senegal,SEN,Tunisia,TUN,FALSE,2,0,win,Franceville,Gabon,TRUE,1682,1587,1709,1560,27
+2017-01-19,African Cup of Nations,played,Senegal,SEN,Zimbabwe,,TRUE,2,0,win,Franceville,Gabon,TRUE,1709,1436,1722,1423,13
+2017-01-23,African Cup of Nations,played,Senegal,SEN,Algeria,DZA,TRUE,2,2,draw,Franceville,Gabon,TRUE,1722,1592,1713,1601,-9
+2017-01-28,African Cup of Nations,played,Senegal,SEN,Cameroon,CMR,TRUE,0,0,draw,Franceville,Gabon,TRUE,1713,1612,1706,1619,-7
+2017-03-23,Friendly,played,Senegal,SEN,Nigeria,NGA,FALSE,1,1,draw,London,England,TRUE,1706,1666,1705,1667,-1
+2017-03-27,Friendly,played,Senegal,SEN,Ivory Coast,CIV,FALSE,1,1,draw,Paris,France,TRUE,1705,1695,1705,1695,0
+2017-05-11,Friendly,played,Senegal,SEN,Mauritania,,TRUE,2,0,win,Dakar,Senegal,FALSE,,,,,
+2017-06-05,Friendly,played,Senegal,SEN,Uganda,,TRUE,0,0,draw,Dakar,Senegal,FALSE,1705,1454,1697,1462,-8
+2017-06-10,African Cup of Nations qualification,played,Senegal,SEN,Equatorial Guinea,,TRUE,3,0,win,Dakar,Senegal,FALSE,1697,1342,1702,1337,5
+2017-09-02,FIFA World Cup qualification,played,Senegal,SEN,Burkina Faso,,TRUE,0,0,draw,Dakar,Senegal,FALSE,1702,1606,1692,1616,-10
+2017-09-05,FIFA World Cup qualification,played,Senegal,SEN,Burkina Faso,,FALSE,2,2,draw,Ouagadougou,Burkina Faso,FALSE,1692,1616,1693,1615,1
+2017-10-07,FIFA World Cup qualification,played,Senegal,SEN,Cape Verde,,FALSE,2,0,win,Praia,Cape Verde,FALSE,1693,1472,1713,1452,20
+2017-11-10,FIFA World Cup qualification,played,Senegal,SEN,South Africa,ZAF,FALSE,2,0,win,Polokwane,South Africa,FALSE,1713,1574,1740,1547,27
+2017-11-14,FIFA World Cup qualification,played,Senegal,SEN,South Africa,ZAF,TRUE,2,1,win,Dakar,Senegal,FALSE,1740,1547,1746,1541,6
+2018-03-23,Friendly,played,Senegal,SEN,Uzbekistan,,TRUE,1,1,draw,Casablanca,Morocco,TRUE,1746,1611,1742,1615,-4
+2018-03-27,Friendly,played,Senegal,SEN,Bosnia and Herzegovina,BIH,FALSE,0,0,draw,Le Havre,France,TRUE,1742,1730,1742,1730,0
+2018-05-31,Friendly,played,Senegal,SEN,Luxembourg,,FALSE,0,0,draw,Luxembourg,Luxembourg,FALSE,1742,1325,1735,1332,-7
+2018-06-08,Friendly,played,Senegal,SEN,Croatia,HRV,FALSE,1,2,loss,Osijek,Croatia,FALSE,1735,1848,1730,1853,-5
+2018-06-11,Friendly,played,Senegal,SEN,South Korea,KOR,FALSE,2,0,win,Grödig,Austria,TRUE,1730,1728,1745,1713,15
+2018-06-19,FIFA World Cup,played,Senegal,SEN,Poland,POL,FALSE,2,1,win,Moscow,Russia,TRUE,1745,1830,1782,1793,37
+2018-06-24,FIFA World Cup,played,Senegal,SEN,Japan,JPN,FALSE,2,2,draw,Ekaterinburg,Russia,TRUE,1782,1732,1778,1736,-4
+2018-06-28,FIFA World Cup,played,Senegal,SEN,Colombia,COL,TRUE,0,1,loss,Samara,Russia,TRUE,1778,1919,1760,1937,-18
+2018-09-09,African Cup of Nations qualification,played,Senegal,SEN,Madagascar,,FALSE,2,2,draw,Antananarivo,Madagascar,FALSE,1760,1336,1745,1351,-15
+2018-10-13,African Cup of Nations qualification,played,Senegal,SEN,Sudan,,TRUE,3,0,win,Dakar,Senegal,FALSE,1745,1231,1747,1229,2
+2018-10-16,African Cup of Nations qualification,played,Senegal,SEN,Sudan,,FALSE,1,0,win,Khartoum,Sudan,FALSE,1747,1229,1750,1226,3
+2018-11-17,African Cup of Nations qualification,played,Senegal,SEN,Equatorial Guinea,,FALSE,1,0,win,Bata,Equatorial Guinea,FALSE,1750,1297,1755,1292,5
+2019-03-23,African Cup of Nations qualification,played,Senegal,SEN,Madagascar,,TRUE,2,0,win,Thiès,Senegal,FALSE,1755,1338,1758,1335,3
+2019-03-26,Friendly,played,Senegal,SEN,Mali,,TRUE,2,1,win,Dakar,Senegal,FALSE,1758,1529,1761,1526,3
+2019-06-16,Friendly,played,Senegal,SEN,Nigeria,NGA,TRUE,1,0,win,Ismailia,Egypt,TRUE,1761,1709,1770,1700,9
+2019-06-23,African Cup of Nations,played,Senegal,SEN,Tanzania,,TRUE,2,0,win,Cairo,Egypt,TRUE,1770,1361,1777,1354,7
+2019-06-27,African Cup of Nations,played,Senegal,SEN,Algeria,DZA,TRUE,0,1,loss,Cairo,Egypt,TRUE,1777,1564,1738,1603,-39
+2019-07-01,African Cup of Nations,played,Senegal,SEN,Kenya,,FALSE,3,0,win,Cairo,Egypt,TRUE,1738,1394,1749,1383,11
+2019-07-05,African Cup of Nations,played,Senegal,SEN,Uganda,,FALSE,1,0,win,Cairo,Egypt,TRUE,1749,1477,1758,1468,9
+2019-07-10,African Cup of Nations,played,Senegal,SEN,Benin,,TRUE,1,0,win,Cairo,Egypt,TRUE,1758,1452,1765,1445,7
+2019-07-14,African Cup of Nations,played,Senegal,SEN,Tunisia,TUN,TRUE,1,0,win,Cairo,Egypt,TRUE,1765,1644,1782,1627,17
+2019-07-19,African Cup of Nations,played,Senegal,SEN,Algeria,DZA,TRUE,0,1,loss,Cairo,Egypt,TRUE,1782,1670,1749,1703,-33
+2019-10-10,Friendly,played,Senegal,SEN,Brazil,BRA,FALSE,1,1,draw,Kallang,Singapore,TRUE,1749,2106,1757,2098,8
+2019-11-13,African Cup of Nations qualification,played,Senegal,SEN,Congo,,TRUE,2,0,win,Thiès,Senegal,FALSE,1757,1372,1760,1369,3
+2019-11-17,African Cup of Nations qualification,played,Senegal,SEN,Eswatini,,FALSE,4,1,win,Manzini,Eswatini,FALSE,1760,1123,1763,1120,3
+2020-10-09,Friendly,played,Senegal,SEN,Morocco,MAR,FALSE,1,3,loss,Rabat,Morocco,FALSE,1763,1659,1748,1674,-15
+2020-11-11,African Cup of Nations qualification,played,Senegal,SEN,Guinea-Bissau,,TRUE,2,0,win,Thiès,Senegal,FALSE,1748,1302,1750,1300,2
+2020-11-15,African Cup of Nations qualification,played,Senegal,SEN,Guinea-Bissau,,FALSE,1,0,win,Bissau,Guinea-Bissau,FALSE,1750,1300,1755,1295,5
+2021-03-26,African Cup of Nations qualification,played,Senegal,SEN,Congo,,FALSE,0,0,draw,Brazzaville,Congo,FALSE,1755,1375,1742,1388,-13
+2021-03-30,African Cup of Nations qualification,played,Senegal,SEN,Eswatini,,TRUE,1,1,draw,Thiès,Senegal,FALSE,1742,1098,1723,1117,-19
+2021-06-05,Friendly,played,Senegal,SEN,Zambia,,TRUE,3,1,win,Thiès,Senegal,FALSE,1723,1492,1727,1488,4
+2021-06-08,Friendly,played,Senegal,SEN,Cape Verde,,TRUE,2,0,win,Thiès,Senegal,FALSE,1727,1441,1730,1438,3
+2021-07-07,COSAFA Cup,played,Senegal,SEN,Namibia,,TRUE,1,2,loss,Port Elizabeth,South Africa,TRUE,1730,1329,1694,1365,-36
+2021-07-09,COSAFA Cup,played,Senegal,SEN,Mozambique,,TRUE,1,0,win,Port Elizabeth,South Africa,TRUE,1694,1278,1697,1275,3
+2021-07-13,COSAFA Cup,played,Senegal,SEN,Zimbabwe,,TRUE,2,1,win,Port Elizabeth,South Africa,TRUE,1697,1358,1702,1353,5
+2021-07-14,COSAFA Cup,played,Senegal,SEN,Malawi,,TRUE,2,1,win,Port Elizabeth,South Africa,TRUE,1702,1309,1706,1305,4
+2021-07-16,COSAFA Cup,played,Senegal,SEN,Eswatini,,TRUE,2,2,draw,Port Elizabeth,South Africa,TRUE,1706,1219,1688,1237,-18
+2021-07-18,COSAFA Cup,played,Senegal,SEN,South Africa,ZAF,FALSE,0,0,draw,Port Elizabeth,South Africa,FALSE,1688,1506,1683,1511,-5
+2021-09-01,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,TRUE,2,0,win,Thiès,Senegal,FALSE,1683,1288,1686,1285,3
+2021-09-07,FIFA World Cup qualification,played,Senegal,SEN,Congo,,FALSE,3,1,win,Brazzaville,Congo,FALSE,1686,1363,1699,1350,13
+2021-10-09,FIFA World Cup qualification,played,Senegal,SEN,Namibia,,TRUE,4,1,win,Thiès,Senegal,FALSE,1699,1388,1705,1382,6
+2021-10-12,FIFA World Cup qualification,played,Senegal,SEN,Namibia,,FALSE,3,1,win,Johannesburg,South Africa,TRUE,1705,1382,1713,1374,8
+2021-11-11,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,FALSE,1,1,draw,Lomé,Togo,FALSE,1713,1293,1698,1308,-15
+2021-11-14,FIFA World Cup qualification,played,Senegal,SEN,Congo,,TRUE,2,0,win,Thiès,Senegal,FALSE,1698,1318,1702,1314,4
+2022-01-10,African Cup of Nations,played,Senegal,SEN,Zimbabwe,,TRUE,1,0,win,Bafoussam,Cameroon,TRUE,1702,1311,1707,1306,5
+2022-01-14,African Cup of Nations,played,Senegal,SEN,Guinea,,TRUE,0,0,draw,Bafoussam,Cameroon,TRUE,1707,1414,1690,1431,-17
+2022-01-18,African Cup of Nations,played,Senegal,SEN,Malawi,,FALSE,0,0,draw,Bafoussam,Cameroon,TRUE,1690,1292,1670,1312,-20
+2022-01-25,African Cup of Nations,played,Senegal,SEN,Cape Verde,,TRUE,2,0,win,Bafoussam,Cameroon,TRUE,1670,1480,1689,1461,19
+2022-01-30,African Cup of Nations,played,Senegal,SEN,Equatorial Guinea,,TRUE,3,1,win,Yaoundé,Cameroon,TRUE,1689,1491,1707,1473,18
+2022-02-02,African Cup of Nations,played,Senegal,SEN,Burkina Faso,,FALSE,3,1,win,Yaoundé,Cameroon,TRUE,1707,1581,1731,1557,24
+2022-02-06,African Cup of Nations,played,Senegal,SEN,Egypt,EGY,TRUE,0,0,draw,Yaoundé,Cameroon,TRUE,1731,1687,1728,1690,-3
+2022-03-25,FIFA World Cup qualification,played,Senegal,SEN,Egypt,EGY,FALSE,0,1,loss,Cairo,Egypt,FALSE,1728,1690,1712,1706,-16
+2022-03-29,FIFA World Cup qualification,played,Senegal,SEN,Egypt,EGY,TRUE,1,0,win,Diamniadio,Senegal,FALSE,1712,1706,1726,1692,14
+2022-06-04,African Cup of Nations qualification,played,Senegal,SEN,Benin,,TRUE,3,1,win,Diamniadio,Senegal,FALSE,1726,1453,1732,1447,6
+2022-06-07,African Cup of Nations qualification,played,Senegal,SEN,Rwanda,,TRUE,1,0,win,Diamniadio,Senegal,FALSE,1732,1268,1733,1267,1
+2022-07-13,COSAFA Cup,played,Senegal,SEN,Eswatini,,TRUE,1,1,draw,KwaMashu,South Africa,TRUE,1733,1306,1716,1323,-17
+2022-07-15,COSAFA Cup,played,Senegal,SEN,Zambia,,FALSE,3,4,loss,Durban,South Africa,TRUE,1716,1417,1682,1451,-34
+2022-07-17,COSAFA Cup,played,Senegal,SEN,Mozambique,,FALSE,1,1,draw,Moses Mabhida Stadium,South Africa,TRUE,1682,1306,1666,1322,-16
+2022-09-24,Friendly,played,Senegal,SEN,Bolivia,BOL,FALSE,2,0,win,Orléans,France,TRUE,1666,1634,1680,1620,14
+2022-09-27,Friendly,played,Senegal,SEN,Iran,IRN,FALSE,1,1,draw,Maria Enzersdorf,Austria,TRUE,1680,1822,1684,1818,4
+2022-11-21,FIFA World Cup,played,Senegal,SEN,Netherlands,NLD,TRUE,0,2,loss,Doha,Qatar,TRUE,1684,2040,1674,2050,-10
+2022-11-25,FIFA World Cup,played,Senegal,SEN,Qatar,QAT,FALSE,3,1,win,Doha,Qatar,FALSE,1674,1642,1728,1588,54
+2022-11-29,FIFA World Cup,played,Senegal,SEN,Ecuador,ECU,FALSE,2,1,win,Al Rayyan,Qatar,TRUE,1728,1885,1771,1842,43
+2022-12-04,FIFA World Cup,played,Senegal,SEN,England,ENG,FALSE,0,3,loss,Al Khor,Qatar,TRUE,1771,1968,1745,1994,-26
+2023-03-24,African Cup of Nations qualification,played,Senegal,SEN,Mozambique,,TRUE,5,1,win,Diamniadio,Senegal,FALSE,1745,1319,1748,1316,3
+2023-03-28,African Cup of Nations qualification,played,Senegal,SEN,Mozambique,,FALSE,1,0,win,Maputo,Mozambique,FALSE,1748,1316,1753,1311,5
+2023-06-17,African Cup of Nations qualification,played,Senegal,SEN,Benin,,FALSE,1,1,draw,Cotonou,Benin,FALSE,1753,1373,1740,1386,-13
+2023-06-20,Friendly,played,Senegal,SEN,Brazil,BRA,FALSE,4,2,win,Lisbon,Portugal,TRUE,1740,2120,1767,2093,27
+2023-09-09,African Cup of Nations qualification,played,Senegal,SEN,Rwanda,,FALSE,1,1,draw,Butare,Rwanda,FALSE,1767,1247,1750,1264,-17
+2023-09-12,Friendly,played,Senegal,SEN,Algeria,DZA,TRUE,0,1,loss,Diamniadio,Senegal,FALSE,1750,1693,1736,1707,-14
+2023-10-16,Friendly,played,Senegal,SEN,Cameroon,CMR,TRUE,1,0,win,Lens,France,TRUE,1736,1632,1743,1625,7
+2023-11-18,FIFA World Cup qualification,played,Senegal,SEN,South Sudan,,TRUE,4,0,win,Diamniadio,Senegal,FALSE,1743,1132,1744,1131,1
+2023-11-21,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,FALSE,0,0,draw,Lomé,Togo,FALSE,1744,1381,1731,1394,-13
+2024-01-08,Friendly,played,Senegal,SEN,Niger,,TRUE,1,0,win,Dakar,Senegal,FALSE,1731,1238,1732,1237,1
+2024-01-15,African Cup of Nations,played,Senegal,SEN,Gambia,,TRUE,3,0,win,Yamoussoukro,Ivory Coast,TRUE,1732,1396,1743,1385,11
+2024-01-19,African Cup of Nations,played,Senegal,SEN,Cameroon,CMR,TRUE,3,1,win,Yamoussoukro,Ivory Coast,TRUE,1743,1602,1766,1579,23
+2024-01-23,African Cup of Nations,played,Senegal,SEN,Guinea,,FALSE,2,0,win,Yamoussoukro,Ivory Coast,TRUE,1766,1475,1778,1463,12
+2024-01-29,African Cup of Nations,played,Senegal,SEN,Ivory Coast,CIV,FALSE,1,1,draw,Yamoussoukro,Ivory Coast,FALSE,1778,1547,1769,1556,-9
+2024-03-22,Friendly,played,Senegal,SEN,Gabon,,TRUE,3,0,win,Amiens,France,TRUE,1769,1439,1774,1434,5
+2024-03-26,Friendly,played,Senegal,SEN,Benin,,TRUE,1,0,win,Amiens,France,TRUE,1774,1348,1776,1346,2
+2024-06-06,FIFA World Cup qualification,played,Senegal,SEN,DR Congo,,TRUE,1,1,draw,Diamniadio,Senegal,FALSE,1776,1531,1761,1546,-15
+2024-06-09,FIFA World Cup qualification,played,Senegal,SEN,Mauritania,,FALSE,1,0,win,Nouakchott,Mauritania,FALSE,1761,1350,1767,1344,6
+2024-09-06,African Cup of Nations qualification,played,Senegal,SEN,Burkina Faso,,TRUE,1,1,draw,Diamniadio,Senegal,FALSE,1767,1483,1751,1499,-16
+2024-09-09,African Cup of Nations qualification,played,Senegal,SEN,Burundi,,FALSE,1,0,win,Lilongwe,Malawi,TRUE,1751,1315,1754,1312,3
+2024-10-11,African Cup of Nations qualification,played,Senegal,SEN,Malawi,,TRUE,4,0,win,Diamniadio,Senegal,FALSE,1754,1263,1756,1261,2
+2024-10-15,African Cup of Nations qualification,played,Senegal,SEN,Malawi,,FALSE,1,0,win,Lilongwe,Malawi,FALSE,1756,1261,1760,1257,4
+2024-11-14,African Cup of Nations qualification,played,Senegal,SEN,Burkina Faso,,FALSE,1,0,win,Bamako,Mali,TRUE,1760,1541,1769,1532,9
+2024-11-19,African Cup of Nations qualification,played,Senegal,SEN,Burundi,,TRUE,2,0,win,Dakar,Senegal,FALSE,1769,1282,1771,1280,2
+2025-03-22,FIFA World Cup qualification,played,Senegal,SEN,Sudan,,FALSE,0,0,draw,Benghazi,Libya,TRUE,1771,1394,1755,1410,-16
+2025-03-25,FIFA World Cup qualification,played,Senegal,SEN,Togo,TGO,TRUE,2,0,win,Diamniadio,Senegal,FALSE,1755,1374,1759,1370,4
+2025-06-06,Friendly,played,Senegal,SEN,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+2025-06-10,Friendly,played,Senegal,SEN,England,ENG,FALSE,3,1,win,London,England,FALSE,1758,2011,1785,1984,27
+2025-09-05,FIFA World Cup qualification,played,Senegal,SEN,Sudan,,TRUE,2,0,win,Diamniadio,Senegal,FALSE,1785,1396,1788,1393,3
+2025-09-09,FIFA World Cup qualification,played,Senegal,SEN,DR Congo,,FALSE,3,2,win,Kinshasa,DR Congo,FALSE,1788,1591,1803,1576,15
+2025-10-10,FIFA World Cup qualification,played,Senegal,SEN,South Sudan,,FALSE,5,0,win,Juba,South Sudan,FALSE,1803,1140,1806,1137,3
+2025-10-14,FIFA World Cup qualification,played,Senegal,SEN,Mauritania,,TRUE,4,0,win,Diamniadio,Senegal,FALSE,1806,1345,1809,1342,3
+2025-11-15,Friendly,played,Senegal,SEN,Brazil,BRA,FALSE,0,2,loss,London,England,TRUE,1809,1978,1801,1986,-8
+2025-11-18,Friendly,played,Senegal,SEN,Kenya,,FALSE,8,0,win,Antalya,Turkey,TRUE,1801,1347,1804,1344,3
+2025-12-23,African Cup of Nations,played,Senegal,SEN,Botswana,,TRUE,3,0,win,Tangier,Morocco,TRUE,1804,1317,1809,1312,5
+2025-12-27,African Cup of Nations,played,Senegal,SEN,DR Congo,,TRUE,1,1,draw,Tangier,Morocco,TRUE,1809,1635,1797,1647,-12
+2025-12-30,African Cup of Nations,played,Senegal,SEN,Benin,,FALSE,3,0,win,Tangier,Morocco,TRUE,1797,1438,1807,1428,10
+2026-01-03,African Cup of Nations,played,Senegal,SEN,Sudan,,TRUE,3,1,win,Tangier,Morocco,TRUE,1807,1355,1812,1350,5
+2026-01-09,African Cup of Nations,played,Senegal,SEN,Mali,,FALSE,1,0,win,Tangier,Morocco,TRUE,1812,1600,1823,1589,11
+2026-01-14,African Cup of Nations,played,Senegal,SEN,Egypt,EGY,TRUE,1,0,win,Tangier,Morocco,TRUE,1823,1667,1837,1653,14
+2026-01-18,African Cup of Nations,played,Senegal,SEN,Morocco,MAR,FALSE,0,3,loss,Rabat,Morocco,FALSE,,,,,
+2026-03-28,Friendly,played,Senegal,SEN,Peru,PER,TRUE,2,0,win,Paris,France,TRUE,1869,1708,1878,1699,9
+2026-03-31,Friendly,played,Senegal,SEN,Gambia,,TRUE,3,1,win,Diamniadio,Senegal,FALSE,1878,1424,1879,1423,1

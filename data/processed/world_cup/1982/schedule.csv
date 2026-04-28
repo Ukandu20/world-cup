@@ -1,0 +1,53 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1982-06-13,Group Stage,played,Argentina,Belgium,ARG,BEL,2005,1916,Barcelona,Spain,TRUE
+2,1982-06-14,Group Stage,played,Brazil,Soviet Union,BRA,SUN,2093,2012,Seville,Spain,TRUE
+3,1982-06-14,Group Stage,played,Italy,Poland,ITA,POL,1892,1958,Vigo,Spain,TRUE
+4,1982-06-15,Group Stage,played,Hungary,El Salvador,HUN,SLV,1797,1608,Elche,Spain,TRUE
+5,1982-06-15,Group Stage,played,Peru,Cameroon,PER,CMR,1776,1627,La Coruña,Spain,TRUE
+6,1982-06-15,Group Stage,played,Scotland,New Zealand,SCO,NZL,1840,1596,Málaga,Spain,TRUE
+7,1982-06-16,Group Stage,played,England,France,ENG,FRA,1964,1880,Bilbao,Spain,TRUE
+8,1982-06-16,Group Stage,played,Germany,Algeria,DEU,DZA,1923,1743,Gijón,Spain,TRUE
+9,1982-06-16,Group Stage,played,Spain,Honduras,ESP,HND,1891,1600,Valencia,Spain,FALSE
+10,1982-06-17,Group Stage,played,Chile,Austria,CHL,AUT,1771,1920,Oviedo,Spain,TRUE
+11,1982-06-17,Group Stage,played,Czechoslovakia,Kuwait,CSK,KWT,1896,1629,Valladolid,Spain,TRUE
+12,1982-06-17,Group Stage,played,Yugoslavia,Northern Ireland,YUG,NIR,1917,1741,Zaragoza,Spain,TRUE
+13,1982-06-18,Group Stage,played,Argentina,Hungary,ARG,HUN,1967,1835,Alicante,Spain,TRUE
+14,1982-06-18,Group Stage,played,Brazil,Scotland,BRA,SCO,2116,1861,Seville,Spain,TRUE
+15,1982-06-18,Group Stage,played,Italy,Peru,ITA,PER,1898,1764,Vigo,Spain,TRUE
+16,1982-06-19,Group Stage,played,Belgium,El Salvador,BEL,SLV,1954,1570,Elche,Spain,TRUE
+17,1982-06-19,Group Stage,played,Poland,Cameroon,POL,CMR,1952,1639,La Coruña,Spain,TRUE
+18,1982-06-19,Group Stage,played,Soviet Union,New Zealand,SUN,NZL,1989,1575,Málaga,Spain,TRUE
+19,1982-06-20,Group Stage,played,England,Czechoslovakia,ENG,CSK,1998,1877,Bilbao,Spain,TRUE
+20,1982-06-20,Group Stage,played,Germany,Chile,DEU,CHL,1923,1710,Gijón,Spain,TRUE
+21,1982-06-20,Group Stage,played,Spain,Yugoslavia,ESP,YUG,1867,1903,Valencia,Spain,FALSE
+22,1982-06-21,Group Stage,played,Algeria,Austria,DZA,AUT,1696,1938,Oviedo,Spain,TRUE
+23,1982-06-21,Group Stage,played,France,Kuwait,FRA,KWT,1846,1648,Valladolid,Spain,TRUE
+24,1982-06-21,Group Stage,played,Honduras,Northern Ireland,HND,NIR,1624,1755,Zaragoza,Spain,TRUE
+25,1982-06-22,Group Stage,played,Belgium,Hungary,BEL,HUN,1960,1802,Elche,Spain,TRUE
+26,1982-06-22,Group Stage,played,Poland,Peru,POL,PER,1930,1775,La Coruña,Spain,TRUE
+27,1982-06-22,Group Stage,played,Soviet Union,Scotland,SUN,SCO,1998,1841,Málaga,Spain,TRUE
+28,1982-06-23,Group Stage,played,Argentina,El Salvador,ARG,SLV,2000,1564,Alicante,Spain,TRUE
+29,1982-06-23,Group Stage,played,Brazil,New Zealand,BRA,NZL,2136,1566,Seville,Spain,TRUE
+30,1982-06-23,Group Stage,played,Italy,Cameroon,ITA,CMR,1887,1661,Vigo,Spain,TRUE
+31,1982-06-24,Group Stage,played,Algeria,Chile,DZA,CHL,1678,1737,Oviedo,Spain,TRUE
+32,1982-06-24,Group Stage,played,France,Czechoslovakia,FRA,CSK,1871,1847,Valladolid,Spain,TRUE
+33,1982-06-24,Group Stage,played,Honduras,Yugoslavia,HND,YUG,1635,1878,Zaragoza,Spain,TRUE
+34,1982-06-25,Group Stage,played,England,Kuwait,ENG,KWT,2028,1623,Bilbao,Spain,TRUE
+35,1982-06-25,Group Stage,played,Germany,Austria,DEU,AUT,1923,1827,Gijón,Spain,TRUE
+36,1982-06-25,Group Stage,played,Spain,Northern Ireland,ESP,NIR,1892,1744,Valencia,Spain,FALSE
+37,1982-06-28,Quarter-final,played,Austria,France,AUT,FRA,1936,1869,Madrid,Spain,TRUE
+38,1982-06-28,Quarter-final,played,Poland,Belgium,POL,BEL,1963,1947,Barcelona,Spain,TRUE
+39,1982-06-29,Quarter-final,played,Germany,England,DEU,ENG,1923,2020,Madrid,Spain,TRUE
+40,1982-06-29,Quarter-final,played,Italy,Argentina,ITA,ARG,1870,2007,Barcelona,Spain,TRUE
+41,1982-07-01,Quarter-final,played,Austria,Northern Ireland,AUT,NIR,1900,1792,Madrid,Spain,TRUE
+42,1982-07-01,Quarter-final,played,Belgium,Soviet Union,BEL,SUN,1897,1985,Barcelona,Spain,TRUE
+43,1982-07-02,Quarter-final,played,Argentina,Brazil,ARG,BRA,1966,2140,Barcelona,Spain,TRUE
+44,1982-07-02,Quarter-final,played,Spain,Germany,ESP,DEU,2165,1923,Madrid,Spain,FALSE
+45,1982-07-04,Quarter-final,played,France,Northern Ireland,FRA,NIR,1905,1801,Madrid,Spain,TRUE
+46,1982-07-04,Quarter-final,played,Poland,Soviet Union,POL,SUN,2013,2008,Barcelona,Spain,TRUE
+47,1982-07-05,Quarter-final,played,Italy,Brazil,ITA,BRA,1911,2164,Barcelona,Spain,TRUE
+48,1982-07-05,Quarter-final,played,Spain,England,ESP,ENG,1826,2038,Madrid,Spain,FALSE
+49,1982-07-08,Semi-final,played,Germany,France,DEU,FRA,1923,2082,Seville,Spain,TRUE
+50,1982-07-08,Semi-final,played,Poland,Italy,POL,ITA,2013,1960,Barcelona,Spain,TRUE
+51,1982-07-10,Third Place,played,Poland,France,POL,FRA,1961,1955,Alicante,Spain,TRUE
+52,1982-07-11,Final,played,Italy,Germany,ITA,DEU,1856,1923,Madrid,Spain,TRUE

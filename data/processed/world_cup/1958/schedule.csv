@@ -1,0 +1,36 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1958-06-08,Group Stage,played,Argentina,Germany,ARG,DEU,2113,1923,Malmö,Sweden,TRUE
+2,1958-06-08,Group Stage,played,Austria,Brazil,AUT,BRA,1906,1976,Uddevalla,Sweden,TRUE
+3,1958-06-08,Group Stage,played,Czechoslovakia,Northern Ireland,CSK,NIR,1894,1738,Halmstad,Sweden,TRUE
+4,1958-06-08,Group Stage,played,England,Soviet Union,ENG,SUN,2015,1893,Gothenburg,Sweden,TRUE
+5,1958-06-08,Group Stage,played,France,Paraguay,FRA,PRY,1840,1751,Norrköping,Sweden,TRUE
+6,1958-06-08,Group Stage,played,Hungary,Wales,HUN,WAL,2081,1718,Sandviken,Sweden,TRUE
+7,1958-06-08,Group Stage,played,Scotland,Yugoslavia,SCO,YUG,1829,1914,Västerås,Sweden,TRUE
+8,1958-06-08,Group Stage,played,Sweden,Mexico,SWE,MEX,1803,1776,Solna,Sweden,FALSE
+9,1958-06-11,Group Stage,played,Argentina,Northern Ireland,ARG,NIR,1984,1781,Halmstad,Sweden,TRUE
+10,1958-06-11,Group Stage,played,Austria,Soviet Union,AUT,SUN,1864,1903,Borås,Sweden,TRUE
+11,1958-06-11,Group Stage,played,Brazil,England,BRA,ENG,2018,2005,Gothenburg,Sweden,TRUE
+12,1958-06-11,Group Stage,played,Czechoslovakia,Germany,CSK,DEU,1844,1923,Helsingborg,Sweden,TRUE
+13,1958-06-11,Group Stage,played,France,Yugoslavia,FRA,YUG,1882,1907,Västerås,Sweden,TRUE
+14,1958-06-11,Group Stage,played,Mexico,Wales,MEX,WAL,1742,1741,Solna,Sweden,TRUE
+15,1958-06-11,Group Stage,played,Paraguay,Scotland,PRY,SCO,1709,1836,Norrköping,Sweden,TRUE
+16,1958-06-12,Group Stage,played,Sweden,Hungary,SWE,HUN,1837,2058,Solna,Sweden,FALSE
+17,1958-06-15,Group Stage,played,Argentina,Czechoslovakia,ARG,CSK,2005,1862,Helsingborg,Sweden,TRUE
+18,1958-06-15,Group Stage,played,Austria,England,AUT,ENG,1824,2006,Borås,Sweden,TRUE
+19,1958-06-15,Group Stage,played,Brazil,Soviet Union,BRA,SUN,2017,1943,Gothenburg,Sweden,TRUE
+20,1958-06-15,Group Stage,played,France,Scotland,FRA,SCO,1854,1795,Örebro,Sweden,TRUE
+21,1958-06-15,Group Stage,played,Germany,Northern Ireland,DEU,NIR,1923,1601,Malmö,Sweden,TRUE
+22,1958-06-15,Group Stage,played,Hungary,Mexico,HUN,MEX,2018,1742,Sandviken,Sweden,TRUE
+23,1958-06-15,Group Stage,played,Paraguay,Yugoslavia,PRY,YUG,1750,1935,Eskilstuna,Sweden,TRUE
+24,1958-06-15,Group Stage,played,Sweden,Wales,SWE,WAL,1877,1741,Solna,Sweden,FALSE
+25,1958-06-17,Group Stage,played,Czechoslovakia,Northern Ireland,CSK,NIR,1945,1776,Malmö,Sweden,TRUE
+26,1958-06-17,Group Stage,played,England,Soviet Union,ENG,SUN,1992,1907,Gothenburg,Sweden,TRUE
+27,1958-06-17,Group Stage,played,Hungary,Wales,HUN,WAL,2037,1759,Solna,Sweden,TRUE
+28,1958-06-19,Quarter-final,played,Brazil,Wales,BRA,WAL,2053,1809,Gothenburg,Sweden,TRUE
+29,1958-06-19,Quarter-final,played,France,Northern Ireland,FRA,NIR,1879,1820,Norrköping,Sweden,TRUE
+30,1958-06-19,Quarter-final,played,Germany,Yugoslavia,DEU,YUG,1923,1813,Malmö,Sweden,TRUE
+31,1958-06-19,Quarter-final,played,Sweden,Soviet Union,SWE,SUN,1859,1944,Solna,Sweden,FALSE
+32,1958-06-24,Semi-final,played,Brazil,France,BRA,FRA,2065,1926,Solna,Sweden,TRUE
+33,1958-06-24,Semi-final,played,Sweden,Germany,SWE,DEU,1719,1923,Gothenburg,Sweden,FALSE
+34,1958-06-28,Third Place,played,France,Germany,FRA,DEU,2082,1923,Gothenburg,Sweden,TRUE
+35,1958-06-29,Final,played,Sweden,Brazil,SWE,BRA,1945,2098,Solna,Sweden,FALSE

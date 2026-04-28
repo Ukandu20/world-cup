@@ -317,7 +317,7 @@ def fit_v3_poisson_models(
     exclude_tournament: str | tuple[str, ...] | None = None,
 ) -> dict[str, object]:
     """Fit and cache the pair of Poisson goal models used by V3."""
-    results_path = Path(__file__).resolve().parents[1] / "data" / "results.csv"
+    results_path = INTERNATIONAL_RESULTS_PATH
     if not results_path.exists():
         raise ValueError("Historical international results are unavailable for V3 training")
     normalized_exclusions = normalize_excluded_tournaments(exclude_tournament)

@@ -1,6 +1,13 @@
-data
+data/*
+!data/README.md
+!data/processed/
+!data/processed/**
 INT-World Cup
 assets/
 __pycache__/
 .cache/
+.agents/
 *.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+.tmp_*

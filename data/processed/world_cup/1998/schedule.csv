@@ -1,0 +1,65 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1998-06-10,Group Stage,played,Brazil,Scotland,BRA,SCO,2092,1776,Saint-Denis,France,TRUE
+2,1998-06-10,Group Stage,played,Morocco,Norway,MAR,NOR,1727,1903,Montpellier,France,TRUE
+3,1998-06-11,Group Stage,played,Cameroon,Austria,CMR,AUT,1591,1715,Toulouse,France,TRUE
+4,1998-06-11,Group Stage,played,Italy,Chile,ITA,CHL,1972,1788,Bordeaux,France,TRUE
+5,1998-06-12,Group Stage,played,France,South Africa,FRA,ZAF,2002,1637,Marseille,France,FALSE
+6,1998-06-12,Group Stage,played,Paraguay,Bulgaria,PRY,BGR,1742,1805,Montpellier,France,TRUE
+7,1998-06-12,Group Stage,played,Saudi Arabia,Denmark,SAU,DNK,1644,1882,Lens,France,TRUE
+8,1998-06-13,Group Stage,played,South Korea,Mexico,KOR,MEX,1750,1847,Lyon,France,TRUE
+9,1998-06-13,Group Stage,played,Netherlands,Belgium,NLD,BEL,1959,1822,Saint-Denis,France,TRUE
+10,1998-06-13,Group Stage,played,Spain,Nigeria,ESP,NGA,2039,1703,Nantes,France,TRUE
+11,1998-06-14,Group Stage,played,Argentina,Japan,ARG,JPN,1893,1743,Toulouse,France,TRUE
+12,1998-06-14,Group Stage,played,Jamaica,Croatia,JAM,HRV,1645,1874,Lens,France,TRUE
+13,1998-06-14,Group Stage,played,Serbia,Iran,SRB,IRN,1769,1760,Saint-Étienne,France,TRUE
+14,1998-06-15,Group Stage,played,England,Tunisia,ENG,TUN,1974,1632,Marseille,France,TRUE
+15,1998-06-15,Group Stage,played,Germany,United States,DEU,USA,2058,1759,Paris,France,TRUE
+16,1998-06-15,Group Stage,played,Romania,Colombia,ROU,COL,1880,1778,Lyon,France,TRUE
+17,1998-06-16,Group Stage,played,Brazil,Morocco,BRA,MAR,2100,1741,Nantes,France,TRUE
+18,1998-06-16,Group Stage,played,Scotland,Norway,SCO,NOR,1768,1889,Bordeaux,France,TRUE
+19,1998-06-17,Group Stage,played,Chile,Austria,CHL,AUT,1803,1705,Saint-Étienne,France,TRUE
+20,1998-06-17,Group Stage,played,Italy,Cameroon,ITA,CMR,1957,1601,Montpellier,France,TRUE
+21,1998-06-18,Group Stage,played,France,Saudi Arabia,FRA,SAU,2009,1632,Saint-Denis,France,FALSE
+22,1998-06-18,Group Stage,played,South Africa,Denmark,ZAF,DNK,1630,1894,Toulouse,France,TRUE
+23,1998-06-19,Group Stage,played,Nigeria,Bulgaria,NGA,BGR,1755,1800,Paris,France,TRUE
+24,1998-06-19,Group Stage,played,Spain,Paraguay,ESP,PRY,1987,1747,Saint-Étienne,France,TRUE
+25,1998-06-20,Group Stage,played,Belgium,Mexico,BEL,MEX,1833,1880,Bordeaux,France,TRUE
+26,1998-06-20,Group Stage,played,Japan,Croatia,JPN,HRV,1725,1893,Nantes,France,TRUE
+27,1998-06-20,Group Stage,played,Netherlands,South Korea,NLD,KOR,1948,1717,Marseille,France,TRUE
+28,1998-06-21,Group Stage,played,Argentina,Jamaica,ARG,JAM,1911,1626,Paris,France,TRUE
+29,1998-06-21,Group Stage,played,Germany,Serbia,DEU,SRB,1923,1769,Lens,France,TRUE
+30,1998-06-21,Group Stage,played,United States,Iran,USA,IRN,1745,1628,Lyon,France,TRUE
+31,1998-06-22,Group Stage,played,Colombia,Tunisia,COL,TUN,1757,1621,Montpellier,France,TRUE
+32,1998-06-22,Group Stage,played,Romania,England,ROU,ENG,1901,1985,Toulouse,France,TRUE
+33,1998-06-23,Group Stage,played,Brazil,Norway,BRA,NOR,2112,1879,Marseille,France,TRUE
+34,1998-06-23,Group Stage,played,Chile,Cameroon,CHL,CMR,1795,1589,Nantes,France,TRUE
+35,1998-06-23,Group Stage,played,Italy,Austria,ITA,AUT,1969,1713,Saint-Denis,France,TRUE
+36,1998-06-23,Group Stage,played,Scotland,Morocco,SCO,MAR,1778,1729,Saint-Étienne,France,TRUE
+37,1998-06-24,Group Stage,played,France,Denmark,FRA,DNK,2016,1875,Lyon,France,FALSE
+38,1998-06-24,Group Stage,played,Nigeria,Paraguay,NGA,PRY,1789,1765,Toulouse,France,TRUE
+39,1998-06-24,Group Stage,played,South Africa,Saudi Arabia,ZAF,SAU,1649,1625,Bordeaux,France,TRUE
+40,1998-06-24,Group Stage,played,Spain,Bulgaria,ESP,BGR,1969,1766,Lens,France,TRUE
+41,1998-06-25,Group Stage,played,Belgium,South Korea,BEL,KOR,1837,1692,Paris,France,TRUE
+42,1998-06-25,Group Stage,played,Germany,Iran,DEU,IRN,2064,1668,Montpellier,France,TRUE
+43,1998-06-25,Group Stage,played,Netherlands,Mexico,NLD,MEX,1973,1876,Saint-Étienne,France,TRUE
+44,1998-06-25,Group Stage,played,United States,Serbia,USA,SRB,1721,1769,Nantes,France,TRUE
+45,1998-06-26,Group Stage,played,Argentina,Croatia,ARG,HRV,1930,1910,Bordeaux,France,TRUE
+46,1998-06-26,Group Stage,played,Colombia,England,COL,ENG,1776,1948,Lens,France,TRUE
+47,1998-06-26,Group Stage,played,Japan,Jamaica,JPN,JAM,1708,1607,Lyon,France,TRUE
+48,1998-06-26,Group Stage,played,Romania,Tunisia,ROU,TUN,1938,1602,Saint-Denis,France,TRUE
+49,1998-06-27,Round of 16,played,Brazil,Chile,BRA,CHL,2064,1779,Paris,France,TRUE
+50,1998-06-27,Round of 16,played,Italy,Norway,ITA,NOR,1980,1927,Marseille,France,TRUE
+51,1998-06-28,Round of 16,played,France,Paraguay,FRA,PRY,2028,1813,Lens,France,FALSE
+52,1998-06-28,Round of 16,played,Nigeria,Denmark,NGA,DNK,1741,1863,Saint-Denis,France,TRUE
+53,1998-06-29,Round of 16,played,Germany,Mexico,DEU,MEX,2072,1884,Montpellier,France,TRUE
+54,1998-06-29,Round of 16,played,Netherlands,Serbia,NLD,SRB,1961,1769,Toulouse,France,TRUE
+55,1998-06-30,Round of 16,played,Argentina,England,ARG,ENG,1958,1972,Saint-Étienne,France,TRUE
+56,1998-06-30,Round of 16,played,Romania,Croatia,ROU,HRV,1916,1882,Bordeaux,France,TRUE
+57,1998-07-03,Quarter-final,played,Brazil,Denmark,BRA,DNK,2081,1898,Nantes,France,TRUE
+58,1998-07-03,Quarter-final,played,France,Italy,FRA,ITA,2036,2005,Saint-Denis,France,FALSE
+59,1998-07-04,Quarter-final,played,Germany,Croatia,DEU,HRV,2087,1915,Lyon,France,TRUE
+60,1998-07-04,Quarter-final,played,Netherlands,Argentina,NLD,ARG,1997,1959,Marseille,France,TRUE
+61,1998-07-07,Semi-final,played,Brazil,Netherlands,BRA,NLD,2097,2024,Marseille,France,TRUE
+62,1998-07-08,Semi-final,played,France,Croatia,FRA,HRV,2025,1992,Saint-Denis,France,FALSE
+63,1998-07-11,Third Place,played,Netherlands,Croatia,NLD,HRV,2030,1973,Paris,France,TRUE
+64,1998-07-12,Final,played,France,Brazil,FRA,BRA,2044,2091,Saint-Denis,France,FALSE

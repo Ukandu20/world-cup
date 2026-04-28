@@ -1,0 +1,53 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1986-05-31,Group Stage,played,Bulgaria,Italy,BGR,ITA,1844,1884,Mexico City,Mexico,TRUE
+2,1986-06-01,Group Stage,played,Canada,France,CAN,FRA,1648,1995,León,Mexico,TRUE
+3,1986-06-01,Group Stage,played,Spain,Brazil,ESP,BRA,1902,1915,Guadalajara,Mexico,TRUE
+4,1986-06-02,Group Stage,played,Argentina,South Korea,ARG,KOR,1874,1613,Mexico City,Mexico,TRUE
+5,1986-06-02,Group Stage,played,Morocco,Poland,MAR,POL,1642,1805,Monterrey,Mexico,TRUE
+6,1986-06-02,Group Stage,played,Soviet Union,Hungary,SUN,HUN,1940,1891,Irapuato,Mexico,TRUE
+7,1986-06-03,Group Stage,played,Algeria,Northern Ireland,DZA,NIR,1618,1853,Guadalajara,Mexico,TRUE
+8,1986-06-03,Group Stage,played,Mexico,Belgium,MEX,BEL,1841,1824,Mexico City,Mexico,FALSE
+9,1986-06-03,Group Stage,played,Portugal,England,PRT,ENG,1807,1990,Monterrey,Mexico,TRUE
+10,1986-06-04,Group Stage,played,Paraguay,Iraq,PRY,IRQ,1812,1592,Toluca,Mexico,TRUE
+11,1986-06-04,Group Stage,played,Scotland,Denmark,SCO,DNK,1874,1893,Nezahualcóyotl,Mexico,TRUE
+12,1986-06-04,Group Stage,played,Uruguay,Germany,URY,DEU,1892,1923,Querétaro,Mexico,TRUE
+13,1986-06-05,Group Stage,played,France,Soviet Union,FRA,SUN,2002,1995,León,Mexico,TRUE
+14,1986-06-05,Group Stage,played,Italy,Argentina,ITA,ARG,1881,1890,Puebla,Mexico,TRUE
+15,1986-06-05,Group Stage,played,South Korea,Bulgaria,KOR,BGR,1597,1847,Mexico City,Mexico,TRUE
+16,1986-06-06,Group Stage,played,Brazil,Algeria,BRA,DZA,1944,1636,Guadalajara,Mexico,TRUE
+17,1986-06-06,Group Stage,played,England,Morocco,ENG,MAR,1946,1655,Monterrey,Mexico,TRUE
+18,1986-06-06,Group Stage,played,Hungary,Canada,HUN,CAN,1836,1641,Irapuato,Mexico,TRUE
+19,1986-06-07,Group Stage,played,Mexico,Paraguay,MEX,PRY,1861,1825,Mexico City,Mexico,FALSE
+20,1986-06-07,Group Stage,played,Northern Ireland,Spain,NIR,ESP,1835,1873,Guadalajara,Mexico,TRUE
+21,1986-06-07,Group Stage,played,Poland,Portugal,POL,PRT,1792,1851,Monterrey,Mexico,TRUE
+22,1986-06-08,Group Stage,played,Denmark,Uruguay,DNK,URY,1921,1841,Nezahualcóyotl,Mexico,TRUE
+23,1986-06-08,Group Stage,played,Germany,Scotland,DEU,SCO,1923,1767,Querétaro,Mexico,TRUE
+24,1986-06-08,Group Stage,played,Iraq,Belgium,IRQ,BEL,1579,1804,Toluca,Mexico,TRUE
+25,1986-06-09,Group Stage,played,Hungary,France,HUN,FRA,1858,2001,León,Mexico,TRUE
+26,1986-06-09,Group Stage,played,Soviet Union,Canada,SUN,CAN,1996,1619,Irapuato,Mexico,TRUE
+27,1986-06-10,Group Stage,played,Argentina,Bulgaria,ARG,BGR,1889,1829,Mexico City,Mexico,TRUE
+28,1986-06-10,Group Stage,played,South Korea,Italy,KOR,ITA,1615,1882,Puebla,Mexico,TRUE
+29,1986-06-11,Group Stage,played,England,Poland,ENG,POL,1925,1827,Monterrey,Mexico,TRUE
+30,1986-06-11,Group Stage,played,Mexico,Iraq,MEX,IRQ,1850,1566,Mexico City,Mexico,FALSE
+31,1986-06-11,Group Stage,played,Paraguay,Belgium,PRY,BEL,1836,1817,Toluca,Mexico,TRUE
+32,1986-06-11,Group Stage,played,Portugal,Morocco,PRT,MAR,1816,1676,Guadalajara,Mexico,TRUE
+33,1986-06-12,Group Stage,played,Algeria,Spain,DZA,ESP,1627,1900,Monterrey,Mexico,TRUE
+34,1986-06-12,Group Stage,played,Northern Ireland,Brazil,NIR,BRA,1808,1953,Guadalajara,Mexico,TRUE
+35,1986-06-13,Group Stage,played,Denmark,Germany,DNK,DEU,1870,1923,Querétaro,Mexico,TRUE
+36,1986-06-13,Group Stage,played,Scotland,Uruguay,SCO,URY,1823,1795,Nezahualcóyotl,Mexico,TRUE
+37,1986-06-15,Round of 16,played,Mexico,Bulgaria,MEX,BGR,1856,1792,Mexico City,Mexico,FALSE
+38,1986-06-15,Round of 16,played,Soviet Union,Belgium,SUN,BEL,2005,1819,León,Mexico,TRUE
+39,1986-06-16,Round of 16,played,Argentina,Uruguay,ARG,URY,1926,1797,Puebla,Mexico,TRUE
+40,1986-06-16,Round of 16,played,Brazil,Poland,BRA,POL,1985,1789,Guadalajara,Mexico,TRUE
+41,1986-06-17,Round of 16,played,Italy,France,ITA,FRA,1893,2033,Mexico City,Mexico,TRUE
+42,1986-06-17,Round of 16,played,Morocco,Germany,MAR,DEU,1821,1923,Monterrey,Mexico,TRUE
+43,1986-06-18,Round of 16,played,Denmark,Spain,DNK,ESP,2010,1918,Querétaro,Mexico,TRUE
+44,1986-06-18,Round of 16,played,England,Paraguay,ENG,PRY,1963,1834,Mexico City,Mexico,TRUE
+45,1986-06-21,Quarter-final,played,Brazil,France,BRA,FRA,2013,2061,Guadalajara,Mexico,TRUE
+46,1986-06-21,Quarter-final,played,Mexico,Germany,MEX,DEU,1858,1923,Monterrey,Mexico,FALSE
+47,1986-06-22,Quarter-final,played,Argentina,England,ARG,ENG,1945,1997,Mexico City,Mexico,TRUE
+48,1986-06-22,Quarter-final,played,Spain,Belgium,ESP,BEL,1989,1864,Puebla,Mexico,TRUE
+49,1986-06-25,Semi-final,played,Argentina,Belgium,ARG,BEL,1979,1874,Mexico City,Mexico,TRUE
+50,1986-06-25,Semi-final,played,France,Germany,FRA,DEU,2082,1923,Guadalajara,Mexico,TRUE
+51,1986-06-28,Third Place,played,France,Belgium,FRA,BEL,1996,1842,Puebla,Mexico,TRUE
+52,1986-06-29,Final,played,Argentina,Germany,ARG,DEU,2113,1923,Mexico City,Mexico,TRUE

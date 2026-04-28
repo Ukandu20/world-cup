@@ -1,0 +1,468 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1885-11-28,Friendly,played,Canada,CAN,United States,USA,FALSE,1,0,win,Newark,United States,FALSE,,,,,
+1886-11-25,Friendly,played,Canada,CAN,United States,USA,FALSE,2,3,loss,Newark,United States,FALSE,,,,,
+1888-09-19,Friendly,played,Canada,CAN,Scotland,SCO,FALSE,0,4,loss,Glasgow,Scotland,FALSE,,,,,
+1919-06-25,Inter-Allied Games,played,Canada,CAN,United States,USA,FALSE,4,5,loss,Paris,France,TRUE,,,,,
+1919-06-26,Inter-Allied Games,played,Canada,CAN,Belgium,BEL,FALSE,2,5,loss,Paris,France,TRUE,,,,,
+1919-06-28,Inter-Allied Games,played,Canada,CAN,Czechoslovakia,CSK,FALSE,2,3,loss,Paris,France,TRUE,,,,,
+1921-07-09,Friendly,played,Canada,CAN,Scotland,SCO,TRUE,0,1,loss,Montreal,Canada,FALSE,,,,,
+1924-06-07,Friendly,played,Canada,CAN,Australia,AUS,FALSE,2,3,loss,Brisbane,Australia,FALSE,1600,1562,1592,1570,-8
+1924-06-14,Friendly,played,Canada,CAN,Australia,AUS,FALSE,1,0,win,Sydney,Australia,FALSE,1592,1570,1604,1558,12
+1924-06-23,Friendly,played,Canada,CAN,Australia,AUS,FALSE,1,4,loss,Sydney,Australia,FALSE,1604,1558,1589,1573,-15
+1924-06-28,Friendly,played,Canada,CAN,Australia,AUS,FALSE,0,0,draw,Newcastle,Australia,FALSE,1589,1573,1591,1571,2
+1924-07-12,Friendly,played,Canada,CAN,Australia,AUS,FALSE,4,1,win,Adelaide,Australia,FALSE,1591,1571,1612,1550,21
+1924-07-26,Friendly,played,Canada,CAN,Australia,AUS,FALSE,0,1,loss,Sydney,Australia,FALSE,1612,1550,1603,1559,-9
+1925-06-27,Friendly,played,Canada,CAN,United States,USA,TRUE,1,0,win,Montreal,Canada,FALSE,1603,1689,1613,1679,10
+1925-11-08,Friendly,played,Canada,CAN,United States,USA,FALSE,1,6,loss,New York,United States,FALSE,1613,1679,1602,1690,-11
+1926-11-06,Friendly,played,Canada,CAN,United States,USA,FALSE,2,6,loss,New York,United States,FALSE,1602,1690,1593,1699,-9
+1927-06-25,Friendly,played,Canada,CAN,New Zealand,NZL,FALSE,2,2,draw,Dunedin,New Zealand,FALSE,1593,1572,1595,1570,2
+1927-07-02,Friendly,played,Canada,CAN,New Zealand,NZL,FALSE,2,1,win,Christchurch,New Zealand,FALSE,1595,1570,1607,1558,12
+1927-07-09,Friendly,played,Canada,CAN,New Zealand,NZL,FALSE,0,1,loss,Wellington,New Zealand,FALSE,1607,1558,1598,1567,-9
+1927-07-23,Friendly,played,Canada,CAN,New Zealand,NZL,FALSE,4,1,win,Auckland,New Zealand,FALSE,1598,1567,1619,1546,21
+1957-06-22,FIFA World Cup qualification,played,Canada,CAN,United States,USA,TRUE,5,1,win,Toronto,Canada,FALSE,1619,1477,1634,1462,15
+1957-06-30,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1634,1708,1615,1727,-19
+1957-07-03,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1615,1727,1601,1741,-14
+1957-07-06,FIFA World Cup qualification,played,Canada,CAN,United States,USA,FALSE,3,2,win,St. Louis,United States,FALSE,1601,1462,1619,1444,18
+1968-10-06,FIFA World Cup qualification,played,Canada,CAN,Bermuda,,TRUE,4,0,win,Toronto,Canada,FALSE,1619,1382,1628,1373,9
+1968-10-13,FIFA World Cup qualification,played,Canada,CAN,United States,USA,TRUE,4,2,win,Toronto,Canada,FALSE,1628,1465,1639,1454,11
+1968-10-20,FIFA World Cup qualification,played,Canada,CAN,Bermuda,,FALSE,0,0,draw,Hamilton,Bermuda,FALSE,1639,1373,1630,1382,-9
+1968-10-26,FIFA World Cup qualification,played,Canada,CAN,United States,USA,FALSE,0,1,loss,Atlanta,United States,FALSE,1630,1453,1606,1477,-24
+1972-08-20,CONCACAF Championship qualification,played,Canada,CAN,United States,USA,TRUE,3,2,win,St. John's,Canada,FALSE,1606,1469,1614,1461,8
+1972-08-24,CONCACAF Championship qualification,played,Canada,CAN,Mexico,MEX,TRUE,0,1,loss,Toronto,Canada,FALSE,1614,1769,1597,1786,-17
+1972-08-29,CONCACAF Championship qualification,played,Canada,CAN,United States,USA,FALSE,2,2,draw,Baltimore,United States,FALSE,1597,1461,1595,1463,-2
+1972-09-02,Friendly,played,Canada,CAN,Guatemala,,FALSE,2,2,draw,Guatemala City,Guatemala,FALSE,1595,1547,1596,1546,1
+1972-09-06,CONCACAF Championship qualification,played,Canada,CAN,Mexico,MEX,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1596,1791,1590,1797,-6
+1973-08-01,Friendly,played,Canada,CAN,Poland,POL,TRUE,1,3,loss,Toronto,Canada,FALSE,1590,1949,1584,1955,-6
+1973-08-05,Friendly,played,Canada,CAN,United States,USA,TRUE,0,2,loss,Windsor,Canada,FALSE,1584,1425,1560,1449,-24
+1973-09-28,Friendly,played,Canada,CAN,Malta,,FALSE,0,2,loss,Gżira,Malta,FALSE,1560,1366,1541,1385,-19
+1973-09-30,Friendly,played,Canada,CAN,Malta,,FALSE,0,0,draw,Gżira,Malta,FALSE,,,,,
+1973-10-07,Friendly,played,Canada,CAN,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1541,1319,1551,1309,10
+1973-11-10,Friendly,played,Canada,CAN,Haiti,HTI,FALSE,1,5,loss,Port-au-Prince,Haiti,FALSE,1551,1597,1540,1608,-11
+1973-11-12,Friendly,played,Canada,CAN,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1540,1608,1554,1594,14
+1974-04-12,Friendly,played,Canada,CAN,Bermuda,,FALSE,0,0,draw,Hamilton,Bermuda,FALSE,1554,1334,1551,1337,-3
+1974-10-09,Friendly,played,Canada,CAN,German DR,DDR,FALSE,0,2,loss,Frankfurt an der Oder,German DR,FALSE,1551,1928,1549,1930,-2
+1974-10-31,Friendly,played,Canada,CAN,Poland,POL,FALSE,0,2,loss,Warsaw,Poland,FALSE,1549,2033,1548,2034,-1
+1975-01-05,Friendly,played,Canada,CAN,Cuba,CUB,FALSE,0,4,loss,Havana,Cuba,FALSE,1548,1497,1532,1513,-16
+1975-07-06,Friendly,played,Canada,CAN,Poland,POL,TRUE,1,8,loss,Montreal,Canada,FALSE,1532,2045,1528,2049,-4
+1975-07-09,Friendly,played,Canada,CAN,Poland,POL,TRUE,1,4,loss,Toronto,Canada,FALSE,1528,2049,1525,2052,-3
+1975-07-29,Friendly,played,Canada,CAN,German DR,DDR,TRUE,0,3,loss,Toronto,Canada,FALSE,1525,1839,1517,1847,-8
+1975-07-31,Friendly,played,Canada,CAN,German DR,DDR,TRUE,1,7,loss,Ottawa,Canada,FALSE,1517,1847,1508,1856,-9
+1976-09-24,CONCACAF Championship qualification,played,Canada,CAN,United States,USA,TRUE,1,1,draw,Vancouver,Canada,FALSE,1508,1416,1498,1426,-10
+1976-10-10,CONCACAF Championship qualification,played,Canada,CAN,Mexico,MEX,TRUE,1,0,win,Vancouver,Canada,FALSE,1498,1747,1526,1719,28
+1976-10-20,CONCACAF Championship qualification,played,Canada,CAN,United States,USA,FALSE,0,2,loss,Seattle,United States,FALSE,1526,1431,1496,1461,-30
+1976-10-27,CONCACAF Championship qualification,played,Canada,CAN,Mexico,MEX,FALSE,0,0,draw,Toluca,Mexico,FALSE,1496,1726,1511,1711,15
+1976-12-22,CONCACAF Championship qualification,played,Canada,CAN,United States,USA,TRUE,3,0,win,Port-au-Prince,Haiti,TRUE,1500,1480,1533,1447,33
+1977-09-11,Friendly,played,Canada,CAN,Trinidad and Tobago,TTO,FALSE,1,1,draw,Pointe-à-Pierre,Trinidad and Tobago,FALSE,1533,1477,1534,1476,1
+1977-10-08,CONCACAF Championship,played,Canada,CAN,El Salvador,SLV,TRUE,1,2,loss,Monterrey,Mexico,TRUE,1534,1470,1504,1500,-30
+1977-10-12,CONCACAF Championship,played,Canada,CAN,Suriname,,TRUE,2,1,win,Mexico City,Mexico,TRUE,1504,1471,1527,1448,23
+1977-10-16,CONCACAF Championship,played,Canada,CAN,Guatemala,,TRUE,2,1,win,Mexico City,Mexico,TRUE,1527,1573,1555,1545,28
+1977-10-20,CONCACAF Championship,played,Canada,CAN,Haiti,HTI,TRUE,1,1,draw,Monterrey,Mexico,TRUE,1555,1608,1559,1604,4
+1977-10-22,CONCACAF Championship,played,Canada,CAN,Mexico,MEX,FALSE,1,3,loss,Monterrey,Mexico,FALSE,1559,1782,1549,1792,-10
+1980-09-15,Friendly,played,Canada,CAN,New Zealand,NZL,TRUE,4,0,win,Vancouver,Canada,FALSE,1549,1470,1559,1460,10
+1980-09-17,Friendly,played,Canada,CAN,New Zealand,NZL,TRUE,3,0,win,Edmonton,Canada,FALSE,1559,1460,1567,1452,8
+1980-10-18,CONCACAF Championship qualification,played,Canada,CAN,Mexico,MEX,TRUE,1,1,draw,Toronto,Canada,FALSE,1567,1705,1569,1703,2
+1980-10-25,CONCACAF Championship qualification,played,Canada,CAN,United States,USA,FALSE,0,0,draw,Fort Lauderdale,United States,FALSE,1569,1515,1572,1512,3
+1980-11-01,CONCACAF Championship qualification,played,Canada,CAN,United States,USA,TRUE,2,1,win,Vancouver,Canada,FALSE,1572,1512,1583,1501,11
+1980-11-09,Friendly,played,Canada,CAN,Honduras,HND,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1583,1514,1569,1528,-14
+1980-11-11,Friendly,played,Canada,CAN,Guatemala,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1569,1502,1580,1491,11
+1980-11-16,CONCACAF Championship qualification,played,Canada,CAN,Mexico,MEX,FALSE,1,1,draw,Mexico City,Mexico,FALSE,1580,1714,1592,1702,12
+1981-10-12,Friendly,played,Canada,CAN,Trinidad and Tobago,TTO,FALSE,4,2,win,San Fernando,Trinidad and Tobago,FALSE,1592,1436,1605,1423,13
+1981-11-02,CONCACAF Championship,played,Canada,CAN,El Salvador,SLV,TRUE,1,0,win,Tegucigalpa,Honduras,TRUE,1596,1555,1618,1533,22
+1981-11-06,CONCACAF Championship,played,Canada,CAN,Haiti,HTI,TRUE,1,1,draw,Tegucigalpa,Honduras,TRUE,1618,1499,1610,1507,-8
+1981-11-12,CONCACAF Championship,played,Canada,CAN,Honduras,HND,FALSE,1,2,loss,Tegucigalpa,Honduras,FALSE,1610,1619,1593,1636,-17
+1981-11-15,CONCACAF Championship,played,Canada,CAN,Mexico,MEX,FALSE,1,1,draw,Tegucigalpa,Honduras,TRUE,1593,1666,1598,1661,5
+1981-11-21,CONCACAF Championship,played,Canada,CAN,Cuba,CUB,FALSE,2,2,draw,Tegucigalpa,Honduras,TRUE,1598,1580,1597,1581,-1
+1983-06-12,Friendly,played,Canada,CAN,Scotland,SCO,TRUE,0,2,loss,Vancouver,Canada,FALSE,1597,1845,1588,1854,-9
+1983-06-16,Friendly,played,Canada,CAN,Scotland,SCO,TRUE,0,3,loss,Edmonton,Canada,FALSE,1588,1854,1578,1864,-10
+1983-12-06,Friendly,played,Canada,CAN,Mexico,MEX,FALSE,0,5,loss,Irapuato,Mexico,FALSE,1570,1709,1562,1717,-8
+1983-12-08,Friendly,played,Canada,CAN,Belize,,FALSE,2,0,win,Belmopan,Belize,FALSE,1562,1117,1566,1113,4
+1983-12-11,Friendly,played,Canada,CAN,Honduras,HND,FALSE,1,3,loss,San Pedro Sula,Honduras,FALSE,1566,1584,1556,1594,-10
+1983-12-14,Friendly,played,Canada,CAN,Honduras,HND,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1556,1594,1550,1600,-6
+1984-03-28,Friendly,played,Canada,CAN,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1550,1449,1560,1439,10
+1984-05-26,Friendly,played,Canada,CAN,Italy,ITA,TRUE,0,2,loss,Toronto,Canada,FALSE,1560,1861,1553,1868,-7
+1984-10-16,Friendly,played,Canada,CAN,Algeria,DZA,FALSE,0,1,loss,Algiers,Algeria,FALSE,1622,1703,1617,1708,-5
+1984-10-21,Friendly,played,Canada,CAN,Tunisia,TUN,FALSE,0,2,loss,Tunis,Tunisia,FALSE,1617,1622,1606,1633,-11
+1984-10-24,Friendly,played,Canada,CAN,Morocco,MAR,FALSE,2,3,loss,Rabat,Morocco,FALSE,1606,1665,1600,1671,-6
+1984-11-02,Friendly,played,Canada,CAN,Egypt,EGY,FALSE,0,1,loss,Cairo,Egypt,FALSE,,,,,
+1985-03-08,Friendly,played,Canada,CAN,Saint Vincent and the Grenadines,,FALSE,2,1,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1595,1413,1603,1405,8
+1985-03-10,Friendly,played,Canada,CAN,Trinidad and Tobago,TTO,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1603,1500,1613,1490,10
+1985-03-13,Friendly,played,Canada,CAN,Jamaica,JAM,FALSE,1,1,draw,Montego Bay,Jamaica,FALSE,1613,1256,1607,1262,-6
+1985-03-17,Friendly,played,Canada,CAN,Jamaica,JAM,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1607,1262,1601,1268,-6
+1985-03-21,Friendly,played,Canada,CAN,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1601,1510,1591,1520,-10
+1985-03-24,Friendly,played,Canada,CAN,Costa Rica,CRI,FALSE,0,0,draw,San José,Costa Rica,FALSE,1591,1520,1592,1519,1
+1985-04-02,Friendly,played,Canada,CAN,United States,USA,TRUE,2,0,win,Vancouver,Canada,FALSE,1592,1583,1602,1573,10
+1985-04-04,Friendly,played,Canada,CAN,United States,USA,FALSE,1,1,draw,Portland,United States,FALSE,1602,1573,1604,1571,2
+1985-04-13,CONCACAF Championship,played,Canada,CAN,Haiti,HTI,TRUE,2,0,win,Victoria,Canada,FALSE,1604,1419,1616,1407,12
+1985-04-20,CONCACAF Championship,played,Canada,CAN,Guatemala,,TRUE,2,1,win,Victoria,Canada,FALSE,1616,1548,1630,1534,14
+1985-05-05,CONCACAF Championship,played,Canada,CAN,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1630,1557,1632,1555,2
+1985-05-08,CONCACAF Championship,played,Canada,CAN,Haiti,HTI,FALSE,2,0,win,Port-au-Prince,Haiti,FALSE,1632,1384,1654,1362,22
+1985-06-02,Korea Cup,played,Canada,CAN,Ghana,GHA,TRUE,2,1,win,Seoul,South Korea,TRUE,1654,1652,1669,1637,15
+1985-06-09,Korea Cup,played,Canada,CAN,Iraq,IRQ,TRUE,1,6,loss,Gwangju,South Korea,TRUE,1669,1613,1634,1648,-35
+1985-08-17,CONCACAF Championship,played,Canada,CAN,Costa Rica,CRI,TRUE,1,1,draw,Toronto,Canada,FALSE,1634,1570,1623,1581,-11
+1985-08-25,CONCACAF Championship,played,Canada,CAN,Honduras,HND,FALSE,1,0,win,Tegucigalpa,Honduras,FALSE,1623,1641,1656,1608,33
+1985-09-01,CONCACAF Championship,played,Canada,CAN,Costa Rica,CRI,FALSE,0,0,draw,San José,Costa Rica,FALSE,1656,1581,1658,1579,2
+1985-09-14,CONCACAF Championship,played,Canada,CAN,Honduras,HND,TRUE,2,1,win,St. John's,Canada,FALSE,1658,1632,1674,1616,16
+1986-01-29,Friendly,played,Canada,CAN,Paraguay,PRY,TRUE,0,0,draw,Vancouver,Canada,FALSE,1674,1779,1674,1779,0
+1986-02-02,Miami Cup,played,Canada,CAN,Uruguay,URY,TRUE,1,3,loss,Miami,United States,TRUE,1674,1862,1663,1873,-11
+1986-04-27,Friendly,played,Canada,CAN,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1656,1848,1651,1853,-5
+1986-05-10,Friendly,played,Canada,CAN,Wales,WAL,TRUE,2,0,win,Toronto,Canada,FALSE,1651,1808,1668,1791,17
+1986-05-19,Friendly,played,Canada,CAN,Wales,WAL,TRUE,0,3,loss,Vancouver,Canada,FALSE,1668,1791,1652,1807,-16
+1986-05-24,Friendly,played,Canada,CAN,England,ENG,TRUE,0,1,loss,Burnaby,Canada,FALSE,1652,1986,1648,1990,-4
+1986-06-01,FIFA World Cup,played,Canada,CAN,France,FRA,TRUE,0,1,loss,León,Mexico,TRUE,1648,1995,1641,2002,-7
+1986-06-06,FIFA World Cup,played,Canada,CAN,Hungary,HUN,FALSE,0,2,loss,Irapuato,Mexico,TRUE,1641,1836,1619,1858,-22
+1986-06-09,FIFA World Cup,played,Canada,CAN,Soviet Union,SUN,FALSE,0,2,loss,Irapuato,Mexico,TRUE,1619,1996,1610,2005,-9
+1986-08-24,Merlion Cup,played,Canada,CAN,Singapore,,FALSE,1,0,win,Kallang,Singapore,FALSE,1610,1236,1615,1231,5
+1986-08-27,Merlion Cup,played,Canada,CAN,North Korea,PRK,TRUE,0,0,draw,Kallang,Singapore,TRUE,1615,1533,1612,1536,-3
+1986-08-31,Merlion Cup,played,Canada,CAN,China PR,,FALSE,0,1,loss,Kallang,Singapore,TRUE,,,,,
+1986-09-04,Merlion Cup,played,Canada,CAN,North Korea,PRK,TRUE,0,2,loss,Kallang,Singapore,TRUE,1596,1547,1570,1573,-26
+1986-09-06,Merlion Cup,played,Canada,CAN,Singapore,,FALSE,1,0,win,Kallang,Singapore,FALSE,1570,1206,1575,1201,5
+1987-09-30,Friendly,played,Canada,CAN,El Salvador,SLV,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1581,1526,1572,1535,-9
+1987-10-02,Friendly,played,Canada,CAN,Honduras,HND,FALSE,1,1,draw,Tegucigalpa,Honduras,FALSE,1572,1621,1576,1617,4
+1987-10-06,Friendly,played,Canada,CAN,Mexico,MEX,FALSE,0,4,loss,Toluca,Mexico,FALSE,1576,1857,1572,1861,-4
+1988-02-18,Friendly,played,Canada,CAN,Bermuda,,FALSE,0,0,draw,Hamilton,Bermuda,FALSE,1572,1338,1568,1342,-4
+1988-03-26,Friendly,played,Canada,CAN,Peru,PER,FALSE,3,1,win,Lima,Peru,FALSE,,,,,
+1988-03-30,Friendly,played,Canada,CAN,Colombia,COL,FALSE,0,3,loss,Armenia,Colombia,FALSE,1568,1759,1562,1765,-6
+1988-04-05,Friendly,played,Canada,CAN,Jamaica,JAM,FALSE,4,0,win,Kingston,Jamaica,FALSE,1562,1284,1572,1274,10
+1988-04-07,Friendly,played,Canada,CAN,Jamaica,JAM,FALSE,0,0,draw,Montego Bay,Jamaica,FALSE,1572,1274,1567,1279,-5
+1988-05-19,Friendly,played,Canada,CAN,Greece,GRC,TRUE,0,1,loss,Montreal,Canada,FALSE,1588,1661,1577,1672,-11
+1988-05-21,Matthews Cup,played,Canada,CAN,Greece,GRC,TRUE,0,3,loss,Toronto,Canada,FALSE,1577,1672,1550,1699,-27
+1988-05-25,Matthews Cup,played,Canada,CAN,Chile,CHL,TRUE,1,0,win,Toronto,Canada,FALSE,1550,1835,1572,1813,22
+1988-05-28,Matthews Cup,played,Canada,CAN,Greece,GRC,TRUE,0,0,draw,Toronto,Canada,FALSE,1572,1720,1574,1718,2
+1988-06-17,Friendly,played,Canada,CAN,Costa Rica,CRI,TRUE,0,1,loss,Montreal,Canada,FALSE,1574,1569,1561,1582,-13
+1988-07-15,Friendly,played,Canada,CAN,Poland,POL,TRUE,1,2,loss,Toronto,Canada,FALSE,1561,1768,1554,1775,-7
+1988-10-02,Friendly,played,Canada,CAN,Trinidad and Tobago,TTO,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1554,1542,1566,1530,12
+1988-10-09,CONCACAF Championship qualification,played,Canada,CAN,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1566,1499,1548,1517,-18
+1988-10-15,CONCACAF Championship qualification,played,Canada,CAN,Guatemala,,TRUE,3,2,win,Burnaby,Canada,FALSE,1548,1517,1561,1504,13
+1989-04-12,Friendly,played,Canada,CAN,Denmark,DNK,FALSE,0,2,loss,Aalborg,Denmark,FALSE,1561,1807,1557,1811,-4
+1989-04-14,Friendly,played,Canada,CAN,Faroe Islands,,FALSE,0,1,loss,Tórshavn,Faroe Islands,FALSE,1557,1204,1541,1220,-16
+1989-04-16,Friendly,played,Canada,CAN,Faroe Islands,,FALSE,1,0,win,Klaksvík,Faroe Islands,FALSE,1541,1220,1545,1216,4
+1989-06-08,Friendly,played,Canada,CAN,Belgium,BEL,TRUE,0,2,loss,Ottawa,Canada,FALSE,1545,1835,1537,1843,-8
+1990-05-13,NAFU Championship,played,Canada,CAN,Mexico,MEX,TRUE,2,1,win,Burnaby,Canada,FALSE,1589,1941,1630,1900,41
+1991-03-14,NAFU Championship,played,Canada,CAN,Mexico,MEX,TRUE,0,3,loss,Los Angeles,United States,TRUE,1630,1869,1612,1887,-18
+1991-03-16,NAFU Championship,played,Canada,CAN,United States,USA,FALSE,0,2,loss,Torrance,United States,FALSE,1612,1571,1581,1602,-31
+1991-06-28,Gold Cup,played,Canada,CAN,Honduras,HND,TRUE,2,4,loss,Los Angeles,United States,TRUE,1581,1530,1538,1573,-43
+1991-06-30,Gold Cup,played,Canada,CAN,Mexico,MEX,TRUE,1,3,loss,Los Angeles,United States,TRUE,1538,1869,1528,1879,-10
+1991-07-02,Gold Cup,played,Canada,CAN,Jamaica,JAM,FALSE,3,2,win,Los Angeles,United States,TRUE,,,,,
+1992-04-02,Friendly,played,Canada,CAN,China PR,,TRUE,5,2,win,Victoria,Canada,FALSE,,,,,
+1992-05-20,Friendly,played,Canada,CAN,Scotland,SCO,TRUE,1,3,loss,Toronto,Canada,FALSE,1552,1764,1542,1774,-10
+1992-06-13,Friendly,played,Canada,CAN,Hong Kong,,TRUE,3,1,win,Toronto,Canada,FALSE,1542,1251,1546,1247,4
+1992-09-03,Friendly,played,Canada,CAN,United States,USA,TRUE,0,2,loss,Saint John,Canada,FALSE,1546,1666,1532,1680,-14
+1992-10-09,Friendly,played,Canada,CAN,United States,USA,FALSE,0,0,draw,Greensboro,United States,FALSE,1532,1680,1538,1674,6
+1992-10-18,FIFA World Cup qualification,played,Canada,CAN,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1538,1443,1538,1443,0
+1992-10-25,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,FALSE,1,1,draw,San Salvador,El Salvador,FALSE,1538,1438,1538,1438,0
+1992-11-01,FIFA World Cup qualification,played,Canada,CAN,Jamaica,JAM,TRUE,1,0,win,Toronto,Canada,FALSE,1538,1448,1548,1438,10
+1992-11-08,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,TRUE,2,3,loss,Burnaby,Canada,FALSE,1548,1462,1518,1492,-30
+1992-11-15,FIFA World Cup qualification,played,Canada,CAN,Bermuda,,TRUE,4,2,win,Burnaby,Canada,FALSE,1518,1389,1531,1376,13
+1992-12-06,FIFA World Cup qualification,played,Canada,CAN,Bermuda,,FALSE,0,0,draw,Hamilton,Bermuda,FALSE,1531,1376,1528,1379,-3
+1993-03-09,Friendly,played,Canada,CAN,South Korea,KOR,TRUE,0,2,loss,Coquitlam,Canada,FALSE,1534,1647,1520,1661,-14
+1993-03-11,Friendly,played,Canada,CAN,South Korea,KOR,TRUE,2,0,win,Victoria,Canada,FALSE,1520,1661,1537,1644,17
+1993-03-24,Friendly,played,Canada,CAN,Costa Rica,CRI,FALSE,1,0,win,San José,Costa Rica,FALSE,1537,1614,1552,1599,15
+1993-04-04,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,FALSE,2,2,draw,Tegucigalpa,Honduras,FALSE,1552,1712,1565,1699,13
+1993-04-11,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,TRUE,2,0,win,Burnaby,Canada,FALSE,1565,1527,1584,1508,19
+1993-04-18,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,TRUE,3,1,win,Burnaby,Canada,FALSE,1584,1680,1614,1650,30
+1993-04-25,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,FALSE,0,4,loss,Mexico City,Mexico,FALSE,1614,1793,1601,1806,-13
+1993-05-02,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,FALSE,2,1,win,San Salvador,El Salvador,FALSE,1601,1490,1620,1471,19
+1993-05-09,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,TRUE,1,2,loss,Toronto,Canada,FALSE,1620,1837,1606,1851,-14
+1993-07-11,Gold Cup,played,Canada,CAN,Costa Rica,CRI,TRUE,1,1,draw,Mexico City,Mexico,TRUE,1606,1586,1605,1587,-1
+1993-07-15,Gold Cup,played,Canada,CAN,Martinique,,TRUE,2,2,draw,Mexico City,Mexico,TRUE,1605,1485,1597,1493,-8
+1993-07-18,Gold Cup,played,Canada,CAN,Mexico,MEX,FALSE,0,8,loss,Mexico City,Mexico,FALSE,1597,1856,1584,1869,-13
+1993-07-31,FIFA World Cup qualification,played,Canada,CAN,Australia,AUS,TRUE,2,1,win,Edmonton,Canada,FALSE,1584,1748,1608,1724,24
+1993-08-15,FIFA World Cup qualification,played,Canada,CAN,Australia,AUS,FALSE,1,2,loss,Sydney,Australia,FALSE,1608,1724,1599,1733,-9
+1994-06-01,Friendly,played,Canada,CAN,Morocco,MAR,TRUE,1,1,draw,Montreal,Canada,FALSE,1599,1665,1598,1666,-1
+1994-06-05,Friendly,played,Canada,CAN,Brazil,BRA,TRUE,1,1,draw,Edmonton,Canada,FALSE,1598,1963,1604,1957,6
+1994-06-08,Friendly,played,Canada,CAN,Germany,DEU,TRUE,0,2,loss,Toronto,Canada,FALSE,1604,2004,1599,2009,-5
+1994-06-10,Friendly,played,Canada,CAN,Spain,ESP,TRUE,0,2,loss,Montreal,Canada,FALSE,1599,1885,1591,1893,-8
+1994-06-12,Friendly,played,Canada,CAN,Netherlands,NLD,TRUE,0,3,loss,Toronto,Canada,FALSE,1591,1986,1586,1991,-5
+1995-01-26,Friendly,played,Canada,CAN,Portugal,PRT,TRUE,1,1,draw,Toronto,Canada,FALSE,1586,1866,1593,1859,7
+1995-05-22,Friendly,played,Canada,CAN,Northern Ireland,NIR,TRUE,2,0,win,Edmonton,Canada,FALSE,1593,1677,1614,1656,21
+1995-05-28,Friendly,played,Canada,CAN,Chile,CHL,TRUE,1,2,loss,Edmonton,Canada,FALSE,1614,1734,1600,1748,-14
+1995-06-04,Friendly,played,Canada,CAN,Turkey,TUR,TRUE,1,3,loss,Toronto,Canada,FALSE,1600,1694,1585,1709,-15
+1995-06-07,Friendly,played,Canada,CAN,Turkey,TUR,TRUE,0,3,loss,Montreal,Canada,FALSE,1585,1709,1569,1725,-16
+1995-08-01,Friendly,played,Canada,CAN,Jamaica,JAM,TRUE,3,1,win,Toronto,Canada,FALSE,1569,1444,1579,1434,10
+1995-08-03,Friendly,played,Canada,CAN,Trinidad and Tobago,TTO,TRUE,3,1,win,Toronto,Canada,FALSE,1579,1583,1595,1567,16
+1995-10-11,Friendly,played,Canada,CAN,Chile,CHL,FALSE,0,2,loss,Concepción,Chile,FALSE,1595,1677,1587,1685,-8
+1996-01-10,Gold Cup,played,Canada,CAN,Honduras,HND,TRUE,3,1,win,Anaheim,United States,TRUE,1587,1593,1625,1555,38
+1996-01-12,Gold Cup,played,Canada,CAN,Brazil,BRA,FALSE,1,4,loss,Los Angeles,United States,TRUE,1625,2114,1620,2119,-5
+1996-06-05,Friendly,played,Canada,CAN,Costa Rica,CRI,TRUE,0,1,loss,Toronto,Canada,FALSE,1620,1556,1606,1570,-14
+1996-08-30,FIFA World Cup qualification,played,Canada,CAN,Panama,PAN,TRUE,3,1,win,Edmonton,Canada,FALSE,1606,1370,1614,1362,8
+1996-10-10,FIFA World Cup qualification,played,Canada,CAN,Cuba,CUB,TRUE,2,0,win,Edmonton,Canada,FALSE,1614,1540,1630,1524,16
+1996-10-13,FIFA World Cup qualification,played,Canada,CAN,Cuba,CUB,TRUE,2,0,win,Edmonton,Canada,FALSE,1630,1524,1644,1510,14
+1996-10-27,FIFA World Cup qualification,played,Canada,CAN,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1644,1342,1634,1352,-10
+1996-11-03,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,TRUE,1,0,win,Burnaby,Canada,FALSE,1634,1534,1644,1524,10
+1996-12-15,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,FALSE,2,0,win,San Salvador,El Salvador,FALSE,1644,1550,1675,1519,31
+1997-03-02,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,FALSE,0,4,loss,Mexico City,Mexico,FALSE,1675,1810,1660,1825,-15
+1997-03-16,FIFA World Cup qualification,played,Canada,CAN,United States,USA,FALSE,0,3,loss,Palo Alto,United States,FALSE,1660,1656,1634,1682,-26
+1997-04-06,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,TRUE,0,0,draw,Burnaby,Canada,FALSE,1634,1516,1623,1527,-11
+1997-04-27,FIFA World Cup qualification,played,Canada,CAN,Jamaica,JAM,TRUE,0,0,draw,Burnaby,Canada,FALSE,1623,1552,1614,1561,-9
+1997-06-01,FIFA World Cup qualification,played,Canada,CAN,Costa Rica,CRI,TRUE,1,0,win,Edmonton,Canada,FALSE,1614,1659,1631,1642,17
+1997-08-17,Friendly,played,Canada,CAN,Iran,IRN,TRUE,0,1,loss,Toronto,Canada,FALSE,1631,1695,1620,1706,-11
+1997-09-07,FIFA World Cup qualification,played,Canada,CAN,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1620,1595,1604,1611,-16
+1997-09-14,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,FALSE,1,4,loss,San Salvador,El Salvador,FALSE,1604,1501,1569,1536,-35
+1997-10-12,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,TRUE,2,2,draw,Edmonton,Canada,FALSE,1569,1814,1577,1806,8
+1997-11-09,FIFA World Cup qualification,played,Canada,CAN,United States,USA,TRUE,0,3,loss,Burnaby,Canada,FALSE,1577,1676,1542,1711,-35
+1997-11-16,FIFA World Cup qualification,played,Canada,CAN,Costa Rica,CRI,FALSE,1,3,loss,San José,Costa Rica,FALSE,1542,1600,1525,1617,-17
+1998-05-18,Friendly,played,Canada,CAN,North Macedonia,,TRUE,1,0,win,Toronto,Canada,FALSE,1525,1566,1533,1558,8
+1999-04-27,Friendly,played,Canada,CAN,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1533,1564,1537,1560,4
+1999-05-29,Friendly,played,Canada,CAN,Guatemala,,TRUE,1,0,win,Toronto,Canada,FALSE,1537,1576,1545,1568,8
+1999-06-02,Friendly,played,Canada,CAN,Guatemala,,TRUE,2,0,win,Edmonton,Canada,FALSE,1545,1568,1563,1550,18
+1999-06-04,Friendly,played,Canada,CAN,Iran,IRN,TRUE,0,1,loss,Edmonton,Canada,FALSE,1563,1752,1552,1763,-11
+1999-06-06,Friendly,played,Canada,CAN,Ecuador,ECU,TRUE,1,2,loss,Edmonton,Canada,FALSE,1552,1739,1541,1750,-11
+1999-07-09,Friendly,played,Canada,CAN,Saudi Arabia,SAU,TRUE,0,2,loss,Fullerton,United States,TRUE,1541,1710,1533,1718,-8
+1999-09-02,Friendly,played,Canada,CAN,Jamaica,JAM,TRUE,1,0,win,Toronto,Canada,FALSE,1533,1590,1542,1581,9
+1999-10-06,Gold Cup qualification,played,Canada,CAN,Cuba,CUB,TRUE,0,0,draw,Los Angeles,United States,TRUE,1542,1532,1541,1533,-1
+1999-10-08,Gold Cup qualification,played,Canada,CAN,El Salvador,SLV,TRUE,2,1,win,Los Angeles,United States,TRUE,1541,1422,1554,1409,13
+1999-10-10,Gold Cup qualification,played,Canada,CAN,Haiti,HTI,TRUE,2,1,win,Los Angeles,United States,TRUE,1554,1422,1567,1409,13
+2000-01-08,Friendly,played,Canada,CAN,Trinidad and Tobago,TTO,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,FALSE,1567,1583,1570,1580,3
+2000-01-11,Friendly,played,Canada,CAN,Bermuda,,FALSE,2,0,win,Hamilton,Bermuda,FALSE,1570,1301,1578,1293,8
+2000-02-13,Gold Cup,played,Canada,CAN,Costa Rica,CRI,FALSE,2,2,draw,San Diego,United States,TRUE,1578,1645,1583,1640,5
+2000-02-15,Gold Cup,played,Canada,CAN,South Korea,KOR,TRUE,0,0,draw,Los Angeles,United States,TRUE,1583,1726,1593,1716,10
+2000-02-20,Gold Cup,played,Canada,CAN,Mexico,MEX,FALSE,2,1,win,San Diego,United States,TRUE,1593,1892,1635,1850,42
+2000-02-24,Gold Cup,played,Canada,CAN,Trinidad and Tobago,TTO,FALSE,1,0,win,Los Angeles,United States,TRUE,1635,1623,1659,1599,24
+2000-02-27,Gold Cup,played,Canada,CAN,Colombia,COL,TRUE,2,0,win,Los Angeles,United States,TRUE,1659,1794,1710,1743,51
+2000-05-27,Friendly,played,Canada,CAN,Trinidad and Tobago,TTO,TRUE,1,0,win,Toronto,Canada,FALSE,1710,1600,1715,1595,5
+2000-05-30,Friendly,played,Canada,CAN,Honduras,HND,TRUE,2,1,win,Winnipeg,Canada,FALSE,1715,1660,1721,1654,6
+2000-06-04,FIFA World Cup qualification,played,Canada,CAN,Cuba,CUB,FALSE,1,0,win,Havana,Cuba,FALSE,1721,1471,1733,1459,12
+2000-06-11,FIFA World Cup qualification,played,Canada,CAN,Cuba,CUB,TRUE,0,0,draw,Winnipeg,Canada,FALSE,1733,1459,1717,1475,-16
+2000-07-16,FIFA World Cup qualification,played,Canada,CAN,Trinidad and Tobago,TTO,TRUE,0,2,loss,Edmonton,Canada,FALSE,1717,1549,1668,1598,-49
+2000-07-23,FIFA World Cup qualification,played,Canada,CAN,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1668,1405,1659,1414,-9
+2000-08-15,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1659,1816,1648,1827,-11
+2000-09-03,FIFA World Cup qualification,played,Canada,CAN,Trinidad and Tobago,TTO,FALSE,0,4,loss,Port of Spain,Trinidad and Tobago,FALSE,1648,1630,1619,1659,-29
+2000-10-09,FIFA World Cup qualification,played,Canada,CAN,Panama,PAN,TRUE,1,0,win,Winnipeg,Canada,FALSE,1619,1401,1625,1395,6
+2000-11-15,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,TRUE,0,0,draw,Toronto,Canada,FALSE,1625,1844,1632,1837,7
+2001-04-24,Friendly,played,Canada,CAN,Egypt,EGY,FALSE,0,3,loss,Cairo,Egypt,FALSE,1632,1641,1614,1659,-18
+2001-04-26,Friendly,played,Canada,CAN,Iran,IRN,TRUE,1,0,win,Cairo,Egypt,TRUE,1614,1745,1634,1725,20
+2001-05-31,Confederations Cup,played,Canada,CAN,Japan,JPN,FALSE,0,3,loss,Niigata,Japan,FALSE,1634,1788,1618,1804,-16
+2001-06-02,Confederations Cup,played,Canada,CAN,Brazil,BRA,TRUE,0,0,draw,Kashima,Japan,TRUE,1618,1991,1638,1971,20
+2001-06-04,Confederations Cup,played,Canada,CAN,Cameroon,CMR,FALSE,0,2,loss,Niigata,Japan,TRUE,1638,1676,1605,1709,-33
+2001-11-14,Friendly,played,Canada,CAN,Malta,,FALSE,1,2,loss,Paola,Malta,FALSE,1605,1193,1588,1210,-17
+2002-01-18,Gold Cup,played,Canada,CAN,Haiti,HTI,FALSE,2,0,win,Miami,United States,TRUE,1588,1457,1612,1433,24
+2002-01-22,Gold Cup,played,Canada,CAN,Ecuador,ECU,TRUE,0,2,loss,Miami,United States,TRUE,1612,1676,1581,1707,-31
+2002-01-26,Gold Cup,played,Canada,CAN,Martinique,,TRUE,1,1,draw,Miami,United States,TRUE,1581,1397,1569,1409,-12
+2002-01-30,Gold Cup,played,Canada,CAN,United States,USA,FALSE,0,0,draw,Pasadena,United States,FALSE,1569,1788,1587,1770,18
+2002-02-02,Gold Cup,played,Canada,CAN,South Korea,KOR,TRUE,2,1,win,Pasadena,United States,TRUE,1587,1733,1622,1698,35
+2002-05-15,Friendly,played,Canada,CAN,Switzerland,CHE,FALSE,3,1,win,St. Gallen,Switzerland,FALSE,1622,1677,1643,1656,21
+2002-10-15,Friendly,played,Canada,CAN,Scotland,SCO,FALSE,1,3,loss,Edinburgh,Scotland,FALSE,1643,1687,1634,1696,-9
+2003-01-18,Friendly,played,Canada,CAN,United States,USA,FALSE,0,4,loss,Fort Lauderdale,United States,FALSE,1634,1826,1628,1832,-6
+2003-02-12,Friendly,played,Canada,CAN,Libya,,FALSE,4,2,win,Tripoli,Libya,FALSE,1628,1376,1637,1367,9
+2003-03-29,Friendly,played,Canada,CAN,Estonia,,FALSE,1,2,loss,Tallinn,Estonia,FALSE,1637,1430,1624,1443,-13
+2003-06-01,Friendly,played,Canada,CAN,Germany,DEU,FALSE,1,4,loss,Wolfsburg,Germany,FALSE,1624,1911,1621,1914,-3
+2003-07-12,Gold Cup,played,Canada,CAN,Costa Rica,CRI,FALSE,1,0,win,Foxborough,United States,TRUE,1621,1771,1656,1736,35
+2003-07-14,Gold Cup,played,Canada,CAN,Cuba,CUB,TRUE,0,2,loss,Foxborough,United States,TRUE,1656,1538,1606,1588,-50
+2003-10-11,Friendly,played,Canada,CAN,Finland,,FALSE,2,3,loss,Tampere,Finland,FALSE,1606,1705,1601,1710,-5
+2003-11-15,Friendly,played,Canada,CAN,Czechia,CZE,FALSE,1,5,loss,Teplice,Czech Republic,FALSE,1601,1976,1599,1978,-2
+2003-11-18,Friendly,played,Canada,CAN,Republic of Ireland,IRL,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2004-01-18,Friendly,played,Canada,CAN,Barbados,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1594,1403,1601,1396,7
+2004-05-30,Friendly,played,Canada,CAN,Wales,WAL,FALSE,0,1,loss,Wrexham,Wales,FALSE,1601,1653,1595,1659,-6
+2004-06-13,FIFA World Cup qualification,played,Canada,CAN,Belize,,TRUE,4,0,win,Kingston,Canada,FALSE,1595,1131,1598,1128,3
+2004-06-16,FIFA World Cup qualification,played,Canada,CAN,Belize,,TRUE,4,0,win,Kingston,Canada,FALSE,1598,1128,1601,1125,3
+2004-08-18,FIFA World Cup qualification,played,Canada,CAN,Guatemala,,TRUE,0,2,loss,Burnaby,Canada,FALSE,1601,1578,1561,1618,-40
+2004-09-04,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,TRUE,1,1,draw,Edmonton,Canada,FALSE,1561,1694,1563,1692,2
+2004-09-08,FIFA World Cup qualification,played,Canada,CAN,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1563,1613,1551,1625,-12
+2004-10-09,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,FALSE,1,1,draw,San Pedro Sula,Honduras,FALSE,1551,1683,1563,1671,12
+2004-10-13,FIFA World Cup qualification,played,Canada,CAN,Costa Rica,CRI,TRUE,1,3,loss,Burnaby,Canada,FALSE,1563,1656,1532,1687,-31
+2004-11-17,FIFA World Cup qualification,played,Canada,CAN,Guatemala,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1532,1631,1562,1601,30
+2005-02-09,Friendly,played,Canada,CAN,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1562,1506,1573,1495,11
+2005-03-26,Friendly,played,Canada,CAN,Portugal,PRT,FALSE,1,4,loss,Barcelos,Portugal,FALSE,1573,1896,1570,1899,-3
+2005-07-02,Friendly,played,Canada,CAN,Honduras,HND,TRUE,1,2,loss,Burnaby,Canada,FALSE,1570,1670,1560,1680,-10
+2005-07-07,Gold Cup,played,Canada,CAN,Costa Rica,CRI,TRUE,0,1,loss,Seattle,United States,TRUE,1560,1685,1544,1701,-16
+2005-07-09,Gold Cup,played,Canada,CAN,United States,USA,FALSE,0,2,loss,Seattle,United States,FALSE,1544,1875,1538,1881,-6
+2005-07-12,Gold Cup,played,Canada,CAN,Cuba,CUB,TRUE,2,1,win,Foxborough,United States,TRUE,1538,1571,1565,1544,27
+2005-09-03,Friendly,played,Canada,CAN,Spain,ESP,FALSE,1,2,loss,Santander,Spain,FALSE,1565,1951,1564,1952,-1
+2005-11-16,Friendly,played,Canada,CAN,Luxembourg,,FALSE,1,0,win,Hesperange,Luxembourg,FALSE,1564,982,1565,981,1
+2006-01-22,Friendly,played,Canada,CAN,United States,USA,FALSE,0,0,draw,San Diego,United States,FALSE,1565,1841,1573,1833,8
+2006-03-01,Friendly,played,Canada,CAN,Austria,AUT,FALSE,2,0,win,Vienna,Austria,FALSE,1573,1668,1596,1645,23
+2006-09-04,Friendly,played,Canada,CAN,Jamaica,JAM,TRUE,1,0,win,Montreal,Canada,FALSE,1596,1628,1604,1620,8
+2006-10-08,Friendly,played,Canada,CAN,Jamaica,JAM,FALSE,1,2,loss,Kingston,Jamaica,FALSE,1604,1603,1597,1610,-7
+2006-11-15,Friendly,played,Canada,CAN,Hungary,HUN,FALSE,0,1,loss,Székesfehérvár,Hungary,FALSE,1597,1577,1589,1585,-8
+2007-03-25,Friendly,played,Canada,CAN,Bermuda,,FALSE,3,0,win,Hamilton,Bermuda,FALSE,1589,1175,1594,1170,5
+2007-06-01,Friendly,played,Canada,CAN,Venezuela,,FALSE,2,2,draw,Maracaibo,Venezuela,FALSE,1594,1654,1598,1650,4
+2007-06-06,Gold Cup,played,Canada,CAN,Costa Rica,CRI,FALSE,2,1,win,Miami,United States,TRUE,1598,1690,1629,1659,31
+2007-06-09,Gold Cup,played,Canada,CAN,Guadeloupe,,TRUE,1,2,loss,Miami,United States,TRUE,1629,1377,1588,1418,-41
+2007-06-11,Gold Cup,played,Canada,CAN,Haiti,HTI,FALSE,2,0,win,Miami,United States,TRUE,1588,1576,1624,1540,36
+2007-06-16,Gold Cup,played,Canada,CAN,Guatemala,,TRUE,3,0,win,Foxborough,United States,TRUE,1624,1542,1658,1508,34
+2007-06-21,Gold Cup,played,Canada,CAN,United States,USA,FALSE,1,2,loss,Chicago,United States,FALSE,1658,1809,1648,1819,-10
+2007-08-22,Friendly,played,Canada,CAN,Iceland,ISL,FALSE,1,1,draw,Reykjavík,Iceland,FALSE,1648,1471,1646,1473,-2
+2007-09-12,Friendly,played,Canada,CAN,Costa Rica,CRI,TRUE,1,1,draw,Toronto,Canada,FALSE,1646,1645,1643,1648,-3
+2007-11-20,Friendly,played,Canada,CAN,South Africa,ZAF,FALSE,0,2,loss,Durban,South Africa,FALSE,1643,1463,1625,1481,-18
+2008-01-30,Friendly,played,Canada,CAN,Martinique,,FALSE,1,0,win,Fort-de-France,Martinique,FALSE,1625,1377,1631,1371,6
+2008-03-26,Friendly,played,Canada,CAN,Estonia,,FALSE,0,2,loss,Tallinn,Estonia,FALSE,1631,1399,1611,1419,-20
+2008-05-31,Friendly,played,Canada,CAN,Brazil,BRA,FALSE,2,3,loss,Seattle,United States,TRUE,1611,2085,1610,2086,-1
+2008-06-04,Friendly,played,Canada,CAN,Panama,PAN,FALSE,2,2,draw,Fort Lauderdale,United States,TRUE,1610,1577,1609,1578,-1
+2008-06-15,FIFA World Cup qualification,played,Canada,CAN,Saint Vincent and the Grenadines,,FALSE,3,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1609,1298,1625,1282,16
+2008-06-20,FIFA World Cup qualification,played,Canada,CAN,Saint Vincent and the Grenadines,,TRUE,4,1,win,Montreal,Canada,FALSE,1625,1282,1630,1277,5
+2008-08-20,FIFA World Cup qualification,played,Canada,CAN,Jamaica,JAM,TRUE,1,1,draw,Toronto,Canada,FALSE,1630,1543,1620,1553,-10
+2008-09-06,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,TRUE,1,2,loss,Montreal,Canada,FALSE,1620,1677,1598,1699,-22
+2008-09-10,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,FALSE,1,2,loss,Tuxtla Gutiérrez,Mexico,FALSE,1598,1904,1594,1908,-4
+2008-10-11,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,FALSE,1,3,loss,San Pedro Sula,Honduras,FALSE,1594,1710,1581,1723,-13
+2008-10-15,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,TRUE,2,2,draw,Edmonton,Canada,FALSE,1581,1862,1591,1852,10
+2008-11-19,FIFA World Cup qualification,played,Canada,CAN,Jamaica,JAM,FALSE,0,3,loss,Kingston,Jamaica,FALSE,1591,1594,1566,1619,-25
+2009-05-30,Friendly,played,Canada,CAN,Cyprus,,FALSE,1,0,win,Larnaca,Cyprus,FALSE,1566,1542,1578,1530,12
+2009-06-30,Friendly,played,Canada,CAN,Guatemala,,FALSE,3,0,win,Oxnard,United States,TRUE,1578,1433,1589,1422,11
+2009-07-03,Gold Cup,played,Canada,CAN,Jamaica,JAM,TRUE,1,0,win,Carson,United States,TRUE,1589,1635,1617,1607,28
+2009-07-07,Gold Cup,played,Canada,CAN,El Salvador,SLV,FALSE,1,0,win,Columbus,United States,TRUE,1617,1571,1639,1549,22
+2009-07-10,Gold Cup,played,Canada,CAN,Costa Rica,CRI,FALSE,2,2,draw,Miami,United States,TRUE,1639,1763,1648,1754,9
+2009-07-18,Gold Cup,played,Canada,CAN,Honduras,HND,TRUE,0,1,loss,Philadelphia,United States,TRUE,1648,1730,1629,1749,-19
+2009-11-14,Friendly,played,Canada,CAN,North Macedonia,,FALSE,0,3,loss,Strumica,North Macedonia,FALSE,1629,1554,1613,1570,-16
+2009-11-18,Friendly,played,Canada,CAN,Poland,POL,FALSE,0,1,loss,Bydgoszcz,Poland,FALSE,1613,1625,1606,1632,-7
+2010-01-31,Friendly,played,Canada,CAN,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1606,1620,1599,1627,-7
+2010-05-24,Friendly,played,Canada,CAN,Argentina,ARG,FALSE,0,5,loss,Buenos Aires,Argentina,FALSE,1599,1918,1596,1921,-3
+2010-05-29,Friendly,played,Canada,CAN,Venezuela,,FALSE,1,1,draw,Mérida,Venezuela,FALSE,1596,1729,1602,1723,6
+2010-09-04,Friendly,played,Canada,CAN,Peru,PER,TRUE,0,2,loss,Toronto,Canada,FALSE,1602,1587,1582,1607,-20
+2010-09-07,Friendly,played,Canada,CAN,Honduras,HND,TRUE,2,1,win,Montreal,Canada,FALSE,1582,1689,1592,1679,10
+2010-10-08,Friendly,played,Canada,CAN,Ukraine,UKR,FALSE,2,2,draw,Kyiv,Ukraine,FALSE,1592,1819,1599,1812,7
+2011-02-09,Friendly,played,Canada,CAN,Greece,GRC,FALSE,0,1,loss,Lárisa,Greece,FALSE,1599,1749,1595,1753,-4
+2011-03-29,Friendly,played,Canada,CAN,Belarus,,FALSE,1,0,win,Antalya,Turkey,TRUE,1595,1636,1606,1625,11
+2011-06-01,Friendly,played,Canada,CAN,Ecuador,ECU,TRUE,2,2,draw,Toronto,Canada,FALSE,1606,1726,1607,1725,1
+2011-06-07,Gold Cup,played,Canada,CAN,United States,USA,FALSE,0,2,loss,Detroit,United States,FALSE,1607,1751,1592,1766,-15
+2011-06-11,Gold Cup,played,Canada,CAN,Guadeloupe,,TRUE,1,0,win,Tampa,United States,TRUE,1592,1487,1610,1469,18
+2011-06-14,Gold Cup,played,Canada,CAN,Panama,PAN,TRUE,1,1,draw,Kansas City,United States,TRUE,1610,1670,1614,1666,4
+2011-09-02,FIFA World Cup qualification,played,Canada,CAN,Saint Lucia,,TRUE,4,1,win,Toronto,Canada,FALSE,1614,1043,1615,1042,1
+2011-09-06,FIFA World Cup qualification,played,Canada,CAN,Puerto Rico,,FALSE,3,0,win,Bayamón,Puerto Rico,FALSE,1615,1009,1619,1005,4
+2011-10-07,FIFA World Cup qualification,played,Canada,CAN,Saint Lucia,,FALSE,7,0,win,Gros Islet,Saint Lucia,FALSE,1619,1015,1624,1010,5
+2011-10-11,FIFA World Cup qualification,played,Canada,CAN,Puerto Rico,,TRUE,0,0,draw,Toronto,Canada,FALSE,1624,1010,1605,1029,-19
+2011-11-11,FIFA World Cup qualification,played,Canada,CAN,Saint Kitts and Nevis,,FALSE,0,0,draw,Basseterre,Saint Kitts and Nevis,FALSE,1605,1181,1590,1196,-15
+2011-11-15,FIFA World Cup qualification,played,Canada,CAN,Saint Kitts and Nevis,,TRUE,4,0,win,Toronto,Canada,FALSE,1590,1196,1594,1192,4
+2012-02-29,Friendly,played,Canada,CAN,Armenia,,FALSE,1,3,loss,Limassol,Cyprus,TRUE,1594,1522,1576,1540,-18
+2012-06-03,Friendly,played,Canada,CAN,United States,USA,TRUE,0,0,draw,Toronto,Canada,FALSE,1576,1751,1578,1749,2
+2012-06-08,FIFA World Cup qualification,played,Canada,CAN,Cuba,CUB,FALSE,1,0,win,Havana,Cuba,FALSE,1578,1382,1593,1367,15
+2012-06-12,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,TRUE,0,0,draw,Toronto,Canada,FALSE,1593,1614,1589,1618,-4
+2012-08-15,Friendly,played,Canada,CAN,Trinidad and Tobago,TTO,TRUE,2,0,win,Lauderhill,United States,TRUE,1589,1489,1600,1478,11
+2012-09-07,FIFA World Cup qualification,played,Canada,CAN,Panama,PAN,TRUE,1,0,win,Toronto,Canada,FALSE,1600,1710,1621,1689,21
+2012-09-11,FIFA World Cup qualification,played,Canada,CAN,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1621,1689,1604,1706,-17
+2012-10-12,FIFA World Cup qualification,played,Canada,CAN,Cuba,CUB,TRUE,3,0,win,Toronto,Canada,FALSE,1604,1340,1612,1332,8
+2012-10-16,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,FALSE,1,8,loss,San Pedro Sula,Honduras,FALSE,1612,1651,1584,1679,-28
+2013-01-29,Friendly,played,Canada,CAN,United States,USA,FALSE,0,0,draw,Houston,United States,FALSE,1584,1769,1591,1762,7
+2013-03-22,Friendly,played,Canada,CAN,Japan,JPN,FALSE,1,2,loss,Doha,Qatar,TRUE,1591,1822,1587,1826,-4
+2013-03-25,Friendly,played,Canada,CAN,Belarus,,TRUE,0,2,loss,Doha,Qatar,TRUE,1587,1587,1572,1602,-15
+2013-05-28,Friendly,played,Canada,CAN,Costa Rica,CRI,TRUE,0,1,loss,Edmonton,Canada,FALSE,1572,1690,1563,1699,-9
+2013-07-07,Gold Cup,played,Canada,CAN,Martinique,,TRUE,0,1,loss,Pasadena,United States,TRUE,1563,1396,1527,1432,-36
+2013-07-11,Gold Cup,played,Canada,CAN,Mexico,MEX,FALSE,0,2,loss,Seattle,United States,TRUE,1527,1812,1515,1824,-12
+2013-07-14,Gold Cup,played,Canada,CAN,Panama,PAN,FALSE,0,0,draw,Denver,United States,TRUE,1515,1716,1528,1703,13
+2013-09-08,Friendly,played,Canada,CAN,Mauritania,,TRUE,0,0,draw,Oliva,Spain,TRUE,1528,1146,1520,1154,-8
+2013-09-10,Friendly,played,Canada,CAN,Mauritania,,TRUE,0,1,loss,Oliva,Spain,TRUE,1520,1154,1502,1172,-18
+2013-10-15,Friendly,played,Canada,CAN,Australia,AUS,FALSE,0,3,loss,London,England,TRUE,1502,1712,1494,1720,-8
+2013-11-15,Friendly,played,Canada,CAN,Czechia,CZE,FALSE,0,2,loss,Olomouc,Czech Republic,FALSE,1494,1757,1491,1760,-3
+2013-11-19,Friendly,played,Canada,CAN,Slovenia,SVN,FALSE,0,1,loss,Celje,Slovenia,FALSE,1491,1656,1487,1660,-4
+2014-05-23,Friendly,played,Canada,CAN,Bulgaria,BGR,FALSE,1,1,draw,Ritzing,Austria,TRUE,1487,1647,1491,1643,4
+2014-05-27,Friendly,played,Canada,CAN,Moldova,,FALSE,1,1,draw,Mauer,Austria,TRUE,1491,1457,1490,1458,-1
+2014-11-18,Friendly,played,Canada,CAN,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1501,1719,1508,1712,7
+2015-01-16,Friendly,played,Canada,CAN,Iceland,ISL,TRUE,1,2,loss,Orlando,United States,TRUE,1508,1661,1502,1667,-6
+2015-01-19,Friendly,played,Canada,CAN,Iceland,ISL,TRUE,1,1,draw,Orlando,United States,TRUE,1502,1667,1506,1663,4
+2015-03-27,Friendly,played,Canada,CAN,Guatemala,,TRUE,1,0,win,Fort Lauderdale,United States,TRUE,1506,1538,1517,1527,11
+2015-06-11,FIFA World Cup qualification,played,Canada,CAN,Dominica,,FALSE,2,0,win,Roseau,Dominica,FALSE,1521,961,1525,957,4
+2015-06-16,FIFA World Cup qualification,played,Canada,CAN,Dominica,,TRUE,4,0,win,Toronto,Canada,FALSE,1525,957,1527,955,2
+2015-07-08,Gold Cup,played,Canada,CAN,El Salvador,SLV,FALSE,0,0,draw,Carson,United States,TRUE,1527,1490,1524,1493,-3
+2015-07-11,Gold Cup,played,Canada,CAN,Jamaica,JAM,FALSE,0,1,loss,Houston,United States,TRUE,1524,1536,1500,1560,-24
+2015-07-14,Gold Cup,played,Canada,CAN,Costa Rica,CRI,TRUE,0,0,draw,Toronto,Canada,FALSE,1500,1802,1513,1789,13
+2015-09-04,FIFA World Cup qualification,played,Canada,CAN,Belize,,TRUE,3,0,win,Toronto,Canada,FALSE,1513,1180,1518,1175,5
+2015-09-08,FIFA World Cup qualification,played,Canada,CAN,Belize,,FALSE,1,1,draw,Belmopan,Belize,FALSE,1518,1175,1506,1187,-12
+2015-11-13,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,TRUE,1,0,win,Vancouver,Canada,FALSE,1510,1529,1525,1514,15
+2016-03-25,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,TRUE,0,3,loss,Vancouver,Canada,FALSE,1525,1906,1513,1918,-12
+2016-03-29,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1513,1918,1510,1921,-3
+2016-06-03,Friendly,played,Canada,CAN,Azerbaijan,,FALSE,1,1,draw,Rohrbach an der Lafnitz,Austria,TRUE,1510,1386,1507,1389,-3
+2016-06-07,Friendly,played,Canada,CAN,Uzbekistan,,TRUE,2,1,win,Bad Waltersdorf,Austria,TRUE,1507,1663,1521,1649,14
+2016-09-02,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,FALSE,1,2,loss,San Pedro Sula,Honduras,FALSE,1521,1527,1507,1541,-14
+2016-09-06,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,TRUE,3,1,win,Vancouver,Canada,FALSE,1507,1415,1522,1400,15
+2016-10-06,Friendly,played,Canada,CAN,Mauritania,,FALSE,4,0,win,Marrakech,Morocco,TRUE,1522,1305,1530,1297,8
+2016-10-11,Friendly,played,Canada,CAN,Morocco,MAR,FALSE,0,4,loss,Marrakech,Morocco,FALSE,1530,1585,1519,1596,-11
+2016-11-11,Friendly,played,Canada,CAN,South Korea,KOR,FALSE,0,2,loss,Cheonan,South Korea,FALSE,1519,1777,1516,1780,-3
+2017-01-22,Friendly,played,Canada,CAN,Bermuda,,FALSE,4,2,win,Hamilton,Bermuda,FALSE,1516,1206,1523,1199,7
+2017-03-22,Friendly,played,Canada,CAN,Scotland,SCO,FALSE,1,1,draw,Edinburgh,Scotland,FALSE,1523,1669,1529,1663,6
+2017-06-13,Friendly,played,Canada,CAN,Curaçao,,TRUE,2,1,win,Montreal,Canada,FALSE,1529,1225,1531,1223,2
+2017-07-07,Gold Cup,played,Canada,CAN,French Guiana,,FALSE,4,2,win,Harrison,United States,TRUE,1508,1395,1534,1369,26
+2017-07-11,Gold Cup,played,Canada,CAN,Costa Rica,CRI,FALSE,1,1,draw,Houston,United States,TRUE,1534,1773,1549,1758,15
+2017-07-14,Gold Cup,played,Canada,CAN,Honduras,HND,TRUE,0,0,draw,Frisco,United States,TRUE,1549,1568,1550,1567,1
+2017-07-20,Gold Cup,played,Canada,CAN,Jamaica,JAM,FALSE,1,2,loss,Glendale,United States,TRUE,1550,1515,1522,1543,-28
+2017-09-02,Friendly,played,Canada,CAN,Jamaica,JAM,TRUE,2,0,win,Toronto,Canada,FALSE,1522,1589,1536,1575,14
+2017-10-08,Friendly,played,Canada,CAN,El Salvador,SLV,FALSE,0,1,loss,Houston,United States,TRUE,1536,1442,1523,1455,-13
+2018-03-24,Friendly,played,Canada,CAN,New Zealand,NZL,TRUE,1,0,win,San Pedro del Pinatar,Spain,TRUE,1523,1524,1533,1514,10
+2018-09-09,CONCACAF Nations League qualification,played,Canada,CAN,United States Virgin Islands,,FALSE,8,0,win,Bradenton,United States,TRUE,,,,,
+2018-10-16,CONCACAF Nations League qualification,played,Canada,CAN,Dominica,,TRUE,5,0,win,Toronto,Canada,FALSE,1534,1031,1536,1029,2
+2018-11-18,CONCACAF Nations League qualification,played,Canada,CAN,Saint Kitts and Nevis,,FALSE,1,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1536,1255,1546,1245,10
+2019-03-24,CONCACAF Nations League qualification,played,Canada,CAN,French Guiana,,TRUE,4,1,win,Vancouver,Canada,FALSE,1546,1319,1555,1310,9
+2019-06-15,Gold Cup,played,Canada,CAN,Martinique,,TRUE,4,0,win,Los Angeles,United States,TRUE,1565,1464,1599,1430,34
+2019-06-19,Gold Cup,played,Canada,CAN,Mexico,MEX,FALSE,1,3,loss,Denver,United States,TRUE,1599,1837,1584,1852,-15
+2019-06-23,Gold Cup,played,Canada,CAN,Cuba,CUB,TRUE,7,0,win,Charlotte,United States,TRUE,1584,1292,1602,1274,18
+2019-06-29,Gold Cup,played,Canada,CAN,Haiti,HTI,FALSE,2,3,loss,Houston,United States,TRUE,1602,1572,1575,1599,-27
+2019-09-07,CONCACAF Nations League,played,Canada,CAN,Cuba,CUB,TRUE,6,0,win,Toronto,Canada,FALSE,1575,1274,1583,1266,8
+2019-09-10,CONCACAF Nations League,played,Canada,CAN,Cuba,CUB,FALSE,1,0,win,George Town,Cayman Islands,TRUE,1583,1266,1589,1260,6
+2019-10-15,CONCACAF Nations League,played,Canada,CAN,United States,USA,TRUE,2,0,win,Toronto,Canada,FALSE,1589,1729,1622,1696,33
+2019-11-15,CONCACAF Nations League,played,Canada,CAN,United States,USA,FALSE,1,4,loss,Orlando,United States,FALSE,1622,1696,1603,1715,-19
+2020-01-07,Friendly,played,Canada,CAN,Barbados,,FALSE,4,1,win,Irvine,United States,TRUE,1603,1104,1605,1102,2
+2020-01-10,Friendly,played,Canada,CAN,Barbados,,FALSE,4,1,win,Irvine,United States,TRUE,1605,1102,1607,1100,2
+2020-01-15,Friendly,played,Canada,CAN,Iceland,ISL,TRUE,0,1,loss,Irvine,United States,TRUE,1607,1672,1599,1680,-8
+2021-03-25,FIFA World Cup qualification,played,Canada,CAN,Bermuda,,TRUE,5,1,win,Orlando,United States,TRUE,1599,1290,1610,1279,11
+2021-03-29,FIFA World Cup qualification,played,Canada,CAN,Cayman Islands,,FALSE,11,0,win,Bradenton,United States,TRUE,1610,909,1612,907,2
+2021-06-05,FIFA World Cup qualification,played,Canada,CAN,Aruba,,FALSE,7,0,win,Bradenton,United States,TRUE,1612,911,1614,909,2
+2021-06-08,FIFA World Cup qualification,played,Canada,CAN,Suriname,,TRUE,4,0,win,Bridgeview,United States,TRUE,1614,1350,1627,1337,13
+2021-06-12,FIFA World Cup qualification,played,Canada,CAN,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1627,1565,1649,1543,22
+2021-06-15,FIFA World Cup qualification,played,Canada,CAN,Haiti,HTI,TRUE,3,0,win,Bridgeview,United States,TRUE,1649,1543,1674,1518,25
+2021-07-11,Gold Cup,played,Canada,CAN,Martinique,,TRUE,4,1,win,Kansas City,United States,TRUE,1674,1429,1691,1412,17
+2021-07-15,Gold Cup,played,Canada,CAN,Haiti,HTI,FALSE,4,1,win,Kansas City,United States,TRUE,1691,1532,1716,1507,25
+2021-07-18,Gold Cup,played,Canada,CAN,United States,USA,FALSE,0,1,loss,Kansas City,United States,FALSE,1716,1809,1704,1821,-12
+2021-07-25,Gold Cup,played,Canada,CAN,Costa Rica,CRI,FALSE,2,0,win,Arlington,United States,TRUE,1704,1663,1737,1630,33
+2021-07-29,Gold Cup,played,Canada,CAN,Mexico,MEX,FALSE,1,2,loss,Houston,United States,TRUE,1737,1900,1723,1914,-14
+2021-09-02,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,TRUE,1,1,draw,Toronto,Canada,FALSE,1723,1584,1711,1596,-12
+2021-09-05,FIFA World Cup qualification,played,Canada,CAN,United States,USA,FALSE,1,1,draw,Nashville,United States,FALSE,1711,1850,1723,1838,12
+2021-09-08,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,TRUE,3,0,win,Toronto,Canada,FALSE,1723,1544,1735,1532,12
+2021-10-07,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,FALSE,1,1,draw,Mexico City,Mexico,FALSE,1735,1894,1748,1881,13
+2021-10-10,FIFA World Cup qualification,played,Canada,CAN,Jamaica,JAM,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1748,1527,1741,1534,-7
+2021-10-13,FIFA World Cup qualification,played,Canada,CAN,Panama,PAN,TRUE,4,1,win,Toronto,Canada,FALSE,1741,1610,1756,1595,15
+2021-11-12,FIFA World Cup qualification,played,Canada,CAN,Costa Rica,CRI,TRUE,1,0,win,Edmonton,Canada,FALSE,1756,1616,1764,1608,8
+2021-11-16,FIFA World Cup qualification,played,Canada,CAN,Mexico,MEX,TRUE,2,1,win,Edmonton,Canada,FALSE,1764,1860,1784,1840,20
+2022-01-27,FIFA World Cup qualification,played,Canada,CAN,Honduras,HND,FALSE,2,0,win,San Pedro Sula,Honduras,FALSE,1784,1493,1799,1478,15
+2022-01-30,FIFA World Cup qualification,played,Canada,CAN,United States,USA,TRUE,2,0,win,Hamilton,Canada,FALSE,1799,1861,1826,1834,27
+2022-02-02,FIFA World Cup qualification,played,Canada,CAN,El Salvador,SLV,FALSE,2,0,win,San Salvador,El Salvador,FALSE,1826,1532,1841,1517,15
+2022-03-24,FIFA World Cup qualification,played,Canada,CAN,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1841,1668,1817,1692,-24
+2022-03-27,FIFA World Cup qualification,played,Canada,CAN,Jamaica,JAM,TRUE,4,0,win,Toronto,Canada,FALSE,1817,1531,1824,1524,7
+2022-03-30,FIFA World Cup qualification,played,Canada,CAN,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1824,1600,1797,1627,-27
+2022-06-09,CONCACAF Nations League,played,Canada,CAN,Curaçao,,TRUE,4,0,win,Vancouver,Canada,FALSE,1797,1409,1801,1405,4
+2022-06-13,CONCACAF Nations League,played,Canada,CAN,Honduras,HND,FALSE,1,2,loss,San Pedro Sula,Honduras,FALSE,1801,1429,1768,1462,-33
+2022-09-23,Friendly,played,Canada,CAN,Qatar,QAT,TRUE,2,0,win,Vienna,Austria,TRUE,1768,1658,1778,1648,10
+2022-09-27,Friendly,played,Canada,CAN,Uruguay,URY,TRUE,0,2,loss,Bratislava,Slovakia,TRUE,1778,1926,1769,1935,-9
+2022-11-11,Friendly,played,Canada,CAN,Bahrain,,FALSE,2,2,draw,Isa Town,Bahrain,FALSE,1769,1495,1764,1500,-5
+2022-11-17,Friendly,played,Canada,CAN,Japan,JPN,FALSE,2,1,win,Dubai,United Arab Emirates,TRUE,1764,1799,1775,1788,11
+2022-11-23,FIFA World Cup,played,Canada,CAN,Belgium,BEL,FALSE,0,1,loss,Al Rayyan,Qatar,TRUE,1775,2006,1762,2019,-13
+2022-11-27,FIFA World Cup,played,Canada,CAN,Croatia,HRV,FALSE,1,4,loss,Al Rayyan,Qatar,TRUE,1762,1913,1731,1944,-31
+2022-12-01,FIFA World Cup,played,Canada,CAN,Morocco,MAR,TRUE,1,2,loss,Doha,Qatar,TRUE,1731,1849,1711,1869,-20
+2023-03-25,CONCACAF Nations League,played,Canada,CAN,Curaçao,,FALSE,2,0,win,Willemstad,Curaçao,FALSE,1711,1362,1723,1350,12
+2023-03-28,CONCACAF Nations League,played,Canada,CAN,Honduras,HND,TRUE,4,1,win,Toronto,Canada,FALSE,1723,1481,1732,1472,9
+2023-06-15,CONCACAF Nations League,played,Canada,CAN,Panama,PAN,FALSE,2,0,win,Las Vegas,United States,TRUE,1732,1671,1757,1646,25
+2023-06-18,CONCACAF Nations League,played,Canada,CAN,United States,USA,FALSE,0,2,loss,Las Vegas,United States,FALSE,1757,1833,1741,1849,-16
+2023-06-27,Gold Cup,played,Canada,CAN,Guadeloupe,,TRUE,2,2,draw,Toronto,Canada,FALSE,1741,1245,1718,1268,-23
+2023-07-01,Gold Cup,played,Canada,CAN,Guatemala,,FALSE,0,0,draw,Houston,United States,TRUE,1718,1490,1704,1504,-14
+2023-07-04,Gold Cup,played,Canada,CAN,Cuba,CUB,TRUE,4,2,win,Houston,United States,TRUE,1704,1274,1710,1268,6
+2023-07-09,Gold Cup,played,Canada,CAN,United States,USA,FALSE,2,2,draw,Cincinnati,United States,FALSE,1710,1833,1724,1819,14
+2023-10-13,Friendly,played,Canada,CAN,Japan,JPN,FALSE,1,4,loss,Niigata,Japan,FALSE,1724,1888,1718,1894,-6
+2023-11-18,CONCACAF Nations League,played,Canada,CAN,Jamaica,JAM,FALSE,2,1,win,Kingston,Jamaica,FALSE,1718,1604,1737,1585,19
+2023-11-21,CONCACAF Nations League,played,Canada,CAN,Jamaica,JAM,TRUE,2,3,loss,Toronto,Canada,FALSE,1737,1585,1705,1617,-32
+2024-03-23,Copa América qualification,played,Canada,CAN,Trinidad and Tobago,TTO,TRUE,2,0,win,Frisco,United States,TRUE,1705,1427,1715,1417,10
+2024-06-06,Friendly,played,Canada,CAN,Netherlands,NLD,FALSE,0,4,loss,Rotterdam,Netherlands,FALSE,1715,1968,1711,1972,-4
+2024-06-09,Friendly,played,Canada,CAN,France,FRA,FALSE,0,0,draw,Bordeaux,France,FALSE,1711,2086,1720,2077,9
+2024-06-20,Copa América,played,Canada,CAN,Argentina,ARG,FALSE,0,2,loss,Atlanta,United States,TRUE,1720,2145,1714,2151,-6
+2024-06-25,Copa América,played,Canada,CAN,Peru,PER,FALSE,1,0,win,Kansas City,United States,TRUE,1714,1743,1741,1716,27
+2024-06-29,Copa América,played,Canada,CAN,Chile,CHL,TRUE,0,0,draw,Orlando,United States,TRUE,1741,1722,1740,1723,-1
+2024-07-05,Copa América,played,Canada,CAN,Venezuela,,FALSE,1,1,draw,Arlington,United States,TRUE,1740,1826,1746,1820,6
+2024-07-09,Copa América,played,Canada,CAN,Argentina,ARG,FALSE,0,2,loss,East Rutherford,United States,TRUE,1746,2143,1739,2150,-7
+2024-07-13,Copa América,played,Canada,CAN,Uruguay,URY,TRUE,2,2,draw,Charlotte,United States,TRUE,1739,2002,1755,1986,16
+2024-09-07,Friendly,played,Canada,CAN,United States,USA,FALSE,2,1,win,Kansas City,United States,FALSE,1755,1746,1768,1733,13
+2024-09-10,Friendly,played,Canada,CAN,Mexico,MEX,FALSE,0,0,draw,Arlington,United States,TRUE,1768,1793,1769,1792,1
+2024-10-15,Friendly,played,Canada,CAN,Panama,PAN,TRUE,2,1,win,Toronto,Canada,FALSE,1769,1719,1775,1713,6
+2024-11-15,CONCACAF Nations League,played,Canada,CAN,Suriname,,FALSE,1,0,win,Paramaribo,Suriname,FALSE,1775,1365,1781,1359,6
+2024-11-19,CONCACAF Nations League,played,Canada,CAN,Suriname,,TRUE,3,0,win,Toronto,Canada,FALSE,1781,1359,1784,1356,3
+2025-03-20,CONCACAF Nations League,played,Canada,CAN,Mexico,MEX,TRUE,0,2,loss,Inglewood,United States,TRUE,1784,1769,1753,1800,-31
+2025-03-23,CONCACAF Nations League,played,Canada,CAN,United States,USA,FALSE,2,1,win,Inglewood,United States,FALSE,1753,1747,1778,1722,25
+2025-06-07,Canadian Shield,played,Canada,CAN,Ukraine,UKR,TRUE,4,2,win,Toronto,Canada,FALSE,1778,1809,1796,1791,18
+2025-06-10,Canadian Shield,played,Canada,CAN,Ivory Coast,CIV,TRUE,0,0,draw,Toronto,Canada,FALSE,1796,1576,1785,1587,-11
+2025-06-17,Gold Cup,played,Canada,CAN,Honduras,HND,TRUE,6,0,win,Vancouver,Canada,FALSE,1785,1562,1799,1548,14
+2025-06-21,Gold Cup,played,Canada,CAN,Curaçao,,FALSE,1,1,draw,Houston,United States,TRUE,1799,1389,1778,1410,-21
+2025-06-24,Gold Cup,played,Canada,CAN,El Salvador,SLV,TRUE,2,0,win,Houston,United States,TRUE,1778,1367,1784,1361,6
+2025-06-29,Gold Cup,played,Canada,CAN,Guatemala,,TRUE,1,1,draw,Minneapolis,United States,TRUE,1784,1518,1768,1534,-16
+2025-09-05,Friendly,played,Canada,CAN,Romania,ROU,FALSE,3,0,win,Bucharest,Romania,FALSE,1768,1681,1786,1663,18
+2025-09-09,Friendly,played,Canada,CAN,Wales,WAL,FALSE,1,0,win,Cardiff,Wales,FALSE,1786,1735,1797,1724,11
+2025-10-10,Friendly,played,Canada,CAN,Australia,AUS,TRUE,0,1,loss,Montreal,Canada,FALSE,1797,1791,1784,1804,-13
+2025-10-14,Friendly,played,Canada,CAN,Colombia,COL,TRUE,0,0,draw,Harrison,United States,TRUE,1784,1993,1789,1988,5
+2025-11-13,Friendly,played,Canada,CAN,Ecuador,ECU,TRUE,0,0,draw,Toronto,Canada,FALSE,1789,1930,1790,1929,1
+2025-11-18,Friendly,played,Canada,CAN,Venezuela,,TRUE,2,0,win,Fort Lauderdale,United States,TRUE,1790,1727,1802,1715,12
+2026-03-28,Friendly,played,Canada,CAN,Iceland,ISL,TRUE,2,2,draw,Toronto,Canada,FALSE,1805,1562,1794,1573,-11
+2026-03-31,Friendly,played,Canada,CAN,Tunisia,TUN,TRUE,0,0,draw,Toronto,Canada,FALSE,1794,1626,1784,1636,-10

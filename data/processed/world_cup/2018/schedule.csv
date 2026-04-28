@@ -1,0 +1,65 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,2018-06-14,Group Stage,played,Russia,Saudi Arabia,RUS,SAU,1676,1588,Moscow,Russia,FALSE
+2,2018-06-15,Group Stage,played,Egypt,Uruguay,EGY,URY,1639,1892,Ekaterinburg,Russia,TRUE
+3,2018-06-15,Group Stage,played,Morocco,Iran,MAR,IRN,1731,1790,Saint Petersburg,Russia,TRUE
+4,2018-06-15,Group Stage,played,Portugal,Spain,PRT,ESP,1967,2043,Sochi,Russia,TRUE
+5,2018-06-16,Group Stage,played,France,Australia,FRA,AUS,1986,1743,Kazan,Russia,TRUE
+6,2018-06-16,Group Stage,played,Argentina,Iceland,ARG,ISL,1985,1764,Moscow,Russia,TRUE
+7,2018-06-16,Group Stage,played,Peru,Denmark,PER,DNK,1915,1854,Saransk,Russia,TRUE
+8,2018-06-16,Group Stage,played,Croatia,Nigeria,HRV,NGA,1853,1681,Kaliningrad,Russia,TRUE
+9,2018-06-17,Group Stage,played,Costa Rica,Serbia,CRI,SRB,1742,1787,Samara,Russia,TRUE
+10,2018-06-17,Group Stage,played,Germany,Mexico,DEU,MEX,2076,1849,Moscow,Russia,TRUE
+11,2018-06-17,Group Stage,played,Brazil,Switzerland,BRA,CHE,2141,1888,Rostov-on-Don,Russia,TRUE
+12,2018-06-18,Group Stage,played,Sweden,South Korea,SWE,KOR,1793,1713,Nizhny Novgorod,Russia,TRUE
+13,2018-06-18,Group Stage,played,Belgium,Panama,BEL,PAN,1936,1657,Sochi,Russia,TRUE
+14,2018-06-18,Group Stage,played,Tunisia,England,TUN,ENG,1651,1947,Volgograd,Russia,TRUE
+15,2018-06-19,Group Stage,played,Colombia,Japan,COL,JPN,1927,1684,Saransk,Russia,TRUE
+16,2018-06-19,Group Stage,played,Poland,Senegal,POL,SEN,1830,1745,Moscow,Russia,TRUE
+17,2018-06-19,Group Stage,played,Russia,Egypt,RUS,EGY,1706,1628,Saint Petersburg,Russia,FALSE
+18,2018-06-20,Group Stage,played,Portugal,Morocco,PRT,MAR,1973,1706,Moscow,Russia,TRUE
+19,2018-06-20,Group Stage,played,Uruguay,Saudi Arabia,URY,SAU,1903,1558,Rostov-on-Don,Russia,TRUE
+20,2018-06-20,Group Stage,played,Iran,Spain,IRN,ESP,1815,2037,Kazan,Russia,TRUE
+21,2018-06-21,Group Stage,played,Denmark,Australia,DNK,AUS,1889,1731,Samara,Russia,TRUE
+22,2018-06-21,Group Stage,played,France,Peru,FRA,PER,1998,1880,Ekaterinburg,Russia,TRUE
+23,2018-06-21,Group Stage,played,Argentina,Croatia,ARG,HRV,1968,1877,Nizhny Novgorod,Russia,TRUE
+24,2018-06-22,Group Stage,played,Brazil,Costa Rica,BRA,CRI,2122,1716,Saint Petersburg,Russia,TRUE
+25,2018-06-22,Group Stage,played,Nigeria,Iceland,NGA,ISL,1657,1781,Volgograd,Russia,TRUE
+26,2018-06-22,Group Stage,played,Serbia,Switzerland,SRB,CHE,1813,1907,Kaliningrad,Russia,TRUE
+27,2018-06-23,Group Stage,played,Belgium,Tunisia,BEL,TUN,1954,1642,Moscow,Russia,TRUE
+28,2018-06-23,Group Stage,played,South Korea,Mexico,KOR,MEX,1690,1896,Rostov-on-Don,Russia,TRUE
+29,2018-06-23,Group Stage,played,Germany,Sweden,DEU,SWE,2029,1816,Sochi,Russia,TRUE
+30,2018-06-24,Group Stage,played,England,Panama,ENG,PAN,1956,1639,Nizhny Novgorod,Russia,TRUE
+31,2018-06-24,Group Stage,played,Japan,Senegal,JPN,SEN,1732,1782,Ekaterinburg,Russia,TRUE
+32,2018-06-24,Group Stage,played,Poland,Colombia,POL,COL,1793,1879,Kazan,Russia,TRUE
+33,2018-06-25,Group Stage,played,Russia,Uruguay,RUS,URY,1730,1910,Samara,Russia,FALSE
+34,2018-06-25,Group Stage,played,Saudi Arabia,Egypt,SAU,EGY,1551,1604,Volgograd,Russia,TRUE
+35,2018-06-25,Group Stage,played,Spain,Morocco,ESP,MAR,2050,1695,Kaliningrad,Russia,TRUE
+36,2018-06-25,Group Stage,played,Iran,Portugal,IRN,PRT,1802,1984,Saransk,Russia,TRUE
+37,2018-06-26,Group Stage,played,Australia,Peru,AUS,PER,1744,1860,Sochi,Russia,TRUE
+38,2018-06-26,Group Stage,played,Denmark,France,DNK,FRA,1876,2018,Moscow,Russia,TRUE
+39,2018-06-26,Group Stage,played,Nigeria,Argentina,NGA,ARG,1717,1902,Saint Petersburg,Russia,TRUE
+40,2018-06-26,Group Stage,played,Iceland,Croatia,ISL,HRV,1721,1943,Rostov-on-Don,Russia,TRUE
+41,2018-06-27,Group Stage,played,South Korea,Germany,KOR,DEU,1676,2043,Kazan,Russia,TRUE
+42,2018-06-27,Group Stage,played,Mexico,Sweden,MEX,SWE,1910,1802,Ekaterinburg,Russia,TRUE
+43,2018-06-27,Group Stage,played,Serbia,Brazil,SRB,BRA,1791,2130,Moscow,Russia,TRUE
+44,2018-06-27,Group Stage,played,Switzerland,Costa Rica,CHE,CRI,1929,1708,Nizhny Novgorod,Russia,TRUE
+45,2018-06-28,Group Stage,played,Japan,Poland,JPN,POL,1736,1753,Volgograd,Russia,TRUE
+46,2018-06-28,Group Stage,played,Senegal,Colombia,SEN,COL,1778,1919,Samara,Russia,TRUE
+47,2018-06-28,Group Stage,played,Panama,Tunisia,PAN,TUN,1622,1627,Saransk,Russia,TRUE
+48,2018-06-28,Group Stage,played,England,Belgium,ENG,BEL,1973,1969,Kaliningrad,Russia,TRUE
+49,2018-06-30,Round of 16,played,France,Argentina,FRA,ARG,2006,1917,Kazan,Russia,TRUE
+50,2018-06-30,Round of 16,played,Uruguay,Portugal,URY,PRT,1951,1970,Sochi,Russia,TRUE
+51,2018-07-01,Round of 16,played,Russia,Spain,RUS,ESP,1689,2027,Moscow,Russia,FALSE
+52,2018-07-01,Round of 16,played,Croatia,Denmark,HRV,DNK,1956,1888,Nizhny Novgorod,Russia,TRUE
+53,2018-07-02,Round of 16,played,Brazil,Mexico,BRA,MEX,2141,1842,Samara,Russia,TRUE
+54,2018-07-02,Round of 16,played,Belgium,Japan,BEL,JPN,1999,1707,Rostov-on-Don,Russia,TRUE
+55,2018-07-03,Round of 16,played,Sweden,Switzerland,SWE,CHE,1870,1912,Saint Petersburg,Russia,TRUE
+56,2018-07-03,Round of 16,played,Colombia,England,COL,ENG,1937,1943,Moscow,Russia,TRUE
+57,2018-07-06,Quarter-final,played,Uruguay,France,URY,FRA,1983,2028,Nizhny Novgorod,Russia,TRUE
+58,2018-07-06,Quarter-final,played,Brazil,Belgium,BRA,BEL,2155,2008,Kazan,Russia,TRUE
+59,2018-07-07,Quarter-final,played,Sweden,England,SWE,ENG,1904,1942,Samara,Russia,TRUE
+60,2018-07-07,Quarter-final,played,Russia,Croatia,RUS,HRV,1707,1950,Sochi,Russia,FALSE
+61,2018-07-10,Semi-final,played,France,Belgium,FRA,BEL,2067,2050,Saint Petersburg,Russia,TRUE
+62,2018-07-11,Semi-final,played,Croatia,England,HRV,ENG,1938,1982,Moscow,Russia,TRUE
+63,2018-07-14,Third Place,played,Belgium,England,BEL,ENG,2021,1948,Saint Petersburg,Russia,TRUE
+64,2018-07-15,Final,played,France,Croatia,FRA,HRV,2096,1972,Moscow,Russia,TRUE

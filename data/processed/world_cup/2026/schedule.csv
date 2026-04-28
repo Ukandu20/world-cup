@@ -1,0 +1,73 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,2026-06-11,Group Stage,scheduled,Mexico,South Africa,MEX,ZAF,1858,1524,Mexico City,Mexico,FALSE
+2,2026-06-11,Group Stage,scheduled,South Korea,Czechia,KOR,CZE,1752,1726,Zapopan,Mexico,TRUE
+3,2026-06-12,Group Stage,scheduled,Canada,Bosnia and Herzegovina,CAN,BIH,1784,1594,Toronto,Canada,FALSE
+4,2026-06-12,Group Stage,scheduled,United States,Paraguay,USA,PRY,1721,1833,Inglewood,United States,FALSE
+5,2026-06-13,Group Stage,scheduled,Qatar,Switzerland,QAT,CHE,1425,1889,Santa Clara,United States,TRUE
+6,2026-06-13,Group Stage,scheduled,Brazil,Morocco,BRA,MAR,1984,1821,East Rutherford,United States,TRUE
+7,2026-06-13,Group Stage,scheduled,Haiti,Scotland,HTI,SCO,1532,1767,Foxborough,United States,TRUE
+8,2026-06-13,Group Stage,scheduled,Australia,Turkey,AUS,TUR,1783,1902,Vancouver,Canada,TRUE
+9,2026-06-14,Group Stage,scheduled,Germany,Curaçao,DEU,,1923,1436,Houston,United States,TRUE
+10,2026-06-14,Group Stage,scheduled,Ivory Coast,Ecuador,CIV,ECU,1676,1933,Philadelphia,United States,TRUE
+11,2026-06-14,Group Stage,scheduled,Netherlands,Japan,NLD,JPN,1961,1904,Arlington,United States,TRUE
+12,2026-06-14,Group Stage,scheduled,Sweden,Tunisia,SWE,TUN,1719,1636,Guadalupe,Mexico,TRUE
+13,2026-06-15,Group Stage,scheduled,Belgium,Egypt,BEL,EGY,1866,1689,Seattle,United States,TRUE
+14,2026-06-15,Group Stage,scheduled,Iran,New Zealand,IRN,NZL,1760,1585,Inglewood,United States,TRUE
+15,2026-06-15,Group Stage,scheduled,Spain,Cape Verde,ESP,,2165,1549,Atlanta,United States,TRUE
+16,2026-06-15,Group Stage,scheduled,Saudi Arabia,Uruguay,SAU,URY,1568,1892,Miami Gardens,United States,TRUE
+17,2026-06-16,Group Stage,scheduled,France,Senegal,FRA,SEN,2082,1879,East Rutherford,United States,TRUE
+18,2026-06-16,Group Stage,scheduled,Iraq,Norway,IRQ,NOR,1607,1912,Foxborough,United States,TRUE
+19,2026-06-16,Group Stage,scheduled,Argentina,Algeria,ARG,DZA,2113,1743,Kansas City,United States,TRUE
+20,2026-06-16,Group Stage,scheduled,Austria,Jordan,AUT,,1827,1690,Santa Clara,United States,TRUE
+21,2026-06-17,Group Stage,scheduled,Portugal,DR Congo,PRT,,1984,1655,Houston,United States,TRUE
+22,2026-06-17,Group Stage,scheduled,Uzbekistan,Colombia,,COL,1727,1975,Mexico City,Mexico,TRUE
+23,2026-06-17,Group Stage,scheduled,England,Croatia,ENG,HRV,2020,1930,Arlington,United States,TRUE
+24,2026-06-17,Group Stage,scheduled,Ghana,Panama,GHA,PAN,1505,1737,Toronto,Canada,TRUE
+25,2026-06-18,Group Stage,scheduled,Czechia,South Africa,CZE,ZAF,1726,1524,Atlanta,United States,TRUE
+26,2026-06-18,Group Stage,scheduled,Mexico,South Korea,MEX,KOR,1858,1752,Zapopan,Mexico,FALSE
+27,2026-06-18,Group Stage,scheduled,Switzerland,Bosnia and Herzegovina,CHE,BIH,1889,1594,Inglewood,United States,TRUE
+28,2026-06-18,Group Stage,scheduled,Canada,Qatar,CAN,QAT,1784,1425,Vancouver,Canada,FALSE
+29,2026-06-19,Group Stage,scheduled,Scotland,Morocco,SCO,MAR,1767,1821,Foxborough,United States,TRUE
+30,2026-06-19,Group Stage,scheduled,Brazil,Haiti,BRA,HTI,1984,1532,Philadelphia,United States,TRUE
+31,2026-06-19,Group Stage,scheduled,United States,Australia,USA,AUS,1721,1783,Seattle,United States,FALSE
+32,2026-06-19,Group Stage,scheduled,Turkey,Paraguay,TUR,PRY,1902,1833,Santa Clara,United States,TRUE
+33,2026-06-20,Group Stage,scheduled,Germany,Ivory Coast,DEU,CIV,1923,1676,Toronto,Canada,TRUE
+34,2026-06-20,Group Stage,scheduled,Ecuador,Curaçao,ECU,,1933,1436,Kansas City,United States,TRUE
+35,2026-06-20,Group Stage,scheduled,Netherlands,Sweden,NLD,SWE,1961,1719,Houston,United States,TRUE
+36,2026-06-20,Group Stage,scheduled,Tunisia,Japan,TUN,JPN,1636,1904,Guadalupe,Mexico,TRUE
+37,2026-06-21,Group Stage,scheduled,Belgium,Iran,BEL,IRN,1866,1760,Inglewood,United States,TRUE
+38,2026-06-21,Group Stage,scheduled,New Zealand,Egypt,NZL,EGY,1585,1689,Vancouver,Canada,TRUE
+39,2026-06-21,Group Stage,scheduled,Spain,Saudi Arabia,ESP,SAU,2165,1568,Atlanta,United States,TRUE
+40,2026-06-21,Group Stage,scheduled,Uruguay,Cape Verde,URY,,1892,1549,Miami Gardens,United States,TRUE
+41,2026-06-22,Group Stage,scheduled,France,Iraq,FRA,IRQ,2082,1607,Philadelphia,United States,TRUE
+42,2026-06-22,Group Stage,scheduled,Norway,Senegal,NOR,SEN,1912,1879,East Rutherford,United States,TRUE
+43,2026-06-22,Group Stage,scheduled,Argentina,Austria,ARG,AUT,2113,1827,Arlington,United States,TRUE
+44,2026-06-22,Group Stage,scheduled,Jordan,Algeria,,DZA,1690,1743,Santa Clara,United States,TRUE
+45,2026-06-23,Group Stage,scheduled,Portugal,Uzbekistan,PRT,,1984,1727,Houston,United States,TRUE
+46,2026-06-23,Group Stage,scheduled,Colombia,DR Congo,COL,,1975,1655,Zapopan,Mexico,TRUE
+47,2026-06-23,Group Stage,scheduled,England,Ghana,ENG,GHA,2020,1505,Foxborough,United States,TRUE
+48,2026-06-23,Group Stage,scheduled,Panama,Croatia,PAN,HRV,1737,1930,Toronto,Canada,TRUE
+49,2026-06-24,Group Stage,scheduled,Mexico,Czechia,MEX,CZE,1858,1726,Mexico City,Mexico,FALSE
+50,2026-06-24,Group Stage,scheduled,South Africa,South Korea,ZAF,KOR,1524,1752,Guadalupe,Mexico,TRUE
+51,2026-06-24,Group Stage,scheduled,Canada,Switzerland,CAN,CHE,1784,1889,Vancouver,Canada,FALSE
+52,2026-06-24,Group Stage,scheduled,Bosnia and Herzegovina,Qatar,BIH,QAT,1594,1425,Seattle,United States,TRUE
+53,2026-06-24,Group Stage,scheduled,Scotland,Brazil,SCO,BRA,1767,1984,Miami Gardens,United States,TRUE
+54,2026-06-24,Group Stage,scheduled,Morocco,Haiti,MAR,HTI,1821,1532,Atlanta,United States,TRUE
+55,2026-06-25,Group Stage,scheduled,United States,Turkey,USA,TUR,1721,1902,Inglewood,United States,FALSE
+56,2026-06-25,Group Stage,scheduled,Paraguay,Australia,PRY,AUS,1833,1783,Santa Clara,United States,TRUE
+57,2026-06-25,Group Stage,scheduled,Curaçao,Ivory Coast,,CIV,1436,1676,Philadelphia,United States,TRUE
+58,2026-06-25,Group Stage,scheduled,Ecuador,Germany,ECU,DEU,1933,1923,East Rutherford,United States,TRUE
+59,2026-06-25,Group Stage,scheduled,Japan,Sweden,JPN,SWE,1904,1719,Arlington,United States,TRUE
+60,2026-06-25,Group Stage,scheduled,Tunisia,Netherlands,TUN,NLD,1636,1961,Kansas City,United States,TRUE
+61,2026-06-26,Group Stage,scheduled,Egypt,Iran,EGY,IRN,1689,1760,Seattle,United States,TRUE
+62,2026-06-26,Group Stage,scheduled,New Zealand,Belgium,NZL,BEL,1585,1866,Vancouver,Canada,TRUE
+63,2026-06-26,Group Stage,scheduled,Cape Verde,Saudi Arabia,,SAU,1549,1568,Houston,United States,TRUE
+64,2026-06-26,Group Stage,scheduled,Uruguay,Spain,URY,ESP,1892,2165,Zapopan,Mexico,TRUE
+65,2026-06-26,Group Stage,scheduled,Norway,France,NOR,FRA,1912,2082,Foxborough,United States,TRUE
+66,2026-06-26,Group Stage,scheduled,Senegal,Iraq,SEN,IRQ,1879,1607,Toronto,Canada,TRUE
+67,2026-06-27,Group Stage,scheduled,Algeria,Austria,DZA,AUT,1743,1827,Kansas City,United States,TRUE
+68,2026-06-27,Group Stage,scheduled,Jordan,Argentina,,ARG,1690,2113,Arlington,United States,TRUE
+69,2026-06-27,Group Stage,scheduled,Colombia,Portugal,COL,PRT,1975,1984,Miami Gardens,United States,TRUE
+70,2026-06-27,Group Stage,scheduled,DR Congo,Uzbekistan,,,1655,1727,Atlanta,United States,TRUE
+71,2026-06-27,Group Stage,scheduled,Panama,England,PAN,ENG,1737,2020,East Rutherford,United States,TRUE
+72,2026-06-27,Group Stage,scheduled,Croatia,Ghana,HRV,GHA,1930,1505,Philadelphia,United States,TRUE

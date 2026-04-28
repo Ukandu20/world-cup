@@ -1,0 +1,670 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1950-05-28,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,1,0,win,Accra,Gold Coast,FALSE,1689,1718,1697,1710,8
+1951-10-20,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,0,5,loss,Lagos,Nigeria,FALSE,1697,1710,1676,1731,-21
+1953-10-11,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,1,0,win,Accra,Gold Coast,FALSE,1676,1731,1689,1718,13
+1954-06-01,Friendly,played,Ghana,GHA,Sierra Leone,,TRUE,2,0,win,Accra,Gold Coast,FALSE,,,,,
+1954-10-30,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,0,3,loss,Lagos,Nigeria,FALSE,1702,1718,1684,1736,-18
+1955-05-28,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,1,0,win,Accra,Gold Coast,FALSE,1684,1736,1693,1727,9
+1955-10-30,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,7,0,win,Accra,Gold Coast,FALSE,,,,,
+1956-10-20,Friendly,played,Ghana,GHA,Togo,TGO,FALSE,1,1,draw,Lomé,Togo,FALSE,,,,,
+1956-10-27,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,0,3,loss,Lagos,Nigeria,FALSE,1724,1694,1703,1715,-21
+1956-12-16,Friendly,played,Ghana,GHA,Sierra Leone,,TRUE,4,3,win,Accra,Gold Coast,FALSE,1703,1379,1705,1377,2
+1957-08-24,Friendly,played,Ghana,GHA,Sierra Leone,,FALSE,3,2,win,Freetown,Sierra Leone,FALSE,,,,,
+1957-10-27,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,3,3,draw,Accra,Ghana,FALSE,1703,1715,1699,1719,-4
+1958-02-20,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,5,2,win,Accra,Ghana,FALSE,,,,,
+1958-10-25,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,2,3,loss,Lagos,Nigeria,FALSE,1703,1719,1693,1729,-10
+1959-11-21,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,5,2,win,Accra,Ghana,FALSE,1704,1729,1725,1708,21
+1960-02-07,Friendly,played,Ghana,GHA,Sierra Leone,,TRUE,6,2,win,Accra,Ghana,FALSE,1743,1389,1747,1385,4
+1960-05-01,Friendly,played,Ghana,GHA,Togo,TGO,FALSE,3,2,win,Lomé,Togo,FALSE,1747,1529,1757,1519,10
+1960-07-03,Friendly,played,Ghana,GHA,Egypt,EGY,TRUE,2,2,draw,Accra,Ghana,FALSE,,,,,
+1960-08-28,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,TRUE,4,1,win,Accra,Ghana,FALSE,1754,1630,1769,1615,15
+1960-09-10,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,FALSE,2,2,draw,Lagos,Nigeria,FALSE,1769,1615,1766,1618,-3
+1960-10-02,Friendly,played,Ghana,GHA,Mali,,TRUE,5,1,win,Ibadan,Nigeria,TRUE,1766,1560,1779,1547,13
+1960-10-09,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,3,0,win,Lagos,Nigeria,FALSE,1779,1608,1800,1587,21
+1960-10-29,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,1,1,draw,Lagos,Nigeria,FALSE,1800,1587,1795,1592,-5
+1961-03-05,Friendly,played,Ghana,GHA,Mali,,TRUE,3,0,win,Accra,Ghana,FALSE,1795,1562,1799,1558,4
+1961-04-02,FIFA World Cup qualification,played,Ghana,GHA,Morocco,MAR,TRUE,0,0,draw,Accra,Ghana,FALSE,1799,1641,1786,1654,-13
+1961-04-08,African Cup of Nations qualification,played,Ghana,GHA,Nigeria,NGA,FALSE,0,0,draw,Lagos,Nigeria,FALSE,1786,1601,1781,1606,-5
+1961-04-30,African Cup of Nations qualification,played,Ghana,GHA,Nigeria,NGA,TRUE,2,2,draw,Accra,Ghana,FALSE,1781,1616,1768,1629,-13
+1961-05-28,FIFA World Cup qualification,played,Ghana,GHA,Morocco,MAR,FALSE,0,1,loss,Casablanca,Morocco,FALSE,1768,1654,1747,1675,-21
+1961-06-01,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,3,0,win,Accra,Ghana,FALSE,1747,1629,1755,1621,8
+1961-12-17,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,5,1,win,Accra,Ghana,FALSE,1755,1628,1767,1616,12
+1962-02-17,Friendly,played,Ghana,GHA,Mali,,FALSE,1,0,win,Bamako,Mali,FALSE,,,,,
+1962-03-17,Friendly,played,Ghana,GHA,Mali,,TRUE,0,0,draw,Accra,Ghana,FALSE,,,,,
+1962-09-29,Friendly,played,Ghana,GHA,Kenya,,TRUE,6,3,win,Kampala,Uganda,TRUE,1768,1432,1775,1425,7
+1962-10-10,Friendly,played,Ghana,GHA,Uganda,,FALSE,4,1,win,Kampala,Uganda,FALSE,1775,1390,1784,1381,9
+1962-10-12,Friendly,played,Ghana,GHA,Kenya,,FALSE,4,0,win,Nairobi,Kenya,FALSE,1784,1425,1791,1418,7
+1962-10-15,Friendly,played,Ghana,GHA,Malawi,,FALSE,12,0,win,Blantyre,Nyasaland,FALSE,1791,1192,1794,1189,3
+1962-10-18,Friendly,played,Ghana,GHA,Tanzania,,FALSE,6,2,win,Dar es Salaam,Tanganyika,FALSE,1794,1189,1796,1187,2
+1962-11-10,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,0,0,draw,Lagos,Nigeria,FALSE,1796,1616,1793,1619,-3
+1963-03-03,Friendly,played,Ghana,GHA,Mali,,TRUE,4,0,win,Accra,Ghana,FALSE,1810,1606,1818,1598,8
+1963-11-24,African Cup of Nations,played,Ghana,GHA,Tunisia,TUN,TRUE,1,1,draw,Accra,Ghana,FALSE,1814,1595,1796,1613,-18
+1963-11-26,African Cup of Nations,played,Ghana,GHA,Ethiopia,,TRUE,2,0,win,Accra,Ghana,FALSE,1796,1570,1806,1560,10
+1963-12-01,African Cup of Nations,played,Ghana,GHA,Sudan,,TRUE,3,0,win,Accra,Ghana,FALSE,1806,1659,1823,1642,17
+1964-02-23,Friendly,played,Ghana,GHA,German DR,DDR,TRUE,3,0,win,Accra,Ghana,FALSE,1812,1652,1818,1646,6
+1965-04-14,Friendly,played,Ghana,GHA,DR Congo,,TRUE,4,1,win,Accra,Ghana,FALSE,,,,,
+1965-10-14,Friendly,played,Ghana,GHA,Congo,,TRUE,5,0,win,Accra,Ghana,FALSE,,,,,
+1965-10-17,Friendly,played,Ghana,GHA,Congo,,FALSE,1,2,loss,Brazzaville,Congo,FALSE,,,,,
+1965-10-21,Friendly,played,Ghana,GHA,Congo,,FALSE,2,1,win,Brazzaville,Congo,FALSE,,,,,
+1965-10-30,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,4,0,win,Lagos,Nigeria,FALSE,1723,1535,1744,1514,21
+1965-11-07,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,3,0,win,Accra,Ghana,FALSE,,,,,
+1965-11-12,African Cup of Nations,played,Ghana,GHA,DR Congo,,FALSE,5,2,win,Sousse,Tunisia,TRUE,1751,1664,1784,1631,33
+1965-11-19,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,TRUE,4,1,win,Bizerte,Tunisia,TRUE,1784,1714,1819,1679,35
+1965-11-21,African Cup of Nations,played,Ghana,GHA,Tunisia,TUN,FALSE,3,2,win,Tunis,Tunisia,FALSE,1819,1633,1838,1614,19
+1965-12-11,Friendly,played,Ghana,GHA,Kenya,,FALSE,13,2,win,Nairobi,Kenya,FALSE,1838,1425,1850,1413,12
+1965-12-13,Friendly,played,Ghana,GHA,Kenya,,FALSE,3,3,draw,Nairobi,Kenya,FALSE,1850,1413,1839,1424,-11
+1966-04-10,Friendly,played,Ghana,GHA,Benin,,FALSE,5,2,win,Cotonou,Dahomey,FALSE,1839,1463,1845,1457,6
+1966-06-30,Friendly,played,Ghana,GHA,DR Congo,,FALSE,3,0,win,Brazzaville,Congo,TRUE,1845,1585,1860,1570,15
+1966-08-18,Friendly,played,Ghana,GHA,Togo,TGO,FALSE,1,1,draw,Lomé,Togo,FALSE,1868,1515,1862,1521,-6
+1966-08-21,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,6,2,win,Accra,Ghana,FALSE,1862,1521,1865,1518,3
+1966-11-01,Friendly,played,Ghana,GHA,Ivory Coast,CIV,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1877,1688,1873,1692,-4
+1967-01-28,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,2,2,draw,Lagos,Nigeria,FALSE,1839,1539,1831,1547,-8
+1967-02-12,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,2,0,win,Accra,Ghana,FALSE,1831,1547,1835,1543,4
+1967-02-19,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,2,2,draw,Accra,Ghana,FALSE,1835,1692,1829,1698,-6
+1967-03-19,Friendly,played,Ghana,GHA,Congo,,FALSE,1,3,loss,Brazzaville,Congo,FALSE,1829,1552,1807,1574,-22
+1967-05-24,Friendly,played,Ghana,GHA,DR Congo,,TRUE,2,0,win,Accra,Ghana,FALSE,1790,1648,1796,1642,6
+1967-07-08,Friendly,played,Ghana,GHA,Benin,,FALSE,1,2,loss,Cotonou,Dahomey,FALSE,1787,1449,1771,1465,-16
+1967-09-01,Friendly,played,Ghana,GHA,DR Congo,,FALSE,2,0,win,Kinshasa,Congo-Kinshasa,FALSE,,,,,
+1967-09-28,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,1,1,draw,Accra,Ghana,FALSE,1771,1541,1764,1548,-7
+1967-10-01,Friendly,played,Ghana,GHA,Burkina Faso,,TRUE,5,2,win,Accra,Ghana,FALSE,1764,1324,1765,1323,1
+1967-10-21,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,2,1,win,Accra,Ghana,FALSE,1765,1545,1769,1541,4
+1967-12-23,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,2,2,draw,Lagos,Nigeria,FALSE,1747,1548,1743,1552,-4
+1968-01-12,African Cup of Nations,played,Ghana,GHA,Senegal,SEN,TRUE,2,2,draw,Asmara,Ethiopia,TRUE,1743,1599,1733,1609,-10
+1968-01-14,African Cup of Nations,played,Ghana,GHA,DR Congo,,FALSE,2,1,win,Asmara,Ethiopia,TRUE,1733,1701,1756,1678,23
+1968-01-16,African Cup of Nations,played,Ghana,GHA,Congo,,FALSE,3,1,win,Asmara,Ethiopia,TRUE,1756,1539,1773,1522,17
+1968-01-19,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,TRUE,4,3,win,Asmara,Ethiopia,TRUE,1773,1735,1795,1713,22
+1968-01-21,African Cup of Nations,played,Ghana,GHA,DR Congo,,FALSE,0,1,loss,Addis Ababa,Ethiopia,TRUE,1795,1728,1765,1758,-30
+1968-05-19,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,2,1,win,Accra,Ghana,FALSE,1760,1743,1770,1733,10
+1968-09-22,Friendly,played,Ghana,GHA,Benin,,TRUE,3,0,win,Accra,Ghana,FALSE,1736,1436,1739,1433,3
+1968-12-01,Friendly,played,Ghana,GHA,Senegal,SEN,TRUE,2,0,win,Accra,Ghana,FALSE,1643,1603,1652,1594,9
+1969-05-10,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,FALSE,1,2,loss,Ibadan,Nigeria,FALSE,1652,1562,1633,1581,-19
+1969-05-18,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,TRUE,1,1,draw,Accra,Ghana,FALSE,1633,1581,1625,1589,-8
+1969-08-17,African Cup of Nations qualification,played,Ghana,GHA,Niger,,TRUE,6,0,win,Accra,Ghana,FALSE,1625,1135,1628,1132,3
+1969-09-21,African Cup of Nations qualification,played,Ghana,GHA,Niger,,FALSE,9,1,win,Niamey,Niger,FALSE,1628,1132,1637,1123,9
+1970-02-07,African Cup of Nations,played,Ghana,GHA,DR Congo,,FALSE,2,0,win,Wad Madani,Sudan,TRUE,1637,1782,1689,1730,52
+1970-02-09,African Cup of Nations,played,Ghana,GHA,Egypt,EGY,FALSE,1,1,draw,Wad Madani,Sudan,TRUE,1689,1779,1695,1773,6
+1970-02-11,African Cup of Nations,played,Ghana,GHA,Guinea,,TRUE,1,1,draw,Wad Madani,Sudan,TRUE,1695,1621,1690,1626,-5
+1970-02-14,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,TRUE,2,1,win,Khartoum,Sudan,TRUE,1690,1741,1719,1712,29
+1970-02-16,African Cup of Nations,played,Ghana,GHA,Sudan,,FALSE,0,1,loss,Khartoum,Sudan,FALSE,1719,1657,1697,1679,-22
+1970-04-15,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,3,0,win,Accra,Ghana,FALSE,1697,1667,1714,1650,17
+1970-04-19,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,1,1,draw,Accra,Ghana,FALSE,1714,1650,1707,1657,-7
+1971-01-10,Friendly,played,Ghana,GHA,DR Congo,,TRUE,1,1,draw,Accra,Ghana,FALSE,1707,1746,1705,1748,-2
+1971-01-31,Friendly,played,Ghana,GHA,Sierra Leone,,TRUE,1,2,loss,Accra,Ghana,FALSE,1705,1369,1689,1385,-16
+1971-02-07,Friendly,played,Ghana,GHA,Sierra Leone,,TRUE,1,2,loss,Accra,Ghana,FALSE,,,,,
+1971-05-02,Friendly,played,Ghana,GHA,Ivory Coast,CIV,FALSE,6,2,win,Abidjan,Ivory Coast,FALSE,1703,1666,1736,1633,33
+1971-10-13,African Cup of Nations qualification,played,Ghana,GHA,Togo,TGO,FALSE,0,0,draw,Lomé,Togo,FALSE,,,,,
+1971-10-27,African Cup of Nations qualification,played,Ghana,GHA,Togo,TGO,TRUE,0,1,loss,Accra,Ghana,FALSE,,,,,
+1972-04-19,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,1,2,loss,Accra,Ghana,FALSE,1708,1616,1685,1639,-23
+1972-05-31,Friendly,played,Ghana,GHA,Sierra Leone,,FALSE,1,3,loss,Freetown,Sierra Leone,FALSE,1687,1415,1665,1437,-22
+1972-06-18,FIFA World Cup qualification,played,Ghana,GHA,Benin,,FALSE,5,0,win,Cotonou,Dahomey,TRUE,1665,1450,1692,1423,27
+1972-07-02,FIFA World Cup qualification,played,Ghana,GHA,Benin,,TRUE,5,1,win,Kumasi,Ghana,FALSE,1692,1423,1700,1415,8
+1972-12-28,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,2,2,draw,Accra,Ghana,FALSE,1634,1440,1629,1445,-5
+1972-12-29,Friendly,played,Ghana,GHA,Liberia,,FALSE,2,2,draw,Monrovia,Liberia,FALSE,1629,1359,1624,1364,-5
+1973-01-08,All-African Games,played,Ghana,GHA,Nigeria,NGA,FALSE,2,4,loss,Lagos,Nigeria,FALSE,1624,1618,1602,1640,-22
+1973-01-10,All-African Games,played,Ghana,GHA,Tanzania,,TRUE,1,0,win,Lagos,Nigeria,TRUE,1602,1350,1610,1342,8
+1973-01-12,All-African Games,played,Ghana,GHA,Algeria,DZA,TRUE,2,0,win,Lagos,Nigeria,TRUE,1610,1598,1639,1569,29
+1973-01-14,All-African Games,played,Ghana,GHA,Guinea,,FALSE,1,2,loss,Ibadan,Nigeria,TRUE,1639,1713,1623,1729,-16
+1973-01-16,All-African Games,played,Ghana,GHA,Egypt,EGY,FALSE,1,2,loss,Lagos,Nigeria,TRUE,1623,1669,1606,1686,-17
+1973-02-10,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,FALSE,3,2,win,Lagos,Nigeria,FALSE,1606,1689,1636,1659,30
+1973-02-25,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,TRUE,0,0,draw,Accra,Ghana,FALSE,1636,1659,1632,1663,-4
+1973-04-08,African Cup of Nations qualification,played,Ghana,GHA,Senegal,SEN,TRUE,3,2,win,Accra,Ghana,FALSE,,,,,
+1973-04-21,African Cup of Nations qualification,played,Ghana,GHA,Senegal,SEN,FALSE,0,1,loss,Dakar,Senegal,FALSE,1642,1525,1621,1546,-21
+1973-07-15,African Cup of Nations qualification,played,Ghana,GHA,Ivory Coast,CIV,TRUE,0,3,loss,Accra,Ghana,FALSE,,,,,
+1973-07-29,African Cup of Nations qualification,played,Ghana,GHA,Ivory Coast,CIV,FALSE,0,1,loss,Abidjan,Ivory Coast,FALSE,,,,,
+1973-08-05,FIFA World Cup qualification,played,Ghana,GHA,DR Congo,,TRUE,1,0,win,Accra,Ghana,FALSE,,,,,
+1973-08-19,FIFA World Cup qualification,played,Ghana,GHA,DR Congo,,FALSE,1,4,loss,Kinshasa,Zaïre,FALSE,,,,,
+1974-02-15,Friendly,played,Ghana,GHA,Guinea,,TRUE,5,2,win,Accra,Ghana,FALSE,1564,1651,1581,1634,17
+1974-02-17,Friendly,played,Ghana,GHA,Guinea,,TRUE,3,1,win,Accra,Ghana,FALSE,1581,1634,1594,1621,13
+1974-08-11,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,1,1,draw,Lagos,Nigeria,FALSE,1596,1640,1602,1634,6
+1974-08-17,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,1,0,win,Lagos,Nigeria,FALSE,1602,1634,1622,1614,20
+1974-09-11,Friendly,played,Ghana,GHA,Ivory Coast,CIV,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1622,1554,1623,1553,1
+1974-12-15,Friendly,played,Ghana,GHA,Guinea,,TRUE,1,1,draw,Accra,Ghana,FALSE,1623,1573,1619,1577,-4
+1975-03-23,Friendly,played,Ghana,GHA,Burkina Faso,,TRUE,3,1,win,Accra,Ghana,FALSE,1605,1338,1608,1335,3
+1975-03-30,African Cup of Nations qualification,played,Ghana,GHA,Mali,,TRUE,4,0,win,Accra,Ghana,FALSE,,,,,
+1975-04-13,African Cup of Nations qualification,played,Ghana,GHA,Mali,,FALSE,1,3,loss,Bamako,Mali,FALSE,1618,1523,1588,1553,-30
+1975-06-29,African Cup of Nations qualification,played,Ghana,GHA,Morocco,MAR,TRUE,2,0,win,Accra,Ghana,FALSE,1632,1713,1660,1685,28
+1975-07-13,African Cup of Nations qualification,played,Ghana,GHA,Morocco,MAR,FALSE,0,2,loss,Casablanca,Morocco,FALSE,1660,1685,1640,1705,-20
+1975-08-06,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,3,1,win,Accra,Ghana,FALSE,1640,1484,1648,1476,8
+1975-08-10,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,0,0,draw,Accra,Ghana,FALSE,1648,1476,1638,1486,-10
+1975-08-24,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,1,2,loss,Accra,Ghana,FALSE,1638,1654,1619,1673,-19
+1975-08-31,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,3,0,win,Accra,Ghana,FALSE,1619,1673,1642,1650,23
+1976-03-21,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,4,0,win,Accra,Ghana,FALSE,1643,1487,1650,1480,7
+1976-09-09,Friendly,played,Ghana,GHA,Ivory Coast,CIV,FALSE,1,3,loss,Abidjan,Ivory Coast,FALSE,1659,1486,1632,1513,-27
+1976-10-10,FIFA World Cup qualification,played,Ghana,GHA,Guinea,,TRUE,2,1,win,Accra,Ghana,FALSE,1657,1721,1675,1703,18
+1976-10-31,FIFA World Cup qualification,played,Ghana,GHA,Guinea,,FALSE,1,2,loss,Conakry,Guinea,FALSE,1675,1703,1662,1716,-13
+1977-01-16,FIFA World Cup qualification,played,Ghana,GHA,Guinea,,FALSE,0,2,loss,Lomé,Togo,TRUE,1644,1716,1620,1740,-24
+1977-05-29,Friendly,played,Ghana,GHA,Togo,TGO,FALSE,2,0,win,Lomé,Togo,FALSE,1620,1460,1645,1435,25
+1977-06-12,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,2,0,win,Accra,Ghana,FALSE,1645,1435,1654,1426,9
+1977-09-04,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,1,2,loss,Lagos,Nigeria,FALSE,1654,1696,1642,1708,-12
+1977-12-25,Friendly,played,Ghana,GHA,Sierra Leone,,TRUE,4,0,win,Accra,Ghana,FALSE,1648,1388,1652,1384,4
+1978-01-17,Friendly,played,Ghana,GHA,Gambia,,TRUE,7,1,win,Accra,Ghana,FALSE,1652,1279,1655,1276,3
+1978-02-19,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,3,1,win,Accra,Ghana,FALSE,1655,1573,1663,1565,8
+1978-03-05,African Cup of Nations,played,Ghana,GHA,Zambia,,TRUE,2,1,win,Accra,Ghana,FALSE,1663,1561,1675,1549,12
+1978-03-08,African Cup of Nations,played,Ghana,GHA,Nigeria,NGA,TRUE,1,1,draw,Accra,Ghana,FALSE,1675,1701,1670,1706,-5
+1978-03-10,African Cup of Nations,played,Ghana,GHA,Burkina Faso,,TRUE,3,0,win,Accra,Ghana,FALSE,1670,1313,1676,1307,6
+1978-03-14,African Cup of Nations,played,Ghana,GHA,Tunisia,TUN,TRUE,1,0,win,Accra,Ghana,FALSE,1676,1681,1694,1663,18
+1978-03-16,African Cup of Nations,played,Ghana,GHA,Uganda,,TRUE,2,0,win,Accra,Ghana,FALSE,1694,1617,1714,1597,20
+1978-05-19,Friendly,played,Ghana,GHA,Iran,IRN,FALSE,0,3,loss,Tehran,Iran,FALSE,1714,1778,1689,1803,-25
+1978-07-14,All-African Games,played,Ghana,GHA,Cameroon,CMR,TRUE,2,1,win,Algiers,Algeria,TRUE,1683,1531,1695,1519,12
+1978-07-17,All-African Games,played,Ghana,GHA,Mali,,TRUE,1,1,draw,Algiers,Algeria,TRUE,1695,1560,1688,1567,-7
+1978-07-21,All-African Games,played,Ghana,GHA,Nigeria,NGA,FALSE,0,0,draw,Algiers,Algeria,TRUE,1688,1677,1687,1678,-1
+1978-07-25,All-African Games,played,Ghana,GHA,Algeria,DZA,FALSE,0,2,loss,Algiers,Algeria,FALSE,1687,1531,1652,1566,-35
+1978-07-28,All-African Games,played,Ghana,GHA,Malawi,,TRUE,1,0,win,Algiers,Algeria,TRUE,1652,1409,1660,1401,8
+1979-06-24,Friendly,played,Ghana,GHA,Liberia,,TRUE,0,0,draw,Accra,Ghana,FALSE,1660,1372,1652,1380,-8
+1979-07-26,Friendly,played,Ghana,GHA,Liberia,,FALSE,1,3,loss,Monrovia,Liberia,FALSE,1652,1380,1619,1413,-33
+1980-01-06,Friendly,played,Ghana,GHA,Sierra Leone,,FALSE,4,2,win,Freetown,Sierra Leone,FALSE,1645,1411,1654,1402,9
+1980-01-27,Friendly,played,Ghana,GHA,Tunisia,TUN,TRUE,4,1,win,Accra,Ghana,FALSE,1654,1667,1667,1654,13
+1980-03-09,African Cup of Nations,played,Ghana,GHA,Algeria,DZA,FALSE,0,0,draw,Ibadan,Nigeria,TRUE,1667,1664,1667,1664,0
+1980-03-13,African Cup of Nations,played,Ghana,GHA,Guinea,,TRUE,1,0,win,Ibadan,Nigeria,TRUE,1667,1553,1684,1536,17
+1980-03-16,African Cup of Nations,played,Ghana,GHA,Morocco,MAR,TRUE,0,1,loss,Ibadan,Nigeria,TRUE,1684,1539,1649,1574,-35
+1981-04-11,African Cup of Nations qualification,played,Ghana,GHA,Congo,,TRUE,1,1,draw,Accra,Ghana,FALSE,1650,1545,1639,1556,-11
+1981-04-26,African Cup of Nations qualification,played,Ghana,GHA,Congo,,FALSE,1,0,win,Brazzaville,Congo,FALSE,1639,1545,1659,1525,20
+1981-06-27,Friendly,played,Ghana,GHA,Liberia,,FALSE,0,0,draw,Monrovia,Liberia,FALSE,1659,1374,1654,1379,-5
+1981-07-19,Friendly,played,Ghana,GHA,Benin,,FALSE,2,1,win,Cotonou,Benin,FALSE,1654,1315,1658,1311,4
+1981-07-22,African Cup of Nations qualification,played,Ghana,GHA,DR Congo,,TRUE,2,2,draw,Accra,Ghana,FALSE,,,,,
+1981-08-02,African Cup of Nations qualification,played,Ghana,GHA,DR Congo,,FALSE,2,1,win,Kinshasa,Zaïre,FALSE,,,,,
+1981-08-22,Friendly,played,Ghana,GHA,Iraq,IRQ,FALSE,0,4,loss,Baghdad,Iraq,FALSE,,,,,
+1981-08-24,Friendly,played,Ghana,GHA,Iraq,IRQ,FALSE,2,2,draw,Baghdad,Iraq,FALSE,,,,,
+1982-02-13,West African Cup,played,Ghana,GHA,Benin,,FALSE,4,0,win,Cotonou,Benin,FALSE,1668,1302,1681,1289,13
+1982-02-15,West African Cup,played,Ghana,GHA,Ivory Coast,CIV,TRUE,5,5,draw,Cotonou,Benin,TRUE,1681,1532,1673,1540,-8
+1982-02-17,West African Cup,played,Ghana,GHA,Niger,,TRUE,2,2,draw,Cotonou,Benin,TRUE,1673,1216,1656,1233,-17
+1982-02-19,West African Cup,played,Ghana,GHA,Burkina Faso,,TRUE,1,0,win,Cotonou,Benin,TRUE,1656,1308,1661,1303,5
+1982-02-23,West African Cup,played,Ghana,GHA,Togo,TGO,TRUE,2,1,win,Cotonou,Benin,TRUE,1661,1465,1671,1455,10
+1982-03-05,African Cup of Nations,played,Ghana,GHA,Libya,,FALSE,2,2,draw,Tripoli,Libya,FALSE,1671,1560,1670,1561,-1
+1982-03-09,African Cup of Nations,played,Ghana,GHA,Cameroon,CMR,FALSE,0,0,draw,Tripoli,Libya,TRUE,1670,1618,1666,1622,-4
+1982-03-12,African Cup of Nations,played,Ghana,GHA,Tunisia,TUN,TRUE,1,0,win,Tripoli,Libya,TRUE,1666,1605,1687,1584,21
+1982-03-16,African Cup of Nations,played,Ghana,GHA,Algeria,DZA,FALSE,3,2,win,Benghazi,Libya,TRUE,1687,1694,1713,1668,26
+1982-03-19,African Cup of Nations,played,Ghana,GHA,Libya,,FALSE,1,1,draw,Tripoli,Libya,FALSE,1713,1610,1713,1610,0
+1982-05-04,Friendly,played,Ghana,GHA,Senegal,SEN,TRUE,0,0,draw,Yaoundé,Cameroon,TRUE,1713,1533,1706,1540,-7
+1982-05-05,Friendly,played,Ghana,GHA,Cameroon,CMR,FALSE,0,0,draw,Yaoundé,Cameroon,FALSE,1706,1628,1707,1627,1
+1982-05-07,Friendly,played,Ghana,GHA,Guinea,,TRUE,0,0,draw,Yaoundé,Cameroon,TRUE,1707,1563,1701,1569,-6
+1982-08-07,Merdeka Tournament,played,Ghana,GHA,Singapore,,FALSE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1701,1230,1704,1227,3
+1982-08-09,Merdeka Tournament,played,Ghana,GHA,India,,TRUE,1,0,win,Kuala Lumpur,Malaysia,TRUE,1704,1252,1706,1250,2
+1982-08-11,Merdeka Tournament,played,Ghana,GHA,Thailand,,FALSE,4,1,win,Kota Bharu,Malaysia,TRUE,1706,1378,1713,1371,7
+1982-08-20,Merdeka Tournament,played,Ghana,GHA,Senegal,SEN,TRUE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,1726,1543,1719,1550,-7
+1982-11-11,Friendly,played,Ghana,GHA,Angola,AGO,FALSE,2,1,win,Luanda,Angola,FALSE,1719,1455,1727,1447,8
+1983-04-28,Friendly,played,Ghana,GHA,Libya,,TRUE,1,0,win,Addis Ababa,Ethiopia,TRUE,1727,1599,1737,1589,10
+1983-05-01,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,1,0,win,Addis Ababa,Ethiopia,TRUE,1737,1521,1744,1514,7
+1983-06-07,Korea Cup,played,Ghana,GHA,New Zealand,NZL,TRUE,0,2,loss,Seoul,South Korea,TRUE,1744,1605,1713,1636,-31
+1983-06-13,Korea Cup,played,Ghana,GHA,Sudan,,TRUE,3,1,win,Seoul,South Korea,TRUE,1713,1428,1720,1421,7
+1983-06-15,Korea Cup,played,Ghana,GHA,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1720,1608,1704,1624,-16
+1983-09-19,Merdeka Tournament,played,Ghana,GHA,Thailand,,TRUE,2,1,win,Kuala Lumpur,Malaysia,TRUE,1717,1360,1720,1357,3
+1983-09-27,West African Cup,played,Ghana,GHA,Togo,TGO,TRUE,1,1,draw,Abidjan,Ivory Coast,TRUE,1720,1498,1709,1509,-11
+1983-09-28,West African Cup,played,Ghana,GHA,Liberia,,TRUE,1,0,win,Abidjan,Ivory Coast,TRUE,1709,1361,1714,1356,5
+1983-09-30,West African Cup,played,Ghana,GHA,Ivory Coast,CIV,FALSE,2,0,win,Abidjan,Ivory Coast,FALSE,1714,1521,1736,1499,22
+1983-10-02,West African Cup,played,Ghana,GHA,Togo,TGO,TRUE,3,1,win,Abidjan,Ivory Coast,TRUE,1736,1506,1749,1493,13
+1984-01-29,Friendly,played,Ghana,GHA,Gambia,,FALSE,1,0,win,Banjul,Gambia,FALSE,1708,1396,1713,1391,5
+1984-01-31,Friendly,played,Ghana,GHA,Guinea,,FALSE,2,1,win,Conakry,Guinea,FALSE,,,,,
+1984-02-15,Friendly,played,Ghana,GHA,Togo,TGO,FALSE,1,2,loss,Lomé,Togo,FALSE,1717,1500,1704,1513,-13
+1984-03-05,African Cup of Nations,played,Ghana,GHA,Nigeria,NGA,TRUE,1,2,loss,Bouaké,Ivory Coast,TRUE,1704,1560,1669,1595,-35
+1984-03-08,African Cup of Nations,played,Ghana,GHA,Algeria,DZA,FALSE,0,2,loss,Bouaké,Ivory Coast,TRUE,1669,1640,1628,1681,-41
+1984-03-11,African Cup of Nations,played,Ghana,GHA,Malawi,,TRUE,1,0,win,Bouaké,Ivory Coast,TRUE,1628,1462,1642,1448,14
+1984-07-30,Friendly,played,Ghana,GHA,Niger,,TRUE,1,0,win,Bobo Dioulasso,Upper Volta,TRUE,1642,1295,1646,1291,4
+1984-08-03,Friendly,played,Ghana,GHA,Burkina Faso,,FALSE,2,0,win,Ouagadougou,Upper Volta,FALSE,1646,1329,1656,1319,10
+1984-09-23,Friendly,played,Ghana,GHA,Gambia,,TRUE,3,1,win,Accra,Ghana,FALSE,1656,1325,1658,1323,2
+1984-11-18,West African Cup,played,Ghana,GHA,Ivory Coast,CIV,TRUE,2,0,win,Ouagadougou,Burkina Faso,TRUE,1658,1540,1678,1520,20
+1984-11-21,West African Cup,played,Ghana,GHA,Togo,TGO,TRUE,2,2,draw,Ouagadougou,Burkina Faso,TRUE,1678,1468,1667,1479,-11
+1984-11-24,West African Cup,played,Ghana,GHA,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1667,1348,1656,1359,-11
+1984-11-27,West African Cup,played,Ghana,GHA,Benin,,FALSE,3,1,win,Ouagadougou,Burkina Faso,TRUE,1656,1215,1660,1211,4
+1984-11-28,West African Cup,played,Ghana,GHA,Togo,TGO,TRUE,1,1,draw,Ouagadougou,Burkina Faso,TRUE,1660,1492,1651,1501,-9
+1984-12-28,Friendly,played,Ghana,GHA,Algeria,DZA,FALSE,2,1,win,Abidjan,Ivory Coast,TRUE,1651,1708,1668,1691,17
+1984-12-30,Friendly,played,Ghana,GHA,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1668,1561,1645,1584,-23
+1985-01-01,Friendly,played,Ghana,GHA,Tunisia,TUN,TRUE,0,2,loss,Abidjan,Ivory Coast,TRUE,1645,1606,1620,1631,-25
+1985-03-31,African Cup of Nations qualification,played,Ghana,GHA,Guinea,,TRUE,1,1,draw,Accra,Ghana,FALSE,1620,1362,1605,1377,-15
+1985-04-07,FIFA World Cup qualification,played,Ghana,GHA,Ivory Coast,CIV,FALSE,0,0,draw,Abidjan,Ivory Coast,FALSE,1605,1607,1611,1601,6
+1985-04-14,African Cup of Nations qualification,played,Ghana,GHA,Guinea,,FALSE,4,1,win,Conakry,Guinea,FALSE,1611,1377,1633,1355,22
+1985-04-21,FIFA World Cup qualification,played,Ghana,GHA,Ivory Coast,CIV,TRUE,2,0,win,Kumasi,Ghana,FALSE,1633,1601,1652,1582,19
+1985-06-02,Korea Cup,played,Ghana,GHA,Canada,CAN,FALSE,1,2,loss,Seoul,South Korea,TRUE,1652,1654,1637,1669,-15
+1985-07-14,FIFA World Cup qualification,played,Ghana,GHA,Libya,,TRUE,0,0,draw,Accra,Ghana,FALSE,1637,1586,1629,1594,-8
+1985-07-26,FIFA World Cup qualification,played,Ghana,GHA,Libya,,FALSE,0,2,loss,Bin Ghashir,Libya,FALSE,1629,1594,1605,1618,-24
+1985-08-18,African Cup of Nations qualification,played,Ghana,GHA,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1605,1572,1581,1596,-24
+1985-09-01,African Cup of Nations qualification,played,Ghana,GHA,Ivory Coast,CIV,TRUE,0,0,draw,Kumasi,Ghana,FALSE,1581,1596,1576,1601,-5
+1986-02-20,Friendly,played,Ghana,GHA,Iran,IRN,FALSE,0,2,loss,Tehran,Iran,FALSE,1576,1671,1565,1682,-11
+1986-02-24,West African Cup,played,Ghana,GHA,Niger,,TRUE,2,0,win,Accra,Ghana,FALSE,1565,1282,1571,1276,6
+1986-02-25,West African Cup,played,Ghana,GHA,Togo,TGO,TRUE,2,2,draw,Accra,Ghana,FALSE,1571,1500,1562,1509,-9
+1986-02-26,West African Cup,played,Ghana,GHA,Liberia,,TRUE,3,0,win,Accra,Ghana,FALSE,1562,1271,1569,1264,7
+1986-02-27,West African Cup,played,Ghana,GHA,Burkina Faso,,TRUE,2,0,win,Accra,Ghana,FALSE,1569,1331,1577,1323,8
+1986-03-01,West African Cup,played,Ghana,GHA,Burkina Faso,,TRUE,2,0,win,Accra,Ghana,FALSE,1577,1323,1584,1316,7
+1986-03-02,West African Cup,played,Ghana,GHA,Togo,TGO,TRUE,1,0,win,Accra,Ghana,FALSE,1584,1483,1594,1473,10
+1986-07-29,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,2,0,win,Paynesville,Liberia,TRUE,,,,,
+1986-07-31,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,1,1,draw,Monrovia,Liberia,TRUE,,,,,
+1986-08-02,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,0,1,loss,Monrovia,Liberia,TRUE,,,,,
+1987-01-31,West African Cup,played,Ghana,GHA,Ivory Coast,CIV,FALSE,2,0,win,Monrovia,Liberia,TRUE,1604,1648,1638,1614,34
+1987-02-02,West African Cup,played,Ghana,GHA,Niger,,FALSE,4,0,win,Monrovia,Liberia,TRUE,1638,1297,1647,1288,9
+1987-02-08,West African Cup,played,Ghana,GHA,Liberia,,FALSE,2,1,win,Monrovia,Liberia,FALSE,1686,1361,1695,1352,9
+1987-03-30,African Cup of Nations qualification,played,Ghana,GHA,Sierra Leone,,TRUE,1,2,loss,Accra,Ghana,FALSE,1695,1445,1660,1480,-35
+1987-04-11,African Cup of Nations qualification,played,Ghana,GHA,Sierra Leone,,FALSE,0,0,draw,Freetown,Sierra Leone,FALSE,1660,1480,1655,1485,-5
+1987-07-27,Friendly,played,Ghana,GHA,Liberia,,FALSE,0,0,draw,Monrovia,Liberia,FALSE,,,,,
+1987-10-31,Friendly,played,Ghana,GHA,Liberia,,FALSE,2,0,win,Monrovia,Liberia,FALSE,1641,1396,1650,1387,9
+1987-12-08,Friendly,played,Ghana,GHA,Benin,,FALSE,1,1,draw,Luanda,Angola,TRUE,,,,,
+1987-12-10,Friendly,played,Ghana,GHA,Cuba,CUB,FALSE,1,1,draw,Luanda,Angola,TRUE,1629,1487,1623,1493,-6
+1988-01-03,Friendly,played,Ghana,GHA,Gambia,,FALSE,2,0,win,Banjul,Gambia,FALSE,1623,1293,1629,1287,6
+1988-01-05,Friendly,played,Ghana,GHA,Gambia,,FALSE,0,0,draw,Banjul,Gambia,FALSE,1629,1287,1623,1293,-6
+1988-05-25,Friendly,played,Ghana,GHA,Burkina Faso,,FALSE,0,3,loss,Ouagadougou,Burkina Faso,FALSE,1611,1297,1584,1324,-27
+1988-07-25,Tournament Burkina Faso,played,Ghana,GHA,Benin,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,TRUE,1584,1255,1573,1266,-11
+1988-07-27,Tournament Burkina Faso,played,Ghana,GHA,Burkina Faso,,FALSE,1,3,loss,Ouagadougou,Burkina Faso,FALSE,1573,1371,1544,1400,-29
+1988-07-29,Tournament Burkina Faso,played,Ghana,GHA,Niger,,TRUE,0,3,loss,Ouagadougou,Burkina Faso,TRUE,1544,1263,1500,1307,-44
+1988-07-31,Tournament Burkina Faso,played,Ghana,GHA,Mali,,TRUE,1,0,win,Ouagadougou,Burkina Faso,TRUE,1500,1390,1510,1380,10
+1988-08-07,FIFA World Cup qualification,played,Ghana,GHA,Liberia,,TRUE,0,0,draw,Accra,Ghana,FALSE,1510,1385,1499,1396,-11
+1988-08-21,FIFA World Cup qualification,played,Ghana,GHA,Liberia,,FALSE,0,2,loss,Monrovia,Liberia,FALSE,1499,1396,1469,1426,-30
+1989-04-09,African Cup of Nations qualification,played,Ghana,GHA,Gabon,,FALSE,0,1,loss,Libreville,Gabon,FALSE,1476,1416,1458,1434,-18
+1989-04-23,African Cup of Nations qualification,played,Ghana,GHA,Gabon,,TRUE,1,0,win,Accra,Ghana,FALSE,1458,1434,1471,1421,13
+1989-11-26,Friendly,played,Ghana,GHA,Guinea,,TRUE,1,1,draw,Paynesville,Liberia,TRUE,1471,1437,1469,1439,-2
+1989-11-29,Friendly,played,Ghana,GHA,Liberia,,FALSE,1,1,draw,Paynesville,Liberia,FALSE,1469,1430,1472,1427,3
+1990-05-30,Friendly,played,Ghana,GHA,Burkina Faso,,FALSE,0,1,loss,Ouagadougou,Burkina Faso,FALSE,1483,1386,1458,1411,-25
+1990-09-01,African Cup of Nations qualification,played,Ghana,GHA,Nigeria,NGA,TRUE,1,0,win,Kumasi,Ghana,FALSE,1458,1672,1484,1646,26
+1990-09-30,African Cup of Nations qualification,played,Ghana,GHA,Togo,TGO,FALSE,1,0,win,Lomé,Togo,FALSE,1484,1356,1502,1338,18
+1990-10-14,African Cup of Nations qualification,played,Ghana,GHA,Burkina Faso,,TRUE,2,0,win,Accra,Ghana,FALSE,1502,1434,1519,1417,17
+1991-01-13,African Cup of Nations qualification,played,Ghana,GHA,Benin,,TRUE,4,0,win,Accra,Ghana,FALSE,1519,1212,1526,1205,7
+1991-04-13,African Cup of Nations qualification,played,Ghana,GHA,Nigeria,NGA,FALSE,0,0,draw,Lagos,Nigeria,FALSE,1526,1633,1537,1622,11
+1991-04-29,African Cup of Nations qualification,played,Ghana,GHA,Togo,TGO,TRUE,2,0,win,Accra,Ghana,FALSE,1537,1366,1547,1356,10
+1991-06-28,Friendly,played,Ghana,GHA,Gambia,,FALSE,3,2,win,Lagos,Nigeria,TRUE,1540,1198,1545,1193,5
+1991-07-07,Friendly,played,Ghana,GHA,Gabon,,FALSE,1,0,win,Libreville,Gabon,FALSE,1566,1398,1574,1390,8
+1991-07-13,African Cup of Nations qualification,played,Ghana,GHA,Burkina Faso,,FALSE,1,2,loss,Ouagadougou,Burkina Faso,FALSE,,,,,
+1991-07-28,African Cup of Nations qualification,played,Ghana,GHA,Benin,,FALSE,0,0,draw,Cotonou,Benin,FALSE,1547,1195,1535,1207,-12
+1991-09-30,Friendly,played,Ghana,GHA,Botswana,,FALSE,0,0,draw,Gaborone,Botswana,FALSE,1535,1144,1525,1154,-10
+1991-10-31,Friendly,played,Ghana,GHA,Senegal,SEN,TRUE,2,3,loss,Abidjan,Ivory Coast,TRUE,1525,1531,1505,1551,-20
+1991-11-02,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,1,0,win,Abidjan,Ivory Coast,TRUE,1505,1627,1532,1600,27
+1992-01-15,African Cup of Nations,played,Ghana,GHA,Zambia,,FALSE,1,0,win,Ziguinchor,Senegal,TRUE,1532,1635,1564,1603,32
+1992-01-17,African Cup of Nations,played,Ghana,GHA,Egypt,EGY,FALSE,1,0,win,Ziguinchor,Senegal,TRUE,1564,1664,1596,1632,32
+1992-01-20,African Cup of Nations,played,Ghana,GHA,Congo,,TRUE,2,1,win,Dakar,Senegal,TRUE,1596,1510,1615,1491,19
+1992-01-23,African Cup of Nations,played,Ghana,GHA,Nigeria,NGA,FALSE,2,1,win,Dakar,Senegal,TRUE,1615,1663,1643,1635,28
+1992-01-26,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,TRUE,0,0,draw,Dakar,Senegal,TRUE,1643,1721,1649,1715,6
+1992-04-05,Friendly,played,Ghana,GHA,Togo,TGO,FALSE,0,1,loss,Lomé,Togo,FALSE,1649,1368,1634,1383,-15
+1992-10-25,FIFA World Cup qualification,played,Ghana,GHA,Burundi,,FALSE,0,1,loss,Bujumbura,Burundi,FALSE,1630,1331,1600,1361,-30
+1992-12-13,Friendly,played,Ghana,GHA,Niger,,FALSE,1,0,win,Niamey,Niger,FALSE,1600,1340,1606,1334,6
+1992-12-20,FIFA World Cup qualification,played,Ghana,GHA,Algeria,DZA,TRUE,2,0,win,Accra,Ghana,FALSE,1606,1637,1630,1613,24
+1993-01-01,Friendly,played,Ghana,GHA,Mali,,TRUE,1,1,draw,Libreville,Gabon,TRUE,1630,1446,1623,1453,-7
+1993-01-03,Friendly,played,Ghana,GHA,Gabon,,FALSE,3,2,win,Libreville,Gabon,FALSE,1623,1469,1636,1456,13
+1993-01-23,Friendly,played,Ghana,GHA,Niger,,TRUE,4,0,win,Kumasi,Ghana,FALSE,1636,1346,1640,1342,4
+1993-01-31,FIFA World Cup qualification,played,Ghana,GHA,Burundi,,TRUE,1,0,win,Kumasi,Ghana,FALSE,1640,1370,1644,1366,4
+1993-02-06,Merdeka Tournament,played,Ghana,GHA,Indonesia,IDN,TRUE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1644,1268,1649,1263,5
+1993-02-26,FIFA World Cup qualification,played,Ghana,GHA,Algeria,DZA,FALSE,1,2,loss,Tlemcen,Algeria,FALSE,1627,1639,1613,1653,-14
+1993-04-10,African Cup of Nations qualification,played,Ghana,GHA,Liberia,,TRUE,0,0,draw,Accra,Ghana,FALSE,,,,,
+1993-04-14,Friendly,played,Ghana,GHA,Germany,DEU,FALSE,1,6,loss,Bochum,Germany,FALSE,1618,2000,1616,2002,-2
+1993-07-25,African Cup of Nations qualification,played,Ghana,GHA,Liberia,,FALSE,2,0,win,Monrovia,Liberia,FALSE,1616,1383,1635,1364,19
+1993-11-26,Friendly,played,Ghana,GHA,Gambia,,FALSE,0,3,loss,Freetown,Sierra Leone,TRUE,1635,1244,1603,1276,-32
+1993-11-28,Friendly,played,Ghana,GHA,Sierra Leone,,FALSE,3,2,win,Freetown,Sierra Leone,FALSE,1603,1488,1613,1478,10
+1993-11-30,Friendly,played,Ghana,GHA,Guinea,,TRUE,1,0,win,Freetown,Sierra Leone,TRUE,1613,1426,1618,1421,5
+1993-12-29,Friendly,played,Ghana,GHA,Egypt,EGY,TRUE,0,0,draw,Accra,Ghana,FALSE,1618,1650,1616,1652,-2
+1993-12-31,Friendly,played,Ghana,GHA,Tunisia,TUN,TRUE,1,1,draw,Accra,Ghana,FALSE,1616,1633,1614,1635,-2
+1994-01-02,Friendly,played,Ghana,GHA,Egypt,EGY,TRUE,2,1,win,Accra,Ghana,FALSE,1614,1652,1622,1644,8
+1994-02-23,Friendly,played,Ghana,GHA,Mali,,FALSE,0,0,draw,Bamako,Mali,FALSE,1622,1424,1619,1427,-3
+1994-03-09,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,0,0,draw,Lagos,Nigeria,FALSE,1619,1693,1624,1688,5
+1994-03-27,African Cup of Nations,played,Ghana,GHA,Guinea,,TRUE,1,0,win,Sousse,Tunisia,TRUE,1624,1415,1636,1403,12
+1994-03-31,African Cup of Nations,played,Ghana,GHA,Senegal,SEN,TRUE,1,0,win,Sousse,Tunisia,TRUE,1636,1457,1649,1444,13
+1994-04-03,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,TRUE,1,2,loss,Sousse,Tunisia,TRUE,1649,1626,1622,1653,-27
+1994-07-08,Friendly,played,Ghana,GHA,Japan,JPN,FALSE,2,3,loss,Nagoya,Japan,FALSE,1622,1631,1612,1641,-10
+1994-07-14,Friendly,played,Ghana,GHA,Japan,JPN,FALSE,1,2,loss,Kobe,Japan,FALSE,1612,1641,1602,1651,-10
+1994-08-23,Friendly,played,Ghana,GHA,Egypt,EGY,FALSE,0,2,loss,Cairo,Egypt,FALSE,1602,1635,1588,1649,-14
+1994-08-25,Friendly,played,Ghana,GHA,Zambia,,TRUE,1,0,win,Cairo,Egypt,TRUE,1588,1661,1606,1643,18
+1994-09-04,African Cup of Nations qualification,played,Ghana,GHA,Sierra Leone,,TRUE,4,1,win,Accra,Ghana,FALSE,1606,1487,1621,1472,15
+1994-09-25,Friendly,played,Ghana,GHA,Zambia,,FALSE,0,3,loss,Lusaka,Zambia,FALSE,1621,1679,1611,1689,-10
+1994-11-30,Simba Tournament,played,Ghana,GHA,Cameroon,CMR,FALSE,1,0,win,Port Elizabeth,South Africa,TRUE,1631,1585,1644,1572,13
+1994-12-04,Simba Tournament,played,Ghana,GHA,Ivory Coast,CIV,TRUE,1,1,draw,Johannesburg,South Africa,TRUE,1644,1666,1645,1665,1
+1995-01-22,African Cup of Nations qualification,played,Ghana,GHA,Congo,,TRUE,3,1,win,Accra,Ghana,FALSE,1645,1411,1653,1403,8
+1995-04-08,African Cup of Nations qualification,played,Ghana,GHA,Sierra Leone,,FALSE,0,1,loss,Freetown,Sierra Leone,FALSE,1653,1449,1627,1475,-26
+1995-05-25,Friendly,played,Ghana,GHA,Norway,NOR,FALSE,2,3,loss,Oslo,Norway,FALSE,1631,1880,1629,1882,-2
+1995-06-18,Friendly,played,Ghana,GHA,Australia,AUS,FALSE,1,2,loss,Sydney,Australia,FALSE,1629,1718,1624,1723,-5
+1995-06-21,Friendly,played,Ghana,GHA,Australia,AUS,FALSE,0,1,loss,Adelaide,Australia,FALSE,1624,1723,1619,1728,-5
+1995-06-24,Friendly,played,Ghana,GHA,Australia,AUS,FALSE,1,0,win,Perth,Australia,FALSE,1619,1728,1634,1713,15
+1995-07-01,Friendly,played,Ghana,GHA,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1634,1627,1623,1638,-11
+1995-07-30,African Cup of Nations qualification,played,Ghana,GHA,Congo,,FALSE,2,0,win,Brazzaville,Congo,FALSE,1623,1372,1641,1354,18
+1995-12-29,Friendly,played,Ghana,GHA,Egypt,EGY,FALSE,2,1,win,Cairo,Egypt,FALSE,1647,1641,1660,1628,13
+1996-01-05,Friendly,played,Ghana,GHA,Saudi Arabia,SAU,FALSE,1,1,draw,Jeddah,Saudi Arabia,FALSE,1660,1586,1661,1585,1
+1996-01-09,Friendly,played,Ghana,GHA,Zimbabwe,,FALSE,1,1,draw,Harare,Zimbabwe,FALSE,1661,1494,1659,1496,-2
+1996-01-14,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,FALSE,2,0,win,Port Elizabeth,South Africa,TRUE,1659,1652,1696,1615,37
+1996-01-19,African Cup of Nations,played,Ghana,GHA,Tunisia,TUN,TRUE,2,1,win,Port Elizabeth,South Africa,TRUE,1696,1542,1711,1527,15
+1996-01-25,African Cup of Nations,played,Ghana,GHA,Mozambique,,FALSE,2,0,win,Bloemfontein,South Africa,TRUE,1711,1414,1722,1403,11
+1996-01-28,African Cup of Nations,played,Ghana,GHA,DR Congo,,TRUE,1,0,win,Port Elizabeth,South Africa,TRUE,,,,,
+1996-01-31,African Cup of Nations,played,Ghana,GHA,South Africa,ZAF,FALSE,0,3,loss,Johannesburg,South Africa,FALSE,1734,1677,1696,1715,-38
+1996-02-03,African Cup of Nations,played,Ghana,GHA,Zambia,,FALSE,0,1,loss,Johannesburg,South Africa,TRUE,1696,1641,1667,1670,-29
+1996-03-27,Friendly,played,Ghana,GHA,Brazil,BRA,FALSE,2,8,loss,São José do Rio Preto,Brazil,FALSE,1667,2066,1665,2068,-2
+1996-04-21,Friendly,played,Ghana,GHA,Ethiopia,,FALSE,0,2,loss,Addis Ababa,Ethiopia,FALSE,1665,1307,1641,1331,-24
+1996-05-26,Friendly,played,Ghana,GHA,Egypt,EGY,TRUE,0,2,loss,Accra,Ghana,FALSE,1641,1590,1620,1611,-21
+1996-06-02,Friendly,played,Ghana,GHA,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1620,1968,1619,1969,-1
+1996-06-08,FIFA World Cup qualification,played,Ghana,GHA,Tanzania,,FALSE,0,0,draw,Dar es Salaam,Tanzania,FALSE,1619,1410,1613,1416,-6
+1996-06-17,FIFA World Cup qualification,played,Ghana,GHA,Tanzania,,TRUE,2,1,win,Kumasi,Ghana,FALSE,1613,1414,1619,1408,6
+1996-09-14,Simba Tournament,played,Ghana,GHA,Australia,AUS,FALSE,0,2,loss,Durban,South Africa,TRUE,1619,1668,1600,1687,-19
+1996-09-18,Simba Tournament,played,Ghana,GHA,Kenya,,TRUE,1,0,win,Johannesburg,South Africa,TRUE,1600,1467,1610,1457,10
+1996-09-21,Simba Tournament,played,Ghana,GHA,South Africa,ZAF,FALSE,0,0,draw,Pretoria,South Africa,FALSE,1610,1758,1619,1749,9
+1996-10-06,African Cup of Nations qualification,played,Ghana,GHA,Angola,AGO,TRUE,2,1,win,Kumasi,Ghana,FALSE,1619,1478,1627,1470,8
+1996-11-10,FIFA World Cup qualification,played,Ghana,GHA,Gabon,,FALSE,1,1,draw,Libreville,Gabon,FALSE,1619,1522,1619,1522,0
+1996-12-22,Friendly,played,Ghana,GHA,Burkina Faso,,FALSE,1,2,loss,Cotonou,Benin,TRUE,1619,1349,1594,1374,-25
+1996-12-24,Friendly,played,Ghana,GHA,Benin,,FALSE,1,1,draw,Cotonou,Benin,FALSE,1594,1170,1583,1181,-11
+1996-12-25,Friendly,played,Ghana,GHA,Gabon,,FALSE,1,1,draw,Cotonou,Benin,TRUE,1583,1506,1580,1509,-3
+1997-01-06,Friendly,played,Ghana,GHA,Togo,TGO,FALSE,0,4,loss,Lomé,Togo,FALSE,1580,1368,1555,1393,-25
+1997-01-12,FIFA World Cup qualification,played,Ghana,GHA,Morocco,MAR,TRUE,2,2,draw,Kumasi,Ghana,FALSE,1555,1664,1556,1663,1
+1997-01-26,African Cup of Nations qualification,played,Ghana,GHA,Zimbabwe,,FALSE,0,0,draw,Harare,Zimbabwe,FALSE,1556,1555,1562,1549,6
+1997-04-03,Nehru Cup,played,Ghana,GHA,China PR,,FALSE,0,0,draw,Kochi,India,TRUE,,,,,
+1997-04-05,FIFA World Cup qualification,played,Ghana,GHA,Sierra Leone,,FALSE,1,1,draw,Freetown,Sierra Leone,FALSE,1562,1426,1560,1428,-2
+1997-04-08,Nehru Cup,played,Ghana,GHA,India,,FALSE,2,2,draw,Kochi,India,FALSE,,,,,
+1997-04-27,FIFA World Cup qualification,played,Ghana,GHA,Gabon,,TRUE,3,0,win,Accra,Ghana,FALSE,1560,1440,1575,1425,15
+1997-06-08,FIFA World Cup qualification,played,Ghana,GHA,Morocco,MAR,FALSE,0,1,loss,Casablanca,Morocco,FALSE,,,,,
+1997-06-12,Korea Cup,played,Ghana,GHA,Serbia,SRB,TRUE,1,3,loss,Seoul,South Korea,TRUE,,,,,
+1997-06-14,Korea Cup,played,Ghana,GHA,South Korea,KOR,FALSE,0,3,loss,Suwon,South Korea,FALSE,1562,1649,1549,1662,-13
+1997-06-16,Korea Cup,played,Ghana,GHA,Egypt,EGY,FALSE,0,2,loss,Seoul,South Korea,TRUE,1549,1553,1527,1575,-22
+1997-06-22,African Cup of Nations qualification,played,Ghana,GHA,Angola,AGO,FALSE,0,1,loss,Luanda,Angola,FALSE,1527,1514,1512,1529,-15
+1997-07-13,African Cup of Nations qualification,played,Ghana,GHA,Zimbabwe,,TRUE,2,1,win,Accra,Ghana,FALSE,1512,1473,1524,1461,12
+1997-08-17,FIFA World Cup qualification,played,Ghana,GHA,Sierra Leone,,TRUE,0,2,loss,Obuasi,Ghana,FALSE,1524,1416,1478,1462,-46
+1997-12-03,Friendly,played,Ghana,GHA,Egypt,EGY,FALSE,2,3,loss,Cairo,Egypt,FALSE,1478,1601,1474,1605,-4
+1998-01-14,Friendly,played,Ghana,GHA,Mozambique,,TRUE,0,0,draw,Accra,Ghana,FALSE,1474,1399,1469,1404,-5
+1998-01-19,Friendly,played,Ghana,GHA,Mozambique,,TRUE,3,1,win,Accra,Ghana,FALSE,1469,1404,1477,1396,8
+1998-02-09,African Cup of Nations,played,Ghana,GHA,Tunisia,TUN,TRUE,2,0,win,Ouagadougou,Burkina Faso,TRUE,1477,1670,1533,1614,56
+1998-02-12,African Cup of Nations,played,Ghana,GHA,Togo,TGO,TRUE,1,2,loss,Ouagadougou,Burkina Faso,TRUE,1533,1336,1495,1374,-38
+1998-02-16,African Cup of Nations,played,Ghana,GHA,DR Congo,,TRUE,0,1,loss,Ouagadougou,Burkina Faso,TRUE,1495,1451,1467,1479,-28
+1998-07-25,Friendly,played,Ghana,GHA,Benin,,FALSE,1,0,win,Cotonou,Benin,FALSE,1467,1201,1471,1197,4
+1998-09-06,Friendly,played,Ghana,GHA,Eswatini,,FALSE,1,0,win,Mbabane,Swaziland,FALSE,1471,1169,1478,1162,7
+1998-10-13,Friendly,played,Ghana,GHA,Netherlands,NLD,FALSE,0,0,draw,Arnhem,Netherlands,FALSE,1525,1998,1534,1989,9
+1998-12-03,Friendly,played,Ghana,GHA,Mali,,FALSE,2,0,win,Bamako,Mali,FALSE,1534,1443,1549,1428,15
+1999-08-07,Friendly,played,Ghana,GHA,Jamaica,JAM,TRUE,2,1,win,Accra,Ghana,FALSE,1560,1603,1573,1590,13
+1999-08-28,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,0,0,draw,Lagos,Nigeria,FALSE,1573,1697,1579,1691,6
+1999-11-12,Friendly,played,Ghana,GHA,Egypt,EGY,FALSE,2,1,win,Cairo,Egypt,FALSE,1579,1641,1593,1627,14
+1999-12-14,Friendly,played,Ghana,GHA,Greece,GRC,FALSE,1,1,draw,Salonica,Greece,FALSE,1593,1755,1599,1749,6
+1999-12-22,Friendly,played,Ghana,GHA,Tunisia,TUN,FALSE,0,2,loss,Sfax,Tunisia,FALSE,1599,1635,1590,1644,-9
+2000-01-18,Friendly,played,Ghana,GHA,Tunisia,TUN,TRUE,2,0,win,Accra,Ghana,FALSE,1590,1648,1603,1635,13
+2000-01-22,African Cup of Nations,played,Ghana,GHA,Cameroon,CMR,TRUE,1,1,draw,Accra,Ghana,FALSE,1603,1578,1594,1587,-9
+2000-01-27,African Cup of Nations,played,Ghana,GHA,Togo,TGO,TRUE,2,0,win,Accra,Ghana,FALSE,1594,1360,1604,1350,10
+2000-01-31,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,TRUE,0,2,loss,Accra,Ghana,FALSE,1604,1521,1548,1577,-56
+2000-02-06,African Cup of Nations,played,Ghana,GHA,South Africa,ZAF,TRUE,0,1,loss,Kumasi,Ghana,FALSE,1548,1672,1525,1695,-23
+2000-04-08,FIFA World Cup qualification,played,Ghana,GHA,Tanzania,,FALSE,1,0,win,Arusha,Tanzania,FALSE,1525,1252,1536,1241,11
+2000-04-23,FIFA World Cup qualification,played,Ghana,GHA,Tanzania,,TRUE,3,2,win,Accra,Ghana,FALSE,1536,1241,1540,1237,4
+2000-06-17,Friendly,played,Ghana,GHA,Egypt,EGY,FALSE,0,2,loss,Cairo,Egypt,FALSE,1540,1652,1533,1659,-7
+2000-07-09,FIFA World Cup qualification,played,Ghana,GHA,Sierra Leone,,TRUE,5,0,win,Accra,Ghana,FALSE,,,,,
+2000-09-03,African Cup of Nations qualification,played,Ghana,GHA,Lesotho,,FALSE,3,3,draw,Maseru,Lesotho,FALSE,1546,1159,1532,1173,-14
+2000-10-08,African Cup of Nations qualification,played,Ghana,GHA,Zimbabwe,,TRUE,4,1,win,Accra,Ghana,FALSE,1532,1526,1557,1501,25
+2000-10-25,Friendly,played,Ghana,GHA,Uganda,,TRUE,1,2,loss,Nairobi,Kenya,TRUE,1557,1383,1535,1405,-22
+2001-01-14,African Cup of Nations qualification,played,Ghana,GHA,DR Congo,,FALSE,1,2,loss,Kinshasa,DR Congo,FALSE,1509,1449,1491,1467,-18
+2001-01-28,FIFA World Cup qualification,played,Ghana,GHA,Liberia,,TRUE,1,3,loss,Accra,Ghana,FALSE,1491,1449,1449,1491,-42
+2001-02-25,FIFA World Cup qualification,played,Ghana,GHA,Sudan,,FALSE,0,1,loss,Omdurman,Sudan,FALSE,1449,1316,1427,1338,-22
+2001-03-11,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,TRUE,0,0,draw,Accra,Ghana,FALSE,1427,1709,1437,1699,10
+2001-03-25,African Cup of Nations qualification,played,Ghana,GHA,DR Congo,,TRUE,3,0,win,Accra,Ghana,FALSE,1437,1433,1462,1408,25
+2001-05-05,FIFA World Cup qualification,played,Ghana,GHA,Sierra Leone,,FALSE,1,1,draw,Freetown,Sierra Leone,FALSE,1462,1332,1460,1334,-2
+2001-06-03,African Cup of Nations qualification,played,Ghana,GHA,Zimbabwe,,FALSE,2,1,win,Harare,Zimbabwe,FALSE,1460,1480,1487,1453,27
+2001-06-17,African Cup of Nations qualification,played,Ghana,GHA,Lesotho,,TRUE,3,1,win,Kumasi,Ghana,FALSE,1487,1207,1493,1201,6
+2001-07-01,FIFA World Cup qualification,played,Ghana,GHA,Liberia,,FALSE,2,1,win,Paynesville,Liberia,FALSE,1493,1511,1520,1484,27
+2001-07-15,FIFA World Cup qualification,played,Ghana,GHA,Sudan,,TRUE,1,0,win,Accra,Ghana,FALSE,1520,1372,1528,1364,8
+2001-07-29,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,FALSE,0,3,loss,Port Harcourt,Nigeria,FALSE,1528,1702,1516,1714,-12
+2001-12-05,Friendly,played,Ghana,GHA,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1516,1521,1519,1518,3
+2001-12-25,Friendly,played,Ghana,GHA,Mali,,FALSE,1,1,draw,Mopti,Mali,FALSE,1519,1426,1519,1426,0
+2001-12-29,Friendly,played,Ghana,GHA,Basque Country,,FALSE,2,3,loss,Bilbao,Spain,FALSE,,,,,
+2002-01-04,Friendly,played,Ghana,GHA,Egypt,EGY,FALSE,0,2,loss,Cairo,Egypt,FALSE,1519,1641,1512,1648,-7
+2002-01-21,African Cup of Nations,played,Ghana,GHA,Morocco,MAR,FALSE,0,0,draw,Ségou,Mali,TRUE,1512,1651,1522,1641,10
+2002-01-24,African Cup of Nations,played,Ghana,GHA,South Africa,ZAF,FALSE,0,0,draw,Ségou,Mali,TRUE,1522,1614,1528,1608,6
+2002-01-30,African Cup of Nations,played,Ghana,GHA,Burkina Faso,,FALSE,2,1,win,Mopti,Mali,TRUE,1528,1400,1544,1384,16
+2002-02-03,African Cup of Nations,played,Ghana,GHA,Nigeria,NGA,FALSE,0,1,loss,Bamako,Mali,TRUE,1544,1729,1531,1742,-13
+2002-05-17,Friendly,played,Ghana,GHA,Slovenia,SVN,FALSE,0,2,loss,Ljubljana,Slovenia,FALSE,1531,1741,1527,1745,-4
+2002-09-07,African Cup of Nations qualification,played,Ghana,GHA,Uganda,,FALSE,0,1,loss,Kampala,Uganda,FALSE,1527,1330,1502,1355,-25
+2002-10-08,Friendly,played,Ghana,GHA,Lesotho,,TRUE,2,1,win,Accra,Ghana,FALSE,1502,1149,1503,1148,1
+2002-10-13,African Cup of Nations qualification,played,Ghana,GHA,Rwanda,,TRUE,4,2,win,Accra,Ghana,FALSE,1503,1317,1513,1307,10
+2002-10-19,Friendly,played,Ghana,GHA,Sierra Leone,,FALSE,1,2,loss,Freetown,Sierra Leone,FALSE,1513,1335,1501,1347,-12
+2002-12-15,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,0,1,loss,Accra,Ghana,FALSE,1501,1734,1495,1740,-6
+2002-12-22,Friendly,played,Ghana,GHA,Egypt,EGY,FALSE,0,0,draw,Cairo,Egypt,FALSE,1495,1607,1500,1602,5
+2003-01-26,Friendly,played,Ghana,GHA,Benin,,TRUE,3,0,win,Kumasi,Ghana,FALSE,1500,1280,1505,1275,5
+2003-02-15,Friendly,played,Ghana,GHA,Benin,,FALSE,0,1,loss,Cotonou,Benin,FALSE,1505,1275,1491,1289,-14
+2003-03-27,Friendly,played,Ghana,GHA,Tunisia,TUN,FALSE,2,2,draw,Tunis,Tunisia,FALSE,1491,1626,1500,1617,9
+2003-03-30,Friendly,played,Ghana,GHA,Madagascar,,TRUE,3,3,draw,Tunis,Tunisia,TRUE,1500,1417,1496,1421,-4
+2003-05-30,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,1,3,loss,Abuja,Nigeria,FALSE,1496,1737,1490,1743,-6
+2003-06-13,Friendly,played,Ghana,GHA,Kenya,,TRUE,1,3,loss,Accra,Ghana,FALSE,1490,1484,1471,1503,-19
+2003-06-22,African Cup of Nations qualification,played,Ghana,GHA,Uganda,,TRUE,1,1,draw,Kumasi,Ghana,FALSE,1471,1375,1461,1385,-10
+2003-07-06,African Cup of Nations qualification,played,Ghana,GHA,Rwanda,,FALSE,0,1,loss,Kigali,Rwanda,FALSE,1461,1347,1440,1368,-21
+2003-11-16,FIFA World Cup qualification,played,Ghana,GHA,Somalia,,TRUE,5,0,win,Accra,Ghana,FALSE,1440,1065,1445,1060,5
+2003-11-19,FIFA World Cup qualification,played,Ghana,GHA,Somalia,,TRUE,2,0,win,Kumasi,Ghana,FALSE,1445,1060,1448,1057,3
+2004-04-28,Friendly,played,Ghana,GHA,Angola,AGO,TRUE,1,1,draw,Accra,Ghana,FALSE,1448,1455,1445,1458,-3
+2004-06-05,FIFA World Cup qualification,played,Ghana,GHA,Burkina Faso,,FALSE,0,1,loss,Ouagadougou,Burkina Faso,FALSE,1445,1383,1427,1401,-18
+2004-06-14,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,0,0,draw,Kumasi,Ghana,FALSE,1427,1419,1424,1422,-3
+2004-06-20,FIFA World Cup qualification,played,Ghana,GHA,South Africa,ZAF,TRUE,3,0,win,Kumasi,Ghana,FALSE,1424,1577,1464,1537,40
+2004-07-03,FIFA World Cup qualification,played,Ghana,GHA,Uganda,,FALSE,1,1,draw,Kampala,Uganda,FALSE,1476,1407,1478,1405,2
+2004-09-05,FIFA World Cup qualification,played,Ghana,GHA,Cape Verde,,TRUE,2,0,win,Kumasi,Ghana,FALSE,1478,1360,1491,1347,13
+2004-10-10,FIFA World Cup qualification,played,Ghana,GHA,DR Congo,,TRUE,0,0,draw,Kumasi,Ghana,FALSE,1491,1433,1482,1442,-9
+2005-03-23,Friendly,played,Ghana,GHA,Kenya,,FALSE,2,2,draw,Nairobi,Kenya,FALSE,1482,1412,1483,1411,1
+2005-03-27,FIFA World Cup qualification,played,Ghana,GHA,DR Congo,,FALSE,1,1,draw,Kinshasa,DR Congo,FALSE,1483,1448,1487,1444,4
+2005-06-05,FIFA World Cup qualification,played,Ghana,GHA,Burkina Faso,,TRUE,2,1,win,Kumasi,Ghana,FALSE,1487,1342,1495,1334,8
+2005-06-18,FIFA World Cup qualification,played,Ghana,GHA,South Africa,ZAF,FALSE,2,0,win,Johannesburg,South Africa,FALSE,1495,1619,1542,1572,47
+2005-08-17,Friendly,played,Ghana,GHA,Senegal,SEN,FALSE,0,0,draw,London,England,TRUE,1542,1663,1545,1660,3
+2005-09-04,FIFA World Cup qualification,played,Ghana,GHA,Uganda,,TRUE,2,0,win,Kumasi,Ghana,FALSE,1545,1328,1553,1320,8
+2005-10-08,FIFA World Cup qualification,played,Ghana,GHA,Cape Verde,,FALSE,4,0,win,Praia,Cape Verde,FALSE,1553,1340,1579,1314,26
+2005-11-14,Friendly,played,Ghana,GHA,Saudi Arabia,SAU,FALSE,3,1,win,Jeddah,Saudi Arabia,FALSE,1579,1675,1602,1652,23
+2006-01-11,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,0,1,loss,Monastir,Tunisia,TRUE,1602,1572,1591,1583,-11
+2006-01-15,Friendly,played,Ghana,GHA,Tunisia,TUN,FALSE,0,2,loss,Tunis,Tunisia,FALSE,1591,1714,1584,1721,-7
+2006-01-23,African Cup of Nations,played,Ghana,GHA,Nigeria,NGA,FALSE,0,1,loss,Port Said,Egypt,TRUE,1584,1751,1570,1765,-14
+2006-01-27,African Cup of Nations,played,Ghana,GHA,Senegal,SEN,TRUE,1,0,win,Port Said,Egypt,TRUE,1570,1711,1605,1676,35
+2006-01-31,African Cup of Nations,played,Ghana,GHA,Zimbabwe,,TRUE,1,2,loss,Ismailia,Egypt,TRUE,1605,1465,1570,1500,-35
+2006-03-01,Friendly,played,Ghana,GHA,Mexico,MEX,FALSE,0,1,loss,Frisco,United States,TRUE,1570,1831,1566,1835,-4
+2006-05-26,Friendly,played,Ghana,GHA,Turkey,TUR,FALSE,1,1,draw,Bochum,Germany,TRUE,1566,1836,1573,1829,7
+2006-05-29,Friendly,played,Ghana,GHA,Jamaica,JAM,FALSE,4,1,win,Leicester,England,TRUE,1573,1652,1594,1631,21
+2006-06-04,Friendly,played,Ghana,GHA,South Korea,KOR,TRUE,3,1,win,Edinburgh,Scotland,TRUE,1594,1766,1616,1744,22
+2006-06-12,FIFA World Cup,played,Ghana,GHA,Italy,ITA,FALSE,0,2,loss,Hanover,Germany,TRUE,1616,1943,1604,1955,-12
+2006-06-17,FIFA World Cup,played,Ghana,GHA,Czechia,CZE,FALSE,2,0,win,Cologne,Germany,TRUE,1604,2003,1686,1921,82
+2006-06-22,FIFA World Cup,played,Ghana,GHA,United States,USA,TRUE,2,1,win,Nuremberg,Germany,TRUE,1686,1805,1726,1765,40
+2006-06-27,FIFA World Cup,played,Ghana,GHA,Brazil,BRA,FALSE,0,3,loss,Dortmund,Germany,TRUE,1726,2085,1714,2097,-12
+2006-08-15,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,2,0,win,Brentford,England,TRUE,1714,1460,1720,1454,6
+2006-10-04,Friendly,played,Ghana,GHA,Japan,JPN,FALSE,1,0,win,Yokohama,Japan,FALSE,1720,1723,1733,1710,13
+2006-10-08,Friendly,played,Ghana,GHA,South Korea,KOR,FALSE,3,1,win,Seoul,South Korea,FALSE,1733,1730,1752,1711,19
+2006-11-14,Friendly,played,Ghana,GHA,Australia,AUS,FALSE,1,1,draw,London,England,TRUE,1752,1761,1752,1761,0
+2007-02-06,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,4,1,win,Brentford,England,TRUE,1752,1781,1771,1762,19
+2007-03-24,Friendly,played,Ghana,GHA,Austria,AUT,FALSE,1,1,draw,Graz,Austria,FALSE,1771,1622,1770,1623,-1
+2007-03-27,Friendly,played,Ghana,GHA,Brazil,BRA,FALSE,0,1,loss,Solna,Sweden,TRUE,1770,2063,1767,2066,-3
+2007-08-21,Friendly,played,Ghana,GHA,Senegal,SEN,TRUE,1,1,draw,London,England,TRUE,1767,1639,1763,1643,-4
+2007-09-08,Friendly,played,Ghana,GHA,Morocco,MAR,FALSE,2,0,win,Rouen,France,TRUE,1763,1668,1774,1657,11
+2007-09-11,Friendly,played,Ghana,GHA,Saudi Arabia,SAU,FALSE,0,5,loss,Riyadh,Saudi Arabia,FALSE,1774,1672,1754,1692,-20
+2007-11-18,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,2,0,win,Accra,Ghana,FALSE,1754,1415,1757,1412,3
+2007-11-21,Friendly,played,Ghana,GHA,Benin,,TRUE,4,2,win,Accra,Ghana,FALSE,1757,1382,1760,1379,3
+2008-01-20,African Cup of Nations,played,Ghana,GHA,Guinea,,TRUE,2,1,win,Accra,Ghana,FALSE,1760,1621,1770,1611,10
+2008-01-24,African Cup of Nations,played,Ghana,GHA,Namibia,,TRUE,1,0,win,Accra,Ghana,FALSE,1770,1265,1771,1264,1
+2008-01-28,African Cup of Nations,played,Ghana,GHA,Morocco,MAR,TRUE,2,0,win,Accra,Ghana,FALSE,1771,1673,1789,1655,18
+2008-02-03,African Cup of Nations,played,Ghana,GHA,Nigeria,NGA,TRUE,2,1,win,Accra,Ghana,FALSE,1789,1727,1803,1713,14
+2008-02-07,African Cup of Nations,played,Ghana,GHA,Cameroon,CMR,TRUE,0,1,loss,Accra,Ghana,FALSE,1803,1753,1768,1788,-35
+2008-02-09,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,TRUE,4,2,win,Kumasi,Ghana,FALSE,1768,1785,1797,1756,29
+2008-03-26,Friendly,played,Ghana,GHA,Mexico,MEX,TRUE,1,2,loss,London,England,TRUE,1797,1884,1789,1892,-8
+2008-05-23,Friendly,played,Ghana,GHA,Australia,AUS,FALSE,0,1,loss,Sydney,Australia,FALSE,1789,1726,1780,1735,-9
+2008-06-01,FIFA World Cup qualification,played,Ghana,GHA,Libya,,TRUE,3,0,win,Kumasi,Ghana,FALSE,1780,1521,1788,1513,8
+2008-06-08,FIFA World Cup qualification,played,Ghana,GHA,Lesotho,,FALSE,3,2,win,Bloemfontein,South Africa,TRUE,1788,1152,1789,1151,1
+2008-06-14,FIFA World Cup qualification,played,Ghana,GHA,Gabon,,FALSE,0,2,loss,Libreville,Gabon,FALSE,1789,1419,1739,1469,-50
+2008-06-22,FIFA World Cup qualification,played,Ghana,GHA,Gabon,,TRUE,2,0,win,Accra,Ghana,FALSE,1739,1469,1745,1463,6
+2008-08-20,Friendly,played,Ghana,GHA,Tanzania,,FALSE,1,1,draw,Arusha,Tanzania,FALSE,1745,1307,1738,1314,-7
+2008-09-05,FIFA World Cup qualification,played,Ghana,GHA,Libya,,FALSE,0,1,loss,Tripoli,Libya,FALSE,1738,1537,1712,1563,-26
+2008-10-11,FIFA World Cup qualification,played,Ghana,GHA,Lesotho,,TRUE,3,0,win,Sekondi,Ghana,FALSE,1712,1129,1713,1128,1
+2008-10-15,Friendly,played,Ghana,GHA,South Africa,ZAF,FALSE,1,2,loss,Bloemfontein,South Africa,FALSE,1713,1499,1700,1512,-13
+2008-11-19,Friendly,played,Ghana,GHA,Tunisia,TUN,TRUE,0,0,draw,Accra,Ghana,FALSE,1700,1610,1695,1615,-5
+2009-02-11,Friendly,played,Ghana,GHA,Egypt,EGY,FALSE,2,2,draw,Cairo,Egypt,FALSE,1695,1768,1700,1763,5
+2009-03-29,FIFA World Cup qualification,played,Ghana,GHA,Benin,,TRUE,1,0,win,Kumasi,Ghana,FALSE,1700,1399,1704,1395,4
+2009-05-31,Friendly,played,Ghana,GHA,Uganda,,TRUE,2,1,win,Tamale,Ghana,FALSE,1704,1482,1707,1479,3
+2009-06-07,FIFA World Cup qualification,played,Ghana,GHA,Mali,,FALSE,2,0,win,Bamako,Mali,FALSE,1707,1547,1732,1522,25
+2009-06-20,FIFA World Cup qualification,played,Ghana,GHA,Sudan,,FALSE,2,0,win,Omdurman,Sudan,FALSE,1732,1356,1742,1346,10
+2009-08-12,Friendly,played,Ghana,GHA,Zambia,,TRUE,4,1,win,London,England,TRUE,1742,1443,1747,1438,5
+2009-09-06,FIFA World Cup qualification,played,Ghana,GHA,Sudan,,TRUE,2,0,win,Accra,Ghana,FALSE,1747,1346,1750,1343,3
+2009-09-09,Friendly,played,Ghana,GHA,Japan,JPN,FALSE,3,4,loss,Utrecht,Netherlands,TRUE,1750,1765,1740,1775,-10
+2009-09-30,Friendly,played,Ghana,GHA,Argentina,ARG,FALSE,0,2,loss,Córdoba,Argentina,FALSE,1740,1868,1734,1874,-6
+2009-10-11,FIFA World Cup qualification,played,Ghana,GHA,Benin,,FALSE,0,1,loss,Cotonou,Benin,FALSE,1734,1401,1702,1433,-32
+2009-11-15,FIFA World Cup qualification,played,Ghana,GHA,Mali,,TRUE,2,2,draw,Kumasi,Ghana,FALSE,1702,1553,1690,1565,-12
+2009-11-18,Friendly,played,Ghana,GHA,Angola,AGO,FALSE,0,0,draw,Luanda,Angola,FALSE,1690,1452,1686,1456,-4
+2010-01-05,Friendly,played,Ghana,GHA,Malawi,,TRUE,0,0,draw,Manzini,Swaziland,TRUE,1686,1356,1679,1363,-7
+2010-01-15,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,FALSE,1,3,loss,Cabinda,Angola,TRUE,1679,1749,1649,1779,-30
+2010-01-19,African Cup of Nations,played,Ghana,GHA,Burkina Faso,,FALSE,1,0,win,Luanda,Angola,TRUE,1649,1492,1663,1478,14
+2010-01-24,African Cup of Nations,played,Ghana,GHA,Angola,AGO,FALSE,1,0,win,Luanda,Angola,FALSE,1663,1469,1681,1451,18
+2010-01-28,African Cup of Nations,played,Ghana,GHA,Nigeria,NGA,TRUE,1,0,win,Luanda,Angola,TRUE,1681,1710,1708,1683,27
+2010-01-31,African Cup of Nations,played,Ghana,GHA,Egypt,EGY,TRUE,0,1,loss,Luanda,Angola,TRUE,1708,1822,1691,1839,-17
+2010-03-03,Friendly,played,Ghana,GHA,Bosnia and Herzegovina,BIH,FALSE,1,2,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1691,1642,1682,1651,-9
+2010-06-01,Friendly,played,Ghana,GHA,Netherlands,NLD,FALSE,1,4,loss,Rotterdam,Netherlands,FALSE,1682,2039,1680,2041,-2
+2010-06-05,Friendly,played,Ghana,GHA,Latvia,,TRUE,1,0,win,Milton Keynes,England,TRUE,1680,1564,1687,1557,7
+2010-06-13,FIFA World Cup,played,Ghana,GHA,Serbia,SRB,FALSE,1,0,win,Pretoria,South Africa,TRUE,1687,1840,1729,1798,42
+2010-06-19,FIFA World Cup,played,Ghana,GHA,Australia,AUS,TRUE,1,1,draw,Rustenburg,South Africa,TRUE,1729,1746,1730,1745,1
+2010-06-23,FIFA World Cup,played,Ghana,GHA,Germany,DEU,TRUE,0,1,loss,Johannesburg,South Africa,TRUE,1730,1941,1716,1955,-14
+2010-06-26,FIFA World Cup,played,Ghana,GHA,United States,USA,FALSE,2,1,win,Rustenburg,South Africa,TRUE,1716,1805,1754,1767,38
+2010-07-02,FIFA World Cup,played,Ghana,GHA,Uruguay,URY,FALSE,1,1,draw,Johannesburg,South Africa,TRUE,1754,1931,1768,1917,14
+2010-08-11,Friendly,played,Ghana,GHA,South Africa,ZAF,FALSE,0,1,loss,Johannesburg,South Africa,FALSE,1768,1617,1757,1628,-11
+2010-09-05,African Cup of Nations qualification,played,Ghana,GHA,Eswatini,,FALSE,3,0,win,Lobamba,Swaziland,FALSE,1757,1164,1761,1160,4
+2010-10-10,African Cup of Nations qualification,played,Ghana,GHA,Sudan,,TRUE,0,0,draw,Kumasi,Ghana,FALSE,1761,1333,1743,1351,-18
+2010-11-17,Friendly,played,Ghana,GHA,Saudi Arabia,SAU,FALSE,0,0,draw,Dubai,United Arab Emirates,TRUE,1743,1681,1741,1683,-2
+2011-02-08,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,4,1,win,Antwerp,Belgium,TRUE,1741,1381,1745,1377,4
+2011-03-27,African Cup of Nations qualification,played,Ghana,GHA,Congo,,FALSE,3,0,win,Brazzaville,Congo,FALSE,1745,1380,1758,1367,13
+2011-03-29,Friendly,played,Ghana,GHA,England,ENG,FALSE,1,1,draw,London,England,FALSE,1758,1941,1765,1934,7
+2011-06-03,African Cup of Nations qualification,played,Ghana,GHA,Congo,,TRUE,3,1,win,Kumasi,Ghana,FALSE,1765,1367,1768,1364,3
+2011-06-07,Friendly,played,Ghana,GHA,South Korea,KOR,FALSE,1,2,loss,Jeonju,South Korea,FALSE,1768,1809,1762,1815,-6
+2011-09-02,African Cup of Nations qualification,played,Ghana,GHA,Eswatini,,TRUE,2,0,win,Accra,Ghana,FALSE,1762,1138,1763,1137,1
+2011-09-05,Friendly,played,Ghana,GHA,Brazil,BRA,FALSE,0,1,loss,London,England,TRUE,1763,2032,1759,2036,-4
+2011-10-08,African Cup of Nations qualification,played,Ghana,GHA,Sudan,,FALSE,2,0,win,Khartoum,Sudan,FALSE,1759,1410,1771,1398,12
+2011-10-11,Friendly,played,Ghana,GHA,Nigeria,NGA,TRUE,0,0,draw,Watford,England,TRUE,1771,1662,1768,1665,-3
+2011-11-15,Friendly,played,Ghana,GHA,Gabon,,TRUE,2,1,win,Saint-Leu-la-Forêt,France,TRUE,1768,1560,1773,1555,5
+2012-01-24,African Cup of Nations,played,Ghana,GHA,Botswana,,TRUE,1,0,win,Franceville,Gabon,TRUE,1771,1413,1777,1407,6
+2012-01-28,African Cup of Nations,played,Ghana,GHA,Mali,,TRUE,2,0,win,Franceville,Gabon,TRUE,1777,1523,1791,1509,14
+2012-02-01,African Cup of Nations,played,Ghana,GHA,Guinea,,TRUE,1,1,draw,Franceville,Gabon,TRUE,1791,1521,1775,1537,-16
+2012-02-05,African Cup of Nations,played,Ghana,GHA,Tunisia,TUN,TRUE,2,1,win,Franceville,Gabon,TRUE,1775,1590,1788,1577,13
+2012-02-08,African Cup of Nations,played,Ghana,GHA,Zambia,,FALSE,0,1,loss,Bata,Equatorial Guinea,TRUE,1788,1590,1750,1628,-38
+2012-02-11,African Cup of Nations,played,Ghana,GHA,Mali,,TRUE,0,2,loss,Malabo,Equatorial Guinea,TRUE,1750,1526,1691,1585,-59
+2012-02-29,Friendly,played,Ghana,GHA,Chile,CHL,FALSE,1,1,draw,Chester,United States,TRUE,1691,1870,1696,1865,5
+2012-06-01,FIFA World Cup qualification,played,Ghana,GHA,Lesotho,,TRUE,7,0,win,Kumasi,Ghana,FALSE,1696,1140,1698,1138,2
+2012-06-09,FIFA World Cup qualification,played,Ghana,GHA,Zambia,,FALSE,0,1,loss,Ndola,Zambia,FALSE,1698,1598,1678,1618,-20
+2012-08-15,Friendly,played,Ghana,GHA,China PR,,FALSE,1,1,draw,Xi'an,China PR,FALSE,,,,,
+2012-09-08,African Cup of Nations qualification,played,Ghana,GHA,Malawi,,TRUE,2,0,win,Accra,Ghana,FALSE,1680,1404,1686,1398,6
+2012-09-11,Friendly,played,Ghana,GHA,Liberia,,FALSE,0,2,loss,Paynesville,Liberia,FALSE,1686,1291,1661,1316,-25
+2012-10-13,African Cup of Nations qualification,played,Ghana,GHA,Malawi,,FALSE,1,0,win,Lilongwe,Malawi,FALSE,1661,1398,1672,1387,11
+2012-11-14,Friendly,played,Ghana,GHA,Cape Verde,,FALSE,1,0,win,Lisbon,Portugal,TRUE,1672,1428,1676,1424,4
+2013-01-10,Friendly,played,Ghana,GHA,Egypt,EGY,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,TRUE,1676,1660,1693,1643,17
+2013-01-13,Friendly,played,Ghana,GHA,Tunisia,TUN,TRUE,4,2,win,Abu Dhabi,United Arab Emirates,TRUE,1693,1591,1704,1580,11
+2013-01-20,African Cup of Nations,played,Ghana,GHA,DR Congo,,TRUE,2,2,draw,Port Elizabeth,South Africa,TRUE,1704,1434,1688,1450,-16
+2013-01-24,African Cup of Nations,played,Ghana,GHA,Mali,,TRUE,1,0,win,Port Elizabeth,South Africa,TRUE,1688,1611,1708,1591,20
+2013-01-28,African Cup of Nations,played,Ghana,GHA,Niger,,FALSE,3,0,win,Port Elizabeth,South Africa,TRUE,1708,1348,1718,1338,10
+2013-02-02,African Cup of Nations,played,Ghana,GHA,Cape Verde,,TRUE,2,0,win,Port Elizabeth,South Africa,TRUE,1718,1479,1733,1464,15
+2013-02-06,African Cup of Nations,played,Ghana,GHA,Burkina Faso,,FALSE,1,1,draw,Nelspruit,South Africa,TRUE,1733,1520,1719,1534,-14
+2013-02-09,African Cup of Nations,played,Ghana,GHA,Mali,,FALSE,1,3,loss,Port Elizabeth,South Africa,TRUE,1719,1553,1665,1607,-54
+2013-03-24,FIFA World Cup qualification,played,Ghana,GHA,Sudan,,TRUE,4,0,win,Kumasi,Ghana,FALSE,1665,1377,1672,1370,7
+2013-06-07,FIFA World Cup qualification,played,Ghana,GHA,Sudan,,FALSE,3,1,win,Omdurman,Sudan,FALSE,1672,1358,1686,1344,14
+2013-06-12,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,2,1,win,Kumasi,Ghana,FALSE,1686,1814,1697,1803,11
+2013-06-14,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,1,1,draw,Obuasi,Ghana,FALSE,1697,1803,1697,1803,0
+2013-06-16,FIFA World Cup qualification,played,Ghana,GHA,Lesotho,,FALSE,2,0,win,Maseru,Lesotho,FALSE,1697,1148,1701,1144,4
+2013-08-14,Friendly,played,Ghana,GHA,Turkey,TUR,FALSE,2,2,draw,Istanbul,Turkey,FALSE,1701,1656,1703,1654,2
+2013-08-30,Friendly,played,Ghana,GHA,Libya,,FALSE,0,1,loss,Aïn Draham,Tunisia,TRUE,1703,1554,1689,1568,-14
+2013-09-06,FIFA World Cup qualification,played,Ghana,GHA,Zambia,,TRUE,2,1,win,Kumasi,Ghana,FALSE,1689,1546,1697,1538,8
+2013-09-10,Friendly,played,Ghana,GHA,Japan,JPN,FALSE,1,3,loss,Saitama,Japan,FALSE,1697,1757,1688,1766,-9
+2013-10-15,FIFA World Cup qualification,played,Ghana,GHA,Egypt,EGY,TRUE,6,1,win,Kumasi,Ghana,FALSE,1688,1670,1715,1643,27
+2013-11-19,FIFA World Cup qualification,played,Ghana,GHA,Egypt,EGY,FALSE,1,2,loss,Cairo,Egypt,FALSE,1715,1650,1697,1668,-18
+2014-01-04,Friendly,played,Ghana,GHA,Namibia,,FALSE,1,0,win,Windhoek,Namibia,FALSE,,,,,
+2014-03-05,Friendly,played,Ghana,GHA,Montenegro,,FALSE,0,1,loss,Podgorica,Montenegro,FALSE,1697,1597,1687,1607,-10
+2014-05-31,Friendly,played,Ghana,GHA,Netherlands,NLD,FALSE,0,1,loss,Rotterdam,Netherlands,FALSE,1687,1981,1685,1983,-2
+2014-06-09,Friendly,played,Ghana,GHA,South Korea,KOR,TRUE,4,0,win,Miami Gardens,United States,TRUE,1685,1686,1704,1667,19
+2014-06-16,FIFA World Cup,played,Ghana,GHA,United States,USA,TRUE,1,2,loss,Natal,Brazil,TRUE,1704,1856,1686,1874,-18
+2014-06-21,FIFA World Cup,played,Ghana,GHA,Germany,DEU,FALSE,2,2,draw,Fortaleza,Brazil,TRUE,1686,2109,1711,2084,25
+2014-06-26,FIFA World Cup,played,Ghana,GHA,Portugal,PRT,FALSE,1,2,loss,Brasília,Brazil,TRUE,1711,1903,1696,1918,-15
+2014-09-06,African Cup of Nations qualification,played,Ghana,GHA,Uganda,,TRUE,1,1,draw,Kumasi,Ghana,FALSE,1696,1467,1681,1482,-15
+2014-09-10,African Cup of Nations qualification,played,Ghana,GHA,Togo,TGO,FALSE,3,2,win,Lomé,Togo,FALSE,1681,1459,1694,1446,13
+2014-10-11,African Cup of Nations qualification,played,Ghana,GHA,Guinea,,FALSE,1,1,draw,Casablanca,Morocco,TRUE,1694,1526,1685,1535,-9
+2014-10-15,African Cup of Nations qualification,played,Ghana,GHA,Guinea,,TRUE,3,1,win,Accra,Ghana,FALSE,1685,1535,1697,1523,12
+2014-11-15,African Cup of Nations qualification,played,Ghana,GHA,Uganda,,FALSE,0,1,loss,Kampala,Uganda,FALSE,1697,1474,1670,1501,-27
+2014-11-19,African Cup of Nations qualification,played,Ghana,GHA,Togo,TGO,TRUE,3,1,win,Tamale,Ghana,FALSE,1670,1448,1678,1440,8
+2015-01-19,African Cup of Nations,played,Ghana,GHA,Senegal,SEN,TRUE,1,2,loss,Mongomo,Equatorial Guinea,TRUE,1678,1660,1652,1686,-26
+2015-01-23,African Cup of Nations,played,Ghana,GHA,Algeria,DZA,TRUE,1,0,win,Mongomo,Equatorial Guinea,TRUE,1652,1707,1681,1678,29
+2015-01-27,African Cup of Nations,played,Ghana,GHA,South Africa,ZAF,FALSE,2,1,win,Mongomo,Equatorial Guinea,TRUE,1681,1615,1701,1595,20
+2015-02-01,African Cup of Nations,played,Ghana,GHA,Guinea,,TRUE,3,0,win,Malabo,Equatorial Guinea,TRUE,1701,1582,1730,1553,29
+2015-02-05,African Cup of Nations,played,Ghana,GHA,Equatorial Guinea,,FALSE,3,0,win,Malabo,Equatorial Guinea,FALSE,1730,1400,1748,1382,18
+2015-02-08,African Cup of Nations,played,Ghana,GHA,Ivory Coast,CIV,FALSE,0,0,draw,Bata,Equatorial Guinea,TRUE,1748,1742,1748,1742,0
+2015-03-28,Friendly,played,Ghana,GHA,Senegal,SEN,TRUE,1,2,loss,Le Havre,France,TRUE,1748,1643,1735,1656,-13
+2015-03-31,Friendly,played,Ghana,GHA,Mali,,TRUE,1,1,draw,Paris,France,TRUE,1735,1538,1730,1543,-5
+2015-05-25,COSAFA Cup,played,Ghana,GHA,Madagascar,,TRUE,1,2,loss,Phokeng,South Africa,TRUE,1730,1248,1692,1286,-38
+2015-05-27,COSAFA Cup,played,Ghana,GHA,Zambia,,FALSE,0,3,loss,Moruleng-Saulspoort,South Africa,TRUE,1692,1493,1639,1546,-53
+2015-06-08,Friendly,played,Ghana,GHA,Togo,TGO,TRUE,1,0,win,Accra,Ghana,FALSE,1639,1433,1642,1430,3
+2015-06-14,African Cup of Nations qualification,played,Ghana,GHA,Mauritius,,TRUE,7,1,win,Accra,Ghana,FALSE,1642,1031,1643,1030,1
+2015-09-01,Friendly,played,Ghana,GHA,Congo,,FALSE,3,2,win,Brazzaville,Congo,FALSE,1643,1438,1650,1431,7
+2015-09-05,African Cup of Nations qualification,played,Ghana,GHA,Rwanda,,FALSE,1,0,win,Kigali,Rwanda,FALSE,1650,1420,1663,1407,13
+2015-11-13,FIFA World Cup qualification,played,Ghana,GHA,Comoros,,FALSE,0,0,draw,Mitsamiouli,Comoros,FALSE,1659,923,1640,942,-19
+2015-11-17,FIFA World Cup qualification,played,Ghana,GHA,Comoros,,TRUE,2,0,win,Kumasi,Ghana,FALSE,1640,942,1641,941,1
+2016-03-24,African Cup of Nations qualification,played,Ghana,GHA,Mozambique,,TRUE,3,1,win,Accra,Ghana,FALSE,1641,1328,1646,1323,5
+2016-03-27,African Cup of Nations qualification,played,Ghana,GHA,Mozambique,,FALSE,0,0,draw,Maputo,Mozambique,FALSE,1646,1323,1635,1334,-11
+2016-06-05,African Cup of Nations qualification,played,Ghana,GHA,Mauritius,,FALSE,2,0,win,Mapou,Mauritius,FALSE,1635,1103,1640,1098,5
+2016-09-03,African Cup of Nations qualification,played,Ghana,GHA,Rwanda,,TRUE,1,1,draw,Accra,Ghana,FALSE,1640,1291,1623,1308,-17
+2016-09-06,Friendly,played,Ghana,GHA,Russia,RUS,FALSE,0,1,loss,Moscow,Russia,FALSE,1623,1698,1618,1703,-5
+2016-10-07,FIFA World Cup qualification,played,Ghana,GHA,Uganda,,TRUE,0,0,draw,Tamale,Ghana,FALSE,1618,1485,1606,1497,-12
+2016-10-11,Friendly,played,Ghana,GHA,South Africa,ZAF,FALSE,1,1,draw,Durban,South Africa,FALSE,1606,1599,1609,1596,3
+2016-11-13,FIFA World Cup qualification,played,Ghana,GHA,Egypt,EGY,FALSE,0,2,loss,Alexandria,Egypt,FALSE,1609,1637,1590,1656,-19
+2017-01-17,African Cup of Nations,played,Ghana,GHA,Uganda,,TRUE,1,0,win,Port-Gentil,Gabon,TRUE,1590,1480,1607,1463,17
+2017-01-21,African Cup of Nations,played,Ghana,GHA,Mali,,TRUE,1,0,win,Port-Gentil,Gabon,TRUE,1607,1545,1628,1524,21
+2017-01-25,African Cup of Nations,played,Ghana,GHA,Egypt,EGY,FALSE,0,1,loss,Port-Gentil,Gabon,TRUE,1628,1666,1606,1688,-22
+2017-01-29,African Cup of Nations,played,Ghana,GHA,DR Congo,,FALSE,2,1,win,Oyem,Gabon,TRUE,1606,1619,1632,1593,26
+2017-02-02,African Cup of Nations,played,Ghana,GHA,Cameroon,CMR,FALSE,0,2,loss,Franceville,Gabon,TRUE,1632,1619,1593,1658,-39
+2017-02-04,African Cup of Nations,played,Ghana,GHA,Burkina Faso,,FALSE,0,1,loss,Port-Gentil,Gabon,TRUE,1593,1591,1568,1616,-25
+2017-05-25,Friendly,played,Ghana,GHA,Benin,,TRUE,1,1,draw,Accra,Ghana,FALSE,,,,,
+2017-06-11,African Cup of Nations qualification,played,Ghana,GHA,Ethiopia,,TRUE,5,0,win,Kumasi,Ghana,FALSE,1570,1304,1579,1295,9
+2017-07-01,Friendly,played,Ghana,GHA,United States,USA,FALSE,1,2,loss,East Hartford,United States,FALSE,1577,1766,1574,1769,-3
+2017-09-01,FIFA World Cup qualification,played,Ghana,GHA,Congo,,TRUE,1,1,draw,Kumasi,Ghana,FALSE,1574,1403,1561,1416,-13
+2017-09-05,FIFA World Cup qualification,played,Ghana,GHA,Congo,,FALSE,5,1,win,Brazzaville,Congo,FALSE,1561,1416,1594,1383,33
+2017-10-07,FIFA World Cup qualification,played,Ghana,GHA,Uganda,,FALSE,0,0,draw,Kampala,Uganda,FALSE,1594,1485,1593,1486,-1
+2017-10-10,Friendly,played,Ghana,GHA,Saudi Arabia,SAU,FALSE,3,0,win,Jeddah,Saudi Arabia,FALSE,1593,1626,1617,1602,24
+2017-11-12,FIFA World Cup qualification,played,Ghana,GHA,Egypt,EGY,TRUE,1,1,draw,Kumasi,Ghana,FALSE,1617,1646,1613,1650,-4
+2018-05-30,Friendly,played,Ghana,GHA,Japan,JPN,FALSE,2,0,win,Yokohama,Japan,FALSE,1613,1692,1635,1670,22
+2018-06-07,Friendly,played,Ghana,GHA,Iceland,ISL,FALSE,2,2,draw,Reykjavík,Iceland,FALSE,1635,1770,1641,1764,6
+2018-09-08,African Cup of Nations qualification,played,Ghana,GHA,Kenya,,FALSE,0,1,loss,Nairobi,Kenya,FALSE,1641,1329,1610,1360,-31
+2018-11-18,African Cup of Nations qualification,played,Ghana,GHA,Ethiopia,,FALSE,2,0,win,Addis Ababa,Ethiopia,FALSE,1610,1268,1622,1256,12
+2019-03-23,African Cup of Nations qualification,played,Ghana,GHA,Kenya,,TRUE,1,0,win,Accra,Ghana,FALSE,1622,1384,1627,1379,5
+2019-03-26,Friendly,played,Ghana,GHA,Mauritania,,TRUE,3,1,win,Accra,Ghana,FALSE,1627,1345,1630,1342,3
+2019-06-15,Friendly,played,Ghana,GHA,South Africa,ZAF,TRUE,0,0,draw,Dubai,United Arab Emirates,TRUE,1613,1522,1610,1525,-3
+2019-06-25,African Cup of Nations,played,Ghana,GHA,Benin,,TRUE,2,2,draw,Ismailia,Egypt,TRUE,1610,1423,1598,1435,-12
+2019-06-29,African Cup of Nations,played,Ghana,GHA,Cameroon,CMR,FALSE,0,0,draw,Ismailia,Egypt,TRUE,1598,1615,1599,1614,1
+2019-07-02,African Cup of Nations,played,Ghana,GHA,Guinea-Bissau,,FALSE,2,0,win,Suez,Egypt,TRUE,1599,1290,1610,1279,11
+2019-07-08,African Cup of Nations,played,Ghana,GHA,Tunisia,TUN,TRUE,1,1,draw,Ismailia,Egypt,TRUE,1610,1624,1611,1623,1
+2019-11-14,African Cup of Nations qualification,played,Ghana,GHA,South Africa,ZAF,TRUE,2,0,win,Cape Coast,Ghana,FALSE,1611,1542,1627,1526,16
+2019-11-18,African Cup of Nations qualification,played,Ghana,GHA,São Tomé and Príncipe,,FALSE,1,0,win,São Tomé,São Tomé and Príncipe,FALSE,,,,,
+2020-10-09,Friendly,played,Ghana,GHA,Mali,,FALSE,0,3,loss,Antalya,Turkey,TRUE,1630,1534,1608,1556,-22
+2020-10-12,Friendly,played,Ghana,GHA,Qatar,QAT,TRUE,5,1,win,Aksu,Turkey,TRUE,1608,1668,1630,1646,22
+2020-11-12,African Cup of Nations qualification,played,Ghana,GHA,Sudan,,TRUE,2,0,win,Cape Coast,Ghana,FALSE,1630,1302,1635,1297,5
+2020-11-17,African Cup of Nations qualification,played,Ghana,GHA,Sudan,,FALSE,0,1,loss,Omdurman,Sudan,FALSE,1635,1297,1603,1329,-32
+2021-03-25,African Cup of Nations qualification,played,Ghana,GHA,South Africa,ZAF,FALSE,1,1,draw,Johannesburg,South Africa,FALSE,1603,1515,1604,1514,1
+2021-03-28,African Cup of Nations qualification,played,Ghana,GHA,São Tomé and Príncipe,,TRUE,3,1,win,Cape Coast,Ghana,FALSE,,,,,
+2021-06-08,Friendly,played,Ghana,GHA,Morocco,MAR,FALSE,0,1,loss,Rabat,Morocco,FALSE,1605,1671,1599,1677,-6
+2021-06-12,Friendly,played,Ghana,GHA,Ivory Coast,CIV,TRUE,0,0,draw,Cape Coast,Ghana,FALSE,1599,1640,1597,1642,-2
+2021-09-03,FIFA World Cup qualification,played,Ghana,GHA,Ethiopia,,TRUE,1,0,win,Cape Coast,Ghana,FALSE,1597,1335,1601,1331,4
+2021-09-06,FIFA World Cup qualification,played,Ghana,GHA,South Africa,ZAF,FALSE,0,1,loss,Johannesburg,South Africa,FALSE,1601,1508,1581,1528,-20
+2021-10-09,FIFA World Cup qualification,played,Ghana,GHA,Zimbabwe,,TRUE,3,1,win,Cape Coast,Ghana,FALSE,1581,1340,1588,1333,7
+2021-10-12,FIFA World Cup qualification,played,Ghana,GHA,Zimbabwe,,FALSE,1,0,win,Harare,Zimbabwe,FALSE,1588,1333,1600,1321,12
+2021-11-11,FIFA World Cup qualification,played,Ghana,GHA,Ethiopia,,FALSE,1,1,draw,Johannesburg,South Africa,TRUE,1600,1319,1587,1332,-13
+2021-11-14,FIFA World Cup qualification,played,Ghana,GHA,South Africa,ZAF,TRUE,1,0,win,Cape Coast,Ghana,FALSE,1587,1561,1600,1548,13
+2022-01-05,Friendly,played,Ghana,GHA,Algeria,DZA,FALSE,0,3,loss,Al Rayyan,Qatar,TRUE,1600,1799,1592,1807,-8
+2022-01-10,African Cup of Nations,played,Ghana,GHA,Morocco,MAR,FALSE,0,1,loss,Yaoundé,Cameroon,TRUE,1592,1764,1578,1778,-14
+2022-01-14,African Cup of Nations,played,Ghana,GHA,Gabon,,FALSE,1,1,draw,Yaoundé,Cameroon,TRUE,1578,1415,1567,1426,-11
+2022-01-18,African Cup of Nations,played,Ghana,GHA,Comoros,,TRUE,2,3,loss,Garoua,Cameroon,TRUE,1567,1227,1523,1271,-44
+2022-03-25,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,TRUE,0,0,draw,Kumasi,Ghana,FALSE,1523,1657,1525,1655,2
+2022-03-29,FIFA World Cup qualification,played,Ghana,GHA,Nigeria,NGA,FALSE,1,1,draw,Abuja,Nigeria,FALSE,1525,1655,1537,1643,12
+2022-06-01,African Cup of Nations qualification,played,Ghana,GHA,Madagascar,,TRUE,3,0,win,Cape Coast,Ghana,FALSE,1537,1321,1547,1311,10
+2022-06-05,African Cup of Nations qualification,played,Ghana,GHA,Central African Republic,,FALSE,1,1,draw,Luanda,Angola,TRUE,1547,1247,1533,1261,-14
+2022-06-10,Kirin Cup,played,Ghana,GHA,Japan,JPN,FALSE,1,4,loss,Kobe,Japan,FALSE,1533,1802,1527,1808,-6
+2022-06-14,Kirin Cup,played,Ghana,GHA,Chile,CHL,FALSE,0,0,draw,Suita,Japan,TRUE,1527,1726,1535,1718,8
+2022-09-23,Friendly,played,Ghana,GHA,Brazil,BRA,FALSE,0,3,loss,Le Havre,France,TRUE,1535,2166,1534,2167,-1
+2022-09-27,Friendly,played,Ghana,GHA,Nicaragua,,TRUE,1,0,win,Lorca,Spain,TRUE,1534,1256,1537,1253,3
+2022-11-17,Friendly,played,Ghana,GHA,Switzerland,CHE,FALSE,2,0,win,Abu Dhabi,United Arab Emirates,TRUE,1537,1928,1564,1901,27
+2022-11-24,FIFA World Cup,played,Ghana,GHA,Portugal,PRT,FALSE,2,3,loss,Doha,Qatar,TRUE,1564,2005,1560,2009,-4
+2022-11-28,FIFA World Cup,played,Ghana,GHA,South Korea,KOR,FALSE,3,2,win,Al Rayyan,Qatar,TRUE,1560,1798,1608,1750,48
+2022-12-02,FIFA World Cup,played,Ghana,GHA,Uruguay,URY,TRUE,0,2,loss,Al Wakrah,Qatar,TRUE,1608,1889,1593,1904,-15
+2023-03-23,African Cup of Nations qualification,played,Ghana,GHA,Angola,AGO,TRUE,1,0,win,Kumasi,Ghana,FALSE,1593,1406,1599,1400,6
+2023-03-27,African Cup of Nations qualification,played,Ghana,GHA,Angola,AGO,FALSE,1,1,draw,Luanda,Angola,FALSE,1599,1400,1593,1406,-6
+2023-06-18,African Cup of Nations qualification,played,Ghana,GHA,Madagascar,,FALSE,0,0,draw,Antananarivo,Madagascar,FALSE,1593,1224,1580,1237,-13
+2023-09-07,African Cup of Nations qualification,played,Ghana,GHA,Central African Republic,,TRUE,2,1,win,Kumasi,Ghana,FALSE,1580,1320,1584,1316,4
+2023-09-12,Friendly,played,Ghana,GHA,Liberia,,TRUE,3,1,win,Accra,Ghana,FALSE,1584,1307,1587,1304,3
+2023-10-14,Friendly,played,Ghana,GHA,Mexico,MEX,FALSE,0,2,loss,Charlotte,United States,TRUE,1587,1832,1581,1838,-6
+2023-10-17,Friendly,played,Ghana,GHA,United States,USA,FALSE,0,4,loss,Nashville,United States,FALSE,1581,1799,1576,1804,-5
+2023-11-17,FIFA World Cup qualification,played,Ghana,GHA,Madagascar,,TRUE,1,0,win,Kumasi,Ghana,FALSE,1576,1290,1580,1286,4
+2023-11-21,FIFA World Cup qualification,played,Ghana,GHA,Comoros,,FALSE,0,1,loss,Moroni,Comoros,FALSE,1580,1241,1548,1273,-32
+2024-01-08,Friendly,played,Ghana,GHA,Namibia,,TRUE,0,0,draw,Kumasi,Ghana,FALSE,1548,1377,1541,1384,-7
+2024-01-14,African Cup of Nations,played,Ghana,GHA,Cape Verde,,TRUE,1,2,loss,Abidjan,Ivory Coast,TRUE,1541,1475,1511,1505,-30
+2024-01-18,African Cup of Nations,played,Ghana,GHA,Egypt,EGY,FALSE,2,2,draw,Abidjan,Ivory Coast,TRUE,1511,1668,1522,1657,11
+2024-01-22,African Cup of Nations,played,Ghana,GHA,Mozambique,,FALSE,2,2,draw,Ebimpé,Ivory Coast,TRUE,1522,1352,1511,1363,-11
+2024-03-22,Friendly,played,Ghana,GHA,Nigeria,NGA,FALSE,1,2,loss,Marrakech,Morocco,TRUE,1511,1634,1504,1641,-7
+2024-06-06,FIFA World Cup qualification,played,Ghana,GHA,Mali,,FALSE,2,1,win,Bamako,Mali,FALSE,1500,1646,1532,1614,32
+2024-06-10,FIFA World Cup qualification,played,Ghana,GHA,Central African Republic,,TRUE,4,3,win,Kumasi,Ghana,FALSE,1532,1329,1538,1323,6
+2024-09-05,African Cup of Nations qualification,played,Ghana,GHA,Angola,AGO,TRUE,0,1,loss,Kumasi,Ghana,FALSE,1538,1551,1513,1576,-25
+2024-09-09,African Cup of Nations qualification,played,Ghana,GHA,Niger,,FALSE,1,1,draw,Berkane,Morocco,TRUE,1513,1226,1499,1240,-14
+2024-10-10,African Cup of Nations qualification,played,Ghana,GHA,Sudan,,TRUE,0,0,draw,Accra,Ghana,FALSE,1499,1385,1488,1396,-11
+2024-10-15,African Cup of Nations qualification,played,Ghana,GHA,Sudan,,FALSE,0,2,loss,Benghazi,Libya,TRUE,1488,1396,1450,1434,-38
+2024-11-15,African Cup of Nations qualification,played,Ghana,GHA,Angola,AGO,FALSE,1,1,draw,Talatona,Angola,FALSE,1450,1592,1462,1580,12
+2024-11-18,African Cup of Nations qualification,played,Ghana,GHA,Niger,,TRUE,1,2,loss,Accra,Ghana,FALSE,1462,1288,1429,1321,-33
+2025-03-21,FIFA World Cup qualification,played,Ghana,GHA,Chad,,TRUE,5,0,win,Accra,Ghana,FALSE,1429,1166,1438,1157,9
+2025-03-24,FIFA World Cup qualification,played,Ghana,GHA,Madagascar,,FALSE,3,0,win,Al Hoceima,Morocco,TRUE,1438,1322,1462,1298,24
+2025-05-28,Unity Cup,played,Ghana,GHA,Nigeria,NGA,FALSE,1,2,loss,London,England,TRUE,1462,1558,1451,1569,-11
+2025-05-31,Unity Cup,played,Ghana,GHA,Trinidad and Tobago,TTO,FALSE,4,0,win,London,England,TRUE,1451,1421,1477,1395,26
+2025-09-04,FIFA World Cup qualification,played,Ghana,GHA,Chad,,FALSE,1,1,draw,N'Djamena,Chad,FALSE,1477,1151,1466,1162,-11
+2025-09-08,FIFA World Cup qualification,played,Ghana,GHA,Mali,,TRUE,1,0,win,Accra,Ghana,FALSE,1466,1620,1489,1597,23
+2025-10-08,FIFA World Cup qualification,played,Ghana,GHA,Central African Republic,,FALSE,5,0,win,El Jadida,Morocco,TRUE,1489,1231,1504,1216,15
+2025-10-12,FIFA World Cup qualification,played,Ghana,GHA,Comoros,,TRUE,1,0,win,Accra,Ghana,FALSE,1504,1398,1513,1389,9
+2025-11-14,Kirin Cup,played,Ghana,GHA,Japan,JPN,FALSE,0,2,loss,Toyota,Japan,FALSE,1513,1871,1511,1873,-2
+2025-11-18,Friendly,played,Ghana,GHA,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1511,1782,1509,1784,-2
+2026-03-27,Friendly,played,Ghana,GHA,Austria,AUT,FALSE,1,5,loss,Vienna,Austria,FALSE,1509,1818,1506,1821,-3
+2026-03-30,Friendly,played,Ghana,GHA,Germany,DEU,FALSE,1,2,loss,Stuttgart,Germany,FALSE,1506,1922,1505,1923,-1

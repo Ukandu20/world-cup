@@ -1,0 +1,658 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1949-10-08,Friendly,played,Nigeria,NGA,Sierra Leone,,FALSE,2,0,win,Freetown,Sierra Leone,FALSE,1711,1400,1718,1393,7
+1950-05-28,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,1,loss,Accra,Gold Coast,FALSE,1718,1689,1710,1697,-8
+1951-10-20,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,5,0,win,Lagos,Nigeria,FALSE,1710,1697,1731,1676,21
+1953-10-11,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,1,loss,Accra,Gold Coast,FALSE,1731,1676,1718,1689,-13
+1954-10-30,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,3,0,win,Lagos,Nigeria,FALSE,1718,1702,1736,1684,18
+1955-05-28,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,1,loss,Accra,Gold Coast,FALSE,1736,1684,1727,1693,-9
+1955-10-30,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,7,loss,Accra,Gold Coast,FALSE,,,,,
+1956-10-06,Friendly,played,Nigeria,NGA,Togo,TGO,TRUE,1,1,draw,Lagos,Nigeria,FALSE,,,,,
+1956-10-27,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,3,0,win,Lagos,Nigeria,FALSE,1694,1724,1715,1703,21
+1957-10-27,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,3,3,draw,Accra,Ghana,FALSE,1715,1703,1719,1699,4
+1958-10-25,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,3,2,win,Lagos,Nigeria,FALSE,1719,1703,1729,1693,10
+1959-11-08,Friendly,played,Nigeria,NGA,Benin,,FALSE,1,0,win,Cotonou,Dahomey,FALSE,1718,1516,1729,1505,11
+1959-11-21,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,2,5,loss,Accra,Ghana,FALSE,1729,1704,1708,1725,-21
+1959-11-28,Friendly,played,Nigeria,NGA,Benin,,TRUE,10,1,win,Lagos,Nigeria,FALSE,1708,1505,1719,1494,11
+1960-04-24,Friendly,played,Nigeria,NGA,Togo,TGO,FALSE,1,1,draw,Lomé,Togo,FALSE,1645,1529,1645,1529,0
+1960-04-26,Friendly,played,Nigeria,NGA,Cameroon,CMR,FALSE,0,0,draw,Lomé,Togo,TRUE,1645,1522,1640,1527,-5
+1960-06-01,Friendly,played,Nigeria,NGA,Mali,,FALSE,2,3,loss,Bamako,Mali,FALSE,,,,,
+1960-08-28,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,FALSE,1,4,loss,Accra,Ghana,FALSE,1630,1754,1615,1769,-15
+1960-09-10,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,TRUE,2,2,draw,Lagos,Nigeria,FALSE,1615,1769,1618,1766,3
+1960-10-02,Friendly,played,Nigeria,NGA,Guinea-Bissau,,TRUE,4,1,win,Lagos,Nigeria,FALSE,1618,1319,1623,1314,5
+1960-10-05,Friendly,played,Nigeria,NGA,Mali,,TRUE,2,3,loss,Lagos,Nigeria,FALSE,1623,1547,1608,1562,-15
+1960-10-09,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,0,3,loss,Lagos,Nigeria,FALSE,1608,1779,1587,1800,-21
+1960-10-29,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1587,1800,1592,1795,5
+1961-04-08,African Cup of Nations qualification,played,Nigeria,NGA,Ghana,GHA,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1601,1786,1606,1781,5
+1961-04-22,Friendly,played,Nigeria,NGA,Sierra Leone,,FALSE,4,1,win,Freetown,Sierra Leone,FALSE,,,,,
+1961-04-30,African Cup of Nations qualification,played,Nigeria,NGA,Ghana,GHA,FALSE,2,2,draw,Accra,Ghana,FALSE,1616,1781,1629,1768,13
+1961-06-01,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,3,loss,Accra,Ghana,FALSE,1629,1747,1621,1755,-8
+1961-11-25,African Cup of Nations qualification,played,Nigeria,NGA,Tunisia,TUN,TRUE,2,1,win,Lagos,Nigeria,FALSE,1621,1503,1630,1494,9
+1961-12-17,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,1,5,loss,Accra,Ghana,FALSE,1628,1755,1616,1767,-12
+1962-11-10,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1616,1796,1619,1793,3
+1962-12-08,Friendly,played,Nigeria,NGA,Cameroon,CMR,TRUE,3,1,win,Lagos,Nigeria,FALSE,1619,1509,1629,1499,10
+1963-01-01,Friendly,played,Nigeria,NGA,Cameroon,CMR,FALSE,2,1,win,Yaoundé,Cameroon,FALSE,1629,1502,1643,1488,14
+1963-01-27,Friendly,played,Nigeria,NGA,Benin,,FALSE,1,1,draw,Cotonou,Dahomey,FALSE,1643,1529,1642,1530,-1
+1963-02-02,Friendly,played,Nigeria,NGA,Benin,,TRUE,4,1,win,Benin City,Nigeria,FALSE,1642,1530,1654,1518,12
+1963-02-27,Friendly,played,Nigeria,NGA,Senegal,SEN,TRUE,4,0,win,Kumasi,Ghana,TRUE,1642,1583,1665,1560,23
+1963-04-12,African Friendship Games,played,Nigeria,NGA,Niger,,TRUE,1,0,win,Dakar,Senegal,TRUE,1665,1101,1666,1100,1
+1963-04-14,African Friendship Games,played,Nigeria,NGA,Senegal,SEN,FALSE,1,5,loss,Dakar,Senegal,FALSE,1666,1571,1629,1608,-37
+1963-07-27,African Cup of Nations qualification,played,Nigeria,NGA,Guinea,,TRUE,2,2,draw,Lagos,Nigeria,FALSE,1629,1569,1620,1578,-9
+1963-10-08,Friendly,played,Nigeria,NGA,Liberia,,FALSE,2,2,draw,Monrovia,Liberia,FALSE,1605,1313,1600,1318,-5
+1963-10-26,Friendly,played,Nigeria,NGA,Liberia,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1600,1318,1603,1315,3
+1963-11-24,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,FALSE,3,6,loss,Kumasi,Ghana,TRUE,1635,1708,1600,1743,-35
+1963-11-28,African Cup of Nations,played,Nigeria,NGA,Sudan,,TRUE,0,4,loss,Kumasi,Ghana,TRUE,1600,1614,1555,1659,-45
+1965-08-28,Friendly,played,Nigeria,NGA,Gabon,,FALSE,2,2,draw,Libreville,Gabon,FALSE,1511,1397,1510,1398,-1
+1965-08-29,Friendly,played,Nigeria,NGA,Gabon,,FALSE,4,1,win,Libreville,Gabon,FALSE,1510,1398,1535,1373,25
+1965-10-30,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,0,4,loss,Lagos,Nigeria,FALSE,1535,1723,1514,1744,-21
+1965-11-07,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,3,loss,Accra,Ghana,FALSE,,,,,
+1965-12-11,Friendly,played,Nigeria,NGA,Benin,,TRUE,0,1,loss,Lagos,Nigeria,FALSE,,,,,
+1966-02-27,Friendly,played,Nigeria,NGA,Benin,,FALSE,2,1,win,Cotonou,Dahomey,FALSE,1514,1475,1526,1463,12
+1966-03-06,Friendly,played,Nigeria,NGA,Togo,TGO,FALSE,2,2,draw,Lomé,Togo,FALSE,,,,,
+1966-04-09,Friendly,played,Nigeria,NGA,Togo,TGO,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1539,1513,1536,1516,-3
+1966-11-05,Friendly,played,Nigeria,NGA,DR Congo,,TRUE,3,2,win,Lagos,Nigeria,FALSE,1536,1594,1545,1585,9
+1966-11-25,Friendly,played,Nigeria,NGA,DR Congo,,FALSE,0,1,loss,Kinshasa,Congo-Kinshasa,FALSE,,,,,
+1967-01-28,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,2,2,draw,Lagos,Nigeria,FALSE,1539,1839,1547,1831,8
+1967-02-12,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,2,loss,Accra,Ghana,FALSE,1547,1831,1543,1835,-4
+1967-03-12,African Cup of Nations qualification,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1548,1689,1550,1687,2
+1967-04-15,African Cup of Nations qualification,played,Nigeria,NGA,Togo,TGO,TRUE,4,2,win,Lagos,Nigeria,FALSE,1533,1488,1551,1470,18
+1967-05-07,African Cup of Nations qualification,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1551,1721,1541,1731,-10
+1967-09-28,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,1,1,draw,Accra,Ghana,FALSE,1541,1771,1548,1764,7
+1967-10-14,Friendly,played,Nigeria,NGA,Sierra Leone,,FALSE,1,1,draw,Freetown,Sierra Leone,FALSE,1548,1333,1545,1336,-3
+1967-10-21,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,1,2,loss,Accra,Ghana,FALSE,1545,1765,1541,1769,-4
+1967-12-23,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,2,2,draw,Lagos,Nigeria,FALSE,1548,1747,1552,1743,4
+1968-01-27,Friendly,played,Nigeria,NGA,Sierra Leone,,TRUE,4,1,win,Lagos,Nigeria,FALSE,1552,1355,1557,1350,5
+1968-05-08,Friendly,played,Nigeria,NGA,Kenya,,FALSE,2,1,win,Nairobi,Kenya,FALSE,1566,1413,1574,1405,8
+1968-10-28,Friendly,played,Nigeria,NGA,Thailand,,TRUE,7,2,win,León,Mexico,TRUE,,,,,
+1968-12-07,FIFA World Cup qualification,played,Nigeria,NGA,Cameroon,CMR,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1540,1559,1535,1564,-5
+1968-12-22,FIFA World Cup qualification,played,Nigeria,NGA,Cameroon,CMR,FALSE,3,2,win,Douala,Cameroon,FALSE,1535,1564,1562,1537,27
+1969-05-10,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,TRUE,2,1,win,Ibadan,Nigeria,FALSE,1562,1652,1581,1633,19
+1969-05-18,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,FALSE,1,1,draw,Accra,Ghana,FALSE,1581,1633,1589,1625,8
+1969-09-13,FIFA World Cup qualification,played,Nigeria,NGA,Sudan,,TRUE,2,2,draw,Ibadan,Nigeria,FALSE,1589,1656,1587,1658,-2
+1969-09-21,FIFA World Cup qualification,played,Nigeria,NGA,Morocco,MAR,FALSE,1,2,loss,Casablanca,Morocco,FALSE,1587,1652,1576,1663,-11
+1969-10-03,FIFA World Cup qualification,played,Nigeria,NGA,Sudan,,FALSE,3,3,draw,Khartoum,Sudan,FALSE,1576,1658,1586,1648,10
+1969-11-08,FIFA World Cup qualification,played,Nigeria,NGA,Morocco,MAR,TRUE,2,0,win,Ibadan,Nigeria,FALSE,1586,1682,1616,1652,30
+1969-12-14,Friendly,played,Nigeria,NGA,DR Congo,,FALSE,0,5,loss,Kinshasa,Congo-Kinshasa,FALSE,1616,1775,1609,1782,-7
+1970-11-08,African Cup of Nations qualification,played,Nigeria,NGA,Congo,,TRUE,0,0,draw,Ibadan,Nigeria,FALSE,1609,1568,1601,1576,-8
+1970-11-22,African Cup of Nations qualification,played,Nigeria,NGA,Congo,,FALSE,1,2,loss,Brazzaville,Congo,FALSE,1601,1576,1585,1592,-16
+1971-02-13,Friendly,played,Nigeria,NGA,Sierra Leone,,TRUE,1,0,win,Lagos,Nigeria,FALSE,1585,1383,1588,1380,3
+1971-11-27,Friendly,played,Nigeria,NGA,Burkina Faso,,TRUE,4,0,win,Lagos,Nigeria,FALSE,1565,1376,1571,1370,6
+1971-12-01,Friendly,played,Nigeria,NGA,Guinea,,FALSE,0,3,loss,Conakry,Guinea,FALSE,1571,1595,1554,1612,-17
+1971-12-04,Friendly,played,Nigeria,NGA,Sierra Leone,,FALSE,1,0,win,Freetown,Sierra Leone,FALSE,,,,,
+1972-01-09,Friendly,played,Nigeria,NGA,Burkina Faso,,FALSE,3,3,draw,Ouagadougou,Upper Volta,FALSE,1552,1357,1549,1360,-3
+1972-01-30,Friendly,played,Nigeria,NGA,Guinea,,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1549,1599,1547,1601,-2
+1972-02-13,Friendly,played,Nigeria,NGA,Cameroon,CMR,FALSE,2,1,win,Douala,Cameroon,FALSE,1547,1583,1561,1569,14
+1972-02-20,Friendly,played,Nigeria,NGA,Morocco,MAR,TRUE,3,0,win,Lagos,Nigeria,FALSE,1561,1695,1580,1676,19
+1972-07-06,Friendly,played,Nigeria,NGA,Tanzania,,FALSE,0,0,draw,Dar es Salaam,Tanzania,FALSE,1580,1342,1574,1348,-6
+1972-07-11,Friendly,played,Nigeria,NGA,Zanzibar,,FALSE,4,1,win,Zanzibar City,Zanzibar,FALSE,1574,1002,1576,1000,2
+1972-08-05,FIFA World Cup qualification,played,Nigeria,NGA,Congo,,TRUE,2,1,win,Ibadan,Nigeria,FALSE,1576,1674,1596,1654,20
+1972-08-15,FIFA World Cup qualification,played,Nigeria,NGA,Congo,,FALSE,1,1,draw,Brazzaville,Congo,FALSE,1596,1654,1605,1645,9
+1972-11-06,Friendly,played,Nigeria,NGA,Tanzania,,TRUE,2,1,win,Benin City,Nigeria,FALSE,1605,1385,1608,1382,3
+1972-11-11,Friendly,played,Nigeria,NGA,Tanzania,,TRUE,3,2,win,Lagos,Nigeria,FALSE,1608,1382,1611,1379,3
+1972-11-22,Friendly,played,Nigeria,NGA,Mali,,FALSE,1,2,loss,Bamako,Mali,FALSE,1611,1499,1601,1509,-10
+1972-11-24,Friendly,played,Nigeria,NGA,Liberia,,FALSE,3,1,win,Monrovia,Liberia,FALSE,,,,,
+1972-11-26,Friendly,played,Nigeria,NGA,Sierra Leone,,FALSE,1,0,win,Freetown,Sierra Leone,FALSE,,,,,
+1972-12-04,Friendly,played,Nigeria,NGA,Mali,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1598,1509,1607,1500,9
+1972-12-12,Friendly,played,Nigeria,NGA,Sierra Leone,,TRUE,4,0,win,Lagos,Nigeria,FALSE,1607,1429,1613,1423,6
+1972-12-20,Friendly,played,Nigeria,NGA,Benin,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1613,1394,1618,1389,5
+1973-01-08,All-African Games,played,Nigeria,NGA,Ghana,GHA,TRUE,4,2,win,Lagos,Nigeria,FALSE,1618,1624,1640,1602,22
+1973-01-10,All-African Games,played,Nigeria,NGA,Algeria,DZA,TRUE,2,2,draw,Lagos,Nigeria,FALSE,1640,1590,1632,1598,-8
+1973-01-12,All-African Games,played,Nigeria,NGA,Tanzania,,TRUE,2,1,win,Lagos,Nigeria,FALSE,1632,1342,1636,1338,4
+1973-01-14,All-African Games,played,Nigeria,NGA,Egypt,EGY,TRUE,4,2,win,Lagos,Nigeria,FALSE,1636,1695,1662,1669,26
+1973-01-16,All-African Games,played,Nigeria,NGA,Guinea,,TRUE,2,0,win,Lagos,Nigeria,FALSE,,,,,
+1973-02-10,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,TRUE,2,3,loss,Lagos,Nigeria,FALSE,1689,1606,1659,1636,-30
+1973-02-25,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,FALSE,0,0,draw,Accra,Ghana,FALSE,1659,1636,1663,1632,4
+1973-04-13,African Cup of Nations qualification,played,Nigeria,NGA,Sudan,,FALSE,1,1,draw,Khartoum,Sudan,FALSE,1663,1519,1660,1522,-3
+1973-04-21,African Cup of Nations qualification,played,Nigeria,NGA,Sudan,,TRUE,2,1,win,Lagos,Nigeria,FALSE,1660,1522,1668,1514,8
+1973-07-15,African Cup of Nations qualification,played,Nigeria,NGA,Zambia,,FALSE,1,5,loss,Lusaka,Zambia,FALSE,,,,,
+1973-07-15,African Cup of Nations qualification,played,Nigeria,NGA,Zambia,,TRUE,3,2,win,Lagos,Nigeria,FALSE,,,,,
+1974-07-14,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,2,0,win,Lagos,Nigeria,FALSE,1632,1562,1640,1554,8
+1974-08-11,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1640,1596,1634,1602,-6
+1974-08-17,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,0,1,loss,Lagos,Nigeria,FALSE,1634,1602,1614,1622,-20
+1975-01-22,Friendly,played,Nigeria,NGA,Cameroon,CMR,TRUE,1,0,win,Lagos,Nigeria,FALSE,1614,1618,1621,1611,7
+1975-02-02,Friendly,played,Nigeria,NGA,Senegal,SEN,FALSE,1,0,win,Dakar,Senegal,FALSE,1621,1518,1631,1508,10
+1975-02-09,Friendly,played,Nigeria,NGA,Liberia,,FALSE,1,0,win,Monrovia,Liberia,FALSE,1631,1358,1636,1353,5
+1975-02-22,Friendly,played,Nigeria,NGA,Senegal,SEN,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1636,1501,1630,1507,-6
+1975-04-26,Friendly,played,Nigeria,NGA,Togo,TGO,TRUE,1,0,win,Dakar,Senegal,TRUE,,,,,
+1975-04-27,Friendly,played,Nigeria,NGA,Senegal,SEN,FALSE,0,1,loss,Dakar,Senegal,FALSE,,,,,
+1975-07-13,African Cup of Nations qualification,played,Nigeria,NGA,Congo,,FALSE,1,0,win,Brazzaville,Congo,FALSE,1624,1551,1646,1529,22
+1975-07-27,African Cup of Nations qualification,played,Nigeria,NGA,Congo,,TRUE,2,1,win,Lagos,Nigeria,FALSE,1646,1510,1654,1502,8
+1975-08-24,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,2,1,win,Accra,Ghana,FALSE,1654,1638,1673,1619,19
+1975-08-31,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,3,loss,Accra,Ghana,FALSE,1673,1619,1650,1642,-23
+1975-09-05,Friendly,played,Nigeria,NGA,Mali,,FALSE,1,4,loss,Abidjan,Ivory Coast,TRUE,1650,1551,1623,1578,-27
+1975-09-07,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1623,1486,1622,1487,-1
+1976-02-08,Friendly,played,Nigeria,NGA,Kenya,,FALSE,1,1,draw,Nairobi,Kenya,FALSE,1622,1433,1619,1436,-3
+1976-02-14,Friendly,played,Nigeria,NGA,Zambia,,FALSE,3,1,win,Chingola,Zambia,FALSE,1619,1503,1633,1489,14
+1976-02-20,Friendly,played,Nigeria,NGA,Tanzania,,TRUE,0,0,draw,Lagos,Nigeria,FALSE,,,,,
+1976-03-01,African Cup of Nations,played,Nigeria,NGA,DR Congo,,TRUE,4,2,win,Dire Dawa,Ethiopia,TRUE,,,,,
+1976-03-04,African Cup of Nations,played,Nigeria,NGA,Sudan,,TRUE,1,0,win,Dire Dawa,Ethiopia,TRUE,1675,1551,1691,1535,16
+1976-03-06,African Cup of Nations,played,Nigeria,NGA,Morocco,MAR,FALSE,1,3,loss,Dire Dawa,Ethiopia,TRUE,1691,1739,1659,1771,-32
+1976-03-09,African Cup of Nations,played,Nigeria,NGA,Guinea,,FALSE,1,1,draw,Addis Ababa,Ethiopia,TRUE,1659,1675,1660,1674,1
+1976-03-11,African Cup of Nations,played,Nigeria,NGA,Morocco,MAR,FALSE,1,2,loss,Addis Ababa,Ethiopia,TRUE,1660,1791,1644,1807,-16
+1976-03-14,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,FALSE,3,2,win,Addis Ababa,Ethiopia,TRUE,1644,1641,1669,1616,25
+1976-10-16,FIFA World Cup qualification,played,Nigeria,NGA,Sierra Leone,,FALSE,0,0,draw,Freetown,Sierra Leone,FALSE,1691,1385,1680,1396,-11
+1976-10-30,FIFA World Cup qualification,played,Nigeria,NGA,Sierra Leone,,TRUE,6,2,win,Lagos,Nigeria,FALSE,1680,1396,1687,1389,7
+1977-02-14,Friendly,played,Nigeria,NGA,Benin,,TRUE,7,0,win,Lagos,Nigeria,FALSE,1687,1408,1692,1403,5
+1977-02-17,African Cup of Nations qualification,played,Nigeria,NGA,Sierra Leone,,FALSE,1,1,draw,Freetown,Sierra Leone,FALSE,1692,1389,1681,1400,-11
+1977-03-13,African Cup of Nations qualification,played,Nigeria,NGA,Sierra Leone,,TRUE,2,0,win,Lagos,Nigeria,FALSE,1681,1400,1687,1394,6
+1977-06-12,African Cup of Nations qualification,played,Nigeria,NGA,Senegal,SEN,FALSE,1,3,loss,Dakar,Senegal,FALSE,1687,1547,1654,1580,-33
+1977-06-26,African Cup of Nations qualification,played,Nigeria,NGA,Senegal,SEN,TRUE,3,0,win,Lagos,Nigeria,FALSE,,,,,
+1977-07-10,FIFA World Cup qualification,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,4,0,win,Lagos,Nigeria,FALSE,1673,1571,1691,1553,18
+1977-07-25,FIFA World Cup qualification,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,2,2,draw,Bouaké,Ivory Coast,FALSE,1691,1578,1690,1579,-1
+1977-09-04,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,2,1,win,Lagos,Nigeria,FALSE,1696,1654,1708,1642,12
+1977-09-25,FIFA World Cup qualification,played,Nigeria,NGA,Tunisia,TUN,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1708,1647,1710,1645,2
+1977-10-08,FIFA World Cup qualification,played,Nigeria,NGA,Egypt,EGY,TRUE,4,0,win,Lagos,Nigeria,FALSE,1710,1635,1730,1615,20
+1977-10-21,FIFA World Cup qualification,played,Nigeria,NGA,Egypt,EGY,FALSE,1,3,loss,Cairo,Egypt,FALSE,1730,1615,1699,1646,-31
+1977-11-12,FIFA World Cup qualification,played,Nigeria,NGA,Tunisia,TUN,TRUE,0,1,loss,Lagos,Nigeria,FALSE,1699,1666,1672,1693,-27
+1978-02-05,Friendly,played,Nigeria,NGA,Gabon,,FALSE,1,0,win,Libreville,Gabon,FALSE,1688,1370,1692,1366,4
+1978-03-05,African Cup of Nations,played,Nigeria,NGA,Burkina Faso,,TRUE,4,2,win,Accra,Ghana,TRUE,1692,1338,1701,1329,9
+1978-03-08,African Cup of Nations,played,Nigeria,NGA,Ghana,GHA,FALSE,1,1,draw,Accra,Ghana,FALSE,1701,1675,1706,1670,5
+1978-03-10,African Cup of Nations,played,Nigeria,NGA,Zambia,,TRUE,0,0,draw,Accra,Ghana,TRUE,1706,1565,1696,1575,-10
+1978-03-14,African Cup of Nations,played,Nigeria,NGA,Uganda,,TRUE,1,2,loss,Kumasi,Ghana,TRUE,1696,1584,1663,1617,-33
+1978-07-14,All-African Games,played,Nigeria,NGA,Mali,,TRUE,3,1,win,Algiers,Algeria,TRUE,1663,1583,1686,1560,23
+1978-07-17,All-African Games,played,Nigeria,NGA,Cameroon,CMR,TRUE,0,0,draw,Algiers,Algeria,TRUE,1686,1519,1677,1528,-9
+1978-07-21,All-African Games,played,Nigeria,NGA,Ghana,GHA,TRUE,0,0,draw,Algiers,Algeria,TRUE,1677,1688,1678,1687,1
+1978-07-25,All-African Games,played,Nigeria,NGA,Malawi,,TRUE,3,2,win,Algiers,Algeria,TRUE,1678,1416,1685,1409,7
+1978-07-28,All-African Games,played,Nigeria,NGA,Algeria,DZA,FALSE,0,1,loss,Algiers,Algeria,FALSE,1685,1566,1664,1587,-21
+1979-09-29,Friendly,played,Nigeria,NGA,Senegal,SEN,FALSE,2,0,win,Dakar,Senegal,FALSE,1664,1604,1681,1587,17
+1979-10-14,Friendly,played,Nigeria,NGA,Benin,,FALSE,1,1,draw,Cotonou,Benin,FALSE,1681,1330,1675,1336,-6
+1979-10-25,Friendly,played,Nigeria,NGA,Liberia,,FALSE,2,2,draw,Monrovia,Liberia,FALSE,,,,,
+1979-10-27,Friendly,played,Nigeria,NGA,Sierra Leone,,FALSE,0,0,draw,Freetown,Sierra Leone,FALSE,1671,1369,1666,1374,-5
+1979-11-04,Friendly,played,Nigeria,NGA,Benin,,TRUE,5,0,win,Lagos,Nigeria,FALSE,1666,1321,1669,1318,3
+1980-01-26,Friendly,played,Nigeria,NGA,Liberia,,TRUE,1,0,win,Lagos,Nigeria,FALSE,1669,1393,1671,1391,2
+1980-02-02,Friendly,played,Nigeria,NGA,Cameroon,CMR,TRUE,0,0,draw,Ibadan,Nigeria,FALSE,1671,1550,1665,1556,-6
+1980-03-08,African Cup of Nations,played,Nigeria,NGA,Tanzania,,TRUE,3,1,win,Lagos,Nigeria,FALSE,1665,1473,1677,1461,12
+1980-03-12,African Cup of Nations,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1677,1517,1661,1533,-16
+1980-03-15,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,TRUE,1,0,win,Lagos,Nigeria,FALSE,1661,1669,1680,1650,19
+1980-03-19,African Cup of Nations,played,Nigeria,NGA,Morocco,MAR,TRUE,1,0,win,Lagos,Nigeria,FALSE,1680,1574,1692,1562,12
+1980-03-22,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,TRUE,3,0,win,Lagos,Nigeria,FALSE,1692,1693,1724,1661,32
+1980-06-13,Friendly,played,Nigeria,NGA,Togo,TGO,FALSE,1,0,win,Lomé,Togo,FALSE,1724,1480,1730,1474,6
+1980-06-29,FIFA World Cup qualification,played,Nigeria,NGA,Tunisia,TUN,FALSE,0,2,loss,Tunis,Tunisia,FALSE,1730,1656,1702,1684,-28
+1980-07-12,FIFA World Cup qualification,played,Nigeria,NGA,Tunisia,TUN,TRUE,2,0,win,Lagos,Nigeria,FALSE,1702,1684,1722,1664,20
+1980-12-06,FIFA World Cup qualification,played,Nigeria,NGA,Tanzania,,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1671,1466,1657,1480,-14
+1980-12-20,FIFA World Cup qualification,played,Nigeria,NGA,Tanzania,,FALSE,2,0,win,Dar es Salaam,Tanzania,FALSE,1657,1480,1680,1457,23
+1981-04-04,Friendly,played,Nigeria,NGA,Angola,AGO,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1680,1479,1673,1486,-7
+1981-04-12,FIFA World Cup qualification,played,Nigeria,NGA,Guinea,,FALSE,1,1,draw,Conakry,Guinea,FALSE,1673,1559,1672,1560,-1
+1981-04-15,FIFA World Cup qualification,played,Nigeria,NGA,Guinea,,TRUE,1,0,win,Lagos,Nigeria,FALSE,,,,,
+1981-07-18,Friendly,played,Nigeria,NGA,Burkina Faso,,TRUE,1,0,win,Lagos,Nigeria,FALSE,1681,1299,1682,1298,1
+1981-08-01,Friendly,played,Nigeria,NGA,Zimbabwe,,FALSE,0,2,loss,Salisbury,Zimbabwe,FALSE,1644,1459,1625,1478,-19
+1981-08-03,Friendly,played,Nigeria,NGA,Kenya,,FALSE,3,1,win,Nairobi,Kenya,FALSE,1625,1416,1635,1406,10
+1981-08-12,Friendly,played,Nigeria,NGA,Norway,NOR,FALSE,2,2,draw,Oslo,Norway,FALSE,1635,1496,1634,1497,-1
+1981-08-22,Friendly,played,Nigeria,NGA,Iceland,ISL,FALSE,0,3,loss,Reykjavík,Iceland,FALSE,1634,1413,1611,1436,-23
+1981-09-26,Friendly,played,Nigeria,NGA,Uganda,,FALSE,0,1,loss,Kampala,Uganda,FALSE,1611,1426,1594,1443,-17
+1981-10-03,Friendly,played,Nigeria,NGA,Liberia,,TRUE,3,0,win,Calabar,Nigeria,FALSE,1594,1379,1599,1374,5
+1981-10-10,FIFA World Cup qualification,played,Nigeria,NGA,Algeria,DZA,TRUE,0,2,loss,Lagos,Nigeria,FALSE,1599,1621,1562,1658,-37
+1981-10-30,FIFA World Cup qualification,played,Nigeria,NGA,Algeria,DZA,FALSE,1,2,loss,Constantine,Algeria,FALSE,1562,1658,1552,1668,-10
+1982-03-07,African Cup of Nations,played,Nigeria,NGA,Ethiopia,,FALSE,3,0,win,Benghazi,Libya,TRUE,1552,1358,1574,1336,22
+1982-03-10,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,FALSE,1,2,loss,Benghazi,Libya,TRUE,1574,1697,1557,1714,-17
+1982-03-13,African Cup of Nations,played,Nigeria,NGA,Zambia,,TRUE,0,3,loss,Benghazi,Libya,TRUE,1557,1561,1514,1604,-43
+1983-02-18,Friendly,played,Nigeria,NGA,Egypt,EGY,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1514,1603,1514,1603,0
+1983-02-20,Friendly,played,Nigeria,NGA,Egypt,EGY,TRUE,1,1,draw,Kaduna,Nigeria,FALSE,1514,1603,1514,1603,0
+1983-03-02,Friendly,played,Nigeria,NGA,Gabon,,FALSE,0,0,draw,Libreville,Gabon,FALSE,1514,1334,1512,1336,-2
+1983-04-09,African Cup of Nations qualification,played,Nigeria,NGA,Angola,AGO,TRUE,2,0,win,Lagos,Nigeria,FALSE,1512,1454,1529,1437,17
+1983-04-24,African Cup of Nations qualification,played,Nigeria,NGA,Angola,AGO,FALSE,0,1,loss,Luanda,Angola,FALSE,1529,1437,1509,1457,-20
+1983-04-29,Friendly,played,Nigeria,NGA,Ethiopia,,FALSE,1,0,win,Addis Ababa,Ethiopia,FALSE,1509,1344,1521,1332,12
+1983-05-01,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,1,loss,Addis Ababa,Ethiopia,TRUE,1521,1737,1514,1744,-7
+1983-06-04,Korea Cup,played,Nigeria,NGA,Thailand,,TRUE,0,0,draw,Seoul,South Korea,TRUE,1514,1337,1507,1344,-7
+1983-06-08,Korea Cup,played,Nigeria,NGA,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1507,1597,1499,1605,-8
+1983-06-10,Korea Cup,played,Nigeria,NGA,Indonesia,IDN,FALSE,2,1,win,Seoul,South Korea,TRUE,1499,1215,1504,1210,5
+1983-08-14,African Cup of Nations qualification,played,Nigeria,NGA,Morocco,MAR,TRUE,0,0,draw,Benin City,Nigeria,FALSE,1521,1575,1518,1578,-3
+1983-08-28,African Cup of Nations qualification,played,Nigeria,NGA,Morocco,MAR,FALSE,0,0,draw,Rabat,Morocco,FALSE,1518,1578,1527,1569,9
+1983-11-15,Friendly,played,Nigeria,NGA,Senegal,SEN,TRUE,1,0,win,Lagos,Nigeria,FALSE,1568,1542,1581,1529,13
+1983-11-19,Friendly,played,Nigeria,NGA,Senegal,SEN,FALSE,1,0,win,Dakar,Senegal,FALSE,1581,1529,1604,1506,23
+1983-12-16,Friendly,played,Nigeria,NGA,Togo,TGO,TRUE,2,5,loss,Abidjan,Ivory Coast,TRUE,1604,1493,1558,1539,-46
+1983-12-18,Friendly,played,Nigeria,NGA,Mali,,FALSE,0,0,draw,Abidjan,Ivory Coast,TRUE,1558,1472,1553,1477,-5
+1984-03-05,African Cup of Nations,played,Nigeria,NGA,Ghana,GHA,FALSE,2,1,win,Bouaké,Ivory Coast,TRUE,1560,1704,1595,1669,35
+1984-03-08,African Cup of Nations,played,Nigeria,NGA,Malawi,,FALSE,2,2,draw,Bouaké,Ivory Coast,TRUE,1595,1452,1585,1462,-10
+1984-03-11,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,FALSE,0,0,draw,Bouaké,Ivory Coast,TRUE,1585,1681,1592,1674,7
+1984-03-14,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,FALSE,2,2,draw,Abidjan,Ivory Coast,TRUE,1592,1674,1598,1668,6
+1984-03-18,African Cup of Nations,played,Nigeria,NGA,Cameroon,CMR,FALSE,1,3,loss,Abidjan,Ivory Coast,TRUE,1598,1648,1566,1680,-32
+1984-09-26,Friendly,played,Nigeria,NGA,Tunisia,TUN,FALSE,0,5,loss,Tunis,Tunisia,FALSE,1566,1610,1554,1622,-12
+1984-10-20,FIFA World Cup qualification,played,Nigeria,NGA,Liberia,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1554,1306,1562,1298,8
+1984-11-04,FIFA World Cup qualification,played,Nigeria,NGA,Liberia,,FALSE,1,0,win,Monrovia,Liberia,FALSE,1562,1298,1573,1287,11
+1985-04-06,FIFA World Cup qualification,played,Nigeria,NGA,Kenya,,FALSE,3,0,win,Nairobi,Kenya,FALSE,1573,1425,1603,1395,30
+1985-04-20,FIFA World Cup qualification,played,Nigeria,NGA,Kenya,,TRUE,3,1,win,Lagos,Nigeria,FALSE,1603,1395,1612,1386,9
+1985-06-15,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,0,0,draw,Lagos,Nigeria,FALSE,,,,,
+1985-06-19,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,2,0,win,Lagos,Nigeria,FALSE,1608,1586,1618,1576,10
+1985-06-23,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1618,1576,1620,1574,2
+1985-06-26,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1620,1574,1622,1572,2
+1985-07-06,FIFA World Cup qualification,played,Nigeria,NGA,Tunisia,TUN,TRUE,1,0,win,Lagos,Nigeria,FALSE,1622,1612,1636,1598,14
+1985-07-20,FIFA World Cup qualification,played,Nigeria,NGA,Tunisia,TUN,FALSE,0,2,loss,Tunis,Tunisia,FALSE,1636,1598,1611,1623,-25
+1985-08-10,African Cup of Nations qualification,played,Nigeria,NGA,Zambia,,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1611,1613,1606,1618,-5
+1985-08-18,African Cup of Nations qualification,played,Nigeria,NGA,Zambia,,FALSE,0,1,loss,Lusaka,Zambia,FALSE,1606,1618,1592,1632,-14
+1986-07-27,Friendly,played,Nigeria,NGA,Togo,TGO,TRUE,2,2,draw,Monrovia,Liberia,TRUE,,,,,
+1986-07-29,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,2,loss,Paynesville,Liberia,TRUE,,,,,
+1987-01-27,Nehru Cup,played,Nigeria,NGA,Syria,,TRUE,1,0,win,Kozhikode,India,TRUE,,,,,
+1987-03-28,African Cup of Nations qualification,played,Nigeria,NGA,Togo,TGO,TRUE,2,0,win,Lagos,Nigeria,FALSE,1541,1404,1553,1392,12
+1987-04-12,African Cup of Nations qualification,played,Nigeria,NGA,Togo,TGO,FALSE,1,1,draw,Lomé,Togo,FALSE,1553,1392,1550,1395,-3
+1987-07-04,African Cup of Nations qualification,played,Nigeria,NGA,Sierra Leone,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1525,1482,1546,1461,21
+1987-07-18,African Cup of Nations qualification,played,Nigeria,NGA,Sierra Leone,,FALSE,0,2,loss,Freetown,Sierra Leone,FALSE,1558,1461,1528,1491,-30
+1987-11-22,Friendly,played,Nigeria,NGA,Burkina Faso,,FALSE,0,0,draw,Ouagadougou,Burkina Faso,FALSE,1554,1287,1550,1291,-4
+1988-03-14,African Cup of Nations,played,Nigeria,NGA,Kenya,,FALSE,3,0,win,Rabat,Morocco,TRUE,1571,1411,1596,1386,25
+1988-03-17,African Cup of Nations,played,Nigeria,NGA,Cameroon,CMR,FALSE,1,1,draw,Rabat,Morocco,TRUE,1596,1686,1602,1680,6
+1988-03-20,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,FALSE,0,0,draw,Rabat,Morocco,TRUE,1602,1668,1607,1663,5
+1988-03-23,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,FALSE,1,1,draw,Rabat,Morocco,TRUE,1607,1632,1609,1630,2
+1988-03-27,African Cup of Nations,played,Nigeria,NGA,Cameroon,CMR,FALSE,0,1,loss,Casablanca,Morocco,TRUE,1609,1695,1590,1714,-19
+1989-01-07,FIFA World Cup qualification,played,Nigeria,NGA,Gabon,,TRUE,1,0,win,Enugu,Nigeria,FALSE,1570,1445,1579,1436,9
+1989-01-22,FIFA World Cup qualification,played,Nigeria,NGA,Angola,AGO,FALSE,2,2,draw,Luanda,Angola,FALSE,1579,1517,1581,1515,2
+1989-04-15,African Cup of Nations qualification,played,Nigeria,NGA,Guinea,,FALSE,1,1,draw,Conakry,Guinea,FALSE,,,,,
+1989-04-22,African Cup of Nations qualification,played,Nigeria,NGA,Guinea,,TRUE,3,0,win,Ibadan,Nigeria,FALSE,1579,1452,1594,1437,15
+1989-06-10,FIFA World Cup qualification,played,Nigeria,NGA,Cameroon,CMR,TRUE,2,0,win,Ibadan,Nigeria,FALSE,1594,1676,1622,1648,28
+1989-06-25,FIFA World Cup qualification,played,Nigeria,NGA,Gabon,,FALSE,1,2,loss,Libreville,Gabon,FALSE,1622,1405,1596,1431,-26
+1989-07-16,African Cup of Nations qualification,played,Nigeria,NGA,Zimbabwe,,TRUE,3,0,win,Ibadan,Nigeria,FALSE,,,,,
+1989-07-30,African Cup of Nations qualification,played,Nigeria,NGA,Zimbabwe,,FALSE,1,1,draw,Harare,Zimbabwe,FALSE,1612,1465,1609,1468,-3
+1989-08-12,FIFA World Cup qualification,played,Nigeria,NGA,Angola,AGO,TRUE,1,0,win,Lagos,Nigeria,FALSE,1609,1477,1617,1469,8
+1989-08-27,FIFA World Cup qualification,played,Nigeria,NGA,Cameroon,CMR,FALSE,0,1,loss,Yaoundé,Cameroon,FALSE,1617,1671,1605,1683,-12
+1990-01-25,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,2,0,win,Bauchi,Nigeria,FALSE,1605,1665,1632,1638,27
+1990-01-28,Friendly,played,Nigeria,NGA,Senegal,SEN,TRUE,1,1,draw,Bauchi,Nigeria,FALSE,,,,,
+1990-03-02,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,FALSE,1,5,loss,Algiers,Algeria,FALSE,1623,1660,1594,1689,-29
+1990-03-05,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,TRUE,1,0,win,Algiers,Algeria,TRUE,1594,1644,1623,1615,29
+1990-03-08,African Cup of Nations,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,1,0,win,Algiers,Algeria,TRUE,1623,1650,1650,1623,27
+1990-03-12,African Cup of Nations,played,Nigeria,NGA,Zambia,,TRUE,2,0,win,Annaba,Algeria,TRUE,1650,1565,1679,1536,29
+1990-03-16,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,FALSE,0,1,loss,Algiers,Algeria,FALSE,1679,1749,1665,1763,-14
+1990-08-19,African Cup of Nations qualification,played,Nigeria,NGA,Togo,TGO,TRUE,3,0,win,Lagos,Nigeria,FALSE,,,,,
+1990-09-01,African Cup of Nations qualification,played,Nigeria,NGA,Ghana,GHA,FALSE,0,1,loss,Kumasi,Ghana,FALSE,1672,1458,1646,1484,-26
+1990-09-30,African Cup of Nations qualification,played,Nigeria,NGA,Benin,,FALSE,1,0,win,Cotonou,Benin,FALSE,1646,1215,1651,1210,5
+1991-01-13,African Cup of Nations qualification,played,Nigeria,NGA,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1651,1424,1644,1431,-7
+1991-01-27,African Cup of Nations qualification,played,Nigeria,NGA,Togo,TGO,FALSE,0,0,draw,Lomé,Togo,FALSE,1644,1336,1633,1347,-11
+1991-04-13,African Cup of Nations qualification,played,Nigeria,NGA,Ghana,GHA,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1633,1526,1622,1537,-11
+1991-04-27,African Cup of Nations qualification,played,Nigeria,NGA,Benin,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1622,1210,1625,1207,3
+1991-07-27,African Cup of Nations qualification,played,Nigeria,NGA,Burkina Faso,,TRUE,7,1,win,Lagos,Nigeria,FALSE,1638,1380,1648,1370,10
+1991-09-21,Friendly,played,Nigeria,NGA,Egypt,EGY,FALSE,2,1,win,Ismailia,Egypt,FALSE,,,,,
+1991-09-23,Friendly,played,Nigeria,NGA,Uganda,,TRUE,8,1,win,Ismailia,Egypt,TRUE,,,,,
+1991-09-25,Friendly,played,Nigeria,NGA,Zimbabwe,,TRUE,1,0,win,Ismailia,Egypt,TRUE,,,,,
+1991-09-28,Friendly,played,Nigeria,NGA,Cameroon,CMR,FALSE,0,1,loss,Ismailia,Egypt,TRUE,,,,,
+1991-09-30,Friendly,played,Nigeria,NGA,Zimbabwe,,TRUE,3,0,win,Cairo,Egypt,TRUE,,,,,
+1991-10-31,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1648,1661,1627,1682,-21
+1991-11-02,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,1,loss,Abidjan,Ivory Coast,TRUE,1627,1505,1600,1532,-27
+1992-01-12,African Cup of Nations,played,Nigeria,NGA,Senegal,SEN,FALSE,2,1,win,Dakar,Senegal,FALSE,1600,1546,1628,1518,28
+1992-01-14,African Cup of Nations,played,Nigeria,NGA,Kenya,,TRUE,2,1,win,Dakar,Senegal,TRUE,1628,1477,1643,1462,15
+1992-01-19,African Cup of Nations,played,Nigeria,NGA,DR Congo,,TRUE,1,0,win,Dakar,Senegal,TRUE,,,,,
+1992-01-23,African Cup of Nations,played,Nigeria,NGA,Ghana,GHA,TRUE,1,2,loss,Dakar,Senegal,TRUE,1663,1615,1635,1643,-28
+1992-01-25,African Cup of Nations,played,Nigeria,NGA,Cameroon,CMR,FALSE,2,1,win,Dakar,Senegal,TRUE,1635,1706,1665,1676,30
+1992-02-22,Friendly,played,Nigeria,NGA,Tunisia,TUN,FALSE,1,1,draw,Tunis,Tunisia,FALSE,1665,1528,1664,1529,-1
+1992-08-16,African Cup of Nations qualification,played,Nigeria,NGA,Sudan,,FALSE,0,0,draw,Khartoum,Sudan,FALSE,,,,,
+1992-08-29,African Cup of Nations qualification,played,Nigeria,NGA,Uganda,,TRUE,2,0,win,Lagos,Nigeria,FALSE,1622,1507,1635,1494,13
+1992-10-10,FIFA World Cup qualification,played,Nigeria,NGA,South Africa,ZAF,TRUE,4,0,win,Lagos,Nigeria,FALSE,1635,1660,1665,1630,30
+1992-12-20,FIFA World Cup qualification,played,Nigeria,NGA,Congo,,FALSE,1,0,win,Pointe-Noire,Congo,FALSE,1665,1448,1679,1434,14
+1993-01-16,FIFA World Cup qualification,played,Nigeria,NGA,South Africa,ZAF,FALSE,0,0,draw,Johannesburg,South Africa,FALSE,1679,1639,1682,1636,3
+1993-02-27,FIFA World Cup qualification,played,Nigeria,NGA,Congo,,TRUE,2,0,win,Enugu,Nigeria,FALSE,1682,1420,1689,1413,7
+1993-04-11,African Cup of Nations qualification,played,Nigeria,NGA,Ethiopia,,FALSE,0,1,loss,Addis Ababa,Ethiopia,FALSE,1689,1333,1656,1366,-33
+1993-04-23,African Cup of Nations qualification,played,Nigeria,NGA,Sudan,,TRUE,4,0,win,Lagos,Nigeria,FALSE,,,,,
+1993-05-02,FIFA World Cup qualification,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,1,2,loss,Abidjan,Ivory Coast,FALSE,1662,1634,1646,1650,-16
+1993-07-03,FIFA World Cup qualification,played,Nigeria,NGA,Algeria,DZA,TRUE,4,1,win,Lagos,Nigeria,FALSE,1646,1635,1670,1611,24
+1993-07-17,African Cup of Nations qualification,played,Nigeria,NGA,Uganda,,FALSE,0,0,draw,Kampala,Uganda,FALSE,1670,1502,1666,1506,-4
+1993-07-24,African Cup of Nations qualification,played,Nigeria,NGA,Ethiopia,,TRUE,6,0,win,Lagos,Nigeria,FALSE,1666,1347,1673,1340,7
+1993-09-25,FIFA World Cup qualification,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,4,1,win,Lagos,Nigeria,FALSE,1673,1664,1697,1640,24
+1993-10-08,FIFA World Cup qualification,played,Nigeria,NGA,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1697,1621,1698,1620,1
+1994-01-11,Friendly,played,Nigeria,NGA,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1698,1401,1693,1406,-5
+1994-03-09,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1693,1619,1688,1624,-5
+1994-03-26,African Cup of Nations,played,Nigeria,NGA,Gabon,,TRUE,3,0,win,Tunis,Tunisia,TRUE,1688,1430,1704,1414,16
+1994-03-30,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,TRUE,0,0,draw,Tunis,Tunisia,TRUE,1704,1687,1703,1688,-1
+1994-04-02,African Cup of Nations,played,Nigeria,NGA,DR Congo,,FALSE,2,0,win,Tunis,Tunisia,TRUE,,,,,
+1994-04-06,African Cup of Nations,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,2,2,draw,Tunis,Tunisia,TRUE,1723,1653,1718,1658,-5
+1994-04-10,African Cup of Nations,played,Nigeria,NGA,Zambia,,TRUE,2,1,win,Tunis,Tunisia,TRUE,1718,1709,1742,1685,24
+1994-04-17,Friendly,played,Nigeria,NGA,Colombia,COL,FALSE,0,1,loss,Armenia,Colombia,FALSE,1742,1921,1739,1924,-3
+1994-05-05,Friendly,played,Nigeria,NGA,Sweden,SWE,FALSE,1,3,loss,Solna,Sweden,FALSE,1739,1900,1734,1905,-5
+1994-05-14,Friendly,played,Nigeria,NGA,Suriname,,TRUE,2,1,win,Amsterdam,Netherlands,TRUE,1734,1297,1735,1296,1
+1994-05-25,Friendly,played,Nigeria,NGA,Romania,ROU,FALSE,0,2,loss,Bucharest,Romania,FALSE,1735,1835,1728,1842,-7
+1994-06-11,Friendly,played,Nigeria,NGA,Georgia,,TRUE,5,1,win,Ibadan,Nigeria,FALSE,1728,1581,1735,1574,7
+1994-06-21,FIFA World Cup,played,Nigeria,NGA,Bulgaria,BGR,TRUE,3,0,win,Dallas,United States,TRUE,1735,1772,1793,1714,58
+1994-06-25,FIFA World Cup,played,Nigeria,NGA,Argentina,ARG,FALSE,1,2,loss,Foxborough,United States,TRUE,1793,1939,1775,1957,-18
+1994-06-30,FIFA World Cup,played,Nigeria,NGA,Greece,GRC,FALSE,2,0,win,Foxborough,United States,TRUE,1775,1617,1801,1591,26
+1994-07-05,FIFA World Cup,played,Nigeria,NGA,Italy,ITA,TRUE,1,2,loss,Foxborough,United States,TRUE,1801,1962,1784,1979,-17
+1994-11-16,Friendly,played,Nigeria,NGA,England,ENG,FALSE,0,1,loss,London,England,FALSE,1784,1889,1779,1894,-5
+1995-01-06,Confederations Cup,played,Nigeria,NGA,Japan,JPN,FALSE,3,0,win,Riyadh,Saudi Arabia,TRUE,1779,1603,1802,1580,23
+1995-01-10,Confederations Cup,played,Nigeria,NGA,Argentina,ARG,TRUE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1802,1898,1809,1891,7
+1995-01-13,Confederations Cup,played,Nigeria,NGA,Mexico,MEX,FALSE,1,1,draw,Riyadh,Saudi Arabia,TRUE,1809,1897,1815,1891,6
+1995-06-11,USA Cup,played,Nigeria,NGA,United States,USA,FALSE,2,3,loss,Foxborough,United States,FALSE,1815,1611,1796,1630,-19
+1995-06-17,USA Cup,played,Nigeria,NGA,Colombia,COL,FALSE,0,1,loss,Piscataway,United States,TRUE,1796,1908,1786,1918,-10
+1995-06-24,USA Cup,played,Nigeria,NGA,Mexico,MEX,FALSE,1,2,loss,Dallas,United States,TRUE,1786,1848,1774,1860,-12
+1995-10-21,Friendly,played,Nigeria,NGA,Uzbekistan,,FALSE,3,2,win,Tashkent,Uzbekistan,FALSE,1774,1766,1805,1735,31
+1995-11-10,Friendly,played,Nigeria,NGA,Uzbekistan,,TRUE,1,0,win,Lagos,Nigeria,FALSE,1805,1735,1819,1721,14
+1996-06-09,Friendly,played,Nigeria,NGA,Togo,TGO,TRUE,1,3,loss,Lagos,Nigeria,FALSE,1819,1320,1790,1349,-29
+1996-11-09,FIFA World Cup qualification,played,Nigeria,NGA,Burkina Faso,,TRUE,2,0,win,Lagos,Nigeria,FALSE,1790,1356,1793,1353,3
+1996-12-11,King Hassan II Tournament,played,Nigeria,NGA,Czechia,CZE,FALSE,1,2,loss,Casablanca,Morocco,TRUE,1793,1917,1783,1927,-10
+1996-12-12,King Hassan II Tournament,played,Nigeria,NGA,Morocco,MAR,FALSE,0,2,loss,Casablanca,Morocco,FALSE,1783,1639,1758,1664,-25
+1997-01-12,FIFA World Cup qualification,played,Nigeria,NGA,Kenya,,FALSE,1,1,draw,Nairobi,Kenya,FALSE,1758,1372,1744,1386,-14
+1997-04-05,FIFA World Cup qualification,played,Nigeria,NGA,Guinea,,TRUE,2,1,win,Lagos,Nigeria,FALSE,1744,1441,1748,1437,4
+1997-04-27,FIFA World Cup qualification,played,Nigeria,NGA,Burkina Faso,,FALSE,2,1,win,Ouagadougou,Burkina Faso,FALSE,1748,1310,1753,1305,5
+1997-06-07,FIFA World Cup qualification,played,Nigeria,NGA,Kenya,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1753,1432,1759,1426,6
+1997-08-07,Friendly,played,Nigeria,NGA,Cameroon,CMR,FALSE,1,0,win,Tunis,Tunisia,TRUE,1759,1564,1766,1557,7
+1997-08-09,Friendly,played,Nigeria,NGA,Tunisia,TUN,FALSE,0,2,loss,Tunis,Tunisia,FALSE,1766,1642,1742,1666,-24
+1997-08-16,FIFA World Cup qualification,played,Nigeria,NGA,Guinea,,FALSE,0,1,loss,Conakry,Guinea,FALSE,,,,,
+1997-12-17,Friendly,played,Nigeria,NGA,Zambia,,FALSE,0,0,draw,Lusaka,Zambia,FALSE,1696,1628,1697,1627,1
+1998-01-28,Lunar New Year Cup,played,Nigeria,NGA,Iran,IRN,FALSE,1,0,win,So Kon Po,Hong Kong,TRUE,1697,1675,1711,1661,14
+1998-02-22,Friendly,played,Nigeria,NGA,Jamaica,JAM,FALSE,2,2,draw,Kingston,Jamaica,FALSE,1711,1679,1713,1677,2
+1998-04-22,Friendly,played,Nigeria,NGA,Germany,DEU,FALSE,0,1,loss,Cologne,Germany,FALSE,1713,2062,1712,2063,-1
+1998-05-29,Friendly,played,Nigeria,NGA,Serbia,SRB,FALSE,0,3,loss,Belgrade,FR Yugoslavia,FALSE,,,,,
+1998-06-05,Friendly,played,Nigeria,NGA,Netherlands,NLD,FALSE,1,5,loss,Amsterdam,Netherlands,FALSE,1708,1954,1703,1959,-5
+1998-06-13,FIFA World Cup,played,Nigeria,NGA,Spain,ESP,FALSE,3,2,win,Nantes,France,TRUE,1703,2039,1755,1987,52
+1998-06-19,FIFA World Cup,played,Nigeria,NGA,Bulgaria,BGR,TRUE,1,0,win,Paris,France,TRUE,1755,1800,1789,1766,34
+1998-06-24,FIFA World Cup,played,Nigeria,NGA,Paraguay,PRY,TRUE,1,3,loss,Toulouse,France,TRUE,1789,1765,1741,1813,-48
+1998-06-28,FIFA World Cup,played,Nigeria,NGA,Denmark,DNK,TRUE,1,4,loss,Saint-Denis,France,TRUE,1741,1863,1706,1898,-35
+1998-12-22,Friendly,played,Nigeria,NGA,Catalonia,,FALSE,0,5,loss,Barcelona,Spain,FALSE,,,,,
+1999-08-17,Friendly,played,Nigeria,NGA,Mozambique,,FALSE,1,0,win,Maputo,Mozambique,FALSE,1694,1274,1697,1271,3
+1999-08-28,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1697,1573,1691,1579,-6
+1999-11-13,Friendly,played,Nigeria,NGA,Greece,GRC,FALSE,0,2,loss,Kilkís,Greece,FALSE,1691,1741,1682,1750,-9
+1999-11-21,Friendly,played,Nigeria,NGA,Gabon,,FALSE,2,0,win,Libreville,Gabon,FALSE,1682,1479,1693,1468,11
+1999-12-29,Friendly,played,Nigeria,NGA,Basque Country,,FALSE,1,5,loss,Bilbao,Spain,FALSE,,,,,
+2000-01-23,African Cup of Nations,played,Nigeria,NGA,Tunisia,TUN,TRUE,4,2,win,Lagos,Nigeria,FALSE,1693,1635,1715,1613,22
+2000-01-28,African Cup of Nations,played,Nigeria,NGA,Congo,,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1715,1402,1694,1423,-21
+2000-02-03,African Cup of Nations,played,Nigeria,NGA,Morocco,MAR,TRUE,2,0,win,Lagos,Nigeria,FALSE,1694,1757,1728,1723,34
+2000-02-07,African Cup of Nations,played,Nigeria,NGA,Senegal,SEN,TRUE,2,1,win,Lagos,Nigeria,FALSE,1728,1533,1736,1525,8
+2000-02-10,African Cup of Nations,played,Nigeria,NGA,South Africa,ZAF,TRUE,2,0,win,Lagos,Nigeria,FALSE,1736,1695,1759,1672,23
+2000-02-13,African Cup of Nations,played,Nigeria,NGA,Cameroon,CMR,TRUE,2,2,draw,Lagos,Nigeria,FALSE,1759,1657,1746,1670,-13
+2000-04-09,FIFA World Cup qualification,played,Nigeria,NGA,Eritrea,,FALSE,0,0,draw,Asmara,Eritrea,FALSE,1746,1178,1729,1195,-17
+2000-04-22,FIFA World Cup qualification,played,Nigeria,NGA,Eritrea,,TRUE,4,0,win,Lagos,Nigeria,FALSE,1729,1195,1731,1193,2
+2000-06-04,Friendly,played,Nigeria,NGA,Malawi,,TRUE,3,2,win,Kano,Nigeria,FALSE,1731,1306,1732,1305,1
+2000-06-06,Friendly,played,Nigeria,NGA,Malawi,,TRUE,4,1,win,Port Harcourt,Nigeria,FALSE,1732,1305,1734,1303,2
+2000-06-17,FIFA World Cup qualification,played,Nigeria,NGA,Sierra Leone,,TRUE,2,0,win,Lagos,Nigeria,FALSE,1734,1357,1738,1353,4
+2000-07-09,FIFA World Cup qualification,played,Nigeria,NGA,Liberia,,FALSE,1,2,loss,Paynesville,Liberia,FALSE,1738,1358,1705,1391,-33
+2000-09-02,African Cup of Nations qualification,played,Nigeria,NGA,Namibia,,TRUE,4,0,win,Lagos,Nigeria,FALSE,1705,1349,1710,1344,5
+2000-10-07,African Cup of Nations qualification,played,Nigeria,NGA,Madagascar,,FALSE,0,0,draw,Antananarivo,Madagascar,FALSE,1710,1449,1701,1458,-9
+2001-01-13,African Cup of Nations qualification,played,Nigeria,NGA,Zambia,,TRUE,1,0,win,Lagos,Nigeria,FALSE,1701,1439,1705,1435,4
+2001-01-27,FIFA World Cup qualification,played,Nigeria,NGA,Sudan,,TRUE,3,0,win,Port Harcourt,Nigeria,FALSE,1705,1320,1709,1316,4
+2001-03-11,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,FALSE,0,0,draw,Accra,Ghana,FALSE,1709,1427,1699,1437,-10
+2001-03-24,African Cup of Nations qualification,played,Nigeria,NGA,Zambia,,FALSE,1,1,draw,Chingola,Zambia,FALSE,1699,1446,1691,1454,-8
+2001-04-21,FIFA World Cup qualification,played,Nigeria,NGA,Sierra Leone,,FALSE,0,1,loss,Freetown,Sierra Leone,FALSE,1691,1298,1657,1332,-34
+2001-05-05,FIFA World Cup qualification,played,Nigeria,NGA,Liberia,,TRUE,2,0,win,Port Harcourt,Nigeria,FALSE,1657,1497,1668,1486,11
+2001-06-02,African Cup of Nations qualification,played,Nigeria,NGA,Madagascar,,TRUE,1,0,win,Benin City,Nigeria,FALSE,1668,1357,1671,1354,3
+2001-06-16,African Cup of Nations qualification,played,Nigeria,NGA,Namibia,,FALSE,2,0,win,Windhoek,Namibia,FALSE,1671,1333,1683,1321,12
+2001-07-01,FIFA World Cup qualification,played,Nigeria,NGA,Sudan,,FALSE,4,0,win,Omdurman,Sudan,FALSE,1683,1391,1702,1372,19
+2001-07-29,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,TRUE,3,0,win,Port Harcourt,Nigeria,FALSE,1702,1528,1714,1516,12
+2001-09-13,Friendly,played,Nigeria,NGA,South Korea,KOR,FALSE,2,2,draw,Daejeon,South Korea,FALSE,1714,1801,1719,1796,5
+2001-09-16,Friendly,played,Nigeria,NGA,South Korea,KOR,FALSE,1,2,loss,Busan,South Korea,FALSE,1719,1796,1714,1801,-5
+2001-10-07,Friendly,played,Nigeria,NGA,Japan,JPN,FALSE,2,2,draw,Southampton,England,TRUE,1714,1861,1718,1857,4
+2002-01-12,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1718,1622,1718,1622,0
+2002-01-21,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,FALSE,1,0,win,Bamako,Mali,TRUE,1718,1516,1730,1504,12
+2002-01-24,African Cup of Nations,played,Nigeria,NGA,Mali,,FALSE,0,0,draw,Bamako,Mali,FALSE,1730,1443,1718,1455,-12
+2002-01-28,African Cup of Nations,played,Nigeria,NGA,Liberia,,FALSE,1,0,win,Mopti,Mali,TRUE,1718,1495,1729,1484,11
+2002-02-03,African Cup of Nations,played,Nigeria,NGA,Ghana,GHA,TRUE,1,0,win,Bamako,Mali,TRUE,1729,1544,1742,1531,13
+2002-02-07,African Cup of Nations,played,Nigeria,NGA,Senegal,SEN,TRUE,1,2,loss,Bamako,Mali,TRUE,1742,1648,1710,1680,-32
+2002-02-09,African Cup of Nations,played,Nigeria,NGA,Mali,,FALSE,1,0,win,Mopti,Mali,FALSE,1710,1506,1728,1488,18
+2002-03-26,Friendly,played,Nigeria,NGA,Paraguay,PRY,TRUE,1,1,draw,London,England,TRUE,1728,1720,1728,1720,0
+2002-04-17,Friendly,played,Nigeria,NGA,Scotland,SCO,FALSE,2,1,win,Aberdeen,Scotland,FALSE,1728,1732,1741,1719,13
+2002-05-04,Friendly,played,Nigeria,NGA,Kenya,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1741,1372,1743,1370,2
+2002-05-16,Friendly,played,Nigeria,NGA,Republic of Ireland,IRL,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+2002-05-18,Unity Cup,played,Nigeria,NGA,Jamaica,JAM,FALSE,1,0,win,London,England,TRUE,1759,1530,1765,1524,6
+2002-06-02,FIFA World Cup,played,Nigeria,NGA,Argentina,ARG,FALSE,0,1,loss,Kashima,Japan,TRUE,1765,2020,1754,2031,-11
+2002-06-07,FIFA World Cup,played,Nigeria,NGA,Sweden,SWE,FALSE,1,2,loss,Kobe,Japan,TRUE,1754,1871,1734,1891,-20
+2002-06-12,FIFA World Cup,played,Nigeria,NGA,England,ENG,TRUE,0,0,draw,Osaka,Japan,TRUE,1734,1958,1751,1941,17
+2002-09-08,African Cup of Nations qualification,played,Nigeria,NGA,Angola,AGO,FALSE,0,0,draw,Luanda,Angola,FALSE,1751,1500,1743,1508,-8
+2002-10-12,Friendly,played,Nigeria,NGA,Senegal,SEN,FALSE,2,2,draw,Dakar,Senegal,FALSE,1743,1781,1747,1777,4
+2002-11-20,Friendly,played,Nigeria,NGA,Jamaica,JAM,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1747,1569,1740,1576,-7
+2002-11-25,Friendly,played,Nigeria,NGA,Egypt,EGY,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1740,1593,1734,1599,-6
+2002-12-15,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,1,0,win,Accra,Ghana,FALSE,1734,1501,1740,1495,6
+2003-02-16,Friendly,played,Nigeria,NGA,Gambia,,FALSE,1,0,win,Banjul,Gambia,FALSE,1740,1365,1743,1362,3
+2003-03-29,African Cup of Nations qualification,played,Nigeria,NGA,Malawi,,FALSE,1,0,win,Blantyre,Malawi,FALSE,1743,1349,1749,1343,6
+2003-05-25,Friendly,played,Nigeria,NGA,Jamaica,JAM,FALSE,2,3,loss,Kingston,Jamaica,FALSE,1749,1562,1737,1574,-12
+2003-05-30,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,3,1,win,Abuja,Nigeria,FALSE,1737,1496,1743,1490,6
+2003-06-07,African Cup of Nations qualification,played,Nigeria,NGA,Malawi,,TRUE,4,1,win,Abuja,Nigeria,FALSE,1764,1330,1767,1327,3
+2003-06-11,Friendly,played,Nigeria,NGA,Brazil,BRA,TRUE,0,3,loss,Abuja,Nigeria,FALSE,1767,2034,1757,2044,-10
+2003-06-21,African Cup of Nations qualification,played,Nigeria,NGA,Angola,AGO,TRUE,2,2,draw,Benin City,Nigeria,FALSE,1757,1467,1741,1483,-16
+2003-07-26,Friendly,played,Nigeria,NGA,Venezuela,,TRUE,1,0,win,Watford,England,TRUE,1741,1626,1748,1619,7
+2003-08-20,Friendly,played,Nigeria,NGA,Japan,JPN,FALSE,0,3,loss,Tokyo,Japan,FALSE,1748,1769,1736,1781,-12
+2004-01-27,African Cup of Nations,played,Nigeria,NGA,Morocco,MAR,TRUE,0,1,loss,Monastir,Tunisia,TRUE,1736,1569,1700,1605,-36
+2004-01-31,African Cup of Nations,played,Nigeria,NGA,South Africa,ZAF,TRUE,4,0,win,Monastir,Tunisia,TRUE,1700,1606,1734,1572,34
+2004-02-04,African Cup of Nations,played,Nigeria,NGA,Benin,,TRUE,2,1,win,Sfax,Tunisia,TRUE,1734,1300,1738,1296,4
+2004-02-08,African Cup of Nations,played,Nigeria,NGA,Cameroon,CMR,FALSE,2,1,win,Monastir,Tunisia,TRUE,1738,1769,1765,1742,27
+2004-02-11,African Cup of Nations,played,Nigeria,NGA,Tunisia,TUN,FALSE,1,1,draw,Radès,Tunisia,FALSE,1765,1677,1766,1676,1
+2004-02-13,African Cup of Nations,played,Nigeria,NGA,Mali,,TRUE,2,1,win,Monastir,Tunisia,TRUE,1766,1602,1780,1588,14
+2004-05-29,Unity Cup,played,Nigeria,NGA,Republic of Ireland,IRL,FALSE,3,0,win,London,England,TRUE,,,,,
+2004-05-31,Unity Cup,played,Nigeria,NGA,Jamaica,JAM,TRUE,2,0,win,London,England,TRUE,1812,1628,1824,1616,12
+2004-06-05,FIFA World Cup qualification,played,Nigeria,NGA,Rwanda,,TRUE,2,0,win,Abuja,Nigeria,FALSE,1824,1357,1826,1355,2
+2004-06-20,FIFA World Cup qualification,played,Nigeria,NGA,Angola,AGO,FALSE,0,1,loss,Luanda,Angola,FALSE,1826,1486,1794,1518,-32
+2004-07-03,FIFA World Cup qualification,played,Nigeria,NGA,Algeria,DZA,TRUE,1,0,win,Abuja,Nigeria,FALSE,1794,1487,1798,1483,4
+2004-09-05,FIFA World Cup qualification,played,Nigeria,NGA,Zimbabwe,,FALSE,3,0,win,Harare,Zimbabwe,FALSE,1798,1531,1817,1512,19
+2004-10-09,FIFA World Cup qualification,played,Nigeria,NGA,Gabon,,FALSE,1,1,draw,Libreville,Gabon,FALSE,1817,1393,1802,1408,-15
+2004-10-22,Friendly,played,Nigeria,NGA,Ecuador,ECU,TRUE,2,2,draw,Tripoli,Libya,TRUE,1779,1632,1773,1638,-6
+2004-11-17,Friendly,played,Nigeria,NGA,South Africa,ZAF,FALSE,1,2,loss,Johannesburg,South Africa,FALSE,1773,1563,1753,1583,-20
+2005-03-26,FIFA World Cup qualification,played,Nigeria,NGA,Gabon,,TRUE,2,0,win,Port Harcourt,Nigeria,FALSE,1753,1413,1757,1409,4
+2005-06-05,FIFA World Cup qualification,played,Nigeria,NGA,Rwanda,,FALSE,1,1,draw,Kigali,Rwanda,FALSE,1757,1341,1743,1355,-14
+2005-06-18,FIFA World Cup qualification,played,Nigeria,NGA,Angola,AGO,TRUE,1,1,draw,Kano,Nigeria,FALSE,1743,1524,1728,1539,-15
+2005-08-17,Friendly,played,Nigeria,NGA,Libya,,FALSE,1,0,win,Tripoli,Libya,FALSE,1728,1518,1735,1511,7
+2005-09-04,FIFA World Cup qualification,played,Nigeria,NGA,Algeria,DZA,FALSE,5,2,win,Oran,Algeria,FALSE,1735,1418,1751,1402,16
+2005-10-08,FIFA World Cup qualification,played,Nigeria,NGA,Zimbabwe,,TRUE,5,1,win,Abuja,Nigeria,FALSE,1751,1513,1760,1504,9
+2005-11-16,Friendly,played,Nigeria,NGA,Romania,ROU,FALSE,0,3,loss,Bucharest,Romania,FALSE,1760,1839,1751,1848,-9
+2006-01-23,African Cup of Nations,played,Nigeria,NGA,Ghana,GHA,TRUE,1,0,win,Port Said,Egypt,TRUE,1751,1584,1765,1570,14
+2006-01-27,African Cup of Nations,played,Nigeria,NGA,Zimbabwe,,TRUE,2,0,win,Port Said,Egypt,TRUE,1765,1477,1777,1465,12
+2006-01-31,African Cup of Nations,played,Nigeria,NGA,Senegal,SEN,TRUE,2,1,win,Port Said,Egypt,TRUE,1777,1676,1795,1658,18
+2006-02-04,African Cup of Nations,played,Nigeria,NGA,Tunisia,TUN,TRUE,1,1,draw,Port Said,Egypt,TRUE,1795,1692,1788,1699,-7
+2006-02-07,African Cup of Nations,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,0,1,loss,Alexandria,Egypt,TRUE,1788,1717,1758,1747,-30
+2006-02-09,African Cup of Nations,played,Nigeria,NGA,Senegal,SEN,FALSE,1,0,win,Cairo,Egypt,TRUE,1758,1668,1777,1649,19
+2006-09-02,African Cup of Nations qualification,played,Nigeria,NGA,Niger,,TRUE,2,0,win,Abuja,Nigeria,FALSE,1777,1308,1779,1306,2
+2006-10-08,African Cup of Nations qualification,played,Nigeria,NGA,Lesotho,,FALSE,1,0,win,Maseru,Lesotho,FALSE,1779,1123,1781,1121,2
+2007-02-06,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,1,4,loss,Brentford,England,TRUE,1781,1752,1762,1771,-19
+2007-03-24,African Cup of Nations qualification,played,Nigeria,NGA,Uganda,,TRUE,1,0,win,Abeokuta,Nigeria,FALSE,1762,1392,1765,1389,3
+2007-05-27,Friendly,played,Nigeria,NGA,Kenya,,FALSE,1,0,win,Nairobi,Kenya,FALSE,1765,1327,1768,1324,3
+2007-06-02,African Cup of Nations qualification,played,Nigeria,NGA,Uganda,,FALSE,1,2,loss,Kampala,Uganda,FALSE,1768,1384,1735,1417,-33
+2007-06-17,African Cup of Nations qualification,played,Nigeria,NGA,Niger,,FALSE,3,1,win,Niamey,Niger,FALSE,1735,1282,1742,1275,7
+2007-08-22,Friendly,played,Nigeria,NGA,North Macedonia,,FALSE,0,0,draw,Skopje,North Macedonia,FALSE,1742,1526,1739,1529,-3
+2007-09-08,African Cup of Nations qualification,played,Nigeria,NGA,Lesotho,,TRUE,2,0,win,Warri,Nigeria,FALSE,1739,1138,1740,1137,1
+2007-10-14,Friendly,played,Nigeria,NGA,Mexico,MEX,FALSE,2,2,draw,Ciudad Juárez,Mexico,FALSE,1740,1908,1746,1902,6
+2007-11-17,Friendly,played,Nigeria,NGA,Australia,AUS,FALSE,0,1,loss,London,England,TRUE,1746,1718,1735,1729,-11
+2007-11-20,Friendly,played,Nigeria,NGA,Switzerland,CHE,FALSE,1,0,win,Zürich,Switzerland,FALSE,1735,1822,1750,1807,15
+2008-01-09,Friendly,played,Nigeria,NGA,Sudan,,TRUE,2,0,win,Estepona,Spain,TRUE,1750,1390,1753,1387,3
+2008-01-21,African Cup of Nations,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,0,1,loss,Sekondi,Ghana,TRUE,1753,1763,1729,1787,-24
+2008-01-25,African Cup of Nations,played,Nigeria,NGA,Mali,,TRUE,0,0,draw,Sekondi,Ghana,TRUE,1729,1577,1719,1587,-10
+2008-01-29,African Cup of Nations,played,Nigeria,NGA,Benin,,TRUE,2,0,win,Sekondi,Ghana,TRUE,1719,1356,1727,1348,8
+2008-02-03,African Cup of Nations,played,Nigeria,NGA,Ghana,GHA,FALSE,1,2,loss,Accra,Ghana,FALSE,1727,1789,1713,1803,-14
+2008-05-27,Friendly,played,Nigeria,NGA,Austria,AUT,FALSE,1,1,draw,Graz,Austria,FALSE,1713,1596,1713,1596,0
+2008-06-01,FIFA World Cup qualification,played,Nigeria,NGA,South Africa,ZAF,TRUE,2,0,win,Abuja,Nigeria,FALSE,1713,1517,1722,1508,9
+2008-06-07,FIFA World Cup qualification,played,Nigeria,NGA,Sierra Leone,,FALSE,1,0,win,Freetown,Sierra Leone,FALSE,1722,1188,1725,1185,3
+2008-06-15,FIFA World Cup qualification,played,Nigeria,NGA,Equatorial Guinea,,FALSE,1,0,win,Malabo,Equatorial Guinea,FALSE,1725,1252,1729,1248,4
+2008-06-21,FIFA World Cup qualification,played,Nigeria,NGA,Equatorial Guinea,,TRUE,2,0,win,Abuja,Nigeria,FALSE,1729,1248,1731,1246,2
+2008-09-06,FIFA World Cup qualification,played,Nigeria,NGA,South Africa,ZAF,FALSE,1,0,win,Port Elizabeth,South Africa,FALSE,1731,1505,1744,1492,13
+2008-10-11,FIFA World Cup qualification,played,Nigeria,NGA,Sierra Leone,,TRUE,4,1,win,Abuja,Nigeria,FALSE,1744,1248,1746,1246,2
+2008-11-19,Friendly,played,Nigeria,NGA,Colombia,COL,FALSE,0,1,loss,Palmira,Colombia,FALSE,1746,1740,1739,1747,-7
+2009-02-11,Friendly,played,Nigeria,NGA,Jamaica,JAM,TRUE,0,0,draw,London,England,TRUE,1739,1635,1736,1638,-3
+2009-03-29,FIFA World Cup qualification,played,Nigeria,NGA,Mozambique,,FALSE,0,0,draw,Maputo,Mozambique,FALSE,1736,1401,1724,1413,-12
+2009-05-29,Friendly,played,Nigeria,NGA,Republic of Ireland,IRL,FALSE,1,1,draw,London,England,TRUE,,,,,
+2009-06-02,Friendly,played,Nigeria,NGA,France,FRA,FALSE,1,0,win,Saint-Étienne,France,FALSE,1726,1892,1742,1876,16
+2009-06-07,FIFA World Cup qualification,played,Nigeria,NGA,Kenya,,TRUE,3,0,win,Abuja,Nigeria,FALSE,1742,1404,1747,1399,5
+2009-06-20,FIFA World Cup qualification,played,Nigeria,NGA,Tunisia,TUN,FALSE,0,0,draw,Radès,Tunisia,FALSE,1747,1648,1747,1648,0
+2009-09-06,FIFA World Cup qualification,played,Nigeria,NGA,Tunisia,TUN,TRUE,2,2,draw,Abuja,Nigeria,FALSE,1747,1648,1737,1658,-10
+2009-10-11,FIFA World Cup qualification,played,Nigeria,NGA,Mozambique,,TRUE,1,0,win,Abuja,Nigeria,FALSE,1737,1408,1740,1405,3
+2009-11-14,FIFA World Cup qualification,played,Nigeria,NGA,Kenya,,FALSE,3,2,win,Nairobi,Kenya,FALSE,1740,1369,1747,1362,7
+2010-01-12,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,FALSE,1,3,loss,Benguela,Angola,TRUE,1741,1703,1699,1745,-42
+2010-01-16,African Cup of Nations,played,Nigeria,NGA,Benin,,TRUE,1,0,win,Benguela,Angola,TRUE,1699,1458,1709,1448,10
+2010-01-20,African Cup of Nations,played,Nigeria,NGA,Mozambique,,TRUE,3,0,win,Lubango,Angola,TRUE,1709,1400,1722,1387,13
+2010-01-25,African Cup of Nations,played,Nigeria,NGA,Zambia,,FALSE,0,0,draw,Lubango,Angola,TRUE,1722,1547,1710,1559,-12
+2010-01-28,African Cup of Nations,played,Nigeria,NGA,Ghana,GHA,FALSE,0,1,loss,Luanda,Angola,TRUE,1710,1681,1683,1708,-27
+2010-01-30,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,TRUE,1,0,win,Benguela,Angola,TRUE,1683,1562,1700,1545,17
+2010-03-03,Friendly,played,Nigeria,NGA,DR Congo,,TRUE,5,2,win,Abuja,Nigeria,FALSE,1700,1423,1704,1419,4
+2010-05-25,Friendly,played,Nigeria,NGA,Saudi Arabia,SAU,TRUE,0,0,draw,Wattens,Austria,TRUE,1704,1686,1703,1687,-1
+2010-05-30,Friendly,played,Nigeria,NGA,Colombia,COL,TRUE,1,1,draw,Milton Keynes,England,TRUE,1703,1746,1704,1745,1
+2010-06-06,Friendly,played,Nigeria,NGA,North Korea,PRK,TRUE,3,1,win,Johannesburg,South Africa,TRUE,1704,1546,1713,1537,9
+2010-06-12,FIFA World Cup,played,Nigeria,NGA,Argentina,ARG,FALSE,0,1,loss,Johannesburg,South Africa,TRUE,1713,1921,1699,1935,-14
+2010-06-17,FIFA World Cup,played,Nigeria,NGA,Greece,GRC,FALSE,1,2,loss,Bloemfontein,South Africa,TRUE,1699,1695,1669,1725,-30
+2010-06-22,FIFA World Cup,played,Nigeria,NGA,South Korea,KOR,TRUE,2,2,draw,Durban,South Africa,TRUE,1669,1772,1678,1763,9
+2010-08-11,Friendly,played,Nigeria,NGA,South Korea,KOR,FALSE,1,2,loss,Suwon,South Korea,FALSE,1678,1745,1672,1751,-6
+2010-09-05,African Cup of Nations qualification,played,Nigeria,NGA,Madagascar,,TRUE,2,0,win,Calabar,Nigeria,FALSE,1672,1263,1675,1260,3
+2010-10-10,African Cup of Nations qualification,played,Nigeria,NGA,Guinea,,FALSE,0,1,loss,Conakry,Guinea,FALSE,1675,1500,1651,1524,-24
+2011-02-09,Friendly,played,Nigeria,NGA,Sierra Leone,,TRUE,2,1,win,Lagos,Nigeria,FALSE,1651,1291,1652,1290,1
+2011-03-27,African Cup of Nations qualification,played,Nigeria,NGA,Ethiopia,,TRUE,4,0,win,Abuja,Nigeria,FALSE,1652,1321,1658,1315,6
+2011-03-29,Friendly,played,Nigeria,NGA,Kenya,,TRUE,3,0,win,Abuja,Nigeria,FALSE,1658,1290,1660,1288,2
+2011-06-01,Friendly,played,Nigeria,NGA,Argentina,ARG,TRUE,4,1,win,Abuja,Nigeria,FALSE,1660,1992,1688,1964,28
+2011-06-05,African Cup of Nations qualification,played,Nigeria,NGA,Ethiopia,,FALSE,2,2,draw,Addis Ababa,Ethiopia,FALSE,1688,1301,1674,1315,-14
+2011-09-04,African Cup of Nations qualification,played,Nigeria,NGA,Madagascar,,FALSE,2,0,win,Antananarivo,Madagascar,FALSE,1674,1221,1681,1214,7
+2011-09-06,Friendly,played,Nigeria,NGA,Argentina,ARG,FALSE,1,3,loss,Dhaka,Bangladesh,TRUE,1681,1923,1675,1929,-6
+2011-10-08,African Cup of Nations qualification,played,Nigeria,NGA,Guinea,,TRUE,2,2,draw,Abuja,Nigeria,FALSE,1675,1507,1662,1520,-13
+2011-10-11,Friendly,played,Nigeria,NGA,Ghana,GHA,FALSE,0,0,draw,Watford,England,TRUE,1662,1771,1665,1768,3
+2011-11-12,Friendly,played,Nigeria,NGA,Botswana,,TRUE,0,0,draw,Abuja,Nigeria,FALSE,1665,1400,1657,1408,-8
+2011-11-15,Friendly,played,Nigeria,NGA,Zambia,,TRUE,2,0,win,Kaduna,Nigeria,FALSE,1657,1528,1663,1522,6
+2012-01-11,Friendly,played,Nigeria,NGA,Angola,AGO,TRUE,0,0,draw,Abuja,Nigeria,FALSE,1663,1485,1656,1492,-7
+2012-02-15,Friendly,played,Nigeria,NGA,Liberia,,FALSE,2,0,win,Monrovia,Liberia,FALSE,1656,1249,1660,1245,4
+2012-02-29,African Cup of Nations qualification,played,Nigeria,NGA,Rwanda,,FALSE,0,0,draw,Kigali,Rwanda,FALSE,1660,1455,1654,1461,-6
+2012-04-12,Friendly,played,Nigeria,NGA,Egypt,EGY,FALSE,2,3,loss,Dubai,United Arab Emirates,TRUE,1654,1722,1646,1730,-8
+2012-05-23,Friendly,played,Nigeria,NGA,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1646,1717,1641,1722,-5
+2012-06-03,FIFA World Cup qualification,played,Nigeria,NGA,Namibia,,TRUE,1,0,win,Calabar,Nigeria,FALSE,1641,1303,1644,1300,3
+2012-06-09,FIFA World Cup qualification,played,Nigeria,NGA,Malawi,,FALSE,1,1,draw,Blantyre,Malawi,FALSE,1644,1381,1635,1390,-9
+2012-06-16,African Cup of Nations qualification,played,Nigeria,NGA,Rwanda,,TRUE,2,0,win,Calabar,Nigeria,FALSE,1635,1408,1643,1400,8
+2012-08-15,Friendly,played,Nigeria,NGA,Niger,,FALSE,0,0,draw,Niamey,Niger,FALSE,1643,1293,1637,1299,-6
+2012-09-08,African Cup of Nations qualification,played,Nigeria,NGA,Liberia,,FALSE,2,2,draw,Paynesville,Liberia,FALSE,1637,1278,1624,1291,-13
+2012-10-13,African Cup of Nations qualification,played,Nigeria,NGA,Liberia,,TRUE,6,1,win,Calabar,Nigeria,FALSE,1624,1308,1631,1301,7
+2012-11-14,Friendly,played,Nigeria,NGA,Venezuela,,FALSE,3,1,win,Miami,United States,TRUE,1631,1728,1650,1709,19
+2013-01-02,Friendly,played,Nigeria,NGA,Catalonia,,FALSE,1,1,draw,Cornellà de Llobregat,Spain,FALSE,,,,,
+2013-01-09,Friendly,played,Nigeria,NGA,Cape Verde,,FALSE,0,0,draw,Faro,Portugal,TRUE,1650,1424,1644,1430,-6
+2013-01-21,African Cup of Nations,played,Nigeria,NGA,Burkina Faso,,TRUE,1,1,draw,Nelspruit,South Africa,TRUE,1644,1446,1631,1459,-13
+2013-01-25,African Cup of Nations,played,Nigeria,NGA,Zambia,,FALSE,1,1,draw,Nelspruit,South Africa,TRUE,1631,1555,1626,1560,-5
+2013-01-29,African Cup of Nations,played,Nigeria,NGA,Ethiopia,,FALSE,2,0,win,Rustenburg,South Africa,TRUE,1626,1316,1637,1305,11
+2013-02-03,African Cup of Nations,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,2,1,win,Rustenburg,South Africa,TRUE,1637,1843,1675,1805,38
+2013-02-06,African Cup of Nations,played,Nigeria,NGA,Mali,,FALSE,4,1,win,Durban,South Africa,TRUE,1675,1586,1708,1553,33
+2013-02-10,African Cup of Nations,played,Nigeria,NGA,Burkina Faso,,TRUE,1,0,win,Johannesburg,South Africa,TRUE,1708,1534,1721,1521,13
+2013-03-23,FIFA World Cup qualification,played,Nigeria,NGA,Kenya,,TRUE,1,1,draw,Calabar,Nigeria,FALSE,1721,1384,1704,1401,-17
+2013-05-31,Friendly,played,Nigeria,NGA,Mexico,MEX,FALSE,2,2,draw,Houston,United States,TRUE,1704,1875,1709,1870,5
+2013-06-05,FIFA World Cup qualification,played,Nigeria,NGA,Kenya,,FALSE,1,0,win,Nairobi,Kenya,FALSE,1709,1401,1718,1392,9
+2013-06-12,FIFA World Cup qualification,played,Nigeria,NGA,Namibia,,FALSE,1,1,draw,Windhoek,Namibia,FALSE,1718,1300,1704,1314,-14
+2013-06-17,Confederations Cup,played,Nigeria,NGA,Tahiti,,FALSE,6,1,win,Belo Horizonte,Brazil,TRUE,1704,1230,1710,1224,6
+2013-06-20,Confederations Cup,played,Nigeria,NGA,Uruguay,URY,TRUE,1,2,loss,Salvador,Brazil,TRUE,1710,1836,1694,1852,-16
+2013-06-23,Confederations Cup,played,Nigeria,NGA,Spain,ESP,TRUE,0,3,loss,Fortaleza,Brazil,TRUE,1694,2157,1688,2163,-6
+2013-08-14,Friendly,played,Nigeria,NGA,South Africa,ZAF,FALSE,2,0,win,Durban,South Africa,FALSE,1688,1566,1709,1545,21
+2013-09-07,FIFA World Cup qualification,played,Nigeria,NGA,Malawi,,TRUE,2,0,win,Calabar,Nigeria,FALSE,1709,1337,1713,1333,4
+2013-09-10,Friendly,played,Nigeria,NGA,Burkina Faso,,TRUE,4,1,win,Kaduna,Nigeria,FALSE,1713,1566,1720,1559,7
+2013-10-13,FIFA World Cup qualification,played,Nigeria,NGA,Ethiopia,,FALSE,2,1,win,Addis Ababa,Ethiopia,FALSE,1720,1396,1729,1387,9
+2013-10-28,Friendly,played,Nigeria,NGA,Jordan,,FALSE,0,1,loss,Amman,Jordan,FALSE,1729,1561,1717,1573,-12
+2013-11-16,FIFA World Cup qualification,played,Nigeria,NGA,Ethiopia,,TRUE,2,0,win,Calabar,Nigeria,FALSE,1717,1387,1722,1382,5
+2013-11-18,Friendly,played,Nigeria,NGA,Italy,ITA,FALSE,2,2,draw,London,England,TRUE,1722,1911,1727,1906,5
+2014-01-04,Friendly,played,Nigeria,NGA,Ethiopia,,TRUE,2,1,win,Abuja,Nigeria,FALSE,,,,,
+2014-05-28,Friendly,played,Nigeria,NGA,Scotland,SCO,TRUE,2,2,draw,London,England,TRUE,1729,1709,1728,1710,-1
+2014-06-03,Friendly,played,Nigeria,NGA,Greece,GRC,FALSE,0,0,draw,Chester,United States,TRUE,1728,1821,1731,1818,3
+2014-06-07,Friendly,played,Nigeria,NGA,United States,USA,FALSE,1,2,loss,Jacksonville,United States,FALSE,1731,1852,1727,1856,-4
+2014-06-16,FIFA World Cup,played,Nigeria,NGA,Iran,IRN,FALSE,0,0,draw,Curitiba,Brazil,TRUE,1727,1715,1726,1716,-1
+2014-06-21,FIFA World Cup,played,Nigeria,NGA,Bosnia and Herzegovina,BIH,TRUE,1,0,win,Cuiabá,Brazil,TRUE,1726,1773,1760,1739,34
+2014-06-25,FIFA World Cup,played,Nigeria,NGA,Argentina,ARG,TRUE,2,3,loss,Porto Alegre,Brazil,TRUE,1760,2038,1750,2048,-10
+2014-06-30,FIFA World Cup,played,Nigeria,NGA,France,FRA,FALSE,0,2,loss,Brasília,Brazil,TRUE,1750,1954,1729,1975,-21
+2014-09-06,African Cup of Nations qualification,played,Nigeria,NGA,Congo,,TRUE,2,3,loss,Calabar,Nigeria,FALSE,1729,1385,1692,1422,-37
+2014-09-10,African Cup of Nations qualification,played,Nigeria,NGA,South Africa,ZAF,FALSE,0,0,draw,Cape Town,South Africa,FALSE,1692,1603,1693,1602,1
+2014-10-11,African Cup of Nations qualification,played,Nigeria,NGA,Sudan,,FALSE,0,1,loss,Khartoum,Sudan,FALSE,1693,1333,1660,1366,-33
+2014-10-15,African Cup of Nations qualification,played,Nigeria,NGA,Sudan,,TRUE,3,1,win,Abuja,Nigeria,FALSE,1660,1366,1666,1360,6
+2014-11-15,African Cup of Nations qualification,played,Nigeria,NGA,Congo,,FALSE,2,0,win,Pointe-Noire,Congo,FALSE,1666,1427,1685,1408,19
+2014-11-19,African Cup of Nations qualification,played,Nigeria,NGA,South Africa,ZAF,TRUE,2,2,draw,Uyo,Nigeria,FALSE,1685,1618,1676,1627,-9
+2015-01-11,Friendly,played,Nigeria,NGA,Ivory Coast,CIV,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,,,,,
+2015-01-17,Friendly,played,Nigeria,NGA,Yemen,,FALSE,2,0,win,Dubai,United Arab Emirates,TRUE,,,,,
+2015-03-25,Friendly,played,Nigeria,NGA,Uganda,,TRUE,0,1,loss,Uyo,Nigeria,FALSE,1676,1476,1659,1493,-17
+2015-03-29,Friendly,played,Nigeria,NGA,South Africa,ZAF,FALSE,1,1,draw,Nelspruit,South Africa,FALSE,1659,1598,1660,1597,1
+2015-09-05,African Cup of Nations qualification,played,Nigeria,NGA,Tanzania,,FALSE,0,0,draw,Dar es Salaam,Tanzania,FALSE,1663,1230,1648,1245,-15
+2015-09-08,Friendly,played,Nigeria,NGA,Niger,,TRUE,2,0,win,Port Harcourt,Nigeria,FALSE,1648,1277,1650,1275,2
+2015-10-08,Friendly,played,Nigeria,NGA,DR Congo,,TRUE,0,2,loss,Visé,Belgium,TRUE,1650,1453,1627,1476,-23
+2015-10-11,Friendly,played,Nigeria,NGA,Cameroon,CMR,TRUE,3,0,win,Brussels,Belgium,TRUE,1627,1626,1644,1609,17
+2015-11-13,FIFA World Cup qualification,played,Nigeria,NGA,Eswatini,,FALSE,0,0,draw,Lobamba,Swaziland,FALSE,1644,1249,1630,1263,-14
+2015-11-17,FIFA World Cup qualification,played,Nigeria,NGA,Eswatini,,TRUE,2,0,win,Port Harcourt,Nigeria,FALSE,1630,1263,1634,1259,4
+2016-03-25,African Cup of Nations qualification,played,Nigeria,NGA,Egypt,EGY,TRUE,1,1,draw,Kaduna,Nigeria,FALSE,1634,1602,1627,1609,-7
+2016-03-29,African Cup of Nations qualification,played,Nigeria,NGA,Egypt,EGY,FALSE,0,1,loss,Alexandria,Egypt,FALSE,1627,1609,1612,1624,-15
+2016-05-27,Friendly,played,Nigeria,NGA,Mali,,TRUE,1,0,win,Le Petit-Quevilly,France,TRUE,1612,1555,1620,1547,8
+2016-05-31,Friendly,played,Nigeria,NGA,Luxembourg,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1620,1244,1625,1239,5
+2016-09-03,African Cup of Nations qualification,played,Nigeria,NGA,Tanzania,,TRUE,1,0,win,Uyo,Nigeria,FALSE,1625,1325,1629,1321,4
+2016-10-09,FIFA World Cup qualification,played,Nigeria,NGA,Zambia,,FALSE,2,1,win,Ndola,Zambia,FALSE,1629,1433,1644,1418,15
+2016-11-12,FIFA World Cup qualification,played,Nigeria,NGA,Algeria,DZA,TRUE,3,1,win,Uyo,Nigeria,FALSE,1644,1652,1666,1630,22
+2017-03-23,Friendly,played,Nigeria,NGA,Senegal,SEN,TRUE,1,1,draw,London,England,TRUE,1666,1706,1667,1705,1
+2017-05-26,Friendly,played,Nigeria,NGA,Corsica,,FALSE,1,1,draw,Ajaccio,France,FALSE,,,,,
+2017-06-01,Friendly,played,Nigeria,NGA,Togo,TGO,TRUE,3,0,win,Saint-Leu-la-Forêt,France,TRUE,1667,1387,1673,1381,6
+2017-06-10,African Cup of Nations qualification,played,Nigeria,NGA,South Africa,ZAF,TRUE,0,2,loss,Uyo,Nigeria,FALSE,1673,1604,1629,1648,-44
+2017-09-01,FIFA World Cup qualification,played,Nigeria,NGA,Cameroon,CMR,TRUE,4,0,win,Uyo,Nigeria,FALSE,1629,1667,1660,1636,31
+2017-09-04,FIFA World Cup qualification,played,Nigeria,NGA,Cameroon,CMR,FALSE,1,1,draw,Yaoundé,Cameroon,FALSE,1660,1636,1664,1632,4
+2017-10-07,FIFA World Cup qualification,played,Nigeria,NGA,Zambia,,TRUE,1,0,win,Uyo,Nigeria,FALSE,1664,1502,1671,1495,7
+2017-11-10,FIFA World Cup qualification,played,Nigeria,NGA,Algeria,DZA,FALSE,0,3,loss,Constantine,Algeria,FALSE,,,,,
+2017-11-14,Friendly,played,Nigeria,NGA,Argentina,ARG,FALSE,4,2,win,Krasnodar,Russia,TRUE,1669,2010,1695,1984,26
+2018-03-23,Friendly,played,Nigeria,NGA,Poland,POL,FALSE,1,0,win,Wrocław,Poland,FALSE,1695,1841,1711,1825,16
+2018-03-27,Friendly,played,Nigeria,NGA,Serbia,SRB,FALSE,0,2,loss,London,England,TRUE,1711,1770,1699,1782,-12
+2018-05-28,Friendly,played,Nigeria,NGA,DR Congo,,TRUE,1,1,draw,Port Harcourt,Nigeria,FALSE,1699,1578,1693,1584,-6
+2018-06-02,Friendly,played,Nigeria,NGA,England,ENG,FALSE,1,2,loss,London,England,FALSE,1693,1940,1691,1942,-2
+2018-06-06,Friendly,played,Nigeria,NGA,Czechia,CZE,FALSE,0,1,loss,Schwechat,Austria,TRUE,1691,1702,1681,1712,-10
+2018-06-16,FIFA World Cup,played,Nigeria,NGA,Croatia,HRV,FALSE,0,2,loss,Kaliningrad,Russia,TRUE,1681,1853,1657,1877,-24
+2018-06-22,FIFA World Cup,played,Nigeria,NGA,Iceland,ISL,TRUE,2,0,win,Volgograd,Russia,TRUE,1657,1781,1717,1721,60
+2018-06-26,FIFA World Cup,played,Nigeria,NGA,Argentina,ARG,TRUE,1,2,loss,Saint Petersburg,Russia,TRUE,1717,1902,1702,1917,-15
+2018-09-08,African Cup of Nations qualification,played,Nigeria,NGA,Seychelles,,FALSE,3,0,win,Victoria,Seychelles,FALSE,1702,962,1704,960,2
+2018-09-11,Friendly,played,Nigeria,NGA,Liberia,,FALSE,2,1,win,Monrovia,Liberia,FALSE,1704,1313,1707,1310,3
+2018-10-13,African Cup of Nations qualification,played,Nigeria,NGA,Libya,,TRUE,4,0,win,Uyo,Nigeria,FALSE,1707,1483,1717,1473,10
+2018-10-16,African Cup of Nations qualification,played,Nigeria,NGA,Libya,,FALSE,3,2,win,Sfax,Tunisia,TRUE,1717,1473,1725,1465,8
+2018-11-17,African Cup of Nations qualification,played,Nigeria,NGA,South Africa,ZAF,FALSE,1,1,draw,Johannesburg,South Africa,FALSE,1725,1539,1720,1544,-5
+2018-11-20,Friendly,played,Nigeria,NGA,Uganda,,TRUE,0,0,draw,Asaba,Nigeria,FALSE,1720,1464,1712,1472,-8
+2019-03-22,African Cup of Nations qualification,played,Nigeria,NGA,Seychelles,,TRUE,3,1,win,Asaba,Nigeria,FALSE,1712,967,1712,967,0
+2019-03-26,Friendly,played,Nigeria,NGA,Egypt,EGY,TRUE,1,0,win,Asaba,Nigeria,FALSE,1712,1602,1717,1597,5
+2019-06-08,Friendly,played,Nigeria,NGA,Zimbabwe,,TRUE,0,0,draw,Asaba,Nigeria,FALSE,1717,1475,1709,1483,-8
+2019-06-16,Friendly,played,Nigeria,NGA,Senegal,SEN,FALSE,0,1,loss,Ismailia,Egypt,TRUE,1709,1761,1700,1770,-9
+2019-06-22,African Cup of Nations,played,Nigeria,NGA,Burundi,,TRUE,1,0,win,Alexandria,Egypt,TRUE,1700,1359,1706,1353,6
+2019-06-26,African Cup of Nations,played,Nigeria,NGA,Guinea,,TRUE,1,0,win,Alexandria,Egypt,TRUE,1706,1424,1714,1416,8
+2019-06-30,African Cup of Nations,played,Nigeria,NGA,Madagascar,,FALSE,0,2,loss,Alexandria,Egypt,TRUE,1714,1350,1647,1417,-67
+2019-07-06,African Cup of Nations,played,Nigeria,NGA,Cameroon,CMR,TRUE,3,2,win,Alexandria,Egypt,TRUE,1647,1602,1669,1580,22
+2019-07-10,African Cup of Nations,played,Nigeria,NGA,South Africa,ZAF,TRUE,2,1,win,Cairo,Egypt,TRUE,1669,1548,1686,1531,17
+2019-07-14,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,FALSE,1,2,loss,Cairo,Egypt,TRUE,1686,1642,1658,1670,-28
+2019-07-17,African Cup of Nations,played,Nigeria,NGA,Tunisia,TUN,FALSE,1,0,win,Cairo,Egypt,TRUE,1658,1627,1681,1604,23
+2019-09-10,Friendly,played,Nigeria,NGA,Ukraine,UKR,FALSE,2,2,draw,Dnipro,Ukraine,FALSE,1681,1831,1687,1825,6
+2019-10-13,Friendly,played,Nigeria,NGA,Brazil,BRA,FALSE,1,1,draw,Kallang,Singapore,TRUE,1687,2098,1695,2090,8
+2019-11-13,African Cup of Nations qualification,played,Nigeria,NGA,Benin,,TRUE,2,1,win,Uyo,Nigeria,FALSE,1695,1455,1700,1450,5
+2019-11-17,African Cup of Nations qualification,played,Nigeria,NGA,Lesotho,,FALSE,4,2,win,Maseru,Lesotho,FALSE,1700,1306,1709,1297,9
+2020-10-09,Friendly,played,Nigeria,NGA,Algeria,DZA,TRUE,0,1,loss,Klagenfurt,Austria,TRUE,1709,1742,1700,1751,-9
+2020-10-13,Friendly,played,Nigeria,NGA,Tunisia,TUN,TRUE,1,1,draw,Sankt Veit an der Glan,Austria,TRUE,1700,1622,1698,1624,-2
+2020-11-13,African Cup of Nations qualification,played,Nigeria,NGA,Sierra Leone,,TRUE,4,4,draw,Benin City,Nigeria,FALSE,1698,1315,1680,1333,-18
+2020-11-17,African Cup of Nations qualification,played,Nigeria,NGA,Sierra Leone,,FALSE,0,0,draw,Freetown,Sierra Leone,FALSE,1680,1333,1668,1345,-12
+2021-03-27,African Cup of Nations qualification,played,Nigeria,NGA,Benin,,FALSE,1,0,win,Porto-Novo,Benin,FALSE,1668,1476,1683,1461,15
+2021-03-30,African Cup of Nations qualification,played,Nigeria,NGA,Lesotho,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1683,1292,1687,1288,4
+2021-06-04,Friendly,played,Nigeria,NGA,Cameroon,CMR,TRUE,0,1,loss,Wiener Neustadt,Austria,TRUE,1687,1548,1673,1562,-14
+2021-06-08,Friendly,played,Nigeria,NGA,Cameroon,CMR,FALSE,0,0,draw,Wiener Neustadt,Austria,TRUE,1673,1562,1670,1565,-3
+2021-07-03,Friendly,played,Nigeria,NGA,Mexico,MEX,FALSE,0,4,loss,Nashville,United States,TRUE,1670,1886,1662,1894,-8
+2021-09-03,FIFA World Cup qualification,played,Nigeria,NGA,Liberia,,TRUE,2,0,win,Lagos,Nigeria,FALSE,1662,1353,1667,1348,5
+2021-09-07,FIFA World Cup qualification,played,Nigeria,NGA,Cape Verde,,FALSE,2,1,win,Mindelo,Cape Verde,FALSE,1667,1430,1679,1418,12
+2021-10-07,FIFA World Cup qualification,played,Nigeria,NGA,Central African Republic,,TRUE,0,1,loss,Lagos,Nigeria,FALSE,1679,1273,1641,1311,-38
+2021-10-10,FIFA World Cup qualification,played,Nigeria,NGA,Central African Republic,,FALSE,2,0,win,Limbé,Cameroon,TRUE,1641,1311,1649,1303,8
+2021-11-13,FIFA World Cup qualification,played,Nigeria,NGA,Liberia,,FALSE,2,0,win,Tangier,Morocco,TRUE,1649,1334,1657,1326,8
+2021-11-16,FIFA World Cup qualification,played,Nigeria,NGA,Cape Verde,,TRUE,1,1,draw,Lagos,Nigeria,FALSE,1657,1453,1643,1467,-14
+2022-01-11,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,TRUE,1,0,win,Garoua,Cameroon,TRUE,1643,1658,1669,1632,26
+2022-01-15,African Cup of Nations,played,Nigeria,NGA,Sudan,,TRUE,3,1,win,Garoua,Cameroon,TRUE,1669,1315,1678,1306,9
+2022-01-19,African Cup of Nations,played,Nigeria,NGA,Guinea-Bissau,,FALSE,2,0,win,Garoua,Cameroon,TRUE,1678,1372,1689,1361,11
+2022-01-23,African Cup of Nations,played,Nigeria,NGA,Tunisia,TUN,TRUE,0,1,loss,Garoua,Cameroon,TRUE,1689,1586,1657,1618,-32
+2022-03-25,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,FALSE,0,0,draw,Kumasi,Ghana,FALSE,1657,1523,1655,1525,-2
+2022-03-29,FIFA World Cup qualification,played,Nigeria,NGA,Ghana,GHA,TRUE,1,1,draw,Abuja,Nigeria,FALSE,1655,1525,1643,1537,-12
+2022-05-28,Friendly,played,Nigeria,NGA,Mexico,MEX,FALSE,1,2,loss,Arlington,United States,TRUE,1643,1839,1638,1844,-5
+2022-06-02,Friendly,played,Nigeria,NGA,Ecuador,ECU,FALSE,0,1,loss,Harrison,United States,TRUE,1638,1840,1633,1845,-5
+2022-06-09,African Cup of Nations qualification,played,Nigeria,NGA,Sierra Leone,,TRUE,2,1,win,Abuja,Nigeria,FALSE,1633,1354,1637,1350,4
+2022-06-13,African Cup of Nations qualification,played,Nigeria,NGA,São Tomé and Príncipe,,FALSE,10,0,win,Agadir,Morocco,TRUE,,,,,
+2022-09-27,Friendly,played,Nigeria,NGA,Algeria,DZA,FALSE,1,2,loss,Oran,Algeria,FALSE,1641,1714,1636,1719,-5
+2022-11-09,Friendly,played,Nigeria,NGA,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1636,1736,1629,1743,-7
+2022-11-17,Friendly,played,Nigeria,NGA,Portugal,PRT,FALSE,0,4,loss,Lisbon,Portugal,FALSE,1629,2003,1627,2005,-2
+2023-03-24,African Cup of Nations qualification,played,Nigeria,NGA,Guinea-Bissau,,TRUE,0,1,loss,Abuja,Nigeria,FALSE,1627,1380,1592,1415,-35
+2023-03-27,African Cup of Nations qualification,played,Nigeria,NGA,Guinea-Bissau,,FALSE,1,0,win,Bissau,Guinea-Bissau,FALSE,1592,1415,1608,1399,16
+2023-06-18,African Cup of Nations qualification,played,Nigeria,NGA,Sierra Leone,,FALSE,3,2,win,Monrovia,Liberia,TRUE,1608,1332,1615,1325,7
+2023-09-10,African Cup of Nations qualification,played,Nigeria,NGA,São Tomé and Príncipe,,TRUE,6,0,win,Uyo,Nigeria,FALSE,,,,,
+2023-10-13,Friendly,played,Nigeria,NGA,Saudi Arabia,SAU,TRUE,2,2,draw,Portimão,Portugal,TRUE,1617,1557,1615,1559,-2
+2023-10-16,Friendly,played,Nigeria,NGA,Mozambique,,FALSE,3,2,win,Albufeira,Portugal,TRUE,1615,1343,1618,1340,3
+2023-11-16,FIFA World Cup qualification,played,Nigeria,NGA,Lesotho,,TRUE,1,1,draw,Uyo,Nigeria,FALSE,1618,1217,1600,1235,-18
+2023-11-19,FIFA World Cup qualification,played,Nigeria,NGA,Zimbabwe,,FALSE,1,1,draw,Butare,Rwanda,TRUE,1600,1321,1587,1334,-13
+2024-01-08,Friendly,played,Nigeria,NGA,Guinea,,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,TRUE,1587,1422,1565,1444,-22
+2024-01-14,African Cup of Nations,played,Nigeria,NGA,Equatorial Guinea,,TRUE,1,1,draw,Ebimpé,Ivory Coast,TRUE,1565,1505,1561,1509,-4
+2024-01-18,African Cup of Nations,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,1,0,win,Ebimpé,Ivory Coast,FALSE,1561,1654,1599,1616,38
+2024-01-22,African Cup of Nations,played,Nigeria,NGA,Guinea-Bissau,,FALSE,1,0,win,Abidjan,Ivory Coast,TRUE,1599,1372,1610,1361,11
+2024-01-27,African Cup of Nations,played,Nigeria,NGA,Cameroon,CMR,TRUE,2,0,win,Abidjan,Ivory Coast,TRUE,1610,1590,1645,1555,35
+2024-02-02,African Cup of Nations,played,Nigeria,NGA,Angola,AGO,TRUE,1,0,win,Abidjan,Ivory Coast,TRUE,1645,1532,1662,1515,17
+2024-02-07,African Cup of Nations,played,Nigeria,NGA,South Africa,ZAF,TRUE,1,1,draw,Bouaké,Ivory Coast,TRUE,1662,1574,1656,1580,-6
+2024-02-11,African Cup of Nations,played,Nigeria,NGA,Ivory Coast,CIV,FALSE,1,2,loss,Ebimpé,Ivory Coast,FALSE,1656,1596,1634,1618,-22
+2024-03-22,Friendly,played,Nigeria,NGA,Ghana,GHA,TRUE,2,1,win,Marrakech,Morocco,TRUE,1634,1511,1641,1504,7
+2024-06-07,FIFA World Cup qualification,played,Nigeria,NGA,South Africa,ZAF,TRUE,1,1,draw,Uyo,Nigeria,FALSE,1626,1571,1618,1579,-8
+2024-06-10,FIFA World Cup qualification,played,Nigeria,NGA,Benin,,FALSE,1,2,loss,Abidjan,Ivory Coast,TRUE,1618,1365,1586,1397,-32
+2024-09-07,African Cup of Nations qualification,played,Nigeria,NGA,Benin,,TRUE,3,0,win,Uyo,Nigeria,FALSE,1586,1397,1597,1386,11
+2024-09-10,African Cup of Nations qualification,played,Nigeria,NGA,Rwanda,,FALSE,0,0,draw,Kigali,Rwanda,FALSE,1597,1344,1589,1352,-8
+2024-10-11,African Cup of Nations qualification,played,Nigeria,NGA,Libya,,TRUE,1,0,win,Uyo,Nigeria,FALSE,1589,1377,1595,1371,6
+2024-11-14,African Cup of Nations qualification,played,Nigeria,NGA,Benin,,FALSE,1,1,draw,Abidjan,Ivory Coast,TRUE,1595,1416,1586,1425,-9
+2024-11-18,African Cup of Nations qualification,played,Nigeria,NGA,Rwanda,,TRUE,1,2,loss,Uyo,Nigeria,FALSE,1586,1319,1550,1355,-36
+2025-03-21,FIFA World Cup qualification,played,Nigeria,NGA,Rwanda,,FALSE,2,0,win,Kigali,Rwanda,FALSE,1550,1355,1572,1333,22
+2025-03-25,FIFA World Cup qualification,played,Nigeria,NGA,Zimbabwe,,TRUE,1,1,draw,Uyo,Nigeria,FALSE,1572,1380,1558,1394,-14
+2025-05-28,Unity Cup,played,Nigeria,NGA,Ghana,GHA,TRUE,2,1,win,London,England,TRUE,1558,1462,1569,1451,11
+2025-05-31,Unity Cup,played,Nigeria,NGA,Jamaica,JAM,FALSE,2,2,draw,London,England,TRUE,1569,1569,1569,1569,0
+2025-06-06,Friendly,played,Nigeria,NGA,Russia,RUS,FALSE,1,1,draw,Moscow,Russia,FALSE,1569,1791,1576,1784,7
+2025-09-06,FIFA World Cup qualification,played,Nigeria,NGA,Rwanda,,TRUE,1,0,win,Uyo,Nigeria,FALSE,1576,1320,1581,1315,5
+2025-09-09,FIFA World Cup qualification,played,Nigeria,NGA,South Africa,ZAF,FALSE,1,1,draw,Bloemfontein,South Africa,FALSE,1581,1529,1584,1526,3
+2025-10-10,FIFA World Cup qualification,played,Nigeria,NGA,Lesotho,,FALSE,2,1,win,Polokwane,South Africa,TRUE,1584,1199,1588,1195,4
+2025-10-14,FIFA World Cup qualification,played,Nigeria,NGA,Benin,,TRUE,4,0,win,Uyo,Nigeria,FALSE,1588,1463,1604,1447,16
+2025-11-13,FIFA World Cup qualification,played,Nigeria,NGA,Gabon,,TRUE,4,1,win,Rabat,Morocco,TRUE,1604,1491,1628,1467,24
+2025-11-16,FIFA World Cup qualification,played,Nigeria,NGA,DR Congo,,TRUE,1,1,draw,Rabat,Morocco,TRUE,1628,1615,1627,1616,-1
+2025-12-23,African Cup of Nations,played,Nigeria,NGA,Tanzania,,TRUE,2,1,win,Fez,Morocco,TRUE,1619,1325,1627,1317,8
+2025-12-27,African Cup of Nations,played,Nigeria,NGA,Tunisia,TUN,TRUE,3,2,win,Fez,Morocco,TRUE,1627,1660,1654,1633,27
+2025-12-30,African Cup of Nations,played,Nigeria,NGA,Uganda,,FALSE,3,1,win,Fez,Morocco,TRUE,1654,1409,1669,1394,15
+2026-01-05,African Cup of Nations,played,Nigeria,NGA,Mozambique,,TRUE,4,0,win,Fez,Morocco,TRUE,1669,1387,1684,1372,15
+2026-01-10,African Cup of Nations,played,Nigeria,NGA,Algeria,DZA,FALSE,2,0,win,Marrakesh,Morocco,TRUE,1684,1775,1731,1728,47
+2026-01-14,African Cup of Nations,played,Nigeria,NGA,Morocco,MAR,FALSE,0,0,draw,Rabat,Morocco,FALSE,1731,1852,1745,1838,14
+2026-01-17,African Cup of Nations,played,Nigeria,NGA,Egypt,EGY,FALSE,0,0,draw,Casablanca,Morocco,TRUE,1745,1653,1739,1659,-6
+2026-03-27,Friendly,played,Nigeria,NGA,Iran,IRN,FALSE,2,1,win,Antalya,Turkey,TRUE,1739,1755,1755,1739,16
+2026-03-31,Friendly,played,Nigeria,NGA,Jordan,,FALSE,2,2,draw,Antalya,Turkey,TRUE,1755,1687,1752,1690,-3

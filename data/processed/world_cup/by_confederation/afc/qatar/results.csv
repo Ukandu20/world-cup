@@ -1,0 +1,634 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1970-03-27,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,1,2,loss,Isa Town,Bahrain,FALSE,1100,1095,1085,1110,-15
+1970-03-31,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,2,4,loss,Isa Town,Bahrain,TRUE,1085,1312,1072,1325,-13
+1970-04-02,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,1,1,draw,Isa Town,Bahrain,TRUE,1072,1301,1084,1289,12
+1972-01-04,Palestine Cup,played,Qatar,QAT,Algeria,DZA,FALSE,0,3,loss,Baghdad,Iraq,TRUE,1084,1578,1080,1582,-4
+1972-01-06,Palestine Cup,played,Qatar,QAT,Syria,,FALSE,2,3,loss,Baghdad,Iraq,TRUE,1080,1396,1074,1402,-6
+1972-01-08,Palestine Cup,played,Qatar,QAT,Yemen DPR,,TRUE,1,2,loss,Baghdad,Iraq,TRUE,,,,,
+1972-01-10,Palestine Cup,played,Qatar,QAT,Palestine,,FALSE,2,7,loss,Baghdad,Iraq,TRUE,1063,1155,1033,1185,-30
+1972-03-17,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,0,1,loss,Riyadh,Saudi Arabia,TRUE,1033,1100,1017,1116,-16
+1972-03-21,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,2,6,loss,Riyadh,Saudi Arabia,TRUE,1017,1138,992,1163,-25
+1972-03-24,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,4,loss,Riyadh,Saudi Arabia,FALSE,992,1300,985,1307,-7
+1972-03-26,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,0,5,loss,Riyadh,Saudi Arabia,TRUE,985,1381,978,1388,-7
+1973-04-12,Friendly,played,Qatar,QAT,Kuwait,KWT,FALSE,0,9,loss,Kuwait City,Kuwait,FALSE,,,,,
+1973-04-17,Friendly,played,Qatar,QAT,Kuwait,KWT,FALSE,1,4,loss,Kuwait City,Kuwait,FALSE,,,,,
+1974-02-27,Friendly,played,Qatar,QAT,Morocco,MAR,TRUE,0,1,loss,Doha,Qatar,FALSE,973,1643,972,1644,-1
+1974-03-16,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,0,2,loss,Kuwait City,Kuwait,TRUE,972,1322,965,1329,-7
+1974-03-22,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,4,0,win,Kuwait City,Kuwait,TRUE,965,868,992,841,27
+1974-03-24,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,0,1,loss,Kuwait City,Kuwait,FALSE,992,1444,990,1446,-2
+1974-03-26,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,1,3,loss,Kuwait City,Kuwait,TRUE,990,1358,984,1364,-6
+1974-03-28,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,1,draw,Kuwait City,Kuwait,TRUE,984,1091,990,1085,6
+1975-04-02,AFC Asian Cup qualification,played,Qatar,QAT,Iraq,IRQ,FALSE,0,1,loss,Baghdad,Iraq,FALSE,,,,,
+1975-04-04,AFC Asian Cup qualification,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,1,2,loss,Baghdad,Iraq,TRUE,,,,,
+1975-04-06,AFC Asian Cup qualification,played,Qatar,QAT,Afghanistan,,TRUE,2,1,win,Baghdad,Iraq,TRUE,,,,,
+1975-04-10,AFC Asian Cup qualification,played,Qatar,QAT,Iraq,IRQ,FALSE,0,3,loss,Baghdad,Iraq,FALSE,,,,,
+1975-04-12,AFC Asian Cup qualification,played,Qatar,QAT,Afghanistan,,TRUE,1,1,draw,Baghdad,Iraq,TRUE,,,,,
+1975-04-14,AFC Asian Cup qualification,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,1,0,win,Baghdad,Iraq,TRUE,,,,,
+1976-03-26,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,1,0,win,Doha,Qatar,FALSE,1023,1323,1053,1293,30
+1976-03-28,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,TRUE,0,4,loss,Doha,Qatar,FALSE,1053,1583,1047,1589,-6
+1976-04-01,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,3,1,win,Doha,Qatar,FALSE,1047,1046,1069,1024,22
+1976-04-03,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,TRUE,0,0,draw,Doha,Qatar,FALSE,1069,1604,1086,1587,17
+1976-04-07,Gulf Cup,played,Qatar,QAT,Oman,,TRUE,4,1,win,Doha,Qatar,FALSE,1086,827,1094,819,8
+1976-04-10,Gulf Cup,played,Qatar,QAT,Bahrain,,TRUE,3,0,win,Doha,Qatar,FALSE,1094,1127,1122,1099,28
+1977-03-08,Friendly,played,Qatar,QAT,Tunisia,TUN,TRUE,1,0,win,Doha,Qatar,FALSE,1122,1623,1140,1605,18
+1977-03-13,FIFA World Cup qualification,played,Qatar,QAT,Bahrain,,TRUE,2,0,win,Doha,Qatar,FALSE,1140,1103,1159,1084,19
+1977-03-15,FIFA World Cup qualification,played,Qatar,QAT,Kuwait,KWT,TRUE,0,2,loss,Doha,Qatar,FALSE,1159,1655,1153,1661,-6
+1977-03-19,FIFA World Cup qualification,played,Qatar,QAT,Bahrain,,TRUE,0,3,loss,Doha,Qatar,FALSE,1153,1083,1102,1134,-51
+1977-03-21,FIFA World Cup qualification,played,Qatar,QAT,Kuwait,KWT,TRUE,1,4,loss,Doha,Qatar,FALSE,1102,1662,1097,1667,-5
+1978-12-10,Asian Games,played,Qatar,QAT,Iraq,IRQ,FALSE,1,2,loss,Bangkok,Thailand,TRUE,1097,1603,1095,1605,-2
+1978-12-12,Asian Games,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,2,2,draw,Bangkok,Thailand,TRUE,1095,1364,1108,1351,13
+1978-12-14,Asian Games,played,Qatar,QAT,China PR,,FALSE,0,3,loss,Bangkok,Thailand,TRUE,,,,,
+1979-03-07,AFC Asian Cup qualification,played,Qatar,QAT,Bangladesh,,FALSE,3,1,win,Dhaka,Bangladesh,FALSE,1135,995,1162,968,27
+1979-03-24,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,1,3,loss,Baghdad,Iraq,TRUE,1162,1640,1158,1644,-4
+1979-03-27,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,FALSE,0,2,loss,Baghdad,Iraq,FALSE,,,,,
+1979-03-29,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,0,win,Baghdad,Iraq,TRUE,,,,,
+1979-04-01,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,1,0,win,Baghdad,Iraq,TRUE,,,,,
+1979-04-04,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,7,loss,Baghdad,Iraq,TRUE,,,,,
+1979-04-07,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,1,1,draw,Baghdad,Iraq,TRUE,,,,,
+1980-09-17,AFC Asian Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,2,1,win,Kuwait City,Kuwait,TRUE,1150,1069,1169,1050,19
+1980-09-19,AFC Asian Cup,played,Qatar,QAT,South Korea,KOR,TRUE,0,2,loss,Kuwait City,Kuwait,TRUE,1169,1744,1166,1747,-3
+1980-09-23,AFC Asian Cup,played,Qatar,QAT,Malaysia,,FALSE,1,1,draw,Kuwait City,Kuwait,TRUE,1166,1491,1184,1473,18
+1980-09-25,AFC Asian Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,0,4,loss,Kuwait City,Kuwait,FALSE,1184,1659,1181,1662,-3
+1981-01-11,Friendly,played,Qatar,QAT,Tunisia,TUN,FALSE,0,4,loss,Tunis,Tunisia,FALSE,,,,,
+1981-03-18,FIFA World Cup qualification,played,Qatar,QAT,Iraq,IRQ,TRUE,0,1,loss,Riyadh,Saudi Arabia,TRUE,1181,1722,1179,1724,-2
+1981-03-22,FIFA World Cup qualification,played,Qatar,QAT,Bahrain,,TRUE,3,0,win,Riyadh,Saudi Arabia,TRUE,1179,1212,1217,1174,38
+1981-03-27,FIFA World Cup qualification,played,Qatar,QAT,Syria,,TRUE,2,1,win,Riyadh,Saudi Arabia,TRUE,1217,1307,1242,1282,25
+1981-03-31,FIFA World Cup qualification,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1242,1473,1237,1478,-5
+1982-02-19,Friendly,played,Qatar,QAT,Libya,,FALSE,1,2,loss,Tripoli,Libya,FALSE,1237,1558,1235,1560,-2
+1982-03-19,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1235,1143,1215,1163,-20
+1982-03-22,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,3,0,win,Abu Dhabi,United Arab Emirates,TRUE,1215,849,1223,841,8
+1982-03-29,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1221,1387,1210,1398,-11
+1982-03-31,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1210,1211,1190,1231,-20
+1982-04-04,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,2,1,win,Abu Dhabi,United Arab Emirates,TRUE,1190,1671,1228,1633,38
+1983-07-08,Friendly,played,Qatar,QAT,Sudan,,TRUE,3,1,win,Doha,Qatar,FALSE,1243,1421,1261,1403,18
+1983-07-10,Friendly,played,Qatar,QAT,Sudan,,TRUE,2,0,win,Doha,Qatar,FALSE,1261,1403,1278,1386,17
+1984-03-10,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,2,1,win,Muscat,Oman,TRUE,1330,1523,1360,1493,30
+1984-03-13,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,0,1,loss,Muscat,Oman,TRUE,1360,1245,1334,1271,-26
+1984-03-16,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,2,1,win,Muscat,Oman,TRUE,1334,1565,1366,1533,32
+1984-03-18,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,2,0,win,Muscat,Oman,FALSE,1366,817,1370,813,4
+1984-03-22,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,1,1,draw,Muscat,Oman,TRUE,1370,1264,1364,1270,-6
+1984-03-25,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,FALSE,2,1,win,Muscat,Oman,TRUE,1364,1711,1399,1676,35
+1984-03-28,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,FALSE,1,1,draw,Muscat,Oman,TRUE,1399,1676,1412,1663,13
+1984-09-04,Friendly,played,Qatar,QAT,Singapore,,FALSE,1,0,win,Kallang,Singapore,FALSE,1519,1229,1524,1224,5
+1984-09-10,AFC Asian Cup qualification,played,Qatar,QAT,Afghanistan,,TRUE,8,0,win,Guangzhou,China PR,TRUE,1524,875,1526,873,2
+1984-09-12,AFC Asian Cup qualification,played,Qatar,QAT,Hong Kong,,TRUE,1,0,win,Guangzhou,China PR,TRUE,1526,1281,1534,1273,8
+1984-09-17,AFC Asian Cup qualification,played,Qatar,QAT,Jordan,,TRUE,2,0,win,Guangzhou,China PR,TRUE,1534,1135,1539,1130,5
+1984-09-20,AFC Asian Cup qualification,played,Qatar,QAT,China PR,,FALSE,0,1,loss,Guangzhou,China PR,FALSE,,,,,
+1984-11-22,Friendly,played,Qatar,QAT,Finland,,TRUE,2,2,draw,Doha,Qatar,FALSE,1522,1486,1518,1490,-4
+1984-11-24,Friendly,played,Qatar,QAT,Finland,,TRUE,1,1,draw,Doha,Qatar,FALSE,1518,1490,1514,1494,-4
+1984-12-01,AFC Asian Cup,played,Qatar,QAT,Syria,,TRUE,1,1,draw,Kallang,Singapore,TRUE,1514,1311,1501,1324,-13
+1984-12-03,AFC Asian Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,0,1,loss,Kallang,Singapore,TRUE,1501,1516,1477,1540,-24
+1984-12-08,AFC Asian Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,1,1,draw,Kallang,Singapore,TRUE,1477,1557,1483,1551,6
+1984-12-10,AFC Asian Cup,played,Qatar,QAT,South Korea,KOR,FALSE,1,0,win,Kallang,Singapore,TRUE,1483,1564,1514,1533,31
+1985-03-15,FIFA World Cup qualification,played,Qatar,QAT,Jordan,,FALSE,0,1,loss,Amman,Jordan,FALSE,1514,1146,1481,1179,-33
+1985-04-05,FIFA World Cup qualification,played,Qatar,QAT,Iraq,IRQ,TRUE,3,0,win,Doha,Qatar,FALSE,1510,1628,1547,1591,37
+1985-04-12,FIFA World Cup qualification,played,Qatar,QAT,Jordan,,TRUE,2,0,win,Doha,Qatar,FALSE,1547,1169,1551,1165,4
+1985-05-05,FIFA World Cup qualification,played,Qatar,QAT,Iraq,IRQ,FALSE,1,2,loss,Calcutta,India,TRUE,1551,1596,1534,1613,-17
+1985-07-05,Arab Cup,played,Qatar,QAT,Jordan,,FALSE,2,0,win,Taif,Saudi Arabia,TRUE,1534,1151,1540,1145,6
+1985-07-07,Arab Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,1,loss,Taif,Saudi Arabia,FALSE,1540,1584,1528,1596,-12
+1985-07-10,Arab Cup,played,Qatar,QAT,Bahrain,,FALSE,1,1,draw,Taif,Saudi Arabia,TRUE,1528,1378,1520,1386,-8
+1985-07-12,Arab Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,0,draw,Taif,Saudi Arabia,FALSE,1520,1571,1528,1563,8
+1986-01-03,Friendly,played,Qatar,QAT,China PR,,TRUE,1,1,draw,Doha,Qatar,FALSE,,,,,
+1986-01-17,Friendly,played,Qatar,QAT,Greece,GRC,TRUE,0,1,loss,Doha,Qatar,FALSE,1521,1600,1510,1611,-11
+1986-01-24,Friendly,played,Qatar,QAT,Tunisia,TUN,TRUE,2,1,win,Doha,Qatar,FALSE,1510,1594,1520,1584,10
+1986-02-02,Friendly,played,Qatar,QAT,Hungary,HUN,TRUE,0,3,loss,Doha,Qatar,FALSE,1520,1870,1513,1877,-7
+1986-02-26,Friendly,played,Qatar,QAT,Paraguay,PRY,TRUE,1,1,draw,Doha,Qatar,FALSE,1513,1796,1518,1791,5
+1986-03-01,Friendly,played,Qatar,QAT,Paraguay,PRY,TRUE,0,3,loss,Doha,Qatar,FALSE,1518,1791,1509,1800,-9
+1986-03-23,Gulf Cup,played,Qatar,QAT,Oman,,TRUE,2,1,win,Riffa,Bahrain,TRUE,1509,900,1510,899,1
+1986-03-27,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,TRUE,1,1,draw,Riffa,Bahrain,TRUE,1510,1647,1518,1639,8
+1986-03-29,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,0,0,draw,Riffa,Bahrain,FALSE,1518,1373,1515,1376,-3
+1986-04-01,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,1,2,loss,Riffa,Bahrain,TRUE,1515,1557,1497,1575,-18
+1986-04-05,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,0,2,loss,Riffa,Bahrain,TRUE,1497,1513,1468,1542,-29
+1986-04-07,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,3,2,win,Riffa,Bahrain,TRUE,1468,1463,1488,1443,20
+1986-09-21,Asian Games,played,Qatar,QAT,Indonesia,IDN,TRUE,1,1,draw,Gwangju,South Korea,TRUE,1488,1155,1473,1170,-15
+1986-09-23,Asian Games,played,Qatar,QAT,Malaysia,,TRUE,1,1,draw,Gwangju,South Korea,TRUE,1473,1355,1466,1362,-7
+1986-09-29,Asian Games,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,0,1,loss,Gwangju,South Korea,TRUE,1466,1571,1452,1585,-14
+1988-01-21,Friendly,played,Qatar,QAT,Bulgaria,BGR,TRUE,2,3,loss,Doha,Qatar,FALSE,1443,1770,1439,1774,-4
+1988-03-03,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,TRUE,1,1,draw,Riyadh,Saudi Arabia,TRUE,1439,1601,1448,1592,9
+1988-03-05,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1448,1529,1458,1519,10
+1988-03-08,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,2,1,win,Riyadh,Saudi Arabia,TRUE,1458,1479,1479,1458,21
+1988-03-10,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1479,1049,1442,1086,-37
+1988-03-13,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,TRUE,0,3,loss,Riyadh,Saudi Arabia,TRUE,1442,1647,1426,1663,-16
+1988-03-16,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,0,1,loss,Riyadh,Saudi Arabia,TRUE,1426,1294,1399,1321,-27
+1988-10-02,Friendly,played,Qatar,QAT,Indonesia,IDN,FALSE,1,0,win,Jakarta,Indonesia,FALSE,1399,1262,1408,1253,9
+1988-10-04,Friendly,played,Qatar,QAT,Indonesia,IDN,FALSE,4,1,win,Jakarta,Indonesia,FALSE,1408,1253,1423,1238,15
+1988-10-09,Friendly,played,Qatar,QAT,Singapore,,FALSE,1,0,win,Kallang,Singapore,FALSE,1423,1196,1429,1190,6
+1988-11-09,Friendly,played,Qatar,QAT,Indonesia,IDN,FALSE,1,0,win,Jakarta,Indonesia,FALSE,1429,1238,1436,1231,7
+1988-12-02,AFC Asian Cup,played,Qatar,QAT,Iran,IRN,TRUE,0,2,loss,Doha,Qatar,FALSE,1436,1660,1411,1685,-25
+1988-12-05,AFC Asian Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,2,1,win,Doha,Qatar,FALSE,1411,1484,1434,1461,23
+1988-12-09,AFC Asian Cup,played,Qatar,QAT,South Korea,KOR,TRUE,2,3,loss,Doha,Qatar,FALSE,1434,1655,1417,1672,-17
+1988-12-12,AFC Asian Cup,played,Qatar,QAT,Japan,JPN,TRUE,3,0,win,Doha,Qatar,FALSE,1417,1402,1447,1372,30
+1989-01-06,FIFA World Cup qualification,played,Qatar,QAT,Jordan,,TRUE,1,0,win,Doha,Qatar,FALSE,1447,1288,1454,1281,7
+1989-01-13,FIFA World Cup qualification,played,Qatar,QAT,Oman,,FALSE,0,0,draw,Muscat,Oman,FALSE,1454,1079,1441,1092,-13
+1989-01-20,FIFA World Cup qualification,played,Qatar,QAT,Iraq,IRQ,TRUE,1,0,win,Doha,Qatar,FALSE,1441,1695,1469,1667,28
+1989-01-27,FIFA World Cup qualification,played,Qatar,QAT,Jordan,,FALSE,1,1,draw,Amman,Jordan,FALSE,1469,1285,1464,1290,-5
+1989-02-03,FIFA World Cup qualification,played,Qatar,QAT,Oman,,TRUE,3,0,win,Doha,Qatar,FALSE,1464,1081,1468,1077,4
+1989-02-10,FIFA World Cup qualification,played,Qatar,QAT,Iraq,IRQ,FALSE,2,2,draw,Baghdad,Iraq,FALSE,1468,1672,1482,1658,14
+1989-03-27,Friendly,played,Qatar,QAT,Malaysia,,TRUE,1,0,win,Doha,Qatar,FALSE,1482,1247,1485,1244,3
+1989-07-26,Friendly,played,Qatar,QAT,Algeria,DZA,FALSE,1,1,draw,Tlemcen,Algeria,FALSE,,,,,
+1989-09-22,Friendly,played,Qatar,QAT,Kuwait,KWT,FALSE,0,1,loss,Kuwait City,Kuwait,FALSE,1470,1490,1463,1497,-7
+1989-10-13,FIFA World Cup qualification,played,Qatar,QAT,South Korea,KOR,FALSE,0,0,draw,Singapore,Singapore,TRUE,1463,1726,1476,1713,13
+1989-10-16,FIFA World Cup qualification,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,1,1,draw,Singapore,Singapore,TRUE,1476,1566,1481,1561,5
+1989-10-20,FIFA World Cup qualification,played,Qatar,QAT,North Korea,PRK,FALSE,0,2,loss,Singapore,Singapore,TRUE,1481,1545,1456,1570,-25
+1989-10-24,FIFA World Cup qualification,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,1,1,draw,Singapore,Singapore,TRUE,1456,1514,1459,1511,3
+1989-10-28,FIFA World Cup qualification,played,Qatar,QAT,China PR,,TRUE,2,1,win,Singapore,Singapore,TRUE,,,,,
+1989-11-03,Friendly,played,Qatar,QAT,Egypt,EGY,TRUE,0,2,loss,Doha,Qatar,FALSE,,,,,
+1990-02-23,Gulf Cup,played,Qatar,QAT,Bahrain,,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1486,1364,1479,1371,-7
+1990-02-27,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1479,1527,1482,1524,3
+1990-03-04,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,4,2,win,Kuwait City,Kuwait,TRUE,1482,1105,1488,1099,6
+1990-03-07,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,0,2,loss,Kuwait City,Kuwait,FALSE,1488,1484,1466,1506,-22
+1992-05-14,Friendly,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1468,1416,1459,1425,-9
+1992-05-17,Friendly,played,Qatar,QAT,Kuwait,KWT,TRUE,0,0,draw,Doha,Qatar,FALSE,1459,1475,1457,1477,-2
+1992-05-29,AFC Asian Cup qualification,played,Qatar,QAT,Syria,,TRUE,4,2,win,Doha,Qatar,FALSE,1457,1479,1480,1456,23
+1992-05-31,AFC Asian Cup qualification,played,Qatar,QAT,Oman,,TRUE,4,0,win,Doha,Qatar,FALSE,1480,1099,1484,1095,4
+1992-10-11,Friendly,played,Qatar,QAT,Hungary,HUN,TRUE,1,4,loss,Doha,Qatar,FALSE,1484,1703,1472,1715,-12
+1992-10-13,Friendly,played,Qatar,QAT,Hungary,HUN,TRUE,1,1,draw,Doha,Qatar,FALSE,1472,1715,1476,1711,4
+1992-10-29,AFC Asian Cup,played,Qatar,QAT,Thailand,,TRUE,1,1,draw,Hiroshima,Japan,TRUE,1476,1369,1469,1376,-7
+1992-10-31,AFC Asian Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,1,1,draw,Hiroshima,Japan,TRUE,1469,1616,1479,1606,10
+1992-11-02,AFC Asian Cup,played,Qatar,QAT,China PR,,FALSE,1,2,loss,Onomichi,Japan,TRUE,,,,,
+1992-11-27,Gulf Cup,played,Qatar,QAT,Oman,,TRUE,2,0,win,Doha,Qatar,FALSE,1452,1089,1456,1085,4
+1992-12-01,Gulf Cup,played,Qatar,QAT,Bahrain,,TRUE,1,0,win,Doha,Qatar,FALSE,,,,,
+1992-12-03,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,TRUE,4,0,win,Doha,Qatar,FALSE,1467,1539,1501,1505,34
+1992-12-06,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,0,win,Doha,Qatar,FALSE,1501,1512,1516,1497,15
+1992-12-10,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,0,1,loss,Doha,Qatar,FALSE,1516,1584,1494,1606,-22
+1993-03-12,Friendly,played,Qatar,QAT,Jordan,,TRUE,1,2,loss,Doha,Qatar,FALSE,1494,1382,1479,1397,-15
+1993-03-30,Friendly,played,Qatar,QAT,Norway,NOR,TRUE,1,6,loss,Doha,Qatar,FALSE,1483,1761,1472,1772,-11
+1993-04-09,FIFA World Cup qualification,played,Qatar,QAT,Indonesia,IDN,TRUE,3,1,win,Doha,Qatar,FALSE,1472,1258,1480,1250,8
+1993-04-11,FIFA World Cup qualification,played,Qatar,QAT,Vietnam,,TRUE,4,0,win,Doha,Qatar,FALSE,1480,1145,1486,1139,6
+1993-04-16,FIFA World Cup qualification,played,Qatar,QAT,Singapore,,TRUE,4,1,win,Doha,Qatar,FALSE,1486,1260,1495,1251,9
+1993-04-18,FIFA World Cup qualification,played,Qatar,QAT,North Korea,PRK,TRUE,1,2,loss,Doha,Qatar,FALSE,1495,1525,1471,1549,-24
+1993-04-24,FIFA World Cup qualification,played,Qatar,QAT,Indonesia,IDN,FALSE,4,1,win,Singapore,Singapore,TRUE,1471,1184,1482,1173,11
+1993-04-26,FIFA World Cup qualification,played,Qatar,QAT,Vietnam,,FALSE,4,0,win,Singapore,Singapore,TRUE,1482,1147,1492,1137,10
+1993-04-30,FIFA World Cup qualification,played,Qatar,QAT,Singapore,,FALSE,0,1,loss,Singapore,Singapore,FALSE,1492,1263,1465,1290,-27
+1993-05-02,FIFA World Cup qualification,played,Qatar,QAT,North Korea,PRK,FALSE,2,2,draw,Singapore,Singapore,TRUE,1465,1572,1471,1566,6
+1994-01-25,Friendly,played,Qatar,QAT,Finland,,TRUE,1,0,win,Doha,Qatar,FALSE,1471,1560,1481,1550,10
+1994-01-27,Friendly,played,Qatar,QAT,Finland,,TRUE,0,0,draw,Doha,Qatar,FALSE,1481,1550,1480,1551,-1
+1994-09-10,Friendly,played,Qatar,QAT,Oman,,TRUE,0,2,loss,Doha,Qatar,FALSE,,,,,
+1994-09-16,Friendly,played,Qatar,QAT,Yemen,,TRUE,2,0,win,Doha,Qatar,FALSE,,,,,
+1994-10-03,Asian Games,played,Qatar,QAT,Myanmar,,TRUE,2,2,draw,Miyoshi,Japan,TRUE,1432,1191,1420,1203,-12
+1994-10-05,Asian Games,played,Qatar,QAT,Japan,JPN,FALSE,1,1,draw,Hiroshima,Japan,FALSE,1420,1637,1434,1623,14
+1994-10-09,Asian Games,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,2,2,draw,Onomichi,Japan,TRUE,1434,1506,1438,1502,4
+1994-11-03,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1438,1489,1420,1507,-18
+1994-11-07,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1420,1524,1406,1538,-14
+1994-11-09,Gulf Cup,played,Qatar,QAT,Oman,,TRUE,4,2,win,Abu Dhabi,United Arab Emirates,TRUE,1406,1308,1428,1286,22
+1994-11-12,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,TRUE,1428,1658,1420,1666,-8
+1994-11-15,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1420,1439,1421,1438,1
+1996-02-18,Friendly,played,Qatar,QAT,Ecuador,ECU,TRUE,1,1,draw,Doha,Qatar,FALSE,1424,1663,1428,1659,4
+1996-02-25,Friendly,played,Qatar,QAT,Ecuador,ECU,TRUE,1,2,loss,Doha,Qatar,FALSE,1428,1668,1422,1674,-6
+1996-04-21,Friendly,played,Qatar,QAT,Kuwait,KWT,TRUE,3,1,win,Doha,Qatar,FALSE,1422,1526,1437,1511,15
+1996-05-17,Friendly,played,Qatar,QAT,Iran,IRN,FALSE,0,2,loss,Tabriz,Iran,FALSE,1437,1540,1430,1547,-7
+1996-05-25,Friendly,played,Qatar,QAT,Russia,RUS,TRUE,2,5,loss,Doha,Qatar,FALSE,1430,1924,1427,1927,-3
+1996-06-01,Friendly,played,Qatar,QAT,Iran,IRN,TRUE,0,1,loss,Doha,Qatar,FALSE,1427,1547,1418,1556,-9
+1996-06-14,AFC Asian Cup qualification,played,Qatar,QAT,Kazakhstan,,FALSE,0,1,loss,Almaty,Kazakhstan,FALSE,1418,1559,1410,1567,-8
+1996-06-28,AFC Asian Cup qualification,played,Qatar,QAT,Syria,,TRUE,1,0,win,Doha,Qatar,FALSE,1410,1468,1428,1450,18
+1996-07-05,AFC Asian Cup qualification,played,Qatar,QAT,Kazakhstan,,TRUE,3,0,win,Doha,Qatar,FALSE,1428,1534,1464,1498,36
+1996-07-19,AFC Asian Cup qualification,played,Qatar,QAT,Syria,,FALSE,1,3,loss,Damascus,Syria,FALSE,1464,1478,1444,1498,-20
+1996-09-20,FIFA World Cup qualification,played,Qatar,QAT,Sri Lanka,,TRUE,3,0,win,Doha,Qatar,FALSE,1444,958,1446,956,2
+1996-09-23,FIFA World Cup qualification,played,Qatar,QAT,Philippines,,TRUE,5,0,win,Doha,Qatar,FALSE,1446,747,1447,746,1
+1996-09-27,FIFA World Cup qualification,played,Qatar,QAT,India,,TRUE,6,0,win,Doha,Qatar,FALSE,1447,1066,1452,1061,5
+1996-10-05,Friendly,played,Qatar,QAT,New Zealand,NZL,TRUE,3,2,win,Doha,Qatar,FALSE,1452,1482,1460,1474,8
+1996-10-16,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,1,0,win,Muscat,Oman,TRUE,1460,1563,1486,1537,26
+1996-10-19,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,2,2,draw,Muscat,Oman,TRUE,1486,1606,1493,1599,7
+1996-10-21,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,3,0,win,Muscat,Oman,FALSE,1493,1269,1516,1246,23
+1996-10-25,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,2,1,win,Muscat,Oman,TRUE,1516,1399,1530,1385,14
+1996-10-28,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,TRUE,1,2,loss,Muscat,Oman,TRUE,1530,1549,1511,1568,-19
+1997-09-19,FIFA World Cup qualification,played,Qatar,QAT,Kuwait,KWT,TRUE,0,2,loss,Doha,Qatar,FALSE,1511,1561,1477,1595,-34
+1997-09-26,FIFA World Cup qualification,played,Qatar,QAT,China PR,,TRUE,1,1,draw,Doha,Qatar,FALSE,,,,,
+1997-10-03,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,FALSE,0,3,loss,Tehran,Iran,FALSE,1480,1714,1471,1723,-9
+1997-10-11,FIFA World Cup qualification,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,1,loss,Taif,Saudi Arabia,FALSE,1471,1638,1464,1645,-7
+1997-10-24,FIFA World Cup qualification,played,Qatar,QAT,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1464,1597,1496,1565,32
+1997-10-31,FIFA World Cup qualification,played,Qatar,QAT,China PR,,FALSE,3,2,win,Dalian,China PR,FALSE,,,,,
+1997-11-07,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,TRUE,2,0,win,Doha,Qatar,FALSE,1528,1710,1565,1673,37
+1997-11-12,FIFA World Cup qualification,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,0,1,loss,Doha,Qatar,FALSE,1565,1641,1544,1662,-21
+1998-09-16,Friendly,played,Qatar,QAT,Sudan,,TRUE,1,1,draw,Doha,Qatar,FALSE,1534,1396,1528,1402,-6
+1998-09-22,Arab Cup,played,Qatar,QAT,Libya,,TRUE,2,1,win,Doha,Qatar,FALSE,1528,1381,1536,1373,8
+1998-09-26,Arab Cup,played,Qatar,QAT,Jordan,,TRUE,2,0,win,Doha,Qatar,FALSE,1536,1478,1553,1461,17
+1998-09-29,Arab Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,2,1,win,Doha,Qatar,FALSE,1553,1569,1568,1554,15
+1998-10-01,Arab Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,1,3,loss,Doha,Qatar,FALSE,1568,1690,1540,1718,-28
+1998-10-17,Friendly,played,Qatar,QAT,Burkina Faso,,TRUE,2,2,draw,Doha,Qatar,FALSE,1540,1393,1534,1399,-6
+1998-10-31,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,1,2,loss,Manama,Bahrain,TRUE,1534,1330,1503,1361,-31
+1998-11-02,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,2,6,loss,Manama,Bahrain,TRUE,1503,1634,1479,1658,-24
+1998-11-05,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,0,0,draw,Manama,Bahrain,TRUE,1479,1572,1484,1567,5
+1998-11-08,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,0,0,draw,Manama,Bahrain,FALSE,1484,1333,1481,1336,-3
+1998-11-11,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,0,0,draw,Manama,Bahrain,TRUE,1481,1736,1494,1723,13
+1998-12-03,Asian Games,played,Qatar,QAT,Tajikistan,,TRUE,2,1,win,Suphan Buri,Thailand,TRUE,1472,1498,1493,1477,21
+1998-12-05,Asian Games,played,Qatar,QAT,Maldives,,FALSE,4,0,win,Suphan Buri,Thailand,TRUE,1493,791,1494,790,1
+1998-12-08,Asian Games,played,Qatar,QAT,Lebanon,,TRUE,1,0,win,Bangkok,Thailand,TRUE,1494,1356,1506,1344,12
+1998-12-10,Asian Games,played,Qatar,QAT,Kazakhstan,,TRUE,0,2,loss,Bangkok,Thailand,TRUE,1506,1489,1475,1520,-31
+1998-12-12,Asian Games,played,Qatar,QAT,Thailand,,FALSE,2,1,win,Bangkok,Thailand,FALSE,1475,1432,1498,1409,23
+1998-12-14,Asian Games,played,Qatar,QAT,Kuwait,KWT,TRUE,0,0,draw,Bangkok,Thailand,TRUE,1498,1678,1508,1668,10
+2000-01-20,Friendly,played,Qatar,QAT,Malta,,FALSE,0,2,loss,Attard,Malta,FALSE,1447,1222,1427,1242,-20
+2000-01-24,Friendly,played,Qatar,QAT,Bosnia and Herzegovina,BIH,TRUE,2,0,win,Doha,Qatar,FALSE,1427,1544,1443,1528,16
+2000-02-23,Friendly,played,Qatar,QAT,Wales,WAL,TRUE,0,1,loss,Doha,Qatar,FALSE,1443,1564,1434,1573,-9
+2000-03-10,Friendly,played,Qatar,QAT,Sudan,,TRUE,3,0,win,Doha,Qatar,FALSE,1434,1347,1443,1338,9
+2000-03-22,Friendly,played,Qatar,QAT,Bahrain,,FALSE,0,1,loss,Manama,Bahrain,FALSE,1443,1285,1429,1299,-14
+2000-03-31,AFC Asian Cup qualification,played,Qatar,QAT,Palestine,,TRUE,1,0,win,Doha,Qatar,FALSE,1429,1297,1437,1289,8
+2000-04-02,AFC Asian Cup qualification,played,Qatar,QAT,Kazakhstan,,TRUE,3,1,win,Doha,Qatar,FALSE,1437,1501,1464,1474,27
+2000-04-04,AFC Asian Cup qualification,played,Qatar,QAT,Pakistan,,TRUE,5,0,win,Doha,Qatar,FALSE,1464,817,1465,816,1
+2000-04-08,AFC Asian Cup qualification,played,Qatar,QAT,Jordan,,TRUE,2,2,draw,Doha,Qatar,FALSE,1465,1485,1460,1490,-5
+2000-06-02,Friendly,played,Qatar,QAT,Singapore,,FALSE,5,1,win,Singapore,Singapore,FALSE,1460,1308,1476,1292,16
+2000-06-10,Friendly,played,Qatar,QAT,Thailand,,FALSE,3,2,win,Bangkok,Thailand,FALSE,1476,1508,1490,1494,14
+2000-09-24,Friendly,played,Qatar,QAT,Kuwait,KWT,TRUE,0,0,draw,Doha,Qatar,FALSE,1490,1642,1491,1641,1
+2000-09-27,Friendly,played,Qatar,QAT,Iran,IRN,TRUE,1,2,loss,Doha,Qatar,FALSE,1491,1733,1485,1739,-6
+2000-10-02,Friendly,played,Qatar,QAT,Egypt,EGY,TRUE,0,1,loss,Doha,Qatar,FALSE,1485,1666,1477,1674,-8
+2000-10-06,Friendly,played,Qatar,QAT,Thailand,,TRUE,1,1,draw,Doha,Qatar,FALSE,1477,1509,1475,1511,-2
+2000-10-08,Friendly,played,Qatar,QAT,Thailand,,TRUE,3,1,win,Doha,Qatar,FALSE,1475,1511,1487,1499,12
+2000-10-14,AFC Asian Cup,played,Qatar,QAT,Uzbekistan,,TRUE,1,1,draw,Sidon,Lebanon,TRUE,1487,1526,1490,1523,3
+2000-10-17,AFC Asian Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,0,draw,Sidon,Lebanon,TRUE,1490,1614,1499,1605,9
+2000-10-20,AFC Asian Cup,played,Qatar,QAT,Japan,JPN,FALSE,1,1,draw,Beirut,Lebanon,TRUE,1499,1737,1514,1722,15
+2000-10-23,AFC Asian Cup,played,Qatar,QAT,China PR,,FALSE,1,3,loss,Sidon,Lebanon,TRUE,,,,,
+2001-01-12,Friendly,played,Qatar,QAT,Kuwait,KWT,TRUE,1,0,win,Doha,Qatar,FALSE,1505,1621,1515,1611,10
+2001-02-10,King's Cup,played,Qatar,QAT,China PR,,FALSE,1,1,draw,Bangkok,Thailand,TRUE,,,,,
+2001-02-12,King's Cup,played,Qatar,QAT,Thailand,,FALSE,3,1,win,Bangkok,Thailand,FALSE,1521,1525,1550,1496,29
+2001-02-14,King's Cup,played,Qatar,QAT,Sweden,SWE,FALSE,0,0,draw,Bangkok,Thailand,TRUE,1550,1796,1559,1787,9
+2001-02-17,King's Cup,played,Qatar,QAT,Thailand,,FALSE,0,2,loss,Bangkok,Thailand,FALSE,1559,1473,1537,1495,-22
+2001-03-04,FIFA World Cup qualification,played,Qatar,QAT,Malaysia,,TRUE,5,1,win,So Kon Po,Hong Kong,TRUE,1537,1303,1552,1288,15
+2001-03-08,FIFA World Cup qualification,played,Qatar,QAT,Palestine,,FALSE,2,1,win,So Kon Po,Hong Kong,TRUE,1552,1260,1558,1254,6
+2001-03-11,FIFA World Cup qualification,played,Qatar,QAT,Hong Kong,,FALSE,2,0,win,So Kon Po,Hong Kong,FALSE,1558,1174,1568,1164,10
+2001-03-20,FIFA World Cup qualification,played,Qatar,QAT,Malaysia,,TRUE,0,0,draw,Doha,Qatar,FALSE,1568,1296,1552,1312,-16
+2001-03-23,FIFA World Cup qualification,played,Qatar,QAT,Palestine,,TRUE,2,1,win,Doha,Qatar,FALSE,1552,1292,1556,1288,4
+2001-03-25,FIFA World Cup qualification,played,Qatar,QAT,Hong Kong,,TRUE,3,0,win,Doha,Qatar,FALSE,1556,1179,1560,1175,4
+2001-07-24,Friendly,played,Qatar,QAT,North Macedonia,,FALSE,1,0,win,Évreux,France,TRUE,1560,1520,1569,1511,9
+2001-08-01,Friendly,played,Qatar,QAT,Iran,IRN,TRUE,2,1,win,Doha,Qatar,FALSE,1569,1723,1581,1711,12
+2001-08-05,Friendly,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,2,1,win,Riyadh,Saudi Arabia,FALSE,1581,1700,1597,1684,16
+2001-08-10,Friendly,played,Qatar,QAT,Bahrain,,TRUE,1,1,draw,Doha,Qatar,FALSE,1597,1385,1590,1392,-7
+2001-08-16,FIFA World Cup qualification,played,Qatar,QAT,Oman,,TRUE,0,0,draw,Doha,Qatar,FALSE,1590,1394,1576,1408,-14
+2001-08-26,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,FALSE,1,2,loss,Tashkent,Uzbekistan,FALSE,1576,1507,1558,1525,-18
+2001-08-31,FIFA World Cup qualification,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1558,1481,1590,1449,32
+2001-09-07,FIFA World Cup qualification,played,Qatar,QAT,China PR,,TRUE,1,1,draw,Doha,Qatar,FALSE,,,,,
+2001-09-14,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,0,0,draw,Doha,Qatar,FALSE,1591,1541,1587,1545,-4
+2001-09-21,FIFA World Cup qualification,played,Qatar,QAT,Oman,,FALSE,3,0,win,Muscat,Oman,FALSE,1587,1376,1611,1352,24
+2001-09-28,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,TRUE,2,2,draw,Doha,Qatar,FALSE,1611,1504,1600,1515,-11
+2001-10-04,FIFA World Cup qualification,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,2,loss,Doha,Qatar,FALSE,1600,1490,1569,1521,-31
+2001-10-05,Friendly,played,Qatar,QAT,Bahrain,,FALSE,0,1,loss,Manama,Bahrain,FALSE,1569,1426,1558,1437,-11
+2001-10-13,FIFA World Cup qualification,played,Qatar,QAT,China PR,,FALSE,0,3,loss,Shenyang,China PR,FALSE,,,,,
+2001-10-18,Friendly,played,Qatar,QAT,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1546,1582,1560,1568,14
+2001-12-30,Friendly,played,Qatar,QAT,Egypt,EGY,TRUE,2,2,draw,Doha,Qatar,FALSE,1560,1640,1559,1641,-1
+2002-01-08,Friendly,played,Qatar,QAT,Zimbabwe,,TRUE,0,2,loss,Doha,Qatar,FALSE,1559,1491,1537,1513,-22
+2002-01-13,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,1,3,loss,Doha,Qatar,FALSE,1537,1549,1518,1568,-19
+2002-01-17,Gulf Cup,played,Qatar,QAT,Bahrain,,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1518,1507,1537,1488,19
+2002-01-20,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,2,0,win,Riyadh,Saudi Arabia,TRUE,1537,1496,1563,1470,26
+2002-01-24,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,2,1,win,Riyadh,Saudi Arabia,TRUE,1563,1449,1577,1435,14
+2002-01-26,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1577,1530,1594,1513,17
+2002-01-30,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,1,3,loss,Riyadh,Saudi Arabia,FALSE,1594,1702,1580,1716,-14
+2002-02-10,King's Cup,played,Qatar,QAT,North Korea,PRK,FALSE,1,1,draw,Bangkok,Thailand,TRUE,1580,1458,1575,1463,-5
+2002-02-12,King's Cup,played,Qatar,QAT,Thailand,,FALSE,0,1,loss,Bangkok,Thailand,FALSE,1575,1446,1559,1462,-16
+2002-02-14,King's Cup,played,Qatar,QAT,Singapore,,TRUE,3,0,win,Bangkok,Thailand,TRUE,1559,1225,1566,1218,7
+2002-02-16,King's Cup,played,Qatar,QAT,Singapore,,TRUE,2,0,win,Bangkok,Thailand,TRUE,1566,1218,1571,1213,5
+2002-11-20,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,2,1,win,Doha,Qatar,FALSE,1571,1624,1580,1615,9
+2003-02-16,King's Cup,played,Qatar,QAT,Sweden,SWE,TRUE,2,3,loss,Bangkok,Thailand,TRUE,1580,1810,1574,1816,-6
+2003-02-18,King's Cup,played,Qatar,QAT,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1574,1423,1572,1425,-2
+2003-02-20,King's Cup,played,Qatar,QAT,North Korea,PRK,FALSE,2,2,draw,Bangkok,Thailand,TRUE,1572,1514,1570,1516,-2
+2003-02-22,King's Cup,played,Qatar,QAT,Thailand,,FALSE,1,3,loss,Bangkok,Thailand,FALSE,1570,1416,1544,1442,-26
+2003-03-19,Friendly,played,Qatar,QAT,Egypt,EGY,FALSE,0,6,loss,Port Said,Egypt,FALSE,1544,1593,1531,1606,-13
+2003-09-04,Friendly,played,Qatar,QAT,Algeria,DZA,FALSE,0,1,loss,Dinard,France,TRUE,1531,1490,1520,1501,-11
+2003-09-14,AFC Asian Cup qualification,played,Qatar,QAT,Kuwait,KWT,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1520,1500,1505,1515,-15
+2003-09-20,AFC Asian Cup qualification,played,Qatar,QAT,Kuwait,KWT,TRUE,2,2,draw,Doha,Qatar,FALSE,1505,1515,1500,1520,-5
+2003-09-24,AFC Asian Cup qualification,played,Qatar,QAT,Palestine,,TRUE,1,1,draw,Doha,Qatar,FALSE,1500,1279,1485,1294,-15
+2003-09-27,AFC Asian Cup qualification,played,Qatar,QAT,Palestine,,TRUE,2,1,win,Doha,Qatar,FALSE,1485,1294,1491,1288,6
+2003-11-19,AFC Asian Cup qualification,played,Qatar,QAT,Singapore,,TRUE,2,0,win,Doha,Qatar,FALSE,1491,1209,1497,1203,6
+2003-11-29,Friendly,played,Qatar,QAT,Singapore,,FALSE,2,0,win,Singapore,Singapore,FALSE,1497,1203,1512,1188,15
+2003-12-21,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,0,0,draw,Doha,Qatar,FALSE,1512,1616,1512,1616,0
+2003-12-27,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1512,1513,1512,1513,0
+2003-12-29,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1512,1670,1521,1661,9
+2004-01-03,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1521,1455,1517,1459,-4
+2004-01-05,Gulf Cup,played,Qatar,QAT,Yemen,,TRUE,3,0,win,Kuwait City,Kuwait,TRUE,1517,1173,1525,1165,8
+2004-01-08,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,2,1,win,Kuwait City,Kuwait,FALSE,1525,1527,1551,1501,26
+2004-01-11,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,0,2,loss,Kuwait City,Kuwait,TRUE,1551,1524,1519,1556,-32
+2004-02-13,Friendly,played,Qatar,QAT,Bahrain,,TRUE,2,0,win,Doha,Qatar,FALSE,1519,1586,1533,1572,14
+2004-02-18,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,FALSE,1,3,loss,Tehran,Iran,FALSE,1533,1716,1523,1726,-10
+2004-03-26,Friendly,played,Qatar,QAT,Libya,,FALSE,0,1,loss,Rome,Italy,TRUE,1523,1420,1510,1433,-13
+2004-03-31,FIFA World Cup qualification,played,Qatar,QAT,Jordan,,FALSE,0,1,loss,Amman,Jordan,FALSE,1510,1615,1501,1624,-9
+2004-05-31,Friendly,played,Qatar,QAT,Turkmenistan,,TRUE,5,0,win,Doha,Qatar,FALSE,1501,1475,1514,1462,13
+2004-06-05,Friendly,played,Qatar,QAT,Kyrgyzstan,,TRUE,0,0,draw,Doha,Qatar,FALSE,1514,1169,1505,1178,-9
+2004-06-09,FIFA World Cup qualification,played,Qatar,QAT,Laos,,TRUE,5,0,win,Doha,Qatar,FALSE,1505,893,1506,892,1
+2004-07-18,AFC Asian Cup,played,Qatar,QAT,Indonesia,IDN,TRUE,1,2,loss,Beijing,China PR,TRUE,1506,1322,1469,1359,-37
+2004-07-21,AFC Asian Cup,played,Qatar,QAT,Bahrain,,FALSE,1,1,draw,Beijing,China PR,TRUE,1469,1585,1477,1577,8
+2004-07-25,AFC Asian Cup,played,Qatar,QAT,China PR,,FALSE,0,1,loss,Beijing,China PR,FALSE,,,,,
+2004-09-08,FIFA World Cup qualification,played,Qatar,QAT,Laos,,FALSE,6,1,win,Vientiane,Laos,FALSE,1467,892,1472,887,5
+2004-10-08,Friendly,played,Qatar,QAT,Syria,,TRUE,1,2,loss,Doha,Qatar,FALSE,1472,1482,1459,1495,-13
+2004-10-13,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,TRUE,2,3,loss,Doha,Qatar,FALSE,1459,1790,1451,1798,-8
+2004-11-17,FIFA World Cup qualification,played,Qatar,QAT,Jordan,,TRUE,2,0,win,Doha,Qatar,FALSE,1451,1617,1487,1581,36
+2004-12-01,Friendly,played,Qatar,QAT,Lebanon,,TRUE,4,1,win,Doha,Qatar,FALSE,1487,1360,1494,1353,7
+2004-12-05,Friendly,played,Qatar,QAT,Yemen,,TRUE,3,0,win,Doha,Qatar,FALSE,1494,1203,1497,1200,3
+2004-12-10,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,2,2,draw,Doha,Qatar,FALSE,1497,1393,1486,1404,-11
+2004-12-13,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,TRUE,3,3,draw,Doha,Qatar,FALSE,1486,1512,1482,1516,-4
+2004-12-16,Gulf Cup,played,Qatar,QAT,Oman,,TRUE,2,1,win,Doha,Qatar,FALSE,1482,1623,1504,1601,22
+2004-12-20,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,TRUE,2,0,win,Doha,Qatar,FALSE,1504,1558,1530,1532,26
+2004-12-24,Gulf Cup,played,Qatar,QAT,Oman,,TRUE,1,1,draw,Doha,Qatar,FALSE,1530,1620,1529,1621,-1
+2005-10-11,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,0,0,draw,Doha,Qatar,FALSE,1525,1516,1522,1519,-3
+2005-11-16,Friendly,played,Qatar,QAT,Argentina,ARG,TRUE,0,3,loss,Doha,Qatar,FALSE,1522,1926,1517,1931,-5
+2006-01-02,Friendly,played,Qatar,QAT,Libya,,TRUE,2,0,win,Doha,Qatar,FALSE,1510,1481,1520,1471,10
+2006-02-14,Friendly,played,Qatar,QAT,Tajikistan,,TRUE,2,0,win,Doha,Qatar,FALSE,1520,1351,1525,1346,5
+2006-02-22,AFC Asian Cup qualification,played,Qatar,QAT,Hong Kong,,FALSE,3,0,win,So Kon Po,Hong Kong,FALSE,1525,1227,1542,1210,17
+2006-03-01,AFC Asian Cup qualification,played,Qatar,QAT,Uzbekistan,,TRUE,2,1,win,Doha,Qatar,FALSE,1542,1580,1558,1564,16
+2006-08-16,AFC Asian Cup qualification,played,Qatar,QAT,Bangladesh,,FALSE,4,1,win,Chittagong,Bangladesh,FALSE,1558,1029,1563,1024,5
+2006-09-06,AFC Asian Cup qualification,played,Qatar,QAT,Bangladesh,,TRUE,3,0,win,Doha,Qatar,FALSE,1563,1024,1565,1022,2
+2006-10-11,AFC Asian Cup qualification,played,Qatar,QAT,Hong Kong,,TRUE,2,0,win,Doha,Qatar,FALSE,1565,1245,1570,1240,5
+2006-11-15,AFC Asian Cup qualification,played,Qatar,QAT,Uzbekistan,,FALSE,0,2,loss,Tashkent,Uzbekistan,FALSE,1570,1549,1547,1572,-23
+2007-01-13,Friendly,played,Qatar,QAT,Oman,,TRUE,1,1,draw,Doha,Qatar,FALSE,1547,1563,1545,1565,-2
+2007-01-18,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1545,1600,1528,1617,-17
+2007-01-21,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1528,1603,1532,1599,4
+2007-01-24,Gulf Cup,played,Qatar,QAT,Bahrain,,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,TRUE,1532,1483,1509,1506,-23
+2007-03-24,Friendly,played,Qatar,QAT,Iran,IRN,TRUE,0,1,loss,Doha,Qatar,FALSE,1509,1784,1504,1789,-5
+2007-06-25,Friendly,played,Qatar,QAT,Turkmenistan,,TRUE,1,0,win,Doha,Qatar,FALSE,1504,1375,1508,1371,4
+2007-06-30,Friendly,played,Qatar,QAT,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1508,1352,1506,1354,-2
+2007-07-02,Friendly,played,Qatar,QAT,Thailand,,FALSE,0,2,loss,Bangkok,Thailand,FALSE,1506,1354,1489,1371,-17
+2007-07-09,AFC Asian Cup,played,Qatar,QAT,Japan,JPN,FALSE,1,1,draw,Hanoi,Vietnam,TRUE,1489,1745,1505,1729,16
+2007-07-12,AFC Asian Cup,played,Qatar,QAT,Vietnam,,FALSE,1,1,draw,Hanoi,Vietnam,FALSE,1505,1332,1500,1337,-5
+2007-07-16,AFC Asian Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,2,loss,Ho Chi Minh City,Vietnam,TRUE,1500,1457,1472,1485,-28
+2007-09-17,Friendly,played,Qatar,QAT,Oman,,TRUE,1,1,draw,Doha,Qatar,FALSE,1472,1563,1472,1563,0
+2007-10-16,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,3,2,win,Doha,Qatar,FALSE,1472,1674,1485,1661,13
+2007-10-21,FIFA World Cup qualification,played,Qatar,QAT,Sri Lanka,,FALSE,1,0,win,Colombo,Sri Lanka,FALSE,1485,954,1488,951,3
+2007-10-28,FIFA World Cup qualification,played,Qatar,QAT,Sri Lanka,,TRUE,5,0,win,Doha,Qatar,FALSE,1488,951,1490,949,2
+2007-11-16,Friendly,played,Qatar,QAT,Georgia,,TRUE,1,2,loss,Doha,Qatar,FALSE,1490,1568,1479,1579,-11
+2007-11-21,Friendly,played,Qatar,QAT,Ivory Coast,CIV,TRUE,1,6,loss,Doha,Qatar,FALSE,1479,1745,1468,1756,-11
+2008-01-10,Friendly,played,Qatar,QAT,Iran,IRN,TRUE,0,0,draw,Doha,Qatar,FALSE,1468,1789,1474,1783,6
+2008-01-13,Friendly,played,Qatar,QAT,Syria,,FALSE,0,0,draw,Damascus,Syria,FALSE,1474,1517,1478,1513,4
+2008-02-06,FIFA World Cup qualification,played,Qatar,QAT,Australia,AUS,FALSE,0,3,loss,Melbourne,Australia,FALSE,1478,1729,1470,1737,-8
+2008-03-04,Friendly,played,Qatar,QAT,Bahrain,,TRUE,1,2,loss,Doha,Qatar,FALSE,1470,1477,1457,1490,-13
+2008-03-16,Friendly,played,Qatar,QAT,Jordan,,TRUE,2,1,win,Doha,Qatar,FALSE,1457,1501,1465,1493,8
+2008-03-26,FIFA World Cup qualification,played,Qatar,QAT,Iraq,IRQ,TRUE,2,0,win,Doha,Qatar,FALSE,1465,1639,1501,1603,36
+2008-05-23,Friendly,played,Qatar,QAT,Kuwait,KWT,TRUE,1,1,draw,Doha,Qatar,FALSE,1501,1421,1496,1426,-5
+2008-05-27,Friendly,played,Qatar,QAT,Lebanon,,TRUE,2,1,win,Doha,Qatar,FALSE,1496,1322,1499,1319,3
+2008-06-02,FIFA World Cup qualification,played,Qatar,QAT,China PR,,TRUE,0,0,draw,Doha,Qatar,FALSE,,,,,
+2008-06-07,FIFA World Cup qualification,played,Qatar,QAT,China PR,,FALSE,1,0,win,Tianjin,China PR,FALSE,,,,,
+2008-06-14,FIFA World Cup qualification,played,Qatar,QAT,Australia,AUS,TRUE,1,3,loss,Doha,Qatar,FALSE,1526,1714,1503,1737,-23
+2008-06-22,FIFA World Cup qualification,played,Qatar,QAT,Iraq,IRQ,FALSE,1,0,win,Dubai,United Arab Emirates,TRUE,1503,1625,1530,1598,27
+2008-08-09,WAFF Championship,played,Qatar,QAT,Palestine,,FALSE,1,0,win,Tehran,Iran,TRUE,1530,1224,1536,1218,6
+2008-08-11,WAFF Championship,played,Qatar,QAT,Iran,IRN,FALSE,1,6,loss,Tehran,Iran,FALSE,1536,1761,1525,1772,-11
+2008-08-13,WAFF Championship,played,Qatar,QAT,Jordan,,FALSE,0,3,loss,Tehran,Iran,TRUE,1525,1524,1490,1559,-35
+2008-08-20,Friendly,played,Qatar,QAT,Tajikistan,,TRUE,5,0,win,Doha,Qatar,FALSE,1490,1293,1496,1287,6
+2008-08-24,Friendly,played,Qatar,QAT,North Korea,PRK,TRUE,2,1,win,Doha,Qatar,FALSE,1496,1531,1504,1523,8
+2008-08-30,Friendly,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,1,2,loss,Dammam,Saudi Arabia,FALSE,1504,1684,1501,1687,-3
+2008-09-06,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,TRUE,3,0,win,Doha,Qatar,FALSE,1501,1597,1536,1562,35
+2008-09-10,FIFA World Cup qualification,played,Qatar,QAT,Bahrain,,TRUE,1,1,draw,Doha,Qatar,FALSE,1536,1539,1531,1544,-5
+2008-10-15,FIFA World Cup qualification,played,Qatar,QAT,Australia,AUS,FALSE,0,4,loss,Brisbane,Australia,FALSE,1531,1732,1520,1743,-11
+2008-11-09,Friendly,played,Qatar,QAT,Iran,IRN,TRUE,0,1,loss,Doha,Qatar,FALSE,1520,1791,1515,1796,-5
+2008-11-19,FIFA World Cup qualification,played,Qatar,QAT,Japan,JPN,TRUE,0,3,loss,Doha,Qatar,FALSE,1517,1751,1495,1773,-22
+2009-01-05,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,0,0,draw,Muscat,Oman,TRUE,1510,1648,1518,1640,8
+2009-01-08,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,0,0,draw,Muscat,Oman,TRUE,1518,1431,1513,1436,-5
+2009-01-11,Gulf Cup,played,Qatar,QAT,Yemen,,TRUE,2,1,win,Muscat,Oman,TRUE,1513,1196,1519,1190,6
+2009-01-14,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,0,1,loss,Muscat,Oman,FALSE,1519,1599,1509,1609,-10
+2009-03-17,Friendly,played,Qatar,QAT,Kuwait,KWT,TRUE,1,0,win,Doha,Qatar,FALSE,1509,1465,1515,1459,6
+2009-03-21,Friendly,played,Qatar,QAT,Syria,,FALSE,2,1,win,Aleppo,Syria,FALSE,1515,1588,1530,1573,15
+2009-03-28,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,FALSE,0,4,loss,Tashkent,Uzbekistan,FALSE,1530,1541,1504,1567,-26
+2009-04-01,FIFA World Cup qualification,played,Qatar,QAT,Bahrain,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1504,1582,1493,1593,-11
+2009-05-26,Friendly,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,2,1,win,Doha,Qatar,FALSE,1493,1682,1506,1669,13
+2009-05-31,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,1,0,win,Doha,Qatar,FALSE,1506,1530,1514,1522,8
+2009-06-06,FIFA World Cup qualification,played,Qatar,QAT,Australia,AUS,TRUE,0,0,draw,Doha,Qatar,FALSE,1514,1721,1520,1715,6
+2009-06-10,FIFA World Cup qualification,played,Qatar,QAT,Japan,JPN,FALSE,1,1,draw,Yokohama,Japan,FALSE,1520,1803,1536,1787,16
+2009-09-09,Friendly,played,Qatar,QAT,Oman,,TRUE,1,1,draw,Doha,Qatar,FALSE,1536,1611,1535,1612,-1
+2009-10-08,Friendly,played,Qatar,QAT,Croatia,HRV,FALSE,2,3,loss,Rijeka,Croatia,FALSE,1535,1884,1534,1885,-1
+2009-10-11,Friendly,played,Qatar,QAT,North Macedonia,,FALSE,1,2,loss,Skopje,North Macedonia,FALSE,1534,1547,1527,1554,-7
+2009-10-14,Friendly,played,Qatar,QAT,DR Congo,,TRUE,2,2,draw,Saint-Gratien,France,TRUE,1527,1420,1524,1423,-3
+2009-11-13,Friendly,played,Qatar,QAT,Paraguay,PRY,FALSE,2,0,win,Rouen,France,TRUE,1524,1776,1548,1752,24
+2009-11-17,Friendly,played,Qatar,QAT,Belgium,BEL,FALSE,0,2,loss,Sedan,France,TRUE,1548,1572,1534,1586,-14
+2009-12-28,Friendly,played,Qatar,QAT,Iran,IRN,TRUE,3,2,win,Doha,Qatar,FALSE,1534,1670,1551,1653,17
+2009-12-30,Friendly,played,Qatar,QAT,North Korea,PRK,TRUE,0,1,loss,Doha,Qatar,FALSE,1551,1531,1531,1551,-20
+2010-01-02,Friendly,played,Qatar,QAT,Mali,,TRUE,0,0,draw,Doha,Qatar,FALSE,1531,1567,1528,1570,-3
+2010-03-03,Friendly,played,Qatar,QAT,Slovenia,SVN,FALSE,1,4,loss,Maribor,Slovenia,FALSE,1528,1673,1521,1680,-7
+2010-08-10,Friendly,played,Qatar,QAT,Bosnia and Herzegovina,BIH,FALSE,1,1,draw,Sarajevo,Bosnia and Herzegovina,FALSE,1521,1642,1527,1636,6
+2010-09-03,Friendly,played,Qatar,QAT,Bahrain,,TRUE,1,1,draw,Doha,Qatar,FALSE,1527,1532,1524,1535,-3
+2010-09-07,Friendly,played,Qatar,QAT,Oman,,TRUE,1,1,draw,Doha,Qatar,FALSE,1524,1590,1523,1591,-1
+2010-10-12,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,1,2,loss,Doha,Qatar,FALSE,1523,1554,1511,1566,-12
+2010-11-18,Friendly,played,Qatar,QAT,Haiti,HTI,TRUE,0,1,loss,Doha,Qatar,FALSE,1511,1418,1496,1433,-15
+2010-11-22,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,0,1,loss,Aden,Yemen,TRUE,1496,1546,1479,1563,-17
+2010-11-25,Gulf Cup,played,Qatar,QAT,Yemen,,FALSE,2,1,win,Zinjibar,Yemen,FALSE,1479,1349,1497,1331,18
+2010-11-28,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,1,1,draw,Aden,Yemen,TRUE,1497,1692,1507,1682,10
+2010-12-16,Friendly,played,Qatar,QAT,Egypt,EGY,TRUE,2,1,win,Doha,Qatar,FALSE,1507,1792,1522,1777,15
+2010-12-22,Friendly,played,Qatar,QAT,Estonia,,TRUE,2,0,win,Doha,Qatar,FALSE,1522,1482,1531,1473,9
+2010-12-31,Friendly,played,Qatar,QAT,North Korea,PRK,TRUE,0,1,loss,Doha,Qatar,FALSE,1533,1512,1520,1525,-13
+2011-01-07,AFC Asian Cup,played,Qatar,QAT,Uzbekistan,,TRUE,0,2,loss,Doha,Qatar,FALSE,1520,1506,1471,1555,-49
+2011-01-12,AFC Asian Cup,played,Qatar,QAT,China PR,,TRUE,2,0,win,Doha,Qatar,FALSE,,,,,
+2011-01-16,AFC Asian Cup,played,Qatar,QAT,Kuwait,KWT,TRUE,3,0,win,Doha,Qatar,FALSE,1519,1570,1557,1532,38
+2011-01-21,AFC Asian Cup,played,Qatar,QAT,Japan,JPN,TRUE,2,3,loss,Doha,Qatar,FALSE,1557,1803,1542,1818,-15
+2011-03-29,Friendly,played,Qatar,QAT,Russia,RUS,TRUE,1,1,draw,Doha,Qatar,FALSE,1542,1800,1546,1796,4
+2011-07-17,Friendly,played,Qatar,QAT,India,,TRUE,1,2,loss,Doha,Qatar,FALSE,1546,1178,1527,1197,-19
+2011-07-23,FIFA World Cup qualification,played,Qatar,QAT,Vietnam,,TRUE,3,0,win,Doha,Qatar,FALSE,1527,1252,1534,1245,7
+2011-07-28,FIFA World Cup qualification,played,Qatar,QAT,Vietnam,,FALSE,1,2,loss,Hanoi,Vietnam,FALSE,1534,1245,1504,1275,-30
+2011-08-19,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,0,1,loss,Doha,Qatar,FALSE,1504,1548,1492,1560,-12
+2011-08-25,Friendly,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,1,3,loss,Al Ain,United Arab Emirates,FALSE,1492,1458,1480,1470,-12
+2011-09-02,FIFA World Cup qualification,played,Qatar,QAT,Bahrain,,FALSE,0,0,draw,Riffa,Bahrain,FALSE,1480,1462,1485,1457,5
+2011-09-06,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,TRUE,1,1,draw,Doha,Qatar,FALSE,1485,1741,1493,1733,8
+2011-10-11,FIFA World Cup qualification,played,Qatar,QAT,Indonesia,IDN,FALSE,3,2,win,Jakarta,Indonesia,FALSE,1493,1302,1508,1287,15
+2011-11-04,Friendly,played,Qatar,QAT,Oman,,TRUE,0,0,draw,Doha,Qatar,FALSE,1508,1505,1505,1508,-3
+2011-11-11,FIFA World Cup qualification,played,Qatar,QAT,Indonesia,IDN,TRUE,4,0,win,Doha,Qatar,FALSE,1505,1287,1515,1277,10
+2011-11-15,FIFA World Cup qualification,played,Qatar,QAT,Bahrain,,TRUE,0,0,draw,Doha,Qatar,FALSE,1515,1498,1509,1504,-6
+2012-02-29,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,FALSE,2,2,draw,Tehran,Iran,FALSE,1501,1739,1516,1724,15
+2012-05-22,Friendly,played,Qatar,QAT,Albania,,FALSE,1,2,loss,Madrid,Spain,TRUE,1516,1475,1505,1486,-11
+2012-05-28,Friendly,played,Qatar,QAT,Palestine,,TRUE,0,0,draw,Doha,Qatar,FALSE,1505,1264,1497,1272,-8
+2012-06-03,FIFA World Cup qualification,played,Qatar,QAT,Lebanon,,FALSE,1,0,win,Beirut,Lebanon,FALSE,1497,1314,1512,1299,15
+2012-06-08,FIFA World Cup qualification,played,Qatar,QAT,South Korea,KOR,TRUE,1,4,loss,Doha,Qatar,FALSE,1512,1777,1492,1797,-20
+2012-06-12,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,FALSE,0,0,draw,Tehran,Iran,FALSE,1492,1732,1507,1717,15
+2012-09-06,Friendly,played,Qatar,QAT,Tajikistan,,TRUE,1,2,loss,Ingolstadt,Germany,TRUE,1507,1235,1490,1252,-17
+2012-10-16,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,TRUE,0,1,loss,Doha,Qatar,FALSE,1488,1607,1469,1626,-19
+2012-11-14,FIFA World Cup qualification,played,Qatar,QAT,Lebanon,,TRUE,1,0,win,Doha,Qatar,FALSE,1480,1336,1488,1328,8
+2012-12-28,Friendly,played,Qatar,QAT,Egypt,EGY,TRUE,0,2,loss,Doha,Qatar,FALSE,1488,1648,1476,1660,-12
+2013-01-05,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,3,loss,Riffa,Bahrain,TRUE,1476,1478,1446,1508,-30
+2013-01-08,Gulf Cup,played,Qatar,QAT,Oman,,TRUE,2,1,win,Riffa,Bahrain,TRUE,1446,1527,1471,1502,25
+2013-01-11,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1471,1468,1456,1483,-15
+2013-01-31,Friendly,played,Qatar,QAT,Lebanon,,TRUE,1,0,win,Doha,Qatar,FALSE,1456,1330,1460,1326,4
+2013-02-06,AFC Asian Cup qualification,played,Qatar,QAT,Malaysia,,TRUE,2,0,win,Doha,Qatar,FALSE,1460,1196,1467,1189,7
+2013-03-07,Friendly,played,Qatar,QAT,Egypt,EGY,TRUE,3,1,win,Doha,Qatar,FALSE,1467,1630,1485,1612,18
+2013-03-17,Friendly,played,Qatar,QAT,Thailand,,TRUE,1,0,win,Doha,Qatar,FALSE,1485,1352,1489,1348,4
+2013-03-22,AFC Asian Cup qualification,played,Qatar,QAT,Bahrain,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1489,1450,1472,1467,-17
+2013-03-26,FIFA World Cup qualification,played,Qatar,QAT,South Korea,KOR,FALSE,1,2,loss,Seoul,South Korea,FALSE,1472,1749,1468,1753,-4
+2013-04-17,Friendly,played,Qatar,QAT,Palestine,,TRUE,2,0,win,Doha,Qatar,FALSE,1468,1325,1474,1319,6
+2013-05-24,Friendly,played,Qatar,QAT,Latvia,,TRUE,3,1,win,Doha,Qatar,FALSE,1474,1495,1486,1483,12
+2013-05-29,Friendly,played,Qatar,QAT,Azerbaijan,,TRUE,1,1,draw,Doha,Qatar,FALSE,1486,1404,1481,1409,-5
+2013-06-04,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,TRUE,0,1,loss,Doha,Qatar,FALSE,1481,1647,1465,1663,-16
+2013-06-11,Friendly,played,Qatar,QAT,North Korea,PRK,TRUE,0,0,draw,Doha,Qatar,FALSE,1465,1594,1466,1593,1
+2013-06-18,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,FALSE,1,5,loss,Tashkent,Uzbekistan,FALSE,1466,1622,1452,1636,-14
+2013-09-05,Friendly,played,Qatar,QAT,Mauritius,,TRUE,3,0,win,Doha,Qatar,FALSE,1452,1057,1454,1055,2
+2013-09-09,Friendly,played,Qatar,QAT,Lebanon,,TRUE,1,1,draw,Doha,Qatar,FALSE,1454,1379,1449,1384,-5
+2013-10-09,Friendly,played,Qatar,QAT,Vietnam,,TRUE,1,2,loss,Doha,Qatar,FALSE,1449,1220,1432,1237,-17
+2013-10-13,AFC Asian Cup qualification,played,Qatar,QAT,Yemen,,TRUE,6,0,win,Doha,Qatar,FALSE,1432,1200,1443,1189,11
+2013-11-15,AFC Asian Cup qualification,played,Qatar,QAT,Yemen,,FALSE,4,1,win,Al Ain,United Arab Emirates,TRUE,1443,1189,1456,1176,13
+2013-11-19,AFC Asian Cup qualification,played,Qatar,QAT,Malaysia,,FALSE,1,0,win,Shah Alam,Malaysia,FALSE,1456,1183,1467,1172,11
+2013-12-21,Friendly,played,Qatar,QAT,Bahrain,,TRUE,1,1,draw,Doha,Qatar,FALSE,1467,1459,1464,1462,-3
+2013-12-25,WAFF Championship,played,Qatar,QAT,Palestine,,TRUE,1,0,win,Doha,Qatar,FALSE,1464,1315,1472,1307,8
+2013-12-31,WAFF Championship,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,4,1,win,Doha,Qatar,FALSE,1472,1511,1501,1482,29
+2014-01-04,WAFF Championship,played,Qatar,QAT,Kuwait,KWT,TRUE,3,0,win,Doha,Qatar,FALSE,1501,1568,1533,1536,32
+2014-01-07,WAFF Championship,played,Qatar,QAT,Jordan,,TRUE,2,0,win,Doha,Qatar,FALSE,1533,1607,1561,1579,28
+2014-03-05,AFC Asian Cup qualification,played,Qatar,QAT,Bahrain,,TRUE,0,0,draw,Doha,Qatar,FALSE,1561,1462,1551,1472,-10
+2014-05-30,Friendly,played,Qatar,QAT,North Macedonia,,FALSE,0,0,draw,Rieti,Italy,TRUE,1551,1507,1550,1508,-1
+2014-07-14,Friendly,played,Qatar,QAT,Indonesia,IDN,TRUE,2,2,draw,Al Wakrah,Qatar,FALSE,1550,1230,1542,1238,-8
+2014-09-03,Friendly,played,Qatar,QAT,Morocco,MAR,FALSE,0,0,draw,Rabat,Morocco,FALSE,1542,1516,1544,1514,2
+2014-09-09,Friendly,played,Qatar,QAT,Peru,PER,TRUE,0,2,loss,Doha,Qatar,FALSE,1544,1722,1532,1734,-12
+2014-10-06,Friendly,played,Qatar,QAT,Uzbekistan,,TRUE,3,0,win,Doha,Qatar,FALSE,1532,1631,1549,1614,17
+2014-10-09,Friendly,played,Qatar,QAT,Lebanon,,TRUE,5,0,win,Doha,Qatar,FALSE,1549,1419,1557,1411,8
+2014-10-14,Friendly,played,Qatar,QAT,Australia,AUS,TRUE,1,0,win,Doha,Qatar,FALSE,1557,1668,1567,1658,10
+2014-11-06,Friendly,played,Qatar,QAT,North Korea,PRK,TRUE,3,1,win,Doha,Qatar,FALSE,1567,1556,1577,1546,10
+2014-11-13,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,1,1,draw,Riyadh,Saudi Arabia,FALSE,1577,1457,1576,1458,-1
+2014-11-16,Gulf Cup,played,Qatar,QAT,Yemen,,FALSE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1576,1191,1560,1207,-16
+2014-11-19,Gulf Cup,played,Qatar,QAT,Bahrain,,FALSE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1560,1450,1554,1456,-6
+2014-11-23,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,3,1,win,Riyadh,Saudi Arabia,TRUE,1554,1602,1588,1568,34
+2014-11-26,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,2,1,win,Riyadh,Saudi Arabia,FALSE,1588,1512,1609,1491,21
+2014-12-27,Friendly,played,Qatar,QAT,Estonia,,TRUE,3,0,win,Doha,Qatar,FALSE,1609,1466,1616,1459,7
+2014-12-31,Friendly,played,Qatar,QAT,Oman,,TRUE,2,2,draw,Canberra,Australia,TRUE,1616,1551,1614,1553,-2
+2015-01-11,AFC Asian Cup,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,1,4,loss,Canberra,Australia,TRUE,1614,1641,1574,1681,-40
+2015-01-15,AFC Asian Cup,played,Qatar,QAT,Iran,IRN,TRUE,0,1,loss,Sydney,Australia,TRUE,1574,1698,1558,1714,-16
+2015-01-19,AFC Asian Cup,played,Qatar,QAT,Bahrain,,TRUE,1,2,loss,Sydney,Australia,TRUE,1558,1457,1526,1489,-32
+2015-03-26,Friendly,played,Qatar,QAT,Algeria,DZA,TRUE,1,0,win,Doha,Qatar,FALSE,1526,1675,1537,1664,11
+2015-03-30,Friendly,played,Qatar,QAT,Slovenia,SVN,TRUE,1,0,win,Doha,Qatar,FALSE,1537,1655,1548,1644,11
+2015-05-31,Friendly,played,Qatar,QAT,Northern Ireland,NIR,FALSE,1,1,draw,Crewe,England,TRUE,1548,1521,1547,1522,-1
+2015-06-05,Friendly,played,Qatar,QAT,Scotland,SCO,FALSE,0,1,loss,Edinburgh,Scotland,FALSE,1547,1726,1544,1729,-3
+2015-06-11,FIFA World Cup qualification,played,Qatar,QAT,Maldives,,FALSE,1,0,win,Malé,Maldives,FALSE,1544,1062,1548,1058,4
+2015-08-28,Friendly,played,Qatar,QAT,Singapore,,TRUE,4,0,win,Doha,Qatar,FALSE,1548,1197,1551,1194,3
+2015-09-03,FIFA World Cup qualification,played,Qatar,QAT,Bhutan,,TRUE,15,0,win,Doha,Qatar,FALSE,1551,582,1551,582,0
+2015-09-08,FIFA World Cup qualification,played,Qatar,QAT,Hong Kong,,FALSE,3,2,win,Kowloon,Hong Kong,FALSE,1551,1194,1558,1187,7
+2015-10-08,FIFA World Cup qualification,played,Qatar,QAT,China PR,,TRUE,1,0,win,Doha,Qatar,FALSE,,,,,
+2015-10-13,FIFA World Cup qualification,played,Qatar,QAT,Maldives,,TRUE,4,0,win,Doha,Qatar,FALSE,1573,1031,1575,1029,2
+2015-11-13,Friendly,played,Qatar,QAT,Turkey,TUR,TRUE,1,2,loss,Doha,Qatar,FALSE,1575,1805,1569,1811,-6
+2015-11-17,FIFA World Cup qualification,played,Qatar,QAT,Bhutan,,FALSE,3,0,win,Thimphu,Bhutan,FALSE,1569,575,1569,575,0
+2016-03-24,FIFA World Cup qualification,played,Qatar,QAT,Hong Kong,,TRUE,2,0,win,Doha,Qatar,FALSE,1569,1222,1573,1218,4
+2016-03-29,FIFA World Cup qualification,played,Qatar,QAT,China PR,,FALSE,0,2,loss,Xi'an,China PR,FALSE,,,,,
+2016-05-29,Friendly,played,Qatar,QAT,Albania,,FALSE,1,3,loss,Hartberg,Austria,TRUE,1550,1610,1538,1622,-12
+2016-08-08,Friendly,played,Qatar,QAT,Iraq,IRQ,TRUE,2,1,win,Doha,Qatar,FALSE,1538,1500,1544,1494,6
+2016-08-18,Friendly,played,Qatar,QAT,Jordan,,FALSE,3,2,win,Lucerne,Switzerland,TRUE,1544,1536,1554,1526,10
+2016-09-01,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,FALSE,0,2,loss,Tehran,Iran,FALSE,1562,1744,1552,1754,-10
+2016-09-06,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,TRUE,0,1,loss,Doha,Qatar,FALSE,1552,1664,1533,1683,-19
+2016-09-29,Friendly,played,Qatar,QAT,Serbia,SRB,TRUE,3,0,win,Doha,Qatar,FALSE,,,,,
+2016-10-06,FIFA World Cup qualification,played,Qatar,QAT,South Korea,KOR,FALSE,2,3,loss,Suwon,South Korea,FALSE,1533,1788,1528,1793,-5
+2016-10-11,FIFA World Cup qualification,played,Qatar,QAT,Syria,,TRUE,1,0,win,Doha,Qatar,FALSE,1528,1545,1543,1530,15
+2016-11-10,Friendly,played,Qatar,QAT,Russia,RUS,TRUE,2,1,win,Doha,Qatar,FALSE,1543,1693,1554,1682,11
+2016-11-15,FIFA World Cup qualification,played,Qatar,QAT,China PR,,FALSE,0,0,draw,Kunming,China PR,FALSE,,,,,
+2017-01-17,Friendly,played,Qatar,QAT,Moldova,,TRUE,1,1,draw,Doha,Qatar,FALSE,1558,1340,1551,1347,-7
+2017-03-09,Friendly,played,Qatar,QAT,Azerbaijan,,TRUE,1,2,loss,Doha,Qatar,FALSE,1551,1424,1535,1440,-16
+2017-03-23,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,TRUE,0,1,loss,Doha,Qatar,FALSE,1535,1757,1522,1770,-13
+2017-03-28,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,FALSE,0,1,loss,Tashkent,Uzbekistan,FALSE,1522,1637,1513,1646,-9
+2017-06-06,Friendly,played,Qatar,QAT,North Korea,PRK,TRUE,2,2,draw,Doha,Qatar,FALSE,1513,1525,1511,1527,-2
+2017-06-13,FIFA World Cup qualification,played,Qatar,QAT,South Korea,KOR,TRUE,3,2,win,Doha,Qatar,FALSE,1511,1761,1539,1733,28
+2017-08-16,Friendly,played,Qatar,QAT,Andorra,,FALSE,1,0,win,Burton on Trent,England,TRUE,1539,1022,1540,1021,1
+2017-08-23,Friendly,played,Qatar,QAT,Turkmenistan,,TRUE,2,1,win,Al Rayyan,Qatar,FALSE,1540,1255,1542,1253,2
+2017-08-31,FIFA World Cup qualification,played,Qatar,QAT,Syria,,FALSE,1,3,loss,Paya Rumput,Malaysia,TRUE,1542,1573,1515,1600,-27
+2017-09-05,FIFA World Cup qualification,played,Qatar,QAT,China PR,,TRUE,1,2,loss,Doha,Qatar,FALSE,,,,,
+2017-10-05,Friendly,played,Qatar,QAT,Singapore,,TRUE,3,1,win,Doha,Qatar,FALSE,1492,1086,1494,1084,2
+2017-10-10,Friendly,played,Qatar,QAT,Curaçao,,TRUE,1,2,loss,Doha,Qatar,FALSE,1494,1248,1476,1266,-18
+2017-11-11,Friendly,played,Qatar,QAT,Czechia,CZE,TRUE,0,1,loss,Doha,Qatar,FALSE,1476,1702,1466,1712,-10
+2017-11-14,Friendly,played,Qatar,QAT,Iceland,ISL,TRUE,1,1,draw,Doha,Qatar,FALSE,1466,1820,1475,1811,9
+2017-12-14,Friendly,played,Qatar,QAT,Liechtenstein,,TRUE,1,2,loss,Doha,Qatar,FALSE,1475,1149,1457,1167,-18
+2017-12-23,Gulf Cup,played,Qatar,QAT,Yemen,,TRUE,4,0,win,Kuwait City,Kuwait,TRUE,1457,1225,1473,1209,16
+2017-12-26,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,FALSE,1,2,loss,Kuwait City,Kuwait,TRUE,1473,1549,1457,1565,-16
+2017-12-29,Gulf Cup,played,Qatar,QAT,Bahrain,,TRUE,1,1,draw,Kuwait City,Kuwait,TRUE,1457,1418,1455,1420,-2
+2018-03-21,Friendly,played,Qatar,QAT,Iraq,IRQ,FALSE,3,2,win,Basra,Iraq,FALSE,1455,1585,1479,1561,24
+2018-03-24,Friendly,played,Qatar,QAT,Syria,,TRUE,2,2,draw,Basra,Iraq,TRUE,1479,1611,1484,1606,5
+2018-09-07,Friendly,played,Qatar,QAT,China PR,,TRUE,1,0,win,Doha,Qatar,FALSE,,,,,
+2018-09-11,Friendly,played,Qatar,QAT,Palestine,,TRUE,3,0,win,Doha,Qatar,FALSE,1493,1381,1501,1373,8
+2018-10-12,Friendly,played,Qatar,QAT,Ecuador,ECU,TRUE,4,3,win,Doha,Qatar,FALSE,1501,1761,1515,1747,14
+2018-10-16,Friendly,played,Qatar,QAT,Uzbekistan,,FALSE,0,2,loss,Tashkent,Uzbekistan,FALSE,1515,1597,1507,1605,-8
+2018-11-14,Friendly,played,Qatar,QAT,Switzerland,CHE,FALSE,1,0,win,Lugano,Switzerland,FALSE,1507,1895,1526,1876,19
+2018-11-19,Friendly,played,Qatar,QAT,Iceland,ISL,FALSE,2,2,draw,Eupen,Belgium,TRUE,1526,1672,1530,1668,4
+2018-12-23,Friendly,played,Qatar,QAT,Jordan,,TRUE,2,0,win,Doha,Qatar,FALSE,1530,1454,1538,1446,8
+2018-12-25,Friendly,played,Qatar,QAT,Kyrgyzstan,,TRUE,1,0,win,Doha,Qatar,FALSE,1538,1280,1540,1278,2
+2018-12-27,Friendly,played,Qatar,QAT,Algeria,DZA,TRUE,0,1,loss,Doha,Qatar,FALSE,1540,1528,1527,1541,-13
+2018-12-31,Friendly,played,Qatar,QAT,Iran,IRN,TRUE,1,2,loss,Doha,Qatar,FALSE,1527,1818,1522,1823,-5
+2019-01-09,AFC Asian Cup,played,Qatar,QAT,Lebanon,,TRUE,2,0,win,Al Ain,United Arab Emirates,TRUE,1522,1455,1552,1425,30
+2019-01-13,AFC Asian Cup,played,Qatar,QAT,North Korea,PRK,FALSE,6,0,win,Al Ain,United Arab Emirates,TRUE,1552,1403,1584,1371,32
+2019-01-17,AFC Asian Cup,played,Qatar,QAT,Saudi Arabia,SAU,FALSE,2,0,win,Abu Dhabi,United Arab Emirates,TRUE,1584,1630,1626,1588,42
+2019-01-22,AFC Asian Cup,played,Qatar,QAT,Iraq,IRQ,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1626,1614,1650,1590,24
+2019-01-25,AFC Asian Cup,played,Qatar,QAT,South Korea,KOR,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1650,1803,1685,1768,35
+2019-01-29,AFC Asian Cup,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1685,1514,1722,1477,37
+2019-02-01,AFC Asian Cup,played,Qatar,QAT,Japan,JPN,FALSE,3,1,win,Abu Dhabi,United Arab Emirates,TRUE,1722,1830,1771,1781,49
+2019-06-05,Friendly,played,Qatar,QAT,Brazil,BRA,FALSE,0,2,loss,Brasília,Brazil,FALSE,1771,2131,1769,2133,-2
+2019-06-16,Copa América,played,Qatar,QAT,Paraguay,PRY,FALSE,2,2,draw,Rio de Janeiro,Brazil,TRUE,1769,1705,1764,1710,-5
+2019-06-19,Copa América,played,Qatar,QAT,Colombia,COL,FALSE,0,1,loss,São Paulo,Brazil,TRUE,1764,2004,1754,2014,-10
+2019-06-23,Copa América,played,Qatar,QAT,Argentina,ARG,TRUE,0,2,loss,Porto Alegre,Brazil,TRUE,1754,1867,1728,1893,-26
+2019-09-05,FIFA World Cup qualification,played,Qatar,QAT,Afghanistan,,TRUE,6,0,win,Doha,Qatar,FALSE,1728,1139,1730,1137,2
+2019-09-10,FIFA World Cup qualification,played,Qatar,QAT,India,,TRUE,0,0,draw,Doha,Qatar,FALSE,1730,1198,1711,1217,-19
+2019-10-10,FIFA World Cup qualification,played,Qatar,QAT,Bangladesh,,FALSE,2,0,win,Dhaka,Bangladesh,FALSE,1711,821,1712,820,1
+2019-10-15,FIFA World Cup qualification,played,Qatar,QAT,Oman,,TRUE,2,1,win,Al Wakrah,Qatar,FALSE,1712,1522,1718,1516,6
+2019-11-14,Friendly,played,Qatar,QAT,Singapore,,TRUE,2,0,win,Doha,Qatar,FALSE,1718,1137,1719,1136,1
+2019-11-19,FIFA World Cup qualification,played,Qatar,QAT,Afghanistan,,FALSE,1,0,win,Dushanbe,Tajikistan,TRUE,1719,1141,1720,1140,1
+2019-11-26,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,TRUE,1,2,loss,Doha,Qatar,FALSE,1720,1598,1689,1629,-31
+2019-11-29,Gulf Cup,played,Qatar,QAT,Yemen,,TRUE,6,0,win,Doha,Qatar,FALSE,1689,1196,1692,1193,3
+2019-12-02,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,4,2,win,Doha,Qatar,FALSE,1692,1459,1700,1451,8
+2019-12-05,Gulf Cup,played,Qatar,QAT,Saudi Arabia,SAU,TRUE,0,1,loss,Al Wakrah,Qatar,FALSE,1700,1546,1668,1578,-32
+2020-10-12,Friendly,played,Qatar,QAT,Ghana,GHA,FALSE,1,5,loss,Aksu,Turkey,TRUE,1668,1608,1646,1630,-22
+2020-11-13,Friendly,played,Qatar,QAT,Costa Rica,CRI,FALSE,1,1,draw,Maria Enzersdorf,Austria,TRUE,1646,1620,1645,1621,-1
+2020-11-17,Friendly,played,Qatar,QAT,South Korea,KOR,FALSE,1,2,loss,Maria Enzersdorf,Austria,TRUE,1645,1766,1638,1773,-7
+2020-12-04,FIFA World Cup qualification,played,Qatar,QAT,Bangladesh,,TRUE,5,0,win,Doha,Qatar,FALSE,1638,848,1638,848,0
+2021-03-24,Friendly,played,Qatar,QAT,Luxembourg,,TRUE,1,0,win,Debrecen,Hungary,TRUE,1638,1363,1641,1360,3
+2021-03-27,Friendly,played,Qatar,QAT,Azerbaijan,,TRUE,2,1,win,Debrecen,Hungary,TRUE,1641,1382,1645,1378,4
+2021-03-30,Friendly,played,Qatar,QAT,Republic of Ireland,IRL,FALSE,1,1,draw,Debrecen,Hungary,TRUE,,,,,
+2021-06-03,FIFA World Cup qualification,played,Qatar,QAT,India,,TRUE,1,0,win,Doha,Qatar,FALSE,1644,1195,1646,1193,2
+2021-06-07,FIFA World Cup qualification,played,Qatar,QAT,Oman,,TRUE,1,0,win,Doha,Qatar,FALSE,1646,1505,1654,1497,8
+2021-07-04,Friendly,played,Qatar,QAT,El Salvador,SLV,TRUE,1,0,win,Pula,Croatia,TRUE,1654,1501,1660,1495,6
+2021-07-13,Gold Cup,played,Qatar,QAT,Panama,PAN,TRUE,3,3,draw,Houston,United States,TRUE,1660,1548,1652,1556,-8
+2021-07-17,Gold Cup,played,Qatar,QAT,Grenada,,FALSE,4,0,win,Houston,United States,TRUE,1652,1147,1657,1142,5
+2021-07-20,Gold Cup,played,Qatar,QAT,Honduras,HND,FALSE,2,0,win,Houston,United States,TRUE,1657,1633,1692,1598,35
+2021-07-24,Gold Cup,played,Qatar,QAT,El Salvador,SLV,TRUE,3,2,win,Glendale,United States,TRUE,1692,1548,1707,1533,15
+2021-07-29,Gold Cup,played,Qatar,QAT,United States,USA,FALSE,0,1,loss,Austin,United States,FALSE,1707,1827,1696,1838,-11
+2021-09-01,Friendly,played,Qatar,QAT,Serbia,SRB,TRUE,0,4,loss,Debrecen,Hungary,TRUE,1696,1785,1682,1799,-14
+2021-09-04,Friendly,played,Qatar,QAT,Portugal,PRT,TRUE,1,3,loss,Debrecen,Hungary,TRUE,1682,2008,1678,2012,-4
+2021-09-07,Friendly,played,Qatar,QAT,Luxembourg,,FALSE,1,1,draw,Luxembourg,Luxembourg,FALSE,1678,1396,1673,1401,-5
+2021-10-09,Friendly,played,Qatar,QAT,Portugal,PRT,FALSE,0,3,loss,Faro-Loulé,Portugal,FALSE,1673,2015,1670,2018,-3
+2021-10-12,Friendly,played,Qatar,QAT,Republic of Ireland,IRL,FALSE,0,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2021-11-11,Friendly,played,Qatar,QAT,Serbia,SRB,FALSE,0,4,loss,Belgrade,Serbia,FALSE,1655,1805,1648,1812,-7
+2021-11-14,Friendly,played,Qatar,QAT,Azerbaijan,,FALSE,2,2,draw,Baku,Azerbaijan,FALSE,1648,1315,1642,1321,-6
+2021-11-30,Arab Cup,played,Qatar,QAT,Bahrain,,TRUE,1,0,win,Al Khor,Qatar,FALSE,1642,1553,1652,1543,10
+2021-12-03,Arab Cup,played,Qatar,QAT,Oman,,TRUE,2,1,win,Al Rayyan,Qatar,FALSE,1652,1510,1660,1502,8
+2021-12-06,Arab Cup,played,Qatar,QAT,Iraq,IRQ,TRUE,3,0,win,Al Khor,Qatar,FALSE,1660,1568,1677,1551,17
+2021-12-10,Arab Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,5,0,win,Al Khor,Qatar,FALSE,1677,1502,1691,1488,14
+2021-12-15,Arab Cup,played,Qatar,QAT,Algeria,DZA,TRUE,1,2,loss,Doha,Qatar,FALSE,1691,1757,1669,1779,-22
+2021-12-18,Arab Cup,played,Qatar,QAT,Egypt,EGY,TRUE,0,0,draw,Doha,Qatar,FALSE,1669,1652,1663,1658,-6
+2022-03-26,Friendly,played,Qatar,QAT,Bulgaria,BGR,TRUE,2,1,win,Al Rayyan,Qatar,FALSE,1663,1517,1667,1513,4
+2022-03-29,Friendly,played,Qatar,QAT,Slovenia,SVN,TRUE,0,0,draw,Al Rayyan,Qatar,FALSE,1667,1622,1663,1626,-4
+2022-09-23,Friendly,played,Qatar,QAT,Canada,CAN,FALSE,0,2,loss,Vienna,Austria,TRUE,1658,1768,1648,1778,-10
+2022-09-27,Friendly,played,Qatar,QAT,Chile,CHL,TRUE,2,2,draw,Vienna,Austria,TRUE,1648,1704,1650,1702,2
+2022-10-23,Friendly,played,Qatar,QAT,Guatemala,,TRUE,2,0,win,Málaga,Spain,TRUE,1652,1449,1659,1442,7
+2022-10-27,Friendly,played,Qatar,QAT,Honduras,HND,TRUE,1,0,win,Marbella,Spain,TRUE,1659,1471,1664,1466,5
+2022-11-07,Friendly,played,Qatar,QAT,Panama,PAN,TRUE,2,1,win,Marbella,Spain,TRUE,,,,,
+2022-11-09,Friendly,played,Qatar,QAT,Albania,,FALSE,1,0,win,Marbella,Spain,TRUE,1674,1544,1680,1538,6
+2022-11-20,FIFA World Cup,played,Qatar,QAT,Ecuador,ECU,TRUE,0,2,loss,Al Khor,Qatar,FALSE,1680,1833,1642,1871,-38
+2022-11-25,FIFA World Cup,played,Qatar,QAT,Senegal,SEN,TRUE,1,3,loss,Doha,Qatar,FALSE,1642,1674,1588,1728,-54
+2022-11-29,FIFA World Cup,played,Qatar,QAT,Netherlands,NLD,TRUE,0,2,loss,Al Khor,Qatar,FALSE,1588,2036,1577,2047,-11
+2023-01-07,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,2,0,win,Basra,Iraq,TRUE,1577,1315,1588,1304,11
+2023-01-10,Gulf Cup,played,Qatar,QAT,Bahrain,,TRUE,1,2,loss,Basra,Iraq,TRUE,1588,1514,1564,1538,-24
+2023-01-13,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,1,draw,Basra,Iraq,TRUE,1564,1444,1557,1451,-7
+2023-01-16,Gulf Cup,played,Qatar,QAT,Iraq,IRQ,FALSE,1,2,loss,Basra,Iraq,FALSE,1557,1599,1545,1611,-12
+2023-06-15,Friendly,played,Qatar,QAT,Jamaica,JAM,FALSE,2,1,win,Ritzing,Austria,TRUE,1545,1548,1555,1538,10
+2023-06-25,Gold Cup,played,Qatar,QAT,Haiti,HTI,FALSE,1,2,loss,Houston,United States,TRUE,1544,1545,1519,1570,-25
+2023-06-29,Gold Cup,played,Qatar,QAT,Honduras,HND,TRUE,1,1,draw,Glendale,United States,TRUE,1519,1455,1514,1460,-5
+2023-07-02,Gold Cup,played,Qatar,QAT,Mexico,MEX,FALSE,1,0,win,Santa Clara,United States,TRUE,1514,1819,1557,1776,43
+2023-07-08,Gold Cup,played,Qatar,QAT,Panama,PAN,FALSE,0,4,loss,Arlington,United States,TRUE,1557,1659,1524,1692,-33
+2023-09-07,Friendly,played,Qatar,QAT,Kenya,,TRUE,1,2,loss,Al Wakrah,Qatar,FALSE,1524,1345,1507,1362,-17
+2023-09-12,Friendly,played,Qatar,QAT,Russia,RUS,TRUE,1,1,draw,Al Wakrah,Qatar,FALSE,1507,1763,1511,1759,4
+2023-10-13,Friendly,played,Qatar,QAT,Iraq,IRQ,FALSE,0,0,draw,Amman,Jordan,TRUE,1511,1601,1515,1597,4
+2023-11-16,FIFA World Cup qualification,played,Qatar,QAT,Afghanistan,,TRUE,8,1,win,Al Rayyan,Qatar,FALSE,1507,1093,1511,1089,4
+2023-11-21,FIFA World Cup qualification,played,Qatar,QAT,India,,FALSE,3,0,win,Bhubaneswar,India,FALSE,1511,1285,1534,1262,23
+2024-01-05,Friendly,played,Qatar,QAT,Jordan,,TRUE,1,2,loss,Al Rayyan,Qatar,FALSE,1534,1503,1520,1517,-14
+2024-01-12,AFC Asian Cup,played,Qatar,QAT,Lebanon,,TRUE,3,0,win,Lusail,Qatar,FALSE,1520,1310,1533,1297,13
+2024-01-17,AFC Asian Cup,played,Qatar,QAT,Tajikistan,,TRUE,1,0,win,Al Khor,Qatar,FALSE,1533,1383,1543,1373,10
+2024-01-22,AFC Asian Cup,played,Qatar,QAT,China PR,,TRUE,1,0,win,Al Rayyan,Qatar,FALSE,,,,,
+2024-01-29,AFC Asian Cup,played,Qatar,QAT,Palestine,,TRUE,2,1,win,Al Khor,Qatar,FALSE,1554,1422,1564,1412,10
+2024-02-03,AFC Asian Cup,played,Qatar,QAT,Uzbekistan,,TRUE,1,1,draw,Al Khor,Qatar,FALSE,1564,1663,1564,1663,0
+2024-02-07,AFC Asian Cup,played,Qatar,QAT,Iran,IRN,TRUE,3,2,win,Doha,Qatar,FALSE,1564,1853,1601,1816,37
+2024-02-10,AFC Asian Cup,played,Qatar,QAT,Jordan,,TRUE,3,1,win,Lusail,Qatar,FALSE,1601,1627,1631,1597,30
+2024-03-21,FIFA World Cup qualification,played,Qatar,QAT,Kuwait,KWT,TRUE,3,0,win,Doha,Qatar,FALSE,1631,1340,1638,1333,7
+2024-03-26,FIFA World Cup qualification,played,Qatar,QAT,Kuwait,KWT,FALSE,2,1,win,Al Farwaniyah,Kuwait,FALSE,1638,1333,1647,1324,9
+2024-06-06,FIFA World Cup qualification,played,Qatar,QAT,Afghanistan,,FALSE,0,0,draw,Al Hofuf,Saudi Arabia,TRUE,1647,1117,1629,1135,-18
+2024-06-11,FIFA World Cup qualification,played,Qatar,QAT,India,,TRUE,2,1,win,Al Rayyan,Qatar,FALSE,1629,1198,1631,1196,2
+2024-09-05,FIFA World Cup qualification,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,3,loss,Al Rayyan,Qatar,FALSE,1631,1502,1584,1549,-47
+2024-09-10,FIFA World Cup qualification,played,Qatar,QAT,North Korea,PRK,FALSE,2,2,draw,Vientiane,Laos,TRUE,1584,1397,1574,1407,-10
+2024-10-10,FIFA World Cup qualification,played,Qatar,QAT,Kyrgyzstan,,TRUE,3,1,win,Doha,Qatar,FALSE,1574,1275,1579,1270,5
+2024-10-15,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,FALSE,1,4,loss,Dubai,United Arab Emirates,TRUE,1579,1818,1565,1832,-14
+2024-11-14,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,TRUE,3,2,win,Al Rayyan,Qatar,FALSE,1565,1700,1587,1678,22
+2024-11-19,FIFA World Cup qualification,played,Qatar,QAT,United Arab Emirates,ARE,FALSE,0,5,loss,Abu Dhabi,United Arab Emirates,FALSE,1587,1528,1552,1563,-35
+2024-12-21,Gulf Cup,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,1,1,draw,Sulaibikhat,Kuwait,TRUE,1552,1563,1553,1562,1
+2024-12-24,Gulf Cup,played,Qatar,QAT,Oman,,FALSE,1,2,loss,Sulaibikhat,Kuwait,TRUE,1553,1487,1529,1511,-24
+2024-12-27,Gulf Cup,played,Qatar,QAT,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1529,1347,1524,1352,-5
+2025-03-20,FIFA World Cup qualification,played,Qatar,QAT,North Korea,PRK,TRUE,5,1,win,Al Rayyan,Qatar,FALSE,1524,1411,1541,1394,17
+2025-03-25,FIFA World Cup qualification,played,Qatar,QAT,Kyrgyzstan,,FALSE,1,3,loss,Bishkek,Kyrgyzstan,FALSE,1541,1279,1498,1322,-43
+2025-06-05,FIFA World Cup qualification,played,Qatar,QAT,Iran,IRN,TRUE,1,0,win,Al Rayyan,Qatar,FALSE,1498,1830,1530,1798,32
+2025-06-10,FIFA World Cup qualification,played,Qatar,QAT,Uzbekistan,,FALSE,0,3,loss,Tashkent,Uzbekistan,FALSE,1530,1694,1517,1707,-13
+2025-08-24,Friendly,played,Qatar,QAT,Lebanon,,TRUE,2,2,draw,Doha,Qatar,FALSE,,,,,
+2025-09-03,Friendly,played,Qatar,QAT,Bahrain,,TRUE,2,2,draw,Doha,Qatar,FALSE,1500,1449,1496,1453,-4
+2025-09-07,Friendly,played,Qatar,QAT,Russia,RUS,TRUE,1,4,loss,Doha,Qatar,FALSE,1496,1787,1487,1796,-9
+2025-10-08,FIFA World Cup qualification,played,Qatar,QAT,Oman,,TRUE,0,0,draw,Al Rayyan,Qatar,FALSE,1487,1517,1483,1521,-4
+2025-10-14,FIFA World Cup qualification,played,Qatar,QAT,United Arab Emirates,ARE,TRUE,2,1,win,Al Rayyan,Qatar,FALSE,1483,1567,1502,1548,19
+2025-11-17,Friendly,played,Qatar,QAT,Zimbabwe,,TRUE,1,2,loss,Ar-Rayyan,Qatar,FALSE,1502,1336,1486,1352,-16
+2025-12-01,Arab Cup,played,Qatar,QAT,Palestine,,TRUE,0,1,loss,Al Khor,Qatar,FALSE,1486,1447,1458,1475,-28
+2025-12-04,Arab Cup,played,Qatar,QAT,Syria,,TRUE,1,1,draw,Al Rayyan,Qatar,FALSE,1458,1487,1454,1491,-4
+2025-12-07,Arab Cup,played,Qatar,QAT,Tunisia,TUN,TRUE,0,3,loss,Al Khor,Qatar,FALSE,1454,1612,1425,1641,-29

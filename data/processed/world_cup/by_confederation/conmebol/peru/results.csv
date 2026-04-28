@@ -1,0 +1,713 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1927-11-01,Copa América,played,Peru,PER,Uruguay,URY,TRUE,0,4,loss,Lima,Peru,FALSE,1600,2028,1588,2040,-12
+1927-11-13,Copa América,played,Peru,PER,Bolivia,BOL,TRUE,3,2,win,Lima,Peru,FALSE,1588,1262,1592,1258,4
+1927-11-27,Copa América,played,Peru,PER,Argentina,ARG,TRUE,1,5,loss,Lima,Peru,FALSE,1592,1993,1578,2007,-14
+1929-11-03,Copa América,played,Peru,PER,Argentina,ARG,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1578,2050,1575,2053,-3
+1929-11-11,Copa América,played,Peru,PER,Uruguay,URY,TRUE,1,4,loss,Buenos Aires,Argentina,TRUE,1575,1972,1567,1980,-8
+1929-11-16,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,0,5,loss,Avellaneda,Argentina,TRUE,1567,1751,1541,1777,-26
+1930-07-14,FIFA World Cup,played,Peru,PER,Romania,ROU,TRUE,1,3,loss,Montevideo,Uruguay,TRUE,1541,1561,1499,1603,-42
+1930-07-18,FIFA World Cup,played,Peru,PER,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1499,1968,1497,1970,-2
+1935-01-13,Copa América,played,Peru,PER,Uruguay,URY,TRUE,0,1,loss,Lima,Peru,FALSE,1497,1964,1492,1969,-5
+1935-01-20,Copa América,played,Peru,PER,Argentina,ARG,TRUE,1,4,loss,Lima,Peru,FALSE,1492,2027,1485,2034,-7
+1935-01-26,Copa América,played,Peru,PER,Chile,CHL,TRUE,1,0,win,Lima,Peru,FALSE,1485,1630,1513,1602,28
+1936-12-27,Copa América,played,Peru,PER,Brazil,BRA,FALSE,2,3,loss,Buenos Aires,Argentina,TRUE,1559,1859,1551,1867,-8
+1937-01-06,Copa América,played,Peru,PER,Uruguay,URY,TRUE,2,4,loss,Buenos Aires,Argentina,TRUE,1551,1940,1544,1947,-7
+1937-01-16,Copa América,played,Peru,PER,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1544,2026,1542,2028,-2
+1937-01-21,Copa América,played,Peru,PER,Chile,CHL,FALSE,2,2,draw,Buenos Aires,Argentina,TRUE,1542,1645,1549,1638,7
+1937-01-24,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,1,0,win,Buenos Aires,Argentina,TRUE,1549,1775,1588,1736,39
+1938-08-08,Bolivarian Games,played,Peru,PER,Colombia,COL,FALSE,4,2,win,Bogotá,Colombia,FALSE,1588,1415,1612,1391,24
+1938-08-11,Bolivarian Games,played,Peru,PER,Ecuador,ECU,FALSE,9,1,win,Bogotá,Colombia,TRUE,1612,1327,1627,1312,15
+1938-08-14,Bolivarian Games,played,Peru,PER,Bolivia,BOL,FALSE,3,0,win,Bogota,Colombia,TRUE,1627,1281,1635,1273,8
+1938-08-17,Bolivarian Games,played,Peru,PER,Venezuela,,TRUE,2,1,win,Bogotá,Colombia,TRUE,1635,1250,1639,1246,4
+1939-01-15,Copa América,played,Peru,PER,Ecuador,ECU,TRUE,5,2,win,Lima,Peru,FALSE,1639,1318,1646,1311,7
+1939-01-22,Copa América,played,Peru,PER,Chile,CHL,TRUE,3,1,win,Lima,Peru,FALSE,1646,1604,1669,1581,23
+1939-01-29,Copa América,played,Peru,PER,Paraguay,PRY,TRUE,3,0,win,Lima,Peru,FALSE,1669,1770,1713,1726,44
+1939-02-12,Copa América,played,Peru,PER,Uruguay,URY,TRUE,2,1,win,Lima,Peru,FALSE,1713,1879,1743,1849,30
+1941-01-19,Friendly,played,Peru,PER,Argentina,ARG,TRUE,1,1,draw,Lima,Peru,FALSE,1743,2087,1752,2078,9
+1941-01-26,Friendly,played,Peru,PER,Argentina,ARG,TRUE,1,1,draw,Lima,Peru,FALSE,1752,2078,1761,2069,9
+1941-01-29,Friendly,played,Peru,PER,Argentina,ARG,TRUE,0,3,loss,Lima,Peru,FALSE,1761,2069,1749,2081,-12
+1941-02-09,Copa América,played,Peru,PER,Chile,CHL,FALSE,0,1,loss,Santiago,Chile,FALSE,1749,1600,1720,1629,-29
+1941-02-12,Copa América,played,Peru,PER,Argentina,ARG,FALSE,1,2,loss,Santiago,Chile,TRUE,1720,2081,1714,2087,-6
+1941-02-23,Copa América,played,Peru,PER,Ecuador,ECU,FALSE,4,0,win,Santiago,Chile,TRUE,1714,1271,1721,1264,7
+1941-02-26,Copa América,played,Peru,PER,Uruguay,URY,TRUE,0,2,loss,Santiago,Chile,TRUE,1721,1910,1702,1929,-19
+1942-01-18,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,1,1,draw,Montevideo,Uruguay,TRUE,1702,1688,1701,1689,-1
+1942-01-21,Copa América,played,Peru,PER,Brazil,BRA,FALSE,1,2,loss,Montevideo,Uruguay,TRUE,1701,1884,1688,1897,-13
+1942-01-25,Copa América,played,Peru,PER,Argentina,ARG,FALSE,1,3,loss,Montevideo,Uruguay,TRUE,1688,2123,1682,2129,-6
+1942-01-28,Copa América,played,Peru,PER,Ecuador,ECU,FALSE,2,1,win,Montevideo,Uruguay,TRUE,1682,1257,1686,1253,4
+1942-02-01,Copa América,played,Peru,PER,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1686,1963,1677,1972,-9
+1942-02-07,Copa América,played,Peru,PER,Chile,CHL,FALSE,0,0,draw,Montevideo,Uruguay,TRUE,1677,1584,1670,1591,-7
+1947-12-06,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,2,2,draw,Guayaquil,Ecuador,TRUE,1670,1764,1677,1757,7
+1947-12-09,Copa América,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Guayaquil,Ecuador,TRUE,1677,1641,1649,1669,-28
+1947-12-11,Copa América,played,Peru,PER,Argentina,ARG,FALSE,2,3,loss,Guayaquil,Ecuador,TRUE,1649,2096,1645,2100,-4
+1947-12-20,Copa América,played,Peru,PER,Ecuador,ECU,FALSE,0,0,draw,Guayaquil,Ecuador,FALSE,1645,1205,1626,1224,-19
+1947-12-23,Copa América,played,Peru,PER,Colombia,COL,FALSE,5,1,win,Guayaquil,Ecuador,TRUE,1626,1449,1651,1424,25
+1947-12-25,Copa América,played,Peru,PER,Uruguay,URY,TRUE,0,1,loss,Guayaquil,Ecuador,TRUE,1651,1820,1637,1834,-14
+1947-12-27,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,2,0,win,Guayaquil,Ecuador,TRUE,1637,1292,1646,1283,9
+1949-04-10,Copa América,played,Peru,PER,Colombia,COL,FALSE,4,0,win,Rio de Janeiro,Brazil,TRUE,1646,1401,1664,1383,18
+1949-04-13,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,1,3,loss,Rio de Janeiro,Brazil,TRUE,1664,1849,1645,1868,-19
+1949-04-20,Copa América,played,Peru,PER,Ecuador,ECU,FALSE,4,0,win,Rio de Janeiro,Brazil,TRUE,1645,1211,1652,1204,7
+1949-04-24,Copa América,played,Peru,PER,Brazil,BRA,FALSE,1,7,loss,Rio de Janeiro,Brazil,FALSE,1652,1959,1643,1968,-9
+1949-04-27,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,3,0,win,Santos,Brazil,TRUE,1643,1392,1660,1375,17
+1949-04-30,Copa América,played,Peru,PER,Chile,CHL,FALSE,3,0,win,São Paulo,Brazil,TRUE,1660,1622,1699,1583,39
+1949-05-04,Copa América,played,Peru,PER,Uruguay,URY,TRUE,4,3,win,Rio de Janeiro,Brazil,TRUE,1699,1809,1732,1776,33
+1952-03-23,Pan American Championship,played,Peru,PER,Panama,PAN,FALSE,7,1,win,Santiago,Chile,TRUE,1732,1485,1753,1464,21
+1952-03-30,Pan American Championship,played,Peru,PER,Uruguay,URY,TRUE,2,5,loss,Santiago,Chile,TRUE,1753,1895,1726,1922,-27
+1952-04-02,Pan American Championship,played,Peru,PER,Chile,CHL,FALSE,2,3,loss,Santiago,Chile,FALSE,1726,1701,1706,1721,-20
+1952-04-10,Pan American Championship,played,Peru,PER,Brazil,BRA,FALSE,0,0,draw,Santiago,Chile,TRUE,1706,2022,1724,2004,18
+1952-04-20,Pan American Championship,played,Peru,PER,Mexico,MEX,FALSE,3,0,win,Santiago,Chile,TRUE,1724,1675,1762,1637,38
+1953-02-22,Copa América,played,Peru,PER,Bolivia,BOL,TRUE,0,1,loss,Lima,Peru,FALSE,1762,1423,1716,1469,-46
+1953-02-28,Copa América,played,Peru,PER,Ecuador,ECU,TRUE,1,0,win,Lima,Peru,FALSE,1716,1253,1718,1251,2
+1953-03-04,Copa América,played,Peru,PER,Chile,CHL,TRUE,0,0,draw,Lima,Peru,FALSE,1718,1749,1713,1754,-5
+1953-03-08,Copa América,played,Peru,PER,Paraguay,PRY,TRUE,2,2,draw,Lima,Peru,FALSE,1713,1857,1716,1854,3
+1953-03-19,Copa América,played,Peru,PER,Brazil,BRA,TRUE,1,0,win,Lima,Peru,FALSE,1716,2072,1757,2031,41
+1953-03-28,Copa América,played,Peru,PER,Uruguay,URY,TRUE,0,3,loss,Lima,Peru,FALSE,1757,1825,1709,1873,-48
+1953-07-26,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,1,2,loss,Lima,Peru,FALSE,1709,1719,1690,1738,-19
+1953-07-28,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,5,0,win,Lima,Peru,FALSE,1690,1738,1716,1712,26
+1954-09-17,Copa del Pacífico,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1716,1664,1703,1677,-13
+1954-09-19,Copa del Pacífico,played,Peru,PER,Chile,CHL,FALSE,4,2,win,Santiago,Chile,FALSE,1703,1677,1730,1650,27
+1955-03-06,Copa América,played,Peru,PER,Chile,CHL,FALSE,4,5,loss,Santiago,Chile,FALSE,1730,1656,1707,1679,-23
+1955-03-13,Copa América,played,Peru,PER,Ecuador,ECU,FALSE,4,2,win,Santiago,Chile,TRUE,1707,1268,1713,1262,6
+1955-03-16,Copa América,played,Peru,PER,Argentina,ARG,FALSE,2,2,draw,Santiago,Chile,TRUE,1713,2091,1733,2071,20
+1955-03-23,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,1,1,draw,Santiago,Chile,TRUE,1733,1812,1739,1806,6
+1955-03-30,Copa América,played,Peru,PER,Uruguay,URY,TRUE,2,1,win,Santiago,Chile,TRUE,1739,1929,1776,1892,37
+1956-01-22,Copa América,played,Peru,PER,Argentina,ARG,FALSE,1,2,loss,Montevideo,Uruguay,TRUE,1776,2115,1770,2121,-6
+1956-01-28,Copa América,played,Peru,PER,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1770,1911,1755,1926,-15
+1956-02-01,Copa América,played,Peru,PER,Brazil,BRA,FALSE,1,2,loss,Montevideo,Uruguay,TRUE,1755,1920,1741,1934,-14
+1956-02-05,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,1,1,draw,Montevideo,Uruguay,TRUE,1741,1794,1745,1790,4
+1956-02-09,Copa América,played,Peru,PER,Chile,CHL,FALSE,3,4,loss,Montevideo,Uruguay,TRUE,1745,1801,1724,1822,-21
+1956-02-28,Pan American Championship,played,Peru,PER,Argentina,ARG,FALSE,0,0,draw,Mexico City,Mexico,TRUE,1724,2070,1743,2051,19
+1956-03-04,Pan American Championship,played,Peru,PER,Mexico,MEX,FALSE,2,0,win,Mexico City,Mexico,FALSE,1743,1656,1782,1617,39
+1956-03-06,Pan American Championship,played,Peru,PER,Brazil,BRA,FALSE,0,1,loss,Mexico City,Mexico,TRUE,1782,1994,1771,2005,-11
+1956-03-15,Pan American Championship,played,Peru,PER,Chile,CHL,FALSE,2,2,draw,Mexico City,Mexico,TRUE,1771,1789,1772,1788,1
+1956-03-17,Pan American Championship,played,Peru,PER,Costa Rica,CRI,FALSE,2,4,loss,Mexico City,Mexico,TRUE,1772,1731,1730,1773,-42
+1957-03-10,Copa América,played,Peru,PER,Ecuador,ECU,TRUE,2,1,win,Lima,Peru,FALSE,1730,1256,1732,1254,2
+1957-03-16,Copa América,played,Peru,PER,Chile,CHL,TRUE,1,0,win,Lima,Peru,FALSE,1732,1761,1752,1741,20
+1957-03-23,Copa América,played,Peru,PER,Uruguay,URY,TRUE,3,5,loss,Lima,Peru,FALSE,1752,1866,1716,1902,-36
+1957-03-27,Copa América,played,Peru,PER,Colombia,COL,TRUE,4,1,win,Lima,Peru,FALSE,1716,1346,1721,1341,5
+1957-03-31,Copa América,played,Peru,PER,Brazil,BRA,TRUE,0,1,loss,Lima,Peru,FALSE,1721,2007,1708,2020,-13
+1957-04-06,Copa América,played,Peru,PER,Argentina,ARG,TRUE,2,1,win,Lima,Peru,FALSE,1708,2159,1752,2115,44
+1957-04-09,Friendly,played,Peru,PER,Argentina,ARG,TRUE,1,4,loss,Lima,Peru,FALSE,1752,2115,1746,2121,-6
+1957-04-13,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,TRUE,1,1,draw,Lima,Peru,FALSE,1746,1989,1754,1981,8
+1957-04-21,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1754,1981,1749,1986,-5
+1959-03-10,Copa América,played,Peru,PER,Brazil,BRA,FALSE,2,2,draw,Buenos Aires,Argentina,TRUE,1749,2143,1769,2123,20
+1959-03-14,Copa América,played,Peru,PER,Uruguay,URY,TRUE,5,3,win,Buenos Aires,Argentina,TRUE,1769,1928,1823,1874,54
+1959-03-18,Copa América,played,Peru,PER,Argentina,ARG,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,1823,1939,1806,1956,-17
+1959-03-21,Copa América,played,Peru,PER,Chile,CHL,FALSE,1,1,draw,Buenos Aires,Argentina,TRUE,1806,1635,1795,1646,-11
+1959-03-29,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,0,0,draw,Buenos Aires,Argentina,TRUE,1795,1524,1779,1540,-16
+1959-04-02,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,1,2,loss,Buenos Aires,Argentina,TRUE,1779,1755,1752,1782,-27
+1959-05-17,Friendly,played,Peru,PER,England,ENG,TRUE,4,1,win,Lima,Peru,FALSE,1752,1947,1774,1925,22
+1960-07-10,Friendly,played,Peru,PER,Spain,ESP,TRUE,1,3,loss,Lima,Peru,FALSE,1774,1925,1761,1938,-13
+1961-03-19,Friendly,played,Peru,PER,Chile,CHL,FALSE,2,5,loss,Santiago,Chile,FALSE,1761,1701,1746,1716,-15
+1961-04-30,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,0,1,loss,Bogotá,Colombia,FALSE,1746,1389,1713,1422,-33
+1961-05-07,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,1,1,draw,Lima,Peru,FALSE,1713,1422,1697,1438,-16
+1962-05-20,Friendly,played,Peru,PER,England,ENG,TRUE,0,4,loss,Lima,Peru,FALSE,1697,1910,1684,1923,-13
+1963-03-10,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,1,loss,Cochabamba,Bolivia,TRUE,1684,2186,1681,2189,-3
+1963-03-13,Copa América,played,Peru,PER,Argentina,ARG,FALSE,2,1,win,Cochabamba,Bolivia,TRUE,1681,1963,1723,1921,42
+1963-03-17,Copa América,played,Peru,PER,Ecuador,ECU,FALSE,2,1,win,La Paz,Bolivia,TRUE,1723,1330,1728,1325,5
+1963-03-21,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,2,3,loss,La Paz,Bolivia,FALSE,1728,1549,1697,1580,-31
+1963-03-24,Copa América,played,Peru,PER,Colombia,COL,FALSE,1,1,draw,La Paz,Bolivia,TRUE,1697,1433,1681,1449,-16
+1963-03-27,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,1,4,loss,Cochabamba,Bolivia,TRUE,1681,1704,1640,1745,-41
+1965-04-03,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,0,1,loss,Lima,Peru,FALSE,1640,1794,1632,1802,-8
+1965-04-15,Copa del Pacífico,played,Peru,PER,Chile,CHL,FALSE,1,4,loss,Santiago,Chile,FALSE,1632,1809,1623,1818,-9
+1965-04-28,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,0,1,loss,Lima,Peru,FALSE,1623,1818,1612,1829,-11
+1965-05-16,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,1,0,win,Lima,Peru,FALSE,1612,1396,1618,1390,6
+1965-06-02,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,6,3,win,Caracas,Venezuela,FALSE,1618,1380,1640,1358,22
+1965-06-06,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,0,1,loss,Lima,Peru,FALSE,1640,1853,1626,1867,-14
+1965-06-13,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1626,1867,1621,1872,-5
+1966-06-04,Friendly,played,Peru,PER,Brazil,BRA,FALSE,0,4,loss,São Paulo,Brazil,FALSE,1621,1999,1619,2001,-2
+1966-06-08,Friendly,played,Peru,PER,Brazil,BRA,FALSE,1,3,loss,Rio de Janeiro,Brazil,FALSE,1619,2006,1617,2008,-2
+1967-07-28,Friendly,played,Peru,PER,Uruguay,URY,TRUE,0,1,loss,Lima,Peru,FALSE,1617,1887,1612,1892,-5
+1967-07-28,Friendly,played,Peru,PER,Japan,JPN,TRUE,1,0,win,Lima,Peru,FALSE,1612,1553,1618,1547,6
+1967-07-30,Friendly,played,Peru,PER,Uruguay,URY,TRUE,1,2,loss,Lima,Peru,FALSE,1613,1892,1608,1897,-5
+1967-07-30,Friendly,played,Peru,PER,Japan,JPN,TRUE,0,0,draw,Lima,Peru,FALSE,1618,1547,1613,1552,-5
+1968-07-14,Friendly,played,Peru,PER,Brazil,BRA,TRUE,3,4,loss,Lima,Peru,FALSE,1608,1990,1603,1995,-5
+1968-07-17,Friendly,played,Peru,PER,Brazil,BRA,TRUE,0,4,loss,Lima,Peru,FALSE,1603,1995,1594,2004,-9
+1968-08-18,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,1,2,loss,Lima,Peru,FALSE,1594,1758,1582,1770,-12
+1968-08-21,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,0,0,draw,Lima,Peru,FALSE,1582,1770,1586,1766,4
+1968-08-29,Friendly,played,Peru,PER,Argentina,ARG,TRUE,2,2,draw,Lima,Peru,FALSE,1586,1912,1592,1906,6
+1968-09-01,Friendly,played,Peru,PER,Argentina,ARG,TRUE,1,1,draw,Lima,Peru,FALSE,1592,1906,1597,1901,5
+1968-10-20,Friendly,played,Peru,PER,Mexico,MEX,TRUE,3,3,draw,Lima,Peru,FALSE,1597,1845,1601,1841,4
+1969-04-07,Friendly,played,Peru,PER,Brazil,BRA,FALSE,1,2,loss,Porto Alegre,Brazil,FALSE,1601,1995,1600,1996,-1
+1969-04-09,Friendly,played,Peru,PER,Brazil,BRA,FALSE,2,3,loss,Rio de Janeiro,Brazil,FALSE,1600,1996,1599,1997,-1
+1969-05-08,Friendly,played,Peru,PER,Colombia,COL,FALSE,3,1,win,Bogotá,Colombia,FALSE,1599,1429,1611,1417,12
+1969-05-14,Friendly,played,Peru,PER,El Salvador,SLV,FALSE,4,1,win,San Salvador,El Salvador,FALSE,1611,1554,1631,1534,20
+1969-05-20,Friendly,played,Peru,PER,Mexico,MEX,FALSE,1,0,win,Mexico City,Mexico,FALSE,1631,1816,1648,1799,17
+1969-05-22,Friendly,played,Peru,PER,Mexico,MEX,FALSE,0,3,loss,León,Mexico,FALSE,1648,1799,1641,1806,-7
+1969-06-18,Friendly,played,Peru,PER,Colombia,COL,TRUE,1,1,draw,Lima,Peru,FALSE,1641,1424,1634,1431,-7
+1969-06-27,Friendly,played,Peru,PER,Uruguay,URY,TRUE,1,0,win,Lima,Peru,FALSE,1634,1841,1647,1828,13
+1969-07-09,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,2,1,win,Lima,Peru,FALSE,1647,1747,1657,1737,10
+1969-07-18,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,2,1,win,Lima,Peru,FALSE,1657,1737,1666,1728,9
+1969-08-03,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,1,0,win,Lima,Peru,FALSE,1666,1846,1691,1821,25
+1969-08-10,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,1,2,loss,La Paz,Bolivia,FALSE,1691,1632,1673,1650,-18
+1969-08-17,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,3,0,win,Lima,Peru,FALSE,1673,1650,1696,1627,23
+1969-08-31,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,2,2,draw,Buenos Aires,Argentina,FALSE,1696,1827,1708,1815,12
+1970-02-04,Friendly,played,Peru,PER,Czechoslovakia,CSK,TRUE,0,2,loss,Lima,Peru,FALSE,,,,,
+1970-02-07,Friendly,played,Peru,PER,Czechoslovakia,CSK,TRUE,2,1,win,Lima,Peru,FALSE,,,,,
+1970-02-09,Friendly,played,Peru,PER,Romania,ROU,TRUE,1,1,draw,Lima,Peru,FALSE,1708,1792,1708,1792,0
+1970-02-14,Friendly,played,Peru,PER,Soviet Union,SUN,TRUE,0,0,draw,Lima,Peru,FALSE,1708,1934,1711,1931,3
+1970-02-20,Friendly,played,Peru,PER,Soviet Union,SUN,TRUE,0,2,loss,Lima,Peru,FALSE,1711,1931,1701,1941,-10
+1970-02-21,Friendly,played,Peru,PER,Bulgaria,BGR,TRUE,1,3,loss,Lima,Peru,FALSE,1701,1818,1687,1832,-14
+1970-02-24,Friendly,played,Peru,PER,Bulgaria,BGR,TRUE,5,3,win,Lima,Peru,FALSE,1687,1832,1704,1815,17
+1970-03-05,Friendly,played,Peru,PER,Mexico,MEX,TRUE,0,1,loss,Lima,Peru,FALSE,1704,1689,1691,1702,-13
+1970-03-08,Friendly,played,Peru,PER,Mexico,MEX,TRUE,1,0,win,Lima,Peru,FALSE,1691,1702,1698,1695,7
+1970-03-15,Friendly,played,Peru,PER,Mexico,MEX,FALSE,1,3,loss,Mexico City,Mexico,FALSE,1698,1695,1687,1706,-11
+1970-03-18,Friendly,played,Peru,PER,Mexico,MEX,FALSE,3,3,draw,León,Mexico,FALSE,1687,1706,1690,1703,3
+1970-03-31,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1690,1863,1685,1868,-5
+1970-04-21,Friendly,played,Peru,PER,El Salvador,SLV,TRUE,3,0,win,Lima,Peru,FALSE,1685,1541,1692,1534,7
+1970-06-02,FIFA World Cup,played,Peru,PER,Bulgaria,BGR,FALSE,3,2,win,León,Mexico,TRUE,1692,1823,1733,1782,41
+1970-06-06,FIFA World Cup,played,Peru,PER,Morocco,MAR,FALSE,3,0,win,León,Mexico,TRUE,1733,1662,1775,1620,42
+1970-06-10,FIFA World Cup,played,Peru,PER,Germany,DEU,FALSE,1,3,loss,León,Mexico,TRUE,,,,,
+1970-06-14,FIFA World Cup,played,Peru,PER,Brazil,BRA,FALSE,2,4,loss,Guadalajara,Mexico,TRUE,1758,2098,1747,2109,-11
+1971-07-27,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,0,0,draw,Lima,Peru,FALSE,1747,1725,1744,1728,-3
+1971-08-11,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,1,0,win,Lima,Peru,FALSE,1744,1735,1754,1725,10
+1971-08-15,Friendly,played,Peru,PER,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1754,1740,1743,1751,-11
+1971-08-18,Copa del Pacífico,played,Peru,PER,Chile,CHL,FALSE,0,1,loss,Santiago,Chile,FALSE,1743,1735,1732,1746,-11
+1972-03-29,Friendly,played,Peru,PER,Colombia,COL,FALSE,1,1,draw,Bogotá,Colombia,FALSE,1732,1411,1726,1417,-6
+1972-04-05,Friendly,played,Peru,PER,Mexico,MEX,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1726,1765,1720,1771,-6
+1972-04-19,Friendly,played,Peru,PER,Soviet Union,SUN,FALSE,0,2,loss,Kyiv,Soviet Union,FALSE,1720,1953,1716,1957,-4
+1972-04-23,Friendly,played,Peru,PER,Romania,ROU,FALSE,2,2,draw,Bucharest,Romania,FALSE,1716,1844,1722,1838,6
+1972-04-26,Friendly,played,Peru,PER,Scotland,SCO,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1722,1754,1712,1764,-10
+1972-05-03,Friendly,played,Peru,PER,Netherlands,NLD,FALSE,0,3,loss,Rotterdam,Netherlands,FALSE,1712,1783,1702,1793,-10
+1972-06-06,Friendly,played,Peru,PER,Colombia,COL,TRUE,0,0,draw,Lima,Peru,FALSE,1702,1408,1694,1416,-8
+1972-06-11,Brazil Independence Cup,played,Peru,PER,Bolivia,BOL,FALSE,3,0,win,Curitiba,Brazil,TRUE,1694,1611,1721,1584,27
+1972-06-14,Brazil Independence Cup,played,Peru,PER,Paraguay,PRY,FALSE,0,1,loss,Campo Grande,Brazil,TRUE,1721,1763,1703,1781,-18
+1972-06-18,Brazil Independence Cup,played,Peru,PER,Venezuela,,TRUE,1,0,win,Manaus,Brazil,TRUE,1703,1361,1708,1356,5
+1972-06-25,Brazil Independence Cup,played,Peru,PER,Yugoslavia,YUG,TRUE,1,2,loss,Manaus,Brazil,TRUE,1708,1858,1696,1870,-12
+1972-08-09,Friendly,played,Peru,PER,Mexico,MEX,TRUE,3,2,win,Lima,Peru,FALSE,1696,1759,1705,1750,9
+1972-10-25,Copa Ramón Castilla,played,Peru,PER,Argentina,ARG,TRUE,0,2,loss,Lima,Peru,FALSE,1705,1859,1686,1878,-19
+1973-03-04,Friendly,played,Peru,PER,Guatemala,,TRUE,5,1,win,Lima,Peru,FALSE,1686,1585,1695,1576,9
+1973-03-24,Friendly,played,Peru,PER,Bolivia,BOL,TRUE,2,0,win,Lima,Peru,FALSE,1695,1564,1704,1555,9
+1973-03-28,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,1,0,win,Lima,Peru,FALSE,1704,1785,1713,1776,9
+1973-04-08,Friendly,played,Peru,PER,Paraguay,PRY,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1713,1773,1717,1769,4
+1973-04-23,Friendly,played,Peru,PER,Panama,PAN,TRUE,4,0,win,Lima,Peru,FALSE,1717,1189,1718,1188,1
+1973-04-29,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,2,0,win,Lima,Peru,FALSE,1718,1710,1739,1689,21
+1973-05-13,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1739,1689,1713,1715,-26
+1973-07-01,Friendly,played,Peru,PER,Colombia,COL,TRUE,3,1,win,Lima,Peru,FALSE,1713,1435,1716,1432,3
+1973-07-15,Friendly,played,Peru,PER,Bolivia,BOL,FALSE,0,2,loss,La Paz,Bolivia,FALSE,1716,1551,1689,1578,-27
+1973-07-27,Copa Ramón Castilla,played,Peru,PER,Argentina,ARG,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,1689,1852,1681,1860,-8
+1973-08-05,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Montevideo,Uruguay,TRUE,1681,1746,1665,1762,-16
+1975-06-22,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,0,6,loss,Quito,Ecuador,FALSE,1665,1441,1636,1470,-29
+1975-06-25,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,0,1,loss,Guayaquil,Ecuador,FALSE,1636,1470,1624,1482,-12
+1975-07-01,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,2,0,win,Lima,Peru,FALSE,1624,1482,1630,1476,6
+1975-07-10,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,2,0,win,Lima,Peru,FALSE,1630,1770,1647,1753,17
+1975-07-17,Copa América,played,Peru,PER,Chile,CHL,FALSE,1,1,draw,Santiago,Chile,FALSE,1647,1723,1659,1711,12
+1975-07-27,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,1,0,win,Oruro,Bolivia,FALSE,1659,1554,1684,1529,25
+1975-08-07,Copa América,played,Peru,PER,Bolivia,BOL,TRUE,3,1,win,Lima,Peru,FALSE,1684,1529,1698,1515,14
+1975-08-20,Copa América,played,Peru,PER,Chile,CHL,TRUE,3,1,win,Lima,Peru,FALSE,1698,1697,1725,1670,27
+1975-09-30,Copa América,played,Peru,PER,Brazil,BRA,FALSE,3,1,win,Belo Horizonte,Brazil,FALSE,1725,2069,1795,1999,70
+1975-10-04,Copa América,played,Peru,PER,Brazil,BRA,TRUE,0,2,loss,Lima,Peru,FALSE,1795,1999,1768,2026,-27
+1975-10-16,Copa América,played,Peru,PER,Colombia,COL,FALSE,0,1,loss,Bogotá,Colombia,FALSE,1768,1637,1741,1664,-27
+1975-10-22,Copa América,played,Peru,PER,Colombia,COL,TRUE,2,0,win,Lima,Peru,FALSE,1741,1664,1761,1644,20
+1975-10-28,Copa América,played,Peru,PER,Colombia,COL,FALSE,1,0,win,Caracas,Venezuela,TRUE,1761,1644,1778,1627,17
+1976-10-12,Friendly,played,Peru,PER,Uruguay,URY,TRUE,0,0,draw,Lima,Peru,FALSE,1778,1657,1772,1663,-6
+1976-10-28,Copa Ramón Castilla,played,Peru,PER,Argentina,ARG,TRUE,1,3,loss,Lima,Peru,FALSE,1772,1900,1751,1921,-21
+1976-11-10,Copa Ramón Castilla,played,Peru,PER,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1751,1921,1746,1926,-5
+1976-11-24,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1746,1671,1747,1670,1
+1977-02-09,Friendly,played,Peru,PER,Hungary,HUN,TRUE,3,2,win,Lima,Peru,FALSE,1747,1873,1758,1862,11
+1977-02-20,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,1,1,draw,Quito,Ecuador,FALSE,1758,1463,1748,1473,-10
+1977-03-06,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,1,1,draw,Santiago,Chile,FALSE,1748,1662,1749,1661,1
+1977-03-12,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,4,0,win,Lima,Peru,FALSE,1749,1457,1756,1450,7
+1977-03-26,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,2,0,win,Lima,Peru,FALSE,1756,1671,1771,1656,15
+1977-05-17,Friendly,played,Peru,PER,Mexico,MEX,FALSE,1,1,draw,Mexico City,Mexico,FALSE,1771,1724,1773,1722,2
+1977-05-24,Friendly,played,Peru,PER,Mexico,MEX,FALSE,1,2,loss,Monterrey,Mexico,FALSE,1773,1722,1764,1731,-9
+1977-05-26,Friendly,played,Peru,PER,Haiti,HTI,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1764,1583,1772,1575,8
+1977-05-29,Friendly,played,Peru,PER,Haiti,HTI,FALSE,2,2,draw,Port-au-Prince,Haiti,FALSE,1772,1575,1769,1578,-3
+1977-06-10,Friendly,played,Peru,PER,Poland,POL,TRUE,1,3,loss,Lima,Peru,FALSE,1769,1928,1757,1940,-12
+1977-07-10,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,TRUE,0,1,loss,Cali,Colombia,TRUE,1757,2060,1751,2066,-6
+1977-07-17,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,5,0,win,Cali,Colombia,TRUE,1751,1554,1770,1535,19
+1978-03-19,Copa Ramón Castilla,played,Peru,PER,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1770,1907,1764,1913,-6
+1978-03-23,Copa Ramón Castilla,played,Peru,PER,Argentina,ARG,TRUE,1,3,loss,Lima,Peru,FALSE,1764,1913,1745,1932,-19
+1978-04-01,Friendly,played,Peru,PER,Bulgaria,BGR,TRUE,1,1,draw,Lima,Peru,FALSE,1745,1745,1742,1748,-3
+1978-04-11,Friendly,played,Peru,PER,Mexico,MEX,FALSE,1,0,win,Los Angeles,United States,TRUE,1742,1811,1754,1799,12
+1978-04-22,Friendly,played,Peru,PER,China PR,,TRUE,2,1,win,Lima,Peru,FALSE,,,,,
+1978-05-01,Friendly,played,Peru,PER,Brazil,BRA,FALSE,0,3,loss,Rio de Janeiro,Brazil,FALSE,1757,2072,1754,2075,-3
+1978-06-03,FIFA World Cup,played,Peru,PER,Scotland,SCO,TRUE,3,1,win,Córdoba,Argentina,TRUE,1754,1944,1821,1877,67
+1978-06-07,FIFA World Cup,played,Peru,PER,Netherlands,NLD,FALSE,0,0,draw,Mendoza,Argentina,TRUE,1821,2109,1841,2089,20
+1978-06-11,FIFA World Cup,played,Peru,PER,Iran,IRN,FALSE,4,1,win,Córdoba,Argentina,TRUE,1841,1794,1886,1749,45
+1978-06-14,FIFA World Cup,played,Peru,PER,Brazil,BRA,FALSE,0,3,loss,Mendoza,Argentina,TRUE,1886,2068,1859,2095,-27
+1978-06-18,FIFA World Cup,played,Peru,PER,Poland,POL,TRUE,0,1,loss,Mendoza,Argentina,TRUE,1859,1936,1836,1959,-23
+1978-06-21,FIFA World Cup,played,Peru,PER,Argentina,ARG,FALSE,0,6,loss,Rosario,Argentina,FALSE,1836,1968,1809,1995,-27
+1979-07-11,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,2,1,win,Lima,Peru,FALSE,1809,1460,1810,1459,1
+1979-07-18,Friendly,played,Peru,PER,Colombia,COL,TRUE,0,1,loss,Lima,Peru,FALSE,1810,1581,1793,1598,-17
+1979-07-25,Friendly,played,Peru,PER,Colombia,COL,FALSE,2,1,win,Bogotá,Colombia,FALSE,1793,1598,1800,1591,7
+1979-08-08,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,1,2,loss,Quito,Ecuador,FALSE,1800,1459,1784,1475,-16
+1979-08-30,Friendly,played,Peru,PER,Uruguay,URY,TRUE,2,0,win,Lima,Peru,FALSE,1784,1675,1791,1668,7
+1979-09-12,Friendly,played,Peru,PER,Scotland,SCO,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1791,1854,1795,1850,4
+1979-10-10,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,2,3,loss,Lima,Peru,FALSE,1795,1722,1780,1737,-15
+1979-10-17,Copa América,played,Peru,PER,Chile,CHL,TRUE,1,2,loss,Lima,Peru,FALSE,1780,1638,1740,1678,-40
+1979-10-24,Copa América,played,Peru,PER,Chile,CHL,FALSE,0,0,draw,Santiago,Chile,FALSE,1740,1678,1743,1675,3
+1979-11-01,Friendly,played,Peru,PER,Mexico,MEX,FALSE,0,1,loss,Monterrey,Mexico,FALSE,1743,1709,1735,1717,-8
+1980-07-18,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1735,1643,1735,1643,0
+1980-11-12,Friendly,played,Peru,PER,Uruguay,URY,TRUE,1,1,draw,Lima,Peru,FALSE,1735,1659,1730,1664,-5
+1981-02-04,Friendly,played,Peru,PER,Czechoslovakia,CSK,TRUE,1,3,loss,Lima,Peru,FALSE,1730,1897,1718,1909,-12
+1981-02-11,Friendly,played,Peru,PER,Bulgaria,BGR,TRUE,1,2,loss,Lima,Peru,FALSE,1718,1706,1705,1719,-13
+1981-04-19,Friendly,played,Peru,PER,Chile,CHL,FALSE,0,3,loss,Santiago,Chile,FALSE,1705,1719,1693,1731,-12
+1981-07-26,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,1,1,draw,Bogotá,Colombia,FALSE,1693,1602,1694,1601,1
+1981-08-05,Friendly,played,Peru,PER,Chile,CHL,TRUE,1,2,loss,Lima,Peru,FALSE,1694,1769,1683,1780,-11
+1981-08-16,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,2,0,win,Lima,Peru,FALSE,1683,1595,1698,1580,15
+1981-08-23,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,2,1,win,Montevideo,Uruguay,FALSE,1698,1824,1729,1793,31
+1981-09-06,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,0,0,draw,Lima,Peru,FALSE,1729,1793,1727,1795,-2
+1982-03-23,Friendly,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1727,1785,1721,1791,-6
+1982-03-30,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,1,0,win,Lima,Peru,FALSE,1721,1791,1735,1777,14
+1982-04-18,Friendly,played,Peru,PER,Hungary,HUN,FALSE,2,1,win,Budapest,Hungary,FALSE,1735,1812,1750,1797,15
+1982-04-25,Friendly,played,Peru,PER,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1750,1622,1749,1623,-1
+1982-04-28,Friendly,played,Peru,PER,France,FRA,FALSE,1,0,win,Paris,France,FALSE,1749,1916,1765,1900,16
+1982-05-17,Friendly,played,Peru,PER,Romania,ROU,TRUE,2,0,win,Lima,Peru,FALSE,,,,,
+1982-06-15,FIFA World Cup,played,Peru,PER,Cameroon,CMR,TRUE,0,0,draw,La Coruña,Spain,TRUE,1776,1627,1764,1639,-12
+1982-06-18,FIFA World Cup,played,Peru,PER,Italy,ITA,FALSE,1,1,draw,Vigo,Spain,TRUE,1764,1898,1775,1887,11
+1982-06-22,FIFA World Cup,played,Peru,PER,Poland,POL,FALSE,1,5,loss,La Coruña,Spain,TRUE,1775,1930,1742,1963,-33
+1983-07-18,Friendly,played,Peru,PER,Uruguay,URY,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1742,1807,1746,1803,4
+1983-07-21,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,0,1,loss,Lima,Peru,FALSE,1746,1710,1725,1731,-21
+1983-08-03,Copa del Pacífico,played,Peru,PER,Chile,CHL,FALSE,0,2,loss,Arica,Chile,FALSE,1725,1730,1709,1746,-16
+1983-08-11,Friendly,played,Peru,PER,Uruguay,URY,TRUE,1,1,draw,Lima,Peru,FALSE,1709,1803,1709,1803,0
+1983-08-17,Copa América,played,Peru,PER,Colombia,COL,TRUE,1,0,win,Lima,Peru,FALSE,1709,1610,1721,1598,12
+1983-08-21,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1721,1505,1713,1513,-8
+1983-08-28,Copa América,played,Peru,PER,Colombia,COL,FALSE,2,2,draw,Bogotá,Colombia,FALSE,1713,1598,1712,1599,-1
+1983-09-04,Copa América,played,Peru,PER,Bolivia,BOL,TRUE,2,1,win,Lima,Peru,FALSE,1712,1521,1720,1513,8
+1983-10-05,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,0,2,loss,Lima,Peru,FALSE,1720,1717,1701,1736,-19
+1983-10-07,Friendly,played,Peru,PER,Paraguay,PRY,FALSE,1,4,loss,Asunción,Paraguay,FALSE,1701,1736,1690,1747,-11
+1983-10-13,Copa América,played,Peru,PER,Uruguay,URY,TRUE,0,1,loss,Lima,Peru,FALSE,1690,1782,1664,1808,-26
+1983-10-20,Copa América,played,Peru,PER,Uruguay,URY,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1664,1808,1679,1793,15
+1984-02-26,Friendly,played,Peru,PER,Honduras,HND,TRUE,1,3,loss,Lima,Peru,FALSE,1679,1600,1657,1622,-22
+1984-07-26,Friendly,played,Peru,PER,Colombia,COL,FALSE,1,1,draw,Bogota,Colombia,FALSE,,,,,
+1984-08-09,Friendly,played,Peru,PER,Colombia,COL,TRUE,0,0,draw,Lima,Peru,FALSE,1658,1586,1653,1591,-5
+1984-09-19,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1653,1887,1649,1891,-4
+1984-10-03,Friendly,played,Peru,PER,Uruguay,URY,TRUE,1,3,loss,Lima,Peru,FALSE,1649,1891,1640,1900,-9
+1985-02-17,Friendly,played,Peru,PER,Bolivia,BOL,TRUE,3,0,win,Lima,Peru,FALSE,1640,1526,1648,1518,8
+1985-02-24,Friendly,played,Peru,PER,Chile,CHL,FALSE,2,1,win,Santiago,Chile,FALSE,1648,1776,1664,1760,16
+1985-02-27,Friendly,played,Peru,PER,Uruguay,URY,FALSE,2,2,draw,Montevideo,Uruguay,FALSE,1664,1938,1672,1930,8
+1985-03-09,Friendly,played,Peru,PER,Chile,CHL,TRUE,1,1,draw,Lima,Peru,FALSE,1672,1754,1671,1755,-1
+1985-03-21,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,1,0,win,Lima,Peru,FALSE,1671,1548,1675,1544,4
+1985-04-23,Friendly,played,Peru,PER,Uruguay,URY,TRUE,2,1,win,Lima,Peru,FALSE,1675,1917,1689,1903,14
+1985-04-28,Friendly,played,Peru,PER,Brazil,BRA,FALSE,1,0,win,Brasília,Brazil,FALSE,1689,1947,1707,1929,18
+1985-05-01,Friendly,played,Peru,PER,Bolivia,BOL,FALSE,0,0,draw,Santa Cruz,Bolivia,FALSE,1707,1494,1704,1497,-3
+1985-05-26,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,0,1,loss,Bogotá,Colombia,FALSE,1704,1665,1687,1682,-17
+1985-06-02,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,1,0,win,San Cristóbal,Venezuela,FALSE,1687,1389,1697,1379,10
+1985-06-09,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,0,0,draw,Lima,Peru,FALSE,1697,1662,1690,1669,-7
+1985-06-16,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,4,1,win,Lima,Peru,FALSE,1690,1377,1696,1371,6
+1985-06-23,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,1,0,win,Lima,Peru,FALSE,1696,1923,1723,1896,27
+1985-06-30,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,2,2,draw,Buenos Aires,Argentina,FALSE,1723,1896,1736,1883,13
+1985-09-20,Friendly,played,Peru,PER,Mexico,MEX,FALSE,0,0,draw,Los Angeles,United States,TRUE,1736,1841,1739,1838,3
+1985-09-22,Friendly,played,Peru,PER,Mexico,MEX,FALSE,0,1,loss,San Jose,United States,TRUE,1739,1838,1732,1845,-7
+1985-10-16,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,0,1,loss,Lima,Peru,FALSE,1732,1724,1719,1737,-13
+1985-10-27,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,2,4,loss,Santiago,Chile,FALSE,1719,1797,1703,1813,-16
+1985-11-03,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,0,1,loss,Lima,Peru,FALSE,1703,1813,1684,1832,-19
+1986-01-28,Nehru Cup,played,Peru,PER,China PR,,FALSE,1,3,loss,Trivandrum,India,TRUE,,,,,
+1986-01-30,Nehru Cup,played,Peru,PER,India,,FALSE,1,0,win,Trivandrum,India,FALSE,1642,1230,1648,1224,6
+1986-04-01,Friendly,played,Peru,PER,Brazil,BRA,FALSE,0,4,loss,São Luís,Brazil,FALSE,1648,1896,1644,1900,-4
+1987-06-19,Friendly,played,Peru,PER,Chile,CHL,TRUE,1,3,loss,Lima,Peru,FALSE,1644,1797,1631,1810,-13
+1987-06-21,Friendly,played,Peru,PER,Chile,CHL,TRUE,2,0,win,Lima,Peru,FALSE,1631,1810,1649,1792,18
+1987-06-24,Friendly,played,Peru,PER,Chile,CHL,FALSE,0,1,loss,Santiago,Chile,FALSE,1649,1792,1645,1796,-4
+1987-06-27,Copa América,played,Peru,PER,Argentina,ARG,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1645,2001,1667,1979,22
+1987-07-04,Copa América,played,Peru,PER,Ecuador,ECU,TRUE,1,1,draw,Buenos Aires,Argentina,TRUE,1667,1521,1657,1531,-10
+1988-03-26,Friendly,played,Peru,PER,Canada,CAN,TRUE,1,3,loss,Lima,Peru,FALSE,,,,,
+1988-09-21,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,0,1,loss,Lima,Peru,FALSE,1657,1774,1647,1784,-10
+1988-10-25,Copa del Pacífico,played,Peru,PER,Chile,CHL,FALSE,0,2,loss,Arica,Chile,FALSE,1647,1809,1639,1817,-8
+1988-11-23,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,1,1,draw,Lima,Peru,FALSE,1639,1798,1642,1795,3
+1988-12-14,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1642,1845,1634,1853,-8
+1989-02-01,Friendly,played,Peru,PER,Chile,CHL,FALSE,0,0,draw,Armenia,Colombia,TRUE,1634,1782,1640,1776,6
+1989-02-03,Friendly,played,Peru,PER,Colombia,COL,FALSE,0,1,loss,Pereira,Colombia,FALSE,1640,1818,1635,1823,-5
+1989-05-10,Friendly,played,Peru,PER,Brazil,BRA,FALSE,1,4,loss,Fortaleza,Brazil,FALSE,1635,2002,1633,2004,-2
+1989-05-15,Friendly,played,Peru,PER,Paraguay,PRY,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1633,1811,1640,1804,7
+1989-05-18,Friendly,played,Peru,PER,Venezuela,,TRUE,2,1,win,Lima,Peru,FALSE,1640,1375,1642,1373,2
+1989-05-24,Friendly,played,Peru,PER,Brazil,BRA,TRUE,1,1,draw,Lima,Peru,FALSE,1642,2004,1648,1998,6
+1989-06-04,Marlboro Cup,played,Peru,PER,United States,USA,FALSE,0,3,loss,East Rutherford,United States,FALSE,1648,1563,1623,1588,-25
+1989-06-16,Friendly,played,Peru,PER,Trinidad and Tobago,TTO,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1623,1510,1607,1526,-16
+1989-06-20,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,TRUE,1607,1589,1621,1575,14
+1989-06-25,Friendly,played,Peru,PER,Venezuela,,FALSE,1,3,loss,San Cristóbal,Venezuela,FALSE,1621,1373,1600,1394,-21
+1989-07-01,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,2,5,loss,Salvador,Brazil,TRUE,1600,1792,1578,1814,-22
+1989-07-03,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,0,draw,Salvador,Brazil,FALSE,1578,1945,1600,1923,22
+1989-07-05,Copa América,played,Peru,PER,Venezuela,,TRUE,1,1,draw,Salvador,Brazil,TRUE,1600,1387,1586,1401,-14
+1989-07-09,Copa América,played,Peru,PER,Colombia,COL,FALSE,1,1,draw,Recife,Brazil,TRUE,1586,1841,1602,1825,16
+1989-07-25,Friendly,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Arica,Chile,FALSE,1602,1758,1598,1762,-4
+1989-08-20,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,1,2,loss,La Paz,Bolivia,FALSE,1598,1494,1578,1514,-20
+1989-08-27,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,0,2,loss,Lima,Peru,FALSE,1578,1887,1564,1901,-14
+1989-09-10,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,1,2,loss,Lima,Peru,FALSE,1564,1548,1538,1574,-26
+1989-09-24,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1538,1873,1533,1878,-5
+1991-06-06,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,0,1,loss,Lima,Peru,FALSE,1533,1634,1523,1644,-10
+1991-06-12,Friendly,played,Peru,PER,Uruguay,URY,TRUE,1,0,win,Lima,Peru,FALSE,1523,1858,1539,1842,16
+1991-06-20,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1539,1842,1547,1834,8
+1991-06-25,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,2,2,draw,Guayaquil,Ecuador,FALSE,1547,1656,1552,1651,5
+1991-07-06,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,0,1,loss,Santiago,Chile,TRUE,1552,1751,1540,1763,-12
+1991-07-08,Copa América,played,Peru,PER,Chile,CHL,FALSE,2,4,loss,Concepción,Chile,FALSE,1540,1794,1531,1803,-9
+1991-07-12,Copa América,played,Peru,PER,Venezuela,,TRUE,5,1,win,Santiago,Chile,TRUE,1531,1355,1556,1330,25
+1991-07-14,Copa América,played,Peru,PER,Argentina,ARG,FALSE,2,3,loss,Santiago,Chile,TRUE,1556,1951,1551,1956,-5
+1992-11-24,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,1,1,draw,Lima,Peru,FALSE,1551,1645,1551,1645,0
+1993-01-23,Friendly,played,Peru,PER,Venezuela,,FALSE,0,0,draw,Puerto Ordaz,Venezuela,FALSE,1551,1330,1548,1333,-3
+1993-01-27,Friendly,played,Peru,PER,Honduras,HND,TRUE,1,1,draw,Lima,Peru,FALSE,1548,1700,1549,1699,1
+1993-01-30,Friendly,played,Peru,PER,Belarus,,TRUE,1,1,draw,Lima,Peru,FALSE,1549,1408,1543,1414,-6
+1993-02-03,Friendly,played,Peru,PER,Romania,ROU,TRUE,0,2,loss,Lima,Peru,FALSE,1543,1806,1535,1814,-8
+1993-05-26,Friendly,played,Peru,PER,United States,USA,FALSE,0,0,draw,Mission Viejo,United States,FALSE,1535,1642,1540,1637,5
+1993-05-30,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,0,1,loss,Quito,Ecuador,FALSE,1540,1659,1536,1663,-4
+1993-06-06,Friendly,played,Peru,PER,Bolivia,BOL,TRUE,1,0,win,Lima,Peru,FALSE,1536,1595,1545,1586,9
+1993-06-11,Friendly,played,Peru,PER,Venezuela,,TRUE,3,1,win,Arequipa,Peru,FALSE,1545,1350,1550,1345,5
+1993-06-18,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,0,draw,Cuenca,Ecuador,TRUE,1550,1998,1571,1977,21
+1993-06-21,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,1,1,draw,Cuenca,Ecuador,TRUE,1571,1730,1582,1719,11
+1993-06-24,Copa América,played,Peru,PER,Chile,CHL,FALSE,1,0,win,Cuenca,Ecuador,TRUE,1582,1792,1621,1753,39
+1993-06-27,Copa América,played,Peru,PER,Mexico,MEX,TRUE,2,4,loss,Quito,Ecuador,TRUE,1621,1823,1603,1841,-18
+1993-07-13,Friendly,played,Peru,PER,Uruguay,URY,TRUE,1,2,loss,Lima,Peru,FALSE,1603,1811,1596,1818,-7
+1993-07-17,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1596,1818,1591,1823,-5
+1993-08-01,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,0,1,loss,Lima,Peru,FALSE,1591,1994,1585,2000,-6
+1993-08-08,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,0,1,loss,Lima,Peru,FALSE,1585,1835,1573,1847,-12
+1993-08-15,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1573,1667,1563,1677,-10
+1993-08-22,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1563,1989,1561,1991,-2
+1993-08-29,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,0,4,loss,Barranquilla,Colombia,FALSE,1561,1866,1554,1873,-7
+1993-09-05,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,2,2,draw,Lima,Peru,FALSE,1554,1699,1557,1696,3
+1994-05-03,Miami Cup,played,Peru,PER,Colombia,COL,FALSE,0,1,loss,Miami,United States,TRUE,1557,1924,1554,1927,-3
+1994-05-05,Miami Cup,played,Peru,PER,Honduras,HND,FALSE,1,2,loss,Miami,United States,TRUE,1554,1525,1538,1541,-16
+1994-05-25,Friendly,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1538,1771,1535,1774,-3
+1994-06-08,Friendly,played,Peru,PER,Bolivia,BOL,FALSE,0,0,draw,Santa Cruz,Bolivia,FALSE,1535,1705,1542,1698,7
+1994-08-17,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,2,0,win,Lima,Peru,FALSE,1542,1659,1558,1643,16
+1994-09-21,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,0,0,draw,Machala,Ecuador,FALSE,1558,1643,1563,1638,5
+1994-10-19,Friendly,played,Peru,PER,Uruguay,URY,TRUE,0,1,loss,Lima,Peru,FALSE,1563,1797,1554,1806,-9
+1995-04-05,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1554,1798,1550,1802,-4
+1995-04-19,Friendly,played,Peru,PER,Chile,CHL,TRUE,6,0,win,Lima,Peru,FALSE,1550,1755,1577,1728,27
+1995-05-31,Friendly,played,Peru,PER,Argentina,ARG,FALSE,0,1,loss,Córdoba,Argentina,FALSE,1577,1865,1574,1868,-3
+1995-06-25,Friendly,played,Peru,PER,Slovakia,SVK,TRUE,1,0,win,Lima,Peru,FALSE,,,,,
+1995-07-01,Friendly,played,Peru,PER,Bolivia,BOL,TRUE,4,1,win,Lima,Peru,FALSE,1574,1687,1592,1669,18
+1995-07-07,Copa América,played,Peru,PER,Colombia,COL,FALSE,1,1,draw,Rivera,Uruguay,TRUE,1592,1909,1610,1891,18
+1995-07-10,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,2,loss,Rivera,Uruguay,TRUE,1610,2095,1606,2099,-4
+1995-07-13,Copa América,played,Peru,PER,Ecuador,ECU,TRUE,1,2,loss,Rivera,Uruguay,TRUE,1606,1647,1584,1669,-22
+1996-02-11,Friendly,played,Peru,PER,Bolivia,BOL,TRUE,1,3,loss,Lima,Peru,FALSE,1584,1669,1568,1685,-16
+1996-02-14,Friendly,played,Peru,PER,Chile,CHL,FALSE,0,4,loss,Coquimbo,Chile,FALSE,1568,1699,1560,1707,-8
+1996-03-07,Friendly,played,Peru,PER,Bolivia,BOL,FALSE,0,2,loss,Santa Cruz,Bolivia,FALSE,1560,1702,1554,1708,-6
+1996-04-24,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,1,4,loss,Guayaquil,Ecuador,FALSE,1554,1674,1539,1689,-15
+1996-06-02,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,1,1,draw,Lima,Peru,FALSE,1539,1884,1551,1872,12
+1996-06-20,Friendly,played,Peru,PER,Armenia,,TRUE,4,0,win,Lima,Peru,FALSE,1551,1279,1555,1275,4
+1996-07-07,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,0,0,draw,Lima,Peru,FALSE,1555,1822,1564,1813,9
+1996-08-14,Friendly,played,Peru,PER,Costa Rica,CRI,TRUE,3,0,win,Arequipa,Peru,FALSE,1564,1568,1577,1555,13
+1996-09-01,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,0,0,draw,La Paz,Bolivia,FALSE,1577,1674,1587,1664,10
+1996-10-16,Friendly,played,Peru,PER,United States,USA,TRUE,4,1,win,Lima,Peru,FALSE,1587,1725,1606,1706,19
+1996-11-10,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,4,1,win,Lima,Peru,FALSE,1606,1383,1615,1374,9
+1996-12-15,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1615,1760,1603,1772,-12
+1997-01-12,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,2,1,win,Lima,Peru,FALSE,1603,1744,1625,1722,22
+1997-01-17,USA Cup,played,Peru,PER,United States,USA,FALSE,1,0,win,San Diego,United States,FALSE,1625,1709,1647,1687,22
+1997-01-22,USA Cup,played,Peru,PER,Mexico,MEX,FALSE,0,0,draw,Pasadena,United States,TRUE,1647,1818,1654,1811,7
+1997-02-12,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1654,1825,1647,1832,-7
+1997-04-02,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,1,1,draw,Lima,Peru,FALSE,1647,1698,1644,1701,-3
+1997-04-30,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,1,0,win,Barranquilla,Colombia,FALSE,1644,1868,1679,1833,35
+1997-06-08,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1679,1817,1667,1829,-12
+1997-06-12,Copa América,played,Peru,PER,Uruguay,URY,TRUE,1,0,win,Sucre,Bolivia,TRUE,1667,1722,1696,1693,29
+1997-06-15,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,0,2,loss,La Paz,Bolivia,FALSE,1696,1700,1669,1727,-27
+1997-06-18,Copa América,played,Peru,PER,Venezuela,,TRUE,2,0,win,Sucre,Bolivia,TRUE,1669,1353,1679,1343,10
+1997-06-21,Copa América,played,Peru,PER,Argentina,ARG,TRUE,2,1,win,Sucre,Bolivia,TRUE,1679,1845,1715,1809,36
+1997-06-26,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,7,loss,Santa Cruz,Bolivia,TRUE,1715,2115,1705,2125,-10
+1997-06-28,Copa América,played,Peru,PER,Mexico,MEX,FALSE,0,1,loss,Oruro,Bolivia,TRUE,1705,1787,1686,1806,-19
+1997-07-06,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,2,1,win,Lima,Peru,FALSE,1686,1782,1706,1762,20
+1997-08-20,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,3,0,win,Barinas,Venezuela,FALSE,1706,1356,1719,1343,13
+1997-08-24,Friendly,played,Peru,PER,Colombia,COL,TRUE,2,1,win,Lima,Peru,FALSE,1719,1785,1733,1771,14
+1997-09-10,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,2,1,win,Lima,Peru,FALSE,1733,1693,1745,1681,12
+1997-10-12,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,0,4,loss,Lima,Peru,FALSE,1745,1692,1713,1724,-32
+1997-11-16,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,1,0,win,Lima,Peru,FALSE,1713,1767,1730,1750,17
+1998-04-15,Friendly,played,Peru,PER,Mexico,MEX,FALSE,0,1,loss,Los Angeles,United States,TRUE,1730,1849,1723,1856,-7
+1998-10-10,Friendly,played,Peru,PER,Netherlands,NLD,FALSE,0,2,loss,Eindhoven,Netherlands,FALSE,1723,1995,1720,1998,-3
+1999-02-10,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,1,2,loss,Lima,Peru,FALSE,1720,1750,1708,1762,-12
+1999-02-17,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,2,1,win,Guayaquil,Ecuador,FALSE,1708,1762,1722,1748,14
+1999-05-30,Kirin Cup,played,Peru,PER,Belgium,BEL,FALSE,1,1,draw,Kyoto,Japan,TRUE,1722,1757,1724,1755,2
+1999-06-06,Kirin Cup,played,Peru,PER,Japan,JPN,FALSE,0,0,draw,Yokohama,Japan,FALSE,1724,1642,1725,1641,1
+1999-06-17,Friendly,played,Peru,PER,Colombia,COL,FALSE,3,3,draw,Manizales,Colombia,FALSE,1725,1748,1728,1745,3
+1999-06-20,Friendly,played,Peru,PER,Venezuela,,FALSE,0,3,loss,Valencia,Venezuela,FALSE,1728,1396,1700,1424,-28
+1999-06-23,Friendly,played,Peru,PER,Venezuela,,TRUE,3,0,win,Lima,Peru,FALSE,1700,1424,1704,1420,4
+1999-06-29,Copa América,played,Peru,PER,Japan,JPN,TRUE,3,2,win,Asunción,Paraguay,TRUE,1704,1641,1725,1620,21
+1999-07-02,Copa América,played,Peru,PER,Bolivia,BOL,TRUE,1,0,win,Asunción,Paraguay,TRUE,1725,1676,1746,1655,21
+1999-07-05,Copa América,played,Peru,PER,Paraguay,PRY,FALSE,0,1,loss,Pedro Juan Caballero,Paraguay,FALSE,1746,1794,1731,1809,-15
+1999-07-10,Copa América,played,Peru,PER,Mexico,MEX,FALSE,3,3,draw,Asunción,Paraguay,TRUE,1731,1880,1741,1870,10
+1999-11-17,Friendly,played,Peru,PER,Slovakia,SVK,TRUE,2,1,win,Lima,Peru,FALSE,1741,1697,1747,1691,6
+1999-12-01,Friendly,played,Peru,PER,Honduras,HND,TRUE,0,0,draw,Lima,Peru,FALSE,1747,1596,1741,1602,-6
+2000-02-14,Gold Cup,played,Peru,PER,Haiti,HTI,FALSE,1,1,draw,Miami,United States,TRUE,1741,1404,1722,1423,-19
+2000-02-16,Gold Cup,played,Peru,PER,United States,USA,FALSE,0,1,loss,Miami,United States,FALSE,1722,1817,1710,1829,-12
+2000-02-19,Gold Cup,played,Peru,PER,Honduras,HND,FALSE,5,3,win,Miami,United States,TRUE,1710,1711,1748,1673,38
+2000-02-23,Gold Cup,played,Peru,PER,Colombia,COL,FALSE,1,2,loss,San Diego,United States,TRUE,1748,1771,1725,1794,-23
+2000-03-29,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,2,0,win,Lima,Peru,FALSE,1725,1812,1754,1783,29
+2000-04-26,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,1,1,draw,Santiago,Chile,FALSE,1754,1712,1757,1709,3
+2000-06-04,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,TRUE,0,1,loss,Lima,Peru,FALSE,1757,2088,1749,2096,-8
+2000-06-29,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,1,2,loss,Quito,Ecuador,FALSE,1749,1667,1730,1686,-19
+2000-07-19,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,0,1,loss,Lima,Peru,FALSE,1730,1746,1705,1771,-25
+2000-07-26,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1705,1767,1714,1758,9
+2000-08-16,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,1,0,win,Lima,Peru,FALSE,1714,1438,1718,1434,4
+2000-09-03,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,1,2,loss,Lima,Peru,FALSE,1718,1956,1706,1968,-12
+2000-10-08,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,0,1,loss,La Paz,Bolivia,FALSE,1706,1569,1684,1591,-22
+2000-11-15,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,1,5,loss,Asunción,Paraguay,FALSE,1684,1853,1671,1866,-13
+2001-03-07,Friendly,played,Peru,PER,Honduras,HND,FALSE,0,0,draw,Miami,United States,TRUE,1671,1713,1672,1712,1
+2001-03-27,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,3,1,win,Lima,Peru,FALSE,1672,1702,1696,1678,24
+2001-04-25,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,FALSE,1,1,draw,São Paulo,Brazil,FALSE,1696,1994,1712,1978,16
+2001-06-02,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,1,2,loss,Lima,Peru,FALSE,1712,1747,1688,1771,-24
+2001-07-12,Copa América,played,Peru,PER,Paraguay,PRY,TRUE,3,3,draw,Cali,Colombia,TRUE,1688,1867,1700,1855,12
+2001-07-15,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,2,loss,Cali,Colombia,TRUE,1700,1855,1678,1877,-22
+2001-07-18,Copa América,played,Peru,PER,Mexico,MEX,TRUE,1,0,win,Cali,Colombia,TRUE,1678,1732,1707,1703,29
+2001-07-23,Copa América,played,Peru,PER,Colombia,COL,FALSE,0,3,loss,Armenia,Colombia,FALSE,1707,1822,1687,1842,-20
+2001-08-16,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,1,0,win,Bogotá,Colombia,FALSE,1687,1877,1721,1843,34
+2001-09-04,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,0,2,loss,Lima,Peru,FALSE,1721,1711,1682,1750,-39
+2001-10-06,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,0,3,loss,San Cristóbal,Venezuela,FALSE,1682,1493,1638,1537,-44
+2001-11-08,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1638,2030,1635,2033,-3
+2001-11-14,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,1,1,draw,Lima,Peru,FALSE,1635,1553,1625,1563,-10
+2003-02-23,Friendly,played,Peru,PER,Haiti,HTI,TRUE,5,1,win,Lima,Peru,FALSE,1625,1495,1633,1487,8
+2003-03-30,Friendly,played,Peru,PER,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1633,1590,1620,1603,-13
+2003-04-02,Friendly,played,Peru,PER,Chile,CHL,TRUE,3,0,win,Lima,Peru,FALSE,1620,1603,1632,1591,12
+2003-04-30,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,0,1,loss,Lima,Peru,FALSE,1632,1758,1623,1767,-9
+2003-06-11,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,2,2,draw,East Rutherford,United States,TRUE,1623,1727,1626,1724,3
+2003-06-26,Friendly,played,Peru,PER,Venezuela,,TRUE,1,0,win,Miami,United States,TRUE,1626,1639,1636,1629,10
+2003-07-02,Friendly,played,Peru,PER,Guatemala,,FALSE,2,1,win,San Francisco,United States,TRUE,1636,1564,1644,1556,8
+2003-07-24,Friendly,played,Peru,PER,Uruguay,URY,TRUE,3,4,loss,Lima,Peru,FALSE,1644,1808,1636,1816,-8
+2003-07-30,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1636,1816,1633,1819,-3
+2003-08-20,Friendly,played,Peru,PER,Mexico,MEX,FALSE,3,1,win,East Rutherford,United States,TRUE,1633,1899,1658,1874,25
+2003-08-27,Friendly,played,Peru,PER,Guatemala,,TRUE,0,0,draw,Lima,Peru,FALSE,1658,1541,1652,1547,-6
+2003-09-06,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,4,1,win,Lima,Peru,FALSE,1652,1756,1687,1721,35
+2003-09-09,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1687,1636,1670,1653,-17
+2003-11-16,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,TRUE,1,1,draw,Lima,Peru,FALSE,1670,2014,1682,2002,12
+2003-11-19,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,0,0,draw,Quito,Ecuador,FALSE,1682,1726,1690,1718,8
+2004-02-18,Friendly,played,Peru,PER,Spain,ESP,FALSE,1,2,loss,Barcelona,Spain,FALSE,1690,2005,1688,2007,-2
+2004-03-31,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,0,2,loss,Lima,Peru,FALSE,1688,1707,1651,1744,-37
+2004-04-28,Friendly,played,Peru,PER,Chile,CHL,FALSE,1,1,draw,Antofagasta,Chile,FALSE,1651,1669,1654,1666,3
+2004-06-01,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,3,1,win,Montevideo,Uruguay,FALSE,1654,1779,1701,1732,47
+2004-06-06,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,0,0,draw,Lima,Peru,FALSE,1701,1674,1694,1681,-7
+2004-06-30,Friendly,played,Peru,PER,Argentina,ARG,FALSE,1,2,loss,East Rutherford,United States,TRUE,1694,1963,1690,1967,-4
+2004-07-06,Copa América,played,Peru,PER,Bolivia,BOL,TRUE,2,2,draw,Lima,Peru,FALSE,1690,1573,1676,1587,-14
+2004-07-09,Copa América,played,Peru,PER,Venezuela,,TRUE,3,1,win,Lima,Peru,FALSE,1676,1663,1702,1637,26
+2004-07-12,Copa América,played,Peru,PER,Colombia,COL,TRUE,2,2,draw,Trujillo,Peru,FALSE,1702,1814,1703,1813,1
+2004-07-17,Copa América,played,Peru,PER,Argentina,ARG,TRUE,0,1,loss,Chiclayo,Peru,FALSE,1703,1970,1689,1984,-14
+2004-09-04,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,1,3,loss,Lima,Peru,FALSE,1689,2019,1676,2032,-13
+2004-10-09,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,0,1,loss,La Paz,Bolivia,FALSE,1676,1577,1656,1597,-20
+2004-10-13,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1656,1799,1668,1787,12
+2004-11-17,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,2,1,win,Lima,Peru,FALSE,1668,1669,1682,1655,14
+2005-03-27,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,FALSE,0,1,loss,Goiânia,Brazil,FALSE,1682,1973,1678,1977,-4
+2005-03-30,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,2,2,draw,Lima,Peru,FALSE,1678,1712,1674,1716,-4
+2005-05-22,Kirin Cup,played,Peru,PER,Japan,JPN,FALSE,1,0,win,Niigata,Japan,FALSE,1674,1838,1699,1813,25
+2005-05-24,Kirin Cup,played,Peru,PER,United Arab Emirates,ARE,TRUE,0,0,draw,Toyota,Japan,TRUE,1699,1397,1688,1408,-11
+2005-06-04,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,0,5,loss,Barranquilla,Colombia,FALSE,1688,1784,1668,1804,-20
+2005-06-07,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,0,0,draw,Lima,Peru,FALSE,1668,1812,1671,1809,3
+2005-08-17,Friendly,played,Peru,PER,Chile,CHL,TRUE,3,1,win,Tacna,Peru,FALSE,1671,1690,1683,1678,12
+2005-09-03,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,1,4,loss,Maracaibo,Venezuela,FALSE,1683,1591,1649,1625,-34
+2005-10-09,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1649,1952,1644,1957,-5
+2005-10-12,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,4,1,win,Tacna,Peru,FALSE,1644,1578,1663,1559,19
+2006-05-10,Friendly,played,Peru,PER,Trinidad and Tobago,TTO,FALSE,1,1,draw,Port of Spain,Trinidad and Tobago,FALSE,1663,1589,1664,1588,1
+2006-08-16,Friendly,played,Peru,PER,Panama,PAN,TRUE,0,2,loss,Lima,Peru,FALSE,1664,1475,1639,1500,-25
+2006-09-06,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,1,1,draw,East Rutherford,United States,TRUE,1639,1768,1643,1764,4
+2006-10-07,Copa del Pacífico,played,Peru,PER,Chile,CHL,FALSE,2,3,loss,Viña del Mar,Chile,FALSE,1643,1702,1634,1711,-9
+2006-10-11,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,0,1,loss,Tacna,Peru,FALSE,1634,1711,1618,1727,-16
+2006-11-15,Friendly,played,Peru,PER,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1618,1610,1621,1607,3
+2006-11-19,Friendly,played,Peru,PER,Panama,PAN,FALSE,2,1,win,Panama City,Panama,FALSE,1621,1513,1631,1503,10
+2007-03-24,Friendly,played,Peru,PER,Japan,JPN,FALSE,0,2,loss,Yokohama,Japan,FALSE,1631,1726,1624,1733,-7
+2007-06-03,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,2,1,win,Madrid,Spain,TRUE,1624,1749,1637,1736,13
+2007-06-06,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,0,2,loss,Barcelona,Spain,TRUE,1637,1736,1626,1747,-11
+2007-06-26,Copa América,played,Peru,PER,Uruguay,URY,FALSE,3,0,win,Mérida,Venezuela,TRUE,1626,1862,1696,1792,70
+2007-06-30,Copa América,played,Peru,PER,Venezuela,,FALSE,0,2,loss,San Cristóbal,Venezuela,FALSE,1696,1639,1663,1672,-33
+2007-07-03,Copa América,played,Peru,PER,Bolivia,BOL,TRUE,2,2,draw,Mérida,Venezuela,TRUE,1663,1583,1657,1589,-6
+2007-07-08,Copa América,played,Peru,PER,Argentina,ARG,FALSE,0,4,loss,Barquisimeto,Venezuela,TRUE,1657,2040,1648,2049,-9
+2007-08-22,Friendly,played,Peru,PER,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1648,1648,1651,1645,3
+2007-09-08,Friendly,played,Peru,PER,Colombia,COL,TRUE,2,2,draw,Lima,Peru,FALSE,1651,1795,1652,1794,1
+2007-09-12,Friendly,played,Peru,PER,Bolivia,BOL,TRUE,2,0,win,Lima,Peru,FALSE,1652,1584,1660,1576,8
+2007-10-13,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,0,0,draw,Lima,Peru,FALSE,1660,1769,1661,1768,1
+2007-10-17,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1661,1747,1646,1762,-15
+2007-11-18,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,TRUE,1,1,draw,Lima,Peru,FALSE,1646,2088,1661,2073,15
+2007-11-21,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,1,5,loss,Quito,Ecuador,FALSE,1661,1644,1632,1673,-29
+2008-02-06,Friendly,played,Peru,PER,Bolivia,BOL,FALSE,1,2,loss,La Paz,Bolivia,FALSE,1632,1556,1623,1565,-9
+2008-03-26,Friendly,played,Peru,PER,Costa Rica,CRI,TRUE,3,1,win,Iquitos,Peru,FALSE,1623,1638,1634,1627,11
+2008-05-31,Friendly,played,Peru,PER,Spain,ESP,FALSE,1,2,loss,Huelva,Spain,FALSE,1634,1981,1633,1982,-1
+2008-06-08,Friendly,played,Peru,PER,Mexico,MEX,FALSE,0,4,loss,Chicago,United States,TRUE,1633,1884,1626,1891,-7
+2008-06-14,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,1,1,draw,Lima,Peru,FALSE,1626,1817,1631,1812,5
+2008-06-17,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,0,6,loss,Montevideo,Uruguay,FALSE,1631,1795,1616,1810,-15
+2008-09-06,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,1,0,win,Lima,Peru,FALSE,1616,1676,1634,1658,18
+2008-09-10,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,1,1,draw,Lima,Peru,FALSE,1634,2000,1647,1987,13
+2008-10-11,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,0,3,loss,La Paz,Bolivia,FALSE,1647,1589,1616,1620,-31
+2008-10-15,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1616,1845,1611,1850,-5
+2009-02-06,Friendly,played,Peru,PER,El Salvador,SLV,FALSE,0,1,loss,Los Angeles,United States,TRUE,1611,1458,1597,1472,-14
+2009-02-11,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,0,1,loss,Lima,Peru,FALSE,1597,1854,1591,1860,-6
+2009-03-29,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,1,3,loss,Lima,Peru,FALSE,1591,1792,1569,1814,-22
+2009-04-01,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,FALSE,0,3,loss,Porto Alegre,Brazil,FALSE,1569,2019,1566,2022,-3
+2009-06-07,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,1,2,loss,Lima,Peru,FALSE,1566,1692,1547,1711,-19
+2009-06-10,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,0,1,loss,Medellín,Colombia,FALSE,1547,1724,1540,1731,-7
+2009-09-05,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,1,0,win,Lima,Peru,FALSE,1540,1816,1569,1787,29
+2009-09-09,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,1,3,loss,Puerto la Cruz,Venezuela,FALSE,1569,1712,1557,1724,-12
+2009-10-10,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1557,1874,1554,1877,-3
+2009-10-14,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,1,0,win,Lima,Peru,FALSE,1554,1619,1572,1601,18
+2009-11-18,Friendly,played,Peru,PER,Honduras,HND,FALSE,2,1,win,Miami Gardens,United States,TRUE,1572,1760,1587,1745,15
+2010-09-04,Friendly,played,Peru,PER,Canada,CAN,FALSE,2,0,win,Toronto,Canada,FALSE,1587,1602,1607,1582,20
+2010-09-07,Friendly,played,Peru,PER,Jamaica,JAM,FALSE,2,1,win,Fort Lauderdale,United States,TRUE,1607,1630,1618,1619,11
+2010-10-08,Friendly,played,Peru,PER,Costa Rica,CRI,TRUE,2,0,win,Lima,Peru,FALSE,1618,1679,1631,1666,13
+2010-10-12,Friendly,played,Peru,PER,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1631,1597,1623,1605,-8
+2010-11-17,Friendly,played,Peru,PER,Colombia,COL,FALSE,1,1,draw,Bogotá,Colombia,FALSE,1623,1769,1629,1763,6
+2011-02-08,Friendly,played,Peru,PER,Panama,PAN,TRUE,1,0,win,Moquegua,Peru,FALSE,1629,1591,1635,1585,6
+2011-03-29,Friendly,played,Peru,PER,Ecuador,ECU,FALSE,0,0,draw,The Hague,Netherlands,TRUE,1635,1716,1637,1714,2
+2011-06-01,Kirin Cup,played,Peru,PER,Japan,JPN,FALSE,0,0,draw,Niigata,Japan,FALSE,1637,1840,1648,1829,11
+2011-06-04,Kirin Cup,played,Peru,PER,Czechia,CZE,TRUE,0,0,draw,Matsumoto,Japan,TRUE,1648,1734,1652,1730,4
+2011-06-28,Friendly,played,Peru,PER,Senegal,SEN,TRUE,1,0,win,Lima,Peru,FALSE,,,,,
+2011-07-04,Copa América,played,Peru,PER,Uruguay,URY,FALSE,1,1,draw,San Juan,Argentina,TRUE,1652,1879,1666,1865,14
+2011-07-08,Copa América,played,Peru,PER,Mexico,MEX,TRUE,1,0,win,Mendoza,Argentina,TRUE,1666,1924,1707,1883,41
+2011-07-12,Copa América,played,Peru,PER,Chile,CHL,FALSE,0,1,loss,Mendoza,Argentina,TRUE,1707,1929,1696,1940,-11
+2011-07-16,Copa América,played,Peru,PER,Colombia,COL,FALSE,2,0,win,Córdoba,Argentina,TRUE,1696,1813,1746,1763,50
+2011-07-19,Copa América,played,Peru,PER,Uruguay,URY,TRUE,0,2,loss,La Plata,Argentina,TRUE,1746,1905,1725,1926,-21
+2011-07-23,Copa América,played,Peru,PER,Venezuela,,TRUE,4,1,win,La Plata,Argentina,TRUE,1725,1805,1779,1751,54
+2011-09-02,Friendly,played,Peru,PER,Bolivia,BOL,TRUE,2,2,draw,Lima,Peru,FALSE,1779,1526,1771,1534,-8
+2011-09-05,Friendly,played,Peru,PER,Bolivia,BOL,FALSE,0,0,draw,La Paz,Bolivia,FALSE,1771,1534,1767,1538,-4
+2011-10-07,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,2,0,win,Lima,Peru,FALSE,1767,1813,1792,1788,25
+2011-10-11,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,2,4,loss,Santiago,Chile,FALSE,1792,1867,1776,1883,-16
+2011-11-15,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,0,2,loss,Quito,Ecuador,FALSE,1776,1755,1753,1778,-23
+2012-02-29,Friendly,played,Peru,PER,Tunisia,TUN,FALSE,1,1,draw,Tunis,Tunisia,FALSE,1753,1577,1751,1579,-2
+2012-03-21,Copa del Pacífico,played,Peru,PER,Chile,CHL,FALSE,1,3,loss,Arica,Chile,FALSE,1751,1865,1741,1875,-10
+2012-04-11,Copa del Pacífico,played,Peru,PER,Chile,CHL,TRUE,0,3,loss,Tacna,Peru,FALSE,1741,1875,1717,1899,-24
+2012-05-23,Friendly,played,Peru,PER,Nigeria,NGA,TRUE,1,0,win,Lima,Peru,FALSE,1717,1646,1722,1641,5
+2012-06-03,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,0,1,loss,Lima,Peru,FALSE,1722,1788,1700,1810,-22
+2012-06-10,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,2,4,loss,Montevideo,Uruguay,FALSE,1700,1970,1694,1976,-6
+2012-08-15,Friendly,played,Peru,PER,Costa Rica,CRI,FALSE,1,0,win,San José,Costa Rica,FALSE,1694,1673,1706,1661,12
+2012-09-07,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,2,1,win,Lima,Peru,FALSE,1706,1698,1720,1684,14
+2012-09-11,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,1,1,draw,Lima,Peru,FALSE,1720,1987,1729,1978,9
+2012-10-12,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1729,1571,1726,1574,-3
+2012-10-16,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1726,1698,1710,1714,-16
+2012-11-14,Friendly,played,Peru,PER,Honduras,HND,FALSE,0,0,draw,Houston,United States,TRUE,1710,1679,1709,1680,-1
+2013-02-06,Friendly,played,Peru,PER,Trinidad and Tobago,TTO,FALSE,2,0,win,Couva,Trinidad and Tobago,FALSE,1709,1435,1717,1427,8
+2013-03-22,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,1,0,win,Lima,Peru,FALSE,1717,1810,1737,1790,20
+2013-03-26,Friendly,played,Peru,PER,Trinidad and Tobago,TTO,TRUE,3,0,win,Lima,Peru,FALSE,1737,1423,1740,1420,3
+2013-04-17,Friendly,played,Peru,PER,Mexico,MEX,FALSE,0,0,draw,San Francisco,United States,TRUE,1740,1879,1744,1875,4
+2013-06-01,Friendly,played,Peru,PER,Panama,PAN,FALSE,2,1,win,Panama City,Panama,FALSE,1744,1713,1756,1701,12
+2013-06-07,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,1,0,win,Lima,Peru,FALSE,1756,1874,1777,1853,21
+2013-06-11,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,0,2,loss,Barranquilla,Colombia,FALSE,1777,1898,1764,1911,-13
+2013-08-14,Friendly,played,Peru,PER,South Korea,KOR,FALSE,0,0,draw,Suwon,South Korea,FALSE,1764,1681,1764,1681,0
+2013-09-06,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,1,2,loss,Lima,Peru,FALSE,1764,1871,1744,1891,-20
+2013-09-10,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,2,3,loss,Puerto la Cruz,Venezuela,FALSE,1744,1693,1727,1710,-17
+2013-10-11,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,1727,2037,1722,2042,-5
+2013-10-15,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,1,1,draw,Lima,Peru,FALSE,1722,1615,1711,1626,-11
+2013-12-28,Friendly,played,Peru,PER,Basque Country,,FALSE,0,6,loss,Bilbao,Spain,FALSE,,,,,
+2014-05-30,Friendly,played,Peru,PER,England,ENG,FALSE,0,3,loss,London,England,FALSE,1711,1936,1706,1941,-5
+2014-06-03,Friendly,played,Peru,PER,Switzerland,CHE,FALSE,0,2,loss,Lucerne,Switzerland,FALSE,1706,1848,1700,1854,-6
+2014-08-06,Friendly,played,Peru,PER,Panama,PAN,TRUE,3,0,win,Lima,Peru,FALSE,1700,1699,1713,1686,13
+2014-09-04,Friendly,played,Peru,PER,Iraq,IRQ,FALSE,2,0,win,Dubai,United Arab Emirates,TRUE,1713,1573,1722,1564,9
+2014-09-09,Friendly,played,Peru,PER,Qatar,QAT,FALSE,2,0,win,Doha,Qatar,FALSE,1722,1544,1734,1532,12
+2014-10-10,Friendly,played,Peru,PER,Chile,CHL,FALSE,0,3,loss,Valparaiso,Chile,FALSE,1734,1979,1730,1983,-4
+2014-10-14,Friendly,played,Peru,PER,Guatemala,,TRUE,1,0,win,Lima,Peru,FALSE,1730,1541,1733,1538,3
+2014-11-14,Friendly,played,Peru,PER,Paraguay,PRY,FALSE,1,2,loss,Luque,Paraguay,FALSE,1733,1681,1724,1690,-9
+2014-11-18,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,2,1,win,Lima,Peru,FALSE,1724,1690,1730,1684,6
+2015-03-31,Friendly,played,Peru,PER,Venezuela,,TRUE,0,1,loss,Fort Lauderdale,United States,TRUE,1730,1675,1718,1687,-12
+2015-06-03,Friendly,played,Peru,PER,Mexico,MEX,TRUE,1,1,draw,Lima,Peru,FALSE,1718,1893,1720,1891,2
+2015-06-14,Copa América,played,Peru,PER,Brazil,BRA,FALSE,1,2,loss,Temuco,Chile,TRUE,1720,2069,1714,2075,-6
+2015-06-18,Copa América,played,Peru,PER,Venezuela,,TRUE,1,0,win,Valparaíso,Chile,TRUE,1714,1731,1740,1705,26
+2015-06-21,Copa América,played,Peru,PER,Colombia,COL,FALSE,0,0,draw,Temuco,Chile,TRUE,1740,2015,1756,1999,16
+2015-06-25,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,3,1,win,Temuco,Chile,TRUE,1756,1666,1784,1638,28
+2015-06-29,Copa América,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1784,1968,1776,1976,-8
+2015-07-03,Copa América,played,Peru,PER,Paraguay,PRY,TRUE,2,0,win,Concepción,Chile,TRUE,1776,1730,1809,1697,33
+2015-09-04,Friendly,played,Peru,PER,United States,USA,FALSE,1,2,loss,"Washington, D.C.",United States,FALSE,1809,1797,1801,1805,-8
+2015-09-08,Friendly,played,Peru,PER,Colombia,COL,FALSE,1,1,draw,Harrison,United States,TRUE,1801,2003,1806,1998,5
+2015-10-08,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,0,2,loss,Barranquilla,Colombia,FALSE,1806,1998,1797,2007,-9
+2015-10-13,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,3,4,loss,Lima,Peru,FALSE,1797,2004,1783,2018,-14
+2015-11-13,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,1,0,win,Lima,Peru,FALSE,1783,1729,1795,1717,12
+2015-11-17,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,FALSE,0,3,loss,Salvador,Brazil,FALSE,1795,2029,1786,2038,-9
+2016-03-24,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,2,2,draw,Lima,Peru,FALSE,1786,1613,1773,1626,-13
+2016-03-29,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1773,1956,1766,1963,-7
+2016-05-23,Friendly,played,Peru,PER,Trinidad and Tobago,TTO,TRUE,4,0,win,Lima,Peru,FALSE,1766,1587,1772,1581,6
+2016-05-28,Friendly,played,Peru,PER,El Salvador,SLV,FALSE,3,1,win,Seattle,United States,TRUE,1772,1440,1776,1436,4
+2016-06-04,Copa América,played,Peru,PER,Haiti,HTI,FALSE,1,0,win,Seattle,United States,TRUE,1776,1498,1784,1490,8
+2016-06-08,Copa América,played,Peru,PER,Ecuador,ECU,FALSE,2,2,draw,Glendale,United States,TRUE,1784,1883,1791,1876,7
+2016-06-12,Copa América,played,Peru,PER,Brazil,BRA,FALSE,1,0,win,Foxborough,United States,TRUE,1791,2017,1830,1978,39
+2016-06-17,Copa América,played,Peru,PER,Colombia,COL,TRUE,0,0,draw,East Rutherford,United States,TRUE,1830,1973,1840,1963,10
+2016-09-01,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,3,0,win,La Paz,Bolivia,FALSE,,,,,
+2016-09-06,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,2,1,win,Lima,Peru,FALSE,1797,1827,1813,1811,16
+2016-10-06,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,2,2,draw,Lima,Peru,FALSE,1813,2100,1823,2090,10
+2016-10-11,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1823,1948,1814,1957,-9
+2016-11-10,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,4,1,win,Asunción,Paraguay,FALSE,1814,1762,1854,1722,40
+2016-11-15,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,TRUE,0,2,loss,Lima,Peru,FALSE,1854,2066,1833,2087,-21
+2017-03-23,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,2,2,draw,Maturín,Venezuela,FALSE,1833,1683,1830,1686,-3
+2017-03-28,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,2,1,win,Lima,Peru,FALSE,1830,1887,1848,1869,18
+2017-06-08,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,1,0,win,Trujillo,Peru,FALSE,1848,1716,1852,1712,4
+2017-06-13,Friendly,played,Peru,PER,Jamaica,JAM,TRUE,3,1,win,Arequipa,Peru,FALSE,1852,1524,1854,1522,2
+2017-08-31,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,2,1,win,Lima,Peru,FALSE,1854,1685,1861,1678,7
+2017-09-05,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,2,1,win,Quito,Ecuador,FALSE,1861,1799,1883,1777,22
+2017-10-05,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,0,0,draw,Buenos Aires,Argentina,FALSE,1883,1996,1894,1985,11
+2017-10-10,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,1,1,draw,Lima,Peru,FALSE,1894,1928,1890,1932,-4
+2017-11-11,FIFA World Cup qualification,played,Peru,PER,New Zealand,NZL,FALSE,0,0,draw,Wellington,New Zealand,FALSE,1890,1515,1877,1528,-13
+2017-11-15,FIFA World Cup qualification,played,Peru,PER,New Zealand,NZL,TRUE,2,0,win,Lima,Peru,FALSE,1877,1528,1881,1524,4
+2018-03-23,Friendly,played,Peru,PER,Croatia,HRV,TRUE,2,0,win,Miami Gardens,United States,TRUE,1881,1856,1895,1842,14
+2018-03-27,Friendly,played,Peru,PER,Iceland,ISL,TRUE,3,1,win,Harrison,United States,TRUE,1895,1798,1906,1787,11
+2018-05-29,Friendly,played,Peru,PER,Scotland,SCO,TRUE,2,0,win,Lima,Peru,FALSE,1906,1717,1911,1712,5
+2018-06-03,Friendly,played,Peru,PER,Saudi Arabia,SAU,FALSE,3,0,win,St. Gallen,Switzerland,TRUE,1911,1594,1916,1589,5
+2018-06-09,Friendly,played,Peru,PER,Sweden,SWE,FALSE,0,0,draw,Gothenburg,Sweden,FALSE,1916,1792,1915,1793,-1
+2018-06-16,FIFA World Cup,played,Peru,PER,Denmark,DNK,TRUE,0,1,loss,Saransk,Russia,TRUE,1915,1854,1880,1889,-35
+2018-06-21,FIFA World Cup,played,Peru,PER,France,FRA,FALSE,0,1,loss,Ekaterinburg,Russia,TRUE,1880,1998,1860,2018,-20
+2018-06-26,FIFA World Cup,played,Peru,PER,Australia,AUS,FALSE,2,0,win,Sochi,Russia,TRUE,1860,1744,1891,1713,31
+2018-09-06,Friendly,played,Peru,PER,Netherlands,NLD,FALSE,1,2,loss,Amsterdam,Netherlands,FALSE,1891,1907,1884,1914,-7
+2018-09-09,Friendly,played,Peru,PER,Germany,DEU,FALSE,1,2,loss,Sinsheim,Germany,FALSE,1884,1967,1879,1972,-5
+2018-10-12,Friendly,played,Peru,PER,Chile,CHL,TRUE,3,0,win,Miami Gardens,United States,TRUE,1879,1869,1896,1852,17
+2018-10-16,Friendly,played,Peru,PER,United States,USA,FALSE,1,1,draw,East Hartford,United States,FALSE,1896,1753,1895,1754,-1
+2018-11-15,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,0,2,loss,Lima,Peru,FALSE,1895,1742,1871,1766,-24
+2018-11-20,Friendly,played,Peru,PER,Costa Rica,CRI,TRUE,2,3,loss,Arequipa,Peru,FALSE,1871,1708,1855,1724,-16
+2019-03-22,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,1,0,win,Harrison,United States,TRUE,1855,1723,1861,1717,6
+2019-03-26,Friendly,played,Peru,PER,El Salvador,SLV,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1861,1499,1834,1526,-27
+2019-06-05,Friendly,played,Peru,PER,Costa Rica,CRI,TRUE,1,0,win,Lima,Peru,FALSE,1834,1704,1838,1700,4
+2019-06-09,Friendly,played,Peru,PER,Colombia,COL,TRUE,0,3,loss,Lima,Peru,FALSE,1838,1957,1821,1974,-17
+2019-06-15,Copa América,played,Peru,PER,Venezuela,,FALSE,0,0,draw,Porto Alegre,Brazil,TRUE,1821,1785,1818,1788,-3
+2019-06-18,Copa América,played,Peru,PER,Bolivia,BOL,FALSE,3,1,win,Rio de Janeiro,Brazil,TRUE,1818,1634,1837,1615,19
+2019-06-22,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,5,loss,São Paulo,Brazil,FALSE,1837,2116,1827,2126,-10
+2019-06-29,Copa América,played,Peru,PER,Uruguay,URY,FALSE,0,0,draw,Salvador,Brazil,TRUE,1827,1965,1836,1956,9
+2019-07-03,Copa América,played,Peru,PER,Chile,CHL,FALSE,3,0,win,Porto Alegre,Brazil,TRUE,1836,1878,1885,1829,49
+2019-07-07,Copa América,played,Peru,PER,Brazil,BRA,FALSE,1,3,loss,Rio de Janeiro,Brazil,FALSE,1885,2115,1875,2125,-10
+2019-09-05,Friendly,played,Peru,PER,Ecuador,ECU,TRUE,0,1,loss,Harrison,United States,TRUE,1875,1716,1861,1730,-14
+2019-09-10,Friendly,played,Peru,PER,Brazil,BRA,FALSE,1,0,win,Los Angeles,United States,TRUE,1861,2122,1877,2106,16
+2019-10-11,Friendly,played,Peru,PER,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1877,1957,1872,1962,-5
+2019-10-15,Friendly,played,Peru,PER,Uruguay,URY,TRUE,1,1,draw,Lima,Peru,FALSE,1872,1962,1872,1962,0
+2019-11-15,Friendly,played,Peru,PER,Colombia,COL,FALSE,0,1,loss,Miami Gardens,United States,TRUE,1872,1974,1865,1981,-7
+2020-10-08,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,2,2,draw,Asunción,Paraguay,FALSE,1865,1738,1863,1740,-2
+2020-10-13,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,TRUE,2,4,loss,Lima,Peru,FALSE,1863,2084,1843,2104,-20
+2020-11-13,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1843,1805,1818,1830,-25
+2020-11-17,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,0,2,loss,Lima,Peru,FALSE,1818,1968,1792,1994,-26
+2021-06-03,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,0,3,loss,Lima,Peru,FALSE,1792,1896,1757,1931,-35
+2021-06-08,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,2,1,win,Quito,Ecuador,FALSE,1757,1823,1786,1794,29
+2021-06-17,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,4,loss,Rio de Janeiro,Brazil,FALSE,1786,2156,1780,2162,-6
+2021-06-20,Copa América,played,Peru,PER,Colombia,COL,FALSE,2,1,win,Goiânia,Brazil,TRUE,1780,1932,1815,1897,35
+2021-06-23,Copa América,played,Peru,PER,Ecuador,ECU,FALSE,2,2,draw,Goiânia,Brazil,TRUE,1815,1778,1812,1781,-3
+2021-06-27,Copa América,played,Peru,PER,Venezuela,,FALSE,1,0,win,Brasília,Brazil,TRUE,1812,1773,1834,1751,22
+2021-07-02,Copa América,played,Peru,PER,Paraguay,PRY,TRUE,3,3,draw,Goiânia,Brazil,TRUE,1834,1808,1832,1810,-2
+2021-07-05,Copa América,played,Peru,PER,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1832,2149,1828,2153,-4
+2021-07-09,Copa América,played,Peru,PER,Colombia,COL,TRUE,2,3,loss,Brasília,Brazil,TRUE,1828,1905,1808,1925,-20
+2021-09-02,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,1,1,draw,Lima,Peru,FALSE,1808,1935,1810,1933,2
+2021-09-05,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,1,0,win,Lima,Peru,FALSE,1810,1737,1821,1726,11
+2021-09-09,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,FALSE,0,2,loss,Recife,Brazil,FALSE,1821,2123,1816,2128,-5
+2021-10-07,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,2,0,win,Lima,Peru,FALSE,1816,1779,1835,1760,19
+2021-10-10,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,0,1,loss,La Paz,Bolivia,FALSE,1835,1576,1806,1605,-29
+2021-10-14,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1806,2084,1802,2088,-4
+2021-11-11,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,3,0,win,Lima,Peru,FALSE,1802,1657,1816,1643,14
+2021-11-16,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,2,1,win,Caracas,Venezuela,FALSE,1816,1697,1835,1678,19
+2022-01-16,Friendly,played,Peru,PER,Panama,PAN,TRUE,1,1,draw,Lima,Peru,FALSE,1835,1626,1828,1633,-7
+2022-01-20,Friendly,played,Peru,PER,Jamaica,JAM,TRUE,3,0,win,Lima,Peru,FALSE,1828,1587,1832,1583,4
+2022-01-28,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,1,0,win,Barranquilla,Colombia,FALSE,1832,1906,1861,1877,29
+2022-02-01,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,1,1,draw,Lima,Peru,FALSE,1861,1859,1855,1865,-6
+2022-03-24,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1855,1879,1842,1892,-13
+2022-03-29,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,2,0,win,Lima,Peru,FALSE,1842,1742,1856,1728,14
+2022-06-05,Friendly,played,Peru,PER,New Zealand,NZL,TRUE,1,0,win,Barcelona,Spain,TRUE,1856,1557,1859,1554,3
+2022-06-13,FIFA World Cup qualification,played,Peru,PER,Australia,AUS,FALSE,0,0,draw,Al Rayyan,Qatar,TRUE,1859,1696,1850,1705,-9
+2022-09-24,Friendly,played,Peru,PER,Mexico,MEX,FALSE,0,1,loss,Pasadena,United States,TRUE,1850,1809,1839,1820,-11
+2022-09-27,Friendly,played,Peru,PER,El Salvador,SLV,TRUE,4,1,win,"Washington, D.C.",United States,TRUE,1839,1500,1843,1496,4
+2022-11-16,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,1,0,win,Lima,Peru,FALSE,1843,1740,1848,1735,5
+2022-11-19,Friendly,played,Peru,PER,Bolivia,BOL,TRUE,1,0,win,Arequipa,Peru,FALSE,1848,1620,1851,1617,3
+2023-03-25,Friendly,played,Peru,PER,Germany,DEU,FALSE,0,2,loss,Mainz,Germany,FALSE,1851,1955,1844,1962,-7
+2023-03-28,Friendly,played,Peru,PER,Morocco,MAR,FALSE,0,0,draw,Madrid,Spain,TRUE,1844,1880,1845,1879,1
+2023-06-16,Friendly,played,Peru,PER,South Korea,KOR,FALSE,1,0,win,Busan,South Korea,FALSE,1845,1779,1856,1768,11
+2023-06-20,Friendly,played,Peru,PER,Japan,JPN,FALSE,1,4,loss,Suita,Japan,FALSE,1856,1842,1843,1855,-13
+2023-09-07,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,FALSE,0,0,draw,Ciudad del Este,Paraguay,FALSE,1843,1720,1842,1721,-1
+2023-09-12,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,TRUE,0,1,loss,Lima,Peru,FALSE,1842,2095,1830,2107,-12
+2023-10-12,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1830,1707,1798,1739,-32
+2023-10-17,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,TRUE,0,2,loss,Lima,Peru,FALSE,1798,2159,1787,2170,-11
+2023-11-16,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,FALSE,0,2,loss,La Paz,Bolivia,FALSE,1787,1576,1748,1615,-39
+2023-11-21,FIFA World Cup qualification,played,Peru,PER,Venezuela,,TRUE,1,1,draw,Lima,Peru,FALSE,1748,1756,1743,1761,-5
+2024-03-22,Friendly,played,Peru,PER,Nicaragua,,TRUE,2,0,win,Lima,Peru,FALSE,1743,1332,1745,1330,2
+2024-03-26,Friendly,played,Peru,PER,Dominican Republic,,TRUE,4,1,win,Lima,Peru,FALSE,1745,1209,1746,1208,1
+2024-06-07,Friendly,played,Peru,PER,Paraguay,PRY,TRUE,0,0,draw,Lima,Peru,FALSE,1746,1706,1742,1710,-4
+2024-06-14,Friendly,played,Peru,PER,El Salvador,SLV,FALSE,1,0,win,Philadelphia,United States,TRUE,1742,1389,1744,1387,2
+2024-06-21,Copa América,played,Peru,PER,Chile,CHL,TRUE,0,0,draw,Arlington,United States,TRUE,1744,1725,1743,1726,-1
+2024-06-25,Copa América,played,Peru,PER,Canada,CAN,TRUE,0,1,loss,Kansas City,United States,TRUE,1743,1714,1716,1741,-27
+2024-06-29,Copa América,played,Peru,PER,Argentina,ARG,FALSE,0,2,loss,Miami Gardens,United States,TRUE,1716,2155,1710,2161,-6
+2024-09-06,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,TRUE,1,1,draw,Lima,Peru,FALSE,1710,2050,1722,2038,12
+2024-09-10,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,FALSE,0,1,loss,Quito,Ecuador,FALSE,1722,1863,1714,1871,-8
+2024-10-11,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,TRUE,1,0,win,Lima,Peru,FALSE,1714,1955,1742,1927,28
+2024-10-15,FIFA World Cup qualification,played,Peru,PER,Brazil,BRA,FALSE,0,4,loss,Brasília,Brazil,FALSE,1742,2005,1734,2013,-8
+2024-11-15,FIFA World Cup qualification,played,Peru,PER,Chile,CHL,TRUE,0,0,draw,Lima,Peru,FALSE,1734,1675,1725,1684,-9
+2024-11-19,FIFA World Cup qualification,played,Peru,PER,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1725,2106,1723,2108,-2
+2025-03-20,FIFA World Cup qualification,played,Peru,PER,Bolivia,BOL,TRUE,3,1,win,Lima,Peru,FALSE,1723,1658,1740,1641,17
+2025-03-25,FIFA World Cup qualification,played,Peru,PER,Venezuela,,FALSE,0,1,loss,Maturín,Venezuela,FALSE,1740,1727,1725,1742,-15
+2025-06-06,FIFA World Cup qualification,played,Peru,PER,Colombia,COL,FALSE,0,0,draw,Barranquilla,Colombia,FALSE,1725,1951,1740,1936,15
+2025-06-10,FIFA World Cup qualification,played,Peru,PER,Ecuador,ECU,TRUE,0,0,draw,Lima,Peru,FALSE,1740,1910,1744,1906,4
+2025-09-04,FIFA World Cup qualification,played,Peru,PER,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1744,1901,1731,1914,-13
+2025-09-09,FIFA World Cup qualification,played,Peru,PER,Paraguay,PRY,TRUE,0,1,loss,Lima,Peru,FALSE,1731,1824,1711,1844,-20
+2025-10-10,Friendly,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1711,1690,1703,1698,-8
+2025-11-12,Friendly,played,Peru,PER,Russia,RUS,FALSE,1,1,draw,Saint Petersburg,Russia,FALSE,1703,1810,1708,1805,5
+2025-11-18,Friendly,played,Peru,PER,Chile,CHL,FALSE,1,2,loss,Sochi,Russia,TRUE,1708,1721,1698,1731,-10
+2026-03-28,Friendly,played,Peru,PER,Senegal,SEN,FALSE,0,2,loss,Paris,France,TRUE,1708,1869,1699,1878,-9
+2026-03-31,Friendly,played,Peru,PER,Honduras,HND,TRUE,2,2,draw,Madrid,Spain,TRUE,1699,1567,1695,1571,-4

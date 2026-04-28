@@ -1,0 +1,533 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1926-10-12,Copa América,played,Bolivia,BOL,Chile,CHL,FALSE,1,7,loss,Santiago,Chile,FALSE,1300,1401,1275,1426,-25
+1926-10-16,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,0,5,loss,Santiago,Chile,TRUE,1275,1997,1273,1999,-2
+1926-10-23,Copa América,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,6,loss,Santiago,Chile,TRUE,1273,1724,1266,1731,-7
+1926-10-28,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,6,loss,Santiago,Chile,TRUE,1266,2015,1265,2016,-1
+1927-10-30,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,1,7,loss,Lima,Peru,TRUE,1265,1960,1263,1962,-2
+1927-11-06,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,9,loss,Lima,Peru,TRUE,1263,2040,1262,2041,-1
+1927-11-13,Copa América,played,Bolivia,BOL,Peru,PER,FALSE,2,3,loss,Lima,Peru,FALSE,1262,1588,1258,1592,-4
+1930-07-17,FIFA World Cup,played,Bolivia,BOL,Yugoslavia,YUG,TRUE,0,4,loss,Montevideo,Uruguay,TRUE,1258,1642,1247,1653,-11
+1930-07-20,FIFA World Cup,played,Bolivia,BOL,Brazil,BRA,TRUE,0,4,loss,Montevideo,Uruguay,TRUE,1247,1871,1244,1874,-3
+1938-08-08,Bolivarian Games,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,1,draw,Bogotá,Colombia,TRUE,1244,1300,1247,1297,3
+1938-08-11,Bolivarian Games,played,Bolivia,BOL,Venezuela,,TRUE,3,1,win,Bogotá,Colombia,TRUE,1247,1299,1281,1265,34
+1938-08-14,Bolivarian Games,played,Bolivia,BOL,Peru,PER,TRUE,0,3,loss,Bogota,Colombia,TRUE,1281,1627,1273,1635,-8
+1938-08-16,Bolivarian Games,played,Bolivia,BOL,Colombia,COL,FALSE,2,1,win,Bogotá,Colombia,FALSE,1273,1376,1304,1345,31
+1938-08-22,Bolivarian Games,played,Bolivia,BOL,Ecuador,ECU,TRUE,2,1,win,Bogotá,Colombia,TRUE,1304,1340,1326,1318,22
+1945-01-18,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,0,4,loss,Santiago,Chile,TRUE,1326,2088,1325,2089,-1
+1945-01-24,Copa América,played,Bolivia,BOL,Chile,CHL,FALSE,0,5,loss,Santiago,Chile,FALSE,1325,1597,1314,1608,-11
+1945-01-28,Copa América,played,Bolivia,BOL,Brazil,BRA,TRUE,0,2,loss,Santiago,Chile,TRUE,1314,1913,1312,1915,-2
+1945-02-11,Copa América,played,Bolivia,BOL,Ecuador,ECU,TRUE,0,0,draw,Santiago,Chile,TRUE,1312,1235,1307,1240,-5
+1945-02-15,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,2,loss,Santiago,Chile,TRUE,1307,1900,1305,1902,-2
+1945-02-21,Copa América,played,Bolivia,BOL,Colombia,COL,TRUE,3,3,draw,Santiago,Chile,TRUE,1305,1358,1309,1354,4
+1946-01-16,Copa América,played,Bolivia,BOL,Brazil,BRA,TRUE,0,3,loss,Buenos Aires,Argentina,TRUE,1309,1976,1307,1978,-2
+1946-01-19,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,1,7,loss,Buenos Aires,Argentina,FALSE,1307,2041,1306,2042,-1
+1946-01-26,Copa América,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,4,loss,Buenos Aires,Argentina,TRUE,1306,1725,1300,1731,-6
+1946-01-29,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,5,loss,Avellaneda,Argentina,TRUE,1300,1865,1296,1869,-4
+1946-02-08,Copa América,played,Bolivia,BOL,Chile,CHL,TRUE,1,4,loss,Buenos Aires,Argentina,TRUE,1296,1661,1286,1671,-10
+1947-01-05,Bolivarian Games,played,Bolivia,BOL,Venezuela,,FALSE,2,2,draw,Lima,Peru,TRUE,,,,,
+1947-11-30,Copa América,played,Bolivia,BOL,Ecuador,ECU,FALSE,2,2,draw,Guayaquil,Ecuador,FALSE,1286,1210,1288,1208,2
+1947-12-04,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,0,7,loss,Guayaquil,Ecuador,TRUE,1288,2095,1287,2096,-1
+1947-12-09,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,3,loss,Guayaquil,Ecuador,TRUE,1287,1861,1284,1864,-3
+1947-12-13,Copa América,played,Bolivia,BOL,Colombia,COL,TRUE,0,0,draw,Guayaquil,Ecuador,TRUE,1284,1473,1296,1461,12
+1947-12-18,Copa América,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,3,loss,Guayaquil,Ecuador,TRUE,1296,1806,1292,1810,-4
+1947-12-27,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,0,2,loss,Guayaquil,Ecuador,TRUE,1292,1637,1283,1646,-9
+1947-12-31,Copa América,played,Bolivia,BOL,Chile,CHL,TRUE,3,4,loss,Guayaquil,Ecuador,TRUE,,,,,
+1949-04-06,Copa América,played,Bolivia,BOL,Chile,CHL,TRUE,3,2,win,São Paulo,Brazil,TRUE,1279,1703,1325,1657,46
+1949-04-10,Copa América,played,Bolivia,BOL,Brazil,BRA,FALSE,1,10,loss,São Paulo,Brazil,FALSE,1325,1950,1323,1952,-2
+1949-04-17,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,3,2,win,Rio de Janeiro,Brazil,TRUE,1323,1870,1371,1822,48
+1949-04-25,Copa América,played,Bolivia,BOL,Ecuador,ECU,TRUE,2,0,win,São Paulo,Brazil,TRUE,1371,1204,1392,1183,21
+1949-04-27,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,0,3,loss,Santos,Brazil,TRUE,1392,1643,1375,1660,-17
+1949-04-30,Copa América,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,7,loss,Rio de Janeiro,Brazil,TRUE,1375,1858,1368,1865,-7
+1949-05-06,Copa América,played,Bolivia,BOL,Colombia,COL,TRUE,4,0,win,Rio de Janeiro,Brazil,TRUE,1368,1349,1412,1305,44
+1950-02-26,Friendly,played,Bolivia,BOL,Chile,CHL,TRUE,2,0,win,La Paz,Bolivia,FALSE,1412,1639,1453,1598,41
+1950-03-12,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,0,5,loss,Santiago,Chile,FALSE,1453,1598,1445,1606,-8
+1950-07-02,FIFA World Cup,played,Bolivia,BOL,Uruguay,URY,TRUE,0,8,loss,Belo Horizonte,Brazil,TRUE,1445,1737,1423,1759,-22
+1953-02-22,Copa América,played,Bolivia,BOL,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1423,1762,1469,1716,46
+1953-02-25,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,2,loss,Lima,Peru,TRUE,1469,1856,1462,1863,-7
+1953-03-01,Copa América,played,Bolivia,BOL,Brazil,BRA,TRUE,1,8,loss,Lima,Peru,TRUE,1462,2057,1458,2061,-4
+1953-03-08,Copa América,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,1,draw,Lima,Peru,TRUE,1458,1275,1446,1287,-12
+1953-03-16,Copa América,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,2,loss,Lima,Peru,TRUE,1446,1852,1442,1856,-4
+1953-03-28,Copa América,played,Bolivia,BOL,Chile,CHL,TRUE,2,2,draw,Lima,Peru,TRUE,1442,1751,1460,1733,18
+1957-06-06,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,2,5,loss,Asunción,Paraguay,FALSE,1460,1726,1454,1732,-6
+1957-06-13,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,1,0,win,Asunción,Paraguay,FALSE,1454,1732,1481,1705,27
+1957-08-18,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,3,3,draw,La Paz,Bolivia,FALSE,1481,1764,1488,1757,7
+1957-08-21,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,1,win,La Paz,Bolivia,FALSE,1488,1757,1510,1735,22
+1957-09-22,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1510,1728,1504,1734,-6
+1957-09-29,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,3,0,win,La Paz,Bolivia,FALSE,1504,1734,1552,1686,48
+1957-10-06,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,2,0,win,La Paz,Bolivia,FALSE,1552,2097,1608,2041,56
+1957-10-27,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,4,loss,Avellaneda,Argentina,FALSE,1608,2057,1605,2060,-3
+1959-03-08,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,7,loss,Buenos Aires,Argentina,TRUE,1605,1912,1589,1928,-16
+1959-03-11,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1589,1934,1584,1939,-5
+1959-03-15,Copa América,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,5,loss,Buenos Aires,Argentina,TRUE,1584,1783,1560,1807,-24
+1959-03-21,Copa América,played,Bolivia,BOL,Brazil,BRA,TRUE,2,4,loss,Buenos Aires,Argentina,TRUE,1560,2128,1557,2131,-3
+1959-03-26,Copa América,played,Bolivia,BOL,Chile,CHL,TRUE,2,5,loss,Buenos Aires,Argentina,TRUE,1557,1646,1524,1679,-33
+1959-03-29,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,0,0,draw,Buenos Aires,Argentina,TRUE,1524,1795,1540,1779,16
+1961-07-15,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1540,1940,1554,1926,14
+1961-07-30,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1554,1926,1552,1928,-2
+1962-08-10,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,3,1,win,Cochabamba,Bolivia,FALSE,1552,1655,1575,1632,23
+1962-08-12,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,3,2,win,La Paz,Bolivia,FALSE,1575,1632,1588,1619,13
+1963-02-17,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,3,loss,Asunción,Paraguay,FALSE,1588,1619,1571,1636,-17
+1963-02-19,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,1,5,loss,Asunción,Paraguay,FALSE,1571,1636,1555,1652,-16
+1963-03-10,Copa América,played,Bolivia,BOL,Ecuador,ECU,TRUE,4,4,draw,La Paz,Bolivia,FALSE,1555,1321,1536,1340,-19
+1963-03-17,Copa América,played,Bolivia,BOL,Colombia,COL,TRUE,2,1,win,Cochabamba,Bolivia,FALSE,1536,1453,1549,1440,13
+1963-03-21,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,3,2,win,La Paz,Bolivia,FALSE,1549,1728,1580,1697,31
+1963-03-24,Copa América,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,0,win,Cochabamba,Bolivia,FALSE,1580,1749,1625,1704,45
+1963-03-28,Copa América,played,Bolivia,BOL,Argentina,ARG,TRUE,3,2,win,La Paz,Bolivia,FALSE,1625,1989,1666,1948,41
+1963-03-31,Copa América,played,Bolivia,BOL,Brazil,BRA,TRUE,5,4,win,Cochabamba,Bolivia,FALSE,1666,2029,1707,1988,41
+1965-07-25,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1707,1795,1692,1810,-15
+1965-08-17,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,1,4,loss,Buenos Aires,Argentina,FALSE,1692,1982,1685,1989,-7
+1965-08-22,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,1,win,La Paz,Bolivia,FALSE,1685,1802,1706,1781,21
+1965-08-29,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1706,1989,1696,1999,-10
+1967-01-17,Copa América,played,Bolivia,BOL,Uruguay,URY,FALSE,0,4,loss,Montevideo,Uruguay,FALSE,1696,1843,1678,1861,-18
+1967-01-22,Copa América,played,Bolivia,BOL,Argentina,ARG,TRUE,0,1,loss,Montevideo,Uruguay,TRUE,1678,2000,1671,2007,-7
+1967-01-25,Copa América,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,1,loss,Montevideo,Uruguay,TRUE,1671,1695,1648,1718,-23
+1967-01-28,Copa América,played,Bolivia,BOL,Venezuela,,TRUE,0,3,loss,Montevideo,Uruguay,TRUE,1648,1339,1573,1414,-75
+1967-02-01,Copa América,played,Bolivia,BOL,Chile,CHL,TRUE,0,0,draw,Montevideo,Uruguay,TRUE,1573,1766,1586,1753,13
+1969-07-27,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,3,1,win,La Paz,Bolivia,FALSE,1586,1892,1632,1846,46
+1969-08-10,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,2,1,win,La Paz,Bolivia,FALSE,1632,1691,1650,1673,18
+1969-08-17,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,0,3,loss,Lima,Peru,FALSE,1650,1673,1627,1696,-23
+1969-08-24,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1627,1821,1621,1827,-6
+1971-08-15,Friendly,played,Bolivia,BOL,Chile,CHL,TRUE,3,4,loss,La Paz,Bolivia,FALSE,1621,1725,1611,1735,-10
+1972-06-11,Brazil Independence Cup,played,Bolivia,BOL,Peru,PER,TRUE,0,3,loss,Curitiba,Brazil,TRUE,1611,1694,1584,1721,-27
+1972-06-18,Brazil Independence Cup,played,Bolivia,BOL,Yugoslavia,YUG,TRUE,1,1,draw,Campo Grande,Brazil,TRUE,1584,1854,1597,1841,13
+1972-06-21,Brazil Independence Cup,played,Bolivia,BOL,Venezuela,,TRUE,2,2,draw,Manaus,Brazil,TRUE,1597,1356,1585,1368,-12
+1972-06-25,Brazil Independence Cup,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,6,loss,Manaus,Brazil,TRUE,1585,1764,1564,1785,-21
+1973-03-24,Friendly,played,Bolivia,BOL,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1564,1695,1555,1704,-9
+1973-03-31,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1555,1776,1558,1773,3
+1973-04-29,Friendly,played,Bolivia,BOL,Ecuador,ECU,TRUE,3,3,draw,La Paz,Bolivia,FALSE,1558,1443,1552,1449,-6
+1973-05-06,Friendly,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,0,draw,Quito,Ecuador,FALSE,1552,1449,1552,1449,0
+1973-05-27,Friendly,played,Bolivia,BOL,Brazil,BRA,FALSE,0,5,loss,Rio de Janeiro,Brazil,FALSE,1552,2142,1551,2143,-1
+1973-07-15,Friendly,played,Bolivia,BOL,Peru,PER,TRUE,2,0,win,La Paz,Bolivia,FALSE,1551,1716,1578,1689,27
+1973-07-24,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,0,3,loss,Santiago,Chile,FALSE,1578,1736,1568,1746,-10
+1973-09-02,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1568,1769,1554,1783,-14
+1973-09-09,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,4,loss,Buenos Aires,Argentina,FALSE,1554,1860,1547,1867,-7
+1973-09-23,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,0,1,loss,La Paz,Bolivia,FALSE,1547,1868,1538,1877,-9
+1973-09-30,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,4,loss,Asunción,Paraguay,FALSE,1538,1782,1529,1791,-9
+1975-06-27,Friendly,played,Bolivia,BOL,Argentina,ARG,TRUE,1,2,loss,Cochabamba,Bolivia,FALSE,1529,1858,1523,1864,-6
+1975-07-07,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,2,loss,Cochabamba,Bolivia,FALSE,1523,1764,1517,1770,-6
+1975-07-09,Friendly,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,0,win,Cochabamba,Bolivia,FALSE,1517,1476,1523,1470,6
+1975-07-20,Copa América,played,Bolivia,BOL,Chile,CHL,TRUE,2,1,win,Oruro,Bolivia,FALSE,1523,1711,1554,1680,31
+1975-07-27,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,0,1,loss,Oruro,Bolivia,FALSE,1554,1659,1529,1684,-25
+1975-08-07,Copa América,played,Bolivia,BOL,Peru,PER,FALSE,1,3,loss,Lima,Peru,FALSE,1529,1684,1515,1698,-14
+1975-08-13,Copa América,played,Bolivia,BOL,Chile,CHL,FALSE,0,4,loss,Santiago,Chile,FALSE,1515,1680,1498,1697,-17
+1977-02-06,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,1,loss,La Paz,Bolivia,FALSE,1498,1676,1486,1688,-12
+1977-02-09,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,2,draw,Cochabamba,Bolivia,FALSE,1486,1688,1490,1684,4
+1977-02-27,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,1,0,win,La Paz,Bolivia,FALSE,1490,1686,1515,1661,25
+1977-03-06,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,3,1,win,Caracas,Venezuela,FALSE,1515,1375,1542,1348,27
+1977-03-13,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,2,0,win,La Paz,Bolivia,FALSE,1542,1348,1551,1339,9
+1977-03-27,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,2,2,draw,Montevideo,Uruguay,FALSE,1551,1666,1562,1655,11
+1977-06-12,Friendly,played,Bolivia,BOL,Poland,POL,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1562,1940,1559,1943,-3
+1977-07-14,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,0,8,loss,Cali,Colombia,TRUE,1559,2066,1554,2071,-5
+1977-07-17,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,0,5,loss,Cali,Colombia,TRUE,1554,1751,1535,1770,-19
+1977-10-29,FIFA World Cup qualification,played,Bolivia,BOL,Hungary,HUN,FALSE,0,6,loss,Budapest,Hungary,FALSE,1535,1902,1530,1907,-5
+1977-11-30,FIFA World Cup qualification,played,Bolivia,BOL,Hungary,HUN,TRUE,2,3,loss,La Paz,Bolivia,FALSE,1530,1909,1523,1916,-7
+1979-07-10,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,3,1,win,La Paz,Bolivia,FALSE,1523,1721,1552,1692,29
+1979-07-12,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,1,draw,Cochabamba,Bolivia,FALSE,1552,1692,1553,1691,1
+1979-07-18,Copa América,played,Bolivia,BOL,Argentina,ARG,TRUE,2,1,win,La Paz,Bolivia,FALSE,1553,2049,1598,2004,45
+1979-07-26,Copa América,played,Bolivia,BOL,Brazil,BRA,TRUE,2,1,win,La Paz,Bolivia,FALSE,1598,2146,1644,2100,46
+1979-08-01,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1644,1691,1630,1705,-14
+1979-08-08,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1630,1992,1624,1998,-6
+1979-08-16,Copa América,played,Bolivia,BOL,Brazil,BRA,FALSE,0,2,loss,São Paulo,Brazil,FALSE,1624,2112,1622,2114,-2
+1980-07-02,Friendly,played,Bolivia,BOL,Poland,POL,TRUE,0,1,loss,Santa Cruz,Bolivia,FALSE,1622,1926,1617,1931,-5
+1980-08-26,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1617,1782,1620,1779,3
+1980-08-28,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,3,loss,Santa Cruz,Bolivia,FALSE,1620,1779,1608,1791,-12
+1980-09-18,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1608,1791,1603,1796,-5
+1980-11-09,Friendly,played,Bolivia,BOL,Uruguay,URY,TRUE,1,3,loss,Cochabamba,Bolivia,FALSE,1603,1641,1585,1659,-18
+1980-11-30,Friendly,played,Bolivia,BOL,Finland,,TRUE,3,0,win,La Paz,Bolivia,FALSE,1585,1433,1592,1426,7
+1980-12-04,Friendly,played,Bolivia,BOL,Finland,,TRUE,2,2,draw,Santa Cruz,Bolivia,FALSE,1592,1426,1586,1432,-6
+1980-12-11,Friendly,played,Bolivia,BOL,Uruguay,URY,FALSE,0,5,loss,Maldonado,Uruguay,FALSE,1586,1669,1576,1679,-10
+1981-02-01,Friendly,played,Bolivia,BOL,Bulgaria,BGR,TRUE,1,3,loss,La Paz,Bolivia,FALSE,1583,1691,1568,1706,-15
+1981-02-15,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,3,0,win,La Paz,Bolivia,FALSE,1568,1342,1577,1333,9
+1981-02-22,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1577,2048,1573,2052,-4
+1981-03-15,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,0,1,loss,Caracas,Venezuela,FALSE,1573,1333,1545,1361,-28
+1981-03-22,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,1,3,loss,Rio de Janeiro,Brazil,FALSE,1545,2053,1543,2055,-2
+1983-07-19,Friendly,played,Bolivia,BOL,Chile,CHL,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1543,1702,1535,1710,-8
+1983-08-03,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,1,win,La Paz,Bolivia,FALSE,1535,1717,1547,1705,12
+1983-08-05,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,3,loss,Santa Cruz,Bolivia,FALSE,1547,1705,1534,1718,-13
+1983-08-14,Copa América,played,Bolivia,BOL,Colombia,COL,TRUE,0,1,loss,La Paz,Bolivia,FALSE,1534,1581,1505,1610,-29
+1983-08-21,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1505,1721,1513,1713,8
+1983-08-24,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,2,4,loss,Arica,Chile,FALSE,1513,1752,1509,1756,-4
+1983-08-31,Copa América,played,Bolivia,BOL,Colombia,COL,FALSE,2,2,draw,Bogotá,Colombia,FALSE,1509,1599,1521,1587,12
+1983-09-04,Copa América,played,Bolivia,BOL,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1521,1712,1513,1720,-8
+1985-02-03,Friendly,played,Bolivia,BOL,German DR,DDR,TRUE,2,1,win,La Paz,Bolivia,FALSE,1513,1843,1529,1827,16
+1985-02-06,Friendly,played,Bolivia,BOL,Uruguay,URY,TRUE,0,1,loss,Cochabamba,Bolivia,FALSE,1529,1911,1526,1914,-3
+1985-02-17,Friendly,played,Bolivia,BOL,Peru,PER,FALSE,0,3,loss,Lima,Peru,FALSE,1526,1640,1518,1648,-8
+1985-02-21,Friendly,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,3,loss,Quito,Ecuador,FALSE,1518,1546,1507,1557,-11
+1985-04-21,Friendly,played,Bolivia,BOL,Venezuela,,TRUE,4,0,win,Santa Cruz,Bolivia,FALSE,,,,,
+1985-05-01,Friendly,played,Bolivia,BOL,Peru,PER,TRUE,0,0,draw,Santa Cruz,Bolivia,FALSE,1494,1707,1497,1704,3
+1985-05-26,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,1,draw,Santa Cruz,Bolivia,FALSE,1497,1730,1504,1723,7
+1985-06-02,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,0,2,loss,Santa Cruz,Bolivia,FALSE,1504,1918,1496,1926,-8
+1985-06-09,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,3,loss,Asunción,Paraguay,FALSE,1496,1723,1487,1732,-9
+1985-06-30,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,1,1,draw,São Paulo,Brazil,FALSE,1487,1939,1505,1921,18
+1987-06-14,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,2,loss,Santa Cruz,Bolivia,FALSE,1505,1800,1498,1807,-7
+1987-06-23,Friendly,played,Bolivia,BOL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1498,1780,1496,1782,-2
+1987-06-28,Copa América,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,0,draw,Rosario,Argentina,TRUE,1496,1821,1514,1803,18
+1987-07-01,Copa América,played,Bolivia,BOL,Colombia,COL,TRUE,0,2,loss,Rosario,Argentina,TRUE,1514,1647,1490,1671,-24
+1989-05-25,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,3,2,win,Cochabamba,Bolivia,FALSE,1490,1804,1505,1789,15
+1989-06-01,Friendly,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1505,1789,1502,1792,-3
+1989-06-08,Friendly,played,Bolivia,BOL,Uruguay,URY,TRUE,0,0,draw,Santa Cruz,Bolivia,FALSE,1502,1857,1508,1851,6
+1989-06-14,Friendly,played,Bolivia,BOL,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1508,1851,1507,1852,-1
+1989-06-22,Friendly,played,Bolivia,BOL,Chile,CHL,TRUE,0,1,loss,Santa Cruz,Bolivia,FALSE,1507,1768,1501,1774,-6
+1989-06-27,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1501,1774,1499,1776,-2
+1989-07-04,Copa América,played,Bolivia,BOL,Uruguay,URY,FALSE,0,3,loss,Goiânia,Brazil,TRUE,1499,1806,1486,1819,-13
+1989-07-06,Copa América,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,0,draw,Goiânia,Brazil,TRUE,1486,1631,1496,1621,10
+1989-07-08,Copa América,played,Bolivia,BOL,Chile,CHL,TRUE,0,5,loss,Goiânia,Brazil,TRUE,1496,1719,1474,1741,-22
+1989-07-10,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,0,0,draw,Goiânia,Brazil,TRUE,1474,1869,1494,1849,20
+1989-08-20,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,2,1,win,La Paz,Bolivia,FALSE,1494,1598,1514,1578,20
+1989-09-03,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,2,1,win,La Paz,Bolivia,FALSE,1514,1901,1548,1867,34
+1989-09-10,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1548,1564,1574,1538,26
+1989-09-17,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1574,1867,1568,1873,-6
+1991-06-14,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,1,loss,Santa Cruz,Bolivia,FALSE,1568,1751,1557,1762,-11
+1991-06-16,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,0,draw,Asunción,Paraguay,FALSE,1557,1762,1568,1751,11
+1991-07-07,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,1,1,draw,Valparaíso,Chile,TRUE,1568,1840,1584,1824,16
+1991-07-09,Copa América,played,Bolivia,BOL,Brazil,BRA,TRUE,1,2,loss,Viña del Mar,Chile,TRUE,1584,1953,1579,1958,-5
+1991-07-11,Copa América,played,Bolivia,BOL,Colombia,COL,TRUE,0,0,draw,Viña del Mar,Chile,TRUE,1579,1786,1592,1773,13
+1991-07-13,Copa América,played,Bolivia,BOL,Ecuador,ECU,TRUE,0,4,loss,Viña del Mar,Chile,TRUE,1592,1642,1552,1682,-40
+1993-01-19,Nehru Cup,played,Bolivia,BOL,North Korea,PRK,FALSE,1,2,loss,Madras,India,TRUE,,,,,
+1993-01-25,Nehru Cup,played,Bolivia,BOL,Russia,RUS,TRUE,1,2,loss,Madras,India,TRUE,,,,,
+1993-01-29,Friendly,played,Bolivia,BOL,Honduras,HND,TRUE,3,1,win,Cochabamba,Bolivia,FALSE,1552,1699,1569,1682,17
+1993-03-03,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1569,1716,1563,1722,-6
+1993-03-12,Friendly,played,Bolivia,BOL,El Salvador,SLV,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1563,1496,1564,1495,1
+1993-03-14,Friendly,played,Bolivia,BOL,Honduras,HND,FALSE,0,0,draw,San Pedro Sula,Honduras,FALSE,1564,1714,1570,1708,6
+1993-03-16,Friendly,played,Bolivia,BOL,Honduras,HND,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1570,1708,1576,1702,6
+1993-03-31,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,1,2,loss,Arica,Chile,FALSE,1576,1770,1573,1773,-3
+1993-05-23,Friendly,played,Bolivia,BOL,United States,USA,FALSE,0,0,draw,Fullerton,United States,FALSE,1573,1647,1578,1642,5
+1993-05-27,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,1,win,Cochabamba,Bolivia,FALSE,1578,1722,1595,1705,17
+1993-06-06,Friendly,played,Bolivia,BOL,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1595,1536,1586,1545,-9
+1993-06-13,Friendly,played,Bolivia,BOL,Chile,CHL,TRUE,1,3,loss,La Paz,Bolivia,FALSE,1586,1773,1575,1784,-11
+1993-06-17,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,0,1,loss,Guayaquil,Ecuador,TRUE,1575,2010,1571,2014,-4
+1993-06-20,Copa América,played,Bolivia,BOL,Colombia,COL,FALSE,1,1,draw,Machala,Ecuador,TRUE,1571,1814,1586,1799,15
+1993-06-23,Copa América,played,Bolivia,BOL,Mexico,MEX,FALSE,0,0,draw,Portoviejo,Ecuador,TRUE,1586,1839,1602,1823,16
+1993-07-18,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,7,1,win,Puerto Ordaz,Venezuela,FALSE,1602,1375,1630,1347,28
+1993-07-25,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,2,0,win,La Paz,Bolivia,FALSE,1630,1953,1677,1906,47
+1993-08-08,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,3,1,win,La Paz,Bolivia,FALSE,1677,1815,1710,1782,33
+1993-08-15,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,0,win,La Paz,Bolivia,FALSE,1710,1711,1724,1697,14
+1993-08-22,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,7,0,win,La Paz,Bolivia,FALSE,1724,1333,1729,1328,5
+1993-08-29,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,0,6,loss,Recife,Brazil,FALSE,1729,1916,1715,1930,-14
+1993-09-12,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1715,1806,1705,1816,-10
+1993-09-19,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,1,1,draw,Guayaquil,Ecuador,FALSE,1705,1636,1707,1634,2
+1993-12-22,Friendly,played,Bolivia,BOL,Basque Country,,FALSE,1,3,loss,San Sebastián,Spain,FALSE,,,,,
+1994-02-18,Joe Robbie Cup,played,Bolivia,BOL,United States,USA,FALSE,1,1,draw,Miami,United States,FALSE,1707,1634,1708,1633,1
+1994-02-20,Joe Robbie Cup,played,Bolivia,BOL,Colombia,COL,TRUE,0,2,loss,Miami,United States,TRUE,1708,1935,1698,1945,-10
+1994-03-26,Friendly,played,Bolivia,BOL,United States,USA,FALSE,2,2,draw,Dallas,United States,FALSE,1698,1626,1699,1625,1
+1994-04-07,Friendly,played,Bolivia,BOL,Colombia,COL,FALSE,1,0,win,Villavicencio,Colombia,FALSE,1699,1939,1717,1921,18
+1994-04-20,Friendly,played,Bolivia,BOL,Romania,ROU,FALSE,0,3,loss,Bucharest,Romania,FALSE,1717,1827,1709,1835,-8
+1994-05-04,Friendly,played,Bolivia,BOL,Saudi Arabia,SAU,TRUE,1,0,win,Cannes,France,TRUE,1709,1636,1717,1628,8
+1994-05-11,Friendly,played,Bolivia,BOL,Cameroon,CMR,TRUE,1,1,draw,Piraeus,Greece,TRUE,1717,1684,1716,1685,-1
+1994-05-13,Friendly,played,Bolivia,BOL,Greece,GRC,FALSE,0,0,draw,Piraeus,Greece,FALSE,1716,1705,1720,1701,4
+1994-05-19,Friendly,played,Bolivia,BOL,Iceland,ISL,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1720,1578,1709,1589,-11
+1994-05-24,Friendly,played,Bolivia,BOL,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1994-06-08,Friendly,played,Bolivia,BOL,Peru,PER,TRUE,0,0,draw,Santa Cruz,Bolivia,FALSE,1705,1535,1698,1542,-7
+1994-06-11,Friendly,played,Bolivia,BOL,Switzerland,CHE,TRUE,0,0,draw,Montreal,Canada,TRUE,1698,1878,1703,1873,5
+1994-06-17,FIFA World Cup,played,Bolivia,BOL,Germany,DEU,FALSE,0,1,loss,Chicago,United States,TRUE,1703,2009,1694,2018,-9
+1994-06-23,FIFA World Cup,played,Bolivia,BOL,South Korea,KOR,FALSE,0,0,draw,Foxborough,United States,TRUE,1694,1683,1693,1684,-1
+1994-06-27,FIFA World Cup,played,Bolivia,BOL,Spain,ESP,TRUE,1,3,loss,Chicago,United States,TRUE,1693,1888,1671,1910,-22
+1994-09-21,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,2,1,win,Santiago,Chile,FALSE,1671,1774,1686,1759,15
+1995-04-03,Friendly,played,Bolivia,BOL,Venezuela,,TRUE,0,0,draw,Sucre,Bolivia,FALSE,1686,1355,1678,1363,-8
+1995-05-14,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,1,draw,Cochabamba,Bolivia,FALSE,1678,1696,1675,1699,-3
+1995-06-09,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,0,draw,Asunción,Paraguay,FALSE,1675,1699,1680,1694,5
+1995-06-18,Friendly,played,Bolivia,BOL,Venezuela,,FALSE,3,1,win,Valera,Venezuela,FALSE,1680,1363,1687,1356,7
+1995-07-01,Friendly,played,Bolivia,BOL,Peru,PER,FALSE,1,4,loss,Lima,Peru,FALSE,1687,1574,1669,1592,-18
+1995-07-08,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,1,2,loss,Paysandú,Uruguay,TRUE,1669,1879,1658,1890,-11
+1995-07-11,Copa América,played,Bolivia,BOL,United States,USA,FALSE,1,0,win,Paysandú,Uruguay,TRUE,1658,1705,1686,1677,28
+1995-07-14,Copa América,played,Bolivia,BOL,Chile,CHL,FALSE,2,2,draw,Paysandú,Uruguay,TRUE,1686,1676,1685,1677,-1
+1995-07-16,Copa América,played,Bolivia,BOL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1685,1811,1674,1822,-11
+1995-10-25,Friendly,played,Bolivia,BOL,Ecuador,ECU,TRUE,2,2,draw,Santa Cruz,Bolivia,FALSE,1674,1669,1671,1672,-3
+1996-02-04,Friendly,played,Bolivia,BOL,Chile,CHL,TRUE,1,1,draw,Cochabamba,Bolivia,FALSE,1671,1685,1669,1687,-2
+1996-02-11,Friendly,played,Bolivia,BOL,Peru,PER,FALSE,3,1,win,Lima,Peru,FALSE,1669,1584,1685,1568,16
+1996-02-14,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,4,1,win,Sucre,Bolivia,FALSE,1685,1773,1702,1756,17
+1996-03-07,Friendly,played,Bolivia,BOL,Peru,PER,TRUE,2,0,win,Santa Cruz,Bolivia,FALSE,1702,1560,1708,1554,6
+1996-03-28,Friendly,played,Bolivia,BOL,Colombia,COL,FALSE,1,4,loss,Medellín,Colombia,FALSE,1708,1861,1701,1868,-7
+1996-04-24,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,1701,1846,1689,1858,-12
+1996-05-05,Friendly,played,Bolivia,BOL,El Salvador,SLV,FALSE,1,1,draw,"Washington, D.C.",United States,TRUE,1689,1532,1685,1536,-4
+1996-05-26,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1685,1718,1675,1728,-10
+1996-06-08,USA Cup,played,Bolivia,BOL,Mexico,MEX,FALSE,0,1,loss,Dallas,United States,TRUE,1675,1852,1667,1860,-8
+1996-06-12,USA Cup,played,Bolivia,BOL,United States,USA,FALSE,2,0,win,"Washington, D.C.",United States,FALSE,1667,1754,1701,1720,34
+1996-06-15,USA Cup,played,Bolivia,BOL,Republic of Ireland,IRL,TRUE,0,3,loss,East Rutherford,United States,TRUE,,,,,
+1996-07-07,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,6,1,win,La Paz,Bolivia,FALSE,1675,1348,1681,1342,6
+1996-07-26,Friendly,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1681,1774,1674,1781,-7
+1996-09-01,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,0,0,draw,La Paz,Bolivia,FALSE,1674,1577,1664,1587,-10
+1996-10-08,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1664,1769,1655,1778,-9
+1996-11-10,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,TRUE,2,2,draw,La Paz,Bolivia,FALSE,1655,1917,1664,1908,9
+1996-12-15,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,0,draw,La Paz,Bolivia,FALSE,1664,1820,1667,1817,3
+1997-01-12,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,2,0,win,La Paz,Bolivia,FALSE,1667,1692,1691,1668,24
+1997-02-02,Friendly,played,Bolivia,BOL,Slovakia,SVK,TRUE,0,1,loss,Cochabamba,Bolivia,FALSE,1691,1684,1678,1697,-13
+1997-02-12,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1678,1726,1675,1729,-3
+1997-03-23,Friendly,played,Bolivia,BOL,Jamaica,JAM,TRUE,6,0,win,Oruro,Bolivia,FALSE,1675,1572,1685,1562,10
+1997-04-02,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,2,1,win,La Paz,Bolivia,FALSE,1685,1831,1708,1808,23
+1997-06-08,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,1,1,draw,Valera,Venezuela,FALSE,1708,1355,1696,1367,-12
+1997-06-12,Copa América,played,Bolivia,BOL,Venezuela,,TRUE,1,0,win,La Paz,Bolivia,FALSE,1696,1367,1700,1363,4
+1997-06-15,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,2,0,win,La Paz,Bolivia,FALSE,1700,1696,1727,1669,27
+1997-06-18,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,1,0,win,La Paz,Bolivia,FALSE,1727,1703,1743,1687,16
+1997-06-21,Copa América,played,Bolivia,BOL,Colombia,COL,TRUE,2,1,win,La Paz,Bolivia,FALSE,1743,1816,1766,1793,23
+1997-06-25,Copa América,played,Bolivia,BOL,Mexico,MEX,TRUE,3,1,win,La Paz,Bolivia,FALSE,1766,1819,1798,1787,32
+1997-06-29,Copa América,played,Bolivia,BOL,Brazil,BRA,TRUE,1,3,loss,La Paz,Bolivia,FALSE,1798,2125,1782,2141,-16
+1997-07-06,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1782,1686,1762,1706,-20
+1997-07-20,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,1,0,win,La Paz,Bolivia,FALSE,1762,1687,1773,1676,11
+1997-08-20,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,FALSE,0,3,loss,Barranquilla,Colombia,FALSE,1773,1758,1746,1785,-27
+1997-09-10,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1746,1751,1732,1765,-14
+1997-10-12,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,1,loss,Guayaquil,Ecuador,FALSE,1732,1777,1720,1789,-12
+1997-11-16,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,0,3,loss,Santiago,Chile,FALSE,1720,1730,1696,1754,-24
+1999-01-24,Friendly,played,Bolivia,BOL,United States,USA,TRUE,0,0,draw,Santa Cruz,Bolivia,FALSE,1696,1694,1693,1697,-3
+1999-03-03,Friendly,played,Bolivia,BOL,Jamaica,JAM,TRUE,0,0,draw,Guatemala City,Guatemala,TRUE,1693,1648,1691,1650,-2
+1999-03-05,Friendly,played,Bolivia,BOL,Guatemala,,FALSE,3,0,win,Guatemala City,Guatemala,FALSE,1691,1566,1715,1542,24
+1999-03-07,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,3,loss,Guatemala City,Guatemala,TRUE,1715,1815,1696,1834,-19
+1999-03-11,USA Cup,played,Bolivia,BOL,Mexico,MEX,FALSE,1,2,loss,Los Angeles,United States,TRUE,1696,1868,1688,1876,-8
+1999-03-13,USA Cup,played,Bolivia,BOL,Guatemala,,FALSE,1,2,loss,San Diego,United States,TRUE,1688,1513,1666,1535,-22
+1999-04-28,Friendly,played,Bolivia,BOL,Chile,CHL,TRUE,1,1,draw,Cochabamba,Bolivia,FALSE,1666,1751,1666,1751,0
+1999-06-20,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,0,1,loss,Santiago,Chile,FALSE,1666,1758,1661,1763,-5
+1999-06-29,Copa América,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,0,draw,Asunción,Paraguay,FALSE,1661,1792,1676,1777,15
+1999-07-02,Copa América,played,Bolivia,BOL,Peru,PER,FALSE,0,1,loss,Asunción,Paraguay,TRUE,1676,1725,1655,1746,-21
+1999-07-05,Copa América,played,Bolivia,BOL,Japan,JPN,TRUE,1,1,draw,Pedro Juan Caballero,Paraguay,TRUE,1655,1603,1651,1607,-4
+1999-07-25,Confederations Cup,played,Bolivia,BOL,Egypt,EGY,TRUE,2,2,draw,Mexico City,Mexico,TRUE,1651,1671,1652,1670,1
+1999-07-27,Confederations Cup,played,Bolivia,BOL,Saudi Arabia,SAU,FALSE,0,0,draw,Mexico City,Mexico,TRUE,1652,1689,1655,1686,3
+1999-07-29,Confederations Cup,played,Bolivia,BOL,Mexico,MEX,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1655,1872,1648,1879,-7
+1999-08-25,Friendly,played,Bolivia,BOL,Venezuela,,TRUE,0,0,draw,Sucre,Bolivia,FALSE,1648,1400,1640,1408,-8
+1999-11-03,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,0,draw,Buenos Aires,Argentina,TRUE,1640,1808,1647,1801,7
+2000-03-05,Friendly,played,Bolivia,BOL,Haiti,HTI,TRUE,9,2,win,La Paz,Bolivia,FALSE,1647,1423,1653,1417,6
+2000-03-16,Friendly,played,Bolivia,BOL,Venezuela,,FALSE,0,0,draw,Maracaibo,Venezuela,FALSE,1653,1398,1649,1402,-4
+2000-03-29,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1649,1734,1639,1744,-10
+2000-04-26,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1639,1756,1640,1755,1
+2000-06-04,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1640,1955,1637,1958,-3
+2000-06-14,Kirin Cup,played,Bolivia,BOL,Slovakia,SVK,TRUE,0,2,loss,Tosu,Japan,TRUE,1637,1696,1618,1715,-19
+2000-06-18,Kirin Cup,played,Bolivia,BOL,Japan,JPN,FALSE,0,2,loss,Yokohama,Japan,FALSE,1618,1645,1603,1660,-15
+2000-06-28,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,2,4,loss,San Cristóbal,Venezuela,FALSE,1603,1388,1563,1428,-40
+2000-07-19,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,1,0,win,La Paz,Bolivia,FALSE,1563,1727,1587,1703,24
+2000-07-27,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,0,draw,La Paz,Bolivia,FALSE,1587,1804,1593,1798,6
+2000-08-16,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,2,loss,Quito,Ecuador,FALSE,1593,1675,1577,1691,-16
+2000-09-03,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,0,5,loss,Rio de Janeiro,Brazil,FALSE,1577,2009,1573,2013,-4
+2000-09-27,Friendly,played,Bolivia,BOL,Mexico,MEX,FALSE,0,1,loss,San Diego,United States,TRUE,1573,1839,1569,1843,-4
+2000-10-08,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,1,0,win,La Paz,Bolivia,FALSE,1569,1706,1591,1684,22
+2000-11-15,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,0,0,draw,La Paz,Bolivia,FALSE,1591,1760,1595,1756,4
+2001-03-27,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,FALSE,0,2,loss,Bogotá,Colombia,FALSE,1576,1800,1568,1808,-8
+2001-04-25,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,3,3,draw,La Paz,Bolivia,FALSE,1568,2019,1583,2004,15
+2001-06-03,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,5,0,win,La Paz,Bolivia,FALSE,1583,1434,1598,1419,15
+2001-07-13,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,1,loss,Medellín,Colombia,TRUE,1598,1794,1586,1806,-12
+2001-07-16,Copa América,played,Bolivia,BOL,Honduras,HND,FALSE,0,2,loss,Medellín,Colombia,TRUE,1586,1658,1556,1688,-30
+2001-07-19,Copa América,played,Bolivia,BOL,Costa Rica,CRI,TRUE,0,4,loss,Medellín,Colombia,TRUE,1556,1709,1529,1736,-27
+2001-08-14,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,2,2,draw,Santiago,Chile,FALSE,1529,1657,1541,1645,12
+2001-09-05,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,1,5,loss,Asunción,Paraguay,FALSE,1541,1794,1532,1803,-9
+2001-10-06,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,5,loss,La Paz,Bolivia,FALSE,1532,1714,1503,1743,-29
+2001-11-07,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,3,1,win,La Paz,Bolivia,FALSE,1503,1874,1553,1824,50
+2001-11-14,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1553,1635,1563,1625,10
+2002-01-31,Friendly,played,Bolivia,BOL,Brazil,BRA,FALSE,0,6,loss,Goiânia,Brazil,FALSE,1563,1833,1558,1838,-5
+2002-02-13,Friendly,played,Bolivia,BOL,Paraguay,PRY,FALSE,2,2,draw,Ciudad del Este,Paraguay,FALSE,1558,1726,1564,1720,6
+2002-03-27,Friendly,played,Bolivia,BOL,Senegal,SEN,FALSE,1,2,loss,Dakar,Senegal,FALSE,1564,1689,1560,1693,-4
+2002-05-16,Friendly,played,Bolivia,BOL,Mexico,MEX,FALSE,0,1,loss,San Francisco,United States,TRUE,1560,1828,1556,1832,-4
+2002-08-21,Friendly,played,Bolivia,BOL,Venezuela,,FALSE,0,2,loss,Caracas,Venezuela,FALSE,1556,1570,1546,1580,-10
+2003-03-19,Friendly,played,Bolivia,BOL,Mexico,MEX,FALSE,0,2,loss,Dallas,United States,TRUE,1546,1830,1541,1835,-5
+2003-06-10,Friendly,played,Bolivia,BOL,Portugal,PRT,FALSE,0,4,loss,Oeiras,Portugal,FALSE,1541,1931,1539,1933,-2
+2003-08-31,Friendly,played,Bolivia,BOL,Panama,PAN,TRUE,3,0,win,La Paz,Bolivia,FALSE,1539,1403,1546,1396,7
+2003-09-07,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,0,5,loss,Montevideo,Uruguay,FALSE,1546,1856,1539,1863,-7
+2003-09-10,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,TRUE,4,0,win,La Paz,Bolivia,FALSE,1539,1777,1591,1725,52
+2003-10-11,Friendly,played,Bolivia,BOL,Honduras,HND,TRUE,1,0,win,"Washington, D.C.",United States,TRUE,1591,1687,1604,1674,13
+2003-11-15,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1604,2027,1601,2030,-3
+2003-11-18,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,1,2,loss,Maracaibo,Venezuela,FALSE,1601,1630,1588,1643,-13
+2004-03-30,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,0,2,loss,La Paz,Bolivia,FALSE,1588,1634,1553,1669,-35
+2004-06-01,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,1,win,La Paz,Bolivia,FALSE,1553,1797,1581,1769,28
+2004-06-05,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,2,3,loss,Quito,Ecuador,FALSE,1581,1725,1573,1733,-8
+2004-07-06,Copa América,played,Bolivia,BOL,Peru,PER,FALSE,2,2,draw,Lima,Peru,FALSE,1573,1690,1587,1676,14
+2004-07-09,Copa América,played,Bolivia,BOL,Colombia,COL,FALSE,0,1,loss,Lima,Peru,TRUE,1587,1803,1576,1814,-11
+2004-07-12,Copa América,played,Bolivia,BOL,Venezuela,,FALSE,1,1,draw,Trujillo,Peru,TRUE,1576,1637,1580,1633,4
+2004-09-05,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,1,3,loss,São Paulo,Brazil,FALSE,1580,2008,1577,2011,-3
+2004-10-09,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,1,0,win,La Paz,Bolivia,FALSE,1577,1676,1597,1656,20
+2004-10-12,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,0,0,draw,La Paz,Bolivia,FALSE,1597,1811,1603,1805,6
+2004-11-13,Friendly,played,Bolivia,BOL,Guatemala,,FALSE,0,1,loss,"Washington, D.C.",United States,TRUE,1603,1622,1594,1631,-9
+2004-11-17,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,FALSE,0,1,loss,Barranquilla,Colombia,FALSE,1594,1795,1588,1801,-6
+2005-03-26,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1588,2024,1583,2029,-5
+2005-03-29,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,3,1,win,La Paz,Bolivia,FALSE,1583,1633,1609,1607,26
+2005-06-04,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,1,3,loss,Santiago,Chile,FALSE,1609,1661,1591,1679,-18
+2005-06-08,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,1,4,loss,Asunción,Paraguay,FALSE,1591,1734,1577,1748,-14
+2005-09-03,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1577,1761,1562,1776,-15
+2005-10-09,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1562,2037,1578,2021,16
+2005-10-12,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,1,4,loss,Tacna,Peru,FALSE,1578,1644,1559,1663,-19
+2006-11-15,Friendly,played,Bolivia,BOL,El Salvador,SLV,TRUE,5,1,win,La Paz,Bolivia,FALSE,1559,1377,1565,1371,6
+2007-03-28,Friendly,played,Bolivia,BOL,South Africa,ZAF,FALSE,1,0,win,Johannesburg,South Africa,FALSE,1565,1493,1576,1482,11
+2007-05-26,Friendly,played,Bolivia,BOL,Republic of Ireland,IRL,TRUE,1,1,draw,Foxborough,United States,TRUE,,,,,
+2007-06-20,Friendly,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,0,draw,Santa Cruz,Bolivia,FALSE,1581,1760,1584,1757,3
+2007-06-26,Copa América,played,Bolivia,BOL,Venezuela,,FALSE,2,2,draw,San Cristóbal,Venezuela,FALSE,1584,1650,1595,1639,11
+2007-06-30,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,1,loss,San Cristóbal,Venezuela,TRUE,1595,1792,1583,1804,-12
+2007-07-03,Copa América,played,Bolivia,BOL,Peru,PER,FALSE,2,2,draw,Mérida,Venezuela,TRUE,1583,1663,1589,1657,6
+2007-08-22,Friendly,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,1,loss,Quito,Ecuador,FALSE,1589,1693,1584,1698,-5
+2007-09-12,Friendly,played,Bolivia,BOL,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1584,1652,1576,1660,-8
+2007-10-13,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,0,5,loss,Montevideo,Uruguay,FALSE,1576,1816,1566,1826,-10
+2007-10-17,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,TRUE,0,0,draw,La Paz,Bolivia,FALSE,1566,1811,1574,1803,8
+2007-11-17,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1574,2036,1571,2039,-3
+2007-11-20,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,3,5,loss,San Cristóbal,Venezuela,FALSE,1571,1655,1556,1670,-15
+2008-02-06,Friendly,played,Bolivia,BOL,Peru,PER,TRUE,2,1,win,La Paz,Bolivia,FALSE,1556,1632,1565,1623,9
+2008-03-26,Friendly,played,Bolivia,BOL,Venezuela,,FALSE,1,0,win,Puerto la Cruz,Venezuela,FALSE,1565,1670,1580,1655,15
+2008-06-15,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,0,2,loss,La Paz,Bolivia,FALSE,1580,1734,1555,1759,-25
+2008-06-18,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,4,2,win,La Paz,Bolivia,FALSE,1555,1847,1600,1802,45
+2008-08-06,Friendly,played,Bolivia,BOL,Guatemala,,FALSE,0,3,loss,"Washington, D.C.",United States,TRUE,1600,1506,1578,1528,-22
+2008-08-20,Friendly,played,Bolivia,BOL,Panama,PAN,TRUE,1,0,win,Santa Cruz,Bolivia,FALSE,1578,1551,1584,1545,6
+2008-09-06,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,1,3,loss,Quito,Ecuador,FALSE,1584,1708,1571,1721,-13
+2008-09-10,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,0,0,draw,Rio de Janeiro,Brazil,FALSE,1571,2032,1589,2014,18
+2008-10-11,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,3,0,win,La Paz,Bolivia,FALSE,1589,1647,1620,1616,31
+2008-10-14,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,2,2,draw,La Paz,Bolivia,FALSE,1620,1832,1626,1826,6
+2008-10-22,Friendly,played,Bolivia,BOL,El Salvador,SLV,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1626,1490,1605,1511,-21
+2009-03-11,Friendly,played,Bolivia,BOL,Mexico,MEX,FALSE,1,5,loss,Commerce City,United States,TRUE,1605,1800,1596,1809,-9
+2009-03-28,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,FALSE,0,2,loss,Bogotá,Colombia,FALSE,1596,1749,1585,1760,-11
+2009-04-01,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,6,1,win,La Paz,Bolivia,FALSE,1585,1996,1654,1927,69
+2009-06-06,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,0,1,loss,La Paz,Bolivia,FALSE,1654,1684,1630,1708,-24
+2009-06-10,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,0,4,loss,Santiago,Chile,FALSE,1630,1822,1618,1834,-12
+2009-09-05,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1618,1779,1611,1786,-7
+2009-09-09,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,3,loss,La Paz,Bolivia,FALSE,1611,1724,1582,1753,-29
+2009-10-11,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,2,1,win,La Paz,Bolivia,FALSE,1582,2148,1619,2111,37
+2009-10-14,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1619,1554,1601,1572,-18
+2010-02-24,Friendly,played,Bolivia,BOL,Mexico,MEX,FALSE,0,5,loss,San Francisco,United States,TRUE,1601,1890,1595,1896,-6
+2010-08-11,Friendly,played,Bolivia,BOL,Colombia,COL,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1595,1745,1596,1744,1
+2011-02-09,Friendly,played,Bolivia,BOL,Latvia,,FALSE,1,2,loss,Antalya,Turkey,TRUE,,,,,
+2011-03-25,Friendly,played,Bolivia,BOL,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1581,1585,1570,1596,-11
+2011-03-28,Friendly,played,Bolivia,BOL,Guatemala,,FALSE,1,1,draw,Mazatenango,Guatemala,FALSE,1570,1435,1569,1436,-1
+2011-06-04,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,TRUE,0,2,loss,Santa Cruz,Bolivia,FALSE,1569,1778,1559,1788,-10
+2011-06-07,Copa Paz del Chaco,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,0,draw,Luque,Paraguay,FALSE,1559,1788,1566,1781,7
+2011-06-27,Friendly,played,Bolivia,BOL,Mexico,MEX,TRUE,0,1,loss,Buenos Aires,Argentina,TRUE,,,,,
+2011-07-01,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,1,1,draw,La Plata,Argentina,FALSE,1566,1951,1588,1929,22
+2011-07-07,Copa América,played,Bolivia,BOL,Costa Rica,CRI,TRUE,0,2,loss,San Salvador de Jujuy,Argentina,TRUE,1588,1641,1556,1673,-32
+2011-07-10,Copa América,played,Bolivia,BOL,Colombia,COL,FALSE,0,2,loss,Santa Fe,Argentina,TRUE,1556,1798,1541,1813,-15
+2011-08-10,Friendly,played,Bolivia,BOL,Panama,PAN,TRUE,1,3,loss,Santa Cruz,Bolivia,FALSE,1541,1645,1526,1660,-15
+2011-09-02,Friendly,played,Bolivia,BOL,Peru,PER,FALSE,2,2,draw,Lima,Peru,FALSE,1526,1779,1534,1771,8
+2011-09-05,Friendly,played,Bolivia,BOL,Peru,PER,TRUE,0,0,draw,La Paz,Bolivia,FALSE,1534,1771,1538,1767,4
+2011-10-07,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,2,4,loss,Montevideo,Uruguay,FALSE,1538,1963,1535,1966,-3
+2011-10-11,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1535,1784,1523,1796,-12
+2011-11-11,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1523,1913,1541,1895,18
+2011-11-15,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,0,1,loss,San Cristóbal,Venezuela,FALSE,1541,1730,1535,1736,-6
+2012-02-29,Friendly,played,Bolivia,BOL,Cuba,CUB,TRUE,1,0,win,Cochabamba,Bolivia,FALSE,1535,1386,1539,1382,4
+2012-06-02,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,0,2,loss,La Paz,Bolivia,FALSE,1539,1899,1528,1910,-11
+2012-06-09,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,3,1,win,La Paz,Bolivia,FALSE,1528,1809,1572,1765,44
+2012-08-15,Friendly,played,Bolivia,BOL,Guyana,,TRUE,2,0,win,Santa Cruz,Bolivia,FALSE,1572,1342,1576,1338,4
+2012-09-07,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,1,loss,Quito,Ecuador,FALSE,1576,1810,1571,1815,-5
+2012-10-12,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1571,1729,1574,1726,3
+2012-10-16,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,4,1,win,La Paz,Bolivia,FALSE,1574,1897,1629,1842,55
+2012-11-14,Friendly,played,Bolivia,BOL,Costa Rica,CRI,TRUE,1,1,draw,Santa Cruz,Bolivia,FALSE,1629,1665,1627,1667,-2
+2012-12-29,Friendly,played,Bolivia,BOL,Basque Country,,FALSE,1,6,loss,San Sebastián,Spain,FALSE,,,,,
+2013-03-22,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,FALSE,0,5,loss,Barranquilla,Colombia,FALSE,1630,1904,1622,1912,-8
+2013-03-26,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1622,2030,1636,2016,14
+2013-04-06,Friendly,played,Bolivia,BOL,Brazil,BRA,TRUE,0,4,loss,Santa Cruz,Bolivia,FALSE,1636,2043,1631,2048,-5
+2013-06-07,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1631,1732,1631,1732,0
+2013-06-11,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,1,3,loss,Santiago,Chile,FALSE,1631,1843,1622,1852,-9
+2013-08-14,Friendly,played,Bolivia,BOL,Venezuela,,FALSE,2,2,draw,San Cristóbal,Venezuela,FALSE,1622,1711,1627,1706,5
+2013-09-06,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,4,loss,Asunción,Paraguay,FALSE,1627,1710,1608,1729,-19
+2013-09-10,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1608,1836,1615,1829,7
+2013-10-15,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1615,1722,1626,1711,11
+2014-05-30,Friendly,played,Bolivia,BOL,Spain,ESP,FALSE,0,2,loss,Seville,Spain,FALSE,1626,2105,1625,2106,-1
+2014-06-06,Friendly,played,Bolivia,BOL,Greece,GRC,TRUE,1,2,loss,Harrison,United States,TRUE,1625,1818,1620,1823,-5
+2014-09-09,Friendly,played,Bolivia,BOL,Mexico,MEX,FALSE,0,1,loss,Commerce City,United States,TRUE,1612,1885,1609,1888,-3
+2014-11-18,Friendly,played,Bolivia,BOL,Venezuela,,TRUE,3,2,win,La Paz,Bolivia,FALSE,1618,1683,1627,1674,9
+2015-06-06,Friendly,played,Bolivia,BOL,Argentina,ARG,FALSE,0,5,loss,San Juan,Argentina,FALSE,1627,2056,1624,2059,-3
+2015-06-12,Copa América,played,Bolivia,BOL,Mexico,MEX,FALSE,0,0,draw,Viña del Mar,Chile,TRUE,1624,1886,1640,1870,16
+2015-06-15,Copa América,played,Bolivia,BOL,Ecuador,ECU,FALSE,3,2,win,Valparaíso,Chile,TRUE,1640,1824,1677,1787,37
+2015-06-19,Copa América,played,Bolivia,BOL,Chile,CHL,FALSE,0,5,loss,Santiago,Chile,FALSE,1677,1943,1666,1954,-11
+2015-06-25,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,1,3,loss,Temuco,Chile,TRUE,1666,1756,1638,1784,-28
+2015-09-05,Friendly,played,Bolivia,BOL,Argentina,ARG,FALSE,0,7,loss,Houston,United States,TRUE,,,,,
+2015-10-08,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,0,2,loss,La Paz,Bolivia,FALSE,1635,1872,1616,1891,-19
+2015-10-13,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,2,loss,Quito,Ecuador,FALSE,1616,1875,1609,1882,-7
+2015-11-12,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,4,2,win,La Paz,Bolivia,FALSE,1609,1640,1633,1616,24
+2015-11-17,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1633,1717,1623,1727,-10
+2016-03-24,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,TRUE,2,3,loss,La Paz,Bolivia,FALSE,1623,1954,1615,1962,-8
+2016-03-29,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,2,loss,Córdoba,Argentina,FALSE,1615,2046,1612,2049,-3
+2016-06-06,Copa América,played,Bolivia,BOL,Panama,PAN,FALSE,1,2,loss,Orlando,United States,TRUE,1604,1676,1584,1696,-20
+2016-06-10,Copa América,played,Bolivia,BOL,Chile,CHL,FALSE,1,2,loss,Foxborough,United States,TRUE,1584,1920,1578,1926,-6
+2016-06-14,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,0,3,loss,Seattle,United States,TRUE,1578,2078,1573,2083,-5
+2016-09-01,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,0,3,loss,La Paz,Bolivia,FALSE,,,,,
+2016-09-06,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,0,3,loss,Santiago,Chile,FALSE,,,,,
+2016-10-06,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,0,5,loss,Natal,Brazil,FALSE,1634,2023,1629,2028,-5
+2016-10-11,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,2,2,draw,La Paz,Bolivia,FALSE,1629,1854,1636,1847,7
+2016-11-10,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,0,5,loss,Maturín,Venezuela,FALSE,1636,1672,1611,1697,-25
+2016-11-15,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,1,0,win,La Paz,Bolivia,FALSE,1611,1722,1632,1701,21
+2017-03-23,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,FALSE,0,1,loss,Barranquilla,Colombia,FALSE,1632,1925,1628,1929,-4
+2017-03-28,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,2,0,win,La Paz,Bolivia,FALSE,1628,2056,1680,2004,52
+2017-06-02,Friendly,played,Bolivia,BOL,Nicaragua,,FALSE,1,0,win,Managua,Nicaragua,FALSE,1680,1320,1684,1316,4
+2017-06-07,Friendly,played,Bolivia,BOL,Nicaragua,,TRUE,3,2,win,Yacuiba,Bolivia,FALSE,1684,1316,1685,1315,1
+2017-08-31,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1685,1854,1678,1861,-7
+2017-09-05,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,1,0,win,La Paz,Bolivia,FALSE,1678,1884,1704,1858,26
+2017-10-05,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,0,0,draw,La Paz,Bolivia,FALSE,1704,2117,1718,2103,14
+2017-10-10,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,2,4,loss,Montevideo,Uruguay,FALSE,1718,1863,1706,1875,-12
+2018-03-23,Friendly,played,Bolivia,BOL,Curaçao,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1706,1266,1698,1274,-8
+2018-03-26,Friendly,played,Bolivia,BOL,Curaçao,,FALSE,0,1,loss,Willemstad,Curaçao,FALSE,1698,1274,1681,1291,-17
+2018-05-28,Friendly,played,Bolivia,BOL,United States,USA,FALSE,0,3,loss,Chester,United States,FALSE,1681,1754,1672,1763,-9
+2018-06-07,Friendly,played,Bolivia,BOL,South Korea,KOR,FALSE,0,0,draw,Innsbruck,Austria,TRUE,1672,1730,1674,1728,2
+2018-06-09,Friendly,played,Bolivia,BOL,Serbia,SRB,FALSE,1,5,loss,Graz,Austria,TRUE,1674,1774,1661,1787,-13
+2018-09-10,Friendly,played,Bolivia,BOL,Saudi Arabia,SAU,FALSE,2,2,draw,Riyadh,Saudi Arabia,FALSE,1661,1586,1662,1585,1
+2018-10-13,Friendly,played,Bolivia,BOL,Myanmar,,FALSE,3,0,win,Yangon,Myanmar,FALSE,1662,1065,1664,1063,2
+2018-10-16,Friendly,played,Bolivia,BOL,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,1664,1823,1660,1827,-4
+2018-11-16,Friendly,played,Bolivia,BOL,United Arab Emirates,ARE,FALSE,0,0,draw,Dubai,United Arab Emirates,FALSE,1660,1502,1658,1504,-2
+2018-11-20,Friendly,played,Bolivia,BOL,Iraq,IRQ,FALSE,0,0,draw,Al-Ain,Iraq,FALSE,1658,1565,1655,1568,-3
+2019-03-03,Friendly,played,Bolivia,BOL,Nicaragua,,TRUE,2,2,draw,Villa Tunari,Bolivia,FALSE,1655,1278,1646,1287,-9
+2019-03-22,Friendly,played,Bolivia,BOL,South Korea,KOR,FALSE,0,1,loss,Ulsan,South Korea,FALSE,1646,1768,1642,1772,-4
+2019-03-26,Kirin Challenge Cup,played,Bolivia,BOL,Japan,JPN,FALSE,0,1,loss,Kobe,Japan,FALSE,1642,1773,1638,1777,-4
+2019-06-02,Friendly,played,Bolivia,BOL,France,FRA,FALSE,0,2,loss,Nantes,France,FALSE,1638,2098,1637,2099,-1
+2019-06-14,Copa América,played,Bolivia,BOL,Brazil,BRA,FALSE,0,3,loss,São Paulo,Brazil,FALSE,1637,2134,1634,2137,-3
+2019-06-18,Copa América,played,Bolivia,BOL,Peru,PER,TRUE,1,3,loss,Rio de Janeiro,Brazil,TRUE,1634,1818,1615,1837,-19
+2019-06-22,Copa América,played,Bolivia,BOL,Venezuela,,TRUE,1,3,loss,Belo Horizonte,Brazil,TRUE,1615,1809,1597,1827,-18
+2019-09-10,Friendly,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,3,loss,Cuenca,Ecuador,FALSE,1597,1730,1590,1737,-7
+2019-10-10,Friendly,played,Bolivia,BOL,Venezuela,,FALSE,1,4,loss,Caracas,Venezuela,FALSE,1590,1803,1585,1808,-5
+2019-10-15,Friendly,played,Bolivia,BOL,Haiti,HTI,TRUE,3,1,win,Santa Cruz,Bolivia,FALSE,1585,1556,1595,1546,10
+2020-10-09,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,0,5,loss,São Paulo,Brazil,FALSE,1595,2081,1592,2084,-3
+2020-10-13,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1592,1975,1585,1982,-7
+2020-11-12,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,2,3,loss,La Paz,Bolivia,FALSE,1585,1763,1569,1779,-16
+2020-11-17,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,2,2,draw,Asunción,Paraguay,FALSE,1569,1783,1583,1769,14
+2021-03-26,Friendly,played,Bolivia,BOL,Chile,CHL,FALSE,1,2,loss,Rancagua,Chile,FALSE,1583,1813,1580,1816,-3
+2021-03-29,Friendly,played,Bolivia,BOL,Ecuador,ECU,FALSE,1,2,loss,Guayaquil,Ecuador,FALSE,1580,1826,1578,1828,-2
+2021-06-03,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,3,1,win,La Paz,Bolivia,FALSE,1578,1802,1618,1762,40
+2021-06-08,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,1,1,draw,Santiago,Chile,FALSE,1618,1829,1632,1815,14
+2021-06-14,Copa América,played,Bolivia,BOL,Paraguay,PRY,FALSE,1,3,loss,Goiânia,Brazil,TRUE,1632,1771,1609,1794,-23
+2021-06-18,Copa América,played,Bolivia,BOL,Chile,CHL,FALSE,0,1,loss,Cuiabá,Brazil,TRUE,1609,1826,1598,1837,-11
+2021-06-24,Copa América,played,Bolivia,BOL,Uruguay,URY,TRUE,0,2,loss,Cuiabá,Brazil,TRUE,1598,1909,1587,1920,-11
+2021-06-28,Copa América,played,Bolivia,BOL,Argentina,ARG,FALSE,1,4,loss,Cuiabá,Brazil,TRUE,1587,2007,1580,2014,-7
+2021-09-02,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,TRUE,1,1,draw,La Paz,Bolivia,FALSE,1580,1925,1592,1913,12
+2021-09-05,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,2,4,loss,Montevideo,Uruguay,FALSE,1592,1933,1588,1937,-4
+2021-09-09,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1588,2077,1586,2079,-2
+2021-10-07,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,3,loss,Guayaquil,Ecuador,FALSE,1586,1792,1576,1802,-10
+2021-10-10,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,1,0,win,La Paz,Bolivia,FALSE,1576,1835,1605,1806,29
+2021-10-14,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,4,0,win,La Paz,Bolivia,FALSE,1605,1783,1651,1737,46
+2021-11-05,Friendly,played,Bolivia,BOL,El Salvador,SLV,FALSE,1,0,win,"Washington, D.C.",United States,TRUE,1651,1510,1657,1504,6
+2021-11-11,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,0,3,loss,Lima,Peru,FALSE,1657,1802,1643,1816,-14
+2021-11-16,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,3,0,win,La Paz,Bolivia,FALSE,1643,1897,1693,1847,50
+2022-01-21,Friendly,played,Bolivia,BOL,Trinidad and Tobago,TTO,TRUE,5,0,win,Sucre,Bolivia,FALSE,1693,1368,1696,1365,3
+2022-01-28,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,1,4,loss,Barinas,Venezuela,FALSE,1696,1678,1669,1705,-27
+2022-02-01,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,2,3,loss,La Paz,Bolivia,FALSE,1669,1784,1650,1803,-19
+2022-03-24,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,FALSE,0,3,loss,Barranquilla,Colombia,FALSE,1650,1872,1641,1881,-9
+2022-03-29,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,0,4,loss,La Paz,Bolivia,FALSE,1641,2148,1634,2155,-7
+2022-09-24,Friendly,played,Bolivia,BOL,Senegal,SEN,TRUE,0,2,loss,Orléans,France,TRUE,1634,1666,1620,1680,-14
+2022-11-19,Friendly,played,Bolivia,BOL,Peru,PER,FALSE,0,1,loss,Arequipa,Peru,FALSE,1620,1848,1617,1851,-3
+2023-03-24,Friendly,played,Bolivia,BOL,Uzbekistan,,FALSE,0,1,loss,Jeddah,Saudi Arabia,TRUE,1617,1575,1606,1586,-11
+2023-03-28,Friendly,played,Bolivia,BOL,Saudi Arabia,SAU,FALSE,2,1,win,Jeddah,Saudi Arabia,FALSE,1606,1586,1618,1574,12
+2023-06-17,Friendly,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,1,loss,Harrison,United States,TRUE,1618,1840,1614,1844,-4
+2023-06-20,Friendly,played,Bolivia,BOL,Chile,CHL,TRUE,0,0,draw,Santa Cruz,Bolivia,FALSE,1614,1707,1614,1707,0
+2023-08-27,Friendly,played,Bolivia,BOL,Panama,PAN,TRUE,1,2,loss,Cochabamba,Bolivia,FALSE,1614,1689,1603,1700,-11
+2023-09-08,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,FALSE,1,5,loss,Belém,Brazil,FALSE,1603,2093,1601,2095,-2
+2023-09-12,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,TRUE,0,3,loss,La Paz,Bolivia,FALSE,1601,2152,1596,2157,-5
+2023-10-12,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,TRUE,1,2,loss,La Paz,Bolivia,FALSE,1596,1868,1585,1879,-11
+2023-10-17,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1585,1703,1576,1712,-9
+2023-11-16,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,TRUE,2,0,win,La Paz,Bolivia,FALSE,1576,1787,1615,1748,39
+2023-11-21,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1615,2002,1611,2006,-4
+2024-03-22,FIFA Series,played,Bolivia,BOL,Algeria,DZA,FALSE,2,3,loss,Algiers,Algeria,FALSE,1611,1662,1602,1671,-9
+2024-03-25,FIFA Series,played,Bolivia,BOL,Andorra,,TRUE,1,0,win,Annaba,Algeria,TRUE,1602,1115,1604,1113,2
+2024-05-31,Friendly,played,Bolivia,BOL,Mexico,MEX,TRUE,0,1,loss,Chicago,United States,TRUE,1604,1800,1599,1805,-5
+2024-06-12,Friendly,played,Bolivia,BOL,Ecuador,ECU,FALSE,1,3,loss,Chester,United States,TRUE,1599,1869,1594,1874,-5
+2024-06-15,Friendly,played,Bolivia,BOL,Colombia,COL,FALSE,0,3,loss,Denver,United States,TRUE,1594,2011,1591,2014,-3
+2024-06-23,Copa América,played,Bolivia,BOL,United States,USA,FALSE,0,2,loss,Arlington,United States,FALSE,1591,1789,1580,1800,-11
+2024-06-27,Copa América,played,Bolivia,BOL,Uruguay,URY,FALSE,0,5,loss,East Rutherford,United States,TRUE,1580,2003,1572,2011,-8
+2024-07-01,Copa América,played,Bolivia,BOL,Panama,PAN,TRUE,1,3,loss,Orlando,United States,TRUE,1572,1724,1550,1746,-22
+2024-09-05,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,TRUE,4,0,win,El Alto,Bolivia,FALSE,1550,1820,1605,1765,55
+2024-09-10,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,FALSE,2,1,win,Santiago,Chile,FALSE,1605,1720,1636,1689,31
+2024-10-10,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,TRUE,1,0,win,El Alto,Bolivia,FALSE,1636,2060,1671,2025,35
+2024-10-15,FIFA World Cup qualification,played,Bolivia,BOL,Argentina,ARG,FALSE,0,6,loss,Buenos Aires,Argentina,FALSE,1671,2137,1668,2140,-3
+2024-11-14,FIFA World Cup qualification,played,Bolivia,BOL,Ecuador,ECU,FALSE,0,4,loss,Guayaquil,Ecuador,FALSE,1668,1867,1657,1878,-11
+2024-11-19,FIFA World Cup qualification,played,Bolivia,BOL,Paraguay,PRY,TRUE,2,2,draw,El Alto,Bolivia,FALSE,1657,1776,1658,1775,1
+2025-03-20,FIFA World Cup qualification,played,Bolivia,BOL,Peru,PER,FALSE,1,3,loss,Lima,Peru,FALSE,1658,1723,1641,1740,-17
+2025-03-25,FIFA World Cup qualification,played,Bolivia,BOL,Uruguay,URY,TRUE,0,0,draw,El Alto,Bolivia,FALSE,1641,1931,1651,1921,10
+2025-06-06,FIFA World Cup qualification,played,Bolivia,BOL,Venezuela,,FALSE,0,2,loss,Maturín,Venezuela,FALSE,1651,1742,1636,1757,-15
+2025-06-10,FIFA World Cup qualification,played,Bolivia,BOL,Chile,CHL,TRUE,2,0,win,El Alto,Bolivia,FALSE,1636,1717,1664,1689,28
+2025-09-04,FIFA World Cup qualification,played,Bolivia,BOL,Colombia,COL,FALSE,0,3,loss,Barranquilla,Colombia,FALSE,1664,1950,1657,1957,-7
+2025-09-09,FIFA World Cup qualification,played,Bolivia,BOL,Brazil,BRA,TRUE,1,0,win,El Alto,Bolivia,FALSE,1657,2007,1689,1975,32
+2025-10-10,Friendly,played,Bolivia,BOL,Jordan,,FALSE,1,0,win,Istanbul,Turkey,TRUE,1689,1633,1697,1625,8
+2025-10-14,Friendly,played,Bolivia,BOL,Russia,RUS,FALSE,0,3,loss,Moscow,Russia,FALSE,1697,1802,1689,1810,-8
+2025-11-14,Friendly,played,Bolivia,BOL,South Korea,KOR,FALSE,0,2,loss,Daejeon,South Korea,FALSE,1689,1774,1681,1782,-8
+2025-11-18,Kirin Cup,played,Bolivia,BOL,Japan,JPN,FALSE,0,3,loss,Tokyo,Japan,FALSE,1681,1873,1676,1878,-5
+2026-01-18,Friendly,played,Bolivia,BOL,Panama,PAN,TRUE,1,1,draw,Tarija,Bolivia,FALSE,1666,1742,1665,1743,-1
+2026-01-25,Friendly,played,Bolivia,BOL,Mexico,MEX,TRUE,0,1,loss,Santa Cruz,Bolivia,FALSE,1665,1845,1657,1853,-8
+2026-03-15,Friendly,played,Bolivia,BOL,Trinidad and Tobago,TTO,TRUE,3,0,win,Santa Cruz,Bolivia,FALSE,1657,1403,1661,1399,4
+2026-03-26,FIFA World Cup qualification,played,Bolivia,BOL,Suriname,,TRUE,2,1,win,Guadalupe,Mexico,TRUE,1661,1440,1670,1431,9
+2026-03-31,FIFA World Cup qualification,played,Bolivia,BOL,Iraq,IRQ,FALSE,1,2,loss,Guadalupe,Mexico,TRUE,1670,1582,1645,1607,-25

@@ -1,0 +1,478 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1924-09-24,Friendly,played,South Africa,ZAF,Northern Ireland,NIR,FALSE,2,1,win,Belfast,Northern Ireland,FALSE,1782,1703,1793,1692,11
+1924-11-02,Friendly,played,South Africa,ZAF,Netherlands,NLD,FALSE,1,2,loss,Amsterdam,Netherlands,FALSE,1780,1783,1773,1790,-7
+1947-05-10,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,2,1,win,Sydney,Australia,FALSE,1654,1717,1668,1703,14
+1947-05-24,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,4,2,win,Brisbane,Australia,FALSE,1668,1703,1689,1682,21
+1947-05-31,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,3,3,draw,Sydney,Australia,FALSE,1689,1682,1692,1679,3
+1947-06-07,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,1,5,loss,Newcastle,Australia,FALSE,1692,1679,1678,1693,-14
+1947-06-14,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,2,1,win,Sydney,Australia,FALSE,1678,1693,1691,1680,13
+1947-06-28,Friendly,played,South Africa,ZAF,New Zealand,NZL,FALSE,6,5,win,Christchurch,New Zealand,FALSE,1691,1432,1697,1426,6
+1947-07-05,Friendly,played,South Africa,ZAF,New Zealand,NZL,FALSE,6,0,win,Dunedin,New Zealand,FALSE,1697,1426,1709,1414,12
+1947-07-12,Friendly,played,South Africa,ZAF,New Zealand,NZL,FALSE,8,3,win,Wellington,New Zealand,FALSE,1709,1414,1719,1404,10
+1947-07-19,Friendly,played,South Africa,ZAF,New Zealand,NZL,FALSE,4,1,win,Auckland,New Zealand,FALSE,1719,1404,1727,1396,8
+1950-06-24,Friendly,played,South Africa,ZAF,Australia,AUS,TRUE,3,2,win,Durban,South Africa,FALSE,1731,1757,1739,1749,8
+1950-07-01,Friendly,played,South Africa,ZAF,Australia,AUS,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1739,1749,1746,1742,7
+1950-07-08,Friendly,played,South Africa,ZAF,Australia,AUS,TRUE,1,2,loss,Port Elizabeth,South Africa,FALSE,1746,1742,1733,1755,-13
+1950-07-23,Friendly,played,South Africa,ZAF,Australia,AUS,TRUE,0,2,loss,Cape Town,South Africa,FALSE,1733,1755,1715,1773,-18
+1953-11-22,Friendly,played,South Africa,ZAF,Portugal,PRT,FALSE,1,3,loss,Oeiras,Portugal,FALSE,1715,1642,1701,1656,-14
+1954-05-01,Friendly,played,South Africa,ZAF,Israel,ISR,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1701,1430,1703,1428,2
+1955-09-03,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,3,0,win,Brisbane,Australia,FALSE,1703,1756,1728,1731,25
+1955-09-10,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,2,0,win,Melbourne,Australia,FALSE,1728,1731,1747,1712,19
+1955-09-17,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,8,0,win,Adelaide,Australia,FALSE,1747,1712,1775,1684,28
+1955-09-24,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,6,0,win,Sydney,Australia,FALSE,1775,1684,1797,1662,22
+1955-10-01,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,4,1,win,Newcastle,Australia,FALSE,1797,1662,1813,1646,16
+1958-11-12,Friendly,played,South Africa,ZAF,Netherlands,NLD,FALSE,3,9,loss,Eindhoven,Netherlands,FALSE,1784,1703,1764,1723,-20
+1977-04-09,Friendly,played,South Africa,ZAF,Zimbabwe,,TRUE,7,0,win,Johannesburg,South Africa,FALSE,,,,,
+1977-07-03,Friendly,played,South Africa,ZAF,Zimbabwe,,FALSE,1,1,draw,Salisbury,Southern Rhodesia,FALSE,,,,,
+1992-07-07,Friendly,played,South Africa,ZAF,Cameroon,CMR,TRUE,1,0,win,Durban,South Africa,FALSE,1761,1676,1766,1671,5
+1992-07-09,Friendly,played,South Africa,ZAF,Cameroon,CMR,TRUE,1,2,loss,Cape Town,South Africa,FALSE,1766,1671,1751,1686,-15
+1992-07-11,Friendly,played,South Africa,ZAF,Cameroon,CMR,TRUE,2,2,draw,Johannesburg,South Africa,FALSE,1751,1686,1747,1690,-4
+1992-08-16,African Cup of Nations qualification,played,South Africa,ZAF,Zimbabwe,,FALSE,1,4,loss,Harare,Zimbabwe,FALSE,1747,1409,1691,1465,-56
+1992-08-30,African Cup of Nations qualification,played,South Africa,ZAF,Zambia,,TRUE,0,1,loss,Johannesburg,South Africa,FALSE,1691,1588,1660,1619,-31
+1992-10-10,FIFA World Cup qualification,played,South Africa,ZAF,Nigeria,NGA,FALSE,0,4,loss,Lagos,Nigeria,FALSE,1660,1635,1630,1665,-30
+1992-10-25,FIFA World Cup qualification,played,South Africa,ZAF,Congo,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,,,,,
+1993-01-10,Friendly,played,South Africa,ZAF,Botswana,,FALSE,2,0,win,Gaborone,Botswana,FALSE,1637,1075,1639,1073,2
+1993-01-16,FIFA World Cup qualification,played,South Africa,ZAF,Nigeria,NGA,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1639,1679,1636,1682,-3
+1993-01-31,FIFA World Cup qualification,played,South Africa,ZAF,Congo,,FALSE,1,0,win,Pointe-Noire,Congo,FALSE,1636,1434,1650,1420,14
+1993-04-10,African Cup of Nations qualification,played,South Africa,ZAF,Mauritius,,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1650,1236,1632,1254,-18
+1993-04-24,African Cup of Nations qualification,played,South Africa,ZAF,Zimbabwe,,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1632,1539,1622,1549,-10
+1993-07-11,African Cup of Nations qualification,played,South Africa,ZAF,Zambia,,FALSE,0,3,loss,Lusaka,Zambia,FALSE,1622,1621,1597,1646,-25
+1993-07-25,African Cup of Nations qualification,played,South Africa,ZAF,Mauritius,,FALSE,3,1,win,Mapou,Mauritius,FALSE,1597,1235,1608,1224,11
+1993-10-06,Friendly,played,South Africa,ZAF,Mexico,MEX,FALSE,0,4,loss,Los Angeles,United States,TRUE,1608,1894,1602,1900,-6
+1994-04-24,Friendly,played,South Africa,ZAF,Zimbabwe,,TRUE,1,0,win,Mafikeng,South Africa,FALSE,1602,1543,1608,1537,6
+1994-06-08,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,0,1,loss,Adelaide,Australia,FALSE,1622,1714,1617,1719,-5
+1994-06-12,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,0,1,loss,Sydney,Australia,FALSE,1617,1719,1612,1724,-5
+1994-11-30,Simba Tournament,played,South Africa,ZAF,Ivory Coast,CIV,TRUE,0,0,draw,Port Elizabeth,South Africa,FALSE,1653,1662,1649,1666,-4
+1994-12-04,Simba Tournament,played,South Africa,ZAF,Cameroon,CMR,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1649,1572,1642,1579,-7
+1995-05-13,Friendly,played,South Africa,ZAF,Argentina,ARG,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1645,1870,1650,1865,5
+1995-09-30,Friendly,played,South Africa,ZAF,Mozambique,,TRUE,3,2,win,Johannesburg,South Africa,FALSE,1650,1398,1652,1396,2
+1995-11-22,Simba Tournament,played,South Africa,ZAF,Zambia,,TRUE,2,2,draw,Pretoria,South Africa,FALSE,1652,1615,1646,1621,-6
+1995-11-24,Simba Tournament,played,South Africa,ZAF,Egypt,EGY,TRUE,2,0,win,Mafikeng,South Africa,FALSE,1646,1634,1661,1619,15
+1995-11-26,Simba Tournament,played,South Africa,ZAF,Zimbabwe,,TRUE,2,0,win,Johannesburg,South Africa,FALSE,1661,1517,1670,1508,9
+1995-12-15,Friendly,played,South Africa,ZAF,Germany,DEU,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1670,2038,1676,2032,6
+1996-01-13,African Cup of Nations,played,South Africa,ZAF,Cameroon,CMR,TRUE,3,0,win,Johannesburg,South Africa,FALSE,1676,1543,1694,1525,18
+1996-01-20,African Cup of Nations,played,South Africa,ZAF,Angola,AGO,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1694,1426,1699,1421,5
+1996-01-24,African Cup of Nations,played,South Africa,ZAF,Egypt,EGY,TRUE,0,1,loss,Johannesburg,South Africa,FALSE,1699,1612,1662,1649,-37
+1996-01-27,African Cup of Nations,played,South Africa,ZAF,Algeria,DZA,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1662,1612,1677,1597,15
+1996-01-31,African Cup of Nations,played,South Africa,ZAF,Ghana,GHA,TRUE,3,0,win,Johannesburg,South Africa,FALSE,1677,1734,1715,1696,38
+1996-02-03,African Cup of Nations,played,South Africa,ZAF,Tunisia,TUN,TRUE,2,0,win,Johannesburg,South Africa,FALSE,1715,1619,1733,1601,18
+1996-04-24,Friendly,played,South Africa,ZAF,Brazil,BRA,TRUE,2,3,loss,Johannesburg,South Africa,FALSE,1733,2068,1727,2074,-6
+1996-06-01,FIFA World Cup qualification,played,South Africa,ZAF,Malawi,,FALSE,1,0,win,Blantyre,Malawi,FALSE,1727,1424,1736,1415,9
+1996-06-15,FIFA World Cup qualification,played,South Africa,ZAF,Malawi,,TRUE,3,0,win,Johannesburg,South Africa,FALSE,1736,1415,1742,1409,6
+1996-09-14,Simba Tournament,played,South Africa,ZAF,Kenya,,TRUE,1,0,win,Durban,South Africa,FALSE,1742,1470,1745,1467,3
+1996-09-18,Simba Tournament,played,South Africa,ZAF,Australia,AUS,TRUE,2,0,win,Johannesburg,South Africa,FALSE,1745,1687,1758,1674,13
+1996-09-21,Simba Tournament,played,South Africa,ZAF,Ghana,GHA,TRUE,0,0,draw,Pretoria,South Africa,FALSE,1758,1610,1749,1619,-9
+1996-11-09,FIFA World Cup qualification,played,South Africa,ZAF,DR Congo,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,,,,,
+1997-01-11,FIFA World Cup qualification,played,South Africa,ZAF,Zambia,,FALSE,0,0,draw,Lusaka,Zambia,FALSE,1754,1611,1752,1613,-2
+1997-04-06,FIFA World Cup qualification,played,South Africa,ZAF,Congo,,FALSE,0,2,loss,Pointe-Noire,Congo,FALSE,1752,1430,1705,1477,-47
+1997-04-27,FIFA World Cup qualification,played,South Africa,ZAF,DR Congo,,FALSE,2,1,win,Lomé,Togo,TRUE,,,,,
+1997-05-24,Friendly,played,South Africa,ZAF,England,ENG,FALSE,1,2,loss,Manchester,England,FALSE,1715,1943,1712,1946,-3
+1997-06-04,Friendly,played,South Africa,ZAF,Netherlands,NLD,TRUE,0,2,loss,Johannesburg,South Africa,FALSE,1712,1927,1697,1942,-15
+1997-06-08,FIFA World Cup qualification,played,South Africa,ZAF,Zambia,,TRUE,3,0,win,Johannesburg,South Africa,FALSE,1697,1649,1718,1628,21
+1997-08-16,FIFA World Cup qualification,played,South Africa,ZAF,Congo,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1718,1473,1723,1468,5
+1997-10-11,Friendly,played,South Africa,ZAF,France,FRA,FALSE,1,2,loss,Lens,France,FALSE,1723,2008,1721,2010,-2
+1997-11-15,Friendly,played,South Africa,ZAF,Germany,DEU,FALSE,0,3,loss,Düsseldorf,Germany,FALSE,1721,2067,1719,2069,-2
+1997-12-07,Friendly,played,South Africa,ZAF,Brazil,BRA,TRUE,1,2,loss,Johannesburg,South Africa,FALSE,1719,2152,1716,2155,-3
+1997-12-13,Confederations Cup,played,South Africa,ZAF,Czechia,CZE,TRUE,2,2,draw,Riyadh,Saudi Arabia,TRUE,1716,1889,1728,1877,12
+1997-12-15,Confederations Cup,played,South Africa,ZAF,United Arab Emirates,ARE,FALSE,0,1,loss,Riyadh,Saudi Arabia,TRUE,1728,1523,1690,1561,-38
+1997-12-17,Confederations Cup,played,South Africa,ZAF,Uruguay,URY,FALSE,3,4,loss,Riyadh,Saudi Arabia,TRUE,1690,1777,1671,1796,-19
+1998-01-24,COSAFA Cup qualification,played,South Africa,ZAF,Namibia,,FALSE,2,3,loss,Windhoek,Namibia,FALSE,1671,1358,1640,1389,-31
+1998-02-08,African Cup of Nations,played,South Africa,ZAF,Angola,AGO,TRUE,0,0,draw,Bobo Dioulasso,Burkina Faso,TRUE,1640,1527,1632,1535,-8
+1998-02-11,African Cup of Nations,played,South Africa,ZAF,Ivory Coast,CIV,TRUE,1,1,draw,Bobo Dioulasso,Burkina Faso,TRUE,1632,1557,1627,1562,-5
+1998-02-16,African Cup of Nations,played,South Africa,ZAF,Namibia,,TRUE,4,1,win,Bobo Dioulasso,Burkina Faso,TRUE,1627,1362,1643,1346,16
+1998-02-22,African Cup of Nations,played,South Africa,ZAF,Morocco,MAR,FALSE,2,1,win,Ouagadougou,Burkina Faso,TRUE,1643,1765,1676,1732,33
+1998-02-25,African Cup of Nations,played,South Africa,ZAF,DR Congo,,FALSE,2,1,win,Ouagadougou,Burkina Faso,TRUE,1676,1512,1690,1498,14
+1998-02-28,African Cup of Nations,played,South Africa,ZAF,Egypt,EGY,TRUE,0,2,loss,Ouagadougou,Burkina Faso,TRUE,1690,1658,1649,1699,-41
+1998-05-20,Friendly,played,South Africa,ZAF,Zambia,,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1649,1616,1645,1620,-4
+1998-05-25,Friendly,played,South Africa,ZAF,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1645,1889,1641,1893,-4
+1998-06-06,Friendly,played,South Africa,ZAF,Iceland,ISL,FALSE,1,1,draw,Baiersbronn,Germany,TRUE,1641,1477,1637,1481,-4
+1998-06-12,FIFA World Cup,played,South Africa,ZAF,France,FRA,FALSE,0,3,loss,Marseille,France,FALSE,1637,2002,1630,2009,-7
+1998-06-18,FIFA World Cup,played,South Africa,ZAF,Denmark,DNK,TRUE,1,1,draw,Toulouse,France,TRUE,1630,1894,1649,1875,19
+1998-06-24,FIFA World Cup,played,South Africa,ZAF,Saudi Arabia,SAU,TRUE,2,2,draw,Bordeaux,France,TRUE,1649,1625,1647,1627,-2
+1998-10-03,African Cup of Nations qualification,played,South Africa,ZAF,Angola,AGO,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1647,1480,1654,1473,7
+1998-12-16,Friendly,played,South Africa,ZAF,Egypt,EGY,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1654,1647,1665,1636,11
+1999-01-23,African Cup of Nations qualification,played,South Africa,ZAF,Mauritius,,FALSE,1,1,draw,Curepipe,Mauritius,FALSE,1665,1130,1648,1147,-17
+1999-02-20,COSAFA Cup qualification,played,South Africa,ZAF,Botswana,,FALSE,2,1,win,Gaborone,Botswana,FALSE,1648,1019,1650,1017,2
+1999-02-27,African Cup of Nations qualification,played,South Africa,ZAF,Gabon,,TRUE,4,1,win,Mabopane,South Africa,FALSE,1650,1422,1659,1413,9
+1999-04-10,African Cup of Nations qualification,played,South Africa,ZAF,Gabon,,FALSE,0,1,loss,Libreville,Gabon,FALSE,1659,1413,1631,1441,-28
+1999-04-28,Friendly,played,South Africa,ZAF,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1631,1820,1638,1813,7
+1999-05-06,Friendly,played,South Africa,ZAF,Trinidad and Tobago,TTO,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1638,1491,1621,1508,-17
+1999-05-09,Friendly,played,South Africa,ZAF,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1621,1663,1625,1659,4
+1999-06-05,African Cup of Nations qualification,played,South Africa,ZAF,Mauritius,,TRUE,2,0,win,Durban,South Africa,FALSE,1625,1221,1628,1218,3
+1999-06-16,Friendly,played,South Africa,ZAF,Zimbabwe,,TRUE,0,1,loss,Johannesburg,South Africa,FALSE,1628,1470,1612,1486,-16
+1999-06-20,African Cup of Nations qualification,played,South Africa,ZAF,Angola,AGO,FALSE,2,2,draw,Luanda,Angola,FALSE,1612,1425,1607,1430,-5
+1999-07-31,COSAFA Cup,played,South Africa,ZAF,Namibia,,FALSE,1,1,draw,Windhoek,Namibia,FALSE,1607,1324,1597,1334,-10
+1999-09-19,Friendly,played,South Africa,ZAF,Saudi Arabia,SAU,TRUE,1,0,win,Cape Town,South Africa,FALSE,,,,,
+1999-09-30,Friendly,played,South Africa,ZAF,Saudi Arabia,SAU,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1619,1638,1627,1630,8
+1999-11-27,Friendly,played,South Africa,ZAF,Sweden,SWE,TRUE,1,0,win,Pretoria,South Africa,FALSE,1627,1913,1649,1891,22
+2000-01-23,African Cup of Nations,played,South Africa,ZAF,Gabon,,TRUE,3,1,win,Kumasi,Ghana,TRUE,1649,1459,1668,1440,19
+2000-01-27,African Cup of Nations,played,South Africa,ZAF,DR Congo,,TRUE,1,0,win,Kumasi,Ghana,TRUE,1668,1517,1683,1502,15
+2000-02-02,African Cup of Nations,played,South Africa,ZAF,Algeria,DZA,TRUE,1,1,draw,Kumasi,Ghana,TRUE,1683,1511,1672,1522,-11
+2000-02-06,African Cup of Nations,played,South Africa,ZAF,Ghana,GHA,FALSE,1,0,win,Kumasi,Ghana,FALSE,1672,1548,1695,1525,23
+2000-02-10,African Cup of Nations,played,South Africa,ZAF,Nigeria,NGA,FALSE,0,2,loss,Lagos,Nigeria,FALSE,1695,1736,1672,1759,-23
+2000-02-12,African Cup of Nations,played,South Africa,ZAF,Tunisia,TUN,TRUE,2,2,draw,Accra,Ghana,TRUE,1672,1612,1668,1616,-4
+2000-04-09,FIFA World Cup qualification,played,South Africa,ZAF,Lesotho,,FALSE,2,0,win,Maseru,Lesotho,FALSE,1668,1107,1672,1103,4
+2000-04-22,FIFA World Cup qualification,played,South Africa,ZAF,Lesotho,,TRUE,1,0,win,Bloemfontein,South Africa,FALSE,1672,1103,1673,1102,1
+2000-04-29,COSAFA Cup,played,South Africa,ZAF,Mauritius,,TRUE,3,0,win,Rustenburg,South Africa,FALSE,1673,1215,1676,1212,3
+2000-05-28,Friendly,played,South Africa,ZAF,Malta,,FALSE,1,0,win,Attard,Malta,FALSE,1676,1236,1678,1234,2
+2000-06-03,USA Cup,played,South Africa,ZAF,United States,USA,FALSE,0,4,loss,"Washington, D.C.",United States,FALSE,1678,1800,1666,1812,-12
+2000-06-07,USA Cup,played,South Africa,ZAF,Mexico,MEX,FALSE,2,4,loss,Dallas,United States,TRUE,1666,1846,1654,1858,-12
+2000-06-11,USA Cup,played,South Africa,ZAF,Republic of Ireland,IRL,FALSE,1,2,loss,East Rutherford,United States,TRUE,,,,,
+2000-06-18,COSAFA Cup,played,South Africa,ZAF,Eswatini,,TRUE,2,0,win,Witbank,South Africa,FALSE,1644,1160,1646,1158,2
+2000-07-09,FIFA World Cup qualification,played,South Africa,ZAF,Zimbabwe,,FALSE,2,0,win,Harare,Zimbabwe,FALSE,1646,1479,1670,1455,24
+2000-07-29,COSAFA Cup,played,South Africa,ZAF,Zimbabwe,,TRUE,0,1,loss,Port Elizabeth,South Africa,FALSE,1670,1458,1636,1492,-34
+2000-09-03,African Cup of Nations qualification,played,South Africa,ZAF,Congo,,FALSE,2,1,win,Pointe-Noire,Congo,FALSE,1636,1420,1650,1406,14
+2000-10-07,Friendly,played,South Africa,ZAF,France,FRA,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1650,2114,1662,2102,12
+2000-12-16,African Cup of Nations qualification,played,South Africa,ZAF,Liberia,,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1662,1427,1667,1422,5
+2001-01-13,African Cup of Nations qualification,played,South Africa,ZAF,Mauritius,,FALSE,1,1,draw,Mauritius,Mauritius,FALSE,1667,1227,1652,1242,-15
+2001-01-27,FIFA World Cup qualification,played,South Africa,ZAF,Burkina Faso,,TRUE,1,0,win,Rustenburg,South Africa,FALSE,1652,1414,1657,1409,5
+2001-02-25,FIFA World Cup qualification,played,South Africa,ZAF,Malawi,,FALSE,2,1,win,Blantyre,Malawi,FALSE,1657,1261,1663,1255,6
+2001-03-24,African Cup of Nations qualification,played,South Africa,ZAF,Mauritius,,TRUE,3,0,win,Port Elizabeth,South Africa,FALSE,1663,1242,1666,1239,3
+2001-04-25,Friendly,played,South Africa,ZAF,Italy,ITA,FALSE,0,1,loss,Perugia,Italy,FALSE,1666,2028,1665,2029,-1
+2001-04-29,COSAFA Cup,played,South Africa,ZAF,Mozambique,,FALSE,3,0,win,Maputo,Mozambique,FALSE,1665,1247,1675,1237,10
+2001-05-05,FIFA World Cup qualification,played,South Africa,ZAF,Zimbabwe,,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1675,1486,1681,1480,6
+2001-06-03,African Cup of Nations qualification,played,South Africa,ZAF,Liberia,,FALSE,1,1,draw,Paynesville,Liberia,FALSE,1681,1486,1676,1491,-5
+2001-06-17,African Cup of Nations qualification,played,South Africa,ZAF,Congo,,TRUE,0,0,draw,Durban,South Africa,FALSE,1676,1366,1659,1383,-17
+2001-07-01,FIFA World Cup qualification,played,South Africa,ZAF,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1659,1408,1651,1416,-8
+2001-07-14,FIFA World Cup qualification,played,South Africa,ZAF,Malawi,,TRUE,2,0,win,Durban,South Africa,FALSE,1651,1264,1654,1261,3
+2001-07-21,COSAFA Cup,played,South Africa,ZAF,Malawi,,FALSE,0,1,loss,Blantyre,Malawi,FALSE,1654,1261,1620,1295,-34
+2001-08-15,Friendly,played,South Africa,ZAF,Sweden,SWE,FALSE,0,3,loss,Solna,Sweden,FALSE,1620,1856,1616,1860,-4
+2001-11-10,Friendly,played,South Africa,ZAF,Egypt,EGY,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1616,1648,1624,1640,8
+2002-01-15,Friendly,played,South Africa,ZAF,Angola,AGO,TRUE,1,0,win,Mafikeng,South Africa,FALSE,1624,1533,1629,1528,5
+2002-01-20,African Cup of Nations,played,South Africa,ZAF,Burkina Faso,,TRUE,0,0,draw,Ségou,Mali,TRUE,1629,1396,1614,1411,-15
+2002-01-24,African Cup of Nations,played,South Africa,ZAF,Ghana,GHA,TRUE,0,0,draw,Ségou,Mali,TRUE,1614,1522,1608,1528,-6
+2002-01-30,African Cup of Nations,played,South Africa,ZAF,Morocco,MAR,TRUE,3,1,win,Ségou,Mali,TRUE,1608,1652,1650,1610,42
+2002-02-03,African Cup of Nations,played,South Africa,ZAF,Mali,,FALSE,0,2,loss,Kayes,Mali,FALSE,1650,1487,1606,1531,-44
+2002-03-20,Friendly,played,South Africa,ZAF,Saudi Arabia,SAU,FALSE,0,1,loss,Pistoia,Italy,TRUE,1606,1671,1598,1679,-8
+2002-03-27,Friendly,played,South Africa,ZAF,Georgia,,FALSE,1,4,loss,Tbilisi,Georgia,FALSE,1598,1593,1585,1606,-13
+2002-03-30,COSAFA Cup,played,South Africa,ZAF,Botswana,,FALSE,0,0,draw,Gaborone,Botswana,FALSE,1585,1150,1570,1165,-15
+2002-04-17,Friendly,played,South Africa,ZAF,Ecuador,ECU,FALSE,0,0,draw,Murcia,Spain,TRUE,1570,1731,1574,1727,4
+2002-05-12,Friendly,played,South Africa,ZAF,Madagascar,,TRUE,1,0,win,Durban,South Africa,FALSE,1574,1363,1577,1360,3
+2002-05-20,Friendly,played,South Africa,ZAF,Scotland,SCO,FALSE,2,0,win,So Kon Po,Hong Kong,TRUE,1577,1707,1608,1676,31
+2002-05-23,Friendly,played,South Africa,ZAF,Turkey,TUR,TRUE,2,0,win,So Kon Po,Hong Kong,TRUE,1608,1789,1641,1756,33
+2002-06-02,FIFA World Cup,played,South Africa,ZAF,Paraguay,PRY,FALSE,2,2,draw,Busan,South Korea,TRUE,1641,1731,1649,1723,8
+2002-06-08,FIFA World Cup,played,South Africa,ZAF,Slovenia,SVN,TRUE,1,0,win,Daegu,South Korea,TRUE,1649,1725,1685,1689,36
+2002-06-12,FIFA World Cup,played,South Africa,ZAF,Spain,ESP,TRUE,2,3,loss,Daejeon,South Korea,TRUE,1685,1999,1677,2007,-8
+2002-07-21,COSAFA Cup,played,South Africa,ZAF,Madagascar,,TRUE,0,0,draw,Port Elizabeth,South Africa,FALSE,1677,1360,1660,1377,-17
+2002-08-24,COSAFA Cup,played,South Africa,ZAF,Eswatini,,TRUE,4,1,win,Polokwane,South Africa,FALSE,1660,1226,1663,1223,3
+2002-09-08,African Cup of Nations qualification,played,South Africa,ZAF,Ivory Coast,CIV,FALSE,0,0,draw,Abidjan,Ivory Coast,FALSE,1663,1542,1662,1543,-1
+2002-09-21,COSAFA Cup,played,South Africa,ZAF,Malawi,,FALSE,3,1,win,Blantyre,Malawi,FALSE,1662,1345,1675,1332,13
+2002-09-28,COSAFA Cup,played,South Africa,ZAF,Malawi,,TRUE,1,0,win,Durban,South Africa,FALSE,1675,1332,1678,1329,3
+2002-10-13,African Cup of Nations qualification,played,South Africa,ZAF,Burundi,,TRUE,2,0,win,Bloemfontein,South Africa,FALSE,1678,1354,1683,1349,5
+2002-10-23,Friendly,played,South Africa,ZAF,Kenya,,FALSE,1,1,draw,Arusha,Tanzania,TRUE,1683,1452,1674,1461,-9
+2002-10-26,Friendly,played,South Africa,ZAF,Tanzania,,FALSE,1,1,draw,Dar es Salaam,Tanzania,FALSE,1674,1209,1662,1221,-12
+2002-11-19,Friendly,played,South Africa,ZAF,Senegal,SEN,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1662,1777,1663,1776,1
+2003-03-29,Friendly,played,South Africa,ZAF,Madagascar,,TRUE,2,0,win,Johannesburg,South Africa,FALSE,1663,1421,1667,1417,4
+2003-04-30,Friendly,played,South Africa,ZAF,Jamaica,JAM,TRUE,0,0,draw,Cape Town,South Africa,FALSE,1667,1557,1662,1562,-5
+2003-05-22,Friendly,played,South Africa,ZAF,England,ENG,TRUE,1,2,loss,Durban,South Africa,FALSE,1662,1946,1657,1951,-5
+2003-06-14,Friendly,played,South Africa,ZAF,Trinidad and Tobago,TTO,TRUE,2,1,win,Port Elizabeth,South Africa,FALSE,1657,1413,1659,1411,2
+2003-06-22,African Cup of Nations qualification,played,South Africa,ZAF,Ivory Coast,CIV,TRUE,2,1,win,Polokwane,South Africa,FALSE,1659,1612,1671,1600,12
+2003-07-06,African Cup of Nations qualification,played,South Africa,ZAF,Burundi,,FALSE,2,0,win,Bujumbura,Burundi,FALSE,1671,1271,1680,1262,9
+2003-07-19,COSAFA Cup,played,South Africa,ZAF,Zimbabwe,,TRUE,0,1,loss,East London,South Africa,FALSE,1680,1457,1645,1492,-35
+2003-10-08,Friendly,played,South Africa,ZAF,Lesotho,,FALSE,3,0,win,Maseru,Lesotho,FALSE,1645,1199,1649,1195,4
+2003-10-11,Friendly,played,South Africa,ZAF,Costa Rica,CRI,TRUE,2,1,win,Potchefstroom,South Africa,FALSE,1649,1741,1664,1726,15
+2003-11-15,Friendly,played,South Africa,ZAF,Egypt,EGY,FALSE,1,2,loss,Cairo,Egypt,FALSE,1664,1637,1656,1645,-8
+2003-11-19,Friendly,played,South Africa,ZAF,Tunisia,TUN,FALSE,0,2,loss,Tunis,Tunisia,FALSE,1656,1631,1644,1643,-12
+2004-01-10,COSAFA Cup,played,South Africa,ZAF,Mauritius,,FALSE,0,2,loss,Curepipe,Mauritius,FALSE,1644,1299,1596,1347,-48
+2004-01-18,Friendly,played,South Africa,ZAF,Senegal,SEN,FALSE,1,2,loss,Dakar,Senegal,FALSE,1596,1749,1592,1753,-4
+2004-01-27,African Cup of Nations,played,South Africa,ZAF,Benin,,TRUE,2,0,win,Sfax,Tunisia,TRUE,1592,1329,1606,1315,14
+2004-01-31,African Cup of Nations,played,South Africa,ZAF,Nigeria,NGA,FALSE,0,4,loss,Monastir,Tunisia,TRUE,1606,1700,1572,1734,-34
+2004-02-04,African Cup of Nations,played,South Africa,ZAF,Morocco,MAR,FALSE,1,1,draw,Sousse,Tunisia,TRUE,1572,1620,1575,1617,3
+2004-03-30,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,0,1,loss,London,England,TRUE,1575,1818,1571,1822,-4
+2004-06-05,FIFA World Cup qualification,played,South Africa,ZAF,Cape Verde,,TRUE,2,1,win,Bloemfontein,South Africa,FALSE,1571,1355,1577,1349,6
+2004-06-20,FIFA World Cup qualification,played,South Africa,ZAF,Ghana,GHA,FALSE,0,3,loss,Kumasi,Ghana,FALSE,1577,1424,1537,1464,-40
+2004-07-03,FIFA World Cup qualification,played,South Africa,ZAF,Burkina Faso,,TRUE,2,0,win,Johannesburg,South Africa,FALSE,1537,1393,1549,1381,12
+2004-08-18,Friendly,played,South Africa,ZAF,Tunisia,TUN,FALSE,2,0,win,Tunis,Tunisia,FALSE,1549,1646,1572,1623,23
+2004-09-05,FIFA World Cup qualification,played,South Africa,ZAF,DR Congo,,FALSE,0,1,loss,Kinshasa,DR Congo,FALSE,1572,1409,1548,1433,-24
+2004-10-10,FIFA World Cup qualification,played,South Africa,ZAF,Uganda,,FALSE,1,0,win,Kampala,Uganda,FALSE,1548,1353,1563,1338,15
+2004-11-17,Friendly,played,South Africa,ZAF,Nigeria,NGA,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1563,1773,1583,1753,20
+2005-02-09,Friendly,played,South Africa,ZAF,Australia,AUS,TRUE,1,1,draw,Durban,South Africa,FALSE,1583,1804,1586,1801,3
+2005-02-26,COSAFA Cup,played,South Africa,ZAF,Seychelles,,FALSE,3,0,win,Curepipe,Mauritius,TRUE,1586,1056,1589,1053,3
+2005-02-27,COSAFA Cup,played,South Africa,ZAF,Mauritius,,FALSE,1,0,win,Curepipe,Mauritius,FALSE,1589,1348,1601,1336,12
+2005-03-26,FIFA World Cup qualification,played,South Africa,ZAF,Uganda,,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1601,1331,1605,1327,4
+2005-06-04,FIFA World Cup qualification,played,South Africa,ZAF,Cape Verde,,FALSE,2,1,win,Praia,Cape Verde,FALSE,1605,1391,1619,1377,14
+2005-06-18,FIFA World Cup qualification,played,South Africa,ZAF,Ghana,GHA,TRUE,0,2,loss,Johannesburg,South Africa,FALSE,1619,1495,1572,1542,-47
+2005-07-08,Gold Cup,played,South Africa,ZAF,Mexico,MEX,TRUE,2,1,win,Carson,United States,TRUE,1572,1932,1616,1888,44
+2005-07-10,Gold Cup,played,South Africa,ZAF,Jamaica,JAM,FALSE,3,3,draw,Los Angeles,United States,TRUE,1616,1681,1621,1676,5
+2005-07-13,Gold Cup,played,South Africa,ZAF,Guatemala,,FALSE,1,1,draw,Houston,United States,TRUE,1621,1539,1615,1545,-6
+2005-07-17,Gold Cup,played,South Africa,ZAF,Panama,PAN,TRUE,1,1,draw,Houston,United States,TRUE,1615,1492,1607,1500,-8
+2005-08-13,COSAFA Cup,played,South Africa,ZAF,Zambia,,TRUE,2,2,draw,Mafikeng,South Africa,FALSE,1607,1508,1597,1518,-10
+2005-08-17,Friendly,played,South Africa,ZAF,Iceland,ISL,FALSE,1,4,loss,Reykjavík,Iceland,FALSE,1597,1514,1580,1531,-17
+2005-09-03,FIFA World Cup qualification,played,South Africa,ZAF,Burkina Faso,,FALSE,1,3,loss,Ouagadougou,Burkina Faso,FALSE,1580,1366,1540,1406,-40
+2005-09-07,Friendly,played,South Africa,ZAF,Germany,DEU,FALSE,2,4,loss,Bremen,Germany,FALSE,1540,1890,1538,1892,-2
+2005-10-08,FIFA World Cup qualification,played,South Africa,ZAF,DR Congo,,TRUE,2,2,draw,Durban,South Africa,FALSE,1538,1459,1529,1468,-9
+2005-11-12,Friendly,played,South Africa,ZAF,Senegal,SEN,TRUE,2,3,loss,Port Elizabeth,South Africa,FALSE,1529,1690,1517,1702,-12
+2006-01-14,Friendly,played,South Africa,ZAF,Egypt,EGY,FALSE,2,1,win,Cairo,Egypt,FALSE,1517,1717,1534,1700,17
+2006-01-22,African Cup of Nations,played,South Africa,ZAF,Guinea,,TRUE,0,2,loss,Alexandria,Egypt,TRUE,1534,1515,1494,1555,-40
+2006-01-26,African Cup of Nations,played,South Africa,ZAF,Tunisia,TUN,FALSE,0,2,loss,Alexandria,Egypt,TRUE,1494,1742,1479,1757,-15
+2006-01-30,African Cup of Nations,played,South Africa,ZAF,Zambia,,FALSE,0,1,loss,Alexandria,Egypt,TRUE,1479,1484,1454,1509,-25
+2006-05-10,Friendly,played,South Africa,ZAF,Lesotho,,FALSE,0,0,draw,Maseru,Lesotho,FALSE,1454,1139,1448,1145,-6
+2006-05-20,COSAFA Cup,played,South Africa,ZAF,Eswatini,,TRUE,1,0,win,Gaborone,Botswana,TRUE,1448,1180,1455,1173,7
+2006-05-21,COSAFA Cup,played,South Africa,ZAF,Botswana,,FALSE,0,0,draw,Gaborone,Botswana,FALSE,1455,1330,1454,1331,-1
+2006-08-16,Friendly,played,South Africa,ZAF,Namibia,,FALSE,1,0,win,Windhoek,Namibia,FALSE,1454,1184,1459,1179,5
+2006-09-02,African Cup of Nations qualification,played,South Africa,ZAF,Congo,,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1459,1344,1448,1355,-11
+2006-10-08,African Cup of Nations qualification,played,South Africa,ZAF,Zambia,,FALSE,1,0,win,Lusaka,Zambia,FALSE,1448,1552,1479,1521,31
+2006-11-15,Friendly,played,South Africa,ZAF,Egypt,EGY,FALSE,0,1,loss,Brentford,England,TRUE,1479,1717,1473,1723,-6
+2007-03-24,African Cup of Nations qualification,played,South Africa,ZAF,Chad,,FALSE,3,0,win,N'Djamena,Chad,FALSE,1465,1290,1493,1262,28
+2007-03-28,Friendly,played,South Africa,ZAF,Bolivia,BOL,TRUE,0,1,loss,Johannesburg,South Africa,FALSE,1493,1565,1482,1576,-11
+2007-05-26,COSAFA Cup,played,South Africa,ZAF,Malawi,,FALSE,0,0,draw,Lobamba,Swaziland,TRUE,1482,1309,1473,1318,-9
+2007-05-27,COSAFA Cup,played,South Africa,ZAF,Mauritius,,FALSE,2,0,win,Lobamba,Swaziland,TRUE,1473,1235,1485,1223,12
+2007-06-02,African Cup of Nations qualification,played,South Africa,ZAF,Chad,,TRUE,4,0,win,Durban,South Africa,FALSE,1485,1262,1495,1252,10
+2007-06-17,African Cup of Nations qualification,played,South Africa,ZAF,Congo,,FALSE,1,1,draw,Pointe-Noire,Congo,FALSE,1495,1419,1496,1418,1
+2007-08-22,Friendly,played,South Africa,ZAF,Scotland,SCO,FALSE,0,1,loss,Aberdeen,Scotland,FALSE,1496,1751,1494,1753,-2
+2007-09-09,African Cup of Nations qualification,played,South Africa,ZAF,Zambia,,TRUE,1,3,loss,Cape Town,South Africa,FALSE,1494,1523,1458,1559,-36
+2007-09-12,Friendly,played,South Africa,ZAF,Uruguay,URY,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1458,1822,1464,1816,6
+2007-09-29,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,1,0,win,Atteridgeville,South Africa,FALSE,1464,1329,1472,1321,8
+2007-10-17,Friendly,played,South Africa,ZAF,Italy,ITA,FALSE,0,2,loss,Siena,Italy,FALSE,1472,2018,1471,2019,-1
+2007-10-24,COSAFA Cup,played,South Africa,ZAF,Zambia,,TRUE,0,0,draw,Bloemfontein,South Africa,FALSE,1471,1577,1471,1577,0
+2007-11-17,Friendly,played,South Africa,ZAF,United States,USA,TRUE,0,1,loss,Johannesburg,South Africa,FALSE,1471,1751,1463,1759,-8
+2007-11-20,Friendly,played,South Africa,ZAF,Canada,CAN,TRUE,2,0,win,Durban,South Africa,FALSE,1463,1643,1481,1625,18
+2008-01-13,Friendly,played,South Africa,ZAF,Mozambique,,TRUE,2,0,win,Durban,South Africa,FALSE,1484,1352,1490,1346,6
+2008-01-16,Friendly,played,South Africa,ZAF,Botswana,,TRUE,2,1,win,Umlazi,South Africa,FALSE,1490,1319,1493,1316,3
+2008-01-23,African Cup of Nations,played,South Africa,ZAF,Angola,AGO,TRUE,1,1,draw,Tamale,Ghana,TRUE,1493,1531,1496,1528,3
+2008-01-27,African Cup of Nations,played,South Africa,ZAF,Tunisia,TUN,FALSE,1,3,loss,Tamale,Ghana,TRUE,1496,1626,1472,1650,-24
+2008-01-31,African Cup of Nations,played,South Africa,ZAF,Senegal,SEN,FALSE,1,1,draw,Kumasi,Ghana,TRUE,1472,1605,1481,1596,9
+2008-03-11,Friendly,played,South Africa,ZAF,Zimbabwe,,TRUE,2,1,win,Germiston,South Africa,FALSE,1481,1455,1488,1448,7
+2008-03-26,Friendly,played,South Africa,ZAF,Paraguay,PRY,TRUE,3,0,win,Atteridgeville,South Africa,FALSE,1488,1826,1516,1798,28
+2008-06-01,FIFA World Cup qualification,played,South Africa,ZAF,Nigeria,NGA,FALSE,0,2,loss,Abuja,Nigeria,FALSE,1517,1713,1508,1722,-9
+2008-06-07,FIFA World Cup qualification,played,South Africa,ZAF,Equatorial Guinea,,TRUE,4,1,win,Pretoria,South Africa,FALSE,1508,1260,1516,1252,8
+2008-06-14,FIFA World Cup qualification,played,South Africa,ZAF,Sierra Leone,,FALSE,0,1,loss,Freetown,Sierra Leone,FALSE,1516,1185,1484,1217,-32
+2008-06-21,FIFA World Cup qualification,played,South Africa,ZAF,Sierra Leone,,TRUE,0,0,draw,Atteridgeville,South Africa,FALSE,1484,1217,1468,1233,-16
+2008-07-26,COSAFA Cup,played,South Africa,ZAF,Namibia,,TRUE,1,0,win,Witbank,South Africa,FALSE,1468,1278,1474,1272,6
+2008-07-30,COSAFA Cup,played,South Africa,ZAF,Zambia,,TRUE,1,0,win,Bushbuckridge,South Africa,FALSE,1474,1523,1491,1506,17
+2008-08-03,COSAFA Cup,played,South Africa,ZAF,Mozambique,,TRUE,2,1,win,Bushbuckridge,South Africa,FALSE,1491,1369,1500,1360,9
+2008-08-19,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,2,2,draw,London,England,TRUE,1500,1702,1505,1697,5
+2008-09-06,FIFA World Cup qualification,played,South Africa,ZAF,Nigeria,NGA,TRUE,0,1,loss,Port Elizabeth,South Africa,FALSE,1505,1731,1492,1744,-13
+2008-09-09,Friendly,played,South Africa,ZAF,Guinea,,TRUE,0,1,loss,Atteridgeville,South Africa,FALSE,1492,1561,1481,1572,-11
+2008-09-30,Friendly,played,South Africa,ZAF,Malawi,,TRUE,3,0,win,Johannesburg,South Africa,FALSE,1481,1317,1487,1311,6
+2008-10-11,FIFA World Cup qualification,played,South Africa,ZAF,Equatorial Guinea,,FALSE,1,0,win,Malabo,Equatorial Guinea,FALSE,1487,1231,1499,1219,12
+2008-10-15,Friendly,played,South Africa,ZAF,Ghana,GHA,TRUE,2,1,win,Bloemfontein,South Africa,FALSE,1499,1713,1512,1700,13
+2008-11-19,Friendly,played,South Africa,ZAF,Cameroon,CMR,TRUE,3,2,win,Rustenburg,South Africa,FALSE,1512,1763,1533,1742,21
+2009-01-27,Friendly,played,South Africa,ZAF,Zambia,,TRUE,1,0,win,Atteridgeville,South Africa,FALSE,1533,1458,1538,1453,5
+2009-02-11,Friendly,played,South Africa,ZAF,Chile,CHL,TRUE,0,2,loss,Polokwane,South Africa,FALSE,1538,1783,1529,1792,-9
+2009-03-28,Friendly,played,South Africa,ZAF,Norway,NOR,TRUE,2,1,win,Rustenburg,South Africa,FALSE,1529,1725,1548,1706,19
+2009-03-31,Friendly,played,South Africa,ZAF,Portugal,PRT,FALSE,0,2,loss,Lausanne,Switzerland,TRUE,1548,1818,1543,1823,-5
+2009-06-06,Friendly,played,South Africa,ZAF,Poland,POL,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1544,1729,1556,1717,12
+2009-06-14,Confederations Cup,played,South Africa,ZAF,Iraq,IRQ,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1556,1527,1547,1536,-9
+2009-06-17,Confederations Cup,played,South Africa,ZAF,New Zealand,NZL,TRUE,2,0,win,Rustenburg,South Africa,FALSE,1547,1487,1568,1466,21
+2009-06-20,Confederations Cup,played,South Africa,ZAF,Spain,ESP,TRUE,0,2,loss,Bloemfontein,South Africa,FALSE,1568,2127,1563,2132,-5
+2009-06-25,Confederations Cup,played,South Africa,ZAF,Brazil,BRA,TRUE,0,1,loss,Johannesburg,South Africa,FALSE,1563,2108,1559,2112,-4
+2009-06-28,Confederations Cup,played,South Africa,ZAF,Spain,ESP,TRUE,2,3,loss,Rustenburg,South Africa,FALSE,1559,2067,1555,2071,-4
+2009-08-12,Friendly,played,South Africa,ZAF,Serbia,SRB,TRUE,1,3,loss,Atteridgeville,South Africa,FALSE,1555,1818,1547,1826,-8
+2009-09-05,Friendly,played,South Africa,ZAF,Germany,DEU,FALSE,0,2,loss,Leverkusen,Germany,FALSE,1547,1960,1546,1961,-1
+2009-09-08,Friendly,played,South Africa,ZAF,Republic of Ireland,IRL,FALSE,0,1,loss,Limerick,Republic of Ireland,FALSE,,,,,
+2009-09-19,Friendly,played,South Africa,ZAF,Madagascar,,TRUE,1,0,win,Kimberley,South Africa,FALSE,1543,1270,1545,1268,2
+2009-10-10,Friendly,played,South Africa,ZAF,Norway,NOR,FALSE,0,1,loss,Oslo,Norway,FALSE,1545,1729,1542,1732,-3
+2009-10-13,Friendly,played,South Africa,ZAF,Iceland,ISL,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1542,1444,1532,1454,-10
+2009-10-26,COSAFA Cup,played,South Africa,ZAF,Angola,AGO,TRUE,2,0,win,Bulawayo,Zimbabwe,TRUE,1519,1483,1546,1456,27
+2009-10-28,COSAFA Cup,played,South Africa,ZAF,Zimbabwe,,FALSE,1,1,draw,Harare,Zimbabwe,FALSE,1546,1383,1542,1387,-4
+2009-10-31,COSAFA Cup,played,South Africa,ZAF,Mozambique,,TRUE,0,1,loss,Bulawayo,Zimbabwe,TRUE,1542,1393,1514,1421,-28
+2009-11-14,Friendly,played,South Africa,ZAF,Japan,JPN,TRUE,0,0,draw,Port Elizabeth,South Africa,FALSE,1514,1788,1519,1783,5
+2009-11-17,Friendly,played,South Africa,ZAF,Jamaica,JAM,TRUE,0,0,draw,Bloemfontein,South Africa,FALSE,1519,1620,1519,1620,0
+2010-01-27,Friendly,played,South Africa,ZAF,Zimbabwe,,TRUE,3,0,win,Durban,South Africa,FALSE,1522,1328,1527,1323,5
+2010-03-03,Friendly,played,South Africa,ZAF,Namibia,,TRUE,1,1,draw,Durban,South Africa,FALSE,1527,1317,1520,1324,-7
+2010-03-31,Friendly,played,South Africa,ZAF,Paraguay,PRY,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1520,1760,1528,1752,8
+2010-04-22,Friendly,played,South Africa,ZAF,North Korea,PRK,TRUE,0,0,draw,Taunusstein,Germany,TRUE,1528,1545,1528,1545,0
+2010-04-28,Friendly,played,South Africa,ZAF,Jamaica,JAM,TRUE,2,0,win,Offenbach am Main,Germany,TRUE,1528,1624,1547,1605,19
+2010-05-16,Friendly,played,South Africa,ZAF,Thailand,,TRUE,4,0,win,Nelspruit,South Africa,FALSE,1547,1453,1556,1444,9
+2010-05-24,Friendly,played,South Africa,ZAF,Bulgaria,BGR,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1556,1727,1558,1725,2
+2010-05-27,Friendly,played,South Africa,ZAF,Colombia,COL,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1558,1759,1571,1746,13
+2010-05-31,Friendly,played,South Africa,ZAF,Guatemala,,TRUE,5,0,win,Polokwane,South Africa,FALSE,1571,1435,1579,1427,8
+2010-06-05,Friendly,played,South Africa,ZAF,Denmark,DNK,TRUE,1,0,win,Atteridgeville,South Africa,FALSE,1579,1791,1592,1778,13
+2010-06-11,FIFA World Cup,played,South Africa,ZAF,Mexico,MEX,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1592,1898,1608,1882,16
+2010-06-16,FIFA World Cup,played,South Africa,ZAF,Uruguay,URY,TRUE,0,3,loss,Pretoria,South Africa,FALSE,1608,1846,1575,1879,-33
+2010-06-22,FIFA World Cup,played,South Africa,ZAF,France,FRA,TRUE,2,1,win,Bloemfontein,South Africa,FALSE,1575,1818,1617,1776,42
+2010-08-11,Friendly,played,South Africa,ZAF,Ghana,GHA,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1617,1768,1628,1757,11
+2010-09-04,African Cup of Nations qualification,played,South Africa,ZAF,Niger,,TRUE,2,0,win,Nelspruit,South Africa,FALSE,1628,1261,1632,1257,4
+2010-10-10,African Cup of Nations qualification,played,South Africa,ZAF,Sierra Leone,,FALSE,0,0,draw,Freetown,Sierra Leone,FALSE,1632,1279,1620,1291,-12
+2010-11-17,Friendly,played,South Africa,ZAF,United States,USA,TRUE,0,1,loss,Cape Town,South Africa,FALSE,1620,1752,1606,1766,-14
+2011-02-09,Friendly,played,South Africa,ZAF,Kenya,,TRUE,2,0,win,Rustenburg,South Africa,FALSE,1606,1267,1608,1265,2
+2011-03-26,African Cup of Nations qualification,played,South Africa,ZAF,Egypt,EGY,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1608,1793,1633,1768,25
+2011-05-14,Friendly,played,South Africa,ZAF,Tanzania,,FALSE,1,0,win,Dar es Salaam,Tanzania,FALSE,1633,1363,1638,1358,5
+2011-06-05,African Cup of Nations qualification,played,South Africa,ZAF,Egypt,EGY,FALSE,0,0,draw,Cairo,Egypt,FALSE,1638,1768,1650,1756,12
+2011-08-10,Friendly,played,South Africa,ZAF,Burkina Faso,,TRUE,3,0,win,Johannesburg,South Africa,FALSE,1650,1527,1658,1519,8
+2011-09-04,African Cup of Nations qualification,played,South Africa,ZAF,Niger,,FALSE,1,2,loss,Niamey,Niger,FALSE,1658,1306,1626,1338,-32
+2011-10-08,African Cup of Nations qualification,played,South Africa,ZAF,Sierra Leone,,TRUE,0,0,draw,Nelspruit,South Africa,FALSE,1626,1322,1610,1338,-16
+2011-11-12,Friendly,played,South Africa,ZAF,Ivory Coast,CIV,TRUE,1,1,draw,Port Elizabeth,South Africa,FALSE,1610,1763,1612,1761,2
+2011-11-15,Friendly,played,South Africa,ZAF,Zimbabwe,,FALSE,1,2,loss,Harare,Zimbabwe,FALSE,1612,1367,1598,1381,-14
+2012-01-06,Friendly,played,South Africa,ZAF,Equatorial Guinea,,FALSE,0,0,draw,Bata,Equatorial Guinea,FALSE,1598,1222,1591,1229,-7
+2012-02-29,Friendly,played,South Africa,ZAF,Senegal,SEN,TRUE,0,0,draw,Durban,South Africa,FALSE,1588,1520,1584,1524,-4
+2012-06-03,FIFA World Cup qualification,played,South Africa,ZAF,Ethiopia,,TRUE,1,1,draw,Rustenburg,South Africa,FALSE,1584,1286,1568,1302,-16
+2012-06-09,FIFA World Cup qualification,played,South Africa,ZAF,Botswana,,FALSE,1,1,draw,Gaborone,Botswana,FALSE,1568,1330,1560,1338,-8
+2012-06-15,Friendly,played,South Africa,ZAF,Gabon,,TRUE,3,0,win,Nelspruit,South Africa,FALSE,1560,1580,1574,1566,14
+2012-09-07,Friendly,played,South Africa,ZAF,Brazil,BRA,FALSE,0,1,loss,São Paulo,Brazil,FALSE,1574,2059,1573,2060,-1
+2012-09-11,Friendly,played,South Africa,ZAF,Mozambique,,TRUE,2,0,win,Nelspruit,South Africa,FALSE,1573,1348,1577,1344,4
+2012-10-12,Friendly,played,South Africa,ZAF,Poland,POL,FALSE,0,1,loss,Warsaw,Poland,FALSE,1577,1692,1573,1696,-4
+2012-10-16,Friendly,played,South Africa,ZAF,Kenya,,FALSE,2,1,win,Nairobi,Kenya,FALSE,1573,1314,1579,1308,6
+2012-11-14,Friendly,played,South Africa,ZAF,Zambia,,TRUE,0,1,loss,Johannesburg,South Africa,FALSE,1579,1593,1560,1612,-19
+2012-12-22,Friendly,played,South Africa,ZAF,Malawi,,TRUE,3,1,win,Durban,South Africa,FALSE,1560,1371,1565,1366,5
+2013-01-08,Friendly,played,South Africa,ZAF,Norway,NOR,TRUE,0,1,loss,Cape Town,South Africa,FALSE,1565,1758,1558,1765,-7
+2013-01-12,Friendly,played,South Africa,ZAF,Algeria,DZA,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1558,1560,1555,1563,-3
+2013-01-19,African Cup of Nations,played,South Africa,ZAF,Cape Verde,,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1555,1430,1541,1444,-14
+2013-01-23,African Cup of Nations,played,South Africa,ZAF,Angola,AGO,TRUE,2,0,win,Durban,South Africa,FALSE,1541,1513,1565,1489,24
+2013-01-27,African Cup of Nations,played,South Africa,ZAF,Morocco,MAR,TRUE,2,2,draw,Durban,South Africa,FALSE,1565,1538,1556,1547,-9
+2013-02-02,African Cup of Nations,played,South Africa,ZAF,Mali,,TRUE,1,1,draw,Durban,South Africa,FALSE,1556,1581,1551,1586,-5
+2013-03-23,FIFA World Cup qualification,played,South Africa,ZAF,Central African Republic,,TRUE,2,0,win,Cape Town,South Africa,FALSE,1551,1306,1558,1299,7
+2013-06-02,Friendly,played,South Africa,ZAF,Lesotho,,FALSE,2,0,win,Maseru,Lesotho,FALSE,1558,1156,1562,1152,4
+2013-06-08,FIFA World Cup qualification,played,South Africa,ZAF,Central African Republic,,FALSE,3,0,win,Yaoundé,Cameroon,TRUE,1562,1299,1575,1286,13
+2013-06-16,FIFA World Cup qualification,played,South Africa,ZAF,Ethiopia,,FALSE,1,2,loss,Addis Ababa,Ethiopia,FALSE,1575,1355,1548,1382,-27
+2013-07-13,COSAFA Cup,played,South Africa,ZAF,Namibia,,TRUE,2,1,win,Lusaka,Zambia,TRUE,1548,1329,1557,1320,9
+2013-07-17,COSAFA Cup,played,South Africa,ZAF,Zambia,,FALSE,0,0,draw,Ndola,Zambia,FALSE,1557,1541,1562,1536,5
+2013-07-20,COSAFA Cup,played,South Africa,ZAF,Lesotho,,FALSE,2,1,win,Ndola,Zambia,TRUE,1562,1188,1566,1184,4
+2013-08-14,Friendly,played,South Africa,ZAF,Nigeria,NGA,TRUE,0,2,loss,Durban,South Africa,FALSE,1566,1688,1545,1709,-21
+2013-08-17,Friendly,played,South Africa,ZAF,Burkina Faso,,TRUE,2,0,win,Johannesburg,South Africa,FALSE,1545,1566,1557,1554,12
+2013-09-07,FIFA World Cup qualification,played,South Africa,ZAF,Botswana,,TRUE,4,1,win,Durban,South Africa,FALSE,1557,1293,1565,1285,8
+2013-09-10,Friendly,played,South Africa,ZAF,Zimbabwe,,TRUE,1,2,loss,Johannesburg,South Africa,FALSE,1565,1335,1548,1352,-17
+2013-10-11,Friendly,played,South Africa,ZAF,Morocco,MAR,FALSE,1,1,draw,Agadir,Morocco,FALSE,1548,1532,1550,1530,2
+2013-11-15,Friendly,played,South Africa,ZAF,Eswatini,,FALSE,3,0,win,Lobamba,Swaziland,FALSE,1550,1080,1554,1076,4
+2013-11-19,Friendly,played,South Africa,ZAF,Spain,ESP,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1554,2121,1573,2102,19
+2014-03-05,Friendly,played,South Africa,ZAF,Brazil,BRA,TRUE,0,5,loss,Johannesburg,South Africa,FALSE,1573,2132,1570,2135,-3
+2014-05-26,Friendly,played,South Africa,ZAF,Australia,AUS,FALSE,1,1,draw,Sydney,Australia,FALSE,1570,1721,1576,1715,6
+2014-05-30,Friendly,played,South Africa,ZAF,New Zealand,NZL,FALSE,0,0,draw,Auckland,New Zealand,FALSE,1576,1543,1578,1541,2
+2014-09-05,African Cup of Nations qualification,played,South Africa,ZAF,Sudan,,FALSE,3,0,win,Omdurman,Sudan,FALSE,1578,1374,1603,1349,25
+2014-09-10,African Cup of Nations qualification,played,South Africa,ZAF,Nigeria,NGA,TRUE,0,0,draw,Cape Town,South Africa,FALSE,1603,1692,1602,1693,-1
+2014-10-11,African Cup of Nations qualification,played,South Africa,ZAF,Congo,,FALSE,2,0,win,Pointe-Noire,Congo,FALSE,1602,1438,1627,1413,25
+2014-10-15,African Cup of Nations qualification,played,South Africa,ZAF,Congo,,TRUE,0,0,draw,Polokwane,South Africa,FALSE,1627,1413,1613,1427,-14
+2014-11-15,African Cup of Nations qualification,played,South Africa,ZAF,Sudan,,TRUE,2,1,win,Nelspruit,South Africa,FALSE,1613,1360,1618,1355,5
+2014-11-19,African Cup of Nations qualification,played,South Africa,ZAF,Nigeria,NGA,FALSE,2,2,draw,Uyo,Nigeria,FALSE,1618,1685,1627,1676,9
+2014-11-30,Friendly,played,South Africa,ZAF,Ivory Coast,CIV,TRUE,2,0,win,Nelspruit,South Africa,FALSE,,,,,
+2015-01-04,Friendly,played,South Africa,ZAF,Zambia,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1627,1512,1631,1508,4
+2015-01-10,Friendly,played,South Africa,ZAF,Cameroon,CMR,FALSE,1,1,draw,Libreville,Gabon,TRUE,1631,1634,1631,1634,0
+2015-01-14,Friendly,played,South Africa,ZAF,Mali,,FALSE,3,0,win,Libreville,Gabon,TRUE,1631,1544,1644,1531,13
+2015-01-19,African Cup of Nations,played,South Africa,ZAF,Algeria,DZA,FALSE,1,3,loss,Mongomo,Equatorial Guinea,TRUE,1644,1673,1610,1707,-34
+2015-01-23,African Cup of Nations,played,South Africa,ZAF,Senegal,SEN,TRUE,1,1,draw,Mongomo,Equatorial Guinea,TRUE,1610,1686,1615,1681,5
+2015-01-27,African Cup of Nations,played,South Africa,ZAF,Ghana,GHA,TRUE,1,2,loss,Mongomo,Equatorial Guinea,TRUE,1615,1681,1595,1701,-20
+2015-03-25,Friendly,played,South Africa,ZAF,Eswatini,,FALSE,3,1,win,Lobamba,Swaziland,FALSE,1595,1135,1598,1132,3
+2015-03-29,Friendly,played,South Africa,ZAF,Nigeria,NGA,TRUE,1,1,draw,Nelspruit,South Africa,FALSE,1598,1659,1597,1660,-1
+2015-05-14,Friendly,played,South Africa,ZAF,Lesotho,,FALSE,0,0,draw,Maseru,Lesotho,FALSE,1597,1235,1591,1241,-6
+2015-05-16,Friendly,played,South Africa,ZAF,Lesotho,,FALSE,1,1,draw,Maseru,Lesotho,FALSE,1591,1241,1585,1247,-6
+2015-05-24,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,0,0,draw,Moruleng-Saulspoort,South Africa,FALSE,1588,1297,1572,1313,-16
+2015-05-27,COSAFA Cup,played,South Africa,ZAF,Malawi,,TRUE,0,0,draw,Moruleng-Saulspoort,South Africa,FALSE,1572,1350,1557,1365,-15
+2015-06-13,African Cup of Nations qualification,played,South Africa,ZAF,Gambia,,TRUE,0,0,draw,Durban,South Africa,FALSE,1557,1341,1543,1355,-14
+2015-06-16,Friendly,played,South Africa,ZAF,Angola,AGO,TRUE,2,1,win,Cape Town,South Africa,FALSE,1543,1446,1548,1441,5
+2015-09-05,African Cup of Nations qualification,played,South Africa,ZAF,Mauritania,,FALSE,1,3,loss,Nouakchott,Mauritania,FALSE,1548,1204,1500,1252,-48
+2015-09-08,Friendly,played,South Africa,ZAF,Senegal,SEN,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1500,1675,1518,1657,18
+2015-11-13,FIFA World Cup qualification,played,South Africa,ZAF,Angola,AGO,FALSE,3,1,win,Benguela,Angola,FALSE,1539,1458,1571,1426,32
+2015-11-17,FIFA World Cup qualification,played,South Africa,ZAF,Angola,AGO,TRUE,1,0,win,Durban,South Africa,FALSE,1571,1426,1579,1418,8
+2016-03-26,African Cup of Nations qualification,played,South Africa,ZAF,Cameroon,CMR,FALSE,2,2,draw,Limbé,Cameroon,FALSE,1579,1607,1586,1600,7
+2016-03-29,African Cup of Nations qualification,played,South Africa,ZAF,Cameroon,CMR,TRUE,0,0,draw,Durban,South Africa,FALSE,1586,1600,1581,1605,-5
+2016-06-04,African Cup of Nations qualification,played,South Africa,ZAF,Gambia,,FALSE,4,0,win,Bakau,Gambia,FALSE,1581,1301,1601,1281,20
+2016-06-18,COSAFA Cup,played,South Africa,ZAF,Lesotho,,TRUE,1,1,draw,Windhoek,Namibia,TRUE,1601,1211,1585,1227,-16
+2016-06-22,COSAFA Cup,played,South Africa,ZAF,Eswatini,,TRUE,5,1,win,Windhoek,Namibia,TRUE,1585,1329,1599,1315,14
+2016-06-25,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,3,2,win,Windhoek,Namibia,TRUE,1599,1304,1605,1298,6
+2016-09-02,African Cup of Nations qualification,played,South Africa,ZAF,Mauritania,,TRUE,1,1,draw,Nelspruit,South Africa,FALSE,1605,1288,1588,1305,-17
+2016-09-06,Friendly,played,South Africa,ZAF,Egypt,EGY,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1588,1633,1601,1620,13
+2016-10-08,FIFA World Cup qualification,played,South Africa,ZAF,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1601,1463,1599,1465,-2
+2016-10-11,Friendly,played,South Africa,ZAF,Ghana,GHA,TRUE,1,1,draw,Durban,South Africa,FALSE,1599,1606,1596,1609,-3
+2016-11-15,Friendly,played,South Africa,ZAF,Mozambique,,FALSE,1,1,draw,Maputo,Mozambique,FALSE,1616,1314,1611,1319,-5
+2017-03-25,Friendly,played,South Africa,ZAF,Guinea-Bissau,,TRUE,3,1,win,Durban,South Africa,FALSE,1611,1271,1613,1269,2
+2017-03-28,Friendly,played,South Africa,ZAF,Angola,AGO,TRUE,0,0,draw,East London,South Africa,FALSE,1613,1213,1604,1222,-9
+2017-06-10,African Cup of Nations qualification,played,South Africa,ZAF,Nigeria,NGA,FALSE,2,0,win,Uyo,Nigeria,FALSE,1604,1673,1648,1629,44
+2017-06-13,Friendly,played,South Africa,ZAF,Zambia,,TRUE,1,2,loss,Moruleng,South Africa,FALSE,1648,1413,1631,1430,-17
+2017-07-02,COSAFA Cup,played,South Africa,ZAF,Tanzania,,TRUE,0,1,loss,Rustenburg,South Africa,FALSE,1631,1330,1595,1366,-36
+2017-07-04,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,2,0,win,Moruleng,South Africa,FALSE,1595,1236,1599,1232,4
+2017-07-07,COSAFA Cup,played,South Africa,ZAF,Namibia,,TRUE,1,0,win,Moruleng,South Africa,FALSE,1599,1362,1604,1357,5
+2017-09-01,FIFA World Cup qualification,played,South Africa,ZAF,Cape Verde,,FALSE,1,2,loss,Praia,Cape Verde,FALSE,1604,1415,1579,1440,-25
+2017-09-05,FIFA World Cup qualification,played,South Africa,ZAF,Cape Verde,,TRUE,1,2,loss,Durban,South Africa,FALSE,1579,1440,1547,1472,-32
+2017-10-07,FIFA World Cup qualification,played,South Africa,ZAF,Burkina Faso,,TRUE,3,1,win,Johannesburg,South Africa,FALSE,1547,1615,1574,1588,27
+2017-11-10,FIFA World Cup qualification,played,South Africa,ZAF,Senegal,SEN,TRUE,0,2,loss,Polokwane,South Africa,FALSE,1574,1713,1547,1740,-27
+2017-11-14,FIFA World Cup qualification,played,South Africa,ZAF,Senegal,SEN,FALSE,1,2,loss,Dakar,Senegal,FALSE,1547,1740,1541,1746,-6
+2018-03-21,Friendly,played,South Africa,ZAF,Angola,AGO,TRUE,1,1,draw,Ndola,Zambia,TRUE,1541,1239,1530,1250,-11
+2018-03-24,Friendly,played,South Africa,ZAF,Zambia,,FALSE,2,0,win,Ndola,Zambia,FALSE,1530,1492,1556,1466,26
+2018-06-03,COSAFA Cup,played,South Africa,ZAF,Madagascar,,TRUE,0,0,draw,Polokwane,South Africa,FALSE,1556,1361,1542,1375,-14
+2018-06-05,COSAFA Cup,played,South Africa,ZAF,Namibia,,TRUE,4,1,win,Polokwane,South Africa,FALSE,1542,1380,1555,1367,13
+2018-06-08,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,3,0,win,Polokwane,South Africa,FALSE,1555,1350,1565,1340,10
+2018-09-08,African Cup of Nations qualification,played,South Africa,ZAF,Libya,,TRUE,0,0,draw,Durban,South Africa,FALSE,1565,1473,1555,1483,-10
+2018-10-13,African Cup of Nations qualification,played,South Africa,ZAF,Seychelles,,TRUE,6,0,win,Johannesburg,South Africa,FALSE,1555,960,1557,958,2
+2018-10-16,African Cup of Nations qualification,played,South Africa,ZAF,Seychelles,,FALSE,0,0,draw,Victoria,Seychelles,FALSE,1557,958,1539,976,-18
+2018-11-17,African Cup of Nations qualification,played,South Africa,ZAF,Nigeria,NGA,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1539,1725,1544,1720,5
+2018-11-20,Friendly,played,South Africa,ZAF,Paraguay,PRY,TRUE,1,1,draw,Durban,South Africa,FALSE,1544,1727,1548,1723,4
+2019-03-24,African Cup of Nations qualification,played,South Africa,ZAF,Libya,,FALSE,2,1,win,Sfax,Tunisia,TRUE,1548,1474,1564,1458,16
+2019-06-02,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,2,2,draw,Durban,South Africa,FALSE,1564,1292,1548,1308,-16
+2019-06-04,COSAFA Cup,played,South Africa,ZAF,Uganda,,TRUE,1,1,draw,Durban,South Africa,FALSE,1548,1425,1537,1436,-11
+2019-06-07,COSAFA Cup,played,South Africa,ZAF,Malawi,,TRUE,0,0,draw,Durban,South Africa,FALSE,1537,1317,1522,1332,-15
+2019-06-15,Friendly,played,South Africa,ZAF,Ghana,GHA,FALSE,0,0,draw,Dubai,United Arab Emirates,TRUE,1522,1613,1525,1610,3
+2019-06-24,African Cup of Nations,played,South Africa,ZAF,Ivory Coast,CIV,FALSE,0,1,loss,Cairo,Egypt,TRUE,1525,1607,1506,1626,-19
+2019-06-28,African Cup of Nations,played,South Africa,ZAF,Namibia,,TRUE,1,0,win,Cairo,Egypt,TRUE,1506,1362,1521,1347,15
+2019-07-01,African Cup of Nations,played,South Africa,ZAF,Morocco,MAR,TRUE,0,1,loss,Cairo,Egypt,TRUE,1521,1696,1508,1709,-13
+2019-07-06,African Cup of Nations,played,South Africa,ZAF,Egypt,EGY,FALSE,1,0,win,Cairo,Egypt,FALSE,1508,1647,1548,1607,40
+2019-07-10,African Cup of Nations,played,South Africa,ZAF,Nigeria,NGA,FALSE,1,2,loss,Cairo,Egypt,TRUE,1548,1669,1531,1686,-17
+2019-10-13,Friendly,played,South Africa,ZAF,Mali,,TRUE,2,1,win,Port Elizabeth,South Africa,FALSE,1531,1542,1542,1531,11
+2019-11-14,African Cup of Nations qualification,played,South Africa,ZAF,Ghana,GHA,FALSE,0,2,loss,Cape Coast,Ghana,FALSE,1542,1611,1526,1627,-16
+2019-11-17,African Cup of Nations qualification,played,South Africa,ZAF,Sudan,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1526,1277,1531,1272,5
+2020-10-08,Friendly,played,South Africa,ZAF,Namibia,,TRUE,1,1,draw,Rustenburg,South Africa,FALSE,1531,1320,1524,1327,-7
+2020-10-11,Friendly,played,South Africa,ZAF,Zambia,,TRUE,1,2,loss,Rustenburg,South Africa,FALSE,1524,1428,1509,1443,-15
+2020-11-13,African Cup of Nations qualification,played,South Africa,ZAF,São Tomé and Príncipe,,TRUE,2,0,win,Durban,South Africa,FALSE,,,,,
+2020-11-16,African Cup of Nations qualification,played,South Africa,ZAF,São Tomé and Príncipe,,TRUE,4,2,win,Port Elizabeth,South Africa,FALSE,,,,,
+2021-03-25,African Cup of Nations qualification,played,South Africa,ZAF,Ghana,GHA,TRUE,1,1,draw,Johannesburg,South Africa,FALSE,1515,1603,1514,1604,-1
+2021-03-28,African Cup of Nations qualification,played,South Africa,ZAF,Sudan,,FALSE,0,2,loss,Omdurman,Sudan,FALSE,1514,1347,1478,1383,-36
+2021-06-10,Friendly,played,South Africa,ZAF,Uganda,,TRUE,3,2,win,Johannesburg,South Africa,FALSE,1478,1457,1485,1450,7
+2021-07-06,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,1,0,win,Port Elizabeth,South Africa,FALSE,1485,1293,1491,1287,6
+2021-07-08,COSAFA Cup,played,South Africa,ZAF,Eswatini,,TRUE,1,0,win,Port Elizabeth,South Africa,FALSE,1491,1185,1495,1181,4
+2021-07-13,COSAFA Cup,played,South Africa,ZAF,Lesotho,,TRUE,4,0,win,Port Elizabeth,South Africa,FALSE,1495,1208,1502,1201,7
+2021-07-14,COSAFA Cup,played,South Africa,ZAF,Zambia,,TRUE,0,0,draw,Port Elizabeth,South Africa,FALSE,1502,1438,1493,1447,-9
+2021-07-16,COSAFA Cup,played,South Africa,ZAF,Mozambique,,TRUE,3,0,win,Port Elizabeth,South Africa,FALSE,1493,1335,1506,1322,13
+2021-07-18,COSAFA Cup,played,South Africa,ZAF,Senegal,SEN,TRUE,0,0,draw,Port Elizabeth,South Africa,FALSE,1506,1688,1511,1683,5
+2021-09-03,FIFA World Cup qualification,played,South Africa,ZAF,Zimbabwe,,FALSE,0,0,draw,Harare,Zimbabwe,FALSE,1511,1353,1508,1356,-3
+2021-09-06,FIFA World Cup qualification,played,South Africa,ZAF,Ghana,GHA,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1508,1601,1528,1581,20
+2021-10-09,FIFA World Cup qualification,played,South Africa,ZAF,Ethiopia,,FALSE,3,1,win,Bahir Dar,Ethiopia,FALSE,1528,1347,1551,1324,23
+2021-10-12,FIFA World Cup qualification,played,South Africa,ZAF,Ethiopia,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1551,1324,1556,1319,5
+2021-11-11,FIFA World Cup qualification,played,South Africa,ZAF,Zimbabwe,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1556,1321,1561,1316,5
+2021-11-14,FIFA World Cup qualification,played,South Africa,ZAF,Ghana,GHA,FALSE,0,1,loss,Cape Coast,Ghana,FALSE,1561,1587,1548,1600,-13
+2022-03-25,Friendly,played,South Africa,ZAF,Guinea,,TRUE,0,0,draw,Kortrijk,Belgium,TRUE,1548,1374,1543,1379,-5
+2022-03-29,Friendly,played,South Africa,ZAF,France,FRA,FALSE,0,5,loss,Villeneuve D'Ascq,Algeria,TRUE,1543,2116,1542,2117,-1
+2022-06-09,African Cup of Nations qualification,played,South Africa,ZAF,Morocco,MAR,FALSE,1,2,loss,Rabat,Morocco,FALSE,1542,1726,1535,1733,-7
+2022-07-13,COSAFA Cup,played,South Africa,ZAF,Mozambique,,TRUE,0,0,draw,KwaMashu,South Africa,FALSE,1535,1309,1520,1324,-15
+2022-07-15,COSAFA Cup,played,South Africa,ZAF,Madagascar,,TRUE,2,1,win,Sugar Ray Xulu Stadium,South Africa,FALSE,1520,1282,1525,1277,5
+2022-07-17,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,2,1,win,Sugar Ray Xulu Stadium,South Africa,FALSE,1525,1385,1533,1377,8
+2022-09-24,Friendly,played,South Africa,ZAF,Sierra Leone,,TRUE,4,0,win,Johannesburg,South Africa,FALSE,1533,1352,1539,1346,6
+2022-09-27,Friendly,played,South Africa,ZAF,Botswana,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1539,1377,1543,1373,4
+2022-11-17,Friendly,played,South Africa,ZAF,Mozambique,,TRUE,2,1,win,Mbombela,South Africa,FALSE,1543,1322,1546,1319,3
+2022-11-20,Friendly,played,South Africa,ZAF,Angola,AGO,TRUE,1,1,draw,Mbombela,South Africa,FALSE,1546,1400,1540,1406,-6
+2023-03-24,African Cup of Nations qualification,played,South Africa,ZAF,Liberia,,TRUE,2,2,draw,Johannesburg,South Africa,FALSE,1540,1306,1525,1321,-15
+2023-03-28,African Cup of Nations qualification,played,South Africa,ZAF,Liberia,,FALSE,2,1,win,Monrovia,Liberia,FALSE,1525,1321,1539,1307,14
+2023-06-17,African Cup of Nations qualification,played,South Africa,ZAF,Morocco,MAR,TRUE,2,1,win,Johannesburg,South Africa,FALSE,1539,1870,1571,1838,32
+2023-07-05,COSAFA Cup,played,South Africa,ZAF,Namibia,,TRUE,1,1,draw,Durban,South Africa,FALSE,1571,1385,1557,1399,-14
+2023-07-08,COSAFA Cup,played,South Africa,ZAF,Botswana,,TRUE,2,1,win,Durban,South Africa,FALSE,1557,1357,1563,1351,6
+2023-07-11,COSAFA Cup,played,South Africa,ZAF,Eswatini,,TRUE,2,1,win,KwaMashu,South Africa,FALSE,1563,1276,1567,1272,4
+2023-07-14,COSAFA Cup,played,South Africa,ZAF,Zambia,,TRUE,1,2,loss,Durban,South Africa,FALSE,1567,1485,1537,1515,-30
+2023-07-16,COSAFA Cup,played,South Africa,ZAF,Malawi,,TRUE,0,0,draw,Durban,South Africa,FALSE,1537,1317,1522,1332,-15
+2023-09-09,Friendly,played,South Africa,ZAF,Namibia,,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1522,1371,1516,1377,-6
+2023-09-12,Friendly,played,South Africa,ZAF,DR Congo,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1516,1524,1523,1517,7
+2023-10-13,Friendly,played,South Africa,ZAF,Eswatini,,TRUE,0,0,draw,Johannesburg,South Africa,FALSE,1523,1286,1516,1293,-7
+2023-10-17,Friendly,played,South Africa,ZAF,Ivory Coast,CIV,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1516,1634,1522,1628,6
+2023-11-18,FIFA World Cup qualification,played,South Africa,ZAF,Benin,,TRUE,2,1,win,Durban,South Africa,FALSE,1522,1354,1529,1347,7
+2023-11-21,FIFA World Cup qualification,played,South Africa,ZAF,Rwanda,,FALSE,0,2,loss,Butare,Rwanda,FALSE,1529,1261,1486,1304,-43
+2024-01-10,Friendly,played,South Africa,ZAF,Lesotho,,TRUE,0,0,draw,Pretoria,South Africa,FALSE,1486,1231,1478,1239,-8
+2024-01-16,African Cup of Nations,played,South Africa,ZAF,Mali,,FALSE,0,2,loss,Korhogo,Ivory Coast,TRUE,1478,1620,1455,1643,-23
+2024-01-21,African Cup of Nations,played,South Africa,ZAF,Namibia,,TRUE,4,0,win,Korhogo,Ivory Coast,TRUE,1455,1428,1498,1385,43
+2024-01-24,African Cup of Nations,played,South Africa,ZAF,Tunisia,TUN,TRUE,0,0,draw,Korhogo,Ivory Coast,TRUE,1498,1686,1510,1674,12
+2024-01-30,African Cup of Nations,played,South Africa,ZAF,Morocco,MAR,FALSE,2,0,win,San-Pédro,Ivory Coast,TRUE,1510,1838,1575,1773,65
+2024-02-03,African Cup of Nations,played,South Africa,ZAF,Cape Verde,,FALSE,0,0,draw,Yamoussoukro,Ivory Coast,TRUE,1575,1558,1574,1559,-1
+2024-02-07,African Cup of Nations,played,South Africa,ZAF,Nigeria,NGA,FALSE,1,1,draw,Bouaké,Ivory Coast,TRUE,1574,1662,1580,1656,6
+2024-02-10,African Cup of Nations,played,South Africa,ZAF,DR Congo,,TRUE,0,0,draw,Abidjan,Ivory Coast,TRUE,1580,1527,1576,1531,-4
+2024-03-21,FIFA Series,played,South Africa,ZAF,Andorra,,TRUE,1,1,draw,Annaba,Algeria,TRUE,1576,1102,1563,1115,-13
+2024-03-26,FIFA Series,played,South Africa,ZAF,Algeria,DZA,FALSE,3,3,draw,Algiers,Algeria,FALSE,1563,1671,1571,1663,8
+2024-06-07,FIFA World Cup qualification,played,South Africa,ZAF,Nigeria,NGA,FALSE,1,1,draw,Uyo,Nigeria,FALSE,1571,1626,1579,1618,8
+2024-06-11,FIFA World Cup qualification,played,South Africa,ZAF,Zimbabwe,,TRUE,3,1,win,Bloemfontein,South Africa,FALSE,1579,1284,1585,1278,6
+2024-09-06,African Cup of Nations qualification,played,South Africa,ZAF,Uganda,,TRUE,2,2,draw,Johannesburg,South Africa,FALSE,1559,1361,1545,1375,-14
+2024-09-10,African Cup of Nations qualification,played,South Africa,ZAF,South Sudan,,FALSE,3,2,win,Juba,South Sudan,FALSE,1545,1119,1550,1114,5
+2024-10-11,African Cup of Nations qualification,played,South Africa,ZAF,Congo,,TRUE,5,0,win,Gqeberha,South Africa,FALSE,1550,1262,1558,1254,8
+2024-10-15,African Cup of Nations qualification,played,South Africa,ZAF,Congo,,FALSE,1,1,draw,Brazzaville,Congo,FALSE,1558,1254,1547,1265,-11
+2024-11-15,African Cup of Nations qualification,played,South Africa,ZAF,Uganda,,FALSE,2,0,win,Kampala,Uganda,FALSE,1547,1403,1573,1377,26
+2024-11-19,African Cup of Nations qualification,played,South Africa,ZAF,South Sudan,,TRUE,3,0,win,Cape Town,South Africa,FALSE,1573,1124,1576,1121,3
+2025-03-21,FIFA World Cup qualification,played,South Africa,ZAF,Lesotho,,TRUE,0,3,loss,Polokwane,South Africa,FALSE,,,,,
+2025-03-25,FIFA World Cup qualification,played,South Africa,ZAF,Benin,,FALSE,2,0,win,Abidjan,Ivory Coast,TRUE,1580,1426,1598,1408,18
+2025-06-06,Friendly,played,South Africa,ZAF,Tanzania,,TRUE,0,0,draw,Polokwane,South Africa,FALSE,1566,1404,1560,1410,-6
+2025-06-10,Friendly,played,South Africa,ZAF,Mozambique,,TRUE,2,0,win,Polokwane,South Africa,FALSE,1569,1478,1576,1471,7
+2025-09-05,FIFA World Cup qualification,played,South Africa,ZAF,Lesotho,,TRUE,3,0,win,Bloemfontein,South Africa,FALSE,1523,1222,1529,1216,6
+2025-09-09,FIFA World Cup qualification,played,South Africa,ZAF,Nigeria,NGA,TRUE,1,1,draw,Bloemfontein,South Africa,FALSE,1529,1581,1526,1584,-3
+2025-10-10,FIFA World Cup qualification,played,South Africa,ZAF,Zimbabwe,,TRUE,0,0,draw,Durban,South Africa,FALSE,1526,1355,1513,1368,-13
+2025-10-14,FIFA World Cup qualification,played,South Africa,ZAF,Rwanda,,TRUE,3,0,win,Mbombela,South Africa,FALSE,1513,1319,1524,1308,11
+2025-11-15,Friendly,played,South Africa,ZAF,Zambia,,TRUE,3,1,win,Gqeberha,South Africa,FALSE,1524,1373,1530,1367,6
+2025-12-22,African Cup of Nations,played,South Africa,ZAF,Angola,AGO,TRUE,2,1,win,Marrakesh,Morocco,TRUE,1530,1577,1558,1549,28
+2025-12-26,African Cup of Nations,played,South Africa,ZAF,Egypt,EGY,FALSE,0,1,loss,Agadir,Morocco,TRUE,1558,1608,1537,1629,-21
+2025-12-29,African Cup of Nations,played,South Africa,ZAF,Zimbabwe,,FALSE,3,2,win,Marrakesh,Morocco,TRUE,1537,1355,1550,1342,13
+2026-01-04,African Cup of Nations,played,South Africa,ZAF,Cameroon,CMR,TRUE,1,2,loss,Rabat,Morocco,TRUE,1550,1594,1528,1616,-22
+2026-03-27,Friendly,played,South Africa,ZAF,Panama,PAN,TRUE,1,1,draw,Durban,South Africa,FALSE,1528,1733,1531,1730,3
+2026-03-31,Friendly,played,South Africa,ZAF,Panama,PAN,TRUE,1,2,loss,Cape Town,South Africa,FALSE,1531,1730,1524,1737,-7

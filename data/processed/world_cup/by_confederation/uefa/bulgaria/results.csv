@@ -1,0 +1,735 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1924-05-21,Friendly,played,Bulgaria,BGR,Austria,AUT,FALSE,0,6,loss,Vienna,Austria,FALSE,1400,1833,1398,1835,-2
+1924-05-28,Olympic Games,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,0,1,loss,Colombes,France,TRUE,,,,,
+1925-04-10,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,1,2,loss,Istanbul,Turkey,FALSE,1383,1515,1379,1519,-4
+1925-05-31,Friendly,played,Bulgaria,BGR,Romania,ROU,TRUE,2,4,loss,Sofia,Bulgaria,FALSE,1379,1540,1367,1552,-12
+1926-04-25,Friendly,played,Bulgaria,BGR,Romania,ROU,FALSE,1,6,loss,Bucharest,Romania,FALSE,1367,1552,1361,1558,-6
+1926-05-30,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,1,3,loss,Zagreb,Yugoslavia,FALSE,1361,1550,1356,1555,-5
+1927-05-15,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,0,2,loss,Sofia,Bulgaria,FALSE,1356,1554,1345,1565,-11
+1927-07-17,Friendly,played,Bulgaria,BGR,Turkey,TUR,TRUE,3,3,draw,Sofia,Bulgaria,FALSE,1345,1464,1346,1463,1
+1927-10-14,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,1,3,loss,Istanbul,Turkey,FALSE,1346,1463,1339,1470,-7
+1929-04-21,Friendly,played,Bulgaria,BGR,Romania,ROU,FALSE,0,3,loss,Bucharest,Romania,FALSE,1339,1559,1334,1564,-5
+1929-06-30,Friendly,played,Bulgaria,BGR,Greece,GRC,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1334,1363,1332,1365,-2
+1929-09-15,Friendly,played,Bulgaria,BGR,Romania,ROU,TRUE,2,3,loss,Sofia,Bulgaria,FALSE,1332,1546,1325,1553,-7
+1930-04-13,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,1,6,loss,Belgrade,Yugoslavia,FALSE,1325,1580,1320,1585,-5
+1930-06-15,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1320,1595,1325,1590,5
+1930-10-12,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,TRUE,5,3,win,Sofia,Bulgaria,FALSE,1325,1596,1369,1552,44
+1930-11-16,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,0,3,loss,Sofia,Bulgaria,FALSE,1369,1638,1350,1657,-19
+1930-12-07,Balkan Cup,played,Bulgaria,BGR,Greece,GRC,FALSE,1,6,loss,Athens,Greece,FALSE,1350,1377,1324,1403,-26
+1931-04-19,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,0,1,loss,Belgrade,Yugoslavia,FALSE,1324,1665,1321,1668,-3
+1931-05-10,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,FALSE,2,5,loss,Bucharest,Romania,FALSE,1321,1552,1312,1561,-9
+1931-09-27,Balkan Cup,played,Bulgaria,BGR,Turkey,TUR,TRUE,5,1,win,Sofia,Bulgaria,FALSE,1312,1422,1351,1383,39
+1931-10-04,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,3,2,win,Sofia,Bulgaria,FALSE,1351,1599,1379,1571,28
+1931-10-25,Balkan Cup,played,Bulgaria,BGR,Greece,GRC,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1379,1395,1394,1380,15
+1932-03-27,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,2,1,win,Athens,Greece,FALSE,1394,1362,1406,1350,12
+1932-03-30,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,2,2,draw,Athens,Greece,FALSE,1406,1350,1407,1349,1
+1932-06-09,Friendly,played,Bulgaria,BGR,France,FRA,TRUE,3,5,loss,Sofia,Bulgaria,FALSE,1407,1571,1395,1583,-12
+1932-06-26,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,TRUE,2,0,win,Belgrade,Yugoslavia,TRUE,1395,1652,1444,1603,49
+1932-06-30,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,3,2,win,Belgrade,Yugoslavia,FALSE,1444,1558,1475,1527,31
+1932-07-02,Balkan Cup,played,Bulgaria,BGR,Greece,GRC,TRUE,2,0,win,Belgrade,Yugoslavia,TRUE,1475,1324,1493,1306,18
+1932-11-04,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,3,2,win,Istanbul,Turkey,FALSE,1493,1392,1503,1382,10
+1933-05-21,Friendly,played,Bulgaria,BGR,Spain,ESP,FALSE,0,13,loss,Madrid,Spain,FALSE,1503,1907,1500,1910,-3
+1933-06-04,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,FALSE,0,7,loss,Bucharest,Romania,FALSE,1500,1565,1475,1590,-25
+1933-06-07,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,0,4,loss,Bucharest,Romania,TRUE,1475,1563,1447,1591,-28
+1933-06-10,Balkan Cup,played,Bulgaria,BGR,Greece,GRC,TRUE,2,0,win,Bucharest,Romania,TRUE,1447,1290,1464,1273,17
+1934-03-18,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1451,1570,1442,1579,-9
+1934-03-25,FIFA World Cup qualification,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,4,loss,Sofia,Bulgaria,FALSE,1442,1795,1429,1808,-13
+1934-04-01,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,3,2,win,Belgrade,Yugoslavia,FALSE,1429,1579,1445,1563,16
+1934-04-25,FIFA World Cup qualification,played,Bulgaria,BGR,Austria,AUT,FALSE,1,6,loss,Vienna,Austria,FALSE,1445,2049,1444,2050,-1
+1934-04-29,FIFA World Cup qualification,played,Bulgaria,BGR,Hungary,HUN,FALSE,1,4,loss,Budapest,Hungary,FALSE,1444,1812,1440,1816,-4
+1934-12-25,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,3,4,loss,Athens,Greece,TRUE,1440,1557,1426,1571,-14
+1934-12-30,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,TRUE,2,3,loss,Athens,Greece,TRUE,1426,1617,1416,1627,-10
+1935-01-01,Balkan Cup,played,Bulgaria,BGR,Greece,GRC,FALSE,2,1,win,Athens,Greece,FALSE,1416,1327,1437,1306,21
+1935-06-16,Balkan Cup,played,Bulgaria,BGR,Greece,GRC,TRUE,5,2,win,Sofia,Bulgaria,FALSE,1437,1306,1452,1291,15
+1935-06-19,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,TRUE,4,0,win,Sofia,Bulgaria,FALSE,1452,1557,1490,1519,38
+1935-06-24,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,3,3,draw,Sofia,Bulgaria,FALSE,1490,1650,1493,1647,3
+1935-10-20,Friendly,played,Bulgaria,BGR,Germany,DEU,FALSE,2,4,loss,Leipzig,Germany,FALSE,1493,1894,1491,1896,-2
+1936-05-21,Balkan Cup,played,Bulgaria,BGR,Greece,GRC,TRUE,5,4,win,Bucharest,Romania,TRUE,1491,1285,1500,1276,9
+1936-05-24,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,FALSE,1,4,loss,Bucharest,Romania,FALSE,1500,1545,1479,1566,-21
+1937-09-12,Friendly,played,Bulgaria,BGR,Poland,POL,TRUE,3,3,draw,Sofia,Bulgaria,FALSE,1501,1571,1500,1572,-1
+1937-11-07,FIFA World Cup qualification,played,Bulgaria,BGR,Czechoslovakia,CSK,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1500,1885,1514,1871,14
+1938-03-24,Friendly,played,Bulgaria,BGR,France,FRA,FALSE,1,6,loss,Paris,France,FALSE,1514,1628,1505,1637,-9
+1938-04-24,FIFA World Cup qualification,played,Bulgaria,BGR,Czechoslovakia,CSK,FALSE,0,6,loss,Prague,Czechoslovakia,FALSE,1505,1803,1497,1811,-8
+1939-05-24,Friendly,played,Bulgaria,BGR,Latvia,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1497,1420,1506,1411,9
+1939-10-22,Friendly,played,Bulgaria,BGR,Germany,DEU,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1506,1792,1501,1797,-5
+1940-06-06,Friendly,played,Bulgaria,BGR,Slovakia,SVK,TRUE,1,4,loss,Sofia,Bulgaria,FALSE,1501,1708,1489,1720,-12
+1940-10-20,Friendly,played,Bulgaria,BGR,Germany,DEU,FALSE,3,7,loss,Munich,Germany,FALSE,1489,1829,1486,1832,-3
+1942-07-19,Friendly,played,Bulgaria,BGR,Germany,DEU,TRUE,0,3,loss,Sofia,Bulgaria,FALSE,1483,1873,1477,1879,-6
+1943-06-06,Friendly,played,Bulgaria,BGR,Hungary,HUN,TRUE,2,4,loss,Sofia,Bulgaria,FALSE,1477,1871,1472,1876,-5
+1946-10-08,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,TRUE,2,2,draw,Tirana,Albania,TRUE,1472,1550,1476,1546,4
+1946-10-09,Balkan Cup,played,Bulgaria,BGR,Albania,,FALSE,1,3,loss,Tirana,Albania,FALSE,1476,1596,1463,1609,-13
+1947-06-15,Balkan Cup,played,Bulgaria,BGR,Albania,,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1477,1568,1506,1539,29
+1947-07-06,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,TRUE,2,3,loss,Sofia,Bulgaria,FALSE,1506,1581,1485,1602,-21
+1947-08-17,Balkan Cup,played,Bulgaria,BGR,Hungary,HUN,FALSE,0,9,loss,Budapest,Hungary,FALSE,1485,1914,1480,1919,-5
+1947-10-12,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,1,2,loss,Zagreb,Yugoslavia,FALSE,1480,1712,1475,1717,-5
+1948-04-04,Balkan Cup,played,Bulgaria,BGR,Poland,POL,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1475,1556,1474,1557,-1
+1948-06-20,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,FALSE,2,3,loss,Bucharest,Romania,FALSE,1474,1546,1463,1557,-11
+1948-07-04,Balkan Cup,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,1,3,loss,Sofia,Bulgaria,FALSE,1463,1712,1445,1730,-18
+1948-08-29,Balkan Cup,played,Bulgaria,BGR,Czechoslovakia,CSK,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1445,1729,1475,1699,30
+1948-11-07,Balkan Cup,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1475,1957,1511,1921,36
+1949-09-04,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,FALSE,3,1,win,Prague,Czechoslovakia,FALSE,1511,1776,1538,1749,27
+1949-10-02,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,2,3,loss,Warsaw,Poland,FALSE,1538,1541,1531,1548,-7
+1949-10-30,Friendly,played,Bulgaria,BGR,Hungary,HUN,FALSE,0,5,loss,Budapest,Hungary,FALSE,1531,1919,1529,1921,-2
+1949-11-17,Friendly,played,Bulgaria,BGR,Albania,,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1529,1560,1527,1562,-2
+1950-06-04,Friendly,played,Bulgaria,BGR,Albania,,FALSE,1,2,loss,Tirana,Albania,FALSE,1527,1537,1520,1544,-7
+1950-08-27,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1520,1722,1513,1729,-7
+1950-10-30,Friendly,played,Bulgaria,BGR,Poland,POL,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1513,1533,1501,1545,-12
+1950-11-12,Friendly,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1501,1944,1509,1936,8
+1952-05-18,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,1,0,win,Warsaw,Poland,FALSE,1509,1583,1524,1568,15
+1953-06-14,Friendly,played,Bulgaria,BGR,German DR,DDR,FALSE,0,0,draw,Dresden,German DR,FALSE,1498,1447,1499,1446,1
+1953-06-28,FIFA World Cup qualification,played,Bulgaria,BGR,Romania,ROU,FALSE,1,3,loss,Bucharest,Romania,FALSE,1499,1619,1486,1632,-13
+1953-09-06,FIFA World Cup qualification,played,Bulgaria,BGR,Czechoslovakia,CSK,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1486,1739,1474,1751,-12
+1953-09-13,Friendly,played,Bulgaria,BGR,Poland,POL,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1474,1548,1473,1549,-1
+1953-10-04,Friendly,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1473,2112,1482,2103,9
+1953-10-11,FIFA World Cup qualification,played,Bulgaria,BGR,Romania,ROU,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1482,1632,1465,1649,-17
+1953-11-08,FIFA World Cup qualification,played,Bulgaria,BGR,Czechoslovakia,CSK,FALSE,0,0,draw,Bratislava,Czechoslovakia,FALSE,1465,1783,1482,1766,17
+1954-08-08,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,2,2,draw,Warsaw,Poland,FALSE,1482,1528,1486,1524,4
+1954-10-24,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,3,1,win,Sofia,Bulgaria,FALSE,1486,1428,1495,1419,9
+1955-01-07,Friendly,played,Bulgaria,BGR,Egypt,EGY,FALSE,0,1,loss,Cairo,Egypt,FALSE,1495,1574,1490,1579,-5
+1955-01-23,Friendly,played,Bulgaria,BGR,Lebanon,,FALSE,3,2,win,Beirut,Lebanon,FALSE,1490,1289,1497,1282,7
+1955-05-22,Friendly,played,Bulgaria,BGR,Egypt,EGY,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1497,1547,1506,1538,9
+1955-06-26,Friendly,played,Bulgaria,BGR,Poland,POL,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1506,1539,1504,1541,-2
+1955-10-09,Friendly,played,Bulgaria,BGR,Romania,ROU,FALSE,1,1,draw,Bucharest,Romania,FALSE,1504,1632,1510,1626,6
+1955-11-13,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1510,1743,1534,1719,24
+1955-11-20,Friendly,played,Bulgaria,BGR,German DR,DDR,FALSE,0,1,loss,Berlin,German DR,FALSE,1534,1436,1524,1446,-10
+1956-08-26,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,2,1,win,Wrocław,Poland,FALSE,1524,1534,1537,1521,13
+1956-09-10,Friendly,played,Bulgaria,BGR,Romania,ROU,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1537,1643,1552,1628,15
+1956-10-14,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,3,1,win,Sofia,Bulgaria,FALSE,1552,1481,1560,1473,8
+1956-12-13,Friendly,played,Bulgaria,BGR,Singapore,,FALSE,10,2,win,Kallang,Singapore,FALSE,1606,1280,1616,1270,10
+1957-05-22,FIFA World Cup qualification,played,Bulgaria,BGR,Norway,NOR,FALSE,2,1,win,Oslo,Norway,FALSE,1616,1618,1642,1592,26
+1957-05-26,Friendly,played,Bulgaria,BGR,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1642,1609,1644,1607,2
+1957-06-23,FIFA World Cup qualification,played,Bulgaria,BGR,Hungary,HUN,FALSE,1,4,loss,Budapest,Hungary,FALSE,1644,2095,1641,2098,-3
+1957-07-21,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,0,4,loss,Sofia,Bulgaria,FALSE,1641,1874,1629,1886,-12
+1957-09-15,FIFA World Cup qualification,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1629,2098,1625,2102,-4
+1957-09-29,Friendly,played,Bulgaria,BGR,Poland,POL,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1625,1561,1621,1565,-4
+1957-11-03,FIFA World Cup qualification,played,Bulgaria,BGR,Norway,NOR,TRUE,7,0,win,Sofia,Bulgaria,FALSE,1621,1641,1656,1606,35
+1957-12-25,Friendly,played,Bulgaria,BGR,France,FRA,FALSE,2,2,draw,Colombes,France,FALSE,1656,1856,1663,1849,7
+1958-05-14,Friendly,played,Bulgaria,BGR,Brazil,BRA,FALSE,0,4,loss,Rio de Janeiro,Brazil,FALSE,1694,1969,1690,1973,-4
+1958-05-18,Friendly,played,Bulgaria,BGR,Brazil,BRA,FALSE,1,3,loss,São Paulo,Brazil,FALSE,1690,1973,1687,1976,-3
+1958-10-05,Friendly,played,Bulgaria,BGR,German DR,DDR,FALSE,1,1,draw,Berlin,German DR,FALSE,1687,1491,1684,1494,-3
+1958-10-12,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,FALSE,1,0,win,Ostrava,Czechoslovakia,FALSE,1684,1892,1701,1875,17
+1958-12-07,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,0,0,draw,Ankara,Turkey,FALSE,1701,1691,1704,1688,3
+1958-12-21,Friendly,played,Bulgaria,BGR,Germany,DEU,FALSE,0,3,loss,Augsburg,Germany,FALSE,,,,,
+1959-05-13,Friendly,played,Bulgaria,BGR,Netherlands,NLD,TRUE,3,2,win,Sofia,Bulgaria,FALSE,1697,1722,1705,1714,8
+1959-05-31,UEFA Euro qualification,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,0,2,loss,Belgrade,Yugoslavia,FALSE,1705,1911,1696,1920,-9
+1959-10-11,Friendly,played,Bulgaria,BGR,France,FRA,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1696,1930,1710,1916,14
+1959-10-25,UEFA Euro qualification,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1710,1888,1714,1884,4
+1959-12-06,Friendly,played,Bulgaria,BGR,Denmark,DNK,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1697,1640,1703,1634,6
+1960-04-03,Friendly,played,Bulgaria,BGR,Netherlands,NLD,FALSE,2,4,loss,Amsterdam,Netherlands,FALSE,1703,1721,1693,1731,-10
+1960-05-22,Friendly,played,Bulgaria,BGR,Belgium,BEL,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1707,1661,1718,1650,11
+1960-06-26,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,0,4,loss,Chorzów,Poland,FALSE,1718,1606,1699,1625,-19
+1960-07-10,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1699,1485,1703,1481,4
+1960-11-23,Friendly,played,Bulgaria,BGR,Germany,DEU,TRUE,2,1,win,Sofia,Bulgaria,FALSE,,,,,
+1960-11-27,Friendly,played,Bulgaria,BGR,Turkey,TUR,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1774,1732,1780,1726,6
+1960-12-11,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,FALSE,0,3,loss,Colombes,France,FALSE,1780,1838,1760,1858,-20
+1961-06-16,FIFA World Cup qualification,played,Bulgaria,BGR,Finland,,FALSE,2,0,win,Helsinki,Finland,FALSE,1760,1251,1765,1246,5
+1961-10-29,FIFA World Cup qualification,played,Bulgaria,BGR,Finland,,TRUE,3,1,win,Sofia,Bulgaria,FALSE,1765,1278,1767,1276,2
+1961-11-12,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1767,1819,1784,1802,17
+1961-12-16,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,TRUE,1,0,win,Milan,Italy,TRUE,1784,1804,1805,1783,21
+1961-12-24,Friendly,played,Bulgaria,BGR,Belgium,BEL,FALSE,0,4,loss,Brussels,Belgium,FALSE,1805,1628,1782,1651,-23
+1962-05-06,Friendly,played,Bulgaria,BGR,Austria,AUT,FALSE,0,2,loss,Vienna,Austria,FALSE,1782,1896,1775,1903,-7
+1962-05-30,FIFA World Cup,played,Bulgaria,BGR,Argentina,ARG,FALSE,0,1,loss,Rancagua,Chile,TRUE,1775,1980,1761,1994,-14
+1962-06-03,FIFA World Cup,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,6,loss,Rancagua,Chile,TRUE,1761,1969,1733,1997,-28
+1962-06-07,FIFA World Cup,played,Bulgaria,BGR,England,ENG,TRUE,0,0,draw,Rancagua,Chile,TRUE,1733,1952,1750,1935,17
+1962-09-30,Friendly,played,Bulgaria,BGR,Poland,POL,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1750,1723,1756,1717,6
+1962-11-07,UEFA Euro qualification,played,Bulgaria,BGR,Portugal,PRT,TRUE,3,1,win,Sofia,Bulgaria,FALSE,1756,1638,1769,1625,13
+1962-11-25,Friendly,played,Bulgaria,BGR,Austria,AUT,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1769,1850,1768,1851,-1
+1962-12-16,UEFA Euro qualification,played,Bulgaria,BGR,Portugal,PRT,FALSE,1,3,loss,Oeiras,Portugal,FALSE,1768,1625,1734,1659,-34
+1963-01-06,Friendly,played,Bulgaria,BGR,Algeria,DZA,FALSE,1,2,loss,Algiers,Algeria,FALSE,1734,1761,1728,1767,-6
+1963-01-23,UEFA Euro qualification,played,Bulgaria,BGR,Portugal,PRT,TRUE,1,0,win,Rome,Italy,TRUE,1728,1659,1744,1643,16
+1963-04-28,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1744,1938,1757,1925,13
+1963-09-04,Friendly,played,Bulgaria,BGR,German DR,DDR,FALSE,1,1,draw,Magdeburg,German DR,FALSE,1778,1613,1776,1615,-2
+1963-09-18,Friendly,played,Bulgaria,BGR,Sudan,,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1776,1598,1769,1605,-7
+1963-09-29,UEFA Euro qualification,played,Bulgaria,BGR,France,FRA,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1769,1795,1785,1779,16
+1963-10-26,UEFA Euro qualification,played,Bulgaria,BGR,France,FRA,FALSE,1,3,loss,Paris,France,FALSE,1785,1779,1763,1801,-22
+1964-03-18,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1763,1931,1755,1939,-8
+1964-04-01,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,0,1,loss,Niš,Yugoslavia,FALSE,1755,1939,1752,1942,-3
+1964-11-29,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1719,1984,1723,1980,4
+1964-12-20,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,0,0,draw,Istanbul,Turkey,FALSE,1723,1691,1725,1689,2
+1965-05-09,Friendly,played,Bulgaria,BGR,Turkey,TUR,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1733,1632,1741,1624,8
+1965-05-16,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,1,1,draw,Kraków,Poland,FALSE,1741,1699,1743,1697,2
+1965-06-13,FIFA World Cup qualification,played,Bulgaria,BGR,Israel,ISR,TRUE,4,0,win,Sofia,Bulgaria,FALSE,1743,1585,1757,1571,14
+1965-09-04,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,3,2,win,Varna,Bulgaria,FALSE,1757,1694,1763,1688,6
+1965-09-26,FIFA World Cup qualification,played,Bulgaria,BGR,Belgium,BEL,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1763,1738,1786,1715,23
+1965-10-27,FIFA World Cup qualification,played,Bulgaria,BGR,Belgium,BEL,FALSE,0,5,loss,Brussels,Belgium,FALSE,1786,1715,1749,1752,-37
+1965-11-21,FIFA World Cup qualification,played,Bulgaria,BGR,Israel,ISR,FALSE,2,1,win,Ramat Gan,Israel,FALSE,1749,1540,1763,1526,14
+1965-12-29,FIFA World Cup qualification,played,Bulgaria,BGR,Belgium,BEL,FALSE,2,1,win,Florence,Italy,TRUE,1768,1783,1789,1762,21
+1966-02-25,Friendly,played,Bulgaria,BGR,Egypt,EGY,FALSE,2,2,draw,Cairo,Egypt,FALSE,1789,1811,1792,1808,3
+1966-06-01,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,2,0,win,Belgrade,Yugoslavia,FALSE,1792,1817,1812,1797,20
+1966-06-14,Friendly,played,Bulgaria,BGR,Italy,ITA,FALSE,1,6,loss,Bologna,Italy,FALSE,1812,1944,1804,1952,-8
+1966-07-12,FIFA World Cup,played,Bulgaria,BGR,Brazil,BRA,FALSE,0,2,loss,Liverpool,England,TRUE,1804,2010,1783,2031,-21
+1966-07-16,FIFA World Cup,played,Bulgaria,BGR,Portugal,PRT,TRUE,0,3,loss,Manchester,England,TRUE,1783,1893,1747,1929,-36
+1966-07-20,FIFA World Cup,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,3,loss,Manchester,England,TRUE,1747,1956,1726,1977,-21
+1966-11-06,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,6,1,win,Sofia,Bulgaria,FALSE,1726,1805,1745,1786,19
+1966-11-13,UEFA Euro qualification,played,Bulgaria,BGR,Norway,NOR,TRUE,4,2,win,Sofia,Bulgaria,FALSE,1745,1550,1754,1541,9
+1967-03-22,Friendly,played,Bulgaria,BGR,Germany,DEU,FALSE,0,1,loss,Hanover,Germany,FALSE,,,,,
+1967-06-11,UEFA Euro qualification,played,Bulgaria,BGR,Sweden,SWE,FALSE,2,0,win,Solna,Sweden,FALSE,1752,1808,1795,1765,43
+1967-06-29,UEFA Euro qualification,played,Bulgaria,BGR,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1795,1559,1788,1566,-7
+1967-10-08,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1788,1995,1781,2002,-7
+1967-11-12,UEFA Euro qualification,played,Bulgaria,BGR,Sweden,SWE,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1781,1739,1802,1718,21
+1967-11-26,UEFA Euro qualification,played,Bulgaria,BGR,Portugal,PRT,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1802,1989,1827,1964,25
+1967-12-17,UEFA Euro qualification,played,Bulgaria,BGR,Portugal,PRT,FALSE,0,0,draw,Oeiras,Portugal,FALSE,1827,1964,1839,1952,12
+1968-04-06,UEFA Euro qualification,played,Bulgaria,BGR,Italy,ITA,TRUE,3,2,win,Sofia,Bulgaria,FALSE,1839,1967,1861,1945,22
+1968-04-20,UEFA Euro qualification,played,Bulgaria,BGR,Italy,ITA,FALSE,0,2,loss,Naples,Italy,FALSE,1887,1945,1870,1962,-17
+1968-10-09,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,2,0,win,Istanbul,Turkey,FALSE,1872,1657,1882,1647,10
+1968-10-27,FIFA World Cup qualification,played,Bulgaria,BGR,Netherlands,NLD,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1877,1697,1887,1687,10
+1968-12-11,Friendly,played,Bulgaria,BGR,England,ENG,FALSE,1,1,draw,London,England,FALSE,1887,2065,1894,2058,7
+1969-04-23,FIFA World Cup qualification,played,Bulgaria,BGR,Luxembourg,,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1894,1322,1895,1321,1
+1969-05-24,Friendly,played,Bulgaria,BGR,Italy,ITA,FALSE,0,0,draw,Turin,Italy,FALSE,1895,1984,1900,1979,5
+1969-06-15,FIFA World Cup qualification,played,Bulgaria,BGR,Poland,POL,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1900,1716,1911,1705,11
+1969-09-24,Friendly,played,Bulgaria,BGR,Germany,DEU,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,,,,,
+1969-10-22,FIFA World Cup qualification,played,Bulgaria,BGR,Netherlands,NLD,FALSE,1,1,draw,Rotterdam,Netherlands,FALSE,1901,1713,1896,1718,-5
+1969-11-09,FIFA World Cup qualification,played,Bulgaria,BGR,Poland,POL,FALSE,0,3,loss,Warsaw,Poland,FALSE,1896,1753,1857,1792,-39
+1969-12-07,FIFA World Cup qualification,played,Bulgaria,BGR,Luxembourg,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1857,1300,1861,1296,4
+1969-12-28,Friendly,played,Bulgaria,BGR,Morocco,MAR,FALSE,0,3,loss,Casablanca,Morocco,FALSE,1861,1647,1838,1670,-23
+1970-02-15,Friendly,played,Bulgaria,BGR,Mexico,MEX,FALSE,1,1,draw,Mexico City,Mexico,FALSE,1838,1673,1836,1675,-2
+1970-02-18,Friendly,played,Bulgaria,BGR,Mexico,MEX,FALSE,0,2,loss,León,Mexico,FALSE,1836,1675,1818,1693,-18
+1970-02-21,Friendly,played,Bulgaria,BGR,Peru,PER,FALSE,3,1,win,Lima,Peru,FALSE,1818,1701,1832,1687,14
+1970-02-24,Friendly,played,Bulgaria,BGR,Peru,PER,FALSE,3,5,loss,Lima,Peru,FALSE,1832,1687,1815,1704,-17
+1970-04-08,Friendly,played,Bulgaria,BGR,France,FRA,FALSE,1,1,draw,Rouen,France,FALSE,1815,1748,1816,1747,1
+1970-05-05,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,3,3,draw,Sofia,Bulgaria,FALSE,1823,1937,1823,1937,0
+1970-05-06,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1823,1937,1823,1937,0
+1970-06-02,FIFA World Cup,played,Bulgaria,BGR,Peru,PER,TRUE,2,3,loss,León,Mexico,TRUE,1823,1692,1782,1733,-41
+1970-06-07,FIFA World Cup,played,Bulgaria,BGR,Germany,DEU,TRUE,2,5,loss,León,Mexico,TRUE,,,,,
+1970-06-11,FIFA World Cup,played,Bulgaria,BGR,Morocco,MAR,TRUE,1,1,draw,León,Mexico,TRUE,1759,1620,1748,1631,-11
+1970-11-15,UEFA Euro qualification,played,Bulgaria,BGR,Norway,NOR,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1748,1524,1733,1539,-15
+1971-04-07,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,1,0,win,Piraeus,Greece,FALSE,1733,1643,1743,1633,10
+1971-04-28,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1743,1940,1746,1937,3
+1971-05-19,UEFA Euro qualification,played,Bulgaria,BGR,Hungary,HUN,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1746,1924,1789,1881,43
+1971-06-09,UEFA Euro qualification,played,Bulgaria,BGR,Norway,NOR,FALSE,4,1,win,Oslo,Norway,FALSE,1789,1543,1810,1522,21
+1971-09-25,UEFA Euro qualification,played,Bulgaria,BGR,Hungary,HUN,FALSE,0,2,loss,Budapest,Hungary,FALSE,1810,1899,1795,1914,-15
+1971-11-10,UEFA Euro qualification,played,Bulgaria,BGR,France,FRA,FALSE,1,2,loss,Nantes,France,FALSE,1798,1785,1783,1800,-15
+1971-11-17,Friendly,played,Bulgaria,BGR,Greece,GRC,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1783,1619,1777,1625,-6
+1971-12-04,UEFA Euro qualification,played,Bulgaria,BGR,France,FRA,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1777,1800,1793,1784,16
+1972-03-29,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1793,1955,1795,1953,2
+1972-06-07,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,FALSE,0,1,loss,Moscow,Soviet Union,FALSE,1788,1966,1785,1969,-3
+1972-06-21,Friendly,played,Bulgaria,BGR,Italy,ITA,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1785,1955,1787,1953,2
+1972-10-18,FIFA World Cup qualification,played,Bulgaria,BGR,Northern Ireland,NIR,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1787,1762,1810,1739,23
+1972-11-19,FIFA World Cup qualification,played,Bulgaria,BGR,Cyprus,,FALSE,4,0,win,Akdoğan,Cyprus,FALSE,1810,1308,1817,1301,7
+1973-01-28,Friendly,played,Bulgaria,BGR,Cyprus,,FALSE,3,0,win,Akdoğan,Cyprus,FALSE,1817,1301,1820,1298,3
+1973-01-31,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,2,2,draw,Athens,Greece,FALSE,1820,1601,1817,1604,-3
+1973-02-04,Friendly,played,Bulgaria,BGR,Indonesia,IDN,FALSE,4,0,win,Jakarta,Indonesia,FALSE,1817,1404,1822,1399,5
+1973-02-08,Friendly,played,Bulgaria,BGR,New Caledonia,,FALSE,5,3,win,Nouméa,New Caledonia,FALSE,1822,1500,1829,1493,7
+1973-02-14,Friendly,played,Bulgaria,BGR,Australia,AUS,FALSE,2,2,draw,Sydney,Australia,FALSE,1829,1705,1828,1706,-1
+1973-02-16,Friendly,played,Bulgaria,BGR,Australia,AUS,FALSE,3,1,win,Adelaide,Australia,FALSE,1828,1706,1842,1692,14
+1973-02-18,Friendly,played,Bulgaria,BGR,Australia,AUS,FALSE,2,0,win,Melbourne,Australia,FALSE,1842,1692,1855,1679,13
+1973-03-28,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,1,0,win,Plovdiv,Bulgaria,FALSE,1855,1927,1864,1918,9
+1973-04-18,Balkan Cup,played,Bulgaria,BGR,Turkey,TUR,FALSE,2,5,loss,İzmir,Turkey,FALSE,1864,1578,1812,1630,-52
+1973-05-02,FIFA World Cup qualification,played,Bulgaria,BGR,Portugal,PRT,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1812,1908,1832,1888,20
+1973-05-12,Friendly,played,Bulgaria,BGR,Germany,DEU,FALSE,0,3,loss,Hamburg,Germany,FALSE,,,,,
+1973-08-19,Friendly,played,Bulgaria,BGR,Poland,POL,TRUE,0,2,loss,Varna,Bulgaria,FALSE,1829,1957,1815,1971,-14
+1973-09-26,FIFA World Cup qualification,played,Bulgaria,BGR,Northern Ireland,NIR,FALSE,0,0,draw,Sheffield,England,TRUE,1815,1766,1812,1769,-3
+1973-10-13,FIFA World Cup qualification,played,Bulgaria,BGR,Portugal,PRT,FALSE,2,2,draw,Lisbon,Portugal,FALSE,1812,1888,1821,1879,9
+1973-11-18,FIFA World Cup qualification,played,Bulgaria,BGR,Cyprus,,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1821,1326,1823,1324,2
+1974-02-06,Friendly,played,Bulgaria,BGR,Cyprus,,FALSE,4,1,win,Morphou,Cyprus,FALSE,1823,1324,1826,1321,3
+1974-02-08,Friendly,played,Bulgaria,BGR,Kuwait,KWT,FALSE,3,1,win,Kuwait City,Kuwait,FALSE,1826,1457,1831,1452,5
+1974-02-10,Friendly,played,Bulgaria,BGR,Kuwait,KWT,FALSE,2,1,win,Kuwait City,Kuwait,FALSE,1831,1452,1834,1449,3
+1974-03-31,Friendly,played,Bulgaria,BGR,Hungary,HUN,FALSE,1,3,loss,Zalaegerszeg,Hungary,FALSE,1834,1896,1826,1904,-8
+1974-04-13,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,TRUE,0,1,loss,Plovdiv,Bulgaria,FALSE,1826,1828,1813,1841,-13
+1974-04-14,Friendly,played,Bulgaria,BGR,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1813,2127,1811,2129,-2
+1974-05-08,Balkan Cup,played,Bulgaria,BGR,Turkey,TUR,TRUE,5,1,win,Sofia,Bulgaria,FALSE,1811,1677,1826,1662,15
+1974-05-25,Friendly,played,Bulgaria,BGR,North Korea,PRK,TRUE,6,1,win,Sofia,Bulgaria,FALSE,1826,1604,1831,1599,5
+1974-06-01,Friendly,played,Bulgaria,BGR,England,ENG,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1831,1957,1822,1966,-9
+1974-06-15,FIFA World Cup,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,0,draw,Düsseldorf,Germany,TRUE,1822,1888,1828,1882,6
+1974-06-19,FIFA World Cup,played,Bulgaria,BGR,Uruguay,URY,TRUE,1,1,draw,Hanover,Germany,TRUE,1828,1724,1819,1733,-9
+1974-06-23,FIFA World Cup,played,Bulgaria,BGR,Netherlands,NLD,TRUE,1,4,loss,Dortmund,Germany,TRUE,1819,1877,1775,1921,-44
+1974-09-25,Friendly,played,Bulgaria,BGR,Romania,ROU,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1775,1804,1773,1806,-2
+1974-10-13,UEFA Euro qualification,played,Bulgaria,BGR,Greece,GRC,TRUE,3,3,draw,Sofia,Bulgaria,FALSE,1773,1580,1759,1594,-14
+1974-11-10,Friendly,played,Bulgaria,BGR,Hungary,HUN,TRUE,0,0,draw,Varna,Bulgaria,FALSE,1759,1858,1759,1858,0
+1974-12-18,UEFA Euro qualification,played,Bulgaria,BGR,Greece,GRC,FALSE,1,2,loss,Piraeus,Greece,FALSE,1759,1614,1736,1637,-23
+1974-12-29,Friendly,played,Bulgaria,BGR,Italy,ITA,FALSE,0,0,draw,Genoa,Italy,FALSE,1736,1947,1743,1940,7
+1975-03-26,Friendly,played,Bulgaria,BGR,German DR,DDR,FALSE,0,0,draw,Berlin,German DR,FALSE,1743,1892,1749,1886,6
+1975-04-27,UEFA Euro qualification,played,Bulgaria,BGR,Germany,DEU,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,,,,,
+1975-06-11,UEFA Euro qualification,played,Bulgaria,BGR,Malta,,TRUE,5,0,win,Sofia,Bulgaria,FALSE,1782,1405,1787,1400,5
+1975-11-19,UEFA Euro qualification,played,Bulgaria,BGR,Germany,DEU,FALSE,0,1,loss,Stuttgart,Germany,FALSE,,,,,
+1975-12-21,UEFA Euro qualification,played,Bulgaria,BGR,Malta,,FALSE,2,0,win,Gżira,Malta,FALSE,1783,1400,1793,1390,10
+1976-01-25,Friendly,played,Bulgaria,BGR,Japan,JPN,FALSE,3,1,win,Tokyo,Japan,FALSE,1793,1477,1800,1470,7
+1976-01-28,Friendly,played,Bulgaria,BGR,Japan,JPN,FALSE,1,1,draw,Osaka,Japan,FALSE,1800,1470,1794,1476,-6
+1976-02-01,Friendly,played,Bulgaria,BGR,Japan,JPN,FALSE,3,0,win,Tokyo,Japan,FALSE,1794,1476,1802,1468,8
+1976-03-24,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,0,3,loss,Sofia,Bulgaria,FALSE,1802,1848,1782,1868,-20
+1976-05-05,Friendly,played,Bulgaria,BGR,North Korea,PRK,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1782,1650,1789,1643,7
+1976-05-12,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,TRUE,1,0,win,Veliko Tărnovo,Bulgaria,FALSE,1789,1847,1807,1829,18
+1976-08-17,Friendly,played,Bulgaria,BGR,Switzerland,CHE,FALSE,2,2,draw,Lucerne,Switzerland,FALSE,1807,1656,1806,1657,-1
+1976-09-22,Friendly,played,Bulgaria,BGR,Turkey,TUR,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1806,1653,1800,1659,-6
+1976-10-09,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1800,1781,1793,1788,-7
+1976-10-27,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,0,4,loss,Sliven,Bulgaria,FALSE,1793,1969,1778,1984,-15
+1976-11-28,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,FALSE,2,3,loss,Bucharest,Romania,FALSE,1778,1820,1766,1832,-12
+1977-01-11,Friendly,played,Bulgaria,BGR,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1766,1528,1762,1532,-4
+1977-01-23,Friendly,played,Bulgaria,BGR,Brazil,BRA,FALSE,0,1,loss,São Paulo,Brazil,FALSE,1762,2091,1760,2093,-2
+1977-01-30,Friendly,played,Bulgaria,BGR,Cyprus,,FALSE,2,1,win,Nicosia,Cyprus,FALSE,1760,1274,1762,1272,2
+1977-02-16,Balkan Cup,played,Bulgaria,BGR,Turkey,TUR,FALSE,0,2,loss,Istanbul,Turkey,FALSE,1762,1690,1734,1718,-28
+1977-04-13,Friendly,played,Bulgaria,BGR,Denmark,DNK,TRUE,3,1,win,Sofia,Bulgaria,FALSE,1734,1655,1742,1647,8
+1977-06-01,FIFA World Cup qualification,played,Bulgaria,BGR,Republic of Ireland,IRL,TRUE,2,1,win,Sofia,Bulgaria,FALSE,,,,,
+1977-09-21,Balkan Cup,played,Bulgaria,BGR,Turkey,TUR,TRUE,3,1,win,Sofia,Bulgaria,FALSE,1756,1671,1771,1656,15
+1977-10-12,FIFA World Cup qualification,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+1977-10-26,Friendly,played,Bulgaria,BGR,Greece,GRC,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1774,1641,1768,1647,-6
+1977-11-16,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,FALSE,1,3,loss,Paris,France,FALSE,1768,1837,1752,1853,-16
+1978-02-22,Friendly,played,Bulgaria,BGR,Scotland,SCO,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1752,1998,1750,2000,-2
+1978-03-29,Friendly,played,Bulgaria,BGR,Argentina,ARG,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,1750,1932,1745,1937,-5
+1978-04-01,Friendly,played,Bulgaria,BGR,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1745,1745,1748,1742,3
+1978-04-23,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,FALSE,0,0,draw,Brno,Czechoslovakia,FALSE,1738,1888,1744,1882,6
+1978-04-26,Friendly,played,Bulgaria,BGR,Iran,IRN,FALSE,1,1,draw,Tehran,Iran,FALSE,1744,1787,1748,1783,4
+1978-04-26,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,0,1,loss,Warsaw,Poland,FALSE,1748,1925,1745,1928,-3
+1978-05-03,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,FALSE,0,2,loss,Bucharest,Romania,FALSE,1745,1839,1730,1854,-15
+1978-05-31,Balkan Cup,played,Bulgaria,BGR,Romania,ROU,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1730,1843,1731,1842,1
+1978-08-30,Friendly,played,Bulgaria,BGR,German DR,DDR,FALSE,2,2,draw,Erfurt,German DR,FALSE,1746,1953,1753,1946,7
+1978-09-20,Friendly,played,Bulgaria,BGR,Italy,ITA,FALSE,0,1,loss,Turin,Italy,FALSE,1753,2004,1751,2006,-2
+1978-10-11,UEFA Euro qualification,played,Bulgaria,BGR,Denmark,DNK,FALSE,2,2,draw,Copenhagen,Denmark,FALSE,1751,1648,1751,1648,0
+1978-11-29,UEFA Euro qualification,played,Bulgaria,BGR,Northern Ireland,NIR,TRUE,0,2,loss,Sofia,Bulgaria,FALSE,1751,1742,1712,1781,-39
+1979-01-16,Friendly,played,Bulgaria,BGR,Cyprus,,FALSE,1,0,win,Larnaca,Cyprus,FALSE,1712,1263,1714,1261,2
+1979-02-28,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,1,0,win,Burgas,Bulgaria,FALSE,1724,1916,1737,1903,13
+1979-03-28,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,FALSE,1,3,loss,Simferopol,Soviet Union,FALSE,1737,1916,1732,1921,-5
+1979-04-25,Friendly,played,Bulgaria,BGR,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1732,2041,1730,2043,-2
+1979-05-02,UEFA Euro qualification,played,Bulgaria,BGR,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1730,1771,1712,1789,-18
+1979-05-19,UEFA Euro qualification,played,Bulgaria,BGR,Republic of Ireland,IRL,TRUE,1,0,win,Sofia,Bulgaria,FALSE,,,,,
+1979-06-06,UEFA Euro qualification,played,Bulgaria,BGR,England,ENG,TRUE,0,3,loss,Sofia,Bulgaria,FALSE,1728,2028,1711,2045,-17
+1979-10-17,UEFA Euro qualification,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1979-10-31,UEFA Euro qualification,played,Bulgaria,BGR,Denmark,DNK,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1686,1660,1709,1637,23
+1979-11-22,UEFA Euro qualification,played,Bulgaria,BGR,England,ENG,FALSE,0,2,loss,London,England,FALSE,1709,2048,1705,2052,-4
+1979-12-23,Friendly,played,Bulgaria,BGR,Basque Country,,FALSE,0,4,loss,San Sebastián,Spain,FALSE,,,,,
+1980-03-08,Friendly,played,Bulgaria,BGR,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1705,1619,1705,1619,0
+1980-03-26,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,1,3,loss,Sofia,Bulgaria,FALSE,1705,1880,1693,1892,-12
+1980-05-14,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,0,0,draw,Athens,Greece,FALSE,1693,1676,1695,1674,2
+1980-05-22,Friendly,played,Bulgaria,BGR,Norway,NOR,FALSE,0,1,loss,Oslo,Norway,FALSE,1695,1477,1682,1490,-13
+1980-06-04,FIFA World Cup qualification,played,Bulgaria,BGR,Finland,,FALSE,2,0,win,Helsinki,Finland,FALSE,1682,1506,1706,1482,24
+1980-09-10,Friendly,played,Bulgaria,BGR,Romania,ROU,TRUE,1,2,loss,Varna,Bulgaria,FALSE,1706,1802,1696,1812,-10
+1980-09-24,Friendly,played,Bulgaria,BGR,Sweden,SWE,TRUE,2,3,loss,Burgas,Bulgaria,FALSE,1696,1631,1682,1645,-14
+1980-10-09,Friendly,played,Bulgaria,BGR,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1682,1989,1679,1992,-3
+1980-10-19,FIFA World Cup qualification,played,Bulgaria,BGR,Albania,,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1679,1494,1685,1488,6
+1980-12-03,FIFA World Cup qualification,played,Bulgaria,BGR,Germany,DEU,TRUE,1,3,loss,Sofia,Bulgaria,FALSE,,,,,
+1981-01-20,Friendly,played,Bulgaria,BGR,Mexico,MEX,FALSE,1,1,draw,Mexico City,Mexico,FALSE,1677,1676,1680,1673,3
+1981-01-27,Friendly,played,Bulgaria,BGR,Ecuador,ECU,FALSE,3,1,win,Quito,Ecuador,FALSE,1680,1473,1691,1462,11
+1981-02-01,Friendly,played,Bulgaria,BGR,Bolivia,BOL,FALSE,3,1,win,La Paz,Bolivia,FALSE,1691,1583,1706,1568,15
+1981-02-11,Friendly,played,Bulgaria,BGR,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1706,1718,1719,1705,13
+1981-03-25,Friendly,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,1,2,loss,Subotica,Yugoslavia,FALSE,1719,1874,1715,1878,-4
+1981-04-15,Friendly,played,Bulgaria,BGR,Portugal,PRT,FALSE,1,1,draw,Porto,Portugal,FALSE,1715,1841,1721,1835,6
+1981-04-29,Friendly,played,Bulgaria,BGR,Norway,NOR,TRUE,1,0,win,Pleven,Bulgaria,FALSE,1721,1533,1724,1530,3
+1981-05-13,FIFA World Cup qualification,played,Bulgaria,BGR,Finland,,TRUE,4,0,win,Sofia,Bulgaria,FALSE,1724,1447,1732,1439,8
+1981-05-28,FIFA World Cup qualification,played,Bulgaria,BGR,Austria,AUT,FALSE,0,2,loss,Vienna,Austria,FALSE,1732,1919,1722,1929,-10
+1981-08-12,Friendly,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,1,loss,Uddevalla,Sweden,FALSE,1722,1693,1714,1701,-8
+1981-09-09,Friendly,played,Bulgaria,BGR,Romania,ROU,FALSE,2,1,win,Bucharest,Romania,FALSE,1714,1821,1729,1806,15
+1981-09-23,Friendly,played,Bulgaria,BGR,Italy,ITA,FALSE,2,3,loss,Bologna,Italy,FALSE,1729,1921,1726,1924,-3
+1981-10-14,FIFA World Cup qualification,played,Bulgaria,BGR,Albania,,FALSE,2,0,win,Tirana,Albania,FALSE,1726,1459,1743,1442,17
+1981-10-28,Friendly,played,Bulgaria,BGR,Brazil,BRA,FALSE,0,3,loss,Porto Alegre,Brazil,FALSE,1743,2089,1741,2091,-2
+1981-11-11,FIFA World Cup qualification,played,Bulgaria,BGR,Austria,AUT,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1741,1901,1744,1898,3
+1981-11-22,FIFA World Cup qualification,played,Bulgaria,BGR,Germany,DEU,FALSE,0,4,loss,Düsseldorf,Germany,FALSE,,,,,
+1981-12-16,Friendly,played,Bulgaria,BGR,Portugal,PRT,TRUE,5,2,win,Haskovo,Bulgaria,FALSE,1739,1760,1753,1746,14
+1982-04-14,Friendly,played,Bulgaria,BGR,Romania,ROU,TRUE,1,2,loss,Ruse,Bulgaria,FALSE,1753,1760,1740,1773,-13
+1982-04-28,Friendly,played,Bulgaria,BGR,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1740,1925,1737,1928,-3
+1982-05-05,Friendly,played,Bulgaria,BGR,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1737,2000,1735,2002,-2
+1982-09-07,Friendly,played,Bulgaria,BGR,Switzerland,CHE,FALSE,2,3,loss,St. Gallen,Switzerland,FALSE,1741,1683,1732,1692,-9
+1982-09-22,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,2,2,draw,Burgas,Bulgaria,FALSE,1732,1911,1734,1909,2
+1982-10-14,Friendly,played,Bulgaria,BGR,Malta,,TRUE,7,0,win,Sofia,Bulgaria,FALSE,1734,1413,1738,1409,4
+1982-10-27,UEFA Euro qualification,played,Bulgaria,BGR,Norway,NOR,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1738,1596,1726,1608,-12
+1982-11-17,UEFA Euro qualification,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1726,1842,1707,1861,-19
+1982-12-26,Friendly,played,Bulgaria,BGR,Malta,,FALSE,0,0,draw,Attard,Malta,FALSE,1715,1404,1710,1409,-5
+1982-12-28,Friendly,played,Bulgaria,BGR,Malta,,FALSE,7,1,win,Attard,Malta,FALSE,,,,,
+1983-03-07,Friendly,played,Bulgaria,BGR,Switzerland,CHE,TRUE,1,1,draw,Varna,Bulgaria,FALSE,,,,,
+1983-03-23,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,1,3,loss,Łódź,Poland,FALSE,1708,1986,1705,1989,-3
+1983-04-13,Friendly,played,Bulgaria,BGR,German DR,DDR,FALSE,0,3,loss,Gera,German DR,FALSE,1705,1863,1699,1869,-6
+1983-04-27,UEFA Euro qualification,played,Bulgaria,BGR,Wales,WAL,FALSE,0,1,loss,Wrexham,Wales,FALSE,1699,1856,1692,1863,-7
+1983-08-07,Friendly,played,Bulgaria,BGR,Algeria,DZA,FALSE,3,2,win,Saint-Denis,France,TRUE,1701,1670,1710,1661,9
+1983-08-31,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,3,2,win,Athens,Greece,FALSE,1710,1646,1721,1635,11
+1983-09-07,UEFA Euro qualification,played,Bulgaria,BGR,Norway,NOR,FALSE,2,1,win,Oslo,Norway,FALSE,1721,1604,1740,1585,19
+1983-10-26,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,FALSE,2,1,win,Prague,Czechoslovakia,FALSE,1740,1853,1755,1838,15
+1983-11-16,UEFA Euro qualification,played,Bulgaria,BGR,Wales,WAL,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1755,1855,1775,1835,20
+1983-12-21,UEFA Euro qualification,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,2,3,loss,Split,Yugoslavia,FALSE,1775,1851,1764,1862,-11
+1984-02-05,Friendly,played,Bulgaria,BGR,Morocco,MAR,FALSE,1,1,draw,Casablanca,Morocco,FALSE,,,,,
+1984-02-15,Friendly,played,Bulgaria,BGR,Germany,DEU,TRUE,2,3,loss,Varna,Bulgaria,FALSE,,,,,
+1984-04-02,Friendly,played,Bulgaria,BGR,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1757,1494,1753,1498,-4
+1984-06-08,Friendly,played,Bulgaria,BGR,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1753,1816,1757,1812,4
+1984-09-29,FIFA World Cup qualification,played,Bulgaria,BGR,Yugoslavia,YUG,FALSE,0,0,draw,Belgrade,Yugoslavia,FALSE,1752,1778,1759,1771,7
+1984-10-16,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,0,0,draw,Istanbul,Turkey,FALSE,1759,1579,1757,1581,-2
+1984-11-21,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,FALSE,0,1,loss,Paris,France,FALSE,1757,2036,1753,2040,-4
+1984-12-05,FIFA World Cup qualification,played,Bulgaria,BGR,Luxembourg,,TRUE,4,0,win,Sofia,Bulgaria,FALSE,1753,1179,1755,1177,2
+1985-02-05,Friendly,played,Bulgaria,BGR,Switzerland,CHE,TRUE,1,0,win,Querétaro,Mexico,TRUE,1755,1763,1770,1748,15
+1985-02-06,Friendly,played,Bulgaria,BGR,Poland,POL,TRUE,2,2,draw,Querétaro,Mexico,TRUE,1770,1852,1773,1849,3
+1985-04-06,FIFA World Cup qualification,played,Bulgaria,BGR,German DR,DDR,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1773,1817,1790,1800,17
+1985-04-17,Friendly,played,Bulgaria,BGR,Germany,DEU,FALSE,1,4,loss,Augsburg,Germany,FALSE,,,,,
+1985-05-02,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1784,2044,1827,2001,43
+1985-06-01,FIFA World Cup qualification,played,Bulgaria,BGR,Yugoslavia,YUG,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1827,1846,1842,1831,15
+1985-08-27,Friendly,played,Bulgaria,BGR,Mexico,MEX,FALSE,1,1,draw,Los Angeles,United States,TRUE,1842,1841,1842,1841,0
+1985-09-04,Friendly,played,Bulgaria,BGR,Netherlands,NLD,FALSE,0,1,loss,Heerenveen,Netherlands,FALSE,1842,1868,1835,1875,-7
+1985-09-25,FIFA World Cup qualification,played,Bulgaria,BGR,Luxembourg,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1835,1175,1837,1173,2
+1985-10-16,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,2,0,win,Salonica,Greece,FALSE,1837,1612,1847,1602,10
+1985-11-16,FIFA World Cup qualification,played,Bulgaria,BGR,German DR,DDR,FALSE,1,2,loss,Karl-Marx-Stadt,German DR,FALSE,1847,1873,1834,1886,-13
+1985-12-18,Friendly,played,Bulgaria,BGR,Spain,ESP,FALSE,0,2,loss,Valencia,Spain,FALSE,1834,1855,1824,1865,-10
+1986-02-09,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,1,2,loss,Querétaro,Mexico,TRUE,1824,1886,1816,1894,-8
+1986-02-19,Friendly,played,Bulgaria,BGR,Morocco,MAR,FALSE,0,0,draw,Rabat,Morocco,FALSE,1816,1691,1815,1692,-1
+1986-04-09,Friendly,played,Bulgaria,BGR,Denmark,DNK,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1815,1932,1833,1914,18
+1986-04-23,Friendly,played,Bulgaria,BGR,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1833,1833,1822,1844,-11
+1986-04-30,Friendly,played,Bulgaria,BGR,North Korea,PRK,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1822,1533,1825,1530,3
+1986-05-31,FIFA World Cup,played,Bulgaria,BGR,Italy,ITA,TRUE,1,1,draw,Mexico City,Mexico,TRUE,1844,1884,1847,1881,3
+1986-06-05,FIFA World Cup,played,Bulgaria,BGR,South Korea,KOR,FALSE,1,1,draw,Mexico City,Mexico,TRUE,1847,1597,1829,1615,-18
+1986-06-10,FIFA World Cup,played,Bulgaria,BGR,Argentina,ARG,FALSE,0,2,loss,Mexico City,Mexico,TRUE,1829,1889,1792,1926,-37
+1986-06-15,FIFA World Cup,played,Bulgaria,BGR,Mexico,MEX,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1792,1856,1767,1881,-25
+1986-09-10,UEFA Euro qualification,played,Bulgaria,BGR,Scotland,SCO,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1767,1821,1775,1813,8
+1986-10-29,Friendly,played,Bulgaria,BGR,Tunisia,TUN,FALSE,3,3,draw,Tunis,Tunisia,FALSE,1775,1572,1772,1575,-3
+1986-11-19,UEFA Euro qualification,played,Bulgaria,BGR,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1772,1810,1780,1802,8
+1987-04-01,UEFA Euro qualification,played,Bulgaria,BGR,Republic of Ireland,IRL,TRUE,2,1,win,Sofia,Bulgaria,FALSE,,,,,
+1987-04-30,UEFA Euro qualification,played,Bulgaria,BGR,Luxembourg,,FALSE,4,1,win,Luxembourg,Luxembourg,FALSE,1794,1168,1797,1165,3
+1987-05-20,UEFA Euro qualification,played,Bulgaria,BGR,Luxembourg,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1797,1165,1798,1164,1
+1987-09-23,UEFA Euro qualification,played,Bulgaria,BGR,Belgium,BEL,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1798,1824,1822,1800,24
+1987-10-14,UEFA Euro qualification,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1987-11-11,UEFA Euro qualification,played,Bulgaria,BGR,Scotland,SCO,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1796,1790,1770,1816,-26
+1988-01-21,Friendly,played,Bulgaria,BGR,Qatar,QAT,FALSE,3,2,win,Doha,Qatar,FALSE,1770,1443,1774,1439,4
+1988-01-23,Friendly,played,Bulgaria,BGR,United Arab Emirates,ARE,FALSE,3,0,win,Doha,Qatar,TRUE,1774,1402,1780,1396,6
+1988-02-03,Friendly,played,Bulgaria,BGR,Egypt,EGY,FALSE,0,1,loss,Cairo,Egypt,FALSE,,,,,
+1988-03-23,Friendly,played,Bulgaria,BGR,Czechoslovakia,CSK,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1774,1839,1787,1826,13
+1988-04-13,Friendly,played,Bulgaria,BGR,German DR,DDR,TRUE,1,1,draw,Burgas,Bulgaria,FALSE,1787,1816,1785,1818,-2
+1988-05-24,Friendly,played,Bulgaria,BGR,Netherlands,NLD,FALSE,2,1,win,Rotterdam,Netherlands,FALSE,1785,1942,1801,1926,16
+1988-08-04,Friendly,played,Bulgaria,BGR,Finland,,FALSE,1,1,draw,Vaasa,Finland,FALSE,1801,1604,1798,1607,-3
+1988-08-07,Friendly,played,Bulgaria,BGR,Iceland,ISL,FALSE,3,2,win,Reykjavík,Iceland,FALSE,1798,1544,1804,1538,6
+1988-08-09,Friendly,played,Bulgaria,BGR,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1804,1688,1804,1688,0
+1988-08-24,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,2,3,loss,Białystok,Poland,FALSE,1804,1775,1796,1783,-8
+1988-10-19,FIFA World Cup qualification,played,Bulgaria,BGR,Romania,ROU,TRUE,1,3,loss,Sofia,Bulgaria,FALSE,1796,1848,1762,1882,-34
+1988-11-02,FIFA World Cup qualification,played,Bulgaria,BGR,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1762,1831,1771,1822,9
+1989-02-21,Friendly,played,Bulgaria,BGR,Soviet Union,SUN,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1776,1993,1769,2000,-7
+1989-03-22,Friendly,played,Bulgaria,BGR,Germany,DEU,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,,,,,
+1989-04-26,FIFA World Cup qualification,played,Bulgaria,BGR,Denmark,DNK,TRUE,0,2,loss,Sofia,Bulgaria,FALSE,1762,1811,1728,1845,-34
+1989-05-17,FIFA World Cup qualification,played,Bulgaria,BGR,Romania,ROU,FALSE,0,1,loss,Bucharest,Romania,FALSE,1728,1890,1721,1897,-7
+1989-08-23,Friendly,played,Bulgaria,BGR,German DR,DDR,FALSE,1,1,draw,Erfurt,German DR,FALSE,1721,1710,1724,1707,3
+1989-09-20,Friendly,played,Bulgaria,BGR,Italy,ITA,FALSE,0,4,loss,Cesena,Italy,FALSE,1724,1976,1720,1980,-4
+1989-10-11,FIFA World Cup qualification,played,Bulgaria,BGR,Greece,GRC,TRUE,4,0,win,Varna,Bulgaria,FALSE,1720,1655,1741,1634,21
+1989-11-15,FIFA World Cup qualification,played,Bulgaria,BGR,Greece,GRC,FALSE,0,1,loss,Athens,Greece,FALSE,1741,1640,1721,1660,-20
+1990-05-05,Friendly,played,Bulgaria,BGR,Brazil,BRA,FALSE,1,2,loss,Campinas,Brazil,FALSE,1721,1999,1719,2001,-2
+1990-09-12,UEFA Euro qualification,played,Bulgaria,BGR,Switzerland,CHE,FALSE,0,2,loss,Geneva,Switzerland,FALSE,1719,1710,1697,1732,-22
+1990-09-26,Friendly,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,2,loss,Solna,Sweden,FALSE,1697,1828,1691,1834,-6
+1990-10-17,UEFA Euro qualification,played,Bulgaria,BGR,Romania,ROU,FALSE,3,0,win,Bucharest,Romania,FALSE,1691,1881,1750,1822,59
+1990-11-14,UEFA Euro qualification,played,Bulgaria,BGR,Scotland,SCO,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1750,1772,1746,1776,-4
+1991-03-27,UEFA Euro qualification,played,Bulgaria,BGR,Scotland,SCO,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1746,1766,1753,1759,7
+1991-04-09,Friendly,played,Bulgaria,BGR,Denmark,DNK,FALSE,1,1,draw,Odense,Denmark,FALSE,1753,1864,1758,1859,5
+1991-05-01,UEFA Euro qualification,played,Bulgaria,BGR,Switzerland,CHE,TRUE,2,3,loss,Sofia,Bulgaria,FALSE,1758,1749,1732,1775,-26
+1991-05-22,UEFA Euro qualification,played,Bulgaria,BGR,San Marino,,FALSE,3,0,win,Serravalle,San Marino,FALSE,1732,1005,1734,1003,2
+1991-05-28,Friendly,played,Bulgaria,BGR,Brazil,BRA,FALSE,0,3,loss,Uberlândia,Brazil,FALSE,1734,1952,1729,1957,-5
+1991-08-21,Friendly,played,Bulgaria,BGR,Turkey,TUR,TRUE,0,0,draw,Stara Zagora,Bulgaria,FALSE,1729,1575,1723,1581,-6
+1991-09-25,Friendly,played,Bulgaria,BGR,Italy,ITA,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1723,1999,1738,1984,15
+1991-10-16,UEFA Euro qualification,played,Bulgaria,BGR,San Marino,,TRUE,4,0,win,Sofia,Bulgaria,FALSE,1738,1002,1739,1001,1
+1991-11-20,UEFA Euro qualification,played,Bulgaria,BGR,Romania,ROU,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1739,1829,1738,1830,-1
+1992-04-28,Friendly,played,Bulgaria,BGR,Switzerland,CHE,FALSE,2,0,win,Bern,Switzerland,FALSE,1738,1778,1759,1757,21
+1992-05-14,FIFA World Cup qualification,played,Bulgaria,BGR,Finland,,FALSE,3,0,win,Helsinki,Finland,FALSE,1759,1618,1790,1587,31
+1992-08-19,Friendly,played,Bulgaria,BGR,Mexico,MEX,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1790,1803,1788,1805,-2
+1992-08-26,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,2,3,loss,Trabzon,Turkey,FALSE,1788,1583,1775,1596,-13
+1992-09-09,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1775,1922,1809,1888,34
+1992-10-07,FIFA World Cup qualification,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,2,loss,Solna,Sweden,FALSE,1809,1868,1792,1885,-17
+1992-11-11,Friendly,played,Bulgaria,BGR,Portugal,PRT,TRUE,1,2,loss,Saint-Ouen,France,TRUE,1792,1786,1782,1796,-10
+1992-12-02,FIFA World Cup qualification,played,Bulgaria,BGR,Israel,ISR,FALSE,2,0,win,Ramat Gan,Israel,FALSE,1782,1591,1804,1569,22
+1993-01-10,Friendly,played,Bulgaria,BGR,Tunisia,TUN,FALSE,0,3,loss,Béja,Tunisia,FALSE,1804,1536,1779,1561,-25
+1993-02-18,Friendly,played,Bulgaria,BGR,United Arab Emirates,ARE,FALSE,0,1,loss,Dubai,United Arab Emirates,FALSE,1779,1500,1764,1515,-15
+1993-02-20,Friendly,played,Bulgaria,BGR,United Arab Emirates,ARE,FALSE,3,1,win,Dubai,United Arab Emirates,FALSE,1764,1515,1773,1506,9
+1993-04-14,FIFA World Cup qualification,played,Bulgaria,BGR,Austria,AUT,FALSE,1,3,loss,Vienna,Austria,FALSE,1773,1641,1740,1674,-33
+1993-04-28,FIFA World Cup qualification,played,Bulgaria,BGR,Finland,,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1740,1519,1748,1511,8
+1993-05-12,FIFA World Cup qualification,played,Bulgaria,BGR,Israel,ISR,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1748,1567,1735,1580,-13
+1993-09-08,FIFA World Cup qualification,played,Bulgaria,BGR,Sweden,SWE,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1735,1891,1738,1888,3
+1993-10-13,FIFA World Cup qualification,played,Bulgaria,BGR,Austria,AUT,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1738,1652,1756,1634,18
+1993-11-17,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,FALSE,2,1,win,Paris,France,FALSE,1756,1919,1789,1886,33
+1994-01-19,Friendly,played,Bulgaria,BGR,Mexico,MEX,FALSE,1,1,draw,San Diego,United States,TRUE,1789,1892,1792,1889,3
+1994-04-15,Friendly,played,Bulgaria,BGR,Oman,,FALSE,1,1,draw,Muscat,Oman,FALSE,1792,1199,1783,1208,-9
+1994-04-28,Friendly,played,Bulgaria,BGR,Kuwait,KWT,FALSE,2,2,draw,Kuwait City,Kuwait,FALSE,1783,1502,1778,1507,-5
+1994-06-03,Friendly,played,Bulgaria,BGR,Ukraine,UKR,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1778,1639,1772,1645,-6
+1994-06-21,FIFA World Cup,played,Bulgaria,BGR,Nigeria,NGA,FALSE,0,3,loss,Dallas,United States,TRUE,1772,1735,1714,1793,-58
+1994-06-26,FIFA World Cup,played,Bulgaria,BGR,Greece,GRC,TRUE,4,0,win,Chicago,United States,TRUE,1714,1665,1762,1617,48
+1994-06-30,FIFA World Cup,played,Bulgaria,BGR,Argentina,ARG,FALSE,2,0,win,Dallas,United States,TRUE,1762,1957,1830,1889,68
+1994-07-05,FIFA World Cup,played,Bulgaria,BGR,Mexico,MEX,FALSE,1,1,draw,East Rutherford,United States,TRUE,1830,1871,1834,1867,4
+1994-07-10,FIFA World Cup,played,Bulgaria,BGR,Germany,DEU,TRUE,2,1,win,East Rutherford,United States,TRUE,1834,2030,1879,1985,45
+1994-07-13,FIFA World Cup,played,Bulgaria,BGR,Italy,ITA,TRUE,1,2,loss,East Rutherford,United States,TRUE,1879,2007,1860,2026,-19
+1994-07-16,FIFA World Cup,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,4,loss,Pasadena,United States,TRUE,1860,1925,1814,1971,-46
+1994-10-12,UEFA Euro qualification,played,Bulgaria,BGR,Georgia,,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1814,1549,1821,1542,7
+1994-11-16,UEFA Euro qualification,played,Bulgaria,BGR,Moldova,,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1821,1556,1829,1548,8
+1994-12-14,UEFA Euro qualification,played,Bulgaria,BGR,Wales,WAL,FALSE,3,0,win,Cardiff,Wales,FALSE,1829,1675,1859,1645,30
+1995-02-14,Friendly,played,Bulgaria,BGR,Argentina,ARG,FALSE,1,4,loss,Mendoza,Argentina,FALSE,1859,1857,1846,1870,-13
+1995-03-29,UEFA Euro qualification,played,Bulgaria,BGR,Wales,WAL,TRUE,3,1,win,Sofia,Bulgaria,FALSE,1846,1645,1855,1636,9
+1995-04-12,Friendly,played,Bulgaria,BGR,North Macedonia,,FALSE,0,0,draw,Strumica,North Macedonia,FALSE,1855,1635,1852,1638,-3
+1995-04-26,UEFA Euro qualification,played,Bulgaria,BGR,Moldova,,FALSE,3,0,win,Chișinău,Moldova,FALSE,1852,1497,1865,1484,13
+1995-06-07,UEFA Euro qualification,played,Bulgaria,BGR,Germany,DEU,TRUE,3,2,win,Sofia,Bulgaria,FALSE,1865,1993,1887,1971,22
+1995-09-06,UEFA Euro qualification,played,Bulgaria,BGR,Albania,,FALSE,1,1,draw,Tirana,Albania,FALSE,1887,1417,1871,1433,-16
+1995-10-07,UEFA Euro qualification,played,Bulgaria,BGR,Albania,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1871,1433,1874,1430,3
+1995-10-11,UEFA Euro qualification,played,Bulgaria,BGR,Georgia,,FALSE,1,2,loss,Tbilisi,Georgia,FALSE,1874,1630,1846,1658,-28
+1995-11-15,UEFA Euro qualification,played,Bulgaria,BGR,Germany,DEU,FALSE,1,3,loss,Berlin,Germany,FALSE,1846,2028,1836,2038,-10
+1996-03-27,Friendly,played,Bulgaria,BGR,England,ENG,FALSE,0,1,loss,London,England,FALSE,1836,1869,1830,1875,-6
+1996-04-24,Friendly,played,Bulgaria,BGR,Slovakia,SVK,FALSE,0,0,draw,Trnava,Slovakia,FALSE,1830,1692,1829,1693,-1
+1996-05-28,Friendly,played,Bulgaria,BGR,North Macedonia,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1829,1546,1832,1543,3
+1996-06-02,Friendly,played,Bulgaria,BGR,United Arab Emirates,ARE,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1832,1557,1836,1553,4
+1996-06-09,UEFA Euro,played,Bulgaria,BGR,Spain,ESP,FALSE,1,1,draw,Leeds,England,TRUE,1836,1988,1846,1978,10
+1996-06-13,UEFA Euro,played,Bulgaria,BGR,Romania,ROU,TRUE,1,0,win,Newcastle,England,TRUE,1846,1876,1873,1849,27
+1996-06-18,UEFA Euro,played,Bulgaria,BGR,France,FRA,FALSE,1,3,loss,Newcastle,England,TRUE,1873,2007,1849,2031,-24
+1996-09-01,FIFA World Cup qualification,played,Bulgaria,BGR,Israel,ISR,FALSE,1,2,loss,Ramat Gan,Israel,FALSE,1849,1618,1822,1645,-27
+1996-10-08,FIFA World Cup qualification,played,Bulgaria,BGR,Luxembourg,,FALSE,2,1,win,Luxembourg,Luxembourg,FALSE,1822,1265,1825,1262,3
+1996-11-06,Friendly,played,Bulgaria,BGR,Saudi Arabia,SAU,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1825,1586,1811,1600,-14
+1996-11-08,Friendly,played,Bulgaria,BGR,Thailand,,FALSE,4,0,win,Bangkok,Thailand,FALSE,1811,1495,1819,1487,8
+1996-12-14,FIFA World Cup qualification,played,Bulgaria,BGR,Cyprus,,FALSE,3,1,win,Limassol,Cyprus,FALSE,1819,1437,1829,1427,10
+1997-04-02,FIFA World Cup qualification,played,Bulgaria,BGR,Cyprus,,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1813,1435,1817,1431,4
+1997-06-08,FIFA World Cup qualification,played,Bulgaria,BGR,Luxembourg,,TRUE,4,0,win,Burgas,Bulgaria,FALSE,1817,1240,1818,1239,1
+1997-08-20,FIFA World Cup qualification,played,Bulgaria,BGR,Israel,ISR,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1818,1620,1824,1614,6
+1997-09-10,FIFA World Cup qualification,played,Bulgaria,BGR,Russia,RUS,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1824,1881,1842,1863,18
+1997-10-11,FIFA World Cup qualification,played,Bulgaria,BGR,Russia,RUS,FALSE,2,4,loss,Moscow,Russia,FALSE,1842,1863,1822,1883,-20
+1997-12-23,Friendly,played,Bulgaria,BGR,Catalonia,,FALSE,1,1,draw,Barcelona,Spain,FALSE,,,,,
+1998-03-10,Friendly,played,Bulgaria,BGR,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1822,1851,1812,1861,-10
+1998-03-25,Friendly,played,Bulgaria,BGR,North Macedonia,,FALSE,0,1,loss,Skopje,North Macedonia,FALSE,1812,1515,1797,1530,-15
+1998-04-22,Friendly,played,Bulgaria,BGR,Morocco,MAR,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1797,1732,1803,1726,6
+1998-06-05,Friendly,played,Bulgaria,BGR,Algeria,DZA,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1803,1474,1805,1472,2
+1998-06-12,FIFA World Cup,played,Bulgaria,BGR,Paraguay,PRY,FALSE,0,0,draw,Montpellier,France,TRUE,1805,1742,1800,1747,-5
+1998-06-19,FIFA World Cup,played,Bulgaria,BGR,Nigeria,NGA,FALSE,0,1,loss,Paris,France,TRUE,1800,1755,1766,1789,-34
+1998-06-24,FIFA World Cup,played,Bulgaria,BGR,Spain,ESP,FALSE,1,6,loss,Lens,France,TRUE,1766,1969,1738,1997,-28
+1998-09-06,UEFA Euro qualification,played,Bulgaria,BGR,Poland,POL,TRUE,0,3,loss,Burgas,Bulgaria,FALSE,1738,1700,1690,1748,-48
+1998-10-10,UEFA Euro qualification,played,Bulgaria,BGR,England,ENG,FALSE,0,0,draw,London,England,FALSE,1690,1950,1706,1934,16
+1998-10-14,UEFA Euro qualification,played,Bulgaria,BGR,Sweden,SWE,TRUE,0,1,loss,Burgas,Bulgaria,FALSE,1706,1866,1689,1883,-17
+1998-11-04,Friendly,played,Bulgaria,BGR,Algeria,DZA,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1689,1474,1682,1481,-7
+1999-02-16,Lunar New Year Cup,played,Bulgaria,BGR,Egypt,EGY,TRUE,1,3,loss,Kowloon,Hong Kong,TRUE,1673,1640,1648,1665,-25
+1999-03-03,Friendly,played,Bulgaria,BGR,Slovakia,SVK,TRUE,2,0,win,Stara Zagora,Bulgaria,FALSE,1648,1687,1660,1675,12
+1999-03-27,Friendly,played,Bulgaria,BGR,Belgium,BEL,FALSE,1,0,win,Brussels,Belgium,FALSE,1660,1794,1676,1778,16
+1999-03-31,UEFA Euro qualification,played,Bulgaria,BGR,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1676,1203,1682,1197,6
+1999-05-19,Friendly,played,Bulgaria,BGR,Slovakia,SVK,FALSE,0,2,loss,Dubnica nad Váhom,Slovakia,FALSE,1682,1682,1671,1693,-11
+1999-06-04,UEFA Euro qualification,played,Bulgaria,BGR,Poland,POL,FALSE,0,2,loss,Warsaw,Poland,FALSE,1671,1748,1655,1764,-16
+1999-06-09,UEFA Euro qualification,played,Bulgaria,BGR,England,ENG,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1655,1930,1664,1921,9
+1999-08-18,Friendly,played,Bulgaria,BGR,Ukraine,UKR,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,1664,1721,1668,1717,4
+1999-09-04,UEFA Euro qualification,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,1,loss,Solna,Sweden,FALSE,1668,1895,1663,1900,-5
+1999-10-09,UEFA Euro qualification,played,Bulgaria,BGR,Luxembourg,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,,,,,
+1999-11-17,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,0,1,loss,Kozáni,Greece,FALSE,1666,1750,1661,1755,-5
+2000-02-09,Friendly,played,Bulgaria,BGR,Slovakia,SVK,TRUE,1,0,win,Valparaíso,Chile,TRUE,1661,1677,1677,1661,16
+2000-02-12,Friendly,played,Bulgaria,BGR,Chile,CHL,FALSE,2,3,loss,Valparaíso,Chile,FALSE,1677,1734,1668,1743,-9
+2000-02-15,Friendly,played,Bulgaria,BGR,Australia,AUS,FALSE,1,1,draw,Valparaíso,Chile,TRUE,1668,1731,1671,1728,3
+2000-03-29,Friendly,played,Bulgaria,BGR,Belarus,,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1671,1415,1675,1411,4
+2000-04-26,Friendly,played,Bulgaria,BGR,Ukraine,UKR,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1675,1718,1663,1730,-12
+2000-07-26,Friendly,played,Bulgaria,BGR,Azerbaijan,,TRUE,2,1,win,Varna,Bulgaria,FALSE,1663,1289,1665,1287,2
+2000-08-16,Friendly,played,Bulgaria,BGR,Belgium,BEL,TRUE,1,3,loss,Sofia,Bulgaria,FALSE,1665,1751,1649,1767,-16
+2000-09-02,FIFA World Cup qualification,played,Bulgaria,BGR,Czechia,CZE,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1649,1919,1638,1930,-11
+2000-10-07,FIFA World Cup qualification,played,Bulgaria,BGR,Malta,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1638,1223,1641,1220,3
+2000-10-11,FIFA World Cup qualification,played,Bulgaria,BGR,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1641,1778,1653,1766,12
+2000-11-14,Friendly,played,Bulgaria,BGR,Algeria,DZA,FALSE,2,1,win,Algiers,Algeria,FALSE,1653,1505,1662,1496,9
+2001-01-24,Friendly,played,Bulgaria,BGR,Mexico,MEX,FALSE,2,0,win,Morelia,Mexico,FALSE,1662,1824,1687,1799,25
+2001-01-28,Friendly,played,Bulgaria,BGR,Jamaica,JAM,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1687,1576,1687,1576,0
+2001-02-28,Friendly,played,Bulgaria,BGR,Jordan,,FALSE,2,0,win,Amman,Jordan,FALSE,1687,1454,1697,1444,10
+2001-03-24,FIFA World Cup qualification,played,Bulgaria,BGR,Iceland,ISL,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1697,1600,1707,1590,10
+2001-03-28,FIFA World Cup qualification,played,Bulgaria,BGR,Northern Ireland,NIR,TRUE,4,3,win,Sofia,Bulgaria,FALSE,1707,1501,1713,1495,6
+2001-04-25,Friendly,played,Bulgaria,BGR,Norway,NOR,FALSE,1,2,loss,Oslo,Norway,FALSE,1713,1766,1707,1772,-6
+2001-06-02,FIFA World Cup qualification,played,Bulgaria,BGR,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1707,1495,1721,1481,14
+2001-06-06,FIFA World Cup qualification,played,Bulgaria,BGR,Iceland,ISL,FALSE,1,1,draw,Reykjavík,Iceland,FALSE,1721,1607,1720,1608,-1
+2001-08-15,Friendly,played,Bulgaria,BGR,North Macedonia,,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1720,1518,1723,1515,3
+2001-09-01,FIFA World Cup qualification,played,Bulgaria,BGR,Malta,,FALSE,2,0,win,Attard,Malta,FALSE,1723,1207,1728,1202,5
+2001-09-05,FIFA World Cup qualification,played,Bulgaria,BGR,Denmark,DNK,TRUE,0,2,loss,Sofia,Bulgaria,FALSE,1728,1804,1696,1836,-32
+2001-10-06,FIFA World Cup qualification,played,Bulgaria,BGR,Czechia,CZE,FALSE,0,6,loss,Prague,Czech Republic,FALSE,1696,1849,1680,1865,-16
+2002-02-13,Friendly,played,Bulgaria,BGR,Croatia,HRV,FALSE,0,0,draw,Rijeka,Croatia,FALSE,1680,1885,1687,1878,7
+2002-03-27,Friendly,played,Bulgaria,BGR,Ecuador,ECU,TRUE,0,3,loss,East Rutherford,United States,TRUE,1687,1715,1671,1731,-16
+2002-04-17,Friendly,played,Bulgaria,BGR,Mexico,MEX,FALSE,0,1,loss,East Rutherford,United States,TRUE,1671,1813,1665,1819,-6
+2002-08-21,Friendly,played,Bulgaria,BGR,Germany,DEU,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1665,1960,1670,1955,5
+2002-09-07,UEFA Euro qualification,played,Bulgaria,BGR,Belgium,BEL,FALSE,2,0,win,Brussels,Belgium,FALSE,1670,1823,1719,1774,49
+2002-10-12,UEFA Euro qualification,played,Bulgaria,BGR,Croatia,HRV,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1719,1820,1749,1790,30
+2002-10-16,UEFA Euro qualification,played,Bulgaria,BGR,Andorra,,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1749,1075,1749,1075,0
+2002-11-20,Friendly,played,Bulgaria,BGR,Spain,ESP,FALSE,0,1,loss,Granada,Spain,FALSE,1749,1994,1747,1996,-2
+2003-02-12,Friendly,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,0,win,Larnaca,Cyprus,TRUE,1747,1594,1753,1588,6
+2003-03-27,Friendly,played,Bulgaria,BGR,Serbia and Montenegro,SCG,FALSE,2,1,win,Kruševac,Serbia and Montenegro,FALSE,1753,1794,1767,1780,14
+2003-04-02,UEFA Euro qualification,played,Bulgaria,BGR,Estonia,,FALSE,0,0,draw,Tallinn,Estonia,FALSE,1767,1443,1756,1454,-11
+2003-04-30,Friendly,played,Bulgaria,BGR,Albania,,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1756,1522,1760,1518,4
+2003-06-07,UEFA Euro qualification,played,Bulgaria,BGR,Belgium,BEL,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1760,1772,1755,1777,-5
+2003-08-20,Friendly,played,Bulgaria,BGR,Lithuania,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1755,1414,1758,1411,3
+2003-09-06,UEFA Euro qualification,played,Bulgaria,BGR,Estonia,,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1758,1412,1762,1408,4
+2003-09-10,UEFA Euro qualification,played,Bulgaria,BGR,Andorra,,FALSE,3,0,win,Sant Julià de Lòria,Andorra,FALSE,1762,1053,1764,1051,2
+2003-10-11,UEFA Euro qualification,played,Bulgaria,BGR,Croatia,HRV,FALSE,0,1,loss,Zagreb,Croatia,FALSE,1764,1809,1752,1821,-12
+2003-11-18,Friendly,played,Bulgaria,BGR,South Korea,KOR,FALSE,1,0,win,Seoul,South Korea,FALSE,1752,1675,1763,1664,11
+2004-02-18,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,0,2,loss,Athens,Greece,FALSE,1763,1796,1753,1806,-10
+2004-03-31,Friendly,played,Bulgaria,BGR,Russia,RUS,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1753,1795,1751,1797,-2
+2004-04-28,Friendly,played,Bulgaria,BGR,Cameroon,CMR,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1751,1742,1763,1730,12
+2004-06-02,Friendly,played,Bulgaria,BGR,Czechia,CZE,FALSE,1,3,loss,Prague,Czech Republic,FALSE,1763,1951,1758,1956,-5
+2004-06-14,UEFA Euro,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,5,loss,Lisbon,Portugal,TRUE,1758,1800,1714,1844,-44
+2004-06-18,UEFA Euro,played,Bulgaria,BGR,Denmark,DNK,TRUE,0,2,loss,Braga,Portugal,TRUE,1714,1875,1693,1896,-21
+2004-06-22,UEFA Euro,played,Bulgaria,BGR,Italy,ITA,FALSE,1,2,loss,Guimarães,Portugal,TRUE,1693,1934,1683,1944,-10
+2004-08-18,Friendly,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+2004-09-04,FIFA World Cup qualification,played,Bulgaria,BGR,Iceland,ISL,FALSE,3,1,win,Reykjavík,Iceland,FALSE,1689,1595,1720,1564,31
+2004-10-09,FIFA World Cup qualification,played,Bulgaria,BGR,Croatia,HRV,FALSE,2,2,draw,Zagreb,Croatia,FALSE,1720,1857,1732,1845,12
+2004-10-13,FIFA World Cup qualification,played,Bulgaria,BGR,Malta,,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1732,1261,1735,1258,3
+2004-11-17,Friendly,played,Bulgaria,BGR,Azerbaijan,,FALSE,0,0,draw,Baku,Azerbaijan,FALSE,1735,1386,1729,1392,-6
+2004-11-29,Friendly,played,Bulgaria,BGR,Egypt,EGY,FALSE,1,1,draw,Cairo,Egypt,FALSE,1729,1645,1729,1645,0
+2005-02-09,Friendly,played,Bulgaria,BGR,Serbia and Montenegro,SCG,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1729,1773,1727,1775,-2
+2005-03-26,FIFA World Cup qualification,played,Bulgaria,BGR,Sweden,SWE,TRUE,0,3,loss,Sofia,Bulgaria,FALSE,1727,1875,1697,1905,-30
+2005-03-30,FIFA World Cup qualification,played,Bulgaria,BGR,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,1697,1597,1697,1597,0
+2005-06-04,FIFA World Cup qualification,played,Bulgaria,BGR,Croatia,HRV,TRUE,1,3,loss,Sofia,Bulgaria,FALSE,1697,1844,1671,1870,-26
+2005-08-17,Friendly,played,Bulgaria,BGR,Turkey,TUR,TRUE,3,1,win,Sofia,Bulgaria,FALSE,1671,1827,1688,1810,17
+2005-09-03,FIFA World Cup qualification,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,3,loss,Solna,Sweden,FALSE,1688,1901,1678,1911,-10
+2005-09-07,FIFA World Cup qualification,played,Bulgaria,BGR,Iceland,ISL,TRUE,3,2,win,Sofia,Bulgaria,FALSE,1678,1519,1685,1512,7
+2005-10-08,FIFA World Cup qualification,played,Bulgaria,BGR,Hungary,HUN,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1685,1609,1701,1593,16
+2005-10-12,FIFA World Cup qualification,played,Bulgaria,BGR,Malta,,FALSE,1,1,draw,Attard,Malta,FALSE,1701,1251,1686,1266,-15
+2005-11-12,Friendly,played,Bulgaria,BGR,Georgia,,TRUE,6,2,win,Sofia,Bulgaria,FALSE,1686,1495,1692,1489,6
+2005-11-16,Friendly,played,Bulgaria,BGR,Mexico,MEX,FALSE,3,0,win,Houston,United States,TRUE,1692,1855,1717,1830,25
+2006-03-01,Friendly,played,Bulgaria,BGR,North Macedonia,,FALSE,1,0,win,Skopje,North Macedonia,FALSE,1717,1482,1723,1476,6
+2006-05-09,Kirin Cup,played,Bulgaria,BGR,Japan,JPN,FALSE,2,1,win,Osaka,Japan,FALSE,1723,1812,1745,1790,22
+2006-05-11,Kirin Cup,played,Bulgaria,BGR,Scotland,SCO,TRUE,1,5,loss,Kobe,Japan,TRUE,1745,1666,1711,1700,-34
+2006-08-15,Friendly,played,Bulgaria,BGR,Wales,WAL,FALSE,0,0,draw,Swansea,Wales,FALSE,1711,1605,1711,1605,0
+2006-09-02,UEFA Euro qualification,played,Bulgaria,BGR,Romania,ROU,FALSE,2,2,draw,Constanţa,Romania,FALSE,1711,1847,1723,1835,12
+2006-09-06,UEFA Euro qualification,played,Bulgaria,BGR,Slovenia,SVN,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1723,1601,1738,1586,15
+2006-10-07,UEFA Euro qualification,played,Bulgaria,BGR,Netherlands,NLD,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1738,2001,1747,1992,9
+2006-10-11,UEFA Euro qualification,played,Bulgaria,BGR,Luxembourg,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1747,986,1748,985,1
+2006-11-15,Friendly,played,Bulgaria,BGR,Slovakia,SVK,FALSE,1,3,loss,Žilina,Slovakia,FALSE,1748,1697,1735,1710,-13
+2007-02-06,Cyprus International Tournament,played,Bulgaria,BGR,Latvia,,FALSE,2,0,win,Larnaca,Cyprus,TRUE,1735,1487,1744,1478,9
+2007-02-07,Cyprus International Tournament,played,Bulgaria,BGR,Cyprus,,FALSE,3,0,win,Nicosia,Cyprus,FALSE,1744,1520,1761,1503,17
+2007-03-28,UEFA Euro qualification,played,Bulgaria,BGR,Albania,,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1761,1495,1745,1511,-16
+2007-06-02,UEFA Euro qualification,played,Bulgaria,BGR,Belarus,,FALSE,2,0,win,Minsk,Belarus,FALSE,1745,1573,1769,1549,24
+2007-06-06,UEFA Euro qualification,played,Bulgaria,BGR,Belarus,,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1769,1549,1774,1544,5
+2007-08-22,Friendly,played,Bulgaria,BGR,Wales,WAL,TRUE,0,1,loss,Burgas,Bulgaria,FALSE,1774,1579,1757,1596,-17
+2007-09-08,UEFA Euro qualification,played,Bulgaria,BGR,Netherlands,NLD,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1757,1985,1749,1993,-8
+2007-09-12,UEFA Euro qualification,played,Bulgaria,BGR,Luxembourg,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1749,1001,1750,1000,1
+2007-10-17,UEFA Euro qualification,played,Bulgaria,BGR,Albania,,FALSE,1,1,draw,Tirana,Albania,FALSE,1750,1527,1743,1534,-7
+2007-11-17,UEFA Euro qualification,played,Bulgaria,BGR,Romania,ROU,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1743,1928,1768,1903,25
+2007-11-21,UEFA Euro qualification,played,Bulgaria,BGR,Slovenia,SVN,FALSE,2,0,win,Celje,Slovenia,FALSE,1768,1562,1789,1541,21
+2008-02-06,Friendly,played,Bulgaria,BGR,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1789,1579,1796,1572,7
+2008-03-26,Friendly,played,Bulgaria,BGR,Finland,,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1796,1678,1800,1674,4
+2008-08-20,Friendly,played,Bulgaria,BGR,Bosnia and Herzegovina,BIH,FALSE,2,1,win,Zenica,Bosnia and Herzegovina,FALSE,1800,1539,1806,1533,6
+2008-09-06,FIFA World Cup qualification,played,Bulgaria,BGR,Montenegro,,FALSE,2,2,draw,Podgorica,Montenegro,FALSE,1806,1666,1804,1668,-2
+2008-10-11,FIFA World Cup qualification,played,Bulgaria,BGR,Italy,ITA,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1804,2011,1810,2005,6
+2008-10-15,FIFA World Cup qualification,played,Bulgaria,BGR,Georgia,,FALSE,0,0,draw,Tbilisi,Georgia,FALSE,1810,1506,1799,1517,-11
+2008-11-19,Friendly,played,Bulgaria,BGR,Serbia,SRB,FALSE,1,6,loss,Belgrade,Serbia,FALSE,1799,1768,1783,1784,-16
+2009-02-11,Friendly,played,Bulgaria,BGR,Switzerland,CHE,FALSE,1,1,draw,Geneva,Switzerland,FALSE,1783,1792,1786,1789,3
+2009-03-28,FIFA World Cup qualification,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+2009-04-01,FIFA World Cup qualification,played,Bulgaria,BGR,Cyprus,,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1791,1549,1798,1542,7
+2009-06-06,FIFA World Cup qualification,played,Bulgaria,BGR,Republic of Ireland,IRL,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,,,,,
+2009-08-12,Friendly,played,Bulgaria,BGR,Latvia,,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1792,1534,1794,1532,2
+2009-09-05,FIFA World Cup qualification,played,Bulgaria,BGR,Montenegro,,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1794,1660,1808,1646,14
+2009-09-09,FIFA World Cup qualification,played,Bulgaria,BGR,Italy,ITA,FALSE,0,2,loss,Turin,Italy,FALSE,1808,1943,1796,1955,-12
+2009-10-10,FIFA World Cup qualification,played,Bulgaria,BGR,Cyprus,,FALSE,1,4,loss,Larnaca,Cyprus,FALSE,1796,1513,1744,1565,-52
+2009-10-14,FIFA World Cup qualification,played,Bulgaria,BGR,Georgia,,TRUE,6,2,win,Sofia,Bulgaria,FALSE,1744,1441,1751,1434,7
+2009-11-18,Friendly,played,Bulgaria,BGR,Malta,,FALSE,4,1,win,Paola,Malta,FALSE,1751,1221,1754,1218,3
+2010-03-03,Friendly,played,Bulgaria,BGR,Poland,POL,FALSE,0,2,loss,Warsaw,Poland,FALSE,1754,1661,1739,1676,-15
+2010-05-19,Friendly,played,Bulgaria,BGR,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1739,1581,1727,1593,-12
+2010-05-24,Friendly,played,Bulgaria,BGR,South Africa,ZAF,FALSE,1,1,draw,Johannesburg,South Africa,FALSE,1727,1556,1725,1558,-2
+2010-08-11,Friendly,played,Bulgaria,BGR,Russia,RUS,FALSE,0,1,loss,Saint Petersburg,Russia,FALSE,1725,1847,1721,1851,-4
+2010-09-03,UEFA Euro qualification,played,Bulgaria,BGR,England,ENG,FALSE,0,4,loss,London,England,FALSE,1721,1917,1709,1929,-12
+2010-09-07,UEFA Euro qualification,played,Bulgaria,BGR,Montenegro,,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1709,1649,1680,1678,-29
+2010-10-08,UEFA Euro qualification,played,Bulgaria,BGR,Wales,WAL,FALSE,1,0,win,Cardiff,Wales,FALSE,1680,1583,1700,1563,20
+2010-10-12,Friendly,played,Bulgaria,BGR,Saudi Arabia,SAU,TRUE,2,0,win,Istanbul,Turkey,TRUE,1700,1693,1715,1678,15
+2010-11-17,Friendly,played,Bulgaria,BGR,Serbia,SRB,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1715,1728,1703,1740,-12
+2011-03-26,UEFA Euro qualification,played,Bulgaria,BGR,Switzerland,CHE,TRUE,0,0,draw,Sofia,Bulgaria,FALSE,1703,1744,1700,1747,-3
+2011-03-29,Friendly,played,Bulgaria,BGR,Cyprus,,FALSE,1,0,win,Larnaca,Cyprus,FALSE,1700,1530,1708,1522,8
+2011-05-31,Friendly,played,Bulgaria,BGR,Corsica,,FALSE,0,1,loss,Ajaccio,France,FALSE,,,,,
+2011-06-04,UEFA Euro qualification,played,Bulgaria,BGR,Montenegro,,FALSE,1,1,draw,Podgorica,Montenegro,FALSE,1708,1720,1714,1714,6
+2011-08-10,Friendly,played,Bulgaria,BGR,Belarus,,FALSE,0,1,loss,Minsk,Belarus,FALSE,1714,1632,1705,1641,-9
+2011-09-02,UEFA Euro qualification,played,Bulgaria,BGR,England,ENG,TRUE,0,3,loss,Sofia,Bulgaria,FALSE,1705,1920,1681,1944,-24
+2011-09-06,UEFA Euro qualification,played,Bulgaria,BGR,Switzerland,CHE,FALSE,1,3,loss,Basel,Switzerland,FALSE,1681,1763,1665,1779,-16
+2011-10-07,Friendly,played,Bulgaria,BGR,Ukraine,UKR,FALSE,0,3,loss,Kyiv,Ukraine,FALSE,1665,1738,1656,1747,-9
+2011-10-11,UEFA Euro qualification,played,Bulgaria,BGR,Wales,WAL,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1656,1599,1628,1627,-28
+2012-02-29,Friendly,played,Bulgaria,BGR,Hungary,HUN,FALSE,1,1,draw,Győr,Hungary,FALSE,1628,1676,1632,1672,4
+2012-05-26,Friendly,played,Bulgaria,BGR,Netherlands,NLD,FALSE,2,1,win,Amsterdam,Netherlands,FALSE,1632,2077,1651,2058,19
+2012-05-29,Friendly,played,Bulgaria,BGR,Turkey,TUR,TRUE,0,2,loss,Salzburg,Austria,TRUE,1651,1720,1639,1732,-12
+2012-08-15,Friendly,played,Bulgaria,BGR,Cyprus,,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1639,1468,1642,1465,3
+2012-09-07,FIFA World Cup qualification,played,Bulgaria,BGR,Italy,ITA,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1642,1909,1651,1900,9
+2012-09-11,FIFA World Cup qualification,played,Bulgaria,BGR,Armenia,,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1651,1540,1660,1531,9
+2012-10-12,FIFA World Cup qualification,played,Bulgaria,BGR,Denmark,DNK,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1660,1789,1662,1787,2
+2012-10-16,FIFA World Cup qualification,played,Bulgaria,BGR,Czechia,CZE,FALSE,0,0,draw,Prague,Czech Republic,FALSE,1662,1779,1673,1768,11
+2012-11-14,Friendly,played,Bulgaria,BGR,Ukraine,UKR,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1673,1701,1661,1713,-12
+2013-03-22,FIFA World Cup qualification,played,Bulgaria,BGR,Malta,,TRUE,6,0,win,Sofia,Bulgaria,FALSE,1661,1243,1665,1239,4
+2013-03-26,FIFA World Cup qualification,played,Bulgaria,BGR,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1665,1799,1677,1787,12
+2013-05-30,Kirin Challenge Cup,played,Bulgaria,BGR,Japan,JPN,FALSE,2,0,win,Toyota,Japan,FALSE,1677,1795,1700,1772,23
+2013-06-04,Friendly,played,Bulgaria,BGR,Kazakhstan,,FALSE,2,1,win,Almaty,Kazakhstan,FALSE,1700,1354,1704,1350,4
+2013-08-14,Friendly,played,Bulgaria,BGR,North Macedonia,,FALSE,0,2,loss,Skopje,North Macedonia,FALSE,1704,1523,1686,1541,-18
+2013-09-06,FIFA World Cup qualification,played,Bulgaria,BGR,Italy,ITA,FALSE,0,1,loss,Palermo,Italy,FALSE,1686,1920,1681,1925,-5
+2013-09-10,FIFA World Cup qualification,played,Bulgaria,BGR,Malta,,FALSE,2,1,win,Attard,Malta,FALSE,1681,1260,1686,1255,5
+2013-10-11,FIFA World Cup qualification,played,Bulgaria,BGR,Armenia,,FALSE,1,2,loss,Yerevan,Armenia,FALSE,1686,1540,1663,1563,-23
+2013-10-15,FIFA World Cup qualification,played,Bulgaria,BGR,Czechia,CZE,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1663,1735,1641,1757,-22
+2014-03-05,Friendly,played,Bulgaria,BGR,Belarus,,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1641,1588,1647,1582,6
+2014-05-23,Friendly,played,Bulgaria,BGR,Canada,CAN,TRUE,1,1,draw,Ritzing,Austria,TRUE,1647,1487,1643,1491,-4
+2014-09-09,UEFA Euro qualification,played,Bulgaria,BGR,Azerbaijan,,FALSE,2,1,win,Baku,Azerbaijan,FALSE,1643,1442,1657,1428,14
+2014-10-10,UEFA Euro qualification,played,Bulgaria,BGR,Croatia,HRV,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1657,1796,1639,1814,-18
+2014-10-13,UEFA Euro qualification,played,Bulgaria,BGR,Norway,NOR,FALSE,1,2,loss,Oslo,Norway,FALSE,1639,1610,1623,1626,-16
+2014-11-16,UEFA Euro qualification,played,Bulgaria,BGR,Malta,,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1623,1219,1605,1237,-18
+2015-03-28,UEFA Euro qualification,played,Bulgaria,BGR,Italy,ITA,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1605,1885,1615,1875,10
+2015-06-08,Friendly,played,Bulgaria,BGR,Turkey,TUR,FALSE,0,4,loss,Istanbul,Turkey,FALSE,1615,1703,1606,1712,-9
+2015-06-12,UEFA Euro qualification,played,Bulgaria,BGR,Malta,,FALSE,1,0,win,Attard,Malta,FALSE,1606,1244,1613,1237,7
+2015-09-03,UEFA Euro qualification,played,Bulgaria,BGR,Norway,NOR,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1613,1602,1587,1628,-26
+2015-09-06,UEFA Euro qualification,played,Bulgaria,BGR,Italy,ITA,FALSE,0,1,loss,Palermo,Italy,FALSE,1587,1869,1583,1873,-4
+2015-10-10,UEFA Euro qualification,played,Bulgaria,BGR,Croatia,HRV,FALSE,0,3,loss,Zagreb,Croatia,FALSE,1583,1780,1572,1791,-11
+2015-10-13,UEFA Euro qualification,played,Bulgaria,BGR,Azerbaijan,,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1572,1426,1584,1414,12
+2016-03-25,Friendly,played,Bulgaria,BGR,Portugal,PRT,FALSE,1,0,win,Leiria,Portugal,FALSE,1584,1918,1602,1900,18
+2016-03-29,Friendly,played,Bulgaria,BGR,North Macedonia,,FALSE,2,0,win,Skopje,North Macedonia,FALSE,1602,1435,1614,1423,12
+2016-06-03,Kirin Cup,played,Bulgaria,BGR,Japan,JPN,FALSE,2,7,loss,Toyota,Japan,FALSE,1614,1762,1602,1774,-12
+2016-06-07,Kirin Cup,played,Bulgaria,BGR,Denmark,DNK,TRUE,0,4,loss,Suita,Japan,TRUE,1602,1726,1584,1744,-18
+2016-09-06,FIFA World Cup qualification,played,Bulgaria,BGR,Luxembourg,,TRUE,4,3,win,Sofia,Bulgaria,FALSE,1584,1235,1587,1232,3
+2016-10-07,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,FALSE,1,4,loss,Saint-Denis,France,FALSE,1587,1986,1583,1990,-4
+2016-10-10,FIFA World Cup qualification,played,Bulgaria,BGR,Sweden,SWE,FALSE,0,3,loss,Solna,Sweden,FALSE,1583,1741,1570,1754,-13
+2016-11-13,FIFA World Cup qualification,played,Bulgaria,BGR,Belarus,,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1570,1602,1586,1586,16
+2017-03-25,FIFA World Cup qualification,played,Bulgaria,BGR,Netherlands,NLD,TRUE,2,0,win,Sofia,Bulgaria,FALSE,1586,1888,1632,1842,46
+2017-06-09,FIFA World Cup qualification,played,Bulgaria,BGR,Belarus,,FALSE,1,2,loss,Barysaw,Belarus,FALSE,1632,1551,1613,1570,-19
+2017-08-31,FIFA World Cup qualification,played,Bulgaria,BGR,Sweden,SWE,TRUE,3,2,win,Sofia,Bulgaria,FALSE,1613,1807,1638,1782,25
+2017-09-03,FIFA World Cup qualification,played,Bulgaria,BGR,Netherlands,NLD,FALSE,1,3,loss,Amsterdam,Netherlands,FALSE,1638,1832,1629,1841,-9
+2017-10-07,FIFA World Cup qualification,played,Bulgaria,BGR,France,FRA,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1629,1969,1621,1977,-8
+2017-10-10,FIFA World Cup qualification,played,Bulgaria,BGR,Luxembourg,,FALSE,1,1,draw,Luxembourg,Luxembourg,FALSE,1621,1295,1610,1306,-11
+2017-11-13,Friendly,played,Bulgaria,BGR,Saudi Arabia,SAU,TRUE,1,0,win,Lisbon,Portugal,TRUE,1610,1606,1620,1596,10
+2018-03-23,Friendly,played,Bulgaria,BGR,Bosnia and Herzegovina,BIH,TRUE,0,1,loss,Razgrad,Bulgaria,FALSE,1620,1720,1610,1730,-10
+2018-03-26,Friendly,played,Bulgaria,BGR,Kazakhstan,,TRUE,2,1,win,Felcsút,Hungary,TRUE,1610,1357,1614,1353,4
+2018-09-06,UEFA Nations League,played,Bulgaria,BGR,Slovenia,SVN,FALSE,2,1,win,Ljubljana,Slovenia,FALSE,1614,1626,1640,1600,26
+2018-09-09,UEFA Nations League,played,Bulgaria,BGR,Norway,NOR,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1640,1647,1655,1632,15
+2018-10-13,UEFA Nations League,played,Bulgaria,BGR,Cyprus,,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1655,1420,1660,1415,5
+2018-10-16,UEFA Nations League,played,Bulgaria,BGR,Norway,NOR,FALSE,0,1,loss,Oslo,Norway,FALSE,1660,1643,1645,1658,-15
+2018-11-16,UEFA Nations League,played,Bulgaria,BGR,Cyprus,,FALSE,1,1,draw,Nicosia,Cyprus,FALSE,1645,1427,1638,1434,-7
+2018-11-19,UEFA Nations League,played,Bulgaria,BGR,Slovenia,SVN,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1638,1551,1628,1561,-10
+2019-03-22,UEFA Euro qualification,played,Bulgaria,BGR,Montenegro,,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1628,1588,1620,1596,-8
+2019-03-25,UEFA Euro qualification,played,Bulgaria,BGR,Kosovo,,FALSE,1,1,draw,Pristina,Kosovo,FALSE,1620,1503,1619,1504,-1
+2019-06-07,UEFA Euro qualification,played,Bulgaria,BGR,Czechia,CZE,FALSE,1,2,loss,Prague,Czech Republic,FALSE,1619,1714,1609,1724,-10
+2019-06-10,UEFA Euro qualification,played,Bulgaria,BGR,Kosovo,,TRUE,2,3,loss,Sofia,Bulgaria,FALSE,1609,1513,1579,1543,-30
+2019-09-07,UEFA Euro qualification,played,Bulgaria,BGR,England,ENG,FALSE,0,4,loss,London,England,FALSE,1579,1939,1574,1944,-5
+2019-09-10,Friendly,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,1,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2019-10-11,UEFA Euro qualification,played,Bulgaria,BGR,Montenegro,,FALSE,0,0,draw,Podgorica,Montenegro,FALSE,1568,1540,1572,1536,4
+2019-10-14,UEFA Euro qualification,played,Bulgaria,BGR,England,ENG,TRUE,0,6,loss,Sofia,Bulgaria,FALSE,1572,1922,1556,1938,-16
+2019-11-14,Friendly,played,Bulgaria,BGR,Paraguay,PRY,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1556,1733,1548,1741,-8
+2019-11-17,UEFA Euro qualification,played,Bulgaria,BGR,Czechia,CZE,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1548,1761,1574,1735,26
+2020-09-03,UEFA Nations League,played,Bulgaria,BGR,Republic of Ireland,IRL,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,,,,,
+2020-09-06,UEFA Nations League,played,Bulgaria,BGR,Wales,WAL,FALSE,0,1,loss,Cardiff,Wales,FALSE,1563,1801,1558,1806,-5
+2020-10-08,UEFA Euro qualification,played,Bulgaria,BGR,Hungary,HUN,TRUE,1,3,loss,Sofia,Bulgaria,FALSE,1558,1635,1526,1667,-32
+2020-10-11,UEFA Nations League,played,Bulgaria,BGR,Finland,,FALSE,0,2,loss,Helsinki,Finland,FALSE,1526,1651,1513,1664,-13
+2020-10-14,UEFA Nations League,played,Bulgaria,BGR,Wales,WAL,TRUE,0,1,loss,Sofia,Bulgaria,FALSE,1513,1800,1503,1810,-10
+2020-11-11,Friendly,played,Bulgaria,BGR,Gibraltar,,TRUE,3,0,win,Sofia,Bulgaria,FALSE,1503,1111,1505,1109,2
+2020-11-15,UEFA Nations League,played,Bulgaria,BGR,Finland,,TRUE,1,2,loss,Sofia,Bulgaria,FALSE,1505,1708,1491,1722,-14
+2020-11-18,UEFA Nations League,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+2021-03-25,FIFA World Cup qualification,played,Bulgaria,BGR,Switzerland,CHE,TRUE,1,3,loss,Sofia,Bulgaria,FALSE,1504,1870,1493,1881,-11
+2021-03-28,FIFA World Cup qualification,played,Bulgaria,BGR,Italy,ITA,TRUE,0,2,loss,Sofia,Bulgaria,FALSE,1493,2000,1488,2005,-5
+2021-03-31,FIFA World Cup qualification,played,Bulgaria,BGR,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1488,1575,1498,1565,10
+2021-06-01,Friendly,played,Bulgaria,BGR,Slovakia,SVK,FALSE,1,1,draw,Ried im Innkreis,Austria,TRUE,1498,1655,1502,1651,4
+2021-06-05,Friendly,played,Bulgaria,BGR,Russia,RUS,FALSE,0,1,loss,Moscow,Russia,FALSE,1502,1742,1500,1744,-2
+2021-06-08,Friendly,played,Bulgaria,BGR,France,FRA,FALSE,0,3,loss,Paris,France,FALSE,1500,2087,1499,2088,-1
+2021-09-02,FIFA World Cup qualification,played,Bulgaria,BGR,Italy,ITA,FALSE,1,1,draw,Florence,Italy,FALSE,1499,2092,1518,2073,19
+2021-09-05,FIFA World Cup qualification,played,Bulgaria,BGR,Lithuania,,TRUE,1,0,win,Sofia,Bulgaria,FALSE,1518,1297,1523,1292,5
+2021-09-08,Friendly,played,Bulgaria,BGR,Georgia,,TRUE,4,1,win,Sofia,Bulgaria,FALSE,1523,1497,1534,1486,11
+2021-10-09,FIFA World Cup qualification,played,Bulgaria,BGR,Lithuania,,FALSE,1,3,loss,Vilnius,Lithuania,FALSE,1534,1291,1492,1333,-42
+2021-10-12,FIFA World Cup qualification,played,Bulgaria,BGR,Northern Ireland,NIR,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1492,1602,1513,1581,21
+2021-11-11,Friendly,played,Bulgaria,BGR,Ukraine,UKR,FALSE,1,1,draw,Odessa,Ukraine,FALSE,1513,1801,1521,1793,8
+2021-11-15,FIFA World Cup qualification,played,Bulgaria,BGR,Switzerland,CHE,FALSE,0,4,loss,Lucerne,Switzerland,FALSE,1521,1929,1517,1933,-4
+2022-03-26,Friendly,played,Bulgaria,BGR,Qatar,QAT,FALSE,1,2,loss,Al Rayyan,Qatar,FALSE,1517,1663,1513,1667,-4
+2022-03-29,Friendly,played,Bulgaria,BGR,Croatia,HRV,FALSE,1,2,loss,Al Rayyan,Qatar,TRUE,1513,1852,1511,1854,-2
+2022-06-02,UEFA Nations League,played,Bulgaria,BGR,North Macedonia,,TRUE,1,1,draw,Razgrad,Bulgaria,FALSE,1511,1662,1514,1659,3
+2022-06-05,UEFA Nations League,played,Bulgaria,BGR,Georgia,,TRUE,2,5,loss,Razgrad,Bulgaria,FALSE,1514,1568,1474,1608,-40
+2022-06-09,UEFA Nations League,played,Bulgaria,BGR,Gibraltar,,FALSE,1,1,draw,Gibraltar,Gibraltar,FALSE,1474,1044,1459,1059,-15
+2022-06-12,UEFA Nations League,played,Bulgaria,BGR,Georgia,,FALSE,0,0,draw,Tbilisi,Georgia,FALSE,1459,1658,1473,1644,14
+2022-09-23,UEFA Nations League,played,Bulgaria,BGR,Gibraltar,,TRUE,5,1,win,Razgrad,Bulgaria,FALSE,1473,1057,1477,1053,4
+2022-09-26,UEFA Nations League,played,Bulgaria,BGR,North Macedonia,,FALSE,1,0,win,Skopje,North Macedonia,FALSE,1477,1595,1508,1564,31
+2022-11-16,Friendly,played,Bulgaria,BGR,Cyprus,,FALSE,2,0,win,Larnaca,Cyprus,FALSE,1508,1350,1521,1337,13
+2022-11-20,Friendly,played,Bulgaria,BGR,Luxembourg,,FALSE,0,0,draw,Luxembourg,Luxembourg,FALSE,1521,1444,1522,1443,1
+2023-03-24,UEFA Euro qualification,played,Bulgaria,BGR,Montenegro,,TRUE,0,1,loss,Razgrad,Bulgaria,FALSE,1522,1540,1497,1565,-25
+2023-03-27,UEFA Euro qualification,played,Bulgaria,BGR,Hungary,HUN,FALSE,0,3,loss,Budapest,Hungary,FALSE,1497,1825,1492,1830,-5
+2023-06-17,UEFA Euro qualification,played,Bulgaria,BGR,Lithuania,,FALSE,1,1,draw,Kaunas,Lithuania,FALSE,1492,1256,1485,1263,-7
+2023-06-20,UEFA Euro qualification,played,Bulgaria,BGR,Serbia,SRB,TRUE,1,1,draw,Razgrad,Bulgaria,FALSE,1485,1867,1498,1854,13
+2023-09-07,Friendly,played,Bulgaria,BGR,Iran,IRN,TRUE,0,1,loss,Plovdiv,Bulgaria,FALSE,1498,1802,1493,1807,-5
+2023-09-10,UEFA Euro qualification,played,Bulgaria,BGR,Montenegro,,FALSE,1,2,loss,Podgorica,Montenegro,FALSE,1493,1538,1481,1550,-12
+2023-10-14,UEFA Euro qualification,played,Bulgaria,BGR,Lithuania,,TRUE,0,2,loss,Sofia,Bulgaria,FALSE,1481,1268,1429,1320,-52
+2023-10-17,Friendly,played,Bulgaria,BGR,Albania,,FALSE,0,2,loss,Tirana,Albania,FALSE,1429,1657,1425,1661,-4
+2023-11-16,UEFA Euro qualification,played,Bulgaria,BGR,Hungary,HUN,TRUE,2,2,draw,Sofia,Bulgaria,FALSE,1425,1841,1439,1827,14
+2023-11-19,UEFA Euro qualification,played,Bulgaria,BGR,Serbia,SRB,FALSE,2,2,draw,Leskovac,Serbia,FALSE,1439,1820,1457,1802,18
+2024-03-22,FIFA Series,played,Bulgaria,BGR,Tanzania,,TRUE,1,0,win,Baku,Azerbaijan,TRUE,1457,1362,1468,1351,11
+2024-03-25,FIFA Series,played,Bulgaria,BGR,Azerbaijan,,FALSE,1,1,draw,Baku,Azerbaijan,FALSE,1468,1497,1473,1492,5
+2024-06-04,Friendly,played,Bulgaria,BGR,Romania,ROU,FALSE,0,0,draw,Bucharest,Romania,FALSE,1473,1664,1480,1657,7
+2024-06-08,Friendly,played,Bulgaria,BGR,Slovenia,SVN,FALSE,1,1,draw,Ljubljana,Slovenia,FALSE,1480,1741,1488,1733,8
+2024-09-05,UEFA Nations League,played,Bulgaria,BGR,Belarus,,FALSE,0,0,draw,Zalaegerszeg,Hungary,TRUE,1488,1433,1485,1436,-3
+2024-09-08,UEFA Nations League,played,Bulgaria,BGR,Northern Ireland,NIR,TRUE,1,0,win,Plovdiv,Bulgaria,FALSE,1485,1539,1502,1522,17
+2024-10-12,UEFA Nations League,played,Bulgaria,BGR,Luxembourg,,TRUE,0,0,draw,Plovdiv,Bulgaria,FALSE,1502,1462,1494,1470,-8
+2024-10-15,UEFA Nations League,played,Bulgaria,BGR,Northern Ireland,NIR,FALSE,0,5,loss,Belfast,Northern Ireland,FALSE,1494,1519,1468,1545,-26
+2024-11-15,UEFA Nations League,played,Bulgaria,BGR,Luxembourg,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1468,1470,1494,1444,26
+2024-11-18,UEFA Nations League,played,Bulgaria,BGR,Belarus,,TRUE,1,1,draw,Sofia,Bulgaria,FALSE,1494,1451,1486,1459,-8
+2025-03-20,UEFA Nations League,played,Bulgaria,BGR,Republic of Ireland,IRL,TRUE,1,2,loss,Plovdiv,Bulgaria,FALSE,,,,,
+2025-03-23,UEFA Nations League,played,Bulgaria,BGR,Republic of Ireland,IRL,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2025-06-06,Friendly,played,Bulgaria,BGR,Cyprus,,TRUE,2,2,draw,Plovdiv,Bulgaria,FALSE,1460,1297,1454,1303,-6
+2025-06-10,Friendly,played,Bulgaria,BGR,Greece,GRC,FALSE,0,4,loss,Heraklion,Greece,FALSE,1454,1836,1452,1838,-2
+2025-09-04,FIFA World Cup qualification,played,Bulgaria,BGR,Spain,ESP,TRUE,0,3,loss,Sofia,Bulgaria,FALSE,1452,2157,1450,2159,-2
+2025-09-07,FIFA World Cup qualification,played,Bulgaria,BGR,Georgia,,FALSE,0,3,loss,Tbilisi,Georgia,FALSE,1450,1691,1441,1700,-9
+2025-10-11,FIFA World Cup qualification,played,Bulgaria,BGR,Turkey,TUR,TRUE,1,6,loss,Sofia,Bulgaria,FALSE,1441,1835,1429,1847,-12
+2025-10-14,FIFA World Cup qualification,played,Bulgaria,BGR,Spain,ESP,FALSE,0,4,loss,Valladolid,Spain,FALSE,1429,2181,1428,2182,-1
+2025-11-15,FIFA World Cup qualification,played,Bulgaria,BGR,Turkey,TUR,FALSE,0,2,loss,Bursa,Turkey,FALSE,1428,1860,1425,1863,-3
+2025-11-18,FIFA World Cup qualification,played,Bulgaria,BGR,Georgia,,TRUE,2,1,win,Sofia,Bulgaria,FALSE,1425,1678,1453,1650,28
+2026-03-27,FIFA Series,played,Bulgaria,BGR,Solomon Islands,,FALSE,10,2,win,Jakarta,Indonesia,TRUE,1453,1090,1461,1082,8
+2026-03-30,FIFA Series,played,Bulgaria,BGR,Indonesia,IDN,FALSE,1,0,win,Jakarta,Indonesia,FALSE,1461,1345,1475,1331,14

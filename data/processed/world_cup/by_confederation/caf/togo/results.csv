@@ -1,0 +1,446 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1956-10-06,Friendly,played,Togo,TGO,Nigeria,NGA,FALSE,1,1,draw,Lagos,Nigeria,FALSE,,,,,
+1956-10-20,Friendly,played,Togo,TGO,Ghana,GHA,TRUE,1,1,draw,Lomé,Togo,FALSE,,,,,
+1958-02-20,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,2,5,loss,Accra,Ghana,FALSE,,,,,
+1960-04-24,Friendly,played,Togo,TGO,Nigeria,NGA,TRUE,1,1,draw,Lomé,Togo,FALSE,1529,1645,1529,1645,0
+1960-05-01,Friendly,played,Togo,TGO,Ghana,GHA,TRUE,2,3,loss,Lomé,Togo,FALSE,1529,1747,1519,1757,-10
+1962-05-09,Friendly,played,Togo,TGO,Guinea,,TRUE,2,1,win,Lomé,Togo,FALSE,,,,,
+1963-10-31,Friendly,played,Togo,TGO,Cameroon,CMR,FALSE,1,2,loss,Yaoundé,Cameroon,FALSE,1540,1481,1531,1490,-9
+1965-01-09,Friendly,played,Togo,TGO,DR Congo,,TRUE,0,3,loss,Lomé,Togo,FALSE,1585,1567,1562,1590,-23
+1965-07-19,All-African Games,played,Togo,TGO,Mali,,FALSE,2,1,win,Brazzaville,Congo,TRUE,1566,1520,1583,1503,17
+1965-07-20,All-African Games,played,Togo,TGO,Congo,,FALSE,2,7,loss,Brazzaville,Congo,FALSE,1583,1586,1555,1614,-28
+1965-07-20,All-African Games,played,Togo,TGO,Uganda,,TRUE,1,1,draw,Brazzaville,Congo,TRUE,,,,,
+1965-07-25,All-African Games,played,Togo,TGO,DR Congo,,FALSE,1,5,loss,Brazzaville,Congo,TRUE,,,,,
+1965-07-26,All-African Games,played,Togo,TGO,Madagascar,,TRUE,1,0,win,Brazzaville,Congo,TRUE,,,,,
+1966-03-06,Friendly,played,Togo,TGO,Nigeria,NGA,TRUE,2,2,draw,Lomé,Togo,FALSE,,,,,
+1966-04-09,Friendly,played,Togo,TGO,Nigeria,NGA,FALSE,1,1,draw,Lagos,Nigeria,FALSE,1513,1539,1516,1536,3
+1966-04-26,Friendly,played,Togo,TGO,Benin,,TRUE,1,0,win,Lomé,Togo,FALSE,1516,1457,1522,1451,6
+1966-05-29,Friendly,played,Togo,TGO,Benin,,FALSE,2,2,draw,Cotonou,Dahomey,FALSE,1522,1451,1523,1450,1
+1966-08-16,Friendly,played,Togo,TGO,Ivory Coast,CIV,TRUE,1,2,loss,Lomé,Togo,FALSE,,,,,
+1966-08-18,Friendly,played,Togo,TGO,Ghana,GHA,TRUE,1,1,draw,Lomé,Togo,FALSE,1515,1868,1521,1862,6
+1966-08-21,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,2,6,loss,Accra,Ghana,FALSE,1521,1862,1518,1865,-3
+1966-10-31,Friendly,played,Togo,TGO,Cameroon,CMR,FALSE,0,2,loss,Yaoundé,Cameroon,FALSE,1518,1553,1509,1562,-9
+1967-02-18,Friendly,played,Togo,TGO,DR Congo,,TRUE,2,4,loss,Lomé,Togo,FALSE,,,,,
+1967-04-02,African Cup of Nations qualification,played,Togo,TGO,Niger,,TRUE,1,0,win,Lomé,Togo,FALSE,,,,,
+1967-04-15,African Cup of Nations qualification,played,Togo,TGO,Nigeria,NGA,FALSE,2,4,loss,Lagos,Nigeria,FALSE,1488,1533,1470,1551,-18
+1967-04-30,African Cup of Nations qualification,played,Togo,TGO,Ivory Coast,CIV,FALSE,0,3,loss,Abidjan,Ivory Coast,FALSE,1470,1712,1461,1721,-9
+1967-08-16,African Cup of Nations qualification,played,Togo,TGO,Ivory Coast,CIV,TRUE,0,2,loss,Lomé,Togo,FALSE,,,,,
+1968-04-07,Friendly,played,Togo,TGO,Guinea,,TRUE,1,1,draw,Lomé,Togo,FALSE,1461,1573,1461,1573,0
+1969-08-10,African Cup of Nations qualification,played,Togo,TGO,Guinea,,FALSE,0,4,loss,Conakry,Guinea,FALSE,,,,,
+1969-08-24,African Cup of Nations qualification,played,Togo,TGO,Guinea,,TRUE,1,1,draw,Lomé,Togo,FALSE,1441,1633,1446,1628,5
+1970-10-25,Friendly,played,Togo,TGO,Senegal,SEN,TRUE,3,0,win,Lomé,Togo,FALSE,1446,1546,1464,1528,18
+1970-11-08,African Cup of Nations qualification,played,Togo,TGO,Benin,,TRUE,2,1,win,Lomé,Togo,FALSE,1464,1442,1477,1429,13
+1970-11-22,African Cup of Nations qualification,played,Togo,TGO,Benin,,FALSE,0,0,draw,Porto-Novo,Dahomey,FALSE,1477,1429,1480,1426,3
+1971-03-24,Friendly,played,Togo,TGO,Liberia,,TRUE,0,2,loss,Lomé,Togo,FALSE,1497,1351,1473,1375,-24
+1971-10-13,African Cup of Nations qualification,played,Togo,TGO,Ghana,GHA,TRUE,0,0,draw,Lomé,Togo,FALSE,,,,,
+1971-10-27,African Cup of Nations qualification,played,Togo,TGO,Ghana,GHA,FALSE,1,0,win,Accra,Ghana,FALSE,,,,,
+1971-11-30,Friendly,played,Togo,TGO,Burkina Faso,,TRUE,1,0,win,Lomé,Togo,FALSE,1501,1370,1505,1366,4
+1971-12-12,Friendly,played,Togo,TGO,Burkina Faso,,FALSE,2,1,win,Ouagadougou,Upper Volta,FALSE,1505,1366,1514,1357,9
+1972-01-20,Friendly,played,Togo,TGO,Benin,,TRUE,4,0,win,Lomé,Togo,FALSE,1514,1432,1524,1422,10
+1972-02-24,African Cup of Nations,played,Togo,TGO,Mali,,FALSE,3,3,draw,Yaoundé,Cameroon,TRUE,1524,1596,1529,1591,5
+1972-02-26,African Cup of Nations,played,Togo,TGO,Cameroon,CMR,FALSE,0,2,loss,Yaoundé,Cameroon,FALSE,1529,1578,1507,1600,-22
+1972-02-28,African Cup of Nations,played,Togo,TGO,Kenya,,FALSE,1,1,draw,Yaoundé,Cameroon,TRUE,1507,1409,1500,1416,-7
+1972-06-06,FIFA World Cup qualification,played,Togo,TGO,DR Congo,,TRUE,0,0,draw,Lomé,Togo,FALSE,,,,,
+1972-06-20,FIFA World Cup qualification,played,Togo,TGO,DR Congo,,FALSE,0,4,loss,Kinshasa,Zaïre,FALSE,,,,,
+1972-12-28,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,2,2,draw,Accra,Ghana,FALSE,1440,1634,1445,1629,5
+1974-03-06,Friendly,played,Togo,TGO,Denmark,DNK,TRUE,0,2,loss,Lomé,Togo,FALSE,1445,1659,1435,1669,-10
+1974-07-04,Friendly,played,Togo,TGO,China PR,,FALSE,2,4,loss,Beijing,China PR,FALSE,,,,,
+1974-11-10,African Cup of Nations qualification,played,Togo,TGO,Liberia,,TRUE,1,0,win,Lomé,Togo,FALSE,1435,1364,1446,1353,11
+1974-11-22,African Cup of Nations qualification,played,Togo,TGO,Liberia,,FALSE,2,0,win,Monrovia,Liberia,FALSE,1446,1353,1477,1322,31
+1975-04-13,African Cup of Nations qualification,played,Togo,TGO,Cameroon,CMR,FALSE,0,3,loss,Douala,Cameroon,FALSE,1467,1589,1452,1604,-15
+1975-04-20,African Cup of Nations qualification,played,Togo,TGO,Cameroon,CMR,TRUE,4,0,win,Lomé,Togo,FALSE,1437,1604,1482,1559,45
+1975-04-26,Friendly,played,Togo,TGO,Nigeria,NGA,FALSE,0,1,loss,Dakar,Senegal,TRUE,,,,,
+1975-04-27,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,3,0,win,Dakar,Senegal,TRUE,,,,,
+1975-07-03,African Cup of Nations qualification,played,Togo,TGO,Guinea,,TRUE,2,2,draw,Lomé,Togo,FALSE,1489,1681,1494,1676,5
+1975-07-17,African Cup of Nations qualification,played,Togo,TGO,Guinea,,FALSE,0,2,loss,Conakry,Guinea,FALSE,1494,1676,1484,1686,-10
+1976-03-21,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,0,4,loss,Accra,Ghana,FALSE,1487,1643,1480,1650,-7
+1976-10-17,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,TRUE,1,0,win,Lomé,Togo,FALSE,1480,1526,1497,1509,17
+1976-10-31,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,FALSE,1,1,draw,Dakar,Senegal,FALSE,1497,1509,1503,1503,6
+1977-02-13,FIFA World Cup qualification,played,Togo,TGO,Guinea,,TRUE,0,2,loss,Lomé,Togo,FALSE,1521,1740,1501,1760,-20
+1977-02-27,FIFA World Cup qualification,played,Togo,TGO,Guinea,,FALSE,1,2,loss,Conakry,Guinea,FALSE,1501,1760,1497,1764,-4
+1977-03-13,African Cup of Nations qualification,played,Togo,TGO,Senegal,SEN,FALSE,1,2,loss,Dakar,Senegal,FALSE,1497,1509,1483,1523,-14
+1977-03-26,African Cup of Nations qualification,played,Togo,TGO,Senegal,SEN,TRUE,0,1,loss,Lomé,Togo,FALSE,1483,1523,1460,1546,-23
+1977-05-29,Friendly,played,Togo,TGO,Ghana,GHA,TRUE,0,2,loss,Lomé,Togo,FALSE,1460,1620,1435,1645,-25
+1977-06-12,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,0,2,loss,Accra,Ghana,FALSE,1435,1645,1426,1654,-9
+1979-01-27,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,0,win,Monrovia,Liberia,TRUE,1426,1570,1447,1549,21
+1979-01-31,Friendly,played,Togo,TGO,Gambia,,FALSE,2,2,draw,Monrovia,Liberia,TRUE,1447,1295,1441,1301,-6
+1979-02-03,Friendly,played,Togo,TGO,Senegal,SEN,FALSE,1,0,win,Monrovia,Liberia,TRUE,1441,1628,1463,1606,22
+1979-04-16,African Cup of Nations qualification,played,Togo,TGO,Gambia,,TRUE,2,0,win,Lomé,Togo,FALSE,,,,,
+1979-04-29,African Cup of Nations qualification,played,Togo,TGO,Gambia,,FALSE,0,1,loss,Banjul,Gambia,FALSE,1473,1283,1448,1308,-25
+1979-06-03,Friendly,played,Togo,TGO,Benin,,FALSE,1,0,win,Cotonou,Benin,FALSE,1448,1358,1458,1348,10
+1979-06-24,African Cup of Nations qualification,played,Togo,TGO,Morocco,MAR,FALSE,0,7,loss,Mohammedia,Morocco,FALSE,1458,1593,1440,1611,-18
+1979-07-06,African Cup of Nations qualification,played,Togo,TGO,Morocco,MAR,TRUE,2,1,win,Lomé,Togo,FALSE,1440,1611,1464,1587,24
+1979-07-08,Friendly,played,Togo,TGO,DR Congo,,FALSE,1,4,loss,Kinshasa,Zaïre,FALSE,,,,,
+1979-10-21,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,0,3,loss,Abidjan,Ivory Coast,FALSE,1471,1522,1455,1538,-16
+1979-10-23,Friendly,played,Togo,TGO,Burkina Faso,,TRUE,5,3,win,Abidjan,Ivory Coast,TRUE,1455,1313,1469,1299,14
+1979-10-26,Friendly,played,Togo,TGO,Niger,,FALSE,2,2,draw,Abidjan,Ivory Coast,TRUE,1469,1140,1458,1151,-11
+1979-10-28,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,0,win,Abidjan,Ivory Coast,FALSE,1458,1545,1480,1523,22
+1980-06-13,Friendly,played,Togo,TGO,Nigeria,NGA,TRUE,0,1,loss,Lomé,Togo,FALSE,1480,1724,1474,1730,-6
+1980-12-07,Friendly,played,Togo,TGO,Mali,,FALSE,2,1,win,Bamako,Mali,FALSE,1474,1519,1488,1505,14
+1980-12-09,Friendly,played,Togo,TGO,Mali,,FALSE,0,4,loss,Bamako,Mali,FALSE,1488,1505,1475,1518,-13
+1980-12-14,FIFA World Cup qualification,played,Togo,TGO,Niger,,FALSE,1,0,win,Niamey,Niger,FALSE,1475,1165,1484,1156,9
+1980-12-28,FIFA World Cup qualification,played,Togo,TGO,Niger,,TRUE,1,2,loss,Lomé,Togo,FALSE,1484,1156,1447,1193,-37
+1981-03-08,Friendly,played,Togo,TGO,Liberia,,FALSE,0,2,loss,Monrovia,Liberia,FALSE,1447,1376,1433,1390,-14
+1981-04-05,African Cup of Nations qualification,played,Togo,TGO,Cameroon,CMR,FALSE,0,4,loss,Douala,Cameroon,FALSE,1433,1579,1418,1594,-15
+1981-04-14,Friendly,played,Togo,TGO,Congo,,TRUE,2,1,win,Lomé,Togo,FALSE,1418,1556,1429,1545,11
+1981-04-19,African Cup of Nations qualification,played,Togo,TGO,Cameroon,CMR,TRUE,2,2,draw,Lomé,Togo,FALSE,1429,1579,1432,1576,3
+1982-02-13,West African Cup,played,Togo,TGO,Liberia,,FALSE,1,0,win,Cotonou,Benin,TRUE,1432,1374,1449,1357,17
+1982-02-17,West African Cup,played,Togo,TGO,Burkina Faso,,TRUE,2,1,win,Cotonou,Benin,TRUE,1449,1321,1462,1308,13
+1982-02-21,West African Cup,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,1,draw,Cotonou,Benin,TRUE,1462,1519,1465,1516,3
+1982-02-23,West African Cup,played,Togo,TGO,Ghana,GHA,FALSE,1,2,loss,Cotonou,Benin,TRUE,1465,1661,1455,1671,-10
+1982-10-27,Friendly,played,Togo,TGO,Senegal,SEN,FALSE,2,1,win,Dakar,Senegal,FALSE,1455,1550,1470,1535,15
+1982-11-07,Friendly,played,Togo,TGO,Benin,,TRUE,2,2,draw,Lomé,Togo,FALSE,1470,1313,1464,1319,-6
+1982-11-14,African Cup of Nations qualification,played,Togo,TGO,Sierra Leone,,TRUE,3,0,win,Lomé,Togo,FALSE,1464,1354,1480,1338,16
+1982-11-28,African Cup of Nations qualification,played,Togo,TGO,Sierra Leone,,FALSE,1,0,win,Freetown,Sierra Leone,FALSE,1480,1338,1498,1320,18
+1983-03-24,Friendly,played,Togo,TGO,Congo,,TRUE,0,2,loss,Lomé,Togo,FALSE,1498,1557,1481,1574,-17
+1983-03-30,Friendly,played,Togo,TGO,Benin,,FALSE,2,0,win,Cotonou,Benin,FALSE,1481,1252,1491,1242,10
+1983-04-10,African Cup of Nations qualification,played,Togo,TGO,Guinea,,FALSE,1,0,win,Conakry,Guinea,FALSE,1491,1546,1519,1518,28
+1983-04-17,Friendly,played,Togo,TGO,Guinea-Bissau,,FALSE,0,2,loss,Bissau,Guinea-Bissau,FALSE,1519,1255,1476,1298,-43
+1983-04-24,African Cup of Nations qualification,played,Togo,TGO,Guinea,,TRUE,2,0,win,Lomé,Togo,FALSE,1476,1518,1501,1493,25
+1983-05-08,Friendly,played,Togo,TGO,Guinea-Bissau,,TRUE,3,0,win,Lomé,Togo,FALSE,1501,1293,1511,1283,10
+1983-07-03,African Cup of Nations qualification,played,Togo,TGO,Ethiopia,,FALSE,1,2,loss,Addis Ababa,Ethiopia,FALSE,1511,1346,1487,1370,-24
+1983-08-12,Friendly,played,Togo,TGO,Mauritania,,FALSE,4,0,win,Nouakchott,Mauritania,FALSE,1470,1089,1482,1077,12
+1983-08-28,African Cup of Nations qualification,played,Togo,TGO,Ethiopia,,TRUE,3,0,win,Lomé,Togo,FALSE,1482,1370,1498,1354,16
+1983-09-27,West African Cup,played,Togo,TGO,Ghana,GHA,FALSE,1,1,draw,Abidjan,Ivory Coast,TRUE,1498,1720,1509,1709,11
+1983-09-28,West African Cup,played,Togo,TGO,Ivory Coast,CIV,FALSE,0,3,loss,Abidjan,Ivory Coast,FALSE,1509,1494,1482,1521,-27
+1983-09-30,West African Cup,played,Togo,TGO,Liberia,,FALSE,4,0,win,Abidjan,Ivory Coast,TRUE,1482,1356,1506,1332,24
+1983-10-02,West African Cup,played,Togo,TGO,Ghana,GHA,FALSE,1,3,loss,Abidjan,Ivory Coast,TRUE,1506,1736,1493,1749,-13
+1983-12-16,Friendly,played,Togo,TGO,Nigeria,NGA,FALSE,5,2,win,Abidjan,Ivory Coast,TRUE,1493,1604,1539,1558,46
+1983-12-18,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,2,loss,Abidjan,Ivory Coast,FALSE,1539,1512,1523,1528,-16
+1983-12-20,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,0,1,loss,Abidjan,Ivory Coast,FALSE,1523,1528,1509,1542,-14
+1984-02-15,Friendly,played,Togo,TGO,Ghana,GHA,TRUE,2,1,win,Lomé,Togo,FALSE,1500,1717,1513,1704,13
+1984-02-19,Friendly,played,Togo,TGO,Gabon,,FALSE,1,1,draw,Libreville,Gabon,FALSE,1513,1332,1511,1334,-2
+1984-03-04,African Cup of Nations,played,Togo,TGO,Ivory Coast,CIV,FALSE,0,3,loss,Abidjan,Ivory Coast,FALSE,1511,1601,1489,1623,-22
+1984-03-07,African Cup of Nations,played,Togo,TGO,Cameroon,CMR,FALSE,1,4,loss,Abidjan,Ivory Coast,TRUE,1489,1564,1455,1598,-34
+1984-03-10,African Cup of Nations,played,Togo,TGO,Egypt,EGY,FALSE,0,0,draw,Abidjan,Ivory Coast,TRUE,1455,1689,1470,1674,15
+1984-11-17,West African Cup,played,Togo,TGO,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1470,1331,1468,1333,-2
+1984-11-21,West African Cup,played,Togo,TGO,Ghana,GHA,FALSE,2,2,draw,Ouagadougou,Burkina Faso,TRUE,1468,1678,1479,1667,11
+1984-11-23,West African Cup,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,1,draw,Ouagadougou,Burkina Faso,TRUE,1479,1515,1481,1513,2
+1984-11-25,West African Cup,played,Togo,TGO,Benin,,FALSE,2,0,win,Ouagadougou,Burkina Faso,TRUE,1481,1226,1492,1215,11
+1984-11-28,West African Cup,played,Togo,TGO,Ghana,GHA,FALSE,1,1,draw,Ouagadougou,Burkina Faso,TRUE,1492,1660,1501,1651,9
+1985-03-31,African Cup of Nations qualification,played,Togo,TGO,Senegal,SEN,TRUE,0,1,loss,Tsévié,Togo,FALSE,1501,1537,1477,1561,-24
+1985-04-07,Friendly,played,Togo,TGO,Mali,,FALSE,0,4,loss,Bamako,Mali,FALSE,1477,1465,1449,1493,-28
+1985-04-14,African Cup of Nations qualification,played,Togo,TGO,Senegal,SEN,FALSE,1,1,draw,Dakar,Senegal,FALSE,1449,1561,1460,1550,11
+1985-04-21,Friendly,played,Togo,TGO,Mali,,TRUE,3,0,win,Lomé,Togo,FALSE,1460,1493,1488,1465,28
+1986-02-24,West African Cup,played,Togo,TGO,Burkina Faso,,FALSE,1,0,win,Accra,Ghana,TRUE,1488,1349,1500,1337,12
+1986-02-25,West African Cup,played,Togo,TGO,Ghana,GHA,FALSE,2,2,draw,Accra,Ghana,FALSE,1500,1571,1509,1562,9
+1986-02-27,West African Cup,played,Togo,TGO,Liberia,,TRUE,1,0,win,Accra,Ghana,TRUE,1509,1264,1517,1256,8
+1986-02-28,West African Cup,played,Togo,TGO,Niger,,FALSE,1,3,loss,Accra,Ghana,TRUE,1517,1243,1467,1293,-50
+1986-03-01,West African Cup,played,Togo,TGO,Niger,,TRUE,3,1,win,Accra,Ghana,TRUE,1467,1293,1483,1277,16
+1986-03-02,West African Cup,played,Togo,TGO,Ghana,GHA,FALSE,0,1,loss,Accra,Ghana,FALSE,1483,1584,1473,1594,-10
+1986-07-27,Friendly,played,Togo,TGO,Nigeria,NGA,FALSE,2,2,draw,Monrovia,Liberia,TRUE,,,,,
+1986-07-31,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,1,1,draw,Monrovia,Liberia,TRUE,,,,,
+1986-08-02,Friendly,played,Togo,TGO,Liberia,,FALSE,0,1,loss,Monrovia,Liberia,FALSE,1473,1261,1453,1281,-20
+1987-03-28,African Cup of Nations qualification,played,Togo,TGO,Nigeria,NGA,FALSE,0,2,loss,Lagos,Nigeria,FALSE,1404,1541,1392,1553,-12
+1987-04-12,African Cup of Nations qualification,played,Togo,TGO,Nigeria,NGA,TRUE,1,1,draw,Lomé,Togo,FALSE,1392,1553,1395,1550,3
+1987-11-18,Friendly,played,Togo,TGO,Central African Republic,,TRUE,1,0,win,Lomé,Togo,FALSE,1395,1222,1398,1219,3
+1987-11-22,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,0,3,loss,Abidjan,Ivory Coast,FALSE,1398,1634,1389,1643,-9
+1987-12-13,Friendly,played,Togo,TGO,Ivory Coast,CIV,TRUE,1,0,win,Lomé,Togo,FALSE,1389,1643,1417,1615,28
+1988-05-11,Friendly,played,Togo,TGO,Guadeloupe,,FALSE,1,2,loss,Paris,France,TRUE,,,,,
+1988-05-13,Friendly,played,Togo,TGO,Réunion,,FALSE,0,1,loss,Paris,France,TRUE,,,,,
+1990-02-11,Friendly,played,Togo,TGO,Cameroon,CMR,TRUE,1,1,draw,Lomé,Togo,FALSE,1378,1702,1384,1696,6
+1990-07-29,Friendly,played,Togo,TGO,Mali,,TRUE,0,0,draw,Lomé,Togo,FALSE,1384,1431,1382,1433,-2
+1990-08-19,African Cup of Nations qualification,played,Togo,TGO,Nigeria,NGA,FALSE,0,3,loss,Lagos,Nigeria,FALSE,,,,,
+1990-09-02,African Cup of Nations qualification,played,Togo,TGO,Burkina Faso,,FALSE,0,2,loss,Ouagadougou,Burkina Faso,FALSE,1375,1415,1356,1434,-19
+1990-09-30,African Cup of Nations qualification,played,Togo,TGO,Ghana,GHA,TRUE,0,1,loss,Lomé,Togo,FALSE,1356,1484,1338,1502,-18
+1990-10-14,African Cup of Nations qualification,played,Togo,TGO,Benin,,FALSE,1,1,draw,Cotonou,Benin,FALSE,1338,1210,1336,1212,-2
+1991-01-27,African Cup of Nations qualification,played,Togo,TGO,Nigeria,NGA,TRUE,0,0,draw,Lomé,Togo,FALSE,1336,1644,1347,1633,11
+1991-04-21,African Cup of Nations qualification,played,Togo,TGO,Burkina Faso,,TRUE,1,0,win,Lomé,Togo,FALSE,1347,1430,1366,1411,19
+1991-04-29,African Cup of Nations qualification,played,Togo,TGO,Ghana,GHA,FALSE,0,2,loss,Accra,Ghana,FALSE,1366,1537,1356,1547,-10
+1991-07-14,African Cup of Nations qualification,played,Togo,TGO,Benin,,TRUE,2,0,win,Lomé,Togo,FALSE,1356,1207,1368,1195,12
+1992-04-05,Friendly,played,Togo,TGO,Ghana,GHA,TRUE,1,0,win,Lomé,Togo,FALSE,1368,1649,1383,1634,15
+1992-06-14,Friendly,played,Togo,TGO,Gabon,,FALSE,0,1,loss,Libreville,Gabon,FALSE,1383,1404,1376,1411,-7
+1992-10-09,FIFA World Cup qualification,played,Togo,TGO,Zimbabwe,,FALSE,0,1,loss,Harare,Zimbabwe,FALSE,1374,1479,1365,1488,-9
+1992-10-25,FIFA World Cup qualification,played,Togo,TGO,Egypt,EGY,TRUE,1,4,loss,Lomé,Togo,FALSE,1365,1649,1347,1667,-18
+1993-01-17,FIFA World Cup qualification,played,Togo,TGO,Zimbabwe,,TRUE,1,2,loss,Lomé,Togo,FALSE,1347,1506,1330,1523,-17
+1993-01-31,FIFA World Cup qualification,played,Togo,TGO,Egypt,EGY,FALSE,0,3,loss,Cairo,Egypt,FALSE,1333,1629,1327,1635,-6
+1993-02-28,FIFA World Cup qualification,played,Togo,TGO,Angola,AGO,TRUE,0,1,loss,Lomé,Togo,FALSE,1327,1383,1304,1406,-23
+1994-08-16,Friendly,played,Togo,TGO,Niger,,FALSE,2,3,loss,Niamey,Niger,FALSE,1302,1346,1296,1352,-6
+1994-09-04,African Cup of Nations qualification,played,Togo,TGO,Liberia,,FALSE,0,1,loss,Monrovia,Liberia,FALSE,1296,1361,1285,1372,-11
+1994-09-06,Friendly,played,Togo,TGO,Liberia,,FALSE,1,1,draw,Monrovia,Liberia,FALSE,1285,1372,1290,1367,5
+1994-10-16,African Cup of Nations qualification,played,Togo,TGO,Senegal,SEN,TRUE,2,0,win,Lomé,Togo,FALSE,1290,1425,1323,1392,33
+1994-11-13,African Cup of Nations qualification,played,Togo,TGO,Tunisia,TUN,FALSE,1,1,draw,Tunis,Tunisia,FALSE,1323,1583,1339,1567,16
+1994-12-04,Friendly,played,Togo,TGO,Burkina Faso,,TRUE,2,0,win,Lomé,Togo,FALSE,1339,1388,1352,1375,13
+1994-12-18,Friendly,played,Togo,TGO,Cameroon,CMR,FALSE,1,1,draw,Douala,Cameroon,FALSE,1352,1579,1359,1572,7
+1995-01-08,African Cup of Nations qualification,played,Togo,TGO,Mauritania,,TRUE,0,0,draw,Lomé,Togo,FALSE,1359,1150,1345,1164,-14
+1995-01-15,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,0,0,draw,Bouaké,Ivory Coast,FALSE,1345,1647,1353,1639,8
+1995-04-09,African Cup of Nations qualification,played,Togo,TGO,Liberia,,TRUE,0,0,draw,Lomé,Togo,FALSE,1353,1369,1348,1374,-5
+1995-04-22,African Cup of Nations qualification,played,Togo,TGO,Senegal,SEN,FALSE,1,5,loss,Dakar,Senegal,FALSE,1348,1431,1329,1450,-19
+1995-05-13,Friendly,played,Togo,TGO,Benin,,TRUE,3,0,win,Lomé,Togo,FALSE,1329,1136,1334,1131,5
+1995-06-04,African Cup of Nations qualification,played,Togo,TGO,Tunisia,TUN,TRUE,0,1,loss,Lomé,Togo,FALSE,1334,1540,1320,1554,-14
+1995-07-14,African Cup of Nations qualification,played,Togo,TGO,Mauritania,,FALSE,1,2,loss,Nouakchott,Mauritania,FALSE,1320,1144,1296,1168,-24
+1996-06-02,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,TRUE,2,1,win,Lomé,Togo,FALSE,1296,1458,1320,1434,24
+1996-06-09,Friendly,played,Togo,TGO,Nigeria,NGA,FALSE,3,1,win,Lagos,Nigeria,FALSE,1320,1819,1349,1790,29
+1996-06-16,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,FALSE,1,1,draw,Dakar,Senegal,FALSE,,,,,
+1996-08-11,African Cup of Nations qualification,played,Togo,TGO,Congo,,FALSE,0,0,draw,Pointe-Noire,Congo,FALSE,1359,1418,1368,1409,9
+1996-08-20,Friendly,played,Togo,TGO,Benin,,TRUE,2,0,win,Lomé,Togo,FALSE,1368,1168,1373,1163,5
+1996-08-25,African Cup of Nations qualification,played,Togo,TGO,Congo,,TRUE,1,0,win,Lomé,Togo,FALSE,1373,1409,1389,1393,16
+1996-10-05,African Cup of Nations qualification,played,Togo,TGO,Tanzania,,TRUE,2,1,win,Lomé,Togo,FALSE,1389,1389,1403,1375,14
+1996-11-03,Friendly,played,Togo,TGO,Gabon,,TRUE,0,1,loss,Lomé,Togo,FALSE,1403,1512,1393,1522,-10
+1996-11-10,FIFA World Cup qualification,played,Togo,TGO,Cameroon,CMR,TRUE,2,4,loss,Lomé,Togo,FALSE,1393,1552,1368,1577,-25
+1997-01-06,Friendly,played,Togo,TGO,Ghana,GHA,TRUE,4,0,win,Lomé,Togo,FALSE,1368,1580,1393,1555,25
+1997-01-12,FIFA World Cup qualification,played,Togo,TGO,Zimbabwe,,FALSE,0,3,loss,Harare,Zimbabwe,FALSE,1393,1533,1379,1547,-14
+1997-01-19,Friendly,played,Togo,TGO,Benin,,FALSE,1,1,draw,Cotonou,Benin,FALSE,1379,1189,1376,1192,-3
+1997-01-26,African Cup of Nations qualification,played,Togo,TGO,Liberia,,FALSE,2,1,win,Accra,Ghana,TRUE,1376,1403,1398,1381,22
+1997-02-23,African Cup of Nations qualification,played,Togo,TGO,DR Congo,,TRUE,1,1,draw,Lomé,Togo,FALSE,,,,,
+1997-03-30,Friendly,played,Togo,TGO,Gabon,,FALSE,1,2,loss,Libreville,Gabon,FALSE,1398,1462,1392,1468,-6
+1997-04-06,FIFA World Cup qualification,played,Togo,TGO,Angola,AGO,FALSE,1,3,loss,Luanda,Angola,FALSE,1392,1497,1378,1511,-14
+1997-04-27,FIFA World Cup qualification,played,Togo,TGO,Cameroon,CMR,FALSE,0,2,loss,Yaoundé,Cameroon,FALSE,1378,1574,1369,1583,-9
+1997-06-04,Friendly,played,Togo,TGO,Burkina Faso,,TRUE,0,0,draw,Lomé,Togo,FALSE,1369,1319,1365,1323,-4
+1997-06-08,FIFA World Cup qualification,played,Togo,TGO,Zimbabwe,,TRUE,2,1,win,Lomé,Togo,FALSE,1365,1495,1387,1473,22
+1997-06-22,African Cup of Nations qualification,played,Togo,TGO,Tanzania,,FALSE,0,1,loss,Arusha,Tanzania,FALSE,1387,1305,1368,1324,-19
+1997-07-13,African Cup of Nations qualification,played,Togo,TGO,Liberia,,TRUE,4,0,win,Lomé,Togo,FALSE,1368,1394,1398,1364,30
+1997-07-27,African Cup of Nations qualification,played,Togo,TGO,DR Congo,,FALSE,0,1,loss,Kinshasa,DR Congo,FALSE,1398,1448,1386,1460,-12
+1997-08-17,FIFA World Cup qualification,played,Togo,TGO,Angola,AGO,TRUE,1,1,draw,Lomé,Togo,FALSE,1386,1540,1389,1537,3
+1997-11-26,Friendly,played,Togo,TGO,Morocco,MAR,FALSE,0,3,loss,Rabat,Morocco,FALSE,1384,1736,1382,1738,-2
+1997-12-18,Friendly,played,Togo,TGO,Egypt,EGY,FALSE,2,7,loss,Aswan,Egypt,FALSE,1382,1605,1377,1610,-5
+1997-12-22,Friendly,played,Togo,TGO,Algeria,DZA,FALSE,1,0,win,Cairo,Egypt,TRUE,1377,1557,1392,1542,15
+1997-12-24,Friendly,played,Togo,TGO,Cameroon,CMR,FALSE,1,3,loss,Cairo,Egypt,TRUE,1392,1545,1383,1554,-9
+1998-01-04,Friendly,played,Togo,TGO,Guinea,,FALSE,0,1,loss,Conakry,Guinea,FALSE,1383,1473,1378,1478,-5
+1998-01-11,Friendly,played,Togo,TGO,Mozambique,,TRUE,1,2,loss,Lomé,Togo,FALSE,1378,1386,1365,1399,-13
+1998-01-29,Friendly,played,Togo,TGO,Mali,,TRUE,2,1,win,Lomé,Togo,FALSE,1365,1449,1375,1439,10
+1998-02-01,Friendly,played,Togo,TGO,Mali,,TRUE,0,4,loss,Lomé,Togo,FALSE,1375,1439,1354,1460,-21
+1998-02-09,African Cup of Nations,played,Togo,TGO,DR Congo,,FALSE,1,2,loss,Ouagadougou,Burkina Faso,TRUE,1354,1448,1336,1466,-18
+1998-02-12,African Cup of Nations,played,Togo,TGO,Ghana,GHA,FALSE,2,1,win,Ouagadougou,Burkina Faso,TRUE,1336,1533,1374,1495,38
+1998-02-16,African Cup of Nations,played,Togo,TGO,Tunisia,TUN,FALSE,1,3,loss,Ouagadougou,Burkina Faso,TRUE,1374,1629,1360,1643,-14
+1998-08-02,African Cup of Nations qualification,played,Togo,TGO,São Tomé and Príncipe,,FALSE,4,0,win,Libreville,Gabon,TRUE,,,,,
+1998-08-18,African Cup of Nations qualification,played,Togo,TGO,São Tomé and Príncipe,,TRUE,2,0,win,Lomé,Togo,FALSE,,,,,
+1998-08-23,Friendly,played,Togo,TGO,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1374,1388,1377,1385,3
+1998-09-06,Friendly,played,Togo,TGO,Benin,,TRUE,0,1,loss,Lomé,Togo,FALSE,1377,1220,1361,1236,-16
+1998-09-20,Friendly,played,Togo,TGO,Mali,,TRUE,0,1,loss,Lomé,Togo,FALSE,1361,1446,1351,1456,-10
+1998-10-04,African Cup of Nations qualification,played,Togo,TGO,Guinea,,TRUE,2,0,win,Lomé,Togo,FALSE,1351,1480,1383,1448,32
+1999-01-03,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,3,loss,Abidjan,Ivory Coast,FALSE,1383,1609,1379,1613,-4
+1999-02-28,African Cup of Nations qualification,played,Togo,TGO,Morocco,MAR,TRUE,2,3,loss,Lomé,Togo,FALSE,1367,1763,1361,1769,-6
+1999-04-11,African Cup of Nations qualification,played,Togo,TGO,Morocco,MAR,FALSE,1,1,draw,Rabat,Morocco,FALSE,,,,,
+1999-06-20,African Cup of Nations qualification,played,Togo,TGO,Guinea,,FALSE,1,2,loss,Conakry,Guinea,FALSE,1379,1442,1368,1453,-11
+1999-11-07,Friendly,played,Togo,TGO,Burkina Faso,,FALSE,0,1,loss,Ouagadougou,Burkina Faso,FALSE,1368,1456,1363,1461,-5
+1999-11-10,Friendly,played,Togo,TGO,Burkina Faso,,FALSE,1,1,draw,Ouagadougou,Burkina Faso,FALSE,1363,1461,1368,1456,5
+1999-11-19,Friendly,played,Togo,TGO,Libya,,FALSE,1,2,loss,Agilat,Libya,FALSE,1368,1450,1363,1455,-5
+1999-11-26,Friendly,played,Togo,TGO,Gabon,,FALSE,0,0,draw,Libreville,Gabon,FALSE,,,,,
+1999-11-28,Friendly,played,Togo,TGO,Congo,,FALSE,1,2,loss,Libreville,Gabon,TRUE,1371,1404,1357,1418,-14
+1999-12-27,Friendly,played,Togo,TGO,Gabon,,FALSE,2,3,loss,Benghazi,Libya,TRUE,1357,1453,1346,1464,-11
+1999-12-29,Friendly,played,Togo,TGO,Libya,,FALSE,0,2,loss,Benghazi,Libya,FALSE,1346,1473,1336,1483,-10
+2000-01-04,Friendly,played,Togo,TGO,Egypt,EGY,FALSE,1,2,loss,Aswan,Egypt,FALSE,1336,1629,1334,1631,-2
+2000-01-07,Friendly,played,Togo,TGO,Tunisia,TUN,FALSE,0,7,loss,Tunis,Tunisia,FALSE,1334,1644,1330,1648,-4
+2000-01-19,Friendly,played,Togo,TGO,Egypt,EGY,TRUE,1,0,win,Lomé,Togo,FALSE,1330,1624,1345,1609,15
+2000-01-24,African Cup of Nations,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,1,draw,Accra,Ghana,TRUE,1345,1577,1360,1562,15
+2000-01-27,African Cup of Nations,played,Togo,TGO,Ghana,GHA,FALSE,0,2,loss,Accra,Ghana,FALSE,1360,1594,1350,1604,-10
+2000-01-31,African Cup of Nations,played,Togo,TGO,Cameroon,CMR,FALSE,1,0,win,Kumasi,Ghana,TRUE,1350,1628,1392,1586,42
+2000-04-08,FIFA World Cup qualification,played,Togo,TGO,Guinea-Bissau,,FALSE,0,0,draw,Bissau,Guinea-Bissau,FALSE,1392,1184,1386,1190,-6
+2000-04-23,FIFA World Cup qualification,played,Togo,TGO,Guinea-Bissau,,TRUE,3,0,win,Lomé,Togo,FALSE,1386,1190,1397,1179,11
+2000-06-04,Friendly,played,Togo,TGO,Benin,,FALSE,2,1,win,Cotonou,Benin,FALSE,1397,1242,1405,1234,8
+2000-07-08,FIFA World Cup qualification,played,Togo,TGO,Zambia,,FALSE,0,2,loss,Lusaka,Zambia,FALSE,1405,1479,1389,1495,-16
+2000-08-20,African Cup of Nations qualification,played,Togo,TGO,Sierra Leone,,FALSE,0,2,loss,Freetown,Sierra Leone,FALSE,1389,1340,1363,1366,-26
+2000-09-03,African Cup of Nations qualification,played,Togo,TGO,Sierra Leone,,TRUE,2,0,win,Lomé,Togo,FALSE,1363,1366,1385,1344,22
+2000-09-24,African Cup of Nations qualification,played,Togo,TGO,Senegal,SEN,FALSE,0,0,draw,Dakar,Senegal,FALSE,1385,1477,1395,1467,10
+2000-10-08,African Cup of Nations qualification,played,Togo,TGO,Uganda,,TRUE,3,0,win,Lomé,Togo,FALSE,1395,1410,1422,1383,27
+2001-01-07,Friendly,played,Togo,TGO,Burkina Faso,,TRUE,1,1,draw,Lomé,Togo,FALSE,1422,1415,1419,1418,-3
+2001-01-28,FIFA World Cup qualification,played,Togo,TGO,Cameroon,CMR,TRUE,0,2,loss,Lomé,Togo,FALSE,1429,1722,1414,1737,-15
+2001-02-23,FIFA World Cup qualification,played,Togo,TGO,Libya,,FALSE,3,3,draw,Benghazi,Libya,FALSE,1414,1415,1420,1409,6
+2001-03-11,FIFA World Cup qualification,played,Togo,TGO,Angola,AGO,TRUE,1,1,draw,Lomé,Togo,FALSE,1420,1459,1417,1462,-3
+2001-05-06,FIFA World Cup qualification,played,Togo,TGO,Zambia,,TRUE,3,2,win,Lomé,Togo,FALSE,1417,1450,1433,1434,16
+2001-06-02,African Cup of Nations qualification,played,Togo,TGO,Uganda,,FALSE,3,0,win,Kampala,Uganda,FALSE,1433,1399,1475,1357,42
+2001-06-17,African Cup of Nations qualification,played,Togo,TGO,Senegal,SEN,TRUE,1,0,win,Lomé,Togo,FALSE,1475,1527,1492,1510,17
+2001-07-01,FIFA World Cup qualification,played,Togo,TGO,Cameroon,CMR,FALSE,0,2,loss,Yaoundé,Cameroon,FALSE,1492,1709,1484,1717,-8
+2001-07-15,FIFA World Cup qualification,played,Togo,TGO,Libya,,TRUE,2,0,win,Lomé,Togo,FALSE,1484,1389,1499,1374,15
+2001-07-29,FIFA World Cup qualification,played,Togo,TGO,Angola,AGO,FALSE,1,1,draw,Luanda,Angola,FALSE,1499,1519,1506,1512,7
+2001-11-28,Friendly,played,Togo,TGO,Tunisia,TUN,FALSE,0,1,loss,Tunis,Tunisia,FALSE,1506,1670,1502,1674,-4
+2001-12-16,Friendly,played,Togo,TGO,Burkina Faso,,FALSE,2,1,win,Ouagadougou,Burkina Faso,FALSE,1502,1377,1511,1368,9
+2001-12-22,Friendly,played,Togo,TGO,Burkina Faso,,TRUE,1,0,win,Lomé,Togo,FALSE,1511,1368,1515,1364,4
+2001-12-30,Friendly,played,Togo,TGO,Benin,,FALSE,1,1,draw,Cotonou,Benin,FALSE,1515,1233,1510,1238,-5
+2002-01-21,African Cup of Nations,played,Togo,TGO,Ivory Coast,CIV,TRUE,0,0,draw,Sikasso,Mali,TRUE,1510,1622,1518,1614,8
+2002-01-26,African Cup of Nations,played,Togo,TGO,DR Congo,,FALSE,0,0,draw,Sikasso,Mali,TRUE,1518,1415,1511,1422,-7
+2002-01-29,African Cup of Nations,played,Togo,TGO,Cameroon,CMR,FALSE,0,3,loss,Sikasso,Mali,TRUE,1511,1753,1494,1770,-17
+2002-09-02,Friendly,played,Togo,TGO,Libya,,FALSE,0,4,loss,Misrata,Libya,FALSE,1494,1360,1473,1381,-21
+2002-09-07,African Cup of Nations qualification,played,Togo,TGO,Kenya,,FALSE,0,3,loss,Nairobi,Kenya,FALSE,1473,1397,1440,1430,-33
+2002-10-12,African Cup of Nations qualification,played,Togo,TGO,Mauritania,,TRUE,1,0,win,Lomé,Togo,FALSE,1440,1102,1443,1099,3
+2003-03-29,African Cup of Nations qualification,played,Togo,TGO,Cape Verde,,FALSE,1,2,loss,Praia,Cape Verde,FALSE,1443,1344,1423,1364,-20
+2003-05-25,Friendly,played,Togo,TGO,Benin,,TRUE,3,1,win,Lomé,Togo,FALSE,1423,1257,1428,1252,5
+2003-06-08,African Cup of Nations qualification,played,Togo,TGO,Cape Verde,,TRUE,5,2,win,Lomé,Togo,FALSE,1428,1363,1448,1343,20
+2003-06-22,African Cup of Nations qualification,played,Togo,TGO,Kenya,,TRUE,2,0,win,Lomé,Togo,FALSE,1448,1503,1474,1477,26
+2003-07-05,African Cup of Nations qualification,played,Togo,TGO,Mauritania,,FALSE,0,0,draw,Nouakchott,Mauritania,FALSE,1474,1096,1461,1109,-13
+2003-10-11,FIFA World Cup qualification,played,Togo,TGO,Equatorial Guinea,,FALSE,0,1,loss,Bata,Equatorial Guinea,FALSE,1461,1034,1426,1069,-35
+2003-11-16,FIFA World Cup qualification,played,Togo,TGO,Equatorial Guinea,,TRUE,2,0,win,Lomé,Togo,FALSE,1426,1080,1430,1076,4
+2004-05-20,Friendly,played,Togo,TGO,Benin,,FALSE,1,0,win,Cotonou,Benin,FALSE,1430,1296,1439,1287,9
+2004-05-23,Friendly,played,Togo,TGO,Benin,,TRUE,1,1,draw,Lomé,Togo,FALSE,1439,1287,1433,1293,-6
+2004-06-05,FIFA World Cup qualification,played,Togo,TGO,Zambia,,FALSE,0,1,loss,Lusaka,Zambia,FALSE,1433,1436,1419,1450,-14
+2004-06-14,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,0,0,draw,Kumasi,Ghana,FALSE,1419,1427,1422,1424,3
+2004-06-20,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,TRUE,3,1,win,Lomé,Togo,FALSE,1422,1719,1467,1674,45
+2004-07-04,FIFA World Cup qualification,played,Togo,TGO,Liberia,,FALSE,0,0,draw,Paynesville,Liberia,FALSE,1467,1401,1469,1399,2
+2004-09-05,FIFA World Cup qualification,played,Togo,TGO,Congo,,TRUE,2,0,win,Lomé,Togo,FALSE,1469,1437,1488,1418,19
+2004-10-10,FIFA World Cup qualification,played,Togo,TGO,Mali,,TRUE,1,0,win,Lomé,Togo,FALSE,1488,1540,1505,1523,17
+2005-03-27,FIFA World Cup qualification,played,Togo,TGO,Mali,,FALSE,2,1,win,Bamako,Mali,FALSE,1505,1523,1532,1496,27
+2005-05-29,Friendly,played,Togo,TGO,Burkina Faso,,TRUE,1,0,win,Lomé,Togo,FALSE,1532,1345,1535,1342,3
+2005-06-05,FIFA World Cup qualification,played,Togo,TGO,Zambia,,TRUE,4,1,win,Lomé,Togo,FALSE,1535,1500,1557,1478,22
+2005-06-18,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,FALSE,2,2,draw,Dakar,Senegal,FALSE,1557,1674,1568,1663,11
+2005-08-17,Friendly,played,Togo,TGO,Morocco,MAR,FALSE,1,0,win,Rouen,France,TRUE,1568,1681,1581,1668,13
+2005-09-04,FIFA World Cup qualification,played,Togo,TGO,Liberia,,TRUE,3,0,win,Lomé,Togo,FALSE,1581,1311,1588,1304,7
+2005-10-08,FIFA World Cup qualification,played,Togo,TGO,Congo,,FALSE,3,2,win,Brazzaville,Congo,FALSE,1588,1390,1603,1375,15
+2005-11-11,Friendly,played,Togo,TGO,Paraguay,PRY,FALSE,2,4,loss,Tehran,Iran,TRUE,1603,1765,1590,1778,-13
+2005-11-13,Friendly,played,Togo,TGO,Iran,IRN,FALSE,0,2,loss,Tehran,Iran,FALSE,1590,1803,1584,1809,-6
+2006-01-07,Friendly,played,Togo,TGO,Guinea,,FALSE,0,1,loss,Viry-Châtillon,France,TRUE,1584,1503,1572,1515,-12
+2006-01-11,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,1,0,win,Monastir,Tunisia,TRUE,1572,1602,1583,1591,11
+2006-01-21,African Cup of Nations,played,Togo,TGO,DR Congo,,TRUE,0,2,loss,Cairo,Egypt,TRUE,1583,1456,1532,1507,-51
+2006-01-25,African Cup of Nations,played,Togo,TGO,Cameroon,CMR,FALSE,0,2,loss,Cairo,Egypt,TRUE,1532,1760,1516,1776,-16
+2006-01-29,African Cup of Nations,played,Togo,TGO,Angola,AGO,FALSE,2,3,loss,Cairo,Egypt,TRUE,1516,1532,1492,1556,-24
+2006-05-14,Friendly,played,Togo,TGO,Saudi Arabia,SAU,FALSE,0,1,loss,Sittard,Netherlands,TRUE,1492,1553,1484,1561,-8
+2006-06-02,Friendly,played,Togo,TGO,Liechtenstein,,FALSE,1,0,win,Vaduz,Liechtenstein,FALSE,1484,1125,1488,1121,4
+2006-06-13,FIFA World Cup,played,Togo,TGO,South Korea,KOR,FALSE,1,2,loss,Frankfurt am Main,Germany,TRUE,1488,1744,1477,1755,-11
+2006-06-19,FIFA World Cup,played,Togo,TGO,Switzerland,CHE,TRUE,0,2,loss,Dortmund,Germany,TRUE,1477,1813,1466,1824,-11
+2006-06-23,FIFA World Cup,played,Togo,TGO,France,FRA,TRUE,0,2,loss,Cologne,Germany,TRUE,1466,1940,1460,1946,-6
+2006-08-15,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,0,2,loss,Brentford,England,TRUE,1460,1714,1454,1720,-6
+2006-08-29,Friendly,played,Togo,TGO,Niger,,TRUE,1,1,draw,Lomé,Togo,FALSE,1454,1302,1448,1308,-6
+2006-09-03,African Cup of Nations qualification,played,Togo,TGO,Benin,,TRUE,2,1,win,Lomé,Togo,FALSE,1448,1253,1454,1247,6
+2006-10-08,African Cup of Nations qualification,played,Togo,TGO,Mali,,FALSE,0,1,loss,Bamako,Mali,FALSE,1454,1542,1444,1552,-10
+2006-11-15,Friendly,played,Togo,TGO,Luxembourg,,FALSE,0,0,draw,Luxembourg,Luxembourg,FALSE,1444,985,1436,993,-8
+2007-02-07,Friendly,played,Togo,TGO,Cameroon,CMR,TRUE,2,2,draw,Lomé,Togo,FALSE,1436,1784,1442,1778,6
+2007-03-24,African Cup of Nations qualification,played,Togo,TGO,Sierra Leone,,TRUE,3,1,win,Woumé,Togo,FALSE,1442,1294,1454,1282,12
+2007-06-03,African Cup of Nations qualification,played,Togo,TGO,Sierra Leone,,FALSE,1,0,win,Freetown,Sierra Leone,FALSE,1454,1282,1470,1266,16
+2007-06-17,African Cup of Nations qualification,played,Togo,TGO,Benin,,FALSE,1,4,loss,Cotonou,Benin,FALSE,1470,1286,1427,1329,-43
+2007-08-22,Friendly,played,Togo,TGO,Zambia,,TRUE,3,1,win,Lomé,Togo,FALSE,1427,1539,1443,1523,16
+2007-10-12,African Cup of Nations qualification,played,Togo,TGO,Mali,,TRUE,0,2,loss,Lomé,Togo,FALSE,1443,1565,1415,1593,-28
+2007-11-18,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,0,2,loss,Accra,Ghana,FALSE,1415,1754,1412,1757,-3
+2007-11-21,Friendly,played,Togo,TGO,United Arab Emirates,ARE,FALSE,5,0,win,Accra,Ghana,TRUE,1412,1471,1447,1436,35
+2008-03-25,Friendly,played,Togo,TGO,Guinea,,TRUE,0,2,loss,Paris,France,TRUE,1447,1598,1438,1607,-9
+2008-05-31,FIFA World Cup qualification,played,Togo,TGO,Zambia,,TRUE,1,0,win,Accra,Ghana,TRUE,1438,1565,1465,1538,27
+2008-06-08,FIFA World Cup qualification,played,Togo,TGO,Eswatini,,FALSE,1,2,loss,Lobamba,Swaziland,FALSE,1465,1135,1433,1167,-32
+2008-08-20,Friendly,played,Togo,TGO,DR Congo,,FALSE,1,2,loss,Dreux,France,TRUE,1433,1456,1424,1465,-9
+2008-09-10,FIFA World Cup qualification,played,Togo,TGO,Zambia,,FALSE,0,1,loss,Chililabombwe,Zambia,FALSE,1424,1518,1414,1528,-10
+2008-10-11,FIFA World Cup qualification,played,Togo,TGO,Eswatini,,TRUE,6,0,win,Accra,Ghana,TRUE,1414,1187,1432,1169,18
+2008-11-19,Friendly,played,Togo,TGO,Rwanda,,TRUE,1,0,win,Lomé,Togo,FALSE,1432,1421,1439,1414,7
+2009-02-11,Friendly,played,Togo,TGO,Burkina Faso,,FALSE,1,1,draw,Le Petit-Quevilly,France,TRUE,1439,1420,1438,1421,-1
+2009-03-28,FIFA World Cup qualification,played,Togo,TGO,Cameroon,CMR,TRUE,1,0,win,Accra,Ghana,TRUE,1438,1750,1472,1716,34
+2009-06-06,FIFA World Cup qualification,played,Togo,TGO,Gabon,,FALSE,0,3,loss,Libreville,Gabon,FALSE,1472,1542,1453,1561,-19
+2009-06-20,FIFA World Cup qualification,played,Togo,TGO,Morocco,MAR,FALSE,0,0,draw,Rabat,Morocco,FALSE,1453,1649,1467,1635,14
+2009-08-12,Friendly,played,Togo,TGO,Angola,AGO,TRUE,0,2,loss,Lisbon,Portugal,TRUE,1467,1458,1452,1473,-15
+2009-09-06,FIFA World Cup qualification,played,Togo,TGO,Morocco,MAR,TRUE,1,1,draw,Lomé,Togo,FALSE,1452,1628,1456,1624,4
+2009-10-10,FIFA World Cup qualification,played,Togo,TGO,Cameroon,CMR,FALSE,0,3,loss,Yaoundé,Cameroon,FALSE,1456,1746,1449,1753,-7
+2009-10-14,Friendly,played,Togo,TGO,Japan,JPN,FALSE,0,5,loss,Miyagi,Japan,FALSE,1449,1785,1446,1788,-3
+2009-11-06,Friendly,played,Togo,TGO,Bahrain,,FALSE,1,5,loss,Riffa,Bahrain,FALSE,1446,1622,1440,1628,-6
+2009-11-14,FIFA World Cup qualification,played,Togo,TGO,Gabon,,TRUE,1,0,win,Lomé,Togo,FALSE,1440,1556,1461,1535,21
+2010-05-19,Corsica Cup,played,Togo,TGO,Gabon,,FALSE,0,3,loss,Ajaccio,France,TRUE,1461,1562,1442,1581,-19
+2010-05-21,Corsica Cup,played,Togo,TGO,Brittany,,FALSE,1,2,loss,Bastia,France,FALSE,,,,,
+2010-07-01,African Cup of Nations qualification,played,Togo,TGO,Chad,,FALSE,2,2,draw,N'Djamena,Chad,FALSE,1442,1265,1438,1269,-4
+2010-07-09,African Cup of Nations qualification,played,Togo,TGO,Malawi,,TRUE,1,1,draw,Lomé,Togo,FALSE,1438,1362,1429,1371,-9
+2010-08-11,Friendly,played,Togo,TGO,Saudi Arabia,SAU,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1429,1685,1427,1687,-2
+2010-09-04,African Cup of Nations qualification,played,Togo,TGO,Botswana,,FALSE,1,2,loss,Gaborone,Botswana,FALSE,1427,1373,1410,1390,-17
+2010-09-07,Friendly,played,Togo,TGO,Bahrain,,FALSE,0,3,loss,Riffa,Bahrain,FALSE,,,,,
+2010-10-10,African Cup of Nations qualification,played,Togo,TGO,Tunisia,TUN,TRUE,1,2,loss,Lomé,Togo,FALSE,1410,1583,1394,1599,-16
+2010-11-17,African Cup of Nations qualification,played,Togo,TGO,Chad,,TRUE,0,0,draw,Lomé,Togo,FALSE,1394,1224,1381,1237,-13
+2011-02-08,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,1,4,loss,Antwerp,Belgium,TRUE,1381,1741,1377,1745,-4
+2011-03-26,African Cup of Nations qualification,played,Togo,TGO,Malawi,,FALSE,0,1,loss,Blantyre,Malawi,FALSE,1377,1421,1365,1433,-12
+2011-08-10,Friendly,played,Togo,TGO,Niger,,FALSE,3,3,draw,Niamey,Niger,FALSE,1365,1305,1366,1304,1
+2011-09-04,African Cup of Nations qualification,played,Togo,TGO,Botswana,,TRUE,1,0,win,Lomé,Togo,FALSE,1366,1417,1383,1400,17
+2011-10-08,African Cup of Nations qualification,played,Togo,TGO,Tunisia,TUN,FALSE,0,2,loss,Radès,Tunisia,FALSE,1383,1579,1374,1588,-9
+2011-11-11,FIFA World Cup qualification,played,Togo,TGO,Guinea-Bissau,,FALSE,1,1,draw,Bissau,Guinea-Bissau,FALSE,1374,1227,1371,1230,-3
+2011-11-15,FIFA World Cup qualification,played,Togo,TGO,Guinea-Bissau,,TRUE,1,0,win,Lomé,Togo,FALSE,1371,1230,1379,1222,8
+2012-02-29,African Cup of Nations qualification,played,Togo,TGO,Kenya,,FALSE,1,2,loss,Nairobi,Kenya,FALSE,1379,1316,1361,1334,-18
+2012-05-22,Friendly,played,Togo,TGO,Egypt,EGY,FALSE,0,3,loss,Omdurman,Sudan,TRUE,1361,1745,1358,1748,-3
+2012-06-03,FIFA World Cup qualification,played,Togo,TGO,Libya,,TRUE,1,1,draw,Lomé,Togo,FALSE,1358,1507,1361,1504,3
+2012-06-10,FIFA World Cup qualification,played,Togo,TGO,DR Congo,,FALSE,0,2,loss,Kinshasa,DR Congo,FALSE,1361,1438,1345,1454,-16
+2012-06-17,African Cup of Nations qualification,played,Togo,TGO,Kenya,,TRUE,1,0,win,Lomé,Togo,FALSE,1345,1315,1358,1302,13
+2012-08-14,Friendly,played,Togo,TGO,Burkina Faso,,FALSE,0,3,loss,Saint-Leu-la-Forêt,France,TRUE,1358,1424,1344,1438,-14
+2012-09-08,African Cup of Nations qualification,played,Togo,TGO,Gabon,,FALSE,1,1,draw,Libreville,Gabon,FALSE,1344,1566,1359,1551,15
+2012-10-14,African Cup of Nations qualification,played,Togo,TGO,Gabon,,TRUE,2,1,win,Lomé,Togo,FALSE,1359,1559,1385,1533,26
+2012-11-14,Friendly,played,Togo,TGO,Morocco,MAR,FALSE,1,0,win,Casablanca,Morocco,FALSE,1385,1560,1402,1543,17
+2012-12-29,Friendly,played,Togo,TGO,Oman,,FALSE,1,0,win,Sohar,Oman,FALSE,1402,1539,1418,1523,16
+2013-01-05,Friendly,played,Togo,TGO,Niger,,FALSE,1,3,loss,Niamey,Niger,FALSE,1418,1339,1404,1353,-14
+2013-01-13,Friendly,played,Togo,TGO,Niger,,TRUE,2,1,win,Lomé,Togo,FALSE,1404,1356,1410,1350,6
+2013-01-22,African Cup of Nations,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,2,loss,Rustenburg,South Africa,TRUE,1410,1842,1406,1846,-4
+2013-01-26,African Cup of Nations,played,Togo,TGO,Algeria,DZA,FALSE,2,0,win,Rustenburg,South Africa,TRUE,1406,1539,1457,1488,51
+2013-01-30,African Cup of Nations,played,Togo,TGO,Tunisia,TUN,TRUE,1,1,draw,Nelspruit,South Africa,TRUE,1457,1587,1466,1578,9
+2013-02-03,African Cup of Nations,played,Togo,TGO,Burkina Faso,,FALSE,0,1,loss,Nelspruit,South Africa,TRUE,1466,1497,1443,1520,-23
+2013-03-23,FIFA World Cup qualification,played,Togo,TGO,Cameroon,CMR,FALSE,1,2,loss,Yaoundé,Cameroon,FALSE,1443,1569,1434,1578,-9
+2013-06-09,FIFA World Cup qualification,played,Togo,TGO,Cameroon,CMR,TRUE,0,3,loss,Lomé,Togo,FALSE,,,,,
+2013-06-14,FIFA World Cup qualification,played,Togo,TGO,Libya,,FALSE,0,2,loss,Tripoli,Libya,FALSE,1478,1541,1461,1558,-17
+2013-09-08,FIFA World Cup qualification,played,Togo,TGO,DR Congo,,TRUE,2,1,win,Lomé,Togo,FALSE,1461,1461,1475,1447,14
+2014-09-05,African Cup of Nations qualification,played,Togo,TGO,Guinea,,FALSE,1,2,loss,Casablanca,Morocco,TRUE,1475,1538,1459,1554,-16
+2014-09-10,African Cup of Nations qualification,played,Togo,TGO,Ghana,GHA,TRUE,2,3,loss,Lomé,Togo,FALSE,1459,1681,1446,1694,-13
+2014-10-11,African Cup of Nations qualification,played,Togo,TGO,Uganda,,FALSE,1,0,win,Kampala,Uganda,FALSE,1446,1510,1475,1481,29
+2014-10-15,African Cup of Nations qualification,played,Togo,TGO,Uganda,,TRUE,1,0,win,Lomé,Togo,FALSE,1475,1481,1490,1466,15
+2014-11-15,African Cup of Nations qualification,played,Togo,TGO,Guinea,,TRUE,1,4,loss,Lomé,Togo,FALSE,1490,1523,1448,1565,-42
+2014-11-19,African Cup of Nations qualification,played,Togo,TGO,Ghana,GHA,FALSE,1,3,loss,Tamale,Ghana,FALSE,1448,1670,1440,1678,-8
+2015-03-28,Friendly,played,Togo,TGO,Mauritius,,FALSE,1,1,draw,Mapou,Mauritius,FALSE,1440,1025,1433,1032,-7
+2015-06-08,Friendly,played,Togo,TGO,Ghana,GHA,FALSE,0,1,loss,Accra,Ghana,FALSE,1433,1639,1430,1642,-3
+2015-06-14,African Cup of Nations qualification,played,Togo,TGO,Liberia,,TRUE,2,1,win,Lomé,Togo,FALSE,1430,1291,1438,1283,8
+2015-09-04,African Cup of Nations qualification,played,Togo,TGO,Djibouti,,FALSE,2,0,win,Djibouti,Djibouti,FALSE,1438,784,1440,782,2
+2015-11-12,FIFA World Cup qualification,played,Togo,TGO,Uganda,,TRUE,0,1,loss,Lomé,Togo,FALSE,1440,1487,1417,1510,-23
+2015-11-15,FIFA World Cup qualification,played,Togo,TGO,Uganda,,FALSE,0,3,loss,Kampala,Uganda,FALSE,1417,1510,1400,1527,-17
+2016-03-25,African Cup of Nations qualification,played,Togo,TGO,Tunisia,TUN,FALSE,0,1,loss,Monastir,Tunisia,FALSE,1400,1546,1392,1554,-8
+2016-03-29,African Cup of Nations qualification,played,Togo,TGO,Tunisia,TUN,TRUE,0,0,draw,Lomé,Togo,FALSE,1392,1554,1396,1550,4
+2016-05-27,Friendly,played,Togo,TGO,Zambia,,TRUE,1,0,win,Lomé,Togo,FALSE,1396,1503,1406,1493,10
+2016-06-05,African Cup of Nations qualification,played,Togo,TGO,Liberia,,FALSE,2,2,draw,Monrovia,Liberia,FALSE,1406,1330,1407,1329,1
+2016-09-04,African Cup of Nations qualification,played,Togo,TGO,Djibouti,,TRUE,5,0,win,Lomé,Togo,FALSE,1407,750,1408,749,1
+2016-10-04,Friendly,played,Togo,TGO,Uganda,,TRUE,1,0,win,Lomé,Togo,FALSE,1408,1495,1418,1485,10
+2016-10-09,Friendly,played,Togo,TGO,Mozambique,,TRUE,2,0,win,Lomé,Togo,FALSE,1418,1328,1426,1320,8
+2016-11-11,Friendly,played,Togo,TGO,Comoros,,TRUE,2,2,draw,Tunis,Tunisia,TRUE,1426,966,1417,975,-9
+2016-11-15,Friendly,played,Togo,TGO,Morocco,MAR,FALSE,1,2,loss,Marrakech,Morocco,FALSE,1417,1597,1414,1600,-3
+2017-01-16,African Cup of Nations,played,Togo,TGO,Ivory Coast,CIV,FALSE,0,0,draw,Oyem,Gabon,TRUE,1414,1735,1432,1717,18
+2017-01-20,African Cup of Nations,played,Togo,TGO,Morocco,MAR,FALSE,1,3,loss,Oyem,Gabon,TRUE,1432,1561,1408,1585,-24
+2017-01-24,African Cup of Nations,played,Togo,TGO,DR Congo,,TRUE,1,3,loss,Port-Gentil,Gabon,TRUE,1408,1600,1389,1619,-19
+2017-03-24,Friendly,played,Togo,TGO,Libya,,FALSE,0,0,draw,Alexandria,Egypt,TRUE,1389,1461,1391,1459,2
+2017-03-28,Friendly,played,Togo,TGO,Egypt,EGY,FALSE,0,3,loss,Alexandria,Egypt,FALSE,1391,1671,1387,1675,-4
+2017-06-01,Friendly,played,Togo,TGO,Nigeria,NGA,FALSE,0,3,loss,Saint-Leu-la-Forêt,France,TRUE,1387,1667,1381,1673,-6
+2017-06-04,Friendly,played,Togo,TGO,Comoros,,TRUE,2,0,win,Marseille,France,TRUE,1381,1023,1384,1020,3
+2017-06-11,African Cup of Nations qualification,played,Togo,TGO,Algeria,DZA,FALSE,0,1,loss,Blida,Algeria,FALSE,1384,1606,1379,1611,-5
+2017-08-31,Friendly,played,Togo,TGO,Niger,,FALSE,2,0,win,Agadir,Morocco,TRUE,1379,1287,1390,1276,11
+2017-09-04,Friendly,played,Togo,TGO,Malawi,,FALSE,0,1,loss,Agadir,Morocco,TRUE,1390,1287,1377,1300,-13
+2017-10-05,Friendly,played,Togo,TGO,Iran,IRN,FALSE,0,2,loss,Tehran,Iran,FALSE,1377,1782,1375,1784,-2
+2017-11-12,Friendly,played,Togo,TGO,Mauritius,,TRUE,6,0,win,Lomé,Togo,FALSE,1375,1071,1379,1067,4
+2018-03-21,Friendly,played,Togo,TGO,Madagascar,,FALSE,0,0,draw,Saint-Leu-la-Forêt,France,TRUE,1379,1365,1379,1365,0
+2018-03-24,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,2,2,draw,Beauvais,France,TRUE,1379,1601,1385,1595,6
+2018-09-09,African Cup of Nations qualification,played,Togo,TGO,Benin,,TRUE,0,0,draw,Lomé,Togo,FALSE,1385,1412,1381,1416,-4
+2018-10-12,African Cup of Nations qualification,played,Togo,TGO,Gambia,,TRUE,1,1,draw,Lomé,Togo,FALSE,1381,1279,1371,1289,-10
+2018-10-16,African Cup of Nations qualification,played,Togo,TGO,Gambia,,FALSE,1,0,win,Bakau,Gambia,FALSE,1371,1289,1392,1268,21
+2018-11-18,African Cup of Nations qualification,played,Togo,TGO,Algeria,DZA,TRUE,1,4,loss,Lomé,Togo,FALSE,1392,1493,1357,1528,-35
+2019-03-24,African Cup of Nations qualification,played,Togo,TGO,Benin,,FALSE,1,2,loss,Cotonou,Benin,FALSE,1357,1386,1344,1399,-13
+2019-09-06,FIFA World Cup qualification,played,Togo,TGO,Comoros,,FALSE,1,1,draw,Moroni,Comoros,FALSE,1344,1125,1337,1132,-7
+2019-09-10,FIFA World Cup qualification,played,Togo,TGO,Comoros,,TRUE,2,0,win,Lomé,Togo,FALSE,1337,1132,1346,1123,9
+2019-10-10,Friendly,played,Togo,TGO,Cape Verde,,FALSE,1,2,loss,Fos-sur-Mer,Cape Verde,FALSE,1346,1388,1337,1397,-9
+2019-10-13,Friendly,played,Togo,TGO,Equatorial Guinea,,FALSE,1,1,draw,Equatorial Guinea,Equatorial Guinea,FALSE,1337,1322,1337,1322,0
+2019-11-14,African Cup of Nations qualification,played,Togo,TGO,Comoros,,TRUE,0,1,loss,Lomé,Togo,FALSE,1337,1140,1303,1174,-34
+2019-11-18,African Cup of Nations qualification,played,Togo,TGO,Kenya,,FALSE,1,1,draw,Kasarani,Kenya,FALSE,1303,1383,1313,1373,10
+2020-10-12,Friendly,played,Togo,TGO,Sudan,,TRUE,1,1,draw,Tunis,Tunisia,TRUE,1313,1300,1313,1300,0
+2020-11-14,African Cup of Nations qualification,played,Togo,TGO,Egypt,EGY,FALSE,0,1,loss,Cairo,Egypt,FALSE,1313,1581,1309,1585,-4
+2020-11-17,African Cup of Nations qualification,played,Togo,TGO,Egypt,EGY,TRUE,1,3,loss,Lomé,Togo,FALSE,1309,1585,1293,1601,-16
+2021-03-25,African Cup of Nations qualification,played,Togo,TGO,Comoros,,FALSE,0,0,draw,Moroni,Comoros,FALSE,1293,1242,1296,1239,3
+2021-03-29,African Cup of Nations qualification,played,Togo,TGO,Kenya,,TRUE,1,2,loss,Lomé,Togo,FALSE,1296,1365,1274,1387,-22
+2021-06-05,Friendly,played,Togo,TGO,Guinea,,FALSE,2,0,win,Antalya,Turkey,TRUE,1274,1441,1296,1419,22
+2021-06-08,Friendly,played,Togo,TGO,Gambia,,FALSE,0,1,loss,Antalya,Turkey,TRUE,1296,1370,1288,1378,-8
+2021-09-01,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,FALSE,0,2,loss,Thiès,Senegal,FALSE,1288,1683,1285,1686,-3
+2021-09-05,FIFA World Cup qualification,played,Togo,TGO,Namibia,,TRUE,0,1,loss,Lomé,Togo,FALSE,1285,1367,1264,1388,-21
+2021-10-09,FIFA World Cup qualification,played,Togo,TGO,Congo,,TRUE,1,1,draw,Lomé,Togo,FALSE,1264,1350,1263,1351,-1
+2021-10-12,FIFA World Cup qualification,played,Togo,TGO,Congo,,FALSE,2,1,win,Brazzaville,Congo,FALSE,1263,1351,1293,1321,30
+2021-11-11,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,TRUE,1,1,draw,Lomé,Togo,FALSE,1293,1713,1308,1698,15
+2021-11-15,FIFA World Cup qualification,played,Togo,TGO,Namibia,,FALSE,1,0,win,Johannesburg,South Africa,TRUE,1308,1377,1332,1353,24
+2022-03-24,Friendly,played,Togo,TGO,Sierra Leone,,TRUE,3,0,win,Antalya,Turkey,TRUE,1332,1354,1351,1335,19
+2022-03-29,Friendly,played,Togo,TGO,Benin,,TRUE,1,1,draw,Antalya,Turkey,TRUE,1351,1456,1354,1453,3
+2022-06-03,African Cup of Nations qualification,played,Togo,TGO,Eswatini,,TRUE,2,2,draw,Lomé,Togo,FALSE,1354,1268,1344,1278,-10
+2022-06-07,African Cup of Nations qualification,played,Togo,TGO,Cape Verde,,FALSE,0,2,loss,Marrakech,Morocco,TRUE,1344,1448,1323,1469,-21
+2022-09-24,Friendly,played,Togo,TGO,Ivory Coast,CIV,FALSE,1,2,loss,Rouen,France,TRUE,1323,1670,1321,1672,-2
+2022-09-27,Friendly,played,Togo,TGO,Equatorial Guinea,,FALSE,2,2,draw,Casablanca,Morocco,TRUE,1321,1434,1324,1431,3
+2023-03-24,African Cup of Nations qualification,played,Togo,TGO,Burkina Faso,,FALSE,0,1,loss,Marrakech,Morocco,TRUE,1324,1602,1317,1609,-7
+2023-03-28,African Cup of Nations qualification,played,Togo,TGO,Burkina Faso,,TRUE,1,1,draw,Lomé,Togo,FALSE,1317,1609,1327,1599,10
+2023-06-14,Friendly,played,Togo,TGO,Lesotho,,TRUE,2,0,win,Johannesburg,South Africa,TRUE,1327,1227,1338,1216,11
+2023-06-18,African Cup of Nations qualification,played,Togo,TGO,Eswatini,,FALSE,2,0,win,Mbombela,South Africa,TRUE,1338,1290,1364,1264,26
+2023-09-10,African Cup of Nations qualification,played,Togo,TGO,Cape Verde,,TRUE,3,2,win,Lomé,Togo,FALSE,1364,1519,1387,1496,23
+2023-11-16,FIFA World Cup qualification,played,Togo,TGO,Sudan,,FALSE,1,1,draw,Benghazi,Libya,TRUE,1387,1283,1381,1289,-6
+2023-11-21,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,TRUE,0,0,draw,Lomé,Togo,FALSE,1381,1744,1394,1731,13
+2024-01-05,Friendly,played,Togo,TGO,Algeria,DZA,TRUE,0,3,loss,Lomé,Togo,FALSE,1394,1723,1387,1730,-7
+2024-03-22,Friendly,played,Togo,TGO,Niger,,FALSE,2,1,win,Mohammedia,Morocco,TRUE,1387,1237,1393,1231,6
+2024-06-05,FIFA World Cup qualification,played,Togo,TGO,South Sudan,,TRUE,1,1,draw,Lomé,Togo,FALSE,1393,1134,1377,1150,-16
+2024-06-09,FIFA World Cup qualification,played,Togo,TGO,DR Congo,,FALSE,0,1,loss,Kinshasa,DR Congo,FALSE,1377,1546,1370,1553,-7
+2024-09-06,African Cup of Nations qualification,played,Togo,TGO,Liberia,,TRUE,1,1,draw,Lomé,Togo,FALSE,1370,1264,1359,1275,-11
+2024-09-09,African Cup of Nations qualification,played,Togo,TGO,Equatorial Guinea,,FALSE,2,2,draw,Malabo,Equatorial Guinea,FALSE,1359,1536,1372,1523,13
+2024-10-10,African Cup of Nations qualification,played,Togo,TGO,Algeria,DZA,FALSE,1,5,loss,Annaba,Algeria,FALSE,1372,1668,1365,1675,-7
+2024-10-14,African Cup of Nations qualification,played,Togo,TGO,Algeria,DZA,TRUE,0,1,loss,Lomé,Togo,FALSE,1365,1675,1356,1684,-9
+2024-11-13,African Cup of Nations qualification,played,Togo,TGO,Liberia,,FALSE,0,1,loss,Monrovia,Liberia,FALSE,1356,1248,1336,1268,-20
+2024-11-17,African Cup of Nations qualification,played,Togo,TGO,Equatorial Guinea,,TRUE,3,0,win,Lomé,Togo,FALSE,1336,1541,1381,1496,45
+2025-03-22,FIFA World Cup qualification,played,Togo,TGO,Mauritania,,TRUE,2,2,draw,Lomé,Togo,FALSE,1381,1363,1374,1370,-7
+2025-03-25,FIFA World Cup qualification,played,Togo,TGO,Senegal,SEN,FALSE,0,2,loss,Diamniadio,Senegal,FALSE,1374,1755,1370,1759,-4
+2025-09-05,FIFA World Cup qualification,played,Togo,TGO,Mauritania,,FALSE,0,2,loss,Nouadhibou,Mauritania,FALSE,1370,1333,1345,1358,-25
+2025-09-09,FIFA World Cup qualification,played,Togo,TGO,Sudan,,TRUE,1,0,win,Lomé,Togo,FALSE,1345,1393,1362,1376,17
+2025-10-10,FIFA World Cup qualification,played,Togo,TGO,DR Congo,,TRUE,0,1,loss,Lomé,Togo,FALSE,1362,1576,1348,1590,-14
+2025-10-13,FIFA World Cup qualification,played,Togo,TGO,South Sudan,,FALSE,0,0,draw,Juba,South Sudan,FALSE,1348,1137,1342,1143,-6
+2026-03-27,"Morocco, Capital of African Football",played,Togo,TGO,Guinea,,FALSE,2,2,draw,Rabat,Morocco,TRUE,1342,1485,1346,1481,4
+2026-03-31,"Morocco, Capital of African Football",played,Togo,TGO,Niger,,FALSE,1,0,win,Casablanca,Morocco,TRUE,1346,1405,1358,1393,12

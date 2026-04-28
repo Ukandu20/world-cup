@@ -15,6 +15,7 @@ from .constants import (
     V3_MODEL_SUMMARY,
     V3_MODEL_VERSION,
     WEIGHTED_FORM_COMPOSITE_WEIGHTS,
+    WORLD_CUP_ROOT,
     WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT,
 )
 from .shared import (
@@ -74,6 +75,7 @@ __all__ = [
     'V3_MODEL_SUMMARY',
     'V3_MODEL_VERSION',
     'WEIGHTED_FORM_COMPOSITE_WEIGHTS',
+    'WORLD_CUP_ROOT',
     'WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT',
     'build_2022_backtest_data',
     'build_deterministic_bracket',

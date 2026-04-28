@@ -1,0 +1,33 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1970-05-31,Group Stage,played,Mexico,Soviet Union,MEX,SUN,1703,1937,Mexico City,Mexico,FALSE
+2,1970-06-02,Group Stage,played,Bulgaria,Peru,BGR,PER,1823,1692,León,Mexico,TRUE
+3,1970-06-02,Group Stage,played,England,Romania,ENG,ROU,2070,1784,Guadalajara,Mexico,TRUE
+4,1970-06-02,Group Stage,played,Israel,Uruguay,ISR,URY,1682,1867,Puebla,Mexico,TRUE
+5,1970-06-03,Group Stage,played,Belgium,El Salvador,BEL,SLV,1779,1534,Mexico City,Mexico,TRUE
+6,1970-06-03,Group Stage,played,Brazil,Czechoslovakia,BRA,CSK,2011,1963,Guadalajara,Mexico,TRUE
+7,1970-06-03,Group Stage,played,Germany,Morocco,DEU,MAR,1923,1821,León,Mexico,TRUE
+8,1970-06-03,Group Stage,played,Italy,Sweden,ITA,SWE,2007,1846,Toluca,Mexico,TRUE
+9,1970-06-06,Group Stage,played,Belgium,Soviet Union,BEL,SUN,1800,1926,Mexico City,Mexico,TRUE
+10,1970-06-06,Group Stage,played,Czechoslovakia,Romania,CSK,ROU,1918,1774,Guadalajara,Mexico,TRUE
+11,1970-06-06,Group Stage,played,Italy,Uruguay,ITA,URY,2024,1890,Puebla,Mexico,TRUE
+12,1970-06-06,Group Stage,played,Morocco,Peru,MAR,PER,1662,1733,León,Mexico,TRUE
+13,1970-06-07,Group Stage,played,Brazil,England,BRA,ENG,2056,2080,Guadalajara,Mexico,TRUE
+14,1970-06-07,Group Stage,played,Bulgaria,Germany,BGR,DEU,1475,1923,León,Mexico,TRUE
+15,1970-06-07,Group Stage,played,Israel,Sweden,ISR,SWE,1659,1829,Toluca,Mexico,TRUE
+16,1970-06-07,Group Stage,played,Mexico,El Salvador,MEX,SLV,1714,1513,Mexico City,Mexico,FALSE
+17,1970-06-10,Group Stage,played,Brazil,Romania,BRA,ROU,2088,1816,Guadalajara,Mexico,TRUE
+18,1970-06-10,Group Stage,played,El Salvador,Soviet Union,SLV,SUN,1496,1960,Mexico City,Mexico,TRUE
+19,1970-06-10,Group Stage,played,Germany,Peru,DEU,PER,1923,1695,León,Mexico,TRUE
+20,1970-06-10,Group Stage,played,Sweden,Uruguay,SWE,URY,1815,1901,Puebla,Mexico,TRUE
+21,1970-06-11,Group Stage,played,Bulgaria,Morocco,BGR,MAR,1759,1620,León,Mexico,TRUE
+22,1970-06-11,Group Stage,played,Czechoslovakia,England,CSK,ENG,1876,2048,Guadalajara,Mexico,TRUE
+23,1970-06-11,Group Stage,played,Israel,Italy,ISR,ITA,1673,2013,Toluca,Mexico,TRUE
+24,1970-06-11,Group Stage,played,Mexico,Belgium,MEX,BEL,1731,1766,Mexico City,Mexico,FALSE
+25,1970-06-14,Quarter-final,played,Brazil,Peru,BRA,PER,2098,1758,Guadalajara,Mexico,TRUE
+26,1970-06-14,Quarter-final,played,England,Germany,ENG,DEU,2020,1923,León,Mexico,TRUE
+27,1970-06-14,Quarter-final,played,Mexico,Italy,MEX,ITA,1755,1990,Toluca,Mexico,FALSE
+28,1970-06-14,Quarter-final,played,Soviet Union,Uruguay,SUN,URY,1966,1864,Mexico City,Mexico,TRUE
+29,1970-06-17,Semi-final,played,Brazil,Uruguay,BRA,URY,2109,1903,Guadalajara,Mexico,TRUE
+30,1970-06-17,Semi-final,played,Germany,Italy,DEU,ITA,1923,1856,Mexico City,Mexico,TRUE
+31,1970-06-20,Third Place,played,Germany,Uruguay,DEU,URY,1923,1892,Mexico City,Mexico,TRUE
+32,1970-06-21,Final,played,Brazil,Italy,BRA,ITA,2130,2058,Mexico City,Mexico,TRUE

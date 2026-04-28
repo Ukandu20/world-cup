@@ -1,0 +1,27 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1954-06-16,Group Stage,played,Austria,Scotland,AUT,SCO,1868,1900,Zürich,Switzerland,TRUE
+2,1954-06-16,Group Stage,played,Brazil,Mexico,BRA,MEX,2030,1699,Geneva,Switzerland,TRUE
+3,1954-06-16,Group Stage,played,Czechoslovakia,Uruguay,CSK,URY,1748,1877,Bern,Switzerland,TRUE
+4,1954-06-16,Group Stage,played,France,Yugoslavia,FRA,YUG,1775,1934,Lausanne,Switzerland,TRUE
+5,1954-06-17,Group Stage,played,Belgium,England,BEL,ENG,1777,2021,Basel,Switzerland,TRUE
+6,1954-06-17,Group Stage,played,Germany,Turkey,DEU,TUR,1923,1902,Bern,Switzerland,TRUE
+7,1954-06-17,Group Stage,played,Hungary,South Korea,HUN,KOR,2146,1679,Zürich,Switzerland,TRUE
+8,1954-06-17,Group Stage,played,Switzerland,Italy,CHE,ITA,1673,1893,Lausanne,Switzerland,FALSE
+9,1954-06-19,Group Stage,played,Austria,Czechoslovakia,AUT,CSK,1901,1719,Zürich,Switzerland,TRUE
+10,1954-06-19,Group Stage,played,Brazil,Yugoslavia,BRA,YUG,2046,1951,Lausanne,Switzerland,TRUE
+11,1954-06-19,Group Stage,played,France,Mexico,FRA,MEX,1758,1683,Geneva,Switzerland,TRUE
+12,1954-06-19,Group Stage,played,Scotland,Uruguay,SCO,URY,1867,1906,Basel,Switzerland,TRUE
+13,1954-06-20,Group Stage,played,Belgium,Italy,BEL,ITA,1795,1853,Lugano,Switzerland,TRUE
+14,1954-06-20,Group Stage,played,Germany,Hungary,DEU,HUN,1923,1703,Basel,Switzerland,TRUE
+15,1954-06-20,Group Stage,played,South Korea,Turkey,KOR,TUR,1669,1586,Geneva,Switzerland,TRUE
+16,1954-06-20,Group Stage,played,Switzerland,England,CHE,ENG,1713,2003,Bern,Switzerland,FALSE
+17,1954-06-23,Group Stage,played,Germany,Turkey,DEU,TUR,1923,1902,Zürich,Switzerland,TRUE
+18,1954-06-23,Group Stage,played,Switzerland,Italy,CHE,ITA,1690,1897,Basel,Switzerland,FALSE
+19,1954-06-26,Quarter-final,played,England,Uruguay,ENG,URY,2026,1966,Basel,Switzerland,TRUE
+20,1954-06-26,Quarter-final,played,Switzerland,Austria,CHE,AUT,1758,1932,Lausanne,Switzerland,FALSE
+21,1954-06-27,Quarter-final,played,Brazil,Hungary,BRA,HUN,2038,2185,Bern,Switzerland,TRUE
+22,1954-06-27,Quarter-final,played,Germany,Yugoslavia,DEU,YUG,1923,1813,Geneva,Switzerland,TRUE
+23,1954-06-30,Semi-final,played,Austria,Germany,AUT,DEU,1827,1923,Basel,Switzerland,TRUE
+24,1954-06-30,Semi-final,played,Hungary,Uruguay,HUN,URY,2212,2019,Lausanne,Switzerland,TRUE
+25,1954-07-03,Third Place,played,Austria,Uruguay,AUT,URY,1914,1997,Zürich,Switzerland,TRUE
+26,1954-07-04,Final,played,Germany,Hungary,DEU,HUN,1923,1703,Bern,Switzerland,TRUE

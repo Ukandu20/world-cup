@@ -1,0 +1,65 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,2022-11-20,Group Stage,played,Qatar,Ecuador,QAT,ECU,1680,1833,Al Khor,Qatar,FALSE
+2,2022-11-21,Group Stage,played,Senegal,Netherlands,SEN,NLD,1684,2040,Doha,Qatar,TRUE
+3,2022-11-21,Group Stage,played,England,Iran,ENG,IRN,1919,1798,Al Rayyan,Qatar,TRUE
+4,2022-11-21,Group Stage,played,United States,Wales,USA,WAL,1796,1789,Al Rayyan,Qatar,TRUE
+5,2022-11-22,Group Stage,played,Argentina,Saudi Arabia,ARG,SAU,2143,1636,Lusail,Qatar,TRUE
+6,2022-11-22,Group Stage,played,Mexico,Poland,MEX,POL,1808,1813,Doha,Qatar,TRUE
+7,2022-11-22,Group Stage,played,Denmark,Tunisia,DNK,TUN,1971,1705,Al Rayyan,Qatar,TRUE
+8,2022-11-22,Group Stage,played,France,Australia,FRA,AUS,2005,1721,Al Wakrah,Qatar,TRUE
+9,2022-11-23,Group Stage,played,Germany,Japan,DEU,JPN,1962,1788,Al Rayyan,Qatar,TRUE
+10,2022-11-23,Group Stage,played,Spain,Costa Rica,ESP,CRI,2048,1743,Doha,Qatar,TRUE
+11,2022-11-23,Group Stage,played,Morocco,Croatia,MAR,HRV,1764,1926,Al Khor,Qatar,TRUE
+12,2022-11-23,Group Stage,played,Belgium,Canada,BEL,CAN,2006,1775,Al Rayyan,Qatar,TRUE
+13,2022-11-24,Group Stage,played,Switzerland,Cameroon,CHE,CMR,1901,1607,Al Wakrah,Qatar,TRUE
+14,2022-11-24,Group Stage,played,Brazil,Serbia,BRA,SRB,2169,1898,Lusail,Qatar,TRUE
+15,2022-11-24,Group Stage,played,Uruguay,South Korea,URY,KOR,1935,1786,Al Rayyan,Qatar,TRUE
+16,2022-11-24,Group Stage,played,Portugal,Ghana,PRT,GHA,2005,1564,Doha,Qatar,TRUE
+17,2022-11-25,Group Stage,played,Qatar,Senegal,QAT,SEN,1642,1674,Doha,Qatar,FALSE
+18,2022-11-25,Group Stage,played,Netherlands,Ecuador,NLD,ECU,2050,1871,Al Rayyan,Qatar,TRUE
+19,2022-11-25,Group Stage,played,Wales,Iran,WAL,IRN,1790,1761,Al Rayyan,Qatar,TRUE
+20,2022-11-25,Group Stage,played,England,United States,ENG,USA,1956,1795,Al Khor,Qatar,TRUE
+21,2022-11-26,Group Stage,played,Poland,Saudi Arabia,POL,SAU,1813,1693,Al Rayyan,Qatar,TRUE
+22,2022-11-26,Group Stage,played,Argentina,Mexico,ARG,MEX,2086,1808,Lusail,Qatar,TRUE
+23,2022-11-26,Group Stage,played,Tunisia,Australia,TUN,AUS,1724,1704,Al Wakrah,Qatar,TRUE
+24,2022-11-26,Group Stage,played,France,Denmark,FRA,DNK,2022,1952,Doha,Qatar,TRUE
+25,2022-11-27,Group Stage,played,Japan,Costa Rica,JPN,CRI,1832,1723,Al Rayyan,Qatar,TRUE
+26,2022-11-27,Group Stage,played,Spain,Germany,ESP,DEU,2068,1918,Al Khor,Qatar,TRUE
+27,2022-11-27,Group Stage,played,Belgium,Morocco,BEL,MAR,2019,1777,Doha,Qatar,TRUE
+28,2022-11-27,Group Stage,played,Croatia,Canada,HRV,CAN,1913,1762,Al Rayyan,Qatar,TRUE
+29,2022-11-28,Group Stage,played,Cameroon,Serbia,CMR,SRB,1598,1882,Al Wakrah,Qatar,TRUE
+30,2022-11-28,Group Stage,played,Brazil,Switzerland,BRA,CHE,2185,1910,Doha,Qatar,TRUE
+31,2022-11-28,Group Stage,played,South Korea,Ghana,KOR,GHA,1798,1560,Al Rayyan,Qatar,TRUE
+32,2022-11-28,Group Stage,played,Portugal,Uruguay,PRT,URY,2009,1923,Lusail,Qatar,TRUE
+33,2022-11-29,Group Stage,played,Ecuador,Senegal,ECU,SEN,1885,1728,Al Rayyan,Qatar,TRUE
+34,2022-11-29,Group Stage,played,Qatar,Netherlands,QAT,NLD,1588,2036,Al Khor,Qatar,FALSE
+35,2022-11-29,Group Stage,played,Wales,England,WAL,ENG,1741,1943,Al Rayyan,Qatar,TRUE
+36,2022-11-29,Group Stage,played,Iran,United States,IRN,USA,1810,1808,Doha,Qatar,TRUE
+37,2022-11-30,Group Stage,played,Poland,Argentina,POL,ARG,1843,2101,Doha,Qatar,TRUE
+38,2022-11-30,Group Stage,played,Saudi Arabia,Mexico,SAU,MEX,1663,1793,Lusail,Qatar,TRUE
+39,2022-11-30,Group Stage,played,Australia,Denmark,AUS,DNK,1736,1928,Al Wakrah,Qatar,TRUE
+40,2022-11-30,Group Stage,played,Tunisia,France,TUN,FRA,1692,2046,Al Rayyan,Qatar,TRUE
+41,2022-12-01,Group Stage,played,Japan,Spain,JPN,ESP,1793,2056,Al Rayyan,Qatar,TRUE
+42,2022-12-01,Group Stage,played,Costa Rica,Germany,CRI,DEU,1762,1930,Al Khor,Qatar,TRUE
+43,2022-12-01,Group Stage,played,Croatia,Belgium,HRV,BEL,1944,1947,Al Rayyan,Qatar,TRUE
+44,2022-12-01,Group Stage,played,Canada,Morocco,CAN,MAR,1731,1849,Doha,Qatar,TRUE
+45,2022-12-02,Group Stage,played,Serbia,Switzerland,SRB,CHE,1862,1900,Doha,Qatar,TRUE
+46,2022-12-02,Group Stage,played,Cameroon,Brazil,CMR,BRA,1618,2195,Lusail,Qatar,TRUE
+47,2022-12-02,Group Stage,played,Ghana,Uruguay,GHA,URY,1608,1889,Al Wakrah,Qatar,TRUE
+48,2022-12-02,Group Stage,played,South Korea,Portugal,KOR,PRT,1750,2043,Al Rayyan,Qatar,TRUE
+49,2022-12-03,Round of 16,played,Netherlands,United States,NLD,USA,2047,1838,Al Rayyan,Qatar,TRUE
+50,2022-12-03,Round of 16,played,Argentina,Australia,ARG,AUS,2118,1781,Al Rayyan,Qatar,TRUE
+51,2022-12-04,Round of 16,played,France,Poland,FRA,POL,1993,1826,Doha,Qatar,TRUE
+52,2022-12-04,Round of 16,played,England,Senegal,ENG,SEN,1968,1771,Al Khor,Qatar,TRUE
+53,2022-12-05,Round of 16,played,Japan,Croatia,JPN,HRV,1842,1944,Al Wakrah,Qatar,TRUE
+54,2022-12-05,Round of 16,played,Brazil,South Korea,BRA,KOR,2137,1801,Doha,Qatar,TRUE
+55,2022-12-06,Round of 16,played,Morocco,Spain,MAR,ESP,1869,2007,Al Rayyan,Qatar,TRUE
+56,2022-12-06,Round of 16,played,Portugal,Switzerland,PRT,CHE,1992,1927,Lusail,Qatar,TRUE
+57,2022-12-09,Quarter-final,played,Croatia,Brazil,HRV,BRA,1935,2150,Al Rayyan,Qatar,TRUE
+58,2022-12-09,Quarter-final,played,Netherlands,Argentina,NLD,ARG,2068,2126,Lusail,Qatar,TRUE
+59,2022-12-10,Quarter-final,played,Morocco,Portugal,MAR,PRT,1880,2041,Doha,Qatar,TRUE
+60,2022-12-10,Quarter-final,played,England,France,ENG,FRA,1994,2018,Al Khor,Qatar,TRUE
+61,2022-12-13,Semi-final,played,Argentina,Croatia,ARG,HRV,2121,1952,Lusail,Qatar,TRUE
+62,2022-12-14,Semi-final,played,France,Morocco,FRA,MAR,2046,1923,Al Khor,Qatar,TRUE
+63,2022-12-17,Third Place,played,Croatia,Morocco,HRV,MAR,1923,1893,Al Rayyan,Qatar,TRUE
+64,2022-12-18,Final,played,Argentina,France,ARG,FRA,2150,2076,Lusail,Qatar,TRUE

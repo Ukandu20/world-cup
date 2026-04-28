@@ -1,0 +1,366 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1939-08-27,Friendly,played,Slovakia,SVK,Germany,DEU,TRUE,2,0,win,Bratislava,Slovakia,FALSE,1700,1803,1715,1788,15
+1939-12-03,Friendly,played,Slovakia,SVK,Germany,DEU,FALSE,1,3,loss,Chemnitz,Germany,FALSE,1715,1823,1708,1830,-7
+1940-06-06,Friendly,played,Slovakia,SVK,Bulgaria,BGR,FALSE,4,1,win,Sofia,Bulgaria,FALSE,1708,1501,1720,1489,12
+1940-09-15,Friendly,played,Slovakia,SVK,Germany,DEU,TRUE,0,1,loss,Bratislava,Slovakia,FALSE,1720,1815,1710,1825,-10
+1941-09-28,Friendly,played,Slovakia,SVK,Croatia,HRV,FALSE,2,5,loss,Zagreb,Croatia,FALSE,1712,1886,1706,1892,-6
+1941-10-12,Friendly,played,Slovakia,SVK,Romania,ROU,FALSE,2,3,loss,Bucharest,Romania,FALSE,1706,1545,1694,1557,-12
+1941-12-07,Friendly,played,Slovakia,SVK,Germany,DEU,FALSE,0,4,loss,Breslau,Germany,FALSE,1694,1841,1687,1848,-7
+1942-06-07,Friendly,played,Slovakia,SVK,Croatia,HRV,TRUE,1,2,loss,Bratislava,Slovakia,FALSE,1687,1868,1679,1876,-8
+1942-08-23,Friendly,played,Slovakia,SVK,Romania,ROU,TRUE,1,0,win,Bratislava,Slovakia,FALSE,1679,1551,1683,1547,4
+1942-09-06,Friendly,played,Slovakia,SVK,Croatia,HRV,FALSE,1,6,loss,Zagreb,Croatia,FALSE,1683,1878,1677,1884,-6
+1942-11-22,Friendly,played,Slovakia,SVK,Germany,DEU,TRUE,2,5,loss,Bratislava,Slovakia,FALSE,1677,1897,1665,1909,-12
+1943-04-10,Friendly,played,Slovakia,SVK,Croatia,HRV,FALSE,0,1,loss,Zagreb,Croatia,FALSE,1665,1855,1662,1858,-3
+1943-06-13,Friendly,played,Slovakia,SVK,Romania,ROU,FALSE,2,2,draw,Bucharest,Romania,FALSE,1651,1553,1651,1553,0
+1944-04-09,Friendly,played,Slovakia,SVK,Croatia,HRV,FALSE,3,7,loss,Zagreb,Croatia,FALSE,1651,1869,1646,1874,-5
+1992-06-28,Friendly,played,Slovakia,SVK,China PR,,FALSE,3,2,win,Shanghai,China PR,FALSE,,,,,
+1992-10-14,Friendly,played,Slovakia,SVK,Lithuania,,FALSE,1,0,win,Vilnius,Lithuania,FALSE,1659,1364,1664,1359,5
+1993-03-30,Friendly,played,Slovakia,SVK,Lithuania,,TRUE,2,2,draw,Dunajská Streda,Slovakia,FALSE,1664,1357,1656,1365,-8
+1993-11-16,Friendly,played,Slovakia,SVK,Slovenia,SVN,TRUE,2,0,win,Prievidza,Slovakia,FALSE,1656,1565,1663,1558,7
+1994-02-02,United Arab Emirates Friendship Tournament,played,Slovakia,SVK,United Arab Emirates,ARE,FALSE,1,0,win,Sharjah,United Arab Emirates,FALSE,1663,1502,1675,1490,12
+1994-02-04,United Arab Emirates Friendship Tournament,played,Slovakia,SVK,Egypt,EGY,FALSE,0,1,loss,Sharjah,United Arab Emirates,TRUE,1675,1645,1659,1661,-16
+1994-02-06,United Arab Emirates Friendship Tournament,played,Slovakia,SVK,Morocco,MAR,FALSE,1,2,loss,Sharjah,United Arab Emirates,TRUE,1659,1659,1644,1674,-15
+1994-03-30,Friendly,played,Slovakia,SVK,Malta,,FALSE,2,1,win,Attard,Malta,FALSE,1644,1378,1650,1372,6
+1994-04-20,Friendly,played,Slovakia,SVK,Croatia,HRV,TRUE,4,1,win,Bratislava,Slovakia,FALSE,1650,1894,1674,1870,24
+1994-05-29,Friendly,played,Slovakia,SVK,Russia,RUS,FALSE,1,2,loss,Moscow,Russia,FALSE,1674,1864,1671,1867,-3
+1994-08-16,Friendly,played,Slovakia,SVK,Malta,,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,1671,1380,1663,1388,-8
+1994-09-07,UEFA Euro qualification,played,Slovakia,SVK,France,FRA,TRUE,0,0,draw,Bratislava,Slovakia,FALSE,1663,1925,1672,1916,9
+1994-10-12,UEFA Euro qualification,played,Slovakia,SVK,Israel,ISR,FALSE,2,2,draw,Ramat Gan,Israel,FALSE,1672,1584,1673,1583,1
+1994-11-12,UEFA Euro qualification,played,Slovakia,SVK,Romania,ROU,FALSE,2,3,loss,Bucharest,Romania,FALSE,1673,1910,1668,1915,-5
+1995-02-22,Friendly,played,Slovakia,SVK,Brazil,BRA,FALSE,0,5,loss,Fortaleza,Brazil,FALSE,1668,2069,1666,2071,-2
+1995-03-08,Friendly,played,Slovakia,SVK,Russia,RUS,TRUE,2,1,win,Košice,Slovakia,FALSE,1666,1844,1678,1832,12
+1995-03-29,UEFA Euro qualification,played,Slovakia,SVK,Azerbaijan,,TRUE,4,1,win,Košice,Slovakia,FALSE,1678,1479,1689,1468,11
+1995-04-26,UEFA Euro qualification,played,Slovakia,SVK,France,FRA,FALSE,0,4,loss,Nantes,France,FALSE,1689,1911,1679,1921,-10
+1995-05-08,Friendly,played,Slovakia,SVK,Czechia,CZE,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,1679,1897,1682,1894,3
+1995-06-07,UEFA Euro qualification,played,Slovakia,SVK,Poland,POL,FALSE,0,5,loss,Zabrze,Poland,FALSE,1682,1724,1657,1749,-25
+1995-06-25,Friendly,played,Slovakia,SVK,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,,,,,
+1995-08-16,UEFA Euro qualification,played,Slovakia,SVK,Azerbaijan,,FALSE,1,0,win,Trabzon,Turkey,TRUE,1657,1462,1667,1452,10
+1995-09-06,UEFA Euro qualification,played,Slovakia,SVK,Israel,ISR,TRUE,1,0,win,Košice,Slovakia,FALSE,1667,1630,1679,1618,12
+1995-10-11,UEFA Euro qualification,played,Slovakia,SVK,Poland,POL,TRUE,4,1,win,Bratislava,Slovakia,FALSE,1679,1763,1712,1730,33
+1995-11-15,UEFA Euro qualification,played,Slovakia,SVK,Romania,ROU,TRUE,0,2,loss,Košice,Slovakia,FALSE,1712,1869,1687,1894,-25
+1996-03-27,Friendly,played,Slovakia,SVK,Belarus,,TRUE,4,0,win,Nitra,Slovakia,FALSE,1687,1459,1692,1454,5
+1996-04-24,Friendly,played,Slovakia,SVK,Bulgaria,BGR,TRUE,0,0,draw,Trnava,Slovakia,FALSE,1692,1830,1693,1829,1
+1996-05-09,Friendly,played,Slovakia,SVK,Sweden,SWE,FALSE,1,2,loss,Helsingborg,Sweden,FALSE,1693,1858,1689,1862,-4
+1996-05-18,Friendly,played,Slovakia,SVK,Mexico,MEX,FALSE,2,5,loss,Chicago,United States,TRUE,1689,1857,1679,1867,-10
+1996-08-31,FIFA World Cup qualification,played,Slovakia,SVK,Faroe Islands,,FALSE,2,1,win,Toftir,Faroe Islands,FALSE,1679,1180,1683,1176,4
+1996-09-22,FIFA World Cup qualification,played,Slovakia,SVK,Malta,,TRUE,6,0,win,Bratislava,Slovakia,FALSE,1683,1296,1688,1291,5
+1996-10-23,FIFA World Cup qualification,played,Slovakia,SVK,Faroe Islands,,TRUE,3,0,win,Bratislava,Slovakia,FALSE,1688,1173,1690,1171,2
+1996-11-13,FIFA World Cup qualification,played,Slovakia,SVK,Spain,ESP,FALSE,1,4,loss,Santa Cruz de Tenerife,Spain,FALSE,1690,2001,1684,2007,-6
+1997-02-02,Friendly,played,Slovakia,SVK,Bolivia,BOL,FALSE,1,0,win,Cochabamba,Bolivia,FALSE,1684,1691,1697,1678,13
+1997-02-05,Friendly,played,Slovakia,SVK,Costa Rica,CRI,FALSE,2,2,draw,Alajuela,Costa Rica,FALSE,1697,1573,1696,1574,-1
+1997-02-08,Friendly,played,Slovakia,SVK,Colombia,COL,FALSE,0,1,loss,Pereira,Colombia,FALSE,1696,1913,1693,1916,-3
+1997-03-31,FIFA World Cup qualification,played,Slovakia,SVK,Malta,,FALSE,2,0,win,Attard,Malta,FALSE,1709,1287,1717,1279,8
+1997-04-29,Friendly,played,Slovakia,SVK,Iceland,ISL,TRUE,3,1,win,Trnava,Slovakia,FALSE,1717,1526,1722,1521,5
+1997-06-08,FIFA World Cup qualification,played,Slovakia,SVK,Serbia,SRB,FALSE,0,2,loss,Belgrade,FR Yugoslavia,FALSE,,,,,
+1997-08-06,Friendly,played,Slovakia,SVK,Switzerland,CHE,TRUE,1,0,win,Bratislava,Slovakia,FALSE,1714,1724,1721,1717,7
+1997-08-24,FIFA World Cup qualification,played,Slovakia,SVK,Czechia,CZE,TRUE,2,1,win,Bratislava,Slovakia,FALSE,1721,1893,1745,1869,24
+1997-09-10,FIFA World Cup qualification,played,Slovakia,SVK,Serbia,SRB,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,,,,,
+1997-09-24,FIFA World Cup qualification,played,Slovakia,SVK,Spain,ESP,TRUE,1,2,loss,Bratislava,Slovakia,FALSE,1751,2036,1741,2046,-10
+1997-10-11,FIFA World Cup qualification,played,Slovakia,SVK,Czechia,CZE,FALSE,0,3,loss,Prague,Czech Republic,FALSE,1741,1874,1726,1889,-15
+1998-01-28,Friendly,played,Slovakia,SVK,Italy,ITA,FALSE,0,3,loss,Catania,Italy,FALSE,1726,1976,1722,1980,-4
+1998-02-06,Cyprus International Tournament,played,Slovakia,SVK,Slovenia,SVN,FALSE,1,1,draw,Limassol,Cyprus,TRUE,1722,1543,1715,1550,-7
+1998-02-07,Cyprus International Tournament,played,Slovakia,SVK,Iceland,ISL,FALSE,2,1,win,Limassol,Cyprus,TRUE,1715,1479,1721,1473,6
+1998-02-09,Cyprus International Tournament,played,Slovakia,SVK,Finland,,FALSE,2,0,win,Larnaca,Cyprus,TRUE,1721,1527,1732,1516,11
+1998-03-25,Friendly,played,Slovakia,SVK,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1732,1581,1721,1592,-11
+1998-04-15,Friendly,played,Slovakia,SVK,South Korea,KOR,TRUE,0,0,draw,Bratislava,Slovakia,FALSE,1721,1761,1719,1763,-2
+1998-08-19,Friendly,played,Slovakia,SVK,Finland,,TRUE,0,0,draw,Košice,Slovakia,FALSE,1735,1538,1728,1545,-7
+1998-09-05,UEFA Euro qualification,played,Slovakia,SVK,Azerbaijan,,TRUE,3,0,win,Košice,Slovakia,FALSE,1728,1385,1733,1380,5
+1998-10-10,UEFA Euro qualification,played,Slovakia,SVK,Liechtenstein,,FALSE,4,0,win,Vaduz,Liechtenstein,FALSE,1733,1050,1736,1047,3
+1998-10-14,UEFA Euro qualification,played,Slovakia,SVK,Portugal,PRT,TRUE,0,3,loss,Bratislava,Slovakia,FALSE,1736,1870,1704,1902,-32
+1998-11-10,Friendly,played,Slovakia,SVK,Poland,POL,TRUE,1,3,loss,Bratislava,Slovakia,FALSE,1704,1750,1687,1767,-17
+1999-03-03,Friendly,played,Slovakia,SVK,Bulgaria,BGR,FALSE,0,2,loss,Stara Zagora,Bulgaria,FALSE,1687,1648,1675,1660,-12
+1999-03-27,UEFA Euro qualification,played,Slovakia,SVK,Romania,ROU,FALSE,0,0,draw,Bucharest,Romania,FALSE,1675,1880,1689,1866,14
+1999-03-31,UEFA Euro qualification,played,Slovakia,SVK,Hungary,HUN,TRUE,0,0,draw,Bratislava,Slovakia,FALSE,1689,1667,1682,1674,-7
+1999-05-19,Friendly,played,Slovakia,SVK,Bulgaria,BGR,TRUE,2,0,win,Dubnica nad Váhom,Slovakia,FALSE,1682,1682,1693,1671,11
+1999-06-05,UEFA Euro qualification,played,Slovakia,SVK,Portugal,PRT,FALSE,0,1,loss,Lisbon,Portugal,FALSE,1693,1911,1687,1917,-6
+1999-06-09,UEFA Euro qualification,played,Slovakia,SVK,Hungary,HUN,FALSE,1,0,win,Győr,Hungary,FALSE,1687,1670,1712,1645,25
+1999-08-18,Friendly,played,Slovakia,SVK,Israel,ISR,TRUE,1,0,win,Bratislava,Slovakia,FALSE,1712,1752,1720,1744,8
+1999-09-04,UEFA Euro qualification,played,Slovakia,SVK,Romania,ROU,TRUE,1,5,loss,Bratislava,Slovakia,FALSE,1720,1878,1689,1909,-31
+1999-09-08,UEFA Euro qualification,played,Slovakia,SVK,Liechtenstein,,TRUE,2,0,win,Dubnica nad Váhom,Slovakia,FALSE,1689,1091,1690,1090,1
+1999-10-09,UEFA Euro qualification,played,Slovakia,SVK,Azerbaijan,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1690,1335,1697,1328,7
+1999-11-17,Friendly,played,Slovakia,SVK,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1697,1741,1691,1747,-6
+1999-11-23,Friendly,played,Slovakia,SVK,Guatemala,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1686,1565,1695,1556,9
+1999-11-25,Friendly,played,Slovakia,SVK,Costa Rica,CRI,FALSE,0,4,loss,San José,Costa Rica,FALSE,1695,1614,1677,1632,-18
+2000-02-09,Friendly,played,Slovakia,SVK,Bulgaria,BGR,FALSE,0,1,loss,Valparaíso,Chile,TRUE,1677,1661,1661,1677,-16
+2000-02-12,Friendly,played,Slovakia,SVK,Australia,AUS,FALSE,0,0,draw,Valparaíso,Chile,TRUE,1661,1734,1664,1731,3
+2000-02-15,Friendly,played,Slovakia,SVK,Chile,CHL,FALSE,2,0,win,Valparaíso,Chile,FALSE,1664,1743,1697,1710,33
+2000-05-24,Friendly,played,Slovakia,SVK,Saudi Arabia,SAU,TRUE,1,1,draw,Nitra,Slovakia,FALSE,1697,1627,1692,1632,-5
+2000-05-27,Friendly,played,Slovakia,SVK,Norway,NOR,FALSE,0,2,loss,Oslo,Norway,FALSE,1692,1901,1688,1905,-4
+2000-05-31,Friendly,played,Slovakia,SVK,Russia,RUS,FALSE,1,1,draw,Moscow,Russia,FALSE,1688,1812,1694,1806,6
+2000-06-11,Kirin Cup,played,Slovakia,SVK,Japan,JPN,FALSE,1,1,draw,Rifu,Japan,FALSE,1694,1647,1696,1645,2
+2000-06-14,Kirin Cup,played,Slovakia,SVK,Bolivia,BOL,FALSE,2,0,win,Tosu,Japan,TRUE,1696,1637,1715,1618,19
+2000-08-16,Friendly,played,Slovakia,SVK,Croatia,HRV,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,1715,1905,1718,1902,3
+2000-09-03,FIFA World Cup qualification,played,Slovakia,SVK,North Macedonia,,TRUE,2,0,win,Bratislava,Slovakia,FALSE,1718,1538,1728,1528,10
+2000-10-07,FIFA World Cup qualification,played,Slovakia,SVK,Moldova,,FALSE,1,0,win,Chișinău,Moldova,FALSE,1728,1423,1737,1414,9
+2000-10-11,FIFA World Cup qualification,played,Slovakia,SVK,Sweden,SWE,TRUE,0,0,draw,Bratislava,Slovakia,FALSE,1737,1826,1736,1827,-1
+2000-11-15,Friendly,played,Slovakia,SVK,Greece,GRC,FALSE,2,0,win,Rhodes,Greece,FALSE,1736,1723,1755,1704,19
+2001-02-27,Friendly,played,Slovakia,SVK,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1755,1521,1751,1525,-4
+2001-03-24,FIFA World Cup qualification,played,Slovakia,SVK,Turkey,TUR,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1751,1762,1757,1756,6
+2001-03-28,FIFA World Cup qualification,played,Slovakia,SVK,Azerbaijan,,TRUE,3,1,win,Trnava,Slovakia,FALSE,1757,1263,1759,1261,2
+2001-04-25,Friendly,played,Slovakia,SVK,Romania,ROU,FALSE,0,0,draw,Ploiești,Romania,FALSE,1759,1833,1764,1828,5
+2001-05-29,Friendly,played,Slovakia,SVK,Germany,DEU,FALSE,0,2,loss,Bremen,Germany,FALSE,1764,1905,1758,1911,-6
+2001-06-02,FIFA World Cup qualification,played,Slovakia,SVK,Sweden,SWE,FALSE,0,2,loss,Solna,Sweden,FALSE,1758,1836,1742,1852,-16
+2001-06-06,FIFA World Cup qualification,played,Slovakia,SVK,Azerbaijan,,FALSE,0,2,loss,Baku,Azerbaijan,FALSE,1742,1257,1688,1311,-54
+2001-06-21,Merdeka Tournament,played,Slovakia,SVK,Bosnia and Herzegovina,BIH,TRUE,0,1,loss,Shah Alam,Malaysia,TRUE,,,,,
+2001-06-23,Merdeka Tournament,played,Slovakia,SVK,Malaysia,,FALSE,2,0,win,Shah Alam,Malaysia,FALSE,,,,,
+2001-06-25,Merdeka Tournament,played,Slovakia,SVK,Bahrain,,FALSE,0,2,loss,Shah Alam,Malaysia,TRUE,,,,,
+2001-08-15,Friendly,played,Slovakia,SVK,Iran,IRN,TRUE,3,4,loss,Bratislava,Slovakia,FALSE,1688,1725,1676,1737,-12
+2001-09-01,FIFA World Cup qualification,played,Slovakia,SVK,Turkey,TUR,TRUE,0,1,loss,Bratislava,Slovakia,FALSE,1676,1733,1654,1755,-22
+2001-09-05,FIFA World Cup qualification,played,Slovakia,SVK,Moldova,,TRUE,4,2,win,Trenčín,Slovakia,FALSE,1654,1419,1662,1411,8
+2001-10-07,FIFA World Cup qualification,played,Slovakia,SVK,North Macedonia,,FALSE,5,0,win,Skopje,North Macedonia,FALSE,1662,1501,1695,1468,33
+2002-02-06,Friendly,played,Slovakia,SVK,Iran,IRN,FALSE,3,2,win,Tehran,Iran,FALSE,1695,1751,1709,1737,14
+2002-03-27,Friendly,played,Slovakia,SVK,Austria,AUT,FALSE,0,2,loss,Graz,Austria,FALSE,1709,1672,1697,1684,-12
+2002-04-17,Friendly,played,Slovakia,SVK,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1697,1826,1703,1820,6
+2002-04-29,Kirin Cup,played,Slovakia,SVK,Japan,JPN,FALSE,0,1,loss,Tokyo,Japan,FALSE,1703,1873,1698,1878,-5
+2002-05-14,Friendly,played,Slovakia,SVK,Uzbekistan,,TRUE,4,1,win,Prešov,Slovakia,FALSE,1698,1508,1704,1502,6
+2002-08-21,Friendly,played,Slovakia,SVK,Czechia,CZE,FALSE,1,4,loss,Olomouc,Czech Republic,FALSE,1704,1841,1697,1848,-7
+2002-09-07,UEFA Euro qualification,played,Slovakia,SVK,Turkey,TUR,FALSE,0,3,loss,Istanbul,Turkey,FALSE,1697,1875,1685,1887,-12
+2002-10-12,UEFA Euro qualification,played,Slovakia,SVK,England,ENG,TRUE,1,2,loss,Bratislava,Slovakia,FALSE,1685,1958,1674,1969,-11
+2002-11-20,Friendly,played,Slovakia,SVK,Ukraine,UKR,TRUE,1,1,draw,Trnava,Slovakia,FALSE,1674,1692,1672,1694,-2
+2003-02-12,Cyprus International Tournament,played,Slovakia,SVK,Romania,ROU,FALSE,1,2,loss,Larnaca,Cyprus,TRUE,1672,1795,1662,1805,-10
+2003-02-13,Cyprus International Tournament,played,Slovakia,SVK,Cyprus,,FALSE,3,1,win,Larnaca,Cyprus,FALSE,1662,1487,1680,1469,18
+2003-03-29,UEFA Euro qualification,played,Slovakia,SVK,North Macedonia,,FALSE,2,0,win,Skopje,North Macedonia,FALSE,1680,1466,1700,1446,20
+2003-04-02,UEFA Euro qualification,played,Slovakia,SVK,Liechtenstein,,TRUE,4,0,win,Trnava,Slovakia,FALSE,1700,1069,1701,1068,1
+2003-04-30,Friendly,played,Slovakia,SVK,Greece,GRC,TRUE,2,2,draw,Žilina,Slovakia,FALSE,1701,1713,1699,1715,-2
+2003-06-07,UEFA Euro qualification,played,Slovakia,SVK,Turkey,TUR,TRUE,0,1,loss,Bratislava,Slovakia,FALSE,1699,1857,1682,1874,-17
+2003-06-11,UEFA Euro qualification,played,Slovakia,SVK,England,ENG,FALSE,1,2,loss,Middlesbrough,England,FALSE,1682,1954,1678,1958,-4
+2003-08-20,Friendly,played,Slovakia,SVK,Colombia,COL,FALSE,0,0,draw,New York,United States,TRUE,1678,1794,1681,1791,3
+2003-09-10,UEFA Euro qualification,played,Slovakia,SVK,North Macedonia,,TRUE,1,1,draw,Žilina,Slovakia,FALSE,1681,1456,1666,1471,-15
+2003-10-11,UEFA Euro qualification,played,Slovakia,SVK,Liechtenstein,,FALSE,2,0,win,Vaduz,Liechtenstein,FALSE,1666,1076,1669,1073,3
+2004-03-31,Friendly,played,Slovakia,SVK,Austria,AUT,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,1669,1676,1666,1679,-3
+2004-04-28,Friendly,played,Slovakia,SVK,Ukraine,UKR,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,1666,1645,1668,1643,2
+2004-05-29,Friendly,played,Slovakia,SVK,Croatia,HRV,FALSE,0,1,loss,Rijeka,Croatia,FALSE,1668,1820,1664,1824,-4
+2004-07-09,Kirin Cup,played,Slovakia,SVK,Japan,JPN,FALSE,1,3,loss,Hiroshima,Japan,FALSE,1664,1809,1655,1818,-9
+2004-07-11,Kirin Cup,played,Slovakia,SVK,Serbia and Montenegro,SCG,FALSE,0,2,loss,Fukuoka,Japan,TRUE,1655,1721,1637,1739,-18
+2004-08-18,FIFA World Cup qualification,played,Slovakia,SVK,Luxembourg,,TRUE,3,1,win,Bratislava,Slovakia,FALSE,1637,1075,1638,1074,1
+2004-09-04,FIFA World Cup qualification,played,Slovakia,SVK,Russia,RUS,FALSE,1,1,draw,Moscow,Russia,FALSE,1638,1791,1650,1779,12
+2004-09-08,FIFA World Cup qualification,played,Slovakia,SVK,Liechtenstein,,TRUE,7,0,win,Bratislava,Slovakia,FALSE,1650,1052,1652,1050,2
+2004-10-09,FIFA World Cup qualification,played,Slovakia,SVK,Latvia,,TRUE,4,1,win,Bratislava,Slovakia,FALSE,1652,1512,1666,1498,14
+2004-11-17,Friendly,played,Slovakia,SVK,Slovenia,SVN,TRUE,0,0,draw,Trnava,Slovakia,FALSE,1666,1661,1663,1664,-3
+2004-11-30,King's Cup,played,Slovakia,SVK,Hungary,HUN,FALSE,1,0,win,Bangkok,Thailand,TRUE,1663,1606,1676,1593,13
+2004-12-02,King's Cup,played,Slovakia,SVK,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1676,1343,1667,1352,-9
+2005-02-09,Friendly,played,Slovakia,SVK,Romania,ROU,FALSE,2,2,draw,Larnaca,Cyprus,TRUE,1667,1825,1671,1821,4
+2005-03-26,FIFA World Cup qualification,played,Slovakia,SVK,Estonia,,FALSE,2,1,win,Tallinn,Estonia,FALSE,1671,1377,1681,1367,10
+2005-03-30,FIFA World Cup qualification,played,Slovakia,SVK,Portugal,PRT,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,1681,1899,1688,1892,7
+2005-06-04,FIFA World Cup qualification,played,Slovakia,SVK,Portugal,PRT,FALSE,0,2,loss,Lisbon,Portugal,FALSE,1688,1892,1679,1901,-9
+2005-06-08,FIFA World Cup qualification,played,Slovakia,SVK,Luxembourg,,FALSE,4,0,win,Luxembourg,Luxembourg,FALSE,1679,1010,1682,1007,3
+2005-08-17,FIFA World Cup qualification,played,Slovakia,SVK,Liechtenstein,,FALSE,0,0,draw,Vaduz,Liechtenstein,FALSE,1682,1096,1664,1114,-18
+2005-09-03,Friendly,played,Slovakia,SVK,Germany,DEU,TRUE,2,0,win,Bratislava,Slovakia,FALSE,1664,1911,1685,1890,21
+2005-09-07,FIFA World Cup qualification,played,Slovakia,SVK,Latvia,,FALSE,1,1,draw,Riga,Latvia,FALSE,1685,1463,1678,1470,-7
+2005-10-08,FIFA World Cup qualification,played,Slovakia,SVK,Estonia,,TRUE,1,0,win,Bratislava,Slovakia,FALSE,1678,1414,1682,1410,4
+2005-10-12,FIFA World Cup qualification,played,Slovakia,SVK,Russia,RUS,TRUE,0,0,draw,Bratislava,Slovakia,FALSE,1682,1755,1680,1757,-2
+2005-11-12,FIFA World Cup qualification,played,Slovakia,SVK,Spain,ESP,FALSE,1,5,loss,Madrid,Spain,FALSE,1680,1959,1672,1967,-8
+2005-11-16,FIFA World Cup qualification,played,Slovakia,SVK,Spain,ESP,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,1672,1967,1682,1957,10
+2006-03-01,Friendly,played,Slovakia,SVK,France,FRA,FALSE,2,1,win,Saint-Denis,France,FALSE,1682,1973,1700,1955,18
+2006-05-20,Friendly,played,Slovakia,SVK,Belgium,BEL,TRUE,1,1,draw,Trnava,Slovakia,FALSE,1700,1705,1697,1708,-3
+2006-08-15,Friendly,played,Slovakia,SVK,Malta,,TRUE,3,0,win,Bratislava,Slovakia,FALSE,1697,1251,1698,1250,1
+2006-09-02,UEFA Euro qualification,played,Slovakia,SVK,Cyprus,,TRUE,6,1,win,Bratislava,Slovakia,FALSE,1698,1461,1708,1451,10
+2006-09-06,UEFA Euro qualification,played,Slovakia,SVK,Czechia,CZE,TRUE,0,3,loss,Bratislava,Slovakia,FALSE,1708,1859,1678,1889,-30
+2006-10-07,UEFA Euro qualification,played,Slovakia,SVK,Wales,WAL,FALSE,5,1,win,Cardiff,Wales,FALSE,1678,1598,1718,1558,40
+2006-10-11,UEFA Euro qualification,played,Slovakia,SVK,Germany,DEU,TRUE,1,4,loss,Bratislava,Slovakia,FALSE,1718,1971,1697,1992,-21
+2006-11-15,Friendly,played,Slovakia,SVK,Bulgaria,BGR,TRUE,3,1,win,Žilina,Slovakia,FALSE,1697,1748,1710,1735,13
+2006-12-10,Friendly,played,Slovakia,SVK,United Arab Emirates,ARE,FALSE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1710,1496,1717,1489,7
+2007-02-07,Friendly,played,Slovakia,SVK,Poland,POL,FALSE,2,2,draw,Jerez de la Frontera,Spain,TRUE,1717,1783,1719,1781,2
+2007-03-24,UEFA Euro qualification,played,Slovakia,SVK,Cyprus,,FALSE,3,1,win,Nicosia,Cyprus,FALSE,1719,1503,1739,1483,20
+2007-03-28,UEFA Euro qualification,played,Slovakia,SVK,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2007-06-06,UEFA Euro qualification,played,Slovakia,SVK,Germany,DEU,FALSE,1,2,loss,Hamburg,Germany,FALSE,1725,1988,1721,1992,-4
+2007-08-22,Friendly,played,Slovakia,SVK,France,FRA,TRUE,0,1,loss,Trnava,Slovakia,FALSE,1721,2057,1717,2061,-4
+2007-09-08,UEFA Euro qualification,played,Slovakia,SVK,Republic of Ireland,IRL,TRUE,2,2,draw,Bratislava,Slovakia,FALSE,,,,,
+2007-09-12,UEFA Euro qualification,played,Slovakia,SVK,Wales,WAL,TRUE,2,5,loss,Trnava,Slovakia,FALSE,1716,1587,1661,1642,-55
+2007-10-13,UEFA Euro qualification,played,Slovakia,SVK,San Marino,,TRUE,7,0,win,Dubnica nad Váhom,Slovakia,FALSE,1661,930,1662,929,1
+2007-10-16,Friendly,played,Slovakia,SVK,Croatia,HRV,FALSE,0,3,loss,Rijeka,Croatia,FALSE,1662,1912,1658,1916,-4
+2007-11-17,UEFA Euro qualification,played,Slovakia,SVK,Czechia,CZE,FALSE,1,3,loss,Prague,Czech Republic,FALSE,1658,1928,1652,1934,-6
+2007-11-21,UEFA Euro qualification,played,Slovakia,SVK,San Marino,,FALSE,5,0,win,Serravalle,San Marino,FALSE,1652,928,1654,926,2
+2008-02-06,Friendly,played,Slovakia,SVK,Hungary,HUN,FALSE,1,1,draw,Limassol,Cyprus,TRUE,1654,1571,1652,1573,-2
+2008-03-26,Friendly,played,Slovakia,SVK,Iceland,ISL,TRUE,1,2,loss,Zlaté Moravce,Slovakia,FALSE,1652,1405,1634,1423,-18
+2008-05-20,Friendly,played,Slovakia,SVK,Turkey,TUR,FALSE,0,1,loss,Bielefeld,Germany,TRUE,1634,1808,1629,1813,-5
+2008-05-24,Friendly,played,Slovakia,SVK,Switzerland,CHE,FALSE,0,2,loss,Lugano,Switzerland,FALSE,1629,1786,1623,1792,-6
+2008-08-20,Friendly,played,Slovakia,SVK,Greece,GRC,TRUE,0,2,loss,Bratislava,Slovakia,FALSE,1623,1757,1609,1771,-14
+2008-09-06,FIFA World Cup qualification,played,Slovakia,SVK,Northern Ireland,NIR,TRUE,2,1,win,Bratislava,Slovakia,FALSE,1609,1589,1622,1576,13
+2008-09-10,FIFA World Cup qualification,played,Slovakia,SVK,Slovenia,SVN,FALSE,1,2,loss,Maribor,Slovenia,FALSE,1622,1559,1604,1577,-18
+2008-10-11,FIFA World Cup qualification,played,Slovakia,SVK,San Marino,,FALSE,3,1,win,Serravalle,San Marino,FALSE,1604,925,1606,923,2
+2008-10-15,FIFA World Cup qualification,played,Slovakia,SVK,Poland,POL,TRUE,2,1,win,Bratislava,Slovakia,FALSE,1606,1747,1628,1725,22
+2008-11-19,Friendly,played,Slovakia,SVK,Liechtenstein,,TRUE,4,0,win,Žilina,Slovakia,FALSE,1628,1187,1630,1185,2
+2009-02-10,Cyprus International Tournament,played,Slovakia,SVK,Ukraine,UKR,TRUE,2,3,loss,Limassol,Cyprus,TRUE,1630,1778,1621,1787,-9
+2009-02-11,Cyprus International Tournament,played,Slovakia,SVK,Cyprus,,FALSE,2,3,loss,Nicosia,Cyprus,FALSE,1621,1521,1606,1536,-15
+2009-03-28,Friendly,played,Slovakia,SVK,England,ENG,FALSE,0,4,loss,London,England,FALSE,1606,1981,1604,1983,-2
+2009-04-01,FIFA World Cup qualification,played,Slovakia,SVK,Czechia,CZE,FALSE,2,1,win,Prague,Czech Republic,FALSE,1604,1835,1639,1800,35
+2009-06-06,FIFA World Cup qualification,played,Slovakia,SVK,San Marino,,TRUE,7,0,win,Bratislava,Slovakia,FALSE,1639,917,1640,916,1
+2009-08-12,Friendly,played,Slovakia,SVK,Iceland,ISL,FALSE,1,1,draw,Reykjavík,Iceland,FALSE,1640,1418,1637,1421,-3
+2009-09-05,FIFA World Cup qualification,played,Slovakia,SVK,Czechia,CZE,TRUE,2,2,draw,Bratislava,Slovakia,FALSE,1637,1804,1641,1800,4
+2009-09-09,FIFA World Cup qualification,played,Slovakia,SVK,Northern Ireland,NIR,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1641,1602,1676,1567,35
+2009-10-10,FIFA World Cup qualification,played,Slovakia,SVK,Slovenia,SVN,TRUE,0,2,loss,Bratislava,Slovakia,FALSE,1676,1605,1632,1649,-44
+2009-10-14,FIFA World Cup qualification,played,Slovakia,SVK,Poland,POL,FALSE,1,0,win,Chorzów,Poland,FALSE,1632,1661,1659,1634,27
+2009-11-14,Friendly,played,Slovakia,SVK,United States,USA,TRUE,1,0,win,Bratislava,Slovakia,FALSE,1659,1824,1671,1812,12
+2009-11-17,Friendly,played,Slovakia,SVK,Chile,CHL,TRUE,1,2,loss,Žilina,Slovakia,FALSE,1671,1874,1664,1881,-7
+2010-03-03,Friendly,played,Slovakia,SVK,Norway,NOR,TRUE,0,1,loss,Žilina,Slovakia,FALSE,1664,1747,1654,1757,-10
+2010-05-29,Friendly,played,Slovakia,SVK,Cameroon,CMR,TRUE,1,1,draw,Klagenfurt,Austria,TRUE,1654,1704,1655,1703,1
+2010-06-05,Friendly,played,Slovakia,SVK,Costa Rica,CRI,TRUE,3,0,win,Bratislava,Slovakia,FALSE,1655,1711,1670,1696,15
+2010-06-15,FIFA World Cup,played,Slovakia,SVK,New Zealand,NZL,FALSE,1,1,draw,Rustenburg,South Africa,TRUE,1670,1527,1658,1539,-12
+2010-06-20,FIFA World Cup,played,Slovakia,SVK,Paraguay,PRY,TRUE,0,2,loss,Bloemfontein,South Africa,TRUE,1658,1778,1628,1808,-30
+2010-06-24,FIFA World Cup,played,Slovakia,SVK,Italy,ITA,TRUE,3,2,win,Johannesburg,South Africa,TRUE,1628,1898,1678,1848,50
+2010-06-28,FIFA World Cup,played,Slovakia,SVK,Netherlands,NLD,FALSE,1,2,loss,Durban,South Africa,TRUE,1678,2071,1672,2077,-6
+2010-08-11,Friendly,played,Slovakia,SVK,Croatia,HRV,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,1672,1893,1675,1890,3
+2010-09-03,UEFA Euro qualification,played,Slovakia,SVK,North Macedonia,,TRUE,1,0,win,Bratislava,Slovakia,FALSE,1675,1601,1686,1590,11
+2010-09-07,UEFA Euro qualification,played,Slovakia,SVK,Russia,RUS,FALSE,1,0,win,Moscow,Russia,FALSE,1686,1852,1719,1819,33
+2010-10-08,UEFA Euro qualification,played,Slovakia,SVK,Armenia,,FALSE,1,3,loss,Yerevan,Armenia,FALSE,1719,1389,1672,1436,-47
+2010-10-12,UEFA Euro qualification,played,Slovakia,SVK,Republic of Ireland,IRL,TRUE,1,1,draw,Žilina,Slovakia,FALSE,,,,,
+2010-11-17,Friendly,played,Slovakia,SVK,Bosnia and Herzegovina,BIH,TRUE,2,3,loss,Bratislava,Slovakia,FALSE,1671,1613,1657,1627,-14
+2011-02-09,Friendly,played,Slovakia,SVK,Luxembourg,,FALSE,1,2,loss,Luxembourg,Luxembourg,FALSE,1657,1113,1638,1132,-19
+2011-03-26,UEFA Euro qualification,played,Slovakia,SVK,Andorra,,FALSE,1,0,win,Sant Julià de Lòria,Andorra,FALSE,1638,1012,1640,1010,2
+2011-03-29,Friendly,played,Slovakia,SVK,Denmark,DNK,TRUE,1,2,loss,Trnava,Slovakia,FALSE,1640,1735,1630,1745,-10
+2011-06-04,UEFA Euro qualification,played,Slovakia,SVK,Andorra,,TRUE,1,0,win,Bratislava,Slovakia,FALSE,1630,1010,1631,1009,1
+2011-08-10,Friendly,played,Slovakia,SVK,Austria,AUT,FALSE,2,1,win,Klagenfurt,Austria,FALSE,1631,1562,1642,1551,11
+2011-09-02,UEFA Euro qualification,played,Slovakia,SVK,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+2011-09-06,UEFA Euro qualification,played,Slovakia,SVK,Armenia,,TRUE,0,4,loss,Žilina,Slovakia,FALSE,1655,1442,1591,1506,-64
+2011-10-07,UEFA Euro qualification,played,Slovakia,SVK,Russia,RUS,TRUE,0,1,loss,Žilina,Slovakia,FALSE,1591,1799,1577,1813,-14
+2011-10-11,UEFA Euro qualification,played,Slovakia,SVK,North Macedonia,,FALSE,1,1,draw,Skopje,North Macedonia,FALSE,1577,1506,1579,1504,2
+2012-02-29,Friendly,played,Slovakia,SVK,Turkey,TUR,FALSE,2,1,win,Bursa,Turkey,FALSE,1579,1744,1595,1728,16
+2012-05-26,Friendly,played,Slovakia,SVK,Poland,POL,FALSE,0,1,loss,Klagenfurt,Austria,TRUE,1595,1713,1588,1720,-7
+2012-05-30,Friendly,played,Slovakia,SVK,Netherlands,NLD,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1588,2058,1587,2059,-1
+2012-08-15,Friendly,played,Slovakia,SVK,Denmark,DNK,FALSE,3,1,win,Odense,Denmark,FALSE,1587,1821,1613,1795,26
+2012-09-07,FIFA World Cup qualification,played,Slovakia,SVK,Lithuania,,FALSE,1,1,draw,Vilnius,Lithuania,FALSE,1613,1468,1610,1471,-3
+2012-09-11,FIFA World Cup qualification,played,Slovakia,SVK,Liechtenstein,,TRUE,2,0,win,Bratislava,Slovakia,FALSE,1610,1220,1613,1217,3
+2012-10-12,FIFA World Cup qualification,played,Slovakia,SVK,Latvia,,TRUE,2,1,win,Bratislava,Slovakia,FALSE,1613,1515,1623,1505,10
+2012-10-16,FIFA World Cup qualification,played,Slovakia,SVK,Greece,GRC,TRUE,0,1,loss,Bratislava,Slovakia,FALSE,1623,1796,1607,1812,-16
+2012-11-14,Friendly,played,Slovakia,SVK,Czechia,CZE,FALSE,0,3,loss,Olomouc,Czech Republic,FALSE,1607,1768,1601,1774,-6
+2013-02-06,Friendly,played,Slovakia,SVK,Belgium,BEL,FALSE,1,2,loss,Bruges,Belgium,FALSE,1601,1786,1598,1789,-3
+2013-03-22,FIFA World Cup qualification,played,Slovakia,SVK,Lithuania,,TRUE,1,1,draw,Žilina,Slovakia,FALSE,1598,1467,1586,1479,-12
+2013-03-26,Friendly,played,Slovakia,SVK,Sweden,SWE,TRUE,0,0,draw,Žilina,Slovakia,FALSE,1586,1883,1591,1878,5
+2013-06-07,FIFA World Cup qualification,played,Slovakia,SVK,Liechtenstein,,FALSE,1,1,draw,Vaduz,Liechtenstein,FALSE,1591,1189,1577,1203,-14
+2013-08-14,Friendly,played,Slovakia,SVK,Romania,ROU,FALSE,1,1,draw,Bucharest,Romania,FALSE,1577,1759,1584,1752,7
+2013-09-06,FIFA World Cup qualification,played,Slovakia,SVK,Bosnia and Herzegovina,BIH,FALSE,1,0,win,Zenica,Bosnia and Herzegovina,FALSE,1584,1795,1618,1761,34
+2013-09-10,FIFA World Cup qualification,played,Slovakia,SVK,Bosnia and Herzegovina,BIH,TRUE,1,2,loss,Žilina,Slovakia,FALSE,1618,1761,1600,1779,-18
+2013-10-11,FIFA World Cup qualification,played,Slovakia,SVK,Greece,GRC,FALSE,0,1,loss,Piraeus,Greece,FALSE,1600,1820,1595,1825,-5
+2013-10-15,FIFA World Cup qualification,played,Slovakia,SVK,Latvia,,FALSE,2,2,draw,Riga,Latvia,FALSE,1595,1457,1593,1459,-2
+2013-11-15,Friendly,played,Slovakia,SVK,Poland,POL,FALSE,2,0,win,Wrocław,Poland,FALSE,1593,1643,1614,1622,21
+2013-11-19,Friendly,played,Slovakia,SVK,Gibraltar,,FALSE,0,0,draw,Faro,Portugal,TRUE,1614,1143,1605,1152,-9
+2014-03-05,Friendly,played,Slovakia,SVK,Israel,ISR,FALSE,3,1,win,Netanya,Israel,FALSE,1605,1640,1626,1619,21
+2014-05-23,Friendly,played,Slovakia,SVK,Montenegro,,TRUE,2,0,win,Senec,Slovakia,FALSE,1626,1607,1636,1597,10
+2014-05-26,Friendly,played,Slovakia,SVK,Russia,RUS,FALSE,0,1,loss,Saint Petersburg,Russia,FALSE,1636,1847,1633,1850,-3
+2014-09-04,Friendly,played,Slovakia,SVK,Malta,,TRUE,1,0,win,Žilina,Slovakia,FALSE,1633,1235,1634,1234,1
+2014-09-08,UEFA Euro qualification,played,Slovakia,SVK,Ukraine,UKR,FALSE,1,0,win,Kyiv,Ukraine,FALSE,1634,1839,1668,1805,34
+2014-10-09,UEFA Euro qualification,played,Slovakia,SVK,Spain,ESP,TRUE,2,1,win,Žilina,Slovakia,FALSE,1668,1986,1699,1955,31
+2014-10-12,UEFA Euro qualification,played,Slovakia,SVK,Belarus,,FALSE,3,1,win,Barysaw,Belarus,FALSE,1699,1561,1726,1534,27
+2014-11-15,UEFA Euro qualification,played,Slovakia,SVK,North Macedonia,,FALSE,2,0,win,Skopje,North Macedonia,FALSE,1726,1501,1746,1481,20
+2014-11-18,Friendly,played,Slovakia,SVK,Finland,,TRUE,2,1,win,Žilina,Slovakia,FALSE,1746,1629,1750,1625,4
+2015-03-27,UEFA Euro qualification,played,Slovakia,SVK,Luxembourg,,TRUE,3,0,win,Žilina,Slovakia,FALSE,1750,1225,1752,1223,2
+2015-03-31,Friendly,played,Slovakia,SVK,Czechia,CZE,TRUE,1,0,win,Žilina,Slovakia,FALSE,1752,1787,1760,1779,8
+2015-06-14,UEFA Euro qualification,played,Slovakia,SVK,North Macedonia,,TRUE,2,1,win,Žilina,Slovakia,FALSE,1760,1464,1764,1460,4
+2015-09-05,UEFA Euro qualification,played,Slovakia,SVK,Spain,ESP,FALSE,0,2,loss,Oviedo,Spain,FALSE,1764,1962,1755,1971,-9
+2015-09-08,UEFA Euro qualification,played,Slovakia,SVK,Ukraine,UKR,TRUE,0,0,draw,Žilina,Slovakia,FALSE,1755,1817,1753,1819,-2
+2015-10-09,UEFA Euro qualification,played,Slovakia,SVK,Belarus,,TRUE,0,1,loss,Žilina,Slovakia,FALSE,1753,1555,1719,1589,-34
+2015-10-12,UEFA Euro qualification,played,Slovakia,SVK,Luxembourg,,FALSE,4,2,win,Luxembourg,Luxembourg,FALSE,1719,1244,1725,1238,6
+2015-11-13,Friendly,played,Slovakia,SVK,Switzerland,CHE,TRUE,3,2,win,Trnava,Slovakia,FALSE,1725,1804,1734,1795,9
+2015-11-17,Friendly,played,Slovakia,SVK,Iceland,ISL,TRUE,3,1,win,Žilina,Slovakia,FALSE,1734,1682,1743,1673,9
+2016-03-25,Friendly,played,Slovakia,SVK,Latvia,,TRUE,0,0,draw,Trnava,Slovakia,FALSE,1743,1450,1735,1458,-8
+2016-03-29,Friendly,played,Slovakia,SVK,Republic of Ireland,IRL,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
+2016-05-27,Friendly,played,Slovakia,SVK,Georgia,,TRUE,3,1,win,Wels,Austria,TRUE,1739,1474,1744,1469,5
+2016-05-29,Friendly,played,Slovakia,SVK,Germany,DEU,FALSE,3,1,win,Augsburg,Germany,FALSE,1744,2059,1771,2032,27
+2016-06-04,Friendly,played,Slovakia,SVK,Northern Ireland,NIR,TRUE,0,0,draw,Trnava,Slovakia,FALSE,1771,1618,1765,1624,-6
+2016-06-11,UEFA Euro,played,Slovakia,SVK,Wales,WAL,FALSE,1,2,loss,Bordeaux,France,TRUE,1765,1654,1732,1687,-33
+2016-06-15,UEFA Euro,played,Slovakia,SVK,Russia,RUS,FALSE,2,1,win,Villeneuve-d'Ascq,France,TRUE,1732,1772,1760,1744,28
+2016-06-20,UEFA Euro,played,Slovakia,SVK,England,ENG,TRUE,0,0,draw,Saint-Étienne,France,TRUE,1760,1965,1773,1952,13
+2016-06-26,UEFA Euro,played,Slovakia,SVK,Germany,DEU,FALSE,0,3,loss,Villeneuve-d'Ascq,France,TRUE,1773,2041,1758,2056,-15
+2016-09-04,FIFA World Cup qualification,played,Slovakia,SVK,England,ENG,TRUE,0,1,loss,Trnava,Slovakia,FALSE,1758,1912,1741,1929,-17
+2016-10-08,FIFA World Cup qualification,played,Slovakia,SVK,Slovenia,SVN,FALSE,0,1,loss,Ljubljana,Slovenia,FALSE,1741,1609,1719,1631,-22
+2016-10-11,FIFA World Cup qualification,played,Slovakia,SVK,Scotland,SCO,TRUE,3,0,win,Trnava,Slovakia,FALSE,1719,1702,1743,1678,24
+2016-11-11,FIFA World Cup qualification,played,Slovakia,SVK,Lithuania,,TRUE,4,0,win,Trnava,Slovakia,FALSE,1743,1471,1751,1463,8
+2016-11-15,Friendly,played,Slovakia,SVK,Austria,AUT,FALSE,0,0,draw,Vienna,Austria,FALSE,1751,1687,1752,1686,1
+2017-03-26,FIFA World Cup qualification,played,Slovakia,SVK,Malta,,FALSE,3,1,win,Attard,Malta,FALSE,1752,1214,1756,1210,4
+2017-06-10,FIFA World Cup qualification,played,Slovakia,SVK,Lithuania,,FALSE,2,1,win,Vilnius,Lithuania,FALSE,1756,1457,1766,1447,10
+2017-09-01,FIFA World Cup qualification,played,Slovakia,SVK,Slovenia,SVN,TRUE,1,0,win,Trnava,Slovakia,FALSE,1766,1642,1775,1633,9
+2017-09-04,FIFA World Cup qualification,played,Slovakia,SVK,England,ENG,FALSE,1,2,loss,London,England,FALSE,1775,1913,1767,1921,-8
+2017-10-05,FIFA World Cup qualification,played,Slovakia,SVK,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1767,1709,1749,1727,-18
+2017-10-08,FIFA World Cup qualification,played,Slovakia,SVK,Malta,,TRUE,3,0,win,Trnava,Slovakia,FALSE,1749,1226,1751,1224,2
+2017-11-10,Friendly,played,Slovakia,SVK,Ukraine,UKR,FALSE,1,2,loss,Lviv,Ukraine,FALSE,1751,1730,1743,1738,-8
+2017-11-14,Friendly,played,Slovakia,SVK,Norway,NOR,TRUE,1,0,win,Trnava,Slovakia,FALSE,1743,1585,1747,1581,4
+2018-03-22,Friendly,played,Slovakia,SVK,United Arab Emirates,ARE,TRUE,2,1,win,Bangkok,Thailand,TRUE,1747,1562,1755,1554,8
+2018-03-25,Friendly,played,Slovakia,SVK,Thailand,,FALSE,3,2,win,Bangkok,Thailand,FALSE,1755,1404,1761,1398,6
+2018-05-31,Friendly,played,Slovakia,SVK,Netherlands,NLD,TRUE,1,1,draw,Trnava,Slovakia,FALSE,1761,1906,1762,1905,1
+2018-06-04,Friendly,played,Slovakia,SVK,Morocco,MAR,TRUE,1,2,loss,Geneva,Switzerland,TRUE,1762,1710,1751,1721,-11
+2018-09-05,Friendly,played,Slovakia,SVK,Denmark,DNK,TRUE,3,0,win,Trnava,Slovakia,FALSE,1751,1894,1771,1874,20
+2018-09-09,UEFA Nations League,played,Slovakia,SVK,Ukraine,UKR,FALSE,0,1,loss,Lviv,Ukraine,FALSE,1771,1774,1757,1788,-14
+2018-10-13,UEFA Nations League,played,Slovakia,SVK,Czechia,CZE,TRUE,1,2,loss,Trnava,Slovakia,FALSE,1757,1677,1727,1707,-30
+2018-10-16,Friendly,played,Slovakia,SVK,Sweden,SWE,FALSE,1,1,draw,Stockholm,Sweden,FALSE,1727,1818,1732,1813,5
+2018-11-16,UEFA Nations League,played,Slovakia,SVK,Ukraine,UKR,TRUE,4,1,win,Trnava,Slovakia,FALSE,1732,1803,1764,1771,32
+2018-11-19,UEFA Nations League,played,Slovakia,SVK,Czechia,CZE,FALSE,0,1,loss,Prague,Czech Republic,FALSE,1764,1711,1747,1728,-17
+2019-03-21,UEFA Euro qualification,played,Slovakia,SVK,Hungary,HUN,TRUE,2,0,win,Trnava,Slovakia,FALSE,1747,1610,1759,1598,12
+2019-03-24,UEFA Euro qualification,played,Slovakia,SVK,Wales,WAL,FALSE,0,1,loss,Cardiff,Wales,FALSE,1759,1763,1745,1777,-14
+2019-06-06,Friendly,played,Slovakia,SVK,Jordan,,TRUE,5,1,win,Trnava,Slovakia,FALSE,,,,,
+2019-06-11,UEFA Euro qualification,played,Slovakia,SVK,Azerbaijan,,FALSE,5,1,win,Baku,Azerbaijan,FALSE,1749,1378,1762,1365,13
+2019-09-06,UEFA Euro qualification,played,Slovakia,SVK,Croatia,HRV,TRUE,0,4,loss,Trnava,Slovakia,FALSE,1762,1885,1727,1920,-35
+2019-09-09,UEFA Euro qualification,played,Slovakia,SVK,Hungary,HUN,FALSE,2,1,win,Budapest,Hungary,FALSE,1727,1659,1749,1637,22
+2019-10-10,UEFA Euro qualification,played,Slovakia,SVK,Wales,WAL,TRUE,1,1,draw,Trnava,Slovakia,FALSE,1749,1752,1744,1757,-5
+2019-10-13,Friendly,played,Slovakia,SVK,Paraguay,PRY,TRUE,1,1,draw,Bratislava,Slovakia,FALSE,1744,1730,1741,1733,-3
+2019-11-16,UEFA Euro qualification,played,Slovakia,SVK,Croatia,HRV,FALSE,1,3,loss,Rijeka,Croatia,FALSE,1741,1908,1730,1919,-11
+2019-11-19,UEFA Euro qualification,played,Slovakia,SVK,Azerbaijan,,TRUE,2,0,win,Trnava,Slovakia,FALSE,1730,1380,1734,1376,4
+2020-09-04,UEFA Nations League,played,Slovakia,SVK,Czechia,CZE,TRUE,1,3,loss,Bratislava,Slovakia,FALSE,1734,1735,1696,1773,-38
+2020-09-07,UEFA Nations League,played,Slovakia,SVK,Israel,ISR,FALSE,1,1,draw,Netanya,Israel,FALSE,1696,1548,1693,1551,-3
+2020-10-08,UEFA Euro qualification,played,Slovakia,SVK,Republic of Ireland,IRL,TRUE,0,0,draw,Bratislava,Slovakia,FALSE,,,,,
+2020-10-11,UEFA Nations League,played,Slovakia,SVK,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1688,1650,1672,1666,-16
+2020-10-14,UEFA Nations League,played,Slovakia,SVK,Israel,ISR,TRUE,2,3,loss,Trnava,Slovakia,FALSE,1672,1547,1641,1578,-31
+2020-11-12,UEFA Euro qualification,played,Slovakia,SVK,Northern Ireland,NIR,FALSE,2,1,win,Belfast,Northern Ireland,FALSE,1641,1617,1665,1593,24
+2020-11-15,UEFA Nations League,played,Slovakia,SVK,Scotland,SCO,TRUE,1,0,win,Trnava,Slovakia,FALSE,1665,1695,1681,1679,16
+2020-11-18,UEFA Nations League,played,Slovakia,SVK,Czechia,CZE,FALSE,0,2,loss,Plzeň,Czech Republic,FALSE,1681,1743,1664,1760,-17
+2021-03-24,FIFA World Cup qualification,played,Slovakia,SVK,Cyprus,,FALSE,0,0,draw,Nicosia,Cyprus,FALSE,1664,1326,1652,1338,-12
+2021-03-27,FIFA World Cup qualification,played,Slovakia,SVK,Malta,,TRUE,2,2,draw,Trnava,Slovakia,FALSE,1652,1209,1634,1227,-18
+2021-03-30,FIFA World Cup qualification,played,Slovakia,SVK,Russia,RUS,TRUE,2,1,win,Trnava,Slovakia,FALSE,1634,1758,1655,1737,21
+2021-06-01,Friendly,played,Slovakia,SVK,Bulgaria,BGR,TRUE,1,1,draw,Ried im Innkreis,Austria,TRUE,1655,1498,1651,1502,-4
+2021-06-06,Friendly,played,Slovakia,SVK,Austria,AUT,FALSE,0,0,draw,Vienna,Austria,FALSE,1651,1751,1656,1746,5
+2021-06-14,UEFA Euro,played,Slovakia,SVK,Poland,POL,FALSE,2,1,win,Saint Petersburg,Russia,TRUE,1656,1795,1691,1760,35
+2021-06-18,UEFA Euro,played,Slovakia,SVK,Sweden,SWE,FALSE,0,1,loss,Saint Petersburg,Russia,TRUE,1691,1865,1678,1878,-13
+2021-06-23,UEFA Euro,played,Slovakia,SVK,Spain,ESP,FALSE,0,5,loss,Seville,Spain,FALSE,1678,1996,1670,2004,-8
+2021-09-01,FIFA World Cup qualification,played,Slovakia,SVK,Slovenia,SVN,FALSE,1,1,draw,Ljubljana,Slovenia,FALSE,1670,1617,1673,1614,3
+2021-09-04,FIFA World Cup qualification,played,Slovakia,SVK,Croatia,HRV,TRUE,0,1,loss,Bratislava,Slovakia,FALSE,1673,1825,1656,1842,-17
+2021-09-07,FIFA World Cup qualification,played,Slovakia,SVK,Cyprus,,TRUE,2,0,win,Bratislava,Slovakia,FALSE,1656,1316,1660,1312,4
+2021-10-08,FIFA World Cup qualification,played,Slovakia,SVK,Russia,RUS,FALSE,0,1,loss,Kazan,Russia,FALSE,1660,1741,1650,1751,-10
+2021-10-11,FIFA World Cup qualification,played,Slovakia,SVK,Croatia,HRV,FALSE,2,2,draw,Osijek,Croatia,FALSE,1650,1856,1664,1842,14
+2021-11-11,FIFA World Cup qualification,played,Slovakia,SVK,Slovenia,SVN,TRUE,2,2,draw,Trnava,Slovakia,FALSE,1664,1604,1655,1613,-9
+2021-11-14,FIFA World Cup qualification,played,Slovakia,SVK,Malta,,FALSE,6,0,win,Ta' Qali,Malta,FALSE,1655,1243,1667,1231,12
+2022-03-25,Friendly,played,Slovakia,SVK,Norway,NOR,FALSE,0,2,loss,Oslo,Norway,FALSE,1667,1733,1659,1741,-8
+2022-03-29,Friendly,played,Slovakia,SVK,Finland,,FALSE,2,0,win,Murcia,Spain,TRUE,1659,1717,1676,1700,17
+2022-06-03,UEFA Nations League,played,Slovakia,SVK,Belarus,,FALSE,1,0,win,Novi Sad,Serbia,TRUE,1676,1473,1685,1464,9
+2022-06-06,UEFA Nations League,played,Slovakia,SVK,Kazakhstan,,TRUE,0,1,loss,Trnava,Slovakia,FALSE,1685,1350,1648,1387,-37
+2022-06-10,UEFA Nations League,played,Slovakia,SVK,Azerbaijan,,FALSE,1,0,win,Mardakan,Azerbaijan,FALSE,1648,1292,1655,1285,7
+2022-06-13,UEFA Nations League,played,Slovakia,SVK,Kazakhstan,,FALSE,1,2,loss,Nur-Sultan,Kazakhstan,FALSE,1655,1391,1626,1420,-29
+2022-09-22,UEFA Nations League,played,Slovakia,SVK,Azerbaijan,,TRUE,1,2,loss,Trnava,Slovakia,FALSE,1626,1321,1590,1357,-36
+2022-09-25,UEFA Nations League,played,Slovakia,SVK,Belarus,,TRUE,1,1,draw,Bačka Topola,Serbia,TRUE,1590,1400,1576,1414,-14
+2022-11-17,Friendly,played,Slovakia,SVK,Montenegro,,FALSE,2,2,draw,Podgorica,Montenegro,FALSE,1576,1546,1578,1544,2
+2022-11-20,Friendly,played,Slovakia,SVK,Chile,CHL,TRUE,0,0,draw,Bratislava,Slovakia,FALSE,1578,1697,1579,1696,1
+2023-03-23,UEFA Euro qualification,played,Slovakia,SVK,Luxembourg,,TRUE,0,0,draw,Trnava,Slovakia,FALSE,1579,1443,1567,1455,-12
+2023-03-26,UEFA Euro qualification,played,Slovakia,SVK,Bosnia and Herzegovina,BIH,TRUE,2,0,win,Bratislava,Slovakia,FALSE,1567,1634,1594,1607,27
+2023-06-17,UEFA Euro qualification,played,Slovakia,SVK,Iceland,ISL,FALSE,2,1,win,Reykjavík,Iceland,FALSE,1594,1525,1616,1503,22
+2023-06-20,UEFA Euro qualification,played,Slovakia,SVK,Liechtenstein,,FALSE,1,0,win,Vaduz,Liechtenstein,FALSE,1616,968,1618,966,2
+2023-09-08,UEFA Euro qualification,played,Slovakia,SVK,Portugal,PRT,TRUE,0,1,loss,Bratislava,Slovakia,FALSE,1618,2012,1612,2018,-6
+2023-09-11,UEFA Euro qualification,played,Slovakia,SVK,Liechtenstein,,TRUE,3,0,win,Bratislava,Slovakia,FALSE,1612,965,1613,964,1
+2023-10-13,UEFA Euro qualification,played,Slovakia,SVK,Portugal,PRT,FALSE,2,3,loss,Porto,Portugal,FALSE,1613,2021,1611,2023,-2
+2023-10-16,UEFA Euro qualification,played,Slovakia,SVK,Luxembourg,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1611,1508,1631,1488,20
+2023-11-16,UEFA Euro qualification,played,Slovakia,SVK,Iceland,ISL,TRUE,4,2,win,Bratislava,Slovakia,FALSE,1631,1492,1643,1480,12
+2023-11-19,UEFA Euro qualification,played,Slovakia,SVK,Bosnia and Herzegovina,BIH,FALSE,2,1,win,Zenica,Bosnia and Herzegovina,FALSE,1643,1503,1661,1485,18
+2024-03-23,Friendly,played,Slovakia,SVK,Austria,AUT,TRUE,0,2,loss,Bratislava,Slovakia,FALSE,1661,1835,1649,1847,-12
+2024-03-26,Friendly,played,Slovakia,SVK,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1649,1742,1654,1737,5
+2024-06-05,Friendly,played,Slovakia,SVK,San Marino,,FALSE,4,0,win,Wiener Neustadt,Austria,TRUE,1654,776,1654,776,0
+2024-06-09,Friendly,played,Slovakia,SVK,Wales,WAL,TRUE,4,0,win,Trnava,Slovakia,FALSE,1654,1699,1670,1683,16
+2024-06-17,UEFA Euro,played,Slovakia,SVK,Belgium,BEL,FALSE,1,0,win,Frankfurt,Germany,TRUE,1670,1988,1713,1945,43
+2024-06-21,UEFA Euro,played,Slovakia,SVK,Ukraine,UKR,TRUE,1,2,loss,Düsseldorf,Germany,TRUE,1713,1786,1693,1806,-20
+2024-06-26,UEFA Euro,played,Slovakia,SVK,Romania,ROU,TRUE,1,1,draw,Frankfurt,Germany,TRUE,1693,1698,1693,1698,0
+2024-06-30,UEFA Euro,played,Slovakia,SVK,England,ENG,FALSE,1,2,loss,Gelsenkirchen,Germany,TRUE,1693,1967,1684,1976,-9
+2024-09-05,UEFA Nations League,played,Slovakia,SVK,Estonia,,FALSE,1,0,win,Tallinn,Estonia,FALSE,1684,1370,1693,1361,9
+2024-09-08,UEFA Nations League,played,Slovakia,SVK,Azerbaijan,,TRUE,2,0,win,Košice,Slovakia,FALSE,1693,1468,1701,1460,8
+2024-10-11,UEFA Nations League,played,Slovakia,SVK,Sweden,SWE,TRUE,2,2,draw,Bratislava,Slovakia,FALSE,1701,1702,1695,1708,-6
+2024-10-14,UEFA Nations League,played,Slovakia,SVK,Azerbaijan,,FALSE,3,1,win,Baku,Azerbaijan,FALSE,1695,1430,1712,1413,17
+2024-11-16,UEFA Nations League,played,Slovakia,SVK,Sweden,SWE,FALSE,1,2,loss,Solna,Sweden,FALSE,1712,1723,1698,1737,-14
+2024-11-19,UEFA Nations League,played,Slovakia,SVK,Estonia,,TRUE,1,0,win,Trnava,Slovakia,FALSE,1698,1379,1701,1376,3
+2025-03-20,UEFA Nations League,played,Slovakia,SVK,Slovenia,SVN,TRUE,0,0,draw,Bratislava,Slovakia,FALSE,1701,1727,1697,1731,-4
+2025-03-23,UEFA Nations League,played,Slovakia,SVK,Slovenia,SVN,FALSE,0,1,loss,Ljubljana,Slovenia,FALSE,1697,1731,1684,1744,-13
+2025-06-07,Friendly,played,Slovakia,SVK,Greece,GRC,FALSE,1,4,loss,Heraklion,Greece,FALSE,1684,1829,1677,1836,-7
+2025-06-10,Friendly,played,Slovakia,SVK,Israel,ISR,FALSE,0,1,loss,Debrecen,Hungary,TRUE,1677,1617,1665,1629,-12
+2025-09-04,FIFA World Cup qualification,played,Slovakia,SVK,Germany,DEU,TRUE,2,0,win,Bratislava,Slovakia,FALSE,1665,1913,1707,1871,42
+2025-09-07,FIFA World Cup qualification,played,Slovakia,SVK,Luxembourg,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1707,1426,1717,1416,10
+2025-10-10,FIFA World Cup qualification,played,Slovakia,SVK,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1717,1585,1684,1618,-33
+2025-10-13,FIFA World Cup qualification,played,Slovakia,SVK,Luxembourg,,TRUE,2,0,win,Trnava,Slovakia,FALSE,1684,1413,1690,1407,6
+2025-11-14,FIFA World Cup qualification,played,Slovakia,SVK,Northern Ireland,NIR,TRUE,1,0,win,Košice,Slovakia,FALSE,1690,1607,1700,1597,10
+2025-11-17,FIFA World Cup qualification,played,Slovakia,SVK,Germany,DEU,FALSE,0,6,loss,Leipzig,Germany,FALSE,1700,1897,1687,1910,-13
+2026-03-26,FIFA World Cup qualification,played,Slovakia,SVK,Kosovo,,TRUE,3,4,loss,Bratislava,Slovakia,FALSE,1687,1714,1663,1738,-24
+2026-03-31,Friendly,played,Slovakia,SVK,Romania,ROU,TRUE,2,0,win,Bratislava,Slovakia,FALSE,1663,1637,1673,1627,10

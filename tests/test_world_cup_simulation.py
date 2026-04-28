@@ -8,7 +8,6 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT / "INT-World Cup" / "world_cup" / "2026"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -51,12 +50,15 @@ from world_cup_simulation import (  # noqa: E402
     simulate_group_probabilities_v2,
     simulate_group_probabilities_v3,
 )
+from world_cup_sim.constants import WORLD_CUP_ROOT  # noqa: E402
 from scripts.build_world_cup_2026_dataset import (  # noqa: E402
     QualifiedTeam,
     build_alias_maps,
     compute_world_cup_history_features,
     compute_world_cup_placement_score,
 )
+
+DATA_DIR = WORLD_CUP_ROOT / "2026"
 
 
 def load_home_module():
@@ -150,8 +152,8 @@ def test_compute_world_cup_history_features_maps_west_germany_and_uses_unique_ed
 
     history_features = compute_world_cup_history_features(qualified_teams, alias_map, dated_former_aliases)
 
-    placement_df = pd.read_csv(ROOT / "INT-World Cup" / "world_cup" / "all_editions" / "placement.csv")
-    history_df = pd.read_csv(ROOT / "INT-World Cup" / "world_cup" / "fifa_world_cup_history.csv")
+    placement_df = pd.read_csv(WORLD_CUP_ROOT / "all_editions" / "placement.csv")
+    history_df = pd.read_csv(WORLD_CUP_ROOT / "fifa_world_cup_history.csv")
     editions = sorted(history_df["Year"].astype(int).tolist())
     edition_weight_map = {edition: (index + 1) ** 2 for index, edition in enumerate(editions)}
     total_edition_weight = float(sum(edition_weight_map.values()))

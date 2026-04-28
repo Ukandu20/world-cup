@@ -1,0 +1,871 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1908-07-12,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,3,11,loss,Gothenburg,Sweden,FALSE,1400,1700,1396,1704,-4
+1910-09-11,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,4,loss,Kristiania,Norway,FALSE,1396,1656,1385,1667,-11
+1911-09-17,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,1,4,loss,Solna,Sweden,FALSE,1385,1648,1381,1652,-4
+1912-06-16,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,1,2,loss,Kristiania,Norway,FALSE,1381,1691,1376,1696,-5
+1912-06-23,Friendly,played,Norway,NOR,Hungary,HUN,TRUE,0,6,loss,Kristiania,Norway,FALSE,1376,1886,1372,1890,-4
+1912-06-30,Olympic Games,played,Norway,NOR,Denmark,DNK,FALSE,0,7,loss,Stockholm,Sweden,TRUE,1372,2001,1368,2005,-4
+1912-07-01,Olympic Games,played,Norway,NOR,Austria,AUT,FALSE,0,1,loss,Stockholm,Sweden,TRUE,1368,1846,1364,1850,-4
+1912-07-03,Friendly,played,Norway,NOR,Russia,RUS,TRUE,2,1,win,Stockholm,Sweden,TRUE,,,,,
+1912-11-03,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,2,4,loss,Gothenburg,Sweden,FALSE,1377,1646,1374,1649,-3
+1913-06-08,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,9,loss,Stockholm,Sweden,FALSE,1374,1658,1369,1663,-5
+1913-09-14,Friendly,played,Norway,NOR,Russia,RUS,FALSE,1,1,draw,Moscow,Russia,FALSE,1369,1457,1374,1452,5
+1913-10-26,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,1,1,draw,Kristiania,Norway,FALSE,1374,1654,1379,1649,5
+1914-06-28,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,1,loss,Kristiania,Norway,FALSE,1379,1642,1373,1648,-6
+1914-07-12,Friendly,played,Norway,NOR,Russia,RUS,TRUE,1,1,draw,Kristiania,Norway,FALSE,1383,1449,1382,1450,-1
+1914-10-25,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,7,loss,Solna,Sweden,FALSE,1382,1641,1377,1646,-5
+1915-06-27,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,1,1,draw,Kristiania,Norway,FALSE,1377,1645,1381,1641,4
+1915-09-19,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,1,8,loss,Copenhagen,Denmark,FALSE,1381,2068,1381,2068,0
+1915-10-24,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,2,5,loss,Stockholm,Sweden,FALSE,1381,1641,1377,1645,-4
+1916-06-25,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,0,2,loss,Kristiania,Norway,FALSE,1377,2073,1376,2074,-1
+1916-07-02,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,6,loss,Stockholm,Sweden,FALSE,1376,1640,1371,1645,-5
+1916-09-03,Friendly,played,Norway,NOR,United States,USA,TRUE,1,1,draw,Kristiania,Norway,FALSE,1371,1711,1377,1705,6
+1916-10-01,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,0,draw,Kristiania,Norway,FALSE,1377,1634,1381,1630,4
+1916-10-15,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,0,8,loss,Copenhagen,Denmark,FALSE,1381,2041,1380,2042,-1
+1917-06-17,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,1,2,loss,Kristiania,Norway,FALSE,1380,2033,1379,2034,-1
+1917-08-19,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,3,3,draw,Helsingborg,Sweden,FALSE,1379,1672,1387,1664,8
+1917-09-16,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,2,loss,Kristiania,Norway,FALSE,1387,1664,1379,1672,-8
+1917-10-07,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,0,12,loss,Copenhagen,Denmark,FALSE,1379,2034,1378,2035,-1
+1918-05-26,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,2,loss,Stockholm,Sweden,FALSE,1378,1668,1375,1671,-3
+1918-06-16,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,3,1,win,Kristiania,Norway,FALSE,1375,2041,1404,2012,29
+1918-09-15,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,2,1,win,Kristiania,Norway,FALSE,1404,1669,1418,1655,14
+1918-10-06,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,0,4,loss,Copenhagen,Denmark,FALSE,1418,2012,1417,2013,-1
+1919-06-12,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,1,5,loss,Copenhagen,Denmark,FALSE,1417,2019,1416,2020,-1
+1919-06-29,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,4,3,win,Kristiania,Norway,FALSE,1416,1652,1430,1638,14
+1919-08-31,Friendly,played,Norway,NOR,Netherlands,NLD,TRUE,1,1,draw,Oslo,Norway,FALSE,1430,1931,1438,1923,8
+1919-09-14,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,5,1,win,Gothenburg,Sweden,FALSE,1438,1665,1471,1632,33
+1919-09-21,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,3,2,win,Kristiania,Norway,FALSE,1471,2020,1490,2001,19
+1920-06-13,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,1,1,draw,Kristiania,Norway,FALSE,1490,1959,1498,1951,8
+1920-06-27,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,3,loss,Kristiania,Norway,FALSE,1498,1657,1483,1672,-15
+1920-08-29,Olympic Games,played,Norway,NOR,Czechoslovakia,CSK,FALSE,0,4,loss,Brussels,Belgium,TRUE,1569,1891,1554,1906,-15
+1920-08-31,Olympic Games,played,Norway,NOR,Italy,ITA,FALSE,1,2,loss,Antwerp,Belgium,TRUE,1554,1607,1529,1632,-25
+1920-09-26,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,0,draw,Stockholm,Sweden,FALSE,1529,1663,1535,1657,6
+1921-05-25,Friendly,played,Norway,NOR,Finland,,TRUE,3,2,win,Kristiania,Norway,FALSE,1535,1604,1544,1595,9
+1921-06-19,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,3,1,win,Kristiania,Norway,FALSE,1544,1631,1558,1617,14
+1921-09-18,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,3,0,win,Stockholm,Sweden,FALSE,1558,1604,1582,1580,24
+1921-10-02,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1582,1928,1580,1930,-2
+1922-05-25,Friendly,played,Norway,NOR,Northern Ireland,NIR,TRUE,2,1,win,Bergen,Norway,FALSE,1580,1695,1590,1685,10
+1922-06-11,Friendly,played,Norway,NOR,France,FRA,TRUE,7,0,win,Kristiania,Norway,FALSE,1590,1616,1608,1598,18
+1922-08-23,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,0,draw,Stockholm,Sweden,FALSE,1608,1601,1611,1598,3
+1922-08-26,Friendly,played,Norway,NOR,Finland,,FALSE,3,1,win,Helsinki,Finland,FALSE,1611,1598,1630,1579,19
+1922-09-10,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,3,3,draw,Fredrikstad,Norway,FALSE,1630,1888,1634,1884,4
+1922-09-24,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,5,loss,Kristiania,Norway,FALSE,1634,1598,1607,1625,-27
+1923-06-17,Friendly,played,Norway,NOR,Finland,,TRUE,3,0,win,Kristiania,Norway,FALSE,1607,1579,1618,1568,11
+1923-06-21,Friendly,played,Norway,NOR,Switzerland,CHE,TRUE,2,2,draw,Kristiania,Norway,FALSE,1618,1600,1615,1603,-3
+1923-09-16,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,2,3,loss,Kristiania,Norway,FALSE,1615,1667,1604,1678,-11
+1923-09-30,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1604,1858,1602,1860,-2
+1923-10-28,Friendly,played,Norway,NOR,France,FRA,FALSE,2,0,win,Paris,France,FALSE,1602,1578,1620,1560,18
+1923-11-01,Friendly,played,Norway,NOR,Brittany,,FALSE,5,1,win,Rennes,France,FALSE,,,,,
+1923-11-04,Friendly,played,Norway,NOR,Germany,DEU,FALSE,0,1,loss,Hamburg,Germany,FALSE,1620,1655,1614,1661,-6
+1924-06-15,Friendly,played,Norway,NOR,Germany,DEU,TRUE,0,2,loss,Kristiania,Norway,FALSE,1614,1688,1598,1704,-16
+1924-08-23,Friendly,played,Norway,NOR,Finland,,FALSE,0,2,loss,Helsinki,Finland,FALSE,1598,1548,1585,1561,-13
+1924-09-14,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,1,3,loss,Kristiania,Norway,FALSE,1585,1830,1571,1844,-14
+1924-09-21,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,1,6,loss,Solna,Sweden,FALSE,1571,1886,1566,1891,-5
+1925-06-07,Friendly,played,Norway,NOR,Finland,,TRUE,1,0,win,Oslo,Norway,FALSE,1566,1566,1573,1559,7
+1925-06-21,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,5,loss,Copenhagen,Denmark,FALSE,1573,1881,1568,1886,-5
+1925-08-23,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,3,7,loss,Oslo,Norway,FALSE,1568,1860,1554,1874,-14
+1926-06-06,Friendly,played,Norway,NOR,Finland,,FALSE,5,2,win,Helsinki,Finland,FALSE,1554,1530,1575,1509,21
+1926-06-09,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,2,3,loss,Stockholm,Sweden,FALSE,1575,1883,1572,1886,-3
+1926-09-19,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,2,2,draw,Oslo,Norway,FALSE,1572,1857,1579,1850,7
+1926-10-10,Friendly,played,Norway,NOR,Poland,POL,TRUE,3,4,loss,Fredrikstad,Norway,FALSE,1579,1581,1566,1594,-13
+1927-05-29,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,0,1,loss,Oslo,Norway,FALSE,1566,1866,1561,1871,-5
+1927-06-15,Friendly,played,Norway,NOR,Finland,,TRUE,3,1,win,Oslo,Norway,FALSE,1561,1514,1570,1505,9
+1927-06-26,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,3,5,loss,Oslo,Norway,FALSE,1570,1813,1556,1827,-14
+1927-10-23,Friendly,played,Norway,NOR,Germany,DEU,FALSE,2,6,loss,Altona,Germany,FALSE,1556,1720,1549,1727,-7
+1927-10-30,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1549,1873,1545,1877,-4
+1928-06-03,Friendly,played,Norway,NOR,Finland,,FALSE,6,0,win,Helsinki,Finland,FALSE,1545,1500,1570,1475,25
+1928-06-07,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,1,6,loss,Stockholm,Sweden,FALSE,1570,1828,1563,1835,-7
+1928-06-17,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,2,3,loss,Oslo,Norway,FALSE,1563,1861,1556,1868,-7
+1928-09-23,Friendly,played,Norway,NOR,Germany,DEU,TRUE,0,2,loss,Oslo,Norway,FALSE,1556,1776,1546,1786,-10
+1929-05-26,Friendly,played,Norway,NOR,Scotland,SCO,TRUE,3,7,loss,Bergen,Norway,FALSE,1546,2029,1542,2033,-4
+1929-06-12,Friendly,played,Norway,NOR,Netherlands,NLD,TRUE,4,4,draw,Oslo,Norway,FALSE,1538,1689,1539,1688,1
+1929-06-18,Nordic Championship,played,Norway,NOR,Finland,,TRUE,4,0,win,Oslo,Norway,FALSE,1539,1452,1553,1438,14
+1929-06-23,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,5,2,win,Copenhagen,Denmark,FALSE,1553,1860,1601,1812,48
+1929-09-29,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,2,1,win,Oslo,Norway,FALSE,1601,1827,1621,1807,20
+1929-11-03,Friendly,played,Norway,NOR,Netherlands,NLD,FALSE,4,1,win,Amsterdam,Netherlands,FALSE,1621,1688,1646,1663,25
+1930-06-01,Nordic Championship,played,Norway,NOR,Finland,,TRUE,6,2,win,Oslo,Norway,FALSE,1646,1446,1654,1438,8
+1930-06-19,Friendly,played,Norway,NOR,Switzerland,CHE,TRUE,3,0,win,Oslo,Norway,FALSE,1654,1548,1662,1540,8
+1930-07-06,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,3,6,loss,Stockholm,Sweden,FALSE,1662,1789,1651,1800,-11
+1930-09-21,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,1,0,win,Oslo,Norway,FALSE,1651,1858,1670,1839,19
+1930-11-02,Friendly,played,Norway,NOR,Germany,DEU,FALSE,1,1,draw,Breslau,Germany,FALSE,1670,1820,1676,1814,6
+1931-05-25,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1676,1839,1668,1847,-8
+1931-06-21,Friendly,played,Norway,NOR,Germany,DEU,TRUE,2,2,draw,Oslo,Norway,FALSE,1668,1781,1668,1781,0
+1931-09-06,Nordic Championship,played,Norway,NOR,Finland,,FALSE,4,4,draw,Helsinki,Finland,FALSE,1668,1423,1662,1429,-6
+1931-09-27,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,2,1,win,Oslo,Norway,FALSE,1662,1786,1678,1770,16
+1932-06-05,Friendly,played,Norway,NOR,Estonia,,TRUE,3,0,win,Oslo,Norway,FALSE,1678,1362,1681,1359,3
+1932-06-17,Nordic Championship,played,Norway,NOR,Finland,,TRUE,2,1,win,Oslo,Norway,FALSE,1681,1443,1685,1439,4
+1932-07-01,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,4,1,win,Gothenburg,Sweden,FALSE,1685,1764,1724,1725,39
+1932-09-25,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,1,2,loss,Oslo,Norway,FALSE,1724,1728,1705,1747,-19
+1933-06-11,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,2,2,draw,Copenhagen,Denmark,FALSE,1705,1747,1711,1741,6
+1933-09-03,Nordic Championship,played,Norway,NOR,Finland,,FALSE,5,1,win,Helsinki,Finland,FALSE,1711,1485,1729,1467,18
+1933-09-24,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,0,1,loss,Oslo,Norway,FALSE,1729,1702,1709,1722,-20
+1933-11-05,Friendly,played,Norway,NOR,Germany,DEU,FALSE,2,2,draw,Magdeburg,Germany,FALSE,1709,1766,1713,1762,4
+1934-07-01,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,3,3,draw,Stockholm,Sweden,FALSE,1713,1785,1720,1778,7
+1934-09-02,Nordic Championship,played,Norway,NOR,Finland,,TRUE,4,2,win,Oslo,Norway,FALSE,1720,1464,1725,1459,5
+1934-09-23,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,3,1,win,Oslo,Norway,FALSE,1725,1715,1741,1699,16
+1935-06-23,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1741,1672,1727,1686,-14
+1935-06-27,Friendly,played,Norway,NOR,Germany,DEU,TRUE,1,1,draw,Oslo,Norway,FALSE,1727,1904,1729,1902,2
+1935-09-08,Nordic Championship,played,Norway,NOR,Finland,,FALSE,5,1,win,Helsinki,Finland,FALSE,1729,1491,1747,1473,18
+1935-09-22,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,0,2,loss,Oslo,Norway,FALSE,1747,1784,1720,1811,-27
+1935-11-03,Friendly,played,Norway,NOR,Switzerland,CHE,FALSE,0,2,loss,Zürich,Switzerland,FALSE,1720,1678,1707,1691,-13
+1936-06-18,Friendly,played,Norway,NOR,Switzerland,CHE,TRUE,1,2,loss,Oslo,Norway,FALSE,1707,1657,1693,1671,-14
+1936-07-05,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,0,2,loss,Gothenburg,Sweden,FALSE,1693,1760,1681,1772,-12
+1936-07-26,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,4,3,win,Stockholm,Sweden,FALSE,1681,1772,1696,1757,15
+1936-09-06,Nordic Championship,played,Norway,NOR,Finland,,TRUE,0,2,loss,Oslo,Norway,FALSE,1793,1400,1750,1443,-43
+1936-09-20,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,3,3,draw,Oslo,Norway,FALSE,1750,1712,1744,1718,-6
+1936-11-01,Friendly,played,Norway,NOR,Netherlands,NLD,FALSE,3,3,draw,Amsterdam,Netherlands,FALSE,1744,1737,1747,1734,3
+1937-05-14,Friendly,played,Norway,NOR,England,ENG,TRUE,0,6,loss,Oslo,Norway,FALSE,1747,1918,1730,1935,-17
+1937-05-27,Friendly,played,Norway,NOR,Italy,ITA,TRUE,1,3,loss,Oslo,Norway,FALSE,1730,2067,1724,2073,-6
+1937-06-13,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,5,loss,Copenhagen,Denmark,FALSE,1724,1711,1703,1732,-21
+1937-08-22,Friendly,played,Norway,NOR,Basque Country,,TRUE,1,3,loss,Oslo,Norway,FALSE,,,,,
+1937-09-05,Nordic Championship,played,Norway,NOR,Finland,,FALSE,2,0,win,Helsinki,Finland,FALSE,1703,1382,1713,1372,10
+1937-09-19,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,3,2,win,Oslo,Norway,FALSE,1713,1692,1723,1682,10
+1937-10-10,FIFA World Cup qualification,played,Norway,NOR,Republic of Ireland,IRL,TRUE,3,2,win,Oslo,Norway,FALSE,,,,,
+1937-10-24,Friendly,played,Norway,NOR,Germany,DEU,FALSE,0,3,loss,Berlin,Germany,FALSE,1735,1852,1727,1860,-8
+1937-11-07,FIFA World Cup qualification,played,Norway,NOR,Republic of Ireland,IRL,FALSE,3,3,draw,Dublin,Irish Free State,TRUE,,,,,
+1938-05-31,Friendly,played,Norway,NOR,Estonia,,TRUE,1,0,win,Oslo,Norway,FALSE,1729,1298,1730,1297,1
+1938-06-05,FIFA World Cup,played,Norway,NOR,Italy,ITA,FALSE,1,2,loss,Marseille,France,TRUE,1730,2052,1722,2060,-8
+1938-06-17,Nordic Championship,played,Norway,NOR,Finland,,TRUE,9,0,win,Oslo,Norway,FALSE,1722,1368,1727,1363,5
+1938-09-04,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,2,1,win,Oslo,Norway,FALSE,1727,1679,1733,1673,6
+1938-09-18,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,1,1,draw,Oslo,Norway,FALSE,1733,1688,1727,1694,-6
+1938-10-02,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,3,2,win,Solna,Sweden,FALSE,1727,1673,1744,1656,17
+1938-10-23,Friendly,played,Norway,NOR,Poland,POL,FALSE,2,2,draw,Warsaw,Poland,FALSE,1744,1595,1743,1596,-1
+1938-11-09,Friendly,played,Norway,NOR,England,ENG,FALSE,0,4,loss,Newcastle,England,FALSE,1743,1936,1737,1942,-6
+1939-06-02,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,2,3,loss,Solna,Sweden,FALSE,1737,1656,1728,1665,-9
+1939-06-14,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,1,0,win,Copenhagen,Denmark,TRUE,1728,1672,1741,1659,13
+1939-06-18,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,3,6,loss,Copenhagen,Denmark,FALSE,1741,1696,1719,1718,-22
+1939-06-22,Friendly,played,Norway,NOR,Germany,DEU,TRUE,0,4,loss,Oslo,Norway,FALSE,1719,1763,1697,1785,-22
+1939-09-03,Nordic Championship,played,Norway,NOR,Finland,,FALSE,2,1,win,Helsinki,Finland,FALSE,1697,1393,1704,1386,7
+1939-09-17,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,2,3,loss,Oslo,Norway,FALSE,1704,1659,1683,1680,-21
+1939-10-22,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,4,loss,Copenhagen,Denmark,FALSE,1683,1687,1664,1706,-19
+1945-08-26,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,2,4,loss,Copenhagen,Denmark,FALSE,1664,1681,1654,1691,-10
+1945-09-09,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,1,5,loss,Oslo,Norway,FALSE,1654,1691,1632,1713,-22
+1945-10-21,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,10,loss,Solna,Sweden,FALSE,1632,1797,1623,1806,-9
+1946-06-16,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,2,1,win,Oslo,Norway,FALSE,1623,1704,1632,1695,9
+1946-06-28,Friendly,played,Norway,NOR,Finland,,TRUE,12,0,win,Bergen,Norway,FALSE,1632,1343,1638,1337,6
+1946-07-08,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,0,2,loss,Copenhagen,Denmark,FALSE,1638,1710,1630,1718,-8
+1946-07-28,Friendly,played,Norway,NOR,Luxembourg,,FALSE,2,3,loss,Luxembourg,Luxembourg,FALSE,1630,1281,1614,1297,-16
+1946-09-15,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,3,loss,Oslo,Norway,FALSE,1614,1798,1601,1811,-13
+1946-10-20,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,1,7,loss,Copenhagen,Denmark,FALSE,1601,1734,1592,1743,-9
+1947-06-11,Friendly,played,Norway,NOR,Poland,POL,TRUE,3,1,win,Oslo,Norway,FALSE,1592,1577,1602,1567,10
+1947-06-26,Friendly,played,Norway,NOR,Finland,,FALSE,2,1,win,Helsinki,Finland,FALSE,1602,1326,1610,1318,8
+1947-06-28,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,1,5,loss,Helsinki,Finland,TRUE,1610,1848,1599,1859,-11
+1947-07-24,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,4,2,win,Reykjavík,Iceland,FALSE,1599,1308,1606,1301,7
+1947-09-07,Nordic Championship,played,Norway,NOR,Finland,,FALSE,3,3,draw,Helsinki,Finland,FALSE,1606,1316,1599,1323,-7
+1947-09-21,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,3,5,loss,Oslo,Norway,FALSE,1599,1701,1577,1723,-22
+1947-10-05,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,1,4,loss,Solna,Sweden,FALSE,1577,1863,1572,1868,-5
+1948-05-26,Friendly,played,Norway,NOR,Netherlands,NLD,TRUE,1,2,loss,Oslo,Norway,FALSE,1572,1681,1562,1691,-10
+1948-06-12,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,2,1,win,Copenhagen,Denmark,FALSE,1562,1726,1587,1701,25
+1948-08-06,Friendly,played,Norway,NOR,United States,USA,TRUE,11,0,win,Oslo,Norway,FALSE,1587,1591,1607,1571,20
+1948-09-05,Nordic Championship,played,Norway,NOR,Finland,,TRUE,2,0,win,Oslo,Norway,FALSE,1607,1290,1611,1286,4
+1948-09-19,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,3,5,loss,Oslo,Norway,FALSE,1611,1998,1604,2005,-7
+1948-12-24,Friendly,played,Norway,NOR,Egypt,EGY,FALSE,1,1,draw,Cairo,Egypt,FALSE,1604,1610,1607,1607,3
+1949-05-18,Friendly,played,Norway,NOR,England,ENG,TRUE,1,4,loss,Oslo,Norway,FALSE,1607,2014,1602,2019,-5
+1949-06-19,Friendly,played,Norway,NOR,Yugoslavia,YUG,TRUE,1,3,loss,Oslo,Norway,FALSE,1602,1756,1589,1769,-13
+1949-07-08,Nordic Championship,played,Norway,NOR,Finland,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1589,1293,1581,1301,-8
+1949-09-11,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,0,2,loss,Oslo,Norway,FALSE,1581,1751,1563,1769,-18
+1949-10-02,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,3,3,draw,Solna,Sweden,FALSE,1563,2009,1577,1995,14
+1950-06-22,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,0,4,loss,Copenhagen,Denmark,FALSE,1577,1786,1569,1794,-8
+1950-06-25,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,4,1,win,Aarhus,Denmark,FALSE,1569,1794,1599,1764,30
+1950-08-15,Friendly,played,Norway,NOR,Luxembourg,,TRUE,2,2,draw,Bergen,Norway,FALSE,1599,1295,1591,1303,-8
+1950-09-10,Nordic Championship,played,Norway,NOR,Finland,,TRUE,4,1,win,Oslo,Norway,FALSE,1591,1390,1599,1382,8
+1950-09-24,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,1,3,loss,Oslo,Norway,FALSE,1599,1937,1590,1946,-9
+1950-11-05,Friendly,played,Norway,NOR,Yugoslavia,YUG,FALSE,0,4,loss,Belgrade,Yugoslavia,FALSE,1590,1875,1586,1879,-4
+1950-11-26,Friendly,played,Norway,NOR,Republic of Ireland,IRL,FALSE,2,2,draw,Dublin,Éire,FALSE,,,,,
+1951-05-30,Friendly,played,Norway,NOR,Republic of Ireland,IRL,TRUE,2,3,loss,Oslo,Norway,FALSE,,,,,
+1951-06-06,Friendly,played,Norway,NOR,Netherlands,NLD,FALSE,3,2,win,Rotterdam,Netherlands,FALSE,1578,1637,1592,1623,14
+1951-07-26,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,3,1,win,Trondheim,Norway,FALSE,1592,1330,1595,1327,3
+1951-08-16,Nordic Championship,played,Norway,NOR,Finland,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1595,1380,1590,1385,-5
+1951-08-23,Friendly,played,Norway,NOR,Yugoslavia,YUG,TRUE,2,4,loss,Oslo,Norway,FALSE,1590,1886,1583,1893,-7
+1951-09-16,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,2,0,win,Oslo,Norway,FALSE,1583,1734,1609,1708,26
+1951-09-30,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,4,3,win,Gothenburg,Sweden,FALSE,1609,1907,1636,1880,27
+1952-06-10,Friendly,played,Norway,NOR,Finland,,TRUE,1,2,loss,Oslo,Norway,FALSE,1636,1367,1609,1394,-27
+1952-06-25,Friendly,played,Norway,NOR,Yugoslavia,YUG,FALSE,1,4,loss,Zagreb,Yugoslavia,FALSE,1609,1901,1606,1904,-3
+1952-08-31,Nordic Championship,played,Norway,NOR,Finland,,TRUE,7,2,win,Oslo,Norway,FALSE,1585,1451,1597,1439,12
+1952-10-05,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,1,2,loss,Oslo,Norway,FALSE,1597,1835,1588,1844,-9
+1952-10-19,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,3,1,win,Copenhagen,Denmark,FALSE,1588,1703,1623,1668,35
+1953-06-24,FIFA World Cup qualification,played,Norway,NOR,Saarland,,TRUE,2,3,loss,Oslo,Norway,FALSE,,,,,
+1953-08-13,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,3,1,win,Bergen,Norway,FALSE,1596,1324,1599,1321,3
+1953-08-19,FIFA World Cup qualification,played,Norway,NOR,Germany,DEU,TRUE,1,1,draw,Oslo,Norway,FALSE,,,,,
+1953-08-30,Nordic Championship,played,Norway,NOR,Finland,,FALSE,4,1,win,Helsinki,Finland,FALSE,1610,1443,1631,1422,21
+1953-09-13,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,0,1,loss,Oslo,Norway,FALSE,1631,1687,1614,1704,-17
+1953-09-27,Friendly,played,Norway,NOR,Netherlands,NLD,TRUE,4,0,win,Oslo,Norway,FALSE,1614,1572,1625,1561,11
+1953-10-18,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,0,0,draw,Solna,Sweden,FALSE,1625,1802,1635,1792,10
+1953-11-08,FIFA World Cup qualification,played,Norway,NOR,Saarland,,FALSE,0,0,draw,Saarbrücken,Saarland,FALSE,,,,,
+1953-11-22,FIFA World Cup qualification,played,Norway,NOR,Germany,DEU,FALSE,1,5,loss,Hamburg,Germany,FALSE,,,,,
+1954-05-05,Friendly,played,Norway,NOR,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1631,1901,1629,1903,-2
+1954-05-19,Friendly,played,Norway,NOR,Scotland,SCO,TRUE,1,1,draw,Oslo,Norway,FALSE,1629,1903,1634,1898,5
+1954-05-30,Friendly,played,Norway,NOR,Austria,AUT,FALSE,0,5,loss,Vienna,Austria,FALSE,1634,1863,1629,1868,-5
+1954-06-04,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,2,1,win,Malmö,Sweden,TRUE,1629,1711,1647,1693,18
+1954-06-07,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,3,loss,Solna,Sweden,FALSE,1647,1814,1638,1823,-9
+1954-07-04,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1638,1321,1622,1337,-16
+1954-08-29,Nordic Championship,played,Norway,NOR,Finland,,TRUE,3,1,win,Oslo,Norway,FALSE,1622,1421,1629,1414,7
+1954-09-19,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,1,1,draw,Oslo,Norway,FALSE,1629,1805,1632,1802,3
+1954-10-31,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,0,win,Copenhagen,Denmark,FALSE,1632,1672,1653,1651,21
+1954-11-07,Friendly,played,Norway,NOR,Republic of Ireland,IRL,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1955-05-08,Friendly,played,Norway,NOR,Hungary,HUN,TRUE,0,5,loss,Oslo,Norway,FALSE,1645,2185,1642,2188,-3
+1955-05-25,Friendly,played,Norway,NOR,Republic of Ireland,IRL,TRUE,1,3,loss,Oslo,Norway,FALSE,,,,,
+1955-06-12,Friendly,played,Norway,NOR,Romania,ROU,TRUE,0,1,loss,Oslo,Norway,FALSE,1623,1632,1610,1645,-13
+1955-08-14,Nordic Championship,played,Norway,NOR,Finland,,FALSE,3,1,win,Helsinki,Finland,FALSE,1610,1409,1626,1393,16
+1955-09-11,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,1,1,draw,Oslo,Norway,FALSE,1626,1660,1623,1663,-3
+1955-09-25,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,1,1,draw,Solna,Sweden,FALSE,1623,1784,1633,1774,10
+1955-11-06,Friendly,played,Norway,NOR,Netherlands,NLD,FALSE,0,3,loss,Amsterdam,Netherlands,FALSE,1633,1582,1618,1597,-15
+1955-11-16,Friendly,played,Norway,NOR,Germany,DEU,FALSE,0,2,loss,Karlsruhe,Germany,FALSE,,,,,
+1956-05-30,Friendly,played,Norway,NOR,Poland,POL,TRUE,0,0,draw,Oslo,Norway,FALSE,1616,1554,1612,1558,-4
+1956-06-13,Friendly,played,Norway,NOR,Germany,DEU,TRUE,1,3,loss,Oslo,Norway,FALSE,,,,,
+1956-06-24,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,3,2,win,Copenhagen,Denmark,FALSE,1606,1646,1627,1625,21
+1956-06-28,Friendly,played,Norway,NOR,Romania,ROU,FALSE,0,2,loss,Bucharest,Romania,FALSE,1627,1632,1616,1643,-11
+1956-08-26,Nordic Championship,played,Norway,NOR,Finland,,TRUE,1,1,draw,Oslo,Norway,FALSE,1616,1375,1605,1386,-11
+1956-09-16,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,3,1,win,Oslo,Norway,FALSE,1605,1814,1634,1785,29
+1956-10-28,Friendly,played,Norway,NOR,Poland,POL,FALSE,3,5,loss,Warsaw,Poland,FALSE,1634,1521,1618,1537,-16
+1957-05-22,FIFA World Cup qualification,played,Norway,NOR,Bulgaria,BGR,TRUE,1,2,loss,Oslo,Norway,FALSE,1618,1616,1592,1642,-26
+1957-06-12,FIFA World Cup qualification,played,Norway,NOR,Hungary,HUN,TRUE,2,1,win,Oslo,Norway,FALSE,1592,2138,1629,2101,37
+1957-06-18,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,0,draw,Turku,Finland,TRUE,1629,1777,1635,1771,6
+1957-06-19,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,0,2,loss,Tampere,Finland,TRUE,1635,1576,1609,1602,-26
+1957-07-08,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,3,0,win,Reykjavík,Iceland,FALSE,1609,1328,1623,1314,14
+1957-07-12,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,3,1,win,Reykjavík,Iceland,TRUE,1623,1605,1644,1584,21
+1957-09-01,Nordic Championship,played,Norway,NOR,Finland,,FALSE,4,0,win,Helsinki,Finland,FALSE,1644,1349,1658,1335,14
+1957-09-22,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,2,2,draw,Oslo,Norway,FALSE,1658,1584,1651,1591,-7
+1957-10-13,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,2,5,loss,Solna,Sweden,FALSE,1651,1794,1641,1804,-10
+1957-11-03,FIFA World Cup qualification,played,Norway,NOR,Bulgaria,BGR,FALSE,0,7,loss,Sofia,Bulgaria,FALSE,1641,1621,1606,1656,-35
+1957-11-10,FIFA World Cup qualification,played,Norway,NOR,Hungary,HUN,FALSE,0,5,loss,Budapest,Hungary,FALSE,1606,2089,1603,2092,-3
+1958-05-28,Friendly,played,Norway,NOR,Netherlands,NLD,TRUE,0,0,draw,Oslo,Norway,FALSE,1603,1679,1602,1680,-1
+1958-06-15,Nordic Championship,played,Norway,NOR,Finland,,TRUE,2,0,win,Oslo,Norway,FALSE,1602,1317,1606,1313,4
+1958-06-29,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,2,1,win,Copenhagen,Denmark,FALSE,1606,1585,1624,1567,18
+1958-08-13,Friendly,played,Norway,NOR,German DR,DDR,TRUE,6,5,win,Oslo,Norway,FALSE,1624,1483,1628,1479,4
+1958-09-14,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,0,2,loss,Oslo,Norway,FALSE,1628,1904,1616,1916,-12
+1958-11-02,Friendly,played,Norway,NOR,German DR,DDR,FALSE,1,4,loss,Leipzig,German DR,FALSE,1616,1494,1597,1513,-19
+1959-05-20,UEFA Euro qualification,played,Norway,NOR,Austria,AUT,TRUE,0,1,loss,Oslo,Norway,FALSE,1597,1822,1584,1835,-13
+1959-06-17,Friendly,played,Norway,NOR,Luxembourg,,TRUE,1,0,win,Oslo,Norway,FALSE,1584,1272,1586,1270,2
+1959-06-28,Nordic Championship,played,Norway,NOR,Finland,,FALSE,4,2,win,Helsinki,Finland,FALSE,1586,1294,1597,1283,11
+1959-09-23,UEFA Euro qualification,played,Norway,NOR,Austria,AUT,FALSE,2,5,loss,Vienna,Austria,FALSE,1520,1852,1515,1857,-5
+1959-10-18,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,2,6,loss,Gothenburg,Sweden,FALSE,1515,1916,1512,1919,-3
+1959-11-04,Friendly,played,Norway,NOR,Netherlands,NLD,FALSE,1,7,loss,Rotterdam,Netherlands,FALSE,1512,1715,1506,1721,-6
+1960-05-26,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1506,1634,1495,1645,-11
+1960-06-09,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,4,0,win,Oslo,Norway,FALSE,1495,1310,1501,1304,6
+1960-06-22,Friendly,played,Norway,NOR,Austria,AUT,TRUE,1,2,loss,Oslo,Norway,FALSE,1501,1801,1496,1806,-5
+1960-08-28,Nordic Championship,played,Norway,NOR,Finland,,TRUE,6,3,win,Oslo,Norway,FALSE,1496,1265,1503,1258,7
+1960-09-18,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,3,1,win,Oslo,Norway,FALSE,1503,1929,1542,1890,39
+1960-11-06,Friendly,played,Norway,NOR,Republic of Ireland,IRL,FALSE,1,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1961-05-16,Friendly,played,Norway,NOR,Mexico,MEX,TRUE,1,1,draw,Bergen,Norway,FALSE,1538,1819,1543,1814,5
+1961-06-01,FIFA World Cup qualification,played,Norway,NOR,Turkey,TUR,TRUE,0,1,loss,Oslo,Norway,FALSE,1543,1711,1527,1727,-16
+1961-06-27,Nordic Championship,played,Norway,NOR,Finland,,FALSE,1,4,loss,Helsinki,Finland,FALSE,1527,1246,1488,1285,-39
+1961-07-01,FIFA World Cup qualification,played,Norway,NOR,Soviet Union,SUN,FALSE,2,5,loss,Moscow,Soviet Union,TRUE,1488,1971,1486,1973,-2
+1961-08-23,FIFA World Cup qualification,played,Norway,NOR,Soviet Union,SUN,TRUE,0,3,loss,Oslo,Norway,FALSE,1486,1973,1479,1980,-7
+1961-09-17,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,0,4,loss,Oslo,Norway,FALSE,1479,1681,1459,1701,-20
+1961-10-22,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,0,2,loss,Gothenburg,Sweden,FALSE,1459,1935,1457,1937,-2
+1961-10-29,FIFA World Cup qualification,played,Norway,NOR,Turkey,TUR,FALSE,1,2,loss,Istanbul,Turkey,FALSE,1457,1712,1452,1717,-5
+1961-11-05,Friendly,played,Norway,NOR,Malta,,FALSE,1,1,draw,Gżira,Malta,FALSE,1452,1436,1454,1434,2
+1962-05-16,Friendly,played,Norway,NOR,Netherlands,NLD,TRUE,2,1,win,Oslo,Norway,FALSE,1454,1694,1468,1680,14
+1962-06-11,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,6,loss,Copenhagen,Denmark,FALSE,1468,1661,1459,1670,-9
+1962-06-21,UEFA Euro qualification,played,Norway,NOR,Sweden,SWE,TRUE,0,2,loss,Oslo,Norway,FALSE,1459,1881,1451,1889,-8
+1962-07-03,Friendly,played,Norway,NOR,Malta,,TRUE,5,0,win,Trondheim,Norway,FALSE,1451,1424,1464,1411,13
+1962-07-09,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,3,1,win,Reykjavík,Iceland,FALSE,1464,1301,1476,1289,12
+1962-08-26,Nordic Championship,played,Norway,NOR,Finland,,TRUE,2,1,win,Bergen,Norway,FALSE,1476,1273,1480,1269,4
+1962-09-16,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,2,1,win,Oslo,Norway,FALSE,1480,1889,1506,1863,26
+1962-11-04,UEFA Euro qualification,played,Norway,NOR,Sweden,SWE,FALSE,1,1,draw,Malmö,Sweden,FALSE,1506,1871,1523,1854,17
+1963-05-15,Friendly,played,Norway,NOR,Poland,POL,TRUE,2,5,loss,Oslo,Norway,FALSE,1523,1640,1506,1657,-17
+1963-06-04,Friendly,played,Norway,NOR,Scotland,SCO,TRUE,4,3,win,Bergen,Norway,FALSE,1506,1942,1523,1925,17
+1963-06-27,Nordic Championship,played,Norway,NOR,Finland,,FALSE,0,2,loss,Helsinki,Finland,FALSE,1523,1275,1491,1307,-32
+1963-08-14,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,0,0,draw,Gothenburg,Sweden,FALSE,1491,1896,1504,1883,13
+1963-09-04,Friendly,played,Norway,NOR,Poland,POL,FALSE,0,9,loss,Szczecin,Poland,FALSE,1504,1661,1495,1670,-9
+1963-09-15,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,0,4,loss,Oslo,Norway,FALSE,1495,1688,1474,1709,-21
+1963-11-03,Friendly,played,Norway,NOR,Switzerland,CHE,FALSE,2,0,win,Zürich,Switzerland,FALSE,1474,1596,1497,1573,23
+1963-11-07,Friendly,played,Norway,NOR,Scotland,SCO,FALSE,1,6,loss,Glasgow,Scotland,FALSE,1497,1902,1495,1904,-2
+1964-05-13,Friendly,played,Norway,NOR,Republic of Ireland,IRL,TRUE,1,4,loss,Oslo,Norway,FALSE,,,,,
+1964-07-01,Friendly,played,Norway,NOR,Switzerland,CHE,TRUE,3,2,win,Bergen,Norway,FALSE,1481,1580,1491,1570,10
+1964-08-20,Nordic Championship,played,Norway,NOR,Finland,,TRUE,2,0,win,Trondheim,Norway,FALSE,1491,1347,1500,1338,9
+1964-09-20,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,1,1,draw,Oslo,Norway,FALSE,1500,1874,1510,1864,10
+1964-10-11,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,0,2,loss,Copenhagen,Denmark,FALSE,1510,1625,1500,1635,-10
+1964-11-08,FIFA World Cup qualification,played,Norway,NOR,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1500,1377,1528,1349,28
+1964-11-11,FIFA World Cup qualification,played,Norway,NOR,France,FRA,FALSE,0,1,loss,Paris,France,FALSE,1528,1762,1523,1767,-5
+1965-05-19,Friendly,played,Norway,NOR,Thailand,,TRUE,7,0,win,Bergen,Norway,FALSE,1523,1218,1527,1214,4
+1965-05-27,FIFA World Cup qualification,played,Norway,NOR,Luxembourg,,TRUE,4,2,win,Trondheim,Norway,FALSE,1527,1349,1537,1339,10
+1965-06-16,FIFA World Cup qualification,played,Norway,NOR,Yugoslavia,YUG,TRUE,3,0,win,Oslo,Norway,FALSE,1537,1867,1592,1812,55
+1965-08-08,Nordic Championship,played,Norway,NOR,Finland,,FALSE,0,4,loss,Helsinki,Finland,FALSE,1592,1363,1554,1401,-38
+1965-09-15,FIFA World Cup qualification,played,Norway,NOR,France,FRA,TRUE,0,1,loss,Oslo,Norway,FALSE,1554,1736,1539,1751,-15
+1965-09-26,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,2,2,draw,Oslo,Norway,FALSE,1539,1654,1540,1653,1
+1965-10-31,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,0,0,draw,Solna,Sweden,FALSE,1540,1791,1551,1780,11
+1965-11-07,FIFA World Cup qualification,played,Norway,NOR,Yugoslavia,YUG,FALSE,1,1,draw,Belgrade,Yugoslavia,FALSE,1551,1806,1566,1791,15
+1966-06-12,Friendly,played,Norway,NOR,Portugal,PRT,FALSE,0,4,loss,Oeiras,Portugal,FALSE,1566,1779,1561,1784,-5
+1966-06-26,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,0,win,Copenhagen,Denmark,FALSE,1561,1603,1582,1582,21
+1966-06-29,Friendly,played,Norway,NOR,England,ENG,TRUE,1,6,loss,Oslo,Norway,FALSE,1582,1975,1576,1981,-6
+1966-08-14,Nordic Championship,played,Norway,NOR,Finland,,TRUE,1,1,draw,Stavanger,Norway,FALSE,1576,1450,1567,1459,-9
+1966-09-18,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,2,4,loss,Oslo,Norway,FALSE,1567,1746,1550,1763,-17
+1966-11-13,UEFA Euro qualification,played,Norway,NOR,Bulgaria,BGR,FALSE,2,4,loss,Sofia,Bulgaria,FALSE,1550,1745,1541,1754,-9
+1966-11-19,Friendly,played,Norway,NOR,Germany,DEU,FALSE,0,3,loss,Cologne,Germany,FALSE,,,,,
+1967-06-01,Nordic Championship,played,Norway,NOR,Finland,,FALSE,2,0,win,Helsinki,Finland,FALSE,1540,1472,1565,1447,25
+1967-06-08,UEFA Euro qualification,played,Norway,NOR,Portugal,PRT,TRUE,1,2,loss,Oslo,Norway,FALSE,1565,1981,1559,1987,-6
+1967-06-29,UEFA Euro qualification,played,Norway,NOR,Bulgaria,BGR,TRUE,0,0,draw,Oslo,Norway,FALSE,1559,1795,1566,1788,7
+1967-09-03,UEFA Euro qualification,played,Norway,NOR,Sweden,SWE,TRUE,3,1,win,Oslo,Norway,FALSE,1566,1764,1604,1726,38
+1967-09-24,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,0,5,loss,Oslo,Norway,FALSE,1604,1563,1562,1605,-42
+1967-11-05,UEFA Euro qualification,played,Norway,NOR,Sweden,SWE,FALSE,2,5,loss,Solna,Sweden,FALSE,1562,1726,1549,1739,-13
+1967-11-12,UEFA Euro qualification,played,Norway,NOR,Portugal,PRT,FALSE,1,2,loss,Porto,Portugal,FALSE,1549,1987,1547,1989,-2
+1968-06-09,Friendly,played,Norway,NOR,Poland,POL,TRUE,1,6,loss,Oslo,Norway,FALSE,1547,1701,1530,1718,-17
+1968-06-23,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,5,loss,Copenhagen,Denmark,FALSE,1530,1643,1517,1656,-13
+1968-07-18,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,4,0,win,Reykjavík,Iceland,FALSE,1517,1279,1529,1267,12
+1968-08-18,Nordic Championship,played,Norway,NOR,Finland,,TRUE,4,1,win,Oslo,Norway,FALSE,1529,1399,1540,1388,11
+1968-09-15,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,1,1,draw,Oslo,Norway,FALSE,1540,1746,1544,1742,4
+1968-10-09,FIFA World Cup qualification,played,Norway,NOR,Sweden,SWE,FALSE,0,5,loss,Solna,Sweden,FALSE,1544,1742,1532,1754,-12
+1968-11-06,FIFA World Cup qualification,played,Norway,NOR,France,FRA,FALSE,1,0,win,Strasbourg,France,FALSE,1532,1723,1566,1689,34
+1969-05-08,Friendly,played,Norway,NOR,Mexico,MEX,TRUE,0,2,loss,Oslo,Norway,FALSE,1566,1807,1557,1816,-9
+1969-06-01,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,2,4,loss,Gothenburg,Sweden,FALSE,1557,1770,1551,1776,-6
+1969-06-19,FIFA World Cup qualification,played,Norway,NOR,Sweden,SWE,TRUE,2,5,loss,Oslo,Norway,FALSE,1551,1776,1528,1799,-23
+1969-07-03,Friendly,played,Norway,NOR,Bermuda,,TRUE,3,0,win,Stavanger,Norway,FALSE,1528,1316,1533,1311,5
+1969-07-21,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,2,1,win,Trondheim,Norway,FALSE,1533,1276,1535,1274,2
+1969-08-24,Nordic Championship,played,Norway,NOR,Finland,,FALSE,2,2,draw,Helsinki,Finland,FALSE,1535,1419,1534,1420,-1
+1969-08-27,Friendly,played,Norway,NOR,Poland,POL,FALSE,1,6,loss,Łódź,Poland,FALSE,1534,1715,1527,1722,-7
+1969-09-10,FIFA World Cup qualification,played,Norway,NOR,France,FRA,TRUE,1,3,loss,Oslo,Norway,FALSE,1527,1695,1503,1719,-24
+1969-09-21,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,2,0,win,Oslo,Norway,FALSE,1503,1688,1531,1660,28
+1969-11-11,Friendly,played,Norway,NOR,Mexico,MEX,FALSE,0,4,loss,Mexico City,Mexico,FALSE,1531,1775,1526,1780,-5
+1969-11-13,Friendly,played,Norway,NOR,Guatemala,,FALSE,3,1,win,Guatemala City,Guatemala,FALSE,1526,1551,1546,1531,20
+1970-05-13,Friendly,played,Norway,NOR,Czechoslovakia,CSK,TRUE,0,2,loss,Oslo,Norway,FALSE,1546,1959,1542,1963,-4
+1970-06-17,Nordic Championship,played,Norway,NOR,Finland,,TRUE,2,0,win,Bergen,Norway,FALSE,1542,1415,1552,1405,10
+1970-07-20,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,0,2,loss,Reykjavík,Iceland,FALSE,1552,1270,1530,1292,-22
+1970-09-23,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,0,win,Copenhagen,Denmark,FALSE,1520,1634,1543,1611,23
+1970-10-07,UEFA Euro qualification,played,Norway,NOR,Hungary,HUN,TRUE,1,3,loss,Oslo,Norway,FALSE,1543,1908,1532,1919,-11
+1970-11-11,UEFA Euro qualification,played,Norway,NOR,France,FRA,FALSE,1,3,loss,Lyon,France,FALSE,1532,1759,1524,1767,-8
+1970-11-15,UEFA Euro qualification,played,Norway,NOR,Bulgaria,BGR,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,1524,1748,1539,1733,15
+1971-05-26,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,3,1,win,Bergen,Norway,FALSE,1539,1292,1543,1288,4
+1971-06-09,UEFA Euro qualification,played,Norway,NOR,Bulgaria,BGR,TRUE,1,4,loss,Oslo,Norway,FALSE,1543,1789,1522,1810,-21
+1971-06-22,Friendly,played,Norway,NOR,Germany,DEU,TRUE,1,7,loss,Oslo,Norway,FALSE,,,,,
+1971-08-08,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,0,3,loss,Malmö,Sweden,FALSE,1519,1877,1515,1881,-4
+1971-08-25,Nordic Championship,played,Norway,NOR,Finland,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1515,1394,1514,1395,-1
+1971-09-08,UEFA Euro qualification,played,Norway,NOR,France,FRA,TRUE,1,3,loss,Oslo,Norway,FALSE,1514,1800,1499,1815,-15
+1971-09-26,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,1,4,loss,Oslo,Norway,FALSE,1499,1564,1470,1593,-29
+1971-10-27,UEFA Euro qualification,played,Norway,NOR,Hungary,HUN,FALSE,0,4,loss,Budapest,Hungary,FALSE,1470,1944,1467,1947,-3
+1972-02-23,Friendly,played,Norway,NOR,Israel,ISR,FALSE,1,2,loss,Jaffa,Israel,FALSE,1467,1707,1465,1709,-2
+1972-05-28,Nordic Championship,played,Norway,NOR,Finland,,FALSE,0,0,draw,Turku,Finland,FALSE,1465,1387,1466,1386,1
+1972-06-14,Friendly,played,Norway,NOR,Uruguay,URY,TRUE,0,1,loss,Oslo,Norway,FALSE,1466,1808,1462,1812,-4
+1972-08-03,FIFA World Cup qualification,played,Norway,NOR,Iceland,ISL,TRUE,4,1,win,Stavanger,Norway,FALSE,1462,1283,1474,1271,12
+1972-09-17,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,1,3,loss,Oslo,Norway,FALSE,1474,1817,1465,1826,-9
+1972-10-04,FIFA World Cup qualification,played,Norway,NOR,Belgium,BEL,TRUE,0,2,loss,Oslo,Norway,FALSE,1465,1857,1456,1866,-9
+1972-11-01,FIFA World Cup qualification,played,Norway,NOR,Netherlands,NLD,FALSE,0,9,loss,Rotterdam,Netherlands,FALSE,1456,1808,1449,1815,-7
+1973-06-06,Friendly,played,Norway,NOR,Republic of Ireland,IRL,TRUE,1,1,draw,Oslo,Norway,FALSE,,,,,
+1973-06-21,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1450,1647,1445,1652,-5
+1973-07-25,Friendly,played,Norway,NOR,North Korea,PRK,TRUE,3,0,win,Bergen,Norway,FALSE,1445,1625,1466,1604,21
+1973-08-02,FIFA World Cup qualification,played,Norway,NOR,Iceland,ISL,FALSE,4,0,win,Reykjavík,Iceland,FALSE,1466,1292,1496,1262,30
+1973-09-12,FIFA World Cup qualification,played,Norway,NOR,Netherlands,NLD,TRUE,1,2,loss,Oslo,Norway,FALSE,1496,1829,1488,1837,-8
+1973-09-23,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,0,1,loss,Trondheim,Norway,FALSE,1488,1652,1476,1664,-12
+1973-10-31,FIFA World Cup qualification,played,Norway,NOR,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1476,1873,1473,1876,-3
+1974-05-23,Friendly,played,Norway,NOR,German DR,DDR,FALSE,0,1,loss,Rostock,German DR,FALSE,1461,1940,1460,1941,-1
+1974-06-06,Friendly,played,Norway,NOR,Scotland,SCO,TRUE,1,2,loss,Oslo,Norway,FALSE,1460,1822,1456,1826,-4
+1974-08-08,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,1,2,loss,Gothenburg,Sweden,FALSE,1456,1914,1455,1915,-1
+1974-08-15,Nordic Championship,played,Norway,NOR,Finland,,TRUE,1,2,loss,Oslo,Norway,FALSE,1455,1405,1434,1426,-21
+1974-09-04,UEFA Euro qualification,played,Norway,NOR,Northern Ireland,NIR,TRUE,2,1,win,Oslo,Norway,FALSE,1434,1777,1466,1745,32
+1974-10-30,UEFA Euro qualification,played,Norway,NOR,Yugoslavia,YUG,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,1466,1906,1463,1909,-3
+1975-02-19,Friendly,played,Norway,NOR,Italy,ITA,FALSE,1,4,loss,Florence,Italy,FALSE,1463,1940,1462,1941,-1
+1975-05-15,Nordic Championship,played,Norway,NOR,Finland,,FALSE,5,3,win,Helsinki,Finland,FALSE,1462,1419,1497,1384,35
+1975-06-09,UEFA Euro qualification,played,Norway,NOR,Yugoslavia,YUG,TRUE,1,3,loss,Oslo,Norway,FALSE,1497,1932,1489,1940,-8
+1975-06-30,UEFA Euro qualification,played,Norway,NOR,Sweden,SWE,FALSE,1,3,loss,Solna,Sweden,FALSE,1478,1816,1474,1820,-4
+1975-08-13,UEFA Euro qualification,played,Norway,NOR,Sweden,SWE,TRUE,0,2,loss,Oslo,Norway,FALSE,1482,1820,1470,1832,-12
+1975-10-29,UEFA Euro qualification,played,Norway,NOR,Northern Ireland,NIR,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1470,1787,1464,1793,-6
+1976-03-24,Friendly,played,Norway,NOR,Republic of Ireland,IRL,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1976-05-19,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,0,1,loss,Oslo,Norway,FALSE,1459,1341,1443,1357,-16
+1976-06-16,FIFA World Cup qualification,played,Norway,NOR,Sweden,SWE,FALSE,0,2,loss,Solna,Sweden,FALSE,1443,1814,1439,1818,-4
+1976-06-24,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,0,0,draw,Bergen,Norway,FALSE,1439,1642,1443,1638,4
+1976-08-25,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,0,3,loss,Vejle,Denmark,FALSE,1443,1638,1435,1646,-8
+1976-09-08,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,TRUE,1,0,win,Oslo,Norway,FALSE,1435,1657,1462,1630,27
+1976-09-22,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,3,2,win,Oslo,Norway,FALSE,1462,1819,1486,1795,24
+1977-05-26,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,0,1,loss,Gothenburg,Sweden,FALSE,1486,1804,1484,1806,-2
+1977-06-01,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,0,2,loss,Oslo,Norway,FALSE,1484,1636,1471,1649,-13
+1977-06-30,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1471,1404,1462,1413,-9
+1977-08-18,Nordic Championship,played,Norway,NOR,Finland,,TRUE,1,1,draw,Oslo,Norway,FALSE,1462,1455,1458,1459,-4
+1977-09-07,FIFA World Cup qualification,played,Norway,NOR,Sweden,SWE,TRUE,2,1,win,Oslo,Norway,FALSE,1458,1789,1490,1757,32
+1977-10-30,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,FALSE,0,1,loss,Bern,Switzerland,FALSE,1490,1611,1481,1620,-9
+1978-03-29,Friendly,played,Norway,NOR,Spain,ESP,FALSE,0,3,loss,Gijón,Spain,FALSE,1481,1960,1480,1961,-1
+1978-05-21,Friendly,played,Norway,NOR,Republic of Ireland,IRL,TRUE,0,0,draw,Oslo,Norway,FALSE,,,,,
+1978-05-31,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,1,2,loss,Oslo,Norway,FALSE,1484,1630,1471,1643,-13
+1978-08-09,Nordic Championship,played,Norway,NOR,Finland,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1471,1486,1476,1481,5
+1978-08-30,UEFA Euro qualification,played,Norway,NOR,Austria,AUT,TRUE,0,2,loss,Oslo,Norway,FALSE,1476,1898,1468,1906,-8
+1978-09-20,UEFA Euro qualification,played,Norway,NOR,Belgium,BEL,FALSE,1,1,draw,Lokeren,Belgium,FALSE,1468,1811,1485,1794,17
+1978-10-25,UEFA Euro qualification,played,Norway,NOR,Scotland,SCO,FALSE,2,3,loss,Glasgow,Scotland,FALSE,1485,1901,1483,1903,-2
+1979-05-09,UEFA Euro qualification,played,Norway,NOR,Portugal,PRT,TRUE,0,1,loss,Oslo,Norway,FALSE,1483,1891,1477,1897,-6
+1979-06-07,UEFA Euro qualification,played,Norway,NOR,Scotland,SCO,TRUE,0,4,loss,Oslo,Norway,FALSE,1477,1841,1464,1854,-13
+1979-06-28,Nordic Championship,played,Norway,NOR,Sweden,SWE,FALSE,0,2,loss,Gothenburg,Sweden,FALSE,1464,1741,1459,1746,-5
+1979-08-15,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,2,0,win,Oslo,Norway,FALSE,1459,1746,1493,1712,34
+1979-08-29,UEFA Euro qualification,played,Norway,NOR,Austria,AUT,FALSE,0,4,loss,Vienna,Austria,FALSE,1493,1900,1489,1904,-4
+1979-09-12,UEFA Euro qualification,played,Norway,NOR,Belgium,BEL,TRUE,1,2,loss,Oslo,Norway,FALSE,1489,1804,1480,1813,-9
+1979-11-01,UEFA Euro qualification,played,Norway,NOR,Portugal,PRT,FALSE,1,3,loss,Oeiras,Portugal,FALSE,1480,1872,1477,1875,-3
+1980-05-22,Friendly,played,Norway,NOR,Bulgaria,BGR,TRUE,1,0,win,Oslo,Norway,FALSE,1477,1695,1490,1682,13
+1980-06-04,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1490,1686,1483,1693,-7
+1980-07-14,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,3,1,win,Oslo,Norway,FALSE,1483,1364,1490,1357,7
+1980-08-21,Nordic Championship,played,Norway,NOR,Finland,,TRUE,6,1,win,Oslo,Norway,FALSE,1490,1481,1511,1460,21
+1980-09-10,FIFA World Cup qualification,played,Norway,NOR,England,ENG,FALSE,0,4,loss,London,England,FALSE,1511,2022,1509,2024,-2
+1980-09-24,FIFA World Cup qualification,played,Norway,NOR,Romania,ROU,TRUE,1,1,draw,Oslo,Norway,FALSE,1509,1812,1520,1801,11
+1980-10-29,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,FALSE,2,1,win,Bern,Switzerland,FALSE,1520,1620,1550,1590,30
+1981-02-28,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,2,4,loss,Lahti,Finland,TRUE,1550,1642,1533,1659,-17
+1981-04-29,Friendly,played,Norway,NOR,Bulgaria,BGR,FALSE,0,1,loss,Pleven,Bulgaria,FALSE,1533,1721,1530,1724,-3
+1981-05-20,FIFA World Cup qualification,played,Norway,NOR,Hungary,HUN,TRUE,1,2,loss,Oslo,Norway,FALSE,1530,1815,1520,1825,-10
+1981-06-03,FIFA World Cup qualification,played,Norway,NOR,Romania,ROU,FALSE,0,1,loss,Bucharest,Romania,FALSE,1520,1817,1516,1821,-4
+1981-06-17,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,TRUE,1,1,draw,Oslo,Norway,FALSE,1516,1631,1517,1630,1
+1981-07-02,Nordic Championship,played,Norway,NOR,Finland,,FALSE,1,3,loss,Helsinki,Finland,FALSE,1517,1433,1496,1454,-21
+1981-08-12,Friendly,played,Norway,NOR,Nigeria,NGA,TRUE,2,2,draw,Oslo,Norway,FALSE,1496,1635,1497,1634,1
+1981-09-09,FIFA World Cup qualification,played,Norway,NOR,England,ENG,TRUE,2,1,win,Oslo,Norway,FALSE,1497,1922,1532,1887,35
+1981-09-23,Nordic Championship,played,Norway,NOR,Denmark,DNK,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1532,1729,1527,1734,-5
+1981-10-31,FIFA World Cup qualification,played,Norway,NOR,Hungary,HUN,FALSE,1,4,loss,Budapest,Hungary,FALSE,1527,1813,1520,1820,-7
+1982-04-28,Nordic Championship,played,Norway,NOR,Finland,,TRUE,1,1,draw,Stavanger,Norway,FALSE,1520,1475,1514,1481,-6
+1982-05-12,Friendly,played,Norway,NOR,Germany,DEU,TRUE,2,4,loss,Oslo,Norway,FALSE,,,,,
+1982-06-15,Nordic Championship,played,Norway,NOR,Denmark,DNK,TRUE,2,1,win,Oslo,Norway,FALSE,1512,1759,1533,1738,21
+1982-08-11,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,1,0,win,Oslo,Norway,FALSE,1533,1717,1552,1698,19
+1982-09-22,UEFA Euro qualification,played,Norway,NOR,Wales,WAL,FALSE,0,1,loss,Swansea,Wales,FALSE,1552,1853,1548,1857,-4
+1982-10-13,UEFA Euro qualification,played,Norway,NOR,Yugoslavia,YUG,TRUE,3,1,win,Oslo,Norway,FALSE,1548,1890,1596,1842,48
+1982-10-27,UEFA Euro qualification,played,Norway,NOR,Bulgaria,BGR,FALSE,2,2,draw,Sofia,Bulgaria,FALSE,1596,1738,1608,1726,12
+1982-11-13,Friendly,played,Norway,NOR,Kuwait,KWT,FALSE,0,1,loss,Kuwait City,Kuwait,FALSE,1608,1628,1601,1635,-7
+1983-08-10,Friendly,played,Norway,NOR,Romania,ROU,TRUE,0,0,draw,Oslo,Norway,FALSE,1601,1820,1604,1817,3
+1983-09-07,UEFA Euro qualification,played,Norway,NOR,Bulgaria,BGR,TRUE,1,2,loss,Oslo,Norway,FALSE,1604,1721,1585,1740,-19
+1983-09-21,UEFA Euro qualification,played,Norway,NOR,Wales,WAL,TRUE,0,0,draw,Oslo,Norway,FALSE,1585,1850,1594,1841,9
+1983-10-12,UEFA Euro qualification,played,Norway,NOR,Yugoslavia,YUG,FALSE,1,2,loss,Belgrade,Yugoslavia,FALSE,1594,1859,1590,1863,-4
+1984-05-01,Friendly,played,Norway,NOR,Luxembourg,,FALSE,2,0,win,Ettelbruck,Luxembourg,FALSE,1590,1188,1594,1184,4
+1984-05-23,Friendly,played,Norway,NOR,Hungary,HUN,FALSE,0,0,draw,Székesfehérvár,Hungary,FALSE,1594,1778,1601,1771,7
+1984-06-06,Friendly,played,Norway,NOR,Wales,WAL,TRUE,1,0,win,Trondheim,Norway,FALSE,1601,1834,1615,1820,14
+1984-06-20,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,1,0,win,Reykjavík,Iceland,FALSE,1615,1468,1624,1459,9
+1984-07-20,Friendly,played,Norway,NOR,Yugoslavia,YUG,TRUE,1,1,draw,Sandefjord,Norway,FALSE,,,,,
+1984-08-29,Friendly,played,Norway,NOR,Poland,POL,TRUE,1,1,draw,Drammen,Norway,FALSE,1624,1907,1629,1902,5
+1984-09-12,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,TRUE,0,1,loss,Oslo,Norway,FALSE,1629,1722,1609,1742,-20
+1984-09-26,FIFA World Cup qualification,played,Norway,NOR,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1609,1897,1605,1901,-4
+1984-10-10,FIFA World Cup qualification,played,Norway,NOR,Soviet Union,SUN,TRUE,1,1,draw,Oslo,Norway,FALSE,1605,2008,1619,1994,14
+1984-10-17,FIFA World Cup qualification,played,Norway,NOR,Republic of Ireland,IRL,TRUE,1,0,win,Oslo,Norway,FALSE,,,,,
+1984-12-17,Friendly,played,Norway,NOR,Egypt,EGY,FALSE,1,0,win,Cairo,Egypt,FALSE,1642,1681,1656,1667,14
+1984-12-20,Friendly,played,Norway,NOR,Egypt,EGY,FALSE,1,0,win,Ismailia,Egypt,FALSE,1656,1667,1669,1654,13
+1985-02-26,Friendly,played,Norway,NOR,Wales,WAL,FALSE,1,1,draw,Wrexham,Wales,FALSE,1669,1774,1674,1769,5
+1985-04-17,Friendly,played,Norway,NOR,German DR,DDR,FALSE,0,1,loss,Frankfurt an der Oder,German DR,FALSE,1674,1800,1670,1804,-4
+1985-05-01,FIFA World Cup qualification,played,Norway,NOR,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+1985-05-22,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,1,loss,Gothenburg,Sweden,FALSE,1678,1834,1674,1838,-4
+1985-06-05,Friendly,played,Norway,NOR,Wales,WAL,TRUE,4,2,win,Bergen,Norway,FALSE,1674,1833,1692,1815,18
+1985-08-14,Friendly,played,Norway,NOR,German DR,DDR,TRUE,0,1,loss,Oslo,Norway,FALSE,1692,1796,1682,1806,-10
+1985-09-10,Friendly,played,Norway,NOR,Egypt,EGY,TRUE,3,0,win,Oslo,Norway,FALSE,1682,1629,1692,1619,10
+1985-09-25,Friendly,played,Norway,NOR,Italy,ITA,FALSE,2,1,win,Lecce,Italy,FALSE,1692,1910,1709,1893,17
+1985-10-16,FIFA World Cup qualification,played,Norway,NOR,Denmark,DNK,TRUE,1,5,loss,Oslo,Norway,FALSE,1709,1871,1678,1902,-31
+1985-10-30,FIFA World Cup qualification,played,Norway,NOR,Soviet Union,SUN,FALSE,0,1,loss,Moscow,Soviet Union,TRUE,1678,2001,1675,2004,-3
+1985-11-13,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,FALSE,1,1,draw,Lucerne,Switzerland,FALSE,1675,1745,1684,1736,9
+1986-02-26,Friendly,played,Norway,NOR,Grenada,,FALSE,2,1,win,St. George's,Grenada,FALSE,1684,1272,1687,1269,3
+1986-03-01,Friendly,played,Norway,NOR,Saint Lucia,,FALSE,6,0,win,Castries,Saint Lucia,FALSE,1687,1280,1693,1274,6
+1986-03-03,Friendly,played,Norway,NOR,Guadeloupe,,FALSE,2,1,win,Basse-Terre,Guadeloupe,FALSE,,,,,
+1986-03-05,Friendly,played,Norway,NOR,Martinique,,FALSE,1,0,win,Fort-de-France,Martinique,FALSE,1698,1522,1706,1514,8
+1986-04-30,Friendly,played,Norway,NOR,Argentina,ARG,TRUE,1,0,win,Oslo,Norway,FALSE,1706,1873,1718,1861,12
+1986-05-13,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,1,0,win,Oslo,Norway,FALSE,1718,1914,1731,1901,13
+1986-06-04,Friendly,played,Norway,NOR,Romania,ROU,FALSE,1,3,loss,Bucharest,Romania,FALSE,1731,1798,1723,1806,-8
+1986-08-20,Friendly,played,Norway,NOR,Romania,ROU,TRUE,2,2,draw,Oslo,Norway,FALSE,1723,1806,1723,1806,0
+1986-09-09,Friendly,played,Norway,NOR,Hungary,HUN,TRUE,0,0,draw,Oslo,Norway,FALSE,1723,1826,1723,1826,0
+1986-09-24,UEFA Euro qualification,played,Norway,NOR,German DR,DDR,TRUE,0,0,draw,Oslo,Norway,FALSE,1723,1832,1724,1831,1
+1986-10-29,UEFA Euro qualification,played,Norway,NOR,Soviet Union,SUN,FALSE,0,4,loss,Simferopol,Soviet Union,FALSE,1724,1985,1716,1993,-8
+1987-03-24,Friendly,played,Norway,NOR,Poland,POL,FALSE,1,4,loss,Wrocław,Poland,FALSE,1716,1785,1706,1795,-10
+1987-05-28,Friendly,played,Norway,NOR,Italy,ITA,TRUE,0,0,draw,Oslo,Norway,FALSE,1706,1907,1709,1904,3
+1987-06-03,UEFA Euro qualification,played,Norway,NOR,Soviet Union,SUN,TRUE,0,1,loss,Oslo,Norway,FALSE,1709,1978,1698,1989,-11
+1987-06-16,UEFA Euro qualification,played,Norway,NOR,France,FRA,TRUE,2,0,win,Oslo,Norway,FALSE,1698,1944,1740,1902,42
+1987-08-12,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,0,draw,Oslo,Norway,FALSE,1740,1921,1742,1919,2
+1987-09-09,UEFA Euro qualification,played,Norway,NOR,Iceland,ISL,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1742,1490,1714,1518,-28
+1987-09-23,UEFA Euro qualification,played,Norway,NOR,Iceland,ISL,TRUE,0,1,loss,Oslo,Norway,FALSE,1714,1518,1680,1552,-34
+1987-10-14,UEFA Euro qualification,played,Norway,NOR,France,FRA,FALSE,1,1,draw,Paris,France,FALSE,1680,1906,1695,1891,15
+1987-10-28,UEFA Euro qualification,played,Norway,NOR,German DR,DDR,FALSE,1,3,loss,Magdeburg,German DR,FALSE,1695,1823,1682,1836,-13
+1988-06-01,Friendly,played,Norway,NOR,Republic of Ireland,IRL,TRUE,0,0,draw,Oslo,Norway,FALSE,,,,,
+1988-07-28,Friendly,played,Norway,NOR,Brazil,BRA,TRUE,1,1,draw,Oslo,Norway,FALSE,1683,1981,1688,1976,5
+1988-08-09,Friendly,played,Norway,NOR,Bulgaria,BGR,TRUE,1,1,draw,Oslo,Norway,FALSE,1688,1804,1688,1804,0
+1988-09-14,FIFA World Cup qualification,played,Norway,NOR,Scotland,SCO,TRUE,1,2,loss,Oslo,Norway,FALSE,1688,1783,1668,1803,-20
+1988-09-28,FIFA World Cup qualification,played,Norway,NOR,France,FRA,FALSE,0,1,loss,Paris,France,FALSE,1668,1876,1662,1882,-6
+1988-10-19,Friendly,played,Norway,NOR,Italy,ITA,FALSE,1,2,loss,Pescara,Italy,FALSE,1662,1960,1660,1962,-2
+1988-11-02,FIFA World Cup qualification,played,Norway,NOR,Cyprus,,FALSE,3,0,win,Limassol,Cyprus,FALSE,1660,1285,1672,1273,12
+1988-11-04,Friendly,played,Norway,NOR,Czechoslovakia,CSK,FALSE,2,3,loss,Bratislava,Czechoslovakia,FALSE,1672,1854,1669,1857,-3
+1989-02-22,Friendly,played,Norway,NOR,Greece,GRC,FALSE,2,4,loss,Athens,Greece,FALSE,1669,1680,1659,1690,-10
+1989-05-02,Friendly,played,Norway,NOR,Poland,POL,TRUE,0,3,loss,Oslo,Norway,FALSE,1659,1816,1644,1831,-15
+1989-05-21,FIFA World Cup qualification,played,Norway,NOR,Cyprus,,TRUE,3,1,win,Oslo,Norway,FALSE,1644,1274,1648,1270,4
+1989-05-31,Friendly,played,Norway,NOR,Austria,AUT,TRUE,4,1,win,Oslo,Norway,FALSE,1648,1723,1664,1707,16
+1989-06-14,FIFA World Cup qualification,played,Norway,NOR,Yugoslavia,YUG,TRUE,1,2,loss,Oslo,Norway,FALSE,1664,1892,1651,1905,-13
+1989-08-23,Friendly,played,Norway,NOR,Greece,GRC,TRUE,0,0,draw,Oslo,Norway,FALSE,1651,1664,1649,1666,-2
+1989-09-05,FIFA World Cup qualification,played,Norway,NOR,France,FRA,TRUE,1,1,draw,Oslo,Norway,FALSE,1649,1849,1655,1843,6
+1989-10-11,FIFA World Cup qualification,played,Norway,NOR,Yugoslavia,YUG,FALSE,0,1,loss,Sarajevo,Yugoslavia,FALSE,1655,1919,1651,1923,-4
+1989-10-25,Friendly,played,Norway,NOR,Kuwait,KWT,FALSE,2,2,draw,Kuwait City,Kuwait,FALSE,1651,1495,1649,1497,-2
+1989-11-15,FIFA World Cup qualification,played,Norway,NOR,Scotland,SCO,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1649,1780,1661,1768,12
+1990-02-04,Malta International Tournament,played,Norway,NOR,South Korea,KOR,FALSE,3,2,win,Attard,Malta,TRUE,1661,1741,1679,1723,18
+1990-02-07,Malta International Tournament,played,Norway,NOR,Malta,,FALSE,1,1,draw,Attard,Malta,FALSE,1679,1378,1671,1386,-8
+1990-03-27,Friendly,played,Norway,NOR,Northern Ireland,NIR,FALSE,3,2,win,Belfast,Northern Ireland,FALSE,1656,1644,1668,1632,12
+1990-06-06,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,1,2,loss,Trondheim,Norway,FALSE,1668,1886,1661,1893,-7
+1990-08-22,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,1,2,loss,Stavanger,Norway,FALSE,1661,1831,1653,1839,-8
+1990-09-12,UEFA Euro qualification,played,Norway,NOR,Soviet Union,SUN,FALSE,0,2,loss,Moscow,Soviet Union,FALSE,1653,1858,1644,1867,-9
+1990-10-10,UEFA Euro qualification,played,Norway,NOR,Hungary,HUN,TRUE,0,0,draw,Bergen,Norway,FALSE,1644,1745,1644,1745,0
+1990-10-31,Friendly,played,Norway,NOR,Cameroon,CMR,TRUE,6,1,win,Oslo,Norway,FALSE,1644,1673,1660,1657,16
+1990-11-07,Friendly,played,Norway,NOR,Tunisia,TUN,FALSE,3,1,win,Bizerte,Tunisia,FALSE,1660,1479,1672,1467,12
+1990-11-14,UEFA Euro qualification,played,Norway,NOR,Cyprus,,FALSE,3,0,win,Nicosia,Cyprus,FALSE,1672,1267,1682,1257,10
+1991-04-17,Friendly,played,Norway,NOR,Austria,AUT,FALSE,0,0,draw,Vienna,Austria,FALSE,1682,1677,1685,1674,3
+1991-05-01,UEFA Euro qualification,played,Norway,NOR,Cyprus,,TRUE,3,0,win,Oslo,Norway,FALSE,1685,1258,1688,1255,3
+1991-05-23,Friendly,played,Norway,NOR,Romania,ROU,TRUE,1,0,win,Oslo,Norway,FALSE,1688,1838,1699,1827,11
+1991-06-05,UEFA Euro qualification,played,Norway,NOR,Italy,ITA,TRUE,2,1,win,Oslo,Norway,FALSE,1699,2017,1730,1986,31
+1991-08-08,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,1,2,loss,Oslo,Norway,FALSE,1730,1836,1720,1846,-10
+1991-08-28,UEFA Euro qualification,played,Norway,NOR,Soviet Union,SUN,TRUE,0,1,loss,Oslo,Norway,FALSE,1720,1921,1706,1935,-14
+1991-09-25,Friendly,played,Norway,NOR,Czechoslovakia,CSK,TRUE,2,3,loss,Oslo,Norway,FALSE,1706,1895,1699,1902,-7
+1991-10-30,UEFA Euro qualification,played,Norway,NOR,Hungary,HUN,FALSE,0,0,draw,Szombathely,Hungary,FALSE,1699,1741,1707,1733,8
+1991-11-13,UEFA Euro qualification,played,Norway,NOR,Italy,ITA,FALSE,1,1,draw,Genoa,Italy,FALSE,1707,1986,1723,1970,16
+1992-01-07,Friendly,played,Norway,NOR,Egypt,EGY,FALSE,0,0,draw,Cairo,Egypt,FALSE,1723,1698,1725,1696,2
+1992-02-04,Friendly,played,Norway,NOR,Bermuda,,FALSE,3,1,win,Hamilton,Bermuda,FALSE,1725,1382,1731,1376,6
+1992-04-29,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,0,1,loss,Aarhus,Denmark,FALSE,1731,1868,1727,1872,-4
+1992-05-13,Friendly,played,Norway,NOR,Faroe Islands,,TRUE,2,0,win,Oslo,Norway,FALSE,1727,1267,1728,1266,1
+1992-06-03,Friendly,played,Norway,NOR,Scotland,SCO,TRUE,0,0,draw,Oslo,Norway,FALSE,1728,1774,1726,1776,-2
+1992-08-26,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,2,2,draw,Oslo,Norway,FALSE,1726,1858,1727,1857,1
+1992-09-09,FIFA World Cup qualification,played,Norway,NOR,San Marino,,TRUE,10,0,win,Oslo,Norway,FALSE,1727,1000,1728,999,1
+1992-09-23,FIFA World Cup qualification,played,Norway,NOR,Netherlands,NLD,TRUE,2,1,win,Oslo,Norway,FALSE,1728,2000,1757,1971,29
+1992-10-07,FIFA World Cup qualification,played,Norway,NOR,San Marino,,FALSE,2,0,win,Serravalle,San Marino,FALSE,1757,999,1758,998,1
+1992-10-14,FIFA World Cup qualification,played,Norway,NOR,England,ENG,FALSE,1,1,draw,London,England,FALSE,1758,1955,1772,1941,14
+1992-12-02,Friendly,played,Norway,NOR,China PR,,FALSE,1,2,loss,Guangzhou,China PR,FALSE,,,,,
+1993-02-10,Friendly,played,Norway,NOR,Portugal,PRT,FALSE,1,1,draw,Faro,Portugal,FALSE,1757,1802,1761,1798,4
+1993-03-30,Friendly,played,Norway,NOR,Qatar,QAT,FALSE,6,1,win,Doha,Qatar,FALSE,1761,1483,1772,1472,11
+1993-04-28,FIFA World Cup qualification,played,Norway,NOR,Turkey,TUR,TRUE,3,1,win,Oslo,Norway,FALSE,1772,1545,1780,1537,8
+1993-06-02,FIFA World Cup qualification,played,Norway,NOR,England,ENG,TRUE,2,0,win,Oslo,Norway,FALSE,1780,1947,1816,1911,36
+1993-06-09,FIFA World Cup qualification,played,Norway,NOR,Netherlands,NLD,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,1816,1975,1829,1962,13
+1993-08-11,Friendly,played,Norway,NOR,Faroe Islands,,FALSE,7,0,win,Toftir,Faroe Islands,FALSE,1829,1205,1831,1203,2
+1993-09-08,Friendly,played,Norway,NOR,United States,USA,TRUE,1,0,win,Oslo,Norway,FALSE,1831,1649,1834,1646,3
+1993-09-22,FIFA World Cup qualification,played,Norway,NOR,Poland,POL,TRUE,1,0,win,Oslo,Norway,FALSE,1834,1783,1846,1771,12
+1993-10-13,FIFA World Cup qualification,played,Norway,NOR,Poland,POL,FALSE,3,0,win,Poznań,Poland,FALSE,1846,1771,1884,1733,38
+1993-11-10,FIFA World Cup qualification,played,Norway,NOR,Turkey,TUR,FALSE,1,2,loss,Istanbul,Turkey,FALSE,1884,1562,1853,1593,-31
+1994-01-15,Friendly,played,Norway,NOR,United States,USA,FALSE,1,2,loss,Tempe,United States,FALSE,1853,1622,1839,1636,-14
+1994-01-19,Friendly,played,Norway,NOR,Costa Rica,CRI,FALSE,0,0,draw,San Diego,United States,TRUE,1839,1612,1833,1618,-6
+1994-03-09,Friendly,played,Norway,NOR,Wales,WAL,FALSE,3,1,win,Cardiff,Wales,FALSE,1833,1777,1850,1760,17
+1994-04-20,Friendly,played,Norway,NOR,Portugal,PRT,TRUE,0,0,draw,Oslo,Norway,FALSE,1850,1834,1847,1837,-3
+1994-05-22,Friendly,played,Norway,NOR,England,ENG,FALSE,0,0,draw,London,England,FALSE,1847,1892,1851,1888,4
+1994-06-01,Friendly,played,Norway,NOR,Denmark,DNK,TRUE,2,1,win,Oslo,Norway,FALSE,1851,1932,1860,1923,9
+1994-06-05,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,0,2,loss,Solna,Sweden,FALSE,1860,1898,1851,1907,-9
+1994-06-19,FIFA World Cup,played,Norway,NOR,Mexico,MEX,TRUE,1,0,win,"Washington, D.C.",United States,TRUE,1851,1855,1881,1825,30
+1994-06-23,FIFA World Cup,played,Norway,NOR,Italy,ITA,FALSE,0,1,loss,East Rutherford,United States,TRUE,1881,1947,1857,1971,-24
+1994-06-28,FIFA World Cup,played,Norway,NOR,Republic of Ireland,IRL,FALSE,0,0,draw,East Rutherford,United States,TRUE,,,,,
+1994-09-07,UEFA Euro qualification,played,Norway,NOR,Belarus,,TRUE,1,0,win,Oslo,Norway,FALSE,1858,1418,1860,1416,2
+1994-10-12,UEFA Euro qualification,played,Norway,NOR,Netherlands,NLD,TRUE,1,1,draw,Oslo,Norway,FALSE,1860,1969,1861,1968,1
+1994-11-16,UEFA Euro qualification,played,Norway,NOR,Belarus,,FALSE,4,0,win,Minsk,Belarus,FALSE,1861,1423,1870,1414,9
+1994-12-14,UEFA Euro qualification,played,Norway,NOR,Malta,,FALSE,1,0,win,Attard,Malta,FALSE,1870,1401,1874,1397,4
+1995-02-06,Friendly,played,Norway,NOR,Estonia,,FALSE,7,0,win,Larnaca,Cyprus,TRUE,1874,1134,1875,1133,1
+1995-02-08,Friendly,played,Norway,NOR,Cyprus,,FALSE,2,0,win,Nicosia,Cyprus,FALSE,1875,1357,1877,1355,2
+1995-03-29,UEFA Euro qualification,played,Norway,NOR,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1877,1196,1879,1194,2
+1995-04-26,UEFA Euro qualification,played,Norway,NOR,Luxembourg,,TRUE,5,0,win,Oslo,Norway,FALSE,1879,1194,1880,1193,1
+1995-05-25,Friendly,played,Norway,NOR,Ghana,GHA,TRUE,3,2,win,Oslo,Norway,FALSE,1880,1631,1882,1629,2
+1995-06-07,UEFA Euro qualification,played,Norway,NOR,Malta,,TRUE,2,0,win,Oslo,Norway,FALSE,1882,1368,1884,1366,2
+1995-07-22,Friendly,played,Norway,NOR,France,FRA,TRUE,0,0,draw,Oslo,Norway,FALSE,1884,1921,1882,1923,-2
+1995-08-16,UEFA Euro qualification,played,Norway,NOR,Czechia,CZE,TRUE,1,1,draw,Oslo,Norway,FALSE,1882,1855,1875,1862,-7
+1995-09-06,UEFA Euro qualification,played,Norway,NOR,Czechia,CZE,FALSE,0,2,loss,Prague,Czech Republic,FALSE,1875,1862,1852,1885,-23
+1995-10-11,Friendly,played,Norway,NOR,England,ENG,TRUE,0,0,draw,Oslo,Norway,FALSE,1852,1859,1849,1862,-3
+1995-11-15,UEFA Euro qualification,played,Norway,NOR,Netherlands,NLD,FALSE,0,3,loss,Rotterdam,Netherlands,FALSE,1849,1875,1826,1898,-23
+1995-11-26,Friendly,played,Norway,NOR,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1826,1507,1820,1513,-6
+1995-11-29,Friendly,played,Norway,NOR,Trinidad and Tobago,TTO,FALSE,2,3,loss,Port of Spain,Trinidad and Tobago,FALSE,1820,1530,1805,1545,-15
+1996-02-07,Friendly,played,Norway,NOR,Spain,ESP,FALSE,0,1,loss,Las Palmas,Spain,FALSE,1805,1987,1802,1990,-3
+1996-03-27,Friendly,played,Norway,NOR,Northern Ireland,NIR,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1802,1655,1815,1642,13
+1996-04-24,Friendly,played,Norway,NOR,Spain,ESP,TRUE,0,0,draw,Oslo,Norway,FALSE,1815,1990,1817,1988,2
+1996-06-02,FIFA World Cup qualification,played,Norway,NOR,Azerbaijan,,TRUE,5,0,win,Oslo,Norway,FALSE,1817,1449,1822,1444,5
+1996-09-01,Friendly,played,Norway,NOR,Georgia,,TRUE,1,0,win,Oslo,Norway,FALSE,1822,1628,1825,1625,3
+1996-10-09,FIFA World Cup qualification,played,Norway,NOR,Hungary,HUN,TRUE,3,0,win,Oslo,Norway,FALSE,1825,1597,1834,1588,9
+1996-11-10,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,FALSE,1,0,win,Bern,Switzerland,FALSE,1834,1741,1854,1721,20
+1997-01-18,Friendly,played,Norway,NOR,South Korea,KOR,FALSE,0,1,loss,Melbourne,Australia,TRUE,1854,1557,1829,1582,-25
+1997-01-22,Friendly,played,Norway,NOR,New Zealand,NZL,FALSE,3,0,win,Brisbane,Australia,TRUE,1829,1470,1835,1464,6
+1997-01-25,Friendly,played,Norway,NOR,Australia,AUS,FALSE,0,1,loss,Sydney,Australia,FALSE,1835,1760,1821,1774,-14
+1997-03-29,Friendly,played,Norway,NOR,United Arab Emirates,ARE,FALSE,4,1,win,Sharjah,United Arab Emirates,FALSE,1821,1615,1833,1603,12
+1997-04-30,FIFA World Cup qualification,played,Norway,NOR,Finland,,TRUE,1,1,draw,Oslo,Norway,FALSE,1826,1477,1809,1494,-17
+1997-05-30,Friendly,played,Norway,NOR,Brazil,BRA,TRUE,4,2,win,Oslo,Norway,FALSE,1809,2080,1831,2058,22
+1997-06-08,FIFA World Cup qualification,played,Norway,NOR,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,1831,1604,1824,1611,-7
+1997-07-20,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,1,0,win,Reykjavík,Iceland,FALSE,1824,1502,1828,1498,4
+1997-08-20,FIFA World Cup qualification,played,Norway,NOR,Finland,,FALSE,4,0,win,Helsinki,Finland,FALSE,1828,1509,1845,1492,17
+1997-09-06,FIFA World Cup qualification,played,Norway,NOR,Azerbaijan,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1845,1360,1849,1356,4
+1997-09-10,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,TRUE,5,0,win,Oslo,Norway,FALSE,1849,1682,1863,1668,14
+1997-10-08,Friendly,played,Norway,NOR,Colombia,COL,TRUE,0,0,draw,Oslo,Norway,FALSE,1863,1773,1858,1778,-5
+1998-02-25,Friendly,played,Norway,NOR,France,FRA,FALSE,3,3,draw,Marseille,France,FALSE,1858,2021,1864,2015,6
+1998-03-25,Friendly,played,Norway,NOR,Belgium,BEL,FALSE,2,2,draw,Brussels,Belgium,FALSE,1864,1808,1865,1807,1
+1998-04-22,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,2,0,win,Copenhagen,Denmark,FALSE,1865,1940,1887,1918,22
+1998-05-20,Friendly,played,Norway,NOR,Mexico,MEX,TRUE,5,2,win,Oslo,Norway,FALSE,1887,1857,1898,1846,11
+1998-05-27,Friendly,played,Norway,NOR,Saudi Arabia,SAU,TRUE,6,0,win,Molde,Norway,FALSE,1898,1644,1903,1639,5
+1998-06-10,FIFA World Cup,played,Norway,NOR,Morocco,MAR,FALSE,2,2,draw,Montpellier,France,TRUE,1903,1727,1889,1741,-14
+1998-06-16,FIFA World Cup,played,Norway,NOR,Scotland,SCO,FALSE,1,1,draw,Bordeaux,France,TRUE,1889,1768,1879,1778,-10
+1998-06-23,FIFA World Cup,played,Norway,NOR,Brazil,BRA,FALSE,2,1,win,Marseille,France,TRUE,1879,2112,1927,2064,48
+1998-06-27,FIFA World Cup,played,Norway,NOR,Italy,ITA,FALSE,0,1,loss,Marseille,France,TRUE,1927,1980,1902,2005,-25
+1998-08-19,Friendly,played,Norway,NOR,Romania,ROU,TRUE,0,0,draw,Oslo,Norway,FALSE,1902,1883,1899,1886,-3
+1998-09-06,UEFA Euro qualification,played,Norway,NOR,Latvia,,TRUE,1,3,loss,Oslo,Norway,FALSE,1899,1376,1841,1434,-58
+1998-10-10,UEFA Euro qualification,played,Norway,NOR,Slovenia,SVN,FALSE,2,1,win,Ljubljana,Slovenia,FALSE,1841,1532,1850,1523,9
+1998-10-14,UEFA Euro qualification,played,Norway,NOR,Albania,,TRUE,2,2,draw,Oslo,Norway,FALSE,1850,1413,1832,1431,-18
+1998-11-18,Friendly,played,Norway,NOR,Egypt,EGY,FALSE,1,1,draw,Cairo,Egypt,FALSE,1832,1645,1830,1647,-2
+1999-01-20,Friendly,played,Norway,NOR,Israel,ISR,FALSE,1,0,win,Ramat Gan,Israel,FALSE,1830,1693,1843,1680,13
+1999-01-22,Friendly,played,Norway,NOR,Estonia,,FALSE,3,3,draw,Umm al-Fahm,Israel,TRUE,1843,1211,1829,1225,-14
+1999-02-10,Friendly,played,Norway,NOR,Italy,ITA,FALSE,0,0,draw,Pisa,Italy,FALSE,1829,2020,1836,2013,7
+1999-03-27,UEFA Euro qualification,played,Norway,NOR,Greece,GRC,FALSE,2,0,win,Athens,Greece,FALSE,1836,1764,1868,1732,32
+1999-04-28,UEFA Euro qualification,played,Norway,NOR,Georgia,,FALSE,4,1,win,Tbilisi,Georgia,FALSE,1868,1586,1886,1568,18
+1999-05-20,Friendly,played,Norway,NOR,Jamaica,JAM,TRUE,6,0,win,Oslo,Norway,FALSE,1886,1659,1892,1653,6
+1999-05-30,UEFA Euro qualification,played,Norway,NOR,Georgia,,TRUE,1,0,win,Oslo,Norway,FALSE,1892,1568,1895,1565,3
+1999-06-05,UEFA Euro qualification,played,Norway,NOR,Albania,,FALSE,2,1,win,Tirana,Albania,FALSE,1895,1462,1900,1457,5
+1999-08-18,Friendly,played,Norway,NOR,Lithuania,,TRUE,1,0,win,Oslo,Norway,FALSE,1900,1483,1901,1482,1
+1999-09-04,UEFA Euro qualification,played,Norway,NOR,Greece,GRC,TRUE,1,0,win,Oslo,Norway,FALSE,1901,1706,1907,1700,6
+1999-09-08,UEFA Euro qualification,played,Norway,NOR,Slovenia,SVN,TRUE,4,0,win,Oslo,Norway,FALSE,1907,1617,1914,1610,7
+1999-10-09,UEFA Euro qualification,played,Norway,NOR,Latvia,,FALSE,2,1,win,Riga,Latvia,FALSE,1914,1474,1919,1469,5
+1999-11-14,Friendly,played,Norway,NOR,Germany,DEU,TRUE,0,1,loss,Oslo,Norway,FALSE,1919,1872,1905,1886,-14
+2000-01-31,Nordic Championship,played,Norway,NOR,Iceland,ISL,FALSE,0,0,draw,Cartagena,Spain,TRUE,1905,1557,1894,1568,-11
+2000-02-04,Nordic Championship,played,Norway,NOR,Sweden,SWE,TRUE,1,1,draw,Cartagena,Spain,TRUE,1916,1907,1916,1907,0
+2000-02-23,Friendly,played,Norway,NOR,Turkey,TUR,FALSE,2,0,win,Istanbul,Turkey,FALSE,1916,1738,1928,1726,12
+2000-03-29,Friendly,played,Norway,NOR,Switzerland,CHE,FALSE,2,2,draw,Lugano,Switzerland,FALSE,1928,1719,1925,1722,-3
+2000-04-26,Friendly,played,Norway,NOR,Belgium,BEL,TRUE,0,2,loss,Oslo,Norway,FALSE,1925,1794,1901,1818,-24
+2000-05-27,Friendly,played,Norway,NOR,Slovakia,SVK,TRUE,2,0,win,Oslo,Norway,FALSE,1901,1692,1905,1688,4
+2000-06-03,Friendly,played,Norway,NOR,Italy,ITA,TRUE,1,0,win,Oslo,Norway,FALSE,1905,1937,1913,1929,8
+2000-06-13,UEFA Euro,played,Norway,NOR,Spain,ESP,FALSE,1,0,win,Rotterdam,Netherlands,TRUE,1913,2018,1945,1986,32
+2000-06-18,UEFA Euro,played,Norway,NOR,Serbia,SRB,TRUE,0,1,loss,Liège,Belgium,TRUE,,,,,
+2000-06-21,UEFA Euro,played,Norway,NOR,Slovenia,SVN,FALSE,0,0,draw,Arnhem,Netherlands,TRUE,1919,1644,1903,1660,-16
+2000-08-16,Nordic Championship,played,Norway,NOR,Finland,,FALSE,1,3,loss,Helsinki,Finland,FALSE,1903,1571,1867,1607,-36
+2000-09-02,FIFA World Cup qualification,played,Norway,NOR,Armenia,,TRUE,0,0,draw,Oslo,Norway,FALSE,1867,1393,1848,1412,-19
+2000-10-07,FIFA World Cup qualification,played,Norway,NOR,Wales,WAL,FALSE,1,1,draw,Cardiff,Wales,FALSE,1848,1531,1837,1542,-11
+2000-10-11,FIFA World Cup qualification,played,Norway,NOR,Ukraine,UKR,TRUE,0,1,loss,Oslo,Norway,FALSE,1837,1698,1805,1730,-32
+2001-01-24,Lunar New Year Cup,played,Norway,NOR,South Korea,KOR,FALSE,3,2,win,So Kon Po,Hong Kong,TRUE,1805,1764,1818,1751,13
+2001-02-28,Friendly,played,Norway,NOR,Northern Ireland,NIR,FALSE,4,0,win,Belfast,Northern Ireland,FALSE,1818,1516,1827,1507,9
+2001-03-24,FIFA World Cup qualification,played,Norway,NOR,Poland,POL,TRUE,2,3,loss,Oslo,Norway,FALSE,1827,1778,1799,1806,-28
+2001-03-28,FIFA World Cup qualification,played,Norway,NOR,Belarus,,FALSE,1,2,loss,Minsk,Belarus,FALSE,1799,1437,1766,1470,-33
+2001-04-25,Friendly,played,Norway,NOR,Bulgaria,BGR,TRUE,2,1,win,Oslo,Norway,FALSE,1766,1713,1772,1707,6
+2001-06-02,FIFA World Cup qualification,played,Norway,NOR,Ukraine,UKR,FALSE,0,0,draw,Kyiv,Ukraine,FALSE,1772,1680,1772,1680,0
+2001-06-06,FIFA World Cup qualification,played,Norway,NOR,Belarus,,TRUE,1,1,draw,Oslo,Norway,FALSE,1772,1472,1756,1488,-16
+2001-08-15,Friendly,played,Norway,NOR,Turkey,TUR,TRUE,1,1,draw,Oslo,Norway,FALSE,1756,1729,1752,1733,-4
+2001-09-01,FIFA World Cup qualification,played,Norway,NOR,Poland,POL,FALSE,0,3,loss,Chorzów,Poland,FALSE,1752,1800,1731,1821,-21
+2001-09-05,FIFA World Cup qualification,played,Norway,NOR,Wales,WAL,TRUE,3,2,win,Oslo,Norway,FALSE,1731,1545,1737,1539,6
+2001-10-06,FIFA World Cup qualification,played,Norway,NOR,Armenia,,FALSE,4,1,win,Yerevan,Armenia,FALSE,1737,1428,1753,1412,16
+2002-02-13,Friendly,played,Norway,NOR,Belgium,BEL,FALSE,0,1,loss,Brussels,Belgium,FALSE,1753,1833,1748,1838,-5
+2002-03-27,Friendly,played,Norway,NOR,Tunisia,TUN,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1748,1626,1747,1627,-1
+2002-04-17,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,0,draw,Oslo,Norway,FALSE,1747,1881,1748,1880,1
+2002-05-14,Friendly,played,Norway,NOR,Japan,JPN,TRUE,3,0,win,Oslo,Norway,FALSE,1748,1869,1767,1850,19
+2002-05-22,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,1,1,draw,Bodø,Norway,FALSE,1767,1591,1760,1598,-7
+2002-08-21,Friendly,played,Norway,NOR,Netherlands,NLD,TRUE,0,1,loss,Oslo,Norway,FALSE,1760,2009,1754,2015,-6
+2002-09-07,UEFA Euro qualification,played,Norway,NOR,Denmark,DNK,TRUE,2,2,draw,Oslo,Norway,FALSE,1754,1894,1756,1892,2
+2002-10-12,UEFA Euro qualification,played,Norway,NOR,Romania,ROU,FALSE,1,0,win,Bucharest,Romania,FALSE,1756,1834,1785,1805,29
+2002-10-16,UEFA Euro qualification,played,Norway,NOR,Bosnia and Herzegovina,BIH,TRUE,2,0,win,Oslo,Norway,FALSE,1785,1507,1791,1501,6
+2002-11-20,Friendly,played,Norway,NOR,Austria,AUT,FALSE,1,0,win,Vienna,Austria,FALSE,1791,1691,1801,1681,10
+2003-01-26,Friendly,played,Norway,NOR,United Arab Emirates,ARE,FALSE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1801,1415,1794,1422,-7
+2003-01-28,Friendly,played,Norway,NOR,Oman,,FALSE,2,1,win,Muscat,Oman,FALSE,1794,1439,1798,1435,4
+2003-02-12,Friendly,played,Norway,NOR,Greece,GRC,FALSE,0,1,loss,Heraklion,Greece,FALSE,1798,1677,1787,1688,-11
+2003-04-02,UEFA Euro qualification,played,Norway,NOR,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1787,1100,1789,1098,2
+2003-04-30,Friendly,played,Norway,NOR,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2003-05-22,Friendly,played,Norway,NOR,Finland,,TRUE,2,0,win,Oslo,Norway,FALSE,1784,1681,1791,1674,7
+2003-06-07,UEFA Euro qualification,played,Norway,NOR,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1791,1886,1781,1896,-10
+2003-06-11,UEFA Euro qualification,played,Norway,NOR,Romania,ROU,TRUE,1,1,draw,Oslo,Norway,FALSE,1781,1764,1775,1770,-6
+2003-08-20,Friendly,played,Norway,NOR,Scotland,SCO,TRUE,0,0,draw,Oslo,Norway,FALSE,1775,1643,1769,1649,-6
+2003-09-06,UEFA Euro qualification,played,Norway,NOR,Bosnia and Herzegovina,BIH,FALSE,0,1,loss,Zenica,Bosnia and Herzegovina,FALSE,1769,1558,1743,1584,-26
+2003-09-10,Friendly,played,Norway,NOR,Portugal,PRT,TRUE,0,1,loss,Oslo,Norway,FALSE,1743,1912,1735,1920,-8
+2003-10-11,UEFA Euro qualification,played,Norway,NOR,Luxembourg,,TRUE,1,0,win,Oslo,Norway,FALSE,1735,1092,1736,1091,1
+2003-11-15,UEFA Euro qualification,played,Norway,NOR,Spain,ESP,FALSE,1,2,loss,Valencia,Spain,FALSE,1736,1980,1731,1985,-5
+2003-11-19,UEFA Euro qualification,played,Norway,NOR,Spain,ESP,TRUE,0,3,loss,Oslo,Norway,FALSE,1731,1985,1711,2005,-20
+2004-01-22,Lunar New Year Cup,played,Norway,NOR,Sweden,SWE,FALSE,3,0,win,So Kon Po,Hong Kong,TRUE,1711,1804,1744,1771,33
+2004-01-25,Lunar New Year Cup,played,Norway,NOR,Honduras,HND,TRUE,3,1,win,So Kon Po,Hong Kong,TRUE,1744,1665,1761,1648,17
+2004-01-28,Friendly,played,Norway,NOR,Singapore,,FALSE,5,2,win,Singapore,Singapore,FALSE,1761,1188,1764,1185,3
+2004-02-18,Friendly,played,Norway,NOR,Northern Ireland,NIR,FALSE,4,1,win,Belfast,Northern Ireland,FALSE,1764,1468,1773,1459,9
+2004-03-31,Friendly,played,Norway,NOR,Serbia and Montenegro,SCG,FALSE,1,0,win,Belgrade,Serbia and Montenegro,FALSE,1773,1737,1785,1725,12
+2004-04-28,Friendly,played,Norway,NOR,Russia,RUS,TRUE,3,2,win,Oslo,Norway,FALSE,1785,1797,1793,1789,8
+2004-05-27,Friendly,played,Norway,NOR,Wales,WAL,TRUE,0,0,draw,Oslo,Norway,FALSE,1793,1647,1787,1653,-6
+2004-08-18,Friendly,played,Norway,NOR,Belgium,BEL,TRUE,2,2,draw,Oslo,Norway,FALSE,1787,1789,1784,1792,-3
+2004-09-04,FIFA World Cup qualification,played,Norway,NOR,Italy,ITA,FALSE,1,2,loss,Palermo,Italy,FALSE,1784,1919,1776,1927,-8
+2004-09-08,FIFA World Cup qualification,played,Norway,NOR,Belarus,,TRUE,1,1,draw,Oslo,Norway,FALSE,1776,1586,1762,1600,-14
+2004-10-09,FIFA World Cup qualification,played,Norway,NOR,Scotland,SCO,FALSE,1,0,win,Glasgow,Scotland,FALSE,1762,1639,1781,1620,19
+2004-10-13,FIFA World Cup qualification,played,Norway,NOR,Slovenia,SVN,TRUE,3,0,win,Oslo,Norway,FALSE,1781,1678,1798,1661,17
+2004-11-16,Friendly,played,Norway,NOR,Australia,AUS,FALSE,2,2,draw,London,England,TRUE,1798,1804,1798,1804,0
+2005-01-22,Friendly,played,Norway,NOR,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1798,1505,1793,1510,-5
+2005-01-25,Friendly,played,Norway,NOR,Bahrain,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1793,1592,1800,1585,7
+2005-01-28,Friendly,played,Norway,NOR,Jordan,,FALSE,0,0,draw,Amman,Jordan,FALSE,1800,1581,1797,1584,-3
+2005-02-09,Friendly,played,Norway,NOR,Malta,,FALSE,3,0,win,Attard,Malta,FALSE,1797,1246,1799,1244,2
+2005-03-30,FIFA World Cup qualification,played,Norway,NOR,Moldova,,FALSE,0,0,draw,Chișinău,Moldova,FALSE,1799,1404,1785,1418,-14
+2005-04-20,Friendly,played,Norway,NOR,Estonia,,FALSE,2,1,win,Tallinn,Estonia,FALSE,1785,1381,1788,1378,3
+2005-05-24,Friendly,played,Norway,NOR,Costa Rica,CRI,TRUE,1,0,win,Oslo,Norway,FALSE,1788,1711,1793,1706,5
+2005-06-04,FIFA World Cup qualification,played,Norway,NOR,Italy,ITA,TRUE,0,0,draw,Oslo,Norway,FALSE,1793,1909,1794,1908,1
+2005-06-08,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,3,2,win,Solna,Sweden,FALSE,1794,1906,1809,1891,15
+2005-08-17,Friendly,played,Norway,NOR,Switzerland,CHE,TRUE,0,2,loss,Oslo,Norway,FALSE,1809,1724,1787,1746,-22
+2005-09-03,FIFA World Cup qualification,played,Norway,NOR,Slovenia,SVN,FALSE,3,2,win,Celje,Slovenia,FALSE,1787,1650,1805,1632,18
+2005-09-07,FIFA World Cup qualification,played,Norway,NOR,Scotland,SCO,TRUE,1,2,loss,Oslo,Norway,FALSE,1805,1630,1772,1663,-33
+2005-10-08,FIFA World Cup qualification,played,Norway,NOR,Moldova,,TRUE,1,0,win,Oslo,Norway,FALSE,1772,1433,1775,1430,3
+2005-10-12,FIFA World Cup qualification,played,Norway,NOR,Belarus,,FALSE,1,0,win,Minsk,Belarus,FALSE,1775,1597,1791,1581,16
+2005-11-12,FIFA World Cup qualification,played,Norway,NOR,Czechia,CZE,TRUE,0,1,loss,Oslo,Norway,FALSE,1791,1941,1774,1958,-17
+2005-11-16,FIFA World Cup qualification,played,Norway,NOR,Czechia,CZE,FALSE,0,1,loss,Prague,Czech Republic,FALSE,1774,1958,1767,1965,-7
+2006-01-25,Friendly,played,Norway,NOR,Mexico,MEX,FALSE,1,2,loss,San Francisco,United States,TRUE,1767,1836,1759,1844,-8
+2006-01-29,Friendly,played,Norway,NOR,United States,USA,FALSE,0,5,loss,Carson,United States,FALSE,1759,1833,1748,1844,-11
+2006-03-01,Friendly,played,Norway,NOR,Senegal,SEN,FALSE,1,2,loss,Dakar,Senegal,FALSE,1748,1649,1738,1659,-10
+2006-05-24,Friendly,played,Norway,NOR,Paraguay,PRY,TRUE,2,2,draw,Oslo,Norway,FALSE,1738,1768,1736,1770,-2
+2006-06-01,Friendly,played,Norway,NOR,South Korea,KOR,TRUE,0,0,draw,Oslo,Norway,FALSE,1736,1764,1734,1766,-2
+2006-08-16,Friendly,played,Norway,NOR,Brazil,BRA,TRUE,1,1,draw,Oslo,Norway,FALSE,1734,2059,1740,2053,6
+2006-09-02,UEFA Euro qualification,played,Norway,NOR,Hungary,HUN,FALSE,4,1,win,Budapest,Hungary,FALSE,1740,1616,1773,1583,33
+2006-09-06,UEFA Euro qualification,played,Norway,NOR,Moldova,,TRUE,2,0,win,Oslo,Norway,FALSE,1773,1427,1777,1423,4
+2006-10-07,UEFA Euro qualification,played,Norway,NOR,Greece,GRC,FALSE,0,1,loss,Piraeus,Greece,FALSE,1777,1804,1764,1817,-13
+2006-11-15,Friendly,played,Norway,NOR,Serbia,SRB,FALSE,1,1,draw,Belgrade,Serbia,FALSE,1764,1765,1767,1762,3
+2007-02-07,Friendly,played,Norway,NOR,Croatia,HRV,FALSE,1,2,loss,Rijeka,Croatia,FALSE,1767,1896,1763,1900,-4
+2007-03-24,UEFA Euro qualification,played,Norway,NOR,Bosnia and Herzegovina,BIH,TRUE,1,2,loss,Oslo,Norway,FALSE,1763,1563,1729,1597,-34
+2007-03-28,UEFA Euro qualification,played,Norway,NOR,Turkey,TUR,FALSE,2,2,draw,Frankfurt am Main,Germany,TRUE,1729,1872,1737,1864,8
+2007-06-02,UEFA Euro qualification,played,Norway,NOR,Malta,,TRUE,4,0,win,Oslo,Norway,FALSE,1737,1273,1740,1270,3
+2007-06-06,UEFA Euro qualification,played,Norway,NOR,Hungary,HUN,TRUE,4,0,win,Oslo,Norway,FALSE,1740,1583,1754,1569,14
+2007-08-22,Friendly,played,Norway,NOR,Argentina,ARG,TRUE,2,1,win,Oslo,Norway,FALSE,1754,2028,1769,2013,15
+2007-09-08,UEFA Euro qualification,played,Norway,NOR,Moldova,,FALSE,1,0,win,Chișinău,Moldova,FALSE,1769,1408,1776,1401,7
+2007-09-12,UEFA Euro qualification,played,Norway,NOR,Greece,GRC,TRUE,2,2,draw,Oslo,Norway,FALSE,1776,1786,1771,1791,-5
+2007-10-17,UEFA Euro qualification,played,Norway,NOR,Bosnia and Herzegovina,BIH,FALSE,2,0,win,Sarajevo,Bosnia and Herzegovina,FALSE,1771,1566,1792,1545,21
+2007-11-17,UEFA Euro qualification,played,Norway,NOR,Turkey,TUR,TRUE,1,2,loss,Oslo,Norway,FALSE,1792,1785,1766,1811,-26
+2007-11-21,UEFA Euro qualification,played,Norway,NOR,Malta,,FALSE,4,1,win,Attard,Malta,FALSE,1766,1250,1772,1244,6
+2008-02-06,Friendly,played,Norway,NOR,Wales,WAL,FALSE,0,3,loss,Wrexham,Wales,FALSE,1772,1630,1752,1650,-20
+2008-03-26,Friendly,played,Norway,NOR,Montenegro,,FALSE,1,3,loss,Podgorica,Montenegro,FALSE,1752,1653,1737,1668,-15
+2008-05-28,Friendly,played,Norway,NOR,Uruguay,URY,TRUE,2,2,draw,Oslo,Norway,FALSE,1737,1805,1736,1806,-1
+2008-08-20,Friendly,played,Norway,NOR,Republic of Ireland,IRL,TRUE,1,1,draw,Oslo,Norway,FALSE,,,,,
+2008-09-06,FIFA World Cup qualification,played,Norway,NOR,Iceland,ISL,TRUE,2,2,draw,Oslo,Norway,FALSE,1734,1413,1717,1430,-17
+2008-10-11,FIFA World Cup qualification,played,Norway,NOR,Scotland,SCO,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1717,1732,1723,1726,6
+2008-10-15,FIFA World Cup qualification,played,Norway,NOR,Netherlands,NLD,TRUE,0,1,loss,Oslo,Norway,FALSE,1723,2014,1713,2024,-10
+2008-11-19,Friendly,played,Norway,NOR,Ukraine,UKR,FALSE,0,1,loss,Dnipropetrovs'k,Ukraine,FALSE,1713,1772,1707,1778,-6
+2009-02-11,Friendly,played,Norway,NOR,Germany,DEU,FALSE,1,0,win,Düsseldorf,Germany,FALSE,1707,1966,1725,1948,18
+2009-03-28,Friendly,played,Norway,NOR,South Africa,ZAF,FALSE,1,2,loss,Rustenburg,South Africa,FALSE,1725,1529,1706,1548,-19
+2009-04-01,Friendly,played,Norway,NOR,Finland,,TRUE,3,2,win,Oslo,Norway,FALSE,1706,1695,1713,1688,7
+2009-06-06,FIFA World Cup qualification,played,Norway,NOR,North Macedonia,,FALSE,0,0,draw,Skopje,North Macedonia,FALSE,1713,1553,1710,1556,-3
+2009-06-10,FIFA World Cup qualification,played,Norway,NOR,Netherlands,NLD,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1710,2031,1705,2036,-5
+2009-08-12,FIFA World Cup qualification,played,Norway,NOR,Scotland,SCO,TRUE,4,0,win,Oslo,Norway,FALSE,1705,1718,1733,1690,28
+2009-09-05,FIFA World Cup qualification,played,Norway,NOR,Iceland,ISL,FALSE,1,1,draw,Reykjavík,Iceland,FALSE,1733,1421,1722,1432,-11
+2009-09-09,FIFA World Cup qualification,played,Norway,NOR,North Macedonia,,TRUE,2,1,win,Oslo,Norway,FALSE,1722,1554,1729,1547,7
+2009-10-10,Friendly,played,Norway,NOR,South Africa,ZAF,TRUE,1,0,win,Oslo,Norway,FALSE,1729,1545,1732,1542,3
+2009-11-14,Friendly,played,Norway,NOR,Switzerland,CHE,FALSE,1,0,win,Geneva,Switzerland,FALSE,1732,1807,1747,1792,15
+2010-03-03,Friendly,played,Norway,NOR,Slovakia,SVK,FALSE,1,0,win,Žilina,Slovakia,FALSE,1747,1664,1757,1654,10
+2010-05-29,Friendly,played,Norway,NOR,Montenegro,,TRUE,2,1,win,Oslo,Norway,FALSE,1757,1633,1761,1629,4
+2010-06-02,Friendly,played,Norway,NOR,Ukraine,UKR,TRUE,0,1,loss,Oslo,Norway,FALSE,1761,1795,1749,1807,-12
+2010-08-11,Friendly,played,Norway,NOR,France,FRA,TRUE,2,1,win,Oslo,Norway,FALSE,1749,1776,1757,1768,8
+2010-09-03,UEFA Euro qualification,played,Norway,NOR,Iceland,ISL,FALSE,2,1,win,Reykjavík,Iceland,FALSE,1757,1459,1767,1449,10
+2010-09-07,UEFA Euro qualification,played,Norway,NOR,Portugal,PRT,TRUE,1,0,win,Oslo,Norway,FALSE,1767,1869,1787,1849,20
+2010-10-08,UEFA Euro qualification,played,Norway,NOR,Cyprus,,FALSE,2,1,win,Larnaca,Cyprus,FALSE,1787,1575,1801,1561,14
+2010-10-12,Friendly,played,Norway,NOR,Croatia,HRV,FALSE,1,2,loss,Zagreb,Croatia,FALSE,1801,1906,1796,1911,-5
+2010-11-17,Friendly,played,Norway,NOR,Republic of Ireland,IRL,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+2011-02-09,Friendly,played,Norway,NOR,Poland,POL,TRUE,0,1,loss,Faro,Portugal,TRUE,1808,1671,1794,1685,-14
+2011-03-26,UEFA Euro qualification,played,Norway,NOR,Denmark,DNK,TRUE,1,1,draw,Oslo,Norway,FALSE,1794,1726,1785,1735,-9
+2011-06-04,UEFA Euro qualification,played,Norway,NOR,Portugal,PRT,FALSE,0,1,loss,Lisbon,Portugal,FALSE,1785,1891,1776,1900,-9
+2011-06-07,Friendly,played,Norway,NOR,Lithuania,,TRUE,1,0,win,Oslo,Norway,FALSE,1776,1546,1779,1543,3
+2011-08-10,Friendly,played,Norway,NOR,Czechia,CZE,TRUE,3,0,win,Oslo,Norway,FALSE,1779,1738,1790,1727,11
+2011-09-02,UEFA Euro qualification,played,Norway,NOR,Iceland,ISL,TRUE,1,0,win,Oslo,Norway,FALSE,1790,1427,1793,1424,3
+2011-09-06,UEFA Euro qualification,played,Norway,NOR,Denmark,DNK,FALSE,0,2,loss,Copenhagen,Denmark,FALSE,1793,1750,1768,1775,-25
+2011-10-11,UEFA Euro qualification,played,Norway,NOR,Cyprus,,TRUE,3,1,win,Oslo,Norway,FALSE,1768,1477,1774,1471,6
+2011-11-12,Friendly,played,Norway,NOR,Wales,WAL,FALSE,1,4,loss,Cardiff,Wales,FALSE,1774,1627,1754,1647,-20
+2012-01-18,King's Cup,played,Norway,NOR,Thailand,,FALSE,1,0,win,Bangkok,Thailand,FALSE,1754,1388,1759,1383,5
+2012-02-29,Friendly,played,Norway,NOR,Northern Ireland,NIR,FALSE,3,0,win,Belfast,Northern Ireland,FALSE,1759,1458,1767,1450,8
+2012-05-26,Friendly,played,Norway,NOR,England,ENG,TRUE,0,1,loss,Oslo,Norway,FALSE,1767,1945,1759,1953,-8
+2012-06-02,Friendly,played,Norway,NOR,Croatia,HRV,TRUE,1,1,draw,Oslo,Norway,FALSE,1759,1872,1759,1872,0
+2012-08-15,Friendly,played,Norway,NOR,Greece,GRC,TRUE,2,3,loss,Oslo,Norway,FALSE,1759,1777,1747,1789,-12
+2012-09-07,FIFA World Cup qualification,played,Norway,NOR,Iceland,ISL,FALSE,0,2,loss,Reykjavík,Iceland,FALSE,1747,1438,1701,1484,-46
+2012-09-11,FIFA World Cup qualification,played,Norway,NOR,Slovenia,SVN,TRUE,2,1,win,Oslo,Norway,FALSE,1701,1636,1712,1625,11
+2012-10-12,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,FALSE,1,1,draw,Bern,Switzerland,FALSE,1712,1820,1723,1809,11
+2012-10-16,FIFA World Cup qualification,played,Norway,NOR,Cyprus,,FALSE,3,1,win,Larnaca,Cyprus,FALSE,1723,1455,1740,1438,17
+2012-11-14,Friendly,played,Norway,NOR,Hungary,HUN,FALSE,2,0,win,Budapest,Hungary,FALSE,1740,1709,1758,1691,18
+2013-01-08,Friendly,played,Norway,NOR,South Africa,ZAF,FALSE,1,0,win,Cape Town,South Africa,FALSE,1758,1565,1765,1558,7
+2013-01-12,Friendly,played,Norway,NOR,Zambia,,FALSE,0,0,draw,Ndola,Zambia,FALSE,1765,1567,1762,1570,-3
+2013-02-06,Friendly,played,Norway,NOR,Ukraine,UKR,TRUE,0,2,loss,Seville,Spain,TRUE,1762,1713,1745,1730,-17
+2013-03-22,FIFA World Cup qualification,played,Norway,NOR,Albania,,TRUE,0,1,loss,Oslo,Norway,FALSE,1745,1495,1710,1530,-35
+2013-06-07,FIFA World Cup qualification,played,Norway,NOR,Albania,,FALSE,1,1,draw,Tirana,Albania,FALSE,1710,1540,1706,1544,-4
+2013-06-11,Friendly,played,Norway,NOR,North Macedonia,,TRUE,2,0,win,Oslo,Norway,FALSE,1706,1528,1711,1523,5
+2013-08-14,Friendly,played,Norway,NOR,Sweden,SWE,FALSE,2,4,loss,Solna,Sweden,FALSE,1711,1851,1705,1857,-6
+2013-09-06,FIFA World Cup qualification,played,Norway,NOR,Cyprus,,TRUE,2,0,win,Oslo,Norway,FALSE,1705,1427,1711,1421,6
+2013-09-10,FIFA World Cup qualification,played,Norway,NOR,Switzerland,CHE,TRUE,0,2,loss,Oslo,Norway,FALSE,1711,1818,1682,1847,-29
+2013-10-11,FIFA World Cup qualification,played,Norway,NOR,Slovenia,SVN,FALSE,0,3,loss,Maribor,Slovenia,FALSE,1682,1632,1652,1662,-30
+2013-10-15,FIFA World Cup qualification,played,Norway,NOR,Iceland,ISL,TRUE,1,1,draw,Oslo,Norway,FALSE,1652,1529,1641,1540,-11
+2013-11-15,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,1,2,loss,Herning,Denmark,FALSE,1641,1741,1636,1746,-5
+2013-11-19,Friendly,played,Norway,NOR,Scotland,SCO,TRUE,0,1,loss,Molde,Norway,FALSE,1636,1687,1625,1698,-11
+2014-01-15,Friendly,played,Norway,NOR,Moldova,,FALSE,2,1,win,Abu Dhabi,United Arab Emirates,TRUE,1625,1444,1630,1439,5
+2014-01-18,Friendly,played,Norway,NOR,Poland,POL,TRUE,0,3,loss,Abu Dhabi,United Arab Emirates,TRUE,1630,1622,1612,1640,-18
+2014-03-05,Friendly,played,Norway,NOR,Czechia,CZE,FALSE,2,2,draw,Prague,Czech Republic,FALSE,1612,1760,1618,1754,6
+2014-05-27,Friendly,played,Norway,NOR,France,FRA,FALSE,0,4,loss,Saint-Denis,France,FALSE,1618,1897,1614,1901,-4
+2014-05-31,Friendly,played,Norway,NOR,Russia,RUS,TRUE,1,1,draw,Oslo,Norway,FALSE,1614,1850,1618,1846,4
+2014-08-27,Friendly,played,Norway,NOR,United Arab Emirates,ARE,TRUE,0,0,draw,Stavanger,Norway,FALSE,1618,1650,1616,1652,-2
+2014-09-03,Friendly,played,Norway,NOR,England,ENG,FALSE,0,1,loss,London,England,FALSE,1616,1859,1614,1861,-2
+2014-09-09,UEFA Euro qualification,played,Norway,NOR,Italy,ITA,TRUE,0,2,loss,Oslo,Norway,FALSE,1614,1872,1597,1889,-17
+2014-10-10,UEFA Euro qualification,played,Norway,NOR,Malta,,FALSE,3,0,win,Attard,Malta,FALSE,1597,1233,1610,1220,13
+2014-10-13,UEFA Euro qualification,played,Norway,NOR,Bulgaria,BGR,TRUE,2,1,win,Oslo,Norway,FALSE,1610,1639,1626,1623,16
+2014-11-12,Friendly,played,Norway,NOR,Estonia,,TRUE,0,1,loss,Oslo,Norway,FALSE,1626,1458,1610,1474,-16
+2014-11-16,UEFA Euro qualification,played,Norway,NOR,Azerbaijan,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1610,1421,1625,1406,15
+2015-03-28,UEFA Euro qualification,played,Norway,NOR,Croatia,HRV,FALSE,1,5,loss,Zagreb,Croatia,FALSE,1625,1824,1614,1835,-11
+2015-06-08,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,0,0,draw,Oslo,Norway,FALSE,1614,1798,1616,1796,2
+2015-06-12,UEFA Euro qualification,played,Norway,NOR,Azerbaijan,,TRUE,0,0,draw,Oslo,Norway,FALSE,1616,1411,1602,1425,-14
+2015-09-03,UEFA Euro qualification,played,Norway,NOR,Bulgaria,BGR,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1602,1613,1628,1587,26
+2015-09-06,UEFA Euro qualification,played,Norway,NOR,Croatia,HRV,TRUE,2,0,win,Oslo,Norway,FALSE,1628,1818,1666,1780,38
+2015-10-10,UEFA Euro qualification,played,Norway,NOR,Malta,,TRUE,2,0,win,Oslo,Norway,FALSE,1666,1242,1669,1239,3
+2015-10-13,UEFA Euro qualification,played,Norway,NOR,Italy,ITA,FALSE,1,2,loss,Rome,Italy,FALSE,1669,1880,1663,1886,-6
+2015-11-12,UEFA Euro qualification,played,Norway,NOR,Hungary,HUN,TRUE,0,1,loss,Oslo,Norway,FALSE,1663,1662,1637,1688,-26
+2015-11-15,UEFA Euro qualification,played,Norway,NOR,Hungary,HUN,FALSE,1,2,loss,Budapest,Hungary,FALSE,1637,1688,1625,1700,-12
+2016-03-24,Friendly,played,Norway,NOR,Estonia,,FALSE,0,0,draw,Tallinn,Estonia,FALSE,1625,1499,1624,1500,-1
+2016-03-29,Friendly,played,Norway,NOR,Finland,,TRUE,2,0,win,Oslo,Norway,FALSE,1624,1578,1633,1569,9
+2016-05-29,Friendly,played,Norway,NOR,Portugal,PRT,FALSE,0,3,loss,Porto,Portugal,FALSE,1633,1908,1629,1912,-4
+2016-06-01,Friendly,played,Norway,NOR,Iceland,ISL,TRUE,3,2,win,Oslo,Norway,FALSE,1629,1673,1637,1665,8
+2016-06-05,Friendly,played,Norway,NOR,Belgium,BEL,FALSE,2,3,loss,Brussels,Belgium,FALSE,1637,1920,1635,1922,-2
+2016-08-31,Friendly,played,Norway,NOR,Belarus,,TRUE,0,1,loss,Oslo,Norway,FALSE,1635,1584,1621,1598,-14
+2016-09-04,FIFA World Cup qualification,played,Norway,NOR,Germany,DEU,TRUE,0,3,loss,Oslo,Norway,FALSE,1621,2016,1610,2027,-11
+2016-10-08,FIFA World Cup qualification,played,Norway,NOR,Azerbaijan,,FALSE,0,1,loss,Baku,Azerbaijan,FALSE,1610,1393,1584,1419,-26
+2016-10-11,FIFA World Cup qualification,played,Norway,NOR,San Marino,,TRUE,4,1,win,Oslo,Norway,FALSE,1584,879,1585,878,1
+2016-11-11,FIFA World Cup qualification,played,Norway,NOR,Czechia,CZE,FALSE,1,2,loss,Prague,Czech Republic,FALSE,1585,1690,1576,1699,-9
+2017-03-26,FIFA World Cup qualification,played,Norway,NOR,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1576,1647,1560,1663,-16
+2017-06-10,FIFA World Cup qualification,played,Norway,NOR,Czechia,CZE,TRUE,1,1,draw,Oslo,Norway,FALSE,1560,1699,1562,1697,2
+2017-06-13,Friendly,played,Norway,NOR,Sweden,SWE,TRUE,1,1,draw,Oslo,Norway,FALSE,1562,1811,1566,1807,4
+2017-09-01,FIFA World Cup qualification,played,Norway,NOR,Azerbaijan,,TRUE,2,0,win,Oslo,Norway,FALSE,1566,1423,1578,1411,12
+2017-09-04,FIFA World Cup qualification,played,Norway,NOR,Germany,DEU,FALSE,0,6,loss,Stuttgart,Germany,FALSE,1578,2104,1576,2106,-2
+2017-10-05,FIFA World Cup qualification,played,Norway,NOR,San Marino,,FALSE,8,0,win,Serravalle,San Marino,FALSE,1576,855,1579,852,3
+2017-10-08,FIFA World Cup qualification,played,Norway,NOR,Northern Ireland,NIR,TRUE,1,0,win,Oslo,Norway,FALSE,1579,1695,1600,1674,21
+2017-11-11,Friendly,played,Norway,NOR,North Macedonia,,FALSE,0,2,loss,Skopje,North Macedonia,FALSE,1600,1503,1585,1518,-15
+2017-11-14,Friendly,played,Norway,NOR,Slovakia,SVK,FALSE,0,1,loss,Trnava,Slovakia,FALSE,1585,1743,1581,1747,-4
+2018-03-23,Friendly,played,Norway,NOR,Australia,AUS,TRUE,4,1,win,Oslo,Norway,FALSE,1581,1729,1601,1709,20
+2018-03-26,Friendly,played,Norway,NOR,Albania,,FALSE,1,0,win,Elbasan,Albania,FALSE,1601,1608,1614,1595,13
+2018-06-02,Friendly,played,Norway,NOR,Iceland,ISL,FALSE,3,2,win,Reykjavík,Iceland,FALSE,1614,1787,1631,1770,17
+2018-06-06,Friendly,played,Norway,NOR,Panama,PAN,TRUE,1,0,win,Oslo,Norway,FALSE,1631,1665,1639,1657,8
+2018-09-06,UEFA Nations League,played,Norway,NOR,Cyprus,,TRUE,2,0,win,Oslo,Norway,FALSE,1639,1402,1647,1394,8
+2018-09-09,UEFA Nations League,played,Norway,NOR,Bulgaria,BGR,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1647,1640,1632,1655,-15
+2018-10-13,UEFA Nations League,played,Norway,NOR,Slovenia,SVN,TRUE,1,0,win,Oslo,Norway,FALSE,1632,1574,1643,1563,11
+2018-10-16,UEFA Nations League,played,Norway,NOR,Bulgaria,BGR,TRUE,1,0,win,Oslo,Norway,FALSE,1643,1660,1658,1645,15
+2018-11-16,UEFA Nations League,played,Norway,NOR,Slovenia,SVN,FALSE,1,1,draw,Ljubljana,Slovenia,FALSE,1658,1551,1658,1551,0
+2018-11-19,UEFA Nations League,played,Norway,NOR,Cyprus,,FALSE,2,0,win,Nicosia,Cyprus,FALSE,1658,1434,1678,1414,20
+2019-03-23,UEFA Euro qualification,played,Norway,NOR,Spain,ESP,FALSE,1,2,loss,Valencia,Spain,FALSE,1678,2010,1675,2013,-3
+2019-03-26,UEFA Euro qualification,played,Norway,NOR,Sweden,SWE,TRUE,3,3,draw,Oslo,Norway,FALSE,1675,1841,1679,1837,4
+2019-06-07,UEFA Euro qualification,played,Norway,NOR,Romania,ROU,TRUE,2,2,draw,Oslo,Norway,FALSE,1679,1743,1677,1745,-2
+2019-06-10,UEFA Euro qualification,played,Norway,NOR,Faroe Islands,,FALSE,2,0,win,Tórshavn,Faroe Islands,FALSE,1677,1232,1684,1225,7
+2019-09-05,UEFA Euro qualification,played,Norway,NOR,Malta,,TRUE,2,0,win,Oslo,Norway,FALSE,1684,1189,1686,1187,2
+2019-09-08,UEFA Euro qualification,played,Norway,NOR,Sweden,SWE,FALSE,1,1,draw,Stockholm,Sweden,FALSE,1686,1830,1698,1818,12
+2019-10-12,UEFA Euro qualification,played,Norway,NOR,Spain,ESP,TRUE,1,1,draw,Oslo,Norway,FALSE,1698,2038,1710,2026,12
+2019-10-15,UEFA Euro qualification,played,Norway,NOR,Romania,ROU,FALSE,1,1,draw,Bucharest,Romania,FALSE,1710,1746,1717,1739,7
+2019-11-15,UEFA Euro qualification,played,Norway,NOR,Faroe Islands,,TRUE,4,0,win,Oslo,Norway,FALSE,1717,1228,1719,1226,2
+2019-11-18,UEFA Euro qualification,played,Norway,NOR,Malta,,FALSE,2,1,win,Attard,Malta,FALSE,1719,1170,1722,1167,3
+2020-09-04,UEFA Nations League,played,Norway,NOR,Austria,AUT,TRUE,1,2,loss,Oslo,Norway,FALSE,1722,1741,1697,1766,-25
+2020-09-07,UEFA Nations League,played,Norway,NOR,Northern Ireland,NIR,FALSE,5,1,win,Belfast,Northern Ireland,FALSE,1697,1685,1744,1638,47
+2020-10-08,UEFA Euro qualification,played,Norway,NOR,Serbia,SRB,TRUE,1,2,loss,Oslo,Norway,FALSE,1744,1765,1720,1789,-24
+2020-10-11,UEFA Nations League,played,Norway,NOR,Romania,ROU,TRUE,4,0,win,Oslo,Norway,FALSE,1720,1706,1746,1680,26
+2020-10-14,UEFA Nations League,played,Norway,NOR,Northern Ireland,NIR,TRUE,1,0,win,Oslo,Norway,FALSE,1746,1626,1755,1617,9
+2020-11-15,UEFA Nations League,played,Norway,NOR,Romania,ROU,FALSE,0,3,loss,Bucharest,Romania,FALSE,,,,,
+2020-11-18,UEFA Nations League,played,Norway,NOR,Austria,AUT,FALSE,1,1,draw,Vienna,Austria,FALSE,1755,1794,1763,1786,8
+2021-03-24,FIFA World Cup qualification,played,Norway,NOR,Gibraltar,,FALSE,3,0,win,Gibraltar,Gibraltar,FALSE,1763,1094,1766,1091,3
+2021-03-27,FIFA World Cup qualification,played,Norway,NOR,Turkey,TUR,TRUE,0,3,loss,Málaga,Spain,TRUE,1766,1794,1734,1826,-32
+2021-03-30,FIFA World Cup qualification,played,Norway,NOR,Montenegro,,FALSE,1,0,win,Podgorica,Montenegro,FALSE,1734,1545,1749,1530,15
+2021-06-02,Friendly,played,Norway,NOR,Luxembourg,,TRUE,1,0,win,Málaga,Spain,TRUE,1749,1393,1751,1391,2
+2021-06-06,Friendly,played,Norway,NOR,Greece,GRC,TRUE,1,2,loss,Málaga,Spain,TRUE,1751,1647,1738,1660,-13
+2021-09-01,FIFA World Cup qualification,played,Norway,NOR,Netherlands,NLD,TRUE,1,1,draw,Oslo,Norway,FALSE,1738,1921,1743,1916,5
+2021-09-04,FIFA World Cup qualification,played,Norway,NOR,Latvia,,FALSE,2,0,win,Riga,Latvia,FALSE,1743,1290,1750,1283,7
+2021-09-07,FIFA World Cup qualification,played,Norway,NOR,Gibraltar,,TRUE,5,1,win,Oslo,Norway,FALSE,1750,1075,1751,1074,1
+2021-10-08,FIFA World Cup qualification,played,Norway,NOR,Turkey,TUR,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1751,1707,1754,1704,3
+2021-10-11,FIFA World Cup qualification,played,Norway,NOR,Montenegro,,TRUE,2,0,win,Oslo,Norway,FALSE,1754,1522,1762,1514,8
+2021-11-13,FIFA World Cup qualification,played,Norway,NOR,Latvia,,TRUE,0,0,draw,Oslo,Norway,FALSE,1762,1290,1743,1309,-19
+2021-11-16,FIFA World Cup qualification,played,Norway,NOR,Netherlands,NLD,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1743,1919,1733,1929,-10
+2022-03-25,Friendly,played,Norway,NOR,Slovakia,SVK,TRUE,2,0,win,Oslo,Norway,FALSE,1733,1667,1741,1659,8
+2022-03-29,Friendly,played,Norway,NOR,Armenia,,TRUE,9,0,win,Oslo,Norway,FALSE,1741,1506,1747,1500,6
+2022-06-02,UEFA Nations League,played,Norway,NOR,Serbia,SRB,FALSE,1,0,win,Belgrade,Serbia,FALSE,1747,1845,1777,1815,30
+2022-06-05,UEFA Nations League,played,Norway,NOR,Sweden,SWE,FALSE,2,1,win,Stockholm,Sweden,FALSE,1777,1832,1805,1804,28
+2022-06-09,UEFA Nations League,played,Norway,NOR,Slovenia,SVN,TRUE,0,0,draw,Oslo,Norway,FALSE,1805,1593,1791,1607,-14
+2022-06-12,UEFA Nations League,played,Norway,NOR,Sweden,SWE,TRUE,3,2,win,Oslo,Norway,FALSE,1791,1780,1805,1766,14
+2022-09-24,UEFA Nations League,played,Norway,NOR,Slovenia,SVN,FALSE,1,2,loss,Ljubljana,Slovenia,FALSE,1805,1615,1780,1640,-25
+2022-09-27,UEFA Nations League,played,Norway,NOR,Serbia,SRB,TRUE,0,2,loss,Oslo,Norway,FALSE,1780,1860,1748,1892,-32
+2022-11-17,Friendly,played,Norway,NOR,Republic of Ireland,IRL,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+2022-11-20,Friendly,played,Norway,NOR,Finland,,TRUE,1,1,draw,Oslo,Norway,FALSE,1759,1684,1754,1689,-5
+2023-03-25,UEFA Euro qualification,played,Norway,NOR,Spain,ESP,FALSE,0,3,loss,Málaga,Spain,FALSE,1754,1996,1745,2005,-9
+2023-03-28,UEFA Euro qualification,played,Norway,NOR,Georgia,,FALSE,1,1,draw,Batumi,Georgia,FALSE,1745,1652,1745,1652,0
+2023-06-17,UEFA Euro qualification,played,Norway,NOR,Scotland,SCO,TRUE,1,2,loss,Oslo,Norway,FALSE,1745,1797,1722,1820,-23
+2023-06-20,UEFA Euro qualification,played,Norway,NOR,Cyprus,,TRUE,3,1,win,Oslo,Norway,FALSE,1722,1346,1726,1342,4
+2023-09-07,Friendly,played,Norway,NOR,Jordan,,TRUE,6,0,win,Oslo,Norway,FALSE,1726,1598,1735,1589,9
+2023-09-12,UEFA Euro qualification,played,Norway,NOR,Georgia,,TRUE,2,1,win,Oslo,Norway,FALSE,1735,1634,1745,1624,10
+2023-10-12,UEFA Euro qualification,played,Norway,NOR,Cyprus,,FALSE,4,0,win,Larnaca,Cyprus,FALSE,1745,1334,1756,1323,11
+2023-10-15,UEFA Euro qualification,played,Norway,NOR,Spain,ESP,TRUE,0,1,loss,Oslo,Norway,FALSE,1756,2017,1745,2028,-11
+2023-11-16,Friendly,played,Norway,NOR,Faroe Islands,,TRUE,2,0,win,Oslo,Norway,FALSE,1745,1247,1746,1246,1
+2023-11-19,UEFA Euro qualification,played,Norway,NOR,Scotland,SCO,FALSE,3,3,draw,Glasgow,Scotland,FALSE,1746,1809,1755,1800,9
+2024-03-22,Friendly,played,Norway,NOR,Czechia,CZE,TRUE,1,2,loss,Oslo,Norway,FALSE,1755,1756,1742,1769,-13
+2024-03-26,Friendly,played,Norway,NOR,Slovakia,SVK,TRUE,1,1,draw,Oslo,Norway,FALSE,1742,1649,1737,1654,-5
+2024-06-05,Friendly,played,Norway,NOR,Kosovo,,TRUE,3,0,win,Oslo,Norway,FALSE,1737,1510,1742,1505,5
+2024-06-08,Friendly,played,Norway,NOR,Denmark,DNK,FALSE,1,3,loss,Brondbyvester,Denmark,FALSE,1742,1826,1734,1834,-8
+2024-09-06,UEFA Nations League,played,Norway,NOR,Kazakhstan,,FALSE,0,0,draw,Almaty,Kazakhstan,FALSE,1734,1453,1724,1463,-10
+2024-09-09,UEFA Nations League,played,Norway,NOR,Austria,AUT,TRUE,2,1,win,Oslo,Norway,FALSE,1724,1876,1747,1853,23
+2024-10-10,UEFA Nations League,played,Norway,NOR,Slovenia,SVN,TRUE,3,0,win,Oslo,Norway,FALSE,1747,1777,1775,1749,28
+2024-10-13,UEFA Nations League,played,Norway,NOR,Austria,AUT,FALSE,1,5,loss,Linz,Austria,FALSE,1775,1857,1756,1876,-19
+2024-11-14,UEFA Nations League,played,Norway,NOR,Slovenia,SVN,FALSE,4,1,win,Ljubljana,Slovenia,FALSE,1756,1759,1801,1714,45
+2024-11-17,UEFA Nations League,played,Norway,NOR,Kazakhstan,,TRUE,5,0,win,Oslo,Norway,FALSE,1801,1435,1806,1430,5
+2025-03-22,FIFA World Cup qualification,played,Norway,NOR,Moldova,,FALSE,5,0,win,Chișinău,Moldova,FALSE,1806,1355,1815,1346,9
+2025-03-25,FIFA World Cup qualification,played,Norway,NOR,Israel,ISR,FALSE,4,2,win,Debrecen,Hungary,TRUE,1815,1610,1829,1596,14
+2025-06-06,FIFA World Cup qualification,played,Norway,NOR,Italy,ITA,TRUE,3,0,win,Oslo,Norway,FALSE,1829,1914,1862,1881,33
+2025-06-09,FIFA World Cup qualification,played,Norway,NOR,Estonia,,FALSE,1,0,win,Tallinn,Estonia,FALSE,1862,1370,1866,1366,4
+2025-09-04,Friendly,played,Norway,NOR,Finland,,TRUE,1,0,win,Oslo,Norway,FALSE,1866,1556,1868,1554,2
+2025-09-09,FIFA World Cup qualification,played,Norway,NOR,Moldova,,TRUE,11,1,win,Oslo,Norway,FALSE,1868,1302,1870,1300,2
+2025-10-11,FIFA World Cup qualification,played,Norway,NOR,Israel,ISR,TRUE,5,0,win,Oslo,Norway,FALSE,1870,1638,1880,1628,10
+2025-10-14,Friendly,played,Norway,NOR,New Zealand,NZL,TRUE,1,1,draw,Oslo,Norway,FALSE,1880,1583,1872,1591,-8
+2025-11-13,FIFA World Cup qualification,played,Norway,NOR,Estonia,,TRUE,4,1,win,Oslo,Norway,FALSE,1872,1343,1874,1341,2
+2025-11-16,FIFA World Cup qualification,played,Norway,NOR,Italy,ITA,FALSE,4,1,win,Milan,Italy,FALSE,1874,1907,1922,1859,48
+2026-03-27,Friendly,played,Norway,NOR,Netherlands,NLD,FALSE,1,2,loss,Amsterdam,Netherlands,FALSE,1922,1959,1916,1965,-6
+2026-03-31,Friendly,played,Norway,NOR,Switzerland,CHE,TRUE,0,0,draw,Oslo,Norway,FALSE,1916,1885,1912,1889,-4

@@ -1,0 +1,33 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1966-07-11,Group Stage,played,England,Uruguay,ENG,URY,1991,1848,London,England,FALSE
+2,1966-07-12,Group Stage,played,Brazil,Bulgaria,BRA,BGR,2010,1804,Liverpool,England,TRUE
+3,1966-07-12,Group Stage,played,Germany,Switzerland,DEU,CHE,1923,1889,Sheffield,England,TRUE
+4,1966-07-12,Group Stage,played,North Korea,Soviet Union,PRK,SUN,1778,2003,Middlesbrough,England,TRUE
+5,1966-07-13,Group Stage,played,Argentina,Spain,ARG,ESP,1973,1895,Birmingham,England,TRUE
+6,1966-07-13,Group Stage,played,Chile,Italy,CHL,ITA,1752,1979,Sunderland,England,TRUE
+7,1966-07-13,Group Stage,played,France,Mexico,FRA,MEX,1759,1868,London,England,TRUE
+8,1966-07-13,Group Stage,played,Hungary,Portugal,HUN,PRT,1954,1833,Manchester,England,TRUE
+9,1966-07-15,Group Stage,played,Brazil,Hungary,BRA,HUN,2031,1894,Liverpool,England,TRUE
+10,1966-07-15,Group Stage,played,Chile,North Korea,CHL,PRK,1733,1755,Middlesbrough,England,TRUE
+11,1966-07-15,Group Stage,played,France,Uruguay,FRA,URY,1768,1866,London,England,TRUE
+12,1966-07-15,Group Stage,played,Spain,Switzerland,ESP,CHE,1872,1639,Sheffield,England,TRUE
+13,1966-07-16,Group Stage,played,Argentina,Germany,ARG,DEU,2113,1923,Birmingham,England,TRUE
+14,1966-07-16,Group Stage,played,Bulgaria,Portugal,BGR,PRT,1783,1893,Manchester,England,TRUE
+15,1966-07-16,Group Stage,played,England,Mexico,ENG,MEX,1973,1859,London,England,FALSE
+16,1966-07-16,Group Stage,played,Italy,Soviet Union,ITA,SUN,1998,2026,Sunderland,England,TRUE
+17,1966-07-19,Group Stage,played,Argentina,Switzerland,ARG,CHE,1994,1627,Sheffield,England,TRUE
+18,1966-07-19,Group Stage,played,Brazil,Portugal,BRA,PRT,1969,1929,Liverpool,England,TRUE
+19,1966-07-19,Group Stage,played,Italy,North Korea,ITA,PRK,1970,1753,Middlesbrough,England,TRUE
+20,1966-07-19,Group Stage,played,Mexico,Uruguay,MEX,URY,1839,1888,London,England,TRUE
+21,1966-07-20,Group Stage,played,Bulgaria,Hungary,BGR,HUN,1747,1956,Manchester,England,TRUE
+22,1966-07-20,Group Stage,played,Chile,Soviet Union,CHL,SUN,1735,2054,Sunderland,England,TRUE
+23,1966-07-20,Group Stage,played,England,France,ENG,FRA,1993,1746,London,England,FALSE
+24,1966-07-20,Group Stage,played,Germany,Spain,DEU,ESP,1923,2165,Birmingham,England,TRUE
+25,1966-07-23,Quarter-final,played,England,Argentina,ENG,ARG,2004,2004,London,England,FALSE
+26,1966-07-23,Quarter-final,played,Germany,Uruguay,DEU,URY,1923,1892,Sheffield,England,TRUE
+27,1966-07-23,Quarter-final,played,Hungary,Soviet Union,HUN,SUN,1977,2062,Sunderland,England,TRUE
+28,1966-07-23,Quarter-final,played,North Korea,Portugal,PRK,PRT,1800,1979,Liverpool,England,TRUE
+29,1966-07-25,Semi-final,played,Germany,Soviet Union,DEU,SUN,1923,1922,Liverpool,England,TRUE
+30,1966-07-26,Semi-final,played,England,Portugal,ENG,PRT,2026,2003,London,England,FALSE
+31,1966-07-28,Third Place,played,Portugal,Soviet Union,PRT,SUN,1983,2051,London,England,TRUE
+32,1966-07-30,Final,played,England,Germany,ENG,DEU,2020,1923,London,England,FALSE

@@ -1,0 +1,755 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1920-08-28,Olympic Games,played,Egypt,EGY,Italy,ITA,FALSE,1,2,loss,Ghent,Belgium,TRUE,1700,1626,1664,1662,-36
+1920-09-03,Friendly,played,Egypt,EGY,Yugoslavia,YUG,TRUE,4,2,win,Antwerp,Belgium,TRUE,1664,1576,1675,1565,11
+1924-05-27,Friendly,played,Egypt,EGY,Lithuania,,TRUE,10,0,win,Vincennes,France,TRUE,1675,1084,1677,1082,2
+1924-05-29,Olympic Games,played,Egypt,EGY,Hungary,HUN,TRUE,3,0,win,Paris,France,TRUE,1677,1918,1761,1834,84
+1924-06-01,Olympic Games,played,Egypt,EGY,Sweden,SWE,FALSE,0,5,loss,Paris,France,TRUE,1761,1787,1705,1843,-56
+1924-06-22,Friendly,played,Egypt,EGY,Austria,AUT,FALSE,1,3,loss,Vienna,Austria,FALSE,1705,1835,1699,1841,-6
+1924-06-29,Friendly,played,Egypt,EGY,Sweden,SWE,FALSE,0,5,loss,Stockholm,Sweden,FALSE,1699,1857,1692,1864,-7
+1928-05-28,Olympic Games,played,Egypt,EGY,Turkey,TUR,TRUE,7,1,win,Amsterdam,Netherlands,TRUE,1692,1459,1718,1433,26
+1928-06-04,Olympic Games,played,Egypt,EGY,Portugal,PRT,TRUE,2,1,win,Amsterdam,Netherlands,TRUE,1718,1749,1751,1716,33
+1928-06-06,Olympic Games,played,Egypt,EGY,Argentina,ARG,FALSE,0,6,loss,Amsterdam,Netherlands,TRUE,1751,2036,1730,2057,-21
+1928-06-09,Olympic Games,played,Egypt,EGY,Italy,ITA,FALSE,3,11,loss,Amsterdam,Netherlands,TRUE,1730,1899,1691,1938,-39
+1928-06-14,Friendly,played,Egypt,EGY,Netherlands,NLD,FALSE,2,1,win,Rotterdam,Netherlands,FALSE,1691,1742,1705,1728,14
+1928-06-28,Friendly,played,Egypt,EGY,Luxembourg,,FALSE,1,1,draw,Esch-sur-Alzette,Luxembourg,FALSE,1705,1279,1698,1286,-7
+1932-02-19,Friendly,played,Egypt,EGY,Hungary,HUN,TRUE,0,0,draw,Cairo,Egypt,FALSE,1698,1849,1699,1848,1
+1934-03-16,FIFA World Cup qualification,played,Egypt,EGY,Israel,ISR,TRUE,7,1,win,Cairo,Egypt,FALSE,,,,,
+1934-04-06,FIFA World Cup qualification,played,Egypt,EGY,Israel,ISR,FALSE,4,1,win,Tel Aviv,Mandatory Palestine,FALSE,,,,,
+1934-05-27,FIFA World Cup,played,Egypt,EGY,Hungary,HUN,TRUE,2,4,loss,Naples,Italy,TRUE,1707,1829,1677,1859,-30
+1936-06-19,Friendly,played,Egypt,EGY,Greece,GRC,TRUE,3,1,win,Cairo,Egypt,FALSE,1677,1276,1679,1274,2
+1948-12-24,Friendly,played,Egypt,EGY,Norway,NOR,TRUE,1,1,draw,Cairo,Egypt,FALSE,1610,1604,1607,1607,-3
+1949-05-12,Friendly,played,Egypt,EGY,Turkey,TUR,TRUE,2,3,loss,Athens,Greece,TRUE,,,,,
+1949-05-18,Friendly,played,Egypt,EGY,Greece,GRC,FALSE,3,1,win,Athens,Greece,FALSE,1579,1308,1595,1292,16
+1950-02-17,Friendly,played,Egypt,EGY,Greece,GRC,TRUE,2,0,win,Cairo,Egypt,FALSE,1595,1329,1602,1322,7
+1951-11-25,Friendly,played,Egypt,EGY,Greece,GRC,FALSE,0,1,loss,Athens,Greece,FALSE,1551,1424,1529,1446,-22
+1952-08-10,Friendly,played,Egypt,EGY,Netherlands,NLD,FALSE,1,1,draw,Amsterdam,Netherlands,FALSE,1529,1604,1534,1599,5
+1952-11-02,Friendly,played,Egypt,EGY,Yugoslavia,YUG,FALSE,0,5,loss,Belgrade,Yugoslavia,FALSE,1534,1927,1532,1929,-2
+1953-01-16,Friendly,played,Egypt,EGY,Yugoslavia,YUG,TRUE,1,3,loss,Cairo,Egypt,FALSE,1532,1921,1527,1926,-5
+1953-11-13,FIFA World Cup qualification,played,Egypt,EGY,Italy,ITA,TRUE,1,2,loss,Cairo,Egypt,FALSE,1583,1842,1572,1853,-11
+1954-01-24,FIFA World Cup qualification,played,Egypt,EGY,Italy,ITA,FALSE,1,5,loss,Milan,Italy,FALSE,1572,1871,1565,1878,-7
+1954-02-12,Friendly,played,Egypt,EGY,Hungary,HUN,TRUE,0,3,loss,Cairo,Egypt,FALSE,1565,2127,1563,2129,-2
+1954-11-07,Friendly,played,Egypt,EGY,Greece,GRC,FALSE,1,1,draw,Athens,Greece,FALSE,1561,1495,1563,1493,2
+1955-01-07,Friendly,played,Egypt,EGY,Bulgaria,BGR,TRUE,1,0,win,Cairo,Egypt,FALSE,1574,1495,1579,1490,5
+1955-05-22,Friendly,played,Egypt,EGY,Bulgaria,BGR,FALSE,1,2,loss,Sofia,Bulgaria,FALSE,1547,1497,1538,1506,-9
+1955-12-23,Friendly,played,Egypt,EGY,Portugal,PRT,TRUE,0,4,loss,Cairo,Egypt,FALSE,1554,1644,1535,1663,-19
+1957-02-10,African Cup of Nations,played,Egypt,EGY,Sudan,,FALSE,2,1,win,Khartoum,Sudan,FALSE,1593,1690,1631,1652,38
+1957-02-16,African Cup of Nations,played,Egypt,EGY,Ethiopia,,TRUE,4,0,win,Khartoum,Sudan,TRUE,,,,,
+1957-02-17,Friendly,played,Egypt,EGY,Sudan,,FALSE,4,3,win,Khartoum,Sudan,FALSE,1657,1652,1670,1639,13
+1957-12-13,Friendly,played,Egypt,EGY,Czechoslovakia,CSK,TRUE,1,2,loss,Cairo,Egypt,FALSE,1622,1879,1616,1885,-6
+1958-12-28,Friendly,played,Egypt,EGY,Germany,DEU,TRUE,2,1,win,Cairo,United Arab Republic,TRUE,,,,,
+1959-05-22,African Cup of Nations,played,Egypt,EGY,Ethiopia,,TRUE,4,0,win,Cairo,United Arab Republic,TRUE,1630,1434,1644,1420,14
+1959-05-29,African Cup of Nations,played,Egypt,EGY,Sudan,,TRUE,2,1,win,Cairo,United Arab Republic,TRUE,1644,1623,1661,1606,17
+1960-01-08,Friendly,played,Egypt,EGY,Yugoslavia,YUG,TRUE,0,1,loss,Cairo,United Arab Republic,TRUE,1735,1912,1727,1920,-8
+1960-04-29,Friendly,played,Egypt,EGY,Brazil,BRA,TRUE,0,5,loss,Cairo,United Arab Republic,TRUE,1766,2012,1754,2024,-12
+1960-05-01,Friendly,played,Egypt,EGY,Brazil,BRA,TRUE,1,3,loss,Alexandria,United Arab Republic,TRUE,1754,2024,1746,2032,-8
+1960-05-06,Friendly,played,Egypt,EGY,Brazil,BRA,TRUE,0,3,loss,Cairo,United Arab Republic,TRUE,1746,2032,1737,2041,-9
+1960-07-03,Friendly,played,Egypt,EGY,Ghana,GHA,FALSE,2,2,draw,Accra,Ghana,FALSE,,,,,
+1961-02-17,Friendly,played,Egypt,EGY,Hungary,HUN,TRUE,0,2,loss,Cairo,Egypt,FALSE,1652,1963,1645,1970,-7
+1962-01-05,Friendly,played,Egypt,EGY,Austria,AUT,TRUE,1,0,win,Cairo,Egypt,FALSE,1695,1912,1708,1899,13
+1962-01-18,African Cup of Nations,played,Egypt,EGY,Uganda,,TRUE,2,1,win,Addis Ababa,Ethiopia,TRUE,1708,1412,1716,1404,8
+1962-01-21,African Cup of Nations,played,Egypt,EGY,Ethiopia,,FALSE,2,4,loss,Addis Ababa,Ethiopia,FALSE,1716,1476,1664,1528,-52
+1963-04-26,Friendly,played,Egypt,EGY,Indonesia,IDN,FALSE,3,1,win,Jakarta,Indonesia,FALSE,1667,1481,1684,1464,17
+1963-04-27,Friendly,played,Egypt,EGY,Indonesia,IDN,FALSE,2,2,draw,Jakarta,Indonesia,FALSE,1684,1464,1679,1469,-5
+1963-04-30,Friendly,played,Egypt,EGY,China PR,,TRUE,2,0,win,Jakarta,Indonesia,TRUE,,,,,
+1963-05-17,Friendly,played,Egypt,EGY,Brazil,BRA,TRUE,0,1,loss,Cairo,Egypt,FALSE,1693,1935,1687,1941,-6
+1963-07-07,Friendly,played,Egypt,EGY,Algeria,DZA,FALSE,2,2,draw,Oran,Algeria,FALSE,1692,1762,1697,1757,5
+1963-11-12,Friendly,played,Egypt,EGY,North Vietnam,,TRUE,4,1,win,Jakarta,Indonesia,TRUE,,,,,
+1963-11-15,Friendly,played,Egypt,EGY,Laos,,TRUE,15,0,win,Jakarta,Indonesia,TRUE,1700,959,1701,958,1
+1963-11-18,Friendly,played,Egypt,EGY,Saudi Arabia,SAU,TRUE,7,0,win,Jakarta,Indonesia,TRUE,1701,1301,1707,1295,6
+1963-11-22,Friendly,played,Egypt,EGY,North Korea,PRK,TRUE,1,1,draw,Jakarta,Indonesia,TRUE,1707,1729,1708,1728,1
+1963-11-24,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,TRUE,6,3,win,Kumasi,Ghana,TRUE,1708,1635,1743,1600,35
+1963-11-26,African Cup of Nations,played,Egypt,EGY,Sudan,,TRUE,2,2,draw,Kumasi,Ghana,TRUE,1743,1605,1734,1614,-9
+1963-11-30,African Cup of Nations,played,Egypt,EGY,Ethiopia,,TRUE,3,0,win,Accra,Ghana,TRUE,1734,1603,1762,1575,28
+1964-03-20,Friendly,played,Egypt,EGY,Algeria,DZA,TRUE,1,0,win,Cairo,Egypt,FALSE,1759,1773,1767,1765,8
+1966-02-25,Friendly,played,Egypt,EGY,Bulgaria,BGR,TRUE,2,2,draw,Cairo,Egypt,FALSE,1811,1789,1808,1792,-3
+1966-09-04,Friendly,played,Egypt,EGY,German DR,DDR,FALSE,0,6,loss,Karl-Marx-Stadt,German DR,FALSE,1808,1737,1789,1756,-19
+1966-12-09,African Cup of Nations qualification,played,Egypt,EGY,Libya,,FALSE,2,2,draw,Tripoli,Libya,FALSE,1789,1473,1778,1484,-11
+1967-01-17,Friendly,played,Egypt,EGY,German DR,DDR,TRUE,1,2,loss,Cairo,United Arab Republic,TRUE,1778,1787,1765,1800,-13
+1967-01-20,Friendly,played,Egypt,EGY,German DR,DDR,TRUE,0,3,loss,Cairo,United Arab Republic,TRUE,1765,1800,1744,1821,-21
+1967-01-24,Friendly,played,Egypt,EGY,German DR,DDR,TRUE,2,2,draw,Alexandria,United Arab Republic,TRUE,1744,1821,1743,1822,-1
+1967-03-24,African Cup of Nations qualification,played,Egypt,EGY,Libya,,TRUE,3,2,win,Cairo,Egypt,FALSE,1743,1460,1747,1456,4
+1967-06-04,African Cup of Nations qualification,played,Egypt,EGY,Uganda,,FALSE,1,0,win,Kampala,Uganda,FALSE,1747,1357,1753,1351,6
+1969-07-09,Friendly,played,Egypt,EGY,German DR,DDR,FALSE,0,7,loss,Rostock,German DR,FALSE,1733,1859,1723,1869,-10
+1969-09-19,African Cup of Nations qualification,played,Egypt,EGY,Algeria,DZA,TRUE,1,0,win,Cairo,Egypt,FALSE,1730,1638,1740,1628,10
+1969-09-28,African Cup of Nations qualification,played,Egypt,EGY,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1740,1628,1739,1629,-1
+1969-11-02,Friendly,played,Egypt,EGY,Sudan,,TRUE,3,1,win,Cairo,Egypt,FALSE,1739,1620,1746,1613,7
+1969-12-19,Friendly,played,Egypt,EGY,German DR,DDR,TRUE,1,3,loss,Cairo,Egypt,FALSE,1762,1875,1748,1889,-14
+1970-02-07,African Cup of Nations,played,Egypt,EGY,Guinea,,TRUE,4,1,win,Wad Madani,Sudan,TRUE,1748,1644,1779,1613,31
+1970-02-09,African Cup of Nations,played,Egypt,EGY,Ghana,GHA,TRUE,1,1,draw,Wad Madani,Sudan,TRUE,1779,1689,1773,1695,-6
+1970-02-11,African Cup of Nations,played,Egypt,EGY,DR Congo,,FALSE,1,0,win,Wad Madani,Sudan,TRUE,1773,1722,1794,1701,21
+1970-02-14,African Cup of Nations,played,Egypt,EGY,Sudan,,FALSE,1,2,loss,Khartoum,Sudan,FALSE,1794,1627,1764,1657,-30
+1970-02-16,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,TRUE,3,1,win,Khartoum,Sudan,TRUE,1764,1712,1796,1680,32
+1970-12-27,African Cup of Nations qualification,played,Egypt,EGY,Libya,,FALSE,1,0,win,Tripoli,Libya,FALSE,1772,1471,1782,1461,10
+1971-01-03,African Cup of Nations qualification,played,Egypt,EGY,Libya,,TRUE,2,1,win,Cairo,Egypt,FALSE,1782,1461,1785,1458,3
+1971-07-11,Friendly,played,Egypt,EGY,Syria,,TRUE,1,0,win,Benghazi,Libya,TRUE,1731,1415,1735,1411,4
+1971-07-13,Friendly,played,Egypt,EGY,Libya,,FALSE,2,0,win,Benghazi,Libya,FALSE,1735,1467,1747,1455,12
+1971-07-18,Friendly,played,Egypt,EGY,Libya,,FALSE,0,2,loss,Tripoli,Libya,FALSE,1747,1440,1712,1475,-35
+1971-10-13,African Cup of Nations qualification,played,Egypt,EGY,Morocco,MAR,FALSE,0,3,loss,Casablanca,Morocco,FALSE,,,,,
+1971-10-27,African Cup of Nations qualification,played,Egypt,EGY,Morocco,MAR,TRUE,3,2,win,Cairo,Egypt,FALSE,,,,,
+1972-01-01,Palestine Cup,played,Egypt,EGY,Iraq,IRQ,FALSE,0,0,draw,Baghdad,Iraq,FALSE,1690,1605,1691,1604,1
+1972-01-05,Palestine Cup,played,Egypt,EGY,Kuwait,KWT,TRUE,2,0,win,Baghdad,Iraq,TRUE,1691,1374,1699,1366,8
+1972-01-07,Palestine Cup,played,Egypt,EGY,Libya,,TRUE,1,1,draw,Baghdad,Iraq,TRUE,1699,1439,1686,1452,-13
+1972-01-12,Palestine Cup,played,Egypt,EGY,Syria,,TRUE,4,2,win,Baghdad,Iraq,TRUE,1686,1432,1697,1421,11
+1972-01-14,Palestine Cup,played,Egypt,EGY,Iraq,IRQ,FALSE,3,1,win,Baghdad,Iraq,FALSE,1697,1641,1731,1607,34
+1972-12-08,FIFA World Cup qualification,played,Egypt,EGY,Tunisia,TUN,TRUE,2,1,win,Cairo,Egypt,FALSE,1719,1619,1729,1609,10
+1972-12-17,FIFA World Cup qualification,played,Egypt,EGY,Tunisia,TUN,FALSE,0,2,loss,Tunis,Tunisia,FALSE,1729,1609,1697,1641,-32
+1973-01-08,All-African Games,played,Egypt,EGY,Guinea,,FALSE,1,4,loss,Ibadan,Nigeria,TRUE,1697,1634,1656,1675,-41
+1973-01-10,All-African Games,played,Egypt,EGY,Congo,,TRUE,3,1,win,Ibadan,Nigeria,TRUE,1656,1658,1686,1628,30
+1973-01-12,All-African Games,played,Egypt,EGY,Burkina Faso,,TRUE,4,2,win,Ibadan,Nigeria,TRUE,1686,1374,1695,1365,9
+1973-01-14,All-African Games,played,Egypt,EGY,Nigeria,NGA,FALSE,2,4,loss,Lagos,Nigeria,FALSE,1695,1636,1669,1662,-26
+1973-01-16,All-African Games,played,Egypt,EGY,Ghana,GHA,TRUE,2,1,win,Lagos,Nigeria,TRUE,1669,1623,1686,1606,17
+1973-07-16,Friendly,played,Egypt,EGY,Tanzania,,TRUE,10,1,win,Tunis,Tunisia,TRUE,1686,1405,1698,1393,12
+1973-08-12,Palestine Cup,played,Egypt,EGY,Yemen DPR,,TRUE,6,1,win,Tripoli,Libya,TRUE,,,,,
+1973-08-15,Palestine Cup,played,Egypt,EGY,Tunisia,TUN,TRUE,0,1,loss,Tripoli,Libya,TRUE,1703,1630,1679,1654,-24
+1973-08-16,Palestine Cup,played,Egypt,EGY,Palestine,,TRUE,2,0,win,Tripoli,Libya,TRUE,,,,,
+1973-08-20,Palestine Cup,played,Egypt,EGY,Syria,,TRUE,0,2,loss,Tripoli,Libya,TRUE,1683,1453,1636,1500,-47
+1974-03-01,African Cup of Nations,played,Egypt,EGY,Uganda,,TRUE,2,1,win,Cairo,Egypt,FALSE,1636,1550,1649,1537,13
+1974-03-04,African Cup of Nations,played,Egypt,EGY,Zambia,,TRUE,3,1,win,Cairo,Egypt,FALSE,1649,1521,1665,1505,16
+1974-03-06,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,TRUE,2,0,win,Cairo,Egypt,FALSE,1665,1630,1689,1606,24
+1974-03-09,African Cup of Nations,played,Egypt,EGY,DR Congo,,TRUE,2,3,loss,Cairo,Egypt,FALSE,,,,,
+1974-03-11,African Cup of Nations,played,Egypt,EGY,Congo,,TRUE,4,0,win,Cairo,Egypt,FALSE,1661,1576,1685,1552,24
+1975-03-24,African Cup of Nations qualification,played,Egypt,EGY,Burundi,,FALSE,3,0,win,Bujumbura,Burundi,FALSE,,,,,
+1975-04-19,African Cup of Nations qualification,played,Egypt,EGY,Burundi,,TRUE,2,0,win,Cairo,Egypt,FALSE,1679,1259,1682,1256,3
+1975-07-12,Friendly,played,Egypt,EGY,DR Congo,,TRUE,3,2,win,Tehran,Iran,TRUE,,,,,
+1975-12-19,Palestine Cup,played,Egypt,EGY,Yemen DPR,,TRUE,5,0,win,Tunis,Tunisia,TRUE,,,,,
+1975-12-23,Palestine Cup,played,Egypt,EGY,Saudi Arabia,SAU,TRUE,2,1,win,Tunis,Tunisia,TRUE,1665,1332,1670,1327,5
+1975-12-26,Palestine Cup,played,Egypt,EGY,Sudan,,TRUE,3,1,win,Tunis,Tunisia,TRUE,1670,1552,1690,1532,20
+1975-12-28,Palestine Cup,played,Egypt,EGY,Iraq,IRQ,TRUE,1,0,win,Tunis,Tunisia,TRUE,1690,1594,1705,1579,15
+1976-02-29,African Cup of Nations,played,Egypt,EGY,Guinea,,TRUE,1,1,draw,Addis Ababa,Ethiopia,TRUE,1705,1642,1701,1646,-4
+1976-03-03,African Cup of Nations,played,Egypt,EGY,Uganda,,TRUE,2,1,win,Addis Ababa,Ethiopia,TRUE,1701,1462,1711,1452,10
+1976-03-05,African Cup of Nations,played,Egypt,EGY,Ethiopia,,FALSE,1,1,draw,Addis Ababa,Ethiopia,FALSE,1711,1431,1699,1443,-12
+1976-03-09,African Cup of Nations,played,Egypt,EGY,Morocco,MAR,TRUE,1,2,loss,Addis Ababa,Ethiopia,TRUE,1699,1771,1679,1791,-20
+1976-03-11,African Cup of Nations,played,Egypt,EGY,Guinea,,TRUE,2,4,loss,Addis Ababa,Ethiopia,TRUE,1679,1674,1641,1712,-38
+1976-03-14,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,TRUE,2,3,loss,Addis Ababa,Ethiopia,TRUE,1641,1644,1616,1669,-25
+1976-10-29,FIFA World Cup qualification,played,Egypt,EGY,Ethiopia,,TRUE,3,0,win,Cairo,Egypt,FALSE,1616,1448,1628,1436,12
+1976-11-14,FIFA World Cup qualification,played,Egypt,EGY,Ethiopia,,FALSE,2,1,win,Addis Ababa,Ethiopia,FALSE,1628,1436,1643,1421,15
+1977-02-06,FIFA World Cup qualification,played,Egypt,EGY,Kenya,,FALSE,0,0,draw,Nairobi,Kenya,FALSE,1643,1386,1635,1394,-8
+1977-02-27,FIFA World Cup qualification,played,Egypt,EGY,Kenya,,TRUE,1,0,win,Cairo,Egypt,FALSE,1635,1379,1640,1374,5
+1977-03-13,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,TRUE,2,2,draw,Cairo,Egypt,FALSE,1640,1605,1633,1612,-7
+1977-04-27,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,FALSE,2,3,loss,Tunis,Tunisia,FALSE,1633,1602,1617,1618,-16
+1977-07-15,FIFA World Cup qualification,played,Egypt,EGY,Zambia,,TRUE,2,0,win,Cairo,Egypt,FALSE,1617,1560,1634,1543,17
+1977-07-31,FIFA World Cup qualification,played,Egypt,EGY,Zambia,,FALSE,0,0,draw,Lusaka,Zambia,FALSE,1634,1543,1635,1542,1
+1977-10-08,FIFA World Cup qualification,played,Egypt,EGY,Nigeria,NGA,FALSE,0,4,loss,Lagos,Nigeria,FALSE,1635,1710,1615,1730,-20
+1977-10-21,FIFA World Cup qualification,played,Egypt,EGY,Nigeria,NGA,TRUE,3,1,win,Cairo,Egypt,FALSE,1615,1730,1646,1699,31
+1977-11-25,FIFA World Cup qualification,played,Egypt,EGY,Tunisia,TUN,TRUE,3,2,win,Cairo,Egypt,FALSE,1671,1693,1687,1677,16
+1977-12-11,FIFA World Cup qualification,played,Egypt,EGY,Tunisia,TUN,FALSE,1,4,loss,Tunis,Tunisia,FALSE,1687,1677,1661,1703,-26
+1978-07-13,All-African Games,played,Egypt,EGY,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1661,1500,1658,1503,-3
+1978-07-18,All-African Games,played,Egypt,EGY,Malawi,,TRUE,4,1,win,Algiers,Algeria,TRUE,1658,1450,1674,1434,16
+1978-07-22,All-African Games,played,Egypt,EGY,Libya,,TRUE,1,0,win,Algiers,Algeria,TRUE,1674,1412,1681,1405,7
+1979-06-30,African Cup of Nations qualification,played,Egypt,EGY,Kenya,,FALSE,1,3,loss,Nairobi,Kenya,FALSE,1681,1359,1634,1406,-47
+1979-07-13,African Cup of Nations qualification,played,Egypt,EGY,Kenya,,TRUE,3,0,win,Cairo,Egypt,FALSE,1634,1402,1643,1393,9
+1980-03-08,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,TRUE,2,1,win,Lagos,Nigeria,TRUE,1639,1535,1657,1517,18
+1980-03-12,African Cup of Nations,played,Egypt,EGY,Tanzania,,TRUE,2,1,win,Lagos,Nigeria,TRUE,1657,1461,1669,1449,12
+1980-03-15,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,FALSE,0,1,loss,Lagos,Nigeria,FALSE,1669,1661,1650,1680,-19
+1980-03-19,African Cup of Nations,played,Egypt,EGY,Algeria,DZA,FALSE,2,2,draw,Ibadan,Nigeria,TRUE,1650,1696,1653,1693,3
+1980-03-21,African Cup of Nations,played,Egypt,EGY,Morocco,MAR,TRUE,0,2,loss,Lagos,Nigeria,TRUE,1653,1562,1606,1609,-47
+1981-04-04,African Cup of Nations qualification,played,Egypt,EGY,Kenya,,FALSE,5,3,win,Nairobi,Kenya,FALSE,1609,1404,1630,1383,21
+1981-04-18,African Cup of Nations qualification,played,Egypt,EGY,Kenya,,TRUE,2,0,win,Cairo,Egypt,FALSE,1630,1386,1637,1379,7
+1981-04-26,FIFA World Cup qualification,played,Egypt,EGY,Morocco,MAR,FALSE,0,1,loss,Casablanca,Morocco,FALSE,1637,1669,1624,1682,-13
+1981-05-08,FIFA World Cup qualification,played,Egypt,EGY,Morocco,MAR,TRUE,0,0,draw,Cairo,Egypt,FALSE,1624,1682,1622,1684,-2
+1982-10-01,Friendly,played,Egypt,EGY,Zambia,,TRUE,3,5,loss,Cairo,Egypt,FALSE,1622,1631,1603,1650,-19
+1982-10-03,Friendly,played,Egypt,EGY,Zambia,,TRUE,0,0,draw,Cairo,Egypt,FALSE,1603,1650,1601,1652,-2
+1983-01-21,Friendly,played,Egypt,EGY,Hungary,HUN,TRUE,1,0,win,Cairo,Egypt,FALSE,1601,1818,1614,1805,13
+1983-01-23,Friendly,played,Egypt,EGY,Hungary,HUN,TRUE,0,2,loss,Cairo,Egypt,FALSE,1614,1805,1603,1816,-11
+1983-02-18,Friendly,played,Egypt,EGY,Nigeria,NGA,FALSE,0,0,draw,Lagos,Nigeria,FALSE,1603,1514,1603,1514,0
+1983-02-20,Friendly,played,Egypt,EGY,Nigeria,NGA,FALSE,1,1,draw,Kaduna,Nigeria,FALSE,1603,1514,1603,1514,0
+1983-02-23,Friendly,played,Egypt,EGY,Cameroon,CMR,FALSE,0,2,loss,Yaoundé,Cameroon,FALSE,1603,1669,1595,1677,-8
+1983-02-26,Friendly,played,Egypt,EGY,Cameroon,CMR,FALSE,1,1,draw,Douala,Cameroon,FALSE,1595,1677,1600,1672,5
+1983-04-10,African Cup of Nations qualification,played,Egypt,EGY,Congo,,FALSE,0,2,loss,Brazzaville,Congo,FALSE,1600,1578,1577,1601,-23
+1983-04-22,African Cup of Nations qualification,played,Egypt,EGY,Congo,,TRUE,2,0,win,Cairo,Egypt,FALSE,1577,1601,1601,1577,24
+1983-04-28,Friendly,played,Egypt,EGY,Iraq,IRQ,FALSE,1,2,loss,Baghdad,Iraq,FALSE,,,,,
+1983-05-29,Friendly,played,Egypt,EGY,Cameroon,CMR,TRUE,4,0,win,Cairo,Egypt,FALSE,1617,1624,1631,1610,14
+1983-08-14,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,TRUE,1,0,win,Cairo,Egypt,FALSE,1629,1601,1642,1588,13
+1983-08-28,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1642,1588,1645,1585,3
+1984-01-20,Friendly,played,Egypt,EGY,Turkey,TUR,TRUE,1,0,win,Cairo,Egypt,FALSE,1647,1590,1653,1584,6
+1984-01-22,Friendly,played,Egypt,EGY,Turkey,TUR,TRUE,0,1,loss,Port Said,Egypt,FALSE,1653,1584,1638,1599,-15
+1984-02-27,Friendly,played,Egypt,EGY,Iraq,IRQ,TRUE,1,2,loss,Cairo,Egypt,FALSE,1653,1674,1641,1686,-12
+1984-02-29,Friendly,played,Egypt,EGY,Iraq,IRQ,TRUE,0,0,draw,Cairo,Egypt,FALSE,1641,1686,1639,1688,-2
+1984-03-04,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,FALSE,1,0,win,Abidjan,Ivory Coast,TRUE,1639,1585,1660,1564,21
+1984-03-07,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,FALSE,2,1,win,Abidjan,Ivory Coast,FALSE,1660,1623,1689,1594,29
+1984-03-10,African Cup of Nations,played,Egypt,EGY,Togo,TGO,TRUE,0,0,draw,Abidjan,Ivory Coast,TRUE,1689,1455,1674,1470,-15
+1984-03-14,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,TRUE,2,2,draw,Abidjan,Ivory Coast,TRUE,1674,1592,1668,1598,-6
+1984-03-17,African Cup of Nations,played,Egypt,EGY,Algeria,DZA,FALSE,1,3,loss,Abidjan,Ivory Coast,TRUE,1668,1672,1631,1709,-37
+1984-07-03,Friendly,played,Egypt,EGY,Cameroon,CMR,TRUE,2,1,win,Cairo,Egypt,FALSE,1631,1694,1640,1685,9
+1984-08-28,FIFA World Cup qualification,played,Egypt,EGY,Zimbabwe,,TRUE,1,0,win,Cairo,Egypt,FALSE,1679,1503,1686,1496,7
+1984-09-30,FIFA World Cup qualification,played,Egypt,EGY,Zimbabwe,,FALSE,1,1,draw,Harare,Zimbabwe,FALSE,1686,1496,1681,1501,-5
+1984-11-02,Friendly,played,Egypt,EGY,Canada,CAN,TRUE,1,0,win,Cairo,Egypt,FALSE,,,,,
+1984-12-17,Friendly,played,Egypt,EGY,Norway,NOR,TRUE,0,1,loss,Cairo,Egypt,FALSE,1681,1642,1667,1656,-14
+1984-12-20,Friendly,played,Egypt,EGY,Norway,NOR,TRUE,0,1,loss,Ismailia,Egypt,FALSE,1667,1656,1654,1669,-13
+1985-01-31,Friendly,played,Egypt,EGY,Ivory Coast,CIV,FALSE,1,0,win,Abidjan,Ivory Coast,FALSE,1654,1585,1665,1574,11
+1985-02-03,Friendly,played,Egypt,EGY,Cameroon,CMR,FALSE,0,1,loss,Douala,Cameroon,FALSE,1665,1627,1657,1635,-8
+1985-02-06,Friendly,played,Egypt,EGY,Cameroon,CMR,FALSE,0,0,draw,Yaoundé,Cameroon,FALSE,1657,1635,1659,1633,2
+1985-03-29,Friendly,played,Egypt,EGY,Cameroon,CMR,TRUE,2,0,win,Cairo,Egypt,FALSE,1659,1633,1669,1623,10
+1985-03-31,Friendly,played,Egypt,EGY,Cameroon,CMR,TRUE,2,1,win,Cairo,Egypt,FALSE,1669,1623,1675,1617,6
+1985-04-05,FIFA World Cup qualification,played,Egypt,EGY,Madagascar,,TRUE,1,0,win,Cairo,Egypt,FALSE,1675,1436,1680,1431,5
+1985-04-21,FIFA World Cup qualification,played,Egypt,EGY,Madagascar,,FALSE,0,1,loss,Antananarivo,Madagascar,FALSE,1680,1431,1652,1459,-28
+1985-07-12,FIFA World Cup qualification,played,Egypt,EGY,Morocco,MAR,TRUE,0,0,draw,Cairo,Egypt,FALSE,1652,1683,1648,1687,-4
+1985-07-28,FIFA World Cup qualification,played,Egypt,EGY,Morocco,MAR,FALSE,0,2,loss,Casablanca,Morocco,FALSE,1648,1687,1629,1706,-19
+1985-09-10,Friendly,played,Egypt,EGY,Norway,NOR,FALSE,0,3,loss,Oslo,Norway,FALSE,1629,1682,1619,1692,-10
+1985-10-20,Friendly,played,Egypt,EGY,Mexico,MEX,TRUE,2,1,win,Cairo,Egypt,FALSE,1619,1814,1632,1801,13
+1985-11-19,Friendly,played,Egypt,EGY,Ivory Coast,CIV,TRUE,0,1,loss,Kinshasa,Zaïre,TRUE,1631,1601,1615,1617,-16
+1985-11-21,Friendly,played,Egypt,EGY,DR Congo,,FALSE,2,3,loss,Kinshasa,Zaïre,FALSE,,,,,
+1985-11-23,Friendly,played,Egypt,EGY,Zambia,,TRUE,1,0,win,Kinshasa,Zaïre,TRUE,1603,1616,1619,1600,16
+1986-01-29,Friendly,played,Egypt,EGY,England,ENG,TRUE,0,4,loss,Cairo,Egypt,FALSE,1619,1935,1611,1943,-8
+1986-02-28,Friendly,played,Egypt,EGY,Romania,ROU,TRUE,2,2,draw,Alexandria,Egypt,FALSE,1611,1791,1613,1789,2
+1986-03-02,Friendly,played,Egypt,EGY,Romania,ROU,TRUE,0,1,loss,Alexandria,Egypt,FALSE,1613,1789,1605,1797,-8
+1986-03-07,African Cup of Nations,played,Egypt,EGY,Senegal,SEN,TRUE,0,1,loss,Cairo,Egypt,FALSE,1605,1617,1574,1648,-31
+1986-03-10,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,TRUE,2,0,win,Cairo,Egypt,FALSE,1574,1619,1606,1587,32
+1986-03-13,African Cup of Nations,played,Egypt,EGY,Mozambique,,TRUE,2,0,win,Cairo,Egypt,FALSE,1606,1353,1615,1344,9
+1986-03-17,African Cup of Nations,played,Egypt,EGY,Morocco,MAR,TRUE,1,0,win,Cairo,Egypt,FALSE,1615,1700,1639,1676,24
+1986-03-21,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,TRUE,0,0,draw,Cairo,Egypt,FALSE,1639,1660,1633,1666,-6
+1987-06-08,Korea Cup,played,Egypt,EGY,United States,USA,TRUE,3,1,win,Seoul,South Korea,TRUE,1654,1573,1671,1556,17
+1987-06-10,Korea Cup,played,Egypt,EGY,South Korea,KOR,FALSE,0,0,draw,Masan,South Korea,FALSE,1671,1638,1674,1635,3
+1987-06-12,Korea Cup,played,Egypt,EGY,Thailand,,TRUE,1,1,draw,Busan,South Korea,TRUE,1674,1268,1662,1280,-12
+1987-06-19,Korea Cup,played,Egypt,EGY,Australia,AUS,FALSE,0,0,draw,Seoul,South Korea,TRUE,1662,1679,1663,1678,1
+1987-08-02,All-African Games,played,Egypt,EGY,Senegal,SEN,TRUE,1,0,win,Nairobi,Kenya,TRUE,1689,1543,1701,1531,12
+1987-08-04,All-African Games,played,Egypt,EGY,Ivory Coast,CIV,TRUE,2,1,win,Nairobi,Kenya,TRUE,1701,1667,1719,1649,18
+1987-08-06,All-African Games,played,Egypt,EGY,Malawi,,FALSE,1,2,loss,Nairobi,Kenya,TRUE,1719,1461,1686,1494,-33
+1987-08-09,All-African Games,played,Egypt,EGY,Cameroon,CMR,FALSE,1,1,draw,Nairobi,Kenya,TRUE,1686,1711,1687,1710,1
+1987-08-12,All-African Games,played,Egypt,EGY,Kenya,,FALSE,1,0,win,Nairobi,Kenya,FALSE,1687,1444,1699,1432,12
+1987-11-07,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,2,0,win,Kuwait City,Kuwait,FALSE,,,,,
+1988-01-06,Friendly,played,Egypt,EGY,South Korea,KOR,FALSE,1,1,draw,Doha,Qatar,TRUE,1666,1648,1665,1649,-1
+1988-02-03,Friendly,played,Egypt,EGY,Bulgaria,BGR,TRUE,1,0,win,Cairo,Egypt,FALSE,,,,,
+1988-02-23,Friendly,played,Egypt,EGY,United Arab Emirates,ARE,FALSE,2,1,win,Dubai,United Arab Emirates,FALSE,1676,1437,1682,1431,6
+1988-02-26,Friendly,played,Egypt,EGY,United Arab Emirates,ARE,FALSE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1682,1431,1678,1435,-4
+1988-03-14,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,FALSE,0,1,loss,Rabat,Morocco,TRUE,1678,1660,1652,1686,-26
+1988-03-17,African Cup of Nations,played,Egypt,EGY,Kenya,,TRUE,3,0,win,Rabat,Morocco,TRUE,1652,1386,1668,1370,16
+1988-03-20,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,TRUE,0,0,draw,Rabat,Morocco,TRUE,1668,1602,1663,1607,-5
+1988-07-13,Arab Cup,played,Egypt,EGY,Tunisia,TUN,TRUE,1,0,win,Amman,Jordan,TRUE,1653,1474,1664,1463,11
+1988-07-15,Arab Cup,played,Egypt,EGY,Lebanon,,TRUE,3,0,win,Amman,Jordan,TRUE,1664,1283,1671,1276,7
+1988-07-17,Arab Cup,played,Egypt,EGY,Iraq,IRQ,TRUE,0,0,draw,Amman,Jordan,TRUE,1671,1678,1671,1678,0
+1988-07-19,Arab Cup,played,Egypt,EGY,Syria,,TRUE,0,0,draw,Amman,Jordan,TRUE,1671,1493,1662,1502,-9
+1988-07-21,Arab Cup,played,Egypt,EGY,Jordan,,FALSE,2,0,win,Amman,Jordan,FALSE,1662,1308,1673,1297,11
+1988-11-14,Friendly,played,Egypt,EGY,Saudi Arabia,SAU,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1673,1444,1669,1448,-4
+1988-11-16,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,2,2,draw,Kuwait City,Kuwait,FALSE,1669,1501,1667,1503,-2
+1988-12-06,Friendly,played,Egypt,EGY,Morocco,MAR,FALSE,0,0,draw,Casablanca,Morocco,FALSE,1667,1640,1669,1638,2
+1988-12-14,Friendly,played,Egypt,EGY,Switzerland,CHE,TRUE,1,3,loss,Cairo,Egypt,FALSE,1669,1721,1652,1738,-17
+1988-12-20,Friendly,played,Egypt,EGY,Zambia,,FALSE,2,1,win,Kitwe,Zambia,FALSE,1644,1640,1657,1627,13
+1989-01-06,FIFA World Cup qualification,played,Egypt,EGY,Liberia,,TRUE,2,0,win,Cairo,Egypt,FALSE,1657,1358,1662,1353,5
+1989-01-11,Friendly,played,Egypt,EGY,Finland,,TRUE,2,1,win,El Mahalla El Kubra,Egypt,FALSE,1662,1614,1668,1608,6
+1989-01-13,Friendly,played,Egypt,EGY,Finland,,TRUE,2,1,win,Cairo,Egypt,FALSE,1668,1608,1674,1602,6
+1989-01-21,FIFA World Cup qualification,played,Egypt,EGY,Malawi,,FALSE,1,1,draw,Lilongwe,Malawi,FALSE,1674,1574,1674,1574,0
+1989-02-13,Friendly,played,Egypt,EGY,German DR,DDR,TRUE,0,4,loss,Cairo,Egypt,FALSE,1674,1772,1655,1791,-19
+1989-03-15,Friendly,played,Egypt,EGY,Tunisia,TUN,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1655,1498,1653,1500,-2
+1989-04-09,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,FALSE,0,1,loss,Addis Ababa,Ethiopia,FALSE,1653,1430,1626,1457,-27
+1989-04-21,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,TRUE,6,1,win,Cairo,Egypt,FALSE,1626,1457,1640,1443,14
+1989-06-03,Friendly,played,Egypt,EGY,Chile,CHL,TRUE,2,0,win,Cairo,Egypt,FALSE,1644,1780,1661,1763,17
+1989-06-10,FIFA World Cup qualification,played,Egypt,EGY,Kenya,,FALSE,0,0,draw,Nairobi,Kenya,FALSE,1661,1400,1652,1409,-9
+1989-06-25,FIFA World Cup qualification,played,Egypt,EGY,Liberia,,FALSE,0,1,loss,Monrovia,Liberia,FALSE,1645,1376,1616,1405,-29
+1989-07-16,African Cup of Nations qualification,played,Egypt,EGY,DR Congo,,TRUE,2,0,win,Cairo,Egypt,FALSE,,,,,
+1989-07-28,African Cup of Nations qualification,played,Egypt,EGY,DR Congo,,FALSE,0,0,draw,Kinshasa,Zaïre,FALSE,,,,,
+1989-08-12,FIFA World Cup qualification,played,Egypt,EGY,Malawi,,TRUE,1,0,win,Cairo,Egypt,FALSE,,,,,
+1989-08-26,FIFA World Cup qualification,played,Egypt,EGY,Kenya,,TRUE,2,0,win,Cairo,Egypt,FALSE,1635,1431,1644,1422,9
+1989-09-16,Friendly,played,Egypt,EGY,South Korea,KOR,FALSE,1,0,win,Seoul,South Korea,FALSE,1644,1741,1659,1726,15
+1989-09-25,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1659,1497,1657,1499,-2
+1989-10-08,FIFA World Cup qualification,played,Egypt,EGY,Algeria,DZA,FALSE,0,0,draw,Constantine,Algeria,FALSE,1657,1664,1663,1658,6
+1989-11-03,Friendly,played,Egypt,EGY,Qatar,QAT,FALSE,2,0,win,Doha,Qatar,FALSE,,,,,
+1989-11-17,FIFA World Cup qualification,played,Egypt,EGY,Algeria,DZA,TRUE,1,0,win,Cairo,Egypt,FALSE,1678,1654,1691,1641,13
+1990-01-25,Friendly,played,Egypt,EGY,United Arab Emirates,ARE,FALSE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+1990-01-27,Friendly,played,Egypt,EGY,United Arab Emirates,ARE,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+1990-02-14,Friendly,played,Egypt,EGY,Denmark,DNK,TRUE,0,0,draw,Cairo,Egypt,FALSE,1687,1898,1690,1895,3
+1990-02-18,Friendly,played,Egypt,EGY,South Korea,KOR,TRUE,0,0,draw,Cairo,Egypt,FALSE,1690,1744,1689,1745,-1
+1990-02-28,Friendly,played,Egypt,EGY,Austria,AUT,TRUE,0,0,draw,Cairo,Egypt,FALSE,1689,1722,1687,1724,-2
+1990-03-02,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,FALSE,1,3,loss,Algiers,Algeria,TRUE,1687,1638,1644,1681,-43
+1990-03-05,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,FALSE,0,1,loss,Algiers,Algeria,TRUE,1644,1594,1615,1623,-29
+1990-03-08,African Cup of Nations,played,Egypt,EGY,Algeria,DZA,FALSE,0,2,loss,Algiers,Algeria,FALSE,1615,1720,1597,1738,-18
+1990-03-28,Friendly,played,Egypt,EGY,Romania,ROU,TRUE,1,3,loss,Cairo,Egypt,FALSE,1597,1886,1589,1894,-8
+1990-04-04,Friendly,played,Egypt,EGY,Czechoslovakia,CSK,FALSE,1,0,win,Brno,Czechoslovakia,FALSE,1589,1885,1607,1867,18
+1990-04-11,Friendly,played,Egypt,EGY,German DR,DDR,FALSE,0,2,loss,Karl-Marx-Stadt,German DR,FALSE,1607,1735,1601,1741,-6
+1990-05-16,Friendly,played,Egypt,EGY,Scotland,SCO,FALSE,3,1,win,Aberdeen,Scotland,FALSE,1601,1762,1626,1737,25
+1990-05-21,Friendly,played,Egypt,EGY,Romania,ROU,FALSE,0,1,loss,Bucharest,Romania,FALSE,1626,1891,1624,1893,-2
+1990-05-26,Friendly,played,Egypt,EGY,Colombia,COL,TRUE,1,1,draw,Cairo,Egypt,FALSE,1624,1819,1627,1816,3
+1990-06-12,FIFA World Cup,played,Egypt,EGY,Netherlands,NLD,FALSE,1,1,draw,Palermo,Italy,TRUE,1627,2033,1652,2008,25
+1990-06-17,FIFA World Cup,played,Egypt,EGY,Republic of Ireland,IRL,FALSE,0,0,draw,Palermo,Italy,TRUE,,,,,
+1990-06-21,FIFA World Cup,played,Egypt,EGY,England,ENG,FALSE,0,1,loss,Cagliari,Italy,TRUE,1670,1946,1660,1956,-10
+1990-08-17,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,TRUE,2,0,win,Cairo,Egypt,FALSE,1660,1443,1668,1435,8
+1990-09-02,African Cup of Nations qualification,played,Egypt,EGY,Chad,,FALSE,0,0,draw,N'Djamena,Chad,FALSE,1668,1267,1654,1281,-14
+1990-10-10,Friendly,played,Egypt,EGY,Greece,GRC,FALSE,1,6,loss,Athens,Greece,FALSE,1654,1695,1642,1707,-12
+1991-04-14,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,FALSE,2,2,draw,Tunis,Tunisia,FALSE,1642,1498,1639,1501,-3
+1991-06-07,Korea Cup,played,Egypt,EGY,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1639,1719,1646,1712,7
+1991-06-09,Korea Cup,played,Egypt,EGY,Malta,,TRUE,5,2,win,Daejeon,South Korea,TRUE,1646,1358,1654,1350,8
+1991-06-11,Korea Cup,played,Egypt,EGY,Indonesia,IDN,TRUE,6,0,win,Seoul,South Korea,TRUE,1654,1231,1659,1226,5
+1991-06-16,Korea Cup,played,Egypt,EGY,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1659,1695,1645,1709,-14
+1991-07-12,African Cup of Nations qualification,played,Egypt,EGY,Chad,,TRUE,5,1,win,Cairo,Egypt,FALSE,1645,1308,1651,1302,6
+1991-07-26,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,TRUE,2,2,draw,Cairo,Egypt,FALSE,1651,1495,1638,1508,-13
+1991-09-21,Friendly,played,Egypt,EGY,Nigeria,NGA,TRUE,1,2,loss,Ismailia,Egypt,FALSE,,,,,
+1991-09-23,Friendly,played,Egypt,EGY,Zimbabwe,,TRUE,2,3,loss,Ismailia,Egypt,FALSE,,,,,
+1991-09-25,Friendly,played,Egypt,EGY,Uganda,,TRUE,1,0,win,Ismailia,Egypt,FALSE,,,,,
+1991-09-28,Friendly,played,Egypt,EGY,Mali,,TRUE,0,0,draw,Ismailia,Egypt,FALSE,,,,,
+1991-12-03,Friendly,played,Egypt,EGY,Poland,POL,TRUE,4,0,win,Cairo,Egypt,FALSE,1638,1798,1660,1776,22
+1991-12-05,Friendly,played,Egypt,EGY,Poland,POL,TRUE,0,0,draw,Cairo,Egypt,FALSE,1660,1776,1660,1776,0
+1991-12-21,Friendly,played,Egypt,EGY,Romania,ROU,TRUE,3,1,win,Cairo,Egypt,FALSE,1660,1830,1678,1812,18
+1991-12-24,Friendly,played,Egypt,EGY,Romania,ROU,TRUE,1,1,draw,Port Said,Egypt,FALSE,1678,1812,1679,1811,1
+1992-01-04,Friendly,played,Egypt,EGY,Czechoslovakia,CSK,TRUE,2,0,win,Cairo,Egypt,FALSE,1679,1878,1698,1859,19
+1992-01-07,Friendly,played,Egypt,EGY,Norway,NOR,TRUE,0,0,draw,Cairo,Egypt,FALSE,1698,1723,1696,1725,-2
+1992-01-13,African Cup of Nations,played,Egypt,EGY,Zambia,,TRUE,0,1,loss,Ziguinchor,Senegal,TRUE,1696,1603,1664,1635,-32
+1992-01-17,African Cup of Nations,played,Egypt,EGY,Ghana,GHA,TRUE,0,1,loss,Ziguinchor,Senegal,TRUE,1664,1564,1632,1596,-32
+1992-07-22,Friendly,played,Egypt,EGY,Cameroon,CMR,FALSE,1,0,win,Yaoundé,Cameroon,FALSE,1646,1676,1660,1662,14
+1992-07-26,Friendly,played,Egypt,EGY,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1660,1715,1651,1724,-9
+1992-07-28,Friendly,played,Egypt,EGY,Ivory Coast,CIV,FALSE,2,2,draw,Abidjan,Ivory Coast,FALSE,1651,1724,1656,1719,5
+1992-08-15,African Cup of Nations qualification,played,Egypt,EGY,Malawi,,FALSE,0,1,loss,Lilongwe,Malawi,FALSE,,,,,
+1992-09-08,Arab Cup,played,Egypt,EGY,Jordan,,TRUE,1,1,draw,Aleppo,Syria,TRUE,1628,1401,1617,1412,-11
+1992-09-12,Arab Cup,played,Egypt,EGY,Kuwait,KWT,TRUE,1,0,win,Aleppo,Syria,TRUE,1617,1509,1631,1495,14
+1992-09-15,Arab Cup,played,Egypt,EGY,Syria,,FALSE,0,0,draw,Aleppo,Syria,FALSE,1631,1448,1626,1453,-5
+1992-09-17,Arab Cup,played,Egypt,EGY,Saudi Arabia,SAU,TRUE,3,2,win,Aleppo,Syria,TRUE,,,,,
+1992-10-11,FIFA World Cup qualification,played,Egypt,EGY,Angola,AGO,TRUE,1,0,win,Cairo,Egypt,FALSE,1645,1386,1649,1382,4
+1992-10-25,FIFA World Cup qualification,played,Egypt,EGY,Togo,TGO,FALSE,4,1,win,Lomé,Togo,FALSE,1649,1365,1667,1347,18
+1992-11-02,Friendly,played,Egypt,EGY,Kuwait,KWT,TRUE,1,1,draw,Cairo,Egypt,FALSE,,,,,
+1992-11-08,African Cup of Nations qualification,played,Egypt,EGY,Morocco,MAR,FALSE,0,0,draw,Casablanca,Morocco,FALSE,1667,1587,1668,1586,1
+1992-11-20,Friendly,played,Egypt,EGY,Kuwait,KWT,TRUE,1,1,draw,Cairo,Egypt,FALSE,1668,1501,1662,1507,-6
+1992-12-20,FIFA World Cup qualification,played,Egypt,EGY,Zimbabwe,,FALSE,1,2,loss,Harare,Zimbabwe,FALSE,1662,1482,1637,1507,-25
+1993-01-18,FIFA World Cup qualification,played,Egypt,EGY,Angola,AGO,FALSE,0,0,draw,Luanda,Angola,FALSE,1637,1383,1629,1391,-8
+1993-01-31,FIFA World Cup qualification,played,Egypt,EGY,Togo,TGO,TRUE,3,0,win,Cairo,Egypt,FALSE,1629,1333,1635,1327,6
+1993-04-04,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,3,1,win,Kuwait City,Kuwait,FALSE,1644,1481,1656,1469,12
+1993-04-09,African Cup of Nations qualification,played,Egypt,EGY,Mali,,TRUE,2,1,win,Cairo,Egypt,FALSE,,,,,
+1993-04-15,FIFA World Cup qualification,played,Egypt,EGY,Zimbabwe,,TRUE,0,0,draw,Lyon,France,TRUE,1661,1532,1654,1539,-7
+1993-04-23,African Cup of Nations qualification,played,Egypt,EGY,Malawi,,TRUE,2,0,win,Alexandria,Egypt,FALSE,,,,,
+1993-06-19,Korea Cup,played,Egypt,EGY,South Korea,KOR,FALSE,2,1,win,Seoul,South Korea,FALSE,1664,1666,1683,1647,19
+1993-06-28,Korea Cup,played,Egypt,EGY,South Korea,KOR,FALSE,1,0,win,Seoul,South Korea,FALSE,1683,1647,1701,1629,18
+1993-07-11,African Cup of Nations qualification,played,Egypt,EGY,Morocco,MAR,TRUE,1,1,draw,Alexandria,Egypt,FALSE,1701,1574,1690,1585,-11
+1993-07-25,African Cup of Nations qualification,played,Egypt,EGY,Mali,,FALSE,1,2,loss,Bamako,Mali,FALSE,1690,1443,1662,1471,-28
+1993-11-05,Friendly,played,Egypt,EGY,Malta,,TRUE,3,0,win,Tunis,Tunisia,TRUE,1662,1376,1670,1368,8
+1993-11-07,Friendly,played,Egypt,EGY,Tunisia,TUN,FALSE,1,2,loss,Tunis,Tunisia,FALSE,,,,,
+1993-12-29,Friendly,played,Egypt,EGY,Ghana,GHA,FALSE,0,0,draw,Accra,Ghana,FALSE,1650,1618,1652,1616,2
+1994-01-02,Friendly,played,Egypt,EGY,Ghana,GHA,FALSE,1,2,loss,Accra,Ghana,FALSE,1652,1614,1644,1622,-8
+1994-02-02,United Arab Emirates Friendship Tournament,played,Egypt,EGY,Morocco,MAR,TRUE,1,1,draw,Sharjah,United Arab Emirates,TRUE,1644,1663,1645,1662,1
+1994-02-04,United Arab Emirates Friendship Tournament,played,Egypt,EGY,Slovakia,SVK,TRUE,1,0,win,Sharjah,United Arab Emirates,TRUE,1645,1675,1661,1659,16
+1994-02-06,United Arab Emirates Friendship Tournament,played,Egypt,EGY,United Arab Emirates,ARE,FALSE,1,0,win,Dubai,United Arab Emirates,FALSE,1661,1493,1673,1481,12
+1994-03-16,Friendly,played,Egypt,EGY,Cameroon,CMR,TRUE,0,0,draw,Cairo,Egypt,FALSE,1673,1644,1669,1648,-4
+1994-03-28,African Cup of Nations,played,Egypt,EGY,Gabon,,TRUE,4,0,win,Tunis,Tunisia,TRUE,1669,1414,1687,1396,18
+1994-03-30,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,FALSE,0,0,draw,Tunis,Tunisia,TRUE,1687,1704,1688,1703,1
+1994-04-02,African Cup of Nations,played,Egypt,EGY,Mali,,TRUE,0,1,loss,Tunis,Tunisia,TRUE,1688,1465,1649,1504,-39
+1994-08-19,Friendly,played,Egypt,EGY,Mali,,TRUE,2,1,win,Cairo,Egypt,FALSE,1649,1457,1652,1454,3
+1994-08-21,Friendly,played,Egypt,EGY,Mali,,TRUE,0,1,loss,Cairo,Egypt,FALSE,1652,1454,1635,1471,-17
+1994-08-23,Friendly,played,Egypt,EGY,Ghana,GHA,TRUE,2,0,win,Cairo,Egypt,FALSE,1635,1602,1649,1588,14
+1994-08-27,Friendly,played,Egypt,EGY,Zambia,,TRUE,0,4,loss,Cairo,Egypt,FALSE,1649,1643,1613,1679,-36
+1994-09-04,African Cup of Nations qualification,played,Egypt,EGY,Sudan,,FALSE,0,0,draw,Khartoum,Sudan,FALSE,1613,1330,1603,1340,-10
+1994-10-14,African Cup of Nations qualification,played,Egypt,EGY,Tanzania,,TRUE,5,1,win,Cairo,Egypt,FALSE,1603,1342,1611,1334,8
+1994-11-11,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,TRUE,5,0,win,Cairo,Egypt,FALSE,1611,1332,1619,1324,8
+1995-01-02,Friendly,played,Egypt,EGY,Tunisia,TUN,FALSE,0,2,loss,Sousse,Tunisia,FALSE,1619,1575,1606,1588,-13
+1995-01-08,African Cup of Nations qualification,played,Egypt,EGY,Algeria,DZA,FALSE,0,1,loss,Algiers,Algeria,FALSE,1606,1583,1590,1599,-16
+1995-01-21,African Cup of Nations qualification,played,Egypt,EGY,Uganda,,FALSE,0,0,draw,Kampala,Uganda,FALSE,1590,1433,1587,1436,-3
+1995-03-26,Friendly,played,Egypt,EGY,Lebanon,,FALSE,1,1,draw,Beirut,Lebanon,FALSE,1587,1278,1582,1283,-5
+1995-03-31,Friendly,played,Egypt,EGY,Syria,,FALSE,2,1,win,Damascus,Syria,FALSE,1582,1458,1591,1449,9
+1995-04-07,African Cup of Nations qualification,played,Egypt,EGY,Sudan,,TRUE,3,1,win,Alexandria,Egypt,FALSE,1591,1332,1598,1325,7
+1995-04-14,Friendly,played,Egypt,EGY,Tunisia,TUN,TRUE,1,0,win,Port Said,Egypt,FALSE,1598,1571,1604,1565,6
+1995-04-22,African Cup of Nations qualification,played,Egypt,EGY,Tanzania,,FALSE,2,1,win,Dar es Salaam,Tanzania,FALSE,1604,1408,1619,1393,15
+1995-05-18,Friendly,played,Egypt,EGY,Morocco,MAR,FALSE,0,0,draw,Marrakech,Morocco,FALSE,1619,1595,1621,1593,2
+1995-06-04,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,FALSE,2,0,win,Addis Ababa,Ethiopia,FALSE,1621,1357,1638,1340,17
+1995-07-09,Friendly,played,Egypt,EGY,Syria,,FALSE,0,0,draw,Damascus,Syria,FALSE,,,,,
+1995-07-14,African Cup of Nations qualification,played,Egypt,EGY,Algeria,DZA,TRUE,1,1,draw,Cairo,Egypt,FALSE,1633,1530,1622,1541,-11
+1995-07-30,African Cup of Nations qualification,played,Egypt,EGY,Uganda,,TRUE,6,0,win,Cairo,Egypt,FALSE,1622,1483,1639,1466,17
+1995-11-22,Simba Tournament,played,Egypt,EGY,Zimbabwe,,TRUE,2,2,draw,Pretoria,South Africa,TRUE,1639,1507,1634,1512,-5
+1995-11-24,Simba Tournament,played,Egypt,EGY,South Africa,ZAF,FALSE,0,2,loss,Mafikeng,South Africa,FALSE,1634,1646,1619,1661,-15
+1995-11-26,Simba Tournament,played,Egypt,EGY,Zambia,,TRUE,3,1,win,Johannesburg,South Africa,TRUE,1619,1616,1641,1594,22
+1995-12-29,Friendly,played,Egypt,EGY,Ghana,GHA,TRUE,1,2,loss,Cairo,Egypt,FALSE,1641,1647,1628,1660,-13
+1996-01-08,Friendly,played,Egypt,EGY,Tunisia,TUN,TRUE,2,1,win,Ismailia,Egypt,FALSE,1628,1556,1633,1551,5
+1996-01-15,African Cup of Nations,played,Egypt,EGY,Angola,AGO,TRUE,2,1,win,Johannesburg,South Africa,TRUE,1633,1438,1645,1426,12
+1996-01-18,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,FALSE,1,2,loss,Johannesburg,South Africa,TRUE,1645,1525,1612,1558,-33
+1996-01-24,African Cup of Nations,played,Egypt,EGY,South Africa,ZAF,FALSE,1,0,win,Johannesburg,South Africa,FALSE,1612,1699,1649,1662,37
+1996-01-27,African Cup of Nations,played,Egypt,EGY,Zambia,,FALSE,1,3,loss,Bloemfontein,South Africa,TRUE,1649,1654,1612,1691,-37
+1996-03-20,United Arab Emirates Friendship Tournament,played,Egypt,EGY,Morocco,MAR,TRUE,0,2,loss,Dubai,United Arab Emirates,TRUE,1612,1595,1588,1619,-24
+1996-03-22,United Arab Emirates Friendship Tournament,played,Egypt,EGY,United Arab Emirates,ARE,FALSE,0,0,draw,Dubai,United Arab Emirates,FALSE,1588,1542,1590,1540,2
+1996-03-25,United Arab Emirates Friendship Tournament,played,Egypt,EGY,South Korea,KOR,TRUE,1,1,draw,Dubai,United Arab Emirates,TRUE,1590,1600,1590,1600,0
+1996-05-26,Friendly,played,Egypt,EGY,Ghana,GHA,FALSE,2,0,win,Accra,Ghana,FALSE,1590,1641,1611,1620,21
+1996-11-08,FIFA World Cup qualification,played,Egypt,EGY,Namibia,,TRUE,7,1,win,Cairo,Egypt,FALSE,1598,1249,1604,1243,6
+1997-01-05,Friendly,played,Egypt,EGY,Belarus,,TRUE,2,0,win,Alexandria,Egypt,FALSE,1604,1408,1609,1403,5
+1997-01-12,FIFA World Cup qualification,played,Egypt,EGY,Tunisia,TUN,FALSE,0,1,loss,Tunis,Tunisia,FALSE,1609,1626,1595,1640,-14
+1997-02-18,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,0,2,loss,Kuwait City,Kuwait,FALSE,1592,1625,1582,1635,-10
+1997-02-23,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,FALSE,1,1,draw,Addis Ababa,Ethiopia,FALSE,1582,1311,1573,1320,-9
+1997-04-06,FIFA World Cup qualification,played,Egypt,EGY,Liberia,,FALSE,0,1,loss,Accra,Ghana,TRUE,1573,1384,1543,1414,-30
+1997-04-26,FIFA World Cup qualification,played,Egypt,EGY,Namibia,,FALSE,3,2,win,Windhoek,Namibia,FALSE,1543,1270,1554,1259,11
+1997-06-08,FIFA World Cup qualification,played,Egypt,EGY,Tunisia,TUN,TRUE,0,0,draw,Cairo,Egypt,FALSE,1554,1615,1552,1617,-2
+1997-06-12,Korea Cup,played,Egypt,EGY,South Korea,KOR,FALSE,1,3,loss,Seoul,South Korea,FALSE,1552,1637,1540,1649,-12
+1997-06-14,Korea Cup,played,Egypt,EGY,Serbia,SRB,TRUE,0,0,draw,Suwon,South Korea,TRUE,,,,,
+1997-06-16,Korea Cup,played,Egypt,EGY,Ghana,GHA,TRUE,2,0,win,Seoul,South Korea,TRUE,1553,1549,1575,1527,22
+1997-06-21,African Cup of Nations qualification,played,Egypt,EGY,Morocco,MAR,FALSE,0,1,loss,Rabat,Morocco,FALSE,1575,1711,1567,1719,-8
+1997-07-13,African Cup of Nations qualification,played,Egypt,EGY,Senegal,SEN,TRUE,2,0,win,Cairo,Egypt,FALSE,1567,1453,1581,1439,14
+1997-07-27,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,TRUE,8,1,win,Alexandria,Egypt,FALSE,1581,1295,1590,1286,9
+1997-08-17,FIFA World Cup qualification,played,Egypt,EGY,Liberia,,TRUE,5,0,win,Cairo,Egypt,FALSE,1590,1377,1601,1366,11
+1997-12-03,Friendly,played,Egypt,EGY,Ghana,GHA,TRUE,3,2,win,Cairo,Egypt,FALSE,1601,1478,1605,1474,4
+1997-12-18,Friendly,played,Egypt,EGY,Togo,TGO,TRUE,7,2,win,Aswan,Egypt,FALSE,1605,1382,1610,1377,5
+1997-12-20,Friendly,played,Egypt,EGY,Algeria,DZA,TRUE,1,2,loss,Aswan,Egypt,FALSE,1610,1543,1596,1557,-14
+1997-12-22,Friendly,played,Egypt,EGY,Cameroon,CMR,TRUE,2,0,win,Cairo,Egypt,FALSE,1596,1554,1605,1545,9
+1997-12-24,Friendly,played,Egypt,EGY,Algeria,DZA,TRUE,1,2,loss,Cairo,Egypt,FALSE,1605,1542,1591,1556,-14
+1998-01-25,King's Cup,played,Egypt,EGY,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1591,1445,1589,1447,-2
+1998-01-27,King's Cup,played,Egypt,EGY,South Korea,KOR,TRUE,0,2,loss,Bangkok,Thailand,TRUE,1589,1742,1576,1755,-13
+1998-01-31,King's Cup,played,Egypt,EGY,South Korea,KOR,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1576,1765,1583,1758,7
+1998-02-10,African Cup of Nations,played,Egypt,EGY,Mozambique,,TRUE,2,0,win,Bobo Dioulasso,Burkina Faso,TRUE,1583,1396,1602,1377,19
+1998-02-13,African Cup of Nations,played,Egypt,EGY,Zambia,,FALSE,4,0,win,Bobo Dioulasso,Burkina Faso,TRUE,1602,1650,1655,1597,53
+1998-02-17,African Cup of Nations,played,Egypt,EGY,Morocco,MAR,TRUE,0,1,loss,Ouagadougou,Burkina Faso,TRUE,1655,1746,1636,1765,-19
+1998-02-21,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,FALSE,0,0,draw,Ouagadougou,Burkina Faso,TRUE,1636,1601,1633,1604,-3
+1998-02-25,African Cup of Nations,played,Egypt,EGY,Burkina Faso,,FALSE,2,0,win,Bobo Dioulasso,Burkina Faso,FALSE,1633,1411,1658,1386,25
+1998-02-28,African Cup of Nations,played,Egypt,EGY,South Africa,ZAF,FALSE,2,0,win,Ouagadougou,Burkina Faso,TRUE,1658,1690,1699,1649,41
+1998-09-16,Friendly,played,Egypt,EGY,Ivory Coast,CIV,TRUE,0,0,draw,Cairo,Egypt,FALSE,1699,1586,1694,1591,-5
+1998-09-23,Friendly,played,Egypt,EGY,Estonia,,FALSE,2,2,draw,Tallinn,Estonia,FALSE,1707,1218,1699,1226,-8
+1998-09-29,Friendly,played,Egypt,EGY,North Macedonia,,FALSE,2,2,draw,Kumanovo,North Macedonia,FALSE,1652,1563,1652,1563,0
+1998-10-28,Friendly,played,Egypt,EGY,Japan,JPN,FALSE,0,1,loss,Osaka,Japan,FALSE,1652,1670,1645,1677,-7
+1998-11-18,Friendly,played,Egypt,EGY,Norway,NOR,TRUE,1,1,draw,Cairo,Egypt,FALSE,1645,1832,1647,1830,2
+1998-12-16,Friendly,played,Egypt,EGY,South Africa,ZAF,FALSE,1,2,loss,Johannesburg,South Africa,FALSE,1647,1654,1636,1665,-11
+1998-12-27,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1636,1663,1640,1659,4
+1999-02-16,Lunar New Year Cup,played,Egypt,EGY,Bulgaria,BGR,FALSE,3,1,win,Kowloon,Hong Kong,TRUE,1640,1673,1665,1648,25
+1999-02-19,Lunar New Year Cup,played,Egypt,EGY,Mexico,MEX,TRUE,0,3,loss,So Kon Po,Hong Kong,TRUE,1665,1855,1652,1868,-13
+1999-03-30,Friendly,played,Egypt,EGY,Belgium,BEL,FALSE,1,0,win,Liège,Belgium,FALSE,1652,1778,1668,1762,16
+1999-06-13,Korea Cup,played,Egypt,EGY,Croatia,HRV,FALSE,2,2,draw,Seoul,South Korea,TRUE,1668,1914,1677,1905,9
+1999-06-16,Korea Cup,played,Egypt,EGY,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,,,,,
+1999-06-18,Korea Cup,played,Egypt,EGY,Mexico,MEX,TRUE,0,2,loss,Seoul,South Korea,TRUE,1683,1860,1671,1872,-12
+1999-06-29,Friendly,played,Egypt,EGY,Zimbabwe,,FALSE,1,1,draw,Harare,Zimbabwe,FALSE,1671,1486,1669,1488,-2
+1999-07-10,Friendly,played,Egypt,EGY,New Zealand,NZL,TRUE,1,1,draw,Mexico City,Mexico,TRUE,1669,1528,1665,1532,-4
+1999-07-15,Friendly,played,Egypt,EGY,New Zealand,NZL,TRUE,1,0,win,Guadalajara,Mexico,TRUE,1665,1532,1671,1526,6
+1999-07-25,Confederations Cup,played,Egypt,EGY,Bolivia,BOL,FALSE,2,2,draw,Mexico City,Mexico,TRUE,1671,1651,1670,1652,-1
+1999-07-27,Confederations Cup,played,Egypt,EGY,Mexico,MEX,FALSE,2,2,draw,Mexico City,Mexico,FALSE,1670,1890,1688,1872,18
+1999-07-29,Confederations Cup,played,Egypt,EGY,Saudi Arabia,SAU,TRUE,1,5,loss,Mexico City,Mexico,TRUE,1688,1686,1641,1733,-47
+1999-11-12,Friendly,played,Egypt,EGY,Ghana,GHA,TRUE,1,2,loss,Cairo,Egypt,FALSE,1641,1579,1627,1593,-14
+1999-11-15,Friendly,played,Egypt,EGY,Namibia,,FALSE,1,0,win,Windhoek,Namibia,FALSE,,,,,
+2000-01-04,Friendly,played,Egypt,EGY,Togo,TGO,TRUE,2,1,win,Aswan,Egypt,FALSE,1629,1336,1631,1334,2
+2000-01-09,Friendly,played,Egypt,EGY,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1638,1563,1624,1577,-14
+2000-01-19,Friendly,played,Egypt,EGY,Togo,TGO,FALSE,0,1,loss,Lomé,Togo,FALSE,1624,1330,1609,1345,-15
+2000-01-23,African Cup of Nations,played,Egypt,EGY,Zambia,,TRUE,2,0,win,Kano,Nigeria,TRUE,1609,1592,1645,1556,36
+2000-01-28,African Cup of Nations,played,Egypt,EGY,Senegal,SEN,TRUE,1,0,win,Kano,Nigeria,TRUE,1645,1550,1663,1532,18
+2000-02-01,African Cup of Nations,played,Egypt,EGY,Burkina Faso,,TRUE,4,2,win,Kano,Nigeria,TRUE,1663,1416,1678,1401,15
+2000-02-07,African Cup of Nations,played,Egypt,EGY,Tunisia,TUN,TRUE,0,1,loss,Kano,Nigeria,TRUE,1678,1635,1650,1663,-28
+2000-04-09,FIFA World Cup qualification,played,Egypt,EGY,Mauritius,,TRUE,2,0,win,Cairo,Egypt,FALSE,,,,,
+2000-04-23,FIFA World Cup qualification,played,Egypt,EGY,Mauritius,,TRUE,4,2,win,Alexandria,Egypt,FALSE,1653,1218,1656,1215,3
+2000-06-07,Friendly,played,Egypt,EGY,Iran,IRN,FALSE,1,1,draw,Tehran,Iran,FALSE,1656,1747,1664,1739,8
+2000-06-09,Friendly,played,Egypt,EGY,South Korea,KOR,TRUE,0,1,loss,Tehran,Iran,TRUE,1664,1733,1652,1745,-12
+2000-06-17,Friendly,played,Egypt,EGY,Ghana,GHA,TRUE,2,0,win,Cairo,Egypt,FALSE,1652,1540,1659,1533,7
+2000-07-09,FIFA World Cup qualification,played,Egypt,EGY,Senegal,SEN,FALSE,0,0,draw,Dakar,Senegal,FALSE,1659,1472,1654,1477,-5
+2000-08-25,Friendly,played,Egypt,EGY,Kenya,,TRUE,2,1,win,Port Said,Egypt,FALSE,1654,1356,1656,1354,2
+2000-09-02,African Cup of Nations qualification,played,Egypt,EGY,Ivory Coast,CIV,TRUE,1,0,win,Alexandria,Egypt,FALSE,1656,1573,1666,1563,10
+2000-10-02,Friendly,played,Egypt,EGY,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1666,1485,1674,1477,8
+2000-10-08,African Cup of Nations qualification,played,Egypt,EGY,Sudan,,FALSE,1,0,win,Khartoum,Sudan,FALSE,1674,1335,1682,1327,8
+2001-01-06,Friendly,played,Egypt,EGY,United Arab Emirates,ARE,TRUE,2,1,win,Cairo,Egypt,FALSE,1682,1546,1686,1542,4
+2001-01-09,Friendly,played,Egypt,EGY,Zambia,,TRUE,3,1,win,Cairo,Egypt,FALSE,1686,1443,1690,1439,4
+2001-01-14,African Cup of Nations qualification,played,Egypt,EGY,Libya,,TRUE,4,0,win,Cairo,Egypt,FALSE,1690,1446,1699,1437,9
+2001-01-17,Cup of Ancient Civilizations,played,Egypt,EGY,China PR,,FALSE,0,0,draw,Tehran,Iran,TRUE,,,,,
+2001-01-23,Friendly,played,Egypt,EGY,North Korea,PRK,TRUE,1,0,win,Ismailia,Egypt,FALSE,1698,1448,1700,1446,2
+2001-01-28,FIFA World Cup qualification,played,Egypt,EGY,Morocco,MAR,TRUE,0,0,draw,Cairo,Egypt,FALSE,1700,1686,1694,1692,-6
+2001-02-24,FIFA World Cup qualification,played,Egypt,EGY,Namibia,,FALSE,1,1,draw,Windhoek,Namibia,FALSE,1694,1315,1681,1328,-13
+2001-03-11,FIFA World Cup qualification,played,Egypt,EGY,Algeria,DZA,TRUE,5,2,win,Cairo,Egypt,FALSE,1681,1525,1694,1512,13
+2001-03-19,Friendly,played,Egypt,EGY,Estonia,,TRUE,3,3,draw,Cairo,Egypt,FALSE,1694,1368,1686,1376,-8
+2001-03-23,African Cup of Nations qualification,played,Egypt,EGY,Libya,,FALSE,0,2,loss,Tripoli,Libya,FALSE,1686,1389,1641,1434,-45
+2001-04-24,Friendly,played,Egypt,EGY,Canada,CAN,TRUE,3,0,win,Cairo,Egypt,FALSE,1641,1632,1659,1614,18
+2001-04-26,Friendly,played,Egypt,EGY,South Korea,KOR,TRUE,1,2,loss,Cairo,Egypt,FALSE,1659,1786,1645,1800,-14
+2001-05-06,FIFA World Cup qualification,played,Egypt,EGY,Senegal,SEN,TRUE,1,0,win,Cairo,Egypt,FALSE,1645,1540,1654,1531,9
+2001-06-03,African Cup of Nations qualification,played,Egypt,EGY,Sudan,,TRUE,3,2,win,Alexandria,Egypt,FALSE,1654,1379,1658,1375,4
+2001-06-10,Friendly,played,Egypt,EGY,Kenya,,FALSE,1,1,draw,Nairobi,Kenya,FALSE,1658,1387,1653,1392,-5
+2001-06-17,African Cup of Nations qualification,played,Egypt,EGY,Ivory Coast,CIV,FALSE,2,2,draw,Abidjan,Ivory Coast,FALSE,1653,1651,1658,1646,5
+2001-06-30,FIFA World Cup qualification,played,Egypt,EGY,Morocco,MAR,FALSE,0,1,loss,Rabat,Morocco,FALSE,1658,1667,1644,1681,-14
+2001-07-13,FIFA World Cup qualification,played,Egypt,EGY,Namibia,,TRUE,8,2,win,Alexandria,Egypt,FALSE,1644,1290,1650,1284,6
+2001-07-21,FIFA World Cup qualification,played,Egypt,EGY,Algeria,DZA,FALSE,1,1,draw,Annaba,Algeria,FALSE,1650,1514,1648,1516,-2
+2001-11-10,Friendly,played,Egypt,EGY,South Africa,ZAF,FALSE,0,1,loss,Johannesburg,South Africa,FALSE,1648,1616,1640,1624,-8
+2001-12-30,Friendly,played,Egypt,EGY,Qatar,QAT,FALSE,2,2,draw,Doha,Qatar,FALSE,1640,1560,1641,1559,1
+2002-01-04,Friendly,played,Egypt,EGY,Ghana,GHA,TRUE,2,0,win,Cairo,Egypt,FALSE,1641,1519,1648,1512,7
+2002-01-06,Friendly,played,Egypt,EGY,Mali,,TRUE,1,2,loss,Ismailia,Egypt,FALSE,1648,1432,1631,1449,-17
+2002-01-11,Friendly,played,Egypt,EGY,Burkina Faso,,TRUE,2,2,draw,Cairo,Egypt,FALSE,1631,1378,1623,1386,-8
+2002-01-20,African Cup of Nations,played,Egypt,EGY,Senegal,SEN,TRUE,0,1,loss,Bamako,Mali,TRUE,1623,1581,1595,1609,-28
+2002-01-25,African Cup of Nations,played,Egypt,EGY,Tunisia,TUN,TRUE,1,0,win,Bamako,Mali,TRUE,1595,1656,1624,1627,29
+2002-01-31,African Cup of Nations,played,Egypt,EGY,Zambia,,TRUE,2,1,win,Bamako,Mali,TRUE,1624,1469,1639,1454,15
+2002-02-04,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,FALSE,0,1,loss,Sikasso,Mali,TRUE,1639,1770,1623,1786,-16
+2002-08-08,Friendly,played,Egypt,EGY,Ethiopia,,TRUE,4,1,win,Alexandria,Egypt,FALSE,1623,1368,1627,1364,4
+2002-08-20,Friendly,played,Egypt,EGY,Uganda,,TRUE,2,0,win,Alexandria,Egypt,FALSE,1627,1333,1630,1330,3
+2002-08-23,Friendly,played,Egypt,EGY,Sudan,,TRUE,3,0,win,Cairo,Egypt,FALSE,1630,1424,1635,1419,5
+2002-08-27,Friendly,played,Egypt,EGY,Libya,,TRUE,0,1,loss,Alexandria,Egypt,FALSE,1635,1342,1617,1360,-18
+2002-09-07,African Cup of Nations qualification,played,Egypt,EGY,Madagascar,,FALSE,0,1,loss,Antananarivo,Madagascar,FALSE,1617,1377,1589,1405,-28
+2002-11-20,Friendly,played,Egypt,EGY,Tunisia,TUN,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1589,1617,1593,1613,4
+2002-11-25,Friendly,played,Egypt,EGY,Nigeria,NGA,FALSE,1,1,draw,Lagos,Nigeria,FALSE,1593,1740,1599,1734,6
+2002-12-16,Friendly,played,Egypt,EGY,United Arab Emirates,ARE,FALSE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1599,1423,1607,1415,8
+2002-12-22,Friendly,played,Egypt,EGY,Ghana,GHA,TRUE,0,0,draw,Cairo,Egypt,FALSE,1607,1495,1602,1500,-5
+2003-02-12,Friendly,played,Egypt,EGY,Denmark,DNK,TRUE,1,4,loss,Cairo,Egypt,FALSE,1602,1897,1593,1906,-9
+2003-03-19,Friendly,played,Egypt,EGY,Qatar,QAT,TRUE,6,0,win,Port Said,Egypt,FALSE,1593,1544,1606,1531,13
+2003-03-29,African Cup of Nations qualification,played,Egypt,EGY,Mauritius,,FALSE,1,0,win,Rose Hill,Mauritius,FALSE,1606,1220,1612,1214,6
+2003-04-30,Friendly,played,Egypt,EGY,France,FRA,FALSE,0,5,loss,Saint-Denis,France,FALSE,1612,1958,1609,1961,-3
+2003-06-08,African Cup of Nations qualification,played,Egypt,EGY,Mauritius,,TRUE,7,0,win,Cairo,Egypt,FALSE,1609,1214,1614,1209,5
+2003-06-20,African Cup of Nations qualification,played,Egypt,EGY,Madagascar,,TRUE,6,0,win,Port Said,Egypt,FALSE,1614,1399,1626,1387,12
+2003-10-10,Friendly,played,Egypt,EGY,Senegal,SEN,TRUE,1,0,win,Cairo,Egypt,FALSE,1626,1756,1637,1745,11
+2003-11-15,Friendly,played,Egypt,EGY,South Africa,ZAF,TRUE,2,1,win,Cairo,Egypt,FALSE,1637,1664,1645,1656,8
+2003-11-18,Friendly,played,Egypt,EGY,Sweden,SWE,TRUE,1,0,win,Cairo,Egypt,FALSE,1645,1816,1657,1804,12
+2003-12-12,Prime Minister's Cup,played,Egypt,EGY,Kenya,,FALSE,1,0,win,Riffa,Bahrain,TRUE,1657,1503,1666,1494,9
+2003-12-15,Prime Minister's Cup,played,Egypt,EGY,Bahrain,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1666,1516,1679,1503,13
+2003-12-18,Prime Minister's Cup,played,Egypt,EGY,Iraq,IRQ,TRUE,2,0,win,Riffa,Bahrain,TRUE,1679,1636,1699,1616,20
+2004-01-08,Friendly,played,Egypt,EGY,Rwanda,,TRUE,5,1,win,Port Said,Egypt,FALSE,1699,1314,1701,1312,2
+2004-01-14,Friendly,played,Egypt,EGY,DR Congo,,TRUE,2,2,draw,Port Said,Egypt,FALSE,1701,1504,1694,1511,-7
+2004-01-17,Friendly,played,Egypt,EGY,Burkina Faso,,TRUE,1,1,draw,Port Said,Egypt,FALSE,1694,1434,1686,1442,-8
+2004-01-25,African Cup of Nations,played,Egypt,EGY,Zimbabwe,,FALSE,2,1,win,Sfax,Tunisia,TRUE,1686,1478,1698,1466,12
+2004-01-29,African Cup of Nations,played,Egypt,EGY,Algeria,DZA,FALSE,1,2,loss,Sousse,Tunisia,TRUE,1698,1517,1661,1554,-37
+2004-02-03,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,FALSE,0,0,draw,Monastir,Tunisia,TRUE,1661,1777,1669,1769,8
+2004-03-31,Friendly,played,Egypt,EGY,Trinidad and Tobago,TTO,TRUE,2,1,win,Cairo,Egypt,FALSE,1669,1424,1671,1422,2
+2004-05-24,Friendly,played,Egypt,EGY,Zimbabwe,,TRUE,2,0,win,Cairo,Egypt,FALSE,1671,1484,1676,1479,5
+2004-05-29,Friendly,played,Egypt,EGY,Gabon,,TRUE,2,0,win,Cairo,Egypt,FALSE,1676,1346,1678,1344,2
+2004-06-06,FIFA World Cup qualification,played,Egypt,EGY,Sudan,,FALSE,3,0,win,Khartoum,Sudan,FALSE,1678,1347,1693,1332,15
+2004-06-20,FIFA World Cup qualification,played,Egypt,EGY,Ivory Coast,CIV,TRUE,1,2,loss,Alexandria,Egypt,FALSE,1693,1634,1664,1663,-29
+2004-07-04,FIFA World Cup qualification,played,Egypt,EGY,Benin,,FALSE,3,3,draw,Cotonou,Benin,FALSE,1664,1290,1651,1303,-13
+2004-09-05,FIFA World Cup qualification,played,Egypt,EGY,Cameroon,CMR,TRUE,3,2,win,Cairo,Egypt,FALSE,1651,1739,1670,1720,19
+2004-10-08,FIFA World Cup qualification,played,Egypt,EGY,Libya,,FALSE,1,2,loss,Tripoli,Libya,FALSE,1670,1478,1645,1503,-25
+2004-11-29,Friendly,played,Egypt,EGY,Bulgaria,BGR,TRUE,1,1,draw,Cairo,Egypt,FALSE,1645,1729,1645,1729,0
+2005-01-08,Friendly,played,Egypt,EGY,Uganda,,TRUE,3,0,win,Cairo,Egypt,FALSE,1645,1334,1648,1331,3
+2005-02-04,Friendly,played,Egypt,EGY,South Korea,KOR,FALSE,1,0,win,Seoul,South Korea,FALSE,1648,1712,1662,1698,14
+2005-02-09,Friendly,played,Egypt,EGY,Belgium,BEL,TRUE,4,0,win,Cairo,Egypt,FALSE,1662,1724,1679,1707,17
+2005-03-14,Friendly,played,Egypt,EGY,Saudi Arabia,SAU,FALSE,1,0,win,Dammam,Saudi Arabia,FALSE,1679,1572,1689,1562,10
+2005-03-27,FIFA World Cup qualification,played,Egypt,EGY,Libya,,TRUE,4,1,win,Cairo,Egypt,FALSE,1689,1543,1703,1529,14
+2005-05-27,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1703,1527,1711,1519,8
+2005-06-05,FIFA World Cup qualification,played,Egypt,EGY,Sudan,,TRUE,6,1,win,Cairo,Egypt,FALSE,1711,1380,1717,1374,6
+2005-06-19,FIFA World Cup qualification,played,Egypt,EGY,Ivory Coast,CIV,FALSE,0,2,loss,Abidjan,Ivory Coast,FALSE,1717,1665,1691,1691,-26
+2005-07-30,Friendly,played,Egypt,EGY,United Arab Emirates,ARE,TRUE,0,0,draw,Geneva,Switzerland,TRUE,,,,,
+2005-08-17,Friendly,played,Egypt,EGY,Portugal,PRT,FALSE,0,2,loss,Ponta Delgada,Portugal,FALSE,1698,1904,1694,1908,-4
+2005-09-04,FIFA World Cup qualification,played,Egypt,EGY,Benin,,TRUE,4,1,win,Cairo,Egypt,FALSE,1694,1254,1697,1251,3
+2005-10-08,FIFA World Cup qualification,played,Egypt,EGY,Cameroon,CMR,FALSE,1,1,draw,Yaoundé,Cameroon,FALSE,1697,1751,1705,1743,8
+2005-11-16,Friendly,played,Egypt,EGY,Tunisia,TUN,TRUE,1,2,loss,Cairo,Egypt,FALSE,1705,1699,1692,1712,-13
+2005-12-27,Friendly,played,Egypt,EGY,Uganda,,TRUE,2,0,win,Cairo,Egypt,FALSE,1692,1349,1695,1346,3
+2005-12-29,Friendly,played,Egypt,EGY,Senegal,SEN,TRUE,4,2,win,Cairo,Egypt,FALSE,1695,1719,1713,1701,18
+2006-01-05,Friendly,played,Egypt,EGY,Zimbabwe,,TRUE,2,0,win,Alexandria,Egypt,FALSE,1713,1502,1717,1498,4
+2006-01-14,Friendly,played,Egypt,EGY,South Africa,ZAF,TRUE,1,2,loss,Cairo,Egypt,FALSE,1717,1517,1700,1534,-17
+2006-01-20,African Cup of Nations,played,Egypt,EGY,Libya,,TRUE,3,0,win,Cairo,Egypt,FALSE,1700,1469,1711,1458,11
+2006-01-24,African Cup of Nations,played,Egypt,EGY,Morocco,MAR,TRUE,0,0,draw,Cairo,Egypt,FALSE,1711,1660,1701,1670,-10
+2006-01-28,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,TRUE,3,1,win,Cairo,Egypt,FALSE,1701,1742,1732,1711,31
+2006-02-03,African Cup of Nations,played,Egypt,EGY,DR Congo,,TRUE,4,1,win,Cairo,Egypt,FALSE,1732,1496,1743,1485,11
+2006-02-07,African Cup of Nations,played,Egypt,EGY,Senegal,SEN,TRUE,2,1,win,Cairo,Egypt,FALSE,1743,1682,1757,1668,14
+2006-02-10,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,TRUE,0,0,draw,Cairo,Egypt,FALSE,1757,1747,1749,1755,-8
+2006-06-03,Friendly,played,Egypt,EGY,Spain,ESP,FALSE,0,2,loss,Elche,Spain,FALSE,1749,1953,1745,1957,-4
+2006-08-16,Friendly,played,Egypt,EGY,Uruguay,URY,TRUE,0,2,loss,Alexandria,Egypt,FALSE,1745,1839,1730,1854,-15
+2006-09-02,African Cup of Nations qualification,played,Egypt,EGY,Burundi,,TRUE,4,1,win,Alexandria,Egypt,FALSE,1730,1229,1732,1227,2
+2006-10-07,African Cup of Nations qualification,played,Egypt,EGY,Botswana,,FALSE,0,0,draw,Gaborone,Botswana,FALSE,1732,1283,1717,1298,-15
+2006-11-15,Friendly,played,Egypt,EGY,South Africa,ZAF,TRUE,1,0,win,Brentford,England,TRUE,1717,1479,1723,1473,6
+2007-02-07,Friendly,played,Egypt,EGY,Sweden,SWE,TRUE,2,0,win,Cairo,Egypt,FALSE,1723,1840,1739,1824,16
+2007-03-25,African Cup of Nations qualification,played,Egypt,EGY,Mauritania,,TRUE,3,0,win,Cairo,Egypt,FALSE,1739,1194,1741,1192,2
+2007-06-03,African Cup of Nations qualification,played,Egypt,EGY,Mauritania,,FALSE,1,1,draw,Nouakchott,Mauritania,FALSE,1741,1192,1724,1209,-17
+2007-06-12,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1724,1442,1719,1447,-5
+2007-08-22,Friendly,played,Egypt,EGY,Ivory Coast,CIV,FALSE,0,0,draw,Paris,France,TRUE,1719,1788,1721,1786,2
+2007-09-09,African Cup of Nations qualification,played,Egypt,EGY,Burundi,,FALSE,0,0,draw,Bujumbura,Burundi,FALSE,1721,1263,1706,1278,-15
+2007-10-13,African Cup of Nations qualification,played,Egypt,EGY,Botswana,,TRUE,1,0,win,Cairo,Egypt,FALSE,1706,1321,1708,1319,2
+2007-10-17,Friendly,played,Egypt,EGY,Japan,JPN,FALSE,1,4,loss,Osaka,Japan,FALSE,1708,1751,1681,1778,-27
+2008-01-05,Friendly,played,Egypt,EGY,Namibia,,TRUE,3,0,win,Aswan,Egypt,FALSE,1699,1277,1701,1275,2
+2008-01-10,Friendly,played,Egypt,EGY,Mali,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1701,1570,1707,1564,6
+2008-01-13,Friendly,played,Egypt,EGY,Angola,AGO,FALSE,3,3,draw,Alverca do Ribatejo,Portugal,TRUE,1707,1530,1702,1535,-5
+2008-01-22,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,TRUE,4,2,win,Kumasi,Ghana,TRUE,1702,1733,1743,1692,41
+2008-01-26,African Cup of Nations,played,Egypt,EGY,Sudan,,TRUE,3,0,win,Kumasi,Ghana,TRUE,1743,1356,1752,1347,9
+2008-01-30,African Cup of Nations,played,Egypt,EGY,Zambia,,TRUE,1,1,draw,Kumasi,Ghana,TRUE,1752,1554,1739,1567,-13
+2008-02-04,African Cup of Nations,played,Egypt,EGY,Angola,AGO,TRUE,2,1,win,Kumasi,Ghana,TRUE,1739,1584,1754,1569,15
+2008-02-07,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,FALSE,4,1,win,Kumasi,Ghana,TRUE,1754,1839,1808,1785,54
+2008-02-10,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,FALSE,1,0,win,Accra,Ghana,TRUE,1808,1788,1832,1764,24
+2008-03-26,Friendly,played,Egypt,EGY,Argentina,ARG,TRUE,0,2,loss,Cairo,Egypt,FALSE,1832,2014,1820,2026,-12
+2008-06-01,FIFA World Cup qualification,played,Egypt,EGY,DR Congo,,TRUE,2,1,win,Cairo,Egypt,FALSE,1820,1446,1822,1444,2
+2008-06-06,FIFA World Cup qualification,played,Egypt,EGY,Djibouti,,FALSE,4,0,win,Djibouti,Djibouti,FALSE,1822,805,1822,805,0
+2008-06-14,FIFA World Cup qualification,played,Egypt,EGY,Malawi,,FALSE,0,1,loss,Blantyre,Malawi,FALSE,1822,1291,1785,1328,-37
+2008-06-22,FIFA World Cup qualification,played,Egypt,EGY,Malawi,,TRUE,2,0,win,Cairo,Egypt,FALSE,1785,1328,1787,1326,2
+2008-08-20,Friendly,played,Egypt,EGY,Sudan,,FALSE,0,4,loss,Omdurman,Sudan,FALSE,1787,1326,1754,1359,-33
+2008-09-07,FIFA World Cup qualification,played,Egypt,EGY,DR Congo,,FALSE,1,0,win,Kinshasa,DR Congo,FALSE,1754,1465,1764,1455,10
+2008-10-12,FIFA World Cup qualification,played,Egypt,EGY,Djibouti,,TRUE,4,0,win,Cairo,Egypt,FALSE,1764,795,1764,795,0
+2008-11-19,Friendly,played,Egypt,EGY,Benin,,TRUE,5,1,win,Cairo,Egypt,FALSE,1764,1408,1767,1405,3
+2009-01-23,Friendly,played,Egypt,EGY,Kenya,,TRUE,1,0,win,Cairo,Egypt,FALSE,1767,1420,1768,1419,1
+2009-02-11,Friendly,played,Egypt,EGY,Ghana,GHA,TRUE,2,2,draw,Cairo,Egypt,FALSE,1768,1695,1763,1700,-5
+2009-03-29,FIFA World Cup qualification,played,Egypt,EGY,Zambia,,TRUE,1,1,draw,Cairo,Egypt,FALSE,1763,1453,1746,1470,-17
+2009-05-30,Friendly,played,Egypt,EGY,Oman,,FALSE,1,0,win,Muscat,Oman,FALSE,1746,1616,1755,1607,9
+2009-06-07,FIFA World Cup qualification,played,Egypt,EGY,Algeria,DZA,FALSE,1,3,loss,Blida,Algeria,FALSE,1755,1446,1709,1492,-46
+2009-06-15,Confederations Cup,played,Egypt,EGY,Brazil,BRA,FALSE,3,4,loss,Bloemfontein,South Africa,TRUE,1709,2057,1703,2063,-6
+2009-06-18,Confederations Cup,played,Egypt,EGY,Italy,ITA,TRUE,1,0,win,Johannesburg,South Africa,TRUE,1703,2011,1746,1968,43
+2009-06-21,Confederations Cup,played,Egypt,EGY,United States,USA,TRUE,0,3,loss,Rustenburg,South Africa,TRUE,1746,1775,1706,1815,-40
+2009-07-05,FIFA World Cup qualification,played,Egypt,EGY,Rwanda,,TRUE,3,0,win,Cairo,Egypt,FALSE,1706,1359,1711,1354,5
+2009-08-12,Friendly,played,Egypt,EGY,Guinea,,TRUE,3,3,draw,Cairo,Egypt,FALSE,1711,1524,1704,1531,-7
+2009-09-05,FIFA World Cup qualification,played,Egypt,EGY,Rwanda,,FALSE,1,0,win,Kigali,Rwanda,FALSE,1704,1341,1711,1334,7
+2009-10-02,Friendly,played,Egypt,EGY,Mauritius,,TRUE,4,0,win,Cairo,Egypt,FALSE,1711,1058,1711,1058,0
+2009-10-10,FIFA World Cup qualification,played,Egypt,EGY,Zambia,,FALSE,1,0,win,Chililabombwe,Zambia,FALSE,1711,1429,1721,1419,10
+2009-11-05,Friendly,played,Egypt,EGY,Tanzania,,TRUE,5,1,win,Aswan,Egypt,FALSE,1721,1374,1724,1371,3
+2009-11-14,FIFA World Cup qualification,played,Egypt,EGY,Algeria,DZA,TRUE,2,0,win,Cairo,Egypt,FALSE,1724,1561,1735,1550,11
+2009-11-18,FIFA World Cup qualification,played,Egypt,EGY,Algeria,DZA,FALSE,0,1,loss,Omdurman,Sudan,TRUE,1735,1550,1705,1580,-30
+2009-12-29,Friendly,played,Egypt,EGY,Malawi,,TRUE,1,1,draw,Cairo,Egypt,FALSE,1705,1347,1696,1356,-9
+2010-01-04,Friendly,played,Egypt,EGY,Mali,,TRUE,1,0,win,Dubai,United Arab Emirates,TRUE,1696,1570,1703,1563,7
+2010-01-12,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,TRUE,3,1,win,Benguela,Angola,TRUE,1703,1741,1745,1699,42
+2010-01-16,African Cup of Nations,played,Egypt,EGY,Mozambique,,TRUE,2,0,win,Benguela,Angola,TRUE,1745,1410,1755,1400,10
+2010-01-20,African Cup of Nations,played,Egypt,EGY,Benin,,TRUE,2,0,win,Benguela,Angola,TRUE,1755,1448,1766,1437,11
+2010-01-25,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,TRUE,3,1,win,Benguela,Angola,TRUE,1766,1739,1801,1704,35
+2010-01-28,African Cup of Nations,played,Egypt,EGY,Algeria,DZA,FALSE,4,0,win,Benguela,Angola,TRUE,1801,1583,1822,1562,21
+2010-01-31,African Cup of Nations,played,Egypt,EGY,Ghana,GHA,FALSE,1,0,win,Luanda,Angola,TRUE,1822,1708,1839,1691,17
+2010-03-03,Friendly,played,Egypt,EGY,England,ENG,FALSE,1,3,loss,London,England,FALSE,1839,1985,1833,1991,-6
+2010-08-11,Friendly,played,Egypt,EGY,DR Congo,,TRUE,6,3,win,Cairo,Egypt,FALSE,1833,1414,1835,1412,2
+2010-09-05,African Cup of Nations qualification,played,Egypt,EGY,Sierra Leone,,TRUE,1,1,draw,Cairo,Egypt,FALSE,1835,1260,1816,1279,-19
+2010-10-10,African Cup of Nations qualification,played,Egypt,EGY,Niger,,FALSE,0,1,loss,Niamey,Niger,FALSE,1816,1257,1779,1294,-37
+2010-11-17,Friendly,played,Egypt,EGY,Australia,AUS,TRUE,3,0,win,Cairo,Egypt,FALSE,1779,1788,1792,1775,13
+2010-12-16,Friendly,played,Egypt,EGY,Qatar,QAT,FALSE,1,2,loss,Doha,Qatar,FALSE,1792,1507,1777,1522,-15
+2011-01-05,Nile Basin Tournament,played,Egypt,EGY,Tanzania,,TRUE,5,1,win,Cairo,Egypt,FALSE,1777,1395,1780,1392,3
+2011-01-08,Nile Basin Tournament,played,Egypt,EGY,Uganda,,TRUE,1,0,win,Cairo,Egypt,FALSE,1780,1565,1784,1561,4
+2011-01-11,Nile Basin Tournament,played,Egypt,EGY,Burundi,,TRUE,3,0,win,Ismailia,Egypt,FALSE,1784,1211,1785,1210,1
+2011-01-14,Nile Basin Tournament,played,Egypt,EGY,Kenya,,TRUE,5,1,win,Cairo,Egypt,FALSE,1785,1279,1787,1277,2
+2011-01-17,Nile Basin Tournament,played,Egypt,EGY,Uganda,,TRUE,3,1,win,Ismailia,Egypt,FALSE,1787,1563,1793,1557,6
+2011-03-26,African Cup of Nations qualification,played,Egypt,EGY,South Africa,ZAF,FALSE,0,1,loss,Johannesburg,South Africa,FALSE,1793,1608,1768,1633,-25
+2011-06-05,African Cup of Nations qualification,played,Egypt,EGY,South Africa,ZAF,TRUE,0,0,draw,Cairo,Egypt,FALSE,1768,1638,1756,1650,-12
+2011-09-03,African Cup of Nations qualification,played,Egypt,EGY,Sierra Leone,,FALSE,1,2,loss,Freetown,Sierra Leone,FALSE,1756,1286,1720,1322,-36
+2011-10-08,African Cup of Nations qualification,played,Egypt,EGY,Niger,,TRUE,3,0,win,Cairo,Egypt,FALSE,1720,1334,1724,1330,4
+2011-11-14,Friendly,played,Egypt,EGY,Brazil,BRA,FALSE,0,2,loss,Al Rayyan,Qatar,TRUE,1724,2060,1720,2064,-4
+2012-02-27,Friendly,played,Egypt,EGY,Kenya,,TRUE,5,0,win,Doha,Qatar,TRUE,,,,,
+2012-02-29,Friendly,played,Egypt,EGY,Niger,,TRUE,1,0,win,Doha,Qatar,TRUE,1720,1300,1722,1298,2
+2012-03-02,Friendly,played,Egypt,EGY,DR Congo,,TRUE,0,0,draw,Doha,Qatar,TRUE,1722,1437,1715,1444,-7
+2012-03-29,Friendly,played,Egypt,EGY,Uganda,,TRUE,2,1,win,Omdurman,Sudan,TRUE,1715,1504,1720,1499,5
+2012-03-31,Friendly,played,Egypt,EGY,Chad,,TRUE,4,0,win,Omdurman,Sudan,TRUE,1720,1247,1722,1245,2
+2012-04-12,Friendly,played,Egypt,EGY,Nigeria,NGA,TRUE,3,2,win,Dubai,United Arab Emirates,TRUE,1722,1654,1730,1646,8
+2012-04-15,Friendly,played,Egypt,EGY,Mauritania,,TRUE,3,0,win,Dubai,United Arab Emirates,TRUE,1730,1142,1731,1141,1
+2012-04-17,Friendly,played,Egypt,EGY,Iraq,IRQ,TRUE,0,0,draw,Dubai,United Arab Emirates,TRUE,1731,1585,1727,1589,-4
+2012-05-11,Friendly,played,Egypt,EGY,Lebanon,,FALSE,4,1,win,Tripoli,Lebanon,FALSE,1732,1318,1737,1313,5
+2012-05-20,Friendly,played,Egypt,EGY,Cameroon,CMR,TRUE,2,1,win,Omdurman,Sudan,TRUE,1737,1657,1745,1649,8
+2012-05-22,Friendly,played,Egypt,EGY,Togo,TGO,TRUE,3,0,win,Omdurman,Sudan,TRUE,1745,1361,1748,1358,3
+2012-06-01,FIFA World Cup qualification,played,Egypt,EGY,Mozambique,,TRUE,2,0,win,Alexandria,Egypt,FALSE,1748,1333,1751,1330,3
+2012-06-10,FIFA World Cup qualification,played,Egypt,EGY,Guinea,,FALSE,3,2,win,Conakry,Guinea,FALSE,1751,1553,1766,1538,15
+2012-06-15,African Cup of Nations qualification,played,Egypt,EGY,Central African Republic,,TRUE,2,3,loss,Alexandria,Egypt,FALSE,1766,1246,1727,1285,-39
+2012-06-30,African Cup of Nations qualification,played,Egypt,EGY,Central African Republic,,FALSE,1,1,draw,Bangui,Central African Republic,FALSE,1686,1285,1672,1299,-14
+2012-08-15,Friendly,played,Egypt,EGY,Oman,,FALSE,1,1,draw,Salalah,Oman,FALSE,1656,1527,1655,1528,-1
+2012-10-12,Friendly,played,Egypt,EGY,Congo,,TRUE,3,0,win,Sharjah,United Arab Emirates,TRUE,1655,1390,1661,1384,6
+2012-10-16,Friendly,played,Egypt,EGY,Tunisia,TUN,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1661,1584,1649,1596,-12
+2012-11-14,Friendly,played,Egypt,EGY,Georgia,,FALSE,0,0,draw,Tbilisi,Georgia,FALSE,1649,1508,1648,1509,-1
+2012-12-28,Friendly,played,Egypt,EGY,Qatar,QAT,FALSE,2,0,win,Doha,Qatar,FALSE,1648,1488,1660,1476,12
+2013-01-10,Friendly,played,Egypt,EGY,Ghana,GHA,FALSE,0,3,loss,Abu Dhabi,United Arab Emirates,TRUE,1660,1676,1643,1693,-17
+2013-01-14,Friendly,played,Egypt,EGY,Ivory Coast,CIV,FALSE,2,4,loss,Abu Dhabi,United Arab Emirates,TRUE,1643,1835,1636,1842,-7
+2013-02-06,Friendly,played,Egypt,EGY,Chile,CHL,FALSE,1,2,loss,Madrid,Spain,TRUE,1636,1804,1630,1810,-6
+2013-03-07,Friendly,played,Egypt,EGY,Qatar,QAT,FALSE,1,3,loss,Doha,Qatar,FALSE,1630,1467,1612,1485,-18
+2013-03-22,Friendly,played,Egypt,EGY,Eswatini,,TRUE,10,0,win,Alexandria,Egypt,FALSE,1612,1109,1614,1107,2
+2013-03-26,FIFA World Cup qualification,played,Egypt,EGY,Zimbabwe,,TRUE,2,1,win,Alexandria,Egypt,FALSE,1614,1368,1619,1363,5
+2013-06-04,Friendly,played,Egypt,EGY,Botswana,,TRUE,1,1,draw,Cairo,Egypt,FALSE,1619,1282,1610,1291,-9
+2013-06-09,FIFA World Cup qualification,played,Egypt,EGY,Zimbabwe,,FALSE,4,2,win,Harare,Zimbabwe,FALSE,1610,1361,1628,1343,18
+2013-06-16,FIFA World Cup qualification,played,Egypt,EGY,Mozambique,,FALSE,1,0,win,Maputo,Mozambique,FALSE,1628,1316,1637,1307,9
+2013-08-14,Friendly,played,Egypt,EGY,Uganda,,TRUE,3,0,win,el-Gouna,Egypt,FALSE,1637,1524,1645,1516,8
+2013-09-10,FIFA World Cup qualification,played,Egypt,EGY,Guinea,,TRUE,4,2,win,el-Gouna,Egypt,FALSE,1645,1523,1658,1510,13
+2013-09-30,Friendly,played,Egypt,EGY,Uganda,,TRUE,2,0,win,Cairo,Egypt,FALSE,1658,1507,1664,1501,6
+2013-10-15,FIFA World Cup qualification,played,Egypt,EGY,Ghana,GHA,FALSE,1,6,loss,Kumasi,Ghana,FALSE,1670,1688,1643,1715,-27
+2013-11-14,Friendly,played,Egypt,EGY,Zambia,,TRUE,2,0,win,Cairo,Egypt,FALSE,1643,1528,1650,1521,7
+2013-11-19,FIFA World Cup qualification,played,Egypt,EGY,Ghana,GHA,TRUE,2,1,win,Cairo,Egypt,FALSE,1650,1715,1668,1697,18
+2014-03-05,Friendly,played,Egypt,EGY,Bosnia and Herzegovina,BIH,FALSE,2,0,win,Innsbruck,Austria,TRUE,1668,1783,1688,1763,20
+2014-06-04,Friendly,played,Egypt,EGY,Jamaica,JAM,FALSE,2,2,draw,London,England,TRUE,1685,1520,1681,1524,-4
+2014-08-30,Friendly,played,Egypt,EGY,Kenya,,TRUE,1,0,win,Aswan,Egypt,FALSE,1681,1379,1683,1377,2
+2014-09-05,African Cup of Nations qualification,played,Egypt,EGY,Senegal,SEN,FALSE,0,2,loss,Dakar,Senegal,FALSE,1683,1584,1653,1614,-30
+2014-09-10,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,TRUE,0,1,loss,Cairo,Egypt,FALSE,1653,1533,1622,1564,-31
+2014-10-10,African Cup of Nations qualification,played,Egypt,EGY,Botswana,,FALSE,2,0,win,Gaborone,Botswana,FALSE,1622,1324,1637,1309,15
+2014-10-15,African Cup of Nations qualification,played,Egypt,EGY,Botswana,,TRUE,2,0,win,Cairo,Egypt,FALSE,1637,1309,1642,1304,5
+2014-11-15,African Cup of Nations qualification,played,Egypt,EGY,Senegal,SEN,TRUE,0,1,loss,Cairo,Egypt,FALSE,1642,1604,1614,1632,-28
+2014-11-19,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,FALSE,1,2,loss,Monastir,Tunisia,FALSE,1614,1580,1598,1596,-16
+2015-03-26,Friendly,played,Egypt,EGY,Equatorial Guinea,,TRUE,2,0,win,Cairo,Egypt,FALSE,1598,1384,1602,1380,4
+2015-06-08,Friendly,played,Egypt,EGY,Malawi,,TRUE,2,1,win,Alexandria,Egypt,FALSE,1602,1395,1605,1392,3
+2015-06-14,African Cup of Nations qualification,played,Egypt,EGY,Tanzania,,TRUE,3,0,win,Alexandria,Egypt,FALSE,1605,1238,1609,1234,4
+2015-10-11,Friendly,played,Egypt,EGY,Zambia,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,TRUE,1624,1523,1637,1510,13
+2015-11-14,FIFA World Cup qualification,played,Egypt,EGY,Chad,,FALSE,0,1,loss,N'Djamena,Chad,FALSE,1637,1249,1603,1283,-34
+2015-11-17,FIFA World Cup qualification,played,Egypt,EGY,Chad,,TRUE,4,0,win,Alexandria,Egypt,FALSE,1603,1283,1609,1277,6
+2016-01-27,Friendly,played,Egypt,EGY,Jordan,,TRUE,0,1,loss,Aswan,Egypt,FALSE,1609,1531,1594,1546,-15
+2016-01-29,Friendly,played,Egypt,EGY,Libya,,TRUE,2,0,win,Aswan,Egypt,FALSE,1594,1505,1602,1497,8
+2016-02-27,Friendly,played,Egypt,EGY,Burkina Faso,,TRUE,2,0,win,Alexandria,Egypt,FALSE,,,,,
+2016-03-25,African Cup of Nations qualification,played,Egypt,EGY,Nigeria,NGA,FALSE,1,1,draw,Kaduna,Nigeria,FALSE,1602,1634,1609,1627,7
+2016-03-29,African Cup of Nations qualification,played,Egypt,EGY,Nigeria,NGA,TRUE,1,0,win,Alexandria,Egypt,FALSE,1609,1627,1624,1612,15
+2016-06-04,African Cup of Nations qualification,played,Egypt,EGY,Tanzania,,FALSE,2,0,win,Dar es Salaam,Tanzania,FALSE,1624,1340,1639,1325,15
+2016-08-30,Friendly,played,Egypt,EGY,Guinea,,TRUE,1,1,draw,Alexandria,Egypt,FALSE,1639,1520,1633,1526,-6
+2016-09-06,Friendly,played,Egypt,EGY,South Africa,ZAF,FALSE,0,1,loss,Johannesburg,South Africa,FALSE,1633,1588,1620,1601,-13
+2016-10-09,FIFA World Cup qualification,played,Egypt,EGY,Congo,,FALSE,2,1,win,Brazzaville,Congo,FALSE,1620,1461,1637,1444,17
+2016-11-13,FIFA World Cup qualification,played,Egypt,EGY,Ghana,GHA,TRUE,2,0,win,Alexandria,Egypt,FALSE,1637,1609,1656,1590,19
+2017-01-08,Friendly,played,Egypt,EGY,Tunisia,TUN,TRUE,1,0,win,Cairo,Egypt,FALSE,1656,1593,1662,1587,6
+2017-01-17,African Cup of Nations,played,Egypt,EGY,Mali,,FALSE,0,0,draw,Port-Gentil,Gabon,TRUE,1662,1536,1653,1545,-9
+2017-01-21,African Cup of Nations,played,Egypt,EGY,Uganda,,TRUE,1,0,win,Port-Gentil,Gabon,TRUE,1653,1463,1666,1450,13
+2017-01-25,African Cup of Nations,played,Egypt,EGY,Ghana,GHA,TRUE,1,0,win,Port-Gentil,Gabon,TRUE,1666,1628,1688,1606,22
+2017-01-29,African Cup of Nations,played,Egypt,EGY,Morocco,MAR,TRUE,1,0,win,Port-Gentil,Gabon,TRUE,1688,1618,1708,1598,20
+2017-02-01,African Cup of Nations,played,Egypt,EGY,Burkina Faso,,FALSE,1,1,draw,Libreville,Gabon,TRUE,1708,1582,1699,1591,-9
+2017-02-05,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,TRUE,1,2,loss,Libreville,Gabon,TRUE,1699,1658,1671,1686,-28
+2017-03-28,Friendly,played,Egypt,EGY,Togo,TGO,TRUE,3,0,win,Alexandria,Egypt,FALSE,1671,1391,1675,1387,4
+2017-05-13,Friendly,played,Egypt,EGY,Libya,,TRUE,1,0,win,Cairo,Egypt,FALSE,,,,,
+2017-06-05,Friendly,played,Egypt,EGY,Libya,,TRUE,1,0,win,New Cairo,Egypt,FALSE,1675,1459,1678,1456,3
+2017-06-11,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,FALSE,0,1,loss,Radès,Tunisia,FALSE,1678,1550,1656,1572,-22
+2017-08-31,FIFA World Cup qualification,played,Egypt,EGY,Uganda,,FALSE,0,1,loss,Kampala,Uganda,FALSE,1656,1486,1632,1510,-24
+2017-09-05,FIFA World Cup qualification,played,Egypt,EGY,Uganda,,TRUE,1,0,win,Alexandria,Egypt,FALSE,1632,1510,1641,1501,9
+2017-10-08,FIFA World Cup qualification,played,Egypt,EGY,Congo,,TRUE,2,1,win,Alexandria,Egypt,FALSE,1641,1383,1646,1378,5
+2017-11-12,FIFA World Cup qualification,played,Egypt,EGY,Ghana,GHA,FALSE,1,1,draw,Kumasi,Ghana,FALSE,1646,1617,1650,1613,4
+2018-03-23,Friendly,played,Egypt,EGY,Portugal,PRT,FALSE,1,2,loss,Zürich,Switzerland,TRUE,1650,1993,1648,1995,-2
+2018-03-27,Friendly,played,Egypt,EGY,Greece,GRC,FALSE,0,1,loss,Zürich,Switzerland,TRUE,1648,1653,1638,1663,-10
+2018-05-25,Friendly,played,Egypt,EGY,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1638,1421,1635,1424,-3
+2018-06-01,Friendly,played,Egypt,EGY,Colombia,COL,FALSE,0,0,draw,Bergamo,Italy,TRUE,1635,1934,1642,1927,7
+2018-06-06,Friendly,played,Egypt,EGY,Belgium,BEL,FALSE,0,3,loss,Brussels,Belgium,FALSE,1642,1927,1639,1930,-3
+2018-06-15,FIFA World Cup,played,Egypt,EGY,Uruguay,URY,TRUE,0,1,loss,Ekaterinburg,Russia,TRUE,1639,1892,1628,1903,-11
+2018-06-19,FIFA World Cup,played,Egypt,EGY,Russia,RUS,FALSE,1,3,loss,Saint Petersburg,Russia,FALSE,1628,1706,1604,1730,-24
+2018-06-25,FIFA World Cup,played,Egypt,EGY,Saudi Arabia,SAU,FALSE,1,2,loss,Volgograd,Russia,TRUE,1604,1551,1569,1586,-35
+2018-09-08,African Cup of Nations qualification,played,Egypt,EGY,Niger,,TRUE,6,0,win,Alexandria,Egypt,FALSE,1569,1306,1578,1297,9
+2018-10-12,African Cup of Nations qualification,played,Egypt,EGY,Eswatini,,TRUE,4,1,win,Cairo,Egypt,FALSE,1578,1237,1583,1232,5
+2018-10-16,African Cup of Nations qualification,played,Egypt,EGY,Eswatini,,FALSE,2,0,win,Manzini,Eswatini,FALSE,1583,1232,1594,1221,11
+2018-11-16,African Cup of Nations qualification,played,Egypt,EGY,Tunisia,TUN,TRUE,3,2,win,Alexandria,Egypt,FALSE,1594,1676,1613,1657,19
+2019-03-23,African Cup of Nations qualification,played,Egypt,EGY,Niger,,FALSE,1,1,draw,Niamey,Niger,FALSE,1613,1309,1602,1320,-11
+2019-03-26,Friendly,played,Egypt,EGY,Nigeria,NGA,FALSE,0,1,loss,Asaba,Nigeria,FALSE,1602,1712,1597,1717,-5
+2019-06-13,Friendly,played,Egypt,EGY,Tanzania,,TRUE,1,0,win,Alexandria,Egypt,FALSE,1597,1361,1600,1358,3
+2019-06-16,Friendly,played,Egypt,EGY,Guinea,,TRUE,3,1,win,Alexandria,Egypt,FALSE,1600,1437,1605,1432,5
+2019-06-21,African Cup of Nations,played,Egypt,EGY,Zimbabwe,,TRUE,1,0,win,Cairo,Egypt,FALSE,1605,1480,1616,1469,11
+2019-06-26,African Cup of Nations,played,Egypt,EGY,DR Congo,,TRUE,2,0,win,Cairo,Egypt,FALSE,1616,1496,1632,1480,16
+2019-06-30,African Cup of Nations,played,Egypt,EGY,Uganda,,TRUE,2,0,win,Cairo,Egypt,FALSE,1632,1492,1647,1477,15
+2019-07-06,African Cup of Nations,played,Egypt,EGY,South Africa,ZAF,TRUE,0,1,loss,Cairo,Egypt,FALSE,1647,1508,1607,1548,-40
+2019-10-14,Friendly,played,Egypt,EGY,Botswana,,TRUE,1,0,win,Cairo,Egypt,FALSE,1607,1294,1609,1292,2
+2019-11-07,Friendly,played,Egypt,EGY,Liberia,,TRUE,1,0,win,Alexandria,Egypt,FALSE,1609,1327,1611,1325,2
+2019-11-14,African Cup of Nations qualification,played,Egypt,EGY,Kenya,,TRUE,1,1,draw,Alexandria,Egypt,FALSE,1611,1368,1596,1383,-15
+2019-11-18,African Cup of Nations qualification,played,Egypt,EGY,Comoros,,FALSE,0,0,draw,Moroni,Comoros,FALSE,1596,1174,1581,1189,-15
+2020-11-14,African Cup of Nations qualification,played,Egypt,EGY,Togo,TGO,TRUE,1,0,win,Cairo,Egypt,FALSE,1581,1313,1585,1309,4
+2020-11-17,African Cup of Nations qualification,played,Egypt,EGY,Togo,TGO,FALSE,3,1,win,Lomé,Togo,FALSE,1585,1309,1601,1293,16
+2021-03-25,African Cup of Nations qualification,played,Egypt,EGY,Kenya,,FALSE,1,1,draw,Nairobi,Kenya,FALSE,1601,1357,1593,1365,-8
+2021-03-29,African Cup of Nations qualification,played,Egypt,EGY,Comoros,,TRUE,4,0,win,Cairo,Egypt,FALSE,1593,1239,1598,1234,5
+2021-09-01,FIFA World Cup qualification,played,Egypt,EGY,Angola,AGO,TRUE,1,0,win,Cairo,Egypt,FALSE,1598,1368,1603,1363,5
+2021-09-05,FIFA World Cup qualification,played,Egypt,EGY,Gabon,,FALSE,1,1,draw,Franceville,Gabon,FALSE,1603,1411,1598,1416,-5
+2021-09-30,Friendly,played,Egypt,EGY,Liberia,,TRUE,2,0,win,Alexandria,Egypt,FALSE,1598,1365,1602,1361,4
+2021-10-08,FIFA World Cup qualification,played,Egypt,EGY,Libya,,TRUE,1,0,win,Alexandria,Egypt,FALSE,1602,1373,1607,1368,5
+2021-10-11,FIFA World Cup qualification,played,Egypt,EGY,Libya,,FALSE,3,0,win,Benina,Libya,FALSE,1607,1368,1629,1346,22
+2021-11-12,FIFA World Cup qualification,played,Egypt,EGY,Angola,AGO,FALSE,2,2,draw,Luanda,Angola,FALSE,1629,1345,1619,1355,-10
+2021-11-16,FIFA World Cup qualification,played,Egypt,EGY,Gabon,,TRUE,2,1,win,Alexandria,Egypt,FALSE,1619,1419,1625,1413,6
+2021-12-01,Arab Cup,played,Egypt,EGY,Lebanon,,TRUE,1,0,win,Doha,Qatar,TRUE,1625,1380,1633,1372,8
+2021-12-04,Arab Cup,played,Egypt,EGY,Sudan,,FALSE,5,0,win,Doha,Qatar,TRUE,1633,1349,1646,1336,13
+2021-12-07,Arab Cup,played,Egypt,EGY,Algeria,DZA,FALSE,1,1,draw,Al Wakrah,Qatar,TRUE,1646,1763,1652,1757,6
+2021-12-11,Arab Cup,played,Egypt,EGY,Jordan,,TRUE,3,1,win,Al Wakrah,Qatar,TRUE,1652,1551,1674,1529,22
+2021-12-15,Arab Cup,played,Egypt,EGY,Tunisia,TUN,FALSE,0,1,loss,Doha,Qatar,TRUE,1674,1636,1652,1658,-22
+2021-12-18,Arab Cup,played,Egypt,EGY,Qatar,QAT,FALSE,0,0,draw,Doha,Qatar,FALSE,1652,1669,1658,1663,6
+2022-01-11,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,FALSE,0,1,loss,Garoua,Cameroon,TRUE,1658,1643,1632,1669,-26
+2022-01-15,African Cup of Nations,played,Egypt,EGY,Guinea-Bissau,,FALSE,1,0,win,Garoua,Cameroon,TRUE,1632,1382,1642,1372,10
+2022-01-19,African Cup of Nations,played,Egypt,EGY,Sudan,,TRUE,1,0,win,Yaoundé,Cameroon,TRUE,1642,1306,1648,1300,6
+2022-01-26,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,FALSE,0,0,draw,Douala,Cameroon,TRUE,1648,1687,1651,1684,3
+2022-01-30,African Cup of Nations,played,Egypt,EGY,Morocco,MAR,TRUE,2,1,win,Yaoundé,Cameroon,TRUE,1651,1765,1684,1732,33
+2022-02-03,African Cup of Nations,played,Egypt,EGY,Cameroon,CMR,FALSE,0,0,draw,Yaoundé,Cameroon,FALSE,1684,1632,1687,1629,3
+2022-02-06,African Cup of Nations,played,Egypt,EGY,Senegal,SEN,FALSE,0,0,draw,Yaoundé,Cameroon,TRUE,1687,1731,1690,1728,3
+2022-03-25,FIFA World Cup qualification,played,Egypt,EGY,Senegal,SEN,TRUE,1,0,win,Cairo,Egypt,FALSE,1690,1728,1706,1712,16
+2022-03-29,FIFA World Cup qualification,played,Egypt,EGY,Senegal,SEN,FALSE,0,1,loss,Diamniadio,Senegal,FALSE,1706,1712,1692,1726,-14
+2022-06-05,African Cup of Nations qualification,played,Egypt,EGY,Guinea,,TRUE,1,0,win,Cairo,Egypt,FALSE,1692,1379,1695,1376,3
+2022-06-09,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,FALSE,0,2,loss,Lilongwe,Malawi,TRUE,1695,1302,1641,1356,-54
+2022-06-14,Friendly,played,Egypt,EGY,South Korea,KOR,FALSE,1,4,loss,Seoul,South Korea,FALSE,1641,1799,1635,1805,-6
+2022-09-23,Friendly,played,Egypt,EGY,Niger,,TRUE,3,0,win,Alexandria,Egypt,FALSE,1635,1255,1638,1252,3
+2022-09-27,Friendly,played,Egypt,EGY,Liberia,,TRUE,3,0,win,Alexandria,Egypt,FALSE,1638,1310,1642,1306,4
+2022-11-18,Friendly,played,Egypt,EGY,Belgium,BEL,TRUE,2,1,win,Kuwait City,Kuwait,TRUE,1642,2024,1660,2006,18
+2023-03-24,African Cup of Nations qualification,played,Egypt,EGY,Malawi,,TRUE,2,0,win,Cairo,Egypt,FALSE,1660,1267,1663,1264,3
+2023-03-28,African Cup of Nations qualification,played,Egypt,EGY,Malawi,,FALSE,4,0,win,Lilongwe,Malawi,FALSE,1663,1264,1674,1253,11
+2023-06-14,African Cup of Nations qualification,played,Egypt,EGY,Guinea,,FALSE,2,1,win,Marrakech,Morocco,TRUE,1674,1424,1682,1416,8
+2023-06-18,Friendly,played,Egypt,EGY,South Sudan,,TRUE,3,0,win,Cairo,Egypt,FALSE,1682,1117,1683,1116,1
+2023-09-08,African Cup of Nations qualification,played,Egypt,EGY,Ethiopia,,TRUE,1,0,win,Cairo,Egypt,FALSE,1683,1316,1686,1313,3
+2023-09-12,Friendly,played,Egypt,EGY,Tunisia,TUN,TRUE,1,3,loss,Cairo,Egypt,FALSE,1686,1732,1669,1749,-17
+2023-10-12,Friendly,played,Egypt,EGY,Zambia,,TRUE,1,0,win,Al Ain,United Arab Emirates,TRUE,1669,1509,1675,1503,6
+2023-10-16,Friendly,played,Egypt,EGY,Algeria,DZA,FALSE,1,1,draw,Al Ain,United Arab Emirates,TRUE,1675,1712,1676,1711,1
+2023-11-16,FIFA World Cup qualification,played,Egypt,EGY,Djibouti,,TRUE,6,0,win,Cairo,Egypt,FALSE,1676,914,1677,913,1
+2023-11-19,FIFA World Cup qualification,played,Egypt,EGY,Sierra Leone,,FALSE,2,0,win,Monrovia,Liberia,TRUE,1677,1318,1684,1311,7
+2024-01-07,Friendly,played,Egypt,EGY,Tanzania,,TRUE,2,0,win,Cairo,Egypt,FALSE,1684,1349,1686,1347,2
+2024-01-14,African Cup of Nations,played,Egypt,EGY,Mozambique,,TRUE,2,2,draw,Abidjan,Ivory Coast,TRUE,1686,1363,1668,1381,-18
+2024-01-18,African Cup of Nations,played,Egypt,EGY,Ghana,GHA,TRUE,2,2,draw,Abidjan,Ivory Coast,TRUE,1668,1511,1657,1522,-11
+2024-01-22,African Cup of Nations,played,Egypt,EGY,Cape Verde,,FALSE,2,2,draw,Abidjan,Ivory Coast,TRUE,1657,1534,1649,1542,-8
+2024-01-28,African Cup of Nations,played,Egypt,EGY,DR Congo,,TRUE,1,1,draw,San-Pédro,Ivory Coast,TRUE,1649,1496,1639,1506,-10
+2024-03-22,FIFA Series,played,Egypt,EGY,New Zealand,NZL,TRUE,1,0,win,Cairo,Egypt,FALSE,1639,1525,1646,1518,7
+2024-03-26,FIFA Series,played,Egypt,EGY,Croatia,HRV,TRUE,2,4,loss,Cairo,Egypt,FALSE,1646,1941,1635,1952,-11
+2024-06-06,FIFA World Cup qualification,played,Egypt,EGY,Burkina Faso,,TRUE,2,1,win,Cairo,Egypt,FALSE,1635,1501,1643,1493,8
+2024-06-10,FIFA World Cup qualification,played,Egypt,EGY,Guinea-Bissau,,FALSE,1,1,draw,Bissau,Guinea-Bissau,FALSE,1643,1350,1633,1360,-10
+2024-09-06,African Cup of Nations qualification,played,Egypt,EGY,Cape Verde,,TRUE,3,0,win,Cairo,Egypt,FALSE,1633,1560,1652,1541,19
+2024-09-10,African Cup of Nations qualification,played,Egypt,EGY,Botswana,,FALSE,4,0,win,Francistown,Botswana,FALSE,1652,1297,1666,1283,14
+2024-10-11,African Cup of Nations qualification,played,Egypt,EGY,Mauritania,,TRUE,2,0,win,Cairo,Egypt,FALSE,1666,1347,1671,1342,5
+2024-10-15,African Cup of Nations qualification,played,Egypt,EGY,Mauritania,,FALSE,1,0,win,Nouakchott,Mauritania,FALSE,1671,1342,1679,1334,8
+2024-11-15,African Cup of Nations qualification,played,Egypt,EGY,Cape Verde,,FALSE,1,1,draw,Praia,Cape Verde,FALSE,1679,1490,1674,1495,-5
+2024-11-19,African Cup of Nations qualification,played,Egypt,EGY,Botswana,,TRUE,1,1,draw,Cairo,Egypt,FALSE,1674,1338,1657,1355,-17
+2025-03-21,FIFA World Cup qualification,played,Egypt,EGY,Ethiopia,,FALSE,2,0,win,Casablanca,Morocco,TRUE,1657,1275,1663,1269,6
+2025-03-25,FIFA World Cup qualification,played,Egypt,EGY,Sierra Leone,,TRUE,1,0,win,Cairo,Egypt,FALSE,1663,1328,1666,1325,3
+2025-09-05,FIFA World Cup qualification,played,Egypt,EGY,Ethiopia,,TRUE,2,0,win,Cairo,Egypt,FALSE,1666,1279,1669,1276,3
+2025-09-09,FIFA World Cup qualification,played,Egypt,EGY,Burkina Faso,,FALSE,0,0,draw,Ouagadougou,Burkina Faso,FALSE,1669,1505,1665,1509,-4
+2025-10-08,FIFA World Cup qualification,played,Egypt,EGY,Djibouti,,FALSE,3,0,win,Casablanca,Morocco,TRUE,1665,921,1666,920,1
+2025-10-12,FIFA World Cup qualification,played,Egypt,EGY,Guinea-Bissau,,TRUE,1,0,win,Cairo,Egypt,FALSE,1666,1246,1668,1244,2
+2025-11-14,Al Ain International Cup,played,Egypt,EGY,Uzbekistan,,FALSE,0,2,loss,Al Ain,United Arab Emirates,TRUE,1668,1714,1648,1734,-20
+2025-11-17,Al Ain International Cup,played,Egypt,EGY,Cape Verde,,FALSE,1,1,draw,Al Ain,United Arab Emirates,TRUE,1648,1557,1644,1561,-4
+2025-12-02,Arab Cup,played,Egypt,EGY,Kuwait,KWT,TRUE,1,1,draw,Lusail,Qatar,TRUE,1644,1340,1630,1354,-14
+2025-12-06,Arab Cup,played,Egypt,EGY,United Arab Emirates,ARE,FALSE,1,1,draw,Lusail,Qatar,TRUE,1630,1516,1624,1522,-6
+2025-12-09,Arab Cup,played,Egypt,EGY,Jordan,,TRUE,0,3,loss,Al Khor,Qatar,TRUE,1624,1635,1590,1669,-34
+2025-12-22,African Cup of Nations,played,Egypt,EGY,Zimbabwe,,TRUE,2,1,win,Agadir,Morocco,TRUE,1598,1352,1608,1342,10
+2025-12-26,African Cup of Nations,played,Egypt,EGY,South Africa,ZAF,TRUE,1,0,win,Agadir,Morocco,TRUE,1608,1558,1629,1537,21
+2025-12-29,African Cup of Nations,played,Egypt,EGY,Angola,AGO,FALSE,0,0,draw,Agadir,Morocco,TRUE,1629,1536,1622,1543,-7
+2026-01-05,African Cup of Nations,played,Egypt,EGY,Benin,,TRUE,3,1,win,Agadir,Morocco,TRUE,1622,1428,1640,1410,18
+2026-01-10,African Cup of Nations,played,Egypt,EGY,Ivory Coast,CIV,TRUE,3,2,win,Agadir,Morocco,TRUE,1640,1664,1667,1637,27
+2026-01-14,African Cup of Nations,played,Egypt,EGY,Senegal,SEN,FALSE,0,1,loss,Tangier,Morocco,TRUE,1667,1823,1653,1837,-14
+2026-01-17,African Cup of Nations,played,Egypt,EGY,Nigeria,NGA,TRUE,0,0,draw,Casablanca,Morocco,TRUE,1653,1745,1659,1739,6
+2026-03-27,Friendly,played,Egypt,EGY,Saudi Arabia,SAU,FALSE,4,0,win,Jeddah,Saudi Arabia,FALSE,1659,1592,1680,1571,21
+2026-03-31,Friendly,played,Egypt,EGY,Spain,ESP,FALSE,0,0,draw,Barcelona,Spain,FALSE,1680,2174,1689,2165,9

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import base64
 import json
+import os
 import zlib
 from pathlib import Path
 
@@ -79,7 +80,21 @@ ROUND_CODE_LABELS = {
     "F": "Final",
 }
 
-WORLD_CUP_ROOT = Path(__file__).resolve().parents[1] / "INT-World Cup" / "world_cup"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+DEFAULT_WORLD_CUP_ROOT = REPO_ROOT / "data" / "processed" / "world_cup"
+LEGACY_WORLD_CUP_ROOT = REPO_ROOT / "INT-World Cup" / "world_cup"
+WORLD_CUP_ROOT = Path(os.environ.get("WORLD_CUP_DATA_ROOT", DEFAULT_WORLD_CUP_ROOT))
+if not WORLD_CUP_ROOT.exists() and LEGACY_WORLD_CUP_ROOT.exists():
+    WORLD_CUP_ROOT = LEGACY_WORLD_CUP_ROOT
+
+DEFAULT_INTERNATIONAL_RESULTS_PATH = REPO_ROOT / "data" / "processed" / "international" / "results.csv"
+LEGACY_INTERNATIONAL_RESULTS_PATH = REPO_ROOT / "data" / "results.csv"
+INTERNATIONAL_RESULTS_PATH = Path(
+    os.environ.get("INTERNATIONAL_RESULTS_PATH", DEFAULT_INTERNATIONAL_RESULTS_PATH)
+)
+if not INTERNATIONAL_RESULTS_PATH.exists() and LEGACY_INTERNATIONAL_RESULTS_PATH.exists():
+    INTERNATIONAL_RESULTS_PATH = LEGACY_INTERNATIONAL_RESULTS_PATH
 
 HISTORICAL_RESULTS_START_YEAR = 1998
 
@@ -258,6 +273,7 @@ __all__ = [
     'MAIN_BRACKET_ROUND_CODES',
     'BACKTEST_2022_MAIN_BRACKET_ROUND_CODES',
     'ROUND_CODE_LABELS',
+    'INTERNATIONAL_RESULTS_PATH',
     'WORLD_CUP_ROOT',
     'HISTORICAL_RESULTS_START_YEAR',
     'HISTORICAL_RESULTS_END_YEAR',

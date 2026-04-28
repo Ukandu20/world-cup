@@ -1,0 +1,18 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1934-05-27,Round of 16,played,Argentina,Sweden,ARG,SWE,2062,1730,Bologna,Italy,TRUE
+2,1934-05-27,Round of 16,played,Austria,France,AUT,FRA,2050,1626,Turin,Italy,TRUE
+3,1934-05-27,Round of 16,played,Belgium,Germany,BEL,DEU,1549,1799,Florence,Italy,TRUE
+4,1934-05-27,Round of 16,played,Brazil,Spain,BRA,ESP,1934,1936,Genoa,Italy,TRUE
+5,1934-05-27,Round of 16,played,Czechoslovakia,Romania,CSK,ROU,1847,1639,Trieste,Italy,TRUE
+6,1934-05-27,Round of 16,played,Egypt,Hungary,EGY,HUN,1707,1829,Naples,Italy,TRUE
+7,1934-05-27,Round of 16,played,Italy,United States,ITA,USA,1975,1778,Rome,Italy,FALSE
+8,1934-05-27,Round of 16,played,Netherlands,Switzerland,NLD,CHE,1707,1615,Milan,Italy,TRUE
+9,1934-05-31,Quarter-final,played,Austria,Hungary,AUT,HUN,2055,1859,Bologna,Italy,TRUE
+10,1934-05-31,Quarter-final,played,Czechoslovakia,Switzerland,CSK,CHE,1861,1653,Turin,Italy,TRUE
+11,1934-05-31,Quarter-final,played,Germany,Sweden,DEU,SWE,1819,1782,Milan,Italy,TRUE
+12,1934-05-31,Quarter-final,played,Italy,Spain,ITA,ESP,1995,1981,Florence,Italy,FALSE
+13,1934-06-01,Quarter-final,played,Italy,Spain,ITA,ESP,1985,1991,Florence,Italy,FALSE
+14,1934-06-03,Semi-final,played,Czechoslovakia,Germany,CSK,DEU,1875,1846,Rome,Italy,TRUE
+15,1934-06-03,Semi-final,played,Italy,Austria,ITA,AUT,2007,2070,Milan,Italy,FALSE
+16,1934-06-07,Third Place,played,Austria,Germany,AUT,DEU,2043,1805,Naples,Italy,TRUE
+17,1934-06-10,Final,played,Italy,Czechoslovakia,ITA,CSK,2034,1916,Rome,Italy,FALSE

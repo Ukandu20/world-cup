@@ -1,0 +1,53 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,1994-06-17,Group Stage,played,Germany,Bolivia,DEU,BOL,2009,1703,Chicago,United States,TRUE
+2,1994-06-17,Group Stage,played,Spain,South Korea,ESP,KOR,1893,1666,Dallas,United States,TRUE
+3,1994-06-18,Group Stage,played,Colombia,Romania,COL,ROU,1944,1836,Pasadena,United States,TRUE
+4,1994-06-18,Group Stage,played,Italy,Republic of Ireland,ITA,IRL,1856,,East Rutherford,United States,TRUE
+5,1994-06-18,Group Stage,played,United States,Switzerland,USA,CHE,1615,1873,Pontiac,United States,FALSE
+6,1994-06-19,Group Stage,played,Belgium,Morocco,BEL,MAR,1824,1666,Orlando,United States,TRUE
+7,1994-06-19,Group Stage,played,Cameroon,Sweden,CMR,SWE,1685,1905,Pasadena,United States,TRUE
+8,1994-06-19,Group Stage,played,Norway,Mexico,NOR,MEX,1851,1855,"Washington, D.C.",United States,TRUE
+9,1994-06-20,Group Stage,played,Brazil,Russia,BRA,RUS,1964,1867,Palo Alto,United States,TRUE
+10,1994-06-20,Group Stage,played,Netherlands,Saudi Arabia,NLD,SAU,1991,1637,"Washington, D.C.",United States,TRUE
+11,1994-06-21,Group Stage,played,Argentina,Greece,ARG,GRC,1915,1689,Foxborough,United States,TRUE
+12,1994-06-21,Group Stage,played,Germany,Spain,DEU,ESP,2018,1876,Chicago,United States,TRUE
+13,1994-06-21,Group Stage,played,Nigeria,Bulgaria,NGA,BGR,1735,1772,Dallas,United States,TRUE
+14,1994-06-22,Group Stage,played,Romania,Switzerland,ROU,CHE,1895,1860,Pontiac,United States,TRUE
+15,1994-06-22,Group Stage,played,United States,Colombia,USA,COL,1628,1885,Pasadena,United States,FALSE
+16,1994-06-23,Group Stage,played,Italy,Norway,ITA,NOR,1947,1881,East Rutherford,United States,TRUE
+17,1994-06-23,Group Stage,played,South Korea,Bolivia,KOR,BOL,1683,1694,Foxborough,United States,TRUE
+18,1994-06-24,Group Stage,played,Brazil,Cameroon,BRA,CMR,1997,1702,Palo Alto,United States,TRUE
+19,1994-06-24,Group Stage,played,Mexico,Republic of Ireland,MEX,IRL,1858,,Orlando,United States,TRUE
+20,1994-06-24,Group Stage,played,Sweden,Russia,SWE,RUS,1888,1834,Pontiac,United States,TRUE
+21,1994-06-25,Group Stage,played,Argentina,Nigeria,ARG,NGA,1939,1793,Foxborough,United States,TRUE
+22,1994-06-25,Group Stage,played,Belgium,Netherlands,BEL,NLD,1841,1998,Orlando,United States,TRUE
+23,1994-06-25,Group Stage,played,Saudi Arabia,Morocco,SAU,MAR,1630,1649,East Rutherford,United States,TRUE
+24,1994-06-26,Group Stage,played,Bulgaria,Greece,BGR,GRC,1714,1665,Chicago,United States,TRUE
+25,1994-06-26,Group Stage,played,Switzerland,Colombia,CHE,COL,1918,1842,Palo Alto,United States,TRUE
+26,1994-06-26,Group Stage,played,United States,Romania,USA,ROU,1671,1837,Pasadena,United States,FALSE
+27,1994-06-27,Group Stage,played,Bolivia,Spain,BOL,ESP,1693,1888,Chicago,United States,TRUE
+28,1994-06-27,Group Stage,played,Germany,South Korea,DEU,KOR,2006,1684,Dallas,United States,TRUE
+29,1994-06-28,Group Stage,played,Brazil,Sweden,BRA,SWE,2013,1926,Pontiac,United States,TRUE
+30,1994-06-28,Group Stage,played,Republic of Ireland,Norway,IRL,NOR,,1912,East Rutherford,United States,TRUE
+31,1994-06-28,Group Stage,played,Italy,Mexico,ITA,MEX,1971,1862,"Washington, D.C.",United States,TRUE
+32,1994-06-28,Group Stage,played,Russia,Cameroon,RUS,CMR,1796,1686,Palo Alto,United States,TRUE
+33,1994-06-29,Group Stage,played,Belgium,Saudi Arabia,BEL,SAU,1884,1662,"Washington, D.C.",United States,TRUE
+34,1994-06-29,Group Stage,played,Morocco,Netherlands,MAR,NLD,1617,1955,Orlando,United States,TRUE
+35,1994-06-30,Group Stage,played,Argentina,Bulgaria,ARG,BGR,1957,1762,Dallas,United States,TRUE
+36,1994-06-30,Group Stage,played,Greece,Nigeria,GRC,NGA,1617,1775,Foxborough,United States,TRUE
+37,1994-07-02,Round of 16,played,Germany,Belgium,DEU,BEL,2014,1837,Chicago,United States,TRUE
+38,1994-07-02,Round of 16,played,Spain,Switzerland,ESP,CHE,1910,1863,"Washington, D.C.",United States,TRUE
+39,1994-07-03,Round of 16,played,Romania,Argentina,ROU,ARG,1861,1889,Pasadena,United States,TRUE
+40,1994-07-03,Round of 16,played,Saudi Arabia,Sweden,SAU,SWE,1709,1933,Dallas,United States,TRUE
+41,1994-07-04,Round of 16,played,Netherlands,Republic of Ireland,NLD,IRL,1961,,Orlando,United States,TRUE
+42,1994-07-04,Round of 16,played,United States,Brazil,USA,BRA,1647,2006,Palo Alto,United States,FALSE
+43,1994-07-05,Round of 16,played,Mexico,Bulgaria,MEX,BGR,1871,1830,East Rutherford,United States,TRUE
+44,1994-07-05,Round of 16,played,Nigeria,Italy,NGA,ITA,1801,1962,Foxborough,United States,TRUE
+45,1994-07-09,Quarter-final,played,Italy,Spain,ITA,ESP,1979,1955,Foxborough,United States,TRUE
+46,1994-07-09,Quarter-final,played,Netherlands,Brazil,NLD,BRA,1996,2017,Dallas,United States,TRUE
+47,1994-07-10,Quarter-final,played,Bulgaria,Germany,BGR,DEU,1834,2030,East Rutherford,United States,TRUE
+48,1994-07-10,Quarter-final,played,Romania,Sweden,ROU,SWE,1893,1952,Palo Alto,United States,TRUE
+49,1994-07-13,Semi-final,played,Bulgaria,Italy,BGR,ITA,1879,2007,East Rutherford,United States,TRUE
+50,1994-07-13,Semi-final,played,Sweden,Brazil,SWE,BRA,1947,2045,Pasadena,United States,TRUE
+51,1994-07-16,Third Place,played,Sweden,Bulgaria,SWE,BGR,1925,1860,Pasadena,United States,TRUE
+52,1994-07-17,Final,played,Brazil,Italy,BRA,ITA,2067,2026,Pasadena,United States,TRUE

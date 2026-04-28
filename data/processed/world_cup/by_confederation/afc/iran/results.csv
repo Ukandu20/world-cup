@@ -1,0 +1,611 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1941-08-23,Friendly,played,Iran,IRN,India,,FALSE,1,0,win,Kabul,Afghanistan,TRUE,,,,,
+1947-10-26,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,1,3,loss,Tehran,Iran,FALSE,,,,,
+1948-10-28,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,1,1,draw,Tehran,Iran,FALSE,,,,,
+1950-05-28,Friendly,played,Iran,IRN,Turkey,TUR,FALSE,1,6,loss,Istanbul,Turkey,FALSE,1571,1522,1554,1539,-17
+1950-10-26,Friendly,played,Iran,IRN,Afghanistan,,TRUE,4,0,win,Tehran,Iran,FALSE,,,,,
+1951-03-05,Asian Games,played,Iran,IRN,Myanmar,,TRUE,2,0,win,New Delhi,India,TRUE,1561,1302,1572,1291,11
+1951-03-07,Asian Games,played,Iran,IRN,Japan,JPN,TRUE,0,0,draw,New Delhi,India,TRUE,1572,1289,1559,1302,-13
+1951-03-08,Asian Games,played,Iran,IRN,Japan,JPN,TRUE,3,2,win,New Delhi,India,TRUE,1559,1302,1566,1295,7
+1951-03-10,Asian Games,played,Iran,IRN,India,,FALSE,0,1,loss,New Delhi,India,FALSE,1566,1674,1557,1683,-9
+1958-05-26,Asian Games,played,Iran,IRN,Israel,ISR,FALSE,0,4,loss,Tokyo,Japan,TRUE,1555,1445,1506,1494,-49
+1958-05-28,Asian Games,played,Iran,IRN,South Korea,KOR,TRUE,0,5,loss,Tokyo,Japan,TRUE,1506,1661,1483,1684,-23
+1959-12-05,AFC Asian Cup qualification,played,Iran,IRN,Israel,ISR,TRUE,3,0,win,Ernakulam,India,TRUE,1483,1492,1519,1456,36
+1959-12-12,AFC Asian Cup qualification,played,Iran,IRN,Israel,ISR,FALSE,1,1,draw,Ernakulam,India,TRUE,1451,1524,1455,1520,4
+1965-05-22,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,1,2,loss,Tehran,Iran,FALSE,,,,,
+1965-05-24,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,2,1,win,Tehran,Iran,FALSE,,,,,
+1965-07-23,Friendly,played,Iran,IRN,Pakistan,,TRUE,4,1,win,Tehran,Iran,FALSE,1596,1368,1603,1361,7
+1965-07-25,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,0,0,draw,Tehran,Iran,FALSE,1603,1633,1600,1636,-3
+1966-03-16,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,0,0,draw,Tehran,Iran,FALSE,1608,1624,1604,1628,-4
+1966-12-10,Asian Games,played,Iran,IRN,Malaysia,,TRUE,2,0,win,Bangkok,Thailand,TRUE,1604,1259,1611,1252,7
+1966-12-11,Asian Games,played,Iran,IRN,Japan,JPN,TRUE,1,3,loss,Bangkok,Thailand,TRUE,1611,1463,1569,1505,-42
+1966-12-13,Asian Games,played,Iran,IRN,India,,FALSE,4,1,win,Bangkok,Thailand,TRUE,1569,1516,1599,1486,30
+1966-12-16,Asian Games,played,Iran,IRN,Indonesia,IDN,TRUE,1,0,win,Bangkok,Thailand,TRUE,1599,1476,1612,1463,13
+1966-12-17,Asian Games,played,Iran,IRN,Myanmar,,FALSE,0,1,loss,Bangkok,Thailand,TRUE,1612,1473,1584,1501,-28
+1966-12-18,Asian Games,played,Iran,IRN,Japan,JPN,FALSE,1,0,win,Bangkok,Thailand,TRUE,1584,1557,1602,1539,18
+1966-12-20,Asian Games,played,Iran,IRN,Myanmar,,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1602,1519,1577,1544,-25
+1967-11-26,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,0,1,loss,Dhaka,Pakistan,TRUE,1589,1657,1577,1669,-12
+1968-05-10,AFC Asian Cup,played,Iran,IRN,Hong Kong,,TRUE,2,0,win,Tehran,Iran,FALSE,1577,1226,1582,1221,5
+1968-05-13,AFC Asian Cup,played,Iran,IRN,Taiwan,,TRUE,4,0,win,Tehran,Iran,FALSE,1582,1353,1594,1341,12
+1968-05-16,AFC Asian Cup,played,Iran,IRN,Myanmar,,TRUE,3,1,win,Tehran,Iran,FALSE,1594,1609,1623,1580,29
+1968-05-19,AFC Asian Cup,played,Iran,IRN,Israel,ISR,TRUE,2,1,win,Tehran,Iran,FALSE,1623,1529,1635,1517,12
+1969-03-07,Friendly,played,Iran,IRN,Iraq,IRQ,TRUE,2,1,win,Tehran,Iran,FALSE,1635,1610,1645,1600,10
+1969-03-12,Friendly,played,Iran,IRN,Pakistan,,TRUE,9,1,win,Tehran,Iran,FALSE,1645,1311,1650,1306,5
+1969-09-13,Friendly,played,Iran,IRN,Pakistan,,TRUE,4,2,win,Ankara,Turkey,TRUE,1650,1301,1655,1296,5
+1969-09-17,Friendly,played,Iran,IRN,Turkey,TUR,FALSE,0,4,loss,Ankara,Turkey,FALSE,1655,1588,1630,1613,-25
+1970-09-06,Friendly,played,Iran,IRN,Pakistan,,TRUE,7,0,win,Tehran,Iran,FALSE,1630,1296,1635,1291,5
+1970-09-11,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,1,1,draw,Tehran,Iran,FALSE,1635,1616,1630,1621,-5
+1970-11-04,Friendly,played,Iran,IRN,Australia,AUS,TRUE,1,2,loss,Tehran,Iran,FALSE,,,,,
+1970-12-10,Asian Games,played,Iran,IRN,Indonesia,IDN,FALSE,2,2,draw,Bangkok,Thailand,TRUE,1630,1420,1619,1431,-11
+1970-12-11,Asian Games,played,Iran,IRN,South Korea,KOR,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1619,1632,1600,1651,-19
+1971-09-10,Friendly,played,Iran,IRN,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1600,1645,1591,1654,-9
+1971-09-12,Friendly,played,Iran,IRN,South Korea,KOR,FALSE,2,0,win,Seoul,South Korea,FALSE,1591,1654,1613,1632,22
+1972-05-07,AFC Asian Cup,played,Iran,IRN,Cambodia,,TRUE,2,0,win,Bangkok,Thailand,TRUE,,,,,
+1972-05-09,AFC Asian Cup,played,Iran,IRN,Iraq,IRQ,TRUE,3,0,win,Bangkok,Thailand,TRUE,1649,1606,1687,1568,38
+1972-05-13,AFC Asian Cup,played,Iran,IRN,Thailand,,FALSE,3,2,win,Bangkok,Thailand,FALSE,1687,1227,1693,1221,6
+1972-05-16,AFC Asian Cup,played,Iran,IRN,Cambodia,,TRUE,2,1,win,Bangkok,Thailand,TRUE,,,,,
+1972-05-19,AFC Asian Cup,played,Iran,IRN,South Korea,KOR,TRUE,2,1,win,Bangkok,Thailand,TRUE,1698,1557,1713,1542,15
+1972-06-11,Brazil Independence Cup,played,Iran,IRN,Republic of Ireland,IRL,TRUE,1,2,loss,Recife,Brazil,TRUE,,,,,
+1972-06-14,Brazil Independence Cup,played,Iran,IRN,Portugal,PRT,TRUE,0,3,loss,Recife,Brazil,TRUE,1712,1810,1687,1835,-25
+1972-06-21,Brazil Independence Cup,played,Iran,IRN,Ecuador,ECU,FALSE,1,1,draw,Recife,Brazil,TRUE,1687,1417,1674,1430,-13
+1972-06-25,Brazil Independence Cup,played,Iran,IRN,Chile,CHL,FALSE,1,2,loss,Recife,Brazil,TRUE,1674,1721,1657,1738,-17
+1973-05-04,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,TRUE,0,0,draw,Tehran,Iran,FALSE,1580,1711,1582,1709,2
+1973-05-06,FIFA World Cup qualification,played,Iran,IRN,Kuwait,KWT,TRUE,2,1,win,Tehran,Iran,FALSE,1582,1372,1588,1366,6
+1973-05-08,FIFA World Cup qualification,played,Iran,IRN,Syria,,TRUE,1,0,win,Tehran,Iran,FALSE,1588,1434,1596,1426,8
+1973-05-11,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,TRUE,2,1,win,Tehran,Iran,FALSE,1596,1680,1615,1661,19
+1973-05-13,FIFA World Cup qualification,played,Iran,IRN,Kuwait,KWT,TRUE,2,0,win,Tehran,Iran,FALSE,1615,1355,1622,1348,7
+1973-05-15,FIFA World Cup qualification,played,Iran,IRN,Syria,,TRUE,0,1,loss,Tehran,Iran,FALSE,1622,1436,1588,1470,-34
+1973-08-12,Friendly,played,Iran,IRN,New Zealand,NZL,FALSE,0,0,draw,Auckland,New Zealand,FALSE,1588,1439,1587,1440,-1
+1973-08-18,FIFA World Cup qualification,played,Iran,IRN,Australia,AUS,FALSE,0,3,loss,Sydney,Australia,FALSE,1587,1676,1569,1694,-18
+1973-08-24,FIFA World Cup qualification,played,Iran,IRN,Australia,AUS,TRUE,2,0,win,Tehran,Iran,FALSE,1569,1694,1601,1662,32
+1974-01-17,Friendly,played,Iran,IRN,Pakistan,,FALSE,2,1,win,Karachi,Pakistan,FALSE,1601,1282,1608,1275,7
+1974-01-20,Friendly,played,Iran,IRN,Turkey,TUR,TRUE,0,1,loss,Karachi,Pakistan,TRUE,1608,1664,1595,1677,-13
+1974-09-03,Asian Games,played,Iran,IRN,Pakistan,,TRUE,7,0,win,Tehran,Iran,FALSE,1595,1285,1603,1277,8
+1974-09-05,Asian Games,played,Iran,IRN,Myanmar,,TRUE,2,1,win,Tehran,Iran,FALSE,1603,1602,1617,1588,14
+1974-09-07,Asian Games,played,Iran,IRN,Bahrain,,TRUE,6,0,win,Tehran,Iran,FALSE,1617,1093,1619,1091,2
+1974-09-09,Asian Games,played,Iran,IRN,Malaysia,,TRUE,1,0,win,Tehran,Iran,FALSE,1619,1451,1626,1444,7
+1974-09-11,Asian Games,played,Iran,IRN,South Korea,KOR,TRUE,2,0,win,Tehran,Iran,FALSE,1626,1577,1644,1559,18
+1974-09-13,Asian Games,played,Iran,IRN,Iraq,IRQ,TRUE,1,0,win,Tehran,Iran,FALSE,1644,1592,1656,1580,12
+1974-09-15,Asian Games,played,Iran,IRN,Israel,ISR,TRUE,1,0,win,Tehran,Iran,FALSE,1656,1764,1676,1744,20
+1974-12-20,Friendly,played,Iran,IRN,Czechoslovakia,CSK,TRUE,0,1,loss,Tehran,Iran,FALSE,1676,1857,1668,1865,-8
+1975-08-10,Friendly,played,Iran,IRN,Hungary,HUN,TRUE,1,2,loss,Tehran,Iran,FALSE,1668,1800,1659,1809,-9
+1976-06-04,AFC Asian Cup,played,Iran,IRN,Iraq,IRQ,TRUE,2,0,win,Tehran,Iran,FALSE,1667,1559,1684,1542,17
+1976-06-08,AFC Asian Cup,played,Iran,IRN,Yemen DPR,,TRUE,8,0,win,Tehran,Iran,FALSE,,,,,
+1976-06-11,AFC Asian Cup,played,Iran,IRN,China PR,,TRUE,2,0,win,Tehran,Iran,FALSE,,,,,
+1976-06-13,AFC Asian Cup,played,Iran,IRN,Kuwait,KWT,TRUE,1,0,win,Tehran,Iran,FALSE,1703,1669,1719,1653,16
+1976-07-02,Friendly,played,Iran,IRN,Romania,ROU,TRUE,2,2,draw,Tehran,Iran,FALSE,1719,1822,1719,1822,0
+1977-01-07,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,FALSE,3,0,win,Riyadh,Saudi Arabia,FALSE,1704,1363,1718,1349,14
+1977-01-28,FIFA World Cup qualification,played,Iran,IRN,Syria,,FALSE,1,0,win,Damascus,Syria,FALSE,1718,1399,1727,1390,9
+1977-03-15,Friendly,played,Iran,IRN,Hungary,HUN,TRUE,0,2,loss,Tehran,Iran,FALSE,1727,1850,1713,1864,-14
+1977-03-22,Real Madrid 75th Anniversary Cup,played,Iran,IRN,Argentina,ARG,FALSE,1,1,draw,Madrid,Spain,TRUE,1713,1933,1721,1925,8
+1977-04-22,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,TRUE,2,0,win,Shiraz,Iran,FALSE,1721,1349,1725,1345,4
+1977-06-19,FIFA World Cup qualification,played,Iran,IRN,Hong Kong,,FALSE,2,0,win,So Kon Po,Hong Kong,FALSE,1725,1429,1740,1414,15
+1977-07-03,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,FALSE,0,0,draw,Busan,South Korea,FALSE,1740,1681,1742,1679,2
+1977-07-24,Beijing International Friendship Tournament,played,Iran,IRN,Hong Kong,,FALSE,0,1,loss,Beijing,China PR,TRUE,,,,,
+1977-07-27,Beijing International Friendship Tournament,played,Iran,IRN,Morocco,MAR,TRUE,1,1,draw,Beijing,China PR,TRUE,,,,,
+1977-07-29,Beijing International Friendship Tournament,played,Iran,IRN,DR Congo,,TRUE,1,3,loss,Beijing,China PR,TRUE,,,,,
+1977-08-05,Friendly,played,Iran,IRN,Romania,ROU,TRUE,0,0,draw,Tehran,Iran,FALSE,1742,1894,1743,1893,1
+1977-08-14,FIFA World Cup qualification,played,Iran,IRN,Australia,AUS,FALSE,1,0,win,Melbourne,Australia,FALSE,1743,1681,1765,1659,22
+1977-10-28,FIFA World Cup qualification,played,Iran,IRN,Kuwait,KWT,TRUE,1,0,win,Tehran,Iran,FALSE,1765,1703,1776,1692,11
+1977-11-11,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,TRUE,2,2,draw,Tehran,Iran,FALSE,1776,1707,1767,1716,-9
+1977-11-18,FIFA World Cup qualification,played,Iran,IRN,Hong Kong,,TRUE,3,0,win,Tehran,Iran,FALSE,1767,1375,1771,1371,4
+1977-11-25,FIFA World Cup qualification,played,Iran,IRN,Australia,AUS,TRUE,1,0,win,Tehran,Iran,FALSE,1771,1668,1780,1659,9
+1977-12-03,FIFA World Cup qualification,played,Iran,IRN,Kuwait,KWT,FALSE,2,1,win,Kuwait City,Kuwait,FALSE,1780,1708,1802,1686,22
+1978-04-05,Friendly,played,Iran,IRN,Yugoslavia,YUG,TRUE,0,0,draw,Tehran,Iran,FALSE,1802,1819,1800,1821,-2
+1978-04-18,Friendly,played,Iran,IRN,Wales,WAL,TRUE,0,1,loss,Tehran,Iran,FALSE,1800,1795,1787,1808,-13
+1978-04-26,Friendly,played,Iran,IRN,Bulgaria,BGR,TRUE,1,1,draw,Tehran,Iran,FALSE,1787,1744,1783,1748,-4
+1978-05-11,Friendly,played,Iran,IRN,France,FRA,FALSE,1,2,loss,Toulouse,France,FALSE,1783,1882,1778,1887,-5
+1978-05-19,Friendly,played,Iran,IRN,Ghana,GHA,TRUE,3,0,win,Tehran,Iran,FALSE,1778,1714,1803,1689,25
+1978-06-03,FIFA World Cup,played,Iran,IRN,Netherlands,NLD,TRUE,0,3,loss,Mendoza,Argentina,TRUE,1803,2092,1786,2109,-17
+1978-06-07,FIFA World Cup,played,Iran,IRN,Scotland,SCO,TRUE,1,1,draw,Córdoba,Argentina,TRUE,1786,1877,1794,1869,8
+1978-06-11,FIFA World Cup,played,Iran,IRN,Peru,PER,TRUE,1,4,loss,Córdoba,Argentina,TRUE,1794,1841,1749,1886,-45
+1978-09-06,Friendly,played,Iran,IRN,Soviet Union,SUN,TRUE,0,1,loss,Tehran,Iran,FALSE,1749,1921,1741,1929,-8
+1980-08-05,Friendly,played,Iran,IRN,United Arab Emirates,ARE,FALSE,2,0,win,Al Ain,United Arab Emirates,FALSE,,,,,
+1980-08-07,Friendly,played,Iran,IRN,United Arab Emirates,ARE,FALSE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+1980-09-17,AFC Asian Cup,played,Iran,IRN,Syria,,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1752,1289,1730,1311,-22
+1980-09-20,AFC Asian Cup,played,Iran,IRN,China PR,,FALSE,2,2,draw,Kuwait City,Kuwait,TRUE,,,,,
+1980-09-22,AFC Asian Cup,played,Iran,IRN,Bangladesh,,FALSE,7,0,win,Kuwait City,Kuwait,TRUE,1721,970,1722,969,1
+1980-09-24,AFC Asian Cup,played,Iran,IRN,North Korea,PRK,TRUE,3,2,win,Kuwait City,Kuwait,TRUE,1722,1660,1743,1639,21
+1980-09-28,AFC Asian Cup,played,Iran,IRN,Kuwait,KWT,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1743,1662,1719,1686,-24
+1980-09-29,AFC Asian Cup,played,Iran,IRN,North Korea,PRK,TRUE,3,0,win,Kuwait City,Kuwait,TRUE,1719,1632,1752,1599,33
+1982-03-06,Friendly,played,Iran,IRN,North Korea,PRK,TRUE,2,0,win,Tehran,Iran,FALSE,1752,1583,1757,1578,5
+1982-11-21,Asian Games,played,Iran,IRN,Japan,JPN,FALSE,0,1,loss,New Delhi,India,TRUE,1757,1477,1724,1510,-33
+1982-11-23,Asian Games,played,Iran,IRN,South Korea,KOR,FALSE,1,0,win,New Delhi,India,TRUE,1724,1628,1739,1613,15
+1982-11-25,Asian Games,played,Iran,IRN,South Yemen,,TRUE,2,0,win,New Delhi,India,TRUE,1739,1221,1742,1218,3
+1982-11-28,Asian Games,played,Iran,IRN,Kuwait,KWT,FALSE,0,1,loss,New Delhi,India,TRUE,1742,1672,1718,1696,-24
+1984-08-07,AFC Asian Cup qualification,played,Iran,IRN,Bangladesh,,TRUE,5,0,win,Jakarta,Indonesia,TRUE,1707,985,1708,984,1
+1984-08-09,AFC Asian Cup qualification,played,Iran,IRN,Syria,,TRUE,3,1,win,Solo,Indonesia,TRUE,1708,1315,1714,1309,6
+1984-08-11,AFC Asian Cup qualification,played,Iran,IRN,Thailand,,TRUE,5,0,win,Jakarta,Indonesia,TRUE,1714,1398,1725,1387,11
+1984-08-13,AFC Asian Cup qualification,played,Iran,IRN,Indonesia,IDN,FALSE,1,0,win,Jakarta,Indonesia,FALSE,1725,1144,1727,1142,2
+1984-08-15,AFC Asian Cup qualification,played,Iran,IRN,Philippines,,TRUE,7,1,win,Jakarta,Indonesia,TRUE,1727,861,1728,860,1
+1984-08-18,Friendly,played,Iran,IRN,Syria,,TRUE,1,0,win,Jakarta,Indonesia,TRUE,1728,1315,1731,1312,3
+1984-12-01,AFC Asian Cup,played,Iran,IRN,United Arab Emirates,ARE,TRUE,3,0,win,Kallang,Singapore,TRUE,1731,1291,1737,1285,6
+1984-12-03,AFC Asian Cup,played,Iran,IRN,China PR,,FALSE,2,0,win,Kallang,Singapore,TRUE,,,,,
+1984-12-07,AFC Asian Cup,played,Iran,IRN,India,,TRUE,0,0,draw,Kallang,Singapore,TRUE,1761,1199,1738,1222,-23
+1984-12-10,AFC Asian Cup,played,Iran,IRN,Singapore,,FALSE,1,1,draw,Kallang,Singapore,FALSE,1738,1229,1717,1250,-21
+1984-12-13,AFC Asian Cup,played,Iran,IRN,Saudi Arabia,SAU,FALSE,1,1,draw,Kallang,Singapore,TRUE,1717,1577,1707,1587,-10
+1984-12-16,AFC Asian Cup,played,Iran,IRN,Kuwait,KWT,TRUE,1,1,draw,Kallang,Singapore,TRUE,1707,1519,1695,1531,-12
+1985-01-20,Nehru Cup,played,Iran,IRN,Yugoslavia,YUG,TRUE,1,3,loss,Ernakulam,India,TRUE,1695,1802,1674,1823,-21
+1985-01-28,Nehru Cup,played,Iran,IRN,Soviet Union,SUN,TRUE,0,2,loss,Ernakulam,India,TRUE,1674,1965,1665,1974,-9
+1985-02-05,Friendly,played,Iran,IRN,North Korea,PRK,TRUE,1,0,win,Mashhad,Iran,FALSE,1665,1564,1670,1559,5
+1986-02-16,Friendly,played,Iran,IRN,Pakistan,,TRUE,2,0,win,Tehran,Iran,FALSE,1670,1119,1671,1118,1
+1986-02-20,Friendly,played,Iran,IRN,Ghana,GHA,TRUE,2,0,win,Tehran,Iran,FALSE,1671,1576,1682,1565,11
+1986-05-28,Friendly,played,Iran,IRN,China PR,,FALSE,1,2,loss,Beijing,China PR,FALSE,,,,,
+1986-09-20,Friendly,played,Iran,IRN,Thailand,,TRUE,4,0,win,Seoul,South Korea,TRUE,1672,1238,1675,1235,3
+1986-09-22,Asian Games,played,Iran,IRN,Japan,JPN,FALSE,2,0,win,Daejeon,South Korea,TRUE,1675,1482,1690,1467,15
+1986-09-24,Asian Games,played,Iran,IRN,Bangladesh,,TRUE,4,0,win,Daejeon,South Korea,TRUE,1690,1108,1693,1105,3
+1986-09-26,Asian Games,played,Iran,IRN,Kuwait,KWT,TRUE,0,1,loss,Daejeon,South Korea,TRUE,1693,1613,1668,1638,-25
+1986-09-28,Asian Games,played,Iran,IRN,Nepal,,TRUE,6,0,win,Daejeon,South Korea,TRUE,1668,836,1669,835,1
+1986-10-01,Asian Games,played,Iran,IRN,South Korea,KOR,FALSE,1,1,draw,Busan,South Korea,FALSE,1669,1618,1672,1615,3
+1988-05-27,AFC Asian Cup qualification,played,Iran,IRN,Hong Kong,,TRUE,2,0,win,Kathmandu,Nepal,TRUE,1667,1335,1675,1327,8
+1988-05-29,AFC Asian Cup qualification,played,Iran,IRN,Syria,,FALSE,1,1,draw,Kathmandu,Nepal,TRUE,1675,1451,1664,1462,-11
+1988-06-02,AFC Asian Cup qualification,played,Iran,IRN,North Korea,PRK,TRUE,0,0,draw,Kathmandu,Nepal,TRUE,1664,1554,1658,1560,-6
+1988-06-04,AFC Asian Cup qualification,played,Iran,IRN,Nepal,,FALSE,3,0,win,Kathmandu,Nepal,FALSE,1658,922,1660,920,2
+1988-12-02,AFC Asian Cup,played,Iran,IRN,Qatar,QAT,FALSE,2,0,win,Doha,Qatar,FALSE,1660,1436,1685,1411,25
+1988-12-04,AFC Asian Cup,played,Iran,IRN,Japan,JPN,FALSE,0,0,draw,Doha,Qatar,TRUE,1685,1427,1669,1443,-16
+1988-12-08,AFC Asian Cup,played,Iran,IRN,United Arab Emirates,ARE,TRUE,1,0,win,Doha,Qatar,TRUE,1669,1461,1681,1449,12
+1988-12-11,AFC Asian Cup,played,Iran,IRN,South Korea,KOR,FALSE,0,3,loss,Doha,Qatar,TRUE,1681,1672,1636,1717,-45
+1988-12-15,AFC Asian Cup,played,Iran,IRN,Saudi Arabia,SAU,FALSE,0,1,loss,Doha,Qatar,TRUE,1636,1532,1604,1564,-32
+1988-12-17,AFC Asian Cup,played,Iran,IRN,China PR,,FALSE,0,0,draw,Doha,Qatar,TRUE,,,,,
+1989-01-20,Friendly,played,Iran,IRN,Japan,JPN,TRUE,2,2,draw,Tehran,Iran,FALSE,1602,1372,1595,1379,-7
+1989-02-23,FIFA World Cup qualification,played,Iran,IRN,Thailand,,FALSE,3,0,win,Bangkok,Thailand,FALSE,1595,1269,1610,1254,15
+1989-02-27,FIFA World Cup qualification,played,Iran,IRN,Bangladesh,,FALSE,2,1,win,Dhaka,Bangladesh,FALSE,1610,1035,1612,1033,2
+1989-03-17,FIFA World Cup qualification,played,Iran,IRN,Bangladesh,,TRUE,1,0,win,Tehran,Iran,FALSE,1612,1068,1613,1067,1
+1989-05-30,FIFA World Cup qualification,played,Iran,IRN,Thailand,,TRUE,3,0,win,Tehran,Iran,FALSE,1613,1200,1616,1197,3
+1989-07-15,FIFA World Cup qualification,played,Iran,IRN,China PR,,FALSE,0,2,loss,Shenyang,China PR,FALSE,,,,,
+1989-07-22,FIFA World Cup qualification,played,Iran,IRN,China PR,,TRUE,3,2,win,Tehran,Iran,FALSE,,,,,
+1989-11-01,Friendly,played,Iran,IRN,Yemen DPR,,TRUE,2,0,win,Kuwait City,Kuwait,TRUE,,,,,
+1989-11-03,Friendly,played,Iran,IRN,Guinea,,FALSE,1,1,draw,Kuwait City,Kuwait,TRUE,1609,1457,1603,1463,-6
+1989-11-05,Friendly,played,Iran,IRN,Iraq,IRQ,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1603,1641,1605,1639,2
+1989-11-08,Friendly,played,Iran,IRN,Uganda,,TRUE,2,2,draw,Kuwait City,Kuwait,TRUE,1605,1491,1600,1496,-5
+1989-11-12,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,0,1,loss,Kuwait City,Kuwait,FALSE,1600,1488,1584,1504,-16
+1990-02-02,Friendly,played,Iran,IRN,Poland,POL,TRUE,0,2,loss,Tehran,Iran,FALSE,1584,1791,1573,1802,-11
+1990-02-04,Friendly,played,Iran,IRN,Poland,POL,TRUE,0,1,loss,Tehran,Iran,FALSE,1573,1802,1567,1808,-6
+1990-09-24,Asian Games,played,Iran,IRN,Malaysia,,TRUE,3,0,win,Beijing,China PR,TRUE,1567,1289,1579,1277,12
+1990-09-28,Asian Games,played,Iran,IRN,North Korea,PRK,FALSE,2,1,win,Beijing,China PR,TRUE,1579,1491,1594,1476,15
+1990-10-01,Asian Games,played,Iran,IRN,Japan,JPN,TRUE,1,0,win,Beijing,China PR,TRUE,1594,1378,1603,1369,9
+1990-10-03,Asian Games,played,Iran,IRN,South Korea,KOR,FALSE,1,0,win,Beijing,China PR,TRUE,1603,1754,1631,1726,28
+1990-10-06,Asian Games,played,Iran,IRN,North Korea,PRK,TRUE,0,0,draw,Beijing,China PR,TRUE,1631,1494,1623,1502,-8
+1991-10-13,Friendly,played,Iran,IRN,Algeria,DZA,FALSE,0,1,loss,Algiers,Algeria,FALSE,1650,1723,1637,1736,-13
+1992-05-11,AFC Asian Cup qualification,played,Iran,IRN,Pakistan,,TRUE,7,0,win,Calcutta,India,TRUE,1637,1021,1640,1018,3
+1992-05-15,AFC Asian Cup qualification,played,Iran,IRN,India,,FALSE,3,0,win,Calcutta,India,FALSE,,,,,
+1992-10-02,Friendly,played,Iran,IRN,Cameroon,CMR,TRUE,1,1,draw,Tehran,Iran,FALSE,1647,1655,1644,1658,-3
+1992-10-04,Friendly,played,Iran,IRN,Cameroon,CMR,TRUE,0,0,draw,Tehran,Iran,FALSE,1644,1658,1642,1660,-2
+1992-10-18,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1642,1498,1641,1499,-1
+1992-10-30,AFC Asian Cup,played,Iran,IRN,North Korea,PRK,FALSE,2,0,win,Onomichi,Japan,TRUE,1641,1512,1665,1488,24
+1992-11-01,AFC Asian Cup,played,Iran,IRN,United Arab Emirates,ARE,FALSE,0,0,draw,Hiroshima,Japan,TRUE,1665,1488,1653,1500,-12
+1992-11-03,AFC Asian Cup,played,Iran,IRN,Japan,JPN,FALSE,0,1,loss,Hiroshima,Japan,FALSE,1653,1448,1621,1480,-32
+1993-06-06,Friendly,played,Iran,IRN,Pakistan,,TRUE,5,0,win,Tehran,Iran,FALSE,1621,974,1622,973,1
+1993-06-08,Friendly,played,Iran,IRN,Turkmenistan,,TRUE,2,1,win,Tehran,Iran,FALSE,1622,1528,1629,1521,7
+1993-06-13,Friendly,played,Iran,IRN,Tajikistan,,TRUE,1,0,win,Tehran,Iran,FALSE,1629,1381,1633,1377,4
+1993-06-14,Friendly,played,Iran,IRN,Turkmenistan,,TRUE,2,1,win,Tehran,Iran,FALSE,1633,1521,1640,1514,7
+1993-06-23,FIFA World Cup qualification,played,Iran,IRN,Oman,,TRUE,0,0,draw,Tehran,Iran,FALSE,1640,1076,1621,1095,-19
+1993-06-25,FIFA World Cup qualification,played,Iran,IRN,Taiwan,,TRUE,6,0,win,Tehran,Iran,FALSE,1621,1089,1623,1087,2
+1993-06-27,FIFA World Cup qualification,played,Iran,IRN,Syria,,TRUE,1,1,draw,Tehran,Iran,FALSE,1623,1406,1609,1420,-14
+1993-07-02,FIFA World Cup qualification,played,Iran,IRN,Oman,,FALSE,1,0,win,Damascus,Syria,TRUE,1609,1129,1611,1127,2
+1993-07-04,FIFA World Cup qualification,played,Iran,IRN,Taiwan,,FALSE,6,0,win,Damascus,Syria,TRUE,1611,1062,1614,1059,3
+1993-07-07,FIFA World Cup qualification,played,Iran,IRN,Syria,,FALSE,1,1,draw,Damascus,Syria,FALSE,1614,1430,1609,1435,-5
+1993-10-16,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,TRUE,0,3,loss,Doha,Qatar,TRUE,1589,1639,1559,1669,-30
+1993-10-18,FIFA World Cup qualification,played,Iran,IRN,Japan,JPN,FALSE,2,1,win,Doha,Qatar,TRUE,1559,1611,1582,1588,23
+1993-10-22,FIFA World Cup qualification,played,Iran,IRN,Iraq,IRQ,TRUE,1,2,loss,Doha,Qatar,TRUE,1582,1638,1565,1655,-17
+1993-10-25,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,TRUE,2,1,win,Doha,Qatar,TRUE,1565,1540,1584,1521,19
+1993-10-28,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,FALSE,3,4,loss,Doha,Qatar,TRUE,1584,1663,1568,1679,-16
+1994-10-03,Asian Games,played,Iran,IRN,Bahrain,,TRUE,0,0,draw,Hiroshima,Japan,TRUE,1568,1422,1560,1430,-8
+1994-10-05,Asian Games,played,Iran,IRN,Turkmenistan,,TRUE,1,1,draw,Onomichi,Japan,TRUE,1560,1534,1559,1535,-1
+1994-10-07,Asian Games,played,Iran,IRN,China PR,,TRUE,0,1,loss,Hiroshima,Japan,TRUE,,,,,
+1994-10-09,Asian Games,played,Iran,IRN,Yemen,,TRUE,4,0,win,Miyoshi,Japan,TRUE,1538,1209,1548,1199,10
+1996-04-26,Friendly,played,Iran,IRN,Turkmenistan,,FALSE,1,1,draw,Ashgabat,Turkmenistan,FALSE,1548,1492,1549,1491,1
+1996-04-28,Friendly,played,Iran,IRN,Turkmenistan,,FALSE,1,0,win,Ashgabat,Turkmenistan,FALSE,,,,,
+1996-05-17,Friendly,played,Iran,IRN,Qatar,QAT,TRUE,2,0,win,Tabriz,Iran,FALSE,1540,1437,1547,1430,7
+1996-06-01,Friendly,played,Iran,IRN,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1547,1427,1556,1418,9
+1996-06-10,AFC Asian Cup qualification,played,Iran,IRN,Nepal,,TRUE,8,0,win,Tehran,Iran,FALSE,1556,876,1557,875,1
+1996-06-12,AFC Asian Cup qualification,played,Iran,IRN,Sri Lanka,,TRUE,7,0,win,Tehran,Iran,FALSE,1557,920,1558,919,1
+1996-06-14,AFC Asian Cup qualification,played,Iran,IRN,Oman,,TRUE,2,0,win,Tehran,Iran,FALSE,1558,1299,1565,1292,7
+1996-06-17,AFC Asian Cup qualification,played,Iran,IRN,Sri Lanka,,FALSE,4,0,win,Muscat,Oman,TRUE,1565,945,1567,943,2
+1996-06-19,AFC Asian Cup qualification,played,Iran,IRN,Nepal,,FALSE,4,0,win,Muscat,Oman,TRUE,1567,840,1568,839,1
+1996-06-21,AFC Asian Cup qualification,played,Iran,IRN,Oman,,FALSE,2,1,win,Muscat,Oman,FALSE,1568,1301,1579,1290,11
+1996-10-04,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1579,1534,1591,1522,12
+1996-11-13,Friendly,played,Iran,IRN,Lebanon,,FALSE,0,0,draw,Beirut,Lebanon,FALSE,1591,1356,1587,1360,-4
+1996-11-25,Friendly,played,Iran,IRN,Turkmenistan,,TRUE,0,1,loss,Tehran,Iran,FALSE,1587,1433,1571,1449,-16
+1996-12-05,AFC Asian Cup,played,Iran,IRN,Iraq,IRQ,TRUE,1,2,loss,Dubai,United Arab Emirates,TRUE,1571,1666,1553,1684,-18
+1996-12-08,AFC Asian Cup,played,Iran,IRN,Thailand,,FALSE,3,1,win,Dubai,United Arab Emirates,TRUE,1553,1448,1579,1422,26
+1996-12-11,AFC Asian Cup,played,Iran,IRN,Saudi Arabia,SAU,FALSE,3,0,win,Dubai,United Arab Emirates,TRUE,1579,1650,1632,1597,53
+1996-12-16,AFC Asian Cup,played,Iran,IRN,South Korea,KOR,FALSE,6,2,win,Dubai,United Arab Emirates,TRUE,1632,1599,1674,1557,42
+1996-12-19,AFC Asian Cup,played,Iran,IRN,Saudi Arabia,SAU,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,TRUE,,,,,
+1996-12-21,AFC Asian Cup,played,Iran,IRN,Kuwait,KWT,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1670,1621,1666,1625,-4
+1997-04-11,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,2,0,win,Kuwait City,Kuwait,FALSE,1666,1639,1684,1621,18
+1997-04-21,Friendly,played,Iran,IRN,Kenya,,TRUE,3,0,win,Tabriz,Iran,FALSE,1684,1420,1688,1416,4
+1997-04-27,Friendly,played,Iran,IRN,China PR,,FALSE,0,0,draw,Beijing,China PR,FALSE,,,,,
+1997-06-02,FIFA World Cup qualification,played,Iran,IRN,Maldives,,FALSE,17,0,win,Damascus,Syria,TRUE,1689,744,1690,743,1
+1997-06-04,FIFA World Cup qualification,played,Iran,IRN,Kyrgyzstan,,FALSE,7,0,win,Damascus,Syria,TRUE,1690,1199,1695,1194,5
+1997-06-06,FIFA World Cup qualification,played,Iran,IRN,Syria,,FALSE,1,0,win,Damascus,Syria,FALSE,1695,1495,1709,1481,14
+1997-06-09,FIFA World Cup qualification,played,Iran,IRN,Kyrgyzstan,,TRUE,3,1,win,Tehran,Iran,FALSE,1709,1199,1711,1197,2
+1997-06-11,FIFA World Cup qualification,played,Iran,IRN,Maldives,,TRUE,9,0,win,Tehran,Iran,FALSE,1711,735,1711,735,0
+1997-06-13,FIFA World Cup qualification,played,Iran,IRN,Syria,,TRUE,2,2,draw,Tehran,Iran,FALSE,1711,1449,1695,1465,-16
+1997-08-17,Friendly,played,Iran,IRN,Canada,CAN,FALSE,1,0,win,Toronto,Canada,FALSE,1695,1631,1706,1620,11
+1997-09-02,Friendly,played,Iran,IRN,United Arab Emirates,ARE,FALSE,1,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1706,1539,1688,1557,-18
+1997-09-13,FIFA World Cup qualification,played,Iran,IRN,China PR,,FALSE,4,2,win,Dalian,China PR,FALSE,,,,,
+1997-09-19,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,TRUE,1,1,draw,Tehran,Iran,FALSE,1725,1640,1715,1650,-10
+1997-09-26,FIFA World Cup qualification,played,Iran,IRN,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1715,1595,1714,1596,-1
+1997-10-03,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,TRUE,3,0,win,Tehran,Iran,FALSE,1714,1480,1723,1471,9
+1997-10-17,FIFA World Cup qualification,played,Iran,IRN,China PR,,TRUE,4,1,win,Tehran,Iran,FALSE,,,,,
+1997-10-24,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,FALSE,0,1,loss,Taif,Saudi Arabia,FALSE,1744,1627,1723,1648,-21
+1997-10-31,FIFA World Cup qualification,played,Iran,IRN,Kuwait,KWT,TRUE,0,0,draw,Tehran,Iran,FALSE,1723,1565,1710,1578,-13
+1997-11-07,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,FALSE,0,2,loss,Doha,Qatar,FALSE,1710,1528,1673,1565,-37
+1997-11-16,FIFA World Cup qualification,played,Iran,IRN,Japan,JPN,FALSE,2,3,loss,Johor Bahru,Malaysia,TRUE,1673,1737,1657,1753,-16
+1997-11-22,FIFA World Cup qualification,played,Iran,IRN,Australia,AUS,TRUE,1,1,draw,Tehran,Iran,FALSE,1657,1844,1662,1839,5
+1997-11-29,FIFA World Cup qualification,played,Iran,IRN,Australia,AUS,FALSE,2,2,draw,Melbourne,Australia,FALSE,1662,1839,1675,1826,13
+1998-01-28,Lunar New Year Cup,played,Iran,IRN,Nigeria,NGA,TRUE,0,1,loss,So Kon Po,Hong Kong,TRUE,1675,1697,1661,1711,-14
+1998-01-31,Lunar New Year Cup,played,Iran,IRN,Chile,CHL,TRUE,1,1,draw,So Kon Po,Hong Kong,TRUE,1661,1754,1665,1750,4
+1998-04-14,Friendly,played,Iran,IRN,Kuwait,KWT,TRUE,1,1,draw,Tehran,Iran,FALSE,1665,1566,1660,1571,-5
+1998-04-20,Friendly,played,Iran,IRN,Hungary,HUN,TRUE,0,2,loss,Tehran,Iran,FALSE,1660,1609,1628,1641,-32
+1998-04-22,Friendly,played,Iran,IRN,Jamaica,JAM,TRUE,1,0,win,Tehran,Iran,FALSE,1628,1656,1640,1644,12
+1998-06-03,Friendly,played,Iran,IRN,Croatia,HRV,FALSE,0,2,loss,Rijeka,Croatia,FALSE,1640,1858,1636,1862,-4
+1998-06-14,FIFA World Cup,played,Iran,IRN,Serbia,SRB,FALSE,0,1,loss,Saint-Étienne,France,TRUE,,,,,
+1998-06-21,FIFA World Cup,played,Iran,IRN,United States,USA,FALSE,2,1,win,Lyon,France,TRUE,1628,1745,1668,1705,40
+1998-06-25,FIFA World Cup,played,Iran,IRN,Germany,DEU,FALSE,0,2,loss,Montpellier,France,TRUE,1668,2064,1660,2072,-8
+1998-10-13,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,0,3,loss,Kuwait City,Kuwait,FALSE,1660,1656,1647,1669,-13
+1998-12-01,Asian Games,played,Iran,IRN,Kazakhstan,,FALSE,2,0,win,Sisaket,Thailand,TRUE,1647,1501,1665,1483,18
+1998-12-05,Asian Games,played,Iran,IRN,Laos,,TRUE,6,1,win,Sisaket,Thailand,TRUE,1665,985,1667,983,2
+1998-12-08,Asian Games,played,Iran,IRN,Oman,,TRUE,2,4,loss,Bangkok,Thailand,TRUE,1667,1351,1615,1403,-52
+1998-12-10,Asian Games,played,Iran,IRN,Tajikistan,,FALSE,5,0,win,Bangkok,Thailand,TRUE,1615,1462,1638,1439,23
+1998-12-12,Asian Games,played,Iran,IRN,China PR,,TRUE,2,1,win,Bangkok,Thailand,TRUE,,,,,
+1998-12-14,Asian Games,played,Iran,IRN,Uzbekistan,,FALSE,4,0,win,Bangkok,Thailand,TRUE,1661,1568,1689,1540,28
+1998-12-16,Asian Games,played,Iran,IRN,China PR,,TRUE,1,0,win,Bangkok,Thailand,TRUE,,,,,
+1998-12-19,Asian Games,played,Iran,IRN,Kuwait,KWT,TRUE,2,0,win,Bangkok,Thailand,TRUE,1709,1691,1737,1663,28
+1999-02-15,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,2,1,win,Kuwait City,Kuwait,FALSE,1737,1659,1753,1643,16
+1999-06-02,Friendly,played,Iran,IRN,Ecuador,ECU,FALSE,1,1,draw,Edmonton,Canada,TRUE,1753,1726,1752,1727,-1
+1999-06-04,Friendly,played,Iran,IRN,Canada,CAN,FALSE,1,0,win,Edmonton,Canada,FALSE,1752,1563,1763,1552,11
+1999-06-06,Friendly,played,Iran,IRN,Guatemala,,FALSE,2,2,draw,Edmonton,Canada,TRUE,1763,1538,1754,1547,-9
+1999-09-08,Friendly,played,Iran,IRN,Japan,JPN,FALSE,1,1,draw,Yokohama,Japan,FALSE,1754,1607,1753,1608,-1
+1999-10-10,Friendly,played,Iran,IRN,Denmark,DNK,FALSE,0,0,draw,Copenhagen,Denmark,FALSE,1753,1871,1759,1865,6
+2000-01-09,Friendly,played,Iran,IRN,Mexico,MEX,FALSE,1,2,loss,Oakland,United States,TRUE,1759,1905,1753,1911,-6
+2000-01-16,Friendly,played,Iran,IRN,United States,USA,FALSE,1,1,draw,Pasadena,United States,FALSE,1753,1804,1757,1800,4
+2000-02-04,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1757,1649,1757,1649,0
+2000-03-22,Friendly,played,Iran,IRN,Cyprus,,FALSE,0,0,draw,Nicosia,Cyprus,FALSE,1757,1550,1754,1553,-3
+2000-03-31,AFC Asian Cup qualification,played,Iran,IRN,Maldives,,FALSE,8,0,win,Damascus,Syria,TRUE,1754,871,1755,870,1
+2000-04-02,AFC Asian Cup qualification,played,Iran,IRN,Syria,,FALSE,1,0,win,Damascus,Syria,FALSE,1755,1486,1766,1475,11
+2000-04-04,AFC Asian Cup qualification,played,Iran,IRN,Bahrain,,FALSE,0,1,loss,Damascus,Syria,TRUE,1766,1295,1728,1333,-38
+2000-04-09,AFC Asian Cup qualification,played,Iran,IRN,Bahrain,,TRUE,3,0,win,Tehran,Iran,FALSE,1728,1333,1732,1329,4
+2000-04-11,AFC Asian Cup qualification,played,Iran,IRN,Syria,,TRUE,1,1,draw,Tehran,Iran,FALSE,1732,1477,1717,1492,-15
+2000-04-13,AFC Asian Cup qualification,played,Iran,IRN,Maldives,,TRUE,3,0,win,Tehran,Iran,FALSE,1717,859,1717,859,0
+2000-05-24,WAFF Championship,played,Iran,IRN,Kazakhstan,,TRUE,3,0,win,Amman,Jordan,TRUE,1717,1490,1732,1475,15
+2000-05-26,WAFF Championship,played,Iran,IRN,Palestine,,FALSE,1,1,draw,Amman,Jordan,TRUE,1732,1250,1714,1268,-18
+2000-05-28,WAFF Championship,played,Iran,IRN,Syria,,TRUE,1,0,win,Amman,Jordan,TRUE,1714,1545,1725,1534,11
+2000-05-31,WAFF Championship,played,Iran,IRN,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,1725,1488,1737,1476,12
+2000-06-02,WAFF Championship,played,Iran,IRN,Syria,,TRUE,1,0,win,Amman,Jordan,TRUE,1737,1540,1747,1530,10
+2000-06-07,Friendly,played,Iran,IRN,Egypt,EGY,TRUE,1,1,draw,Tehran,Iran,FALSE,1747,1656,1739,1664,-8
+2000-06-09,Friendly,played,Iran,IRN,North Macedonia,,TRUE,3,1,win,Tehran,Iran,FALSE,1739,1539,1746,1532,7
+2000-08-16,Friendly,played,Iran,IRN,Georgia,,TRUE,2,1,win,Tehran,Iran,FALSE,1746,1515,1749,1512,3
+2000-09-01,Friendly,played,Iran,IRN,Austria,AUT,FALSE,1,5,loss,Vienna,Austria,FALSE,1749,1692,1733,1708,-16
+2000-09-27,Friendly,played,Iran,IRN,Qatar,QAT,FALSE,2,1,win,Doha,Qatar,FALSE,1733,1491,1739,1485,6
+2000-10-12,AFC Asian Cup,played,Iran,IRN,Lebanon,,FALSE,4,0,win,Beirut,Lebanon,FALSE,1739,1431,1761,1409,22
+2000-10-15,AFC Asian Cup,played,Iran,IRN,Thailand,,TRUE,1,1,draw,Beirut,Lebanon,TRUE,1761,1478,1744,1495,-17
+2000-10-18,AFC Asian Cup,played,Iran,IRN,Iraq,IRQ,TRUE,1,0,win,Sidon,Lebanon,TRUE,1744,1676,1764,1656,20
+2000-10-23,AFC Asian Cup,played,Iran,IRN,South Korea,KOR,TRUE,1,2,loss,Tripoli,Lebanon,TRUE,1764,1744,1738,1770,-26
+2000-11-24,FIFA World Cup qualification,played,Iran,IRN,Guam,,TRUE,19,0,win,Tabriz,Iran,FALSE,1738,660,1738,660,0
+2000-11-28,FIFA World Cup qualification,played,Iran,IRN,Tajikistan,,TRUE,2,0,win,Tabriz,Iran,FALSE,1738,1440,1744,1434,6
+2001-01-19,Cup of Ancient Civilizations,played,Iran,IRN,China PR,,TRUE,4,0,win,Tehran,Iran,FALSE,,,,,
+2001-04-24,Friendly,played,Iran,IRN,South Korea,KOR,TRUE,0,1,loss,Cairo,Egypt,TRUE,1760,1771,1745,1786,-15
+2001-04-26,Friendly,played,Iran,IRN,Canada,CAN,FALSE,0,1,loss,Cairo,Egypt,TRUE,1745,1614,1725,1634,-20
+2001-07-22,Friendly,played,Iran,IRN,Bosnia and Herzegovina,BIH,FALSE,2,2,draw,Bihać,Bosnia and Herzegovina,FALSE,1725,1543,1723,1545,-2
+2001-08-01,Friendly,played,Iran,IRN,Qatar,QAT,FALSE,1,2,loss,Doha,Qatar,FALSE,1723,1569,1711,1581,-12
+2001-08-08,Friendly,played,Iran,IRN,Oman,,TRUE,5,2,win,Tehran,Iran,FALSE,1711,1398,1715,1394,4
+2001-08-10,Friendly,played,Iran,IRN,Bosnia and Herzegovina,BIH,TRUE,4,0,win,Tehran,Iran,FALSE,1715,1545,1725,1535,10
+2001-08-15,Friendly,played,Iran,IRN,Slovakia,SVK,FALSE,4,3,win,Bratislava,Slovakia,FALSE,1725,1688,1737,1676,12
+2001-08-24,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,TRUE,2,0,win,Tehran,Iran,FALSE,1737,1672,1754,1655,17
+2001-09-01,FIFA World Cup qualification,played,Iran,IRN,Thailand,,FALSE,0,0,draw,Bangkok,Thailand,FALSE,1754,1491,1745,1500,-9
+2001-09-07,FIFA World Cup qualification,played,Iran,IRN,Iraq,IRQ,FALSE,2,1,win,Baghdad,Iraq,FALSE,1745,1556,1760,1541,15
+2001-09-14,FIFA World Cup qualification,played,Iran,IRN,Bahrain,,TRUE,0,0,draw,Tehran,Iran,FALSE,1760,1444,1743,1461,-17
+2001-09-28,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,FALSE,2,2,draw,Jeddah,Saudi Arabia,FALSE,1743,1696,1746,1693,3
+2001-10-05,FIFA World Cup qualification,played,Iran,IRN,Thailand,,TRUE,1,0,win,Tehran,Iran,FALSE,1746,1482,1750,1478,4
+2001-10-12,FIFA World Cup qualification,played,Iran,IRN,Iraq,IRQ,TRUE,2,1,win,Tehran,Iran,FALSE,1750,1544,1756,1538,6
+2001-10-21,FIFA World Cup qualification,played,Iran,IRN,Bahrain,,FALSE,1,3,loss,Riffa,Bahrain,FALSE,1756,1470,1711,1515,-45
+2001-10-25,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,TRUE,1,0,win,Tehran,Iran,FALSE,1711,1509,1717,1503,6
+2001-10-31,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,FALSE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1717,1503,1741,1479,24
+2001-11-10,FIFA World Cup qualification,played,Iran,IRN,Republic of Ireland,IRL,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+2001-11-15,FIFA World Cup qualification,played,Iran,IRN,Republic of Ireland,IRL,TRUE,1,0,win,Tehran,Iran,FALSE,,,,,
+2002-02-06,Friendly,played,Iran,IRN,Slovakia,SVK,TRUE,2,3,loss,Tehran,Iran,FALSE,1751,1695,1737,1709,-14
+2002-03-01,Friendly,played,Iran,IRN,Venezuela,,TRUE,1,0,win,Casablanca,Morocco,TRUE,1737,1572,1745,1564,8
+2002-05-30,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,3,1,win,Kuwait City,Kuwait,FALSE,1745,1526,1755,1516,10
+2002-08-21,Friendly,played,Iran,IRN,Ukraine,UKR,FALSE,1,0,win,Kyiv,Ukraine,FALSE,1746,1694,1757,1683,11
+2002-08-30,WAFF Championship,played,Iran,IRN,Jordan,,FALSE,0,1,loss,Damascus,Syria,TRUE,1757,1386,1721,1422,-36
+2002-09-03,WAFF Championship,played,Iran,IRN,Lebanon,,TRUE,2,0,win,Damascus,Syria,TRUE,1721,1401,1729,1393,8
+2002-09-05,WAFF Championship,played,Iran,IRN,Iraq,IRQ,FALSE,0,0,draw,Damascus,Syria,TRUE,1729,1605,1722,1612,-7
+2002-09-07,WAFF Championship,played,Iran,IRN,Syria,,FALSE,2,2,draw,Damascus,Syria,FALSE,1722,1411,1711,1422,-11
+2002-09-17,Friendly,played,Iran,IRN,Morocco,MAR,TRUE,1,1,draw,Tabriz,Iran,FALSE,,,,,
+2002-09-19,Friendly,played,Iran,IRN,Paraguay,PRY,TRUE,1,1,draw,Tabriz,Iran,FALSE,1711,1753,1709,1755,-2
+2003-02-04,Lunar New Year Cup,played,Iran,IRN,Uruguay,URY,FALSE,1,1,draw,So Kon Po,Hong Kong,TRUE,1709,1781,1712,1778,3
+2003-08-13,Friendly,played,Iran,IRN,Iraq,IRQ,TRUE,0,1,loss,Tehran,Iran,FALSE,1699,1612,1677,1634,-22
+2003-08-20,Friendly,played,Iran,IRN,Belarus,,FALSE,1,2,loss,Minsk,Belarus,FALSE,1706,1540,1694,1552,-12
+2003-09-05,AFC Asian Cup qualification,played,Iran,IRN,Jordan,,TRUE,4,1,win,Tehran,Iran,FALSE,1694,1545,1707,1532,13
+2003-09-26,AFC Asian Cup qualification,played,Iran,IRN,Jordan,,FALSE,2,3,loss,Amman,Jordan,FALSE,1707,1526,1682,1551,-25
+2003-10-12,Friendly,played,Iran,IRN,New Zealand,NZL,TRUE,3,0,win,Tehran,Iran,FALSE,1682,1532,1695,1519,13
+2003-10-27,AFC Asian Cup qualification,played,Iran,IRN,North Korea,PRK,FALSE,3,1,win,Pyongyang,North Korea,FALSE,1695,1464,1714,1445,19
+2003-11-12,AFC Asian Cup qualification,played,Iran,IRN,North Korea,PRK,TRUE,3,0,win,Tehran,Iran,FALSE,,,,,
+2003-11-19,AFC Asian Cup qualification,played,Iran,IRN,Lebanon,,FALSE,3,0,win,Beirut,Lebanon,FALSE,1718,1377,1732,1363,14
+2003-11-28,AFC Asian Cup qualification,played,Iran,IRN,Lebanon,,TRUE,1,0,win,Tehran,Iran,FALSE,1732,1363,1735,1360,3
+2004-02-18,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,TRUE,3,1,win,Tehran,Iran,FALSE,1716,1533,1726,1523,10
+2004-03-31,FIFA World Cup qualification,played,Iran,IRN,Laos,,FALSE,7,0,win,Vientiane,Laos,FALSE,1726,894,1727,893,1
+2004-06-09,FIFA World Cup qualification,played,Iran,IRN,Jordan,,TRUE,0,1,loss,Tehran,Iran,FALSE,1727,1600,1696,1631,-31
+2004-06-17,WAFF Championship,played,Iran,IRN,Lebanon,,TRUE,4,0,win,Tehran,Iran,FALSE,1696,1393,1703,1386,7
+2004-06-21,WAFF Championship,played,Iran,IRN,Syria,,TRUE,7,1,win,Tehran,Iran,FALSE,1703,1474,1714,1463,11
+2004-06-23,WAFF Championship,played,Iran,IRN,Iraq,IRQ,TRUE,2,1,win,Tehran,Iran,FALSE,1714,1558,1721,1551,7
+2004-06-25,WAFF Championship,played,Iran,IRN,Syria,,TRUE,4,1,win,Tehran,Iran,FALSE,1721,1473,1729,1465,8
+2004-07-20,AFC Asian Cup,played,Iran,IRN,Thailand,,TRUE,3,0,win,Chongqing,China PR,TRUE,1729,1400,1740,1389,11
+2004-07-24,AFC Asian Cup,played,Iran,IRN,Oman,,FALSE,2,2,draw,Chongqing,China PR,TRUE,1740,1554,1728,1566,-12
+2004-07-28,AFC Asian Cup,played,Iran,IRN,Japan,JPN,FALSE,0,0,draw,Chongqing,China PR,TRUE,1728,1841,1736,1833,8
+2004-07-31,AFC Asian Cup,played,Iran,IRN,South Korea,KOR,FALSE,4,3,win,Jinan,China PR,TRUE,1736,1724,1760,1700,24
+2004-08-03,AFC Asian Cup,played,Iran,IRN,China PR,,FALSE,1,1,draw,Beijing,China PR,FALSE,,,,,
+2004-08-06,AFC Asian Cup,played,Iran,IRN,Bahrain,,TRUE,4,2,win,Beijing,China PR,TRUE,1759,1581,1779,1561,20
+2004-09-08,FIFA World Cup qualification,played,Iran,IRN,Jordan,,FALSE,2,0,win,Amman,Jordan,FALSE,1779,1656,1807,1628,28
+2004-10-09,Friendly,played,Iran,IRN,Germany,DEU,TRUE,0,2,loss,Tehran,Iran,FALSE,1807,1853,1790,1870,-17
+2004-10-13,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,FALSE,3,2,win,Doha,Qatar,FALSE,1790,1459,1798,1451,8
+2004-11-17,FIFA World Cup qualification,played,Iran,IRN,Laos,,TRUE,7,0,win,Tehran,Iran,FALSE,1798,886,1798,886,0
+2004-12-18,Friendly,played,Iran,IRN,Panama,PAN,TRUE,1,0,win,Tehran,Iran,FALSE,1798,1518,1800,1516,2
+2005-02-02,Friendly,played,Iran,IRN,Bosnia and Herzegovina,BIH,TRUE,2,1,win,Tehran,Iran,FALSE,1800,1622,1803,1619,3
+2005-02-09,FIFA World Cup qualification,played,Iran,IRN,Bahrain,,FALSE,0,0,draw,Riffa,Bahrain,FALSE,1803,1589,1797,1595,-6
+2005-03-25,FIFA World Cup qualification,played,Iran,IRN,Japan,JPN,TRUE,2,1,win,Tehran,Iran,FALSE,1797,1850,1814,1833,17
+2005-03-30,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,FALSE,2,0,win,Pyongyang,North Korea,FALSE,1814,1467,1826,1455,12
+2005-05-29,Friendly,played,Iran,IRN,Azerbaijan,,TRUE,2,1,win,Tehran,Iran,FALSE,1826,1372,1827,1371,1
+2005-06-03,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,TRUE,1,0,win,Tehran,Iran,FALSE,1827,1455,1829,1453,2
+2005-06-08,FIFA World Cup qualification,played,Iran,IRN,Bahrain,,TRUE,1,0,win,Tehran,Iran,FALSE,1829,1596,1834,1591,5
+2005-08-17,FIFA World Cup qualification,played,Iran,IRN,Japan,JPN,FALSE,1,2,loss,Yokohama,Japan,FALSE,1834,1804,1818,1820,-16
+2005-08-24,Friendly,played,Iran,IRN,Libya,,TRUE,4,0,win,Tehran,Iran,FALSE,1818,1511,1821,1508,3
+2005-10-12,Friendly,played,Iran,IRN,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1821,1648,1803,1666,-18
+2005-11-13,Friendly,played,Iran,IRN,Togo,TGO,TRUE,2,0,win,Tehran,Iran,FALSE,1803,1590,1809,1584,6
+2006-02-22,AFC Asian Cup qualification,played,Iran,IRN,Taiwan,,TRUE,4,0,win,Tehran,Iran,FALSE,1828,974,1828,974,0
+2006-03-01,Friendly,played,Iran,IRN,Costa Rica,CRI,TRUE,3,2,win,Tehran,Iran,FALSE,1828,1743,1833,1738,5
+2006-05-28,Friendly,played,Iran,IRN,Croatia,HRV,FALSE,2,2,draw,Osijek,Croatia,FALSE,1833,1860,1837,1856,4
+2006-05-31,Friendly,played,Iran,IRN,Bosnia and Herzegovina,BIH,TRUE,5,2,win,Tehran,Iran,FALSE,1837,1628,1842,1623,5
+2006-06-11,FIFA World Cup,played,Iran,IRN,Mexico,MEX,FALSE,1,3,loss,Nuremberg,Germany,TRUE,1842,1839,1797,1884,-45
+2006-06-17,FIFA World Cup,played,Iran,IRN,Portugal,PRT,FALSE,0,2,loss,Frankfurt am Main,Germany,TRUE,1797,1922,1768,1951,-29
+2006-06-21,FIFA World Cup,played,Iran,IRN,Angola,AGO,TRUE,1,1,draw,Leipzig,Germany,TRUE,1768,1580,1753,1595,-15
+2006-08-08,Friendly,played,Iran,IRN,United Arab Emirates,ARE,TRUE,1,0,win,Tehran,Iran,FALSE,1753,1505,1755,1503,2
+2006-08-16,AFC Asian Cup qualification,played,Iran,IRN,Syria,,TRUE,1,1,draw,Tehran,Iran,FALSE,1755,1469,1739,1485,-16
+2006-09-02,AFC Asian Cup qualification,played,Iran,IRN,South Korea,KOR,FALSE,1,1,draw,Seoul,South Korea,FALSE,1739,1734,1744,1729,5
+2006-10-04,Friendly,played,Iran,IRN,Iraq,IRQ,TRUE,2,0,win,Amman,Jordan,TRUE,1761,1593,1773,1581,12
+2006-10-06,Friendly,played,Iran,IRN,Jordan,,FALSE,0,0,draw,Amman,Jordan,FALSE,1773,1519,1767,1525,-6
+2006-11-15,AFC Asian Cup qualification,played,Iran,IRN,South Korea,KOR,TRUE,2,0,win,Tehran,Iran,FALSE,1768,1696,1784,1680,16
+2007-02-07,Friendly,played,Iran,IRN,Belarus,,TRUE,2,2,draw,Tehran,Iran,FALSE,1791,1563,1784,1570,-7
+2007-03-24,Friendly,played,Iran,IRN,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1784,1509,1789,1504,5
+2007-06-02,Friendly,played,Iran,IRN,Mexico,MEX,FALSE,0,4,loss,San Luis Potosí,Mexico,FALSE,1789,1834,1778,1845,-11
+2007-06-16,WAFF Championship,played,Iran,IRN,Iraq,IRQ,TRUE,0,0,draw,Amman,Jordan,TRUE,1778,1592,1768,1602,-10
+2007-06-20,WAFF Championship,played,Iran,IRN,Palestine,,TRUE,2,0,win,Amman,Jordan,TRUE,1768,1262,1771,1259,3
+2007-06-22,WAFF Championship,played,Iran,IRN,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,1771,1532,1783,1520,12
+2007-06-24,WAFF Championship,played,Iran,IRN,Iraq,IRQ,FALSE,2,1,win,Amman,Jordan,TRUE,1783,1633,1795,1621,12
+2007-07-02,Friendly,played,Iran,IRN,Jamaica,JAM,TRUE,8,1,win,Tehran,Iran,FALSE,1795,1550,1800,1545,5
+2007-07-11,AFC Asian Cup,played,Iran,IRN,Uzbekistan,,TRUE,2,1,win,Kuala Lumpur,Malaysia,TRUE,1800,1547,1809,1538,9
+2007-07-15,AFC Asian Cup,played,Iran,IRN,China PR,,FALSE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,,,,,
+2007-07-18,AFC Asian Cup,played,Iran,IRN,Malaysia,,FALSE,2,0,win,Kuala Lumpur,Malaysia,FALSE,1796,1148,1799,1145,3
+2007-07-22,AFC Asian Cup,played,Iran,IRN,South Korea,KOR,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1799,1653,1789,1663,-10
+2008-01-10,Friendly,played,Iran,IRN,Qatar,QAT,FALSE,0,0,draw,Doha,Qatar,FALSE,1789,1468,1783,1474,-6
+2008-01-30,Friendly,played,Iran,IRN,Costa Rica,CRI,TRUE,0,0,draw,Tehran,Iran,FALSE,1783,1631,1777,1637,-6
+2008-02-06,FIFA World Cup qualification,played,Iran,IRN,Syria,,TRUE,0,0,draw,Tehran,Iran,FALSE,1777,1518,1761,1534,-16
+2008-03-21,Friendly,played,Iran,IRN,Bahrain,,FALSE,0,1,loss,Manama,Bahrain,FALSE,1761,1490,1746,1505,-15
+2008-03-26,FIFA World Cup qualification,played,Iran,IRN,Kuwait,KWT,FALSE,2,2,draw,Kuwait City,Kuwait,FALSE,1746,1409,1734,1421,-12
+2008-05-25,Friendly,played,Iran,IRN,Zambia,,TRUE,3,2,win,Tehran,Iran,FALSE,1734,1569,1738,1565,4
+2008-06-02,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,TRUE,0,0,draw,Tehran,Iran,FALSE,1738,1465,1722,1481,-16
+2008-06-07,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,FALSE,1,0,win,Al Ain,United Arab Emirates,FALSE,1722,1481,1734,1469,12
+2008-06-14,FIFA World Cup qualification,played,Iran,IRN,Syria,,FALSE,2,0,win,Damascus,Syria,FALSE,1734,1512,1754,1492,20
+2008-06-22,FIFA World Cup qualification,played,Iran,IRN,Kuwait,KWT,TRUE,2,0,win,Tehran,Iran,FALSE,1754,1423,1759,1418,5
+2008-08-07,WAFF Championship,played,Iran,IRN,Palestine,,TRUE,3,0,win,Tehran,Iran,FALSE,1759,1226,1761,1224,2
+2008-08-11,WAFF Championship,played,Iran,IRN,Qatar,QAT,TRUE,6,1,win,Tehran,Iran,FALSE,1761,1536,1772,1525,11
+2008-08-13,WAFF Championship,played,Iran,IRN,Syria,,TRUE,2,0,win,Tehran,Iran,FALSE,1772,1548,1780,1540,8
+2008-08-15,WAFF Championship,played,Iran,IRN,Jordan,,TRUE,2,1,win,Tehran,Iran,FALSE,1780,1559,1785,1554,5
+2008-08-27,Friendly,played,Iran,IRN,Azerbaijan,,TRUE,1,0,win,Tehran,Iran,FALSE,1785,1372,1786,1371,1
+2008-09-06,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,FALSE,1,1,draw,Riyadh,Saudi Arabia,FALSE,1786,1687,1786,1687,0
+2008-10-15,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,TRUE,2,1,win,Tehran,Iran,FALSE,1786,1555,1791,1550,5
+2008-11-09,Friendly,played,Iran,IRN,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1791,1520,1796,1515,5
+2008-11-19,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,FALSE,1,1,draw,Dubai,United Arab Emirates,FALSE,1796,1404,1782,1418,-14
+2008-12-17,Friendly,played,Iran,IRN,Ecuador,ECU,TRUE,0,1,loss,Muscat,Oman,TRUE,1782,1714,1764,1732,-18
+2008-12-19,Friendly,played,Iran,IRN,China PR,,TRUE,2,0,win,Muscat,Oman,TRUE,,,,,
+2008-12-27,Friendly,played,Iran,IRN,Galicia,,FALSE,2,3,loss,La Coruña,Spain,FALSE,,,,,
+2009-01-09,Friendly,played,Iran,IRN,China PR,,TRUE,3,1,win,Tehran,Iran,FALSE,,,,,
+2009-01-14,AFC Asian Cup qualification,played,Iran,IRN,Singapore,,TRUE,6,0,win,Tehran,Iran,FALSE,1777,1369,1781,1365,4
+2009-01-28,AFC Asian Cup qualification,played,Iran,IRN,Thailand,,FALSE,0,0,draw,Bangkok,Thailand,FALSE,1781,1442,1769,1454,-12
+2009-02-11,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,TRUE,1,1,draw,Tehran,Iran,FALSE,1769,1717,1761,1725,-8
+2009-03-14,Friendly,played,Iran,IRN,Kenya,,TRUE,1,0,win,Tehran,Iran,FALSE,1761,1419,1762,1418,1
+2009-03-23,Friendly,played,Iran,IRN,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1762,1459,1767,1454,5
+2009-03-28,FIFA World Cup qualification,played,Iran,IRN,Saudi Arabia,SAU,TRUE,1,2,loss,Tehran,Iran,FALSE,1767,1647,1736,1678,-31
+2009-04-01,Friendly,played,Iran,IRN,Senegal,SEN,TRUE,1,1,draw,Tehran,Iran,FALSE,1736,1535,1729,1542,-7
+2009-06-01,Friendly,played,Iran,IRN,China PR,,FALSE,0,1,loss,Qinhuangdao,China PR,FALSE,,,,,
+2009-06-06,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,FALSE,0,0,draw,Pyongyang,North Korea,FALSE,1716,1530,1711,1535,-5
+2009-06-10,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,TRUE,1,0,win,Tehran,Iran,FALSE,1711,1389,1714,1386,3
+2009-06-17,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,FALSE,1,1,draw,Seoul,South Korea,FALSE,1714,1734,1721,1727,7
+2009-07-05,Friendly,played,Iran,IRN,Botswana,,FALSE,1,1,draw,Gaborone,Botswana,FALSE,1721,1292,1714,1299,-7
+2009-08-12,Friendly,played,Iran,IRN,Bosnia and Herzegovina,BIH,FALSE,3,2,win,Sarajevo,Bosnia and Herzegovina,FALSE,1714,1642,1725,1631,11
+2009-08-31,Friendly,played,Iran,IRN,Bahrain,,FALSE,2,4,loss,Riffa,Bahrain,FALSE,1725,1605,1701,1629,-24
+2009-09-05,Friendly,played,Iran,IRN,Uzbekistan,,FALSE,0,0,draw,Tashkent,Uzbekistan,FALSE,1701,1529,1699,1531,-2
+2009-11-10,Friendly,played,Iran,IRN,Iceland,ISL,TRUE,1,0,win,Tehran,Iran,FALSE,1699,1454,1701,1452,2
+2009-11-14,AFC Asian Cup qualification,played,Iran,IRN,Jordan,,TRUE,1,0,win,Tehran,Iran,FALSE,1701,1433,1705,1429,4
+2009-11-18,Friendly,played,Iran,IRN,North Macedonia,,TRUE,1,1,draw,Tehran,Iran,FALSE,1705,1570,1699,1576,-6
+2009-11-22,AFC Asian Cup qualification,played,Iran,IRN,Jordan,,FALSE,0,1,loss,Amman,Jordan,FALSE,1699,1429,1670,1458,-29
+2009-12-28,Friendly,played,Iran,IRN,Qatar,QAT,FALSE,2,3,loss,Doha,Qatar,FALSE,1670,1534,1653,1551,-17
+2009-12-30,Friendly,played,Iran,IRN,Mali,,FALSE,1,2,loss,Doha,Qatar,TRUE,1653,1548,1634,1567,-19
+2010-01-02,Friendly,played,Iran,IRN,North Korea,PRK,TRUE,1,0,win,Doha,Qatar,TRUE,1634,1551,1645,1540,11
+2010-01-06,AFC Asian Cup qualification,played,Iran,IRN,Singapore,,FALSE,3,1,win,Singapore,Singapore,FALSE,1645,1400,1663,1382,18
+2010-03-03,AFC Asian Cup qualification,played,Iran,IRN,Thailand,,TRUE,1,0,win,Tehran,Iran,FALSE,1663,1459,1669,1453,6
+2010-08-11,Friendly,played,Iran,IRN,Armenia,,FALSE,3,1,win,Yerevan,Armenia,FALSE,1669,1390,1677,1382,8
+2010-09-03,Friendly,played,Iran,IRN,China PR,,FALSE,2,0,win,Zhengzhou,China PR,FALSE,,,,,
+2010-09-07,Friendly,played,Iran,IRN,South Korea,KOR,FALSE,1,0,win,Seoul,South Korea,FALSE,1694,1751,1708,1737,14
+2010-09-24,WAFF Championship,played,Iran,IRN,Bahrain,,TRUE,3,0,win,Amman,Jordan,TRUE,1708,1522,1726,1504,18
+2010-09-28,WAFF Championship,played,Iran,IRN,Oman,,FALSE,2,2,draw,Amman,Jordan,TRUE,1726,1544,1716,1554,-10
+2010-10-01,WAFF Championship,played,Iran,IRN,Iraq,IRQ,TRUE,2,1,win,Amman,Jordan,TRUE,1716,1566,1728,1554,12
+2010-10-03,WAFF Championship,played,Iran,IRN,Kuwait,KWT,TRUE,1,2,loss,Amman,Jordan,TRUE,1728,1526,1698,1556,-30
+2010-10-07,Friendly,played,Iran,IRN,Brazil,BRA,TRUE,0,3,loss,Abu Dhabi,United Arab Emirates,TRUE,1698,2101,1695,2104,-3
+2011-01-02,Friendly,played,Iran,IRN,Angola,AGO,TRUE,1,0,win,Doha,Qatar,TRUE,1693,1458,1697,1454,4
+2011-01-11,AFC Asian Cup,played,Iran,IRN,Iraq,IRQ,FALSE,2,1,win,Al Rayyan,Qatar,TRUE,1697,1580,1714,1563,17
+2011-01-15,AFC Asian Cup,played,Iran,IRN,North Korea,PRK,TRUE,1,0,win,Doha,Qatar,TRUE,1714,1533,1727,1520,13
+2011-01-19,AFC Asian Cup,played,Iran,IRN,United Arab Emirates,ARE,FALSE,3,0,win,Doha,Qatar,TRUE,1727,1471,1743,1455,16
+2011-01-22,AFC Asian Cup,played,Iran,IRN,South Korea,KOR,TRUE,0,1,loss,Doha,Qatar,TRUE,1743,1752,1719,1776,-24
+2011-02-09,Friendly,played,Iran,IRN,Russia,RUS,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1719,1826,1732,1813,13
+2011-07-17,Friendly,played,Iran,IRN,Madagascar,,TRUE,1,0,win,Tehran,Iran,FALSE,1732,1235,1733,1234,1
+2011-07-23,FIFA World Cup qualification,played,Iran,IRN,Maldives,,TRUE,4,0,win,Tehran,Iran,FALSE,1733,1164,1735,1162,2
+2011-07-28,FIFA World Cup qualification,played,Iran,IRN,Maldives,,FALSE,1,0,win,Malé,Maldives,FALSE,1735,1162,1737,1160,2
+2011-09-02,FIFA World Cup qualification,played,Iran,IRN,Indonesia,IDN,TRUE,3,0,win,Tehran,Iran,FALSE,1737,1327,1741,1323,4
+2011-09-06,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,FALSE,1,1,draw,Doha,Qatar,FALSE,1741,1485,1733,1493,-8
+2011-10-05,Friendly,played,Iran,IRN,Palestine,,TRUE,7,0,win,Tehran,Iran,FALSE,1733,1191,1734,1190,1
+2011-10-11,FIFA World Cup qualification,played,Iran,IRN,Bahrain,,TRUE,6,0,win,Tehran,Iran,FALSE,1734,1484,1744,1474,10
+2011-11-11,FIFA World Cup qualification,played,Iran,IRN,Bahrain,,FALSE,1,1,draw,Riffa,Bahrain,FALSE,1744,1490,1736,1498,-8
+2011-11-15,FIFA World Cup qualification,played,Iran,IRN,Indonesia,IDN,FALSE,4,1,win,Jakarta,Indonesia,FALSE,1736,1277,1744,1269,8
+2012-02-23,Friendly,played,Iran,IRN,Jordan,,TRUE,2,2,draw,Dubai,United Arab Emirates,TRUE,1744,1566,1739,1571,-5
+2012-02-29,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,TRUE,2,2,draw,Tehran,Iran,FALSE,1739,1501,1724,1516,-15
+2012-04-18,Friendly,played,Iran,IRN,Mauritania,,TRUE,2,0,win,Tehran,Iran,FALSE,1724,1141,1725,1140,1
+2012-05-02,Friendly,played,Iran,IRN,Mozambique,,TRUE,3,0,win,Karaj,Iran,FALSE,1725,1336,1727,1334,2
+2012-05-27,Friendly,played,Iran,IRN,Albania,,FALSE,0,1,loss,Istanbul,Turkey,TRUE,1727,1486,1711,1502,-16
+2012-06-03,FIFA World Cup qualification,played,Iran,IRN,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1711,1627,1732,1606,21
+2012-06-12,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,TRUE,0,0,draw,Tehran,Iran,FALSE,1732,1492,1717,1507,-15
+2012-08-15,Friendly,played,Iran,IRN,Tunisia,TUN,TRUE,2,2,draw,Kecskemét,Hungary,TRUE,1717,1607,1714,1610,-3
+2012-09-05,Friendly,played,Iran,IRN,Jordan,,FALSE,0,0,draw,Amman,Jordan,FALSE,1714,1550,1712,1552,-2
+2012-09-11,FIFA World Cup qualification,played,Iran,IRN,Lebanon,,FALSE,0,1,loss,Beirut,Lebanon,FALSE,1712,1295,1678,1329,-34
+2012-10-16,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,TRUE,1,0,win,Tehran,Iran,FALSE,1678,1796,1699,1775,21
+2012-11-06,Friendly,played,Iran,IRN,Tajikistan,,TRUE,6,1,win,Tehran,Iran,FALSE,1699,1252,1701,1250,2
+2012-11-14,FIFA World Cup qualification,played,Iran,IRN,Uzbekistan,,TRUE,0,1,loss,Tehran,Iran,FALSE,1701,1626,1672,1655,-29
+2012-12-09,WAFF Championship,played,Iran,IRN,Saudi Arabia,SAU,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1672,1497,1663,1506,-9
+2012-12-12,WAFF Championship,played,Iran,IRN,Bahrain,,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1663,1473,1653,1483,-10
+2012-12-15,WAFF Championship,played,Iran,IRN,Yemen,,TRUE,2,1,win,Kuwait City,Kuwait,TRUE,1653,1283,1657,1279,4
+2013-02-06,AFC Asian Cup qualification,played,Iran,IRN,Lebanon,,TRUE,5,0,win,Tehran,Iran,FALSE,1657,1326,1663,1320,6
+2013-03-26,AFC Asian Cup qualification,played,Iran,IRN,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1663,1570,1663,1570,0
+2013-05-22,Friendly,played,Iran,IRN,Oman,,FALSE,1,3,loss,Muscat,Oman,FALSE,1663,1529,1647,1545,-16
+2013-06-04,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1647,1481,1663,1465,16
+2013-06-11,FIFA World Cup qualification,played,Iran,IRN,Lebanon,,TRUE,4,0,win,Tehran,Iran,FALSE,1663,1368,1670,1361,7
+2013-06-18,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,FALSE,1,0,win,Ulsan,South Korea,FALSE,1670,1748,1699,1719,29
+2013-10-15,AFC Asian Cup qualification,played,Iran,IRN,Thailand,,TRUE,2,1,win,Tehran,Iran,FALSE,1699,1365,1702,1362,3
+2013-11-15,AFC Asian Cup qualification,played,Iran,IRN,Thailand,,FALSE,3,0,win,Bangkok,Thailand,FALSE,1702,1362,1716,1348,14
+2013-11-19,AFC Asian Cup qualification,played,Iran,IRN,Lebanon,,FALSE,4,1,win,Beirut,Lebanon,FALSE,1716,1399,1732,1383,16
+2014-03-03,AFC Asian Cup qualification,played,Iran,IRN,Kuwait,KWT,TRUE,3,2,win,Karaj,Iran,FALSE,1732,1532,1738,1526,6
+2014-03-05,Friendly,played,Iran,IRN,Guinea,,TRUE,1,2,loss,Tehran,Iran,FALSE,1738,1510,1721,1527,-17
+2014-05-18,Friendly,played,Iran,IRN,Belarus,,FALSE,0,0,draw,Kapfenberg,Austria,TRUE,1721,1582,1717,1586,-4
+2014-05-26,Friendly,played,Iran,IRN,Montenegro,,FALSE,0,0,draw,Hartberg,Austria,TRUE,1717,1597,1714,1600,-3
+2014-05-30,Friendly,played,Iran,IRN,Angola,AGO,FALSE,1,1,draw,Hartberg,Austria,TRUE,1714,1461,1708,1467,-6
+2014-06-08,Friendly,played,Iran,IRN,Trinidad and Tobago,TTO,TRUE,2,0,win,São Paulo,Brazil,TRUE,1708,1503,1715,1496,7
+2014-06-16,FIFA World Cup,played,Iran,IRN,Nigeria,NGA,TRUE,0,0,draw,Curitiba,Brazil,TRUE,1715,1727,1716,1726,1
+2014-06-21,FIFA World Cup,played,Iran,IRN,Argentina,ARG,FALSE,0,1,loss,Belo Horizonte,Brazil,TRUE,1716,2030,1708,2038,-8
+2014-06-25,FIFA World Cup,played,Iran,IRN,Bosnia and Herzegovina,BIH,FALSE,1,3,loss,Salvador,Brazil,TRUE,1708,1739,1667,1780,-41
+2014-11-18,Friendly,played,Iran,IRN,South Korea,KOR,TRUE,1,0,win,Tehran,Iran,FALSE,1667,1639,1673,1633,6
+2015-01-04,Friendly,played,Iran,IRN,Iraq,IRQ,TRUE,1,0,win,Wollongong,Australia,TRUE,1673,1512,1679,1506,6
+2015-01-11,AFC Asian Cup,played,Iran,IRN,Bahrain,,TRUE,2,0,win,Melbourne,Australia,TRUE,1679,1487,1698,1468,19
+2015-01-15,AFC Asian Cup,played,Iran,IRN,Qatar,QAT,FALSE,1,0,win,Sydney,Australia,TRUE,1698,1574,1714,1558,16
+2015-01-19,AFC Asian Cup,played,Iran,IRN,United Arab Emirates,ARE,TRUE,1,0,win,Brisbane,Australia,TRUE,1714,1692,1737,1669,23
+2015-01-23,AFC Asian Cup,played,Iran,IRN,Iraq,IRQ,TRUE,3,3,draw,Canberra,Australia,TRUE,1737,1537,1724,1550,-13
+2015-03-26,Friendly,played,Iran,IRN,Chile,CHL,FALSE,2,0,win,Sankt Pölten,Austria,TRUE,1724,1967,1748,1943,24
+2015-03-31,Friendly,played,Iran,IRN,Sweden,SWE,FALSE,1,3,loss,Solna,Sweden,FALSE,1748,1789,1739,1798,-9
+2015-06-11,Friendly,played,Iran,IRN,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1739,1623,1749,1613,10
+2015-06-16,FIFA World Cup qualification,played,Iran,IRN,Turkmenistan,,FALSE,1,1,draw,Daşoguz,Turkmenistan,FALSE,1749,1234,1732,1251,-17
+2015-09-03,FIFA World Cup qualification,played,Iran,IRN,Guam,,TRUE,6,0,win,Tehran,Iran,FALSE,1732,877,1732,877,0
+2015-09-08,FIFA World Cup qualification,played,Iran,IRN,India,,FALSE,3,0,win,Bangalore,India,FALSE,1732,1040,1734,1038,2
+2015-10-08,FIFA World Cup qualification,played,Iran,IRN,Oman,,FALSE,1,1,draw,Muscat,Oman,FALSE,1734,1508,1727,1515,-7
+2015-10-13,Friendly,played,Iran,IRN,Japan,JPN,TRUE,1,1,draw,Tehran,Iran,FALSE,1727,1743,1725,1745,-2
+2015-11-12,FIFA World Cup qualification,played,Iran,IRN,Turkmenistan,,TRUE,3,1,win,Tehran,Iran,FALSE,1725,1251,1727,1249,2
+2015-11-17,FIFA World Cup qualification,played,Iran,IRN,Guam,,FALSE,6,0,win,Dededo,Guam,FALSE,1727,884,1728,883,1
+2016-03-24,FIFA World Cup qualification,played,Iran,IRN,India,,TRUE,4,0,win,Tehran,Iran,FALSE,1728,1087,1729,1086,1
+2016-03-29,FIFA World Cup qualification,played,Iran,IRN,Oman,,TRUE,2,0,win,Tehran,Iran,FALSE,1729,1477,1736,1470,7
+2016-06-02,Friendly,played,Iran,IRN,North Macedonia,,FALSE,3,1,win,Skopje,North Macedonia,FALSE,1736,1437,1743,1430,7
+2016-06-07,Friendly,played,Iran,IRN,Kyrgyzstan,,TRUE,6,0,win,Tehran,Iran,FALSE,1743,1213,1744,1212,1
+2016-09-01,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,TRUE,2,0,win,Tehran,Iran,FALSE,1744,1562,1754,1552,10
+2016-09-06,FIFA World Cup qualification,played,Iran,IRN,China PR,,FALSE,0,0,draw,Shenyang,China PR,FALSE,,,,,
+2016-10-06,FIFA World Cup qualification,played,Iran,IRN,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1749,1683,1771,1661,22
+2016-10-11,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,TRUE,1,0,win,Tehran,Iran,FALSE,1771,1793,1787,1777,16
+2016-11-10,Friendly,played,Iran,IRN,Papua New Guinea,,TRUE,8,1,win,Shah Alam,Malaysia,TRUE,1787,1136,1788,1135,1
+2016-11-15,FIFA World Cup qualification,played,Iran,IRN,Syria,,FALSE,0,0,draw,Paroi,Malaysia,TRUE,1788,1533,1775,1546,-13
+2017-03-18,Friendly,played,Iran,IRN,Iraq,IRQ,TRUE,0,1,loss,Tehran,Iran,FALSE,1775,1475,1757,1493,-18
+2017-03-23,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1757,1535,1770,1522,13
+2017-03-28,FIFA World Cup qualification,played,Iran,IRN,China PR,,TRUE,1,0,win,Tehran,Iran,FALSE,,,,,
+2017-06-04,Friendly,played,Iran,IRN,Montenegro,,FALSE,2,1,win,Podgorica,Montenegro,FALSE,1775,1583,1782,1576,7
+2017-06-12,FIFA World Cup qualification,played,Iran,IRN,Uzbekistan,,TRUE,2,0,win,Tehran,Iran,FALSE,1782,1649,1794,1637,12
+2017-08-31,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1794,1733,1796,1731,2
+2017-09-05,FIFA World Cup qualification,played,Iran,IRN,Syria,,TRUE,2,2,draw,Tehran,Iran,FALSE,1796,1600,1782,1614,-14
+2017-10-05,Friendly,played,Iran,IRN,Togo,TGO,TRUE,2,0,win,Tehran,Iran,FALSE,1782,1377,1784,1375,2
+2017-10-10,Friendly,played,Iran,IRN,Russia,RUS,FALSE,1,1,draw,Kazan,Russia,FALSE,1784,1695,1784,1695,0
+2017-11-09,Friendly,played,Iran,IRN,Panama,PAN,TRUE,2,1,win,Graz,Austria,TRUE,1784,1672,1791,1665,7
+2017-11-13,Friendly,played,Iran,IRN,Venezuela,,TRUE,1,0,win,Arnhem,Netherlands,TRUE,1791,1747,1800,1738,9
+2018-03-17,Friendly,played,Iran,IRN,Sierra Leone,,TRUE,4,0,win,Tehran,Iran,FALSE,1800,1376,1802,1374,2
+2018-03-23,Friendly,played,Iran,IRN,Tunisia,TUN,FALSE,0,1,loss,Radès,Tunisia,FALSE,1802,1618,1790,1630,-12
+2018-03-27,Friendly,played,Iran,IRN,Algeria,DZA,FALSE,2,1,win,Graz,Austria,TRUE,1790,1539,1794,1535,4
+2018-05-19,Friendly,played,Iran,IRN,Uzbekistan,,TRUE,1,0,win,Tehran,Iran,FALSE,1794,1607,1797,1604,3
+2018-05-28,Friendly,played,Iran,IRN,Turkey,TUR,FALSE,1,2,loss,Istanbul,Turkey,FALSE,1797,1719,1788,1728,-9
+2018-06-08,Friendly,played,Iran,IRN,Lithuania,,FALSE,1,0,win,Moscow,Russia,TRUE,1788,1394,1790,1392,2
+2018-06-15,FIFA World Cup,played,Iran,IRN,Morocco,MAR,FALSE,1,0,win,Saint Petersburg,Russia,TRUE,1790,1731,1815,1706,25
+2018-06-20,FIFA World Cup,played,Iran,IRN,Spain,ESP,TRUE,0,1,loss,Kazan,Russia,TRUE,1815,2037,1802,2050,-13
+2018-06-25,FIFA World Cup,played,Iran,IRN,Portugal,PRT,TRUE,1,1,draw,Saransk,Russia,TRUE,1802,1984,1816,1970,14
+2018-09-11,Friendly,played,Iran,IRN,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1816,1598,1823,1591,7
+2018-10-16,Friendly,played,Iran,IRN,Bolivia,BOL,TRUE,2,1,win,Tehran,Iran,FALSE,1823,1664,1827,1660,4
+2018-11-15,Friendly,played,Iran,IRN,Trinidad and Tobago,TTO,TRUE,1,0,win,Tehran,Iran,FALSE,1827,1433,1828,1432,1
+2018-11-20,Friendly,played,Iran,IRN,Venezuela,,TRUE,1,1,draw,Doha,Qatar,TRUE,1828,1754,1826,1756,-2
+2018-12-24,Friendly,played,Iran,IRN,Palestine,,FALSE,1,1,draw,Doha,Qatar,TRUE,1826,1393,1818,1401,-8
+2018-12-31,Friendly,played,Iran,IRN,Qatar,QAT,FALSE,2,1,win,Doha,Qatar,FALSE,1818,1527,1823,1522,5
+2019-01-07,AFC Asian Cup,played,Iran,IRN,Yemen,,TRUE,5,0,win,Abu Dhabi,United Arab Emirates,TRUE,1823,1191,1826,1188,3
+2019-01-12,AFC Asian Cup,played,Iran,IRN,Vietnam,,FALSE,2,0,win,Abu Dhabi,United Arab Emirates,TRUE,1826,1329,1830,1325,4
+2019-01-16,AFC Asian Cup,played,Iran,IRN,Iraq,IRQ,TRUE,0,0,draw,Dubai,United Arab Emirates,TRUE,1830,1600,1816,1614,-14
+2019-01-20,AFC Asian Cup,played,Iran,IRN,Oman,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,TRUE,1816,1518,1827,1507,11
+2019-01-24,AFC Asian Cup,played,Iran,IRN,China PR,,FALSE,3,0,win,Abu Dhabi,United Arab Emirates,TRUE,,,,,
+2019-01-28,AFC Asian Cup,played,Iran,IRN,Japan,JPN,TRUE,0,3,loss,Al Ain,United Arab Emirates,TRUE,1841,1778,1789,1830,-52
+2019-06-06,Friendly,played,Iran,IRN,Syria,,TRUE,5,0,win,Tehran,Iran,FALSE,1789,1533,1794,1528,5
+2019-06-11,Friendly,played,Iran,IRN,South Korea,KOR,FALSE,1,1,draw,Seoul,South Korea,FALSE,1794,1790,1797,1787,3
+2019-09-10,FIFA World Cup qualification,played,Iran,IRN,Hong Kong,,FALSE,2,0,win,Hong Kong,Hong Kong,FALSE,1797,1176,1800,1173,3
+2019-10-10,FIFA World Cup qualification,played,Iran,IRN,Cambodia,,TRUE,14,0,win,Tehran,Iran,FALSE,1800,852,1800,852,0
+2019-10-15,FIFA World Cup qualification,played,Iran,IRN,Bahrain,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1800,1485,1769,1516,-31
+2019-11-14,FIFA World Cup qualification,played,Iran,IRN,Iraq,IRQ,FALSE,1,2,loss,Amman,Jordan,TRUE,1769,1574,1739,1604,-30
+2020-10-08,Friendly,played,Iran,IRN,Uzbekistan,,FALSE,2,1,win,Tashkent,Uzbekistan,FALSE,1739,1570,1747,1562,8
+2020-11-12,Friendly,played,Iran,IRN,Bosnia and Herzegovina,BIH,FALSE,2,0,win,Sarajevo,Bosnia and Herzegovina,FALSE,1747,1667,1763,1651,16
+2021-03-30,Friendly,played,Iran,IRN,Syria,,TRUE,3,0,win,Tehran,Iran,FALSE,1763,1479,1766,1476,3
+2021-06-03,FIFA World Cup qualification,played,Iran,IRN,Hong Kong,,TRUE,3,1,win,Arad,Iran,FALSE,1766,1171,1768,1169,2
+2021-06-07,FIFA World Cup qualification,played,Iran,IRN,Bahrain,,FALSE,3,0,win,Riffa,Bahrain,FALSE,1768,1568,1793,1543,25
+2021-06-11,FIFA World Cup qualification,played,Iran,IRN,Cambodia,,FALSE,10,0,win,Isa Town,Bahrain,TRUE,1793,838,1793,838,0
+2021-06-15,FIFA World Cup qualification,played,Iran,IRN,Iraq,IRQ,TRUE,1,0,win,Arad,Iran,FALSE,1793,1633,1804,1622,11
+2021-09-02,FIFA World Cup qualification,played,Iran,IRN,Syria,,TRUE,1,0,win,Tehran,Iran,FALSE,1804,1447,1807,1444,3
+2021-09-07,FIFA World Cup qualification,played,Iran,IRN,Iraq,IRQ,FALSE,3,0,win,Doha,Qatar,TRUE,1807,1634,1826,1615,19
+2021-10-07,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,FALSE,1,0,win,Dubai,United Arab Emirates,FALSE,1826,1478,1834,1470,8
+2021-10-12,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,TRUE,1,1,draw,Tehran,Iran,FALSE,1834,1757,1825,1766,-9
+2021-11-11,FIFA World Cup qualification,played,Iran,IRN,Lebanon,,FALSE,2,1,win,Sidon,Lebanon,FALSE,1825,1408,1831,1402,6
+2021-11-16,FIFA World Cup qualification,played,Iran,IRN,Syria,,FALSE,3,0,win,Amman,Jordan,TRUE,1831,1430,1837,1424,6
+2022-01-27,FIFA World Cup qualification,played,Iran,IRN,Iraq,IRQ,TRUE,1,0,win,Tehran,Iran,FALSE,1837,1556,1841,1552,4
+2022-02-01,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,TRUE,1,0,win,Tehran,Iran,FALSE,1841,1505,1844,1502,3
+2022-03-24,FIFA World Cup qualification,played,Iran,IRN,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1844,1808,1819,1833,-25
+2022-03-29,FIFA World Cup qualification,played,Iran,IRN,Lebanon,,TRUE,2,0,win,Mashhad,Iran,FALSE,1819,1339,1821,1337,2
+2022-06-12,Friendly,played,Iran,IRN,Algeria,DZA,TRUE,1,2,loss,Doha,Qatar,TRUE,1821,1699,1808,1712,-13
+2022-09-23,Friendly,played,Iran,IRN,Uruguay,URY,TRUE,1,0,win,Sankt Pölten,Austria,TRUE,1808,1940,1822,1926,14
+2022-09-27,Friendly,played,Iran,IRN,Senegal,SEN,TRUE,1,1,draw,Maria Enzersdorf,Austria,TRUE,1822,1680,1818,1684,-4
+2022-11-10,Friendly,played,Iran,IRN,Nicaragua,,TRUE,1,0,win,Tehran,Iran,FALSE,1818,1251,1818,1251,0
+2022-11-16,Friendly,played,Iran,IRN,Tunisia,TUN,TRUE,0,2,loss,Doha,Qatar,TRUE,1818,1685,1798,1705,-20
+2022-11-21,FIFA World Cup,played,Iran,IRN,England,ENG,FALSE,2,6,loss,Al Rayyan,Qatar,TRUE,1798,1919,1761,1956,-37
+2022-11-25,FIFA World Cup,played,Iran,IRN,Wales,WAL,FALSE,2,0,win,Al Rayyan,Qatar,TRUE,1761,1790,1810,1741,49
+2022-11-29,FIFA World Cup,played,Iran,IRN,United States,USA,TRUE,0,1,loss,Doha,Qatar,TRUE,1810,1808,1780,1838,-30
+2023-03-23,Friendly,played,Iran,IRN,Russia,RUS,TRUE,1,1,draw,Tehran,Iran,FALSE,1780,1753,1776,1757,-4
+2023-03-28,Friendly,played,Iran,IRN,Kenya,,TRUE,2,1,win,Tehran,Iran,FALSE,1776,1371,1777,1370,1
+2023-06-13,CAFA Nations Cup,played,Iran,IRN,Afghanistan,,TRUE,6,1,win,Bishkek,Kyrgyzstan,TRUE,1777,1090,1779,1088,2
+2023-06-16,CAFA Nations Cup,played,Iran,IRN,Kyrgyzstan,,FALSE,5,1,win,Bishkek,Kyrgyzstan,FALSE,1779,1245,1785,1239,6
+2023-06-20,CAFA Nations Cup,played,Iran,IRN,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1785,1626,1802,1609,17
+2023-09-07,Friendly,played,Iran,IRN,Bulgaria,BGR,FALSE,1,0,win,Plovdiv,Bulgaria,FALSE,1802,1498,1807,1493,5
+2023-09-12,Friendly,played,Iran,IRN,Angola,AGO,TRUE,4,0,win,Tehran,Iran,FALSE,1807,1387,1809,1385,2
+2023-11-16,FIFA World Cup qualification,played,Iran,IRN,Hong Kong,,TRUE,4,0,win,Tehran,Iran,FALSE,1831,1064,1832,1063,1
+2023-11-21,FIFA World Cup qualification,played,Iran,IRN,Uzbekistan,,FALSE,2,2,draw,Tashkent,Uzbekistan,FALSE,1832,1635,1827,1640,-5
+2024-01-05,Friendly,played,Iran,IRN,Burkina Faso,,TRUE,2,1,win,Kish,Iran,FALSE,1827,1564,1829,1562,2
+2024-01-09,Friendly,played,Iran,IRN,Indonesia,IDN,FALSE,5,0,win,Al Rayyan,Qatar,TRUE,1829,1263,1830,1262,1
+2024-01-14,AFC Asian Cup,played,Iran,IRN,Palestine,,TRUE,4,1,win,Al Rayyan,Qatar,TRUE,1830,1410,1837,1403,7
+2024-01-19,AFC Asian Cup,played,Iran,IRN,Hong Kong,,FALSE,1,0,win,Al Rayyan,Qatar,TRUE,1837,1074,1838,1073,1
+2024-01-23,AFC Asian Cup,played,Iran,IRN,United Arab Emirates,ARE,TRUE,2,1,win,Al Rayyan,Qatar,TRUE,1838,1516,1845,1509,7
+2024-01-31,AFC Asian Cup,played,Iran,IRN,Syria,,TRUE,1,1,draw,Doha,Qatar,TRUE,1845,1439,1824,1460,-21
+2024-02-03,AFC Asian Cup,played,Iran,IRN,Japan,JPN,TRUE,2,1,win,Al Rayyan,Qatar,TRUE,1824,1880,1853,1851,29
+2024-02-07,AFC Asian Cup,played,Iran,IRN,Qatar,QAT,FALSE,2,3,loss,Doha,Qatar,FALSE,1853,1564,1816,1601,-37
+2024-03-21,FIFA World Cup qualification,played,Iran,IRN,Turkmenistan,,TRUE,5,0,win,Tehran,Iran,FALSE,1816,1216,1817,1215,1
+2024-03-26,FIFA World Cup qualification,played,Iran,IRN,Turkmenistan,,FALSE,1,0,win,Ashgabat,Turkmenistan,FALSE,1817,1215,1819,1213,2
+2024-06-06,FIFA World Cup qualification,played,Iran,IRN,Hong Kong,,FALSE,4,2,win,Hong Kong,Hong Kong,FALSE,1819,1058,1820,1057,1
+2024-06-11,FIFA World Cup qualification,played,Iran,IRN,Uzbekistan,,TRUE,0,0,draw,Tehran,Iran,FALSE,1820,1669,1808,1681,-12
+2024-09-05,FIFA World Cup qualification,played,Iran,IRN,Kyrgyzstan,,TRUE,1,0,win,Fuladshahr,Iran,FALSE,1808,1282,1809,1281,1
+2024-09-10,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,FALSE,1,0,win,Al Ain,United Arab Emirates,FALSE,1809,1549,1820,1538,11
+2024-10-10,FIFA World Cup qualification,played,Iran,IRN,Uzbekistan,,FALSE,0,0,draw,Tashkent,Uzbekistan,FALSE,1820,1691,1818,1693,-2
+2024-10-15,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,TRUE,4,1,win,Dubai,United Arab Emirates,TRUE,1818,1579,1832,1565,14
+2024-11-14,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,FALSE,3,2,win,Vientiane,Laos,TRUE,1832,1396,1835,1393,3
+2024-11-19,FIFA World Cup qualification,played,Iran,IRN,Kyrgyzstan,,FALSE,3,2,win,Bishkek,Kyrgyzstan,FALSE,1835,1284,1838,1281,3
+2025-03-20,FIFA World Cup qualification,played,Iran,IRN,United Arab Emirates,ARE,TRUE,2,0,win,Tehran,Iran,FALSE,1838,1533,1843,1528,5
+2025-03-25,FIFA World Cup qualification,played,Iran,IRN,Uzbekistan,,TRUE,2,2,draw,Tehran,Iran,FALSE,1843,1684,1830,1697,-13
+2025-06-05,FIFA World Cup qualification,played,Iran,IRN,Qatar,QAT,FALSE,0,1,loss,Al Rayyan,Qatar,FALSE,1830,1498,1798,1530,-32
+2025-06-10,FIFA World Cup qualification,played,Iran,IRN,North Korea,PRK,TRUE,3,0,win,Tehran,Iran,FALSE,1798,1378,1801,1375,3
+2025-10-10,Friendly,played,Iran,IRN,Russia,RUS,FALSE,1,2,loss,Volgograd,Russia,FALSE,1768,1796,1762,1802,-6
+2025-10-14,Friendly,played,Iran,IRN,Tanzania,,TRUE,2,0,win,Dubai,United Arab Emirates,TRUE,1762,1338,1764,1336,2
+2025-11-13,Al Ain International Cup,played,Iran,IRN,Cape Verde,,TRUE,0,0,draw,Al Ain,United Arab Emirates,TRUE,1764,1549,1756,1557,-8
+2025-11-18,Al Ain International Cup,played,Iran,IRN,Uzbekistan,,TRUE,0,0,draw,Al Ain,United Arab Emirates,TRUE,1756,1734,1755,1735,-1
+2026-03-27,Friendly,played,Iran,IRN,Nigeria,NGA,TRUE,1,2,loss,Antalya,Turkey,TRUE,1755,1739,1739,1755,-16
+2026-03-31,Friendly,played,Iran,IRN,Costa Rica,CRI,FALSE,5,0,win,Antalya,Turkey,TRUE,1739,1634,1760,1613,21

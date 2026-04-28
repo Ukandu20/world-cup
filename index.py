@@ -1,3 +1,5 @@
-import kagglehub
+from scripts.bootstrap_kaggle_data import main
 
-kagglehub.dataset_download('martj42/international-football-results-from-1872-to-2017', output_dir='./data', force_download=True)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,834 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1910-05-27,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,1400,2012,1400,2012,0
+1910-05-29,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,0,3,loss,Buenos Aires,Argentina,TRUE,1400,1841,1395,1846,-5
+1910-06-05,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,1,5,loss,Buenos Aires,Argentina,FALSE,1395,2012,1394,2013,-1
+1910-09-11,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,0,3,loss,Viña del Mar,Chile,FALSE,1394,1997,1392,1999,-2
+1913-09-21,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,0,2,loss,Viña del Mar,Chile,FALSE,1392,1950,1390,1952,-2
+1916-07-02,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,4,loss,Buenos Aires,Argentina,TRUE,1390,1913,1386,1917,-4
+1916-07-06,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,6,loss,Buenos Aires,Argentina,FALSE,1386,1940,1384,1942,-2
+1916-07-08,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,1,1,draw,Buenos Aires,Argentina,TRUE,1384,1910,1407,1887,23
+1916-07-12,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1407,1932,1406,1933,-1
+1916-07-14,Friendly,played,Chile,CHL,Uruguay,URY,FALSE,1,4,loss,Montevideo,Uruguay,FALSE,1406,1941,1405,1942,-1
+1917-09-30,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,0,4,loss,Montevideo,Uruguay,FALSE,1405,1877,1402,1880,-3
+1917-10-06,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Montevideo,Uruguay,TRUE,1402,2010,1401,2011,-1
+1917-10-12,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,0,5,loss,Montevideo,Uruguay,TRUE,1401,1830,1393,1838,-8
+1919-05-11,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,0,6,loss,Rio de Janeiro,Brazil,FALSE,1403,1831,1398,1836,-5
+1919-05-17,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,2,loss,Rio de Janeiro,Brazil,TRUE,1398,1963,1395,1966,-3
+1919-05-22,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,4,loss,Rio de Janeiro,Brazil,TRUE,1395,1948,1392,1951,-3
+1920-09-11,Copa América,played,Chile,CHL,Brazil,BRA,TRUE,0,1,loss,Viña del Mar,Chile,FALSE,1392,1900,1388,1904,-4
+1920-09-20,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,1,1,draw,Viña del Mar,Chile,FALSE,1388,1912,1409,1891,21
+1920-10-03,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,1,2,loss,Viña del Mar,Chile,FALSE,,,,,
+1922-09-17,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,1,1,draw,Rio de Janeiro,Brazil,FALSE,1412,1839,1435,1816,23
+1922-09-23,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,2,loss,Rio de Janeiro,Brazil,TRUE,1435,1997,1432,2000,-3
+1922-09-28,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,4,loss,Rio de Janeiro,Brazil,TRUE,1432,1954,1428,1958,-4
+1922-10-05,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,0,3,loss,Rio de Janeiro,Brazil,TRUE,1428,1762,1417,1773,-11
+1922-10-22,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1417,1925,1416,1926,-1
+1924-10-19,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,0,5,loss,Montevideo,Uruguay,FALSE,1414,2025,1412,2027,-2
+1924-10-25,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,2,loss,Montevideo,Uruguay,TRUE,1412,1947,1409,1950,-3
+1924-11-01,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,1,3,loss,Montevideo,Uruguay,TRUE,1409,1769,1401,1777,-8
+1926-10-12,Copa América,played,Chile,CHL,Bolivia,BOL,TRUE,7,1,win,Santiago,Chile,FALSE,1401,1300,1426,1275,25
+1926-10-17,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,1,3,loss,Santiago,Chile,FALSE,1426,1966,1420,1972,-6
+1926-10-31,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,1,1,draw,Santiago,Chile,FALSE,1420,1978,1442,1956,22
+1926-11-03,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,5,1,win,Santiago,Chile,FALSE,1442,1715,1510,1647,68
+1927-12-10,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,2,3,loss,Viña del Mar,Chile,FALSE,1510,2010,1508,2012,-2
+1928-05-27,Olympic Games,played,Chile,CHL,Portugal,PRT,FALSE,2,4,loss,Amsterdam,Netherlands,TRUE,1508,1707,1486,1729,-22
+1928-06-05,Olympic Games,played,Chile,CHL,Mexico,MEX,TRUE,3,1,win,Arnhem,Netherlands,TRUE,1486,1681,1554,1613,68
+1928-06-08,Olympic Games,played,Chile,CHL,Netherlands,NLD,FALSE,2,2,draw,Rotterdam,Netherlands,FALSE,1554,1763,1575,1742,21
+1930-07-16,FIFA World Cup,played,Chile,CHL,Mexico,MEX,TRUE,3,0,win,Montevideo,Uruguay,TRUE,1575,1551,1624,1502,49
+1930-07-19,FIFA World Cup,played,Chile,CHL,France,FRA,TRUE,1,0,win,Montevideo,Uruguay,TRUE,1624,1605,1652,1577,28
+1930-07-22,FIFA World Cup,played,Chile,CHL,Argentina,ARG,FALSE,1,3,loss,Montevideo,Uruguay,TRUE,1652,2081,1645,2088,-7
+1935-01-06,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,4,loss,Lima,Peru,TRUE,1645,2018,1636,2027,-9
+1935-01-18,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,1,2,loss,Lima,Peru,TRUE,1636,1969,1630,1975,-6
+1935-01-26,Copa América,played,Chile,CHL,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1630,1485,1602,1513,-28
+1936-12-30,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1602,2008,1599,2011,-3
+1937-01-03,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,4,6,loss,Buenos Aires,Argentina,TRUE,1599,1867,1586,1880,-13
+1937-01-10,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,3,0,win,Buenos Aires,Argentina,TRUE,1586,1947,1664,1869,78
+1937-01-17,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,2,3,loss,Buenos Aires,Argentina,TRUE,1664,1756,1645,1775,-19
+1937-01-21,Copa América,played,Chile,CHL,Peru,PER,TRUE,2,2,draw,Buenos Aires,Argentina,TRUE,1645,1542,1638,1549,-7
+1939-01-15,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,1,5,loss,Lima,Peru,TRUE,1638,1736,1604,1770,-34
+1939-01-22,Copa América,played,Chile,CHL,Peru,PER,FALSE,1,3,loss,Lima,Peru,FALSE,1604,1646,1581,1669,-23
+1939-01-29,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,2,3,loss,Lima,Peru,TRUE,1581,1846,1572,1855,-9
+1939-02-05,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,4,1,win,Lima,Peru,TRUE,1572,1306,1588,1290,16
+1939-02-26,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,4,1,win,Santiago,Chile,FALSE,,,,,
+1940-03-02,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,1,4,loss,San Martín,Argentina,FALSE,1604,2109,1602,2111,-2
+1940-03-09,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,2,3,loss,Buenos Aires,Argentina,FALSE,1602,2119,1601,2120,-1
+1940-03-12,Friendly,played,Chile,CHL,Uruguay,URY,FALSE,2,3,loss,Montevideo,Uruguay,FALSE,1601,1849,1599,1851,-2
+1941-01-05,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,1,2,loss,Santiago,Chile,FALSE,1599,2079,1596,2082,-3
+1941-01-09,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,2,5,loss,Santiago,Chile,FALSE,1596,2082,1591,2087,-5
+1941-02-02,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,5,0,win,Santiago,Chile,FALSE,1591,1284,1600,1275,9
+1941-02-09,Copa América,played,Chile,CHL,Peru,PER,TRUE,1,0,win,Santiago,Chile,FALSE,1600,1749,1629,1720,29
+1941-02-16,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,2,loss,Santiago,Chile,FALSE,1629,1904,1609,1924,-20
+1941-03-04,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,0,1,loss,Santiago,Chile,FALSE,1609,2102,1604,2107,-5
+1942-01-10,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,1,6,loss,Montevideo,Uruguay,FALSE,1604,1929,1596,1937,-8
+1942-01-14,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,1,6,loss,Montevideo,Uruguay,TRUE,1596,1879,1580,1895,-16
+1942-01-22,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,0,2,loss,Montevideo,Uruguay,TRUE,1580,1689,1554,1715,-26
+1942-01-31,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,0,draw,Montevideo,Uruguay,TRUE,1554,2129,1577,2106,23
+1942-02-05,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,2,1,win,Montevideo,Uruguay,TRUE,1577,1251,1584,1244,7
+1942-02-07,Copa América,played,Chile,CHL,Peru,PER,TRUE,0,0,draw,Montevideo,Uruguay,TRUE,1584,1677,1591,1670,7
+1945-01-14,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,6,3,win,Santiago,Chile,FALSE,1591,1244,1597,1238,6
+1945-01-24,Copa América,played,Chile,CHL,Bolivia,BOL,TRUE,5,0,win,Santiago,Chile,FALSE,1597,1325,1608,1314,11
+1945-01-31,Copa América,played,Chile,CHL,Colombia,COL,TRUE,2,0,win,Santiago,Chile,FALSE,1608,1339,1616,1331,8
+1945-02-11,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,1,1,draw,Santiago,Chile,FALSE,1616,2091,1636,2071,20
+1945-02-18,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,1,0,win,Santiago,Chile,FALSE,1636,1902,1672,1866,36
+1945-02-28,Copa América,played,Chile,CHL,Brazil,BRA,TRUE,0,1,loss,Santiago,Chile,FALSE,1672,1939,1658,1953,-14
+1946-01-16,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,1,loss,Buenos Aires,Argentina,TRUE,1658,1872,1647,1883,-11
+1946-01-19,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,2,1,win,Buenos Aires,Argentina,TRUE,1647,1758,1680,1725,33
+1946-01-26,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,1680,2042,1675,2047,-5
+1946-02-03,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,1,5,loss,Buenos Aires,Argentina,TRUE,1675,1980,1661,1994,-14
+1946-02-08,Copa América,played,Chile,CHL,Bolivia,BOL,FALSE,4,1,win,Buenos Aires,Argentina,TRUE,1661,1296,1671,1286,10
+1947-12-06,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,6,loss,Guayaquil,Ecuador,TRUE,1671,1831,1641,1861,-30
+1947-12-09,Copa América,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Guayaquil,Ecuador,TRUE,1641,1677,1669,1649,28
+1947-12-11,Copa América,played,Chile,CHL,Ecuador,ECU,FALSE,3,0,win,Guayaquil,Ecuador,FALSE,1669,1220,1679,1210,10
+1947-12-16,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,1,draw,Guayaquil,Ecuador,TRUE,1679,2100,1700,2079,21
+1947-12-23,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,0,1,loss,Guayaquil,Ecuador,TRUE,1700,1819,1683,1836,-17
+1947-12-29,Copa América,played,Chile,CHL,Colombia,COL,TRUE,4,1,win,Guayaquil,Ecuador,TRUE,,,,,
+1947-12-31,Copa América,played,Chile,CHL,Bolivia,BOL,FALSE,4,3,win,Guayaquil,Ecuador,TRUE,,,,,
+1949-04-06,Copa América,played,Chile,CHL,Bolivia,BOL,FALSE,2,3,loss,São Paulo,Brazil,TRUE,1703,1279,1657,1325,-46
+1949-04-13,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,1,2,loss,São Paulo,Brazil,FALSE,1657,1952,1652,1957,-5
+1949-04-17,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,1,0,win,São Paulo,Brazil,TRUE,1652,1215,1656,1211,4
+1949-04-20,Copa América,played,Chile,CHL,Colombia,COL,TRUE,1,1,draw,Rio de Janeiro,Brazil,TRUE,1656,1381,1640,1397,-16
+1949-04-27,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,2,4,loss,São Paulo,Brazil,TRUE,1640,1840,1622,1858,-18
+1949-04-30,Copa América,played,Chile,CHL,Peru,PER,TRUE,0,3,loss,São Paulo,Brazil,TRUE,1622,1660,1583,1699,-39
+1949-05-08,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,3,1,win,Belo Horizonte,Brazil,TRUE,1583,1776,1639,1720,56
+1950-02-26,Friendly,played,Chile,CHL,Bolivia,BOL,FALSE,0,2,loss,La Paz,Bolivia,FALSE,1639,1412,1598,1453,-41
+1950-03-12,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,5,0,win,Santiago,Chile,FALSE,1598,1453,1606,1445,8
+1950-04-07,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,1,5,loss,Santiago,Chile,FALSE,1606,1720,1588,1738,-18
+1950-04-09,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,2,1,win,Santiago,Chile,FALSE,1588,1738,1599,1727,11
+1950-06-25,FIFA World Cup,played,Chile,CHL,England,ENG,TRUE,0,2,loss,Rio de Janeiro,Brazil,TRUE,1599,2071,1593,2077,-6
+1950-06-29,FIFA World Cup,played,Chile,CHL,Spain,ESP,TRUE,0,2,loss,Rio de Janeiro,Brazil,TRUE,1593,1911,1581,1923,-12
+1950-07-02,FIFA World Cup,played,Chile,CHL,United States,USA,TRUE,5,2,win,Recife,Brazil,TRUE,1581,1625,1640,1566,59
+1952-03-16,Pan American Championship,played,Chile,CHL,Panama,PAN,TRUE,6,1,win,Santiago,Chile,FALSE,1640,1506,1661,1485,21
+1952-03-26,Pan American Championship,played,Chile,CHL,Mexico,MEX,TRUE,4,0,win,Santiago,Chile,FALSE,1661,1706,1701,1666,40
+1952-04-02,Pan American Championship,played,Chile,CHL,Peru,PER,TRUE,3,2,win,Santiago,Chile,FALSE,1701,1726,1721,1706,20
+1952-04-13,Pan American Championship,played,Chile,CHL,Uruguay,URY,TRUE,2,0,win,Santiago,Chile,FALSE,1721,1929,1770,1880,49
+1952-04-20,Pan American Championship,played,Chile,CHL,Brazil,BRA,TRUE,0,3,loss,Santiago,Chile,FALSE,1770,2032,1745,2057,-25
+1953-02-25,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,0,3,loss,Lima,Peru,TRUE,1745,1850,1714,1881,-31
+1953-03-01,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,3,2,win,Lima,Peru,TRUE,1714,1863,1749,1828,35
+1953-03-04,Copa América,played,Chile,CHL,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1749,1718,1754,1713,5
+1953-03-19,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,3,0,win,Lima,Peru,TRUE,1754,1286,1760,1280,6
+1953-03-23,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,2,3,loss,Lima,Peru,TRUE,1760,2031,1751,2040,-9
+1953-03-28,Copa América,played,Chile,CHL,Bolivia,BOL,FALSE,2,2,draw,Lima,Peru,TRUE,1751,1442,1733,1460,-18
+1953-05-24,Friendly,played,Chile,CHL,England,ENG,TRUE,1,2,loss,Santiago,Chile,FALSE,1733,2003,1728,2008,-5
+1953-07-12,Friendly,played,Chile,CHL,Spain,ESP,TRUE,1,2,loss,Santiago,Chile,FALSE,1728,1870,1719,1879,-9
+1953-07-26,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1719,1709,1738,1690,19
+1953-07-28,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,0,5,loss,Lima,Peru,FALSE,1738,1690,1712,1716,-26
+1954-02-14,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,0,4,loss,Asunción,Paraguay,FALSE,1712,1926,1701,1937,-11
+1954-02-21,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,1,3,loss,Santiago,Chile,FALSE,1701,1937,1682,1956,-19
+1954-02-28,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,TRUE,0,2,loss,Santiago,Chile,FALSE,1682,1970,1667,1985,-15
+1954-03-14,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1667,2009,1664,2012,-3
+1954-09-17,Copa del Pacífico,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Santiago,Chile,FALSE,1664,1716,1677,1703,13
+1954-09-19,Copa del Pacífico,played,Chile,CHL,Peru,PER,TRUE,2,4,loss,Santiago,Chile,FALSE,1677,1703,1650,1730,-27
+1955-02-27,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,7,1,win,Santiago,Chile,FALSE,1650,1275,1656,1269,6
+1955-03-06,Copa América,played,Chile,CHL,Peru,PER,TRUE,5,4,win,Santiago,Chile,FALSE,1656,1730,1679,1707,23
+1955-03-13,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,2,2,draw,Santiago,Chile,FALSE,1679,1975,1692,1962,13
+1955-03-20,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,5,0,win,Santiago,Chile,FALSE,1692,1874,1754,1812,62
+1955-03-30,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,0,1,loss,Santiago,Chile,FALSE,1754,2106,1745,2115,-9
+1955-09-18,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,FALSE,1,1,draw,Rio de Janeiro,Brazil,FALSE,1745,2011,1757,1999,12
+1955-09-20,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,FALSE,1,2,loss,São Paulo,Brazil,FALSE,1757,1999,1753,2003,-4
+1956-01-24,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,4,1,win,Montevideo,Uruguay,TRUE,1753,2000,1823,1930,70
+1956-01-29,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,2,loss,Montevideo,Uruguay,TRUE,1823,2121,1812,2132,-11
+1956-02-06,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1812,1926,1801,1937,-11
+1956-02-09,Copa América,played,Chile,CHL,Peru,PER,TRUE,4,3,win,Montevideo,Uruguay,TRUE,1801,1745,1822,1724,21
+1956-02-12,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,2,0,win,Montevideo,Uruguay,TRUE,1822,1790,1856,1756,34
+1956-03-01,Pan American Championship,played,Chile,CHL,Brazil,BRA,FALSE,1,2,loss,Mexico City,Mexico,TRUE,1856,1977,1839,1994,-17
+1956-03-08,Pan American Championship,played,Chile,CHL,Costa Rica,CRI,TRUE,1,2,loss,Mexico City,Mexico,TRUE,1839,1717,1806,1750,-33
+1956-03-11,Pan American Championship,played,Chile,CHL,Argentina,ARG,FALSE,0,3,loss,Mexico City,Mexico,TRUE,1806,2058,1789,2075,-17
+1956-03-15,Pan American Championship,played,Chile,CHL,Peru,PER,TRUE,2,2,draw,Mexico City,Mexico,TRUE,1789,1771,1788,1772,-1
+1956-08-26,Friendly,played,Chile,CHL,Czechoslovakia,CSK,TRUE,3,0,win,Santiago,Chile,FALSE,1759,1834,1775,1818,16
+1957-03-13,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,2,4,loss,Lima,Peru,TRUE,1775,2025,1761,2039,-14
+1957-03-16,Copa América,played,Chile,CHL,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1761,1732,1741,1752,-20
+1957-03-21,Copa América,played,Chile,CHL,Colombia,COL,TRUE,3,2,win,Lima,Peru,TRUE,1741,1353,1746,1348,5
+1957-03-24,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,2,2,draw,Lima,Peru,TRUE,1746,1252,1724,1274,-22
+1957-03-28,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,2,6,loss,Lima,Peru,TRUE,1724,2119,1715,2128,-9
+1957-04-01,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,2,loss,Lima,Peru,TRUE,1715,1937,1699,1953,-16
+1957-09-15,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,TRUE,1,0,win,Santiago,Chile,FALSE,1699,2002,1722,1979,23
+1957-09-18,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,TRUE,1,1,draw,Santiago,Chile,FALSE,1722,1979,1728,1973,6
+1957-09-22,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,2,1,win,Santiago,Chile,FALSE,1728,1510,1734,1504,6
+1957-09-29,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,0,3,loss,La Paz,Bolivia,FALSE,1734,1504,1686,1552,-48
+1957-10-13,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,0,2,loss,Santiago,Chile,FALSE,1686,2041,1675,2052,-11
+1957-10-20,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,0,4,loss,Buenos Aires,Argentina,FALSE,1675,2052,1670,2057,-5
+1959-03-07,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,6,loss,Buenos Aires,Argentina,FALSE,1670,1922,1658,1934,-12
+1959-03-11,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,1,2,loss,Buenos Aires,Argentina,TRUE,1658,1765,1640,1783,-18
+1959-03-15,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,0,3,loss,Buenos Aires,Argentina,TRUE,1640,2123,1635,2128,-5
+1959-03-21,Copa América,played,Chile,CHL,Peru,PER,TRUE,1,1,draw,Buenos Aires,Argentina,TRUE,1635,1806,1646,1795,11
+1959-03-26,Copa América,played,Chile,CHL,Bolivia,BOL,FALSE,5,2,win,Buenos Aires,Argentina,TRUE,1646,1557,1679,1524,33
+1959-04-02,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,1,0,win,Buenos Aires,Argentina,TRUE,1679,1865,1716,1828,37
+1959-09-17,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,FALSE,0,7,loss,Rio de Janeiro,Brazil,FALSE,1716,2156,1713,2159,-3
+1959-09-20,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1713,2159,1712,2160,-1
+1959-11-18,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,4,2,win,Santiago,Chile,FALSE,1712,1997,1734,1975,22
+1960-03-16,Friendly,played,Chile,CHL,France,FRA,FALSE,0,6,loss,Paris,France,FALSE,1734,1929,1727,1936,-7
+1960-03-23,Friendly,played,Chile,CHL,Germany,DEU,FALSE,1,2,loss,Stuttgart,Germany,FALSE,,,,,
+1960-03-30,Friendly,played,Chile,CHL,Republic of Ireland,IRL,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+1960-04-06,Friendly,played,Chile,CHL,Switzerland,CHE,FALSE,2,4,loss,Basel,Switzerland,FALSE,1714,1556,1697,1573,-17
+1960-04-13,Friendly,played,Chile,CHL,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1697,1654,1699,1652,2
+1960-06-01,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,2,3,loss,Santiago,Chile,FALSE,1699,1939,1693,1945,-6
+1960-06-05,Friendly,played,Chile,CHL,Uruguay,URY,FALSE,2,2,draw,Montevideo,Uruguay,FALSE,1693,1945,1701,1937,8
+1960-06-29,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,0,4,loss,Rio de Janeiro,Brazil,FALSE,1701,2057,1698,2060,-3
+1960-07-14,Friendly,played,Chile,CHL,Spain,ESP,TRUE,0,4,loss,Santiago,Chile,FALSE,1698,1938,1686,1950,-12
+1960-07-17,Friendly,played,Chile,CHL,Spain,ESP,TRUE,1,4,loss,Santiago,Chile,FALSE,1686,1950,1676,1960,-10
+1960-12-18,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,4,1,win,Santiago,Chile,FALSE,1676,1707,1690,1693,14
+1960-12-21,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,3,1,win,Santiago,Chile,FALSE,1690,1693,1701,1682,11
+1961-03-19,Friendly,played,Chile,CHL,Peru,PER,TRUE,5,2,win,Santiago,Chile,FALSE,1701,1761,1716,1746,15
+1961-03-26,Friendly,played,Chile,CHL,Germany,DEU,TRUE,3,1,win,Santiago,Chile,FALSE,,,,,
+1961-05-07,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,TRUE,1,2,loss,Santiago,Chile,FALSE,1734,2078,1728,2084,-6
+1961-05-11,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,TRUE,0,1,loss,Santiago,Chile,FALSE,1728,2084,1722,2090,-6
+1961-10-12,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,2,3,loss,Santiago,Chile,FALSE,1722,1928,1715,1935,-7
+1961-11-22,Friendly,played,Chile,CHL,Soviet Union,SUN,TRUE,0,1,loss,Santiago,Chile,FALSE,1715,1990,1710,1995,-5
+1961-12-09,Friendly,played,Chile,CHL,Hungary,HUN,TRUE,5,1,win,Santiago,Chile,FALSE,1710,1983,1737,1956,27
+1961-12-13,Friendly,played,Chile,CHL,Hungary,HUN,TRUE,0,0,draw,Santiago,Chile,FALSE,1737,1956,1740,1953,3
+1962-05-30,FIFA World Cup,played,Chile,CHL,Switzerland,CHE,TRUE,3,1,win,Santiago,Chile,FALSE,1740,1707,1769,1678,29
+1962-06-02,FIFA World Cup,played,Chile,CHL,Italy,ITA,TRUE,2,0,win,Santiago,Chile,FALSE,1769,1893,1817,1845,48
+1962-06-06,FIFA World Cup,played,Chile,CHL,Germany,DEU,TRUE,0,2,loss,Santiago,Chile,FALSE,,,,,
+1962-06-10,FIFA World Cup,played,Chile,CHL,Soviet Union,SUN,TRUE,2,1,win,Arica,Chile,FALSE,1771,2058,1816,2013,45
+1962-06-13,FIFA World Cup,played,Chile,CHL,Brazil,BRA,TRUE,2,4,loss,Santiago,Chile,FALSE,1816,2148,1797,2167,-19
+1962-06-16,FIFA World Cup,played,Chile,CHL,Yugoslavia,YUG,TRUE,1,0,win,Santiago,Chile,FALSE,1797,1968,1833,1932,36
+1962-11-07,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,TRUE,1,1,draw,Santiago,Chile,FALSE,1833,1953,1834,1952,1
+1962-11-21,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1834,1952,1827,1959,-7
+1963-03-23,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,FALSE,2,3,loss,Montevideo,Uruguay,FALSE,1827,1858,1817,1868,-10
+1963-07-24,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,TRUE,0,0,draw,Santiago,Chile,FALSE,1817,1868,1815,1870,-2
+1964-09-24,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,FALSE,0,5,loss,Buenos Aires,Argentina,FALSE,1815,1990,1805,2000,-10
+1964-10-14,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,TRUE,1,1,draw,Santiago,Chile,FALSE,1805,2000,1809,1996,4
+1965-04-15,Copa del Pacífico,played,Chile,CHL,Peru,PER,TRUE,4,1,win,Santiago,Chile,FALSE,1809,1632,1818,1623,9
+1965-04-28,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1818,1623,1829,1612,11
+1965-05-09,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,TRUE,0,0,draw,Santiago,Chile,FALSE,1829,1844,1825,1848,-4
+1965-05-16,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1825,1848,1830,1843,5
+1965-07-14,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1830,1970,1824,1976,-6
+1965-07-21,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,TRUE,1,1,draw,Santiago,Chile,FALSE,1824,1976,1826,1974,2
+1965-08-01,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,7,2,win,Santiago,Chile,FALSE,1826,1382,1829,1379,3
+1965-08-07,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,0,2,loss,Barranquilla,Colombia,FALSE,1829,1379,1776,1432,-53
+1965-08-15,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,2,2,draw,Guayaquil,Ecuador,FALSE,1776,1428,1764,1440,-12
+1965-08-22,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,3,1,win,Santiago,Chile,FALSE,1764,1440,1769,1435,5
+1965-10-12,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,2,1,win,Lima,Peru,TRUE,1769,1435,1774,1430,5
+1966-02-23,Friendly,played,Chile,CHL,Soviet Union,SUN,TRUE,0,2,loss,Santiago,Chile,FALSE,1774,1993,1764,2003,-10
+1966-04-17,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,TRUE,0,1,loss,Santiago,Chile,FALSE,1764,2011,1755,2020,-9
+1966-04-20,Copa Bernardo O'Higgins,played,Chile,CHL,Brazil,BRA,TRUE,2,1,win,Viña del Mar,Chile,FALSE,1755,2020,1777,1998,22
+1966-05-11,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1777,1882,1770,1889,-7
+1966-05-15,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,1,1,draw,São Paulo,Brazil,FALSE,1770,2001,1777,1994,7
+1966-05-19,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1777,1996,1774,1999,-3
+1966-05-22,Friendly,played,Chile,CHL,Wales,WAL,TRUE,2,0,win,Santiago,Chile,FALSE,1774,1704,1782,1696,8
+1966-05-29,Friendly,played,Chile,CHL,Mexico,MEX,TRUE,0,1,loss,Santiago,Chile,FALSE,1782,1889,1767,1904,-15
+1966-07-02,Friendly,played,Chile,CHL,German DR,DDR,FALSE,2,5,loss,Leipzig,German DR,FALSE,1767,1722,1752,1737,-15
+1966-07-13,FIFA World Cup,played,Chile,CHL,Italy,ITA,TRUE,0,2,loss,Sunderland,England,TRUE,1752,1979,1733,1998,-19
+1966-07-15,FIFA World Cup,played,Chile,CHL,North Korea,PRK,TRUE,1,1,draw,Middlesbrough,England,TRUE,1733,1755,1735,1753,2
+1966-07-20,FIFA World Cup,played,Chile,CHL,Soviet Union,SUN,TRUE,1,2,loss,Sunderland,England,TRUE,1735,2054,1727,2062,-8
+1966-11-30,Copa América qualification,played,Chile,CHL,Colombia,COL,TRUE,5,2,win,Santiago,Chile,FALSE,1727,1432,1734,1425,7
+1966-12-11,Copa América qualification,played,Chile,CHL,Colombia,COL,FALSE,0,0,draw,Bogotá,Colombia,FALSE,1734,1425,1723,1436,-11
+1967-01-18,Copa América,played,Chile,CHL,Venezuela,,TRUE,2,0,win,Montevideo,Uruguay,TRUE,1723,1352,1731,1344,8
+1967-01-22,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,4,2,win,Montevideo,Uruguay,TRUE,1731,1733,1769,1695,38
+1967-01-26,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,2,2,draw,Montevideo,Uruguay,FALSE,1769,1864,1782,1851,13
+1967-01-28,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,2,loss,Montevideo,Uruguay,TRUE,1782,2009,1766,2025,-16
+1967-02-01,Copa América,played,Chile,CHL,Bolivia,BOL,FALSE,0,0,draw,Montevideo,Uruguay,TRUE,1766,1573,1753,1586,-13
+1967-08-15,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,1,0,win,Santiago,Chile,FALSE,1753,1996,1767,1982,14
+1967-09-19,Friendly,played,Chile,CHL,Brazil,BRA,TRUE,0,1,loss,Santiago,Chile,FALSE,1767,1928,1759,1936,-8
+1967-11-08,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,3,1,win,Santiago,Chile,FALSE,1759,1966,1778,1947,19
+1967-12-13,Friendly,played,Chile,CHL,Hungary,HUN,TRUE,4,5,loss,Santiago,Chile,FALSE,1778,1980,1771,1987,-7
+1967-12-16,Friendly,played,Chile,CHL,Soviet Union,SUN,TRUE,1,4,loss,Santiago,Chile,FALSE,,,,,
+1968-08-18,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1758,1594,1770,1582,12
+1968-08-21,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1770,1582,1766,1586,-4
+1968-10-23,Friendly,played,Chile,CHL,Mexico,MEX,TRUE,3,1,win,Santiago,Chile,FALSE,1758,1841,1772,1827,14
+1968-11-27,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,FALSE,0,4,loss,Rosario,Argentina,FALSE,1772,1901,1760,1913,-12
+1968-12-04,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,TRUE,2,1,win,Santiago,Chile,FALSE,1760,1913,1777,1896,17
+1968-12-18,Friendly,played,Chile,CHL,Germany,DEU,TRUE,2,1,win,Santiago,Chile,FALSE,,,,,
+1969-05-28,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,1,1,draw,Santiago,Chile,FALSE,1791,1887,1791,1887,0
+1969-06-08,Friendly,played,Chile,CHL,Paraguay,PRY,FALSE,1,0,win,Asunción,Paraguay,FALSE,1791,1755,1803,1743,12
+1969-06-11,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,1,2,loss,La Plata,Argentina,FALSE,1803,1887,1798,1892,-5
+1969-06-15,Friendly,played,Chile,CHL,Colombia,COL,FALSE,3,3,draw,Bogotá,Colombia,FALSE,1798,1417,1791,1424,-7
+1969-06-22,Friendly,played,Chile,CHL,German DR,DDR,FALSE,1,0,win,Magdeburg,German DR,FALSE,1791,1868,1806,1853,15
+1969-06-25,Friendly,played,Chile,CHL,German DR,DDR,FALSE,1,2,loss,Halle,German DR,FALSE,1806,1853,1800,1859,-6
+1969-07-06,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,0,0,draw,Santiago,Chile,FALSE,1800,1743,1796,1747,-4
+1969-07-13,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,0,0,draw,Santiago,Chile,FALSE,1796,1841,1793,1844,-3
+1969-07-27,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,4,1,win,Santiago,Chile,FALSE,1793,1436,1798,1431,5
+1969-08-03,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,1,1,draw,Guayaquil,Ecuador,FALSE,1798,1431,1785,1444,-13
+1969-08-10,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1785,1846,1768,1863,-17
+1970-03-22,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,0,5,loss,São Paulo,Brazil,FALSE,1768,2017,1763,2022,-5
+1970-03-26,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,1,2,loss,Rio de Janeiro,Brazil,FALSE,1763,2022,1761,2024,-2
+1970-10-04,Friendly,played,Chile,CHL,Brazil,BRA,TRUE,1,5,loss,Santiago,Chile,FALSE,1761,2173,1756,2178,-5
+1971-02-02,Friendly,played,Chile,CHL,German DR,DDR,TRUE,0,1,loss,Santiago,Chile,FALSE,1756,1906,1747,1915,-9
+1971-07-14,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,3,2,win,Santiago,Chile,FALSE,1747,1733,1754,1726,7
+1971-07-21,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,TRUE,2,2,draw,Santiago,Chile,FALSE,1754,1852,1754,1852,0
+1971-08-04,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1754,1867,1747,1874,-7
+1971-08-08,Friendly,played,Chile,CHL,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1747,1728,1735,1740,-12
+1971-08-11,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1735,1744,1725,1754,-10
+1971-08-15,Friendly,played,Chile,CHL,Bolivia,BOL,FALSE,4,3,win,La Paz,Bolivia,FALSE,1725,1621,1735,1611,10
+1971-08-18,Copa del Pacífico,played,Chile,CHL,Peru,PER,TRUE,1,0,win,Santiago,Chile,FALSE,1735,1743,1746,1732,11
+1971-10-27,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1746,1835,1733,1848,-13
+1971-11-03,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,TRUE,5,0,win,Santiago,Chile,FALSE,1733,1848,1764,1817,31
+1972-01-27,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,0,2,loss,Guadalajara,Mexico,FALSE,,,,,
+1972-02-09,Friendly,played,Chile,CHL,Haiti,HTI,FALSE,0,1,loss,Port-au-Prince,Haiti,FALSE,1753,1588,1741,1600,-12
+1972-05-31,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,TRUE,3,4,loss,Santiago,Chile,FALSE,1741,1868,1727,1882,-14
+1972-06-14,Brazil Independence Cup,played,Chile,CHL,Ecuador,ECU,TRUE,2,1,win,Natal,Brazil,TRUE,1727,1435,1733,1429,6
+1972-06-18,Brazil Independence Cup,played,Chile,CHL,Portugal,PRT,TRUE,1,4,loss,Recife,Brazil,TRUE,1733,1835,1708,1860,-25
+1972-06-21,Brazil Independence Cup,played,Chile,CHL,Republic of Ireland,IRL,TRUE,2,1,win,Recife,Brazil,TRUE,,,,,
+1972-06-25,Brazil Independence Cup,played,Chile,CHL,Iran,IRN,TRUE,2,1,win,Recife,Brazil,TRUE,1721,1674,1738,1657,17
+1972-08-16,Friendly,played,Chile,CHL,Mexico,MEX,TRUE,0,2,loss,Santiago,Chile,FALSE,1738,1750,1719,1769,-19
+1973-02-14,Friendly,played,Chile,CHL,Tahiti,,TRUE,10,1,win,Santiago,Chile,FALSE,1710,1412,1715,1407,5
+1973-04-14,Friendly,played,Chile,CHL,Haiti,HTI,FALSE,1,1,draw,Port-au-Prince,Haiti,FALSE,1715,1611,1715,1611,0
+1973-04-24,Friendly,played,Chile,CHL,Ecuador,ECU,FALSE,1,1,draw,Guayaquil,Ecuador,FALSE,1715,1438,1710,1443,-5
+1973-04-29,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1710,1718,1689,1739,-21
+1973-05-13,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,2,0,win,Santiago,Chile,FALSE,1689,1739,1715,1713,26
+1973-07-13,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,FALSE,4,5,loss,Buenos Aires,Argentina,FALSE,1715,1873,1709,1879,-6
+1973-07-18,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,TRUE,3,1,win,Santiago,Chile,FALSE,1709,1879,1736,1852,27
+1973-07-24,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,3,0,win,Santiago,Chile,FALSE,1736,1578,1746,1568,10
+1973-08-05,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Montevideo,Uruguay,TRUE,1746,1681,1762,1665,16
+1973-09-20,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,2,1,win,Mexico City,Mexico,FALSE,1762,1810,1776,1796,14
+1973-09-26,FIFA World Cup qualification,played,Chile,CHL,Soviet Union,SUN,FALSE,0,0,draw,Moscow,Soviet Union,TRUE,1776,1908,1788,1896,12
+1973-11-21,FIFA World Cup qualification,played,Chile,CHL,Soviet Union,SUN,TRUE,2,0,win,Santiago,Chile,FALSE,,,,,
+1974-04-24,Friendly,played,Chile,CHL,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1788,1615,1796,1607,8
+1974-04-26,Friendly,played,Chile,CHL,Haiti,HTI,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1796,1607,1793,1610,-3
+1974-05-12,Friendly,played,Chile,CHL,Republic of Ireland,IRL,TRUE,1,2,loss,Santiago,Chile,FALSE,,,,,
+1974-06-14,FIFA World Cup,played,Chile,CHL,Germany,DEU,FALSE,0,1,loss,Berlin,Germany,FALSE,,,,,
+1974-06-18,FIFA World Cup,played,Chile,CHL,German DR,DDR,TRUE,1,1,draw,Berlin,Germany,TRUE,1771,1956,1786,1941,15
+1974-06-22,FIFA World Cup,played,Chile,CHL,Australia,AUS,FALSE,0,0,draw,Berlin,Germany,TRUE,1786,1666,1776,1676,-10
+1974-11-06,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,TRUE,0,2,loss,Santiago,Chile,FALSE,1776,1841,1751,1866,-25
+1974-11-20,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1751,1866,1759,1858,8
+1974-12-22,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,1,0,win,Santiago,Chile,FALSE,1759,1774,1767,1766,8
+1975-06-04,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1767,1702,1754,1715,-13
+1975-06-25,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,TRUE,1,3,loss,Santiago,Chile,FALSE,1754,1717,1723,1748,-31
+1975-07-17,Copa América,played,Chile,CHL,Peru,PER,TRUE,1,1,draw,Santiago,Chile,FALSE,1723,1647,1711,1659,-12
+1975-07-20,Copa América,played,Chile,CHL,Bolivia,BOL,FALSE,1,2,loss,Oruro,Bolivia,FALSE,1711,1523,1680,1554,-31
+1975-08-13,Copa América,played,Chile,CHL,Bolivia,BOL,TRUE,4,0,win,Santiago,Chile,FALSE,1680,1515,1697,1498,17
+1975-08-20,Copa América,played,Chile,CHL,Peru,PER,FALSE,1,3,loss,Lima,Peru,FALSE,1697,1698,1670,1725,-27
+1976-10-06,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,TRUE,0,0,draw,Santiago,Chile,FALSE,1670,1652,1665,1657,-5
+1976-10-13,Copa Carlos Dittborn,played,Chile,CHL,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1665,1894,1659,1900,-6
+1977-01-26,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,4,0,win,Santiago,Chile,FALSE,1659,1681,1674,1666,15
+1977-01-30,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1674,1680,1656,1698,-18
+1977-02-02,Friendly,played,Chile,CHL,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1656,1666,1646,1676,-10
+1977-02-27,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,1,0,win,Guayaquil,Ecuador,FALSE,1646,1473,1662,1457,16
+1977-03-06,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,1,1,draw,Santiago,Chile,FALSE,1662,1748,1661,1749,-1
+1977-03-20,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,3,0,win,Santiago,Chile,FALSE,1661,1450,1671,1440,10
+1977-03-26,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1671,1756,1656,1771,-15
+1977-06-15,Friendly,played,Chile,CHL,Scotland,SCO,TRUE,2,4,loss,Santiago,Chile,FALSE,1656,1973,1649,1980,-7
+1979-06-13,Friendly,played,Chile,CHL,Ecuador,ECU,TRUE,0,0,draw,Santiago,Chile,FALSE,1649,1440,1642,1447,-7
+1979-06-21,Friendly,played,Chile,CHL,Ecuador,ECU,FALSE,1,2,loss,Guayaquil,Ecuador,FALSE,1642,1447,1629,1460,-13
+1979-07-11,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,TRUE,1,0,win,Santiago,Chile,FALSE,1629,1678,1642,1665,13
+1979-07-18,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1642,1665,1632,1675,-10
+1979-08-08,Copa América,played,Chile,CHL,Venezuela,,FALSE,1,1,draw,San Cristóbal,Venezuela,FALSE,1632,1339,1619,1352,-13
+1979-08-15,Copa América,played,Chile,CHL,Colombia,COL,FALSE,0,1,loss,Bogotá,Colombia,FALSE,1619,1580,1598,1601,-21
+1979-08-29,Copa América,played,Chile,CHL,Venezuela,,TRUE,7,0,win,Santiago,Chile,FALSE,1598,1341,1611,1328,13
+1979-09-05,Copa América,played,Chile,CHL,Colombia,COL,TRUE,2,0,win,Santiago,Chile,FALSE,1611,1612,1638,1585,27
+1979-10-17,Copa América,played,Chile,CHL,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1638,1780,1678,1740,40
+1979-10-24,Copa América,played,Chile,CHL,Peru,PER,TRUE,0,0,draw,Santiago,Chile,FALSE,1678,1740,1675,1743,-3
+1979-11-28,Copa América,played,Chile,CHL,Paraguay,PRY,FALSE,0,3,loss,Asunción,Paraguay,FALSE,1675,1799,1656,1818,-19
+1979-12-05,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,1,0,win,Santiago,Chile,FALSE,1656,1818,1685,1789,29
+1979-12-11,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,0,0,draw,Buenos Aires,Argentina,TRUE,1685,1789,1692,1782,7
+1980-06-24,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,1,2,loss,Belo Horizonte,Brazil,FALSE,1692,2037,1691,2038,-1
+1980-08-21,Friendly,played,Chile,CHL,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1697,1643,1698,1642,1
+1980-09-18,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,2,2,draw,Mendoza,Argentina,FALSE,1698,1997,1706,1989,8
+1981-03-10,Friendly,played,Chile,CHL,Colombia,COL,TRUE,1,0,win,Santiago,Chile,FALSE,1706,1586,1710,1582,4
+1981-03-14,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,1,2,loss,Ribeirão Preto,Brazil,FALSE,1710,2052,1709,2053,-1
+1981-03-19,Friendly,played,Chile,CHL,Colombia,COL,FALSE,2,1,win,Bogotá,Colombia,FALSE,1709,1608,1719,1598,10
+1981-04-19,Friendly,played,Chile,CHL,Peru,PER,TRUE,3,0,win,Santiago,Chile,FALSE,1719,1705,1731,1693,12
+1981-04-29,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,TRUE,1,2,loss,Santiago,Chile,FALSE,1731,1808,1715,1824,-16
+1981-05-24,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,0,0,draw,Guayaquil,Ecuador,FALSE,1715,1490,1708,1497,-7
+1981-06-07,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,1,0,win,Asunción,Paraguay,FALSE,1708,1737,1735,1710,27
+1981-06-14,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,2,0,win,Santiago,Chile,FALSE,1735,1489,1742,1482,7
+1981-06-21,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,3,0,win,Santiago,Chile,FALSE,1742,1710,1764,1688,22
+1981-07-05,Friendly,played,Chile,CHL,Spain,ESP,TRUE,1,1,draw,Santiago,Chile,FALSE,1764,1846,1763,1847,-1
+1981-07-15,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1763,1824,1769,1818,6
+1981-08-05,Friendly,played,Chile,CHL,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1769,1694,1780,1683,11
+1981-08-26,Friendly,played,Chile,CHL,Brazil,BRA,TRUE,0,0,draw,Santiago,Chile,FALSE,1780,2094,1785,2089,5
+1982-03-23,Friendly,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Santiago,Chile,FALSE,1785,1727,1791,1721,6
+1982-03-30,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1791,1721,1777,1735,-14
+1982-05-21,Friendly,played,Chile,CHL,Republic of Ireland,IRL,TRUE,1,0,win,Santiago,Chile,FALSE,,,,,
+1982-06-17,FIFA World Cup,played,Chile,CHL,Austria,AUT,TRUE,0,1,loss,Oviedo,Spain,TRUE,1771,1920,1753,1938,-18
+1982-06-20,FIFA World Cup,played,Chile,CHL,Germany,DEU,FALSE,1,4,loss,Gijón,Spain,TRUE,,,,,
+1982-06-24,FIFA World Cup,played,Chile,CHL,Algeria,DZA,FALSE,2,3,loss,Oviedo,Spain,TRUE,1737,1678,1702,1713,-35
+1983-04-28,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,2,3,loss,Rio de Janeiro,Brazil,FALSE,1702,2115,1701,2116,-1
+1983-05-12,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,2,2,draw,Santiago,Chile,FALSE,1701,1942,1705,1938,4
+1983-06-23,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1705,1938,1702,1941,-3
+1983-07-14,Friendly,played,Chile,CHL,Colombia,COL,FALSE,2,2,draw,Bogotá,Colombia,FALSE,1702,1586,1702,1586,0
+1983-07-19,Friendly,played,Chile,CHL,Bolivia,BOL,FALSE,2,1,win,La Paz,Bolivia,FALSE,1702,1543,1710,1535,8
+1983-07-21,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1710,1746,1731,1725,21
+1983-07-24,Friendly,played,Chile,CHL,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1731,1709,1723,1717,-8
+1983-07-28,Friendly,played,Chile,CHL,Brazil,BRA,TRUE,0,0,draw,Santiago,Chile,FALSE,1723,2115,1730,2108,7
+1983-08-03,Copa del Pacífico,played,Chile,CHL,Peru,PER,TRUE,2,0,win,Arica,Chile,FALSE,1730,1725,1746,1709,16
+1983-08-17,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,3,2,win,Antofagasta,Chile,FALSE,1746,1718,1752,1712,6
+1983-08-24,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,4,2,win,Arica,Chile,FALSE,1752,1513,1756,1509,4
+1983-09-01,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1756,1798,1741,1813,-15
+1983-09-08,Copa América,played,Chile,CHL,Venezuela,,TRUE,5,0,win,Santiago,Chile,FALSE,1741,1375,1747,1369,6
+1983-09-11,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,2,0,win,Santiago,Chile,FALSE,1747,1817,1781,1783,34
+1983-09-21,Copa América,played,Chile,CHL,Venezuela,,FALSE,0,0,draw,Caracas,Venezuela,FALSE,1781,1362,1763,1380,-18
+1984-06-17,Friendly,played,Chile,CHL,England,ENG,TRUE,0,0,draw,Santiago,Chile,FALSE,1763,1949,1765,1947,2
+1984-10-28,Friendly,played,Chile,CHL,Mexico,MEX,TRUE,1,0,win,Santiago,Chile,FALSE,1765,1778,1773,1770,8
+1985-02-06,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,1,0,win,Viña del Mar,Chile,FALSE,1773,1775,1780,1768,7
+1985-02-08,Friendly,played,Chile,CHL,Finland,,TRUE,2,0,win,Viña del Mar,Chile,FALSE,1780,1492,1783,1489,3
+1985-02-21,Friendly,played,Chile,CHL,Colombia,COL,TRUE,1,1,draw,Santiago,Chile,FALSE,1783,1597,1776,1604,-7
+1985-02-24,Friendly,played,Chile,CHL,Peru,PER,TRUE,1,2,loss,Santiago,Chile,FALSE,1776,1648,1760,1664,-16
+1985-03-03,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,1,1,draw,Quito,Ecuador,FALSE,1760,1557,1754,1563,-6
+1985-03-09,Friendly,played,Chile,CHL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1754,1672,1755,1671,1
+1985-03-17,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,6,2,win,Santiago,Chile,FALSE,1755,1560,1767,1548,12
+1985-03-24,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,2,0,win,Santiago,Chile,FALSE,1767,1933,1803,1897,36
+1985-04-07,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1803,1908,1794,1917,-9
+1985-05-14,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1794,1884,1786,1892,-8
+1985-05-21,Friendly,played,Chile,CHL,Brazil,BRA,TRUE,2,1,win,Santiago,Chile,FALSE,1786,1929,1797,1918,11
+1985-06-08,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,1,3,loss,Porto Alegre,Brazil,FALSE,1797,1926,1791,1932,-6
+1985-10-09,Friendly,played,Chile,CHL,Paraguay,PRY,FALSE,0,0,draw,Asunción,Paraguay,FALSE,1791,1725,1792,1724,1
+1985-10-27,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,4,2,win,Santiago,Chile,FALSE,1797,1719,1813,1703,16
+1985-11-03,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1813,1703,1832,1684,19
+1985-11-10,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,0,3,loss,Asunción,Paraguay,FALSE,1832,1738,1798,1772,-34
+1985-11-17,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,2,2,draw,Santiago,Chile,FALSE,1798,1772,1791,1779,-7
+1986-05-07,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,1,1,draw,Curitiba,Brazil,FALSE,1791,1921,1797,1915,6
+1987-06-19,Friendly,played,Chile,CHL,Peru,PER,FALSE,3,1,win,Lima,Peru,FALSE,1797,1644,1810,1631,13
+1987-06-21,Friendly,played,Chile,CHL,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1810,1631,1792,1649,-18
+1987-06-24,Friendly,played,Chile,CHL,Peru,PER,TRUE,1,0,win,Santiago,Chile,FALSE,1792,1649,1796,1645,4
+1987-06-30,Copa América,played,Chile,CHL,Venezuela,,FALSE,3,1,win,Córdoba,Argentina,TRUE,1796,1373,1802,1367,6
+1987-07-03,Copa América,played,Chile,CHL,Brazil,BRA,TRUE,4,0,win,Córdoba,Argentina,TRUE,1802,2033,1876,1959,74
+1987-07-08,Copa América,played,Chile,CHL,Colombia,COL,TRUE,2,1,win,Córdoba,Argentina,TRUE,1876,1731,1891,1716,15
+1987-07-12,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,1,loss,Buenos Aires,Argentina,TRUE,1891,1824,1861,1854,-30
+1987-12-09,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,1,2,loss,Uberlândia,Brazil,FALSE,1861,1959,1856,1964,-5
+1988-05-23,Matthews Cup,played,Chile,CHL,Greece,GRC,TRUE,0,1,loss,Toronto,Canada,TRUE,1856,1699,1835,1720,-21
+1988-05-25,Matthews Cup,played,Chile,CHL,Canada,CAN,FALSE,0,1,loss,Toronto,Canada,FALSE,1835,1550,1813,1572,-22
+1988-06-01,Friendly,played,Chile,CHL,United States,USA,FALSE,1,1,draw,Stockton,United States,FALSE,1813,1626,1811,1628,-2
+1988-06-03,Friendly,played,Chile,CHL,United States,USA,FALSE,3,1,win,San Diego,United States,FALSE,1811,1628,1822,1617,11
+1988-06-05,Friendly,played,Chile,CHL,United States,USA,FALSE,3,0,win,Fresno,United States,FALSE,1822,1617,1834,1605,12
+1988-09-13,Friendly,played,Chile,CHL,Ecuador,ECU,TRUE,3,1,win,La Serena,Chile,FALSE,1834,1571,1837,1568,3
+1988-09-27,Friendly,played,Chile,CHL,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1837,1784,1818,1803,-19
+1988-09-29,Friendly,played,Chile,CHL,Ecuador,ECU,TRUE,0,0,draw,Asunción,Paraguay,TRUE,1818,1562,1809,1571,-9
+1988-10-25,Copa del Pacífico,played,Chile,CHL,Peru,PER,TRUE,2,0,win,Arica,Chile,FALSE,1809,1647,1817,1639,8
+1988-11-01,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,TRUE,1,1,draw,Concepción,Chile,FALSE,1817,1826,1813,1830,-4
+1988-11-09,Copa Juan Pinto Durán,played,Chile,CHL,Uruguay,URY,FALSE,1,3,loss,Montevideo,Uruguay,FALSE,1813,1830,1798,1845,-15
+1988-11-23,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1798,1639,1795,1642,-3
+1989-01-29,Friendly,played,Chile,CHL,Ecuador,ECU,FALSE,0,1,loss,Guayaquil,Ecuador,FALSE,1795,1571,1782,1584,-13
+1989-02-01,Friendly,played,Chile,CHL,Peru,PER,TRUE,0,0,draw,Armenia,Colombia,TRUE,1782,1634,1776,1640,-6
+1989-02-05,Friendly,played,Chile,CHL,Colombia,COL,FALSE,0,1,loss,Armenia,Colombia,FALSE,1776,1823,1767,1832,-9
+1989-04-20,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,1,1,draw,Santiago,Chile,FALSE,1767,1836,1766,1837,-1
+1989-05-05,Friendly,played,Chile,CHL,Guatemala,,FALSE,1,0,win,Los Angeles,United States,TRUE,1766,1523,1772,1517,6
+1989-05-07,Friendly,played,Chile,CHL,El Salvador,SLV,FALSE,1,0,win,Los Angeles,United States,TRUE,1772,1473,1777,1468,5
+1989-05-23,Rous Cup,played,Chile,CHL,England,ENG,FALSE,0,0,draw,London,England,FALSE,1777,1901,1786,1892,9
+1989-05-26,Friendly,played,Chile,CHL,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1786,1687,1796,1677,10
+1989-05-30,Rous Cup,played,Chile,CHL,Scotland,SCO,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1796,1801,1780,1817,-16
+1989-06-03,Friendly,played,Chile,CHL,Egypt,EGY,FALSE,0,2,loss,Cairo,Egypt,FALSE,1780,1644,1763,1661,-17
+1989-06-19,Friendly,played,Chile,CHL,Uruguay,URY,FALSE,2,2,draw,Montevideo,Uruguay,FALSE,1763,1852,1768,1847,5
+1989-06-22,Friendly,played,Chile,CHL,Bolivia,BOL,FALSE,1,0,win,Santa Cruz,Bolivia,FALSE,1768,1507,1774,1501,6
+1989-06-27,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,2,1,win,Santiago,Chile,FALSE,1774,1501,1776,1499,2
+1989-07-02,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Goiânia,Brazil,TRUE,1776,1837,1755,1858,-21
+1989-07-06,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,3,loss,Goiânia,Brazil,TRUE,1755,1819,1719,1855,-36
+1989-07-08,Copa América,played,Chile,CHL,Bolivia,BOL,FALSE,5,0,win,Goiânia,Brazil,TRUE,1719,1496,1741,1474,22
+1989-07-10,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,2,1,win,Goiânia,Brazil,TRUE,1741,1621,1758,1604,17
+1989-07-25,Friendly,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Arica,Chile,FALSE,1758,1602,1762,1598,4
+1989-08-06,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,3,1,win,Caracas,Venezuela,FALSE,1762,1391,1772,1381,10
+1989-08-13,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,TRUE,1,1,draw,Santiago,Chile,FALSE,1772,1984,1778,1978,6
+1989-08-27,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,5,0,win,Mendoza,Argentina,TRUE,1778,1379,1785,1372,7
+1989-09-03,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1785,1980,1779,1986,-6
+1990-11-08,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,0,0,draw,Belém,Brazil,FALSE,1783,1970,1793,1960,10
+1991-04-09,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,0,1,loss,Veracruz,Mexico,FALSE,1793,1887,1788,1892,-5
+1991-05-22,Friendly,played,Chile,CHL,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+1991-05-30,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,2,1,win,Santiago,Chile,FALSE,1793,1867,1802,1858,9
+1991-06-19,Friendly,played,Chile,CHL,Ecuador,ECU,FALSE,1,2,loss,Guayaquil,Ecuador,FALSE,1802,1644,1790,1656,-12
+1991-06-26,Friendly,played,Chile,CHL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1790,1834,1784,1840,-6
+1991-06-30,Friendly,played,Chile,CHL,Ecuador,ECU,TRUE,3,1,win,Santiago,Chile,FALSE,1784,1651,1790,1645,6
+1991-07-06,Copa América,played,Chile,CHL,Venezuela,,TRUE,2,0,win,Santiago,Chile,FALSE,1790,1372,1794,1368,4
+1991-07-08,Copa América,played,Chile,CHL,Peru,PER,TRUE,4,2,win,Concepción,Chile,FALSE,1794,1540,1803,1531,9
+1991-07-10,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,0,1,loss,Santiago,Chile,FALSE,1803,1900,1778,1925,-25
+1991-07-14,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,4,0,win,Santiago,Chile,FALSE,1778,1746,1808,1716,30
+1991-07-17,Copa América,played,Chile,CHL,Colombia,COL,TRUE,1,1,draw,Santiago,Chile,FALSE,1808,1802,1801,1809,-7
+1991-07-19,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,0,0,draw,Santiago,Chile,FALSE,1801,1978,1806,1973,5
+1991-07-21,Copa América,played,Chile,CHL,Brazil,BRA,TRUE,0,2,loss,Santiago,Chile,FALSE,1806,1917,1770,1953,-36
+1993-03-31,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,2,1,win,Arica,Chile,FALSE,1770,1576,1773,1573,3
+1993-05-30,Friendly,played,Chile,CHL,Colombia,COL,TRUE,1,1,draw,Santiago,Chile,FALSE,1773,1774,1770,1777,-3
+1993-06-06,Friendly,played,Chile,CHL,Colombia,COL,FALSE,0,1,loss,Bogotá,Colombia,FALSE,1770,1777,1763,1784,-7
+1993-06-09,Friendly,played,Chile,CHL,Ecuador,ECU,FALSE,2,1,win,Quito,Ecuador,FALSE,1763,1663,1773,1653,10
+1993-06-13,Friendly,played,Chile,CHL,Bolivia,BOL,FALSE,3,1,win,La Paz,Bolivia,FALSE,1773,1586,1784,1575,11
+1993-06-18,Copa América,played,Chile,CHL,Paraguay,PRY,FALSE,0,1,loss,Cuenca,Ecuador,TRUE,1784,1699,1753,1730,-31
+1993-06-21,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,3,2,win,Cuenca,Ecuador,TRUE,1753,1977,1792,1938,39
+1993-06-24,Copa América,played,Chile,CHL,Peru,PER,TRUE,0,1,loss,Cuenca,Ecuador,TRUE,1792,1582,1753,1621,-39
+1993-09-08,Friendly,played,Chile,CHL,Spain,ESP,FALSE,0,2,loss,Alicante,Spain,FALSE,1753,1838,1745,1846,-8
+1994-03-22,Friendly,played,Chile,CHL,France,FRA,FALSE,1,3,loss,Lyon,France,FALSE,1745,1901,1739,1907,-6
+1994-03-26,Friendly,played,Chile,CHL,Saudi Arabia,SAU,FALSE,2,0,win,Riyadh,Saudi Arabia,FALSE,,,,,
+1994-04-30,Friendly,played,Chile,CHL,United States,USA,FALSE,2,0,win,Albuquerque,United States,FALSE,1756,1613,1769,1600,13
+1994-05-18,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,3,3,draw,Santiago,Chile,FALSE,1769,1923,1771,1921,2
+1994-05-25,Friendly,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Santiago,Chile,FALSE,1771,1538,1774,1535,3
+1994-09-21,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,1,2,loss,Santiago,Chile,FALSE,1774,1671,1759,1686,-15
+1994-11-16,Friendly,played,Chile,CHL,Argentina,ARG,TRUE,0,3,loss,Santiago,Chile,FALSE,1759,1857,1741,1875,-18
+1995-03-29,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,2,1,win,Los Angeles,United States,TRUE,1741,1899,1755,1885,14
+1995-04-19,Friendly,played,Chile,CHL,Peru,PER,FALSE,0,6,loss,Lima,Peru,FALSE,1755,1550,1728,1577,-27
+1995-04-22,Friendly,played,Chile,CHL,Iceland,ISL,TRUE,1,1,draw,Temuco,Chile,FALSE,1728,1568,1722,1574,-6
+1995-05-25,Friendly,played,Chile,CHL,Northern Ireland,NIR,TRUE,2,1,win,Edmonton,Canada,TRUE,1722,1656,1734,1644,12
+1995-05-28,Friendly,played,Chile,CHL,Canada,CAN,FALSE,2,1,win,Edmonton,Canada,FALSE,1734,1614,1748,1600,14
+1995-06-19,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,0,1,loss,La Serena,Chile,FALSE,1753,1693,1732,1714,-21
+1995-06-22,Friendly,played,Chile,CHL,Turkey,TUR,TRUE,0,0,draw,Santiago,Chile,FALSE,1732,1734,1728,1738,-4
+1995-07-08,Copa América,played,Chile,CHL,United States,USA,FALSE,1,2,loss,Paysandú,Uruguay,TRUE,1728,1676,1699,1705,-29
+1995-07-11,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,4,loss,Paysandú,Uruguay,TRUE,1699,1890,1676,1913,-23
+1995-07-14,Copa América,played,Chile,CHL,Bolivia,BOL,TRUE,2,2,draw,Paysandú,Uruguay,TRUE,1676,1686,1677,1685,1
+1995-10-11,Friendly,played,Chile,CHL,Canada,CAN,TRUE,2,0,win,Concepción,Chile,FALSE,1677,1595,1685,1587,8
+1996-02-04,Friendly,played,Chile,CHL,Bolivia,BOL,FALSE,1,1,draw,Cochabamba,Bolivia,FALSE,1685,1671,1687,1669,2
+1996-02-07,Friendly,played,Chile,CHL,Mexico,MEX,TRUE,2,1,win,Viña del Mar,Chile,FALSE,1687,1869,1699,1857,12
+1996-02-14,Friendly,played,Chile,CHL,Peru,PER,TRUE,4,0,win,Coquimbo,Chile,FALSE,1699,1568,1707,1560,8
+1996-05-26,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,2,0,win,Santiago,Chile,FALSE,1718,1685,1728,1675,10
+1996-06-02,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,1,1,draw,Barinas,Venezuela,FALSE,1728,1337,1714,1351,-14
+1996-07-06,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,4,1,win,Santiago,Chile,FALSE,1714,1727,1740,1701,26
+1996-09-01,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,1,4,loss,Barranquilla,Colombia,FALSE,1738,1888,1725,1901,-13
+1996-10-09,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1725,1800,1714,1811,-11
+1996-11-12,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,1,0,win,Santiago,Chile,FALSE,1714,1778,1732,1760,18
+1996-12-15,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1732,1816,1742,1806,10
+1997-01-04,Friendly,played,Chile,CHL,Armenia,,TRUE,7,0,win,Viña del Mar,Chile,FALSE,1742,1336,1744,1334,2
+1997-01-12,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1744,1603,1722,1625,-22
+1997-01-26,Friendly,played,Chile,CHL,Honduras,HND,TRUE,3,2,win,Santiago,Chile,FALSE,1722,1562,1726,1558,4
+1997-02-12,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1726,1678,1729,1675,3
+1997-04-02,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,0,4,loss,Brasília,Brazil,FALSE,1729,2070,1726,2073,-3
+1997-04-29,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,6,0,win,Santiago,Chile,FALSE,1726,1360,1731,1355,5
+1997-06-08,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,1,1,draw,Quito,Ecuador,FALSE,1731,1703,1735,1699,4
+1997-06-11,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,0,1,loss,Cochabamba,Bolivia,TRUE,1735,1859,1719,1875,-16
+1997-06-14,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,2,loss,Cochabamba,Bolivia,TRUE,1719,1820,1692,1847,-27
+1997-06-17,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,1,2,loss,Cochabamba,Bolivia,TRUE,1692,1762,1672,1782,-20
+1997-07-05,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,4,1,win,Santiago,Chile,FALSE,1672,1793,1709,1756,37
+1997-07-20,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,2,1,win,Santiago,Chile,FALSE,1709,1784,1728,1765,19
+1997-08-20,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1728,1676,1711,1693,-17
+1997-09-10,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,1,2,loss,Santiago,Chile,FALSE,1711,1837,1692,1856,-19
+1997-10-12,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,4,0,win,Lima,Peru,FALSE,1692,1745,1724,1713,32
+1997-11-07,Friendly,played,Chile,CHL,Guatemala,,TRUE,4,1,win,Antofagasta,Chile,FALSE,1724,1560,1730,1554,6
+1997-11-16,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,3,0,win,Santiago,Chile,FALSE,1730,1720,1754,1696,24
+1998-01-31,Lunar New Year Cup,played,Chile,CHL,Iran,IRN,FALSE,1,1,draw,So Kon Po,Hong Kong,TRUE,1754,1661,1750,1665,-4
+1998-02-04,Friendly,played,Chile,CHL,New Zealand,NZL,FALSE,0,0,draw,Auckland,New Zealand,FALSE,1750,1429,1744,1435,-6
+1998-02-07,Friendly,played,Chile,CHL,Australia,AUS,FALSE,1,0,win,Melbourne,Australia,FALSE,1744,1845,1767,1822,23
+1998-02-11,Friendly,played,Chile,CHL,England,ENG,FALSE,2,0,win,London,England,FALSE,1767,2003,1793,1977,26
+1998-04-22,Friendly,played,Chile,CHL,Colombia,COL,TRUE,2,2,draw,Santiago,Chile,FALSE,1793,1788,1790,1791,-3
+1998-04-29,Friendly,played,Chile,CHL,Lithuania,,TRUE,1,0,win,Santiago,Chile,FALSE,1790,1561,1793,1558,3
+1998-05-19,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Mendoza,Argentina,FALSE,1793,1884,1788,1889,-5
+1998-05-24,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,2,2,draw,Santiago,Chile,FALSE,1788,1754,1784,1758,-4
+1998-05-31,Friendly,played,Chile,CHL,Tunisia,TUN,TRUE,3,2,win,Montélimar,France,TRUE,1784,1626,1790,1620,6
+1998-06-04,Friendly,played,Chile,CHL,Morocco,MAR,TRUE,1,1,draw,Avignon,France,TRUE,1790,1725,1788,1727,-2
+1998-06-11,FIFA World Cup,played,Chile,CHL,Italy,ITA,FALSE,2,2,draw,Bordeaux,France,TRUE,1788,1972,1803,1957,15
+1998-06-17,FIFA World Cup,played,Chile,CHL,Austria,AUT,TRUE,1,1,draw,Saint-Étienne,France,TRUE,1803,1705,1795,1713,-8
+1998-06-23,FIFA World Cup,played,Chile,CHL,Cameroon,CMR,TRUE,1,1,draw,Nantes,France,TRUE,1795,1589,1779,1605,-16
+1998-06-27,FIFA World Cup,played,Chile,CHL,Brazil,BRA,FALSE,1,4,loss,Paris,France,TRUE,1779,2064,1762,2081,-17
+1999-02-17,Friendly,played,Chile,CHL,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1762,1573,1759,1576,-3
+1999-02-21,Friendly,played,Chile,CHL,United States,USA,FALSE,1,2,loss,Fort Lauderdale,United States,FALSE,1759,1723,1751,1731,-8
+1999-04-28,Friendly,played,Chile,CHL,Bolivia,BOL,FALSE,1,1,draw,Cochabamba,Bolivia,FALSE,1751,1666,1751,1666,0
+1999-05-29,Friendly,played,Chile,CHL,Costa Rica,CRI,TRUE,3,0,win,Concepción,Chile,FALSE,1751,1612,1758,1605,7
+1999-06-20,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,1,0,win,Santiago,Chile,FALSE,1758,1666,1763,1661,5
+1999-06-30,Copa América,played,Chile,CHL,Mexico,MEX,TRUE,0,1,loss,Ciudad del Este,Paraguay,TRUE,1759,1872,1742,1889,-17
+1999-07-03,Copa América,played,Chile,CHL,Venezuela,,TRUE,3,0,win,Ciudad del Este,Paraguay,TRUE,1742,1417,1754,1405,12
+1999-07-06,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,0,1,loss,Ciudad del Este,Paraguay,TRUE,1754,2062,1747,2069,-7
+1999-07-11,Copa América,played,Chile,CHL,Colombia,COL,TRUE,3,2,win,Luque,Paraguay,TRUE,1747,1846,1779,1814,32
+1999-07-13,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,1,1,draw,Asunción,Paraguay,TRUE,1779,1753,1777,1755,-2
+1999-07-17,Copa América,played,Chile,CHL,Mexico,MEX,TRUE,1,2,loss,Asunción,Paraguay,TRUE,1777,1853,1757,1873,-20
+2000-01-29,Friendly,played,Chile,CHL,United States,USA,TRUE,1,2,loss,Coquimbo,Chile,FALSE,1757,1800,1745,1812,-12
+2000-02-02,Friendly,played,Chile,CHL,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1745,1635,1735,1645,-10
+2000-02-05,Friendly,played,Chile,CHL,Guatemala,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1735,1526,1722,1539,-13
+2000-02-09,Friendly,played,Chile,CHL,Australia,AUS,TRUE,2,1,win,Valparaíso,Chile,FALSE,1722,1746,1734,1734,12
+2000-02-12,Friendly,played,Chile,CHL,Bulgaria,BGR,TRUE,3,2,win,Valparaíso,Chile,FALSE,1734,1677,1743,1668,9
+2000-02-15,Friendly,played,Chile,CHL,Slovakia,SVK,TRUE,0,2,loss,Valparaíso,Chile,FALSE,1743,1664,1710,1697,-33
+2000-03-22,Friendly,played,Chile,CHL,Honduras,HND,TRUE,5,2,win,Santiago,Chile,FALSE,1710,1694,1722,1682,12
+2000-03-29,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,1,4,loss,Buenos Aires,Argentina,FALSE,1722,1940,1712,1950,-10
+2000-04-26,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,1,1,draw,Santiago,Chile,FALSE,1712,1754,1709,1757,-3
+2000-06-03,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1709,1732,1696,1745,-13
+2000-06-29,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,3,1,win,Santiago,Chile,FALSE,1696,1804,1727,1773,31
+2000-07-19,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,0,1,loss,La Paz,Bolivia,FALSE,1727,1563,1703,1587,-24
+2000-07-25,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,2,0,win,San Cristóbal,Venezuela,FALSE,1703,1422,1719,1406,16
+2000-08-15,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,TRUE,3,0,win,Santiago,Chile,FALSE,1719,2065,1775,2009,56
+2000-09-02,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,0,1,loss,Santiago,Chile,FALSE,1775,1786,1750,1811,-25
+2000-10-08,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,0,1,loss,Quito,Ecuador,FALSE,1750,1661,1731,1680,-19
+2000-11-15,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,0,2,loss,Santiago,Chile,FALSE,1731,1974,1713,1992,-18
+2001-01-15,Millennium Cup,played,Chile,CHL,Bahrain,,TRUE,2,0,win,Calcutta,India,TRUE,,,,,
+2001-01-17,Millennium Cup,played,Chile,CHL,Uzbekistan,,TRUE,2,0,win,Calcutta,India,TRUE,,,,,
+2001-01-20,Millennium Cup,played,Chile,CHL,Iceland,ISL,TRUE,2,0,win,Calcutta,India,TRUE,,,,,
+2001-01-22,Millennium Cup,played,Chile,CHL,Bosnia and Herzegovina,BIH,FALSE,0,1,loss,Calcutta,India,TRUE,,,,,
+2001-03-21,Friendly,played,Chile,CHL,Honduras,HND,FALSE,1,3,loss,San Pedro Sula,Honduras,FALSE,1713,1712,1702,1723,-11
+2001-03-27,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,1,3,loss,Lima,Peru,FALSE,1702,1672,1678,1696,-24
+2001-04-11,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,0,1,loss,Monterrey,Mexico,FALSE,1678,1784,1673,1789,-5
+2001-04-24,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,0,1,loss,Santiago,Chile,FALSE,1673,1750,1652,1771,-21
+2001-06-02,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1652,1859,1646,1865,-6
+2001-07-11,Copa América,played,Chile,CHL,Ecuador,ECU,FALSE,4,1,win,Barranquilla,Colombia,TRUE,1646,1776,1705,1717,59
+2001-07-14,Copa América,played,Chile,CHL,Venezuela,,TRUE,1,0,win,Barranquilla,Colombia,TRUE,1705,1414,1713,1406,8
+2001-07-17,Copa América,played,Chile,CHL,Colombia,COL,FALSE,0,2,loss,Barranquilla,Colombia,FALSE,1713,1803,1694,1822,-19
+2001-07-22,Copa América,played,Chile,CHL,Mexico,MEX,TRUE,0,2,loss,Pereira,Colombia,TRUE,1694,1703,1657,1740,-37
+2001-08-14,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,2,2,draw,Santiago,Chile,FALSE,1657,1529,1645,1541,-12
+2001-09-01,Friendly,played,Chile,CHL,France,FRA,TRUE,2,1,win,Santiago,Chile,FALSE,1645,2133,1663,2115,18
+2001-09-04,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,0,2,loss,Santiago,Chile,FALSE,1663,1441,1611,1493,-52
+2001-10-07,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,FALSE,0,2,loss,Curitiba,Brazil,FALSE,1611,1867,1604,1874,-7
+2001-11-07,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,1,3,loss,Bogotá,Colombia,FALSE,1604,1832,1596,1840,-8
+2001-11-14,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,0,0,draw,Santiago,Chile,FALSE,1596,1738,1598,1736,2
+2001-12-28,Friendly,played,Chile,CHL,Catalonia,,FALSE,0,1,loss,Barcelona,Spain,FALSE,,,,,
+2002-04-17,Friendly,played,Chile,CHL,Turkey,TUR,FALSE,0,2,loss,Kerkrade,Netherlands,TRUE,1598,1781,1590,1789,-8
+2002-12-10,Friendly,played,Chile,CHL,Palestine,,TRUE,3,1,win,Independencia,Chile,FALSE,,,,,
+2002-12-27,Friendly,played,Chile,CHL,Andalusia,,FALSE,2,3,loss,Málaga,Spain,FALSE,,,,,
+2003-03-30,Friendly,played,Chile,CHL,Peru,PER,TRUE,2,0,win,Santiago,Chile,FALSE,1590,1633,1603,1620,13
+2003-04-02,Friendly,played,Chile,CHL,Peru,PER,FALSE,0,3,loss,Lima,Peru,FALSE,1603,1620,1591,1632,-12
+2003-04-30,Friendly,played,Chile,CHL,Costa Rica,CRI,TRUE,1,0,win,Santiago,Chile,FALSE,1591,1780,1604,1767,13
+2003-06-08,Friendly,played,Chile,CHL,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1604,1767,1600,1771,-4
+2003-06-11,Friendly,played,Chile,CHL,Honduras,HND,FALSE,2,1,win,San Pedro Sula,Honduras,FALSE,1600,1693,1615,1678,15
+2003-08-20,Friendly,played,Chile,CHL,China PR,,FALSE,0,0,draw,Tianjin,China PR,FALSE,,,,,
+2003-09-06,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,2,2,draw,Buenos Aires,Argentina,FALSE,1618,2035,1636,2017,18
+2003-09-09,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Santiago,Chile,FALSE,1636,1687,1653,1670,17
+2003-11-15,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1653,1841,1647,1847,-6
+2003-11-18,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,0,1,loss,Santiago,Chile,FALSE,1647,1773,1628,1792,-19
+2004-02-18,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,1,1,draw,Carson,United States,TRUE,1628,1850,1634,1844,6
+2004-03-30,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,2,0,win,La Paz,Bolivia,FALSE,1634,1588,1669,1553,35
+2004-04-28,Friendly,played,Chile,CHL,Peru,PER,TRUE,1,1,draw,Antofagasta,Chile,FALSE,1669,1651,1666,1654,-3
+2004-06-01,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,1,0,win,San Cristóbal,Venezuela,FALSE,1666,1701,1693,1674,27
+2004-06-06,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,TRUE,1,1,draw,Santiago,Chile,FALSE,1693,2016,1704,2005,11
+2004-07-08,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,0,1,loss,Arequipa,Peru,TRUE,1704,2005,1696,2013,-8
+2004-07-11,Copa América,played,Chile,CHL,Paraguay,PRY,FALSE,1,1,draw,Arequipa,Peru,TRUE,1696,1803,1703,1796,7
+2004-07-14,Copa América,played,Chile,CHL,Costa Rica,CRI,FALSE,1,2,loss,Tacna,Peru,TRUE,1703,1674,1676,1701,-27
+2004-09-05,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,0,0,draw,Santiago,Chile,FALSE,1676,1786,1677,1785,1
+2004-10-10,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,0,2,loss,Quito,Ecuador,FALSE,1677,1666,1655,1688,-22
+2004-10-13,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,0,0,draw,Santiago,Chile,FALSE,1655,2041,1669,2027,14
+2004-11-17,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1669,1668,1655,1682,-14
+2005-02-09,Friendly,played,Chile,CHL,Ecuador,ECU,TRUE,3,0,win,Viña del Mar,Chile,FALSE,1655,1678,1669,1664,14
+2005-03-26,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,1,1,draw,Santiago,Chile,FALSE,1669,1818,1672,1815,3
+2005-03-30,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1672,1743,1661,1754,-11
+2005-06-04,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,3,1,win,Santiago,Chile,FALSE,1661,1609,1679,1591,18
+2005-06-08,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,2,1,win,Santiago,Chile,FALSE,1679,1608,1690,1597,11
+2005-08-17,Friendly,played,Chile,CHL,Peru,PER,FALSE,1,3,loss,Tacna,Peru,FALSE,1690,1671,1678,1683,-12
+2005-09-04,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,FALSE,0,5,loss,Brasília,Brazil,FALSE,1678,2032,1673,2037,-5
+2005-10-08,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,1,1,draw,Barranquilla,Colombia,FALSE,1673,1744,1682,1735,9
+2005-10-12,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,0,0,draw,Santiago,Chile,FALSE,1682,1773,1681,1774,-1
+2006-04-25,Friendly,played,Chile,CHL,New Zealand,NZL,TRUE,4,1,win,Rancagua,Chile,FALSE,1681,1518,1687,1512,6
+2006-04-27,Friendly,played,Chile,CHL,New Zealand,NZL,TRUE,1,0,win,La Calera,Chile,FALSE,1687,1512,1690,1509,3
+2006-05-24,Friendly,played,Chile,CHL,Republic of Ireland,IRL,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+2006-05-30,Friendly,played,Chile,CHL,Ivory Coast,CIV,TRUE,1,1,draw,Vittel,France,TRUE,1706,1756,1707,1755,1
+2006-06-02,Friendly,played,Chile,CHL,Sweden,SWE,FALSE,1,1,draw,Solna,Sweden,FALSE,1707,1865,1713,1859,6
+2006-08-16,Friendly,played,Chile,CHL,Colombia,COL,TRUE,1,2,loss,Santiago,Chile,FALSE,1713,1779,1702,1790,-11
+2006-10-07,Copa del Pacífico,played,Chile,CHL,Peru,PER,TRUE,3,2,win,Viña del Mar,Chile,FALSE,1702,1643,1711,1634,9
+2006-10-11,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,1,0,win,Tacna,Peru,FALSE,1711,1634,1727,1618,16
+2006-11-15,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,3,2,win,Viña del Mar,Chile,FALSE,1727,1769,1735,1761,8
+2007-02-07,Friendly,played,Chile,CHL,Venezuela,,FALSE,1,0,win,Maracaibo,Venezuela,FALSE,1735,1648,1745,1638,10
+2007-03-24,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,0,4,loss,Gothenburg,Sweden,TRUE,1745,2058,1740,2063,-5
+2007-03-28,Friendly,played,Chile,CHL,Costa Rica,CRI,TRUE,1,1,draw,Talca,Chile,FALSE,1740,1671,1735,1676,-5
+2007-04-18,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,0,0,draw,Mendoza,Argentina,FALSE,1735,1995,1743,1987,8
+2007-05-09,Friendly,played,Chile,CHL,Cuba,CUB,TRUE,3,0,win,Osorno,Chile,FALSE,1743,1538,1748,1533,5
+2007-05-16,Friendly,played,Chile,CHL,Cuba,CUB,TRUE,2,0,win,Temuco,Chile,FALSE,1748,1533,1752,1529,4
+2007-05-23,Friendly,played,Chile,CHL,Haiti,HTI,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1752,1584,1750,1586,-2
+2007-06-02,Friendly,played,Chile,CHL,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1750,1676,1736,1690,-14
+2007-06-05,Friendly,played,Chile,CHL,Jamaica,JAM,FALSE,1,0,win,Kingston,Jamaica,FALSE,1736,1597,1745,1588,9
+2007-06-27,Copa América,played,Chile,CHL,Ecuador,ECU,FALSE,3,2,win,Puerto Ordaz,Venezuela,TRUE,1745,1739,1770,1714,25
+2007-07-01,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,0,3,loss,Maturín,Venezuela,TRUE,1770,1999,1752,2017,-18
+2007-07-04,Copa América,played,Chile,CHL,Mexico,MEX,FALSE,0,0,draw,Puerto la Cruz,Venezuela,TRUE,1752,1886,1761,1877,9
+2007-07-07,Copa América,played,Chile,CHL,Brazil,BRA,TRUE,1,6,loss,Puerto la Cruz,Venezuela,TRUE,1761,2024,1743,2042,-18
+2007-09-07,Friendly,played,Chile,CHL,Switzerland,CHE,FALSE,1,2,loss,Vienna,Austria,TRUE,1743,1842,1732,1853,-11
+2007-09-11,Friendly,played,Chile,CHL,Austria,AUT,FALSE,2,0,win,Vienna,Austria,FALSE,1732,1618,1754,1596,22
+2007-10-13,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1754,2018,1747,2025,-7
+2007-10-17,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,2,0,win,Santiago,Chile,FALSE,1747,1661,1762,1646,15
+2007-11-18,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,2,2,draw,Montevideo,Uruguay,FALSE,1762,1808,1770,1800,8
+2007-11-21,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,0,3,loss,Santiago,Chile,FALSE,1770,1802,1728,1844,-42
+2008-01-26,Friendly,played,Chile,CHL,Japan,JPN,FALSE,0,0,draw,Tokyo,Japan,FALSE,1728,1778,1732,1774,4
+2008-01-30,Friendly,played,Chile,CHL,South Korea,KOR,FALSE,1,0,win,Seoul,South Korea,FALSE,1732,1666,1743,1655,11
+2008-03-26,Friendly,played,Chile,CHL,Israel,ISR,FALSE,0,1,loss,Ramat Gan,Israel,FALSE,1743,1756,1736,1763,-7
+2008-06-04,Friendly,played,Chile,CHL,Guatemala,,TRUE,2,0,win,Rancagua,Chile,FALSE,1736,1500,1740,1496,4
+2008-06-07,Friendly,played,Chile,CHL,Panama,PAN,TRUE,0,0,draw,Valparaíso,Chile,FALSE,1740,1578,1734,1584,-6
+2008-06-15,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,2,0,win,La Paz,Bolivia,FALSE,1734,1580,1759,1555,25
+2008-06-19,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,3,2,win,Puerto la Cruz,Venezuela,FALSE,1759,1691,1781,1669,22
+2008-08-20,Friendly,played,Chile,CHL,Turkey,TUR,FALSE,0,1,loss,İzmit,Turkey,FALSE,1781,1832,1775,1838,-6
+2008-09-07,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,TRUE,0,3,loss,Santiago,Chile,FALSE,1775,2010,1753,2032,-22
+2008-09-10,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,4,0,win,Santiago,Chile,FALSE,1753,1774,1782,1745,29
+2008-09-24,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,1,0,win,Los Angeles,United States,TRUE,1782,1908,1795,1895,13
+2008-10-12,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,0,1,loss,Quito,Ecuador,FALSE,1795,1733,1777,1751,-18
+2008-10-15,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,1,0,win,Santiago,Chile,FALSE,1777,1995,1804,1968,27
+2008-11-19,Friendly,played,Chile,CHL,Spain,ESP,FALSE,0,3,loss,Vila-real,Spain,FALSE,1804,2097,1801,2100,-3
+2009-01-18,Friendly,played,Chile,CHL,Honduras,HND,FALSE,0,2,loss,Fort Lauderdale,United States,TRUE,1801,1723,1783,1741,-18
+2009-02-11,Friendly,played,Chile,CHL,South Africa,ZAF,FALSE,2,0,win,Polokwane,South Africa,FALSE,1783,1538,1792,1529,9
+2009-03-29,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,3,1,win,Lima,Peru,FALSE,1792,1591,1814,1569,22
+2009-04-01,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,0,0,draw,Santiago,Chile,FALSE,1814,1860,1811,1863,-3
+2009-05-27,Kirin Cup,played,Chile,CHL,Japan,JPN,FALSE,0,4,loss,Osaka,Japan,FALSE,1811,1757,1787,1781,-24
+2009-05-29,Kirin Cup,played,Chile,CHL,Belgium,BEL,FALSE,1,1,draw,Chiba,Japan,TRUE,1787,1584,1779,1592,-8
+2009-06-06,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,2,0,win,Asunción,Paraguay,FALSE,1779,1835,1822,1792,43
+2009-06-10,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,4,0,win,Santiago,Chile,FALSE,1822,1630,1834,1618,12
+2009-08-12,Friendly,played,Chile,CHL,Denmark,DNK,FALSE,2,1,win,Brøndby,Denmark,FALSE,1834,1860,1847,1847,13
+2009-09-05,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,2,2,draw,Santiago,Chile,FALSE,1847,1700,1835,1712,-12
+2009-09-09,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,FALSE,2,4,loss,Salvador,Brazil,FALSE,1835,2143,1830,2148,-5
+2009-10-10,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,4,2,win,Medellín,Colombia,FALSE,1830,1744,1861,1713,31
+2009-10-14,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,1,0,win,Santiago,Chile,FALSE,1861,1730,1869,1722,8
+2009-11-04,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,2,1,win,Talcahuano,Chile,FALSE,1869,1781,1874,1776,5
+2009-11-17,Friendly,played,Chile,CHL,Slovakia,SVK,FALSE,2,1,win,Žilina,Slovakia,FALSE,1874,1671,1881,1664,7
+2010-01-20,Friendly,played,Chile,CHL,Panama,PAN,TRUE,2,1,win,Coquimbo,Chile,FALSE,1881,1550,1883,1548,2
+2010-03-31,Friendly,played,Chile,CHL,Venezuela,,TRUE,0,0,draw,Temuco,Chile,FALSE,1883,1707,1876,1714,-7
+2010-05-05,Friendly,played,Chile,CHL,Trinidad and Tobago,TTO,TRUE,2,0,win,Iquique,Chile,FALSE,1876,1538,1878,1536,2
+2010-05-16,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1878,1890,1871,1897,-7
+2010-05-26,Friendly,played,Chile,CHL,Zambia,,TRUE,3,0,win,Calama,Chile,FALSE,1871,1559,1874,1556,3
+2010-05-30,Friendly,played,Chile,CHL,Northern Ireland,NIR,TRUE,1,0,win,Chillán,Chile,FALSE,1874,1561,1876,1559,2
+2010-05-30,Friendly,played,Chile,CHL,Israel,ISR,TRUE,3,0,win,Concepción,Chile,FALSE,1876,1726,1883,1719,7
+2010-06-16,FIFA World Cup,played,Chile,CHL,Honduras,HND,FALSE,1,0,win,Nelspruit,South Africa,TRUE,1886,1714,1902,1698,16
+2010-06-21,FIFA World Cup,played,Chile,CHL,Switzerland,CHE,TRUE,1,0,win,Port Elizabeth,South Africa,TRUE,1902,1814,1925,1791,23
+2010-06-25,FIFA World Cup,played,Chile,CHL,Spain,ESP,TRUE,1,2,loss,Pretoria,South Africa,TRUE,1925,2068,1907,2086,-18
+2010-06-28,FIFA World Cup,played,Chile,CHL,Brazil,BRA,FALSE,0,3,loss,Johannesburg,South Africa,TRUE,1907,2103,1881,2129,-26
+2010-09-07,Friendly,played,Chile,CHL,Ukraine,UKR,FALSE,1,2,loss,Kyiv,Ukraine,FALSE,1881,1810,1872,1819,-9
+2010-10-09,Friendly,played,Chile,CHL,United Arab Emirates,ARE,FALSE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1872,1453,1876,1449,4
+2010-10-12,Friendly,played,Chile,CHL,Oman,,FALSE,1,0,win,Muscat,Oman,FALSE,1876,1562,1881,1557,5
+2010-11-17,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,2,0,win,Santiago,Chile,FALSE,1881,1903,1893,1891,12
+2011-01-22,Friendly,played,Chile,CHL,United States,USA,FALSE,1,1,draw,Carson,United States,FALSE,1893,1766,1892,1767,-1
+2011-03-26,Friendly,played,Chile,CHL,Portugal,PRT,FALSE,1,1,draw,Leiria,Portugal,FALSE,1892,1891,1895,1888,3
+2011-03-29,Friendly,played,Chile,CHL,Colombia,COL,FALSE,2,0,win,The Hague,Netherlands,TRUE,1895,1776,1905,1766,10
+2011-06-19,Friendly,played,Chile,CHL,Estonia,,TRUE,4,0,win,Santiago,Chile,FALSE,1905,1456,1907,1454,2
+2011-06-23,Friendly,played,Chile,CHL,Paraguay,PRY,FALSE,0,0,draw,Asunción,Paraguay,FALSE,1907,1789,1906,1790,-1
+2011-07-04,Copa América,played,Chile,CHL,Mexico,MEX,TRUE,2,1,win,San Juan,Argentina,TRUE,1906,1952,1934,1924,28
+2011-07-08,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,1,1,draw,Mendoza,Argentina,TRUE,1934,1865,1929,1870,-5
+2011-07-12,Copa América,played,Chile,CHL,Peru,PER,TRUE,1,0,win,Mendoza,Argentina,TRUE,1929,1707,1940,1696,11
+2011-07-17,Copa América,played,Chile,CHL,Venezuela,,TRUE,1,2,loss,San Juan,Argentina,TRUE,1940,1767,1903,1804,-37
+2011-08-10,Friendly,played,Chile,CHL,France,FRA,FALSE,1,1,draw,Montpellier,France,FALSE,1903,1843,1904,1842,1
+2011-09-02,Friendly,played,Chile,CHL,Spain,ESP,FALSE,2,3,loss,St. Gallen,Switzerland,TRUE,1904,2120,1900,2124,-4
+2011-09-04,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,0,1,loss,Barcelona,Spain,TRUE,1900,1854,1889,1865,-11
+2011-10-07,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,1,4,loss,Buenos Aires,Argentina,FALSE,1889,1919,1867,1941,-22
+2011-10-11,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,4,2,win,Santiago,Chile,FALSE,1867,1792,1883,1776,16
+2011-11-11,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,0,4,loss,Montevideo,Uruguay,FALSE,1883,1962,1863,1982,-20
+2011-11-15,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,2,0,win,Santiago,Chile,FALSE,1863,1805,1880,1788,17
+2011-12-21,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,3,2,win,La Serena,Chile,FALSE,1880,1788,1885,1783,5
+2012-02-15,Friendly,played,Chile,CHL,Paraguay,PRY,FALSE,0,2,loss,Luque,Paraguay,FALSE,1885,1783,1870,1798,-15
+2012-02-29,Friendly,played,Chile,CHL,Ghana,GHA,TRUE,1,1,draw,Chester,United States,TRUE,1870,1691,1865,1696,-5
+2012-03-21,Copa del Pacífico,played,Chile,CHL,Peru,PER,TRUE,3,1,win,Arica,Chile,FALSE,1865,1751,1875,1741,10
+2012-04-11,Copa del Pacífico,played,Chile,CHL,Peru,PER,FALSE,3,0,win,Tacna,Peru,FALSE,1875,1741,1899,1717,24
+2012-06-02,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,2,0,win,La Paz,Bolivia,FALSE,1899,1539,1910,1528,11
+2012-06-09,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,2,0,win,Puerto la Cruz,Venezuela,FALSE,1910,1715,1932,1693,22
+2012-08-15,Friendly,played,Chile,CHL,Ecuador,ECU,FALSE,0,3,loss,New York,United States,TRUE,1932,1786,1908,1810,-24
+2012-09-11,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,1,3,loss,Santiago,Chile,FALSE,1908,1839,1864,1883,-44
+2012-10-12,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,1,3,loss,Quito,Ecuador,FALSE,1864,1826,1839,1851,-25
+2012-10-16,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,1,2,loss,Santiago,Chile,FALSE,1839,1991,1822,2008,-17
+2012-11-14,Friendly,played,Chile,CHL,Serbia,SRB,FALSE,1,3,loss,St. Gallen,Switzerland,TRUE,1822,1662,1801,1683,-21
+2013-01-19,Friendly,played,Chile,CHL,Haiti,HTI,TRUE,3,0,win,Concepción,Chile,FALSE,1801,1460,1804,1457,3
+2013-02-06,Friendly,played,Chile,CHL,Egypt,EGY,TRUE,2,1,win,Madrid,Spain,TRUE,1804,1636,1810,1630,6
+2013-03-22,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1810,1717,1790,1737,-20
+2013-03-26,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,2,0,win,Santiago,Chile,FALSE,1790,1839,1816,1813,26
+2013-04-24,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,2,2,draw,Belo Horizonte,Brazil,FALSE,1816,2048,1823,2041,7
+2013-06-07,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,2,1,win,Asunción,Paraguay,FALSE,1823,1721,1843,1701,20
+2013-06-11,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,3,1,win,Santiago,Chile,FALSE,1843,1631,1852,1622,9
+2013-08-14,Friendly,played,Chile,CHL,Iraq,IRQ,TRUE,6,0,win,Brøndby,Denmark,TRUE,1852,1552,1858,1546,6
+2013-09-06,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,3,0,win,Santiago,Chile,FALSE,1858,1706,1871,1693,13
+2013-09-10,Friendly,played,Chile,CHL,Spain,ESP,FALSE,2,2,draw,Geneva,Switzerland,TRUE,1871,2125,1877,2119,6
+2013-10-11,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,3,3,draw,Barranquilla,Colombia,FALSE,1877,1902,1884,1895,7
+2013-10-15,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,2,1,win,Santiago,Chile,FALSE,1884,1848,1897,1835,13
+2013-11-15,Friendly,played,Chile,CHL,England,ENG,FALSE,2,0,win,London,England,FALSE,1897,1964,1919,1942,22
+2013-11-19,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,1,2,loss,Toronto,Canada,TRUE,1919,2127,1914,2132,-5
+2014-01-22,Friendly,played,Chile,CHL,Costa Rica,CRI,TRUE,4,0,win,Coquimbo,Chile,FALSE,1914,1734,1920,1728,6
+2014-03-05,Friendly,played,Chile,CHL,Germany,DEU,FALSE,0,1,loss,Stuttgart,Germany,FALSE,1920,2086,1916,2090,-4
+2014-06-13,FIFA World Cup,played,Chile,CHL,Australia,AUS,TRUE,3,1,win,Cuiabá,Brazil,TRUE,1920,1708,1941,1687,21
+2014-06-18,FIFA World Cup,played,Chile,CHL,Spain,ESP,FALSE,2,0,win,Rio de Janeiro,Brazil,TRUE,1941,2032,1998,1975,57
+2014-06-23,FIFA World Cup,played,Chile,CHL,Netherlands,NLD,FALSE,0,2,loss,São Paulo,Brazil,TRUE,1998,2066,1962,2102,-36
+2014-06-28,FIFA World Cup,played,Chile,CHL,Brazil,BRA,FALSE,1,1,draw,Belo Horizonte,Brazil,FALSE,1962,2122,1981,2103,19
+2014-09-06,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,0,0,draw,Santa Clara,United States,TRUE,1981,1882,1978,1885,-3
+2014-09-09,Friendly,played,Chile,CHL,Haiti,HTI,FALSE,1,0,win,Fort Lauderdale,United States,TRUE,1978,1431,1979,1430,1
+2014-10-10,Friendly,played,Chile,CHL,Peru,PER,TRUE,3,0,win,Valparaiso,Chile,FALSE,1979,1734,1983,1730,4
+2014-11-18,Friendly,played,Chile,CHL,Uruguay,URY,TRUE,1,2,loss,Santiago,Chile,FALSE,1978,1892,1963,1907,-15
+2015-01-28,Friendly,played,Chile,CHL,United States,USA,TRUE,3,2,win,Rancagua,Chile,FALSE,1963,1812,1967,1808,4
+2015-03-26,Friendly,played,Chile,CHL,Iran,IRN,TRUE,0,2,loss,Sankt Pölten,Austria,TRUE,1967,1724,1943,1748,-24
+2015-03-29,Friendly,played,Chile,CHL,Brazil,BRA,FALSE,0,1,loss,London,England,TRUE,1943,2057,1936,2064,-7
+2015-06-11,Copa América,played,Chile,CHL,Ecuador,ECU,TRUE,2,0,win,Santiago,Chile,FALSE,1937,1842,1955,1824,18
+2015-06-15,Copa América,played,Chile,CHL,Mexico,MEX,TRUE,3,3,draw,Santiago,Chile,FALSE,1955,1870,1943,1882,-12
+2015-06-19,Copa América,played,Chile,CHL,Bolivia,BOL,TRUE,5,0,win,Santiago,Chile,FALSE,1943,1677,1954,1666,11
+2015-06-24,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,1,0,win,Santiago,Chile,FALSE,1954,1889,1968,1875,14
+2015-06-29,Copa América,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Santiago,Chile,FALSE,1968,1784,1976,1776,8
+2015-07-04,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,0,0,draw,Santiago,Chile,FALSE,1976,2068,1975,2069,-1
+2015-09-05,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,3,2,win,Santiago,Chile,FALSE,1975,1697,1977,1695,2
+2015-10-08,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,TRUE,2,0,win,Santiago,Chile,FALSE,1977,2047,2004,2020,27
+2015-10-13,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,4,3,win,Lima,Peru,FALSE,2004,1797,2018,1783,14
+2015-11-12,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,1,1,draw,Santiago,Chile,FALSE,2018,1970,2010,1978,-8
+2015-11-17,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,2010,1911,1975,1946,-35
+2016-03-24,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,1,2,loss,Santiago,Chile,FALSE,1975,2023,1952,2046,-23
+2016-03-29,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,4,1,win,Barinas,Venezuela,FALSE,1952,1626,1967,1611,15
+2016-06-06,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,2,loss,Santa Clara,United States,TRUE,1937,2050,1920,2067,-17
+2016-06-10,Copa América,played,Chile,CHL,Bolivia,BOL,TRUE,2,1,win,Foxborough,United States,TRUE,1920,1584,1926,1578,6
+2016-06-14,Copa América,played,Chile,CHL,Panama,PAN,TRUE,4,2,win,Philadelphia,United States,TRUE,1926,1685,1941,1670,15
+2016-06-18,Copa América,played,Chile,CHL,Mexico,MEX,FALSE,7,0,win,Santa Clara,United States,TRUE,1941,1967,2001,1907,60
+2016-06-22,Copa América,played,Chile,CHL,Colombia,COL,FALSE,2,0,win,Chicago,United States,TRUE,2001,1963,2034,1930,33
+2016-06-26,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,0,0,draw,East Rutherford,United States,TRUE,2034,2115,2040,2109,6
+2016-09-01,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,2040,1724,2009,1755,-31
+2016-09-06,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,3,0,win,Santiago,Chile,FALSE,,,,,
+2016-10-06,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,0,3,loss,Quito,Ecuador,FALSE,1991,1811,1948,1854,-43
+2016-10-11,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Santiago,Chile,FALSE,1948,1823,1957,1814,9
+2016-11-10,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,0,0,draw,Barranquilla,Colombia,FALSE,1957,1952,1962,1947,5
+2016-11-15,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,3,1,win,Santiago,Chile,FALSE,1962,1933,1981,1914,19
+2017-01-11,Friendly,played,Chile,CHL,Croatia,HRV,TRUE,1,1,draw,Nanning,China PR,TRUE,1981,1886,1977,1890,-4
+2017-01-15,Friendly,played,Chile,CHL,Iceland,ISL,FALSE,1,0,win,Nanning,China PR,TRUE,1977,1779,1984,1772,7
+2017-03-23,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1984,2045,1973,2056,-11
+2017-03-28,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,3,1,win,Santiago,Chile,FALSE,1973,1686,1979,1680,6
+2017-06-02,Friendly,played,Chile,CHL,Burkina Faso,,TRUE,3,0,win,Santiago,Chile,FALSE,1979,1604,1981,1602,2
+2017-06-09,Friendly,played,Chile,CHL,Russia,RUS,FALSE,1,1,draw,Moscow,Russia,FALSE,1981,1695,1976,1700,-5
+2017-06-13,Friendly,played,Chile,CHL,Romania,ROU,FALSE,2,3,loss,Cluj,Romania,FALSE,1976,1667,1961,1682,-15
+2017-06-18,Confederations Cup,played,Chile,CHL,Cameroon,CMR,FALSE,2,0,win,Moscow,Russia,TRUE,1961,1685,1974,1672,13
+2017-06-22,Confederations Cup,played,Chile,CHL,Germany,DEU,FALSE,1,1,draw,Kazan,Russia,TRUE,1974,2047,1979,2042,5
+2017-06-25,Confederations Cup,played,Chile,CHL,Australia,AUS,TRUE,1,1,draw,Moscow,Russia,TRUE,1979,1707,1963,1723,-16
+2017-06-28,Confederations Cup,played,Chile,CHL,Portugal,PRT,FALSE,0,0,draw,Kazan,Russia,TRUE,1963,1953,1962,1954,-1
+2017-07-02,Confederations Cup,played,Chile,CHL,Germany,DEU,TRUE,0,1,loss,Saint Petersburg,Russia,TRUE,1962,2081,1945,2098,-17
+2017-08-31,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,0,3,loss,Santiago,Chile,FALSE,1945,1707,1884,1768,-61
+2017-09-05,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,0,1,loss,La Paz,Bolivia,FALSE,1884,1678,1858,1704,-26
+2017-10-05,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,2,1,win,Santiago,Chile,FALSE,1858,1777,1868,1767,10
+2017-10-10,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,FALSE,0,3,loss,São Paulo,Brazil,FALSE,1868,2103,1859,2112,-9
+2018-03-24,Friendly,played,Chile,CHL,Sweden,SWE,FALSE,2,1,win,Solna,Sweden,FALSE,1859,1816,1871,1804,12
+2018-03-27,Friendly,played,Chile,CHL,Denmark,DNK,FALSE,0,0,draw,Aalborg,Denmark,FALSE,1871,1843,1873,1841,2
+2018-05-31,Friendly,played,Chile,CHL,Romania,ROU,FALSE,2,3,loss,Graz,Austria,TRUE,1873,1705,1859,1719,-14
+2018-06-04,Friendly,played,Chile,CHL,Serbia,SRB,FALSE,1,0,win,Graz,Austria,TRUE,1859,1782,1867,1774,8
+2018-06-08,Friendly,played,Chile,CHL,Poland,POL,FALSE,2,2,draw,Poznań,Poland,FALSE,1867,1830,1869,1828,2
+2018-09-11,Friendly,played,Chile,CHL,South Korea,KOR,FALSE,0,0,draw,Suwon,South Korea,FALSE,1869,1766,1869,1766,0
+2018-10-12,Friendly,played,Chile,CHL,Peru,PER,FALSE,0,3,loss,Miami Gardens,United States,TRUE,1869,1879,1852,1896,-17
+2018-10-16,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,1,0,win,Querétaro,Mexico,FALSE,1852,1812,1864,1800,12
+2018-11-16,Friendly,played,Chile,CHL,Costa Rica,CRI,TRUE,2,3,loss,Rancagua,Chile,FALSE,1864,1691,1847,1708,-17
+2018-11-20,Friendly,played,Chile,CHL,Honduras,HND,TRUE,4,1,win,Temuco,Chile,FALSE,1847,1595,1851,1591,4
+2019-03-22,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,1,3,loss,San Diego,United States,TRUE,1851,1779,1833,1797,-18
+2019-03-26,Friendly,played,Chile,CHL,United States,USA,FALSE,1,1,draw,Houston,United States,FALSE,1833,1766,1834,1765,1
+2019-06-06,Friendly,played,Chile,CHL,Haiti,HTI,TRUE,2,1,win,Coquimbo,Chile,FALSE,1834,1509,1836,1507,2
+2019-06-17,Copa América,played,Chile,CHL,Japan,JPN,FALSE,4,0,win,São Paulo,Brazil,TRUE,1836,1772,1874,1734,38
+2019-06-21,Copa América,played,Chile,CHL,Ecuador,ECU,FALSE,2,1,win,Salvador,Brazil,TRUE,1874,1728,1889,1713,15
+2019-06-24,Copa América,played,Chile,CHL,Uruguay,URY,TRUE,0,1,loss,Rio de Janeiro,Brazil,TRUE,1889,1944,1868,1965,-21
+2019-06-28,Copa América,played,Chile,CHL,Colombia,COL,FALSE,0,0,draw,São Paulo,Brazil,TRUE,1868,2022,1878,2012,10
+2019-07-03,Copa América,played,Chile,CHL,Peru,PER,TRUE,0,3,loss,Porto Alegre,Brazil,TRUE,1878,1836,1829,1885,-49
+2019-07-06,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,2,loss,São Paulo,Brazil,TRUE,1829,1911,1810,1930,-19
+2019-09-05,Friendly,played,Chile,CHL,Argentina,ARG,FALSE,0,0,draw,Los Angeles,United States,TRUE,1810,1930,1813,1927,3
+2019-09-10,Friendly,played,Chile,CHL,Honduras,HND,FALSE,1,2,loss,San Pedro Sula,Honduras,FALSE,1813,1587,1800,1600,-13
+2019-10-12,Friendly,played,Chile,CHL,Colombia,COL,FALSE,0,0,draw,Alicante,Spain,TRUE,1800,2009,1805,2004,5
+2019-10-15,Friendly,played,Chile,CHL,Guinea,,TRUE,3,2,win,Alicante,Spain,TRUE,1805,1403,1807,1401,2
+2020-10-08,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1807,1966,1800,1973,-7
+2020-10-13,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,2,2,draw,Santiago,Chile,FALSE,1800,1998,1805,1993,5
+2020-11-13,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,2,0,win,Santiago,Chile,FALSE,1805,1843,1830,1818,25
+2020-11-17,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,1,2,loss,Caracas,Venezuela,FALSE,1830,1785,1813,1802,-17
+2021-03-26,Friendly,played,Chile,CHL,Bolivia,BOL,TRUE,2,1,win,Rancagua,Chile,FALSE,1813,1583,1816,1580,3
+2021-06-03,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,1,1,draw,Santiago del Estero,Argentina,FALSE,1816,1994,1829,1981,13
+2021-06-08,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,1,1,draw,Santiago,Chile,FALSE,1829,1618,1815,1632,-14
+2021-06-14,Copa América,played,Chile,CHL,Argentina,ARG,FALSE,1,1,draw,Rio de Janeiro,Brazil,TRUE,1815,1984,1826,1973,11
+2021-06-18,Copa América,played,Chile,CHL,Bolivia,BOL,TRUE,1,0,win,Cuiabá,Brazil,TRUE,1826,1609,1837,1598,11
+2021-06-21,Copa América,played,Chile,CHL,Uruguay,URY,FALSE,1,1,draw,Cuiabá,Brazil,TRUE,1837,1914,1842,1909,5
+2021-06-24,Copa América,played,Chile,CHL,Paraguay,PRY,TRUE,0,2,loss,Brasília,Brazil,TRUE,1842,1782,1798,1826,-44
+2021-07-02,Copa América,played,Chile,CHL,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1798,2145,1794,2149,-4
+2021-09-02,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,TRUE,0,1,loss,Santiago,Chile,FALSE,1794,2114,1785,2123,-9
+2021-09-05,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,0,0,draw,Quito,Ecuador,FALSE,1785,1807,1792,1800,7
+2021-09-09,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,1,3,loss,Barranquilla,Colombia,FALSE,1792,1911,1779,1924,-13
+2021-10-07,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1779,1816,1760,1835,-19
+2021-10-10,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,2,0,win,Santiago,Chile,FALSE,1760,1809,1786,1783,26
+2021-10-14,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,3,0,win,Santiago,Chile,FALSE,1786,1727,1806,1707,20
+2021-11-11,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,1,0,win,Asunción,Paraguay,FALSE,1806,1737,1828,1715,22
+2021-11-16,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,0,2,loss,Santiago,Chile,FALSE,1828,1818,1789,1857,-39
+2021-12-08,Friendly,played,Chile,CHL,Mexico,MEX,FALSE,2,2,draw,Austin,United States,TRUE,1789,1840,1790,1839,1
+2021-12-11,Friendly,played,Chile,CHL,El Salvador,SLV,FALSE,1,0,win,Los Angeles,United States,TRUE,1790,1501,1793,1498,3
+2022-01-27,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,1,2,loss,Calama,Chile,FALSE,1793,2101,1784,2110,-9
+2022-02-01,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,3,2,win,La Paz,Bolivia,FALSE,1784,1669,1803,1650,19
+2022-03-24,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,FALSE,0,4,loss,Rio de Janeiro,Brazil,FALSE,1803,2142,1797,2148,-6
+2022-03-29,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,0,2,loss,Santiago,Chile,FALSE,1797,1892,1767,1922,-30
+2022-06-06,Friendly,played,Chile,CHL,South Korea,KOR,FALSE,0,2,loss,Daejeon,South Korea,FALSE,1767,1794,1757,1804,-10
+2022-06-10,Kirin Cup,played,Chile,CHL,Tunisia,TUN,TRUE,0,2,loss,Kobe,Japan,TRUE,1757,1611,1726,1642,-31
+2022-06-14,Kirin Cup,played,Chile,CHL,Ghana,GHA,TRUE,0,0,draw,Suita,Japan,TRUE,1726,1527,1718,1535,-8
+2022-09-23,Friendly,played,Chile,CHL,Morocco,MAR,FALSE,0,2,loss,Barcelona,Spain,TRUE,1718,1737,1704,1751,-14
+2022-09-27,Friendly,played,Chile,CHL,Qatar,QAT,FALSE,2,2,draw,Vienna,Austria,TRUE,1704,1648,1702,1650,-2
+2022-11-16,Friendly,played,Chile,CHL,Poland,POL,FALSE,0,1,loss,Warsaw,Poland,FALSE,1702,1808,1697,1813,-5
+2022-11-20,Friendly,played,Chile,CHL,Slovakia,SVK,FALSE,0,0,draw,Bratislava,Slovakia,FALSE,1697,1578,1696,1579,-1
+2023-03-27,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,3,2,win,Santiago,Chile,FALSE,1696,1727,1704,1719,8
+2023-06-11,Friendly,played,Chile,CHL,Cuba,CUB,TRUE,3,0,win,Concepción,Chile,FALSE,1704,1344,1706,1342,2
+2023-06-16,Friendly,played,Chile,CHL,Dominican Republic,,TRUE,5,0,win,Viña del Mar,Chile,FALSE,1706,1201,1707,1200,1
+2023-06-20,Friendly,played,Chile,CHL,Bolivia,BOL,FALSE,0,0,draw,Santa Cruz,Bolivia,FALSE,1707,1614,1707,1614,0
+2023-09-08,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,FALSE,1,3,loss,Montevideo,Uruguay,FALSE,1707,1916,1698,1925,-9
+2023-09-12,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,TRUE,0,0,draw,Santiago,Chile,FALSE,1698,1956,1707,1947,9
+2023-10-12,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,TRUE,2,0,win,Santiago,Chile,FALSE,1707,1830,1739,1798,32
+2023-10-17,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,FALSE,0,3,loss,Maturín,Venezuela,FALSE,1739,1729,1713,1755,-26
+2023-11-16,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,TRUE,0,0,draw,Santiago,Chile,FALSE,1713,1712,1707,1718,-6
+2023-11-21,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,FALSE,0,1,loss,Quito,Ecuador,FALSE,1707,1876,1700,1883,-7
+2024-03-22,Friendly,played,Chile,CHL,Albania,,FALSE,3,0,win,Parma,Italy,TRUE,1700,1631,1714,1617,14
+2024-03-26,Friendly,played,Chile,CHL,France,FRA,FALSE,2,3,loss,Marseille,France,FALSE,1714,2084,1713,2085,-1
+2024-06-11,Friendly,played,Chile,CHL,Paraguay,PRY,TRUE,3,0,win,Santiago,Chile,FALSE,1713,1710,1725,1698,12
+2024-06-21,Copa América,played,Chile,CHL,Peru,PER,FALSE,0,0,draw,Arlington,United States,TRUE,1725,1744,1726,1743,1
+2024-06-25,Copa América,played,Chile,CHL,Argentina,ARG,TRUE,0,1,loss,East Rutherford,United States,TRUE,1726,2151,1722,2155,-4
+2024-06-29,Copa América,played,Chile,CHL,Canada,CAN,FALSE,0,0,draw,Orlando,United States,TRUE,1722,1741,1723,1740,1
+2024-09-05,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1723,2169,1720,2172,-3
+2024-09-10,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,TRUE,1,2,loss,Santiago,Chile,FALSE,1720,1605,1689,1636,-31
+2024-10-10,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,TRUE,1,2,loss,Santiago,Chile,FALSE,1689,1996,1680,2005,-9
+2024-10-15,FIFA World Cup qualification,played,Chile,CHL,Colombia,COL,FALSE,0,4,loss,Barranquilla,Colombia,FALSE,1680,2025,1675,2030,-5
+2024-11-15,FIFA World Cup qualification,played,Chile,CHL,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1675,1734,1684,1725,9
+2024-11-19,FIFA World Cup qualification,played,Chile,CHL,Venezuela,,TRUE,4,2,win,Santiago,Chile,FALSE,1684,1773,1713,1744,29
+2025-02-08,Friendly,played,Chile,CHL,Panama,PAN,TRUE,6,1,win,Santiago,Chile,FALSE,1713,1726,1728,1711,15
+2025-03-20,FIFA World Cup qualification,played,Chile,CHL,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1728,1775,1716,1787,-12
+2025-03-25,FIFA World Cup qualification,played,Chile,CHL,Ecuador,ECU,TRUE,0,0,draw,Santiago,Chile,FALSE,1716,1917,1722,1911,6
+2025-06-05,FIFA World Cup qualification,played,Chile,CHL,Argentina,ARG,TRUE,0,1,loss,Santiago,Chile,FALSE,1722,2141,1717,2146,-5
+2025-06-10,FIFA World Cup qualification,played,Chile,CHL,Bolivia,BOL,FALSE,0,2,loss,El Alto,Bolivia,FALSE,1717,1636,1689,1664,-28
+2025-09-04,FIFA World Cup qualification,played,Chile,CHL,Brazil,BRA,FALSE,0,3,loss,Rio de Janeiro,Brazil,FALSE,1689,2001,1683,2007,-6
+2025-09-09,FIFA World Cup qualification,played,Chile,CHL,Uruguay,URY,TRUE,0,0,draw,Santiago,Chile,FALSE,1683,1914,1690,1907,7
+2025-10-10,Friendly,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Santiago,Chile,FALSE,1690,1711,1698,1703,8
+2025-11-15,Friendly,played,Chile,CHL,Russia,RUS,FALSE,2,0,win,Sochi,Russia,FALSE,1698,1805,1721,1782,23
+2025-11-18,Friendly,played,Chile,CHL,Peru,PER,TRUE,2,1,win,Sochi,Russia,TRUE,1721,1708,1731,1698,10
+2026-03-27,FIFA Series,played,Chile,CHL,Cape Verde,,TRUE,4,2,win,Auckland,New Zealand,TRUE,1731,1561,1743,1549,12
+2026-03-30,FIFA Series,played,Chile,CHL,New Zealand,NZL,FALSE,1,4,loss,Auckland,New Zealand,FALSE,1743,1552,1710,1585,-33

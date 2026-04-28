@@ -24,7 +24,7 @@ import world_cup_simulation as simulation
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORLD_CUP_ROOT = ROOT / "INT-World Cup" / "world_cup"
+WORLD_CUP_ROOT = simulation.WORLD_CUP_ROOT
 SUBJECT_ORDER = (
     "Overall Strength",
     "Attack",

@@ -1,0 +1,65 @@
+match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
+1,2014-06-12,Group Stage,played,Brazil,Croatia,BRA,HRV,2138,1818,São Paulo,Brazil,FALSE
+2,2014-06-13,Group Stage,played,Chile,Australia,CHL,AUS,1920,1708,Cuiabá,Brazil,TRUE
+3,2014-06-13,Group Stage,played,Mexico,Cameroon,MEX,CMR,1814,1606,Natal,Brazil,TRUE
+4,2014-06-13,Group Stage,played,Spain,Netherlands,ESP,NLD,2107,1985,Salvador,Brazil,TRUE
+5,2014-06-14,Group Stage,played,Colombia,Greece,COL,GRC,1922,1823,Belo Horizonte,Brazil,TRUE
+6,2014-06-14,Group Stage,played,England,Italy,ENG,ITA,1931,1887,Manaus,Brazil,TRUE
+7,2014-06-14,Group Stage,played,Ivory Coast,Japan,CIV,JPN,1772,1785,Recife,Brazil,TRUE
+8,2014-06-14,Group Stage,played,Uruguay,Costa Rica,URY,CRI,1918,1711,Fortaleza,Brazil,TRUE
+9,2014-06-15,Group Stage,played,Argentina,Bosnia and Herzegovina,ARG,BIH,2018,1785,Rio de Janeiro,Brazil,TRUE
+10,2014-06-15,Group Stage,played,France,Honduras,FRA,HND,1897,1669,Porto Alegre,Brazil,TRUE
+11,2014-06-15,Group Stage,played,Switzerland,Ecuador,CHE,ECU,1854,1836,Brasília,Brazil,TRUE
+12,2014-06-16,Group Stage,played,Germany,Portugal,DEU,PRT,2073,1942,Salvador,Brazil,TRUE
+13,2014-06-16,Group Stage,played,Ghana,United States,GHA,USA,1704,1856,Natal,Brazil,TRUE
+14,2014-06-16,Group Stage,played,Iran,Nigeria,IRN,NGA,1715,1727,Curitiba,Brazil,TRUE
+15,2014-06-17,Group Stage,played,Belgium,Algeria,BEL,DZA,1852,1625,Belo Horizonte,Brazil,TRUE
+16,2014-06-17,Group Stage,played,Brazil,Mexico,BRA,MEX,2145,1828,Fortaleza,Brazil,FALSE
+17,2014-06-17,Group Stage,played,Russia,South Korea,RUS,KOR,1848,1667,Cuiabá,Brazil,TRUE
+18,2014-06-18,Group Stage,played,Australia,Netherlands,AUS,NLD,1687,2060,Curitiba,Brazil,TRUE
+19,2014-06-18,Group Stage,played,Cameroon,Croatia,CMR,HRV,1592,1811,Manaus,Brazil,TRUE
+20,2014-06-18,Group Stage,played,Spain,Chile,ESP,CHL,2032,1941,Rio de Janeiro,Brazil,TRUE
+21,2014-06-19,Group Stage,played,Colombia,Ivory Coast,COL,CIV,1960,1803,Brasília,Brazil,TRUE
+22,2014-06-19,Group Stage,played,Japan,Greece,JPN,GRC,1754,1785,Natal,Brazil,TRUE
+23,2014-06-19,Group Stage,played,Uruguay,England,URY,ENG,1849,1897,São Paulo,Brazil,TRUE
+24,2014-06-20,Group Stage,played,Honduras,Ecuador,HND,ECU,1647,1808,Curitiba,Brazil,TRUE
+25,2014-06-20,Group Stage,played,Italy,Costa Rica,ITA,CRI,1921,1780,Recife,Brazil,TRUE
+26,2014-06-20,Group Stage,played,Switzerland,France,CHE,FRA,1882,1919,Salvador,Brazil,TRUE
+27,2014-06-21,Group Stage,played,Argentina,Iran,ARG,IRN,2030,1716,Belo Horizonte,Brazil,TRUE
+28,2014-06-21,Group Stage,played,Germany,Ghana,DEU,GHA,2109,1686,Fortaleza,Brazil,TRUE
+29,2014-06-21,Group Stage,played,Nigeria,Bosnia and Herzegovina,NGA,BIH,1726,1773,Cuiabá,Brazil,TRUE
+30,2014-06-22,Group Stage,played,Belgium,Russia,BEL,RUS,1865,1834,Rio de Janeiro,Brazil,TRUE
+31,2014-06-22,Group Stage,played,South Korea,Algeria,KOR,DZA,1681,1612,Porto Alegre,Brazil,TRUE
+32,2014-06-22,Group Stage,played,United States,Portugal,USA,PRT,1874,1906,Manaus,Brazil,TRUE
+33,2014-06-23,Group Stage,played,Australia,Spain,AUS,ESP,1681,1975,Curitiba,Brazil,TRUE
+34,2014-06-23,Group Stage,played,Brazil,Cameroon,BRA,CMR,2120,1567,Brasília,Brazil,FALSE
+35,2014-06-23,Group Stage,played,Croatia,Mexico,HRV,MEX,1836,1853,Recife,Brazil,TRUE
+36,2014-06-23,Group Stage,played,Netherlands,Chile,NLD,CHL,2066,1998,São Paulo,Brazil,TRUE
+37,2014-06-24,Group Stage,played,Costa Rica,England,CRI,ENG,1822,1863,Belo Horizonte,Brazil,TRUE
+38,2014-06-24,Group Stage,played,Greece,Ivory Coast,GRC,CIV,1782,1786,Fortaleza,Brazil,TRUE
+39,2014-06-24,Group Stage,played,Italy,Uruguay,ITA,URY,1879,1883,Natal,Brazil,TRUE
+40,2014-06-24,Group Stage,played,Japan,Colombia,JPN,COL,1757,1977,Cuiabá,Brazil,TRUE
+41,2014-06-25,Group Stage,played,Bosnia and Herzegovina,Iran,BIH,IRN,1739,1708,Salvador,Brazil,TRUE
+42,2014-06-25,Group Stage,played,Ecuador,France,ECU,FRA,1825,1966,Rio de Janeiro,Brazil,TRUE
+43,2014-06-25,Group Stage,played,Honduras,Switzerland,HND,CHE,1630,1835,Manaus,Brazil,TRUE
+44,2014-06-25,Group Stage,played,Nigeria,Argentina,NGA,ARG,1760,2038,Porto Alegre,Brazil,TRUE
+45,2014-06-26,Group Stage,played,Algeria,Russia,DZA,RUS,1666,1807,Curitiba,Brazil,TRUE
+46,2014-06-26,Group Stage,played,South Korea,Belgium,KOR,BEL,1627,1892,São Paulo,Brazil,TRUE
+47,2014-06-26,Group Stage,played,Portugal,Ghana,PRT,GHA,1903,1711,Brasília,Brazil,TRUE
+48,2014-06-26,Group Stage,played,United States,Germany,USA,DEU,1877,2084,Recife,Brazil,TRUE
+49,2014-06-28,Round of 16,played,Brazil,Chile,BRA,CHL,2122,1962,Belo Horizonte,Brazil,FALSE
+50,2014-06-28,Round of 16,played,Colombia,Uruguay,COL,URY,2000,1913,Rio de Janeiro,Brazil,TRUE
+51,2014-06-29,Round of 16,played,Costa Rica,Greece,CRI,GRC,1826,1812,Recife,Brazil,TRUE
+52,2014-06-29,Round of 16,played,Netherlands,Mexico,NLD,MEX,2102,1896,Fortaleza,Brazil,TRUE
+53,2014-06-30,Round of 16,played,France,Nigeria,FRA,NGA,1954,1750,Brasília,Brazil,TRUE
+54,2014-06-30,Round of 16,played,Germany,Algeria,DEU,DZA,2098,1678,Porto Alegre,Brazil,TRUE
+55,2014-07-01,Round of 16,played,Argentina,Switzerland,ARG,CHE,2048,1860,São Paulo,Brazil,TRUE
+56,2014-07-01,Round of 16,played,Belgium,United States,BEL,USA,1903,1863,Salvador,Brazil,TRUE
+57,2014-07-04,Quarter-final,played,Brazil,Colombia,BRA,COL,2103,2034,Fortaleza,Brazil,FALSE
+58,2014-07-04,Quarter-final,played,France,Germany,FRA,DEU,1975,2103,Rio de Janeiro,Brazil,TRUE
+59,2014-07-05,Quarter-final,played,Argentina,Belgium,ARG,BEL,2063,1930,Brasília,Brazil,TRUE
+60,2014-07-05,Quarter-final,played,Netherlands,Costa Rica,NLD,CRI,2116,1825,Salvador,Brazil,TRUE
+61,2014-07-08,Semi-final,played,Brazil,Germany,BRA,DEU,2119,2122,Belo Horizonte,Brazil,FALSE
+62,2014-07-09,Semi-final,played,Netherlands,Argentina,NLD,ARG,2095,2082,São Paulo,Brazil,TRUE
+63,2014-07-12,Third Place,played,Brazil,Netherlands,BRA,NLD,2038,2094,Brasília,Brazil,FALSE
+64,2014-07-13,Final,played,Germany,Argentina,DEU,ARG,2203,2083,Rio de Janeiro,Brazil,TRUE

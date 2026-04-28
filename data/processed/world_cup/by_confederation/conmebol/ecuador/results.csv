@@ -1,0 +1,590 @@
+date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+1938-08-08,Bolivarian Games,played,Ecuador,ECU,Bolivia,BOL,FALSE,1,1,draw,Bogotá,Colombia,TRUE,1300,1244,1297,1247,-3
+1938-08-10,Bolivarian Games,played,Ecuador,ECU,Colombia,COL,FALSE,2,1,win,Bogotá,Colombia,FALSE,1297,1391,1327,1361,30
+1938-08-11,Bolivarian Games,played,Ecuador,ECU,Peru,PER,TRUE,1,9,loss,Bogotá,Colombia,TRUE,1327,1612,1312,1627,-15
+1938-08-19,Bolivarian Games,played,Ecuador,ECU,Venezuela,,TRUE,5,2,win,Bogotá,Colombia,TRUE,1312,1246,1340,1218,28
+1938-08-22,Bolivarian Games,played,Ecuador,ECU,Bolivia,BOL,FALSE,1,2,loss,Bogotá,Colombia,TRUE,1340,1304,1318,1326,-22
+1939-01-15,Copa América,played,Ecuador,ECU,Peru,PER,FALSE,2,5,loss,Lima,Peru,FALSE,1318,1639,1311,1646,-7
+1939-01-22,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,0,6,loss,Lima,Peru,TRUE,1311,1841,1306,1846,-5
+1939-02-05,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,1,4,loss,Lima,Peru,TRUE,1306,1572,1290,1588,-16
+1939-02-12,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,1,3,loss,Lima,Peru,TRUE,1290,1702,1284,1708,-6
+1941-02-02,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,0,5,loss,Santiago,Chile,FALSE,1284,1591,1275,1600,-9
+1941-02-09,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,0,6,loss,Santiago,Chile,TRUE,1275,1901,1272,1904,-3
+1941-02-16,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,1,6,loss,Santiago,Chile,TRUE,1272,2087,1271,2088,-1
+1941-02-23,Copa América,played,Ecuador,ECU,Peru,PER,TRUE,0,4,loss,Santiago,Chile,TRUE,1271,1714,1264,1721,-7
+1942-01-18,Copa América,played,Ecuador,ECU,Uruguay,URY,FALSE,0,7,loss,Montevideo,Uruguay,FALSE,1264,1937,1263,1938,-1
+1942-01-22,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,0,12,loss,Montevideo,Uruguay,TRUE,1263,2122,1262,2123,-1
+1942-01-25,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,1,3,loss,Montevideo,Uruguay,TRUE,1262,1715,1257,1720,-5
+1942-01-28,Copa América,played,Ecuador,ECU,Peru,PER,TRUE,1,2,loss,Montevideo,Uruguay,TRUE,1257,1682,1253,1686,-4
+1942-01-31,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,1,5,loss,Montevideo,Uruguay,TRUE,1253,1882,1251,1884,-2
+1942-02-05,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,1,2,loss,Montevideo,Uruguay,TRUE,1251,1577,1244,1584,-7
+1945-01-14,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,3,6,loss,Santiago,Chile,FALSE,1244,1591,1238,1597,-6
+1945-01-24,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,1,5,loss,Santiago,Chile,TRUE,1238,1943,1236,1945,-2
+1945-01-31,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,2,4,loss,Santiago,Chile,TRUE,1236,2089,1235,2090,-1
+1945-02-11,Copa América,played,Ecuador,ECU,Bolivia,BOL,FALSE,0,0,draw,Santiago,Chile,TRUE,1235,1312,1240,1307,5
+1945-02-18,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,1,3,loss,Santiago,Chile,TRUE,1240,1330,1212,1358,-28
+1945-02-21,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,2,9,loss,Santiago,Chile,TRUE,1212,1937,1210,1939,-2
+1947-11-30,Copa América,played,Ecuador,ECU,Bolivia,BOL,TRUE,2,2,draw,Guayaquil,Ecuador,FALSE,1210,1286,1208,1288,-2
+1947-12-04,Copa América,played,Ecuador,ECU,Colombia,COL,TRUE,0,0,draw,Guayaquil,Ecuador,FALSE,1208,1485,1220,1473,12
+1947-12-11,Copa América,played,Ecuador,ECU,Chile,CHL,TRUE,0,3,loss,Guayaquil,Ecuador,FALSE,1220,1669,1210,1679,-10
+1947-12-16,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,1,6,loss,Guayaquil,Ecuador,FALSE,1210,1815,1205,1820,-5
+1947-12-20,Copa América,played,Ecuador,ECU,Peru,PER,TRUE,0,0,draw,Guayaquil,Ecuador,FALSE,1205,1645,1224,1626,19
+1947-12-25,Copa América,played,Ecuador,ECU,Argentina,ARG,TRUE,0,2,loss,Guayaquil,Ecuador,FALSE,1224,2082,1223,2083,-1
+1947-12-29,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,0,4,loss,Guayaquil,Ecuador,FALSE,,,,,
+1949-04-03,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,1,9,loss,Rio de Janeiro,Brazil,FALSE,1218,1949,1217,1950,-1
+1949-04-10,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,0,1,loss,Rio de Janeiro,Brazil,TRUE,1217,1848,1216,1849,-1
+1949-04-13,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,2,3,loss,Rio de Janeiro,Brazil,TRUE,1216,1869,1215,1870,-1
+1949-04-17,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,0,1,loss,São Paulo,Brazil,TRUE,1215,1652,1211,1656,-4
+1949-04-20,Copa América,played,Ecuador,ECU,Peru,PER,TRUE,0,4,loss,Rio de Janeiro,Brazil,TRUE,1211,1645,1204,1652,-7
+1949-04-25,Copa América,played,Ecuador,ECU,Bolivia,BOL,FALSE,0,2,loss,São Paulo,Brazil,TRUE,1204,1371,1183,1392,-21
+1949-05-03,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,4,1,win,Rio de Janeiro,Brazil,TRUE,1183,1419,1253,1349,70
+1953-02-28,Copa América,played,Ecuador,ECU,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1253,1716,1251,1718,-2
+1953-03-04,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,0,0,draw,Lima,Peru,TRUE,1251,1881,1275,1857,24
+1953-03-08,Copa América,played,Ecuador,ECU,Bolivia,BOL,FALSE,1,1,draw,Lima,Peru,TRUE,1275,1458,1287,1446,12
+1953-03-12,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,0,2,loss,Lima,Peru,TRUE,1287,2061,1286,2062,-1
+1953-03-19,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,0,3,loss,Lima,Peru,TRUE,1286,1754,1280,1760,-6
+1953-03-23,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,0,6,loss,Lima,Peru,TRUE,1280,1820,1275,1825,-5
+1955-02-27,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,1,7,loss,Santiago,Chile,FALSE,1275,1650,1269,1656,-6
+1955-03-09,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,0,4,loss,Santiago,Chile,TRUE,1269,2090,1268,2091,-1
+1955-03-13,Copa América,played,Ecuador,ECU,Peru,PER,TRUE,2,4,loss,Santiago,Chile,TRUE,1268,1707,1262,1713,-6
+1955-03-16,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,0,2,loss,Santiago,Chile,TRUE,1262,1872,1260,1874,-2
+1955-03-23,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,1,5,loss,Santiago,Chile,TRUE,1260,1962,1258,1964,-2
+1957-03-07,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,2,5,loss,Lima,Peru,TRUE,1258,1934,1256,1936,-2
+1957-03-10,Copa América,played,Ecuador,ECU,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1256,1730,1254,1732,-2
+1957-03-17,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,0,3,loss,Lima,Peru,TRUE,1254,2097,1253,2098,-1
+1957-03-21,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,1,7,loss,Lima,Peru,TRUE,1253,2039,1252,2040,-1
+1957-03-24,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,2,2,draw,Lima,Peru,TRUE,1252,1746,1274,1724,22
+1957-04-01,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,1,4,loss,Lima,Peru,TRUE,1274,1341,1239,1376,-35
+1959-12-06,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,0,4,loss,Guayaquil,Ecuador,FALSE,1239,1807,1233,1813,-6
+1959-12-12,Copa América,played,Ecuador,ECU,Argentina,ARG,TRUE,1,1,draw,Guayaquil,Ecuador,FALSE,1233,1995,1257,1971,24
+1959-12-19,Copa América,played,Ecuador,ECU,Brazil,BRA,TRUE,1,3,loss,Guayaquil,Ecuador,FALSE,1257,2089,1256,2090,-1
+1959-12-25,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,3,1,win,Guayaquil,Ecuador,FALSE,1256,1789,1325,1720,69
+1959-12-27,Friendly,played,Ecuador,ECU,Brazil,BRA,TRUE,1,2,loss,Guayaquil,Ecuador,FALSE,1325,2025,1324,2026,-1
+1960-12-04,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,3,6,loss,Guayaquil,Ecuador,FALSE,1324,2013,1322,2015,-2
+1960-12-17,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,0,5,loss,Buenos Aires,Argentina,FALSE,1322,2015,1321,2016,-1
+1963-03-10,Copa América,played,Ecuador,ECU,Bolivia,BOL,FALSE,4,4,draw,La Paz,Bolivia,FALSE,1321,1555,1340,1536,19
+1963-03-14,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,1,3,loss,La Paz,Bolivia,TRUE,1340,1661,1330,1671,-10
+1963-03-17,Copa América,played,Ecuador,ECU,Peru,PER,TRUE,1,2,loss,La Paz,Bolivia,TRUE,1330,1723,1325,1728,-5
+1963-03-20,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,2,4,loss,Cochabamba,Bolivia,TRUE,1325,1921,1323,1923,-2
+1963-03-27,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,2,2,draw,Cochabamba,Bolivia,TRUE,1323,2053,1347,2029,24
+1963-03-31,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,4,3,win,La Paz,Bolivia,TRUE,1347,1449,1379,1417,32
+1965-07-20,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,1,0,win,Barranquilla,Colombia,FALSE,1379,1431,1407,1403,28
+1965-07-25,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,2,0,win,Guayaquil,Ecuador,FALSE,1407,1403,1428,1382,21
+1965-08-15,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,2,2,draw,Guayaquil,Ecuador,FALSE,1428,1776,1440,1764,12
+1965-08-22,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,1,3,loss,Santiago,Chile,FALSE,1440,1764,1435,1769,-5
+1965-10-12,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,1,2,loss,Lima,Peru,TRUE,1435,1769,1430,1774,-5
+1966-12-21,Copa América qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,2,2,draw,Guayaquil,Ecuador,FALSE,1430,1757,1441,1746,11
+1966-12-28,Copa América qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,3,loss,Asunción,Paraguay,FALSE,1441,1746,1436,1751,-5
+1969-06-22,Friendly,played,Ecuador,ECU,Colombia,COL,TRUE,4,1,win,Guayaquil,Ecuador,FALSE,1436,1431,1448,1419,12
+1969-07-06,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,0,2,loss,Guayaquil,Ecuador,FALSE,1448,1831,1438,1841,-10
+1969-07-20,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1438,1844,1436,1846,-2
+1969-07-27,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,1,4,loss,Santiago,Chile,FALSE,1436,1793,1431,1798,-5
+1969-08-03,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,1,1,draw,Guayaquil,Ecuador,FALSE,1431,1798,1444,1785,13
+1970-04-29,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,2,4,loss,León,Mexico,FALSE,,,,,
+1970-05-24,Friendly,played,Ecuador,ECU,England,ENG,TRUE,0,2,loss,Quito,Ecuador,FALSE,1444,2069,1443,2070,-1
+1972-06-11,Brazil Independence Cup,played,Ecuador,ECU,Portugal,PRT,TRUE,0,3,loss,Natal,Brazil,TRUE,1443,1802,1435,1810,-8
+1972-06-14,Brazil Independence Cup,played,Ecuador,ECU,Chile,CHL,FALSE,1,2,loss,Natal,Brazil,TRUE,1435,1727,1429,1733,-6
+1972-06-18,Brazil Independence Cup,played,Ecuador,ECU,Republic of Ireland,IRL,TRUE,2,3,loss,Natal,Brazil,TRUE,,,,,
+1972-06-21,Brazil Independence Cup,played,Ecuador,ECU,Iran,IRN,TRUE,1,1,draw,Recife,Brazil,TRUE,1417,1687,1430,1674,13
+1973-02-18,Friendly,played,Ecuador,ECU,German DR,DDR,TRUE,1,1,draw,Quito,Ecuador,FALSE,1430,1876,1438,1868,8
+1973-04-24,Friendly,played,Ecuador,ECU,Chile,CHL,TRUE,1,1,draw,Guayaquil,Ecuador,FALSE,1438,1715,1443,1710,5
+1973-04-29,Friendly,played,Ecuador,ECU,Bolivia,BOL,FALSE,3,3,draw,La Paz,Bolivia,FALSE,1443,1558,1449,1552,6
+1973-05-06,Friendly,played,Ecuador,ECU,Bolivia,BOL,TRUE,0,0,draw,Quito,Ecuador,FALSE,1449,1552,1449,1552,0
+1973-05-12,Friendly,played,Ecuador,ECU,Haiti,HTI,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1449,1611,1465,1595,16
+1973-05-15,Friendly,played,Ecuador,ECU,Haiti,HTI,FALSE,0,1,loss,Port-au-Prince,Haiti,FALSE,1465,1595,1461,1599,-4
+1973-06-21,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,1,1,draw,Bogotá,Colombia,FALSE,1461,1418,1464,1415,3
+1973-06-28,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,1,1,draw,Guayaquil,Ecuador,FALSE,1464,1428,1457,1435,-7
+1973-07-01,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,1,2,loss,Quito,Ecuador,FALSE,1457,1780,1448,1789,-9
+1973-07-08,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,0,4,loss,Montevideo,Uruguay,FALSE,1448,1752,1441,1759,-7
+1975-06-22,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,6,0,win,Quito,Ecuador,FALSE,1441,1665,1470,1636,29
+1975-06-25,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1470,1636,1482,1624,12
+1975-07-01,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1482,1624,1476,1630,-6
+1975-07-09,Friendly,played,Ecuador,ECU,Bolivia,BOL,FALSE,0,1,loss,Cochabamba,Bolivia,FALSE,1476,1517,1470,1523,-6
+1975-07-24,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,2,2,draw,Guayaquil,Ecuador,FALSE,1470,1716,1480,1706,10
+1975-07-27,Copa América,played,Ecuador,ECU,Colombia,COL,TRUE,1,3,loss,Quito,Ecuador,FALSE,1480,1506,1435,1551,-45
+1975-08-07,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,0,2,loss,Bogotá,Colombia,FALSE,1435,1592,1421,1606,-14
+1975-08-10,Copa América,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,3,loss,Asunción,Paraguay,FALSE,1421,1665,1412,1674,-9
+1976-10-20,Friendly,played,Ecuador,ECU,Uruguay,URY,TRUE,2,2,draw,Quito,Ecuador,FALSE,1412,1675,1416,1671,4
+1977-01-04,Friendly,played,Ecuador,ECU,Uruguay,URY,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1416,1670,1424,1662,8
+1977-01-09,Friendly,played,Ecuador,ECU,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1424,1696,1421,1699,-3
+1977-01-16,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,1,0,win,Bogotá,Colombia,FALSE,1421,1615,1438,1598,17
+1977-01-20,Friendly,played,Ecuador,ECU,Venezuela,,FALSE,0,1,loss,Acarigua,Venezuela,FALSE,1438,1353,1428,1363,-10
+1977-01-26,Friendly,played,Ecuador,ECU,Colombia,COL,TRUE,4,1,win,Quito,Ecuador,FALSE,1428,1598,1449,1577,21
+1977-02-13,Friendly,played,Ecuador,ECU,Paraguay,PRY,TRUE,2,1,win,Quito,Ecuador,FALSE,1449,1684,1463,1670,14
+1977-02-20,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,1,1,draw,Quito,Ecuador,FALSE,1463,1758,1473,1748,10
+1977-02-27,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,0,1,loss,Guayaquil,Ecuador,FALSE,1473,1646,1457,1662,-16
+1977-03-12,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,0,4,loss,Lima,Peru,FALSE,1457,1749,1450,1756,-7
+1977-03-20,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,0,3,loss,Santiago,Chile,FALSE,1450,1661,1440,1671,-10
+1979-06-13,Friendly,played,Ecuador,ECU,Chile,CHL,FALSE,0,0,draw,Santiago,Chile,FALSE,1440,1649,1447,1642,7
+1979-06-21,Friendly,played,Ecuador,ECU,Chile,CHL,TRUE,2,1,win,Guayaquil,Ecuador,FALSE,1447,1642,1460,1629,13
+1979-07-11,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1460,1809,1459,1810,-1
+1979-08-08,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,2,1,win,Quito,Ecuador,FALSE,1459,1800,1475,1784,16
+1979-08-29,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,1,2,loss,Quito,Ecuador,FALSE,1475,1705,1459,1721,-16
+1979-09-05,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,2,1,win,Quito,Ecuador,FALSE,1459,1668,1492,1635,33
+1979-09-13,Copa América,played,Ecuador,ECU,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1492,1721,1482,1731,-10
+1979-09-16,Copa América,played,Ecuador,ECU,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1482,1635,1473,1644,-9
+1981-01-27,Friendly,played,Ecuador,ECU,Bulgaria,BGR,TRUE,1,3,loss,Quito,Ecuador,FALSE,1473,1680,1462,1691,-11
+1981-02-14,Friendly,played,Ecuador,ECU,Brazil,BRA,TRUE,0,6,loss,Quito,Ecuador,FALSE,1462,2046,1460,2048,-2
+1981-05-17,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1460,1759,1490,1729,30
+1981-05-24,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,0,0,draw,Guayaquil,Ecuador,FALSE,1490,1715,1497,1708,7
+1981-05-31,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,3,loss,Asunción,Paraguay,FALSE,1497,1729,1489,1737,-8
+1981-06-14,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1489,1735,1482,1742,-7
+1983-07-26,Friendly,played,Ecuador,ECU,Colombia,COL,TRUE,0,0,draw,Quito,Ecuador,FALSE,1482,1586,1482,1586,0
+1983-07-29,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,0,0,draw,Bogotá,Colombia,FALSE,1482,1586,1487,1581,5
+1983-08-10,Copa América,played,Ecuador,ECU,Argentina,ARG,TRUE,2,2,draw,Quito,Ecuador,FALSE,1487,1908,1505,1890,18
+1983-08-17,Copa América,played,Ecuador,ECU,Brazil,BRA,TRUE,0,1,loss,Quito,Ecuador,FALSE,1505,2108,1502,2111,-3
+1983-09-01,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,0,5,loss,Goiânia,Brazil,FALSE,1502,2078,1500,2080,-2
+1983-09-07,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,2,2,draw,Buenos Aires,Argentina,FALSE,1500,1923,1523,1900,23
+1984-11-30,Friendly,played,Ecuador,ECU,United States,USA,FALSE,0,0,draw,Hempstead,United States,FALSE,1523,1588,1527,1584,4
+1984-12-02,Friendly,played,Ecuador,ECU,United States,USA,FALSE,2,2,draw,Miami,United States,FALSE,1527,1584,1531,1580,4
+1984-12-04,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,2,3,loss,Los Angeles,United States,TRUE,1531,1783,1527,1787,-4
+1984-12-07,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1527,1640,1532,1635,5
+1984-12-09,Friendly,played,Ecuador,ECU,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1532,1536,1525,1543,-7
+1984-12-12,Friendly,played,Ecuador,ECU,El Salvador,SLV,FALSE,0,0,draw,San Salvador,El Salvador,FALSE,1525,1495,1527,1493,2
+1985-02-06,Friendly,played,Ecuador,ECU,German DR,DDR,TRUE,2,3,loss,Guayaquil,Ecuador,FALSE,1527,1827,1522,1832,-5
+1985-02-10,Friendly,played,Ecuador,ECU,German DR,DDR,TRUE,3,2,win,Quito,Ecuador,FALSE,1522,1832,1537,1817,15
+1985-02-17,Friendly,played,Ecuador,ECU,Finland,,TRUE,3,1,win,Ambato,Ecuador,FALSE,1537,1488,1546,1479,9
+1985-02-21,Friendly,played,Ecuador,ECU,Bolivia,BOL,TRUE,3,0,win,Quito,Ecuador,FALSE,1546,1518,1557,1507,11
+1985-03-03,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,1,1,draw,Quito,Ecuador,FALSE,1557,1760,1563,1754,6
+1985-03-10,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1563,1930,1560,1933,-3
+1985-03-17,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,2,6,loss,Santiago,Chile,FALSE,1560,1755,1548,1767,-12
+1985-03-21,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1548,1671,1544,1675,-4
+1985-03-31,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,0,2,loss,Quito,Ecuador,FALSE,1544,1897,1533,1908,-11
+1987-03-31,Friendly,played,Ecuador,ECU,Cuba,CUB,TRUE,0,1,loss,Machala,Ecuador,FALSE,1527,1506,1514,1519,-13
+1987-04-02,Friendly,played,Ecuador,ECU,Cuba,CUB,TRUE,0,0,draw,Azogues,Ecuador,FALSE,1514,1519,1511,1522,-3
+1987-06-11,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,0,1,loss,Medellín,Colombia,FALSE,1511,1663,1507,1667,-4
+1987-06-14,Friendly,played,Ecuador,ECU,Colombia,COL,TRUE,3,0,win,Guayaquil,Ecuador,FALSE,1507,1667,1527,1647,20
+1987-06-19,Friendly,played,Ecuador,ECU,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1527,1778,1525,1780,-2
+1987-06-21,Friendly,played,Ecuador,ECU,Brazil,BRA,FALSE,1,4,loss,Florianópolis,Brazil,FALSE,1525,2027,1524,2028,-1
+1987-07-02,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1524,1979,1521,1982,-3
+1987-07-04,Copa América,played,Ecuador,ECU,Peru,PER,FALSE,1,1,draw,Buenos Aires,Argentina,TRUE,1521,1667,1531,1657,10
+1988-06-07,Friendly,played,Ecuador,ECU,United States,USA,FALSE,1,0,win,Albuquerque,United States,FALSE,1531,1605,1546,1590,15
+1988-06-10,Friendly,played,Ecuador,ECU,United States,USA,FALSE,2,0,win,Houston,United States,FALSE,1546,1590,1567,1569,21
+1988-06-12,Friendly,played,Ecuador,ECU,United States,USA,FALSE,0,0,draw,Fort Worth,United States,FALSE,1567,1569,1570,1566,3
+1988-06-15,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,1,1,draw,Tegucigalpa,Honduras,FALSE,1570,1604,1574,1600,4
+1988-06-17,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,1,0,win,Tegucigalpa,Honduras,FALSE,1574,1600,1587,1587,13
+1988-09-07,Friendly,played,Ecuador,ECU,Paraguay,PRY,TRUE,1,5,loss,Guayaquil,Ecuador,FALSE,1587,1743,1571,1759,-16
+1988-09-13,Friendly,played,Ecuador,ECU,Chile,CHL,FALSE,1,3,loss,La Serena,Chile,FALSE,1571,1834,1568,1837,-3
+1988-09-27,Friendly,played,Ecuador,ECU,Uruguay,URY,TRUE,1,2,loss,Asunción,Paraguay,TRUE,1568,1827,1562,1833,-6
+1988-09-29,Friendly,played,Ecuador,ECU,Chile,CHL,FALSE,0,0,draw,Asunción,Paraguay,TRUE,1562,1818,1571,1809,9
+1989-01-29,Friendly,played,Ecuador,ECU,Chile,CHL,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1571,1795,1584,1782,13
+1989-03-15,Friendly,played,Ecuador,ECU,Brazil,BRA,FALSE,0,1,loss,Cuiabá,Brazil,FALSE,1584,1996,1583,1997,-1
+1989-04-13,Friendly,played,Ecuador,ECU,Argentina,ARG,TRUE,2,2,draw,Guayaquil,Ecuador,FALSE,1583,1840,1587,1836,4
+1989-05-03,Friendly,played,Ecuador,ECU,Uruguay,URY,FALSE,1,3,loss,Montevideo,Uruguay,FALSE,1587,1859,1584,1862,-3
+1989-05-23,Friendly,played,Ecuador,ECU,Uruguay,URY,TRUE,1,1,draw,Quito,Ecuador,FALSE,1584,1862,1589,1857,5
+1989-06-20,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,1,2,loss,Port of Spain,Trinidad and Tobago,TRUE,1589,1607,1575,1621,-14
+1989-07-02,Copa América,played,Ecuador,ECU,Uruguay,URY,FALSE,1,0,win,Goiânia,Brazil,TRUE,1575,1847,1616,1806,41
+1989-07-04,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,0,0,draw,Goiânia,Brazil,TRUE,1616,1858,1631,1843,15
+1989-07-06,Copa América,played,Ecuador,ECU,Bolivia,BOL,TRUE,0,0,draw,Goiânia,Brazil,TRUE,1631,1486,1621,1496,-10
+1989-07-10,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,1,2,loss,Goiânia,Brazil,TRUE,1621,1741,1604,1758,-17
+1989-08-20,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,0,2,loss,Barranquilla,Colombia,FALSE,1604,1829,1596,1837,-8
+1989-09-03,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,0,0,draw,Guayaquil,Ecuador,FALSE,1596,1819,1603,1812,7
+1989-09-10,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1603,1788,1597,1794,-6
+1989-09-24,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,3,1,win,Guayaquil,Ecuador,FALSE,1597,1781,1634,1744,37
+1991-06-06,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1634,1533,1644,1523,10
+1991-06-19,Friendly,played,Ecuador,ECU,Chile,CHL,TRUE,2,1,win,Guayaquil,Ecuador,FALSE,1644,1802,1656,1790,12
+1991-06-25,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,2,2,draw,Guayaquil,Ecuador,FALSE,1656,1547,1651,1552,-5
+1991-06-30,Friendly,played,Ecuador,ECU,Chile,CHL,FALSE,1,3,loss,Santiago,Chile,FALSE,1651,1784,1645,1790,-6
+1991-07-07,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,0,1,loss,Valparaíso,Chile,TRUE,1645,1770,1629,1786,-16
+1991-07-09,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,1,1,draw,Viña del Mar,Chile,TRUE,1629,1824,1642,1811,13
+1991-07-13,Copa América,played,Ecuador,ECU,Bolivia,BOL,FALSE,4,0,win,Viña del Mar,Chile,TRUE,1642,1592,1682,1552,40
+1991-07-15,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,1,3,loss,Viña del Mar,Chile,TRUE,1682,1893,1665,1910,-17
+1992-05-24,Friendly,played,Ecuador,ECU,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1665,1452,1662,1455,-3
+1992-05-27,Friendly,played,Ecuador,ECU,Costa Rica,CRI,FALSE,1,2,loss,San José,Costa Rica,FALSE,1662,1595,1653,1604,-9
+1992-07-04,Friendly,played,Ecuador,ECU,Uruguay,URY,FALSE,1,3,loss,Montevideo,Uruguay,FALSE,1653,1860,1649,1864,-4
+1992-08-06,Friendly,played,Ecuador,ECU,Costa Rica,CRI,TRUE,1,1,draw,Guayaquil,Ecuador,FALSE,1649,1602,1645,1606,-4
+1992-11-24,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1645,1551,1645,1551,0
+1993-01-27,Friendly,played,Ecuador,ECU,Belarus,,TRUE,1,1,draw,Guayaquil,Ecuador,FALSE,1645,1400,1637,1408,-8
+1993-01-31,Friendly,played,Ecuador,ECU,Romania,ROU,TRUE,3,0,win,Guayaquil,Ecuador,FALSE,1637,1828,1659,1806,22
+1993-05-30,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,1,0,win,Quito,Ecuador,FALSE,1659,1540,1663,1536,4
+1993-06-09,Friendly,played,Ecuador,ECU,Chile,CHL,TRUE,1,2,loss,Quito,Ecuador,FALSE,1663,1763,1653,1773,-10
+1993-06-15,Copa América,played,Ecuador,ECU,Venezuela,,TRUE,6,1,win,Quito,Ecuador,FALSE,1653,1345,1662,1336,9
+1993-06-19,Copa América,played,Ecuador,ECU,United States,USA,TRUE,2,0,win,Quito,Ecuador,FALSE,1662,1644,1687,1619,25
+1993-06-22,Copa América,played,Ecuador,ECU,Uruguay,URY,TRUE,2,1,win,Quito,Ecuador,FALSE,1687,1840,1716,1811,29
+1993-06-26,Copa América,played,Ecuador,ECU,Paraguay,PRY,TRUE,3,0,win,Quito,Ecuador,FALSE,1716,1700,1746,1670,30
+1993-06-30,Copa América,played,Ecuador,ECU,Mexico,MEX,TRUE,0,2,loss,Quito,Ecuador,FALSE,1746,1850,1709,1887,-37
+1993-07-03,Copa América,played,Ecuador,ECU,Colombia,COL,TRUE,0,1,loss,Portoviejo,Ecuador,FALSE,1709,1824,1685,1848,-24
+1993-07-18,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,TRUE,0,0,draw,Guayaquil,Ecuador,FALSE,1685,1962,1694,1953,9
+1993-08-01,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1694,1827,1706,1815,12
+1993-08-08,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,5,0,win,Quito,Ecuador,FALSE,1706,1338,1711,1333,5
+1993-08-15,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,0,1,loss,La Paz,Bolivia,FALSE,1711,1710,1697,1724,-14
+1993-08-22,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,FALSE,0,2,loss,São Paulo,Brazil,FALSE,1697,1907,1688,1916,-9
+1993-09-05,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,0,1,loss,Guayaquil,Ecuador,FALSE,1688,1786,1668,1806,-20
+1993-09-12,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,1,2,loss,Puerto Ordaz,Venezuela,FALSE,1668,1324,1636,1356,-32
+1993-09-19,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,1,1,draw,Guayaquil,Ecuador,FALSE,1636,1705,1634,1707,-2
+1994-05-25,Friendly,played,Ecuador,ECU,Argentina,ARG,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1634,1921,1649,1906,15
+1994-06-05,Friendly,played,Ecuador,ECU,South Korea,KOR,TRUE,2,1,win,Wakefield,United States,TRUE,1649,1664,1659,1654,10
+1994-08-17,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1659,1542,1643,1558,-16
+1994-09-21,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,0,0,draw,Machala,Ecuador,FALSE,1643,1558,1638,1563,-5
+1995-05-24,Kirin Cup,played,Ecuador,ECU,Scotland,SCO,TRUE,1,2,loss,Toyama,Japan,TRUE,1638,1766,1628,1776,-10
+1995-05-28,Kirin Cup,played,Ecuador,ECU,Japan,JPN,FALSE,0,3,loss,Tokyo,Japan,FALSE,1628,1590,1606,1612,-22
+1995-06-04,Korea Cup,played,Ecuador,ECU,Zambia,,TRUE,4,1,win,Changwon,South Korea,TRUE,1606,1664,1637,1633,31
+1995-06-10,Korea Cup,played,Ecuador,ECU,Costa Rica,CRI,FALSE,2,1,win,Seoul,South Korea,TRUE,1637,1637,1652,1622,15
+1995-06-12,Korea Cup,played,Ecuador,ECU,Zambia,,TRUE,1,0,win,Seoul,South Korea,TRUE,1652,1653,1667,1638,15
+1995-06-30,Friendly,played,Ecuador,ECU,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1667,1721,1661,1727,-6
+1995-07-07,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,0,1,loss,Rivera,Uruguay,TRUE,1661,2091,1657,2095,-4
+1995-07-10,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,0,1,loss,Rivera,Uruguay,TRUE,1657,1891,1647,1901,-10
+1995-07-13,Copa América,played,Ecuador,ECU,Peru,PER,FALSE,2,1,win,Rivera,Uruguay,TRUE,1647,1606,1669,1584,22
+1995-10-25,Friendly,played,Ecuador,ECU,Bolivia,BOL,FALSE,2,2,draw,Santa Cruz,Bolivia,FALSE,1669,1674,1672,1671,3
+1996-02-02,Friendly,played,Ecuador,ECU,Venezuela,,FALSE,1,0,win,Caracas,Venezuela,FALSE,1672,1355,1676,1351,4
+1996-02-11,Friendly,played,Ecuador,ECU,Lebanon,,FALSE,0,1,loss,Bourj Hammoud,Lebanon,FALSE,1676,1308,1660,1324,-16
+1996-02-16,Friendly,played,Ecuador,ECU,Oman,,FALSE,2,0,win,Doha,Qatar,TRUE,1660,1290,1663,1287,3
+1996-02-18,Friendly,played,Ecuador,ECU,Qatar,QAT,FALSE,1,1,draw,Doha,Qatar,FALSE,1663,1424,1659,1428,-4
+1996-02-23,Friendly,played,Ecuador,ECU,Kuwait,KWT,FALSE,3,0,win,Kuwait City,Kuwait,FALSE,1659,1487,1668,1478,9
+1996-02-25,Friendly,played,Ecuador,ECU,Qatar,QAT,FALSE,2,1,win,Doha,Qatar,FALSE,1668,1428,1674,1422,6
+1996-04-24,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,4,1,win,Guayaquil,Ecuador,FALSE,1674,1554,1689,1539,15
+1996-06-02,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,2,0,win,Quito,Ecuador,FALSE,1689,1858,1725,1822,36
+1996-06-30,Friendly,played,Ecuador,ECU,Armenia,,TRUE,3,0,win,Portoviejo,Ecuador,FALSE,1725,1294,1727,1292,2
+1996-07-06,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,1,4,loss,Santiago,Chile,FALSE,1727,1714,1701,1740,-26
+1996-08-16,Friendly,played,Ecuador,ECU,Costa Rica,CRI,TRUE,1,1,draw,Cuenca,Ecuador,FALSE,1701,1555,1695,1561,-6
+1996-09-01,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,1,0,win,Quito,Ecuador,FALSE,1695,1360,1698,1357,3
+1996-10-04,Friendly,played,Ecuador,ECU,Jamaica,JAM,TRUE,2,1,win,Ambato,Ecuador,FALSE,1698,1524,1701,1521,3
+1996-10-09,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,0,1,loss,Quito,Ecuador,FALSE,1701,1901,1687,1915,-14
+1996-10-23,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,1,0,win,Oakland,United States,TRUE,1687,1826,1701,1812,14
+1996-11-10,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,0,1,loss,Asunción,Paraguay,FALSE,1701,1811,1692,1820,-9
+1997-01-12,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,0,2,loss,La Paz,Bolivia,FALSE,1692,1667,1668,1691,-24
+1997-02-05,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,1,3,loss,Mexico City,Mexico,FALSE,1668,1811,1662,1817,-6
+1997-02-11,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,4,0,win,Quito,Ecuador,FALSE,,,,,
+1997-03-25,Friendly,played,Ecuador,ECU,Guatemala,,FALSE,0,0,draw,Guatemala City,Guatemala,FALSE,1700,1514,1698,1516,-2
+1997-04-02,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1698,1647,1701,1644,3
+1997-04-30,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1701,1808,1692,1817,-9
+1997-05-28,Friendly,played,Ecuador,ECU,El Salvador,SLV,FALSE,2,0,win,San Salvador,El Salvador,FALSE,1692,1504,1703,1493,11
+1997-06-08,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,1,1,draw,Quito,Ecuador,FALSE,1703,1731,1699,1735,-4
+1997-06-11,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,0,0,draw,Cochabamba,Bolivia,TRUE,1699,1829,1708,1820,9
+1997-06-14,Copa América,played,Ecuador,ECU,Paraguay,PRY,FALSE,2,0,win,Cochabamba,Bolivia,TRUE,1708,1875,1762,1821,54
+1997-06-17,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,2,1,win,Cochabamba,Bolivia,TRUE,1762,1692,1782,1672,20
+1997-06-22,Copa América,played,Ecuador,ECU,Mexico,MEX,TRUE,1,1,draw,Cochabamba,Bolivia,TRUE,1782,1822,1785,1819,3
+1997-07-06,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,1,1,draw,Maracaibo,Venezuela,FALSE,1785,1343,1770,1358,-15
+1997-07-20,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,0,1,loss,Barranquilla,Colombia,FALSE,1770,1756,1755,1771,-15
+1997-08-07,Friendly,played,Ecuador,ECU,United States,USA,FALSE,1,0,win,Baltimore,United States,FALSE,1755,1670,1765,1660,10
+1997-08-20,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,2,1,win,Quito,Ecuador,FALSE,1765,1765,1779,1751,14
+1997-09-10,Friendly,played,Ecuador,ECU,Brazil,BRA,FALSE,2,4,loss,Salvador,Brazil,FALSE,1779,2148,1777,2150,-2
+1997-10-12,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1777,1732,1789,1720,12
+1997-11-16,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,3,5,loss,Maldonado,Uruguay,FALSE,1789,1694,1759,1724,-30
+1998-10-14,Friendly,played,Ecuador,ECU,Brazil,BRA,FALSE,1,5,loss,"Washington, D.C.",United States,TRUE,1759,2041,1753,2047,-6
+1999-01-28,Friendly,played,Ecuador,ECU,Costa Rica,CRI,FALSE,0,0,draw,Alajuela,Costa Rica,FALSE,1753,1619,1752,1620,-1
+1999-02-10,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1750,1720,1762,1708,12
+1999-02-17,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,1,2,loss,Guayaquil,Ecuador,FALSE,1762,1708,1748,1722,-14
+1999-04-14,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,0,0,draw,Monterrey,Mexico,FALSE,1748,1889,1754,1883,6
+1999-06-02,Friendly,played,Ecuador,ECU,Iran,IRN,TRUE,1,1,draw,Edmonton,Canada,TRUE,1726,1753,1727,1752,1
+1999-06-04,Friendly,played,Ecuador,ECU,Guatemala,,TRUE,3,1,win,Edmonton,Canada,TRUE,1727,1550,1739,1538,12
+1999-06-06,Friendly,played,Ecuador,ECU,Canada,CAN,FALSE,2,1,win,Edmonton,Canada,FALSE,1739,1552,1750,1541,11
+1999-06-15,Friendly,played,Ecuador,ECU,Venezuela,,FALSE,2,3,loss,San Cristóbal,Venezuela,FALSE,1750,1379,1733,1396,-17
+1999-07-01,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,1,3,loss,Luque,Paraguay,TRUE,1737,1921,1718,1940,-19
+1999-07-04,Copa América,played,Ecuador,ECU,Uruguay,URY,FALSE,1,2,loss,Luque,Paraguay,TRUE,1718,1745,1695,1768,-23
+1999-07-07,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,1,2,loss,Luque,Paraguay,TRUE,1695,1830,1679,1846,-16
+1999-10-12,Friendly,played,Ecuador,ECU,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1679,1750,1684,1745,5
+1999-10-27,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,0,0,draw,Houston,United States,TRUE,1684,1911,1690,1905,6
+2000-03-08,Friendly,played,Ecuador,ECU,Honduras,HND,TRUE,1,3,loss,Quito,Ecuador,FALSE,1691,1674,1671,1694,-20
+2000-03-29,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,2,0,win,Quito,Ecuador,FALSE,1671,1402,1677,1396,6
+2000-04-26,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,FALSE,2,3,loss,São Paulo,Brazil,FALSE,1677,2085,1675,2087,-2
+2000-06-03,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,3,loss,Asunción,Paraguay,FALSE,1675,1795,1662,1808,-13
+2000-06-25,Friendly,played,Ecuador,ECU,Panama,PAN,TRUE,5,0,win,Quito,Ecuador,FALSE,1662,1421,1667,1416,5
+2000-06-29,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,2,1,win,Quito,Ecuador,FALSE,1667,1749,1686,1730,19
+2000-07-19,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1686,1980,1680,1986,-6
+2000-07-25,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,0,0,draw,Quito,Ecuador,FALSE,1680,1771,1679,1772,-1
+2000-08-11,Friendly,played,Ecuador,ECU,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1679,1414,1675,1418,-4
+2000-08-16,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,2,0,win,Quito,Ecuador,FALSE,1675,1593,1691,1577,16
+2000-09-03,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,0,4,loss,Montevideo,Uruguay,FALSE,1691,1744,1669,1766,-22
+2000-09-20,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,0,2,loss,San Diego,United States,TRUE,1669,1831,1661,1839,-8
+2000-10-08,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,1,0,win,Quito,Ecuador,FALSE,1661,1750,1680,1731,19
+2000-11-15,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,2,1,win,Maracaibo,Venezuela,FALSE,1680,1425,1692,1413,12
+2001-03-28,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,TRUE,1,0,win,Quito,Ecuador,FALSE,1692,2026,1724,1994,32
+2001-04-24,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,2,1,win,Quito,Ecuador,FALSE,1724,1882,1747,1859,23
+2001-06-02,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1747,1712,1771,1688,24
+2001-06-07,Friendly,played,Ecuador,ECU,United States,USA,FALSE,0,0,draw,Columbus,United States,FALSE,1771,1840,1776,1835,5
+2001-07-02,Friendly,played,Ecuador,ECU,El Salvador,SLV,FALSE,1,0,win,East Rutherford,United States,TRUE,1776,1495,1779,1492,3
+2001-07-07,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,1,1,draw,Miami,United States,TRUE,1779,1681,1776,1684,-3
+2001-07-11,Copa América,played,Ecuador,ECU,Chile,CHL,TRUE,1,4,loss,Barranquilla,Colombia,TRUE,1776,1646,1717,1705,-59
+2001-07-14,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,0,1,loss,Barranquilla,Colombia,FALSE,1717,1789,1703,1803,-14
+2001-07-17,Copa América,played,Ecuador,ECU,Venezuela,,TRUE,4,0,win,Barranquilla,Colombia,TRUE,1703,1406,1717,1392,14
+2001-08-15,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,0,2,loss,Quito,Ecuador,FALSE,1717,2014,1702,2029,-15
+2001-09-05,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,0,0,draw,Bogotá,Colombia,FALSE,1702,1843,1714,1831,12
+2001-10-06,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,5,1,win,La Paz,Bolivia,FALSE,1714,1532,1743,1503,29
+2001-11-07,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,1,1,draw,Quito,Ecuador,FALSE,1743,1749,1738,1754,-5
+2001-11-14,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,0,0,draw,Santiago,Chile,FALSE,1738,1596,1736,1598,-2
+2002-01-12,Friendly,played,Ecuador,ECU,Guatemala,,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1736,1587,1740,1583,4
+2002-01-20,Gold Cup,played,Ecuador,ECU,Haiti,HTI,TRUE,0,2,loss,Miami,United States,TRUE,1740,1433,1676,1497,-64
+2002-01-22,Gold Cup,played,Ecuador,ECU,Canada,CAN,FALSE,2,0,win,Miami,United States,TRUE,1676,1612,1707,1581,31
+2002-02-12,Friendly,played,Ecuador,ECU,Turkey,TUR,FALSE,1,0,win,Breda,Netherlands,TRUE,1707,1796,1720,1783,13
+2002-03-10,Friendly,played,Ecuador,ECU,United States,USA,FALSE,0,1,loss,Birmingham,United States,FALSE,1720,1810,1715,1815,-5
+2002-03-27,Friendly,played,Ecuador,ECU,Bulgaria,BGR,FALSE,3,0,win,East Rutherford,United States,TRUE,1715,1687,1731,1671,16
+2002-04-17,Friendly,played,Ecuador,ECU,South Africa,ZAF,TRUE,0,0,draw,Murcia,Spain,TRUE,1731,1570,1727,1574,-4
+2002-05-08,Friendly,played,Ecuador,ECU,Serbia,SRB,TRUE,1,0,win,East Rutherford,United States,TRUE,,,,,
+2002-05-23,Friendly,played,Ecuador,ECU,Senegal,SEN,TRUE,0,1,loss,Tottori,Japan,TRUE,1740,1686,1728,1698,-12
+2002-06-03,FIFA World Cup,played,Ecuador,ECU,Italy,ITA,FALSE,0,2,loss,Sapporo,Japan,TRUE,1728,2008,1713,2023,-15
+2002-06-09,FIFA World Cup,played,Ecuador,ECU,Mexico,MEX,FALSE,1,2,loss,Rifu,Japan,TRUE,1713,1866,1695,1884,-18
+2002-06-13,FIFA World Cup,played,Ecuador,ECU,Croatia,HRV,TRUE,1,0,win,Yokohama,Japan,TRUE,1695,1891,1740,1846,45
+2002-10-16,Friendly,played,Ecuador,ECU,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1740,1753,1743,1750,3
+2002-10-20,Friendly,played,Ecuador,ECU,Venezuela,,FALSE,0,2,loss,Caracas,Venezuela,FALSE,1743,1580,1725,1598,-18
+2002-11-20,Friendly,played,Ecuador,ECU,Costa Rica,CRI,TRUE,2,2,draw,Quito,Ecuador,FALSE,1725,1750,1723,1752,-2
+2003-02-09,Friendly,played,Ecuador,ECU,Estonia,,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1723,1437,1725,1435,2
+2003-02-12,Friendly,played,Ecuador,ECU,Estonia,,TRUE,2,1,win,Quito,Ecuador,FALSE,1725,1435,1727,1433,2
+2003-04-30,Friendly,played,Ecuador,ECU,Spain,ESP,FALSE,0,4,loss,Madrid,Spain,FALSE,1727,1996,1723,2000,-4
+2003-06-08,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,0,0,draw,Madrid,Spain,TRUE,1723,1860,1727,1856,4
+2003-06-11,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,2,2,draw,East Rutherford,United States,TRUE,1727,1623,1724,1626,-3
+2003-08-20,Friendly,played,Ecuador,ECU,Guatemala,,TRUE,2,0,win,Ambato,Ecuador,FALSE,1724,1546,1729,1541,5
+2003-09-06,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,2,0,win,Quito,Ecuador,FALSE,1729,1623,1743,1609,14
+2003-09-10,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,FALSE,0,1,loss,Manaus,Brazil,FALSE,1743,2008,1739,2012,-4
+2003-11-15,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1739,1760,1726,1773,-13
+2003-11-19,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,0,0,draw,Quito,Ecuador,FALSE,1726,1682,1718,1690,-8
+2003-12-28,Friendly,played,Ecuador,ECU,Catalonia,,FALSE,2,4,loss,Barcelona,Spain,FALSE,,,,,
+2004-03-10,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,1,2,loss,Tuxtla Gutiérrez,Mexico,FALSE,1718,1844,1714,1848,-4
+2004-03-30,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1714,2018,1710,2022,-4
+2004-04-28,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,1,1,draw,Fort Lauderdale,United States,TRUE,1710,1634,1708,1636,-2
+2004-06-02,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,2,1,win,Quito,Ecuador,FALSE,1708,1749,1725,1732,17
+2004-06-05,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,3,2,win,Quito,Ecuador,FALSE,1725,1581,1733,1573,8
+2004-07-07,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,1,6,loss,Chiclayo,Peru,TRUE,1733,1967,1712,1988,-21
+2004-07-10,Copa América,played,Ecuador,ECU,Uruguay,URY,FALSE,1,2,loss,Chiclayo,Peru,TRUE,1712,1713,1687,1738,-25
+2004-07-13,Copa América,played,Ecuador,ECU,Mexico,MEX,FALSE,1,2,loss,Piura,Peru,TRUE,1687,1877,1674,1890,-13
+2004-09-05,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1674,1812,1666,1820,-8
+2004-10-10,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,2,0,win,Quito,Ecuador,FALSE,1666,1677,1688,1655,22
+2004-10-14,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,1,3,loss,San Cristóbal,Venezuela,FALSE,1688,1613,1660,1641,-28
+2004-10-20,Friendly,played,Ecuador,ECU,Jordan,,TRUE,0,3,loss,Tripoli,Libya,TRUE,1660,1634,1632,1662,-28
+2004-10-22,Friendly,played,Ecuador,ECU,Nigeria,NGA,FALSE,2,2,draw,Tripoli,Libya,TRUE,1632,1779,1638,1773,6
+2004-10-27,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,1,2,loss,East Rutherford,United States,TRUE,1638,1874,1634,1878,-4
+2004-11-17,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,TRUE,1,0,win,Quito,Ecuador,FALSE,1634,2005,1667,1972,33
+2005-01-26,Friendly,played,Ecuador,ECU,Panama,PAN,TRUE,2,0,win,Ambato,Ecuador,FALSE,1667,1516,1673,1510,6
+2005-01-29,Friendly,played,Ecuador,ECU,Panama,PAN,TRUE,2,0,win,Babahoyo,Ecuador,FALSE,1673,1510,1678,1505,5
+2005-02-09,Friendly,played,Ecuador,ECU,Chile,CHL,FALSE,0,3,loss,Viña del Mar,Chile,FALSE,1678,1655,1664,1669,-14
+2005-02-16,Friendly,played,Ecuador,ECU,Costa Rica,CRI,FALSE,2,1,win,Heredia,Costa Rica,FALSE,1664,1670,1677,1657,13
+2005-03-27,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,5,2,win,Quito,Ecuador,FALSE,1677,1778,1712,1743,35
+2005-03-30,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,2,2,draw,Lima,Peru,FALSE,1712,1678,1716,1674,4
+2005-05-04,Friendly,played,Ecuador,ECU,Paraguay,PRY,TRUE,1,0,win,East Rutherford,United States,TRUE,1716,1754,1727,1743,11
+2005-06-04,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,2,0,win,Quito,Ecuador,FALSE,1727,2034,1773,1988,46
+2005-06-08,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,0,3,loss,Barranquilla,Colombia,FALSE,1773,1804,1751,1826,-22
+2005-06-11,Friendly,played,Ecuador,ECU,Italy,ITA,TRUE,1,1,draw,East Rutherford,United States,TRUE,1751,1904,1755,1900,4
+2005-08-17,Friendly,played,Ecuador,ECU,Venezuela,,TRUE,3,1,win,Loja,Ecuador,FALSE,1755,1597,1761,1591,6
+2005-09-03,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,2,1,win,La Paz,Bolivia,FALSE,1761,1577,1776,1562,15
+2005-10-08,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,0,0,draw,Quito,Ecuador,FALSE,1776,1815,1773,1818,-3
+2005-10-12,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,0,0,draw,Santiago,Chile,FALSE,1773,1682,1774,1681,1
+2005-11-13,Friendly,played,Ecuador,ECU,Poland,POL,TRUE,0,3,loss,Barcelona,Spain,TRUE,1774,1831,1759,1846,-15
+2005-12-27,Friendly,played,Ecuador,ECU,Senegal,SEN,TRUE,1,2,loss,Cairo,Egypt,TRUE,1759,1702,1742,1719,-17
+2005-12-29,Friendly,played,Ecuador,ECU,Uganda,,TRUE,1,2,loss,Cairo,Egypt,TRUE,1742,1346,1715,1373,-27
+2006-01-25,Friendly,played,Ecuador,ECU,Honduras,HND,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1715,1725,1722,1718,7
+2006-03-01,Friendly,played,Ecuador,ECU,Netherlands,NLD,FALSE,0,1,loss,Amsterdam,Netherlands,FALSE,1722,1992,1720,1994,-2
+2006-03-30,Friendly,played,Ecuador,ECU,Japan,JPN,FALSE,0,1,loss,Ōita,Japan,FALSE,1720,1807,1715,1812,-5
+2006-05-24,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,1,1,draw,East Rutherford,United States,TRUE,1715,1762,1716,1761,1
+2006-05-28,Friendly,played,Ecuador,ECU,North Macedonia,,FALSE,1,2,loss,Getafe,Spain,TRUE,1716,1476,1700,1492,-16
+2006-06-09,FIFA World Cup,played,Ecuador,ECU,Poland,POL,FALSE,2,0,win,Gelsenkirchen,Germany,TRUE,1700,1821,1760,1761,60
+2006-06-15,FIFA World Cup,played,Ecuador,ECU,Costa Rica,CRI,TRUE,3,0,win,Hamburg,Germany,TRUE,1760,1708,1805,1663,45
+2006-06-20,FIFA World Cup,played,Ecuador,ECU,Germany,DEU,FALSE,0,3,loss,Berlin,Germany,FALSE,1805,1923,1782,1946,-23
+2006-06-25,FIFA World Cup,played,Ecuador,ECU,England,ENG,FALSE,0,1,loss,Stuttgart,Germany,TRUE,1782,1985,1768,1999,-14
+2006-09-06,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,1,1,draw,East Rutherford,United States,TRUE,1768,1639,1764,1643,-4
+2006-10-10,Friendly,played,Ecuador,ECU,Brazil,BRA,FALSE,1,2,loss,Solna,Sweden,TRUE,1764,2070,1761,2073,-3
+2006-12-28,Friendly,played,Ecuador,ECU,Galicia,,FALSE,1,1,draw,La Coruña,Spain,FALSE,,,,,
+2007-01-18,Friendly,played,Ecuador,ECU,Sweden,SWE,TRUE,2,1,win,Cuenca,Ecuador,FALSE,1761,1849,1771,1839,10
+2007-01-21,Friendly,played,Ecuador,ECU,Sweden,SWE,TRUE,1,1,draw,Quito,Ecuador,FALSE,1771,1839,1770,1840,-1
+2007-03-25,Friendly,played,Ecuador,ECU,United States,USA,FALSE,1,3,loss,Tampa,United States,FALSE,1770,1778,1760,1788,-10
+2007-03-28,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,2,4,loss,Oakland,United States,TRUE,1760,1822,1748,1834,-12
+2007-05-23,Friendly,played,Ecuador,ECU,Republic of Ireland,IRL,TRUE,1,1,draw,East Rutherford,United States,TRUE,,,,,
+2007-06-03,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,1,2,loss,Madrid,Spain,TRUE,1749,1624,1736,1637,-13
+2007-06-06,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,2,0,win,Barcelona,Spain,TRUE,1736,1637,1747,1626,11
+2007-06-23,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,1,3,loss,Barranquilla,Colombia,FALSE,1747,1821,1739,1829,-8
+2007-06-27,Copa América,played,Ecuador,ECU,Chile,CHL,TRUE,2,3,loss,Puerto Ordaz,Venezuela,TRUE,1739,1745,1714,1770,-25
+2007-07-01,Copa América,played,Ecuador,ECU,Mexico,MEX,FALSE,1,2,loss,Maturín,Venezuela,TRUE,1714,1872,1700,1886,-14
+2007-07-04,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,0,1,loss,Puerto la Cruz,Venezuela,TRUE,1700,2017,1693,2024,-7
+2007-08-22,Friendly,played,Ecuador,ECU,Bolivia,BOL,TRUE,1,0,win,Quito,Ecuador,FALSE,1693,1589,1698,1584,5
+2007-09-08,Friendly,played,Ecuador,ECU,El Salvador,SLV,TRUE,5,1,win,Quito,Ecuador,FALSE,1698,1379,1701,1376,3
+2007-09-12,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,1,2,loss,San Pedro Sula,Honduras,FALSE,1701,1644,1692,1653,-9
+2007-10-13,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,0,1,loss,Quito,Ecuador,FALSE,1692,1646,1664,1674,-28
+2007-10-17,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,FALSE,0,5,loss,Rio de Janeiro,Brazil,FALSE,1664,2084,1660,2088,-4
+2007-11-17,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,5,loss,Asunción,Paraguay,FALSE,1660,1786,1644,1802,-16
+2007-11-21,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,5,1,win,Quito,Ecuador,FALSE,1644,1661,1673,1632,29
+2008-03-26,Friendly,played,Ecuador,ECU,Haiti,HTI,TRUE,3,1,win,Latacunga,Ecuador,FALSE,1673,1540,1679,1534,6
+2008-05-27,Friendly,played,Ecuador,ECU,France,FRA,FALSE,0,2,loss,Grenoble,France,FALSE,1679,2008,1677,2010,-2
+2008-06-15,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1677,2033,1694,2016,17
+2008-06-18,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,0,0,draw,Quito,Ecuador,FALSE,1694,1812,1695,1811,1
+2008-08-20,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,1,0,win,East Rutherford,United States,TRUE,1695,1811,1708,1798,13
+2008-09-06,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,3,1,win,Quito,Ecuador,FALSE,1708,1584,1721,1571,13
+2008-09-10,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1721,1852,1733,1840,12
+2008-10-12,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,1,0,win,Quito,Ecuador,FALSE,1733,1795,1751,1777,18
+2008-10-15,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,1,3,loss,Puerto la Cruz,Venezuela,FALSE,1751,1634,1720,1665,-31
+2008-11-12,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,1,2,loss,Phoenix,United States,TRUE,1720,1852,1714,1858,-6
+2008-12-17,Friendly,played,Ecuador,ECU,Iran,IRN,FALSE,1,0,win,Muscat,Oman,TRUE,1714,1782,1732,1764,18
+2008-12-19,Friendly,played,Ecuador,ECU,Oman,,FALSE,0,2,loss,Muscat,Oman,FALSE,1732,1529,1703,1558,-29
+2009-03-29,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,TRUE,1,1,draw,Quito,Ecuador,FALSE,1703,2031,1715,2019,12
+2009-04-01,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,1,1,draw,Quito,Ecuador,FALSE,1715,1836,1716,1835,1
+2009-05-27,Friendly,played,Ecuador,ECU,El Salvador,SLV,FALSE,1,3,loss,Los Angeles,United States,TRUE,1716,1479,1692,1503,-24
+2009-06-07,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,2,1,win,Lima,Peru,FALSE,1692,1566,1711,1547,19
+2009-06-10,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,2,0,win,Quito,Ecuador,FALSE,1711,1935,1751,1895,40
+2009-08-12,Friendly,played,Ecuador,ECU,Jamaica,JAM,TRUE,0,0,draw,East Rutherford,United States,TRUE,1751,1614,1747,1618,-4
+2009-09-05,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,0,2,loss,Medellín,Colombia,FALSE,1747,1725,1724,1748,-23
+2009-09-09,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,3,1,win,La Paz,Bolivia,FALSE,1724,1611,1753,1582,29
+2009-10-10,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,1,2,loss,Quito,Ecuador,FALSE,1753,1806,1730,1829,-23
+2009-10-14,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,0,1,loss,Santiago,Chile,FALSE,1730,1861,1722,1869,-8
+2010-05-07,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,0,0,draw,East Rutherford,United States,TRUE,1722,1891,1727,1886,5
+2010-05-16,Friendly,played,Ecuador,ECU,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1727,1755,1717,1765,-10
+2010-09-04,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,2,1,win,Zapopan,Mexico,FALSE,1717,1862,1733,1846,16
+2010-09-07,Friendly,played,Ecuador,ECU,Venezuela,,FALSE,0,1,loss,Barquisimeto,Venezuela,FALSE,1733,1688,1725,1696,-8
+2010-10-08,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,0,1,loss,Harrison,United States,TRUE,1725,1757,1716,1766,-9
+2010-10-12,Friendly,played,Ecuador,ECU,Poland,POL,TRUE,2,2,draw,Montreal,Canada,TRUE,1716,1649,1714,1651,-2
+2010-11-17,Friendly,played,Ecuador,ECU,Venezuela,,TRUE,4,1,win,Quito,Ecuador,FALSE,1714,1717,1727,1704,13
+2011-02-09,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,1,1,draw,La Ceiba,Honduras,FALSE,1727,1720,1730,1717,3
+2011-03-26,Friendly,played,Ecuador,ECU,Colombia,COL,FALSE,0,2,loss,Madrid,Spain,TRUE,1730,1762,1716,1776,-14
+2011-03-29,Friendly,played,Ecuador,ECU,Peru,PER,TRUE,0,0,draw,The Hague,Netherlands,TRUE,1716,1635,1714,1637,-2
+2011-04-20,Friendly,played,Ecuador,ECU,Argentina,ARG,FALSE,2,2,draw,Mar del Plata,Argentina,FALSE,1714,1993,1722,1985,8
+2011-05-28,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,1,1,draw,Seattle,United States,TRUE,1722,1860,1726,1856,4
+2011-06-01,Friendly,played,Ecuador,ECU,Canada,CAN,FALSE,2,2,draw,Toronto,Canada,FALSE,1726,1606,1725,1607,-1
+2011-06-07,Friendly,played,Ecuador,ECU,Greece,GRC,TRUE,1,1,draw,New York,United States,TRUE,1725,1752,1726,1751,1
+2011-07-03,Copa América,played,Ecuador,ECU,Paraguay,PRY,FALSE,0,0,draw,Santa Fe,Argentina,TRUE,1726,1790,1731,1785,5
+2011-07-09,Copa América,played,Ecuador,ECU,Venezuela,,FALSE,0,1,loss,Salta,Argentina,TRUE,1731,1740,1707,1764,-24
+2011-07-13,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,2,4,loss,Córdoba,Argentina,TRUE,1707,2046,1698,2055,-9
+2011-08-10,Friendly,played,Ecuador,ECU,Costa Rica,CRI,FALSE,2,0,win,San José,Costa Rica,FALSE,1698,1662,1716,1644,18
+2011-09-02,Friendly,played,Ecuador,ECU,Jamaica,JAM,TRUE,5,2,win,Quito,Ecuador,FALSE,1716,1666,1726,1656,10
+2011-09-06,Friendly,played,Ecuador,ECU,Costa Rica,CRI,TRUE,4,0,win,Quito,Ecuador,FALSE,1726,1659,1736,1649,10
+2011-10-07,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,2,0,win,Quito,Ecuador,FALSE,1736,1713,1756,1693,20
+2011-10-11,Friendly,played,Ecuador,ECU,United States,USA,FALSE,1,0,win,Harrison,United States,FALSE,1756,1718,1768,1706,12
+2011-11-11,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1768,1792,1755,1805,-13
+2011-11-15,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,2,0,win,Quito,Ecuador,FALSE,1755,1776,1778,1753,23
+2012-02-29,Friendly,played,Ecuador,ECU,Honduras,HND,TRUE,2,0,win,Guayaquil,Ecuador,FALSE,1778,1651,1784,1645,6
+2012-06-02,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,0,4,loss,Buenos Aires,Argentina,FALSE,1784,1928,1769,1943,-15
+2012-06-10,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,1,0,win,Quito,Ecuador,FALSE,1769,1810,1786,1793,17
+2012-08-15,Friendly,played,Ecuador,ECU,Chile,CHL,TRUE,3,0,win,New York,United States,TRUE,1786,1932,1810,1908,24
+2012-09-07,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,1,0,win,Quito,Ecuador,FALSE,1810,1576,1815,1571,5
+2012-09-11,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1815,1929,1826,1918,11
+2012-10-12,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,3,1,win,Quito,Ecuador,FALSE,1826,1864,1851,1839,25
+2012-10-16,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,1,1,draw,Puerto la Cruz,Venezuela,FALSE,1851,1727,1850,1728,-1
+2013-02-06,Friendly,played,Ecuador,ECU,Portugal,PRT,FALSE,3,2,win,Guimarães,Portugal,FALSE,1850,1904,1864,1890,14
+2013-03-21,Friendly,played,Ecuador,ECU,El Salvador,SLV,TRUE,5,0,win,Quito,Ecuador,FALSE,1864,1540,1867,1537,3
+2013-03-26,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,4,1,win,Quito,Ecuador,FALSE,1867,1736,1882,1721,15
+2013-05-29,Friendly,played,Ecuador,ECU,Germany,DEU,TRUE,2,4,loss,Boca Raton,United States,TRUE,1882,2063,1874,2071,-8
+2013-06-07,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1874,1756,1853,1777,-21
+2013-06-11,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,1,1,draw,Quito,Ecuador,FALSE,1853,2004,1856,2001,3
+2013-08-14,Friendly,played,Ecuador,ECU,Spain,ESP,TRUE,0,2,loss,Guayaquil,Ecuador,FALSE,1856,2109,1847,2118,-9
+2013-09-06,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,0,1,loss,Barranquilla,Colombia,FALSE,1847,1915,1836,1926,-11
+2013-09-10,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1836,1608,1829,1615,-7
+2013-10-11,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,1,0,win,Quito,Ecuador,FALSE,1829,1915,1848,1896,19
+2013-10-15,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1848,1884,1835,1897,-13
+2013-11-15,Friendly,played,Ecuador,ECU,Argentina,ARG,FALSE,0,0,draw,East Rutherford,United States,TRUE,1835,2019,1840,2014,5
+2013-11-19,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,2,2,draw,Houston,United States,TRUE,1840,1681,1836,1685,-4
+2014-03-05,Friendly,played,Ecuador,ECU,Australia,AUS,FALSE,4,3,win,London,England,TRUE,1836,1728,1843,1721,7
+2014-05-17,Friendly,played,Ecuador,ECU,Netherlands,NLD,FALSE,1,1,draw,Amsterdam,Netherlands,FALSE,1843,1987,1849,1981,6
+2014-05-31,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,1,3,loss,Arlington,United States,TRUE,1849,1817,1833,1833,-16
+2014-06-04,Friendly,played,Ecuador,ECU,England,ENG,TRUE,2,2,draw,Miami Gardens,United States,TRUE,1833,1941,1836,1938,3
+2014-06-15,FIFA World Cup,played,Ecuador,ECU,Switzerland,CHE,FALSE,1,2,loss,Brasília,Brazil,TRUE,1836,1854,1808,1882,-28
+2014-06-20,FIFA World Cup,played,Ecuador,ECU,Honduras,HND,FALSE,2,1,win,Curitiba,Brazil,TRUE,1808,1647,1825,1630,17
+2014-06-25,FIFA World Cup,played,Ecuador,ECU,France,FRA,TRUE,0,0,draw,Rio de Janeiro,Brazil,TRUE,1825,1966,1837,1954,12
+2015-03-31,Friendly,played,Ecuador,ECU,Argentina,ARG,FALSE,1,2,loss,East Rutherford,United States,TRUE,1838,2051,1833,2056,-5
+2015-06-03,Friendly,played,Ecuador,ECU,Panama,PAN,FALSE,1,1,draw,Panama City,Panama,FALSE,1833,1724,1833,1724,0
+2015-06-06,Friendly,played,Ecuador,ECU,Panama,PAN,TRUE,4,0,win,Portoviejo,Ecuador,FALSE,1833,1724,1842,1715,9
+2015-06-11,Copa América,played,Ecuador,ECU,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1842,1937,1824,1955,-18
+2015-06-15,Copa América,played,Ecuador,ECU,Bolivia,BOL,TRUE,2,3,loss,Valparaíso,Chile,TRUE,1824,1640,1787,1677,-37
+2015-06-19,Copa América,played,Ecuador,ECU,Mexico,MEX,FALSE,2,1,win,Rancagua,Chile,TRUE,1787,1882,1819,1850,32
+2015-09-08,Friendly,played,Ecuador,ECU,Honduras,HND,TRUE,2,0,win,Quito,Ecuador,FALSE,1819,1540,1822,1537,3
+2015-10-08,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,2,0,win,Buenos Aires,Argentina,FALSE,1822,2067,1875,2014,53
+2015-10-13,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,2,0,win,Quito,Ecuador,FALSE,1875,1616,1882,1609,7
+2015-11-12,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,2,1,win,Quito,Ecuador,FALSE,1882,1928,1899,1911,17
+2015-11-17,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,3,1,win,Ciudad Guayana,Venezuela,FALSE,1899,1616,1915,1600,16
+2016-03-24,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,2,2,draw,Quito,Ecuador,FALSE,1915,1727,1901,1741,-14
+2016-03-29,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,1,3,loss,Barranquilla,Colombia,FALSE,1901,1962,1884,1979,-17
+2016-06-04,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,0,0,draw,Pasadena,United States,TRUE,1873,2022,1883,2012,10
+2016-06-08,Copa América,played,Ecuador,ECU,Peru,PER,TRUE,2,2,draw,Glendale,United States,TRUE,1883,1784,1876,1791,-7
+2016-06-12,Copa América,played,Ecuador,ECU,Haiti,HTI,TRUE,4,0,win,East Rutherford,United States,TRUE,1876,1485,1885,1476,9
+2016-06-16,Copa América,played,Ecuador,ECU,United States,USA,FALSE,1,2,loss,Seattle,United States,FALSE,1885,1785,1860,1810,-25
+2016-09-01,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,TRUE,0,3,loss,Quito,Ecuador,FALSE,1860,1978,1827,2011,-33
+2016-09-06,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1827,1797,1811,1813,-16
+2016-10-06,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,3,0,win,Quito,Ecuador,FALSE,1811,1991,1854,1948,43
+2016-10-11,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,2,2,draw,La Paz,Bolivia,FALSE,1854,1629,1847,1636,-7
+2016-11-10,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1847,1922,1836,1933,-11
+2016-11-15,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,3,0,win,Quito,Ecuador,FALSE,1836,1697,1850,1683,14
+2017-02-22,Friendly,played,Ecuador,ECU,Honduras,HND,TRUE,3,1,win,Guayaquil,Ecuador,FALSE,1850,1612,1854,1608,4
+2017-03-23,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1854,1701,1831,1724,-23
+2017-03-28,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,0,2,loss,Quito,Ecuador,FALSE,1831,1929,1801,1959,-30
+2017-06-08,Friendly,played,Ecuador,ECU,Venezuela,,TRUE,1,1,draw,Boca Raton,United States,TRUE,1801,1685,1798,1688,-3
+2017-06-13,Friendly,played,Ecuador,ECU,El Salvador,SLV,FALSE,3,0,win,Harrison,United States,TRUE,1798,1429,1802,1425,4
+2017-07-26,Friendly,played,Ecuador,ECU,Trinidad and Tobago,TTO,TRUE,3,1,win,Guayaquil,Ecuador,FALSE,1802,1440,1804,1438,2
+2017-08-31,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,FALSE,0,2,loss,Porto Alegre,Brazil,FALSE,1804,2115,1799,2120,-5
+2017-09-05,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,1,2,loss,Quito,Ecuador,FALSE,1799,1861,1777,1883,-22
+2017-10-05,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,1,2,loss,Santiago,Chile,FALSE,1777,1858,1767,1868,-10
+2017-10-10,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,1,3,loss,Quito,Ecuador,FALSE,1767,1985,1747,2005,-20
+2018-09-07,Friendly,played,Ecuador,ECU,Jamaica,JAM,TRUE,2,0,win,Harrison,United States,TRUE,1747,1569,1755,1561,8
+2018-09-11,Friendly,played,Ecuador,ECU,Guatemala,,TRUE,2,0,win,Bridgeview,United States,TRUE,1755,1515,1761,1509,6
+2018-10-12,Friendly,played,Ecuador,ECU,Qatar,QAT,FALSE,3,4,loss,Doha,Qatar,FALSE,1761,1501,1747,1515,-14
+2018-10-16,Friendly,played,Ecuador,ECU,Oman,,FALSE,0,0,draw,Doha,Qatar,TRUE,1747,1533,1742,1538,-5
+2018-11-15,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,2,0,win,Lima,Peru,FALSE,1742,1895,1766,1871,24
+2018-11-20,Friendly,played,Ecuador,ECU,Panama,PAN,FALSE,2,1,win,Panama City,Panama,FALSE,1766,1572,1773,1565,7
+2019-03-21,Friendly,played,Ecuador,ECU,United States,USA,FALSE,0,1,loss,Orlando,United States,FALSE,1773,1758,1765,1766,-8
+2019-03-26,Friendly,played,Ecuador,ECU,Honduras,HND,FALSE,0,0,draw,Harrison,United States,TRUE,1765,1591,1760,1596,-5
+2019-06-01,Friendly,played,Ecuador,ECU,Venezuela,,FALSE,1,1,draw,Miami Gardens,United States,TRUE,1760,1778,1761,1777,1
+2019-06-09,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,2,3,loss,Arlington,United States,TRUE,1761,1823,1753,1831,-8
+2019-06-16,Copa América,played,Ecuador,ECU,Uruguay,URY,FALSE,0,4,loss,Belo Horizonte,Brazil,TRUE,1753,1933,1728,1958,-25
+2019-06-21,Copa América,played,Ecuador,ECU,Chile,CHL,TRUE,1,2,loss,Salvador,Brazil,TRUE,1728,1874,1713,1889,-15
+2019-06-24,Copa América,played,Ecuador,ECU,Japan,JPN,TRUE,1,1,draw,Belo Horizonte,Brazil,TRUE,1713,1748,1716,1745,3
+2019-09-05,Friendly,played,Ecuador,ECU,Peru,PER,FALSE,1,0,win,Harrison,United States,TRUE,1716,1875,1730,1861,14
+2019-09-10,Friendly,played,Ecuador,ECU,Bolivia,BOL,TRUE,3,0,win,Cuenca,Ecuador,FALSE,1730,1597,1737,1590,7
+2019-10-13,Friendly,played,Ecuador,ECU,Argentina,ARG,TRUE,1,6,loss,Elche,Spain,TRUE,1737,1947,1728,1956,-9
+2019-11-14,Friendly,played,Ecuador,ECU,Trinidad and Tobago,TTO,TRUE,3,0,win,Portoviejo,Ecuador,FALSE,1728,1354,1730,1352,2
+2019-11-19,Friendly,played,Ecuador,ECU,Colombia,COL,TRUE,0,1,loss,Harrison,United States,TRUE,1730,1981,1726,1985,-4
+2020-10-08,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1726,1970,1721,1975,-5
+2020-10-13,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,4,2,win,Quito,Ecuador,FALSE,1721,1973,1763,1931,42
+2020-11-12,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,3,2,win,La Paz,Bolivia,FALSE,1763,1585,1779,1569,16
+2020-11-17,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,6,1,win,Quito,Ecuador,FALSE,1779,1943,1826,1896,47
+2021-03-29,Friendly,played,Ecuador,ECU,Bolivia,BOL,TRUE,2,1,win,Guayaquil,Ecuador,FALSE,1826,1580,1828,1578,2
+2021-06-04,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,FALSE,0,2,loss,Porto Alegre,Brazil,FALSE,1828,2135,1823,2140,-5
+2021-06-08,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,1,2,loss,Quito,Ecuador,FALSE,1823,1757,1794,1786,-29
+2021-06-13,Copa América,played,Ecuador,ECU,Colombia,COL,FALSE,0,1,loss,Cuiabá,Brazil,TRUE,1794,1928,1778,1944,-16
+2021-06-20,Copa América,played,Ecuador,ECU,Venezuela,,FALSE,2,2,draw,Rio de Janeiro,Brazil,TRUE,1778,1773,1778,1773,0
+2021-06-23,Copa América,played,Ecuador,ECU,Peru,PER,TRUE,2,2,draw,Goiânia,Brazil,TRUE,1778,1815,1781,1812,3
+2021-06-27,Copa América,played,Ecuador,ECU,Brazil,BRA,FALSE,1,1,draw,Goiânia,Brazil,FALSE,1781,2167,1803,2145,22
+2021-07-03,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,0,3,loss,Goiânia,Brazil,TRUE,1803,2014,1783,2034,-20
+2021-09-02,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,2,0,win,Quito,Ecuador,FALSE,1783,1810,1807,1786,24
+2021-09-05,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,0,0,draw,Quito,Ecuador,FALSE,1807,1785,1800,1792,-7
+2021-09-09,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1800,1937,1792,1945,-8
+2021-10-07,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,3,0,win,Guayaquil,Ecuador,FALSE,1792,1586,1802,1576,10
+2021-10-10,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,1,2,loss,Caracas,Venezuela,FALSE,1802,1707,1782,1727,-20
+2021-10-14,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,0,0,draw,Barranquilla,Colombia,FALSE,1782,1937,1795,1924,13
+2021-10-27,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,3,2,win,Charlotte,United States,TRUE,1795,1898,1808,1885,13
+2021-11-11,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,1,0,win,Quito,Ecuador,FALSE,1808,1707,1818,1697,10
+2021-11-16,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,2,0,win,Santiago,Chile,FALSE,1818,1828,1857,1789,39
+2021-12-04,Friendly,played,Ecuador,ECU,El Salvador,SLV,FALSE,1,1,draw,Houston,United States,TRUE,1857,1493,1849,1501,-8
+2022-01-27,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,TRUE,1,1,draw,Quito,Ecuador,FALSE,1849,2149,1859,2139,10
+2022-02-01,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1859,1861,1865,1855,6
+2022-03-24,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,1,3,loss,Ciudad del Este,Paraguay,FALSE,1865,1707,1830,1742,-35
+2022-03-29,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,1,1,draw,Guayaquil,Ecuador,FALSE,1830,2118,1840,2108,10
+2022-06-02,Friendly,played,Ecuador,ECU,Nigeria,NGA,TRUE,1,0,win,Harrison,United States,TRUE,1840,1638,1845,1633,5
+2022-06-05,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,0,0,draw,Chicago,United States,TRUE,1845,1830,1845,1830,0
+2022-06-11,Friendly,played,Ecuador,ECU,Cape Verde,,TRUE,1,0,win,Fort Lauderdale,United States,TRUE,1845,1469,1847,1467,2
+2022-09-23,Friendly,played,Ecuador,ECU,Saudi Arabia,SAU,FALSE,0,0,draw,Murcia,Spain,TRUE,1847,1622,1841,1628,-6
+2022-09-27,Kirin Challenge Cup,played,Ecuador,ECU,Japan,JPN,TRUE,0,0,draw,Düsseldorf,Germany,TRUE,1841,1798,1840,1799,-1
+2022-11-12,Friendly,played,Ecuador,ECU,Iraq,IRQ,FALSE,0,0,draw,Madrid,Spain,TRUE,1840,1566,1833,1573,-7
+2022-11-20,FIFA World Cup,played,Ecuador,ECU,Qatar,QAT,FALSE,2,0,win,Al Khor,Qatar,FALSE,1833,1680,1871,1642,38
+2022-11-25,FIFA World Cup,played,Ecuador,ECU,Netherlands,NLD,FALSE,1,1,draw,Al Rayyan,Qatar,TRUE,1871,2050,1885,2036,14
+2022-11-29,FIFA World Cup,played,Ecuador,ECU,Senegal,SEN,TRUE,1,2,loss,Al Rayyan,Qatar,TRUE,1885,1728,1842,1771,-43
+2023-03-24,Friendly,played,Ecuador,ECU,Australia,AUS,FALSE,1,3,loss,Sydney,Australia,FALSE,1842,1773,1828,1787,-14
+2023-03-28,Friendly,played,Ecuador,ECU,Australia,AUS,FALSE,2,1,win,Melbourne,Australia,FALSE,1828,1787,1840,1775,12
+2023-06-17,Friendly,played,Ecuador,ECU,Bolivia,BOL,TRUE,1,0,win,Harrison,United States,TRUE,1840,1618,1844,1614,4
+2023-06-20,Friendly,played,Ecuador,ECU,Costa Rica,CRI,TRUE,3,1,win,Chester,United States,TRUE,1844,1698,1853,1689,9
+2023-09-07,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1853,2148,1849,2152,-4
+2023-09-12,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,TRUE,2,1,win,Quito,Ecuador,FALSE,1849,1925,1868,1906,19
+2023-10-12,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,FALSE,2,1,win,La Paz,Bolivia,FALSE,1868,1596,1879,1585,11
+2023-10-17,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,TRUE,0,0,draw,Quito,Ecuador,FALSE,1879,1939,1877,1941,-2
+2023-11-16,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,FALSE,0,0,draw,Maturín,Venezuela,FALSE,1877,1755,1876,1756,-1
+2023-11-21,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,TRUE,1,0,win,Quito,Ecuador,FALSE,1876,1707,1883,1700,7
+2024-03-21,Friendly,played,Ecuador,ECU,Guatemala,,TRUE,2,0,win,Harrison,United States,TRUE,1883,1484,1886,1481,3
+2024-03-24,Friendly,played,Ecuador,ECU,Italy,ITA,TRUE,0,2,loss,Harrison,United States,TRUE,1886,1942,1873,1955,-13
+2024-06-09,Friendly,played,Ecuador,ECU,Argentina,ARG,FALSE,0,1,loss,Chicago,United States,TRUE,1873,2140,1869,2144,-4
+2024-06-12,Friendly,played,Ecuador,ECU,Bolivia,BOL,TRUE,3,1,win,Chester,United States,TRUE,1869,1599,1874,1594,5
+2024-06-16,Friendly,played,Ecuador,ECU,Honduras,HND,TRUE,2,1,win,Hartford,United States,TRUE,1874,1512,1876,1510,2
+2024-06-22,Copa América,played,Ecuador,ECU,Venezuela,,TRUE,1,2,loss,Santa Clara,United States,TRUE,1876,1744,1842,1778,-34
+2024-06-26,Copa América,played,Ecuador,ECU,Jamaica,JAM,TRUE,3,1,win,Las Vegas,United States,TRUE,1842,1626,1859,1609,17
+2024-06-30,Copa América,played,Ecuador,ECU,Mexico,MEX,FALSE,0,0,draw,Glendale,United States,TRUE,1859,1779,1853,1785,-6
+2024-07-04,Copa América,played,Ecuador,ECU,Argentina,ARG,FALSE,1,1,draw,Houston,United States,TRUE,1853,2161,1871,2143,18
+2024-09-06,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,FALSE,0,1,loss,Curitiba,Brazil,FALSE,1871,2020,1863,2028,-8
+2024-09-10,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,TRUE,1,0,win,Quito,Ecuador,FALSE,1863,1722,1871,1714,8
+2024-10-10,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,TRUE,0,0,draw,Quito,Ecuador,FALSE,1871,1711,1858,1724,-13
+2024-10-15,FIFA World Cup qualification,played,Ecuador,ECU,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1858,1927,1867,1918,9
+2024-11-14,FIFA World Cup qualification,played,Ecuador,ECU,Bolivia,BOL,TRUE,4,0,win,Guayaquil,Ecuador,FALSE,1867,1668,1878,1657,11
+2024-11-19,FIFA World Cup qualification,played,Ecuador,ECU,Colombia,COL,FALSE,1,0,win,Barranquilla,Colombia,FALSE,1878,2009,1910,1977,32
+2025-03-21,FIFA World Cup qualification,played,Ecuador,ECU,Venezuela,,TRUE,2,1,win,Quito,Ecuador,FALSE,1910,1734,1917,1727,7
+2025-03-25,FIFA World Cup qualification,played,Ecuador,ECU,Chile,CHL,FALSE,0,0,draw,Santiago,Chile,FALSE,1917,1716,1911,1722,-6
+2025-06-05,FIFA World Cup qualification,played,Ecuador,ECU,Brazil,BRA,TRUE,0,0,draw,Guayaquil,Ecuador,FALSE,1911,1993,1910,1994,-1
+2025-06-10,FIFA World Cup qualification,played,Ecuador,ECU,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1910,1740,1906,1744,-4
+2025-09-04,FIFA World Cup qualification,played,Ecuador,ECU,Paraguay,PRY,FALSE,0,0,draw,Asunción,Paraguay,FALSE,1906,1825,1907,1824,1
+2025-09-09,FIFA World Cup qualification,played,Ecuador,ECU,Argentina,ARG,TRUE,1,0,win,Guayaquil,Ecuador,FALSE,1907,2136,1934,2109,27
+2025-10-10,Friendly,played,Ecuador,ECU,United States,USA,FALSE,1,1,draw,Austin,United States,FALSE,1934,1698,1930,1702,-4
+2025-10-14,Friendly,played,Ecuador,ECU,Mexico,MEX,FALSE,1,1,draw,Zapopan,Mexico,FALSE,1930,1847,1930,1847,0
+2025-11-13,Friendly,played,Ecuador,ECU,Canada,CAN,FALSE,0,0,draw,Toronto,Canada,FALSE,1930,1789,1929,1790,-1
+2025-11-18,Friendly,played,Ecuador,ECU,New Zealand,NZL,TRUE,2,0,win,Harrison,United States,TRUE,1929,1589,1933,1585,4
+2026-03-27,Friendly,played,Ecuador,ECU,Morocco,MAR,FALSE,1,1,draw,Madrid,Spain,TRUE,1933,1806,1929,1810,-4
+2026-03-31,Friendly,played,Ecuador,ECU,Netherlands,NLD,FALSE,1,1,draw,Eindhoven,Netherlands,FALSE,1929,1965,1933,1961,4
