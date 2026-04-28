@@ -75,6 +75,14 @@ def load_page_module(page_name: str):
     return module
 
 
+def load_team_report_card_module():
+    spec = importlib.util.spec_from_file_location("team_report_card", ROOT / "apps" / "team_report_card.py")
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    return module
+
+
 def test_build_recent_form_metrics_uses_last_8_matches_only():
     lead_in_df = pd.DataFrame(
         [
@@ -272,6 +280,189 @@ def test_build_weighted_form_table_uses_linear_recency_weights_and_confederation
     assert form_df.loc["BBB", "schedule_difficulty"] == 1.0
     assert abs(form_df.loc["BBB", "perf_vs_exp"] - round(float(bbb_expected_perf), 3)) < 1e-9
     assert form_df.loc["BBB", "elo_delta_form"] == -3.0
+
+
+def test_report_card_grade_bands_and_scores_are_bounded():
+    report_card = load_team_report_card_module()
+
+    sample = pd.Series([10, 20, 30], index=["low", "mid", "high"], dtype=float)
+    scores = report_card.series_to_report_scores(sample)
+
+    assert scores.loc["low"] == 1.0
+    assert scores.loc["mid"] == 5.5
+    assert scores.loc["high"] == 10.0
+    assert report_card.score_to_grade(9.5) == "A+"
+    assert report_card.score_to_grade(8.8) == "A"
+    assert report_card.score_to_grade(7.5) == "B"
+    assert report_card.score_to_grade(6.0) == "C"
+    assert report_card.score_to_grade(4.5) == "D"
+    assert report_card.score_to_grade(4.4) == "F"
+
+
+def test_build_best_finish_lookup_maps_historical_aliases():
+    home = load_home_module()
+    report_card = load_team_report_card_module()
+
+    base_df, _, _, _ = home.load_data()
+    lookup = report_card.build_best_finish_lookup(base_df)
+
+    assert lookup["GER"] == "Winner"
+    assert lookup["USA"] == "Third Place"
+
+
+def test_build_recent_matches_table_limits_to_latest_10_and_sorts_newest_first():
+    report_card = load_team_report_card_module()
+    lead_in_df = pd.DataFrame(
+        [
+            {
+                "lead_in_id": f"lead_{index:02d}",
+                "date": f"2026-03-{index + 1:02d}",
+                "qualified_team_id": "AAA",
+                "opponent_name": f"Opp {index:02d}",
+                "team_score": 2 if index % 3 == 0 else 1,
+                "opponent_score": 0 if index % 2 == 0 else 1,
+                "team_elo_start": 1800 + index,
+                "opponent_elo_start": 1750 + index,
+                "team_elo_delta": 5 - index * 0.1,
+                "result": "win" if index % 3 == 0 else "draw",
+                "tournament": "Friendly",
+            }
+            for index in range(12)
+        ]
+    )
+
+    recent = report_card.build_recent_matches_table(lead_in_df, "AAA", match_window=10)
+
+    assert len(recent) == 10
+    assert recent.iloc[0]["Date"] == "2026-03-12"
+    assert recent.iloc[-1]["Date"] == "2026-03-03"
+    assert {"Date", "Opponent", "Competition", "Result", "Score", "Elo Change", "Performance Score", "Grade"}.issubset(recent.columns)
+    assert recent["Performance Score"].between(1.0, 10.0).all()
+    assert recent["Grade"].isin({"A+", "A", "B", "C", "D", "F"}).all()
+
+
+def test_build_knockout_path_table_handles_projected_exit_and_progression():
+    report_card = load_team_report_card_module()
+    display_lookup = {"AAA": "Alpha", "BBB": "Beta", "CCC": "Gamma"}
+    bracket_data = {
+        "rounds": [
+            {
+                "round_code": "R32",
+                "round_label": "Round of 32",
+                "matches": [
+                    {
+                        "home_team_id": "AAA",
+                        "away_team_id": "BBB",
+                        "winner_team_id": "AAA",
+                        "home_win_prob": 62.5,
+                        "away_win_prob": 37.5,
+                        "round_label": "Round of 32",
+                    }
+                ],
+            },
+            {
+                "round_code": "R16",
+                "round_label": "Round of 16",
+                "matches": [
+                    {
+                        "home_team_id": "AAA",
+                        "away_team_id": "CCC",
+                        "winner_team_id": "CCC",
+                        "home_win_prob": 41.0,
+                        "away_win_prob": 59.0,
+                        "round_label": "Round of 16",
+                    }
+                ],
+            },
+        ]
+    }
+
+    alpha_path = report_card.build_knockout_path_table(bracket_data, "AAA", display_lookup)
+    beta_path = report_card.build_knockout_path_table(bracket_data, "BBB", display_lookup)
+
+    assert alpha_path.to_dict("records") == [
+        {
+            "Stage": "Round of 32",
+            "Opponent": "Beta",
+            "Matchup Win %": 62.5,
+            "Projected Winner": "Alpha",
+        },
+        {
+            "Stage": "Round of 16",
+            "Opponent": "Gamma",
+            "Matchup Win %": 41.0,
+            "Projected Winner": "Gamma",
+        },
+    ]
+    assert beta_path.to_dict("records") == [
+        {
+            "Stage": "Round of 32",
+            "Opponent": "Alpha",
+            "Matchup Win %": 37.5,
+            "Projected Winner": "Alpha",
+        }
+    ]
+
+
+def test_build_identity_rows_marks_pending_fields_cleanly():
+    report_card = load_team_report_card_module()
+    team_row = pd.Series(
+        {
+            "confederation": "UEFA",
+            "group_code": "B",
+            "world_rank": 7,
+            "elo_rating": 1892,
+            "world_cup_participations": 12,
+        }
+    )
+
+    rows = report_card.build_identity_rows(team_row, "Winner")
+    by_label = {row["label"]: row["value"] for row in rows}
+
+    assert by_label["Best Finish"] == "Winner"
+    assert by_label["Coach"] == "Pending data"
+    assert by_label["Captain"] == "Pending data"
+
+
+def test_build_model_reason_bullets_uses_team_id_index_not_range_index():
+    report_card = load_team_report_card_module()
+    full_df = pd.DataFrame(
+        [
+            {
+                "team_id": "CZE",
+                "elo_rating": 1800,
+                "results_form": 0.7,
+                "gd_form": 1.2,
+                "history_metric": 0.2,
+                "goals_for": 15,
+                "host_flag": 0,
+            },
+            {
+                "team_id": "BRA",
+                "elo_rating": 2000,
+                "results_form": 0.9,
+                "gd_form": 1.8,
+                "history_metric": 0.9,
+                "goals_for": 20,
+                "host_flag": 0,
+            },
+            {
+                "team_id": "USA",
+                "elo_rating": 1900,
+                "results_form": 0.6,
+                "gd_form": 0.8,
+                "history_metric": 0.5,
+                "goals_for": 12,
+                "host_flag": 1,
+            },
+        ]
+    )
+    team_row = pd.Series({"team_id": "CZE", "host_flag": 0})
+
+    bullets = report_card.build_model_reason_bullets(team_row, full_df)
+
+    assert len(bullets) == 3
+    assert all(isinstance(item, str) and item for item in bullets)
 
 
 def test_build_weighted_form_table_uses_neutral_schedule_difficulty_when_constant():
