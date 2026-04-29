@@ -1,0 +1,106 @@
+{
+  "generated_at_utc": "2026-04-29T04:07:51+00:00",
+  "validation_window": {
+    "holdout": "2022 FIFA World Cup",
+    "match_window": 10,
+    "simulations": 20000,
+    "seed": 20260403
+  },
+  "models": [
+    {
+      "model_id": "baseline_elo",
+      "model_label": "Elo-only baseline",
+      "model_type": "Multinomial logistic regression",
+      "holdout": "2022 FIFA World Cup",
+      "training_editions": [
+        2002,
+        2006,
+        2010,
+        2014,
+        2018
+      ],
+      "feature_columns": [
+        "elo_diff"
+      ],
+      "tournament_simulated": false,
+      "multiclass_log_loss": 1.0858933324426483,
+      "multiclass_brier_score": 0.6247665069714119,
+      "top1_match_accuracy": 53.125,
+      "draw_rate_actual": 23.4375,
+      "draw_rate_predicted": 21.87676144520772,
+      "round_of_16_hit_count": 0.0,
+      "semifinal_hit_count": 0.0,
+      "exact_champion_hit": 0.0,
+      "predicted_champion_team_id": "",
+      "actual_champion_team_id": "ARG"
+    },
+    {
+      "model_id": "v2",
+      "model_label": "V2 multinomial model",
+      "model_type": "Historical World Cup multinomial regression + Monte Carlo",
+      "holdout": "2022 FIFA World Cup",
+      "training_editions": [
+        2002,
+        2006,
+        2010,
+        2014,
+        2018
+      ],
+      "feature_columns": [
+        "elo_diff",
+        "results_form_diff",
+        "gd_form_diff",
+        "perf_vs_exp_diff",
+        "goals_for_diff",
+        "goals_against_diff",
+        "placement_diff",
+        "appearance_diff"
+      ],
+      "tournament_simulated": true,
+      "multiclass_log_loss": 1.0609539875581973,
+      "multiclass_brier_score": 0.6122558678325998,
+      "top1_match_accuracy": 53.125,
+      "draw_rate_actual": 23.4375,
+      "draw_rate_predicted": 22.218386382939038,
+      "round_of_16_hit_count": 9.0,
+      "semifinal_hit_count": 1.0,
+      "exact_champion_hit": 0.0,
+      "predicted_champion_team_id": "BRA",
+      "actual_champion_team_id": "ARG"
+    },
+    {
+      "model_id": "v3",
+      "model_label": "V3 Poisson expected-goals model",
+      "model_type": "Historical international Poisson regression + Monte Carlo",
+      "holdout": "2022 FIFA World Cup",
+      "training_editions": [
+        1998,
+        2022
+      ],
+      "feature_columns": [
+        "elo_diff",
+        "results_form_diff",
+        "goals_for_diff",
+        "goals_against_diff",
+        "placement_diff",
+        "appearance_diff",
+        "gd_form_diff",
+        "perf_vs_exp_diff",
+        "host_flag",
+        "neutral_site",
+        "competition_importance"
+      ],
+      "tournament_simulated": true,
+      "multiclass_log_loss": 1.0213793028946498,
+      "multiclass_brier_score": 0.6036114574543399,
+      "top1_match_accuracy": 50.0,
+      "draw_rate_actual": 23.4375,
+      "draw_rate_predicted": 21.57432908256971,
+      "round_of_16_hit_count": 10.0,
+      "semifinal_hit_count": 2.0,
+      "exact_champion_hit": 0.0,
+      "predicted_champion_team_id": "BRA",
+      "actual_champion_team_id": "ARG"
+    }
+  ]
+}

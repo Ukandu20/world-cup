@@ -1,0 +1,193 @@
+model_id,model_label,match_number,stage,home_team,away_team,home_score,away_score,home_win_prob,draw_prob,away_win_prob,predicted_outcome,actual_outcome,top1_correct
+baseline_elo,Elo-only baseline,1,Group Stage,Qatar,Ecuador,0,2,0.20926308442121513,0.2340767845973602,0.5566601309814248,away_win,away_win,True
+baseline_elo,Elo-only baseline,2,Group Stage,Senegal,Netherlands,0,2,0.07376975611246787,0.15899161306133802,0.7672386308261943,away_win,away_win,True
+baseline_elo,Elo-only baseline,3,Group Stage,England,Iran,6,2,0.5308251904004009,0.24500034827959874,0.2241744613200004,home_win,home_win,True
+baseline_elo,Elo-only baseline,4,Group Stage,United States,Wales,1,1,0.388311505862064,0.25902955074067996,0.35265894339725606,home_win,draw,False
+baseline_elo,Elo-only baseline,5,Group Stage,Argentina,Saudi Arabia,1,2,0.8589435424457695,0.11391517610936612,0.027141281444864374,home_win,away_win,False
+baseline_elo,Elo-only baseline,6,Group Stage,Mexico,Poland,0,0,0.37343358969609636,0.2589522462957979,0.3676141640081058,home_win,draw,False
+baseline_elo,Elo-only baseline,7,Group Stage,Denmark,Tunisia,0,0,0.6904278481942151,0.19947265706127798,0.11009949474450696,home_win,draw,False
+baseline_elo,Elo-only baseline,8,Group Stage,France,Australia,4,1,0.7072658081899063,0.1927932660335142,0.09994092577657941,home_win,home_win,True
+baseline_elo,Elo-only baseline,9,Group Stage,Germany,Japan,1,2,0.5935652020284783,0.23084426454621249,0.1755905334253092,home_win,away_win,False
+baseline_elo,Elo-only baseline,10,Group Stage,Spain,Costa Rica,7,0,0.7259921089712648,0.1849166044312565,0.08909128659747888,home_win,home_win,True
+baseline_elo,Elo-only baseline,11,Group Stage,Morocco,Croatia,0,0,0.20090653524944735,0.2313597053130576,0.567733759437495,away_win,draw,False
+baseline_elo,Elo-only baseline,12,Group Stage,Belgium,Canada,1,0,0.6556405682422062,0.21209944718063245,0.13225998457716137,home_win,home_win,True
+baseline_elo,Elo-only baseline,13,Group Stage,Switzerland,Cameroon,1,0,0.716306600300732,0.18905018582723684,0.0946432138720312,home_win,home_win,True
+baseline_elo,Elo-only baseline,14,Group Stage,Brazil,Serbia,2,0,0.6951776353932076,0.19762657476881276,0.10719578983797948,home_win,home_win,True
+baseline_elo,Elo-only baseline,15,Group Stage,Uruguay,South Korea,0,0,0.5644811736801538,0.23800041964562993,0.1975184066742163,home_win,draw,False
+baseline_elo,Elo-only baseline,16,Group Stage,Portugal,Ghana,3,2,0.8241521666605843,0.13527864576021983,0.04056918757919579,home_win,home_win,True
+baseline_elo,Elo-only baseline,17,Group Stage,Qatar,Senegal,1,3,0.3405073126735842,0.2576419390896718,0.401850748236744,away_win,away_win,True
+baseline_elo,Elo-only baseline,18,Group Stage,Netherlands,Ecuador,1,1,0.5992569873384892,0.22932333137383204,0.1714196812876788,home_win,draw,False
+baseline_elo,Elo-only baseline,19,Group Stage,Wales,Iran,0,2,0.4158472314118943,0.2583655325729422,0.32578723601516346,home_win,away_win,False
+baseline_elo,Elo-only baseline,20,Group Stage,England,United States,0,0,0.5785668751163016,0.2346629769425824,0.186770147941116,home_win,draw,False
+baseline_elo,Elo-only baseline,21,Group Stage,Poland,Saudi Arabia,2,0,0.5296051942393439,0.24522826054982313,0.22516654521083285,home_win,home_win,True
+baseline_elo,Elo-only baseline,22,Group Stage,Argentina,Mexico,2,0,0.7017336457774713,0.19502941695422688,0.10323693726830177,home_win,home_win,True
+baseline_elo,Elo-only baseline,23,Group Stage,Tunisia,Australia,0,1,0.4045505362118421,0.2587625844559942,0.3366868793321637,home_win,away_win,False
+baseline_elo,Elo-only baseline,24,Group Stage,France,Denmark,2,1,0.46749463898062416,0.2544193421199718,0.2780860188994041,home_win,home_win,True
+baseline_elo,Elo-only baseline,25,Group Stage,Japan,Costa Rica,0,1,0.5161150732131479,0.2476275555185572,0.2362573712682949,home_win,away_win,False
+baseline_elo,Elo-only baseline,26,Group Stage,Spain,Germany,1,1,0.5656633568709043,0.2377295690036102,0.19660707412548548,home_win,draw,False
+baseline_elo,Elo-only baseline,27,Group Stage,Belgium,Morocco,0,2,0.6668604192636962,0.2081970222893555,0.12494255844694836,home_win,away_win,False
+baseline_elo,Elo-only baseline,28,Group Stage,Croatia,Canada,4,1,0.5668440542886278,0.23745736703817805,0.19569857867319412,home_win,home_win,True
+baseline_elo,Elo-only baseline,29,Group Stage,Cameroon,Serbia,3,3,0.10964394164428022,0.1872651691746393,0.7030908891810804,away_win,draw,False
+baseline_elo,Elo-only baseline,30,Group Stage,Brazil,Switzerland,1,0,0.6989373353765991,0.19614415680960356,0.10491850781379732,home_win,home_win,True
+baseline_elo,Elo-only baseline,31,Group Stage,South Korea,Ghana,2,3,0.6628104475902851,0.20962415971373924,0.12756539269597583,home_win,away_win,False
+baseline_elo,Elo-only baseline,32,Group Stage,Portugal,Uruguay,2,0,0.48755896216660055,0.2519712366726819,0.2604698011607175,home_win,home_win,True
+baseline_elo,Elo-only baseline,33,Group Stage,Ecuador,Senegal,1,2,0.5738964127223873,0.23579627357889052,0.19030731369872209,home_win,away_win,False
+baseline_elo,Elo-only baseline,34,Group Stage,Qatar,Netherlands,0,2,0.04311269435018479,0.12507963836377026,0.8318076672860449,away_win,away_win,True
+baseline_elo,Elo-only baseline,35,Group Stage,Wales,England,0,3,0.16646446386970584,0.2181420357137091,0.615393500416585,away_win,away_win,True
+baseline_elo,Elo-only baseline,36,Group Stage,Iran,United States,0,1,0.38209749015958316,0.2590351852064072,0.3588673246340096,home_win,away_win,False
+baseline_elo,Elo-only baseline,37,Group Stage,Poland,Argentina,0,2,0.1257021088005544,0.19739412490769243,0.6769037662917531,away_win,away_win,True
+baseline_elo,Elo-only baseline,38,Group Stage,Saudi Arabia,Mexico,1,2,0.23159969388671578,0.24050953901093608,0.5278907671023482,away_win,away_win,True
+baseline_elo,Elo-only baseline,39,Group Stage,Australia,Denmark,1,0,0.17465792555384557,0.2216027171964318,0.6037393572497227,away_win,home_win,False
+baseline_elo,Elo-only baseline,40,Group Stage,Tunisia,France,1,0,0.0746099911490912,0.15976684094067775,0.7656231679102311,away_win,home_win,False
+baseline_elo,Elo-only baseline,41,Group Stage,Japan,Spain,2,1,0.12247688430212467,0.19546153704972483,0.6820615786481505,away_win,home_win,False
+baseline_elo,Elo-only baseline,42,Group Stage,Costa Rica,Germany,2,4,0.19545803097203257,0.22949107633075358,0.575050892697214,away_win,away_win,True
+baseline_elo,Elo-only baseline,43,Group Stage,Croatia,Belgium,0,0,0.37590445032224773,0.2589867598632663,0.36510878981448586,home_win,draw,False
+baseline_elo,Elo-only baseline,44,Group Stage,Canada,Morocco,1,2,0.2437954339810465,0.24354692035284353,0.5126576456661099,away_win,away_win,True
+baseline_elo,Elo-only baseline,45,Group Stage,Serbia,Switzerland,2,3,0.33331817999769353,0.25713887694158216,0.40954294306072436,away_win,away_win,True
+baseline_elo,Elo-only baseline,46,Group Stage,Cameroon,Brazil,1,0,0.019496681257837604,0.08581092464714346,0.894692394095019,away_win,home_win,False
+baseline_elo,Elo-only baseline,47,Group Stage,Ghana,Uruguay,0,2,0.11140772579209333,0.1884422859106544,0.7001499882972522,away_win,away_win,True
+baseline_elo,Elo-only baseline,48,Group Stage,South Korea,Portugal,2,1,0.10448869195525531,0.18372556748436894,0.7117857405603757,away_win,home_win,False
+baseline_elo,Elo-only baseline,49,Round of 16,Netherlands,United States,3,1,0.6324392275589084,0.21966497225653472,0.147895800184557,home_win,home_win,True
+baseline_elo,Elo-only baseline,50,Round of 16,Argentina,Australia,2,1,0.7526300958778932,0.1728726370794254,0.07449726704268145,home_win,home_win,True
+baseline_elo,Elo-only baseline,51,Round of 16,France,Poland,3,1,0.585524218640879,0.2329256139055215,0.18155016745359948,home_win,home_win,True
+baseline_elo,Elo-only baseline,52,Round of 16,England,Senegal,3,0,0.6193720461992326,0.22363041054755403,0.1569975432532135,home_win,home_win,True
+baseline_elo,Elo-only baseline,53,Round of 16,Japan,Croatia,1,1,0.26060616068252485,0.24722482956903324,0.49216900974844197,away_win,draw,False
+baseline_elo,Elo-only baseline,54,Round of 16,Brazil,South Korea,4,1,0.751832046473732,0.1732481531958909,0.0749198003303771,home_win,home_win,True
+baseline_elo,Elo-only baseline,55,Round of 16,Morocco,Spain,0,0,0.22367303768849936,0.2383596802459902,0.5379672820655104,away_win,draw,False
+baseline_elo,Elo-only baseline,56,Round of 16,Portugal,Switzerland,6,1,0.46120341488191363,0.2550830055487869,0.28371357956929955,home_win,home_win,True
+baseline_elo,Elo-only baseline,57,Quarter-final,Croatia,Brazil,1,1,0.15623027754569457,0.2135125384157153,0.6302571840385902,away_win,draw,False
+baseline_elo,Elo-only baseline,58,Quarter-final,Netherlands,Argentina,2,2,0.30976218009619577,0.2549172452335064,0.4353205746702979,away_win,draw,False
+baseline_elo,Elo-only baseline,59,Quarter-final,Morocco,Portugal,1,0,0.20182418387603637,0.23166677833059274,0.5665090377933709,away_win,home_win,False
+baseline_elo,Elo-only baseline,60,Quarter-final,England,France,1,2,0.35017086679069376,0.2581934934741713,0.39163563973513504,away_win,away_win,True
+baseline_elo,Elo-only baseline,61,Semi-final,Argentina,Croatia,3,0,0.5878301152872598,0.23233680296304496,0.1798330817496953,home_win,home_win,True
+baseline_elo,Elo-only baseline,62,Semi-final,France,Morocco,2,0,0.5332617995290955,0.24453973829320713,0.2221984621776974,home_win,home_win,True
+baseline_elo,Elo-only baseline,63,Third Place,Croatia,Morocco,2,1,0.41710448806977773,0.2583107736521726,0.32458473827804973,home_win,home_win,True
+baseline_elo,Elo-only baseline,64,Final,Argentina,France,3,3,0.47252156652057,0.2538532387915397,0.27362519468789026,home_win,draw,False
+v2,V2 multinomial model,1,Group Stage,Qatar,Ecuador,0,2,0.2941240587884046,0.2511208101032015,0.45475513110839394,away_win,away_win,True
+v2,V2 multinomial model,2,Group Stage,Senegal,Netherlands,0,2,0.05594239283981551,0.14133646958045937,0.8027211375797252,away_win,away_win,True
+v2,V2 multinomial model,3,Group Stage,England,Iran,6,2,0.6279223883996375,0.17899866637441164,0.19307894522595084,home_win,home_win,True
+v2,V2 multinomial model,4,Group Stage,United States,Wales,1,1,0.48553813537850987,0.22728012545256618,0.28718173916892387,home_win,draw,False
+v2,V2 multinomial model,5,Group Stage,Argentina,Saudi Arabia,1,2,0.9040526577060584,0.08007607526416381,0.015871267029777886,home_win,away_win,False
+v2,V2 multinomial model,6,Group Stage,Mexico,Poland,0,0,0.46339962179332,0.19921008617440908,0.33739029203227094,home_win,draw,False
+v2,V2 multinomial model,7,Group Stage,Denmark,Tunisia,0,0,0.4965435124307221,0.29830002326118943,0.20515646430808848,home_win,draw,False
+v2,V2 multinomial model,8,Group Stage,France,Australia,4,1,0.6357668214005759,0.20008081574217063,0.16415236285725338,home_win,home_win,True
+v2,V2 multinomial model,9,Group Stage,Germany,Japan,1,2,0.5694803951333056,0.21732426048162595,0.21319534438506846,home_win,away_win,False
+v2,V2 multinomial model,10,Group Stage,Spain,Costa Rica,7,0,0.6928704468561488,0.18902133009752428,0.11810822304632697,home_win,home_win,True
+v2,V2 multinomial model,11,Group Stage,Morocco,Croatia,0,0,0.2498004493810554,0.2025747697927008,0.5476247808262439,away_win,draw,False
+v2,V2 multinomial model,12,Group Stage,Belgium,Canada,1,0,0.6418812200246742,0.19848943835367755,0.15962934162164832,home_win,home_win,True
+v2,V2 multinomial model,13,Group Stage,Switzerland,Cameroon,1,0,0.5970112243316448,0.2621266027871941,0.14086217288116126,home_win,home_win,True
+v2,V2 multinomial model,14,Group Stage,Brazil,Serbia,2,0,0.7841377265166108,0.13472014839812163,0.08114212508526758,home_win,home_win,True
+v2,V2 multinomial model,15,Group Stage,Uruguay,South Korea,0,0,0.5994237792062704,0.22846683193248915,0.17210938886124047,home_win,draw,False
+v2,V2 multinomial model,16,Group Stage,Portugal,Ghana,3,2,0.7687350080121461,0.17373114594676967,0.05753384604108429,home_win,home_win,True
+v2,V2 multinomial model,17,Group Stage,Qatar,Senegal,1,3,0.34397243625906493,0.29786516335364666,0.35816240038728836,away_win,away_win,True
+v2,V2 multinomial model,18,Group Stage,Netherlands,Ecuador,1,1,0.7480459546280719,0.16773848025015925,0.08421556512176886,home_win,draw,False
+v2,V2 multinomial model,19,Group Stage,Wales,Iran,0,2,0.3671659989300312,0.2548338321215782,0.3780001689483906,away_win,away_win,True
+v2,V2 multinomial model,20,Group Stage,England,United States,0,0,0.48696576611766773,0.2455110589455083,0.26752317493682404,home_win,draw,False
+v2,V2 multinomial model,21,Group Stage,Poland,Saudi Arabia,2,0,0.5573560123210289,0.25123917301866,0.19140481466031112,home_win,home_win,True
+v2,V2 multinomial model,22,Group Stage,Argentina,Mexico,2,0,0.746811287402844,0.1961422510961526,0.05704646150100347,home_win,home_win,True
+v2,V2 multinomial model,23,Group Stage,Tunisia,Australia,0,1,0.42747149199102596,0.250760205102595,0.3217683029063791,home_win,away_win,False
+v2,V2 multinomial model,24,Group Stage,France,Denmark,2,1,0.4138524841535361,0.2123573341797314,0.3737901816667325,home_win,home_win,True
+v2,V2 multinomial model,25,Group Stage,Japan,Costa Rica,0,1,0.45960939116572025,0.2292545944057601,0.3111360144285197,home_win,away_win,False
+v2,V2 multinomial model,26,Group Stage,Spain,Germany,1,1,0.391351146323377,0.3222762815974041,0.28637257207921896,home_win,draw,False
+v2,V2 multinomial model,27,Group Stage,Belgium,Morocco,0,2,0.5506833637934505,0.2344729814721044,0.21484365473444506,home_win,away_win,False
+v2,V2 multinomial model,28,Group Stage,Croatia,Canada,4,1,0.5461726015000918,0.2810549244332617,0.1727724740666466,home_win,home_win,True
+v2,V2 multinomial model,29,Group Stage,Cameroon,Serbia,3,3,0.09010519857528845,0.14313517749454946,0.7667596239301621,away_win,draw,False
+v2,V2 multinomial model,30,Group Stage,Brazil,Switzerland,1,0,0.8349970225261977,0.11818477647887797,0.04681820099492441,home_win,home_win,True
+v2,V2 multinomial model,31,Group Stage,South Korea,Ghana,2,3,0.605713940746926,0.22477137983461942,0.1695146794184546,home_win,away_win,False
+v2,V2 multinomial model,32,Group Stage,Portugal,Uruguay,2,0,0.3411327290517551,0.3132011317046112,0.3456661392436336,away_win,home_win,False
+v2,V2 multinomial model,33,Group Stage,Ecuador,Senegal,1,2,0.40465224955149626,0.311104754712997,0.2842429957355069,home_win,away_win,False
+v2,V2 multinomial model,34,Group Stage,Qatar,Netherlands,0,2,0.054912528748265015,0.1584892985847395,0.7865981726669955,away_win,away_win,True
+v2,V2 multinomial model,35,Group Stage,Wales,England,0,3,0.15778409373242416,0.2912022942267526,0.5510136120408232,away_win,away_win,True
+v2,V2 multinomial model,36,Group Stage,Iran,United States,0,1,0.2378604641456433,0.3188833432992956,0.44325619255506105,away_win,away_win,True
+v2,V2 multinomial model,37,Group Stage,Poland,Argentina,0,2,0.039586713892302484,0.15271293959890772,0.8077003465087897,away_win,away_win,True
+v2,V2 multinomial model,38,Group Stage,Saudi Arabia,Mexico,1,2,0.12843528415984942,0.2886797714502842,0.5828849443898664,away_win,away_win,True
+v2,V2 multinomial model,39,Group Stage,Australia,Denmark,1,0,0.16993573497449488,0.21002915962947707,0.620035105396028,away_win,home_win,False
+v2,V2 multinomial model,40,Group Stage,Tunisia,France,1,0,0.18336090005523836,0.259078499781793,0.5575606001629686,away_win,home_win,False
+v2,V2 multinomial model,41,Group Stage,Japan,Spain,2,1,0.15318231864394358,0.21230478736398678,0.6345128939920697,away_win,home_win,False
+v2,V2 multinomial model,42,Group Stage,Costa Rica,Germany,2,4,0.12877234977670737,0.29464993454053384,0.5765777156827587,away_win,away_win,True
+v2,V2 multinomial model,43,Group Stage,Croatia,Belgium,0,0,0.27869462876831674,0.3515506666898021,0.3697547045418811,away_win,draw,False
+v2,V2 multinomial model,44,Group Stage,Canada,Morocco,1,2,0.2717373124761202,0.2836208559137332,0.44464183161014664,away_win,away_win,True
+v2,V2 multinomial model,45,Group Stage,Serbia,Switzerland,2,3,0.4566957048970792,0.2851964444401854,0.2581078506627353,home_win,away_win,False
+v2,V2 multinomial model,46,Group Stage,Cameroon,Brazil,1,0,0.010662988163195095,0.07473362151286034,0.9146033903239447,away_win,home_win,False
+v2,V2 multinomial model,47,Group Stage,Ghana,Uruguay,0,2,0.054941616265202275,0.16919250166381997,0.7758658820709778,away_win,away_win,True
+v2,V2 multinomial model,48,Group Stage,South Korea,Portugal,2,1,0.16273634803402437,0.20255256853010176,0.6347110834358738,away_win,home_win,False
+v2,V2 multinomial model,49,Round of 16,Netherlands,United States,3,1,0.6021916359650946,0.28056868717380373,0.11723967686110166,home_win,home_win,True
+v2,V2 multinomial model,50,Round of 16,Argentina,Australia,2,1,0.8800609277116658,0.09191552995896064,0.028023542329373683,home_win,home_win,True
+v2,V2 multinomial model,51,Round of 16,France,Poland,3,1,0.5315857761887502,0.23858324683395338,0.22983097697729643,home_win,home_win,True
+v2,V2 multinomial model,52,Round of 16,England,Senegal,3,0,0.6849104117586221,0.16855834511349632,0.14653124312788152,home_win,home_win,True
+v2,V2 multinomial model,53,Round of 16,Japan,Croatia,1,1,0.3050948519357999,0.1911172512179056,0.5037878968462945,away_win,draw,False
+v2,V2 multinomial model,54,Round of 16,Brazil,South Korea,4,1,0.853732137191094,0.11020356606065726,0.03606429674824889,home_win,home_win,True
+v2,V2 multinomial model,55,Round of 16,Morocco,Spain,0,0,0.12057564622337402,0.21634052261059641,0.6630838311660296,away_win,draw,False
+v2,V2 multinomial model,56,Round of 16,Portugal,Switzerland,6,1,0.5329286864194817,0.26976154834964705,0.1973097652308713,home_win,home_win,True
+v2,V2 multinomial model,57,Quarter-final,Croatia,Brazil,1,1,0.05452267205730215,0.25474319408059715,0.6907341338621008,away_win,draw,False
+v2,V2 multinomial model,58,Quarter-final,Netherlands,Argentina,2,2,0.14182429979941985,0.2997063793303119,0.5584693208702682,away_win,draw,False
+v2,V2 multinomial model,59,Quarter-final,Morocco,Portugal,1,0,0.15551680890080066,0.21736009996195196,0.6271230911372474,away_win,home_win,False
+v2,V2 multinomial model,60,Quarter-final,England,France,1,2,0.31956542920820963,0.24251680798591,0.4379177628058803,away_win,away_win,True
+v2,V2 multinomial model,61,Semi-final,Argentina,Croatia,3,0,0.7972356650412941,0.11766106838452425,0.08510326657418173,home_win,home_win,True
+v2,V2 multinomial model,62,Semi-final,France,Morocco,2,0,0.5471936975977864,0.22746114562667513,0.22534515677553846,home_win,home_win,True
+v2,V2 multinomial model,63,Third Place,Croatia,Morocco,2,1,0.4535546846668943,0.3213653595530521,0.2250799557800534,home_win,home_win,True
+v2,V2 multinomial model,64,Final,Argentina,France,3,3,0.7245328845928758,0.18226674566777695,0.0932003697393471,home_win,draw,False
+v3,V3 Poisson expected-goals model,1,Group Stage,Qatar,Ecuador,0,2,0.49876866243420054,0.2518602491207716,0.24937108844502787,home_win,away_win,False
+v3,V3 Poisson expected-goals model,2,Group Stage,Senegal,Netherlands,0,2,0.2508477881857532,0.22669179345036392,0.522460418363883,away_win,away_win,True
+v3,V3 Poisson expected-goals model,3,Group Stage,England,Iran,6,2,0.6057485276681265,0.2131524058156093,0.18109906651626426,home_win,home_win,True
+v3,V3 Poisson expected-goals model,4,Group Stage,United States,Wales,1,1,0.6263124362311882,0.20760584718273,0.16608171658608184,home_win,draw,False
+v3,V3 Poisson expected-goals model,5,Group Stage,Argentina,Saudi Arabia,1,2,0.8362772774107954,0.11142232705149412,0.05230039553771051,home_win,away_win,False
+v3,V3 Poisson expected-goals model,6,Group Stage,Mexico,Poland,0,0,0.643689120231719,0.200206435028644,0.15610444473963686,home_win,draw,False
+v3,V3 Poisson expected-goals model,7,Group Stage,Denmark,Tunisia,0,0,0.5018378793556606,0.23645384689072554,0.26170827375361383,home_win,draw,False
+v3,V3 Poisson expected-goals model,8,Group Stage,France,Australia,4,1,0.6339451180782166,0.2024967929279678,0.16355808899381555,home_win,home_win,True
+v3,V3 Poisson expected-goals model,9,Group Stage,Germany,Japan,1,2,0.5986599056956238,0.21617138401035094,0.18516871029402523,home_win,away_win,False
+v3,V3 Poisson expected-goals model,10,Group Stage,Spain,Costa Rica,7,0,0.6099133210383433,0.21124019125076132,0.17884648771089542,home_win,home_win,True
+v3,V3 Poisson expected-goals model,11,Group Stage,Morocco,Croatia,0,0,0.3957727057713744,0.2456256377003388,0.3586016565282869,home_win,draw,False
+v3,V3 Poisson expected-goals model,12,Group Stage,Belgium,Canada,1,0,0.6145567193140651,0.21065707835206274,0.17478620233387218,home_win,home_win,True
+v3,V3 Poisson expected-goals model,13,Group Stage,Switzerland,Cameroon,1,0,0.5313876542034046,0.23260914746284292,0.23600319833375247,home_win,home_win,True
+v3,V3 Poisson expected-goals model,14,Group Stage,Brazil,Serbia,2,0,0.7751546903397384,0.14543045563593074,0.07941485402433085,home_win,home_win,True
+v3,V3 Poisson expected-goals model,15,Group Stage,Uruguay,South Korea,0,0,0.5313317754274666,0.2333400392744513,0.23532818529808222,home_win,draw,False
+v3,V3 Poisson expected-goals model,16,Group Stage,Portugal,Ghana,3,2,0.6522022253635443,0.19587429618651536,0.1519234784499404,home_win,home_win,True
+v3,V3 Poisson expected-goals model,17,Group Stage,Qatar,Senegal,1,3,0.46803888440570107,0.25794488701458795,0.2740162285797109,home_win,away_win,False
+v3,V3 Poisson expected-goals model,18,Group Stage,Netherlands,Ecuador,1,1,0.6263531027981262,0.20759912973642694,0.16604776746544697,home_win,draw,False
+v3,V3 Poisson expected-goals model,19,Group Stage,Wales,Iran,0,2,0.3359634477409738,0.2446957338635445,0.41934081839548165,away_win,away_win,True
+v3,V3 Poisson expected-goals model,20,Group Stage,England,United States,0,0,0.48069404993260123,0.24074969049898023,0.2785562595684187,home_win,draw,False
+v3,V3 Poisson expected-goals model,21,Group Stage,Poland,Saudi Arabia,2,0,0.44511417019094596,0.24496533102360254,0.3099204987854516,home_win,home_win,True
+v3,V3 Poisson expected-goals model,22,Group Stage,Argentina,Mexico,2,0,0.6295637618478511,0.20545472318892288,0.1649815149632259,home_win,home_win,True
+v3,V3 Poisson expected-goals model,23,Group Stage,Tunisia,Australia,0,1,0.38476017152333164,0.24848343873581685,0.36675638974085156,home_win,away_win,False
+v3,V3 Poisson expected-goals model,24,Group Stage,France,Denmark,2,1,0.5858392900904483,0.21836390334755829,0.19579680656199341,home_win,home_win,True
+v3,V3 Poisson expected-goals model,25,Group Stage,Japan,Costa Rica,0,1,0.4665582417665213,0.24172855227884749,0.2917132059546312,home_win,away_win,False
+v3,V3 Poisson expected-goals model,26,Group Stage,Spain,Germany,1,1,0.3810691506031424,0.24760221223213053,0.3713286371647271,home_win,draw,False
+v3,V3 Poisson expected-goals model,27,Group Stage,Belgium,Morocco,0,2,0.5816971080060639,0.21885348887315315,0.1994494031207829,home_win,away_win,False
+v3,V3 Poisson expected-goals model,28,Group Stage,Croatia,Canada,4,1,0.47495990710372615,0.24637984878384905,0.27866024411242496,home_win,home_win,True
+v3,V3 Poisson expected-goals model,29,Group Stage,Cameroon,Serbia,3,3,0.291142952949456,0.23982753893726763,0.46902950811327637,away_win,draw,False
+v3,V3 Poisson expected-goals model,30,Group Stage,Brazil,Switzerland,1,0,0.792144401351901,0.13628895709234615,0.07156664155575283,home_win,home_win,True
+v3,V3 Poisson expected-goals model,31,Group Stage,South Korea,Ghana,2,3,0.5670832360520974,0.2222442493198428,0.21067251462805978,home_win,away_win,False
+v3,V3 Poisson expected-goals model,32,Group Stage,Portugal,Uruguay,2,0,0.3927511268138354,0.2465941546014584,0.3606547185847061,home_win,home_win,True
+v3,V3 Poisson expected-goals model,33,Group Stage,Ecuador,Senegal,1,2,0.38697418033010134,0.24906761058126606,0.3639582090886326,home_win,away_win,False
+v3,V3 Poisson expected-goals model,34,Group Stage,Qatar,Netherlands,0,2,0.30355092686914587,0.2551345199936909,0.44131455313716306,away_win,away_win,True
+v3,V3 Poisson expected-goals model,35,Group Stage,Wales,England,0,3,0.17917010995880314,0.20055173928400943,0.6202781507571874,away_win,away_win,True
+v3,V3 Poisson expected-goals model,36,Group Stage,Iran,United States,0,1,0.2978893002192976,0.23936799503385497,0.4627427047468474,away_win,away_win,True
+v3,V3 Poisson expected-goals model,37,Group Stage,Poland,Argentina,0,2,0.08462246336360937,0.13457646142929977,0.7808010752070909,away_win,away_win,True
+v3,V3 Poisson expected-goals model,38,Group Stage,Saudi Arabia,Mexico,1,2,0.19389004912849347,0.20956166336870302,0.5965482875028035,away_win,away_win,True
+v3,V3 Poisson expected-goals model,39,Group Stage,Australia,Denmark,1,0,0.3707515993781278,0.24918426016796047,0.3800641404539118,away_win,home_win,False
+v3,V3 Poisson expected-goals model,40,Group Stage,Tunisia,France,1,0,0.19801574679274245,0.2128384173938134,0.5891458358134442,away_win,home_win,False
+v3,V3 Poisson expected-goals model,41,Group Stage,Japan,Spain,2,1,0.2819243225725238,0.23617783445548873,0.48189784297198757,away_win,home_win,False
+v3,V3 Poisson expected-goals model,42,Group Stage,Costa Rica,Germany,2,4,0.21182372183027404,0.21640094256398343,0.5717753356057427,away_win,away_win,True
+v3,V3 Poisson expected-goals model,43,Group Stage,Croatia,Belgium,0,0,0.28761650189901067,0.24255531151324694,0.4698281865877424,away_win,draw,False
+v3,V3 Poisson expected-goals model,44,Group Stage,Canada,Morocco,1,2,0.38343762564461764,0.2459293779680862,0.37063299638729624,home_win,away_win,False
+v3,V3 Poisson expected-goals model,45,Group Stage,Serbia,Switzerland,2,3,0.43975639030817737,0.24500136062882003,0.3152422490630027,home_win,away_win,False
+v3,V3 Poisson expected-goals model,46,Group Stage,Cameroon,Brazil,1,0,0.05356399469305692,0.09905206928379989,0.8473839360231431,away_win,home_win,False
+v3,V3 Poisson expected-goals model,47,Group Stage,Ghana,Uruguay,0,2,0.18934359907882106,0.20743220250767985,0.6032241984134991,away_win,away_win,True
+v3,V3 Poisson expected-goals model,48,Group Stage,South Korea,Portugal,2,1,0.3337496644174738,0.24562104099479914,0.42062929458772697,away_win,home_win,False
+v3,V3 Poisson expected-goals model,49,Round of 16,Netherlands,United States,3,1,0.4880179769255078,0.24249688432623295,0.26948513874825925,home_win,home_win,True
+v3,V3 Poisson expected-goals model,50,Round of 16,Argentina,Australia,2,1,0.7753760215036865,0.14392867529667602,0.08069530319963769,home_win,home_win,True
+v3,V3 Poisson expected-goals model,51,Round of 16,France,Poland,3,1,0.6890034810277881,0.1824933550675765,0.12850316390463543,home_win,home_win,True
+v3,V3 Poisson expected-goals model,52,Round of 16,England,Senegal,3,0,0.5892811504508488,0.2175624774203416,0.19315637212880954,home_win,home_win,True
+v3,V3 Poisson expected-goals model,53,Round of 16,Japan,Croatia,1,1,0.4628874093696118,0.24140266111828718,0.29570992951210107,home_win,draw,False
+v3,V3 Poisson expected-goals model,54,Round of 16,Brazil,South Korea,4,1,0.7663536954547261,0.14923175869083977,0.08441454585443414,home_win,home_win,True
+v3,V3 Poisson expected-goals model,55,Round of 16,Morocco,Spain,0,0,0.22586717988549984,0.22045960752595672,0.5536732125885435,away_win,draw,False
+v3,V3 Poisson expected-goals model,56,Round of 16,Portugal,Switzerland,6,1,0.540977616840828,0.23030790896152703,0.228714474197645,home_win,home_win,True
+v3,V3 Poisson expected-goals model,57,Quarter-final,Croatia,Brazil,1,1,0.09404912554486969,0.1440322771723102,0.76191859728282,away_win,draw,False
+v3,V3 Poisson expected-goals model,58,Quarter-final,Netherlands,Argentina,2,2,0.22987203291412883,0.22471413696025053,0.5454138301256206,away_win,draw,False
+v3,V3 Poisson expected-goals model,59,Quarter-final,Morocco,Portugal,1,0,0.2689263544304951,0.23436371855398763,0.4967099270155173,away_win,home_win,False
+v3,V3 Poisson expected-goals model,60,Quarter-final,England,France,1,2,0.36802588323281316,0.24761208436966703,0.3843620323975199,away_win,away_win,True
+v3,V3 Poisson expected-goals model,61,Semi-final,Argentina,Croatia,3,0,0.749695568998436,0.15568691244499644,0.09461751855656758,home_win,home_win,True
+v3,V3 Poisson expected-goals model,62,Semi-final,France,Morocco,2,0,0.6218267173919529,0.20712386859274245,0.17104941401530468,home_win,home_win,True
+v3,V3 Poisson expected-goals model,63,Third Place,Croatia,Morocco,2,1,0.44052613096244464,0.24826377646251,0.31121009257504534,home_win,home_win,True
+v3,V3 Poisson expected-goals model,64,Final,Argentina,France,3,3,0.5821635596512854,0.2208239358423152,0.1970125045063994,home_win,draw,False

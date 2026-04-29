@@ -28,6 +28,16 @@ Reference notes:
 
 - [`docs/elo_rating_reference.md`](docs/elo_rating_reference.md): stored Elo rating methodology reference based on the provided `eloratings.net` summary
 
+## Validation Summary
+
+The published model validation is a 2022 World Cup holdout using `20,000` simulations, match window `10`, and seed `20260403`. See the full [`model card`](docs/model_card.md) and the reproducible artifact at [`data/processed/validation/model_validation_2022.json`](data/processed/validation/model_validation_2022.json).
+
+| Model | Log Loss | Brier | Top-1 Acc. | Draw Pred./Actual | R16 Hits | SF Hits | Champion Hit |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Elo-only baseline | 1.0859 | 0.6248 | 53.1% | 21.9% / 23.4% | 0 | 0 | No |
+| V2 multinomial model | 1.0610 | 0.6123 | 53.1% | 22.2% / 23.4% | 9 | 1 | No |
+| V3 Poisson expected-goals model | 1.0214 | 0.6036 | 50.0% | 21.6% / 23.4% | 10 | 2 | No |
+
 ## Current Probability Simulation Logic
 
 The dashboard in `apps/home.py` now uses a fixture-by-fixture Monte Carlo simulation for the full 2026 tournament.

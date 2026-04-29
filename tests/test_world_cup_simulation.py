@@ -57,6 +57,12 @@ from scripts.build_world_cup_2026_dataset import (  # noqa: E402
     compute_world_cup_history_features,
     compute_world_cup_placement_score,
 )
+from scripts.build_model_validation import (  # noqa: E402
+    METRIC_FIELDS,
+    build_model_card_markdown,
+    build_validation_artifacts,
+    run_elo_baseline_2022,
+)
 
 DATA_DIR = WORLD_CUP_ROOT / "2026"
 
@@ -2316,6 +2322,39 @@ def test_run_v3_backtest_2022_returns_valid_metrics_and_actual_champion():
     assert argentina_row["final_prob"] <= argentina_row["sf_prob"] + 1e-9
     assert argentina_row["sf_prob"] <= argentina_row["qf_prob"] + 1e-9
     assert argentina_row["qf_prob"] <= argentina_row["r16_prob"] + 1e-9
+
+
+def test_model_validation_builder_returns_expected_models_and_numeric_metrics():
+    artifacts = build_validation_artifacts(match_window=4, simulations=8, seed=17)
+    model_rows = {row["model_id"]: row for row in artifacts["models"]}
+
+    assert set(model_rows) == {"baseline_elo", "v2", "v3"}
+    for row in model_rows.values():
+        for metric_name in METRIC_FIELDS:
+            assert isinstance(float(row[metric_name]), float)
+        assert row["holdout"] == "2022 FIFA World Cup"
+
+    match_predictions = pd.DataFrame(artifacts["match_predictions"])
+    assert set(match_predictions["model_id"]) == {"baseline_elo", "v2", "v3"}
+    assert match_predictions.groupby("model_id").size().eq(64).all()
+
+
+def test_model_validation_training_excludes_2022_and_model_card_references_artifact():
+    baseline = run_elo_baseline_2022(match_window=4, seed=17)
+
+    assert 2022 not in set(baseline["training_editions"])
+
+    artifacts = build_validation_artifacts(match_window=4, simulations=8, seed=17)
+    v2_row = next(row for row in artifacts["models"] if row["model_id"] == "v2")
+    assert 2022 not in set(v2_row["training_editions"])
+
+    markdown = build_model_card_markdown(
+        {
+            "validation_window": artifacts["validation_window"],
+            "models": artifacts["models"],
+        }
+    )
+    assert "data/processed/validation/model_validation_2022.json" in markdown
 
 
 def test_v2_probabilities_page_exists_and_wires_home_renderer():
