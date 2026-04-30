@@ -3,7 +3,14 @@ data/*
 !data/processed/
 !data/processed/**
 INT-World Cup
-assets/
+assets/*
+!assets/README.md
+!assets/logos/
+assets/logos/*
+!assets/logos/world-cup/
+assets/logos/world-cup/*
+!assets/logos/world-cup/Coupe-du-monde.svg
+!assets/logos/world-cup/fifa-world-cup-2026.football.cc.svg
 __pycache__/
 .cache/
 .agents/

@@ -139,7 +139,10 @@ def fix_mojibake(value: str) -> str:
 @st.cache_data(show_spinner=False)
 def load_svg_data_uri(svg_path: str) -> str:
     """Load a local SVG file as a data URI for inline display and export."""
-    svg_bytes = Path(svg_path).read_bytes()
+    path = Path(svg_path)
+    if not path.exists():
+        return ""
+    svg_bytes = path.read_bytes()
     encoded = base64.b64encode(svg_bytes).decode("ascii")
     return f"data:image/svg+xml;base64,{encoded}"
 
@@ -417,11 +420,16 @@ def render_dashboard_header(
     model_label: str = MODEL_LABEL,
 ) -> None:
     """Render the shared dashboard header."""
+    logo_markup = (
+        f'<img class="wc-title-logo" src="{world_cup_logo_data_uri}" alt="FIFA World Cup 2026 logo" />'
+        if world_cup_logo_data_uri
+        else ""
+    )
     st.markdown(
         f"""
         <div class="wc-header">
           <div class="wc-header-bar">
-            <img class="wc-title-logo" src="{world_cup_logo_data_uri}" alt="FIFA World Cup 2026 logo" />
+            {logo_markup}
             <div>
               <div class="wc-kicker">Pre-Tournament Predictions</div>
               <h1 style="margin:0;">{html.escape(title)}</h1>
@@ -1185,6 +1193,8 @@ def render_name_cell(
 def champion_column_header() -> str:
     """Render the Champion column header with the local trophy icon."""
     trophy_data_uri = load_champion_trophy_data_uri()
+    if not trophy_data_uri:
+        return "Champion %"
     return (
         '<span class="wc-header-icon-label">'
         f'<img class="wc-header-icon" src="{trophy_data_uri}" alt="Champion trophy" />'
