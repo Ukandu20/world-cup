@@ -13,6 +13,9 @@ if str(ROOT) not in sys.path:
 
 from world_cup_simulation import (  # noqa: E402
     THIRD_PLACE_ROUTING_MAP,
+    SAMPLE_WEIGHT_POLICY,
+    TRAINING_SCOPE_ALL_INTERNATIONAL,
+    TRAINING_SCOPE_WORLD_CUP_ONLY,
     V2_PREVIOUS_EDITION_LOOKBACK,
     V3_MATCH_START_YEAR,
     WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT,
@@ -35,6 +38,8 @@ from world_cup_simulation import (  # noqa: E402
     fit_v2_match_multinomial_model,
     fit_v3_poisson_models,
     get_modal_group_rankings,
+    resolve_training_anchor_date,
+    resolve_training_anchor_year,
     normalize_weight_pair,
     predict_match_probabilities_v2,
     predict_knockout_matchup,
@@ -1927,13 +1932,22 @@ def test_get_first_kickoff_details_uses_earliest_group_stage_fixture():
     assert kickoff["kickoff_utc_time_label"] == "19:00"
 
 
-def test_build_v2_training_frame_uses_previous_five_editions_and_includes_knockout_rows():
+def test_training_anchor_resolution_uses_five_prior_world_cup_start():
+    assert resolve_training_anchor_year(2026) == 2002
+    assert resolve_training_anchor_date(2026).strftime("%Y-%m-%d") == "2002-05-31"
+    assert resolve_training_anchor_year(2022) == 1998
+    assert resolve_training_anchor_date(2022).strftime("%Y-%m-%d") == "1998-06-10"
+
+
+def test_build_v2_training_frame_uses_anchor_editions_and_includes_knockout_rows():
     training_df = build_v2_training_frame(match_window=4)
 
-    assert set(training_df["edition"].astype(int)) == {2006, 2010, 2014, 2018, 2022}
+    assert set(training_df["edition"].astype(int)) == {2002, 2006, 2010, 2014, 2018, 2022}
     assert {"Group Stage", "Quarter-final", "Semi-final", "Final"}.issubset(set(training_df["stage"]))
     assert {"group", "knockout"} == set(training_df["stage_bucket"])
     assert set(training_df["outcome_label"]).issubset({"home_win", "draw", "away_win"})
+    assert set(training_df["training_scope"]) == {TRAINING_SCOPE_WORLD_CUP_ONLY}
+    assert set(training_df["sample_weight"].astype(float)) == {3.0}
     for column_name in (
         "elo_diff",
         "results_form_diff",
@@ -1948,10 +1962,30 @@ def test_build_v2_training_frame_uses_previous_five_editions_and_includes_knocko
 
 
 def test_build_v2_training_frame_excludes_holdout_edition():
-    training_df = build_v2_training_frame(match_window=4, exclude_editions=(2022,))
+    training_df = build_v2_training_frame(
+        match_window=4,
+        exclude_editions=(2022,),
+        reference_edition_year=2022,
+    )
 
     assert 2022 not in set(training_df["edition"].astype(int))
-    assert set(training_df["edition"].astype(int)) == {2002, 2006, 2010, 2014, 2018}
+    assert set(training_df["edition"].astype(int)) == {1998, 2002, 2006, 2010, 2014, 2018}
+
+
+def test_build_v2_training_frame_all_international_scope_has_tournament_mix_and_weights():
+    training_df = build_v2_training_frame(
+        match_window=4,
+        training_scope=TRAINING_SCOPE_ALL_INTERNATIONAL,
+        reference_edition_year=2022,
+        end_date="1998-06-30",
+    )
+
+    assert not training_df.empty
+    assert set(training_df["training_scope"]) == {TRAINING_SCOPE_ALL_INTERNATIONAL}
+    assert str(pd.to_datetime(training_df["date"]).min().date()) >= "1998-06-10"
+    assert str(pd.to_datetime(training_df["date"]).max().date()) <= "1998-06-30"
+    assert training_df["tournament"].nunique() > 1
+    assert training_df["sample_weight"].astype(float).between(1.0, 3.0).all()
 
 
 def test_classify_competition_importance_uses_v3_scale():
@@ -1975,7 +2009,8 @@ def test_build_v3_training_frame_respects_cutoff_and_columns():
 
     assert not training_df.empty
     assert str(training_df["date"].max().date()) <= cutoff
-    assert training_df["date"].min().year >= 1998
+    assert str(training_df["date"].min().date()) >= "2002-05-31"
+    assert set(training_df["training_scope"]) == {TRAINING_SCOPE_ALL_INTERNATIONAL}
     for column_name in (
         "elo_diff",
         "results_form_diff",
@@ -1990,6 +2025,23 @@ def test_build_v3_training_frame_respects_cutoff_and_columns():
         "net_host_flag",
     ):
         assert column_name in training_df.columns
+    assert training_df["sample_weight"].astype(float).between(1.0, 3.0).all()
+
+
+def test_build_v3_training_frame_world_cup_scope_has_constant_world_cup_weights():
+    training_df = build_v3_training_frame(
+        pd.DataFrame(),
+        match_window=4,
+        training_scope=TRAINING_SCOPE_WORLD_CUP_ONLY,
+        reference_edition_year=2022,
+        end_date="1998-06-30",
+    )
+
+    assert not training_df.empty
+    assert set(training_df["training_scope"]) == {TRAINING_SCOPE_WORLD_CUP_ONLY}
+    assert set(training_df["tournament"]) == {"FIFA World Cup"}
+    assert set(training_df["sample_weight"].astype(float)) == {3.0}
+    assert str(pd.to_datetime(training_df["date"]).min().date()) == "1998-06-10"
 
 
 def test_fit_v3_model_predicts_valid_lambdas_and_probability_triplet():
@@ -2328,25 +2380,37 @@ def test_model_validation_builder_returns_expected_models_and_numeric_metrics():
     artifacts = build_validation_artifacts(match_window=4, simulations=8, seed=17)
     model_rows = {row["model_id"]: row for row in artifacts["models"]}
 
-    assert set(model_rows) == {"baseline_elo", "v2", "v3"}
+    expected_models = {
+        "baseline_elo",
+        "v2_world_cup_only",
+        "v2_all_international_since_anchor",
+        "v3_world_cup_only",
+        "v3_all_international_since_anchor",
+    }
+    assert set(model_rows) == expected_models
     for row in model_rows.values():
         for metric_name in METRIC_FIELDS:
             assert isinstance(float(row[metric_name]), float)
         assert row["holdout"] == "2022 FIFA World Cup"
+        assert row["anchor_year"] == 1998
+        assert row["anchor_date"] == "1998-06-10"
+        assert int(row["training_match_count"]) > 0
+        assert row["sample_weight_policy"] == SAMPLE_WEIGHT_POLICY
 
     match_predictions = pd.DataFrame(artifacts["match_predictions"])
-    assert set(match_predictions["model_id"]) == {"baseline_elo", "v2", "v3"}
+    assert set(match_predictions["model_id"]) == expected_models
     assert match_predictions.groupby("model_id").size().eq(64).all()
 
 
 def test_model_validation_training_excludes_2022_and_model_card_references_artifact():
     baseline = run_elo_baseline_2022(match_window=4, seed=17)
 
-    assert 2022 not in set(baseline["training_editions"])
+    assert baseline["training_metadata"]["training_scope"] == TRAINING_SCOPE_ALL_INTERNATIONAL
+    assert baseline["training_metadata"]["training_end_date"] < "2022-11-20"
 
     artifacts = build_validation_artifacts(match_window=4, simulations=8, seed=17)
-    v2_row = next(row for row in artifacts["models"] if row["model_id"] == "v2")
-    assert 2022 not in set(v2_row["training_editions"])
+    for row in artifacts["models"]:
+        assert row["training_end_date"] < "2022-11-20"
 
     markdown = build_model_card_markdown(
         {
@@ -2355,6 +2419,7 @@ def test_model_validation_training_excludes_2022_and_model_card_references_artif
         }
     )
     assert "data/processed/validation/model_validation_2022.json" in markdown
+    assert "all_international_since_anchor" in markdown
 
 
 def test_v2_probabilities_page_exists_and_wires_home_renderer():

@@ -23,33 +23,6 @@ def normalize_excluded_tournaments(exclude_tournament: str | Iterable[str] | Non
     return tuple(sorted({normalize_key(value) for value in values if normalize_key(value)}))
 
 
-def classify_competition_importance(tournament: str | None) -> float:
-    """Map a tournament name onto the fixed V3 competition-importance scale."""
-    normalized = normalize_key(tournament)
-    if not normalized:
-        return float(V3_COMPETITION_IMPORTANCE["friendly"])
-    if "friendly" in normalized or "exhibition" in normalized:
-        return float(V3_COMPETITION_IMPORTANCE["friendly"])
-    if any(token in normalized for token in ("qualification", "qualifying", "qualifier", "preliminary competition")):
-        return float(V3_COMPETITION_IMPORTANCE["qualifier"])
-    if "world cup" in normalized:
-        return float(V3_COMPETITION_IMPORTANCE["world_cup_finals"])
-
-    continental_keywords = (
-        "african cup of nations",
-        "asian cup",
-        "copa america",
-        "concacaf gold cup",
-        "european championship",
-        "uefa euro",
-        "nations cup",
-        "cup of nations",
-    )
-    if any(token in normalized for token in continental_keywords):
-        return float(V3_COMPETITION_IMPORTANCE["continental_finals"])
-    return float(V3_COMPETITION_IMPORTANCE["other_competitive"])
-
-
 def is_neutral_site(value: object) -> bool:
     """Interpret common boolean and text representations of a neutral-site flag."""
     if isinstance(value, bool):
@@ -219,19 +192,32 @@ def build_v3_training_frame(
     start_year: int = V3_MATCH_START_YEAR,
     end_date: str | pd.Timestamp | None = None,
     exclude_tournament: str | Iterable[str] | None = None,
+    training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
+    reference_edition_year: int = 2026,
 ) -> pd.DataFrame:
-    """Build the historical match-level V3 training frame from broad international results."""
-    if results_df.empty:
+    """Build the historical match-level V3 training frame for the selected training scope."""
+    scope = normalize_training_scope(training_scope)
+    anchor_year = resolve_training_anchor_year(reference_edition_year, lookback_editions=edition_lookback)
+    anchor_date = resolve_training_anchor_date(reference_edition_year, lookback_editions=edition_lookback)
+    if results_df.empty and scope == TRAINING_SCOPE_ALL_INTERNATIONAL:
         raise ValueError("results_df must include historical international matches for V3")
 
     cutoff = pd.Timestamp(end_date) if end_date is not None else None
     excluded_tournaments = set(normalize_excluded_tournaments(exclude_tournament))
 
-    training_source = results_df.copy()
+    if scope == TRAINING_SCOPE_WORLD_CUP_ONLY:
+        training_source = load_historical_world_cup_results(exclude_editions=())
+        training_source["tournament"] = "FIFA World Cup"
+        training_source["neutral"] = True
+        if "country" not in training_source.columns:
+            training_source["country"] = ""
+    else:
+        training_source = results_df.copy()
     training_source["date"] = pd.to_datetime(training_source["date"], errors="coerce")
     training_source["home_score"] = pd.to_numeric(training_source["home_score"], errors="coerce")
     training_source["away_score"] = pd.to_numeric(training_source["away_score"], errors="coerce")
     training_source = training_source.dropna(subset=["date", "home_score", "away_score", "home_team", "away_team"]).copy()
+    training_source = training_source[training_source["date"] >= anchor_date].copy()
     training_source = training_source[training_source["date"].dt.year >= int(start_year)].copy()
     if cutoff is not None:
         training_source = training_source[training_source["date"] <= cutoff].copy()
@@ -281,9 +267,12 @@ def build_v3_training_frame(
         rows.append(
             {
                 "date": match_date,
+                "edition": int(getattr(match, "edition", match_date.year)) if pd.notna(getattr(match, "edition", match_date.year)) else int(match_date.year),
                 "home_team": str(match.home_team),
                 "away_team": str(match.away_team),
                 "tournament": str(getattr(match, "tournament", "")),
+                "stage": str(getattr(match, "stage", "")),
+                "stage_bucket": match_stage_bucket(getattr(match, "stage", "")),
                 "home_score": int(match.home_score),
                 "away_score": int(match.away_score),
                 "outcome_label": outcome_label_from_scoreline(int(match.home_score), int(match.away_score)),
@@ -305,6 +294,9 @@ def build_v3_training_frame(
     training_df = pd.DataFrame(rows)
     if training_df.empty:
         raise ValueError("V3 training frame is empty")
+    training_df["training_scope"] = scope
+    training_df["anchor_year"] = int(anchor_year)
+    training_df["anchor_date"] = anchor_date.strftime("%Y-%m-%d")
     return training_df
 
 
@@ -315,12 +307,15 @@ def fit_v3_poisson_models(
     start_year: int = V3_MATCH_START_YEAR,
     end_date: str | None = None,
     exclude_tournament: str | tuple[str, ...] | None = None,
+    training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
+    reference_edition_year: int = 2026,
 ) -> dict[str, object]:
     """Fit and cache the pair of Poisson goal models used by V3."""
     results_path = INTERNATIONAL_RESULTS_PATH
     if not results_path.exists():
         raise ValueError("Historical international results are unavailable for V3 training")
     normalized_exclusions = normalize_excluded_tournaments(exclude_tournament)
+    scope = normalize_training_scope(training_scope)
     training_df = build_v3_training_frame(
         pd.read_csv(results_path),
         match_window=match_window,
@@ -328,6 +323,8 @@ def fit_v3_poisson_models(
         start_year=start_year,
         end_date=end_date,
         exclude_tournament=normalized_exclusions,
+        training_scope=scope,
+        reference_edition_year=reference_edition_year,
     )
     try:
         from sklearn.linear_model import PoissonRegressor
@@ -345,6 +342,8 @@ def fit_v3_poisson_models(
     home_goal_model.fit(X_scaled, training_df["home_score"].astype(float).to_numpy(), sample_weight=sample_weight)
     away_goal_model.fit(X_scaled, training_df["away_score"].astype(float).to_numpy(), sample_weight=sample_weight)
 
+    anchor_year = int(training_df["anchor_year"].iloc[0])
+    anchor_date = pd.Timestamp(training_df["anchor_date"].iloc[0])
     return {
         "training_frame": training_df,
         "feature_columns": V3_FEATURE_COLUMNS,
@@ -356,6 +355,7 @@ def fit_v3_poisson_models(
         "start_year": int(start_year),
         "end_date": end_date,
         "exclude_tournament": normalized_exclusions,
+        **training_metadata_from_frame(training_df, scope, anchor_year, anchor_date),
     }
 
 
@@ -698,13 +698,19 @@ def simulate_group_probabilities_v3(
     seed: int = 20260403,
     group_order: Iterable[str] = DEFAULT_GROUP_ORDER,
     match_window: int = RECENT_MATCH_WINDOW,
+    training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
 ) -> pd.DataFrame:
     """Simulate the 2026 tournament using the V3 Poisson expected-goals model."""
     if simulations <= 0:
         raise ValueError("simulations must be positive")
 
     group_order = list(group_order)
-    model_bundle = fit_v3_poisson_models(match_window=match_window)
+    scope = normalize_training_scope(training_scope)
+    model_bundle = fit_v3_poisson_models(
+        match_window=match_window,
+        training_scope=scope,
+        reference_edition_year=2026,
+    )
     feature_df = build_v3_team_feature_table(base_df, lead_in_df, reference_date_or_edition=2026, match_window=match_window)
     group_fixtures = extract_group_stage_fixtures(fixtures_df, group_order=group_order)
     knockout_fixtures = extract_knockout_fixtures(fixtures_df)
@@ -929,13 +935,20 @@ def simulate_group_probabilities_v3_32team(
     group_order: Iterable[str] = BACKTEST_2022_GROUP_ORDER,
     match_window: int = RECENT_MATCH_WINDOW,
     training_end_date: str | pd.Timestamp | None = None,
+    training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
 ) -> pd.DataFrame:
     """Simulate a 32-team tournament using the V3 Poisson expected-goals model."""
     if simulations <= 0:
         raise ValueError("simulations must be positive")
 
     group_order = list(group_order)
-    model_bundle = fit_v3_poisson_models(match_window=match_window, end_date=None if training_end_date is None else str(pd.Timestamp(training_end_date).date()))
+    scope = normalize_training_scope(training_scope)
+    model_bundle = fit_v3_poisson_models(
+        match_window=match_window,
+        end_date=None if training_end_date is None else str(pd.Timestamp(training_end_date).date()),
+        training_scope=scope,
+        reference_edition_year=2022,
+    )
     feature_df = build_v3_team_feature_table(base_df, lead_in_df, reference_date_or_edition=2022, match_window=match_window)
     group_fixtures = extract_group_stage_fixtures(fixtures_df, group_order=group_order)
     knockout_fixtures = (
@@ -1108,6 +1121,7 @@ def run_v3_2022_backtest(
     match_window: int = RECENT_MATCH_WINDOW,
     simulations: int = 20000,
     seed: int = 20260403,
+    training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
 ) -> dict[str, object]:
     """Run a leakage-free V3 backtest against the actual 2022 World Cup."""
     dataset = build_2022_backtest_data()
@@ -1120,9 +1134,12 @@ def run_v3_2022_backtest(
     edition_start = pd.to_datetime(pd.DataFrame(results_df)["date"], errors="coerce").min()
     training_end_date = None if pd.isna(edition_start) else str((pd.Timestamp(edition_start) - pd.Timedelta(days=1)).date())
 
+    scope = normalize_training_scope(training_scope)
     model_bundle = fit_v3_poisson_models(
         match_window=match_window,
         end_date=training_end_date,
+        training_scope=scope,
+        reference_edition_year=2022,
     )
     feature_df = build_v3_team_feature_table(
         base_df,
@@ -1138,6 +1155,7 @@ def run_v3_2022_backtest(
         seed=seed,
         match_window=match_window,
         training_end_date=training_end_date,
+        training_scope=scope,
     )
     deterministic_bracket = build_deterministic_bracket_v3_32team(
         simulation_df,
@@ -1297,6 +1315,18 @@ def run_v3_2022_backtest(
         ).reset_index(drop=True),
         "group_backtest_table": group_backtest_table,
         "bracket_summary": bracket_summary,
+        "training_metadata": {
+            key: model_bundle.get(key)
+            for key in [
+                "training_scope",
+                "anchor_year",
+                "anchor_date",
+                "training_start_date",
+                "training_end_date",
+                "training_match_count",
+                "sample_weight_policy",
+            ]
+        },
     }
 
 

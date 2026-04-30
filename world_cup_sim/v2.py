@@ -125,17 +125,60 @@ def build_v2_training_frame(
     match_window: int = RECENT_MATCH_WINDOW,
     exclude_editions: Iterable[int] = (),
     edition_lookback: int = V2_PREVIOUS_EDITION_LOOKBACK,
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
+    reference_edition_year: int = 2026,
+    end_date: str | pd.Timestamp | None = None,
 ) -> pd.DataFrame:
     """Build the historical match-level training frame for the v2 multinomial model."""
+    scope = normalize_training_scope(training_scope)
+    anchor_year = resolve_training_anchor_year(reference_edition_year, lookback_editions=edition_lookback)
+    anchor_date = resolve_training_anchor_date(reference_edition_year, lookback_editions=edition_lookback)
+    cutoff = pd.Timestamp(end_date) if end_date is not None else None
+
+    if scope == TRAINING_SCOPE_ALL_INTERNATIONAL:
+        from .v3 import build_v3_training_frame
+
+        if not INTERNATIONAL_RESULTS_PATH.exists():
+            raise ValueError("Historical international results are unavailable for V2 all-international training")
+        training_df = build_v3_training_frame(
+            pd.read_csv(INTERNATIONAL_RESULTS_PATH),
+            match_window=match_window,
+            edition_lookback=edition_lookback,
+            end_date=end_date,
+            training_scope=scope,
+            reference_edition_year=reference_edition_year,
+        )
+        training_df["stage"] = training_df.get("stage", "").replace("", "International Match")
+        training_df["stage_bucket"] = V2_STAGE_GROUP
+        keep_columns = [
+            "date",
+            "edition",
+            "stage",
+            "stage_bucket",
+            "home_team",
+            "away_team",
+            "tournament",
+            "home_score",
+            "away_score",
+            "outcome_label",
+            *V2_FEATURE_COLUMNS,
+            "sample_weight",
+            "training_scope",
+            "anchor_year",
+            "anchor_date",
+        ]
+        return training_df.loc[:, keep_columns].copy()
+
     historical_results = load_historical_world_cup_results(exclude_editions=exclude_editions)
     if historical_results.empty:
         raise ValueError("Historical World Cup results are unavailable for v2 training")
 
-    if edition_lookback > 0:
-        included_editions = sorted(historical_results["edition"].dropna().astype(int).unique().tolist())[-int(edition_lookback) :]
-        historical_results = historical_results[historical_results["edition"].isin(included_editions)].copy()
+    historical_results["date"] = pd.to_datetime(historical_results["date"], errors="coerce")
+    historical_results = historical_results[historical_results["edition"].astype(int) >= int(anchor_year)].copy()
+    if cutoff is not None:
+        historical_results = historical_results[historical_results["date"] <= cutoff].copy()
     if historical_results.empty:
-        raise ValueError("Historical World Cup training frame is empty after edition lookback filtering")
+        raise ValueError("Historical World Cup training frame is empty after anchor filtering")
 
     country_results_lookup = load_historical_country_results_lookup()
     placement_df, edition_team_counts, edition_weight_map = load_historical_placement_history()
@@ -160,10 +203,12 @@ def build_v2_training_frame(
             rows.append(
                 {
                     "edition": int(edition_year),
+                    "date": pd.Timestamp(match.date),
                     "stage": str(match.stage),
                     "stage_bucket": str(match.stage_bucket),
                     "home_team": str(match.home_team),
                     "away_team": str(match.away_team),
+                    "tournament": "FIFA World Cup",
                     "home_score": int(match.home_score),
                     "away_score": int(match.away_score),
                     "outcome_label": outcome_label_from_scoreline(int(match.home_score), int(match.away_score)),
@@ -175,12 +220,16 @@ def build_v2_training_frame(
                     "goals_against_diff": float(home_features.get("goals_against", 0.0)) - float(away_features.get("goals_against", 0.0)),
                     "placement_diff": float(home_features.get("placement", 0.0)) - float(away_features.get("placement", 0.0)),
                     "appearance_diff": float(home_features.get("appearance", 0.0)) - float(away_features.get("appearance", 0.0)),
+                    "sample_weight": classify_competition_importance("FIFA World Cup"),
                 }
             )
 
     training_df = pd.DataFrame(rows)
     if training_df.empty:
         raise ValueError("Historical World Cup training frame is empty")
+    training_df["training_scope"] = scope
+    training_df["anchor_year"] = int(anchor_year)
+    training_df["anchor_date"] = anchor_date.strftime("%Y-%m-%d")
     return training_df
 
 
@@ -213,13 +262,20 @@ def fit_v2_match_multinomial_model(
     match_window: int = RECENT_MATCH_WINDOW,
     exclude_editions: tuple[int, ...] = (),
     edition_lookback: int = V2_PREVIOUS_EDITION_LOOKBACK,
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
+    reference_edition_year: int = 2026,
+    end_date: str | None = None,
 ) -> dict[str, object]:
     """Fit the sklearn multinomial model plus empirical scoreline samplers for v2."""
     normalized_exclusions = normalize_excluded_editions(exclude_editions)
+    scope = normalize_training_scope(training_scope)
     training_df = build_v2_training_frame(
         match_window=match_window,
         exclude_editions=normalized_exclusions,
         edition_lookback=edition_lookback,
+        training_scope=scope,
+        reference_edition_year=reference_edition_year,
+        end_date=end_date,
     )
     try:
         from sklearn.linear_model import LogisticRegression
@@ -229,6 +285,7 @@ def fit_v2_match_multinomial_model(
 
     X = training_df.loc[:, list(V2_FEATURE_COLUMNS)].astype(float)
     y = training_df["outcome_label"].astype(str)
+    sample_weight = training_df["sample_weight"].astype(float).to_numpy()
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
     model = LogisticRegression(
@@ -237,7 +294,9 @@ def fit_v2_match_multinomial_model(
         max_iter=5000,
         random_state=20260403,
     )
-    model.fit(X_scaled, y)
+    model.fit(X_scaled, y, sample_weight=sample_weight)
+    anchor_year = int(training_df["anchor_year"].iloc[0])
+    anchor_date = pd.Timestamp(training_df["anchor_date"].iloc[0])
     return {
         "training_frame": training_df,
         "feature_columns": V2_FEATURE_COLUMNS,
@@ -245,7 +304,9 @@ def fit_v2_match_multinomial_model(
         "model": model,
         "exclude_editions": normalized_exclusions,
         "edition_lookback": int(edition_lookback),
+        "end_date": end_date,
         "scoreline_distributions": build_v2_scoreline_distributions(training_df),
+        **training_metadata_from_frame(training_df, scope, anchor_year, anchor_date),
     }
 
 
@@ -565,6 +626,8 @@ def simulate_group_probabilities_v2_32team(
     group_order: Iterable[str] = BACKTEST_2022_GROUP_ORDER,
     match_window: int = RECENT_MATCH_WINDOW,
     exclude_editions: Iterable[int] = (),
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
+    training_end_date: str | pd.Timestamp | None = None,
 ) -> pd.DataFrame:
     """Simulate a 32-team tournament using the V2 multinomial model."""
     if simulations <= 0:
@@ -572,9 +635,13 @@ def simulate_group_probabilities_v2_32team(
 
     group_order = list(group_order)
     normalized_exclusions = normalize_excluded_editions(exclude_editions)
+    scope = normalize_training_scope(training_scope)
     model_bundle = fit_v2_match_multinomial_model(
         match_window=match_window,
         exclude_editions=normalized_exclusions,
+        training_scope=scope,
+        reference_edition_year=2022,
+        end_date=None if training_end_date is None else str(pd.Timestamp(training_end_date).date()),
     )
     feature_df = build_v2_match_feature_table(
         base_df,
@@ -784,6 +851,7 @@ def simulate_group_probabilities_v2_32team(
         if order_counter
     }
     result_df.attrs["exclude_editions"] = normalized_exclusions
+    result_df.attrs["training_scope"] = scope
     return result_df
 
 
@@ -867,6 +935,7 @@ def run_v2_backtest_2022(
     match_window: int = RECENT_MATCH_WINDOW,
     simulations: int = 20000,
     seed: int = 20260403,
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
 ) -> dict[str, object]:
     """Run a leakage-free V2 backtest against the actual 2022 World Cup."""
     dataset = build_2022_backtest_data()
@@ -876,10 +945,16 @@ def run_v2_backtest_2022(
     results_df = dataset["results_df"]
     placement_df = dataset["placement_df"]
     group_code_lookup = dataset["group_code_lookup"]
+    edition_start = pd.to_datetime(pd.DataFrame(results_df)["date"], errors="coerce").min()
+    training_end_date = None if pd.isna(edition_start) else str((pd.Timestamp(edition_start) - pd.Timedelta(days=1)).date())
+    scope = normalize_training_scope(training_scope)
 
     model_bundle = fit_v2_match_multinomial_model(
         match_window=match_window,
         exclude_editions=(2022,),
+        training_scope=scope,
+        reference_edition_year=2022,
+        end_date=training_end_date,
     )
     feature_df = build_v2_match_feature_table(
         base_df,
@@ -895,6 +970,8 @@ def run_v2_backtest_2022(
         seed=seed,
         match_window=match_window,
         exclude_editions=(2022,),
+        training_scope=scope,
+        training_end_date=training_end_date,
     )
     deterministic_bracket = build_deterministic_bracket_v2_32team(
         simulation_df,
@@ -1076,6 +1153,18 @@ def run_v2_backtest_2022(
         ).reset_index(drop=True),
         "group_backtest_table": group_backtest_table,
         "bracket_summary": bracket_summary,
+        "training_metadata": {
+            key: model_bundle.get(key)
+            for key in [
+                "training_scope",
+                "anchor_year",
+                "anchor_date",
+                "training_start_date",
+                "training_end_date",
+                "training_match_count",
+                "sample_weight_policy",
+            ]
+        },
     }
 
 
@@ -1087,13 +1176,19 @@ def simulate_group_probabilities_v2(
     seed: int = 20260403,
     group_order: Iterable[str] = DEFAULT_GROUP_ORDER,
     match_window: int = RECENT_MATCH_WINDOW,
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
 ) -> pd.DataFrame:
     """Simulate the 2026 tournament using the v2 multinomial outcome model."""
     if simulations <= 0:
         raise ValueError("simulations must be positive")
 
     group_order = list(group_order)
-    model_bundle = fit_v2_match_multinomial_model(match_window=match_window)
+    scope = normalize_training_scope(training_scope)
+    model_bundle = fit_v2_match_multinomial_model(
+        match_window=match_window,
+        training_scope=scope,
+        reference_edition_year=2026,
+    )
     feature_df = build_v2_match_feature_table(base_df, lead_in_df, match_window=match_window)
     group_fixtures = extract_group_stage_fixtures(fixtures_df, group_order=group_order)
     knockout_fixtures = extract_knockout_fixtures(fixtures_df)

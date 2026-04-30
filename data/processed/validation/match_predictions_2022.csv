@@ -1,193 +1,321 @@
 model_id,model_label,match_number,stage,home_team,away_team,home_score,away_score,home_win_prob,draw_prob,away_win_prob,predicted_outcome,actual_outcome,top1_correct
-baseline_elo,Elo-only baseline,1,Group Stage,Qatar,Ecuador,0,2,0.20926308442121513,0.2340767845973602,0.5566601309814248,away_win,away_win,True
-baseline_elo,Elo-only baseline,2,Group Stage,Senegal,Netherlands,0,2,0.07376975611246787,0.15899161306133802,0.7672386308261943,away_win,away_win,True
-baseline_elo,Elo-only baseline,3,Group Stage,England,Iran,6,2,0.5308251904004009,0.24500034827959874,0.2241744613200004,home_win,home_win,True
-baseline_elo,Elo-only baseline,4,Group Stage,United States,Wales,1,1,0.388311505862064,0.25902955074067996,0.35265894339725606,home_win,draw,False
-baseline_elo,Elo-only baseline,5,Group Stage,Argentina,Saudi Arabia,1,2,0.8589435424457695,0.11391517610936612,0.027141281444864374,home_win,away_win,False
-baseline_elo,Elo-only baseline,6,Group Stage,Mexico,Poland,0,0,0.37343358969609636,0.2589522462957979,0.3676141640081058,home_win,draw,False
-baseline_elo,Elo-only baseline,7,Group Stage,Denmark,Tunisia,0,0,0.6904278481942151,0.19947265706127798,0.11009949474450696,home_win,draw,False
-baseline_elo,Elo-only baseline,8,Group Stage,France,Australia,4,1,0.7072658081899063,0.1927932660335142,0.09994092577657941,home_win,home_win,True
-baseline_elo,Elo-only baseline,9,Group Stage,Germany,Japan,1,2,0.5935652020284783,0.23084426454621249,0.1755905334253092,home_win,away_win,False
-baseline_elo,Elo-only baseline,10,Group Stage,Spain,Costa Rica,7,0,0.7259921089712648,0.1849166044312565,0.08909128659747888,home_win,home_win,True
-baseline_elo,Elo-only baseline,11,Group Stage,Morocco,Croatia,0,0,0.20090653524944735,0.2313597053130576,0.567733759437495,away_win,draw,False
-baseline_elo,Elo-only baseline,12,Group Stage,Belgium,Canada,1,0,0.6556405682422062,0.21209944718063245,0.13225998457716137,home_win,home_win,True
-baseline_elo,Elo-only baseline,13,Group Stage,Switzerland,Cameroon,1,0,0.716306600300732,0.18905018582723684,0.0946432138720312,home_win,home_win,True
-baseline_elo,Elo-only baseline,14,Group Stage,Brazil,Serbia,2,0,0.6951776353932076,0.19762657476881276,0.10719578983797948,home_win,home_win,True
-baseline_elo,Elo-only baseline,15,Group Stage,Uruguay,South Korea,0,0,0.5644811736801538,0.23800041964562993,0.1975184066742163,home_win,draw,False
-baseline_elo,Elo-only baseline,16,Group Stage,Portugal,Ghana,3,2,0.8241521666605843,0.13527864576021983,0.04056918757919579,home_win,home_win,True
-baseline_elo,Elo-only baseline,17,Group Stage,Qatar,Senegal,1,3,0.3405073126735842,0.2576419390896718,0.401850748236744,away_win,away_win,True
-baseline_elo,Elo-only baseline,18,Group Stage,Netherlands,Ecuador,1,1,0.5992569873384892,0.22932333137383204,0.1714196812876788,home_win,draw,False
-baseline_elo,Elo-only baseline,19,Group Stage,Wales,Iran,0,2,0.4158472314118943,0.2583655325729422,0.32578723601516346,home_win,away_win,False
-baseline_elo,Elo-only baseline,20,Group Stage,England,United States,0,0,0.5785668751163016,0.2346629769425824,0.186770147941116,home_win,draw,False
-baseline_elo,Elo-only baseline,21,Group Stage,Poland,Saudi Arabia,2,0,0.5296051942393439,0.24522826054982313,0.22516654521083285,home_win,home_win,True
-baseline_elo,Elo-only baseline,22,Group Stage,Argentina,Mexico,2,0,0.7017336457774713,0.19502941695422688,0.10323693726830177,home_win,home_win,True
-baseline_elo,Elo-only baseline,23,Group Stage,Tunisia,Australia,0,1,0.4045505362118421,0.2587625844559942,0.3366868793321637,home_win,away_win,False
-baseline_elo,Elo-only baseline,24,Group Stage,France,Denmark,2,1,0.46749463898062416,0.2544193421199718,0.2780860188994041,home_win,home_win,True
-baseline_elo,Elo-only baseline,25,Group Stage,Japan,Costa Rica,0,1,0.5161150732131479,0.2476275555185572,0.2362573712682949,home_win,away_win,False
-baseline_elo,Elo-only baseline,26,Group Stage,Spain,Germany,1,1,0.5656633568709043,0.2377295690036102,0.19660707412548548,home_win,draw,False
-baseline_elo,Elo-only baseline,27,Group Stage,Belgium,Morocco,0,2,0.6668604192636962,0.2081970222893555,0.12494255844694836,home_win,away_win,False
-baseline_elo,Elo-only baseline,28,Group Stage,Croatia,Canada,4,1,0.5668440542886278,0.23745736703817805,0.19569857867319412,home_win,home_win,True
-baseline_elo,Elo-only baseline,29,Group Stage,Cameroon,Serbia,3,3,0.10964394164428022,0.1872651691746393,0.7030908891810804,away_win,draw,False
-baseline_elo,Elo-only baseline,30,Group Stage,Brazil,Switzerland,1,0,0.6989373353765991,0.19614415680960356,0.10491850781379732,home_win,home_win,True
-baseline_elo,Elo-only baseline,31,Group Stage,South Korea,Ghana,2,3,0.6628104475902851,0.20962415971373924,0.12756539269597583,home_win,away_win,False
-baseline_elo,Elo-only baseline,32,Group Stage,Portugal,Uruguay,2,0,0.48755896216660055,0.2519712366726819,0.2604698011607175,home_win,home_win,True
-baseline_elo,Elo-only baseline,33,Group Stage,Ecuador,Senegal,1,2,0.5738964127223873,0.23579627357889052,0.19030731369872209,home_win,away_win,False
-baseline_elo,Elo-only baseline,34,Group Stage,Qatar,Netherlands,0,2,0.04311269435018479,0.12507963836377026,0.8318076672860449,away_win,away_win,True
-baseline_elo,Elo-only baseline,35,Group Stage,Wales,England,0,3,0.16646446386970584,0.2181420357137091,0.615393500416585,away_win,away_win,True
-baseline_elo,Elo-only baseline,36,Group Stage,Iran,United States,0,1,0.38209749015958316,0.2590351852064072,0.3588673246340096,home_win,away_win,False
-baseline_elo,Elo-only baseline,37,Group Stage,Poland,Argentina,0,2,0.1257021088005544,0.19739412490769243,0.6769037662917531,away_win,away_win,True
-baseline_elo,Elo-only baseline,38,Group Stage,Saudi Arabia,Mexico,1,2,0.23159969388671578,0.24050953901093608,0.5278907671023482,away_win,away_win,True
-baseline_elo,Elo-only baseline,39,Group Stage,Australia,Denmark,1,0,0.17465792555384557,0.2216027171964318,0.6037393572497227,away_win,home_win,False
-baseline_elo,Elo-only baseline,40,Group Stage,Tunisia,France,1,0,0.0746099911490912,0.15976684094067775,0.7656231679102311,away_win,home_win,False
-baseline_elo,Elo-only baseline,41,Group Stage,Japan,Spain,2,1,0.12247688430212467,0.19546153704972483,0.6820615786481505,away_win,home_win,False
-baseline_elo,Elo-only baseline,42,Group Stage,Costa Rica,Germany,2,4,0.19545803097203257,0.22949107633075358,0.575050892697214,away_win,away_win,True
-baseline_elo,Elo-only baseline,43,Group Stage,Croatia,Belgium,0,0,0.37590445032224773,0.2589867598632663,0.36510878981448586,home_win,draw,False
-baseline_elo,Elo-only baseline,44,Group Stage,Canada,Morocco,1,2,0.2437954339810465,0.24354692035284353,0.5126576456661099,away_win,away_win,True
-baseline_elo,Elo-only baseline,45,Group Stage,Serbia,Switzerland,2,3,0.33331817999769353,0.25713887694158216,0.40954294306072436,away_win,away_win,True
-baseline_elo,Elo-only baseline,46,Group Stage,Cameroon,Brazil,1,0,0.019496681257837604,0.08581092464714346,0.894692394095019,away_win,home_win,False
-baseline_elo,Elo-only baseline,47,Group Stage,Ghana,Uruguay,0,2,0.11140772579209333,0.1884422859106544,0.7001499882972522,away_win,away_win,True
-baseline_elo,Elo-only baseline,48,Group Stage,South Korea,Portugal,2,1,0.10448869195525531,0.18372556748436894,0.7117857405603757,away_win,home_win,False
-baseline_elo,Elo-only baseline,49,Round of 16,Netherlands,United States,3,1,0.6324392275589084,0.21966497225653472,0.147895800184557,home_win,home_win,True
-baseline_elo,Elo-only baseline,50,Round of 16,Argentina,Australia,2,1,0.7526300958778932,0.1728726370794254,0.07449726704268145,home_win,home_win,True
-baseline_elo,Elo-only baseline,51,Round of 16,France,Poland,3,1,0.585524218640879,0.2329256139055215,0.18155016745359948,home_win,home_win,True
-baseline_elo,Elo-only baseline,52,Round of 16,England,Senegal,3,0,0.6193720461992326,0.22363041054755403,0.1569975432532135,home_win,home_win,True
-baseline_elo,Elo-only baseline,53,Round of 16,Japan,Croatia,1,1,0.26060616068252485,0.24722482956903324,0.49216900974844197,away_win,draw,False
-baseline_elo,Elo-only baseline,54,Round of 16,Brazil,South Korea,4,1,0.751832046473732,0.1732481531958909,0.0749198003303771,home_win,home_win,True
-baseline_elo,Elo-only baseline,55,Round of 16,Morocco,Spain,0,0,0.22367303768849936,0.2383596802459902,0.5379672820655104,away_win,draw,False
-baseline_elo,Elo-only baseline,56,Round of 16,Portugal,Switzerland,6,1,0.46120341488191363,0.2550830055487869,0.28371357956929955,home_win,home_win,True
-baseline_elo,Elo-only baseline,57,Quarter-final,Croatia,Brazil,1,1,0.15623027754569457,0.2135125384157153,0.6302571840385902,away_win,draw,False
-baseline_elo,Elo-only baseline,58,Quarter-final,Netherlands,Argentina,2,2,0.30976218009619577,0.2549172452335064,0.4353205746702979,away_win,draw,False
-baseline_elo,Elo-only baseline,59,Quarter-final,Morocco,Portugal,1,0,0.20182418387603637,0.23166677833059274,0.5665090377933709,away_win,home_win,False
-baseline_elo,Elo-only baseline,60,Quarter-final,England,France,1,2,0.35017086679069376,0.2581934934741713,0.39163563973513504,away_win,away_win,True
-baseline_elo,Elo-only baseline,61,Semi-final,Argentina,Croatia,3,0,0.5878301152872598,0.23233680296304496,0.1798330817496953,home_win,home_win,True
-baseline_elo,Elo-only baseline,62,Semi-final,France,Morocco,2,0,0.5332617995290955,0.24453973829320713,0.2221984621776974,home_win,home_win,True
-baseline_elo,Elo-only baseline,63,Third Place,Croatia,Morocco,2,1,0.41710448806977773,0.2583107736521726,0.32458473827804973,home_win,home_win,True
-baseline_elo,Elo-only baseline,64,Final,Argentina,France,3,3,0.47252156652057,0.2538532387915397,0.27362519468789026,home_win,draw,False
-v2,V2 multinomial model,1,Group Stage,Qatar,Ecuador,0,2,0.2941240587884046,0.2511208101032015,0.45475513110839394,away_win,away_win,True
-v2,V2 multinomial model,2,Group Stage,Senegal,Netherlands,0,2,0.05594239283981551,0.14133646958045937,0.8027211375797252,away_win,away_win,True
-v2,V2 multinomial model,3,Group Stage,England,Iran,6,2,0.6279223883996375,0.17899866637441164,0.19307894522595084,home_win,home_win,True
-v2,V2 multinomial model,4,Group Stage,United States,Wales,1,1,0.48553813537850987,0.22728012545256618,0.28718173916892387,home_win,draw,False
-v2,V2 multinomial model,5,Group Stage,Argentina,Saudi Arabia,1,2,0.9040526577060584,0.08007607526416381,0.015871267029777886,home_win,away_win,False
-v2,V2 multinomial model,6,Group Stage,Mexico,Poland,0,0,0.46339962179332,0.19921008617440908,0.33739029203227094,home_win,draw,False
-v2,V2 multinomial model,7,Group Stage,Denmark,Tunisia,0,0,0.4965435124307221,0.29830002326118943,0.20515646430808848,home_win,draw,False
-v2,V2 multinomial model,8,Group Stage,France,Australia,4,1,0.6357668214005759,0.20008081574217063,0.16415236285725338,home_win,home_win,True
-v2,V2 multinomial model,9,Group Stage,Germany,Japan,1,2,0.5694803951333056,0.21732426048162595,0.21319534438506846,home_win,away_win,False
-v2,V2 multinomial model,10,Group Stage,Spain,Costa Rica,7,0,0.6928704468561488,0.18902133009752428,0.11810822304632697,home_win,home_win,True
-v2,V2 multinomial model,11,Group Stage,Morocco,Croatia,0,0,0.2498004493810554,0.2025747697927008,0.5476247808262439,away_win,draw,False
-v2,V2 multinomial model,12,Group Stage,Belgium,Canada,1,0,0.6418812200246742,0.19848943835367755,0.15962934162164832,home_win,home_win,True
-v2,V2 multinomial model,13,Group Stage,Switzerland,Cameroon,1,0,0.5970112243316448,0.2621266027871941,0.14086217288116126,home_win,home_win,True
-v2,V2 multinomial model,14,Group Stage,Brazil,Serbia,2,0,0.7841377265166108,0.13472014839812163,0.08114212508526758,home_win,home_win,True
-v2,V2 multinomial model,15,Group Stage,Uruguay,South Korea,0,0,0.5994237792062704,0.22846683193248915,0.17210938886124047,home_win,draw,False
-v2,V2 multinomial model,16,Group Stage,Portugal,Ghana,3,2,0.7687350080121461,0.17373114594676967,0.05753384604108429,home_win,home_win,True
-v2,V2 multinomial model,17,Group Stage,Qatar,Senegal,1,3,0.34397243625906493,0.29786516335364666,0.35816240038728836,away_win,away_win,True
-v2,V2 multinomial model,18,Group Stage,Netherlands,Ecuador,1,1,0.7480459546280719,0.16773848025015925,0.08421556512176886,home_win,draw,False
-v2,V2 multinomial model,19,Group Stage,Wales,Iran,0,2,0.3671659989300312,0.2548338321215782,0.3780001689483906,away_win,away_win,True
-v2,V2 multinomial model,20,Group Stage,England,United States,0,0,0.48696576611766773,0.2455110589455083,0.26752317493682404,home_win,draw,False
-v2,V2 multinomial model,21,Group Stage,Poland,Saudi Arabia,2,0,0.5573560123210289,0.25123917301866,0.19140481466031112,home_win,home_win,True
-v2,V2 multinomial model,22,Group Stage,Argentina,Mexico,2,0,0.746811287402844,0.1961422510961526,0.05704646150100347,home_win,home_win,True
-v2,V2 multinomial model,23,Group Stage,Tunisia,Australia,0,1,0.42747149199102596,0.250760205102595,0.3217683029063791,home_win,away_win,False
-v2,V2 multinomial model,24,Group Stage,France,Denmark,2,1,0.4138524841535361,0.2123573341797314,0.3737901816667325,home_win,home_win,True
-v2,V2 multinomial model,25,Group Stage,Japan,Costa Rica,0,1,0.45960939116572025,0.2292545944057601,0.3111360144285197,home_win,away_win,False
-v2,V2 multinomial model,26,Group Stage,Spain,Germany,1,1,0.391351146323377,0.3222762815974041,0.28637257207921896,home_win,draw,False
-v2,V2 multinomial model,27,Group Stage,Belgium,Morocco,0,2,0.5506833637934505,0.2344729814721044,0.21484365473444506,home_win,away_win,False
-v2,V2 multinomial model,28,Group Stage,Croatia,Canada,4,1,0.5461726015000918,0.2810549244332617,0.1727724740666466,home_win,home_win,True
-v2,V2 multinomial model,29,Group Stage,Cameroon,Serbia,3,3,0.09010519857528845,0.14313517749454946,0.7667596239301621,away_win,draw,False
-v2,V2 multinomial model,30,Group Stage,Brazil,Switzerland,1,0,0.8349970225261977,0.11818477647887797,0.04681820099492441,home_win,home_win,True
-v2,V2 multinomial model,31,Group Stage,South Korea,Ghana,2,3,0.605713940746926,0.22477137983461942,0.1695146794184546,home_win,away_win,False
-v2,V2 multinomial model,32,Group Stage,Portugal,Uruguay,2,0,0.3411327290517551,0.3132011317046112,0.3456661392436336,away_win,home_win,False
-v2,V2 multinomial model,33,Group Stage,Ecuador,Senegal,1,2,0.40465224955149626,0.311104754712997,0.2842429957355069,home_win,away_win,False
-v2,V2 multinomial model,34,Group Stage,Qatar,Netherlands,0,2,0.054912528748265015,0.1584892985847395,0.7865981726669955,away_win,away_win,True
-v2,V2 multinomial model,35,Group Stage,Wales,England,0,3,0.15778409373242416,0.2912022942267526,0.5510136120408232,away_win,away_win,True
-v2,V2 multinomial model,36,Group Stage,Iran,United States,0,1,0.2378604641456433,0.3188833432992956,0.44325619255506105,away_win,away_win,True
-v2,V2 multinomial model,37,Group Stage,Poland,Argentina,0,2,0.039586713892302484,0.15271293959890772,0.8077003465087897,away_win,away_win,True
-v2,V2 multinomial model,38,Group Stage,Saudi Arabia,Mexico,1,2,0.12843528415984942,0.2886797714502842,0.5828849443898664,away_win,away_win,True
-v2,V2 multinomial model,39,Group Stage,Australia,Denmark,1,0,0.16993573497449488,0.21002915962947707,0.620035105396028,away_win,home_win,False
-v2,V2 multinomial model,40,Group Stage,Tunisia,France,1,0,0.18336090005523836,0.259078499781793,0.5575606001629686,away_win,home_win,False
-v2,V2 multinomial model,41,Group Stage,Japan,Spain,2,1,0.15318231864394358,0.21230478736398678,0.6345128939920697,away_win,home_win,False
-v2,V2 multinomial model,42,Group Stage,Costa Rica,Germany,2,4,0.12877234977670737,0.29464993454053384,0.5765777156827587,away_win,away_win,True
-v2,V2 multinomial model,43,Group Stage,Croatia,Belgium,0,0,0.27869462876831674,0.3515506666898021,0.3697547045418811,away_win,draw,False
-v2,V2 multinomial model,44,Group Stage,Canada,Morocco,1,2,0.2717373124761202,0.2836208559137332,0.44464183161014664,away_win,away_win,True
-v2,V2 multinomial model,45,Group Stage,Serbia,Switzerland,2,3,0.4566957048970792,0.2851964444401854,0.2581078506627353,home_win,away_win,False
-v2,V2 multinomial model,46,Group Stage,Cameroon,Brazil,1,0,0.010662988163195095,0.07473362151286034,0.9146033903239447,away_win,home_win,False
-v2,V2 multinomial model,47,Group Stage,Ghana,Uruguay,0,2,0.054941616265202275,0.16919250166381997,0.7758658820709778,away_win,away_win,True
-v2,V2 multinomial model,48,Group Stage,South Korea,Portugal,2,1,0.16273634803402437,0.20255256853010176,0.6347110834358738,away_win,home_win,False
-v2,V2 multinomial model,49,Round of 16,Netherlands,United States,3,1,0.6021916359650946,0.28056868717380373,0.11723967686110166,home_win,home_win,True
-v2,V2 multinomial model,50,Round of 16,Argentina,Australia,2,1,0.8800609277116658,0.09191552995896064,0.028023542329373683,home_win,home_win,True
-v2,V2 multinomial model,51,Round of 16,France,Poland,3,1,0.5315857761887502,0.23858324683395338,0.22983097697729643,home_win,home_win,True
-v2,V2 multinomial model,52,Round of 16,England,Senegal,3,0,0.6849104117586221,0.16855834511349632,0.14653124312788152,home_win,home_win,True
-v2,V2 multinomial model,53,Round of 16,Japan,Croatia,1,1,0.3050948519357999,0.1911172512179056,0.5037878968462945,away_win,draw,False
-v2,V2 multinomial model,54,Round of 16,Brazil,South Korea,4,1,0.853732137191094,0.11020356606065726,0.03606429674824889,home_win,home_win,True
-v2,V2 multinomial model,55,Round of 16,Morocco,Spain,0,0,0.12057564622337402,0.21634052261059641,0.6630838311660296,away_win,draw,False
-v2,V2 multinomial model,56,Round of 16,Portugal,Switzerland,6,1,0.5329286864194817,0.26976154834964705,0.1973097652308713,home_win,home_win,True
-v2,V2 multinomial model,57,Quarter-final,Croatia,Brazil,1,1,0.05452267205730215,0.25474319408059715,0.6907341338621008,away_win,draw,False
-v2,V2 multinomial model,58,Quarter-final,Netherlands,Argentina,2,2,0.14182429979941985,0.2997063793303119,0.5584693208702682,away_win,draw,False
-v2,V2 multinomial model,59,Quarter-final,Morocco,Portugal,1,0,0.15551680890080066,0.21736009996195196,0.6271230911372474,away_win,home_win,False
-v2,V2 multinomial model,60,Quarter-final,England,France,1,2,0.31956542920820963,0.24251680798591,0.4379177628058803,away_win,away_win,True
-v2,V2 multinomial model,61,Semi-final,Argentina,Croatia,3,0,0.7972356650412941,0.11766106838452425,0.08510326657418173,home_win,home_win,True
-v2,V2 multinomial model,62,Semi-final,France,Morocco,2,0,0.5471936975977864,0.22746114562667513,0.22534515677553846,home_win,home_win,True
-v2,V2 multinomial model,63,Third Place,Croatia,Morocco,2,1,0.4535546846668943,0.3213653595530521,0.2250799557800534,home_win,home_win,True
-v2,V2 multinomial model,64,Final,Argentina,France,3,3,0.7245328845928758,0.18226674566777695,0.0932003697393471,home_win,draw,False
-v3,V3 Poisson expected-goals model,1,Group Stage,Qatar,Ecuador,0,2,0.49876866243420054,0.2518602491207716,0.24937108844502787,home_win,away_win,False
-v3,V3 Poisson expected-goals model,2,Group Stage,Senegal,Netherlands,0,2,0.2508477881857532,0.22669179345036392,0.522460418363883,away_win,away_win,True
-v3,V3 Poisson expected-goals model,3,Group Stage,England,Iran,6,2,0.6057485276681265,0.2131524058156093,0.18109906651626426,home_win,home_win,True
-v3,V3 Poisson expected-goals model,4,Group Stage,United States,Wales,1,1,0.6263124362311882,0.20760584718273,0.16608171658608184,home_win,draw,False
-v3,V3 Poisson expected-goals model,5,Group Stage,Argentina,Saudi Arabia,1,2,0.8362772774107954,0.11142232705149412,0.05230039553771051,home_win,away_win,False
-v3,V3 Poisson expected-goals model,6,Group Stage,Mexico,Poland,0,0,0.643689120231719,0.200206435028644,0.15610444473963686,home_win,draw,False
-v3,V3 Poisson expected-goals model,7,Group Stage,Denmark,Tunisia,0,0,0.5018378793556606,0.23645384689072554,0.26170827375361383,home_win,draw,False
-v3,V3 Poisson expected-goals model,8,Group Stage,France,Australia,4,1,0.6339451180782166,0.2024967929279678,0.16355808899381555,home_win,home_win,True
-v3,V3 Poisson expected-goals model,9,Group Stage,Germany,Japan,1,2,0.5986599056956238,0.21617138401035094,0.18516871029402523,home_win,away_win,False
-v3,V3 Poisson expected-goals model,10,Group Stage,Spain,Costa Rica,7,0,0.6099133210383433,0.21124019125076132,0.17884648771089542,home_win,home_win,True
-v3,V3 Poisson expected-goals model,11,Group Stage,Morocco,Croatia,0,0,0.3957727057713744,0.2456256377003388,0.3586016565282869,home_win,draw,False
-v3,V3 Poisson expected-goals model,12,Group Stage,Belgium,Canada,1,0,0.6145567193140651,0.21065707835206274,0.17478620233387218,home_win,home_win,True
-v3,V3 Poisson expected-goals model,13,Group Stage,Switzerland,Cameroon,1,0,0.5313876542034046,0.23260914746284292,0.23600319833375247,home_win,home_win,True
-v3,V3 Poisson expected-goals model,14,Group Stage,Brazil,Serbia,2,0,0.7751546903397384,0.14543045563593074,0.07941485402433085,home_win,home_win,True
-v3,V3 Poisson expected-goals model,15,Group Stage,Uruguay,South Korea,0,0,0.5313317754274666,0.2333400392744513,0.23532818529808222,home_win,draw,False
-v3,V3 Poisson expected-goals model,16,Group Stage,Portugal,Ghana,3,2,0.6522022253635443,0.19587429618651536,0.1519234784499404,home_win,home_win,True
-v3,V3 Poisson expected-goals model,17,Group Stage,Qatar,Senegal,1,3,0.46803888440570107,0.25794488701458795,0.2740162285797109,home_win,away_win,False
-v3,V3 Poisson expected-goals model,18,Group Stage,Netherlands,Ecuador,1,1,0.6263531027981262,0.20759912973642694,0.16604776746544697,home_win,draw,False
-v3,V3 Poisson expected-goals model,19,Group Stage,Wales,Iran,0,2,0.3359634477409738,0.2446957338635445,0.41934081839548165,away_win,away_win,True
-v3,V3 Poisson expected-goals model,20,Group Stage,England,United States,0,0,0.48069404993260123,0.24074969049898023,0.2785562595684187,home_win,draw,False
-v3,V3 Poisson expected-goals model,21,Group Stage,Poland,Saudi Arabia,2,0,0.44511417019094596,0.24496533102360254,0.3099204987854516,home_win,home_win,True
-v3,V3 Poisson expected-goals model,22,Group Stage,Argentina,Mexico,2,0,0.6295637618478511,0.20545472318892288,0.1649815149632259,home_win,home_win,True
-v3,V3 Poisson expected-goals model,23,Group Stage,Tunisia,Australia,0,1,0.38476017152333164,0.24848343873581685,0.36675638974085156,home_win,away_win,False
-v3,V3 Poisson expected-goals model,24,Group Stage,France,Denmark,2,1,0.5858392900904483,0.21836390334755829,0.19579680656199341,home_win,home_win,True
-v3,V3 Poisson expected-goals model,25,Group Stage,Japan,Costa Rica,0,1,0.4665582417665213,0.24172855227884749,0.2917132059546312,home_win,away_win,False
-v3,V3 Poisson expected-goals model,26,Group Stage,Spain,Germany,1,1,0.3810691506031424,0.24760221223213053,0.3713286371647271,home_win,draw,False
-v3,V3 Poisson expected-goals model,27,Group Stage,Belgium,Morocco,0,2,0.5816971080060639,0.21885348887315315,0.1994494031207829,home_win,away_win,False
-v3,V3 Poisson expected-goals model,28,Group Stage,Croatia,Canada,4,1,0.47495990710372615,0.24637984878384905,0.27866024411242496,home_win,home_win,True
-v3,V3 Poisson expected-goals model,29,Group Stage,Cameroon,Serbia,3,3,0.291142952949456,0.23982753893726763,0.46902950811327637,away_win,draw,False
-v3,V3 Poisson expected-goals model,30,Group Stage,Brazil,Switzerland,1,0,0.792144401351901,0.13628895709234615,0.07156664155575283,home_win,home_win,True
-v3,V3 Poisson expected-goals model,31,Group Stage,South Korea,Ghana,2,3,0.5670832360520974,0.2222442493198428,0.21067251462805978,home_win,away_win,False
-v3,V3 Poisson expected-goals model,32,Group Stage,Portugal,Uruguay,2,0,0.3927511268138354,0.2465941546014584,0.3606547185847061,home_win,home_win,True
-v3,V3 Poisson expected-goals model,33,Group Stage,Ecuador,Senegal,1,2,0.38697418033010134,0.24906761058126606,0.3639582090886326,home_win,away_win,False
-v3,V3 Poisson expected-goals model,34,Group Stage,Qatar,Netherlands,0,2,0.30355092686914587,0.2551345199936909,0.44131455313716306,away_win,away_win,True
-v3,V3 Poisson expected-goals model,35,Group Stage,Wales,England,0,3,0.17917010995880314,0.20055173928400943,0.6202781507571874,away_win,away_win,True
-v3,V3 Poisson expected-goals model,36,Group Stage,Iran,United States,0,1,0.2978893002192976,0.23936799503385497,0.4627427047468474,away_win,away_win,True
-v3,V3 Poisson expected-goals model,37,Group Stage,Poland,Argentina,0,2,0.08462246336360937,0.13457646142929977,0.7808010752070909,away_win,away_win,True
-v3,V3 Poisson expected-goals model,38,Group Stage,Saudi Arabia,Mexico,1,2,0.19389004912849347,0.20956166336870302,0.5965482875028035,away_win,away_win,True
-v3,V3 Poisson expected-goals model,39,Group Stage,Australia,Denmark,1,0,0.3707515993781278,0.24918426016796047,0.3800641404539118,away_win,home_win,False
-v3,V3 Poisson expected-goals model,40,Group Stage,Tunisia,France,1,0,0.19801574679274245,0.2128384173938134,0.5891458358134442,away_win,home_win,False
-v3,V3 Poisson expected-goals model,41,Group Stage,Japan,Spain,2,1,0.2819243225725238,0.23617783445548873,0.48189784297198757,away_win,home_win,False
-v3,V3 Poisson expected-goals model,42,Group Stage,Costa Rica,Germany,2,4,0.21182372183027404,0.21640094256398343,0.5717753356057427,away_win,away_win,True
-v3,V3 Poisson expected-goals model,43,Group Stage,Croatia,Belgium,0,0,0.28761650189901067,0.24255531151324694,0.4698281865877424,away_win,draw,False
-v3,V3 Poisson expected-goals model,44,Group Stage,Canada,Morocco,1,2,0.38343762564461764,0.2459293779680862,0.37063299638729624,home_win,away_win,False
-v3,V3 Poisson expected-goals model,45,Group Stage,Serbia,Switzerland,2,3,0.43975639030817737,0.24500136062882003,0.3152422490630027,home_win,away_win,False
-v3,V3 Poisson expected-goals model,46,Group Stage,Cameroon,Brazil,1,0,0.05356399469305692,0.09905206928379989,0.8473839360231431,away_win,home_win,False
-v3,V3 Poisson expected-goals model,47,Group Stage,Ghana,Uruguay,0,2,0.18934359907882106,0.20743220250767985,0.6032241984134991,away_win,away_win,True
-v3,V3 Poisson expected-goals model,48,Group Stage,South Korea,Portugal,2,1,0.3337496644174738,0.24562104099479914,0.42062929458772697,away_win,home_win,False
-v3,V3 Poisson expected-goals model,49,Round of 16,Netherlands,United States,3,1,0.4880179769255078,0.24249688432623295,0.26948513874825925,home_win,home_win,True
-v3,V3 Poisson expected-goals model,50,Round of 16,Argentina,Australia,2,1,0.7753760215036865,0.14392867529667602,0.08069530319963769,home_win,home_win,True
-v3,V3 Poisson expected-goals model,51,Round of 16,France,Poland,3,1,0.6890034810277881,0.1824933550675765,0.12850316390463543,home_win,home_win,True
-v3,V3 Poisson expected-goals model,52,Round of 16,England,Senegal,3,0,0.5892811504508488,0.2175624774203416,0.19315637212880954,home_win,home_win,True
-v3,V3 Poisson expected-goals model,53,Round of 16,Japan,Croatia,1,1,0.4628874093696118,0.24140266111828718,0.29570992951210107,home_win,draw,False
-v3,V3 Poisson expected-goals model,54,Round of 16,Brazil,South Korea,4,1,0.7663536954547261,0.14923175869083977,0.08441454585443414,home_win,home_win,True
-v3,V3 Poisson expected-goals model,55,Round of 16,Morocco,Spain,0,0,0.22586717988549984,0.22045960752595672,0.5536732125885435,away_win,draw,False
-v3,V3 Poisson expected-goals model,56,Round of 16,Portugal,Switzerland,6,1,0.540977616840828,0.23030790896152703,0.228714474197645,home_win,home_win,True
-v3,V3 Poisson expected-goals model,57,Quarter-final,Croatia,Brazil,1,1,0.09404912554486969,0.1440322771723102,0.76191859728282,away_win,draw,False
-v3,V3 Poisson expected-goals model,58,Quarter-final,Netherlands,Argentina,2,2,0.22987203291412883,0.22471413696025053,0.5454138301256206,away_win,draw,False
-v3,V3 Poisson expected-goals model,59,Quarter-final,Morocco,Portugal,1,0,0.2689263544304951,0.23436371855398763,0.4967099270155173,away_win,home_win,False
-v3,V3 Poisson expected-goals model,60,Quarter-final,England,France,1,2,0.36802588323281316,0.24761208436966703,0.3843620323975199,away_win,away_win,True
-v3,V3 Poisson expected-goals model,61,Semi-final,Argentina,Croatia,3,0,0.749695568998436,0.15568691244499644,0.09461751855656758,home_win,home_win,True
-v3,V3 Poisson expected-goals model,62,Semi-final,France,Morocco,2,0,0.6218267173919529,0.20712386859274245,0.17104941401530468,home_win,home_win,True
-v3,V3 Poisson expected-goals model,63,Third Place,Croatia,Morocco,2,1,0.44052613096244464,0.24826377646251,0.31121009257504534,home_win,home_win,True
-v3,V3 Poisson expected-goals model,64,Final,Argentina,France,3,3,0.5821635596512854,0.2208239358423152,0.1970125045063994,home_win,draw,False
+baseline_elo,Elo-only baseline,1,Group Stage,Qatar,Ecuador,0,2,0.44929436443523446,0.24809812050852417,0.3026075150562414,home_win,away_win,False
+baseline_elo,Elo-only baseline,2,Group Stage,Senegal,Netherlands,0,2,0.410434797027878,0.25313427765422836,0.3364309253178937,home_win,away_win,False
+baseline_elo,Elo-only baseline,3,Group Stage,England,Iran,6,2,0.5019288404967036,0.23874110500471443,0.25933005449858204,home_win,home_win,True
+baseline_elo,Elo-only baseline,4,Group Stage,United States,Wales,1,1,0.48006910210667564,0.2429699080532133,0.2769609898401111,home_win,draw,False
+baseline_elo,Elo-only baseline,5,Group Stage,Argentina,Saudi Arabia,1,2,0.5743477611996292,0.22139198251890194,0.20426025628146882,home_win,away_win,False
+baseline_elo,Elo-only baseline,6,Group Stage,Mexico,Poland,0,0,0.47776265264866663,0.24338802930380068,0.27884931804753277,home_win,draw,False
+baseline_elo,Elo-only baseline,7,Group Stage,Denmark,Tunisia,0,0,0.5295024453093813,0.2327325369135046,0.23776501777711406,home_win,draw,False
+baseline_elo,Elo-only baseline,8,Group Stage,France,Australia,4,1,0.5328999434186589,0.23194092437016858,0.23515913221117257,home_win,home_win,True
+baseline_elo,Elo-only baseline,9,Group Stage,Germany,Japan,1,2,0.5120449219865112,0.23662322224052157,0.25133185577296724,home_win,away_win,False
+baseline_elo,Elo-only baseline,10,Group Stage,Spain,Costa Rica,7,0,0.5368552628053466,0.2310052923544747,0.23213944484017873,home_win,home_win,True
+baseline_elo,Elo-only baseline,11,Group Stage,Morocco,Croatia,0,0,0.4475642108927511,0.2483570921136699,0.3040786969935789,home_win,draw,False
+baseline_elo,Elo-only baseline,12,Group Stage,Belgium,Canada,1,0,0.522878302038684,0.2342437856607394,0.24287791230057665,home_win,home_win,True
+baseline_elo,Elo-only baseline,13,Group Stage,Switzerland,Cameroon,1,0,0.534784587386647,0.23149699411955194,0.23371841849380104,home_win,home_win,True
+baseline_elo,Elo-only baseline,14,Group Stage,Brazil,Serbia,2,0,0.5304468446080293,0.23251361375553362,0.23703954163643717,home_win,home_win,True
+baseline_elo,Elo-only baseline,15,Group Stage,Uruguay,South Korea,0,0,0.5072778155671501,0.23763382550251383,0.255088358930336,home_win,draw,False
+baseline_elo,Elo-only baseline,16,Group Stage,Portugal,Ghana,3,2,0.5622194859012688,0.22464843895194464,0.2131320751467866,home_win,home_win,True
+baseline_elo,Elo-only baseline,17,Group Stage,Qatar,Senegal,1,3,0.4725709148951822,0.24430938006378428,0.2831197050410335,home_win,away_win,False
+baseline_elo,Elo-only baseline,18,Group Stage,Netherlands,Ecuador,1,1,0.5129972710002311,0.23641865244791788,0.2505840765518511,home_win,draw,False
+baseline_elo,Elo-only baseline,19,Group Stage,Wales,Iran,0,2,0.484295569282018,0.24218972375001085,0.27351470696797114,home_win,away_win,False
+baseline_elo,Elo-only baseline,20,Group Stage,England,United States,0,0,0.5095671160664892,0.23715129507173244,0.2532815888617785,home_win,draw,False
+baseline_elo,Elo-only baseline,21,Group Stage,Poland,Saudi Arabia,2,0,0.5017376283591118,0.2387801634643832,0.25948220817650497,home_win,home_win,True
+baseline_elo,Elo-only baseline,22,Group Stage,Argentina,Mexico,2,0,0.5317681682262396,0.23220586650019526,0.23602596527356512,home_win,home_win,True
+baseline_elo,Elo-only baseline,23,Group Stage,Tunisia,Australia,0,1,0.4825669047366848,0.24251101089950108,0.2749220843638141,home_win,away_win,False
+baseline_elo,Elo-only baseline,24,Group Stage,France,Denmark,2,1,0.49216331502274596,0.24068941386717532,0.26714727111007874,home_win,home_win,True
+baseline_elo,Elo-only baseline,25,Group Stage,Japan,Costa Rica,0,1,0.49963353698810503,0.2392075668380963,0.26115889617379867,home_win,away_win,False
+baseline_elo,Elo-only baseline,26,Group Stage,Spain,Germany,1,1,0.5074686649988375,0.23759379621005225,0.25493753879111036,home_win,draw,False
+baseline_elo,Elo-only baseline,27,Group Stage,Belgium,Morocco,0,2,0.5249626254681472,0.2337728566728877,0.24126451785896513,home_win,away_win,False
+baseline_elo,Elo-only baseline,28,Group Stage,Croatia,Canada,4,1,0.507659501089435,0.23755373381877423,0.25478676509179077,home_win,home_win,True
+baseline_elo,Elo-only baseline,29,Group Stage,Cameroon,Serbia,3,3,0.42416663616886763,0.2515437863339407,0.3242895774971916,home_win,draw,False
+baseline_elo,Elo-only baseline,30,Group Stage,Brazil,Switzerland,1,0,0.5312020069565941,0.2323379369486675,0.23646005609473839,home_win,home_win,True
+baseline_elo,Elo-only baseline,31,Group Stage,South Korea,Ghana,2,3,0.5242049425879306,0.23394453505587964,0.24185052235618978,home_win,away_win,False
+baseline_elo,Elo-only baseline,32,Group Stage,Portugal,Uruguay,2,0,0.49522984015818616,0.24008784789501622,0.2646823119467977,home_win,home_win,True
+baseline_elo,Elo-only baseline,33,Group Stage,Ecuador,Senegal,1,2,0.5088042343712741,0.23731266582050534,0.25388309980822066,home_win,away_win,False
+baseline_elo,Elo-only baseline,34,Group Stage,Qatar,Netherlands,0,2,0.3930134189622525,0.2548439517251667,0.35214262931258083,home_win,away_win,False
+baseline_elo,Elo-only baseline,35,Group Stage,Wales,England,0,3,0.43987987203426926,0.24946880532786267,0.3106513226378681,home_win,away_win,False
+baseline_elo,Elo-only baseline,36,Group Stage,Iran,United States,0,1,0.4791081670466772,0.24314476645528452,0.2777470664980383,home_win,away_win,False
+baseline_elo,Elo-only baseline,37,Group Stage,Poland,Argentina,0,2,0.4291417296102302,0.25091592372377325,0.3199423466659965,home_win,away_win,False
+baseline_elo,Elo-only baseline,38,Group Stage,Saudi Arabia,Mexico,1,2,0.45371730894450524,0.24742171269546506,0.2988609783600296,home_win,away_win,False
+baseline_elo,Elo-only baseline,39,Group Stage,Australia,Denmark,1,0,0.4418000401785012,0.2491969214008326,0.3090030384206662,home_win,home_win,True
+baseline_elo,Elo-only baseline,40,Group Stage,Tunisia,France,1,0,0.41081520590865905,0.25309306648631325,0.33609172760502765,home_win,home_win,True
+baseline_elo,Elo-only baseline,41,Group Stage,Japan,Spain,2,1,0.4281844019613829,0.2510388499703598,0.3207767480682572,home_win,home_win,True
+baseline_elo,Elo-only baseline,42,Group Stage,Costa Rica,Germany,2,4,0.44641098520803,0.24852794538755343,0.3050610694044166,home_win,away_win,False
+baseline_elo,Elo-only baseline,43,Group Stage,Croatia,Belgium,0,0,0.47814710880748634,0.2433187092048936,0.27853418198762014,home_win,draw,False
+baseline_elo,Elo-only baseline,44,Group Stage,Canada,Morocco,1,2,0.45602557195011933,0.2470605337439987,0.29691389430588194,home_win,away_win,False
+baseline_elo,Elo-only baseline,45,Group Stage,Serbia,Switzerland,2,3,0.4714168633522914,0.24451044052690654,0.284072696120802,home_win,away_win,False
+baseline_elo,Elo-only baseline,46,Group Stage,Cameroon,Brazil,1,0,0.3689011846777149,0.2566188416245464,0.3744799736977387,away_win,home_win,False
+baseline_elo,Elo-only baseline,47,Group Stage,Ghana,Uruguay,0,2,0.4247402927658389,0.25147277840473203,0.3237869288294291,home_win,away_win,False
+baseline_elo,Elo-only baseline,48,Group Stage,South Korea,Portugal,2,1,0.42244631811178623,0.2517545509686004,0.32579913091961327,home_win,home_win,True
+baseline_elo,Elo-only baseline,49,Round of 16,Netherlands,United States,3,1,0.5187032847123664,0.2351743619068161,0.24612235338081756,home_win,home_win,True
+baseline_elo,Elo-only baseline,50,Round of 16,Argentina,Australia,2,1,0.542863932156278,0.22955510176984362,0.22758096607387834,home_win,home_win,True
+baseline_elo,Elo-only baseline,51,Round of 16,France,Poland,3,1,0.51071101904352,0.23690825491595296,0.25238072604052697,home_win,home_win,True
+baseline_elo,Elo-only baseline,52,Round of 16,England,Senegal,3,0,0.5164225865292859,0.23567552724660823,0.2479018862241058,home_win,home_win,True
+baseline_elo,Elo-only baseline,53,Round of 16,Japan,Croatia,1,1,0.4591037129247246,0.24657021099319426,0.29432607608208106,home_win,draw,False
+baseline_elo,Elo-only baseline,54,Round of 16,Brazil,South Korea,4,1,0.5426765127391419,0.2296008598811278,0.2277226273797303,home_win,home_win,True
+baseline_elo,Elo-only baseline,55,Round of 16,Morocco,Spain,0,0,0.4521786869696639,0.2476593553474829,0.3001619576828531,home_win,draw,False
+baseline_elo,Elo-only baseline,56,Round of 16,Portugal,Switzerland,6,1,0.49120455072540326,0.24087556685592196,0.26791988241867476,home_win,home_win,True
+baseline_elo,Elo-only baseline,57,Quarter-final,Croatia,Brazil,1,1,0.43738472364512615,0.24981618622179846,0.31279909013307544,home_win,draw,False
+baseline_elo,Elo-only baseline,58,Quarter-final,Netherlands,Argentina,2,2,0.46756942160176823,0.24517086904037974,0.28725970935785206,home_win,draw,False
+baseline_elo,Elo-only baseline,59,Quarter-final,Morocco,Portugal,1,0,0.44775643206126126,0.24832847683420253,0.30391509110453624,home_win,home_win,True
+baseline_elo,Elo-only baseline,60,Quarter-final,England,France,1,2,0.4741094831822169,0.24403920787685685,0.2818513089409263,home_win,away_win,False
+baseline_elo,Elo-only baseline,61,Semi-final,Argentina,Croatia,3,0,0.5110922063897098,0.23682697994316695,0.2520808136671232,home_win,home_win,True
+baseline_elo,Elo-only baseline,62,Semi-final,France,Morocco,2,0,0.5023112295387371,0.23866288662841778,0.2590258838328451,home_win,home_win,True
+baseline_elo,Elo-only baseline,63,Third Place,Croatia,Morocco,2,1,0.48448761143817376,0.24215384477559215,0.27335854378623403,home_win,home_win,True
+baseline_elo,Elo-only baseline,64,Final,Argentina,France,3,3,0.4929301676379528,0.24053986014614834,0.2665299722158989,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,1,Group Stage,Qatar,Ecuador,0,2,0.325415439941241,0.2648364244816671,0.4097481355770917,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,2,Group Stage,Senegal,Netherlands,0,2,0.16406244504656378,0.2512249871339266,0.5847125678195096,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,3,Group Stage,England,Iran,6,2,0.6192719990677443,0.18253875857672794,0.1981892423555278,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,4,Group Stage,United States,Wales,1,1,0.6642309213913663,0.19010379386446816,0.1456652847441655,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,5,Group Stage,Argentina,Saudi Arabia,1,2,0.8547805260147588,0.10910419213285923,0.036115281852381914,home_win,away_win,False
+v2_world_cup_only,V2 World Cup only,6,Group Stage,Mexico,Poland,0,0,0.6461729612752174,0.18275773934457196,0.17106929938021062,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,7,Group Stage,Denmark,Tunisia,0,0,0.3734221123283705,0.3196904261351151,0.3068874615365143,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,8,Group Stage,France,Australia,4,1,0.5970117504646162,0.2109106853621852,0.1920775641731986,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,9,Group Stage,Germany,Japan,1,2,0.5363832896295474,0.20898800598390593,0.2546287043865466,home_win,away_win,False
+v2_world_cup_only,V2 World Cup only,10,Group Stage,Spain,Costa Rica,7,0,0.6135734231590102,0.20995182320860278,0.17647475363238702,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,11,Group Stage,Morocco,Croatia,0,0,0.40259822549073454,0.23792349193962767,0.3594782825696377,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,12,Group Stage,Belgium,Canada,1,0,0.61928265047293,0.19870923960452594,0.18200810992254413,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,13,Group Stage,Switzerland,Cameroon,1,0,0.4278214244437936,0.2914203783592082,0.2807581971969981,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,14,Group Stage,Brazil,Serbia,2,0,0.8099981402591819,0.12030416168776241,0.06969769805305553,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,15,Group Stage,Uruguay,South Korea,0,0,0.5862923471195287,0.23990716843705542,0.17380048444341586,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,16,Group Stage,Portugal,Ghana,3,2,0.6476970110266976,0.23229446406484547,0.12000852490845691,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,17,Group Stage,Qatar,Senegal,1,3,0.3278016028029515,0.303045368335737,0.36915302886131146,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,18,Group Stage,Netherlands,Ecuador,1,1,0.6064530624539225,0.2059147186604419,0.18763221888563553,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,19,Group Stage,Wales,Iran,0,2,0.27469583829829697,0.2689536907060605,0.45635047099564247,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,20,Group Stage,England,United States,0,0,0.40199719636934733,0.24974707898118756,0.3482557246494652,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,21,Group Stage,Poland,Saudi Arabia,2,0,0.367512586154108,0.2656387104728745,0.3668487033730175,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,22,Group Stage,Argentina,Mexico,2,0,0.6551227746877597,0.24158181572993162,0.1032954095823086,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,23,Group Stage,Tunisia,Australia,0,1,0.371773998123804,0.2588509115432524,0.3693750903329436,home_win,away_win,False
+v2_world_cup_only,V2 World Cup only,24,Group Stage,France,Denmark,2,1,0.5751675212507171,0.20133099486692171,0.22350148388236118,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,25,Group Stage,Japan,Costa Rica,0,1,0.47354800146770987,0.24718330138640512,0.27926869714588504,home_win,away_win,False
+v2_world_cup_only,V2 World Cup only,26,Group Stage,Spain,Germany,1,1,0.332571525431579,0.3304743806091451,0.336954093959276,away_win,draw,False
+v2_world_cup_only,V2 World Cup only,27,Group Stage,Belgium,Morocco,0,2,0.49118810666680146,0.2434060860579737,0.26540580727522484,home_win,away_win,False
+v2_world_cup_only,V2 World Cup only,28,Group Stage,Croatia,Canada,4,1,0.4448654458171972,0.2878787646147119,0.2672557895680909,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,29,Group Stage,Cameroon,Serbia,3,3,0.23996281151396046,0.21849808905449733,0.5415390994315422,away_win,draw,False
+v2_world_cup_only,V2 World Cup only,30,Group Stage,Brazil,Switzerland,1,0,0.8342188446953673,0.11798217643089809,0.04779897887373459,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,31,Group Stage,South Korea,Ghana,2,3,0.5528598136464946,0.2326472358710857,0.21449295048241968,home_win,away_win,False
+v2_world_cup_only,V2 World Cup only,32,Group Stage,Portugal,Uruguay,2,0,0.2618534381127356,0.32211744205419335,0.41602911983307106,away_win,home_win,False
+v2_world_cup_only,V2 World Cup only,33,Group Stage,Ecuador,Senegal,1,2,0.3621669886708962,0.31616683587084254,0.3216661754582612,home_win,away_win,False
+v2_world_cup_only,V2 World Cup only,34,Group Stage,Qatar,Netherlands,0,2,0.14527283841790964,0.26759883561915426,0.5871283259629361,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,35,Group Stage,Wales,England,0,3,0.11484083685357407,0.29315584764429525,0.5920033155021307,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,36,Group Stage,Iran,United States,0,1,0.1883969228257376,0.30516026460224627,0.5064428125720161,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,37,Group Stage,Poland,Argentina,0,2,0.034705858014458676,0.1510377638919132,0.814256378093628,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,38,Group Stage,Saudi Arabia,Mexico,1,2,0.1443785402899795,0.32055887510771097,0.5350625846023097,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,39,Group Stage,Australia,Denmark,1,0,0.33773632679501264,0.25717502514104684,0.40508864806394057,away_win,home_win,False
+v2_world_cup_only,V2 World Cup only,40,Group Stage,Tunisia,France,1,0,0.1791680894151932,0.27137265220716467,0.5494592583776422,away_win,home_win,False
+v2_world_cup_only,V2 World Cup only,41,Group Stage,Japan,Spain,2,1,0.2376117974523658,0.2785610836395619,0.4838271189080724,away_win,home_win,False
+v2_world_cup_only,V2 World Cup only,42,Group Stage,Costa Rica,Germany,2,4,0.14858811325917734,0.3316149690499059,0.5197969176909167,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,43,Group Stage,Croatia,Belgium,0,0,0.21834994965286167,0.338419467648939,0.44323058269819926,away_win,draw,False
+v2_world_cup_only,V2 World Cup only,44,Group Stage,Canada,Morocco,1,2,0.24921358329958537,0.29578529941765114,0.45500111728276355,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,45,Group Stage,Serbia,Switzerland,2,3,0.4178724879456945,0.3057975421002466,0.27632996995405895,home_win,away_win,False
+v2_world_cup_only,V2 World Cup only,46,Group Stage,Cameroon,Brazil,1,0,0.031489212074654445,0.14836084544556066,0.8201499424797849,away_win,home_win,False
+v2_world_cup_only,V2 World Cup only,47,Group Stage,Ghana,Uruguay,0,2,0.08229526434706187,0.21692733075653495,0.7007774048964032,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,48,Group Stage,South Korea,Portugal,2,1,0.25118637183463915,0.22649697885780853,0.5223166493075523,away_win,home_win,False
+v2_world_cup_only,V2 World Cup only,49,Round of 16,Netherlands,United States,3,1,0.3711347586503455,0.31865663645547954,0.3102086048941749,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,50,Round of 16,Argentina,Australia,2,1,0.8377906046184477,0.11458808259366102,0.047621312787891314,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,51,Round of 16,France,Poland,3,1,0.6295433517510486,0.2206761939615074,0.149780454287444,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,52,Round of 16,England,Senegal,3,0,0.6386171751908537,0.17822715088615435,0.183155673922992,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,53,Round of 16,Japan,Croatia,1,1,0.485855066842121,0.21988689283260174,0.2942580403252773,home_win,draw,False
+v2_world_cup_only,V2 World Cup only,54,Round of 16,Brazil,South Korea,4,1,0.8070704154202304,0.1336965621700411,0.05923302240972854,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,55,Round of 16,Morocco,Spain,0,0,0.18074161885346393,0.2766836359339118,0.5425747452126243,away_win,draw,False
+v2_world_cup_only,V2 World Cup only,56,Round of 16,Portugal,Switzerland,6,1,0.518281110804454,0.28981943317789466,0.19189945601765143,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,57,Quarter-final,Croatia,Brazil,1,1,0.04327009574733361,0.24360573723127824,0.7131241670213881,away_win,draw,False
+v2_world_cup_only,V2 World Cup only,58,Quarter-final,Netherlands,Argentina,2,2,0.09088515126150448,0.25320415346053715,0.6559106952779583,away_win,draw,False
+v2_world_cup_only,V2 World Cup only,59,Quarter-final,Morocco,Portugal,1,0,0.22789088466811336,0.24952607251060335,0.5225830428212833,away_win,home_win,False
+v2_world_cup_only,V2 World Cup only,60,Quarter-final,England,France,1,2,0.3223734427825235,0.25160048092059195,0.42602607629688455,away_win,away_win,True
+v2_world_cup_only,V2 World Cup only,61,Semi-final,Argentina,Croatia,3,0,0.8413930320700044,0.10396404896902779,0.054642918960967866,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,62,Semi-final,France,Morocco,2,0,0.5482874674662652,0.22755652604307572,0.224156006490659,home_win,home_win,True
+v2_world_cup_only,V2 World Cup only,63,Third Place,Croatia,Morocco,2,1,0.3221779915458095,0.32198175882851243,0.3558402496256781,away_win,home_win,False
+v2_world_cup_only,V2 World Cup only,64,Final,Argentina,France,3,3,0.6788935719688571,0.20199489478511212,0.11911153324603074,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,1,Group Stage,Qatar,Ecuador,0,2,0.37771725403007034,0.2505919869380582,0.37169075903187143,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,2,Group Stage,Senegal,Netherlands,0,2,0.27346444609980863,0.2234602321816938,0.5030753217184974,away_win,away_win,True
+v2_all_international_since_anchor,V2 all international since anchor,3,Group Stage,England,Iran,6,2,0.6688889192902973,0.2077490894739697,0.1233619912357331,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,4,Group Stage,United States,Wales,1,1,0.6694189057250001,0.1881368445339596,0.1424442497410404,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,5,Group Stage,Argentina,Saudi Arabia,1,2,0.8312124973097016,0.12368435484781959,0.04510314784247877,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,6,Group Stage,Mexico,Poland,0,0,0.7024390302444333,0.18131856155846815,0.11624240819709857,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,7,Group Stage,Denmark,Tunisia,0,0,0.5935558461748456,0.22423015951297356,0.18221399431218083,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,8,Group Stage,France,Australia,4,1,0.7158196434770708,0.1802330449944499,0.10394731152847923,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,9,Group Stage,Germany,Japan,1,2,0.6437864568391414,0.20376590950014786,0.15244763366071082,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,10,Group Stage,Spain,Costa Rica,7,0,0.6897308308510122,0.19470605052642875,0.11556311862255912,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,11,Group Stage,Morocco,Croatia,0,0,0.4279992863240811,0.23380570383180704,0.3381950098441118,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,12,Group Stage,Belgium,Canada,1,0,0.6908713376744202,0.1935770259688348,0.11555163635674492,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,13,Group Stage,Switzerland,Cameroon,1,0,0.5979510632988868,0.22817616122660409,0.17387277547450913,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,14,Group Stage,Brazil,Serbia,2,0,0.8179651907353712,0.13574244092851265,0.046292368336116094,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,15,Group Stage,Uruguay,South Korea,0,0,0.6469747540832251,0.22429727537814464,0.12872797053863014,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,16,Group Stage,Portugal,Ghana,3,2,0.7302743260537625,0.17707762043991152,0.09264805350632595,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,17,Group Stage,Qatar,Senegal,1,3,0.4262355631215162,0.26500055823030916,0.30876387864817456,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,18,Group Stage,Netherlands,Ecuador,1,1,0.6218808066763067,0.22233814017596543,0.15578105314772797,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,19,Group Stage,Wales,Iran,0,2,0.4267588670928396,0.2857803870119041,0.28746074589525633,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,20,Group Stage,England,United States,0,0,0.5295717023193993,0.2392693613213976,0.23115893635920298,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,21,Group Stage,Poland,Saudi Arabia,2,0,0.46505875889074305,0.25043592989085045,0.28450531121840655,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,22,Group Stage,Argentina,Mexico,2,0,0.6780098912262693,0.19870977674040202,0.12328033203332868,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,23,Group Stage,Tunisia,Australia,0,1,0.4296874007172356,0.2661895129977228,0.30412308628504164,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,24,Group Stage,France,Denmark,2,1,0.6573433550031208,0.1936222510166844,0.1490343939801948,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,25,Group Stage,Japan,Costa Rica,0,1,0.5659668083400401,0.24121054980482687,0.19282264185513298,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,26,Group Stage,Spain,Germany,1,1,0.4390854277185948,0.25156878137303723,0.30934579090836795,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,27,Group Stage,Belgium,Morocco,0,2,0.661707597861951,0.2003283155346325,0.13796408660341639,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,28,Group Stage,Croatia,Canada,4,1,0.5530245710968844,0.256516751567922,0.1904586773351936,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,29,Group Stage,Cameroon,Serbia,3,3,0.3743668845109865,0.25568349573565147,0.369949619753362,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,30,Group Stage,Brazil,Switzerland,1,0,0.8057080775920724,0.14045965383572195,0.05383226857220561,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,31,Group Stage,South Korea,Ghana,2,3,0.5925857932479911,0.20416871604418452,0.20324549070782444,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,32,Group Stage,Portugal,Uruguay,2,0,0.4573633033992982,0.2541951590978421,0.2884415375028597,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,33,Group Stage,Ecuador,Senegal,1,2,0.5210777557855634,0.25550579523039396,0.22341644898404264,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,34,Group Stage,Qatar,Netherlands,0,2,0.23479925176842478,0.2279773597580361,0.5372233884735391,away_win,away_win,True
+v2_all_international_since_anchor,V2 all international since anchor,35,Group Stage,Wales,England,0,3,0.23499539987748494,0.26510967077185543,0.49989492935065966,away_win,away_win,True
+v2_all_international_since_anchor,V2 all international since anchor,36,Group Stage,Iran,United States,0,1,0.31850453218679003,0.24243441993799184,0.43906104787521816,away_win,away_win,True
+v2_all_international_since_anchor,V2 all international since anchor,37,Group Stage,Poland,Argentina,0,2,0.10570639040737084,0.20016531227277104,0.694128297319858,away_win,away_win,True
+v2_all_international_since_anchor,V2 all international since anchor,38,Group Stage,Saudi Arabia,Mexico,1,2,0.2511122017759975,0.25879136922527646,0.49009642899872585,away_win,away_win,True
+v2_all_international_since_anchor,V2 all international since anchor,39,Group Stage,Australia,Denmark,1,0,0.39659329648980063,0.24276105682973437,0.36064564668046495,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,40,Group Stage,Tunisia,France,1,0,0.19507602124893894,0.2511382559246993,0.5537857228263618,away_win,home_win,False
+v2_all_international_since_anchor,V2 all international since anchor,41,Group Stage,Japan,Spain,2,1,0.33621261771232275,0.26559567986063887,0.39819170242703844,away_win,home_win,False
+v2_all_international_since_anchor,V2 all international since anchor,42,Group Stage,Costa Rica,Germany,2,4,0.2216772965843422,0.2354130861178207,0.5429096172978372,away_win,away_win,True
+v2_all_international_since_anchor,V2 all international since anchor,43,Group Stage,Croatia,Belgium,0,0,0.32621139707569885,0.28256298301493915,0.391225619909362,away_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,44,Group Stage,Canada,Morocco,1,2,0.4364118511986455,0.2467275159693115,0.316860632832043,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,45,Group Stage,Serbia,Switzerland,2,3,0.4469735566432623,0.24568370061352116,0.30734274274321666,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,46,Group Stage,Cameroon,Brazil,1,0,0.07505583371054825,0.16162567881064824,0.7633184874788036,away_win,home_win,False
+v2_all_international_since_anchor,V2 all international since anchor,47,Group Stage,Ghana,Uruguay,0,2,0.1962851844492238,0.23540587959579354,0.5683089359549828,away_win,away_win,True
+v2_all_international_since_anchor,V2 all international since anchor,48,Group Stage,South Korea,Portugal,2,1,0.30138030535533317,0.22406635873176423,0.4745533359129027,away_win,home_win,False
+v2_all_international_since_anchor,V2 all international since anchor,49,Round of 16,Netherlands,United States,3,1,0.5096913529816319,0.2564367195734102,0.23387192744495788,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,50,Round of 16,Argentina,Australia,2,1,0.8060379829313373,0.14176973165747123,0.05219228541119135,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,51,Round of 16,France,Poland,3,1,0.7559538875174494,0.15646365406208637,0.08758245842046414,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,52,Round of 16,England,Senegal,3,0,0.6773682321533974,0.2038063745802005,0.11882539326640215,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,53,Round of 16,Japan,Croatia,1,1,0.5345790424421639,0.23357967588754835,0.23184128167028764,home_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,54,Round of 16,Brazil,South Korea,4,1,0.8072609198233243,0.1447938902213927,0.04794518995528302,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,55,Round of 16,Morocco,Spain,0,0,0.24122571713504964,0.2382426652725129,0.5205316175924375,away_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,56,Round of 16,Portugal,Switzerland,6,1,0.6248920532934011,0.2236576321461911,0.15145031456040775,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,57,Quarter-final,Croatia,Brazil,1,1,0.12160269014445724,0.21369207039902077,0.6647052394565218,away_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,58,Quarter-final,Netherlands,Argentina,2,2,0.24736325139449258,0.2556531741693756,0.4969835744361318,away_win,draw,False
+v2_all_international_since_anchor,V2 all international since anchor,59,Quarter-final,Morocco,Portugal,1,0,0.25393702488840403,0.22692220395134358,0.5191407711602524,away_win,home_win,False
+v2_all_international_since_anchor,V2 all international since anchor,60,Quarter-final,England,France,1,2,0.39990690506098814,0.25927550351127926,0.3408175914277326,home_win,away_win,False
+v2_all_international_since_anchor,V2 all international since anchor,61,Semi-final,Argentina,Croatia,3,0,0.7852501598935284,0.1454205806663212,0.06932925944015042,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,62,Semi-final,France,Morocco,2,0,0.7143498634397097,0.18139320681852422,0.10425692974176588,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,63,Third Place,Croatia,Morocco,2,1,0.5180024025298656,0.25961074174851695,0.22238685572161732,home_win,home_win,True
+v2_all_international_since_anchor,V2 all international since anchor,64,Final,Argentina,France,3,3,0.615300769939729,0.2248982783553707,0.15980095170490025,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,1,Group Stage,Qatar,Ecuador,0,2,0.30183382905568046,0.28649212433277205,0.4116740466115476,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,2,Group Stage,Senegal,Netherlands,0,2,0.23172851759771557,0.26343456703560214,0.5048369153666823,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,3,Group Stage,England,Iran,6,2,0.4499267206097668,0.27379533666526573,0.2762779427249675,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,4,Group Stage,United States,Wales,1,1,0.6014713867732123,0.2298352634347184,0.1686933497920694,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,5,Group Stage,Argentina,Saudi Arabia,1,2,0.8040080434527358,0.13469427249565447,0.0612976840516097,home_win,away_win,False
+v3_world_cup_only,V3 World Cup only,6,Group Stage,Mexico,Poland,0,0,0.5831041719263299,0.23753604531891115,0.17935978275475903,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,7,Group Stage,Denmark,Tunisia,0,0,0.4229999609492002,0.2720916288649979,0.3049084101858019,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,8,Group Stage,France,Australia,4,1,0.5200336857062424,0.24978291128226396,0.23018340301149354,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,9,Group Stage,Germany,Japan,1,2,0.4469132097666566,0.2638234730146607,0.2892633172186827,home_win,away_win,False
+v3_world_cup_only,V3 World Cup only,10,Group Stage,Spain,Costa Rica,7,0,0.5313731980575158,0.24556867589014528,0.22305812605233882,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,11,Group Stage,Morocco,Croatia,0,0,0.389255979375027,0.27263761594556557,0.33810640467940756,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,12,Group Stage,Belgium,Canada,1,0,0.5088535428548253,0.2531042599322002,0.23804219721297454,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,13,Group Stage,Switzerland,Cameroon,1,0,0.40195879032587156,0.27624712467478274,0.3217940849993457,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,14,Group Stage,Brazil,Serbia,2,0,0.7321302257005995,0.17163778475848002,0.0962319895409206,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,15,Group Stage,Uruguay,South Korea,0,0,0.5517175234526094,0.24702429734151393,0.20125817920587663,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,16,Group Stage,Portugal,Ghana,3,2,0.684860325568988,0.1909365348693834,0.1242031395616287,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,17,Group Stage,Qatar,Senegal,1,3,0.3362512591890572,0.2793301391288512,0.38441860168209163,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,18,Group Stage,Netherlands,Ecuador,1,1,0.45928983919048366,0.27703112871860336,0.26367903209091315,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,19,Group Stage,Wales,Iran,0,2,0.26414525244942594,0.27559837275091115,0.46025637479966297,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,20,Group Stage,England,United States,0,0,0.3199180051431581,0.27756246797223233,0.4025195268846096,away_win,draw,False
+v3_world_cup_only,V3 World Cup only,21,Group Stage,Poland,Saudi Arabia,2,0,0.309082130031499,0.27346474321469993,0.4174531267538012,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,22,Group Stage,Argentina,Mexico,2,0,0.6465239625682974,0.21506338492634733,0.1384126525053553,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,23,Group Stage,Tunisia,Australia,0,1,0.31850857194266385,0.2796169787932565,0.4018744492640795,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,24,Group Stage,France,Denmark,2,1,0.4925164533123563,0.258170215565031,0.24931333112261284,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,25,Group Stage,Japan,Costa Rica,0,1,0.4174169852599867,0.27652311594233825,0.3060598987976751,home_win,away_win,False
+v3_world_cup_only,V3 World Cup only,26,Group Stage,Spain,Germany,1,1,0.3738348253232732,0.27804406422708855,0.3481211104496383,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,27,Group Stage,Belgium,Morocco,0,2,0.43280789251561336,0.26891583479025294,0.2982762726941338,home_win,away_win,False
+v3_world_cup_only,V3 World Cup only,28,Group Stage,Croatia,Canada,4,1,0.39446363140796536,0.2823666015539801,0.3231697670380545,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,29,Group Stage,Cameroon,Serbia,3,3,0.22751889185793506,0.2552774112043558,0.5172036969377091,away_win,draw,False
+v3_world_cup_only,V3 World Cup only,30,Group Stage,Brazil,Switzerland,1,0,0.811387856259498,0.13094175452775728,0.05767038921274467,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,31,Group Stage,South Korea,Ghana,2,3,0.5028616086080181,0.25076859603101614,0.2463697953609657,home_win,away_win,False
+v3_world_cup_only,V3 World Cup only,32,Group Stage,Portugal,Uruguay,2,0,0.3404662092650129,0.28182275979472227,0.3777110309402649,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,33,Group Stage,Ecuador,Senegal,1,2,0.39591588520634546,0.2695385054249038,0.33454560936875066,home_win,away_win,False
+v3_world_cup_only,V3 World Cup only,34,Group Stage,Qatar,Netherlands,0,2,0.2150399577929719,0.2577775557469811,0.527182486460047,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,35,Group Stage,Wales,England,0,3,0.19194575640199454,0.24948990601170276,0.5585643375863028,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,36,Group Stage,Iran,United States,0,1,0.23851534343617414,0.2606489834401103,0.5008356731237156,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,37,Group Stage,Poland,Argentina,0,2,0.04506548277907077,0.11369807473134626,0.8412364424895828,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,38,Group Stage,Saudi Arabia,Mexico,1,2,0.21238322288630723,0.2592462447249767,0.5283705323887161,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,39,Group Stage,Australia,Denmark,1,0,0.3336435942708968,0.28179291066883255,0.3845634950602706,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,40,Group Stage,Tunisia,France,1,0,0.19502303385723224,0.25933387305435657,0.5456430930884112,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,41,Group Stage,Japan,Spain,2,1,0.26475421988503495,0.2825703349796589,0.4526754451353062,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,42,Group Stage,Costa Rica,Germany,2,4,0.22982916817178406,0.271472074593663,0.4986987572345529,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,43,Group Stage,Croatia,Belgium,0,0,0.2630107416844259,0.2836916850634193,0.4532975732521548,away_win,draw,False
+v3_world_cup_only,V3 World Cup only,44,Group Stage,Canada,Morocco,1,2,0.2916495496624578,0.27758572805376786,0.4307647222837744,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,45,Group Stage,Serbia,Switzerland,2,3,0.4555500438078554,0.27663262502190655,0.26781733117023804,home_win,away_win,False
+v3_world_cup_only,V3 World Cup only,46,Group Stage,Cameroon,Brazil,1,0,0.044716945328323716,0.11528349839435167,0.8399995562773246,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,47,Group Stage,Ghana,Uruguay,0,2,0.11874045455172055,0.21487635542565267,0.6663831900226268,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,48,Group Stage,South Korea,Portugal,2,1,0.20854291566482636,0.2522619751094975,0.5391951092256762,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,49,Round of 16,Netherlands,United States,3,1,0.3576306288097083,0.28700910115988526,0.35536027003040654,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,50,Round of 16,Argentina,Australia,2,1,0.7629666410272874,0.15605480314092665,0.08097855583178591,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,51,Round of 16,France,Poland,3,1,0.6255215903388484,0.22120295502971507,0.1532754546314365,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,52,Round of 16,England,Senegal,3,0,0.46321139999015515,0.26142432594809867,0.27536427406174613,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,53,Round of 16,Japan,Croatia,1,1,0.42527445004582354,0.2761405125740818,0.29858503738009473,home_win,draw,False
+v3_world_cup_only,V3 World Cup only,54,Round of 16,Brazil,South Korea,4,1,0.7712299517991049,0.15210053184963432,0.07666951635126071,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,55,Round of 16,Morocco,Spain,0,0,0.23383080582671179,0.26661464826277415,0.49955454591051407,away_win,draw,False
+v3_world_cup_only,V3 World Cup only,56,Round of 16,Portugal,Switzerland,6,1,0.5859057688735211,0.24061969180671058,0.17347453931976836,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,57,Quarter-final,Croatia,Brazil,1,1,0.07195776741349916,0.16173453419113182,0.7663076983953689,away_win,draw,False
+v3_world_cup_only,V3 World Cup only,58,Quarter-final,Netherlands,Argentina,2,2,0.12985501100560473,0.21728981993094656,0.6528551690634488,away_win,draw,False
+v3_world_cup_only,V3 World Cup only,59,Quarter-final,Morocco,Portugal,1,0,0.2153888425723874,0.25480084536157493,0.5298103120660377,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,60,Quarter-final,England,France,1,2,0.26940429330381316,0.27531435462053866,0.4552813520756481,away_win,away_win,True
+v3_world_cup_only,V3 World Cup only,61,Semi-final,Argentina,Croatia,3,0,0.7681490062464075,0.151983398484561,0.07986759526903138,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,62,Semi-final,France,Morocco,2,0,0.48641918393860095,0.259512594791449,0.25406822126995005,home_win,home_win,True
+v3_world_cup_only,V3 World Cup only,63,Third Place,Croatia,Morocco,2,1,0.32676148383910936,0.28545794769478255,0.3877805684661082,away_win,home_win,False
+v3_world_cup_only,V3 World Cup only,64,Final,Argentina,France,3,3,0.6049309473004922,0.232370424796601,0.1626986279029068,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,1,Group Stage,Qatar,Ecuador,0,2,0.49819486540093205,0.25240960362598375,0.24939553097308423,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,2,Group Stage,Senegal,Netherlands,0,2,0.2495206083202181,0.22660380233764058,0.5238755893421414,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,3,Group Stage,England,Iran,6,2,0.6045403614044726,0.21353162012087543,0.18192801847465187,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,4,Group Stage,United States,Wales,1,1,0.6239611317089456,0.20882503865160357,0.16721382963945092,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,5,Group Stage,Argentina,Saudi Arabia,1,2,0.8342306050884941,0.1127539099488577,0.0530154849626482,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,6,Group Stage,Mexico,Poland,0,0,0.6412801610059695,0.20121580898861358,0.15750403000541688,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,7,Group Stage,Denmark,Tunisia,0,0,0.5004028854271003,0.2369614285644857,0.262635686008414,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,8,Group Stage,France,Australia,4,1,0.6321466064692911,0.20307870914407455,0.16477468438663437,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,9,Group Stage,Germany,Japan,1,2,0.5971822409981992,0.2167486447903012,0.18606911421149952,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,10,Group Stage,Spain,Costa Rica,7,0,0.6079825632549682,0.2119746472126786,0.18004278953235303,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,11,Group Stage,Morocco,Croatia,0,0,0.39326845427359736,0.24596798287393545,0.3607635628524673,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,12,Group Stage,Belgium,Canada,1,0,0.6129415360113283,0.2112917118482099,0.1757667521404618,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,13,Group Stage,Switzerland,Cameroon,1,0,0.5305368845746115,0.23307814752300737,0.23638496790238117,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,14,Group Stage,Brazil,Serbia,2,0,0.7731024916623985,0.14662670964992103,0.08027079868768054,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,15,Group Stage,Uruguay,South Korea,0,0,0.5293079120770782,0.23425796327236756,0.23643412465055424,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,16,Group Stage,Portugal,Ghana,3,2,0.6492712568538931,0.19725004443285263,0.15347869871325426,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,17,Group Stage,Qatar,Senegal,1,3,0.4674181304970172,0.258604784174802,0.2739770853281809,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,18,Group Stage,Netherlands,Ecuador,1,1,0.6253456186800445,0.2082476642675657,0.16640671705239,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,19,Group Stage,Wales,Iran,0,2,0.33508676181841957,0.2447748808422644,0.42013835733931604,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,20,Group Stage,England,United States,0,0,0.4798528449859648,0.2409342796049268,0.2792128754091084,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,21,Group Stage,Poland,Saudi Arabia,2,0,0.44418734721964287,0.24530061525894123,0.3105120375214159,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,22,Group Stage,Argentina,Mexico,2,0,0.6274078970923213,0.2068023232365169,0.16578977967116196,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,23,Group Stage,Tunisia,Australia,0,1,0.3837026210367545,0.24888448236547847,0.3674128965977671,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,24,Group Stage,France,Denmark,2,1,0.5838069693719962,0.21901417632448558,0.1971788543035184,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,25,Group Stage,Japan,Costa Rica,0,1,0.46473454488958693,0.24211355211019633,0.2931519030002167,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,26,Group Stage,Spain,Germany,1,1,0.379950404769805,0.24826563138431612,0.37178396384587886,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,27,Group Stage,Belgium,Morocco,0,2,0.5803403095797787,0.21920845702425754,0.20045123339596388,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,28,Group Stage,Croatia,Canada,4,1,0.47461891913128473,0.24709439482728277,0.2782866860414326,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,29,Group Stage,Cameroon,Serbia,3,3,0.2899870458498551,0.2396793634459434,0.47033359070420155,away_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,30,Group Stage,Brazil,Switzerland,1,0,0.7893260534288324,0.13807224288396536,0.07260170368720231,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,31,Group Stage,South Korea,Ghana,2,3,0.5647182606581435,0.22311991256826985,0.21216182677358678,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,32,Group Stage,Portugal,Uruguay,2,0,0.3915407070326473,0.24703734491793464,0.361421948049418,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,33,Group Stage,Ecuador,Senegal,1,2,0.3857198832186426,0.2495994929101143,0.36468062387124295,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,34,Group Stage,Qatar,Netherlands,0,2,0.3028565166476195,0.2555156696460632,0.44162781370631743,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,35,Group Stage,Wales,England,0,3,0.17885267073867833,0.2009387864403854,0.6202085428209364,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,36,Group Stage,Iran,United States,0,1,0.29732185333527533,0.23976940279727782,0.46290874386744685,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,37,Group Stage,Poland,Argentina,0,2,0.08473270087306985,0.1347586626530118,0.7805086364739183,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,38,Group Stage,Saudi Arabia,Mexico,1,2,0.19396740397112502,0.21034160772559035,0.5956909883032847,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,39,Group Stage,Australia,Denmark,1,0,0.3695244986706421,0.24972211468151578,0.38075338664784214,away_win,home_win,False
+v3_all_international_since_anchor,V3 all international since anchor,40,Group Stage,Tunisia,France,1,0,0.19820777235885098,0.21378968086559152,0.5880025467755575,away_win,home_win,False
+v3_all_international_since_anchor,V3 all international since anchor,41,Group Stage,Japan,Spain,2,1,0.2810731749489956,0.23642661597860512,0.4825002090723994,away_win,home_win,False
+v3_all_international_since_anchor,V3 all international since anchor,42,Group Stage,Costa Rica,Germany,2,4,0.21189724426587989,0.21734322808633116,0.570759527647789,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,43,Group Stage,Croatia,Belgium,0,0,0.2881161409237496,0.2436842965697777,0.4681995625064727,away_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,44,Group Stage,Canada,Morocco,1,2,0.3823850244041266,0.24614630607523041,0.3714686695206429,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,45,Group Stage,Serbia,Switzerland,2,3,0.4378994525399206,0.24596965608446214,0.31613089137561745,home_win,away_win,False
+v3_all_international_since_anchor,V3 all international since anchor,46,Group Stage,Cameroon,Brazil,1,0,0.05348780906896821,0.09901500262770263,0.8474971883033292,away_win,home_win,False
+v3_all_international_since_anchor,V3 all international since anchor,47,Group Stage,Ghana,Uruguay,0,2,0.18967786305412154,0.20792941874047466,0.6023927182054039,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,48,Group Stage,South Korea,Portugal,2,1,0.3331019647603472,0.24582045066386435,0.4210775845757885,away_win,home_win,False
+v3_all_international_since_anchor,V3 all international since anchor,49,Round of 16,Netherlands,United States,3,1,0.48781643201121305,0.24315655455237678,0.26902701343641017,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,50,Round of 16,Argentina,Australia,2,1,0.7730168559947782,0.145284976916678,0.08169816708854367,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,51,Round of 16,France,Poland,3,1,0.6869251094636387,0.18348028091815502,0.12959460961820624,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,52,Round of 16,England,Senegal,3,0,0.5877572799882597,0.21795202421050902,0.19429069580123137,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,53,Round of 16,Japan,Croatia,1,1,0.46048862239579325,0.24180532159677745,0.29770605600742933,home_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,54,Round of 16,Brazil,South Korea,4,1,0.7638401232709258,0.1507247350081399,0.08543514172093443,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,55,Round of 16,Morocco,Spain,0,0,0.22511825129248056,0.22079903522426628,0.5540827134832532,away_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,56,Round of 16,Portugal,Switzerland,6,1,0.5385965018515202,0.23152153750082372,0.22988196064765617,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,57,Quarter-final,Croatia,Brazil,1,1,0.09487322632299558,0.14520479081791743,0.7599219828590871,away_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,58,Quarter-final,Netherlands,Argentina,2,2,0.23052161000295435,0.22535927727164948,0.5441191127253963,away_win,draw,False
+v3_all_international_since_anchor,V3 all international since anchor,59,Quarter-final,Morocco,Portugal,1,0,0.26826563726185987,0.2346937728841391,0.497040589854001,away_win,home_win,False
+v3_all_international_since_anchor,V3 all international since anchor,60,Quarter-final,England,France,1,2,0.36722540306094,0.24785004405412134,0.3849245528849386,away_win,away_win,True
+v3_all_international_since_anchor,V3 all international since anchor,61,Semi-final,Argentina,Croatia,3,0,0.7465968921131827,0.15728400042506718,0.09611910746175013,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,62,Semi-final,France,Morocco,2,0,0.6203840475741951,0.207557730130865,0.17205822229494006,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,63,Third Place,Croatia,Morocco,2,1,0.4404784860423825,0.24877010303102615,0.3107514109265914,home_win,home_win,True
+v3_all_international_since_anchor,V3 all international since anchor,64,Final,Argentina,France,3,3,0.5798076143481323,0.22216970558387275,0.19802268006799492,home_win,draw,False

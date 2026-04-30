@@ -32,11 +32,13 @@ Reference notes:
 
 The published model validation is a 2022 World Cup holdout using `20,000` simulations, match window `10`, and seed `20260403`. See the full [`model card`](docs/model_card.md) and the reproducible artifact at [`data/processed/validation/model_validation_2022.json`](data/processed/validation/model_validation_2022.json).
 
-| Model | Log Loss | Brier | Top-1 Acc. | Draw Pred./Actual | R16 Hits | SF Hits | Champion Hit |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Elo-only baseline | 1.0859 | 0.6248 | 53.1% | 21.9% / 23.4% | 0 | 0 | No |
-| V2 multinomial model | 1.0610 | 0.6123 | 53.1% | 22.2% / 23.4% | 9 | 1 | No |
-| V3 Poisson expected-goals model | 1.0214 | 0.6036 | 50.0% | 21.6% / 23.4% | 10 | 2 | No |
+| Model | Scope | Matches | Log Loss | Brier | Top-1 Acc. | Draw Pred./Actual | R16 Hits | SF Hits | Champion Hit |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Elo-only baseline | all_international_since_anchor | 22,843 | 1.0545 | 0.6358 | 42.2% | 24.1% / 23.4% | 0 | 0 | No |
+| V2 World Cup only | world_cup_only | 384 | 1.0170 | 0.5991 | 51.6% | 24.0% / 23.4% | 10 | 1 | Yes |
+| V2 all international since anchor | all_international_since_anchor | 22,843 | 1.0124 | 0.6004 | 48.4% | 22.0% / 23.4% | 9 | 2 | No |
+| V3 World Cup only | world_cup_only | 384 | 1.0204 | 0.6050 | 51.6% | 24.5% / 23.4% | 9 | 1 | No |
+| V3 all international since anchor | all_international_since_anchor | 22,843 | 1.0210 | 0.6033 | 50.0% | 21.6% / 23.4% | 10 | 2 | No |
 
 ## Current Probability Simulation Logic
 

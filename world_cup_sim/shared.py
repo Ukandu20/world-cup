@@ -116,6 +116,106 @@ def normalize_excluded_editions(exclude_editions: Iterable[int] = ()) -> tuple[i
     return tuple(sorted({int(edition) for edition in exclude_editions}))
 
 
+def normalize_training_scope(training_scope: str = DEFAULT_V3_TRAINING_SCOPE) -> str:
+    """Normalize and validate a model training-data scope."""
+    normalized = normalize_key(training_scope).replace(" ", "_")
+    aliases = {
+        "world_cup": TRAINING_SCOPE_WORLD_CUP_ONLY,
+        "world_cup_only": TRAINING_SCOPE_WORLD_CUP_ONLY,
+        "wc_only": TRAINING_SCOPE_WORLD_CUP_ONLY,
+        "all_international": TRAINING_SCOPE_ALL_INTERNATIONAL,
+        "all_international_since_anchor": TRAINING_SCOPE_ALL_INTERNATIONAL,
+        "international": TRAINING_SCOPE_ALL_INTERNATIONAL,
+    }
+    value = aliases.get(normalized, normalized)
+    if value not in TRAINING_SCOPE_OPTIONS:
+        raise ValueError(f"Unsupported training_scope '{training_scope}'. Expected one of {TRAINING_SCOPE_OPTIONS}")
+    return value
+
+
+def classify_competition_importance(tournament: str | None) -> float:
+    """Map a tournament name onto the shared competition-importance scale."""
+    normalized = normalize_key(tournament)
+    if not normalized:
+        return float(V3_COMPETITION_IMPORTANCE["friendly"])
+    if "friendly" in normalized or "exhibition" in normalized:
+        return float(V3_COMPETITION_IMPORTANCE["friendly"])
+    if any(token in normalized for token in ("qualification", "qualifying", "qualifier", "preliminary competition")):
+        return float(V3_COMPETITION_IMPORTANCE["qualifier"])
+    if "world cup" in normalized:
+        return float(V3_COMPETITION_IMPORTANCE["world_cup_finals"])
+
+    continental_keywords = (
+        "african cup of nations",
+        "asian cup",
+        "copa america",
+        "concacaf gold cup",
+        "european championship",
+        "uefa euro",
+        "nations cup",
+        "cup of nations",
+    )
+    if any(token in normalized for token in continental_keywords):
+        return float(V3_COMPETITION_IMPORTANCE["continental_finals"])
+    return float(V3_COMPETITION_IMPORTANCE["other_competitive"])
+
+
+def load_world_cup_edition_start_dates() -> dict[int, pd.Timestamp]:
+    """Return the first match date for each available World Cup edition."""
+    results_path = WORLD_CUP_ROOT / "all_editions" / "results.csv"
+    if not results_path.exists():
+        raise ValueError(f"World Cup all-editions results file not found: {results_path}")
+    results_df = pd.read_csv(results_path)
+    results_df["edition"] = pd.to_numeric(results_df["edition"], errors="coerce")
+    results_df["date"] = pd.to_datetime(results_df["date"], errors="coerce")
+    starts = (
+        results_df.dropna(subset=["edition", "date"])
+        .groupby("edition")["date"]
+        .min()
+        .sort_index()
+    )
+    return {int(edition): pd.Timestamp(date) for edition, date in starts.items()}
+
+
+def resolve_training_anchor_year(reference_edition_year: int, lookback_editions: int = 5) -> int:
+    """Resolve the oldest edition included by the rolling five-prior-World-Cup policy."""
+    starts = load_world_cup_edition_start_dates()
+    prior_editions = [edition for edition in sorted(starts) if edition < int(reference_edition_year)]
+    required = int(lookback_editions) + 1
+    if len(prior_editions) < required:
+        raise ValueError(
+            f"Need at least {required} prior World Cup editions before {reference_edition_year}; "
+            f"found {len(prior_editions)}"
+        )
+    return int(prior_editions[-required])
+
+
+def resolve_training_anchor_date(reference_edition_year: int, lookback_editions: int = 5) -> pd.Timestamp:
+    """Resolve the start date of the anchor World Cup edition."""
+    anchor_year = resolve_training_anchor_year(reference_edition_year, lookback_editions=lookback_editions)
+    starts = load_world_cup_edition_start_dates()
+    return pd.Timestamp(starts[anchor_year]).normalize()
+
+
+def training_metadata_from_frame(
+    training_df: pd.DataFrame,
+    training_scope: str,
+    anchor_year: int,
+    anchor_date: pd.Timestamp,
+) -> dict[str, object]:
+    """Build common training-source metadata for validation artifacts and model bundles."""
+    date_series = pd.to_datetime(training_df["date"], errors="coerce") if "date" in training_df.columns else pd.Series(dtype="datetime64[ns]")
+    return {
+        "training_scope": normalize_training_scope(training_scope),
+        "anchor_year": int(anchor_year),
+        "anchor_date": pd.Timestamp(anchor_date).strftime("%Y-%m-%d"),
+        "training_start_date": "" if date_series.dropna().empty else pd.Timestamp(date_series.min()).strftime("%Y-%m-%d"),
+        "training_end_date": "" if date_series.dropna().empty else pd.Timestamp(date_series.max()).strftime("%Y-%m-%d"),
+        "training_match_count": int(len(training_df)),
+        "sample_weight_policy": SAMPLE_WEIGHT_POLICY,
+    }
+
+
 def select_prior_editions(
     edition_year: int,
     edition_weight_map: dict[int, int],
@@ -1398,6 +1498,12 @@ __all__ = [
     'compute_elo_expected_score',
     'normalize_weighted_form_result',
     'normalize_excluded_editions',
+    'normalize_training_scope',
+    'classify_competition_importance',
+    'load_world_cup_edition_start_dates',
+    'resolve_training_anchor_year',
+    'resolve_training_anchor_date',
+    'training_metadata_from_frame',
     'select_prior_editions',
     'extract_group_stage_fixtures',
     'extract_knockout_fixtures',

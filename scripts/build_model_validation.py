@@ -15,8 +15,16 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from world_cup_sim.constants import RECENT_MATCH_WINDOW, V2_OUTCOME_LABELS
-from world_cup_sim.shared import build_2022_backtest_data, outcome_label_from_scoreline
+from world_cup_sim.constants import (
+    RECENT_MATCH_WINDOW,
+    SAMPLE_WEIGHT_POLICY,
+    TRAINING_SCOPE_ALL_INTERNATIONAL,
+    TRAINING_SCOPE_WORLD_CUP_ONLY,
+    V2_FEATURE_COLUMNS,
+    V2_OUTCOME_LABELS,
+    V3_FEATURE_COLUMNS,
+)
+from world_cup_sim.shared import build_2022_backtest_data, outcome_label_from_scoreline, resolve_training_anchor_date
 from world_cup_sim.v2 import build_v2_training_frame, run_v2_backtest_2022
 from world_cup_sim.v3 import run_v3_2022_backtest
 
@@ -94,8 +102,17 @@ def compute_match_metrics(match_predictions: pd.DataFrame) -> dict[str, float]:
 
 
 def run_elo_baseline_2022(match_window: int = DEFAULT_MATCH_WINDOW, seed: int = DEFAULT_SEED) -> dict[str, object]:
-    training_df = build_v2_training_frame(match_window=match_window, exclude_editions=(2022,))
-    if 2022 in set(training_df["edition"].astype(int)):
+    dataset = build_2022_backtest_data()
+    edition_start = pd.to_datetime(pd.DataFrame(dataset["results_df"])["date"], errors="coerce").min()
+    training_end_date = str((pd.Timestamp(edition_start) - pd.Timedelta(days=1)).date())
+    training_df = build_v2_training_frame(
+        match_window=match_window,
+        exclude_editions=(2022,),
+        training_scope=TRAINING_SCOPE_ALL_INTERNATIONAL,
+        reference_edition_year=2022,
+        end_date=training_end_date,
+    )
+    if "date" in training_df.columns and (pd.to_datetime(training_df["date"], errors="coerce") >= pd.Timestamp(edition_start)).any():
         raise ValueError("Elo baseline training data leaked 2022 matches")
 
     try:
@@ -106,6 +123,7 @@ def run_elo_baseline_2022(match_window: int = DEFAULT_MATCH_WINDOW, seed: int = 
 
     X = training_df.loc[:, ["elo_diff"]].astype(float)
     y = training_df["outcome_label"].astype(str)
+    sample_weight = training_df["sample_weight"].astype(float).to_numpy()
     scaler = StandardScaler()
     model = LogisticRegression(
         solver="lbfgs",
@@ -113,9 +131,9 @@ def run_elo_baseline_2022(match_window: int = DEFAULT_MATCH_WINDOW, seed: int = 
         max_iter=5000,
         random_state=seed,
     )
-    model.fit(scaler.fit_transform(X), y)
+    model.fit(scaler.fit_transform(X), y, sample_weight=sample_weight)
 
-    results_df = pd.DataFrame(build_2022_backtest_data()["results_df"]).copy()
+    results_df = pd.DataFrame(dataset["results_df"]).copy()
     rows: list[dict[str, object]] = []
     for match in results_df.sort_values(["match_number"], kind="stable").itertuples(index=False):
         elo_diff = float(match.home_elo_start) - float(match.away_elo_start)
@@ -155,9 +173,17 @@ def run_elo_baseline_2022(match_window: int = DEFAULT_MATCH_WINDOW, seed: int = 
     return {
         "summary_metrics": summary_metrics,
         "match_predictions": match_predictions,
-        "training_editions": sorted(training_df["edition"].dropna().astype(int).unique().tolist()),
         "feature_columns": ["elo_diff"],
         "tournament_simulated": False,
+        "training_metadata": {
+            "training_scope": TRAINING_SCOPE_ALL_INTERNATIONAL,
+            "anchor_year": 1998,
+            "anchor_date": resolve_training_anchor_date(2022).strftime("%Y-%m-%d"),
+            "training_start_date": pd.to_datetime(training_df["date"], errors="coerce").min().strftime("%Y-%m-%d"),
+            "training_end_date": pd.to_datetime(training_df["date"], errors="coerce").max().strftime("%Y-%m-%d"),
+            "training_match_count": int(len(training_df)),
+            "sample_weight_policy": SAMPLE_WEIGHT_POLICY,
+        },
     }
 
 
@@ -213,9 +239,9 @@ def build_summary_row(
     model_label: str,
     model_type: str,
     backtest: dict[str, object],
-    training_editions: list[int],
     feature_columns: list[str],
     tournament_simulated: bool,
+    training_metadata: dict[str, object],
 ) -> dict[str, object]:
     metrics = dict(backtest["summary_metrics"])
     if "draw_rate_actual" not in metrics or "draw_rate_predicted" not in metrics:
@@ -227,9 +253,9 @@ def build_summary_row(
         "model_label": model_label,
         "model_type": model_type,
         "holdout": "2022 FIFA World Cup",
-        "training_editions": training_editions,
         "feature_columns": feature_columns,
         "tournament_simulated": bool(tournament_simulated),
+        **training_metadata,
     }
     for field in METRIC_FIELDS:
         row[field] = metric_float(metrics.get(field))
@@ -244,13 +270,30 @@ def build_validation_artifacts(
     seed: int = DEFAULT_SEED,
 ) -> dict[str, object]:
     baseline = run_elo_baseline_2022(match_window=match_window, seed=seed)
-    v2 = run_v2_backtest_2022(match_window=match_window, simulations=simulations, seed=seed)
-    v3 = run_v3_2022_backtest(match_window=match_window, simulations=simulations, seed=seed)
-
-    v2_training = build_v2_training_frame(match_window=match_window, exclude_editions=(2022,))
-    v2_training_editions = sorted(v2_training["edition"].dropna().astype(int).unique().tolist())
-    if 2022 in v2_training_editions:
-        raise ValueError("V2 training data leaked 2022 matches")
+    v2_world_cup = run_v2_backtest_2022(
+        match_window=match_window,
+        simulations=simulations,
+        seed=seed,
+        training_scope=TRAINING_SCOPE_WORLD_CUP_ONLY,
+    )
+    v2_all_international = run_v2_backtest_2022(
+        match_window=match_window,
+        simulations=simulations,
+        seed=seed,
+        training_scope=TRAINING_SCOPE_ALL_INTERNATIONAL,
+    )
+    v3_world_cup = run_v3_2022_backtest(
+        match_window=match_window,
+        simulations=simulations,
+        seed=seed,
+        training_scope=TRAINING_SCOPE_WORLD_CUP_ONLY,
+    )
+    v3_all_international = run_v3_2022_backtest(
+        match_window=match_window,
+        simulations=simulations,
+        seed=seed,
+        training_scope=TRAINING_SCOPE_ALL_INTERNATIONAL,
+    )
 
     model_rows = [
         build_summary_row(
@@ -258,63 +301,64 @@ def build_validation_artifacts(
             "Elo-only baseline",
             "Multinomial logistic regression",
             baseline,
-            list(baseline["training_editions"]),
             list(baseline["feature_columns"]),
             bool(baseline["tournament_simulated"]),
+            dict(baseline["training_metadata"]),
         ),
         build_summary_row(
-            "v2",
-            "V2 multinomial model",
+            "v2_world_cup_only",
+            "V2 World Cup only",
             "Historical World Cup multinomial regression + Monte Carlo",
-            v2,
-            v2_training_editions,
-            [
-                "elo_diff",
-                "results_form_diff",
-                "gd_form_diff",
-                "perf_vs_exp_diff",
-                "goals_for_diff",
-                "goals_against_diff",
-                "placement_diff",
-                "appearance_diff",
-            ],
+            v2_world_cup,
+            list(V2_FEATURE_COLUMNS),
             True,
+            dict(v2_world_cup["training_metadata"]),
         ),
         build_summary_row(
-            "v3",
-            "V3 Poisson expected-goals model",
-            "Historical international Poisson regression + Monte Carlo",
-            v3,
-            [1998, 2022],
-            [
-                "elo_diff",
-                "results_form_diff",
-                "goals_for_diff",
-                "goals_against_diff",
-                "placement_diff",
-                "appearance_diff",
-                "gd_form_diff",
-                "perf_vs_exp_diff",
-                "host_flag",
-                "neutral_site",
-                "competition_importance",
-            ],
+            "v2_all_international_since_anchor",
+            "V2 all international since anchor",
+            "Historical international multinomial regression + Monte Carlo",
+            v2_all_international,
+            list(V2_FEATURE_COLUMNS),
             True,
+            dict(v2_all_international["training_metadata"]),
+        ),
+        build_summary_row(
+            "v3_world_cup_only",
+            "V3 World Cup only",
+            "Historical World Cup Poisson regression + Monte Carlo",
+            v3_world_cup,
+            list(V3_FEATURE_COLUMNS),
+            True,
+            dict(v3_world_cup["training_metadata"]),
+        ),
+        build_summary_row(
+            "v3_all_international_since_anchor",
+            "V3 all international since anchor",
+            "Historical international Poisson regression + Monte Carlo",
+            v3_all_international,
+            list(V3_FEATURE_COLUMNS),
+            True,
+            dict(v3_all_international["training_metadata"]),
         ),
     ]
 
     match_predictions = pd.concat(
         [
             pd.DataFrame(baseline["match_predictions"]),
-            normalize_backtest_match_predictions(v2, "v2", "V2 multinomial model"),
-            normalize_backtest_match_predictions(v3, "v3", "V3 Poisson expected-goals model"),
+            normalize_backtest_match_predictions(v2_world_cup, "v2_world_cup_only", "V2 World Cup only"),
+            normalize_backtest_match_predictions(v2_all_international, "v2_all_international_since_anchor", "V2 all international since anchor"),
+            normalize_backtest_match_predictions(v3_world_cup, "v3_world_cup_only", "V3 World Cup only"),
+            normalize_backtest_match_predictions(v3_all_international, "v3_all_international_since_anchor", "V3 all international since anchor"),
         ],
         ignore_index=True,
     )
     team_backtest = pd.concat(
         [
-            normalize_team_backtest(v2, "v2", "V2 multinomial model"),
-            normalize_team_backtest(v3, "v3", "V3 Poisson expected-goals model"),
+            normalize_team_backtest(v2_world_cup, "v2_world_cup_only", "V2 World Cup only"),
+            normalize_team_backtest(v2_all_international, "v2_all_international_since_anchor", "V2 all international since anchor"),
+            normalize_team_backtest(v3_world_cup, "v3_world_cup_only", "V3 World Cup only"),
+            normalize_team_backtest(v3_all_international, "v3_all_international_since_anchor", "V3 all international since anchor"),
         ],
         ignore_index=True,
     )
@@ -360,13 +404,15 @@ def write_validation_artifacts(artifacts: dict[str, object], output_dir: Path) -
 
 def markdown_metric_table(models: list[dict[str, object]]) -> str:
     rows = [
-        "| Model | Log Loss | Brier | Top-1 Acc. | Draw Pred./Actual | R16 Hits | SF Hits | Champion Hit |",
-        "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
+        "| Model | Scope | Matches | Log Loss | Brier | Top-1 Acc. | Draw Pred./Actual | R16 Hits | SF Hits | Champion Hit |",
+        "| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
     for model in models:
         rows.append(
-            "| {label} | {log_loss} | {brier} | {accuracy} | {draw_pred} / {draw_actual} | {r16} | {sf} | {champion} |".format(
+            "| {label} | {scope} | {matches} | {log_loss} | {brier} | {accuracy} | {draw_pred} / {draw_actual} | {r16} | {sf} | {champion} |".format(
                 label=model["model_label"],
+                scope=model.get("training_scope", ""),
+                matches=int(model.get("training_match_count", 0)),
                 log_loss=decimal(float(model["multiclass_log_loss"])),
                 brier=decimal(float(model["multiclass_brier_score"])),
                 accuracy=pct(float(model["top1_match_accuracy"])),
@@ -391,7 +437,7 @@ This project estimates preseason FIFA World Cup 2026 team and tournament probabi
 
 ## Validation Snapshot
 
-The committed validation artifact is `data/processed/validation/model_validation_2022.json`. The holdout is the 2022 FIFA World Cup, with 2022 excluded from V2 and baseline training. The V3 model trains only on international results before the first 2022 World Cup match.
+The committed validation artifact is `data/processed/validation/model_validation_2022.json`. The holdout is the 2022 FIFA World Cup. Each trained row uses the same anchor policy: for the 2022 holdout, training starts at the 1998 World Cup kickoff and ends before the first 2022 World Cup match.
 
 - Match window: `{validation["match_window"]}`
 - Monte Carlo simulations: `{validation["simulations"]:,}`
@@ -403,14 +449,19 @@ The Elo-only baseline is match-level only. Its tournament-stage fields are set t
 
 ## Model Families
 
-- **Baseline:** multinomial logistic regression using only pre-match Elo difference.
-- **V2:** multinomial logistic regression trained on historical World Cup matches, using Elo, recent form, goal profile, and prior World Cup history differences.
-- **V3:** Poisson expected-goals model trained on broader international results, using Elo, form, historical pedigree, host/neutral-site context, and competition importance.
+- **Baseline:** multinomial logistic regression using only pre-match Elo difference, trained on all international matches since the anchor date with tournament sample weights.
+- **V2:** multinomial logistic regression using Elo, recent form, goal profile, and prior World Cup history differences. It is validated under both World-Cup-only and all-international training scopes.
+- **V3:** Poisson expected-goals model using Elo, form, historical pedigree, host/neutral-site context, and competition importance. It is validated under both World-Cup-only and all-international training scopes.
+
+## Training Scopes And Weights
+
+- `world_cup_only`: historical World Cup finals matches from the anchor World Cup onward.
+- `all_international_since_anchor`: all international matches from the anchor World Cup kickoff onward.
+- Sample-weight policy: `{SAMPLE_WEIGHT_POLICY}`.
 
 ## Leakage Controls
 
-- V2 and the baseline exclude all 2022 World Cup matches from training.
-- V3 uses a cutoff before the first 2022 World Cup match.
+- All validation rows use a cutoff before the first 2022 World Cup match.
 - Team features for the 2022 holdout are built from pre-tournament data.
 - Tournament probabilities are evaluated against actual 2022 outcomes after simulation.
 

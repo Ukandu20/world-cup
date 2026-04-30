@@ -31,6 +31,10 @@ V2_MODEL_VERSION = simulation.V2_MODEL_VERSION
 V3_MODEL_LABEL = simulation.V3_MODEL_LABEL
 V3_MODEL_SUMMARY = simulation.V3_MODEL_SUMMARY
 V3_MODEL_VERSION = simulation.V3_MODEL_VERSION
+DEFAULT_V2_TRAINING_SCOPE = simulation.DEFAULT_V2_TRAINING_SCOPE
+DEFAULT_V3_TRAINING_SCOPE = simulation.DEFAULT_V3_TRAINING_SCOPE
+TRAINING_SCOPE_ALL_INTERNATIONAL = simulation.TRAINING_SCOPE_ALL_INTERNATIONAL
+TRAINING_SCOPE_WORLD_CUP_ONLY = simulation.TRAINING_SCOPE_WORLD_CUP_ONLY
 build_deterministic_bracket = simulation.build_deterministic_bracket
 build_deterministic_bracket_v2 = simulation.build_deterministic_bracket_v2
 build_deterministic_bracket_v3 = simulation.build_deterministic_bracket_v3
@@ -80,6 +84,11 @@ FORM_CONFEDERATION_ORDER = ("AFC", "CAF", "CONCACAF", "CONMEBOL", "OFC", "UEFA")
 V1_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
 V2_VIEW_OPTIONS = ("All Countries", "Single confederation", "All confederations")
 V2_PROB_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
+TRAINING_SCOPE_LABELS = {
+    "World Cup only": TRAINING_SCOPE_WORLD_CUP_ONLY,
+    "All international since anchor": TRAINING_SCOPE_ALL_INTERNATIONAL,
+}
+TRAINING_SCOPE_LABEL_BY_VALUE = {value: label for label, value in TRAINING_SCOPE_LABELS.items()}
 V1_STATE_KEY = "simulation_settings_v1"
 V2_STATE_KEY = "simulation_settings_v2"
 V2_PROB_STATE_KEY = "simulation_settings_v2_prob"
@@ -272,15 +281,21 @@ def simulate_probabilities(
 
 
 @st.cache_resource(show_spinner=False)
-def load_v2_match_model(form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW) -> dict[str, object]:
+def load_v2_match_model(
+    form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
+) -> dict[str, object]:
     """Fit and cache the v2 multinomial model artifacts for the active form window."""
-    return fit_v2_match_multinomial_model(match_window=form_match_window)
+    return fit_v2_match_multinomial_model(match_window=form_match_window, training_scope=training_scope)
 
 
 @st.cache_resource(show_spinner=False)
-def load_v3_poisson_model(form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW) -> dict[str, object]:
+def load_v3_poisson_model(
+    form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+    training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
+) -> dict[str, object]:
     """Fit and cache the v3 Poisson model artifacts for the active form window."""
-    return fit_v3_poisson_models(match_window=form_match_window)
+    return fit_v3_poisson_models(match_window=form_match_window, training_scope=training_scope)
 
 
 @st.cache_data(show_spinner=False)
@@ -290,6 +305,7 @@ def simulate_probabilities_v2_dashboard(
     lead_in_df: pd.DataFrame,
     simulations: int = SIMULATION_COUNT,
     match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
 ) -> pd.DataFrame:
     """Estimate tournament probabilities from the v2 multinomial simulator."""
     return simulate_group_probabilities_v2(
@@ -298,6 +314,7 @@ def simulate_probabilities_v2_dashboard(
         lead_in_df=lead_in_df,
         simulations=simulations,
         match_window=match_window,
+        training_scope=training_scope,
     )
 
 
@@ -308,6 +325,7 @@ def simulate_probabilities_v3_dashboard(
     lead_in_df: pd.DataFrame,
     simulations: int = SIMULATION_COUNT,
     match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+    training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
 ) -> pd.DataFrame:
     """Estimate tournament probabilities from the v3 Poisson simulator."""
     return simulate_group_probabilities_v3(
@@ -316,6 +334,7 @@ def simulate_probabilities_v3_dashboard(
         lead_in_df=lead_in_df,
         simulations=simulations,
         match_window=match_window,
+        training_scope=training_scope,
     )
 
 
@@ -323,11 +342,13 @@ def simulate_probabilities_v3_dashboard(
 def run_v2_backtest_2022_dashboard(
     simulations: int = SIMULATION_COUNT,
     match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
 ) -> dict[str, object]:
     """Run and cache the 2022 holdout backtest for the active UI settings."""
     return run_v2_backtest_2022(
         match_window=match_window,
         simulations=simulations,
+        training_scope=training_scope,
     )
 
 
@@ -335,11 +356,13 @@ def run_v2_backtest_2022_dashboard(
 def run_v3_backtest_2022_dashboard(
     simulations: int = SIMULATION_COUNT,
     match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
+    training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
 ) -> dict[str, object]:
     """Run and cache the 2022 holdout backtest for the active V3 UI settings."""
     return run_v3_2022_backtest(
         match_window=match_window,
         simulations=simulations,
+        training_scope=training_scope,
     )
 
 
@@ -2558,6 +2581,17 @@ def render_v2_probabilities_dashboard() -> None:
             key="v2_prob_form_match_window",
         )
     )
+    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V2_TRAINING_SCOPE))
+    training_scope_label = st.radio(
+        "Training data",
+        tuple(TRAINING_SCOPE_LABELS.keys()),
+        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
+        ),
+        horizontal=True,
+        key="v2_prob_training_scope",
+    )
+    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
     view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v2_prob_view_mode")
     selected_group = (
         st.selectbox("Group", GROUP_ORDER, index=0, key="v2_prob_selected_group")
@@ -2568,6 +2602,7 @@ def render_v2_probabilities_dashboard() -> None:
     st.session_state[V2_PROB_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
+        "training_scope": training_scope,
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
@@ -2582,19 +2617,20 @@ def render_v2_probabilities_dashboard() -> None:
     render_countdown_timer(fixtures_df)
     st.caption(
         f"Model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
-        "The v2 page trains a three-class multinomial regression on the previous 5 completed World Cup editions, "
+        f"The v2 page trains a three-class multinomial regression using `{training_scope}` training data, "
         f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "and prior-5-edition World Cup history features. Knockout draws are interpreted using the local historical file semantics: "
         "level before penalties, then resolved by the model's non-draw split."
     )
     with st.spinner(f"Training v2 model and running {simulation_count:,} simulations..."):
-        model_bundle = load_v2_match_model(form_match_window)
+        model_bundle = load_v2_match_model(form_match_window, training_scope)
         dashboard_df = simulate_probabilities_v2_dashboard(
             base_df=base_df,
             fixtures_df=fixtures_df,
             lead_in_df=lead_in_df,
             simulations=simulation_count,
             match_window=form_match_window,
+            training_scope=training_scope,
         )
         bracket_data = build_deterministic_bracket_v2(
             dashboard_df,
@@ -2675,6 +2711,17 @@ def render_v3_probabilities_dashboard() -> None:
             key="v3_prob_form_match_window",
         )
     )
+    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V3_TRAINING_SCOPE))
+    training_scope_label = st.radio(
+        "Training data",
+        tuple(TRAINING_SCOPE_LABELS.keys()),
+        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+        ),
+        horizontal=True,
+        key="v3_prob_training_scope",
+    )
+    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
     view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v3_prob_view_mode")
     selected_group = (
         st.selectbox("Group", GROUP_ORDER, index=0, key="v3_prob_selected_group")
@@ -2685,6 +2732,7 @@ def render_v3_probabilities_dashboard() -> None:
     st.session_state[V3_PROB_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
+        "training_scope": training_scope,
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
@@ -2699,18 +2747,19 @@ def render_v3_probabilities_dashboard() -> None:
     render_countdown_timer(fixtures_df)
     st.caption(
         f"Model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
-        "The v3 page trains paired Poisson regressors on international matches since 1998, "
+        f"The v3 page trains paired Poisson regressors using `{training_scope}` training data, "
         f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "prior-5-edition World Cup pedigree, competition-importance weighting, and host flags for Canada, Mexico, and the United States."
     )
     with st.spinner(f"Training v3 model and running {simulation_count:,} simulations..."):
-        model_bundle = load_v3_poisson_model(form_match_window)
+        model_bundle = load_v3_poisson_model(form_match_window, training_scope)
         dashboard_df = simulate_probabilities_v3_dashboard(
             base_df=base_df,
             fixtures_df=fixtures_df,
             lead_in_df=lead_in_df,
             simulations=simulation_count,
             match_window=form_match_window,
+            training_scope=training_scope,
         )
         bracket_data = build_deterministic_bracket_v3(
             dashboard_df,
@@ -2791,9 +2840,21 @@ def render_v2_2022_backtest_dashboard() -> None:
             key="v2_backtest_2022_form_match_window",
         )
     )
+    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V2_TRAINING_SCOPE))
+    training_scope_label = st.radio(
+        "Training data",
+        tuple(TRAINING_SCOPE_LABELS.keys()),
+        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
+        ),
+        horizontal=True,
+        key="v2_backtest_2022_training_scope",
+    )
+    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
     st.session_state[V2_BACKTEST_2022_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
+        "training_scope": training_scope,
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
@@ -2807,8 +2868,8 @@ def render_v2_2022_backtest_dashboard() -> None:
     )
     st.caption(
         f"Model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
-        f"This page trains the V2 multinomial model with 2022 excluded from training, then backtests the actual 2022 World Cup "
-        f"using the 5 prior completed World Cup editions, pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
+        f"This page trains the V2 multinomial model with 2022 excluded from training using `{training_scope}`, then backtests the actual 2022 World Cup "
+        f"using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "and prior-5-edition World Cup history features. "
         "It reports match-level calibration plus tournament-level hit rates."
     )
@@ -2817,6 +2878,7 @@ def render_v2_2022_backtest_dashboard() -> None:
         backtest = run_v2_backtest_2022_dashboard(
             simulations=simulation_count,
             match_window=form_match_window,
+            training_scope=training_scope,
         )
 
     summary_metrics = dict(backtest["summary_metrics"])
@@ -2944,9 +3006,21 @@ def render_v3_2022_backtest_dashboard() -> None:
             key="v3_backtest_2022_form_match_window",
         )
     )
+    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V3_TRAINING_SCOPE))
+    training_scope_label = st.radio(
+        "Training data",
+        tuple(TRAINING_SCOPE_LABELS.keys()),
+        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+        ),
+        horizontal=True,
+        key="v3_backtest_2022_training_scope",
+    )
+    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
     st.session_state[V3_BACKTEST_2022_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
+        "training_scope": training_scope,
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
@@ -2960,7 +3034,7 @@ def render_v3_2022_backtest_dashboard() -> None:
     )
     st.caption(
         f"Model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
-        f"This page trains the V3 Poisson goal model on international matches from 1998 through the eve of the 2022 World Cup, "
+        f"This page trains the V3 Poisson goal model using `{training_scope}` through the eve of the 2022 World Cup, "
         f"then backtests the actual tournament using weighted form from the last {form_match_window} Elo-rated matches and prior-5-edition pedigree features. "
         "It reports match-level calibration plus tournament-level hit rates."
     )
@@ -2969,6 +3043,7 @@ def render_v3_2022_backtest_dashboard() -> None:
         backtest = run_v3_backtest_2022_dashboard(
             simulations=simulation_count,
             match_window=form_match_window,
+            training_scope=training_scope,
         )
 
     summary_metrics = dict(backtest["summary_metrics"])
