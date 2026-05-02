@@ -1,0 +1,18 @@
+[project]
+name = "world-cup-2026-dashboard"
+version = "0.1.0"
+description = "Dataset-building scripts and a Streamlit dashboard for preseason World Cup 2026 tournament projections."
+requires-python = ">=3.12"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = [
+    ".cache",
+    ".git",
+    ".pytest_cache",
+    "__pycache__",
+    "data",
+    "INT-World Cup",
+    "pytest-cache-files-*",
+]
