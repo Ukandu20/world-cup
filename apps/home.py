@@ -3171,11 +3171,11 @@ def main() -> None:
         ### Versions
         Use the sidebar pages to keep model versions isolated.
 
-        - `V1 Probabilities` contains the original group-probability and bracket workflow.
+        - `V1: Recent Form` contains the original group-probability and bracket workflow.
         - `V2 Form` contains the weighted-form tables and confederation splits.
-        - `V2 Probabilities` contains the multinomial match model and full-tournament Monte Carlo outputs.
+        - `V2: Multinomial Model` contains the multinomial match model and full-tournament Monte Carlo outputs.
         - `V2 2022 Backtest` evaluates the V2 model on the real 2022 tournament with 2022 excluded from training.
-        - `V3 Probabilities` contains the Poisson expected-goals model and full-tournament Monte Carlo outputs.
+        - `V3: Poisson Regression` contains the Poisson expected-goals model and full-tournament Monte Carlo outputs.
         - `V3 2022 Backtest` evaluates the V3 model on the real 2022 tournament using only pre-tournament data.
 
         Settings and exports are separated per page so changes in one version do not interfere with the other by accident.
