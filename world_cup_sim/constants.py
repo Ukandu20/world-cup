@@ -44,6 +44,8 @@ WORLD_CUP_HISTORY_EDITION_COUNT = 22
 
 V2_PREVIOUS_EDITION_LOOKBACK = 5
 
+POWER = 2
+
 TRAINING_SCOPE_WORLD_CUP_ONLY = "world_cup_only"
 
 TRAINING_SCOPE_ALL_INTERNATIONAL = "all_international_since_anchor"
@@ -63,7 +65,7 @@ SAMPLE_WEIGHT_POLICY = (
 )
 
 WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT = float(
-    sum((edition_index + 1) ** 2 for edition_index in range(WORLD_CUP_HISTORY_EDITION_COUNT))
+    sum((edition_index + 1) ** POWER for edition_index in range(WORLD_CUP_HISTORY_EDITION_COUNT))
 )
 
 EXPECTED_GOALS_BASE = 1.20

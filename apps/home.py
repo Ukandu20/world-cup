@@ -73,7 +73,7 @@ GROUP_ORDER = list("ABCDEFGHIJKL")
 VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Form", "Bracket")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
 CURRENT_HOLDER_TEAM_ID = "ARG"
-BRACKET_HEAD_TO_HEAD_SIMULATIONS = 1000
+BRACKET_HEAD_TO_HEAD_SIMULATIONS = 10000
 BRACKET_EXPORT_VIEWPORT_SIZE = "1800,1200"
 EXPORT_VIEWPORT_HEIGHT = 1400
 EXPORT_MIN_VIEWPORT_WIDTH = 1400
@@ -3179,7 +3179,10 @@ def main() -> None:
         ### Versions
         Use the sidebar pages to keep model versions isolated.
 
-        - `V1: Recent Form` contains the original group-probability and bracket workflow.
+
+        #### These are the different models I have used against each other in order to simulate the 2026 FIFA World Cup tournament projections.
+
+        - `V1:Team Strength Model` V1 simulates the probability odds for every possible finish based on the ELO difference from their last K-matches.
         - `V2 Form` contains the weighted-form tables and confederation splits.
         - `V2: Multinomial Model` contains the multinomial match model and full-tournament Monte Carlo outputs.
         - `V2 2022 Backtest` evaluates the V2 model on the real 2022 tournament with 2022 excluded from training.
