@@ -232,7 +232,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1970,WC-1970,WC-1970_031,31,1970-06-20,Third Place,played,Germany,Uruguay,GER,URY,DEU,URY,UEFA,CONMEBOL,1923,1892,Mexico City,Mexico,TRUE
 1970,WC-1970,WC-1970_032,32,1970-06-21,Final,played,Brazil,Italy,BRA,ITA,BRA,ITA,CONMEBOL,UEFA,2130,2058,Mexico City,Mexico,TRUE
 1974,WC-1974,WC-1974_001,1,1974-06-13,Group Stage,played,Brazil,Yugoslavia,BRA,YUG,BRA,YUG,CONMEBOL,UEFA,2117,1935,Frankfurt am Main,Germany,TRUE
-1974,WC-1974,WC-1974_002,2,1974-06-14,Group Stage,played,DR Congo,Scotland,,SCO,,SCO,,UEFA,1655,1767,Dortmund,Germany,TRUE
+1974,WC-1974,WC-1974_002,2,1974-06-14,Group Stage,played,DR Congo,Scotland,COD,SCO,COD,SCO,CAF,UEFA,1655,1767,Dortmund,Germany,TRUE
 1974,WC-1974,WC-1974_003,3,1974-06-14,Group Stage,played,German DR,Australia,DDR,AUS,DDR,AUS,UEFA,AFC,1939,1687,Hamburg,Germany,TRUE
 1974,WC-1974,WC-1974_004,4,1974-06-14,Group Stage,played,Germany,Chile,GER,CHL,DEU,CHL,UEFA,CONMEBOL,1923,1710,Berlin,Germany,FALSE
 1974,WC-1974,WC-1974_005,5,1974-06-15,Group Stage,played,Italy,Haiti,ITA,HTI,ITA,HTI,UEFA,CONCACAF,2003,1610,Munich,Germany,TRUE
@@ -242,13 +242,13 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1974,WC-1974,WC-1974_009,9,1974-06-18,Group Stage,played,Chile,German DR,CHL,DDR,CHL,DDR,CONMEBOL,UEFA,1771,1956,Berlin,Germany,TRUE
 1974,WC-1974,WC-1974_010,10,1974-06-18,Group Stage,played,Germany,Australia,GER,AUS,DEU,AUS,UEFA,AFC,1923,1783,Hamburg,Germany,FALSE
 1974,WC-1974,WC-1974_011,11,1974-06-18,Group Stage,played,Scotland,Brazil,SCO,BRA,SCO,BRA,UEFA,CONMEBOL,1865,2103,Frankfurt am Main,Germany,TRUE
-1974,WC-1974,WC-1974_012,12,1974-06-18,Group Stage,played,Yugoslavia,DR Congo,YUG,,YUG,,UEFA,,1813,1655,Gelsenkirchen,Germany,TRUE
+1974,WC-1974,WC-1974_012,12,1974-06-18,Group Stage,played,Yugoslavia,DR Congo,YUG,COD,YUG,COD,UEFA,CAF,1813,1655,Gelsenkirchen,Germany,TRUE
 1974,WC-1974,WC-1974_013,13,1974-06-19,Group Stage,played,Argentina,Italy,ARG,ITA,ARG,ITA,CONMEBOL,UEFA,1870,2011,Stuttgart,Germany,TRUE
 1974,WC-1974,WC-1974_014,14,1974-06-19,Group Stage,played,Bulgaria,Uruguay,BGR,URY,BGR,URY,UEFA,CONMEBOL,1828,1724,Hanover,Germany,TRUE
 1974,WC-1974,WC-1974_015,15,1974-06-19,Group Stage,played,Haiti,Poland,HTI,POL,HTI,POL,CONCACAF,UEFA,1602,1983,Munich,Germany,TRUE
 1974,WC-1974,WC-1974_016,16,1974-06-19,Group Stage,played,Netherlands,Sweden,NED,SWE,NLD,SWE,UEFA,UEFA,1877,1882,Dortmund,Germany,TRUE
 1974,WC-1974,WC-1974_017,17,1974-06-22,Group Stage,played,Australia,Chile,AUS,CHL,AUS,CHL,AFC,CONMEBOL,1666,1786,Berlin,Germany,TRUE
-1974,WC-1974,WC-1974_018,18,1974-06-22,Group Stage,played,DR Congo,Brazil,,BRA,,BRA,,CONMEBOL,1655,1984,Gelsenkirchen,Germany,TRUE
+1974,WC-1974,WC-1974_018,18,1974-06-22,Group Stage,played,DR Congo,Brazil,COD,BRA,COD,BRA,CAF,CONMEBOL,1655,1984,Gelsenkirchen,Germany,TRUE
 1974,WC-1974,WC-1974_019,19,1974-06-22,Group Stage,played,Germany,German DR,GER,DDR,DEU,DDR,UEFA,UEFA,1923,1786,Hamburg,Germany,FALSE
 1974,WC-1974,WC-1974_020,20,1974-06-22,Group Stage,played,Scotland,Yugoslavia,SCO,YUG,SCO,YUG,UEFA,UEFA,1883,1984,Frankfurt am Main,Germany,TRUE
 1974,WC-1974,WC-1974_021,21,1974-06-23,Group Stage,played,Argentina,Haiti,ARG,HTI,ARG,HTI,CONMEBOL,CONCACAF,1882,1588,Munich,Germany,TRUE
@@ -590,7 +590,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 2002,WC-2002,WC-2002_009,9,2002-06-03,Group Stage,played,Brazil,Turkey,BRA,TUR,BRA,TUR,CONMEBOL,UEFA,1867,1756,Ulsan,South Korea,TRUE
 2002,WC-2002,WC-2002_010,10,2002-06-03,Group Stage,played,Croatia,Mexico,HRV,MEX,HRV,MEX,UEFA,CONCACAF,1881,1832,Niigata,Japan,TRUE
 2002,WC-2002,WC-2002_011,11,2002-06-03,Group Stage,played,Italy,Ecuador,ITA,ECU,ITA,ECU,UEFA,CONMEBOL,2008,1728,Sapporo,Japan,TRUE
-2002,WC-2002,WC-2002_012,12,2002-06-04,Group Stage,played,China PR,Costa Rica,,CRI,,CRI,,CONCACAF,,1613,Gwangju,South Korea,TRUE
+2002,WC-2002,WC-2002_012,12,2002-06-04,Group Stage,played,China PR,Costa Rica,CHN,CRI,CHN,CRI,AFC,CONCACAF,,1613,Gwangju,South Korea,TRUE
 2002,WC-2002,WC-2002_013,13,2002-06-04,Group Stage,played,Japan,Belgium,JPN,BEL,JPN,BEL,AFC,UEFA,1848,1837,Saitama,Japan,FALSE
 2002,WC-2002,WC-2002_014,14,2002-06-04,Group Stage,played,South Korea,Poland,KOR,POL,KOR,POL,AFC,UEFA,1735,1735,Busan,South Korea,FALSE
 2002,WC-2002,WC-2002_015,15,2002-06-05,Group Stage,played,Germany,Republic of Ireland,GER,IRL,DEU,IRL,UEFA,UEFA,1923,,Kashima,Japan,TRUE
@@ -602,7 +602,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 2002,WC-2002,WC-2002_021,21,2002-06-07,Group Stage,played,Argentina,England,ARG,ENG,ARG,ENG,CONMEBOL,UEFA,2031,1919,Sapporo,Japan,TRUE
 2002,WC-2002,WC-2002_022,22,2002-06-07,Group Stage,played,Spain,Paraguay,ESP,PRY,ESP,PRY,UEFA,CONMEBOL,1983,1723,Jeonju,South Korea,TRUE
 2002,WC-2002,WC-2002_023,23,2002-06-07,Group Stage,played,Sweden,Nigeria,SWE,NGA,SWE,NGA,UEFA,CAF,1871,1754,Kobe,Japan,TRUE
-2002,WC-2002,WC-2002_024,24,2002-06-08,Group Stage,played,Brazil,China PR,BRA,,BRA,,CONMEBOL,,1984,,Seogwipo,South Korea,TRUE
+2002,WC-2002,WC-2002_024,24,2002-06-08,Group Stage,played,Brazil,China PR,BRA,CHN,BRA,CHN,CONMEBOL,AFC,1984,,Seogwipo,South Korea,TRUE
 2002,WC-2002,WC-2002_025,25,2002-06-08,Group Stage,played,Italy,Croatia,ITA,HRV,ITA,HRV,UEFA,UEFA,2023,1847,Kashima,Japan,TRUE
 2002,WC-2002,WC-2002_026,26,2002-06-08,Group Stage,played,South Africa,Slovenia,ZAF,SVN,ZAF,SVN,CAF,UEFA,1649,1725,Daegu,South Korea,TRUE
 2002,WC-2002,WC-2002_027,27,2002-06-09,Group Stage,played,Costa Rica,Turkey,CRI,TUR,CRI,TUR,CONCACAF,UEFA,1792,1735,Incheon,South Korea,TRUE
@@ -622,7 +622,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 2002,WC-2002,WC-2002_041,41,2002-06-13,Group Stage,played,Costa Rica,Brazil,CRI,BRA,CRI,BRA,CONCACAF,CONMEBOL,1787,1912,Suwon,South Korea,TRUE
 2002,WC-2002,WC-2002_042,42,2002-06-13,Group Stage,played,Ecuador,Croatia,ECU,HRV,ECU,HRV,CONMEBOL,UEFA,1695,1891,Yokohama,Japan,TRUE
 2002,WC-2002,WC-2002_043,43,2002-06-13,Group Stage,played,Mexico,Italy,MEX,ITA,MEX,ITA,CONCACAF,UEFA,1884,1979,Ōita,Japan,TRUE
-2002,WC-2002,WC-2002_044,44,2002-06-13,Group Stage,played,Turkey,China PR,TUR,,TUR,,UEFA,,1902,,Seoul,South Korea,TRUE
+2002,WC-2002,WC-2002_044,44,2002-06-13,Group Stage,played,Turkey,China PR,TUR,CHN,TUR,CHN,UEFA,AFC,1902,,Seoul,South Korea,TRUE
 2002,WC-2002,WC-2002_045,45,2002-06-14,Group Stage,played,Belgium,Russia,BEL,RUS,BEL,RUS,UEFA,UEFA,1827,1804,Fukuroi,Japan,TRUE
 2002,WC-2002,WC-2002_046,46,2002-06-14,Group Stage,played,Japan,Tunisia,JPN,TUN,JPN,TUN,AFC,CAF,1859,1614,Osaka,Japan,FALSE
 2002,WC-2002,WC-2002_047,47,2002-06-14,Group Stage,played,South Korea,Portugal,KOR,PRT,KOR,PRT,AFC,UEFA,1766,1958,Incheon,South Korea,FALSE

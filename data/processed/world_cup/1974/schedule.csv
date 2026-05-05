@@ -1,6 +1,6 @@
 tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
 WC-1974,WC-1974_001,1,1974-06-13,Group Stage,played,Brazil,Yugoslavia,BRA,YUG,BRA,YUG,CONMEBOL,UEFA,2117,1935,Frankfurt am Main,Germany,TRUE
-WC-1974,WC-1974_002,2,1974-06-14,Group Stage,played,DR Congo,Scotland,,SCO,,SCO,,UEFA,1655,1767,Dortmund,Germany,TRUE
+WC-1974,WC-1974_002,2,1974-06-14,Group Stage,played,DR Congo,Scotland,COD,SCO,COD,SCO,CAF,UEFA,1655,1767,Dortmund,Germany,TRUE
 WC-1974,WC-1974_003,3,1974-06-14,Group Stage,played,German DR,Australia,DDR,AUS,DDR,AUS,UEFA,AFC,1939,1687,Hamburg,Germany,TRUE
 WC-1974,WC-1974_004,4,1974-06-14,Group Stage,played,Germany,Chile,GER,CHL,DEU,CHL,UEFA,CONMEBOL,1923,1710,Berlin,Germany,FALSE
 WC-1974,WC-1974_005,5,1974-06-15,Group Stage,played,Italy,Haiti,ITA,HTI,ITA,HTI,UEFA,CONCACAF,2003,1610,Munich,Germany,TRUE
@@ -10,13 +10,13 @@ WC-1974,WC-1974_008,8,1974-06-15,Group Stage,played,Uruguay,Netherlands,URY,NED,
 WC-1974,WC-1974_009,9,1974-06-18,Group Stage,played,Chile,German DR,CHL,DDR,CHL,DDR,CONMEBOL,UEFA,1771,1956,Berlin,Germany,TRUE
 WC-1974,WC-1974_010,10,1974-06-18,Group Stage,played,Germany,Australia,GER,AUS,DEU,AUS,UEFA,AFC,1923,1783,Hamburg,Germany,FALSE
 WC-1974,WC-1974_011,11,1974-06-18,Group Stage,played,Scotland,Brazil,SCO,BRA,SCO,BRA,UEFA,CONMEBOL,1865,2103,Frankfurt am Main,Germany,TRUE
-WC-1974,WC-1974_012,12,1974-06-18,Group Stage,played,Yugoslavia,DR Congo,YUG,,YUG,,UEFA,,1813,1655,Gelsenkirchen,Germany,TRUE
+WC-1974,WC-1974_012,12,1974-06-18,Group Stage,played,Yugoslavia,DR Congo,YUG,COD,YUG,COD,UEFA,CAF,1813,1655,Gelsenkirchen,Germany,TRUE
 WC-1974,WC-1974_013,13,1974-06-19,Group Stage,played,Argentina,Italy,ARG,ITA,ARG,ITA,CONMEBOL,UEFA,1870,2011,Stuttgart,Germany,TRUE
 WC-1974,WC-1974_014,14,1974-06-19,Group Stage,played,Bulgaria,Uruguay,BGR,URY,BGR,URY,UEFA,CONMEBOL,1828,1724,Hanover,Germany,TRUE
 WC-1974,WC-1974_015,15,1974-06-19,Group Stage,played,Haiti,Poland,HTI,POL,HTI,POL,CONCACAF,UEFA,1602,1983,Munich,Germany,TRUE
 WC-1974,WC-1974_016,16,1974-06-19,Group Stage,played,Netherlands,Sweden,NED,SWE,NLD,SWE,UEFA,UEFA,1877,1882,Dortmund,Germany,TRUE
 WC-1974,WC-1974_017,17,1974-06-22,Group Stage,played,Australia,Chile,AUS,CHL,AUS,CHL,AFC,CONMEBOL,1666,1786,Berlin,Germany,TRUE
-WC-1974,WC-1974_018,18,1974-06-22,Group Stage,played,DR Congo,Brazil,,BRA,,BRA,,CONMEBOL,1655,1984,Gelsenkirchen,Germany,TRUE
+WC-1974,WC-1974_018,18,1974-06-22,Group Stage,played,DR Congo,Brazil,COD,BRA,COD,BRA,CAF,CONMEBOL,1655,1984,Gelsenkirchen,Germany,TRUE
 WC-1974,WC-1974_019,19,1974-06-22,Group Stage,played,Germany,German DR,GER,DDR,DEU,DDR,UEFA,UEFA,1923,1786,Hamburg,Germany,FALSE
 WC-1974,WC-1974_020,20,1974-06-22,Group Stage,played,Scotland,Yugoslavia,SCO,YUG,SCO,YUG,UEFA,UEFA,1883,1984,Frankfurt am Main,Germany,TRUE
 WC-1974,WC-1974_021,21,1974-06-23,Group Stage,played,Argentina,Haiti,ARG,HTI,ARG,HTI,CONMEBOL,CONCACAF,1882,1588,Munich,Germany,TRUE

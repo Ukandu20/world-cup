@@ -296,6 +296,13 @@ CANONICAL_TEAM_ID_OVERRIDES = {
     "Netherlands": "NED",
     "Saudi Arabia": "KSA",
 }
+TEAM_REFERENCE_ALIASES = {
+    "China": ("China PR",),
+    "Zaire": ("DR Congo", "Congo DR"),
+}
+TEAM_REFERENCE_ALIAS_NAMES = {
+    alias for aliases in TEAM_REFERENCE_ALIASES.values() for alias in aliases
+}
 
 
 @dataclass(frozen=True)
@@ -604,6 +611,12 @@ def load_team_reference(
             team_code=row["team_code"],
             confederation_code=row["confederation_code"],
         )
+        for alias in TEAM_REFERENCE_ALIASES.get(team_name, ()):
+            team_reference[alias] = TeamInfo(
+                team_name=alias,
+                team_code=row["team_code"],
+                confederation_code=row["confederation_code"],
+            )
     return team_reference
 
 
@@ -1595,6 +1608,8 @@ def build_country_exports(
             )
 
     for team_name, team_meta in team_reference.items():
+        if team_name in TEAM_REFERENCE_ALIAS_NAMES:
+            continue
         confederation_folder = CONFEDERATION_FOLDER_NAMES.get(team_meta.confederation_code, team_meta.confederation_code.lower())
         team_folder = BY_CONFEDERATION_DIR / confederation_folder / slugify_path_component(team_name)
         write_csv(
