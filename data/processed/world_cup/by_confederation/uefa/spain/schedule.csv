@@ -1,71 +1,71 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1934 FIFA Men's World Cup,WC-1934,1934,4,1934-05-27,Round of 16,played,Spain,ESP,Brazil,BRA,FALSE,Genoa,Italy,TRUE,1936,1934
-1934 FIFA Men's World Cup,WC-1934,1934,12,1934-05-31,Quarter-final,played,Spain,ESP,Italy,ITA,FALSE,Florence,Italy,FALSE,1981,1995
-1934 FIFA Men's World Cup,WC-1934,1934,13,1934-06-01,Quarter-final,played,Spain,ESP,Italy,ITA,FALSE,Florence,Italy,FALSE,1991,1985
-1950 FIFA Men's World Cup,WC-1950,1950,4,1950-06-25,Group Stage,played,Spain,ESP,United States,USA,TRUE,Curitiba,Brazil,TRUE,1899,1580
-1950 FIFA Men's World Cup,WC-1950,1950,8,1950-06-29,Group Stage,played,Spain,ESP,Chile,CHL,FALSE,Rio de Janeiro,Brazil,TRUE,1911,1593
-1950 FIFA Men's World Cup,WC-1950,1950,14,1950-07-02,Group Stage,played,Spain,ESP,England,ENG,FALSE,Rio de Janeiro,Brazil,TRUE,1923,2020
-1950 FIFA Men's World Cup,WC-1950,1950,18,1950-07-09,Final,played,Spain,ESP,Uruguay,URY,TRUE,São Paulo,Brazil,TRUE,1961,1759
-1950 FIFA Men's World Cup,WC-1950,1950,19,1950-07-13,Final,played,Spain,ESP,Brazil,BRA,FALSE,Rio de Janeiro,Brazil,FALSE,1945,2036
-1950 FIFA Men's World Cup,WC-1950,1950,22,1950-07-16,Final,played,Spain,ESP,Sweden,SWE,TRUE,São Paulo,Brazil,TRUE,1915,1903
-1962 FIFA Men's World Cup,WC-1962,1962,5,1962-05-31,Group Stage,played,Spain,ESP,Czechoslovakia,CSK,FALSE,Viña del Mar,Chile,TRUE,1963,1977
-1962 FIFA Men's World Cup,WC-1962,1962,16,1962-06-03,Group Stage,played,Spain,ESP,Mexico,MEX,FALSE,Viña del Mar,Chile,TRUE,1934,1795
-1962 FIFA Men's World Cup,WC-1962,1962,18,1962-06-06,Group Stage,played,Spain,ESP,Brazil,BRA,FALSE,Viña del Mar,Chile,TRUE,1953,2109
-1966 FIFA Men's World Cup,WC-1966,1966,5,1966-07-13,Group Stage,played,Spain,ESP,Argentina,ARG,FALSE,Birmingham,England,TRUE,1895,1973
-1966 FIFA Men's World Cup,WC-1966,1966,12,1966-07-15,Group Stage,played,Spain,ESP,Switzerland,CHE,TRUE,Sheffield,England,TRUE,1872,1639
-1966 FIFA Men's World Cup,WC-1966,1966,24,1966-07-20,Group Stage,played,Spain,ESP,Germany,DEU,FALSE,Birmingham,England,TRUE,2165,1923
-1978 FIFA Men's World Cup,WC-1978,1978,5,1978-06-03,Group Stage,played,Spain,ESP,Austria,AUT,FALSE,Buenos Aires,Argentina,TRUE,1961,1859
-1978 FIFA Men's World Cup,WC-1978,1978,14,1978-06-07,Group Stage,played,Spain,ESP,Brazil,BRA,FALSE,Mar del Plata,Argentina,TRUE,1922,2060
-1978 FIFA Men's World Cup,WC-1978,1978,24,1978-06-11,Group Stage,played,Spain,ESP,Sweden,SWE,TRUE,Buenos Aires,Argentina,TRUE,1933,1789
-1982 FIFA Men's World Cup,WC-1982,1982,9,1982-06-16,Group Stage,played,Spain,ESP,Honduras,HND,TRUE,Valencia,Spain,FALSE,1891,1600
-1982 FIFA Men's World Cup,WC-1982,1982,21,1982-06-20,Group Stage,played,Spain,ESP,Yugoslavia,YUG,TRUE,Valencia,Spain,FALSE,1867,1903
-1982 FIFA Men's World Cup,WC-1982,1982,36,1982-06-25,Group Stage,played,Spain,ESP,Northern Ireland,NIR,TRUE,Valencia,Spain,FALSE,1892,1744
-1982 FIFA Men's World Cup,WC-1982,1982,44,1982-07-02,Quarter-final,played,Spain,ESP,Germany,DEU,TRUE,Madrid,Spain,FALSE,2165,1923
-1982 FIFA Men's World Cup,WC-1982,1982,48,1982-07-05,Quarter-final,played,Spain,ESP,England,ENG,TRUE,Madrid,Spain,FALSE,1826,2038
-1986 FIFA Men's World Cup,WC-1986,1986,3,1986-06-01,Group Stage,played,Spain,ESP,Brazil,BRA,TRUE,Guadalajara,Mexico,TRUE,1902,1915
-1986 FIFA Men's World Cup,WC-1986,1986,20,1986-06-07,Group Stage,played,Spain,ESP,Northern Ireland,NIR,FALSE,Guadalajara,Mexico,TRUE,1873,1835
-1986 FIFA Men's World Cup,WC-1986,1986,33,1986-06-12,Group Stage,played,Spain,ESP,Algeria,DZA,FALSE,Monterrey,Mexico,TRUE,1900,1627
-1986 FIFA Men's World Cup,WC-1986,1986,43,1986-06-18,Round of 16,played,Spain,ESP,Denmark,DNK,FALSE,Querétaro,Mexico,TRUE,1918,2010
-1986 FIFA Men's World Cup,WC-1986,1986,48,1986-06-22,Quarter-final,played,Spain,ESP,Belgium,BEL,TRUE,Puebla,Mexico,TRUE,1989,1864
-1990 FIFA Men's World Cup,WC-1990,1990,13,1990-06-13,Group Stage,played,Spain,ESP,Uruguay,URY,FALSE,Udine,Italy,TRUE,1927,1893
-1990 FIFA Men's World Cup,WC-1990,1990,24,1990-06-17,Group Stage,played,Spain,ESP,South Korea,KOR,FALSE,Udine,Italy,TRUE,1924,1713
-1990 FIFA Men's World Cup,WC-1990,1990,33,1990-06-21,Group Stage,played,Spain,ESP,Belgium,BEL,FALSE,Verona,Italy,TRUE,1945,1924
-1990 FIFA Men's World Cup,WC-1990,1990,44,1990-06-26,Round of 16,played,Spain,ESP,Yugoslavia,YUG,TRUE,Verona,Italy,TRUE,1973,1889
-1994 FIFA Men's World Cup,WC-1994,1994,2,1994-06-17,Group Stage,played,Spain,ESP,South Korea,KOR,TRUE,Dallas,United States,TRUE,1893,1666
-1994 FIFA Men's World Cup,WC-1994,1994,12,1994-06-21,Group Stage,played,Spain,ESP,Germany,DEU,FALSE,Chicago,United States,TRUE,1876,2018
-1994 FIFA Men's World Cup,WC-1994,1994,27,1994-06-27,Group Stage,played,Spain,ESP,Bolivia,BOL,FALSE,Chicago,United States,TRUE,1888,1693
-1994 FIFA Men's World Cup,WC-1994,1994,38,1994-07-02,Round of 16,played,Spain,ESP,Switzerland,CHE,TRUE,"Washington, D.C.",United States,TRUE,1910,1863
-1994 FIFA Men's World Cup,WC-1994,1994,45,1994-07-09,Quarter-final,played,Spain,ESP,Italy,ITA,FALSE,Foxborough,United States,TRUE,1955,1979
-1998 FIFA Men's World Cup,WC-1998,1998,10,1998-06-13,Group Stage,played,Spain,ESP,Nigeria,NGA,TRUE,Nantes,France,TRUE,2039,1703
-1998 FIFA Men's World Cup,WC-1998,1998,24,1998-06-19,Group Stage,played,Spain,ESP,Paraguay,PRY,TRUE,Saint-Étienne,France,TRUE,1987,1747
-1998 FIFA Men's World Cup,WC-1998,1998,40,1998-06-24,Group Stage,played,Spain,ESP,Bulgaria,BGR,TRUE,Lens,France,TRUE,1969,1766
-2002 FIFA Men's World Cup,WC-2002,2002,8,2002-06-02,Group Stage,played,Spain,ESP,Slovenia,SVN,TRUE,Gwangju,South Korea,TRUE,1963,1745
-2002 FIFA Men's World Cup,WC-2002,2002,22,2002-06-07,Group Stage,played,Spain,ESP,Paraguay,PRY,TRUE,Jeonju,South Korea,TRUE,1983,1723
-2002 FIFA Men's World Cup,WC-2002,2002,39,2002-06-12,Group Stage,played,Spain,ESP,South Africa,ZAF,FALSE,Daejeon,South Korea,TRUE,1999,1685
-2002 FIFA Men's World Cup,WC-2002,2002,51,2002-06-16,Round of 16,played,Spain,ESP,Republic of Ireland,IRL,TRUE,Suwon,South Korea,TRUE,2165,
-2002 FIFA Men's World Cup,WC-2002,2002,59,2002-06-22,Quarter-final,played,Spain,ESP,South Korea,KOR,FALSE,Gwangju,South Korea,FALSE,1997,1840
-2006 FIFA Men's World Cup,WC-2006,2006,16,2006-06-14,Group Stage,played,Spain,ESP,Ukraine,UKR,TRUE,Leipzig,Germany,TRUE,1964,1790
-2006 FIFA Men's World Cup,WC-2006,2006,31,2006-06-19,Group Stage,played,Spain,ESP,Tunisia,TUN,TRUE,Stuttgart,Germany,TRUE,1994,1691
-2006 FIFA Men's World Cup,WC-2006,2006,45,2006-06-23,Group Stage,played,Spain,ESP,Saudi Arabia,SAU,FALSE,Kaiserslautern,Germany,TRUE,2007,1538
-2006 FIFA Men's World Cup,WC-2006,2006,56,2006-06-27,Round of 16,played,Spain,ESP,France,FRA,TRUE,Hanover,Germany,TRUE,2011,1946
-2010 FIFA Men's World Cup,WC-2010,2010,17,2010-06-16,Group Stage,played,Spain,ESP,Switzerland,CHE,TRUE,Durban,South Africa,TRUE,2111,1761
-2010 FIFA Men's World Cup,WC-2010,2010,32,2010-06-21,Group Stage,played,Spain,ESP,Honduras,HND,TRUE,Johannesburg,South Africa,TRUE,2058,1698
-2010 FIFA Men's World Cup,WC-2010,2010,45,2010-06-25,Group Stage,played,Spain,ESP,Chile,CHL,FALSE,Pretoria,South Africa,TRUE,2068,1925
-2010 FIFA Men's World Cup,WC-2010,2010,56,2010-06-29,Round of 16,played,Spain,ESP,Portugal,PRT,TRUE,Cape Town,South Africa,TRUE,2086,1901
-2010 FIFA Men's World Cup,WC-2010,2010,60,2010-07-03,Quarter-final,played,Spain,ESP,Paraguay,PRY,FALSE,Johannesburg,South Africa,TRUE,2101,1787
-2010 FIFA Men's World Cup,WC-2010,2010,62,2010-07-07,Semi-final,played,Spain,ESP,Germany,DEU,FALSE,Durban,South Africa,TRUE,2109,2068
-2010 FIFA Men's World Cup,WC-2010,2010,64,2010-07-11,Final,played,Spain,ESP,Netherlands,NLD,FALSE,Johannesburg,South Africa,TRUE,2135,2126
-2014 FIFA Men's World Cup,WC-2014,2014,4,2014-06-13,Group Stage,played,Spain,ESP,Netherlands,NLD,TRUE,Salvador,Brazil,TRUE,2107,1985
-2014 FIFA Men's World Cup,WC-2014,2014,20,2014-06-18,Group Stage,played,Spain,ESP,Chile,CHL,TRUE,Rio de Janeiro,Brazil,TRUE,2032,1941
-2014 FIFA Men's World Cup,WC-2014,2014,33,2014-06-23,Group Stage,played,Spain,ESP,Australia,AUS,FALSE,Curitiba,Brazil,TRUE,1975,1681
-2018 FIFA Men's World Cup,WC-2018,2018,4,2018-06-15,Group Stage,played,Spain,ESP,Portugal,PRT,FALSE,Sochi,Russia,TRUE,2043,1967
-2018 FIFA Men's World Cup,WC-2018,2018,20,2018-06-20,Group Stage,played,Spain,ESP,Iran,IRN,FALSE,Kazan,Russia,TRUE,2037,1815
-2018 FIFA Men's World Cup,WC-2018,2018,35,2018-06-25,Group Stage,played,Spain,ESP,Morocco,MAR,TRUE,Kaliningrad,Russia,TRUE,2050,1695
-2018 FIFA Men's World Cup,WC-2018,2018,51,2018-07-01,Round of 16,played,Spain,ESP,Russia,RUS,FALSE,Moscow,Russia,FALSE,2027,1689
-2022 FIFA Men's World Cup,WC-2022,2022,10,2022-11-23,Group Stage,played,Spain,ESP,Costa Rica,CRI,TRUE,Doha,Qatar,TRUE,2048,1743
-2022 FIFA Men's World Cup,WC-2022,2022,26,2022-11-27,Group Stage,played,Spain,ESP,Germany,DEU,TRUE,Al Khor,Qatar,TRUE,2068,1918
-2022 FIFA Men's World Cup,WC-2022,2022,41,2022-12-01,Group Stage,played,Spain,ESP,Japan,JPN,FALSE,Al Rayyan,Qatar,TRUE,2056,1793
-2022 FIFA Men's World Cup,WC-2022,2022,55,2022-12-06,Round of 16,played,Spain,ESP,Morocco,MAR,FALSE,Al Rayyan,Qatar,TRUE,2007,1869
-2026 FIFA Men's World Cup,WC-2026,2026,15,2026-06-15,Group Stage,scheduled,Spain,ESP,Cape Verde,,TRUE,Atlanta,United States,TRUE,2165,1549
-2026 FIFA Men's World Cup,WC-2026,2026,39,2026-06-21,Group Stage,scheduled,Spain,ESP,Saudi Arabia,SAU,TRUE,Atlanta,United States,TRUE,2165,1568
-2026 FIFA Men's World Cup,WC-2026,2026,64,2026-06-26,Group Stage,scheduled,Spain,ESP,Uruguay,URY,FALSE,Zapopan,Mexico,TRUE,2165,1892
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1934 FIFA Men's World Cup,WC-1934,1934,WC-1934_004,4,1934-05-27,Round of 16,played,Spain,ESP,ESP,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Genoa,Italy,TRUE,1936,1934
+1934 FIFA Men's World Cup,WC-1934,1934,WC-1934_012,12,1934-05-31,Quarter-final,played,Spain,ESP,ESP,UEFA,Italy,ITA,ITA,UEFA,FALSE,Florence,Italy,FALSE,1981,1995
+1934 FIFA Men's World Cup,WC-1934,1934,WC-1934_013,13,1934-06-01,Quarter-final,played,Spain,ESP,ESP,UEFA,Italy,ITA,ITA,UEFA,FALSE,Florence,Italy,FALSE,1991,1985
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_004,4,1950-06-25,Group Stage,played,Spain,ESP,ESP,UEFA,United States,USA,USA,CONCACAF,TRUE,Curitiba,Brazil,TRUE,1899,1580
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_008,8,1950-06-29,Group Stage,played,Spain,ESP,ESP,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,Rio de Janeiro,Brazil,TRUE,1911,1593
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_014,14,1950-07-02,Group Stage,played,Spain,ESP,ESP,UEFA,England,ENG,ENG,UEFA,FALSE,Rio de Janeiro,Brazil,TRUE,1923,2020
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_018,18,1950-07-09,Final,played,Spain,ESP,ESP,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,São Paulo,Brazil,TRUE,1961,1759
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_019,19,1950-07-13,Final,played,Spain,ESP,ESP,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Rio de Janeiro,Brazil,FALSE,1945,2036
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_022,22,1950-07-16,Final,played,Spain,ESP,ESP,UEFA,Sweden,SWE,SWE,UEFA,TRUE,São Paulo,Brazil,TRUE,1915,1903
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_005,5,1962-05-31,Group Stage,played,Spain,ESP,ESP,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,Viña del Mar,Chile,TRUE,1963,1977
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_016,16,1962-06-03,Group Stage,played,Spain,ESP,ESP,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,Viña del Mar,Chile,TRUE,1934,1795
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_018,18,1962-06-06,Group Stage,played,Spain,ESP,ESP,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Viña del Mar,Chile,TRUE,1953,2109
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_005,5,1966-07-13,Group Stage,played,Spain,ESP,ESP,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Birmingham,England,TRUE,1895,1973
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_012,12,1966-07-15,Group Stage,played,Spain,ESP,ESP,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,Sheffield,England,TRUE,1872,1639
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_024,24,1966-07-20,Group Stage,played,Spain,ESP,ESP,UEFA,Germany,GER,DEU,UEFA,FALSE,Birmingham,England,TRUE,2165,1923
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_005,5,1978-06-03,Group Stage,played,Spain,ESP,ESP,UEFA,Austria,AUT,AUT,UEFA,FALSE,Buenos Aires,Argentina,TRUE,1961,1859
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_014,14,1978-06-07,Group Stage,played,Spain,ESP,ESP,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Mar del Plata,Argentina,TRUE,1922,2060
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_024,24,1978-06-11,Group Stage,played,Spain,ESP,ESP,UEFA,Sweden,SWE,SWE,UEFA,TRUE,Buenos Aires,Argentina,TRUE,1933,1789
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_009,9,1982-06-16,Group Stage,played,Spain,ESP,ESP,UEFA,Honduras,HND,HND,CONCACAF,TRUE,Valencia,Spain,FALSE,1891,1600
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_021,21,1982-06-20,Group Stage,played,Spain,ESP,ESP,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,Valencia,Spain,FALSE,1867,1903
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_036,36,1982-06-25,Group Stage,played,Spain,ESP,ESP,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,Valencia,Spain,FALSE,1892,1744
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_044,44,1982-07-02,Quarter-final,played,Spain,ESP,ESP,UEFA,Germany,GER,DEU,UEFA,TRUE,Madrid,Spain,FALSE,2165,1923
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_048,48,1982-07-05,Quarter-final,played,Spain,ESP,ESP,UEFA,England,ENG,ENG,UEFA,TRUE,Madrid,Spain,FALSE,1826,2038
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_003,3,1986-06-01,Group Stage,played,Spain,ESP,ESP,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,Guadalajara,Mexico,TRUE,1902,1915
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_020,20,1986-06-07,Group Stage,played,Spain,ESP,ESP,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,Guadalajara,Mexico,TRUE,1873,1835
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_033,33,1986-06-12,Group Stage,played,Spain,ESP,ESP,UEFA,Algeria,DZA,DZA,CAF,FALSE,Monterrey,Mexico,TRUE,1900,1627
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_043,43,1986-06-18,Round of 16,played,Spain,ESP,ESP,UEFA,Denmark,DNK,DNK,UEFA,FALSE,Querétaro,Mexico,TRUE,1918,2010
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_048,48,1986-06-22,Quarter-final,played,Spain,ESP,ESP,UEFA,Belgium,BEL,BEL,UEFA,TRUE,Puebla,Mexico,TRUE,1989,1864
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_013,13,1990-06-13,Group Stage,played,Spain,ESP,ESP,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,Udine,Italy,TRUE,1927,1893
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_024,24,1990-06-17,Group Stage,played,Spain,ESP,ESP,UEFA,South Korea,KOR,KOR,AFC,FALSE,Udine,Italy,TRUE,1924,1713
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_033,33,1990-06-21,Group Stage,played,Spain,ESP,ESP,UEFA,Belgium,BEL,BEL,UEFA,FALSE,Verona,Italy,TRUE,1945,1924
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_044,44,1990-06-26,Round of 16,played,Spain,ESP,ESP,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,Verona,Italy,TRUE,1973,1889
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_002,2,1994-06-17,Group Stage,played,Spain,ESP,ESP,UEFA,South Korea,KOR,KOR,AFC,TRUE,Dallas,United States,TRUE,1893,1666
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_012,12,1994-06-21,Group Stage,played,Spain,ESP,ESP,UEFA,Germany,GER,DEU,UEFA,FALSE,Chicago,United States,TRUE,1876,2018
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_027,27,1994-06-27,Group Stage,played,Spain,ESP,ESP,UEFA,Bolivia,BOL,BOL,CONMEBOL,FALSE,Chicago,United States,TRUE,1888,1693
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_038,38,1994-07-02,Round of 16,played,Spain,ESP,ESP,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,"Washington, D.C.",United States,TRUE,1910,1863
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_045,45,1994-07-09,Quarter-final,played,Spain,ESP,ESP,UEFA,Italy,ITA,ITA,UEFA,FALSE,Foxborough,United States,TRUE,1955,1979
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_010,10,1998-06-13,Group Stage,played,Spain,ESP,ESP,UEFA,Nigeria,NGA,NGA,CAF,TRUE,Nantes,France,TRUE,2039,1703
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_024,24,1998-06-19,Group Stage,played,Spain,ESP,ESP,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,Saint-Étienne,France,TRUE,1987,1747
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_040,40,1998-06-24,Group Stage,played,Spain,ESP,ESP,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,Lens,France,TRUE,1969,1766
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_008,8,2002-06-02,Group Stage,played,Spain,ESP,ESP,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,Gwangju,South Korea,TRUE,1963,1745
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_022,22,2002-06-07,Group Stage,played,Spain,ESP,ESP,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,Jeonju,South Korea,TRUE,1983,1723
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_039,39,2002-06-12,Group Stage,played,Spain,ESP,ESP,UEFA,South Africa,ZAF,ZAF,CAF,FALSE,Daejeon,South Korea,TRUE,1999,1685
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_051,51,2002-06-16,Round of 16,played,Spain,ESP,ESP,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,Suwon,South Korea,TRUE,2165,
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_059,59,2002-06-22,Quarter-final,played,Spain,ESP,ESP,UEFA,South Korea,KOR,KOR,AFC,FALSE,Gwangju,South Korea,FALSE,1997,1840
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_016,16,2006-06-14,Group Stage,played,Spain,ESP,ESP,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,Leipzig,Germany,TRUE,1964,1790
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_031,31,2006-06-19,Group Stage,played,Spain,ESP,ESP,UEFA,Tunisia,TUN,TUN,CAF,TRUE,Stuttgart,Germany,TRUE,1994,1691
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_045,45,2006-06-23,Group Stage,played,Spain,ESP,ESP,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,Kaiserslautern,Germany,TRUE,2007,1538
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_056,56,2006-06-27,Round of 16,played,Spain,ESP,ESP,UEFA,France,FRA,FRA,UEFA,TRUE,Hanover,Germany,TRUE,2011,1946
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_017,17,2010-06-16,Group Stage,played,Spain,ESP,ESP,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,Durban,South Africa,TRUE,2111,1761
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_032,32,2010-06-21,Group Stage,played,Spain,ESP,ESP,UEFA,Honduras,HND,HND,CONCACAF,TRUE,Johannesburg,South Africa,TRUE,2058,1698
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_045,45,2010-06-25,Group Stage,played,Spain,ESP,ESP,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,Pretoria,South Africa,TRUE,2068,1925
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_056,56,2010-06-29,Round of 16,played,Spain,ESP,ESP,UEFA,Portugal,PRT,PRT,UEFA,TRUE,Cape Town,South Africa,TRUE,2086,1901
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_060,60,2010-07-03,Quarter-final,played,Spain,ESP,ESP,UEFA,Paraguay,PRY,PRY,CONMEBOL,FALSE,Johannesburg,South Africa,TRUE,2101,1787
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_062,62,2010-07-07,Semi-final,played,Spain,ESP,ESP,UEFA,Germany,GER,DEU,UEFA,FALSE,Durban,South Africa,TRUE,2109,2068
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_064,64,2010-07-11,Final,played,Spain,ESP,ESP,UEFA,Netherlands,NED,NLD,UEFA,FALSE,Johannesburg,South Africa,TRUE,2135,2126
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_004,4,2014-06-13,Group Stage,played,Spain,ESP,ESP,UEFA,Netherlands,NED,NLD,UEFA,TRUE,Salvador,Brazil,TRUE,2107,1985
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_020,20,2014-06-18,Group Stage,played,Spain,ESP,ESP,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,Rio de Janeiro,Brazil,TRUE,2032,1941
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_033,33,2014-06-23,Group Stage,played,Spain,ESP,ESP,UEFA,Australia,AUS,AUS,AFC,FALSE,Curitiba,Brazil,TRUE,1975,1681
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_004,4,2018-06-15,Group Stage,played,Spain,ESP,ESP,UEFA,Portugal,PRT,PRT,UEFA,FALSE,Sochi,Russia,TRUE,2043,1967
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_020,20,2018-06-20,Group Stage,played,Spain,ESP,ESP,UEFA,Iran,IRN,IRN,AFC,FALSE,Kazan,Russia,TRUE,2037,1815
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_035,35,2018-06-25,Group Stage,played,Spain,ESP,ESP,UEFA,Morocco,MAR,MAR,CAF,TRUE,Kaliningrad,Russia,TRUE,2050,1695
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_051,51,2018-07-01,Round of 16,played,Spain,ESP,ESP,UEFA,Russia,RUS,RUS,UEFA,FALSE,Moscow,Russia,FALSE,2027,1689
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_010,10,2022-11-23,Group Stage,played,Spain,ESP,ESP,UEFA,Costa Rica,CRI,CRI,CONCACAF,TRUE,Doha,Qatar,TRUE,2048,1743
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_026,26,2022-11-27,Group Stage,played,Spain,ESP,ESP,UEFA,Germany,GER,DEU,UEFA,TRUE,Al Khor,Qatar,TRUE,2068,1918
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_041,41,2022-12-01,Group Stage,played,Spain,ESP,ESP,UEFA,Japan,JPN,JPN,AFC,FALSE,Al Rayyan,Qatar,TRUE,2056,1793
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_055,55,2022-12-06,Round of 16,played,Spain,ESP,ESP,UEFA,Morocco,MAR,MAR,CAF,FALSE,Al Rayyan,Qatar,TRUE,2007,1869
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_015,15,2026-06-15,Group Stage,scheduled,Spain,ESP,ESP,UEFA,Cape Verde,,,,TRUE,Atlanta,United States,TRUE,2165,1549
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_039,39,2026-06-21,Group Stage,scheduled,Spain,ESP,ESP,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,Atlanta,United States,TRUE,2165,1568
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_064,64,2026-06-26,Group Stage,scheduled,Spain,ESP,ESP,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,Zapopan,Mexico,TRUE,2165,1892

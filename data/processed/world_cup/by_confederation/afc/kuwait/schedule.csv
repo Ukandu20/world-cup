@@ -1,4 +1,4 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1982 FIFA Men's World Cup,WC-1982,1982,11,1982-06-17,Group Stage,played,Kuwait,KWT,Czechoslovakia,CSK,FALSE,Valladolid,Spain,TRUE,1629,1896
-1982 FIFA Men's World Cup,WC-1982,1982,23,1982-06-21,Group Stage,played,Kuwait,KWT,France,FRA,FALSE,Valladolid,Spain,TRUE,1648,1846
-1982 FIFA Men's World Cup,WC-1982,1982,34,1982-06-25,Group Stage,played,Kuwait,KWT,England,ENG,FALSE,Bilbao,Spain,TRUE,1623,2028
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_011,11,1982-06-17,Group Stage,played,Kuwait,KWT,KWT,AFC,Czechoslovakia,CSK,CSK,UEFA,FALSE,Valladolid,Spain,TRUE,1629,1896
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_023,23,1982-06-21,Group Stage,played,Kuwait,KWT,KWT,AFC,France,FRA,FRA,UEFA,FALSE,Valladolid,Spain,TRUE,1648,1846
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_034,34,1982-06-25,Group Stage,played,Kuwait,KWT,KWT,AFC,England,ENG,ENG,UEFA,FALSE,Bilbao,Spain,TRUE,1623,2028

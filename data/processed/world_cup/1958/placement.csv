@@ -1,17 +1,17 @@
-country,team_code,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
-Brazil,BRA,Winner,1,6,16,4,1976,2143,167,1962,Winner,1
-Sweden,SWE,Runner-up,2,6,12,7,1803,1900,97,1970,Group Stage,16
-France,FRA,Third Place,3,6,23,15,1840,1893,53,1966,Group Stage,16
-Germany,DEU,Semi-final,4,6,12,14,,,,1962,Quarter-final,8
-Northern Ireland,NIR,Quarter-final,8,5,6,10,1738,1773,35,1982,Quarter-final,8
-Soviet Union,SUN,Quarter-final,8,5,5,6,1893,1901,8,1962,Quarter-final,8
-Wales,WAL,Quarter-final,8,5,4,4,1718,1797,79,2022,Group Stage,32
-Yugoslavia,YUG,Quarter-final,8,4,7,7,1914,1920,6,1962,Fourth Place,4
-Argentina,ARG,Group Stage,16,3,5,10,1984,1922,-62,1962,Group Stage,16
-Austria,AUT,Group Stage,16,3,2,7,1906,1838,-68,1978,Quarter-final,8
-Czechoslovakia,CSK,Group Stage,16,4,9,6,1894,1901,7,1962,Runner-up,2
-England,ENG,Group Stage,16,4,4,5,2015,1955,-60,1962,Quarter-final,8
-Hungary,HUN,Group Stage,16,4,7,5,2081,1987,-94,1962,Quarter-final,8
-Mexico,MEX,Group Stage,16,3,1,8,1776,1723,-53,1962,Group Stage,16
-Paraguay,PRY,Group Stage,16,3,9,12,1751,1765,14,1986,Round of 16,16
-Scotland,SCO,Group Stage,16,3,4,6,1829,1770,-59,1974,Group Stage,16
+tournament_id,year,country,team_id,team_code,confederation,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
+WC-1958,1958,Brazil,BRA,BRA,CONMEBOL,Winner,1,6,16,4,1976,2143,167,1962,Winner,1
+WC-1958,1958,Sweden,SWE,SWE,UEFA,Runner-up,2,6,12,7,1803,1900,97,1970,Group Stage,16
+WC-1958,1958,France,FRA,FRA,UEFA,Third Place,3,6,23,15,1840,1893,53,1966,Group Stage,16
+WC-1958,1958,Germany,GER,DEU,UEFA,Semi-final,4,6,12,14,,,,1962,Quarter-final,8
+WC-1958,1958,Northern Ireland,NIR,NIR,UEFA,Quarter-final,8,5,6,10,1738,1773,35,1982,Quarter-final,8
+WC-1958,1958,Soviet Union,SUN,SUN,UEFA,Quarter-final,8,5,5,6,1893,1901,8,1962,Quarter-final,8
+WC-1958,1958,Wales,WAL,WAL,UEFA,Quarter-final,8,5,4,4,1718,1797,79,2022,Group Stage,32
+WC-1958,1958,Yugoslavia,YUG,YUG,UEFA,Quarter-final,8,4,7,7,1914,1920,6,1962,Fourth Place,4
+WC-1958,1958,Argentina,ARG,ARG,CONMEBOL,Group Stage,16,3,5,10,1984,1922,-62,1962,Group Stage,16
+WC-1958,1958,Austria,AUT,AUT,UEFA,Group Stage,16,3,2,7,1906,1838,-68,1978,Quarter-final,8
+WC-1958,1958,Czechoslovakia,CSK,CSK,UEFA,Group Stage,16,4,9,6,1894,1901,7,1962,Runner-up,2
+WC-1958,1958,England,ENG,ENG,UEFA,Group Stage,16,4,4,5,2015,1955,-60,1962,Quarter-final,8
+WC-1958,1958,Hungary,HUN,HUN,UEFA,Group Stage,16,4,7,5,2081,1987,-94,1962,Quarter-final,8
+WC-1958,1958,Mexico,MEX,MEX,CONCACAF,Group Stage,16,3,1,8,1776,1723,-53,1962,Group Stage,16
+WC-1958,1958,Paraguay,PRY,PRY,CONMEBOL,Group Stage,16,3,9,12,1751,1765,14,1986,Round of 16,16
+WC-1958,1958,Scotland,SCO,SCO,UEFA,Group Stage,16,3,4,6,1829,1770,-59,1974,Group Stage,16

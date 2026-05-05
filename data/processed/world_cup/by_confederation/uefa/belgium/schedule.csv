@@ -1,55 +1,55 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1930 FIFA Men's World Cup,WC-1930,1930,1,1930-07-13,Group Stage,played,Belgium,BEL,United States,USA,TRUE,Montevideo,Uruguay,TRUE,1661,1672
-1930 FIFA Men's World Cup,WC-1930,1930,12,1930-07-20,Group Stage,played,Belgium,BEL,Paraguay,PRY,TRUE,Montevideo,Uruguay,TRUE,1610,1716
-1934 FIFA Men's World Cup,WC-1934,1934,3,1934-05-27,Round of 16,played,Belgium,BEL,Germany,DEU,TRUE,Florence,Italy,TRUE,1549,1799
-1938 FIFA Men's World Cup,WC-1938,1938,5,1938-06-05,Round of 16,played,Belgium,BEL,France,FRA,FALSE,Colombes,France,FALSE,1567,1630
-1954 FIFA Men's World Cup,WC-1954,1954,5,1954-06-17,Group Stage,played,Belgium,BEL,England,ENG,TRUE,Basel,Switzerland,TRUE,1777,2021
-1954 FIFA Men's World Cup,WC-1954,1954,13,1954-06-20,Group Stage,played,Belgium,BEL,Italy,ITA,TRUE,Lugano,Switzerland,TRUE,1795,1853
-1970 FIFA Men's World Cup,WC-1970,1970,5,1970-06-03,Group Stage,played,Belgium,BEL,El Salvador,SLV,TRUE,Mexico City,Mexico,TRUE,1779,1534
-1970 FIFA Men's World Cup,WC-1970,1970,9,1970-06-06,Group Stage,played,Belgium,BEL,Soviet Union,SUN,TRUE,Mexico City,Mexico,TRUE,1800,1926
-1970 FIFA Men's World Cup,WC-1970,1970,24,1970-06-11,Group Stage,played,Belgium,BEL,Mexico,MEX,FALSE,Mexico City,Mexico,FALSE,1766,1731
-1982 FIFA Men's World Cup,WC-1982,1982,1,1982-06-13,Group Stage,played,Belgium,BEL,Argentina,ARG,FALSE,Barcelona,Spain,TRUE,1916,2005
-1982 FIFA Men's World Cup,WC-1982,1982,16,1982-06-19,Group Stage,played,Belgium,BEL,El Salvador,SLV,TRUE,Elche,Spain,TRUE,1954,1570
-1982 FIFA Men's World Cup,WC-1982,1982,25,1982-06-22,Group Stage,played,Belgium,BEL,Hungary,HUN,TRUE,Elche,Spain,TRUE,1960,1802
-1982 FIFA Men's World Cup,WC-1982,1982,38,1982-06-28,Quarter-final,played,Belgium,BEL,Poland,POL,FALSE,Barcelona,Spain,TRUE,1947,1963
-1982 FIFA Men's World Cup,WC-1982,1982,42,1982-07-01,Quarter-final,played,Belgium,BEL,Soviet Union,SUN,TRUE,Barcelona,Spain,TRUE,1897,1985
-1986 FIFA Men's World Cup,WC-1986,1986,8,1986-06-03,Group Stage,played,Belgium,BEL,Mexico,MEX,FALSE,Mexico City,Mexico,FALSE,1824,1841
-1986 FIFA Men's World Cup,WC-1986,1986,24,1986-06-08,Group Stage,played,Belgium,BEL,Iraq,IRQ,FALSE,Toluca,Mexico,TRUE,1804,1579
-1986 FIFA Men's World Cup,WC-1986,1986,31,1986-06-11,Group Stage,played,Belgium,BEL,Paraguay,PRY,FALSE,Toluca,Mexico,TRUE,1817,1836
-1986 FIFA Men's World Cup,WC-1986,1986,38,1986-06-15,Round of 16,played,Belgium,BEL,Soviet Union,SUN,FALSE,León,Mexico,TRUE,1819,2005
-1986 FIFA Men's World Cup,WC-1986,1986,48,1986-06-22,Quarter-final,played,Belgium,BEL,Spain,ESP,FALSE,Puebla,Mexico,TRUE,1864,1989
-1986 FIFA Men's World Cup,WC-1986,1986,49,1986-06-25,Semi-final,played,Belgium,BEL,Argentina,ARG,FALSE,Mexico City,Mexico,TRUE,1874,1979
-1986 FIFA Men's World Cup,WC-1986,1986,51,1986-06-28,Third Place,played,Belgium,BEL,France,FRA,FALSE,Puebla,Mexico,TRUE,1842,1996
-1990 FIFA Men's World Cup,WC-1990,1990,10,1990-06-12,Group Stage,played,Belgium,BEL,South Korea,KOR,TRUE,Verona,Italy,TRUE,1845,1745
-1990 FIFA Men's World Cup,WC-1990,1990,22,1990-06-17,Group Stage,played,Belgium,BEL,Uruguay,URY,TRUE,Verona,Italy,TRUE,1877,1896
-1990 FIFA Men's World Cup,WC-1990,1990,33,1990-06-21,Group Stage,played,Belgium,BEL,Spain,ESP,TRUE,Verona,Italy,TRUE,1924,1945
-1990 FIFA Men's World Cup,WC-1990,1990,43,1990-06-26,Round of 16,played,Belgium,BEL,England,ENG,FALSE,Bologna,Italy,TRUE,1896,1956
-1994 FIFA Men's World Cup,WC-1994,1994,6,1994-06-19,Group Stage,played,Belgium,BEL,Morocco,MAR,TRUE,Orlando,United States,TRUE,1824,1666
-1994 FIFA Men's World Cup,WC-1994,1994,22,1994-06-25,Group Stage,played,Belgium,BEL,Netherlands,NLD,TRUE,Orlando,United States,TRUE,1841,1998
-1994 FIFA Men's World Cup,WC-1994,1994,33,1994-06-29,Group Stage,played,Belgium,BEL,Saudi Arabia,SAU,TRUE,"Washington, D.C.",United States,TRUE,1884,1662
-1994 FIFA Men's World Cup,WC-1994,1994,37,1994-07-02,Round of 16,played,Belgium,BEL,Germany,DEU,FALSE,Chicago,United States,TRUE,1837,2014
-1998 FIFA Men's World Cup,WC-1998,1998,9,1998-06-13,Group Stage,played,Belgium,BEL,Netherlands,NLD,FALSE,Saint-Denis,France,TRUE,1822,1959
-1998 FIFA Men's World Cup,WC-1998,1998,25,1998-06-20,Group Stage,played,Belgium,BEL,Mexico,MEX,TRUE,Bordeaux,France,TRUE,1833,1880
-1998 FIFA Men's World Cup,WC-1998,1998,41,1998-06-25,Group Stage,played,Belgium,BEL,South Korea,KOR,TRUE,Paris,France,TRUE,1837,1692
-2002 FIFA Men's World Cup,WC-2002,2002,13,2002-06-04,Group Stage,played,Belgium,BEL,Japan,JPN,FALSE,Saitama,Japan,FALSE,1837,1848
-2002 FIFA Men's World Cup,WC-2002,2002,32,2002-06-10,Group Stage,played,Belgium,BEL,Tunisia,TUN,FALSE,Ōita,Japan,TRUE,1846,1595
-2002 FIFA Men's World Cup,WC-2002,2002,45,2002-06-14,Group Stage,played,Belgium,BEL,Russia,RUS,TRUE,Fukuroi,Japan,TRUE,1827,1804
-2002 FIFA Men's World Cup,WC-2002,2002,53,2002-06-17,Round of 16,played,Belgium,BEL,Brazil,BRA,FALSE,Kobe,Japan,TRUE,1855,1946
-2014 FIFA Men's World Cup,WC-2014,2014,15,2014-06-17,Group Stage,played,Belgium,BEL,Algeria,DZA,TRUE,Belo Horizonte,Brazil,TRUE,1852,1625
-2014 FIFA Men's World Cup,WC-2014,2014,30,2014-06-22,Group Stage,played,Belgium,BEL,Russia,RUS,TRUE,Rio de Janeiro,Brazil,TRUE,1865,1834
-2014 FIFA Men's World Cup,WC-2014,2014,46,2014-06-26,Group Stage,played,Belgium,BEL,South Korea,KOR,FALSE,São Paulo,Brazil,TRUE,1892,1627
-2014 FIFA Men's World Cup,WC-2014,2014,56,2014-07-01,Round of 16,played,Belgium,BEL,United States,USA,TRUE,Salvador,Brazil,TRUE,1903,1863
-2014 FIFA Men's World Cup,WC-2014,2014,59,2014-07-05,Quarter-final,played,Belgium,BEL,Argentina,ARG,FALSE,Brasília,Brazil,TRUE,1930,2063
-2018 FIFA Men's World Cup,WC-2018,2018,13,2018-06-18,Group Stage,played,Belgium,BEL,Panama,PAN,TRUE,Sochi,Russia,TRUE,1936,1657
-2018 FIFA Men's World Cup,WC-2018,2018,27,2018-06-23,Group Stage,played,Belgium,BEL,Tunisia,TUN,TRUE,Moscow,Russia,TRUE,1954,1642
-2018 FIFA Men's World Cup,WC-2018,2018,48,2018-06-28,Group Stage,played,Belgium,BEL,England,ENG,FALSE,Kaliningrad,Russia,TRUE,1969,1973
-2018 FIFA Men's World Cup,WC-2018,2018,54,2018-07-02,Round of 16,played,Belgium,BEL,Japan,JPN,TRUE,Rostov-on-Don,Russia,TRUE,1999,1707
-2018 FIFA Men's World Cup,WC-2018,2018,58,2018-07-06,Quarter-final,played,Belgium,BEL,Brazil,BRA,FALSE,Kazan,Russia,TRUE,2008,2155
-2018 FIFA Men's World Cup,WC-2018,2018,61,2018-07-10,Semi-final,played,Belgium,BEL,France,FRA,FALSE,Saint Petersburg,Russia,TRUE,2050,2067
-2018 FIFA Men's World Cup,WC-2018,2018,63,2018-07-14,Third Place,played,Belgium,BEL,England,ENG,TRUE,Saint Petersburg,Russia,TRUE,2021,1948
-2022 FIFA Men's World Cup,WC-2022,2022,12,2022-11-23,Group Stage,played,Belgium,BEL,Canada,CAN,TRUE,Al Rayyan,Qatar,TRUE,2006,1775
-2022 FIFA Men's World Cup,WC-2022,2022,27,2022-11-27,Group Stage,played,Belgium,BEL,Morocco,MAR,TRUE,Doha,Qatar,TRUE,2019,1777
-2022 FIFA Men's World Cup,WC-2022,2022,43,2022-12-01,Group Stage,played,Belgium,BEL,Croatia,HRV,FALSE,Al Rayyan,Qatar,TRUE,1947,1944
-2026 FIFA Men's World Cup,WC-2026,2026,13,2026-06-15,Group Stage,scheduled,Belgium,BEL,Egypt,EGY,TRUE,Seattle,United States,TRUE,1866,1689
-2026 FIFA Men's World Cup,WC-2026,2026,37,2026-06-21,Group Stage,scheduled,Belgium,BEL,Iran,IRN,TRUE,Inglewood,United States,TRUE,1866,1760
-2026 FIFA Men's World Cup,WC-2026,2026,62,2026-06-26,Group Stage,scheduled,Belgium,BEL,New Zealand,NZL,FALSE,Vancouver,Canada,TRUE,1866,1585
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_001,1,1930-07-13,Group Stage,played,Belgium,BEL,BEL,UEFA,United States,USA,USA,CONCACAF,TRUE,Montevideo,Uruguay,TRUE,1661,1672
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_012,12,1930-07-20,Group Stage,played,Belgium,BEL,BEL,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,Montevideo,Uruguay,TRUE,1610,1716
+1934 FIFA Men's World Cup,WC-1934,1934,WC-1934_003,3,1934-05-27,Round of 16,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,Florence,Italy,TRUE,1549,1799
+1938 FIFA Men's World Cup,WC-1938,1938,WC-1938_005,5,1938-06-05,Round of 16,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,Colombes,France,FALSE,1567,1630
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_005,5,1954-06-17,Group Stage,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,TRUE,Basel,Switzerland,TRUE,1777,2021
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_013,13,1954-06-20,Group Stage,played,Belgium,BEL,BEL,UEFA,Italy,ITA,ITA,UEFA,TRUE,Lugano,Switzerland,TRUE,1795,1853
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_005,5,1970-06-03,Group Stage,played,Belgium,BEL,BEL,UEFA,El Salvador,SLV,SLV,CONCACAF,TRUE,Mexico City,Mexico,TRUE,1779,1534
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_009,9,1970-06-06,Group Stage,played,Belgium,BEL,BEL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,Mexico City,Mexico,TRUE,1800,1926
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_024,24,1970-06-11,Group Stage,played,Belgium,BEL,BEL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,Mexico City,Mexico,FALSE,1766,1731
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_001,1,1982-06-13,Group Stage,played,Belgium,BEL,BEL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Barcelona,Spain,TRUE,1916,2005
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_016,16,1982-06-19,Group Stage,played,Belgium,BEL,BEL,UEFA,El Salvador,SLV,SLV,CONCACAF,TRUE,Elche,Spain,TRUE,1954,1570
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_025,25,1982-06-22,Group Stage,played,Belgium,BEL,BEL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,Elche,Spain,TRUE,1960,1802
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_038,38,1982-06-28,Quarter-final,played,Belgium,BEL,BEL,UEFA,Poland,POL,POL,UEFA,FALSE,Barcelona,Spain,TRUE,1947,1963
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_042,42,1982-07-01,Quarter-final,played,Belgium,BEL,BEL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,Barcelona,Spain,TRUE,1897,1985
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_008,8,1986-06-03,Group Stage,played,Belgium,BEL,BEL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,Mexico City,Mexico,FALSE,1824,1841
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_024,24,1986-06-08,Group Stage,played,Belgium,BEL,BEL,UEFA,Iraq,IRQ,IRQ,AFC,FALSE,Toluca,Mexico,TRUE,1804,1579
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_031,31,1986-06-11,Group Stage,played,Belgium,BEL,BEL,UEFA,Paraguay,PRY,PRY,CONMEBOL,FALSE,Toluca,Mexico,TRUE,1817,1836
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_038,38,1986-06-15,Round of 16,played,Belgium,BEL,BEL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,León,Mexico,TRUE,1819,2005
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_048,48,1986-06-22,Quarter-final,played,Belgium,BEL,BEL,UEFA,Spain,ESP,ESP,UEFA,FALSE,Puebla,Mexico,TRUE,1864,1989
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_049,49,1986-06-25,Semi-final,played,Belgium,BEL,BEL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Mexico City,Mexico,TRUE,1874,1979
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_051,51,1986-06-28,Third Place,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,Puebla,Mexico,TRUE,1842,1996
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_010,10,1990-06-12,Group Stage,played,Belgium,BEL,BEL,UEFA,South Korea,KOR,KOR,AFC,TRUE,Verona,Italy,TRUE,1845,1745
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_022,22,1990-06-17,Group Stage,played,Belgium,BEL,BEL,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,Verona,Italy,TRUE,1877,1896
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_033,33,1990-06-21,Group Stage,played,Belgium,BEL,BEL,UEFA,Spain,ESP,ESP,UEFA,TRUE,Verona,Italy,TRUE,1924,1945
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_043,43,1990-06-26,Round of 16,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,FALSE,Bologna,Italy,TRUE,1896,1956
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_006,6,1994-06-19,Group Stage,played,Belgium,BEL,BEL,UEFA,Morocco,MAR,MAR,CAF,TRUE,Orlando,United States,TRUE,1824,1666
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_022,22,1994-06-25,Group Stage,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,Orlando,United States,TRUE,1841,1998
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_033,33,1994-06-29,Group Stage,played,Belgium,BEL,BEL,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,"Washington, D.C.",United States,TRUE,1884,1662
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_037,37,1994-07-02,Round of 16,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,FALSE,Chicago,United States,TRUE,1837,2014
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_009,9,1998-06-13,Group Stage,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,Saint-Denis,France,TRUE,1822,1959
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_025,25,1998-06-20,Group Stage,played,Belgium,BEL,BEL,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,Bordeaux,France,TRUE,1833,1880
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_041,41,1998-06-25,Group Stage,played,Belgium,BEL,BEL,UEFA,South Korea,KOR,KOR,AFC,TRUE,Paris,France,TRUE,1837,1692
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_013,13,2002-06-04,Group Stage,played,Belgium,BEL,BEL,UEFA,Japan,JPN,JPN,AFC,FALSE,Saitama,Japan,FALSE,1837,1848
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_032,32,2002-06-10,Group Stage,played,Belgium,BEL,BEL,UEFA,Tunisia,TUN,TUN,CAF,FALSE,Ōita,Japan,TRUE,1846,1595
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_045,45,2002-06-14,Group Stage,played,Belgium,BEL,BEL,UEFA,Russia,RUS,RUS,UEFA,TRUE,Fukuroi,Japan,TRUE,1827,1804
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_053,53,2002-06-17,Round of 16,played,Belgium,BEL,BEL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Kobe,Japan,TRUE,1855,1946
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_015,15,2014-06-17,Group Stage,played,Belgium,BEL,BEL,UEFA,Algeria,DZA,DZA,CAF,TRUE,Belo Horizonte,Brazil,TRUE,1852,1625
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_030,30,2014-06-22,Group Stage,played,Belgium,BEL,BEL,UEFA,Russia,RUS,RUS,UEFA,TRUE,Rio de Janeiro,Brazil,TRUE,1865,1834
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_046,46,2014-06-26,Group Stage,played,Belgium,BEL,BEL,UEFA,South Korea,KOR,KOR,AFC,FALSE,São Paulo,Brazil,TRUE,1892,1627
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_056,56,2014-07-01,Round of 16,played,Belgium,BEL,BEL,UEFA,United States,USA,USA,CONCACAF,TRUE,Salvador,Brazil,TRUE,1903,1863
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_059,59,2014-07-05,Quarter-final,played,Belgium,BEL,BEL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Brasília,Brazil,TRUE,1930,2063
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_013,13,2018-06-18,Group Stage,played,Belgium,BEL,BEL,UEFA,Panama,PAN,PAN,CONCACAF,TRUE,Sochi,Russia,TRUE,1936,1657
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_027,27,2018-06-23,Group Stage,played,Belgium,BEL,BEL,UEFA,Tunisia,TUN,TUN,CAF,TRUE,Moscow,Russia,TRUE,1954,1642
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_048,48,2018-06-28,Group Stage,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,FALSE,Kaliningrad,Russia,TRUE,1969,1973
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_054,54,2018-07-02,Round of 16,played,Belgium,BEL,BEL,UEFA,Japan,JPN,JPN,AFC,TRUE,Rostov-on-Don,Russia,TRUE,1999,1707
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_058,58,2018-07-06,Quarter-final,played,Belgium,BEL,BEL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Kazan,Russia,TRUE,2008,2155
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_061,61,2018-07-10,Semi-final,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,Saint Petersburg,Russia,TRUE,2050,2067
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_063,63,2018-07-14,Third Place,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,TRUE,Saint Petersburg,Russia,TRUE,2021,1948
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_012,12,2022-11-23,Group Stage,played,Belgium,BEL,BEL,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,Al Rayyan,Qatar,TRUE,2006,1775
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_027,27,2022-11-27,Group Stage,played,Belgium,BEL,BEL,UEFA,Morocco,MAR,MAR,CAF,TRUE,Doha,Qatar,TRUE,2019,1777
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_043,43,2022-12-01,Group Stage,played,Belgium,BEL,BEL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,Al Rayyan,Qatar,TRUE,1947,1944
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_013,13,2026-06-15,Group Stage,scheduled,Belgium,BEL,BEL,UEFA,Egypt,EGY,EGY,CAF,TRUE,Seattle,United States,TRUE,1866,1689
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_037,37,2026-06-21,Group Stage,scheduled,Belgium,BEL,BEL,UEFA,Iran,IRN,IRN,AFC,TRUE,Inglewood,United States,TRUE,1866,1760
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_062,62,2026-06-26,Group Stage,scheduled,Belgium,BEL,BEL,UEFA,New Zealand,NZL,NZL,OFC,FALSE,Vancouver,Canada,TRUE,1866,1585

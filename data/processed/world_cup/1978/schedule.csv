@@ -1,39 +1,39 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,1978-06-01,Group Stage,played,Germany,Poland,DEU,POL,1923,1729,Buenos Aires,Argentina,TRUE
-2,1978-06-02,Group Stage,played,Argentina,Hungary,ARG,HUN,1927,1907,Buenos Aires,Argentina,FALSE
-3,1978-06-02,Group Stage,played,France,Italy,FRA,ITA,1891,1937,Mar del Plata,Argentina,TRUE
-4,1978-06-02,Group Stage,played,Mexico,Tunisia,MEX,TUN,1798,1660,Rosario,Argentina,TRUE
-5,1978-06-03,Group Stage,played,Austria,Spain,AUT,ESP,1859,1961,Buenos Aires,Argentina,TRUE
-6,1978-06-03,Group Stage,played,Brazil,Sweden,BRA,SWE,2080,1792,Mar del Plata,Argentina,TRUE
-7,1978-06-03,Group Stage,played,Iran,Netherlands,IRN,NLD,1803,2092,Mendoza,Argentina,TRUE
-8,1978-06-03,Group Stage,played,Peru,Scotland,PER,SCO,1754,1944,Córdoba,Argentina,TRUE
-9,1978-06-06,Group Stage,played,Argentina,France,ARG,FRA,1947,1865,Buenos Aires,Argentina,FALSE
-10,1978-06-06,Group Stage,played,Germany,Mexico,DEU,MEX,1923,1858,Córdoba,Argentina,TRUE
-11,1978-06-06,Group Stage,played,Hungary,Italy,HUN,ITA,1887,1963,Mar del Plata,Argentina,TRUE
-12,1978-06-06,Group Stage,played,Poland,Tunisia,POL,TUN,1942,1722,Rosario,Argentina,TRUE
-13,1978-06-07,Group Stage,played,Austria,Sweden,AUT,SWE,1898,1812,Buenos Aires,Argentina,TRUE
-14,1978-06-07,Group Stage,played,Brazil,Spain,BRA,ESP,2060,1922,Mar del Plata,Argentina,TRUE
-15,1978-06-07,Group Stage,played,Iran,Scotland,IRN,SCO,1786,1877,Córdoba,Argentina,TRUE
-16,1978-06-07,Group Stage,played,Netherlands,Peru,NLD,PER,2109,1821,Mendoza,Argentina,TRUE
-17,1978-06-10,Group Stage,played,Argentina,Italy,ARG,ITA,1963,1998,Buenos Aires,Argentina,FALSE
-18,1978-06-10,Group Stage,played,France,Hungary,FRA,HUN,1849,1852,Mar del Plata,Argentina,TRUE
-19,1978-06-10,Group Stage,played,Germany,Tunisia,DEU,TUN,1923,1636,Córdoba,Argentina,TRUE
-20,1978-06-10,Group Stage,played,Mexico,Poland,MEX,POL,1721,1955,Rosario,Argentina,TRUE
-21,1978-06-11,Group Stage,played,Austria,Brazil,AUT,BRA,1921,2049,Mar del Plata,Argentina,TRUE
-22,1978-06-11,Group Stage,played,Iran,Peru,IRN,PER,1794,1841,Córdoba,Argentina,TRUE
-23,1978-06-11,Group Stage,played,Netherlands,Scotland,NLD,SCO,2089,1869,Mendoza,Argentina,TRUE
-24,1978-06-11,Group Stage,played,Spain,Sweden,ESP,SWE,1933,1789,Buenos Aires,Argentina,TRUE
-25,1978-06-14,Quarter-final,played,Argentina,Poland,ARG,POL,1927,1974,Rosario,Argentina,FALSE
-26,1978-06-14,Quarter-final,played,Austria,Netherlands,AUT,NLD,1902,2042,Córdoba,Argentina,TRUE
-27,1978-06-14,Quarter-final,played,Brazil,Peru,BRA,PER,2068,1886,Mendoza,Argentina,TRUE
-28,1978-06-14,Quarter-final,played,Germany,Italy,DEU,ITA,1923,1856,Buenos Aires,Argentina,TRUE
-29,1978-06-18,Quarter-final,played,Argentina,Brazil,ARG,BRA,1965,2095,Rosario,Argentina,FALSE
-30,1978-06-18,Quarter-final,played,Austria,Italy,AUT,ITA,1867,2038,Buenos Aires,Argentina,TRUE
-31,1978-06-18,Quarter-final,played,Germany,Netherlands,DEU,NLD,1923,1961,Córdoba,Argentina,TRUE
-32,1978-06-18,Quarter-final,played,Peru,Poland,PER,POL,1859,1936,Mendoza,Argentina,TRUE
-33,1978-06-21,Quarter-final,played,Argentina,Peru,ARG,PER,1968,1836,Rosario,Argentina,FALSE
-34,1978-06-21,Quarter-final,played,Austria,Germany,AUT,DEU,1827,1923,Córdoba,Argentina,TRUE
-35,1978-06-21,Quarter-final,played,Brazil,Poland,BRA,POL,2092,1959,Mendoza,Argentina,TRUE
-36,1978-06-21,Quarter-final,played,Italy,Netherlands,ITA,NLD,2054,2076,Buenos Aires,Argentina,TRUE
-37,1978-06-24,Third Place,played,Brazil,Italy,BRA,ITA,2121,2026,Buenos Aires,Argentina,TRUE
-38,1978-06-25,Final,played,Argentina,Netherlands,ARG,NLD,1995,2104,Buenos Aires,Argentina,FALSE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-1978,WC-1978_001,1,1978-06-01,Group Stage,played,Germany,Poland,GER,POL,DEU,POL,UEFA,UEFA,1923,1729,Buenos Aires,Argentina,TRUE
+WC-1978,WC-1978_002,2,1978-06-02,Group Stage,played,Argentina,Hungary,ARG,HUN,ARG,HUN,CONMEBOL,UEFA,1927,1907,Buenos Aires,Argentina,FALSE
+WC-1978,WC-1978_003,3,1978-06-02,Group Stage,played,France,Italy,FRA,ITA,FRA,ITA,UEFA,UEFA,1891,1937,Mar del Plata,Argentina,TRUE
+WC-1978,WC-1978_004,4,1978-06-02,Group Stage,played,Mexico,Tunisia,MEX,TUN,MEX,TUN,CONCACAF,CAF,1798,1660,Rosario,Argentina,TRUE
+WC-1978,WC-1978_005,5,1978-06-03,Group Stage,played,Austria,Spain,AUT,ESP,AUT,ESP,UEFA,UEFA,1859,1961,Buenos Aires,Argentina,TRUE
+WC-1978,WC-1978_006,6,1978-06-03,Group Stage,played,Brazil,Sweden,BRA,SWE,BRA,SWE,CONMEBOL,UEFA,2080,1792,Mar del Plata,Argentina,TRUE
+WC-1978,WC-1978_007,7,1978-06-03,Group Stage,played,Iran,Netherlands,IRN,NED,IRN,NLD,AFC,UEFA,1803,2092,Mendoza,Argentina,TRUE
+WC-1978,WC-1978_008,8,1978-06-03,Group Stage,played,Peru,Scotland,PER,SCO,PER,SCO,CONMEBOL,UEFA,1754,1944,Córdoba,Argentina,TRUE
+WC-1978,WC-1978_009,9,1978-06-06,Group Stage,played,Argentina,France,ARG,FRA,ARG,FRA,CONMEBOL,UEFA,1947,1865,Buenos Aires,Argentina,FALSE
+WC-1978,WC-1978_010,10,1978-06-06,Group Stage,played,Germany,Mexico,GER,MEX,DEU,MEX,UEFA,CONCACAF,1923,1858,Córdoba,Argentina,TRUE
+WC-1978,WC-1978_011,11,1978-06-06,Group Stage,played,Hungary,Italy,HUN,ITA,HUN,ITA,UEFA,UEFA,1887,1963,Mar del Plata,Argentina,TRUE
+WC-1978,WC-1978_012,12,1978-06-06,Group Stage,played,Poland,Tunisia,POL,TUN,POL,TUN,UEFA,CAF,1942,1722,Rosario,Argentina,TRUE
+WC-1978,WC-1978_013,13,1978-06-07,Group Stage,played,Austria,Sweden,AUT,SWE,AUT,SWE,UEFA,UEFA,1898,1812,Buenos Aires,Argentina,TRUE
+WC-1978,WC-1978_014,14,1978-06-07,Group Stage,played,Brazil,Spain,BRA,ESP,BRA,ESP,CONMEBOL,UEFA,2060,1922,Mar del Plata,Argentina,TRUE
+WC-1978,WC-1978_015,15,1978-06-07,Group Stage,played,Iran,Scotland,IRN,SCO,IRN,SCO,AFC,UEFA,1786,1877,Córdoba,Argentina,TRUE
+WC-1978,WC-1978_016,16,1978-06-07,Group Stage,played,Netherlands,Peru,NED,PER,NLD,PER,UEFA,CONMEBOL,2109,1821,Mendoza,Argentina,TRUE
+WC-1978,WC-1978_017,17,1978-06-10,Group Stage,played,Argentina,Italy,ARG,ITA,ARG,ITA,CONMEBOL,UEFA,1963,1998,Buenos Aires,Argentina,FALSE
+WC-1978,WC-1978_018,18,1978-06-10,Group Stage,played,France,Hungary,FRA,HUN,FRA,HUN,UEFA,UEFA,1849,1852,Mar del Plata,Argentina,TRUE
+WC-1978,WC-1978_019,19,1978-06-10,Group Stage,played,Germany,Tunisia,GER,TUN,DEU,TUN,UEFA,CAF,1923,1636,Córdoba,Argentina,TRUE
+WC-1978,WC-1978_020,20,1978-06-10,Group Stage,played,Mexico,Poland,MEX,POL,MEX,POL,CONCACAF,UEFA,1721,1955,Rosario,Argentina,TRUE
+WC-1978,WC-1978_021,21,1978-06-11,Group Stage,played,Austria,Brazil,AUT,BRA,AUT,BRA,UEFA,CONMEBOL,1921,2049,Mar del Plata,Argentina,TRUE
+WC-1978,WC-1978_022,22,1978-06-11,Group Stage,played,Iran,Peru,IRN,PER,IRN,PER,AFC,CONMEBOL,1794,1841,Córdoba,Argentina,TRUE
+WC-1978,WC-1978_023,23,1978-06-11,Group Stage,played,Netherlands,Scotland,NED,SCO,NLD,SCO,UEFA,UEFA,2089,1869,Mendoza,Argentina,TRUE
+WC-1978,WC-1978_024,24,1978-06-11,Group Stage,played,Spain,Sweden,ESP,SWE,ESP,SWE,UEFA,UEFA,1933,1789,Buenos Aires,Argentina,TRUE
+WC-1978,WC-1978_025,25,1978-06-14,Quarter-final,played,Argentina,Poland,ARG,POL,ARG,POL,CONMEBOL,UEFA,1927,1974,Rosario,Argentina,FALSE
+WC-1978,WC-1978_026,26,1978-06-14,Quarter-final,played,Austria,Netherlands,AUT,NED,AUT,NLD,UEFA,UEFA,1902,2042,Córdoba,Argentina,TRUE
+WC-1978,WC-1978_027,27,1978-06-14,Quarter-final,played,Brazil,Peru,BRA,PER,BRA,PER,CONMEBOL,CONMEBOL,2068,1886,Mendoza,Argentina,TRUE
+WC-1978,WC-1978_028,28,1978-06-14,Quarter-final,played,Germany,Italy,GER,ITA,DEU,ITA,UEFA,UEFA,1923,1856,Buenos Aires,Argentina,TRUE
+WC-1978,WC-1978_029,29,1978-06-18,Quarter-final,played,Argentina,Brazil,ARG,BRA,ARG,BRA,CONMEBOL,CONMEBOL,1965,2095,Rosario,Argentina,FALSE
+WC-1978,WC-1978_030,30,1978-06-18,Quarter-final,played,Austria,Italy,AUT,ITA,AUT,ITA,UEFA,UEFA,1867,2038,Buenos Aires,Argentina,TRUE
+WC-1978,WC-1978_031,31,1978-06-18,Quarter-final,played,Germany,Netherlands,GER,NED,DEU,NLD,UEFA,UEFA,1923,1961,Córdoba,Argentina,TRUE
+WC-1978,WC-1978_032,32,1978-06-18,Quarter-final,played,Peru,Poland,PER,POL,PER,POL,CONMEBOL,UEFA,1859,1936,Mendoza,Argentina,TRUE
+WC-1978,WC-1978_033,33,1978-06-21,Quarter-final,played,Argentina,Peru,ARG,PER,ARG,PER,CONMEBOL,CONMEBOL,1968,1836,Rosario,Argentina,FALSE
+WC-1978,WC-1978_034,34,1978-06-21,Quarter-final,played,Austria,Germany,AUT,GER,AUT,DEU,UEFA,UEFA,1827,1923,Córdoba,Argentina,TRUE
+WC-1978,WC-1978_035,35,1978-06-21,Quarter-final,played,Brazil,Poland,BRA,POL,BRA,POL,CONMEBOL,UEFA,2092,1959,Mendoza,Argentina,TRUE
+WC-1978,WC-1978_036,36,1978-06-21,Quarter-final,played,Italy,Netherlands,ITA,NED,ITA,NLD,UEFA,UEFA,2054,2076,Buenos Aires,Argentina,TRUE
+WC-1978,WC-1978_037,37,1978-06-24,Third Place,played,Brazil,Italy,BRA,ITA,BRA,ITA,CONMEBOL,UEFA,2121,2026,Buenos Aires,Argentina,TRUE
+WC-1978,WC-1978_038,38,1978-06-25,Final,played,Argentina,Netherlands,ARG,NED,ARG,NLD,CONMEBOL,UEFA,1995,2104,Buenos Aires,Argentina,FALSE

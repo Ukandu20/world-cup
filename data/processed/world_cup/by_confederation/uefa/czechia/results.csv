@@ -1,359 +1,359 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1994-02-23,Friendly,played,Czechia,CZE,Turkey,TUR,FALSE,4,1,win,Istanbul,Turkey,FALSE,1844,1593,1854,1583,10
-1994-04-20,Friendly,played,Czechia,CZE,Switzerland,CHE,FALSE,0,3,loss,Zürich,Switzerland,FALSE,1854,1871,1842,1883,-12
-1994-05-25,Friendly,played,Czechia,CZE,Lithuania,,TRUE,5,3,win,Ostrava,Czech Republic,FALSE,1842,1351,1843,1350,1
-1994-06-05,Friendly,played,Czechia,CZE,Republic of Ireland,IRL,FALSE,3,1,win,Dublin,Republic of Ireland,FALSE,,,,,
-1994-08-17,Friendly,played,Czechia,CZE,France,FRA,FALSE,2,2,draw,Bordeaux,France,FALSE,1864,1929,1868,1925,4
-1994-09-06,UEFA Euro qualification,played,Czechia,CZE,Malta,,TRUE,6,1,win,Ostrava,Czech Republic,FALSE,1868,1388,1871,1385,3
-1994-10-12,UEFA Euro qualification,played,Czechia,CZE,Malta,,FALSE,0,0,draw,Attard,Malta,FALSE,1871,1385,1855,1401,-16
-1994-11-16,UEFA Euro qualification,played,Czechia,CZE,Netherlands,NLD,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,1855,1968,1866,1957,11
-1995-03-08,Friendly,played,Czechia,CZE,Finland,,TRUE,4,1,win,Brno,Czech Republic,FALSE,1866,1520,1868,1518,2
-1995-03-29,UEFA Euro qualification,played,Czechia,CZE,Belarus,,TRUE,4,2,win,Ostrava,Czech Republic,FALSE,1868,1414,1870,1412,2
-1995-04-26,UEFA Euro qualification,played,Czechia,CZE,Netherlands,NLD,TRUE,3,1,win,Prague,Czech Republic,FALSE,1870,1930,1897,1903,27
-1995-05-08,Friendly,played,Czechia,CZE,Slovakia,SVK,FALSE,1,1,draw,Bratislava,Slovakia,FALSE,1897,1679,1894,1682,-3
-1995-06-07,UEFA Euro qualification,played,Czechia,CZE,Luxembourg,,FALSE,0,1,loss,Luxembourg,Luxembourg,FALSE,1894,1193,1855,1232,-39
-1995-08-16,UEFA Euro qualification,played,Czechia,CZE,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1855,1882,1862,1875,7
-1995-09-06,UEFA Euro qualification,played,Czechia,CZE,Norway,NOR,TRUE,2,0,win,Prague,Czech Republic,FALSE,1862,1875,1885,1852,23
-1995-10-07,UEFA Euro qualification,played,Czechia,CZE,Belarus,,FALSE,2,0,win,Minsk,Belarus,FALSE,1885,1442,1892,1435,7
-1995-11-15,UEFA Euro qualification,played,Czechia,CZE,Luxembourg,,TRUE,3,0,win,Prague,Czech Republic,FALSE,1892,1259,1893,1258,1
-1995-12-13,Friendly,played,Czechia,CZE,Kuwait,KWT,FALSE,2,1,win,Kuwait City,Kuwait,FALSE,1893,1490,1896,1487,3
-1996-03-26,Friendly,played,Czechia,CZE,Turkey,TUR,TRUE,3,0,win,Ostrava,Czech Republic,FALSE,1896,1761,1903,1754,7
-1996-04-24,Friendly,played,Czechia,CZE,Republic of Ireland,IRL,TRUE,2,0,win,Prague,Czech Republic,FALSE,,,,,
-1996-05-29,Friendly,played,Czechia,CZE,Austria,AUT,FALSE,0,1,loss,Salzburg,Austria,FALSE,1908,1683,1895,1696,-13
-1996-06-01,Friendly,played,Czechia,CZE,Switzerland,CHE,FALSE,2,1,win,Basel,Switzerland,FALSE,1895,1814,1906,1803,11
-1996-06-09,UEFA Euro,played,Czechia,CZE,Germany,DEU,FALSE,0,2,loss,Manchester,England,TRUE,1906,2035,1882,2059,-24
-1996-06-14,UEFA Euro,played,Czechia,CZE,Italy,ITA,TRUE,2,1,win,Liverpool,England,TRUE,1882,2011,1916,1977,34
-1996-06-19,UEFA Euro,played,Czechia,CZE,Russia,RUS,FALSE,3,3,draw,Liverpool,England,TRUE,1916,1884,1914,1886,-2
-1996-06-23,UEFA Euro,played,Czechia,CZE,Portugal,PRT,TRUE,1,0,win,Birmingham,England,TRUE,1914,1940,1941,1913,27
-1996-06-26,UEFA Euro,played,Czechia,CZE,France,FRA,FALSE,0,0,draw,Manchester,England,TRUE,1941,2022,1947,2016,6
-1996-06-30,UEFA Euro,played,Czechia,CZE,Germany,DEU,TRUE,1,2,loss,London,England,TRUE,1947,2086,1932,2101,-15
-1996-09-04,Friendly,played,Czechia,CZE,Iceland,ISL,TRUE,2,1,win,Jablonec nad Nisou,Czech Republic,FALSE,1932,1562,1933,1561,1
-1996-09-18,FIFA World Cup qualification,played,Czechia,CZE,Malta,,TRUE,6,0,win,Teplice,Czech Republic,FALSE,1933,1297,1934,1296,1
-1996-10-09,FIFA World Cup qualification,played,Czechia,CZE,Spain,ESP,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1934,1999,1932,2001,-2
-1996-11-10,FIFA World Cup qualification,played,Czechia,CZE,Serbia,SRB,FALSE,0,1,loss,Belgrade,FR Yugoslavia,FALSE,,,,,
-1996-12-11,King Hassan II Tournament,played,Czechia,CZE,Nigeria,NGA,TRUE,2,1,win,Casablanca,Morocco,TRUE,1917,1793,1927,1783,10
-1996-12-12,King Hassan II Tournament,played,Czechia,CZE,Croatia,HRV,FALSE,1,1,draw,Casablanca,Morocco,TRUE,1927,1887,1925,1889,-2
-1997-03-12,Friendly,played,Czechia,CZE,Poland,POL,TRUE,2,1,win,Ostrava,Czech Republic,FALSE,1925,1669,1927,1667,2
-1997-04-02,FIFA World Cup qualification,played,Czechia,CZE,Serbia,SRB,TRUE,1,2,loss,Prague,Czech Republic,FALSE,,,,,
-1997-06-08,FIFA World Cup qualification,played,Czechia,CZE,Spain,ESP,FALSE,0,1,loss,Valladolid,Spain,FALSE,1901,2027,1892,2036,-9
-1997-08-20,FIFA World Cup qualification,played,Czechia,CZE,Faroe Islands,,TRUE,2,0,win,Teplice,Czech Republic,FALSE,1892,1236,1893,1235,1
-1997-08-24,FIFA World Cup qualification,played,Czechia,CZE,Slovakia,SVK,FALSE,1,2,loss,Bratislava,Slovakia,FALSE,1893,1721,1869,1745,-24
-1997-09-06,FIFA World Cup qualification,played,Czechia,CZE,Faroe Islands,,FALSE,2,0,win,Toftir,Faroe Islands,FALSE,1869,1235,1872,1232,3
-1997-09-24,FIFA World Cup qualification,played,Czechia,CZE,Malta,,FALSE,1,0,win,Attard,Malta,FALSE,1872,1227,1874,1225,2
-1997-10-11,FIFA World Cup qualification,played,Czechia,CZE,Slovakia,SVK,TRUE,3,0,win,Prague,Czech Republic,FALSE,1874,1741,1889,1726,15
-1997-12-13,Confederations Cup,played,Czechia,CZE,South Africa,ZAF,FALSE,2,2,draw,Riyadh,Saudi Arabia,TRUE,1889,1716,1877,1728,-12
-1997-12-15,Confederations Cup,played,Czechia,CZE,Uruguay,URY,TRUE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1877,1743,1843,1777,-34
-1997-12-17,Confederations Cup,played,Czechia,CZE,United Arab Emirates,ARE,FALSE,6,1,win,Riyadh,Saudi Arabia,TRUE,1843,1561,1859,1545,16
-1997-12-19,Confederations Cup,played,Czechia,CZE,Brazil,BRA,FALSE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1859,2151,1847,2163,-12
-1997-12-21,Confederations Cup,played,Czechia,CZE,Uruguay,URY,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1847,1774,1867,1754,20
-1998-03-25,Friendly,played,Czechia,CZE,Republic of Ireland,IRL,TRUE,2,1,win,Olomouc,Czech Republic,FALSE,,,,,
-1998-04-22,Friendly,played,Czechia,CZE,Slovenia,SVN,FALSE,3,1,win,Murska Sobota,Slovenia,FALSE,1871,1528,1877,1522,6
-1998-05-21,Kirin Cup,played,Czechia,CZE,Paraguay,PRY,TRUE,1,0,win,Kobe,Japan,TRUE,1877,1768,1887,1758,10
-1998-05-24,Kirin Cup,played,Czechia,CZE,Japan,JPN,FALSE,0,0,draw,Yokohama,Japan,FALSE,1887,1753,1886,1754,-1
-1998-05-27,Friendly,played,Czechia,CZE,South Korea,KOR,FALSE,2,2,draw,Seoul,South Korea,FALSE,1886,1754,1885,1755,-1
-1998-08-19,Friendly,played,Czechia,CZE,Denmark,DNK,TRUE,1,0,win,Prague,Czech Republic,FALSE,1885,1882,1892,1875,7
-1998-09-06,UEFA Euro qualification,played,Czechia,CZE,Faroe Islands,,FALSE,1,0,win,Toftir,Faroe Islands,FALSE,1892,1196,1893,1195,1
-1998-10-10,UEFA Euro qualification,played,Czechia,CZE,Bosnia and Herzegovina,BIH,FALSE,3,1,win,Sarajevo,Bosnia and Herzegovina,FALSE,1893,1608,1908,1593,15
-1998-10-14,UEFA Euro qualification,played,Czechia,CZE,Estonia,,TRUE,4,1,win,Teplice,Czech Republic,FALSE,1908,1225,1909,1224,1
-1998-11-18,Friendly,played,Czechia,CZE,England,ENG,FALSE,0,2,loss,London,England,FALSE,1909,1936,1899,1946,-10
-1999-02-09,Friendly,played,Czechia,CZE,Belgium,BEL,FALSE,1,0,win,Brussels,Belgium,FALSE,1899,1804,1909,1794,10
-1999-03-27,UEFA Euro qualification,played,Czechia,CZE,Lithuania,,TRUE,2,0,win,Teplice,Czech Republic,FALSE,1909,1497,1912,1494,3
-1999-03-31,UEFA Euro qualification,played,Czechia,CZE,Scotland,SCO,FALSE,2,1,win,Glasgow,Scotland,FALSE,1912,1712,1926,1698,14
-1999-04-28,Friendly,played,Czechia,CZE,Poland,POL,FALSE,1,2,loss,Warsaw,Poland,FALSE,1926,1735,1913,1748,-13
-1999-06-05,UEFA Euro qualification,played,Czechia,CZE,Estonia,,FALSE,2,0,win,Tallinn,Estonia,FALSE,1913,1281,1916,1278,3
-1999-06-09,UEFA Euro qualification,played,Czechia,CZE,Scotland,SCO,TRUE,3,2,win,Prague,Czech Republic,FALSE,1916,1699,1922,1693,6
-1999-08-18,Friendly,played,Czechia,CZE,Switzerland,CHE,TRUE,3,0,win,Drnovice,Czech Republic,FALSE,1922,1714,1927,1709,5
-1999-09-04,UEFA Euro qualification,played,Czechia,CZE,Lithuania,,FALSE,4,0,win,Vilnius,Lithuania,FALSE,1927,1482,1936,1473,9
-1999-09-08,UEFA Euro qualification,played,Czechia,CZE,Bosnia and Herzegovina,BIH,TRUE,3,0,win,Teplice,Czech Republic,FALSE,1936,1529,1940,1525,4
-1999-10-09,UEFA Euro qualification,played,Czechia,CZE,Faroe Islands,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1940,1185,1940,1185,0
-1999-11-13,Friendly,played,Czechia,CZE,Netherlands,NLD,FALSE,1,1,draw,Eindhoven,Netherlands,FALSE,1940,1958,1943,1955,3
-2000-02-08,Lunar New Year Cup,played,Czechia,CZE,Mexico,MEX,FALSE,2,1,win,So Kon Po,Hong Kong,TRUE,1943,1915,1957,1901,14
-2000-02-23,Friendly,played,Czechia,CZE,Republic of Ireland,IRL,FALSE,2,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
-2000-03-29,Friendly,played,Czechia,CZE,Australia,AUS,TRUE,3,1,win,Teplice,Czech Republic,FALSE,1944,1745,1949,1740,5
-2000-04-26,Friendly,played,Czechia,CZE,Israel,ISR,TRUE,4,1,win,Prague,Czech Republic,FALSE,1949,1682,1953,1678,4
-2000-06-03,Friendly,played,Czechia,CZE,Germany,DEU,FALSE,2,3,loss,Nuremberg,Germany,FALSE,1953,1879,1944,1888,-9
-2000-06-11,UEFA Euro,played,Czechia,CZE,Netherlands,NLD,FALSE,0,1,loss,Amsterdam,Netherlands,FALSE,1944,1962,1927,1979,-17
-2000-06-16,UEFA Euro,played,Czechia,CZE,France,FRA,TRUE,1,2,loss,Bruges,Belgium,TRUE,1927,2082,1912,2097,-15
-2000-06-21,UEFA Euro,played,Czechia,CZE,Denmark,DNK,FALSE,2,0,win,Liège,Belgium,TRUE,1912,1792,1937,1767,25
-2000-08-16,Friendly,played,Czechia,CZE,Slovenia,SVN,TRUE,0,1,loss,Ostrava,Czech Republic,FALSE,1937,1660,1919,1678,-18
-2000-09-02,FIFA World Cup qualification,played,Czechia,CZE,Bulgaria,BGR,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1919,1649,1930,1638,11
-2000-10-07,FIFA World Cup qualification,played,Czechia,CZE,Iceland,ISL,TRUE,4,0,win,Teplice,Czech Republic,FALSE,1930,1594,1936,1588,6
-2000-10-11,FIFA World Cup qualification,played,Czechia,CZE,Malta,,FALSE,0,0,draw,Attard,Malta,FALSE,1936,1220,1917,1239,-19
-2001-02-28,Friendly,played,Czechia,CZE,North Macedonia,,FALSE,1,1,draw,Skopje,North Macedonia,FALSE,1917,1526,1910,1533,-7
-2001-03-24,FIFA World Cup qualification,played,Czechia,CZE,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1910,1507,1916,1501,6
-2001-03-28,FIFA World Cup qualification,played,Czechia,CZE,Denmark,DNK,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1916,1783,1904,1795,-12
-2001-04-25,Friendly,played,Czechia,CZE,Belgium,BEL,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1904,1787,1898,1793,-6
-2001-06-02,FIFA World Cup qualification,played,Czechia,CZE,Denmark,DNK,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1898,1802,1878,1822,-20
-2001-06-06,FIFA World Cup qualification,played,Czechia,CZE,Northern Ireland,NIR,TRUE,3,1,win,Teplice,Czech Republic,FALSE,1878,1481,1881,1478,3
-2001-08-15,Friendly,played,Czechia,CZE,South Korea,KOR,TRUE,5,0,win,Drnovice,Czech Republic,FALSE,1881,1812,1892,1801,11
-2001-09-01,FIFA World Cup qualification,played,Czechia,CZE,Iceland,ISL,FALSE,1,3,loss,Reykjavík,Iceland,FALSE,1892,1611,1848,1655,-44
-2001-09-05,FIFA World Cup qualification,played,Czechia,CZE,Malta,,TRUE,3,2,win,Teplice,Czech Republic,FALSE,1848,1202,1849,1201,1
-2001-10-06,FIFA World Cup qualification,played,Czechia,CZE,Bulgaria,BGR,TRUE,6,0,win,Prague,Czech Republic,FALSE,1849,1696,1865,1680,16
-2001-11-10,FIFA World Cup qualification,played,Czechia,CZE,Belgium,BEL,FALSE,0,1,loss,Brussels,Belgium,FALSE,1865,1786,1846,1805,-19
-2001-11-14,FIFA World Cup qualification,played,Czechia,CZE,Belgium,BEL,TRUE,0,1,loss,Prague,Czech Republic,FALSE,1846,1805,1818,1833,-28
-2002-02-12,Cyprus International Tournament,played,Czechia,CZE,Hungary,HUN,TRUE,2,0,win,Larnaca,Cyprus,TRUE,1818,1602,1828,1592,10
-2002-02-13,Cyprus International Tournament,played,Czechia,CZE,Cyprus,,FALSE,4,3,win,Nicosia,Cyprus,FALSE,1828,1511,1835,1504,7
-2002-03-27,Friendly,played,Czechia,CZE,Wales,WAL,FALSE,0,0,draw,Cardiff,Wales,FALSE,1835,1561,1830,1566,-5
-2002-04-17,Friendly,played,Czechia,CZE,Greece,GRC,FALSE,0,0,draw,Ioannina,Greece,FALSE,1830,1673,1828,1675,-2
-2002-05-18,Friendly,played,Czechia,CZE,Italy,ITA,TRUE,1,0,win,Prague,Czech Republic,FALSE,1828,2021,1841,2008,13
-2002-08-21,Friendly,played,Czechia,CZE,Slovakia,SVK,TRUE,4,1,win,Olomouc,Czech Republic,FALSE,1841,1704,1848,1697,7
-2002-09-06,Friendly,played,Czechia,CZE,Serbia,SRB,TRUE,5,0,win,Prague,Czech Republic,FALSE,,,,,
-2002-10-12,UEFA Euro qualification,played,Czechia,CZE,Moldova,,FALSE,2,0,win,Chișinău,Moldova,FALSE,1860,1351,1865,1346,5
-2002-10-16,UEFA Euro qualification,played,Czechia,CZE,Belarus,,TRUE,2,0,win,Teplice,Czech Republic,FALSE,1865,1558,1870,1553,5
-2002-11-20,Friendly,played,Czechia,CZE,Sweden,SWE,TRUE,3,3,draw,Teplice,Czech Republic,FALSE,1870,1819,1866,1823,-4
-2003-02-12,Friendly,played,Czechia,CZE,France,FRA,FALSE,2,0,win,Saint-Denis,France,FALSE,1866,1973,1889,1950,23
-2003-03-29,UEFA Euro qualification,played,Czechia,CZE,Netherlands,NLD,FALSE,1,1,draw,Rotterdam,Netherlands,FALSE,1889,2056,1902,2043,13
-2003-04-02,UEFA Euro qualification,played,Czechia,CZE,Austria,AUT,TRUE,4,0,win,Prague,Czech Republic,FALSE,1902,1678,1912,1668,10
-2003-04-30,Friendly,played,Czechia,CZE,Turkey,TUR,TRUE,4,0,win,Teplice,Czech Republic,FALSE,1912,1868,1923,1857,11
-2003-06-11,UEFA Euro qualification,played,Czechia,CZE,Moldova,,TRUE,5,0,win,Olomouc,Czech Republic,FALSE,1923,1392,1925,1390,2
-2003-09-06,UEFA Euro qualification,played,Czechia,CZE,Belarus,,FALSE,3,1,win,Minsk,Belarus,FALSE,1925,1552,1935,1542,10
-2003-09-10,UEFA Euro qualification,played,Czechia,CZE,Netherlands,NLD,TRUE,3,1,win,Prague,Czech Republic,FALSE,1935,2045,1966,2014,31
-2003-10-11,UEFA Euro qualification,played,Czechia,CZE,Austria,AUT,FALSE,3,2,win,Vienna,Austria,FALSE,1966,1686,1976,1676,10
-2003-11-15,Friendly,played,Czechia,CZE,Canada,CAN,TRUE,5,1,win,Teplice,Czech Republic,FALSE,1976,1601,1978,1599,2
-2004-02-18,Friendly,played,Czechia,CZE,Italy,ITA,FALSE,2,2,draw,Palermo,Italy,FALSE,1978,1924,1979,1923,1
-2004-03-31,Friendly,played,Czechia,CZE,Republic of Ireland,IRL,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
-2004-04-28,Friendly,played,Czechia,CZE,Japan,JPN,TRUE,0,1,loss,Prague,Czech Republic,FALSE,1968,1775,1951,1792,-17
-2004-06-02,Friendly,played,Czechia,CZE,Bulgaria,BGR,TRUE,3,1,win,Prague,Czech Republic,FALSE,1951,1763,1956,1758,5
-2004-06-06,Friendly,played,Czechia,CZE,Estonia,,TRUE,2,0,win,Teplice,Czech Republic,FALSE,1956,1391,1957,1390,1
-2004-06-15,UEFA Euro,played,Czechia,CZE,Latvia,,TRUE,2,1,win,Aveiro,Portugal,TRUE,1957,1524,1961,1520,4
-2004-06-19,UEFA Euro,played,Czechia,CZE,Netherlands,NLD,FALSE,3,2,win,Aveiro,Portugal,TRUE,1961,1959,1986,1934,25
-2004-06-23,UEFA Euro,played,Czechia,CZE,Germany,DEU,FALSE,2,1,win,Lisbon,Portugal,TRUE,1986,1855,2002,1839,16
-2004-06-27,UEFA Euro,played,Czechia,CZE,Denmark,DNK,TRUE,3,0,win,Porto,Portugal,TRUE,2002,1893,2032,1863,30
-2004-07-01,UEFA Euro,played,Czechia,CZE,Greece,GRC,FALSE,0,1,loss,Porto,Portugal,TRUE,2032,1857,1995,1894,-37
-2004-08-18,Friendly,played,Czechia,CZE,Greece,GRC,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1995,1928,1991,1932,-4
-2004-09-08,FIFA World Cup qualification,played,Czechia,CZE,Netherlands,NLD,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1991,1917,1963,1945,-28
-2004-10-09,FIFA World Cup qualification,played,Czechia,CZE,Romania,ROU,TRUE,1,0,win,Prague,Czech Republic,FALSE,1963,1849,1972,1840,9
-2004-10-13,FIFA World Cup qualification,played,Czechia,CZE,Armenia,,FALSE,3,0,win,Yerevan,Armenia,FALSE,1972,1416,1977,1411,5
-2004-11-17,FIFA World Cup qualification,played,Czechia,CZE,North Macedonia,,FALSE,2,0,win,Skopje,North Macedonia,FALSE,1977,1507,1983,1501,6
-2005-02-09,Friendly,played,Czechia,CZE,Slovenia,SVN,FALSE,3,0,win,Celje,Slovenia,FALSE,1983,1664,1991,1656,8
-2005-03-26,FIFA World Cup qualification,played,Czechia,CZE,Finland,,TRUE,4,3,win,Teplice,Czech Republic,FALSE,1991,1727,1995,1723,4
-2005-03-30,FIFA World Cup qualification,played,Czechia,CZE,Andorra,,FALSE,4,0,win,Sant Julià de Lòria,Andorra,FALSE,1995,1107,1996,1106,1
-2005-06-04,FIFA World Cup qualification,played,Czechia,CZE,Andorra,,TRUE,8,1,win,Liberec,Czech Republic,FALSE,1996,1106,1996,1106,0
-2005-06-08,FIFA World Cup qualification,played,Czechia,CZE,North Macedonia,,TRUE,6,1,win,Teplice,Czech Republic,FALSE,1996,1496,1998,1494,2
-2005-08-17,Friendly,played,Czechia,CZE,Sweden,SWE,FALSE,1,2,loss,Gothenburg,Sweden,FALSE,1998,1891,1988,1901,-10
-2005-09-03,FIFA World Cup qualification,played,Czechia,CZE,Romania,ROU,FALSE,0,2,loss,Constanţa,Romania,FALSE,1988,1797,1950,1835,-38
-2005-09-07,FIFA World Cup qualification,played,Czechia,CZE,Armenia,,TRUE,4,1,win,Olomouc,Czech Republic,FALSE,1950,1395,1952,1393,2
-2005-10-08,FIFA World Cup qualification,played,Czechia,CZE,Netherlands,NLD,TRUE,0,2,loss,Prague,Czech Republic,FALSE,1952,2000,1918,2034,-34
-2005-10-12,FIFA World Cup qualification,played,Czechia,CZE,Finland,,FALSE,3,0,win,Helsinki,Finland,FALSE,1918,1690,1941,1667,23
-2005-11-12,FIFA World Cup qualification,played,Czechia,CZE,Norway,NOR,FALSE,1,0,win,Oslo,Norway,FALSE,1941,1791,1958,1774,17
-2005-11-16,FIFA World Cup qualification,played,Czechia,CZE,Norway,NOR,TRUE,1,0,win,Prague,Czech Republic,FALSE,1958,1774,1965,1767,7
-2006-03-01,Friendly,played,Czechia,CZE,Turkey,TUR,FALSE,2,2,draw,İzmir,Turkey,FALSE,1965,1844,1964,1845,-1
-2006-05-26,Friendly,played,Czechia,CZE,Saudi Arabia,SAU,TRUE,2,0,win,Innsbruck,Austria,TRUE,1964,1561,1967,1558,3
-2006-05-30,Friendly,played,Czechia,CZE,Costa Rica,CRI,TRUE,1,0,win,Jablonec nad Nisou,Czech Republic,FALSE,1967,1726,1969,1724,2
-2006-06-03,Friendly,played,Czechia,CZE,Trinidad and Tobago,TTO,TRUE,3,0,win,Prague,Czech Republic,FALSE,1969,1568,1971,1566,2
-2006-06-12,FIFA World Cup,played,Czechia,CZE,United States,USA,FALSE,3,0,win,Gelsenkirchen,Germany,TRUE,1971,1824,2003,1792,32
-2006-06-17,FIFA World Cup,played,Czechia,CZE,Ghana,GHA,TRUE,0,2,loss,Cologne,Germany,TRUE,2003,1604,1921,1686,-82
-2006-06-22,FIFA World Cup,played,Czechia,CZE,Italy,ITA,TRUE,0,2,loss,Hamburg,Germany,TRUE,1921,1942,1879,1984,-42
-2006-08-16,Friendly,played,Czechia,CZE,Serbia,SRB,TRUE,1,3,loss,Uherské Hradiště,Czech Republic,FALSE,1879,1717,1854,1742,-25
-2006-09-02,UEFA Euro qualification,played,Czechia,CZE,Wales,WAL,TRUE,2,1,win,Teplice,Czech Republic,FALSE,1854,1605,1859,1600,5
-2006-09-06,UEFA Euro qualification,played,Czechia,CZE,Slovakia,SVK,FALSE,3,0,win,Bratislava,Slovakia,FALSE,1859,1708,1889,1678,30
-2006-10-07,UEFA Euro qualification,played,Czechia,CZE,San Marino,,TRUE,7,0,win,Liberec,Czech Republic,FALSE,1889,938,1889,938,0
-2006-10-11,UEFA Euro qualification,played,Czechia,CZE,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
-2006-11-15,Friendly,played,Czechia,CZE,Denmark,DNK,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1886,1900,1884,1902,-2
-2007-02-07,Friendly,played,Czechia,CZE,Belgium,BEL,FALSE,2,0,win,Brussels,Belgium,FALSE,1884,1672,1894,1662,10
-2007-03-24,UEFA Euro qualification,played,Czechia,CZE,Germany,DEU,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1894,1982,1873,2003,-21
-2007-03-28,UEFA Euro qualification,played,Czechia,CZE,Cyprus,,TRUE,1,0,win,Liberec,Czech Republic,FALSE,1873,1483,1875,1481,2
-2007-06-02,UEFA Euro qualification,played,Czechia,CZE,Wales,WAL,FALSE,0,0,draw,Cardiff,Wales,FALSE,1875,1568,1864,1579,-11
-2007-08-22,Friendly,played,Czechia,CZE,Austria,AUT,FALSE,1,1,draw,Vienna,Austria,FALSE,1864,1613,1860,1617,-4
-2007-09-08,UEFA Euro qualification,played,Czechia,CZE,San Marino,,FALSE,3,0,win,Serravalle,San Marino,FALSE,1860,933,1861,932,1
-2007-09-12,UEFA Euro qualification,played,Czechia,CZE,Republic of Ireland,IRL,TRUE,1,0,win,Prague,Czech Republic,FALSE,,,,,
-2007-10-17,UEFA Euro qualification,played,Czechia,CZE,Germany,DEU,FALSE,3,0,win,Munich,Germany,FALSE,1872,2012,1928,1956,56
-2007-11-17,UEFA Euro qualification,played,Czechia,CZE,Slovakia,SVK,TRUE,3,1,win,Prague,Czech Republic,FALSE,1928,1658,1934,1652,6
-2007-11-21,UEFA Euro qualification,played,Czechia,CZE,Cyprus,,FALSE,2,0,win,Nicosia,Cyprus,FALSE,1934,1542,1943,1533,9
-2008-02-06,Friendly,played,Czechia,CZE,Poland,POL,TRUE,0,2,loss,Larnaca,Cyprus,TRUE,1943,1781,1911,1813,-32
-2008-03-26,Friendly,played,Czechia,CZE,Denmark,DNK,FALSE,1,1,draw,Herning,Denmark,FALSE,1911,1827,1911,1827,0
-2008-05-27,Friendly,played,Czechia,CZE,Lithuania,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1911,1583,1913,1581,2
-2008-05-30,Friendly,played,Czechia,CZE,Scotland,SCO,TRUE,3,1,win,Prague,Czech Republic,FALSE,1913,1759,1919,1753,6
-2008-06-07,UEFA Euro,played,Czechia,CZE,Switzerland,CHE,FALSE,1,0,win,Basel,Switzerland,FALSE,1919,1793,1942,1770,23
-2008-06-11,UEFA Euro,played,Czechia,CZE,Portugal,PRT,TRUE,1,3,loss,Geneva,Switzerland,TRUE,1942,1893,1899,1936,-43
-2008-06-15,UEFA Euro,played,Czechia,CZE,Turkey,TUR,FALSE,2,3,loss,Geneva,Switzerland,TRUE,1899,1811,1868,1842,-31
-2008-08-20,Friendly,played,Czechia,CZE,England,ENG,FALSE,2,2,draw,London,England,FALSE,1868,1922,1872,1918,4
-2008-09-10,FIFA World Cup qualification,played,Czechia,CZE,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1872,1576,1862,1586,-10
-2008-10-11,FIFA World Cup qualification,played,Czechia,CZE,Poland,POL,FALSE,1,2,loss,Chorzów,Poland,FALSE,1862,1725,1840,1747,-22
-2008-10-15,FIFA World Cup qualification,played,Czechia,CZE,Slovenia,SVN,TRUE,1,0,win,Teplice,Czech Republic,FALSE,1840,1599,1845,1594,5
-2008-11-19,FIFA World Cup qualification,played,Czechia,CZE,San Marino,,FALSE,3,0,win,Serravalle,San Marino,FALSE,1845,922,1846,921,1
-2009-02-11,Friendly,played,Czechia,CZE,Morocco,MAR,FALSE,0,0,draw,Casablanca,Morocco,FALSE,1846,1661,1844,1663,-2
-2009-03-28,FIFA World Cup qualification,played,Czechia,CZE,Slovenia,SVN,FALSE,0,0,draw,Maribor,Slovenia,FALSE,1844,1571,1835,1580,-9
-2009-04-01,FIFA World Cup qualification,played,Czechia,CZE,Slovakia,SVK,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1835,1604,1800,1639,-35
-2009-06-05,Friendly,played,Czechia,CZE,Malta,,TRUE,1,0,win,Jablonec nad Nisou,Czech Republic,FALSE,1800,1224,1800,1224,0
-2009-08-12,Friendly,played,Czechia,CZE,Belgium,BEL,TRUE,3,1,win,Teplice,Czech Republic,FALSE,1800,1583,1804,1579,4
-2009-09-05,FIFA World Cup qualification,played,Czechia,CZE,Slovakia,SVK,FALSE,2,2,draw,Bratislava,Slovakia,FALSE,1804,1637,1800,1641,-4
-2009-09-09,FIFA World Cup qualification,played,Czechia,CZE,San Marino,,TRUE,7,0,win,Uherské Hradiště,Czech Republic,FALSE,1800,915,1800,915,0
-2009-10-10,FIFA World Cup qualification,played,Czechia,CZE,Poland,POL,TRUE,2,0,win,Prague,Czech Republic,FALSE,1800,1674,1813,1661,13
-2009-10-14,FIFA World Cup qualification,played,Czechia,CZE,Northern Ireland,NIR,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1813,1567,1798,1582,-15
-2009-11-15,Friendly,played,Czechia,CZE,United Arab Emirates,ARE,FALSE,0,0,draw,Al Ain,United Arab Emirates,FALSE,1798,1393,1787,1404,-11
-2009-11-18,Friendly,played,Czechia,CZE,Azerbaijan,,FALSE,0,2,loss,Al Ain,United Arab Emirates,TRUE,1787,1379,1746,1420,-41
-2010-03-03,Friendly,played,Czechia,CZE,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1746,1670,1737,1679,-9
-2010-05-22,Friendly,played,Czechia,CZE,Turkey,TUR,FALSE,1,2,loss,Harrison,United States,TRUE,1737,1794,1729,1802,-8
-2010-05-25,Friendly,played,Czechia,CZE,United States,USA,FALSE,4,2,win,East Hartford,United States,FALSE,1729,1780,1750,1759,21
-2010-08-11,Friendly,played,Czechia,CZE,Latvia,,TRUE,4,1,win,Liberec,Czech Republic,FALSE,1750,1558,1755,1553,5
-2010-09-07,UEFA Euro qualification,played,Czechia,CZE,Lithuania,,TRUE,0,1,loss,Olomouc,Czech Republic,FALSE,1755,1565,1721,1599,-34
-2010-10-08,UEFA Euro qualification,played,Czechia,CZE,Scotland,SCO,TRUE,1,0,win,Prague,Czech Republic,FALSE,1721,1672,1733,1660,12
-2010-10-12,UEFA Euro qualification,played,Czechia,CZE,Liechtenstein,,FALSE,2,0,win,Vaduz,Liechtenstein,FALSE,1733,1165,1737,1161,4
-2010-11-17,Friendly,played,Czechia,CZE,Denmark,DNK,FALSE,0,0,draw,Aarhus,Denmark,FALSE,1737,1736,1740,1733,3
-2011-02-09,Friendly,played,Czechia,CZE,Croatia,HRV,FALSE,2,4,loss,Pula,Croatia,FALSE,1740,1912,1735,1917,-5
-2011-03-25,UEFA Euro qualification,played,Czechia,CZE,Spain,ESP,FALSE,1,2,loss,Granada,Spain,FALSE,1735,2116,1733,2118,-2
-2011-03-29,UEFA Euro qualification,played,Czechia,CZE,Liechtenstein,,TRUE,2,0,win,České Budějovice,Czech Republic,FALSE,1733,1176,1734,1175,1
-2011-06-04,Kirin Cup,played,Czechia,CZE,Peru,PER,FALSE,0,0,draw,Matsumoto,Japan,TRUE,1734,1648,1730,1652,-4
-2011-06-07,Kirin Cup,played,Czechia,CZE,Japan,JPN,FALSE,0,0,draw,Yokohama,Japan,FALSE,1730,1829,1738,1821,8
-2011-08-10,Friendly,played,Czechia,CZE,Norway,NOR,FALSE,0,3,loss,Oslo,Norway,FALSE,1738,1779,1727,1790,-11
-2011-09-03,UEFA Euro qualification,played,Czechia,CZE,Scotland,SCO,FALSE,2,2,draw,Glasgow,Scotland,FALSE,1727,1689,1731,1685,4
-2011-09-06,Friendly,played,Czechia,CZE,Ukraine,UKR,TRUE,4,0,win,Prague,Czech Republic,FALSE,1731,1753,1746,1738,15
-2011-10-07,UEFA Euro qualification,played,Czechia,CZE,Spain,ESP,TRUE,0,2,loss,Prague,Czech Republic,FALSE,1746,2124,1736,2134,-10
-2011-10-11,UEFA Euro qualification,played,Czechia,CZE,Lithuania,,FALSE,4,1,win,Kaunas,Lithuania,FALSE,1736,1526,1760,1502,24
-2011-11-11,UEFA Euro qualification,played,Czechia,CZE,Montenegro,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1760,1668,1775,1653,15
-2011-11-15,UEFA Euro qualification,played,Czechia,CZE,Montenegro,,FALSE,1,0,win,Podgorica,Montenegro,FALSE,1775,1653,1794,1634,19
-2012-02-29,Friendly,played,Czechia,CZE,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
-2012-05-26,Friendly,played,Czechia,CZE,Israel,ISR,TRUE,2,1,win,Graz,Austria,TRUE,1797,1659,1803,1653,6
-2012-06-01,Friendly,played,Czechia,CZE,Hungary,HUN,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1803,1672,1787,1688,-16
-2012-06-08,UEFA Euro,played,Czechia,CZE,Russia,RUS,FALSE,1,4,loss,Wrocław,Poland,TRUE,1787,1849,1751,1885,-36
-2012-06-12,UEFA Euro,played,Czechia,CZE,Greece,GRC,FALSE,2,1,win,Wrocław,Poland,TRUE,1751,1781,1778,1754,27
-2012-06-16,UEFA Euro,played,Czechia,CZE,Poland,POL,FALSE,1,0,win,Wrocław,Poland,FALSE,1778,1722,1806,1694,28
-2012-06-21,UEFA Euro,played,Czechia,CZE,Portugal,PRT,TRUE,0,1,loss,Warsaw,Poland,TRUE,1806,1910,1788,1928,-18
-2012-08-15,Friendly,played,Czechia,CZE,Ukraine,UKR,FALSE,0,0,draw,Lviv,Ukraine,FALSE,1788,1728,1789,1727,1
-2012-09-08,FIFA World Cup qualification,played,Czechia,CZE,Denmark,DNK,FALSE,0,0,draw,Copenhagen,Denmark,FALSE,1789,1795,1795,1789,6
-2012-09-11,Friendly,played,Czechia,CZE,Finland,,TRUE,0,1,loss,Teplice,Czech Republic,FALSE,1795,1610,1778,1627,-17
-2012-10-12,FIFA World Cup qualification,played,Czechia,CZE,Malta,,TRUE,3,1,win,Plzeň,Czech Republic,FALSE,1778,1229,1779,1228,1
-2012-10-16,FIFA World Cup qualification,played,Czechia,CZE,Bulgaria,BGR,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1779,1662,1768,1673,-11
-2012-11-14,Friendly,played,Czechia,CZE,Slovakia,SVK,TRUE,3,0,win,Olomouc,Czech Republic,FALSE,1768,1607,1774,1601,6
-2013-02-06,Friendly,played,Czechia,CZE,Turkey,TUR,FALSE,2,0,win,Manisa,Turkey,FALSE,1774,1701,1790,1685,16
-2013-03-22,FIFA World Cup qualification,played,Czechia,CZE,Denmark,DNK,TRUE,0,3,loss,Olomouc,Czech Republic,FALSE,1790,1751,1742,1799,-48
-2013-03-26,FIFA World Cup qualification,played,Czechia,CZE,Armenia,,FALSE,3,0,win,Yerevan,Armenia,FALSE,1742,1522,1765,1499,23
-2013-06-07,FIFA World Cup qualification,played,Czechia,CZE,Italy,ITA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1765,1921,1768,1918,3
-2013-08-14,Friendly,played,Czechia,CZE,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,1768,1697,1769,1696,1
-2013-09-06,FIFA World Cup qualification,played,Czechia,CZE,Armenia,,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1769,1522,1734,1557,-35
-2013-09-10,FIFA World Cup qualification,played,Czechia,CZE,Italy,ITA,FALSE,1,2,loss,Turin,Italy,FALSE,1734,1925,1728,1931,-6
-2013-10-11,FIFA World Cup qualification,played,Czechia,CZE,Malta,,FALSE,4,1,win,Attard,Malta,FALSE,1728,1255,1735,1248,7
-2013-10-15,FIFA World Cup qualification,played,Czechia,CZE,Bulgaria,BGR,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1735,1663,1757,1641,22
-2013-11-15,Friendly,played,Czechia,CZE,Canada,CAN,TRUE,2,0,win,Olomouc,Czech Republic,FALSE,1757,1494,1760,1491,3
-2014-03-05,Friendly,played,Czechia,CZE,Norway,NOR,TRUE,2,2,draw,Prague,Czech Republic,FALSE,1760,1612,1754,1618,-6
-2014-05-21,Friendly,played,Czechia,CZE,Finland,,FALSE,2,2,draw,Helsinki,Finland,FALSE,1754,1685,1755,1684,1
-2014-06-03,Friendly,played,Czechia,CZE,Austria,AUT,TRUE,1,2,loss,Olomouc,Czech Republic,FALSE,1755,1660,1740,1675,-15
-2014-09-03,Friendly,played,Czechia,CZE,United States,USA,TRUE,0,1,loss,Prague,Czech Republic,FALSE,1740,1836,1730,1846,-10
-2014-09-09,UEFA Euro qualification,played,Czechia,CZE,Netherlands,NLD,TRUE,2,1,win,Prague,Czech Republic,FALSE,1730,2130,1764,2096,34
-2014-10-10,UEFA Euro qualification,played,Czechia,CZE,Turkey,TUR,FALSE,2,1,win,Istanbul,Turkey,FALSE,1764,1717,1787,1694,23
-2014-10-13,UEFA Euro qualification,played,Czechia,CZE,Kazakhstan,,FALSE,4,2,win,Astana,Kazakhstan,FALSE,1787,1366,1795,1358,8
-2014-11-16,UEFA Euro qualification,played,Czechia,CZE,Iceland,ISL,TRUE,2,1,win,Plzeň,Czech Republic,FALSE,1795,1670,1804,1661,9
-2015-03-28,UEFA Euro qualification,played,Czechia,CZE,Latvia,,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1804,1445,1787,1462,-17
-2015-03-31,Friendly,played,Czechia,CZE,Slovakia,SVK,FALSE,0,1,loss,Žilina,Slovakia,FALSE,1787,1752,1779,1760,-8
-2015-06-12,UEFA Euro qualification,played,Czechia,CZE,Iceland,ISL,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1779,1676,1759,1696,-20
-2015-09-03,UEFA Euro qualification,played,Czechia,CZE,Kazakhstan,,TRUE,2,1,win,Plzeň,Czech Republic,FALSE,1759,1341,1761,1339,2
-2015-09-06,UEFA Euro qualification,played,Czechia,CZE,Latvia,,FALSE,2,1,win,Riga,Latvia,FALSE,1761,1481,1771,1471,10
-2015-10-10,UEFA Euro qualification,played,Czechia,CZE,Turkey,TUR,TRUE,0,2,loss,Prague,Czech Republic,FALSE,1771,1755,1731,1795,-40
-2015-10-13,UEFA Euro qualification,played,Czechia,CZE,Netherlands,NLD,FALSE,3,2,win,Amsterdam,Netherlands,FALSE,1731,1924,1765,1890,34
-2015-11-13,Friendly,played,Czechia,CZE,Serbia,SRB,TRUE,4,1,win,Ostrava,Czech Republic,FALSE,1765,1726,1776,1715,11
-2015-11-17,Friendly,played,Czechia,CZE,Poland,POL,FALSE,1,3,loss,Wrocław,Poland,FALSE,1776,1761,1765,1772,-11
-2016-03-24,Friendly,played,Czechia,CZE,Scotland,SCO,TRUE,0,1,loss,Prague,Czech Republic,FALSE,1765,1698,1751,1712,-14
-2016-03-29,Friendly,played,Czechia,CZE,Sweden,SWE,FALSE,1,1,draw,Solna,Sweden,FALSE,1751,1762,1754,1759,3
-2016-05-27,Friendly,played,Czechia,CZE,Malta,,TRUE,6,0,win,Kufstein,Austria,TRUE,1754,1233,1756,1231,2
-2016-06-01,Friendly,played,Czechia,CZE,Russia,RUS,TRUE,2,1,win,Innsbruck,Austria,TRUE,1756,1769,1766,1759,10
-2016-06-05,Friendly,played,Czechia,CZE,South Korea,KOR,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1766,1785,1754,1797,-12
-2016-06-13,UEFA Euro,played,Czechia,CZE,Spain,ESP,FALSE,0,1,loss,Toulouse,France,TRUE,1754,1991,1744,2001,-10
-2016-06-17,UEFA Euro,played,Czechia,CZE,Croatia,HRV,TRUE,2,2,draw,Saint-Étienne,France,TRUE,1744,1844,1751,1837,7
-2016-06-21,UEFA Euro,played,Czechia,CZE,Turkey,TUR,TRUE,0,2,loss,Lens,France,TRUE,1751,1781,1717,1815,-34
-2016-08-31,Friendly,played,Czechia,CZE,Armenia,,TRUE,3,0,win,Mladá Boleslav,Czech Republic,FALSE,1717,1522,1722,1517,5
-2016-09-04,FIFA World Cup qualification,played,Czechia,CZE,Northern Ireland,NIR,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1722,1642,1712,1652,-10
-2016-10-08,FIFA World Cup qualification,played,Czechia,CZE,Germany,DEU,FALSE,0,3,loss,Hamburg,Germany,FALSE,1712,2027,1706,2033,-6
-2016-10-11,FIFA World Cup qualification,played,Czechia,CZE,Azerbaijan,,TRUE,0,0,draw,Ostrava,Czech Republic,FALSE,1706,1419,1690,1435,-16
-2016-11-11,FIFA World Cup qualification,played,Czechia,CZE,Norway,NOR,TRUE,2,1,win,Prague,Czech Republic,FALSE,1690,1585,1699,1576,9
-2016-11-15,Friendly,played,Czechia,CZE,Denmark,DNK,TRUE,1,1,draw,Mladá Boleslav,Czech Republic,FALSE,1699,1713,1697,1715,-2
-2017-03-22,Friendly,played,Czechia,CZE,Lithuania,,TRUE,3,0,win,Ústí nad Labem,Czech Republic,FALSE,1697,1463,1701,1459,4
-2017-03-26,FIFA World Cup qualification,played,Czechia,CZE,San Marino,,FALSE,6,0,win,Serravalle,San Marino,FALSE,1701,859,1702,858,1
-2017-06-05,Friendly,played,Czechia,CZE,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1702,1887,1699,1890,-3
-2017-06-10,FIFA World Cup qualification,played,Czechia,CZE,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1699,1560,1697,1562,-2
-2017-09-01,FIFA World Cup qualification,played,Czechia,CZE,Germany,DEU,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1697,2098,1691,2104,-6
-2017-09-04,FIFA World Cup qualification,played,Czechia,CZE,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1691,1682,1669,1704,-22
-2017-10-05,FIFA World Cup qualification,played,Czechia,CZE,Azerbaijan,,FALSE,2,1,win,Baku,Azerbaijan,FALSE,1669,1413,1681,1401,12
-2017-10-08,FIFA World Cup qualification,played,Czechia,CZE,San Marino,,TRUE,5,0,win,Plzeň,Czech Republic,FALSE,1681,852,1681,852,0
-2017-11-08,Friendly,played,Czechia,CZE,Iceland,ISL,FALSE,2,1,win,Doha,Qatar,TRUE,1681,1841,1702,1820,21
-2017-11-11,Friendly,played,Czechia,CZE,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1702,1476,1712,1466,10
-2018-03-23,Friendly,played,Czechia,CZE,Uruguay,URY,FALSE,0,2,loss,Nanning,China PR,TRUE,1712,1865,1699,1878,-13
-2018-03-26,Friendly,played,Czechia,CZE,China PR,,FALSE,4,1,win,Nanning,China PR,FALSE,,,,,
-2018-06-01,Friendly,played,Czechia,CZE,Australia,AUS,TRUE,0,4,loss,Sankt Pölten,Austria,TRUE,1721,1715,1702,1734,-19
-2018-06-06,Friendly,played,Czechia,CZE,Nigeria,NGA,TRUE,1,0,win,Schwechat,Austria,TRUE,1702,1691,1712,1681,10
-2018-09-06,UEFA Nations League,played,Czechia,CZE,Ukraine,UKR,TRUE,1,2,loss,Uherské Hradiště,Czech Republic,FALSE,1712,1750,1688,1774,-24
-2018-09-10,Friendly,played,Czechia,CZE,Russia,RUS,FALSE,1,5,loss,Rostov-on-Don,Russia,FALSE,1688,1745,1677,1756,-11
-2018-10-13,UEFA Nations League,played,Czechia,CZE,Slovakia,SVK,FALSE,2,1,win,Trnava,Slovakia,FALSE,1677,1757,1707,1727,30
-2018-10-16,UEFA Nations League,played,Czechia,CZE,Ukraine,UKR,FALSE,0,1,loss,Kharkiv,Ukraine,FALSE,1707,1793,1697,1803,-10
-2018-11-15,Friendly,played,Czechia,CZE,Poland,POL,FALSE,1,0,win,Gdańsk,Poland,FALSE,1697,1750,1711,1736,14
-2018-11-19,UEFA Nations League,played,Czechia,CZE,Slovakia,SVK,TRUE,1,0,win,Prague,Czech Republic,FALSE,1711,1764,1728,1747,17
-2019-03-22,UEFA Euro qualification,played,Czechia,CZE,England,ENG,FALSE,0,5,loss,London,England,FALSE,1728,1959,1718,1969,-10
-2019-03-26,Friendly,played,Czechia,CZE,Brazil,BRA,TRUE,1,3,loss,Prague,Czech Republic,FALSE,1718,2127,1714,2131,-4
-2019-06-07,UEFA Euro qualification,played,Czechia,CZE,Bulgaria,BGR,TRUE,2,1,win,Prague,Czech Republic,FALSE,1714,1619,1724,1609,10
-2019-06-10,UEFA Euro qualification,played,Czechia,CZE,Montenegro,,TRUE,3,0,win,Olomouc,Czech Republic,FALSE,1724,1574,1737,1561,13
-2019-09-07,UEFA Euro qualification,played,Czechia,CZE,Kosovo,,FALSE,1,2,loss,Pristina,Kosovo,FALSE,1737,1543,1712,1568,-25
-2019-09-10,UEFA Euro qualification,played,Czechia,CZE,Montenegro,,FALSE,3,0,win,Podgorica,Montenegro,FALSE,1712,1571,1743,1540,31
-2019-10-11,UEFA Euro qualification,played,Czechia,CZE,England,ENG,TRUE,2,1,win,Prague,Czech Republic,FALSE,1743,1948,1769,1922,26
-2019-10-14,Friendly,played,Czechia,CZE,Northern Ireland,NIR,TRUE,2,3,loss,Prague,Czech Republic,FALSE,1769,1658,1754,1673,-15
-2019-11-14,UEFA Euro qualification,played,Czechia,CZE,Kosovo,,TRUE,2,1,win,Plzeň,Czech Republic,FALSE,1754,1584,1761,1577,7
-2019-11-17,UEFA Euro qualification,played,Czechia,CZE,Bulgaria,BGR,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1761,1548,1735,1574,-26
-2020-09-04,UEFA Nations League,played,Czechia,CZE,Slovakia,SVK,FALSE,3,1,win,Bratislava,Slovakia,FALSE,1735,1734,1773,1696,38
-2020-09-07,UEFA Nations League,played,Czechia,CZE,Scotland,SCO,TRUE,1,2,loss,Olomouc,Czech Republic,FALSE,1773,1629,1741,1661,-32
-2020-10-07,Friendly,played,Czechia,CZE,Cyprus,,FALSE,2,1,win,Larnaca,Cyprus,FALSE,1741,1344,1744,1341,3
-2020-10-11,UEFA Nations League,played,Czechia,CZE,Israel,ISR,FALSE,2,1,win,Haifa,Israel,FALSE,1744,1562,1759,1547,15
-2020-10-14,UEFA Nations League,played,Czechia,CZE,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1759,1666,1739,1686,-20
-2020-11-11,Friendly,played,Czechia,CZE,Germany,DEU,FALSE,0,1,loss,Leipzig,Germany,FALSE,1739,1965,1736,1968,-3
-2020-11-15,UEFA Nations League,played,Czechia,CZE,Israel,ISR,TRUE,1,0,win,Plzeň,Czech Republic,FALSE,1736,1578,1743,1571,7
-2020-11-18,UEFA Nations League,played,Czechia,CZE,Slovakia,SVK,TRUE,2,0,win,Plzeň,Czech Republic,FALSE,1743,1681,1760,1664,17
-2021-03-24,FIFA World Cup qualification,played,Czechia,CZE,Estonia,,FALSE,6,2,win,Lublin,Poland,TRUE,1760,1382,1768,1374,8
-2021-03-27,FIFA World Cup qualification,played,Czechia,CZE,Belgium,BEL,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1768,2116,1780,2104,12
-2021-03-30,FIFA World Cup qualification,played,Czechia,CZE,Wales,WAL,FALSE,0,1,loss,Cardiff,Wales,FALSE,1780,1833,1768,1845,-12
-2021-06-04,Friendly,played,Czechia,CZE,Italy,ITA,FALSE,0,4,loss,Bologna,Italy,FALSE,1768,2008,1763,2013,-5
-2021-06-08,Friendly,played,Czechia,CZE,Albania,,TRUE,3,1,win,Prague,Czech Republic,FALSE,1763,1560,1767,1556,4
-2021-06-14,UEFA Euro,played,Czechia,CZE,Scotland,SCO,FALSE,2,0,win,Glasgow,Scotland,FALSE,1767,1678,1806,1639,39
-2021-06-18,UEFA Euro,played,Czechia,CZE,Croatia,HRV,FALSE,1,1,draw,Glasgow,Scotland,TRUE,1806,1816,1807,1815,1
-2021-06-22,UEFA Euro,played,Czechia,CZE,England,ENG,FALSE,0,1,loss,London,England,FALSE,1807,1968,1798,1977,-9
-2021-06-27,UEFA Euro,played,Czechia,CZE,Netherlands,NLD,FALSE,2,0,win,Budapest,Hungary,TRUE,1798,1976,1853,1921,55
-2021-07-03,UEFA Euro,played,Czechia,CZE,Denmark,DNK,TRUE,1,2,loss,Baku,Azerbaijan,TRUE,1853,1963,1836,1980,-17
-2021-09-02,FIFA World Cup qualification,played,Czechia,CZE,Belarus,,TRUE,1,0,win,Ostrava,Czech Republic,FALSE,1836,1491,1839,1488,3
-2021-09-05,FIFA World Cup qualification,played,Czechia,CZE,Belgium,BEL,FALSE,0,3,loss,Brussels,Belgium,FALSE,1839,2127,1832,2134,-7
-2021-09-08,Friendly,played,Czechia,CZE,Ukraine,UKR,TRUE,1,1,draw,Plzeň,Czech Republic,FALSE,1832,1789,1828,1793,-4
-2021-10-08,FIFA World Cup qualification,played,Czechia,CZE,Wales,WAL,TRUE,2,2,draw,Prague,Czech Republic,FALSE,1828,1808,1821,1815,-7
-2021-10-11,FIFA World Cup qualification,played,Czechia,CZE,Belarus,,FALSE,2,0,win,Kazan,Russia,TRUE,1821,1455,1828,1448,7
-2021-11-11,Friendly,played,Czechia,CZE,Kuwait,KWT,TRUE,7,0,win,Olomouc,Czech Republic,FALSE,1828,1374,1830,1372,2
-2021-11-16,FIFA World Cup qualification,played,Czechia,CZE,Estonia,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1830,1431,1833,1428,3
-2022-03-24,FIFA World Cup qualification,played,Czechia,CZE,Sweden,SWE,FALSE,0,1,loss,Stockholm,Sweden,FALSE,1833,1821,1818,1836,-15
-2022-03-29,Friendly,played,Czechia,CZE,Wales,WAL,FALSE,1,1,draw,Cardiff,Wales,FALSE,1818,1844,1821,1841,3
-2022-06-02,UEFA Nations League,played,Czechia,CZE,Switzerland,CHE,TRUE,2,1,win,Prague,Czech Republic,FALSE,1821,1919,1841,1899,20
-2022-06-05,UEFA Nations League,played,Czechia,CZE,Spain,ESP,TRUE,2,2,draw,Prague,Czech Republic,FALSE,1841,2030,1846,2025,5
-2022-06-09,UEFA Nations League,played,Czechia,CZE,Portugal,PRT,FALSE,0,2,loss,Lisbon,Portugal,FALSE,1846,2011,1835,2022,-11
-2022-06-12,UEFA Nations League,played,Czechia,CZE,Spain,ESP,FALSE,0,2,loss,Málaga,Spain,FALSE,1835,2042,1826,2051,-9
-2022-09-24,UEFA Nations League,played,Czechia,CZE,Portugal,PRT,TRUE,0,4,loss,Prague,Czech Republic,FALSE,1826,1999,1796,2029,-30
-2022-09-27,UEFA Nations League,played,Czechia,CZE,Switzerland,CHE,FALSE,1,2,loss,St. Gallen,Switzerland,FALSE,1796,1919,1787,1928,-9
-2022-11-16,Friendly,played,Czechia,CZE,Faroe Islands,,TRUE,5,0,win,Olomouc,Czech Republic,FALSE,1787,1302,1788,1301,1
-2022-11-19,Friendly,played,Czechia,CZE,Turkey,TUR,FALSE,1,2,loss,Gaziantep,Turkey,FALSE,1788,1701,1778,1711,-10
-2023-03-24,UEFA Euro qualification,played,Czechia,CZE,Poland,POL,TRUE,3,1,win,Prague,Czech Republic,FALSE,1778,1801,1801,1778,23
-2023-03-27,UEFA Euro qualification,played,Czechia,CZE,Moldova,,FALSE,0,0,draw,Chișinău,Moldova,FALSE,1801,1231,1784,1248,-17
-2023-06-17,UEFA Euro qualification,played,Czechia,CZE,Faroe Islands,,FALSE,3,0,win,Tórshavn,Faroe Islands,FALSE,1784,1306,1791,1299,7
-2023-06-20,Friendly,played,Czechia,CZE,Montenegro,,FALSE,4,1,win,Podgorica,Montenegro,FALSE,1791,1559,1802,1548,11
-2023-09-07,UEFA Euro qualification,played,Czechia,CZE,Albania,,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1802,1562,1787,1577,-15
-2023-09-10,Friendly,played,Czechia,CZE,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,1787,1848,1791,1844,4
-2023-10-12,UEFA Euro qualification,played,Czechia,CZE,Albania,,FALSE,0,3,loss,Tirana,Albania,FALSE,1791,1614,1748,1657,-43
-2023-10-15,UEFA Euro qualification,played,Czechia,CZE,Faroe Islands,,TRUE,1,0,win,Plzeň,Czech Republic,FALSE,1748,1248,1749,1247,1
-2023-11-17,UEFA Euro qualification,played,Czechia,CZE,Poland,POL,FALSE,1,1,draw,Warsaw,Poland,FALSE,1749,1711,1753,1707,4
-2023-11-20,UEFA Euro qualification,played,Czechia,CZE,Moldova,,TRUE,3,0,win,Olomouc,Czech Republic,FALSE,1753,1341,1756,1338,3
-2024-03-22,Friendly,played,Czechia,CZE,Norway,NOR,FALSE,2,1,win,Oslo,Norway,FALSE,1756,1755,1769,1742,13
-2024-03-26,Friendly,played,Czechia,CZE,Armenia,,TRUE,2,1,win,Prague,Czech Republic,FALSE,1769,1457,1771,1455,2
-2024-06-07,Friendly,played,Czechia,CZE,Malta,,TRUE,7,1,win,Grödig,Austria,TRUE,1771,1260,1773,1258,2
-2024-06-10,Friendly,played,Czechia,CZE,North Macedonia,,TRUE,2,1,win,Hradec Králové,Czech Republic,FALSE,1773,1549,1776,1546,3
-2024-06-18,UEFA Euro,played,Czechia,CZE,Portugal,PRT,FALSE,1,2,loss,Leipzig,Germany,TRUE,1776,2002,1765,2013,-11
-2024-06-22,UEFA Euro,played,Czechia,CZE,Georgia,,FALSE,1,1,draw,Hamburg,Germany,TRUE,1765,1637,1756,1646,-9
-2024-06-26,UEFA Euro,played,Czechia,CZE,Turkey,TUR,TRUE,1,2,loss,Hamburg,Germany,TRUE,1756,1759,1731,1784,-25
-2024-09-07,UEFA Nations League,played,Czechia,CZE,Georgia,,FALSE,1,4,loss,Tbilisi,Georgia,FALSE,1731,1704,1703,1732,-28
-2024-09-10,UEFA Nations League,played,Czechia,CZE,Ukraine,UKR,TRUE,3,2,win,Prague,Czech Republic,FALSE,1703,1786,1722,1767,19
-2024-10-11,UEFA Nations League,played,Czechia,CZE,Albania,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1722,1638,1737,1623,15
-2024-10-14,UEFA Nations League,played,Czechia,CZE,Ukraine,UKR,FALSE,1,1,draw,Wrocław,Poland,TRUE,1737,1786,1740,1783,3
-2024-11-16,UEFA Nations League,played,Czechia,CZE,Albania,,FALSE,0,0,draw,Tirana,Albania,FALSE,1740,1654,1741,1653,1
-2024-11-19,UEFA Nations League,played,Czechia,CZE,Georgia,,TRUE,2,1,win,Olomouc,Czech Republic,FALSE,1741,1703,1753,1691,12
-2025-03-22,FIFA World Cup qualification,played,Czechia,CZE,Faroe Islands,,TRUE,2,1,win,Hradec Králové,Czech Republic,FALSE,1753,1277,1754,1276,1
-2025-03-25,FIFA World Cup qualification,played,Czechia,CZE,Gibraltar,,FALSE,4,0,win,Faro-Loulé,Portugal,TRUE,1754,1053,1755,1052,1
-2025-06-06,FIFA World Cup qualification,played,Czechia,CZE,Montenegro,,TRUE,2,0,win,Plzeň,Czech Republic,FALSE,1755,1527,1763,1519,8
-2025-06-09,FIFA World Cup qualification,played,Czechia,CZE,Croatia,HRV,FALSE,1,5,loss,Osijek,Croatia,FALSE,1763,1912,1749,1926,-14
-2025-09-05,FIFA World Cup qualification,played,Czechia,CZE,Montenegro,,FALSE,2,0,win,Podgorica,Montenegro,FALSE,1749,1513,1768,1494,19
-2025-09-08,Friendly,played,Czechia,CZE,Saudi Arabia,SAU,TRUE,1,1,draw,Hradec Králové,Czech Republic,FALSE,1768,1580,1761,1587,-7
-2025-10-09,FIFA World Cup qualification,played,Czechia,CZE,Croatia,HRV,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1761,1931,1765,1927,4
-2025-10-12,FIFA World Cup qualification,played,Czechia,CZE,Faroe Islands,,FALSE,1,2,loss,Tórshavn,Faroe Islands,FALSE,1765,1335,1730,1370,-35
-2025-11-13,Friendly,played,Czechia,CZE,San Marino,,TRUE,1,0,win,Karviná,Czech Republic,FALSE,1730,833,1730,833,0
-2025-11-17,FIFA World Cup qualification,played,Czechia,CZE,Gibraltar,,TRUE,6,0,win,Olomouc,Czech Republic,FALSE,1730,1018,1731,1017,1
-2026-03-26,FIFA World Cup qualification,played,Czechia,CZE,Republic of Ireland,IRL,TRUE,2,2,draw,Prague,Czech Republic,FALSE,,,,,
-2026-03-31,FIFA World Cup qualification,played,Czechia,CZE,Denmark,DNK,TRUE,2,2,draw,Prague,Czech Republic,FALSE,1723,1873,1726,1870,3
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1994-02-23,Friendly,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,FALSE,4,1,win,Istanbul,Turkey,FALSE,1844,1593,1854,1583,10
+,,,1994-04-20,Friendly,played,Czechia,CZE,CZE,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,3,loss,Zürich,Switzerland,FALSE,1854,1871,1842,1883,-12
+,,,1994-05-25,Friendly,played,Czechia,CZE,CZE,UEFA,Lithuania,,,,TRUE,5,3,win,Ostrava,Czech Republic,FALSE,1842,1351,1843,1350,1
+,,,1994-06-05,Friendly,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1994-08-17,Friendly,played,Czechia,CZE,CZE,UEFA,France,FRA,FRA,UEFA,FALSE,2,2,draw,Bordeaux,France,FALSE,1864,1929,1868,1925,4
+,,,1994-09-06,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Malta,,,,TRUE,6,1,win,Ostrava,Czech Republic,FALSE,1868,1388,1871,1385,3
+,,,1994-10-12,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Malta,,,,FALSE,0,0,draw,Attard,Malta,FALSE,1871,1385,1855,1401,-16
+,,,1994-11-16,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,1855,1968,1866,1957,11
+,,,1995-03-08,Friendly,played,Czechia,CZE,CZE,UEFA,Finland,,,,TRUE,4,1,win,Brno,Czech Republic,FALSE,1866,1520,1868,1518,2
+,,,1995-03-29,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Belarus,,,,TRUE,4,2,win,Ostrava,Czech Republic,FALSE,1868,1414,1870,1412,2
+,,,1995-04-26,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,1,win,Prague,Czech Republic,FALSE,1870,1930,1897,1903,27
+,,,1995-05-08,Friendly,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,1,draw,Bratislava,Slovakia,FALSE,1897,1679,1894,1682,-3
+,,,1995-06-07,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Luxembourg,,,,FALSE,0,1,loss,Luxembourg,Luxembourg,FALSE,1894,1193,1855,1232,-39
+,,,1995-08-16,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1855,1882,1862,1875,7
+,,,1995-09-06,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,0,win,Prague,Czech Republic,FALSE,1862,1875,1885,1852,23
+,,,1995-10-07,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Belarus,,,,FALSE,2,0,win,Minsk,Belarus,FALSE,1885,1442,1892,1435,7
+,,,1995-11-15,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Luxembourg,,,,TRUE,3,0,win,Prague,Czech Republic,FALSE,1892,1259,1893,1258,1
+,,,1995-12-13,Friendly,played,Czechia,CZE,CZE,UEFA,Kuwait,KWT,KWT,AFC,FALSE,2,1,win,Kuwait City,Kuwait,FALSE,1893,1490,1896,1487,3
+,,,1996-03-26,Friendly,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Ostrava,Czech Republic,FALSE,1896,1761,1903,1754,7
+,,,1996-04-24,Friendly,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Prague,Czech Republic,FALSE,,,,,
+,,,1996-05-29,Friendly,played,Czechia,CZE,CZE,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,1,loss,Salzburg,Austria,FALSE,1908,1683,1895,1696,-13
+,,,1996-06-01,Friendly,played,Czechia,CZE,CZE,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,1,win,Basel,Switzerland,FALSE,1895,1814,1906,1803,11
+,,,1996-06-09,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Manchester,England,TRUE,1906,2035,1882,2059,-24
+,,,1996-06-14,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,1,win,Liverpool,England,TRUE,1882,2011,1916,1977,34
+,,,1996-06-19,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Russia,RUS,RUS,UEFA,FALSE,3,3,draw,Liverpool,England,TRUE,1916,1884,1914,1886,-2
+,,,1996-06-23,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Portugal,PRT,PRT,UEFA,TRUE,1,0,win,Birmingham,England,TRUE,1914,1940,1941,1913,27
+,,,1996-06-26,UEFA Euro,played,Czechia,CZE,CZE,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Manchester,England,TRUE,1941,2022,1947,2016,6
+,,,1996-06-30,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,London,England,TRUE,1947,2086,1932,2101,-15
+,,,1996-09-04,Friendly,played,Czechia,CZE,CZE,UEFA,Iceland,ISL,ISL,UEFA,TRUE,2,1,win,Jablonec nad Nisou,Czech Republic,FALSE,1932,1562,1933,1561,1
+,,,1996-09-18,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Malta,,,,TRUE,6,0,win,Teplice,Czech Republic,FALSE,1933,1297,1934,1296,1
+,,,1996-10-09,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1934,1999,1932,2001,-2
+,,,1996-11-10,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,1,loss,Belgrade,FR Yugoslavia,FALSE,,,,,
+,,,1996-12-11,King Hassan II Tournament,played,Czechia,CZE,CZE,UEFA,Nigeria,NGA,NGA,CAF,TRUE,2,1,win,Casablanca,Morocco,TRUE,1917,1793,1927,1783,10
+,,,1996-12-12,King Hassan II Tournament,played,Czechia,CZE,CZE,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,1,draw,Casablanca,Morocco,TRUE,1927,1887,1925,1889,-2
+,,,1997-03-12,Friendly,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,TRUE,2,1,win,Ostrava,Czech Republic,FALSE,1925,1669,1927,1667,2
+,,,1997-04-02,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,2,loss,Prague,Czech Republic,FALSE,,,,,
+,,,1997-06-08,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Valladolid,Spain,FALSE,1901,2027,1892,2036,-9
+,,,1997-08-20,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,TRUE,2,0,win,Teplice,Czech Republic,FALSE,1892,1236,1893,1235,1
+,,,1997-08-24,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,2,loss,Bratislava,Slovakia,FALSE,1893,1721,1869,1745,-24
+,,,1997-09-06,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,FALSE,2,0,win,Toftir,Faroe Islands,FALSE,1869,1235,1872,1232,3
+,,,1997-09-24,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Malta,,,,FALSE,1,0,win,Attard,Malta,FALSE,1872,1227,1874,1225,2
+,,,1997-10-11,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,3,0,win,Prague,Czech Republic,FALSE,1874,1741,1889,1726,15
+,,,1997-12-13,Confederations Cup,played,Czechia,CZE,CZE,UEFA,South Africa,ZAF,ZAF,CAF,FALSE,2,2,draw,Riyadh,Saudi Arabia,TRUE,1889,1716,1877,1728,-12
+,,,1997-12-15,Confederations Cup,played,Czechia,CZE,CZE,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1877,1743,1843,1777,-34
+,,,1997-12-17,Confederations Cup,played,Czechia,CZE,CZE,UEFA,United Arab Emirates,ARE,ARE,AFC,FALSE,6,1,win,Riyadh,Saudi Arabia,TRUE,1843,1561,1859,1545,16
+,,,1997-12-19,Confederations Cup,played,Czechia,CZE,CZE,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1859,2151,1847,2163,-12
+,,,1997-12-21,Confederations Cup,played,Czechia,CZE,CZE,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1847,1774,1867,1754,20
+,,,1998-03-25,Friendly,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Olomouc,Czech Republic,FALSE,,,,,
+,,,1998-04-22,Friendly,played,Czechia,CZE,CZE,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,3,1,win,Murska Sobota,Slovenia,FALSE,1871,1528,1877,1522,6
+,,,1998-05-21,Kirin Cup,played,Czechia,CZE,CZE,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,0,win,Kobe,Japan,TRUE,1877,1768,1887,1758,10
+,,,1998-05-24,Kirin Cup,played,Czechia,CZE,CZE,UEFA,Japan,JPN,JPN,AFC,FALSE,0,0,draw,Yokohama,Japan,FALSE,1887,1753,1886,1754,-1
+,,,1998-05-27,Friendly,played,Czechia,CZE,CZE,UEFA,South Korea,KOR,KOR,AFC,FALSE,2,2,draw,Seoul,South Korea,FALSE,1886,1754,1885,1755,-1
+,,,1998-08-19,Friendly,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Prague,Czech Republic,FALSE,1885,1882,1892,1875,7
+,,,1998-09-06,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,FALSE,1,0,win,Toftir,Faroe Islands,FALSE,1892,1196,1893,1195,1
+,,,1998-10-10,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,3,1,win,Sarajevo,Bosnia and Herzegovina,FALSE,1893,1608,1908,1593,15
+,,,1998-10-14,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Estonia,,,,TRUE,4,1,win,Teplice,Czech Republic,FALSE,1908,1225,1909,1224,1
+,,,1998-11-18,Friendly,played,Czechia,CZE,CZE,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,London,England,FALSE,1909,1936,1899,1946,-10
+,,,1999-02-09,Friendly,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,0,win,Brussels,Belgium,FALSE,1899,1804,1909,1794,10
+,,,1999-03-27,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Lithuania,,,,TRUE,2,0,win,Teplice,Czech Republic,FALSE,1909,1497,1912,1494,3
+,,,1999-03-31,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,1,win,Glasgow,Scotland,FALSE,1912,1712,1926,1698,14
+,,,1999-04-28,Friendly,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,FALSE,1,2,loss,Warsaw,Poland,FALSE,1926,1735,1913,1748,-13
+,,,1999-06-05,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Estonia,,,,FALSE,2,0,win,Tallinn,Estonia,FALSE,1913,1281,1916,1278,3
+,,,1999-06-09,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,2,win,Prague,Czech Republic,FALSE,1916,1699,1922,1693,6
+,,,1999-08-18,Friendly,played,Czechia,CZE,CZE,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,3,0,win,Drnovice,Czech Republic,FALSE,1922,1714,1927,1709,5
+,,,1999-09-04,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Lithuania,,,,FALSE,4,0,win,Vilnius,Lithuania,FALSE,1927,1482,1936,1473,9
+,,,1999-09-08,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,3,0,win,Teplice,Czech Republic,FALSE,1936,1529,1940,1525,4
+,,,1999-10-09,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1940,1185,1940,1185,0
+,,,1999-11-13,Friendly,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Eindhoven,Netherlands,FALSE,1940,1958,1943,1955,3
+,,,2000-02-08,Lunar New Year Cup,played,Czechia,CZE,CZE,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,2,1,win,So Kon Po,Hong Kong,TRUE,1943,1915,1957,1901,14
+,,,2000-02-23,Friendly,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2000-03-29,Friendly,played,Czechia,CZE,CZE,UEFA,Australia,AUS,AUS,AFC,TRUE,3,1,win,Teplice,Czech Republic,FALSE,1944,1745,1949,1740,5
+,,,2000-04-26,Friendly,played,Czechia,CZE,CZE,UEFA,Israel,ISR,ISR,UEFA,TRUE,4,1,win,Prague,Czech Republic,FALSE,1949,1682,1953,1678,4
+,,,2000-06-03,Friendly,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,FALSE,2,3,loss,Nuremberg,Germany,FALSE,1953,1879,1944,1888,-9
+,,,2000-06-11,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,1,loss,Amsterdam,Netherlands,FALSE,1944,1962,1927,1979,-17
+,,,2000-06-16,UEFA Euro,played,Czechia,CZE,CZE,UEFA,France,FRA,FRA,UEFA,TRUE,1,2,loss,Bruges,Belgium,TRUE,1927,2082,1912,2097,-15
+,,,2000-06-21,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,0,win,Liège,Belgium,TRUE,1912,1792,1937,1767,25
+,,,2000-08-16,Friendly,played,Czechia,CZE,CZE,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,0,1,loss,Ostrava,Czech Republic,FALSE,1937,1660,1919,1678,-18
+,,,2000-09-02,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1919,1649,1930,1638,11
+,,,2000-10-07,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Iceland,ISL,ISL,UEFA,TRUE,4,0,win,Teplice,Czech Republic,FALSE,1930,1594,1936,1588,6
+,,,2000-10-11,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Malta,,,,FALSE,0,0,draw,Attard,Malta,FALSE,1936,1220,1917,1239,-19
+,,,2001-02-28,Friendly,played,Czechia,CZE,CZE,UEFA,North Macedonia,,,,FALSE,1,1,draw,Skopje,North Macedonia,FALSE,1917,1526,1910,1533,-7
+,,,2001-03-24,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1910,1507,1916,1501,6
+,,,2001-03-28,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1916,1783,1904,1795,-12
+,,,2001-04-25,Friendly,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1904,1787,1898,1793,-6
+,,,2001-06-02,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1898,1802,1878,1822,-20
+,,,2001-06-06,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,1,win,Teplice,Czech Republic,FALSE,1878,1481,1881,1478,3
+,,,2001-08-15,Friendly,played,Czechia,CZE,CZE,UEFA,South Korea,KOR,KOR,AFC,TRUE,5,0,win,Drnovice,Czech Republic,FALSE,1881,1812,1892,1801,11
+,,,2001-09-01,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,3,loss,Reykjavík,Iceland,FALSE,1892,1611,1848,1655,-44
+,,,2001-09-05,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Malta,,,,TRUE,3,2,win,Teplice,Czech Republic,FALSE,1848,1202,1849,1201,1
+,,,2001-10-06,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,6,0,win,Prague,Czech Republic,FALSE,1849,1696,1865,1680,16
+,,,2001-11-10,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Brussels,Belgium,FALSE,1865,1786,1846,1805,-19
+,,,2001-11-14,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,1,loss,Prague,Czech Republic,FALSE,1846,1805,1818,1833,-28
+,,,2002-02-12,Cyprus International Tournament,played,Czechia,CZE,CZE,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,0,win,Larnaca,Cyprus,TRUE,1818,1602,1828,1592,10
+,,,2002-02-13,Cyprus International Tournament,played,Czechia,CZE,CZE,UEFA,Cyprus,,,,FALSE,4,3,win,Nicosia,Cyprus,FALSE,1828,1511,1835,1504,7
+,,,2002-03-27,Friendly,played,Czechia,CZE,CZE,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1835,1561,1830,1566,-5
+,,,2002-04-17,Friendly,played,Czechia,CZE,CZE,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,0,draw,Ioannina,Greece,FALSE,1830,1673,1828,1675,-2
+,,,2002-05-18,Friendly,played,Czechia,CZE,CZE,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,0,win,Prague,Czech Republic,FALSE,1828,2021,1841,2008,13
+,,,2002-08-21,Friendly,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,4,1,win,Olomouc,Czech Republic,FALSE,1841,1704,1848,1697,7
+,,,2002-09-06,Friendly,played,Czechia,CZE,CZE,UEFA,Serbia,SRB,SRB,UEFA,TRUE,5,0,win,Prague,Czech Republic,FALSE,,,,,
+,,,2002-10-12,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Moldova,,,,FALSE,2,0,win,Chișinău,Moldova,FALSE,1860,1351,1865,1346,5
+,,,2002-10-16,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Belarus,,,,TRUE,2,0,win,Teplice,Czech Republic,FALSE,1865,1558,1870,1553,5
+,,,2002-11-20,Friendly,played,Czechia,CZE,CZE,UEFA,Sweden,SWE,SWE,UEFA,TRUE,3,3,draw,Teplice,Czech Republic,FALSE,1870,1819,1866,1823,-4
+,,,2003-02-12,Friendly,played,Czechia,CZE,CZE,UEFA,France,FRA,FRA,UEFA,FALSE,2,0,win,Saint-Denis,France,FALSE,1866,1973,1889,1950,23
+,,,2003-03-29,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Rotterdam,Netherlands,FALSE,1889,2056,1902,2043,13
+,,,2003-04-02,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Austria,AUT,AUT,UEFA,TRUE,4,0,win,Prague,Czech Republic,FALSE,1902,1678,1912,1668,10
+,,,2003-04-30,Friendly,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,TRUE,4,0,win,Teplice,Czech Republic,FALSE,1912,1868,1923,1857,11
+,,,2003-06-11,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Moldova,,,,TRUE,5,0,win,Olomouc,Czech Republic,FALSE,1923,1392,1925,1390,2
+,,,2003-09-06,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Belarus,,,,FALSE,3,1,win,Minsk,Belarus,FALSE,1925,1552,1935,1542,10
+,,,2003-09-10,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,1,win,Prague,Czech Republic,FALSE,1935,2045,1966,2014,31
+,,,2003-10-11,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Austria,AUT,AUT,UEFA,FALSE,3,2,win,Vienna,Austria,FALSE,1966,1686,1976,1676,10
+,,,2003-11-15,Friendly,played,Czechia,CZE,CZE,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,5,1,win,Teplice,Czech Republic,FALSE,1976,1601,1978,1599,2
+,,,2004-02-18,Friendly,played,Czechia,CZE,CZE,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,2,draw,Palermo,Italy,FALSE,1978,1924,1979,1923,1
+,,,2004-03-31,Friendly,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2004-04-28,Friendly,played,Czechia,CZE,CZE,UEFA,Japan,JPN,JPN,AFC,TRUE,0,1,loss,Prague,Czech Republic,FALSE,1968,1775,1951,1792,-17
+,,,2004-06-02,Friendly,played,Czechia,CZE,CZE,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,1,win,Prague,Czech Republic,FALSE,1951,1763,1956,1758,5
+,,,2004-06-06,Friendly,played,Czechia,CZE,CZE,UEFA,Estonia,,,,TRUE,2,0,win,Teplice,Czech Republic,FALSE,1956,1391,1957,1390,1
+,,,2004-06-15,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Latvia,,,,TRUE,2,1,win,Aveiro,Portugal,TRUE,1957,1524,1961,1520,4
+,,,2004-06-19,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,FALSE,3,2,win,Aveiro,Portugal,TRUE,1961,1959,1986,1934,25
+,,,2004-06-23,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Lisbon,Portugal,TRUE,1986,1855,2002,1839,16
+,,,2004-06-27,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,TRUE,3,0,win,Porto,Portugal,TRUE,2002,1893,2032,1863,30
+,,,2004-07-01,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Porto,Portugal,TRUE,2032,1857,1995,1894,-37
+,,,2004-08-18,Friendly,played,Czechia,CZE,CZE,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1995,1928,1991,1932,-4
+,,,2004-09-08,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1991,1917,1963,1945,-28
+,,,2004-10-09,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,0,win,Prague,Czech Republic,FALSE,1963,1849,1972,1840,9
+,,,2004-10-13,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Armenia,,,,FALSE,3,0,win,Yerevan,Armenia,FALSE,1972,1416,1977,1411,5
+,,,2004-11-17,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,North Macedonia,,,,FALSE,2,0,win,Skopje,North Macedonia,FALSE,1977,1507,1983,1501,6
+,,,2005-02-09,Friendly,played,Czechia,CZE,CZE,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,3,0,win,Celje,Slovenia,FALSE,1983,1664,1991,1656,8
+,,,2005-03-26,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Finland,,,,TRUE,4,3,win,Teplice,Czech Republic,FALSE,1991,1727,1995,1723,4
+,,,2005-03-30,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Andorra,,,,FALSE,4,0,win,Sant Julià de Lòria,Andorra,FALSE,1995,1107,1996,1106,1
+,,,2005-06-04,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Andorra,,,,TRUE,8,1,win,Liberec,Czech Republic,FALSE,1996,1106,1996,1106,0
+,,,2005-06-08,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,North Macedonia,,,,TRUE,6,1,win,Teplice,Czech Republic,FALSE,1996,1496,1998,1494,2
+,,,2005-08-17,Friendly,played,Czechia,CZE,CZE,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,2,loss,Gothenburg,Sweden,FALSE,1998,1891,1988,1901,-10
+,,,2005-09-03,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,2,loss,Constanţa,Romania,FALSE,1988,1797,1950,1835,-38
+,,,2005-09-07,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Armenia,,,,TRUE,4,1,win,Olomouc,Czech Republic,FALSE,1950,1395,1952,1393,2
+,,,2005-10-08,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,2,loss,Prague,Czech Republic,FALSE,1952,2000,1918,2034,-34
+,,,2005-10-12,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Finland,,,,FALSE,3,0,win,Helsinki,Finland,FALSE,1918,1690,1941,1667,23
+,,,2005-11-12,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,0,win,Oslo,Norway,FALSE,1941,1791,1958,1774,17
+,,,2005-11-16,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,0,win,Prague,Czech Republic,FALSE,1958,1774,1965,1767,7
+,,,2006-03-01,Friendly,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,2,draw,İzmir,Turkey,FALSE,1965,1844,1964,1845,-1
+,,,2006-05-26,Friendly,played,Czechia,CZE,CZE,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,2,0,win,Innsbruck,Austria,TRUE,1964,1561,1967,1558,3
+,,,2006-05-30,Friendly,played,Czechia,CZE,CZE,UEFA,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Jablonec nad Nisou,Czech Republic,FALSE,1967,1726,1969,1724,2
+,,,2006-06-03,Friendly,played,Czechia,CZE,CZE,UEFA,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,0,win,Prague,Czech Republic,FALSE,1969,1568,1971,1566,2
+WC-2006,WC-2006_011,11,2006-06-12,FIFA World Cup,played,Czechia,CZE,CZE,UEFA,United States,USA,USA,CONCACAF,FALSE,3,0,win,Gelsenkirchen,Germany,TRUE,1971,1824,2003,1792,32
+WC-2006,WC-2006_024,24,2006-06-17,FIFA World Cup,played,Czechia,CZE,CZE,UEFA,Ghana,GHA,GHA,CAF,TRUE,0,2,loss,Cologne,Germany,TRUE,2003,1604,1921,1686,-82
+WC-2006,WC-2006_042,42,2006-06-22,FIFA World Cup,played,Czechia,CZE,CZE,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,2,loss,Hamburg,Germany,TRUE,1921,1942,1879,1984,-42
+,,,2006-08-16,Friendly,played,Czechia,CZE,CZE,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,3,loss,Uherské Hradiště,Czech Republic,FALSE,1879,1717,1854,1742,-25
+,,,2006-09-02,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,1,win,Teplice,Czech Republic,FALSE,1854,1605,1859,1600,5
+,,,2006-09-06,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,3,0,win,Bratislava,Slovakia,FALSE,1859,1708,1889,1678,30
+,,,2006-10-07,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,San Marino,,,,TRUE,7,0,win,Liberec,Czech Republic,FALSE,1889,938,1889,938,0
+,,,2006-10-11,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2006-11-15,Friendly,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1886,1900,1884,1902,-2
+,,,2007-02-07,Friendly,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,0,win,Brussels,Belgium,FALSE,1884,1672,1894,1662,10
+,,,2007-03-24,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1894,1982,1873,2003,-21
+,,,2007-03-28,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Cyprus,,,,TRUE,1,0,win,Liberec,Czech Republic,FALSE,1873,1483,1875,1481,2
+,,,2007-06-02,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1875,1568,1864,1579,-11
+,,,2007-08-22,Friendly,played,Czechia,CZE,CZE,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Vienna,Austria,FALSE,1864,1613,1860,1617,-4
+,,,2007-09-08,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,San Marino,,,,FALSE,3,0,win,Serravalle,San Marino,FALSE,1860,933,1861,932,1
+,,,2007-09-12,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Prague,Czech Republic,FALSE,,,,,
+,,,2007-10-17,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,FALSE,3,0,win,Munich,Germany,FALSE,1872,2012,1928,1956,56
+,,,2007-11-17,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,3,1,win,Prague,Czech Republic,FALSE,1928,1658,1934,1652,6
+,,,2007-11-21,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Cyprus,,,,FALSE,2,0,win,Nicosia,Cyprus,FALSE,1934,1542,1943,1533,9
+,,,2008-02-06,Friendly,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,TRUE,0,2,loss,Larnaca,Cyprus,TRUE,1943,1781,1911,1813,-32
+,,,2008-03-26,Friendly,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,1,draw,Herning,Denmark,FALSE,1911,1827,1911,1827,0
+,,,2008-05-27,Friendly,played,Czechia,CZE,CZE,UEFA,Lithuania,,,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1911,1583,1913,1581,2
+,,,2008-05-30,Friendly,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,1,win,Prague,Czech Republic,FALSE,1913,1759,1919,1753,6
+,,,2008-06-07,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Basel,Switzerland,FALSE,1919,1793,1942,1770,23
+,,,2008-06-11,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Portugal,PRT,PRT,UEFA,TRUE,1,3,loss,Geneva,Switzerland,TRUE,1942,1893,1899,1936,-43
+,,,2008-06-15,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,3,loss,Geneva,Switzerland,TRUE,1899,1811,1868,1842,-31
+,,,2008-08-20,Friendly,played,Czechia,CZE,CZE,UEFA,England,ENG,ENG,UEFA,FALSE,2,2,draw,London,England,FALSE,1868,1922,1872,1918,4
+,,,2008-09-10,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1872,1576,1862,1586,-10
+,,,2008-10-11,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,FALSE,1,2,loss,Chorzów,Poland,FALSE,1862,1725,1840,1747,-22
+,,,2008-10-15,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,1,0,win,Teplice,Czech Republic,FALSE,1840,1599,1845,1594,5
+,,,2008-11-19,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,San Marino,,,,FALSE,3,0,win,Serravalle,San Marino,FALSE,1845,922,1846,921,1
+,,,2009-02-11,Friendly,played,Czechia,CZE,CZE,UEFA,Morocco,MAR,MAR,CAF,FALSE,0,0,draw,Casablanca,Morocco,FALSE,1846,1661,1844,1663,-2
+,,,2009-03-28,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,0,0,draw,Maribor,Slovenia,FALSE,1844,1571,1835,1580,-9
+,,,2009-04-01,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1835,1604,1800,1639,-35
+,,,2009-06-05,Friendly,played,Czechia,CZE,CZE,UEFA,Malta,,,,TRUE,1,0,win,Jablonec nad Nisou,Czech Republic,FALSE,1800,1224,1800,1224,0
+,,,2009-08-12,Friendly,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,TRUE,3,1,win,Teplice,Czech Republic,FALSE,1800,1583,1804,1579,4
+,,,2009-09-05,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,2,2,draw,Bratislava,Slovakia,FALSE,1804,1637,1800,1641,-4
+,,,2009-09-09,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,San Marino,,,,TRUE,7,0,win,Uherské Hradiště,Czech Republic,FALSE,1800,915,1800,915,0
+,,,2009-10-10,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,TRUE,2,0,win,Prague,Czech Republic,FALSE,1800,1674,1813,1661,13
+,,,2009-10-14,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1813,1567,1798,1582,-15
+,,,2009-11-15,Friendly,played,Czechia,CZE,CZE,UEFA,United Arab Emirates,ARE,ARE,AFC,FALSE,0,0,draw,Al Ain,United Arab Emirates,FALSE,1798,1393,1787,1404,-11
+,,,2009-11-18,Friendly,played,Czechia,CZE,CZE,UEFA,Azerbaijan,,,,FALSE,0,2,loss,Al Ain,United Arab Emirates,TRUE,1787,1379,1746,1420,-41
+,,,2010-03-03,Friendly,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1746,1670,1737,1679,-9
+,,,2010-05-22,Friendly,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,2,loss,Harrison,United States,TRUE,1737,1794,1729,1802,-8
+,,,2010-05-25,Friendly,played,Czechia,CZE,CZE,UEFA,United States,USA,USA,CONCACAF,FALSE,4,2,win,East Hartford,United States,FALSE,1729,1780,1750,1759,21
+,,,2010-08-11,Friendly,played,Czechia,CZE,CZE,UEFA,Latvia,,,,TRUE,4,1,win,Liberec,Czech Republic,FALSE,1750,1558,1755,1553,5
+,,,2010-09-07,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Lithuania,,,,TRUE,0,1,loss,Olomouc,Czech Republic,FALSE,1755,1565,1721,1599,-34
+,,,2010-10-08,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,Prague,Czech Republic,FALSE,1721,1672,1733,1660,12
+,,,2010-10-12,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Liechtenstein,,,,FALSE,2,0,win,Vaduz,Liechtenstein,FALSE,1733,1165,1737,1161,4
+,,,2010-11-17,Friendly,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,0,draw,Aarhus,Denmark,FALSE,1737,1736,1740,1733,3
+,,,2011-02-09,Friendly,played,Czechia,CZE,CZE,UEFA,Croatia,HRV,HRV,UEFA,FALSE,2,4,loss,Pula,Croatia,FALSE,1740,1912,1735,1917,-5
+,,,2011-03-25,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,2,loss,Granada,Spain,FALSE,1735,2116,1733,2118,-2
+,,,2011-03-29,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Liechtenstein,,,,TRUE,2,0,win,České Budějovice,Czech Republic,FALSE,1733,1176,1734,1175,1
+,,,2011-06-04,Kirin Cup,played,Czechia,CZE,CZE,UEFA,Peru,PER,PER,CONMEBOL,FALSE,0,0,draw,Matsumoto,Japan,TRUE,1734,1648,1730,1652,-4
+,,,2011-06-07,Kirin Cup,played,Czechia,CZE,CZE,UEFA,Japan,JPN,JPN,AFC,FALSE,0,0,draw,Yokohama,Japan,FALSE,1730,1829,1738,1821,8
+,,,2011-08-10,Friendly,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,3,loss,Oslo,Norway,FALSE,1738,1779,1727,1790,-11
+,,,2011-09-03,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,2,draw,Glasgow,Scotland,FALSE,1727,1689,1731,1685,4
+,,,2011-09-06,Friendly,played,Czechia,CZE,CZE,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,4,0,win,Prague,Czech Republic,FALSE,1731,1753,1746,1738,15
+,,,2011-10-07,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,2,loss,Prague,Czech Republic,FALSE,1746,2124,1736,2134,-10
+,,,2011-10-11,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Lithuania,,,,FALSE,4,1,win,Kaunas,Lithuania,FALSE,1736,1526,1760,1502,24
+,,,2011-11-11,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Montenegro,,,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1760,1668,1775,1653,15
+,,,2011-11-15,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Montenegro,,,,FALSE,1,0,win,Podgorica,Montenegro,FALSE,1775,1653,1794,1634,19
+,,,2012-02-29,Friendly,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2012-05-26,Friendly,played,Czechia,CZE,CZE,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,1,win,Graz,Austria,TRUE,1797,1659,1803,1653,6
+,,,2012-06-01,Friendly,played,Czechia,CZE,CZE,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1803,1672,1787,1688,-16
+,,,2012-06-08,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Russia,RUS,RUS,UEFA,FALSE,1,4,loss,Wrocław,Poland,TRUE,1787,1849,1751,1885,-36
+,,,2012-06-12,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,1,win,Wrocław,Poland,TRUE,1751,1781,1778,1754,27
+,,,2012-06-16,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,FALSE,1,0,win,Wrocław,Poland,FALSE,1778,1722,1806,1694,28
+,,,2012-06-21,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,1,loss,Warsaw,Poland,TRUE,1806,1910,1788,1928,-18
+,,,2012-08-15,Friendly,played,Czechia,CZE,CZE,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,0,draw,Lviv,Ukraine,FALSE,1788,1728,1789,1727,1
+,,,2012-09-08,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,0,draw,Copenhagen,Denmark,FALSE,1789,1795,1795,1789,6
+,,,2012-09-11,Friendly,played,Czechia,CZE,CZE,UEFA,Finland,,,,TRUE,0,1,loss,Teplice,Czech Republic,FALSE,1795,1610,1778,1627,-17
+,,,2012-10-12,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Malta,,,,TRUE,3,1,win,Plzeň,Czech Republic,FALSE,1778,1229,1779,1228,1
+,,,2012-10-16,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1779,1662,1768,1673,-11
+,,,2012-11-14,Friendly,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,3,0,win,Olomouc,Czech Republic,FALSE,1768,1607,1774,1601,6
+,,,2013-02-06,Friendly,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,0,win,Manisa,Turkey,FALSE,1774,1701,1790,1685,16
+,,,2013-03-22,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,3,loss,Olomouc,Czech Republic,FALSE,1790,1751,1742,1799,-48
+,,,2013-03-26,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Armenia,,,,FALSE,3,0,win,Yerevan,Armenia,FALSE,1742,1522,1765,1499,23
+,,,2013-06-07,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1765,1921,1768,1918,3
+,,,2013-08-14,Friendly,played,Czechia,CZE,CZE,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,1768,1697,1769,1696,1
+,,,2013-09-06,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Armenia,,,,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1769,1522,1734,1557,-35
+,,,2013-09-10,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,2,loss,Turin,Italy,FALSE,1734,1925,1728,1931,-6
+,,,2013-10-11,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Malta,,,,FALSE,4,1,win,Attard,Malta,FALSE,1728,1255,1735,1248,7
+,,,2013-10-15,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1735,1663,1757,1641,22
+,,,2013-11-15,Friendly,played,Czechia,CZE,CZE,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,2,0,win,Olomouc,Czech Republic,FALSE,1757,1494,1760,1491,3
+,,,2014-03-05,Friendly,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,2,draw,Prague,Czech Republic,FALSE,1760,1612,1754,1618,-6
+,,,2014-05-21,Friendly,played,Czechia,CZE,CZE,UEFA,Finland,,,,FALSE,2,2,draw,Helsinki,Finland,FALSE,1754,1685,1755,1684,1
+,,,2014-06-03,Friendly,played,Czechia,CZE,CZE,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,2,loss,Olomouc,Czech Republic,FALSE,1755,1660,1740,1675,-15
+,,,2014-09-03,Friendly,played,Czechia,CZE,CZE,UEFA,United States,USA,USA,CONCACAF,TRUE,0,1,loss,Prague,Czech Republic,FALSE,1740,1836,1730,1846,-10
+,,,2014-09-09,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,1,win,Prague,Czech Republic,FALSE,1730,2130,1764,2096,34
+,,,2014-10-10,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,1,win,Istanbul,Turkey,FALSE,1764,1717,1787,1694,23
+,,,2014-10-13,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Kazakhstan,,,,FALSE,4,2,win,Astana,Kazakhstan,FALSE,1787,1366,1795,1358,8
+,,,2014-11-16,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Iceland,ISL,ISL,UEFA,TRUE,2,1,win,Plzeň,Czech Republic,FALSE,1795,1670,1804,1661,9
+,,,2015-03-28,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Latvia,,,,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1804,1445,1787,1462,-17
+,,,2015-03-31,Friendly,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,0,1,loss,Žilina,Slovakia,FALSE,1787,1752,1779,1760,-8
+,,,2015-06-12,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1779,1676,1759,1696,-20
+,,,2015-09-03,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Kazakhstan,,,,TRUE,2,1,win,Plzeň,Czech Republic,FALSE,1759,1341,1761,1339,2
+,,,2015-09-06,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Latvia,,,,FALSE,2,1,win,Riga,Latvia,FALSE,1761,1481,1771,1471,10
+,,,2015-10-10,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,2,loss,Prague,Czech Republic,FALSE,1771,1755,1731,1795,-40
+,,,2015-10-13,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,FALSE,3,2,win,Amsterdam,Netherlands,FALSE,1731,1924,1765,1890,34
+,,,2015-11-13,Friendly,played,Czechia,CZE,CZE,UEFA,Serbia,SRB,SRB,UEFA,TRUE,4,1,win,Ostrava,Czech Republic,FALSE,1765,1726,1776,1715,11
+,,,2015-11-17,Friendly,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,FALSE,1,3,loss,Wrocław,Poland,FALSE,1776,1761,1765,1772,-11
+,,,2016-03-24,Friendly,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Prague,Czech Republic,FALSE,1765,1698,1751,1712,-14
+,,,2016-03-29,Friendly,played,Czechia,CZE,CZE,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Solna,Sweden,FALSE,1751,1762,1754,1759,3
+,,,2016-05-27,Friendly,played,Czechia,CZE,CZE,UEFA,Malta,,,,TRUE,6,0,win,Kufstein,Austria,TRUE,1754,1233,1756,1231,2
+,,,2016-06-01,Friendly,played,Czechia,CZE,CZE,UEFA,Russia,RUS,RUS,UEFA,TRUE,2,1,win,Innsbruck,Austria,TRUE,1756,1769,1766,1759,10
+,,,2016-06-05,Friendly,played,Czechia,CZE,CZE,UEFA,South Korea,KOR,KOR,AFC,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1766,1785,1754,1797,-12
+,,,2016-06-13,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Toulouse,France,TRUE,1754,1991,1744,2001,-10
+,,,2016-06-17,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Croatia,HRV,HRV,UEFA,TRUE,2,2,draw,Saint-Étienne,France,TRUE,1744,1844,1751,1837,7
+,,,2016-06-21,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,2,loss,Lens,France,TRUE,1751,1781,1717,1815,-34
+,,,2016-08-31,Friendly,played,Czechia,CZE,CZE,UEFA,Armenia,,,,TRUE,3,0,win,Mladá Boleslav,Czech Republic,FALSE,1717,1522,1722,1517,5
+,,,2016-09-04,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1722,1642,1712,1652,-10
+,,,2016-10-08,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Hamburg,Germany,FALSE,1712,2027,1706,2033,-6
+,,,2016-10-11,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Azerbaijan,,,,TRUE,0,0,draw,Ostrava,Czech Republic,FALSE,1706,1419,1690,1435,-16
+,,,2016-11-11,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,1,win,Prague,Czech Republic,FALSE,1690,1585,1699,1576,9
+,,,2016-11-15,Friendly,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,1,draw,Mladá Boleslav,Czech Republic,FALSE,1699,1713,1697,1715,-2
+,,,2017-03-22,Friendly,played,Czechia,CZE,CZE,UEFA,Lithuania,,,,TRUE,3,0,win,Ústí nad Labem,Czech Republic,FALSE,1697,1463,1701,1459,4
+,,,2017-03-26,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,San Marino,,,,FALSE,6,0,win,Serravalle,San Marino,FALSE,1701,859,1702,858,1
+,,,2017-06-05,Friendly,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,2,loss,Brussels,Belgium,FALSE,1702,1887,1699,1890,-3
+,,,2017-06-10,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1699,1560,1697,1562,-2
+,,,2017-09-01,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Prague,Czech Republic,FALSE,1697,2098,1691,2104,-6
+,,,2017-09-04,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1691,1682,1669,1704,-22
+,,,2017-10-05,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Azerbaijan,,,,FALSE,2,1,win,Baku,Azerbaijan,FALSE,1669,1413,1681,1401,12
+,,,2017-10-08,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,San Marino,,,,TRUE,5,0,win,Plzeň,Czech Republic,FALSE,1681,852,1681,852,0
+,,,2017-11-08,Friendly,played,Czechia,CZE,CZE,UEFA,Iceland,ISL,ISL,UEFA,FALSE,2,1,win,Doha,Qatar,TRUE,1681,1841,1702,1820,21
+,,,2017-11-11,Friendly,played,Czechia,CZE,CZE,UEFA,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Doha,Qatar,FALSE,1702,1476,1712,1466,10
+,,,2018-03-23,Friendly,played,Czechia,CZE,CZE,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,0,2,loss,Nanning,China PR,TRUE,1712,1865,1699,1878,-13
+,,,2018-03-26,Friendly,played,Czechia,CZE,CZE,UEFA,China PR,,,,FALSE,4,1,win,Nanning,China PR,FALSE,,,,,
+,,,2018-06-01,Friendly,played,Czechia,CZE,CZE,UEFA,Australia,AUS,AUS,AFC,TRUE,0,4,loss,Sankt Pölten,Austria,TRUE,1721,1715,1702,1734,-19
+,,,2018-06-06,Friendly,played,Czechia,CZE,CZE,UEFA,Nigeria,NGA,NGA,CAF,TRUE,1,0,win,Schwechat,Austria,TRUE,1702,1691,1712,1681,10
+,,,2018-09-06,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,2,loss,Uherské Hradiště,Czech Republic,FALSE,1712,1750,1688,1774,-24
+,,,2018-09-10,Friendly,played,Czechia,CZE,CZE,UEFA,Russia,RUS,RUS,UEFA,FALSE,1,5,loss,Rostov-on-Don,Russia,FALSE,1688,1745,1677,1756,-11
+,,,2018-10-13,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,2,1,win,Trnava,Slovakia,FALSE,1677,1757,1707,1727,30
+,,,2018-10-16,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,1,loss,Kharkiv,Ukraine,FALSE,1707,1793,1697,1803,-10
+,,,2018-11-15,Friendly,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,FALSE,1,0,win,Gdańsk,Poland,FALSE,1697,1750,1711,1736,14
+,,,2018-11-19,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,0,win,Prague,Czech Republic,FALSE,1711,1764,1728,1747,17
+,,,2019-03-22,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,England,ENG,ENG,UEFA,FALSE,0,5,loss,London,England,FALSE,1728,1959,1718,1969,-10
+,,,2019-03-26,Friendly,played,Czechia,CZE,CZE,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,3,loss,Prague,Czech Republic,FALSE,1718,2127,1714,2131,-4
+,,,2019-06-07,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,1,win,Prague,Czech Republic,FALSE,1714,1619,1724,1609,10
+,,,2019-06-10,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Montenegro,,,,TRUE,3,0,win,Olomouc,Czech Republic,FALSE,1724,1574,1737,1561,13
+,,,2019-09-07,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Kosovo,,,,FALSE,1,2,loss,Pristina,Kosovo,FALSE,1737,1543,1712,1568,-25
+,,,2019-09-10,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Montenegro,,,,FALSE,3,0,win,Podgorica,Montenegro,FALSE,1712,1571,1743,1540,31
+,,,2019-10-11,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,England,ENG,ENG,UEFA,TRUE,2,1,win,Prague,Czech Republic,FALSE,1743,1948,1769,1922,26
+,,,2019-10-14,Friendly,played,Czechia,CZE,CZE,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,3,loss,Prague,Czech Republic,FALSE,1769,1658,1754,1673,-15
+,,,2019-11-14,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Kosovo,,,,TRUE,2,1,win,Plzeň,Czech Republic,FALSE,1754,1584,1761,1577,7
+,,,2019-11-17,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1761,1548,1735,1574,-26
+,,,2020-09-04,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,3,1,win,Bratislava,Slovakia,FALSE,1735,1734,1773,1696,38
+,,,2020-09-07,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,2,loss,Olomouc,Czech Republic,FALSE,1773,1629,1741,1661,-32
+,,,2020-10-07,Friendly,played,Czechia,CZE,CZE,UEFA,Cyprus,,,,FALSE,2,1,win,Larnaca,Cyprus,FALSE,1741,1344,1744,1341,3
+,,,2020-10-11,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,1,win,Haifa,Israel,FALSE,1744,1562,1759,1547,15
+,,,2020-10-14,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1759,1666,1739,1686,-20
+,,,2020-11-11,Friendly,played,Czechia,CZE,CZE,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Leipzig,Germany,FALSE,1739,1965,1736,1968,-3
+,,,2020-11-15,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Israel,ISR,ISR,UEFA,TRUE,1,0,win,Plzeň,Czech Republic,FALSE,1736,1578,1743,1571,7
+,,,2020-11-18,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,0,win,Plzeň,Czech Republic,FALSE,1743,1681,1760,1664,17
+,,,2021-03-24,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Estonia,,,,FALSE,6,2,win,Lublin,Poland,TRUE,1760,1382,1768,1374,8
+,,,2021-03-27,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1768,2116,1780,2104,12
+,,,2021-03-30,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,1,loss,Cardiff,Wales,FALSE,1780,1833,1768,1845,-12
+,,,2021-06-04,Friendly,played,Czechia,CZE,CZE,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,4,loss,Bologna,Italy,FALSE,1768,2008,1763,2013,-5
+,,,2021-06-08,Friendly,played,Czechia,CZE,CZE,UEFA,Albania,,,,TRUE,3,1,win,Prague,Czech Republic,FALSE,1763,1560,1767,1556,4
+,,,2021-06-14,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,0,win,Glasgow,Scotland,FALSE,1767,1678,1806,1639,39
+,,,2021-06-18,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,1,draw,Glasgow,Scotland,TRUE,1806,1816,1807,1815,1
+,,,2021-06-22,UEFA Euro,played,Czechia,CZE,CZE,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1807,1968,1798,1977,-9
+,,,2021-06-27,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,0,win,Budapest,Hungary,TRUE,1798,1976,1853,1921,55
+,,,2021-07-03,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,2,loss,Baku,Azerbaijan,TRUE,1853,1963,1836,1980,-17
+,,,2021-09-02,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Belarus,,,,TRUE,1,0,win,Ostrava,Czech Republic,FALSE,1836,1491,1839,1488,3
+,,,2021-09-05,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,3,loss,Brussels,Belgium,FALSE,1839,2127,1832,2134,-7
+,,,2021-09-08,Friendly,played,Czechia,CZE,CZE,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,1,draw,Plzeň,Czech Republic,FALSE,1832,1789,1828,1793,-4
+,,,2021-10-08,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,2,draw,Prague,Czech Republic,FALSE,1828,1808,1821,1815,-7
+,,,2021-10-11,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Belarus,,,,FALSE,2,0,win,Kazan,Russia,TRUE,1821,1455,1828,1448,7
+,,,2021-11-11,Friendly,played,Czechia,CZE,CZE,UEFA,Kuwait,KWT,KWT,AFC,TRUE,7,0,win,Olomouc,Czech Republic,FALSE,1828,1374,1830,1372,2
+,,,2021-11-16,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Estonia,,,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1830,1431,1833,1428,3
+,,,2022-03-24,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,1,loss,Stockholm,Sweden,FALSE,1833,1821,1818,1836,-15
+,,,2022-03-29,Friendly,played,Czechia,CZE,CZE,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,1,draw,Cardiff,Wales,FALSE,1818,1844,1821,1841,3
+,,,2022-06-02,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,1,win,Prague,Czech Republic,FALSE,1821,1919,1841,1899,20
+,,,2022-06-05,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,2,draw,Prague,Czech Republic,FALSE,1841,2030,1846,2025,5
+,,,2022-06-09,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,2,loss,Lisbon,Portugal,FALSE,1846,2011,1835,2022,-11
+,,,2022-06-12,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Málaga,Spain,FALSE,1835,2042,1826,2051,-9
+,,,2022-09-24,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,4,loss,Prague,Czech Republic,FALSE,1826,1999,1796,2029,-30
+,,,2022-09-27,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,2,loss,St. Gallen,Switzerland,FALSE,1796,1919,1787,1928,-9
+,,,2022-11-16,Friendly,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,TRUE,5,0,win,Olomouc,Czech Republic,FALSE,1787,1302,1788,1301,1
+,,,2022-11-19,Friendly,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,2,loss,Gaziantep,Turkey,FALSE,1788,1701,1778,1711,-10
+,,,2023-03-24,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,TRUE,3,1,win,Prague,Czech Republic,FALSE,1778,1801,1801,1778,23
+,,,2023-03-27,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Moldova,,,,FALSE,0,0,draw,Chișinău,Moldova,FALSE,1801,1231,1784,1248,-17
+,,,2023-06-17,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,FALSE,3,0,win,Tórshavn,Faroe Islands,FALSE,1784,1306,1791,1299,7
+,,,2023-06-20,Friendly,played,Czechia,CZE,CZE,UEFA,Montenegro,,,,FALSE,4,1,win,Podgorica,Montenegro,FALSE,1791,1559,1802,1548,11
+,,,2023-09-07,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Albania,,,,TRUE,1,1,draw,Prague,Czech Republic,FALSE,1802,1562,1787,1577,-15
+,,,2023-09-10,Friendly,played,Czechia,CZE,CZE,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,1787,1848,1791,1844,4
+,,,2023-10-12,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Albania,,,,FALSE,0,3,loss,Tirana,Albania,FALSE,1791,1614,1748,1657,-43
+,,,2023-10-15,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,TRUE,1,0,win,Plzeň,Czech Republic,FALSE,1748,1248,1749,1247,1
+,,,2023-11-17,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Poland,POL,POL,UEFA,FALSE,1,1,draw,Warsaw,Poland,FALSE,1749,1711,1753,1707,4
+,,,2023-11-20,UEFA Euro qualification,played,Czechia,CZE,CZE,UEFA,Moldova,,,,TRUE,3,0,win,Olomouc,Czech Republic,FALSE,1753,1341,1756,1338,3
+,,,2024-03-22,Friendly,played,Czechia,CZE,CZE,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,1,win,Oslo,Norway,FALSE,1756,1755,1769,1742,13
+,,,2024-03-26,Friendly,played,Czechia,CZE,CZE,UEFA,Armenia,,,,TRUE,2,1,win,Prague,Czech Republic,FALSE,1769,1457,1771,1455,2
+,,,2024-06-07,Friendly,played,Czechia,CZE,CZE,UEFA,Malta,,,,TRUE,7,1,win,Grödig,Austria,TRUE,1771,1260,1773,1258,2
+,,,2024-06-10,Friendly,played,Czechia,CZE,CZE,UEFA,North Macedonia,,,,TRUE,2,1,win,Hradec Králové,Czech Republic,FALSE,1773,1549,1776,1546,3
+,,,2024-06-18,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,2,loss,Leipzig,Germany,TRUE,1776,2002,1765,2013,-11
+,,,2024-06-22,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Georgia,,,,FALSE,1,1,draw,Hamburg,Germany,TRUE,1765,1637,1756,1646,-9
+,,,2024-06-26,UEFA Euro,played,Czechia,CZE,CZE,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,2,loss,Hamburg,Germany,TRUE,1756,1759,1731,1784,-25
+,,,2024-09-07,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Georgia,,,,FALSE,1,4,loss,Tbilisi,Georgia,FALSE,1731,1704,1703,1732,-28
+,,,2024-09-10,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,3,2,win,Prague,Czech Republic,FALSE,1703,1786,1722,1767,19
+,,,2024-10-11,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Albania,,,,TRUE,2,0,win,Prague,Czech Republic,FALSE,1722,1638,1737,1623,15
+,,,2024-10-14,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,1,1,draw,Wrocław,Poland,TRUE,1737,1786,1740,1783,3
+,,,2024-11-16,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Albania,,,,FALSE,0,0,draw,Tirana,Albania,FALSE,1740,1654,1741,1653,1
+,,,2024-11-19,UEFA Nations League,played,Czechia,CZE,CZE,UEFA,Georgia,,,,TRUE,2,1,win,Olomouc,Czech Republic,FALSE,1741,1703,1753,1691,12
+,,,2025-03-22,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,TRUE,2,1,win,Hradec Králové,Czech Republic,FALSE,1753,1277,1754,1276,1
+,,,2025-03-25,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Gibraltar,,,,FALSE,4,0,win,Faro-Loulé,Portugal,TRUE,1754,1053,1755,1052,1
+,,,2025-06-06,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Montenegro,,,,TRUE,2,0,win,Plzeň,Czech Republic,FALSE,1755,1527,1763,1519,8
+,,,2025-06-09,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,5,loss,Osijek,Croatia,FALSE,1763,1912,1749,1926,-14
+,,,2025-09-05,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Montenegro,,,,FALSE,2,0,win,Podgorica,Montenegro,FALSE,1749,1513,1768,1494,19
+,,,2025-09-08,Friendly,played,Czechia,CZE,CZE,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,1,1,draw,Hradec Králové,Czech Republic,FALSE,1768,1580,1761,1587,-7
+,,,2025-10-09,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,0,draw,Prague,Czech Republic,FALSE,1761,1931,1765,1927,4
+,,,2025-10-12,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Faroe Islands,,,,FALSE,1,2,loss,Tórshavn,Faroe Islands,FALSE,1765,1335,1730,1370,-35
+,,,2025-11-13,Friendly,played,Czechia,CZE,CZE,UEFA,San Marino,,,,TRUE,1,0,win,Karviná,Czech Republic,FALSE,1730,833,1730,833,0
+,,,2025-11-17,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Gibraltar,,,,TRUE,6,0,win,Olomouc,Czech Republic,FALSE,1730,1018,1731,1017,1
+,,,2026-03-26,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Prague,Czech Republic,FALSE,,,,,
+,,,2026-03-31,FIFA World Cup qualification,played,Czechia,CZE,CZE,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,2,draw,Prague,Czech Republic,FALSE,1723,1873,1726,1870,3

@@ -1,7 +1,7 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2022 FIFA Men's World Cup,WC-2022,2022,1,2022-11-20,Group Stage,played,Qatar,QAT,Ecuador,ECU,TRUE,Al Khor,Qatar,FALSE,1680,1833
-2022 FIFA Men's World Cup,WC-2022,2022,17,2022-11-25,Group Stage,played,Qatar,QAT,Senegal,SEN,TRUE,Doha,Qatar,FALSE,1642,1674
-2022 FIFA Men's World Cup,WC-2022,2022,34,2022-11-29,Group Stage,played,Qatar,QAT,Netherlands,NLD,TRUE,Al Khor,Qatar,FALSE,1588,2036
-2026 FIFA Men's World Cup,WC-2026,2026,5,2026-06-13,Group Stage,scheduled,Qatar,QAT,Switzerland,CHE,TRUE,Santa Clara,United States,TRUE,1425,1889
-2026 FIFA Men's World Cup,WC-2026,2026,28,2026-06-18,Group Stage,scheduled,Qatar,QAT,Canada,CAN,FALSE,Vancouver,Canada,FALSE,1425,1784
-2026 FIFA Men's World Cup,WC-2026,2026,52,2026-06-24,Group Stage,scheduled,Qatar,QAT,Bosnia and Herzegovina,BIH,FALSE,Seattle,United States,TRUE,1425,1594
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_001,1,2022-11-20,Group Stage,played,Qatar,QAT,QAT,AFC,Ecuador,ECU,ECU,CONMEBOL,TRUE,Al Khor,Qatar,FALSE,1680,1833
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_017,17,2022-11-25,Group Stage,played,Qatar,QAT,QAT,AFC,Senegal,SEN,SEN,CAF,TRUE,Doha,Qatar,FALSE,1642,1674
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_034,34,2022-11-29,Group Stage,played,Qatar,QAT,QAT,AFC,Netherlands,NED,NLD,UEFA,TRUE,Al Khor,Qatar,FALSE,1588,2036
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_005,5,2026-06-13,Group Stage,scheduled,Qatar,QAT,QAT,AFC,Switzerland,CHE,CHE,UEFA,TRUE,Santa Clara,United States,TRUE,1425,1889
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_028,28,2026-06-18,Group Stage,scheduled,Qatar,QAT,QAT,AFC,Canada,CAN,CAN,CONCACAF,FALSE,Vancouver,Canada,FALSE,1425,1784
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_052,52,2026-06-24,Group Stage,scheduled,Qatar,QAT,QAT,AFC,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,Seattle,United States,TRUE,1425,1594

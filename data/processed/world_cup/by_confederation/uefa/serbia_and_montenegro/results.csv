@@ -1,37 +1,37 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-2003-02-12,UEFA Euro qualification,played,Serbia and Montenegro,SCG,Azerbaijan,,TRUE,2,2,draw,Podgorica,Serbia and Montenegro,FALSE,1813,1308,1794,1327,-19
-2003-03-27,Friendly,played,Serbia and Montenegro,SCG,Bulgaria,BGR,TRUE,1,2,loss,Kruševac,Serbia and Montenegro,FALSE,1794,1753,1780,1767,-14
-2003-04-30,Friendly,played,Serbia and Montenegro,SCG,Germany,DEU,FALSE,0,1,loss,Bremen,Germany,FALSE,1780,1907,1776,1911,-4
-2003-06-03,Friendly,played,Serbia and Montenegro,SCG,England,ENG,FALSE,1,2,loss,Leicester,England,FALSE,1776,1951,1773,1954,-3
-2003-06-07,UEFA Euro qualification,played,Serbia and Montenegro,SCG,Finland,,FALSE,0,3,loss,Helsinki,Finland,FALSE,1773,1674,1738,1709,-35
-2003-06-11,UEFA Euro qualification,played,Serbia and Montenegro,SCG,Azerbaijan,,FALSE,1,2,loss,Baku,Azerbaijan,FALSE,1738,1322,1704,1356,-34
-2003-08-20,UEFA Euro qualification,played,Serbia and Montenegro,SCG,Wales,WAL,TRUE,1,0,win,Belgrade,Serbia and Montenegro,FALSE,1704,1670,1717,1657,13
-2003-09-10,UEFA Euro qualification,played,Serbia and Montenegro,SCG,Italy,ITA,TRUE,1,1,draw,Belgrade,Serbia and Montenegro,FALSE,1717,1946,1724,1939,7
-2003-10-11,UEFA Euro qualification,played,Serbia and Montenegro,SCG,Wales,WAL,FALSE,3,2,win,Cardiff,Wales,FALSE,1724,1647,1745,1626,21
-2003-11-16,Friendly,played,Serbia and Montenegro,SCG,Poland,POL,FALSE,3,4,loss,Płock,Poland,FALSE,1745,1727,1737,1735,-8
-2004-03-31,Friendly,played,Serbia and Montenegro,SCG,Norway,NOR,TRUE,0,1,loss,Belgrade,Serbia and Montenegro,FALSE,1737,1773,1725,1785,-12
-2004-04-28,Friendly,played,Serbia and Montenegro,SCG,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1725,1470,1721,1474,-4
-2004-07-11,Kirin Cup,played,Serbia and Montenegro,SCG,Slovakia,SVK,TRUE,2,0,win,Fukuoka,Japan,TRUE,1721,1655,1739,1637,18
-2004-07-13,Kirin Cup,played,Serbia and Montenegro,SCG,Japan,JPN,FALSE,0,1,loss,Yokohama,Japan,FALSE,1739,1818,1731,1826,-8
-2004-08-18,Friendly,played,Serbia and Montenegro,SCG,Slovenia,SVN,FALSE,1,1,draw,Ljubljana,Slovenia,FALSE,1731,1632,1731,1632,0
-2004-09-04,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,San Marino,,FALSE,3,0,win,Serravalle,San Marino,FALSE,1731,956,1732,955,1
-2004-10-09,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,Bosnia and Herzegovina,BIH,FALSE,0,0,draw,Sarajevo,Bosnia and Herzegovina,FALSE,1732,1621,1731,1622,-1
-2004-10-13,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,San Marino,,TRUE,5,0,win,Belgrade,Serbia and Montenegro,FALSE,1731,952,1732,951,1
-2004-11-17,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,Belgium,BEL,FALSE,2,0,win,Brussels,Belgium,FALSE,1732,1765,1773,1724,41
-2005-02-09,Friendly,played,Serbia and Montenegro,SCG,Bulgaria,BGR,FALSE,0,0,draw,Sofia,Bulgaria,FALSE,1773,1729,1775,1727,2
-2005-03-30,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,Spain,ESP,TRUE,0,0,draw,Belgrade,Serbia and Montenegro,FALSE,1775,1967,1780,1962,5
-2005-06-04,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,Belgium,BEL,TRUE,0,0,draw,Belgrade,Serbia and Montenegro,FALSE,1780,1726,1772,1734,-8
-2005-06-08,Friendly,played,Serbia and Montenegro,SCG,Italy,ITA,FALSE,1,1,draw,Toronto,Canada,TRUE,1772,1908,1776,1904,4
-2005-08-15,Friendly,played,Serbia and Montenegro,SCG,Poland,POL,FALSE,2,3,loss,Kyiv,Ukraine,TRUE,1776,1800,1762,1814,-14
-2005-08-17,Friendly,played,Serbia and Montenegro,SCG,Ukraine,UKR,FALSE,1,2,loss,Kyiv,Ukraine,FALSE,1762,1809,1753,1818,-9
-2005-09-03,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,Lithuania,,TRUE,2,0,win,Belgrade,Serbia and Montenegro,FALSE,1753,1494,1760,1487,7
-2005-09-07,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,Spain,ESP,FALSE,1,1,draw,Madrid,Spain,FALSE,1760,1952,1774,1938,14
-2005-10-08,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,Lithuania,,FALSE,2,0,win,Vilnius,Lithuania,FALSE,1774,1469,1788,1455,14
-2005-10-12,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,Bosnia and Herzegovina,BIH,TRUE,1,0,win,Belgrade,Serbia and Montenegro,FALSE,1788,1638,1796,1630,8
-2005-11-13,Friendly,played,Serbia and Montenegro,SCG,China PR,,FALSE,2,0,win,Nanjing,China PR,FALSE,,,,,
-2005-11-16,Friendly,played,Serbia and Montenegro,SCG,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1809,1670,1792,1687,-17
-2006-03-01,Friendly,played,Serbia and Montenegro,SCG,Tunisia,TUN,FALSE,1,0,win,Radès,Tunisia,FALSE,1792,1699,1802,1689,10
-2006-05-27,Friendly,played,Serbia and Montenegro,SCG,Uruguay,URY,TRUE,1,1,draw,Belgrade,Serbia and Montenegro,FALSE,1802,1836,1800,1838,-2
-2006-06-11,FIFA World Cup,played,Serbia and Montenegro,SCG,Netherlands,NLD,TRUE,0,1,loss,Leipzig,Germany,TRUE,1800,1994,1785,2009,-15
-2006-06-16,FIFA World Cup,played,Serbia and Montenegro,SCG,Argentina,ARG,FALSE,0,6,loss,Gelsenkirchen,Germany,TRUE,1785,1939,1748,1976,-37
-2006-06-21,FIFA World Cup,played,Serbia and Montenegro,SCG,Ivory Coast,CIV,FALSE,2,3,loss,Munich,Germany,TRUE,1748,1738,1717,1769,-31
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,2003-02-12,UEFA Euro qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Azerbaijan,,,,TRUE,2,2,draw,Podgorica,Serbia and Montenegro,FALSE,1813,1308,1794,1327,-19
+,,,2003-03-27,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,2,loss,Kruševac,Serbia and Montenegro,FALSE,1794,1753,1780,1767,-14
+,,,2003-04-30,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Bremen,Germany,FALSE,1780,1907,1776,1911,-4
+,,,2003-06-03,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,Leicester,England,FALSE,1776,1951,1773,1954,-3
+,,,2003-06-07,UEFA Euro qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Finland,,,,FALSE,0,3,loss,Helsinki,Finland,FALSE,1773,1674,1738,1709,-35
+,,,2003-06-11,UEFA Euro qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Azerbaijan,,,,FALSE,1,2,loss,Baku,Azerbaijan,FALSE,1738,1322,1704,1356,-34
+,,,2003-08-20,UEFA Euro qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,0,win,Belgrade,Serbia and Montenegro,FALSE,1704,1670,1717,1657,13
+,,,2003-09-10,UEFA Euro qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Belgrade,Serbia and Montenegro,FALSE,1717,1946,1724,1939,7
+,,,2003-10-11,UEFA Euro qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Wales,WAL,WAL,UEFA,FALSE,3,2,win,Cardiff,Wales,FALSE,1724,1647,1745,1626,21
+,,,2003-11-16,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Poland,POL,POL,UEFA,FALSE,3,4,loss,Płock,Poland,FALSE,1745,1727,1737,1735,-8
+,,,2004-03-31,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,1,loss,Belgrade,Serbia and Montenegro,FALSE,1737,1773,1725,1785,-12
+,,,2004-04-28,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1725,1470,1721,1474,-4
+,,,2004-07-11,Kirin Cup,played,Serbia and Montenegro,SCG,SCG,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,0,win,Fukuoka,Japan,TRUE,1721,1655,1739,1637,18
+,,,2004-07-13,Kirin Cup,played,Serbia and Montenegro,SCG,SCG,UEFA,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Yokohama,Japan,FALSE,1739,1818,1731,1826,-8
+,,,2004-08-18,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,1,1,draw,Ljubljana,Slovenia,FALSE,1731,1632,1731,1632,0
+,,,2004-09-04,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,San Marino,,,,FALSE,3,0,win,Serravalle,San Marino,FALSE,1731,956,1732,955,1
+,,,2004-10-09,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,0,0,draw,Sarajevo,Bosnia and Herzegovina,FALSE,1732,1621,1731,1622,-1
+,,,2004-10-13,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,San Marino,,,,TRUE,5,0,win,Belgrade,Serbia and Montenegro,FALSE,1731,952,1732,951,1
+,,,2004-11-17,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,0,win,Brussels,Belgium,FALSE,1732,1765,1773,1724,41
+,,,2005-02-09,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,0,draw,Sofia,Bulgaria,FALSE,1773,1729,1775,1727,2
+,,,2005-03-30,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Belgrade,Serbia and Montenegro,FALSE,1775,1967,1780,1962,5
+,,,2005-06-04,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,0,draw,Belgrade,Serbia and Montenegro,FALSE,1780,1726,1772,1734,-8
+,,,2005-06-08,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Toronto,Canada,TRUE,1772,1908,1776,1904,4
+,,,2005-08-15,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Poland,POL,POL,UEFA,FALSE,2,3,loss,Kyiv,Ukraine,TRUE,1776,1800,1762,1814,-14
+,,,2005-08-17,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,1,2,loss,Kyiv,Ukraine,FALSE,1762,1809,1753,1818,-9
+,,,2005-09-03,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Lithuania,,,,TRUE,2,0,win,Belgrade,Serbia and Montenegro,FALSE,1753,1494,1760,1487,7
+,,,2005-09-07,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Madrid,Spain,FALSE,1760,1952,1774,1938,14
+,,,2005-10-08,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Lithuania,,,,FALSE,2,0,win,Vilnius,Lithuania,FALSE,1774,1469,1788,1455,14
+,,,2005-10-12,FIFA World Cup qualification,played,Serbia and Montenegro,SCG,SCG,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,1,0,win,Belgrade,Serbia and Montenegro,FALSE,1788,1638,1796,1630,8
+,,,2005-11-13,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,China PR,,,,FALSE,2,0,win,Nanjing,China PR,FALSE,,,,,
+,,,2005-11-16,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Seoul,South Korea,FALSE,1809,1670,1792,1687,-17
+,,,2006-03-01,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Tunisia,TUN,TUN,CAF,FALSE,1,0,win,Radès,Tunisia,FALSE,1792,1699,1802,1689,10
+,,,2006-05-27,Friendly,played,Serbia and Montenegro,SCG,SCG,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,1,draw,Belgrade,Serbia and Montenegro,FALSE,1802,1836,1800,1838,-2
+WC-2006,WC-2006_008,8,2006-06-11,FIFA World Cup,played,Serbia and Montenegro,SCG,SCG,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,1,loss,Leipzig,Germany,TRUE,1800,1994,1785,2009,-15
+WC-2006,WC-2006_021,21,2006-06-16,FIFA World Cup,played,Serbia and Montenegro,SCG,SCG,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,6,loss,Gelsenkirchen,Germany,TRUE,1785,1939,1748,1976,-37
+WC-2006,WC-2006_038,38,2006-06-21,FIFA World Cup,played,Serbia and Montenegro,SCG,SCG,UEFA,Ivory Coast,CIV,CIV,CAF,FALSE,2,3,loss,Munich,Germany,TRUE,1748,1738,1717,1769,-31

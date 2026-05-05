@@ -1,18 +1,18 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,1934-05-27,Round of 16,played,Argentina,Sweden,ARG,SWE,2062,1730,Bologna,Italy,TRUE
-2,1934-05-27,Round of 16,played,Austria,France,AUT,FRA,2050,1626,Turin,Italy,TRUE
-3,1934-05-27,Round of 16,played,Belgium,Germany,BEL,DEU,1549,1799,Florence,Italy,TRUE
-4,1934-05-27,Round of 16,played,Brazil,Spain,BRA,ESP,1934,1936,Genoa,Italy,TRUE
-5,1934-05-27,Round of 16,played,Czechoslovakia,Romania,CSK,ROU,1847,1639,Trieste,Italy,TRUE
-6,1934-05-27,Round of 16,played,Egypt,Hungary,EGY,HUN,1707,1829,Naples,Italy,TRUE
-7,1934-05-27,Round of 16,played,Italy,United States,ITA,USA,1975,1778,Rome,Italy,FALSE
-8,1934-05-27,Round of 16,played,Netherlands,Switzerland,NLD,CHE,1707,1615,Milan,Italy,TRUE
-9,1934-05-31,Quarter-final,played,Austria,Hungary,AUT,HUN,2055,1859,Bologna,Italy,TRUE
-10,1934-05-31,Quarter-final,played,Czechoslovakia,Switzerland,CSK,CHE,1861,1653,Turin,Italy,TRUE
-11,1934-05-31,Quarter-final,played,Germany,Sweden,DEU,SWE,1819,1782,Milan,Italy,TRUE
-12,1934-05-31,Quarter-final,played,Italy,Spain,ITA,ESP,1995,1981,Florence,Italy,FALSE
-13,1934-06-01,Quarter-final,played,Italy,Spain,ITA,ESP,1985,1991,Florence,Italy,FALSE
-14,1934-06-03,Semi-final,played,Czechoslovakia,Germany,CSK,DEU,1875,1846,Rome,Italy,TRUE
-15,1934-06-03,Semi-final,played,Italy,Austria,ITA,AUT,2007,2070,Milan,Italy,FALSE
-16,1934-06-07,Third Place,played,Austria,Germany,AUT,DEU,2043,1805,Naples,Italy,TRUE
-17,1934-06-10,Final,played,Italy,Czechoslovakia,ITA,CSK,2034,1916,Rome,Italy,FALSE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-1934,WC-1934_001,1,1934-05-27,Round of 16,played,Argentina,Sweden,ARG,SWE,ARG,SWE,CONMEBOL,UEFA,2062,1730,Bologna,Italy,TRUE
+WC-1934,WC-1934_002,2,1934-05-27,Round of 16,played,Austria,France,AUT,FRA,AUT,FRA,UEFA,UEFA,2050,1626,Turin,Italy,TRUE
+WC-1934,WC-1934_003,3,1934-05-27,Round of 16,played,Belgium,Germany,BEL,GER,BEL,DEU,UEFA,UEFA,1549,1799,Florence,Italy,TRUE
+WC-1934,WC-1934_004,4,1934-05-27,Round of 16,played,Brazil,Spain,BRA,ESP,BRA,ESP,CONMEBOL,UEFA,1934,1936,Genoa,Italy,TRUE
+WC-1934,WC-1934_005,5,1934-05-27,Round of 16,played,Czechoslovakia,Romania,CSK,ROU,CSK,ROU,UEFA,UEFA,1847,1639,Trieste,Italy,TRUE
+WC-1934,WC-1934_006,6,1934-05-27,Round of 16,played,Egypt,Hungary,EGY,HUN,EGY,HUN,CAF,UEFA,1707,1829,Naples,Italy,TRUE
+WC-1934,WC-1934_007,7,1934-05-27,Round of 16,played,Italy,United States,ITA,USA,ITA,USA,UEFA,CONCACAF,1975,1778,Rome,Italy,FALSE
+WC-1934,WC-1934_008,8,1934-05-27,Round of 16,played,Netherlands,Switzerland,NED,CHE,NLD,CHE,UEFA,UEFA,1707,1615,Milan,Italy,TRUE
+WC-1934,WC-1934_009,9,1934-05-31,Quarter-final,played,Austria,Hungary,AUT,HUN,AUT,HUN,UEFA,UEFA,2055,1859,Bologna,Italy,TRUE
+WC-1934,WC-1934_010,10,1934-05-31,Quarter-final,played,Czechoslovakia,Switzerland,CSK,CHE,CSK,CHE,UEFA,UEFA,1861,1653,Turin,Italy,TRUE
+WC-1934,WC-1934_011,11,1934-05-31,Quarter-final,played,Germany,Sweden,GER,SWE,DEU,SWE,UEFA,UEFA,1819,1782,Milan,Italy,TRUE
+WC-1934,WC-1934_012,12,1934-05-31,Quarter-final,played,Italy,Spain,ITA,ESP,ITA,ESP,UEFA,UEFA,1995,1981,Florence,Italy,FALSE
+WC-1934,WC-1934_013,13,1934-06-01,Quarter-final,played,Italy,Spain,ITA,ESP,ITA,ESP,UEFA,UEFA,1985,1991,Florence,Italy,FALSE
+WC-1934,WC-1934_014,14,1934-06-03,Semi-final,played,Czechoslovakia,Germany,CSK,GER,CSK,DEU,UEFA,UEFA,1875,1846,Rome,Italy,TRUE
+WC-1934,WC-1934_015,15,1934-06-03,Semi-final,played,Italy,Austria,ITA,AUT,ITA,AUT,UEFA,UEFA,2007,2070,Milan,Italy,FALSE
+WC-1934,WC-1934_016,16,1934-06-07,Third Place,played,Austria,Germany,AUT,GER,AUT,DEU,UEFA,UEFA,2043,1805,Naples,Italy,TRUE
+WC-1934,WC-1934_017,17,1934-06-10,Final,played,Italy,Czechoslovakia,ITA,CSK,ITA,CSK,UEFA,UEFA,2034,1916,Rome,Italy,FALSE

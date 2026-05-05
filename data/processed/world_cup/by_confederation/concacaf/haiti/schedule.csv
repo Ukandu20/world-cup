@@ -1,7 +1,7 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1974 FIFA Men's World Cup,WC-1974,1974,5,1974-06-15,Group Stage,played,Haiti,HTI,Italy,ITA,FALSE,Munich,Germany,TRUE,1610,2003
-1974 FIFA Men's World Cup,WC-1974,1974,15,1974-06-19,Group Stage,played,Haiti,HTI,Poland,POL,TRUE,Munich,Germany,TRUE,1602,1983
-1974 FIFA Men's World Cup,WC-1974,1974,21,1974-06-23,Group Stage,played,Haiti,HTI,Argentina,ARG,FALSE,Munich,Germany,TRUE,1588,1882
-2026 FIFA Men's World Cup,WC-2026,2026,7,2026-06-13,Group Stage,scheduled,Haiti,HTI,Scotland,SCO,TRUE,Foxborough,United States,TRUE,1532,1767
-2026 FIFA Men's World Cup,WC-2026,2026,30,2026-06-19,Group Stage,scheduled,Haiti,HTI,Brazil,BRA,FALSE,Philadelphia,United States,TRUE,1532,1984
-2026 FIFA Men's World Cup,WC-2026,2026,54,2026-06-24,Group Stage,scheduled,Haiti,HTI,Morocco,MAR,FALSE,Atlanta,United States,TRUE,1532,1821
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_005,5,1974-06-15,Group Stage,played,Haiti,HTI,HTI,CONCACAF,Italy,ITA,ITA,UEFA,FALSE,Munich,Germany,TRUE,1610,2003
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_015,15,1974-06-19,Group Stage,played,Haiti,HTI,HTI,CONCACAF,Poland,POL,POL,UEFA,TRUE,Munich,Germany,TRUE,1602,1983
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_021,21,1974-06-23,Group Stage,played,Haiti,HTI,HTI,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,Munich,Germany,TRUE,1588,1882
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_007,7,2026-06-13,Group Stage,scheduled,Haiti,HTI,HTI,CONCACAF,Scotland,SCO,SCO,UEFA,TRUE,Foxborough,United States,TRUE,1532,1767
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_030,30,2026-06-19,Group Stage,scheduled,Haiti,HTI,HTI,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,Philadelphia,United States,TRUE,1532,1984
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_054,54,2026-06-24,Group Stage,scheduled,Haiti,HTI,HTI,CONCACAF,Morocco,MAR,MAR,CAF,FALSE,Atlanta,United States,TRUE,1532,1821

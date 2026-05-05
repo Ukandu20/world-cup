@@ -1,661 +1,661 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1925-03-22,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1400,1300,1410,1290,10
-1925-03-26,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,3,0,win,Port-au-Prince,Haiti,FALSE,1410,1290,1426,1274,16
-1925-03-29,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1426,1274,1435,1265,9
-1926-03-03,Friendly,played,Jamaica,JAM,Curaçao,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1435,1586,1452,1569,17
-1926-11-20,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,6,0,win,Kingston,Jamaica,FALSE,1452,1288,1460,1280,8
-1930-03-16,Central American and Caribbean Games,played,Jamaica,JAM,Cuba,CUB,FALSE,1,3,loss,Havana,Cuba,FALSE,1460,1600,1448,1612,-12
-1930-03-18,Central American and Caribbean Games,played,Jamaica,JAM,Honduras,HND,FALSE,4,5,loss,Havana,Cuba,TRUE,1448,1368,1423,1393,-25
-1932-03-13,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,1,4,loss,Port-au-Prince,Haiti,FALSE,1423,1280,1403,1300,-20
-1932-03-20,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1403,1300,1413,1290,10
-1935-12-28,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,3,loss,Kingston,Jamaica,FALSE,1413,1558,1404,1567,-9
-1936-01-04,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1404,1567,1396,1575,-8
-1936-01-11,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1396,1575,1388,1583,-8
-1938-03-13,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,2,5,loss,Port-au-Prince,Haiti,FALSE,1388,1279,1370,1297,-18
-1938-03-17,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,1370,1297,1356,1311,-14
-1938-03-20,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,1356,1311,1343,1324,-13
-1947-02-12,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1343,1586,1347,1582,4
-1947-02-15,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,1,win,Kingston,Jamaica,FALSE,1347,1582,1361,1568,14
-1947-02-19,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,0,win,Kingston,Jamaica,FALSE,1361,1568,1374,1555,13
-1947-02-22,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1374,1555,1366,1563,-8
-1947-02-26,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,0,6,loss,Kingston,Jamaica,FALSE,1366,1563,1351,1578,-15
-1947-11-06,Friendly,played,Jamaica,JAM,Guyana,,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,TRUE,1351,1355,1329,1377,-22
-1947-11-08,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,6,loss,Port of Spain,Trinidad and Tobago,FALSE,1329,1526,1319,1536,-10
-1947-11-10,Friendly,played,Jamaica,JAM,Guyana,,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,TRUE,1319,1377,1321,1375,2
-1947-11-12,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,1,loss,San Fernando,Trinidad and Tobago,FALSE,,,,,
-1948-06-09,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,3,0,win,Kingston,Jamaica,FALSE,,,,,
-1948-06-12,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,1,1,draw,Kingston,Jamaica,FALSE,,,,,
-1948-10-11,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,1,0,win,Kingston,Jamaica,FALSE,,,,,
-1948-10-13,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1342,1416,1331,1427,-11
-1948-10-16,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,3,0,win,Kingston,Jamaica,FALSE,1331,1427,1348,1410,17
-1949-05-02,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,3,1,win,Kingston,Jamaica,FALSE,1348,1520,1366,1502,18
-1949-05-04,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,1,win,Kingston,Jamaica,FALSE,1366,1502,1377,1491,11
-1949-05-07,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1377,1491,1367,1501,-10
-1949-12-18,Friendly,played,Jamaica,JAM,Cuba,CUB,FALSE,5,2,win,Port-au-Prince,Haiti,TRUE,,,,,
-1949-12-19,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,1367,1403,1353,1417,-14
-1950-10-14,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,2,1,win,Kingston,Jamaica,FALSE,1353,1368,1361,1360,8
-1951-05-25,Friendly,played,Jamaica,JAM,Barbados,,FALSE,0,3,loss,Bridgetown,Barbados,FALSE,1361,1231,1342,1250,-19
-1951-05-26,Friendly,played,Jamaica,JAM,Barbados,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1342,1250,1352,1240,10
-1951-05-28,Friendly,played,Jamaica,JAM,Barbados,,FALSE,2,5,loss,Bridgetown,Barbados,FALSE,1352,1240,1334,1258,-18
-1951-12-26,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1334,1360,1332,1362,-2
-1951-12-27,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1332,1362,1320,1374,-12
-1951-12-29,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,2,1,win,Kingston,Jamaica,FALSE,1320,1374,1329,1365,9
-1952-07-19,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,1,4,loss,Port-au-Prince,Haiti,FALSE,1329,1365,1318,1376,-11
-1952-07-20,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,3,3,draw,Port-au-Prince,Haiti,FALSE,1318,1376,1322,1372,4
-1952-07-23,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,1322,1372,1313,1381,-9
-1952-07-27,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,2,3,loss,Port-au-Prince,Haiti,FALSE,1313,1381,1307,1387,-6
-1953-08-10,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,3,2,win,Kingston,Jamaica,FALSE,1307,1593,1322,1578,15
-1953-08-11,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1322,1578,1316,1584,-6
-1953-11-14,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,1,4,loss,Port-au-Prince,Haiti,FALSE,1316,1376,1306,1386,-10
-1953-11-21,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,0,1,loss,Port-au-Prince,Haiti,FALSE,1306,1386,1301,1391,-5
-1957-01-21,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,0,win,Kingston,Jamaica,FALSE,1301,1537,1322,1516,21
-1957-01-26,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,0,win,Kingston,Jamaica,FALSE,1322,1516,1335,1503,13
-1957-01-28,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,1,win,Kingston,Jamaica,FALSE,1335,1503,1347,1491,12
-1958-05-04,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1347,1491,1343,1495,-4
-1958-05-11,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,4,loss,Port of Spain,Trinidad and Tobago,FALSE,1343,1495,1336,1502,-7
-1958-05-13,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,0,win,Port of Spain,Trinidad and Tobago,FALSE,1336,1502,1352,1486,16
-1959-03-01,Friendly,played,Jamaica,JAM,Guyana,,FALSE,2,2,draw,Port of Spain,Trinidad and Tobago,TRUE,1352,1263,1348,1267,-4
-1959-03-04,Friendly,played,Jamaica,JAM,Barbados,,FALSE,3,1,win,Port of Spain,Trinidad and Tobago,TRUE,1348,1241,1364,1225,16
-1959-03-10,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1364,1496,1358,1502,-6
-1962-05-19,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,3,4,loss,Kingston,Jamaica,FALSE,1397,1463,1386,1474,-11
-1962-05-21,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,1,3,loss,Kingston,Jamaica,FALSE,1386,1474,1370,1490,-16
-1962-05-23,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,2,5,loss,Kingston,Jamaica,FALSE,1370,1490,1354,1506,-16
-1962-07-07,Friendly,played,Jamaica,JAM,Curaçao,,TRUE,4,4,draw,Kingston,Jamaica,FALSE,1354,1514,1356,1512,2
-1962-07-09,Friendly,played,Jamaica,JAM,Curaçao,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1356,1512,1368,1500,12
-1962-07-11,Friendly,played,Jamaica,JAM,Curaçao,,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1368,1500,1359,1509,-9
-1963-02-23,Phillip Seaga Cup,played,Jamaica,JAM,Haiti,HTI,TRUE,3,2,win,Kingston,Jamaica,FALSE,1315,1506,1334,1487,19
-1963-02-27,Phillip Seaga Cup,played,Jamaica,JAM,Curaçao,,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1334,1537,1323,1548,-11
-1963-03-04,Friendly,played,Jamaica,JAM,Curaçao,,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1323,1545,1316,1552,-7
-1963-03-06,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1316,1490,1302,1504,-14
-1963-03-24,CONCACAF Championship,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,6,loss,Santa Ana,El Salvador,TRUE,1302,1707,1293,1716,-9
-1963-03-28,CONCACAF Championship,played,Jamaica,JAM,Mexico,MEX,TRUE,0,8,loss,Santa Ana,El Salvador,TRUE,1293,1806,1287,1812,-6
-1963-03-30,CONCACAF Championship,played,Jamaica,JAM,Curaçao,,TRUE,1,2,loss,Santa Ana,El Salvador,TRUE,1287,1577,1279,1585,-8
-1963-08-05,Friendly,played,Jamaica,JAM,El Salvador,SLV,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1277,1531,1271,1537,-6
-1963-08-07,Friendly,played,Jamaica,JAM,El Salvador,SLV,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1271,1537,1275,1533,4
-1963-08-09,Friendly,played,Jamaica,JAM,El Salvador,SLV,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1275,1533,1279,1529,4
-1965-01-16,FIFA World Cup qualification,played,Jamaica,JAM,Cuba,CUB,TRUE,2,0,win,Kingston,Jamaica,FALSE,1279,1125,1290,1114,11
-1965-01-23,FIFA World Cup qualification,played,Jamaica,JAM,Curaçao,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1290,1546,1333,1503,43
-1965-02-03,FIFA World Cup qualification,played,Jamaica,JAM,Curaçao,,FALSE,0,0,draw,Havana,Cuba,TRUE,1333,1510,1342,1501,9
-1965-02-07,FIFA World Cup qualification,played,Jamaica,JAM,Cuba,CUB,FALSE,1,2,loss,Havana,Cuba,FALSE,1342,1124,1315,1151,-27
-1965-05-03,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,TRUE,2,3,loss,Kingston,Jamaica,FALSE,1315,1855,1312,1858,-3
-1965-05-07,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,FALSE,0,8,loss,Mexico City,Mexico,FALSE,1312,1858,1310,1860,-2
-1965-05-11,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,7,loss,San José,Costa Rica,FALSE,1310,1780,1307,1783,-3
-1965-05-22,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1307,1772,1323,1756,16
-1965-08-05,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,4,0,win,Kingston,Jamaica,FALSE,1325,1463,1356,1432,31
-1965-12-28,Friendly,played,Jamaica,JAM,Bermuda,,FALSE,3,0,win,Hamilton,Bermuda,FALSE,1356,1350,1378,1328,22
-1966-06-10,Friendly,played,Jamaica,JAM,Curaçao,,FALSE,0,0,draw,Port-au-Prince,Haiti,TRUE,,,,,
-1966-06-13,Friendly,played,Jamaica,JAM,Guadeloupe,,TRUE,0,0,draw,Port-au-Prince,Haiti,TRUE,1382,1502,1387,1497,5
-1966-06-15,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,4,loss,Port-au-Prince,Haiti,TRUE,1371,1471,1352,1490,-19
-1966-06-17,Friendly,played,Jamaica,JAM,Suriname,,TRUE,3,5,loss,Port-au-Prince,Haiti,TRUE,,,,,
-1966-06-22,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,0,3,loss,Port-au-Prince,Haiti,FALSE,1267,1437,1258,1446,-9
-1967-01-11,CONCACAF Championship qualification,played,Jamaica,JAM,Curaçao,,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1269,1518,1277,1510,8
-1967-01-14,CONCACAF Championship qualification,played,Jamaica,JAM,Cuba,CUB,TRUE,2,1,win,Kingston,Jamaica,FALSE,1277,1224,1289,1212,12
-1967-01-18,CONCACAF Championship qualification,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1289,1448,1292,1445,3
-1967-01-21,CONCACAF Championship qualification,played,Jamaica,JAM,Haiti,HTI,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1292,1488,1277,1503,-15
-1967-11-26,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,1,loss,San Fernando,Trinidad and Tobago,FALSE,,,,,
-1967-12-02,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1270,1399,1264,1405,-6
-1968-11-27,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,3,loss,San José,Costa Rica,FALSE,1264,1694,1261,1697,-3
-1968-12-01,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,FALSE,1,3,loss,San José,Costa Rica,FALSE,1261,1697,1258,1700,-3
-1968-12-05,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,FALSE,1,3,loss,Tegucigalpa,Honduras,FALSE,1258,1382,1245,1395,-13
-1968-12-08,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1245,1395,1233,1407,-12
-1969-02-06,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1233,1460,1250,1443,17
-1969-02-08,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,0,3,loss,Port-au-Prince,Haiti,FALSE,1250,1443,1245,1448,-5
-1969-11-03,CONCACAF Championship qualification,played,Jamaica,JAM,Panama,PAN,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1245,1177,1236,1186,-9
-1969-11-05,CONCACAF Championship qualification,played,Jamaica,JAM,Panama,PAN,TRUE,2,1,win,Kingston,Jamaica,FALSE,1236,1186,1248,1174,12
-1969-11-23,CONCACAF Championship,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,3,loss,San José,Costa Rica,FALSE,1248,1645,1243,1650,-5
-1969-11-27,CONCACAF Championship,played,Jamaica,JAM,Mexico,MEX,FALSE,0,2,loss,San José,Costa Rica,TRUE,1243,1780,1240,1783,-3
-1969-11-30,CONCACAF Championship,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,3,loss,San José,Costa Rica,TRUE,1240,1390,1225,1405,-15
-1969-12-04,CONCACAF Championship,played,Jamaica,JAM,Guatemala,,TRUE,0,0,draw,San José,Costa Rica,TRUE,1225,1625,1245,1605,20
-1969-12-06,CONCACAF Championship,played,Jamaica,JAM,Curaçao,,TRUE,1,2,loss,San José,Costa Rica,TRUE,1245,1458,1234,1469,-11
-1971-10-01,CONCACAF Championship qualification,played,Jamaica,JAM,Cuba,CUB,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1250,1342,1230,1362,-20
-1971-10-04,CONCACAF Championship qualification,played,Jamaica,JAM,Cuba,CUB,FALSE,0,0,draw,Havana,Cuba,FALSE,1230,1362,1242,1350,12
-1972-04-02,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,2,0,win,Kingston,Jamaica,FALSE,1257,1400,1274,1383,17
-1972-12-24,Friendly,played,Jamaica,JAM,Bermuda,,FALSE,0,0,draw,Hamilton,Bermuda,FALSE,1280,1347,1284,1343,4
-1972-12-27,Friendly,played,Jamaica,JAM,Bermuda,,FALSE,3,0,win,Hamilton,Bermuda,FALSE,1284,1343,1309,1318,25
-1973-11-04,Friendly,played,Jamaica,JAM,Guyana,,FALSE,1,2,loss,Georgetown,Guyana,FALSE,1309,1192,1293,1208,-16
-1974-03-28,Friendly,played,Jamaica,JAM,Uruguay,URY,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1293,1776,1290,1779,-3
-1974-08-30,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,1,0,win,New York,United States,TRUE,,,,,
-1974-08-31,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,1,win,New York,United States,TRUE,,,,,
-1975-02-02,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,1,0,win,Kingston,Jamaica,FALSE,1339,1548,1352,1535,13
-1975-02-05,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1352,1535,1344,1543,-8
-1975-02-22,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1344,1543,1361,1526,17
-1975-02-25,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,2,3,loss,Port-au-Prince,Haiti,FALSE,1361,1526,1357,1530,-4
-1976-08-15,CONCACAF Championship qualification,played,Jamaica,JAM,Cuba,CUB,TRUE,1,3,loss,Kingston,Jamaica,FALSE,1357,1557,1335,1579,-22
-1976-08-29,CONCACAF Championship qualification,played,Jamaica,JAM,Cuba,CUB,FALSE,0,2,loss,Havana,Cuba,FALSE,1335,1579,1328,1586,-7
-1977-10-23,Friendly,played,Jamaica,JAM,China PR,,TRUE,0,1,loss,Kingston,Jamaica,FALSE,,,,,
-1977-10-31,Friendly,played,Jamaica,JAM,China PR,,TRUE,0,3,loss,Kingston,Jamaica,FALSE,,,,,
-1978-07-02,CFU Caribbean Cup qualification,played,Jamaica,JAM,Guadeloupe,,FALSE,0,1,loss,Pointe-à-Pitre,Guadeloupe,FALSE,1310,1428,1301,1437,-9
-1978-07-30,CFU Caribbean Cup qualification,played,Jamaica,JAM,Guadeloupe,,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1301,1437,1283,1455,-18
-1979-06-03,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Kitts and Nevis,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1261,1137,1270,1128,9
-1979-06-17,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Kitts and Nevis,,FALSE,2,1,win,Basseterre,Saint Kitts and Nevis,FALSE,1270,1128,1288,1110,18
-1979-10-28,CFU Caribbean Cup qualification,played,Jamaica,JAM,Haiti,HTI,FALSE,0,3,loss,Port-au-Prince,Haiti,FALSE,,,,,
-1979-11-02,CFU Caribbean Cup qualification,played,Jamaica,JAM,Haiti,HTI,TRUE,0,4,loss,Kingston,Jamaica,FALSE,1279,1590,1262,1607,-17
-1984-04-29,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1264,1439,1256,1447,-8
-1985-03-13,Friendly,played,Jamaica,JAM,Canada,CAN,TRUE,1,1,draw,Montego Bay,Jamaica,FALSE,1256,1613,1262,1607,6
-1985-03-17,Friendly,played,Jamaica,JAM,Canada,CAN,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1262,1607,1268,1601,6
-1985-04-20,Friendly,played,Jamaica,JAM,Barbados,,FALSE,2,2,draw,Bridgetown,Barbados,FALSE,1268,1306,1272,1302,4
-1986-02-05,Miami Cup,played,Jamaica,JAM,Paraguay,PRY,TRUE,1,4,loss,Miami,United States,TRUE,1272,1779,1269,1782,-3
-1987-02-07,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,3,1,win,George Town,Cayman Islands,FALSE,,,,,
-1987-04-29,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,2,0,win,Kingston,Jamaica,FALSE,1263,1519,1284,1498,21
-1988-04-05,Friendly,played,Jamaica,JAM,Canada,CAN,TRUE,0,4,loss,Kingston,Jamaica,FALSE,1284,1562,1274,1572,-10
-1988-04-07,Friendly,played,Jamaica,JAM,Canada,CAN,TRUE,0,0,draw,Montego Bay,Jamaica,FALSE,1274,1572,1279,1567,5
-1988-05-12,CONCACAF Championship qualification,played,Jamaica,JAM,Puerto Rico,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1279,955,1282,952,3
-1988-05-29,CONCACAF Championship qualification,played,Jamaica,JAM,Puerto Rico,,FALSE,2,1,win,San Juan,Puerto Rico,FALSE,1282,952,1290,944,8
-1988-07-24,CONCACAF Championship qualification,played,Jamaica,JAM,United States,USA,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1286,1562,1295,1553,9
-1988-08-13,CONCACAF Championship qualification,played,Jamaica,JAM,United States,USA,FALSE,1,5,loss,St. Louis,United States,FALSE,1295,1553,1287,1561,-8
-1989-03-12,Friendly,played,Jamaica,JAM,Paraguay,PRY,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1287,1810,1284,1813,-3
-1989-03-26,Friendly,played,Jamaica,JAM,Barbados,,FALSE,1,1,draw,Bridgetown,Barbados,FALSE,1284,1239,1286,1237,2
-1989-03-28,Friendly,played,Jamaica,JAM,Barbados,,FALSE,1,1,draw,Bridgetown,Barbados,FALSE,1286,1237,1288,1235,2
-1989-04-23,CFU Caribbean Cup qualification,played,Jamaica,JAM,Antigua and Barbuda,,FALSE,0,1,loss,St. John's,Antigua and Barbuda,FALSE,1288,1199,1269,1218,-19
-1989-05-07,CFU Caribbean Cup qualification,played,Jamaica,JAM,Guadeloupe,,TRUE,1,3,loss,Kingston,Jamaica,FALSE,1269,1372,1239,1402,-30
-1989-06-04,CFU Caribbean Cup qualification,played,Jamaica,JAM,Dominica,,FALSE,0,0,draw,Roseau,Dominica,FALSE,1239,1169,1241,1167,2
-1989-06-18,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Lucia,,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1241,1301,1239,1303,-2
-1990-03-16,Friendly,played,Jamaica,JAM,Barbados,,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1239,1241,1220,1260,-19
-1990-03-18,Friendly,played,Jamaica,JAM,Barbados,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1220,1260,1232,1248,12
-1990-04-29,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Kitts and Nevis,,TRUE,3,0,win,Kingston,Jamaica,FALSE,1232,1209,1255,1186,23
-1990-05-06,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,2,1,win,George Town,Cayman Islands,FALSE,,,,,
-1990-05-20,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Martin,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1262,1120,1270,1112,8
-1990-05-30,CFU Caribbean Cup qualification,played,Jamaica,JAM,Guadeloupe,,FALSE,0,0,draw,Pointe-à-Pitre,Guadeloupe,FALSE,1270,1365,1280,1355,10
-1990-07-27,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,FALSE,1283,1552,1299,1536,16
-1991-05-05,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,2,1,win,Kingston,Jamaica,FALSE,1299,1345,1307,1337,8
-1991-05-06,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,2,0,win,Savanna-la-Mar,Jamaica,FALSE,1307,1337,1319,1325,12
-1991-05-24,CFU Caribbean Cup,played,Jamaica,JAM,Guyana,,TRUE,6,0,win,Kingston,Jamaica,FALSE,1319,1243,1342,1220,23
-1991-05-26,CFU Caribbean Cup,played,Jamaica,JAM,Cayman Islands,,TRUE,3,2,win,Kingston,Jamaica,FALSE,1342,1064,1346,1060,4
-1991-05-30,CFU Caribbean Cup,played,Jamaica,JAM,Saint Lucia,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1346,1315,1365,1296,19
-1991-06-02,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,0,win,Kingston,Jamaica,FALSE,1365,1511,1399,1477,34
-1991-06-28,Gold Cup,played,Jamaica,JAM,Mexico,MEX,FALSE,1,4,loss,Los Angeles,United States,TRUE,1399,1863,1393,1869,-6
-1991-06-30,Gold Cup,played,Jamaica,JAM,Honduras,HND,TRUE,0,5,loss,Los Angeles,United States,TRUE,1393,1573,1367,1599,-26
-1991-07-02,Gold Cup,played,Jamaica,JAM,Canada,CAN,TRUE,2,3,loss,Los Angeles,United States,TRUE,,,,,
-1991-09-12,Friendly,played,Jamaica,JAM,Bermuda,,FALSE,1,1,draw,Hamilton,Bermuda,FALSE,1353,1386,1357,1382,4
-1991-09-14,Friendly,played,Jamaica,JAM,United States,USA,FALSE,0,1,loss,High Point,United States,FALSE,1357,1719,1356,1720,-1
-1992-04-12,Friendly,played,Jamaica,JAM,Bermuda,,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1356,1376,1354,1378,-2
-1992-05-23,FIFA World Cup qualification,played,Jamaica,JAM,Puerto Rico,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1354,948,1356,946,2
-1992-05-30,FIFA World Cup qualification,played,Jamaica,JAM,Puerto Rico,,FALSE,1,0,win,San Juan,Puerto Rico,FALSE,1356,946,1362,940,6
-1992-06-20,CFU Caribbean Cup,played,Jamaica,JAM,Guadeloupe,,FALSE,1,0,win,San Fernando,Trinidad and Tobago,TRUE,1389,1359,1407,1341,18
-1992-06-22,CFU Caribbean Cup,played,Jamaica,JAM,Cuba,CUB,FALSE,0,0,draw,San Fernando,Trinidad and Tobago,TRUE,1407,1520,1413,1514,6
-1992-06-24,CFU Caribbean Cup,played,Jamaica,JAM,Martinique,,TRUE,1,0,win,Port of Spain,Trinidad and Tobago,TRUE,1413,1441,1435,1419,22
-1992-06-27,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,FALSE,,,,,
-1992-07-05,FIFA World Cup qualification,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1421,1560,1453,1528,32
-1992-08-16,FIFA World Cup qualification,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1453,1528,1452,1529,-1
-1992-09-22,Friendly,played,Jamaica,JAM,Honduras,HND,FALSE,1,5,loss,Tegucigalpa,Honduras,FALSE,1452,1656,1446,1662,-6
-1992-09-24,Friendly,played,Jamaica,JAM,Honduras,HND,FALSE,0,7,loss,San Pedro Sula,Honduras,FALSE,1446,1662,1440,1668,-6
-1992-09-27,Friendly,played,Jamaica,JAM,Saint Vincent and the Grenadines,,FALSE,1,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1440,1302,1453,1289,13
-1992-10-04,Friendly,played,Jamaica,JAM,Saint Vincent and the Grenadines,,TRUE,3,3,draw,Kingston,Jamaica,FALSE,1453,1289,1443,1299,-10
-1992-10-18,FIFA World Cup qualification,played,Jamaica,JAM,Canada,CAN,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1443,1538,1443,1538,0
-1992-10-25,FIFA World Cup qualification,played,Jamaica,JAM,Bermuda,,FALSE,1,1,draw,Hamilton,Bermuda,FALSE,1443,1431,1448,1426,5
-1992-11-01,FIFA World Cup qualification,played,Jamaica,JAM,Canada,CAN,FALSE,0,1,loss,Toronto,Canada,FALSE,1448,1538,1438,1548,-10
-1992-11-08,FIFA World Cup qualification,played,Jamaica,JAM,Bermuda,,TRUE,3,2,win,Kingston,Jamaica,FALSE,1438,1402,1451,1389,13
-1992-11-22,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,TRUE,0,2,loss,Kingston,Jamaica,FALSE,1451,1492,1416,1527,-35
-1992-12-02,Friendly,played,Jamaica,JAM,Guatemala,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1416,1459,1410,1465,-6
-1992-12-06,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1410,1527,1401,1536,-9
-1993-05-21,CFU Caribbean Cup,played,Jamaica,JAM,Saint Kitts and Nevis,,TRUE,4,1,win,Kingston,Jamaica,FALSE,1401,1162,1410,1153,9
-1993-05-23,CFU Caribbean Cup,played,Jamaica,JAM,Sint Maarten,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1410,950,1412,948,2
-1993-05-25,CFU Caribbean Cup,played,Jamaica,JAM,Puerto Rico,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1412,1072,1415,1069,3
-1993-05-28,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,3,0,win,Kingston,Jamaica,FALSE,1415,1508,1449,1474,34
-1993-05-30,CFU Caribbean Cup,played,Jamaica,JAM,Martinique,,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1449,1493,1446,1496,-3
-1993-07-04,Friendly,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1446,1587,1447,1586,1
-1993-07-10,Gold Cup,played,Jamaica,JAM,United States,USA,FALSE,0,1,loss,Dallas,United States,FALSE,1447,1603,1438,1612,-9
-1993-07-14,Gold Cup,played,Jamaica,JAM,Honduras,HND,FALSE,3,1,win,Dallas,United States,TRUE,1438,1622,1494,1566,56
-1993-07-17,Gold Cup,played,Jamaica,JAM,Panama,PAN,TRUE,1,1,draw,Dallas,United States,TRUE,1494,1290,1481,1303,-13
-1993-07-22,Gold Cup,played,Jamaica,JAM,Mexico,MEX,FALSE,1,6,loss,Mexico City,Mexico,FALSE,1481,1869,1475,1875,-6
-1993-07-25,Gold Cup,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,1,draw,Mexico City,Mexico,TRUE,1475,1615,1485,1605,10
-1993-11-07,Friendly,played,Jamaica,JAM,United States,USA,FALSE,0,1,loss,Fullerton,United States,FALSE,1485,1623,1481,1627,-4
-1994-03-02,CFU Caribbean Cup qualification,played,Jamaica,JAM,Sint Maarten,,TRUE,3,2,win,George Town,Cayman Islands,TRUE,1481,959,1483,957,2
-1994-03-04,CFU Caribbean Cup qualification,played,Jamaica,JAM,British Virgin Islands,,TRUE,12,0,win,George Town,Cayman Islands,TRUE,1483,853,1486,850,3
-1994-03-06,CFU Caribbean Cup qualification,played,Jamaica,JAM,Cayman Islands,,FALSE,2,3,loss,West Bay,Cayman Islands,FALSE,1486,998,1450,1034,-36
-1994-11-22,Friendly,played,Jamaica,JAM,United States,USA,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1450,1616,1436,1630,-14
-1995-03-12,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1436,1496,1435,1497,-1
-1995-07-19,CFU Caribbean Cup,played,Jamaica,JAM,Saint Lucia,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1435,1312,1444,1303,9
-1995-07-21,CFU Caribbean Cup,played,Jamaica,JAM,Cuba,CUB,TRUE,1,2,loss,Montego Bay,Jamaica,FALSE,1444,1500,1421,1523,-23
-1995-07-23,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,0,win,Kingston,Jamaica,FALSE,1421,1579,1444,1556,23
-1995-08-01,Friendly,played,Jamaica,JAM,Canada,CAN,FALSE,1,3,loss,Toronto,Canada,FALSE,1444,1569,1434,1579,-10
-1995-08-06,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,0,win,Toronto,Canada,TRUE,1434,1567,1454,1547,20
-1995-08-18,Friendly,played,Jamaica,JAM,Zambia,,TRUE,1,1,draw,Montego Bay,Jamaica,FALSE,1454,1639,1456,1637,2
-1995-08-20,Friendly,played,Jamaica,JAM,Zambia,,TRUE,3,1,win,Kingston,Jamaica,FALSE,1456,1637,1474,1619,18
-1995-09-24,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1474,1547,1469,1552,-5
-1995-09-27,Friendly,played,Jamaica,JAM,Costa Rica,CRI,TRUE,2,0,win,Kingston,Jamaica,FALSE,1469,1609,1486,1592,17
-1995-10-18,Friendly,played,Jamaica,JAM,Honduras,HND,TRUE,1,0,win,Kingston,Jamaica,FALSE,1486,1535,1495,1526,9
-1995-10-20,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,0,win,George Town,Cayman Islands,TRUE,1495,1552,1512,1535,17
-1995-10-22,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,5,1,win,George Town,Cayman Islands,FALSE,1512,1081,1519,1074,7
-1995-11-05,Friendly,played,Jamaica,JAM,Zambia,,FALSE,2,4,loss,Lusaka,Zambia,FALSE,1514,1608,1507,1615,-7
-1995-11-26,Friendly,played,Jamaica,JAM,Norway,NOR,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1507,1826,1513,1820,6
-1995-12-03,Friendly,played,Jamaica,JAM,Antigua and Barbuda,,FALSE,2,1,win,St. John's,Antigua and Barbuda,FALSE,1513,1151,1517,1147,4
-1995-12-06,Friendly,played,Jamaica,JAM,Saint Kitts and Nevis,,FALSE,3,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1517,1142,1523,1136,6
-1995-12-20,Friendly,played,Jamaica,JAM,Mexico,MEX,TRUE,2,1,win,Kingston,Jamaica,FALSE,1523,1800,1538,1785,15
-1996-01-14,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1538,1513,1535,1516,-3
-1996-03-03,Friendly,played,Jamaica,JAM,Guatemala,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1535,1457,1543,1449,8
-1996-03-31,FIFA World Cup qualification,played,Jamaica,JAM,Suriname,,FALSE,1,0,win,Paramaribo,Suriname,FALSE,1543,1313,1556,1300,13
-1996-04-21,FIFA World Cup qualification,played,Jamaica,JAM,Suriname,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1556,1288,1560,1284,4
-1996-04-24,CFU Caribbean Cup qualification,played,Jamaica,JAM,Barbados,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1560,1256,1565,1251,5
-1996-04-28,CFU Caribbean Cup qualification,played,Jamaica,JAM,Barbados,,FALSE,0,2,loss,Bridgetown,Barbados,FALSE,1565,1251,1519,1297,-46
-1996-05-24,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1519,1501,1504,1516,-15
-1996-05-26,CFU Caribbean Cup,played,Jamaica,JAM,Saint Kitts and Nevis,,TRUE,4,1,win,Palo Seco,Trinidad and Tobago,TRUE,1504,1218,1515,1207,11
-1996-05-28,CFU Caribbean Cup,played,Jamaica,JAM,Suriname,,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,TRUE,1515,1253,1466,1302,-49
-1996-06-23,FIFA World Cup qualification,played,Jamaica,JAM,Barbados,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1466,1314,1483,1297,17
-1996-06-30,FIFA World Cup qualification,played,Jamaica,JAM,Barbados,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1483,1297,1493,1287,10
-1996-07-28,Friendly,played,Jamaica,JAM,Panama,PAN,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1493,1312,1486,1319,-7
-1996-08-24,Friendly,played,Jamaica,JAM,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1486,1354,1470,1370,-16
-1996-08-27,Friendly,played,Jamaica,JAM,Guatemala,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1470,1456,1462,1464,-8
-1996-09-04,Friendly,played,Jamaica,JAM,Costa Rica,CRI,TRUE,2,0,win,Kingston,Jamaica,FALSE,1462,1589,1478,1573,16
-1996-09-15,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,TRUE,3,0,win,Kingston,Jamaica,FALSE,1478,1559,1511,1526,33
-1996-09-23,FIFA World Cup qualification,played,Jamaica,JAM,Saint Vincent and the Grenadines,,FALSE,2,1,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1511,1281,1524,1268,13
-1996-10-04,Friendly,played,Jamaica,JAM,Ecuador,ECU,FALSE,1,2,loss,Ambato,Ecuador,FALSE,1524,1698,1521,1701,-3
-1996-10-09,Friendly,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,0,draw,San José,Costa Rica,FALSE,1521,1554,1525,1550,4
-1996-10-16,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1525,1822,1521,1826,-4
-1996-10-26,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,FALSE,0,0,draw,San Pedro Sula,Honduras,FALSE,1521,1571,1529,1563,8
-1996-11-10,FIFA World Cup qualification,played,Jamaica,JAM,Saint Vincent and the Grenadines,,TRUE,5,0,win,Kingston,Jamaica,FALSE,1529,1248,1537,1240,8
-1996-11-17,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,TRUE,1,0,win,Kingston,Jamaica,FALSE,1537,1821,1567,1791,30
-1997-02-12,Friendly,played,Jamaica,JAM,Venezuela,,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1567,1362,1560,1369,-7
-1997-02-21,CFU Caribbean Cup qualification,played,Jamaica,JAM,Bermuda,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1560,1379,1567,1372,7
-1997-02-23,CFU Caribbean Cup qualification,played,Jamaica,JAM,Bermuda,,TRUE,3,2,win,Kingston,Jamaica,FALSE,1567,1372,1573,1366,6
-1997-03-02,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1573,1655,1572,1656,-1
-1997-03-23,Friendly,played,Jamaica,JAM,Bolivia,BOL,FALSE,0,6,loss,Oruro,Bolivia,FALSE,1572,1675,1562,1685,-10
-1997-04-13,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,FALSE,0,6,loss,Mexico City,Mexico,FALSE,1562,1811,1552,1821,-10
-1997-04-27,FIFA World Cup qualification,played,Jamaica,JAM,Canada,CAN,FALSE,0,0,draw,Burnaby,Canada,FALSE,1552,1623,1561,1614,9
-1997-05-01,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,1,draw,Palo Seco,Trinidad and Tobago,FALSE,1561,1450,1561,1450,0
-1997-05-04,CFU Caribbean Cup qualification,played,Jamaica,JAM,Aruba,,FALSE,6,0,win,Oranjestad,Aruba,FALSE,1561,985,1566,980,5
-1997-05-11,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,FALSE,1,3,loss,San José,Costa Rica,FALSE,1566,1643,1550,1659,-16
-1997-05-18,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,TRUE,1,0,win,Kingston,Jamaica,FALSE,1550,1517,1563,1504,13
-1997-06-29,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,3,0,win,Kingston,Jamaica,FALSE,,,,,
-1997-07-04,CFU Caribbean Cup,played,Jamaica,JAM,Grenada,,TRUE,1,1,draw,St. John's,Antigua and Barbuda,TRUE,1570,1297,1557,1310,-13
-1997-07-08,CFU Caribbean Cup,played,Jamaica,JAM,Antigua and Barbuda,,FALSE,2,0,win,St. John's,Antigua and Barbuda,FALSE,1557,1105,1564,1098,7
-1997-07-10,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,1,draw,St. John's,Antigua and Barbuda,TRUE,1564,1460,1558,1466,-6
-1997-07-13,CFU Caribbean Cup,played,Jamaica,JAM,Grenada,,TRUE,4,1,win,St. John's,Antigua and Barbuda,TRUE,1558,1313,1572,1299,14
-1997-08-06,Friendly,played,Jamaica,JAM,Colombia,COL,TRUE,1,0,win,Kingston,Jamaica,FALSE,1572,1771,1585,1758,13
-1997-08-31,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,6,1,win,Kingston,Jamaica,FALSE,1585,1483,1595,1473,10
-1997-09-07,FIFA World Cup qualification,played,Jamaica,JAM,Canada,CAN,TRUE,1,0,win,Kingston,Jamaica,FALSE,1595,1620,1611,1604,16
-1997-09-14,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,0,win,Kingston,Jamaica,FALSE,1611,1600,1625,1586,14
-1997-10-03,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,FALSE,1,1,draw,"Washington, D.C.",United States,FALSE,1625,1672,1633,1664,8
-1997-10-18,Friendly,played,Jamaica,JAM,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1633,1337,1638,1332,5
-1997-10-24,Friendly,played,Jamaica,JAM,Saint Lucia,,FALSE,3,1,win,Castries,Saint Lucia,FALSE,1638,1202,1642,1198,4
-1997-10-26,Friendly,played,Jamaica,JAM,Antigua and Barbuda,,FALSE,3,0,win,St. John's,Antigua and Barbuda,FALSE,1642,1098,1645,1095,3
-1997-10-29,Friendly,played,Jamaica,JAM,Saint Kitts and Nevis,,FALSE,1,1,draw,Basseterre,Saint Kitts and Nevis,FALSE,1645,1216,1638,1223,-7
-1997-11-09,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1638,1518,1637,1519,-1
-1997-11-16,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1637,1780,1639,1778,2
-1998-01-07,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,FALSE,1637,1464,1635,1466,-2
-1998-01-29,Friendly,played,Jamaica,JAM,Sweden,SWE,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1635,1811,1637,1809,2
-1998-02-03,Gold Cup,played,Jamaica,JAM,Brazil,BRA,FALSE,0,0,draw,Miami,United States,TRUE,1637,2179,1660,2156,23
-1998-02-08,Gold Cup,played,Jamaica,JAM,Guatemala,,FALSE,3,2,win,Los Angeles,United States,TRUE,1660,1581,1679,1562,19
-1998-02-09,Gold Cup,played,Jamaica,JAM,El Salvador,SLV,TRUE,2,0,win,Los Angeles,United States,TRUE,1679,1518,1700,1497,21
-1998-02-12,Gold Cup,played,Jamaica,JAM,Mexico,MEX,TRUE,0,1,loss,Los Angeles,United States,TRUE,1700,1815,1683,1832,-17
-1998-02-15,Gold Cup,played,Jamaica,JAM,Brazil,BRA,FALSE,0,1,loss,Los Angeles,United States,TRUE,1683,2094,1679,2098,-4
-1998-02-22,Friendly,played,Jamaica,JAM,Nigeria,NGA,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1679,1711,1677,1713,-2
-1998-03-25,Friendly,played,Jamaica,JAM,Wales,WAL,FALSE,0,0,draw,Cardiff,Wales,FALSE,1677,1575,1677,1575,0
-1998-04-20,Friendly,played,Jamaica,JAM,North Macedonia,,TRUE,1,2,loss,Tehran,Iran,TRUE,1677,1534,1656,1555,-21
-1998-04-22,Friendly,played,Jamaica,JAM,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1656,1628,1644,1640,-12
-1998-05-04,Friendly,played,Jamaica,JAM,Saudi Arabia,SAU,TRUE,0,0,draw,Nice,France,TRUE,1644,1630,1644,1630,0
-1998-05-16,Friendly,played,Jamaica,JAM,South Korea,KOR,FALSE,1,2,loss,Seoul,South Korea,FALSE,1644,1755,1639,1760,-5
-1998-05-19,Friendly,played,Jamaica,JAM,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1639,1760,1645,1754,6
-1998-06-14,FIFA World Cup,played,Jamaica,JAM,Croatia,HRV,TRUE,1,3,loss,Lens,France,TRUE,1645,1874,1626,1893,-19
-1998-06-21,FIFA World Cup,played,Jamaica,JAM,Argentina,ARG,FALSE,0,5,loss,Paris,France,TRUE,1626,1911,1607,1930,-19
-1998-06-26,FIFA World Cup,played,Jamaica,JAM,Japan,JPN,FALSE,2,1,win,Lyon,France,TRUE,1607,1708,1645,1670,38
-1998-07-22,CFU Caribbean Cup,played,Jamaica,JAM,Cayman Islands,,TRUE,4,0,win,Kingston,Jamaica,FALSE,1645,1103,1647,1101,2
-1998-07-24,CFU Caribbean Cup,played,Jamaica,JAM,Curaçao,,TRUE,3,2,win,Kingston,Jamaica,FALSE,1647,1221,1649,1219,2
-1998-07-26,CFU Caribbean Cup,played,Jamaica,JAM,Haiti,HTI,TRUE,2,1,win,Kingston,Jamaica,FALSE,1649,1410,1654,1405,5
-1998-07-29,CFU Caribbean Cup,played,Jamaica,JAM,Antigua and Barbuda,,TRUE,1,0,win,Port of Spain,Trinidad and Tobago,TRUE,1654,1220,1657,1217,3
-1998-07-31,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1657,1488,1673,1472,16
-1999-02-10,Friendly,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1673,1620,1669,1624,-4
-1999-02-24,Friendly,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,9,loss,San José,Costa Rica,FALSE,1669,1624,1648,1645,-21
-1999-03-03,Friendly,played,Jamaica,JAM,Bolivia,BOL,FALSE,0,0,draw,Guatemala City,Guatemala,TRUE,1648,1693,1650,1691,2
-1999-03-05,Friendly,played,Jamaica,JAM,Paraguay,PRY,TRUE,1,3,loss,Guatemala City,Guatemala,TRUE,1650,1802,1637,1815,-13
-1999-03-07,Friendly,played,Jamaica,JAM,Guatemala,,FALSE,4,2,win,Guatemala City,Guatemala,FALSE,1637,1542,1660,1519,23
-1999-03-28,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1660,1472,1641,1491,-19
-1999-03-31,Friendly,played,Jamaica,JAM,Paraguay,PRY,TRUE,3,0,win,Kingston,Jamaica,FALSE,1641,1834,1663,1812,22
-1999-05-09,Friendly,played,Jamaica,JAM,South Africa,ZAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1663,1621,1659,1625,-4
-1999-05-20,Friendly,played,Jamaica,JAM,Norway,NOR,FALSE,0,6,loss,Oslo,Norway,FALSE,1659,1886,1653,1892,-6
-1999-05-27,Friendly,played,Jamaica,JAM,Sweden,SWE,FALSE,1,2,loss,Solna,Sweden,FALSE,1653,1891,1650,1894,-3
-1999-06-03,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1650,1508,1628,1530,-22
-1999-06-05,CFU Caribbean Cup,played,Jamaica,JAM,Guadeloupe,,TRUE,5,1,win,Port of Spain,Trinidad and Tobago,TRUE,1628,1353,1641,1340,13
-1999-06-07,CFU Caribbean Cup,played,Jamaica,JAM,Grenada,,TRUE,2,1,win,Port of Spain,Trinidad and Tobago,TRUE,1641,1322,1646,1317,5
-1999-06-10,CFU Caribbean Cup,played,Jamaica,JAM,Cuba,CUB,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,TRUE,1646,1503,1604,1545,-42
-1999-07-13,Friendly,played,Jamaica,JAM,Saudi Arabia,SAU,TRUE,2,1,win,San Bernardino,United States,TRUE,1604,1718,1617,1705,13
-1999-07-15,Friendly,played,Jamaica,JAM,Saudi Arabia,SAU,TRUE,0,4,loss,Fullerton,United States,TRUE,1617,1705,1603,1719,-14
-1999-08-07,Friendly,played,Jamaica,JAM,Ghana,GHA,FALSE,1,2,loss,Accra,Ghana,FALSE,1603,1560,1590,1573,-13
-1999-09-02,Friendly,played,Jamaica,JAM,Canada,CAN,FALSE,0,1,loss,Toronto,Canada,FALSE,1590,1533,1581,1542,-9
-1999-09-08,Friendly,played,Jamaica,JAM,United States,USA,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1581,1817,1585,1813,4
-1999-10-24,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,4,1,win,George Town,Cayman Islands,FALSE,1585,1121,1589,1117,4
-2000-01-16,Friendly,played,Jamaica,JAM,New Zealand,NZL,TRUE,2,1,win,Guangzhou,China PR,TRUE,1589,1501,1600,1490,11
-2000-02-06,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,0,0,draw,George Town,Cayman Islands,FALSE,1600,1117,1592,1125,-8
-2000-02-09,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,1,0,win,George Town,Cayman Islands,FALSE,1592,1125,1594,1123,2
-2000-02-12,Gold Cup,played,Jamaica,JAM,Colombia,COL,FALSE,0,1,loss,Miami,United States,TRUE,1594,1801,1582,1813,-12
-2000-02-14,Gold Cup,played,Jamaica,JAM,Honduras,HND,TRUE,0,2,loss,Miami,United States,TRUE,1582,1625,1549,1658,-33
-2000-05-14,Friendly,played,Jamaica,JAM,Panama,PAN,TRUE,0,1,loss,Montego Bay,Jamaica,FALSE,1549,1405,1533,1421,-16
-2000-05-27,Friendly,played,Jamaica,JAM,Colombia,COL,TRUE,0,3,loss,East Rutherford,United States,TRUE,1533,1755,1525,1763,-8
-2000-06-04,King Hassan II Tournament,played,Jamaica,JAM,Morocco,MAR,FALSE,0,1,loss,Casablanca,Morocco,FALSE,1525,1731,1521,1735,-4
-2000-06-06,King Hassan II Tournament,played,Jamaica,JAM,Japan,JPN,TRUE,0,4,loss,Casablanca,Morocco,TRUE,1521,1627,1501,1647,-20
-2000-07-02,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1501,1475,1498,1478,-3
-2000-07-05,Friendly,played,Jamaica,JAM,Barbados,,TRUE,5,0,win,Kingston,Jamaica,FALSE,1498,1367,1506,1359,8
-2000-07-08,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,4,2,win,Port of Spain,Trinidad and Tobago,FALSE,1506,1582,1539,1549,33
-2000-07-16,FIFA World Cup qualification,played,Jamaica,JAM,Saint Vincent and the Grenadines,,FALSE,1,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1539,1314,1552,1301,13
-2000-07-23,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,TRUE,3,1,win,Kingston,Jamaica,FALSE,1552,1704,1586,1670,34
-2000-08-16,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,TRUE,1,0,win,Kingston,Jamaica,FALSE,1586,1418,1593,1411,7
-2000-08-27,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,6,0,win,George Town,Cayman Islands,FALSE,1593,1133,1598,1128,5
-2000-09-03,FIFA World Cup qualification,played,Jamaica,JAM,Saint Vincent and the Grenadines,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1598,1276,1603,1271,5
-2000-10-08,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1603,1690,1593,1700,-10
-2000-11-15,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,FALSE,0,2,loss,San Salvador,El Salvador,FALSE,1593,1421,1557,1457,-36
-2001-01-28,Friendly,played,Jamaica,JAM,Bulgaria,BGR,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1576,1687,1576,1687,0
-2001-02-28,FIFA World Cup qualification,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,0,win,Kingston,Jamaica,FALSE,1576,1661,1595,1642,19
-2001-03-25,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,FALSE,0,4,loss,Mexico City,Mexico,FALSE,1595,1771,1582,1784,-13
-2001-04-25,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1582,1702,1583,1701,1
-2001-05-15,CFU Caribbean Cup,played,Jamaica,JAM,Martinique,,FALSE,1,0,win,Arima,Trinidad and Tobago,TRUE,1583,1374,1592,1365,9
-2001-05-17,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1592,1638,1580,1650,-12
-2001-05-19,CFU Caribbean Cup,played,Jamaica,JAM,Barbados,,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,TRUE,1580,1323,1587,1316,7
-2001-06-10,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,4,1,win,Kingston,Jamaica,FALSE,1587,1448,1594,1441,7
-2001-06-16,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1594,1835,1602,1827,8
-2001-06-20,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,FALSE,1,2,loss,Alajuela,Costa Rica,FALSE,1602,1634,1589,1647,-13
-2001-06-30,FIFA World Cup qualification,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1589,1602,1615,1576,26
-2001-07-20,Friendly,played,Jamaica,JAM,Cuba,CUB,FALSE,0,0,draw,Havana,Cuba,FALSE,1615,1425,1612,1428,-3
-2001-07-27,SKN Football Festival,played,Jamaica,JAM,Martinique,,TRUE,0,0,draw,Basseterre,Saint Kitts and Nevis,TRUE,1612,1414,1604,1422,-8
-2001-07-30,SKN Football Festival,played,Jamaica,JAM,Saint Kitts and Nevis,,FALSE,0,0,draw,Basseterre,Saint Kitts and Nevis,FALSE,1604,1323,1597,1330,-7
-2001-08-01,Friendly,played,Jamaica,JAM,Grenada,,FALSE,0,2,loss,St. George's,Grenada,FALSE,1597,1282,1574,1305,-23
-2001-09-02,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1574,1759,1559,1774,-15
-2001-09-05,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1559,1784,1554,1789,-5
-2001-10-07,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,FALSE,1,2,loss,Foxborough,United States,FALSE,1554,1758,1548,1764,-6
-2001-11-11,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1548,1759,1534,1773,-14
-2002-05-16,Friendly,played,Jamaica,JAM,United States,USA,FALSE,0,5,loss,East Rutherford,United States,FALSE,1534,1816,1530,1820,-4
-2002-05-18,Unity Cup,played,Jamaica,JAM,Nigeria,NGA,TRUE,0,1,loss,London,England,TRUE,1530,1759,1524,1765,-6
-2002-08-02,Friendly,played,Jamaica,JAM,Grenada,,FALSE,1,0,win,St. George's,Grenada,FALSE,1524,1319,1531,1312,7
-2002-08-11,Friendly,played,Jamaica,JAM,Saint Lucia,,FALSE,3,1,win,Vieux Fort,Saint Lucia,FALSE,1531,1272,1540,1263,9
-2002-08-29,Friendly,played,Jamaica,JAM,India,,FALSE,3,0,win,Watford,England,TRUE,1540,1127,1543,1124,3
-2002-09-01,Friendly,played,Jamaica,JAM,India,,FALSE,0,0,draw,Wolverhampton,England,TRUE,1543,1124,1535,1132,-8
-2002-10-16,Friendly,played,Jamaica,JAM,Japan,JPN,FALSE,1,1,draw,Tokyo,Japan,FALSE,1535,1825,1543,1817,8
-2002-11-09,Gold Cup qualification,played,Jamaica,JAM,Barbados,,FALSE,1,1,draw,St. George's,Grenada,TRUE,1546,1314,1534,1326,-12
-2002-11-11,Gold Cup qualification,played,Jamaica,JAM,Guadeloupe,,TRUE,2,0,win,St. George's,Grenada,TRUE,1534,1359,1550,1343,16
-2002-11-13,Gold Cup qualification,played,Jamaica,JAM,Grenada,,FALSE,4,1,win,St. George's,Grenada,FALSE,1550,1276,1569,1257,19
-2002-11-20,Friendly,played,Jamaica,JAM,Nigeria,NGA,FALSE,0,0,draw,Lagos,Nigeria,FALSE,1569,1747,1576,1740,7
-2003-01-12,Friendly,played,Jamaica,JAM,Barbados,,FALSE,0,1,loss,Bridgetown,Barbados,FALSE,1576,1342,1562,1356,-14
-2003-02-12,Friendly,played,Jamaica,JAM,United States,USA,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1562,1824,1556,1830,-6
-2003-03-11,Friendly,played,Jamaica,JAM,Cuba,CUB,FALSE,0,0,draw,Havana,Cuba,FALSE,1556,1493,1557,1492,1
-2003-03-13,Friendly,played,Jamaica,JAM,Cuba,CUB,FALSE,0,1,loss,Havana,Cuba,FALSE,1557,1492,1548,1501,-9
-2003-03-23,Friendly,played,Jamaica,JAM,Barbados,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1548,1361,1551,1358,3
-2003-03-26,Gold Cup qualification,played,Jamaica,JAM,Saint Lucia,,TRUE,5,0,win,Kingston,Jamaica,FALSE,1551,1265,1559,1257,8
-2003-03-28,Gold Cup qualification,played,Jamaica,JAM,Martinique,,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1559,1427,1547,1439,-12
-2003-03-30,Gold Cup qualification,played,Jamaica,JAM,Haiti,HTI,TRUE,3,0,win,Kingston,Jamaica,FALSE,1547,1473,1566,1454,19
-2003-04-02,Friendly,played,Jamaica,JAM,Venezuela,,FALSE,0,2,loss,Caracas,Venezuela,FALSE,1566,1613,1557,1622,-9
-2003-04-30,Friendly,played,Jamaica,JAM,South Africa,ZAF,FALSE,0,0,draw,Cape Town,South Africa,FALSE,1557,1667,1562,1662,5
-2003-05-25,Friendly,played,Jamaica,JAM,Nigeria,NGA,TRUE,3,2,win,Kingston,Jamaica,FALSE,1562,1749,1574,1737,12
-2003-07-06,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1574,1524,1560,1538,-14
-2003-07-09,Friendly,played,Jamaica,JAM,Paraguay,PRY,TRUE,2,0,win,Kingston,Jamaica,FALSE,1560,1772,1580,1752,20
-2003-07-13,Gold Cup,played,Jamaica,JAM,Colombia,COL,TRUE,0,1,loss,Miami,United States,TRUE,1580,1823,1570,1833,-10
-2003-07-15,Gold Cup,played,Jamaica,JAM,Guatemala,,FALSE,2,0,win,Miami,United States,TRUE,1570,1565,1607,1528,37
-2003-07-20,Gold Cup,played,Jamaica,JAM,Mexico,MEX,FALSE,0,5,loss,Mexico City,Mexico,FALSE,1607,1836,1594,1849,-13
-2003-09-07,Friendly,played,Jamaica,JAM,Australia,AUS,FALSE,1,2,loss,Reading,England,TRUE,1594,1816,1590,1820,-4
-2003-10-12,Friendly,played,Jamaica,JAM,Brazil,BRA,FALSE,0,1,loss,Leicester,England,TRUE,1590,2012,1588,2014,-2
-2003-11-16,Friendly,played,Jamaica,JAM,El Salvador,SLV,TRUE,3,0,win,Kingston,Jamaica,FALSE,1588,1519,1598,1509,10
-2004-02-18,Friendly,played,Jamaica,JAM,Uruguay,URY,TRUE,2,0,win,Kingston,Jamaica,FALSE,1598,1860,1620,1838,22
-2004-03-31,Friendly,played,Jamaica,JAM,Honduras,HND,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1620,1640,1618,1642,-2
-2004-04-28,Friendly,played,Jamaica,JAM,Venezuela,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1618,1711,1628,1701,10
-2004-05-31,Unity Cup,played,Jamaica,JAM,Nigeria,NGA,FALSE,0,2,loss,London,England,TRUE,1628,1812,1616,1824,-12
-2004-06-02,Unity Cup,played,Jamaica,JAM,Republic of Ireland,IRL,FALSE,0,1,loss,London,England,TRUE,,,,,
-2004-06-12,FIFA World Cup qualification,played,Jamaica,JAM,Haiti,HTI,FALSE,1,1,draw,Miami,United States,TRUE,1609,1462,1601,1470,-8
-2004-06-20,FIFA World Cup qualification,played,Jamaica,JAM,Haiti,HTI,TRUE,3,0,win,Kingston,Jamaica,FALSE,1601,1470,1616,1455,15
-2004-08-18,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1616,1844,1623,1837,7
-2004-09-04,FIFA World Cup qualification,played,Jamaica,JAM,Panama,PAN,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1623,1459,1590,1492,-33
-2004-09-08,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,FALSE,3,0,win,San Salvador,El Salvador,FALSE,1590,1451,1621,1420,31
-2004-10-02,Friendly,played,Jamaica,JAM,Guatemala,,TRUE,2,2,draw,Fort Lauderdale,United States,TRUE,1621,1642,1622,1641,1
-2004-10-09,FIFA World Cup qualification,played,Jamaica,JAM,Panama,PAN,FALSE,1,1,draw,Panama City,Panama,FALSE,1622,1504,1621,1505,-1
-2004-10-13,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1621,1411,1607,1425,-14
-2004-11-17,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,FALSE,1,1,draw,Columbus,United States,FALSE,1607,1844,1622,1829,15
-2004-11-24,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Martin,,TRUE,12,0,win,Kingston,Jamaica,FALSE,1622,1039,1624,1037,2
-2004-11-26,CFU Caribbean Cup qualification,played,Jamaica,JAM,United States Virgin Islands,,TRUE,11,1,win,Montego Bay,Jamaica,FALSE,,,,,
-2004-11-28,CFU Caribbean Cup qualification,played,Jamaica,JAM,Haiti,HTI,TRUE,3,1,win,Kingston,Jamaica,FALSE,1624,1458,1635,1447,11
-2004-12-12,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Lucia,,FALSE,1,1,draw,Vieux Fort,Saint Lucia,FALSE,1635,1256,1622,1269,-13
-2004-12-19,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Lucia,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1622,1269,1625,1266,3
-2005-01-08,CFU Caribbean Cup qualification,played,Jamaica,JAM,French Guiana,,TRUE,5,0,win,Kingston,Jamaica,FALSE,1625,1199,1629,1195,4
-2005-01-15,CFU Caribbean Cup qualification,played,Jamaica,JAM,French Guiana,,FALSE,0,0,draw,Cayenne,French Guiana,FALSE,1629,1195,1614,1210,-15
-2005-02-20,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,1,win,Bridgetown,Barbados,TRUE,1614,1481,1627,1468,13
-2005-02-22,CFU Caribbean Cup,played,Jamaica,JAM,Barbados,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1627,1321,1636,1312,9
-2005-02-24,CFU Caribbean Cup,played,Jamaica,JAM,Cuba,CUB,FALSE,1,0,win,Bridgetown,Barbados,TRUE,1636,1627,1655,1608,19
-2005-04-20,Friendly,played,Jamaica,JAM,Guatemala,,FALSE,1,0,win,Atlanta,United States,TRUE,1655,1602,1663,1594,8
-2005-06-04,Friendly,played,Jamaica,JAM,Honduras,HND,TRUE,0,0,draw,Atlanta,United States,TRUE,1663,1670,1663,1670,0
-2005-07-08,Gold Cup,played,Jamaica,JAM,Guatemala,,FALSE,4,3,win,Carson,United States,TRUE,1663,1569,1681,1551,18
-2005-07-10,Gold Cup,played,Jamaica,JAM,South Africa,ZAF,TRUE,3,3,draw,Los Angeles,United States,TRUE,1681,1616,1676,1621,-5
-2005-07-13,Gold Cup,played,Jamaica,JAM,Mexico,MEX,FALSE,0,1,loss,Houston,United States,TRUE,1676,1900,1665,1911,-11
-2005-07-16,Gold Cup,played,Jamaica,JAM,United States,USA,FALSE,1,3,loss,Foxborough,United States,FALSE,1665,1865,1654,1876,-11
-2005-10-01,Friendly,played,Jamaica,JAM,Guatemala,,FALSE,2,1,win,Fort Lauderdale,United States,TRUE,1654,1554,1661,1547,7
-2005-10-09,Friendly,played,Jamaica,JAM,Australia,AUS,FALSE,0,5,loss,London,England,TRUE,1661,1740,1645,1756,-16
-2006-04-11,Friendly,played,Jamaica,JAM,United States,USA,FALSE,1,1,draw,Cary,United States,FALSE,1645,1838,1652,1831,7
-2006-05-29,Friendly,played,Jamaica,JAM,Ghana,GHA,TRUE,1,4,loss,Leicester,England,TRUE,1652,1573,1631,1594,-21
-2006-06-03,Friendly,played,Jamaica,JAM,England,ENG,FALSE,0,6,loss,Manchester,England,FALSE,1631,1970,1628,1973,-3
-2006-09-04,Friendly,played,Jamaica,JAM,Canada,CAN,FALSE,0,1,loss,Montreal,Canada,FALSE,1628,1596,1620,1604,-8
-2006-09-27,CFU Caribbean Cup qualification,played,Jamaica,JAM,Saint Lucia,,TRUE,4,0,win,Kingston,Jamaica,FALSE,1620,1232,1624,1228,4
-2006-10-01,CFU Caribbean Cup qualification,played,Jamaica,JAM,Haiti,HTI,TRUE,2,0,win,Kingston,Jamaica,FALSE,1587,1515,1603,1499,16
-2006-10-08,Friendly,played,Jamaica,JAM,Canada,CAN,TRUE,2,1,win,Kingston,Jamaica,FALSE,1603,1604,1610,1597,7
-2006-11-15,Friendly,played,Jamaica,JAM,Peru,PER,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1610,1618,1607,1621,-3
-2007-03-22,Friendly,played,Jamaica,JAM,Switzerland,CHE,TRUE,0,2,loss,Fort Lauderdale,United States,TRUE,1607,1840,1601,1846,-6
-2007-03-26,Friendly,played,Jamaica,JAM,Panama,PAN,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1601,1562,1597,1566,-4
-2007-06-05,Friendly,played,Jamaica,JAM,Chile,CHL,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1597,1736,1588,1745,-9
-2007-06-21,Friendly,played,Jamaica,JAM,Indonesia,IDN,FALSE,1,2,loss,Jakarta,Indonesia,FALSE,1588,1304,1573,1319,-15
-2007-06-24,Friendly,played,Jamaica,JAM,Vietnam,,FALSE,0,3,loss,Hanoi,Vietnam,FALSE,1573,1232,1545,1260,-28
-2007-06-28,Friendly,played,Jamaica,JAM,Malaysia,,FALSE,2,0,win,Kuala Lumpur,Malaysia,FALSE,1545,1184,1550,1179,5
-2007-07-02,Friendly,played,Jamaica,JAM,Iran,IRN,FALSE,1,8,loss,Tehran,Iran,FALSE,1550,1795,1545,1800,-5
-2007-11-18,Friendly,played,Jamaica,JAM,El Salvador,SLV,TRUE,3,0,win,Kingston,Jamaica,FALSE,1545,1382,1551,1376,6
-2007-11-21,Friendly,played,Jamaica,JAM,Guatemala,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1551,1514,1560,1505,9
-2008-02-06,Friendly,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1560,1637,1559,1638,-1
-2008-03-26,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1559,1497,1555,1501,-4
-2008-06-07,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,1,draw,Macoya,Trinidad and Tobago,FALSE,1559,1511,1560,1510,1
-2008-06-10,Friendly,played,Jamaica,JAM,Grenada,,FALSE,1,2,loss,St. George's,Grenada,FALSE,1560,1215,1544,1231,-16
-2008-06-15,FIFA World Cup qualification,played,Jamaica,JAM,Bahamas,,TRUE,7,0,win,Kingston,Jamaica,FALSE,1544,866,1545,865,1
-2008-06-18,FIFA World Cup qualification,played,Jamaica,JAM,Bahamas,,TRUE,6,0,win,Falmouth,Jamaica,FALSE,1545,865,1546,864,1
-2008-07-26,Friendly,played,Jamaica,JAM,El Salvador,SLV,FALSE,0,0,draw,Frisco,United States,TRUE,1546,1428,1543,1431,-3
-2008-08-20,FIFA World Cup qualification,played,Jamaica,JAM,Canada,CAN,FALSE,1,1,draw,Toronto,Canada,FALSE,1543,1630,1553,1620,10
-2008-09-06,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1553,1899,1548,1904,-5
-2008-09-10,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,FALSE,0,2,loss,San Pedro Sula,Honduras,FALSE,1548,1699,1537,1710,-11
-2008-10-11,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,TRUE,1,0,win,Kingston,Jamaica,FALSE,1537,1895,1570,1862,33
-2008-10-15,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,TRUE,1,0,win,Kingston,Jamaica,FALSE,1570,1723,1593,1700,23
-2008-11-09,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,2,0,win,George Town,Cayman Islands,FALSE,1593,977,1594,976,1
-2008-11-19,FIFA World Cup qualification,played,Jamaica,JAM,Canada,CAN,TRUE,3,0,win,Kingston,Jamaica,FALSE,1594,1591,1619,1566,25
-2008-12-03,CFU Caribbean Cup,played,Jamaica,JAM,Barbados,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1619,1345,1623,1341,4
-2008-12-05,CFU Caribbean Cup,played,Jamaica,JAM,Grenada,,TRUE,4,0,win,Montego Bay,Jamaica,FALSE,1623,1270,1628,1265,5
-2008-12-07,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,1,draw,Falmouth,Jamaica,FALSE,1628,1554,1619,1563,-9
-2008-12-11,CFU Caribbean Cup,played,Jamaica,JAM,Guadeloupe,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1619,1467,1630,1456,11
-2008-12-14,CFU Caribbean Cup,played,Jamaica,JAM,Grenada,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1630,1309,1635,1304,5
-2009-02-11,Friendly,played,Jamaica,JAM,Nigeria,NGA,FALSE,0,0,draw,London,England,TRUE,1635,1739,1638,1736,3
-2009-05-23,Friendly,played,Jamaica,JAM,Haiti,HTI,TRUE,2,2,draw,Fort Lauderdale,United States,TRUE,1638,1399,1632,1405,-6
-2009-05-30,Friendly,played,Jamaica,JAM,El Salvador,SLV,FALSE,0,0,draw,"Washington, D.C.",United States,TRUE,1632,1503,1628,1507,-4
-2009-06-07,Friendly,played,Jamaica,JAM,Panama,PAN,TRUE,3,2,win,Kingston,Jamaica,FALSE,1628,1583,1634,1577,6
-2009-06-28,Friendly,played,Jamaica,JAM,Cayman Islands,,FALSE,4,1,win,George Town,Cayman Islands,FALSE,1634,976,1635,975,1
-2009-07-03,Gold Cup,played,Jamaica,JAM,Canada,CAN,FALSE,0,1,loss,Carson,United States,TRUE,1635,1589,1607,1617,-28
-2009-07-07,Gold Cup,played,Jamaica,JAM,Costa Rica,CRI,TRUE,0,1,loss,Columbus,United States,TRUE,1607,1748,1592,1763,-15
-2009-07-10,Gold Cup,played,Jamaica,JAM,El Salvador,SLV,FALSE,1,0,win,Miami,United States,TRUE,1592,1549,1614,1527,22
-2009-08-12,Friendly,played,Jamaica,JAM,Ecuador,ECU,FALSE,0,0,draw,East Rutherford,United States,TRUE,1614,1751,1618,1747,4
-2009-08-16,Friendly,played,Jamaica,JAM,Saint Kitts and Nevis,,FALSE,1,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1618,1111,1620,1109,2
-2009-11-17,Friendly,played,Jamaica,JAM,South Africa,ZAF,FALSE,0,0,draw,Bloemfontein,South Africa,FALSE,1620,1519,1620,1519,0
-2010-01-31,Friendly,played,Jamaica,JAM,Canada,CAN,TRUE,1,0,win,Kingston,Jamaica,FALSE,1620,1606,1627,1599,7
-2010-02-10,Friendly,played,Jamaica,JAM,Argentina,ARG,FALSE,1,2,loss,Mar del Plata,Argentina,FALSE,1627,1900,1624,1903,-3
-2010-04-28,Friendly,played,Jamaica,JAM,South Africa,ZAF,FALSE,0,2,loss,Offenbach am Main,Germany,TRUE,1624,1528,1605,1547,-19
-2010-08-11,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,3,1,win,Macoya,Trinidad and Tobago,FALSE,1605,1539,1621,1523,16
-2010-09-05,Friendly,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,0,win,Kingston,Jamaica,FALSE,1621,1688,1630,1679,9
-2010-09-07,Friendly,played,Jamaica,JAM,Peru,PER,TRUE,1,2,loss,Fort Lauderdale,United States,TRUE,1630,1607,1619,1618,-11
-2010-10-10,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,0,win,Kingston,Jamaica,FALSE,1619,1515,1624,1510,5
-2010-11-17,Friendly,played,Jamaica,JAM,Costa Rica,CRI,TRUE,0,0,draw,Fort Lauderdale,United States,TRUE,1624,1669,1625,1668,1
-2010-11-27,CFU Caribbean Cup,played,Jamaica,JAM,Antigua and Barbuda,,TRUE,3,1,win,Rivière-Pilote,Martinique,TRUE,1625,1249,1631,1243,6
-2010-11-29,CFU Caribbean Cup,played,Jamaica,JAM,Guadeloupe,,FALSE,2,0,win,Rivière-Pilote,Martinique,TRUE,1631,1482,1649,1464,18
-2010-12-01,CFU Caribbean Cup,played,Jamaica,JAM,Guyana,,FALSE,4,0,win,Rivière-Pilote,Martinique,TRUE,1649,1313,1658,1304,9
-2010-12-03,CFU Caribbean Cup,played,Jamaica,JAM,Grenada,,TRUE,2,1,win,Fort-de-France,Martinique,TRUE,1658,1315,1663,1310,5
-2010-12-05,CFU Caribbean Cup,played,Jamaica,JAM,Guadeloupe,,FALSE,1,1,draw,Fort-de-France,Martinique,TRUE,1663,1496,1654,1505,-9
-2011-03-25,Friendly,played,Jamaica,JAM,Venezuela,,TRUE,0,2,loss,Montego Bay,Jamaica,FALSE,1654,1697,1637,1714,-17
-2011-03-29,Friendly,played,Jamaica,JAM,El Salvador,SLV,FALSE,3,2,win,San Salvador,El Salvador,FALSE,1637,1494,1646,1485,9
-2011-06-06,Gold Cup,played,Jamaica,JAM,Grenada,,TRUE,4,0,win,Carson,United States,TRUE,1646,1277,1656,1267,10
-2011-06-10,Gold Cup,played,Jamaica,JAM,Guatemala,,TRUE,2,0,win,Miami,United States,TRUE,1656,1444,1673,1427,17
-2011-06-13,Gold Cup,played,Jamaica,JAM,Honduras,HND,FALSE,1,0,win,Harrison,United States,TRUE,1673,1679,1698,1654,25
-2011-06-19,Gold Cup,played,Jamaica,JAM,United States,USA,FALSE,0,2,loss,"Washington, D.C.",United States,FALSE,1698,1732,1674,1756,-24
-2011-08-10,Friendly,played,Jamaica,JAM,China PR,,FALSE,0,1,loss,Hefei,China PR,FALSE,,,,,
-2011-09-02,Friendly,played,Jamaica,JAM,Ecuador,ECU,FALSE,2,5,loss,Quito,Ecuador,FALSE,1666,1716,1656,1726,-10
-2011-09-06,Friendly,played,Jamaica,JAM,Colombia,COL,TRUE,0,2,loss,Fort Lauderdale,United States,TRUE,1656,1774,1646,1784,-10
-2011-10-11,Friendly,played,Jamaica,JAM,Honduras,HND,FALSE,1,2,loss,La Ceiba,Honduras,FALSE,1646,1628,1638,1636,-8
-2012-02-22,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,1,0,win,Kingston,Jamaica,FALSE,1638,1392,1640,1390,2
-2012-02-24,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,3,0,win,Montego Bay,Jamaica,FALSE,1640,1390,1644,1386,4
-2012-02-29,Friendly,played,Jamaica,JAM,New Zealand,NZL,FALSE,3,2,win,Auckland,New Zealand,FALSE,1644,1564,1655,1553,11
-2012-03-21,Friendly,played,Jamaica,JAM,Costa Rica,CRI,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1655,1675,1653,1677,-2
-2012-05-18,Friendly,played,Jamaica,JAM,Guyana,,TRUE,1,0,win,Montego Bay,Jamaica,FALSE,1653,1370,1655,1368,2
-2012-05-27,Friendly,played,Jamaica,JAM,Panama,PAN,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1655,1654,1642,1667,-13
-2012-06-01,Friendly,played,Jamaica,JAM,Panama,PAN,FALSE,1,2,loss,Panama City,Panama,FALSE,1642,1667,1635,1674,-7
-2012-06-08,FIFA World Cup qualification,played,Jamaica,JAM,Guatemala,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1635,1525,1644,1516,9
-2012-06-12,FIFA World Cup qualification,played,Jamaica,JAM,Antigua and Barbuda,,FALSE,0,0,draw,St. John's,Antigua and Barbuda,FALSE,1644,1281,1631,1294,-13
-2012-08-15,Friendly,played,Jamaica,JAM,El Salvador,SLV,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1631,1572,1643,1560,12
-2012-09-07,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,TRUE,2,1,win,Kingston,Jamaica,FALSE,1643,1760,1664,1739,21
-2012-09-11,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,FALSE,0,1,loss,Columbus,United States,FALSE,1664,1739,1653,1750,-11
-2012-10-12,FIFA World Cup qualification,played,Jamaica,JAM,Guatemala,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1653,1540,1632,1561,-21
-2012-10-16,FIFA World Cup qualification,played,Jamaica,JAM,Antigua and Barbuda,,TRUE,4,1,win,Kingston,Jamaica,FALSE,1632,1270,1637,1265,5
-2012-12-08,CFU Caribbean Cup,played,Jamaica,JAM,French Guiana,,TRUE,1,2,loss,North Sound,Antigua and Barbuda,TRUE,1637,1239,1601,1275,-36
-2012-12-10,CFU Caribbean Cup,played,Jamaica,JAM,Martinique,,TRUE,0,0,draw,North Sound,Antigua and Barbuda,TRUE,1601,1382,1590,1393,-11
-2012-12-12,CFU Caribbean Cup,played,Jamaica,JAM,Cuba,CUB,TRUE,0,1,loss,North Sound,Antigua and Barbuda,TRUE,1590,1352,1558,1384,-32
-2013-02-06,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1558,1915,1575,1898,17
-2013-03-22,FIFA World Cup qualification,played,Jamaica,JAM,Panama,PAN,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1575,1693,1576,1692,1
-2013-03-26,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1576,1676,1562,1690,-14
-2013-06-04,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1562,1870,1553,1879,-9
-2013-06-07,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1553,1765,1539,1779,-14
-2013-06-11,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1539,1639,1525,1653,-14
-2013-09-06,FIFA World Cup qualification,played,Jamaica,JAM,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1525,1741,1539,1727,14
-2013-09-10,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1539,1749,1545,1743,6
-2013-10-11,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,FALSE,0,2,loss,Kansas City,United States,FALSE,1545,1854,1540,1859,-5
-2013-10-15,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1540,1687,1543,1684,3
-2013-11-15,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,0,1,loss,Montego Bay,Jamaica,FALSE,1543,1478,1529,1492,-14
-2013-11-19,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1529,1492,1517,1504,-12
-2014-03-05,Friendly,played,Jamaica,JAM,Saint Lucia,,FALSE,5,0,win,Castries,Saint Lucia,FALSE,1522,1050,1526,1046,4
-2014-05-26,Friendly,played,Jamaica,JAM,Serbia,SRB,TRUE,1,2,loss,Harrison,United States,TRUE,1526,1764,1522,1768,-4
-2014-05-30,Friendly,played,Jamaica,JAM,Switzerland,CHE,FALSE,0,1,loss,Lucerne,Switzerland,FALSE,1522,1846,1520,1848,-2
-2014-06-04,Friendly,played,Jamaica,JAM,Egypt,EGY,TRUE,2,2,draw,London,England,TRUE,1520,1685,1524,1681,4
-2014-06-08,Friendly,played,Jamaica,JAM,France,FRA,FALSE,0,8,loss,Villeneuve-d'Ascq,France,FALSE,1524,1894,1521,1897,-3
-2014-10-10,Friendly,played,Jamaica,JAM,Japan,JPN,FALSE,0,1,loss,Niigata,Japan,FALSE,1509,1717,1506,1720,-3
-2014-11-18,CFU Caribbean Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,0,0,draw,Montego Bay,Jamaica,FALSE,1525,1517,1519,1523,-6
-2015-03-30,Friendly,played,Jamaica,JAM,Cuba,CUB,TRUE,3,0,win,Montego Bay,Jamaica,FALSE,1531,1409,1539,1401,8
-2015-06-13,Copa América,played,Jamaica,JAM,Uruguay,URY,FALSE,0,1,loss,Antofagasta,Chile,TRUE,1539,1913,1534,1918,-5
-2015-06-16,Copa América,played,Jamaica,JAM,Paraguay,PRY,FALSE,0,1,loss,Antofagasta,Chile,TRUE,1534,1700,1520,1714,-14
-2015-06-20,Copa América,played,Jamaica,JAM,Argentina,ARG,FALSE,0,1,loss,Viña del Mar,Chile,TRUE,1520,2056,1518,2058,-2
-2015-07-08,Gold Cup,played,Jamaica,JAM,Costa Rica,CRI,FALSE,2,2,draw,Carson,United States,TRUE,1518,1838,1536,1820,18
-2015-07-11,Gold Cup,played,Jamaica,JAM,Canada,CAN,TRUE,1,0,win,Houston,United States,TRUE,1536,1524,1560,1500,24
-2015-07-14,Gold Cup,played,Jamaica,JAM,El Salvador,SLV,TRUE,1,0,win,Toronto,Canada,TRUE,1560,1511,1581,1490,21
-2015-07-18,Gold Cup,played,Jamaica,JAM,Haiti,HTI,FALSE,1,0,win,Baltimore,United States,TRUE,1581,1485,1599,1467,18
-2015-07-22,Gold Cup,played,Jamaica,JAM,United States,USA,FALSE,2,1,win,Atlanta,United States,FALSE,1599,1856,1643,1812,44
-2015-07-26,Gold Cup,played,Jamaica,JAM,Mexico,MEX,TRUE,1,3,loss,Philadelphia,United States,TRUE,1643,1852,1626,1869,-17
-2015-09-04,FIFA World Cup qualification,played,Jamaica,JAM,Nicaragua,,TRUE,2,3,loss,Kingston,Jamaica,FALSE,1626,1177,1588,1215,-38
-2015-09-08,FIFA World Cup qualification,played,Jamaica,JAM,Nicaragua,,FALSE,2,0,win,Managua,Nicaragua,FALSE,1588,1215,1598,1205,10
-2015-10-13,Friendly,played,Jamaica,JAM,South Korea,KOR,FALSE,0,3,loss,Seoul,South Korea,FALSE,1598,1781,1592,1787,-6
-2015-11-13,FIFA World Cup qualification,played,Jamaica,JAM,Panama,PAN,TRUE,0,2,loss,Kingston,Jamaica,FALSE,1592,1672,1560,1704,-32
-2015-11-17,FIFA World Cup qualification,played,Jamaica,JAM,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1560,1497,1582,1475,22
-2016-03-25,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1582,1781,1588,1775,6
-2016-03-29,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,3,loss,San José,Costa Rica,FALSE,1588,1775,1577,1786,-11
-2016-06-05,Copa América,played,Jamaica,JAM,Venezuela,,TRUE,0,1,loss,Chicago,United States,TRUE,1596,1609,1572,1633,-24
-2016-06-09,Copa América,played,Jamaica,JAM,Mexico,MEX,FALSE,0,2,loss,Pasadena,United States,TRUE,1572,1978,1565,1985,-7
-2016-06-13,Copa América,played,Jamaica,JAM,Uruguay,URY,FALSE,0,3,loss,Santa Clara,United States,TRUE,1565,1882,1553,1894,-12
-2016-09-02,FIFA World Cup qualification,played,Jamaica,JAM,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1553,1663,1539,1677,-14
-2016-09-06,FIFA World Cup qualification,played,Jamaica,JAM,Haiti,HTI,TRUE,0,2,loss,Kingston,Jamaica,FALSE,1539,1467,1495,1511,-44
-2016-11-13,CFU Caribbean Cup qualification,played,Jamaica,JAM,Suriname,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1510,1224,1514,1220,4
-2017-06-13,Friendly,played,Jamaica,JAM,Peru,PER,FALSE,1,3,loss,Arequipa,Peru,FALSE,1524,1852,1522,1854,-2
-2017-06-22,CFU Caribbean Cup,played,Jamaica,JAM,French Guiana,,TRUE,1,1,draw,Fort-de-France,Martinique,TRUE,1522,1356,1513,1365,-9
-2017-06-25,CFU Caribbean Cup,played,Jamaica,JAM,Curaçao,,TRUE,1,2,loss,Fort-de-France,Martinique,TRUE,1513,1259,1481,1291,-32
-2017-07-09,Gold Cup,played,Jamaica,JAM,Curaçao,,FALSE,2,0,win,San Diego,United States,TRUE,1481,1291,1500,1272,19
-2017-07-13,Gold Cup,played,Jamaica,JAM,Mexico,MEX,FALSE,0,0,draw,Denver,United States,TRUE,1500,1902,1521,1881,21
-2017-07-16,Gold Cup,played,Jamaica,JAM,El Salvador,SLV,TRUE,1,1,draw,San Antonio,United States,TRUE,1521,1442,1515,1448,-6
-2017-07-20,Gold Cup,played,Jamaica,JAM,Canada,CAN,TRUE,2,1,win,Glendale,United States,TRUE,1515,1550,1543,1522,28
-2017-07-23,Gold Cup,played,Jamaica,JAM,Mexico,MEX,FALSE,1,0,win,Pasadena,United States,TRUE,1543,1890,1587,1846,44
-2017-07-26,Gold Cup,played,Jamaica,JAM,United States,USA,FALSE,1,2,loss,Santa Clara,United States,FALSE,1587,1797,1580,1804,-7
-2017-08-24,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1580,1438,1589,1429,9
-2017-09-02,Friendly,played,Jamaica,JAM,Canada,CAN,FALSE,0,2,loss,Toronto,Canada,FALSE,1589,1522,1575,1536,-14
-2017-10-07,Friendly,played,Jamaica,JAM,Saudi Arabia,SAU,FALSE,2,5,loss,Jeddah,Saudi Arabia,FALSE,1575,1615,1564,1626,-11
-2018-01-30,Friendly,played,Jamaica,JAM,South Korea,KOR,TRUE,2,2,draw,Antalya,Turkey,TRUE,1564,1762,1569,1757,5
-2018-03-25,Friendly,played,Jamaica,JAM,Antigua and Barbuda,,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1569,1209,1560,1218,-9
-2018-04-26,Friendly,played,Jamaica,JAM,Saint Kitts and Nevis,,FALSE,3,1,win,Basseterre,Saint Kitts and Nevis,FALSE,1560,1247,1567,1240,7
-2018-04-30,Friendly,played,Jamaica,JAM,Antigua and Barbuda,,FALSE,2,0,win,St. John's,Antigua and Barbuda,FALSE,,,,,
-2018-08-18,Friendly,played,Jamaica,JAM,Grenada,,FALSE,5,1,win,St. George's,Grenada,FALSE,,,,,
-2018-08-20,Friendly,played,Jamaica,JAM,Barbados,,FALSE,2,2,draw,Bridgetown,Barbados,FALSE,1577,1128,1569,1136,-8
-2018-09-07,Friendly,played,Jamaica,JAM,Ecuador,ECU,FALSE,0,2,loss,Harrison,United States,TRUE,1569,1747,1561,1755,-8
-2018-09-09,CONCACAF Nations League qualification,played,Jamaica,JAM,Cayman Islands,,TRUE,4,0,win,Kingston,Jamaica,FALSE,1561,946,1562,945,1
-2018-10-14,CONCACAF Nations League qualification,played,Jamaica,JAM,Bonaire,,FALSE,6,0,win,Willemstad,Curaçao,TRUE,1562,976,1565,973,3
-2018-11-17,CONCACAF Nations League qualification,played,Jamaica,JAM,Suriname,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1565,1261,1569,1257,4
-2019-03-24,CONCACAF Nations League qualification,played,Jamaica,JAM,El Salvador,SLV,FALSE,0,2,loss,San Salvador,El Salvador,FALSE,,,,,
-2019-03-26,Friendly,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1539,1700,1535,1704,-4
-2019-06-05,Friendly,played,Jamaica,JAM,United States,USA,FALSE,1,0,win,"Washington, D.C.",United States,FALSE,1535,1765,1552,1748,17
-2019-06-17,Gold Cup,played,Jamaica,JAM,Honduras,HND,TRUE,3,2,win,Kingston,Jamaica,FALSE,1552,1600,1573,1579,21
-2019-06-21,Gold Cup,played,Jamaica,JAM,El Salvador,SLV,FALSE,0,0,draw,Houston,United States,TRUE,1573,1544,1571,1546,-2
-2019-06-25,Gold Cup,played,Jamaica,JAM,Curaçao,,TRUE,1,1,draw,Los Angeles,United States,TRUE,1571,1358,1557,1372,-14
-2019-06-30,Gold Cup,played,Jamaica,JAM,Panama,PAN,TRUE,1,0,win,Philadelphia,United States,TRUE,1557,1584,1584,1557,27
-2019-07-03,Gold Cup,played,Jamaica,JAM,United States,USA,FALSE,1,3,loss,Nashville,United States,FALSE,1584,1750,1571,1763,-13
-2019-09-06,CONCACAF Nations League,played,Jamaica,JAM,Antigua and Barbuda,,TRUE,6,0,win,Montego Bay,Jamaica,FALSE,1571,1176,1576,1171,5
-2019-09-09,CONCACAF Nations League,played,Jamaica,JAM,Guyana,,FALSE,4,0,win,Georgetown,Guyana,FALSE,1576,1191,1588,1179,12
-2019-10-12,CONCACAF Nations League,played,Jamaica,JAM,Aruba,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1588,907,1589,906,1
-2019-10-15,CONCACAF Nations League,played,Jamaica,JAM,Aruba,,FALSE,6,0,win,Willemstad,Curaçao,TRUE,1589,906,1591,904,2
-2019-11-15,CONCACAF Nations League,played,Jamaica,JAM,Antigua and Barbuda,,FALSE,2,0,win,North Sound,Antigua and Barbuda,FALSE,1591,1160,1599,1152,8
-2019-11-18,CONCACAF Nations League,played,Jamaica,JAM,Guyana,,TRUE,1,1,draw,Montego Bay,Jamaica,FALSE,1599,1200,1581,1218,-18
-2020-11-14,Friendly,played,Jamaica,JAM,Saudi Arabia,SAU,FALSE,0,3,loss,Riyadh,Saudi Arabia,FALSE,1584,1554,1570,1568,-14
-2020-11-17,Friendly,played,Jamaica,JAM,Saudi Arabia,SAU,FALSE,2,1,win,Riyadh,Saudi Arabia,FALSE,1570,1568,1583,1555,13
-2021-03-25,Friendly,played,Jamaica,JAM,United States,USA,FALSE,1,4,loss,Wiener Neustadt,Austria,TRUE,1583,1747,1573,1757,-10
-2021-06-07,Friendly,played,Jamaica,JAM,Serbia,SRB,FALSE,1,1,draw,Miki,Japan,TRUE,1573,1799,1579,1793,6
-2021-07-12,Gold Cup,played,Jamaica,JAM,Suriname,,TRUE,2,0,win,Orlando,United States,TRUE,1579,1337,1594,1322,15
-2021-07-16,Gold Cup,played,Jamaica,JAM,Guadeloupe,,FALSE,2,1,win,Orlando,United States,TRUE,1594,1237,1600,1231,6
-2021-07-20,Gold Cup,played,Jamaica,JAM,Costa Rica,CRI,FALSE,0,1,loss,Orlando,United States,TRUE,1600,1641,1578,1663,-22
-2021-07-25,Gold Cup,played,Jamaica,JAM,United States,USA,FALSE,0,1,loss,Arlington,United States,FALSE,1578,1821,1572,1827,-6
-2021-09-02,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1572,1891,1569,1894,-3
-2021-09-05,FIFA World Cup qualification,played,Jamaica,JAM,Panama,PAN,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1569,1541,1522,1588,-47
-2021-09-08,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1522,1617,1532,1607,10
-2021-10-07,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,FALSE,0,2,loss,Austin,United States,FALSE,1532,1860,1527,1865,-5
-2021-10-10,FIFA World Cup qualification,played,Jamaica,JAM,Canada,CAN,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1527,1748,1534,1741,7
-2021-10-13,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,FALSE,2,0,win,San Pedro Sula,Honduras,FALSE,1534,1567,1575,1526,41
-2021-11-12,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,FALSE,1,1,draw,San Salvador,El Salvador,FALSE,1575,1504,1577,1502,2
-2021-11-16,FIFA World Cup qualification,played,Jamaica,JAM,United States,USA,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1577,1866,1587,1856,10
-2022-01-20,Friendly,played,Jamaica,JAM,Peru,PER,FALSE,0,3,loss,Lima,Peru,FALSE,1587,1828,1583,1832,-4
-2022-01-27,FIFA World Cup qualification,played,Jamaica,JAM,Mexico,MEX,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1583,1839,1571,1851,-12
-2022-01-30,FIFA World Cup qualification,played,Jamaica,JAM,Panama,PAN,FALSE,2,3,loss,Panama City,Panama,FALSE,1571,1618,1559,1630,-12
-2022-02-02,FIFA World Cup qualification,played,Jamaica,JAM,Costa Rica,CRI,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1559,1647,1538,1668,-21
-2022-03-24,FIFA World Cup qualification,played,Jamaica,JAM,El Salvador,SLV,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1538,1517,1531,1524,-7
-2022-03-27,FIFA World Cup qualification,played,Jamaica,JAM,Canada,CAN,FALSE,0,4,loss,Toronto,Canada,FALSE,1531,1817,1524,1824,-7
-2022-03-30,FIFA World Cup qualification,played,Jamaica,JAM,Honduras,HND,TRUE,2,1,win,Kingston,Jamaica,FALSE,1524,1445,1535,1434,11
-2022-06-04,CONCACAF Nations League,played,Jamaica,JAM,Suriname,,FALSE,1,1,draw,Paramaribo,Suriname,FALSE,1535,1322,1529,1328,-6
-2022-06-07,CONCACAF Nations League,played,Jamaica,JAM,Suriname,,TRUE,3,1,win,Kingston,Jamaica,FALSE,1529,1328,1538,1319,9
-2022-06-14,CONCACAF Nations League,played,Jamaica,JAM,Mexico,MEX,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1538,1832,1548,1822,10
-2022-09-27,Friendly,played,Jamaica,JAM,Argentina,ARG,FALSE,0,3,loss,Harrison,United States,TRUE,1553,2140,1552,2141,-1
-2022-11-09,Friendly,played,Jamaica,JAM,Cameroon,CMR,FALSE,1,1,draw,Yaoundé,Cameroon,FALSE,1552,1610,1556,1606,4
-2023-03-11,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,0,1,loss,Montego Bay,Jamaica,FALSE,1556,1341,1539,1358,-17
-2023-03-14,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1539,1358,1532,1365,-7
-2023-03-26,CONCACAF Nations League,played,Jamaica,JAM,Mexico,MEX,FALSE,2,2,draw,Mexico City,Mexico,FALSE,1532,1818,1548,1802,16
-2023-06-15,Friendly,played,Jamaica,JAM,Qatar,QAT,TRUE,1,2,loss,Ritzing,Austria,TRUE,1548,1545,1538,1555,-10
-2023-06-19,Friendly,played,Jamaica,JAM,Jordan,,TRUE,1,2,loss,Wiener Neustadt,Austria,TRUE,1538,1589,1529,1598,-9
-2023-06-24,Gold Cup,played,Jamaica,JAM,United States,USA,FALSE,1,1,draw,Chicago,United States,FALSE,1529,1849,1550,1828,21
-2023-06-28,Gold Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,4,1,win,St. Louis,United States,TRUE,1550,1401,1576,1375,26
-2023-07-02,Gold Cup,played,Jamaica,JAM,Saint Kitts and Nevis,,TRUE,5,0,win,Santa Clara,United States,TRUE,1576,1179,1585,1170,9
-2023-07-09,Gold Cup,played,Jamaica,JAM,Guatemala,,FALSE,1,0,win,Cincinnati,United States,TRUE,1585,1517,1605,1497,20
-2023-07-12,Gold Cup,played,Jamaica,JAM,Mexico,MEX,TRUE,0,3,loss,Paradise,United States,TRUE,1605,1802,1584,1823,-21
-2023-09-08,CONCACAF Nations League,played,Jamaica,JAM,Honduras,HND,TRUE,1,0,win,Kingston,Jamaica,FALSE,1584,1492,1594,1482,10
-2023-09-12,CONCACAF Nations League,played,Jamaica,JAM,Haiti,HTI,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1594,1510,1584,1520,-10
-2023-10-12,CONCACAF Nations League,played,Jamaica,JAM,Grenada,,FALSE,4,1,win,St. George's,Grenada,FALSE,1584,1114,1591,1107,7
-2023-10-15,CONCACAF Nations League,played,Jamaica,JAM,Haiti,HTI,FALSE,3,2,win,Port of Spain,Trinidad and Tobago,TRUE,1591,1512,1607,1496,16
-2023-11-11,Friendly,played,Jamaica,JAM,Guatemala,,FALSE,0,0,draw,Harrison,United States,TRUE,1607,1491,1604,1494,-3
-2023-11-18,CONCACAF Nations League,played,Jamaica,JAM,Canada,CAN,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1604,1718,1585,1737,-19
-2023-11-21,CONCACAF Nations League,played,Jamaica,JAM,Canada,CAN,FALSE,3,2,win,Toronto,Canada,FALSE,1585,1737,1617,1705,32
-2024-03-01,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,0,win,Port of Spain,Trinidad and Tobago,FALSE,1617,1432,1625,1424,8
-2024-03-03,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,0,0,draw,Arima,Trinidad and Tobago,FALSE,1625,1424,1622,1427,-3
-2024-03-21,CONCACAF Nations League,played,Jamaica,JAM,United States,USA,FALSE,1,3,loss,Arlington,United States,FALSE,1622,1760,1610,1772,-12
-2024-03-24,CONCACAF Nations League,played,Jamaica,JAM,Panama,PAN,TRUE,1,0,win,Arlington,United States,TRUE,1610,1733,1637,1706,27
-2024-06-06,FIFA World Cup qualification,played,Jamaica,JAM,Dominican Republic,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1637,1208,1639,1206,2
-2024-06-09,FIFA World Cup qualification,played,Jamaica,JAM,Dominica,,FALSE,3,2,win,Roseau,Dominica,FALSE,1639,1007,1641,1005,2
-2024-06-22,Copa América,played,Jamaica,JAM,Mexico,MEX,FALSE,0,1,loss,Houston,United States,TRUE,1641,1791,1626,1806,-15
-2024-06-26,Copa América,played,Jamaica,JAM,Ecuador,ECU,FALSE,1,3,loss,Las Vegas,United States,TRUE,1626,1842,1609,1859,-17
-2024-06-30,Copa América,played,Jamaica,JAM,Venezuela,,TRUE,0,3,loss,Austin,United States,TRUE,1609,1805,1588,1826,-21
-2024-09-06,CONCACAF Nations League,played,Jamaica,JAM,Cuba,CUB,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1588,1294,1572,1310,-16
-2024-09-10,CONCACAF Nations League,played,Jamaica,JAM,Honduras,HND,FALSE,2,1,win,Tegucigalpa,Honduras,FALSE,1572,1528,1595,1505,23
-2024-10-10,CONCACAF Nations League,played,Jamaica,JAM,Nicaragua,,FALSE,2,0,win,Managua,Nicaragua,FALSE,1595,1373,1615,1353,20
-2024-10-14,CONCACAF Nations League,played,Jamaica,JAM,Honduras,HND,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1615,1518,1605,1528,-10
-2024-11-14,CONCACAF Nations League,played,Jamaica,JAM,United States,USA,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1605,1728,1586,1747,-19
-2024-11-18,CONCACAF Nations League,played,Jamaica,JAM,United States,USA,FALSE,2,4,loss,Saint Louis,United States,FALSE,1586,1747,1575,1758,-11
-2025-02-07,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,0,win,Montego Bay,Jamaica,FALSE,,,,,
-2025-02-10,Friendly,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,1,1,draw,Kingston,Jamaica,FALSE,,,,,
-2025-03-21,Gold Cup qualification,played,Jamaica,JAM,Saint Vincent and the Grenadines,,FALSE,1,1,draw,Kingstown,Saint Vincent and the Grenadines,FALSE,1571,1121,1556,1136,-15
-2025-03-25,Gold Cup qualification,played,Jamaica,JAM,Saint Vincent and the Grenadines,,TRUE,3,0,win,Kingston,Jamaica,FALSE,1556,1136,1559,1133,3
-2025-05-27,Unity Cup,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,3,2,win,London,England,TRUE,1559,1431,1569,1421,10
-2025-05-31,Unity Cup,played,Jamaica,JAM,Nigeria,NGA,TRUE,2,2,draw,London,England,TRUE,1569,1569,1569,1569,0
-2025-06-07,FIFA World Cup qualification,played,Jamaica,JAM,British Virgin Islands,,FALSE,1,0,win,Road Town,British Virgin Islands,FALSE,1569,627,1569,627,0
-2025-06-10,FIFA World Cup qualification,played,Jamaica,JAM,Guatemala,,TRUE,3,0,win,Kingston,Jamaica,FALSE,1569,1501,1588,1482,19
-2025-06-16,Gold Cup,played,Jamaica,JAM,Guatemala,,TRUE,0,1,loss,Carson,United States,TRUE,1588,1482,1556,1514,-32
-2025-06-20,Gold Cup,played,Jamaica,JAM,Guadeloupe,,TRUE,2,1,win,San Jose,United States,TRUE,1556,1366,1569,1353,13
-2025-06-24,Gold Cup,played,Jamaica,JAM,Panama,PAN,FALSE,1,4,loss,Austin,United States,TRUE,1569,1750,1546,1773,-23
-2025-09-05,FIFA World Cup qualification,played,Jamaica,JAM,Bermuda,,FALSE,4,0,win,Devonshire Parish,Bermuda,FALSE,1546,1167,1559,1154,13
-2025-09-09,FIFA World Cup qualification,played,Jamaica,JAM,Trinidad and Tobago,TTO,TRUE,2,0,win,Kingston,Jamaica,FALSE,1559,1401,1570,1390,11
-2025-10-10,FIFA World Cup qualification,played,Jamaica,JAM,Curaçao,,FALSE,0,2,loss,Willemstad,Curaçao,FALSE,1570,1407,1535,1442,-35
-2025-10-14,FIFA World Cup qualification,played,Jamaica,JAM,Bermuda,,TRUE,4,0,win,Kingston,Jamaica,FALSE,1535,1127,1539,1123,4
-2025-11-13,FIFA World Cup qualification,played,Jamaica,JAM,Trinidad and Tobago,TTO,FALSE,1,1,draw,Port of Spain,Trinidad and Tobago,FALSE,1539,1419,1538,1420,-1
-2025-11-18,FIFA World Cup qualification,played,Jamaica,JAM,Curaçao,,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1538,1456,1528,1466,-10
-2026-01-18,Friendly,played,Jamaica,JAM,Grenada,,FALSE,1,0,win,St. George's,Grenada,FALSE,1528,1122,1531,1119,3
-2026-03-26,FIFA World Cup qualification,played,Jamaica,JAM,New Caledonia,,FALSE,1,0,win,Zapopan,Mexico,TRUE,1542,1294,1550,1286,8
-2026-03-31,FIFA World Cup qualification,played,Jamaica,JAM,DR Congo,,FALSE,0,1,loss,Zapopan,Mexico,TRUE,1550,1640,1535,1655,-15
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1925-03-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1400,1300,1410,1290,10
+,,,1925-03-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,3,0,win,Port-au-Prince,Haiti,FALSE,1410,1290,1426,1274,16
+,,,1925-03-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1426,1274,1435,1265,9
+,,,1926-03-03,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1435,1586,1452,1569,17
+,,,1926-11-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,6,0,win,Kingston,Jamaica,FALSE,1452,1288,1460,1280,8
+,,,1930-03-16,Central American and Caribbean Games,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,1,3,loss,Havana,Cuba,FALSE,1460,1600,1448,1612,-12
+,,,1930-03-18,Central American and Caribbean Games,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,4,5,loss,Havana,Cuba,TRUE,1448,1368,1423,1393,-25
+,,,1932-03-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,4,loss,Port-au-Prince,Haiti,FALSE,1423,1280,1403,1300,-20
+,,,1932-03-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1403,1300,1413,1290,10
+,,,1935-12-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,3,loss,Kingston,Jamaica,FALSE,1413,1558,1404,1567,-9
+,,,1936-01-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1404,1567,1396,1575,-8
+,,,1936-01-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1396,1575,1388,1583,-8
+,,,1938-03-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,5,loss,Port-au-Prince,Haiti,FALSE,1388,1279,1370,1297,-18
+,,,1938-03-17,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,1370,1297,1356,1311,-14
+,,,1938-03-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,1356,1311,1343,1324,-13
+,,,1947-02-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1343,1586,1347,1582,4
+,,,1947-02-15,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1347,1582,1361,1568,14
+,,,1947-02-19,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1361,1568,1374,1555,13
+,,,1947-02-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1374,1555,1366,1563,-8
+,,,1947-02-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,6,loss,Kingston,Jamaica,FALSE,1366,1563,1351,1578,-15
+,,,1947-11-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,TRUE,1351,1355,1329,1377,-22
+,,,1947-11-08,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,6,loss,Port of Spain,Trinidad and Tobago,FALSE,1329,1526,1319,1536,-10
+,,,1947-11-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,TRUE,1319,1377,1321,1375,2
+,,,1947-11-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,San Fernando,Trinidad and Tobago,FALSE,,,,,
+,,,1948-06-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,,,,,
+,,,1948-06-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,,,,,
+,,,1948-10-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,,,,,
+,,,1948-10-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1342,1416,1331,1427,-11
+,,,1948-10-16,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,1331,1427,1348,1410,17
+,,,1949-05-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,1,win,Kingston,Jamaica,FALSE,1348,1520,1366,1502,18
+,,,1949-05-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1366,1502,1377,1491,11
+,,,1949-05-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1377,1491,1367,1501,-10
+,,,1949-12-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,5,2,win,Port-au-Prince,Haiti,TRUE,,,,,
+,,,1949-12-19,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,1367,1403,1353,1417,-14
+,,,1950-10-14,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1353,1368,1361,1360,8
+,,,1951-05-25,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,0,3,loss,Bridgetown,Barbados,FALSE,1361,1231,1342,1250,-19
+,,,1951-05-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1342,1250,1352,1240,10
+,,,1951-05-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,2,5,loss,Bridgetown,Barbados,FALSE,1352,1240,1334,1258,-18
+,,,1951-12-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1334,1360,1332,1362,-2
+,,,1951-12-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1332,1362,1320,1374,-12
+,,,1951-12-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1320,1374,1329,1365,9
+,,,1952-07-19,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,4,loss,Port-au-Prince,Haiti,FALSE,1329,1365,1318,1376,-11
+,,,1952-07-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,3,3,draw,Port-au-Prince,Haiti,FALSE,1318,1376,1322,1372,4
+,,,1952-07-23,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,1322,1372,1313,1381,-9
+,,,1952-07-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,3,loss,Port-au-Prince,Haiti,FALSE,1313,1381,1307,1387,-6
+,,,1953-08-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,2,win,Kingston,Jamaica,FALSE,1307,1593,1322,1578,15
+,,,1953-08-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1322,1578,1316,1584,-6
+,,,1953-11-14,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,4,loss,Port-au-Prince,Haiti,FALSE,1316,1376,1306,1386,-10
+,,,1953-11-21,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,1,loss,Port-au-Prince,Haiti,FALSE,1306,1386,1301,1391,-5
+,,,1957-01-21,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1301,1537,1322,1516,21
+,,,1957-01-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1322,1516,1335,1503,13
+,,,1957-01-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1335,1503,1347,1491,12
+,,,1958-05-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1347,1491,1343,1495,-4
+,,,1958-05-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,4,loss,Port of Spain,Trinidad and Tobago,FALSE,1343,1495,1336,1502,-7
+,,,1958-05-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,0,win,Port of Spain,Trinidad and Tobago,FALSE,1336,1502,1352,1486,16
+,,,1959-03-01,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,FALSE,2,2,draw,Port of Spain,Trinidad and Tobago,TRUE,1352,1263,1348,1267,-4
+,,,1959-03-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,3,1,win,Port of Spain,Trinidad and Tobago,TRUE,1348,1241,1364,1225,16
+,,,1959-03-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1364,1496,1358,1502,-6
+,,,1962-05-19,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,4,loss,Kingston,Jamaica,FALSE,1397,1463,1386,1474,-11
+,,,1962-05-21,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,3,loss,Kingston,Jamaica,FALSE,1386,1474,1370,1490,-16
+,,,1962-05-23,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,5,loss,Kingston,Jamaica,FALSE,1370,1490,1354,1506,-16
+,,,1962-07-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,4,4,draw,Kingston,Jamaica,FALSE,1354,1514,1356,1512,2
+,,,1962-07-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1356,1512,1368,1500,12
+,,,1962-07-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1368,1500,1359,1509,-9
+,,,1963-02-23,Phillip Seaga Cup,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,2,win,Kingston,Jamaica,FALSE,1315,1506,1334,1487,19
+,,,1963-02-27,Phillip Seaga Cup,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1334,1537,1323,1548,-11
+,,,1963-03-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1323,1545,1316,1552,-7
+,,,1963-03-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1316,1490,1302,1504,-14
+,,,1963-03-24,CONCACAF Championship,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,6,loss,Santa Ana,El Salvador,TRUE,1302,1707,1293,1716,-9
+,,,1963-03-28,CONCACAF Championship,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,8,loss,Santa Ana,El Salvador,TRUE,1293,1806,1287,1812,-6
+,,,1963-03-30,CONCACAF Championship,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,1,2,loss,Santa Ana,El Salvador,TRUE,1287,1577,1279,1585,-8
+,,,1963-08-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1277,1531,1271,1537,-6
+,,,1963-08-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1271,1537,1275,1533,4
+,,,1963-08-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1275,1533,1279,1529,4
+,,,1965-01-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1279,1125,1290,1114,11
+,,,1965-01-23,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1290,1546,1333,1503,43
+,,,1965-02-03,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,FALSE,0,0,draw,Havana,Cuba,TRUE,1333,1510,1342,1501,9
+,,,1965-02-07,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,1,2,loss,Havana,Cuba,FALSE,1342,1124,1315,1151,-27
+,,,1965-05-03,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,3,loss,Kingston,Jamaica,FALSE,1315,1855,1312,1858,-3
+,,,1965-05-07,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,8,loss,Mexico City,Mexico,FALSE,1312,1858,1310,1860,-2
+,,,1965-05-11,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,7,loss,San José,Costa Rica,FALSE,1310,1780,1307,1783,-3
+,,,1965-05-22,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1307,1772,1323,1756,16
+,,,1965-08-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,4,0,win,Kingston,Jamaica,FALSE,1325,1463,1356,1432,31
+,,,1965-12-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,FALSE,3,0,win,Hamilton,Bermuda,FALSE,1356,1350,1378,1328,22
+,,,1966-06-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,FALSE,0,0,draw,Port-au-Prince,Haiti,TRUE,,,,,
+,,,1966-06-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,TRUE,0,0,draw,Port-au-Prince,Haiti,TRUE,1382,1502,1387,1497,5
+,,,1966-06-15,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,4,loss,Port-au-Prince,Haiti,TRUE,1371,1471,1352,1490,-19
+,,,1966-06-17,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,TRUE,3,5,loss,Port-au-Prince,Haiti,TRUE,,,,,
+,,,1966-06-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,3,loss,Port-au-Prince,Haiti,FALSE,1267,1437,1258,1446,-9
+,,,1967-01-11,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1269,1518,1277,1510,8
+,,,1967-01-14,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1277,1224,1289,1212,12
+,,,1967-01-18,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1289,1448,1292,1445,3
+,,,1967-01-21,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1292,1488,1277,1503,-15
+,,,1967-11-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,San Fernando,Trinidad and Tobago,FALSE,,,,,
+,,,1967-12-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1270,1399,1264,1405,-6
+,,,1968-11-27,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,3,loss,San José,Costa Rica,FALSE,1264,1694,1261,1697,-3
+,,,1968-12-01,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,3,loss,San José,Costa Rica,FALSE,1261,1697,1258,1700,-3
+,,,1968-12-05,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,3,loss,Tegucigalpa,Honduras,FALSE,1258,1382,1245,1395,-13
+,,,1968-12-08,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1245,1395,1233,1407,-12
+,,,1969-02-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1233,1460,1250,1443,17
+,,,1969-02-08,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,3,loss,Port-au-Prince,Haiti,FALSE,1250,1443,1245,1448,-5
+,,,1969-11-03,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1245,1177,1236,1186,-9
+,,,1969-11-05,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1236,1186,1248,1174,12
+,,,1969-11-23,CONCACAF Championship,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,3,loss,San José,Costa Rica,FALSE,1248,1645,1243,1650,-5
+,,,1969-11-27,CONCACAF Championship,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,TRUE,1243,1780,1240,1783,-3
+,,,1969-11-30,CONCACAF Championship,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,3,loss,San José,Costa Rica,TRUE,1240,1390,1225,1405,-15
+,,,1969-12-04,CONCACAF Championship,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,TRUE,0,0,draw,San José,Costa Rica,TRUE,1225,1625,1245,1605,20
+,,,1969-12-06,CONCACAF Championship,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,1,2,loss,San José,Costa Rica,TRUE,1245,1458,1234,1469,-11
+,,,1971-10-01,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1250,1342,1230,1362,-20
+,,,1971-10-04,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,0,draw,Havana,Cuba,FALSE,1230,1362,1242,1350,12
+,,,1972-04-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1257,1400,1274,1383,17
+,,,1972-12-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,FALSE,0,0,draw,Hamilton,Bermuda,FALSE,1280,1347,1284,1343,4
+,,,1972-12-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,FALSE,3,0,win,Hamilton,Bermuda,FALSE,1284,1343,1309,1318,25
+,,,1973-11-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,FALSE,1,2,loss,Georgetown,Guyana,FALSE,1309,1192,1293,1208,-16
+,,,1974-03-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Uruguay,URY,URY,CONMEBOL,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1293,1776,1290,1779,-3
+,,,1974-08-30,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,New York,United States,TRUE,,,,,
+,,,1974-08-31,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,New York,United States,TRUE,,,,,
+,,,1975-02-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1339,1548,1352,1535,13
+,,,1975-02-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1352,1535,1344,1543,-8
+,,,1975-02-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1344,1543,1361,1526,17
+,,,1975-02-25,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,3,loss,Port-au-Prince,Haiti,FALSE,1361,1526,1357,1530,-4
+,,,1976-08-15,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,1,3,loss,Kingston,Jamaica,FALSE,1357,1557,1335,1579,-22
+,,,1976-08-29,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,2,loss,Havana,Cuba,FALSE,1335,1579,1328,1586,-7
+,,,1977-10-23,Friendly,played,Jamaica,JAM,JAM,CONCACAF,China PR,,,,TRUE,0,1,loss,Kingston,Jamaica,FALSE,,,,,
+,,,1977-10-31,Friendly,played,Jamaica,JAM,JAM,CONCACAF,China PR,,,,TRUE,0,3,loss,Kingston,Jamaica,FALSE,,,,,
+,,,1978-07-02,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,FALSE,0,1,loss,Pointe-à-Pitre,Guadeloupe,FALSE,1310,1428,1301,1437,-9
+,,,1978-07-30,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1301,1437,1283,1455,-18
+,,,1979-06-03,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1261,1137,1270,1128,9
+,,,1979-06-17,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,FALSE,2,1,win,Basseterre,Saint Kitts and Nevis,FALSE,1270,1128,1288,1110,18
+,,,1979-10-28,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,3,loss,Port-au-Prince,Haiti,FALSE,,,,,
+,,,1979-11-02,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,4,loss,Kingston,Jamaica,FALSE,1279,1590,1262,1607,-17
+,,,1984-04-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1264,1439,1256,1447,-8
+,,,1985-03-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,1,draw,Montego Bay,Jamaica,FALSE,1256,1613,1262,1607,6
+,,,1985-03-17,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1262,1607,1268,1601,6
+,,,1985-04-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,2,2,draw,Bridgetown,Barbados,FALSE,1268,1306,1272,1302,4
+,,,1986-02-05,Miami Cup,played,Jamaica,JAM,JAM,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,4,loss,Miami,United States,TRUE,1272,1779,1269,1782,-3
+,,,1987-02-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,3,1,win,George Town,Cayman Islands,FALSE,,,,,
+,,,1987-04-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1263,1519,1284,1498,21
+,,,1988-04-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,4,loss,Kingston,Jamaica,FALSE,1284,1562,1274,1572,-10
+,,,1988-04-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,0,draw,Montego Bay,Jamaica,FALSE,1274,1572,1279,1567,5
+,,,1988-05-12,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Puerto Rico,,,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1279,955,1282,952,3
+,,,1988-05-29,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,Puerto Rico,,,,FALSE,2,1,win,San Juan,Puerto Rico,FALSE,1282,952,1290,944,8
+,,,1988-07-24,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1286,1562,1295,1553,9
+,,,1988-08-13,CONCACAF Championship qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,5,loss,St. Louis,United States,FALSE,1295,1553,1287,1561,-8
+,,,1989-03-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1287,1810,1284,1813,-3
+,,,1989-03-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,1,1,draw,Bridgetown,Barbados,FALSE,1284,1239,1286,1237,2
+,,,1989-03-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,1,1,draw,Bridgetown,Barbados,FALSE,1286,1237,1288,1235,2
+,,,1989-04-23,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,FALSE,0,1,loss,St. John's,Antigua and Barbuda,FALSE,1288,1199,1269,1218,-19
+,,,1989-05-07,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,TRUE,1,3,loss,Kingston,Jamaica,FALSE,1269,1372,1239,1402,-30
+,,,1989-06-04,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Dominica,,,,FALSE,0,0,draw,Roseau,Dominica,FALSE,1239,1169,1241,1167,2
+,,,1989-06-18,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1241,1301,1239,1303,-2
+,,,1990-03-16,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1239,1241,1220,1260,-19
+,,,1990-03-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1220,1260,1232,1248,12
+,,,1990-04-29,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,TRUE,3,0,win,Kingston,Jamaica,FALSE,1232,1209,1255,1186,23
+,,,1990-05-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,2,1,win,George Town,Cayman Islands,FALSE,,,,,
+,,,1990-05-20,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Martin,,,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1262,1120,1270,1112,8
+,,,1990-05-30,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,FALSE,0,0,draw,Pointe-à-Pitre,Guadeloupe,FALSE,1270,1365,1280,1355,10
+,,,1990-07-27,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,FALSE,1283,1552,1299,1536,16
+,,,1991-05-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1299,1345,1307,1337,8
+,,,1991-05-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,0,win,Savanna-la-Mar,Jamaica,FALSE,1307,1337,1319,1325,12
+,,,1991-05-24,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,TRUE,6,0,win,Kingston,Jamaica,FALSE,1319,1243,1342,1220,23
+,,,1991-05-26,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,TRUE,3,2,win,Kingston,Jamaica,FALSE,1342,1064,1346,1060,4
+,,,1991-05-30,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1346,1315,1365,1296,19
+,,,1991-06-02,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1365,1511,1399,1477,34
+,,,1991-06-28,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,4,loss,Los Angeles,United States,TRUE,1399,1863,1393,1869,-6
+,,,1991-06-30,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,5,loss,Los Angeles,United States,TRUE,1393,1573,1367,1599,-26
+,,,1991-07-02,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,3,loss,Los Angeles,United States,TRUE,,,,,
+,,,1991-09-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,FALSE,1,1,draw,Hamilton,Bermuda,FALSE,1353,1386,1357,1382,4
+,,,1991-09-14,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,High Point,United States,FALSE,1357,1719,1356,1720,-1
+,,,1992-04-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1356,1376,1354,1378,-2
+,,,1992-05-23,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Puerto Rico,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1354,948,1356,946,2
+,,,1992-05-30,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Puerto Rico,,,,FALSE,1,0,win,San Juan,Puerto Rico,FALSE,1356,946,1362,940,6
+,,,1992-06-20,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,FALSE,1,0,win,San Fernando,Trinidad and Tobago,TRUE,1389,1359,1407,1341,18
+,,,1992-06-22,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,0,draw,San Fernando,Trinidad and Tobago,TRUE,1407,1520,1413,1514,6
+,,,1992-06-24,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Martinique,,,,TRUE,1,0,win,Port of Spain,Trinidad and Tobago,TRUE,1413,1441,1435,1419,22
+,,,1992-06-27,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,FALSE,,,,,
+,,,1992-07-05,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1421,1560,1453,1528,32
+,,,1992-08-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1453,1528,1452,1529,-1
+,,,1992-09-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,5,loss,Tegucigalpa,Honduras,FALSE,1452,1656,1446,1662,-6
+,,,1992-09-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,7,loss,San Pedro Sula,Honduras,FALSE,1446,1662,1440,1668,-6
+,,,1992-09-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,1,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1440,1302,1453,1289,13
+,,,1992-10-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,3,3,draw,Kingston,Jamaica,FALSE,1453,1289,1443,1299,-10
+,,,1992-10-18,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1443,1538,1443,1538,0
+,,,1992-10-25,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,FALSE,1,1,draw,Hamilton,Bermuda,FALSE,1443,1431,1448,1426,5
+,,,1992-11-01,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,1,loss,Toronto,Canada,FALSE,1448,1538,1438,1548,-10
+,,,1992-11-08,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,TRUE,3,2,win,Kingston,Jamaica,FALSE,1438,1402,1451,1389,13
+,,,1992-11-22,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,2,loss,Kingston,Jamaica,FALSE,1451,1492,1416,1527,-35
+,,,1992-12-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1416,1459,1410,1465,-6
+,,,1992-12-06,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1410,1527,1401,1536,-9
+,,,1993-05-21,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,TRUE,4,1,win,Kingston,Jamaica,FALSE,1401,1162,1410,1153,9
+,,,1993-05-23,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Sint Maarten,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1410,950,1412,948,2
+,,,1993-05-25,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Puerto Rico,,,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1412,1072,1415,1069,3
+,,,1993-05-28,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,1415,1508,1449,1474,34
+,,,1993-05-30,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Martinique,,,,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1449,1493,1446,1496,-3
+,,,1993-07-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1446,1587,1447,1586,1
+,,,1993-07-10,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Dallas,United States,FALSE,1447,1603,1438,1612,-9
+,,,1993-07-14,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,3,1,win,Dallas,United States,TRUE,1438,1622,1494,1566,56
+,,,1993-07-17,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Dallas,United States,TRUE,1494,1290,1481,1303,-13
+,,,1993-07-22,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,6,loss,Mexico City,Mexico,FALSE,1481,1869,1475,1875,-6
+,,,1993-07-25,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Mexico City,Mexico,TRUE,1475,1615,1485,1605,10
+,,,1993-11-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Fullerton,United States,FALSE,1485,1623,1481,1627,-4
+,,,1994-03-02,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Sint Maarten,,,,TRUE,3,2,win,George Town,Cayman Islands,TRUE,1481,959,1483,957,2
+,,,1994-03-04,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,British Virgin Islands,,,,TRUE,12,0,win,George Town,Cayman Islands,TRUE,1483,853,1486,850,3
+,,,1994-03-06,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,2,3,loss,West Bay,Cayman Islands,FALSE,1486,998,1450,1034,-36
+,,,1994-11-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1450,1616,1436,1630,-14
+,,,1995-03-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1436,1496,1435,1497,-1
+,,,1995-07-19,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1435,1312,1444,1303,9
+,,,1995-07-21,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,1,2,loss,Montego Bay,Jamaica,FALSE,1444,1500,1421,1523,-23
+,,,1995-07-23,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1421,1579,1444,1556,23
+,,,1995-08-01,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,3,loss,Toronto,Canada,FALSE,1444,1569,1434,1579,-10
+,,,1995-08-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Toronto,Canada,TRUE,1434,1567,1454,1547,20
+,,,1995-08-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Zambia,,,,TRUE,1,1,draw,Montego Bay,Jamaica,FALSE,1454,1639,1456,1637,2
+,,,1995-08-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Zambia,,,,TRUE,3,1,win,Kingston,Jamaica,FALSE,1456,1637,1474,1619,18
+,,,1995-09-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1474,1547,1469,1552,-5
+,,,1995-09-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1469,1609,1486,1592,17
+,,,1995-10-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1486,1535,1495,1526,9
+,,,1995-10-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,George Town,Cayman Islands,TRUE,1495,1552,1512,1535,17
+,,,1995-10-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,5,1,win,George Town,Cayman Islands,FALSE,1512,1081,1519,1074,7
+,,,1995-11-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Zambia,,,,FALSE,2,4,loss,Lusaka,Zambia,FALSE,1514,1608,1507,1615,-7
+,,,1995-11-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Norway,NOR,NOR,UEFA,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1507,1826,1513,1820,6
+,,,1995-12-03,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,FALSE,2,1,win,St. John's,Antigua and Barbuda,FALSE,1513,1151,1517,1147,4
+,,,1995-12-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,FALSE,3,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1517,1142,1523,1136,6
+,,,1995-12-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1523,1800,1538,1785,15
+,,,1996-01-14,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1538,1513,1535,1516,-3
+,,,1996-03-03,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1535,1457,1543,1449,8
+,,,1996-03-31,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,FALSE,1,0,win,Paramaribo,Suriname,FALSE,1543,1313,1556,1300,13
+,,,1996-04-21,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1556,1288,1560,1284,4
+,,,1996-04-24,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1560,1256,1565,1251,5
+,,,1996-04-28,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,0,2,loss,Bridgetown,Barbados,FALSE,1565,1251,1519,1297,-46
+,,,1996-05-24,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1519,1501,1504,1516,-15
+,,,1996-05-26,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,TRUE,4,1,win,Palo Seco,Trinidad and Tobago,TRUE,1504,1218,1515,1207,11
+,,,1996-05-28,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,TRUE,1515,1253,1466,1302,-49
+,,,1996-06-23,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1466,1314,1483,1297,17
+,,,1996-06-30,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1483,1297,1493,1287,10
+,,,1996-07-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1493,1312,1486,1319,-7
+,,,1996-08-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,2,loss,Panama City,Panama,FALSE,1486,1354,1470,1370,-16
+,,,1996-08-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1470,1456,1462,1464,-8
+,,,1996-09-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1462,1589,1478,1573,16
+,,,1996-09-15,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,1478,1559,1511,1526,33
+,,,1996-09-23,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,2,1,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1511,1281,1524,1268,13
+,,,1996-10-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,2,loss,Ambato,Ecuador,FALSE,1524,1698,1521,1701,-3
+,,,1996-10-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,0,draw,San José,Costa Rica,FALSE,1521,1554,1525,1550,4
+,,,1996-10-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1525,1822,1521,1826,-4
+,,,1996-10-26,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,0,draw,San Pedro Sula,Honduras,FALSE,1521,1571,1529,1563,8
+,,,1996-11-10,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,5,0,win,Kingston,Jamaica,FALSE,1529,1248,1537,1240,8
+,,,1996-11-17,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1537,1821,1567,1791,30
+,,,1997-02-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Venezuela,,,,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1567,1362,1560,1369,-7
+,,,1997-02-21,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1560,1379,1567,1372,7
+,,,1997-02-23,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,TRUE,3,2,win,Kingston,Jamaica,FALSE,1567,1372,1573,1366,6
+,,,1997-03-02,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1573,1655,1572,1656,-1
+,,,1997-03-23,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,6,loss,Oruro,Bolivia,FALSE,1572,1675,1562,1685,-10
+,,,1997-04-13,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,6,loss,Mexico City,Mexico,FALSE,1562,1811,1552,1821,-10
+,,,1997-04-27,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,0,draw,Burnaby,Canada,FALSE,1552,1623,1561,1614,9
+,,,1997-05-01,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,1,draw,Palo Seco,Trinidad and Tobago,FALSE,1561,1450,1561,1450,0
+,,,1997-05-04,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Aruba,,,,FALSE,6,0,win,Oranjestad,Aruba,FALSE,1561,985,1566,980,5
+,,,1997-05-11,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,3,loss,San José,Costa Rica,FALSE,1566,1643,1550,1659,-16
+,,,1997-05-18,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1550,1517,1563,1504,13
+,,,1997-06-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,,,,,
+,,,1997-07-04,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,TRUE,1,1,draw,St. John's,Antigua and Barbuda,TRUE,1570,1297,1557,1310,-13
+,,,1997-07-08,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,FALSE,2,0,win,St. John's,Antigua and Barbuda,FALSE,1557,1105,1564,1098,7
+,,,1997-07-10,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,1,draw,St. John's,Antigua and Barbuda,TRUE,1564,1460,1558,1466,-6
+,,,1997-07-13,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,TRUE,4,1,win,St. John's,Antigua and Barbuda,TRUE,1558,1313,1572,1299,14
+,,,1997-08-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,1,0,win,Kingston,Jamaica,FALSE,1572,1771,1585,1758,13
+,,,1997-08-31,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,6,1,win,Kingston,Jamaica,FALSE,1585,1483,1595,1473,10
+,,,1997-09-07,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1595,1620,1611,1604,16
+,,,1997-09-14,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1611,1600,1625,1586,14
+,,,1997-10-03,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,1,draw,"Washington, D.C.",United States,FALSE,1625,1672,1633,1664,8
+,,,1997-10-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1633,1337,1638,1332,5
+,,,1997-10-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,FALSE,3,1,win,Castries,Saint Lucia,FALSE,1638,1202,1642,1198,4
+,,,1997-10-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,FALSE,3,0,win,St. John's,Antigua and Barbuda,FALSE,1642,1098,1645,1095,3
+,,,1997-10-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,FALSE,1,1,draw,Basseterre,Saint Kitts and Nevis,FALSE,1645,1216,1638,1223,-7
+,,,1997-11-09,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1638,1518,1637,1519,-1
+,,,1997-11-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1637,1780,1639,1778,2
+,,,1998-01-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,FALSE,1637,1464,1635,1466,-2
+,,,1998-01-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Sweden,SWE,SWE,UEFA,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1635,1811,1637,1809,2
+,,,1998-02-03,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,0,0,draw,Miami,United States,TRUE,1637,2179,1660,2156,23
+,,,1998-02-08,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,3,2,win,Los Angeles,United States,TRUE,1660,1581,1679,1562,19
+,,,1998-02-09,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,Los Angeles,United States,TRUE,1679,1518,1700,1497,21
+,,,1998-02-12,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,Los Angeles,United States,TRUE,1700,1815,1683,1832,-17
+,,,1998-02-15,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Los Angeles,United States,TRUE,1683,2094,1679,2098,-4
+,,,1998-02-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Nigeria,NGA,NGA,CAF,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1679,1711,1677,1713,-2
+,,,1998-03-25,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1677,1575,1677,1575,0
+,,,1998-04-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,North Macedonia,,,,TRUE,1,2,loss,Tehran,Iran,TRUE,1677,1534,1656,1555,-21
+,,,1998-04-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1656,1628,1644,1640,-12
+,,,1998-05-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saudi Arabia,KSA,SAU,AFC,TRUE,0,0,draw,Nice,France,TRUE,1644,1630,1644,1630,0
+,,,1998-05-16,Friendly,played,Jamaica,JAM,JAM,CONCACAF,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Seoul,South Korea,FALSE,1644,1755,1639,1760,-5
+,,,1998-05-19,Friendly,played,Jamaica,JAM,JAM,CONCACAF,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Seoul,South Korea,FALSE,1639,1760,1645,1754,6
+WC-1998,WC-1998_012,12,1998-06-14,FIFA World Cup,played,Jamaica,JAM,JAM,CONCACAF,Croatia,HRV,HRV,UEFA,TRUE,1,3,loss,Lens,France,TRUE,1645,1874,1626,1893,-19
+WC-1998,WC-1998_028,28,1998-06-21,FIFA World Cup,played,Jamaica,JAM,JAM,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,0,5,loss,Paris,France,TRUE,1626,1911,1607,1930,-19
+WC-1998,WC-1998_047,47,1998-06-26,FIFA World Cup,played,Jamaica,JAM,JAM,CONCACAF,Japan,JPN,JPN,AFC,FALSE,2,1,win,Lyon,France,TRUE,1607,1708,1645,1670,38
+,,,1998-07-22,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,TRUE,4,0,win,Kingston,Jamaica,FALSE,1645,1103,1647,1101,2
+,,,1998-07-24,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,3,2,win,Kingston,Jamaica,FALSE,1647,1221,1649,1219,2
+,,,1998-07-26,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1649,1410,1654,1405,5
+,,,1998-07-29,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,TRUE,1,0,win,Port of Spain,Trinidad and Tobago,TRUE,1654,1220,1657,1217,3
+,,,1998-07-31,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1657,1488,1673,1472,16
+,,,1999-02-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1673,1620,1669,1624,-4
+,,,1999-02-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,9,loss,San José,Costa Rica,FALSE,1669,1624,1648,1645,-21
+,,,1999-03-03,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,0,draw,Guatemala City,Guatemala,TRUE,1648,1693,1650,1691,2
+,,,1999-03-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,3,loss,Guatemala City,Guatemala,TRUE,1650,1802,1637,1815,-13
+,,,1999-03-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,4,2,win,Guatemala City,Guatemala,FALSE,1637,1542,1660,1519,23
+,,,1999-03-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1660,1472,1641,1491,-19
+,,,1999-03-31,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,3,0,win,Kingston,Jamaica,FALSE,1641,1834,1663,1812,22
+,,,1999-05-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,South Africa,ZAF,ZAF,CAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1663,1621,1659,1625,-4
+,,,1999-05-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Norway,NOR,NOR,UEFA,FALSE,0,6,loss,Oslo,Norway,FALSE,1659,1886,1653,1892,-6
+,,,1999-05-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Sweden,SWE,SWE,UEFA,FALSE,1,2,loss,Solna,Sweden,FALSE,1653,1891,1650,1894,-3
+,,,1999-06-03,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1650,1508,1628,1530,-22
+,,,1999-06-05,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,TRUE,5,1,win,Port of Spain,Trinidad and Tobago,TRUE,1628,1353,1641,1340,13
+,,,1999-06-07,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,TRUE,2,1,win,Port of Spain,Trinidad and Tobago,TRUE,1641,1322,1646,1317,5
+,,,1999-06-10,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,TRUE,1646,1503,1604,1545,-42
+,,,1999-07-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,San Bernardino,United States,TRUE,1604,1718,1617,1705,13
+,,,1999-07-15,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saudi Arabia,KSA,SAU,AFC,TRUE,0,4,loss,Fullerton,United States,TRUE,1617,1705,1603,1719,-14
+,,,1999-08-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Ghana,GHA,GHA,CAF,FALSE,1,2,loss,Accra,Ghana,FALSE,1603,1560,1590,1573,-13
+,,,1999-09-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,1,loss,Toronto,Canada,FALSE,1590,1533,1581,1542,-9
+,,,1999-09-08,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1581,1817,1585,1813,4
+,,,1999-10-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,4,1,win,George Town,Cayman Islands,FALSE,1585,1121,1589,1117,4
+,,,2000-01-16,Friendly,played,Jamaica,JAM,JAM,CONCACAF,New Zealand,NZL,NZL,OFC,TRUE,2,1,win,Guangzhou,China PR,TRUE,1589,1501,1600,1490,11
+,,,2000-02-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,0,0,draw,George Town,Cayman Islands,FALSE,1600,1117,1592,1125,-8
+,,,2000-02-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,1,0,win,George Town,Cayman Islands,FALSE,1592,1125,1594,1123,2
+,,,2000-02-12,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Colombia,COL,COL,CONMEBOL,FALSE,0,1,loss,Miami,United States,TRUE,1594,1801,1582,1813,-12
+,,,2000-02-14,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,2,loss,Miami,United States,TRUE,1582,1625,1549,1658,-33
+,,,2000-05-14,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,Montego Bay,Jamaica,FALSE,1549,1405,1533,1421,-16
+,,,2000-05-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,0,3,loss,East Rutherford,United States,TRUE,1533,1755,1525,1763,-8
+,,,2000-06-04,King Hassan II Tournament,played,Jamaica,JAM,JAM,CONCACAF,Morocco,MAR,MAR,CAF,FALSE,0,1,loss,Casablanca,Morocco,FALSE,1525,1731,1521,1735,-4
+,,,2000-06-06,King Hassan II Tournament,played,Jamaica,JAM,JAM,CONCACAF,Japan,JPN,JPN,AFC,TRUE,0,4,loss,Casablanca,Morocco,TRUE,1521,1627,1501,1647,-20
+,,,2000-07-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1501,1475,1498,1478,-3
+,,,2000-07-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,TRUE,5,0,win,Kingston,Jamaica,FALSE,1498,1367,1506,1359,8
+,,,2000-07-08,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,4,2,win,Port of Spain,Trinidad and Tobago,FALSE,1506,1582,1539,1549,33
+,,,2000-07-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,1,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1539,1314,1552,1301,13
+,,,2000-07-23,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,1,win,Kingston,Jamaica,FALSE,1552,1704,1586,1670,34
+,,,2000-08-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1586,1418,1593,1411,7
+,,,2000-08-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,6,0,win,George Town,Cayman Islands,FALSE,1593,1133,1598,1128,5
+,,,2000-09-03,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1598,1276,1603,1271,5
+,,,2000-10-08,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1603,1690,1593,1700,-10
+,,,2000-11-15,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,2,loss,San Salvador,El Salvador,FALSE,1593,1421,1557,1457,-36
+,,,2001-01-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1576,1687,1576,1687,0
+,,,2001-02-28,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1576,1661,1595,1642,19
+,,,2001-03-25,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,4,loss,Mexico City,Mexico,FALSE,1595,1771,1582,1784,-13
+,,,2001-04-25,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1582,1702,1583,1701,1
+,,,2001-05-15,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Martinique,,,,FALSE,1,0,win,Arima,Trinidad and Tobago,TRUE,1583,1374,1592,1365,9
+,,,2001-05-17,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1592,1638,1580,1650,-12
+,,,2001-05-19,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,TRUE,1580,1323,1587,1316,7
+,,,2001-06-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,4,1,win,Kingston,Jamaica,FALSE,1587,1448,1594,1441,7
+,,,2001-06-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1594,1835,1602,1827,8
+,,,2001-06-20,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,Alajuela,Costa Rica,FALSE,1602,1634,1589,1647,-13
+,,,2001-06-30,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1589,1602,1615,1576,26
+,,,2001-07-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,0,draw,Havana,Cuba,FALSE,1615,1425,1612,1428,-3
+,,,2001-07-27,SKN Football Festival,played,Jamaica,JAM,JAM,CONCACAF,Martinique,,,,TRUE,0,0,draw,Basseterre,Saint Kitts and Nevis,TRUE,1612,1414,1604,1422,-8
+,,,2001-07-30,SKN Football Festival,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,FALSE,0,0,draw,Basseterre,Saint Kitts and Nevis,FALSE,1604,1323,1597,1330,-7
+,,,2001-08-01,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,FALSE,0,2,loss,St. George's,Grenada,FALSE,1597,1282,1574,1305,-23
+,,,2001-09-02,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1574,1759,1559,1774,-15
+,,,2001-09-05,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1559,1784,1554,1789,-5
+,,,2001-10-07,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Foxborough,United States,FALSE,1554,1758,1548,1764,-6
+,,,2001-11-11,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1548,1759,1534,1773,-14
+,,,2002-05-16,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,5,loss,East Rutherford,United States,FALSE,1534,1816,1530,1820,-4
+,,,2002-05-18,Unity Cup,played,Jamaica,JAM,JAM,CONCACAF,Nigeria,NGA,NGA,CAF,TRUE,0,1,loss,London,England,TRUE,1530,1759,1524,1765,-6
+,,,2002-08-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,FALSE,1,0,win,St. George's,Grenada,FALSE,1524,1319,1531,1312,7
+,,,2002-08-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,FALSE,3,1,win,Vieux Fort,Saint Lucia,FALSE,1531,1272,1540,1263,9
+,,,2002-08-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,India,,,,FALSE,3,0,win,Watford,England,TRUE,1540,1127,1543,1124,3
+,,,2002-09-01,Friendly,played,Jamaica,JAM,JAM,CONCACAF,India,,,,FALSE,0,0,draw,Wolverhampton,England,TRUE,1543,1124,1535,1132,-8
+,,,2002-10-16,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Japan,JPN,JPN,AFC,FALSE,1,1,draw,Tokyo,Japan,FALSE,1535,1825,1543,1817,8
+,,,2002-11-09,Gold Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,1,1,draw,St. George's,Grenada,TRUE,1546,1314,1534,1326,-12
+,,,2002-11-11,Gold Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,TRUE,2,0,win,St. George's,Grenada,TRUE,1534,1359,1550,1343,16
+,,,2002-11-13,Gold Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,FALSE,4,1,win,St. George's,Grenada,FALSE,1550,1276,1569,1257,19
+,,,2002-11-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Nigeria,NGA,NGA,CAF,FALSE,0,0,draw,Lagos,Nigeria,FALSE,1569,1747,1576,1740,7
+,,,2003-01-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,0,1,loss,Bridgetown,Barbados,FALSE,1576,1342,1562,1356,-14
+,,,2003-02-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1562,1824,1556,1830,-6
+,,,2003-03-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,0,draw,Havana,Cuba,FALSE,1556,1493,1557,1492,1
+,,,2003-03-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,1,loss,Havana,Cuba,FALSE,1557,1492,1548,1501,-9
+,,,2003-03-23,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1548,1361,1551,1358,3
+,,,2003-03-26,Gold Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,TRUE,5,0,win,Kingston,Jamaica,FALSE,1551,1265,1559,1257,8
+,,,2003-03-28,Gold Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Martinique,,,,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1559,1427,1547,1439,-12
+,,,2003-03-30,Gold Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,1547,1473,1566,1454,19
+,,,2003-04-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Venezuela,,,,FALSE,0,2,loss,Caracas,Venezuela,FALSE,1566,1613,1557,1622,-9
+,,,2003-04-30,Friendly,played,Jamaica,JAM,JAM,CONCACAF,South Africa,ZAF,ZAF,CAF,FALSE,0,0,draw,Cape Town,South Africa,FALSE,1557,1667,1562,1662,5
+,,,2003-05-25,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Nigeria,NGA,NGA,CAF,TRUE,3,2,win,Kingston,Jamaica,FALSE,1562,1749,1574,1737,12
+,,,2003-07-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1574,1524,1560,1538,-14
+,,,2003-07-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,0,win,Kingston,Jamaica,FALSE,1560,1772,1580,1752,20
+,,,2003-07-13,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,0,1,loss,Miami,United States,TRUE,1580,1823,1570,1833,-10
+,,,2003-07-15,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,2,0,win,Miami,United States,TRUE,1570,1565,1607,1528,37
+,,,2003-07-20,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,5,loss,Mexico City,Mexico,FALSE,1607,1836,1594,1849,-13
+,,,2003-09-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Australia,AUS,AUS,AFC,FALSE,1,2,loss,Reading,England,TRUE,1594,1816,1590,1820,-4
+,,,2003-10-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Leicester,England,TRUE,1590,2012,1588,2014,-2
+,,,2003-11-16,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,1588,1519,1598,1509,10
+,,,2004-02-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Uruguay,URY,URY,CONMEBOL,TRUE,2,0,win,Kingston,Jamaica,FALSE,1598,1860,1620,1838,22
+,,,2004-03-31,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1620,1640,1618,1642,-2
+,,,2004-04-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Venezuela,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1618,1711,1628,1701,10
+,,,2004-05-31,Unity Cup,played,Jamaica,JAM,JAM,CONCACAF,Nigeria,NGA,NGA,CAF,FALSE,0,2,loss,London,England,TRUE,1628,1812,1616,1824,-12
+,,,2004-06-02,Unity Cup,played,Jamaica,JAM,JAM,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,London,England,TRUE,,,,,
+,,,2004-06-12,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,1,draw,Miami,United States,TRUE,1609,1462,1601,1470,-8
+,,,2004-06-20,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,1601,1470,1616,1455,15
+,,,2004-08-18,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1616,1844,1623,1837,7
+,,,2004-09-04,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1623,1459,1590,1492,-33
+,,,2004-09-08,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,3,0,win,San Salvador,El Salvador,FALSE,1590,1451,1621,1420,31
+,,,2004-10-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,TRUE,2,2,draw,Fort Lauderdale,United States,TRUE,1621,1642,1622,1641,1
+,,,2004-10-09,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,Panama City,Panama,FALSE,1622,1504,1621,1505,-1
+,,,2004-10-13,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1621,1411,1607,1425,-14
+,,,2004-11-17,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Columbus,United States,FALSE,1607,1844,1622,1829,15
+,,,2004-11-24,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Martin,,,,TRUE,12,0,win,Kingston,Jamaica,FALSE,1622,1039,1624,1037,2
+,,,2004-11-26,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States Virgin Islands,,,,TRUE,11,1,win,Montego Bay,Jamaica,FALSE,,,,,
+,,,2004-11-28,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,1,win,Kingston,Jamaica,FALSE,1624,1458,1635,1447,11
+,,,2004-12-12,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,FALSE,1,1,draw,Vieux Fort,Saint Lucia,FALSE,1635,1256,1622,1269,-13
+,,,2004-12-19,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1622,1269,1625,1266,3
+,,,2005-01-08,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,French Guiana,,,,TRUE,5,0,win,Kingston,Jamaica,FALSE,1625,1199,1629,1195,4
+,,,2005-01-15,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,French Guiana,,,,FALSE,0,0,draw,Cayenne,French Guiana,FALSE,1629,1195,1614,1210,-15
+,,,2005-02-20,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,Bridgetown,Barbados,TRUE,1614,1481,1627,1468,13
+,,,2005-02-22,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1627,1321,1636,1312,9
+,,,2005-02-24,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,1,0,win,Bridgetown,Barbados,TRUE,1636,1627,1655,1608,19
+,,,2005-04-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,1,0,win,Atlanta,United States,TRUE,1655,1602,1663,1594,8
+,,,2005-06-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,0,draw,Atlanta,United States,TRUE,1663,1670,1663,1670,0
+,,,2005-07-08,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,4,3,win,Carson,United States,TRUE,1663,1569,1681,1551,18
+,,,2005-07-10,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,South Africa,ZAF,ZAF,CAF,TRUE,3,3,draw,Los Angeles,United States,TRUE,1681,1616,1676,1621,-5
+,,,2005-07-13,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Houston,United States,TRUE,1676,1900,1665,1911,-11
+,,,2005-07-16,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,3,loss,Foxborough,United States,FALSE,1665,1865,1654,1876,-11
+,,,2005-10-01,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,2,1,win,Fort Lauderdale,United States,TRUE,1654,1554,1661,1547,7
+,,,2005-10-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Australia,AUS,AUS,AFC,FALSE,0,5,loss,London,England,TRUE,1661,1740,1645,1756,-16
+,,,2006-04-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Cary,United States,FALSE,1645,1838,1652,1831,7
+,,,2006-05-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Ghana,GHA,GHA,CAF,TRUE,1,4,loss,Leicester,England,TRUE,1652,1573,1631,1594,-21
+,,,2006-06-03,Friendly,played,Jamaica,JAM,JAM,CONCACAF,England,ENG,ENG,UEFA,FALSE,0,6,loss,Manchester,England,FALSE,1631,1970,1628,1973,-3
+,,,2006-09-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,1,loss,Montreal,Canada,FALSE,1628,1596,1620,1604,-8
+,,,2006-09-27,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,TRUE,4,0,win,Kingston,Jamaica,FALSE,1620,1232,1624,1228,4
+,,,2006-10-01,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1587,1515,1603,1499,16
+,,,2006-10-08,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1603,1604,1610,1597,7
+,,,2006-11-15,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1610,1618,1607,1621,-3
+,,,2007-03-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Switzerland,CHE,CHE,UEFA,TRUE,0,2,loss,Fort Lauderdale,United States,TRUE,1607,1840,1601,1846,-6
+,,,2007-03-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1601,1562,1597,1566,-4
+,,,2007-06-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1597,1736,1588,1745,-9
+,,,2007-06-21,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Indonesia,IDN,IDN,AFC,FALSE,1,2,loss,Jakarta,Indonesia,FALSE,1588,1304,1573,1319,-15
+,,,2007-06-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Vietnam,,,,FALSE,0,3,loss,Hanoi,Vietnam,FALSE,1573,1232,1545,1260,-28
+,,,2007-06-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Malaysia,,,,FALSE,2,0,win,Kuala Lumpur,Malaysia,FALSE,1545,1184,1550,1179,5
+,,,2007-07-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Iran,IRN,IRN,AFC,FALSE,1,8,loss,Tehran,Iran,FALSE,1550,1795,1545,1800,-5
+,,,2007-11-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,1545,1382,1551,1376,6
+,,,2007-11-21,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1551,1514,1560,1505,9
+,,,2008-02-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1560,1637,1559,1638,-1
+,,,2008-03-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1559,1497,1555,1501,-4
+,,,2008-06-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,1,draw,Macoya,Trinidad and Tobago,FALSE,1559,1511,1560,1510,1
+,,,2008-06-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,FALSE,1,2,loss,St. George's,Grenada,FALSE,1560,1215,1544,1231,-16
+,,,2008-06-15,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Bahamas,,,,TRUE,7,0,win,Kingston,Jamaica,FALSE,1544,866,1545,865,1
+,,,2008-06-18,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Bahamas,,,,TRUE,6,0,win,Falmouth,Jamaica,FALSE,1545,865,1546,864,1
+,,,2008-07-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,0,draw,Frisco,United States,TRUE,1546,1428,1543,1431,-3
+,,,2008-08-20,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,1,draw,Toronto,Canada,FALSE,1543,1630,1553,1620,10
+,,,2008-09-06,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1553,1899,1548,1904,-5
+,,,2008-09-10,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,San Pedro Sula,Honduras,FALSE,1548,1699,1537,1710,-11
+,,,2008-10-11,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1537,1895,1570,1862,33
+,,,2008-10-15,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1570,1723,1593,1700,23
+,,,2008-11-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,2,0,win,George Town,Cayman Islands,FALSE,1593,977,1594,976,1
+,,,2008-11-19,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,3,0,win,Kingston,Jamaica,FALSE,1594,1591,1619,1566,25
+,,,2008-12-03,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1619,1345,1623,1341,4
+,,,2008-12-05,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,TRUE,4,0,win,Montego Bay,Jamaica,FALSE,1623,1270,1628,1265,5
+,,,2008-12-07,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,1,draw,Falmouth,Jamaica,FALSE,1628,1554,1619,1563,-9
+,,,2008-12-11,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1619,1467,1630,1456,11
+,,,2008-12-14,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1630,1309,1635,1304,5
+,,,2009-02-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Nigeria,NGA,NGA,CAF,FALSE,0,0,draw,London,England,TRUE,1635,1739,1638,1736,3
+,,,2009-05-23,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,2,draw,Fort Lauderdale,United States,TRUE,1638,1399,1632,1405,-6
+,,,2009-05-30,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,0,draw,"Washington, D.C.",United States,TRUE,1632,1503,1628,1507,-4
+,,,2009-06-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,2,win,Kingston,Jamaica,FALSE,1628,1583,1634,1577,6
+,,,2009-06-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,FALSE,4,1,win,George Town,Cayman Islands,FALSE,1634,976,1635,975,1
+,,,2009-07-03,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,1,loss,Carson,United States,TRUE,1635,1589,1607,1617,-28
+,,,2009-07-07,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Columbus,United States,TRUE,1607,1748,1592,1763,-15
+,,,2009-07-10,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,0,win,Miami,United States,TRUE,1592,1549,1614,1527,22
+,,,2009-08-12,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,East Rutherford,United States,TRUE,1614,1751,1618,1747,4
+,,,2009-08-16,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,FALSE,1,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1618,1111,1620,1109,2
+,,,2009-11-17,Friendly,played,Jamaica,JAM,JAM,CONCACAF,South Africa,ZAF,ZAF,CAF,FALSE,0,0,draw,Bloemfontein,South Africa,FALSE,1620,1519,1620,1519,0
+,,,2010-01-31,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1620,1606,1627,1599,7
+,,,2010-02-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,1,2,loss,Mar del Plata,Argentina,FALSE,1627,1900,1624,1903,-3
+,,,2010-04-28,Friendly,played,Jamaica,JAM,JAM,CONCACAF,South Africa,ZAF,ZAF,CAF,FALSE,0,2,loss,Offenbach am Main,Germany,TRUE,1624,1528,1605,1547,-19
+,,,2010-08-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,3,1,win,Macoya,Trinidad and Tobago,FALSE,1605,1539,1621,1523,16
+,,,2010-09-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1621,1688,1630,1679,9
+,,,2010-09-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,1,2,loss,Fort Lauderdale,United States,TRUE,1630,1607,1619,1618,-11
+,,,2010-10-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1619,1515,1624,1510,5
+,,,2010-11-17,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,Fort Lauderdale,United States,TRUE,1624,1669,1625,1668,1
+,,,2010-11-27,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,TRUE,3,1,win,Rivière-Pilote,Martinique,TRUE,1625,1249,1631,1243,6
+,,,2010-11-29,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,FALSE,2,0,win,Rivière-Pilote,Martinique,TRUE,1631,1482,1649,1464,18
+,,,2010-12-01,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,FALSE,4,0,win,Rivière-Pilote,Martinique,TRUE,1649,1313,1658,1304,9
+,,,2010-12-03,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,TRUE,2,1,win,Fort-de-France,Martinique,TRUE,1658,1315,1663,1310,5
+,,,2010-12-05,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,FALSE,1,1,draw,Fort-de-France,Martinique,TRUE,1663,1496,1654,1505,-9
+,,,2011-03-25,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Venezuela,,,,TRUE,0,2,loss,Montego Bay,Jamaica,FALSE,1654,1697,1637,1714,-17
+,,,2011-03-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,3,2,win,San Salvador,El Salvador,FALSE,1637,1494,1646,1485,9
+,,,2011-06-06,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,TRUE,4,0,win,Carson,United States,TRUE,1646,1277,1656,1267,10
+,,,2011-06-10,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,TRUE,2,0,win,Miami,United States,TRUE,1656,1444,1673,1427,17
+,,,2011-06-13,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,0,win,Harrison,United States,TRUE,1673,1679,1698,1654,25
+,,,2011-06-19,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,"Washington, D.C.",United States,FALSE,1698,1732,1674,1756,-24
+,,,2011-08-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,China PR,,,,FALSE,0,1,loss,Hefei,China PR,FALSE,,,,,
+,,,2011-09-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,2,5,loss,Quito,Ecuador,FALSE,1666,1716,1656,1726,-10
+,,,2011-09-06,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,0,2,loss,Fort Lauderdale,United States,TRUE,1656,1774,1646,1784,-10
+,,,2011-10-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,2,loss,La Ceiba,Honduras,FALSE,1646,1628,1638,1636,-8
+,,,2012-02-22,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1638,1392,1640,1390,2
+,,,2012-02-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,3,0,win,Montego Bay,Jamaica,FALSE,1640,1390,1644,1386,4
+,,,2012-02-29,Friendly,played,Jamaica,JAM,JAM,CONCACAF,New Zealand,NZL,NZL,OFC,FALSE,3,2,win,Auckland,New Zealand,FALSE,1644,1564,1655,1553,11
+,,,2012-03-21,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1655,1675,1653,1677,-2
+,,,2012-05-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,TRUE,1,0,win,Montego Bay,Jamaica,FALSE,1653,1370,1655,1368,2
+,,,2012-05-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1655,1654,1642,1667,-13
+,,,2012-06-01,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,2,loss,Panama City,Panama,FALSE,1642,1667,1635,1674,-7
+,,,2012-06-08,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1635,1525,1644,1516,9
+,,,2012-06-12,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,FALSE,0,0,draw,St. John's,Antigua and Barbuda,FALSE,1644,1281,1631,1294,-13
+,,,2012-08-15,Friendly,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1631,1572,1643,1560,12
+,,,2012-09-07,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1643,1760,1664,1739,21
+,,,2012-09-11,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Columbus,United States,FALSE,1664,1739,1653,1750,-11
+,,,2012-10-12,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1653,1540,1632,1561,-21
+,,,2012-10-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,TRUE,4,1,win,Kingston,Jamaica,FALSE,1632,1270,1637,1265,5
+,,,2012-12-08,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,French Guiana,,,,TRUE,1,2,loss,North Sound,Antigua and Barbuda,TRUE,1637,1239,1601,1275,-36
+,,,2012-12-10,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Martinique,,,,TRUE,0,0,draw,North Sound,Antigua and Barbuda,TRUE,1601,1382,1590,1393,-11
+,,,2012-12-12,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,0,1,loss,North Sound,Antigua and Barbuda,TRUE,1590,1352,1558,1384,-32
+,,,2013-02-06,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1558,1915,1575,1898,17
+,,,2013-03-22,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1575,1693,1576,1692,1
+,,,2013-03-26,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,FALSE,1576,1676,1562,1690,-14
+,,,2013-06-04,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1562,1870,1553,1879,-9
+,,,2013-06-07,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1553,1765,1539,1779,-14
+,,,2013-06-11,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1539,1639,1525,1653,-14
+,,,2013-09-06,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,0,draw,Panama City,Panama,FALSE,1525,1741,1539,1727,14
+,,,2013-09-10,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1539,1749,1545,1743,6
+,,,2013-10-11,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Kansas City,United States,FALSE,1545,1854,1540,1859,-5
+,,,2013-10-15,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1540,1687,1543,1684,3
+,,,2013-11-15,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,1,loss,Montego Bay,Jamaica,FALSE,1543,1478,1529,1492,-14
+,,,2013-11-19,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1529,1492,1517,1504,-12
+,,,2014-03-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Lucia,,,,FALSE,5,0,win,Castries,Saint Lucia,FALSE,1522,1050,1526,1046,4
+,,,2014-05-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Serbia,SRB,SRB,UEFA,TRUE,1,2,loss,Harrison,United States,TRUE,1526,1764,1522,1768,-4
+,,,2014-05-30,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Switzerland,CHE,CHE,UEFA,FALSE,0,1,loss,Lucerne,Switzerland,FALSE,1522,1846,1520,1848,-2
+,,,2014-06-04,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Egypt,EGY,EGY,CAF,TRUE,2,2,draw,London,England,TRUE,1520,1685,1524,1681,4
+,,,2014-06-08,Friendly,played,Jamaica,JAM,JAM,CONCACAF,France,FRA,FRA,UEFA,FALSE,0,8,loss,Villeneuve-d'Ascq,France,FALSE,1524,1894,1521,1897,-3
+,,,2014-10-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Niigata,Japan,FALSE,1509,1717,1506,1720,-3
+,,,2014-11-18,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,0,draw,Montego Bay,Jamaica,FALSE,1525,1517,1519,1523,-6
+,,,2015-03-30,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,3,0,win,Montego Bay,Jamaica,FALSE,1531,1409,1539,1401,8
+,,,2015-06-13,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Uruguay,URY,URY,CONMEBOL,FALSE,0,1,loss,Antofagasta,Chile,TRUE,1539,1913,1534,1918,-5
+,,,2015-06-16,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,1,loss,Antofagasta,Chile,TRUE,1534,1700,1520,1714,-14
+,,,2015-06-20,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Viña del Mar,Chile,TRUE,1520,2056,1518,2058,-2
+,,,2015-07-08,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,2,draw,Carson,United States,TRUE,1518,1838,1536,1820,18
+,,,2015-07-11,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,0,win,Houston,United States,TRUE,1536,1524,1560,1500,24
+,,,2015-07-14,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Toronto,Canada,TRUE,1560,1511,1581,1490,21
+,,,2015-07-18,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Baltimore,United States,TRUE,1581,1485,1599,1467,18
+,,,2015-07-22,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,2,1,win,Atlanta,United States,FALSE,1599,1856,1643,1812,44
+,,,2015-07-26,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,3,loss,Philadelphia,United States,TRUE,1643,1852,1626,1869,-17
+,,,2015-09-04,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Nicaragua,,,,TRUE,2,3,loss,Kingston,Jamaica,FALSE,1626,1177,1588,1215,-38
+,,,2015-09-08,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Nicaragua,,,,FALSE,2,0,win,Managua,Nicaragua,FALSE,1588,1215,1598,1205,10
+,,,2015-10-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Seoul,South Korea,FALSE,1598,1781,1592,1787,-6
+,,,2015-11-13,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,2,loss,Kingston,Jamaica,FALSE,1592,1672,1560,1704,-32
+,,,2015-11-17,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1560,1497,1582,1475,22
+,,,2016-03-25,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1582,1781,1588,1775,6
+,,,2016-03-29,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,3,loss,San José,Costa Rica,FALSE,1588,1775,1577,1786,-11
+,,,2016-06-05,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Venezuela,,,,TRUE,0,1,loss,Chicago,United States,TRUE,1596,1609,1572,1633,-24
+,,,2016-06-09,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Pasadena,United States,TRUE,1572,1978,1565,1985,-7
+,,,2016-06-13,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Uruguay,URY,URY,CONMEBOL,FALSE,0,3,loss,Santa Clara,United States,TRUE,1565,1882,1553,1894,-12
+,,,2016-09-02,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,2,loss,Panama City,Panama,FALSE,1553,1663,1539,1677,-14
+,,,2016-09-06,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,2,loss,Kingston,Jamaica,FALSE,1539,1467,1495,1511,-44
+,,,2016-11-13,CFU Caribbean Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1510,1224,1514,1220,4
+,,,2017-06-13,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,1,3,loss,Arequipa,Peru,FALSE,1524,1852,1522,1854,-2
+,,,2017-06-22,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,French Guiana,,,,TRUE,1,1,draw,Fort-de-France,Martinique,TRUE,1522,1356,1513,1365,-9
+,,,2017-06-25,CFU Caribbean Cup,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,1,2,loss,Fort-de-France,Martinique,TRUE,1513,1259,1481,1291,-32
+,,,2017-07-09,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,FALSE,2,0,win,San Diego,United States,TRUE,1481,1291,1500,1272,19
+,,,2017-07-13,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Denver,United States,TRUE,1500,1902,1521,1881,21
+,,,2017-07-16,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,San Antonio,United States,TRUE,1521,1442,1515,1448,-6
+,,,2017-07-20,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,1,win,Glendale,United States,TRUE,1515,1550,1543,1522,28
+,,,2017-07-23,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,0,win,Pasadena,United States,TRUE,1543,1890,1587,1846,44
+,,,2017-07-26,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Santa Clara,United States,FALSE,1587,1797,1580,1804,-7
+,,,2017-08-24,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,1,win,Port of Spain,Trinidad and Tobago,FALSE,1580,1438,1589,1429,9
+,,,2017-09-02,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,2,loss,Toronto,Canada,FALSE,1589,1522,1575,1536,-14
+,,,2017-10-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saudi Arabia,KSA,SAU,AFC,FALSE,2,5,loss,Jeddah,Saudi Arabia,FALSE,1575,1615,1564,1626,-11
+,,,2018-01-30,Friendly,played,Jamaica,JAM,JAM,CONCACAF,South Korea,KOR,KOR,AFC,TRUE,2,2,draw,Antalya,Turkey,TRUE,1564,1762,1569,1757,5
+,,,2018-03-25,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1569,1209,1560,1218,-9
+,,,2018-04-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,FALSE,3,1,win,Basseterre,Saint Kitts and Nevis,FALSE,1560,1247,1567,1240,7
+,,,2018-04-30,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,FALSE,2,0,win,St. John's,Antigua and Barbuda,FALSE,,,,,
+,,,2018-08-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,FALSE,5,1,win,St. George's,Grenada,FALSE,,,,,
+,,,2018-08-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Barbados,,,,FALSE,2,2,draw,Bridgetown,Barbados,FALSE,1577,1128,1569,1136,-8
+,,,2018-09-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,2,loss,Harrison,United States,TRUE,1569,1747,1561,1755,-8
+,,,2018-09-09,CONCACAF Nations League qualification,played,Jamaica,JAM,JAM,CONCACAF,Cayman Islands,,,,TRUE,4,0,win,Kingston,Jamaica,FALSE,1561,946,1562,945,1
+,,,2018-10-14,CONCACAF Nations League qualification,played,Jamaica,JAM,JAM,CONCACAF,Bonaire,,,,FALSE,6,0,win,Willemstad,Curaçao,TRUE,1562,976,1565,973,3
+,,,2018-11-17,CONCACAF Nations League qualification,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,TRUE,2,1,win,Kingston,Jamaica,FALSE,1565,1261,1569,1257,4
+,,,2019-03-24,CONCACAF Nations League qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,2,loss,San Salvador,El Salvador,FALSE,,,,,
+,,,2019-03-26,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,FALSE,1539,1700,1535,1704,-4
+,,,2019-06-05,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,0,win,"Washington, D.C.",United States,FALSE,1535,1765,1552,1748,17
+,,,2019-06-17,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,2,win,Kingston,Jamaica,FALSE,1552,1600,1573,1579,21
+,,,2019-06-21,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,0,draw,Houston,United States,TRUE,1573,1544,1571,1546,-2
+,,,2019-06-25,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,1,1,draw,Los Angeles,United States,TRUE,1571,1358,1557,1372,-14
+,,,2019-06-30,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Philadelphia,United States,TRUE,1557,1584,1584,1557,27
+,,,2019-07-03,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,3,loss,Nashville,United States,FALSE,1584,1750,1571,1763,-13
+,,,2019-09-06,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,TRUE,6,0,win,Montego Bay,Jamaica,FALSE,1571,1176,1576,1171,5
+,,,2019-09-09,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,FALSE,4,0,win,Georgetown,Guyana,FALSE,1576,1191,1588,1179,12
+,,,2019-10-12,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Aruba,,,,TRUE,2,0,win,Kingston,Jamaica,FALSE,1588,907,1589,906,1
+,,,2019-10-15,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Aruba,,,,FALSE,6,0,win,Willemstad,Curaçao,TRUE,1589,906,1591,904,2
+,,,2019-11-15,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Antigua and Barbuda,,,,FALSE,2,0,win,North Sound,Antigua and Barbuda,FALSE,1591,1160,1599,1152,8
+,,,2019-11-18,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Guyana,,,,TRUE,1,1,draw,Montego Bay,Jamaica,FALSE,1599,1200,1581,1218,-18
+,,,2020-11-14,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saudi Arabia,KSA,SAU,AFC,FALSE,0,3,loss,Riyadh,Saudi Arabia,FALSE,1584,1554,1570,1568,-14
+,,,2020-11-17,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Saudi Arabia,KSA,SAU,AFC,FALSE,2,1,win,Riyadh,Saudi Arabia,FALSE,1570,1568,1583,1555,13
+,,,2021-03-25,Friendly,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,4,loss,Wiener Neustadt,Austria,TRUE,1583,1747,1573,1757,-10
+,,,2021-06-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Serbia,SRB,SRB,UEFA,FALSE,1,1,draw,Miki,Japan,TRUE,1573,1799,1579,1793,6
+,,,2021-07-12,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,TRUE,2,0,win,Orlando,United States,TRUE,1579,1337,1594,1322,15
+,,,2021-07-16,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,FALSE,2,1,win,Orlando,United States,TRUE,1594,1237,1600,1231,6
+,,,2021-07-20,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,Orlando,United States,TRUE,1600,1641,1578,1663,-22
+,,,2021-07-25,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Arlington,United States,FALSE,1578,1821,1572,1827,-6
+,,,2021-09-02,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1572,1891,1569,1894,-3
+,,,2021-09-05,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,3,loss,Kingston,Jamaica,FALSE,1569,1541,1522,1588,-47
+,,,2021-09-08,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,FALSE,1522,1617,1532,1607,10
+,,,2021-10-07,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Austin,United States,FALSE,1532,1860,1527,1865,-5
+,,,2021-10-10,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1527,1748,1534,1741,7
+,,,2021-10-13,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,2,0,win,San Pedro Sula,Honduras,FALSE,1534,1567,1575,1526,41
+,,,2021-11-12,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,1,draw,San Salvador,El Salvador,FALSE,1575,1504,1577,1502,2
+,,,2021-11-16,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1577,1866,1587,1856,10
+,,,2022-01-20,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,0,3,loss,Lima,Peru,FALSE,1587,1828,1583,1832,-4
+,,,2022-01-27,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1583,1839,1571,1851,-12
+,,,2022-01-30,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,3,loss,Panama City,Panama,FALSE,1571,1618,1559,1630,-12
+,,,2022-02-02,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1559,1647,1538,1668,-21
+,,,2022-03-24,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1538,1517,1531,1524,-7
+,,,2022-03-27,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,4,loss,Toronto,Canada,FALSE,1531,1817,1524,1824,-7
+,,,2022-03-30,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,1,win,Kingston,Jamaica,FALSE,1524,1445,1535,1434,11
+,,,2022-06-04,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,FALSE,1,1,draw,Paramaribo,Suriname,FALSE,1535,1322,1529,1328,-6
+,,,2022-06-07,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Suriname,,,,TRUE,3,1,win,Kingston,Jamaica,FALSE,1529,1328,1538,1319,9
+,,,2022-06-14,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,1538,1832,1548,1822,10
+,,,2022-09-27,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,0,3,loss,Harrison,United States,TRUE,1553,2140,1552,2141,-1
+,,,2022-11-09,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Cameroon,CMR,CMR,CAF,FALSE,1,1,draw,Yaoundé,Cameroon,FALSE,1552,1610,1556,1606,4
+,,,2023-03-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,1,loss,Montego Bay,Jamaica,FALSE,1556,1341,1539,1358,-17
+,,,2023-03-14,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1539,1358,1532,1365,-7
+,,,2023-03-26,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,2,2,draw,Mexico City,Mexico,FALSE,1532,1818,1548,1802,16
+,,,2023-06-15,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Qatar,QAT,QAT,AFC,TRUE,1,2,loss,Ritzing,Austria,TRUE,1548,1545,1538,1555,-10
+,,,2023-06-19,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Jordan,,,,TRUE,1,2,loss,Wiener Neustadt,Austria,TRUE,1538,1589,1529,1598,-9
+,,,2023-06-24,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Chicago,United States,FALSE,1529,1849,1550,1828,21
+,,,2023-06-28,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,4,1,win,St. Louis,United States,TRUE,1550,1401,1576,1375,26
+,,,2023-07-02,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Saint Kitts and Nevis,,,,TRUE,5,0,win,Santa Clara,United States,TRUE,1576,1179,1585,1170,9
+,,,2023-07-09,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,1,0,win,Cincinnati,United States,TRUE,1585,1517,1605,1497,20
+,,,2023-07-12,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,3,loss,Paradise,United States,TRUE,1605,1802,1584,1823,-21
+,,,2023-09-08,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,0,win,Kingston,Jamaica,FALSE,1584,1492,1594,1482,10
+,,,2023-09-12,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,2,draw,Kingston,Jamaica,FALSE,1594,1510,1584,1520,-10
+,,,2023-10-12,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,FALSE,4,1,win,St. George's,Grenada,FALSE,1584,1114,1591,1107,7
+,,,2023-10-15,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,3,2,win,Port of Spain,Trinidad and Tobago,TRUE,1591,1512,1607,1496,16
+,,,2023-11-11,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,FALSE,0,0,draw,Harrison,United States,TRUE,1607,1491,1604,1494,-3
+,,,2023-11-18,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,FALSE,1604,1718,1585,1737,-19
+,,,2023-11-21,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,3,2,win,Toronto,Canada,FALSE,1585,1737,1617,1705,32
+,,,2024-03-01,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,0,win,Port of Spain,Trinidad and Tobago,FALSE,1617,1432,1625,1424,8
+,,,2024-03-03,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,0,draw,Arima,Trinidad and Tobago,FALSE,1625,1424,1622,1427,-3
+,,,2024-03-21,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,3,loss,Arlington,United States,FALSE,1622,1760,1610,1772,-12
+,,,2024-03-24,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Arlington,United States,TRUE,1610,1733,1637,1706,27
+,,,2024-06-06,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Dominican Republic,,,,TRUE,1,0,win,Kingston,Jamaica,FALSE,1637,1208,1639,1206,2
+,,,2024-06-09,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Dominica,,,,FALSE,3,2,win,Roseau,Dominica,FALSE,1639,1007,1641,1005,2
+,,,2024-06-22,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Houston,United States,TRUE,1641,1791,1626,1806,-15
+,,,2024-06-26,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,3,loss,Las Vegas,United States,TRUE,1626,1842,1609,1859,-17
+,,,2024-06-30,Copa América,played,Jamaica,JAM,JAM,CONCACAF,Venezuela,,,,TRUE,0,3,loss,Austin,United States,TRUE,1609,1805,1588,1826,-21
+,,,2024-09-06,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1588,1294,1572,1310,-16
+,,,2024-09-10,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,2,1,win,Tegucigalpa,Honduras,FALSE,1572,1528,1595,1505,23
+,,,2024-10-10,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Nicaragua,,,,FALSE,2,0,win,Managua,Nicaragua,FALSE,1595,1373,1615,1353,20
+,,,2024-10-14,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1615,1518,1605,1528,-10
+,,,2024-11-14,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,1,loss,Kingston,Jamaica,FALSE,1605,1728,1586,1747,-19
+,,,2024-11-18,CONCACAF Nations League,played,Jamaica,JAM,JAM,CONCACAF,United States,USA,USA,CONCACAF,FALSE,2,4,loss,Saint Louis,United States,FALSE,1586,1747,1575,1758,-11
+,,,2025-02-07,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Montego Bay,Jamaica,FALSE,,,,,
+,,,2025-02-10,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,FALSE,,,,,
+,,,2025-03-21,Gold Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,1,1,draw,Kingstown,Saint Vincent and the Grenadines,FALSE,1571,1121,1556,1136,-15
+,,,2025-03-25,Gold Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,3,0,win,Kingston,Jamaica,FALSE,1556,1136,1559,1133,3
+,,,2025-05-27,Unity Cup,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,2,win,London,England,TRUE,1559,1431,1569,1421,10
+,,,2025-05-31,Unity Cup,played,Jamaica,JAM,JAM,CONCACAF,Nigeria,NGA,NGA,CAF,TRUE,2,2,draw,London,England,TRUE,1569,1569,1569,1569,0
+,,,2025-06-07,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,British Virgin Islands,,,,FALSE,1,0,win,Road Town,British Virgin Islands,FALSE,1569,627,1569,627,0
+,,,2025-06-10,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,TRUE,3,0,win,Kingston,Jamaica,FALSE,1569,1501,1588,1482,19
+,,,2025-06-16,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Guatemala,,,,TRUE,0,1,loss,Carson,United States,TRUE,1588,1482,1556,1514,-32
+,,,2025-06-20,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Guadeloupe,,,,TRUE,2,1,win,San Jose,United States,TRUE,1556,1366,1569,1353,13
+,,,2025-06-24,Gold Cup,played,Jamaica,JAM,JAM,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,4,loss,Austin,United States,TRUE,1569,1750,1546,1773,-23
+,,,2025-09-05,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,FALSE,4,0,win,Devonshire Parish,Bermuda,FALSE,1546,1167,1559,1154,13
+,,,2025-09-09,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,0,win,Kingston,Jamaica,FALSE,1559,1401,1570,1390,11
+,,,2025-10-10,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,FALSE,0,2,loss,Willemstad,Curaçao,FALSE,1570,1407,1535,1442,-35
+,,,2025-10-14,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Bermuda,,,,TRUE,4,0,win,Kingston,Jamaica,FALSE,1535,1127,1539,1123,4
+,,,2025-11-13,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,1,draw,Port of Spain,Trinidad and Tobago,FALSE,1539,1419,1538,1420,-1
+,,,2025-11-18,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,Curaçao,,,,TRUE,0,0,draw,Kingston,Jamaica,FALSE,1538,1456,1528,1466,-10
+,,,2026-01-18,Friendly,played,Jamaica,JAM,JAM,CONCACAF,Grenada,,,,FALSE,1,0,win,St. George's,Grenada,FALSE,1528,1122,1531,1119,3
+,,,2026-03-26,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,New Caledonia,,,,FALSE,1,0,win,Zapopan,Mexico,TRUE,1542,1294,1550,1286,8
+,,,2026-03-31,FIFA World Cup qualification,played,Jamaica,JAM,JAM,CONCACAF,DR Congo,,,,FALSE,0,1,loss,Zapopan,Mexico,TRUE,1550,1640,1535,1655,-15

@@ -1,53 +1,53 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,1990-06-08,Group Stage,played,Argentina,Cameroon,ARG,CMR,1794,1631,Milan,Italy,TRUE
-2,1990-06-09,Group Stage,played,Italy,Austria,ITA,AUT,1966,1766,Rome,Italy,FALSE
-3,1990-06-09,Group Stage,played,Soviet Union,Romania,SUN,ROU,1943,1894,Bari,Italy,TRUE
-4,1990-06-09,Group Stage,played,United Arab Emirates,Colombia,ARE,COL,1454,1801,Bologna,Italy,TRUE
-5,1990-06-10,Group Stage,played,Brazil,Sweden,BRA,SWE,1993,1952,Turin,Italy,TRUE
-6,1990-06-10,Group Stage,played,Germany,Yugoslavia,DEU,YUG,1923,1813,Milan,Italy,TRUE
-7,1990-06-10,Group Stage,played,United States,Czechoslovakia,USA,CSK,1586,1855,Florence,Italy,TRUE
-8,1990-06-11,Group Stage,played,Costa Rica,Scotland,CRI,SCO,1612,1739,Genoa,Italy,TRUE
-9,1990-06-11,Group Stage,played,England,Republic of Ireland,ENG,IRL,2020,,Cagliari,Italy,TRUE
-10,1990-06-12,Group Stage,played,Belgium,South Korea,BEL,KOR,1845,1745,Verona,Italy,TRUE
-11,1990-06-12,Group Stage,played,Netherlands,Egypt,NLD,EGY,2033,1627,Palermo,Italy,TRUE
-12,1990-06-13,Group Stage,played,Argentina,Soviet Union,ARG,SUN,1751,1892,Naples,Italy,TRUE
-13,1990-06-13,Group Stage,played,Uruguay,Spain,URY,ESP,1893,1927,Udine,Italy,TRUE
-14,1990-06-14,Group Stage,played,Cameroon,Romania,CMR,ROU,1674,1945,Bari,Italy,TRUE
-15,1990-06-14,Group Stage,played,Italy,United States,ITA,USA,1975,1566,Rome,Italy,FALSE
-16,1990-06-14,Group Stage,played,Yugoslavia,Colombia,YUG,COL,1855,1812,Bologna,Italy,TRUE
-17,1990-06-15,Group Stage,played,Austria,Czechoslovakia,AUT,CSK,1757,1875,Florence,Italy,TRUE
-18,1990-06-15,Group Stage,played,Germany,United Arab Emirates,DEU,ARE,1923,1540,Milan,Italy,TRUE
-19,1990-06-16,Group Stage,played,Brazil,Costa Rica,BRA,CRI,2019,1653,Turin,Italy,TRUE
-20,1990-06-16,Group Stage,played,England,Netherlands,ENG,NLD,1940,2008,Cagliari,Italy,TRUE
-21,1990-06-16,Group Stage,played,Sweden,Scotland,SWE,SCO,1926,1698,Genoa,Italy,TRUE
-22,1990-06-17,Group Stage,played,Belgium,Uruguay,BEL,URY,1877,1896,Verona,Italy,TRUE
-23,1990-06-17,Group Stage,played,Republic of Ireland,Egypt,IRL,EGY,,1689,Palermo,Italy,TRUE
-24,1990-06-17,Group Stage,played,South Korea,Spain,KOR,ESP,1713,1924,Udine,Italy,TRUE
-25,1990-06-18,Group Stage,played,Argentina,Romania,ARG,ROU,1813,1895,Naples,Italy,TRUE
-26,1990-06-18,Group Stage,played,Cameroon,Soviet Union,CMR,SUN,1724,1830,Bari,Italy,TRUE
-27,1990-06-19,Group Stage,played,Austria,United States,AUT,USA,1737,1563,Florence,Italy,TRUE
-28,1990-06-19,Group Stage,played,Germany,Colombia,DEU,COL,1923,1975,Milan,Italy,TRUE
-29,1990-06-19,Group Stage,played,Italy,Czechoslovakia,ITA,CSK,1978,1895,Rome,Italy,FALSE
-30,1990-06-19,Group Stage,played,Yugoslavia,United Arab Emirates,YUG,ARE,1881,1439,Bologna,Italy,TRUE
-31,1990-06-20,Group Stage,played,Brazil,Scotland,BRA,SCO,2026,1745,Turin,Italy,TRUE
-32,1990-06-20,Group Stage,played,Sweden,Costa Rica,SWE,CRI,1879,1646,Genoa,Italy,TRUE
-33,1990-06-21,Group Stage,played,Belgium,Spain,BEL,ESP,1924,1945,Verona,Italy,TRUE
-34,1990-06-21,Group Stage,played,England,Egypt,ENG,EGY,1946,1670,Cagliari,Italy,TRUE
-35,1990-06-21,Group Stage,played,Republic of Ireland,Netherlands,IRL,NLD,,1961,Palermo,Italy,TRUE
-36,1990-06-21,Group Stage,played,South Korea,Uruguay,KOR,URY,1692,1849,Udine,Italy,TRUE
-37,1990-06-23,Round of 16,played,Cameroon,Colombia,CMR,COL,1684,1805,Naples,Italy,TRUE
-38,1990-06-23,Round of 16,played,Czechoslovakia,Costa Rica,CSK,CRI,1872,1694,Bari,Italy,TRUE
-39,1990-06-24,Round of 16,played,Brazil,Argentina,BRA,ARG,2036,1820,Turin,Italy,TRUE
-40,1990-06-24,Round of 16,played,Germany,Netherlands,DEU,NLD,1923,1961,Milan,Italy,TRUE
-41,1990-06-25,Round of 16,played,Republic of Ireland,Romania,IRL,ROU,,1627,Genoa,Italy,TRUE
-42,1990-06-25,Round of 16,played,Italy,Uruguay,ITA,URY,2001,1866,Rome,Italy,FALSE
-43,1990-06-26,Round of 16,played,England,Belgium,ENG,BEL,1956,1896,Bologna,Italy,TRUE
-44,1990-06-26,Round of 16,played,Spain,Yugoslavia,ESP,YUG,1973,1889,Verona,Italy,TRUE
-45,1990-06-30,Quarter-final,played,Italy,Republic of Ireland,ITA,IRL,1856,,Rome,Italy,FALSE
-46,1990-06-30,Quarter-final,played,Yugoslavia,Argentina,YUG,ARG,1926,1867,Florence,Italy,TRUE
-47,1990-07-01,Quarter-final,played,Cameroon,England,CMR,ENG,1724,1981,Naples,Italy,TRUE
-48,1990-07-01,Quarter-final,played,Germany,Czechoslovakia,DEU,CSK,1923,1844,Milan,Italy,TRUE
-49,1990-07-03,Semi-final,played,Italy,Argentina,ITA,ARG,2032,1872,Naples,Italy,FALSE
-50,1990-07-04,Semi-final,played,Germany,England,DEU,ENG,1923,2020,Turin,Italy,TRUE
-51,1990-07-07,Third Place,played,Italy,England,ITA,ENG,2013,1998,Bari,Italy,FALSE
-52,1990-07-08,Final,played,Germany,Argentina,DEU,ARG,1923,2113,Rome,Italy,TRUE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-1990,WC-1990_001,1,1990-06-08,Group Stage,played,Argentina,Cameroon,ARG,CMR,ARG,CMR,CONMEBOL,CAF,1794,1631,Milan,Italy,TRUE
+WC-1990,WC-1990_002,2,1990-06-09,Group Stage,played,Italy,Austria,ITA,AUT,ITA,AUT,UEFA,UEFA,1966,1766,Rome,Italy,FALSE
+WC-1990,WC-1990_003,3,1990-06-09,Group Stage,played,Soviet Union,Romania,SUN,ROU,SUN,ROU,UEFA,UEFA,1943,1894,Bari,Italy,TRUE
+WC-1990,WC-1990_004,4,1990-06-09,Group Stage,played,United Arab Emirates,Colombia,ARE,COL,ARE,COL,AFC,CONMEBOL,1454,1801,Bologna,Italy,TRUE
+WC-1990,WC-1990_005,5,1990-06-10,Group Stage,played,Brazil,Sweden,BRA,SWE,BRA,SWE,CONMEBOL,UEFA,1993,1952,Turin,Italy,TRUE
+WC-1990,WC-1990_006,6,1990-06-10,Group Stage,played,Germany,Yugoslavia,GER,YUG,DEU,YUG,UEFA,UEFA,1923,1813,Milan,Italy,TRUE
+WC-1990,WC-1990_007,7,1990-06-10,Group Stage,played,United States,Czechoslovakia,USA,CSK,USA,CSK,CONCACAF,UEFA,1586,1855,Florence,Italy,TRUE
+WC-1990,WC-1990_008,8,1990-06-11,Group Stage,played,Costa Rica,Scotland,CRI,SCO,CRI,SCO,CONCACAF,UEFA,1612,1739,Genoa,Italy,TRUE
+WC-1990,WC-1990_009,9,1990-06-11,Group Stage,played,England,Republic of Ireland,ENG,IRL,ENG,IRL,UEFA,UEFA,2020,,Cagliari,Italy,TRUE
+WC-1990,WC-1990_010,10,1990-06-12,Group Stage,played,Belgium,South Korea,BEL,KOR,BEL,KOR,UEFA,AFC,1845,1745,Verona,Italy,TRUE
+WC-1990,WC-1990_011,11,1990-06-12,Group Stage,played,Netherlands,Egypt,NED,EGY,NLD,EGY,UEFA,CAF,2033,1627,Palermo,Italy,TRUE
+WC-1990,WC-1990_012,12,1990-06-13,Group Stage,played,Argentina,Soviet Union,ARG,SUN,ARG,SUN,CONMEBOL,UEFA,1751,1892,Naples,Italy,TRUE
+WC-1990,WC-1990_013,13,1990-06-13,Group Stage,played,Uruguay,Spain,URY,ESP,URY,ESP,CONMEBOL,UEFA,1893,1927,Udine,Italy,TRUE
+WC-1990,WC-1990_014,14,1990-06-14,Group Stage,played,Cameroon,Romania,CMR,ROU,CMR,ROU,CAF,UEFA,1674,1945,Bari,Italy,TRUE
+WC-1990,WC-1990_015,15,1990-06-14,Group Stage,played,Italy,United States,ITA,USA,ITA,USA,UEFA,CONCACAF,1975,1566,Rome,Italy,FALSE
+WC-1990,WC-1990_016,16,1990-06-14,Group Stage,played,Yugoslavia,Colombia,YUG,COL,YUG,COL,UEFA,CONMEBOL,1855,1812,Bologna,Italy,TRUE
+WC-1990,WC-1990_017,17,1990-06-15,Group Stage,played,Austria,Czechoslovakia,AUT,CSK,AUT,CSK,UEFA,UEFA,1757,1875,Florence,Italy,TRUE
+WC-1990,WC-1990_018,18,1990-06-15,Group Stage,played,Germany,United Arab Emirates,GER,ARE,DEU,ARE,UEFA,AFC,1923,1540,Milan,Italy,TRUE
+WC-1990,WC-1990_019,19,1990-06-16,Group Stage,played,Brazil,Costa Rica,BRA,CRI,BRA,CRI,CONMEBOL,CONCACAF,2019,1653,Turin,Italy,TRUE
+WC-1990,WC-1990_020,20,1990-06-16,Group Stage,played,England,Netherlands,ENG,NED,ENG,NLD,UEFA,UEFA,1940,2008,Cagliari,Italy,TRUE
+WC-1990,WC-1990_021,21,1990-06-16,Group Stage,played,Sweden,Scotland,SWE,SCO,SWE,SCO,UEFA,UEFA,1926,1698,Genoa,Italy,TRUE
+WC-1990,WC-1990_022,22,1990-06-17,Group Stage,played,Belgium,Uruguay,BEL,URY,BEL,URY,UEFA,CONMEBOL,1877,1896,Verona,Italy,TRUE
+WC-1990,WC-1990_023,23,1990-06-17,Group Stage,played,Republic of Ireland,Egypt,IRL,EGY,IRL,EGY,UEFA,CAF,,1689,Palermo,Italy,TRUE
+WC-1990,WC-1990_024,24,1990-06-17,Group Stage,played,South Korea,Spain,KOR,ESP,KOR,ESP,AFC,UEFA,1713,1924,Udine,Italy,TRUE
+WC-1990,WC-1990_025,25,1990-06-18,Group Stage,played,Argentina,Romania,ARG,ROU,ARG,ROU,CONMEBOL,UEFA,1813,1895,Naples,Italy,TRUE
+WC-1990,WC-1990_026,26,1990-06-18,Group Stage,played,Cameroon,Soviet Union,CMR,SUN,CMR,SUN,CAF,UEFA,1724,1830,Bari,Italy,TRUE
+WC-1990,WC-1990_027,27,1990-06-19,Group Stage,played,Austria,United States,AUT,USA,AUT,USA,UEFA,CONCACAF,1737,1563,Florence,Italy,TRUE
+WC-1990,WC-1990_028,28,1990-06-19,Group Stage,played,Germany,Colombia,GER,COL,DEU,COL,UEFA,CONMEBOL,1923,1975,Milan,Italy,TRUE
+WC-1990,WC-1990_029,29,1990-06-19,Group Stage,played,Italy,Czechoslovakia,ITA,CSK,ITA,CSK,UEFA,UEFA,1978,1895,Rome,Italy,FALSE
+WC-1990,WC-1990_030,30,1990-06-19,Group Stage,played,Yugoslavia,United Arab Emirates,YUG,ARE,YUG,ARE,UEFA,AFC,1881,1439,Bologna,Italy,TRUE
+WC-1990,WC-1990_031,31,1990-06-20,Group Stage,played,Brazil,Scotland,BRA,SCO,BRA,SCO,CONMEBOL,UEFA,2026,1745,Turin,Italy,TRUE
+WC-1990,WC-1990_032,32,1990-06-20,Group Stage,played,Sweden,Costa Rica,SWE,CRI,SWE,CRI,UEFA,CONCACAF,1879,1646,Genoa,Italy,TRUE
+WC-1990,WC-1990_033,33,1990-06-21,Group Stage,played,Belgium,Spain,BEL,ESP,BEL,ESP,UEFA,UEFA,1924,1945,Verona,Italy,TRUE
+WC-1990,WC-1990_034,34,1990-06-21,Group Stage,played,England,Egypt,ENG,EGY,ENG,EGY,UEFA,CAF,1946,1670,Cagliari,Italy,TRUE
+WC-1990,WC-1990_035,35,1990-06-21,Group Stage,played,Republic of Ireland,Netherlands,IRL,NED,IRL,NLD,UEFA,UEFA,,1961,Palermo,Italy,TRUE
+WC-1990,WC-1990_036,36,1990-06-21,Group Stage,played,South Korea,Uruguay,KOR,URY,KOR,URY,AFC,CONMEBOL,1692,1849,Udine,Italy,TRUE
+WC-1990,WC-1990_037,37,1990-06-23,Round of 16,played,Cameroon,Colombia,CMR,COL,CMR,COL,CAF,CONMEBOL,1684,1805,Naples,Italy,TRUE
+WC-1990,WC-1990_038,38,1990-06-23,Round of 16,played,Czechoslovakia,Costa Rica,CSK,CRI,CSK,CRI,UEFA,CONCACAF,1872,1694,Bari,Italy,TRUE
+WC-1990,WC-1990_039,39,1990-06-24,Round of 16,played,Brazil,Argentina,BRA,ARG,BRA,ARG,CONMEBOL,CONMEBOL,2036,1820,Turin,Italy,TRUE
+WC-1990,WC-1990_040,40,1990-06-24,Round of 16,played,Germany,Netherlands,GER,NED,DEU,NLD,UEFA,UEFA,1923,1961,Milan,Italy,TRUE
+WC-1990,WC-1990_041,41,1990-06-25,Round of 16,played,Republic of Ireland,Romania,IRL,ROU,IRL,ROU,UEFA,UEFA,,1627,Genoa,Italy,TRUE
+WC-1990,WC-1990_042,42,1990-06-25,Round of 16,played,Italy,Uruguay,ITA,URY,ITA,URY,UEFA,CONMEBOL,2001,1866,Rome,Italy,FALSE
+WC-1990,WC-1990_043,43,1990-06-26,Round of 16,played,England,Belgium,ENG,BEL,ENG,BEL,UEFA,UEFA,1956,1896,Bologna,Italy,TRUE
+WC-1990,WC-1990_044,44,1990-06-26,Round of 16,played,Spain,Yugoslavia,ESP,YUG,ESP,YUG,UEFA,UEFA,1973,1889,Verona,Italy,TRUE
+WC-1990,WC-1990_045,45,1990-06-30,Quarter-final,played,Italy,Republic of Ireland,ITA,IRL,ITA,IRL,UEFA,UEFA,1856,,Rome,Italy,FALSE
+WC-1990,WC-1990_046,46,1990-06-30,Quarter-final,played,Yugoslavia,Argentina,YUG,ARG,YUG,ARG,UEFA,CONMEBOL,1926,1867,Florence,Italy,TRUE
+WC-1990,WC-1990_047,47,1990-07-01,Quarter-final,played,Cameroon,England,CMR,ENG,CMR,ENG,CAF,UEFA,1724,1981,Naples,Italy,TRUE
+WC-1990,WC-1990_048,48,1990-07-01,Quarter-final,played,Germany,Czechoslovakia,GER,CSK,DEU,CSK,UEFA,UEFA,1923,1844,Milan,Italy,TRUE
+WC-1990,WC-1990_049,49,1990-07-03,Semi-final,played,Italy,Argentina,ITA,ARG,ITA,ARG,UEFA,CONMEBOL,2032,1872,Naples,Italy,FALSE
+WC-1990,WC-1990_050,50,1990-07-04,Semi-final,played,Germany,England,GER,ENG,DEU,ENG,UEFA,UEFA,1923,2020,Turin,Italy,TRUE
+WC-1990,WC-1990_051,51,1990-07-07,Third Place,played,Italy,England,ITA,ENG,ITA,ENG,UEFA,UEFA,2013,1998,Bari,Italy,FALSE
+WC-1990,WC-1990_052,52,1990-07-08,Final,played,Germany,Argentina,GER,ARG,DEU,ARG,UEFA,CONMEBOL,1923,2113,Rome,Italy,TRUE

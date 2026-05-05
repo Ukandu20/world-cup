@@ -1,391 +1,391 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1956-10-07,Friendly,played,North Korea,PRK,China PR,,FALSE,1,0,win,Beijing,China PR,FALSE,,,,,
-1956-10-10,Friendly,played,North Korea,PRK,North Vietnam,,TRUE,3,0,win,Beijing,China PR,TRUE,1712,1294,1716,1290,4
-1959-10-22,Friendly,played,North Korea,PRK,North Vietnam,,TRUE,5,0,win,Pyongyang,North Korea,FALSE,1716,1247,1718,1245,2
-1959-10-25,Friendly,played,North Korea,PRK,China PR,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,,,,,
-1960-10-04,Friendly,played,North Korea,PRK,China PR,,FALSE,0,1,loss,Hanoi,North Vietnam,TRUE,,,,,
-1960-10-08,Friendly,played,North Korea,PRK,North Vietnam,,FALSE,3,1,win,Hanoi,North Vietnam,FALSE,1699,1236,1704,1231,5
-1960-10-10,Friendly,played,North Korea,PRK,Mongolia,,FALSE,10,1,win,Hanoi,North Vietnam,TRUE,1704,895,1705,894,1
-1963-11-11,Friendly,played,North Korea,PRK,Somalia,,TRUE,14,0,win,Jakarta,Indonesia,TRUE,,,,,
-1963-11-18,Friendly,played,North Korea,PRK,Indonesia,IDN,FALSE,5,1,win,Jakarta,Indonesia,FALSE,1710,1471,1727,1454,17
-1963-11-19,Friendly,played,North Korea,PRK,North Vietnam,,TRUE,2,0,win,Jakarta,Indonesia,TRUE,,,,,
-1963-11-22,Friendly,played,North Korea,PRK,Egypt,EGY,FALSE,1,1,draw,Jakarta,Indonesia,TRUE,1729,1707,1728,1708,-1
-1965-08-02,Friendly,played,North Korea,PRK,North Vietnam,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1720,1232,1721,1231,1
-1965-08-04,Friendly,played,North Korea,PRK,China PR,,TRUE,3,0,win,Pyongyang,North Korea,FALSE,,,,,
-1965-08-07,Friendly,played,North Korea,PRK,Guinea,,TRUE,3,0,win,Pyongyang,North Korea,FALSE,,,,,
-1965-08-08,Friendly,played,North Korea,PRK,Indonesia,IDN,TRUE,3,0,win,Pyongyang,North Korea,FALSE,1743,1422,1747,1418,4
-1965-08-10,Friendly,played,North Korea,PRK,Cambodia,,TRUE,4,0,win,Pyongyang,North Korea,FALSE,,,,,
-1965-11-21,FIFA World Cup qualification,played,North Korea,PRK,Australia,AUS,TRUE,6,1,win,Phnom Penh,Cambodia,TRUE,1748,1529,1766,1511,18
-1965-11-24,FIFA World Cup qualification,played,North Korea,PRK,Australia,AUS,FALSE,3,1,win,Phnom Penh,Cambodia,TRUE,1766,1511,1777,1500,11
-1966-07-12,FIFA World Cup,played,North Korea,PRK,Soviet Union,SUN,TRUE,0,3,loss,Middlesbrough,England,TRUE,1778,2003,1755,2026,-23
-1966-07-15,FIFA World Cup,played,North Korea,PRK,Chile,CHL,FALSE,1,1,draw,Middlesbrough,England,TRUE,1755,1733,1753,1735,-2
-1966-07-19,FIFA World Cup,played,North Korea,PRK,Italy,ITA,FALSE,1,0,win,Middlesbrough,England,TRUE,1753,1970,1800,1923,47
-1966-07-23,FIFA World Cup,played,North Korea,PRK,Portugal,PRT,TRUE,3,5,loss,Liverpool,England,TRUE,1800,1979,1776,2003,-24
-1966-11-26,GaNEFo,played,North Korea,PRK,Cambodia,,FALSE,2,0,win,Phnom Penh,Cambodia,FALSE,1776,1055,1777,1054,1
-1966-11-29,GaNEFo,played,North Korea,PRK,Palestine,,FALSE,5,1,win,Phnom Penh,Cambodia,TRUE,1777,1214,1779,1212,2
-1966-11-30,GaNEFo,played,North Korea,PRK,Yemen,,TRUE,14,0,win,Phnom Penh,Cambodia,TRUE,,,,,
-1966-12-03,GaNEFo,played,North Korea,PRK,China PR,,FALSE,2,1,win,Phnom Penh,Cambodia,TRUE,,,,,
-1966-12-06,GaNEFo,played,North Korea,PRK,North Vietnam,,TRUE,3,1,win,Phnom Penh,Cambodia,TRUE,1787,1277,1789,1275,2
-1969-12-05,Friendly,played,North Korea,PRK,Algeria,DZA,FALSE,3,1,win,Algiers,Algeria,FALSE,1789,1639,1802,1626,13
-1973-05-04,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,FALSE,0,0,draw,Tehran,Iran,FALSE,1711,1580,1709,1582,-2
-1973-05-06,FIFA World Cup qualification,played,North Korea,PRK,Syria,,TRUE,1,1,draw,Tehran,Iran,TRUE,1709,1420,1695,1434,-14
-1973-05-08,FIFA World Cup qualification,played,North Korea,PRK,Kuwait,KWT,TRUE,0,0,draw,Tehran,Iran,TRUE,1695,1366,1680,1381,-15
-1973-05-11,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,1680,1596,1661,1615,-19
-1973-05-13,FIFA World Cup qualification,played,North Korea,PRK,Syria,,TRUE,3,0,win,Tehran,Iran,TRUE,1661,1452,1677,1436,16
-1973-05-15,FIFA World Cup qualification,played,North Korea,PRK,Kuwait,KWT,TRUE,0,2,loss,Tehran,Iran,TRUE,1677,1348,1625,1400,-52
-1973-07-25,Friendly,played,North Korea,PRK,Norway,NOR,FALSE,0,3,loss,Bergen,Norway,FALSE,1625,1445,1604,1466,-21
-1974-05-25,Friendly,played,North Korea,PRK,Bulgaria,BGR,FALSE,1,6,loss,Sofia,Bulgaria,FALSE,1604,1826,1599,1831,-5
-1974-09-02,Asian Games,played,North Korea,PRK,China PR,,TRUE,2,0,win,Tehran,Iran,TRUE,,,,,
-1974-09-04,Asian Games,played,North Korea,PRK,Iraq,IRQ,TRUE,0,1,loss,Tehran,Iran,TRUE,1633,1553,1608,1578,-25
-1974-09-06,Asian Games,played,North Korea,PRK,India,,FALSE,4,1,win,Tehran,Iran,TRUE,1608,1332,1620,1320,12
-1974-09-10,Asian Games,played,North Korea,PRK,Kuwait,KWT,FALSE,2,0,win,Tehran,Iran,TRUE,1620,1533,1643,1510,23
-1974-09-12,Asian Games,played,North Korea,PRK,Israel,ISR,FALSE,0,2,loss,Tehran,Iran,TRUE,,,,,
-1974-09-14,Asian Games,played,North Korea,PRK,Myanmar,,TRUE,2,2,draw,Tehran,Iran,TRUE,1643,1537,1637,1543,-6
-1974-09-15,Asian Games,played,North Korea,PRK,Malaysia,,TRUE,1,2,loss,Tehran,Iran,TRUE,1637,1478,1608,1507,-29
-1975-06-15,AFC Asian Cup qualification,played,North Korea,PRK,China PR,,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,,,,,
-1975-06-17,AFC Asian Cup qualification,played,North Korea,PRK,Japan,JPN,TRUE,1,0,win,So Kon Po,Hong Kong,TRUE,1587,1472,1601,1458,14
-1975-06-19,AFC Asian Cup qualification,played,North Korea,PRK,Singapore,,TRUE,1,0,win,So Kon Po,Hong Kong,TRUE,1601,1138,1604,1135,3
-1975-06-24,AFC Asian Cup qualification,played,North Korea,PRK,Hong Kong,,FALSE,3,3,draw,So Kon Po,Hong Kong,FALSE,1604,1360,1596,1368,-8
-1975-06-26,AFC Asian Cup qualification,played,North Korea,PRK,China PR,,TRUE,2,0,win,So Kon Po,Hong Kong,TRUE,,,,,
-1976-05-05,Friendly,played,North Korea,PRK,Bulgaria,BGR,FALSE,0,3,loss,Sofia,Bulgaria,FALSE,1650,1782,1643,1789,-7
-1978-02-27,Friendly,played,North Korea,PRK,Iraq,IRQ,FALSE,0,1,loss,Baghdad,Iraq,FALSE,1607,1586,1599,1594,-8
-1978-12-13,Asian Games,played,North Korea,PRK,Myanmar,,FALSE,3,0,win,Bangkok,Thailand,TRUE,1599,1428,1618,1409,19
-1978-12-15,Asian Games,played,North Korea,PRK,Thailand,,FALSE,3,0,win,Bangkok,Thailand,FALSE,1618,1361,1638,1341,20
-1978-12-17,Asian Games,played,North Korea,PRK,Iraq,IRQ,FALSE,1,0,win,Bangkok,Thailand,TRUE,1638,1622,1657,1603,19
-1978-12-18,Asian Games,played,North Korea,PRK,India,,FALSE,3,1,win,Bangkok,Thailand,TRUE,1657,1241,1662,1236,5
-1978-12-19,Asian Games,played,North Korea,PRK,Kuwait,KWT,TRUE,2,2,draw,Bangkok,Thailand,TRUE,1662,1639,1661,1640,-1
-1978-12-20,Asian Games,played,North Korea,PRK,South Korea,KOR,TRUE,0,0,draw,Bangkok,Thailand,TRUE,1661,1827,1670,1818,9
-1979-05-02,AFC Asian Cup qualification,played,North Korea,PRK,Hong Kong,,TRUE,3,0,win,Bangkok,Thailand,TRUE,1670,1361,1680,1351,10
-1979-05-07,AFC Asian Cup qualification,played,North Korea,PRK,Indonesia,IDN,TRUE,3,1,win,Bangkok,Thailand,TRUE,1680,1261,1685,1256,5
-1979-05-09,AFC Asian Cup qualification,played,North Korea,PRK,Malaysia,,FALSE,1,1,draw,Bangkok,Thailand,TRUE,1685,1455,1673,1467,-12
-1979-05-12,AFC Asian Cup qualification,played,North Korea,PRK,Thailand,,FALSE,1,0,win,Bangkok,Thailand,FALSE,1673,1384,1683,1374,10
-1979-05-14,AFC Asian Cup qualification,played,North Korea,PRK,Malaysia,,TRUE,1,0,win,Bangkok,Thailand,TRUE,1683,1461,1692,1452,9
-1979-08-23,Friendly,played,North Korea,PRK,Japan,JPN,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1692,1462,1685,1469,-7
-1980-09-16,AFC Asian Cup,played,North Korea,PRK,Bangladesh,,TRUE,3,2,win,Kuwait City,Kuwait,TRUE,1636,977,1637,976,1
-1980-09-18,AFC Asian Cup,played,North Korea,PRK,China PR,,TRUE,2,1,win,Kuwait City,Kuwait,TRUE,,,,,
-1980-09-24,AFC Asian Cup,played,North Korea,PRK,Iran,IRN,FALSE,2,3,loss,Kuwait City,Kuwait,TRUE,1660,1722,1639,1743,-21
-1980-09-26,AFC Asian Cup,played,North Korea,PRK,Syria,,FALSE,2,1,win,Kuwait City,Kuwait,TRUE,1639,1359,1647,1351,8
-1980-09-28,AFC Asian Cup,played,North Korea,PRK,South Korea,KOR,FALSE,1,2,loss,Kuwait City,Kuwait,TRUE,1647,1800,1632,1815,-15
-1980-09-29,AFC Asian Cup,played,North Korea,PRK,Iran,IRN,FALSE,0,3,loss,Kuwait City,Kuwait,TRUE,1632,1719,1599,1752,-33
-1980-12-22,FIFA World Cup qualification,played,North Korea,PRK,Macau,,TRUE,3,0,win,So Kon Po,Hong Kong,TRUE,,,,,
-1980-12-26,FIFA World Cup qualification,played,North Korea,PRK,Singapore,,FALSE,1,0,win,So Kon Po,Hong Kong,TRUE,1602,1283,1607,1278,5
-1980-12-28,FIFA World Cup qualification,played,North Korea,PRK,Hong Kong,,FALSE,2,2,draw,So Kon Po,Hong Kong,FALSE,1607,1347,1598,1356,-9
-1980-12-30,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,TRUE,1,0,win,So Kon Po,Hong Kong,TRUE,1598,1508,1613,1493,15
-1981-01-04,FIFA World Cup qualification,played,North Korea,PRK,China PR,,TRUE,2,4,loss,So Kon Po,Hong Kong,TRUE,,,,,
-1982-03-06,Friendly,played,North Korea,PRK,Iran,IRN,FALSE,0,2,loss,Tehran,Iran,FALSE,1583,1752,1578,1757,-5
-1982-11-20,Asian Games,played,North Korea,PRK,Syria,,TRUE,1,1,draw,New Delhi,India,TRUE,1578,1266,1564,1280,-14
-1982-11-22,Asian Games,played,North Korea,PRK,Thailand,,TRUE,3,0,win,New Delhi,India,TRUE,1564,1312,1577,1299,13
-1982-11-24,Asian Games,played,North Korea,PRK,Saudi Arabia,SAU,TRUE,2,2,draw,New Delhi,India,TRUE,1577,1417,1568,1426,-9
-1982-11-27,Asian Games,played,North Korea,PRK,China PR,,TRUE,1,0,win,New Delhi,India,TRUE,,,,,
-1982-11-30,Asian Games,played,North Korea,PRK,Kuwait,KWT,TRUE,2,3,loss,New Delhi,India,TRUE,1590,1696,1576,1710,-14
-1982-12-02,Asian Games,played,North Korea,PRK,Saudi Arabia,SAU,TRUE,0,2,loss,New Delhi,India,TRUE,,,,,
-1985-01-19,FIFA World Cup qualification,played,North Korea,PRK,Singapore,,FALSE,1,1,draw,Kallang,Singapore,FALSE,1576,1245,1564,1257,-12
-1985-02-05,Friendly,played,North Korea,PRK,Iran,IRN,FALSE,0,1,loss,Mashhad,Iran,FALSE,1564,1665,1559,1670,-5
-1985-03-21,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,FALSE,0,1,loss,Tokyo,Japan,FALSE,1559,1456,1539,1476,-20
-1985-04-28,Friendly,played,North Korea,PRK,Pakistan,,FALSE,0,0,draw,Peshawar,Pakistan,FALSE,,,,,
-1985-04-29,Friendly,played,North Korea,PRK,Nepal,,TRUE,8,1,win,Peshawar,Pakistan,TRUE,,,,,
-1985-04-30,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1539,1476,1530,1485,-9
-1985-05-02,Friendly,played,North Korea,PRK,Indonesia,IDN,FALSE,7,0,win,Peshawar,Pakistan,TRUE,,,,,
-1985-05-04,Friendly,played,North Korea,PRK,Bangladesh,,FALSE,1,0,win,Peshawar,Pakistan,TRUE,,,,,
-1985-05-25,FIFA World Cup qualification,played,North Korea,PRK,Singapore,,TRUE,2,0,win,Nampo,North Korea,FALSE,1530,1224,1535,1219,5
-1986-04-30,Friendly,played,North Korea,PRK,Bulgaria,BGR,FALSE,0,3,loss,Sofia,Bulgaria,FALSE,1533,1822,1530,1825,-3
-1986-08-24,Merlion Cup,played,North Korea,PRK,China PR,,FALSE,0,0,draw,Kallang,Singapore,TRUE,,,,,
-1986-08-27,Merlion Cup,played,North Korea,PRK,Canada,CAN,FALSE,0,0,draw,Kallang,Singapore,TRUE,1533,1615,1536,1612,3
-1986-08-30,Merlion Cup,played,North Korea,PRK,Singapore,,FALSE,2,0,win,Kallang,Singapore,FALSE,1536,1231,1547,1220,11
-1986-09-04,Merlion Cup,played,North Korea,PRK,Canada,CAN,FALSE,2,0,win,Kallang,Singapore,TRUE,1547,1596,1573,1570,26
-1986-09-06,Merlion Cup,played,North Korea,PRK,China PR,,FALSE,1,2,loss,Kallang,Singapore,TRUE,,,,,
-1986-10-07,Friendly,played,North Korea,PRK,Poland,POL,FALSE,2,2,draw,Bydgoszcz,Poland,FALSE,1560,1761,1567,1754,7
-1987-02-21,King's Cup,played,North Korea,PRK,Soviet Union,SUN,TRUE,1,0,win,Bangkok,Thailand,TRUE,,,,,
-1988-05-08,Friendly,played,North Korea,PRK,China PR,,FALSE,0,0,draw,Hangzhou,China PR,FALSE,,,,,
-1988-05-26,AFC Asian Cup qualification,played,North Korea,PRK,Syria,,FALSE,1,2,loss,Kathmandu,Nepal,TRUE,1571,1423,1543,1451,-28
-1988-05-28,AFC Asian Cup qualification,played,North Korea,PRK,Nepal,,FALSE,1,0,win,Kathmandu,Nepal,FALSE,1543,929,1545,927,2
-1988-05-31,AFC Asian Cup qualification,played,North Korea,PRK,Hong Kong,,TRUE,1,0,win,Kathmandu,Nepal,TRUE,1545,1327,1554,1318,9
-1988-06-02,AFC Asian Cup qualification,played,North Korea,PRK,Iran,IRN,FALSE,0,0,draw,Kathmandu,Nepal,TRUE,1554,1664,1560,1658,6
-1989-01-27,Nehru Cup,played,North Korea,PRK,India,,FALSE,2,1,win,Margao,India,FALSE,1560,1124,1565,1119,5
-1989-02-04,King's Cup,played,North Korea,PRK,China PR,,FALSE,1,3,loss,Bangkok,Thailand,TRUE,,,,,
-1989-05-21,FIFA World Cup qualification,played,North Korea,PRK,Indonesia,IDN,FALSE,0,0,draw,Jakarta,Indonesia,FALSE,1565,1209,1552,1222,-13
-1989-05-27,FIFA World Cup qualification,played,North Korea,PRK,Hong Kong,,FALSE,2,1,win,Victoria,Hong Kong,FALSE,1552,1293,1563,1282,11
-1989-06-04,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,FALSE,1,2,loss,Tokyo,Japan,FALSE,1563,1397,1539,1421,-24
-1989-06-25,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1539,1421,1552,1408,13
-1989-07-02,FIFA World Cup qualification,played,North Korea,PRK,Hong Kong,,TRUE,4,1,win,Pyongyang,North Korea,FALSE,1552,1269,1559,1262,7
-1989-07-09,FIFA World Cup qualification,played,North Korea,PRK,Indonesia,IDN,TRUE,2,1,win,Pyongyang,North Korea,FALSE,1559,1239,1562,1236,3
-1989-10-12,FIFA World Cup qualification,played,North Korea,PRK,United Arab Emirates,ARE,FALSE,0,0,draw,Singapore,Singapore,TRUE,1562,1480,1557,1485,-5
-1989-10-16,FIFA World Cup qualification,played,North Korea,PRK,South Korea,KOR,FALSE,0,1,loss,Singapore,Singapore,TRUE,1557,1713,1545,1725,-12
-1989-10-20,FIFA World Cup qualification,played,North Korea,PRK,Qatar,QAT,TRUE,2,0,win,Singapore,Singapore,TRUE,1545,1481,1570,1456,25
-1989-10-24,FIFA World Cup qualification,played,North Korea,PRK,China PR,,TRUE,0,1,loss,Singapore,Singapore,TRUE,,,,,
-1989-10-28,FIFA World Cup qualification,played,North Korea,PRK,Saudi Arabia,SAU,FALSE,0,2,loss,Guangzhou,China PR,TRUE,1549,1542,1518,1573,-31
-1990-07-27,Dynasty Cup,played,North Korea,PRK,China PR,,FALSE,0,2,loss,Beijing,China PR,FALSE,,,,,
-1990-07-29,Dynasty Cup,played,North Korea,PRK,South Korea,KOR,FALSE,0,1,loss,Beijing,China PR,TRUE,1504,1683,1496,1691,-8
-1990-07-31,Dynasty Cup,played,North Korea,PRK,Japan,JPN,FALSE,1,0,win,Beijing,China PR,TRUE,1496,1395,1507,1384,11
-1990-09-26,Asian Games,played,North Korea,PRK,Malaysia,,FALSE,0,0,draw,Beijing,China PR,TRUE,1502,1277,1491,1288,-11
-1990-09-28,Asian Games,played,North Korea,PRK,Iran,IRN,TRUE,1,2,loss,Beijing,China PR,TRUE,1491,1579,1476,1594,-15
-1990-10-01,Asian Games,played,North Korea,PRK,Saudi Arabia,SAU,FALSE,0,0,draw,Beijing,China PR,TRUE,1476,1593,1482,1587,6
-1990-10-03,Asian Games,played,North Korea,PRK,Thailand,,FALSE,1,0,win,Beijing,China PR,TRUE,1482,1336,1494,1324,12
-1990-10-06,Asian Games,played,North Korea,PRK,Iran,IRN,FALSE,0,0,draw,Beijing,China PR,TRUE,1494,1631,1502,1623,8
-1990-10-11,Friendly,played,North Korea,PRK,South Korea,KOR,TRUE,2,1,win,Pyongyang,North Korea,FALSE,1502,1730,1516,1716,14
-1990-10-23,Friendly,played,North Korea,PRK,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1516,1716,1513,1719,-3
-1991-10-19,Friendly,played,North Korea,PRK,United States,USA,FALSE,2,1,win,"Washington, D.C.",United States,FALSE,1513,1720,1530,1703,17
-1992-06-03,AFC Asian Cup qualification,played,North Korea,PRK,Taiwan,,TRUE,6,0,win,Pyongyang,North Korea,FALSE,1550,1132,1554,1128,4
-1992-06-05,AFC Asian Cup qualification,played,North Korea,PRK,Macau,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,,,,,
-1992-06-07,AFC Asian Cup qualification,played,North Korea,PRK,Hong Kong,,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1556,1234,1539,1251,-17
-1992-08-22,Dynasty Cup,played,North Korea,PRK,China PR,,FALSE,2,2,draw,Beijing,China PR,FALSE,,,,,
-1992-08-24,Dynasty Cup,played,North Korea,PRK,South Korea,KOR,FALSE,1,1,draw,Beijing,China PR,TRUE,1542,1671,1547,1666,5
-1992-08-26,Dynasty Cup,played,North Korea,PRK,Japan,JPN,FALSE,1,4,loss,Beijing,China PR,TRUE,1547,1413,1511,1449,-36
-1992-08-29,Dynasty Cup,played,North Korea,PRK,China PR,,FALSE,0,0,draw,Xiaogan,China PR,FALSE,,,,,
-1992-10-30,AFC Asian Cup,played,North Korea,PRK,Iran,IRN,TRUE,0,2,loss,Onomichi,Japan,TRUE,1512,1641,1488,1665,-24
-1992-11-01,AFC Asian Cup,played,North Korea,PRK,Japan,JPN,FALSE,1,1,draw,Hiroshima,Japan,FALSE,1488,1453,1493,1448,5
-1992-11-03,AFC Asian Cup,played,North Korea,PRK,United Arab Emirates,ARE,FALSE,1,2,loss,Hiroshima,Japan,TRUE,1493,1500,1469,1524,-24
-1993-01-19,Nehru Cup,played,North Korea,PRK,Bolivia,BOL,TRUE,2,1,win,Madras,India,TRUE,,,,,
-1993-01-31,Nehru Cup,played,North Korea,PRK,Finland,,TRUE,3,2,win,Madras,India,TRUE,1469,1549,1494,1524,25
-1993-04-09,FIFA World Cup qualification,played,North Korea,PRK,Vietnam,,TRUE,3,0,win,Doha,Qatar,TRUE,1494,1154,1503,1145,9
-1993-04-11,FIFA World Cup qualification,played,North Korea,PRK,Singapore,,TRUE,2,1,win,Doha,Qatar,TRUE,1503,1254,1511,1246,8
-1993-04-13,FIFA World Cup qualification,played,North Korea,PRK,Indonesia,IDN,TRUE,4,0,win,Doha,Qatar,TRUE,1511,1250,1525,1236,14
-1993-04-18,FIFA World Cup qualification,played,North Korea,PRK,Qatar,QAT,FALSE,2,1,win,Doha,Qatar,FALSE,1525,1495,1549,1471,24
-1993-04-24,FIFA World Cup qualification,played,North Korea,PRK,Vietnam,,FALSE,1,0,win,Singapore,Singapore,TRUE,1549,1151,1553,1147,4
-1993-04-26,FIFA World Cup qualification,played,North Korea,PRK,Singapore,,FALSE,3,1,win,Singapore,Singapore,FALSE,1553,1269,1568,1254,15
-1993-04-28,FIFA World Cup qualification,played,North Korea,PRK,Indonesia,IDN,FALSE,2,1,win,Singapore,Singapore,TRUE,1568,1173,1572,1169,4
-1993-05-02,FIFA World Cup qualification,played,North Korea,PRK,Qatar,QAT,TRUE,2,2,draw,Singapore,Singapore,TRUE,1572,1465,1566,1471,-6
-1993-05-12,East Asian Games,played,North Korea,PRK,Mongolia,,TRUE,7,0,win,Shanghai,China PR,TRUE,,,,,
-1993-05-14,East Asian Games,played,North Korea,PRK,China PR,,FALSE,1,1,draw,Shanghai,China PR,FALSE,,,,,
-1993-05-16,East Asian Games,played,North Korea,PRK,Macau,,TRUE,6,0,win,Shanghai,China PR,TRUE,,,,,
-1993-10-15,FIFA World Cup qualification,played,North Korea,PRK,Iraq,IRQ,TRUE,3,2,win,Doha,Qatar,TRUE,1566,1661,1591,1636,25
-1993-10-18,FIFA World Cup qualification,played,North Korea,PRK,Saudi Arabia,SAU,TRUE,1,2,loss,Doha,Qatar,TRUE,1591,1646,1574,1663,-17
-1993-10-21,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,TRUE,0,3,loss,Doha,Qatar,TRUE,1574,1588,1540,1622,-34
-1993-10-25,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,FALSE,1,2,loss,Doha,Qatar,TRUE,1540,1565,1521,1584,-19
-1993-10-28,FIFA World Cup qualification,played,North Korea,PRK,South Korea,KOR,FALSE,0,3,loss,Doha,Qatar,TRUE,1521,1644,1498,1667,-23
-1998-09-13,Friendly,played,North Korea,PRK,Kuwait,KWT,FALSE,0,4,loss,Kuwait City,Kuwait,FALSE,1498,1559,1487,1570,-11
-1998-12-02,Asian Games,played,North Korea,PRK,United Arab Emirates,ARE,FALSE,3,3,draw,Songkhla,Thailand,TRUE,1487,1546,1490,1543,3
-1998-12-07,Asian Games,played,North Korea,PRK,Uzbekistan,,TRUE,0,4,loss,Bangkok,Thailand,TRUE,1490,1536,1457,1569,-33
-1998-12-09,Asian Games,played,North Korea,PRK,Turkmenistan,,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1457,1476,1458,1475,1
-1998-12-11,Asian Games,played,North Korea,PRK,India,,FALSE,2,0,win,Bangkok,Thailand,TRUE,1458,1108,1465,1101,7
-1999-02-23,King's Cup,played,North Korea,PRK,Thailand,,FALSE,2,2,draw,Bangkok,Thailand,FALSE,1465,1397,1466,1396,1
-2000-02-08,Friendly,played,North Korea,PRK,Syria,,FALSE,1,5,loss,Damascus,Syria,FALSE,1466,1463,1452,1477,-14
-2000-02-13,Friendly,played,North Korea,PRK,Syria,,FALSE,0,0,draw,Damascus,Syria,FALSE,1452,1477,1455,1474,3
-2000-02-16,Friendly,played,North Korea,PRK,Lebanon,,FALSE,0,1,loss,Beirut,Lebanon,FALSE,1455,1399,1446,1408,-9
-2000-03-25,AFC Asian Cup qualification,played,North Korea,PRK,Thailand,,FALSE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1446,1496,1449,1493,3
-2000-03-27,AFC Asian Cup qualification,played,North Korea,PRK,Malaysia,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,FALSE,1449,1228,1442,1235,-7
-2000-04-04,AFC Asian Cup qualification,played,North Korea,PRK,Thailand,,FALSE,3,5,loss,Bangkok,Thailand,FALSE,1447,1468,1427,1488,-20
-2000-04-06,AFC Asian Cup qualification,played,North Korea,PRK,Malaysia,,FALSE,4,1,win,Bangkok,Thailand,TRUE,1427,1232,1444,1215,17
-2001-01-23,Friendly,played,North Korea,PRK,Egypt,EGY,FALSE,0,1,loss,Ismailia,Egypt,FALSE,1448,1698,1446,1700,-2
-2001-01-28,Friendly,played,North Korea,PRK,Jordan,,FALSE,0,1,loss,Zarqa,Jordan,FALSE,1446,1468,1439,1475,-7
-2001-01-30,Friendly,played,North Korea,PRK,Jordan,,FALSE,2,0,win,Zarqa,Jordan,FALSE,1439,1475,1460,1454,21
-2001-07-23,Friendly,played,North Korea,PRK,Saudi Arabia,SAU,FALSE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1460,1703,1456,1707,-4
-2001-08-03,Friendly,played,North Korea,PRK,China PR,,FALSE,2,2,draw,Shanghai,China PR,FALSE,,,,,
-2001-08-05,Friendly,played,North Korea,PRK,Kuwait,KWT,FALSE,1,1,draw,Shanghai,China PR,TRUE,1467,1587,1472,1582,5
-2002-02-07,Friendly,played,North Korea,PRK,Singapore,,FALSE,1,2,loss,Singapore,Singapore,FALSE,1472,1230,1458,1244,-14
-2002-02-10,King's Cup,played,North Korea,PRK,Qatar,QAT,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1458,1580,1463,1575,5
-2002-02-12,King's Cup,played,North Korea,PRK,Singapore,,TRUE,4,2,win,Bangkok,Thailand,TRUE,1463,1235,1473,1225,10
-2002-02-14,King's Cup,played,North Korea,PRK,Thailand,,FALSE,1,0,win,Bangkok,Thailand,FALSE,1473,1462,1492,1443,19
-2002-02-16,King's Cup,played,North Korea,PRK,Thailand,,FALSE,0,0,draw,Bangkok,Thailand,FALSE,1492,1443,1494,1441,2
-2002-09-07,Friendly,played,North Korea,PRK,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1494,1781,1502,1773,8
-2003-02-16,King's Cup,played,North Korea,PRK,Thailand,,FALSE,2,2,draw,Bangkok,Thailand,FALSE,1502,1424,1503,1423,1
-2003-02-18,King's Cup,played,North Korea,PRK,Sweden,SWE,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1503,1816,1514,1805,11
-2003-02-20,King's Cup,played,North Korea,PRK,Qatar,QAT,TRUE,2,2,draw,Bangkok,Thailand,TRUE,1514,1572,1516,1570,2
-2003-02-22,King's Cup,played,North Korea,PRK,Sweden,SWE,TRUE,0,4,loss,Bangkok,Thailand,TRUE,1516,1814,1507,1823,-9
-2003-03-24,AFC Asian Cup qualification,played,North Korea,PRK,India,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1507,1092,1510,1089,3
-2003-03-30,AFC Asian Cup qualification,played,North Korea,PRK,India,,FALSE,1,1,draw,Margao,India,FALSE,1510,1089,1495,1104,-15
-2003-09-04,AFC Asian Cup qualification,played,North Korea,PRK,Lebanon,,TRUE,0,1,loss,Pyongyang,North Korea,FALSE,1495,1391,1464,1422,-31
-2003-10-27,AFC Asian Cup qualification,played,North Korea,PRK,Iran,IRN,TRUE,1,3,loss,Pyongyang,North Korea,FALSE,1464,1695,1445,1714,-19
-2003-11-03,AFC Asian Cup qualification,played,North Korea,PRK,Lebanon,,FALSE,1,1,draw,Beirut,Lebanon,FALSE,1445,1407,1449,1403,4
-2003-11-12,AFC Asian Cup qualification,played,North Korea,PRK,Iran,IRN,FALSE,0,3,loss,Tehran,Iran,FALSE,,,,,
-2003-11-18,AFC Asian Cup qualification,played,North Korea,PRK,Jordan,,FALSE,0,3,loss,Amman,Jordan,FALSE,1445,1577,1430,1592,-15
-2004-02-18,FIFA World Cup qualification,played,North Korea,PRK,Yemen,,FALSE,1,1,draw,Sana'a,Yemen,FALSE,1430,1150,1420,1160,-10
-2004-03-31,FIFA World Cup qualification,played,North Korea,PRK,United Arab Emirates,ARE,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1420,1461,1417,1464,-3
-2004-06-09,FIFA World Cup qualification,played,North Korea,PRK,Thailand,,FALSE,4,1,win,Bangkok,Thailand,FALSE,1417,1448,1465,1400,48
-2004-09-08,FIFA World Cup qualification,played,North Korea,PRK,Thailand,,TRUE,4,1,win,Pyongyang,North Korea,FALSE,1465,1348,1481,1332,16
-2004-10-13,FIFA World Cup qualification,played,North Korea,PRK,Yemen,,TRUE,2,1,win,Pyongyang,North Korea,FALSE,1481,1187,1485,1183,4
-2004-11-17,FIFA World Cup qualification,played,North Korea,PRK,United Arab Emirates,ARE,FALSE,0,1,loss,Dubai,United Arab Emirates,FALSE,1485,1389,1465,1409,-20
-2005-02-02,Friendly,played,North Korea,PRK,Kuwait,KWT,TRUE,0,0,draw,Beijing,China PR,TRUE,1465,1516,1466,1515,1
-2005-02-09,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,FALSE,1,2,loss,Saitama,Japan,FALSE,1466,1848,1464,1850,-2
-2005-03-07,EAFF Championship,played,North Korea,PRK,Mongolia,,TRUE,6,0,win,Taipei,Taiwan,TRUE,1464,746,1465,745,1
-2005-03-11,EAFF Championship,played,North Korea,PRK,Guam,,FALSE,21,0,win,Taipei,Taiwan,TRUE,1472,535,1473,534,1
-2005-03-13,EAFF Championship,played,North Korea,PRK,Hong Kong,,FALSE,2,0,win,Taipei,Taiwan,TRUE,1473,1247,1486,1234,13
-2005-03-25,FIFA World Cup qualification,played,North Korea,PRK,Bahrain,,TRUE,1,2,loss,Pyongyang,North Korea,FALSE,1486,1595,1467,1614,-19
-2005-03-30,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,TRUE,0,2,loss,Pyongyang,North Korea,FALSE,1467,1814,1455,1826,-12
-2005-06-03,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1455,1827,1453,1829,-2
-2005-06-08,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,TRUE,0,2,loss,Bangkok,Thailand,TRUE,1453,1801,1446,1808,-7
-2005-07-31,EAFF Championship,played,North Korea,PRK,Japan,JPN,TRUE,1,0,win,Daejeon,South Korea,TRUE,1446,1829,1482,1793,36
-2005-08-04,EAFF Championship,played,North Korea,PRK,South Korea,KOR,FALSE,0,0,draw,Jeonju,South Korea,FALSE,1482,1704,1497,1689,15
-2005-08-07,EAFF Championship,played,North Korea,PRK,China PR,,FALSE,0,2,loss,Daegu,South Korea,TRUE,,,,,
-2005-08-14,Friendly,played,North Korea,PRK,South Korea,KOR,FALSE,0,3,loss,Seoul,South Korea,FALSE,1479,1669,1473,1675,-6
-2005-08-17,FIFA World Cup qualification,played,North Korea,PRK,Bahrain,,FALSE,3,2,win,Riffa,Bahrain,FALSE,1473,1592,1504,1561,31
-2005-12-26,King's Cup,played,North Korea,PRK,Latvia,,TRUE,1,1,draw,Phuket,Thailand,TRUE,1504,1466,1502,1468,-2
-2005-12-28,King's Cup,played,North Korea,PRK,Thailand,,FALSE,2,0,win,Phuket,Thailand,FALSE,,,,,
-2005-12-30,King's Cup,played,North Korea,PRK,Latvia,,FALSE,1,2,loss,Phuket,Thailand,TRUE,1502,1468,1486,1484,-16
-2006-02-24,Friendly,played,North Korea,PRK,Kazakhstan,,FALSE,0,0,draw,Larnaca,Cyprus,TRUE,1486,1313,1481,1318,-5
-2007-06-19,EAFF Championship,played,North Korea,PRK,Mongolia,,TRUE,7,0,win,Macau,Macau,TRUE,1481,784,1483,782,2
-2007-06-21,EAFF Championship,played,North Korea,PRK,Macau,,FALSE,7,1,win,Macau,Macau,FALSE,,,,,
-2007-06-24,EAFF Championship,played,North Korea,PRK,Hong Kong,,TRUE,1,0,win,Macau,Macau,TRUE,1486,1226,1493,1219,7
-2007-06-28,Friendly,played,North Korea,PRK,Oman,,FALSE,2,2,draw,Singapore,Singapore,TRUE,1474,1602,1479,1597,5
-2007-07-01,Friendly,played,North Korea,PRK,United Arab Emirates,ARE,FALSE,0,1,loss,Singapore,Singapore,TRUE,1479,1514,1470,1523,-9
-2007-07-04,Friendly,played,North Korea,PRK,Saudi Arabia,SAU,FALSE,1,1,draw,Singapore,Singapore,TRUE,1470,1603,1474,1599,4
-2007-10-21,FIFA World Cup qualification,played,North Korea,PRK,Mongolia,,FALSE,4,1,win,Ulaanbaatar,Mongolia,FALSE,1474,799,1476,797,2
-2007-10-28,FIFA World Cup qualification,played,North Korea,PRK,Mongolia,,TRUE,5,1,win,Pyongyang,North Korea,FALSE,1476,797,1477,796,1
-2007-12-24,King's Cup,played,North Korea,PRK,Uzbekistan,,TRUE,2,2,draw,Bangkok,Thailand,TRUE,1477,1561,1481,1557,4
-2007-12-26,King's Cup,played,North Korea,PRK,Thailand,,FALSE,0,1,loss,Bangkok,Thailand,FALSE,1481,1426,1468,1439,-13
-2008-02-06,FIFA World Cup qualification,played,North Korea,PRK,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,1468,1530,1497,1501,29
-2008-02-17,EAFF Championship,played,North Korea,PRK,Japan,JPN,FALSE,1,1,draw,Chongqing,China PR,TRUE,1497,1783,1511,1769,14
-2008-02-20,EAFF Championship,played,North Korea,PRK,South Korea,KOR,FALSE,1,1,draw,Chongqing,China PR,TRUE,1511,1684,1520,1675,9
-2008-02-23,EAFF Championship,played,North Korea,PRK,China PR,,FALSE,1,3,loss,Chongqing,China PR,FALSE,,,,,
-2008-03-26,FIFA World Cup qualification,played,North Korea,PRK,South Korea,KOR,TRUE,0,0,draw,Shanghai,China PR,TRUE,1500,1681,1510,1671,10
-2008-06-02,FIFA World Cup qualification,played,North Korea,PRK,Turkmenistan,,FALSE,0,0,draw,Ashgabat,Turkmenistan,FALSE,1510,1341,1506,1345,-4
-2008-06-07,FIFA World Cup qualification,played,North Korea,PRK,Turkmenistan,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1506,1345,1513,1338,7
-2008-06-14,FIFA World Cup qualification,played,North Korea,PRK,Jordan,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1513,1499,1533,1479,20
-2008-06-22,FIFA World Cup qualification,played,North Korea,PRK,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1533,1688,1546,1675,13
-2008-07-31,AFC Challenge Cup,played,North Korea,PRK,Sri Lanka,,TRUE,3,0,win,Hyderabad,India,TRUE,1546,983,1549,980,3
-2008-08-02,AFC Challenge Cup,played,North Korea,PRK,Nepal,,FALSE,1,0,win,Hyderabad,India,TRUE,1549,907,1550,906,1
-2008-08-04,AFC Challenge Cup,played,North Korea,PRK,Myanmar,,TRUE,1,0,win,Hyderabad,India,TRUE,1550,1196,1555,1191,5
-2008-08-07,AFC Challenge Cup,played,North Korea,PRK,Tajikistan,,TRUE,0,1,loss,Hyderabad,India,TRUE,1555,1299,1522,1332,-33
-2008-08-13,AFC Challenge Cup,played,North Korea,PRK,Myanmar,,FALSE,4,0,win,New Delhi,India,TRUE,1522,1176,1531,1167,9
-2008-08-24,Friendly,played,North Korea,PRK,Qatar,QAT,FALSE,1,2,loss,Doha,Qatar,FALSE,1531,1496,1523,1504,-8
-2008-08-29,Friendly,played,North Korea,PRK,Uzbekistan,,FALSE,0,0,draw,Tashkent,Uzbekistan,FALSE,1523,1602,1528,1597,5
-2008-09-06,FIFA World Cup qualification,played,North Korea,PRK,United Arab Emirates,ARE,FALSE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1528,1434,1548,1414,20
-2008-09-10,FIFA World Cup qualification,played,North Korea,PRK,South Korea,KOR,TRUE,1,1,draw,Shanghai,China PR,TRUE,1548,1679,1555,1672,7
-2008-10-15,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,1555,1786,1550,1791,-5
-2008-10-28,VFF Cup,played,North Korea,PRK,Thailand,,FALSE,0,1,loss,Hanoi,Vietnam,TRUE,1550,1400,1529,1421,-21
-2008-10-30,VFF Cup,played,North Korea,PRK,Vietnam,,FALSE,0,0,draw,Hanoi,Vietnam,FALSE,1529,1238,1521,1246,-8
-2009-01-23,King's Cup,played,North Korea,PRK,Lebanon,,TRUE,0,1,loss,Phuket,Thailand,TRUE,1521,1258,1496,1283,-25
-2009-02-11,FIFA World Cup qualification,played,North Korea,PRK,Saudi Arabia,SAU,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1496,1678,1521,1653,25
-2009-03-28,FIFA World Cup qualification,played,North Korea,PRK,United Arab Emirates,ARE,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1521,1424,1536,1409,15
-2009-04-01,FIFA World Cup qualification,played,North Korea,PRK,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1536,1728,1530,1734,-6
-2009-06-06,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1530,1716,1535,1711,5
-2009-06-17,FIFA World Cup qualification,played,North Korea,PRK,Saudi Arabia,SAU,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1535,1694,1548,1681,13
-2009-08-23,EAFF Championship,played,North Korea,PRK,Guam,,TRUE,9,2,win,Kaohsiung,Taiwan,TRUE,1548,608,1548,608,0
-2009-08-25,EAFF Championship,played,North Korea,PRK,Hong Kong,,FALSE,0,0,draw,Kaohsiung,Taiwan,TRUE,1548,1217,1533,1232,-15
-2009-10-13,Friendly,played,North Korea,PRK,Congo,,FALSE,0,0,draw,Le Mans,France,TRUE,1535,1408,1531,1412,-4
-2009-11-21,Friendly,played,North Korea,PRK,Zambia,,FALSE,1,4,loss,Lusaka,Zambia,FALSE,1531,1434,1514,1451,-17
-2009-12-04,East Asian Games,played,North Korea,PRK,Macau,,TRUE,8,0,win,Hong Kong,Hong Kong,TRUE,,,,,
-2009-12-27,Friendly,played,North Korea,PRK,Mali,,TRUE,1,0,win,Doha,Qatar,TRUE,1514,1565,1531,1548,17
-2009-12-30,Friendly,played,North Korea,PRK,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1531,1551,1551,1531,20
-2010-01-02,Friendly,played,North Korea,PRK,Iran,IRN,FALSE,0,1,loss,Doha,Qatar,TRUE,1551,1634,1540,1645,-11
-2010-02-17,AFC Challenge Cup,played,North Korea,PRK,Turkmenistan,,TRUE,1,1,draw,Colombo,Sri Lanka,TRUE,1540,1306,1528,1318,-12
-2010-02-19,AFC Challenge Cup,played,North Korea,PRK,Kyrgyzstan,,FALSE,4,0,win,Colombo,Sri Lanka,TRUE,1528,1185,1537,1176,9
-2010-02-24,AFC Challenge Cup,played,North Korea,PRK,Myanmar,,TRUE,5,0,win,Colombo,Sri Lanka,TRUE,1545,1191,1554,1182,9
-2010-02-25,AFC Challenge Cup,played,North Korea,PRK,Turkmenistan,,FALSE,1,1,draw,Colombo,Sri Lanka,TRUE,,,,,
-2010-03-06,Friendly,played,North Korea,PRK,Venezuela,,FALSE,1,2,loss,Puerto la Cruz,Venezuela,FALSE,1550,1703,1546,1707,-4
-2010-03-17,Friendly,played,North Korea,PRK,Mexico,MEX,FALSE,1,2,loss,Torreón,Mexico,FALSE,1546,1899,1545,1900,-1
-2010-04-22,Friendly,played,North Korea,PRK,South Africa,ZAF,FALSE,0,0,draw,Taunusstein,Germany,TRUE,1545,1528,1545,1528,0
-2010-05-15,Friendly,played,North Korea,PRK,Paraguay,PRY,FALSE,0,1,loss,Nyon,Switzerland,TRUE,1545,1752,1540,1757,-5
-2010-05-25,Friendly,played,North Korea,PRK,Greece,GRC,FALSE,2,2,draw,Altach,Austria,TRUE,1540,1757,1546,1751,6
-2010-06-06,Friendly,played,North Korea,PRK,Nigeria,NGA,FALSE,1,3,loss,Johannesburg,South Africa,TRUE,1546,1704,1537,1713,-9
-2010-06-15,FIFA World Cup,played,North Korea,PRK,Brazil,BRA,FALSE,1,2,loss,Johannesburg,South Africa,TRUE,1537,2109,1535,2111,-2
-2010-06-21,FIFA World Cup,played,North Korea,PRK,Portugal,PRT,FALSE,0,7,loss,Cape Town,South Africa,TRUE,1535,1865,1517,1883,-18
-2010-06-25,FIFA World Cup,played,North Korea,PRK,Ivory Coast,CIV,TRUE,0,3,loss,Nelspruit,South Africa,TRUE,1517,1740,1494,1763,-23
-2010-09-24,Friendly,played,North Korea,PRK,Vietnam,,FALSE,0,0,draw,Hanoi,Vietnam,FALSE,1494,1345,1492,1347,-2
-2010-11-02,VFF Cup,played,North Korea,PRK,Singapore,,FALSE,2,1,win,Hanoi,Vietnam,TRUE,1492,1349,1501,1340,9
-2010-11-06,VFF Cup,played,North Korea,PRK,Vietnam,,FALSE,2,0,win,Hanoi,Vietnam,FALSE,1501,1320,1518,1303,17
-2010-11-10,Friendly,played,North Korea,PRK,Yemen,,FALSE,1,1,draw,Sana'a,Yemen,FALSE,1518,1364,1516,1366,-2
-2010-12-24,Friendly,played,North Korea,PRK,Kuwait,KWT,FALSE,1,2,loss,6th of October City,Egypt,TRUE,1516,1618,1509,1625,-7
-2010-12-27,Friendly,played,North Korea,PRK,Kuwait,KWT,FALSE,2,2,draw,6th of October City,Egypt,TRUE,1509,1625,1512,1622,3
-2010-12-31,Friendly,played,North Korea,PRK,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1512,1533,1525,1520,13
-2011-01-04,Friendly,played,North Korea,PRK,Bahrain,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1525,1468,1536,1457,11
-2011-01-11,AFC Asian Cup,played,North Korea,PRK,United Arab Emirates,ARE,TRUE,0,0,draw,Doha,Qatar,TRUE,1536,1488,1533,1491,-3
-2011-01-15,AFC Asian Cup,played,North Korea,PRK,Iran,IRN,FALSE,0,1,loss,Doha,Qatar,TRUE,1533,1714,1520,1727,-13
-2011-01-19,AFC Asian Cup,played,North Korea,PRK,Iraq,IRQ,FALSE,0,1,loss,Al Rayyan,Qatar,TRUE,1520,1583,1499,1604,-21
-2011-03-26,Friendly,played,North Korea,PRK,Iraq,IRQ,TRUE,2,0,win,Sharjah,United Arab Emirates,TRUE,,,,,
-2011-03-29,Friendly,played,North Korea,PRK,Jordan,,FALSE,1,1,draw,Sharjah,United Arab Emirates,TRUE,1488,1528,1489,1527,1
-2011-04-07,AFC Challenge Cup qualification,played,North Korea,PRK,Sri Lanka,,TRUE,4,0,win,Kathmandu,Nepal,TRUE,1489,939,1492,936,3
-2011-04-09,AFC Challenge Cup qualification,played,North Korea,PRK,Nepal,,FALSE,1,0,win,Kathmandu,Nepal,FALSE,1492,986,1496,982,4
-2011-04-11,AFC Challenge Cup qualification,played,North Korea,PRK,Afghanistan,,TRUE,2,0,win,Kathmandu,Nepal,TRUE,1496,829,1497,828,1
-2011-06-08,Friendly,played,North Korea,PRK,China PR,,FALSE,0,2,loss,Guiyang,China PR,FALSE,,,,,
-2011-08-10,Friendly,played,North Korea,PRK,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1491,1595,1496,1590,5
-2011-09-02,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,FALSE,0,1,loss,Saitama,Japan,FALSE,1496,1833,1493,1836,-3
-2011-09-06,FIFA World Cup qualification,played,North Korea,PRK,Tajikistan,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1493,1260,1498,1255,5
-2011-10-11,FIFA World Cup qualification,played,North Korea,PRK,Uzbekistan,,TRUE,0,1,loss,Pyongyang,North Korea,FALSE,1498,1587,1477,1608,-21
-2011-11-11,FIFA World Cup qualification,played,North Korea,PRK,Uzbekistan,,FALSE,0,1,loss,Tashkent,Uzbekistan,FALSE,1477,1608,1469,1616,-8
-2011-11-15,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1469,1835,1502,1802,33
-2012-02-17,Friendly,played,North Korea,PRK,Kuwait,KWT,TRUE,1,1,draw,Changsha,China PR,TRUE,1502,1589,1504,1587,2
-2012-02-29,FIFA World Cup qualification,played,North Korea,PRK,Tajikistan,,FALSE,1,1,draw,Xuçand,Tajikistan,FALSE,1504,1244,1495,1253,-9
-2012-03-09,AFC Challenge Cup,played,North Korea,PRK,Philippines,,TRUE,2,0,win,Kathmandu,Nepal,TRUE,1495,1041,1499,1037,4
-2012-03-11,AFC Challenge Cup,played,North Korea,PRK,Tajikistan,,FALSE,2,0,win,Kathmandu,Nepal,TRUE,1499,1278,1512,1265,13
-2012-03-13,AFC Challenge Cup,played,North Korea,PRK,India,,TRUE,4,0,win,Kathmandu,Nepal,TRUE,1512,1127,1519,1120,7
-2012-03-16,AFC Challenge Cup,played,North Korea,PRK,Palestine,,TRUE,2,0,win,Kathmandu,Nepal,TRUE,1519,1295,1532,1282,13
-2012-03-19,AFC Challenge Cup,played,North Korea,PRK,Turkmenistan,,FALSE,2,1,win,Kathmandu,Nepal,TRUE,1532,1369,1543,1358,11
-2012-09-10,Friendly,played,North Korea,PRK,Indonesia,IDN,FALSE,2,0,win,Jakarta,Indonesia,FALSE,1543,1267,1551,1259,8
-2012-12-01,EAFF Championship,played,North Korea,PRK,Taiwan,,FALSE,6,1,win,Kowloon,Hong Kong,TRUE,1551,898,1553,896,2
-2012-12-03,EAFF Championship,played,North Korea,PRK,Guam,,TRUE,5,0,win,Kowloon,Hong Kong,TRUE,1553,680,1554,679,1
-2012-12-05,EAFF Championship,played,North Korea,PRK,Australia,AUS,TRUE,1,1,draw,So Kon Po,Hong Kong,TRUE,1554,1784,1566,1772,12
-2012-12-09,EAFF Championship,played,North Korea,PRK,Hong Kong,,FALSE,4,0,win,So Kon Po,Hong Kong,FALSE,1566,1181,1578,1169,12
-2013-01-23,King's Cup,played,North Korea,PRK,Sweden,SWE,FALSE,1,1,draw,Chiang Mai,Thailand,TRUE,1578,1907,1589,1896,11
-2013-01-26,King's Cup,played,North Korea,PRK,Thailand,,FALSE,2,2,draw,Chiang Mai,Thailand,FALSE,1589,1371,1584,1376,-5
-2013-02-06,Friendly,played,North Korea,PRK,Laos,,TRUE,1,0,win,Kunming,China PR,TRUE,1594,857,1594,857,0
-2013-06-11,Friendly,played,North Korea,PRK,Qatar,QAT,FALSE,0,0,draw,Doha,Qatar,FALSE,1594,1465,1593,1466,-1
-2013-09-06,Friendly,played,North Korea,PRK,Kuwait,KWT,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1593,1566,1585,1574,-8
-2014-02-21,Friendly,played,North Korea,PRK,Iraq,IRQ,FALSE,0,2,loss,Dubai,United Arab Emirates,TRUE,1585,1520,1567,1538,-18
-2014-10-31,Friendly,played,North Korea,PRK,Kuwait,KWT,TRUE,0,1,loss,Dubai,United Arab Emirates,TRUE,1567,1514,1555,1526,-12
-2014-11-02,Friendly,played,North Korea,PRK,Bahrain,,FALSE,2,2,draw,Riffa,Bahrain,FALSE,1555,1489,1556,1488,1
-2014-11-06,Friendly,played,North Korea,PRK,Qatar,QAT,FALSE,1,3,loss,Doha,Qatar,FALSE,1556,1567,1546,1577,-10
-2014-11-13,EAFF Championship,played,North Korea,PRK,Hong Kong,,TRUE,2,1,win,Taipei,Taiwan,TRUE,1546,1168,1550,1164,4
-2014-11-16,EAFF Championship,played,North Korea,PRK,Guam,,FALSE,5,1,win,Taipei,Taiwan,TRUE,1550,792,1551,791,1
-2015-01-10,AFC Asian Cup,played,North Korea,PRK,Uzbekistan,,FALSE,0,1,loss,Sydney,Australia,TRUE,1532,1649,1515,1666,-17
-2015-01-14,AFC Asian Cup,played,North Korea,PRK,Saudi Arabia,SAU,TRUE,1,4,loss,Melbourne,Australia,TRUE,1515,1446,1463,1498,-52
-2015-01-18,AFC Asian Cup,played,North Korea,PRK,China PR,,FALSE,1,2,loss,Canberra,Australia,TRUE,,,,,
-2015-05-17,Friendly,played,North Korea,PRK,Vietnam,,FALSE,1,1,draw,Hanoi,Vietnam,FALSE,1449,1240,1446,1243,-3
-2015-05-20,Friendly,played,North Korea,PRK,Thailand,,FALSE,1,0,win,Bangkok,Thailand,FALSE,1446,1364,1457,1353,11
-2015-06-11,FIFA World Cup qualification,played,North Korea,PRK,Yemen,,FALSE,3,0,win,Doha,Qatar,TRUE,,,,,
-2015-06-16,FIFA World Cup qualification,played,North Korea,PRK,Uzbekistan,,TRUE,4,2,win,Pyongyang,North Korea,FALSE,1465,1613,1499,1579,34
-2015-08-02,EAFF Championship,played,North Korea,PRK,Japan,JPN,TRUE,2,1,win,Wuhan,China PR,TRUE,1499,1757,1532,1724,33
-2015-08-05,EAFF Championship,played,North Korea,PRK,China PR,,FALSE,0,2,loss,Wuhan,China PR,FALSE,,,,,
-2015-08-09,EAFF Championship,played,North Korea,PRK,South Korea,KOR,FALSE,0,0,draw,Wuhan,China PR,TRUE,1513,1772,1526,1759,13
-2015-09-03,FIFA World Cup qualification,played,North Korea,PRK,Bahrain,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1526,1457,1548,1435,22
-2015-10-08,FIFA World Cup qualification,played,North Korea,PRK,Philippines,,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1548,1267,1532,1283,-16
-2015-10-13,FIFA World Cup qualification,played,North Korea,PRK,Yemen,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1532,1159,1534,1157,2
-2015-11-12,FIFA World Cup qualification,played,North Korea,PRK,Uzbekistan,,FALSE,1,3,loss,Tashkent,Uzbekistan,FALSE,1534,1631,1519,1646,-15
-2015-11-17,FIFA World Cup qualification,played,North Korea,PRK,Bahrain,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1519,1429,1534,1414,15
-2016-03-29,FIFA World Cup qualification,played,North Korea,PRK,Philippines,,FALSE,2,3,loss,Manila,Philippines,FALSE,1534,1238,1504,1268,-30
-2016-08-21,Friendly,played,North Korea,PRK,Iraq,IRQ,FALSE,1,1,draw,Paroi,Malaysia,TRUE,1514,1484,1513,1485,-1
-2016-08-24,Friendly,played,North Korea,PRK,United Arab Emirates,ARE,TRUE,2,0,win,Shanghai,China PR,TRUE,1513,1583,1531,1565,18
-2016-10-06,Friendly,played,North Korea,PRK,Vietnam,,FALSE,2,5,loss,Ho Chi Minh City,Vietnam,FALSE,1531,1257,1505,1283,-26
-2016-10-10,Friendly,played,North Korea,PRK,Philippines,,FALSE,3,1,win,Manila,Philippines,FALSE,1505,1267,1514,1258,9
-2016-11-06,EAFF Championship,played,North Korea,PRK,Taiwan,,TRUE,2,0,win,Kowloon,Hong Kong,TRUE,1514,826,1515,825,1
-2016-11-09,EAFF Championship,played,North Korea,PRK,Guam,,FALSE,2,0,win,Kowloon,Hong Kong,TRUE,1515,869,1516,868,1
-2016-11-12,EAFF Championship,played,North Korea,PRK,Hong Kong,,FALSE,1,0,win,Kowloon,Hong Kong,FALSE,1516,1208,1525,1199,9
-2017-06-06,Friendly,played,North Korea,PRK,Qatar,QAT,FALSE,2,2,draw,Doha,Qatar,FALSE,1525,1513,1527,1511,2
-2017-06-13,AFC Asian Cup qualification,played,North Korea,PRK,Hong Kong,,FALSE,1,1,draw,So Kon Po,Hong Kong,FALSE,1527,1192,1515,1204,-12
-2017-07-14,King's Cup,played,North Korea,PRK,Thailand,,FALSE,0,3,loss,Bangkok,Thailand,FALSE,1515,1390,1487,1418,-28
-2017-07-16,King's Cup,played,North Korea,PRK,Burkina Faso,,FALSE,3,3,draw,Bangkok,Thailand,TRUE,,,,,
-2017-09-05,AFC Asian Cup qualification,played,North Korea,PRK,Lebanon,,TRUE,2,2,draw,Pyongyang,North Korea,FALSE,1487,1393,1477,1403,-10
-2017-10-10,AFC Asian Cup qualification,played,North Korea,PRK,Lebanon,,FALSE,0,5,loss,Beirut,Lebanon,FALSE,1477,1403,1440,1440,-37
-2017-11-10,AFC Asian Cup qualification,played,North Korea,PRK,Malaysia,,TRUE,4,1,win,Buriram,Thailand,TRUE,1440,1081,1448,1073,8
-2017-11-13,AFC Asian Cup qualification,played,North Korea,PRK,Malaysia,,FALSE,4,1,win,Buriram,Thailand,TRUE,1448,1073,1455,1066,7
-2017-12-09,EAFF Championship,played,North Korea,PRK,Japan,JPN,FALSE,0,1,loss,Chōfu,Japan,FALSE,1455,1744,1451,1748,-4
-2017-12-12,EAFF Championship,played,North Korea,PRK,South Korea,KOR,TRUE,0,1,loss,Chōfu,Japan,TRUE,1451,1703,1443,1711,-8
-2017-12-16,EAFF Championship,played,North Korea,PRK,China PR,,FALSE,1,1,draw,Chōfu,Japan,TRUE,,,,,
-2018-03-27,AFC Asian Cup qualification,played,North Korea,PRK,Hong Kong,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1450,1193,1457,1186,7
-2018-10-13,Friendly,played,North Korea,PRK,Uzbekistan,,FALSE,0,2,loss,Tashkent,Uzbekistan,FALSE,1457,1591,1451,1597,-6
-2018-11-11,EAFF Championship,played,North Korea,PRK,Mongolia,,TRUE,4,1,win,Taipei,Taiwan,TRUE,1451,719,1452,718,1
-2018-11-13,EAFF Championship,played,North Korea,PRK,Hong Kong,,FALSE,0,0,draw,Taipei,Taiwan,TRUE,1452,1198,1440,1210,-12
-2018-11-16,EAFF Championship,played,North Korea,PRK,Taiwan,,FALSE,2,0,win,Taipei,Taiwan,FALSE,1440,982,1447,975,7
-2018-12-25,Friendly,played,North Korea,PRK,Vietnam,,FALSE,1,1,draw,Hanoi,Vietnam,FALSE,1447,1329,1446,1330,-1
-2018-12-29,Friendly,played,North Korea,PRK,Bahrain,,FALSE,0,4,loss,Isa Town,Bahrain,FALSE,1446,1417,1431,1432,-15
-2019-01-08,AFC Asian Cup,played,North Korea,PRK,Saudi Arabia,SAU,FALSE,0,4,loss,Dubai,United Arab Emirates,TRUE,1431,1583,1403,1611,-28
-2019-01-13,AFC Asian Cup,played,North Korea,PRK,Qatar,QAT,TRUE,0,6,loss,Al Ain,United Arab Emirates,TRUE,1403,1552,1371,1584,-32
-2019-01-17,AFC Asian Cup,played,North Korea,PRK,Lebanon,,FALSE,1,4,loss,Sharjah,United Arab Emirates,TRUE,1371,1406,1332,1445,-39
-2019-06-07,Friendly,played,North Korea,PRK,Uzbekistan,,FALSE,0,4,loss,Tashkent,Uzbekistan,FALSE,1332,1613,1328,1617,-4
-2019-07-08,Intercontinental Cup,played,North Korea,PRK,Syria,,FALSE,2,5,loss,Ahmedabad,India,TRUE,1328,1520,1315,1533,-13
-2019-07-13,Intercontinental Cup,played,North Korea,PRK,India,,FALSE,5,2,win,Ahmedabad,India,FALSE,1315,1227,1342,1200,27
-2019-07-15,Intercontinental Cup,played,North Korea,PRK,Tajikistan,,TRUE,1,0,win,Ahmedabad,India,TRUE,1342,1277,1354,1265,12
-2019-07-19,Intercontinental Cup,played,North Korea,PRK,Tajikistan,,FALSE,1,0,win,Ahmedabad,India,TRUE,1354,1265,1365,1254,11
-2019-09-05,FIFA World Cup qualification,played,North Korea,PRK,Lebanon,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1365,1422,1391,1396,26
-2019-09-10,FIFA World Cup qualification,played,North Korea,PRK,Sri Lanka,,FALSE,1,0,win,Colombo,Sri Lanka,FALSE,1391,681,1392,680,1
-2019-10-15,FIFA World Cup qualification,played,North Korea,PRK,South Korea,KOR,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1392,1785,1406,1771,14
-2019-11-14,FIFA World Cup qualification,played,North Korea,PRK,Turkmenistan,,FALSE,1,3,loss,Ashgabat,Turkmenistan,FALSE,1406,1232,1370,1268,-36
-2019-11-19,FIFA World Cup qualification,played,North Korea,PRK,Lebanon,,FALSE,0,0,draw,Beirut,Lebanon,FALSE,1370,1414,1378,1406,8
-2023-11-16,FIFA World Cup qualification,played,North Korea,PRK,Syria,,FALSE,0,1,loss,Jeddah,Saudi Arabia,TRUE,1378,1413,1360,1431,-18
-2023-11-21,FIFA World Cup qualification,played,North Korea,PRK,Myanmar,,FALSE,6,1,win,Yangon,Myanmar,FALSE,1360,920,1370,910,10
-2024-03-21,FIFA World Cup qualification,played,North Korea,PRK,Japan,JPN,FALSE,0,1,loss,Tokyo,Japan,FALSE,1370,1851,1369,1852,-1
-2024-06-06,FIFA World Cup qualification,played,North Korea,PRK,Syria,,TRUE,1,0,win,Vientiane,Laos,TRUE,1369,1447,1393,1423,24
-2024-06-11,FIFA World Cup qualification,played,North Korea,PRK,Myanmar,,TRUE,4,1,win,Vientiane,Laos,TRUE,1393,922,1397,918,4
-2024-07-27,Friendly,played,North Korea,PRK,Jordan,,FALSE,0,0,draw,Amman,Jordan,FALSE,,,,,
-2024-08-29,Friendly,played,North Korea,PRK,Jordan,,FALSE,1,2,loss,Amman,Jordan,FALSE,1404,1628,1401,1631,-3
-2024-09-05,FIFA World Cup qualification,played,North Korea,PRK,Uzbekistan,,FALSE,0,1,loss,Tashkent,Uzbekistan,FALSE,1401,1681,1397,1685,-4
-2024-09-10,FIFA World Cup qualification,played,North Korea,PRK,Qatar,QAT,TRUE,2,2,draw,Vientiane,Laos,TRUE,1397,1584,1407,1574,10
-2024-10-10,FIFA World Cup qualification,played,North Korea,PRK,United Arab Emirates,ARE,FALSE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1407,1538,1419,1526,12
-2024-10-15,FIFA World Cup qualification,played,North Korea,PRK,Kyrgyzstan,,FALSE,0,1,loss,Bishkek,Kyrgyzstan,FALSE,1419,1270,1396,1293,-23
-2024-11-14,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,TRUE,2,3,loss,Vientiane,Laos,TRUE,1396,1832,1393,1835,-3
-2024-11-19,FIFA World Cup qualification,played,North Korea,PRK,Uzbekistan,,TRUE,0,1,loss,Vientiane,Laos,TRUE,1393,1678,1387,1684,-6
-2025-03-14,Friendly,played,North Korea,PRK,Jordan,,FALSE,1,1,draw,Amman,Jordan,FALSE,1404,1619,1411,1612,7
-2025-03-20,FIFA World Cup qualification,played,North Korea,PRK,Qatar,QAT,FALSE,1,5,loss,Al Rayyan,Qatar,FALSE,1411,1524,1394,1541,-17
-2025-03-25,FIFA World Cup qualification,played,North Korea,PRK,United Arab Emirates,ARE,TRUE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1394,1528,1381,1541,-13
-2025-06-05,FIFA World Cup qualification,played,North Korea,PRK,Kyrgyzstan,,TRUE,2,2,draw,Riyadh,Saudi Arabia,TRUE,1381,1322,1378,1325,-3
-2025-06-10,FIFA World Cup qualification,played,North Korea,PRK,Iran,IRN,FALSE,0,3,loss,Tehran,Iran,FALSE,1378,1798,1375,1801,-3
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1956-10-07,Friendly,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,1,0,win,Beijing,China PR,FALSE,,,,,
+,,,1956-10-10,Friendly,played,North Korea,PRK,PRK,AFC,North Vietnam,,,,TRUE,3,0,win,Beijing,China PR,TRUE,1712,1294,1716,1290,4
+,,,1959-10-22,Friendly,played,North Korea,PRK,PRK,AFC,North Vietnam,,,,TRUE,5,0,win,Pyongyang,North Korea,FALSE,1716,1247,1718,1245,2
+,,,1959-10-25,Friendly,played,North Korea,PRK,PRK,AFC,China PR,,,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,,,,,
+,,,1960-10-04,Friendly,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,1,loss,Hanoi,North Vietnam,TRUE,,,,,
+,,,1960-10-08,Friendly,played,North Korea,PRK,PRK,AFC,North Vietnam,,,,FALSE,3,1,win,Hanoi,North Vietnam,FALSE,1699,1236,1704,1231,5
+,,,1960-10-10,Friendly,played,North Korea,PRK,PRK,AFC,Mongolia,,,,FALSE,10,1,win,Hanoi,North Vietnam,TRUE,1704,895,1705,894,1
+,,,1963-11-11,Friendly,played,North Korea,PRK,PRK,AFC,Somalia,,,,TRUE,14,0,win,Jakarta,Indonesia,TRUE,,,,,
+,,,1963-11-18,Friendly,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,FALSE,5,1,win,Jakarta,Indonesia,FALSE,1710,1471,1727,1454,17
+,,,1963-11-19,Friendly,played,North Korea,PRK,PRK,AFC,North Vietnam,,,,TRUE,2,0,win,Jakarta,Indonesia,TRUE,,,,,
+,,,1963-11-22,Friendly,played,North Korea,PRK,PRK,AFC,Egypt,EGY,EGY,CAF,FALSE,1,1,draw,Jakarta,Indonesia,TRUE,1729,1707,1728,1708,-1
+,,,1965-08-02,Friendly,played,North Korea,PRK,PRK,AFC,North Vietnam,,,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1720,1232,1721,1231,1
+,,,1965-08-04,Friendly,played,North Korea,PRK,PRK,AFC,China PR,,,,TRUE,3,0,win,Pyongyang,North Korea,FALSE,,,,,
+,,,1965-08-07,Friendly,played,North Korea,PRK,PRK,AFC,Guinea,,,,TRUE,3,0,win,Pyongyang,North Korea,FALSE,,,,,
+,,,1965-08-08,Friendly,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,TRUE,3,0,win,Pyongyang,North Korea,FALSE,1743,1422,1747,1418,4
+,,,1965-08-10,Friendly,played,North Korea,PRK,PRK,AFC,Cambodia,,,,TRUE,4,0,win,Pyongyang,North Korea,FALSE,,,,,
+,,,1965-11-21,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Australia,AUS,AUS,AFC,TRUE,6,1,win,Phnom Penh,Cambodia,TRUE,1748,1529,1766,1511,18
+,,,1965-11-24,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Australia,AUS,AUS,AFC,FALSE,3,1,win,Phnom Penh,Cambodia,TRUE,1766,1511,1777,1500,11
+WC-1966,WC-1966_004,4,1966-07-12,FIFA World Cup,played,North Korea,PRK,PRK,AFC,Soviet Union,SUN,SUN,UEFA,TRUE,0,3,loss,Middlesbrough,England,TRUE,1778,2003,1755,2026,-23
+WC-1966,WC-1966_010,10,1966-07-15,FIFA World Cup,played,North Korea,PRK,PRK,AFC,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Middlesbrough,England,TRUE,1755,1733,1753,1735,-2
+WC-1966,WC-1966_019,19,1966-07-19,FIFA World Cup,played,North Korea,PRK,PRK,AFC,Italy,ITA,ITA,UEFA,FALSE,1,0,win,Middlesbrough,England,TRUE,1753,1970,1800,1923,47
+WC-1966,WC-1966_028,28,1966-07-23,FIFA World Cup,played,North Korea,PRK,PRK,AFC,Portugal,PRT,PRT,UEFA,TRUE,3,5,loss,Liverpool,England,TRUE,1800,1979,1776,2003,-24
+,,,1966-11-26,GaNEFo,played,North Korea,PRK,PRK,AFC,Cambodia,,,,FALSE,2,0,win,Phnom Penh,Cambodia,FALSE,1776,1055,1777,1054,1
+,,,1966-11-29,GaNEFo,played,North Korea,PRK,PRK,AFC,Palestine,,,,FALSE,5,1,win,Phnom Penh,Cambodia,TRUE,1777,1214,1779,1212,2
+,,,1966-11-30,GaNEFo,played,North Korea,PRK,PRK,AFC,Yemen,,,,TRUE,14,0,win,Phnom Penh,Cambodia,TRUE,,,,,
+,,,1966-12-03,GaNEFo,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,2,1,win,Phnom Penh,Cambodia,TRUE,,,,,
+,,,1966-12-06,GaNEFo,played,North Korea,PRK,PRK,AFC,North Vietnam,,,,TRUE,3,1,win,Phnom Penh,Cambodia,TRUE,1787,1277,1789,1275,2
+,,,1969-12-05,Friendly,played,North Korea,PRK,PRK,AFC,Algeria,DZA,DZA,CAF,FALSE,3,1,win,Algiers,Algeria,FALSE,1789,1639,1802,1626,13
+,,,1973-05-04,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Tehran,Iran,FALSE,1711,1580,1709,1582,-2
+,,,1973-05-06,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Syria,,,,TRUE,1,1,draw,Tehran,Iran,TRUE,1709,1420,1695,1434,-14
+,,,1973-05-08,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,0,draw,Tehran,Iran,TRUE,1695,1366,1680,1381,-15
+,,,1973-05-11,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Tehran,Iran,FALSE,1680,1596,1661,1615,-19
+,,,1973-05-13,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Syria,,,,TRUE,3,0,win,Tehran,Iran,TRUE,1661,1452,1677,1436,16
+,,,1973-05-15,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,2,loss,Tehran,Iran,TRUE,1677,1348,1625,1400,-52
+,,,1973-07-25,Friendly,played,North Korea,PRK,PRK,AFC,Norway,NOR,NOR,UEFA,FALSE,0,3,loss,Bergen,Norway,FALSE,1625,1445,1604,1466,-21
+,,,1974-05-25,Friendly,played,North Korea,PRK,PRK,AFC,Bulgaria,BGR,BGR,UEFA,FALSE,1,6,loss,Sofia,Bulgaria,FALSE,1604,1826,1599,1831,-5
+,,,1974-09-02,Asian Games,played,North Korea,PRK,PRK,AFC,China PR,,,,TRUE,2,0,win,Tehran,Iran,TRUE,,,,,
+,,,1974-09-04,Asian Games,played,North Korea,PRK,PRK,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,1,loss,Tehran,Iran,TRUE,1633,1553,1608,1578,-25
+,,,1974-09-06,Asian Games,played,North Korea,PRK,PRK,AFC,India,,,,FALSE,4,1,win,Tehran,Iran,TRUE,1608,1332,1620,1320,12
+,,,1974-09-10,Asian Games,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,0,win,Tehran,Iran,TRUE,1620,1533,1643,1510,23
+,,,1974-09-12,Asian Games,played,North Korea,PRK,PRK,AFC,Israel,ISR,ISR,UEFA,FALSE,0,2,loss,Tehran,Iran,TRUE,,,,,
+,,,1974-09-14,Asian Games,played,North Korea,PRK,PRK,AFC,Myanmar,,,,TRUE,2,2,draw,Tehran,Iran,TRUE,1643,1537,1637,1543,-6
+,,,1974-09-15,Asian Games,played,North Korea,PRK,PRK,AFC,Malaysia,,,,TRUE,1,2,loss,Tehran,Iran,TRUE,1637,1478,1608,1507,-29
+,,,1975-06-15,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1975-06-17,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,1,0,win,So Kon Po,Hong Kong,TRUE,1587,1472,1601,1458,14
+,,,1975-06-19,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Singapore,,,,TRUE,1,0,win,So Kon Po,Hong Kong,TRUE,1601,1138,1604,1135,3
+,,,1975-06-24,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,3,3,draw,So Kon Po,Hong Kong,FALSE,1604,1360,1596,1368,-8
+,,,1975-06-26,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,China PR,,,,TRUE,2,0,win,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1976-05-05,Friendly,played,North Korea,PRK,PRK,AFC,Bulgaria,BGR,BGR,UEFA,FALSE,0,3,loss,Sofia,Bulgaria,FALSE,1650,1782,1643,1789,-7
+,,,1978-02-27,Friendly,played,North Korea,PRK,PRK,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,1,loss,Baghdad,Iraq,FALSE,1607,1586,1599,1594,-8
+,,,1978-12-13,Asian Games,played,North Korea,PRK,PRK,AFC,Myanmar,,,,FALSE,3,0,win,Bangkok,Thailand,TRUE,1599,1428,1618,1409,19
+,,,1978-12-15,Asian Games,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,3,0,win,Bangkok,Thailand,FALSE,1618,1361,1638,1341,20
+,,,1978-12-17,Asian Games,played,North Korea,PRK,PRK,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,0,win,Bangkok,Thailand,TRUE,1638,1622,1657,1603,19
+,,,1978-12-18,Asian Games,played,North Korea,PRK,PRK,AFC,India,,,,FALSE,3,1,win,Bangkok,Thailand,TRUE,1657,1241,1662,1236,5
+,,,1978-12-19,Asian Games,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,2,draw,Bangkok,Thailand,TRUE,1662,1639,1661,1640,-1
+,,,1978-12-20,Asian Games,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Bangkok,Thailand,TRUE,1661,1827,1670,1818,9
+,,,1979-05-02,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,TRUE,3,0,win,Bangkok,Thailand,TRUE,1670,1361,1680,1351,10
+,,,1979-05-07,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,TRUE,3,1,win,Bangkok,Thailand,TRUE,1680,1261,1685,1256,5
+,,,1979-05-09,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Malaysia,,,,FALSE,1,1,draw,Bangkok,Thailand,TRUE,1685,1455,1673,1467,-12
+,,,1979-05-12,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,1,0,win,Bangkok,Thailand,FALSE,1673,1384,1683,1374,10
+,,,1979-05-14,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Malaysia,,,,TRUE,1,0,win,Bangkok,Thailand,TRUE,1683,1461,1692,1452,9
+,,,1979-08-23,Friendly,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1692,1462,1685,1469,-7
+,,,1980-09-16,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Bangladesh,,,,TRUE,3,2,win,Kuwait City,Kuwait,TRUE,1636,977,1637,976,1
+,,,1980-09-18,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,China PR,,,,TRUE,2,1,win,Kuwait City,Kuwait,TRUE,,,,,
+,,,1980-09-24,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,2,3,loss,Kuwait City,Kuwait,TRUE,1660,1722,1639,1743,-21
+,,,1980-09-26,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Syria,,,,FALSE,2,1,win,Kuwait City,Kuwait,TRUE,1639,1359,1647,1351,8
+,,,1980-09-28,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Kuwait City,Kuwait,TRUE,1647,1800,1632,1815,-15
+,,,1980-09-29,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,3,loss,Kuwait City,Kuwait,TRUE,1632,1719,1599,1752,-33
+,,,1980-12-22,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Macau,,,,TRUE,3,0,win,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1980-12-26,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Singapore,,,,FALSE,1,0,win,So Kon Po,Hong Kong,TRUE,1602,1283,1607,1278,5
+,,,1980-12-28,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,2,2,draw,So Kon Po,Hong Kong,FALSE,1607,1347,1598,1356,-9
+,,,1980-12-30,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,1,0,win,So Kon Po,Hong Kong,TRUE,1598,1508,1613,1493,15
+,,,1981-01-04,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,China PR,,,,TRUE,2,4,loss,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1982-03-06,Friendly,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,2,loss,Tehran,Iran,FALSE,1583,1752,1578,1757,-5
+,,,1982-11-20,Asian Games,played,North Korea,PRK,PRK,AFC,Syria,,,,TRUE,1,1,draw,New Delhi,India,TRUE,1578,1266,1564,1280,-14
+,,,1982-11-22,Asian Games,played,North Korea,PRK,PRK,AFC,Thailand,,,,TRUE,3,0,win,New Delhi,India,TRUE,1564,1312,1577,1299,13
+,,,1982-11-24,Asian Games,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,2,draw,New Delhi,India,TRUE,1577,1417,1568,1426,-9
+,,,1982-11-27,Asian Games,played,North Korea,PRK,PRK,AFC,China PR,,,,TRUE,1,0,win,New Delhi,India,TRUE,,,,,
+,,,1982-11-30,Asian Games,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,3,loss,New Delhi,India,TRUE,1590,1696,1576,1710,-14
+,,,1982-12-02,Asian Games,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,2,loss,New Delhi,India,TRUE,,,,,
+,,,1985-01-19,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Singapore,,,,FALSE,1,1,draw,Kallang,Singapore,FALSE,1576,1245,1564,1257,-12
+,,,1985-02-05,Friendly,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Mashhad,Iran,FALSE,1564,1665,1559,1670,-5
+,,,1985-03-21,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Tokyo,Japan,FALSE,1559,1456,1539,1476,-20
+,,,1985-04-28,Friendly,played,North Korea,PRK,PRK,AFC,Pakistan,,,,FALSE,0,0,draw,Peshawar,Pakistan,FALSE,,,,,
+,,,1985-04-29,Friendly,played,North Korea,PRK,PRK,AFC,Nepal,,,,TRUE,8,1,win,Peshawar,Pakistan,TRUE,,,,,
+,,,1985-04-30,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1539,1476,1530,1485,-9
+,,,1985-05-02,Friendly,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,FALSE,7,0,win,Peshawar,Pakistan,TRUE,,,,,
+,,,1985-05-04,Friendly,played,North Korea,PRK,PRK,AFC,Bangladesh,,,,FALSE,1,0,win,Peshawar,Pakistan,TRUE,,,,,
+,,,1985-05-25,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Singapore,,,,TRUE,2,0,win,Nampo,North Korea,FALSE,1530,1224,1535,1219,5
+,,,1986-04-30,Friendly,played,North Korea,PRK,PRK,AFC,Bulgaria,BGR,BGR,UEFA,FALSE,0,3,loss,Sofia,Bulgaria,FALSE,1533,1822,1530,1825,-3
+,,,1986-08-24,Merlion Cup,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,0,draw,Kallang,Singapore,TRUE,,,,,
+,,,1986-08-27,Merlion Cup,played,North Korea,PRK,PRK,AFC,Canada,CAN,CAN,CONCACAF,FALSE,0,0,draw,Kallang,Singapore,TRUE,1533,1615,1536,1612,3
+,,,1986-08-30,Merlion Cup,played,North Korea,PRK,PRK,AFC,Singapore,,,,FALSE,2,0,win,Kallang,Singapore,FALSE,1536,1231,1547,1220,11
+,,,1986-09-04,Merlion Cup,played,North Korea,PRK,PRK,AFC,Canada,CAN,CAN,CONCACAF,FALSE,2,0,win,Kallang,Singapore,TRUE,1547,1596,1573,1570,26
+,,,1986-09-06,Merlion Cup,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,1,2,loss,Kallang,Singapore,TRUE,,,,,
+,,,1986-10-07,Friendly,played,North Korea,PRK,PRK,AFC,Poland,POL,POL,UEFA,FALSE,2,2,draw,Bydgoszcz,Poland,FALSE,1560,1761,1567,1754,7
+,,,1987-02-21,King's Cup,played,North Korea,PRK,PRK,AFC,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,Bangkok,Thailand,TRUE,,,,,
+,,,1988-05-08,Friendly,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,0,draw,Hangzhou,China PR,FALSE,,,,,
+,,,1988-05-26,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Syria,,,,FALSE,1,2,loss,Kathmandu,Nepal,TRUE,1571,1423,1543,1451,-28
+,,,1988-05-28,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Nepal,,,,FALSE,1,0,win,Kathmandu,Nepal,FALSE,1543,929,1545,927,2
+,,,1988-05-31,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,TRUE,1,0,win,Kathmandu,Nepal,TRUE,1545,1327,1554,1318,9
+,,,1988-06-02,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Kathmandu,Nepal,TRUE,1554,1664,1560,1658,6
+,,,1989-01-27,Nehru Cup,played,North Korea,PRK,PRK,AFC,India,,,,FALSE,2,1,win,Margao,India,FALSE,1560,1124,1565,1119,5
+,,,1989-02-04,King's Cup,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,1,3,loss,Bangkok,Thailand,TRUE,,,,,
+,,,1989-05-21,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,0,draw,Jakarta,Indonesia,FALSE,1565,1209,1552,1222,-13
+,,,1989-05-27,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,2,1,win,Victoria,Hong Kong,FALSE,1552,1293,1563,1282,11
+,,,1989-06-04,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,1,2,loss,Tokyo,Japan,FALSE,1563,1397,1539,1421,-24
+,,,1989-06-25,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1539,1421,1552,1408,13
+,,,1989-07-02,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,TRUE,4,1,win,Pyongyang,North Korea,FALSE,1552,1269,1559,1262,7
+,,,1989-07-09,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,TRUE,2,1,win,Pyongyang,North Korea,FALSE,1559,1239,1562,1236,3
+,,,1989-10-12,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,0,draw,Singapore,Singapore,TRUE,1562,1480,1557,1485,-5
+,,,1989-10-16,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Singapore,Singapore,TRUE,1557,1713,1545,1725,-12
+,,,1989-10-20,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,TRUE,2,0,win,Singapore,Singapore,TRUE,1545,1481,1570,1456,25
+,,,1989-10-24,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,China PR,,,,TRUE,0,1,loss,Singapore,Singapore,TRUE,,,,,
+,,,1989-10-28,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,2,loss,Guangzhou,China PR,TRUE,1549,1542,1518,1573,-31
+,,,1990-07-27,Dynasty Cup,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,2,loss,Beijing,China PR,FALSE,,,,,
+,,,1990-07-29,Dynasty Cup,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Beijing,China PR,TRUE,1504,1683,1496,1691,-8
+,,,1990-07-31,Dynasty Cup,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,1,0,win,Beijing,China PR,TRUE,1496,1395,1507,1384,11
+,,,1990-09-26,Asian Games,played,North Korea,PRK,PRK,AFC,Malaysia,,,,FALSE,0,0,draw,Beijing,China PR,TRUE,1502,1277,1491,1288,-11
+,,,1990-09-28,Asian Games,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,TRUE,1,2,loss,Beijing,China PR,TRUE,1491,1579,1476,1594,-15
+,,,1990-10-01,Asian Games,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Beijing,China PR,TRUE,1476,1593,1482,1587,6
+,,,1990-10-03,Asian Games,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,1,0,win,Beijing,China PR,TRUE,1482,1336,1494,1324,12
+,,,1990-10-06,Asian Games,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Beijing,China PR,TRUE,1494,1631,1502,1623,8
+,,,1990-10-11,Friendly,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,TRUE,2,1,win,Pyongyang,North Korea,FALSE,1502,1730,1516,1716,14
+,,,1990-10-23,Friendly,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Seoul,South Korea,FALSE,1516,1716,1513,1719,-3
+,,,1991-10-19,Friendly,played,North Korea,PRK,PRK,AFC,United States,USA,USA,CONCACAF,FALSE,2,1,win,"Washington, D.C.",United States,FALSE,1513,1720,1530,1703,17
+,,,1992-06-03,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Taiwan,,,,TRUE,6,0,win,Pyongyang,North Korea,FALSE,1550,1132,1554,1128,4
+,,,1992-06-05,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Macau,,,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,,,,,
+,,,1992-06-07,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1556,1234,1539,1251,-17
+,,,1992-08-22,Dynasty Cup,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,2,2,draw,Beijing,China PR,FALSE,,,,,
+,,,1992-08-24,Dynasty Cup,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,1,1,draw,Beijing,China PR,TRUE,1542,1671,1547,1666,5
+,,,1992-08-26,Dynasty Cup,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,1,4,loss,Beijing,China PR,TRUE,1547,1413,1511,1449,-36
+,,,1992-08-29,Dynasty Cup,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,0,draw,Xiaogan,China PR,FALSE,,,,,
+,,,1992-10-30,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,TRUE,0,2,loss,Onomichi,Japan,TRUE,1512,1641,1488,1665,-24
+,,,1992-11-01,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,1,1,draw,Hiroshima,Japan,FALSE,1488,1453,1493,1448,5
+,,,1992-11-03,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,2,loss,Hiroshima,Japan,TRUE,1493,1500,1469,1524,-24
+,,,1993-01-19,Nehru Cup,played,North Korea,PRK,PRK,AFC,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,1,win,Madras,India,TRUE,,,,,
+,,,1993-01-31,Nehru Cup,played,North Korea,PRK,PRK,AFC,Finland,,,,TRUE,3,2,win,Madras,India,TRUE,1469,1549,1494,1524,25
+,,,1993-04-09,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Vietnam,,,,TRUE,3,0,win,Doha,Qatar,TRUE,1494,1154,1503,1145,9
+,,,1993-04-11,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Singapore,,,,TRUE,2,1,win,Doha,Qatar,TRUE,1503,1254,1511,1246,8
+,,,1993-04-13,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,TRUE,4,0,win,Doha,Qatar,TRUE,1511,1250,1525,1236,14
+,,,1993-04-18,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,FALSE,2,1,win,Doha,Qatar,FALSE,1525,1495,1549,1471,24
+,,,1993-04-24,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Vietnam,,,,FALSE,1,0,win,Singapore,Singapore,TRUE,1549,1151,1553,1147,4
+,,,1993-04-26,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Singapore,,,,FALSE,3,1,win,Singapore,Singapore,FALSE,1553,1269,1568,1254,15
+,,,1993-04-28,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,1,win,Singapore,Singapore,TRUE,1568,1173,1572,1169,4
+,,,1993-05-02,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,TRUE,2,2,draw,Singapore,Singapore,TRUE,1572,1465,1566,1471,-6
+,,,1993-05-12,East Asian Games,played,North Korea,PRK,PRK,AFC,Mongolia,,,,TRUE,7,0,win,Shanghai,China PR,TRUE,,,,,
+,,,1993-05-14,East Asian Games,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,1,1,draw,Shanghai,China PR,FALSE,,,,,
+,,,1993-05-16,East Asian Games,played,North Korea,PRK,PRK,AFC,Macau,,,,TRUE,6,0,win,Shanghai,China PR,TRUE,,,,,
+,,,1993-10-15,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iraq,IRQ,IRQ,AFC,TRUE,3,2,win,Doha,Qatar,TRUE,1566,1661,1591,1636,25
+,,,1993-10-18,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,2,loss,Doha,Qatar,TRUE,1591,1646,1574,1663,-17
+,,,1993-10-21,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,0,3,loss,Doha,Qatar,TRUE,1574,1588,1540,1622,-34
+,,,1993-10-25,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Doha,Qatar,TRUE,1540,1565,1521,1584,-19
+,,,1993-10-28,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Doha,Qatar,TRUE,1521,1644,1498,1667,-23
+,,,1998-09-13,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,4,loss,Kuwait City,Kuwait,FALSE,1498,1559,1487,1570,-11
+,,,1998-12-02,Asian Games,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,3,3,draw,Songkhla,Thailand,TRUE,1487,1546,1490,1543,3
+,,,1998-12-07,Asian Games,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,TRUE,0,4,loss,Bangkok,Thailand,TRUE,1490,1536,1457,1569,-33
+,,,1998-12-09,Asian Games,played,North Korea,PRK,PRK,AFC,Turkmenistan,,,,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1457,1476,1458,1475,1
+,,,1998-12-11,Asian Games,played,North Korea,PRK,PRK,AFC,India,,,,FALSE,2,0,win,Bangkok,Thailand,TRUE,1458,1108,1465,1101,7
+,,,1999-02-23,King's Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,2,2,draw,Bangkok,Thailand,FALSE,1465,1397,1466,1396,1
+,,,2000-02-08,Friendly,played,North Korea,PRK,PRK,AFC,Syria,,,,FALSE,1,5,loss,Damascus,Syria,FALSE,1466,1463,1452,1477,-14
+,,,2000-02-13,Friendly,played,North Korea,PRK,PRK,AFC,Syria,,,,FALSE,0,0,draw,Damascus,Syria,FALSE,1452,1477,1455,1474,3
+,,,2000-02-16,Friendly,played,North Korea,PRK,PRK,AFC,Lebanon,,,,FALSE,0,1,loss,Beirut,Lebanon,FALSE,1455,1399,1446,1408,-9
+,,,2000-03-25,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1446,1496,1449,1493,3
+,,,2000-03-27,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Malaysia,,,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,FALSE,1449,1228,1442,1235,-7
+,,,2000-04-04,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,3,5,loss,Bangkok,Thailand,FALSE,1447,1468,1427,1488,-20
+,,,2000-04-06,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Malaysia,,,,FALSE,4,1,win,Bangkok,Thailand,TRUE,1427,1232,1444,1215,17
+,,,2001-01-23,Friendly,played,North Korea,PRK,PRK,AFC,Egypt,EGY,EGY,CAF,FALSE,0,1,loss,Ismailia,Egypt,FALSE,1448,1698,1446,1700,-2
+,,,2001-01-28,Friendly,played,North Korea,PRK,PRK,AFC,Jordan,,,,FALSE,0,1,loss,Zarqa,Jordan,FALSE,1446,1468,1439,1475,-7
+,,,2001-01-30,Friendly,played,North Korea,PRK,PRK,AFC,Jordan,,,,FALSE,2,0,win,Zarqa,Jordan,FALSE,1439,1475,1460,1454,21
+,,,2001-07-23,Friendly,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1460,1703,1456,1707,-4
+,,,2001-08-03,Friendly,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,2,2,draw,Shanghai,China PR,FALSE,,,,,
+,,,2001-08-05,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,1,draw,Shanghai,China PR,TRUE,1467,1587,1472,1582,5
+,,,2002-02-07,Friendly,played,North Korea,PRK,PRK,AFC,Singapore,,,,FALSE,1,2,loss,Singapore,Singapore,FALSE,1472,1230,1458,1244,-14
+,,,2002-02-10,King's Cup,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1458,1580,1463,1575,5
+,,,2002-02-12,King's Cup,played,North Korea,PRK,PRK,AFC,Singapore,,,,TRUE,4,2,win,Bangkok,Thailand,TRUE,1463,1235,1473,1225,10
+,,,2002-02-14,King's Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,1,0,win,Bangkok,Thailand,FALSE,1473,1462,1492,1443,19
+,,,2002-02-16,King's Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,0,0,draw,Bangkok,Thailand,FALSE,1492,1443,1494,1441,2
+,,,2002-09-07,Friendly,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Seoul,South Korea,FALSE,1494,1781,1502,1773,8
+,,,2003-02-16,King's Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,2,2,draw,Bangkok,Thailand,FALSE,1502,1424,1503,1423,1
+,,,2003-02-18,King's Cup,played,North Korea,PRK,PRK,AFC,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1503,1816,1514,1805,11
+,,,2003-02-20,King's Cup,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,TRUE,2,2,draw,Bangkok,Thailand,TRUE,1514,1572,1516,1570,2
+,,,2003-02-22,King's Cup,played,North Korea,PRK,PRK,AFC,Sweden,SWE,SWE,UEFA,TRUE,0,4,loss,Bangkok,Thailand,TRUE,1516,1814,1507,1823,-9
+,,,2003-03-24,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,India,,,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1507,1092,1510,1089,3
+,,,2003-03-30,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,India,,,,FALSE,1,1,draw,Margao,India,FALSE,1510,1089,1495,1104,-15
+,,,2003-09-04,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Lebanon,,,,TRUE,0,1,loss,Pyongyang,North Korea,FALSE,1495,1391,1464,1422,-31
+,,,2003-10-27,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,TRUE,1,3,loss,Pyongyang,North Korea,FALSE,1464,1695,1445,1714,-19
+,,,2003-11-03,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Lebanon,,,,FALSE,1,1,draw,Beirut,Lebanon,FALSE,1445,1407,1449,1403,4
+,,,2003-11-12,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,3,loss,Tehran,Iran,FALSE,,,,,
+,,,2003-11-18,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Jordan,,,,FALSE,0,3,loss,Amman,Jordan,FALSE,1445,1577,1430,1592,-15
+,,,2004-02-18,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Yemen,,,,FALSE,1,1,draw,Sana'a,Yemen,FALSE,1430,1150,1420,1160,-10
+,,,2004-03-31,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1420,1461,1417,1464,-3
+,,,2004-06-09,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,4,1,win,Bangkok,Thailand,FALSE,1417,1448,1465,1400,48
+,,,2004-09-08,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Thailand,,,,TRUE,4,1,win,Pyongyang,North Korea,FALSE,1465,1348,1481,1332,16
+,,,2004-10-13,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Yemen,,,,TRUE,2,1,win,Pyongyang,North Korea,FALSE,1481,1187,1485,1183,4
+,,,2004-11-17,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,1,loss,Dubai,United Arab Emirates,FALSE,1485,1389,1465,1409,-20
+,,,2005-02-02,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,0,draw,Beijing,China PR,TRUE,1465,1516,1466,1515,1
+,,,2005-02-09,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,1,2,loss,Saitama,Japan,FALSE,1466,1848,1464,1850,-2
+,,,2005-03-07,EAFF Championship,played,North Korea,PRK,PRK,AFC,Mongolia,,,,TRUE,6,0,win,Taipei,Taiwan,TRUE,1464,746,1465,745,1
+,,,2005-03-11,EAFF Championship,played,North Korea,PRK,PRK,AFC,Guam,,,,FALSE,21,0,win,Taipei,Taiwan,TRUE,1472,535,1473,534,1
+,,,2005-03-13,EAFF Championship,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,2,0,win,Taipei,Taiwan,TRUE,1473,1247,1486,1234,13
+,,,2005-03-25,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Bahrain,,,,TRUE,1,2,loss,Pyongyang,North Korea,FALSE,1486,1595,1467,1614,-19
+,,,2005-03-30,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,TRUE,0,2,loss,Pyongyang,North Korea,FALSE,1467,1814,1455,1826,-12
+,,,2005-06-03,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1455,1827,1453,1829,-2
+,,,2005-06-08,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,0,2,loss,Bangkok,Thailand,TRUE,1453,1801,1446,1808,-7
+,,,2005-07-31,EAFF Championship,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,1,0,win,Daejeon,South Korea,TRUE,1446,1829,1482,1793,36
+,,,2005-08-04,EAFF Championship,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Jeonju,South Korea,FALSE,1482,1704,1497,1689,15
+,,,2005-08-07,EAFF Championship,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,2,loss,Daegu,South Korea,TRUE,,,,,
+,,,2005-08-14,Friendly,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Seoul,South Korea,FALSE,1479,1669,1473,1675,-6
+,,,2005-08-17,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Bahrain,,,,FALSE,3,2,win,Riffa,Bahrain,FALSE,1473,1592,1504,1561,31
+,,,2005-12-26,King's Cup,played,North Korea,PRK,PRK,AFC,Latvia,,,,TRUE,1,1,draw,Phuket,Thailand,TRUE,1504,1466,1502,1468,-2
+,,,2005-12-28,King's Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,2,0,win,Phuket,Thailand,FALSE,,,,,
+,,,2005-12-30,King's Cup,played,North Korea,PRK,PRK,AFC,Latvia,,,,FALSE,1,2,loss,Phuket,Thailand,TRUE,1502,1468,1486,1484,-16
+,,,2006-02-24,Friendly,played,North Korea,PRK,PRK,AFC,Kazakhstan,,,,FALSE,0,0,draw,Larnaca,Cyprus,TRUE,1486,1313,1481,1318,-5
+,,,2007-06-19,EAFF Championship,played,North Korea,PRK,PRK,AFC,Mongolia,,,,TRUE,7,0,win,Macau,Macau,TRUE,1481,784,1483,782,2
+,,,2007-06-21,EAFF Championship,played,North Korea,PRK,PRK,AFC,Macau,,,,FALSE,7,1,win,Macau,Macau,FALSE,,,,,
+,,,2007-06-24,EAFF Championship,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,TRUE,1,0,win,Macau,Macau,TRUE,1486,1226,1493,1219,7
+,,,2007-06-28,Friendly,played,North Korea,PRK,PRK,AFC,Oman,,,,FALSE,2,2,draw,Singapore,Singapore,TRUE,1474,1602,1479,1597,5
+,,,2007-07-01,Friendly,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,1,loss,Singapore,Singapore,TRUE,1479,1514,1470,1523,-9
+,,,2007-07-04,Friendly,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,1,draw,Singapore,Singapore,TRUE,1470,1603,1474,1599,4
+,,,2007-10-21,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Mongolia,,,,FALSE,4,1,win,Ulaanbaatar,Mongolia,FALSE,1474,799,1476,797,2
+,,,2007-10-28,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Mongolia,,,,TRUE,5,1,win,Pyongyang,North Korea,FALSE,1476,797,1477,796,1
+,,,2007-12-24,King's Cup,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,TRUE,2,2,draw,Bangkok,Thailand,TRUE,1477,1561,1481,1557,4
+,,,2007-12-26,King's Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,0,1,loss,Bangkok,Thailand,FALSE,1481,1426,1468,1439,-13
+,,,2008-02-06,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Jordan,,,,FALSE,1,0,win,Amman,Jordan,FALSE,1468,1530,1497,1501,29
+,,,2008-02-17,EAFF Championship,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,1,1,draw,Chongqing,China PR,TRUE,1497,1783,1511,1769,14
+,,,2008-02-20,EAFF Championship,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,1,1,draw,Chongqing,China PR,TRUE,1511,1684,1520,1675,9
+,,,2008-02-23,EAFF Championship,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,1,3,loss,Chongqing,China PR,FALSE,,,,,
+,,,2008-03-26,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Shanghai,China PR,TRUE,1500,1681,1510,1671,10
+,,,2008-06-02,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Turkmenistan,,,,FALSE,0,0,draw,Ashgabat,Turkmenistan,FALSE,1510,1341,1506,1345,-4
+,,,2008-06-07,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Turkmenistan,,,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1506,1345,1513,1338,7
+,,,2008-06-14,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Jordan,,,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1513,1499,1533,1479,20
+,,,2008-06-22,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Seoul,South Korea,FALSE,1533,1688,1546,1675,13
+,,,2008-07-31,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Sri Lanka,,,,TRUE,3,0,win,Hyderabad,India,TRUE,1546,983,1549,980,3
+,,,2008-08-02,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Nepal,,,,FALSE,1,0,win,Hyderabad,India,TRUE,1549,907,1550,906,1
+,,,2008-08-04,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Myanmar,,,,TRUE,1,0,win,Hyderabad,India,TRUE,1550,1196,1555,1191,5
+,,,2008-08-07,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Tajikistan,,,,TRUE,0,1,loss,Hyderabad,India,TRUE,1555,1299,1522,1332,-33
+,,,2008-08-13,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Myanmar,,,,FALSE,4,0,win,New Delhi,India,TRUE,1522,1176,1531,1167,9
+,,,2008-08-24,Friendly,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,FALSE,1,2,loss,Doha,Qatar,FALSE,1531,1496,1523,1504,-8
+,,,2008-08-29,Friendly,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,FALSE,0,0,draw,Tashkent,Uzbekistan,FALSE,1523,1602,1528,1597,5
+,,,2008-09-06,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1528,1434,1548,1414,20
+,,,2008-09-10,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Shanghai,China PR,TRUE,1548,1679,1555,1672,7
+,,,2008-10-15,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Tehran,Iran,FALSE,1555,1786,1550,1791,-5
+,,,2008-10-28,VFF Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,0,1,loss,Hanoi,Vietnam,TRUE,1550,1400,1529,1421,-21
+,,,2008-10-30,VFF Cup,played,North Korea,PRK,PRK,AFC,Vietnam,,,,FALSE,0,0,draw,Hanoi,Vietnam,FALSE,1529,1238,1521,1246,-8
+,,,2009-01-23,King's Cup,played,North Korea,PRK,PRK,AFC,Lebanon,,,,TRUE,0,1,loss,Phuket,Thailand,TRUE,1521,1258,1496,1283,-25
+,,,2009-02-11,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1496,1678,1521,1653,25
+,,,2009-03-28,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1521,1424,1536,1409,15
+,,,2009-04-01,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Seoul,South Korea,FALSE,1536,1728,1530,1734,-6
+,,,2009-06-06,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1530,1716,1535,1711,5
+,,,2009-06-17,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1535,1694,1548,1681,13
+,,,2009-08-23,EAFF Championship,played,North Korea,PRK,PRK,AFC,Guam,,,,TRUE,9,2,win,Kaohsiung,Taiwan,TRUE,1548,608,1548,608,0
+,,,2009-08-25,EAFF Championship,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,0,0,draw,Kaohsiung,Taiwan,TRUE,1548,1217,1533,1232,-15
+,,,2009-10-13,Friendly,played,North Korea,PRK,PRK,AFC,Congo,,,,FALSE,0,0,draw,Le Mans,France,TRUE,1535,1408,1531,1412,-4
+,,,2009-11-21,Friendly,played,North Korea,PRK,PRK,AFC,Zambia,,,,FALSE,1,4,loss,Lusaka,Zambia,FALSE,1531,1434,1514,1451,-17
+,,,2009-12-04,East Asian Games,played,North Korea,PRK,PRK,AFC,Macau,,,,TRUE,8,0,win,Hong Kong,Hong Kong,TRUE,,,,,
+,,,2009-12-27,Friendly,played,North Korea,PRK,PRK,AFC,Mali,,,,TRUE,1,0,win,Doha,Qatar,TRUE,1514,1565,1531,1548,17
+,,,2009-12-30,Friendly,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Doha,Qatar,FALSE,1531,1551,1551,1531,20
+,,,2010-01-02,Friendly,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Doha,Qatar,TRUE,1551,1634,1540,1645,-11
+,,,2010-02-17,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Turkmenistan,,,,TRUE,1,1,draw,Colombo,Sri Lanka,TRUE,1540,1306,1528,1318,-12
+,,,2010-02-19,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Kyrgyzstan,,,,FALSE,4,0,win,Colombo,Sri Lanka,TRUE,1528,1185,1537,1176,9
+,,,2010-02-24,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Myanmar,,,,TRUE,5,0,win,Colombo,Sri Lanka,TRUE,1545,1191,1554,1182,9
+,,,2010-02-25,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Turkmenistan,,,,FALSE,1,1,draw,Colombo,Sri Lanka,TRUE,,,,,
+,,,2010-03-06,Friendly,played,North Korea,PRK,PRK,AFC,Venezuela,,,,FALSE,1,2,loss,Puerto la Cruz,Venezuela,FALSE,1550,1703,1546,1707,-4
+,,,2010-03-17,Friendly,played,North Korea,PRK,PRK,AFC,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Torreón,Mexico,FALSE,1546,1899,1545,1900,-1
+,,,2010-04-22,Friendly,played,North Korea,PRK,PRK,AFC,South Africa,ZAF,ZAF,CAF,FALSE,0,0,draw,Taunusstein,Germany,TRUE,1545,1528,1545,1528,0
+,,,2010-05-15,Friendly,played,North Korea,PRK,PRK,AFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,1,loss,Nyon,Switzerland,TRUE,1545,1752,1540,1757,-5
+,,,2010-05-25,Friendly,played,North Korea,PRK,PRK,AFC,Greece,GRC,GRC,UEFA,FALSE,2,2,draw,Altach,Austria,TRUE,1540,1757,1546,1751,6
+,,,2010-06-06,Friendly,played,North Korea,PRK,PRK,AFC,Nigeria,NGA,NGA,CAF,FALSE,1,3,loss,Johannesburg,South Africa,TRUE,1546,1704,1537,1713,-9
+WC-2010,WC-2010_012,12,2010-06-15,FIFA World Cup,played,North Korea,PRK,PRK,AFC,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Johannesburg,South Africa,TRUE,1537,2109,1535,2111,-2
+WC-2010,WC-2010_031,31,2010-06-21,FIFA World Cup,played,North Korea,PRK,PRK,AFC,Portugal,PRT,PRT,UEFA,FALSE,0,7,loss,Cape Town,South Africa,TRUE,1535,1865,1517,1883,-18
+WC-2010,WC-2010_046,46,2010-06-25,FIFA World Cup,played,North Korea,PRK,PRK,AFC,Ivory Coast,CIV,CIV,CAF,TRUE,0,3,loss,Nelspruit,South Africa,TRUE,1517,1740,1494,1763,-23
+,,,2010-09-24,Friendly,played,North Korea,PRK,PRK,AFC,Vietnam,,,,FALSE,0,0,draw,Hanoi,Vietnam,FALSE,1494,1345,1492,1347,-2
+,,,2010-11-02,VFF Cup,played,North Korea,PRK,PRK,AFC,Singapore,,,,FALSE,2,1,win,Hanoi,Vietnam,TRUE,1492,1349,1501,1340,9
+,,,2010-11-06,VFF Cup,played,North Korea,PRK,PRK,AFC,Vietnam,,,,FALSE,2,0,win,Hanoi,Vietnam,FALSE,1501,1320,1518,1303,17
+,,,2010-11-10,Friendly,played,North Korea,PRK,PRK,AFC,Yemen,,,,FALSE,1,1,draw,Sana'a,Yemen,FALSE,1518,1364,1516,1366,-2
+,,,2010-12-24,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,2,loss,6th of October City,Egypt,TRUE,1516,1618,1509,1625,-7
+,,,2010-12-27,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,2,draw,6th of October City,Egypt,TRUE,1509,1625,1512,1622,3
+,,,2010-12-31,Friendly,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Doha,Qatar,FALSE,1512,1533,1525,1520,13
+,,,2011-01-04,Friendly,played,North Korea,PRK,PRK,AFC,Bahrain,,,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1525,1468,1536,1457,11
+,,,2011-01-11,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,0,draw,Doha,Qatar,TRUE,1536,1488,1533,1491,-3
+,,,2011-01-15,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Doha,Qatar,TRUE,1533,1714,1520,1727,-13
+,,,2011-01-19,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,1,loss,Al Rayyan,Qatar,TRUE,1520,1583,1499,1604,-21
+,,,2011-03-26,Friendly,played,North Korea,PRK,PRK,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,0,win,Sharjah,United Arab Emirates,TRUE,,,,,
+,,,2011-03-29,Friendly,played,North Korea,PRK,PRK,AFC,Jordan,,,,FALSE,1,1,draw,Sharjah,United Arab Emirates,TRUE,1488,1528,1489,1527,1
+,,,2011-04-07,AFC Challenge Cup qualification,played,North Korea,PRK,PRK,AFC,Sri Lanka,,,,TRUE,4,0,win,Kathmandu,Nepal,TRUE,1489,939,1492,936,3
+,,,2011-04-09,AFC Challenge Cup qualification,played,North Korea,PRK,PRK,AFC,Nepal,,,,FALSE,1,0,win,Kathmandu,Nepal,FALSE,1492,986,1496,982,4
+,,,2011-04-11,AFC Challenge Cup qualification,played,North Korea,PRK,PRK,AFC,Afghanistan,,,,TRUE,2,0,win,Kathmandu,Nepal,TRUE,1496,829,1497,828,1
+,,,2011-06-08,Friendly,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,2,loss,Guiyang,China PR,FALSE,,,,,
+,,,2011-08-10,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1491,1595,1496,1590,5
+,,,2011-09-02,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Saitama,Japan,FALSE,1496,1833,1493,1836,-3
+,,,2011-09-06,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Tajikistan,,,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1493,1260,1498,1255,5
+,,,2011-10-11,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,TRUE,0,1,loss,Pyongyang,North Korea,FALSE,1498,1587,1477,1608,-21
+,,,2011-11-11,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,FALSE,0,1,loss,Tashkent,Uzbekistan,FALSE,1477,1608,1469,1616,-8
+,,,2011-11-15,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1469,1835,1502,1802,33
+,,,2012-02-17,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,1,draw,Changsha,China PR,TRUE,1502,1589,1504,1587,2
+,,,2012-02-29,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Tajikistan,,,,FALSE,1,1,draw,Xuçand,Tajikistan,FALSE,1504,1244,1495,1253,-9
+,,,2012-03-09,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Philippines,,,,TRUE,2,0,win,Kathmandu,Nepal,TRUE,1495,1041,1499,1037,4
+,,,2012-03-11,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Tajikistan,,,,FALSE,2,0,win,Kathmandu,Nepal,TRUE,1499,1278,1512,1265,13
+,,,2012-03-13,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,India,,,,TRUE,4,0,win,Kathmandu,Nepal,TRUE,1512,1127,1519,1120,7
+,,,2012-03-16,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Palestine,,,,TRUE,2,0,win,Kathmandu,Nepal,TRUE,1519,1295,1532,1282,13
+,,,2012-03-19,AFC Challenge Cup,played,North Korea,PRK,PRK,AFC,Turkmenistan,,,,FALSE,2,1,win,Kathmandu,Nepal,TRUE,1532,1369,1543,1358,11
+,,,2012-09-10,Friendly,played,North Korea,PRK,PRK,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,0,win,Jakarta,Indonesia,FALSE,1543,1267,1551,1259,8
+,,,2012-12-01,EAFF Championship,played,North Korea,PRK,PRK,AFC,Taiwan,,,,FALSE,6,1,win,Kowloon,Hong Kong,TRUE,1551,898,1553,896,2
+,,,2012-12-03,EAFF Championship,played,North Korea,PRK,PRK,AFC,Guam,,,,TRUE,5,0,win,Kowloon,Hong Kong,TRUE,1553,680,1554,679,1
+,,,2012-12-05,EAFF Championship,played,North Korea,PRK,PRK,AFC,Australia,AUS,AUS,AFC,TRUE,1,1,draw,So Kon Po,Hong Kong,TRUE,1554,1784,1566,1772,12
+,,,2012-12-09,EAFF Championship,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,4,0,win,So Kon Po,Hong Kong,FALSE,1566,1181,1578,1169,12
+,,,2013-01-23,King's Cup,played,North Korea,PRK,PRK,AFC,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Chiang Mai,Thailand,TRUE,1578,1907,1589,1896,11
+,,,2013-01-26,King's Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,2,2,draw,Chiang Mai,Thailand,FALSE,1589,1371,1584,1376,-5
+,,,2013-02-06,Friendly,played,North Korea,PRK,PRK,AFC,Laos,,,,TRUE,1,0,win,Kunming,China PR,TRUE,1594,857,1594,857,0
+,,,2013-06-11,Friendly,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Doha,Qatar,FALSE,1594,1465,1593,1466,-1
+,,,2013-09-06,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1593,1566,1585,1574,-8
+,,,2014-02-21,Friendly,played,North Korea,PRK,PRK,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,2,loss,Dubai,United Arab Emirates,TRUE,1585,1520,1567,1538,-18
+,,,2014-10-31,Friendly,played,North Korea,PRK,PRK,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,1,loss,Dubai,United Arab Emirates,TRUE,1567,1514,1555,1526,-12
+,,,2014-11-02,Friendly,played,North Korea,PRK,PRK,AFC,Bahrain,,,,FALSE,2,2,draw,Riffa,Bahrain,FALSE,1555,1489,1556,1488,1
+,,,2014-11-06,Friendly,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,FALSE,1,3,loss,Doha,Qatar,FALSE,1556,1567,1546,1577,-10
+,,,2014-11-13,EAFF Championship,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,TRUE,2,1,win,Taipei,Taiwan,TRUE,1546,1168,1550,1164,4
+,,,2014-11-16,EAFF Championship,played,North Korea,PRK,PRK,AFC,Guam,,,,FALSE,5,1,win,Taipei,Taiwan,TRUE,1550,792,1551,791,1
+,,,2015-01-10,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,FALSE,0,1,loss,Sydney,Australia,TRUE,1532,1649,1515,1666,-17
+,,,2015-01-14,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,4,loss,Melbourne,Australia,TRUE,1515,1446,1463,1498,-52
+,,,2015-01-18,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,1,2,loss,Canberra,Australia,TRUE,,,,,
+,,,2015-05-17,Friendly,played,North Korea,PRK,PRK,AFC,Vietnam,,,,FALSE,1,1,draw,Hanoi,Vietnam,FALSE,1449,1240,1446,1243,-3
+,,,2015-05-20,Friendly,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,1,0,win,Bangkok,Thailand,FALSE,1446,1364,1457,1353,11
+,,,2015-06-11,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Yemen,,,,FALSE,3,0,win,Doha,Qatar,TRUE,,,,,
+,,,2015-06-16,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,TRUE,4,2,win,Pyongyang,North Korea,FALSE,1465,1613,1499,1579,34
+,,,2015-08-02,EAFF Championship,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,TRUE,2,1,win,Wuhan,China PR,TRUE,1499,1757,1532,1724,33
+,,,2015-08-05,EAFF Championship,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,0,2,loss,Wuhan,China PR,FALSE,,,,,
+,,,2015-08-09,EAFF Championship,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Wuhan,China PR,TRUE,1513,1772,1526,1759,13
+,,,2015-09-03,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Bahrain,,,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1526,1457,1548,1435,22
+,,,2015-10-08,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Philippines,,,,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1548,1267,1532,1283,-16
+,,,2015-10-13,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Yemen,,,,TRUE,1,0,win,Pyongyang,North Korea,FALSE,1532,1159,1534,1157,2
+,,,2015-11-12,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,FALSE,1,3,loss,Tashkent,Uzbekistan,FALSE,1534,1631,1519,1646,-15
+,,,2015-11-17,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Bahrain,,,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1519,1429,1534,1414,15
+,,,2016-03-29,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Philippines,,,,FALSE,2,3,loss,Manila,Philippines,FALSE,1534,1238,1504,1268,-30
+,,,2016-08-21,Friendly,played,North Korea,PRK,PRK,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,1,draw,Paroi,Malaysia,TRUE,1514,1484,1513,1485,-1
+,,,2016-08-24,Friendly,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,2,0,win,Shanghai,China PR,TRUE,1513,1583,1531,1565,18
+,,,2016-10-06,Friendly,played,North Korea,PRK,PRK,AFC,Vietnam,,,,FALSE,2,5,loss,Ho Chi Minh City,Vietnam,FALSE,1531,1257,1505,1283,-26
+,,,2016-10-10,Friendly,played,North Korea,PRK,PRK,AFC,Philippines,,,,FALSE,3,1,win,Manila,Philippines,FALSE,1505,1267,1514,1258,9
+,,,2016-11-06,EAFF Championship,played,North Korea,PRK,PRK,AFC,Taiwan,,,,TRUE,2,0,win,Kowloon,Hong Kong,TRUE,1514,826,1515,825,1
+,,,2016-11-09,EAFF Championship,played,North Korea,PRK,PRK,AFC,Guam,,,,FALSE,2,0,win,Kowloon,Hong Kong,TRUE,1515,869,1516,868,1
+,,,2016-11-12,EAFF Championship,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,1,0,win,Kowloon,Hong Kong,FALSE,1516,1208,1525,1199,9
+,,,2017-06-06,Friendly,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,FALSE,2,2,draw,Doha,Qatar,FALSE,1525,1513,1527,1511,2
+,,,2017-06-13,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,1,1,draw,So Kon Po,Hong Kong,FALSE,1527,1192,1515,1204,-12
+,,,2017-07-14,King's Cup,played,North Korea,PRK,PRK,AFC,Thailand,,,,FALSE,0,3,loss,Bangkok,Thailand,FALSE,1515,1390,1487,1418,-28
+,,,2017-07-16,King's Cup,played,North Korea,PRK,PRK,AFC,Burkina Faso,,,,FALSE,3,3,draw,Bangkok,Thailand,TRUE,,,,,
+,,,2017-09-05,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Lebanon,,,,TRUE,2,2,draw,Pyongyang,North Korea,FALSE,1487,1393,1477,1403,-10
+,,,2017-10-10,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Lebanon,,,,FALSE,0,5,loss,Beirut,Lebanon,FALSE,1477,1403,1440,1440,-37
+,,,2017-11-10,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Malaysia,,,,TRUE,4,1,win,Buriram,Thailand,TRUE,1440,1081,1448,1073,8
+,,,2017-11-13,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Malaysia,,,,FALSE,4,1,win,Buriram,Thailand,TRUE,1448,1073,1455,1066,7
+,,,2017-12-09,EAFF Championship,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Chōfu,Japan,FALSE,1455,1744,1451,1748,-4
+,,,2017-12-12,EAFF Championship,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Chōfu,Japan,TRUE,1451,1703,1443,1711,-8
+,,,2017-12-16,EAFF Championship,played,North Korea,PRK,PRK,AFC,China PR,,,,FALSE,1,1,draw,Chōfu,Japan,TRUE,,,,,
+,,,2018-03-27,AFC Asian Cup qualification,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1450,1193,1457,1186,7
+,,,2018-10-13,Friendly,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,FALSE,0,2,loss,Tashkent,Uzbekistan,FALSE,1457,1591,1451,1597,-6
+,,,2018-11-11,EAFF Championship,played,North Korea,PRK,PRK,AFC,Mongolia,,,,TRUE,4,1,win,Taipei,Taiwan,TRUE,1451,719,1452,718,1
+,,,2018-11-13,EAFF Championship,played,North Korea,PRK,PRK,AFC,Hong Kong,,,,FALSE,0,0,draw,Taipei,Taiwan,TRUE,1452,1198,1440,1210,-12
+,,,2018-11-16,EAFF Championship,played,North Korea,PRK,PRK,AFC,Taiwan,,,,FALSE,2,0,win,Taipei,Taiwan,FALSE,1440,982,1447,975,7
+,,,2018-12-25,Friendly,played,North Korea,PRK,PRK,AFC,Vietnam,,,,FALSE,1,1,draw,Hanoi,Vietnam,FALSE,1447,1329,1446,1330,-1
+,,,2018-12-29,Friendly,played,North Korea,PRK,PRK,AFC,Bahrain,,,,FALSE,0,4,loss,Isa Town,Bahrain,FALSE,1446,1417,1431,1432,-15
+,,,2019-01-08,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,4,loss,Dubai,United Arab Emirates,TRUE,1431,1583,1403,1611,-28
+,,,2019-01-13,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,TRUE,0,6,loss,Al Ain,United Arab Emirates,TRUE,1403,1552,1371,1584,-32
+,,,2019-01-17,AFC Asian Cup,played,North Korea,PRK,PRK,AFC,Lebanon,,,,FALSE,1,4,loss,Sharjah,United Arab Emirates,TRUE,1371,1406,1332,1445,-39
+,,,2019-06-07,Friendly,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,FALSE,0,4,loss,Tashkent,Uzbekistan,FALSE,1332,1613,1328,1617,-4
+,,,2019-07-08,Intercontinental Cup,played,North Korea,PRK,PRK,AFC,Syria,,,,FALSE,2,5,loss,Ahmedabad,India,TRUE,1328,1520,1315,1533,-13
+,,,2019-07-13,Intercontinental Cup,played,North Korea,PRK,PRK,AFC,India,,,,FALSE,5,2,win,Ahmedabad,India,FALSE,1315,1227,1342,1200,27
+,,,2019-07-15,Intercontinental Cup,played,North Korea,PRK,PRK,AFC,Tajikistan,,,,TRUE,1,0,win,Ahmedabad,India,TRUE,1342,1277,1354,1265,12
+,,,2019-07-19,Intercontinental Cup,played,North Korea,PRK,PRK,AFC,Tajikistan,,,,FALSE,1,0,win,Ahmedabad,India,TRUE,1354,1265,1365,1254,11
+,,,2019-09-05,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Lebanon,,,,TRUE,2,0,win,Pyongyang,North Korea,FALSE,1365,1422,1391,1396,26
+,,,2019-09-10,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Sri Lanka,,,,FALSE,1,0,win,Colombo,Sri Lanka,FALSE,1391,681,1392,680,1
+,,,2019-10-15,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Pyongyang,North Korea,FALSE,1392,1785,1406,1771,14
+,,,2019-11-14,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Turkmenistan,,,,FALSE,1,3,loss,Ashgabat,Turkmenistan,FALSE,1406,1232,1370,1268,-36
+,,,2019-11-19,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Lebanon,,,,FALSE,0,0,draw,Beirut,Lebanon,FALSE,1370,1414,1378,1406,8
+,,,2023-11-16,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Syria,,,,FALSE,0,1,loss,Jeddah,Saudi Arabia,TRUE,1378,1413,1360,1431,-18
+,,,2023-11-21,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Myanmar,,,,FALSE,6,1,win,Yangon,Myanmar,FALSE,1360,920,1370,910,10
+,,,2024-03-21,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Tokyo,Japan,FALSE,1370,1851,1369,1852,-1
+,,,2024-06-06,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Syria,,,,TRUE,1,0,win,Vientiane,Laos,TRUE,1369,1447,1393,1423,24
+,,,2024-06-11,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Myanmar,,,,TRUE,4,1,win,Vientiane,Laos,TRUE,1393,922,1397,918,4
+,,,2024-07-27,Friendly,played,North Korea,PRK,PRK,AFC,Jordan,,,,FALSE,0,0,draw,Amman,Jordan,FALSE,,,,,
+,,,2024-08-29,Friendly,played,North Korea,PRK,PRK,AFC,Jordan,,,,FALSE,1,2,loss,Amman,Jordan,FALSE,1404,1628,1401,1631,-3
+,,,2024-09-05,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,FALSE,0,1,loss,Tashkent,Uzbekistan,FALSE,1401,1681,1397,1685,-4
+,,,2024-09-10,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,TRUE,2,2,draw,Vientiane,Laos,TRUE,1397,1584,1407,1574,10
+,,,2024-10-10,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1407,1538,1419,1526,12
+,,,2024-10-15,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Kyrgyzstan,,,,FALSE,0,1,loss,Bishkek,Kyrgyzstan,FALSE,1419,1270,1396,1293,-23
+,,,2024-11-14,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,TRUE,2,3,loss,Vientiane,Laos,TRUE,1396,1832,1393,1835,-3
+,,,2024-11-19,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Uzbekistan,,,,TRUE,0,1,loss,Vientiane,Laos,TRUE,1393,1678,1387,1684,-6
+,,,2025-03-14,Friendly,played,North Korea,PRK,PRK,AFC,Jordan,,,,FALSE,1,1,draw,Amman,Jordan,FALSE,1404,1619,1411,1612,7
+,,,2025-03-20,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Qatar,QAT,QAT,AFC,FALSE,1,5,loss,Al Rayyan,Qatar,FALSE,1411,1524,1394,1541,-17
+,,,2025-03-25,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1394,1528,1381,1541,-13
+,,,2025-06-05,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Kyrgyzstan,,,,TRUE,2,2,draw,Riyadh,Saudi Arabia,TRUE,1381,1322,1378,1325,-3
+,,,2025-06-10,FIFA World Cup qualification,played,North Korea,PRK,PRK,AFC,Iran,IRN,IRN,AFC,FALSE,0,3,loss,Tehran,Iran,FALSE,1378,1798,1375,1801,-3

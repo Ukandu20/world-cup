@@ -1,765 +1,765 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1919-06-24,Inter-Allied Games,played,Romania,ROU,France,FRA,FALSE,0,4,loss,Paris,France,FALSE,,,,,
-1919-06-26,Inter-Allied Games,played,Romania,ROU,Italy,ITA,FALSE,1,7,loss,Paris,France,TRUE,,,,,
-1919-06-28,Inter-Allied Games,played,Romania,ROU,Greece,GRC,FALSE,2,3,loss,Paris,France,TRUE,,,,,
-1922-06-08,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,1600,1562,1618,1544,18
-1922-09-03,Friendly,played,Romania,ROU,Poland,POL,TRUE,1,1,draw,Cernăuţi,Romania,FALSE,1618,1605,1615,1608,-3
-1923-06-10,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,1,2,loss,Bucharest,Romania,FALSE,1615,1558,1594,1579,-21
-1923-07-01,Friendly,played,Romania,ROU,Czechoslovakia,CSK,TRUE,0,6,loss,Cluj,Romania,FALSE,1594,1913,1585,1922,-9
-1923-09-02,Friendly,played,Romania,ROU,Poland,POL,FALSE,1,1,draw,Lwów,Poland,FALSE,1585,1610,1588,1607,3
-1923-10-26,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,2,2,draw,Istanbul,Turkey,FALSE,1588,1500,1588,1500,0
-1924-05-20,Friendly,played,Romania,ROU,Austria,AUT,FALSE,1,4,loss,Vienna,Austria,FALSE,1588,1829,1584,1833,-4
-1924-05-27,Olympic Games,played,Romania,ROU,Netherlands,NLD,FALSE,0,6,loss,Colombes,France,TRUE,1584,1810,1557,1837,-27
-1924-08-31,Friendly,played,Romania,ROU,Czechoslovakia,CSK,FALSE,1,4,loss,Prague,Czechoslovakia,FALSE,1557,1856,1554,1859,-3
-1925-05-01,Friendly,played,Romania,ROU,Turkey,TUR,TRUE,1,2,loss,Bucharest,Romania,FALSE,1554,1519,1540,1533,-14
-1925-05-31,Friendly,played,Romania,ROU,Bulgaria,BGR,FALSE,4,2,win,Sofia,Bulgaria,FALSE,1540,1379,1552,1367,12
-1926-04-25,Friendly,played,Romania,ROU,Bulgaria,BGR,TRUE,6,1,win,Bucharest,Romania,FALSE,1552,1367,1558,1361,6
-1926-05-07,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,3,1,win,Istanbul,Turkey,FALSE,1575,1490,1591,1474,16
-1926-10-03,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,3,2,win,Zagreb,Yugoslavia,FALSE,1591,1535,1608,1518,17
-1927-05-10,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,0,3,loss,Bucharest,Romania,FALSE,1608,1515,1569,1554,-39
-1927-06-19,Friendly,played,Romania,ROU,Poland,POL,TRUE,3,3,draw,Bucharest,Romania,FALSE,1569,1594,1567,1596,-2
-1928-04-15,Friendly,played,Romania,ROU,Turkey,TUR,TRUE,4,2,win,Arad,Romania,FALSE,1567,1466,1574,1459,7
-1928-05-06,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,1574,1598,1559,1613,-15
-1929-04-21,Friendly,played,Romania,ROU,Bulgaria,BGR,TRUE,3,0,win,Bucharest,Romania,FALSE,1559,1339,1564,1334,5
-1929-05-10,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,2,3,loss,Bucharest,Romania,FALSE,1564,1588,1546,1606,-18
-1929-09-15,Friendly,played,Romania,ROU,Bulgaria,BGR,FALSE,3,2,win,Sofia,Bulgaria,FALSE,1546,1332,1553,1325,7
-1929-10-06,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,TRUE,2,1,win,Bucharest,Romania,FALSE,1553,1629,1572,1610,19
-1930-05-04,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,1,2,loss,Belgrade,Yugoslavia,FALSE,1572,1585,1562,1595,-10
-1930-05-25,Balkan Cup,played,Romania,ROU,Greece,GRC,TRUE,8,1,win,Bucharest,Romania,FALSE,1562,1393,1578,1377,16
-1930-07-14,FIFA World Cup,played,Romania,ROU,Peru,PER,FALSE,3,1,win,Montevideo,Uruguay,TRUE,1561,1541,1603,1499,42
-1930-07-21,FIFA World Cup,played,Romania,ROU,Uruguay,URY,FALSE,0,4,loss,Montevideo,Uruguay,FALSE,1603,1970,1596,1977,-7
-1930-10-12,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,FALSE,3,5,loss,Sofia,Bulgaria,FALSE,1596,1325,1552,1369,-44
-1931-05-10,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,TRUE,5,2,win,Bucharest,Romania,FALSE,1552,1321,1561,1312,9
-1931-06-28,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,FALSE,4,2,win,Zagreb,Yugoslavia,FALSE,1561,1680,1608,1633,47
-1931-08-23,Friendly,played,Romania,ROU,Poland,POL,FALSE,3,2,win,Warsaw,Poland,FALSE,1608,1641,1622,1627,14
-1931-08-26,Friendly,played,Romania,ROU,Lithuania,,FALSE,4,2,win,Kaunas,Lithuania,FALSE,1622,1100,1624,1098,2
-1931-11-29,Balkan Cup,played,Romania,ROU,Greece,GRC,FALSE,4,2,win,Athens,Greece,FALSE,1624,1380,1642,1362,18
-1932-06-12,Friendly,played,Romania,ROU,France,FRA,TRUE,6,3,win,Bucharest,Romania,FALSE,1642,1583,1652,1573,10
-1932-06-26,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,FALSE,0,2,loss,Belgrade,Yugoslavia,TRUE,1652,1395,1603,1444,-49
-1932-06-28,Balkan Cup,played,Romania,ROU,Greece,GRC,FALSE,3,0,win,Belgrade,Yugoslavia,TRUE,1603,1336,1615,1324,12
-1932-07-03,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,1615,1527,1586,1556,-29
-1932-10-02,Friendly,played,Romania,ROU,Poland,POL,TRUE,0,5,loss,Bucharest,Romania,FALSE,1586,1664,1565,1685,-21
-1933-06-04,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,TRUE,7,0,win,Bucharest,Romania,FALSE,1565,1500,1590,1475,25
-1933-06-11,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,TRUE,5,0,win,Bucharest,Romania,FALSE,1594,1591,1622,1563,28
-1933-10-29,FIFA World Cup qualification,played,Romania,ROU,Switzerland,CHE,FALSE,2,2,draw,Bern,Switzerland,FALSE,1622,1630,1628,1624,6
-1934-04-29,FIFA World Cup qualification,played,Romania,ROU,Yugoslavia,YUG,TRUE,2,1,win,Bucharest,Romania,FALSE,1628,1563,1639,1552,11
-1934-05-27,FIFA World Cup,played,Romania,ROU,Czechoslovakia,CSK,FALSE,1,2,loss,Trieste,Italy,TRUE,1639,1847,1625,1861,-14
-1934-10-14,Friendly,played,Romania,ROU,Poland,POL,FALSE,3,3,draw,Lwów,Poland,FALSE,1625,1622,1628,1619,3
-1934-12-27,Balkan Cup,played,Romania,ROU,Greece,GRC,FALSE,2,2,draw,Athens,Greece,FALSE,1628,1316,1617,1327,-11
-1934-12-30,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,FALSE,3,2,win,Athens,Greece,TRUE,1617,1426,1627,1416,10
-1935-01-01,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,TRUE,0,4,loss,Athens,Greece,TRUE,1627,1571,1584,1614,-43
-1935-06-17,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,TRUE,0,2,loss,Sofia,Bulgaria,TRUE,1584,1614,1557,1641,-27
-1935-06-19,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,FALSE,0,4,loss,Sofia,Bulgaria,FALSE,1557,1452,1519,1490,-38
-1935-06-24,Balkan Cup,played,Romania,ROU,Greece,GRC,FALSE,2,2,draw,Sofia,Bulgaria,TRUE,1519,1282,1507,1294,-12
-1935-08-25,Friendly,played,Romania,ROU,Germany,DEU,FALSE,2,4,loss,Erfurt,Germany,FALSE,1507,1888,1505,1890,-2
-1935-09-01,Friendly,played,Romania,ROU,Sweden,SWE,FALSE,1,7,loss,Stockholm,Sweden,FALSE,1505,1780,1501,1784,-4
-1935-11-03,Friendly,played,Romania,ROU,Poland,POL,TRUE,4,1,win,Bucharest,Romania,FALSE,1501,1609,1519,1591,18
-1936-05-10,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,3,2,win,Bucharest,Romania,FALSE,1519,1663,1536,1646,17
-1936-05-17,Balkan Cup,played,Romania,ROU,Greece,GRC,TRUE,5,2,win,Bucharest,Romania,FALSE,1536,1294,1545,1285,9
-1936-05-24,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,TRUE,4,1,win,Bucharest,Romania,FALSE,1545,1500,1566,1479,21
-1936-10-04,Friendly,played,Romania,ROU,Hungary,HUN,TRUE,1,2,loss,Bucharest,Romania,FALSE,1566,1915,1562,1919,-4
-1937-04-18,Friendly,played,Romania,ROU,Czechoslovakia,CSK,TRUE,1,1,draw,Bucharest,Romania,FALSE,1562,1937,1572,1927,10
-1937-06-10,Friendly,played,Romania,ROU,Belgium,BEL,TRUE,2,1,win,Bucharest,Romania,FALSE,1572,1548,1579,1541,7
-1937-06-27,Friendly,played,Romania,ROU,Sweden,SWE,TRUE,2,2,draw,Bucharest,Romania,FALSE,1579,1692,1579,1692,0
-1937-07-04,Friendly,played,Romania,ROU,Poland,POL,FALSE,4,2,win,Łódź,Poland,FALSE,1579,1591,1599,1571,20
-1937-07-14,Friendly,played,Romania,ROU,Estonia,,FALSE,1,2,loss,Tallinn,Estonia,FALSE,1599,1252,1583,1268,-16
-1938-05-08,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,0,1,loss,Bucharest,Romania,FALSE,1574,1619,1557,1636,-17
-1938-06-05,FIFA World Cup,played,Romania,ROU,Cuba,CUB,FALSE,3,3,draw,Toulouse,France,TRUE,1557,1543,1556,1544,-1
-1938-06-09,FIFA World Cup,played,Romania,ROU,Cuba,CUB,FALSE,1,2,loss,Toulouse,France,TRUE,1556,1544,1525,1575,-31
-1938-09-06,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,1,1,draw,Belgrade,Yugoslavia,FALSE,1525,1617,1533,1609,8
-1938-09-25,Friendly,played,Romania,ROU,Germany,DEU,TRUE,1,4,loss,Bucharest,Romania,FALSE,1533,1763,1522,1774,-11
-1938-12-04,Friendly,played,Romania,ROU,Czechoslovakia,CSK,FALSE,2,6,loss,Prague,Czechoslovakia,FALSE,1522,1854,1518,1858,-4
-1939-05-07,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,1,0,win,Bucharest,Romania,FALSE,1518,1610,1533,1595,15
-1939-05-18,Friendly,played,Romania,ROU,Latvia,,TRUE,4,0,win,Bucharest,Romania,FALSE,1533,1429,1542,1420,9
-1939-05-24,Friendly,played,Romania,ROU,England,ENG,TRUE,0,2,loss,Bucharest,Romania,FALSE,1542,1970,1538,1974,-4
-1939-06-11,Friendly,played,Romania,ROU,Italy,ITA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1538,2133,1537,2134,-1
-1940-03-31,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,3,3,draw,Bucharest,Romania,FALSE,1543,1573,1540,1576,-3
-1940-04-14,Friendly,played,Romania,ROU,Italy,ITA,FALSE,1,2,loss,Rome,Italy,FALSE,1540,2074,1539,2075,-1
-1940-05-19,Friendly,played,Romania,ROU,Hungary,HUN,FALSE,0,2,loss,Budapest,Hungary,FALSE,1539,1889,1536,1892,-3
-1940-07-14,Friendly,played,Romania,ROU,Germany,DEU,FALSE,3,9,loss,Frankfurt am Main,Germany,FALSE,1536,1809,1532,1813,-4
-1940-09-22,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,1532,1594,1554,1572,22
-1941-06-01,Friendly,played,Romania,ROU,Germany,DEU,TRUE,1,4,loss,Bucharest,Romania,FALSE,1554,1835,1545,1844,-9
-1941-10-12,Friendly,played,Romania,ROU,Slovakia,SVK,TRUE,3,2,win,Bucharest,Romania,FALSE,1545,1706,1557,1694,12
-1942-08-16,Friendly,played,Romania,ROU,Germany,DEU,FALSE,0,7,loss,Beuthen,Germany,FALSE,1557,1879,1551,1885,-6
-1942-08-23,Friendly,played,Romania,ROU,Slovakia,SVK,FALSE,0,1,loss,Bratislava,Slovakia,FALSE,1551,1679,1547,1683,-4
-1942-10-11,Friendly,played,Romania,ROU,Croatia,HRV,TRUE,2,2,draw,Bucharest,Romania,FALSE,1547,1884,1553,1878,6
-1943-06-13,Friendly,played,Romania,ROU,Slovakia,SVK,TRUE,2,2,draw,Bucharest,Romania,FALSE,1553,1651,1553,1651,0
-1945-09-30,Friendly,played,Romania,ROU,Hungary,HUN,FALSE,2,7,loss,Budapest,Hungary,FALSE,1553,1883,1550,1886,-3
-1946-10-08,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,FALSE,2,2,draw,Tirana,Albania,TRUE,1550,1472,1546,1476,-4
-1946-10-11,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,TRUE,2,1,win,Tirana,Albania,TRUE,1546,1690,1574,1662,28
-1946-10-13,Balkan Cup,played,Romania,ROU,Albania,,FALSE,0,1,loss,Tirana,Albania,FALSE,1574,1609,1561,1622,-13
-1947-05-25,Balkan Cup,played,Romania,ROU,Albania,,FALSE,4,0,win,Tirana,Albania,FALSE,1561,1622,1615,1568,54
-1947-06-22,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,TRUE,1,3,loss,Bucharest,Romania,FALSE,1615,1666,1581,1700,-34
-1947-07-06,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,FALSE,3,2,win,Sofia,Bulgaria,FALSE,1581,1506,1602,1485,21
-1947-07-19,Friendly,played,Romania,ROU,Poland,POL,FALSE,2,1,win,Warsaw,Poland,FALSE,1602,1567,1614,1555,12
-1947-09-21,Friendly,played,Romania,ROU,Czechoslovakia,CSK,TRUE,2,6,loss,Bucharest,Romania,FALSE,1614,1816,1601,1829,-13
-1947-10-12,Balkan Cup,played,Romania,ROU,Hungary,HUN,TRUE,0,3,loss,Bucharest,Romania,FALSE,1601,1913,1585,1929,-16
-1947-10-26,Friendly,played,Romania,ROU,Poland,POL,TRUE,0,0,draw,Bucharest,Romania,FALSE,1585,1552,1581,1556,-4
-1948-05-02,Balkan Cup,played,Romania,ROU,Albania,,TRUE,0,1,loss,Bucharest,Romania,FALSE,1581,1509,1552,1538,-29
-1948-06-06,Balkan Cup,played,Romania,ROU,Hungary,HUN,FALSE,0,9,loss,Budapest,Hungary,FALSE,1552,1918,1546,1924,-6
-1948-06-20,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,TRUE,3,2,win,Bucharest,Romania,FALSE,1546,1474,1557,1463,11
-1948-07-04,Balkan Cup,played,Romania,ROU,Czechoslovakia,CSK,TRUE,2,1,win,Bucharest,Romania,FALSE,1557,1754,1582,1729,25
-1948-10-10,Balkan Cup,played,Romania,ROU,Poland,POL,FALSE,0,0,draw,Chorzów,Poland,FALSE,1582,1559,1586,1555,4
-1948-10-24,Balkan Cup,played,Romania,ROU,Hungary,HUN,TRUE,1,5,loss,Bucharest,Romania,FALSE,1586,1943,1572,1957,-14
-1949-05-08,Friendly,played,Romania,ROU,Poland,POL,TRUE,2,1,win,Bucharest,Romania,FALSE,1572,1557,1579,1550,7
-1949-05-22,Friendly,played,Romania,ROU,Czechoslovakia,CSK,FALSE,2,3,loss,Prague,Czechoslovakia,FALSE,1579,1773,1576,1776,-3
-1949-10-23,Friendly,played,Romania,ROU,Albania,,TRUE,1,1,draw,Bucharest,Romania,FALSE,1576,1565,1573,1568,-3
-1949-11-29,Friendly,played,Romania,ROU,Albania,,FALSE,4,1,win,Tirana,Albania,FALSE,1573,1562,1595,1540,22
-1950-05-14,Friendly,played,Romania,ROU,Poland,POL,FALSE,3,3,draw,Wrocław,Poland,FALSE,1595,1554,1597,1552,2
-1950-05-21,Friendly,played,Romania,ROU,Czechoslovakia,CSK,TRUE,1,1,draw,Bucharest,Romania,FALSE,1597,1723,1598,1722,1
-1950-10-08,Friendly,played,Romania,ROU,Albania,,TRUE,6,0,win,Bucharest,Romania,FALSE,1598,1535,1610,1523,12
-1951-05-20,Friendly,played,Romania,ROU,Czechoslovakia,CSK,FALSE,2,2,draw,Prague,Czechoslovakia,FALSE,1610,1748,1616,1742,6
-1952-05-11,Friendly,played,Romania,ROU,Czechoslovakia,CSK,TRUE,3,1,win,Bucharest,Romania,FALSE,1616,1735,1632,1719,16
-1952-05-25,Friendly,played,Romania,ROU,Poland,POL,TRUE,1,0,win,Bucharest,Romania,FALSE,1632,1568,1638,1562,6
-1952-10-26,Friendly,played,Romania,ROU,German DR,DDR,TRUE,3,1,win,Bucharest,Romania,FALSE,1629,1452,1634,1447,5
-1953-06-14,FIFA World Cup qualification,played,Romania,ROU,Czechoslovakia,CSK,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1634,1724,1619,1739,-15
-1953-06-28,FIFA World Cup qualification,played,Romania,ROU,Bulgaria,BGR,TRUE,3,1,win,Bucharest,Romania,FALSE,1619,1499,1632,1486,13
-1953-10-11,FIFA World Cup qualification,played,Romania,ROU,Bulgaria,BGR,FALSE,2,1,win,Sofia,Bulgaria,FALSE,1632,1482,1649,1465,17
-1953-10-25,FIFA World Cup qualification,played,Romania,ROU,Czechoslovakia,CSK,TRUE,0,1,loss,Bucharest,Romania,FALSE,1649,1764,1630,1783,-19
-1954-05-08,Friendly,played,Romania,ROU,German DR,DDR,FALSE,1,0,win,Berlin,German DR,FALSE,1630,1446,1638,1438,8
-1954-09-19,Friendly,played,Romania,ROU,Hungary,HUN,FALSE,1,5,loss,Budapest,Hungary,FALSE,1638,2190,1637,2191,-1
-1955-05-29,Friendly,played,Romania,ROU,Poland,POL,TRUE,2,2,draw,Bucharest,Romania,FALSE,1637,1534,1632,1539,-5
-1955-06-12,Friendly,played,Romania,ROU,Norway,NOR,FALSE,1,0,win,Oslo,Norway,FALSE,1632,1623,1645,1610,13
-1955-06-15,Friendly,played,Romania,ROU,Sweden,SWE,FALSE,1,4,loss,Gothenburg,Sweden,FALSE,1645,1808,1639,1814,-6
-1955-09-18,Friendly,played,Romania,ROU,German DR,DDR,TRUE,2,3,loss,Bucharest,Romania,FALSE,1639,1419,1622,1436,-17
-1955-09-28,Friendly,played,Romania,ROU,Belgium,BEL,TRUE,1,0,win,Bucharest,Romania,FALSE,1622,1729,1632,1719,10
-1955-10-09,Friendly,played,Romania,ROU,Bulgaria,BGR,TRUE,1,1,draw,Bucharest,Romania,FALSE,1632,1504,1626,1510,-6
-1956-04-22,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,1,0,win,Belgrade,Yugoslavia,FALSE,1626,1970,1645,1951,19
-1956-06-17,Friendly,played,Romania,ROU,Sweden,SWE,TRUE,0,2,loss,Bucharest,Romania,FALSE,1645,1800,1632,1813,-13
-1956-06-28,Friendly,played,Romania,ROU,Norway,NOR,TRUE,2,0,win,Bucharest,Romania,FALSE,1632,1627,1643,1616,11
-1956-09-10,Friendly,played,Romania,ROU,Bulgaria,BGR,FALSE,0,2,loss,Sofia,Bulgaria,FALSE,1643,1537,1628,1552,-15
-1957-05-26,Friendly,played,Romania,ROU,Belgium,BEL,FALSE,0,1,loss,Brussels,Belgium,FALSE,1628,1663,1622,1669,-6
-1957-06-01,Friendly,played,Romania,ROU,Soviet Union,SUN,FALSE,1,1,draw,Moscow,Soviet Union,FALSE,1622,1876,1630,1868,8
-1957-06-16,FIFA World Cup qualification,played,Romania,ROU,Greece,GRC,FALSE,2,1,win,Athens,Greece,FALSE,1630,1528,1650,1508,20
-1957-09-29,FIFA World Cup qualification,played,Romania,ROU,Yugoslavia,YUG,TRUE,1,1,draw,Bucharest,Romania,FALSE,1650,1892,1658,1884,8
-1957-11-03,FIFA World Cup qualification,played,Romania,ROU,Greece,GRC,TRUE,3,0,win,Bucharest,Romania,FALSE,1658,1508,1671,1495,13
-1957-11-17,FIFA World Cup qualification,played,Romania,ROU,Yugoslavia,YUG,FALSE,0,2,loss,Belgrade,Yugoslavia,FALSE,1671,1888,1663,1896,-8
-1958-09-14,Friendly,played,Romania,ROU,German DR,DDR,FALSE,2,3,loss,Leipzig,German DR,FALSE,1663,1479,1651,1491,-12
-1958-10-26,Friendly,played,Romania,ROU,Hungary,HUN,TRUE,1,2,loss,Bucharest,Romania,FALSE,1651,1964,1646,1969,-5
-1958-11-02,UEFA Euro qualification,played,Romania,ROU,Turkey,TUR,TRUE,3,0,win,Bucharest,Romania,FALSE,1646,1724,1679,1691,33
-1959-04-26,UEFA Euro qualification,played,Romania,ROU,Turkey,TUR,FALSE,0,2,loss,Istanbul,Turkey,FALSE,1679,1700,1659,1720,-20
-1959-08-30,Friendly,played,Romania,ROU,Poland,POL,FALSE,3,2,win,Warsaw,Poland,FALSE,1663,1586,1674,1575,11
-1960-05-22,UEFA Euro qualification,played,Romania,ROU,Czechoslovakia,CSK,TRUE,0,2,loss,Bucharest,Romania,FALSE,1677,1871,1655,1893,-22
-1960-05-29,UEFA Euro qualification,played,Romania,ROU,Czechoslovakia,CSK,FALSE,0,3,loss,Bratislava,Czechoslovakia,FALSE,1655,1893,1646,1902,-9
-1961-05-14,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,1,0,win,Ankara,Turkey,FALSE,1636,1726,1651,1711,15
-1961-10-08,Friendly,played,Romania,ROU,Turkey,TUR,TRUE,4,0,win,Bucharest,Romania,FALSE,1651,1722,1668,1705,17
-1962-09-30,Friendly,played,Romania,ROU,Morocco,MAR,TRUE,4,0,win,Bucharest,Romania,FALSE,1668,1663,1681,1650,13
-1962-10-14,Friendly,played,Romania,ROU,German DR,DDR,FALSE,2,3,loss,Dresden,German DR,FALSE,1681,1536,1670,1547,-11
-1962-11-01,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,FALSE,0,6,loss,Madrid,Spain,FALSE,1670,1936,1661,1945,-9
-1962-11-25,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,TRUE,3,1,win,Bucharest,Romania,FALSE,1661,1945,1706,1900,45
-1962-12-23,Friendly,played,Romania,ROU,Morocco,MAR,FALSE,1,3,loss,Casablanca,Morocco,FALSE,1706,1653,1693,1666,-13
-1963-05-12,Friendly,played,Romania,ROU,German DR,DDR,TRUE,3,2,win,Bucharest,Romania,FALSE,1693,1624,1698,1619,5
-1963-06-02,Friendly,played,Romania,ROU,Poland,POL,FALSE,1,1,draw,Chorzów,Poland,FALSE,1698,1663,1700,1661,2
-1963-10-09,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,0,0,draw,Ankara,Turkey,FALSE,1725,1697,1727,1695,2
-1963-10-27,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,2,1,win,Bucharest,Romania,FALSE,1727,1934,1740,1921,13
-1964-06-17,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,1772,1954,1789,1937,17
-1965-05-02,FIFA World Cup qualification,played,Romania,ROU,Turkey,TUR,TRUE,3,0,win,Bucharest,Romania,FALSE,1912,1639,1919,1632,7
-1965-05-30,FIFA World Cup qualification,played,Romania,ROU,Czechoslovakia,CSK,TRUE,1,0,win,Bucharest,Romania,FALSE,1919,1862,1931,1850,12
-1965-06-14,FIFA World Cup qualification,played,Romania,ROU,Portugal,PRT,FALSE,1,2,loss,Oeiras,Portugal,FALSE,,,,,
-1965-09-19,FIFA World Cup qualification,played,Romania,ROU,Czechoslovakia,CSK,FALSE,1,3,loss,Prague,Czechoslovakia,FALSE,1908,1850,1882,1876,-26
-1965-10-23,FIFA World Cup qualification,played,Romania,ROU,Turkey,TUR,FALSE,1,2,loss,Ankara,Turkey,FALSE,1882,1610,1853,1639,-29
-1965-11-21,FIFA World Cup qualification,played,Romania,ROU,Portugal,PRT,TRUE,2,0,win,Bucharest,Romania,FALSE,1853,1796,1870,1779,17
-1966-06-01,Friendly,played,Romania,ROU,Germany,DEU,FALSE,0,1,loss,Ludwigshafen,Germany,FALSE,,,,,
-1966-06-19,Friendly,played,Romania,ROU,Uruguay,URY,TRUE,1,0,win,Bucharest,Romania,FALSE,1865,1866,1872,1859,7
-1966-07-03,Friendly,played,Romania,ROU,Portugal,PRT,FALSE,0,1,loss,Porto,Portugal,FALSE,1872,1824,1863,1833,-9
-1966-09-21,Friendly,played,Romania,ROU,German DR,DDR,FALSE,0,2,loss,Gera,German DR,FALSE,1863,1765,1848,1780,-15
-1966-11-02,UEFA Euro qualification,played,Romania,ROU,Switzerland,CHE,TRUE,4,2,win,Bucharest,Romania,FALSE,1848,1613,1856,1605,8
-1966-11-17,Friendly,played,Romania,ROU,Poland,POL,TRUE,4,3,win,Ploiești,Romania,FALSE,1856,1682,1859,1679,3
-1966-11-26,UEFA Euro qualification,played,Romania,ROU,Italy,ITA,FALSE,1,3,loss,Naples,Italy,FALSE,1859,1932,1843,1948,-16
-1966-12-03,UEFA Euro qualification,played,Romania,ROU,Cyprus,,FALSE,5,1,win,Nicosia,Cyprus,FALSE,1843,1387,1852,1378,9
-1966-12-07,Friendly,played,Romania,ROU,Israel,ISR,FALSE,2,1,win,Jaffa,Israel,FALSE,1852,1524,1856,1520,4
-1967-01-04,Friendly,played,Romania,ROU,Uruguay,URY,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1856,1846,1859,1843,3
-1967-03-08,Friendly,played,Romania,ROU,Greece,GRC,FALSE,2,1,win,Athens,Greece,FALSE,1859,1556,1864,1551,5
-1967-03-22,Friendly,played,Romania,ROU,France,FRA,FALSE,2,1,win,Paris,France,FALSE,1864,1740,1873,1731,9
-1967-04-23,UEFA Euro qualification,played,Romania,ROU,Cyprus,,TRUE,7,0,win,Bucharest,Romania,FALSE,1873,1374,1876,1371,3
-1967-05-24,UEFA Euro qualification,played,Romania,ROU,Switzerland,CHE,FALSE,1,7,loss,Zürich,Switzerland,FALSE,1876,1606,1814,1668,-62
-1967-06-25,UEFA Euro qualification,played,Romania,ROU,Italy,ITA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1814,1950,1796,1968,-18
-1967-10-29,Friendly,played,Romania,ROU,Poland,POL,FALSE,0,0,draw,Kraków,Poland,FALSE,1796,1686,1796,1686,0
-1967-11-22,Friendly,played,Romania,ROU,Germany,DEU,TRUE,1,0,win,Bucharest,Romania,FALSE,,,,,
-1967-12-24,Friendly,played,Romania,ROU,DR Congo,,FALSE,1,1,draw,Kinshasa,Congo-Kinshasa,FALSE,1775,1666,1775,1666,0
-1968-05-01,Friendly,played,Romania,ROU,Austria,AUT,FALSE,1,1,draw,Linz,Austria,FALSE,1775,1702,1776,1701,1
-1968-06-05,Friendly,played,Romania,ROU,Netherlands,NLD,TRUE,0,0,draw,Bucharest,Romania,FALSE,1776,1688,1771,1693,-5
-1968-10-27,FIFA World Cup qualification,played,Romania,ROU,Portugal,PRT,FALSE,0,3,loss,Oeiras,Portugal,FALSE,1750,1938,1739,1949,-11
-1968-11-06,Friendly,played,Romania,ROU,England,ENG,TRUE,0,0,draw,Bucharest,Romania,FALSE,1739,2071,1745,2065,6
-1968-11-23,FIFA World Cup qualification,played,Romania,ROU,Switzerland,CHE,TRUE,2,0,win,Bucharest,Romania,FALSE,1745,1668,1761,1652,16
-1969-01-15,Friendly,played,Romania,ROU,England,ENG,FALSE,1,1,draw,London,England,FALSE,1761,2058,1769,2050,8
-1969-04-16,FIFA World Cup qualification,played,Romania,ROU,Greece,GRC,FALSE,2,2,draw,Piraeus,Greece,FALSE,1769,1658,1768,1659,-1
-1969-04-30,Friendly,played,Romania,ROU,France,FRA,FALSE,0,1,loss,Paris,France,FALSE,1768,1686,1759,1695,-9
-1969-05-14,FIFA World Cup qualification,played,Romania,ROU,Switzerland,CHE,FALSE,1,0,win,Lausanne,Switzerland,FALSE,1759,1702,1781,1680,22
-1969-09-03,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,1,1,draw,Belgrade,Yugoslavia,FALSE,1781,1827,1785,1823,4
-1969-10-12,FIFA World Cup qualification,played,Romania,ROU,Portugal,PRT,TRUE,1,0,win,Bucharest,Romania,FALSE,1785,1830,1802,1813,17
-1969-11-16,FIFA World Cup qualification,played,Romania,ROU,Greece,GRC,TRUE,1,1,draw,Bucharest,Romania,FALSE,1802,1704,1792,1714,-10
-1970-02-09,Friendly,played,Romania,ROU,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1792,1708,1792,1708,0
-1970-04-08,Friendly,played,Romania,ROU,Germany,DEU,FALSE,1,1,draw,Stuttgart,Germany,FALSE,,,,,
-1970-04-28,Friendly,played,Romania,ROU,France,FRA,FALSE,0,2,loss,Reims,France,FALSE,1799,1747,1786,1760,-13
-1970-05-06,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,0,0,draw,Bucharest,Romania,FALSE,1786,1831,1784,1833,-2
-1970-06-02,FIFA World Cup,played,Romania,ROU,England,ENG,FALSE,0,1,loss,Guadalajara,Mexico,TRUE,1784,2070,1774,2080,-10
-1970-06-06,FIFA World Cup,played,Romania,ROU,Czechoslovakia,CSK,FALSE,2,1,win,Guadalajara,Mexico,TRUE,1774,1918,1816,1876,42
-1970-06-10,FIFA World Cup,played,Romania,ROU,Brazil,BRA,FALSE,2,3,loss,Guadalajara,Mexico,TRUE,1816,2088,1806,2098,-10
-1970-10-11,UEFA Euro qualification,played,Romania,ROU,Finland,,TRUE,3,0,win,Bucharest,Romania,FALSE,1806,1419,1810,1415,4
-1970-11-11,UEFA Euro qualification,played,Romania,ROU,Wales,WAL,FALSE,0,0,draw,Cardiff,Wales,FALSE,1810,1697,1809,1698,-1
-1970-12-02,Friendly,played,Romania,ROU,Netherlands,NLD,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1809,1728,1795,1742,-14
-1971-04-21,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,1,0,win,Novi Sad,Yugoslavia,FALSE,1798,1868,1813,1853,15
-1971-05-16,UEFA Euro qualification,played,Romania,ROU,Czechoslovakia,CSK,FALSE,0,1,loss,Bratislava,Czechoslovakia,FALSE,1813,1849,1800,1862,-13
-1971-09-22,UEFA Euro qualification,played,Romania,ROU,Finland,,FALSE,4,0,win,Helsinki,Finland,FALSE,1808,1405,1819,1394,11
-1971-11-14,UEFA Euro qualification,played,Romania,ROU,Czechoslovakia,CSK,TRUE,2,1,win,Bucharest,Romania,FALSE,1789,1879,1808,1860,19
-1971-11-24,UEFA Euro qualification,played,Romania,ROU,Wales,WAL,TRUE,2,0,win,Bucharest,Romania,FALSE,1808,1688,1821,1675,13
-1972-04-08,Friendly,played,Romania,ROU,France,FRA,TRUE,2,0,win,Bucharest,Romania,FALSE,1835,1784,1844,1775,9
-1972-04-23,Friendly,played,Romania,ROU,Peru,PER,TRUE,2,2,draw,Bucharest,Romania,FALSE,1844,1716,1838,1722,-6
-1972-04-29,UEFA Euro qualification,played,Romania,ROU,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,1838,1926,1848,1916,10
-1972-05-14,UEFA Euro qualification,played,Romania,ROU,Hungary,HUN,TRUE,2,2,draw,Bucharest,Romania,FALSE,1848,1918,1846,1920,-2
-1972-05-17,UEFA Euro qualification,played,Romania,ROU,Hungary,HUN,FALSE,1,2,loss,Belgrade,Yugoslavia,TRUE,1846,1920,1830,1936,-16
-1972-06-17,Friendly,played,Romania,ROU,Italy,ITA,TRUE,3,3,draw,Bucharest,Romania,FALSE,1796,1957,1798,1955,2
-1972-09-03,Friendly,played,Romania,ROU,Austria,AUT,TRUE,1,1,draw,Craiova,Romania,FALSE,1798,1811,1796,1813,-2
-1972-09-20,FIFA World Cup qualification,played,Romania,ROU,Finland,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1796,1409,1782,1423,-14
-1972-10-29,FIFA World Cup qualification,played,Romania,ROU,Albania,,TRUE,2,0,win,Bucharest,Romania,FALSE,1782,1473,1787,1468,5
-1973-04-18,Friendly,played,Romania,ROU,Soviet Union,SUN,FALSE,0,2,loss,Kyiv,Soviet Union,FALSE,1787,1918,1781,1924,-6
-1973-05-06,FIFA World Cup qualification,played,Romania,ROU,Albania,,FALSE,4,1,win,Tirana,Albania,FALSE,1781,1465,1797,1449,16
-1973-05-27,FIFA World Cup qualification,played,Romania,ROU,German DR,DDR,TRUE,1,0,win,Bucharest,Romania,FALSE,1797,1867,1815,1849,18
-1973-09-26,FIFA World Cup qualification,played,Romania,ROU,German DR,DDR,FALSE,0,2,loss,Leipzig,German DR,FALSE,1815,1862,1797,1880,-18
-1973-10-14,FIFA World Cup qualification,played,Romania,ROU,Finland,,TRUE,9,0,win,Bucharest,Romania,FALSE,1797,1406,1803,1400,6
-1974-03-23,Friendly,played,Romania,ROU,France,FRA,FALSE,0,1,loss,Paris,France,FALSE,1803,1771,1795,1779,-8
-1974-04-17,Friendly,played,Romania,ROU,Brazil,BRA,FALSE,0,2,loss,São Paulo,Brazil,FALSE,1795,2129,1793,2131,-2
-1974-04-22,Friendly,played,Romania,ROU,Argentina,ARG,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1793,1892,1788,1897,-5
-1974-05-29,Balkan Cup,played,Romania,ROU,Greece,GRC,TRUE,3,1,win,Bucharest,Romania,FALSE,1788,1589,1797,1580,9
-1974-06-05,Friendly,played,Romania,ROU,Netherlands,NLD,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,1797,1847,1801,1843,4
-1974-09-25,Friendly,played,Romania,ROU,Bulgaria,BGR,FALSE,0,0,draw,Sofia,Bulgaria,FALSE,1804,1775,1806,1773,2
-1974-10-13,UEFA Euro qualification,played,Romania,ROU,Denmark,DNK,FALSE,0,0,draw,Copenhagen,Denmark,FALSE,1806,1623,1801,1628,-5
-1974-12-04,Friendly,played,Romania,ROU,Israel,ISR,FALSE,1,0,win,Jaffa,Israel,FALSE,1801,1744,1812,1733,11
-1975-03-19,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1812,1667,1811,1668,-1
-1975-03-31,Friendly,played,Romania,ROU,Czechoslovakia,CSK,FALSE,1,1,draw,Prague,Czechoslovakia,FALSE,1811,1865,1815,1861,4
-1975-04-17,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,FALSE,1,1,draw,Madrid,Spain,FALSE,1815,1918,1826,1907,11
-1975-05-11,UEFA Euro qualification,played,Romania,ROU,Denmark,DNK,TRUE,6,1,win,Bucharest,Romania,FALSE,1826,1628,1838,1616,12
-1975-06-01,UEFA Euro qualification,played,Romania,ROU,Scotland,SCO,TRUE,1,1,draw,Bucharest,Romania,FALSE,1838,1888,1835,1891,-3
-1975-09-24,Balkan Cup,played,Romania,ROU,Greece,GRC,FALSE,1,1,draw,Salonica,Greece,FALSE,1857,1611,1849,1619,-8
-1975-10-12,Friendly,played,Romania,ROU,Turkey,TUR,TRUE,2,2,draw,Bucharest,Romania,FALSE,1849,1664,1842,1671,-7
-1975-11-16,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,TRUE,2,2,draw,Bucharest,Romania,FALSE,1842,1912,1840,1914,-2
-1975-11-29,Friendly,played,Romania,ROU,Soviet Union,SUN,TRUE,2,2,draw,Bucharest,Romania,FALSE,1840,1868,1838,1870,-2
-1975-12-17,UEFA Euro qualification,played,Romania,ROU,Scotland,SCO,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1838,1906,1847,1897,9
-1976-05-12,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,FALSE,0,1,loss,Veliko Tărnovo,Bulgaria,FALSE,1847,1789,1829,1807,-18
-1976-06-05,Friendly,played,Romania,ROU,Italy,ITA,FALSE,2,4,loss,Milan,Italy,FALSE,1829,1928,1822,1935,-7
-1976-07-02,Friendly,played,Romania,ROU,Iran,IRN,FALSE,2,2,draw,Tehran,Iran,FALSE,1822,1719,1822,1719,0
-1976-09-22,Friendly,played,Romania,ROU,Czechoslovakia,CSK,TRUE,1,1,draw,Bucharest,Romania,FALSE,1822,1989,1824,1987,2
-1976-10-06,Friendly,played,Romania,ROU,Czechoslovakia,CSK,FALSE,2,3,loss,Prague,Czechoslovakia,FALSE,1824,1987,1820,1991,-4
-1976-11-28,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,TRUE,3,2,win,Bucharest,Romania,FALSE,1820,1778,1832,1766,12
-1977-02-02,Friendly,played,Romania,ROU,France,FRA,FALSE,0,2,loss,Bordeaux,France,FALSE,1832,1806,1820,1818,-12
-1977-03-23,Balkan Cup,played,Romania,ROU,Turkey,TUR,TRUE,4,0,win,Bucharest,Romania,FALSE,1820,1718,1838,1700,18
-1977-04-16,FIFA World Cup qualification,played,Romania,ROU,Spain,ESP,TRUE,1,0,win,Bucharest,Romania,FALSE,1838,1925,1857,1906,19
-1977-04-27,Friendly,played,Romania,ROU,German DR,DDR,TRUE,1,1,draw,Bucharest,Romania,FALSE,1857,1969,1857,1969,0
-1977-05-08,FIFA World Cup qualification,played,Romania,ROU,Yugoslavia,YUG,FALSE,2,0,win,Zagreb,Yugoslavia,FALSE,1857,1837,1894,1800,37
-1977-08-05,Friendly,played,Romania,ROU,Iran,IRN,FALSE,0,0,draw,Tehran,Iran,FALSE,1894,1742,1893,1743,-1
-1977-08-14,Friendly,played,Romania,ROU,Czechoslovakia,CSK,FALSE,3,1,win,Rabat,Morocco,TRUE,1893,1918,1917,1894,24
-1977-09-21,Friendly,played,Romania,ROU,Greece,GRC,TRUE,6,1,win,Bucharest,Romania,FALSE,1917,1645,1921,1641,4
-1977-10-26,FIFA World Cup qualification,played,Romania,ROU,Spain,ESP,FALSE,0,2,loss,Madrid,Spain,FALSE,1921,1911,1899,1933,-22
-1977-11-13,FIFA World Cup qualification,played,Romania,ROU,Yugoslavia,YUG,TRUE,4,6,loss,Bucharest,Romania,FALSE,1899,1798,1853,1844,-46
-1978-03-22,Balkan Cup,played,Romania,ROU,Turkey,TUR,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1853,1654,1847,1660,-6
-1978-04-05,Friendly,played,Romania,ROU,Argentina,ARG,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1847,1937,1839,1945,-8
-1978-05-03,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,TRUE,2,0,win,Bucharest,Romania,FALSE,1839,1745,1854,1730,15
-1978-05-14,Friendly,played,Romania,ROU,Soviet Union,SUN,TRUE,0,1,loss,Bucharest,Romania,FALSE,1854,1910,1843,1921,-11
-1978-05-31,Balkan Cup,played,Romania,ROU,Bulgaria,BGR,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,1843,1730,1842,1731,-1
-1978-10-11,Friendly,played,Romania,ROU,Poland,POL,TRUE,1,0,win,Bucharest,Romania,FALSE,1827,1937,1837,1927,10
-1978-10-25,UEFA Euro qualification,played,Romania,ROU,Yugoslavia,YUG,TRUE,3,2,win,Bucharest,Romania,FALSE,1837,1808,1850,1795,13
-1978-11-15,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,FALSE,0,1,loss,Valencia,Spain,FALSE,1850,1960,1841,1969,-9
-1978-12-13,Friendly,played,Romania,ROU,Greece,GRC,FALSE,1,2,loss,Athens,Greece,FALSE,1841,1674,1829,1686,-12
-1978-12-19,Friendly,played,Romania,ROU,Israel,ISR,FALSE,1,1,draw,Jaffa,Israel,FALSE,1829,1716,1829,1716,0
-1979-03-21,Friendly,played,Romania,ROU,Greece,GRC,TRUE,3,0,win,Bucharest,Romania,FALSE,1819,1674,1826,1667,7
-1979-04-04,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,TRUE,2,2,draw,Craiova,Romania,FALSE,1826,1954,1828,1952,2
-1979-05-13,UEFA Euro qualification,played,Romania,ROU,Cyprus,,FALSE,1,1,draw,Limassol,Cyprus,FALSE,1828,1256,1810,1274,-18
-1979-06-01,Friendly,played,Romania,ROU,German DR,DDR,FALSE,0,1,loss,Berlin,German DR,FALSE,1810,1915,1805,1920,-5
-1979-08-29,Friendly,played,Romania,ROU,Poland,POL,FALSE,0,3,loss,Warsaw,Poland,FALSE,1805,1957,1798,1964,-7
-1979-10-14,Friendly,played,Romania,ROU,Soviet Union,SUN,FALSE,1,3,loss,Moscow,Soviet Union,FALSE,1798,1903,1791,1910,-7
-1979-10-31,UEFA Euro qualification,played,Romania,ROU,Yugoslavia,YUG,FALSE,1,2,loss,Titova Mitrovica,Yugoslavia,FALSE,1791,1885,1781,1895,-10
-1979-11-18,UEFA Euro qualification,played,Romania,ROU,Cyprus,,TRUE,2,0,win,Bucharest,Romania,FALSE,1781,1273,1783,1271,2
-1980-02-16,Friendly,played,Romania,ROU,Italy,ITA,FALSE,1,2,loss,Naples,Italy,FALSE,1783,1992,1780,1995,-3
-1980-03-30,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,FALSE,0,2,loss,Belgrade,Yugoslavia,FALSE,1780,1898,1767,1911,-13
-1980-04-02,Friendly,played,Romania,ROU,German DR,DDR,TRUE,2,2,draw,Bucharest,Romania,FALSE,1767,1924,1769,1922,2
-1980-06-06,Friendly,played,Romania,ROU,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1765,1910,1761,1914,-4
-1980-08-27,Balkan Cup,played,Romania,ROU,Yugoslavia,YUG,TRUE,4,1,win,Bucharest,Romania,FALSE,1761,1919,1802,1878,41
-1980-09-10,Friendly,played,Romania,ROU,Bulgaria,BGR,FALSE,2,1,win,Varna,Bulgaria,FALSE,1802,1706,1812,1696,10
-1980-09-24,FIFA World Cup qualification,played,Romania,ROU,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1812,1509,1801,1520,-11
-1980-10-15,FIFA World Cup qualification,played,Romania,ROU,England,ENG,TRUE,2,1,win,Bucharest,Romania,FALSE,1801,2024,1828,1997,27
-1981-03-25,Friendly,played,Romania,ROU,Poland,POL,TRUE,2,0,win,Bucharest,Romania,FALSE,1828,1961,1844,1945,16
-1981-04-08,Friendly,played,Romania,ROU,Israel,ISR,FALSE,1,2,loss,Jaffa,Israel,FALSE,1844,1660,1832,1672,-12
-1981-04-15,Friendly,played,Romania,ROU,Denmark,DNK,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1832,1657,1820,1669,-12
-1981-04-29,FIFA World Cup qualification,played,Romania,ROU,England,ENG,FALSE,0,0,draw,London,England,FALSE,1820,1983,1833,1970,13
-1981-05-13,FIFA World Cup qualification,played,Romania,ROU,Hungary,HUN,FALSE,0,1,loss,Budapest,Hungary,FALSE,1833,1799,1817,1815,-16
-1981-06-03,FIFA World Cup qualification,played,Romania,ROU,Norway,NOR,TRUE,1,0,win,Bucharest,Romania,FALSE,1817,1520,1821,1516,4
-1981-09-09,Friendly,played,Romania,ROU,Bulgaria,BGR,TRUE,1,2,loss,Bucharest,Romania,FALSE,1821,1714,1806,1729,-15
-1981-09-23,FIFA World Cup qualification,played,Romania,ROU,Hungary,HUN,TRUE,0,0,draw,Bucharest,Romania,FALSE,1806,1792,1800,1798,-6
-1981-10-10,FIFA World Cup qualification,played,Romania,ROU,Switzerland,CHE,TRUE,1,2,loss,Bucharest,Romania,FALSE,1800,1645,1767,1678,-33
-1981-11-11,FIFA World Cup qualification,played,Romania,ROU,Switzerland,CHE,FALSE,0,0,draw,Bern,Switzerland,FALSE,1767,1663,1767,1663,0
-1982-03-24,Friendly,played,Romania,ROU,Belgium,BEL,FALSE,1,4,loss,Brussels,Belgium,FALSE,1767,1918,1760,1925,-7
-1982-04-14,Friendly,played,Romania,ROU,Bulgaria,BGR,FALSE,2,1,win,Ruse,Bulgaria,FALSE,1760,1753,1773,1740,13
-1982-05-01,UEFA Euro qualification,played,Romania,ROU,Cyprus,,TRUE,3,1,win,Hunedoara,Romania,FALSE,1773,1269,1775,1267,2
-1982-05-12,Friendly,played,Romania,ROU,Argentina,ARG,FALSE,0,1,loss,Rosario,Argentina,FALSE,1775,2002,1772,2005,-3
-1982-05-17,Friendly,played,Romania,ROU,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,,,,,
-1982-09-01,Friendly,played,Romania,ROU,Denmark,DNK,TRUE,1,0,win,Bucharest,Romania,FALSE,1781,1741,1787,1735,6
-1982-09-08,UEFA Euro qualification,played,Romania,ROU,Sweden,SWE,TRUE,2,0,win,Bucharest,Romania,FALSE,1787,1698,1802,1683,15
-1982-11-17,Friendly,played,Romania,ROU,German DR,DDR,FALSE,1,4,loss,Karl-Marx-Stadt,German DR,FALSE,1802,1883,1793,1892,-9
-1982-12-04,UEFA Euro qualification,played,Romania,ROU,Italy,ITA,FALSE,0,0,draw,Florence,Italy,FALSE,1793,2034,1808,2019,15
-1983-01-29,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1808,1525,1803,1530,-5
-1983-02-02,Friendly,played,Romania,ROU,Greece,GRC,FALSE,3,1,win,Lárisa,Greece,FALSE,1803,1616,1814,1605,11
-1983-03-09,Friendly,played,Romania,ROU,Turkey,TUR,TRUE,3,1,win,Târgu Mureș,Romania,FALSE,1814,1530,1817,1527,3
-1983-03-30,Friendly,played,Romania,ROU,Yugoslavia,YUG,TRUE,0,2,loss,Timişoara,Romania,FALSE,1817,1855,1799,1873,-18
-1983-04-16,UEFA Euro qualification,played,Romania,ROU,Italy,ITA,TRUE,1,0,win,Bucharest,Romania,FALSE,1799,2000,1825,1974,26
-1983-05-15,UEFA Euro qualification,played,Romania,ROU,Czechoslovakia,CSK,TRUE,0,1,loss,Bucharest,Romania,FALSE,1825,1849,1801,1873,-24
-1983-06-01,Friendly,played,Romania,ROU,Yugoslavia,YUG,FALSE,0,1,loss,Sarajevo,Yugoslavia,FALSE,1801,1862,1795,1868,-6
-1983-06-09,UEFA Euro qualification,played,Romania,ROU,Sweden,SWE,FALSE,1,0,win,Solna,Sweden,FALSE,1795,1775,1820,1750,25
-1983-08-10,Friendly,played,Romania,ROU,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1820,1601,1817,1604,-3
-1983-08-24,Friendly,played,Romania,ROU,German DR,DDR,TRUE,1,0,win,Bucharest,Romania,FALSE,1817,1846,1825,1838,8
-1983-09-07,Friendly,played,Romania,ROU,Poland,POL,FALSE,2,2,draw,Kraków,Poland,FALSE,1825,1967,1831,1961,6
-1983-10-12,Friendly,played,Romania,ROU,Wales,WAL,FALSE,0,5,loss,Wrexham,Wales,FALSE,1831,1841,1817,1855,-14
-1983-11-08,Friendly,played,Romania,ROU,Israel,ISR,FALSE,1,1,draw,Jaffa,Israel,FALSE,1817,1687,1816,1688,-1
-1983-11-12,UEFA Euro qualification,played,Romania,ROU,Cyprus,,FALSE,1,0,win,Limassol,Cyprus,FALSE,1816,1299,1819,1296,3
-1983-11-30,UEFA Euro qualification,played,Romania,ROU,Czechoslovakia,CSK,FALSE,1,1,draw,Bratislava,Czechoslovakia,FALSE,1819,1863,1827,1855,8
-1984-02-07,Friendly,played,Romania,ROU,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1827,1641,1825,1643,-2
-1984-03-07,Friendly,played,Romania,ROU,Greece,GRC,TRUE,2,0,win,Craiova,Romania,FALSE,1825,1604,1829,1600,4
-1984-04-11,Friendly,played,Romania,ROU,Israel,ISR,TRUE,0,0,draw,Oradea,Romania,FALSE,1829,1703,1823,1709,-6
-1984-06-14,UEFA Euro,played,Romania,ROU,Spain,ESP,TRUE,1,1,draw,Saint-Étienne,France,TRUE,1823,1869,1826,1866,3
-1984-06-17,UEFA Euro,played,Romania,ROU,Germany,DEU,FALSE,1,2,loss,Lens,France,TRUE,,,,,
-1984-06-20,UEFA Euro,played,Romania,ROU,Portugal,PRT,FALSE,0,1,loss,Nantes,France,TRUE,1813,1839,1790,1862,-23
-1984-07-29,Friendly,played,Romania,ROU,China PR,,TRUE,4,2,win,Iași,Romania,FALSE,,,,,
-1984-07-31,Friendly,played,Romania,ROU,China PR,,TRUE,1,0,win,Buzău,Romania,FALSE,,,,,
-1984-08-29,Friendly,played,Romania,ROU,German DR,DDR,FALSE,1,2,loss,Gera,German DR,FALSE,1797,1885,1792,1890,-5
-1984-09-12,FIFA World Cup qualification,played,Romania,ROU,Northern Ireland,NIR,FALSE,2,3,loss,Belfast,Northern Ireland,FALSE,1792,1799,1778,1813,-14
-1984-11-21,Friendly,played,Romania,ROU,Israel,ISR,FALSE,1,1,draw,Petah Tikva,Israel,FALSE,1778,1702,1779,1701,1
-1984-12-05,Friendly,played,Romania,ROU,Greece,GRC,FALSE,1,2,loss,Athens,Greece,FALSE,1779,1593,1767,1605,-12
-1985-01-30,Friendly,played,Romania,ROU,Portugal,PRT,FALSE,3,2,win,Lisbon,Portugal,FALSE,1767,1849,1782,1834,15
-1985-03-27,Friendly,played,Romania,ROU,Poland,POL,TRUE,0,0,draw,Sibiu,Romania,FALSE,1782,1840,1781,1841,-1
-1985-04-03,FIFA World Cup qualification,played,Romania,ROU,Turkey,TUR,TRUE,3,0,win,Craiova,Romania,FALSE,1781,1538,1790,1529,9
-1985-05-01,FIFA World Cup qualification,played,Romania,ROU,England,ENG,TRUE,0,0,draw,Bucharest,Romania,FALSE,1790,1989,1796,1983,6
-1985-06-06,FIFA World Cup qualification,played,Romania,ROU,Finland,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1796,1492,1785,1503,-11
-1985-08-07,Friendly,played,Romania,ROU,Soviet Union,SUN,FALSE,0,2,loss,Moscow,Soviet Union,FALSE,1785,1972,1780,1977,-5
-1985-08-28,FIFA World Cup qualification,played,Romania,ROU,Finland,,TRUE,2,0,win,Timişoara,Romania,FALSE,1780,1503,1786,1497,6
-1985-09-11,FIFA World Cup qualification,played,Romania,ROU,England,ENG,FALSE,1,1,draw,London,England,FALSE,1786,1955,1799,1942,13
-1985-10-16,FIFA World Cup qualification,played,Romania,ROU,Northern Ireland,NIR,TRUE,0,1,loss,Bucharest,Romania,FALSE,1799,1808,1774,1833,-25
-1985-11-13,FIFA World Cup qualification,played,Romania,ROU,Turkey,TUR,FALSE,3,1,win,İzmir,Turkey,FALSE,1774,1519,1791,1502,17
-1986-02-28,Friendly,played,Romania,ROU,Egypt,EGY,FALSE,2,2,draw,Alexandria,Egypt,FALSE,1791,1611,1789,1613,-2
-1986-03-02,Friendly,played,Romania,ROU,Egypt,EGY,FALSE,1,0,win,Alexandria,Egypt,FALSE,1789,1613,1797,1605,8
-1986-03-14,Friendly,played,Romania,ROU,Iraq,IRQ,FALSE,1,1,draw,Baghdad,Iraq,FALSE,1797,1670,1796,1671,-1
-1986-03-26,Friendly,played,Romania,ROU,Scotland,SCO,FALSE,0,3,loss,Glasgow,Scotland,FALSE,1795,1871,1786,1880,-9
-1986-04-23,Friendly,played,Romania,ROU,Soviet Union,SUN,TRUE,2,1,win,Timişoara,Romania,FALSE,1786,1961,1798,1949,12
-1986-06-04,Friendly,played,Romania,ROU,Norway,NOR,TRUE,3,1,win,Bucharest,Romania,FALSE,1798,1731,1806,1723,8
-1986-08-20,Friendly,played,Romania,ROU,Norway,NOR,FALSE,2,2,draw,Oslo,Norway,FALSE,1806,1723,1806,1723,0
-1986-09-10,UEFA Euro qualification,played,Romania,ROU,Austria,AUT,TRUE,4,0,win,Bucharest,Romania,FALSE,1806,1755,1828,1733,22
-1986-10-08,Friendly,played,Romania,ROU,Israel,ISR,FALSE,4,2,win,Ramat Gan,Israel,FALSE,1828,1620,1838,1610,10
-1986-11-12,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,FALSE,0,1,loss,Seville,Spain,FALSE,1838,1984,1830,1992,-8
-1987-03-04,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,3,1,win,Ankara,Turkey,FALSE,1830,1524,1837,1517,7
-1987-03-11,Friendly,played,Romania,ROU,Greece,GRC,FALSE,1,1,draw,Piraeus,Greece,FALSE,1837,1665,1835,1667,-2
-1987-03-25,UEFA Euro qualification,played,Romania,ROU,Albania,,TRUE,5,1,win,Bucharest,Romania,FALSE,1835,1466,1840,1461,5
-1987-04-08,Friendly,played,Romania,ROU,Israel,ISR,TRUE,3,2,win,Braşov,Romania,FALSE,1840,1605,1843,1602,3
-1987-04-29,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,TRUE,3,1,win,Bucharest,Romania,FALSE,1843,1984,1877,1950,34
-1987-09-02,Friendly,played,Romania,ROU,Poland,POL,FALSE,1,3,loss,Bydgoszcz,Poland,FALSE,1877,1750,1861,1766,-16
-1987-10-07,Friendly,played,Romania,ROU,Greece,GRC,TRUE,2,2,draw,Bucharest,Romania,FALSE,1861,1699,1855,1705,-6
-1987-10-28,UEFA Euro qualification,played,Romania,ROU,Albania,,FALSE,1,0,win,Vlorë,Albania,FALSE,1855,1451,1861,1445,6
-1987-11-18,UEFA Euro qualification,played,Romania,ROU,Austria,AUT,FALSE,0,0,draw,Vienna,Austria,FALSE,1861,1752,1860,1753,-1
-1988-02-03,Friendly,played,Romania,ROU,Israel,ISR,FALSE,2,0,win,Haifa,Israel,FALSE,1860,1565,1871,1554,11
-1988-02-06,Friendly,played,Romania,ROU,Poland,POL,FALSE,2,2,draw,Haifa,Israel,TRUE,1871,1747,1866,1752,-5
-1988-03-23,Friendly,played,Romania,ROU,Republic of Ireland,IRL,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1988-03-30,Friendly,played,Romania,ROU,German DR,DDR,FALSE,3,3,draw,Halle,German DR,FALSE,1852,1818,1854,1816,2
-1988-06-01,Friendly,played,Romania,ROU,Netherlands,NLD,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1854,1926,1846,1934,-8
-1988-09-20,Friendly,played,Romania,ROU,Albania,,TRUE,3,0,win,Constanţa,Romania,FALSE,1846,1441,1848,1439,2
-1988-10-19,FIFA World Cup qualification,played,Romania,ROU,Bulgaria,BGR,FALSE,3,1,win,Sofia,Bulgaria,FALSE,1848,1796,1882,1762,34
-1988-11-02,FIFA World Cup qualification,played,Romania,ROU,Greece,GRC,TRUE,3,0,win,Bucharest,Romania,FALSE,1882,1697,1893,1686,11
-1988-11-23,Friendly,played,Romania,ROU,Israel,ISR,TRUE,3,0,win,Sibiu,Romania,FALSE,1893,1614,1897,1610,4
-1989-03-29,Friendly,played,Romania,ROU,Italy,ITA,TRUE,1,0,win,Sibiu,Romania,FALSE,1897,1987,1907,1977,10
-1989-04-12,Friendly,played,Romania,ROU,Poland,POL,FALSE,1,2,loss,Warsaw,Poland,FALSE,1907,1806,1897,1816,-10
-1989-04-26,FIFA World Cup qualification,played,Romania,ROU,Greece,GRC,FALSE,0,0,draw,Athens,Greece,FALSE,1897,1672,1890,1679,-7
-1989-05-17,FIFA World Cup qualification,played,Romania,ROU,Bulgaria,BGR,TRUE,1,0,win,Bucharest,Romania,FALSE,1890,1728,1897,1721,7
-1989-08-31,Friendly,played,Romania,ROU,Portugal,PRT,FALSE,0,0,draw,Setúbal,Portugal,FALSE,1897,1782,1897,1782,0
-1989-09-05,Friendly,played,Romania,ROU,Czechoslovakia,CSK,FALSE,0,2,loss,Nitra,Czechoslovakia,FALSE,1897,1859,1885,1871,-12
-1989-10-11,FIFA World Cup qualification,played,Romania,ROU,Denmark,DNK,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1885,1910,1862,1933,-23
-1989-11-15,FIFA World Cup qualification,played,Romania,ROU,Denmark,DNK,TRUE,3,1,win,Bucharest,Romania,FALSE,1862,1933,1890,1905,28
-1990-02-04,Friendly,played,Romania,ROU,Algeria,DZA,FALSE,0,0,draw,Algiers,Algeria,FALSE,1890,1656,1886,1660,-4
-1990-03-21,Friendly,played,Romania,ROU,Basque Country,,FALSE,2,2,draw,Bilbao,Spain,FALSE,,,,,
-1990-03-28,Friendly,played,Romania,ROU,Egypt,EGY,FALSE,3,1,win,Cairo,Egypt,FALSE,1886,1597,1894,1589,8
-1990-04-03,Friendly,played,Romania,ROU,Switzerland,CHE,FALSE,1,2,loss,Lucerne,Switzerland,FALSE,1894,1670,1881,1683,-13
-1990-04-25,Friendly,played,Romania,ROU,Israel,ISR,FALSE,4,1,win,Haifa,Israel,FALSE,1881,1627,1891,1617,10
-1990-05-21,Friendly,played,Romania,ROU,Egypt,EGY,TRUE,1,0,win,Bucharest,Romania,FALSE,1891,1626,1893,1624,2
-1990-05-26,Friendly,played,Romania,ROU,Belgium,BEL,FALSE,2,2,draw,Brussels,Belgium,FALSE,1893,1834,1894,1833,1
-1990-06-09,FIFA World Cup,played,Romania,ROU,Soviet Union,SUN,FALSE,2,0,win,Bari,Italy,TRUE,1894,1943,1945,1892,51
-1990-06-14,FIFA World Cup,played,Romania,ROU,Cameroon,CMR,FALSE,1,2,loss,Bari,Italy,TRUE,1945,1674,1895,1724,-50
-1990-06-18,FIFA World Cup,played,Romania,ROU,Argentina,ARG,FALSE,1,1,draw,Naples,Italy,TRUE,1895,1813,1888,1820,-7
-1990-06-25,FIFA World Cup,played,Romania,ROU,Republic of Ireland,IRL,FALSE,0,0,draw,Genoa,Italy,TRUE,,,,,
-1990-08-29,Friendly,played,Romania,ROU,Soviet Union,SUN,FALSE,2,1,win,Moscow,Soviet Union,FALSE,1888,1870,1900,1858,12
-1990-09-12,UEFA Euro qualification,played,Romania,ROU,Scotland,SCO,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1900,1735,1876,1759,-24
-1990-09-26,Friendly,played,Romania,ROU,Poland,POL,TRUE,2,1,win,Bucharest,Romania,FALSE,1876,1797,1881,1792,5
-1990-10-17,UEFA Euro qualification,played,Romania,ROU,Bulgaria,BGR,TRUE,0,3,loss,Bucharest,Romania,FALSE,1881,1691,1822,1750,-59
-1990-12-05,UEFA Euro qualification,played,Romania,ROU,San Marino,,TRUE,6,0,win,Bucharest,Romania,FALSE,1822,1007,1822,1007,0
-1990-12-22,Friendly,played,Romania,ROU,Croatia,HRV,FALSE,0,2,loss,Rijeka,Croatia,FALSE,1822,1878,1813,1887,-9
-1991-03-27,UEFA Euro qualification,played,Romania,ROU,San Marino,,FALSE,3,1,win,Serravalle,San Marino,FALSE,1813,1007,1814,1006,1
-1991-04-03,UEFA Euro qualification,played,Romania,ROU,Switzerland,CHE,FALSE,0,0,draw,Neuchâtel,Switzerland,FALSE,1814,1751,1816,1749,2
-1991-04-17,Friendly,played,Romania,ROU,Spain,ESP,FALSE,2,0,win,Cáceres,Spain,FALSE,1816,1885,1838,1863,22
-1991-05-23,Friendly,played,Romania,ROU,Norway,NOR,FALSE,0,1,loss,Oslo,Norway,FALSE,1838,1688,1827,1699,-11
-1991-08-28,Friendly,played,Romania,ROU,United States,USA,TRUE,0,2,loss,Braşov,Romania,FALSE,1827,1696,1803,1720,-24
-1991-10-16,UEFA Euro qualification,played,Romania,ROU,Scotland,SCO,TRUE,1,0,win,Bucharest,Romania,FALSE,1803,1767,1816,1754,13
-1991-11-13,UEFA Euro qualification,played,Romania,ROU,Switzerland,CHE,TRUE,1,0,win,Bucharest,Romania,FALSE,1816,1789,1829,1776,13
-1991-11-20,UEFA Euro qualification,played,Romania,ROU,Bulgaria,BGR,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,1829,1739,1830,1738,1
-1991-12-21,Friendly,played,Romania,ROU,Egypt,EGY,FALSE,1,3,loss,Cairo,Egypt,FALSE,1830,1660,1812,1678,-18
-1991-12-24,Friendly,played,Romania,ROU,Egypt,EGY,FALSE,1,1,draw,Port Said,Egypt,FALSE,1812,1678,1811,1679,-1
-1992-02-12,Friendly,played,Romania,ROU,Greece,GRC,FALSE,0,1,loss,Ioannina,Greece,FALSE,1811,1650,1799,1662,-12
-1992-04-08,Friendly,played,Romania,ROU,Latvia,,TRUE,2,0,win,Bucharest,Romania,FALSE,1799,1393,1801,1391,2
-1992-05-06,FIFA World Cup qualification,played,Romania,ROU,Faroe Islands,,TRUE,7,0,win,Bucharest,Romania,FALSE,1801,1269,1803,1267,2
-1992-05-20,FIFA World Cup qualification,played,Romania,ROU,Wales,WAL,TRUE,5,1,win,Bucharest,Romania,FALSE,1803,1811,1831,1783,28
-1992-08-26,Friendly,played,Romania,ROU,Mexico,MEX,TRUE,2,0,win,Bucharest,Romania,FALSE,1831,1805,1841,1795,10
-1992-10-14,FIFA World Cup qualification,played,Romania,ROU,Belgium,BEL,FALSE,0,1,loss,Brussels,Belgium,FALSE,1841,1844,1827,1858,-14
-1992-11-14,FIFA World Cup qualification,played,Romania,ROU,Czechoslovakia,CSK,TRUE,1,1,draw,Bucharest,Romania,FALSE,1827,1820,1821,1826,-6
-1992-11-29,FIFA World Cup qualification,played,Romania,ROU,Cyprus,,FALSE,4,1,win,Larnaca,Cyprus,FALSE,1821,1326,1828,1319,7
-1993-01-31,Friendly,played,Romania,ROU,Ecuador,ECU,FALSE,0,3,loss,Guayaquil,Ecuador,FALSE,1828,1637,1806,1659,-22
-1993-02-03,Friendly,played,Romania,ROU,Peru,PER,FALSE,2,0,win,Lima,Peru,FALSE,1806,1543,1814,1535,8
-1993-02-06,Friendly,played,Romania,ROU,United States,USA,FALSE,1,1,draw,Santa Barbara,United States,FALSE,1814,1689,1813,1690,-1
-1993-02-10,Friendly,played,Romania,ROU,Mexico,MEX,FALSE,2,0,win,Monterrey,Mexico,FALSE,,,,,
-1993-04-14,FIFA World Cup qualification,played,Romania,ROU,Cyprus,,TRUE,2,1,win,Bucharest,Romania,FALSE,1801,1353,1803,1351,2
-1993-06-02,FIFA World Cup qualification,played,Romania,ROU,Czechoslovakia,CSK,FALSE,2,5,loss,Košice,Slovakia,FALSE,1803,1804,1778,1829,-25
-1993-09-08,FIFA World Cup qualification,played,Romania,ROU,Faroe Islands,,FALSE,4,0,win,Toftir,Faroe Islands,FALSE,1778,1203,1783,1198,5
-1993-09-22,Friendly,played,Romania,ROU,Israel,ISR,TRUE,1,0,win,Bucharest,Romania,FALSE,1783,1578,1786,1575,3
-1993-10-13,FIFA World Cup qualification,played,Romania,ROU,Belgium,BEL,TRUE,2,1,win,Bucharest,Romania,FALSE,1786,1850,1804,1832,18
-1993-11-17,FIFA World Cup qualification,played,Romania,ROU,Wales,WAL,FALSE,2,1,win,Cardiff,Wales,FALSE,1804,1802,1829,1777,25
-1994-02-13,Lunar New Year Cup,played,Romania,ROU,United States,USA,TRUE,2,1,win,Kowloon,Hong Kong,TRUE,1829,1642,1837,1634,8
-1994-02-16,Friendly,played,Romania,ROU,South Korea,KOR,FALSE,2,1,win,Changwon,South Korea,FALSE,1837,1667,1845,1659,8
-1994-03-23,Friendly,played,Romania,ROU,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1845,1674,1827,1692,-18
-1994-04-20,Friendly,played,Romania,ROU,Bolivia,BOL,TRUE,3,0,win,Bucharest,Romania,FALSE,1827,1717,1835,1709,8
-1994-05-25,Friendly,played,Romania,ROU,Nigeria,NGA,TRUE,2,0,win,Bucharest,Romania,FALSE,1835,1735,1842,1728,7
-1994-06-01,Friendly,played,Romania,ROU,Slovenia,SVN,TRUE,0,0,draw,Bucharest,Romania,FALSE,1842,1597,1834,1605,-8
-1994-06-12,Friendly,played,Romania,ROU,Sweden,SWE,TRUE,1,1,draw,Mission Viejo,United States,TRUE,1834,1907,1836,1905,2
-1994-06-18,FIFA World Cup,played,Romania,ROU,Colombia,COL,FALSE,3,1,win,Pasadena,United States,TRUE,1836,1944,1895,1885,59
-1994-06-22,FIFA World Cup,played,Romania,ROU,Switzerland,CHE,TRUE,1,4,loss,Pontiac,United States,TRUE,1895,1860,1837,1918,-58
-1994-06-26,FIFA World Cup,played,Romania,ROU,United States,USA,FALSE,1,0,win,Pasadena,United States,FALSE,1837,1671,1861,1647,24
-1994-07-03,FIFA World Cup,played,Romania,ROU,Argentina,ARG,TRUE,3,2,win,Pasadena,United States,TRUE,1861,1889,1893,1857,32
-1994-07-10,FIFA World Cup,played,Romania,ROU,Sweden,SWE,TRUE,2,2,draw,Palo Alto,United States,TRUE,1893,1952,1898,1947,5
-1994-09-07,UEFA Euro qualification,played,Romania,ROU,Azerbaijan,,TRUE,3,0,win,Bucharest,Romania,FALSE,1898,1519,1902,1515,4
-1994-10-08,UEFA Euro qualification,played,Romania,ROU,France,FRA,FALSE,0,0,draw,Saint-Étienne,France,FALSE,1902,1916,1908,1910,6
-1994-10-12,Friendly,played,Romania,ROU,England,ENG,FALSE,1,1,draw,London,England,FALSE,1908,1891,1910,1889,2
-1994-11-12,UEFA Euro qualification,played,Romania,ROU,Slovakia,SVK,TRUE,3,2,win,Bucharest,Romania,FALSE,1910,1673,1915,1668,5
-1994-12-14,UEFA Euro qualification,played,Romania,ROU,Israel,ISR,FALSE,1,1,draw,Ramat Gan,Israel,FALSE,1915,1610,1904,1621,-11
-1995-02-08,Friendly,played,Romania,ROU,Greece,GRC,FALSE,0,1,loss,Kalamáta,Greece,FALSE,1904,1652,1890,1666,-14
-1995-02-15,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,1,1,draw,İzmir,Turkey,FALSE,1890,1617,1885,1622,-5
-1995-03-29,UEFA Euro qualification,played,Romania,ROU,Poland,POL,TRUE,2,1,win,Bucharest,Romania,FALSE,1885,1721,1892,1714,7
-1995-04-26,UEFA Euro qualification,played,Romania,ROU,Azerbaijan,,FALSE,4,1,win,Trabzon,Turkey,TRUE,1892,1468,1898,1462,6
-1995-06-07,UEFA Euro qualification,played,Romania,ROU,Israel,ISR,TRUE,2,1,win,Bucharest,Romania,FALSE,1898,1614,1902,1610,4
-1995-09-06,UEFA Euro qualification,played,Romania,ROU,Poland,POL,FALSE,0,0,draw,Zabrze,Poland,FALSE,1902,1761,1900,1763,-2
-1995-10-11,UEFA Euro qualification,played,Romania,ROU,France,FRA,TRUE,1,3,loss,Bucharest,Romania,FALSE,1907,1914,1869,1952,-38
-1995-11-15,UEFA Euro qualification,played,Romania,ROU,Slovakia,SVK,FALSE,2,0,win,Košice,Slovakia,FALSE,1869,1712,1894,1687,25
-1996-03-27,Friendly,played,Romania,ROU,Serbia,SRB,FALSE,0,1,loss,Belgrade,FR Yugoslavia,FALSE,,,,,
-1996-04-24,Friendly,played,Romania,ROU,Georgia,,TRUE,5,0,win,Bucharest,Romania,FALSE,1888,1641,1893,1636,5
-1996-06-01,Friendly,played,Romania,ROU,Moldova,,TRUE,3,1,win,Bucharest,Romania,FALSE,1893,1472,1894,1471,1
-1996-06-10,UEFA Euro,played,Romania,ROU,France,FRA,TRUE,0,1,loss,Newcastle,England,TRUE,1894,1991,1876,2009,-18
-1996-06-13,UEFA Euro,played,Romania,ROU,Bulgaria,BGR,FALSE,0,1,loss,Newcastle,England,TRUE,1876,1846,1849,1873,-27
-1996-06-18,UEFA Euro,played,Romania,ROU,Spain,ESP,TRUE,1,2,loss,Leeds,England,TRUE,1849,1980,1833,1996,-16
-1996-08-14,Friendly,played,Romania,ROU,Israel,ISR,TRUE,2,0,win,Bucharest,Romania,FALSE,1833,1622,1837,1618,4
-1996-08-31,FIFA World Cup qualification,played,Romania,ROU,Lithuania,,TRUE,3,0,win,Bucharest,Romania,FALSE,1837,1453,1841,1449,4
-1996-09-18,Friendly,played,Romania,ROU,United Arab Emirates,ARE,TRUE,1,2,loss,Bucharest,Romania,FALSE,1841,1550,1823,1568,-18
-1996-10-09,FIFA World Cup qualification,played,Romania,ROU,Iceland,ISL,FALSE,4,0,win,Reykjavík,Iceland,FALSE,1823,1530,1842,1511,19
-1996-12-14,FIFA World Cup qualification,played,Romania,ROU,North Macedonia,,FALSE,3,0,win,Skopje,North Macedonia,FALSE,1842,1560,1860,1542,18
-1997-03-29,FIFA World Cup qualification,played,Romania,ROU,Liechtenstein,,TRUE,8,0,win,Bucharest,Romania,FALSE,1860,1075,1861,1074,1
-1997-04-02,FIFA World Cup qualification,played,Romania,ROU,Lithuania,,FALSE,1,0,win,Vilnius,Lithuania,FALSE,1861,1486,1868,1479,7
-1997-04-30,FIFA World Cup qualification,played,Romania,ROU,Republic of Ireland,IRL,TRUE,1,0,win,Bucharest,Romania,FALSE,,,,,
-1997-08-20,FIFA World Cup qualification,played,Romania,ROU,North Macedonia,,TRUE,4,2,win,Bucharest,Romania,FALSE,1875,1573,1880,1568,5
-1997-09-06,FIFA World Cup qualification,played,Romania,ROU,Liechtenstein,,FALSE,8,1,win,Eschen,Liechtenstein,FALSE,1880,1055,1881,1054,1
-1997-09-10,FIFA World Cup qualification,played,Romania,ROU,Iceland,ISL,TRUE,4,0,win,Bucharest,Romania,FALSE,1881,1486,1885,1482,4
-1997-10-11,FIFA World Cup qualification,played,Romania,ROU,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
-1997-11-19,Friendly,played,Romania,ROU,Spain,ESP,FALSE,1,1,draw,Palma de Mallorca,Spain,FALSE,1882,2046,1888,2040,6
-1998-03-18,Friendly,played,Romania,ROU,Israel,ISR,TRUE,0,1,loss,Bucharest,Romania,FALSE,1888,1643,1870,1661,-18
-1998-04-08,Friendly,played,Romania,ROU,Greece,GRC,TRUE,2,1,win,Bucharest,Romania,FALSE,1870,1733,1874,1729,4
-1998-04-22,Friendly,played,Romania,ROU,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1874,1807,1875,1806,1
-1998-06-03,Friendly,played,Romania,ROU,Paraguay,PRY,TRUE,3,2,win,Bucharest,Romania,FALSE,1875,1752,1879,1748,4
-1998-06-06,Friendly,played,Romania,ROU,Moldova,,TRUE,5,1,win,Ploiești,Romania,FALSE,1879,1388,1880,1387,1
-1998-06-15,FIFA World Cup,played,Romania,ROU,Colombia,COL,TRUE,1,0,win,Lyon,France,TRUE,1880,1778,1901,1757,21
-1998-06-22,FIFA World Cup,played,Romania,ROU,England,ENG,TRUE,2,1,win,Toulouse,France,TRUE,1901,1985,1938,1948,37
-1998-06-26,FIFA World Cup,played,Romania,ROU,Tunisia,TUN,TRUE,1,1,draw,Saint-Denis,France,TRUE,1938,1602,1916,1624,-22
-1998-06-30,FIFA World Cup,played,Romania,ROU,Croatia,HRV,TRUE,0,1,loss,Bordeaux,France,TRUE,1916,1882,1883,1915,-33
-1998-08-19,Friendly,played,Romania,ROU,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1883,1902,1886,1899,3
-1998-09-02,UEFA Euro qualification,played,Romania,ROU,Liechtenstein,,TRUE,7,0,win,Bucharest,Romania,FALSE,1886,1050,1886,1050,0
-1998-09-05,Friendly,played,Romania,ROU,Germany,DEU,FALSE,1,1,draw,Attard,Malta,TRUE,1886,2010,1889,2007,3
-1998-10-10,UEFA Euro qualification,played,Romania,ROU,Portugal,PRT,FALSE,1,0,win,Porto,Portugal,FALSE,1889,1896,1915,1870,26
-1998-10-14,UEFA Euro qualification,played,Romania,ROU,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,1915,1650,1906,1659,-9
-1999-03-03,Friendly,played,Romania,ROU,Estonia,,TRUE,2,0,win,Bucharest,Romania,FALSE,1906,1225,1906,1225,0
-1999-03-10,Friendly,played,Romania,ROU,Israel,ISR,TRUE,0,2,loss,Bucharest,Romania,FALSE,1906,1686,1880,1712,-26
-1999-03-27,UEFA Euro qualification,played,Romania,ROU,Slovakia,SVK,TRUE,0,0,draw,Bucharest,Romania,FALSE,1880,1675,1866,1689,-14
-1999-03-31,UEFA Euro qualification,played,Romania,ROU,Azerbaijan,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1866,1326,1869,1323,3
-1999-04-28,Friendly,played,Romania,ROU,Belgium,BEL,TRUE,1,0,win,Bucharest,Romania,FALSE,1869,1762,1874,1757,5
-1999-06-05,UEFA Euro qualification,played,Romania,ROU,Hungary,HUN,TRUE,2,0,win,Bucharest,Romania,FALSE,1874,1679,1883,1670,9
-1999-06-09,UEFA Euro qualification,played,Romania,ROU,Azerbaijan,,TRUE,4,0,win,Bucharest,Romania,FALSE,1883,1332,1885,1330,2
-1999-08-18,Friendly,played,Romania,ROU,Cyprus,,FALSE,2,2,draw,Limassol,Cyprus,FALSE,1885,1488,1878,1495,-7
-1999-09-04,UEFA Euro qualification,played,Romania,ROU,Slovakia,SVK,FALSE,5,1,win,Bratislava,Slovakia,FALSE,1878,1720,1909,1689,31
-1999-09-08,UEFA Euro qualification,played,Romania,ROU,Portugal,PRT,TRUE,1,1,draw,Bucharest,Romania,FALSE,1909,1899,1903,1905,-6
-1999-10-09,UEFA Euro qualification,played,Romania,ROU,Liechtenstein,,FALSE,3,0,win,Vaduz,Liechtenstein,FALSE,1903,1090,1904,1089,1
-2000-02-02,Cyprus International Tournament,played,Romania,ROU,Latvia,,TRUE,2,0,win,Paphos,Cyprus,TRUE,1904,1469,1907,1466,3
-2000-02-04,Cyprus International Tournament,played,Romania,ROU,Georgia,,TRUE,1,1,draw,Larnaca,Cyprus,TRUE,1907,1506,1895,1518,-12
-2000-02-06,Cyprus International Tournament,played,Romania,ROU,Cyprus,,FALSE,2,3,loss,Nicosia,Cyprus,FALSE,1895,1525,1870,1550,-25
-2000-03-29,Friendly,played,Romania,ROU,Greece,GRC,FALSE,0,2,loss,Athens,Greece,FALSE,1870,1753,1854,1769,-16
-2000-04-26,Friendly,played,Romania,ROU,Cyprus,,TRUE,2,0,win,Constanţa,Romania,FALSE,1854,1553,1857,1550,3
-2000-05-27,Friendly,played,Romania,ROU,Netherlands,NLD,FALSE,1,2,loss,Amsterdam,Netherlands,FALSE,1857,1951,1852,1956,-5
-2000-06-03,Friendly,played,Romania,ROU,Greece,GRC,TRUE,2,1,win,Bucharest,Romania,FALSE,1852,1782,1857,1777,5
-2000-06-12,UEFA Euro,played,Romania,ROU,Germany,DEU,FALSE,1,1,draw,Liège,Belgium,TRUE,1857,1888,1859,1886,2
-2000-06-17,UEFA Euro,played,Romania,ROU,Portugal,PRT,TRUE,0,1,loss,Arnhem,Netherlands,TRUE,1859,1934,1839,1954,-20
-2000-06-20,UEFA Euro,played,Romania,ROU,England,ENG,FALSE,3,2,win,Charleroi,Belgium,TRUE,1839,1914,1869,1884,30
-2000-06-24,UEFA Euro,played,Romania,ROU,Italy,ITA,FALSE,0,2,loss,Brussels,Belgium,TRUE,1869,1997,1845,2021,-24
-2000-08-16,Friendly,played,Romania,ROU,Poland,POL,TRUE,1,1,draw,Bucharest,Romania,FALSE,1845,1725,1839,1731,-6
-2000-09-03,FIFA World Cup qualification,played,Romania,ROU,Lithuania,,TRUE,1,0,win,Bucharest,Romania,FALSE,1839,1458,1841,1456,2
-2000-10-07,FIFA World Cup qualification,played,Romania,ROU,Italy,ITA,FALSE,0,3,loss,Milan,Italy,FALSE,1841,1996,1828,2009,-13
-2000-11-15,Friendly,played,Romania,ROU,Serbia,SRB,TRUE,2,1,win,Bucharest,Romania,FALSE,,,,,
-2000-12-05,Friendly,played,Romania,ROU,Algeria,DZA,FALSE,2,3,loss,Annaba,Algeria,FALSE,1837,1496,1821,1512,-16
-2000-12-08,Friendly,played,Romania,ROU,Algeria,DZA,FALSE,3,2,win,Annaba,Algeria,FALSE,1821,1512,1826,1507,5
-2001-01-11,Millennium Cup,played,Romania,ROU,Jordan,,TRUE,0,1,loss,Margao,India,TRUE,,,,,
-2001-01-14,Millennium Cup,played,Romania,ROU,Hong Kong,,TRUE,4,2,win,Margao,India,TRUE,,,,,
-2001-01-20,Millennium Cup,played,Romania,ROU,Serbia,SRB,FALSE,0,2,loss,Margao,India,TRUE,,,,,
-2001-02-26,Cyprus International Tournament,played,Romania,ROU,Ukraine,UKR,TRUE,1,0,win,Nicosia,Cyprus,TRUE,1826,1728,1837,1717,11
-2001-02-28,Cyprus International Tournament,played,Romania,ROU,Lithuania,,FALSE,3,0,win,Nicosia,Cyprus,TRUE,1837,1412,1841,1408,4
-2001-03-24,FIFA World Cup qualification,played,Romania,ROU,Italy,ITA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1841,2002,1816,2027,-25
-2001-03-28,FIFA World Cup qualification,played,Romania,ROU,Georgia,,FALSE,2,0,win,Tbilisi,Georgia,FALSE,1816,1554,1833,1537,17
-2001-04-25,Friendly,played,Romania,ROU,Slovakia,SVK,TRUE,0,0,draw,Ploiești,Romania,FALSE,1833,1759,1828,1764,-5
-2001-06-02,FIFA World Cup qualification,played,Romania,ROU,Hungary,HUN,TRUE,2,0,win,Bucharest,Romania,FALSE,1828,1648,1838,1638,10
-2001-06-06,FIFA World Cup qualification,played,Romania,ROU,Lithuania,,FALSE,2,1,win,Kaunas,Lithuania,FALSE,1838,1423,1844,1417,6
-2001-08-15,Friendly,played,Romania,ROU,Slovenia,SVN,FALSE,2,2,draw,Ljubljana,Slovenia,FALSE,1844,1692,1843,1693,-1
-2001-09-05,FIFA World Cup qualification,played,Romania,ROU,Hungary,HUN,FALSE,2,0,win,Budapest,Hungary,FALSE,1843,1614,1862,1595,19
-2001-10-06,FIFA World Cup qualification,played,Romania,ROU,Georgia,,TRUE,1,1,draw,Bucharest,Romania,FALSE,1862,1577,1846,1593,-16
-2001-11-10,FIFA World Cup qualification,played,Romania,ROU,Slovenia,SVN,FALSE,1,2,loss,Ljubljana,Slovenia,FALSE,1846,1730,1825,1751,-21
-2001-11-14,FIFA World Cup qualification,played,Romania,ROU,Slovenia,SVN,TRUE,1,1,draw,Bucharest,Romania,FALSE,1825,1751,1816,1760,-9
-2002-02-13,Friendly,played,Romania,ROU,France,FRA,FALSE,1,2,loss,Saint-Denis,France,FALSE,1816,2111,1814,2113,-2
-2002-03-27,Friendly,played,Romania,ROU,Ukraine,UKR,TRUE,4,1,win,Constanţa,Romania,FALSE,1814,1699,1822,1691,8
-2002-04-17,Friendly,played,Romania,ROU,Poland,POL,FALSE,2,1,win,Bydgoszcz,Poland,FALSE,1822,1745,1833,1734,11
-2002-08-21,Friendly,played,Romania,ROU,Greece,GRC,TRUE,0,1,loss,Constanţa,Romania,FALSE,1833,1680,1817,1696,-16
-2002-09-07,UEFA Euro qualification,played,Romania,ROU,Bosnia and Herzegovina,BIH,FALSE,3,0,win,Sarajevo,Bosnia and Herzegovina,FALSE,1817,1516,1834,1499,17
-2002-10-12,UEFA Euro qualification,played,Romania,ROU,Norway,NOR,TRUE,0,1,loss,Bucharest,Romania,FALSE,1834,1756,1805,1785,-29
-2002-10-16,UEFA Euro qualification,played,Romania,ROU,Luxembourg,,FALSE,7,0,win,Luxembourg,Luxembourg,FALSE,1805,1102,1808,1099,3
-2002-11-20,Friendly,played,Romania,ROU,Croatia,HRV,TRUE,0,1,loss,Timişoara,Romania,FALSE,1808,1790,1795,1803,-13
-2003-02-12,Cyprus International Tournament,played,Romania,ROU,Slovakia,SVK,TRUE,2,1,win,Larnaca,Cyprus,TRUE,1795,1672,1805,1662,10
-2003-03-29,UEFA Euro qualification,played,Romania,ROU,Denmark,DNK,TRUE,2,5,loss,Bucharest,Romania,FALSE,1783,1906,1750,1939,-33
-2003-04-30,Friendly,played,Romania,ROU,Lithuania,,FALSE,1,0,win,Kaunas,Lithuania,FALSE,1750,1425,1754,1421,4
-2003-06-07,UEFA Euro qualification,played,Romania,ROU,Bosnia and Herzegovina,BIH,TRUE,2,0,win,Craiova,Romania,FALSE,1754,1568,1764,1558,10
-2003-06-11,UEFA Euro qualification,played,Romania,ROU,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1764,1781,1770,1775,6
-2003-08-20,Friendly,played,Romania,ROU,Ukraine,UKR,FALSE,2,0,win,Donetsk,Ukraine,FALSE,1770,1702,1786,1686,16
-2003-09-06,UEFA Euro qualification,played,Romania,ROU,Luxembourg,,TRUE,4,0,win,Ploiești,Romania,FALSE,1786,1097,1787,1096,1
-2003-09-10,UEFA Euro qualification,played,Romania,ROU,Denmark,DNK,FALSE,2,2,draw,Copenhagen,Denmark,FALSE,1787,1890,1798,1879,11
-2003-10-11,Friendly,played,Romania,ROU,Japan,JPN,TRUE,1,1,draw,Bucharest,Romania,FALSE,1798,1776,1795,1779,-3
-2003-11-16,Friendly,played,Romania,ROU,Italy,ITA,FALSE,0,1,loss,Ancona,Italy,FALSE,1795,1920,1791,1924,-4
-2004-02-18,Cyprus International Tournament,played,Romania,ROU,Georgia,,TRUE,3,0,win,Larnaca,Cyprus,TRUE,1791,1567,1802,1556,11
-2004-03-31,Friendly,played,Romania,ROU,Scotland,SCO,FALSE,2,1,win,Glasgow,Scotland,FALSE,1820,1662,1828,1654,8
-2004-04-28,Friendly,played,Romania,ROU,Germany,DEU,TRUE,5,1,win,Bucharest,Romania,FALSE,1828,1899,1845,1882,17
-2004-05-27,Friendly,played,Romania,ROU,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
-2004-08-18,FIFA World Cup qualification,played,Romania,ROU,Finland,,TRUE,2,1,win,Bucharest,Romania,FALSE,1838,1668,1845,1661,7
-2004-09-04,FIFA World Cup qualification,played,Romania,ROU,North Macedonia,,TRUE,2,1,win,Craiova,Romania,FALSE,1845,1532,1848,1529,3
-2004-09-08,FIFA World Cup qualification,played,Romania,ROU,Andorra,,FALSE,5,1,win,Sant Julià de Lòria,Andorra,FALSE,1848,1059,1849,1058,1
-2004-10-09,FIFA World Cup qualification,played,Romania,ROU,Czechia,CZE,FALSE,0,1,loss,Prague,Czech Republic,FALSE,1849,1963,1840,1972,-9
-2004-11-17,FIFA World Cup qualification,played,Romania,ROU,Armenia,,FALSE,1,1,draw,Yerevan,Armenia,FALSE,1840,1411,1825,1426,-15
-2005-02-09,Friendly,played,Romania,ROU,Slovakia,SVK,TRUE,2,2,draw,Larnaca,Cyprus,TRUE,1825,1667,1821,1671,-4
-2005-03-26,FIFA World Cup qualification,played,Romania,ROU,Netherlands,NLD,TRUE,0,2,loss,Bucharest,Romania,FALSE,1821,1943,1793,1971,-28
-2005-03-30,FIFA World Cup qualification,played,Romania,ROU,North Macedonia,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1793,1483,1802,1474,9
-2005-06-04,FIFA World Cup qualification,played,Romania,ROU,Netherlands,NLD,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1802,1972,1792,1982,-10
-2005-06-08,FIFA World Cup qualification,played,Romania,ROU,Armenia,,TRUE,3,0,win,Constanţa,Romania,FALSE,1792,1395,1796,1391,4
-2005-08-17,FIFA World Cup qualification,played,Romania,ROU,Andorra,,TRUE,2,0,win,Constanţa,Romania,FALSE,1796,1106,1797,1105,1
-2005-09-03,FIFA World Cup qualification,played,Romania,ROU,Czechia,CZE,TRUE,2,0,win,Constanţa,Romania,FALSE,1797,1988,1835,1950,38
-2005-10-08,FIFA World Cup qualification,played,Romania,ROU,Finland,,FALSE,1,0,win,Helsinki,Finland,FALSE,1835,1709,1854,1690,19
-2005-11-12,Friendly,played,Romania,ROU,Ivory Coast,CIV,TRUE,1,2,loss,Le Mans,France,TRUE,1854,1680,1839,1695,-15
-2005-11-16,Friendly,played,Romania,ROU,Nigeria,NGA,TRUE,3,0,win,Bucharest,Romania,FALSE,1839,1760,1848,1751,9
-2006-02-28,Cyprus International Tournament,played,Romania,ROU,Armenia,,TRUE,2,0,win,Nicosia,Cyprus,TRUE,1848,1412,1851,1409,3
-2006-03-01,Cyprus International Tournament,played,Romania,ROU,Slovenia,SVN,FALSE,2,0,win,Larnaca,Cyprus,TRUE,1851,1611,1860,1602,9
-2006-05-23,Friendly,played,Romania,ROU,Uruguay,URY,TRUE,0,2,loss,Los Angeles,United States,TRUE,,,,,
-2006-05-26,Friendly,played,Romania,ROU,Northern Ireland,NIR,TRUE,2,0,win,Chicago,United States,TRUE,1843,1503,1847,1499,4
-2006-05-27,Friendly,played,Romania,ROU,Colombia,COL,TRUE,0,0,draw,Chicago,United States,TRUE,1847,1761,1845,1763,-2
-2006-08-16,Friendly,played,Romania,ROU,Cyprus,,TRUE,2,0,win,Constanţa,Romania,FALSE,1845,1463,1847,1461,2
-2006-09-02,UEFA Euro qualification,played,Romania,ROU,Bulgaria,BGR,TRUE,2,2,draw,Constanţa,Romania,FALSE,1847,1711,1835,1723,-12
-2006-09-06,UEFA Euro qualification,played,Romania,ROU,Albania,,FALSE,2,0,win,Tirana,Albania,FALSE,1835,1524,1849,1510,14
-2006-10-07,UEFA Euro qualification,played,Romania,ROU,Belarus,,TRUE,3,1,win,Bucharest,Romania,FALSE,1849,1556,1855,1550,6
-2006-11-15,Friendly,played,Romania,ROU,Spain,ESP,FALSE,1,0,win,Cádiz,Spain,FALSE,1855,1897,1869,1883,14
-2007-02-07,Friendly,played,Romania,ROU,Moldova,,TRUE,2,0,win,Bucharest,Romania,FALSE,1869,1420,1870,1419,1
-2007-03-24,UEFA Euro qualification,played,Romania,ROU,Netherlands,NLD,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,1870,1994,1881,1983,11
-2007-03-28,UEFA Euro qualification,played,Romania,ROU,Luxembourg,,TRUE,3,0,win,Piatra Neamţ,Romania,FALSE,1881,1006,1881,1006,0
-2007-06-02,UEFA Euro qualification,played,Romania,ROU,Slovenia,SVN,FALSE,2,1,win,Celje,Slovenia,FALSE,1881,1562,1890,1553,9
-2007-06-06,UEFA Euro qualification,played,Romania,ROU,Slovenia,SVN,TRUE,2,0,win,Timişoara,Romania,FALSE,1890,1553,1894,1549,4
-2007-08-22,Friendly,played,Romania,ROU,Turkey,TUR,TRUE,2,0,win,Bucharest,Romania,FALSE,1894,1841,1903,1832,9
-2007-09-08,UEFA Euro qualification,played,Romania,ROU,Belarus,,FALSE,3,1,win,Minsk,Belarus,FALSE,1903,1557,1915,1545,12
-2007-09-12,Friendly,played,Romania,ROU,Germany,DEU,FALSE,1,3,loss,Cologne,Germany,FALSE,1915,2013,1908,2020,-7
-2007-10-13,UEFA Euro qualification,played,Romania,ROU,Netherlands,NLD,TRUE,1,0,win,Constanţa,Romania,FALSE,1908,1997,1927,1978,19
-2007-10-17,UEFA Euro qualification,played,Romania,ROU,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1927,1039,1928,1038,1
-2007-11-17,UEFA Euro qualification,played,Romania,ROU,Bulgaria,BGR,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1928,1743,1903,1768,-25
-2007-11-21,UEFA Euro qualification,played,Romania,ROU,Albania,,TRUE,6,1,win,Bucharest,Romania,FALSE,1903,1492,1907,1488,4
-2008-02-06,Friendly,played,Romania,ROU,Israel,ISR,FALSE,0,1,loss,Ramat Gan,Israel,FALSE,1907,1744,1895,1756,-12
-2008-03-26,Friendly,played,Romania,ROU,Russia,RUS,TRUE,3,0,win,Bucharest,Romania,FALSE,1895,1790,1903,1782,8
-2008-05-31,Friendly,played,Romania,ROU,Montenegro,,TRUE,4,0,win,Bucharest,Romania,FALSE,1903,1671,1908,1666,5
-2008-06-09,UEFA Euro,played,Romania,ROU,France,FRA,TRUE,0,0,draw,Zürich,Switzerland,TRUE,1908,2006,1915,1999,7
-2008-06-13,UEFA Euro,played,Romania,ROU,Italy,ITA,FALSE,1,1,draw,Zürich,Switzerland,TRUE,1915,1981,1920,1976,5
-2008-06-17,UEFA Euro,played,Romania,ROU,Netherlands,NLD,FALSE,0,2,loss,Bern,Switzerland,TRUE,1920,2063,1897,2086,-23
-2008-08-20,Friendly,played,Romania,ROU,Latvia,,TRUE,1,0,win,Urziceni,Romania,FALSE,1897,1519,1898,1518,1
-2008-09-06,FIFA World Cup qualification,played,Romania,ROU,Lithuania,,TRUE,0,3,loss,Cluj,Romania,FALSE,1898,1577,1834,1641,-64
-2008-09-10,FIFA World Cup qualification,played,Romania,ROU,Faroe Islands,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1834,1155,1835,1154,1
-2008-10-11,FIFA World Cup qualification,played,Romania,ROU,France,FRA,TRUE,2,2,draw,Constanţa,Romania,FALSE,1835,1891,1832,1894,-3
-2008-11-19,Friendly,played,Romania,ROU,Georgia,,TRUE,2,1,win,Bucharest,Romania,FALSE,1832,1517,1834,1515,2
-2009-02-11,Friendly,played,Romania,ROU,Croatia,HRV,TRUE,1,2,loss,Bucharest,Romania,FALSE,1834,1882,1823,1893,-11
-2009-03-28,FIFA World Cup qualification,played,Romania,ROU,Serbia,SRB,TRUE,2,3,loss,Constanţa,Romania,FALSE,1823,1772,1795,1800,-28
-2009-04-01,FIFA World Cup qualification,played,Romania,ROU,Austria,AUT,FALSE,1,2,loss,Klagenfurt,Austria,FALSE,1795,1555,1767,1583,-28
-2009-06-06,FIFA World Cup qualification,played,Romania,ROU,Lithuania,,FALSE,1,0,win,Marijampolė,Lithuania,FALSE,1767,1618,1784,1601,17
-2009-08-12,Friendly,played,Romania,ROU,Hungary,HUN,FALSE,1,0,win,Budapest,Hungary,FALSE,1784,1640,1793,1631,9
-2009-09-05,FIFA World Cup qualification,played,Romania,ROU,France,FRA,FALSE,1,1,draw,Saint-Denis,France,FALSE,1793,1883,1803,1873,10
-2009-09-09,FIFA World Cup qualification,played,Romania,ROU,Austria,AUT,TRUE,1,1,draw,Bucharest,Romania,FALSE,1803,1568,1788,1583,-15
-2009-10-10,FIFA World Cup qualification,played,Romania,ROU,Serbia,SRB,FALSE,0,5,loss,Belgrade,Serbia,FALSE,1788,1823,1763,1848,-25
-2009-10-14,FIFA World Cup qualification,played,Romania,ROU,Faroe Islands,,TRUE,3,1,win,Piatra Neamţ,Romania,FALSE,1763,1213,1764,1212,1
-2009-11-14,Friendly,played,Romania,ROU,Poland,POL,FALSE,1,0,win,Warsaw,Poland,FALSE,1764,1634,1773,1625,9
-2010-03-03,Friendly,played,Romania,ROU,Israel,ISR,TRUE,0,2,loss,Timişoara,Romania,FALSE,1773,1718,1752,1739,-21
-2010-05-29,Friendly,played,Romania,ROU,Ukraine,UKR,FALSE,2,3,loss,Lviv,Ukraine,FALSE,1752,1789,1746,1795,-6
-2010-06-02,Friendly,played,Romania,ROU,North Macedonia,,TRUE,0,1,loss,Villach,Austria,TRUE,1746,1594,1732,1608,-14
-2010-06-05,Friendly,played,Romania,ROU,Honduras,HND,TRUE,3,0,win,Sankt Veit an der Glan,Austria,TRUE,1732,1731,1749,1714,17
-2010-08-11,Friendly,played,Romania,ROU,Turkey,TUR,FALSE,0,2,loss,Istanbul,Turkey,FALSE,1749,1799,1740,1808,-9
-2010-09-03,UEFA Euro qualification,played,Romania,ROU,Albania,,TRUE,1,1,draw,Piatra Neamţ,Romania,FALSE,1740,1530,1726,1544,-14
-2010-09-07,UEFA Euro qualification,played,Romania,ROU,Belarus,,FALSE,0,0,draw,Minsk,Belarus,FALSE,1726,1650,1727,1649,1
-2010-10-09,UEFA Euro qualification,played,Romania,ROU,France,FRA,FALSE,0,2,loss,Saint-Denis,France,FALSE,1727,1766,1708,1785,-19
-2010-11-17,Friendly,played,Romania,ROU,Italy,ITA,FALSE,1,1,draw,Klagenfurt,Austria,TRUE,1708,1835,1712,1831,4
-2011-02-08,Cyprus International Tournament,played,Romania,ROU,Ukraine,UKR,TRUE,2,2,draw,Paralímni,Cyprus,TRUE,1712,1808,1716,1804,4
-2011-02-09,Cyprus International Tournament,played,Romania,ROU,Cyprus,,FALSE,1,1,draw,Paralímni,Cyprus,FALSE,1716,1538,1713,1541,-3
-2011-03-26,UEFA Euro qualification,played,Romania,ROU,Bosnia and Herzegovina,BIH,FALSE,1,2,loss,Zenica,Bosnia and Herzegovina,FALSE,1713,1621,1693,1641,-20
-2011-03-29,UEFA Euro qualification,played,Romania,ROU,Luxembourg,,TRUE,3,1,win,Piatra Neamţ,Romania,FALSE,1693,1130,1694,1129,1
-2011-06-03,UEFA Euro qualification,played,Romania,ROU,Bosnia and Herzegovina,BIH,TRUE,3,0,win,Bucharest,Romania,FALSE,1694,1641,1715,1620,21
-2011-06-07,Friendly,played,Romania,ROU,Brazil,BRA,FALSE,0,1,loss,São Paulo,Brazil,FALSE,1715,2081,1714,2082,-1
-2011-06-11,Friendly,played,Romania,ROU,Paraguay,PRY,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1714,1781,1706,1789,-8
-2011-08-10,Friendly,played,Romania,ROU,San Marino,,FALSE,1,0,win,Serravalle,San Marino,FALSE,1706,898,1706,898,0
-2011-09-02,UEFA Euro qualification,played,Romania,ROU,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1706,1125,1710,1121,4
-2011-09-06,UEFA Euro qualification,played,Romania,ROU,France,FRA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1710,1851,1712,1849,2
-2011-10-07,UEFA Euro qualification,played,Romania,ROU,Belarus,,TRUE,2,2,draw,Bucharest,Romania,FALSE,1712,1591,1701,1602,-11
-2011-10-11,UEFA Euro qualification,played,Romania,ROU,Albania,,FALSE,1,1,draw,Tirana,Albania,FALSE,1701,1488,1695,1494,-6
-2011-11-11,Friendly,played,Romania,ROU,Belgium,BEL,FALSE,1,2,loss,Liège,Belgium,FALSE,1695,1670,1687,1678,-8
-2011-11-15,Friendly,played,Romania,ROU,Greece,GRC,FALSE,3,1,win,Altach,Austria,TRUE,1687,1803,1707,1783,20
-2012-01-27,Friendly,played,Romania,ROU,Turkmenistan,,TRUE,4,0,win,Belek,Turkey,TRUE,1707,1348,1711,1344,4
-2012-02-29,Friendly,played,Romania,ROU,Uruguay,URY,TRUE,1,1,draw,Bucharest,Romania,FALSE,1711,1992,1716,1987,5
-2012-05-30,Friendly,played,Romania,ROU,Switzerland,CHE,FALSE,1,0,win,Lucerne,Switzerland,FALSE,1716,1776,1730,1762,14
-2012-06-05,Friendly,played,Romania,ROU,Austria,AUT,FALSE,0,0,draw,Innsbruck,Austria,FALSE,1730,1603,1729,1604,-1
-2012-08-15,Friendly,played,Romania,ROU,Slovenia,SVN,FALSE,3,4,loss,Celje,Slovenia,FALSE,1729,1655,1720,1664,-9
-2012-09-07,FIFA World Cup qualification,played,Romania,ROU,Estonia,,FALSE,2,0,win,Tallinn,Estonia,FALSE,1720,1533,1743,1510,23
-2012-09-11,FIFA World Cup qualification,played,Romania,ROU,Andorra,,TRUE,4,0,win,Bucharest,Romania,FALSE,1743,1000,1744,999,1
-2012-10-12,FIFA World Cup qualification,played,Romania,ROU,Turkey,TUR,FALSE,1,0,win,Istanbul,Turkey,FALSE,1744,1753,1770,1727,26
-2012-10-16,FIFA World Cup qualification,played,Romania,ROU,Netherlands,NLD,TRUE,1,4,loss,Bucharest,Romania,FALSE,1770,1972,1745,1997,-25
-2012-11-14,Friendly,played,Romania,ROU,Belgium,BEL,TRUE,2,1,win,Bucharest,Romania,FALSE,1745,1795,1754,1786,9
-2013-02-06,Friendly,played,Romania,ROU,Australia,AUS,TRUE,3,2,win,Málaga,Spain,TRUE,1754,1773,1765,1762,11
-2013-03-22,FIFA World Cup qualification,played,Romania,ROU,Hungary,HUN,FALSE,2,2,draw,Budapest,Hungary,FALSE,1765,1688,1766,1687,1
-2013-03-26,FIFA World Cup qualification,played,Romania,ROU,Netherlands,NLD,FALSE,0,4,loss,Amsterdam,Netherlands,FALSE,1766,1993,1756,2003,-10
-2013-06-04,Friendly,played,Romania,ROU,Trinidad and Tobago,TTO,TRUE,4,0,win,Bucharest,Romania,FALSE,1756,1420,1759,1417,3
-2013-08-14,Friendly,played,Romania,ROU,Slovakia,SVK,TRUE,1,1,draw,Bucharest,Romania,FALSE,1759,1577,1752,1584,-7
-2013-09-06,FIFA World Cup qualification,played,Romania,ROU,Hungary,HUN,TRUE,3,0,win,Bucharest,Romania,FALSE,1752,1696,1772,1676,20
-2013-09-10,FIFA World Cup qualification,played,Romania,ROU,Turkey,TUR,TRUE,0,2,loss,Bucharest,Romania,FALSE,1772,1655,1725,1702,-47
-2013-10-11,FIFA World Cup qualification,played,Romania,ROU,Andorra,,FALSE,4,0,win,Sant Julià de Lòria,Andorra,FALSE,1725,996,1727,994,2
-2013-10-15,FIFA World Cup qualification,played,Romania,ROU,Estonia,,TRUE,2,0,win,Bucharest,Romania,FALSE,1727,1456,1733,1450,6
-2013-11-15,FIFA World Cup qualification,played,Romania,ROU,Greece,GRC,FALSE,1,3,loss,Piraeus,Greece,FALSE,1733,1826,1718,1841,-15
-2013-11-19,FIFA World Cup qualification,played,Romania,ROU,Greece,GRC,TRUE,1,1,draw,Bucharest,Romania,FALSE,1718,1841,1719,1840,1
-2014-03-05,Friendly,played,Romania,ROU,Argentina,ARG,TRUE,0,0,draw,Bucharest,Romania,FALSE,1719,2020,1724,2015,5
-2014-05-31,Friendly,played,Romania,ROU,Albania,,FALSE,1,0,win,Yverdon-les-Bains,Switzerland,TRUE,1724,1519,1729,1514,5
-2014-06-04,Friendly,played,Romania,ROU,Algeria,DZA,TRUE,1,2,loss,Lancy,Switzerland,TRUE,1729,1612,1716,1625,-13
-2014-09-07,UEFA Euro qualification,played,Romania,ROU,Greece,GRC,FALSE,1,0,win,Piraeus,Greece,FALSE,1716,1813,1746,1783,30
-2014-10-11,UEFA Euro qualification,played,Romania,ROU,Hungary,HUN,TRUE,1,1,draw,Bucharest,Romania,FALSE,1746,1638,1735,1649,-11
-2014-10-14,UEFA Euro qualification,played,Romania,ROU,Finland,,FALSE,2,0,win,Helsinki,Finland,FALSE,1735,1677,1769,1643,34
-2014-11-14,UEFA Euro qualification,played,Romania,ROU,Northern Ireland,NIR,TRUE,2,0,win,Bucharest,Romania,FALSE,1769,1509,1776,1502,7
-2014-11-18,Friendly,played,Romania,ROU,Denmark,DNK,TRUE,2,0,win,Bucharest,Romania,FALSE,1776,1764,1786,1754,10
-2015-03-29,UEFA Euro qualification,played,Romania,ROU,Faroe Islands,,TRUE,1,0,win,Ploiești,Romania,FALSE,1786,1225,1787,1224,1
-2015-06-13,UEFA Euro qualification,played,Romania,ROU,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1787,1529,1778,1538,-9
-2015-09-04,UEFA Euro qualification,played,Romania,ROU,Hungary,HUN,FALSE,0,0,draw,Budapest,Hungary,FALSE,1778,1680,1778,1680,0
-2015-09-07,UEFA Euro qualification,played,Romania,ROU,Greece,GRC,TRUE,0,0,draw,Bucharest,Romania,FALSE,1778,1616,1765,1629,-13
-2015-10-08,UEFA Euro qualification,played,Romania,ROU,Finland,,TRUE,1,1,draw,Bucharest,Romania,FALSE,1765,1596,1752,1609,-13
-2015-10-11,UEFA Euro qualification,played,Romania,ROU,Faroe Islands,,FALSE,3,0,win,Tórshavn,Faroe Islands,FALSE,1752,1238,1758,1232,6
-2015-11-17,Friendly,played,Romania,ROU,Italy,ITA,FALSE,2,2,draw,Bologna,Italy,FALSE,1758,1876,1764,1870,6
-2016-03-23,Friendly,played,Romania,ROU,Lithuania,,TRUE,1,0,win,Giurgiu,Romania,FALSE,1764,1426,1765,1425,1
-2016-03-27,Friendly,played,Romania,ROU,Spain,ESP,TRUE,0,0,draw,Cluj,Romania,FALSE,1765,2000,1769,1996,4
-2016-05-25,Friendly,played,Romania,ROU,DR Congo,,TRUE,1,1,draw,Como,Italy,TRUE,1769,1543,1763,1549,-6
-2016-05-29,Friendly,played,Romania,ROU,Ukraine,UKR,TRUE,3,4,loss,Turin,Italy,TRUE,1763,1821,1755,1829,-8
-2016-06-03,Friendly,played,Romania,ROU,Georgia,,TRUE,5,1,win,Bucharest,Romania,FALSE,1755,1469,1759,1465,4
-2016-06-10,UEFA Euro,played,Romania,ROU,France,FRA,FALSE,1,2,loss,Saint-Denis,France,FALSE,1759,1974,1752,1981,-7
-2016-06-15,UEFA Euro,played,Romania,ROU,Switzerland,CHE,TRUE,1,1,draw,Paris,France,TRUE,1752,1785,1754,1783,2
-2016-06-19,UEFA Euro,played,Romania,ROU,Albania,,TRUE,0,1,loss,Lyon,France,TRUE,1754,1596,1718,1632,-36
-2016-09-04,FIFA World Cup qualification,played,Romania,ROU,Montenegro,,TRUE,1,1,draw,Cluj,Romania,FALSE,1718,1556,1705,1569,-13
-2016-10-08,FIFA World Cup qualification,played,Romania,ROU,Armenia,,FALSE,5,0,win,Yerevan,Armenia,FALSE,1705,1512,1735,1482,30
-2016-10-11,FIFA World Cup qualification,played,Romania,ROU,Kazakhstan,,FALSE,0,0,draw,Astana,Kazakhstan,FALSE,1735,1400,1723,1412,-12
-2016-11-11,FIFA World Cup qualification,played,Romania,ROU,Poland,POL,TRUE,0,3,loss,Bucharest,Romania,FALSE,1723,1822,1688,1857,-35
-2016-11-15,Friendly,played,Romania,ROU,Russia,RUS,FALSE,0,1,loss,Groznyy,Russia,FALSE,1688,1682,1681,1689,-7
-2017-03-26,FIFA World Cup qualification,played,Romania,ROU,Denmark,DNK,TRUE,0,0,draw,Cluj,Romania,FALSE,1681,1715,1677,1719,-4
-2017-06-10,FIFA World Cup qualification,played,Romania,ROU,Poland,POL,FALSE,1,3,loss,Warsaw,Poland,FALSE,1677,1862,1667,1872,-10
-2017-06-13,Friendly,played,Romania,ROU,Chile,CHL,TRUE,3,2,win,Cluj,Romania,FALSE,1667,1976,1682,1961,15
-2017-09-01,FIFA World Cup qualification,played,Romania,ROU,Armenia,,TRUE,1,0,win,Bucharest,Romania,FALSE,1682,1500,1689,1493,7
-2017-09-04,FIFA World Cup qualification,played,Romania,ROU,Montenegro,,FALSE,0,1,loss,Podgorica,Montenegro,FALSE,1689,1619,1671,1637,-18
-2017-10-05,FIFA World Cup qualification,played,Romania,ROU,Kazakhstan,,TRUE,3,1,win,Ploiești,Romania,FALSE,1671,1343,1676,1338,5
-2017-10-08,FIFA World Cup qualification,played,Romania,ROU,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1676,1813,1688,1801,12
-2017-11-09,Friendly,played,Romania,ROU,Turkey,TUR,TRUE,2,0,win,Cluj,Romania,FALSE,1688,1740,1701,1727,13
-2017-11-14,Friendly,played,Romania,ROU,Netherlands,NLD,TRUE,0,3,loss,Bucharest,Romania,FALSE,1701,1881,1687,1895,-14
-2018-03-24,Friendly,played,Romania,ROU,Israel,ISR,FALSE,2,1,win,Netanya,Israel,FALSE,1687,1533,1695,1525,8
-2018-03-27,Friendly,played,Romania,ROU,Sweden,SWE,TRUE,1,0,win,Craiova,Romania,FALSE,1695,1804,1705,1794,10
-2018-05-31,Friendly,played,Romania,ROU,Chile,CHL,TRUE,3,2,win,Graz,Austria,TRUE,1705,1873,1719,1859,14
-2018-06-05,Friendly,played,Romania,ROU,Finland,,TRUE,2,0,win,Ploiești,Romania,FALSE,1719,1603,1726,1596,7
-2018-09-07,UEFA Nations League,played,Romania,ROU,Montenegro,,TRUE,0,0,draw,Ploiești,Romania,FALSE,1726,1595,1714,1607,-12
-2018-09-10,UEFA Nations League,played,Romania,ROU,Serbia,SRB,FALSE,2,2,draw,Belgrade,Serbia,FALSE,1714,1786,1723,1777,9
-2018-10-11,UEFA Nations League,played,Romania,ROU,Lithuania,,FALSE,2,1,win,Vilnius,Lithuania,FALSE,1723,1376,1731,1368,8
-2018-10-14,UEFA Nations League,played,Romania,ROU,Serbia,SRB,TRUE,0,0,draw,Bucharest,Romania,FALSE,1731,1802,1729,1804,-2
-2018-11-17,UEFA Nations League,played,Romania,ROU,Lithuania,,TRUE,3,0,win,Ploiești,Romania,FALSE,1729,1345,1733,1341,4
-2018-11-20,UEFA Nations League,played,Romania,ROU,Montenegro,,FALSE,1,0,win,Podgorica,Montenegro,FALSE,1733,1607,1752,1588,19
-2019-03-23,UEFA Euro qualification,played,Romania,ROU,Sweden,SWE,FALSE,1,2,loss,Stockholm,Sweden,FALSE,1752,1830,1741,1841,-11
-2019-03-26,UEFA Euro qualification,played,Romania,ROU,Faroe Islands,,TRUE,4,1,win,Cluj-Napoca,Romania,FALSE,1741,1235,1743,1233,2
-2019-06-07,UEFA Euro qualification,played,Romania,ROU,Norway,NOR,FALSE,2,2,draw,Oslo,Norway,FALSE,1743,1679,1745,1677,2
-2019-06-10,UEFA Euro qualification,played,Romania,ROU,Malta,,FALSE,4,0,win,Attard,Malta,FALSE,1745,1194,1750,1189,5
-2019-09-05,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,TRUE,1,2,loss,Bucharest,Romania,FALSE,1750,2027,1739,2038,-11
-2019-09-08,UEFA Euro qualification,played,Romania,ROU,Malta,,TRUE,1,0,win,Ploiești,Romania,FALSE,1739,1187,1740,1186,1
-2019-10-12,UEFA Euro qualification,played,Romania,ROU,Faroe Islands,,FALSE,3,0,win,Tórshavn,Faroe Islands,FALSE,1740,1221,1746,1215,6
-2019-10-15,UEFA Euro qualification,played,Romania,ROU,Norway,NOR,TRUE,1,1,draw,Bucharest,Romania,FALSE,1746,1710,1739,1717,-7
-2019-11-15,UEFA Euro qualification,played,Romania,ROU,Sweden,SWE,TRUE,0,2,loss,Bucharest,Romania,FALSE,1739,1827,1708,1858,-31
-2019-11-18,UEFA Euro qualification,played,Romania,ROU,Spain,ESP,FALSE,0,5,loss,Madrid,Spain,FALSE,1708,2020,1701,2027,-7
-2020-09-04,UEFA Nations League,played,Romania,ROU,Northern Ireland,NIR,TRUE,1,1,draw,Bucharest,Romania,FALSE,1701,1678,1694,1685,-7
-2020-09-07,UEFA Nations League,played,Romania,ROU,Austria,AUT,FALSE,3,2,win,Klagenfurt,Austria,FALSE,1694,1766,1723,1737,29
-2020-10-08,UEFA Euro qualification,played,Romania,ROU,Iceland,ISL,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1723,1671,1706,1688,-17
-2020-10-11,UEFA Nations League,played,Romania,ROU,Norway,NOR,FALSE,0,4,loss,Oslo,Norway,FALSE,1706,1720,1680,1746,-26
-2020-10-14,UEFA Nations League,played,Romania,ROU,Austria,AUT,TRUE,0,1,loss,Ploiești,Romania,FALSE,1680,1762,1659,1783,-21
-2020-11-11,Friendly,played,Romania,ROU,Belarus,,TRUE,5,3,win,Ploiești,Romania,FALSE,1659,1503,1665,1497,6
-2020-11-15,UEFA Nations League,played,Romania,ROU,Norway,NOR,TRUE,3,0,win,Bucharest,Romania,FALSE,,,,,
-2020-11-18,UEFA Nations League,played,Romania,ROU,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1665,1587,1666,1586,1
-2021-03-25,FIFA World Cup qualification,played,Romania,ROU,North Macedonia,,TRUE,3,2,win,Bucharest,Romania,FALSE,1666,1569,1676,1559,10
-2021-03-28,FIFA World Cup qualification,played,Romania,ROU,Germany,DEU,TRUE,0,1,loss,Bucharest,Romania,FALSE,1676,1961,1666,1971,-10
-2021-03-31,FIFA World Cup qualification,played,Romania,ROU,Armenia,,FALSE,2,3,loss,Yerevan,Armenia,FALSE,1666,1558,1646,1578,-20
-2021-06-02,Friendly,played,Romania,ROU,Georgia,,TRUE,1,2,loss,Ploiești,Romania,FALSE,1646,1513,1630,1529,-16
-2021-06-06,Friendly,played,Romania,ROU,England,ENG,FALSE,0,1,loss,London,England,FALSE,1630,1980,1629,1981,-1
-2021-09-02,FIFA World Cup qualification,played,Romania,ROU,Iceland,ISL,FALSE,2,0,win,Reykjavík,Iceland,FALSE,1629,1612,1666,1575,37
-2021-09-05,FIFA World Cup qualification,played,Romania,ROU,Liechtenstein,,TRUE,2,0,win,Bucharest,Romania,FALSE,1666,1091,1667,1090,1
-2021-09-08,FIFA World Cup qualification,played,Romania,ROU,North Macedonia,,FALSE,0,0,draw,Skopje,North Macedonia,FALSE,1667,1564,1667,1564,0
-2021-10-08,FIFA World Cup qualification,played,Romania,ROU,Germany,DEU,FALSE,1,2,loss,Hamburg,Germany,FALSE,1667,1937,1663,1941,-4
-2021-10-11,FIFA World Cup qualification,played,Romania,ROU,Armenia,,TRUE,1,0,win,Bucharest,Romania,FALSE,1663,1567,1673,1557,10
-2021-11-11,FIFA World Cup qualification,played,Romania,ROU,Iceland,ISL,TRUE,0,0,draw,Bucharest,Romania,FALSE,1673,1553,1662,1564,-11
-2021-11-14,FIFA World Cup qualification,played,Romania,ROU,Liechtenstein,,FALSE,2,0,win,Vaduz,Liechtenstein,FALSE,1662,1097,1666,1093,4
-2022-03-25,Friendly,played,Romania,ROU,Greece,GRC,TRUE,0,1,loss,Bucharest,Romania,FALSE,1666,1670,1653,1683,-13
-2022-03-29,Friendly,played,Romania,ROU,Israel,ISR,FALSE,2,2,draw,Netanya,Israel,FALSE,1653,1627,1655,1625,2
-2022-06-04,UEFA Nations League,played,Romania,ROU,Montenegro,,FALSE,0,2,loss,Podgorica,Montenegro,FALSE,1655,1518,1622,1551,-33
-2022-06-07,UEFA Nations League,played,Romania,ROU,Bosnia and Herzegovina,BIH,FALSE,0,1,loss,Zenica,Bosnia and Herzegovina,FALSE,1622,1600,1606,1616,-16
-2022-06-11,UEFA Nations League,played,Romania,ROU,Finland,,TRUE,1,0,win,Bucharest,Romania,FALSE,1606,1701,1626,1681,20
-2022-06-14,UEFA Nations League,played,Romania,ROU,Montenegro,,TRUE,0,3,loss,Bucharest,Romania,FALSE,1626,1538,1574,1590,-52
-2022-09-23,UEFA Nations League,played,Romania,ROU,Finland,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1574,1663,1584,1653,10
-2022-09-26,UEFA Nations League,played,Romania,ROU,Bosnia and Herzegovina,BIH,TRUE,4,1,win,Bucharest,Romania,FALSE,1584,1647,1615,1616,31
-2022-11-17,Friendly,played,Romania,ROU,Slovenia,SVN,TRUE,1,2,loss,Cluj-Napoca,Romania,FALSE,1615,1651,1603,1663,-12
-2022-11-20,Friendly,played,Romania,ROU,Moldova,,FALSE,5,0,win,Chișinău,Moldova,FALSE,1603,1239,1610,1232,7
-2023-03-25,UEFA Euro qualification,played,Romania,ROU,Andorra,,FALSE,2,0,win,Andorra la Vella,Andorra,FALSE,1610,1109,1615,1104,5
-2023-03-28,UEFA Euro qualification,played,Romania,ROU,Belarus,,TRUE,2,1,win,Bucharest,Romania,FALSE,1615,1410,1621,1404,6
-2023-06-16,UEFA Euro qualification,played,Romania,ROU,Kosovo,,FALSE,0,0,draw,Pristina,Kosovo,FALSE,1621,1500,1620,1501,-1
-2023-06-19,UEFA Euro qualification,played,Romania,ROU,Switzerland,CHE,FALSE,2,2,draw,Lucerne,Switzerland,FALSE,1620,1891,1636,1875,16
-2023-09-09,UEFA Euro qualification,played,Romania,ROU,Israel,ISR,TRUE,1,1,draw,Bucharest,Romania,FALSE,1636,1612,1629,1619,-7
-2023-09-12,UEFA Euro qualification,played,Romania,ROU,Kosovo,,TRUE,2,0,win,Bucharest,Romania,FALSE,1629,1489,1641,1477,12
-2023-10-12,UEFA Euro qualification,played,Romania,ROU,Belarus,,FALSE,0,0,draw,Budapest,Hungary,TRUE,1641,1404,1629,1416,-12
-2023-10-15,UEFA Euro qualification,played,Romania,ROU,Andorra,,TRUE,4,0,win,Bucharest,Romania,FALSE,1629,1115,1631,1113,2
-2023-11-18,UEFA Euro qualification,played,Romania,ROU,Israel,ISR,FALSE,2,1,win,Felcsút,Hungary,TRUE,1631,1615,1650,1596,19
-2023-11-21,UEFA Euro qualification,played,Romania,ROU,Switzerland,CHE,TRUE,1,0,win,Bucharest,Romania,FALSE,1650,1815,1674,1791,24
-2024-03-22,Friendly,played,Romania,ROU,Northern Ireland,NIR,TRUE,1,1,draw,Bucharest,Romania,FALSE,1674,1491,1667,1498,-7
-2024-03-26,Friendly,played,Romania,ROU,Colombia,COL,FALSE,2,3,loss,Madrid,Spain,TRUE,1667,1995,1664,1998,-3
-2024-06-04,Friendly,played,Romania,ROU,Bulgaria,BGR,TRUE,0,0,draw,Bucharest,Romania,FALSE,1664,1473,1657,1480,-7
-2024-06-07,Friendly,played,Romania,ROU,Liechtenstein,,TRUE,0,0,draw,Bucharest,Romania,FALSE,1657,957,1647,967,-10
-2024-06-17,UEFA Euro,played,Romania,ROU,Ukraine,UKR,TRUE,3,0,win,Munich,Germany,TRUE,1647,1853,1714,1786,67
-2024-06-22,UEFA Euro,played,Romania,ROU,Belgium,BEL,FALSE,0,2,loss,Cologne,Germany,TRUE,1714,1945,1698,1961,-16
-2024-06-26,UEFA Euro,played,Romania,ROU,Slovakia,SVK,FALSE,1,1,draw,Frankfurt,Germany,TRUE,1698,1693,1698,1693,0
-2024-07-02,UEFA Euro,played,Romania,ROU,Netherlands,NLD,TRUE,0,3,loss,Munich,Germany,TRUE,1698,1959,1682,1975,-16
-2024-09-06,UEFA Nations League,played,Romania,ROU,Kosovo,,FALSE,3,0,win,Pristina,Kosovo,FALSE,1682,1505,1709,1478,27
-2024-09-09,UEFA Nations League,played,Romania,ROU,Lithuania,,TRUE,3,1,win,Bucharest,Romania,FALSE,1709,1328,1713,1324,4
-2024-10-12,UEFA Nations League,played,Romania,ROU,Cyprus,,FALSE,3,0,win,Larnaca,Cyprus,FALSE,1713,1309,1723,1299,10
-2024-10-15,UEFA Nations League,played,Romania,ROU,Lithuania,,FALSE,2,1,win,Kaunas,Lithuania,FALSE,1723,1309,1729,1303,6
-2024-11-15,UEFA Nations League,played,Romania,ROU,Kosovo,,TRUE,0,0,draw,Bucharest,Romania,FALSE,1729,1536,1715,1550,-14
-2024-11-18,UEFA Nations League,played,Romania,ROU,Cyprus,,TRUE,4,1,win,Bucharest,Romania,FALSE,1715,1305,1719,1301,4
-2025-03-21,FIFA World Cup qualification,played,Romania,ROU,Bosnia and Herzegovina,BIH,TRUE,0,1,loss,Bucharest,Romania,FALSE,1719,1485,1684,1520,-35
-2025-03-24,FIFA World Cup qualification,played,Romania,ROU,San Marino,,FALSE,5,1,win,Serravalle,San Marino,FALSE,1684,846,1685,845,1
-2025-06-07,FIFA World Cup qualification,played,Romania,ROU,Austria,AUT,FALSE,1,2,loss,Vienna,Austria,FALSE,1685,1837,1677,1845,-8
-2025-06-10,FIFA World Cup qualification,played,Romania,ROU,Cyprus,,TRUE,2,0,win,Bucharest,Romania,FALSE,1677,1303,1681,1299,4
-2025-09-05,Friendly,played,Romania,ROU,Canada,CAN,TRUE,0,3,loss,Bucharest,Romania,FALSE,1681,1768,1663,1786,-18
-2025-09-09,FIFA World Cup qualification,played,Romania,ROU,Cyprus,,FALSE,2,2,draw,Nicosia,Cyprus,FALSE,1663,1298,1650,1311,-13
-2025-10-09,Friendly,played,Romania,ROU,Moldova,,TRUE,2,1,win,Bucharest,Romania,FALSE,1650,1300,1651,1299,1
-2025-10-12,FIFA World Cup qualification,played,Romania,ROU,Austria,AUT,TRUE,1,0,win,Bucharest,Romania,FALSE,1651,1855,1677,1829,26
-2025-11-15,FIFA World Cup qualification,played,Romania,ROU,Bosnia and Herzegovina,BIH,FALSE,1,3,loss,Zenica,Bosnia and Herzegovina,FALSE,1677,1521,1642,1556,-35
-2025-11-18,FIFA World Cup qualification,played,Romania,ROU,San Marino,,TRUE,7,1,win,Ploiești,Romania,FALSE,1642,833,1642,833,0
-2026-03-26,FIFA World Cup qualification,played,Romania,ROU,Turkey,TUR,FALSE,0,1,loss,Istanbul,Turkey,FALSE,1642,1880,1637,1885,-5
-2026-03-31,Friendly,played,Romania,ROU,Slovakia,SVK,FALSE,0,2,loss,Bratislava,Slovakia,FALSE,1637,1663,1627,1673,-10
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1919-06-24,Inter-Allied Games,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,0,4,loss,Paris,France,FALSE,,,,,
+,,,1919-06-26,Inter-Allied Games,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,7,loss,Paris,France,TRUE,,,,,
+,,,1919-06-28,Inter-Allied Games,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,3,loss,Paris,France,TRUE,,,,,
+,,,1922-06-08,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,1600,1562,1618,1544,18
+,,,1922-09-03,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Cernăuţi,Romania,FALSE,1618,1605,1615,1608,-3
+,,,1923-06-10,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,2,loss,Bucharest,Romania,FALSE,1615,1558,1594,1579,-21
+,,,1923-07-01,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,6,loss,Cluj,Romania,FALSE,1594,1913,1585,1922,-9
+,,,1923-09-02,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,1,1,draw,Lwów,Poland,FALSE,1585,1610,1588,1607,3
+,,,1923-10-26,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,2,draw,Istanbul,Turkey,FALSE,1588,1500,1588,1500,0
+,,,1924-05-20,Friendly,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,4,loss,Vienna,Austria,FALSE,1588,1829,1584,1833,-4
+,,,1924-05-27,Olympic Games,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,6,loss,Colombes,France,TRUE,1584,1810,1557,1837,-27
+,,,1924-08-31,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,4,loss,Prague,Czechoslovakia,FALSE,1557,1856,1554,1859,-3
+,,,1925-05-01,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,2,loss,Bucharest,Romania,FALSE,1554,1519,1540,1533,-14
+,,,1925-05-31,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,4,2,win,Sofia,Bulgaria,FALSE,1540,1379,1552,1367,12
+,,,1926-04-25,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,6,1,win,Bucharest,Romania,FALSE,1552,1367,1558,1361,6
+,,,1926-05-07,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,1,win,Istanbul,Turkey,FALSE,1575,1490,1591,1474,16
+,,,1926-10-03,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,3,2,win,Zagreb,Yugoslavia,FALSE,1591,1535,1608,1518,17
+,,,1927-05-10,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,3,loss,Bucharest,Romania,FALSE,1608,1515,1569,1554,-39
+,,,1927-06-19,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,3,3,draw,Bucharest,Romania,FALSE,1569,1594,1567,1596,-2
+,,,1928-04-15,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,4,2,win,Arad,Romania,FALSE,1567,1466,1574,1459,7
+,,,1928-05-06,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,1574,1598,1559,1613,-15
+,,,1929-04-21,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1559,1339,1564,1334,5
+,,,1929-05-10,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,3,loss,Bucharest,Romania,FALSE,1564,1588,1546,1606,-18
+,,,1929-09-15,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,2,win,Sofia,Bulgaria,FALSE,1546,1332,1553,1325,7
+,,,1929-10-06,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1553,1629,1572,1610,19
+,,,1930-05-04,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,2,loss,Belgrade,Yugoslavia,FALSE,1572,1585,1562,1595,-10
+,,,1930-05-25,Balkan Cup,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,8,1,win,Bucharest,Romania,FALSE,1562,1393,1578,1377,16
+WC-1930,WC-1930_004,4,1930-07-14,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Peru,PER,PER,CONMEBOL,FALSE,3,1,win,Montevideo,Uruguay,TRUE,1561,1541,1603,1499,42
+WC-1930,WC-1930_014,14,1930-07-21,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,0,4,loss,Montevideo,Uruguay,FALSE,1603,1970,1596,1977,-7
+,,,1930-10-12,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,5,loss,Sofia,Bulgaria,FALSE,1596,1325,1552,1369,-44
+,,,1931-05-10,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,5,2,win,Bucharest,Romania,FALSE,1552,1321,1561,1312,9
+,,,1931-06-28,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,4,2,win,Zagreb,Yugoslavia,FALSE,1561,1680,1608,1633,47
+,,,1931-08-23,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,3,2,win,Warsaw,Poland,FALSE,1608,1641,1622,1627,14
+,,,1931-08-26,Friendly,played,Romania,ROU,ROU,UEFA,Lithuania,,,,FALSE,4,2,win,Kaunas,Lithuania,FALSE,1622,1100,1624,1098,2
+,,,1931-11-29,Balkan Cup,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,4,2,win,Athens,Greece,FALSE,1624,1380,1642,1362,18
+,,,1932-06-12,Friendly,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,TRUE,6,3,win,Bucharest,Romania,FALSE,1642,1583,1652,1573,10
+,,,1932-06-26,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,2,loss,Belgrade,Yugoslavia,TRUE,1652,1395,1603,1444,-49
+,,,1932-06-28,Balkan Cup,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,0,win,Belgrade,Yugoslavia,TRUE,1603,1336,1615,1324,12
+,,,1932-07-03,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,1615,1527,1586,1556,-29
+,,,1932-10-02,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,0,5,loss,Bucharest,Romania,FALSE,1586,1664,1565,1685,-21
+,,,1933-06-04,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,7,0,win,Bucharest,Romania,FALSE,1565,1500,1590,1475,25
+,,,1933-06-11,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,5,0,win,Bucharest,Romania,FALSE,1594,1591,1622,1563,28
+,,,1933-10-29,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,2,draw,Bern,Switzerland,FALSE,1622,1630,1628,1624,6
+,,,1934-04-29,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1628,1563,1639,1552,11
+WC-1934,WC-1934_005,5,1934-05-27,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,2,loss,Trieste,Italy,TRUE,1639,1847,1625,1861,-14
+,,,1934-10-14,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,3,3,draw,Lwów,Poland,FALSE,1625,1622,1628,1619,3
+,,,1934-12-27,Balkan Cup,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,2,draw,Athens,Greece,FALSE,1628,1316,1617,1327,-11
+,,,1934-12-30,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,2,win,Athens,Greece,TRUE,1617,1426,1627,1416,10
+,,,1935-01-01,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,4,loss,Athens,Greece,TRUE,1627,1571,1584,1614,-43
+,,,1935-06-17,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,2,loss,Sofia,Bulgaria,TRUE,1584,1614,1557,1641,-27
+,,,1935-06-19,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,4,loss,Sofia,Bulgaria,FALSE,1557,1452,1519,1490,-38
+,,,1935-06-24,Balkan Cup,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,2,draw,Sofia,Bulgaria,TRUE,1519,1282,1507,1294,-12
+,,,1935-08-25,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,2,4,loss,Erfurt,Germany,FALSE,1507,1888,1505,1890,-2
+,,,1935-09-01,Friendly,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,7,loss,Stockholm,Sweden,FALSE,1505,1780,1501,1784,-4
+,,,1935-11-03,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,4,1,win,Bucharest,Romania,FALSE,1501,1609,1519,1591,18
+,,,1936-05-10,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,2,win,Bucharest,Romania,FALSE,1519,1663,1536,1646,17
+,,,1936-05-17,Balkan Cup,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,5,2,win,Bucharest,Romania,FALSE,1536,1294,1545,1285,9
+,,,1936-05-24,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,4,1,win,Bucharest,Romania,FALSE,1545,1500,1566,1479,21
+,,,1936-10-04,Friendly,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,2,loss,Bucharest,Romania,FALSE,1566,1915,1562,1919,-4
+,,,1937-04-18,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1562,1937,1572,1927,10
+,,,1937-06-10,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1572,1548,1579,1541,7
+,,,1937-06-27,Friendly,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1579,1692,1579,1692,0
+,,,1937-07-04,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,4,2,win,Łódź,Poland,FALSE,1579,1591,1599,1571,20
+,,,1937-07-14,Friendly,played,Romania,ROU,ROU,UEFA,Estonia,,,,FALSE,1,2,loss,Tallinn,Estonia,FALSE,1599,1252,1583,1268,-16
+,,,1938-05-08,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1574,1619,1557,1636,-17
+WC-1938,WC-1938_003,3,1938-06-05,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Cuba,CUB,CUB,CONCACAF,FALSE,3,3,draw,Toulouse,France,TRUE,1557,1543,1556,1544,-1
+WC-1938,WC-1938_008,8,1938-06-09,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Cuba,CUB,CUB,CONCACAF,FALSE,1,2,loss,Toulouse,France,TRUE,1556,1544,1525,1575,-31
+,,,1938-09-06,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,1,draw,Belgrade,Yugoslavia,FALSE,1525,1617,1533,1609,8
+,,,1938-09-25,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,TRUE,1,4,loss,Bucharest,Romania,FALSE,1533,1763,1522,1774,-11
+,,,1938-12-04,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,6,loss,Prague,Czechoslovakia,FALSE,1522,1854,1518,1858,-4
+,,,1939-05-07,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1518,1610,1533,1595,15
+,,,1939-05-18,Friendly,played,Romania,ROU,ROU,UEFA,Latvia,,,,TRUE,4,0,win,Bucharest,Romania,FALSE,1533,1429,1542,1420,9
+,,,1939-05-24,Friendly,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1542,1970,1538,1974,-4
+,,,1939-06-11,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1538,2133,1537,2134,-1
+,,,1940-03-31,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,3,draw,Bucharest,Romania,FALSE,1543,1573,1540,1576,-3
+,,,1940-04-14,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,2,loss,Rome,Italy,FALSE,1540,2074,1539,2075,-1
+,,,1940-05-19,Friendly,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,2,loss,Budapest,Hungary,FALSE,1539,1889,1536,1892,-3
+,,,1940-07-14,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,3,9,loss,Frankfurt am Main,Germany,FALSE,1536,1809,1532,1813,-4
+,,,1940-09-22,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,1532,1594,1554,1572,22
+,,,1941-06-01,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,TRUE,1,4,loss,Bucharest,Romania,FALSE,1554,1835,1545,1844,-9
+,,,1941-10-12,Friendly,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,3,2,win,Bucharest,Romania,FALSE,1545,1706,1557,1694,12
+,,,1942-08-16,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,0,7,loss,Beuthen,Germany,FALSE,1557,1879,1551,1885,-6
+,,,1942-08-23,Friendly,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,0,1,loss,Bratislava,Slovakia,FALSE,1551,1679,1547,1683,-4
+,,,1942-10-11,Friendly,played,Romania,ROU,ROU,UEFA,Croatia,HRV,HRV,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1547,1884,1553,1878,6
+,,,1943-06-13,Friendly,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1553,1651,1553,1651,0
+,,,1945-09-30,Friendly,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,7,loss,Budapest,Hungary,FALSE,1553,1883,1550,1886,-3
+,,,1946-10-08,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,2,draw,Tirana,Albania,TRUE,1550,1472,1546,1476,-4
+,,,1946-10-11,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,1,win,Tirana,Albania,TRUE,1546,1690,1574,1662,28
+,,,1946-10-13,Balkan Cup,played,Romania,ROU,ROU,UEFA,Albania,,,,FALSE,0,1,loss,Tirana,Albania,FALSE,1574,1609,1561,1622,-13
+,,,1947-05-25,Balkan Cup,played,Romania,ROU,ROU,UEFA,Albania,,,,FALSE,4,0,win,Tirana,Albania,FALSE,1561,1622,1615,1568,54
+,,,1947-06-22,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,3,loss,Bucharest,Romania,FALSE,1615,1666,1581,1700,-34
+,,,1947-07-06,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,2,win,Sofia,Bulgaria,FALSE,1581,1506,1602,1485,21
+,,,1947-07-19,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,2,1,win,Warsaw,Poland,FALSE,1602,1567,1614,1555,12
+,,,1947-09-21,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,6,loss,Bucharest,Romania,FALSE,1614,1816,1601,1829,-13
+,,,1947-10-12,Balkan Cup,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,3,loss,Bucharest,Romania,FALSE,1601,1913,1585,1929,-16
+,,,1947-10-26,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1585,1552,1581,1556,-4
+,,,1948-05-02,Balkan Cup,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,0,1,loss,Bucharest,Romania,FALSE,1581,1509,1552,1538,-29
+,,,1948-06-06,Balkan Cup,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,9,loss,Budapest,Hungary,FALSE,1552,1918,1546,1924,-6
+,,,1948-06-20,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,2,win,Bucharest,Romania,FALSE,1546,1474,1557,1463,11
+,,,1948-07-04,Balkan Cup,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1557,1754,1582,1729,25
+,,,1948-10-10,Balkan Cup,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,0,0,draw,Chorzów,Poland,FALSE,1582,1559,1586,1555,4
+,,,1948-10-24,Balkan Cup,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,5,loss,Bucharest,Romania,FALSE,1586,1943,1572,1957,-14
+,,,1949-05-08,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1572,1557,1579,1550,7
+,,,1949-05-22,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,3,loss,Prague,Czechoslovakia,FALSE,1579,1773,1576,1776,-3
+,,,1949-10-23,Friendly,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,1,1,draw,Bucharest,Romania,FALSE,1576,1565,1573,1568,-3
+,,,1949-11-29,Friendly,played,Romania,ROU,ROU,UEFA,Albania,,,,FALSE,4,1,win,Tirana,Albania,FALSE,1573,1562,1595,1540,22
+,,,1950-05-14,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,3,3,draw,Wrocław,Poland,FALSE,1595,1554,1597,1552,2
+,,,1950-05-21,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1597,1723,1598,1722,1
+,,,1950-10-08,Friendly,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,6,0,win,Bucharest,Romania,FALSE,1598,1535,1610,1523,12
+,,,1951-05-20,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,2,draw,Prague,Czechoslovakia,FALSE,1610,1748,1616,1742,6
+,,,1952-05-11,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,1,win,Bucharest,Romania,FALSE,1616,1735,1632,1719,16
+,,,1952-05-25,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1632,1568,1638,1562,6
+,,,1952-10-26,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,TRUE,3,1,win,Bucharest,Romania,FALSE,1629,1452,1634,1447,5
+,,,1953-06-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1634,1724,1619,1739,-15
+,,,1953-06-28,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,1,win,Bucharest,Romania,FALSE,1619,1499,1632,1486,13
+,,,1953-10-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,1,win,Sofia,Bulgaria,FALSE,1632,1482,1649,1465,17
+,,,1953-10-25,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1649,1764,1630,1783,-19
+,,,1954-05-08,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,0,win,Berlin,German DR,FALSE,1630,1446,1638,1438,8
+,,,1954-09-19,Friendly,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,5,loss,Budapest,Hungary,FALSE,1638,2190,1637,2191,-1
+,,,1955-05-29,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1637,1534,1632,1539,-5
+,,,1955-06-12,Friendly,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,0,win,Oslo,Norway,FALSE,1632,1623,1645,1610,13
+,,,1955-06-15,Friendly,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,4,loss,Gothenburg,Sweden,FALSE,1645,1808,1639,1814,-6
+,,,1955-09-18,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,TRUE,2,3,loss,Bucharest,Romania,FALSE,1639,1419,1622,1436,-17
+,,,1955-09-28,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1622,1729,1632,1719,10
+,,,1955-10-09,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1632,1504,1626,1510,-6
+,,,1956-04-22,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,0,win,Belgrade,Yugoslavia,FALSE,1626,1970,1645,1951,19
+,,,1956-06-17,Friendly,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1645,1800,1632,1813,-13
+,,,1956-06-28,Friendly,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1632,1627,1643,1616,11
+,,,1956-09-10,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,2,loss,Sofia,Bulgaria,FALSE,1643,1537,1628,1552,-15
+,,,1957-05-26,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Brussels,Belgium,FALSE,1628,1663,1622,1669,-6
+,,,1957-06-01,Friendly,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,1,1,draw,Moscow,Soviet Union,FALSE,1622,1876,1630,1868,8
+,,,1957-06-16,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,1,win,Athens,Greece,FALSE,1630,1528,1650,1508,20
+,,,1957-09-29,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1650,1892,1658,1884,8
+,,,1957-11-03,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1658,1508,1671,1495,13
+,,,1957-11-17,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,2,loss,Belgrade,Yugoslavia,FALSE,1671,1888,1663,1896,-8
+,,,1958-09-14,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,2,3,loss,Leipzig,German DR,FALSE,1663,1479,1651,1491,-12
+,,,1958-10-26,Friendly,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,2,loss,Bucharest,Romania,FALSE,1651,1964,1646,1969,-5
+,,,1958-11-02,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1646,1724,1679,1691,33
+,,,1959-04-26,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,2,loss,Istanbul,Turkey,FALSE,1679,1700,1659,1720,-20
+,,,1959-08-30,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,3,2,win,Warsaw,Poland,FALSE,1663,1586,1674,1575,11
+,,,1960-05-22,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1677,1871,1655,1893,-22
+,,,1960-05-29,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,3,loss,Bratislava,Czechoslovakia,FALSE,1655,1893,1646,1902,-9
+,,,1961-05-14,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,0,win,Ankara,Turkey,FALSE,1636,1726,1651,1711,15
+,,,1961-10-08,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,4,0,win,Bucharest,Romania,FALSE,1651,1722,1668,1705,17
+,,,1962-09-30,Friendly,played,Romania,ROU,ROU,UEFA,Morocco,MAR,MAR,CAF,TRUE,4,0,win,Bucharest,Romania,FALSE,1668,1663,1681,1650,13
+,,,1962-10-14,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,2,3,loss,Dresden,German DR,FALSE,1681,1536,1670,1547,-11
+,,,1962-11-01,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,6,loss,Madrid,Spain,FALSE,1670,1936,1661,1945,-9
+,,,1962-11-25,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,3,1,win,Bucharest,Romania,FALSE,1661,1945,1706,1900,45
+,,,1962-12-23,Friendly,played,Romania,ROU,ROU,UEFA,Morocco,MAR,MAR,CAF,FALSE,1,3,loss,Casablanca,Morocco,FALSE,1706,1653,1693,1666,-13
+,,,1963-05-12,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,TRUE,3,2,win,Bucharest,Romania,FALSE,1693,1624,1698,1619,5
+,,,1963-06-02,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,1,1,draw,Chorzów,Poland,FALSE,1698,1663,1700,1661,2
+,,,1963-10-09,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,0,draw,Ankara,Turkey,FALSE,1725,1697,1727,1695,2
+,,,1963-10-27,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1727,1934,1740,1921,13
+,,,1964-06-17,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,1772,1954,1789,1937,17
+,,,1965-05-02,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1912,1639,1919,1632,7
+,,,1965-05-30,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1919,1862,1931,1850,12
+,,,1965-06-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,2,loss,Oeiras,Portugal,FALSE,,,,,
+,,,1965-09-19,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,3,loss,Prague,Czechoslovakia,FALSE,1908,1850,1882,1876,-26
+,,,1965-10-23,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,2,loss,Ankara,Turkey,FALSE,1882,1610,1853,1639,-29
+,,,1965-11-21,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1853,1796,1870,1779,17
+,,,1966-06-01,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Ludwigshafen,Germany,FALSE,,,,,
+,,,1966-06-19,Friendly,played,Romania,ROU,ROU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Bucharest,Romania,FALSE,1865,1866,1872,1859,7
+,,,1966-07-03,Friendly,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Porto,Portugal,FALSE,1872,1824,1863,1833,-9
+,,,1966-09-21,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,0,2,loss,Gera,German DR,FALSE,1863,1765,1848,1780,-15
+,,,1966-11-02,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,2,win,Bucharest,Romania,FALSE,1848,1613,1856,1605,8
+,,,1966-11-17,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,4,3,win,Ploiești,Romania,FALSE,1856,1682,1859,1679,3
+,,,1966-11-26,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,3,loss,Naples,Italy,FALSE,1859,1932,1843,1948,-16
+,,,1966-12-03,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,5,1,win,Nicosia,Cyprus,FALSE,1843,1387,1852,1378,9
+,,,1966-12-07,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,1,win,Jaffa,Israel,FALSE,1852,1524,1856,1520,4
+,,,1967-01-04,Friendly,played,Romania,ROU,ROU,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1856,1846,1859,1843,3
+,,,1967-03-08,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,1,win,Athens,Greece,FALSE,1859,1556,1864,1551,5
+,,,1967-03-22,Friendly,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,2,1,win,Paris,France,FALSE,1864,1740,1873,1731,9
+,,,1967-04-23,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,TRUE,7,0,win,Bucharest,Romania,FALSE,1873,1374,1876,1371,3
+,,,1967-05-24,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,7,loss,Zürich,Switzerland,FALSE,1876,1606,1814,1668,-62
+,,,1967-06-25,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1814,1950,1796,1968,-18
+,,,1967-10-29,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,0,0,draw,Kraków,Poland,FALSE,1796,1686,1796,1686,0
+,,,1967-11-22,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,,,,,
+,,,1967-12-24,Friendly,played,Romania,ROU,ROU,UEFA,DR Congo,,,,FALSE,1,1,draw,Kinshasa,Congo-Kinshasa,FALSE,1775,1666,1775,1666,0
+,,,1968-05-01,Friendly,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Linz,Austria,FALSE,1775,1702,1776,1701,1
+,,,1968-06-05,Friendly,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1776,1688,1771,1693,-5
+,,,1968-10-27,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,3,loss,Oeiras,Portugal,FALSE,1750,1938,1739,1949,-11
+,,,1968-11-06,Friendly,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1739,2071,1745,2065,6
+,,,1968-11-23,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1745,1668,1761,1652,16
+,,,1969-01-15,Friendly,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1761,2058,1769,2050,8
+,,,1969-04-16,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,2,draw,Piraeus,Greece,FALSE,1769,1658,1768,1659,-1
+,,,1969-04-30,Friendly,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Paris,France,FALSE,1768,1686,1759,1695,-9
+,,,1969-05-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Lausanne,Switzerland,FALSE,1759,1702,1781,1680,22
+,,,1969-09-03,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,1,draw,Belgrade,Yugoslavia,FALSE,1781,1827,1785,1823,4
+,,,1969-10-12,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1785,1830,1802,1813,17
+,,,1969-11-16,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1802,1704,1792,1714,-10
+,,,1970-02-09,Friendly,played,Romania,ROU,ROU,UEFA,Peru,PER,PER,CONMEBOL,FALSE,1,1,draw,Lima,Peru,FALSE,1792,1708,1792,1708,0
+,,,1970-04-08,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Stuttgart,Germany,FALSE,,,,,
+,,,1970-04-28,Friendly,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Reims,France,FALSE,1799,1747,1786,1760,-13
+,,,1970-05-06,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1786,1831,1784,1833,-2
+WC-1970,WC-1970_003,3,1970-06-02,FIFA World Cup,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,Guadalajara,Mexico,TRUE,1784,2070,1774,2080,-10
+WC-1970,WC-1970_010,10,1970-06-06,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,1,win,Guadalajara,Mexico,TRUE,1774,1918,1816,1876,42
+WC-1970,WC-1970_017,17,1970-06-10,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,2,3,loss,Guadalajara,Mexico,TRUE,1816,2088,1806,2098,-10
+,,,1970-10-11,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,TRUE,3,0,win,Bucharest,Romania,FALSE,1806,1419,1810,1415,4
+,,,1970-11-11,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1810,1697,1809,1698,-1
+,,,1970-12-02,Friendly,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1809,1728,1795,1742,-14
+,,,1971-04-21,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,0,win,Novi Sad,Yugoslavia,FALSE,1798,1868,1813,1853,15
+,,,1971-05-16,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,1,loss,Bratislava,Czechoslovakia,FALSE,1813,1849,1800,1862,-13
+,,,1971-09-22,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,FALSE,4,0,win,Helsinki,Finland,FALSE,1808,1405,1819,1394,11
+,,,1971-11-14,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1789,1879,1808,1860,19
+,,,1971-11-24,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1808,1688,1821,1675,13
+,,,1972-04-08,Friendly,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1835,1784,1844,1775,9
+,,,1972-04-23,Friendly,played,Romania,ROU,ROU,UEFA,Peru,PER,PER,CONMEBOL,TRUE,2,2,draw,Bucharest,Romania,FALSE,1844,1716,1838,1722,-6
+,,,1972-04-29,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,1838,1926,1848,1916,10
+,,,1972-05-14,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1848,1918,1846,1920,-2
+,,,1972-05-17,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,2,loss,Belgrade,Yugoslavia,TRUE,1846,1920,1830,1936,-16
+,,,1972-06-17,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,TRUE,3,3,draw,Bucharest,Romania,FALSE,1796,1957,1798,1955,2
+,,,1972-09-03,Friendly,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,1,draw,Craiova,Romania,FALSE,1798,1811,1796,1813,-2
+,,,1972-09-20,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1796,1409,1782,1423,-14
+,,,1972-10-29,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1782,1473,1787,1468,5
+,,,1973-04-18,Friendly,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,2,loss,Kyiv,Soviet Union,FALSE,1787,1918,1781,1924,-6
+,,,1973-05-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Albania,,,,FALSE,4,1,win,Tirana,Albania,FALSE,1781,1465,1797,1449,16
+,,,1973-05-27,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1797,1867,1815,1849,18
+,,,1973-09-26,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,0,2,loss,Leipzig,German DR,FALSE,1815,1862,1797,1880,-18
+,,,1973-10-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,TRUE,9,0,win,Bucharest,Romania,FALSE,1797,1406,1803,1400,6
+,,,1974-03-23,Friendly,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Paris,France,FALSE,1803,1771,1795,1779,-8
+,,,1974-04-17,Friendly,played,Romania,ROU,ROU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,2,loss,São Paulo,Brazil,FALSE,1795,2129,1793,2131,-2
+,,,1974-04-22,Friendly,played,Romania,ROU,ROU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,2,loss,Buenos Aires,Argentina,FALSE,1793,1892,1788,1897,-5
+,,,1974-05-29,Balkan Cup,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,3,1,win,Bucharest,Romania,FALSE,1788,1589,1797,1580,9
+,,,1974-06-05,Friendly,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,1797,1847,1801,1843,4
+,,,1974-09-25,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,0,draw,Sofia,Bulgaria,FALSE,1804,1775,1806,1773,2
+,,,1974-10-13,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,0,draw,Copenhagen,Denmark,FALSE,1806,1623,1801,1628,-5
+,,,1974-12-04,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,1,0,win,Jaffa,Israel,FALSE,1801,1744,1812,1733,11
+,,,1975-03-19,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1812,1667,1811,1668,-1
+,,,1975-03-31,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,1,draw,Prague,Czechoslovakia,FALSE,1811,1865,1815,1861,4
+,,,1975-04-17,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Madrid,Spain,FALSE,1815,1918,1826,1907,11
+,,,1975-05-11,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,6,1,win,Bucharest,Romania,FALSE,1826,1628,1838,1616,12
+,,,1975-06-01,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1838,1888,1835,1891,-3
+,,,1975-09-24,Balkan Cup,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,1,draw,Salonica,Greece,FALSE,1857,1611,1849,1619,-8
+,,,1975-10-12,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1849,1664,1842,1671,-7
+,,,1975-11-16,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1842,1912,1840,1914,-2
+,,,1975-11-29,Friendly,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1840,1868,1838,1870,-2
+,,,1975-12-17,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1838,1906,1847,1897,9
+,,,1976-05-12,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,1,loss,Veliko Tărnovo,Bulgaria,FALSE,1847,1789,1829,1807,-18
+,,,1976-06-05,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,4,loss,Milan,Italy,FALSE,1829,1928,1822,1935,-7
+,,,1976-07-02,Friendly,played,Romania,ROU,ROU,UEFA,Iran,IRN,IRN,AFC,FALSE,2,2,draw,Tehran,Iran,FALSE,1822,1719,1822,1719,0
+,,,1976-09-22,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1822,1989,1824,1987,2
+,,,1976-10-06,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,3,loss,Prague,Czechoslovakia,FALSE,1824,1987,1820,1991,-4
+,,,1976-11-28,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,2,win,Bucharest,Romania,FALSE,1820,1778,1832,1766,12
+,,,1977-02-02,Friendly,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Bordeaux,France,FALSE,1832,1806,1820,1818,-12
+,,,1977-03-23,Balkan Cup,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,4,0,win,Bucharest,Romania,FALSE,1820,1718,1838,1700,18
+,,,1977-04-16,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1838,1925,1857,1906,19
+,,,1977-04-27,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1857,1969,1857,1969,0
+,,,1977-05-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,0,win,Zagreb,Yugoslavia,FALSE,1857,1837,1894,1800,37
+,,,1977-08-05,Friendly,played,Romania,ROU,ROU,UEFA,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Tehran,Iran,FALSE,1894,1742,1893,1743,-1
+,,,1977-08-14,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,3,1,win,Rabat,Morocco,TRUE,1893,1918,1917,1894,24
+,,,1977-09-21,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,6,1,win,Bucharest,Romania,FALSE,1917,1645,1921,1641,4
+,,,1977-10-26,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Madrid,Spain,FALSE,1921,1911,1899,1933,-22
+,,,1977-11-13,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,4,6,loss,Bucharest,Romania,FALSE,1899,1798,1853,1844,-46
+,,,1978-03-22,Balkan Cup,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1853,1654,1847,1660,-6
+,,,1978-04-05,Friendly,played,Romania,ROU,ROU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,2,loss,Buenos Aires,Argentina,FALSE,1847,1937,1839,1945,-8
+,,,1978-05-03,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1839,1745,1854,1730,15
+,,,1978-05-14,Friendly,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1854,1910,1843,1921,-11
+,,,1978-05-31,Balkan Cup,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,1843,1730,1842,1731,-1
+,,,1978-10-11,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1827,1937,1837,1927,10
+,,,1978-10-25,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,2,win,Bucharest,Romania,FALSE,1837,1808,1850,1795,13
+,,,1978-11-15,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Valencia,Spain,FALSE,1850,1960,1841,1969,-9
+,,,1978-12-13,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,2,loss,Athens,Greece,FALSE,1841,1674,1829,1686,-12
+,,,1978-12-19,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,1,1,draw,Jaffa,Israel,FALSE,1829,1716,1829,1716,0
+,,,1979-03-21,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1819,1674,1826,1667,7
+,,,1979-04-04,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,2,draw,Craiova,Romania,FALSE,1826,1954,1828,1952,2
+,,,1979-05-13,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,1,1,draw,Limassol,Cyprus,FALSE,1828,1256,1810,1274,-18
+,,,1979-06-01,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,0,1,loss,Berlin,German DR,FALSE,1810,1915,1805,1920,-5
+,,,1979-08-29,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,0,3,loss,Warsaw,Poland,FALSE,1805,1957,1798,1964,-7
+,,,1979-10-14,Friendly,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,1,3,loss,Moscow,Soviet Union,FALSE,1798,1903,1791,1910,-7
+,,,1979-10-31,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,2,loss,Titova Mitrovica,Yugoslavia,FALSE,1791,1885,1781,1895,-10
+,,,1979-11-18,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1781,1273,1783,1271,2
+,,,1980-02-16,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,2,loss,Naples,Italy,FALSE,1783,1992,1780,1995,-3
+,,,1980-03-30,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,2,loss,Belgrade,Yugoslavia,FALSE,1780,1898,1767,1911,-13
+,,,1980-04-02,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1767,1924,1769,1922,2
+,,,1980-06-06,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,2,loss,Brussels,Belgium,FALSE,1765,1910,1761,1914,-4
+,,,1980-08-27,Balkan Cup,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,4,1,win,Bucharest,Romania,FALSE,1761,1919,1802,1878,41
+,,,1980-09-10,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,1,win,Varna,Bulgaria,FALSE,1802,1706,1812,1696,10
+,,,1980-09-24,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1812,1509,1801,1520,-11
+,,,1980-10-15,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1801,2024,1828,1997,27
+,,,1981-03-25,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1828,1961,1844,1945,16
+,,,1981-04-08,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,1,2,loss,Jaffa,Israel,FALSE,1844,1660,1832,1672,-12
+,,,1981-04-15,Friendly,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1832,1657,1820,1669,-12
+,,,1981-04-29,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,FALSE,0,0,draw,London,England,FALSE,1820,1983,1833,1970,13
+,,,1981-05-13,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,1,loss,Budapest,Hungary,FALSE,1833,1799,1817,1815,-16
+,,,1981-06-03,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1817,1520,1821,1516,4
+,,,1981-09-09,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,2,loss,Bucharest,Romania,FALSE,1821,1714,1806,1729,-15
+,,,1981-09-23,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1806,1792,1800,1798,-6
+,,,1981-10-10,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,2,loss,Bucharest,Romania,FALSE,1800,1645,1767,1678,-33
+,,,1981-11-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,Bern,Switzerland,FALSE,1767,1663,1767,1663,0
+,,,1982-03-24,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,4,loss,Brussels,Belgium,FALSE,1767,1918,1760,1925,-7
+,,,1982-04-14,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,1,win,Ruse,Bulgaria,FALSE,1760,1753,1773,1740,13
+,,,1982-05-01,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,TRUE,3,1,win,Hunedoara,Romania,FALSE,1773,1269,1775,1267,2
+,,,1982-05-12,Friendly,played,Romania,ROU,ROU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Rosario,Argentina,FALSE,1775,2002,1772,2005,-3
+,,,1982-05-17,Friendly,played,Romania,ROU,ROU,UEFA,Peru,PER,PER,CONMEBOL,FALSE,0,2,loss,Lima,Peru,FALSE,,,,,
+,,,1982-09-01,Friendly,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1781,1741,1787,1735,6
+,,,1982-09-08,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1787,1698,1802,1683,15
+,,,1982-11-17,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,4,loss,Karl-Marx-Stadt,German DR,FALSE,1802,1883,1793,1892,-9
+,,,1982-12-04,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,0,draw,Florence,Italy,FALSE,1793,2034,1808,2019,15
+,,,1983-01-29,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1808,1525,1803,1530,-5
+,,,1983-02-02,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,1,win,Lárisa,Greece,FALSE,1803,1616,1814,1605,11
+,,,1983-03-09,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,1,win,Târgu Mureș,Romania,FALSE,1814,1530,1817,1527,3
+,,,1983-03-30,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,2,loss,Timişoara,Romania,FALSE,1817,1855,1799,1873,-18
+,,,1983-04-16,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1799,2000,1825,1974,26
+,,,1983-05-15,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1825,1849,1801,1873,-24
+,,,1983-06-01,Friendly,played,Romania,ROU,ROU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,1,loss,Sarajevo,Yugoslavia,FALSE,1801,1862,1795,1868,-6
+,,,1983-06-09,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,0,win,Solna,Sweden,FALSE,1795,1775,1820,1750,25
+,,,1983-08-10,Friendly,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,0,draw,Oslo,Norway,FALSE,1820,1601,1817,1604,-3
+,,,1983-08-24,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1817,1846,1825,1838,8
+,,,1983-09-07,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,2,2,draw,Kraków,Poland,FALSE,1825,1967,1831,1961,6
+,,,1983-10-12,Friendly,played,Romania,ROU,ROU,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,5,loss,Wrexham,Wales,FALSE,1831,1841,1817,1855,-14
+,,,1983-11-08,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,1,1,draw,Jaffa,Israel,FALSE,1817,1687,1816,1688,-1
+,,,1983-11-12,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,1,0,win,Limassol,Cyprus,FALSE,1816,1299,1819,1296,3
+,,,1983-11-30,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,1,draw,Bratislava,Czechoslovakia,FALSE,1819,1863,1827,1855,8
+,,,1984-02-07,Friendly,played,Romania,ROU,ROU,UEFA,Algeria,DZA,DZA,CAF,FALSE,1,1,draw,Algiers,Algeria,FALSE,1827,1641,1825,1643,-2
+,,,1984-03-07,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,0,win,Craiova,Romania,FALSE,1825,1604,1829,1600,4
+,,,1984-04-11,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,0,0,draw,Oradea,Romania,FALSE,1829,1703,1823,1709,-6
+,,,1984-06-14,UEFA Euro,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,1,draw,Saint-Étienne,France,TRUE,1823,1869,1826,1866,3
+,,,1984-06-17,UEFA Euro,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Lens,France,TRUE,,,,,
+,,,1984-06-20,UEFA Euro,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Nantes,France,TRUE,1813,1839,1790,1862,-23
+,,,1984-07-29,Friendly,played,Romania,ROU,ROU,UEFA,China PR,,,,TRUE,4,2,win,Iași,Romania,FALSE,,,,,
+,,,1984-07-31,Friendly,played,Romania,ROU,ROU,UEFA,China PR,,,,TRUE,1,0,win,Buzău,Romania,FALSE,,,,,
+,,,1984-08-29,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,2,loss,Gera,German DR,FALSE,1797,1885,1792,1890,-5
+,,,1984-09-12,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,3,loss,Belfast,Northern Ireland,FALSE,1792,1799,1778,1813,-14
+,,,1984-11-21,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,1,1,draw,Petah Tikva,Israel,FALSE,1778,1702,1779,1701,1
+,,,1984-12-05,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,2,loss,Athens,Greece,FALSE,1779,1593,1767,1605,-12
+,,,1985-01-30,Friendly,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,3,2,win,Lisbon,Portugal,FALSE,1767,1849,1782,1834,15
+,,,1985-03-27,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Sibiu,Romania,FALSE,1782,1840,1781,1841,-1
+,,,1985-04-03,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Craiova,Romania,FALSE,1781,1538,1790,1529,9
+,,,1985-05-01,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1790,1989,1796,1983,6
+,,,1985-06-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1796,1492,1785,1503,-11
+,,,1985-08-07,Friendly,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,2,loss,Moscow,Soviet Union,FALSE,1785,1972,1780,1977,-5
+,,,1985-08-28,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,TRUE,2,0,win,Timişoara,Romania,FALSE,1780,1503,1786,1497,6
+,,,1985-09-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1786,1955,1799,1942,13
+,,,1985-10-16,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1799,1808,1774,1833,-25
+,,,1985-11-13,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,1,win,İzmir,Turkey,FALSE,1774,1519,1791,1502,17
+,,,1986-02-28,Friendly,played,Romania,ROU,ROU,UEFA,Egypt,EGY,EGY,CAF,FALSE,2,2,draw,Alexandria,Egypt,FALSE,1791,1611,1789,1613,-2
+,,,1986-03-02,Friendly,played,Romania,ROU,ROU,UEFA,Egypt,EGY,EGY,CAF,FALSE,1,0,win,Alexandria,Egypt,FALSE,1789,1613,1797,1605,8
+,,,1986-03-14,Friendly,played,Romania,ROU,ROU,UEFA,Iraq,IRQ,IRQ,AFC,FALSE,1,1,draw,Baghdad,Iraq,FALSE,1797,1670,1796,1671,-1
+,,,1986-03-26,Friendly,played,Romania,ROU,ROU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,3,loss,Glasgow,Scotland,FALSE,1795,1871,1786,1880,-9
+,,,1986-04-23,Friendly,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,1,win,Timişoara,Romania,FALSE,1786,1961,1798,1949,12
+,,,1986-06-04,Friendly,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,TRUE,3,1,win,Bucharest,Romania,FALSE,1798,1731,1806,1723,8
+,,,1986-08-20,Friendly,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,2,draw,Oslo,Norway,FALSE,1806,1723,1806,1723,0
+,,,1986-09-10,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,TRUE,4,0,win,Bucharest,Romania,FALSE,1806,1755,1828,1733,22
+,,,1986-10-08,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,4,2,win,Ramat Gan,Israel,FALSE,1828,1620,1838,1610,10
+,,,1986-11-12,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Seville,Spain,FALSE,1838,1984,1830,1992,-8
+,,,1987-03-04,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,1,win,Ankara,Turkey,FALSE,1830,1524,1837,1517,7
+,,,1987-03-11,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,1,draw,Piraeus,Greece,FALSE,1837,1665,1835,1667,-2
+,,,1987-03-25,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,5,1,win,Bucharest,Romania,FALSE,1835,1466,1840,1461,5
+,,,1987-04-08,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,3,2,win,Braşov,Romania,FALSE,1840,1605,1843,1602,3
+,,,1987-04-29,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,3,1,win,Bucharest,Romania,FALSE,1843,1984,1877,1950,34
+,,,1987-09-02,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,1,3,loss,Bydgoszcz,Poland,FALSE,1877,1750,1861,1766,-16
+,,,1987-10-07,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,2,draw,Bucharest,Romania,FALSE,1861,1699,1855,1705,-6
+,,,1987-10-28,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Albania,,,,FALSE,1,0,win,Vlorë,Albania,FALSE,1855,1451,1861,1445,6
+,,,1987-11-18,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,0,draw,Vienna,Austria,FALSE,1861,1752,1860,1753,-1
+,,,1988-02-03,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,0,win,Haifa,Israel,FALSE,1860,1565,1871,1554,11
+,,,1988-02-06,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,2,2,draw,Haifa,Israel,TRUE,1871,1747,1866,1752,-5
+,,,1988-03-23,Friendly,played,Romania,ROU,ROU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1988-03-30,Friendly,played,Romania,ROU,ROU,UEFA,German DR,DDR,DDR,UEFA,FALSE,3,3,draw,Halle,German DR,FALSE,1852,1818,1854,1816,2
+,,,1988-06-01,Friendly,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1854,1926,1846,1934,-8
+,,,1988-09-20,Friendly,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,3,0,win,Constanţa,Romania,FALSE,1846,1441,1848,1439,2
+,,,1988-10-19,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,1,win,Sofia,Bulgaria,FALSE,1848,1796,1882,1762,34
+,,,1988-11-02,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1882,1697,1893,1686,11
+,,,1988-11-23,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,3,0,win,Sibiu,Romania,FALSE,1893,1614,1897,1610,4
+,,,1989-03-29,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,0,win,Sibiu,Romania,FALSE,1897,1987,1907,1977,10
+,,,1989-04-12,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,1,2,loss,Warsaw,Poland,FALSE,1907,1806,1897,1816,-10
+,,,1989-04-26,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,0,draw,Athens,Greece,FALSE,1897,1672,1890,1679,-7
+,,,1989-05-17,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1890,1728,1897,1721,7
+,,,1989-08-31,Friendly,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,0,draw,Setúbal,Portugal,FALSE,1897,1782,1897,1782,0
+,,,1989-09-05,Friendly,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,2,loss,Nitra,Czechoslovakia,FALSE,1897,1859,1885,1871,-12
+,,,1989-10-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1885,1910,1862,1933,-23
+,,,1989-11-15,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,3,1,win,Bucharest,Romania,FALSE,1862,1933,1890,1905,28
+,,,1990-02-04,Friendly,played,Romania,ROU,ROU,UEFA,Algeria,DZA,DZA,CAF,FALSE,0,0,draw,Algiers,Algeria,FALSE,1890,1656,1886,1660,-4
+,,,1990-03-21,Friendly,played,Romania,ROU,ROU,UEFA,Basque Country,,,,FALSE,2,2,draw,Bilbao,Spain,FALSE,,,,,
+,,,1990-03-28,Friendly,played,Romania,ROU,ROU,UEFA,Egypt,EGY,EGY,CAF,FALSE,3,1,win,Cairo,Egypt,FALSE,1886,1597,1894,1589,8
+,,,1990-04-03,Friendly,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,2,loss,Lucerne,Switzerland,FALSE,1894,1670,1881,1683,-13
+,,,1990-04-25,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,4,1,win,Haifa,Israel,FALSE,1881,1627,1891,1617,10
+,,,1990-05-21,Friendly,played,Romania,ROU,ROU,UEFA,Egypt,EGY,EGY,CAF,TRUE,1,0,win,Bucharest,Romania,FALSE,1891,1626,1893,1624,2
+,,,1990-05-26,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,2,draw,Brussels,Belgium,FALSE,1893,1834,1894,1833,1
+WC-1990,WC-1990_003,3,1990-06-09,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,2,0,win,Bari,Italy,TRUE,1894,1943,1945,1892,51
+WC-1990,WC-1990_014,14,1990-06-14,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Cameroon,CMR,CMR,CAF,FALSE,1,2,loss,Bari,Italy,TRUE,1945,1674,1895,1724,-50
+WC-1990,WC-1990_025,25,1990-06-18,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Naples,Italy,TRUE,1895,1813,1888,1820,-7
+WC-1990,WC-1990_041,41,1990-06-25,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Genoa,Italy,TRUE,,,,,
+,,,1990-08-29,Friendly,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,2,1,win,Moscow,Soviet Union,FALSE,1888,1870,1900,1858,12
+,,,1990-09-12,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1900,1735,1876,1759,-24
+,,,1990-09-26,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1876,1797,1881,1792,5
+,,,1990-10-17,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,3,loss,Bucharest,Romania,FALSE,1881,1691,1822,1750,-59
+,,,1990-12-05,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,San Marino,,,,TRUE,6,0,win,Bucharest,Romania,FALSE,1822,1007,1822,1007,0
+,,,1990-12-22,Friendly,played,Romania,ROU,ROU,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,2,loss,Rijeka,Croatia,FALSE,1822,1878,1813,1887,-9
+,,,1991-03-27,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,San Marino,,,,FALSE,3,1,win,Serravalle,San Marino,FALSE,1813,1007,1814,1006,1
+,,,1991-04-03,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,Neuchâtel,Switzerland,FALSE,1814,1751,1816,1749,2
+,,,1991-04-17,Friendly,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,0,win,Cáceres,Spain,FALSE,1816,1885,1838,1863,22
+,,,1991-05-23,Friendly,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,1,loss,Oslo,Norway,FALSE,1838,1688,1827,1699,-11
+,,,1991-08-28,Friendly,played,Romania,ROU,ROU,UEFA,United States,USA,USA,CONCACAF,TRUE,0,2,loss,Braşov,Romania,FALSE,1827,1696,1803,1720,-24
+,,,1991-10-16,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1803,1767,1816,1754,13
+,,,1991-11-13,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1816,1789,1829,1776,13
+,,,1991-11-20,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,1829,1739,1830,1738,1
+,,,1991-12-21,Friendly,played,Romania,ROU,ROU,UEFA,Egypt,EGY,EGY,CAF,FALSE,1,3,loss,Cairo,Egypt,FALSE,1830,1660,1812,1678,-18
+,,,1991-12-24,Friendly,played,Romania,ROU,ROU,UEFA,Egypt,EGY,EGY,CAF,FALSE,1,1,draw,Port Said,Egypt,FALSE,1812,1678,1811,1679,-1
+,,,1992-02-12,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Ioannina,Greece,FALSE,1811,1650,1799,1662,-12
+,,,1992-04-08,Friendly,played,Romania,ROU,ROU,UEFA,Latvia,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1799,1393,1801,1391,2
+,,,1992-05-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Faroe Islands,,,,TRUE,7,0,win,Bucharest,Romania,FALSE,1801,1269,1803,1267,2
+,,,1992-05-20,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Wales,WAL,WAL,UEFA,TRUE,5,1,win,Bucharest,Romania,FALSE,1803,1811,1831,1783,28
+,,,1992-08-26,Friendly,played,Romania,ROU,ROU,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,2,0,win,Bucharest,Romania,FALSE,1831,1805,1841,1795,10
+,,,1992-10-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Brussels,Belgium,FALSE,1841,1844,1827,1858,-14
+,,,1992-11-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1827,1820,1821,1826,-6
+,,,1992-11-29,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,4,1,win,Larnaca,Cyprus,FALSE,1821,1326,1828,1319,7
+,,,1993-01-31,Friendly,played,Romania,ROU,ROU,UEFA,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,3,loss,Guayaquil,Ecuador,FALSE,1828,1637,1806,1659,-22
+,,,1993-02-03,Friendly,played,Romania,ROU,ROU,UEFA,Peru,PER,PER,CONMEBOL,FALSE,2,0,win,Lima,Peru,FALSE,1806,1543,1814,1535,8
+,,,1993-02-06,Friendly,played,Romania,ROU,ROU,UEFA,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Santa Barbara,United States,FALSE,1814,1689,1813,1690,-1
+,,,1993-02-10,Friendly,played,Romania,ROU,ROU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,2,0,win,Monterrey,Mexico,FALSE,,,,,
+,,,1993-04-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,TRUE,2,1,win,Bucharest,Romania,FALSE,1801,1353,1803,1351,2
+,,,1993-06-02,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,5,loss,Košice,Slovakia,FALSE,1803,1804,1778,1829,-25
+,,,1993-09-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Faroe Islands,,,,FALSE,4,0,win,Toftir,Faroe Islands,FALSE,1778,1203,1783,1198,5
+,,,1993-09-22,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1783,1578,1786,1575,3
+,,,1993-10-13,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1786,1850,1804,1832,18
+,,,1993-11-17,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,1,win,Cardiff,Wales,FALSE,1804,1802,1829,1777,25
+,,,1994-02-13,Lunar New Year Cup,played,Romania,ROU,ROU,UEFA,United States,USA,USA,CONCACAF,TRUE,2,1,win,Kowloon,Hong Kong,TRUE,1829,1642,1837,1634,8
+,,,1994-02-16,Friendly,played,Romania,ROU,ROU,UEFA,South Korea,KOR,KOR,AFC,FALSE,2,1,win,Changwon,South Korea,FALSE,1837,1667,1845,1659,8
+,,,1994-03-23,Friendly,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1845,1674,1827,1692,-18
+,,,1994-04-20,Friendly,played,Romania,ROU,ROU,UEFA,Bolivia,BOL,BOL,CONMEBOL,TRUE,3,0,win,Bucharest,Romania,FALSE,1827,1717,1835,1709,8
+,,,1994-05-25,Friendly,played,Romania,ROU,ROU,UEFA,Nigeria,NGA,NGA,CAF,TRUE,2,0,win,Bucharest,Romania,FALSE,1835,1735,1842,1728,7
+,,,1994-06-01,Friendly,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1842,1597,1834,1605,-8
+,,,1994-06-12,Friendly,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Mission Viejo,United States,TRUE,1834,1907,1836,1905,2
+WC-1994,WC-1994_003,3,1994-06-18,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Colombia,COL,COL,CONMEBOL,FALSE,3,1,win,Pasadena,United States,TRUE,1836,1944,1895,1885,59
+WC-1994,WC-1994_014,14,1994-06-22,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,4,loss,Pontiac,United States,TRUE,1895,1860,1837,1918,-58
+WC-1994,WC-1994_026,26,1994-06-26,FIFA World Cup,played,Romania,ROU,ROU,UEFA,United States,USA,USA,CONCACAF,FALSE,1,0,win,Pasadena,United States,FALSE,1837,1671,1861,1647,24
+WC-1994,WC-1994_039,39,1994-07-03,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,3,2,win,Pasadena,United States,TRUE,1861,1889,1893,1857,32
+WC-1994,WC-1994_048,48,1994-07-10,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,2,draw,Palo Alto,United States,TRUE,1893,1952,1898,1947,5
+,,,1994-09-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Azerbaijan,,,,TRUE,3,0,win,Bucharest,Romania,FALSE,1898,1519,1902,1515,4
+,,,1994-10-08,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Saint-Étienne,France,FALSE,1902,1916,1908,1910,6
+,,,1994-10-12,Friendly,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1908,1891,1910,1889,2
+,,,1994-11-12,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,3,2,win,Bucharest,Romania,FALSE,1910,1673,1915,1668,5
+,,,1994-12-14,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,1,1,draw,Ramat Gan,Israel,FALSE,1915,1610,1904,1621,-11
+,,,1995-02-08,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Kalamáta,Greece,FALSE,1904,1652,1890,1666,-14
+,,,1995-02-15,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,1,draw,İzmir,Turkey,FALSE,1890,1617,1885,1622,-5
+,,,1995-03-29,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1885,1721,1892,1714,7
+,,,1995-04-26,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Azerbaijan,,,,FALSE,4,1,win,Trabzon,Turkey,TRUE,1892,1468,1898,1462,6
+,,,1995-06-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1898,1614,1902,1610,4
+,,,1995-09-06,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,0,0,draw,Zabrze,Poland,FALSE,1902,1761,1900,1763,-2
+,,,1995-10-11,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,TRUE,1,3,loss,Bucharest,Romania,FALSE,1907,1914,1869,1952,-38
+,,,1995-11-15,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,2,0,win,Košice,Slovakia,FALSE,1869,1712,1894,1687,25
+,,,1996-03-27,Friendly,played,Romania,ROU,ROU,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,1,loss,Belgrade,FR Yugoslavia,FALSE,,,,,
+,,,1996-04-24,Friendly,played,Romania,ROU,ROU,UEFA,Georgia,,,,TRUE,5,0,win,Bucharest,Romania,FALSE,1888,1641,1893,1636,5
+,,,1996-06-01,Friendly,played,Romania,ROU,ROU,UEFA,Moldova,,,,TRUE,3,1,win,Bucharest,Romania,FALSE,1893,1472,1894,1471,1
+,,,1996-06-10,UEFA Euro,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,TRUE,0,1,loss,Newcastle,England,TRUE,1894,1991,1876,2009,-18
+,,,1996-06-13,UEFA Euro,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,1,loss,Newcastle,England,TRUE,1876,1846,1849,1873,-27
+,,,1996-06-18,UEFA Euro,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,2,loss,Leeds,England,TRUE,1849,1980,1833,1996,-16
+,,,1996-08-14,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1833,1622,1837,1618,4
+,,,1996-08-31,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Lithuania,,,,TRUE,3,0,win,Bucharest,Romania,FALSE,1837,1453,1841,1449,4
+,,,1996-09-18,Friendly,played,Romania,ROU,ROU,UEFA,United Arab Emirates,ARE,ARE,AFC,TRUE,1,2,loss,Bucharest,Romania,FALSE,1841,1550,1823,1568,-18
+,,,1996-10-09,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Iceland,ISL,ISL,UEFA,FALSE,4,0,win,Reykjavík,Iceland,FALSE,1823,1530,1842,1511,19
+,,,1996-12-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,North Macedonia,,,,FALSE,3,0,win,Skopje,North Macedonia,FALSE,1842,1560,1860,1542,18
+,,,1997-03-29,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Liechtenstein,,,,TRUE,8,0,win,Bucharest,Romania,FALSE,1860,1075,1861,1074,1
+,,,1997-04-02,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Lithuania,,,,FALSE,1,0,win,Vilnius,Lithuania,FALSE,1861,1486,1868,1479,7
+,,,1997-04-30,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,,,,,
+,,,1997-08-20,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,North Macedonia,,,,TRUE,4,2,win,Bucharest,Romania,FALSE,1875,1573,1880,1568,5
+,,,1997-09-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Liechtenstein,,,,FALSE,8,1,win,Eschen,Liechtenstein,FALSE,1880,1055,1881,1054,1
+,,,1997-09-10,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Iceland,ISL,ISL,UEFA,TRUE,4,0,win,Bucharest,Romania,FALSE,1881,1486,1885,1482,4
+,,,1997-10-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1997-11-19,Friendly,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Palma de Mallorca,Spain,FALSE,1882,2046,1888,2040,6
+,,,1998-03-18,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1888,1643,1870,1661,-18
+,,,1998-04-08,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1870,1733,1874,1729,4
+,,,1998-04-22,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Brussels,Belgium,FALSE,1874,1807,1875,1806,1
+,,,1998-06-03,Friendly,played,Romania,ROU,ROU,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,3,2,win,Bucharest,Romania,FALSE,1875,1752,1879,1748,4
+,,,1998-06-06,Friendly,played,Romania,ROU,ROU,UEFA,Moldova,,,,TRUE,5,1,win,Ploiești,Romania,FALSE,1879,1388,1880,1387,1
+WC-1998,WC-1998_016,16,1998-06-15,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,1,0,win,Lyon,France,TRUE,1880,1778,1901,1757,21
+WC-1998,WC-1998_032,32,1998-06-22,FIFA World Cup,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,TRUE,2,1,win,Toulouse,France,TRUE,1901,1985,1938,1948,37
+WC-1998,WC-1998_048,48,1998-06-26,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Tunisia,TUN,TUN,CAF,TRUE,1,1,draw,Saint-Denis,France,TRUE,1938,1602,1916,1624,-22
+WC-1998,WC-1998_056,56,1998-06-30,FIFA World Cup,played,Romania,ROU,ROU,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,1,loss,Bordeaux,France,TRUE,1916,1882,1883,1915,-33
+,,,1998-08-19,Friendly,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,0,draw,Oslo,Norway,FALSE,1883,1902,1886,1899,3
+,,,1998-09-02,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Liechtenstein,,,,TRUE,7,0,win,Bucharest,Romania,FALSE,1886,1050,1886,1050,0
+,,,1998-09-05,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Attard,Malta,TRUE,1886,2010,1889,2007,3
+,,,1998-10-10,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,0,win,Porto,Portugal,FALSE,1889,1896,1915,1870,26
+,,,1998-10-14,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,1915,1650,1906,1659,-9
+,,,1999-03-03,Friendly,played,Romania,ROU,ROU,UEFA,Estonia,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1906,1225,1906,1225,0
+,,,1999-03-10,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1906,1686,1880,1712,-26
+,,,1999-03-27,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1880,1675,1866,1689,-14
+,,,1999-03-31,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Azerbaijan,,,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1866,1326,1869,1323,3
+,,,1999-04-28,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1869,1762,1874,1757,5
+,,,1999-06-05,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1874,1679,1883,1670,9
+,,,1999-06-09,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Azerbaijan,,,,TRUE,4,0,win,Bucharest,Romania,FALSE,1883,1332,1885,1330,2
+,,,1999-08-18,Friendly,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,2,2,draw,Limassol,Cyprus,FALSE,1885,1488,1878,1495,-7
+,,,1999-09-04,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,5,1,win,Bratislava,Slovakia,FALSE,1878,1720,1909,1689,31
+,,,1999-09-08,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1909,1899,1903,1905,-6
+,,,1999-10-09,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Liechtenstein,,,,FALSE,3,0,win,Vaduz,Liechtenstein,FALSE,1903,1090,1904,1089,1
+,,,2000-02-02,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Latvia,,,,TRUE,2,0,win,Paphos,Cyprus,TRUE,1904,1469,1907,1466,3
+,,,2000-02-04,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Georgia,,,,TRUE,1,1,draw,Larnaca,Cyprus,TRUE,1907,1506,1895,1518,-12
+,,,2000-02-06,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,2,3,loss,Nicosia,Cyprus,FALSE,1895,1525,1870,1550,-25
+,,,2000-03-29,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,2,loss,Athens,Greece,FALSE,1870,1753,1854,1769,-16
+,,,2000-04-26,Friendly,played,Romania,ROU,ROU,UEFA,Cyprus,,,,TRUE,2,0,win,Constanţa,Romania,FALSE,1854,1553,1857,1550,3
+,,,2000-05-27,Friendly,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,2,loss,Amsterdam,Netherlands,FALSE,1857,1951,1852,1956,-5
+,,,2000-06-03,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1852,1782,1857,1777,5
+,,,2000-06-12,UEFA Euro,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Liège,Belgium,TRUE,1857,1888,1859,1886,2
+,,,2000-06-17,UEFA Euro,played,Romania,ROU,ROU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,1,loss,Arnhem,Netherlands,TRUE,1859,1934,1839,1954,-20
+,,,2000-06-20,UEFA Euro,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,FALSE,3,2,win,Charleroi,Belgium,TRUE,1839,1914,1869,1884,30
+,,,2000-06-24,UEFA Euro,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,2,loss,Brussels,Belgium,TRUE,1869,1997,1845,2021,-24
+,,,2000-08-16,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1845,1725,1839,1731,-6
+,,,2000-09-03,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Lithuania,,,,TRUE,1,0,win,Bucharest,Romania,FALSE,1839,1458,1841,1456,2
+,,,2000-10-07,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,3,loss,Milan,Italy,FALSE,1841,1996,1828,2009,-13
+,,,2000-11-15,Friendly,played,Romania,ROU,ROU,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,,,,,
+,,,2000-12-05,Friendly,played,Romania,ROU,ROU,UEFA,Algeria,DZA,DZA,CAF,FALSE,2,3,loss,Annaba,Algeria,FALSE,1837,1496,1821,1512,-16
+,,,2000-12-08,Friendly,played,Romania,ROU,ROU,UEFA,Algeria,DZA,DZA,CAF,FALSE,3,2,win,Annaba,Algeria,FALSE,1821,1512,1826,1507,5
+,,,2001-01-11,Millennium Cup,played,Romania,ROU,ROU,UEFA,Jordan,,,,TRUE,0,1,loss,Margao,India,TRUE,,,,,
+,,,2001-01-14,Millennium Cup,played,Romania,ROU,ROU,UEFA,Hong Kong,,,,TRUE,4,2,win,Margao,India,TRUE,,,,,
+,,,2001-01-20,Millennium Cup,played,Romania,ROU,ROU,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,2,loss,Margao,India,TRUE,,,,,
+,,,2001-02-26,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,0,win,Nicosia,Cyprus,TRUE,1826,1728,1837,1717,11
+,,,2001-02-28,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Lithuania,,,,FALSE,3,0,win,Nicosia,Cyprus,TRUE,1837,1412,1841,1408,4
+,,,2001-03-24,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1841,2002,1816,2027,-25
+,,,2001-03-28,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Georgia,,,,FALSE,2,0,win,Tbilisi,Georgia,FALSE,1816,1554,1833,1537,17
+,,,2001-04-25,Friendly,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,0,0,draw,Ploiești,Romania,FALSE,1833,1759,1828,1764,-5
+,,,2001-06-02,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1828,1648,1838,1638,10
+,,,2001-06-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Lithuania,,,,FALSE,2,1,win,Kaunas,Lithuania,FALSE,1838,1423,1844,1417,6
+,,,2001-08-15,Friendly,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,2,2,draw,Ljubljana,Slovenia,FALSE,1844,1692,1843,1693,-1
+,,,2001-09-05,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,0,win,Budapest,Hungary,FALSE,1843,1614,1862,1595,19
+,,,2001-10-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Georgia,,,,TRUE,1,1,draw,Bucharest,Romania,FALSE,1862,1577,1846,1593,-16
+,,,2001-11-10,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,1,2,loss,Ljubljana,Slovenia,FALSE,1846,1730,1825,1751,-21
+,,,2001-11-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1825,1751,1816,1760,-9
+,,,2002-02-13,Friendly,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Saint-Denis,France,FALSE,1816,2111,1814,2113,-2
+,,,2002-03-27,Friendly,played,Romania,ROU,ROU,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,4,1,win,Constanţa,Romania,FALSE,1814,1699,1822,1691,8
+,,,2002-04-17,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,2,1,win,Bydgoszcz,Poland,FALSE,1822,1745,1833,1734,11
+,,,2002-08-21,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,1,loss,Constanţa,Romania,FALSE,1833,1680,1817,1696,-16
+,,,2002-09-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,3,0,win,Sarajevo,Bosnia and Herzegovina,FALSE,1817,1516,1834,1499,17
+,,,2002-10-12,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1834,1756,1805,1785,-29
+,,,2002-10-16,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Luxembourg,,,,FALSE,7,0,win,Luxembourg,Luxembourg,FALSE,1805,1102,1808,1099,3
+,,,2002-11-20,Friendly,played,Romania,ROU,ROU,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,1,loss,Timişoara,Romania,FALSE,1808,1790,1795,1803,-13
+,,,2003-02-12,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,1,win,Larnaca,Cyprus,TRUE,1795,1672,1805,1662,10
+,,,2003-03-29,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,5,loss,Bucharest,Romania,FALSE,1783,1906,1750,1939,-33
+,,,2003-04-30,Friendly,played,Romania,ROU,ROU,UEFA,Lithuania,,,,FALSE,1,0,win,Kaunas,Lithuania,FALSE,1750,1425,1754,1421,4
+,,,2003-06-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,2,0,win,Craiova,Romania,FALSE,1754,1568,1764,1558,10
+,,,2003-06-11,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1764,1781,1770,1775,6
+,,,2003-08-20,Friendly,played,Romania,ROU,ROU,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,2,0,win,Donetsk,Ukraine,FALSE,1770,1702,1786,1686,16
+,,,2003-09-06,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Luxembourg,,,,TRUE,4,0,win,Ploiești,Romania,FALSE,1786,1097,1787,1096,1
+,,,2003-09-10,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,2,draw,Copenhagen,Denmark,FALSE,1787,1890,1798,1879,11
+,,,2003-10-11,Friendly,played,Romania,ROU,ROU,UEFA,Japan,JPN,JPN,AFC,TRUE,1,1,draw,Bucharest,Romania,FALSE,1798,1776,1795,1779,-3
+,,,2003-11-16,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,1,loss,Ancona,Italy,FALSE,1795,1920,1791,1924,-4
+,,,2004-02-18,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Georgia,,,,TRUE,3,0,win,Larnaca,Cyprus,TRUE,1791,1567,1802,1556,11
+,,,2004-03-31,Friendly,played,Romania,ROU,ROU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,1,win,Glasgow,Scotland,FALSE,1820,1662,1828,1654,8
+,,,2004-04-28,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,TRUE,5,1,win,Bucharest,Romania,FALSE,1828,1899,1845,1882,17
+,,,2004-05-27,Friendly,played,Romania,ROU,ROU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2004-08-18,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,TRUE,2,1,win,Bucharest,Romania,FALSE,1838,1668,1845,1661,7
+,,,2004-09-04,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,North Macedonia,,,,TRUE,2,1,win,Craiova,Romania,FALSE,1845,1532,1848,1529,3
+,,,2004-09-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Andorra,,,,FALSE,5,1,win,Sant Julià de Lòria,Andorra,FALSE,1848,1059,1849,1058,1
+,,,2004-10-09,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Czechia,CZE,CZE,UEFA,FALSE,0,1,loss,Prague,Czech Republic,FALSE,1849,1963,1840,1972,-9
+,,,2004-11-17,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Armenia,,,,FALSE,1,1,draw,Yerevan,Armenia,FALSE,1840,1411,1825,1426,-15
+,,,2005-02-09,Friendly,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,2,draw,Larnaca,Cyprus,TRUE,1825,1667,1821,1671,-4
+,,,2005-03-26,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1821,1943,1793,1971,-28
+,,,2005-03-30,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,North Macedonia,,,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1793,1483,1802,1474,9
+,,,2005-06-04,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1802,1972,1792,1982,-10
+,,,2005-06-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Armenia,,,,TRUE,3,0,win,Constanţa,Romania,FALSE,1792,1395,1796,1391,4
+,,,2005-08-17,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Andorra,,,,TRUE,2,0,win,Constanţa,Romania,FALSE,1796,1106,1797,1105,1
+,,,2005-09-03,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Czechia,CZE,CZE,UEFA,TRUE,2,0,win,Constanţa,Romania,FALSE,1797,1988,1835,1950,38
+,,,2005-10-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,FALSE,1,0,win,Helsinki,Finland,FALSE,1835,1709,1854,1690,19
+,,,2005-11-12,Friendly,played,Romania,ROU,ROU,UEFA,Ivory Coast,CIV,CIV,CAF,TRUE,1,2,loss,Le Mans,France,TRUE,1854,1680,1839,1695,-15
+,,,2005-11-16,Friendly,played,Romania,ROU,ROU,UEFA,Nigeria,NGA,NGA,CAF,TRUE,3,0,win,Bucharest,Romania,FALSE,1839,1760,1848,1751,9
+,,,2006-02-28,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Armenia,,,,TRUE,2,0,win,Nicosia,Cyprus,TRUE,1848,1412,1851,1409,3
+,,,2006-03-01,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,2,0,win,Larnaca,Cyprus,TRUE,1851,1611,1860,1602,9
+,,,2006-05-23,Friendly,played,Romania,ROU,ROU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,0,2,loss,Los Angeles,United States,TRUE,,,,,
+,,,2006-05-26,Friendly,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,0,win,Chicago,United States,TRUE,1843,1503,1847,1499,4
+,,,2006-05-27,Friendly,played,Romania,ROU,ROU,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,0,0,draw,Chicago,United States,TRUE,1847,1761,1845,1763,-2
+,,,2006-08-16,Friendly,played,Romania,ROU,ROU,UEFA,Cyprus,,,,TRUE,2,0,win,Constanţa,Romania,FALSE,1845,1463,1847,1461,2
+,,,2006-09-02,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,2,draw,Constanţa,Romania,FALSE,1847,1711,1835,1723,-12
+,,,2006-09-06,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Albania,,,,FALSE,2,0,win,Tirana,Albania,FALSE,1835,1524,1849,1510,14
+,,,2006-10-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Belarus,,,,TRUE,3,1,win,Bucharest,Romania,FALSE,1849,1556,1855,1550,6
+,,,2006-11-15,Friendly,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,0,win,Cádiz,Spain,FALSE,1855,1897,1869,1883,14
+,,,2007-02-07,Friendly,played,Romania,ROU,ROU,UEFA,Moldova,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1869,1420,1870,1419,1
+,,,2007-03-24,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,1870,1994,1881,1983,11
+,,,2007-03-28,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Luxembourg,,,,TRUE,3,0,win,Piatra Neamţ,Romania,FALSE,1881,1006,1881,1006,0
+,,,2007-06-02,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,2,1,win,Celje,Slovenia,FALSE,1881,1562,1890,1553,9
+,,,2007-06-06,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,2,0,win,Timişoara,Romania,FALSE,1890,1553,1894,1549,4
+,,,2007-08-22,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1894,1841,1903,1832,9
+,,,2007-09-08,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Belarus,,,,FALSE,3,1,win,Minsk,Belarus,FALSE,1903,1557,1915,1545,12
+,,,2007-09-12,Friendly,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Cologne,Germany,FALSE,1915,2013,1908,2020,-7
+,,,2007-10-13,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,0,win,Constanţa,Romania,FALSE,1908,1997,1927,1978,19
+,,,2007-10-17,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Luxembourg,,,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1927,1039,1928,1038,1
+,,,2007-11-17,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1928,1743,1903,1768,-25
+,,,2007-11-21,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,6,1,win,Bucharest,Romania,FALSE,1903,1492,1907,1488,4
+,,,2008-02-06,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,0,1,loss,Ramat Gan,Israel,FALSE,1907,1744,1895,1756,-12
+,,,2008-03-26,Friendly,played,Romania,ROU,ROU,UEFA,Russia,RUS,RUS,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1895,1790,1903,1782,8
+,,,2008-05-31,Friendly,played,Romania,ROU,ROU,UEFA,Montenegro,,,,TRUE,4,0,win,Bucharest,Romania,FALSE,1903,1671,1908,1666,5
+,,,2008-06-09,UEFA Euro,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,TRUE,0,0,draw,Zürich,Switzerland,TRUE,1908,2006,1915,1999,7
+,,,2008-06-13,UEFA Euro,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Zürich,Switzerland,TRUE,1915,1981,1920,1976,5
+,,,2008-06-17,UEFA Euro,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Bern,Switzerland,TRUE,1920,2063,1897,2086,-23
+,,,2008-08-20,Friendly,played,Romania,ROU,ROU,UEFA,Latvia,,,,TRUE,1,0,win,Urziceni,Romania,FALSE,1897,1519,1898,1518,1
+,,,2008-09-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Lithuania,,,,TRUE,0,3,loss,Cluj,Romania,FALSE,1898,1577,1834,1641,-64
+,,,2008-09-10,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Faroe Islands,,,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1834,1155,1835,1154,1
+,,,2008-10-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,TRUE,2,2,draw,Constanţa,Romania,FALSE,1835,1891,1832,1894,-3
+,,,2008-11-19,Friendly,played,Romania,ROU,ROU,UEFA,Georgia,,,,TRUE,2,1,win,Bucharest,Romania,FALSE,1832,1517,1834,1515,2
+,,,2009-02-11,Friendly,played,Romania,ROU,ROU,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,2,loss,Bucharest,Romania,FALSE,1834,1882,1823,1893,-11
+,,,2009-03-28,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,3,loss,Constanţa,Romania,FALSE,1823,1772,1795,1800,-28
+,,,2009-04-01,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,2,loss,Klagenfurt,Austria,FALSE,1795,1555,1767,1583,-28
+,,,2009-06-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Lithuania,,,,FALSE,1,0,win,Marijampolė,Lithuania,FALSE,1767,1618,1784,1601,17
+,,,2009-08-12,Friendly,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,0,win,Budapest,Hungary,FALSE,1784,1640,1793,1631,9
+,,,2009-09-05,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,1,1,draw,Saint-Denis,France,FALSE,1793,1883,1803,1873,10
+,,,2009-09-09,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1803,1568,1788,1583,-15
+,,,2009-10-10,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,5,loss,Belgrade,Serbia,FALSE,1788,1823,1763,1848,-25
+,,,2009-10-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Faroe Islands,,,,TRUE,3,1,win,Piatra Neamţ,Romania,FALSE,1763,1213,1764,1212,1
+,,,2009-11-14,Friendly,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,1,0,win,Warsaw,Poland,FALSE,1764,1634,1773,1625,9
+,,,2010-03-03,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,0,2,loss,Timişoara,Romania,FALSE,1773,1718,1752,1739,-21
+,,,2010-05-29,Friendly,played,Romania,ROU,ROU,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,2,3,loss,Lviv,Ukraine,FALSE,1752,1789,1746,1795,-6
+,,,2010-06-02,Friendly,played,Romania,ROU,ROU,UEFA,North Macedonia,,,,TRUE,0,1,loss,Villach,Austria,TRUE,1746,1594,1732,1608,-14
+,,,2010-06-05,Friendly,played,Romania,ROU,ROU,UEFA,Honduras,HND,HND,CONCACAF,TRUE,3,0,win,Sankt Veit an der Glan,Austria,TRUE,1732,1731,1749,1714,17
+,,,2010-08-11,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,2,loss,Istanbul,Turkey,FALSE,1749,1799,1740,1808,-9
+,,,2010-09-03,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,1,1,draw,Piatra Neamţ,Romania,FALSE,1740,1530,1726,1544,-14
+,,,2010-09-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Belarus,,,,FALSE,0,0,draw,Minsk,Belarus,FALSE,1726,1650,1727,1649,1
+,,,2010-10-09,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Saint-Denis,France,FALSE,1727,1766,1708,1785,-19
+,,,2010-11-17,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Klagenfurt,Austria,TRUE,1708,1835,1712,1831,4
+,,,2011-02-08,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,2,2,draw,Paralímni,Cyprus,TRUE,1712,1808,1716,1804,4
+,,,2011-02-09,Cyprus International Tournament,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,1,1,draw,Paralímni,Cyprus,FALSE,1716,1538,1713,1541,-3
+,,,2011-03-26,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,1,2,loss,Zenica,Bosnia and Herzegovina,FALSE,1713,1621,1693,1641,-20
+,,,2011-03-29,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Luxembourg,,,,TRUE,3,1,win,Piatra Neamţ,Romania,FALSE,1693,1130,1694,1129,1
+,,,2011-06-03,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1694,1641,1715,1620,21
+,,,2011-06-07,Friendly,played,Romania,ROU,ROU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,São Paulo,Brazil,FALSE,1715,2081,1714,2082,-1
+,,,2011-06-11,Friendly,played,Romania,ROU,ROU,UEFA,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,2,loss,Asunción,Paraguay,FALSE,1714,1781,1706,1789,-8
+,,,2011-08-10,Friendly,played,Romania,ROU,ROU,UEFA,San Marino,,,,FALSE,1,0,win,Serravalle,San Marino,FALSE,1706,898,1706,898,0
+,,,2011-09-02,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Luxembourg,,,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1706,1125,1710,1121,4
+,,,2011-09-06,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1710,1851,1712,1849,2
+,,,2011-10-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Belarus,,,,TRUE,2,2,draw,Bucharest,Romania,FALSE,1712,1591,1701,1602,-11
+,,,2011-10-11,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Albania,,,,FALSE,1,1,draw,Tirana,Albania,FALSE,1701,1488,1695,1494,-6
+,,,2011-11-11,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,2,loss,Liège,Belgium,FALSE,1695,1670,1687,1678,-8
+,,,2011-11-15,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,1,win,Altach,Austria,TRUE,1687,1803,1707,1783,20
+,,,2012-01-27,Friendly,played,Romania,ROU,ROU,UEFA,Turkmenistan,,,,TRUE,4,0,win,Belek,Turkey,TRUE,1707,1348,1711,1344,4
+,,,2012-02-29,Friendly,played,Romania,ROU,ROU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,1,draw,Bucharest,Romania,FALSE,1711,1992,1716,1987,5
+,,,2012-05-30,Friendly,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Lucerne,Switzerland,FALSE,1716,1776,1730,1762,14
+,,,2012-06-05,Friendly,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,0,draw,Innsbruck,Austria,FALSE,1730,1603,1729,1604,-1
+,,,2012-08-15,Friendly,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,3,4,loss,Celje,Slovenia,FALSE,1729,1655,1720,1664,-9
+,,,2012-09-07,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Estonia,,,,FALSE,2,0,win,Tallinn,Estonia,FALSE,1720,1533,1743,1510,23
+,,,2012-09-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Andorra,,,,TRUE,4,0,win,Bucharest,Romania,FALSE,1743,1000,1744,999,1
+,,,2012-10-12,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,0,win,Istanbul,Turkey,FALSE,1744,1753,1770,1727,26
+,,,2012-10-16,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,4,loss,Bucharest,Romania,FALSE,1770,1972,1745,1997,-25
+,,,2012-11-14,Friendly,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,1,win,Bucharest,Romania,FALSE,1745,1795,1754,1786,9
+,,,2013-02-06,Friendly,played,Romania,ROU,ROU,UEFA,Australia,AUS,AUS,AFC,TRUE,3,2,win,Málaga,Spain,TRUE,1754,1773,1765,1762,11
+,,,2013-03-22,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,2,draw,Budapest,Hungary,FALSE,1765,1688,1766,1687,1
+,,,2013-03-26,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,4,loss,Amsterdam,Netherlands,FALSE,1766,1993,1756,2003,-10
+,,,2013-06-04,Friendly,played,Romania,ROU,ROU,UEFA,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,4,0,win,Bucharest,Romania,FALSE,1756,1420,1759,1417,3
+,,,2013-08-14,Friendly,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1759,1577,1752,1584,-7
+,,,2013-09-06,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,1752,1696,1772,1676,20
+,,,2013-09-10,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1772,1655,1725,1702,-47
+,,,2013-10-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Andorra,,,,FALSE,4,0,win,Sant Julià de Lòria,Andorra,FALSE,1725,996,1727,994,2
+,,,2013-10-15,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Estonia,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1727,1456,1733,1450,6
+,,,2013-11-15,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,3,loss,Piraeus,Greece,FALSE,1733,1826,1718,1841,-15
+,,,2013-11-19,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1718,1841,1719,1840,1
+,,,2014-03-05,Friendly,played,Romania,ROU,ROU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,0,0,draw,Bucharest,Romania,FALSE,1719,2020,1724,2015,5
+,,,2014-05-31,Friendly,played,Romania,ROU,ROU,UEFA,Albania,,,,FALSE,1,0,win,Yverdon-les-Bains,Switzerland,TRUE,1724,1519,1729,1514,5
+,,,2014-06-04,Friendly,played,Romania,ROU,ROU,UEFA,Algeria,DZA,DZA,CAF,TRUE,1,2,loss,Lancy,Switzerland,TRUE,1729,1612,1716,1625,-13
+,,,2014-09-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,0,win,Piraeus,Greece,FALSE,1716,1813,1746,1783,30
+,,,2014-10-11,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1746,1638,1735,1649,-11
+,,,2014-10-14,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,FALSE,2,0,win,Helsinki,Finland,FALSE,1735,1677,1769,1643,34
+,,,2014-11-14,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1769,1509,1776,1502,7
+,,,2014-11-18,Friendly,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,0,win,Bucharest,Romania,FALSE,1776,1764,1786,1754,10
+,,,2015-03-29,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Faroe Islands,,,,TRUE,1,0,win,Ploiești,Romania,FALSE,1786,1225,1787,1224,1
+,,,2015-06-13,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1787,1529,1778,1538,-9
+,,,2015-09-04,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,0,draw,Budapest,Hungary,FALSE,1778,1680,1778,1680,0
+,,,2015-09-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1778,1616,1765,1629,-13
+,,,2015-10-08,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Finland,,,,TRUE,1,1,draw,Bucharest,Romania,FALSE,1765,1596,1752,1609,-13
+,,,2015-10-11,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Faroe Islands,,,,FALSE,3,0,win,Tórshavn,Faroe Islands,FALSE,1752,1238,1758,1232,6
+,,,2015-11-17,Friendly,played,Romania,ROU,ROU,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,2,draw,Bologna,Italy,FALSE,1758,1876,1764,1870,6
+,,,2016-03-23,Friendly,played,Romania,ROU,ROU,UEFA,Lithuania,,,,TRUE,1,0,win,Giurgiu,Romania,FALSE,1764,1426,1765,1425,1
+,,,2016-03-27,Friendly,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Cluj,Romania,FALSE,1765,2000,1769,1996,4
+,,,2016-05-25,Friendly,played,Romania,ROU,ROU,UEFA,DR Congo,,,,TRUE,1,1,draw,Como,Italy,TRUE,1769,1543,1763,1549,-6
+,,,2016-05-29,Friendly,played,Romania,ROU,ROU,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,3,4,loss,Turin,Italy,TRUE,1763,1821,1755,1829,-8
+,,,2016-06-03,Friendly,played,Romania,ROU,ROU,UEFA,Georgia,,,,TRUE,5,1,win,Bucharest,Romania,FALSE,1755,1469,1759,1465,4
+,,,2016-06-10,UEFA Euro,played,Romania,ROU,ROU,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Saint-Denis,France,FALSE,1759,1974,1752,1981,-7
+,,,2016-06-15,UEFA Euro,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,1,draw,Paris,France,TRUE,1752,1785,1754,1783,2
+,,,2016-06-19,UEFA Euro,played,Romania,ROU,ROU,UEFA,Albania,,,,TRUE,0,1,loss,Lyon,France,TRUE,1754,1596,1718,1632,-36
+,,,2016-09-04,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Montenegro,,,,TRUE,1,1,draw,Cluj,Romania,FALSE,1718,1556,1705,1569,-13
+,,,2016-10-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Armenia,,,,FALSE,5,0,win,Yerevan,Armenia,FALSE,1705,1512,1735,1482,30
+,,,2016-10-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Kazakhstan,,,,FALSE,0,0,draw,Astana,Kazakhstan,FALSE,1735,1400,1723,1412,-12
+,,,2016-11-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,TRUE,0,3,loss,Bucharest,Romania,FALSE,1723,1822,1688,1857,-35
+,,,2016-11-15,Friendly,played,Romania,ROU,ROU,UEFA,Russia,RUS,RUS,UEFA,FALSE,0,1,loss,Groznyy,Russia,FALSE,1688,1682,1681,1689,-7
+,,,2017-03-26,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,0,draw,Cluj,Romania,FALSE,1681,1715,1677,1719,-4
+,,,2017-06-10,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Poland,POL,POL,UEFA,FALSE,1,3,loss,Warsaw,Poland,FALSE,1677,1862,1667,1872,-10
+,,,2017-06-13,Friendly,played,Romania,ROU,ROU,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,3,2,win,Cluj,Romania,FALSE,1667,1976,1682,1961,15
+,,,2017-09-01,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Armenia,,,,TRUE,1,0,win,Bucharest,Romania,FALSE,1682,1500,1689,1493,7
+,,,2017-09-04,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Montenegro,,,,FALSE,0,1,loss,Podgorica,Montenegro,FALSE,1689,1619,1671,1637,-18
+,,,2017-10-05,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Kazakhstan,,,,TRUE,3,1,win,Ploiești,Romania,FALSE,1671,1343,1676,1338,5
+,,,2017-10-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1676,1813,1688,1801,12
+,,,2017-11-09,Friendly,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,0,win,Cluj,Romania,FALSE,1688,1740,1701,1727,13
+,,,2017-11-14,Friendly,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,3,loss,Bucharest,Romania,FALSE,1701,1881,1687,1895,-14
+,,,2018-03-24,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,1,win,Netanya,Israel,FALSE,1687,1533,1695,1525,8
+,,,2018-03-27,Friendly,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,0,win,Craiova,Romania,FALSE,1695,1804,1705,1794,10
+,,,2018-05-31,Friendly,played,Romania,ROU,ROU,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,3,2,win,Graz,Austria,TRUE,1705,1873,1719,1859,14
+,,,2018-06-05,Friendly,played,Romania,ROU,ROU,UEFA,Finland,,,,TRUE,2,0,win,Ploiești,Romania,FALSE,1719,1603,1726,1596,7
+,,,2018-09-07,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Montenegro,,,,TRUE,0,0,draw,Ploiești,Romania,FALSE,1726,1595,1714,1607,-12
+,,,2018-09-10,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Serbia,SRB,SRB,UEFA,FALSE,2,2,draw,Belgrade,Serbia,FALSE,1714,1786,1723,1777,9
+,,,2018-10-11,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Lithuania,,,,FALSE,2,1,win,Vilnius,Lithuania,FALSE,1723,1376,1731,1368,8
+,,,2018-10-14,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1731,1802,1729,1804,-2
+,,,2018-11-17,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Lithuania,,,,TRUE,3,0,win,Ploiești,Romania,FALSE,1729,1345,1733,1341,4
+,,,2018-11-20,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Montenegro,,,,FALSE,1,0,win,Podgorica,Montenegro,FALSE,1733,1607,1752,1588,19
+,,,2019-03-23,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,2,loss,Stockholm,Sweden,FALSE,1752,1830,1741,1841,-11
+,,,2019-03-26,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Faroe Islands,,,,TRUE,4,1,win,Cluj-Napoca,Romania,FALSE,1741,1235,1743,1233,2
+,,,2019-06-07,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,2,draw,Oslo,Norway,FALSE,1743,1679,1745,1677,2
+,,,2019-06-10,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Malta,,,,FALSE,4,0,win,Attard,Malta,FALSE,1745,1194,1750,1189,5
+,,,2019-09-05,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,2,loss,Bucharest,Romania,FALSE,1750,2027,1739,2038,-11
+,,,2019-09-08,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Malta,,,,TRUE,1,0,win,Ploiești,Romania,FALSE,1739,1187,1740,1186,1
+,,,2019-10-12,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Faroe Islands,,,,FALSE,3,0,win,Tórshavn,Faroe Islands,FALSE,1740,1221,1746,1215,6
+,,,2019-10-15,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1746,1710,1739,1717,-7
+,,,2019-11-15,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,2,loss,Bucharest,Romania,FALSE,1739,1827,1708,1858,-31
+,,,2019-11-18,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,5,loss,Madrid,Spain,FALSE,1708,2020,1701,2027,-7
+,,,2020-09-04,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1701,1678,1694,1685,-7
+,,,2020-09-07,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,FALSE,3,2,win,Klagenfurt,Austria,FALSE,1694,1766,1723,1737,29
+,,,2020-10-08,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1723,1671,1706,1688,-17
+,,,2020-10-11,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,4,loss,Oslo,Norway,FALSE,1706,1720,1680,1746,-26
+,,,2020-10-14,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,1,loss,Ploiești,Romania,FALSE,1680,1762,1659,1783,-21
+,,,2020-11-11,Friendly,played,Romania,ROU,ROU,UEFA,Belarus,,,,TRUE,5,3,win,Ploiești,Romania,FALSE,1659,1503,1665,1497,6
+,,,2020-11-15,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Norway,NOR,NOR,UEFA,TRUE,3,0,win,Bucharest,Romania,FALSE,,,,,
+,,,2020-11-18,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1665,1587,1666,1586,1
+,,,2021-03-25,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,North Macedonia,,,,TRUE,3,2,win,Bucharest,Romania,FALSE,1666,1569,1676,1559,10
+,,,2021-03-28,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1676,1961,1666,1971,-10
+,,,2021-03-31,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Armenia,,,,FALSE,2,3,loss,Yerevan,Armenia,FALSE,1666,1558,1646,1578,-20
+,,,2021-06-02,Friendly,played,Romania,ROU,ROU,UEFA,Georgia,,,,TRUE,1,2,loss,Ploiești,Romania,FALSE,1646,1513,1630,1529,-16
+,,,2021-06-06,Friendly,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1630,1980,1629,1981,-1
+,,,2021-09-02,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Iceland,ISL,ISL,UEFA,FALSE,2,0,win,Reykjavík,Iceland,FALSE,1629,1612,1666,1575,37
+,,,2021-09-05,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Liechtenstein,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1666,1091,1667,1090,1
+,,,2021-09-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,North Macedonia,,,,FALSE,0,0,draw,Skopje,North Macedonia,FALSE,1667,1564,1667,1564,0
+,,,2021-10-08,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Hamburg,Germany,FALSE,1667,1937,1663,1941,-4
+,,,2021-10-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Armenia,,,,TRUE,1,0,win,Bucharest,Romania,FALSE,1663,1567,1673,1557,10
+,,,2021-11-11,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Iceland,ISL,ISL,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1673,1553,1662,1564,-11
+,,,2021-11-14,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Liechtenstein,,,,FALSE,2,0,win,Vaduz,Liechtenstein,FALSE,1662,1097,1666,1093,4
+,,,2022-03-25,Friendly,played,Romania,ROU,ROU,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1666,1670,1653,1683,-13
+,,,2022-03-29,Friendly,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,2,draw,Netanya,Israel,FALSE,1653,1627,1655,1625,2
+,,,2022-06-04,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Montenegro,,,,FALSE,0,2,loss,Podgorica,Montenegro,FALSE,1655,1518,1622,1551,-33
+,,,2022-06-07,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,0,1,loss,Zenica,Bosnia and Herzegovina,FALSE,1622,1600,1606,1616,-16
+,,,2022-06-11,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Finland,,,,TRUE,1,0,win,Bucharest,Romania,FALSE,1606,1701,1626,1681,20
+,,,2022-06-14,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Montenegro,,,,TRUE,0,3,loss,Bucharest,Romania,FALSE,1626,1538,1574,1590,-52
+,,,2022-09-23,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Finland,,,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1574,1663,1584,1653,10
+,,,2022-09-26,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,4,1,win,Bucharest,Romania,FALSE,1584,1647,1615,1616,31
+,,,2022-11-17,Friendly,played,Romania,ROU,ROU,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,1,2,loss,Cluj-Napoca,Romania,FALSE,1615,1651,1603,1663,-12
+,,,2022-11-20,Friendly,played,Romania,ROU,ROU,UEFA,Moldova,,,,FALSE,5,0,win,Chișinău,Moldova,FALSE,1603,1239,1610,1232,7
+,,,2023-03-25,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Andorra,,,,FALSE,2,0,win,Andorra la Vella,Andorra,FALSE,1610,1109,1615,1104,5
+,,,2023-03-28,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Belarus,,,,TRUE,2,1,win,Bucharest,Romania,FALSE,1615,1410,1621,1404,6
+,,,2023-06-16,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Kosovo,,,,FALSE,0,0,draw,Pristina,Kosovo,FALSE,1621,1500,1620,1501,-1
+,,,2023-06-19,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,2,draw,Lucerne,Switzerland,FALSE,1620,1891,1636,1875,16
+,,,2023-09-09,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1636,1612,1629,1619,-7
+,,,2023-09-12,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Kosovo,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1629,1489,1641,1477,12
+,,,2023-10-12,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Belarus,,,,FALSE,0,0,draw,Budapest,Hungary,TRUE,1641,1404,1629,1416,-12
+,,,2023-10-15,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Andorra,,,,TRUE,4,0,win,Bucharest,Romania,FALSE,1629,1115,1631,1113,2
+,,,2023-11-18,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,1,win,Felcsút,Hungary,TRUE,1631,1615,1650,1596,19
+,,,2023-11-21,UEFA Euro qualification,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1650,1815,1674,1791,24
+,,,2024-03-22,Friendly,played,Romania,ROU,ROU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Bucharest,Romania,FALSE,1674,1491,1667,1498,-7
+,,,2024-03-26,Friendly,played,Romania,ROU,ROU,UEFA,Colombia,COL,COL,CONMEBOL,FALSE,2,3,loss,Madrid,Spain,TRUE,1667,1995,1664,1998,-3
+,,,2024-06-04,Friendly,played,Romania,ROU,ROU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Bucharest,Romania,FALSE,1664,1473,1657,1480,-7
+,,,2024-06-07,Friendly,played,Romania,ROU,ROU,UEFA,Liechtenstein,,,,TRUE,0,0,draw,Bucharest,Romania,FALSE,1657,957,1647,967,-10
+,,,2024-06-17,UEFA Euro,played,Romania,ROU,ROU,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,3,0,win,Munich,Germany,TRUE,1647,1853,1714,1786,67
+,,,2024-06-22,UEFA Euro,played,Romania,ROU,ROU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Cologne,Germany,TRUE,1714,1945,1698,1961,-16
+,,,2024-06-26,UEFA Euro,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,1,draw,Frankfurt,Germany,TRUE,1698,1693,1698,1693,0
+,,,2024-07-02,UEFA Euro,played,Romania,ROU,ROU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,3,loss,Munich,Germany,TRUE,1698,1959,1682,1975,-16
+,,,2024-09-06,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Kosovo,,,,FALSE,3,0,win,Pristina,Kosovo,FALSE,1682,1505,1709,1478,27
+,,,2024-09-09,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Lithuania,,,,TRUE,3,1,win,Bucharest,Romania,FALSE,1709,1328,1713,1324,4
+,,,2024-10-12,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,3,0,win,Larnaca,Cyprus,FALSE,1713,1309,1723,1299,10
+,,,2024-10-15,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Lithuania,,,,FALSE,2,1,win,Kaunas,Lithuania,FALSE,1723,1309,1729,1303,6
+,,,2024-11-15,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Kosovo,,,,TRUE,0,0,draw,Bucharest,Romania,FALSE,1729,1536,1715,1550,-14
+,,,2024-11-18,UEFA Nations League,played,Romania,ROU,ROU,UEFA,Cyprus,,,,TRUE,4,1,win,Bucharest,Romania,FALSE,1715,1305,1719,1301,4
+,,,2025-03-21,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,0,1,loss,Bucharest,Romania,FALSE,1719,1485,1684,1520,-35
+,,,2025-03-24,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,San Marino,,,,FALSE,5,1,win,Serravalle,San Marino,FALSE,1684,846,1685,845,1
+,,,2025-06-07,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,2,loss,Vienna,Austria,FALSE,1685,1837,1677,1845,-8
+,,,2025-06-10,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,TRUE,2,0,win,Bucharest,Romania,FALSE,1677,1303,1681,1299,4
+,,,2025-09-05,Friendly,played,Romania,ROU,ROU,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,0,3,loss,Bucharest,Romania,FALSE,1681,1768,1663,1786,-18
+,,,2025-09-09,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Cyprus,,,,FALSE,2,2,draw,Nicosia,Cyprus,FALSE,1663,1298,1650,1311,-13
+,,,2025-10-09,Friendly,played,Romania,ROU,ROU,UEFA,Moldova,,,,TRUE,2,1,win,Bucharest,Romania,FALSE,1650,1300,1651,1299,1
+,,,2025-10-12,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Bucharest,Romania,FALSE,1651,1855,1677,1829,26
+,,,2025-11-15,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,1,3,loss,Zenica,Bosnia and Herzegovina,FALSE,1677,1521,1642,1556,-35
+,,,2025-11-18,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,San Marino,,,,TRUE,7,1,win,Ploiești,Romania,FALSE,1642,833,1642,833,0
+,,,2026-03-26,FIFA World Cup qualification,played,Romania,ROU,ROU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,1,loss,Istanbul,Turkey,FALSE,1642,1880,1637,1885,-5
+,,,2026-03-31,Friendly,played,Romania,ROU,ROU,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,0,2,loss,Bratislava,Slovakia,FALSE,1637,1663,1627,1673,-10

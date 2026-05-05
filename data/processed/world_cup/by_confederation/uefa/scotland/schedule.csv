@@ -1,27 +1,27 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1954 FIFA Men's World Cup,WC-1954,1954,1,1954-06-16,Group Stage,played,Scotland,SCO,Austria,AUT,FALSE,Zürich,Switzerland,TRUE,1900,1868
-1954 FIFA Men's World Cup,WC-1954,1954,12,1954-06-19,Group Stage,played,Scotland,SCO,Uruguay,URY,TRUE,Basel,Switzerland,TRUE,1867,1906
-1958 FIFA Men's World Cup,WC-1958,1958,7,1958-06-08,Group Stage,played,Scotland,SCO,Yugoslavia,YUG,TRUE,Västerås,Sweden,TRUE,1829,1914
-1958 FIFA Men's World Cup,WC-1958,1958,15,1958-06-11,Group Stage,played,Scotland,SCO,Paraguay,PRY,FALSE,Norrköping,Sweden,TRUE,1836,1709
-1958 FIFA Men's World Cup,WC-1958,1958,20,1958-06-15,Group Stage,played,Scotland,SCO,France,FRA,FALSE,Örebro,Sweden,TRUE,1795,1854
-1974 FIFA Men's World Cup,WC-1974,1974,2,1974-06-14,Group Stage,played,Scotland,SCO,DR Congo,,FALSE,Dortmund,Germany,TRUE,1767,1655
-1974 FIFA Men's World Cup,WC-1974,1974,11,1974-06-18,Group Stage,played,Scotland,SCO,Brazil,BRA,TRUE,Frankfurt am Main,Germany,TRUE,1865,2103
-1974 FIFA Men's World Cup,WC-1974,1974,20,1974-06-22,Group Stage,played,Scotland,SCO,Yugoslavia,YUG,TRUE,Frankfurt am Main,Germany,TRUE,1883,1984
-1978 FIFA Men's World Cup,WC-1978,1978,8,1978-06-03,Group Stage,played,Scotland,SCO,Peru,PER,FALSE,Córdoba,Argentina,TRUE,1944,1754
-1978 FIFA Men's World Cup,WC-1978,1978,15,1978-06-07,Group Stage,played,Scotland,SCO,Iran,IRN,FALSE,Córdoba,Argentina,TRUE,1877,1786
-1978 FIFA Men's World Cup,WC-1978,1978,23,1978-06-11,Group Stage,played,Scotland,SCO,Netherlands,NLD,FALSE,Mendoza,Argentina,TRUE,1869,2089
-1982 FIFA Men's World Cup,WC-1982,1982,6,1982-06-15,Group Stage,played,Scotland,SCO,New Zealand,NZL,TRUE,Málaga,Spain,TRUE,1840,1596
-1982 FIFA Men's World Cup,WC-1982,1982,14,1982-06-18,Group Stage,played,Scotland,SCO,Brazil,BRA,FALSE,Seville,Spain,TRUE,1861,2116
-1982 FIFA Men's World Cup,WC-1982,1982,27,1982-06-22,Group Stage,played,Scotland,SCO,Soviet Union,SUN,FALSE,Málaga,Spain,TRUE,1841,1998
-1986 FIFA Men's World Cup,WC-1986,1986,11,1986-06-04,Group Stage,played,Scotland,SCO,Denmark,DNK,TRUE,Nezahualcóyotl,Mexico,TRUE,1874,1893
-1986 FIFA Men's World Cup,WC-1986,1986,23,1986-06-08,Group Stage,played,Scotland,SCO,Germany,DEU,FALSE,Querétaro,Mexico,TRUE,1767,1923
-1986 FIFA Men's World Cup,WC-1986,1986,36,1986-06-13,Group Stage,played,Scotland,SCO,Uruguay,URY,TRUE,Nezahualcóyotl,Mexico,TRUE,1823,1795
-1990 FIFA Men's World Cup,WC-1990,1990,8,1990-06-11,Group Stage,played,Scotland,SCO,Costa Rica,CRI,FALSE,Genoa,Italy,TRUE,1739,1612
-1990 FIFA Men's World Cup,WC-1990,1990,21,1990-06-16,Group Stage,played,Scotland,SCO,Sweden,SWE,FALSE,Genoa,Italy,TRUE,1698,1926
-1990 FIFA Men's World Cup,WC-1990,1990,31,1990-06-20,Group Stage,played,Scotland,SCO,Brazil,BRA,FALSE,Turin,Italy,TRUE,1745,2026
-1998 FIFA Men's World Cup,WC-1998,1998,1,1998-06-10,Group Stage,played,Scotland,SCO,Brazil,BRA,FALSE,Saint-Denis,France,TRUE,1776,2092
-1998 FIFA Men's World Cup,WC-1998,1998,18,1998-06-16,Group Stage,played,Scotland,SCO,Norway,NOR,TRUE,Bordeaux,France,TRUE,1768,1889
-1998 FIFA Men's World Cup,WC-1998,1998,36,1998-06-23,Group Stage,played,Scotland,SCO,Morocco,MAR,TRUE,Saint-Étienne,France,TRUE,1778,1729
-2026 FIFA Men's World Cup,WC-2026,2026,7,2026-06-13,Group Stage,scheduled,Scotland,SCO,Haiti,HTI,FALSE,Foxborough,United States,TRUE,1767,1532
-2026 FIFA Men's World Cup,WC-2026,2026,29,2026-06-19,Group Stage,scheduled,Scotland,SCO,Morocco,MAR,TRUE,Foxborough,United States,TRUE,1767,1821
-2026 FIFA Men's World Cup,WC-2026,2026,53,2026-06-24,Group Stage,scheduled,Scotland,SCO,Brazil,BRA,TRUE,Miami Gardens,United States,TRUE,1767,1984
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_001,1,1954-06-16,Group Stage,played,Scotland,SCO,SCO,UEFA,Austria,AUT,AUT,UEFA,FALSE,Zürich,Switzerland,TRUE,1900,1868
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_012,12,1954-06-19,Group Stage,played,Scotland,SCO,SCO,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,Basel,Switzerland,TRUE,1867,1906
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_007,7,1958-06-08,Group Stage,played,Scotland,SCO,SCO,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,Västerås,Sweden,TRUE,1829,1914
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_015,15,1958-06-11,Group Stage,played,Scotland,SCO,SCO,UEFA,Paraguay,PRY,PRY,CONMEBOL,FALSE,Norrköping,Sweden,TRUE,1836,1709
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_020,20,1958-06-15,Group Stage,played,Scotland,SCO,SCO,UEFA,France,FRA,FRA,UEFA,FALSE,Örebro,Sweden,TRUE,1795,1854
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_002,2,1974-06-14,Group Stage,played,Scotland,SCO,SCO,UEFA,DR Congo,,,,FALSE,Dortmund,Germany,TRUE,1767,1655
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_011,11,1974-06-18,Group Stage,played,Scotland,SCO,SCO,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,Frankfurt am Main,Germany,TRUE,1865,2103
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_020,20,1974-06-22,Group Stage,played,Scotland,SCO,SCO,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,Frankfurt am Main,Germany,TRUE,1883,1984
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_008,8,1978-06-03,Group Stage,played,Scotland,SCO,SCO,UEFA,Peru,PER,PER,CONMEBOL,FALSE,Córdoba,Argentina,TRUE,1944,1754
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_015,15,1978-06-07,Group Stage,played,Scotland,SCO,SCO,UEFA,Iran,IRN,IRN,AFC,FALSE,Córdoba,Argentina,TRUE,1877,1786
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_023,23,1978-06-11,Group Stage,played,Scotland,SCO,SCO,UEFA,Netherlands,NED,NLD,UEFA,FALSE,Mendoza,Argentina,TRUE,1869,2089
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_006,6,1982-06-15,Group Stage,played,Scotland,SCO,SCO,UEFA,New Zealand,NZL,NZL,OFC,TRUE,Málaga,Spain,TRUE,1840,1596
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_014,14,1982-06-18,Group Stage,played,Scotland,SCO,SCO,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Seville,Spain,TRUE,1861,2116
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_027,27,1982-06-22,Group Stage,played,Scotland,SCO,SCO,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,Málaga,Spain,TRUE,1841,1998
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_011,11,1986-06-04,Group Stage,played,Scotland,SCO,SCO,UEFA,Denmark,DNK,DNK,UEFA,TRUE,Nezahualcóyotl,Mexico,TRUE,1874,1893
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_023,23,1986-06-08,Group Stage,played,Scotland,SCO,SCO,UEFA,Germany,GER,DEU,UEFA,FALSE,Querétaro,Mexico,TRUE,1767,1923
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_036,36,1986-06-13,Group Stage,played,Scotland,SCO,SCO,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,Nezahualcóyotl,Mexico,TRUE,1823,1795
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_008,8,1990-06-11,Group Stage,played,Scotland,SCO,SCO,UEFA,Costa Rica,CRI,CRI,CONCACAF,FALSE,Genoa,Italy,TRUE,1739,1612
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_021,21,1990-06-16,Group Stage,played,Scotland,SCO,SCO,UEFA,Sweden,SWE,SWE,UEFA,FALSE,Genoa,Italy,TRUE,1698,1926
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_031,31,1990-06-20,Group Stage,played,Scotland,SCO,SCO,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Turin,Italy,TRUE,1745,2026
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_001,1,1998-06-10,Group Stage,played,Scotland,SCO,SCO,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Saint-Denis,France,TRUE,1776,2092
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_018,18,1998-06-16,Group Stage,played,Scotland,SCO,SCO,UEFA,Norway,NOR,NOR,UEFA,TRUE,Bordeaux,France,TRUE,1768,1889
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_036,36,1998-06-23,Group Stage,played,Scotland,SCO,SCO,UEFA,Morocco,MAR,MAR,CAF,TRUE,Saint-Étienne,France,TRUE,1778,1729
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_007,7,2026-06-13,Group Stage,scheduled,Scotland,SCO,SCO,UEFA,Haiti,HTI,HTI,CONCACAF,FALSE,Foxborough,United States,TRUE,1767,1532
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_029,29,2026-06-19,Group Stage,scheduled,Scotland,SCO,SCO,UEFA,Morocco,MAR,MAR,CAF,TRUE,Foxborough,United States,TRUE,1767,1821
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_053,53,2026-06-24,Group Stage,scheduled,Scotland,SCO,SCO,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,Miami Gardens,United States,TRUE,1767,1984

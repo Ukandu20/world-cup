@@ -1,4 +1,4 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2006 FIFA Men's World Cup,WC-2006,2006,5,2006-06-10,Group Stage,played,Trinidad and Tobago,TTO,Sweden,SWE,TRUE,Dortmund,Germany,TRUE,1566,1859
-2006 FIFA Men's World Cup,WC-2006,2006,19,2006-06-15,Group Stage,played,Trinidad and Tobago,TTO,England,ENG,FALSE,Nuremberg,Germany,TRUE,1587,1988
-2006 FIFA Men's World Cup,WC-2006,2006,35,2006-06-20,Group Stage,played,Trinidad and Tobago,TTO,Paraguay,PRY,FALSE,Kaiserslautern,Germany,TRUE,1579,1740
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_005,5,2006-06-10,Group Stage,played,Trinidad and Tobago,TTO,TTO,CONCACAF,Sweden,SWE,SWE,UEFA,TRUE,Dortmund,Germany,TRUE,1566,1859
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_019,19,2006-06-15,Group Stage,played,Trinidad and Tobago,TTO,TTO,CONCACAF,England,ENG,ENG,UEFA,FALSE,Nuremberg,Germany,TRUE,1587,1988
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_035,35,2006-06-20,Group Stage,played,Trinidad and Tobago,TTO,TTO,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,FALSE,Kaiserslautern,Germany,TRUE,1579,1740

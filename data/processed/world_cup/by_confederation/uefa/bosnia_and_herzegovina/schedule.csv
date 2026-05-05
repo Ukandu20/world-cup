@@ -1,7 +1,7 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2014 FIFA Men's World Cup,WC-2014,2014,9,2014-06-15,Group Stage,played,Bosnia and Herzegovina,BIH,Argentina,ARG,FALSE,Rio de Janeiro,Brazil,TRUE,1785,2018
-2014 FIFA Men's World Cup,WC-2014,2014,29,2014-06-21,Group Stage,played,Bosnia and Herzegovina,BIH,Nigeria,NGA,FALSE,Cuiabá,Brazil,TRUE,1773,1726
-2014 FIFA Men's World Cup,WC-2014,2014,41,2014-06-25,Group Stage,played,Bosnia and Herzegovina,BIH,Iran,IRN,TRUE,Salvador,Brazil,TRUE,1739,1708
-2026 FIFA Men's World Cup,WC-2026,2026,3,2026-06-12,Group Stage,scheduled,Bosnia and Herzegovina,BIH,Canada,CAN,FALSE,Toronto,Canada,FALSE,1594,1784
-2026 FIFA Men's World Cup,WC-2026,2026,27,2026-06-18,Group Stage,scheduled,Bosnia and Herzegovina,BIH,Switzerland,CHE,FALSE,Inglewood,United States,TRUE,1594,1889
-2026 FIFA Men's World Cup,WC-2026,2026,52,2026-06-24,Group Stage,scheduled,Bosnia and Herzegovina,BIH,Qatar,QAT,TRUE,Seattle,United States,TRUE,1594,1425
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_009,9,2014-06-15,Group Stage,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Rio de Janeiro,Brazil,TRUE,1785,2018
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_029,29,2014-06-21,Group Stage,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Nigeria,NGA,NGA,CAF,FALSE,Cuiabá,Brazil,TRUE,1773,1726
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_041,41,2014-06-25,Group Stage,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Iran,IRN,IRN,AFC,TRUE,Salvador,Brazil,TRUE,1739,1708
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_003,3,2026-06-12,Group Stage,scheduled,Bosnia and Herzegovina,BIH,BIH,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,Toronto,Canada,FALSE,1594,1784
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_027,27,2026-06-18,Group Stage,scheduled,Bosnia and Herzegovina,BIH,BIH,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,Inglewood,United States,TRUE,1594,1889
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_052,52,2026-06-24,Group Stage,scheduled,Bosnia and Herzegovina,BIH,BIH,UEFA,Qatar,QAT,QAT,AFC,TRUE,Seattle,United States,TRUE,1594,1425

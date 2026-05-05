@@ -1,637 +1,637 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1938-02-10,Central American and Caribbean Games,played,Colombia,COL,Mexico,MEX,FALSE,1,3,loss,Panama City,Panama,TRUE,1400,1789,1394,1795,-6
-1938-02-14,Central American and Caribbean Games,played,Colombia,COL,Panama,PAN,FALSE,4,2,win,Panama City,Panama,FALSE,1394,1314,1426,1282,32
-1938-02-18,Central American and Caribbean Games,played,Colombia,COL,Costa Rica,CRI,TRUE,1,2,loss,Panama City,Panama,TRUE,1426,1843,1423,1846,-3
-1938-02-21,Central American and Caribbean Games,played,Colombia,COL,El Salvador,SLV,TRUE,3,2,win,Panama City,Panama,TRUE,1423,1433,1444,1412,21
-1938-02-23,Central American and Caribbean Games,played,Colombia,COL,Venezuela,,FALSE,1,2,loss,Panama City,Panama,TRUE,1444,1270,1415,1299,-29
-1938-08-08,Bolivarian Games,played,Colombia,COL,Peru,PER,TRUE,2,4,loss,Bogotá,Colombia,FALSE,1415,1588,1391,1612,-24
-1938-08-10,Bolivarian Games,played,Colombia,COL,Ecuador,ECU,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1391,1297,1361,1327,-30
-1938-08-13,Bolivarian Games,played,Colombia,COL,Venezuela,,TRUE,2,0,win,Bogotá,Colombia,FALSE,1361,1265,1376,1250,15
-1938-08-16,Bolivarian Games,played,Colombia,COL,Bolivia,BOL,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1376,1273,1345,1304,-31
-1945-01-21,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,0,3,loss,Santiago,Chile,TRUE,1345,1910,1342,1913,-3
-1945-01-28,Copa América,played,Colombia,COL,Uruguay,URY,TRUE,0,7,loss,Santiago,Chile,TRUE,1342,1945,1339,1948,-3
-1945-01-31,Copa América,played,Colombia,COL,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1339,1608,1331,1616,-8
-1945-02-07,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,1,9,loss,Santiago,Chile,TRUE,1331,2090,1330,2091,-1
-1945-02-18,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,3,1,win,Santiago,Chile,TRUE,1330,1240,1358,1212,28
-1945-02-21,Copa América,played,Colombia,COL,Bolivia,BOL,FALSE,3,3,draw,Santiago,Chile,TRUE,1358,1305,1354,1309,-4
-1946-12-09,Central American and Caribbean Games,played,Colombia,COL,Curaçao,,TRUE,4,2,win,Barranquilla,Colombia,FALSE,1354,1564,1393,1525,39
-1946-12-12,Central American and Caribbean Games,played,Colombia,COL,Venezuela,,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1393,1288,1407,1274,14
-1946-12-15,Central American and Caribbean Games,played,Colombia,COL,Guatemala,,TRUE,4,2,win,Barranquilla,Colombia,FALSE,1407,1497,1436,1468,29
-1946-12-16,Central American and Caribbean Games,played,Colombia,COL,Puerto Rico,,TRUE,4,1,win,Barranquilla,Colombia,FALSE,,,,,
-1946-12-18,Central American and Caribbean Games,played,Colombia,COL,Costa Rica,CRI,TRUE,4,1,win,Barranquilla,Colombia,FALSE,1438,1682,1487,1633,49
-1946-12-20,Central American and Caribbean Games,played,Colombia,COL,Panama,PAN,TRUE,2,1,win,Barranquilla,Colombia,FALSE,1487,1344,1495,1336,8
-1947-12-02,Copa América,played,Colombia,COL,Uruguay,URY,TRUE,0,2,loss,Guayaquil,Ecuador,TRUE,1495,1821,1485,1831,-10
-1947-12-04,Copa América,played,Colombia,COL,Ecuador,ECU,FALSE,0,0,draw,Guayaquil,Ecuador,FALSE,1485,1208,1473,1220,-12
-1947-12-13,Copa América,played,Colombia,COL,Bolivia,BOL,FALSE,0,0,draw,Guayaquil,Ecuador,TRUE,1473,1284,1461,1296,-12
-1947-12-18,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,0,6,loss,Guayaquil,Ecuador,TRUE,1461,2079,1458,2082,-3
-1947-12-20,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,0,2,loss,Guayaquil,Ecuador,TRUE,1458,1810,1449,1819,-9
-1947-12-23,Copa América,played,Colombia,COL,Peru,PER,TRUE,1,5,loss,Guayaquil,Ecuador,TRUE,1449,1626,1424,1651,-25
-1947-12-29,Copa América,played,Colombia,COL,Chile,CHL,FALSE,1,4,loss,Guayaquil,Ecuador,TRUE,,,,,
-1949-04-06,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,0,3,loss,São Paulo,Brazil,TRUE,1408,1841,1401,1848,-7
-1949-04-10,Copa América,played,Colombia,COL,Peru,PER,TRUE,0,4,loss,Rio de Janeiro,Brazil,TRUE,1401,1646,1383,1664,-18
-1949-04-17,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,0,5,loss,São Paulo,Brazil,FALSE,1383,1957,1381,1959,-2
-1949-04-20,Copa América,played,Colombia,COL,Chile,CHL,FALSE,1,1,draw,Rio de Janeiro,Brazil,TRUE,1381,1656,1397,1640,16
-1949-04-25,Copa América,played,Colombia,COL,Uruguay,URY,FALSE,2,2,draw,São Paulo,Brazil,TRUE,1397,1850,1419,1828,22
-1949-05-03,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,1,4,loss,Rio de Janeiro,Brazil,TRUE,1419,1183,1349,1253,-70
-1949-05-06,Copa América,played,Colombia,COL,Bolivia,BOL,FALSE,0,4,loss,Rio de Janeiro,Brazil,TRUE,1349,1368,1305,1412,-44
-1957-03-13,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,2,8,loss,Lima,Peru,TRUE,1305,2096,1304,2097,-1
-1957-03-17,Copa América,played,Colombia,COL,Uruguay,URY,TRUE,1,0,win,Lima,Peru,TRUE,1304,1936,1353,1887,49
-1957-03-21,Copa América,played,Colombia,COL,Chile,CHL,FALSE,2,3,loss,Lima,Peru,TRUE,1353,1741,1348,1746,-5
-1957-03-24,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,0,9,loss,Lima,Peru,TRUE,1348,2040,1346,2042,-2
-1957-03-27,Copa América,played,Colombia,COL,Peru,PER,FALSE,1,4,loss,Lima,Peru,FALSE,1346,1716,1341,1721,-5
-1957-04-01,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,4,1,win,Lima,Peru,TRUE,1341,1274,1376,1239,35
-1957-06-16,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1376,1966,1394,1948,18
-1957-06-20,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,2,3,loss,Bogotá,Colombia,FALSE,1394,1705,1385,1714,-9
-1957-06-23,Friendly,played,Colombia,COL,Paraguay,PRY,TRUE,1,2,loss,Medellín,Colombia,FALSE,1385,1714,1381,1718,-4
-1957-06-30,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1381,1948,1380,1949,-1
-1957-07-07,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,0,3,loss,Asunción,Paraguay,FALSE,1380,1718,1375,1723,-5
-1961-02-05,Friendly,played,Colombia,COL,United States,USA,TRUE,2,0,win,Bogotá,Colombia,FALSE,1375,1447,1389,1433,14
-1961-04-30,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,1,0,win,Bogotá,Colombia,FALSE,1389,1746,1422,1713,33
-1961-05-07,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1422,1713,1438,1697,16
-1962-04-01,Friendly,played,Colombia,COL,Mexico,MEX,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1438,1804,1434,1808,-4
-1962-04-04,Friendly,played,Colombia,COL,Mexico,MEX,TRUE,2,2,draw,Cali,Colombia,FALSE,1434,1808,1441,1801,7
-1962-04-25,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1441,1801,1440,1802,-1
-1962-05-30,FIFA World Cup,played,Colombia,COL,Uruguay,URY,TRUE,1,2,loss,Arica,Chile,TRUE,1440,1906,1436,1910,-4
-1962-06-03,FIFA World Cup,played,Colombia,COL,Soviet Union,SUN,TRUE,4,4,draw,Arica,Chile,TRUE,1436,2070,1464,2042,28
-1962-06-07,FIFA World Cup,played,Colombia,COL,Yugoslavia,YUG,TRUE,0,5,loss,Arica,Chile,TRUE,1464,1985,1458,1991,-6
-1963-03-10,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,2,4,loss,Cochabamba,Bolivia,TRUE,1458,1959,1454,1963,-4
-1963-03-14,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,1,5,loss,La Paz,Bolivia,TRUE,1454,2189,1453,2190,-1
-1963-03-17,Copa América,played,Colombia,COL,Bolivia,BOL,FALSE,1,2,loss,Cochabamba,Bolivia,FALSE,1453,1536,1440,1549,-13
-1963-03-20,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,2,3,loss,Cochabamba,Bolivia,TRUE,1440,1742,1433,1749,-7
-1963-03-24,Copa América,played,Colombia,COL,Peru,PER,TRUE,1,1,draw,La Paz,Bolivia,TRUE,1433,1697,1449,1681,16
-1963-03-31,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,3,4,loss,La Paz,Bolivia,TRUE,1449,1347,1417,1379,-32
-1963-09-01,Friendly,played,Colombia,COL,Costa Rica,CRI,TRUE,4,5,loss,Bogotá,Colombia,FALSE,1417,1788,1414,1791,-3
-1963-09-04,Friendly,played,Colombia,COL,Costa Rica,CRI,TRUE,1,0,win,Cali,Colombia,FALSE,1414,1791,1431,1774,17
-1965-07-20,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1431,1379,1403,1407,-28
-1965-07-25,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,0,2,loss,Guayaquil,Ecuador,FALSE,1403,1407,1382,1428,-21
-1965-08-01,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,2,7,loss,Santiago,Chile,FALSE,1382,1826,1379,1829,-3
-1965-08-07,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1379,1829,1432,1776,53
-1966-11-30,Copa América qualification,played,Colombia,COL,Chile,CHL,FALSE,2,5,loss,Santiago,Chile,FALSE,1432,1727,1425,1734,-7
-1966-12-11,Copa América qualification,played,Colombia,COL,Chile,CHL,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1425,1734,1436,1723,11
-1968-10-16,Friendly,played,Colombia,COL,Mexico,MEX,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1436,1842,1433,1845,-3
-1969-02-04,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,1,loss,León,Mexico,FALSE,1433,1858,1432,1859,-1
-1969-02-20,Friendly,played,Colombia,COL,Soviet Union,SUN,TRUE,1,3,loss,Bogotá,Colombia,FALSE,1432,1946,1429,1949,-3
-1969-05-08,Friendly,played,Colombia,COL,Peru,PER,TRUE,1,3,loss,Bogotá,Colombia,FALSE,1429,1599,1417,1611,-12
-1969-06-15,Friendly,played,Colombia,COL,Chile,CHL,TRUE,3,3,draw,Bogotá,Colombia,FALSE,1417,1798,1424,1791,7
-1969-06-18,Friendly,played,Colombia,COL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1424,1641,1431,1634,7
-1969-06-22,Friendly,played,Colombia,COL,Ecuador,ECU,FALSE,1,4,loss,Guayaquil,Ecuador,FALSE,1431,1436,1419,1448,-12
-1969-07-02,Friendly,played,Colombia,COL,Uruguay,URY,TRUE,0,1,loss,Cali,Colombia,FALSE,1419,1828,1416,1831,-3
-1969-07-27,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,3,0,win,Bogotá,Colombia,FALSE,1416,1402,1440,1378,24
-1969-08-02,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,1,1,draw,Caracas,Venezuela,FALSE,1440,1378,1442,1376,2
-1969-08-06,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,TRUE,0,2,loss,Bogotá,Colombia,FALSE,1442,2007,1438,2011,-4
-1969-08-10,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1438,1739,1428,1749,-10
-1969-08-21,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,FALSE,2,6,loss,Rio de Janeiro,Brazil,FALSE,1428,2034,1427,2035,-1
-1969-08-24,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1427,1732,1423,1736,-4
-1970-05-20,Friendly,played,Colombia,COL,England,ENG,TRUE,0,4,loss,Bogotá,Colombia,FALSE,1423,2067,1421,2069,-2
-1972-03-29,Friendly,played,Colombia,COL,Peru,PER,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1411,1732,1417,1726,6
-1972-06-06,Friendly,played,Colombia,COL,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1408,1702,1416,1694,8
-1972-06-18,Brazil Independence Cup,played,Colombia,COL,France,FRA,TRUE,2,3,loss,Salvador,Brazil,TRUE,1416,1775,1412,1779,-4
-1972-06-22,Brazil Independence Cup,played,Colombia,COL,Argentina,ARG,FALSE,1,4,loss,Salvador,Brazil,TRUE,1412,1882,1408,1886,-4
-1973-02-15,Friendly,played,Colombia,COL,German DR,DDR,TRUE,0,2,loss,Bogotá,Colombia,FALSE,1408,1873,1405,1876,-3
-1973-05-27,Friendly,played,Colombia,COL,Haiti,HTI,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1405,1599,1422,1582,17
-1973-05-29,Friendly,played,Colombia,COL,Haiti,HTI,FALSE,1,2,loss,Port-au-Prince,Haiti,FALSE,1422,1582,1418,1586,-4
-1973-06-21,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1418,1461,1415,1464,-3
-1973-06-24,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1415,1793,1428,1780,13
-1973-06-28,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,1,1,draw,Guayaquil,Ecuador,FALSE,1428,1464,1435,1457,7
-1973-07-01,Friendly,played,Colombia,COL,Peru,PER,FALSE,1,3,loss,Lima,Peru,FALSE,1435,1713,1432,1716,-3
-1973-07-05,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,1,0,win,Montevideo,Uruguay,FALSE,1432,1789,1469,1752,37
-1975-07-20,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,1,0,win,Bogotá,Colombia,FALSE,1469,1753,1506,1716,37
-1975-07-27,Copa América,played,Colombia,COL,Ecuador,ECU,FALSE,3,1,win,Quito,Ecuador,FALSE,1506,1480,1551,1435,45
-1975-07-30,Copa América,played,Colombia,COL,Paraguay,PRY,FALSE,1,0,win,Asunción,Paraguay,FALSE,1551,1706,1592,1665,41
-1975-08-07,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,2,0,win,Bogotá,Colombia,FALSE,1592,1435,1606,1421,14
-1975-09-21,Copa América,played,Colombia,COL,Uruguay,URY,TRUE,3,0,win,Bogotá,Colombia,FALSE,1606,1734,1653,1687,47
-1975-10-01,Copa América,played,Colombia,COL,Uruguay,URY,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1653,1687,1637,1703,-16
-1975-10-16,Copa América,played,Colombia,COL,Peru,PER,TRUE,1,0,win,Bogotá,Colombia,FALSE,1637,1768,1664,1741,27
-1975-10-22,Copa América,played,Colombia,COL,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1664,1741,1644,1761,-20
-1975-10-28,Copa América,played,Colombia,COL,Peru,PER,TRUE,0,1,loss,Caracas,Venezuela,TRUE,1644,1761,1627,1778,-17
-1976-10-15,Friendly,played,Colombia,COL,Uruguay,URY,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1627,1663,1615,1675,-12
-1977-01-16,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1615,1421,1598,1438,-17
-1977-01-26,Friendly,played,Colombia,COL,Ecuador,ECU,FALSE,1,4,loss,Quito,Ecuador,FALSE,1598,1428,1577,1449,-21
-1977-01-30,Friendly,played,Colombia,COL,Yugoslavia,YUG,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1577,1867,1572,1872,-5
-1977-02-20,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1572,2093,1589,2076,17
-1977-02-24,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1589,1675,1568,1696,-21
-1977-03-06,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1568,1696,1580,1684,12
-1977-03-09,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,FALSE,0,6,loss,Rio de Janeiro,Brazil,FALSE,1580,2076,1577,2079,-3
-1979-07-18,Friendly,played,Colombia,COL,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1581,1810,1598,1793,17
-1979-07-25,Friendly,played,Colombia,COL,Peru,PER,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1598,1793,1591,1800,-7
-1979-08-01,Copa América,played,Colombia,COL,Venezuela,,FALSE,0,0,draw,San Cristóbal,Venezuela,FALSE,1591,1328,1580,1339,-11
-1979-08-15,Copa América,played,Colombia,COL,Chile,CHL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1580,1619,1601,1598,21
-1979-08-22,Copa América,played,Colombia,COL,Venezuela,,TRUE,4,0,win,Bogotá,Colombia,FALSE,1601,1352,1612,1341,11
-1979-09-05,Copa América,played,Colombia,COL,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1612,1611,1585,1638,-27
-1980-07-09,Friendly,played,Colombia,COL,Poland,POL,TRUE,1,4,loss,Bogotá,Colombia,FALSE,1585,1931,1578,1938,-7
-1981-02-01,Friendly,played,Colombia,COL,Brazil,BRA,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1578,2053,1586,2045,8
-1981-03-10,Friendly,played,Colombia,COL,Chile,CHL,FALSE,0,1,loss,Santiago,Chile,FALSE,1586,1706,1582,1710,-4
-1981-03-15,Friendly,played,Colombia,COL,Paraguay,PRY,FALSE,2,0,win,Asunción,Paraguay,FALSE,1582,1785,1608,1759,26
-1981-03-19,Friendly,played,Colombia,COL,Chile,CHL,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1608,1709,1598,1719,-10
-1981-07-02,Friendly,played,Colombia,COL,Spain,ESP,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1598,1850,1602,1846,4
-1981-07-26,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1602,1693,1601,1694,-1
-1981-08-09,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,2,3,loss,Montevideo,Uruguay,FALSE,1601,1818,1595,1824,-6
-1981-08-16,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,0,2,loss,Lima,Peru,FALSE,1595,1683,1580,1698,-15
-1981-09-13,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1580,1795,1586,1789,6
-1983-07-14,Friendly,played,Colombia,COL,Chile,CHL,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1586,1702,1586,1702,0
-1983-07-26,Friendly,played,Colombia,COL,Ecuador,ECU,FALSE,0,0,draw,Quito,Ecuador,FALSE,1586,1482,1586,1482,0
-1983-07-29,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1586,1482,1581,1487,-5
-1983-08-14,Copa América,played,Colombia,COL,Bolivia,BOL,FALSE,1,0,win,La Paz,Bolivia,FALSE,1581,1534,1610,1505,29
-1983-08-17,Copa América,played,Colombia,COL,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1610,1709,1598,1721,-12
-1983-08-28,Copa América,played,Colombia,COL,Peru,PER,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1598,1713,1599,1712,1
-1983-08-31,Copa América,played,Colombia,COL,Bolivia,BOL,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1599,1509,1587,1521,-12
-1984-07-26,Friendly,played,Colombia,COL,Peru,PER,TRUE,1,1,draw,Bogota,Colombia,FALSE,,,,,
-1984-08-09,Friendly,played,Colombia,COL,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1586,1658,1591,1653,5
-1984-08-24,Friendly,played,Colombia,COL,Argentina,ARG,TRUE,1,0,win,Bogotá,Colombia,FALSE,1591,1877,1606,1862,15
-1984-10-09,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,1,loss,Los Angeles,United States,TRUE,1606,1755,1597,1764,-9
-1984-10-11,Friendly,played,Colombia,COL,United States,USA,FALSE,0,1,loss,Los Angeles,United States,FALSE,1597,1598,1586,1609,-11
-1985-02-01,Friendly,played,Colombia,COL,Switzerland,CHE,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1586,1765,1588,1763,2
-1985-02-10,Friendly,played,Colombia,COL,Poland,POL,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1588,1849,1582,1855,-6
-1985-02-14,Friendly,played,Colombia,COL,Poland,POL,TRUE,1,0,win,Cali,Colombia,FALSE,1582,1855,1597,1840,15
-1985-02-21,Friendly,played,Colombia,COL,Chile,CHL,FALSE,1,1,draw,Santiago,Chile,FALSE,1597,1783,1604,1776,7
-1985-02-24,Friendly,played,Colombia,COL,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1604,1935,1601,1938,-3
-1985-02-28,Friendly,played,Colombia,COL,Paraguay,PRY,FALSE,3,0,win,Asunción,Paraguay,FALSE,1601,1748,1629,1720,28
-1985-04-17,Friendly,played,Colombia,COL,Paraguay,PRY,TRUE,2,0,win,Pereira,Colombia,FALSE,,,,,
-1985-04-19,Friendly,played,Colombia,COL,Paraguay,PRY,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1639,1710,1638,1711,-1
-1985-04-25,Friendly,played,Colombia,COL,Brazil,BRA,FALSE,1,2,loss,Belo Horizonte,Brazil,FALSE,1638,1945,1636,1947,-2
-1985-04-28,Friendly,played,Colombia,COL,Uruguay,URY,TRUE,2,1,win,Bogotá,Colombia,FALSE,1636,1903,1650,1889,14
-1985-05-15,Friendly,played,Colombia,COL,Brazil,BRA,TRUE,1,0,win,Bogotá,Colombia,FALSE,1650,1944,1665,1929,15
-1985-05-26,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,1,0,win,Bogotá,Colombia,FALSE,1665,1704,1682,1687,17
-1985-06-02,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,1,3,loss,Bogotá,Colombia,FALSE,1682,1896,1662,1916,-20
-1985-06-09,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1662,1697,1669,1690,7
-1985-06-16,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1669,1918,1664,1923,-5
-1985-06-23,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,2,2,draw,San Cristóbal,Venezuela,FALSE,1664,1371,1654,1381,-10
-1985-06-30,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,2,0,win,Bogotá,Colombia,FALSE,1654,1381,1660,1375,6
-1985-10-27,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,0,3,loss,Asunción,Paraguay,FALSE,1660,1741,1642,1759,-18
-1985-11-03,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,2,1,win,Cali,Colombia,FALSE,1642,1759,1663,1738,21
-1987-06-11,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,1,0,win,Medellín,Colombia,FALSE,1663,1511,1667,1507,4
-1987-06-14,Friendly,played,Colombia,COL,Ecuador,ECU,FALSE,0,3,loss,Guayaquil,Ecuador,FALSE,1667,1507,1647,1527,-20
-1987-07-01,Copa América,played,Colombia,COL,Bolivia,BOL,FALSE,2,0,win,Rosario,Argentina,TRUE,1647,1514,1671,1490,24
-1987-07-05,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,3,0,win,Rosario,Argentina,TRUE,1671,1803,1731,1743,60
-1987-07-08,Copa América,played,Colombia,COL,Chile,CHL,FALSE,1,2,loss,Córdoba,Argentina,TRUE,1731,1876,1716,1891,-15
-1987-07-11,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,2,1,win,Buenos Aires,Argentina,FALSE,1716,1940,1759,1897,43
-1988-03-30,Friendly,played,Colombia,COL,Canada,CAN,TRUE,3,0,win,Armenia,Colombia,FALSE,1759,1568,1765,1562,6
-1988-05-17,Rous Cup,played,Colombia,COL,Scotland,SCO,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1778,1792,1783,1787,5
-1988-05-19,Friendly,played,Colombia,COL,Finland,,FALSE,3,1,win,Helsinki,Finland,FALSE,1783,1616,1795,1604,12
-1988-05-24,Rous Cup,played,Colombia,COL,England,ENG,FALSE,1,1,draw,London,England,FALSE,1795,2003,1806,1992,11
-1988-08-07,Friendly,played,Colombia,COL,Uruguay,URY,TRUE,2,1,win,Bogotá,Colombia,FALSE,1806,1839,1818,1827,12
-1989-02-03,Friendly,played,Colombia,COL,Peru,PER,TRUE,1,0,win,Pereira,Colombia,FALSE,1818,1640,1823,1635,5
-1989-02-05,Friendly,played,Colombia,COL,Chile,CHL,TRUE,1,0,win,Armenia,Colombia,FALSE,1823,1776,1832,1767,9
-1989-03-09,Friendly,played,Colombia,COL,Argentina,ARG,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1832,1848,1840,1840,8
-1989-06-24,Friendly,played,Colombia,COL,United States,USA,FALSE,1,0,win,Miami,United States,FALSE,1840,1601,1849,1592,9
-1989-06-27,Friendly,played,Colombia,COL,Haiti,HTI,FALSE,4,0,win,Miami,United States,TRUE,1849,1347,1851,1345,2
-1989-07-03,Copa América,played,Colombia,COL,Venezuela,,FALSE,4,2,win,Salvador,Brazil,TRUE,1851,1392,1856,1387,5
-1989-07-05,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,0,1,loss,Salvador,Brazil,TRUE,1856,1814,1828,1842,-28
-1989-07-07,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,0,0,draw,Salvador,Brazil,FALSE,1828,1923,1841,1910,13
-1989-07-09,Copa América,played,Colombia,COL,Peru,PER,TRUE,1,1,draw,Recife,Brazil,TRUE,1841,1586,1825,1602,-16
-1989-08-06,Friendly,played,Colombia,COL,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1825,1891,1829,1887,4
-1989-08-20,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1829,1604,1837,1596,8
-1989-08-27,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1837,1770,1819,1788,-18
-1989-09-03,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,0,0,draw,Guayaquil,Ecuador,FALSE,1819,1596,1812,1603,-7
-1989-09-17,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,2,1,win,Barranquilla,Colombia,FALSE,1812,1794,1825,1781,13
-1989-10-15,FIFA World Cup qualification,played,Colombia,COL,Israel,ISR,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1825,1633,1831,1627,6
-1989-10-30,FIFA World Cup qualification,played,Colombia,COL,Israel,ISR,FALSE,0,0,draw,Ramat Gan,Israel,FALSE,1831,1627,1825,1633,-6
-1990-02-02,Miami Cup,played,Colombia,COL,Uruguay,URY,TRUE,0,2,loss,Miami,United States,TRUE,1825,1878,1806,1897,-19
-1990-02-04,Miami Cup,played,Colombia,COL,United States,USA,FALSE,1,1,draw,Miami,United States,FALSE,1806,1579,1801,1584,-5
-1990-02-20,Marlboro Cup,played,Colombia,COL,Soviet Union,SUN,TRUE,0,0,draw,Los Angeles,United States,TRUE,1801,1955,1807,1949,6
-1990-04-17,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,2,loss,Los Angeles,United States,TRUE,1807,1925,1797,1935,-10
-1990-04-22,Friendly,played,Colombia,COL,United States,USA,FALSE,1,0,win,Miami,United States,FALSE,1797,1596,1804,1589,7
-1990-05-04,Marlboro Cup,played,Colombia,COL,Poland,POL,TRUE,2,1,win,Chicago,United States,TRUE,1804,1802,1819,1787,15
-1990-05-26,Friendly,played,Colombia,COL,Egypt,EGY,FALSE,1,1,draw,Cairo,Egypt,FALSE,1819,1624,1816,1627,-3
-1990-06-02,Friendly,played,Colombia,COL,Hungary,HUN,FALSE,1,3,loss,Budapest,Hungary,FALSE,1816,1724,1801,1739,-15
-1990-06-09,FIFA World Cup,played,Colombia,COL,United Arab Emirates,ARE,FALSE,2,0,win,Bologna,Italy,TRUE,1801,1454,1812,1443,11
-1990-06-14,FIFA World Cup,played,Colombia,COL,Yugoslavia,YUG,FALSE,0,1,loss,Bologna,Italy,TRUE,1812,1855,1786,1881,-26
-1990-06-19,FIFA World Cup,played,Colombia,COL,Germany,DEU,FALSE,1,1,draw,Milan,Italy,TRUE,,,,,
-1990-06-23,FIFA World Cup,played,Colombia,COL,Cameroon,CMR,FALSE,1,2,loss,Naples,Italy,TRUE,1805,1684,1765,1724,-40
-1991-01-29,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,0,draw,León,Mexico,FALSE,1765,1886,1771,1880,6
-1991-02-03,Miami Cup,played,Colombia,COL,Switzerland,CHE,TRUE,2,3,loss,Miami,United States,TRUE,1771,1732,1754,1749,-17
-1991-06-05,Friendly,played,Colombia,COL,Sweden,SWE,FALSE,2,2,draw,Solna,Sweden,FALSE,1754,1832,1759,1827,5
-1991-06-25,Friendly,played,Colombia,COL,Costa Rica,CRI,FALSE,1,0,win,San José,Costa Rica,FALSE,1759,1690,1770,1679,11
-1991-07-07,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,1,0,win,Valparaíso,Chile,TRUE,1770,1645,1786,1629,16
-1991-07-11,Copa América,played,Colombia,COL,Bolivia,BOL,FALSE,0,0,draw,Viña del Mar,Chile,TRUE,1786,1579,1773,1592,-13
-1991-07-13,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,2,0,win,Viña del Mar,Chile,TRUE,1773,1948,1828,1893,55
-1991-07-15,Copa América,played,Colombia,COL,Uruguay,URY,TRUE,0,1,loss,Viña del Mar,Chile,TRUE,1828,1821,1802,1847,-26
-1991-07-17,Copa América,played,Colombia,COL,Chile,CHL,FALSE,1,1,draw,Santiago,Chile,FALSE,1802,1808,1809,1801,7
-1991-07-19,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,0,2,loss,Santiago,Chile,TRUE,1809,1888,1780,1917,-29
-1991-07-21,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,1,2,loss,Santiago,Chile,TRUE,1780,1973,1768,1985,-12
-1992-07-31,Friendly,played,Colombia,COL,United States,USA,FALSE,1,0,win,Los Angeles,United States,FALSE,1758,1689,1774,1673,16
-1992-08-02,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,0,draw,Los Angeles,United States,TRUE,1774,1814,1776,1812,2
-1993-02-24,Friendly,played,Colombia,COL,Venezuela,,FALSE,0,0,draw,San Cristóbal,Venezuela,FALSE,1776,1333,1768,1341,-8
-1993-03-31,Friendly,played,Colombia,COL,Costa Rica,CRI,TRUE,4,1,win,Medellín,Colombia,FALSE,1768,1599,1774,1593,6
-1993-05-08,Friendly,played,Colombia,COL,United States,USA,FALSE,2,1,win,Miami,United States,FALSE,1774,1656,1783,1647,9
-1993-05-21,Friendly,played,Colombia,COL,Venezuela,,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1783,1341,1774,1350,-9
-1993-05-30,Friendly,played,Colombia,COL,Chile,CHL,FALSE,1,1,draw,Santiago,Chile,FALSE,1774,1773,1777,1770,3
-1993-06-06,Friendly,played,Colombia,COL,Chile,CHL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1777,1770,1784,1763,7
-1993-06-16,Copa América,played,Colombia,COL,Mexico,MEX,TRUE,2,1,win,Machala,Ecuador,TRUE,1784,1857,1814,1827,30
-1993-06-20,Copa América,played,Colombia,COL,Bolivia,BOL,TRUE,1,1,draw,Machala,Ecuador,TRUE,1814,1571,1799,1586,-15
-1993-06-23,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,1,1,draw,Guayaquil,Ecuador,TRUE,1799,2002,1812,1989,13
-1993-06-26,Copa América,played,Colombia,COL,Uruguay,URY,TRUE,1,1,draw,Guayaquil,Ecuador,TRUE,1812,1811,1812,1811,0
-1993-07-01,Copa América,played,Colombia,COL,Argentina,ARG,TRUE,0,0,draw,Guayaquil,Ecuador,TRUE,1812,1987,1824,1975,12
-1993-07-03,Copa América,played,Colombia,COL,Ecuador,ECU,FALSE,1,0,win,Portoviejo,Ecuador,FALSE,1824,1709,1848,1685,24
-1993-08-01,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1848,1667,1835,1680,-13
-1993-08-08,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1835,1585,1847,1573,12
-1993-08-15,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,2,1,win,Barranquilla,Colombia,FALSE,1847,2013,1871,1989,24
-1993-08-22,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1871,1677,1866,1682,-5
-1993-08-29,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,4,0,win,Barranquilla,Colombia,FALSE,1866,1561,1873,1554,7
-1993-09-05,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,5,0,win,Buenos Aires,Argentina,FALSE,1873,1974,1934,1913,61
-1994-01-28,Friendly,played,Colombia,COL,Venezuela,,FALSE,2,1,win,Barinas,Venezuela,FALSE,1934,1356,1935,1355,1
-1994-02-06,Friendly,played,Colombia,COL,Saudi Arabia,SAU,FALSE,1,1,draw,Jeddah,Saudi Arabia,FALSE,1935,1676,1931,1680,-4
-1994-02-18,Joe Robbie Cup,played,Colombia,COL,Sweden,SWE,TRUE,0,0,draw,Miami,United States,TRUE,1937,1882,1935,1884,-2
-1994-02-20,Joe Robbie Cup,played,Colombia,COL,Bolivia,BOL,FALSE,2,0,win,Miami,United States,TRUE,1935,1708,1945,1698,10
-1994-02-26,Friendly,played,Colombia,COL,South Korea,KOR,TRUE,2,2,draw,Monterey Park,United States,TRUE,1945,1659,1938,1666,-7
-1994-03-02,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1938,1860,1939,1859,1
-1994-04-07,Friendly,played,Colombia,COL,Bolivia,BOL,TRUE,0,1,loss,Villavicencio,Colombia,FALSE,1939,1699,1921,1717,-18
-1994-04-17,Friendly,played,Colombia,COL,Nigeria,NGA,TRUE,1,0,win,Armenia,Colombia,FALSE,1921,1742,1924,1739,3
-1994-05-03,Miami Cup,played,Colombia,COL,Peru,PER,TRUE,1,0,win,Miami,United States,TRUE,1924,1557,1927,1554,3
-1994-05-05,Miami Cup,played,Colombia,COL,El Salvador,SLV,TRUE,3,0,win,Miami,United States,TRUE,1927,1520,1932,1515,5
-1994-06-03,Friendly,played,Colombia,COL,Northern Ireland,NIR,TRUE,2,0,win,Foxborough,United States,TRUE,1932,1693,1938,1687,6
-1994-06-05,Friendly,played,Colombia,COL,Greece,GRC,TRUE,2,0,win,East Rutherford,United States,TRUE,1938,1695,1944,1689,6
-1994-06-18,FIFA World Cup,played,Colombia,COL,Romania,ROU,TRUE,1,3,loss,Pasadena,United States,TRUE,1944,1836,1885,1895,-59
-1994-06-22,FIFA World Cup,played,Colombia,COL,United States,USA,FALSE,1,2,loss,Pasadena,United States,FALSE,1885,1628,1842,1671,-43
-1994-06-26,FIFA World Cup,played,Colombia,COL,Switzerland,CHE,FALSE,2,0,win,Palo Alto,United States,TRUE,1842,1918,1897,1863,55
-1995-01-31,Lunar New Year Cup,played,Colombia,COL,South Korea,KOR,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,,,,,
-1995-02-11,Friendly,played,Colombia,COL,Australia,AUS,FALSE,1,0,win,Sydney,Australia,FALSE,1895,1722,1903,1714,8
-1995-03-22,Friendly,played,Colombia,COL,Uruguay,URY,TRUE,2,1,win,Medellín,Colombia,FALSE,1903,1805,1908,1800,5
-1995-06-17,USA Cup,played,Colombia,COL,Nigeria,NGA,TRUE,1,0,win,Piscataway,United States,TRUE,1908,1796,1918,1786,10
-1995-06-21,USA Cup,played,Colombia,COL,Mexico,MEX,FALSE,0,0,draw,"Washington, D.C.",United States,TRUE,1918,1845,1915,1848,-3
-1995-06-25,USA Cup,played,Colombia,COL,United States,USA,FALSE,0,0,draw,Piscataway,United States,FALSE,1915,1670,1909,1676,-6
-1995-07-07,Copa América,played,Colombia,COL,Peru,PER,TRUE,1,1,draw,Rivera,Uruguay,TRUE,1909,1592,1891,1610,-18
-1995-07-10,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,1,0,win,Rivera,Uruguay,TRUE,1891,1657,1901,1647,10
-1995-07-13,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,0,3,loss,Rivera,Uruguay,TRUE,1901,2099,1880,2120,-21
-1995-07-16,Copa América,played,Colombia,COL,Paraguay,PRY,FALSE,1,1,draw,Montevideo,Uruguay,TRUE,1880,1751,1871,1760,-9
-1995-07-19,Copa América,played,Colombia,COL,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1871,1822,1839,1854,-32
-1995-07-22,Copa América,played,Colombia,COL,United States,USA,TRUE,4,1,win,Maldonado,Uruguay,TRUE,1839,1747,1871,1715,32
-1995-09-06,Friendly,played,Colombia,COL,England,ENG,FALSE,0,0,draw,London,England,FALSE,1871,1862,1874,1859,3
-1995-10-11,Friendly,played,Colombia,COL,Argentina,ARG,FALSE,0,0,draw,Buenos Aires,Argentina,FALSE,1874,1856,1876,1854,2
-1995-10-26,Friendly,played,Colombia,COL,China PR,,FALSE,1,2,loss,Beijing,China PR,FALSE,,,,,
-1995-11-29,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,2,2,draw,Los Angeles,United States,TRUE,1861,1817,1860,1818,-1
-1995-12-20,Friendly,played,Colombia,COL,Brazil,BRA,FALSE,1,3,loss,Manaus,Brazil,FALSE,1860,2110,1856,2114,-4
-1996-03-06,Friendly,played,Colombia,COL,Honduras,HND,TRUE,2,1,win,Miami,United States,TRUE,1856,1551,1859,1548,3
-1996-03-21,Friendly,played,Colombia,COL,Trinidad and Tobago,TTO,TRUE,3,0,win,Neiva,Colombia,FALSE,1859,1503,1861,1501,2
-1996-03-28,Friendly,played,Colombia,COL,Bolivia,BOL,TRUE,4,1,win,Medellín,Colombia,FALSE,1861,1708,1868,1701,7
-1996-04-24,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1868,1756,1877,1747,9
-1996-05-29,Friendly,played,Colombia,COL,Scotland,SCO,TRUE,1,0,win,Miami,United States,TRUE,1877,1774,1884,1767,7
-1996-06-02,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1884,1539,1872,1551,-12
-1996-07-07,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,3,1,win,Barranquilla,Colombia,FALSE,1872,1800,1888,1784,16
-1996-09-01,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,4,1,win,Barranquilla,Colombia,FALSE,1888,1738,1901,1725,13
-1996-10-09,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,1,0,win,Quito,Ecuador,FALSE,1901,1701,1915,1687,14
-1996-11-01,Friendly,played,Colombia,COL,Honduras,HND,FALSE,2,1,win,New York,United States,TRUE,1915,1563,1917,1561,2
-1996-11-10,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,FALSE,2,2,draw,La Paz,Bolivia,FALSE,1917,1655,1908,1664,-9
-1996-11-23,Friendly,played,Colombia,COL,South Korea,KOR,FALSE,1,4,loss,Suwon,South Korea,FALSE,,,,,
-1996-12-15,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,2,0,win,San Cristóbal,Venezuela,FALSE,1908,1374,1913,1369,5
-1997-02-08,Friendly,played,Colombia,COL,Slovakia,SVK,TRUE,1,0,win,Pereira,Colombia,FALSE,1913,1696,1916,1693,3
-1997-02-12,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1916,1800,1885,1831,-31
-1997-04-02,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1885,1832,1868,1849,-17
-1997-04-30,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1868,1644,1833,1679,-35
-1997-06-08,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1833,1721,1832,1722,-1
-1997-06-13,Copa América,played,Colombia,COL,Mexico,MEX,FALSE,1,2,loss,Santa Cruz,Bolivia,TRUE,1832,1820,1806,1846,-26
-1997-06-16,Copa América,played,Colombia,COL,Costa Rica,CRI,TRUE,4,1,win,Santa Cruz,Bolivia,TRUE,1806,1634,1830,1610,24
-1997-06-19,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,0,2,loss,Santa Cruz,Bolivia,TRUE,1830,2088,1816,2102,-14
-1997-06-21,Copa América,played,Colombia,COL,Bolivia,BOL,FALSE,1,2,loss,La Paz,Bolivia,FALSE,1816,1743,1793,1766,-23
-1997-07-05,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,1,4,loss,Santiago,Chile,FALSE,1793,1672,1756,1709,-37
-1997-07-20,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1756,1770,1771,1755,15
-1997-08-06,Friendly,played,Colombia,COL,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1771,1572,1758,1585,-13
-1997-08-20,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1758,1773,1785,1746,27
-1997-08-24,Friendly,played,Colombia,COL,Peru,PER,FALSE,1,2,loss,Lima,Peru,FALSE,1785,1719,1771,1733,-14
-1997-09-06,Friendly,played,Colombia,COL,El Salvador,SLV,FALSE,2,2,draw,East Rutherford,United States,TRUE,,,,,
-1997-09-10,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1771,1343,1773,1341,2
-1997-10-08,Friendly,played,Colombia,COL,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1773,1863,1778,1858,5
-1997-11-16,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1778,1843,1787,1834,9
-1998-03-25,Friendly,played,Colombia,COL,Serbia,SRB,TRUE,0,0,draw,Bogotá,Colombia,FALSE,,,,,
-1998-03-29,Friendly,played,Colombia,COL,Paraguay,PRY,TRUE,1,1,draw,New Haven,United States,TRUE,1789,1767,1788,1768,-1
-1998-04-22,Friendly,played,Colombia,COL,Chile,CHL,FALSE,2,2,draw,Santiago,Chile,FALSE,1788,1793,1791,1790,3
-1998-05-30,Friendly,played,Colombia,COL,Germany,DEU,FALSE,1,3,loss,Frankfurt am Main,Germany,FALSE,1791,2055,1788,2058,-3
-1998-06-03,Friendly,played,Colombia,COL,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1788,1806,1778,1816,-10
-1998-06-15,FIFA World Cup,played,Colombia,COL,Romania,ROU,FALSE,0,1,loss,Lyon,France,TRUE,1778,1880,1757,1901,-21
-1998-06-22,FIFA World Cup,played,Colombia,COL,Tunisia,TUN,TRUE,1,0,win,Montpellier,France,TRUE,1757,1621,1776,1602,19
-1998-06-26,FIFA World Cup,played,Colombia,COL,England,ENG,TRUE,0,2,loss,Lens,France,TRUE,1776,1948,1752,1972,-24
-1999-02-09,Friendly,played,Colombia,COL,Germany,DEU,TRUE,3,3,draw,Miami,United States,TRUE,1752,1951,1757,1946,5
-1999-03-30,Friendly,played,Colombia,COL,Venezuela,,FALSE,0,0,draw,Maracaibo,Venezuela,FALSE,1757,1337,1750,1344,-7
-1999-04-15,Friendly,played,Colombia,COL,Venezuela,,FALSE,1,1,draw,Caracas,Venezuela,FALSE,1750,1344,1743,1351,-7
-1999-04-22,Friendly,played,Colombia,COL,Paraguay,PRY,FALSE,2,0,win,Luque,Paraguay,FALSE,1743,1812,1765,1790,22
-1999-05-29,Friendly,played,Colombia,COL,El Salvador,SLV,FALSE,1,2,loss,East Rutherford,United States,TRUE,1765,1430,1748,1447,-17
-1999-06-17,Friendly,played,Colombia,COL,Peru,PER,TRUE,3,3,draw,Manizales,Colombia,FALSE,1748,1725,1745,1728,-3
-1999-06-24,Friendly,played,Colombia,COL,Paraguay,PRY,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1745,1786,1739,1792,-6
-1999-07-01,Copa América,played,Colombia,COL,Uruguay,URY,FALSE,1,0,win,Asunción,Paraguay,TRUE,1739,1772,1766,1745,27
-1999-07-04,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,3,0,win,Luque,Paraguay,TRUE,1766,1940,1830,1876,64
-1999-07-07,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,2,1,win,Luque,Paraguay,TRUE,1830,1695,1846,1679,16
-1999-07-11,Copa América,played,Colombia,COL,Chile,CHL,FALSE,2,3,loss,Luque,Paraguay,TRUE,1846,1747,1814,1779,-32
-1999-09-08,Friendly,played,Colombia,COL,Trinidad and Tobago,TTO,FALSE,3,4,loss,Miami,United States,TRUE,1814,1578,1798,1594,-16
-1999-10-13,Friendly,played,Colombia,COL,Argentina,ARG,FALSE,1,2,loss,Córdoba,Argentina,FALSE,1798,1910,1793,1915,-5
-1999-10-20,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,0,draw,San Diego,United States,TRUE,1793,1914,1796,1911,3
-2000-02-12,Gold Cup,played,Colombia,COL,Jamaica,JAM,TRUE,1,0,win,Miami,United States,TRUE,1801,1594,1813,1582,12
-2000-02-16,Gold Cup,played,Colombia,COL,Honduras,HND,FALSE,0,2,loss,Miami,United States,TRUE,1813,1658,1760,1711,-53
-2000-02-19,Gold Cup,played,Colombia,COL,United States,USA,FALSE,2,2,draw,Miami,United States,FALSE,1760,1829,1771,1818,11
-2000-02-23,Gold Cup,played,Colombia,COL,Peru,PER,TRUE,2,1,win,San Diego,United States,TRUE,1771,1748,1794,1725,23
-2000-02-27,Gold Cup,played,Colombia,COL,Canada,CAN,FALSE,0,2,loss,Los Angeles,United States,TRUE,1794,1659,1743,1710,-51
-2000-03-28,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1743,2098,1756,2085,13
-2000-04-26,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1756,1639,1755,1640,-1
-2000-05-27,Friendly,played,Colombia,COL,Jamaica,JAM,FALSE,3,0,win,East Rutherford,United States,TRUE,1755,1533,1763,1525,8
-2000-06-04,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,3,0,win,Bogotá,Colombia,FALSE,1763,1403,1768,1398,5
-2000-06-29,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,1,3,loss,Bogotá,Colombia,FALSE,1768,1958,1746,1980,-22
-2000-07-19,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1746,1730,1771,1705,25
-2000-07-25,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,0,0,draw,Quito,Ecuador,FALSE,1771,1680,1772,1679,1
-2000-08-15,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,1,0,win,Bogotá,Colombia,FALSE,1772,1758,1786,1744,14
-2000-09-02,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,1,0,win,Santiago,Chile,FALSE,1786,1775,1811,1750,25
-2000-10-07,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,0,2,loss,Bogotá,Colombia,FALSE,1811,1815,1773,1853,-38
-2000-11-15,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,FALSE,0,1,loss,São Paulo,Brazil,FALSE,1773,2018,1768,2023,-5
-2001-01-31,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,3,2,win,Los Angeles,United States,TRUE,1768,1799,1779,1788,11
-2001-02-03,Friendly,played,Colombia,COL,United States,USA,FALSE,1,0,win,Miami,United States,FALSE,1779,1812,1793,1798,14
-2001-02-28,Friendly,played,Colombia,COL,Australia,AUS,TRUE,3,2,win,Bogotá,Colombia,FALSE,1793,1778,1800,1771,7
-2001-03-27,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,TRUE,2,0,win,Bogotá,Colombia,FALSE,1800,1576,1808,1568,8
-2001-04-24,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,2,2,draw,San Cristóbal,Venezuela,FALSE,1808,1420,1794,1434,-14
-2001-06-03,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1794,2004,1784,2014,-10
-2001-07-11,Copa América,played,Colombia,COL,Venezuela,,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1784,1419,1789,1414,5
-2001-07-14,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1789,1717,1803,1703,14
-2001-07-17,Copa América,played,Colombia,COL,Chile,CHL,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1803,1713,1822,1694,19
-2001-07-23,Copa América,played,Colombia,COL,Peru,PER,TRUE,3,0,win,Armenia,Colombia,FALSE,1822,1707,1842,1687,20
-2001-07-26,Copa América,played,Colombia,COL,Honduras,HND,TRUE,2,0,win,Manizales,Colombia,FALSE,1842,1777,1863,1756,21
-2001-07-29,Copa América,played,Colombia,COL,Mexico,MEX,TRUE,1,0,win,Bogotá,Colombia,FALSE,1863,1769,1875,1757,12
-2001-08-04,Friendly,played,Colombia,COL,Liberia,,TRUE,2,1,win,East Rutherford,United States,TRUE,1875,1501,1877,1499,2
-2001-08-16,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1877,1687,1843,1721,-34
-2001-09-05,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1843,1702,1831,1714,-12
-2001-10-07,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1831,1750,1832,1749,1
-2001-11-07,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,3,1,win,Bogotá,Colombia,FALSE,1832,1604,1840,1596,8
-2001-11-14,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,4,0,win,Asunción,Paraguay,FALSE,1840,1766,1880,1726,40
-2002-05-07,Friendly,played,Colombia,COL,Venezuela,,FALSE,0,0,draw,Caracas,Venezuela,FALSE,1880,1564,1874,1570,-6
-2002-05-09,Friendly,played,Colombia,COL,Costa Rica,CRI,FALSE,2,1,win,San José,Costa Rica,FALSE,1874,1772,1884,1762,10
-2002-05-12,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1884,1819,1875,1828,-9
-2002-11-20,Friendly,played,Colombia,COL,Honduras,HND,FALSE,0,1,loss,San Pedro Sula,Honduras,FALSE,1875,1758,1865,1768,-10
-2003-02-12,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,0,draw,Phoenix,United States,TRUE,1865,1829,1864,1830,-1
-2003-03-29,Friendly,played,Colombia,COL,South Korea,KOR,FALSE,0,0,draw,Busan,South Korea,FALSE,1864,1768,1864,1768,0
-2003-04-30,Friendly,played,Colombia,COL,Honduras,HND,FALSE,0,0,draw,Miami,United States,TRUE,1864,1701,1860,1705,-4
-2003-06-08,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,0,0,draw,Madrid,Spain,TRUE,1860,1723,1856,1727,-4
-2003-06-18,Confederations Cup,played,Colombia,COL,France,FRA,FALSE,0,1,loss,Lyon,France,FALSE,1856,1961,1844,1973,-12
-2003-06-20,Confederations Cup,played,Colombia,COL,New Zealand,NZL,TRUE,3,1,win,Lyon,France,TRUE,1844,1548,1856,1536,12
-2003-06-22,Confederations Cup,played,Colombia,COL,Japan,JPN,FALSE,1,0,win,Saint-Étienne,France,TRUE,1856,1789,1876,1769,20
-2003-06-26,Confederations Cup,played,Colombia,COL,Cameroon,CMR,FALSE,0,1,loss,Lyon,France,TRUE,1876,1820,1847,1849,-29
-2003-06-28,Confederations Cup,played,Colombia,COL,Turkey,TUR,TRUE,1,2,loss,Saint-Étienne,France,TRUE,1847,1864,1823,1888,-24
-2003-07-13,Gold Cup,played,Colombia,COL,Jamaica,JAM,FALSE,1,0,win,Miami,United States,TRUE,1823,1580,1833,1570,10
-2003-07-17,Gold Cup,played,Colombia,COL,Guatemala,,TRUE,1,1,draw,Miami,United States,TRUE,1833,1528,1815,1546,-18
-2003-07-19,Gold Cup,played,Colombia,COL,Brazil,BRA,TRUE,0,2,loss,Miami,United States,TRUE,1815,1982,1794,2003,-21
-2003-08-20,Friendly,played,Colombia,COL,Slovakia,SVK,TRUE,0,0,draw,New York,United States,TRUE,1794,1678,1791,1681,-3
-2003-09-07,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,TRUE,1,2,loss,Barranquilla,Colombia,FALSE,1791,1994,1777,2008,-14
-2003-09-10,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,FALSE,0,4,loss,La Paz,Bolivia,FALSE,1777,1539,1725,1591,-52
-2003-11-15,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1725,1599,1694,1630,-31
-2003-11-19,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1694,2030,1706,2018,12
-2004-02-18,Friendly,played,Colombia,COL,Honduras,HND,FALSE,1,1,draw,Tegucigalpa,Honduras,FALSE,1706,1648,1707,1647,1
-2004-03-31,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,2,0,win,Lima,Peru,FALSE,1707,1688,1744,1651,37
-2004-04-28,Friendly,played,Colombia,COL,El Salvador,SLV,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1744,1484,1749,1479,5
-2004-06-02,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,1,2,loss,Quito,Ecuador,FALSE,1749,1708,1732,1725,-17
-2004-06-06,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,5,0,win,Barranquilla,Colombia,FALSE,1732,1732,1761,1703,29
-2004-06-27,Friendly,played,Colombia,COL,Argentina,ARG,FALSE,2,0,win,Miami,United States,TRUE,1761,1987,1785,1963,24
-2004-07-06,Copa América,played,Colombia,COL,Venezuela,,FALSE,1,0,win,Lima,Peru,TRUE,1785,1681,1803,1663,18
-2004-07-09,Copa América,played,Colombia,COL,Bolivia,BOL,TRUE,1,0,win,Lima,Peru,TRUE,1803,1587,1814,1576,11
-2004-07-12,Copa América,played,Colombia,COL,Peru,PER,FALSE,2,2,draw,Trujillo,Peru,FALSE,1814,1702,1813,1703,-1
-2004-07-17,Copa América,played,Colombia,COL,Costa Rica,CRI,TRUE,2,0,win,Trujillo,Peru,TRUE,1813,1701,1839,1675,26
-2004-07-20,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,0,3,loss,Lima,Peru,TRUE,1839,1984,1813,2010,-26
-2004-07-24,Copa América,played,Colombia,COL,Uruguay,URY,TRUE,1,2,loss,Cusco,Peru,TRUE,1813,1785,1786,1812,-27
-2004-09-05,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,0,0,draw,Santiago,Chile,FALSE,1786,1676,1785,1677,-1
-2004-10-09,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1785,1794,1780,1799,-5
-2004-10-13,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,FALSE,0,0,draw,Maceió,Brazil,FALSE,1780,2020,1795,2005,15
-2004-11-17,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1795,1594,1801,1588,6
-2005-01-15,Friendly,played,Colombia,COL,South Korea,KOR,TRUE,2,1,win,Los Angeles,United States,TRUE,1801,1714,1809,1706,8
-2005-01-17,Friendly,played,Colombia,COL,Guatemala,,FALSE,1,1,draw,Los Angeles,United States,TRUE,1809,1615,1804,1620,-5
-2005-02-23,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,1,1,draw,Culiacán,Mexico,FALSE,1804,1901,1809,1896,5
-2005-03-09,Friendly,played,Colombia,COL,United States,USA,FALSE,0,3,loss,Fullerton,United States,FALSE,1809,1837,1798,1848,-11
-2005-03-26,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,0,0,draw,Maracaibo,Venezuela,FALSE,1798,1629,1794,1633,-4
-2005-03-30,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1794,2029,1789,2034,-5
-2005-05-31,Friendly,played,Colombia,COL,England,ENG,TRUE,2,3,loss,East Rutherford,United States,TRUE,1789,1986,1784,1991,-5
-2005-06-04,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,5,0,win,Barranquilla,Colombia,FALSE,1784,1688,1804,1668,20
-2005-06-08,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1804,1773,1826,1751,22
-2005-07-06,Gold Cup,played,Colombia,COL,Panama,PAN,TRUE,0,1,loss,Miami,United States,TRUE,1826,1459,1781,1504,-45
-2005-07-10,Gold Cup,played,Colombia,COL,Honduras,HND,FALSE,1,2,loss,Miami,United States,TRUE,1781,1668,1748,1701,-33
-2005-07-12,Gold Cup,played,Colombia,COL,Trinidad and Tobago,TTO,TRUE,2,0,win,Miami,United States,TRUE,1748,1504,1763,1489,15
-2005-07-17,Gold Cup,played,Colombia,COL,Mexico,MEX,FALSE,2,1,win,Houston,United States,TRUE,1763,1911,1798,1876,35
-2005-07-21,Gold Cup,played,Colombia,COL,Panama,PAN,TRUE,2,3,loss,East Rutherford,United States,TRUE,1798,1500,1756,1542,-42
-2005-09-04,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,2,3,loss,Montevideo,Uruguay,FALSE,1756,1803,1744,1815,-12
-2005-10-08,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1744,1673,1735,1682,-9
-2005-10-12,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,0,win,Asunción,Paraguay,FALSE,1735,1794,1764,1765,29
-2006-03-01,Friendly,played,Colombia,COL,Venezuela,,FALSE,1,1,draw,Maracaibo,Venezuela,FALSE,1764,1605,1762,1607,-2
-2006-05-24,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,1,1,draw,East Rutherford,United States,TRUE,1762,1715,1761,1716,-1
-2006-05-27,Friendly,played,Colombia,COL,Romania,ROU,FALSE,0,0,draw,Chicago,United States,TRUE,1761,1847,1763,1845,2
-2006-05-30,Friendly,played,Colombia,COL,Poland,POL,FALSE,2,1,win,Chorzów,Poland,FALSE,1763,1824,1777,1810,14
-2006-06-02,Friendly,played,Colombia,COL,Germany,DEU,FALSE,0,3,loss,Mönchengladbach,Germany,FALSE,1777,1887,1769,1895,-8
-2006-06-04,Friendly,played,Colombia,COL,Morocco,MAR,TRUE,2,0,win,Barcelona,Spain,TRUE,1769,1659,1779,1649,10
-2006-08-16,Friendly,played,Colombia,COL,Chile,CHL,FALSE,2,1,win,Santiago,Chile,FALSE,1779,1713,1790,1702,11
-2007-02-07,Friendly,played,Colombia,COL,Uruguay,URY,TRUE,1,3,loss,Cúcuta,Colombia,FALSE,1790,1821,1772,1839,-18
-2007-03-25,Friendly,played,Colombia,COL,Switzerland,CHE,TRUE,3,1,win,Miami,United States,TRUE,1772,1846,1790,1828,18
-2007-03-28,Friendly,played,Colombia,COL,Paraguay,PRY,TRUE,2,0,win,Bogotá,Colombia,FALSE,1790,1755,1799,1746,9
-2007-05-09,Friendly,played,Colombia,COL,Panama,PAN,FALSE,4,0,win,Panama City,Panama,FALSE,1799,1566,1811,1554,12
-2007-06-03,Kirin Cup,played,Colombia,COL,Montenegro,,TRUE,1,0,win,Matsumoto,Japan,TRUE,1811,1669,1820,1660,9
-2007-06-05,Kirin Cup,played,Colombia,COL,Japan,JPN,FALSE,0,0,draw,Saitama,Japan,FALSE,1820,1746,1821,1745,1
-2007-06-23,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,3,1,win,Barranquilla,Colombia,FALSE,1821,1747,1829,1739,8
-2007-06-28,Copa América,played,Colombia,COL,Paraguay,PRY,FALSE,0,5,loss,Barinas,Venezuela,TRUE,1829,1757,1769,1817,-60
-2007-07-02,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,2,4,loss,Maracaibo,Venezuela,TRUE,1769,2012,1754,2027,-15
-2007-07-05,Copa América,played,Colombia,COL,United States,USA,TRUE,1,0,win,Barquisimeto,Venezuela,TRUE,1754,1775,1781,1748,27
-2007-08-22,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,1,0,win,Commerce City,United States,TRUE,1781,1929,1795,1915,14
-2007-09-08,Friendly,played,Colombia,COL,Peru,PER,FALSE,2,2,draw,Lima,Peru,FALSE,1795,1651,1794,1652,-1
-2007-09-12,Friendly,played,Colombia,COL,Paraguay,PRY,TRUE,1,0,win,Bogotá,Colombia,FALSE,1794,1776,1801,1769,7
-2007-10-14,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1801,2094,1811,2084,10
-2007-10-17,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,FALSE,0,0,draw,La Paz,Bolivia,FALSE,1811,1566,1803,1574,-8
-2007-11-17,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,1,0,win,Bogotá,Colombia,FALSE,1803,1663,1811,1655,8
-2007-11-20,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,2,1,win,Bogotá,Colombia,FALSE,1811,2039,1838,2012,27
-2008-02-06,Friendly,played,Colombia,COL,Uruguay,URY,FALSE,2,2,draw,Montevideo,Uruguay,FALSE,1838,1796,1840,1794,2
-2008-03-26,Friendly,played,Colombia,COL,Honduras,HND,FALSE,1,2,loss,Fort Lauderdale,United States,TRUE,1840,1682,1826,1696,-14
-2008-04-30,Friendly,played,Colombia,COL,Venezuela,,TRUE,5,2,win,Bucaramanga,Colombia,FALSE,1826,1655,1832,1649,6
-2008-05-29,Friendly,played,Colombia,COL,Republic of Ireland,IRL,FALSE,0,1,loss,London,England,TRUE,,,,,
-2008-06-03,Friendly,played,Colombia,COL,France,FRA,FALSE,0,1,loss,Saint-Denis,France,FALSE,1820,2003,1817,2006,-3
-2008-06-14,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1817,1626,1812,1631,-5
-2008-06-18,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,0,0,draw,Quito,Ecuador,FALSE,1812,1694,1811,1695,-1
-2008-08-20,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,0,1,loss,East Rutherford,United States,TRUE,1811,1695,1798,1708,-13
-2008-09-06,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1798,1828,1774,1852,-24
-2008-09-10,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,0,4,loss,Santiago,Chile,FALSE,1774,1753,1745,1782,-29
-2008-10-11,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1745,1824,1724,1845,-21
-2008-10-15,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,FALSE,0,0,draw,Rio de Janeiro,Brazil,FALSE,1724,2027,1740,2011,16
-2008-11-19,Friendly,played,Colombia,COL,Nigeria,NGA,TRUE,1,0,win,Palmira,Colombia,FALSE,1740,1746,1747,1739,7
-2008-12-28,Friendly,played,Colombia,COL,Catalonia,,FALSE,1,2,loss,Barcelona,Spain,FALSE,,,,,
-2009-02-11,Friendly,played,Colombia,COL,Haiti,HTI,TRUE,2,0,win,Pereira,Colombia,FALSE,1747,1407,1749,1405,2
-2009-03-28,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,TRUE,2,0,win,Bogotá,Colombia,FALSE,1749,1596,1760,1585,11
-2009-03-31,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,0,2,loss,Puerto Ordaz,Venezuela,FALSE,1760,1655,1730,1685,-30
-2009-06-06,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1730,1929,1724,1935,-6
-2009-06-10,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,1,0,win,Medellín,Colombia,FALSE,1724,1547,1731,1540,7
-2009-08-07,Friendly,played,Colombia,COL,El Salvador,SLV,TRUE,2,1,win,Houston,United States,TRUE,1731,1527,1736,1522,5
-2009-08-12,Friendly,played,Colombia,COL,Venezuela,,TRUE,1,2,loss,East Rutherford,United States,TRUE,1736,1689,1725,1700,-11
-2009-09-05,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,2,0,win,Medellín,Colombia,FALSE,1725,1747,1748,1724,23
-2009-09-09,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,1,3,loss,Montevideo,Uruguay,FALSE,1748,1787,1729,1806,-19
-2009-09-30,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,2,1,win,Dallas,United States,TRUE,1729,1914,1744,1899,15
-2009-10-10,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,2,4,loss,Medellín,Colombia,FALSE,1744,1830,1713,1861,-31
-2009-10-14,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,2,0,win,Asunción,Paraguay,FALSE,1713,1827,1759,1781,46
-2010-05-27,Friendly,played,Colombia,COL,South Africa,ZAF,FALSE,1,2,loss,Johannesburg,South Africa,FALSE,1759,1558,1746,1571,-13
-2010-05-30,Friendly,played,Colombia,COL,Nigeria,NGA,FALSE,1,1,draw,Milton Keynes,England,TRUE,1746,1703,1745,1704,-1
-2010-08-11,Friendly,played,Colombia,COL,Bolivia,BOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1745,1595,1744,1596,-1
-2010-09-03,Friendly,played,Colombia,COL,Venezuela,,FALSE,2,0,win,Puerto la Cruz,Venezuela,FALSE,1744,1706,1762,1688,18
-2010-09-07,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,0,1,loss,Monterrey,Mexico,FALSE,1762,1846,1757,1851,-5
-2010-10-08,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,1,0,win,Harrison,United States,TRUE,1757,1725,1766,1716,9
-2010-10-12,Friendly,played,Colombia,COL,United States,USA,FALSE,0,0,draw,Chester,United States,FALSE,1766,1755,1769,1752,3
-2010-11-17,Friendly,played,Colombia,COL,Peru,PER,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1769,1623,1763,1629,-6
-2011-02-09,Friendly,played,Colombia,COL,Spain,ESP,FALSE,0,1,loss,Madrid,Spain,FALSE,1763,2115,1762,2116,-1
-2011-03-26,Friendly,played,Colombia,COL,Ecuador,ECU,TRUE,2,0,win,Madrid,Spain,TRUE,1762,1730,1776,1716,14
-2011-03-29,Friendly,played,Colombia,COL,Chile,CHL,TRUE,0,2,loss,The Hague,Netherlands,TRUE,1776,1895,1766,1905,-10
-2011-06-25,Friendly,played,Colombia,COL,Senegal,SEN,TRUE,2,0,win,Medellín,Colombia,FALSE,,,,,
-2011-07-02,Copa América,played,Colombia,COL,Costa Rica,CRI,TRUE,1,0,win,San Salvador de Jujuy,Argentina,TRUE,1766,1658,1783,1641,17
-2011-07-06,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,0,0,draw,Santa Fe,Argentina,FALSE,1783,1929,1798,1914,15
-2011-07-10,Copa América,played,Colombia,COL,Bolivia,BOL,TRUE,2,0,win,Santa Fe,Argentina,TRUE,1798,1556,1813,1541,15
-2011-07-16,Copa América,played,Colombia,COL,Peru,PER,TRUE,0,2,loss,Córdoba,Argentina,TRUE,1813,1696,1763,1746,-50
-2011-09-03,Friendly,played,Colombia,COL,Honduras,HND,FALSE,2,0,win,Harrison,United States,TRUE,1763,1659,1774,1648,11
-2011-09-06,Friendly,played,Colombia,COL,Jamaica,JAM,FALSE,2,0,win,Fort Lauderdale,United States,TRUE,1774,1656,1784,1646,10
-2011-10-11,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,FALSE,2,1,win,La Paz,Bolivia,FALSE,1784,1535,1796,1523,12
-2011-11-11,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1796,1721,1787,1730,-9
-2011-11-15,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,1,2,loss,Barranquilla,Colombia,FALSE,1787,1895,1767,1915,-20
-2012-02-29,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,2,0,win,Miami Gardens,United States,TRUE,1767,1873,1786,1854,19
-2012-06-03,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,1,0,win,Lima,Peru,FALSE,1788,1722,1810,1700,22
-2012-06-10,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,0,1,loss,Quito,Ecuador,FALSE,1810,1769,1793,1786,-17
-2012-09-07,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,4,0,win,Barranquilla,Colombia,FALSE,1793,1975,1839,1929,46
-2012-09-11,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,3,1,win,Santiago,Chile,FALSE,1839,1908,1883,1864,44
-2012-10-12,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1883,1708,1893,1698,10
-2012-10-16,Friendly,played,Colombia,COL,Cameroon,CMR,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1893,1600,1896,1597,3
-2012-11-14,Friendly,played,Colombia,COL,Brazil,BRA,FALSE,1,1,draw,East Rutherford,United States,TRUE,1896,2080,1901,2075,5
-2013-03-22,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,TRUE,5,0,win,Barranquilla,Colombia,FALSE,1904,1630,1912,1622,8
-2013-03-26,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,0,1,loss,Puerto Ordaz,Venezuela,FALSE,1912,1703,1886,1729,-26
-2013-06-07,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,0,0,draw,Buenos Aires,Argentina,FALSE,1886,2016,1898,2004,12
-2013-06-11,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1898,1777,1911,1764,13
-2013-08-14,Friendly,played,Colombia,COL,Serbia,SRB,TRUE,1,0,win,Barcelona,Spain,TRUE,1911,1693,1915,1689,4
-2013-09-06,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1915,1847,1926,1836,11
-2013-09-10,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1926,1891,1902,1915,-24
-2013-10-11,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,3,3,draw,Barranquilla,Colombia,FALSE,1902,1877,1895,1884,-7
-2013-10-15,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,2,1,win,Asunción,Paraguay,FALSE,1895,1717,1911,1701,16
-2013-11-14,Friendly,played,Colombia,COL,Belgium,BEL,FALSE,2,0,win,Brussels,Belgium,FALSE,1911,1867,1928,1850,17
-2013-11-19,Friendly,played,Colombia,COL,Netherlands,NLD,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,1928,2008,1933,2003,5
-2014-03-05,Friendly,played,Colombia,COL,Tunisia,TUN,TRUE,1,1,draw,Barcelona,Spain,TRUE,1933,1503,1925,1511,-8
-2014-05-31,Friendly,played,Colombia,COL,Senegal,SEN,TRUE,2,2,draw,Buenos Aires,Argentina,TRUE,1925,1576,1917,1584,-8
-2014-06-06,Friendly,played,Colombia,COL,Jordan,,TRUE,3,0,win,Buenos Aires,Argentina,TRUE,1917,1606,1922,1601,5
-2014-06-14,FIFA World Cup,played,Colombia,COL,Greece,GRC,TRUE,3,0,win,Belo Horizonte,Brazil,TRUE,1922,1823,1960,1785,38
-2014-06-19,FIFA World Cup,played,Colombia,COL,Ivory Coast,CIV,TRUE,2,1,win,Brasília,Brazil,TRUE,1960,1803,1977,1786,17
-2014-06-24,FIFA World Cup,played,Colombia,COL,Japan,JPN,FALSE,4,1,win,Cuiabá,Brazil,TRUE,1977,1757,2000,1734,23
-2014-06-28,FIFA World Cup,played,Colombia,COL,Uruguay,URY,TRUE,2,0,win,Rio de Janeiro,Brazil,TRUE,2000,1913,2034,1879,34
-2014-07-04,FIFA World Cup,played,Colombia,COL,Brazil,BRA,FALSE,1,2,loss,Fortaleza,Brazil,FALSE,2034,2103,2018,2119,-16
-2014-09-05,Friendly,played,Colombia,COL,Brazil,BRA,FALSE,0,1,loss,Miami Gardens,United States,TRUE,2018,1979,2007,1990,-11
-2014-11-14,Friendly,played,Colombia,COL,United States,USA,FALSE,2,1,win,London,England,TRUE,2010,1835,2015,1830,5
-2014-11-18,Friendly,played,Colombia,COL,Slovenia,SVN,FALSE,1,0,win,Ljubljana,Slovenia,FALSE,2015,1658,2019,1654,4
-2015-03-26,Friendly,played,Colombia,COL,Bahrain,,FALSE,6,0,win,Riffa,Bahrain,FALSE,2019,1489,2022,1486,3
-2015-03-30,Friendly,played,Colombia,COL,Kuwait,KWT,FALSE,3,1,win,Abu Dhabi,United Arab Emirates,TRUE,2022,1453,2023,1452,1
-2015-06-06,Friendly,played,Colombia,COL,Costa Rica,CRI,TRUE,1,0,win,Buenos Aires,Argentina,TRUE,2023,1848,2028,1843,5
-2015-06-14,Copa América,played,Colombia,COL,Venezuela,,TRUE,0,1,loss,Rancagua,Chile,TRUE,2028,1687,1984,1731,-44
-2015-06-17,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,1,0,win,Santiago,Chile,TRUE,1984,2075,2015,2044,31
-2015-06-21,Copa América,played,Colombia,COL,Peru,PER,TRUE,0,0,draw,Temuco,Chile,TRUE,2015,1740,1999,1756,-16
-2015-06-26,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,0,0,draw,Viña del Mar,Chile,TRUE,1999,2058,2003,2054,4
-2015-09-08,Friendly,played,Colombia,COL,Peru,PER,TRUE,1,1,draw,Harrison,United States,TRUE,2003,1801,1998,1806,-5
-2015-10-08,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1998,1806,2007,1797,9
-2015-10-13,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,2007,1891,1970,1928,-37
-2015-11-12,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,1,1,draw,Santiago,Chile,FALSE,1970,2018,1978,2010,8
-2015-11-17,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1978,1999,1954,2023,-24
-2016-03-24,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,FALSE,3,2,win,La Paz,Bolivia,FALSE,1954,1623,1962,1615,8
-2016-03-29,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,3,1,win,Barranquilla,Colombia,FALSE,1962,1901,1979,1884,17
-2016-06-03,Copa América,played,Colombia,COL,United States,USA,FALSE,2,0,win,Santa Clara,United States,FALSE,1981,1752,2005,1728,24
-2016-06-07,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,2,1,win,Pasadena,United States,TRUE,2005,1749,2014,1740,9
-2016-06-11,Copa América,played,Colombia,COL,Costa Rica,CRI,TRUE,2,3,loss,Houston,United States,TRUE,2014,1745,1973,1786,-41
-2016-06-17,Copa América,played,Colombia,COL,Peru,PER,FALSE,0,0,draw,East Rutherford,United States,TRUE,1973,1830,1963,1840,-10
-2016-06-22,Copa América,played,Colombia,COL,Chile,CHL,TRUE,0,2,loss,Chicago,United States,TRUE,1963,2001,1930,2034,-33
-2016-06-25,Copa América,played,Colombia,COL,United States,USA,FALSE,1,0,win,Glendale,United States,FALSE,1930,1786,1952,1764,22
-2016-09-01,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1952,1685,1958,1679,6
-2016-09-06,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,FALSE,1,2,loss,Manaus,Brazil,FALSE,1958,2011,1946,2023,-12
-2016-10-06,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,0,win,Asunción,Paraguay,FALSE,1946,1739,1960,1725,14
-2016-10-11,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,2,2,draw,Barranquilla,Colombia,FALSE,1960,1914,1952,1922,-8
-2016-11-10,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1952,1957,1947,1962,-5
-2016-11-15,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,0,3,loss,San Juan,Argentina,FALSE,1947,2027,1929,2045,-18
-2017-01-26,Friendly,played,Colombia,COL,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,,,,,
-2017-03-23,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1925,1632,1929,1628,4
-2017-03-28,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,2,0,win,Quito,Ecuador,FALSE,1929,1831,1959,1801,30
-2017-06-07,Friendly,played,Colombia,COL,Spain,ESP,FALSE,2,2,draw,Murcia,Spain,FALSE,1959,2003,1963,1999,4
-2017-06-13,Friendly,played,Colombia,COL,Cameroon,CMR,FALSE,4,0,win,Getafe,Spain,TRUE,1963,1691,1969,1685,6
-2017-08-31,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,0,0,draw,San Cristóbal,Venezuela,FALSE,1969,1688,1959,1698,-10
-2017-09-05,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1959,2120,1962,2117,3
-2017-10-05,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,1,2,loss,Barranquilla,Colombia,FALSE,1962,1747,1928,1781,-34
-2017-10-10,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1928,1894,1932,1890,4
-2017-11-10,Friendly,played,Colombia,COL,South Korea,KOR,FALSE,1,2,loss,Suwon,South Korea,FALSE,1932,1698,1918,1712,-14
-2017-11-14,Friendly,played,Colombia,COL,China PR,,FALSE,4,0,win,Chongqing,China PR,FALSE,,,,,
-2018-03-23,Friendly,played,Colombia,COL,France,FRA,FALSE,3,2,win,Saint-Denis,France,FALSE,1926,1988,1940,1974,14
-2018-03-27,Friendly,played,Colombia,COL,Australia,AUS,FALSE,0,0,draw,London,England,TRUE,1940,1709,1934,1715,-6
-2018-06-01,Friendly,played,Colombia,COL,Egypt,EGY,TRUE,0,0,draw,Bergamo,Italy,TRUE,1934,1635,1927,1642,-7
-2018-06-19,FIFA World Cup,played,Colombia,COL,Japan,JPN,TRUE,1,2,loss,Saransk,Russia,TRUE,1927,1684,1879,1732,-48
-2018-06-24,FIFA World Cup,played,Colombia,COL,Poland,POL,FALSE,3,0,win,Kazan,Russia,TRUE,1879,1793,1919,1753,40
-2018-06-28,FIFA World Cup,played,Colombia,COL,Senegal,SEN,FALSE,1,0,win,Samara,Russia,TRUE,1919,1778,1937,1760,18
-2018-07-03,FIFA World Cup,played,Colombia,COL,England,ENG,TRUE,1,1,draw,Moscow,Russia,TRUE,1937,1943,1938,1942,1
-2018-09-07,Friendly,played,Colombia,COL,Venezuela,,FALSE,2,1,win,Miami Gardens,United States,TRUE,1938,1738,1943,1733,5
-2018-09-11,Friendly,played,Colombia,COL,Argentina,ARG,TRUE,0,0,draw,East Rutherford,United States,TRUE,1943,1899,1942,1900,-1
-2018-10-11,Friendly,played,Colombia,COL,United States,USA,FALSE,4,2,win,Tampa,United States,FALSE,1942,1765,1954,1753,12
-2018-10-16,Friendly,played,Colombia,COL,Costa Rica,CRI,TRUE,3,1,win,Harrison,United States,TRUE,1954,1697,1960,1691,6
-2019-03-22,Kirin Challenge Cup,played,Colombia,COL,Japan,JPN,FALSE,1,0,win,Yokohama,Japan,FALSE,1960,1781,1968,1773,8
-2019-03-26,Friendly,played,Colombia,COL,South Korea,KOR,FALSE,1,2,loss,Seoul,South Korea,FALSE,1968,1772,1955,1785,-13
-2019-06-03,Friendly,played,Colombia,COL,Panama,PAN,TRUE,3,0,win,Bogotá,Colombia,FALSE,1955,1568,1957,1566,2
-2019-06-09,Friendly,played,Colombia,COL,Peru,PER,FALSE,3,0,win,Lima,Peru,FALSE,1957,1838,1974,1821,17
-2019-06-15,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,2,0,win,Salvador,Brazil,TRUE,1974,1908,2004,1878,30
-2019-06-19,Copa América,played,Colombia,COL,Qatar,QAT,TRUE,1,0,win,São Paulo,Brazil,TRUE,2004,1764,2014,1754,10
-2019-06-23,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,1,0,win,Salvador,Brazil,TRUE,2014,1721,2022,1713,8
-2019-06-28,Copa América,played,Colombia,COL,Chile,CHL,TRUE,0,0,draw,São Paulo,Brazil,TRUE,2022,1868,2012,1878,-10
-2019-09-06,Friendly,played,Colombia,COL,Brazil,BRA,FALSE,2,2,draw,Miami Gardens,United States,TRUE,2012,2125,2015,2122,3
-2019-09-10,Friendly,played,Colombia,COL,Venezuela,,TRUE,0,0,draw,Tampa,United States,TRUE,2015,1797,2009,1803,-6
-2019-10-12,Friendly,played,Colombia,COL,Chile,CHL,TRUE,0,0,draw,Alicante,Spain,TRUE,2009,1800,2004,1805,-5
-2019-10-15,Friendly,played,Colombia,COL,Algeria,DZA,FALSE,0,3,loss,Villeneuve D'Ascq,Algeria,FALSE,2004,1698,1974,1728,-30
-2019-11-15,Friendly,played,Colombia,COL,Peru,PER,TRUE,1,0,win,Miami Gardens,United States,TRUE,1974,1872,1981,1865,7
-2019-11-19,Friendly,played,Colombia,COL,Ecuador,ECU,FALSE,1,0,win,Harrison,United States,TRUE,1981,1730,1985,1726,4
-2020-10-09,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1985,1830,1998,1817,13
-2020-10-13,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,2,2,draw,Santiago,Chile,FALSE,1998,1800,1993,1805,-5
-2020-11-13,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,0,3,loss,Barranquilla,Colombia,FALSE,1993,1931,1943,1981,-50
-2020-11-17,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,1,6,loss,Quito,Ecuador,FALSE,1943,1779,1896,1826,-47
-2021-06-03,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,3,0,win,Lima,Peru,FALSE,1896,1792,1931,1757,35
-2021-06-08,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,2,2,draw,Barranquilla,Colombia,FALSE,1931,1981,1928,1984,-3
-2021-06-13,Copa América,played,Colombia,COL,Ecuador,ECU,TRUE,1,0,win,Cuiabá,Brazil,TRUE,1928,1794,1944,1778,16
-2021-06-17,Copa América,played,Colombia,COL,Venezuela,,TRUE,0,0,draw,Goiânia,Brazil,TRUE,1944,1761,1932,1773,-12
-2021-06-20,Copa América,played,Colombia,COL,Peru,PER,TRUE,1,2,loss,Goiânia,Brazil,TRUE,1932,1780,1897,1815,-35
-2021-06-23,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,1,2,loss,Rio de Janeiro,Brazil,FALSE,1897,2162,1892,2167,-5
-2021-07-03,Copa América,played,Colombia,COL,Uruguay,URY,FALSE,0,0,draw,Brasília,Brazil,TRUE,1892,1938,1895,1935,3
-2021-07-06,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,1,1,draw,Brasília,Brazil,TRUE,1895,2034,1905,2024,10
-2021-07-09,Copa América,played,Colombia,COL,Peru,PER,FALSE,3,2,win,Brasília,Brazil,TRUE,1905,1828,1925,1808,20
-2021-09-02,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1925,1580,1913,1592,-12
-2021-09-05,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1913,1786,1911,1788,-2
-2021-09-09,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,3,1,win,Barranquilla,Colombia,FALSE,1911,1792,1924,1779,13
-2021-10-07,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1924,1945,1931,1938,7
-2021-10-10,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1931,2136,1937,2130,6
-2021-10-14,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1937,1782,1924,1795,-13
-2021-11-11,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,FALSE,0,1,loss,São Paulo,Brazil,FALSE,1924,2140,1918,2146,-6
-2021-11-16,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1918,1715,1904,1729,-14
-2022-01-16,Friendly,played,Colombia,COL,Honduras,HND,TRUE,2,1,win,Fort Lauderdale,United States,TRUE,1904,1495,1906,1493,2
-2022-01-28,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1906,1832,1877,1861,-29
-2022-02-01,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,0,1,loss,Córdoba,Argentina,FALSE,1877,2110,1872,2115,-5
-2022-03-24,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1872,1650,1881,1641,9
-2022-03-29,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,1,0,win,Guayana,Venezuela,FALSE,1881,1689,1896,1674,15
-2022-06-05,Friendly,played,Colombia,COL,Saudi Arabia,SAU,FALSE,1,0,win,Murcia,Spain,TRUE,1896,1635,1900,1631,4
-2022-09-24,Friendly,played,Colombia,COL,Guatemala,,TRUE,4,1,win,Harrison,United States,TRUE,1900,1462,1903,1459,3
-2022-09-27,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,3,2,win,Santa Clara,United States,TRUE,1903,1820,1911,1812,8
-2022-11-19,Friendly,played,Colombia,COL,Paraguay,PRY,TRUE,2,0,win,Fort Lauderdale,United States,TRUE,1911,1735,1919,1727,8
-2023-01-28,Friendly,played,Colombia,COL,United States,USA,FALSE,0,0,draw,Carson,United States,FALSE,1919,1805,1919,1805,0
-2023-03-24,Friendly,played,Colombia,COL,South Korea,KOR,FALSE,2,2,draw,Ulsan,South Korea,FALSE,1919,1788,1918,1789,-1
-2023-03-28,Friendly,played,Colombia,COL,Japan,JPN,FALSE,2,1,win,Osaka,Japan,FALSE,1918,1850,1929,1839,11
-2023-06-16,Friendly,played,Colombia,COL,Iraq,IRQ,TRUE,1,0,win,Valencia,Spain,TRUE,1929,1620,1932,1617,3
-2023-06-20,Friendly,played,Colombia,COL,Germany,DEU,FALSE,2,0,win,Gelsenkirchen,Germany,FALSE,1932,1932,1951,1913,19
-2023-09-07,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1951,1700,1956,1695,5
-2023-09-12,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,FALSE,0,0,draw,Santiago,Chile,FALSE,1956,1698,1947,1707,-9
-2023-10-12,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,TRUE,2,2,draw,Barranquilla,Colombia,FALSE,1947,1906,1939,1914,-8
-2023-10-17,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,FALSE,0,0,draw,Quito,Ecuador,FALSE,1939,1879,1941,1877,2
-2023-11-16,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,TRUE,2,1,win,Barranquilla,Colombia,FALSE,1941,2053,1962,2032,21
-2023-11-21,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,FALSE,1,0,win,Asunción,Paraguay,FALSE,1962,1718,1974,1706,12
-2023-12-16,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,3,2,win,Los Angeles,United States,TRUE,1979,1799,1984,1794,5
-2024-03-22,Friendly,played,Colombia,COL,Spain,ESP,FALSE,1,0,win,London,England,TRUE,1984,2033,1995,2022,11
-2024-03-26,Friendly,played,Colombia,COL,Romania,ROU,TRUE,3,2,win,Madrid,Spain,TRUE,1995,1667,1998,1664,3
-2024-06-08,Friendly,played,Colombia,COL,United States,USA,FALSE,5,1,win,Landover,United States,FALSE,1998,1798,2011,1785,13
-2024-06-15,Friendly,played,Colombia,COL,Bolivia,BOL,TRUE,3,0,win,Denver,United States,TRUE,2011,1594,2014,1591,3
-2024-06-24,Copa América,played,Colombia,COL,Paraguay,PRY,TRUE,2,1,win,Houston,United States,TRUE,2014,1711,2021,1704,7
-2024-06-28,Copa América,played,Colombia,COL,Costa Rica,CRI,TRUE,3,0,win,Glendale,United States,TRUE,2021,1640,2030,1631,9
-2024-07-02,Copa América,played,Colombia,COL,Brazil,BRA,FALSE,1,1,draw,Santa Clara,United States,TRUE,2030,2019,2029,2020,-1
-2024-07-06,Copa América,played,Colombia,COL,Panama,PAN,TRUE,5,0,win,Glendale,United States,TRUE,2029,1746,2045,1730,16
-2024-07-10,Copa América,played,Colombia,COL,Uruguay,URY,FALSE,1,0,win,Charlotte,United States,TRUE,2045,2026,2069,2002,24
-2024-07-14,Copa América,played,Colombia,COL,Argentina,ARG,FALSE,0,1,loss,Miami Gardens,United States,TRUE,2069,2150,2050,2169,-19
-2024-09-06,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,2050,1710,2038,1722,-12
-2024-09-10,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,TRUE,2,1,win,Barranquilla,Colombia,FALSE,2038,2172,2060,2150,22
-2024-10-10,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,FALSE,0,1,loss,El Alto,Bolivia,FALSE,2060,1636,2025,1671,-35
-2024-10-15,FIFA World Cup qualification,played,Colombia,COL,Chile,CHL,TRUE,4,0,win,Barranquilla,Colombia,FALSE,2025,1680,2030,1675,5
-2024-11-15,FIFA World Cup qualification,played,Colombia,COL,Uruguay,URY,FALSE,2,3,loss,Montevideo,Uruguay,FALSE,2030,1918,2009,1939,-21
-2024-11-19,FIFA World Cup qualification,played,Colombia,COL,Ecuador,ECU,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,2009,1878,1977,1910,-32
-2025-03-20,FIFA World Cup qualification,played,Colombia,COL,Brazil,BRA,FALSE,1,2,loss,Brasília,Brazil,FALSE,1977,1996,1964,2009,-13
-2025-03-25,FIFA World Cup qualification,played,Colombia,COL,Paraguay,PRY,TRUE,2,2,draw,Barranquilla,Colombia,FALSE,1964,1787,1951,1800,-13
-2025-06-06,FIFA World Cup qualification,played,Colombia,COL,Peru,PER,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1951,1725,1936,1740,-15
-2025-06-10,FIFA World Cup qualification,played,Colombia,COL,Argentina,ARG,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1936,2146,1950,2132,14
-2025-09-04,FIFA World Cup qualification,played,Colombia,COL,Bolivia,BOL,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1950,1664,1957,1657,7
-2025-09-09,FIFA World Cup qualification,played,Colombia,COL,Venezuela,,FALSE,6,3,win,Maturín,Venezuela,FALSE,1957,1741,1981,1717,24
-2025-10-11,Friendly,played,Colombia,COL,Mexico,MEX,FALSE,4,0,win,Arlington,United States,TRUE,1981,1859,1993,1847,12
-2025-10-14,Friendly,played,Colombia,COL,Canada,CAN,FALSE,0,0,draw,Harrison,United States,TRUE,1993,1784,1988,1789,-5
-2025-11-15,Friendly,played,Colombia,COL,New Zealand,NZL,TRUE,2,1,win,Fort Lauderdale,United States,TRUE,1988,1591,1990,1589,2
-2025-11-18,Friendly,played,Colombia,COL,Australia,AUS,TRUE,3,0,win,New York,United States,TRUE,1990,1782,1998,1774,8
-2026-03-26,Friendly,played,Colombia,COL,Croatia,HRV,TRUE,1,2,loss,Orlando,United States,TRUE,1998,1932,1986,1944,-12
-2026-03-29,Friendly,played,Colombia,COL,France,FRA,TRUE,1,3,loss,Landover,United States,TRUE,1986,2071,1975,2082,-11
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1938-02-10,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,1,3,loss,Panama City,Panama,TRUE,1400,1789,1394,1795,-6
+,,,1938-02-14,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Panama,PAN,PAN,CONCACAF,FALSE,4,2,win,Panama City,Panama,FALSE,1394,1314,1426,1282,32
+,,,1938-02-18,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,2,loss,Panama City,Panama,TRUE,1426,1843,1423,1846,-3
+,,,1938-02-21,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,El Salvador,SLV,SLV,CONCACAF,TRUE,3,2,win,Panama City,Panama,TRUE,1423,1433,1444,1412,21
+,,,1938-02-23,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,1,2,loss,Panama City,Panama,TRUE,1444,1270,1415,1299,-29
+,,,1938-08-08,Bolivarian Games,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,2,4,loss,Bogotá,Colombia,FALSE,1415,1588,1391,1612,-24
+,,,1938-08-10,Bolivarian Games,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1391,1297,1361,1327,-30
+,,,1938-08-13,Bolivarian Games,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,2,0,win,Bogotá,Colombia,FALSE,1361,1265,1376,1250,15
+,,,1938-08-16,Bolivarian Games,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1376,1273,1345,1304,-31
+,,,1945-01-21,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,3,loss,Santiago,Chile,TRUE,1345,1910,1342,1913,-3
+,,,1945-01-28,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,0,7,loss,Santiago,Chile,TRUE,1342,1945,1339,1948,-3
+,,,1945-01-31,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,0,2,loss,Santiago,Chile,FALSE,1339,1608,1331,1616,-8
+,,,1945-02-07,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,9,loss,Santiago,Chile,TRUE,1331,2090,1330,2091,-1
+,,,1945-02-18,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,3,1,win,Santiago,Chile,TRUE,1330,1240,1358,1212,28
+,,,1945-02-21,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,3,3,draw,Santiago,Chile,TRUE,1358,1305,1354,1309,-4
+,,,1946-12-09,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Curaçao,,,,TRUE,4,2,win,Barranquilla,Colombia,FALSE,1354,1564,1393,1525,39
+,,,1946-12-12,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1393,1288,1407,1274,14
+,,,1946-12-15,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Guatemala,,,,TRUE,4,2,win,Barranquilla,Colombia,FALSE,1407,1497,1436,1468,29
+,,,1946-12-16,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Puerto Rico,,,,TRUE,4,1,win,Barranquilla,Colombia,FALSE,,,,,
+,,,1946-12-18,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,4,1,win,Barranquilla,Colombia,FALSE,1438,1682,1487,1633,49
+,,,1946-12-20,Central American and Caribbean Games,played,Colombia,COL,COL,CONMEBOL,Panama,PAN,PAN,CONCACAF,TRUE,2,1,win,Barranquilla,Colombia,FALSE,1487,1344,1495,1336,8
+,,,1947-12-02,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,0,2,loss,Guayaquil,Ecuador,TRUE,1495,1821,1485,1831,-10
+,,,1947-12-04,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,Guayaquil,Ecuador,FALSE,1485,1208,1473,1220,-12
+,,,1947-12-13,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,0,draw,Guayaquil,Ecuador,TRUE,1473,1284,1461,1296,-12
+,,,1947-12-18,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,6,loss,Guayaquil,Ecuador,TRUE,1461,2079,1458,2082,-3
+,,,1947-12-20,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,2,loss,Guayaquil,Ecuador,TRUE,1458,1810,1449,1819,-9
+,,,1947-12-23,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,5,loss,Guayaquil,Ecuador,TRUE,1449,1626,1424,1651,-25
+,,,1947-12-29,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,4,loss,Guayaquil,Ecuador,TRUE,,,,,
+,,,1949-04-06,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,3,loss,São Paulo,Brazil,TRUE,1408,1841,1401,1848,-7
+,,,1949-04-10,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,0,4,loss,Rio de Janeiro,Brazil,TRUE,1401,1646,1383,1664,-18
+,,,1949-04-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,5,loss,São Paulo,Brazil,FALSE,1383,1957,1381,1959,-2
+,,,1949-04-20,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Rio de Janeiro,Brazil,TRUE,1381,1656,1397,1640,16
+,,,1949-04-25,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,2,2,draw,São Paulo,Brazil,TRUE,1397,1850,1419,1828,22
+,,,1949-05-03,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,4,loss,Rio de Janeiro,Brazil,TRUE,1419,1183,1349,1253,-70
+,,,1949-05-06,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,4,loss,Rio de Janeiro,Brazil,TRUE,1349,1368,1305,1412,-44
+,,,1957-03-13,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,2,8,loss,Lima,Peru,TRUE,1305,2096,1304,2097,-1
+,,,1957-03-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Lima,Peru,TRUE,1304,1936,1353,1887,49
+,,,1957-03-21,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,2,3,loss,Lima,Peru,TRUE,1353,1741,1348,1746,-5
+,,,1957-03-24,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,9,loss,Lima,Peru,TRUE,1348,2040,1346,2042,-2
+,,,1957-03-27,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,4,loss,Lima,Peru,FALSE,1346,1716,1341,1721,-5
+,,,1957-04-01,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,4,1,win,Lima,Peru,TRUE,1341,1274,1376,1239,35
+,,,1957-06-16,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1376,1966,1394,1948,18
+,,,1957-06-20,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,3,loss,Bogotá,Colombia,FALSE,1394,1705,1385,1714,-9
+,,,1957-06-23,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,2,loss,Medellín,Colombia,FALSE,1385,1714,1381,1718,-4
+,,,1957-06-30,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1381,1948,1380,1949,-1
+,,,1957-07-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,3,loss,Asunción,Paraguay,FALSE,1380,1718,1375,1723,-5
+,,,1961-02-05,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,TRUE,2,0,win,Bogotá,Colombia,FALSE,1375,1447,1389,1433,14
+,,,1961-04-30,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1389,1746,1422,1713,33
+,,,1961-05-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,1,draw,Lima,Peru,FALSE,1422,1713,1438,1697,16
+,,,1962-04-01,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1438,1804,1434,1808,-4
+,,,1962-04-04,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,TRUE,2,2,draw,Cali,Colombia,FALSE,1434,1808,1441,1801,7
+,,,1962-04-25,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1441,1801,1440,1802,-1
+WC-1962,WC-1962_004,4,1962-05-30,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,2,loss,Arica,Chile,TRUE,1440,1906,1436,1910,-4
+WC-1962,WC-1962_014,14,1962-06-03,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Soviet Union,SUN,SUN,UEFA,TRUE,4,4,draw,Arica,Chile,TRUE,1436,2070,1464,2042,28
+WC-1962,WC-1962_022,22,1962-06-07,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Yugoslavia,YUG,YUG,UEFA,TRUE,0,5,loss,Arica,Chile,TRUE,1464,1985,1458,1991,-6
+,,,1963-03-10,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,2,4,loss,Cochabamba,Bolivia,TRUE,1458,1959,1454,1963,-4
+,,,1963-03-14,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,5,loss,La Paz,Bolivia,TRUE,1454,2189,1453,2190,-1
+,,,1963-03-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,2,loss,Cochabamba,Bolivia,FALSE,1453,1536,1440,1549,-13
+,,,1963-03-20,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,3,loss,Cochabamba,Bolivia,TRUE,1440,1742,1433,1749,-7
+,,,1963-03-24,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,La Paz,Bolivia,TRUE,1433,1697,1449,1681,16
+,,,1963-03-31,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,3,4,loss,La Paz,Bolivia,TRUE,1449,1347,1417,1379,-32
+,,,1963-09-01,Friendly,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,4,5,loss,Bogotá,Colombia,FALSE,1417,1788,1414,1791,-3
+,,,1963-09-04,Friendly,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Cali,Colombia,FALSE,1414,1791,1431,1774,17
+,,,1965-07-20,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1431,1379,1403,1407,-28
+,,,1965-07-25,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,2,loss,Guayaquil,Ecuador,FALSE,1403,1407,1382,1428,-21
+,,,1965-08-01,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,2,7,loss,Santiago,Chile,FALSE,1382,1826,1379,1829,-3
+,,,1965-08-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1379,1829,1432,1776,53
+,,,1966-11-30,Copa América qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,2,5,loss,Santiago,Chile,FALSE,1432,1727,1425,1734,-7
+,,,1966-12-11,Copa América qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1425,1734,1436,1723,11
+,,,1968-10-16,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1436,1842,1433,1845,-3
+,,,1969-02-04,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,León,Mexico,FALSE,1433,1858,1432,1859,-1
+,,,1969-02-20,Friendly,played,Colombia,COL,COL,CONMEBOL,Soviet Union,SUN,SUN,UEFA,TRUE,1,3,loss,Bogotá,Colombia,FALSE,1432,1946,1429,1949,-3
+,,,1969-05-08,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,3,loss,Bogotá,Colombia,FALSE,1429,1599,1417,1611,-12
+,,,1969-06-15,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,3,3,draw,Bogotá,Colombia,FALSE,1417,1798,1424,1791,7
+,,,1969-06-18,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,1,draw,Lima,Peru,FALSE,1424,1641,1431,1634,7
+,,,1969-06-22,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,4,loss,Guayaquil,Ecuador,FALSE,1431,1436,1419,1448,-12
+,,,1969-07-02,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,0,1,loss,Cali,Colombia,FALSE,1419,1828,1416,1831,-3
+,,,1969-07-27,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,3,0,win,Bogotá,Colombia,FALSE,1416,1402,1440,1378,24
+,,,1969-08-02,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,1,1,draw,Caracas,Venezuela,FALSE,1440,1378,1442,1376,2
+,,,1969-08-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,0,2,loss,Bogotá,Colombia,FALSE,1442,2007,1438,2011,-4
+,,,1969-08-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1438,1739,1428,1749,-10
+,,,1969-08-21,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,2,6,loss,Rio de Janeiro,Brazil,FALSE,1428,2034,1427,2035,-1
+,,,1969-08-24,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1427,1732,1423,1736,-4
+,,,1970-05-20,Friendly,played,Colombia,COL,COL,CONMEBOL,England,ENG,ENG,UEFA,TRUE,0,4,loss,Bogotá,Colombia,FALSE,1423,2067,1421,2069,-2
+,,,1972-03-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1411,1732,1417,1726,6
+,,,1972-06-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,0,0,draw,Lima,Peru,FALSE,1408,1702,1416,1694,8
+,,,1972-06-18,Brazil Independence Cup,played,Colombia,COL,COL,CONMEBOL,France,FRA,FRA,UEFA,TRUE,2,3,loss,Salvador,Brazil,TRUE,1416,1775,1412,1779,-4
+,,,1972-06-22,Brazil Independence Cup,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,4,loss,Salvador,Brazil,TRUE,1412,1882,1408,1886,-4
+,,,1973-02-15,Friendly,played,Colombia,COL,COL,CONMEBOL,German DR,DDR,DDR,UEFA,TRUE,0,2,loss,Bogotá,Colombia,FALSE,1408,1873,1405,1876,-3
+,,,1973-05-27,Friendly,played,Colombia,COL,COL,CONMEBOL,Haiti,HTI,HTI,CONCACAF,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1405,1599,1422,1582,17
+,,,1973-05-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Haiti,HTI,HTI,CONCACAF,FALSE,1,2,loss,Port-au-Prince,Haiti,FALSE,1422,1582,1418,1586,-4
+,,,1973-06-21,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1418,1461,1415,1464,-3
+,,,1973-06-24,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1415,1793,1428,1780,13
+,,,1973-06-28,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,1,draw,Guayaquil,Ecuador,FALSE,1428,1464,1435,1457,7
+,,,1973-07-01,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,3,loss,Lima,Peru,FALSE,1435,1713,1432,1716,-3
+,,,1973-07-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,1,0,win,Montevideo,Uruguay,FALSE,1432,1789,1469,1752,37
+,,,1975-07-20,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1469,1753,1506,1716,37
+,,,1975-07-27,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,3,1,win,Quito,Ecuador,FALSE,1506,1480,1551,1435,45
+,,,1975-07-30,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,0,win,Asunción,Paraguay,FALSE,1551,1706,1592,1665,41
+,,,1975-08-07,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,2,0,win,Bogotá,Colombia,FALSE,1592,1435,1606,1421,14
+,,,1975-09-21,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,3,0,win,Bogotá,Colombia,FALSE,1606,1734,1653,1687,47
+,,,1975-10-01,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,1,loss,Montevideo,Uruguay,FALSE,1653,1687,1637,1703,-16
+,,,1975-10-16,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1637,1768,1664,1741,27
+,,,1975-10-22,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,0,2,loss,Lima,Peru,FALSE,1664,1741,1644,1761,-20
+,,,1975-10-28,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,0,1,loss,Caracas,Venezuela,TRUE,1644,1761,1627,1778,-17
+,,,1976-10-15,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1627,1663,1615,1675,-12
+,,,1977-01-16,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1615,1421,1598,1438,-17
+,,,1977-01-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,4,loss,Quito,Ecuador,FALSE,1598,1428,1577,1449,-21
+,,,1977-01-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1577,1867,1572,1872,-5
+,,,1977-02-20,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1572,2093,1589,2076,17
+,,,1977-02-24,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1589,1675,1568,1696,-21
+,,,1977-03-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1568,1696,1580,1684,12
+,,,1977-03-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,6,loss,Rio de Janeiro,Brazil,FALSE,1580,2076,1577,2079,-3
+,,,1979-07-18,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,0,win,Lima,Peru,FALSE,1581,1810,1598,1793,17
+,,,1979-07-25,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1598,1793,1591,1800,-7
+,,,1979-08-01,Copa América,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,0,0,draw,San Cristóbal,Venezuela,FALSE,1591,1328,1580,1339,-11
+,,,1979-08-15,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1580,1619,1601,1598,21
+,,,1979-08-22,Copa América,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,4,0,win,Bogotá,Colombia,FALSE,1601,1352,1612,1341,11
+,,,1979-09-05,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,0,2,loss,Santiago,Chile,FALSE,1612,1611,1585,1638,-27
+,,,1980-07-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Poland,POL,POL,UEFA,TRUE,1,4,loss,Bogotá,Colombia,FALSE,1585,1931,1578,1938,-7
+,,,1981-02-01,Friendly,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1578,2053,1586,2045,8
+,,,1981-03-10,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,0,1,loss,Santiago,Chile,FALSE,1586,1706,1582,1710,-4
+,,,1981-03-15,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,2,0,win,Asunción,Paraguay,FALSE,1582,1785,1608,1759,26
+,,,1981-03-19,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1608,1709,1598,1719,-10
+,,,1981-07-02,Friendly,played,Colombia,COL,COL,CONMEBOL,Spain,ESP,ESP,UEFA,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1598,1850,1602,1846,4
+,,,1981-07-26,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1602,1693,1601,1694,-1
+,,,1981-08-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,2,3,loss,Montevideo,Uruguay,FALSE,1601,1818,1595,1824,-6
+,,,1981-08-16,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,0,2,loss,Lima,Peru,FALSE,1595,1683,1580,1698,-15
+,,,1981-09-13,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1580,1795,1586,1789,6
+,,,1983-07-14,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1586,1702,1586,1702,0
+,,,1983-07-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,Quito,Ecuador,FALSE,1586,1482,1586,1482,0
+,,,1983-07-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1586,1482,1581,1487,-5
+,,,1983-08-14,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,0,win,La Paz,Bolivia,FALSE,1581,1534,1610,1505,29
+,,,1983-08-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,0,1,loss,Lima,Peru,FALSE,1610,1709,1598,1721,-12
+,,,1983-08-28,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1598,1713,1599,1712,1
+,,,1983-08-31,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1599,1509,1587,1521,-12
+,,,1984-07-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Bogota,Colombia,FALSE,,,,,
+,,,1984-08-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,0,0,draw,Lima,Peru,FALSE,1586,1658,1591,1653,5
+,,,1984-08-24,Friendly,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1591,1877,1606,1862,15
+,,,1984-10-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Los Angeles,United States,TRUE,1606,1755,1597,1764,-9
+,,,1984-10-11,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Los Angeles,United States,FALSE,1597,1598,1586,1609,-11
+,,,1985-02-01,Friendly,played,Colombia,COL,COL,CONMEBOL,Switzerland,CHE,CHE,UEFA,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1586,1765,1588,1763,2
+,,,1985-02-10,Friendly,played,Colombia,COL,COL,CONMEBOL,Poland,POL,POL,UEFA,TRUE,1,2,loss,Bogotá,Colombia,FALSE,1588,1849,1582,1855,-6
+,,,1985-02-14,Friendly,played,Colombia,COL,COL,CONMEBOL,Poland,POL,POL,UEFA,TRUE,1,0,win,Cali,Colombia,FALSE,1582,1855,1597,1840,15
+,,,1985-02-21,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Santiago,Chile,FALSE,1597,1783,1604,1776,7
+,,,1985-02-24,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,1604,1935,1601,1938,-3
+,,,1985-02-28,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,3,0,win,Asunción,Paraguay,FALSE,1601,1748,1629,1720,28
+,,,1985-04-17,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,0,win,Pereira,Colombia,FALSE,,,,,
+,,,1985-04-19,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,2,draw,Bogotá,Colombia,FALSE,1639,1710,1638,1711,-1
+,,,1985-04-25,Friendly,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Belo Horizonte,Brazil,FALSE,1638,1945,1636,1947,-2
+,,,1985-04-28,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,1,win,Bogotá,Colombia,FALSE,1636,1903,1650,1889,14
+,,,1985-05-15,Friendly,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1650,1944,1665,1929,15
+,,,1985-05-26,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1665,1704,1682,1687,17
+,,,1985-06-02,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,1,3,loss,Bogotá,Colombia,FALSE,1682,1896,1662,1916,-20
+,,,1985-06-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,0,0,draw,Lima,Peru,FALSE,1662,1697,1669,1690,7
+,,,1985-06-16,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1669,1918,1664,1923,-5
+,,,1985-06-23,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,2,2,draw,San Cristóbal,Venezuela,FALSE,1664,1371,1654,1381,-10
+,,,1985-06-30,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,2,0,win,Bogotá,Colombia,FALSE,1654,1381,1660,1375,6
+,,,1985-10-27,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,3,loss,Asunción,Paraguay,FALSE,1660,1741,1642,1759,-18
+,,,1985-11-03,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,1,win,Cali,Colombia,FALSE,1642,1759,1663,1738,21
+,,,1987-06-11,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Medellín,Colombia,FALSE,1663,1511,1667,1507,4
+,,,1987-06-14,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,3,loss,Guayaquil,Ecuador,FALSE,1667,1507,1647,1527,-20
+,,,1987-07-01,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,2,0,win,Rosario,Argentina,TRUE,1647,1514,1671,1490,24
+,,,1987-07-05,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,3,0,win,Rosario,Argentina,TRUE,1671,1803,1731,1743,60
+,,,1987-07-08,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,2,loss,Córdoba,Argentina,TRUE,1731,1876,1716,1891,-15
+,,,1987-07-11,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,2,1,win,Buenos Aires,Argentina,FALSE,1716,1940,1759,1897,43
+,,,1988-03-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Canada,CAN,CAN,CONCACAF,TRUE,3,0,win,Armenia,Colombia,FALSE,1759,1568,1765,1562,6
+,,,1988-05-17,Rous Cup,played,Colombia,COL,COL,CONMEBOL,Scotland,SCO,SCO,UEFA,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1778,1792,1783,1787,5
+,,,1988-05-19,Friendly,played,Colombia,COL,COL,CONMEBOL,Finland,,,,FALSE,3,1,win,Helsinki,Finland,FALSE,1783,1616,1795,1604,12
+,,,1988-05-24,Rous Cup,played,Colombia,COL,COL,CONMEBOL,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1795,2003,1806,1992,11
+,,,1988-08-07,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,1,win,Bogotá,Colombia,FALSE,1806,1839,1818,1827,12
+,,,1989-02-03,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,0,win,Pereira,Colombia,FALSE,1818,1640,1823,1635,5
+,,,1989-02-05,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,1,0,win,Armenia,Colombia,FALSE,1823,1776,1832,1767,9
+,,,1989-03-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1832,1848,1840,1840,8
+,,,1989-06-24,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,1,0,win,Miami,United States,FALSE,1840,1601,1849,1592,9
+,,,1989-06-27,Friendly,played,Colombia,COL,COL,CONMEBOL,Haiti,HTI,HTI,CONCACAF,FALSE,4,0,win,Miami,United States,TRUE,1849,1347,1851,1345,2
+,,,1989-07-03,Copa América,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,4,2,win,Salvador,Brazil,TRUE,1851,1392,1856,1387,5
+,,,1989-07-05,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,1,loss,Salvador,Brazil,TRUE,1856,1814,1828,1842,-28
+,,,1989-07-07,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,0,draw,Salvador,Brazil,FALSE,1828,1923,1841,1910,13
+,,,1989-07-09,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Recife,Brazil,TRUE,1841,1586,1825,1602,-16
+,,,1989-08-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1825,1891,1829,1887,4
+,,,1989-08-20,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1829,1604,1837,1596,8
+,,,1989-08-27,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1837,1770,1819,1788,-18
+,,,1989-09-03,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,Guayaquil,Ecuador,FALSE,1819,1596,1812,1603,-7
+,,,1989-09-17,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,1,win,Barranquilla,Colombia,FALSE,1812,1794,1825,1781,13
+,,,1989-10-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Israel,ISR,ISR,UEFA,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1825,1633,1831,1627,6
+,,,1989-10-30,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Israel,ISR,ISR,UEFA,FALSE,0,0,draw,Ramat Gan,Israel,FALSE,1831,1627,1825,1633,-6
+,,,1990-02-02,Miami Cup,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,0,2,loss,Miami,United States,TRUE,1825,1878,1806,1897,-19
+,,,1990-02-04,Miami Cup,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Miami,United States,FALSE,1806,1579,1801,1584,-5
+,,,1990-02-20,Marlboro Cup,played,Colombia,COL,COL,CONMEBOL,Soviet Union,SUN,SUN,UEFA,TRUE,0,0,draw,Los Angeles,United States,TRUE,1801,1955,1807,1949,6
+,,,1990-04-17,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Los Angeles,United States,TRUE,1807,1925,1797,1935,-10
+,,,1990-04-22,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,1,0,win,Miami,United States,FALSE,1797,1596,1804,1589,7
+,,,1990-05-04,Marlboro Cup,played,Colombia,COL,COL,CONMEBOL,Poland,POL,POL,UEFA,TRUE,2,1,win,Chicago,United States,TRUE,1804,1802,1819,1787,15
+,,,1990-05-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Egypt,EGY,EGY,CAF,FALSE,1,1,draw,Cairo,Egypt,FALSE,1819,1624,1816,1627,-3
+,,,1990-06-02,Friendly,played,Colombia,COL,COL,CONMEBOL,Hungary,HUN,HUN,UEFA,FALSE,1,3,loss,Budapest,Hungary,FALSE,1816,1724,1801,1739,-15
+WC-1990,WC-1990_004,4,1990-06-09,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,United Arab Emirates,ARE,ARE,AFC,FALSE,2,0,win,Bologna,Italy,TRUE,1801,1454,1812,1443,11
+WC-1990,WC-1990_016,16,1990-06-14,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Yugoslavia,YUG,YUG,UEFA,FALSE,0,1,loss,Bologna,Italy,TRUE,1812,1855,1786,1881,-26
+WC-1990,WC-1990_028,28,1990-06-19,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Milan,Italy,TRUE,,,,,
+WC-1990,WC-1990_037,37,1990-06-23,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Cameroon,CMR,CMR,CAF,FALSE,1,2,loss,Naples,Italy,TRUE,1805,1684,1765,1724,-40
+,,,1991-01-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,León,Mexico,FALSE,1765,1886,1771,1880,6
+,,,1991-02-03,Miami Cup,played,Colombia,COL,COL,CONMEBOL,Switzerland,CHE,CHE,UEFA,TRUE,2,3,loss,Miami,United States,TRUE,1771,1732,1754,1749,-17
+,,,1991-06-05,Friendly,played,Colombia,COL,COL,CONMEBOL,Sweden,SWE,SWE,UEFA,FALSE,2,2,draw,Solna,Sweden,FALSE,1754,1832,1759,1827,5
+,,,1991-06-25,Friendly,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,0,win,San José,Costa Rica,FALSE,1759,1690,1770,1679,11
+,,,1991-07-07,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Valparaíso,Chile,TRUE,1770,1645,1786,1629,16
+,,,1991-07-11,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,0,draw,Viña del Mar,Chile,TRUE,1786,1579,1773,1592,-13
+,,,1991-07-13,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,2,0,win,Viña del Mar,Chile,TRUE,1773,1948,1828,1893,55
+,,,1991-07-15,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,0,1,loss,Viña del Mar,Chile,TRUE,1828,1821,1802,1847,-26
+,,,1991-07-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Santiago,Chile,FALSE,1802,1808,1809,1801,7
+,,,1991-07-19,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,2,loss,Santiago,Chile,TRUE,1809,1888,1780,1917,-29
+,,,1991-07-21,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,2,loss,Santiago,Chile,TRUE,1780,1973,1768,1985,-12
+,,,1992-07-31,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,1,0,win,Los Angeles,United States,FALSE,1758,1689,1774,1673,16
+,,,1992-08-02,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Los Angeles,United States,TRUE,1774,1814,1776,1812,2
+,,,1993-02-24,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,0,0,draw,San Cristóbal,Venezuela,FALSE,1776,1333,1768,1341,-8
+,,,1993-03-31,Friendly,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,4,1,win,Medellín,Colombia,FALSE,1768,1599,1774,1593,6
+,,,1993-05-08,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,2,1,win,Miami,United States,FALSE,1774,1656,1783,1647,9
+,,,1993-05-21,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1783,1341,1774,1350,-9
+,,,1993-05-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Santiago,Chile,FALSE,1774,1773,1777,1770,3
+,,,1993-06-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1777,1770,1784,1763,7
+,,,1993-06-16,Copa América,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,Machala,Ecuador,TRUE,1784,1857,1814,1827,30
+,,,1993-06-20,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,1,draw,Machala,Ecuador,TRUE,1814,1571,1799,1586,-15
+,,,1993-06-23,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Guayaquil,Ecuador,TRUE,1799,2002,1812,1989,13
+,,,1993-06-26,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,1,draw,Guayaquil,Ecuador,TRUE,1812,1811,1812,1811,0
+,,,1993-07-01,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,0,0,draw,Guayaquil,Ecuador,TRUE,1812,1987,1824,1975,12
+,,,1993-07-03,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,0,win,Portoviejo,Ecuador,FALSE,1824,1709,1848,1685,24
+,,,1993-08-01,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1848,1667,1835,1680,-13
+,,,1993-08-08,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,0,win,Lima,Peru,FALSE,1835,1585,1847,1573,12
+,,,1993-08-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Barranquilla,Colombia,FALSE,1847,2013,1871,1989,24
+,,,1993-08-22,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1871,1677,1866,1682,-5
+,,,1993-08-29,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,4,0,win,Barranquilla,Colombia,FALSE,1866,1561,1873,1554,7
+,,,1993-09-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,5,0,win,Buenos Aires,Argentina,FALSE,1873,1974,1934,1913,61
+,,,1994-01-28,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,2,1,win,Barinas,Venezuela,FALSE,1934,1356,1935,1355,1
+,,,1994-02-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Saudi Arabia,KSA,SAU,AFC,FALSE,1,1,draw,Jeddah,Saudi Arabia,FALSE,1935,1676,1931,1680,-4
+,,,1994-02-18,Joe Robbie Cup,played,Colombia,COL,COL,CONMEBOL,Sweden,SWE,SWE,UEFA,TRUE,0,0,draw,Miami,United States,TRUE,1937,1882,1935,1884,-2
+,,,1994-02-20,Joe Robbie Cup,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,2,0,win,Miami,United States,TRUE,1935,1708,1945,1698,10
+,,,1994-02-26,Friendly,played,Colombia,COL,COL,CONMEBOL,South Korea,KOR,KOR,AFC,TRUE,2,2,draw,Monterey Park,United States,TRUE,1945,1659,1938,1666,-7
+,,,1994-03-02,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1938,1860,1939,1859,1
+,,,1994-04-07,Friendly,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,0,1,loss,Villavicencio,Colombia,FALSE,1939,1699,1921,1717,-18
+,,,1994-04-17,Friendly,played,Colombia,COL,COL,CONMEBOL,Nigeria,NGA,NGA,CAF,TRUE,1,0,win,Armenia,Colombia,FALSE,1921,1742,1924,1739,3
+,,,1994-05-03,Miami Cup,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,0,win,Miami,United States,TRUE,1924,1557,1927,1554,3
+,,,1994-05-05,Miami Cup,played,Colombia,COL,COL,CONMEBOL,El Salvador,SLV,SLV,CONCACAF,TRUE,3,0,win,Miami,United States,TRUE,1927,1520,1932,1515,5
+,,,1994-06-03,Friendly,played,Colombia,COL,COL,CONMEBOL,Northern Ireland,NIR,NIR,UEFA,TRUE,2,0,win,Foxborough,United States,TRUE,1932,1693,1938,1687,6
+,,,1994-06-05,Friendly,played,Colombia,COL,COL,CONMEBOL,Greece,GRC,GRC,UEFA,TRUE,2,0,win,East Rutherford,United States,TRUE,1938,1695,1944,1689,6
+WC-1994,WC-1994_003,3,1994-06-18,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Romania,ROU,ROU,UEFA,TRUE,1,3,loss,Pasadena,United States,TRUE,1944,1836,1885,1895,-59
+WC-1994,WC-1994_015,15,1994-06-22,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Pasadena,United States,FALSE,1885,1628,1842,1671,-43
+WC-1994,WC-1994_025,25,1994-06-26,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Switzerland,CHE,CHE,UEFA,FALSE,2,0,win,Palo Alto,United States,TRUE,1842,1918,1897,1863,55
+,,,1995-01-31,Lunar New Year Cup,played,Colombia,COL,COL,CONMEBOL,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1995-02-11,Friendly,played,Colombia,COL,COL,CONMEBOL,Australia,AUS,AUS,AFC,FALSE,1,0,win,Sydney,Australia,FALSE,1895,1722,1903,1714,8
+,,,1995-03-22,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,1,win,Medellín,Colombia,FALSE,1903,1805,1908,1800,5
+,,,1995-06-17,USA Cup,played,Colombia,COL,COL,CONMEBOL,Nigeria,NGA,NGA,CAF,TRUE,1,0,win,Piscataway,United States,TRUE,1908,1796,1918,1786,10
+,,,1995-06-21,USA Cup,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,"Washington, D.C.",United States,TRUE,1918,1845,1915,1848,-3
+,,,1995-06-25,USA Cup,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,0,0,draw,Piscataway,United States,FALSE,1915,1670,1909,1676,-6
+,,,1995-07-07,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Rivera,Uruguay,TRUE,1909,1592,1891,1610,-18
+,,,1995-07-10,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Rivera,Uruguay,TRUE,1891,1657,1901,1647,10
+,,,1995-07-13,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,3,loss,Rivera,Uruguay,TRUE,1901,2099,1880,2120,-21
+,,,1995-07-16,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,1,draw,Montevideo,Uruguay,TRUE,1880,1751,1871,1760,-9
+,,,1995-07-19,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1871,1822,1839,1854,-32
+,,,1995-07-22,Copa América,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,TRUE,4,1,win,Maldonado,Uruguay,TRUE,1839,1747,1871,1715,32
+,,,1995-09-06,Friendly,played,Colombia,COL,COL,CONMEBOL,England,ENG,ENG,UEFA,FALSE,0,0,draw,London,England,FALSE,1871,1862,1874,1859,3
+,,,1995-10-11,Friendly,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,0,draw,Buenos Aires,Argentina,FALSE,1874,1856,1876,1854,2
+,,,1995-10-26,Friendly,played,Colombia,COL,COL,CONMEBOL,China PR,,,,FALSE,1,2,loss,Beijing,China PR,FALSE,,,,,
+,,,1995-11-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,2,2,draw,Los Angeles,United States,TRUE,1861,1817,1860,1818,-1
+,,,1995-12-20,Friendly,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,3,loss,Manaus,Brazil,FALSE,1860,2110,1856,2114,-4
+,,,1996-03-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,TRUE,2,1,win,Miami,United States,TRUE,1856,1551,1859,1548,3
+,,,1996-03-21,Friendly,played,Colombia,COL,COL,CONMEBOL,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,0,win,Neiva,Colombia,FALSE,1859,1503,1861,1501,2
+,,,1996-03-28,Friendly,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,4,1,win,Medellín,Colombia,FALSE,1861,1708,1868,1701,7
+,,,1996-04-24,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1868,1756,1877,1747,9
+,,,1996-05-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,Miami,United States,TRUE,1877,1774,1884,1767,7
+,,,1996-06-02,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,1,draw,Lima,Peru,FALSE,1884,1539,1872,1551,-12
+,,,1996-07-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,3,1,win,Barranquilla,Colombia,FALSE,1872,1800,1888,1784,16
+,,,1996-09-01,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,4,1,win,Barranquilla,Colombia,FALSE,1888,1738,1901,1725,13
+,,,1996-10-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,0,win,Quito,Ecuador,FALSE,1901,1701,1915,1687,14
+,,,1996-11-01,Friendly,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,2,1,win,New York,United States,TRUE,1915,1563,1917,1561,2
+,,,1996-11-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,2,2,draw,La Paz,Bolivia,FALSE,1917,1655,1908,1664,-9
+,,,1996-11-23,Friendly,played,Colombia,COL,COL,CONMEBOL,South Korea,KOR,KOR,AFC,FALSE,1,4,loss,Suwon,South Korea,FALSE,,,,,
+,,,1996-12-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,2,0,win,San Cristóbal,Venezuela,FALSE,1908,1374,1913,1369,5
+,,,1997-02-08,Friendly,played,Colombia,COL,COL,CONMEBOL,Slovakia,SVK,SVK,UEFA,TRUE,1,0,win,Pereira,Colombia,FALSE,1913,1696,1916,1693,3
+,,,1997-02-12,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1916,1800,1885,1831,-31
+,,,1997-04-02,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1885,1832,1868,1849,-17
+,,,1997-04-30,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1868,1644,1833,1679,-35
+,,,1997-06-08,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1833,1721,1832,1722,-1
+,,,1997-06-13,Copa América,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Santa Cruz,Bolivia,TRUE,1832,1820,1806,1846,-26
+,,,1997-06-16,Copa América,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,4,1,win,Santa Cruz,Bolivia,TRUE,1806,1634,1830,1610,24
+,,,1997-06-19,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,2,loss,Santa Cruz,Bolivia,TRUE,1830,2088,1816,2102,-14
+,,,1997-06-21,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,2,loss,La Paz,Bolivia,FALSE,1816,1743,1793,1766,-23
+,,,1997-07-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,4,loss,Santiago,Chile,FALSE,1793,1672,1756,1709,-37
+,,,1997-07-20,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1756,1770,1771,1755,15
+,,,1997-08-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Jamaica,JAM,JAM,CONCACAF,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1771,1572,1758,1585,-13
+,,,1997-08-20,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1758,1773,1785,1746,27
+,,,1997-08-24,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,2,loss,Lima,Peru,FALSE,1785,1719,1771,1733,-14
+,,,1997-09-06,Friendly,played,Colombia,COL,COL,CONMEBOL,El Salvador,SLV,SLV,CONCACAF,FALSE,2,2,draw,East Rutherford,United States,TRUE,,,,,
+,,,1997-09-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1771,1343,1773,1341,2
+,,,1997-10-08,Friendly,played,Colombia,COL,COL,CONMEBOL,Norway,NOR,NOR,UEFA,FALSE,0,0,draw,Oslo,Norway,FALSE,1773,1863,1778,1858,5
+,,,1997-11-16,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1778,1843,1787,1834,9
+,,,1998-03-25,Friendly,played,Colombia,COL,COL,CONMEBOL,Serbia,SRB,SRB,UEFA,TRUE,0,0,draw,Bogotá,Colombia,FALSE,,,,,
+,,,1998-03-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,1,draw,New Haven,United States,TRUE,1789,1767,1788,1768,-1
+,,,1998-04-22,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,2,2,draw,Santiago,Chile,FALSE,1788,1793,1791,1790,3
+,,,1998-05-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Frankfurt am Main,Germany,FALSE,1791,2055,1788,2058,-3
+,,,1998-06-03,Friendly,played,Colombia,COL,COL,CONMEBOL,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Brussels,Belgium,FALSE,1788,1806,1778,1816,-10
+WC-1998,WC-1998_016,16,1998-06-15,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Romania,ROU,ROU,UEFA,FALSE,0,1,loss,Lyon,France,TRUE,1778,1880,1757,1901,-21
+WC-1998,WC-1998_031,31,1998-06-22,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Tunisia,TUN,TUN,CAF,TRUE,1,0,win,Montpellier,France,TRUE,1757,1621,1776,1602,19
+WC-1998,WC-1998_046,46,1998-06-26,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,England,ENG,ENG,UEFA,TRUE,0,2,loss,Lens,France,TRUE,1776,1948,1752,1972,-24
+,,,1999-02-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,3,3,draw,Miami,United States,TRUE,1752,1951,1757,1946,5
+,,,1999-03-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,0,0,draw,Maracaibo,Venezuela,FALSE,1757,1337,1750,1344,-7
+,,,1999-04-15,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,1,1,draw,Caracas,Venezuela,FALSE,1750,1344,1743,1351,-7
+,,,1999-04-22,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,2,0,win,Luque,Paraguay,FALSE,1743,1812,1765,1790,22
+,,,1999-05-29,Friendly,played,Colombia,COL,COL,CONMEBOL,El Salvador,SLV,SLV,CONCACAF,FALSE,1,2,loss,East Rutherford,United States,TRUE,1765,1430,1748,1447,-17
+,,,1999-06-17,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,3,3,draw,Manizales,Colombia,FALSE,1748,1725,1745,1728,-3
+,,,1999-06-24,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,2,loss,Asunción,Paraguay,FALSE,1745,1786,1739,1792,-6
+,,,1999-07-01,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,1,0,win,Asunción,Paraguay,TRUE,1739,1772,1766,1745,27
+,,,1999-07-04,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,3,0,win,Luque,Paraguay,TRUE,1766,1940,1830,1876,64
+,,,1999-07-07,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,2,1,win,Luque,Paraguay,TRUE,1830,1695,1846,1679,16
+,,,1999-07-11,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,2,3,loss,Luque,Paraguay,TRUE,1846,1747,1814,1779,-32
+,,,1999-09-08,Friendly,played,Colombia,COL,COL,CONMEBOL,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,3,4,loss,Miami,United States,TRUE,1814,1578,1798,1594,-16
+,,,1999-10-13,Friendly,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,2,loss,Córdoba,Argentina,FALSE,1798,1910,1793,1915,-5
+,,,1999-10-20,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,San Diego,United States,TRUE,1793,1914,1796,1911,3
+,,,2000-02-12,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Jamaica,JAM,JAM,CONCACAF,TRUE,1,0,win,Miami,United States,TRUE,1801,1594,1813,1582,12
+,,,2000-02-16,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Miami,United States,TRUE,1813,1658,1760,1711,-53
+,,,2000-02-19,Gold Cup,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,2,2,draw,Miami,United States,FALSE,1760,1829,1771,1818,11
+,,,2000-02-23,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,2,1,win,San Diego,United States,TRUE,1771,1748,1794,1725,23
+,,,2000-02-27,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Canada,CAN,CAN,CONCACAF,FALSE,0,2,loss,Los Angeles,United States,TRUE,1794,1659,1743,1710,-51
+,,,2000-03-28,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1743,2098,1756,2085,13
+,,,2000-04-26,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1756,1639,1755,1640,-1
+,,,2000-05-27,Friendly,played,Colombia,COL,COL,CONMEBOL,Jamaica,JAM,JAM,CONCACAF,FALSE,3,0,win,East Rutherford,United States,TRUE,1755,1533,1763,1525,8
+,,,2000-06-04,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,3,0,win,Bogotá,Colombia,FALSE,1763,1403,1768,1398,5
+,,,2000-06-29,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,1,3,loss,Bogotá,Colombia,FALSE,1768,1958,1746,1980,-22
+,,,2000-07-19,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,0,win,Lima,Peru,FALSE,1746,1730,1771,1705,25
+,,,2000-07-25,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,Quito,Ecuador,FALSE,1771,1680,1772,1679,1
+,,,2000-08-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1772,1758,1786,1744,14
+,,,2000-09-02,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,0,win,Santiago,Chile,FALSE,1786,1775,1811,1750,25
+,,,2000-10-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,2,loss,Bogotá,Colombia,FALSE,1811,1815,1773,1853,-38
+,,,2000-11-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,São Paulo,Brazil,FALSE,1773,2018,1768,2023,-5
+,,,2001-01-31,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,3,2,win,Los Angeles,United States,TRUE,1768,1799,1779,1788,11
+,,,2001-02-03,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,1,0,win,Miami,United States,FALSE,1779,1812,1793,1798,14
+,,,2001-02-28,Friendly,played,Colombia,COL,COL,CONMEBOL,Australia,AUS,AUS,AFC,TRUE,3,2,win,Bogotá,Colombia,FALSE,1793,1778,1800,1771,7
+,,,2001-03-27,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,0,win,Bogotá,Colombia,FALSE,1800,1576,1808,1568,8
+,,,2001-04-24,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,2,2,draw,San Cristóbal,Venezuela,FALSE,1808,1420,1794,1434,-14
+,,,2001-06-03,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,3,loss,Buenos Aires,Argentina,FALSE,1794,2004,1784,2014,-10
+,,,2001-07-11,Copa América,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1784,1419,1789,1414,5
+,,,2001-07-14,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1789,1717,1803,1703,14
+,,,2001-07-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1803,1713,1822,1694,19
+,,,2001-07-23,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,3,0,win,Armenia,Colombia,FALSE,1822,1707,1842,1687,20
+,,,2001-07-26,Copa América,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,TRUE,2,0,win,Manizales,Colombia,FALSE,1842,1777,1863,1756,21
+,,,2001-07-29,Copa América,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,TRUE,1,0,win,Bogotá,Colombia,FALSE,1863,1769,1875,1757,12
+,,,2001-08-04,Friendly,played,Colombia,COL,COL,CONMEBOL,Liberia,,,,TRUE,2,1,win,East Rutherford,United States,TRUE,1875,1501,1877,1499,2
+,,,2001-08-16,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1877,1687,1843,1721,-34
+,,,2001-09-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1843,1702,1831,1714,-12
+,,,2001-10-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,1,1,draw,Montevideo,Uruguay,FALSE,1831,1750,1832,1749,1
+,,,2001-11-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,3,1,win,Bogotá,Colombia,FALSE,1832,1604,1840,1596,8
+,,,2001-11-14,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,4,0,win,Asunción,Paraguay,FALSE,1840,1766,1880,1726,40
+,,,2002-05-07,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,0,0,draw,Caracas,Venezuela,FALSE,1880,1564,1874,1570,-6
+,,,2002-05-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,1,win,San José,Costa Rica,FALSE,1874,1772,1884,1762,10
+,,,2002-05-12,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1884,1819,1875,1828,-9
+,,,2002-11-20,Friendly,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,San Pedro Sula,Honduras,FALSE,1875,1758,1865,1768,-10
+,,,2003-02-12,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Phoenix,United States,TRUE,1865,1829,1864,1830,-1
+,,,2003-03-29,Friendly,played,Colombia,COL,COL,CONMEBOL,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Busan,South Korea,FALSE,1864,1768,1864,1768,0
+,,,2003-04-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,0,0,draw,Miami,United States,TRUE,1864,1701,1860,1705,-4
+,,,2003-06-08,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,Madrid,Spain,TRUE,1860,1723,1856,1727,-4
+,,,2003-06-18,Confederations Cup,played,Colombia,COL,COL,CONMEBOL,France,FRA,FRA,UEFA,FALSE,0,1,loss,Lyon,France,FALSE,1856,1961,1844,1973,-12
+,,,2003-06-20,Confederations Cup,played,Colombia,COL,COL,CONMEBOL,New Zealand,NZL,NZL,OFC,TRUE,3,1,win,Lyon,France,TRUE,1844,1548,1856,1536,12
+,,,2003-06-22,Confederations Cup,played,Colombia,COL,COL,CONMEBOL,Japan,JPN,JPN,AFC,FALSE,1,0,win,Saint-Étienne,France,TRUE,1856,1789,1876,1769,20
+,,,2003-06-26,Confederations Cup,played,Colombia,COL,COL,CONMEBOL,Cameroon,CMR,CMR,CAF,FALSE,0,1,loss,Lyon,France,TRUE,1876,1820,1847,1849,-29
+,,,2003-06-28,Confederations Cup,played,Colombia,COL,COL,CONMEBOL,Turkey,TUR,TUR,UEFA,TRUE,1,2,loss,Saint-Étienne,France,TRUE,1847,1864,1823,1888,-24
+,,,2003-07-13,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Jamaica,JAM,JAM,CONCACAF,FALSE,1,0,win,Miami,United States,TRUE,1823,1580,1833,1570,10
+,,,2003-07-17,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Guatemala,,,,TRUE,1,1,draw,Miami,United States,TRUE,1833,1528,1815,1546,-18
+,,,2003-07-19,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,0,2,loss,Miami,United States,TRUE,1815,1982,1794,2003,-21
+,,,2003-08-20,Friendly,played,Colombia,COL,COL,CONMEBOL,Slovakia,SVK,SVK,UEFA,TRUE,0,0,draw,New York,United States,TRUE,1794,1678,1791,1681,-3
+,,,2003-09-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,Barranquilla,Colombia,FALSE,1791,1994,1777,2008,-14
+,,,2003-09-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,4,loss,La Paz,Bolivia,FALSE,1777,1539,1725,1591,-52
+,,,2003-11-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1725,1599,1694,1630,-31
+,,,2003-11-19,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1694,2030,1706,2018,12
+,,,2004-02-18,Friendly,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,1,1,draw,Tegucigalpa,Honduras,FALSE,1706,1648,1707,1647,1
+,,,2004-03-31,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,2,0,win,Lima,Peru,FALSE,1707,1688,1744,1651,37
+,,,2004-04-28,Friendly,played,Colombia,COL,COL,CONMEBOL,El Salvador,SLV,SLV,CONCACAF,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1744,1484,1749,1479,5
+,,,2004-06-02,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,2,loss,Quito,Ecuador,FALSE,1749,1708,1732,1725,-17
+,,,2004-06-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,5,0,win,Barranquilla,Colombia,FALSE,1732,1732,1761,1703,29
+,,,2004-06-27,Friendly,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,2,0,win,Miami,United States,TRUE,1761,1987,1785,1963,24
+,,,2004-07-06,Copa América,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,1,0,win,Lima,Peru,TRUE,1785,1681,1803,1663,18
+,,,2004-07-09,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,0,win,Lima,Peru,TRUE,1803,1587,1814,1576,11
+,,,2004-07-12,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,2,2,draw,Trujillo,Peru,FALSE,1814,1702,1813,1703,-1
+,,,2004-07-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,0,win,Trujillo,Peru,TRUE,1813,1701,1839,1675,26
+,,,2004-07-20,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,3,loss,Lima,Peru,TRUE,1839,1984,1813,2010,-26
+,,,2004-07-24,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,2,loss,Cusco,Peru,TRUE,1813,1785,1786,1812,-27
+,,,2004-09-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,0,0,draw,Santiago,Chile,FALSE,1786,1676,1785,1677,-1
+,,,2004-10-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1785,1794,1780,1799,-5
+,,,2004-10-13,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,0,draw,Maceió,Brazil,FALSE,1780,2020,1795,2005,15
+,,,2004-11-17,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1795,1594,1801,1588,6
+,,,2005-01-15,Friendly,played,Colombia,COL,COL,CONMEBOL,South Korea,KOR,KOR,AFC,TRUE,2,1,win,Los Angeles,United States,TRUE,1801,1714,1809,1706,8
+,,,2005-01-17,Friendly,played,Colombia,COL,COL,CONMEBOL,Guatemala,,,,FALSE,1,1,draw,Los Angeles,United States,TRUE,1809,1615,1804,1620,-5
+,,,2005-02-23,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,1,1,draw,Culiacán,Mexico,FALSE,1804,1901,1809,1896,5
+,,,2005-03-09,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,0,3,loss,Fullerton,United States,FALSE,1809,1837,1798,1848,-11
+,,,2005-03-26,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,0,0,draw,Maracaibo,Venezuela,FALSE,1798,1629,1794,1633,-4
+,,,2005-03-30,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1794,2029,1789,2034,-5
+,,,2005-05-31,Friendly,played,Colombia,COL,COL,CONMEBOL,England,ENG,ENG,UEFA,TRUE,2,3,loss,East Rutherford,United States,TRUE,1789,1986,1784,1991,-5
+,,,2005-06-04,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,5,0,win,Barranquilla,Colombia,FALSE,1784,1688,1804,1668,20
+,,,2005-06-08,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1804,1773,1826,1751,22
+,,,2005-07-06,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,Miami,United States,TRUE,1826,1459,1781,1504,-45
+,,,2005-07-10,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,1,2,loss,Miami,United States,TRUE,1781,1668,1748,1701,-33
+,,,2005-07-12,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,0,win,Miami,United States,TRUE,1748,1504,1763,1489,15
+,,,2005-07-17,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,2,1,win,Houston,United States,TRUE,1763,1911,1798,1876,35
+,,,2005-07-21,Gold Cup,played,Colombia,COL,COL,CONMEBOL,Panama,PAN,PAN,CONCACAF,TRUE,2,3,loss,East Rutherford,United States,TRUE,1798,1500,1756,1542,-42
+,,,2005-09-04,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,2,3,loss,Montevideo,Uruguay,FALSE,1756,1803,1744,1815,-12
+,,,2005-10-08,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1744,1673,1735,1682,-9
+,,,2005-10-12,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,0,win,Asunción,Paraguay,FALSE,1735,1794,1764,1765,29
+,,,2006-03-01,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,1,1,draw,Maracaibo,Venezuela,FALSE,1764,1605,1762,1607,-2
+,,,2006-05-24,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,1,draw,East Rutherford,United States,TRUE,1762,1715,1761,1716,-1
+,,,2006-05-27,Friendly,played,Colombia,COL,COL,CONMEBOL,Romania,ROU,ROU,UEFA,FALSE,0,0,draw,Chicago,United States,TRUE,1761,1847,1763,1845,2
+,,,2006-05-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Poland,POL,POL,UEFA,FALSE,2,1,win,Chorzów,Poland,FALSE,1763,1824,1777,1810,14
+,,,2006-06-02,Friendly,played,Colombia,COL,COL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Mönchengladbach,Germany,FALSE,1777,1887,1769,1895,-8
+,,,2006-06-04,Friendly,played,Colombia,COL,COL,CONMEBOL,Morocco,MAR,MAR,CAF,TRUE,2,0,win,Barcelona,Spain,TRUE,1769,1659,1779,1649,10
+,,,2006-08-16,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,2,1,win,Santiago,Chile,FALSE,1779,1713,1790,1702,11
+,,,2007-02-07,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,1,3,loss,Cúcuta,Colombia,FALSE,1790,1821,1772,1839,-18
+,,,2007-03-25,Friendly,played,Colombia,COL,COL,CONMEBOL,Switzerland,CHE,CHE,UEFA,TRUE,3,1,win,Miami,United States,TRUE,1772,1846,1790,1828,18
+,,,2007-03-28,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,0,win,Bogotá,Colombia,FALSE,1790,1755,1799,1746,9
+,,,2007-05-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Panama,PAN,PAN,CONCACAF,FALSE,4,0,win,Panama City,Panama,FALSE,1799,1566,1811,1554,12
+,,,2007-06-03,Kirin Cup,played,Colombia,COL,COL,CONMEBOL,Montenegro,,,,TRUE,1,0,win,Matsumoto,Japan,TRUE,1811,1669,1820,1660,9
+,,,2007-06-05,Kirin Cup,played,Colombia,COL,COL,CONMEBOL,Japan,JPN,JPN,AFC,FALSE,0,0,draw,Saitama,Japan,FALSE,1820,1746,1821,1745,1
+,,,2007-06-23,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,3,1,win,Barranquilla,Colombia,FALSE,1821,1747,1829,1739,8
+,,,2007-06-28,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,5,loss,Barinas,Venezuela,TRUE,1829,1757,1769,1817,-60
+,,,2007-07-02,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,2,4,loss,Maracaibo,Venezuela,TRUE,1769,2012,1754,2027,-15
+,,,2007-07-05,Copa América,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,TRUE,1,0,win,Barquisimeto,Venezuela,TRUE,1754,1775,1781,1748,27
+,,,2007-08-22,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,1,0,win,Commerce City,United States,TRUE,1781,1929,1795,1915,14
+,,,2007-09-08,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,2,2,draw,Lima,Peru,FALSE,1795,1651,1794,1652,-1
+,,,2007-09-12,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,0,win,Bogotá,Colombia,FALSE,1794,1776,1801,1769,7
+,,,2007-10-14,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,0,0,draw,Bogotá,Colombia,FALSE,1801,2094,1811,2084,10
+,,,2007-10-17,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,0,draw,La Paz,Bolivia,FALSE,1811,1566,1803,1574,-8
+,,,2007-11-17,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,1,0,win,Bogotá,Colombia,FALSE,1803,1663,1811,1655,8
+,,,2007-11-20,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Bogotá,Colombia,FALSE,1811,2039,1838,2012,27
+,,,2008-02-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,2,2,draw,Montevideo,Uruguay,FALSE,1838,1796,1840,1794,2
+,,,2008-03-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,1,2,loss,Fort Lauderdale,United States,TRUE,1840,1682,1826,1696,-14
+,,,2008-04-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,5,2,win,Bucaramanga,Colombia,FALSE,1826,1655,1832,1649,6
+,,,2008-05-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,London,England,TRUE,,,,,
+,,,2008-06-03,Friendly,played,Colombia,COL,COL,CONMEBOL,France,FRA,FRA,UEFA,FALSE,0,1,loss,Saint-Denis,France,FALSE,1820,2003,1817,2006,-3
+,,,2008-06-14,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,1,draw,Lima,Peru,FALSE,1817,1626,1812,1631,-5
+,,,2008-06-18,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,Quito,Ecuador,FALSE,1812,1694,1811,1695,-1
+,,,2008-08-20,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,1,loss,East Rutherford,United States,TRUE,1811,1695,1798,1708,-13
+,,,2008-09-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1798,1828,1774,1852,-24
+,,,2008-09-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,0,4,loss,Santiago,Chile,FALSE,1774,1753,1745,1782,-29
+,,,2008-10-11,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,1,loss,Bogotá,Colombia,FALSE,1745,1824,1724,1845,-21
+,,,2008-10-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,0,draw,Rio de Janeiro,Brazil,FALSE,1724,2027,1740,2011,16
+,,,2008-11-19,Friendly,played,Colombia,COL,COL,CONMEBOL,Nigeria,NGA,NGA,CAF,TRUE,1,0,win,Palmira,Colombia,FALSE,1740,1746,1747,1739,7
+,,,2008-12-28,Friendly,played,Colombia,COL,COL,CONMEBOL,Catalonia,,,,FALSE,1,2,loss,Barcelona,Spain,FALSE,,,,,
+,,,2009-02-11,Friendly,played,Colombia,COL,COL,CONMEBOL,Haiti,HTI,HTI,CONCACAF,TRUE,2,0,win,Pereira,Colombia,FALSE,1747,1407,1749,1405,2
+,,,2009-03-28,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,0,win,Bogotá,Colombia,FALSE,1749,1596,1760,1585,11
+,,,2009-03-31,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,0,2,loss,Puerto Ordaz,Venezuela,FALSE,1760,1655,1730,1685,-30
+,,,2009-06-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1730,1929,1724,1935,-6
+,,,2009-06-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,0,win,Medellín,Colombia,FALSE,1724,1547,1731,1540,7
+,,,2009-08-07,Friendly,played,Colombia,COL,COL,CONMEBOL,El Salvador,SLV,SLV,CONCACAF,TRUE,2,1,win,Houston,United States,TRUE,1731,1527,1736,1522,5
+,,,2009-08-12,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,1,2,loss,East Rutherford,United States,TRUE,1736,1689,1725,1700,-11
+,,,2009-09-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,2,0,win,Medellín,Colombia,FALSE,1725,1747,1748,1724,23
+,,,2009-09-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,1,3,loss,Montevideo,Uruguay,FALSE,1748,1787,1729,1806,-19
+,,,2009-09-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,2,1,win,Dallas,United States,TRUE,1729,1914,1744,1899,15
+,,,2009-10-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,2,4,loss,Medellín,Colombia,FALSE,1744,1830,1713,1861,-31
+,,,2009-10-14,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,2,0,win,Asunción,Paraguay,FALSE,1713,1827,1759,1781,46
+,,,2010-05-27,Friendly,played,Colombia,COL,COL,CONMEBOL,South Africa,ZAF,ZAF,CAF,FALSE,1,2,loss,Johannesburg,South Africa,FALSE,1759,1558,1746,1571,-13
+,,,2010-05-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Nigeria,NGA,NGA,CAF,FALSE,1,1,draw,Milton Keynes,England,TRUE,1746,1703,1745,1704,-1
+,,,2010-08-11,Friendly,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1745,1595,1744,1596,-1
+,,,2010-09-03,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,2,0,win,Puerto la Cruz,Venezuela,FALSE,1744,1706,1762,1688,18
+,,,2010-09-07,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Monterrey,Mexico,FALSE,1762,1846,1757,1851,-5
+,,,2010-10-08,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Harrison,United States,TRUE,1757,1725,1766,1716,9
+,,,2010-10-12,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,0,0,draw,Chester,United States,FALSE,1766,1755,1769,1752,3
+,,,2010-11-17,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Bogotá,Colombia,FALSE,1769,1623,1763,1629,-6
+,,,2011-02-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Madrid,Spain,FALSE,1763,2115,1762,2116,-1
+,,,2011-03-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,2,0,win,Madrid,Spain,TRUE,1762,1730,1776,1716,14
+,,,2011-03-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,0,2,loss,The Hague,Netherlands,TRUE,1776,1895,1766,1905,-10
+,,,2011-06-25,Friendly,played,Colombia,COL,COL,CONMEBOL,Senegal,SEN,SEN,CAF,TRUE,2,0,win,Medellín,Colombia,FALSE,,,,,
+,,,2011-07-02,Copa América,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,San Salvador de Jujuy,Argentina,TRUE,1766,1658,1783,1641,17
+,,,2011-07-06,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,0,draw,Santa Fe,Argentina,FALSE,1783,1929,1798,1914,15
+,,,2011-07-10,Copa América,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,0,win,Santa Fe,Argentina,TRUE,1798,1556,1813,1541,15
+,,,2011-07-16,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,0,2,loss,Córdoba,Argentina,TRUE,1813,1696,1763,1746,-50
+,,,2011-09-03,Friendly,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,2,0,win,Harrison,United States,TRUE,1763,1659,1774,1648,11
+,,,2011-09-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Jamaica,JAM,JAM,CONCACAF,FALSE,2,0,win,Fort Lauderdale,United States,TRUE,1774,1656,1784,1646,10
+,,,2011-10-11,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,2,1,win,La Paz,Bolivia,FALSE,1784,1535,1796,1523,12
+,,,2011-11-11,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1796,1721,1787,1730,-9
+,,,2011-11-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,1,2,loss,Barranquilla,Colombia,FALSE,1787,1895,1767,1915,-20
+,,,2012-02-29,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,2,0,win,Miami Gardens,United States,TRUE,1767,1873,1786,1854,19
+,,,2012-06-03,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,0,win,Lima,Peru,FALSE,1788,1722,1810,1700,22
+,,,2012-06-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,1,loss,Quito,Ecuador,FALSE,1810,1769,1793,1786,-17
+,,,2012-09-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,4,0,win,Barranquilla,Colombia,FALSE,1793,1975,1839,1929,46
+,,,2012-09-11,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,3,1,win,Santiago,Chile,FALSE,1839,1908,1883,1864,44
+,,,2012-10-12,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1883,1708,1893,1698,10
+,,,2012-10-16,Friendly,played,Colombia,COL,COL,CONMEBOL,Cameroon,CMR,CMR,CAF,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1893,1600,1896,1597,3
+,,,2012-11-14,Friendly,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,East Rutherford,United States,TRUE,1896,2080,1901,2075,5
+,,,2013-03-22,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,5,0,win,Barranquilla,Colombia,FALSE,1904,1630,1912,1622,8
+,,,2013-03-26,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,0,1,loss,Puerto Ordaz,Venezuela,FALSE,1912,1703,1886,1729,-26
+,,,2013-06-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,0,draw,Buenos Aires,Argentina,FALSE,1886,2016,1898,2004,12
+,,,2013-06-11,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1898,1777,1911,1764,13
+,,,2013-08-14,Friendly,played,Colombia,COL,COL,CONMEBOL,Serbia,SRB,SRB,UEFA,TRUE,1,0,win,Barcelona,Spain,TRUE,1911,1693,1915,1689,4
+,,,2013-09-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1915,1847,1926,1836,11
+,,,2013-09-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1926,1891,1902,1915,-24
+,,,2013-10-11,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,3,3,draw,Barranquilla,Colombia,FALSE,1902,1877,1895,1884,-7
+,,,2013-10-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,2,1,win,Asunción,Paraguay,FALSE,1895,1717,1911,1701,16
+,,,2013-11-14,Friendly,played,Colombia,COL,COL,CONMEBOL,Belgium,BEL,BEL,UEFA,FALSE,2,0,win,Brussels,Belgium,FALSE,1911,1867,1928,1850,17
+,,,2013-11-19,Friendly,played,Colombia,COL,COL,CONMEBOL,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,1928,2008,1933,2003,5
+,,,2014-03-05,Friendly,played,Colombia,COL,COL,CONMEBOL,Tunisia,TUN,TUN,CAF,TRUE,1,1,draw,Barcelona,Spain,TRUE,1933,1503,1925,1511,-8
+,,,2014-05-31,Friendly,played,Colombia,COL,COL,CONMEBOL,Senegal,SEN,SEN,CAF,TRUE,2,2,draw,Buenos Aires,Argentina,TRUE,1925,1576,1917,1584,-8
+,,,2014-06-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Jordan,,,,TRUE,3,0,win,Buenos Aires,Argentina,TRUE,1917,1606,1922,1601,5
+WC-2014,WC-2014_005,5,2014-06-14,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Greece,GRC,GRC,UEFA,TRUE,3,0,win,Belo Horizonte,Brazil,TRUE,1922,1823,1960,1785,38
+WC-2014,WC-2014_021,21,2014-06-19,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Ivory Coast,CIV,CIV,CAF,TRUE,2,1,win,Brasília,Brazil,TRUE,1960,1803,1977,1786,17
+WC-2014,WC-2014_040,40,2014-06-24,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Japan,JPN,JPN,AFC,FALSE,4,1,win,Cuiabá,Brazil,TRUE,1977,1757,2000,1734,23
+WC-2014,WC-2014_050,50,2014-06-28,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,0,win,Rio de Janeiro,Brazil,TRUE,2000,1913,2034,1879,34
+WC-2014,WC-2014_057,57,2014-07-04,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Fortaleza,Brazil,FALSE,2034,2103,2018,2119,-16
+,,,2014-09-05,Friendly,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Miami Gardens,United States,TRUE,2018,1979,2007,1990,-11
+,,,2014-11-14,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,2,1,win,London,England,TRUE,2010,1835,2015,1830,5
+,,,2014-11-18,Friendly,played,Colombia,COL,COL,CONMEBOL,Slovenia,SVN,SVN,UEFA,FALSE,1,0,win,Ljubljana,Slovenia,FALSE,2015,1658,2019,1654,4
+,,,2015-03-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Bahrain,,,,FALSE,6,0,win,Riffa,Bahrain,FALSE,2019,1489,2022,1486,3
+,,,2015-03-30,Friendly,played,Colombia,COL,COL,CONMEBOL,Kuwait,KWT,KWT,AFC,FALSE,3,1,win,Abu Dhabi,United Arab Emirates,TRUE,2022,1453,2023,1452,1
+,,,2015-06-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Buenos Aires,Argentina,TRUE,2023,1848,2028,1843,5
+,,,2015-06-14,Copa América,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,0,1,loss,Rancagua,Chile,TRUE,2028,1687,1984,1731,-44
+,,,2015-06-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,0,win,Santiago,Chile,TRUE,1984,2075,2015,2044,31
+,,,2015-06-21,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,0,0,draw,Temuco,Chile,TRUE,2015,1740,1999,1756,-16
+,,,2015-06-26,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,0,draw,Viña del Mar,Chile,TRUE,1999,2058,2003,2054,4
+,,,2015-09-08,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Harrison,United States,TRUE,2003,1801,1998,1806,-5
+,,,2015-10-08,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1998,1806,2007,1797,9
+,,,2015-10-13,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,3,loss,Montevideo,Uruguay,FALSE,2007,1891,1970,1928,-37
+,,,2015-11-12,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Santiago,Chile,FALSE,1970,2018,1978,2010,8
+,,,2015-11-17,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1978,1999,1954,2023,-24
+,,,2016-03-24,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,3,2,win,La Paz,Bolivia,FALSE,1954,1623,1962,1615,8
+,,,2016-03-29,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,3,1,win,Barranquilla,Colombia,FALSE,1962,1901,1979,1884,17
+,,,2016-06-03,Copa América,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,2,0,win,Santa Clara,United States,FALSE,1981,1752,2005,1728,24
+,,,2016-06-07,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,1,win,Pasadena,United States,TRUE,2005,1749,2014,1740,9
+,,,2016-06-11,Copa América,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,3,loss,Houston,United States,TRUE,2014,1745,1973,1786,-41
+,,,2016-06-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,0,0,draw,East Rutherford,United States,TRUE,1973,1830,1963,1840,-10
+,,,2016-06-22,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,0,2,loss,Chicago,United States,TRUE,1963,2001,1930,2034,-33
+,,,2016-06-25,Copa América,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,1,0,win,Glendale,United States,FALSE,1930,1786,1952,1764,22
+,,,2016-09-01,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,2,0,win,Barranquilla,Colombia,FALSE,1952,1685,1958,1679,6
+,,,2016-09-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Manaus,Brazil,FALSE,1958,2011,1946,2023,-12
+,,,2016-10-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,0,win,Asunción,Paraguay,FALSE,1946,1739,1960,1725,14
+,,,2016-10-11,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,2,draw,Barranquilla,Colombia,FALSE,1960,1914,1952,1922,-8
+,,,2016-11-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1952,1957,1947,1962,-5
+,,,2016-11-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,3,loss,San Juan,Argentina,FALSE,1947,2027,1929,2045,-18
+,,,2017-01-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,,,,,
+,,,2017-03-23,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1925,1632,1929,1628,4
+,,,2017-03-28,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,2,0,win,Quito,Ecuador,FALSE,1929,1831,1959,1801,30
+,,,2017-06-07,Friendly,played,Colombia,COL,COL,CONMEBOL,Spain,ESP,ESP,UEFA,FALSE,2,2,draw,Murcia,Spain,FALSE,1959,2003,1963,1999,4
+,,,2017-06-13,Friendly,played,Colombia,COL,COL,CONMEBOL,Cameroon,CMR,CMR,CAF,FALSE,4,0,win,Getafe,Spain,TRUE,1963,1691,1969,1685,6
+,,,2017-08-31,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,0,0,draw,San Cristóbal,Venezuela,FALSE,1969,1688,1959,1698,-10
+,,,2017-09-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,1,1,draw,Barranquilla,Colombia,FALSE,1959,2120,1962,2117,3
+,,,2017-10-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,2,loss,Barranquilla,Colombia,FALSE,1962,1747,1928,1781,-34
+,,,2017-10-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,1,draw,Lima,Peru,FALSE,1928,1894,1932,1890,4
+,,,2017-11-10,Friendly,played,Colombia,COL,COL,CONMEBOL,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Suwon,South Korea,FALSE,1932,1698,1918,1712,-14
+,,,2017-11-14,Friendly,played,Colombia,COL,COL,CONMEBOL,China PR,,,,FALSE,4,0,win,Chongqing,China PR,FALSE,,,,,
+,,,2018-03-23,Friendly,played,Colombia,COL,COL,CONMEBOL,France,FRA,FRA,UEFA,FALSE,3,2,win,Saint-Denis,France,FALSE,1926,1988,1940,1974,14
+,,,2018-03-27,Friendly,played,Colombia,COL,COL,CONMEBOL,Australia,AUS,AUS,AFC,FALSE,0,0,draw,London,England,TRUE,1940,1709,1934,1715,-6
+,,,2018-06-01,Friendly,played,Colombia,COL,COL,CONMEBOL,Egypt,EGY,EGY,CAF,TRUE,0,0,draw,Bergamo,Italy,TRUE,1934,1635,1927,1642,-7
+WC-2018,WC-2018_015,15,2018-06-19,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Japan,JPN,JPN,AFC,TRUE,1,2,loss,Saransk,Russia,TRUE,1927,1684,1879,1732,-48
+WC-2018,WC-2018_032,32,2018-06-24,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Poland,POL,POL,UEFA,FALSE,3,0,win,Kazan,Russia,TRUE,1879,1793,1919,1753,40
+WC-2018,WC-2018_046,46,2018-06-28,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,Senegal,SEN,SEN,CAF,FALSE,1,0,win,Samara,Russia,TRUE,1919,1778,1937,1760,18
+WC-2018,WC-2018_056,56,2018-07-03,FIFA World Cup,played,Colombia,COL,COL,CONMEBOL,England,ENG,ENG,UEFA,TRUE,1,1,draw,Moscow,Russia,TRUE,1937,1943,1938,1942,1
+,,,2018-09-07,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,2,1,win,Miami Gardens,United States,TRUE,1938,1738,1943,1733,5
+,,,2018-09-11,Friendly,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,0,0,draw,East Rutherford,United States,TRUE,1943,1899,1942,1900,-1
+,,,2018-10-11,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,4,2,win,Tampa,United States,FALSE,1942,1765,1954,1753,12
+,,,2018-10-16,Friendly,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,3,1,win,Harrison,United States,TRUE,1954,1697,1960,1691,6
+,,,2019-03-22,Kirin Challenge Cup,played,Colombia,COL,COL,CONMEBOL,Japan,JPN,JPN,AFC,FALSE,1,0,win,Yokohama,Japan,FALSE,1960,1781,1968,1773,8
+,,,2019-03-26,Friendly,played,Colombia,COL,COL,CONMEBOL,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Seoul,South Korea,FALSE,1968,1772,1955,1785,-13
+,,,2019-06-03,Friendly,played,Colombia,COL,COL,CONMEBOL,Panama,PAN,PAN,CONCACAF,TRUE,3,0,win,Bogotá,Colombia,FALSE,1955,1568,1957,1566,2
+,,,2019-06-09,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,3,0,win,Lima,Peru,FALSE,1957,1838,1974,1821,17
+,,,2019-06-15,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,2,0,win,Salvador,Brazil,TRUE,1974,1908,2004,1878,30
+,,,2019-06-19,Copa América,played,Colombia,COL,COL,CONMEBOL,Qatar,QAT,QAT,AFC,TRUE,1,0,win,São Paulo,Brazil,TRUE,2004,1764,2014,1754,10
+,,,2019-06-23,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,0,win,Salvador,Brazil,TRUE,2014,1721,2022,1713,8
+,,,2019-06-28,Copa América,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,0,0,draw,São Paulo,Brazil,TRUE,2022,1868,2012,1878,-10
+,,,2019-09-06,Friendly,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,2,2,draw,Miami Gardens,United States,TRUE,2012,2125,2015,2122,3
+,,,2019-09-10,Friendly,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,0,0,draw,Tampa,United States,TRUE,2015,1797,2009,1803,-6
+,,,2019-10-12,Friendly,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,0,0,draw,Alicante,Spain,TRUE,2009,1800,2004,1805,-5
+,,,2019-10-15,Friendly,played,Colombia,COL,COL,CONMEBOL,Algeria,DZA,DZA,CAF,FALSE,0,3,loss,Villeneuve D'Ascq,Algeria,FALSE,2004,1698,1974,1728,-30
+,,,2019-11-15,Friendly,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,0,win,Miami Gardens,United States,TRUE,1974,1872,1981,1865,7
+,,,2019-11-19,Friendly,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,0,win,Harrison,United States,TRUE,1981,1730,1985,1726,4
+,,,2020-10-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1985,1830,1998,1817,13
+,,,2020-10-13,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,2,2,draw,Santiago,Chile,FALSE,1998,1800,1993,1805,-5
+,,,2020-11-13,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,0,3,loss,Barranquilla,Colombia,FALSE,1993,1931,1943,1981,-50
+,,,2020-11-17,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,6,loss,Quito,Ecuador,FALSE,1943,1779,1896,1826,-47
+,,,2021-06-03,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,3,0,win,Lima,Peru,FALSE,1896,1792,1931,1757,35
+,,,2021-06-08,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,2,2,draw,Barranquilla,Colombia,FALSE,1931,1981,1928,1984,-3
+,,,2021-06-13,Copa América,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Cuiabá,Brazil,TRUE,1928,1794,1944,1778,16
+,,,2021-06-17,Copa América,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,0,0,draw,Goiânia,Brazil,TRUE,1944,1761,1932,1773,-12
+,,,2021-06-20,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,1,2,loss,Goiânia,Brazil,TRUE,1932,1780,1897,1815,-35
+,,,2021-06-23,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Rio de Janeiro,Brazil,FALSE,1897,2162,1892,2167,-5
+,,,2021-07-03,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,0,draw,Brasília,Brazil,TRUE,1892,1938,1895,1935,3
+,,,2021-07-06,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Brasília,Brazil,TRUE,1895,2034,1905,2024,10
+,,,2021-07-09,Copa América,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,3,2,win,Brasília,Brazil,TRUE,1905,1828,1925,1808,20
+,,,2021-09-02,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,1,draw,La Paz,Bolivia,FALSE,1925,1580,1913,1592,-12
+,,,2021-09-05,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,1,draw,Asunción,Paraguay,FALSE,1913,1786,1911,1788,-2
+,,,2021-09-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,3,1,win,Barranquilla,Colombia,FALSE,1911,1792,1924,1779,13
+,,,2021-10-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,0,0,draw,Montevideo,Uruguay,FALSE,1924,1945,1931,1938,7
+,,,2021-10-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1931,2136,1937,2130,6
+,,,2021-10-14,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1937,1782,1924,1795,-13
+,,,2021-11-11,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,São Paulo,Brazil,FALSE,1924,2140,1918,2146,-6
+,,,2021-11-16,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1918,1715,1904,1729,-14
+,,,2022-01-16,Friendly,played,Colombia,COL,COL,CONMEBOL,Honduras,HND,HND,CONCACAF,TRUE,2,1,win,Fort Lauderdale,United States,TRUE,1904,1495,1906,1493,2
+,,,2022-01-28,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,1906,1832,1877,1861,-29
+,,,2022-02-01,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Córdoba,Argentina,FALSE,1877,2110,1872,2115,-5
+,,,2022-03-24,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1872,1650,1881,1641,9
+,,,2022-03-29,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,1,0,win,Guayana,Venezuela,FALSE,1881,1689,1896,1674,15
+,,,2022-06-05,Friendly,played,Colombia,COL,COL,CONMEBOL,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,Murcia,Spain,TRUE,1896,1635,1900,1631,4
+,,,2022-09-24,Friendly,played,Colombia,COL,COL,CONMEBOL,Guatemala,,,,TRUE,4,1,win,Harrison,United States,TRUE,1900,1462,1903,1459,3
+,,,2022-09-27,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,3,2,win,Santa Clara,United States,TRUE,1903,1820,1911,1812,8
+,,,2022-11-19,Friendly,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,0,win,Fort Lauderdale,United States,TRUE,1911,1735,1919,1727,8
+,,,2023-01-28,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,0,0,draw,Carson,United States,FALSE,1919,1805,1919,1805,0
+,,,2023-03-24,Friendly,played,Colombia,COL,COL,CONMEBOL,South Korea,KOR,KOR,AFC,FALSE,2,2,draw,Ulsan,South Korea,FALSE,1919,1788,1918,1789,-1
+,,,2023-03-28,Friendly,played,Colombia,COL,COL,CONMEBOL,Japan,JPN,JPN,AFC,FALSE,2,1,win,Osaka,Japan,FALSE,1918,1850,1929,1839,11
+,,,2023-06-16,Friendly,played,Colombia,COL,COL,CONMEBOL,Iraq,IRQ,IRQ,AFC,TRUE,1,0,win,Valencia,Spain,TRUE,1929,1620,1932,1617,3
+,,,2023-06-20,Friendly,played,Colombia,COL,COL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,2,0,win,Gelsenkirchen,Germany,FALSE,1932,1932,1951,1913,19
+,,,2023-09-07,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,TRUE,1,0,win,Barranquilla,Colombia,FALSE,1951,1700,1956,1695,5
+,,,2023-09-12,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,FALSE,0,0,draw,Santiago,Chile,FALSE,1956,1698,1947,1707,-9
+,,,2023-10-12,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,2,draw,Barranquilla,Colombia,FALSE,1947,1906,1939,1914,-8
+,,,2023-10-17,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,Quito,Ecuador,FALSE,1939,1879,1941,1877,2
+,,,2023-11-16,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,2,1,win,Barranquilla,Colombia,FALSE,1941,2053,1962,2032,21
+,,,2023-11-21,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,0,win,Asunción,Paraguay,FALSE,1962,1718,1974,1706,12
+,,,2023-12-16,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,3,2,win,Los Angeles,United States,TRUE,1979,1799,1984,1794,5
+,,,2024-03-22,Friendly,played,Colombia,COL,COL,CONMEBOL,Spain,ESP,ESP,UEFA,FALSE,1,0,win,London,England,TRUE,1984,2033,1995,2022,11
+,,,2024-03-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Romania,ROU,ROU,UEFA,TRUE,3,2,win,Madrid,Spain,TRUE,1995,1667,1998,1664,3
+,,,2024-06-08,Friendly,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,5,1,win,Landover,United States,FALSE,1998,1798,2011,1785,13
+,,,2024-06-15,Friendly,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,3,0,win,Denver,United States,TRUE,2011,1594,2014,1591,3
+,,,2024-06-24,Copa América,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,1,win,Houston,United States,TRUE,2014,1711,2021,1704,7
+,,,2024-06-28,Copa América,played,Colombia,COL,COL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,3,0,win,Glendale,United States,TRUE,2021,1640,2030,1631,9
+,,,2024-07-02,Copa América,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,Santa Clara,United States,TRUE,2030,2019,2029,2020,-1
+,,,2024-07-06,Copa América,played,Colombia,COL,COL,CONMEBOL,Panama,PAN,PAN,CONCACAF,TRUE,5,0,win,Glendale,United States,TRUE,2029,1746,2045,1730,16
+,,,2024-07-10,Copa América,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,1,0,win,Charlotte,United States,TRUE,2045,2026,2069,2002,24
+,,,2024-07-14,Copa América,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Miami Gardens,United States,TRUE,2069,2150,2050,2169,-19
+,,,2024-09-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,1,1,draw,Lima,Peru,FALSE,2050,1710,2038,1722,-12
+,,,2024-09-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Barranquilla,Colombia,FALSE,2038,2172,2060,2150,22
+,,,2024-10-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,1,loss,El Alto,Bolivia,FALSE,2060,1636,2025,1671,-35
+,,,2024-10-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Chile,CHL,CHL,CONMEBOL,TRUE,4,0,win,Barranquilla,Colombia,FALSE,2025,1680,2030,1675,5
+,,,2024-11-15,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,2,3,loss,Montevideo,Uruguay,FALSE,2030,1918,2009,1939,-21
+,,,2024-11-19,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,1,loss,Barranquilla,Colombia,FALSE,2009,1878,1977,1910,-32
+,,,2025-03-20,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Brasília,Brazil,FALSE,1977,1996,1964,2009,-13
+,,,2025-03-25,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,2,draw,Barranquilla,Colombia,FALSE,1964,1787,1951,1800,-13
+,,,2025-06-06,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,0,0,draw,Barranquilla,Colombia,FALSE,1951,1725,1936,1740,-15
+,,,2025-06-10,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,1936,2146,1950,2132,14
+,,,2025-09-04,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Bolivia,BOL,BOL,CONMEBOL,TRUE,3,0,win,Barranquilla,Colombia,FALSE,1950,1664,1957,1657,7
+,,,2025-09-09,FIFA World Cup qualification,played,Colombia,COL,COL,CONMEBOL,Venezuela,,,,FALSE,6,3,win,Maturín,Venezuela,FALSE,1957,1741,1981,1717,24
+,,,2025-10-11,Friendly,played,Colombia,COL,COL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,4,0,win,Arlington,United States,TRUE,1981,1859,1993,1847,12
+,,,2025-10-14,Friendly,played,Colombia,COL,COL,CONMEBOL,Canada,CAN,CAN,CONCACAF,FALSE,0,0,draw,Harrison,United States,TRUE,1993,1784,1988,1789,-5
+,,,2025-11-15,Friendly,played,Colombia,COL,COL,CONMEBOL,New Zealand,NZL,NZL,OFC,TRUE,2,1,win,Fort Lauderdale,United States,TRUE,1988,1591,1990,1589,2
+,,,2025-11-18,Friendly,played,Colombia,COL,COL,CONMEBOL,Australia,AUS,AUS,AFC,TRUE,3,0,win,New York,United States,TRUE,1990,1782,1998,1774,8
+,,,2026-03-26,Friendly,played,Colombia,COL,COL,CONMEBOL,Croatia,HRV,HRV,UEFA,TRUE,1,2,loss,Orlando,United States,TRUE,1998,1932,1986,1944,-12
+,,,2026-03-29,Friendly,played,Colombia,COL,COL,CONMEBOL,France,FRA,FRA,UEFA,TRUE,1,3,loss,Landover,United States,TRUE,1986,2071,1975,2082,-11

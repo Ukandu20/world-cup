@@ -1,620 +1,620 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1927-11-07,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1382,1490,1392,1480,10
-1927-11-08,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1392,1480,1392,1480,0
-1928-12-07,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,0,5,loss,San Salvador,El Salvador,FALSE,1377,1480,1368,1489,-9
-1930-03-18,Central American and Caribbean Games,played,Honduras,HND,Jamaica,JAM,TRUE,5,4,win,Havana,Cuba,TRUE,1368,1448,1393,1423,25
-1930-03-20,Central American and Caribbean Games,played,Honduras,HND,Cuba,CUB,FALSE,0,7,loss,Havana,Cuba,FALSE,1393,1612,1381,1624,-12
-1930-03-23,Central American and Caribbean Games,played,Honduras,HND,Cuba,CUB,FALSE,0,5,loss,Havana,Cuba,FALSE,1381,1624,1371,1634,-10
-1930-03-29,Central American and Caribbean Games,played,Honduras,HND,El Salvador,SLV,FALSE,4,1,win,Havana,Cuba,TRUE,1371,1510,1419,1462,48
-1930-04-04,Central American and Caribbean Games,played,Honduras,HND,Costa Rica,CRI,FALSE,0,8,loss,Havana,Cuba,TRUE,1419,1834,1411,1842,-8
-1935-03-25,Central American and Caribbean Games,played,Honduras,HND,Cuba,CUB,FALSE,0,3,loss,San Salvador,El Salvador,TRUE,1406,1546,1384,1568,-22
-1935-03-28,Central American and Caribbean Games,played,Honduras,HND,El Salvador,SLV,FALSE,4,3,win,San Salvador,El Salvador,FALSE,1384,1443,1413,1414,29
-1935-03-31,Central American and Caribbean Games,played,Honduras,HND,Guatemala,,TRUE,0,0,draw,San Salvador,El Salvador,TRUE,1413,1412,1413,1412,0
-1935-04-01,Central American and Caribbean Games,played,Honduras,HND,Mexico,MEX,FALSE,2,8,loss,San Salvador,El Salvador,TRUE,1413,1681,1398,1696,-15
-1935-04-03,Central American and Caribbean Games,played,Honduras,HND,Costa Rica,CRI,FALSE,0,6,loss,San Salvador,El Salvador,TRUE,1398,1819,1391,1826,-7
-1937-10-11,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,3,loss,San Salvador,El Salvador,FALSE,1391,1434,1385,1440,-6
-1946-02-23,CCCF Championship,played,Honduras,HND,Panama,PAN,FALSE,0,1,loss,San José,Costa Rica,TRUE,1385,1277,1352,1310,-33
-1946-02-28,CCCF Championship,played,Honduras,HND,Guatemala,,TRUE,5,3,win,San José,Costa Rica,TRUE,1352,1539,1408,1483,56
-1946-03-07,CCCF Championship,played,Honduras,HND,Costa Rica,CRI,FALSE,1,5,loss,San José,Costa Rica,FALSE,1408,1699,1399,1708,-9
-1946-03-10,CCCF Championship,played,Honduras,HND,El Salvador,SLV,FALSE,1,3,loss,San José,Costa Rica,TRUE,1399,1499,1372,1526,-27
-1946-03-13,CCCF Championship,played,Honduras,HND,Nicaragua,,TRUE,10,0,win,San José,Costa Rica,TRUE,1372,1008,1386,994,14
-1953-03-08,CCCF Championship,played,Honduras,HND,Nicaragua,,TRUE,2,1,win,San José,Costa Rica,TRUE,1431,964,1434,961,3
-1953-03-11,CCCF Championship,played,Honduras,HND,Guatemala,,FALSE,0,1,loss,San José,Costa Rica,TRUE,1434,1398,1406,1426,-28
-1953-03-13,CCCF Championship,played,Honduras,HND,Costa Rica,CRI,FALSE,1,4,loss,San José,Costa Rica,FALSE,1406,1599,1392,1613,-14
-1953-03-15,CCCF Championship,played,Honduras,HND,El Salvador,SLV,FALSE,3,0,win,San José,Costa Rica,TRUE,1392,1362,1432,1322,40
-1953-03-19,CCCF Championship,played,Honduras,HND,Curaçao,,FALSE,4,3,win,San José,Costa Rica,TRUE,1432,1503,1462,1473,30
-1953-03-21,CCCF Championship,played,Honduras,HND,Panama,PAN,TRUE,3,1,win,San José,Costa Rica,TRUE,1462,1303,1483,1282,21
-1955-06-18,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1483,1414,1484,1413,1
-1955-06-19,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,0,0,draw,San Salvador,El Salvador,FALSE,1484,1413,1485,1412,1
-1955-08-14,CCCF Championship,played,Honduras,HND,Cuba,CUB,TRUE,3,0,win,Tegucigalpa,Honduras,FALSE,1485,1395,1507,1373,22
-1955-08-17,CCCF Championship,played,Honduras,HND,El Salvador,SLV,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1507,1439,1528,1418,21
-1955-08-20,CCCF Championship,played,Honduras,HND,Curaçao,,TRUE,0,2,loss,Tegucigalpa,Honduras,FALSE,1528,1443,1472,1499,-56
-1955-08-22,CCCF Championship,played,Honduras,HND,Aruba,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1472,1435,1463,1444,-9
-1955-08-28,CCCF Championship,played,Honduras,HND,Costa Rica,CRI,TRUE,1,2,loss,Tegucigalpa,Honduras,FALSE,1463,1706,1448,1721,-15
-1957-08-21,CCCF Championship,played,Honduras,HND,Cuba,CUB,FALSE,2,0,win,Willemstad,Curaçao,TRUE,1435,1242,1454,1223,19
-1957-08-25,CCCF Championship,played,Honduras,HND,Curaçao,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1454,1522,1465,1511,11
-1959-12-13,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,0,1,loss,San Salvador,El Salvador,FALSE,1465,1418,1452,1431,-13
-1959-12-14,Friendly,played,Honduras,HND,Costa Rica,CRI,FALSE,1,6,loss,San Salvador,El Salvador,TRUE,1452,1741,1442,1751,-10
-1960-02-19,CCCF Championship,played,Honduras,HND,Curaçao,,TRUE,3,3,draw,Havana,Cuba,TRUE,1442,1491,1446,1487,4
-1960-09-04,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1430,1690,1459,1661,29
-1960-09-11,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,0,5,loss,San José,Costa Rica,FALSE,1459,1661,1447,1673,-12
-1960-09-25,FIFA World Cup qualification,played,Honduras,HND,Guatemala,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1447,1410,1439,1418,-8
-1961-01-14,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,0,1,loss,Guatemala City,Guatemala,TRUE,1439,1673,1431,1681,-8
-1961-03-10,CCCF Championship,played,Honduras,HND,Curaçao,,FALSE,4,2,win,San José,Costa Rica,TRUE,1440,1516,1486,1470,46
-1961-03-17,CCCF Championship,played,Honduras,HND,Haiti,HTI,FALSE,2,0,win,San José,Costa Rica,TRUE,1448,1495,1491,1452,43
-1963-03-02,Friendly,played,Honduras,HND,Guatemala,,FALSE,2,1,win,Guatemala City,Guatemala,FALSE,1446,1423,1458,1411,12
-1963-03-10,Friendly,played,Honduras,HND,Guatemala,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1458,1411,1450,1419,-8
-1963-03-25,CONCACAF Championship,played,Honduras,HND,Nicaragua,,TRUE,1,0,win,San Salvador,El Salvador,TRUE,1450,990,1453,987,3
-1963-03-27,CONCACAF Championship,played,Honduras,HND,El Salvador,SLV,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1453,1530,1465,1518,12
-1963-03-29,CONCACAF Championship,played,Honduras,HND,Guatemala,,FALSE,2,1,win,San Salvador,El Salvador,TRUE,1465,1410,1486,1389,21
-1963-03-31,CONCACAF Championship,played,Honduras,HND,Panama,PAN,FALSE,1,0,win,San Salvador,El Salvador,TRUE,1486,1232,1495,1223,9
-1963-04-03,CONCACAF Championship,played,Honduras,HND,Curaçao,,TRUE,1,4,loss,San Salvador,El Salvador,TRUE,1495,1585,1462,1618,-33
-1963-04-05,CONCACAF Championship,played,Honduras,HND,El Salvador,SLV,FALSE,0,3,loss,San Salvador,El Salvador,FALSE,1462,1476,1432,1506,-30
-1963-04-07,CONCACAF Championship,played,Honduras,HND,Costa Rica,CRI,FALSE,1,2,loss,San Salvador,El Salvador,TRUE,1432,1782,1426,1788,-6
-1965-02-28,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1426,1806,1419,1813,-7
-1965-03-04,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1419,1813,1415,1817,-4
-1965-03-11,CONCACAF Championship qualification,played,Honduras,HND,Nicaragua,,TRUE,0,2,loss,San Salvador,El Salvador,TRUE,1415,958,1359,1014,-56
-1965-03-14,CONCACAF Championship qualification,played,Honduras,HND,El Salvador,SLV,FALSE,1,3,loss,San Salvador,El Salvador,FALSE,1359,1531,1349,1541,-10
-1965-03-17,FIFA World Cup qualification,played,Honduras,HND,United States,USA,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1349,1476,1331,1494,-18
-1965-03-21,FIFA World Cup qualification,played,Honduras,HND,United States,USA,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1331,1494,1335,1490,4
-1965-07-11,Friendly,played,Honduras,HND,Costa Rica,CRI,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1335,1756,1342,1749,7
-1967-01-18,Friendly,played,Honduras,HND,Guatemala,,FALSE,1,3,loss,Guatemala City,Guatemala,FALSE,1342,1507,1337,1512,-5
-1967-01-22,Friendly,played,Honduras,HND,Guatemala,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1337,1512,1339,1510,2
-1967-03-05,CONCACAF Championship,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1339,1454,1365,1428,26
-1967-03-08,CONCACAF Championship,played,Honduras,HND,Nicaragua,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1365,1053,1344,1074,-21
-1967-03-12,CONCACAF Championship,played,Honduras,HND,Guatemala,,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1344,1584,1354,1574,10
-1967-03-17,CONCACAF Championship,played,Honduras,HND,Haiti,HTI,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,,,,,
-1967-03-19,CONCACAF Championship,played,Honduras,HND,Mexico,MEX,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1391,1799,1384,1806,-7
-1968-07-17,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1384,1557,1386,1555,2
-1968-07-31,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1386,1555,1382,1559,-4
-1968-12-05,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1382,1258,1395,1245,13
-1968-12-08,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1395,1245,1407,1233,12
-1968-12-22,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1407,1700,1437,1670,30
-1968-12-29,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1437,1670,1452,1655,15
-1969-06-08,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1452,1534,1471,1515,19
-1969-06-15,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,FALSE,0,3,loss,San Salvador,El Salvador,FALSE,1471,1515,1450,1536,-21
-1969-06-27,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,TRUE,2,3,loss,Mexico City,Mexico,TRUE,1450,1536,1435,1551,-15
-1970-06-13,Friendly,played,Honduras,HND,Panama,PAN,TRUE,1,0,win,El Progreso,Honduras,FALSE,1435,1160,1437,1158,2
-1971-09-05,CONCACAF Championship qualification,played,Honduras,HND,Guatemala,,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,,,,,
-1971-09-12,CONCACAF Championship qualification,played,Honduras,HND,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,,,,,
-1971-11-21,CONCACAF Championship,played,Honduras,HND,Trinidad and Tobago,TTO,FALSE,1,1,draw,San Fernando,Trinidad and Tobago,FALSE,1471,1357,1470,1358,-1
-1971-11-23,CONCACAF Championship,played,Honduras,HND,Cuba,CUB,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,TRUE,1470,1340,1419,1391,-51
-1971-11-27,CONCACAF Championship,played,Honduras,HND,Costa Rica,CRI,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,TRUE,,,,,
-1971-12-01,CONCACAF Championship,played,Honduras,HND,Haiti,HTI,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,TRUE,1411,1582,1391,1602,-20
-1971-12-04,CONCACAF Championship,played,Honduras,HND,Mexico,MEX,TRUE,1,2,loss,Port of Spain,Trinidad and Tobago,TRUE,1391,1748,1385,1754,-6
-1972-12-03,CONCACAF Championship qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1385,1635,1413,1607,28
-1972-12-10,CONCACAF Championship qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,3,3,draw,San José,Costa Rica,FALSE,1413,1607,1427,1593,14
-1973-11-29,CONCACAF Championship,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,2,1,win,Port-au-Prince,Haiti,TRUE,1427,1481,1456,1452,29
-1973-12-03,CONCACAF Championship,played,Honduras,HND,Mexico,MEX,TRUE,1,1,draw,Port-au-Prince,Haiti,TRUE,1456,1784,1474,1766,18
-1973-12-07,CONCACAF Championship,played,Honduras,HND,Haiti,HTI,FALSE,0,1,loss,Port-au-Prince,Haiti,FALSE,1474,1617,1464,1627,-10
-1973-12-12,CONCACAF Championship,played,Honduras,HND,Curaçao,,TRUE,2,2,draw,Port-au-Prince,Haiti,TRUE,1464,1385,1458,1391,-6
-1973-12-15,CONCACAF Championship,played,Honduras,HND,Guatemala,,FALSE,1,1,draw,Port-au-Prince,Haiti,TRUE,1458,1530,1463,1525,5
-1977-06-06,Friendly,played,Honduras,HND,Panama,PAN,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1444,1209,1447,1206,3
-1980-03-06,Friendly,played,Honduras,HND,Costa Rica,CRI,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1447,1597,1448,1596,1
-1980-03-18,Friendly,played,Honduras,HND,Mexico,MEX,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1448,1705,1442,1711,-6
-1980-04-08,Friendly,played,Honduras,HND,Mexico,MEX,FALSE,0,5,loss,Toluca,Mexico,FALSE,1442,1711,1438,1715,-4
-1980-04-16,Friendly,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1438,1634,1445,1627,7
-1980-06-06,Friendly,played,Honduras,HND,Haiti,HTI,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1445,1588,1462,1571,17
-1980-06-10,Friendly,played,Honduras,HND,Haiti,HTI,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1462,1571,1472,1561,10
-1980-06-13,Friendly,played,Honduras,HND,Panama,PAN,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1472,1248,1465,1255,-7
-1980-06-15,Friendly,played,Honduras,HND,Panama,PAN,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1465,1255,1469,1251,4
-1980-07-16,Friendly,played,Honduras,HND,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1469,1519,1473,1515,4
-1980-07-30,CONCACAF Championship qualification,played,Honduras,HND,Panama,PAN,FALSE,2,0,win,Panama City,Panama,FALSE,1473,1233,1492,1214,19
-1980-10-01,CONCACAF Championship qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,3,2,win,San José,Costa Rica,FALSE,1492,1558,1521,1529,29
-1980-10-26,CONCACAF Championship qualification,played,Honduras,HND,Guatemala,,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1521,1500,1514,1507,-7
-1980-11-09,Friendly,played,Honduras,HND,Canada,CAN,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1514,1583,1528,1569,14
-1980-11-16,CONCACAF Championship qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1528,1538,1523,1543,-5
-1980-11-23,CONCACAF Championship qualification,played,Honduras,HND,El Salvador,SLV,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1523,1526,1509,1540,-14
-1980-11-30,CONCACAF Championship qualification,played,Honduras,HND,El Salvador,SLV,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1509,1540,1533,1516,24
-1980-12-07,CONCACAF Championship qualification,played,Honduras,HND,Guatemala,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1533,1548,1559,1522,26
-1980-12-14,CONCACAF Championship qualification,played,Honduras,HND,Panama,PAN,TRUE,5,0,win,Tegucigalpa,Honduras,FALSE,1559,1191,1564,1186,5
-1981-11-03,CONCACAF Championship,played,Honduras,HND,Haiti,HTI,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1564,1529,1594,1499,30
-1981-11-08,CONCACAF Championship,played,Honduras,HND,Cuba,CUB,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1594,1569,1619,1544,25
-1981-11-12,CONCACAF Championship,played,Honduras,HND,Canada,CAN,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1619,1610,1636,1593,17
-1981-11-16,CONCACAF Championship,played,Honduras,HND,El Salvador,SLV,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1636,1568,1625,1579,-11
-1981-11-22,CONCACAF Championship,played,Honduras,HND,Mexico,MEX,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1625,1661,1620,1666,-5
-1982-03-01,Friendly,played,Honduras,HND,United Arab Emirates,ARE,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1620,1103,1622,1101,2
-1982-03-03,Friendly,played,Honduras,HND,United Arab Emirates,ARE,FALSE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1622,1101,1614,1109,-8
-1982-04-18,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,3,loss,San Salvador,El Salvador,FALSE,1611,1597,1603,1605,-8
-1982-04-22,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1603,1605,1600,1608,-3
-1982-06-16,FIFA World Cup,played,Honduras,HND,Spain,ESP,FALSE,1,1,draw,Valencia,Spain,FALSE,1600,1891,1624,1867,24
-1982-06-21,FIFA World Cup,played,Honduras,HND,Northern Ireland,NIR,TRUE,1,1,draw,Zaragoza,Spain,TRUE,1624,1755,1635,1744,11
-1982-06-24,FIFA World Cup,played,Honduras,HND,Yugoslavia,YUG,TRUE,0,1,loss,Zaragoza,Spain,TRUE,1635,1878,1623,1890,-12
-1983-05-03,Friendly,played,Honduras,HND,Guatemala,,FALSE,2,0,win,Guatemala City,Guatemala,FALSE,1623,1499,1637,1485,14
-1983-12-11,Friendly,played,Honduras,HND,Canada,CAN,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1584,1566,1594,1556,10
-1983-12-14,Friendly,played,Honduras,HND,Canada,CAN,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1594,1556,1600,1550,6
-1984-02-26,Friendly,played,Honduras,HND,Peru,PER,FALSE,3,1,win,Lima,Peru,FALSE,1600,1679,1622,1657,22
-1984-06-15,CONCACAF Championship qualification,played,Honduras,HND,Panama,PAN,FALSE,3,0,win,Colón,Panama,FALSE,1622,1225,1633,1214,11
-1984-06-24,CONCACAF Championship qualification,played,Honduras,HND,Panama,PAN,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1633,1214,1635,1212,2
-1984-10-03,Friendly,played,Honduras,HND,Guatemala,,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1635,1535,1640,1530,5
-1984-12-07,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1640,1527,1635,1532,-5
-1984-12-16,Friendly,played,Honduras,HND,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1635,1543,1625,1553,-10
-1985-01-27,Friendly,played,Honduras,HND,Denmark,DNK,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1625,1892,1639,1878,14
-1985-03-03,CONCACAF Championship,played,Honduras,HND,Suriname,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1639,1402,1620,1421,-19
-1985-03-06,CONCACAF Championship,played,Honduras,HND,Suriname,,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1620,1421,1628,1413,8
-1985-03-10,CONCACAF Championship,played,Honduras,HND,El Salvador,SLV,FALSE,2,1,win,San Salvador,El Salvador,FALSE,1628,1535,1654,1509,26
-1985-03-14,CONCACAF Championship,played,Honduras,HND,El Salvador,SLV,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1654,1509,1639,1524,-15
-1985-08-11,CONCACAF Championship,played,Honduras,HND,Costa Rica,CRI,FALSE,2,2,draw,San José,Costa Rica,FALSE,1639,1572,1641,1570,2
-1985-08-25,CONCACAF Championship,played,Honduras,HND,Canada,CAN,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1641,1623,1608,1656,-33
-1985-09-08,CONCACAF Championship,played,Honduras,HND,Costa Rica,CRI,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1608,1579,1632,1555,24
-1985-09-14,CONCACAF Championship,played,Honduras,HND,Canada,CAN,FALSE,1,2,loss,St. John's,Canada,FALSE,1632,1658,1616,1674,-16
-1986-10-28,Friendly,played,Honduras,HND,Panama,PAN,TRUE,1,0,win,Managua,Nicaragua,TRUE,1629,1228,1632,1225,3
-1987-04-29,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1632,1505,1636,1501,4
-1987-05-06,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,1,win,San Salvador,El Salvador,FALSE,1636,1501,1645,1492,9
-1987-10-02,Friendly,played,Honduras,HND,Canada,CAN,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1621,1572,1617,1576,-4
-1988-01-13,Friendly,played,Honduras,HND,Mexico,MEX,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1617,1864,1611,1870,-6
-1988-03-18,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,0,0,draw,Los Angeles,United States,TRUE,1611,1511,1608,1514,-3
-1988-04-26,Friendly,played,Honduras,HND,Mexico,MEX,FALSE,1,4,loss,Ciudad Victoria,Mexico,FALSE,1608,1872,1604,1876,-4
-1988-06-15,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1604,1570,1600,1574,-4
-1988-06-17,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1600,1574,1587,1587,-13
-1988-09-12,Friendly,played,Honduras,HND,Paraguay,PRY,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1587,1759,1589,1757,2
-1988-09-15,Friendly,played,Honduras,HND,Paraguay,PRY,TRUE,0,2,loss,Tegucigalpa,Honduras,FALSE,,,,,
-1988-09-25,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,0,0,draw,Los Angeles,United States,TRUE,1577,1452,1574,1455,-3
-1988-10-30,CONCACAF Championship qualification,played,Honduras,HND,Trinidad and Tobago,TTO,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,FALSE,1574,1530,1577,1527,3
-1988-11-13,CONCACAF Championship qualification,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1577,1527,1569,1535,-8
-1991-05-12,UNCAF Cup,played,Honduras,HND,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1569,1260,1523,1306,-46
-1991-05-18,UNCAF Cup,played,Honduras,HND,Panama,PAN,TRUE,3,0,win,San Pedro Sula,Honduras,FALSE,,,,,
-1991-05-26,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1533,1662,1520,1675,-13
-1991-05-29,UNCAF Cup,played,Honduras,HND,Guatemala,,FALSE,0,0,draw,San José,Costa Rica,TRUE,1520,1452,1516,1456,-4
-1991-06-02,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,2,1,win,San José,Costa Rica,TRUE,1516,1414,1530,1400,14
-1991-06-28,Gold Cup,played,Honduras,HND,Canada,CAN,FALSE,4,2,win,Los Angeles,United States,TRUE,1530,1581,1573,1538,43
-1991-06-30,Gold Cup,played,Honduras,HND,Jamaica,JAM,FALSE,5,0,win,Los Angeles,United States,TRUE,1573,1393,1599,1367,26
-1991-07-02,Gold Cup,played,Honduras,HND,Mexico,MEX,FALSE,1,1,draw,Los Angeles,United States,TRUE,,,,,
-1991-07-05,Gold Cup,played,Honduras,HND,Costa Rica,CRI,TRUE,2,0,win,Los Angeles,United States,TRUE,1616,1637,1656,1597,40
-1991-07-07,Gold Cup,played,Honduras,HND,United States,USA,FALSE,0,0,draw,Los Angeles,United States,FALSE,1656,1706,1666,1696,10
-1992-03-17,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,1,1,draw,Los Angeles,United States,TRUE,1666,1421,1660,1427,-6
-1992-06-28,Friendly,played,Honduras,HND,Panama,PAN,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1660,1296,1662,1294,2
-1992-06-30,Friendly,played,Honduras,HND,Panama,PAN,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1662,1294,1664,1292,2
-1992-07-19,FIFA World Cup qualification,played,Honduras,HND,Guatemala,,FALSE,0,0,draw,Guatemala City,Guatemala,FALSE,1674,1462,1668,1468,-6
-1992-07-26,FIFA World Cup qualification,played,Honduras,HND,Guatemala,,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1668,1468,1677,1459,9
-1992-08-12,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,3,0,win,Los Angeles,United States,TRUE,1677,1438,1684,1431,7
-1992-09-13,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,1,3,loss,San Salvador,El Salvador,FALSE,1684,1431,1663,1452,-21
-1992-09-18,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1663,1452,1656,1459,-7
-1992-09-22,Friendly,played,Honduras,HND,Jamaica,JAM,TRUE,5,1,win,Tegucigalpa,Honduras,FALSE,1656,1452,1662,1446,6
-1992-09-24,Friendly,played,Honduras,HND,Jamaica,JAM,TRUE,7,0,win,San Pedro Sula,Honduras,FALSE,1662,1446,1668,1440,6
-1992-11-08,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,3,2,win,San José,Costa Rica,FALSE,1668,1583,1689,1562,21
-1992-11-15,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1689,1803,1675,1817,-14
-1992-11-22,FIFA World Cup qualification,played,Honduras,HND,Saint Vincent and the Grenadines,,FALSE,4,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1675,1281,1687,1269,12
-1992-11-28,FIFA World Cup qualification,played,Honduras,HND,Saint Vincent and the Grenadines,,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1687,1269,1691,1265,4
-1992-12-05,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1691,1607,1701,1597,10
-1992-12-13,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1701,1786,1700,1787,-1
-1993-01-27,Friendly,played,Honduras,HND,Peru,PER,FALSE,1,1,draw,Lima,Peru,FALSE,1700,1548,1699,1549,-1
-1993-01-29,Friendly,played,Honduras,HND,Bolivia,BOL,FALSE,1,3,loss,Cochabamba,Bolivia,FALSE,1699,1552,1682,1569,-17
-1993-03-05,UNCAF Cup,played,Honduras,HND,Panama,PAN,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1682,1314,1686,1310,4
-1993-03-07,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1686,1621,1703,1604,17
-1993-03-09,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,3,0,win,Tegucigalpa,Honduras,FALSE,1703,1507,1714,1496,11
-1993-03-14,Friendly,played,Honduras,HND,Bolivia,BOL,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1714,1564,1708,1570,-6
-1993-03-16,Friendly,played,Honduras,HND,Bolivia,BOL,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1708,1570,1702,1576,-6
-1993-03-25,Friendly,played,Honduras,HND,United States,USA,TRUE,4,1,win,Tegucigalpa,Honduras,FALSE,1702,1653,1712,1643,10
-1993-04-04,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,TRUE,2,2,draw,Tegucigalpa,Honduras,FALSE,1712,1552,1699,1565,-13
-1993-04-11,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1699,1768,1680,1787,-19
-1993-04-18,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,FALSE,1,3,loss,Burnaby,Canada,FALSE,1680,1584,1650,1614,-30
-1993-04-25,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1650,1502,1662,1490,12
-1993-05-02,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,1,4,loss,Tegucigalpa,Honduras,FALSE,1662,1806,1631,1837,-31
-1993-05-09,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1631,1471,1608,1494,-23
-1993-07-10,Gold Cup,played,Honduras,HND,Panama,PAN,TRUE,5,1,win,Dallas,United States,TRUE,1608,1308,1622,1294,14
-1993-07-14,Gold Cup,played,Honduras,HND,Jamaica,JAM,TRUE,1,3,loss,Dallas,United States,TRUE,1622,1438,1566,1494,-56
-1993-07-17,Gold Cup,played,Honduras,HND,United States,USA,FALSE,0,1,loss,Dallas,United States,FALSE,1566,1616,1551,1631,-15
-1994-05-03,Miami Cup,played,Honduras,HND,El Salvador,SLV,FALSE,1,3,loss,Miami,United States,TRUE,1551,1494,1525,1520,-26
-1994-05-05,Miami Cup,played,Honduras,HND,Peru,PER,TRUE,2,1,win,Miami,United States,TRUE,1525,1554,1541,1538,16
-1994-06-08,Friendly,played,Honduras,HND,Brazil,BRA,TRUE,2,8,loss,San Diego,United States,TRUE,1541,1957,1537,1961,-4
-1994-06-11,Friendly,played,Honduras,HND,South Korea,KOR,TRUE,0,3,loss,Duncanville,United States,TRUE,1537,1654,1525,1666,-12
-1994-12-11,Friendly,played,Honduras,HND,United States,USA,FALSE,1,1,draw,Fullerton,United States,FALSE,1525,1630,1530,1625,5
-1995-03-29,Friendly,played,Honduras,HND,Brazil,BRA,FALSE,1,1,draw,Goiânia,Brazil,FALSE,1530,2071,1540,2061,10
-1995-06-11,Friendly,played,Honduras,HND,Turkey,TUR,TRUE,0,1,loss,Toronto,Canada,TRUE,1540,1725,1535,1730,-5
-1995-10-18,Friendly,played,Honduras,HND,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1535,1486,1526,1495,-9
-1995-11-29,UNCAF Cup,played,Honduras,HND,Panama,PAN,TRUE,2,0,win,Santa Ana,El Salvador,TRUE,1526,1323,1540,1309,14
-1995-12-03,UNCAF Cup,played,Honduras,HND,Guatemala,,TRUE,2,0,win,Santa Ana,El Salvador,TRUE,1540,1477,1565,1452,25
-1995-12-07,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,TRUE,1,1,draw,San Salvador,El Salvador,TRUE,1565,1575,1566,1574,1
-1995-12-10,UNCAF Cup,played,Honduras,HND,Guatemala,,TRUE,3,0,win,San Salvador,El Salvador,TRUE,1566,1481,1593,1454,27
-1996-01-10,Gold Cup,played,Honduras,HND,Canada,CAN,FALSE,1,3,loss,Anaheim,United States,TRUE,1593,1587,1555,1625,-38
-1996-01-14,Gold Cup,played,Honduras,HND,Brazil,BRA,TRUE,0,5,loss,Los Angeles,United States,TRUE,1555,2119,1551,2123,-4
-1996-03-06,Friendly,played,Honduras,HND,Colombia,COL,FALSE,1,2,loss,Miami,United States,TRUE,1551,1856,1548,1859,-3
-1996-03-27,Friendly,played,Honduras,HND,Nicaragua,,TRUE,1,0,win,Danlí,Honduras,FALSE,1548,945,1548,945,0
-1996-06-22,Friendly,played,Honduras,HND,Venezuela,,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1548,1351,1551,1348,3
-1996-07-24,Friendly,played,Honduras,HND,Panama,PAN,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1551,1304,1543,1312,-8
-1996-07-28,Friendly,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1543,1590,1541,1592,-2
-1996-08-04,Friendly,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1541,1570,1545,1566,4
-1996-08-07,Friendly,played,Honduras,HND,Panama,PAN,FALSE,1,2,loss,Panama City,Panama,FALSE,1545,1330,1532,1343,-13
-1996-08-11,Friendly,played,Honduras,HND,Costa Rica,CRI,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1532,1566,1530,1568,-2
-1996-08-14,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1530,1536,1537,1529,7
-1996-08-18,Friendly,played,Honduras,HND,Guatemala,,FALSE,1,1,draw,Monterey Park,United States,TRUE,1537,1454,1535,1456,-2
-1996-08-21,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,1,win,San Salvador,El Salvador,FALSE,1535,1529,1548,1516,13
-1996-08-25,Friendly,played,Honduras,HND,Cuba,CUB,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1548,1558,1562,1544,14
-1996-08-28,Friendly,played,Honduras,HND,Cuba,CUB,TRUE,2,2,draw,San Pedro Sula,Honduras,FALSE,1562,1544,1559,1547,-3
-1996-09-15,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,FALSE,0,3,loss,Kingston,Jamaica,FALSE,1559,1478,1526,1511,-33
-1996-09-21,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1526,1853,1557,1822,31
-1996-10-13,FIFA World Cup qualification,played,Honduras,HND,Saint Vincent and the Grenadines,,FALSE,4,1,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1557,1268,1575,1250,18
-1996-10-21,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1575,1530,1571,1534,-4
-1996-10-26,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1571,1521,1563,1529,-8
-1996-11-01,Friendly,played,Honduras,HND,Colombia,COL,TRUE,1,2,loss,New York,United States,TRUE,1563,1915,1561,1917,-2
-1996-11-06,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,1,3,loss,Mexico City,Mexico,FALSE,1561,1814,1554,1821,-7
-1996-11-17,FIFA World Cup qualification,played,Honduras,HND,Saint Vincent and the Grenadines,,TRUE,11,3,win,San Pedro Sula,Honduras,FALSE,1554,1240,1562,1232,8
-1997-01-26,Friendly,played,Honduras,HND,Chile,CHL,FALSE,2,3,loss,Santiago,Chile,FALSE,1562,1722,1558,1726,-4
-1997-04-16,UNCAF Cup,played,Honduras,HND,Panama,PAN,TRUE,5,0,win,Guatemala City,Guatemala,TRUE,1558,1369,1578,1349,20
-1997-04-18,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,3,0,win,Guatemala City,Guatemala,TRUE,1578,1527,1608,1497,30
-1997-04-23,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,TRUE,0,4,loss,Guatemala City,Guatemala,TRUE,1608,1620,1572,1656,-36
-1997-04-25,UNCAF Cup,played,Honduras,HND,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1572,1532,1555,1549,-17
-1997-04-27,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,0,0,draw,Guatemala City,Guatemala,TRUE,1555,1489,1551,1493,-4
-1998-01-21,Friendly,played,Honduras,HND,Costa Rica,CRI,FALSE,4,1,win,Nicoya,Costa Rica,FALSE,1551,1617,1576,1592,25
-1998-02-01,Gold Cup,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,1,3,loss,Oakland,United States,TRUE,1577,1443,1526,1494,-51
-1998-02-07,Gold Cup,played,Honduras,HND,Mexico,MEX,FALSE,0,2,loss,Oakland,United States,TRUE,1526,1802,1513,1815,-13
-1998-11-17,Friendly,played,Honduras,HND,Guatemala,,FALSE,3,3,draw,Los Angeles,United States,TRUE,1513,1562,1515,1560,2
-1998-11-18,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,1,win,Los Angeles,United States,TRUE,1515,1492,1529,1478,14
-1999-03-19,UNCAF Cup,played,Honduras,HND,Belize,,TRUE,5,1,win,San José,Costa Rica,TRUE,1529,1085,1534,1080,5
-1999-03-21,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,1,0,win,San José,Costa Rica,FALSE,1534,1647,1565,1616,31
-1999-03-24,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,3,1,win,San José,Costa Rica,TRUE,1565,1483,1588,1460,23
-1999-03-26,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,2,1,win,San José,Costa Rica,FALSE,1588,1626,1616,1598,28
-1999-03-28,UNCAF Cup,played,Honduras,HND,Guatemala,,TRUE,0,2,loss,San José,Costa Rica,TRUE,1616,1539,1579,1576,-37
-1999-05-21,Friendly,played,Honduras,HND,Haiti,HTI,FALSE,2,0,win,Miami,United States,TRUE,1579,1409,1587,1401,8
-1999-11-17,Friendly,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,3,2,win,San Pedro Sula,Honduras,FALSE,1589,1590,1596,1583,7
-1999-12-01,Friendly,played,Honduras,HND,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1596,1747,1602,1741,6
-1999-12-16,Friendly,played,Honduras,HND,Zambia,,TRUE,7,1,win,San Pedro Sula,Honduras,FALSE,1602,1608,1618,1592,16
-1999-12-29,Friendly,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,Alajuela,Costa Rica,FALSE,1618,1632,1621,1629,3
-2000-02-09,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,5,1,win,San Pedro Sula,Honduras,FALSE,1620,1387,1625,1382,5
-2000-02-14,Gold Cup,played,Honduras,HND,Jamaica,JAM,FALSE,2,0,win,Miami,United States,TRUE,1625,1582,1658,1549,33
-2000-02-16,Gold Cup,played,Honduras,HND,Colombia,COL,TRUE,2,0,win,Miami,United States,TRUE,1658,1813,1711,1760,53
-2000-02-19,Gold Cup,played,Honduras,HND,Peru,PER,TRUE,3,5,loss,Miami,United States,TRUE,1711,1710,1673,1748,-38
-2000-03-04,FIFA World Cup qualification,played,Honduras,HND,Nicaragua,,TRUE,3,0,win,San Pedro Sula,Honduras,FALSE,1673,935,1674,934,1
-2000-03-08,Friendly,played,Honduras,HND,Ecuador,ECU,FALSE,3,1,win,Quito,Ecuador,FALSE,1674,1691,1694,1671,20
-2000-03-22,Friendly,played,Honduras,HND,Chile,CHL,FALSE,2,5,loss,Santiago,Chile,FALSE,1694,1710,1682,1722,-12
-2000-04-02,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1682,1382,1652,1412,-30
-2000-04-16,FIFA World Cup qualification,played,Honduras,HND,Nicaragua,,FALSE,1,0,win,Diriamba,Nicaragua,FALSE,1652,926,1653,925,1
-2000-05-07,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1653,1412,1660,1405,7
-2000-05-30,Friendly,played,Honduras,HND,Canada,CAN,FALSE,1,2,loss,Winnipeg,Canada,FALSE,1660,1715,1654,1721,-6
-2000-06-03,FIFA World Cup qualification,played,Honduras,HND,Haiti,HTI,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1654,1446,1665,1435,11
-2000-06-17,FIFA World Cup qualification,played,Honduras,HND,Haiti,HTI,FALSE,3,1,win,Port-au-Prince,Haiti,FALSE,1665,1435,1684,1416,19
-2000-07-16,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,FALSE,5,2,win,San Salvador,El Salvador,FALSE,1684,1429,1704,1409,20
-2000-07-23,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,FALSE,1,3,loss,Kingston,Jamaica,FALSE,1704,1552,1670,1586,-34
-2000-08-16,FIFA World Cup qualification,played,Honduras,HND,Saint Vincent and the Grenadines,,TRUE,6,0,win,Tegucigalpa,Honduras,FALSE,1670,1281,1675,1276,5
-2000-08-20,Friendly,played,Honduras,HND,Haiti,HTI,FALSE,4,0,win,New York,United States,TRUE,1675,1407,1682,1400,7
-2000-09-02,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,TRUE,5,0,win,San Pedro Sula,Honduras,FALSE,1682,1411,1690,1403,8
-2000-10-08,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1690,1603,1700,1593,10
-2000-11-14,FIFA World Cup qualification,played,Honduras,HND,Saint Vincent and the Grenadines,,FALSE,7,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,,,,,
-2001-02-28,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,2,2,draw,San José,Costa Rica,FALSE,1711,1638,1713,1636,2
-2001-03-07,Friendly,played,Honduras,HND,Peru,PER,TRUE,0,0,draw,Miami,United States,TRUE,1713,1671,1712,1672,-1
-2001-03-21,Friendly,played,Honduras,HND,Chile,CHL,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1712,1713,1723,1702,11
-2001-03-28,FIFA World Cup qualification,played,Honduras,HND,United States,USA,TRUE,1,2,loss,San Pedro Sula,Honduras,FALSE,1723,1812,1702,1833,-21
-2001-04-25,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1702,1582,1701,1583,-1
-2001-05-23,UNCAF Cup,played,Honduras,HND,Panama,PAN,TRUE,1,2,loss,San Pedro Sula,Honduras,FALSE,1701,1418,1665,1454,-36
-2001-05-25,UNCAF Cup,played,Honduras,HND,Nicaragua,,TRUE,10,2,win,Tegucigalpa,Honduras,FALSE,1665,910,1666,909,1
-2001-05-27,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1666,1476,1652,1490,-14
-2001-06-16,FIFA World Cup qualification,played,Honduras,HND,Trinidad and Tobago,TTO,FALSE,4,2,win,Port of Spain,Trinidad and Tobago,FALSE,1652,1637,1689,1600,37
-2001-06-20,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1689,1681,1710,1660,21
-2001-07-01,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,2,3,loss,Tegucigalpa,Honduras,FALSE,1710,1647,1681,1676,-29
-2001-07-07,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,1,1,draw,Miami,United States,TRUE,1681,1779,1684,1776,3
-2001-07-13,Copa América,played,Honduras,HND,Costa Rica,CRI,TRUE,0,1,loss,Medellín,Colombia,TRUE,1684,1676,1658,1702,-26
-2001-07-16,Copa América,played,Honduras,HND,Bolivia,BOL,TRUE,2,0,win,Medellín,Colombia,TRUE,1658,1586,1688,1556,30
-2001-07-19,Copa América,played,Honduras,HND,Uruguay,URY,TRUE,1,0,win,Medellín,Colombia,TRUE,1688,1799,1721,1766,33
-2001-07-23,Copa América,played,Honduras,HND,Brazil,BRA,FALSE,2,0,win,Manizales,Colombia,TRUE,1721,1911,1777,1855,56
-2001-07-26,Copa América,played,Honduras,HND,Colombia,COL,FALSE,0,2,loss,Manizales,Colombia,FALSE,1777,1842,1756,1863,-21
-2001-07-29,Copa América,played,Honduras,HND,Uruguay,URY,FALSE,2,2,draw,Bogotá,Colombia,TRUE,,,,,
-2001-09-01,FIFA World Cup qualification,played,Honduras,HND,United States,USA,FALSE,3,2,win,"Washington, D.C.",United States,FALSE,1756,1811,1784,1783,28
-2001-09-05,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1784,1559,1789,1554,5
-2001-10-07,FIFA World Cup qualification,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1789,1528,1753,1564,-36
-2001-11-11,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1753,1791,1731,1813,-22
-2002-02-12,Lunar New Year Cup,played,Honduras,HND,Slovenia,SVN,FALSE,5,1,win,So Kon Po,Hong Kong,TRUE,1731,1760,1761,1730,30
-2002-03-02,Friendly,played,Honduras,HND,United States,USA,FALSE,0,4,loss,Seattle,United States,FALSE,1761,1798,1749,1810,-12
-2002-05-02,Kirin Cup,played,Honduras,HND,Japan,JPN,FALSE,3,3,draw,Kobe,Japan,FALSE,1749,1878,1758,1869,9
-2002-11-20,Friendly,played,Honduras,HND,Colombia,COL,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1758,1875,1768,1865,10
-2003-01-31,Friendly,played,Honduras,HND,Argentina,ARG,TRUE,1,3,loss,San Pedro Sula,Honduras,FALSE,1768,1996,1758,2006,-10
-2003-02-11,UNCAF Cup,played,Honduras,HND,Nicaragua,,TRUE,2,0,win,Panama City,Panama,TRUE,1758,917,1758,917,0
-2003-02-15,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,0,1,loss,Panama City,Panama,TRUE,1758,1516,1726,1548,-32
-2003-02-18,UNCAF Cup,played,Honduras,HND,Panama,PAN,FALSE,1,1,draw,Panama City,Panama,FALSE,1726,1413,1715,1424,-11
-2003-02-20,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,0,1,loss,Panama City,Panama,TRUE,1715,1748,1697,1766,-18
-2003-02-23,UNCAF Cup,played,Honduras,HND,Guatemala,,FALSE,1,2,loss,Panama City,Panama,TRUE,1697,1543,1669,1571,-28
-2003-04-02,Friendly,played,Honduras,HND,Paraguay,PRY,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1669,1758,1669,1758,0
-2003-04-25,Gold Cup qualification,played,Honduras,HND,Trinidad and Tobago,TTO,FALSE,2,0,win,Rivière-Pilote,Martinique,TRUE,1669,1429,1681,1417,12
-2003-04-27,Gold Cup qualification,played,Honduras,HND,Martinique,,FALSE,4,2,win,Fort-de-France,Martinique,FALSE,1681,1465,1701,1445,20
-2003-04-30,Friendly,played,Honduras,HND,Colombia,COL,TRUE,0,0,draw,Miami,United States,TRUE,1701,1864,1705,1860,4
-2003-06-07,Friendly,played,Honduras,HND,Venezuela,,FALSE,1,2,loss,Miami,United States,TRUE,1705,1627,1693,1639,-12
-2003-06-11,Friendly,played,Honduras,HND,Chile,CHL,TRUE,1,2,loss,San Pedro Sula,Honduras,FALSE,1693,1600,1678,1615,-15
-2003-06-22,Friendly,played,Honduras,HND,Guatemala,,FALSE,2,1,win,Carson,United States,TRUE,1678,1571,1685,1564,7
-2003-06-29,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1685,1515,1678,1522,-7
-2003-07-15,Gold Cup,played,Honduras,HND,Brazil,BRA,FALSE,1,2,loss,Mexico City,Mexico,TRUE,1678,1974,1670,1982,-8
-2003-07-17,Gold Cup,played,Honduras,HND,Mexico,MEX,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1670,1853,1687,1836,17
-2003-10-11,Friendly,played,Honduras,HND,Bolivia,BOL,FALSE,0,1,loss,"Washington, D.C.",United States,TRUE,1687,1591,1674,1604,-13
-2003-11-16,Friendly,played,Honduras,HND,Finland,,TRUE,1,2,loss,Houston,United States,TRUE,1674,1710,1665,1719,-9
-2004-01-25,Lunar New Year Cup,played,Honduras,HND,Norway,NOR,FALSE,1,3,loss,So Kon Po,Hong Kong,TRUE,1665,1744,1648,1761,-17
-2004-02-18,Friendly,played,Honduras,HND,Colombia,COL,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1648,1706,1647,1707,-1
-2004-03-10,Friendly,played,Honduras,HND,Venezuela,,FALSE,1,2,loss,Maracaibo,Venezuela,FALSE,1647,1645,1640,1652,-7
-2004-03-31,Friendly,played,Honduras,HND,Jamaica,JAM,FALSE,2,2,draw,Kingston,Jamaica,FALSE,1640,1620,1642,1618,2
-2004-04-07,Friendly,played,Honduras,HND,Panama,PAN,TRUE,0,0,draw,La Ceiba,Honduras,FALSE,1642,1400,1634,1408,-8
-2004-04-28,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,1,1,draw,Fort Lauderdale,United States,TRUE,1634,1710,1636,1708,2
-2004-06-02,Friendly,played,Honduras,HND,United States,USA,FALSE,0,4,loss,Foxborough,United States,FALSE,1636,1838,1630,1844,-6
-2004-06-12,FIFA World Cup qualification,played,Honduras,HND,Curaçao,,FALSE,2,1,win,Willemstad,Curaçao,FALSE,1630,1190,1635,1185,5
-2004-06-19,FIFA World Cup qualification,played,Honduras,HND,Curaçao,,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1635,1185,1638,1182,3
-2004-07-28,Friendly,played,Honduras,HND,Panama,PAN,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1638,1469,1632,1475,-6
-2004-08-03,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,4,0,win,San Salvador,El Salvador,FALSE,1632,1464,1647,1449,15
-2004-08-18,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,5,2,win,Alajuela,Costa Rica,FALSE,1647,1675,1694,1628,47
-2004-09-04,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,FALSE,1,1,draw,Edmonton,Canada,FALSE,1694,1561,1692,1563,-2
-2004-09-08,FIFA World Cup qualification,played,Honduras,HND,Guatemala,,TRUE,2,2,draw,San Pedro Sula,Honduras,FALSE,1692,1633,1683,1642,-9
-2004-10-09,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1683,1551,1671,1563,-12
-2004-10-13,FIFA World Cup qualification,played,Honduras,HND,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1671,1610,1653,1628,-18
-2004-11-17,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1653,1687,1649,1691,-4
-2004-12-29,Friendly,played,Honduras,HND,Basque Country,,FALSE,0,2,loss,San Sebastián,Spain,FALSE,,,,,
-2005-02-19,UNCAF Cup,played,Honduras,HND,Nicaragua,,TRUE,5,1,win,Guatemala City,Guatemala,TRUE,1649,1006,1651,1004,2
-2005-02-21,UNCAF Cup,played,Honduras,HND,Belize,,FALSE,4,0,win,Guatemala City,Guatemala,TRUE,1651,1123,1654,1120,3
-2005-02-23,UNCAF Cup,played,Honduras,HND,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1654,1622,1658,1618,4
-2005-02-25,UNCAF Cup,played,Honduras,HND,Panama,PAN,TRUE,1,0,win,Guatemala City,Guatemala,TRUE,1658,1508,1670,1496,12
-2005-02-27,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,Guatemala City,Guatemala,TRUE,1670,1718,1673,1715,3
-2005-03-19,Friendly,played,Honduras,HND,United States,USA,FALSE,0,1,loss,Albuquerque,United States,FALSE,1673,1848,1670,1851,-3
-2005-06-04,Friendly,played,Honduras,HND,Jamaica,JAM,FALSE,0,0,draw,Atlanta,United States,TRUE,1670,1663,1670,1663,0
-2005-07-02,Friendly,played,Honduras,HND,Canada,CAN,FALSE,2,1,win,Burnaby,Canada,FALSE,1670,1570,1680,1560,10
-2005-07-06,Gold Cup,played,Honduras,HND,Trinidad and Tobago,TTO,FALSE,1,1,draw,Miami,United States,TRUE,1680,1492,1668,1504,-12
-2005-07-10,Gold Cup,played,Honduras,HND,Colombia,COL,TRUE,2,1,win,Miami,United States,TRUE,1668,1781,1701,1748,33
-2005-07-12,Gold Cup,played,Honduras,HND,Panama,PAN,TRUE,1,0,win,Miami,United States,TRUE,1701,1504,1713,1492,12
-2005-07-16,Gold Cup,played,Honduras,HND,Costa Rica,CRI,TRUE,3,2,win,Foxborough,United States,TRUE,1713,1744,1740,1717,27
-2005-07-21,Gold Cup,played,Honduras,HND,United States,USA,FALSE,1,2,loss,East Rutherford,United States,FALSE,1740,1876,1730,1886,-10
-2005-09-07,Friendly,played,Honduras,HND,Japan,JPN,FALSE,4,5,loss,Rifu,Japan,FALSE,1730,1820,1725,1825,-5
-2006-01-25,Friendly,played,Honduras,HND,Ecuador,ECU,FALSE,0,1,loss,Guayaquil,Ecuador,FALSE,1725,1715,1718,1722,-7
-2006-02-12,Friendly,played,Honduras,HND,China PR,,FALSE,1,0,win,Guangzhou,China PR,FALSE,,,,,
-2006-08-16,Friendly,played,Honduras,HND,Venezuela,,FALSE,0,0,draw,Maracay,Venezuela,FALSE,1729,1599,1728,1600,-1
-2006-09-06,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1728,1383,1730,1381,2
-2006-10-07,Friendly,played,Honduras,HND,Guatemala,,FALSE,3,2,win,Fort Lauderdale,United States,TRUE,1730,1560,1735,1555,5
-2006-10-10,Friendly,played,Honduras,HND,Guatemala,,TRUE,2,1,win,Atlanta,United States,TRUE,1735,1555,1740,1550,5
-2007-02-09,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,1,3,loss,San Salvador,El Salvador,TRUE,1740,1644,1702,1682,-38
-2007-02-11,UNCAF Cup,played,Honduras,HND,Panama,PAN,TRUE,1,1,draw,San Salvador,El Salvador,TRUE,1702,1508,1692,1518,-10
-2007-02-15,UNCAF Cup,played,Honduras,HND,Nicaragua,,FALSE,9,1,win,San Salvador,El Salvador,TRUE,1692,1058,1694,1056,2
-2007-03-24,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,0,win,Fort Lauderdale,United States,TRUE,1694,1350,1698,1346,4
-2007-03-27,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,0,win,Cary,United States,TRUE,1698,1346,1701,1343,3
-2007-04-19,Friendly,played,Honduras,HND,Haiti,HTI,TRUE,1,3,loss,La Ceiba,Honduras,FALSE,1701,1560,1677,1584,-24
-2007-05-25,Friendly,played,Honduras,HND,Venezuela,,FALSE,1,2,loss,Mérida,Venezuela,FALSE,1677,1646,1669,1654,-8
-2007-06-02,Friendly,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1669,1551,1676,1544,7
-2007-06-08,Gold Cup,played,Honduras,HND,Panama,PAN,FALSE,2,3,loss,East Rutherford,United States,TRUE,1676,1554,1643,1587,-33
-2007-06-10,Gold Cup,played,Honduras,HND,Mexico,MEX,TRUE,2,1,win,East Rutherford,United States,TRUE,1643,1838,1681,1800,38
-2007-06-13,Gold Cup,played,Honduras,HND,Cuba,CUB,FALSE,5,0,win,Houston,United States,TRUE,1681,1526,1710,1497,29
-2007-06-17,Gold Cup,played,Honduras,HND,Guadeloupe,,TRUE,1,2,loss,Houston,United States,TRUE,1710,1408,1667,1451,-43
-2007-08-22,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,0,2,loss,San Salvador,El Salvador,FALSE,1667,1356,1644,1379,-23
-2007-09-09,Friendly,played,Honduras,HND,Costa Rica,CRI,FALSE,0,0,draw,East Hartford,United States,TRUE,1644,1645,1644,1645,0
-2007-09-12,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1644,1701,1653,1692,9
-2007-10-14,Friendly,played,Honduras,HND,Panama,PAN,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1653,1575,1658,1570,5
-2007-11-17,Friendly,played,Honduras,HND,Guatemala,,FALSE,1,0,win,Miami Gardens,United States,TRUE,1658,1520,1664,1514,6
-2008-02-06,Friendly,played,Honduras,HND,Paraguay,PRY,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1664,1844,1682,1826,18
-2008-03-26,Friendly,played,Honduras,HND,Colombia,COL,TRUE,2,1,win,Fort Lauderdale,United States,TRUE,1682,1840,1696,1826,14
-2008-05-23,Friendly,played,Honduras,HND,Belize,,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1696,1100,1697,1099,1
-2008-05-30,Friendly,played,Honduras,HND,Venezuela,,FALSE,1,1,draw,Fort Lauderdale,United States,TRUE,1697,1649,1696,1650,-1
-2008-06-04,FIFA World Cup qualification,played,Honduras,HND,Puerto Rico,,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1696,957,1697,956,1
-2008-06-07,Friendly,played,Honduras,HND,Haiti,HTI,TRUE,3,1,win,La Ceiba,Honduras,FALSE,1697,1526,1702,1521,5
-2008-06-14,FIFA World Cup qualification,played,Honduras,HND,Puerto Rico,,FALSE,2,2,draw,Bayamón,Puerto Rico,FALSE,1702,956,1683,975,-19
-2008-08-20,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1683,1893,1677,1899,-6
-2008-09-06,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,FALSE,2,1,win,Montreal,Canada,FALSE,1677,1620,1699,1598,22
-2008-09-10,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1699,1548,1710,1537,11
-2008-10-11,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1710,1594,1723,1581,13
-2008-10-15,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1723,1570,1700,1593,-23
-2008-11-19,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1700,1858,1723,1835,23
-2009-01-18,Friendly,played,Honduras,HND,Chile,CHL,TRUE,2,0,win,Fort Lauderdale,United States,TRUE,1723,1801,1741,1783,18
-2009-01-22,UNCAF Cup,played,Honduras,HND,Belize,,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1741,1097,1742,1096,1
-2009-01-24,UNCAF Cup,played,Honduras,HND,Nicaragua,,TRUE,4,1,win,Tegucigalpa,Honduras,FALSE,1742,1036,1743,1035,1
-2009-01-26,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1743,1476,1749,1470,6
-2009-01-30,UNCAF Cup,played,Honduras,HND,Panama,PAN,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1749,1544,1715,1578,-34
-2009-02-01,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1715,1463,1720,1458,5
-2009-02-11,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1720,1731,1699,1752,-21
-2009-03-28,FIFA World Cup qualification,played,Honduras,HND,Trinidad and Tobago,TTO,FALSE,1,1,draw,Port of Spain,Trinidad and Tobago,FALSE,1699,1572,1697,1574,-2
-2009-04-01,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1697,1826,1729,1794,32
-2009-06-06,FIFA World Cup qualification,played,Honduras,HND,United States,USA,FALSE,1,2,loss,Chicago,United States,FALSE,1729,1799,1718,1810,-11
-2009-06-10,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1718,1537,1725,1530,7
-2009-06-28,Friendly,played,Honduras,HND,Panama,PAN,FALSE,2,0,win,Cary,United States,TRUE,1725,1575,1734,1566,9
-2009-07-04,Gold Cup,played,Honduras,HND,Haiti,HTI,TRUE,1,0,win,Seattle,United States,TRUE,1734,1398,1740,1392,6
-2009-07-08,Gold Cup,played,Honduras,HND,United States,USA,FALSE,0,2,loss,"Washington, D.C.",United States,FALSE,1740,1872,1724,1888,-16
-2009-07-11,Gold Cup,played,Honduras,HND,Grenada,,TRUE,4,0,win,Foxborough,United States,TRUE,1724,1257,1730,1251,6
-2009-07-18,Gold Cup,played,Honduras,HND,Canada,CAN,FALSE,1,0,win,Philadelphia,United States,TRUE,1730,1648,1749,1629,19
-2009-07-23,Gold Cup,played,Honduras,HND,United States,USA,FALSE,0,2,loss,Chicago,United States,FALSE,1749,1869,1733,1885,-16
-2009-08-12,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1733,1771,1764,1740,31
-2009-09-05,FIFA World Cup qualification,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,4,1,win,San Pedro Sula,Honduras,FALSE,1764,1562,1774,1552,10
-2009-09-09,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1774,1906,1766,1914,-8
-2009-10-10,FIFA World Cup qualification,played,Honduras,HND,United States,USA,TRUE,2,3,loss,San Pedro Sula,Honduras,FALSE,1766,1813,1743,1836,-23
-2009-10-14,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,FALSE,1,0,win,San Salvador,El Salvador,FALSE,1743,1527,1757,1513,14
-2009-11-14,Friendly,played,Honduras,HND,Latvia,,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1757,1572,1760,1569,3
-2009-11-18,Friendly,played,Honduras,HND,Peru,PER,TRUE,1,2,loss,Miami Gardens,United States,TRUE,1760,1572,1745,1587,-15
-2010-01-23,Friendly,played,Honduras,HND,United States,USA,FALSE,3,1,win,Carson,United States,FALSE,1745,1801,1766,1780,21
-2010-03-03,Friendly,played,Honduras,HND,Turkey,TUR,FALSE,0,2,loss,Istanbul,Turkey,FALSE,1766,1784,1756,1794,-10
-2010-04-21,Friendly,played,Honduras,HND,Venezuela,,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1756,1714,1742,1728,-14
-2010-05-27,Friendly,played,Honduras,HND,Belarus,,FALSE,2,2,draw,Villach,Austria,TRUE,1742,1588,1738,1592,-4
-2010-06-02,Friendly,played,Honduras,HND,Azerbaijan,,FALSE,0,0,draw,Zell am See,Austria,TRUE,1738,1436,1731,1443,-7
-2010-06-05,Friendly,played,Honduras,HND,Romania,ROU,FALSE,0,3,loss,Sankt Veit an der Glan,Austria,TRUE,1731,1732,1714,1749,-17
-2010-06-16,FIFA World Cup,played,Honduras,HND,Chile,CHL,TRUE,0,1,loss,Nelspruit,South Africa,TRUE,1714,1886,1698,1902,-16
-2010-06-21,FIFA World Cup,played,Honduras,HND,Spain,ESP,FALSE,0,2,loss,Johannesburg,South Africa,TRUE,1698,2058,1688,2068,-10
-2010-06-25,FIFA World Cup,played,Honduras,HND,Switzerland,CHE,FALSE,0,0,draw,Bloemfontein,South Africa,TRUE,1688,1791,1697,1782,9
-2010-09-04,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,2,draw,Los Angeles,United States,TRUE,1697,1498,1689,1506,-8
-2010-09-07,Friendly,played,Honduras,HND,Canada,CAN,FALSE,1,2,loss,Montreal,Canada,FALSE,1689,1582,1679,1592,-10
-2010-10-09,Friendly,played,Honduras,HND,New Zealand,NZL,FALSE,1,1,draw,North Shore,New Zealand,FALSE,1679,1581,1679,1581,0
-2010-10-12,Friendly,played,Honduras,HND,Guatemala,,FALSE,2,0,win,Los Angeles,United States,TRUE,1679,1450,1685,1444,6
-2010-11-17,Friendly,played,Honduras,HND,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1685,1576,1670,1591,-15
-2010-12-18,Friendly,played,Honduras,HND,Panama,PAN,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1670,1591,1675,1586,5
-2010-12-28,Friendly,played,Honduras,HND,Catalonia,,FALSE,0,4,loss,Barcelona,Spain,FALSE,,,,,
-2011-01-14,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,Panama City,Panama,TRUE,1675,1668,1675,1668,0
-2011-01-18,UNCAF Cup,played,Honduras,HND,Guatemala,,TRUE,3,1,win,Panama City,Panama,TRUE,1675,1443,1687,1431,12
-2011-01-21,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,2,0,win,Panama City,Panama,TRUE,1687,1477,1701,1463,14
-2011-01-23,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,TRUE,2,1,win,Panama City,Panama,TRUE,1701,1683,1720,1664,19
-2011-02-09,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,1,1,draw,La Ceiba,Honduras,FALSE,1720,1727,1717,1730,-3
-2011-03-25,Friendly,played,Honduras,HND,South Korea,KOR,FALSE,0,4,loss,Seoul,South Korea,FALSE,1717,1793,1707,1803,-10
-2011-03-29,Friendly,played,Honduras,HND,China PR,,FALSE,0,3,loss,Wuhan,China PR,FALSE,,,,,
-2011-05-29,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,2,draw,Houston,United States,TRUE,1690,1485,1685,1490,-5
-2011-06-06,Gold Cup,played,Honduras,HND,Guatemala,,TRUE,0,0,draw,Carson,United States,TRUE,1685,1428,1669,1444,-16
-2011-06-10,Gold Cup,played,Honduras,HND,Grenada,,FALSE,7,1,win,Miami,United States,TRUE,1669,1267,1679,1257,10
-2011-06-13,Gold Cup,played,Honduras,HND,Jamaica,JAM,TRUE,0,1,loss,Harrison,United States,TRUE,1679,1673,1654,1698,-25
-2011-06-18,Gold Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,East Rutherford,United States,TRUE,1654,1658,1654,1658,0
-2011-06-22,Gold Cup,played,Honduras,HND,Mexico,MEX,TRUE,0,2,loss,Houston,United States,TRUE,1654,1906,1640,1920,-14
-2011-08-10,Friendly,played,Honduras,HND,Venezuela,,TRUE,2,0,win,Fort Lauderdale,United States,TRUE,1640,1736,1659,1717,19
-2011-09-03,Friendly,played,Honduras,HND,Colombia,COL,TRUE,0,2,loss,Harrison,United States,TRUE,1659,1763,1648,1774,-11
-2011-09-06,Friendly,played,Honduras,HND,Paraguay,PRY,TRUE,0,3,loss,San Pedro Sula,Honduras,FALSE,1648,1798,1633,1813,-15
-2011-10-08,Friendly,played,Honduras,HND,United States,USA,FALSE,0,1,loss,Miami Gardens,United States,FALSE,1633,1713,1628,1718,-5
-2011-10-11,Friendly,played,Honduras,HND,Jamaica,JAM,TRUE,2,1,win,La Ceiba,Honduras,FALSE,1628,1646,1636,1638,8
-2011-11-14,Friendly,played,Honduras,HND,Serbia,SRB,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1636,1734,1651,1719,15
-2012-02-29,Friendly,played,Honduras,HND,Ecuador,ECU,FALSE,0,2,loss,Guayaquil,Ecuador,FALSE,1651,1778,1645,1784,-6
-2012-04-11,Friendly,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1645,1677,1649,1673,4
-2012-05-26,Friendly,played,Honduras,HND,New Zealand,NZL,TRUE,0,1,loss,Dallas,United States,TRUE,1649,1553,1636,1566,-13
-2012-06-02,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,3,0,win,"Washington, D.C.",United States,TRUE,1636,1576,1651,1561,15
-2012-06-08,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1651,1674,1614,1711,-37
-2012-06-12,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,FALSE,0,0,draw,Toronto,Canada,FALSE,1614,1593,1618,1589,4
-2012-09-07,FIFA World Cup qualification,played,Honduras,HND,Cuba,CUB,FALSE,3,0,win,Havana,Cuba,FALSE,1618,1364,1638,1344,20
-2012-09-11,FIFA World Cup qualification,played,Honduras,HND,Cuba,CUB,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1638,1344,1642,1340,4
-2012-10-12,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1642,1706,1651,1697,9
-2012-10-16,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,TRUE,8,1,win,San Pedro Sula,Honduras,FALSE,1651,1612,1679,1584,28
-2012-11-14,Friendly,played,Honduras,HND,Peru,PER,TRUE,0,0,draw,Houston,United States,TRUE,1679,1710,1680,1709,1
-2013-01-18,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,TRUE,1,1,draw,San José,Costa Rica,TRUE,1680,1535,1672,1543,-8
-2013-01-22,UNCAF Cup,played,Honduras,HND,Panama,PAN,FALSE,1,1,draw,San José,Costa Rica,TRUE,1672,1685,1673,1684,1
-2013-01-25,UNCAF Cup,played,Honduras,HND,Belize,,TRUE,1,0,win,San José,Costa Rica,TRUE,1673,1168,1675,1166,2
-2013-01-27,UNCAF Cup,played,Honduras,HND,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1675,1666,1660,1681,-15
-2013-02-06,FIFA World Cup qualification,played,Honduras,HND,United States,USA,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1660,1762,1680,1742,20
-2013-03-22,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,2,2,draw,San Pedro Sula,Honduras,FALSE,1680,1898,1687,1891,7
-2013-03-26,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1687,1692,1666,1713,-21
-2013-06-02,Friendly,played,Honduras,HND,Israel,ISR,TRUE,0,2,loss,New York,United States,TRUE,1666,1656,1651,1671,-15
-2013-06-07,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1651,1699,1639,1711,-12
-2013-06-11,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1639,1539,1653,1525,14
-2013-06-18,FIFA World Cup qualification,played,Honduras,HND,United States,USA,FALSE,0,1,loss,Sandy,United States,FALSE,1653,1795,1645,1803,-8
-2013-07-08,Gold Cup,played,Honduras,HND,Haiti,HTI,FALSE,2,0,win,Harrison,United States,TRUE,1645,1434,1662,1417,17
-2013-07-12,Gold Cup,played,Honduras,HND,El Salvador,SLV,TRUE,1,0,win,Miami Gardens,United States,TRUE,1662,1526,1678,1510,16
-2013-07-15,Gold Cup,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,0,2,loss,Houston,United States,TRUE,1678,1381,1614,1445,-64
-2013-07-21,Gold Cup,played,Honduras,HND,Costa Rica,CRI,TRUE,1,0,win,Baltimore,United States,TRUE,1614,1743,1648,1709,34
-2013-07-24,Gold Cup,played,Honduras,HND,United States,USA,FALSE,1,3,loss,Arlington,United States,FALSE,1648,1836,1636,1848,-12
-2013-09-06,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,2,1,win,Mexico City,Mexico,FALSE,1636,1821,1670,1787,34
-2013-09-10,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,TRUE,2,2,draw,Tegucigalpa,Honduras,FALSE,1670,1727,1668,1729,-2
-2013-10-11,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1668,1743,1687,1724,19
-2013-10-15,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,FALSE,2,2,draw,Kingston,Jamaica,FALSE,1687,1540,1684,1543,-3
-2013-11-16,Friendly,played,Honduras,HND,Brazil,BRA,TRUE,0,5,loss,Miami Gardens,United States,TRUE,1684,2124,1681,2127,-3
-2013-11-19,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,2,2,draw,Houston,United States,TRUE,1681,1840,1685,1836,4
-2014-06-01,Friendly,played,Honduras,HND,Israel,ISR,TRUE,2,4,loss,Houston,United States,TRUE,1680,1614,1662,1632,-18
-2014-06-07,Friendly,played,Honduras,HND,England,ENG,TRUE,0,0,draw,Miami Gardens,United States,TRUE,1662,1938,1669,1931,7
-2014-06-15,FIFA World Cup,played,Honduras,HND,France,FRA,FALSE,0,3,loss,Porto Alegre,Brazil,TRUE,1669,1897,1647,1919,-22
-2014-06-20,FIFA World Cup,played,Honduras,HND,Ecuador,ECU,TRUE,1,2,loss,Curitiba,Brazil,TRUE,1647,1808,1630,1825,-17
-2014-06-25,FIFA World Cup,played,Honduras,HND,Switzerland,CHE,TRUE,0,3,loss,Manaus,Brazil,TRUE,1630,1835,1605,1860,-25
-2014-10-14,Friendly,played,Honduras,HND,United States,USA,FALSE,1,1,draw,Boca Raton,United States,FALSE,1548,1843,1556,1835,8
-2014-11-14,Friendly,played,Honduras,HND,Japan,JPN,FALSE,0,6,loss,Toyota,Japan,FALSE,1556,1714,1548,1722,-8
-2014-11-18,Friendly,played,Honduras,HND,China PR,,FALSE,0,0,draw,Xi'an,China PR,FALSE,,,,,
-2015-02-04,Friendly,played,Honduras,HND,Venezuela,,TRUE,2,3,loss,San Pedro Sula,Honduras,FALSE,1551,1674,1542,1683,-9
-2015-03-25,Gold Cup qualification,played,Honduras,HND,French Guiana,,FALSE,1,3,loss,Cayenne,French Guiana,FALSE,1538,1270,1495,1313,-43
-2015-03-29,Gold Cup qualification,played,Honduras,HND,French Guiana,,TRUE,3,0,win,San Pedro Sula,Honduras,FALSE,1495,1313,1507,1301,12
-2015-05-31,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1507,1506,1522,1491,15
-2015-06-06,Friendly,played,Honduras,HND,Paraguay,PRY,FALSE,2,2,draw,Asunción,Paraguay,FALSE,1522,1686,1528,1680,6
-2015-06-10,Friendly,played,Honduras,HND,Brazil,BRA,FALSE,0,1,loss,Porto Alegre,Brazil,FALSE,1528,2069,1528,2069,0
-2015-07-01,Friendly,played,Honduras,HND,Mexico,MEX,TRUE,0,0,draw,Houston,United States,TRUE,1528,1850,1535,1843,7
-2015-07-07,Gold Cup,played,Honduras,HND,United States,USA,FALSE,1,2,loss,Frisco,United States,FALSE,1535,1862,1531,1866,-4
-2015-07-10,Gold Cup,played,Honduras,HND,Panama,PAN,TRUE,1,1,draw,Foxborough,United States,TRUE,1531,1699,1542,1688,11
-2015-07-13,Gold Cup,played,Honduras,HND,Haiti,HTI,TRUE,0,1,loss,Kansas City,United States,TRUE,1542,1454,1511,1485,-31
-2015-09-04,Friendly,played,Honduras,HND,Venezuela,,FALSE,3,0,win,Puerto Ordaz,Venezuela,FALSE,1511,1699,1540,1670,29
-2015-09-08,Friendly,played,Honduras,HND,Ecuador,ECU,FALSE,0,2,loss,Quito,Ecuador,FALSE,1540,1819,1537,1822,-3
-2015-11-13,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,FALSE,0,1,loss,Vancouver,Canada,FALSE,1529,1510,1514,1525,-15
-2015-11-17,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1514,1896,1504,1906,-10
-2015-12-16,Friendly,played,Honduras,HND,Cuba,CUB,TRUE,2,0,win,Juticalpa,Honduras,FALSE,1504,1344,1509,1339,5
-2016-03-25,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1505,1461,1508,1458,3
-2016-03-29,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1508,1458,1526,1440,18
-2016-08-24,Friendly,played,Honduras,HND,Nicaragua,,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1525,1260,1527,1258,2
-2016-09-02,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1527,1521,1541,1507,14
-2016-09-06,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1541,1913,1559,1895,18
-2016-10-08,Friendly,played,Honduras,HND,Belize,,FALSE,2,1,win,Belmopan,Belize,FALSE,1559,1187,1562,1184,3
-2016-11-11,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1564,1660,1544,1680,-20
-2016-11-15,FIFA World Cup qualification,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1544,1511,1563,1492,19
-2017-01-13,UNCAF Cup,played,Honduras,HND,Nicaragua,,TRUE,2,1,win,Panama City,Panama,TRUE,1563,1260,1569,1254,6
-2017-01-15,UNCAF Cup,played,Honduras,HND,El Salvador,SLV,FALSE,2,1,win,Panama City,Panama,TRUE,1569,1417,1581,1405,12
-2017-01-22,UNCAF Cup,played,Honduras,HND,Belize,,FALSE,1,0,win,Panama City,Panama,TRUE,1622,1162,1625,1159,3
-2017-02-22,Friendly,played,Honduras,HND,Ecuador,ECU,FALSE,1,3,loss,Guayaquil,Ecuador,FALSE,1612,1850,1608,1854,-4
-2017-03-16,Friendly,played,Honduras,HND,Nicaragua,,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1608,1281,1610,1279,2
-2017-03-24,FIFA World Cup qualification,played,Honduras,HND,United States,USA,FALSE,0,6,loss,San Jose,United States,FALSE,1610,1735,1592,1753,-18
-2017-03-28,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1592,1772,1597,1767,5
-2017-05-28,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,2,2,draw,"Washington, D.C.",United States,TRUE,,,,,
-2017-06-08,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1592,1930,1587,1935,-5
-2017-06-13,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,FALSE,2,2,draw,Panama City,Panama,FALSE,1587,1654,1596,1645,9
-2017-07-07,Gold Cup,played,Honduras,HND,Costa Rica,CRI,TRUE,0,1,loss,Harrison,United States,TRUE,1596,1759,1582,1773,-14
-2017-07-11,Gold Cup,played,Honduras,HND,French Guiana,,TRUE,0,0,draw,Houston,United States,TRUE,1582,1369,1568,1383,-14
-2017-07-14,Gold Cup,played,Honduras,HND,Canada,CAN,FALSE,0,0,draw,Frisco,United States,TRUE,1568,1549,1567,1550,-1
-2017-07-20,Gold Cup,played,Honduras,HND,Mexico,MEX,FALSE,0,1,loss,Glendale,United States,TRUE,1567,1883,1560,1890,-7
-2017-09-01,FIFA World Cup qualification,played,Honduras,HND,Trinidad and Tobago,TTO,FALSE,2,1,win,Couva,Trinidad and Tobago,FALSE,1560,1429,1578,1411,18
-2017-09-05,FIFA World Cup qualification,played,Honduras,HND,United States,USA,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1578,1762,1583,1757,5
-2017-10-07,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1583,1796,1597,1782,14
-2017-10-10,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,3,2,win,San Pedro Sula,Honduras,FALSE,1597,1858,1626,1829,29
-2017-11-10,FIFA World Cup qualification,played,Honduras,HND,Australia,AUS,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1626,1713,1625,1714,-1
-2017-11-15,FIFA World Cup qualification,played,Honduras,HND,Australia,AUS,FALSE,1,3,loss,Sydney,Australia,FALSE,1625,1714,1610,1729,-15
-2018-05-28,Friendly,played,Honduras,HND,South Korea,KOR,FALSE,0,2,loss,Daegu,South Korea,FALSE,1610,1744,1604,1750,-6
-2018-06-02,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,0,1,loss,Houston,United States,TRUE,1604,1455,1590,1469,-14
-2018-10-11,Friendly,played,Honduras,HND,United Arab Emirates,ARE,TRUE,1,1,draw,Barcelona,Spain,TRUE,1590,1506,1588,1508,-2
-2018-11-16,Friendly,played,Honduras,HND,Panama,PAN,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1588,1579,1595,1572,7
-2018-11-20,Friendly,played,Honduras,HND,Chile,CHL,FALSE,1,4,loss,Temuco,Chile,FALSE,1595,1847,1591,1851,-4
-2019-03-26,Friendly,played,Honduras,HND,Ecuador,ECU,TRUE,0,0,draw,Harrison,United States,TRUE,1591,1765,1596,1760,5
-2019-06-05,Friendly,played,Honduras,HND,Paraguay,PRY,FALSE,1,1,draw,Ciudad del Este,Paraguay,FALSE,1596,1705,1601,1700,5
-2019-06-09,Friendly,played,Honduras,HND,Brazil,BRA,FALSE,0,7,loss,Porto Alegre,Brazil,FALSE,1601,2133,1600,2134,-1
-2019-06-17,Gold Cup,played,Honduras,HND,Jamaica,JAM,FALSE,2,3,loss,Kingston,Jamaica,FALSE,1600,1552,1579,1573,-21
-2019-06-21,Gold Cup,played,Honduras,HND,Curaçao,,TRUE,0,1,loss,Houston,United States,TRUE,1579,1317,1538,1358,-41
-2019-06-25,Gold Cup,played,Honduras,HND,El Salvador,SLV,TRUE,4,0,win,Los Angeles,United States,TRUE,1538,1546,1586,1498,48
-2019-09-05,Friendly,played,Honduras,HND,Puerto Rico,,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1586,975,1587,974,1
-2019-09-10,Friendly,played,Honduras,HND,Chile,CHL,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1587,1813,1600,1800,13
-2019-10-10,CONCACAF Nations League,played,Honduras,HND,Trinidad and Tobago,TTO,FALSE,2,0,win,Port of Spain,Trinidad and Tobago,FALSE,1600,1375,1620,1355,20
-2019-10-13,CONCACAF Nations League,played,Honduras,HND,Martinique,,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1620,1448,1627,1441,7
-2019-11-14,CONCACAF Nations League,played,Honduras,HND,Martinique,,FALSE,1,1,draw,Fort-de-France,Martinique,FALSE,1627,1441,1622,1446,-5
-2019-11-17,CONCACAF Nations League,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1622,1352,1630,1344,8
-2020-10-10,Friendly,played,Honduras,HND,Nicaragua,,TRUE,1,1,draw,Comayagua,Honduras,FALSE,1630,1199,1621,1208,-9
-2020-11-15,Friendly,played,Honduras,HND,Guatemala,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1621,1475,1610,1486,-11
-2021-03-24,Friendly,played,Honduras,HND,Belarus,,FALSE,1,1,draw,Zhodzina,Belarus,FALSE,1610,1496,1610,1496,0
-2021-03-28,Friendly,played,Honduras,HND,Greece,GRC,FALSE,1,2,loss,Thessaloniki,Greece,FALSE,1610,1644,1604,1650,-6
-2021-06-03,CONCACAF Nations League,played,Honduras,HND,United States,USA,FALSE,0,1,loss,Denver,United States,FALSE,1604,1761,1597,1768,-7
-2021-06-06,CONCACAF Nations League,played,Honduras,HND,Costa Rica,CRI,TRUE,2,2,draw,Denver,United States,TRUE,1597,1635,1599,1633,2
-2021-06-12,Friendly,played,Honduras,HND,Mexico,MEX,FALSE,0,0,draw,Atlanta,United States,TRUE,1599,1888,1606,1881,7
-2021-07-13,Gold Cup,played,Honduras,HND,Grenada,,TRUE,4,0,win,Houston,United States,TRUE,1606,1153,1612,1147,6
-2021-07-17,Gold Cup,played,Honduras,HND,Panama,PAN,FALSE,3,2,win,Houston,United States,TRUE,1612,1556,1633,1535,21
-2021-07-20,Gold Cup,played,Honduras,HND,Qatar,QAT,TRUE,0,2,loss,Houston,United States,TRUE,1633,1657,1598,1692,-35
-2021-07-24,Gold Cup,played,Honduras,HND,Mexico,MEX,FALSE,0,3,loss,Glendale,United States,TRUE,1598,1886,1584,1900,-14
-2021-09-02,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,FALSE,1,1,draw,Toronto,Canada,FALSE,1584,1723,1596,1711,12
-2021-09-05,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,FALSE,0,0,draw,San Salvador,El Salvador,FALSE,1596,1547,1599,1544,3
-2021-09-08,FIFA World Cup qualification,played,Honduras,HND,United States,USA,TRUE,1,4,loss,San Pedro Sula,Honduras,FALSE,1599,1838,1577,1860,-22
-2021-10-07,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1577,1607,1573,1611,-4
-2021-10-10,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1573,1881,1567,1887,-6
-2021-10-13,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1567,1534,1526,1575,-41
-2021-11-12,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,TRUE,2,3,loss,San Pedro Sula,Honduras,FALSE,1526,1595,1504,1617,-22
-2021-11-16,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,1,2,loss,San José,Costa Rica,FALSE,1504,1608,1495,1617,-9
-2022-01-16,Friendly,played,Honduras,HND,Colombia,COL,FALSE,1,2,loss,Fort Lauderdale,United States,TRUE,1495,1904,1493,1906,-2
-2022-01-27,FIFA World Cup qualification,played,Honduras,HND,Canada,CAN,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1493,1784,1478,1799,-15
-2022-01-30,FIFA World Cup qualification,played,Honduras,HND,El Salvador,SLV,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1478,1495,1441,1532,-37
-2022-02-02,FIFA World Cup qualification,played,Honduras,HND,United States,USA,FALSE,0,3,loss,Saint Paul,United States,FALSE,1441,1834,1437,1838,-4
-2022-03-24,FIFA World Cup qualification,played,Honduras,HND,Panama,PAN,FALSE,1,1,draw,Panama City,Panama,FALSE,1437,1624,1451,1610,14
-2022-03-27,FIFA World Cup qualification,played,Honduras,HND,Mexico,MEX,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1451,1836,1445,1842,-6
-2022-03-30,FIFA World Cup qualification,played,Honduras,HND,Jamaica,JAM,FALSE,1,2,loss,Kingston,Jamaica,FALSE,1445,1524,1434,1535,-11
-2022-06-03,CONCACAF Nations League,played,Honduras,HND,Curaçao,,FALSE,1,0,win,Willemstad,Curaçao,FALSE,1434,1404,1458,1380,24
-2022-06-06,CONCACAF Nations League,played,Honduras,HND,Curaçao,,TRUE,1,2,loss,San Pedro Sula,Honduras,FALSE,1458,1380,1429,1409,-29
-2022-06-13,CONCACAF Nations League,played,Honduras,HND,Canada,CAN,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1429,1801,1462,1768,33
-2022-09-23,Friendly,played,Honduras,HND,Argentina,ARG,FALSE,0,3,loss,Miami Gardens,United States,TRUE,1462,2139,1461,2140,-1
-2022-09-27,Friendly,played,Honduras,HND,Guatemala,,TRUE,2,1,win,Houston,United States,TRUE,1461,1459,1471,1449,10
-2022-10-27,Friendly,played,Honduras,HND,Qatar,QAT,FALSE,0,1,loss,Marbella,Spain,TRUE,1471,1659,1466,1664,-5
-2022-10-30,Friendly,played,Honduras,HND,Saudi Arabia,SAU,FALSE,0,0,draw,Abu Dhabi,United Arab Emirates,TRUE,1466,1638,1471,1633,5
-2023-03-22,Friendly,played,Honduras,HND,El Salvador,SLV,TRUE,1,0,win,Los Angeles,United States,TRUE,1471,1482,1481,1472,10
-2023-03-28,CONCACAF Nations League,played,Honduras,HND,Canada,CAN,FALSE,1,4,loss,Toronto,Canada,FALSE,1481,1723,1472,1732,-9
-2023-06-15,Friendly,played,Honduras,HND,Venezuela,,TRUE,0,1,loss,"Washington, D.C.",United States,TRUE,1472,1692,1468,1696,-4
-2023-06-25,Gold Cup,played,Honduras,HND,Mexico,MEX,FALSE,0,4,loss,Houston,United States,TRUE,1468,1790,1455,1803,-13
-2023-06-29,Gold Cup,played,Honduras,HND,Qatar,QAT,FALSE,1,1,draw,Glendale,United States,TRUE,1455,1519,1460,1514,5
-2023-07-02,Gold Cup,played,Honduras,HND,Haiti,HTI,TRUE,2,1,win,Charlotte,United States,TRUE,1460,1554,1492,1522,32
-2023-09-03,Friendly,played,Honduras,HND,Guatemala,,FALSE,0,0,draw,Fort Lauderdale,United States,TRUE,1492,1497,1492,1497,0
-2023-09-08,CONCACAF Nations League,played,Honduras,HND,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1492,1584,1482,1594,-10
-2023-09-12,CONCACAF Nations League,played,Honduras,HND,Grenada,,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1482,1119,1487,1114,5
-2023-10-12,CONCACAF Nations League,played,Honduras,HND,Cuba,CUB,FALSE,0,0,draw,Santo Domingo,Dominican Republic,TRUE,1487,1295,1477,1305,-10
-2023-10-15,CONCACAF Nations League,played,Honduras,HND,Cuba,CUB,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1477,1305,1490,1292,13
-2023-11-17,CONCACAF Nations League,played,Honduras,HND,Mexico,MEX,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1490,1840,1538,1792,48
-2023-11-21,CONCACAF Nations League,played,Honduras,HND,Mexico,MEX,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1538,1792,1531,1799,-7
-2024-01-17,Friendly,played,Honduras,HND,Iceland,ISL,TRUE,0,2,loss,Fort Lauderdale,United States,TRUE,1531,1489,1514,1506,-17
-2024-03-23,Copa América qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,1,3,loss,Frisco,United States,TRUE,1514,1581,1490,1605,-24
-2024-03-26,Friendly,played,Honduras,HND,El Salvador,SLV,FALSE,1,1,draw,Los Angeles,United States,TRUE,1490,1393,1487,1396,-3
-2024-06-06,FIFA World Cup qualification,played,Honduras,HND,Cuba,CUB,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1487,1304,1497,1294,10
-2024-06-09,FIFA World Cup qualification,played,Honduras,HND,Bermuda,,FALSE,6,1,win,Hamilton,Bermuda,FALSE,1497,1138,1512,1123,15
-2024-06-16,Friendly,played,Honduras,HND,Ecuador,ECU,FALSE,1,2,loss,Hartford,United States,TRUE,1512,1874,1510,1876,-2
-2024-09-06,CONCACAF Nations League,played,Honduras,HND,Trinidad and Tobago,TTO,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1510,1413,1528,1395,18
-2024-09-10,CONCACAF Nations League,played,Honduras,HND,Jamaica,JAM,TRUE,1,2,loss,Tegucigalpa,Honduras,FALSE,1528,1572,1505,1595,-23
-2024-10-10,CONCACAF Nations League,played,Honduras,HND,French Guiana,,FALSE,3,2,win,Cayenne,French Guiana,FALSE,1505,1279,1518,1266,13
-2024-10-14,CONCACAF Nations League,played,Honduras,HND,Jamaica,JAM,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1518,1615,1528,1605,10
-2024-11-15,CONCACAF Nations League,played,Honduras,HND,Mexico,MEX,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1528,1801,1572,1757,44
-2024-11-19,CONCACAF Nations League,played,Honduras,HND,Mexico,MEX,FALSE,0,4,loss,Toluca,Mexico,FALSE,1572,1757,1560,1769,-12
-2025-03-16,Friendly,played,Honduras,HND,Guatemala,,TRUE,1,2,loss,Fort Lauderdale,United States,TRUE,1560,1507,1548,1519,-12
-2025-03-21,Gold Cup qualification,played,Honduras,HND,Bermuda,,FALSE,5,3,win,Hamilton,Bermuda,FALSE,1548,1141,1557,1132,9
-2025-03-25,Gold Cup qualification,played,Honduras,HND,Bermuda,,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1557,1132,1560,1129,3
-2025-06-07,FIFA World Cup qualification,played,Honduras,HND,Cayman Islands,,FALSE,1,0,win,George Town,Cayman Islands,FALSE,1560,821,1561,820,1
-2025-06-10,FIFA World Cup qualification,played,Honduras,HND,Antigua and Barbuda,,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1561,909,1562,908,1
-2025-06-17,Gold Cup,played,Honduras,HND,Canada,CAN,FALSE,0,6,loss,Vancouver,Canada,FALSE,1562,1785,1548,1799,-14
-2025-06-21,Gold Cup,played,Honduras,HND,El Salvador,SLV,TRUE,2,0,win,Houston,United States,TRUE,1548,1388,1569,1367,21
-2025-06-24,Gold Cup,played,Honduras,HND,Curaçao,,TRUE,2,1,win,San Jose,United States,TRUE,1569,1410,1583,1396,14
-2025-06-28,Gold Cup,played,Honduras,HND,Panama,PAN,FALSE,1,1,draw,Glendale,United States,TRUE,1583,1773,1595,1761,12
-2025-07-02,Gold Cup,played,Honduras,HND,Mexico,MEX,FALSE,0,1,loss,Santa Clara,United States,TRUE,1595,1827,1585,1837,-10
-2025-09-05,FIFA World Cup qualification,played,Honduras,HND,Haiti,HTI,FALSE,0,0,draw,Willemstad,Curaçao,TRUE,1585,1467,1578,1474,-7
-2025-09-09,FIFA World Cup qualification,played,Honduras,HND,Nicaragua,,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1578,1338,1585,1331,7
-2025-10-09,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1585,1665,1584,1666,-1
-2025-10-13,FIFA World Cup qualification,played,Honduras,HND,Haiti,HTI,TRUE,3,0,win,Tegucigalpa,Honduras,FALSE,1584,1517,1603,1498,19
-2025-11-13,FIFA World Cup qualification,played,Honduras,HND,Nicaragua,,FALSE,0,2,loss,Managua,Nicaragua,FALSE,1603,1297,1557,1343,-46
-2025-11-18,FIFA World Cup qualification,played,Honduras,HND,Costa Rica,CRI,FALSE,0,0,draw,San José,Costa Rica,FALSE,1557,1642,1567,1632,10
-2026-03-31,Friendly,played,Honduras,HND,Peru,PER,FALSE,2,2,draw,Madrid,Spain,TRUE,1567,1699,1571,1695,4
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1927-11-07,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1382,1490,1392,1480,10
+,,,1927-11-08,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1392,1480,1392,1480,0
+,,,1928-12-07,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,5,loss,San Salvador,El Salvador,FALSE,1377,1480,1368,1489,-9
+,,,1930-03-18,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,5,4,win,Havana,Cuba,TRUE,1368,1448,1393,1423,25
+,,,1930-03-20,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,7,loss,Havana,Cuba,FALSE,1393,1612,1381,1624,-12
+,,,1930-03-23,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,5,loss,Havana,Cuba,FALSE,1381,1624,1371,1634,-10
+,,,1930-03-29,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,4,1,win,Havana,Cuba,TRUE,1371,1510,1419,1462,48
+,,,1930-04-04,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,8,loss,Havana,Cuba,TRUE,1419,1834,1411,1842,-8
+,,,1935-03-25,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,3,loss,San Salvador,El Salvador,TRUE,1406,1546,1384,1568,-22
+,,,1935-03-28,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,4,3,win,San Salvador,El Salvador,FALSE,1384,1443,1413,1414,29
+,,,1935-03-31,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,0,0,draw,San Salvador,El Salvador,TRUE,1413,1412,1413,1412,0
+,,,1935-04-01,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,2,8,loss,San Salvador,El Salvador,TRUE,1413,1681,1398,1696,-15
+,,,1935-04-03,Central American and Caribbean Games,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,6,loss,San Salvador,El Salvador,TRUE,1398,1819,1391,1826,-7
+,,,1937-10-11,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,3,loss,San Salvador,El Salvador,FALSE,1391,1434,1385,1440,-6
+,,,1946-02-23,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,TRUE,1385,1277,1352,1310,-33
+,,,1946-02-28,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,5,3,win,San José,Costa Rica,TRUE,1352,1539,1408,1483,56
+,,,1946-03-07,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,5,loss,San José,Costa Rica,FALSE,1408,1699,1399,1708,-9
+,,,1946-03-10,CCCF Championship,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,3,loss,San José,Costa Rica,TRUE,1399,1499,1372,1526,-27
+,,,1946-03-13,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,10,0,win,San José,Costa Rica,TRUE,1372,1008,1386,994,14
+,,,1953-03-08,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,2,1,win,San José,Costa Rica,TRUE,1431,964,1434,961,3
+,,,1953-03-11,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,0,1,loss,San José,Costa Rica,TRUE,1434,1398,1406,1426,-28
+,,,1953-03-13,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,4,loss,San José,Costa Rica,FALSE,1406,1599,1392,1613,-14
+,,,1953-03-15,CCCF Championship,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,3,0,win,San José,Costa Rica,TRUE,1392,1362,1432,1322,40
+,,,1953-03-19,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,FALSE,4,3,win,San José,Costa Rica,TRUE,1432,1503,1462,1473,30
+,,,1953-03-21,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,1,win,San José,Costa Rica,TRUE,1462,1303,1483,1282,21
+,,,1955-06-18,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1483,1414,1484,1413,1
+,,,1955-06-19,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,0,draw,San Salvador,El Salvador,FALSE,1484,1413,1485,1412,1
+,,,1955-08-14,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,3,0,win,Tegucigalpa,Honduras,FALSE,1485,1395,1507,1373,22
+,,,1955-08-17,CCCF Championship,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1507,1439,1528,1418,21
+,,,1955-08-20,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,TRUE,0,2,loss,Tegucigalpa,Honduras,FALSE,1528,1443,1472,1499,-56
+,,,1955-08-22,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Aruba,,,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1472,1435,1463,1444,-9
+,,,1955-08-28,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,2,loss,Tegucigalpa,Honduras,FALSE,1463,1706,1448,1721,-15
+,,,1957-08-21,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,2,0,win,Willemstad,Curaçao,TRUE,1435,1242,1454,1223,19
+,,,1957-08-25,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1454,1522,1465,1511,11
+,,,1959-12-13,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,1,loss,San Salvador,El Salvador,FALSE,1465,1418,1452,1431,-13
+,,,1959-12-14,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,6,loss,San Salvador,El Salvador,TRUE,1452,1741,1442,1751,-10
+,,,1960-02-19,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,TRUE,3,3,draw,Havana,Cuba,TRUE,1442,1491,1446,1487,4
+,,,1960-09-04,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1430,1690,1459,1661,29
+,,,1960-09-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,5,loss,San José,Costa Rica,FALSE,1459,1661,1447,1673,-12
+,,,1960-09-25,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1447,1410,1439,1418,-8
+,,,1961-01-14,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,Guatemala City,Guatemala,TRUE,1439,1673,1431,1681,-8
+,,,1961-03-10,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,FALSE,4,2,win,San José,Costa Rica,TRUE,1440,1516,1486,1470,46
+,,,1961-03-17,CCCF Championship,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,0,win,San José,Costa Rica,TRUE,1448,1495,1491,1452,43
+,,,1963-03-02,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,2,1,win,Guatemala City,Guatemala,FALSE,1446,1423,1458,1411,12
+,,,1963-03-10,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1458,1411,1450,1419,-8
+,,,1963-03-25,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,1,0,win,San Salvador,El Salvador,TRUE,1450,990,1453,987,3
+,,,1963-03-27,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1453,1530,1465,1518,12
+,,,1963-03-29,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,2,1,win,San Salvador,El Salvador,TRUE,1465,1410,1486,1389,21
+,,,1963-03-31,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,0,win,San Salvador,El Salvador,TRUE,1486,1232,1495,1223,9
+,,,1963-04-03,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,TRUE,1,4,loss,San Salvador,El Salvador,TRUE,1495,1585,1462,1618,-33
+,,,1963-04-05,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,3,loss,San Salvador,El Salvador,FALSE,1462,1476,1432,1506,-30
+,,,1963-04-07,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,San Salvador,El Salvador,TRUE,1432,1782,1426,1788,-6
+,,,1965-02-28,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1426,1806,1419,1813,-7
+,,,1965-03-04,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1419,1813,1415,1817,-4
+,,,1965-03-11,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,0,2,loss,San Salvador,El Salvador,TRUE,1415,958,1359,1014,-56
+,,,1965-03-14,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,3,loss,San Salvador,El Salvador,FALSE,1359,1531,1349,1541,-10
+,,,1965-03-17,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1349,1476,1331,1494,-18
+,,,1965-03-21,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1331,1494,1335,1490,4
+,,,1965-07-11,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1335,1756,1342,1749,7
+,,,1967-01-18,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,3,loss,Guatemala City,Guatemala,FALSE,1342,1507,1337,1512,-5
+,,,1967-01-22,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1337,1512,1339,1510,2
+,,,1967-03-05,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1339,1454,1365,1428,26
+,,,1967-03-08,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1365,1053,1344,1074,-21
+,,,1967-03-12,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1344,1584,1354,1574,10
+,,,1967-03-17,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,,,,,
+,,,1967-03-19,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1391,1799,1384,1806,-7
+,,,1968-07-17,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1384,1557,1386,1555,2
+,,,1968-07-31,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1386,1555,1382,1559,-4
+,,,1968-12-05,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1382,1258,1395,1245,13
+,,,1968-12-08,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1395,1245,1407,1233,12
+,,,1968-12-22,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1407,1700,1437,1670,30
+,,,1968-12-29,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,FALSE,1437,1670,1452,1655,15
+,,,1969-06-08,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1452,1534,1471,1515,19
+,,,1969-06-15,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,3,loss,San Salvador,El Salvador,FALSE,1471,1515,1450,1536,-21
+,,,1969-06-27,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,3,loss,Mexico City,Mexico,TRUE,1450,1536,1435,1551,-15
+,,,1970-06-13,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,El Progreso,Honduras,FALSE,1435,1160,1437,1158,2
+,,,1971-09-05,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,,,,,
+,,,1971-09-12,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,,,,,
+,,,1971-11-21,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,1,draw,San Fernando,Trinidad and Tobago,FALSE,1471,1357,1470,1358,-1
+,,,1971-11-23,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,TRUE,1470,1340,1419,1391,-51
+,,,1971-11-27,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,TRUE,,,,,
+,,,1971-12-01,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,TRUE,1411,1582,1391,1602,-20
+,,,1971-12-04,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,2,loss,Port of Spain,Trinidad and Tobago,TRUE,1391,1748,1385,1754,-6
+,,,1972-12-03,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1385,1635,1413,1607,28
+,,,1972-12-10,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,3,3,draw,San José,Costa Rica,FALSE,1413,1607,1427,1593,14
+,,,1973-11-29,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,Port-au-Prince,Haiti,TRUE,1427,1481,1456,1452,29
+,,,1973-12-03,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,1,draw,Port-au-Prince,Haiti,TRUE,1456,1784,1474,1766,18
+,,,1973-12-07,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,1,loss,Port-au-Prince,Haiti,FALSE,1474,1617,1464,1627,-10
+,,,1973-12-12,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,TRUE,2,2,draw,Port-au-Prince,Haiti,TRUE,1464,1385,1458,1391,-6
+,,,1973-12-15,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Port-au-Prince,Haiti,TRUE,1458,1530,1463,1525,5
+,,,1977-06-06,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1444,1209,1447,1206,3
+,,,1980-03-06,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1447,1597,1448,1596,1
+,,,1980-03-18,Friendly,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1448,1705,1442,1711,-6
+,,,1980-04-08,Friendly,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,5,loss,Toluca,Mexico,FALSE,1442,1711,1438,1715,-4
+,,,1980-04-16,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,FALSE,1438,1634,1445,1627,7
+,,,1980-06-06,Friendly,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1445,1588,1462,1571,17
+,,,1980-06-10,Friendly,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1462,1571,1472,1561,10
+,,,1980-06-13,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1472,1248,1465,1255,-7
+,,,1980-06-15,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1465,1255,1469,1251,4
+,,,1980-07-16,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1469,1519,1473,1515,4
+,,,1980-07-30,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,0,win,Panama City,Panama,FALSE,1473,1233,1492,1214,19
+,,,1980-10-01,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,3,2,win,San José,Costa Rica,FALSE,1492,1558,1521,1529,29
+,,,1980-10-26,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1521,1500,1514,1507,-7
+,,,1980-11-09,Friendly,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1514,1583,1528,1569,14
+,,,1980-11-16,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1528,1538,1523,1543,-5
+,,,1980-11-23,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1523,1526,1509,1540,-14
+,,,1980-11-30,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1509,1540,1533,1516,24
+,,,1980-12-07,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1533,1548,1559,1522,26
+,,,1980-12-14,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,5,0,win,Tegucigalpa,Honduras,FALSE,1559,1191,1564,1186,5
+,,,1981-11-03,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1564,1529,1594,1499,30
+,,,1981-11-08,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1594,1569,1619,1544,25
+,,,1981-11-12,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1619,1610,1636,1593,17
+,,,1981-11-16,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1636,1568,1625,1579,-11
+,,,1981-11-22,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1625,1661,1620,1666,-5
+,,,1982-03-01,Friendly,played,Honduras,HND,HND,CONCACAF,United Arab Emirates,ARE,ARE,AFC,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1620,1103,1622,1101,2
+,,,1982-03-03,Friendly,played,Honduras,HND,HND,CONCACAF,United Arab Emirates,ARE,ARE,AFC,FALSE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1622,1101,1614,1109,-8
+,,,1982-04-18,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,3,loss,San Salvador,El Salvador,FALSE,1611,1597,1603,1605,-8
+,,,1982-04-22,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1603,1605,1600,1608,-3
+WC-1982,WC-1982_009,9,1982-06-16,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Valencia,Spain,FALSE,1600,1891,1624,1867,24
+WC-1982,WC-1982_024,24,1982-06-21,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Zaragoza,Spain,TRUE,1624,1755,1635,1744,11
+WC-1982,WC-1982_033,33,1982-06-24,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Zaragoza,Spain,TRUE,1635,1878,1623,1890,-12
+,,,1983-05-03,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,2,0,win,Guatemala City,Guatemala,FALSE,1623,1499,1637,1485,14
+,,,1983-12-11,Friendly,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1584,1566,1594,1556,10
+,,,1983-12-14,Friendly,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1594,1556,1600,1550,6
+,,,1984-02-26,Friendly,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,3,1,win,Lima,Peru,FALSE,1600,1679,1622,1657,22
+,,,1984-06-15,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,3,0,win,Colón,Panama,FALSE,1622,1225,1633,1214,11
+,,,1984-06-24,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1633,1214,1635,1212,2
+,,,1984-10-03,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1635,1535,1640,1530,5
+,,,1984-12-07,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1640,1527,1635,1532,-5
+,,,1984-12-16,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1635,1543,1625,1553,-10
+,,,1985-01-27,Friendly,played,Honduras,HND,HND,CONCACAF,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1625,1892,1639,1878,14
+,,,1985-03-03,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Suriname,,,,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1639,1402,1620,1421,-19
+,,,1985-03-06,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Suriname,,,,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1620,1421,1628,1413,8
+,,,1985-03-10,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,1,win,San Salvador,El Salvador,FALSE,1628,1535,1654,1509,26
+,,,1985-03-14,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1654,1509,1639,1524,-15
+,,,1985-08-11,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,2,draw,San José,Costa Rica,FALSE,1639,1572,1641,1570,2
+,,,1985-08-25,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1641,1623,1608,1656,-33
+,,,1985-09-08,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1608,1579,1632,1555,24
+,,,1985-09-14,CONCACAF Championship,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,2,loss,St. John's,Canada,FALSE,1632,1658,1616,1674,-16
+,,,1986-10-28,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Managua,Nicaragua,TRUE,1629,1228,1632,1225,3
+,,,1987-04-29,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1632,1505,1636,1501,4
+,,,1987-05-06,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,1,win,San Salvador,El Salvador,FALSE,1636,1501,1645,1492,9
+,,,1987-10-02,Friendly,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1621,1572,1617,1576,-4
+,,,1988-01-13,Friendly,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1617,1864,1611,1870,-6
+,,,1988-03-18,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,0,draw,Los Angeles,United States,TRUE,1611,1511,1608,1514,-3
+,,,1988-04-26,Friendly,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,4,loss,Ciudad Victoria,Mexico,FALSE,1608,1872,1604,1876,-4
+,,,1988-06-15,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1604,1570,1600,1574,-4
+,,,1988-06-17,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1600,1574,1587,1587,-13
+,,,1988-09-12,Friendly,played,Honduras,HND,HND,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1587,1759,1589,1757,2
+,,,1988-09-15,Friendly,played,Honduras,HND,HND,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,2,loss,Tegucigalpa,Honduras,FALSE,,,,,
+,,,1988-09-25,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,0,draw,Los Angeles,United States,TRUE,1577,1452,1574,1455,-3
+,,,1988-10-30,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,0,draw,Port of Spain,Trinidad and Tobago,FALSE,1574,1530,1577,1527,3
+,,,1988-11-13,CONCACAF Championship qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1577,1527,1569,1535,-8
+,,,1991-05-12,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,2,loss,Panama City,Panama,FALSE,1569,1260,1523,1306,-46
+,,,1991-05-18,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,0,win,San Pedro Sula,Honduras,FALSE,,,,,
+,,,1991-05-26,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,FALSE,1533,1662,1520,1675,-13
+,,,1991-05-29,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,0,0,draw,San José,Costa Rica,TRUE,1520,1452,1516,1456,-4
+,,,1991-06-02,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,1,win,San José,Costa Rica,TRUE,1516,1414,1530,1400,14
+,,,1991-06-28,Gold Cup,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,4,2,win,Los Angeles,United States,TRUE,1530,1581,1573,1538,43
+,,,1991-06-30,Gold Cup,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,5,0,win,Los Angeles,United States,TRUE,1573,1393,1599,1367,26
+,,,1991-07-02,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,1,draw,Los Angeles,United States,TRUE,,,,,
+,,,1991-07-05,Gold Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,0,win,Los Angeles,United States,TRUE,1616,1637,1656,1597,40
+,,,1991-07-07,Gold Cup,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,0,draw,Los Angeles,United States,FALSE,1656,1706,1666,1696,10
+,,,1992-03-17,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,1,draw,Los Angeles,United States,TRUE,1666,1421,1660,1427,-6
+,,,1992-06-28,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1660,1296,1662,1294,2
+,,,1992-06-30,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1662,1294,1664,1292,2
+,,,1992-07-19,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,0,0,draw,Guatemala City,Guatemala,FALSE,1674,1462,1668,1468,-6
+,,,1992-07-26,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1668,1468,1677,1459,9
+,,,1992-08-12,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,3,0,win,Los Angeles,United States,TRUE,1677,1438,1684,1431,7
+,,,1992-09-13,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,3,loss,San Salvador,El Salvador,FALSE,1684,1431,1663,1452,-21
+,,,1992-09-18,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1663,1452,1656,1459,-7
+,,,1992-09-22,Friendly,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,5,1,win,Tegucigalpa,Honduras,FALSE,1656,1452,1662,1446,6
+,,,1992-09-24,Friendly,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,7,0,win,San Pedro Sula,Honduras,FALSE,1662,1446,1668,1440,6
+,,,1992-11-08,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,3,2,win,San José,Costa Rica,FALSE,1668,1583,1689,1562,21
+,,,1992-11-15,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1689,1803,1675,1817,-14
+,,,1992-11-22,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,4,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1675,1281,1687,1269,12
+,,,1992-11-28,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1687,1269,1691,1265,4
+,,,1992-12-05,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1691,1607,1701,1597,10
+,,,1992-12-13,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1701,1786,1700,1787,-1
+,,,1993-01-27,Friendly,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,1,1,draw,Lima,Peru,FALSE,1700,1548,1699,1549,-1
+,,,1993-01-29,Friendly,played,Honduras,HND,HND,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,3,loss,Cochabamba,Bolivia,FALSE,1699,1552,1682,1569,-17
+,,,1993-03-05,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1682,1314,1686,1310,4
+,,,1993-03-07,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1686,1621,1703,1604,17
+,,,1993-03-09,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,3,0,win,Tegucigalpa,Honduras,FALSE,1703,1507,1714,1496,11
+,,,1993-03-14,Friendly,played,Honduras,HND,HND,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1714,1564,1708,1570,-6
+,,,1993-03-16,Friendly,played,Honduras,HND,HND,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1708,1570,1702,1576,-6
+,,,1993-03-25,Friendly,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,TRUE,4,1,win,Tegucigalpa,Honduras,FALSE,1702,1653,1712,1643,10
+,,,1993-04-04,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,2,draw,Tegucigalpa,Honduras,FALSE,1712,1552,1699,1565,-13
+,,,1993-04-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1699,1768,1680,1787,-19
+,,,1993-04-18,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,3,loss,Burnaby,Canada,FALSE,1680,1584,1650,1614,-30
+,,,1993-04-25,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1650,1502,1662,1490,12
+,,,1993-05-02,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,4,loss,Tegucigalpa,Honduras,FALSE,1662,1806,1631,1837,-31
+,,,1993-05-09,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,2,loss,San Salvador,El Salvador,FALSE,1631,1471,1608,1494,-23
+,,,1993-07-10,Gold Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,5,1,win,Dallas,United States,TRUE,1608,1308,1622,1294,14
+,,,1993-07-14,Gold Cup,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,1,3,loss,Dallas,United States,TRUE,1622,1438,1566,1494,-56
+,,,1993-07-17,Gold Cup,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Dallas,United States,FALSE,1566,1616,1551,1631,-15
+,,,1994-05-03,Miami Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,3,loss,Miami,United States,TRUE,1551,1494,1525,1520,-26
+,,,1994-05-05,Miami Cup,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,2,1,win,Miami,United States,TRUE,1525,1554,1541,1538,16
+,,,1994-06-08,Friendly,played,Honduras,HND,HND,CONCACAF,Brazil,BRA,BRA,CONMEBOL,TRUE,2,8,loss,San Diego,United States,TRUE,1541,1957,1537,1961,-4
+,,,1994-06-11,Friendly,played,Honduras,HND,HND,CONCACAF,South Korea,KOR,KOR,AFC,TRUE,0,3,loss,Duncanville,United States,TRUE,1537,1654,1525,1666,-12
+,,,1994-12-11,Friendly,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Fullerton,United States,FALSE,1525,1630,1530,1625,5
+,,,1995-03-29,Friendly,played,Honduras,HND,HND,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,Goiânia,Brazil,FALSE,1530,2071,1540,2061,10
+,,,1995-06-11,Friendly,played,Honduras,HND,HND,CONCACAF,Turkey,TUR,TUR,UEFA,TRUE,0,1,loss,Toronto,Canada,TRUE,1540,1725,1535,1730,-5
+,,,1995-10-18,Friendly,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1535,1486,1526,1495,-9
+,,,1995-11-29,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,0,win,Santa Ana,El Salvador,TRUE,1526,1323,1540,1309,14
+,,,1995-12-03,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,2,0,win,Santa Ana,El Salvador,TRUE,1540,1477,1565,1452,25
+,,,1995-12-07,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,TRUE,1565,1575,1566,1574,1
+,,,1995-12-10,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,3,0,win,San Salvador,El Salvador,TRUE,1566,1481,1593,1454,27
+,,,1996-01-10,Gold Cup,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,3,loss,Anaheim,United States,TRUE,1593,1587,1555,1625,-38
+,,,1996-01-14,Gold Cup,played,Honduras,HND,HND,CONCACAF,Brazil,BRA,BRA,CONMEBOL,TRUE,0,5,loss,Los Angeles,United States,TRUE,1555,2119,1551,2123,-4
+,,,1996-03-06,Friendly,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,FALSE,1,2,loss,Miami,United States,TRUE,1551,1856,1548,1859,-3
+,,,1996-03-27,Friendly,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,1,0,win,Danlí,Honduras,FALSE,1548,945,1548,945,0
+,,,1996-06-22,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1548,1351,1551,1348,3
+,,,1996-07-24,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1551,1304,1543,1312,-8
+,,,1996-07-28,Friendly,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1543,1590,1541,1592,-2
+,,,1996-08-04,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,FALSE,1541,1570,1545,1566,4
+,,,1996-08-07,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,2,loss,Panama City,Panama,FALSE,1545,1330,1532,1343,-13
+,,,1996-08-11,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1532,1566,1530,1568,-2
+,,,1996-08-14,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1530,1536,1537,1529,7
+,,,1996-08-18,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Monterey Park,United States,TRUE,1537,1454,1535,1456,-2
+,,,1996-08-21,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,1,win,San Salvador,El Salvador,FALSE,1535,1529,1548,1516,13
+,,,1996-08-25,Friendly,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1548,1558,1562,1544,14
+,,,1996-08-28,Friendly,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,2,2,draw,San Pedro Sula,Honduras,FALSE,1562,1544,1559,1547,-3
+,,,1996-09-15,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,3,loss,Kingston,Jamaica,FALSE,1559,1478,1526,1511,-33
+,,,1996-09-21,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1526,1853,1557,1822,31
+,,,1996-10-13,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,4,1,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1557,1268,1575,1250,18
+,,,1996-10-21,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1575,1530,1571,1534,-4
+,,,1996-10-26,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1571,1521,1563,1529,-8
+,,,1996-11-01,Friendly,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,1,2,loss,New York,United States,TRUE,1563,1915,1561,1917,-2
+,,,1996-11-06,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,3,loss,Mexico City,Mexico,FALSE,1561,1814,1554,1821,-7
+,,,1996-11-17,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,11,3,win,San Pedro Sula,Honduras,FALSE,1554,1240,1562,1232,8
+,,,1997-01-26,Friendly,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,FALSE,2,3,loss,Santiago,Chile,FALSE,1562,1722,1558,1726,-4
+,,,1997-04-16,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,5,0,win,Guatemala City,Guatemala,TRUE,1558,1369,1578,1349,20
+,,,1997-04-18,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,3,0,win,Guatemala City,Guatemala,TRUE,1578,1527,1608,1497,30
+,,,1997-04-23,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,4,loss,Guatemala City,Guatemala,TRUE,1608,1620,1572,1656,-36
+,,,1997-04-25,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1572,1532,1555,1549,-17
+,,,1997-04-27,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Guatemala City,Guatemala,TRUE,1555,1489,1551,1493,-4
+,,,1998-01-21,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,4,1,win,Nicoya,Costa Rica,FALSE,1551,1617,1576,1592,25
+,,,1998-02-01,Gold Cup,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,3,loss,Oakland,United States,TRUE,1577,1443,1526,1494,-51
+,,,1998-02-07,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Oakland,United States,TRUE,1526,1802,1513,1815,-13
+,,,1998-11-17,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,3,3,draw,Los Angeles,United States,TRUE,1513,1562,1515,1560,2
+,,,1998-11-18,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,1,win,Los Angeles,United States,TRUE,1515,1492,1529,1478,14
+,,,1999-03-19,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Belize,,,,TRUE,5,1,win,San José,Costa Rica,TRUE,1529,1085,1534,1080,5
+,,,1999-03-21,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,0,win,San José,Costa Rica,FALSE,1534,1647,1565,1616,31
+,,,1999-03-24,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,3,1,win,San José,Costa Rica,TRUE,1565,1483,1588,1460,23
+,,,1999-03-26,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,1,win,San José,Costa Rica,FALSE,1588,1626,1616,1598,28
+,,,1999-03-28,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,0,2,loss,San José,Costa Rica,TRUE,1616,1539,1579,1576,-37
+,,,1999-05-21,Friendly,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,0,win,Miami,United States,TRUE,1579,1409,1587,1401,8
+,,,1999-11-17,Friendly,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,2,win,San Pedro Sula,Honduras,FALSE,1589,1590,1596,1583,7
+,,,1999-12-01,Friendly,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,0,0,draw,Lima,Peru,FALSE,1596,1747,1602,1741,6
+,,,1999-12-16,Friendly,played,Honduras,HND,HND,CONCACAF,Zambia,,,,TRUE,7,1,win,San Pedro Sula,Honduras,FALSE,1602,1608,1618,1592,16
+,,,1999-12-29,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,Alajuela,Costa Rica,FALSE,1618,1632,1621,1629,3
+,,,2000-02-09,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,5,1,win,San Pedro Sula,Honduras,FALSE,1620,1387,1625,1382,5
+,,,2000-02-14,Gold Cup,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,2,0,win,Miami,United States,TRUE,1625,1582,1658,1549,33
+,,,2000-02-16,Gold Cup,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,2,0,win,Miami,United States,TRUE,1658,1813,1711,1760,53
+,,,2000-02-19,Gold Cup,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,3,5,loss,Miami,United States,TRUE,1711,1710,1673,1748,-38
+,,,2000-03-04,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,3,0,win,San Pedro Sula,Honduras,FALSE,1673,935,1674,934,1
+,,,2000-03-08,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,3,1,win,Quito,Ecuador,FALSE,1674,1691,1694,1671,20
+,,,2000-03-22,Friendly,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,FALSE,2,5,loss,Santiago,Chile,FALSE,1694,1710,1682,1722,-12
+,,,2000-04-02,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1682,1382,1652,1412,-30
+,,,2000-04-16,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,FALSE,1,0,win,Diriamba,Nicaragua,FALSE,1652,926,1653,925,1
+,,,2000-05-07,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1653,1412,1660,1405,7
+,,,2000-05-30,Friendly,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,2,loss,Winnipeg,Canada,FALSE,1660,1715,1654,1721,-6
+,,,2000-06-03,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1654,1446,1665,1435,11
+,,,2000-06-17,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,3,1,win,Port-au-Prince,Haiti,FALSE,1665,1435,1684,1416,19
+,,,2000-07-16,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,5,2,win,San Salvador,El Salvador,FALSE,1684,1429,1704,1409,20
+,,,2000-07-23,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,3,loss,Kingston,Jamaica,FALSE,1704,1552,1670,1586,-34
+,,,2000-08-16,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,6,0,win,Tegucigalpa,Honduras,FALSE,1670,1281,1675,1276,5
+,,,2000-08-20,Friendly,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,4,0,win,New York,United States,TRUE,1675,1407,1682,1400,7
+,,,2000-09-02,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,5,0,win,San Pedro Sula,Honduras,FALSE,1682,1411,1690,1403,8
+,,,2000-10-08,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1690,1603,1700,1593,10
+,,,2000-11-14,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,7,0,win,Kingstown,Saint Vincent and the Grenadines,FALSE,,,,,
+,,,2001-02-28,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,2,draw,San José,Costa Rica,FALSE,1711,1638,1713,1636,2
+,,,2001-03-07,Friendly,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,0,0,draw,Miami,United States,TRUE,1713,1671,1712,1672,-1
+,,,2001-03-21,Friendly,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1712,1713,1723,1702,11
+,,,2001-03-28,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,2,loss,San Pedro Sula,Honduras,FALSE,1723,1812,1702,1833,-21
+,,,2001-04-25,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1702,1582,1701,1583,-1
+,,,2001-05-23,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,2,loss,San Pedro Sula,Honduras,FALSE,1701,1418,1665,1454,-36
+,,,2001-05-25,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,10,2,win,Tegucigalpa,Honduras,FALSE,1665,910,1666,909,1
+,,,2001-05-27,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1666,1476,1652,1490,-14
+,,,2001-06-16,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,4,2,win,Port of Spain,Trinidad and Tobago,FALSE,1652,1637,1689,1600,37
+,,,2001-06-20,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1689,1681,1710,1660,21
+,,,2001-07-01,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,3,loss,Tegucigalpa,Honduras,FALSE,1710,1647,1681,1676,-29
+,,,2001-07-07,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,1,draw,Miami,United States,TRUE,1681,1779,1684,1776,3
+,,,2001-07-13,Copa América,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Medellín,Colombia,TRUE,1684,1676,1658,1702,-26
+,,,2001-07-16,Copa América,played,Honduras,HND,HND,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,0,win,Medellín,Colombia,TRUE,1658,1586,1688,1556,30
+,,,2001-07-19,Copa América,played,Honduras,HND,HND,CONCACAF,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Medellín,Colombia,TRUE,1688,1799,1721,1766,33
+,,,2001-07-23,Copa América,played,Honduras,HND,HND,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,2,0,win,Manizales,Colombia,TRUE,1721,1911,1777,1855,56
+,,,2001-07-26,Copa América,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,FALSE,0,2,loss,Manizales,Colombia,FALSE,1777,1842,1756,1863,-21
+,,,2001-07-29,Copa América,played,Honduras,HND,HND,CONCACAF,Uruguay,URY,URY,CONMEBOL,FALSE,2,2,draw,Bogotá,Colombia,TRUE,,,,,
+,,,2001-09-01,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,3,2,win,"Washington, D.C.",United States,FALSE,1756,1811,1784,1783,28
+,,,2001-09-05,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1784,1559,1789,1554,5
+,,,2001-10-07,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1789,1528,1753,1564,-36
+,,,2001-11-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1753,1791,1731,1813,-22
+,,,2002-02-12,Lunar New Year Cup,played,Honduras,HND,HND,CONCACAF,Slovenia,SVN,SVN,UEFA,FALSE,5,1,win,So Kon Po,Hong Kong,TRUE,1731,1760,1761,1730,30
+,,,2002-03-02,Friendly,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,4,loss,Seattle,United States,FALSE,1761,1798,1749,1810,-12
+,,,2002-05-02,Kirin Cup,played,Honduras,HND,HND,CONCACAF,Japan,JPN,JPN,AFC,FALSE,3,3,draw,Kobe,Japan,FALSE,1749,1878,1758,1869,9
+,,,2002-11-20,Friendly,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1758,1875,1768,1865,10
+,,,2003-01-31,Friendly,played,Honduras,HND,HND,CONCACAF,Argentina,ARG,ARG,CONMEBOL,TRUE,1,3,loss,San Pedro Sula,Honduras,FALSE,1768,1996,1758,2006,-10
+,,,2003-02-11,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,2,0,win,Panama City,Panama,TRUE,1758,917,1758,917,0
+,,,2003-02-15,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,1,loss,Panama City,Panama,TRUE,1758,1516,1726,1548,-32
+,,,2003-02-18,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,Panama City,Panama,FALSE,1726,1413,1715,1424,-11
+,,,2003-02-20,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,Panama City,Panama,TRUE,1715,1748,1697,1766,-18
+,,,2003-02-23,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,2,loss,Panama City,Panama,TRUE,1697,1543,1669,1571,-28
+,,,2003-04-02,Friendly,played,Honduras,HND,HND,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1669,1758,1669,1758,0
+,,,2003-04-25,Gold Cup qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,0,win,Rivière-Pilote,Martinique,TRUE,1669,1429,1681,1417,12
+,,,2003-04-27,Gold Cup qualification,played,Honduras,HND,HND,CONCACAF,Martinique,,,,FALSE,4,2,win,Fort-de-France,Martinique,FALSE,1681,1465,1701,1445,20
+,,,2003-04-30,Friendly,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,0,0,draw,Miami,United States,TRUE,1701,1864,1705,1860,4
+,,,2003-06-07,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,FALSE,1,2,loss,Miami,United States,TRUE,1705,1627,1693,1639,-12
+,,,2003-06-11,Friendly,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,1,2,loss,San Pedro Sula,Honduras,FALSE,1693,1600,1678,1615,-15
+,,,2003-06-22,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,2,1,win,Carson,United States,TRUE,1678,1571,1685,1564,7
+,,,2003-06-29,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1685,1515,1678,1522,-7
+,,,2003-07-15,Gold Cup,played,Honduras,HND,HND,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Mexico City,Mexico,TRUE,1678,1974,1670,1982,-8
+,,,2003-07-17,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1670,1853,1687,1836,17
+,,,2003-10-11,Friendly,played,Honduras,HND,HND,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,1,loss,"Washington, D.C.",United States,TRUE,1687,1591,1674,1604,-13
+,,,2003-11-16,Friendly,played,Honduras,HND,HND,CONCACAF,Finland,,,,TRUE,1,2,loss,Houston,United States,TRUE,1674,1710,1665,1719,-9
+,,,2004-01-25,Lunar New Year Cup,played,Honduras,HND,HND,CONCACAF,Norway,NOR,NOR,UEFA,FALSE,1,3,loss,So Kon Po,Hong Kong,TRUE,1665,1744,1648,1761,-17
+,,,2004-02-18,Friendly,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,1,1,draw,Tegucigalpa,Honduras,FALSE,1648,1706,1647,1707,-1
+,,,2004-03-10,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,FALSE,1,2,loss,Maracaibo,Venezuela,FALSE,1647,1645,1640,1652,-7
+,,,2004-03-31,Friendly,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,2,2,draw,Kingston,Jamaica,FALSE,1640,1620,1642,1618,2
+,,,2004-04-07,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,0,draw,La Ceiba,Honduras,FALSE,1642,1400,1634,1408,-8
+,,,2004-04-28,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,1,draw,Fort Lauderdale,United States,TRUE,1634,1710,1636,1708,2
+,,,2004-06-02,Friendly,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,4,loss,Foxborough,United States,FALSE,1636,1838,1630,1844,-6
+,,,2004-06-12,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,FALSE,2,1,win,Willemstad,Curaçao,FALSE,1630,1190,1635,1185,5
+,,,2004-06-19,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1635,1185,1638,1182,3
+,,,2004-07-28,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,FALSE,1638,1469,1632,1475,-6
+,,,2004-08-03,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,4,0,win,San Salvador,El Salvador,FALSE,1632,1464,1647,1449,15
+,,,2004-08-18,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,5,2,win,Alajuela,Costa Rica,FALSE,1647,1675,1694,1628,47
+,,,2004-09-04,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,1,draw,Edmonton,Canada,FALSE,1694,1561,1692,1563,-2
+,,,2004-09-08,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,2,2,draw,San Pedro Sula,Honduras,FALSE,1692,1633,1683,1642,-9
+,,,2004-10-09,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1683,1551,1671,1563,-12
+,,,2004-10-13,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1671,1610,1653,1628,-18
+,,,2004-11-17,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1653,1687,1649,1691,-4
+,,,2004-12-29,Friendly,played,Honduras,HND,HND,CONCACAF,Basque Country,,,,FALSE,0,2,loss,San Sebastián,Spain,FALSE,,,,,
+,,,2005-02-19,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,5,1,win,Guatemala City,Guatemala,TRUE,1649,1006,1651,1004,2
+,,,2005-02-21,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Belize,,,,FALSE,4,0,win,Guatemala City,Guatemala,TRUE,1651,1123,1654,1120,3
+,,,2005-02-23,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1654,1622,1658,1618,4
+,,,2005-02-25,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Guatemala City,Guatemala,TRUE,1658,1508,1670,1496,12
+,,,2005-02-27,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,Guatemala City,Guatemala,TRUE,1670,1718,1673,1715,3
+,,,2005-03-19,Friendly,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Albuquerque,United States,FALSE,1673,1848,1670,1851,-3
+,,,2005-06-04,Friendly,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,0,draw,Atlanta,United States,TRUE,1670,1663,1670,1663,0
+,,,2005-07-02,Friendly,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,2,1,win,Burnaby,Canada,FALSE,1670,1570,1680,1560,10
+,,,2005-07-06,Gold Cup,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,1,draw,Miami,United States,TRUE,1680,1492,1668,1504,-12
+,,,2005-07-10,Gold Cup,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,2,1,win,Miami,United States,TRUE,1668,1781,1701,1748,33
+,,,2005-07-12,Gold Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Miami,United States,TRUE,1701,1504,1713,1492,12
+,,,2005-07-16,Gold Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,3,2,win,Foxborough,United States,TRUE,1713,1744,1740,1717,27
+,,,2005-07-21,Gold Cup,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,2,loss,East Rutherford,United States,FALSE,1740,1876,1730,1886,-10
+,,,2005-09-07,Friendly,played,Honduras,HND,HND,CONCACAF,Japan,JPN,JPN,AFC,FALSE,4,5,loss,Rifu,Japan,FALSE,1730,1820,1725,1825,-5
+,,,2006-01-25,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,1,loss,Guayaquil,Ecuador,FALSE,1725,1715,1718,1722,-7
+,,,2006-02-12,Friendly,played,Honduras,HND,HND,CONCACAF,China PR,,,,FALSE,1,0,win,Guangzhou,China PR,FALSE,,,,,
+,,,2006-08-16,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,FALSE,0,0,draw,Maracay,Venezuela,FALSE,1729,1599,1728,1600,-1
+,,,2006-09-06,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1728,1383,1730,1381,2
+,,,2006-10-07,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,3,2,win,Fort Lauderdale,United States,TRUE,1730,1560,1735,1555,5
+,,,2006-10-10,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,2,1,win,Atlanta,United States,TRUE,1735,1555,1740,1550,5
+,,,2007-02-09,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,3,loss,San Salvador,El Salvador,TRUE,1740,1644,1702,1682,-38
+,,,2007-02-11,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,TRUE,1702,1508,1692,1518,-10
+,,,2007-02-15,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,FALSE,9,1,win,San Salvador,El Salvador,TRUE,1692,1058,1694,1056,2
+,,,2007-03-24,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,0,win,Fort Lauderdale,United States,TRUE,1694,1350,1698,1346,4
+,,,2007-03-27,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,0,win,Cary,United States,TRUE,1698,1346,1701,1343,3
+,,,2007-04-19,Friendly,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,3,loss,La Ceiba,Honduras,FALSE,1701,1560,1677,1584,-24
+,,,2007-05-25,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,FALSE,1,2,loss,Mérida,Venezuela,FALSE,1677,1646,1669,1654,-8
+,,,2007-06-02,Friendly,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1669,1551,1676,1544,7
+,,,2007-06-08,Gold Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,3,loss,East Rutherford,United States,TRUE,1676,1554,1643,1587,-33
+,,,2007-06-10,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,East Rutherford,United States,TRUE,1643,1838,1681,1800,38
+,,,2007-06-13,Gold Cup,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,5,0,win,Houston,United States,TRUE,1681,1526,1710,1497,29
+,,,2007-06-17,Gold Cup,played,Honduras,HND,HND,CONCACAF,Guadeloupe,,,,TRUE,1,2,loss,Houston,United States,TRUE,1710,1408,1667,1451,-43
+,,,2007-08-22,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,2,loss,San Salvador,El Salvador,FALSE,1667,1356,1644,1379,-23
+,,,2007-09-09,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,0,draw,East Hartford,United States,TRUE,1644,1645,1644,1645,0
+,,,2007-09-12,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1644,1701,1653,1692,9
+,,,2007-10-14,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1653,1575,1658,1570,5
+,,,2007-11-17,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,0,win,Miami Gardens,United States,TRUE,1658,1520,1664,1514,6
+,,,2008-02-06,Friendly,played,Honduras,HND,HND,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1664,1844,1682,1826,18
+,,,2008-03-26,Friendly,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,2,1,win,Fort Lauderdale,United States,TRUE,1682,1840,1696,1826,14
+,,,2008-05-23,Friendly,played,Honduras,HND,HND,CONCACAF,Belize,,,,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1696,1100,1697,1099,1
+,,,2008-05-30,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,FALSE,1,1,draw,Fort Lauderdale,United States,TRUE,1697,1649,1696,1650,-1
+,,,2008-06-04,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Puerto Rico,,,,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1696,957,1697,956,1
+,,,2008-06-07,Friendly,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,1,win,La Ceiba,Honduras,FALSE,1697,1526,1702,1521,5
+,,,2008-06-14,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Puerto Rico,,,,FALSE,2,2,draw,Bayamón,Puerto Rico,FALSE,1702,956,1683,975,-19
+,,,2008-08-20,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1683,1893,1677,1899,-6
+,,,2008-09-06,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,2,1,win,Montreal,Canada,FALSE,1677,1620,1699,1598,22
+,,,2008-09-10,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1699,1548,1710,1537,11
+,,,2008-10-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1710,1594,1723,1581,13
+,,,2008-10-15,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1723,1570,1700,1593,-23
+,,,2008-11-19,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1700,1858,1723,1835,23
+,,,2009-01-18,Friendly,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,2,0,win,Fort Lauderdale,United States,TRUE,1723,1801,1741,1783,18
+,,,2009-01-22,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Belize,,,,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1741,1097,1742,1096,1
+,,,2009-01-24,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,4,1,win,Tegucigalpa,Honduras,FALSE,1742,1036,1743,1035,1
+,,,2009-01-26,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1743,1476,1749,1470,6
+,,,2009-01-30,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,Tegucigalpa,Honduras,FALSE,1749,1544,1715,1578,-34
+,,,2009-02-01,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1715,1463,1720,1458,5
+,,,2009-02-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,FALSE,1720,1731,1699,1752,-21
+,,,2009-03-28,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,1,draw,Port of Spain,Trinidad and Tobago,FALSE,1699,1572,1697,1574,-2
+,,,2009-04-01,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1697,1826,1729,1794,32
+,,,2009-06-06,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Chicago,United States,FALSE,1729,1799,1718,1810,-11
+,,,2009-06-10,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1718,1537,1725,1530,7
+,,,2009-06-28,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,0,win,Cary,United States,TRUE,1725,1575,1734,1566,9
+,,,2009-07-04,Gold Cup,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,Seattle,United States,TRUE,1734,1398,1740,1392,6
+,,,2009-07-08,Gold Cup,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,"Washington, D.C.",United States,FALSE,1740,1872,1724,1888,-16
+,,,2009-07-11,Gold Cup,played,Honduras,HND,HND,CONCACAF,Grenada,,,,TRUE,4,0,win,Foxborough,United States,TRUE,1724,1257,1730,1251,6
+,,,2009-07-18,Gold Cup,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,0,win,Philadelphia,United States,TRUE,1730,1648,1749,1629,19
+,,,2009-07-23,Gold Cup,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Chicago,United States,FALSE,1749,1869,1733,1885,-16
+,,,2009-08-12,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1733,1771,1764,1740,31
+,,,2009-09-05,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,4,1,win,San Pedro Sula,Honduras,FALSE,1764,1562,1774,1552,10
+,,,2009-09-09,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1774,1906,1766,1914,-8
+,,,2009-10-10,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,TRUE,2,3,loss,San Pedro Sula,Honduras,FALSE,1766,1813,1743,1836,-23
+,,,2009-10-14,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,0,win,San Salvador,El Salvador,FALSE,1743,1527,1757,1513,14
+,,,2009-11-14,Friendly,played,Honduras,HND,HND,CONCACAF,Latvia,,,,TRUE,2,1,win,Tegucigalpa,Honduras,FALSE,1757,1572,1760,1569,3
+,,,2009-11-18,Friendly,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,1,2,loss,Miami Gardens,United States,TRUE,1760,1572,1745,1587,-15
+,,,2010-01-23,Friendly,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,3,1,win,Carson,United States,FALSE,1745,1801,1766,1780,21
+,,,2010-03-03,Friendly,played,Honduras,HND,HND,CONCACAF,Turkey,TUR,TUR,UEFA,FALSE,0,2,loss,Istanbul,Turkey,FALSE,1766,1784,1756,1794,-10
+,,,2010-04-21,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1756,1714,1742,1728,-14
+,,,2010-05-27,Friendly,played,Honduras,HND,HND,CONCACAF,Belarus,,,,FALSE,2,2,draw,Villach,Austria,TRUE,1742,1588,1738,1592,-4
+,,,2010-06-02,Friendly,played,Honduras,HND,HND,CONCACAF,Azerbaijan,,,,FALSE,0,0,draw,Zell am See,Austria,TRUE,1738,1436,1731,1443,-7
+,,,2010-06-05,Friendly,played,Honduras,HND,HND,CONCACAF,Romania,ROU,ROU,UEFA,FALSE,0,3,loss,Sankt Veit an der Glan,Austria,TRUE,1731,1732,1714,1749,-17
+WC-2010,WC-2010_015,15,2010-06-16,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,0,1,loss,Nelspruit,South Africa,TRUE,1714,1886,1698,1902,-16
+WC-2010,WC-2010_032,32,2010-06-21,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Johannesburg,South Africa,TRUE,1698,2058,1688,2068,-10
+WC-2010,WC-2010_048,48,2010-06-25,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,Bloemfontein,South Africa,TRUE,1688,1791,1697,1782,9
+,,,2010-09-04,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,2,draw,Los Angeles,United States,TRUE,1697,1498,1689,1506,-8
+,,,2010-09-07,Friendly,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,2,loss,Montreal,Canada,FALSE,1689,1582,1679,1592,-10
+,,,2010-10-09,Friendly,played,Honduras,HND,HND,CONCACAF,New Zealand,NZL,NZL,OFC,FALSE,1,1,draw,North Shore,New Zealand,FALSE,1679,1581,1679,1581,0
+,,,2010-10-12,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,2,0,win,Los Angeles,United States,TRUE,1679,1450,1685,1444,6
+,,,2010-11-17,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,2,loss,Panama City,Panama,FALSE,1685,1576,1670,1591,-15
+,,,2010-12-18,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1670,1591,1675,1586,5
+,,,2010-12-28,Friendly,played,Honduras,HND,HND,CONCACAF,Catalonia,,,,FALSE,0,4,loss,Barcelona,Spain,FALSE,,,,,
+,,,2011-01-14,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,Panama City,Panama,TRUE,1675,1668,1675,1668,0
+,,,2011-01-18,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,3,1,win,Panama City,Panama,TRUE,1675,1443,1687,1431,12
+,,,2011-01-21,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,Panama City,Panama,TRUE,1687,1477,1701,1463,14
+,,,2011-01-23,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,Panama City,Panama,TRUE,1701,1683,1720,1664,19
+,,,2011-02-09,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,1,draw,La Ceiba,Honduras,FALSE,1720,1727,1717,1730,-3
+,,,2011-03-25,Friendly,played,Honduras,HND,HND,CONCACAF,South Korea,KOR,KOR,AFC,FALSE,0,4,loss,Seoul,South Korea,FALSE,1717,1793,1707,1803,-10
+,,,2011-03-29,Friendly,played,Honduras,HND,HND,CONCACAF,China PR,,,,FALSE,0,3,loss,Wuhan,China PR,FALSE,,,,,
+,,,2011-05-29,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,2,draw,Houston,United States,TRUE,1690,1485,1685,1490,-5
+,,,2011-06-06,Gold Cup,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Carson,United States,TRUE,1685,1428,1669,1444,-16
+,,,2011-06-10,Gold Cup,played,Honduras,HND,HND,CONCACAF,Grenada,,,,FALSE,7,1,win,Miami,United States,TRUE,1669,1267,1679,1257,10
+,,,2011-06-13,Gold Cup,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,1,loss,Harrison,United States,TRUE,1679,1673,1654,1698,-25
+,,,2011-06-18,Gold Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,East Rutherford,United States,TRUE,1654,1658,1654,1658,0
+,,,2011-06-22,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,Houston,United States,TRUE,1654,1906,1640,1920,-14
+,,,2011-08-10,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,TRUE,2,0,win,Fort Lauderdale,United States,TRUE,1640,1736,1659,1717,19
+,,,2011-09-03,Friendly,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,0,2,loss,Harrison,United States,TRUE,1659,1763,1648,1774,-11
+,,,2011-09-06,Friendly,played,Honduras,HND,HND,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,3,loss,San Pedro Sula,Honduras,FALSE,1648,1798,1633,1813,-15
+,,,2011-10-08,Friendly,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Miami Gardens,United States,FALSE,1633,1713,1628,1718,-5
+,,,2011-10-11,Friendly,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,1,win,La Ceiba,Honduras,FALSE,1628,1646,1636,1638,8
+,,,2011-11-14,Friendly,played,Honduras,HND,HND,CONCACAF,Serbia,SRB,SRB,UEFA,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1636,1734,1651,1719,15
+,,,2012-02-29,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,2,loss,Guayaquil,Ecuador,FALSE,1651,1778,1645,1784,-6
+,,,2012-04-11,Friendly,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,FALSE,1645,1677,1649,1673,4
+,,,2012-05-26,Friendly,played,Honduras,HND,HND,CONCACAF,New Zealand,NZL,NZL,OFC,TRUE,0,1,loss,Dallas,United States,TRUE,1649,1553,1636,1566,-13
+,,,2012-06-02,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,3,0,win,"Washington, D.C.",United States,TRUE,1636,1576,1651,1561,15
+,,,2012-06-08,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1651,1674,1614,1711,-37
+,,,2012-06-12,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,0,draw,Toronto,Canada,FALSE,1614,1593,1618,1589,4
+,,,2012-09-07,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,3,0,win,Havana,Cuba,FALSE,1618,1364,1638,1344,20
+,,,2012-09-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1638,1344,1642,1340,4
+,,,2012-10-12,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,0,draw,Panama City,Panama,FALSE,1642,1706,1651,1697,9
+,,,2012-10-16,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,8,1,win,San Pedro Sula,Honduras,FALSE,1651,1612,1679,1584,28
+,,,2012-11-14,Friendly,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,0,0,draw,Houston,United States,TRUE,1679,1710,1680,1709,1
+,,,2013-01-18,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,1,draw,San José,Costa Rica,TRUE,1680,1535,1672,1543,-8
+,,,2013-01-22,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,TRUE,1672,1685,1673,1684,1
+,,,2013-01-25,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Belize,,,,TRUE,1,0,win,San José,Costa Rica,TRUE,1673,1168,1675,1166,2
+,,,2013-01-27,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,FALSE,1675,1666,1660,1681,-15
+,,,2013-02-06,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1660,1762,1680,1742,20
+,,,2013-03-22,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,2,draw,San Pedro Sula,Honduras,FALSE,1680,1898,1687,1891,7
+,,,2013-03-26,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,2,loss,Panama City,Panama,FALSE,1687,1692,1666,1713,-21
+,,,2013-06-02,Friendly,played,Honduras,HND,HND,CONCACAF,Israel,ISR,ISR,UEFA,TRUE,0,2,loss,New York,United States,TRUE,1666,1656,1651,1671,-15
+,,,2013-06-07,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,FALSE,1651,1699,1639,1711,-12
+,,,2013-06-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1639,1539,1653,1525,14
+,,,2013-06-18,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Sandy,United States,FALSE,1653,1795,1645,1803,-8
+,,,2013-07-08,Gold Cup,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,0,win,Harrison,United States,TRUE,1645,1434,1662,1417,17
+,,,2013-07-12,Gold Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Miami Gardens,United States,TRUE,1662,1526,1678,1510,16
+,,,2013-07-15,Gold Cup,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,2,loss,Houston,United States,TRUE,1678,1381,1614,1445,-64
+,,,2013-07-21,Gold Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Baltimore,United States,TRUE,1614,1743,1648,1709,34
+,,,2013-07-24,Gold Cup,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,3,loss,Arlington,United States,FALSE,1648,1836,1636,1848,-12
+,,,2013-09-06,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,2,1,win,Mexico City,Mexico,FALSE,1636,1821,1670,1787,34
+,,,2013-09-10,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,2,draw,Tegucigalpa,Honduras,FALSE,1670,1727,1668,1729,-2
+,,,2013-10-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1668,1743,1687,1724,19
+,,,2013-10-15,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,2,2,draw,Kingston,Jamaica,FALSE,1687,1540,1684,1543,-3
+,,,2013-11-16,Friendly,played,Honduras,HND,HND,CONCACAF,Brazil,BRA,BRA,CONMEBOL,TRUE,0,5,loss,Miami Gardens,United States,TRUE,1684,2124,1681,2127,-3
+,,,2013-11-19,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,2,2,draw,Houston,United States,TRUE,1681,1840,1685,1836,4
+,,,2014-06-01,Friendly,played,Honduras,HND,HND,CONCACAF,Israel,ISR,ISR,UEFA,TRUE,2,4,loss,Houston,United States,TRUE,1680,1614,1662,1632,-18
+,,,2014-06-07,Friendly,played,Honduras,HND,HND,CONCACAF,England,ENG,ENG,UEFA,TRUE,0,0,draw,Miami Gardens,United States,TRUE,1662,1938,1669,1931,7
+WC-2014,WC-2014_010,10,2014-06-15,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,France,FRA,FRA,UEFA,FALSE,0,3,loss,Porto Alegre,Brazil,TRUE,1669,1897,1647,1919,-22
+WC-2014,WC-2014_024,24,2014-06-20,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,2,loss,Curitiba,Brazil,TRUE,1647,1808,1630,1825,-17
+WC-2014,WC-2014_043,43,2014-06-25,FIFA World Cup,played,Honduras,HND,HND,CONCACAF,Switzerland,CHE,CHE,UEFA,TRUE,0,3,loss,Manaus,Brazil,TRUE,1630,1835,1605,1860,-25
+,,,2014-10-14,Friendly,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Boca Raton,United States,FALSE,1548,1843,1556,1835,8
+,,,2014-11-14,Friendly,played,Honduras,HND,HND,CONCACAF,Japan,JPN,JPN,AFC,FALSE,0,6,loss,Toyota,Japan,FALSE,1556,1714,1548,1722,-8
+,,,2014-11-18,Friendly,played,Honduras,HND,HND,CONCACAF,China PR,,,,FALSE,0,0,draw,Xi'an,China PR,FALSE,,,,,
+,,,2015-02-04,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,TRUE,2,3,loss,San Pedro Sula,Honduras,FALSE,1551,1674,1542,1683,-9
+,,,2015-03-25,Gold Cup qualification,played,Honduras,HND,HND,CONCACAF,French Guiana,,,,FALSE,1,3,loss,Cayenne,French Guiana,FALSE,1538,1270,1495,1313,-43
+,,,2015-03-29,Gold Cup qualification,played,Honduras,HND,HND,CONCACAF,French Guiana,,,,TRUE,3,0,win,San Pedro Sula,Honduras,FALSE,1495,1313,1507,1301,12
+,,,2015-05-31,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1507,1506,1522,1491,15
+,,,2015-06-06,Friendly,played,Honduras,HND,HND,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,FALSE,2,2,draw,Asunción,Paraguay,FALSE,1522,1686,1528,1680,6
+,,,2015-06-10,Friendly,played,Honduras,HND,HND,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Porto Alegre,Brazil,FALSE,1528,2069,1528,2069,0
+,,,2015-07-01,Friendly,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,0,draw,Houston,United States,TRUE,1528,1850,1535,1843,7
+,,,2015-07-07,Gold Cup,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Frisco,United States,FALSE,1535,1862,1531,1866,-4
+,,,2015-07-10,Gold Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Foxborough,United States,TRUE,1531,1699,1542,1688,11
+,,,2015-07-13,Gold Cup,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Kansas City,United States,TRUE,1542,1454,1511,1485,-31
+,,,2015-09-04,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,FALSE,3,0,win,Puerto Ordaz,Venezuela,FALSE,1511,1699,1540,1670,29
+,,,2015-09-08,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,2,loss,Quito,Ecuador,FALSE,1540,1819,1537,1822,-3
+,,,2015-11-13,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,1,loss,Vancouver,Canada,FALSE,1529,1510,1514,1525,-15
+,,,2015-11-17,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1514,1896,1504,1906,-10
+,,,2015-12-16,Friendly,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,2,0,win,Juticalpa,Honduras,FALSE,1504,1344,1509,1339,5
+,,,2016-03-25,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,2,draw,San Salvador,El Salvador,FALSE,1505,1461,1508,1458,3
+,,,2016-03-29,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1508,1458,1526,1440,18
+,,,2016-08-24,Friendly,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1525,1260,1527,1258,2
+,,,2016-09-02,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1527,1521,1541,1507,14
+,,,2016-09-06,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1541,1913,1559,1895,18
+,,,2016-10-08,Friendly,played,Honduras,HND,HND,CONCACAF,Belize,,,,FALSE,2,1,win,Belmopan,Belize,FALSE,1559,1187,1562,1184,3
+,,,2016-11-11,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1564,1660,1544,1680,-20
+,,,2016-11-15,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,1,win,San Pedro Sula,Honduras,FALSE,1544,1511,1563,1492,19
+,,,2017-01-13,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,2,1,win,Panama City,Panama,TRUE,1563,1260,1569,1254,6
+,,,2017-01-15,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,1,win,Panama City,Panama,TRUE,1569,1417,1581,1405,12
+,,,2017-01-22,UNCAF Cup,played,Honduras,HND,HND,CONCACAF,Belize,,,,FALSE,1,0,win,Panama City,Panama,TRUE,1622,1162,1625,1159,3
+,,,2017-02-22,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,3,loss,Guayaquil,Ecuador,FALSE,1612,1850,1608,1854,-4
+,,,2017-03-16,Friendly,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1608,1281,1610,1279,2
+,,,2017-03-24,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,6,loss,San Jose,United States,FALSE,1610,1735,1592,1753,-18
+,,,2017-03-28,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1592,1772,1597,1767,5
+,,,2017-05-28,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,2,2,draw,"Washington, D.C.",United States,TRUE,,,,,
+,,,2017-06-08,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1592,1930,1587,1935,-5
+,,,2017-06-13,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,2,draw,Panama City,Panama,FALSE,1587,1654,1596,1645,9
+,,,2017-07-07,Gold Cup,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Harrison,United States,TRUE,1596,1759,1582,1773,-14
+,,,2017-07-11,Gold Cup,played,Honduras,HND,HND,CONCACAF,French Guiana,,,,TRUE,0,0,draw,Houston,United States,TRUE,1582,1369,1568,1383,-14
+,,,2017-07-14,Gold Cup,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,0,draw,Frisco,United States,TRUE,1568,1549,1567,1550,-1
+,,,2017-07-20,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Glendale,United States,TRUE,1567,1883,1560,1890,-7
+,,,2017-09-01,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,1,win,Couva,Trinidad and Tobago,FALSE,1560,1429,1578,1411,18
+,,,2017-09-05,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,1,draw,San Pedro Sula,Honduras,FALSE,1578,1762,1583,1757,5
+,,,2017-10-07,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,FALSE,1583,1796,1597,1782,14
+,,,2017-10-10,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,3,2,win,San Pedro Sula,Honduras,FALSE,1597,1858,1626,1829,29
+,,,2017-11-10,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Australia,AUS,AUS,AFC,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1626,1713,1625,1714,-1
+,,,2017-11-15,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Australia,AUS,AUS,AFC,FALSE,1,3,loss,Sydney,Australia,FALSE,1625,1714,1610,1729,-15
+,,,2018-05-28,Friendly,played,Honduras,HND,HND,CONCACAF,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Daegu,South Korea,FALSE,1610,1744,1604,1750,-6
+,,,2018-06-02,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,1,loss,Houston,United States,TRUE,1604,1455,1590,1469,-14
+,,,2018-10-11,Friendly,played,Honduras,HND,HND,CONCACAF,United Arab Emirates,ARE,ARE,AFC,TRUE,1,1,draw,Barcelona,Spain,TRUE,1590,1506,1588,1508,-2
+,,,2018-11-16,Friendly,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,FALSE,1588,1579,1595,1572,7
+,,,2018-11-20,Friendly,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,FALSE,1,4,loss,Temuco,Chile,FALSE,1595,1847,1591,1851,-4
+,,,2019-03-26,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,Harrison,United States,TRUE,1591,1765,1596,1760,5
+,,,2019-06-05,Friendly,played,Honduras,HND,HND,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,1,draw,Ciudad del Este,Paraguay,FALSE,1596,1705,1601,1700,5
+,,,2019-06-09,Friendly,played,Honduras,HND,HND,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,0,7,loss,Porto Alegre,Brazil,FALSE,1601,2133,1600,2134,-1
+,,,2019-06-17,Gold Cup,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,2,3,loss,Kingston,Jamaica,FALSE,1600,1552,1579,1573,-21
+,,,2019-06-21,Gold Cup,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,TRUE,0,1,loss,Houston,United States,TRUE,1579,1317,1538,1358,-41
+,,,2019-06-25,Gold Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,4,0,win,Los Angeles,United States,TRUE,1538,1546,1586,1498,48
+,,,2019-09-05,Friendly,played,Honduras,HND,HND,CONCACAF,Puerto Rico,,,,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1586,975,1587,974,1
+,,,2019-09-10,Friendly,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1587,1813,1600,1800,13
+,,,2019-10-10,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,0,win,Port of Spain,Trinidad and Tobago,FALSE,1600,1375,1620,1355,20
+,,,2019-10-13,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Martinique,,,,TRUE,1,0,win,San Pedro Sula,Honduras,FALSE,1620,1448,1627,1441,7
+,,,2019-11-14,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Martinique,,,,FALSE,1,1,draw,Fort-de-France,Martinique,FALSE,1627,1441,1622,1446,-5
+,,,2019-11-17,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,4,0,win,San Pedro Sula,Honduras,FALSE,1622,1352,1630,1344,8
+,,,2020-10-10,Friendly,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,1,1,draw,Comayagua,Honduras,FALSE,1630,1199,1621,1208,-9
+,,,2020-11-15,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,1,2,loss,Guatemala City,Guatemala,FALSE,1621,1475,1610,1486,-11
+,,,2021-03-24,Friendly,played,Honduras,HND,HND,CONCACAF,Belarus,,,,FALSE,1,1,draw,Zhodzina,Belarus,FALSE,1610,1496,1610,1496,0
+,,,2021-03-28,Friendly,played,Honduras,HND,HND,CONCACAF,Greece,GRC,GRC,UEFA,FALSE,1,2,loss,Thessaloniki,Greece,FALSE,1610,1644,1604,1650,-6
+,,,2021-06-03,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Denver,United States,FALSE,1604,1761,1597,1768,-7
+,,,2021-06-06,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,2,draw,Denver,United States,TRUE,1597,1635,1599,1633,2
+,,,2021-06-12,Friendly,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Atlanta,United States,TRUE,1599,1888,1606,1881,7
+,,,2021-07-13,Gold Cup,played,Honduras,HND,HND,CONCACAF,Grenada,,,,TRUE,4,0,win,Houston,United States,TRUE,1606,1153,1612,1147,6
+,,,2021-07-17,Gold Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,3,2,win,Houston,United States,TRUE,1612,1556,1633,1535,21
+,,,2021-07-20,Gold Cup,played,Honduras,HND,HND,CONCACAF,Qatar,QAT,QAT,AFC,TRUE,0,2,loss,Houston,United States,TRUE,1633,1657,1598,1692,-35
+,,,2021-07-24,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Glendale,United States,TRUE,1598,1886,1584,1900,-14
+,,,2021-09-02,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,1,draw,Toronto,Canada,FALSE,1584,1723,1596,1711,12
+,,,2021-09-05,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,0,draw,San Salvador,El Salvador,FALSE,1596,1547,1599,1544,3
+,,,2021-09-08,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,4,loss,San Pedro Sula,Honduras,FALSE,1599,1838,1577,1860,-22
+,,,2021-10-07,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1577,1607,1573,1611,-4
+,,,2021-10-10,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1573,1881,1567,1887,-6
+,,,2021-10-13,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1567,1534,1526,1575,-41
+,,,2021-11-12,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,3,loss,San Pedro Sula,Honduras,FALSE,1526,1595,1504,1617,-22
+,,,2021-11-16,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,San José,Costa Rica,FALSE,1504,1608,1495,1617,-9
+,,,2022-01-16,Friendly,played,Honduras,HND,HND,CONCACAF,Colombia,COL,COL,CONMEBOL,FALSE,1,2,loss,Fort Lauderdale,United States,TRUE,1495,1904,1493,1906,-2
+,,,2022-01-27,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1493,1784,1478,1799,-15
+,,,2022-01-30,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,2,loss,San Pedro Sula,Honduras,FALSE,1478,1495,1441,1532,-37
+,,,2022-02-02,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,3,loss,Saint Paul,United States,FALSE,1441,1834,1437,1838,-4
+,,,2022-03-24,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,Panama City,Panama,FALSE,1437,1624,1451,1610,14
+,,,2022-03-27,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,San Pedro Sula,Honduras,FALSE,1451,1836,1445,1842,-6
+,,,2022-03-30,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,2,loss,Kingston,Jamaica,FALSE,1445,1524,1434,1535,-11
+,,,2022-06-03,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,FALSE,1,0,win,Willemstad,Curaçao,FALSE,1434,1404,1458,1380,24
+,,,2022-06-06,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,TRUE,1,2,loss,San Pedro Sula,Honduras,FALSE,1458,1380,1429,1409,-29
+,,,2022-06-13,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,1,win,San Pedro Sula,Honduras,FALSE,1429,1801,1462,1768,33
+,,,2022-09-23,Friendly,played,Honduras,HND,HND,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,0,3,loss,Miami Gardens,United States,TRUE,1462,2139,1461,2140,-1
+,,,2022-09-27,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,2,1,win,Houston,United States,TRUE,1461,1459,1471,1449,10
+,,,2022-10-27,Friendly,played,Honduras,HND,HND,CONCACAF,Qatar,QAT,QAT,AFC,FALSE,0,1,loss,Marbella,Spain,TRUE,1471,1659,1466,1664,-5
+,,,2022-10-30,Friendly,played,Honduras,HND,HND,CONCACAF,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Abu Dhabi,United Arab Emirates,TRUE,1466,1638,1471,1633,5
+,,,2023-03-22,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,1,0,win,Los Angeles,United States,TRUE,1471,1482,1481,1472,10
+,,,2023-03-28,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,4,loss,Toronto,Canada,FALSE,1481,1723,1472,1732,-9
+,,,2023-06-15,Friendly,played,Honduras,HND,HND,CONCACAF,Venezuela,,,,TRUE,0,1,loss,"Washington, D.C.",United States,TRUE,1472,1692,1468,1696,-4
+,,,2023-06-25,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,4,loss,Houston,United States,TRUE,1468,1790,1455,1803,-13
+,,,2023-06-29,Gold Cup,played,Honduras,HND,HND,CONCACAF,Qatar,QAT,QAT,AFC,FALSE,1,1,draw,Glendale,United States,TRUE,1455,1519,1460,1514,5
+,,,2023-07-02,Gold Cup,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,1,win,Charlotte,United States,TRUE,1460,1554,1492,1522,32
+,,,2023-09-03,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,FALSE,0,0,draw,Fort Lauderdale,United States,TRUE,1492,1497,1492,1497,0
+,,,2023-09-08,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1492,1584,1482,1594,-10
+,,,2023-09-12,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Grenada,,,,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1482,1119,1487,1114,5
+,,,2023-10-12,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,0,draw,Santo Domingo,Dominican Republic,TRUE,1487,1295,1477,1305,-10
+,,,2023-10-15,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1477,1305,1490,1292,13
+,,,2023-11-17,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1490,1840,1538,1792,48
+,,,2023-11-21,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1538,1792,1531,1799,-7
+,,,2024-01-17,Friendly,played,Honduras,HND,HND,CONCACAF,Iceland,ISL,ISL,UEFA,TRUE,0,2,loss,Fort Lauderdale,United States,TRUE,1531,1489,1514,1506,-17
+,,,2024-03-23,Copa América qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,3,loss,Frisco,United States,TRUE,1514,1581,1490,1605,-24
+,,,2024-03-26,Friendly,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,1,draw,Los Angeles,United States,TRUE,1490,1393,1487,1396,-3
+,,,2024-06-06,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,3,1,win,Tegucigalpa,Honduras,FALSE,1487,1304,1497,1294,10
+,,,2024-06-09,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Bermuda,,,,FALSE,6,1,win,Hamilton,Bermuda,FALSE,1497,1138,1512,1123,15
+,,,2024-06-16,Friendly,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,2,loss,Hartford,United States,TRUE,1512,1874,1510,1876,-2
+,,,2024-09-06,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,4,0,win,Tegucigalpa,Honduras,FALSE,1510,1413,1528,1395,18
+,,,2024-09-10,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,1,2,loss,Tegucigalpa,Honduras,FALSE,1528,1572,1505,1595,-23
+,,,2024-10-10,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,French Guiana,,,,FALSE,3,2,win,Cayenne,French Guiana,FALSE,1505,1279,1518,1266,13
+,,,2024-10-14,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1518,1615,1528,1605,10
+,,,2024-11-15,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,0,win,San Pedro Sula,Honduras,FALSE,1528,1801,1572,1757,44
+,,,2024-11-19,CONCACAF Nations League,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,4,loss,Toluca,Mexico,FALSE,1572,1757,1560,1769,-12
+,,,2025-03-16,Friendly,played,Honduras,HND,HND,CONCACAF,Guatemala,,,,TRUE,1,2,loss,Fort Lauderdale,United States,TRUE,1560,1507,1548,1519,-12
+,,,2025-03-21,Gold Cup qualification,played,Honduras,HND,HND,CONCACAF,Bermuda,,,,FALSE,5,3,win,Hamilton,Bermuda,FALSE,1548,1141,1557,1132,9
+,,,2025-03-25,Gold Cup qualification,played,Honduras,HND,HND,CONCACAF,Bermuda,,,,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1557,1132,1560,1129,3
+,,,2025-06-07,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Cayman Islands,,,,FALSE,1,0,win,George Town,Cayman Islands,FALSE,1560,821,1561,820,1
+,,,2025-06-10,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Antigua and Barbuda,,,,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1561,909,1562,908,1
+,,,2025-06-17,Gold Cup,played,Honduras,HND,HND,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,6,loss,Vancouver,Canada,FALSE,1562,1785,1548,1799,-14
+,,,2025-06-21,Gold Cup,played,Honduras,HND,HND,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,Houston,United States,TRUE,1548,1388,1569,1367,21
+,,,2025-06-24,Gold Cup,played,Honduras,HND,HND,CONCACAF,Curaçao,,,,TRUE,2,1,win,San Jose,United States,TRUE,1569,1410,1583,1396,14
+,,,2025-06-28,Gold Cup,played,Honduras,HND,HND,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,Glendale,United States,TRUE,1583,1773,1595,1761,12
+,,,2025-07-02,Gold Cup,played,Honduras,HND,HND,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Santa Clara,United States,TRUE,1595,1827,1585,1837,-10
+,,,2025-09-05,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Willemstad,Curaçao,TRUE,1585,1467,1578,1474,-7
+,,,2025-09-09,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,TRUE,2,0,win,Tegucigalpa,Honduras,FALSE,1578,1338,1585,1331,7
+,,,2025-10-09,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,San Pedro Sula,Honduras,FALSE,1585,1665,1584,1666,-1
+,,,2025-10-13,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,0,win,Tegucigalpa,Honduras,FALSE,1584,1517,1603,1498,19
+,,,2025-11-13,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Nicaragua,,,,FALSE,0,2,loss,Managua,Nicaragua,FALSE,1603,1297,1557,1343,-46
+,,,2025-11-18,FIFA World Cup qualification,played,Honduras,HND,HND,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,0,draw,San José,Costa Rica,FALSE,1557,1642,1567,1632,10
+,,,2026-03-31,Friendly,played,Honduras,HND,HND,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,2,2,draw,Madrid,Spain,TRUE,1567,1699,1571,1695,4

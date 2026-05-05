@@ -1,725 +1,725 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1876-03-25,Friendly,played,Wales,WAL,Scotland,SCO,FALSE,0,4,loss,Glasgow,Scotland,FALSE,1500,2010,1499,2011,-1
-1877-03-05,Friendly,played,Wales,WAL,Scotland,SCO,TRUE,0,2,loss,Wrexham,Wales,FALSE,1499,2029,1497,2031,-2
-1878-03-23,Friendly,played,Wales,WAL,Scotland,SCO,FALSE,0,9,loss,Glasgow,Scotland,FALSE,1497,2042,1496,2043,-1
-1879-01-18,Friendly,played,Wales,WAL,England,ENG,FALSE,1,2,loss,London,England,FALSE,1496,1961,1495,1962,-1
-1879-04-07,Friendly,played,Wales,WAL,Scotland,SCO,TRUE,0,3,loss,Wrexham,Wales,FALSE,1495,2034,1492,2037,-3
-1880-03-15,Friendly,played,Wales,WAL,England,ENG,TRUE,2,3,loss,Wrexham,Wales,FALSE,1492,1965,1490,1967,-2
-1880-03-27,Friendly,played,Wales,WAL,Scotland,SCO,FALSE,1,5,loss,Glasgow,Scotland,FALSE,1490,2043,1489,2044,-1
-1881-02-26,Friendly,played,Wales,WAL,England,ENG,FALSE,1,0,win,Blackburn,England,FALSE,1489,1967,1508,1948,19
-1881-03-14,Friendly,played,Wales,WAL,Scotland,SCO,TRUE,1,5,loss,Wrexham,Wales,FALSE,1508,2064,1505,2067,-3
-1882-02-25,Friendly,played,Wales,WAL,Northern Ireland,NIR,TRUE,7,1,win,Wrexham,Wales,FALSE,1505,1297,1511,1291,6
-1882-03-13,Friendly,played,Wales,WAL,England,ENG,TRUE,5,3,win,Wrexham,Wales,FALSE,1511,1923,1537,1897,26
-1882-03-25,Friendly,played,Wales,WAL,Scotland,SCO,FALSE,0,5,loss,Glasgow,Scotland,FALSE,1537,2075,1536,2076,-1
-1883-02-03,Friendly,played,Wales,WAL,England,ENG,FALSE,0,5,loss,London,England,FALSE,1536,1897,1533,1900,-3
-1883-03-12,Friendly,played,Wales,WAL,Scotland,SCO,TRUE,0,3,loss,Wrexham,Wales,FALSE,1533,2084,1531,2086,-2
-1883-03-17,Friendly,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Ireland,FALSE,1531,1290,1527,1294,-4
-1884-02-09,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,6,0,win,Wrexham,Wales,FALSE,1527,1293,1538,1282,11
-1884-03-17,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,4,loss,Wrexham,Wales,FALSE,1538,1892,1524,1906,-14
-1884-03-29,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,4,loss,Glasgow,Scotland,FALSE,1524,2093,1523,2094,-1
-1885-03-14,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,1,draw,Blackburn,England,FALSE,1523,1907,1541,1889,18
-1885-03-23,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,8,loss,Wrexham,Wales,FALSE,1541,2088,1535,2094,-6
-1885-04-11,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,8,2,win,Belfast,Ireland,FALSE,1535,1276,1559,1252,24
-1886-02-27,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,5,0,win,Wrexham,Wales,FALSE,1559,1252,1566,1245,7
-1886-03-29,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,3,loss,Wrexham,Wales,FALSE,1566,1912,1554,1924,-12
-1886-04-10,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,4,loss,Glasgow,Scotland,FALSE,1554,2081,1552,2083,-2
-1887-02-26,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,4,loss,London,England,FALSE,1552,1925,1547,1930,-5
-1887-03-12,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,4,loss,Belfast,Ireland,FALSE,1547,1240,1493,1294,-54
-1887-03-21,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,2,loss,Wrexham,Wales,FALSE,1493,2100,1490,2103,-3
-1888-02-04,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,5,loss,Crewe,England,FALSE,1490,1913,1486,1917,-4
-1888-03-03,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,11,0,win,Wrexham,Wales,FALSE,1486,1294,1503,1277,17
-1888-03-10,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,5,loss,Edinburgh,Scotland,FALSE,1503,2103,1502,2104,-1
-1889-02-23,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,4,loss,Stoke-on-Trent,England,FALSE,1502,1986,1500,1988,-2
-1889-04-15,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,0,draw,Wrexham,Wales,FALSE,1500,2063,1517,2046,17
-1889-04-27,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,3,1,win,Belfast,Ireland,FALSE,1517,1271,1535,1253,18
-1890-02-08,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,5,2,win,Shrewsbury,England,TRUE,1535,1253,1547,1241,12
-1890-03-15,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,3,loss,Wrexham,Wales,FALSE,1547,1969,1539,1977,-8
-1890-03-22,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,5,loss,Paisley,Scotland,FALSE,1539,2046,1537,2048,-2
-1891-02-07,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,7,loss,Belfast,Ireland,FALSE,1537,1237,1476,1298,-61
-1891-03-07,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,4,loss,Sunderland,England,FALSE,1476,1986,1474,1988,-2
-1891-03-21,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,3,4,loss,Wrexham,Wales,FALSE,1474,2040,1471,2043,-3
-1892-02-27,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,1,draw,Bangor,Wales,FALSE,1471,1297,1458,1310,-13
-1892-03-05,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,2,loss,Wrexham,Wales,FALSE,1458,2008,1454,2012,-4
-1892-03-26,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,6,loss,Edinburgh,Scotland,FALSE,1454,2027,1452,2029,-2
-1893-03-13,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,6,loss,Stoke-on-Trent,England,FALSE,1452,2059,1451,2060,-1
-1893-03-18,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,8,loss,Wrexham,Wales,FALSE,1451,1983,1444,1990,-7
-1894-02-24,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,4,1,win,Swansea,Wales,FALSE,1422,1327,1439,1310,17
-1894-03-12,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,5,loss,Wrexham,Wales,FALSE,1439,2060,1435,2064,-4
-1894-03-24,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,5,loss,Kilmarnock,Scotland,FALSE,1435,1972,1433,1974,-2
-1895-03-16,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,2,draw,Belfast,Ireland,FALSE,1433,1326,1433,1326,0
-1895-03-18,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,1,draw,London,England,FALSE,1433,2066,1452,2047,19
-1895-03-23,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,2,draw,Wrexham,Wales,FALSE,1452,1975,1469,1958,17
-1896-02-29,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,6,1,win,Wrexham,Wales,FALSE,1469,1325,1485,1309,16
-1896-03-16,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,9,loss,Cardiff,Wales,FALSE,1485,2066,1479,2072,-6
-1896-03-21,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,4,loss,Dundee,Scotland,FALSE,1479,1941,1476,1944,-3
-1897-03-06,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,3,4,loss,Belfast,Ireland,FALSE,1476,1325,1453,1348,-23
-1897-03-20,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,2,draw,Wrexham,Wales,FALSE,1453,1949,1469,1933,16
-1897-03-29,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,4,loss,Sheffield,England,FALSE,1469,2050,1468,2051,-1
-1898-02-19,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,1,loss,Llandudno,Wales,FALSE,1468,1347,1437,1378,-31
-1898-03-19,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,5,loss,Motherwell,Scotland,FALSE,1437,1965,1435,1967,-2
-1898-03-28,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,3,loss,Wrexham,Wales,FALSE,1435,2022,1431,2026,-4
-1899-03-04,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Ireland,FALSE,1431,1371,1413,1389,-18
-1899-03-18,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,6,loss,Wrexham,Wales,FALSE,1413,1937,1406,1944,-7
-1899-03-20,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,4,loss,Bristol,England,FALSE,1406,2061,1405,2062,-1
-1900-02-03,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,5,loss,Aberdeen,Scotland,FALSE,1405,1937,1403,1939,-2
-1900-02-24,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,0,win,Llandudno,Wales,FALSE,1403,1387,1423,1367,20
-1900-03-26,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,1,draw,Cardiff,Wales,FALSE,1423,2073,1441,2055,18
-1901-03-02,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,1,draw,Wrexham,Wales,FALSE,1441,1981,1458,1964,17
-1901-03-18,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,6,loss,Newcastle,England,FALSE,1458,2020,1456,2022,-2
-1901-03-23,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Ireland,FALSE,1456,1358,1476,1338,20
-1902-02-22,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,3,loss,Cardiff,Wales,FALSE,1476,1338,1420,1394,-56
-1902-03-03,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,0,draw,Wrexham,Wales,FALSE,1420,2013,1438,1995,18
-1902-03-15,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,5,loss,Greenock,Scotland,FALSE,1438,1977,1436,1979,-2
-1903-03-02,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,2,loss,Portsmouth,England,FALSE,1436,1996,1435,1997,-1
-1903-03-09,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,1,loss,Cardiff,Wales,FALSE,1435,1983,1432,1986,-3
-1903-03-28,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Ireland,FALSE,1432,1444,1411,1465,-21
-1904-02-29,British Home Championship,played,Wales,WAL,England,ENG,TRUE,2,2,draw,Wrexham,Wales,FALSE,1411,1968,1428,1951,17
-1904-03-12,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,1,draw,Dundee,Scotland,FALSE,1428,1956,1447,1937,19
-1904-03-21,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,1,loss,Bangor,Wales,FALSE,1447,1459,1422,1484,-25
-1905-03-06,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,3,1,win,Wrexham,Wales,FALSE,1422,1898,1476,1844,54
-1905-03-27,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,3,loss,Liverpool,England,FALSE,1476,1962,1474,1964,-2
-1905-04-08,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,2,draw,Belfast,Ireland,FALSE,1474,1512,1482,1504,8
-1906-03-03,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,0,win,Edinburgh,Scotland,FALSE,1482,1841,1538,1785,56
-1906-03-19,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,1,loss,Cardiff,Wales,FALSE,1538,1982,1533,1987,-5
-1906-04-02,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,4,4,draw,Wrexham,Wales,FALSE,1533,1485,1525,1493,-8
-1907-02-23,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,3,2,win,Belfast,Ireland,FALSE,1525,1492,1549,1468,24
-1907-03-04,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,0,win,Wrexham,Wales,FALSE,1549,1820,1578,1791,29
-1907-03-18,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,1,draw,London,England,FALSE,1578,1974,1596,1956,18
-1908-03-07,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,2,loss,Dundee,Scotland,FALSE,1596,1810,1590,1816,-6
-1908-03-16,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,7,loss,Wrexham,Wales,FALSE,1590,1984,1577,1997,-13
-1908-04-11,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,1,loss,Aberdare,Wales,FALSE,1577,1442,1545,1474,-32
-1909-03-01,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,3,2,win,Wrexham,Wales,FALSE,1545,1835,1575,1805,30
-1909-03-15,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,2,loss,Nottingham,England,FALSE,1575,2149,1574,2150,-1
-1909-03-20,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,3,2,win,Belfast,Ireland,FALSE,1574,1467,1594,1447,20
-1910-03-05,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,1,loss,Kilmarnock,Scotland,FALSE,1594,1807,1588,1813,-6
-1910-03-14,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,1,loss,Cardiff,Wales,FALSE,1588,2188,1586,2190,-2
-1910-04-11,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,4,1,win,Wrexham,Wales,FALSE,1586,1498,1604,1480,18
-1911-01-28,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,1,win,Belfast,Ireland,FALSE,1604,1480,1623,1461,19
-1911-03-06,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,2,draw,Cardiff,Wales,FALSE,1623,1832,1629,1826,6
-1911-03-13,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,3,loss,London,England,FALSE,1629,2151,1627,2153,-2
-1912-03-02,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,1,loss,Edinburgh,Scotland,FALSE,1627,1847,1622,1852,-5
-1912-03-11,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,2,loss,Wrexham,Wales,FALSE,1622,2150,1617,2155,-5
-1912-04-13,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,3,loss,Cardiff,Wales,FALSE,1617,1443,1584,1476,-33
-1913-01-18,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Ireland,FALSE,1584,1476,1604,1456,20
-1913-03-03,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,0,draw,Wrexham,Wales,FALSE,1604,1873,1613,1864,9
-1913-03-17,British Home Championship,played,Wales,WAL,England,ENG,FALSE,3,4,loss,Bristol,England,FALSE,1613,2176,1612,2177,-1
-1914-01-19,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,2,loss,Wrexham,Wales,FALSE,1612,1488,1581,1519,-31
-1914-02-28,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1581,1867,1597,1851,16
-1914-03-16,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,2,loss,Cardiff,Wales,FALSE,1597,2115,1592,2120,-5
-1920-02-14,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,2,draw,Belfast,Ireland,FALSE,1609,1615,1615,1609,6
-1920-02-26,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,1,draw,Cardiff,Wales,FALSE,1615,1882,1624,1873,9
-1920-03-15,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,1,win,London,England,FALSE,1624,2020,1662,1982,38
-1921-02-12,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,2,loss,Aberdeen,Scotland,FALSE,1662,1872,1656,1878,-6
-1921-03-14,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,0,draw,Cardiff,Wales,FALSE,1656,1954,1666,1944,10
-1921-04-09,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,1,win,Swansea,Wales,FALSE,1666,1593,1677,1582,11
-1922-02-04,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,1,win,Wrexham,Wales,FALSE,1677,1925,1705,1897,28
-1922-03-13,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,1,loss,Liverpool,England,FALSE,1705,1926,1700,1931,-5
-1923-03-05,British Home Championship,played,Wales,WAL,England,ENG,TRUE,2,2,draw,Cardiff,Wales,FALSE,1706,1912,1712,1906,6
-1923-03-17,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,2,loss,Paisley,Scotland,FALSE,1712,1942,1704,1950,-8
-1923-04-14,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,3,loss,Wrexham,Wales,FALSE,1704,1665,1656,1713,-48
-1924-02-16,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,0,win,Cardiff,Wales,FALSE,1656,1943,1701,1898,45
-1924-03-03,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,1,win,Blackburn,England,FALSE,1701,1904,1735,1870,34
-1924-03-15,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1735,1728,1760,1703,25
-1925-02-14,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,3,loss,Edinburgh,Scotland,FALSE,1768,1912,1756,1924,-12
-1925-02-28,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,2,loss,Swansea,Wales,FALSE,1756,1902,1739,1919,-17
-1925-04-18,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,0,draw,Wrexham,Wales,FALSE,1739,1661,1730,1670,-9
-1925-10-31,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,3,loss,Cardiff,Wales,FALSE,1730,1965,1708,1987,-22
-1926-02-13,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1708,1679,1680,1707,-28
-1926-03-01,British Home Championship,played,Wales,WAL,England,ENG,FALSE,3,1,win,London,England,FALSE,1680,1925,1733,1872,53
-1926-10-30,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,3,loss,Glasgow,Scotland,FALSE,1733,2014,1726,2021,-7
-1927-02-12,British Home Championship,played,Wales,WAL,England,ENG,TRUE,3,3,draw,Wrexham,Wales,FALSE,1726,1855,1728,1853,2
-1927-04-09,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,2,draw,Cardiff,Wales,FALSE,1728,1698,1721,1705,-7
-1927-10-29,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,2,draw,Wrexham,Wales,FALSE,1721,2002,1731,1992,10
-1927-11-28,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,1,win,Burnley,England,FALSE,1731,1878,1763,1846,32
-1928-02-04,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,1,win,Belfast,Northern Ireland,FALSE,1763,1744,1788,1719,25
-1928-10-27,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,4,loss,Glasgow,Scotland,FALSE,1788,1992,1779,2001,-9
-1928-11-17,British Home Championship,played,Wales,WAL,England,ENG,TRUE,2,3,loss,Swansea,Wales,FALSE,1779,1846,1757,1868,-22
-1929-02-02,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,2,draw,Wrexham,Wales,FALSE,1757,1724,1750,1731,-7
-1929-10-26,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,4,loss,Cardiff,Wales,FALSE,1750,2039,1735,2054,-15
-1929-11-20,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,6,loss,London,England,FALSE,1735,1944,1723,1956,-12
-1930-02-01,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,7,loss,Belfast,Northern Ireland,FALSE,1723,1687,1686,1724,-37
-1930-10-25,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1686,2027,1703,2010,17
-1930-11-22,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,4,loss,Wrexham,Wales,FALSE,1703,1999,1685,2017,-18
-1931-04-22,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,3,2,win,Wrexham,Wales,FALSE,1685,1721,1701,1705,16
-1931-10-31,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,3,loss,Wrexham,Wales,FALSE,1701,1998,1691,2008,-10
-1931-11-18,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,3,loss,Liverpool,England,FALSE,1691,1991,1686,1996,-5
-1931-12-05,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,4,loss,Belfast,Northern Ireland,FALSE,1686,1679,1658,1707,-28
-1932-10-26,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,5,2,win,Edinburgh,Scotland,FALSE,1658,2008,1723,1943,65
-1932-11-16,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,0,draw,Wrexham,Wales,FALSE,1723,2035,1734,2024,11
-1932-12-07,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,4,1,win,Wrexham,Wales,FALSE,1734,1684,1755,1663,21
-1933-05-25,Friendly,played,Wales,WAL,France,FRA,FALSE,1,1,draw,Colombes,France,FALSE,1755,1605,1754,1606,-1
-1933-10-04,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,3,2,win,Cardiff,Wales,FALSE,1754,1926,1778,1902,24
-1933-11-04,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1778,1684,1778,1684,0
-1933-11-15,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,1,win,Newcastle,England,FALSE,1778,2036,1813,2001,35
-1934-09-29,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,4,loss,Cardiff,Wales,FALSE,1813,1995,1784,2024,-29
-1934-11-21,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,3,loss,Aberdeen,Scotland,FALSE,1784,1859,1773,1870,-11
-1935-03-27,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,3,1,win,Wrexham,Wales,FALSE,1773,1707,1790,1690,17
-1935-10-05,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,1,draw,Cardiff,Wales,FALSE,1790,1950,1793,1947,3
-1936-02-05,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,1,win,Wolverhampton,England,FALSE,1793,2012,1828,1977,35
-1936-03-11,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,3,loss,Belfast,Northern Ireland,FALSE,1828,1672,1805,1695,-23
-1936-10-17,British Home Championship,played,Wales,WAL,England,ENG,TRUE,2,1,win,Cardiff,Wales,FALSE,1805,1942,1827,1920,22
-1936-12-02,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,1,win,Dundee,Scotland,FALSE,1827,1981,1859,1949,32
-1937-03-17,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,4,1,win,Wrexham,Wales,FALSE,1859,1672,1870,1661,11
-1937-10-30,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,1,win,Cardiff,Wales,FALSE,1870,1989,1891,1968,21
-1937-11-17,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,2,loss,Middlesbrough,England,FALSE,1891,1970,1880,1981,-11
-1938-03-16,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1880,1659,1853,1686,-27
-1938-10-22,British Home Championship,played,Wales,WAL,England,ENG,TRUE,4,2,win,Cardiff,Wales,FALSE,1853,1967,1884,1936,31
-1938-11-09,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,3,loss,Edinburgh,Scotland,FALSE,1884,2010,1875,2019,-9
-1939-03-15,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,3,1,win,Wrexham,Wales,FALSE,1875,1662,1883,1654,8
-1939-05-20,Friendly,played,Wales,WAL,France,FRA,FALSE,1,2,loss,Colombes,France,FALSE,1883,1671,1870,1684,-13
-1945-10-20,Friendly,played,Wales,WAL,England,ENG,FALSE,1,0,win,Birmingham,England,FALSE,1870,1967,1900,1937,30
-1946-10-19,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,3,1,win,Wrexham,Wales,FALSE,1850,2026,1886,1990,36
-1946-11-13,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,3,loss,Manchester,England,FALSE,1886,1951,1866,1971,-20
-1947-04-16,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,2,loss,Belfast,Northern Ireland,FALSE,1866,1666,1840,1692,-26
-1947-10-18,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,3,loss,Cardiff,Wales,FALSE,1840,1980,1809,2011,-31
-1947-11-12,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,1,win,Glasgow,Scotland,FALSE,1809,1919,1840,1888,31
-1948-03-10,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,0,win,Wrexham,Wales,FALSE,1840,1752,1855,1737,15
-1948-10-23,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,3,loss,Cardiff,Wales,FALSE,1855,1833,1815,1873,-40
-1948-11-10,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,1,loss,Birmingham,England,FALSE,1815,2069,1810,2074,-5
-1949-03-09,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1810,1719,1841,1688,31
-1949-05-15,Friendly,played,Wales,WAL,Portugal,PRT,FALSE,2,3,loss,Oeiras,Portugal,FALSE,1841,1689,1830,1700,-11
-1949-05-22,Friendly,played,Wales,WAL,Belgium,BEL,FALSE,1,3,loss,Liège,Belgium,FALSE,1830,1589,1809,1610,-21
-1949-05-26,Friendly,played,Wales,WAL,Switzerland,CHE,FALSE,0,4,loss,Bern,Switzerland,FALSE,1809,1732,1791,1750,-18
-1949-10-15,FIFA World Cup qualification,played,Wales,WAL,England,ENG,TRUE,1,4,loss,Cardiff,Wales,FALSE,1791,1999,1767,2023,-24
-1949-11-09,FIFA World Cup qualification,played,Wales,WAL,Scotland,SCO,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1767,1968,1758,1977,-9
-1949-11-23,Friendly,played,Wales,WAL,Belgium,BEL,TRUE,5,1,win,Cardiff,Wales,FALSE,1758,1644,1766,1636,8
-1950-03-08,FIFA World Cup qualification,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,0,draw,Cardiff,Wales,FALSE,1766,1657,1755,1668,-11
-1950-10-21,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,3,loss,Cardiff,Wales,FALSE,1755,1960,1734,1981,-21
-1950-11-15,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,4,loss,Sunderland,England,FALSE,1734,1998,1727,2005,-7
-1951-03-07,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,2,1,win,Belfast,Northern Ireland,FALSE,1727,1646,1748,1625,21
-1951-05-12,Friendly,played,Wales,WAL,Portugal,PRT,TRUE,2,1,win,Cardiff,Wales,FALSE,1748,1678,1753,1673,5
-1951-05-16,Friendly,played,Wales,WAL,Switzerland,CHE,TRUE,3,2,win,Wrexham,Wales,FALSE,1753,1742,1760,1735,7
-1951-10-20,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,1,draw,Cardiff,Wales,FALSE,1760,1977,1766,1971,6
-1951-11-14,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,0,win,Glasgow,Scotland,FALSE,1766,2005,1801,1970,35
-1952-03-19,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,3,0,win,Swansea,Wales,FALSE,1801,1609,1812,1598,11
-1952-10-18,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,2,loss,Cardiff,Wales,FALSE,1812,1939,1794,1957,-18
-1952-11-12,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,5,loss,London,England,FALSE,1794,2002,1784,2012,-10
-1953-04-15,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,3,2,win,Belfast,Northern Ireland,FALSE,1784,1624,1801,1607,17
-1953-05-14,Friendly,played,Wales,WAL,France,FRA,FALSE,1,6,loss,Colombes,France,FALSE,1801,1758,1784,1775,-17
-1953-05-21,Friendly,played,Wales,WAL,Yugoslavia,YUG,FALSE,2,5,loss,Belgrade,Yugoslavia,FALSE,1784,1931,1777,1938,-7
-1953-10-10,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,4,loss,Cardiff,Wales,FALSE,1777,2001,1754,2024,-23
-1953-11-04,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,3,3,draw,Glasgow,Scotland,FALSE,1754,1947,1768,1933,14
-1954-03-31,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,2,loss,Wrexham,Wales,FALSE,1768,1591,1735,1624,-33
-1954-05-09,Friendly,played,Wales,WAL,Austria,AUT,FALSE,0,2,loss,Vienna,Austria,FALSE,1735,1856,1728,1863,-7
-1954-09-22,Friendly,played,Wales,WAL,Yugoslavia,YUG,TRUE,1,3,loss,Cardiff,Wales,FALSE,1728,1913,1717,1924,-11
-1954-10-16,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,1,loss,Cardiff,Wales,FALSE,1717,1807,1696,1828,-21
-1954-11-10,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,3,loss,London,England,FALSE,1696,1985,1692,1989,-4
-1955-04-20,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,3,2,win,Belfast,Northern Ireland,FALSE,1692,1626,1714,1604,22
-1955-10-22,British Home Championship,played,Wales,WAL,England,ENG,TRUE,2,1,win,Cardiff,Wales,FALSE,1714,1985,1743,1956,29
-1955-11-09,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1743,1809,1726,1826,-17
-1955-11-23,Friendly,played,Wales,WAL,Austria,AUT,TRUE,1,2,loss,Wrexham,Wales,FALSE,1726,1926,1719,1933,-7
-1956-04-11,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,1,draw,Cardiff,Wales,FALSE,1719,1625,1709,1635,-10
-1956-10-20,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,2,draw,Cardiff,Wales,FALSE,1709,1828,1710,1827,1
-1956-11-14,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,3,loss,London,England,FALSE,1710,1985,1704,1991,-6
-1957-04-10,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1704,1649,1707,1646,3
-1957-05-01,FIFA World Cup qualification,played,Wales,WAL,Czechoslovakia,CSK,TRUE,1,0,win,Cardiff,Wales,FALSE,1707,1845,1729,1823,22
-1957-05-19,FIFA World Cup qualification,played,Wales,WAL,German DR,DDR,FALSE,1,2,loss,Leipzig,German DR,FALSE,1729,1479,1701,1507,-28
-1957-05-26,FIFA World Cup qualification,played,Wales,WAL,Czechoslovakia,CSK,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1701,1843,1689,1855,-12
-1957-09-25,FIFA World Cup qualification,played,Wales,WAL,German DR,DDR,TRUE,4,1,win,Cardiff,Wales,FALSE,1689,1503,1700,1492,11
-1957-10-19,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,4,loss,Cardiff,Wales,FALSE,1700,2018,1683,2035,-17
-1957-11-13,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1683,1864,1696,1851,13
-1958-01-15,FIFA World Cup qualification,played,Wales,WAL,Israel,ISR,FALSE,2,0,win,Ramat Gan,Israel,FALSE,1696,1472,1716,1452,20
-1958-02-05,FIFA World Cup qualification,played,Wales,WAL,Israel,ISR,TRUE,2,0,win,Cardiff,Wales,FALSE,1716,1452,1723,1445,7
-1958-04-16,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,1,draw,Cardiff,Wales,FALSE,1723,1733,1718,1738,-5
-1958-06-08,FIFA World Cup,played,Wales,WAL,Hungary,HUN,FALSE,1,1,draw,Sandviken,Sweden,TRUE,1718,2081,1741,2058,23
-1958-06-11,FIFA World Cup,played,Wales,WAL,Mexico,MEX,FALSE,1,1,draw,Solna,Sweden,TRUE,1741,1742,1741,1742,0
-1958-06-15,FIFA World Cup,played,Wales,WAL,Sweden,SWE,FALSE,0,0,draw,Solna,Sweden,FALSE,1741,1877,1759,1859,18
-1958-06-17,FIFA World Cup,played,Wales,WAL,Hungary,HUN,FALSE,2,1,win,Solna,Sweden,TRUE,1759,2037,1809,1987,50
-1958-06-19,FIFA World Cup,played,Wales,WAL,Brazil,BRA,FALSE,0,1,loss,Gothenburg,Sweden,TRUE,1809,2053,1797,2065,-12
-1958-10-18,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,3,loss,Cardiff,Wales,FALSE,1797,1770,1750,1817,-47
-1958-11-26,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,2,draw,Birmingham,England,FALSE,1750,1964,1764,1950,14
-1959-04-22,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,4,loss,Belfast,Northern Ireland,FALSE,1764,1777,1740,1801,-24
-1959-10-17,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,1,draw,Cardiff,Wales,FALSE,1740,1918,1744,1914,4
-1960-04-06,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,3,2,win,Wrexham,Wales,FALSE,1755,1746,1769,1732,14
-1960-09-28,Friendly,played,Wales,WAL,Republic of Ireland,IRL,FALSE,3,2,win,Dublin,Republic of Ireland,FALSE,,,,,
-1960-10-22,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,0,win,Cardiff,Wales,FALSE,1782,1802,1805,1779,23
-1960-11-23,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,5,loss,London,England,FALSE,1805,1933,1789,1949,-16
-1961-04-12,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,5,1,win,Belfast,Northern Ireland,FALSE,1789,1669,1824,1634,35
-1961-04-19,FIFA World Cup qualification,played,Wales,WAL,Spain,ESP,TRUE,1,2,loss,Cardiff,Wales,FALSE,1824,1928,1804,1948,-20
-1961-05-18,FIFA World Cup qualification,played,Wales,WAL,Spain,ESP,FALSE,1,1,draw,Madrid,Spain,FALSE,1804,1948,1816,1936,12
-1961-05-28,Friendly,played,Wales,WAL,Hungary,HUN,FALSE,2,3,loss,Budapest,Hungary,FALSE,1816,2018,1813,2021,-3
-1961-10-14,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,1,draw,Cardiff,Wales,FALSE,1813,1960,1816,1957,3
-1961-11-08,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1816,1870,1798,1888,-18
-1962-04-11,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,4,0,win,Cardiff,Wales,FALSE,1798,1609,1810,1597,12
-1962-05-12,Friendly,played,Wales,WAL,Brazil,BRA,FALSE,1,3,loss,Rio de Janeiro,Brazil,FALSE,1810,2098,1807,2101,-3
-1962-05-16,Friendly,played,Wales,WAL,Brazil,BRA,FALSE,1,3,loss,São Paulo,Brazil,FALSE,1807,2101,1804,2104,-3
-1962-05-22,Friendly,played,Wales,WAL,Mexico,MEX,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1804,1802,1797,1809,-7
-1962-10-20,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,3,loss,Cardiff,Wales,FALSE,1797,1878,1776,1899,-21
-1962-11-07,UEFA Euro qualification,played,Wales,WAL,Hungary,HUN,FALSE,1,3,loss,Budapest,Hungary,FALSE,1776,1971,1767,1980,-9
-1962-11-21,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,4,loss,London,England,FALSE,1767,1917,1753,1931,-14
-1963-03-20,UEFA Euro qualification,played,Wales,WAL,Hungary,HUN,TRUE,1,1,draw,Cardiff,Wales,FALSE,1753,1995,1761,1987,8
-1963-04-03,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,4,1,win,Belfast,Northern Ireland,FALSE,1761,1636,1793,1604,32
-1963-10-12,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,4,loss,Cardiff,Wales,FALSE,1793,1904,1757,1940,-36
-1963-11-20,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1757,1904,1749,1912,-8
-1964-04-15,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,3,loss,Swansea,Wales,FALSE,1749,1630,1718,1661,-31
-1964-10-03,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,3,2,win,Cardiff,Wales,FALSE,1718,1930,1744,1904,26
-1964-10-21,FIFA World Cup qualification,played,Wales,WAL,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1744,1635,1723,1656,-21
-1964-11-18,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,2,loss,London,England,FALSE,1723,1916,1717,1922,-6
-1964-12-09,FIFA World Cup qualification,played,Wales,WAL,Greece,GRC,FALSE,0,2,loss,Athens,Greece,FALSE,1717,1519,1679,1557,-38
-1965-03-17,FIFA World Cup qualification,played,Wales,WAL,Greece,GRC,TRUE,4,1,win,Cardiff,Wales,FALSE,1679,1549,1694,1534,15
-1965-03-31,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,5,0,win,Belfast,Northern Ireland,FALSE,1694,1671,1743,1622,49
-1965-05-01,Friendly,played,Wales,WAL,Italy,ITA,FALSE,1,4,loss,Florence,Italy,FALSE,1743,1928,1737,1934,-6
-1965-05-30,FIFA World Cup qualification,played,Wales,WAL,Soviet Union,SUN,FALSE,1,2,loss,Moscow,Soviet Union,TRUE,1737,1977,1732,1982,-5
-1965-10-02,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,0,draw,Cardiff,Wales,FALSE,1732,1945,1738,1939,6
-1965-10-27,FIFA World Cup qualification,played,Wales,WAL,Soviet Union,SUN,TRUE,2,1,win,Cardiff,Wales,FALSE,1738,1983,1766,1955,28
-1965-11-24,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,4,loss,Glasgow,Scotland,FALSE,1766,1867,1749,1884,-17
-1965-12-01,FIFA World Cup qualification,played,Wales,WAL,Denmark,DNK,TRUE,4,2,win,Wrexham,Wales,FALSE,1749,1629,1762,1616,13
-1966-03-30,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,4,loss,Cardiff,Wales,FALSE,1762,1661,1709,1714,-53
-1966-05-14,Friendly,played,Wales,WAL,Brazil,BRA,FALSE,1,3,loss,Rio de Janeiro,Brazil,FALSE,1709,1998,1706,2001,-3
-1966-05-18,Friendly,played,Wales,WAL,Brazil,BRA,FALSE,0,1,loss,Belo Horizonte,Brazil,FALSE,1706,1994,1704,1996,-2
-1966-05-22,Friendly,played,Wales,WAL,Chile,CHL,FALSE,0,2,loss,Santiago,Chile,FALSE,1704,1774,1696,1782,-8
-1966-10-22,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,1,1,draw,Cardiff,Wales,FALSE,1696,1801,1696,1801,0
-1966-11-16,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,5,loss,London,England,FALSE,1696,2086,1692,2090,-4
-1967-04-12,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1692,1705,1698,1699,6
-1967-10-21,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,3,loss,Cardiff,Wales,FALSE,1698,2064,1686,2076,-12
-1967-11-22,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,2,3,loss,Glasgow,Scotland,FALSE,1686,1832,1678,1840,-8
-1968-02-28,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,0,win,Wrexham,Wales,FALSE,1678,1718,1703,1693,25
-1968-05-08,Friendly,played,Wales,WAL,Germany,DEU,TRUE,1,1,draw,Cardiff,Wales,FALSE,,,,,
-1968-10-23,FIFA World Cup qualification,played,Wales,WAL,Italy,ITA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1708,1966,1697,1977,-11
-1969-03-26,Friendly,played,Wales,WAL,Germany,DEU,FALSE,1,1,draw,Frankfurt am Main,Germany,FALSE,,,,,
-1969-04-16,FIFA World Cup qualification,played,Wales,WAL,German DR,DDR,FALSE,1,2,loss,Dresden,German DR,FALSE,1705,1861,1698,1868,-7
-1969-05-03,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,3,5,loss,Wrexham,Wales,FALSE,1698,1869,1674,1893,-24
-1969-05-07,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,2,loss,London,England,FALSE,1674,2068,1672,2070,-2
-1969-05-10,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1672,1754,1682,1744,10
-1969-10-22,FIFA World Cup qualification,played,Wales,WAL,German DR,DDR,TRUE,1,3,loss,Cardiff,Wales,FALSE,1682,1868,1659,1891,-23
-1969-11-04,FIFA World Cup qualification,played,Wales,WAL,Italy,ITA,FALSE,1,4,loss,Rome,Italy,FALSE,1659,1979,1653,1985,-6
-1970-04-18,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,1,draw,Cardiff,Wales,FALSE,1653,2086,1668,2071,15
-1970-04-22,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1668,1847,1681,1834,13
-1970-04-25,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,0,win,Swansea,Wales,FALSE,1681,1713,1697,1697,16
-1970-11-11,UEFA Euro qualification,played,Wales,WAL,Romania,ROU,TRUE,0,0,draw,Cardiff,Wales,FALSE,1697,1810,1698,1809,1
-1971-04-21,UEFA Euro qualification,played,Wales,WAL,Czechoslovakia,CSK,TRUE,1,3,loss,Swansea,Wales,FALSE,1698,1821,1670,1849,-28
-1971-05-15,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,0,draw,Cardiff,Wales,FALSE,1670,1787,1671,1786,1
-1971-05-19,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,0,draw,London,England,FALSE,1671,2054,1689,2036,18
-1971-05-22,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1689,1726,1677,1738,-12
-1971-05-26,UEFA Euro qualification,played,Wales,WAL,Finland,,FALSE,1,0,win,Helsinki,Finland,FALSE,1677,1413,1688,1402,11
-1971-10-13,UEFA Euro qualification,played,Wales,WAL,Finland,,TRUE,3,0,win,Swansea,Wales,FALSE,1688,1394,1695,1387,7
-1971-10-27,UEFA Euro qualification,played,Wales,WAL,Czechoslovakia,CSK,FALSE,0,1,loss,Prague,Czechoslovakia,FALSE,1695,1872,1688,1879,-7
-1971-11-24,UEFA Euro qualification,played,Wales,WAL,Romania,ROU,FALSE,0,2,loss,Bucharest,Romania,FALSE,1688,1808,1675,1821,-13
-1972-05-20,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,3,loss,Cardiff,Wales,FALSE,1675,2015,1661,2029,-14
-1972-05-24,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1661,1784,1652,1793,-9
-1972-05-27,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,0,draw,Wrexham,Wales,FALSE,1652,1763,1653,1762,1
-1972-11-15,FIFA World Cup qualification,played,Wales,WAL,England,ENG,TRUE,0,1,loss,Cardiff,Wales,FALSE,1653,2002,1645,2010,-8
-1973-01-24,FIFA World Cup qualification,played,Wales,WAL,England,ENG,FALSE,1,1,draw,London,England,FALSE,1645,2010,1662,1993,17
-1973-03-28,FIFA World Cup qualification,played,Wales,WAL,Poland,POL,TRUE,2,0,win,Cardiff,Wales,FALSE,1662,1965,1708,1919,46
-1973-05-12,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,2,loss,Wrexham,Wales,FALSE,1708,1820,1679,1849,-29
-1973-05-15,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,3,loss,London,England,FALSE,1679,2014,1674,2019,-5
-1973-05-19,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,1,loss,Liverpool,England,TRUE,1674,1750,1658,1766,-16
-1973-09-26,FIFA World Cup qualification,played,Wales,WAL,Poland,POL,FALSE,0,3,loss,Chorzów,Poland,FALSE,1658,1971,1652,1977,-6
-1974-05-11,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,2,loss,Cardiff,Wales,FALSE,1652,1979,1639,1992,-13
-1974-05-14,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1639,1777,1627,1789,-12
-1974-05-18,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,0,win,Wrexham,Wales,FALSE,1627,1801,1651,1777,24
-1974-09-04,UEFA Euro qualification,played,Wales,WAL,Austria,AUT,FALSE,1,2,loss,Vienna,Austria,FALSE,1651,1816,1644,1823,-7
-1974-10-30,UEFA Euro qualification,played,Wales,WAL,Hungary,HUN,TRUE,2,0,win,Cardiff,Wales,FALSE,1644,1901,1687,1858,43
-1974-11-20,UEFA Euro qualification,played,Wales,WAL,Luxembourg,,TRUE,5,0,win,Swansea,Wales,FALSE,1687,1317,1692,1312,5
-1975-04-16,UEFA Euro qualification,played,Wales,WAL,Hungary,HUN,FALSE,2,1,win,Budapest,Hungary,FALSE,1692,1853,1725,1820,33
-1975-05-01,UEFA Euro qualification,played,Wales,WAL,Luxembourg,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1725,1309,1733,1301,8
-1975-05-17,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,2,draw,Cardiff,Wales,FALSE,1733,1893,1736,1890,3
-1975-05-21,British Home Championship,played,Wales,WAL,England,ENG,FALSE,2,2,draw,London,England,FALSE,1736,1989,1751,1974,15
-1975-05-23,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1751,1799,1739,1811,-12
-1975-11-19,UEFA Euro qualification,played,Wales,WAL,Austria,AUT,TRUE,1,0,win,Wrexham,Wales,FALSE,1739,1816,1758,1797,19
-1976-03-24,Friendly,played,Wales,WAL,England,ENG,TRUE,1,2,loss,Wrexham,Wales,FALSE,1758,1977,1751,1984,-7
-1976-04-24,UEFA Euro qualification,played,Wales,WAL,Yugoslavia,YUG,FALSE,0,2,loss,Zagreb,Yugoslavia,FALSE,1751,1945,1742,1954,-9
-1976-05-06,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,3,loss,Glasgow,Scotland,FALSE,1742,1900,1731,1911,-11
-1976-05-08,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,1,loss,Cardiff,Wales,FALSE,1731,1984,1719,1996,-12
-1976-05-14,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,0,win,Swansea,Wales,FALSE,1719,1762,1736,1745,17
-1976-05-22,UEFA Euro qualification,played,Wales,WAL,Yugoslavia,YUG,TRUE,1,1,draw,Cardiff,Wales,FALSE,1736,1954,1743,1947,7
-1976-10-06,Friendly,played,Wales,WAL,Germany,DEU,TRUE,0,2,loss,Cardiff,Wales,FALSE,,,,,
-1976-11-17,FIFA World Cup qualification,played,Wales,WAL,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1738,1928,1732,1934,-6
-1977-03-30,FIFA World Cup qualification,played,Wales,WAL,Czechoslovakia,CSK,TRUE,3,0,win,Wrexham,Wales,FALSE,1732,2004,1783,1953,51
-1977-05-28,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,0,draw,Wrexham,Wales,FALSE,1783,1941,1786,1938,3
-1977-05-31,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,0,win,London,England,FALSE,1786,1961,1819,1928,33
-1977-06-03,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1819,1721,1819,1721,0
-1977-09-06,Friendly,played,Wales,WAL,Kuwait,KWT,TRUE,0,0,draw,Wrexham,Wales,FALSE,1819,1667,1813,1673,-6
-1977-09-20,Friendly,played,Wales,WAL,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1813,1673,1812,1674,-1
-1977-10-12,FIFA World Cup qualification,played,Wales,WAL,Scotland,SCO,TRUE,0,2,loss,Liverpool,England,TRUE,1812,1982,1796,1998,-16
-1977-11-16,FIFA World Cup qualification,played,Wales,WAL,Czechoslovakia,CSK,FALSE,0,1,loss,Prague,Czechoslovakia,FALSE,1796,1879,1786,1889,-10
-1977-12-14,Friendly,played,Wales,WAL,Germany,DEU,FALSE,1,1,draw,Dortmund,Germany,FALSE,,,,,
-1978-04-18,Friendly,played,Wales,WAL,Iran,IRN,FALSE,1,0,win,Tehran,Iran,FALSE,1795,1800,1808,1787,13
-1978-05-13,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,3,loss,Cardiff,Wales,FALSE,1808,1928,1780,1956,-28
-1978-05-17,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1780,1984,1794,1970,14
-1978-05-19,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,0,win,Wrexham,Wales,FALSE,1794,1739,1806,1727,12
-1978-10-25,UEFA Euro qualification,played,Wales,WAL,Malta,,TRUE,7,0,win,Wrexham,Wales,FALSE,1806,1357,1810,1353,4
-1978-11-29,UEFA Euro qualification,played,Wales,WAL,Turkey,TUR,TRUE,1,0,win,Wrexham,Wales,FALSE,1810,1642,1817,1635,7
-1979-05-02,UEFA Euro qualification,played,Wales,WAL,Germany,DEU,TRUE,0,2,loss,Wrexham,Wales,FALSE,,,,,
-1979-05-19,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,3,0,win,Cardiff,Wales,FALSE,1795,1887,1829,1853,34
-1979-05-23,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,0,draw,London,England,FALSE,1829,2031,1843,2017,14
-1979-05-26,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,,,,,
-1979-06-02,UEFA Euro qualification,played,Wales,WAL,Malta,,FALSE,2,0,win,Gżira,Malta,FALSE,1844,1367,1850,1361,6
-1979-09-11,Friendly,played,Wales,WAL,Republic of Ireland,IRL,TRUE,2,1,win,Swansea,Wales,FALSE,,,,,
-1979-10-17,UEFA Euro qualification,played,Wales,WAL,Germany,DEU,FALSE,1,5,loss,Cologne,Germany,FALSE,,,,,
-1979-11-21,UEFA Euro qualification,played,Wales,WAL,Turkey,TUR,FALSE,0,1,loss,İzmir,Turkey,FALSE,1842,1650,1817,1675,-25
-1980-05-17,British Home Championship,played,Wales,WAL,England,ENG,TRUE,4,1,win,Wrexham,Wales,FALSE,1817,2076,1867,2026,50
-1980-05-21,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1867,1801,1849,1819,-18
-1980-05-23,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,0,1,loss,Cardiff,Wales,FALSE,1849,1759,1819,1789,-30
-1980-06-02,FIFA World Cup qualification,played,Wales,WAL,Iceland,ISL,FALSE,4,0,win,Reykjavík,Iceland,FALSE,1819,1363,1828,1354,9
-1980-10-15,FIFA World Cup qualification,played,Wales,WAL,Turkey,TUR,TRUE,4,0,win,Cardiff,Wales,FALSE,1828,1624,1839,1613,11
-1980-11-19,FIFA World Cup qualification,played,Wales,WAL,Czechoslovakia,CSK,TRUE,1,0,win,Cardiff,Wales,FALSE,1839,1917,1858,1898,19
-1981-02-24,Friendly,played,Wales,WAL,Republic of Ireland,IRL,FALSE,3,1,win,Dublin,Republic of Ireland,FALSE,,,,,
-1981-03-25,FIFA World Cup qualification,played,Wales,WAL,Turkey,TUR,FALSE,1,0,win,Ankara,Turkey,FALSE,1873,1607,1884,1596,11
-1981-05-16,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,2,0,win,Swansea,Wales,FALSE,1884,1820,1901,1803,17
-1981-05-20,British Home Championship,played,Wales,WAL,England,ENG,FALSE,0,0,draw,London,England,FALSE,1901,1960,1910,1951,9
-1981-05-30,FIFA World Cup qualification,played,Wales,WAL,Soviet Union,SUN,TRUE,0,0,draw,Wrexham,Wales,FALSE,1910,1957,1907,1960,-3
-1981-09-09,FIFA World Cup qualification,played,Wales,WAL,Czechoslovakia,CSK,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1907,1893,1884,1916,-23
-1981-10-14,FIFA World Cup qualification,played,Wales,WAL,Iceland,ISL,TRUE,2,2,draw,Swansea,Wales,FALSE,1884,1482,1866,1500,-18
-1981-11-18,FIFA World Cup qualification,played,Wales,WAL,Soviet Union,SUN,FALSE,0,3,loss,Tbilisi,Soviet Union,TRUE,1866,1989,1851,2004,-15
-1982-03-24,Friendly,played,Wales,WAL,Spain,ESP,FALSE,1,1,draw,Valencia,Spain,FALSE,1851,1891,1855,1887,4
-1982-04-27,British Home Championship,played,Wales,WAL,England,ENG,TRUE,0,1,loss,Cardiff,Wales,FALSE,1855,1915,1833,1937,-22
-1982-05-24,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1833,1847,1819,1861,-14
-1982-05-27,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,3,0,win,Wrexham,Wales,FALSE,1819,1761,1839,1741,20
-1982-06-02,Friendly,played,Wales,WAL,France,FRA,FALSE,1,0,win,Toulouse,France,FALSE,1839,1894,1853,1880,14
-1982-09-22,UEFA Euro qualification,played,Wales,WAL,Norway,NOR,TRUE,1,0,win,Swansea,Wales,FALSE,1853,1552,1857,1548,4
-1982-12-15,UEFA Euro qualification,played,Wales,WAL,Yugoslavia,YUG,FALSE,4,4,draw,Titograd,Yugoslavia,FALSE,1857,1861,1863,1855,6
-1983-02-23,British Home Championship,played,Wales,WAL,England,ENG,FALSE,1,2,loss,London,England,FALSE,1863,2020,1856,2027,-7
-1983-04-27,UEFA Euro qualification,played,Wales,WAL,Bulgaria,BGR,TRUE,1,0,win,Wrexham,Wales,FALSE,1856,1699,1863,1692,7
-1983-05-28,British Home Championship,played,Wales,WAL,Scotland,SCO,TRUE,0,2,loss,Cardiff,Wales,FALSE,1863,1814,1821,1856,-42
-1983-05-31,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1821,1792,1845,1768,24
-1983-06-12,Friendly,played,Wales,WAL,Brazil,BRA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1845,2123,1850,2118,5
-1983-09-21,UEFA Euro qualification,played,Wales,WAL,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1850,1585,1841,1594,-9
-1983-10-12,Friendly,played,Wales,WAL,Romania,ROU,TRUE,5,0,win,Wrexham,Wales,FALSE,1841,1831,1855,1817,14
-1983-11-16,UEFA Euro qualification,played,Wales,WAL,Bulgaria,BGR,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1855,1755,1835,1775,-20
-1983-12-14,UEFA Euro qualification,played,Wales,WAL,Yugoslavia,YUG,TRUE,1,1,draw,Cardiff,Wales,FALSE,1835,1846,1830,1851,-5
-1984-02-28,British Home Championship,played,Wales,WAL,Scotland,SCO,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1830,1835,1816,1849,-14
-1984-05-02,British Home Championship,played,Wales,WAL,England,ENG,TRUE,1,0,win,Wrexham,Wales,FALSE,1816,1994,1840,1970,24
-1984-05-22,British Home Championship,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,1,draw,Swansea,Wales,FALSE,1840,1826,1834,1832,-6
-1984-06-06,Friendly,played,Wales,WAL,Norway,NOR,FALSE,0,1,loss,Trondheim,Norway,FALSE,1834,1601,1820,1615,-14
-1984-06-10,Friendly,played,Wales,WAL,Israel,ISR,FALSE,0,0,draw,Ramat Gan,Israel,FALSE,1820,1709,1820,1709,0
-1984-09-12,FIFA World Cup qualification,played,Wales,WAL,Iceland,ISL,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1820,1455,1787,1488,-33
-1984-10-17,FIFA World Cup qualification,played,Wales,WAL,Spain,ESP,FALSE,0,3,loss,Seville,Spain,FALSE,1787,1882,1770,1899,-17
-1984-11-14,FIFA World Cup qualification,played,Wales,WAL,Iceland,ISL,TRUE,2,1,win,Cardiff,Wales,FALSE,1770,1498,1774,1494,4
-1985-02-26,Friendly,played,Wales,WAL,Norway,NOR,TRUE,1,1,draw,Wrexham,Wales,FALSE,1774,1669,1769,1674,-5
-1985-03-27,FIFA World Cup qualification,played,Wales,WAL,Scotland,SCO,FALSE,1,0,win,Glasgow,Scotland,FALSE,1769,1870,1799,1840,30
-1985-04-30,FIFA World Cup qualification,played,Wales,WAL,Spain,ESP,TRUE,3,0,win,Wrexham,Wales,FALSE,1799,1886,1833,1852,34
-1985-06-05,Friendly,played,Wales,WAL,Norway,NOR,FALSE,2,4,loss,Bergen,Norway,FALSE,1833,1674,1815,1692,-18
-1985-09-10,FIFA World Cup qualification,played,Wales,WAL,Scotland,SCO,TRUE,1,1,draw,Cardiff,Wales,FALSE,1815,1863,1812,1866,-3
-1985-10-16,Friendly,played,Wales,WAL,Hungary,HUN,TRUE,0,3,loss,Cardiff,Wales,FALSE,1812,1855,1792,1875,-20
-1986-02-25,Friendly,played,Wales,WAL,Saudi Arabia,SAU,FALSE,2,1,win,Khobar,Saudi Arabia,FALSE,1792,1612,1800,1604,8
-1986-03-26,Friendly,played,Wales,WAL,Republic of Ireland,IRL,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
-1986-04-21,Friendly,played,Wales,WAL,Uruguay,URY,TRUE,0,0,draw,Wrexham,Wales,FALSE,1810,1850,1808,1852,-2
-1986-05-10,Friendly,played,Wales,WAL,Canada,CAN,FALSE,0,2,loss,Toronto,Canada,FALSE,1808,1651,1791,1668,-17
-1986-05-19,Friendly,played,Wales,WAL,Canada,CAN,FALSE,3,0,win,Vancouver,Canada,FALSE,1791,1668,1807,1652,16
-1986-09-10,UEFA Euro qualification,played,Wales,WAL,Finland,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1807,1565,1799,1573,-8
-1987-02-18,Friendly,played,Wales,WAL,Soviet Union,SUN,TRUE,0,0,draw,Swansea,Wales,FALSE,1799,1993,1802,1990,3
-1987-04-01,UEFA Euro qualification,played,Wales,WAL,Finland,,TRUE,4,0,win,Wrexham,Wales,FALSE,1802,1559,1811,1550,9
-1987-04-29,UEFA Euro qualification,played,Wales,WAL,Czechoslovakia,CSK,TRUE,1,1,draw,Wrexham,Wales,FALSE,1811,1871,1809,1873,-2
-1987-09-09,UEFA Euro qualification,played,Wales,WAL,Denmark,DNK,TRUE,1,0,win,Cardiff,Wales,FALSE,1809,1923,1830,1902,21
-1987-10-14,UEFA Euro qualification,played,Wales,WAL,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1830,1897,1819,1908,-11
-1987-11-11,UEFA Euro qualification,played,Wales,WAL,Czechoslovakia,CSK,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1819,1822,1798,1843,-21
-1988-03-23,Friendly,played,Wales,WAL,Yugoslavia,YUG,TRUE,1,2,loss,Swansea,Wales,FALSE,1798,1836,1786,1848,-12
-1988-04-27,Friendly,played,Wales,WAL,Sweden,SWE,FALSE,1,4,loss,Solna,Sweden,FALSE,1786,1948,1780,1954,-6
-1988-06-01,Friendly,played,Wales,WAL,Malta,,FALSE,3,2,win,Attard,Malta,FALSE,1780,1419,1784,1415,4
-1988-06-04,Friendly,played,Wales,WAL,Italy,ITA,FALSE,1,0,win,Brescia,Italy,FALSE,1784,1954,1801,1937,17
-1988-09-14,FIFA World Cup qualification,played,Wales,WAL,Netherlands,NLD,FALSE,0,1,loss,Amsterdam,Netherlands,FALSE,1801,2050,1796,2055,-5
-1988-10-19,FIFA World Cup qualification,played,Wales,WAL,Finland,,TRUE,2,2,draw,Swansea,Wales,FALSE,1796,1600,1782,1614,-14
-1989-02-08,Friendly,played,Wales,WAL,Israel,ISR,FALSE,3,3,draw,Ramat Gan,Israel,FALSE,1782,1614,1780,1616,-2
-1989-04-26,Friendly,played,Wales,WAL,Sweden,SWE,TRUE,0,2,loss,Wrexham,Wales,FALSE,1780,1952,1768,1964,-12
-1989-05-31,FIFA World Cup qualification,played,Wales,WAL,Germany,DEU,TRUE,0,0,draw,Cardiff,Wales,FALSE,,,,,
-1989-09-06,FIFA World Cup qualification,played,Wales,WAL,Finland,,FALSE,0,1,loss,Helsinki,Finland,FALSE,1775,1593,1750,1618,-25
-1989-10-11,FIFA World Cup qualification,played,Wales,WAL,Netherlands,NLD,TRUE,1,2,loss,Wrexham,Wales,FALSE,1750,2049,1740,2059,-10
-1989-11-15,FIFA World Cup qualification,played,Wales,WAL,Germany,DEU,FALSE,1,2,loss,Cologne,Germany,FALSE,,,,,
-1990-03-28,Friendly,played,Wales,WAL,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1990-04-25,Friendly,played,Wales,WAL,Sweden,SWE,FALSE,2,4,loss,Solna,Sweden,FALSE,1731,1945,1727,1949,-4
-1990-05-20,Friendly,played,Wales,WAL,Costa Rica,CRI,TRUE,1,0,win,Cardiff,Wales,FALSE,1727,1617,1732,1612,5
-1990-09-11,Friendly,played,Wales,WAL,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1732,1904,1729,1907,-3
-1990-10-17,UEFA Euro qualification,played,Wales,WAL,Belgium,BEL,TRUE,3,1,win,Cardiff,Wales,FALSE,1729,1848,1761,1816,32
-1990-11-14,UEFA Euro qualification,played,Wales,WAL,Luxembourg,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1761,1178,1763,1176,2
-1991-02-06,Friendly,played,Wales,WAL,Republic of Ireland,IRL,TRUE,0,3,loss,Wrexham,Wales,FALSE,,,,,
-1991-03-27,UEFA Euro qualification,played,Wales,WAL,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1747,1824,1756,1815,9
-1991-05-01,Friendly,played,Wales,WAL,Iceland,ISL,TRUE,1,0,win,Cardiff,Wales,FALSE,1756,1555,1759,1552,3
-1991-05-29,Friendly,played,Wales,WAL,Poland,POL,FALSE,0,0,draw,Radom,Poland,FALSE,1759,1790,1763,1786,4
-1991-06-05,UEFA Euro qualification,played,Wales,WAL,Germany,DEU,TRUE,1,0,win,Cardiff,Wales,FALSE,1763,2089,1794,2058,31
-1991-09-11,Friendly,played,Wales,WAL,Brazil,BRA,TRUE,1,0,win,Cardiff,Wales,FALSE,1794,1953,1806,1941,12
-1991-10-16,UEFA Euro qualification,played,Wales,WAL,Germany,DEU,FALSE,1,4,loss,Nuremberg,Germany,FALSE,1806,2069,1798,2077,-8
-1991-11-13,UEFA Euro qualification,played,Wales,WAL,Luxembourg,,TRUE,1,0,win,Cardiff,Wales,FALSE,1798,1181,1799,1180,1
-1992-02-19,Friendly,played,Wales,WAL,Republic of Ireland,IRL,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
-1992-04-29,Friendly,played,Wales,WAL,Austria,AUT,FALSE,1,1,draw,Vienna,Austria,FALSE,1814,1614,1811,1617,-3
-1992-05-20,FIFA World Cup qualification,played,Wales,WAL,Romania,ROU,FALSE,1,5,loss,Bucharest,Romania,FALSE,1811,1803,1783,1831,-28
-1992-05-30,Friendly,played,Wales,WAL,Netherlands,NLD,FALSE,0,4,loss,Utrecht,Netherlands,FALSE,1783,1957,1777,1963,-6
-1992-06-03,Kirin Cup,played,Wales,WAL,Argentina,ARG,FALSE,0,1,loss,Gifu,Japan,TRUE,1777,1987,1770,1994,-7
-1992-06-07,Kirin Cup,played,Wales,WAL,Japan,JPN,FALSE,1,0,win,Matsuyama,Japan,FALSE,1770,1372,1775,1367,5
-1992-09-09,FIFA World Cup qualification,played,Wales,WAL,Faroe Islands,,TRUE,6,0,win,Cardiff,Wales,FALSE,1775,1229,1777,1227,2
-1992-10-14,FIFA World Cup qualification,played,Wales,WAL,Cyprus,,FALSE,1,0,win,Limassol,Cyprus,FALSE,1777,1326,1782,1321,5
-1992-11-18,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1782,1858,1766,1874,-16
-1993-02-17,Friendly,played,Wales,WAL,Republic of Ireland,IRL,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1993-03-31,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,TRUE,2,0,win,Cardiff,Wales,FALSE,1762,1879,1793,1848,31
-1993-04-28,FIFA World Cup qualification,played,Wales,WAL,Czechoslovakia,CSK,FALSE,1,1,draw,Ostrava,Czech Republic,FALSE,1793,1810,1799,1804,6
-1993-06-06,FIFA World Cup qualification,played,Wales,WAL,Faroe Islands,,FALSE,3,0,win,Toftir,Faroe Islands,FALSE,1799,1212,1803,1208,4
-1993-09-08,FIFA World Cup qualification,played,Wales,WAL,Czechoslovakia,CSK,TRUE,2,2,draw,Cardiff,Wales,FALSE,1803,1832,1799,1836,-4
-1993-10-13,FIFA World Cup qualification,played,Wales,WAL,Cyprus,,TRUE,2,0,win,Cardiff,Wales,FALSE,1799,1367,1802,1364,3
-1993-11-17,FIFA World Cup qualification,played,Wales,WAL,Romania,ROU,TRUE,1,2,loss,Cardiff,Wales,FALSE,1802,1804,1777,1829,-25
-1994-03-09,Friendly,played,Wales,WAL,Norway,NOR,TRUE,1,3,loss,Cardiff,Wales,FALSE,1777,1833,1760,1850,-17
-1994-04-20,Friendly,played,Wales,WAL,Sweden,SWE,TRUE,0,2,loss,Wrexham,Wales,FALSE,1760,1886,1746,1900,-14
-1994-05-23,Friendly,played,Wales,WAL,Estonia,,FALSE,2,1,win,Tallinn,Estonia,FALSE,1746,1178,1747,1177,1
-1994-09-07,UEFA Euro qualification,played,Wales,WAL,Albania,,TRUE,2,0,win,Cardiff,Wales,FALSE,1747,1385,1751,1381,4
-1994-10-12,UEFA Euro qualification,played,Wales,WAL,Moldova,,FALSE,2,3,loss,Chișinău,Moldova,FALSE,1751,1529,1724,1556,-27
-1994-11-16,UEFA Euro qualification,played,Wales,WAL,Georgia,,FALSE,0,5,loss,Tbilisi,Georgia,FALSE,1724,1542,1675,1591,-49
-1994-12-14,UEFA Euro qualification,played,Wales,WAL,Bulgaria,BGR,TRUE,0,3,loss,Cardiff,Wales,FALSE,1675,1829,1645,1859,-30
-1995-03-29,UEFA Euro qualification,played,Wales,WAL,Bulgaria,BGR,FALSE,1,3,loss,Sofia,Bulgaria,FALSE,1645,1846,1636,1855,-9
-1995-04-26,UEFA Euro qualification,played,Wales,WAL,Germany,DEU,FALSE,1,1,draw,Düsseldorf,Germany,FALSE,1636,2011,1654,1993,18
-1995-06-07,UEFA Euro qualification,played,Wales,WAL,Georgia,,TRUE,0,1,loss,Cardiff,Wales,FALSE,1654,1606,1626,1634,-28
-1995-09-06,UEFA Euro qualification,played,Wales,WAL,Moldova,,TRUE,1,0,win,Cardiff,Wales,FALSE,1626,1454,1633,1447,7
-1995-10-11,UEFA Euro qualification,played,Wales,WAL,Germany,DEU,TRUE,1,2,loss,Cardiff,Wales,FALSE,1633,2022,1627,2028,-6
-1995-11-15,UEFA Euro qualification,played,Wales,WAL,Albania,,FALSE,1,1,draw,Tirana,Albania,FALSE,1627,1430,1622,1435,-5
-1996-04-24,Friendly,played,Wales,WAL,Switzerland,CHE,FALSE,0,2,loss,Lugano,Switzerland,FALSE,1620,1809,1615,1814,-5
-1996-06-02,FIFA World Cup qualification,played,Wales,WAL,San Marino,,FALSE,5,0,win,Serravalle,San Marino,FALSE,1615,963,1618,960,3
-1996-08-31,FIFA World Cup qualification,played,Wales,WAL,San Marino,,TRUE,6,0,win,Cardiff,Wales,FALSE,1618,960,1619,959,1
-1996-10-05,FIFA World Cup qualification,played,Wales,WAL,Netherlands,NLD,TRUE,1,3,loss,Cardiff,Wales,FALSE,1619,1908,1604,1923,-15
-1996-11-09,FIFA World Cup qualification,played,Wales,WAL,Netherlands,NLD,FALSE,1,7,loss,Eindhoven,Netherlands,FALSE,1604,1923,1597,1930,-7
-1996-12-14,FIFA World Cup qualification,played,Wales,WAL,Turkey,TUR,TRUE,0,0,draw,Cardiff,Wales,FALSE,1597,1697,1597,1697,0
-1997-02-11,Friendly,played,Wales,WAL,Republic of Ireland,IRL,TRUE,0,0,draw,Cardiff,Wales,FALSE,,,,,
-1997-03-29,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,TRUE,1,2,loss,Cardiff,Wales,FALSE,1598,1737,1580,1755,-18
-1997-05-27,Friendly,played,Wales,WAL,Scotland,SCO,FALSE,1,0,win,Kilmarnock,Scotland,FALSE,1580,1796,1597,1779,17
-1997-08-20,FIFA World Cup qualification,played,Wales,WAL,Turkey,TUR,FALSE,4,6,loss,Istanbul,Turkey,FALSE,1597,1682,1582,1697,-15
-1997-10-11,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,FALSE,2,3,loss,Brussels,Belgium,FALSE,1582,1779,1576,1785,-6
-1997-11-11,Friendly,played,Wales,WAL,Brazil,BRA,FALSE,0,3,loss,Brasília,Brazil,FALSE,1576,2151,1575,2152,-1
-1998-03-25,Friendly,played,Wales,WAL,Jamaica,JAM,TRUE,0,0,draw,Cardiff,Wales,FALSE,1575,1677,1575,1677,0
-1998-06-03,Friendly,played,Wales,WAL,Malta,,FALSE,3,0,win,Attard,Malta,FALSE,1575,1232,1582,1225,7
-1998-06-06,Friendly,played,Wales,WAL,Tunisia,TUN,FALSE,0,4,loss,Tunis,Tunisia,FALSE,1582,1620,1570,1632,-12
-1998-09-05,UEFA Euro qualification,played,Wales,WAL,Italy,ITA,TRUE,0,2,loss,Liverpool,England,TRUE,1570,2016,1566,2020,-4
-1998-10-10,UEFA Euro qualification,played,Wales,WAL,Denmark,DNK,FALSE,2,1,win,Copenhagen,Denmark,FALSE,1566,1859,1602,1823,36
-1998-10-14,UEFA Euro qualification,played,Wales,WAL,Belarus,,TRUE,3,2,win,Cardiff,Wales,FALSE,1602,1419,1609,1412,7
-1999-03-31,UEFA Euro qualification,played,Wales,WAL,Switzerland,CHE,FALSE,0,2,loss,Zürich,Switzerland,FALSE,1609,1684,1593,1700,-16
-1999-06-05,UEFA Euro qualification,played,Wales,WAL,Italy,ITA,FALSE,0,4,loss,Bologna,Italy,FALSE,1593,2011,1589,2015,-4
-1999-06-09,UEFA Euro qualification,played,Wales,WAL,Denmark,DNK,TRUE,0,2,loss,Liverpool,England,TRUE,1589,1815,1576,1828,-13
-1999-09-04,UEFA Euro qualification,played,Wales,WAL,Belarus,,FALSE,2,1,win,Minsk,Belarus,FALSE,1576,1420,1593,1403,17
-1999-10-09,UEFA Euro qualification,played,Wales,WAL,Switzerland,CHE,TRUE,0,2,loss,Wrexham,Wales,FALSE,1593,1706,1564,1735,-29
-2000-02-23,Friendly,played,Wales,WAL,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1564,1443,1573,1434,9
-2000-03-29,Friendly,played,Wales,WAL,Finland,,TRUE,1,2,loss,Cardiff,Wales,FALSE,1573,1563,1560,1576,-13
-2000-05-23,Friendly,played,Wales,WAL,Brazil,BRA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1560,2087,1557,2090,-3
-2000-06-02,Friendly,played,Wales,WAL,Portugal,PRT,FALSE,0,3,loss,Chaves,Portugal,FALSE,1557,1907,1555,1909,-2
-2000-09-02,FIFA World Cup qualification,played,Wales,WAL,Belarus,,FALSE,1,2,loss,Minsk,Belarus,FALSE,1555,1387,1531,1411,-24
-2000-10-07,FIFA World Cup qualification,played,Wales,WAL,Norway,NOR,TRUE,1,1,draw,Cardiff,Wales,FALSE,1531,1848,1542,1837,11
-2000-10-11,FIFA World Cup qualification,played,Wales,WAL,Poland,POL,FALSE,0,0,draw,Warsaw,Poland,FALSE,1542,1773,1557,1758,15
-2001-03-24,FIFA World Cup qualification,played,Wales,WAL,Armenia,,FALSE,2,2,draw,Yerevan,Armenia,FALSE,1557,1414,1555,1416,-2
-2001-03-28,FIFA World Cup qualification,played,Wales,WAL,Ukraine,UKR,TRUE,1,1,draw,Cardiff,Wales,FALSE,1555,1682,1557,1680,2
-2001-06-02,FIFA World Cup qualification,played,Wales,WAL,Poland,POL,TRUE,1,2,loss,Cardiff,Wales,FALSE,1557,1805,1545,1817,-12
-2001-06-06,FIFA World Cup qualification,played,Wales,WAL,Ukraine,UKR,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,1545,1680,1557,1668,12
-2001-09-01,FIFA World Cup qualification,played,Wales,WAL,Armenia,,TRUE,0,0,draw,Cardiff,Wales,FALSE,1557,1424,1545,1436,-12
-2001-09-05,FIFA World Cup qualification,played,Wales,WAL,Norway,NOR,FALSE,2,3,loss,Oslo,Norway,FALSE,1545,1731,1539,1737,-6
-2001-10-06,FIFA World Cup qualification,played,Wales,WAL,Belarus,,TRUE,1,0,win,Cardiff,Wales,FALSE,1539,1522,1553,1508,14
-2002-02-13,Friendly,played,Wales,WAL,Argentina,ARG,TRUE,1,1,draw,Cardiff,Wales,FALSE,1553,2024,1561,2016,8
-2002-03-27,Friendly,played,Wales,WAL,Czechia,CZE,TRUE,0,0,draw,Cardiff,Wales,FALSE,1561,1835,1566,1830,5
-2002-05-14,Friendly,played,Wales,WAL,Germany,DEU,TRUE,1,0,win,Cardiff,Wales,FALSE,1566,1879,1581,1864,15
-2002-08-21,Friendly,played,Wales,WAL,Croatia,HRV,FALSE,1,1,draw,Varaždin,Croatia,FALSE,1581,1846,1589,1838,8
-2002-09-07,UEFA Euro qualification,played,Wales,WAL,Finland,,FALSE,2,0,win,Helsinki,Finland,FALSE,1589,1729,1637,1681,48
-2002-10-16,UEFA Euro qualification,played,Wales,WAL,Italy,ITA,TRUE,2,1,win,Cardiff,Wales,FALSE,1637,1909,1666,1880,29
-2002-11-20,UEFA Euro qualification,played,Wales,WAL,Azerbaijan,,FALSE,2,0,win,Baku,Azerbaijan,FALSE,1666,1320,1678,1308,12
-2003-02-12,Friendly,played,Wales,WAL,Bosnia and Herzegovina,BIH,TRUE,2,2,draw,Cardiff,Wales,FALSE,1678,1501,1671,1508,-7
-2003-03-29,UEFA Euro qualification,played,Wales,WAL,Azerbaijan,,TRUE,4,0,win,Cardiff,Wales,FALSE,1671,1327,1676,1322,5
-2003-05-26,Friendly,played,Wales,WAL,United States,USA,FALSE,0,2,loss,San Jose,United States,FALSE,1676,1831,1670,1837,-6
-2003-08-20,UEFA Euro qualification,played,Wales,WAL,Serbia and Montenegro,SCG,FALSE,0,1,loss,Belgrade,Serbia and Montenegro,FALSE,1670,1704,1657,1717,-13
-2003-09-06,UEFA Euro qualification,played,Wales,WAL,Italy,ITA,FALSE,0,4,loss,Milan,Italy,FALSE,1657,1939,1650,1946,-7
-2003-09-10,UEFA Euro qualification,played,Wales,WAL,Finland,,TRUE,1,1,draw,Cardiff,Wales,FALSE,1650,1702,1647,1705,-3
-2003-10-11,UEFA Euro qualification,played,Wales,WAL,Serbia and Montenegro,SCG,TRUE,2,3,loss,Cardiff,Wales,FALSE,1647,1724,1626,1745,-21
-2003-11-15,UEFA Euro qualification,played,Wales,WAL,Russia,RUS,FALSE,0,0,draw,Moscow,Russia,FALSE,1626,1790,1639,1777,13
-2003-11-19,UEFA Euro qualification,played,Wales,WAL,Russia,RUS,TRUE,0,1,loss,Cardiff,Wales,FALSE,1639,1777,1621,1795,-18
-2004-02-18,Friendly,played,Wales,WAL,Scotland,SCO,TRUE,4,0,win,Cardiff,Wales,FALSE,1621,1678,1637,1662,16
-2004-05-27,Friendly,played,Wales,WAL,Norway,NOR,FALSE,0,0,draw,Oslo,Norway,FALSE,1647,1793,1653,1787,6
-2004-05-30,Friendly,played,Wales,WAL,Canada,CAN,TRUE,1,0,win,Wrexham,Wales,FALSE,1653,1601,1659,1595,6
-2004-08-18,Friendly,played,Wales,WAL,Latvia,,FALSE,2,0,win,Riga,Latvia,FALSE,1659,1531,1673,1517,14
-2004-09-04,FIFA World Cup qualification,played,Wales,WAL,Azerbaijan,,FALSE,1,1,draw,Baku,Azerbaijan,FALSE,1673,1383,1663,1393,-10
-2004-09-08,FIFA World Cup qualification,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,2,draw,Cardiff,Wales,FALSE,1663,1491,1650,1504,-13
-2004-10-09,FIFA World Cup qualification,played,Wales,WAL,England,ENG,FALSE,0,2,loss,Manchester,England,FALSE,1650,1978,1645,1983,-5
-2004-10-13,FIFA World Cup qualification,played,Wales,WAL,Poland,POL,TRUE,2,3,loss,Cardiff,Wales,FALSE,1645,1776,1627,1794,-18
-2005-02-09,Friendly,played,Wales,WAL,Hungary,HUN,TRUE,2,0,win,Cardiff,Wales,FALSE,1627,1607,1637,1597,10
-2005-03-26,FIFA World Cup qualification,played,Wales,WAL,Austria,AUT,TRUE,0,2,loss,Cardiff,Wales,FALSE,1637,1637,1599,1675,-38
-2005-03-30,FIFA World Cup qualification,played,Wales,WAL,Austria,AUT,FALSE,0,1,loss,Vienna,Austria,FALSE,1599,1675,1588,1686,-11
-2005-08-17,Friendly,played,Wales,WAL,Slovenia,SVN,TRUE,0,0,draw,Swansea,Wales,FALSE,1588,1649,1587,1650,-1
-2005-09-03,FIFA World Cup qualification,played,Wales,WAL,England,ENG,TRUE,0,1,loss,Cardiff,Wales,FALSE,1587,1971,1580,1978,-7
-2005-09-07,FIFA World Cup qualification,played,Wales,WAL,Poland,POL,FALSE,0,1,loss,Warsaw,Poland,FALSE,1580,1833,1575,1838,-5
-2005-10-08,FIFA World Cup qualification,played,Wales,WAL,Northern Ireland,NIR,FALSE,3,2,win,Belfast,Northern Ireland,FALSE,1575,1528,1598,1505,23
-2005-10-12,FIFA World Cup qualification,played,Wales,WAL,Azerbaijan,,TRUE,2,0,win,Cardiff,Wales,FALSE,1598,1356,1605,1349,7
-2005-11-16,Friendly,played,Wales,WAL,Cyprus,,FALSE,0,1,loss,Limassol,Cyprus,FALSE,1605,1451,1593,1463,-12
-2006-03-01,Friendly,played,Wales,WAL,Paraguay,PRY,TRUE,0,0,draw,Cardiff,Wales,FALSE,1593,1778,1595,1776,2
-2006-05-21,Friendly,played,Wales,WAL,Basque Country,,FALSE,1,0,win,Bilbao,Spain,FALSE,,,,,
-2006-05-27,Friendly,played,Wales,WAL,Trinidad and Tobago,TTO,TRUE,2,1,win,Graz,Austria,TRUE,1595,1588,1605,1578,10
-2006-08-15,Friendly,played,Wales,WAL,Bulgaria,BGR,TRUE,0,0,draw,Swansea,Wales,FALSE,1605,1711,1605,1711,0
-2006-09-02,UEFA Euro qualification,played,Wales,WAL,Czechia,CZE,FALSE,1,2,loss,Teplice,Czech Republic,FALSE,1605,1854,1600,1859,-5
-2006-09-05,Friendly,played,Wales,WAL,Brazil,BRA,TRUE,0,2,loss,London,England,TRUE,1600,2068,1598,2070,-2
-2006-10-07,UEFA Euro qualification,played,Wales,WAL,Slovakia,SVK,TRUE,1,5,loss,Cardiff,Wales,FALSE,1598,1678,1558,1718,-40
-2006-10-11,UEFA Euro qualification,played,Wales,WAL,Cyprus,,TRUE,3,1,win,Cardiff,Wales,FALSE,1558,1508,1576,1490,18
-2006-11-14,Friendly,played,Wales,WAL,Liechtenstein,,TRUE,4,0,win,Wrexham,Wales,FALSE,1576,1115,1577,1114,1
-2007-02-06,Friendly,played,Wales,WAL,Northern Ireland,NIR,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1577,1536,1579,1534,2
-2007-03-24,UEFA Euro qualification,played,Wales,WAL,Republic of Ireland,IRL,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
-2007-03-28,UEFA Euro qualification,played,Wales,WAL,San Marino,,TRUE,3,0,win,Cardiff,Wales,FALSE,1572,937,1573,936,1
-2007-05-26,Friendly,played,Wales,WAL,New Zealand,NZL,TRUE,2,2,draw,Wrexham,Wales,FALSE,1573,1484,1568,1489,-5
-2007-06-02,UEFA Euro qualification,played,Wales,WAL,Czechia,CZE,TRUE,0,0,draw,Cardiff,Wales,FALSE,1568,1875,1579,1864,11
-2007-08-22,Friendly,played,Wales,WAL,Bulgaria,BGR,FALSE,1,0,win,Burgas,Bulgaria,FALSE,1579,1774,1596,1757,17
-2007-09-08,UEFA Euro qualification,played,Wales,WAL,Germany,DEU,TRUE,0,2,loss,Cardiff,Wales,FALSE,1596,2004,1587,2013,-9
-2007-09-12,UEFA Euro qualification,played,Wales,WAL,Slovakia,SVK,FALSE,5,2,win,Trnava,Slovakia,FALSE,1587,1716,1642,1661,55
-2007-10-13,UEFA Euro qualification,played,Wales,WAL,Cyprus,,FALSE,1,3,loss,Nicosia,Cyprus,FALSE,1642,1496,1608,1530,-34
-2007-10-17,UEFA Euro qualification,played,Wales,WAL,San Marino,,FALSE,2,1,win,Serravalle,San Marino,FALSE,1608,929,1609,928,1
-2007-11-17,UEFA Euro qualification,played,Wales,WAL,Republic of Ireland,IRL,TRUE,2,2,draw,Cardiff,Wales,FALSE,,,,,
-2007-11-21,UEFA Euro qualification,played,Wales,WAL,Germany,DEU,FALSE,0,0,draw,Frankfurt am Main,Germany,FALSE,1613,1960,1630,1943,17
-2008-02-06,Friendly,played,Wales,WAL,Norway,NOR,TRUE,3,0,win,Wrexham,Wales,FALSE,1630,1772,1650,1752,20
-2008-03-26,Friendly,played,Wales,WAL,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1650,1038,1651,1037,1
-2008-05-28,Friendly,played,Wales,WAL,Iceland,ISL,FALSE,1,0,win,Reykjavík,Iceland,FALSE,1651,1423,1657,1417,6
-2008-06-01,Friendly,played,Wales,WAL,Netherlands,NLD,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1657,1968,1654,1971,-3
-2008-08-20,Friendly,played,Wales,WAL,Georgia,,TRUE,1,2,loss,Swansea,Wales,FALSE,1654,1504,1638,1520,-16
-2008-09-06,FIFA World Cup qualification,played,Wales,WAL,Azerbaijan,,TRUE,1,0,win,Cardiff,Wales,FALSE,1638,1371,1642,1367,4
-2008-09-10,FIFA World Cup qualification,played,Wales,WAL,Russia,RUS,FALSE,1,2,loss,Moscow,Russia,FALSE,1642,1875,1637,1880,-5
-2008-10-11,FIFA World Cup qualification,played,Wales,WAL,Liechtenstein,,TRUE,2,0,win,Cardiff,Wales,FALSE,1637,1189,1639,1187,2
-2008-10-15,FIFA World Cup qualification,played,Wales,WAL,Germany,DEU,FALSE,0,1,loss,Mönchengladbach,Germany,FALSE,1639,1976,1636,1979,-3
-2008-11-19,Friendly,played,Wales,WAL,Denmark,DNK,FALSE,1,0,win,Brøndby,Denmark,FALSE,1636,1845,1653,1828,17
-2009-02-11,Friendly,played,Wales,WAL,Poland,POL,TRUE,0,1,loss,Vila Real de Santo António,Portugal,TRUE,1653,1747,1646,1754,-7
-2009-03-28,FIFA World Cup qualification,played,Wales,WAL,Finland,,TRUE,0,2,loss,Cardiff,Wales,FALSE,1646,1657,1608,1695,-38
-2009-04-01,FIFA World Cup qualification,played,Wales,WAL,Germany,DEU,TRUE,0,2,loss,Cardiff,Wales,FALSE,1608,1949,1596,1961,-12
-2009-05-29,Friendly,played,Wales,WAL,Estonia,,TRUE,1,0,win,Llanelli,Wales,FALSE,1596,1420,1599,1417,3
-2009-06-06,FIFA World Cup qualification,played,Wales,WAL,Azerbaijan,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1599,1374,1612,1361,13
-2009-08-12,Friendly,played,Wales,WAL,Montenegro,,FALSE,1,2,loss,Podgorica,Montenegro,FALSE,1612,1654,1606,1660,-6
-2009-09-09,FIFA World Cup qualification,played,Wales,WAL,Russia,RUS,TRUE,1,3,loss,Cardiff,Wales,FALSE,1606,1898,1591,1913,-15
-2009-10-10,FIFA World Cup qualification,played,Wales,WAL,Finland,,FALSE,1,2,loss,Helsinki,Finland,FALSE,1591,1652,1580,1663,-11
-2009-10-14,FIFA World Cup qualification,played,Wales,WAL,Liechtenstein,,FALSE,2,0,win,Vaduz,Liechtenstein,FALSE,1580,1166,1588,1158,8
-2009-11-14,Friendly,played,Wales,WAL,Scotland,SCO,TRUE,3,0,win,Cardiff,Wales,FALSE,1588,1687,1605,1670,17
-2010-03-03,Friendly,played,Wales,WAL,Sweden,SWE,TRUE,0,1,loss,Swansea,Wales,FALSE,1605,1776,1597,1784,-8
-2010-05-23,Friendly,played,Wales,WAL,Croatia,HRV,FALSE,0,2,loss,Osijek,Croatia,FALSE,1597,1898,1594,1901,-3
-2010-08-11,Friendly,played,Wales,WAL,Luxembourg,,TRUE,5,1,win,Llanelli,Wales,FALSE,1594,1099,1595,1098,1
-2010-09-03,UEFA Euro qualification,played,Wales,WAL,Montenegro,,FALSE,0,1,loss,Podgorica,Montenegro,FALSE,1595,1637,1583,1649,-12
-2010-10-08,UEFA Euro qualification,played,Wales,WAL,Bulgaria,BGR,TRUE,0,1,loss,Cardiff,Wales,FALSE,1583,1680,1563,1700,-20
-2010-10-12,UEFA Euro qualification,played,Wales,WAL,Switzerland,CHE,FALSE,1,4,loss,Basel,Switzerland,FALSE,1563,1742,1551,1754,-12
-2011-02-08,Nations Cup,played,Wales,WAL,Republic of Ireland,IRL,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
-2011-03-26,UEFA Euro qualification,played,Wales,WAL,England,ENG,TRUE,0,2,loss,Cardiff,Wales,FALSE,1543,1931,1533,1941,-10
-2011-05-25,Nations Cup,played,Wales,WAL,Scotland,SCO,TRUE,1,3,loss,Dublin,Republic of Ireland,TRUE,1533,1674,1519,1688,-14
-2011-05-27,Nations Cup,played,Wales,WAL,Northern Ireland,NIR,TRUE,2,0,win,Dublin,Republic of Ireland,TRUE,1519,1543,1543,1519,24
-2011-08-10,Friendly,played,Wales,WAL,Australia,AUS,TRUE,1,2,loss,Cardiff,Wales,FALSE,1543,1811,1537,1817,-6
-2011-09-02,UEFA Euro qualification,played,Wales,WAL,Montenegro,,TRUE,2,1,win,Cardiff,Wales,FALSE,1537,1701,1561,1677,24
-2011-09-06,UEFA Euro qualification,played,Wales,WAL,England,ENG,FALSE,0,1,loss,London,England,FALSE,1561,1944,1559,1946,-2
-2011-10-07,UEFA Euro qualification,played,Wales,WAL,Switzerland,CHE,TRUE,2,0,win,Swansea,Wales,FALSE,1559,1779,1599,1739,40
-2011-10-11,UEFA Euro qualification,played,Wales,WAL,Bulgaria,BGR,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1599,1656,1627,1628,28
-2011-11-12,Friendly,played,Wales,WAL,Norway,NOR,TRUE,4,1,win,Cardiff,Wales,FALSE,1627,1774,1647,1754,20
-2012-02-29,Friendly,played,Wales,WAL,Costa Rica,CRI,TRUE,0,1,loss,Cardiff,Wales,FALSE,1647,1663,1635,1675,-12
-2012-05-27,Friendly,played,Wales,WAL,Mexico,MEX,FALSE,0,2,loss,East Rutherford,United States,TRUE,1635,1854,1628,1861,-7
-2012-08-15,Friendly,played,Wales,WAL,Bosnia and Herzegovina,BIH,TRUE,0,2,loss,Llanelli,Wales,FALSE,1628,1682,1611,1699,-17
-2012-09-07,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,TRUE,0,2,loss,Cardiff,Wales,FALSE,1611,1705,1580,1736,-31
-2012-09-11,FIFA World Cup qualification,played,Wales,WAL,Serbia,SRB,FALSE,1,6,loss,Novi Sad,Serbia,FALSE,1580,1714,1563,1731,-17
-2012-10-12,FIFA World Cup qualification,played,Wales,WAL,Scotland,SCO,TRUE,2,1,win,Cardiff,Wales,FALSE,1563,1688,1584,1667,21
-2012-10-16,FIFA World Cup qualification,played,Wales,WAL,Croatia,HRV,FALSE,0,2,loss,Osijek,Croatia,FALSE,1584,1873,1578,1879,-6
-2013-02-06,Friendly,played,Wales,WAL,Austria,AUT,TRUE,2,1,win,Swansea,Wales,FALSE,1578,1603,1586,1595,8
-2013-03-22,FIFA World Cup qualification,played,Wales,WAL,Scotland,SCO,FALSE,2,1,win,Glasgow,Scotland,FALSE,1586,1660,1615,1631,29
-2013-03-26,FIFA World Cup qualification,played,Wales,WAL,Croatia,HRV,TRUE,1,2,loss,Swansea,Wales,FALSE,1615,1901,1605,1911,-10
-2013-08-14,Friendly,played,Wales,WAL,Republic of Ireland,IRL,TRUE,0,0,draw,Cardiff,Wales,FALSE,,,,,
-2013-09-06,FIFA World Cup qualification,played,Wales,WAL,North Macedonia,,FALSE,1,2,loss,Skopje,North Macedonia,FALSE,1606,1541,1588,1559,-18
-2013-09-10,FIFA World Cup qualification,played,Wales,WAL,Serbia,SRB,TRUE,0,3,loss,Cardiff,Wales,FALSE,1588,1693,1554,1727,-34
-2013-10-11,FIFA World Cup qualification,played,Wales,WAL,North Macedonia,,TRUE,1,0,win,Cardiff,Wales,FALSE,1554,1537,1568,1523,14
-2013-10-15,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1568,1884,1585,1867,17
-2013-11-16,Friendly,played,Wales,WAL,Finland,,TRUE,1,1,draw,Cardiff,Wales,FALSE,1585,1672,1585,1672,0
-2014-03-05,Friendly,played,Wales,WAL,Iceland,ISL,TRUE,3,1,win,Cardiff,Wales,FALSE,1585,1537,1594,1528,9
-2014-06-04,Friendly,played,Wales,WAL,Netherlands,NLD,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1594,1983,1592,1985,-2
-2014-09-09,UEFA Euro qualification,played,Wales,WAL,Andorra,,FALSE,2,1,win,Sant Julià de Lòria,Andorra,FALSE,1592,985,1594,983,2
-2014-10-10,UEFA Euro qualification,played,Wales,WAL,Bosnia and Herzegovina,BIH,TRUE,0,0,draw,Cardiff,Wales,FALSE,1594,1743,1597,1740,3
-2014-10-13,UEFA Euro qualification,played,Wales,WAL,Cyprus,,TRUE,2,1,win,Cardiff,Wales,FALSE,1597,1407,1603,1401,6
-2014-11-16,UEFA Euro qualification,played,Wales,WAL,Belgium,BEL,FALSE,0,0,draw,Brussels,Belgium,FALSE,1603,1915,1620,1898,17
-2015-03-28,UEFA Euro qualification,played,Wales,WAL,Israel,ISR,FALSE,3,0,win,Haifa,Israel,FALSE,1620,1683,1670,1633,50
-2015-06-12,UEFA Euro qualification,played,Wales,WAL,Belgium,BEL,TRUE,1,0,win,Cardiff,Wales,FALSE,1670,1926,1698,1898,28
-2015-09-03,UEFA Euro qualification,played,Wales,WAL,Cyprus,,FALSE,1,0,win,Nicosia,Cyprus,FALSE,1698,1410,1708,1400,10
-2015-09-06,UEFA Euro qualification,played,Wales,WAL,Israel,ISR,TRUE,0,0,draw,Cardiff,Wales,FALSE,1708,1608,1698,1618,-10
-2015-10-10,UEFA Euro qualification,played,Wales,WAL,Bosnia and Herzegovina,BIH,FALSE,0,2,loss,Zenica,Bosnia and Herzegovina,FALSE,1698,1720,1678,1740,-20
-2015-10-13,UEFA Euro qualification,played,Wales,WAL,Andorra,,TRUE,2,0,win,Cardiff,Wales,FALSE,1678,960,1679,959,1
-2015-11-13,Friendly,played,Wales,WAL,Netherlands,NLD,TRUE,2,3,loss,Cardiff,Wales,FALSE,1679,1890,1672,1897,-7
-2016-03-24,Friendly,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,1,draw,Cardiff,Wales,FALSE,1672,1594,1667,1599,-5
-2016-03-28,Friendly,played,Wales,WAL,Ukraine,UKR,FALSE,0,1,loss,Kyiv,Ukraine,FALSE,1667,1817,1663,1821,-4
-2016-06-05,Friendly,played,Wales,WAL,Sweden,SWE,FALSE,0,3,loss,Solna,Sweden,FALSE,1663,1753,1654,1762,-9
-2016-06-11,UEFA Euro,played,Wales,WAL,Slovakia,SVK,TRUE,2,1,win,Bordeaux,France,TRUE,1654,1765,1687,1732,33
-2016-06-16,UEFA Euro,played,Wales,WAL,England,ENG,FALSE,1,2,loss,Lens,France,TRUE,1687,1956,1678,1965,-9
-2016-06-20,UEFA Euro,played,Wales,WAL,Russia,RUS,FALSE,3,0,win,Toulouse,France,TRUE,1678,1744,1730,1692,52
-2016-06-25,UEFA Euro,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,0,win,Paris,France,TRUE,1730,1662,1750,1642,20
-2016-07-01,UEFA Euro,played,Wales,WAL,Belgium,BEL,TRUE,3,1,win,Villeneuve-d'Ascq,France,TRUE,1750,1947,1807,1890,57
-2016-07-06,UEFA Euro,played,Wales,WAL,Portugal,PRT,FALSE,0,2,loss,Lyon,France,TRUE,1807,1891,1778,1920,-29
-2016-09-05,FIFA World Cup qualification,played,Wales,WAL,Moldova,,TRUE,4,0,win,Cardiff,Wales,FALSE,1778,1350,1781,1347,3
-2016-10-06,FIFA World Cup qualification,played,Wales,WAL,Austria,AUT,FALSE,2,2,draw,Vienna,Austria,FALSE,1781,1726,1784,1723,3
-2016-10-09,FIFA World Cup qualification,played,Wales,WAL,Georgia,,TRUE,1,1,draw,Cardiff,Wales,FALSE,1784,1468,1767,1485,-17
-2016-11-12,FIFA World Cup qualification,played,Wales,WAL,Serbia,SRB,TRUE,1,1,draw,Cardiff,Wales,FALSE,1767,1747,1760,1754,-7
-2017-03-24,FIFA World Cup qualification,played,Wales,WAL,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
-2017-06-11,FIFA World Cup qualification,played,Wales,WAL,Serbia,SRB,FALSE,1,1,draw,Belgrade,Serbia,FALSE,1768,1762,1773,1757,5
-2017-09-02,FIFA World Cup qualification,played,Wales,WAL,Austria,AUT,TRUE,1,0,win,Cardiff,Wales,FALSE,1773,1695,1784,1684,11
-2017-09-05,FIFA World Cup qualification,played,Wales,WAL,Moldova,,FALSE,2,0,win,Chișinău,Moldova,FALSE,1784,1349,1792,1341,8
-2017-10-06,FIFA World Cup qualification,played,Wales,WAL,Georgia,,FALSE,1,0,win,Tbilisi,Georgia,FALSE,1792,1493,1802,1483,10
-2017-10-09,FIFA World Cup qualification,played,Wales,WAL,Republic of Ireland,IRL,TRUE,0,1,loss,Cardiff,Wales,FALSE,,,,,
-2017-11-10,Friendly,played,Wales,WAL,France,FRA,FALSE,0,2,loss,Saint-Denis,France,FALSE,1773,1978,1769,1982,-4
-2017-11-14,Friendly,played,Wales,WAL,Panama,PAN,TRUE,1,1,draw,Cardiff,Wales,FALSE,1769,1665,1764,1670,-5
-2018-03-22,Friendly,played,Wales,WAL,China PR,,FALSE,6,0,win,Nanning,China PR,FALSE,,,,,
-2018-03-26,Friendly,played,Wales,WAL,Uruguay,URY,TRUE,0,1,loss,Nanning,China PR,TRUE,1787,1878,1776,1889,-11
-2018-05-28,Friendly,played,Wales,WAL,Mexico,MEX,FALSE,0,0,draw,Pasadena,United States,TRUE,1776,1858,1778,1856,2
-2018-09-06,UEFA Nations League,played,Wales,WAL,Republic of Ireland,IRL,TRUE,4,1,win,Cardiff,Wales,FALSE,,,,,
-2018-09-09,UEFA Nations League,played,Wales,WAL,Denmark,DNK,FALSE,0,2,loss,Aarhus,Denmark,FALSE,1799,1874,1783,1890,-16
-2018-10-11,Friendly,played,Wales,WAL,Spain,ESP,TRUE,1,4,loss,Cardiff,Wales,FALSE,1783,2051,1773,2061,-10
-2018-10-16,UEFA Nations League,played,Wales,WAL,Republic of Ireland,IRL,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
-2018-11-16,UEFA Nations League,played,Wales,WAL,Denmark,DNK,TRUE,1,2,loss,Cardiff,Wales,FALSE,1796,1892,1776,1912,-20
-2018-11-20,Friendly,played,Wales,WAL,Albania,,FALSE,0,1,loss,Elbasan,Albania,FALSE,1776,1499,1761,1514,-15
-2019-03-20,Friendly,played,Wales,WAL,Trinidad and Tobago,TTO,TRUE,1,0,win,Wrexham,Wales,FALSE,1761,1432,1763,1430,2
-2019-03-24,UEFA Euro qualification,played,Wales,WAL,Slovakia,SVK,TRUE,1,0,win,Cardiff,Wales,FALSE,1763,1759,1777,1745,14
-2019-06-08,UEFA Euro qualification,played,Wales,WAL,Croatia,HRV,FALSE,1,2,loss,Osijek,Croatia,FALSE,1777,1894,1768,1903,-9
-2019-06-11,UEFA Euro qualification,played,Wales,WAL,Hungary,HUN,FALSE,0,1,loss,Budapest,Hungary,FALSE,1768,1648,1747,1669,-21
-2019-09-06,UEFA Euro qualification,played,Wales,WAL,Azerbaijan,,TRUE,2,1,win,Cardiff,Wales,FALSE,1747,1365,1749,1363,2
-2019-09-09,Friendly,played,Wales,WAL,Belarus,,TRUE,1,0,win,Cardiff,Wales,FALSE,1749,1522,1752,1519,3
-2019-10-10,UEFA Euro qualification,played,Wales,WAL,Slovakia,SVK,FALSE,1,1,draw,Trnava,Slovakia,FALSE,1752,1749,1757,1744,5
-2019-10-13,UEFA Euro qualification,played,Wales,WAL,Croatia,HRV,TRUE,1,1,draw,Cardiff,Wales,FALSE,1757,1911,1760,1908,3
-2019-11-16,UEFA Euro qualification,played,Wales,WAL,Azerbaijan,,FALSE,2,0,win,Baku,Azerbaijan,FALSE,1760,1391,1771,1380,11
-2019-11-19,UEFA Euro qualification,played,Wales,WAL,Hungary,HUN,TRUE,2,0,win,Cardiff,Wales,FALSE,1771,1630,1783,1618,12
-2020-09-03,UEFA Nations League,played,Wales,WAL,Finland,,FALSE,1,0,win,Helsinki,Finland,FALSE,1783,1646,1801,1628,18
-2020-09-06,UEFA Nations League,played,Wales,WAL,Bulgaria,BGR,TRUE,1,0,win,Cardiff,Wales,FALSE,1801,1563,1806,1558,5
-2020-10-08,Friendly,played,Wales,WAL,England,ENG,FALSE,0,3,loss,London,England,FALSE,1806,1966,1800,1972,-6
-2020-10-11,UEFA Nations League,played,Wales,WAL,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
-2020-10-14,UEFA Nations League,played,Wales,WAL,Bulgaria,BGR,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1800,1513,1810,1503,10
-2020-11-12,Friendly,played,Wales,WAL,United States,USA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1810,1726,1805,1731,-5
-2020-11-15,UEFA Nations League,played,Wales,WAL,Republic of Ireland,IRL,TRUE,1,0,win,Cardiff,Wales,FALSE,,,,,
-2020-11-18,UEFA Nations League,played,Wales,WAL,Finland,,TRUE,3,1,win,Cardiff,Wales,FALSE,1814,1722,1829,1707,15
-2021-03-24,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,FALSE,1,3,loss,Leuven,Belgium,FALSE,1829,2110,1823,2116,-6
-2021-03-27,Friendly,played,Wales,WAL,Mexico,MEX,TRUE,1,0,win,Cardiff,Wales,FALSE,1823,1928,1833,1918,10
-2021-03-30,FIFA World Cup qualification,played,Wales,WAL,Czechia,CZE,TRUE,1,0,win,Cardiff,Wales,FALSE,1833,1780,1845,1768,12
-2021-06-02,Friendly,played,Wales,WAL,France,FRA,FALSE,0,3,loss,Nice,France,FALSE,1845,2083,1841,2087,-4
-2021-06-05,Friendly,played,Wales,WAL,Albania,,TRUE,0,0,draw,Cardiff,Wales,FALSE,1841,1552,1833,1560,-8
-2021-06-12,UEFA Euro,played,Wales,WAL,Switzerland,CHE,TRUE,1,1,draw,Cardiff,Wales,FALSE,1833,1889,1837,1885,4
-2021-06-16,UEFA Euro,played,Wales,WAL,Turkey,TUR,FALSE,2,0,win,Baku,Azerbaijan,TRUE,1837,1788,1869,1756,32
-2021-06-20,UEFA Euro,played,Wales,WAL,Italy,ITA,FALSE,0,1,loss,Rome,Italy,FALSE,1869,2043,1860,2052,-9
-2021-06-26,UEFA Euro,played,Wales,WAL,Denmark,DNK,TRUE,0,4,loss,Amsterdam,Netherlands,TRUE,1860,1925,1822,1963,-38
-2021-09-01,Friendly,played,Wales,WAL,Finland,,FALSE,0,0,draw,Helsinki,Finland,FALSE,1822,1704,1821,1705,-1
-2021-09-05,FIFA World Cup qualification,played,Wales,WAL,Belarus,,FALSE,3,2,win,Kazan,Russia,TRUE,1821,1488,1826,1483,5
-2021-09-08,FIFA World Cup qualification,played,Wales,WAL,Estonia,,TRUE,0,0,draw,Cardiff,Wales,FALSE,1826,1394,1808,1412,-18
-2021-10-08,FIFA World Cup qualification,played,Wales,WAL,Czechia,CZE,FALSE,2,2,draw,Prague,Czech Republic,FALSE,1808,1828,1815,1821,7
-2021-10-11,FIFA World Cup qualification,played,Wales,WAL,Estonia,,FALSE,1,0,win,Tallinn,Estonia,FALSE,1815,1439,1822,1432,7
-2021-11-13,FIFA World Cup qualification,played,Wales,WAL,Belarus,,TRUE,5,1,win,Cardiff,Wales,FALSE,1822,1448,1827,1443,5
-2021-11-16,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,TRUE,1,1,draw,Cardiff,Wales,FALSE,1827,2082,1835,2074,8
-2022-03-24,FIFA World Cup qualification,played,Wales,WAL,Austria,AUT,TRUE,2,1,win,Cardiff,Wales,FALSE,1835,1730,1844,1721,9
-2022-03-29,Friendly,played,Wales,WAL,Czechia,CZE,TRUE,1,1,draw,Cardiff,Wales,FALSE,1844,1818,1841,1821,-3
-2022-06-01,UEFA Nations League,played,Wales,WAL,Poland,POL,FALSE,1,2,loss,Wrocław,Poland,FALSE,1841,1798,1824,1815,-17
-2022-06-05,FIFA World Cup qualification,played,Wales,WAL,Ukraine,UKR,TRUE,1,0,win,Cardiff,Wales,FALSE,1824,1848,1840,1832,16
-2022-06-08,UEFA Nations League,played,Wales,WAL,Netherlands,NLD,TRUE,1,2,loss,Cardiff,Wales,FALSE,1840,1993,1823,2010,-17
-2022-06-11,UEFA Nations League,played,Wales,WAL,Belgium,BEL,TRUE,1,1,draw,Cardiff,Wales,FALSE,1823,2025,1829,2019,6
-2022-06-14,UEFA Nations League,played,Wales,WAL,Netherlands,NLD,FALSE,2,3,loss,Rotterdam,Netherlands,FALSE,1829,1996,1822,2003,-7
-2022-09-22,UEFA Nations League,played,Wales,WAL,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1822,2033,1816,2039,-6
-2022-09-25,UEFA Nations League,played,Wales,WAL,Poland,POL,TRUE,0,1,loss,Cardiff,Wales,FALSE,1816,1781,1789,1808,-27
-2022-11-21,FIFA World Cup,played,Wales,WAL,United States,USA,FALSE,1,1,draw,Al Rayyan,Qatar,TRUE,1789,1796,1790,1795,1
-2022-11-25,FIFA World Cup,played,Wales,WAL,Iran,IRN,TRUE,0,2,loss,Al Rayyan,Qatar,TRUE,1790,1761,1741,1810,-49
-2022-11-29,FIFA World Cup,played,Wales,WAL,England,ENG,TRUE,0,3,loss,Al Rayyan,Qatar,TRUE,1741,1943,1716,1968,-25
-2023-03-25,UEFA Euro qualification,played,Wales,WAL,Croatia,HRV,FALSE,1,1,draw,Split,Croatia,FALSE,1716,1950,1731,1935,15
-2023-03-28,UEFA Euro qualification,played,Wales,WAL,Latvia,,TRUE,1,0,win,Cardiff,Wales,FALSE,1731,1350,1733,1348,2
-2023-06-16,UEFA Euro qualification,played,Wales,WAL,Armenia,,TRUE,2,4,loss,Cardiff,Wales,FALSE,1733,1435,1679,1489,-54
-2023-06-19,UEFA Euro qualification,played,Wales,WAL,Turkey,TUR,FALSE,0,2,loss,Samsun,Turkey,FALSE,1679,1709,1660,1728,-19
-2023-09-07,Friendly,played,Wales,WAL,South Korea,KOR,TRUE,0,0,draw,Cardiff,Wales,FALSE,1660,1760,1660,1760,0
-2023-09-11,UEFA Euro qualification,played,Wales,WAL,Latvia,,FALSE,2,0,win,Riga,Latvia,FALSE,1660,1331,1673,1318,13
-2023-10-11,Friendly,played,Wales,WAL,Gibraltar,,TRUE,4,0,win,Wrexham,Wales,FALSE,1673,1061,1674,1060,1
-2023-10-15,UEFA Euro qualification,played,Wales,WAL,Croatia,HRV,TRUE,2,1,win,Cardiff,Wales,FALSE,1674,1978,1705,1947,31
-2023-11-18,UEFA Euro qualification,played,Wales,WAL,Armenia,,FALSE,1,1,draw,Yerevan,Armenia,FALSE,1705,1462,1697,1470,-8
-2023-11-21,UEFA Euro qualification,played,Wales,WAL,Turkey,TUR,TRUE,1,1,draw,Cardiff,Wales,FALSE,1697,1763,1695,1765,-2
-2024-03-21,UEFA Euro qualification,played,Wales,WAL,Finland,,TRUE,4,1,win,Cardiff,Wales,FALSE,1695,1641,1715,1621,20
-2024-03-26,UEFA Euro qualification,played,Wales,WAL,Poland,POL,TRUE,0,0,draw,Cardiff,Wales,FALSE,1715,1714,1709,1720,-6
-2024-06-06,Friendly,played,Wales,WAL,Gibraltar,,FALSE,0,0,draw,Faro-Loulé,Portugal,TRUE,1709,1046,1699,1056,-10
-2024-06-09,Friendly,played,Wales,WAL,Slovakia,SVK,FALSE,0,4,loss,Trnava,Slovakia,FALSE,1699,1654,1683,1670,-16
-2024-09-06,UEFA Nations League,played,Wales,WAL,Turkey,TUR,TRUE,0,0,draw,Cardiff,Wales,FALSE,1683,1804,1684,1803,1
-2024-09-09,UEFA Nations League,played,Wales,WAL,Montenegro,,FALSE,2,1,win,Nikšić,Montenegro,FALSE,1684,1533,1701,1516,17
-2024-10-11,UEFA Nations League,played,Wales,WAL,Iceland,ISL,FALSE,2,2,draw,Reykjavík,Iceland,FALSE,1701,1574,1699,1576,-2
-2024-10-14,UEFA Nations League,played,Wales,WAL,Montenegro,,TRUE,1,0,win,Cardiff,Wales,FALSE,1699,1512,1705,1506,6
-2024-11-16,UEFA Nations League,played,Wales,WAL,Turkey,TUR,FALSE,0,0,draw,Kayseri,Turkey,FALSE,1705,1834,1717,1822,12
-2024-11-19,UEFA Nations League,played,Wales,WAL,Iceland,ISL,TRUE,4,1,win,Cardiff,Wales,FALSE,1717,1591,1732,1576,15
-2025-03-22,FIFA World Cup qualification,played,Wales,WAL,Kazakhstan,,TRUE,3,1,win,Cardiff,Wales,FALSE,1732,1425,1737,1420,5
-2025-03-25,FIFA World Cup qualification,played,Wales,WAL,North Macedonia,,FALSE,1,1,draw,Skopje,North Macedonia,FALSE,1737,1612,1736,1613,-1
-2025-06-06,FIFA World Cup qualification,played,Wales,WAL,Liechtenstein,,TRUE,3,0,win,Cardiff,Wales,FALSE,1736,906,1736,906,0
-2025-06-09,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,FALSE,3,4,loss,Brussels,Belgium,FALSE,1736,1837,1726,1847,-10
-2025-09-04,FIFA World Cup qualification,played,Wales,WAL,Kazakhstan,,FALSE,1,0,win,Astana,Kazakhstan,FALSE,1726,1401,1735,1392,9
-2025-09-09,Friendly,played,Wales,WAL,Canada,CAN,TRUE,0,1,loss,Cardiff,Wales,FALSE,1735,1786,1724,1797,-11
-2025-10-09,Friendly,played,Wales,WAL,England,ENG,FALSE,0,3,loss,London,England,FALSE,1724,2019,1721,2022,-3
-2025-10-13,FIFA World Cup qualification,played,Wales,WAL,Belgium,BEL,TRUE,2,4,loss,Cardiff,Wales,FALSE,1721,1836,1692,1865,-29
-2025-11-15,FIFA World Cup qualification,played,Wales,WAL,Liechtenstein,,FALSE,1,0,win,Vaduz,Liechtenstein,FALSE,1692,901,1693,900,1
-2025-11-18,FIFA World Cup qualification,played,Wales,WAL,North Macedonia,,TRUE,7,1,win,Cardiff,Wales,FALSE,1693,1614,1715,1592,22
-2026-03-26,FIFA World Cup qualification,played,Wales,WAL,Bosnia and Herzegovina,BIH,TRUE,1,1,draw,Cardiff,Wales,FALSE,1715,1572,1703,1584,-12
-2026-03-31,Friendly,played,Wales,WAL,Northern Ireland,NIR,TRUE,1,1,draw,Cardiff,Wales,FALSE,1703,1596,1698,1601,-5
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1876-03-25,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,4,loss,Glasgow,Scotland,FALSE,1500,2010,1499,2011,-1
+,,,1877-03-05,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,1499,2029,1497,2031,-2
+,,,1878-03-23,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,9,loss,Glasgow,Scotland,FALSE,1497,2042,1496,2043,-1
+,,,1879-01-18,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,London,England,FALSE,1496,1961,1495,1962,-1
+,,,1879-04-07,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,3,loss,Wrexham,Wales,FALSE,1495,2034,1492,2037,-3
+,,,1880-03-15,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,2,3,loss,Wrexham,Wales,FALSE,1492,1965,1490,1967,-2
+,,,1880-03-27,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,5,loss,Glasgow,Scotland,FALSE,1490,2043,1489,2044,-1
+,,,1881-02-26,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,0,win,Blackburn,England,FALSE,1489,1967,1508,1948,19
+,,,1881-03-14,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,5,loss,Wrexham,Wales,FALSE,1508,2064,1505,2067,-3
+,,,1882-02-25,Friendly,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,7,1,win,Wrexham,Wales,FALSE,1505,1297,1511,1291,6
+,,,1882-03-13,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,5,3,win,Wrexham,Wales,FALSE,1511,1923,1537,1897,26
+,,,1882-03-25,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,5,loss,Glasgow,Scotland,FALSE,1537,2075,1536,2076,-1
+,,,1883-02-03,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,5,loss,London,England,FALSE,1536,1897,1533,1900,-3
+,,,1883-03-12,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,3,loss,Wrexham,Wales,FALSE,1533,2084,1531,2086,-2
+,,,1883-03-17,Friendly,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Ireland,FALSE,1531,1290,1527,1294,-4
+,,,1884-02-09,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,6,0,win,Wrexham,Wales,FALSE,1527,1293,1538,1282,11
+,,,1884-03-17,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,4,loss,Wrexham,Wales,FALSE,1538,1892,1524,1906,-14
+,,,1884-03-29,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,4,loss,Glasgow,Scotland,FALSE,1524,2093,1523,2094,-1
+,,,1885-03-14,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,Blackburn,England,FALSE,1523,1907,1541,1889,18
+,,,1885-03-23,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,8,loss,Wrexham,Wales,FALSE,1541,2088,1535,2094,-6
+,,,1885-04-11,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,8,2,win,Belfast,Ireland,FALSE,1535,1276,1559,1252,24
+,,,1886-02-27,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,5,0,win,Wrexham,Wales,FALSE,1559,1252,1566,1245,7
+,,,1886-03-29,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,3,loss,Wrexham,Wales,FALSE,1566,1912,1554,1924,-12
+,,,1886-04-10,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,4,loss,Glasgow,Scotland,FALSE,1554,2081,1552,2083,-2
+,,,1887-02-26,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,4,loss,London,England,FALSE,1552,1925,1547,1930,-5
+,,,1887-03-12,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,4,loss,Belfast,Ireland,FALSE,1547,1240,1493,1294,-54
+,,,1887-03-21,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,1493,2100,1490,2103,-3
+,,,1888-02-04,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,5,loss,Crewe,England,FALSE,1490,1913,1486,1917,-4
+,,,1888-03-03,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,11,0,win,Wrexham,Wales,FALSE,1486,1294,1503,1277,17
+,,,1888-03-10,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,5,loss,Edinburgh,Scotland,FALSE,1503,2103,1502,2104,-1
+,,,1889-02-23,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,4,loss,Stoke-on-Trent,England,FALSE,1502,1986,1500,1988,-2
+,,,1889-04-15,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Wrexham,Wales,FALSE,1500,2063,1517,2046,17
+,,,1889-04-27,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,1,win,Belfast,Ireland,FALSE,1517,1271,1535,1253,18
+,,,1890-02-08,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,5,2,win,Shrewsbury,England,TRUE,1535,1253,1547,1241,12
+,,,1890-03-15,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,3,loss,Wrexham,Wales,FALSE,1547,1969,1539,1977,-8
+,,,1890-03-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,5,loss,Paisley,Scotland,FALSE,1539,2046,1537,2048,-2
+,,,1891-02-07,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,7,loss,Belfast,Ireland,FALSE,1537,1237,1476,1298,-61
+,,,1891-03-07,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,4,loss,Sunderland,England,FALSE,1476,1986,1474,1988,-2
+,,,1891-03-21,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,4,loss,Wrexham,Wales,FALSE,1474,2040,1471,2043,-3
+,,,1892-02-27,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Bangor,Wales,FALSE,1471,1297,1458,1310,-13
+,,,1892-03-05,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,1458,2008,1454,2012,-4
+,,,1892-03-26,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,6,loss,Edinburgh,Scotland,FALSE,1454,2027,1452,2029,-2
+,,,1893-03-13,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,6,loss,Stoke-on-Trent,England,FALSE,1452,2059,1451,2060,-1
+,,,1893-03-18,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,8,loss,Wrexham,Wales,FALSE,1451,1983,1444,1990,-7
+,,,1894-02-24,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,4,1,win,Swansea,Wales,FALSE,1422,1327,1439,1310,17
+,,,1894-03-12,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,5,loss,Wrexham,Wales,FALSE,1439,2060,1435,2064,-4
+,,,1894-03-24,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,5,loss,Kilmarnock,Scotland,FALSE,1435,1972,1433,1974,-2
+,,,1895-03-16,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,2,draw,Belfast,Ireland,FALSE,1433,1326,1433,1326,0
+,,,1895-03-18,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1433,2066,1452,2047,19
+,,,1895-03-23,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Wrexham,Wales,FALSE,1452,1975,1469,1958,17
+,,,1896-02-29,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,6,1,win,Wrexham,Wales,FALSE,1469,1325,1485,1309,16
+,,,1896-03-16,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,9,loss,Cardiff,Wales,FALSE,1485,2066,1479,2072,-6
+,,,1896-03-21,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,4,loss,Dundee,Scotland,FALSE,1479,1941,1476,1944,-3
+,,,1897-03-06,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,4,loss,Belfast,Ireland,FALSE,1476,1325,1453,1348,-23
+,,,1897-03-20,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Wrexham,Wales,FALSE,1453,1949,1469,1933,16
+,,,1897-03-29,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,4,loss,Sheffield,England,FALSE,1469,2050,1468,2051,-1
+,,,1898-02-19,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,1,loss,Llandudno,Wales,FALSE,1468,1347,1437,1378,-31
+,,,1898-03-19,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,5,loss,Motherwell,Scotland,FALSE,1437,1965,1435,1967,-2
+,,,1898-03-28,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,3,loss,Wrexham,Wales,FALSE,1435,2022,1431,2026,-4
+,,,1899-03-04,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Ireland,FALSE,1431,1371,1413,1389,-18
+,,,1899-03-18,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,6,loss,Wrexham,Wales,FALSE,1413,1937,1406,1944,-7
+,,,1899-03-20,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,4,loss,Bristol,England,FALSE,1406,2061,1405,2062,-1
+,,,1900-02-03,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,5,loss,Aberdeen,Scotland,FALSE,1405,1937,1403,1939,-2
+,,,1900-02-24,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,0,win,Llandudno,Wales,FALSE,1403,1387,1423,1367,20
+,,,1900-03-26,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1423,2073,1441,2055,18
+,,,1901-03-02,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,1,draw,Wrexham,Wales,FALSE,1441,1981,1458,1964,17
+,,,1901-03-18,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,6,loss,Newcastle,England,FALSE,1458,2020,1456,2022,-2
+,,,1901-03-23,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,0,win,Belfast,Ireland,FALSE,1456,1358,1476,1338,20
+,,,1902-02-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1476,1338,1420,1394,-56
+,,,1902-03-03,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Wrexham,Wales,FALSE,1420,2013,1438,1995,18
+,,,1902-03-15,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,5,loss,Greenock,Scotland,FALSE,1438,1977,1436,1979,-2
+,,,1903-03-02,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,Portsmouth,England,FALSE,1436,1996,1435,1997,-1
+,,,1903-03-09,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1435,1983,1432,1986,-3
+,,,1903-03-28,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,2,loss,Belfast,Ireland,FALSE,1432,1444,1411,1465,-21
+,,,1904-02-29,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,2,2,draw,Wrexham,Wales,FALSE,1411,1968,1428,1951,17
+,,,1904-03-12,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Dundee,Scotland,FALSE,1428,1956,1447,1937,19
+,,,1904-03-21,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,1,loss,Bangor,Wales,FALSE,1447,1459,1422,1484,-25
+,,,1905-03-06,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,1,win,Wrexham,Wales,FALSE,1422,1898,1476,1844,54
+,,,1905-03-27,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,3,loss,Liverpool,England,FALSE,1476,1962,1474,1964,-2
+,,,1905-04-08,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,2,draw,Belfast,Ireland,FALSE,1474,1512,1482,1504,8
+,,,1906-03-03,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,0,win,Edinburgh,Scotland,FALSE,1482,1841,1538,1785,56
+,,,1906-03-19,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1538,1982,1533,1987,-5
+,,,1906-04-02,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,4,4,draw,Wrexham,Wales,FALSE,1533,1485,1525,1493,-8
+,,,1907-02-23,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,2,win,Belfast,Ireland,FALSE,1525,1492,1549,1468,24
+,,,1907-03-04,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,Wrexham,Wales,FALSE,1549,1820,1578,1791,29
+,,,1907-03-18,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1578,1974,1596,1956,18
+,,,1908-03-07,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Dundee,Scotland,FALSE,1596,1810,1590,1816,-6
+,,,1908-03-16,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,7,loss,Wrexham,Wales,FALSE,1590,1984,1577,1997,-13
+,,,1908-04-11,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,1,loss,Aberdare,Wales,FALSE,1577,1442,1545,1474,-32
+,,,1909-03-01,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,2,win,Wrexham,Wales,FALSE,1545,1835,1575,1805,30
+,,,1909-03-15,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,Nottingham,England,FALSE,1575,2149,1574,2150,-1
+,,,1909-03-20,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,2,win,Belfast,Ireland,FALSE,1574,1467,1594,1447,20
+,,,1910-03-05,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Kilmarnock,Scotland,FALSE,1594,1807,1588,1813,-6
+,,,1910-03-14,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1588,2188,1586,2190,-2
+,,,1910-04-11,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,4,1,win,Wrexham,Wales,FALSE,1586,1498,1604,1480,18
+,,,1911-01-28,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,1,win,Belfast,Ireland,FALSE,1604,1480,1623,1461,19
+,,,1911-03-06,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,1623,1832,1629,1826,6
+,,,1911-03-13,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,3,loss,London,England,FALSE,1629,2151,1627,2153,-2
+,,,1912-03-02,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Edinburgh,Scotland,FALSE,1627,1847,1622,1852,-5
+,,,1912-03-11,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,1622,2150,1617,2155,-5
+,,,1912-04-13,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,3,loss,Cardiff,Wales,FALSE,1617,1443,1584,1476,-33
+,,,1913-01-18,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,0,win,Belfast,Ireland,FALSE,1584,1476,1604,1456,20
+,,,1913-03-03,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Wrexham,Wales,FALSE,1604,1873,1613,1864,9
+,,,1913-03-17,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,3,4,loss,Bristol,England,FALSE,1613,2176,1612,2177,-1
+,,,1914-01-19,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,2,loss,Wrexham,Wales,FALSE,1612,1488,1581,1519,-31
+,,,1914-02-28,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1581,1867,1597,1851,16
+,,,1914-03-16,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,1597,2115,1592,2120,-5
+,,,1920-02-14,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,2,draw,Belfast,Ireland,FALSE,1609,1615,1615,1609,6
+,,,1920-02-26,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1615,1882,1624,1873,9
+,,,1920-03-15,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,London,England,FALSE,1624,2020,1662,1982,38
+,,,1921-02-12,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Aberdeen,Scotland,FALSE,1662,1872,1656,1878,-6
+,,,1921-03-14,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1656,1954,1666,1944,10
+,,,1921-04-09,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,1,win,Swansea,Wales,FALSE,1666,1593,1677,1582,11
+,,,1922-02-04,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Wrexham,Wales,FALSE,1677,1925,1705,1897,28
+,,,1922-03-13,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,Liverpool,England,FALSE,1705,1926,1700,1931,-5
+,,,1923-03-05,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,1706,1912,1712,1906,6
+,,,1923-03-17,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,2,loss,Paisley,Scotland,FALSE,1712,1942,1704,1950,-8
+,,,1923-04-14,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,3,loss,Wrexham,Wales,FALSE,1704,1665,1656,1713,-48
+,,,1924-02-16,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,0,win,Cardiff,Wales,FALSE,1656,1943,1701,1898,45
+,,,1924-03-03,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,Blackburn,England,FALSE,1701,1904,1735,1870,34
+,,,1924-03-15,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1735,1728,1760,1703,25
+,,,1925-02-14,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,3,loss,Edinburgh,Scotland,FALSE,1768,1912,1756,1924,-12
+,,,1925-02-28,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,2,loss,Swansea,Wales,FALSE,1756,1902,1739,1919,-17
+,,,1925-04-18,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,Wrexham,Wales,FALSE,1739,1661,1730,1670,-9
+,,,1925-10-31,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1730,1965,1708,1987,-22
+,,,1926-02-13,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1708,1679,1680,1707,-28
+,,,1926-03-01,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,3,1,win,London,England,FALSE,1680,1925,1733,1872,53
+,,,1926-10-30,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,3,loss,Glasgow,Scotland,FALSE,1733,2014,1726,2021,-7
+,,,1927-02-12,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,3,3,draw,Wrexham,Wales,FALSE,1726,1855,1728,1853,2
+,,,1927-04-09,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,1728,1698,1721,1705,-7
+,,,1927-10-29,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Wrexham,Wales,FALSE,1721,2002,1731,1992,10
+,,,1927-11-28,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,Burnley,England,FALSE,1731,1878,1763,1846,32
+,,,1928-02-04,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,1,win,Belfast,Northern Ireland,FALSE,1763,1744,1788,1719,25
+,,,1928-10-27,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,4,loss,Glasgow,Scotland,FALSE,1788,1992,1779,2001,-9
+,,,1928-11-17,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,2,3,loss,Swansea,Wales,FALSE,1779,1846,1757,1868,-22
+,,,1929-02-02,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,2,draw,Wrexham,Wales,FALSE,1757,1724,1750,1731,-7
+,,,1929-10-26,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,4,loss,Cardiff,Wales,FALSE,1750,2039,1735,2054,-15
+,,,1929-11-20,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,6,loss,London,England,FALSE,1735,1944,1723,1956,-12
+,,,1930-02-01,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,7,loss,Belfast,Northern Ireland,FALSE,1723,1687,1686,1724,-37
+,,,1930-10-25,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1686,2027,1703,2010,17
+,,,1930-11-22,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,4,loss,Wrexham,Wales,FALSE,1703,1999,1685,2017,-18
+,,,1931-04-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,2,win,Wrexham,Wales,FALSE,1685,1721,1701,1705,16
+,,,1931-10-31,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,3,loss,Wrexham,Wales,FALSE,1701,1998,1691,2008,-10
+,,,1931-11-18,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,3,loss,Liverpool,England,FALSE,1691,1991,1686,1996,-5
+,,,1931-12-05,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,4,loss,Belfast,Northern Ireland,FALSE,1686,1679,1658,1707,-28
+,,,1932-10-26,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,5,2,win,Edinburgh,Scotland,FALSE,1658,2008,1723,1943,65
+,,,1932-11-16,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Wrexham,Wales,FALSE,1723,2035,1734,2024,11
+,,,1932-12-07,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,4,1,win,Wrexham,Wales,FALSE,1734,1684,1755,1663,21
+,,,1933-05-25,Friendly,played,Wales,WAL,WAL,UEFA,France,FRA,FRA,UEFA,FALSE,1,1,draw,Colombes,France,FALSE,1755,1605,1754,1606,-1
+,,,1933-10-04,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,2,win,Cardiff,Wales,FALSE,1754,1926,1778,1902,24
+,,,1933-11-04,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1778,1684,1778,1684,0
+,,,1933-11-15,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,Newcastle,England,FALSE,1778,2036,1813,2001,35
+,,,1934-09-29,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,4,loss,Cardiff,Wales,FALSE,1813,1995,1784,2024,-29
+,,,1934-11-21,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,3,loss,Aberdeen,Scotland,FALSE,1784,1859,1773,1870,-11
+,,,1935-03-27,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,1,win,Wrexham,Wales,FALSE,1773,1707,1790,1690,17
+,,,1935-10-05,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1790,1950,1793,1947,3
+,,,1936-02-05,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,Wolverhampton,England,FALSE,1793,2012,1828,1977,35
+,,,1936-03-11,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,3,loss,Belfast,Northern Ireland,FALSE,1828,1672,1805,1695,-23
+,,,1936-10-17,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1805,1942,1827,1920,22
+,,,1936-12-02,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,1,win,Dundee,Scotland,FALSE,1827,1981,1859,1949,32
+,,,1937-03-17,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,4,1,win,Wrexham,Wales,FALSE,1859,1672,1870,1661,11
+,,,1937-10-30,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1870,1989,1891,1968,21
+,,,1937-11-17,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,Middlesbrough,England,FALSE,1891,1970,1880,1981,-11
+,,,1938-03-16,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1880,1659,1853,1686,-27
+,,,1938-10-22,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,4,2,win,Cardiff,Wales,FALSE,1853,1967,1884,1936,31
+,,,1938-11-09,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,3,loss,Edinburgh,Scotland,FALSE,1884,2010,1875,2019,-9
+,,,1939-03-15,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,1,win,Wrexham,Wales,FALSE,1875,1662,1883,1654,8
+,,,1939-05-20,Friendly,played,Wales,WAL,WAL,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Colombes,France,FALSE,1883,1671,1870,1684,-13
+,,,1945-10-20,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,0,win,Birmingham,England,FALSE,1870,1967,1900,1937,30
+,,,1946-10-19,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,1,win,Wrexham,Wales,FALSE,1850,2026,1886,1990,36
+,,,1946-11-13,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,3,loss,Manchester,England,FALSE,1886,1951,1866,1971,-20
+,,,1947-04-16,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,2,loss,Belfast,Northern Ireland,FALSE,1866,1666,1840,1692,-26
+,,,1947-10-18,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1840,1980,1809,2011,-31
+,,,1947-11-12,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,1,win,Glasgow,Scotland,FALSE,1809,1919,1840,1888,31
+,,,1948-03-10,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,0,win,Wrexham,Wales,FALSE,1840,1752,1855,1737,15
+,,,1948-10-23,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,3,loss,Cardiff,Wales,FALSE,1855,1833,1815,1873,-40
+,,,1948-11-10,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,Birmingham,England,FALSE,1815,2069,1810,2074,-5
+,,,1949-03-09,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1810,1719,1841,1688,31
+,,,1949-05-15,Friendly,played,Wales,WAL,WAL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,2,3,loss,Oeiras,Portugal,FALSE,1841,1689,1830,1700,-11
+,,,1949-05-22,Friendly,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,3,loss,Liège,Belgium,FALSE,1830,1589,1809,1610,-21
+,,,1949-05-26,Friendly,played,Wales,WAL,WAL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,4,loss,Bern,Switzerland,FALSE,1809,1732,1791,1750,-18
+,,,1949-10-15,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,4,loss,Cardiff,Wales,FALSE,1791,1999,1767,2023,-24
+,,,1949-11-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1767,1968,1758,1977,-9
+,,,1949-11-23,Friendly,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,5,1,win,Cardiff,Wales,FALSE,1758,1644,1766,1636,8
+,,,1950-03-08,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1766,1657,1755,1668,-11
+,,,1950-10-21,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,3,loss,Cardiff,Wales,FALSE,1755,1960,1734,1981,-21
+,,,1950-11-15,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,4,loss,Sunderland,England,FALSE,1734,1998,1727,2005,-7
+,,,1951-03-07,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,1,win,Belfast,Northern Ireland,FALSE,1727,1646,1748,1625,21
+,,,1951-05-12,Friendly,played,Wales,WAL,WAL,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1748,1678,1753,1673,5
+,,,1951-05-16,Friendly,played,Wales,WAL,WAL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,3,2,win,Wrexham,Wales,FALSE,1753,1742,1760,1735,7
+,,,1951-10-20,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1760,1977,1766,1971,6
+,,,1951-11-14,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,0,win,Glasgow,Scotland,FALSE,1766,2005,1801,1970,35
+,,,1952-03-19,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,0,win,Swansea,Wales,FALSE,1801,1609,1812,1598,11
+,,,1952-10-18,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,2,loss,Cardiff,Wales,FALSE,1812,1939,1794,1957,-18
+,,,1952-11-12,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,5,loss,London,England,FALSE,1794,2002,1784,2012,-10
+,,,1953-04-15,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,2,win,Belfast,Northern Ireland,FALSE,1784,1624,1801,1607,17
+,,,1953-05-14,Friendly,played,Wales,WAL,WAL,UEFA,France,FRA,FRA,UEFA,FALSE,1,6,loss,Colombes,France,FALSE,1801,1758,1784,1775,-17
+,,,1953-05-21,Friendly,played,Wales,WAL,WAL,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,5,loss,Belgrade,Yugoslavia,FALSE,1784,1931,1777,1938,-7
+,,,1953-10-10,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,4,loss,Cardiff,Wales,FALSE,1777,2001,1754,2024,-23
+,,,1953-11-04,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,3,3,draw,Glasgow,Scotland,FALSE,1754,1947,1768,1933,14
+,,,1954-03-31,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,2,loss,Wrexham,Wales,FALSE,1768,1591,1735,1624,-33
+,,,1954-05-09,Friendly,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,2,loss,Vienna,Austria,FALSE,1735,1856,1728,1863,-7
+,,,1954-09-22,Friendly,played,Wales,WAL,WAL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,3,loss,Cardiff,Wales,FALSE,1728,1913,1717,1924,-11
+,,,1954-10-16,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1717,1807,1696,1828,-21
+,,,1954-11-10,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,3,loss,London,England,FALSE,1696,1985,1692,1989,-4
+,,,1955-04-20,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,2,win,Belfast,Northern Ireland,FALSE,1692,1626,1714,1604,22
+,,,1955-10-22,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1714,1985,1743,1956,29
+,,,1955-11-09,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1743,1809,1726,1826,-17
+,,,1955-11-23,Friendly,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,2,loss,Wrexham,Wales,FALSE,1726,1926,1719,1933,-7
+,,,1956-04-11,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1719,1625,1709,1635,-10
+,,,1956-10-20,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,1709,1828,1710,1827,1
+,,,1956-11-14,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,3,loss,London,England,FALSE,1710,1985,1704,1991,-6
+,,,1957-04-10,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1704,1649,1707,1646,3
+,,,1957-05-01,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1707,1845,1729,1823,22
+,,,1957-05-19,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,2,loss,Leipzig,German DR,FALSE,1729,1479,1701,1507,-28
+,,,1957-05-26,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1701,1843,1689,1855,-12
+,,,1957-09-25,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,German DR,DDR,DDR,UEFA,TRUE,4,1,win,Cardiff,Wales,FALSE,1689,1503,1700,1492,11
+,,,1957-10-19,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,4,loss,Cardiff,Wales,FALSE,1700,2018,1683,2035,-17
+,,,1957-11-13,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1683,1864,1696,1851,13
+,,,1958-01-15,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,0,win,Ramat Gan,Israel,FALSE,1696,1472,1716,1452,20
+,,,1958-02-05,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,0,win,Cardiff,Wales,FALSE,1716,1452,1723,1445,7
+,,,1958-04-16,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1723,1733,1718,1738,-5
+WC-1958,WC-1958_006,6,1958-06-08,FIFA World Cup,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Sandviken,Sweden,TRUE,1718,2081,1741,2058,23
+WC-1958,WC-1958_014,14,1958-06-11,FIFA World Cup,played,Wales,WAL,WAL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,1,1,draw,Solna,Sweden,TRUE,1741,1742,1741,1742,0
+WC-1958,WC-1958_024,24,1958-06-15,FIFA World Cup,played,Wales,WAL,WAL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,0,draw,Solna,Sweden,FALSE,1741,1877,1759,1859,18
+WC-1958,WC-1958_027,27,1958-06-17,FIFA World Cup,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,1,win,Solna,Sweden,TRUE,1759,2037,1809,1987,50
+WC-1958,WC-1958_028,28,1958-06-19,FIFA World Cup,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Gothenburg,Sweden,TRUE,1809,2053,1797,2065,-12
+,,,1958-10-18,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1797,1770,1750,1817,-47
+,,,1958-11-26,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,2,draw,Birmingham,England,FALSE,1750,1964,1764,1950,14
+,,,1959-04-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,4,loss,Belfast,Northern Ireland,FALSE,1764,1777,1740,1801,-24
+,,,1959-10-17,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1740,1918,1744,1914,4
+,,,1960-04-06,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,2,win,Wrexham,Wales,FALSE,1755,1746,1769,1732,14
+,,,1960-09-28,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,2,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1960-10-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,0,win,Cardiff,Wales,FALSE,1782,1802,1805,1779,23
+,,,1960-11-23,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,5,loss,London,England,FALSE,1805,1933,1789,1949,-16
+,,,1961-04-12,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,5,1,win,Belfast,Northern Ireland,FALSE,1789,1669,1824,1634,35
+,,,1961-04-19,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,2,loss,Cardiff,Wales,FALSE,1824,1928,1804,1948,-20
+,,,1961-05-18,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Madrid,Spain,FALSE,1804,1948,1816,1936,12
+,,,1961-05-28,Friendly,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,3,loss,Budapest,Hungary,FALSE,1816,2018,1813,2021,-3
+,,,1961-10-14,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1813,1960,1816,1957,3
+,,,1961-11-08,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1816,1870,1798,1888,-18
+,,,1962-04-11,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,4,0,win,Cardiff,Wales,FALSE,1798,1609,1810,1597,12
+,,,1962-05-12,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,3,loss,Rio de Janeiro,Brazil,FALSE,1810,2098,1807,2101,-3
+,,,1962-05-16,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,3,loss,São Paulo,Brazil,FALSE,1807,2101,1804,2104,-3
+,,,1962-05-22,Friendly,played,Wales,WAL,WAL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Mexico City,Mexico,FALSE,1804,1802,1797,1809,-7
+,,,1962-10-20,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,3,loss,Cardiff,Wales,FALSE,1797,1878,1776,1899,-21
+,,,1962-11-07,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,3,loss,Budapest,Hungary,FALSE,1776,1971,1767,1980,-9
+,,,1962-11-21,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,4,loss,London,England,FALSE,1767,1917,1753,1931,-14
+,,,1963-03-20,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1753,1995,1761,1987,8
+,,,1963-04-03,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,4,1,win,Belfast,Northern Ireland,FALSE,1761,1636,1793,1604,32
+,,,1963-10-12,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,4,loss,Cardiff,Wales,FALSE,1793,1904,1757,1940,-36
+,,,1963-11-20,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1757,1904,1749,1912,-8
+,,,1964-04-15,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,3,loss,Swansea,Wales,FALSE,1749,1630,1718,1661,-31
+,,,1964-10-03,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,2,win,Cardiff,Wales,FALSE,1718,1930,1744,1904,26
+,,,1964-10-21,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1744,1635,1723,1656,-21
+,,,1964-11-18,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,London,England,FALSE,1723,1916,1717,1922,-6
+,,,1964-12-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,2,loss,Athens,Greece,FALSE,1717,1519,1679,1557,-38
+,,,1965-03-17,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Greece,GRC,GRC,UEFA,TRUE,4,1,win,Cardiff,Wales,FALSE,1679,1549,1694,1534,15
+,,,1965-03-31,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,5,0,win,Belfast,Northern Ireland,FALSE,1694,1671,1743,1622,49
+,,,1965-05-01,Friendly,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,4,loss,Florence,Italy,FALSE,1743,1928,1737,1934,-6
+,,,1965-05-30,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,1,2,loss,Moscow,Soviet Union,TRUE,1737,1977,1732,1982,-5
+,,,1965-10-02,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1732,1945,1738,1939,6
+,,,1965-10-27,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1738,1983,1766,1955,28
+,,,1965-11-24,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,4,loss,Glasgow,Scotland,FALSE,1766,1867,1749,1884,-17
+,,,1965-12-01,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,4,2,win,Wrexham,Wales,FALSE,1749,1629,1762,1616,13
+,,,1966-03-30,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,4,loss,Cardiff,Wales,FALSE,1762,1661,1709,1714,-53
+,,,1966-05-14,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,3,loss,Rio de Janeiro,Brazil,FALSE,1709,1998,1706,2001,-3
+,,,1966-05-18,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Belo Horizonte,Brazil,FALSE,1706,1994,1704,1996,-2
+,,,1966-05-22,Friendly,played,Wales,WAL,WAL,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,0,2,loss,Santiago,Chile,FALSE,1704,1774,1696,1782,-8
+,,,1966-10-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1696,1801,1696,1801,0
+,,,1966-11-16,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,5,loss,London,England,FALSE,1696,2086,1692,2090,-4
+,,,1967-04-12,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1692,1705,1698,1699,6
+,,,1967-10-21,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1698,2064,1686,2076,-12
+,,,1967-11-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,3,loss,Glasgow,Scotland,FALSE,1686,1832,1678,1840,-8
+,,,1968-02-28,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,0,win,Wrexham,Wales,FALSE,1678,1718,1703,1693,25
+,,,1968-05-08,Friendly,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,,,,,
+,,,1968-10-23,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1708,1966,1697,1977,-11
+,,,1969-03-26,Friendly,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Frankfurt am Main,Germany,FALSE,,,,,
+,,,1969-04-16,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,2,loss,Dresden,German DR,FALSE,1705,1861,1698,1868,-7
+,,,1969-05-03,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,5,loss,Wrexham,Wales,FALSE,1698,1869,1674,1893,-24
+,,,1969-05-07,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,London,England,FALSE,1674,2068,1672,2070,-2
+,,,1969-05-10,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1672,1754,1682,1744,10
+,,,1969-10-22,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,3,loss,Cardiff,Wales,FALSE,1682,1868,1659,1891,-23
+,,,1969-11-04,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,4,loss,Rome,Italy,FALSE,1659,1979,1653,1985,-6
+,,,1970-04-18,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1653,2086,1668,2071,15
+,,,1970-04-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1668,1847,1681,1834,13
+,,,1970-04-25,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Swansea,Wales,FALSE,1681,1713,1697,1697,16
+,,,1970-11-11,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1697,1810,1698,1809,1
+,,,1971-04-21,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,3,loss,Swansea,Wales,FALSE,1698,1821,1670,1849,-28
+,,,1971-05-15,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1670,1787,1671,1786,1
+,,,1971-05-19,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,0,draw,London,England,FALSE,1671,2054,1689,2036,18
+,,,1971-05-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1689,1726,1677,1738,-12
+,,,1971-05-26,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,FALSE,1,0,win,Helsinki,Finland,FALSE,1677,1413,1688,1402,11
+,,,1971-10-13,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,3,0,win,Swansea,Wales,FALSE,1688,1394,1695,1387,7
+,,,1971-10-27,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,1,loss,Prague,Czechoslovakia,FALSE,1695,1872,1688,1879,-7
+,,,1971-11-24,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,2,loss,Bucharest,Romania,FALSE,1688,1808,1675,1821,-13
+,,,1972-05-20,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1675,2015,1661,2029,-14
+,,,1972-05-24,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1661,1784,1652,1793,-9
+,,,1972-05-27,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,Wrexham,Wales,FALSE,1652,1763,1653,1762,1
+,,,1972-11-15,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1653,2002,1645,2010,-8
+,,,1973-01-24,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1645,2010,1662,1993,17
+,,,1973-03-28,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,TRUE,2,0,win,Cardiff,Wales,FALSE,1662,1965,1708,1919,46
+,,,1973-05-12,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,1708,1820,1679,1849,-29
+,,,1973-05-15,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,3,loss,London,England,FALSE,1679,2014,1674,2019,-5
+,,,1973-05-19,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Liverpool,England,TRUE,1674,1750,1658,1766,-16
+,,,1973-09-26,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,FALSE,0,3,loss,Chorzów,Poland,FALSE,1658,1971,1652,1977,-6
+,,,1974-05-11,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,1652,1979,1639,1992,-13
+,,,1974-05-14,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1639,1777,1627,1789,-12
+,,,1974-05-18,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Wrexham,Wales,FALSE,1627,1801,1651,1777,24
+,,,1974-09-04,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,2,loss,Vienna,Austria,FALSE,1651,1816,1644,1823,-7
+,,,1974-10-30,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,0,win,Cardiff,Wales,FALSE,1644,1901,1687,1858,43
+,,,1974-11-20,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Luxembourg,,,,TRUE,5,0,win,Swansea,Wales,FALSE,1687,1317,1692,1312,5
+,,,1975-04-16,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,1,win,Budapest,Hungary,FALSE,1692,1853,1725,1820,33
+,,,1975-05-01,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Luxembourg,,,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1725,1309,1733,1301,8
+,,,1975-05-17,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,1733,1893,1736,1890,3
+,,,1975-05-21,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,2,2,draw,London,England,FALSE,1736,1989,1751,1974,15
+,,,1975-05-23,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1751,1799,1739,1811,-12
+,,,1975-11-19,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Wrexham,Wales,FALSE,1739,1816,1758,1797,19
+,,,1976-03-24,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,2,loss,Wrexham,Wales,FALSE,1758,1977,1751,1984,-7
+,,,1976-04-24,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,2,loss,Zagreb,Yugoslavia,FALSE,1751,1945,1742,1954,-9
+,,,1976-05-06,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,3,loss,Glasgow,Scotland,FALSE,1742,1900,1731,1911,-11
+,,,1976-05-08,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1731,1984,1719,1996,-12
+,,,1976-05-14,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Swansea,Wales,FALSE,1719,1762,1736,1745,17
+,,,1976-05-22,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1736,1954,1743,1947,7
+,,,1976-10-06,Friendly,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,,,,,
+,,,1976-11-17,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1738,1928,1732,1934,-6
+,,,1977-03-30,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,0,win,Wrexham,Wales,FALSE,1732,2004,1783,1953,51
+,,,1977-05-28,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Wrexham,Wales,FALSE,1783,1941,1786,1938,3
+,,,1977-05-31,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,0,win,London,England,FALSE,1786,1961,1819,1928,33
+,,,1977-06-03,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1819,1721,1819,1721,0
+,,,1977-09-06,Friendly,played,Wales,WAL,WAL,UEFA,Kuwait,KWT,KWT,AFC,TRUE,0,0,draw,Wrexham,Wales,FALSE,1819,1667,1813,1673,-6
+,,,1977-09-20,Friendly,played,Wales,WAL,WAL,UEFA,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1813,1673,1812,1674,-1
+,,,1977-10-12,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,2,loss,Liverpool,England,TRUE,1812,1982,1796,1998,-16
+,,,1977-11-16,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,1,loss,Prague,Czechoslovakia,FALSE,1796,1879,1786,1889,-10
+,,,1977-12-14,Friendly,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Dortmund,Germany,FALSE,,,,,
+,,,1978-04-18,Friendly,played,Wales,WAL,WAL,UEFA,Iran,IRN,IRN,AFC,FALSE,1,0,win,Tehran,Iran,FALSE,1795,1800,1808,1787,13
+,,,1978-05-13,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,3,loss,Cardiff,Wales,FALSE,1808,1928,1780,1956,-28
+,,,1978-05-17,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1780,1984,1794,1970,14
+,,,1978-05-19,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Wrexham,Wales,FALSE,1794,1739,1806,1727,12
+,,,1978-10-25,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Malta,,,,TRUE,7,0,win,Wrexham,Wales,FALSE,1806,1357,1810,1353,4
+,,,1978-11-29,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,0,win,Wrexham,Wales,FALSE,1810,1642,1817,1635,7
+,,,1979-05-02,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,,,,,
+,,,1979-05-19,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,0,win,Cardiff,Wales,FALSE,1795,1887,1829,1853,34
+,,,1979-05-23,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,0,draw,London,England,FALSE,1829,2031,1843,2017,14
+,,,1979-05-26,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,,,,,
+,,,1979-06-02,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Malta,,,,FALSE,2,0,win,Gżira,Malta,FALSE,1844,1367,1850,1361,6
+,,,1979-09-11,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Swansea,Wales,FALSE,,,,,
+,,,1979-10-17,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Cologne,Germany,FALSE,,,,,
+,,,1979-11-21,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,1,loss,İzmir,Turkey,FALSE,1842,1650,1817,1675,-25
+,,,1980-05-17,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,4,1,win,Wrexham,Wales,FALSE,1817,2076,1867,2026,50
+,,,1980-05-21,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1867,1801,1849,1819,-18
+,,,1980-05-23,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1849,1759,1819,1789,-30
+,,,1980-06-02,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,FALSE,4,0,win,Reykjavík,Iceland,FALSE,1819,1363,1828,1354,9
+,,,1980-10-15,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,4,0,win,Cardiff,Wales,FALSE,1828,1624,1839,1613,11
+,,,1980-11-19,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1839,1917,1858,1898,19
+,,,1981-02-24,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1981-03-25,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,0,win,Ankara,Turkey,FALSE,1873,1607,1884,1596,11
+,,,1981-05-16,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,0,win,Swansea,Wales,FALSE,1884,1820,1901,1803,17
+,,,1981-05-20,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,0,draw,London,England,FALSE,1901,1960,1910,1951,9
+,,,1981-05-30,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,0,draw,Wrexham,Wales,FALSE,1910,1957,1907,1960,-3
+,,,1981-09-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1907,1893,1884,1916,-23
+,,,1981-10-14,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,TRUE,2,2,draw,Swansea,Wales,FALSE,1884,1482,1866,1500,-18
+,,,1981-11-18,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,3,loss,Tbilisi,Soviet Union,TRUE,1866,1989,1851,2004,-15
+,,,1982-03-24,Friendly,played,Wales,WAL,WAL,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Valencia,Spain,FALSE,1851,1891,1855,1887,4
+,,,1982-04-27,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1855,1915,1833,1937,-22
+,,,1982-05-24,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1833,1847,1819,1861,-14
+,,,1982-05-27,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,0,win,Wrexham,Wales,FALSE,1819,1761,1839,1741,20
+,,,1982-06-02,Friendly,played,Wales,WAL,WAL,UEFA,France,FRA,FRA,UEFA,FALSE,1,0,win,Toulouse,France,FALSE,1839,1894,1853,1880,14
+,,,1982-09-22,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,0,win,Swansea,Wales,FALSE,1853,1552,1857,1548,4
+,,,1982-12-15,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,4,4,draw,Titograd,Yugoslavia,FALSE,1857,1861,1863,1855,6
+,,,1983-02-23,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,London,England,FALSE,1863,2020,1856,2027,-7
+,,,1983-04-27,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Wrexham,Wales,FALSE,1856,1699,1863,1692,7
+,,,1983-05-28,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,1863,1814,1821,1856,-42
+,,,1983-05-31,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1821,1792,1845,1768,24
+,,,1983-06-12,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,1,draw,Cardiff,Wales,FALSE,1845,2123,1850,2118,5
+,,,1983-09-21,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,0,draw,Oslo,Norway,FALSE,1850,1585,1841,1594,-9
+,,,1983-10-12,Friendly,played,Wales,WAL,WAL,UEFA,Romania,ROU,ROU,UEFA,TRUE,5,0,win,Wrexham,Wales,FALSE,1841,1831,1855,1817,14
+,,,1983-11-16,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1855,1755,1835,1775,-20
+,,,1983-12-14,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1835,1846,1830,1851,-5
+,,,1984-02-28,British Home Championship,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1830,1835,1816,1849,-14
+,,,1984-05-02,British Home Championship,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,1,0,win,Wrexham,Wales,FALSE,1816,1994,1840,1970,24
+,,,1984-05-22,British Home Championship,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Swansea,Wales,FALSE,1840,1826,1834,1832,-6
+,,,1984-06-06,Friendly,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,1,loss,Trondheim,Norway,FALSE,1834,1601,1820,1615,-14
+,,,1984-06-10,Friendly,played,Wales,WAL,WAL,UEFA,Israel,ISR,ISR,UEFA,FALSE,0,0,draw,Ramat Gan,Israel,FALSE,1820,1709,1820,1709,0
+,,,1984-09-12,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1820,1455,1787,1488,-33
+,,,1984-10-17,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,3,loss,Seville,Spain,FALSE,1787,1882,1770,1899,-17
+,,,1984-11-14,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1770,1498,1774,1494,4
+,,,1985-02-26,Friendly,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,1,draw,Wrexham,Wales,FALSE,1774,1669,1769,1674,-5
+,,,1985-03-27,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,0,win,Glasgow,Scotland,FALSE,1769,1870,1799,1840,30
+,,,1985-04-30,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Spain,ESP,ESP,UEFA,TRUE,3,0,win,Wrexham,Wales,FALSE,1799,1886,1833,1852,34
+,,,1985-06-05,Friendly,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,4,loss,Bergen,Norway,FALSE,1833,1674,1815,1692,-18
+,,,1985-09-10,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1815,1863,1812,1866,-3
+,,,1985-10-16,Friendly,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1812,1855,1792,1875,-20
+,,,1986-02-25,Friendly,played,Wales,WAL,WAL,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,2,1,win,Khobar,Saudi Arabia,FALSE,1792,1612,1800,1604,8
+,,,1986-03-26,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1986-04-21,Friendly,played,Wales,WAL,WAL,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,0,0,draw,Wrexham,Wales,FALSE,1810,1850,1808,1852,-2
+,,,1986-05-10,Friendly,played,Wales,WAL,WAL,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,0,2,loss,Toronto,Canada,FALSE,1808,1651,1791,1668,-17
+,,,1986-05-19,Friendly,played,Wales,WAL,WAL,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,3,0,win,Vancouver,Canada,FALSE,1791,1668,1807,1652,16
+,,,1986-09-10,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1807,1565,1799,1573,-8
+,,,1987-02-18,Friendly,played,Wales,WAL,WAL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,0,draw,Swansea,Wales,FALSE,1799,1993,1802,1990,3
+,,,1987-04-01,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,4,0,win,Wrexham,Wales,FALSE,1802,1559,1811,1550,9
+,,,1987-04-29,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Wrexham,Wales,FALSE,1811,1871,1809,1873,-2
+,,,1987-09-09,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1809,1923,1830,1902,21
+,,,1987-10-14,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1830,1897,1819,1908,-11
+,,,1987-11-11,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1819,1822,1798,1843,-21
+,,,1988-03-23,Friendly,played,Wales,WAL,WAL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,2,loss,Swansea,Wales,FALSE,1798,1836,1786,1848,-12
+,,,1988-04-27,Friendly,played,Wales,WAL,WAL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,4,loss,Solna,Sweden,FALSE,1786,1948,1780,1954,-6
+,,,1988-06-01,Friendly,played,Wales,WAL,WAL,UEFA,Malta,,,,FALSE,3,2,win,Attard,Malta,FALSE,1780,1419,1784,1415,4
+,,,1988-06-04,Friendly,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,0,win,Brescia,Italy,FALSE,1784,1954,1801,1937,17
+,,,1988-09-14,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,1,loss,Amsterdam,Netherlands,FALSE,1801,2050,1796,2055,-5
+,,,1988-10-19,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,2,2,draw,Swansea,Wales,FALSE,1796,1600,1782,1614,-14
+,,,1989-02-08,Friendly,played,Wales,WAL,WAL,UEFA,Israel,ISR,ISR,UEFA,FALSE,3,3,draw,Ramat Gan,Israel,FALSE,1782,1614,1780,1616,-2
+,,,1989-04-26,Friendly,played,Wales,WAL,WAL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,1780,1952,1768,1964,-12
+,,,1989-05-31,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,,,,,
+,,,1989-09-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,FALSE,0,1,loss,Helsinki,Finland,FALSE,1775,1593,1750,1618,-25
+,,,1989-10-11,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Wrexham,Wales,FALSE,1750,2049,1740,2059,-10
+,,,1989-11-15,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Cologne,Germany,FALSE,,,,,
+,,,1990-03-28,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1990-04-25,Friendly,played,Wales,WAL,WAL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,4,loss,Solna,Sweden,FALSE,1731,1945,1727,1949,-4
+,,,1990-05-20,Friendly,played,Wales,WAL,WAL,UEFA,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Cardiff,Wales,FALSE,1727,1617,1732,1612,5
+,,,1990-09-11,Friendly,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1732,1904,1729,1907,-3
+,,,1990-10-17,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,3,1,win,Cardiff,Wales,FALSE,1729,1848,1761,1816,32
+,,,1990-11-14,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Luxembourg,,,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1761,1178,1763,1176,2
+,,,1991-02-06,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,3,loss,Wrexham,Wales,FALSE,,,,,
+,,,1991-03-27,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Brussels,Belgium,FALSE,1747,1824,1756,1815,9
+,,,1991-05-01,Friendly,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1756,1555,1759,1552,3
+,,,1991-05-29,Friendly,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,FALSE,0,0,draw,Radom,Poland,FALSE,1759,1790,1763,1786,4
+,,,1991-06-05,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1763,2089,1794,2058,31
+,,,1991-09-11,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,0,win,Cardiff,Wales,FALSE,1794,1953,1806,1941,12
+,,,1991-10-16,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Nuremberg,Germany,FALSE,1806,2069,1798,2077,-8
+,,,1991-11-13,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Luxembourg,,,,TRUE,1,0,win,Cardiff,Wales,FALSE,1798,1181,1799,1180,1
+,,,1992-02-19,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1992-04-29,Friendly,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Vienna,Austria,FALSE,1814,1614,1811,1617,-3
+,,,1992-05-20,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,5,loss,Bucharest,Romania,FALSE,1811,1803,1783,1831,-28
+,,,1992-05-30,Friendly,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,4,loss,Utrecht,Netherlands,FALSE,1783,1957,1777,1963,-6
+,,,1992-06-03,Kirin Cup,played,Wales,WAL,WAL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Gifu,Japan,TRUE,1777,1987,1770,1994,-7
+,,,1992-06-07,Kirin Cup,played,Wales,WAL,WAL,UEFA,Japan,JPN,JPN,AFC,FALSE,1,0,win,Matsuyama,Japan,FALSE,1770,1372,1775,1367,5
+,,,1992-09-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Faroe Islands,,,,TRUE,6,0,win,Cardiff,Wales,FALSE,1775,1229,1777,1227,2
+,,,1992-10-14,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Cyprus,,,,FALSE,1,0,win,Limassol,Cyprus,FALSE,1777,1326,1782,1321,5
+,,,1992-11-18,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Brussels,Belgium,FALSE,1782,1858,1766,1874,-16
+,,,1993-02-17,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1993-03-31,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,0,win,Cardiff,Wales,FALSE,1762,1879,1793,1848,31
+,,,1993-04-28,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,1,draw,Ostrava,Czech Republic,FALSE,1793,1810,1799,1804,6
+,,,1993-06-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Faroe Islands,,,,FALSE,3,0,win,Toftir,Faroe Islands,FALSE,1799,1212,1803,1208,4
+,,,1993-09-08,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,1803,1832,1799,1836,-4
+,,,1993-10-13,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Cyprus,,,,TRUE,2,0,win,Cardiff,Wales,FALSE,1799,1367,1802,1364,3
+,,,1993-11-17,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,2,loss,Cardiff,Wales,FALSE,1802,1804,1777,1829,-25
+,,,1994-03-09,Friendly,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,3,loss,Cardiff,Wales,FALSE,1777,1833,1760,1850,-17
+,,,1994-04-20,Friendly,played,Wales,WAL,WAL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,1760,1886,1746,1900,-14
+,,,1994-05-23,Friendly,played,Wales,WAL,WAL,UEFA,Estonia,,,,FALSE,2,1,win,Tallinn,Estonia,FALSE,1746,1178,1747,1177,1
+,,,1994-09-07,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Albania,,,,TRUE,2,0,win,Cardiff,Wales,FALSE,1747,1385,1751,1381,4
+,,,1994-10-12,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Moldova,,,,FALSE,2,3,loss,Chișinău,Moldova,FALSE,1751,1529,1724,1556,-27
+,,,1994-11-16,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Georgia,,,,FALSE,0,5,loss,Tbilisi,Georgia,FALSE,1724,1542,1675,1591,-49
+,,,1994-12-14,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1675,1829,1645,1859,-30
+,,,1995-03-29,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,3,loss,Sofia,Bulgaria,FALSE,1645,1846,1636,1855,-9
+,,,1995-04-26,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Düsseldorf,Germany,FALSE,1636,2011,1654,1993,18
+,,,1995-06-07,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Georgia,,,,TRUE,0,1,loss,Cardiff,Wales,FALSE,1654,1606,1626,1634,-28
+,,,1995-09-06,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Moldova,,,,TRUE,1,0,win,Cardiff,Wales,FALSE,1626,1454,1633,1447,7
+,,,1995-10-11,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Cardiff,Wales,FALSE,1633,2022,1627,2028,-6
+,,,1995-11-15,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Albania,,,,FALSE,1,1,draw,Tirana,Albania,FALSE,1627,1430,1622,1435,-5
+,,,1996-04-24,Friendly,played,Wales,WAL,WAL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,2,loss,Lugano,Switzerland,FALSE,1620,1809,1615,1814,-5
+,,,1996-06-02,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,San Marino,,,,FALSE,5,0,win,Serravalle,San Marino,FALSE,1615,963,1618,960,3
+,,,1996-08-31,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,San Marino,,,,TRUE,6,0,win,Cardiff,Wales,FALSE,1618,960,1619,959,1
+,,,1996-10-05,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,3,loss,Cardiff,Wales,FALSE,1619,1908,1604,1923,-15
+,,,1996-11-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,7,loss,Eindhoven,Netherlands,FALSE,1604,1923,1597,1930,-7
+,,,1996-12-14,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1597,1697,1597,1697,0
+,,,1997-02-11,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,,,,,
+,,,1997-03-29,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,2,loss,Cardiff,Wales,FALSE,1598,1737,1580,1755,-18
+,,,1997-05-27,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,0,win,Kilmarnock,Scotland,FALSE,1580,1796,1597,1779,17
+,,,1997-08-20,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,4,6,loss,Istanbul,Turkey,FALSE,1597,1682,1582,1697,-15
+,,,1997-10-11,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,3,loss,Brussels,Belgium,FALSE,1582,1779,1576,1785,-6
+,,,1997-11-11,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,3,loss,Brasília,Brazil,FALSE,1576,2151,1575,2152,-1
+,,,1998-03-25,Friendly,played,Wales,WAL,WAL,UEFA,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,Cardiff,Wales,FALSE,1575,1677,1575,1677,0
+,,,1998-06-03,Friendly,played,Wales,WAL,WAL,UEFA,Malta,,,,FALSE,3,0,win,Attard,Malta,FALSE,1575,1232,1582,1225,7
+,,,1998-06-06,Friendly,played,Wales,WAL,WAL,UEFA,Tunisia,TUN,TUN,CAF,FALSE,0,4,loss,Tunis,Tunisia,FALSE,1582,1620,1570,1632,-12
+,,,1998-09-05,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,2,loss,Liverpool,England,TRUE,1570,2016,1566,2020,-4
+,,,1998-10-10,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,1,win,Copenhagen,Denmark,FALSE,1566,1859,1602,1823,36
+,,,1998-10-14,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Belarus,,,,TRUE,3,2,win,Cardiff,Wales,FALSE,1602,1419,1609,1412,7
+,,,1999-03-31,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,2,loss,Zürich,Switzerland,FALSE,1609,1684,1593,1700,-16
+,,,1999-06-05,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,4,loss,Bologna,Italy,FALSE,1593,2011,1589,2015,-4
+,,,1999-06-09,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,2,loss,Liverpool,England,TRUE,1589,1815,1576,1828,-13
+,,,1999-09-04,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Belarus,,,,FALSE,2,1,win,Minsk,Belarus,FALSE,1576,1420,1593,1403,17
+,,,1999-10-09,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,2,loss,Wrexham,Wales,FALSE,1593,1706,1564,1735,-29
+,,,2000-02-23,Friendly,played,Wales,WAL,WAL,UEFA,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Doha,Qatar,FALSE,1564,1443,1573,1434,9
+,,,2000-03-29,Friendly,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,1,2,loss,Cardiff,Wales,FALSE,1573,1563,1560,1576,-13
+,,,2000-05-23,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,3,loss,Cardiff,Wales,FALSE,1560,2087,1557,2090,-3
+,,,2000-06-02,Friendly,played,Wales,WAL,WAL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,3,loss,Chaves,Portugal,FALSE,1557,1907,1555,1909,-2
+,,,2000-09-02,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belarus,,,,FALSE,1,2,loss,Minsk,Belarus,FALSE,1555,1387,1531,1411,-24
+,,,2000-10-07,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1531,1848,1542,1837,11
+,,,2000-10-11,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,FALSE,0,0,draw,Warsaw,Poland,FALSE,1542,1773,1557,1758,15
+,,,2001-03-24,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Armenia,,,,FALSE,2,2,draw,Yerevan,Armenia,FALSE,1557,1414,1555,1416,-2
+,,,2001-03-28,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1555,1682,1557,1680,2
+,,,2001-06-02,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,TRUE,1,2,loss,Cardiff,Wales,FALSE,1557,1805,1545,1817,-12
+,,,2001-06-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,1545,1680,1557,1668,12
+,,,2001-09-01,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Armenia,,,,TRUE,0,0,draw,Cardiff,Wales,FALSE,1557,1424,1545,1436,-12
+,,,2001-09-05,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,3,loss,Oslo,Norway,FALSE,1545,1731,1539,1737,-6
+,,,2001-10-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belarus,,,,TRUE,1,0,win,Cardiff,Wales,FALSE,1539,1522,1553,1508,14
+,,,2002-02-13,Friendly,played,Wales,WAL,WAL,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,1,draw,Cardiff,Wales,FALSE,1553,2024,1561,2016,8
+,,,2002-03-27,Friendly,played,Wales,WAL,WAL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1561,1835,1566,1830,5
+,,,2002-05-14,Friendly,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1566,1879,1581,1864,15
+,,,2002-08-21,Friendly,played,Wales,WAL,WAL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,1,draw,Varaždin,Croatia,FALSE,1581,1846,1589,1838,8
+,,,2002-09-07,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,FALSE,2,0,win,Helsinki,Finland,FALSE,1589,1729,1637,1681,48
+,,,2002-10-16,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1637,1909,1666,1880,29
+,,,2002-11-20,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Azerbaijan,,,,FALSE,2,0,win,Baku,Azerbaijan,FALSE,1666,1320,1678,1308,12
+,,,2003-02-12,Friendly,played,Wales,WAL,WAL,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,1678,1501,1671,1508,-7
+,,,2003-03-29,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Azerbaijan,,,,TRUE,4,0,win,Cardiff,Wales,FALSE,1671,1327,1676,1322,5
+,,,2003-05-26,Friendly,played,Wales,WAL,WAL,UEFA,United States,USA,USA,CONCACAF,FALSE,0,2,loss,San Jose,United States,FALSE,1676,1831,1670,1837,-6
+,,,2003-08-20,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Serbia and Montenegro,SCG,SCG,UEFA,FALSE,0,1,loss,Belgrade,Serbia and Montenegro,FALSE,1670,1704,1657,1717,-13
+,,,2003-09-06,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,4,loss,Milan,Italy,FALSE,1657,1939,1650,1946,-7
+,,,2003-09-10,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,1,1,draw,Cardiff,Wales,FALSE,1650,1702,1647,1705,-3
+,,,2003-10-11,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Serbia and Montenegro,SCG,SCG,UEFA,TRUE,2,3,loss,Cardiff,Wales,FALSE,1647,1724,1626,1745,-21
+,,,2003-11-15,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Russia,RUS,RUS,UEFA,FALSE,0,0,draw,Moscow,Russia,FALSE,1626,1790,1639,1777,13
+,,,2003-11-19,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Russia,RUS,RUS,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1639,1777,1621,1795,-18
+,,,2004-02-18,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,4,0,win,Cardiff,Wales,FALSE,1621,1678,1637,1662,16
+,,,2004-05-27,Friendly,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,0,draw,Oslo,Norway,FALSE,1647,1793,1653,1787,6
+,,,2004-05-30,Friendly,played,Wales,WAL,WAL,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,1,0,win,Wrexham,Wales,FALSE,1653,1601,1659,1595,6
+,,,2004-08-18,Friendly,played,Wales,WAL,WAL,UEFA,Latvia,,,,FALSE,2,0,win,Riga,Latvia,FALSE,1659,1531,1673,1517,14
+,,,2004-09-04,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Azerbaijan,,,,FALSE,1,1,draw,Baku,Azerbaijan,FALSE,1673,1383,1663,1393,-10
+,,,2004-09-08,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,1663,1491,1650,1504,-13
+,,,2004-10-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,Manchester,England,FALSE,1650,1978,1645,1983,-5
+,,,2004-10-13,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,TRUE,2,3,loss,Cardiff,Wales,FALSE,1645,1776,1627,1794,-18
+,,,2005-02-09,Friendly,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,0,win,Cardiff,Wales,FALSE,1627,1607,1637,1597,10
+,,,2005-03-26,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,1637,1637,1599,1675,-38
+,,,2005-03-30,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,1,loss,Vienna,Austria,FALSE,1599,1675,1588,1686,-11
+,,,2005-08-17,Friendly,played,Wales,WAL,WAL,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,0,0,draw,Swansea,Wales,FALSE,1588,1649,1587,1650,-1
+,,,2005-09-03,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1587,1971,1580,1978,-7
+,,,2005-09-07,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,FALSE,0,1,loss,Warsaw,Poland,FALSE,1580,1833,1575,1838,-5
+,,,2005-10-08,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,2,win,Belfast,Northern Ireland,FALSE,1575,1528,1598,1505,23
+,,,2005-10-12,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Azerbaijan,,,,TRUE,2,0,win,Cardiff,Wales,FALSE,1598,1356,1605,1349,7
+,,,2005-11-16,Friendly,played,Wales,WAL,WAL,UEFA,Cyprus,,,,FALSE,0,1,loss,Limassol,Cyprus,FALSE,1605,1451,1593,1463,-12
+,,,2006-03-01,Friendly,played,Wales,WAL,WAL,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,0,draw,Cardiff,Wales,FALSE,1593,1778,1595,1776,2
+,,,2006-05-21,Friendly,played,Wales,WAL,WAL,UEFA,Basque Country,,,,FALSE,1,0,win,Bilbao,Spain,FALSE,,,,,
+,,,2006-05-27,Friendly,played,Wales,WAL,WAL,UEFA,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,Graz,Austria,TRUE,1595,1588,1605,1578,10
+,,,2006-08-15,Friendly,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Swansea,Wales,FALSE,1605,1711,1605,1711,0
+,,,2006-09-02,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Czechia,CZE,CZE,UEFA,FALSE,1,2,loss,Teplice,Czech Republic,FALSE,1605,1854,1600,1859,-5
+,,,2006-09-05,Friendly,played,Wales,WAL,WAL,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,2,loss,London,England,TRUE,1600,2068,1598,2070,-2
+,,,2006-10-07,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,5,loss,Cardiff,Wales,FALSE,1598,1678,1558,1718,-40
+,,,2006-10-11,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Cyprus,,,,TRUE,3,1,win,Cardiff,Wales,FALSE,1558,1508,1576,1490,18
+,,,2006-11-14,Friendly,played,Wales,WAL,WAL,UEFA,Liechtenstein,,,,TRUE,4,0,win,Wrexham,Wales,FALSE,1576,1115,1577,1114,1
+,,,2007-02-06,Friendly,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1577,1536,1579,1534,2
+,,,2007-03-24,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2007-03-28,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,San Marino,,,,TRUE,3,0,win,Cardiff,Wales,FALSE,1572,937,1573,936,1
+,,,2007-05-26,Friendly,played,Wales,WAL,WAL,UEFA,New Zealand,NZL,NZL,OFC,TRUE,2,2,draw,Wrexham,Wales,FALSE,1573,1484,1568,1489,-5
+,,,2007-06-02,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1568,1875,1579,1864,11
+,,,2007-08-22,Friendly,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,0,win,Burgas,Bulgaria,FALSE,1579,1774,1596,1757,17
+,,,2007-09-08,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,1596,2004,1587,2013,-9
+,,,2007-09-12,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,5,2,win,Trnava,Slovakia,FALSE,1587,1716,1642,1661,55
+,,,2007-10-13,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Cyprus,,,,FALSE,1,3,loss,Nicosia,Cyprus,FALSE,1642,1496,1608,1530,-34
+,,,2007-10-17,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,San Marino,,,,FALSE,2,1,win,Serravalle,San Marino,FALSE,1608,929,1609,928,1
+,,,2007-11-17,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Cardiff,Wales,FALSE,,,,,
+,,,2007-11-21,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Frankfurt am Main,Germany,FALSE,1613,1960,1630,1943,17
+,,,2008-02-06,Friendly,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,TRUE,3,0,win,Wrexham,Wales,FALSE,1630,1772,1650,1752,20
+,,,2008-03-26,Friendly,played,Wales,WAL,WAL,UEFA,Luxembourg,,,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1650,1038,1651,1037,1
+,,,2008-05-28,Friendly,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,0,win,Reykjavík,Iceland,FALSE,1651,1423,1657,1417,6
+,,,2008-06-01,Friendly,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1657,1968,1654,1971,-3
+,,,2008-08-20,Friendly,played,Wales,WAL,WAL,UEFA,Georgia,,,,TRUE,1,2,loss,Swansea,Wales,FALSE,1654,1504,1638,1520,-16
+,,,2008-09-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Azerbaijan,,,,TRUE,1,0,win,Cardiff,Wales,FALSE,1638,1371,1642,1367,4
+,,,2008-09-10,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Russia,RUS,RUS,UEFA,FALSE,1,2,loss,Moscow,Russia,FALSE,1642,1875,1637,1880,-5
+,,,2008-10-11,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Liechtenstein,,,,TRUE,2,0,win,Cardiff,Wales,FALSE,1637,1189,1639,1187,2
+,,,2008-10-15,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Mönchengladbach,Germany,FALSE,1639,1976,1636,1979,-3
+,,,2008-11-19,Friendly,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,0,win,Brøndby,Denmark,FALSE,1636,1845,1653,1828,17
+,,,2009-02-11,Friendly,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,TRUE,0,1,loss,Vila Real de Santo António,Portugal,TRUE,1653,1747,1646,1754,-7
+,,,2009-03-28,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,0,2,loss,Cardiff,Wales,FALSE,1646,1657,1608,1695,-38
+,,,2009-04-01,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,1608,1949,1596,1961,-12
+,,,2009-05-29,Friendly,played,Wales,WAL,WAL,UEFA,Estonia,,,,TRUE,1,0,win,Llanelli,Wales,FALSE,1596,1420,1599,1417,3
+,,,2009-06-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Azerbaijan,,,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1599,1374,1612,1361,13
+,,,2009-08-12,Friendly,played,Wales,WAL,WAL,UEFA,Montenegro,,,,FALSE,1,2,loss,Podgorica,Montenegro,FALSE,1612,1654,1606,1660,-6
+,,,2009-09-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Russia,RUS,RUS,UEFA,TRUE,1,3,loss,Cardiff,Wales,FALSE,1606,1898,1591,1913,-15
+,,,2009-10-10,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,FALSE,1,2,loss,Helsinki,Finland,FALSE,1591,1652,1580,1663,-11
+,,,2009-10-14,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Liechtenstein,,,,FALSE,2,0,win,Vaduz,Liechtenstein,FALSE,1580,1166,1588,1158,8
+,,,2009-11-14,Friendly,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,0,win,Cardiff,Wales,FALSE,1588,1687,1605,1670,17
+,,,2010-03-03,Friendly,played,Wales,WAL,WAL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,1,loss,Swansea,Wales,FALSE,1605,1776,1597,1784,-8
+,,,2010-05-23,Friendly,played,Wales,WAL,WAL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,2,loss,Osijek,Croatia,FALSE,1597,1898,1594,1901,-3
+,,,2010-08-11,Friendly,played,Wales,WAL,WAL,UEFA,Luxembourg,,,,TRUE,5,1,win,Llanelli,Wales,FALSE,1594,1099,1595,1098,1
+,,,2010-09-03,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Montenegro,,,,FALSE,0,1,loss,Podgorica,Montenegro,FALSE,1595,1637,1583,1649,-12
+,,,2010-10-08,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1583,1680,1563,1700,-20
+,,,2010-10-12,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,4,loss,Basel,Switzerland,FALSE,1563,1742,1551,1754,-12
+,,,2011-02-08,Nations Cup,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2011-03-26,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,1543,1931,1533,1941,-10
+,,,2011-05-25,Nations Cup,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,3,loss,Dublin,Republic of Ireland,TRUE,1533,1674,1519,1688,-14
+,,,2011-05-27,Nations Cup,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,0,win,Dublin,Republic of Ireland,TRUE,1519,1543,1543,1519,24
+,,,2011-08-10,Friendly,played,Wales,WAL,WAL,UEFA,Australia,AUS,AUS,AFC,TRUE,1,2,loss,Cardiff,Wales,FALSE,1543,1811,1537,1817,-6
+,,,2011-09-02,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Montenegro,,,,TRUE,2,1,win,Cardiff,Wales,FALSE,1537,1701,1561,1677,24
+,,,2011-09-06,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1561,1944,1559,1946,-2
+,,,2011-10-07,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,0,win,Swansea,Wales,FALSE,1559,1779,1599,1739,40
+,,,2011-10-11,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1599,1656,1627,1628,28
+,,,2011-11-12,Friendly,played,Wales,WAL,WAL,UEFA,Norway,NOR,NOR,UEFA,TRUE,4,1,win,Cardiff,Wales,FALSE,1627,1774,1647,1754,20
+,,,2012-02-29,Friendly,played,Wales,WAL,WAL,UEFA,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Cardiff,Wales,FALSE,1647,1663,1635,1675,-12
+,,,2012-05-27,Friendly,played,Wales,WAL,WAL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,East Rutherford,United States,TRUE,1635,1854,1628,1861,-7
+,,,2012-08-15,Friendly,played,Wales,WAL,WAL,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,0,2,loss,Llanelli,Wales,FALSE,1628,1682,1611,1699,-17
+,,,2012-09-07,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,2,loss,Cardiff,Wales,FALSE,1611,1705,1580,1736,-31
+,,,2012-09-11,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Serbia,SRB,SRB,UEFA,FALSE,1,6,loss,Novi Sad,Serbia,FALSE,1580,1714,1563,1731,-17
+,,,2012-10-12,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1563,1688,1584,1667,21
+,,,2012-10-16,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,2,loss,Osijek,Croatia,FALSE,1584,1873,1578,1879,-6
+,,,2013-02-06,Friendly,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,1,win,Swansea,Wales,FALSE,1578,1603,1586,1595,8
+,,,2013-03-22,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,1,win,Glasgow,Scotland,FALSE,1586,1660,1615,1631,29
+,,,2013-03-26,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,2,loss,Swansea,Wales,FALSE,1615,1901,1605,1911,-10
+,,,2013-08-14,Friendly,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,,,,,
+,,,2013-09-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,North Macedonia,,,,FALSE,1,2,loss,Skopje,North Macedonia,FALSE,1606,1541,1588,1559,-18
+,,,2013-09-10,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,3,loss,Cardiff,Wales,FALSE,1588,1693,1554,1727,-34
+,,,2013-10-11,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,North Macedonia,,,,TRUE,1,0,win,Cardiff,Wales,FALSE,1554,1537,1568,1523,14
+,,,2013-10-15,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Brussels,Belgium,FALSE,1568,1884,1585,1867,17
+,,,2013-11-16,Friendly,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,1,1,draw,Cardiff,Wales,FALSE,1585,1672,1585,1672,0
+,,,2014-03-05,Friendly,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,TRUE,3,1,win,Cardiff,Wales,FALSE,1585,1537,1594,1528,9
+,,,2014-06-04,Friendly,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1594,1983,1592,1985,-2
+,,,2014-09-09,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Andorra,,,,FALSE,2,1,win,Sant Julià de Lòria,Andorra,FALSE,1592,985,1594,983,2
+,,,2014-10-10,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1594,1743,1597,1740,3
+,,,2014-10-13,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Cyprus,,,,TRUE,2,1,win,Cardiff,Wales,FALSE,1597,1407,1603,1401,6
+,,,2014-11-16,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,0,draw,Brussels,Belgium,FALSE,1603,1915,1620,1898,17
+,,,2015-03-28,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Israel,ISR,ISR,UEFA,FALSE,3,0,win,Haifa,Israel,FALSE,1620,1683,1670,1633,50
+,,,2015-06-12,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1670,1926,1698,1898,28
+,,,2015-09-03,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Cyprus,,,,FALSE,1,0,win,Nicosia,Cyprus,FALSE,1698,1410,1708,1400,10
+,,,2015-09-06,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Israel,ISR,ISR,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1708,1608,1698,1618,-10
+,,,2015-10-10,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,0,2,loss,Zenica,Bosnia and Herzegovina,FALSE,1698,1720,1678,1740,-20
+,,,2015-10-13,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Andorra,,,,TRUE,2,0,win,Cardiff,Wales,FALSE,1678,960,1679,959,1
+,,,2015-11-13,Friendly,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,3,loss,Cardiff,Wales,FALSE,1679,1890,1672,1897,-7
+,,,2016-03-24,Friendly,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1672,1594,1667,1599,-5
+,,,2016-03-28,Friendly,played,Wales,WAL,WAL,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,1,loss,Kyiv,Ukraine,FALSE,1667,1817,1663,1821,-4
+,,,2016-06-05,Friendly,played,Wales,WAL,WAL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,3,loss,Solna,Sweden,FALSE,1663,1753,1654,1762,-9
+,,,2016-06-11,UEFA Euro,played,Wales,WAL,WAL,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,1,win,Bordeaux,France,TRUE,1654,1765,1687,1732,33
+,,,2016-06-16,UEFA Euro,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,Lens,France,TRUE,1687,1956,1678,1965,-9
+,,,2016-06-20,UEFA Euro,played,Wales,WAL,WAL,UEFA,Russia,RUS,RUS,UEFA,FALSE,3,0,win,Toulouse,France,TRUE,1678,1744,1730,1692,52
+,,,2016-06-25,UEFA Euro,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Paris,France,TRUE,1730,1662,1750,1642,20
+,,,2016-07-01,UEFA Euro,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,3,1,win,Villeneuve-d'Ascq,France,TRUE,1750,1947,1807,1890,57
+,,,2016-07-06,UEFA Euro,played,Wales,WAL,WAL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,2,loss,Lyon,France,TRUE,1807,1891,1778,1920,-29
+,,,2016-09-05,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Moldova,,,,TRUE,4,0,win,Cardiff,Wales,FALSE,1778,1350,1781,1347,3
+,,,2016-10-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,2,draw,Vienna,Austria,FALSE,1781,1726,1784,1723,3
+,,,2016-10-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Georgia,,,,TRUE,1,1,draw,Cardiff,Wales,FALSE,1784,1468,1767,1485,-17
+,,,2016-11-12,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1767,1747,1760,1754,-7
+,,,2017-03-24,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2017-06-11,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Serbia,SRB,SRB,UEFA,FALSE,1,1,draw,Belgrade,Serbia,FALSE,1768,1762,1773,1757,5
+,,,2017-09-02,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1773,1695,1784,1684,11
+,,,2017-09-05,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Moldova,,,,FALSE,2,0,win,Chișinău,Moldova,FALSE,1784,1349,1792,1341,8
+,,,2017-10-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Georgia,,,,FALSE,1,0,win,Tbilisi,Georgia,FALSE,1792,1493,1802,1483,10
+,,,2017-10-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,,,,,
+,,,2017-11-10,Friendly,played,Wales,WAL,WAL,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Saint-Denis,France,FALSE,1773,1978,1769,1982,-4
+,,,2017-11-14,Friendly,played,Wales,WAL,WAL,UEFA,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Cardiff,Wales,FALSE,1769,1665,1764,1670,-5
+,,,2018-03-22,Friendly,played,Wales,WAL,WAL,UEFA,China PR,,,,FALSE,6,0,win,Nanning,China PR,FALSE,,,,,
+,,,2018-03-26,Friendly,played,Wales,WAL,WAL,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,0,1,loss,Nanning,China PR,TRUE,1787,1878,1776,1889,-11
+,,,2018-05-28,Friendly,played,Wales,WAL,WAL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Pasadena,United States,TRUE,1776,1858,1778,1856,2
+,,,2018-09-06,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,4,1,win,Cardiff,Wales,FALSE,,,,,
+,,,2018-09-09,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,2,loss,Aarhus,Denmark,FALSE,1799,1874,1783,1890,-16
+,,,2018-10-11,Friendly,played,Wales,WAL,WAL,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,4,loss,Cardiff,Wales,FALSE,1783,2051,1773,2061,-10
+,,,2018-10-16,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2018-11-16,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,2,loss,Cardiff,Wales,FALSE,1796,1892,1776,1912,-20
+,,,2018-11-20,Friendly,played,Wales,WAL,WAL,UEFA,Albania,,,,FALSE,0,1,loss,Elbasan,Albania,FALSE,1776,1499,1761,1514,-15
+,,,2019-03-20,Friendly,played,Wales,WAL,WAL,UEFA,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,Wrexham,Wales,FALSE,1761,1432,1763,1430,2
+,,,2019-03-24,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1763,1759,1777,1745,14
+,,,2019-06-08,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,2,loss,Osijek,Croatia,FALSE,1777,1894,1768,1903,-9
+,,,2019-06-11,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,1,loss,Budapest,Hungary,FALSE,1768,1648,1747,1669,-21
+,,,2019-09-06,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Azerbaijan,,,,TRUE,2,1,win,Cardiff,Wales,FALSE,1747,1365,1749,1363,2
+,,,2019-09-09,Friendly,played,Wales,WAL,WAL,UEFA,Belarus,,,,TRUE,1,0,win,Cardiff,Wales,FALSE,1749,1522,1752,1519,3
+,,,2019-10-10,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,1,draw,Trnava,Slovakia,FALSE,1752,1749,1757,1744,5
+,,,2019-10-13,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1757,1911,1760,1908,3
+,,,2019-11-16,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Azerbaijan,,,,FALSE,2,0,win,Baku,Azerbaijan,FALSE,1760,1391,1771,1380,11
+,,,2019-11-19,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,0,win,Cardiff,Wales,FALSE,1771,1630,1783,1618,12
+,,,2020-09-03,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Finland,,,,FALSE,1,0,win,Helsinki,Finland,FALSE,1783,1646,1801,1628,18
+,,,2020-09-06,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1801,1563,1806,1558,5
+,,,2020-10-08,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,3,loss,London,England,FALSE,1806,1966,1800,1972,-6
+,,,2020-10-11,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2020-10-14,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,0,win,Sofia,Bulgaria,FALSE,1800,1513,1810,1503,10
+,,,2020-11-12,Friendly,played,Wales,WAL,WAL,UEFA,United States,USA,USA,CONCACAF,TRUE,0,0,draw,Cardiff,Wales,FALSE,1810,1726,1805,1731,-5
+,,,2020-11-15,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,,,,,
+,,,2020-11-18,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,3,1,win,Cardiff,Wales,FALSE,1814,1722,1829,1707,15
+,,,2021-03-24,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,3,loss,Leuven,Belgium,FALSE,1829,2110,1823,2116,-6
+,,,2021-03-27,Friendly,played,Wales,WAL,WAL,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,1,0,win,Cardiff,Wales,FALSE,1823,1928,1833,1918,10
+,,,2021-03-30,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1833,1780,1845,1768,12
+,,,2021-06-02,Friendly,played,Wales,WAL,WAL,UEFA,France,FRA,FRA,UEFA,FALSE,0,3,loss,Nice,France,FALSE,1845,2083,1841,2087,-4
+,,,2021-06-05,Friendly,played,Wales,WAL,WAL,UEFA,Albania,,,,TRUE,0,0,draw,Cardiff,Wales,FALSE,1841,1552,1833,1560,-8
+,,,2021-06-12,UEFA Euro,played,Wales,WAL,WAL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1833,1889,1837,1885,4
+,,,2021-06-16,UEFA Euro,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,0,win,Baku,Azerbaijan,TRUE,1837,1788,1869,1756,32
+,,,2021-06-20,UEFA Euro,played,Wales,WAL,WAL,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,1,loss,Rome,Italy,FALSE,1869,2043,1860,2052,-9
+,,,2021-06-26,UEFA Euro,played,Wales,WAL,WAL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,4,loss,Amsterdam,Netherlands,TRUE,1860,1925,1822,1963,-38
+,,,2021-09-01,Friendly,played,Wales,WAL,WAL,UEFA,Finland,,,,FALSE,0,0,draw,Helsinki,Finland,FALSE,1822,1704,1821,1705,-1
+,,,2021-09-05,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belarus,,,,FALSE,3,2,win,Kazan,Russia,TRUE,1821,1488,1826,1483,5
+,,,2021-09-08,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Estonia,,,,TRUE,0,0,draw,Cardiff,Wales,FALSE,1826,1394,1808,1412,-18
+,,,2021-10-08,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Czechia,CZE,CZE,UEFA,FALSE,2,2,draw,Prague,Czech Republic,FALSE,1808,1828,1815,1821,7
+,,,2021-10-11,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Estonia,,,,FALSE,1,0,win,Tallinn,Estonia,FALSE,1815,1439,1822,1432,7
+,,,2021-11-13,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belarus,,,,TRUE,5,1,win,Cardiff,Wales,FALSE,1822,1448,1827,1443,5
+,,,2021-11-16,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1827,2082,1835,2074,8
+,,,2022-03-24,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1835,1730,1844,1721,9
+,,,2022-03-29,Friendly,played,Wales,WAL,WAL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1844,1818,1841,1821,-3
+,,,2022-06-01,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,FALSE,1,2,loss,Wrocław,Poland,FALSE,1841,1798,1824,1815,-17
+,,,2022-06-05,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,0,win,Cardiff,Wales,FALSE,1824,1848,1840,1832,16
+,,,2022-06-08,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Cardiff,Wales,FALSE,1840,1993,1823,2010,-17
+,,,2022-06-11,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1823,2025,1829,2019,6
+,,,2022-06-14,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,3,loss,Rotterdam,Netherlands,FALSE,1829,1996,1822,2003,-7
+,,,2022-09-22,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,2,loss,Brussels,Belgium,FALSE,1822,2033,1816,2039,-6
+,,,2022-09-25,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,TRUE,0,1,loss,Cardiff,Wales,FALSE,1816,1781,1789,1808,-27
+WC-2022,WC-2022_004,4,2022-11-21,FIFA World Cup,played,Wales,WAL,WAL,UEFA,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Al Rayyan,Qatar,TRUE,1789,1796,1790,1795,1
+WC-2022,WC-2022_019,19,2022-11-25,FIFA World Cup,played,Wales,WAL,WAL,UEFA,Iran,IRN,IRN,AFC,TRUE,0,2,loss,Al Rayyan,Qatar,TRUE,1790,1761,1741,1810,-49
+WC-2022,WC-2022_035,35,2022-11-29,FIFA World Cup,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,TRUE,0,3,loss,Al Rayyan,Qatar,TRUE,1741,1943,1716,1968,-25
+,,,2023-03-25,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,1,draw,Split,Croatia,FALSE,1716,1950,1731,1935,15
+,,,2023-03-28,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Latvia,,,,TRUE,1,0,win,Cardiff,Wales,FALSE,1731,1350,1733,1348,2
+,,,2023-06-16,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Armenia,,,,TRUE,2,4,loss,Cardiff,Wales,FALSE,1733,1435,1679,1489,-54
+,,,2023-06-19,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,2,loss,Samsun,Turkey,FALSE,1679,1709,1660,1728,-19
+,,,2023-09-07,Friendly,played,Wales,WAL,WAL,UEFA,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Cardiff,Wales,FALSE,1660,1760,1660,1760,0
+,,,2023-09-11,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Latvia,,,,FALSE,2,0,win,Riga,Latvia,FALSE,1660,1331,1673,1318,13
+,,,2023-10-11,Friendly,played,Wales,WAL,WAL,UEFA,Gibraltar,,,,TRUE,4,0,win,Wrexham,Wales,FALSE,1673,1061,1674,1060,1
+,,,2023-10-15,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Croatia,HRV,HRV,UEFA,TRUE,2,1,win,Cardiff,Wales,FALSE,1674,1978,1705,1947,31
+,,,2023-11-18,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Armenia,,,,FALSE,1,1,draw,Yerevan,Armenia,FALSE,1705,1462,1697,1470,-8
+,,,2023-11-21,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1697,1763,1695,1765,-2
+,,,2024-03-21,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Finland,,,,TRUE,4,1,win,Cardiff,Wales,FALSE,1695,1641,1715,1621,20
+,,,2024-03-26,UEFA Euro qualification,played,Wales,WAL,WAL,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1715,1714,1709,1720,-6
+,,,2024-06-06,Friendly,played,Wales,WAL,WAL,UEFA,Gibraltar,,,,FALSE,0,0,draw,Faro-Loulé,Portugal,TRUE,1709,1046,1699,1056,-10
+,,,2024-06-09,Friendly,played,Wales,WAL,WAL,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,0,4,loss,Trnava,Slovakia,FALSE,1699,1654,1683,1670,-16
+,,,2024-09-06,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,0,draw,Cardiff,Wales,FALSE,1683,1804,1684,1803,1
+,,,2024-09-09,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Montenegro,,,,FALSE,2,1,win,Nikšić,Montenegro,FALSE,1684,1533,1701,1516,17
+,,,2024-10-11,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,FALSE,2,2,draw,Reykjavík,Iceland,FALSE,1701,1574,1699,1576,-2
+,,,2024-10-14,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Montenegro,,,,TRUE,1,0,win,Cardiff,Wales,FALSE,1699,1512,1705,1506,6
+,,,2024-11-16,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,0,draw,Kayseri,Turkey,FALSE,1705,1834,1717,1822,12
+,,,2024-11-19,UEFA Nations League,played,Wales,WAL,WAL,UEFA,Iceland,ISL,ISL,UEFA,TRUE,4,1,win,Cardiff,Wales,FALSE,1717,1591,1732,1576,15
+,,,2025-03-22,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Kazakhstan,,,,TRUE,3,1,win,Cardiff,Wales,FALSE,1732,1425,1737,1420,5
+,,,2025-03-25,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,North Macedonia,,,,FALSE,1,1,draw,Skopje,North Macedonia,FALSE,1737,1612,1736,1613,-1
+,,,2025-06-06,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Liechtenstein,,,,TRUE,3,0,win,Cardiff,Wales,FALSE,1736,906,1736,906,0
+,,,2025-06-09,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,4,loss,Brussels,Belgium,FALSE,1736,1837,1726,1847,-10
+,,,2025-09-04,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Kazakhstan,,,,FALSE,1,0,win,Astana,Kazakhstan,FALSE,1726,1401,1735,1392,9
+,,,2025-09-09,Friendly,played,Wales,WAL,WAL,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,0,1,loss,Cardiff,Wales,FALSE,1735,1786,1724,1797,-11
+,,,2025-10-09,Friendly,played,Wales,WAL,WAL,UEFA,England,ENG,ENG,UEFA,FALSE,0,3,loss,London,England,FALSE,1724,2019,1721,2022,-3
+,,,2025-10-13,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,4,loss,Cardiff,Wales,FALSE,1721,1836,1692,1865,-29
+,,,2025-11-15,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Liechtenstein,,,,FALSE,1,0,win,Vaduz,Liechtenstein,FALSE,1692,901,1693,900,1
+,,,2025-11-18,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,North Macedonia,,,,TRUE,7,1,win,Cardiff,Wales,FALSE,1693,1614,1715,1592,22
+,,,2026-03-26,FIFA World Cup qualification,played,Wales,WAL,WAL,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1715,1572,1703,1584,-12
+,,,2026-03-31,Friendly,played,Wales,WAL,WAL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Cardiff,Wales,FALSE,1703,1596,1698,1601,-5

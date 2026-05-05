@@ -1,10 +1,10 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1982 FIFA Men's World Cup,WC-1982,1982,9,1982-06-16,Group Stage,played,Honduras,HND,Spain,ESP,FALSE,Valencia,Spain,FALSE,1600,1891
-1982 FIFA Men's World Cup,WC-1982,1982,24,1982-06-21,Group Stage,played,Honduras,HND,Northern Ireland,NIR,TRUE,Zaragoza,Spain,TRUE,1624,1755
-1982 FIFA Men's World Cup,WC-1982,1982,33,1982-06-24,Group Stage,played,Honduras,HND,Yugoslavia,YUG,TRUE,Zaragoza,Spain,TRUE,1635,1878
-2010 FIFA Men's World Cup,WC-2010,2010,15,2010-06-16,Group Stage,played,Honduras,HND,Chile,CHL,TRUE,Nelspruit,South Africa,TRUE,1714,1886
-2010 FIFA Men's World Cup,WC-2010,2010,32,2010-06-21,Group Stage,played,Honduras,HND,Spain,ESP,FALSE,Johannesburg,South Africa,TRUE,1698,2058
-2010 FIFA Men's World Cup,WC-2010,2010,48,2010-06-25,Group Stage,played,Honduras,HND,Switzerland,CHE,FALSE,Bloemfontein,South Africa,TRUE,1688,1791
-2014 FIFA Men's World Cup,WC-2014,2014,10,2014-06-15,Group Stage,played,Honduras,HND,France,FRA,FALSE,Porto Alegre,Brazil,TRUE,1669,1897
-2014 FIFA Men's World Cup,WC-2014,2014,24,2014-06-20,Group Stage,played,Honduras,HND,Ecuador,ECU,TRUE,Curitiba,Brazil,TRUE,1647,1808
-2014 FIFA Men's World Cup,WC-2014,2014,43,2014-06-25,Group Stage,played,Honduras,HND,Switzerland,CHE,TRUE,Manaus,Brazil,TRUE,1630,1835
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_009,9,1982-06-16,Group Stage,played,Honduras,HND,HND,CONCACAF,Spain,ESP,ESP,UEFA,FALSE,Valencia,Spain,FALSE,1600,1891
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_024,24,1982-06-21,Group Stage,played,Honduras,HND,HND,CONCACAF,Northern Ireland,NIR,NIR,UEFA,TRUE,Zaragoza,Spain,TRUE,1624,1755
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_033,33,1982-06-24,Group Stage,played,Honduras,HND,HND,CONCACAF,Yugoslavia,YUG,YUG,UEFA,TRUE,Zaragoza,Spain,TRUE,1635,1878
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_015,15,2010-06-16,Group Stage,played,Honduras,HND,HND,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,Nelspruit,South Africa,TRUE,1714,1886
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_032,32,2010-06-21,Group Stage,played,Honduras,HND,HND,CONCACAF,Spain,ESP,ESP,UEFA,FALSE,Johannesburg,South Africa,TRUE,1698,2058
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_048,48,2010-06-25,Group Stage,played,Honduras,HND,HND,CONCACAF,Switzerland,CHE,CHE,UEFA,FALSE,Bloemfontein,South Africa,TRUE,1688,1791
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_010,10,2014-06-15,Group Stage,played,Honduras,HND,HND,CONCACAF,France,FRA,FRA,UEFA,FALSE,Porto Alegre,Brazil,TRUE,1669,1897
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_024,24,2014-06-20,Group Stage,played,Honduras,HND,HND,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,Curitiba,Brazil,TRUE,1647,1808
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_043,43,2014-06-25,Group Stage,played,Honduras,HND,HND,CONCACAF,Switzerland,CHE,CHE,UEFA,TRUE,Manaus,Brazil,TRUE,1630,1835

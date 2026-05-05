@@ -1,17 +1,17 @@
-country,team_code,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
-Netherlands,NLD,Runner-up,2,7,15,3,1843,2077,234,1978,Runner-up,2
-Poland,POL,Third Place,3,7,16,5,1959,2082,123,1978,Quarter-final,8
-Brazil,BRA,Fourth Place,4,7,6,4,2117,2036,-81,1978,Third Place,3
-Argentina,ARG,Quarter-final,8,6,9,12,1894,1843,-51,1978,Winner,1
-German DR,DDR,Quarter-final,8,6,5,5,1939,1918,-21,,,
-Germany,DEU,Quarter-final,8,7,13,4,,,,1978,Quarter-final,8
-Sweden,SWE,Quarter-final,8,6,7,6,1888,1914,26,1978,Group Stage,16
-Yugoslavia,YUG,Quarter-final,8,6,12,7,1935,1897,-38,1982,Group Stage,24
-Australia,AUS,Group Stage,16,3,0,5,1687,1676,-11,2006,Round of 16,16
-Bulgaria,BGR,Group Stage,16,3,2,5,1822,1775,-47,1986,Round of 16,16
-Chile,CHL,Group Stage,16,3,1,2,1771,1776,5,1982,Group Stage,24
-DR Congo,,Group Stage,16,3,0,14,,,,,,
-Haiti,HTI,Group Stage,16,3,2,14,1610,1572,-38,,,
-Italy,ITA,Group Stage,16,3,5,4,2003,1969,-34,1978,Fourth Place,4
-Scotland,SCO,Group Stage,16,3,3,1,1865,1891,26,1978,Group Stage,16
-Uruguay,URY,Group Stage,16,3,1,6,1758,1702,-56,1986,Round of 16,16
+tournament_id,year,country,team_id,team_code,confederation,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
+WC-1974,1974,Netherlands,NED,NLD,UEFA,Runner-up,2,7,15,3,1843,2077,234,1978,Runner-up,2
+WC-1974,1974,Poland,POL,POL,UEFA,Third Place,3,7,16,5,1959,2082,123,1978,Quarter-final,8
+WC-1974,1974,Brazil,BRA,BRA,CONMEBOL,Fourth Place,4,7,6,4,2117,2036,-81,1978,Third Place,3
+WC-1974,1974,Argentina,ARG,ARG,CONMEBOL,Quarter-final,8,6,9,12,1894,1843,-51,1978,Winner,1
+WC-1974,1974,German DR,DDR,DDR,UEFA,Quarter-final,8,6,5,5,1939,1918,-21,,,
+WC-1974,1974,Germany,GER,DEU,UEFA,Quarter-final,8,7,13,4,,,,1978,Quarter-final,8
+WC-1974,1974,Sweden,SWE,SWE,UEFA,Quarter-final,8,6,7,6,1888,1914,26,1978,Group Stage,16
+WC-1974,1974,Yugoslavia,YUG,YUG,UEFA,Quarter-final,8,6,12,7,1935,1897,-38,1982,Group Stage,24
+WC-1974,1974,Australia,AUS,AUS,AFC,Group Stage,16,3,0,5,1687,1676,-11,2006,Round of 16,16
+WC-1974,1974,Bulgaria,BGR,BGR,UEFA,Group Stage,16,3,2,5,1822,1775,-47,1986,Round of 16,16
+WC-1974,1974,Chile,CHL,CHL,CONMEBOL,Group Stage,16,3,1,2,1771,1776,5,1982,Group Stage,24
+WC-1974,1974,DR Congo,,,,Group Stage,16,3,0,14,,,,,,
+WC-1974,1974,Haiti,HTI,HTI,CONCACAF,Group Stage,16,3,2,14,1610,1572,-38,,,
+WC-1974,1974,Italy,ITA,ITA,UEFA,Group Stage,16,3,5,4,2003,1969,-34,1978,Fourth Place,4
+WC-1974,1974,Scotland,SCO,SCO,UEFA,Group Stage,16,3,3,1,1865,1891,26,1978,Group Stage,16
+WC-1974,1974,Uruguay,URY,URY,CONMEBOL,Group Stage,16,3,1,6,1758,1702,-56,1986,Round of 16,16

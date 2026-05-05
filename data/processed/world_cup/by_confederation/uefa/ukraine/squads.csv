@@ -1,24 +1,24 @@
-team,team_code,tournament,tournament_id,year,player_name,player_id,position,pos_code,shirt_number,date_of_birth,age,club,club_country,caps,goals
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Anatoliy Tymoshchuk,P-60675,midfielder,MF,4,1979-03-30,27,Shakhtar Donetsk,Ukraine,11,0
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Husin,P-47335,midfielder,MF,14,1972-12-11,33,Krylya Sovetov Samara,Russia,7,0
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Nesmachniy,P-17420,defender,DF,2,1979-02-28,27,,,,
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Pyatov,P-37090,goal keeper,GK,12,1984-06-28,21,,,,
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Rusol,P-07368,defender,DF,6,1983-01-16,23,Dnipro Dnipropetrovsk,Ukraine,13,2
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Shevchenko,P-86650,forward,FW,7,1976-09-29,29,Chelsea FC,England,7,5
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Vorobey,P-58919,forward,FW,16,1978-11-29,27,Shakhtar Donetsk,Ukraine,5,3
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Voronin,P-99083,forward,FW,10,1979-07-21,26,Bayer 04 Leverkusen,Germany,10,2
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Artem Milevskyi,P-69073,forward,FW,15,1985-01-12,21,Dynamo Kyiv,Ukraine,1,0
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Bohdan Shust,P-96162,goal keeper,GK,23,1986-03-04,20,Shakhtar Donetsk,Ukraine,1,0
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Dmytro Chyhrynskyi,P-32374,defender,DF,13,1986-11-07,19,,,,
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Maksym Kalynychenko,P-98387,midfielder,MF,19,1979-01-26,27,Spartak Moskva,Russia,9,3
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Oleh Husyev,P-82307,midfielder,MF,9,1983-04-25,23,Dynamo Kyiv,Ukraine,12,1
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Oleh Shelayev,P-56584,midfielder,MF,8,1976-11-05,29,Dnipro Dnipropetrovsk,Ukraine,9,0
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Oleksandr Shovkovskyi,P-91649,goal keeper,GK,1,1975-01-02,31,Dynamo Kyiv,Ukraine,12,0
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Oleksandr Yatsenko,P-96896,defender,DF,3,1985-02-24,21,,,,
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Oleksiy Byelik,P-55388,forward,FW,20,1981-02-15,25,Shakhtar Donetsk,Ukraine,5,3
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Ruslan Rotan,P-67256,midfielder,MF,21,1981-10-29,24,Dynamo Kyiv,Ukraine,6,2
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Serhii Rebrov,P-56553,forward,FW,11,1974-06-03,32,,,,
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Serhiy Nazarenko,P-60032,midfielder,MF,18,1980-02-16,26,Dnipro Dnipropetrovsk,Ukraine,4,2
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Vladyslav Vashchuk,P-27508,defender,DF,17,1975-01-02,31,Dynamo Kyiv,Ukraine,6,0
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Volodymyr Yezerskiy,P-35676,defender,DF,5,1976-11-15,29,,,,
-Ukraine,UKR,2006 FIFA Men's World Cup,WC-2006,2006,Vyacheslav Sviderskyi,P-18200,defender,DF,22,1979-01-01,27,Chornomorets Odesa,Ukraine,5,0
+team,team_id,team_code,confederation,tournament,tournament_id,year,player_name,player_id,position,pos_code,shirt_number,date_of_birth,age,club,club_country,caps,goals
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Anatoliy Tymoshchuk,P-60675,midfielder,MF,4,1979-03-30,27,Shakhtar Donetsk,Ukraine,11,0
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Husin,P-47335,midfielder,MF,14,1972-12-11,33,Krylya Sovetov Samara,Russia,7,0
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Nesmachniy,P-17420,defender,DF,2,1979-02-28,27,,,,
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Pyatov,P-37090,goal keeper,GK,12,1984-06-28,21,,,,
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Rusol,P-07368,defender,DF,6,1983-01-16,23,Dnipro Dnipropetrovsk,Ukraine,13,2
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Shevchenko,P-86650,forward,FW,7,1976-09-29,29,Chelsea FC,England,7,5
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Vorobey,P-58919,forward,FW,16,1978-11-29,27,Shakhtar Donetsk,Ukraine,5,3
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Andriy Voronin,P-99083,forward,FW,10,1979-07-21,26,Bayer 04 Leverkusen,Germany,10,2
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Artem Milevskyi,P-69073,forward,FW,15,1985-01-12,21,Dynamo Kyiv,Ukraine,1,0
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Bohdan Shust,P-96162,goal keeper,GK,23,1986-03-04,20,Shakhtar Donetsk,Ukraine,1,0
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Dmytro Chyhrynskyi,P-32374,defender,DF,13,1986-11-07,19,,,,
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Maksym Kalynychenko,P-98387,midfielder,MF,19,1979-01-26,27,Spartak Moskva,Russia,9,3
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Oleh Husyev,P-82307,midfielder,MF,9,1983-04-25,23,Dynamo Kyiv,Ukraine,12,1
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Oleh Shelayev,P-56584,midfielder,MF,8,1976-11-05,29,Dnipro Dnipropetrovsk,Ukraine,9,0
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Oleksandr Shovkovskyi,P-91649,goal keeper,GK,1,1975-01-02,31,Dynamo Kyiv,Ukraine,12,0
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Oleksandr Yatsenko,P-96896,defender,DF,3,1985-02-24,21,,,,
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Oleksiy Byelik,P-55388,forward,FW,20,1981-02-15,25,Shakhtar Donetsk,Ukraine,5,3
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Ruslan Rotan,P-67256,midfielder,MF,21,1981-10-29,24,Dynamo Kyiv,Ukraine,6,2
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Serhii Rebrov,P-56553,forward,FW,11,1974-06-03,32,,,,
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Serhiy Nazarenko,P-60032,midfielder,MF,18,1980-02-16,26,Dnipro Dnipropetrovsk,Ukraine,4,2
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Vladyslav Vashchuk,P-27508,defender,DF,17,1975-01-02,31,Dynamo Kyiv,Ukraine,6,0
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Volodymyr Yezerskiy,P-35676,defender,DF,5,1976-11-15,29,,,,
+Ukraine,UKR,UKR,UEFA,2006 FIFA Men's World Cup,WC-2006,2006,Vyacheslav Sviderskyi,P-18200,defender,DF,22,1979-01-01,27,Chornomorets Odesa,Ukraine,5,0

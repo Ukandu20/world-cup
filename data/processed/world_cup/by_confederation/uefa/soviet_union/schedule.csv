@@ -1,32 +1,32 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1958 FIFA Men's World Cup,WC-1958,1958,4,1958-06-08,Group Stage,played,Soviet Union,SUN,England,ENG,FALSE,Gothenburg,Sweden,TRUE,1893,2015
-1958 FIFA Men's World Cup,WC-1958,1958,10,1958-06-11,Group Stage,played,Soviet Union,SUN,Austria,AUT,FALSE,Borås,Sweden,TRUE,1903,1864
-1958 FIFA Men's World Cup,WC-1958,1958,19,1958-06-15,Group Stage,played,Soviet Union,SUN,Brazil,BRA,FALSE,Gothenburg,Sweden,TRUE,1943,2017
-1958 FIFA Men's World Cup,WC-1958,1958,26,1958-06-17,Group Stage,played,Soviet Union,SUN,England,ENG,FALSE,Gothenburg,Sweden,TRUE,1907,1992
-1958 FIFA Men's World Cup,WC-1958,1958,31,1958-06-19,Quarter-final,played,Soviet Union,SUN,Sweden,SWE,FALSE,Solna,Sweden,FALSE,1944,1859
-1962 FIFA Men's World Cup,WC-1962,1962,8,1962-05-31,Group Stage,played,Soviet Union,SUN,Yugoslavia,YUG,TRUE,Arica,Chile,TRUE,2031,1983
-1962 FIFA Men's World Cup,WC-1962,1962,14,1962-06-03,Group Stage,played,Soviet Union,SUN,Colombia,COL,FALSE,Arica,Chile,TRUE,2070,1436
-1962 FIFA Men's World Cup,WC-1962,1962,20,1962-06-06,Group Stage,played,Soviet Union,SUN,Uruguay,URY,TRUE,Arica,Chile,TRUE,2042,1869
-1962 FIFA Men's World Cup,WC-1962,1962,26,1962-06-10,Quarter-final,played,Soviet Union,SUN,Chile,CHL,FALSE,Arica,Chile,FALSE,2058,1771
-1966 FIFA Men's World Cup,WC-1966,1966,4,1966-07-12,Group Stage,played,Soviet Union,SUN,North Korea,PRK,FALSE,Middlesbrough,England,TRUE,2003,1778
-1966 FIFA Men's World Cup,WC-1966,1966,16,1966-07-16,Group Stage,played,Soviet Union,SUN,Italy,ITA,FALSE,Sunderland,England,TRUE,2026,1998
-1966 FIFA Men's World Cup,WC-1966,1966,22,1966-07-20,Group Stage,played,Soviet Union,SUN,Chile,CHL,FALSE,Sunderland,England,TRUE,2054,1735
-1966 FIFA Men's World Cup,WC-1966,1966,27,1966-07-23,Quarter-final,played,Soviet Union,SUN,Hungary,HUN,FALSE,Sunderland,England,TRUE,2062,1977
-1966 FIFA Men's World Cup,WC-1966,1966,29,1966-07-25,Semi-final,played,Soviet Union,SUN,Germany,DEU,FALSE,Liverpool,England,TRUE,1922,1923
-1966 FIFA Men's World Cup,WC-1966,1966,31,1966-07-28,Third Place,played,Soviet Union,SUN,Portugal,PRT,FALSE,London,England,TRUE,2051,1983
-1970 FIFA Men's World Cup,WC-1970,1970,1,1970-05-31,Group Stage,played,Soviet Union,SUN,Mexico,MEX,FALSE,Mexico City,Mexico,FALSE,1937,1703
-1970 FIFA Men's World Cup,WC-1970,1970,9,1970-06-06,Group Stage,played,Soviet Union,SUN,Belgium,BEL,FALSE,Mexico City,Mexico,TRUE,1926,1800
-1970 FIFA Men's World Cup,WC-1970,1970,18,1970-06-10,Group Stage,played,Soviet Union,SUN,El Salvador,SLV,FALSE,Mexico City,Mexico,TRUE,1960,1496
-1970 FIFA Men's World Cup,WC-1970,1970,28,1970-06-14,Quarter-final,played,Soviet Union,SUN,Uruguay,URY,TRUE,Mexico City,Mexico,TRUE,1966,1864
-1982 FIFA Men's World Cup,WC-1982,1982,2,1982-06-14,Group Stage,played,Soviet Union,SUN,Brazil,BRA,FALSE,Seville,Spain,TRUE,2012,2093
-1982 FIFA Men's World Cup,WC-1982,1982,18,1982-06-19,Group Stage,played,Soviet Union,SUN,New Zealand,NZL,TRUE,Málaga,Spain,TRUE,1989,1575
-1982 FIFA Men's World Cup,WC-1982,1982,27,1982-06-22,Group Stage,played,Soviet Union,SUN,Scotland,SCO,TRUE,Málaga,Spain,TRUE,1998,1841
-1982 FIFA Men's World Cup,WC-1982,1982,42,1982-07-01,Quarter-final,played,Soviet Union,SUN,Belgium,BEL,FALSE,Barcelona,Spain,TRUE,1985,1897
-1982 FIFA Men's World Cup,WC-1982,1982,46,1982-07-04,Quarter-final,played,Soviet Union,SUN,Poland,POL,FALSE,Barcelona,Spain,TRUE,2008,2013
-1986 FIFA Men's World Cup,WC-1986,1986,6,1986-06-02,Group Stage,played,Soviet Union,SUN,Hungary,HUN,TRUE,Irapuato,Mexico,TRUE,1940,1891
-1986 FIFA Men's World Cup,WC-1986,1986,13,1986-06-05,Group Stage,played,Soviet Union,SUN,France,FRA,FALSE,León,Mexico,TRUE,1995,2002
-1986 FIFA Men's World Cup,WC-1986,1986,26,1986-06-09,Group Stage,played,Soviet Union,SUN,Canada,CAN,TRUE,Irapuato,Mexico,TRUE,1996,1619
-1986 FIFA Men's World Cup,WC-1986,1986,38,1986-06-15,Round of 16,played,Soviet Union,SUN,Belgium,BEL,TRUE,León,Mexico,TRUE,2005,1819
-1990 FIFA Men's World Cup,WC-1990,1990,3,1990-06-09,Group Stage,played,Soviet Union,SUN,Romania,ROU,TRUE,Bari,Italy,TRUE,1943,1894
-1990 FIFA Men's World Cup,WC-1990,1990,12,1990-06-13,Group Stage,played,Soviet Union,SUN,Argentina,ARG,FALSE,Naples,Italy,TRUE,1892,1751
-1990 FIFA Men's World Cup,WC-1990,1990,26,1990-06-18,Group Stage,played,Soviet Union,SUN,Cameroon,CMR,FALSE,Bari,Italy,TRUE,1830,1724
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_004,4,1958-06-08,Group Stage,played,Soviet Union,SUN,SUN,UEFA,England,ENG,ENG,UEFA,FALSE,Gothenburg,Sweden,TRUE,1893,2015
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_010,10,1958-06-11,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Austria,AUT,AUT,UEFA,FALSE,Borås,Sweden,TRUE,1903,1864
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_019,19,1958-06-15,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Gothenburg,Sweden,TRUE,1943,2017
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_026,26,1958-06-17,Group Stage,played,Soviet Union,SUN,SUN,UEFA,England,ENG,ENG,UEFA,FALSE,Gothenburg,Sweden,TRUE,1907,1992
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_031,31,1958-06-19,Quarter-final,played,Soviet Union,SUN,SUN,UEFA,Sweden,SWE,SWE,UEFA,FALSE,Solna,Sweden,FALSE,1944,1859
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_008,8,1962-05-31,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,Arica,Chile,TRUE,2031,1983
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_014,14,1962-06-03,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Colombia,COL,COL,CONMEBOL,FALSE,Arica,Chile,TRUE,2070,1436
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_020,20,1962-06-06,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,Arica,Chile,TRUE,2042,1869
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_026,26,1962-06-10,Quarter-final,played,Soviet Union,SUN,SUN,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,Arica,Chile,FALSE,2058,1771
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_004,4,1966-07-12,Group Stage,played,Soviet Union,SUN,SUN,UEFA,North Korea,PRK,PRK,AFC,FALSE,Middlesbrough,England,TRUE,2003,1778
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_016,16,1966-07-16,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Italy,ITA,ITA,UEFA,FALSE,Sunderland,England,TRUE,2026,1998
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_022,22,1966-07-20,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,Sunderland,England,TRUE,2054,1735
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_027,27,1966-07-23,Quarter-final,played,Soviet Union,SUN,SUN,UEFA,Hungary,HUN,HUN,UEFA,FALSE,Sunderland,England,TRUE,2062,1977
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_029,29,1966-07-25,Semi-final,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,Liverpool,England,TRUE,1922,1923
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_031,31,1966-07-28,Third Place,played,Soviet Union,SUN,SUN,UEFA,Portugal,PRT,PRT,UEFA,FALSE,London,England,TRUE,2051,1983
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_001,1,1970-05-31,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,Mexico City,Mexico,FALSE,1937,1703
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_009,9,1970-06-06,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Belgium,BEL,BEL,UEFA,FALSE,Mexico City,Mexico,TRUE,1926,1800
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_018,18,1970-06-10,Group Stage,played,Soviet Union,SUN,SUN,UEFA,El Salvador,SLV,SLV,CONCACAF,FALSE,Mexico City,Mexico,TRUE,1960,1496
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_028,28,1970-06-14,Quarter-final,played,Soviet Union,SUN,SUN,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,Mexico City,Mexico,TRUE,1966,1864
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_002,2,1982-06-14,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Seville,Spain,TRUE,2012,2093
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_018,18,1982-06-19,Group Stage,played,Soviet Union,SUN,SUN,UEFA,New Zealand,NZL,NZL,OFC,TRUE,Málaga,Spain,TRUE,1989,1575
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_027,27,1982-06-22,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Scotland,SCO,SCO,UEFA,TRUE,Málaga,Spain,TRUE,1998,1841
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_042,42,1982-07-01,Quarter-final,played,Soviet Union,SUN,SUN,UEFA,Belgium,BEL,BEL,UEFA,FALSE,Barcelona,Spain,TRUE,1985,1897
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_046,46,1982-07-04,Quarter-final,played,Soviet Union,SUN,SUN,UEFA,Poland,POL,POL,UEFA,FALSE,Barcelona,Spain,TRUE,2008,2013
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_006,6,1986-06-02,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Hungary,HUN,HUN,UEFA,TRUE,Irapuato,Mexico,TRUE,1940,1891
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_013,13,1986-06-05,Group Stage,played,Soviet Union,SUN,SUN,UEFA,France,FRA,FRA,UEFA,FALSE,León,Mexico,TRUE,1995,2002
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_026,26,1986-06-09,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,Irapuato,Mexico,TRUE,1996,1619
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_038,38,1986-06-15,Round of 16,played,Soviet Union,SUN,SUN,UEFA,Belgium,BEL,BEL,UEFA,TRUE,León,Mexico,TRUE,2005,1819
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_003,3,1990-06-09,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Romania,ROU,ROU,UEFA,TRUE,Bari,Italy,TRUE,1943,1894
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_012,12,1990-06-13,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Naples,Italy,TRUE,1892,1751
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_026,26,1990-06-18,Group Stage,played,Soviet Union,SUN,SUN,UEFA,Cameroon,CMR,CMR,CAF,FALSE,Bari,Italy,TRUE,1830,1724

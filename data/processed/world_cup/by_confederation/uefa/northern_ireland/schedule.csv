@@ -1,14 +1,14 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1958 FIFA Men's World Cup,WC-1958,1958,3,1958-06-08,Group Stage,played,Northern Ireland,NIR,Czechoslovakia,CSK,FALSE,Halmstad,Sweden,TRUE,1738,1894
-1958 FIFA Men's World Cup,WC-1958,1958,9,1958-06-11,Group Stage,played,Northern Ireland,NIR,Argentina,ARG,FALSE,Halmstad,Sweden,TRUE,1781,1984
-1958 FIFA Men's World Cup,WC-1958,1958,21,1958-06-15,Group Stage,played,Northern Ireland,NIR,Germany,DEU,FALSE,Malmö,Sweden,TRUE,1601,1923
-1958 FIFA Men's World Cup,WC-1958,1958,25,1958-06-17,Group Stage,played,Northern Ireland,NIR,Czechoslovakia,CSK,FALSE,Malmö,Sweden,TRUE,1776,1945
-1958 FIFA Men's World Cup,WC-1958,1958,29,1958-06-19,Quarter-final,played,Northern Ireland,NIR,France,FRA,FALSE,Norrköping,Sweden,TRUE,1820,1879
-1982 FIFA Men's World Cup,WC-1982,1982,12,1982-06-17,Group Stage,played,Northern Ireland,NIR,Yugoslavia,YUG,FALSE,Zaragoza,Spain,TRUE,1741,1917
-1982 FIFA Men's World Cup,WC-1982,1982,24,1982-06-21,Group Stage,played,Northern Ireland,NIR,Honduras,HND,FALSE,Zaragoza,Spain,TRUE,1755,1624
-1982 FIFA Men's World Cup,WC-1982,1982,36,1982-06-25,Group Stage,played,Northern Ireland,NIR,Spain,ESP,FALSE,Valencia,Spain,FALSE,1744,1892
-1982 FIFA Men's World Cup,WC-1982,1982,41,1982-07-01,Quarter-final,played,Northern Ireland,NIR,Austria,AUT,FALSE,Madrid,Spain,TRUE,1792,1900
-1982 FIFA Men's World Cup,WC-1982,1982,45,1982-07-04,Quarter-final,played,Northern Ireland,NIR,France,FRA,FALSE,Madrid,Spain,TRUE,1801,1905
-1986 FIFA Men's World Cup,WC-1986,1986,7,1986-06-03,Group Stage,played,Northern Ireland,NIR,Algeria,DZA,FALSE,Guadalajara,Mexico,TRUE,1853,1618
-1986 FIFA Men's World Cup,WC-1986,1986,20,1986-06-07,Group Stage,played,Northern Ireland,NIR,Spain,ESP,TRUE,Guadalajara,Mexico,TRUE,1835,1873
-1986 FIFA Men's World Cup,WC-1986,1986,34,1986-06-12,Group Stage,played,Northern Ireland,NIR,Brazil,BRA,TRUE,Guadalajara,Mexico,TRUE,1808,1953
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_003,3,1958-06-08,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,Halmstad,Sweden,TRUE,1738,1894
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_009,9,1958-06-11,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Halmstad,Sweden,TRUE,1781,1984
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_021,21,1958-06-15,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,Malmö,Sweden,TRUE,1601,1923
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_025,25,1958-06-17,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,Malmö,Sweden,TRUE,1776,1945
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_029,29,1958-06-19,Quarter-final,played,Northern Ireland,NIR,NIR,UEFA,France,FRA,FRA,UEFA,FALSE,Norrköping,Sweden,TRUE,1820,1879
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_012,12,1982-06-17,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,Zaragoza,Spain,TRUE,1741,1917
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_024,24,1982-06-21,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Honduras,HND,HND,CONCACAF,FALSE,Zaragoza,Spain,TRUE,1755,1624
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_036,36,1982-06-25,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Spain,ESP,ESP,UEFA,FALSE,Valencia,Spain,FALSE,1744,1892
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_041,41,1982-07-01,Quarter-final,played,Northern Ireland,NIR,NIR,UEFA,Austria,AUT,AUT,UEFA,FALSE,Madrid,Spain,TRUE,1792,1900
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_045,45,1982-07-04,Quarter-final,played,Northern Ireland,NIR,NIR,UEFA,France,FRA,FRA,UEFA,FALSE,Madrid,Spain,TRUE,1801,1905
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_007,7,1986-06-03,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Algeria,DZA,DZA,CAF,FALSE,Guadalajara,Mexico,TRUE,1853,1618
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_020,20,1986-06-07,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Spain,ESP,ESP,UEFA,TRUE,Guadalajara,Mexico,TRUE,1835,1873
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_034,34,1986-06-12,Group Stage,played,Northern Ireland,NIR,NIR,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,Guadalajara,Mexico,TRUE,1808,1953

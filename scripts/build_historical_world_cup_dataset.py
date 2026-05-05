@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 INT_WORLD_CUP_DIR = ROOT / "INT-World Cup" / "world_cup"
 WORLDCUP_CSV_DIR = ROOT / "worldcup" / "data-csv"
 BY_CONFEDERATION_DIR = INT_WORLD_CUP_DIR / "by_confederation"
+ALL_EDITIONS_DIR = INT_WORLD_CUP_DIR / "all_editions"
 CACHE_DIR = ROOT / ".cache" / "historical_world_cup_dataset"
 
 RESULTS_PATH = INT_WORLD_CUP_DIR / "results.csv"
@@ -42,8 +43,12 @@ REQUEST_HEADERS = {
 }
 
 PLACEMENT_FIELDS = [
+    "tournament_id",
+    "year",
     "country",
+    "team_id",
     "team_code",
+    "confederation",
     "placement",
     "position",
     "matches_played",
@@ -57,14 +62,20 @@ PLACEMENT_FIELDS = [
     "next_position",
 ]
 SCHEDULE_FIELDS = [
+    "tournament_id",
+    "match_id",
     "match_number",
     "date",
     "stage",
     "status",
     "home_team",
     "away_team",
+    "home_team_id",
+    "away_team_id",
     "home_team_code",
     "away_team_code",
+    "home_team_confederation",
+    "away_team_confederation",
     "home_elo_start",
     "away_elo_start",
     "city",
@@ -72,22 +83,27 @@ SCHEDULE_FIELDS = [
     "neutral",
 ]
 RESULT_FIELDS = [
+    "tournament_id",
+    "match_id",
     "match_number",
     "date",
     "stage",
     "status",
-    "home_team",
-    "away_team",
-    "home_team_code",
-    "away_team_code",
-    "home_score",
-    "away_score",
-    "home_elo_start",
-    "away_elo_start",
-    "home_elo_end",
-    "away_elo_end",
-    "home_elo_delta",
-    "away_elo_delta",
+    "team_id",
+    "team",
+    "team_confederation",
+    "opponent_id",
+    "opponent",
+    "opponent_confederation",
+    "is_home",
+    "team_score",
+    "opponent_score",
+    "result",
+    "team_elo_start",
+    "opponent_elo_start",
+    "team_elo_end",
+    "opponent_elo_end",
+    "team_elo_delta",
     "city",
     "country",
     "neutral",
@@ -96,7 +112,9 @@ RESULT_FIELDS = [
 ]
 SQUAD_FIELDS = [
     "team",
+    "team_id",
     "team_code",
+    "confederation",
     "tournament",
     "tournament_id",
     "year",
@@ -113,13 +131,20 @@ SQUAD_FIELDS = [
     "goals",
 ]
 COUNTRY_RESULTS_FIELDS = [
+    "tournament_id",
+    "match_id",
+    "match_number",
     "date",
     "tournament",
     "status",
     "team",
+    "team_id",
     "team_code",
+    "team_confederation",
     "opponent",
+    "opponent_id",
     "opponent_code",
+    "opponent_confederation",
     "is_home",
     "team_score",
     "opponent_score",
@@ -137,20 +162,48 @@ COUNTRY_SCHEDULE_FIELDS = [
     "tournament",
     "tournament_id",
     "year",
+    "match_id",
     "match_number",
     "date",
     "stage",
     "status",
     "team",
+    "team_id",
     "team_code",
+    "team_confederation",
     "opponent",
+    "opponent_id",
     "opponent_code",
+    "opponent_confederation",
     "is_home",
     "city",
     "country",
     "neutral",
     "team_elo_start",
     "opponent_elo_start",
+]
+TEAMS_FIELDS = [
+    "tournament_id",
+    "year",
+    "team_id",
+    "team",
+    "team_code",
+    "confederation",
+    "tournament_name",
+    "placement",
+    "position",
+    "matches_played",
+]
+ELO_FIELDS = [
+    "tournament_id",
+    "year",
+    "team_id",
+    "team",
+    "confederation",
+    "elo_start",
+    "elo_end",
+    "elo_change",
+    "elo_status",
 ]
 
 TOP_FOUR_POSITIONS = {
@@ -238,6 +291,11 @@ CONFEDERATION_FOLDER_NAMES = {
     "OFC": "ofc",
     "UEFA": "uefa",
 }
+CANONICAL_TEAM_ID_OVERRIDES = {
+    "Germany": "GER",
+    "Netherlands": "NED",
+    "Saudi Arabia": "KSA",
+}
 
 
 @dataclass(frozen=True)
@@ -304,6 +362,22 @@ def slugify_path_component(value: str) -> str:
     normalized = normalize_key(value)
     normalized = normalized.replace(" ", "_")
     return normalized or "unknown"
+
+
+def canonical_team_id(team_name: str, team_reference: dict[str, TeamInfo]) -> str:
+    if team_name in CANONICAL_TEAM_ID_OVERRIDES:
+        return CANONICAL_TEAM_ID_OVERRIDES[team_name]
+    team_meta = team_reference.get(team_name)
+    return team_meta.team_code if team_meta else ""
+
+
+def team_confederation(team_name: str, team_reference: dict[str, TeamInfo]) -> str:
+    team_meta = team_reference.get(team_name)
+    return team_meta.confederation_code if team_meta else ""
+
+
+def canonical_match_id(tournament_id: str, match_number: object) -> str:
+    return f"{tournament_id}_{int(match_number):03d}"
 
 
 def page_name(text: str) -> str:
@@ -739,6 +813,8 @@ def top_four_placements(summary: dict[str, object]) -> dict[str, tuple[str, int]
 
 
 def build_placement_rows(
+    year: int,
+    tournament_id: str,
     stats: dict[str, dict[str, object]],
     summary: dict[str, object],
     team_reference: dict[str, TeamInfo],
@@ -765,8 +841,12 @@ def build_placement_rows(
         team_meta = team_reference.get(country)
         rows.append(
             {
+                "tournament_id": tournament_id,
+                "year": year,
                 "country": country,
+                "team_id": canonical_team_id(country, team_reference),
                 "team_code": team_meta.team_code if team_meta else "",
+                "confederation": team_meta.confederation_code if team_meta else "",
                 "placement": placement,
                 "position": position,
                 "matches_played": team_stats["matches_played"],
@@ -804,14 +884,14 @@ def validate_year(
     placement_rows: list[dict[str, object]],
     summary: dict[str, object],
 ) -> None:
-    if len(result_rows) != int(summary["matches_played"]):
+    if len(result_rows) != int(summary["matches_played"]) * 2:
         raise ValueError(f"{year}: results row count mismatch")
     if len(schedule_rows) != int(summary["matches_played"]):
         raise ValueError(f"{year}: schedule row count mismatch")
     if len(placement_rows) != int(summary["teams"]):
         raise ValueError(f"{year}: placement row count mismatch")
     stage_pairs = [(row["match_number"], row["stage"]) for row in schedule_rows]
-    result_stage_pairs = [(row["match_number"], row["stage"]) for row in result_rows]
+    result_stage_pairs = sorted({(row["match_number"], row["stage"]) for row in result_rows})
     if stage_pairs != result_stage_pairs:
         raise ValueError(f"{year}: schedule and results stages differ")
     total_matches_played = sum(int(row["matches_played"]) for row in placement_rows)
@@ -936,6 +1016,7 @@ def build_ntf_enrichment(
 
 def build_squad_rows_by_year(
     tournaments: dict[int, TournamentInfo],
+    team_reference: dict[str, TeamInfo],
     former_name_map: dict[str, str],
     reverse_historical_mappings: dict[str, list[ReverseHistoricalMapping]],
     ntf_enrichment: dict[tuple[str, int], dict[tuple[str, str], dict[str, str]]],
@@ -962,7 +1043,9 @@ def build_squad_rows_by_year(
         squads_by_year[year].append(
             {
                 "team": team_name,
+                "team_id": canonical_team_id(team_name, team_reference),
                 "team_code": row["team_code"],
+                "confederation": team_confederation(team_name, team_reference),
                 "tournament": tournament.tournament_name,
                 "tournament_id": tournament.tournament_id,
                 "year": year,
@@ -1109,6 +1192,7 @@ def build_latest_elo_by_team(
 
 def build_outputs_for_year(
     year: int,
+    tournament_id: str,
     raw_matches: list[dict[str, object]],
     summary: dict[str, object],
     team_reference: dict[str, TeamInfo],
@@ -1126,6 +1210,7 @@ def build_outputs_for_year(
     )
 
     for match_number, (row, stage) in enumerate(zip(raw_matches, stages, strict=True), start=1):
+        match_id = canonical_match_id(tournament_id, match_number)
         home_team = str(row["home_team"])
         away_team = str(row["away_team"])
         status = str(row.get("status", "played"))
@@ -1136,6 +1221,10 @@ def build_outputs_for_year(
         decided_by_shootout = bool(shootout_winner)
         home_team_code = team_reference.get(home_team).team_code if home_team in team_reference else ""
         away_team_code = team_reference.get(away_team).team_code if away_team in team_reference else ""
+        home_team_id = canonical_team_id(home_team, team_reference)
+        away_team_id = canonical_team_id(away_team, team_reference)
+        home_confederation = team_confederation(home_team, team_reference)
+        away_confederation = team_confederation(away_team, team_reference)
         elo_match = None
         if status == "played":
             home_score = int(home_score_value)
@@ -1146,14 +1235,20 @@ def build_outputs_for_year(
 
         schedule_rows.append(
             {
+                "tournament_id": tournament_id,
+                "match_id": match_id,
                 "match_number": match_number,
                 "date": row["date"],
                 "stage": stage,
                 "status": status,
                 "home_team": home_team,
                 "away_team": away_team,
+                "home_team_id": home_team_id,
+                "away_team_id": away_team_id,
                 "home_team_code": home_team_code,
                 "away_team_code": away_team_code,
+                "home_team_confederation": home_confederation,
+                "away_team_confederation": away_confederation,
                 "home_elo_start": home_schedule_elo,
                 "away_elo_start": away_schedule_elo,
                 "city": row["city"],
@@ -1163,31 +1258,91 @@ def build_outputs_for_year(
         )
         if status != "played":
             continue
-        result_rows.append(
-            {
-                "match_number": match_number,
-                "date": row["date"],
-                "stage": stage,
-                "status": status,
-                "home_team": home_team,
-                "away_team": away_team,
-                "home_team_code": home_team_code,
-                "away_team_code": away_team_code,
-                "home_score": home_score,
-                "away_score": away_score,
-                "home_elo_start": elo_match.team_elo_start if elo_match else "",
-                "away_elo_start": elo_match.opponent_elo_start if elo_match else "",
-                "home_elo_end": elo_match.team_elo_end if elo_match else "",
-                "away_elo_end": elo_match.opponent_elo_end if elo_match else "",
-                "home_elo_delta": elo_match.team_elo_delta if elo_match else "",
-                "away_elo_delta": (-elo_match.team_elo_delta if elo_match else ""),
-                "city": row["city"],
-                "country": row["country"],
-                "neutral": row["neutral"],
-                "decided_by_shootout": decided_by_shootout,
-                "shootout_winner": shootout_winner,
-            }
-        )
+        perspectives = [
+            (
+                home_team,
+                home_team_id,
+                home_confederation,
+                away_team,
+                away_team_id,
+                away_confederation,
+                True,
+                home_score,
+                away_score,
+                elo_match.team_elo_start if elo_match else "",
+                elo_match.opponent_elo_start if elo_match else "",
+                elo_match.team_elo_end if elo_match else "",
+                elo_match.opponent_elo_end if elo_match else "",
+                elo_match.team_elo_delta if elo_match else "",
+            ),
+            (
+                away_team,
+                away_team_id,
+                away_confederation,
+                home_team,
+                home_team_id,
+                home_confederation,
+                False,
+                away_score,
+                home_score,
+                elo_match.opponent_elo_start if elo_match else "",
+                elo_match.team_elo_start if elo_match else "",
+                elo_match.opponent_elo_end if elo_match else "",
+                elo_match.team_elo_end if elo_match else "",
+                (-elo_match.team_elo_delta if elo_match else ""),
+            ),
+        ]
+        for (
+            team_name,
+            team_id,
+            confederation,
+            opponent_name,
+            opponent_id,
+            opponent_confederation,
+            is_home,
+            team_score,
+            opponent_score,
+            team_elo_start,
+            opponent_elo_start,
+            team_elo_end,
+            opponent_elo_end,
+            team_elo_delta,
+        ) in perspectives:
+            result_label = "draw"
+            if team_score > opponent_score:
+                result_label = "win"
+            elif team_score < opponent_score:
+                result_label = "loss"
+            result_rows.append(
+                {
+                    "tournament_id": tournament_id,
+                    "match_id": match_id,
+                    "match_number": match_number,
+                    "date": row["date"],
+                    "stage": stage,
+                    "status": status,
+                    "team_id": team_id,
+                    "team": team_name,
+                    "team_confederation": confederation,
+                    "opponent_id": opponent_id,
+                    "opponent": opponent_name,
+                    "opponent_confederation": opponent_confederation,
+                    "is_home": is_home,
+                    "team_score": team_score,
+                    "opponent_score": opponent_score,
+                    "result": result_label,
+                    "team_elo_start": team_elo_start,
+                    "opponent_elo_start": opponent_elo_start,
+                    "team_elo_end": team_elo_end,
+                    "opponent_elo_end": opponent_elo_end,
+                    "team_elo_delta": team_elo_delta,
+                    "city": row["city"],
+                    "country": row["country"],
+                    "neutral": row["neutral"],
+                    "decided_by_shootout": decided_by_shootout,
+                    "shootout_winner": shootout_winner,
+                }
+            )
 
         for team, gf, ga, start_elo, finish_elo in (
             (home_team, home_score, away_score, elo_match.team_elo_start if elo_match else "", elo_match.team_elo_end if elo_match else ""),
@@ -1211,7 +1366,7 @@ def build_outputs_for_year(
         if team_stats["start_elo"] != "" and team_stats["finish_elo"] != "":
             team_stats["elo_change"] = int(team_stats["finish_elo"]) - int(team_stats["start_elo"])
 
-    placement_rows = build_placement_rows(stats, summary, team_reference)
+    placement_rows = build_placement_rows(year, tournament_id, stats, summary, team_reference)
     return schedule_rows, result_rows, placement_rows
 
 
@@ -1220,6 +1375,48 @@ def tournament_identity(year: int, tournaments: dict[int, TournamentInfo]) -> tu
     if tournament is not None:
         return tournament.tournament_name, tournament.tournament_id
     return f"{year} FIFA Men's World Cup", f"WC-{year}"
+
+
+def build_teams_rows(
+    year: int,
+    tournament_id: str,
+    tournament_name: str,
+    placement_rows: list[dict[str, object]],
+) -> list[dict[str, object]]:
+    return [
+        {
+            "tournament_id": tournament_id,
+            "year": year,
+            "team_id": row["team_id"],
+            "team": row["country"],
+            "team_code": row["team_code"],
+            "confederation": row["confederation"],
+            "tournament_name": tournament_name,
+            "placement": row["placement"],
+            "position": row["position"],
+            "matches_played": row["matches_played"],
+        }
+        for row in placement_rows
+    ]
+
+
+def build_elo_rows_from_placement(placement_rows: list[dict[str, object]]) -> list[dict[str, object]]:
+    rows: list[dict[str, object]] = []
+    for row in placement_rows:
+        rows.append(
+            {
+                "tournament_id": row["tournament_id"],
+                "year": row["year"],
+                "team_id": row["team_id"],
+                "team": row["country"],
+                "confederation": row["confederation"],
+                "elo_start": row["start_elo"],
+                "elo_end": row["finish_elo"],
+                "elo_change": row["elo_change"],
+                "elo_status": "final" if row["start_elo"] != "" or row["finish_elo"] != "" else "missing",
+            }
+        )
+    return rows
 
 
 def append_country_schedule_rows(
@@ -1237,14 +1434,19 @@ def append_country_schedule_rows(
                 "tournament": tournament_name,
                 "tournament_id": tournament_id,
                 "year": year,
+                "match_id": row["match_id"],
                 "match_number": row["match_number"],
                 "date": row["date"],
                 "stage": row["stage"],
                 "status": row["status"],
                 "team": home_team,
+                "team_id": row["home_team_id"],
                 "team_code": row["home_team_code"],
+                "team_confederation": row["home_team_confederation"],
                 "opponent": away_team,
+                "opponent_id": row["away_team_id"],
                 "opponent_code": row["away_team_code"],
+                "opponent_confederation": row["away_team_confederation"],
                 "is_home": True,
                 "city": row["city"],
                 "country": row["country"],
@@ -1258,14 +1460,19 @@ def append_country_schedule_rows(
                 "tournament": tournament_name,
                 "tournament_id": tournament_id,
                 "year": year,
+                "match_id": row["match_id"],
                 "match_number": row["match_number"],
                 "date": row["date"],
                 "stage": row["stage"],
                 "status": row["status"],
                 "team": away_team,
+                "team_id": row["away_team_id"],
                 "team_code": row["away_team_code"],
+                "team_confederation": row["away_team_confederation"],
                 "opponent": home_team,
+                "opponent_id": row["home_team_id"],
                 "opponent_code": row["home_team_code"],
+                "opponent_confederation": row["home_team_confederation"],
                 "is_home": False,
                 "city": row["city"],
                 "country": row["country"],
@@ -1278,6 +1485,7 @@ def append_country_schedule_rows(
 
 def build_schedule_only_rows_for_year(
     year: int,
+    tournament_id: str,
     raw_matches: list[dict[str, object]],
     team_reference: dict[str, TeamInfo],
     latest_elo_by_team: dict[str, int],
@@ -1285,20 +1493,27 @@ def build_schedule_only_rows_for_year(
     stages = infer_schedule_stages(year, raw_matches)
     schedule_rows: list[dict[str, object]] = []
     for match_number, (row, stage) in enumerate(zip(raw_matches, stages, strict=True), start=1):
+        match_id = canonical_match_id(tournament_id, match_number)
         home_team = str(row["home_team"])
         away_team = str(row["away_team"])
         home_team_code = team_reference.get(home_team).team_code if home_team in team_reference else ""
         away_team_code = team_reference.get(away_team).team_code if away_team in team_reference else ""
         schedule_rows.append(
             {
+                "tournament_id": tournament_id,
+                "match_id": match_id,
                 "match_number": match_number,
                 "date": row["date"],
                 "stage": stage,
                 "status": str(row.get("status", "scheduled")),
                 "home_team": home_team,
                 "away_team": away_team,
+                "home_team_id": canonical_team_id(home_team, team_reference),
+                "away_team_id": canonical_team_id(away_team, team_reference),
                 "home_team_code": home_team_code,
                 "away_team_code": away_team_code,
+                "home_team_confederation": team_confederation(home_team, team_reference),
+                "away_team_confederation": team_confederation(away_team, team_reference),
                 "home_elo_start": latest_elo_by_team.get(home_team, ""),
                 "away_elo_start": latest_elo_by_team.get(away_team, ""),
                 "city": row["city"],
@@ -1318,6 +1533,11 @@ def build_country_exports(
     country_squad_rows: dict[str, list[dict[str, object]]],
 ) -> None:
     rows_by_team: dict[str, list[dict[str, object]]] = defaultdict(list)
+    world_cup_match_numbers: dict[tuple[str, str, str], int] = {}
+    for year, raw_matches in load_world_cup_matches(former_name_map, reverse_historical_mappings).items():
+        for match_number, match in enumerate(raw_matches, start=1):
+            world_cup_match_numbers[(str(match["date"]), str(match["home_team"]), str(match["away_team"]))] = match_number
+
     for row in load_csv(RESULTS_PATH):
         match_date = row["date"]
         if row["home_score"] in {"", "NA"} or row["away_score"] in {"", "NA"}:
@@ -1326,6 +1546,10 @@ def build_country_exports(
         away_team = canonicalize_name(row["away_team"], former_name_map, reverse_historical_mappings, match_date)
         home_score = int(row["home_score"])
         away_score = int(row["away_score"])
+        is_world_cup = row["tournament"] == "FIFA World Cup"
+        tournament_id = f"WC-{match_date[:4]}" if is_world_cup else ""
+        match_number = world_cup_match_numbers.get((match_date, home_team, away_team), "")
+        match_id = canonical_match_id(tournament_id, match_number) if tournament_id and match_number != "" else ""
         perspectives = [
             (home_team, away_team, home_score, away_score, True),
             (away_team, home_team, away_score, home_score, False),
@@ -1341,13 +1565,20 @@ def build_country_exports(
                 result_label = "loss"
             rows_by_team[team_name].append(
                 {
+                    "tournament_id": tournament_id,
+                    "match_id": match_id,
+                    "match_number": match_number,
                     "date": match_date,
                     "tournament": row["tournament"],
                     "status": "played",
                     "team": team_name,
+                    "team_id": canonical_team_id(team_name, team_reference),
                     "team_code": team_reference[team_name].team_code,
+                    "team_confederation": team_confederation(team_name, team_reference),
                     "opponent": opponent_name,
+                    "opponent_id": canonical_team_id(opponent_name, team_reference),
                     "opponent_code": team_reference.get(opponent_name).team_code if opponent_name in team_reference else "",
+                    "opponent_confederation": team_confederation(opponent_name, team_reference),
                     "is_home": is_home,
                     "team_score": team_score,
                     "opponent_score": opponent_score,
@@ -1410,7 +1641,7 @@ def main() -> None:
     print(f"Fetching squad enrichment pages for {len(team_years)} team-year combinations")
     ntf_enrichment = build_ntf_enrichment(team_years, ntf_countries)
     squad_rows_by_year = build_squad_rows_by_year(
-        tournaments, former_name_map, reverse_historical_mappings, ntf_enrichment
+        tournaments, team_reference, former_name_map, reverse_historical_mappings, ntf_enrichment
     )
 
     print("Loading Elo dictionaries")
@@ -1429,9 +1660,15 @@ def main() -> None:
     placement_rows_by_year: dict[int, list[dict[str, object]]] = {}
     country_schedule_rows: dict[str, list[dict[str, object]]] = defaultdict(list)
     country_squad_rows: dict[str, list[dict[str, object]]] = defaultdict(list)
+    merged_schedule_rows: list[dict[str, object]] = []
+    merged_result_rows: list[dict[str, object]] = []
+    merged_teams_rows: list[dict[str, object]] = []
+    merged_squad_rows: list[dict[str, object]] = []
+    merged_elo_rows: list[dict[str, object]] = []
 
     for year in sorted(history):
         print(f"Building World Cup {year}")
+        tournament_name, tournament_id = tournament_identity(year, tournaments)
         raw_matches = matches_by_year.get(year, [])
         if not raw_matches:
             raise ValueError(f"{year}: no World Cup matches found in results.csv")
@@ -1455,6 +1692,7 @@ def main() -> None:
 
         schedule_rows, result_rows, placement_rows = build_outputs_for_year(
             year=year,
+            tournament_id=tournament_id,
             raw_matches=raw_matches,
             summary=history[year],
             team_reference=team_reference,
@@ -1471,12 +1709,20 @@ def main() -> None:
         write_csv(output_dir / "results.csv", result_rows, RESULT_FIELDS)
         write_csv(output_dir / "placement.csv", placement_rows, PLACEMENT_FIELDS)
         write_csv(output_dir / "squads.csv", squad_rows_by_year.get(year, []), SQUAD_FIELDS)
+        teams_rows = build_teams_rows(year, tournament_id, tournament_name, placement_rows)
+        elo_rows = build_elo_rows_from_placement(placement_rows)
+        write_csv(output_dir / "teams.csv", teams_rows, TEAMS_FIELDS)
+        write_csv(output_dir / "elo.csv", elo_rows, ELO_FIELDS)
 
         placement_rows_by_year[year] = [{"edition": year, **row} for row in placement_rows]
-        tournament_name, tournament_id = tournament_identity(year, tournaments)
         for row in squad_rows_by_year.get(year, []):
             country_squad_rows[str(row["team"])].append(row)
         append_country_schedule_rows(country_schedule_rows, schedule_rows, year, tournament_name, tournament_id)
+        merged_schedule_rows.extend({"edition": year, **row} for row in schedule_rows)
+        merged_result_rows.extend({"edition": year, **row} for row in result_rows)
+        merged_teams_rows.extend(teams_rows)
+        merged_squad_rows.extend(squad_rows_by_year.get(year, []))
+        merged_elo_rows.extend(elo_rows)
         print(f"Wrote {year}: {len(result_rows)} matches, {len(placement_rows)} teams, {len(squad_rows_by_year.get(year, []))} squad rows")
         time.sleep(0.05)
 
@@ -1485,6 +1731,44 @@ def main() -> None:
         output_dir = INT_WORLD_CUP_DIR / str(year)
         per_year_rows = [{field: row.get(field, "") for field in PLACEMENT_FIELDS} for row in annotated_rows]
         write_csv(output_dir / "placement.csv", per_year_rows, PLACEMENT_FIELDS)
+        teams_rows = build_teams_rows(
+            year,
+            str(per_year_rows[0]["tournament_id"]) if per_year_rows else f"WC-{year}",
+            tournament_identity(year, tournaments)[0],
+            per_year_rows,
+        )
+        elo_rows = build_elo_rows_from_placement(per_year_rows)
+        write_csv(output_dir / "teams.csv", teams_rows, TEAMS_FIELDS)
+        write_csv(output_dir / "elo.csv", elo_rows, ELO_FIELDS)
+
+    merged_placement_rows = [
+        {"edition": year, **{field: row.get(field, "") for field in PLACEMENT_FIELDS}}
+        for year, annotated_rows in placement_rows_by_year.items()
+        for row in annotated_rows
+    ]
+    merged_teams_rows = [
+        row
+        for year, annotated_rows in placement_rows_by_year.items()
+        for row in build_teams_rows(
+            year,
+            str(annotated_rows[0]["tournament_id"]) if annotated_rows else f"WC-{year}",
+            tournament_identity(year, tournaments)[0],
+            [{field: item.get(field, "") for field in PLACEMENT_FIELDS} for item in annotated_rows],
+        )
+    ]
+    merged_elo_rows = [
+        row
+        for annotated_rows in placement_rows_by_year.values()
+        for row in build_elo_rows_from_placement(
+            [{field: item.get(field, "") for field in PLACEMENT_FIELDS} for item in annotated_rows]
+        )
+    ]
+    write_csv(ALL_EDITIONS_DIR / "schedule.csv", merged_schedule_rows, ["edition", *SCHEDULE_FIELDS])
+    write_csv(ALL_EDITIONS_DIR / "results.csv", merged_result_rows, ["edition", *RESULT_FIELDS])
+    write_csv(ALL_EDITIONS_DIR / "placement.csv", merged_placement_rows, ["edition", *PLACEMENT_FIELDS])
+    write_csv(ALL_EDITIONS_DIR / "teams.csv", merged_teams_rows, TEAMS_FIELDS)
+    write_csv(ALL_EDITIONS_DIR / "squads.csv", merged_squad_rows, SQUAD_FIELDS)
+    write_csv(ALL_EDITIONS_DIR / "elo.csv", merged_elo_rows, ELO_FIELDS)
 
     print("Building country Elo lookup")
     country_match_elo = build_country_match_elo_lookup(
@@ -1497,10 +1781,10 @@ def main() -> None:
 
     for year in sorted(year for year in matches_by_year if year not in history):
         raw_matches = matches_by_year[year]
-        schedule_rows = build_schedule_only_rows_for_year(year, raw_matches, team_reference, latest_elo_by_team)
+        tournament_name, tournament_id = tournament_identity(year, tournaments)
+        schedule_rows = build_schedule_only_rows_for_year(year, tournament_id, raw_matches, team_reference, latest_elo_by_team)
         output_dir = INT_WORLD_CUP_DIR / str(year)
         write_csv(output_dir / "schedule.csv", schedule_rows, SCHEDULE_FIELDS)
-        tournament_name, tournament_id = tournament_identity(year, tournaments)
         append_country_schedule_rows(country_schedule_rows, schedule_rows, year, tournament_name, tournament_id)
         print(f"Wrote {year} schedule-only export: {len(schedule_rows)} matches")
 

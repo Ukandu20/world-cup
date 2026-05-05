@@ -70,6 +70,31 @@ from scripts.build_model_validation import (  # noqa: E402
 )
 
 DATA_DIR = WORLD_CUP_ROOT / "2026"
+WORLD_CUP_EDITIONS = (
+    1930,
+    1934,
+    1938,
+    1950,
+    1954,
+    1958,
+    1962,
+    1966,
+    1970,
+    1974,
+    1978,
+    1982,
+    1986,
+    1990,
+    1994,
+    1998,
+    2002,
+    2006,
+    2010,
+    2014,
+    2018,
+    2022,
+    2026,
+)
 
 
 def load_home_module():
@@ -94,6 +119,38 @@ def load_team_report_card_module():
     assert spec.loader is not None
     spec.loader.exec_module(module)
     return module
+
+
+def test_processed_world_cup_dataset_has_normalized_ids_and_metadata():
+    for year in WORLD_CUP_EDITIONS:
+        edition_dir = WORLD_CUP_ROOT / str(year)
+        assert (edition_dir / "teams.csv").exists()
+        assert (edition_dir / "elo.csv").exists()
+
+        teams_df = pd.read_csv(edition_dir / "teams.csv")
+        elo_df = pd.read_csv(edition_dir / "elo.csv")
+        assert {"tournament_id", "year", "team_id", "confederation"}.issubset(teams_df.columns)
+        assert {"tournament_id", "year", "team_id", "confederation", "elo_start", "elo_end"}.issubset(elo_df.columns)
+        assert teams_df["team_id"].astype(str).str.len().gt(0).all()
+        assert teams_df["confederation"].astype(str).str.len().gt(0).all()
+
+    for filename in ("teams.csv", "squads.csv", "placement.csv", "results.csv", "elo.csv"):
+        assert (WORLD_CUP_ROOT / "all_editions" / filename).exists()
+
+    for year in WORLD_CUP_EDITIONS[:-1]:
+        results_df = pd.read_csv(WORLD_CUP_ROOT / str(year) / "results.csv")
+        expected_prefix = f"WC-{year}_"
+        assert {"tournament_id", "match_id", "team_id", "opponent_id", "team_confederation", "opponent_confederation"}.issubset(results_df.columns)
+        assert results_df["match_id"].str.match(rf"^WC-{year}_\d{{3}}$").all()
+        assert results_df["match_id"].str.startswith(expected_prefix).all()
+        assert results_df.groupby("match_id").size().eq(2).all()
+        assert results_df["team_id"].astype(str).str.len().gt(0).all()
+        assert results_df["team_confederation"].astype(str).str.len().gt(0).all()
+
+    fixtures_df = pd.read_csv(WORLD_CUP_ROOT / "2026" / "fixtures.csv")
+    assert {"tournament_id", "match_id", "source_match_id", "home_team_confederation", "away_team_confederation"}.issubset(fixtures_df.columns)
+    assert fixtures_df["match_id"].str.match(r"^WC-2026_\d{3}$").all()
+    assert fixtures_df["source_match_id"].astype(str).str.len().gt(0).all()
 
 
 def test_build_recent_form_metrics_uses_last_8_matches_only():

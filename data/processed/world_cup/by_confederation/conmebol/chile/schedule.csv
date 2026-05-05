@@ -1,34 +1,34 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1930 FIFA Men's World Cup,WC-1930,1930,6,1930-07-16,Group Stage,played,Chile,CHL,Mexico,MEX,TRUE,Montevideo,Uruguay,TRUE,1575,1551
-1930 FIFA Men's World Cup,WC-1930,1930,11,1930-07-19,Group Stage,played,Chile,CHL,France,FRA,TRUE,Montevideo,Uruguay,TRUE,1624,1605
-1930 FIFA Men's World Cup,WC-1930,1930,15,1930-07-22,Group Stage,played,Chile,CHL,Argentina,ARG,FALSE,Montevideo,Uruguay,TRUE,1652,2081
-1950 FIFA Men's World Cup,WC-1950,1950,2,1950-06-25,Group Stage,played,Chile,CHL,England,ENG,TRUE,Rio de Janeiro,Brazil,TRUE,1599,2071
-1950 FIFA Men's World Cup,WC-1950,1950,8,1950-06-29,Group Stage,played,Chile,CHL,Spain,ESP,TRUE,Rio de Janeiro,Brazil,TRUE,1593,1911
-1950 FIFA Men's World Cup,WC-1950,1950,13,1950-07-02,Group Stage,played,Chile,CHL,United States,USA,TRUE,Recife,Brazil,TRUE,1581,1625
-1962 FIFA Men's World Cup,WC-1962,1962,3,1962-05-30,Group Stage,played,Chile,CHL,Switzerland,CHE,TRUE,Santiago,Chile,FALSE,1740,1707
-1962 FIFA Men's World Cup,WC-1962,1962,11,1962-06-02,Group Stage,played,Chile,CHL,Italy,ITA,TRUE,Santiago,Chile,FALSE,1769,1893
-1962 FIFA Men's World Cup,WC-1962,1962,19,1962-06-06,Group Stage,played,Chile,CHL,Germany,DEU,TRUE,Santiago,Chile,FALSE,1710,1923
-1962 FIFA Men's World Cup,WC-1962,1962,26,1962-06-10,Quarter-final,played,Chile,CHL,Soviet Union,SUN,TRUE,Arica,Chile,FALSE,1771,2058
-1962 FIFA Men's World Cup,WC-1962,1962,29,1962-06-13,Semi-final,played,Chile,CHL,Brazil,BRA,TRUE,Santiago,Chile,FALSE,1816,2148
-1962 FIFA Men's World Cup,WC-1962,1962,31,1962-06-16,Third Place,played,Chile,CHL,Yugoslavia,YUG,TRUE,Santiago,Chile,FALSE,1797,1968
-1966 FIFA Men's World Cup,WC-1966,1966,6,1966-07-13,Group Stage,played,Chile,CHL,Italy,ITA,TRUE,Sunderland,England,TRUE,1752,1979
-1966 FIFA Men's World Cup,WC-1966,1966,10,1966-07-15,Group Stage,played,Chile,CHL,North Korea,PRK,TRUE,Middlesbrough,England,TRUE,1733,1755
-1966 FIFA Men's World Cup,WC-1966,1966,22,1966-07-20,Group Stage,played,Chile,CHL,Soviet Union,SUN,TRUE,Sunderland,England,TRUE,1735,2054
-1974 FIFA Men's World Cup,WC-1974,1974,4,1974-06-14,Group Stage,played,Chile,CHL,Germany,DEU,FALSE,Berlin,Germany,FALSE,1710,1923
-1974 FIFA Men's World Cup,WC-1974,1974,9,1974-06-18,Group Stage,played,Chile,CHL,German DR,DDR,TRUE,Berlin,Germany,TRUE,1771,1956
-1974 FIFA Men's World Cup,WC-1974,1974,17,1974-06-22,Group Stage,played,Chile,CHL,Australia,AUS,FALSE,Berlin,Germany,TRUE,1786,1666
-1982 FIFA Men's World Cup,WC-1982,1982,10,1982-06-17,Group Stage,played,Chile,CHL,Austria,AUT,TRUE,Oviedo,Spain,TRUE,1771,1920
-1982 FIFA Men's World Cup,WC-1982,1982,20,1982-06-20,Group Stage,played,Chile,CHL,Germany,DEU,FALSE,Gijón,Spain,TRUE,1710,1923
-1982 FIFA Men's World Cup,WC-1982,1982,31,1982-06-24,Group Stage,played,Chile,CHL,Algeria,DZA,FALSE,Oviedo,Spain,TRUE,1737,1678
-1998 FIFA Men's World Cup,WC-1998,1998,4,1998-06-11,Group Stage,played,Chile,CHL,Italy,ITA,FALSE,Bordeaux,France,TRUE,1788,1972
-1998 FIFA Men's World Cup,WC-1998,1998,19,1998-06-17,Group Stage,played,Chile,CHL,Austria,AUT,TRUE,Saint-Étienne,France,TRUE,1803,1705
-1998 FIFA Men's World Cup,WC-1998,1998,34,1998-06-23,Group Stage,played,Chile,CHL,Cameroon,CMR,TRUE,Nantes,France,TRUE,1795,1589
-1998 FIFA Men's World Cup,WC-1998,1998,49,1998-06-27,Round of 16,played,Chile,CHL,Brazil,BRA,FALSE,Paris,France,TRUE,1779,2064
-2010 FIFA Men's World Cup,WC-2010,2010,15,2010-06-16,Group Stage,played,Chile,CHL,Honduras,HND,FALSE,Nelspruit,South Africa,TRUE,1886,1714
-2010 FIFA Men's World Cup,WC-2010,2010,30,2010-06-21,Group Stage,played,Chile,CHL,Switzerland,CHE,TRUE,Port Elizabeth,South Africa,TRUE,1902,1814
-2010 FIFA Men's World Cup,WC-2010,2010,45,2010-06-25,Group Stage,played,Chile,CHL,Spain,ESP,TRUE,Pretoria,South Africa,TRUE,1925,2068
-2010 FIFA Men's World Cup,WC-2010,2010,53,2010-06-28,Round of 16,played,Chile,CHL,Brazil,BRA,FALSE,Johannesburg,South Africa,TRUE,1907,2103
-2014 FIFA Men's World Cup,WC-2014,2014,2,2014-06-13,Group Stage,played,Chile,CHL,Australia,AUS,TRUE,Cuiabá,Brazil,TRUE,1920,1708
-2014 FIFA Men's World Cup,WC-2014,2014,20,2014-06-18,Group Stage,played,Chile,CHL,Spain,ESP,FALSE,Rio de Janeiro,Brazil,TRUE,1941,2032
-2014 FIFA Men's World Cup,WC-2014,2014,36,2014-06-23,Group Stage,played,Chile,CHL,Netherlands,NLD,FALSE,São Paulo,Brazil,TRUE,1998,2066
-2014 FIFA Men's World Cup,WC-2014,2014,49,2014-06-28,Round of 16,played,Chile,CHL,Brazil,BRA,FALSE,Belo Horizonte,Brazil,FALSE,1962,2122
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_006,6,1930-07-16,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,TRUE,Montevideo,Uruguay,TRUE,1575,1551
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_011,11,1930-07-19,Group Stage,played,Chile,CHL,CHL,CONMEBOL,France,FRA,FRA,UEFA,TRUE,Montevideo,Uruguay,TRUE,1624,1605
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_015,15,1930-07-22,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,Montevideo,Uruguay,TRUE,1652,2081
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_002,2,1950-06-25,Group Stage,played,Chile,CHL,CHL,CONMEBOL,England,ENG,ENG,UEFA,TRUE,Rio de Janeiro,Brazil,TRUE,1599,2071
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_008,8,1950-06-29,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Spain,ESP,ESP,UEFA,TRUE,Rio de Janeiro,Brazil,TRUE,1593,1911
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_013,13,1950-07-02,Group Stage,played,Chile,CHL,CHL,CONMEBOL,United States,USA,USA,CONCACAF,TRUE,Recife,Brazil,TRUE,1581,1625
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_003,3,1962-05-30,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Switzerland,CHE,CHE,UEFA,TRUE,Santiago,Chile,FALSE,1740,1707
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_011,11,1962-06-02,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Italy,ITA,ITA,UEFA,TRUE,Santiago,Chile,FALSE,1769,1893
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_019,19,1962-06-06,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,Santiago,Chile,FALSE,1710,1923
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_026,26,1962-06-10,Quarter-final,played,Chile,CHL,CHL,CONMEBOL,Soviet Union,SUN,SUN,UEFA,TRUE,Arica,Chile,FALSE,1771,2058
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_029,29,1962-06-13,Semi-final,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,Santiago,Chile,FALSE,1816,2148
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_031,31,1962-06-16,Third Place,played,Chile,CHL,CHL,CONMEBOL,Yugoslavia,YUG,YUG,UEFA,TRUE,Santiago,Chile,FALSE,1797,1968
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_006,6,1966-07-13,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Italy,ITA,ITA,UEFA,TRUE,Sunderland,England,TRUE,1752,1979
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_010,10,1966-07-15,Group Stage,played,Chile,CHL,CHL,CONMEBOL,North Korea,PRK,PRK,AFC,TRUE,Middlesbrough,England,TRUE,1733,1755
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_022,22,1966-07-20,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Soviet Union,SUN,SUN,UEFA,TRUE,Sunderland,England,TRUE,1735,2054
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_004,4,1974-06-14,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,Berlin,Germany,FALSE,1710,1923
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_009,9,1974-06-18,Group Stage,played,Chile,CHL,CHL,CONMEBOL,German DR,DDR,DDR,UEFA,TRUE,Berlin,Germany,TRUE,1771,1956
+1974 FIFA Men's World Cup,WC-1974,1974,WC-1974_017,17,1974-06-22,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Australia,AUS,AUS,AFC,FALSE,Berlin,Germany,TRUE,1786,1666
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_010,10,1982-06-17,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Austria,AUT,AUT,UEFA,TRUE,Oviedo,Spain,TRUE,1771,1920
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_020,20,1982-06-20,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,Gijón,Spain,TRUE,1710,1923
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_031,31,1982-06-24,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Algeria,DZA,DZA,CAF,FALSE,Oviedo,Spain,TRUE,1737,1678
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_004,4,1998-06-11,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Italy,ITA,ITA,UEFA,FALSE,Bordeaux,France,TRUE,1788,1972
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_019,19,1998-06-17,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Austria,AUT,AUT,UEFA,TRUE,Saint-Étienne,France,TRUE,1803,1705
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_034,34,1998-06-23,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Cameroon,CMR,CMR,CAF,TRUE,Nantes,France,TRUE,1795,1589
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_049,49,1998-06-27,Round of 16,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,Paris,France,TRUE,1779,2064
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_015,15,2010-06-16,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,Nelspruit,South Africa,TRUE,1886,1714
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_030,30,2010-06-21,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Switzerland,CHE,CHE,UEFA,TRUE,Port Elizabeth,South Africa,TRUE,1902,1814
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_045,45,2010-06-25,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Spain,ESP,ESP,UEFA,TRUE,Pretoria,South Africa,TRUE,1925,2068
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_053,53,2010-06-28,Round of 16,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,Johannesburg,South Africa,TRUE,1907,2103
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_002,2,2014-06-13,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Australia,AUS,AUS,AFC,TRUE,Cuiabá,Brazil,TRUE,1920,1708
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_020,20,2014-06-18,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Spain,ESP,ESP,UEFA,FALSE,Rio de Janeiro,Brazil,TRUE,1941,2032
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_036,36,2014-06-23,Group Stage,played,Chile,CHL,CHL,CONMEBOL,Netherlands,NED,NLD,UEFA,FALSE,São Paulo,Brazil,TRUE,1998,2066
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_049,49,2014-06-28,Round of 16,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,Belo Horizonte,Brazil,FALSE,1962,2122

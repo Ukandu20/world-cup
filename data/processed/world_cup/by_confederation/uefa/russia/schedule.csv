@@ -1,15 +1,15 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1994 FIFA Men's World Cup,WC-1994,1994,9,1994-06-20,Group Stage,played,Russia,RUS,Brazil,BRA,FALSE,Palo Alto,United States,TRUE,1867,1964
-1994 FIFA Men's World Cup,WC-1994,1994,20,1994-06-24,Group Stage,played,Russia,RUS,Sweden,SWE,FALSE,Pontiac,United States,TRUE,1834,1888
-1994 FIFA Men's World Cup,WC-1994,1994,32,1994-06-28,Group Stage,played,Russia,RUS,Cameroon,CMR,TRUE,Palo Alto,United States,TRUE,1796,1686
-2002 FIFA Men's World Cup,WC-2002,2002,16,2002-06-05,Group Stage,played,Russia,RUS,Tunisia,TUN,TRUE,Kobe,Japan,TRUE,1801,1618
-2002 FIFA Men's World Cup,WC-2002,2002,28,2002-06-09,Group Stage,played,Russia,RUS,Japan,JPN,FALSE,Yokohama,Japan,FALSE,1824,1839
-2002 FIFA Men's World Cup,WC-2002,2002,45,2002-06-14,Group Stage,played,Russia,RUS,Belgium,BEL,FALSE,Fukuroi,Japan,TRUE,1804,1827
-2014 FIFA Men's World Cup,WC-2014,2014,17,2014-06-17,Group Stage,played,Russia,RUS,South Korea,KOR,TRUE,Cuiabá,Brazil,TRUE,1848,1667
-2014 FIFA Men's World Cup,WC-2014,2014,30,2014-06-22,Group Stage,played,Russia,RUS,Belgium,BEL,FALSE,Rio de Janeiro,Brazil,TRUE,1834,1865
-2014 FIFA Men's World Cup,WC-2014,2014,45,2014-06-26,Group Stage,played,Russia,RUS,Algeria,DZA,FALSE,Curitiba,Brazil,TRUE,1807,1666
-2018 FIFA Men's World Cup,WC-2018,2018,1,2018-06-14,Group Stage,played,Russia,RUS,Saudi Arabia,SAU,TRUE,Moscow,Russia,FALSE,1676,1588
-2018 FIFA Men's World Cup,WC-2018,2018,17,2018-06-19,Group Stage,played,Russia,RUS,Egypt,EGY,TRUE,Saint Petersburg,Russia,FALSE,1706,1628
-2018 FIFA Men's World Cup,WC-2018,2018,33,2018-06-25,Group Stage,played,Russia,RUS,Uruguay,URY,TRUE,Samara,Russia,FALSE,1730,1910
-2018 FIFA Men's World Cup,WC-2018,2018,51,2018-07-01,Round of 16,played,Russia,RUS,Spain,ESP,TRUE,Moscow,Russia,FALSE,1689,2027
-2018 FIFA Men's World Cup,WC-2018,2018,60,2018-07-07,Quarter-final,played,Russia,RUS,Croatia,HRV,TRUE,Sochi,Russia,FALSE,1707,1950
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_009,9,1994-06-20,Group Stage,played,Russia,RUS,RUS,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Palo Alto,United States,TRUE,1867,1964
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_020,20,1994-06-24,Group Stage,played,Russia,RUS,RUS,UEFA,Sweden,SWE,SWE,UEFA,FALSE,Pontiac,United States,TRUE,1834,1888
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_032,32,1994-06-28,Group Stage,played,Russia,RUS,RUS,UEFA,Cameroon,CMR,CMR,CAF,TRUE,Palo Alto,United States,TRUE,1796,1686
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_016,16,2002-06-05,Group Stage,played,Russia,RUS,RUS,UEFA,Tunisia,TUN,TUN,CAF,TRUE,Kobe,Japan,TRUE,1801,1618
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_028,28,2002-06-09,Group Stage,played,Russia,RUS,RUS,UEFA,Japan,JPN,JPN,AFC,FALSE,Yokohama,Japan,FALSE,1824,1839
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_045,45,2002-06-14,Group Stage,played,Russia,RUS,RUS,UEFA,Belgium,BEL,BEL,UEFA,FALSE,Fukuroi,Japan,TRUE,1804,1827
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_017,17,2014-06-17,Group Stage,played,Russia,RUS,RUS,UEFA,South Korea,KOR,KOR,AFC,TRUE,Cuiabá,Brazil,TRUE,1848,1667
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_030,30,2014-06-22,Group Stage,played,Russia,RUS,RUS,UEFA,Belgium,BEL,BEL,UEFA,FALSE,Rio de Janeiro,Brazil,TRUE,1834,1865
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_045,45,2014-06-26,Group Stage,played,Russia,RUS,RUS,UEFA,Algeria,DZA,DZA,CAF,FALSE,Curitiba,Brazil,TRUE,1807,1666
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_001,1,2018-06-14,Group Stage,played,Russia,RUS,RUS,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,Moscow,Russia,FALSE,1676,1588
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_017,17,2018-06-19,Group Stage,played,Russia,RUS,RUS,UEFA,Egypt,EGY,EGY,CAF,TRUE,Saint Petersburg,Russia,FALSE,1706,1628
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_033,33,2018-06-25,Group Stage,played,Russia,RUS,RUS,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,Samara,Russia,FALSE,1730,1910
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_051,51,2018-07-01,Round of 16,played,Russia,RUS,RUS,UEFA,Spain,ESP,ESP,UEFA,TRUE,Moscow,Russia,FALSE,1689,2027
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_060,60,2018-07-07,Quarter-final,played,Russia,RUS,RUS,UEFA,Croatia,HRV,HRV,UEFA,TRUE,Sochi,Russia,FALSE,1707,1950

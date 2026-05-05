@@ -1,65 +1,65 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,2010-06-11,Group Stage,played,South Africa,Mexico,ZAF,MEX,1592,1898,Johannesburg,South Africa,FALSE
-2,2010-06-11,Group Stage,played,Uruguay,France,URY,FRA,1845,1861,Cape Town,South Africa,TRUE
-3,2010-06-12,Group Stage,played,Argentina,Nigeria,ARG,NGA,1921,1713,Johannesburg,South Africa,TRUE
-4,2010-06-12,Group Stage,played,England,United States,ENG,USA,2001,1784,Rustenburg,South Africa,TRUE
-5,2010-06-12,Group Stage,played,South Korea,Greece,KOR,GRC,1765,1736,Port Elizabeth,South Africa,TRUE
-6,2010-06-13,Group Stage,played,Algeria,Slovenia,DZA,SVN,1539,1686,Polokwane,South Africa,TRUE
-7,2010-06-13,Group Stage,played,Germany,Australia,DEU,AUS,1957,1775,Durban,South Africa,TRUE
-8,2010-06-13,Group Stage,played,Serbia,Ghana,SRB,GHA,1840,1687,Pretoria,South Africa,TRUE
-9,2010-06-14,Group Stage,played,Italy,Paraguay,ITA,PRY,1936,1764,Cape Town,South Africa,TRUE
-10,2010-06-14,Group Stage,played,Japan,Cameroon,JPN,CMR,1678,1694,Bloemfontein,South Africa,TRUE
-11,2010-06-14,Group Stage,played,Netherlands,Denmark,NLD,DNK,2043,1778,Johannesburg,South Africa,TRUE
-12,2010-06-15,Group Stage,played,Brazil,North Korea,BRA,PRK,2109,1537,Johannesburg,South Africa,TRUE
-13,2010-06-15,Group Stage,played,Ivory Coast,Portugal,CIV,PRT,1739,1876,Port Elizabeth,South Africa,TRUE
-14,2010-06-15,Group Stage,played,New Zealand,Slovakia,NZL,SVK,1527,1670,Rustenburg,South Africa,TRUE
-15,2010-06-16,Group Stage,played,Honduras,Chile,HND,CHL,1714,1886,Nelspruit,South Africa,TRUE
-16,2010-06-16,Group Stage,played,South Africa,Uruguay,ZAF,URY,1608,1846,Pretoria,South Africa,FALSE
-17,2010-06-16,Group Stage,played,Spain,Switzerland,ESP,CHE,2111,1761,Durban,South Africa,TRUE
-18,2010-06-17,Group Stage,played,Argentina,South Korea,ARG,KOR,1935,1806,Johannesburg,South Africa,TRUE
-19,2010-06-17,Group Stage,played,France,Mexico,FRA,MEX,1860,1882,Polokwane,South Africa,TRUE
-20,2010-06-17,Group Stage,played,Greece,Nigeria,GRC,NGA,1695,1699,Bloemfontein,South Africa,TRUE
-21,2010-06-18,Group Stage,played,England,Algeria,ENG,DZA,1984,1521,Cape Town,South Africa,TRUE
-22,2010-06-18,Group Stage,played,Germany,Serbia,DEU,SRB,1986,1798,Port Elizabeth,South Africa,TRUE
-23,2010-06-18,Group Stage,played,Slovenia,United States,SVN,USA,1704,1801,Johannesburg,South Africa,TRUE
-24,2010-06-19,Group Stage,played,Cameroon,Denmark,CMR,DNK,1663,1762,Pretoria,South Africa,TRUE
-25,2010-06-19,Group Stage,played,Ghana,Australia,GHA,AUS,1729,1746,Rustenburg,South Africa,TRUE
-26,2010-06-19,Group Stage,played,Netherlands,Japan,NLD,JPN,2059,1709,Durban,South Africa,TRUE
-27,2010-06-20,Group Stage,played,Brazil,Ivory Coast,BRA,CIV,2111,1750,Johannesburg,South Africa,TRUE
-28,2010-06-20,Group Stage,played,Italy,New Zealand,ITA,NZL,1922,1539,Nelspruit,South Africa,TRUE
-29,2010-06-20,Group Stage,played,Slovakia,Paraguay,SVK,PRY,1658,1778,Bloemfontein,South Africa,TRUE
-30,2010-06-21,Group Stage,played,Chile,Switzerland,CHL,CHE,1902,1814,Port Elizabeth,South Africa,TRUE
-31,2010-06-21,Group Stage,played,Portugal,North Korea,PRT,PRK,1865,1535,Cape Town,South Africa,TRUE
-32,2010-06-21,Group Stage,played,Spain,Honduras,ESP,HND,2058,1698,Johannesburg,South Africa,TRUE
-33,2010-06-22,Group Stage,played,Greece,Argentina,GRC,ARG,1725,1969,Polokwane,South Africa,TRUE
-34,2010-06-22,Group Stage,played,Mexico,Uruguay,MEX,URY,1924,1879,Rustenburg,South Africa,TRUE
-35,2010-06-22,Group Stage,played,Nigeria,South Korea,NGA,KOR,1669,1772,Durban,South Africa,TRUE
-36,2010-06-22,Group Stage,played,South Africa,France,ZAF,FRA,1575,1818,Bloemfontein,South Africa,FALSE
-37,2010-06-23,Group Stage,played,Australia,Serbia,AUS,SRB,1745,1843,Nelspruit,South Africa,TRUE
-38,2010-06-23,Group Stage,played,Ghana,Germany,GHA,DEU,1730,1941,Johannesburg,South Africa,TRUE
-39,2010-06-23,Group Stage,played,Slovenia,England,SVN,ENG,1712,1958,Port Elizabeth,South Africa,TRUE
-40,2010-06-23,Group Stage,played,United States,Algeria,USA,DZA,1793,1547,Pretoria,South Africa,TRUE
-41,2010-06-24,Group Stage,played,Cameroon,Netherlands,CMR,NLD,1641,2066,Cape Town,South Africa,TRUE
-42,2010-06-24,Group Stage,played,Denmark,Japan,DNK,JPN,1784,1702,Rustenburg,South Africa,TRUE
-43,2010-06-24,Group Stage,played,Paraguay,New Zealand,PRY,NZL,1808,1563,Polokwane,South Africa,TRUE
-44,2010-06-24,Group Stage,played,Slovakia,Italy,SVK,ITA,1628,1898,Johannesburg,South Africa,TRUE
-45,2010-06-25,Group Stage,played,Chile,Spain,CHL,ESP,1925,2068,Pretoria,South Africa,TRUE
-46,2010-06-25,Group Stage,played,North Korea,Ivory Coast,PRK,CIV,1517,1740,Nelspruit,South Africa,TRUE
-47,2010-06-25,Group Stage,played,Portugal,Brazil,PRT,BRA,1883,2121,Durban,South Africa,TRUE
-48,2010-06-25,Group Stage,played,Switzerland,Honduras,CHE,HND,1791,1688,Bloemfontein,South Africa,TRUE
-49,2010-06-26,Round of 16,played,Uruguay,South Korea,URY,KOR,1913,1763,Port Elizabeth,South Africa,TRUE
-50,2010-06-26,Round of 16,played,United States,Ghana,USA,GHA,1805,1716,Rustenburg,South Africa,TRUE
-51,2010-06-27,Round of 16,played,Argentina,Mexico,ARG,MEX,1987,1890,Johannesburg,South Africa,TRUE
-52,2010-06-27,Round of 16,played,Germany,England,DEU,ENG,1955,1970,Bloemfontein,South Africa,TRUE
-53,2010-06-28,Round of 16,played,Brazil,Chile,BRA,CHL,2103,1907,Johannesburg,South Africa,TRUE
-54,2010-06-28,Round of 16,played,Netherlands,Slovakia,NLD,SVK,2071,1678,Durban,South Africa,TRUE
-55,2010-06-29,Round of 16,played,Paraguay,Japan,PRY,JPN,1790,1757,Pretoria,South Africa,TRUE
-56,2010-06-29,Round of 16,played,Spain,Portugal,ESP,PRT,2086,1901,Cape Town,South Africa,TRUE
-57,2010-07-02,Quarter-final,played,Netherlands,Brazil,NLD,BRA,2077,2129,Port Elizabeth,South Africa,TRUE
-58,2010-07-02,Quarter-final,played,Uruguay,Ghana,URY,GHA,1931,1754,Johannesburg,South Africa,TRUE
-59,2010-07-03,Quarter-final,played,Argentina,Germany,ARG,DEU,2020,2010,Cape Town,South Africa,TRUE
-60,2010-07-03,Quarter-final,played,Paraguay,Spain,PRY,ESP,1787,2101,Johannesburg,South Africa,TRUE
-61,2010-07-06,Semi-final,played,Uruguay,Netherlands,URY,NLD,1917,2111,Cape Town,South Africa,TRUE
-62,2010-07-07,Semi-final,played,Germany,Spain,DEU,ESP,2068,2109,Durban,South Africa,TRUE
-63,2010-07-10,Third Place,played,Uruguay,Germany,URY,DEU,1902,2042,Port Elizabeth,South Africa,TRUE
-64,2010-07-11,Final,played,Netherlands,Spain,NLD,ESP,2126,2135,Johannesburg,South Africa,TRUE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-2010,WC-2010_001,1,2010-06-11,Group Stage,played,South Africa,Mexico,ZAF,MEX,ZAF,MEX,CAF,CONCACAF,1592,1898,Johannesburg,South Africa,FALSE
+WC-2010,WC-2010_002,2,2010-06-11,Group Stage,played,Uruguay,France,URY,FRA,URY,FRA,CONMEBOL,UEFA,1845,1861,Cape Town,South Africa,TRUE
+WC-2010,WC-2010_003,3,2010-06-12,Group Stage,played,Argentina,Nigeria,ARG,NGA,ARG,NGA,CONMEBOL,CAF,1921,1713,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_004,4,2010-06-12,Group Stage,played,England,United States,ENG,USA,ENG,USA,UEFA,CONCACAF,2001,1784,Rustenburg,South Africa,TRUE
+WC-2010,WC-2010_005,5,2010-06-12,Group Stage,played,South Korea,Greece,KOR,GRC,KOR,GRC,AFC,UEFA,1765,1736,Port Elizabeth,South Africa,TRUE
+WC-2010,WC-2010_006,6,2010-06-13,Group Stage,played,Algeria,Slovenia,DZA,SVN,DZA,SVN,CAF,UEFA,1539,1686,Polokwane,South Africa,TRUE
+WC-2010,WC-2010_007,7,2010-06-13,Group Stage,played,Germany,Australia,GER,AUS,DEU,AUS,UEFA,AFC,1957,1775,Durban,South Africa,TRUE
+WC-2010,WC-2010_008,8,2010-06-13,Group Stage,played,Serbia,Ghana,SRB,GHA,SRB,GHA,UEFA,CAF,1840,1687,Pretoria,South Africa,TRUE
+WC-2010,WC-2010_009,9,2010-06-14,Group Stage,played,Italy,Paraguay,ITA,PRY,ITA,PRY,UEFA,CONMEBOL,1936,1764,Cape Town,South Africa,TRUE
+WC-2010,WC-2010_010,10,2010-06-14,Group Stage,played,Japan,Cameroon,JPN,CMR,JPN,CMR,AFC,CAF,1678,1694,Bloemfontein,South Africa,TRUE
+WC-2010,WC-2010_011,11,2010-06-14,Group Stage,played,Netherlands,Denmark,NED,DNK,NLD,DNK,UEFA,UEFA,2043,1778,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_012,12,2010-06-15,Group Stage,played,Brazil,North Korea,BRA,PRK,BRA,PRK,CONMEBOL,AFC,2109,1537,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_013,13,2010-06-15,Group Stage,played,Ivory Coast,Portugal,CIV,PRT,CIV,PRT,CAF,UEFA,1739,1876,Port Elizabeth,South Africa,TRUE
+WC-2010,WC-2010_014,14,2010-06-15,Group Stage,played,New Zealand,Slovakia,NZL,SVK,NZL,SVK,OFC,UEFA,1527,1670,Rustenburg,South Africa,TRUE
+WC-2010,WC-2010_015,15,2010-06-16,Group Stage,played,Honduras,Chile,HND,CHL,HND,CHL,CONCACAF,CONMEBOL,1714,1886,Nelspruit,South Africa,TRUE
+WC-2010,WC-2010_016,16,2010-06-16,Group Stage,played,South Africa,Uruguay,ZAF,URY,ZAF,URY,CAF,CONMEBOL,1608,1846,Pretoria,South Africa,FALSE
+WC-2010,WC-2010_017,17,2010-06-16,Group Stage,played,Spain,Switzerland,ESP,CHE,ESP,CHE,UEFA,UEFA,2111,1761,Durban,South Africa,TRUE
+WC-2010,WC-2010_018,18,2010-06-17,Group Stage,played,Argentina,South Korea,ARG,KOR,ARG,KOR,CONMEBOL,AFC,1935,1806,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_019,19,2010-06-17,Group Stage,played,France,Mexico,FRA,MEX,FRA,MEX,UEFA,CONCACAF,1860,1882,Polokwane,South Africa,TRUE
+WC-2010,WC-2010_020,20,2010-06-17,Group Stage,played,Greece,Nigeria,GRC,NGA,GRC,NGA,UEFA,CAF,1695,1699,Bloemfontein,South Africa,TRUE
+WC-2010,WC-2010_021,21,2010-06-18,Group Stage,played,England,Algeria,ENG,DZA,ENG,DZA,UEFA,CAF,1984,1521,Cape Town,South Africa,TRUE
+WC-2010,WC-2010_022,22,2010-06-18,Group Stage,played,Germany,Serbia,GER,SRB,DEU,SRB,UEFA,UEFA,1986,1798,Port Elizabeth,South Africa,TRUE
+WC-2010,WC-2010_023,23,2010-06-18,Group Stage,played,Slovenia,United States,SVN,USA,SVN,USA,UEFA,CONCACAF,1704,1801,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_024,24,2010-06-19,Group Stage,played,Cameroon,Denmark,CMR,DNK,CMR,DNK,CAF,UEFA,1663,1762,Pretoria,South Africa,TRUE
+WC-2010,WC-2010_025,25,2010-06-19,Group Stage,played,Ghana,Australia,GHA,AUS,GHA,AUS,CAF,AFC,1729,1746,Rustenburg,South Africa,TRUE
+WC-2010,WC-2010_026,26,2010-06-19,Group Stage,played,Netherlands,Japan,NED,JPN,NLD,JPN,UEFA,AFC,2059,1709,Durban,South Africa,TRUE
+WC-2010,WC-2010_027,27,2010-06-20,Group Stage,played,Brazil,Ivory Coast,BRA,CIV,BRA,CIV,CONMEBOL,CAF,2111,1750,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_028,28,2010-06-20,Group Stage,played,Italy,New Zealand,ITA,NZL,ITA,NZL,UEFA,OFC,1922,1539,Nelspruit,South Africa,TRUE
+WC-2010,WC-2010_029,29,2010-06-20,Group Stage,played,Slovakia,Paraguay,SVK,PRY,SVK,PRY,UEFA,CONMEBOL,1658,1778,Bloemfontein,South Africa,TRUE
+WC-2010,WC-2010_030,30,2010-06-21,Group Stage,played,Chile,Switzerland,CHL,CHE,CHL,CHE,CONMEBOL,UEFA,1902,1814,Port Elizabeth,South Africa,TRUE
+WC-2010,WC-2010_031,31,2010-06-21,Group Stage,played,Portugal,North Korea,PRT,PRK,PRT,PRK,UEFA,AFC,1865,1535,Cape Town,South Africa,TRUE
+WC-2010,WC-2010_032,32,2010-06-21,Group Stage,played,Spain,Honduras,ESP,HND,ESP,HND,UEFA,CONCACAF,2058,1698,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_033,33,2010-06-22,Group Stage,played,Greece,Argentina,GRC,ARG,GRC,ARG,UEFA,CONMEBOL,1725,1969,Polokwane,South Africa,TRUE
+WC-2010,WC-2010_034,34,2010-06-22,Group Stage,played,Mexico,Uruguay,MEX,URY,MEX,URY,CONCACAF,CONMEBOL,1924,1879,Rustenburg,South Africa,TRUE
+WC-2010,WC-2010_035,35,2010-06-22,Group Stage,played,Nigeria,South Korea,NGA,KOR,NGA,KOR,CAF,AFC,1669,1772,Durban,South Africa,TRUE
+WC-2010,WC-2010_036,36,2010-06-22,Group Stage,played,South Africa,France,ZAF,FRA,ZAF,FRA,CAF,UEFA,1575,1818,Bloemfontein,South Africa,FALSE
+WC-2010,WC-2010_037,37,2010-06-23,Group Stage,played,Australia,Serbia,AUS,SRB,AUS,SRB,AFC,UEFA,1745,1843,Nelspruit,South Africa,TRUE
+WC-2010,WC-2010_038,38,2010-06-23,Group Stage,played,Ghana,Germany,GHA,GER,GHA,DEU,CAF,UEFA,1730,1941,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_039,39,2010-06-23,Group Stage,played,Slovenia,England,SVN,ENG,SVN,ENG,UEFA,UEFA,1712,1958,Port Elizabeth,South Africa,TRUE
+WC-2010,WC-2010_040,40,2010-06-23,Group Stage,played,United States,Algeria,USA,DZA,USA,DZA,CONCACAF,CAF,1793,1547,Pretoria,South Africa,TRUE
+WC-2010,WC-2010_041,41,2010-06-24,Group Stage,played,Cameroon,Netherlands,CMR,NED,CMR,NLD,CAF,UEFA,1641,2066,Cape Town,South Africa,TRUE
+WC-2010,WC-2010_042,42,2010-06-24,Group Stage,played,Denmark,Japan,DNK,JPN,DNK,JPN,UEFA,AFC,1784,1702,Rustenburg,South Africa,TRUE
+WC-2010,WC-2010_043,43,2010-06-24,Group Stage,played,Paraguay,New Zealand,PRY,NZL,PRY,NZL,CONMEBOL,OFC,1808,1563,Polokwane,South Africa,TRUE
+WC-2010,WC-2010_044,44,2010-06-24,Group Stage,played,Slovakia,Italy,SVK,ITA,SVK,ITA,UEFA,UEFA,1628,1898,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_045,45,2010-06-25,Group Stage,played,Chile,Spain,CHL,ESP,CHL,ESP,CONMEBOL,UEFA,1925,2068,Pretoria,South Africa,TRUE
+WC-2010,WC-2010_046,46,2010-06-25,Group Stage,played,North Korea,Ivory Coast,PRK,CIV,PRK,CIV,AFC,CAF,1517,1740,Nelspruit,South Africa,TRUE
+WC-2010,WC-2010_047,47,2010-06-25,Group Stage,played,Portugal,Brazil,PRT,BRA,PRT,BRA,UEFA,CONMEBOL,1883,2121,Durban,South Africa,TRUE
+WC-2010,WC-2010_048,48,2010-06-25,Group Stage,played,Switzerland,Honduras,CHE,HND,CHE,HND,UEFA,CONCACAF,1791,1688,Bloemfontein,South Africa,TRUE
+WC-2010,WC-2010_049,49,2010-06-26,Round of 16,played,Uruguay,South Korea,URY,KOR,URY,KOR,CONMEBOL,AFC,1913,1763,Port Elizabeth,South Africa,TRUE
+WC-2010,WC-2010_050,50,2010-06-26,Round of 16,played,United States,Ghana,USA,GHA,USA,GHA,CONCACAF,CAF,1805,1716,Rustenburg,South Africa,TRUE
+WC-2010,WC-2010_051,51,2010-06-27,Round of 16,played,Argentina,Mexico,ARG,MEX,ARG,MEX,CONMEBOL,CONCACAF,1987,1890,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_052,52,2010-06-27,Round of 16,played,Germany,England,GER,ENG,DEU,ENG,UEFA,UEFA,1955,1970,Bloemfontein,South Africa,TRUE
+WC-2010,WC-2010_053,53,2010-06-28,Round of 16,played,Brazil,Chile,BRA,CHL,BRA,CHL,CONMEBOL,CONMEBOL,2103,1907,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_054,54,2010-06-28,Round of 16,played,Netherlands,Slovakia,NED,SVK,NLD,SVK,UEFA,UEFA,2071,1678,Durban,South Africa,TRUE
+WC-2010,WC-2010_055,55,2010-06-29,Round of 16,played,Paraguay,Japan,PRY,JPN,PRY,JPN,CONMEBOL,AFC,1790,1757,Pretoria,South Africa,TRUE
+WC-2010,WC-2010_056,56,2010-06-29,Round of 16,played,Spain,Portugal,ESP,PRT,ESP,PRT,UEFA,UEFA,2086,1901,Cape Town,South Africa,TRUE
+WC-2010,WC-2010_057,57,2010-07-02,Quarter-final,played,Netherlands,Brazil,NED,BRA,NLD,BRA,UEFA,CONMEBOL,2077,2129,Port Elizabeth,South Africa,TRUE
+WC-2010,WC-2010_058,58,2010-07-02,Quarter-final,played,Uruguay,Ghana,URY,GHA,URY,GHA,CONMEBOL,CAF,1931,1754,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_059,59,2010-07-03,Quarter-final,played,Argentina,Germany,ARG,GER,ARG,DEU,CONMEBOL,UEFA,2020,2010,Cape Town,South Africa,TRUE
+WC-2010,WC-2010_060,60,2010-07-03,Quarter-final,played,Paraguay,Spain,PRY,ESP,PRY,ESP,CONMEBOL,UEFA,1787,2101,Johannesburg,South Africa,TRUE
+WC-2010,WC-2010_061,61,2010-07-06,Semi-final,played,Uruguay,Netherlands,URY,NED,URY,NLD,CONMEBOL,UEFA,1917,2111,Cape Town,South Africa,TRUE
+WC-2010,WC-2010_062,62,2010-07-07,Semi-final,played,Germany,Spain,GER,ESP,DEU,ESP,UEFA,UEFA,2068,2109,Durban,South Africa,TRUE
+WC-2010,WC-2010_063,63,2010-07-10,Third Place,played,Uruguay,Germany,URY,GER,URY,DEU,CONMEBOL,UEFA,1902,2042,Port Elizabeth,South Africa,TRUE
+WC-2010,WC-2010_064,64,2010-07-11,Final,played,Netherlands,Spain,NED,ESP,NLD,ESP,UEFA,UEFA,2126,2135,Johannesburg,South Africa,TRUE

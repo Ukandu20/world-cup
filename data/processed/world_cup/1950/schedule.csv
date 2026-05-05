@@ -1,23 +1,23 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,1950-06-24,Group Stage,played,Brazil,Mexico,BRA,MEX,1967,1834,Rio de Janeiro,Brazil,FALSE
-2,1950-06-25,Group Stage,played,Chile,England,CHL,ENG,1599,2071,Rio de Janeiro,Brazil,TRUE
-3,1950-06-25,Group Stage,played,Italy,Sweden,ITA,SWE,1973,1974,São Paulo,Brazil,TRUE
-4,1950-06-25,Group Stage,played,Spain,United States,ESP,USA,1899,1580,Curitiba,Brazil,TRUE
-5,1950-06-25,Group Stage,played,Switzerland,Yugoslavia,CHE,YUG,1709,1821,Belo Horizonte,Brazil,TRUE
-6,1950-06-28,Group Stage,played,Brazil,Switzerland,BRA,CHE,1990,1673,São Paulo,Brazil,FALSE
-7,1950-06-28,Group Stage,played,Mexico,Yugoslavia,MEX,YUG,1811,1857,Porto Alegre,Brazil,TRUE
-8,1950-06-29,Group Stage,played,Chile,Spain,CHL,ESP,1593,1911,Rio de Janeiro,Brazil,TRUE
-9,1950-06-29,Group Stage,played,England,United States,ENG,USA,2077,1568,Belo Horizonte,Brazil,TRUE
-10,1950-06-29,Group Stage,played,Paraguay,Sweden,PRY,SWE,1877,2004,Curitiba,Brazil,TRUE
-11,1950-07-01,Group Stage,played,Brazil,Yugoslavia,BRA,YUG,1965,1903,Rio de Janeiro,Brazil,FALSE
-12,1950-07-02,Group Stage,played,Bolivia,Uruguay,BOL,URY,1445,1737,Belo Horizonte,Brazil,TRUE
-13,1950-07-02,Group Stage,played,Chile,United States,CHL,USA,1581,1625,Recife,Brazil,TRUE
-14,1950-07-02,Group Stage,played,England,Spain,ENG,ESP,2020,1923,Rio de Janeiro,Brazil,TRUE
-15,1950-07-02,Group Stage,played,Italy,Paraguay,ITA,PRY,1943,1888,São Paulo,Brazil,TRUE
-16,1950-07-02,Group Stage,played,Mexico,Switzerland,MEX,CHE,1765,1698,Porto Alegre,Brazil,TRUE
-17,1950-07-09,Final,played,Brazil,Sweden,BRA,SWE,1990,1993,Rio de Janeiro,Brazil,FALSE
-18,1950-07-09,Final,played,Spain,Uruguay,ESP,URY,1961,1759,São Paulo,Brazil,TRUE
-19,1950-07-13,Final,played,Brazil,Spain,BRA,ESP,2036,1945,Rio de Janeiro,Brazil,FALSE
-20,1950-07-13,Final,played,Sweden,Uruguay,SWE,URY,1947,1775,São Paulo,Brazil,TRUE
-21,1950-07-16,Final,played,Brazil,Uruguay,BRA,URY,2066,1819,Rio de Janeiro,Brazil,FALSE
-22,1950-07-16,Final,played,Spain,Sweden,ESP,SWE,1915,1903,São Paulo,Brazil,TRUE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-1950,WC-1950_001,1,1950-06-24,Group Stage,played,Brazil,Mexico,BRA,MEX,BRA,MEX,CONMEBOL,CONCACAF,1967,1834,Rio de Janeiro,Brazil,FALSE
+WC-1950,WC-1950_002,2,1950-06-25,Group Stage,played,Chile,England,CHL,ENG,CHL,ENG,CONMEBOL,UEFA,1599,2071,Rio de Janeiro,Brazil,TRUE
+WC-1950,WC-1950_003,3,1950-06-25,Group Stage,played,Italy,Sweden,ITA,SWE,ITA,SWE,UEFA,UEFA,1973,1974,São Paulo,Brazil,TRUE
+WC-1950,WC-1950_004,4,1950-06-25,Group Stage,played,Spain,United States,ESP,USA,ESP,USA,UEFA,CONCACAF,1899,1580,Curitiba,Brazil,TRUE
+WC-1950,WC-1950_005,5,1950-06-25,Group Stage,played,Switzerland,Yugoslavia,CHE,YUG,CHE,YUG,UEFA,UEFA,1709,1821,Belo Horizonte,Brazil,TRUE
+WC-1950,WC-1950_006,6,1950-06-28,Group Stage,played,Brazil,Switzerland,BRA,CHE,BRA,CHE,CONMEBOL,UEFA,1990,1673,São Paulo,Brazil,FALSE
+WC-1950,WC-1950_007,7,1950-06-28,Group Stage,played,Mexico,Yugoslavia,MEX,YUG,MEX,YUG,CONCACAF,UEFA,1811,1857,Porto Alegre,Brazil,TRUE
+WC-1950,WC-1950_008,8,1950-06-29,Group Stage,played,Chile,Spain,CHL,ESP,CHL,ESP,CONMEBOL,UEFA,1593,1911,Rio de Janeiro,Brazil,TRUE
+WC-1950,WC-1950_009,9,1950-06-29,Group Stage,played,England,United States,ENG,USA,ENG,USA,UEFA,CONCACAF,2077,1568,Belo Horizonte,Brazil,TRUE
+WC-1950,WC-1950_010,10,1950-06-29,Group Stage,played,Paraguay,Sweden,PRY,SWE,PRY,SWE,CONMEBOL,UEFA,1877,2004,Curitiba,Brazil,TRUE
+WC-1950,WC-1950_011,11,1950-07-01,Group Stage,played,Brazil,Yugoslavia,BRA,YUG,BRA,YUG,CONMEBOL,UEFA,1965,1903,Rio de Janeiro,Brazil,FALSE
+WC-1950,WC-1950_012,12,1950-07-02,Group Stage,played,Bolivia,Uruguay,BOL,URY,BOL,URY,CONMEBOL,CONMEBOL,1445,1737,Belo Horizonte,Brazil,TRUE
+WC-1950,WC-1950_013,13,1950-07-02,Group Stage,played,Chile,United States,CHL,USA,CHL,USA,CONMEBOL,CONCACAF,1581,1625,Recife,Brazil,TRUE
+WC-1950,WC-1950_014,14,1950-07-02,Group Stage,played,England,Spain,ENG,ESP,ENG,ESP,UEFA,UEFA,2020,1923,Rio de Janeiro,Brazil,TRUE
+WC-1950,WC-1950_015,15,1950-07-02,Group Stage,played,Italy,Paraguay,ITA,PRY,ITA,PRY,UEFA,CONMEBOL,1943,1888,São Paulo,Brazil,TRUE
+WC-1950,WC-1950_016,16,1950-07-02,Group Stage,played,Mexico,Switzerland,MEX,CHE,MEX,CHE,CONCACAF,UEFA,1765,1698,Porto Alegre,Brazil,TRUE
+WC-1950,WC-1950_017,17,1950-07-09,Final,played,Brazil,Sweden,BRA,SWE,BRA,SWE,CONMEBOL,UEFA,1990,1993,Rio de Janeiro,Brazil,FALSE
+WC-1950,WC-1950_018,18,1950-07-09,Final,played,Spain,Uruguay,ESP,URY,ESP,URY,UEFA,CONMEBOL,1961,1759,São Paulo,Brazil,TRUE
+WC-1950,WC-1950_019,19,1950-07-13,Final,played,Brazil,Spain,BRA,ESP,BRA,ESP,CONMEBOL,UEFA,2036,1945,Rio de Janeiro,Brazil,FALSE
+WC-1950,WC-1950_020,20,1950-07-13,Final,played,Sweden,Uruguay,SWE,URY,SWE,URY,UEFA,CONMEBOL,1947,1775,São Paulo,Brazil,TRUE
+WC-1950,WC-1950_021,21,1950-07-16,Final,played,Brazil,Uruguay,BRA,URY,BRA,URY,CONMEBOL,CONMEBOL,2066,1819,Rio de Janeiro,Brazil,FALSE
+WC-1950,WC-1950_022,22,1950-07-16,Final,played,Spain,Sweden,ESP,SWE,ESP,SWE,UEFA,UEFA,1915,1903,São Paulo,Brazil,TRUE

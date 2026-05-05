@@ -1,7 +1,7 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2018 FIFA Men's World Cup,WC-2018,2018,13,2018-06-18,Group Stage,played,Panama,PAN,Belgium,BEL,FALSE,Sochi,Russia,TRUE,1657,1936
-2018 FIFA Men's World Cup,WC-2018,2018,30,2018-06-24,Group Stage,played,Panama,PAN,England,ENG,FALSE,Nizhny Novgorod,Russia,TRUE,1639,1956
-2018 FIFA Men's World Cup,WC-2018,2018,47,2018-06-28,Group Stage,played,Panama,PAN,Tunisia,TUN,TRUE,Saransk,Russia,TRUE,1622,1627
-2026 FIFA Men's World Cup,WC-2026,2026,24,2026-06-17,Group Stage,scheduled,Panama,PAN,Ghana,GHA,FALSE,Toronto,Canada,TRUE,1737,1505
-2026 FIFA Men's World Cup,WC-2026,2026,48,2026-06-23,Group Stage,scheduled,Panama,PAN,Croatia,HRV,TRUE,Toronto,Canada,TRUE,1737,1930
-2026 FIFA Men's World Cup,WC-2026,2026,71,2026-06-27,Group Stage,scheduled,Panama,PAN,England,ENG,TRUE,East Rutherford,United States,TRUE,1737,2020
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_013,13,2018-06-18,Group Stage,played,Panama,PAN,PAN,CONCACAF,Belgium,BEL,BEL,UEFA,FALSE,Sochi,Russia,TRUE,1657,1936
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_030,30,2018-06-24,Group Stage,played,Panama,PAN,PAN,CONCACAF,England,ENG,ENG,UEFA,FALSE,Nizhny Novgorod,Russia,TRUE,1639,1956
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_047,47,2018-06-28,Group Stage,played,Panama,PAN,PAN,CONCACAF,Tunisia,TUN,TUN,CAF,TRUE,Saransk,Russia,TRUE,1622,1627
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_024,24,2026-06-17,Group Stage,scheduled,Panama,PAN,PAN,CONCACAF,Ghana,GHA,GHA,CAF,FALSE,Toronto,Canada,TRUE,1737,1505
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_048,48,2026-06-23,Group Stage,scheduled,Panama,PAN,PAN,CONCACAF,Croatia,HRV,HRV,UEFA,TRUE,Toronto,Canada,TRUE,1737,1930
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_071,71,2026-06-27,Group Stage,scheduled,Panama,PAN,PAN,CONCACAF,England,ENG,ENG,UEFA,TRUE,East Rutherford,United States,TRUE,1737,2020

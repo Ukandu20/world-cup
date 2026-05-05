@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 WORLD_CUP_DIR = ROOT / "INT-World Cup" / "world_cup"
 OUTPUT_DIR = WORLD_CUP_DIR / "2026"
+ALL_EDITIONS_DIR = WORLD_CUP_DIR / "all_editions"
 
 RESULTS_PATH = DATA_DIR / "results.csv"
 GOALSCORERS_PATH = DATA_DIR / "goalscorers.csv"
@@ -51,6 +52,7 @@ ELO_BASE_URL = "https://www.eloratings.net"
 
 WORLD_CUP_COMPETITION_ID = "17"
 WORLD_CUP_SEASON_ID = "285023"
+TOURNAMENT_ID = "WC-2026"
 TOURNAMENT_START_DATE = date(2026, 6, 11)
 TOURNAMENT_END_DATE = date(2026, 7, 19)
 FREEZE_TARGET_DATE = date(2026, 6, 10)
@@ -704,11 +706,18 @@ def derive_fixture_status(match: dict) -> str:
 def build_fixtures_rows(
     fixtures: list[dict],
     qualified_teams: dict[str, QualifiedTeam],
+    fifa_rankings: dict[str, dict],
     alias_map: dict[str, str],
     dated_former_aliases: list[tuple[str, date, date, str]],
     source_as_of: str,
 ) -> list[dict[str, object]]:
     rows = []
+    def confederation_for(team_id: str) -> str:
+        team = qualified_teams.get(team_id)
+        if team is None:
+            return ""
+        return fifa_rankings.get(team.fifa_code, {}).get("ConfederationName", "")
+
     for match in sorted(fixtures, key=lambda item: (item["Date"], item["MatchNumber"])):
         stage_name = first_description(match.get("StageName"))
         round_code, _ = ROUND_ORDER[stage_name]
@@ -718,12 +727,16 @@ def build_fixtures_rows(
         stadium = match.get("Stadium") or {}
         home = match.get("Home")
         away = match.get("Away")
+        home_team_id = (home.get("IdCountry", "") if home else "") if home and home.get("IdCountry") in qualified_teams else ""
+        away_team_id = (away.get("IdCountry", "") if away else "") if away and away.get("IdCountry") in qualified_teams else ""
         home_name = first_description(home.get("TeamName")) if home else ""
         away_name = first_description(away.get("TeamName")) if away else ""
 
         rows.append(
             {
-                "match_id": match.get("IdMatch", ""),
+                "tournament_id": TOURNAMENT_ID,
+                "match_id": f"{TOURNAMENT_ID}_{int(match.get('MatchNumber', 0)):03d}",
+                "source_match_id": match.get("IdMatch", ""),
                 "match_number": match.get("MatchNumber", ""),
                 "edition_year": "2026",
                 "competition_id": match.get("IdCompetition", ""),
@@ -739,8 +752,10 @@ def build_fixtures_rows(
                 "venue_name": first_description(stadium.get("Name")),
                 "home_slot_label": home_name or match.get("PlaceHolderA", ""),
                 "away_slot_label": away_name or match.get("PlaceHolderB", ""),
-                "home_team_id": (home.get("IdCountry", "") if home else "") if home and home.get("IdCountry") in qualified_teams else "",
-                "away_team_id": (away.get("IdCountry", "") if away else "") if away and away.get("IdCountry") in qualified_teams else "",
+                "home_team_id": home_team_id,
+                "away_team_id": away_team_id,
+                "home_team_confederation": confederation_for(home_team_id),
+                "away_team_confederation": confederation_for(away_team_id),
                 "home_tournament_name": home_name,
                 "away_tournament_name": away_name,
                 "home_canonical_name": canonicalize_name(home_name, None, alias_map, dated_former_aliases) if home_name else "",
@@ -777,6 +792,8 @@ def build_fifa_ranking_rows(
             raise KeyError(f"Missing FIFA ranking row for {team.fifa_code}")
         rows.append(
             {
+                "tournament_id": TOURNAMENT_ID,
+                "year": "2026",
                 "team_id": team.team_id,
                 "canonical_name": team.canonical_name,
                 "tournament_name": team.tournament_name,
@@ -824,6 +841,26 @@ def build_elo_rows(
                 "elo_source_name": elo_row["source_name"],
                 "source_url": source_url,
                 "source_as_of": source_as_of,
+            }
+        )
+    return rows
+
+
+def build_tournament_elo_rows(elo_rows: list[dict[str, object]], teams_rows: list[dict[str, object]]) -> list[dict[str, object]]:
+    confederation_by_team = {str(row["team_id"]): row.get("confederation", "") for row in teams_rows}
+    rows = []
+    for row in elo_rows:
+        rows.append(
+            {
+                "tournament_id": TOURNAMENT_ID,
+                "year": "2026",
+                "team_id": row["team_id"],
+                "team": row["canonical_name"],
+                "confederation": confederation_by_team.get(str(row["team_id"]), ""),
+                "elo_start": row["elo_rating"],
+                "elo_end": "",
+                "elo_change": "",
+                "elo_status": row["snapshot_status"],
             }
         )
     return rows
@@ -1125,6 +1162,62 @@ def build_manifest(output_dir: Path, build_date: date) -> None:
     (output_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
 
+def update_all_editions_outputs(teams_rows: list[dict[str, object]], elo_rows: list[dict[str, object]]) -> None:
+    teams_path = ALL_EDITIONS_DIR / "teams.csv"
+    elo_path = ALL_EDITIONS_DIR / "elo.csv"
+    normalized_teams = [
+        {
+            "tournament_id": TOURNAMENT_ID,
+            "year": "2026",
+            "team_id": row["team_id"],
+            "team": row["canonical_name"],
+            "team_code": row["fifa_code"],
+            "confederation": row["confederation"],
+            "tournament_name": row["tournament_name"],
+            "placement": "Scheduled",
+            "position": "",
+            "matches_played": "",
+        }
+        for row in teams_rows
+    ]
+    teams_fieldnames = [
+        "tournament_id",
+        "year",
+        "team_id",
+        "team",
+        "team_code",
+        "confederation",
+        "tournament_name",
+        "placement",
+        "position",
+        "matches_played",
+    ]
+    existing_teams = [row for row in load_csv(teams_path)] if teams_path.exists() else []
+    write_csv(
+        teams_path,
+        [row for row in existing_teams if row.get("tournament_id") != TOURNAMENT_ID] + normalized_teams,
+        teams_fieldnames,
+    )
+
+    elo_fieldnames = [
+        "tournament_id",
+        "year",
+        "team_id",
+        "team",
+        "confederation",
+        "elo_start",
+        "elo_end",
+        "elo_change",
+        "elo_status",
+    ]
+    existing_elo = [row for row in load_csv(elo_path)] if elo_path.exists() else []
+    write_csv(
+        elo_path,
+        [row for row in existing_elo if row.get("tournament_id") != TOURNAMENT_ID] + elo_rows,
+        elo_fieldnames,
+    )
+
+
 def main() -> None:
     args = parse_args()
     build_date = parse_iso_date(args.build_date)
@@ -1155,9 +1248,12 @@ def main() -> None:
     groups_rows = build_groups_rows(qualified_teams)
     rounds_rows = build_rounds_rows(fixtures)
     venues_rows = build_venues_rows(fixtures, source_as_of)
-    fixtures_rows = build_fixtures_rows(fixtures, qualified_teams, alias_map, dated_former_aliases, source_as_of)
+    fixtures_rows = build_fixtures_rows(
+        fixtures, qualified_teams, fifa_rankings, alias_map, dated_former_aliases, source_as_of
+    )
     fifa_rows = build_fifa_ranking_rows(qualified_teams, fifa_rankings, ranking_snapshot_date, source_as_of)
     elo_rows = build_elo_rows(qualified_teams, elo_rankings, build_date, source_as_of)
+    tournament_elo_rows = build_tournament_elo_rows(elo_rows, teams_rows)
     lead_in_rows = build_lead_in_rows(
         results_rows,
         aggregate_goalscorers(goalscorers_rows),
@@ -1178,7 +1274,7 @@ def main() -> None:
     datasets = {
         "teams.csv": (
             teams_rows,
-            ["team_id", "canonical_name", "tournament_name", "fifa_code", "flag_icon_code", "flag_icon_css_class", "confederation", "group_code", "is_host", "qualification_path", "world_cup_participations", "weighted_world_cup_participations", "weighted_world_cup_placement_score", "squad_status", "source_url", "source_as_of"],
+            ["tournament_id", "year", "team_id", "canonical_name", "tournament_name", "fifa_code", "flag_icon_code", "flag_icon_css_class", "confederation", "group_code", "is_host", "qualification_path", "world_cup_participations", "weighted_world_cup_participations", "weighted_world_cup_placement_score", "squad_status", "source_url", "source_as_of"],
         ),
         "groups.csv": (
             groups_rows,
@@ -1191,7 +1287,11 @@ def main() -> None:
         ),
         "fixtures.csv": (
             fixtures_rows,
-            ["match_id", "match_number", "edition_year", "competition_id", "season_id", "round_code", "round_name", "group_code", "kickoff_datetime_utc", "kickoff_datetime_local", "kickoff_date_local", "kickoff_time_local", "venue_id", "venue_name", "home_slot_label", "away_slot_label", "home_team_id", "away_team_id", "home_tournament_name", "away_tournament_name", "home_canonical_name", "away_canonical_name", "status", "status_code", "home_score", "away_score", "went_to_extra_time", "penalties_home", "penalties_away", "winner_team_id", "placeholder_a", "placeholder_b", "result_type", "last_verified_at", "source_url"],
+            ["tournament_id", "match_id", "source_match_id", "match_number", "edition_year", "competition_id", "season_id", "round_code", "round_name", "group_code", "kickoff_datetime_utc", "kickoff_datetime_local", "kickoff_date_local", "kickoff_time_local", "venue_id", "venue_name", "home_slot_label", "away_slot_label", "home_team_id", "away_team_id", "home_team_confederation", "away_team_confederation", "home_tournament_name", "away_tournament_name", "home_canonical_name", "away_canonical_name", "status", "status_code", "home_score", "away_score", "went_to_extra_time", "penalties_home", "penalties_away", "winner_team_id", "placeholder_a", "placeholder_b", "result_type", "last_verified_at", "source_url"],
+        ),
+        "schedule.csv": (
+            fixtures_rows,
+            ["tournament_id", "match_id", "source_match_id", "match_number", "edition_year", "round_code", "round_name", "group_code", "kickoff_datetime_utc", "kickoff_datetime_local", "venue_id", "venue_name", "home_team_id", "away_team_id", "home_team_confederation", "away_team_confederation", "home_tournament_name", "away_tournament_name", "home_canonical_name", "away_canonical_name", "status", "source_url"],
         ),
         "fifa_rank_snapshots.csv": (
             fifa_rows,
@@ -1200,6 +1300,10 @@ def main() -> None:
         "elo_snapshots.csv": (
             elo_rows,
             ["team_id", "canonical_name", "tournament_name", "fifa_code", "snapshot_date", "freeze_target_date", "is_final_freeze", "snapshot_status", "elo_rank", "elo_rating", "elo_source_name", "source_url", "source_as_of"],
+        ),
+        "elo.csv": (
+            tournament_elo_rows,
+            ["tournament_id", "year", "team_id", "team", "confederation", "elo_start", "elo_end", "elo_change", "elo_status"],
         ),
         "edition_metadata.csv": (
             edition_metadata_rows,
@@ -1211,7 +1315,7 @@ def main() -> None:
         ),
         "squads.csv": (
             [],
-            ["edition_year", "team_id", "player_name", "position", "jersey_number", "date_of_birth", "club", "caps", "goals", "is_final_squad", "source_url", "source_as_of"],
+            ["tournament_id", "edition_year", "year", "team_id", "confederation", "player_name", "position", "jersey_number", "date_of_birth", "club", "caps", "goals", "is_final_squad", "source_url", "source_as_of"],
         ),
         "team_results_lead_in.csv": (
             lead_in_rows,
@@ -1220,6 +1324,7 @@ def main() -> None:
     }
     write_outputs(output_dir, datasets)
     build_manifest(output_dir, build_date)
+    update_all_editions_outputs(teams_rows, tournament_elo_rows)
     print(json.dumps({"output_dir": str(output_dir), "teams": len(teams_rows), "groups": len({row["group_code"] for row in groups_rows}), "venues": len(venues_rows), "fixtures": len(fixtures_rows), "fifa_rank_rows": len(fifa_rows), "elo_rows": len(elo_rows), "lead_in_rows": len(lead_in_rows)}, indent=2))
 
 

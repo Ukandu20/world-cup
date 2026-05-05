@@ -1,39 +1,39 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,1974-06-13,Group Stage,played,Brazil,Yugoslavia,BRA,YUG,2117,1935,Frankfurt am Main,Germany,TRUE
-2,1974-06-14,Group Stage,played,DR Congo,Scotland,,SCO,1655,1767,Dortmund,Germany,TRUE
-3,1974-06-14,Group Stage,played,German DR,Australia,DDR,AUS,1939,1687,Hamburg,Germany,TRUE
-4,1974-06-14,Group Stage,played,Germany,Chile,DEU,CHL,1923,1710,Berlin,Germany,FALSE
-5,1974-06-15,Group Stage,played,Italy,Haiti,ITA,HTI,2003,1610,Munich,Germany,TRUE
-6,1974-06-15,Group Stage,played,Poland,Argentina,POL,ARG,1959,1894,Stuttgart,Germany,TRUE
-7,1974-06-15,Group Stage,played,Sweden,Bulgaria,SWE,BGR,1888,1822,Düsseldorf,Germany,TRUE
-8,1974-06-15,Group Stage,played,Uruguay,Netherlands,URY,NLD,1758,1843,Hanover,Germany,TRUE
-9,1974-06-18,Group Stage,played,Chile,German DR,CHL,DDR,1771,1956,Berlin,Germany,TRUE
-10,1974-06-18,Group Stage,played,Germany,Australia,DEU,AUS,1923,1783,Hamburg,Germany,FALSE
-11,1974-06-18,Group Stage,played,Scotland,Brazil,SCO,BRA,1865,2103,Frankfurt am Main,Germany,TRUE
-12,1974-06-18,Group Stage,played,Yugoslavia,DR Congo,YUG,,1813,1655,Gelsenkirchen,Germany,TRUE
-13,1974-06-19,Group Stage,played,Argentina,Italy,ARG,ITA,1870,2011,Stuttgart,Germany,TRUE
-14,1974-06-19,Group Stage,played,Bulgaria,Uruguay,BGR,URY,1828,1724,Hanover,Germany,TRUE
-15,1974-06-19,Group Stage,played,Haiti,Poland,HTI,POL,1602,1983,Munich,Germany,TRUE
-16,1974-06-19,Group Stage,played,Netherlands,Sweden,NLD,SWE,1877,1882,Dortmund,Germany,TRUE
-17,1974-06-22,Group Stage,played,Australia,Chile,AUS,CHL,1666,1786,Berlin,Germany,TRUE
-18,1974-06-22,Group Stage,played,DR Congo,Brazil,,BRA,1655,1984,Gelsenkirchen,Germany,TRUE
-19,1974-06-22,Group Stage,played,Germany,German DR,DEU,DDR,1923,1786,Hamburg,Germany,FALSE
-20,1974-06-22,Group Stage,played,Scotland,Yugoslavia,SCO,YUG,1883,1984,Frankfurt am Main,Germany,TRUE
-21,1974-06-23,Group Stage,played,Argentina,Haiti,ARG,HTI,1882,1588,Munich,Germany,TRUE
-22,1974-06-23,Group Stage,played,Bulgaria,Netherlands,BGR,NLD,1819,1877,Dortmund,Germany,TRUE
-23,1974-06-23,Group Stage,played,Poland,Italy,POL,ITA,1997,1999,Stuttgart,Germany,TRUE
-24,1974-06-23,Group Stage,played,Sweden,Uruguay,SWE,URY,1882,1733,Düsseldorf,Germany,TRUE
-25,1974-06-26,Quarter-final,played,Brazil,German DR,BRA,DDR,2096,1991,Hanover,Germany,TRUE
-26,1974-06-26,Quarter-final,played,Germany,Yugoslavia,DEU,YUG,1923,1813,Düsseldorf,Germany,FALSE
-27,1974-06-26,Quarter-final,played,Netherlands,Argentina,NLD,ARG,1921,1898,Gelsenkirchen,Germany,TRUE
-28,1974-06-26,Quarter-final,played,Sweden,Poland,SWE,POL,1913,2027,Stuttgart,Germany,TRUE
-29,1974-06-30,Quarter-final,played,Argentina,Brazil,ARG,BRA,1845,2117,Hanover,Germany,TRUE
-30,1974-06-30,Quarter-final,played,German DR,Netherlands,DDR,NLD,1970,1974,Gelsenkirchen,Germany,TRUE
-31,1974-06-30,Quarter-final,played,Germany,Sweden,DEU,SWE,1923,1719,Düsseldorf,Germany,FALSE
-32,1974-06-30,Quarter-final,played,Poland,Yugoslavia,POL,YUG,2047,1954,Frankfurt am Main,Germany,TRUE
-33,1974-07-03,Quarter-final,played,Argentina,German DR,ARG,DDR,1835,1926,Gelsenkirchen,Germany,TRUE
-34,1974-07-03,Quarter-final,played,Germany,Poland,DEU,POL,1923,1729,Frankfurt am Main,Germany,FALSE
-35,1974-07-03,Quarter-final,played,Netherlands,Brazil,NLD,BRA,2018,2127,Dortmund,Germany,TRUE
-36,1974-07-03,Quarter-final,played,Sweden,Yugoslavia,SWE,YUG,1879,1932,Düsseldorf,Germany,TRUE
-37,1974-07-06,Third Place,played,Brazil,Poland,BRA,POL,2068,2050,Munich,Germany,TRUE
-38,1974-07-07,Final,played,Germany,Netherlands,DEU,NLD,1923,1961,Munich,Germany,FALSE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-1974,WC-1974_001,1,1974-06-13,Group Stage,played,Brazil,Yugoslavia,BRA,YUG,BRA,YUG,CONMEBOL,UEFA,2117,1935,Frankfurt am Main,Germany,TRUE
+WC-1974,WC-1974_002,2,1974-06-14,Group Stage,played,DR Congo,Scotland,,SCO,,SCO,,UEFA,1655,1767,Dortmund,Germany,TRUE
+WC-1974,WC-1974_003,3,1974-06-14,Group Stage,played,German DR,Australia,DDR,AUS,DDR,AUS,UEFA,AFC,1939,1687,Hamburg,Germany,TRUE
+WC-1974,WC-1974_004,4,1974-06-14,Group Stage,played,Germany,Chile,GER,CHL,DEU,CHL,UEFA,CONMEBOL,1923,1710,Berlin,Germany,FALSE
+WC-1974,WC-1974_005,5,1974-06-15,Group Stage,played,Italy,Haiti,ITA,HTI,ITA,HTI,UEFA,CONCACAF,2003,1610,Munich,Germany,TRUE
+WC-1974,WC-1974_006,6,1974-06-15,Group Stage,played,Poland,Argentina,POL,ARG,POL,ARG,UEFA,CONMEBOL,1959,1894,Stuttgart,Germany,TRUE
+WC-1974,WC-1974_007,7,1974-06-15,Group Stage,played,Sweden,Bulgaria,SWE,BGR,SWE,BGR,UEFA,UEFA,1888,1822,Düsseldorf,Germany,TRUE
+WC-1974,WC-1974_008,8,1974-06-15,Group Stage,played,Uruguay,Netherlands,URY,NED,URY,NLD,CONMEBOL,UEFA,1758,1843,Hanover,Germany,TRUE
+WC-1974,WC-1974_009,9,1974-06-18,Group Stage,played,Chile,German DR,CHL,DDR,CHL,DDR,CONMEBOL,UEFA,1771,1956,Berlin,Germany,TRUE
+WC-1974,WC-1974_010,10,1974-06-18,Group Stage,played,Germany,Australia,GER,AUS,DEU,AUS,UEFA,AFC,1923,1783,Hamburg,Germany,FALSE
+WC-1974,WC-1974_011,11,1974-06-18,Group Stage,played,Scotland,Brazil,SCO,BRA,SCO,BRA,UEFA,CONMEBOL,1865,2103,Frankfurt am Main,Germany,TRUE
+WC-1974,WC-1974_012,12,1974-06-18,Group Stage,played,Yugoslavia,DR Congo,YUG,,YUG,,UEFA,,1813,1655,Gelsenkirchen,Germany,TRUE
+WC-1974,WC-1974_013,13,1974-06-19,Group Stage,played,Argentina,Italy,ARG,ITA,ARG,ITA,CONMEBOL,UEFA,1870,2011,Stuttgart,Germany,TRUE
+WC-1974,WC-1974_014,14,1974-06-19,Group Stage,played,Bulgaria,Uruguay,BGR,URY,BGR,URY,UEFA,CONMEBOL,1828,1724,Hanover,Germany,TRUE
+WC-1974,WC-1974_015,15,1974-06-19,Group Stage,played,Haiti,Poland,HTI,POL,HTI,POL,CONCACAF,UEFA,1602,1983,Munich,Germany,TRUE
+WC-1974,WC-1974_016,16,1974-06-19,Group Stage,played,Netherlands,Sweden,NED,SWE,NLD,SWE,UEFA,UEFA,1877,1882,Dortmund,Germany,TRUE
+WC-1974,WC-1974_017,17,1974-06-22,Group Stage,played,Australia,Chile,AUS,CHL,AUS,CHL,AFC,CONMEBOL,1666,1786,Berlin,Germany,TRUE
+WC-1974,WC-1974_018,18,1974-06-22,Group Stage,played,DR Congo,Brazil,,BRA,,BRA,,CONMEBOL,1655,1984,Gelsenkirchen,Germany,TRUE
+WC-1974,WC-1974_019,19,1974-06-22,Group Stage,played,Germany,German DR,GER,DDR,DEU,DDR,UEFA,UEFA,1923,1786,Hamburg,Germany,FALSE
+WC-1974,WC-1974_020,20,1974-06-22,Group Stage,played,Scotland,Yugoslavia,SCO,YUG,SCO,YUG,UEFA,UEFA,1883,1984,Frankfurt am Main,Germany,TRUE
+WC-1974,WC-1974_021,21,1974-06-23,Group Stage,played,Argentina,Haiti,ARG,HTI,ARG,HTI,CONMEBOL,CONCACAF,1882,1588,Munich,Germany,TRUE
+WC-1974,WC-1974_022,22,1974-06-23,Group Stage,played,Bulgaria,Netherlands,BGR,NED,BGR,NLD,UEFA,UEFA,1819,1877,Dortmund,Germany,TRUE
+WC-1974,WC-1974_023,23,1974-06-23,Group Stage,played,Poland,Italy,POL,ITA,POL,ITA,UEFA,UEFA,1997,1999,Stuttgart,Germany,TRUE
+WC-1974,WC-1974_024,24,1974-06-23,Group Stage,played,Sweden,Uruguay,SWE,URY,SWE,URY,UEFA,CONMEBOL,1882,1733,Düsseldorf,Germany,TRUE
+WC-1974,WC-1974_025,25,1974-06-26,Quarter-final,played,Brazil,German DR,BRA,DDR,BRA,DDR,CONMEBOL,UEFA,2096,1991,Hanover,Germany,TRUE
+WC-1974,WC-1974_026,26,1974-06-26,Quarter-final,played,Germany,Yugoslavia,GER,YUG,DEU,YUG,UEFA,UEFA,1923,1813,Düsseldorf,Germany,FALSE
+WC-1974,WC-1974_027,27,1974-06-26,Quarter-final,played,Netherlands,Argentina,NED,ARG,NLD,ARG,UEFA,CONMEBOL,1921,1898,Gelsenkirchen,Germany,TRUE
+WC-1974,WC-1974_028,28,1974-06-26,Quarter-final,played,Sweden,Poland,SWE,POL,SWE,POL,UEFA,UEFA,1913,2027,Stuttgart,Germany,TRUE
+WC-1974,WC-1974_029,29,1974-06-30,Quarter-final,played,Argentina,Brazil,ARG,BRA,ARG,BRA,CONMEBOL,CONMEBOL,1845,2117,Hanover,Germany,TRUE
+WC-1974,WC-1974_030,30,1974-06-30,Quarter-final,played,German DR,Netherlands,DDR,NED,DDR,NLD,UEFA,UEFA,1970,1974,Gelsenkirchen,Germany,TRUE
+WC-1974,WC-1974_031,31,1974-06-30,Quarter-final,played,Germany,Sweden,GER,SWE,DEU,SWE,UEFA,UEFA,1923,1719,Düsseldorf,Germany,FALSE
+WC-1974,WC-1974_032,32,1974-06-30,Quarter-final,played,Poland,Yugoslavia,POL,YUG,POL,YUG,UEFA,UEFA,2047,1954,Frankfurt am Main,Germany,TRUE
+WC-1974,WC-1974_033,33,1974-07-03,Quarter-final,played,Argentina,German DR,ARG,DDR,ARG,DDR,CONMEBOL,UEFA,1835,1926,Gelsenkirchen,Germany,TRUE
+WC-1974,WC-1974_034,34,1974-07-03,Quarter-final,played,Germany,Poland,GER,POL,DEU,POL,UEFA,UEFA,1923,1729,Frankfurt am Main,Germany,FALSE
+WC-1974,WC-1974_035,35,1974-07-03,Quarter-final,played,Netherlands,Brazil,NED,BRA,NLD,BRA,UEFA,CONMEBOL,2018,2127,Dortmund,Germany,TRUE
+WC-1974,WC-1974_036,36,1974-07-03,Quarter-final,played,Sweden,Yugoslavia,SWE,YUG,SWE,YUG,UEFA,UEFA,1879,1932,Düsseldorf,Germany,TRUE
+WC-1974,WC-1974_037,37,1974-07-06,Third Place,played,Brazil,Poland,BRA,POL,BRA,POL,CONMEBOL,UEFA,2068,2050,Munich,Germany,TRUE
+WC-1974,WC-1974_038,38,1974-07-07,Final,played,Germany,Netherlands,GER,NED,DEU,NLD,UEFA,UEFA,1923,1961,Munich,Germany,FALSE

@@ -1,17 +1,17 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2002 FIFA Men's World Cup,WC-2002,2002,11,2002-06-03,Group Stage,played,Ecuador,ECU,Italy,ITA,FALSE,Sapporo,Japan,TRUE,1728,2008
-2002 FIFA Men's World Cup,WC-2002,2002,29,2002-06-09,Group Stage,played,Ecuador,ECU,Mexico,MEX,FALSE,Rifu,Japan,TRUE,1713,1866
-2002 FIFA Men's World Cup,WC-2002,2002,42,2002-06-13,Group Stage,played,Ecuador,ECU,Croatia,HRV,TRUE,Yokohama,Japan,TRUE,1695,1891
-2006 FIFA Men's World Cup,WC-2006,2006,2,2006-06-09,Group Stage,played,Ecuador,ECU,Poland,POL,FALSE,Gelsenkirchen,Germany,TRUE,1700,1821
-2006 FIFA Men's World Cup,WC-2006,2006,18,2006-06-15,Group Stage,played,Ecuador,ECU,Costa Rica,CRI,TRUE,Hamburg,Germany,TRUE,1760,1708
-2006 FIFA Men's World Cup,WC-2006,2006,34,2006-06-20,Group Stage,played,Ecuador,ECU,Germany,DEU,FALSE,Berlin,Germany,FALSE,1805,1923
-2006 FIFA Men's World Cup,WC-2006,2006,51,2006-06-25,Round of 16,played,Ecuador,ECU,England,ENG,FALSE,Stuttgart,Germany,TRUE,1782,1985
-2014 FIFA Men's World Cup,WC-2014,2014,11,2014-06-15,Group Stage,played,Ecuador,ECU,Switzerland,CHE,FALSE,Brasília,Brazil,TRUE,1836,1854
-2014 FIFA Men's World Cup,WC-2014,2014,24,2014-06-20,Group Stage,played,Ecuador,ECU,Honduras,HND,FALSE,Curitiba,Brazil,TRUE,1808,1647
-2014 FIFA Men's World Cup,WC-2014,2014,42,2014-06-25,Group Stage,played,Ecuador,ECU,France,FRA,TRUE,Rio de Janeiro,Brazil,TRUE,1825,1966
-2022 FIFA Men's World Cup,WC-2022,2022,1,2022-11-20,Group Stage,played,Ecuador,ECU,Qatar,QAT,FALSE,Al Khor,Qatar,FALSE,1833,1680
-2022 FIFA Men's World Cup,WC-2022,2022,18,2022-11-25,Group Stage,played,Ecuador,ECU,Netherlands,NLD,FALSE,Al Rayyan,Qatar,TRUE,1871,2050
-2022 FIFA Men's World Cup,WC-2022,2022,33,2022-11-29,Group Stage,played,Ecuador,ECU,Senegal,SEN,TRUE,Al Rayyan,Qatar,TRUE,1885,1728
-2026 FIFA Men's World Cup,WC-2026,2026,10,2026-06-14,Group Stage,scheduled,Ecuador,ECU,Ivory Coast,CIV,FALSE,Philadelphia,United States,TRUE,1933,1676
-2026 FIFA Men's World Cup,WC-2026,2026,34,2026-06-20,Group Stage,scheduled,Ecuador,ECU,Curaçao,,TRUE,Kansas City,United States,TRUE,1933,1436
-2026 FIFA Men's World Cup,WC-2026,2026,58,2026-06-25,Group Stage,scheduled,Ecuador,ECU,Germany,DEU,TRUE,East Rutherford,United States,TRUE,1933,1923
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_011,11,2002-06-03,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Italy,ITA,ITA,UEFA,FALSE,Sapporo,Japan,TRUE,1728,2008
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_029,29,2002-06-09,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,Rifu,Japan,TRUE,1713,1866
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_042,42,2002-06-13,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Croatia,HRV,HRV,UEFA,TRUE,Yokohama,Japan,TRUE,1695,1891
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_002,2,2006-06-09,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Poland,POL,POL,UEFA,FALSE,Gelsenkirchen,Germany,TRUE,1700,1821
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_018,18,2006-06-15,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,Hamburg,Germany,TRUE,1760,1708
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_034,34,2006-06-20,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,Berlin,Germany,FALSE,1805,1923
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_051,51,2006-06-25,Round of 16,played,Ecuador,ECU,ECU,CONMEBOL,England,ENG,ENG,UEFA,FALSE,Stuttgart,Germany,TRUE,1782,1985
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_011,11,2014-06-15,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Switzerland,CHE,CHE,UEFA,FALSE,Brasília,Brazil,TRUE,1836,1854
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_024,24,2014-06-20,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,Curitiba,Brazil,TRUE,1808,1647
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_042,42,2014-06-25,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,France,FRA,FRA,UEFA,TRUE,Rio de Janeiro,Brazil,TRUE,1825,1966
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_001,1,2022-11-20,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Qatar,QAT,QAT,AFC,FALSE,Al Khor,Qatar,FALSE,1833,1680
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_018,18,2022-11-25,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Netherlands,NED,NLD,UEFA,FALSE,Al Rayyan,Qatar,TRUE,1871,2050
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_033,33,2022-11-29,Group Stage,played,Ecuador,ECU,ECU,CONMEBOL,Senegal,SEN,SEN,CAF,TRUE,Al Rayyan,Qatar,TRUE,1885,1728
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_010,10,2026-06-14,Group Stage,scheduled,Ecuador,ECU,ECU,CONMEBOL,Ivory Coast,CIV,CIV,CAF,FALSE,Philadelphia,United States,TRUE,1933,1676
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_034,34,2026-06-20,Group Stage,scheduled,Ecuador,ECU,ECU,CONMEBOL,Curaçao,,,,TRUE,Kansas City,United States,TRUE,1933,1436
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_058,58,2026-06-25,Group Stage,scheduled,Ecuador,ECU,ECU,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,East Rutherford,United States,TRUE,1933,1923

@@ -1,4 +1,4 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1998 FIFA Men's World Cup,WC-1998,1998,12,1998-06-14,Group Stage,played,Jamaica,JAM,Croatia,HRV,TRUE,Lens,France,TRUE,1645,1874
-1998 FIFA Men's World Cup,WC-1998,1998,28,1998-06-21,Group Stage,played,Jamaica,JAM,Argentina,ARG,FALSE,Paris,France,TRUE,1626,1911
-1998 FIFA Men's World Cup,WC-1998,1998,47,1998-06-26,Group Stage,played,Jamaica,JAM,Japan,JPN,FALSE,Lyon,France,TRUE,1607,1708
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_012,12,1998-06-14,Group Stage,played,Jamaica,JAM,JAM,CONCACAF,Croatia,HRV,HRV,UEFA,TRUE,Lens,France,TRUE,1645,1874
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_028,28,1998-06-21,Group Stage,played,Jamaica,JAM,JAM,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,Paris,France,TRUE,1626,1911
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_047,47,1998-06-26,Group Stage,played,Jamaica,JAM,JAM,CONCACAF,Japan,JPN,JPN,AFC,FALSE,Lyon,France,TRUE,1607,1708

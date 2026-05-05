@@ -713,7 +713,7 @@ def load_historical_world_cup_results(exclude_editions: Iterable[int] = ()) -> p
         df = pd.read_csv(path)
         if df.empty:
             continue
-        parsed = df.copy()
+        parsed = normalize_match_level_results(df)
         parsed["edition"] = year
         parsed["date"] = pd.to_datetime(parsed["date"], errors="coerce")
         for column_name in ("home_score", "away_score", "home_elo_start", "away_elo_start"):
@@ -725,6 +725,35 @@ def load_historical_world_cup_results(exclude_editions: Iterable[int] = ()) -> p
     if not rows:
         return pd.DataFrame()
     return pd.concat(rows, ignore_index=True)
+
+
+def normalize_match_level_results(results_df: pd.DataFrame) -> pd.DataFrame:
+    """Return one row per match from either legacy or team-perspective results."""
+    if "home_team" in results_df.columns and "away_team" in results_df.columns:
+        return results_df.copy()
+    required = {"is_home", "team", "opponent", "team_score", "opponent_score"}
+    if not required.issubset(results_df.columns):
+        return results_df.copy()
+
+    is_home = results_df["is_home"].astype(str).str.upper().eq("TRUE")
+    home_rows = results_df.loc[is_home].copy()
+    rename_map = {
+        "team": "home_team",
+        "opponent": "away_team",
+        "team_id": "home_team_code",
+        "opponent_id": "away_team_code",
+        "team_score": "home_score",
+        "opponent_score": "away_score",
+        "team_elo_start": "home_elo_start",
+        "opponent_elo_start": "away_elo_start",
+        "team_elo_end": "home_elo_end",
+        "opponent_elo_end": "away_elo_end",
+        "team_elo_delta": "home_elo_delta",
+    }
+    parsed = home_rows.rename(columns={old: new for old, new in rename_map.items() if old in home_rows.columns})
+    if "away_elo_delta" not in parsed.columns and "home_elo_delta" in parsed.columns:
+        parsed["away_elo_delta"] = -pd.to_numeric(parsed["home_elo_delta"], errors="coerce")
+    return parsed.reset_index(drop=True)
 
 
 def load_historical_placement_history() -> tuple[pd.DataFrame, dict[int, int], dict[int, int]]:
@@ -1009,7 +1038,7 @@ def build_2022_backtest_data() -> dict[str, object]:
     if not results_path.exists() or not placement_path.exists():
         raise ValueError("2022 World Cup files are unavailable for backtesting")
 
-    results_df = pd.read_csv(results_path).copy()
+    results_df = normalize_match_level_results(pd.read_csv(results_path))
     placement_df = pd.read_csv(placement_path).copy()
     results_df["match_number"] = pd.to_numeric(results_df["match_number"], errors="coerce").astype(int)
     results_df["date"] = pd.to_datetime(results_df["date"], errors="coerce")

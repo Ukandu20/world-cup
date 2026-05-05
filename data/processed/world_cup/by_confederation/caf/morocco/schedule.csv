@@ -1,27 +1,27 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1970 FIFA Men's World Cup,WC-1970,1970,7,1970-06-03,Group Stage,played,Morocco,MAR,Germany,DEU,FALSE,León,Mexico,TRUE,1821,1923
-1970 FIFA Men's World Cup,WC-1970,1970,12,1970-06-06,Group Stage,played,Morocco,MAR,Peru,PER,TRUE,León,Mexico,TRUE,1662,1733
-1970 FIFA Men's World Cup,WC-1970,1970,21,1970-06-11,Group Stage,played,Morocco,MAR,Bulgaria,BGR,FALSE,León,Mexico,TRUE,1620,1759
-1986 FIFA Men's World Cup,WC-1986,1986,5,1986-06-02,Group Stage,played,Morocco,MAR,Poland,POL,TRUE,Monterrey,Mexico,TRUE,1642,1805
-1986 FIFA Men's World Cup,WC-1986,1986,17,1986-06-06,Group Stage,played,Morocco,MAR,England,ENG,FALSE,Monterrey,Mexico,TRUE,1655,1946
-1986 FIFA Men's World Cup,WC-1986,1986,32,1986-06-11,Group Stage,played,Morocco,MAR,Portugal,PRT,FALSE,Guadalajara,Mexico,TRUE,1676,1816
-1986 FIFA Men's World Cup,WC-1986,1986,42,1986-06-17,Round of 16,played,Morocco,MAR,Germany,DEU,TRUE,Monterrey,Mexico,TRUE,1821,1923
-1994 FIFA Men's World Cup,WC-1994,1994,6,1994-06-19,Group Stage,played,Morocco,MAR,Belgium,BEL,FALSE,Orlando,United States,TRUE,1666,1824
-1994 FIFA Men's World Cup,WC-1994,1994,23,1994-06-25,Group Stage,played,Morocco,MAR,Saudi Arabia,SAU,FALSE,East Rutherford,United States,TRUE,1649,1630
-1994 FIFA Men's World Cup,WC-1994,1994,34,1994-06-29,Group Stage,played,Morocco,MAR,Netherlands,NLD,TRUE,Orlando,United States,TRUE,1617,1955
-1998 FIFA Men's World Cup,WC-1998,1998,2,1998-06-10,Group Stage,played,Morocco,MAR,Norway,NOR,TRUE,Montpellier,France,TRUE,1727,1903
-1998 FIFA Men's World Cup,WC-1998,1998,17,1998-06-16,Group Stage,played,Morocco,MAR,Brazil,BRA,FALSE,Nantes,France,TRUE,1741,2100
-1998 FIFA Men's World Cup,WC-1998,1998,36,1998-06-23,Group Stage,played,Morocco,MAR,Scotland,SCO,FALSE,Saint-Étienne,France,TRUE,1729,1778
-2018 FIFA Men's World Cup,WC-2018,2018,3,2018-06-15,Group Stage,played,Morocco,MAR,Iran,IRN,TRUE,Saint Petersburg,Russia,TRUE,1731,1790
-2018 FIFA Men's World Cup,WC-2018,2018,18,2018-06-20,Group Stage,played,Morocco,MAR,Portugal,PRT,FALSE,Moscow,Russia,TRUE,1706,1973
-2018 FIFA Men's World Cup,WC-2018,2018,35,2018-06-25,Group Stage,played,Morocco,MAR,Spain,ESP,FALSE,Kaliningrad,Russia,TRUE,1695,2050
-2022 FIFA Men's World Cup,WC-2022,2022,11,2022-11-23,Group Stage,played,Morocco,MAR,Croatia,HRV,TRUE,Al Khor,Qatar,TRUE,1764,1926
-2022 FIFA Men's World Cup,WC-2022,2022,27,2022-11-27,Group Stage,played,Morocco,MAR,Belgium,BEL,FALSE,Doha,Qatar,TRUE,1777,2019
-2022 FIFA Men's World Cup,WC-2022,2022,44,2022-12-01,Group Stage,played,Morocco,MAR,Canada,CAN,FALSE,Doha,Qatar,TRUE,1849,1731
-2022 FIFA Men's World Cup,WC-2022,2022,55,2022-12-06,Round of 16,played,Morocco,MAR,Spain,ESP,TRUE,Al Rayyan,Qatar,TRUE,1869,2007
-2022 FIFA Men's World Cup,WC-2022,2022,59,2022-12-10,Quarter-final,played,Morocco,MAR,Portugal,PRT,TRUE,Doha,Qatar,TRUE,1880,2041
-2022 FIFA Men's World Cup,WC-2022,2022,62,2022-12-14,Semi-final,played,Morocco,MAR,France,FRA,FALSE,Al Khor,Qatar,TRUE,1923,2046
-2022 FIFA Men's World Cup,WC-2022,2022,63,2022-12-17,Third Place,played,Morocco,MAR,Croatia,HRV,FALSE,Al Rayyan,Qatar,TRUE,1893,1923
-2026 FIFA Men's World Cup,WC-2026,2026,6,2026-06-13,Group Stage,scheduled,Morocco,MAR,Brazil,BRA,FALSE,East Rutherford,United States,TRUE,1821,1984
-2026 FIFA Men's World Cup,WC-2026,2026,29,2026-06-19,Group Stage,scheduled,Morocco,MAR,Scotland,SCO,FALSE,Foxborough,United States,TRUE,1821,1767
-2026 FIFA Men's World Cup,WC-2026,2026,54,2026-06-24,Group Stage,scheduled,Morocco,MAR,Haiti,HTI,TRUE,Atlanta,United States,TRUE,1821,1532
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_007,7,1970-06-03,Group Stage,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,FALSE,León,Mexico,TRUE,1821,1923
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_012,12,1970-06-06,Group Stage,played,Morocco,MAR,MAR,CAF,Peru,PER,PER,CONMEBOL,TRUE,León,Mexico,TRUE,1662,1733
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_021,21,1970-06-11,Group Stage,played,Morocco,MAR,MAR,CAF,Bulgaria,BGR,BGR,UEFA,FALSE,León,Mexico,TRUE,1620,1759
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_005,5,1986-06-02,Group Stage,played,Morocco,MAR,MAR,CAF,Poland,POL,POL,UEFA,TRUE,Monterrey,Mexico,TRUE,1642,1805
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_017,17,1986-06-06,Group Stage,played,Morocco,MAR,MAR,CAF,England,ENG,ENG,UEFA,FALSE,Monterrey,Mexico,TRUE,1655,1946
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_032,32,1986-06-11,Group Stage,played,Morocco,MAR,MAR,CAF,Portugal,PRT,PRT,UEFA,FALSE,Guadalajara,Mexico,TRUE,1676,1816
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_042,42,1986-06-17,Round of 16,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,TRUE,Monterrey,Mexico,TRUE,1821,1923
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_006,6,1994-06-19,Group Stage,played,Morocco,MAR,MAR,CAF,Belgium,BEL,BEL,UEFA,FALSE,Orlando,United States,TRUE,1666,1824
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_023,23,1994-06-25,Group Stage,played,Morocco,MAR,MAR,CAF,Saudi Arabia,KSA,SAU,AFC,FALSE,East Rutherford,United States,TRUE,1649,1630
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_034,34,1994-06-29,Group Stage,played,Morocco,MAR,MAR,CAF,Netherlands,NED,NLD,UEFA,TRUE,Orlando,United States,TRUE,1617,1955
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_002,2,1998-06-10,Group Stage,played,Morocco,MAR,MAR,CAF,Norway,NOR,NOR,UEFA,TRUE,Montpellier,France,TRUE,1727,1903
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_017,17,1998-06-16,Group Stage,played,Morocco,MAR,MAR,CAF,Brazil,BRA,BRA,CONMEBOL,FALSE,Nantes,France,TRUE,1741,2100
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_036,36,1998-06-23,Group Stage,played,Morocco,MAR,MAR,CAF,Scotland,SCO,SCO,UEFA,FALSE,Saint-Étienne,France,TRUE,1729,1778
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_003,3,2018-06-15,Group Stage,played,Morocco,MAR,MAR,CAF,Iran,IRN,IRN,AFC,TRUE,Saint Petersburg,Russia,TRUE,1731,1790
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_018,18,2018-06-20,Group Stage,played,Morocco,MAR,MAR,CAF,Portugal,PRT,PRT,UEFA,FALSE,Moscow,Russia,TRUE,1706,1973
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_035,35,2018-06-25,Group Stage,played,Morocco,MAR,MAR,CAF,Spain,ESP,ESP,UEFA,FALSE,Kaliningrad,Russia,TRUE,1695,2050
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_011,11,2022-11-23,Group Stage,played,Morocco,MAR,MAR,CAF,Croatia,HRV,HRV,UEFA,TRUE,Al Khor,Qatar,TRUE,1764,1926
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_027,27,2022-11-27,Group Stage,played,Morocco,MAR,MAR,CAF,Belgium,BEL,BEL,UEFA,FALSE,Doha,Qatar,TRUE,1777,2019
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_044,44,2022-12-01,Group Stage,played,Morocco,MAR,MAR,CAF,Canada,CAN,CAN,CONCACAF,FALSE,Doha,Qatar,TRUE,1849,1731
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_055,55,2022-12-06,Round of 16,played,Morocco,MAR,MAR,CAF,Spain,ESP,ESP,UEFA,TRUE,Al Rayyan,Qatar,TRUE,1869,2007
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_059,59,2022-12-10,Quarter-final,played,Morocco,MAR,MAR,CAF,Portugal,PRT,PRT,UEFA,TRUE,Doha,Qatar,TRUE,1880,2041
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_062,62,2022-12-14,Semi-final,played,Morocco,MAR,MAR,CAF,France,FRA,FRA,UEFA,FALSE,Al Khor,Qatar,TRUE,1923,2046
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_063,63,2022-12-17,Third Place,played,Morocco,MAR,MAR,CAF,Croatia,HRV,HRV,UEFA,FALSE,Al Rayyan,Qatar,TRUE,1893,1923
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_006,6,2026-06-13,Group Stage,scheduled,Morocco,MAR,MAR,CAF,Brazil,BRA,BRA,CONMEBOL,FALSE,East Rutherford,United States,TRUE,1821,1984
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_029,29,2026-06-19,Group Stage,scheduled,Morocco,MAR,MAR,CAF,Scotland,SCO,SCO,UEFA,FALSE,Foxborough,United States,TRUE,1821,1767
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_054,54,2026-06-24,Group Stage,scheduled,Morocco,MAR,MAR,CAF,Haiti,HTI,HTI,CONCACAF,TRUE,Atlanta,United States,TRUE,1821,1532

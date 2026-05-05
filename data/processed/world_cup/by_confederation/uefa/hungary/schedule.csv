@@ -1,33 +1,33 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1934 FIFA Men's World Cup,WC-1934,1934,6,1934-05-27,Round of 16,played,Hungary,HUN,Egypt,EGY,FALSE,Naples,Italy,TRUE,1829,1707
-1934 FIFA Men's World Cup,WC-1934,1934,9,1934-05-31,Quarter-final,played,Hungary,HUN,Austria,AUT,FALSE,Bologna,Italy,TRUE,1859,2055
-1938 FIFA Men's World Cup,WC-1938,1938,6,1938-06-05,Round of 16,played,Hungary,HUN,Indonesia,IDN,TRUE,Reims,France,TRUE,1929,1468
-1938 FIFA Men's World Cup,WC-1938,1938,13,1938-06-12,Quarter-final,played,Hungary,HUN,Switzerland,CHE,TRUE,Lille,France,TRUE,1937,1745
-1938 FIFA Men's World Cup,WC-1938,1938,16,1938-06-16,Semi-final,played,Hungary,HUN,Sweden,SWE,TRUE,Paris,France,TRUE,1959,1703
-1938 FIFA Men's World Cup,WC-1938,1938,18,1938-06-19,Final,played,Hungary,HUN,Italy,ITA,TRUE,Colombes,France,TRUE,1980,2092
-1954 FIFA Men's World Cup,WC-1954,1954,7,1954-06-17,Group Stage,played,Hungary,HUN,South Korea,KOR,TRUE,Zürich,Switzerland,TRUE,2146,1679
-1954 FIFA Men's World Cup,WC-1954,1954,14,1954-06-20,Group Stage,played,Hungary,HUN,Germany,DEU,FALSE,Basel,Switzerland,TRUE,1703,1923
-1954 FIFA Men's World Cup,WC-1954,1954,21,1954-06-27,Quarter-final,played,Hungary,HUN,Brazil,BRA,FALSE,Bern,Switzerland,TRUE,2185,2038
-1954 FIFA Men's World Cup,WC-1954,1954,24,1954-06-30,Semi-final,played,Hungary,HUN,Uruguay,URY,TRUE,Lausanne,Switzerland,TRUE,2212,2019
-1954 FIFA Men's World Cup,WC-1954,1954,26,1954-07-04,Final,played,Hungary,HUN,Germany,DEU,FALSE,Bern,Switzerland,TRUE,1703,1923
-1958 FIFA Men's World Cup,WC-1958,1958,6,1958-06-08,Group Stage,played,Hungary,HUN,Wales,WAL,TRUE,Sandviken,Sweden,TRUE,2081,1718
-1958 FIFA Men's World Cup,WC-1958,1958,16,1958-06-12,Group Stage,played,Hungary,HUN,Sweden,SWE,FALSE,Solna,Sweden,FALSE,2058,1837
-1958 FIFA Men's World Cup,WC-1958,1958,22,1958-06-15,Group Stage,played,Hungary,HUN,Mexico,MEX,TRUE,Sandviken,Sweden,TRUE,2018,1742
-1958 FIFA Men's World Cup,WC-1958,1958,27,1958-06-17,Group Stage,played,Hungary,HUN,Wales,WAL,TRUE,Solna,Sweden,TRUE,2037,1759
-1962 FIFA Men's World Cup,WC-1962,1962,6,1962-05-31,Group Stage,played,Hungary,HUN,England,ENG,FALSE,Rancagua,Chile,TRUE,1940,1923
-1962 FIFA Men's World Cup,WC-1962,1962,13,1962-06-03,Group Stage,played,Hungary,HUN,Bulgaria,BGR,FALSE,Rancagua,Chile,TRUE,1969,1761
-1962 FIFA Men's World Cup,WC-1962,1962,17,1962-06-06,Group Stage,played,Hungary,HUN,Argentina,ARG,FALSE,Rancagua,Chile,TRUE,1997,1936
-1962 FIFA Men's World Cup,WC-1962,1962,27,1962-06-10,Quarter-final,played,Hungary,HUN,Czechoslovakia,CSK,FALSE,Rancagua,Chile,TRUE,1992,1943
-1966 FIFA Men's World Cup,WC-1966,1966,8,1966-07-13,Group Stage,played,Hungary,HUN,Portugal,PRT,TRUE,Manchester,England,TRUE,1954,1833
-1966 FIFA Men's World Cup,WC-1966,1966,9,1966-07-15,Group Stage,played,Hungary,HUN,Brazil,BRA,FALSE,Liverpool,England,TRUE,1894,2031
-1966 FIFA Men's World Cup,WC-1966,1966,21,1966-07-20,Group Stage,played,Hungary,HUN,Bulgaria,BGR,FALSE,Manchester,England,TRUE,1956,1747
-1966 FIFA Men's World Cup,WC-1966,1966,27,1966-07-23,Quarter-final,played,Hungary,HUN,Soviet Union,SUN,TRUE,Sunderland,England,TRUE,1977,2062
-1978 FIFA Men's World Cup,WC-1978,1978,2,1978-06-02,Group Stage,played,Hungary,HUN,Argentina,ARG,FALSE,Buenos Aires,Argentina,FALSE,1907,1927
-1978 FIFA Men's World Cup,WC-1978,1978,11,1978-06-06,Group Stage,played,Hungary,HUN,Italy,ITA,TRUE,Mar del Plata,Argentina,TRUE,1887,1963
-1978 FIFA Men's World Cup,WC-1978,1978,18,1978-06-10,Group Stage,played,Hungary,HUN,France,FRA,FALSE,Mar del Plata,Argentina,TRUE,1852,1849
-1982 FIFA Men's World Cup,WC-1982,1982,4,1982-06-15,Group Stage,played,Hungary,HUN,El Salvador,SLV,TRUE,Elche,Spain,TRUE,1797,1608
-1982 FIFA Men's World Cup,WC-1982,1982,13,1982-06-18,Group Stage,played,Hungary,HUN,Argentina,ARG,FALSE,Alicante,Spain,TRUE,1835,1967
-1982 FIFA Men's World Cup,WC-1982,1982,25,1982-06-22,Group Stage,played,Hungary,HUN,Belgium,BEL,FALSE,Elche,Spain,TRUE,1802,1960
-1986 FIFA Men's World Cup,WC-1986,1986,6,1986-06-02,Group Stage,played,Hungary,HUN,Soviet Union,SUN,FALSE,Irapuato,Mexico,TRUE,1891,1940
-1986 FIFA Men's World Cup,WC-1986,1986,18,1986-06-06,Group Stage,played,Hungary,HUN,Canada,CAN,TRUE,Irapuato,Mexico,TRUE,1836,1641
-1986 FIFA Men's World Cup,WC-1986,1986,25,1986-06-09,Group Stage,played,Hungary,HUN,France,FRA,TRUE,León,Mexico,TRUE,1858,2001
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1934 FIFA Men's World Cup,WC-1934,1934,WC-1934_006,6,1934-05-27,Round of 16,played,Hungary,HUN,HUN,UEFA,Egypt,EGY,EGY,CAF,FALSE,Naples,Italy,TRUE,1829,1707
+1934 FIFA Men's World Cup,WC-1934,1934,WC-1934_009,9,1934-05-31,Quarter-final,played,Hungary,HUN,HUN,UEFA,Austria,AUT,AUT,UEFA,FALSE,Bologna,Italy,TRUE,1859,2055
+1938 FIFA Men's World Cup,WC-1938,1938,WC-1938_006,6,1938-06-05,Round of 16,played,Hungary,HUN,HUN,UEFA,Indonesia,IDN,IDN,AFC,TRUE,Reims,France,TRUE,1929,1468
+1938 FIFA Men's World Cup,WC-1938,1938,WC-1938_013,13,1938-06-12,Quarter-final,played,Hungary,HUN,HUN,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,Lille,France,TRUE,1937,1745
+1938 FIFA Men's World Cup,WC-1938,1938,WC-1938_016,16,1938-06-16,Semi-final,played,Hungary,HUN,HUN,UEFA,Sweden,SWE,SWE,UEFA,TRUE,Paris,France,TRUE,1959,1703
+1938 FIFA Men's World Cup,WC-1938,1938,WC-1938_018,18,1938-06-19,Final,played,Hungary,HUN,HUN,UEFA,Italy,ITA,ITA,UEFA,TRUE,Colombes,France,TRUE,1980,2092
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_007,7,1954-06-17,Group Stage,played,Hungary,HUN,HUN,UEFA,South Korea,KOR,KOR,AFC,TRUE,Zürich,Switzerland,TRUE,2146,1679
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_014,14,1954-06-20,Group Stage,played,Hungary,HUN,HUN,UEFA,Germany,GER,DEU,UEFA,FALSE,Basel,Switzerland,TRUE,1703,1923
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_021,21,1954-06-27,Quarter-final,played,Hungary,HUN,HUN,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Bern,Switzerland,TRUE,2185,2038
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_024,24,1954-06-30,Semi-final,played,Hungary,HUN,HUN,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,Lausanne,Switzerland,TRUE,2212,2019
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_026,26,1954-07-04,Final,played,Hungary,HUN,HUN,UEFA,Germany,GER,DEU,UEFA,FALSE,Bern,Switzerland,TRUE,1703,1923
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_006,6,1958-06-08,Group Stage,played,Hungary,HUN,HUN,UEFA,Wales,WAL,WAL,UEFA,TRUE,Sandviken,Sweden,TRUE,2081,1718
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_016,16,1958-06-12,Group Stage,played,Hungary,HUN,HUN,UEFA,Sweden,SWE,SWE,UEFA,FALSE,Solna,Sweden,FALSE,2058,1837
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_022,22,1958-06-15,Group Stage,played,Hungary,HUN,HUN,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,Sandviken,Sweden,TRUE,2018,1742
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_027,27,1958-06-17,Group Stage,played,Hungary,HUN,HUN,UEFA,Wales,WAL,WAL,UEFA,TRUE,Solna,Sweden,TRUE,2037,1759
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_006,6,1962-05-31,Group Stage,played,Hungary,HUN,HUN,UEFA,England,ENG,ENG,UEFA,FALSE,Rancagua,Chile,TRUE,1940,1923
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_013,13,1962-06-03,Group Stage,played,Hungary,HUN,HUN,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,Rancagua,Chile,TRUE,1969,1761
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_017,17,1962-06-06,Group Stage,played,Hungary,HUN,HUN,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Rancagua,Chile,TRUE,1997,1936
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_027,27,1962-06-10,Quarter-final,played,Hungary,HUN,HUN,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,Rancagua,Chile,TRUE,1992,1943
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_008,8,1966-07-13,Group Stage,played,Hungary,HUN,HUN,UEFA,Portugal,PRT,PRT,UEFA,TRUE,Manchester,England,TRUE,1954,1833
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_009,9,1966-07-15,Group Stage,played,Hungary,HUN,HUN,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Liverpool,England,TRUE,1894,2031
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_021,21,1966-07-20,Group Stage,played,Hungary,HUN,HUN,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,Manchester,England,TRUE,1956,1747
+1966 FIFA Men's World Cup,WC-1966,1966,WC-1966_027,27,1966-07-23,Quarter-final,played,Hungary,HUN,HUN,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,Sunderland,England,TRUE,1977,2062
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_002,2,1978-06-02,Group Stage,played,Hungary,HUN,HUN,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Buenos Aires,Argentina,FALSE,1907,1927
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_011,11,1978-06-06,Group Stage,played,Hungary,HUN,HUN,UEFA,Italy,ITA,ITA,UEFA,TRUE,Mar del Plata,Argentina,TRUE,1887,1963
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_018,18,1978-06-10,Group Stage,played,Hungary,HUN,HUN,UEFA,France,FRA,FRA,UEFA,FALSE,Mar del Plata,Argentina,TRUE,1852,1849
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_004,4,1982-06-15,Group Stage,played,Hungary,HUN,HUN,UEFA,El Salvador,SLV,SLV,CONCACAF,TRUE,Elche,Spain,TRUE,1797,1608
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_013,13,1982-06-18,Group Stage,played,Hungary,HUN,HUN,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Alicante,Spain,TRUE,1835,1967
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_025,25,1982-06-22,Group Stage,played,Hungary,HUN,HUN,UEFA,Belgium,BEL,BEL,UEFA,FALSE,Elche,Spain,TRUE,1802,1960
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_006,6,1986-06-02,Group Stage,played,Hungary,HUN,HUN,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,Irapuato,Mexico,TRUE,1891,1940
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_018,18,1986-06-06,Group Stage,played,Hungary,HUN,HUN,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,Irapuato,Mexico,TRUE,1836,1641
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_025,25,1986-06-09,Group Stage,played,Hungary,HUN,HUN,UEFA,France,FRA,FRA,UEFA,TRUE,León,Mexico,TRUE,1858,2001

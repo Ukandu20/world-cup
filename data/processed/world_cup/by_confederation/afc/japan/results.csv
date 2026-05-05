@@ -1,790 +1,790 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1917-05-07,Friendly,played,Japan,JPN,Philippines,,TRUE,2,15,loss,Tokyo,Japan,FALSE,,,,,
-1917-05-09,Far Eastern Championship Games,played,Japan,JPN,China PR,,TRUE,0,5,loss,Tokyo,Japan,FALSE,,,,,
-1917-05-10,Far Eastern Championship Games,played,Japan,JPN,Philippines,,TRUE,2,15,loss,Tokyo,Japan,FALSE,1275,1259,1196,1338,-79
-1921-05-30,Friendly,played,Japan,JPN,Philippines,,TRUE,0,3,loss,Shanghai,China PR,TRUE,,,,,
-1921-05-30,Far Eastern Championship Games,played,Japan,JPN,Philippines,,FALSE,1,3,loss,Shanghai,China PR,TRUE,1196,1323,1177,1342,-19
-1921-06-01,Far Eastern Championship Games,played,Japan,JPN,China PR,,FALSE,0,4,loss,Shanghai,China PR,FALSE,,,,,
-1921-06-03,Open International Championship,played,Japan,JPN,China PR,,FALSE,0,3,loss,Shanghai,China PR,FALSE,,,,,
-1923-05-23,Far Eastern Championship Games,played,Japan,JPN,Philippines,,TRUE,1,2,loss,Osaka,Japan,FALSE,1170,1324,1153,1341,-17
-1923-05-24,Far Eastern Championship Games,played,Japan,JPN,China PR,,TRUE,1,5,loss,Osaka,Japan,FALSE,,,,,
-1925-05-18,Far Eastern Championship Games,played,Japan,JPN,Philippines,,FALSE,0,4,loss,Manila,Philippines,FALSE,,,,,
-1925-05-20,Friendly,played,Japan,JPN,China PR,,FALSE,0,2,loss,Manila,Philippines,TRUE,,,,,
-1925-05-20,Far Eastern Championship Games,played,Japan,JPN,China PR,,TRUE,0,2,loss,Manila,Philippines,TRUE,,,,,
-1927-08-27,Far Eastern Championship Games,played,Japan,JPN,China PR,,FALSE,1,5,loss,Shanghai,China PR,FALSE,,,,,
-1927-08-29,Far Eastern Championship Games,played,Japan,JPN,Philippines,,TRUE,2,1,win,Shanghai,China PR,TRUE,1126,1328,1156,1298,30
-1930-05-25,Far Eastern Championship Games,played,Japan,JPN,Philippines,,TRUE,7,2,win,Tokyo,Japan,FALSE,1156,1292,1200,1248,44
-1930-05-29,Friendly,played,Japan,JPN,China PR,,TRUE,3,3,draw,Tokyo,Japan,FALSE,,,,,
-1930-05-30,Far Eastern Championship Games,played,Japan,JPN,China PR,,TRUE,3,3,draw,Tokyo,Japan,FALSE,,,,,
-1934-05-13,Far Eastern Championship Games,played,Japan,JPN,Indonesia,IDN,TRUE,1,7,loss,Manila,Philippines,TRUE,1214,1509,1201,1522,-13
-1934-05-15,Far Eastern Championship Games,played,Japan,JPN,Philippines,,FALSE,4,3,win,Manila,Philippines,FALSE,1201,1226,1228,1199,27
-1934-05-20,Far Eastern Championship Games,played,Japan,JPN,China PR,,FALSE,3,4,loss,Manila,Philippines,TRUE,,,,,
-1939-09-02,Friendly,played,Japan,JPN,China PR,,FALSE,3,0,win,Xinjing,Manchuria,TRUE,,,,,
-1939-09-03,Friendly,played,Japan,JPN,Manchukuo,,FALSE,6,0,win,Xinjing,Manchuria,FALSE,,,,,
-1940-06-07,Friendly,played,Japan,JPN,Manchukuo,,TRUE,7,0,win,Tokyo,Japan,FALSE,,,,,
-1940-06-09,Friendly,played,Japan,JPN,China PR,,TRUE,6,0,win,Tokyo,Japan,FALSE,,,,,
-1940-06-16,Friendly,played,Japan,JPN,Philippines,,TRUE,1,0,win,Nishinomiya,Japan,FALSE,1279,1229,1291,1217,12
-1942-08-08,Friendly,played,Japan,JPN,China PR,,FALSE,6,1,win,Xinjing,Manchuria,TRUE,,,,,
-1942-08-09,Friendly,played,Japan,JPN,Manchukuo,,FALSE,3,0,win,Xinjing,Manchuria,FALSE,,,,,
-1942-08-10,Friendly,played,Japan,JPN,Mongolia,,TRUE,12,0,win,Xinjing,Manchuria,TRUE,,,,,
-1951-03-07,Asian Games,played,Japan,JPN,Iran,IRN,FALSE,0,0,draw,New Delhi,India,TRUE,1289,1572,1302,1559,13
-1951-03-08,Asian Games,played,Japan,JPN,Iran,IRN,FALSE,2,3,loss,New Delhi,India,TRUE,1302,1559,1295,1566,-7
-1951-03-09,Asian Games,played,Japan,JPN,Afghanistan,,TRUE,2,0,win,New Delhi,India,TRUE,1295,915,1301,909,6
-1954-03-07,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,TRUE,1,5,loss,Tokyo,Japan,FALSE,1301,1750,1292,1759,-9
-1954-03-14,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,TRUE,2,2,draw,Tokyo,Japan,FALSE,1292,1759,1308,1743,16
-1954-05-01,Asian Games,played,Japan,JPN,Indonesia,IDN,TRUE,3,5,loss,Manila,Philippines,TRUE,1308,1476,1291,1493,-17
-1954-05-03,Asian Games,played,Japan,JPN,India,,FALSE,2,3,loss,Manila,Philippines,TRUE,1291,1642,1286,1647,-5
-1955-01-11,Friendly,played,Japan,JPN,Myanmar,,FALSE,1,0,win,Yangon,Burma,FALSE,1286,1296,1299,1283,13
-1955-10-09,Friendly,played,Japan,JPN,Myanmar,,TRUE,0,0,draw,Tokyo,Japan,FALSE,1299,1283,1296,1286,-3
-1958-05-26,Asian Games,played,Japan,JPN,Philippines,,TRUE,0,1,loss,Tokyo,Japan,FALSE,1349,1058,1313,1094,-36
-1958-05-28,Asian Games,played,Japan,JPN,Hong Kong,,TRUE,0,2,loss,Tokyo,Japan,FALSE,1313,1496,1290,1519,-23
-1958-12-25,Friendly,played,Japan,JPN,Hong Kong,,FALSE,2,5,loss,So Kon Po,Hong Kong,FALSE,1290,1494,1285,1499,-5
-1958-12-28,Friendly,played,Japan,JPN,Malaysia,,FALSE,2,6,loss,Kuala Lumpur,Malaya,FALSE,1285,1369,1275,1379,-10
-1959-01-04,Friendly,played,Japan,JPN,Malaysia,,FALSE,3,1,win,George Town,Malaya,TRUE,1275,1379,1298,1356,23
-1959-01-10,Friendly,played,Japan,JPN,Singapore,,FALSE,4,3,win,Kallang,Singapore,FALSE,1298,1216,1309,1205,11
-1959-01-11,Friendly,played,Japan,JPN,Singapore,,FALSE,2,3,loss,Kallang,Singapore,FALSE,1309,1205,1299,1215,-10
-1959-09-03,Merdeka Tournament,played,Japan,JPN,Singapore,,TRUE,4,1,win,Kuala Lumpur,Malaya,TRUE,1294,1147,1310,1131,16
-1959-09-05,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,TRUE,0,0,draw,Kuala Lumpur,Malaya,TRUE,1310,1645,1321,1634,11
-1959-09-06,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,TRUE,1,3,loss,Kuala Lumpur,Malaya,TRUE,1321,1634,1315,1640,-6
-1960-08-05,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,0,3,loss,Kuala Lumpur,Malaya,FALSE,,,,,
-1960-08-10,Merdeka Tournament,played,Japan,JPN,Pakistan,,FALSE,1,3,loss,Kuala Lumpur,Malaya,TRUE,,,,,
-1960-08-12,Merdeka Tournament,played,Japan,JPN,Thailand,,TRUE,3,1,win,Kuala Lumpur,Malaya,TRUE,,,,,
-1960-11-06,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,FALSE,1,2,loss,Seoul,South Korea,FALSE,1336,1706,1333,1709,-3
-1961-05-28,Friendly,played,Japan,JPN,Malaysia,,TRUE,3,2,win,Tokyo,Japan,FALSE,1333,1414,1342,1405,9
-1961-06-11,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,TRUE,0,2,loss,Tokyo,Japan,FALSE,1342,1709,1331,1720,-11
-1961-08-02,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,2,3,loss,Kuala Lumpur,Malaya,FALSE,1331,1405,1323,1413,-8
-1961-08-06,Merdeka Tournament,played,Japan,JPN,India,,FALSE,3,1,win,Kuala Lumpur,Malaya,TRUE,1323,1457,1354,1426,31
-1961-08-10,Merdeka Tournament,played,Japan,JPN,Vietnam Republic,,TRUE,2,3,loss,Kuala Lumpur,Malaya,TRUE,,,,,
-1961-08-15,Friendly,played,Japan,JPN,Indonesia,IDN,FALSE,0,2,loss,Kallang,Singapore,TRUE,1341,1562,1331,1572,-10
-1962-08-25,Asian Games,played,Japan,JPN,Thailand,,TRUE,3,1,win,Jakarta,Indonesia,TRUE,1330,1222,1351,1201,21
-1962-08-29,Asian Games,played,Japan,JPN,India,,FALSE,0,2,loss,Jakarta,Indonesia,TRUE,1351,1424,1327,1448,-24
-1962-08-30,Asian Games,played,Japan,JPN,South Korea,KOR,FALSE,0,1,loss,Jakarta,Indonesia,TRUE,1327,1708,1323,1712,-4
-1962-09-08,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,2,2,draw,Kuala Lumpur,Malaya,FALSE,1323,1481,1332,1472,9
-1962-09-12,Merdeka Tournament,played,Japan,JPN,Pakistan,,TRUE,1,1,draw,Kuala Lumpur,Malaya,TRUE,1332,1379,1334,1377,2
-1962-09-15,Merdeka Tournament,played,Japan,JPN,Myanmar,,FALSE,1,3,loss,Kuala Lumpur,Malaya,TRUE,1334,1202,1303,1233,-31
-1962-09-21,Friendly,played,Japan,JPN,Singapore,,FALSE,1,2,loss,Kallang,Singapore,FALSE,1303,1225,1294,1234,-9
-1963-08-08,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,4,3,win,Kuala Lumpur,Malaya,FALSE,1292,1444,1316,1420,24
-1963-08-10,Merdeka Tournament,played,Japan,JPN,Thailand,,FALSE,4,1,win,Kuala Lumpur,Malaya,TRUE,1316,1192,1333,1175,17
-1963-08-12,Merdeka Tournament,played,Japan,JPN,Vietnam Republic,,FALSE,5,1,win,Kuala Lumpur,Malaya,TRUE,,,,,
-1963-08-13,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,FALSE,1,1,draw,Kuala Lumpur,Malaya,TRUE,1373,1700,1384,1689,11
-1963-08-15,Merdeka Tournament,played,Japan,JPN,Taiwan,,FALSE,0,2,loss,Kuala Lumpur,Malaya,TRUE,1384,1636,1375,1645,-9
-1963-10-12,Friendly,played,Japan,JPN,Vietnam Republic,,TRUE,2,1,win,Tokyo,Japan,FALSE,,,,,
-1964-03-03,Friendly,played,Japan,JPN,Singapore,,FALSE,2,1,win,Kallang,Singapore,FALSE,1389,1251,1398,1242,9
-1965-03-11,Friendly,played,Japan,JPN,Hong Kong,,FALSE,4,1,win,So Kon Po,Hong Kong,FALSE,1390,1404,1413,1381,23
-1965-03-15,Friendly,played,Japan,JPN,Hong Kong,,FALSE,2,1,win,So Kon Po,Hong Kong,FALSE,1413,1381,1425,1369,12
-1965-03-22,Friendly,played,Japan,JPN,Myanmar,,FALSE,1,1,draw,Yangon,Burma,FALSE,1425,1318,1425,1318,0
-1965-03-25,Friendly,played,Japan,JPN,Singapore,,FALSE,4,1,win,Kallang,Singapore,FALSE,1425,1256,1439,1242,14
-1965-03-27,Friendly,played,Japan,JPN,Malaysia,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,FALSE,1439,1344,1439,1344,0
-1965-08-14,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,2,2,draw,Kuala Lumpur,Malaysia,FALSE,,,,,
-1965-08-15,Merdeka Tournament,played,Japan,JPN,India,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,,,,,
-1965-08-18,Merdeka Tournament,played,Japan,JPN,Taiwan,,TRUE,0,4,loss,Kuala Lumpur,Malaysia,TRUE,,,,,
-1965-08-20,Merdeka Tournament,played,Japan,JPN,Myanmar,,TRUE,3,1,win,Kuala Lumpur,Malaysia,TRUE,,,,,
-1965-08-24,Merdeka Tournament,played,Japan,JPN,Thailand,,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,,,,,
-1965-08-28,Merdeka Tournament,played,Japan,JPN,Vietnam Republic,,TRUE,2,1,win,Kuala Lumpur,Malaysia,TRUE,,,,,
-1966-08-14,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,FALSE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,,,,,
-1966-08-17,Merdeka Tournament,played,Japan,JPN,India,,FALSE,0,3,loss,Kuala Lumpur,Malaysia,TRUE,,,,,
-1966-08-20,Merdeka Tournament,played,Japan,JPN,Taiwan,,TRUE,5,2,win,Kuala Lumpur,Malaysia,TRUE,,,,,
-1966-08-22,Merdeka Tournament,played,Japan,JPN,Vietnam Republic,,TRUE,0,2,loss,Ipoh,Malaysia,TRUE,,,,,
-1966-08-25,Merdeka Tournament,played,Japan,JPN,Singapore,,FALSE,1,0,win,Kuala Lumpur,Malaysia,TRUE,,,,,
-1966-12-10,Asian Games,played,Japan,JPN,India,,TRUE,2,1,win,Bangkok,Thailand,TRUE,1438,1534,1463,1509,25
-1966-12-11,Asian Games,played,Japan,JPN,Iran,IRN,FALSE,3,1,win,Bangkok,Thailand,TRUE,1463,1611,1505,1569,42
-1966-12-14,Asian Games,played,Japan,JPN,Malaysia,,FALSE,1,0,win,Bangkok,Thailand,TRUE,1505,1245,1512,1238,7
-1966-12-16,Asian Games,played,Japan,JPN,Singapore,,TRUE,5,1,win,Bangkok,Thailand,TRUE,1512,1373,1535,1350,23
-1966-12-17,Asian Games,played,Japan,JPN,Thailand,,FALSE,5,1,win,Bangkok,Thailand,FALSE,1535,1286,1557,1264,22
-1966-12-18,Asian Games,played,Japan,JPN,Iran,IRN,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1557,1584,1539,1602,-18
-1966-12-19,Asian Games,played,Japan,JPN,Singapore,,TRUE,2,0,win,Bangkok,Thailand,TRUE,1539,1332,1553,1318,14
-1967-07-28,Friendly,played,Japan,JPN,Peru,PER,FALSE,0,1,loss,Lima,Peru,FALSE,1553,1612,1547,1618,-6
-1967-07-30,Friendly,played,Japan,JPN,Peru,PER,FALSE,0,0,draw,Lima,Peru,FALSE,1547,1618,1552,1613,5
-1967-08-01,AFC Asian Cup qualification,played,Japan,JPN,South Korea,KOR,TRUE,2,1,win,Taipei,Taiwan,TRUE,1548,1470,1564,1454,16
-1967-08-03,AFC Asian Cup qualification,played,Japan,JPN,Philippines,,TRUE,2,0,win,Taipei,Taiwan,TRUE,1564,1007,1566,1005,2
-1967-08-05,AFC Asian Cup qualification,played,Japan,JPN,Indonesia,IDN,TRUE,2,1,win,Taipei,Taiwan,TRUE,,,,,
-1968-03-26,Friendly,played,Japan,JPN,Mexico,MEX,FALSE,0,4,loss,Mexico City,Mexico,FALSE,,,,,
-1968-03-30,Friendly,played,Japan,JPN,Australia,AUS,FALSE,2,2,draw,Sydney,Australia,FALSE,1604,1590,1606,1588,2
-1968-03-31,Friendly,played,Japan,JPN,Australia,AUS,FALSE,1,3,loss,Melbourne,Australia,FALSE,1606,1588,1594,1600,-12
-1968-04-04,Friendly,played,Japan,JPN,Australia,AUS,FALSE,3,1,win,Adelaide,Australia,FALSE,1594,1600,1613,1581,19
-1969-10-10,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,TRUE,1,3,loss,Seoul,South Korea,TRUE,1652,1574,1615,1611,-37
-1969-10-12,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,FALSE,2,2,draw,Seoul,South Korea,FALSE,1615,1569,1618,1566,3
-1969-10-16,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,FALSE,1,1,draw,Seoul,South Korea,TRUE,1618,1634,1619,1633,1
-1969-10-18,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1619,1543,1591,1571,-28
-1970-07-31,Merdeka Tournament,played,Japan,JPN,Hong Kong,,FALSE,1,2,loss,Kuala Lumpur,Malaysia,TRUE,1591,1206,1564,1233,-27
-1970-08-02,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1564,1588,1565,1587,1
-1970-08-04,Merdeka Tournament,played,Japan,JPN,Thailand,,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1565,1299,1555,1309,-10
-1970-08-08,Merdeka Tournament,played,Japan,JPN,Indonesia,IDN,FALSE,4,3,win,Kuala Lumpur,Malaysia,TRUE,1555,1554,1570,1539,15
-1970-08-10,Merdeka Tournament,played,Japan,JPN,Singapore,,TRUE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1570,1153,1575,1148,5
-1970-08-16,Merdeka Tournament,played,Japan,JPN,Taiwan,,TRUE,3,2,win,Kuala Lumpur,Malaysia,TRUE,1575,1315,1580,1310,5
-1970-12-10,Asian Games,played,Japan,JPN,Malaysia,,TRUE,1,0,win,Bangkok,Thailand,TRUE,1580,1350,1588,1342,8
-1970-12-12,Asian Games,played,Japan,JPN,Cambodia,,TRUE,1,0,win,Bangkok,Thailand,TRUE,,,,,
-1970-12-14,Asian Games,played,Japan,JPN,Myanmar,,TRUE,2,1,win,Bangkok,Thailand,TRUE,1592,1547,1609,1530,17
-1970-12-16,Asian Games,played,Japan,JPN,Indonesia,IDN,FALSE,2,1,win,Bangkok,Thailand,TRUE,1609,1400,1618,1391,9
-1970-12-17,Asian Games,played,Japan,JPN,India,,TRUE,1,0,win,Bangkok,Thailand,TRUE,1618,1416,1628,1406,10
-1970-12-18,Asian Games,played,Japan,JPN,South Korea,KOR,TRUE,1,2,loss,Bangkok,Thailand,TRUE,1628,1624,1608,1644,-20
-1970-12-19,Asian Games,played,Japan,JPN,India,,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1608,1388,1577,1419,-31
-1971-07-28,Friendly,played,Japan,JPN,Denmark,DNK,FALSE,2,3,loss,Copenhagen,Denmark,FALSE,1577,1567,1570,1574,-7
-1971-08-13,Friendly,played,Japan,JPN,Iceland,ISL,FALSE,2,0,win,Reykjavík,Iceland,FALSE,1570,1288,1578,1280,8
-1972-07-12,Merdeka Tournament,played,Japan,JPN,Cambodia,,TRUE,4,1,win,Kuala Lumpur,Malaysia,TRUE,,,,,
-1972-07-16,Merdeka Tournament,played,Japan,JPN,Sri Lanka,,TRUE,5,0,win,Ipoh,Malaysia,TRUE,1543,975,1545,973,2
-1972-07-18,Merdeka Tournament,played,Japan,JPN,Philippines,,TRUE,5,1,win,Kuala Lumpur,Malaysia,TRUE,1545,1087,1549,1083,4
-1972-07-22,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,1,3,loss,Kuala Lumpur,Malaysia,FALSE,1549,1465,1528,1486,-21
-1972-07-26,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,TRUE,0,3,loss,Kuala Lumpur,Malaysia,TRUE,1528,1558,1504,1582,-24
-1972-08-04,Friendly,played,Japan,JPN,Philippines,,TRUE,4,1,win,Kallang,Singapore,TRUE,1504,1075,1508,1071,4
-1972-08-06,Friendly,played,Japan,JPN,Indonesia,IDN,FALSE,0,1,loss,Kallang,Singapore,TRUE,1508,1446,1490,1464,-18
-1972-09-14,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,2,2,draw,Tokyo,Japan,FALSE,1490,1597,1490,1597,0
-1973-05-16,FIFA World Cup qualification,played,Japan,JPN,Israel,ISR,FALSE,1,2,loss,Seoul,South Korea,TRUE,1490,1705,1481,1714,-9
-1973-05-20,FIFA World Cup qualification,played,Japan,JPN,Vietnam Republic,,FALSE,4,0,win,Seoul,South Korea,TRUE,,,,,
-1973-05-22,FIFA World Cup qualification,played,Japan,JPN,Hong Kong,,TRUE,0,1,loss,Seoul,South Korea,TRUE,1505,1301,1474,1332,-31
-1973-05-26,FIFA World Cup qualification,played,Japan,JPN,Israel,ISR,FALSE,0,1,loss,Seoul,South Korea,TRUE,1474,1726,1466,1734,-8
-1973-06-23,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1466,1589,1459,1596,-7
-1974-02-12,Friendly,played,Japan,JPN,Singapore,,FALSE,1,0,win,Kallang,Singapore,FALSE,1451,1112,1455,1108,4
-1974-02-20,Friendly,played,Japan,JPN,Hong Kong,,FALSE,0,0,draw,So Kon Po,Hong Kong,FALSE,1469,1343,1468,1344,-1
-1974-09-03,Asian Games,played,Japan,JPN,Philippines,,TRUE,4,0,win,Tehran,Iran,TRUE,1465,1028,1471,1022,6
-1974-09-05,Asian Games,played,Japan,JPN,Malaysia,,TRUE,1,1,draw,Tehran,Iran,TRUE,1471,1440,1469,1442,-2
-1974-09-07,Asian Games,played,Japan,JPN,Israel,ISR,TRUE,0,3,loss,Tehran,Iran,TRUE,1469,1730,1456,1743,-13
-1974-09-28,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,4,1,win,Tokyo,Japan,FALSE,1456,1533,1472,1517,16
-1975-06-14,AFC Asian Cup qualification,played,Japan,JPN,Hong Kong,,FALSE,0,0,draw,So Kon Po,Hong Kong,FALSE,1472,1371,1472,1371,0
-1975-06-17,AFC Asian Cup qualification,played,Japan,JPN,North Korea,PRK,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,1472,1587,1458,1601,-14
-1975-06-23,AFC Asian Cup qualification,played,Japan,JPN,China PR,,FALSE,1,2,loss,So Kon Po,Hong Kong,TRUE,,,,,
-1975-07-30,Merdeka Tournament,played,Japan,JPN,Hong Kong,,FALSE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1472,1347,1442,1377,-30
-1975-08-02,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,0,2,loss,Kuala Lumpur,Malaysia,FALSE,1442,1422,1425,1439,-17
-1975-08-04,Merdeka Tournament,played,Japan,JPN,Bangladesh,,FALSE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1425,1037,1430,1032,5
-1975-08-07,Merdeka Tournament,played,Japan,JPN,Indonesia,IDN,FALSE,4,1,win,Kuala Lumpur,Malaysia,TRUE,1430,1405,1454,1381,24
-1975-08-09,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,TRUE,1,3,loss,Kuala Lumpur,Malaysia,TRUE,1454,1585,1440,1599,-14
-1975-08-11,Merdeka Tournament,played,Japan,JPN,Thailand,,TRUE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1440,1263,1455,1248,15
-1975-08-14,Merdeka Tournament,played,Japan,JPN,Myanmar,,FALSE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1455,1561,1484,1532,29
-1975-09-08,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,0,3,loss,Seoul,South Korea,FALSE,1484,1628,1477,1635,-7
-1976-01-25,Friendly,played,Japan,JPN,Bulgaria,BGR,TRUE,1,3,loss,Tokyo,Japan,FALSE,1477,1793,1470,1800,-7
-1976-01-28,Friendly,played,Japan,JPN,Bulgaria,BGR,TRUE,1,1,draw,Osaka,Japan,FALSE,1470,1800,1476,1794,6
-1976-02-01,Friendly,played,Japan,JPN,Bulgaria,BGR,TRUE,0,3,loss,Tokyo,Japan,FALSE,1476,1794,1468,1802,-8
-1976-08-08,Merdeka Tournament,played,Japan,JPN,India,,FALSE,5,1,win,Kuala Lumpur,Malaysia,TRUE,1447,1323,1465,1305,18
-1976-08-10,Merdeka Tournament,played,Japan,JPN,Indonesia,IDN,FALSE,6,0,win,Kuala Lumpur,Malaysia,TRUE,1465,1353,1487,1331,22
-1976-08-13,Merdeka Tournament,played,Japan,JPN,Myanmar,,FALSE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,1487,1525,1489,1523,2
-1976-08-16,Merdeka Tournament,played,Japan,JPN,Thailand,,TRUE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,1489,1311,1482,1318,-7
-1976-08-18,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1482,1642,1488,1636,6
-1976-08-20,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,2,2,draw,Kuala Lumpur,Malaysia,FALSE,1488,1452,1491,1449,3
-1976-08-22,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,0,2,loss,Kuala Lumpur,Malaysia,FALSE,1491,1449,1472,1468,-19
-1976-12-04,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,1,2,loss,Tokyo,Japan,FALSE,1472,1645,1464,1653,-8
-1977-03-06,FIFA World Cup qualification,played,Japan,JPN,Israel,ISR,FALSE,0,2,loss,Ramat Gan,Israel,FALSE,1464,1718,1457,1725,-7
-1977-03-10,FIFA World Cup qualification,played,Japan,JPN,Israel,ISR,FALSE,0,2,loss,Ramat Gan,Israel,FALSE,1457,1725,1451,1731,-6
-1977-03-26,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,TRUE,0,0,draw,Tokyo,Japan,FALSE,1451,1666,1457,1660,6
-1977-04-03,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1457,1660,1451,1666,-6
-1977-06-15,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,1,2,loss,Seoul,South Korea,FALSE,1451,1666,1448,1669,-3
-1978-05-23,Kirin Cup,played,Japan,JPN,Thailand,,TRUE,3,0,win,Nagoya,Japan,FALSE,1448,1290,1458,1280,10
-1978-07-13,Merdeka Tournament,played,Japan,JPN,Iraq,IRQ,FALSE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1458,1594,1464,1588,6
-1978-07-15,Merdeka Tournament,played,Japan,JPN,Indonesia,IDN,FALSE,1,2,loss,Kuala Lumpur,Malaysia,TRUE,1464,1363,1445,1382,-19
-1978-07-17,Merdeka Tournament,played,Japan,JPN,Syria,,TRUE,3,2,win,Kuala Lumpur,Malaysia,TRUE,1445,1336,1455,1326,10
-1978-07-19,Merdeka Tournament,played,Japan,JPN,South Korea,KOR,TRUE,0,4,loss,Kuala Lumpur,Malaysia,TRUE,1455,1747,1446,1756,-9
-1978-07-21,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,1,4,loss,Kuala Lumpur,Malaysia,FALSE,1446,1444,1427,1463,-19
-1978-07-23,Merdeka Tournament,played,Japan,JPN,Singapore,,TRUE,1,2,loss,Kuala Lumpur,Malaysia,TRUE,1427,1134,1402,1159,-25
-1978-07-26,Merdeka Tournament,played,Japan,JPN,Thailand,,TRUE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1402,1341,1425,1318,23
-1978-11-19,Friendly,played,Japan,JPN,Soviet Union,SUN,TRUE,1,4,loss,Tokyo,Japan,FALSE,1425,1907,1422,1910,-3
-1978-11-23,Friendly,played,Japan,JPN,Soviet Union,SUN,TRUE,1,4,loss,Tokyo,Japan,FALSE,1422,1910,1419,1913,-3
-1978-11-26,Friendly,played,Japan,JPN,Soviet Union,SUN,TRUE,0,3,loss,Osaka,Japan,FALSE,1419,1913,1416,1916,-3
-1978-12-11,Asian Games,played,Japan,JPN,Kuwait,KWT,TRUE,0,2,loss,Bangkok,Thailand,TRUE,1416,1686,1406,1696,-10
-1978-12-13,Asian Games,played,Japan,JPN,Bahrain,,FALSE,4,0,win,Bangkok,Thailand,TRUE,1406,1122,1418,1110,12
-1978-12-15,Asian Games,played,Japan,JPN,South Korea,KOR,TRUE,1,3,loss,Bangkok,Thailand,TRUE,1418,1801,1412,1807,-6
-1979-03-04,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,2,1,win,Tokyo,Japan,FALSE,1412,1831,1429,1814,17
-1979-05-31,Kirin Cup,played,Japan,JPN,Indonesia,IDN,TRUE,4,0,win,Tokyo,Japan,FALSE,1429,1256,1439,1246,10
-1979-06-16,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,1,4,loss,Seoul,South Korea,FALSE,1439,1814,1437,1816,-2
-1979-06-29,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,FALSE,,,,,
-1979-06-29,Merdeka Tournament,played,Japan,JPN,Thailand,,TRUE,2,0,win,Kuala Lumpur,Malaysia,TRUE,,,,,
-1979-07-01,Merdeka Tournament,played,Japan,JPN,Myanmar,,FALSE,1,0,win,Kuala Lumpur,Malaysia,TRUE,1453,1393,1465,1381,12
-1979-07-11,Merdeka Tournament,played,Japan,JPN,Indonesia,IDN,FALSE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1465,1268,1457,1276,-8
-1979-07-13,Merdeka Tournament,played,Japan,JPN,Singapore,,TRUE,3,1,win,Kuala Lumpur,Malaysia,TRUE,1457,1105,1462,1100,5
-1979-08-23,Friendly,played,Japan,JPN,North Korea,PRK,FALSE,0,0,draw,Pyongyang,North Korea,FALSE,1462,1692,1469,1685,7
-1980-05-11,Friendly,played,Japan,JPN,Luxembourg,,TRUE,1,0,win,Medan,Indonesia,TRUE,,,,,
-1980-06-09,Guangzhou International Friendship Tournament,played,Japan,JPN,Hong Kong,,FALSE,3,1,win,Guangzhou,China PR,TRUE,1487,1397,1504,1380,17
-1980-06-11,Guangzhou International Friendship Tournament,played,Japan,JPN,China PR,,FALSE,0,1,loss,Guangzhou,China PR,FALSE,,,,,
-1980-06-18,Guangzhou International Friendship Tournament,played,Japan,JPN,Hong Kong,,FALSE,2,0,win,Guangzhou,China PR,TRUE,1497,1371,1512,1356,15
-1980-12-22,FIFA World Cup qualification,played,Japan,JPN,Singapore,,FALSE,1,0,win,So Kon Po,Hong Kong,TRUE,1512,1281,1520,1273,8
-1980-12-26,FIFA World Cup qualification,played,Japan,JPN,China PR,,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,,,,,
-1980-12-28,FIFA World Cup qualification,played,Japan,JPN,Macau,,TRUE,3,0,win,So Kon Po,Hong Kong,TRUE,,,,,
-1980-12-30,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,1508,1598,1493,1613,-15
-1981-02-08,Friendly,played,Japan,JPN,Malaysia,,FALSE,0,1,loss,Kuantan,Malaysia,FALSE,1479,1445,1471,1453,-8
-1981-02-10,Friendly,played,Japan,JPN,Malaysia,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,FALSE,1471,1453,1473,1451,2
-1981-02-17,Friendly,played,Japan,JPN,Singapore,,FALSE,1,0,win,Kallang,Singapore,FALSE,1473,1278,1480,1271,7
-1981-02-19,Friendly,played,Japan,JPN,Singapore,,FALSE,0,0,draw,Kallang,Singapore,FALSE,1480,1271,1477,1274,-3
-1981-02-24,Friendly,played,Japan,JPN,Indonesia,IDN,FALSE,0,2,loss,Jakarta,Indonesia,FALSE,1477,1259,1457,1279,-20
-1981-03-08,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,0,1,loss,Tokyo,Japan,FALSE,1461,1709,1455,1715,-6
-1981-06-02,Kirin Cup,played,Japan,JPN,China PR,,TRUE,0,0,draw,Saitama,Japan,FALSE,,,,,
-1981-06-19,Korea Cup,played,Japan,JPN,Malaysia,,TRUE,2,0,win,Daegu,South Korea,TRUE,1458,1401,1477,1382,19
-1981-06-21,Korea Cup,played,Japan,JPN,South Korea,KOR,FALSE,0,2,loss,Busan,South Korea,FALSE,1477,1704,1471,1710,-6
-1981-08-30,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,2,0,win,Kuala Lumpur,Malaysia,FALSE,1471,1382,1494,1359,23
-1981-09-03,Merdeka Tournament,played,Japan,JPN,India,,FALSE,3,2,win,Kuala Lumpur,Malaysia,TRUE,1494,1222,1499,1217,5
-1981-09-08,Merdeka Tournament,played,Japan,JPN,United Arab Emirates,ARE,TRUE,3,2,win,Kuala Lumpur,Malaysia,TRUE,1499,1018,1501,1016,2
-1981-09-12,Merdeka Tournament,played,Japan,JPN,New Zealand,NZL,TRUE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1501,1527,1487,1541,-14
-1981-09-14,Merdeka Tournament,played,Japan,JPN,Indonesia,IDN,FALSE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1487,1220,1495,1212,8
-1981-09-18,Merdeka Tournament,played,Japan,JPN,Iraq,IRQ,FALSE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1495,1713,1485,1723,-10
-1982-03-21,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,0,3,loss,Seoul,South Korea,FALSE,1485,1668,1479,1674,-6
-1982-06-02,Kirin Cup,played,Japan,JPN,Singapore,,TRUE,2,0,win,Hiroshima,Japan,FALSE,1479,1235,1484,1230,5
-1982-11-21,Asian Games,played,Japan,JPN,Iran,IRN,TRUE,1,0,win,New Delhi,India,TRUE,1477,1757,1510,1724,33
-1982-11-23,Asian Games,played,Japan,JPN,South Yemen,,TRUE,3,1,win,New Delhi,India,TRUE,1510,1231,1520,1221,10
-1982-11-25,Asian Games,played,Japan,JPN,South Korea,KOR,FALSE,2,1,win,New Delhi,India,TRUE,1520,1613,1545,1588,25
-1982-11-28,Asian Games,played,Japan,JPN,Iraq,IRQ,TRUE,0,1,loss,New Delhi,India,TRUE,1545,1701,1533,1713,-12
-1983-02-12,Friendly,played,Japan,JPN,Syria,,FALSE,2,2,draw,Damascus,Syria,FALSE,1533,1259,1528,1264,-5
-1983-03-06,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,1,1,draw,Tokyo,Japan,FALSE,1513,1588,1512,1589,-1
-1983-06-07,Kirin Cup,played,Japan,JPN,Syria,,TRUE,1,0,win,Tokyo,Japan,FALSE,1512,1264,1516,1260,4
-1984-03-06,Friendly,played,Japan,JPN,Brunei,,FALSE,7,1,win,Bandar Seri Begawan,Brunei,FALSE,1485,946,1488,943,3
-1984-05-31,Kirin Cup,played,Japan,JPN,China PR,,TRUE,1,0,win,Saitama,Japan,FALSE,,,,,
-1984-09-30,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,2,1,win,Seoul,South Korea,FALSE,1415,1602,1432,1585,17
-1985-02-23,FIFA World Cup qualification,played,Japan,JPN,Singapore,,FALSE,3,1,win,Kallang,Singapore,FALSE,1432,1257,1456,1233,24
-1985-03-21,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,TRUE,1,0,win,Tokyo,Japan,FALSE,1456,1559,1476,1539,20
-1985-04-30,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,FALSE,0,0,draw,Pyongyang,North Korea,FALSE,1476,1539,1485,1530,9
-1985-05-18,FIFA World Cup qualification,played,Japan,JPN,Singapore,,TRUE,5,0,win,Tokyo,Japan,FALSE,1485,1233,1494,1224,9
-1985-05-26,Kirin Cup,played,Japan,JPN,Uruguay,URY,TRUE,1,4,loss,Tokyo,Japan,FALSE,1494,1880,1486,1888,-8
-1985-08-11,FIFA World Cup qualification,played,Japan,JPN,Hong Kong,,TRUE,3,0,win,Kobe,Japan,FALSE,1486,1360,1501,1345,15
-1985-09-22,FIFA World Cup qualification,played,Japan,JPN,Hong Kong,,FALSE,2,1,win,Siu Sai Wan,Hong Kong,FALSE,1501,1345,1518,1328,17
-1985-10-26,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,TRUE,1,2,loss,Tokyo,Japan,FALSE,1518,1579,1496,1601,-22
-1985-11-03,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1496,1601,1487,1610,-9
-1986-05-11,Kirin Cup,played,Japan,JPN,Algeria,DZA,TRUE,2,1,win,Matsuyama,Japan,FALSE,,,,,
-1986-07-25,Merdeka Tournament,played,Japan,JPN,Syria,,TRUE,2,1,win,Kuala Lumpur,Malaysia,TRUE,1487,1379,1497,1369,10
-1986-08-01,Merdeka Tournament,played,Japan,JPN,Malaysia,,FALSE,1,2,loss,Kuala Lumpur,Malaysia,FALSE,1497,1350,1480,1367,-17
-1986-09-20,Asian Games,played,Japan,JPN,Nepal,,TRUE,5,0,win,Daejeon,South Korea,TRUE,1480,846,1482,844,2
-1986-09-22,Asian Games,played,Japan,JPN,Iran,IRN,TRUE,0,2,loss,Daejeon,South Korea,TRUE,1482,1675,1467,1690,-15
-1986-09-24,Asian Games,played,Japan,JPN,Kuwait,KWT,TRUE,0,2,loss,Daejeon,South Korea,TRUE,1467,1594,1448,1613,-19
-1986-09-28,Asian Games,played,Japan,JPN,Bangladesh,,TRUE,4,0,win,Daejeon,South Korea,TRUE,1448,1112,1457,1103,9
-1987-05-27,Kirin Cup,played,Japan,JPN,Senegal,SEN,TRUE,2,2,draw,Hiroshima,Japan,FALSE,1469,1579,1469,1579,0
-1988-01-27,Friendly,played,Japan,JPN,United Arab Emirates,ARE,FALSE,1,1,draw,Dubai,United Arab Emirates,FALSE,1488,1391,1488,1391,0
-1988-01-30,Friendly,played,Japan,JPN,United Arab Emirates,ARE,FALSE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1488,1391,1473,1406,-15
-1988-02-02,Friendly,played,Japan,JPN,Oman,,FALSE,1,1,draw,Muscat,Oman,FALSE,1473,1040,1466,1047,-7
-1988-04-08,AFC Asian Cup qualification,played,Japan,JPN,Kuwait,KWT,FALSE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1466,1523,1449,1540,-17
-1988-04-11,AFC Asian Cup qualification,played,Japan,JPN,Malaysia,,FALSE,1,0,win,Kuala Lumpur,Malaysia,FALSE,1449,1287,1465,1271,16
-1988-04-16,AFC Asian Cup qualification,played,Japan,JPN,Jordan,,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1465,1229,1453,1241,-12
-1988-04-18,AFC Asian Cup qualification,played,Japan,JPN,Pakistan,,TRUE,4,1,win,Kuala Lumpur,Malaysia,TRUE,1453,1018,1458,1013,5
-1988-06-02,Kirin Cup,played,Japan,JPN,China PR,,TRUE,0,3,loss,Nagoya,Japan,FALSE,,,,,
-1988-10-26,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,0,1,loss,Tokyo,Japan,FALSE,1435,1612,1427,1620,-8
-1988-12-04,AFC Asian Cup,played,Japan,JPN,Iran,IRN,TRUE,0,0,draw,Doha,Qatar,TRUE,1427,1685,1443,1669,16
-1988-12-06,AFC Asian Cup,played,Japan,JPN,South Korea,KOR,FALSE,0,2,loss,Doha,Qatar,TRUE,1443,1637,1425,1655,-18
-1988-12-10,AFC Asian Cup,played,Japan,JPN,United Arab Emirates,ARE,FALSE,0,1,loss,Doha,Qatar,TRUE,1425,1449,1402,1472,-23
-1988-12-12,AFC Asian Cup,played,Japan,JPN,Qatar,QAT,FALSE,0,3,loss,Doha,Qatar,FALSE,1402,1417,1372,1447,-30
-1989-01-20,Friendly,played,Japan,JPN,Iran,IRN,FALSE,2,2,draw,Tehran,Iran,FALSE,1372,1602,1379,1595,7
-1989-05-05,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1379,1723,1378,1724,-1
-1989-05-10,Friendly,played,Japan,JPN,China PR,,TRUE,2,2,draw,Tokyo,Japan,FALSE,,,,,
-1989-05-13,Friendly,played,Japan,JPN,China PR,,TRUE,2,0,win,Okayama,Japan,FALSE,,,,,
-1989-05-22,FIFA World Cup qualification,played,Japan,JPN,Hong Kong,,FALSE,0,0,draw,Victoria,Hong Kong,FALSE,1401,1293,1401,1293,0
-1989-05-28,FIFA World Cup qualification,played,Japan,JPN,Indonesia,IDN,FALSE,0,0,draw,Jakarta,Indonesia,FALSE,1401,1222,1397,1226,-4
-1989-06-04,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,TRUE,2,1,win,Tokyo,Japan,FALSE,1397,1563,1421,1539,24
-1989-06-11,FIFA World Cup qualification,played,Japan,JPN,Indonesia,IDN,TRUE,5,0,win,Tokyo,Japan,FALSE,1421,1234,1434,1221,13
-1989-06-18,FIFA World Cup qualification,played,Japan,JPN,Hong Kong,,TRUE,0,0,draw,Kobe,Japan,FALSE,1434,1274,1421,1287,-13
-1989-06-25,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,FALSE,0,2,loss,Pyongyang,North Korea,FALSE,1421,1539,1408,1552,-13
-1989-07-23,Friendly,played,Japan,JPN,Brazil,BRA,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1408,1980,1408,1980,0
-1990-07-27,Dynasty Cup,played,Japan,JPN,South Korea,KOR,TRUE,0,2,loss,Beijing,China PR,TRUE,1408,1675,1400,1683,-8
-1990-07-29,Dynasty Cup,played,Japan,JPN,China PR,,FALSE,0,1,loss,Beijing,China PR,FALSE,,,,,
-1990-07-31,Dynasty Cup,played,Japan,JPN,North Korea,PRK,TRUE,0,1,loss,Beijing,China PR,TRUE,1395,1496,1384,1507,-11
-1990-09-26,Asian Games,played,Japan,JPN,Bangladesh,,FALSE,3,0,win,Beijing,China PR,TRUE,1384,1067,1394,1057,10
-1990-09-28,Asian Games,played,Japan,JPN,Saudi Arabia,SAU,TRUE,0,2,loss,Beijing,China PR,TRUE,1394,1577,1378,1593,-16
-1990-10-01,Asian Games,played,Japan,JPN,Iran,IRN,FALSE,0,1,loss,Beijing,China PR,TRUE,1378,1594,1369,1603,-9
-1991-06-02,Kirin Cup,played,Japan,JPN,Thailand,,TRUE,1,0,win,Tendo,Japan,FALSE,1369,1320,1378,1311,9
-1991-07-27,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,0,1,loss,Nagasaki,Japan,FALSE,1378,1709,1374,1713,-4
-1992-05-30,Kirin Cup,played,Japan,JPN,Argentina,ARG,TRUE,0,1,loss,Tokyo,Japan,FALSE,1374,1985,1372,1987,-2
-1992-06-07,Kirin Cup,played,Japan,JPN,Wales,WAL,TRUE,0,1,loss,Matsuyama,Japan,FALSE,1372,1770,1367,1775,-5
-1992-08-22,Dynasty Cup,played,Japan,JPN,South Korea,KOR,TRUE,0,0,draw,Beijing,China PR,TRUE,1367,1682,1378,1671,11
-1992-08-24,Dynasty Cup,played,Japan,JPN,China PR,,FALSE,2,0,win,Beijing,China PR,FALSE,,,,,
-1992-08-26,Dynasty Cup,played,Japan,JPN,North Korea,PRK,TRUE,4,1,win,Beijing,China PR,TRUE,1413,1547,1449,1511,36
-1992-08-29,Dynasty Cup,played,Japan,JPN,South Korea,KOR,TRUE,2,2,draw,Beijing,China PR,TRUE,1449,1682,1458,1673,9
-1992-10-30,AFC Asian Cup,played,Japan,JPN,United Arab Emirates,ARE,TRUE,0,0,draw,Onomichi,Japan,FALSE,1458,1483,1453,1488,-5
-1992-11-01,AFC Asian Cup,played,Japan,JPN,North Korea,PRK,TRUE,1,1,draw,Hiroshima,Japan,FALSE,1453,1488,1448,1493,-5
-1992-11-03,AFC Asian Cup,played,Japan,JPN,Iran,IRN,TRUE,1,0,win,Hiroshima,Japan,FALSE,1448,1653,1480,1621,32
-1992-11-06,AFC Asian Cup,played,Japan,JPN,China PR,,TRUE,3,2,win,Hiroshima,Japan,FALSE,,,,,
-1992-11-08,AFC Asian Cup,played,Japan,JPN,Saudi Arabia,SAU,TRUE,1,0,win,Hiroshima,Japan,FALSE,1498,1653,1527,1624,29
-1993-01-23,Friendly,played,Japan,JPN,Switzerland,CHE,TRUE,1,1,draw,Hong Kong,Hong Kong,TRUE,,,,,
-1993-03-07,Kirin Cup,played,Japan,JPN,Hungary,HUN,TRUE,0,1,loss,Fukuoka,Japan,FALSE,1527,1715,1516,1726,-11
-1993-03-14,Kirin Cup,played,Japan,JPN,United States,USA,TRUE,3,1,win,Tokyo,Japan,FALSE,1516,1682,1543,1655,27
-1993-04-08,FIFA World Cup qualification,played,Japan,JPN,Thailand,,TRUE,1,0,win,Kobe,Japan,FALSE,1543,1343,1549,1337,6
-1993-04-11,FIFA World Cup qualification,played,Japan,JPN,Bangladesh,,TRUE,8,0,win,Tokyo,Japan,FALSE,1549,1069,1552,1066,3
-1993-04-15,FIFA World Cup qualification,played,Japan,JPN,Sri Lanka,,TRUE,5,0,win,Tokyo,Japan,FALSE,1552,845,1553,844,1
-1993-04-18,FIFA World Cup qualification,played,Japan,JPN,United Arab Emirates,ARE,TRUE,2,0,win,Tokyo,Japan,FALSE,1553,1535,1573,1515,20
-1993-04-28,FIFA World Cup qualification,played,Japan,JPN,Thailand,,FALSE,1,0,win,Dubai,United Arab Emirates,TRUE,1573,1342,1581,1334,8
-1993-04-30,FIFA World Cup qualification,played,Japan,JPN,Bangladesh,,FALSE,4,1,win,Dubai,United Arab Emirates,TRUE,1581,1059,1584,1056,3
-1993-05-05,FIFA World Cup qualification,played,Japan,JPN,Sri Lanka,,FALSE,6,0,win,Dubai,United Arab Emirates,TRUE,1584,839,1585,838,1
-1993-05-07,FIFA World Cup qualification,played,Japan,JPN,United Arab Emirates,ARE,FALSE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1585,1526,1587,1524,2
-1993-10-04,Friendly,played,Japan,JPN,Ivory Coast,CIV,TRUE,1,0,win,Tokyo,Japan,FALSE,1587,1640,1609,1618,22
-1993-10-15,FIFA World Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,FALSE,0,0,draw,Doha,Qatar,TRUE,1609,1648,1611,1646,2
-1993-10-18,FIFA World Cup qualification,played,Japan,JPN,Iran,IRN,TRUE,1,2,loss,Doha,Qatar,TRUE,1611,1559,1588,1582,-23
-1993-10-21,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,FALSE,3,0,win,Doha,Qatar,TRUE,1588,1574,1622,1540,34
-1993-10-25,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,TRUE,1,0,win,Doha,Qatar,TRUE,1622,1667,1645,1644,23
-1993-10-28,FIFA World Cup qualification,played,Japan,JPN,Iraq,IRQ,FALSE,2,2,draw,Doha,Qatar,TRUE,1645,1655,1646,1654,1
-1994-05-22,Kirin Cup,played,Japan,JPN,Australia,AUS,TRUE,1,1,draw,Hiroshima,Japan,FALSE,1646,1721,1645,1722,-1
-1994-05-29,Kirin Cup,played,Japan,JPN,France,FRA,TRUE,1,4,loss,Tokyo,Japan,FALSE,1645,1915,1631,1929,-14
-1994-07-08,Friendly,played,Japan,JPN,Ghana,GHA,TRUE,3,2,win,Nagoya,Japan,FALSE,1631,1622,1641,1612,10
-1994-07-14,Friendly,played,Japan,JPN,Ghana,GHA,TRUE,2,1,win,Kobe,Japan,FALSE,1641,1612,1651,1602,10
-1994-09-27,Friendly,played,Japan,JPN,Australia,AUS,TRUE,0,0,draw,Tokyo,Japan,FALSE,,,,,
-1994-10-03,Asian Games,played,Japan,JPN,United Arab Emirates,ARE,TRUE,1,1,draw,Miyoshi,Japan,FALSE,1650,1484,1637,1497,-13
-1994-10-05,Asian Games,played,Japan,JPN,Qatar,QAT,TRUE,1,1,draw,Hiroshima,Japan,FALSE,1637,1420,1623,1434,-14
-1994-10-09,Asian Games,played,Japan,JPN,Myanmar,,TRUE,5,0,win,Onomichi,Japan,FALSE,1623,1194,1627,1190,4
-1994-10-11,Asian Games,played,Japan,JPN,South Korea,KOR,TRUE,2,3,loss,Hiroshima,Japan,FALSE,1627,1657,1603,1681,-24
-1995-01-06,Confederations Cup,played,Japan,JPN,Nigeria,NGA,TRUE,0,3,loss,Riyadh,Saudi Arabia,TRUE,1603,1779,1580,1802,-23
-1995-01-08,Confederations Cup,played,Japan,JPN,Argentina,ARG,TRUE,1,5,loss,Riyadh,Saudi Arabia,TRUE,1580,1884,1566,1898,-14
-1995-02-15,Friendly,played,Japan,JPN,Australia,AUS,FALSE,1,2,loss,Sydney,Australia,FALSE,1568,1714,1564,1718,-4
-1995-02-19,Dynasty Cup,played,Japan,JPN,Hong Kong,,FALSE,3,0,win,Victoria,Hong Kong,FALSE,,,,,
-1995-02-21,Dynasty Cup,played,Japan,JPN,South Korea,KOR,TRUE,1,1,draw,Victoria,Hong Kong,TRUE,1564,1636,1567,1633,3
-1995-02-22,King's Cup,played,Japan,JPN,Thailand,,FALSE,2,3,loss,Bangkok,Thailand,FALSE,,,,,
-1995-02-23,Dynasty Cup,played,Japan,JPN,China PR,,FALSE,2,1,win,Victoria,Hong Kong,TRUE,,,,,
-1995-02-26,Dynasty Cup,played,Japan,JPN,South Korea,KOR,TRUE,2,2,draw,Victoria,Hong Kong,TRUE,1584,1633,1586,1631,2
-1995-05-21,Kirin Cup,played,Japan,JPN,Scotland,SCO,TRUE,0,0,draw,Hiroshima,Japan,FALSE,1586,1770,1590,1766,4
-1995-05-28,Kirin Cup,played,Japan,JPN,Ecuador,ECU,TRUE,3,0,win,Tokyo,Japan,FALSE,1590,1628,1612,1606,22
-1995-06-03,Friendly,played,Japan,JPN,England,ENG,FALSE,1,2,loss,London,England,FALSE,1612,1881,1609,1884,-3
-1995-06-06,Friendly,played,Japan,JPN,Brazil,BRA,FALSE,0,3,loss,Liverpool,England,TRUE,1609,2070,1606,2073,-3
-1995-06-10,Friendly,played,Japan,JPN,Sweden,SWE,FALSE,2,2,draw,Nottingham,England,TRUE,1606,1861,1615,1852,9
-1995-08-06,Friendly,played,Japan,JPN,Costa Rica,CRI,TRUE,3,0,win,Kyoto,Japan,FALSE,1615,1622,1628,1609,13
-1995-08-09,Friendly,played,Japan,JPN,Brazil,BRA,TRUE,1,5,loss,Tokyo,Japan,FALSE,1628,2099,1624,2103,-4
-1995-09-20,Friendly,played,Japan,JPN,Paraguay,PRY,TRUE,1,2,loss,Tokyo,Japan,FALSE,1624,1760,1611,1773,-13
-1995-10-24,Friendly,played,Japan,JPN,Saudi Arabia,SAU,TRUE,2,1,win,Tokyo,Japan,FALSE,1611,1588,1621,1578,10
-1995-10-28,Friendly,played,Japan,JPN,Saudi Arabia,SAU,TRUE,2,1,win,Matsuyama,Japan,FALSE,1621,1578,1630,1569,9
-1996-02-10,Friendly,played,Japan,JPN,Australia,AUS,FALSE,4,1,win,Wollongong,Australia,FALSE,1630,1710,1656,1684,26
-1996-02-14,Friendly,played,Japan,JPN,Australia,AUS,FALSE,0,3,loss,Melbourne,Australia,FALSE,1656,1684,1645,1695,-11
-1996-02-19,Lunar New Year Cup,played,Japan,JPN,Poland,POL,TRUE,5,0,win,So Kon Po,Hong Kong,TRUE,1645,1716,1681,1680,36
-1996-02-22,Lunar New Year Cup,played,Japan,JPN,Sweden,SWE,TRUE,1,1,draw,So Kon Po,Hong Kong,TRUE,1681,1847,1688,1840,7
-1996-05-26,Kirin Cup,played,Japan,JPN,Serbia,SRB,TRUE,1,0,win,Tokyo,Japan,FALSE,,,,,
-1996-05-29,Kirin Cup,played,Japan,JPN,Mexico,MEX,TRUE,3,2,win,Fukuoka,Japan,FALSE,1709,1870,1727,1852,18
-1996-08-25,Friendly,played,Japan,JPN,Uruguay,URY,TRUE,5,3,win,Osaka,Japan,FALSE,1727,1782,1740,1769,13
-1996-09-11,Friendly,played,Japan,JPN,Uzbekistan,,TRUE,1,0,win,Tokyo,Japan,FALSE,1740,1672,1746,1666,6
-1996-10-13,Friendly,played,Japan,JPN,Tunisia,TUN,TRUE,1,0,win,Kobe,Japan,FALSE,1746,1624,1750,1620,4
-1996-12-06,AFC Asian Cup,played,Japan,JPN,Syria,,TRUE,2,1,win,Al Ain,United Arab Emirates,TRUE,1750,1487,1759,1478,9
-1996-12-09,AFC Asian Cup,played,Japan,JPN,Uzbekistan,,TRUE,4,0,win,Al Ain,United Arab Emirates,TRUE,1759,1666,1794,1631,35
-1996-12-12,AFC Asian Cup,played,Japan,JPN,China PR,,TRUE,1,0,win,Al Ain,United Arab Emirates,TRUE,,,,,
-1996-12-15,AFC Asian Cup,played,Japan,JPN,Kuwait,KWT,FALSE,0,2,loss,Al Ain,United Arab Emirates,TRUE,1806,1582,1747,1641,-59
-1997-02-09,King's Cup,played,Japan,JPN,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1747,1404,1738,1413,-9
-1997-02-13,King's Cup,played,Japan,JPN,Sweden,SWE,TRUE,0,1,loss,Bangkok,Thailand,TRUE,,,,,
-1997-03-15,Friendly,played,Japan,JPN,Thailand,,FALSE,1,3,loss,Bangkok,Thailand,FALSE,1738,1401,1714,1425,-24
-1997-03-23,FIFA World Cup qualification,played,Japan,JPN,Oman,,FALSE,1,0,win,Muscat,Oman,FALSE,1714,1255,1718,1251,4
-1997-03-25,FIFA World Cup qualification,played,Japan,JPN,Macau,,FALSE,10,0,win,Muscat,Oman,TRUE,,,,,
-1997-03-27,FIFA World Cup qualification,played,Japan,JPN,Nepal,,FALSE,6,0,win,Muscat,Oman,TRUE,1720,825,1720,825,0
-1997-05-11,East Asian Games,played,Japan,JPN,Guam,,FALSE,12,0,win,Busan,South Korea,TRUE,,,,,
-1997-05-13,East Asian Games,played,Japan,JPN,Mongolia,,TRUE,5,0,win,Busan,South Korea,TRUE,,,,,
-1997-05-15,East Asian Games,played,Japan,JPN,Kazakhstan,,FALSE,2,2,draw,Busan,South Korea,TRUE,,,,,
-1997-05-17,East Asian Games,played,Japan,JPN,China PR,,FALSE,0,2,loss,Busan,South Korea,TRUE,,,,,
-1997-05-21,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,1,1,draw,Tokyo,Japan,FALSE,1720,1644,1715,1649,-5
-1997-06-08,Kirin Cup,played,Japan,JPN,Croatia,HRV,TRUE,4,3,win,Tokyo,Japan,FALSE,1715,1887,1733,1869,18
-1997-06-15,Kirin Cup,played,Japan,JPN,Turkey,TUR,TRUE,1,0,win,Osaka,Japan,FALSE,1733,1691,1742,1682,9
-1997-06-22,FIFA World Cup qualification,played,Japan,JPN,Macau,,TRUE,10,0,win,Tokyo,Japan,FALSE,,,,,
-1997-06-25,FIFA World Cup qualification,played,Japan,JPN,Nepal,,TRUE,3,0,win,Tokyo,Japan,FALSE,1743,819,1743,819,0
-1997-06-28,FIFA World Cup qualification,played,Japan,JPN,Oman,,TRUE,1,1,draw,Tokyo,Japan,FALSE,1743,1278,1724,1297,-19
-1997-08-13,Friendly,played,Japan,JPN,Brazil,BRA,TRUE,0,3,loss,Osaka,Japan,FALSE,1724,2143,1719,2148,-5
-1997-09-07,FIFA World Cup qualification,played,Japan,JPN,Uzbekistan,,TRUE,6,3,win,Tokyo,Japan,FALSE,1719,1602,1735,1586,16
-1997-09-19,FIFA World Cup qualification,played,Japan,JPN,United Arab Emirates,ARE,FALSE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1735,1580,1732,1583,-3
-1997-09-28,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,TRUE,1,2,loss,Tokyo,Japan,FALSE,1732,1694,1704,1722,-28
-1997-10-04,FIFA World Cup qualification,played,Japan,JPN,Kazakhstan,,FALSE,1,1,draw,Almaty,Kazakhstan,FALSE,1704,1492,1698,1498,-6
-1997-10-11,FIFA World Cup qualification,played,Japan,JPN,Uzbekistan,,FALSE,1,1,draw,Tashkent,Uzbekistan,FALSE,1698,1552,1695,1555,-3
-1997-10-26,FIFA World Cup qualification,played,Japan,JPN,United Arab Emirates,ARE,TRUE,1,1,draw,Tokyo,Japan,FALSE,1695,1563,1683,1575,-12
-1997-11-01,FIFA World Cup qualification,played,Japan,JPN,South Korea,KOR,FALSE,2,0,win,Seoul,South Korea,FALSE,1683,1760,1727,1716,44
-1997-11-08,FIFA World Cup qualification,played,Japan,JPN,Kazakhstan,,TRUE,5,1,win,Tokyo,Japan,FALSE,1727,1511,1737,1501,10
-1997-11-16,FIFA World Cup qualification,played,Japan,JPN,Iran,IRN,TRUE,3,2,win,Johor Bahru,Malaysia,TRUE,1737,1673,1753,1657,16
-1998-02-15,Friendly,played,Japan,JPN,Australia,AUS,FALSE,3,0,win,Adelaide,Australia,FALSE,1753,1831,1792,1792,39
-1998-03-01,Dynasty Cup,played,Japan,JPN,South Korea,KOR,TRUE,2,1,win,Yokohama,Japan,FALSE,1792,1753,1801,1744,9
-1998-03-04,Dynasty Cup,played,Japan,JPN,Hong Kong,,TRUE,5,1,win,Yokohama,Japan,FALSE,,,,,
-1998-03-07,Dynasty Cup,played,Japan,JPN,China PR,,TRUE,0,2,loss,Tokyo,Japan,FALSE,,,,,
-1998-04-01,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,1,2,loss,Seoul,South Korea,FALSE,1764,1754,1757,1761,-7
-1998-05-17,Kirin Cup,played,Japan,JPN,Paraguay,PRY,TRUE,1,1,draw,Tokyo,Japan,FALSE,1757,1764,1753,1768,-4
-1998-05-24,Kirin Cup,played,Japan,JPN,Czechia,CZE,TRUE,0,0,draw,Yokohama,Japan,FALSE,1753,1887,1754,1886,1
-1998-05-31,Friendly,played,Japan,JPN,Mexico,MEX,TRUE,1,2,loss,Lausanne,Switzerland,TRUE,1754,1845,1747,1852,-7
-1998-06-03,Friendly,played,Japan,JPN,Serbia,SRB,FALSE,0,1,loss,Lausanne,Switzerland,TRUE,,,,,
-1998-06-14,FIFA World Cup,played,Japan,JPN,Argentina,ARG,FALSE,0,1,loss,Toulouse,France,TRUE,1743,1893,1725,1911,-18
-1998-06-20,FIFA World Cup,played,Japan,JPN,Croatia,HRV,TRUE,0,1,loss,Nantes,France,TRUE,1725,1893,1708,1910,-17
-1998-06-26,FIFA World Cup,played,Japan,JPN,Jamaica,JAM,TRUE,1,2,loss,Lyon,France,TRUE,1708,1607,1670,1645,-38
-1998-10-28,Friendly,played,Japan,JPN,Egypt,EGY,TRUE,1,0,win,Osaka,Japan,FALSE,1670,1652,1677,1645,7
-1998-12-01,Asian Games,played,Japan,JPN,Nepal,,FALSE,5,0,win,Trang,Thailand,TRUE,1677,755,1677,755,0
-1998-12-03,Asian Games,played,Japan,JPN,India,,TRUE,1,0,win,Trang,Thailand,TRUE,1677,1114,1679,1112,2
-1998-12-07,Asian Games,played,Japan,JPN,South Korea,KOR,TRUE,0,2,loss,Bangkok,Thailand,TRUE,1679,1697,1651,1725,-28
-1998-12-09,Asian Games,played,Japan,JPN,Kuwait,KWT,TRUE,2,1,win,Bangkok,Thailand,TRUE,1651,1720,1675,1696,24
-1998-12-11,Asian Games,played,Japan,JPN,United Arab Emirates,ARE,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1675,1511,1646,1540,-29
-1999-03-31,Friendly,played,Japan,JPN,Brazil,BRA,TRUE,0,2,loss,Tokyo,Japan,FALSE,1646,2035,1641,2040,-5
-1999-06-03,Kirin Cup,played,Japan,JPN,Belgium,BEL,TRUE,0,0,draw,Tokyo,Japan,FALSE,1641,1755,1642,1754,1
-1999-06-06,Kirin Cup,played,Japan,JPN,Peru,PER,TRUE,0,0,draw,Yokohama,Japan,FALSE,1642,1724,1641,1725,-1
-1999-06-29,Copa América,played,Japan,JPN,Peru,PER,FALSE,2,3,loss,Asunción,Paraguay,TRUE,1641,1704,1620,1725,-21
-1999-07-02,Copa América,played,Japan,JPN,Paraguay,PRY,FALSE,0,4,loss,Asunción,Paraguay,FALSE,1620,1777,1603,1794,-17
-1999-07-05,Copa América,played,Japan,JPN,Bolivia,BOL,FALSE,1,1,draw,Pedro Juan Caballero,Paraguay,TRUE,1603,1655,1607,1651,4
-1999-09-08,Friendly,played,Japan,JPN,Iran,IRN,TRUE,1,1,draw,Yokohama,Japan,FALSE,1607,1754,1608,1753,1
-2000-02-05,Lunar New Year Cup,played,Japan,JPN,Mexico,MEX,TRUE,0,1,loss,So Kon Po,Hong Kong,TRUE,1608,1911,1604,1915,-4
-2000-02-13,AFC Asian Cup qualification,played,Japan,JPN,Singapore,,FALSE,3,0,win,Macau,Macau,TRUE,1604,1307,1615,1296,11
-2000-02-16,AFC Asian Cup qualification,played,Japan,JPN,Brunei,,TRUE,9,0,win,Macau,Macau,TRUE,1615,759,1616,758,1
-2000-02-20,AFC Asian Cup qualification,played,Japan,JPN,Macau,,FALSE,3,0,win,Macau,Macau,FALSE,,,,,
-2000-03-15,Friendly,played,Japan,JPN,China PR,,TRUE,0,0,draw,Kobe,Japan,FALSE,,,,,
-2000-04-26,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1619,1713,1614,1718,-5
-2000-06-04,King Hassan II Tournament,played,Japan,JPN,France,FRA,FALSE,2,2,draw,Casablanca,Morocco,TRUE,1614,2065,1627,2052,13
-2000-06-06,King Hassan II Tournament,played,Japan,JPN,Jamaica,JAM,FALSE,4,0,win,Casablanca,Morocco,TRUE,1627,1521,1647,1501,20
-2000-06-11,Kirin Cup,played,Japan,JPN,Slovakia,SVK,TRUE,1,1,draw,Rifu,Japan,FALSE,1647,1694,1645,1696,-2
-2000-06-18,Kirin Cup,played,Japan,JPN,Bolivia,BOL,TRUE,2,0,win,Yokohama,Japan,FALSE,1645,1618,1660,1603,15
-2000-08-16,Friendly,played,Japan,JPN,United Arab Emirates,ARE,TRUE,3,1,win,Hiroshima,Japan,FALSE,1660,1529,1666,1523,6
-2000-10-14,AFC Asian Cup,played,Japan,JPN,Saudi Arabia,SAU,FALSE,4,1,win,Sidon,Lebanon,TRUE,1666,1656,1708,1614,42
-2000-10-17,AFC Asian Cup,played,Japan,JPN,Uzbekistan,,TRUE,8,1,win,Sidon,Lebanon,TRUE,1708,1523,1737,1494,29
-2000-10-20,AFC Asian Cup,played,Japan,JPN,Qatar,QAT,TRUE,1,1,draw,Beirut,Lebanon,TRUE,1737,1499,1722,1514,-15
-2000-10-24,AFC Asian Cup,played,Japan,JPN,Iraq,IRQ,TRUE,4,1,win,Beirut,Lebanon,TRUE,1722,1656,1758,1620,36
-2000-10-26,AFC Asian Cup,played,Japan,JPN,China PR,,FALSE,3,2,win,Beirut,Lebanon,TRUE,,,,,
-2000-10-29,AFC Asian Cup,played,Japan,JPN,Saudi Arabia,SAU,TRUE,1,0,win,Beirut,Lebanon,TRUE,1780,1697,1799,1678,19
-2000-12-20,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,1,1,draw,Tokyo,Japan,FALSE,1799,1760,1795,1764,-4
-2001-01-23,Millennium Cup,played,Japan,JPN,Serbia,SRB,FALSE,0,1,loss,Calcutta,India,TRUE,,,,,
-2001-03-24,Friendly,played,Japan,JPN,France,FRA,FALSE,0,5,loss,Saint-Denis,France,FALSE,1795,2113,1792,2116,-3
-2001-04-25,Friendly,played,Japan,JPN,Spain,ESP,FALSE,0,1,loss,Córdoba,Spain,FALSE,1792,1956,1788,1960,-4
-2001-05-31,Confederations Cup,played,Japan,JPN,Canada,CAN,TRUE,3,0,win,Niigata,Japan,FALSE,1788,1634,1804,1618,16
-2001-06-02,Confederations Cup,played,Japan,JPN,Cameroon,CMR,TRUE,2,0,win,Niigata,Japan,FALSE,1804,1693,1821,1676,17
-2001-06-04,Confederations Cup,played,Japan,JPN,Brazil,BRA,TRUE,0,0,draw,Kashima,Japan,FALSE,1821,1971,1825,1967,4
-2001-06-07,Confederations Cup,played,Japan,JPN,Australia,AUS,TRUE,1,0,win,Yokohama,Japan,FALSE,1825,1833,1844,1814,19
-2001-06-10,Confederations Cup,played,Japan,JPN,France,FRA,TRUE,0,1,loss,Yokohama,Japan,FALSE,1844,2118,1831,2131,-13
-2001-07-01,Kirin Cup,played,Japan,JPN,Paraguay,PRY,TRUE,2,0,win,Sapporo,Japan,FALSE,1831,1887,1851,1867,20
-2001-07-04,Kirin Cup,played,Japan,JPN,Serbia,SRB,TRUE,1,0,win,Ōita,Japan,FALSE,,,,,
-2001-08-15,Friendly,played,Japan,JPN,Australia,AUS,TRUE,3,0,win,Fukuroi,Japan,FALSE,1861,1866,1887,1840,26
-2001-10-04,Friendly,played,Japan,JPN,Senegal,SEN,TRUE,0,2,loss,Lens,France,TRUE,1887,1558,1861,1584,-26
-2001-10-07,Friendly,played,Japan,JPN,Nigeria,NGA,TRUE,2,2,draw,Southampton,England,TRUE,1861,1714,1857,1718,-4
-2001-11-07,Friendly,played,Japan,JPN,Italy,ITA,TRUE,1,1,draw,Saitama,Japan,FALSE,1857,2018,1859,2016,2
-2002-03-21,Friendly,played,Japan,JPN,Ukraine,UKR,TRUE,1,0,win,Osaka,Japan,FALSE,1859,1703,1863,1699,4
-2002-03-27,Friendly,played,Japan,JPN,Poland,POL,FALSE,2,0,win,Łódź,Poland,FALSE,1863,1760,1878,1745,15
-2002-04-17,Friendly,played,Japan,JPN,Costa Rica,CRI,TRUE,1,1,draw,Yokohama,Japan,FALSE,1878,1781,1873,1786,-5
-2002-04-29,Kirin Cup,played,Japan,JPN,Slovakia,SVK,TRUE,1,0,win,Tokyo,Japan,FALSE,1873,1703,1878,1698,5
-2002-05-02,Kirin Cup,played,Japan,JPN,Honduras,HND,TRUE,3,3,draw,Kobe,Japan,FALSE,1878,1749,1869,1758,-9
-2002-05-14,Friendly,played,Japan,JPN,Norway,NOR,FALSE,0,3,loss,Oslo,Norway,FALSE,1869,1748,1850,1767,-19
-2002-05-25,Friendly,played,Japan,JPN,Sweden,SWE,TRUE,1,1,draw,Tokyo,Japan,FALSE,1850,1864,1848,1866,-2
-2002-06-04,FIFA World Cup,played,Japan,JPN,Belgium,BEL,TRUE,2,2,draw,Saitama,Japan,FALSE,1848,1837,1839,1846,-9
-2002-06-09,FIFA World Cup,played,Japan,JPN,Russia,RUS,TRUE,1,0,win,Yokohama,Japan,FALSE,1839,1824,1859,1804,20
-2002-06-14,FIFA World Cup,played,Japan,JPN,Tunisia,TUN,TRUE,2,0,win,Osaka,Japan,FALSE,1859,1614,1870,1603,11
-2002-06-18,FIFA World Cup,played,Japan,JPN,Turkey,TUR,TRUE,0,1,loss,Rifu,Japan,FALSE,1870,1777,1825,1822,-45
-2002-10-16,Friendly,played,Japan,JPN,Jamaica,JAM,TRUE,1,1,draw,Tokyo,Japan,FALSE,1825,1535,1817,1543,-8
-2002-11-20,Friendly,played,Japan,JPN,Argentina,ARG,TRUE,0,2,loss,Saitama,Japan,FALSE,1817,1984,1805,1996,-12
-2003-03-28,Friendly,played,Japan,JPN,Uruguay,URY,TRUE,2,2,draw,Tokyo,Japan,FALSE,1805,1778,1801,1782,-4
-2003-04-16,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,1,0,win,Seoul,South Korea,FALSE,1801,1768,1813,1756,12
-2003-05-31,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,0,1,loss,Tokyo,Japan,FALSE,1813,1756,1799,1770,-14
-2003-06-08,Kirin Cup,played,Japan,JPN,Argentina,ARG,TRUE,1,4,loss,Osaka,Japan,FALSE,1799,2014,1781,2032,-18
-2003-06-11,Kirin Cup,played,Japan,JPN,Paraguay,PRY,TRUE,0,0,draw,Saitama,Japan,FALSE,1781,1774,1777,1778,-4
-2003-06-18,Confederations Cup,played,Japan,JPN,New Zealand,NZL,FALSE,3,0,win,Saint-Denis,France,TRUE,1777,1568,1797,1548,20
-2003-06-20,Confederations Cup,played,Japan,JPN,France,FRA,FALSE,1,2,loss,Saint-Étienne,France,FALSE,1797,1973,1789,1981,-8
-2003-06-22,Confederations Cup,played,Japan,JPN,Colombia,COL,TRUE,0,1,loss,Saint-Étienne,France,TRUE,1789,1856,1769,1876,-20
-2003-08-20,Friendly,played,Japan,JPN,Nigeria,NGA,TRUE,3,0,win,Tokyo,Japan,FALSE,1769,1748,1781,1736,12
-2003-09-10,Friendly,played,Japan,JPN,Senegal,SEN,TRUE,0,1,loss,Niigata,Japan,FALSE,1781,1742,1767,1756,-14
-2003-10-08,Friendly,played,Japan,JPN,Tunisia,TUN,FALSE,1,0,win,Tunis,Tunisia,FALSE,1767,1644,1776,1635,9
-2003-10-11,Friendly,played,Japan,JPN,Romania,ROU,FALSE,1,1,draw,Bucharest,Romania,FALSE,1776,1798,1779,1795,3
-2003-11-19,Friendly,played,Japan,JPN,Cameroon,CMR,TRUE,0,0,draw,Ōita,Japan,FALSE,1779,1780,1776,1783,-3
-2003-12-04,EAFF Championship,played,Japan,JPN,China PR,,TRUE,2,0,win,Tokyo,Japan,FALSE,,,,,
-2003-12-10,EAFF Championship,played,Japan,JPN,South Korea,KOR,TRUE,0,0,draw,Yokohama,Japan,FALSE,1787,1683,1776,1694,-11
-2004-02-07,Friendly,played,Japan,JPN,Malaysia,,TRUE,4,0,win,Kashima,Japan,FALSE,1776,1268,1777,1267,1
-2004-02-12,Friendly,played,Japan,JPN,Iraq,IRQ,TRUE,2,0,win,Tokyo,Japan,FALSE,1777,1616,1782,1611,5
-2004-02-18,FIFA World Cup qualification,played,Japan,JPN,Oman,,TRUE,1,0,win,Saitama,Japan,FALSE,1782,1548,1787,1543,5
-2004-03-31,FIFA World Cup qualification,played,Japan,JPN,Singapore,,FALSE,2,1,win,Singapore,Singapore,FALSE,1787,1169,1789,1167,2
-2004-04-25,Friendly,played,Japan,JPN,Hungary,HUN,FALSE,2,3,loss,Zalaegerszeg,Hungary,FALSE,1789,1542,1775,1556,-14
-2004-04-28,Friendly,played,Japan,JPN,Czechia,CZE,FALSE,1,0,win,Prague,Czech Republic,FALSE,1775,1968,1792,1951,17
-2004-05-30,Friendly,played,Japan,JPN,Iceland,ISL,FALSE,3,2,win,Manchester,England,TRUE,1792,1581,1799,1574,7
-2004-06-01,Friendly,played,Japan,JPN,England,ENG,FALSE,1,1,draw,Manchester,England,FALSE,1799,1943,1808,1934,9
-2004-06-09,FIFA World Cup qualification,played,Japan,JPN,India,,TRUE,7,0,win,Saitama,Japan,FALSE,1808,1164,1809,1163,1
-2004-07-09,Kirin Cup,played,Japan,JPN,Slovakia,SVK,TRUE,3,1,win,Hiroshima,Japan,FALSE,1809,1664,1818,1655,9
-2004-07-13,Kirin Cup,played,Japan,JPN,Serbia and Montenegro,SCG,TRUE,1,0,win,Yokohama,Japan,FALSE,1818,1739,1826,1731,8
-2004-07-20,AFC Asian Cup,played,Japan,JPN,Oman,,TRUE,1,0,win,Chongqing,China PR,TRUE,1826,1563,1835,1554,9
-2004-07-24,AFC Asian Cup,played,Japan,JPN,Thailand,,FALSE,4,1,win,Chongqing,China PR,TRUE,1835,1389,1841,1383,6
-2004-07-28,AFC Asian Cup,played,Japan,JPN,Iran,IRN,TRUE,0,0,draw,Chongqing,China PR,TRUE,1841,1728,1833,1736,-8
-2004-07-31,AFC Asian Cup,played,Japan,JPN,Jordan,,TRUE,1,1,draw,Chongqing,China PR,TRUE,1833,1660,1821,1672,-12
-2004-08-03,AFC Asian Cup,played,Japan,JPN,Bahrain,,FALSE,4,3,win,Jinan,China PR,TRUE,1821,1592,1832,1581,11
-2004-08-07,AFC Asian Cup,played,Japan,JPN,China PR,,FALSE,3,1,win,Beijing,China PR,FALSE,,,,,
-2004-08-18,Friendly,played,Japan,JPN,Argentina,ARG,TRUE,1,2,loss,Fukuroi,Japan,FALSE,1861,2010,1852,2019,-9
-2004-09-08,FIFA World Cup qualification,played,Japan,JPN,India,,FALSE,4,0,win,Calcutta,India,FALSE,1852,1170,1855,1167,3
-2004-10-13,FIFA World Cup qualification,played,Japan,JPN,Oman,,FALSE,1,0,win,Muscat,Oman,FALSE,1855,1601,1867,1589,12
-2004-11-17,FIFA World Cup qualification,played,Japan,JPN,Singapore,,TRUE,1,0,win,Saitama,Japan,FALSE,1867,1166,1867,1166,0
-2004-12-16,Friendly,played,Japan,JPN,Germany,DEU,TRUE,0,3,loss,Yokohama,Japan,FALSE,1867,1876,1845,1898,-22
-2005-01-29,Friendly,played,Japan,JPN,Kazakhstan,,TRUE,4,0,win,Yokohama,Japan,FALSE,1845,1348,1846,1347,1
-2005-02-02,Friendly,played,Japan,JPN,Syria,,TRUE,3,0,win,Saitama,Japan,FALSE,1846,1450,1848,1448,2
-2005-02-09,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,TRUE,2,1,win,Saitama,Japan,FALSE,1848,1466,1850,1464,2
-2005-03-25,FIFA World Cup qualification,played,Japan,JPN,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,1850,1797,1833,1814,-17
-2005-03-30,FIFA World Cup qualification,played,Japan,JPN,Bahrain,,TRUE,1,0,win,Saitama,Japan,FALSE,1833,1614,1838,1609,5
-2005-05-22,Kirin Cup,played,Japan,JPN,Peru,PER,TRUE,0,1,loss,Niigata,Japan,FALSE,1838,1674,1813,1699,-25
-2005-05-27,Kirin Cup,played,Japan,JPN,United Arab Emirates,ARE,TRUE,0,1,loss,Tokyo,Japan,FALSE,1813,1408,1785,1436,-28
-2005-06-03,FIFA World Cup qualification,played,Japan,JPN,Bahrain,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1785,1612,1801,1596,16
-2005-06-08,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,FALSE,2,0,win,Bangkok,Thailand,TRUE,1801,1453,1808,1446,7
-2005-06-16,Confederations Cup,played,Japan,JPN,Mexico,MEX,TRUE,1,2,loss,Hanover,Germany,TRUE,1808,1911,1790,1929,-18
-2005-06-19,Confederations Cup,played,Japan,JPN,Greece,GRC,FALSE,1,0,win,Frankfurt am Main,Germany,TRUE,1790,1847,1819,1818,29
-2005-06-22,Confederations Cup,played,Japan,JPN,Brazil,BRA,TRUE,2,2,draw,Cologne,Germany,TRUE,1819,1966,1829,1956,10
-2005-07-31,EAFF Championship,played,Japan,JPN,North Korea,PRK,FALSE,0,1,loss,Daejeon,South Korea,TRUE,1829,1446,1793,1482,-36
-2005-08-03,EAFF Championship,played,Japan,JPN,China PR,,TRUE,2,2,draw,Daejeon,South Korea,TRUE,,,,,
-2005-08-07,EAFF Championship,played,Japan,JPN,South Korea,KOR,FALSE,1,0,win,Daegu,South Korea,FALSE,1784,1689,1804,1669,20
-2005-08-17,FIFA World Cup qualification,played,Japan,JPN,Iran,IRN,TRUE,2,1,win,Yokohama,Japan,FALSE,1804,1834,1820,1818,16
-2005-09-07,Friendly,played,Japan,JPN,Honduras,HND,TRUE,5,4,win,Rifu,Japan,FALSE,1820,1730,1825,1725,5
-2005-10-08,Friendly,played,Japan,JPN,Latvia,,FALSE,2,2,draw,Riga,Latvia,FALSE,1825,1470,1819,1476,-6
-2005-10-12,Friendly,played,Japan,JPN,Ukraine,UKR,FALSE,0,1,loss,Kyiv,Ukraine,FALSE,1819,1766,1810,1775,-9
-2005-11-16,Friendly,played,Japan,JPN,Angola,AGO,TRUE,1,0,win,Tokyo,Japan,FALSE,1810,1549,1812,1547,2
-2006-02-10,Friendly,played,Japan,JPN,United States,USA,FALSE,2,3,loss,San Francisco,United States,FALSE,1812,1828,1805,1835,-7
-2006-02-18,Friendly,played,Japan,JPN,Finland,,TRUE,2,0,win,Fukuroi,Japan,FALSE,1805,1646,1811,1640,6
-2006-02-22,AFC Asian Cup qualification,played,Japan,JPN,India,,TRUE,6,0,win,Yokohama,Japan,FALSE,1811,1186,1812,1185,1
-2006-02-28,Friendly,played,Japan,JPN,Bosnia and Herzegovina,BIH,FALSE,2,2,draw,Dortmund,Germany,TRUE,1812,1630,1807,1635,-5
-2006-03-30,Friendly,played,Japan,JPN,Ecuador,ECU,TRUE,1,0,win,Ōita,Japan,FALSE,1807,1720,1812,1715,5
-2006-05-09,Kirin Cup,played,Japan,JPN,Bulgaria,BGR,TRUE,1,2,loss,Osaka,Japan,FALSE,1812,1723,1790,1745,-22
-2006-05-13,Kirin Cup,played,Japan,JPN,Scotland,SCO,TRUE,0,0,draw,Saitama,Japan,FALSE,1790,1700,1783,1707,-7
-2006-05-30,Friendly,played,Japan,JPN,Germany,DEU,FALSE,2,2,draw,Leverkusen,Germany,FALSE,1783,1892,1788,1887,5
-2006-06-04,Friendly,played,Japan,JPN,Malta,,TRUE,1,0,win,Düsseldorf,Germany,TRUE,1788,1252,1789,1251,1
-2006-06-12,FIFA World Cup,played,Japan,JPN,Australia,AUS,FALSE,1,3,loss,Kaiserslautern,Germany,TRUE,1789,1798,1745,1842,-44
-2006-06-18,FIFA World Cup,played,Japan,JPN,Croatia,HRV,TRUE,0,0,draw,Nuremberg,Germany,TRUE,1745,1823,1752,1816,7
-2006-06-22,FIFA World Cup,played,Japan,JPN,Brazil,BRA,TRUE,1,4,loss,Dortmund,Germany,TRUE,1752,2070,1737,2085,-15
-2006-08-09,Friendly,played,Japan,JPN,Trinidad and Tobago,TTO,TRUE,2,0,win,Tokyo,Japan,FALSE,1737,1553,1742,1548,5
-2006-08-16,AFC Asian Cup qualification,played,Japan,JPN,Yemen,,TRUE,2,0,win,Niigata,Japan,FALSE,1742,1224,1744,1222,2
-2006-09-03,AFC Asian Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1744,1554,1719,1579,-25
-2006-09-06,AFC Asian Cup qualification,played,Japan,JPN,Yemen,,FALSE,1,0,win,Sana'a,Yemen,FALSE,1719,1220,1723,1216,4
-2006-10-04,Friendly,played,Japan,JPN,Ghana,GHA,TRUE,0,1,loss,Yokohama,Japan,FALSE,1723,1720,1710,1733,-13
-2006-10-11,AFC Asian Cup qualification,played,Japan,JPN,India,,FALSE,3,0,win,Bangalore,India,FALSE,1710,1054,1713,1051,3
-2006-11-15,AFC Asian Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,TRUE,3,1,win,Sapporo,Japan,FALSE,1713,1592,1726,1579,13
-2007-03-24,Friendly,played,Japan,JPN,Peru,PER,TRUE,2,0,win,Yokohama,Japan,FALSE,1726,1631,1733,1624,7
-2007-06-01,Kirin Cup,played,Japan,JPN,Montenegro,,TRUE,2,0,win,Fukuroi,Japan,FALSE,1733,1682,1746,1669,13
-2007-06-05,Kirin Cup,played,Japan,JPN,Colombia,COL,TRUE,0,0,draw,Saitama,Japan,FALSE,1746,1820,1745,1821,-1
-2007-07-09,AFC Asian Cup,played,Japan,JPN,Qatar,QAT,TRUE,1,1,draw,Hanoi,Vietnam,TRUE,1745,1489,1729,1505,-16
-2007-07-13,AFC Asian Cup,played,Japan,JPN,United Arab Emirates,ARE,FALSE,3,1,win,Hanoi,Vietnam,TRUE,1729,1471,1743,1457,14
-2007-07-16,AFC Asian Cup,played,Japan,JPN,Vietnam,,FALSE,4,1,win,Hanoi,Vietnam,FALSE,1743,1337,1756,1324,13
-2007-07-21,AFC Asian Cup,played,Japan,JPN,Australia,AUS,TRUE,1,1,draw,Hanoi,Vietnam,TRUE,1756,1720,1753,1723,-3
-2007-07-25,AFC Asian Cup,played,Japan,JPN,Saudi Arabia,SAU,TRUE,2,3,loss,Hanoi,Vietnam,TRUE,1753,1670,1722,1701,-31
-2007-07-28,AFC Asian Cup,played,Japan,JPN,South Korea,KOR,FALSE,0,0,draw,Palembang,Indonesia,TRUE,1722,1662,1718,1666,-4
-2007-08-22,Friendly,played,Japan,JPN,Cameroon,CMR,TRUE,2,0,win,Ōita,Japan,FALSE,1718,1784,1732,1770,14
-2007-09-07,Friendly,played,Japan,JPN,Austria,AUT,FALSE,0,0,draw,Klagenfurt,Austria,FALSE,1732,1617,1731,1618,-1
-2007-09-11,Friendly,played,Japan,JPN,Switzerland,CHE,FALSE,4,3,win,Klagenfurt,Austria,TRUE,1731,1853,1751,1833,20
-2007-10-17,Friendly,played,Japan,JPN,Egypt,EGY,TRUE,4,1,win,Osaka,Japan,FALSE,1751,1708,1778,1681,27
-2008-01-26,Friendly,played,Japan,JPN,Chile,CHL,TRUE,0,0,draw,Tokyo,Japan,FALSE,1778,1728,1774,1732,-4
-2008-01-30,Friendly,played,Japan,JPN,Bosnia and Herzegovina,BIH,TRUE,3,0,win,Tokyo,Japan,FALSE,1774,1541,1778,1537,4
-2008-02-06,FIFA World Cup qualification,played,Japan,JPN,Thailand,,TRUE,4,1,win,Saitama,Japan,FALSE,1778,1439,1783,1434,5
-2008-02-17,EAFF Championship,played,Japan,JPN,North Korea,PRK,TRUE,1,1,draw,Chongqing,China PR,TRUE,1783,1497,1769,1511,-14
-2008-02-20,EAFF Championship,played,Japan,JPN,China PR,,FALSE,1,0,win,Chongqing,China PR,FALSE,,,,,
-2008-02-23,EAFF Championship,played,Japan,JPN,South Korea,KOR,TRUE,1,1,draw,Chongqing,China PR,TRUE,1783,1675,1777,1681,-6
-2008-03-26,FIFA World Cup qualification,played,Japan,JPN,Bahrain,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1777,1505,1748,1534,-29
-2008-05-24,Kirin Cup,played,Japan,JPN,Ivory Coast,CIV,TRUE,1,0,win,Toyota,Japan,FALSE,1748,1739,1758,1729,10
-2008-05-27,Kirin Cup,played,Japan,JPN,Paraguay,PRY,TRUE,0,0,draw,Saitama,Japan,FALSE,1758,1795,1755,1798,-3
-2008-06-02,FIFA World Cup qualification,played,Japan,JPN,Oman,,TRUE,3,0,win,Yokohama,Japan,FALSE,1755,1513,1764,1504,9
-2008-06-07,FIFA World Cup qualification,played,Japan,JPN,Oman,,FALSE,1,1,draw,Muscat,Oman,FALSE,1764,1504,1755,1513,-9
-2008-06-14,FIFA World Cup qualification,played,Japan,JPN,Thailand,,FALSE,3,0,win,Bangkok,Thailand,FALSE,1755,1424,1770,1409,15
-2008-06-22,FIFA World Cup qualification,played,Japan,JPN,Bahrain,,TRUE,1,0,win,Saitama,Japan,FALSE,1770,1542,1775,1537,5
-2008-08-20,Friendly,played,Japan,JPN,Uruguay,URY,TRUE,1,3,loss,Sapporo,Japan,FALSE,1775,1810,1757,1828,-18
-2008-09-06,FIFA World Cup qualification,played,Japan,JPN,Bahrain,,FALSE,3,2,win,Riffa,Bahrain,FALSE,1757,1553,1771,1539,14
-2008-10-09,Friendly,played,Japan,JPN,United Arab Emirates,ARE,TRUE,1,1,draw,Niigata,Japan,FALSE,1771,1403,1762,1412,-9
-2008-10-15,FIFA World Cup qualification,played,Japan,JPN,Uzbekistan,,TRUE,1,1,draw,Saitama,Japan,FALSE,1762,1538,1747,1553,-15
-2008-11-13,Friendly,played,Japan,JPN,Syria,,TRUE,3,1,win,Kobe,Japan,FALSE,1747,1533,1751,1529,4
-2008-11-19,FIFA World Cup qualification,played,Japan,JPN,Qatar,QAT,FALSE,3,0,win,Doha,Qatar,FALSE,1751,1517,1773,1495,22
-2009-01-20,AFC Asian Cup qualification,played,Japan,JPN,Yemen,,TRUE,2,1,win,Kumamoto,Japan,FALSE,1773,1190,1774,1189,1
-2009-01-28,AFC Asian Cup qualification,played,Japan,JPN,Bahrain,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1774,1525,1746,1553,-28
-2009-02-04,Friendly,played,Japan,JPN,Finland,,TRUE,5,1,win,Tokyo,Japan,FALSE,1746,1671,1756,1661,10
-2009-02-11,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,TRUE,0,0,draw,Yokohama,Japan,FALSE,1756,1740,1750,1746,-6
-2009-03-28,FIFA World Cup qualification,played,Japan,JPN,Bahrain,,TRUE,1,0,win,Saitama,Japan,FALSE,1750,1589,1757,1582,7
-2009-05-27,Kirin Cup,played,Japan,JPN,Chile,CHL,TRUE,4,0,win,Osaka,Japan,FALSE,1757,1811,1781,1787,24
-2009-05-31,Kirin Cup,played,Japan,JPN,Belgium,BEL,TRUE,4,0,win,Tokyo,Japan,FALSE,1781,1592,1790,1583,9
-2009-06-06,FIFA World Cup qualification,played,Japan,JPN,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1790,1554,1803,1541,13
-2009-06-10,FIFA World Cup qualification,played,Japan,JPN,Qatar,QAT,TRUE,1,1,draw,Yokohama,Japan,FALSE,1803,1520,1787,1536,-16
-2009-06-17,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,FALSE,1,2,loss,Melbourne,Australia,FALSE,1787,1729,1769,1747,-18
-2009-09-05,Friendly,played,Japan,JPN,Netherlands,NLD,FALSE,0,3,loss,Enschede,Netherlands,FALSE,1769,2032,1765,2036,-4
-2009-09-09,Friendly,played,Japan,JPN,Ghana,GHA,TRUE,4,3,win,Utrecht,Netherlands,TRUE,1765,1750,1775,1740,10
-2009-10-08,AFC Asian Cup qualification,played,Japan,JPN,Hong Kong,,TRUE,6,0,win,Shizuoka,Japan,FALSE,1775,1235,1777,1233,2
-2009-10-10,Friendly,played,Japan,JPN,Scotland,SCO,TRUE,2,0,win,Yokohama,Japan,FALSE,1777,1695,1785,1687,8
-2009-10-14,Friendly,played,Japan,JPN,Togo,TGO,TRUE,5,0,win,Miyagi,Japan,FALSE,1785,1449,1788,1446,3
-2009-11-14,Friendly,played,Japan,JPN,South Africa,ZAF,FALSE,0,0,draw,Port Elizabeth,South Africa,FALSE,1788,1514,1783,1519,-5
-2009-11-18,AFC Asian Cup qualification,played,Japan,JPN,Hong Kong,,FALSE,4,0,win,So Kon Po,Hong Kong,FALSE,1783,1233,1788,1228,5
-2010-01-06,AFC Asian Cup qualification,played,Japan,JPN,Yemen,,FALSE,3,2,win,Sana'a,Yemen,FALSE,1788,1212,1790,1210,2
-2010-02-02,Friendly,played,Japan,JPN,Venezuela,,TRUE,0,0,draw,Ōita,Japan,FALSE,1790,1721,1785,1726,-5
-2010-02-06,EAFF Championship,played,Japan,JPN,China PR,,TRUE,0,0,draw,Tokyo,Japan,FALSE,,,,,
-2010-02-11,EAFF Championship,played,Japan,JPN,Hong Kong,,TRUE,3,0,win,Tokyo,Japan,FALSE,1770,1220,1772,1218,2
-2010-02-14,EAFF Championship,played,Japan,JPN,South Korea,KOR,TRUE,1,3,loss,Tokyo,Japan,FALSE,1772,1696,1728,1740,-44
-2010-03-03,AFC Asian Cup qualification,played,Japan,JPN,Bahrain,,TRUE,2,0,win,Toyota,Japan,FALSE,1728,1535,1737,1526,9
-2010-04-07,Friendly,played,Japan,JPN,Serbia,SRB,TRUE,0,3,loss,Osaka,Japan,FALSE,1737,1841,1720,1858,-17
-2010-05-24,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,0,2,loss,Saitama,Japan,FALSE,1720,1765,1703,1782,-17
-2010-05-30,Friendly,played,Japan,JPN,England,ENG,TRUE,1,2,loss,Graz,Austria,TRUE,1703,1998,1700,2001,-3
-2010-06-04,Friendly,played,Japan,JPN,Ivory Coast,CIV,TRUE,0,2,loss,Sion,Switzerland,TRUE,1700,1725,1686,1739,-14
-2010-06-14,FIFA World Cup,played,Japan,JPN,Cameroon,CMR,TRUE,1,0,win,Bloemfontein,South Africa,TRUE,1678,1694,1709,1663,31
-2010-06-19,FIFA World Cup,played,Japan,JPN,Netherlands,NLD,FALSE,0,1,loss,Durban,South Africa,TRUE,1709,2059,1702,2066,-7
-2010-06-24,FIFA World Cup,played,Japan,JPN,Denmark,DNK,FALSE,3,1,win,Rustenburg,South Africa,TRUE,1702,1784,1757,1729,55
-2010-06-29,FIFA World Cup,played,Japan,JPN,Paraguay,PRY,FALSE,0,0,draw,Pretoria,South Africa,TRUE,1757,1790,1760,1787,3
-2010-09-04,Friendly,played,Japan,JPN,Paraguay,PRY,TRUE,1,0,win,Yokohama,Japan,FALSE,1760,1787,1768,1779,8
-2010-09-07,Friendly,played,Japan,JPN,Guatemala,,TRUE,2,1,win,Osaka,Japan,FALSE,1768,1450,1770,1448,2
-2010-10-08,Friendly,played,Japan,JPN,Argentina,ARG,TRUE,1,0,win,Saitama,Japan,FALSE,1770,1992,1783,1979,13
-2010-10-12,Friendly,played,Japan,JPN,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1783,1737,1785,1735,2
-2011-01-09,AFC Asian Cup,played,Japan,JPN,Jordan,,TRUE,1,1,draw,Doha,Qatar,TRUE,1785,1472,1767,1490,-18
-2011-01-13,AFC Asian Cup,played,Japan,JPN,Syria,,FALSE,2,1,win,Doha,Qatar,TRUE,1767,1552,1778,1541,11
-2011-01-17,AFC Asian Cup,played,Japan,JPN,Saudi Arabia,SAU,FALSE,5,0,win,Al Rayyan,Qatar,TRUE,1778,1584,1803,1559,25
-2011-01-21,AFC Asian Cup,played,Japan,JPN,Qatar,QAT,FALSE,3,2,win,Doha,Qatar,FALSE,1803,1557,1818,1542,15
-2011-01-25,AFC Asian Cup,played,Japan,JPN,South Korea,KOR,TRUE,2,2,draw,Doha,Qatar,TRUE,1818,1776,1815,1779,-3
-2011-01-29,AFC Asian Cup,played,Japan,JPN,Australia,AUS,FALSE,1,0,win,Doha,Qatar,TRUE,1815,1818,1840,1793,25
-2011-06-01,Kirin Cup,played,Japan,JPN,Peru,PER,TRUE,0,0,draw,Niigata,Japan,FALSE,1840,1637,1829,1648,-11
-2011-06-07,Kirin Cup,played,Japan,JPN,Czechia,CZE,TRUE,0,0,draw,Yokohama,Japan,FALSE,1829,1730,1821,1738,-8
-2011-08-10,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,3,0,win,Sapporo,Japan,FALSE,1821,1815,1833,1803,12
-2011-09-02,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,TRUE,1,0,win,Saitama,Japan,FALSE,1833,1496,1836,1493,3
-2011-09-06,FIFA World Cup qualification,played,Japan,JPN,Uzbekistan,,FALSE,1,1,draw,Tashkent,Uzbekistan,FALSE,1836,1579,1828,1587,-8
-2011-10-07,Friendly,played,Japan,JPN,Vietnam,,TRUE,1,0,win,Kobe,Japan,FALSE,1828,1275,1828,1275,0
-2011-10-11,FIFA World Cup qualification,played,Japan,JPN,Tajikistan,,TRUE,8,0,win,Osaka,Japan,FALSE,1828,1255,1830,1253,2
-2011-11-11,FIFA World Cup qualification,played,Japan,JPN,Tajikistan,,FALSE,4,0,win,Dushanbe,Tajikistan,FALSE,1830,1253,1835,1248,5
-2011-11-15,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,FALSE,0,1,loss,Pyongyang,North Korea,FALSE,1835,1469,1802,1502,-33
-2012-02-24,Friendly,played,Japan,JPN,Iceland,ISL,TRUE,3,1,win,Osaka,Japan,FALSE,1802,1441,1804,1439,2
-2012-02-29,FIFA World Cup qualification,played,Japan,JPN,Uzbekistan,,TRUE,0,1,loss,Toyota,Japan,FALSE,1804,1593,1770,1627,-34
-2012-05-23,Friendly,played,Japan,JPN,Azerbaijan,,TRUE,2,0,win,Shizuoka,Japan,FALSE,1770,1388,1772,1386,2
-2012-06-03,FIFA World Cup qualification,played,Japan,JPN,Oman,,TRUE,3,0,win,Saitama,Japan,FALSE,1772,1521,1780,1513,8
-2012-06-08,FIFA World Cup qualification,played,Japan,JPN,Jordan,,TRUE,6,0,win,Saitama,Japan,FALSE,1780,1559,1792,1547,12
-2012-06-12,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,FALSE,1,1,draw,Brisbane,Australia,FALSE,1792,1801,1798,1795,6
-2012-08-15,Friendly,played,Japan,JPN,Venezuela,,TRUE,1,1,draw,Sapporo,Japan,FALSE,1798,1693,1793,1698,-5
-2012-09-06,Friendly,played,Japan,JPN,United Arab Emirates,ARE,TRUE,1,0,win,Niigata,Japan,FALSE,1793,1421,1794,1420,1
-2012-09-11,FIFA World Cup qualification,played,Japan,JPN,Iraq,IRQ,TRUE,1,0,win,Saitama,Japan,FALSE,1794,1612,1801,1605,7
-2012-10-12,Friendly,played,Japan,JPN,France,FRA,FALSE,1,0,win,Saint-Denis,France,FALSE,1801,1874,1816,1859,15
-2012-10-16,Friendly,played,Japan,JPN,Brazil,BRA,TRUE,0,4,loss,Wrocław,Poland,TRUE,1816,2073,1809,2080,-7
-2012-11-14,FIFA World Cup qualification,played,Japan,JPN,Oman,,FALSE,2,1,win,Muscat,Oman,FALSE,1809,1528,1819,1518,10
-2013-02-06,Friendly,played,Japan,JPN,Latvia,,TRUE,3,0,win,Kobe,Japan,FALSE,1819,1510,1822,1507,3
-2013-03-22,Friendly,played,Japan,JPN,Canada,CAN,TRUE,2,1,win,Doha,Qatar,TRUE,1822,1591,1826,1587,4
-2013-03-26,FIFA World Cup qualification,played,Japan,JPN,Jordan,,FALSE,1,2,loss,Amman,Jordan,FALSE,1826,1514,1795,1545,-31
-2013-05-30,Kirin Challenge Cup,played,Japan,JPN,Bulgaria,BGR,TRUE,0,2,loss,Toyota,Japan,FALSE,1795,1677,1772,1700,-23
-2013-06-04,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,TRUE,1,1,draw,Saitama,Japan,FALSE,1772,1747,1765,1754,-7
-2013-06-11,FIFA World Cup qualification,played,Japan,JPN,Iraq,IRQ,FALSE,1,0,win,Doha,Qatar,TRUE,1765,1568,1775,1558,10
-2013-06-15,Confederations Cup,played,Japan,JPN,Brazil,BRA,FALSE,0,3,loss,Brasília,Brazil,FALSE,1775,2042,1766,2051,-9
-2013-06-19,Confederations Cup,played,Japan,JPN,Italy,ITA,FALSE,3,4,loss,Recife,Brazil,TRUE,1766,1931,1752,1945,-14
-2013-06-22,Confederations Cup,played,Japan,JPN,Mexico,MEX,TRUE,1,2,loss,Belo Horizonte,Brazil,TRUE,1752,1829,1732,1849,-20
-2013-07-21,EAFF Championship,played,Japan,JPN,China PR,,TRUE,3,3,draw,Seoul,South Korea,TRUE,,,,,
-2013-07-25,EAFF Championship,played,Japan,JPN,Australia,AUS,TRUE,3,2,win,Hwaseong,South Korea,TRUE,1723,1774,1746,1751,23
-2013-07-28,EAFF Championship,played,Japan,JPN,South Korea,KOR,FALSE,2,1,win,Seoul,South Korea,FALSE,1746,1704,1769,1681,23
-2013-08-14,Friendly,played,Japan,JPN,Uruguay,URY,TRUE,2,4,loss,Rifu,Japan,FALSE,1769,1855,1753,1871,-16
-2013-09-06,Friendly,played,Japan,JPN,Guatemala,,TRUE,3,0,win,Osaka,Japan,FALSE,1753,1481,1757,1477,4
-2013-09-10,Friendly,played,Japan,JPN,Ghana,GHA,TRUE,3,1,win,Saitama,Japan,FALSE,1757,1697,1766,1688,9
-2013-10-11,Friendly,played,Japan,JPN,Serbia,SRB,FALSE,0,2,loss,Novi Sad,Serbia,FALSE,1766,1727,1754,1739,-12
-2013-10-15,Friendly,played,Japan,JPN,Belarus,,FALSE,0,1,loss,Minsk,Belarus,FALSE,1754,1582,1742,1594,-12
-2013-11-16,Friendly,played,Japan,JPN,Netherlands,NLD,FALSE,2,2,draw,Genk,Belgium,TRUE,1742,2015,1749,2008,7
-2013-11-19,Friendly,played,Japan,JPN,Belgium,BEL,FALSE,3,2,win,Brussels,Belgium,FALSE,1749,1850,1764,1835,15
-2014-03-05,Friendly,played,Japan,JPN,New Zealand,NZL,TRUE,4,2,win,Tokyo,Japan,FALSE,1764,1547,1768,1543,4
-2014-05-27,Friendly,played,Japan,JPN,Cyprus,,TRUE,1,0,win,Saitama,Japan,FALSE,1768,1386,1769,1385,1
-2014-06-02,Friendly,played,Japan,JPN,Costa Rica,CRI,FALSE,3,1,win,Tampa,United States,TRUE,1769,1724,1782,1711,13
-2014-06-06,Friendly,played,Japan,JPN,Zambia,,TRUE,4,3,win,Tampa,United States,TRUE,1782,1486,1785,1483,3
-2014-06-14,FIFA World Cup,played,Japan,JPN,Ivory Coast,CIV,FALSE,1,2,loss,Recife,Brazil,TRUE,1785,1772,1754,1803,-31
-2014-06-19,FIFA World Cup,played,Japan,JPN,Greece,GRC,TRUE,0,0,draw,Natal,Brazil,TRUE,1754,1785,1757,1782,3
-2014-06-24,FIFA World Cup,played,Japan,JPN,Colombia,COL,TRUE,1,4,loss,Cuiabá,Brazil,TRUE,1757,1977,1734,2000,-23
-2014-09-05,Kirin Challenge Cup,played,Japan,JPN,Uruguay,URY,TRUE,0,2,loss,Sapporo,Japan,FALSE,1734,1879,1721,1892,-13
-2014-09-09,Friendly,played,Japan,JPN,Venezuela,,TRUE,2,2,draw,Yokohama,Japan,FALSE,1721,1683,1717,1687,-4
-2014-10-10,Friendly,played,Japan,JPN,Jamaica,JAM,TRUE,1,0,win,Niigata,Japan,FALSE,1717,1509,1720,1506,3
-2014-10-14,Friendly,played,Japan,JPN,Brazil,BRA,TRUE,0,4,loss,Kallang,Singapore,TRUE,1720,2024,1714,2030,-6
-2014-11-14,Friendly,played,Japan,JPN,Honduras,HND,TRUE,6,0,win,Toyota,Japan,FALSE,1714,1556,1722,1548,8
-2014-11-18,Friendly,played,Japan,JPN,Australia,AUS,TRUE,2,1,win,Osaka,Japan,FALSE,1722,1658,1728,1652,6
-2015-01-12,AFC Asian Cup,played,Japan,JPN,Palestine,,TRUE,4,0,win,Newcastle,Australia,TRUE,1728,1341,1737,1332,9
-2015-01-16,AFC Asian Cup,played,Japan,JPN,Iraq,IRQ,FALSE,1,0,win,Brisbane,Australia,TRUE,1737,1532,1749,1520,12
-2015-01-20,AFC Asian Cup,played,Japan,JPN,Jordan,,TRUE,2,0,win,Melbourne,Australia,TRUE,1749,1525,1765,1509,16
-2015-01-23,AFC Asian Cup,played,Japan,JPN,United Arab Emirates,ARE,TRUE,1,1,draw,Sydney,Australia,TRUE,1765,1669,1758,1676,-7
-2015-03-27,Kirin Challenge Cup,played,Japan,JPN,Tunisia,TUN,TRUE,2,0,win,Ōita,Japan,FALSE,1758,1565,1763,1560,5
-2015-03-31,Friendly,played,Japan,JPN,Uzbekistan,,TRUE,5,1,win,Chōfu,Japan,FALSE,1763,1631,1771,1623,8
-2015-06-11,Kirin Challenge Cup,played,Japan,JPN,Iraq,IRQ,TRUE,4,0,win,Yokohama,Japan,FALSE,1771,1533,1776,1528,5
-2015-06-16,FIFA World Cup qualification,played,Japan,JPN,Singapore,,TRUE,0,0,draw,Saitama,Japan,FALSE,1776,1178,1757,1197,-19
-2015-08-02,EAFF Championship,played,Japan,JPN,North Korea,PRK,FALSE,1,2,loss,Wuhan,China PR,TRUE,1757,1499,1724,1532,-33
-2015-08-05,EAFF Championship,played,Japan,JPN,South Korea,KOR,TRUE,1,1,draw,Wuhan,China PR,TRUE,1724,1775,1727,1772,3
-2015-08-09,EAFF Championship,played,Japan,JPN,China PR,,FALSE,1,1,draw,Wuhan,China PR,FALSE,,,,,
-2015-09-03,FIFA World Cup qualification,played,Japan,JPN,Cambodia,,TRUE,3,0,win,Saitama,Japan,FALSE,1725,734,1725,734,0
-2015-09-08,FIFA World Cup qualification,played,Japan,JPN,Afghanistan,,FALSE,6,0,win,Tehran,Iran,TRUE,1725,1097,1727,1095,2
-2015-10-08,FIFA World Cup qualification,played,Japan,JPN,Syria,,FALSE,3,0,win,Seeb,Oman,TRUE,1727,1520,1743,1504,16
-2015-10-13,Friendly,played,Japan,JPN,Iran,IRN,FALSE,1,1,draw,Tehran,Iran,FALSE,1743,1727,1745,1725,2
-2015-11-12,FIFA World Cup qualification,played,Japan,JPN,Singapore,,FALSE,3,0,win,Kallang,Singapore,FALSE,1745,1200,1750,1195,5
-2015-11-17,FIFA World Cup qualification,played,Japan,JPN,Cambodia,,FALSE,2,0,win,Phnom Penh,Cambodia,FALSE,1750,731,1750,731,0
-2016-03-24,FIFA World Cup qualification,played,Japan,JPN,Afghanistan,,TRUE,5,0,win,Saitama,Japan,FALSE,1750,1131,1751,1130,1
-2016-03-29,FIFA World Cup qualification,played,Japan,JPN,Syria,,TRUE,5,0,win,Saitama,Japan,FALSE,1751,1530,1762,1519,11
-2016-06-03,Kirin Cup,played,Japan,JPN,Bulgaria,BGR,TRUE,7,2,win,Toyota,Japan,FALSE,1762,1614,1774,1602,12
-2016-06-07,Kirin Cup,played,Japan,JPN,Bosnia and Herzegovina,BIH,TRUE,1,2,loss,Suita,Japan,FALSE,1774,1741,1754,1761,-20
-2016-09-01,FIFA World Cup qualification,played,Japan,JPN,United Arab Emirates,ARE,TRUE,1,2,loss,Saitama,Japan,FALSE,1754,1565,1720,1599,-34
-2016-09-06,FIFA World Cup qualification,played,Japan,JPN,Thailand,,FALSE,2,0,win,Bangkok,Thailand,FALSE,1720,1419,1734,1405,14
-2016-10-06,FIFA World Cup qualification,played,Japan,JPN,Iraq,IRQ,TRUE,2,1,win,Saitama,Japan,FALSE,1734,1460,1738,1456,4
-2016-10-11,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,FALSE,1,1,draw,Melbourne,Australia,FALSE,1738,1730,1743,1725,5
-2016-11-11,Kirin Challenge Cup,played,Japan,JPN,Oman,,TRUE,4,0,win,Kashima,Japan,FALSE,1743,1465,1747,1461,4
-2016-11-15,FIFA World Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,TRUE,2,1,win,Saitama,Japan,FALSE,1747,1587,1754,1580,7
-2017-03-23,FIFA World Cup qualification,played,Japan,JPN,United Arab Emirates,ARE,FALSE,2,0,win,Al Ain,United Arab Emirates,FALSE,1754,1585,1778,1561,24
-2017-03-28,FIFA World Cup qualification,played,Japan,JPN,Thailand,,TRUE,4,0,win,Saitama,Japan,FALSE,1778,1393,1782,1389,4
-2017-06-07,Kirin Challenge Cup,played,Japan,JPN,Syria,,TRUE,1,1,draw,Chōfu,Japan,FALSE,1782,1566,1775,1573,-7
-2017-06-13,FIFA World Cup qualification,played,Japan,JPN,Iraq,IRQ,FALSE,1,1,draw,Tehran,Iran,TRUE,1775,1509,1762,1522,-13
-2017-08-31,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,TRUE,2,0,win,Saitama,Japan,FALSE,1762,1723,1781,1704,19
-2017-09-05,FIFA World Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1781,1590,1756,1615,-25
-2017-10-06,Kirin Challenge Cup,played,Japan,JPN,New Zealand,NZL,TRUE,2,1,win,Toyota,Japan,FALSE,1756,1517,1758,1515,2
-2017-10-10,Kirin Challenge Cup,played,Japan,JPN,Haiti,HTI,TRUE,3,3,draw,Yokohama,Japan,FALSE,1758,1471,1750,1479,-8
-2017-11-10,Friendly,played,Japan,JPN,Brazil,BRA,TRUE,1,3,loss,Villeneuve-d'Ascq,France,TRUE,1750,2112,1747,2115,-3
-2017-11-14,Friendly,played,Japan,JPN,Belgium,BEL,FALSE,0,1,loss,Bruges,Belgium,FALSE,1747,1924,1744,1927,-3
-2017-12-09,EAFF Championship,played,Japan,JPN,North Korea,PRK,TRUE,1,0,win,Chōfu,Japan,FALSE,1744,1455,1748,1451,4
-2017-12-12,EAFF Championship,played,Japan,JPN,China PR,,TRUE,2,1,win,Chōfu,Japan,FALSE,,,,,
-2017-12-16,EAFF Championship,played,Japan,JPN,South Korea,KOR,TRUE,1,4,loss,Chōfu,Japan,FALSE,1755,1711,1706,1760,-49
-2018-03-23,Friendly,played,Japan,JPN,Mali,,TRUE,1,1,draw,Liège,Belgium,TRUE,1706,1511,1701,1516,-5
-2018-03-27,Friendly,played,Japan,JPN,Ukraine,UKR,FALSE,1,2,loss,Liège,Belgium,TRUE,1701,1733,1692,1742,-9
-2018-05-30,Friendly,played,Japan,JPN,Ghana,GHA,TRUE,0,2,loss,Yokohama,Japan,FALSE,1692,1613,1670,1635,-22
-2018-06-08,Friendly,played,Japan,JPN,Switzerland,CHE,FALSE,0,2,loss,Lugano,Switzerland,FALSE,1670,1884,1666,1888,-4
-2018-06-12,Friendly,played,Japan,JPN,Paraguay,PRY,TRUE,4,2,win,Innsbruck,Austria,TRUE,1666,1745,1684,1727,18
-2018-06-19,FIFA World Cup,played,Japan,JPN,Colombia,COL,FALSE,2,1,win,Saransk,Russia,TRUE,1684,1927,1732,1879,48
-2018-06-24,FIFA World Cup,played,Japan,JPN,Senegal,SEN,TRUE,2,2,draw,Ekaterinburg,Russia,TRUE,1732,1782,1736,1778,4
-2018-06-28,FIFA World Cup,played,Japan,JPN,Poland,POL,TRUE,0,1,loss,Volgograd,Russia,TRUE,1736,1753,1707,1782,-29
-2018-07-02,FIFA World Cup,played,Japan,JPN,Belgium,BEL,FALSE,2,3,loss,Rostov-on-Don,Russia,TRUE,1707,1999,1698,2008,-9
-2018-09-11,Kirin Challenge Cup,played,Japan,JPN,Costa Rica,CRI,TRUE,3,0,win,Suita,Japan,FALSE,1698,1715,1711,1702,13
-2018-10-12,Kirin Challenge Cup,played,Japan,JPN,Panama,PAN,TRUE,3,0,win,Niigata,Japan,FALSE,1711,1579,1718,1572,7
-2018-10-16,Kirin Challenge Cup,played,Japan,JPN,Uruguay,URY,TRUE,4,3,win,Saitama,Japan,FALSE,1718,1943,1731,1930,13
-2018-11-16,Kirin Challenge Cup,played,Japan,JPN,Venezuela,,TRUE,1,1,draw,Ōita,Japan,FALSE,1731,1752,1729,1754,-2
-2018-11-20,Kirin Challenge Cup,played,Japan,JPN,Kyrgyzstan,,TRUE,4,0,win,Toyota,Japan,FALSE,1729,1266,1730,1265,1
-2019-01-09,AFC Asian Cup,played,Japan,JPN,Turkmenistan,,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,TRUE,1730,1253,1733,1250,3
-2019-01-13,AFC Asian Cup,played,Japan,JPN,Oman,,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1733,1516,1744,1505,11
-2019-01-17,AFC Asian Cup,played,Japan,JPN,Uzbekistan,,TRUE,2,1,win,Al Ain,United Arab Emirates,TRUE,1744,1622,1761,1605,17
-2019-01-21,AFC Asian Cup,played,Japan,JPN,Saudi Arabia,SAU,TRUE,1,0,win,Sharjah,United Arab Emirates,TRUE,1761,1588,1774,1575,13
-2019-01-24,AFC Asian Cup,played,Japan,JPN,Vietnam,,FALSE,1,0,win,Dubai,United Arab Emirates,TRUE,1774,1360,1778,1356,4
-2019-01-28,AFC Asian Cup,played,Japan,JPN,Iran,IRN,FALSE,3,0,win,Al Ain,United Arab Emirates,TRUE,1778,1841,1830,1789,52
-2019-02-01,AFC Asian Cup,played,Japan,JPN,Qatar,QAT,TRUE,1,3,loss,Abu Dhabi,United Arab Emirates,TRUE,1830,1722,1781,1771,-49
-2019-03-22,Kirin Challenge Cup,played,Japan,JPN,Colombia,COL,TRUE,0,1,loss,Yokohama,Japan,FALSE,1781,1960,1773,1968,-8
-2019-03-26,Kirin Challenge Cup,played,Japan,JPN,Bolivia,BOL,TRUE,1,0,win,Kobe,Japan,FALSE,1773,1642,1777,1638,4
-2019-06-05,Kirin Challenge Cup,played,Japan,JPN,Trinidad and Tobago,TTO,TRUE,0,0,draw,Toyota,Japan,FALSE,1777,1430,1768,1439,-9
-2019-06-09,Kirin Challenge Cup,played,Japan,JPN,El Salvador,SLV,TRUE,2,0,win,Rifu,Japan,FALSE,1768,1536,1772,1532,4
-2019-06-17,Copa América,played,Japan,JPN,Chile,CHL,TRUE,0,4,loss,São Paulo,Brazil,TRUE,1772,1836,1734,1874,-38
-2019-06-20,Copa América,played,Japan,JPN,Uruguay,URY,FALSE,2,2,draw,Porto Alegre,Brazil,TRUE,1734,1958,1748,1944,14
-2019-06-24,Copa América,played,Japan,JPN,Ecuador,ECU,FALSE,1,1,draw,Belo Horizonte,Brazil,TRUE,1748,1713,1745,1716,-3
-2019-09-05,Kirin Challenge Cup,played,Japan,JPN,Paraguay,PRY,TRUE,2,0,win,Kashima,Japan,FALSE,1745,1736,1755,1726,10
-2019-09-10,FIFA World Cup qualification,played,Japan,JPN,Myanmar,,FALSE,2,0,win,Yangon,Myanmar,FALSE,1755,1023,1757,1021,2
-2019-10-10,FIFA World Cup qualification,played,Japan,JPN,Mongolia,,TRUE,6,0,win,Saitama,Japan,FALSE,1757,733,1757,733,0
-2019-10-15,FIFA World Cup qualification,played,Japan,JPN,Tajikistan,,FALSE,3,0,win,Dushanbe,Tajikistan,FALSE,1757,1274,1764,1267,7
-2019-11-14,FIFA World Cup qualification,played,Japan,JPN,Kyrgyzstan,,FALSE,2,0,win,Bishkek,Kyrgyzstan,FALSE,1764,1287,1770,1281,6
-2019-11-19,Kirin Challenge Cup,played,Japan,JPN,Venezuela,,TRUE,1,4,loss,Suita,Japan,FALSE,1770,1809,1749,1830,-21
-2019-12-10,EAFF Championship,played,Japan,JPN,China PR,,FALSE,2,1,win,Busan,South Korea,TRUE,,,,,
-2019-12-14,EAFF Championship,played,Japan,JPN,Hong Kong,,TRUE,5,0,win,Busan,South Korea,TRUE,1755,1185,1758,1182,3
-2019-12-18,EAFF Championship,played,Japan,JPN,South Korea,KOR,FALSE,0,1,loss,Busan,South Korea,FALSE,1758,1758,1744,1772,-14
-2020-10-09,Friendly,played,Japan,JPN,Cameroon,CMR,TRUE,0,0,draw,Utrecht,Netherlands,TRUE,1744,1578,1740,1582,-4
-2020-10-13,Friendly,played,Japan,JPN,Ivory Coast,CIV,TRUE,1,0,win,Utrecht,Netherlands,TRUE,1740,1624,1747,1617,7
-2020-11-13,Friendly,played,Japan,JPN,Panama,PAN,TRUE,1,0,win,Graz,Austria,TRUE,1747,1547,1752,1542,5
-2020-11-17,Friendly,played,Japan,JPN,Mexico,MEX,TRUE,0,2,loss,Graz,Austria,TRUE,1752,1920,1744,1928,-8
-2021-03-25,Friendly,played,Japan,JPN,South Korea,KOR,TRUE,3,0,win,Yokohama,Japan,FALSE,1744,1773,1758,1759,14
-2021-03-30,FIFA World Cup qualification,played,Japan,JPN,Mongolia,,TRUE,14,0,win,Chiba,Japan,FALSE,1758,731,1758,731,0
-2021-05-28,FIFA World Cup qualification,played,Japan,JPN,Myanmar,,TRUE,10,0,win,Chiba,Japan,FALSE,1758,1051,1759,1050,1
-2021-06-07,FIFA World Cup qualification,played,Japan,JPN,Tajikistan,,TRUE,4,1,win,Suita,Japan,FALSE,1759,1255,1761,1253,2
-2021-06-11,Kirin Challenge Cup,played,Japan,JPN,Serbia,SRB,TRUE,1,0,win,Kobe,Japan,FALSE,1761,1793,1769,1785,8
-2021-06-15,FIFA World Cup qualification,played,Japan,JPN,Kyrgyzstan,,TRUE,5,1,win,Suita,Japan,FALSE,1769,1258,1771,1256,2
-2021-09-02,FIFA World Cup qualification,played,Japan,JPN,Oman,,TRUE,0,1,loss,Suita,Japan,FALSE,1771,1504,1735,1540,-36
-2021-09-07,FIFA World Cup qualification,played,Japan,JPN,China PR,,FALSE,1,0,win,Doha,Qatar,TRUE,,,,,
-2021-10-07,FIFA World Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1743,1638,1723,1658,-20
-2021-10-12,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,TRUE,2,1,win,Saitama,Japan,FALSE,1723,1774,1740,1757,17
-2021-11-11,FIFA World Cup qualification,played,Japan,JPN,Vietnam,,FALSE,1,0,win,Hanoi,Vietnam,FALSE,1740,1375,1747,1368,7
-2021-11-16,FIFA World Cup qualification,played,Japan,JPN,Oman,,FALSE,1,0,win,Muscat,Oman,FALSE,1747,1519,1760,1506,13
-2022-01-27,FIFA World Cup qualification,played,Japan,JPN,China PR,,TRUE,2,0,win,Saitama,Japan,FALSE,,,,,
-2022-02-01,FIFA World Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,TRUE,2,0,win,Saitama,Japan,FALSE,1767,1638,1780,1625,13
-2022-03-24,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,FALSE,2,0,win,Sydney,Australia,FALSE,1780,1732,1814,1698,34
-2022-03-29,FIFA World Cup qualification,played,Japan,JPN,Vietnam,,TRUE,1,1,draw,Saitama,Japan,FALSE,1814,1355,1796,1373,-18
-2022-06-02,Friendly,played,Japan,JPN,Paraguay,PRY,TRUE,4,1,win,Sapporo,Japan,FALSE,1796,1728,1806,1718,10
-2022-06-06,Friendly,played,Japan,JPN,Brazil,BRA,TRUE,0,1,loss,Tokyo,Japan,FALSE,1806,2162,1802,2166,-4
-2022-06-10,Kirin Cup,played,Japan,JPN,Ghana,GHA,TRUE,4,1,win,Kobe,Japan,FALSE,1802,1533,1808,1527,6
-2022-06-14,Kirin Cup,played,Japan,JPN,Tunisia,TUN,TRUE,0,3,loss,Suita,Japan,FALSE,1808,1642,1765,1685,-43
-2022-07-19,EAFF Championship,played,Japan,JPN,Hong Kong,,TRUE,6,0,win,Kashima,Japan,FALSE,1765,1151,1766,1150,1
-2022-07-24,EAFF Championship,played,Japan,JPN,China PR,,TRUE,0,0,draw,Toyota,Japan,FALSE,,,,,
-2022-07-27,EAFF Championship,played,Japan,JPN,South Korea,KOR,TRUE,3,0,win,Toyota,Japan,FALSE,1749,1815,1781,1783,32
-2022-09-23,Kirin Challenge Cup,played,Japan,JPN,United States,USA,TRUE,2,0,win,Düsseldorf,Germany,TRUE,1781,1818,1798,1801,17
-2022-09-27,Kirin Challenge Cup,played,Japan,JPN,Ecuador,ECU,FALSE,0,0,draw,Düsseldorf,Germany,TRUE,1798,1841,1799,1840,1
-2022-11-17,Friendly,played,Japan,JPN,Canada,CAN,TRUE,1,2,loss,Dubai,United Arab Emirates,TRUE,1799,1764,1788,1775,-11
-2022-11-23,FIFA World Cup,played,Japan,JPN,Germany,DEU,FALSE,2,1,win,Al Rayyan,Qatar,TRUE,1788,1962,1832,1918,44
-2022-11-27,FIFA World Cup,played,Japan,JPN,Costa Rica,CRI,TRUE,0,1,loss,Al Rayyan,Qatar,TRUE,1832,1723,1793,1762,-39
-2022-12-01,FIFA World Cup,played,Japan,JPN,Spain,ESP,TRUE,2,1,win,Al Rayyan,Qatar,TRUE,1793,2056,1842,2007,49
-2022-12-05,FIFA World Cup,played,Japan,JPN,Croatia,HRV,TRUE,1,1,draw,Al Wakrah,Qatar,TRUE,1842,1944,1851,1935,9
-2023-03-24,Friendly,played,Japan,JPN,Uruguay,URY,TRUE,1,1,draw,Tokyo,Japan,FALSE,1851,1904,1850,1905,-1
-2023-03-28,Friendly,played,Japan,JPN,Colombia,COL,TRUE,1,2,loss,Osaka,Japan,FALSE,1850,1918,1839,1929,-11
-2023-06-15,Friendly,played,Japan,JPN,El Salvador,SLV,TRUE,6,0,win,Toyota,Japan,FALSE,1839,1469,1842,1466,3
-2023-06-20,Friendly,played,Japan,JPN,Peru,PER,TRUE,4,1,win,Suita,Japan,FALSE,1842,1856,1855,1843,13
-2023-09-09,Friendly,played,Japan,JPN,Germany,DEU,FALSE,4,1,win,Wolfsburg,Germany,FALSE,1855,1913,1880,1888,25
-2023-09-12,Friendly,played,Japan,JPN,Turkey,TUR,TRUE,4,2,win,Genk,Belgium,TRUE,1880,1713,1888,1705,8
-2023-10-13,Friendly,played,Japan,JPN,Canada,CAN,TRUE,4,1,win,Niigata,Japan,FALSE,1888,1724,1894,1718,6
-2023-11-16,FIFA World Cup qualification,played,Japan,JPN,Myanmar,,TRUE,5,0,win,Suita,Japan,FALSE,1900,920,1900,920,0
-2023-11-21,FIFA World Cup qualification,played,Japan,JPN,Syria,,FALSE,5,0,win,Jeddah,Saudi Arabia,TRUE,1900,1431,1905,1426,5
-2024-01-01,Friendly,played,Japan,JPN,Thailand,,TRUE,5,0,win,Tokyo,Japan,FALSE,1905,1384,1906,1383,1
-2024-01-09,Friendly,played,Japan,JPN,Jordan,,TRUE,6,1,win,Doha,Qatar,TRUE,1906,1517,1910,1513,4
-2024-01-14,AFC Asian Cup,played,Japan,JPN,Vietnam,,TRUE,4,2,win,Doha,Qatar,TRUE,1910,1379,1913,1376,3
-2024-01-19,AFC Asian Cup,played,Japan,JPN,Iraq,IRQ,FALSE,1,2,loss,Al Rayyan,Qatar,TRUE,1913,1625,1871,1667,-42
-2024-01-24,AFC Asian Cup,played,Japan,JPN,Indonesia,IDN,TRUE,3,1,win,Doha,Qatar,TRUE,1871,1286,1873,1284,2
-2024-01-31,AFC Asian Cup,played,Japan,JPN,Bahrain,,FALSE,3,1,win,Doha,Qatar,TRUE,1873,1466,1880,1459,7
-2024-02-03,AFC Asian Cup,played,Japan,JPN,Iran,IRN,FALSE,1,2,loss,Al Rayyan,Qatar,TRUE,1880,1824,1851,1853,-29
-2024-03-21,FIFA World Cup qualification,played,Japan,JPN,North Korea,PRK,TRUE,1,0,win,Tokyo,Japan,FALSE,1851,1370,1852,1369,1
-2024-06-06,FIFA World Cup qualification,played,Japan,JPN,Myanmar,,FALSE,5,0,win,Yangon,Myanmar,FALSE,1852,923,1853,922,1
-2024-06-11,FIFA World Cup qualification,played,Japan,JPN,Syria,,TRUE,5,0,win,Hiroshima,Japan,FALSE,1853,1423,1857,1419,4
-2024-09-05,FIFA World Cup qualification,played,Japan,JPN,China PR,,TRUE,7,0,win,Saitama,Japan,FALSE,,,,,
-2024-09-10,FIFA World Cup qualification,played,Japan,JPN,Bahrain,,FALSE,5,0,win,Riffa,Bahrain,FALSE,1860,1492,1874,1478,14
-2024-10-10,FIFA World Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,FALSE,2,0,win,Jeddah,Saudi Arabia,FALSE,1874,1589,1889,1574,15
-2024-10-15,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,TRUE,1,1,draw,Saitama,Japan,FALSE,1889,1729,1876,1742,-13
-2024-11-15,FIFA World Cup qualification,played,Japan,JPN,Indonesia,IDN,FALSE,4,0,win,Jakarta,Indonesia,FALSE,1876,1359,1882,1353,6
-2024-11-19,FIFA World Cup qualification,played,Japan,JPN,China PR,,FALSE,3,1,win,Xiamen,China PR,FALSE,,,,,
-2025-03-20,FIFA World Cup qualification,played,Japan,JPN,Bahrain,,TRUE,2,0,win,Saitama,Japan,FALSE,1889,1530,1893,1526,4
-2025-03-25,FIFA World Cup qualification,played,Japan,JPN,Saudi Arabia,SAU,TRUE,0,0,draw,Saitama,Japan,FALSE,1893,1545,1876,1562,-17
-2025-06-05,FIFA World Cup qualification,played,Japan,JPN,Australia,AUS,FALSE,0,1,loss,Perth,Australia,FALSE,1876,1737,1854,1759,-22
-2025-06-10,FIFA World Cup qualification,played,Japan,JPN,Indonesia,IDN,TRUE,6,0,win,Suita,Japan,FALSE,1854,1360,1857,1357,3
-2025-09-06,Friendly,played,Japan,JPN,Mexico,MEX,FALSE,0,0,draw,Oakland,United States,TRUE,1883,1861,1882,1862,-1
-2025-09-09,Friendly,played,Japan,JPN,United States,USA,FALSE,0,2,loss,Columbus,United States,FALSE,1882,1679,1863,1698,-19
-2025-10-10,Kirin Cup,played,Japan,JPN,Paraguay,PRY,TRUE,2,2,draw,Osaka,Japan,FALSE,1863,1844,1860,1847,-3
-2025-10-14,Kirin Cup,played,Japan,JPN,Brazil,BRA,TRUE,3,2,win,Tokyo,Japan,FALSE,1860,1989,1871,1978,11
-2025-11-14,Kirin Cup,played,Japan,JPN,Ghana,GHA,TRUE,2,0,win,Toyota,Japan,FALSE,1871,1513,1873,1511,2
-2025-11-18,Kirin Cup,played,Japan,JPN,Bolivia,BOL,TRUE,3,0,win,Tokyo,Japan,FALSE,1873,1681,1878,1676,5
-2026-03-28,Friendly,played,Japan,JPN,Scotland,SCO,FALSE,1,0,win,Glasgow,Scotland,FALSE,1878,1790,1888,1780,10
-2026-03-31,Friendly,played,Japan,JPN,England,ENG,FALSE,1,0,win,London,England,FALSE,1888,2036,1904,2020,16
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1917-05-07,Friendly,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,2,15,loss,Tokyo,Japan,FALSE,,,,,
+,,,1917-05-09,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,0,5,loss,Tokyo,Japan,FALSE,,,,,
+,,,1917-05-10,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,2,15,loss,Tokyo,Japan,FALSE,1275,1259,1196,1338,-79
+,,,1921-05-30,Friendly,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,0,3,loss,Shanghai,China PR,TRUE,,,,,
+,,,1921-05-30,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,Philippines,,,,FALSE,1,3,loss,Shanghai,China PR,TRUE,1196,1323,1177,1342,-19
+,,,1921-06-01,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,0,4,loss,Shanghai,China PR,FALSE,,,,,
+,,,1921-06-03,Open International Championship,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,0,3,loss,Shanghai,China PR,FALSE,,,,,
+,,,1923-05-23,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,1,2,loss,Osaka,Japan,FALSE,1170,1324,1153,1341,-17
+,,,1923-05-24,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,1,5,loss,Osaka,Japan,FALSE,,,,,
+,,,1925-05-18,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,Philippines,,,,FALSE,0,4,loss,Manila,Philippines,FALSE,,,,,
+,,,1925-05-20,Friendly,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,0,2,loss,Manila,Philippines,TRUE,,,,,
+,,,1925-05-20,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,0,2,loss,Manila,Philippines,TRUE,,,,,
+,,,1927-08-27,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,1,5,loss,Shanghai,China PR,FALSE,,,,,
+,,,1927-08-29,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,2,1,win,Shanghai,China PR,TRUE,1126,1328,1156,1298,30
+,,,1930-05-25,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,7,2,win,Tokyo,Japan,FALSE,1156,1292,1200,1248,44
+,,,1930-05-29,Friendly,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,3,3,draw,Tokyo,Japan,FALSE,,,,,
+,,,1930-05-30,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,3,3,draw,Tokyo,Japan,FALSE,,,,,
+,,,1934-05-13,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,TRUE,1,7,loss,Manila,Philippines,TRUE,1214,1509,1201,1522,-13
+,,,1934-05-15,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,Philippines,,,,FALSE,4,3,win,Manila,Philippines,FALSE,1201,1226,1228,1199,27
+,,,1934-05-20,Far Eastern Championship Games,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,3,4,loss,Manila,Philippines,TRUE,,,,,
+,,,1939-09-02,Friendly,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,3,0,win,Xinjing,Manchuria,TRUE,,,,,
+,,,1939-09-03,Friendly,played,Japan,JPN,JPN,AFC,Manchukuo,,,,FALSE,6,0,win,Xinjing,Manchuria,FALSE,,,,,
+,,,1940-06-07,Friendly,played,Japan,JPN,JPN,AFC,Manchukuo,,,,TRUE,7,0,win,Tokyo,Japan,FALSE,,,,,
+,,,1940-06-09,Friendly,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,6,0,win,Tokyo,Japan,FALSE,,,,,
+,,,1940-06-16,Friendly,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,1,0,win,Nishinomiya,Japan,FALSE,1279,1229,1291,1217,12
+,,,1942-08-08,Friendly,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,6,1,win,Xinjing,Manchuria,TRUE,,,,,
+,,,1942-08-09,Friendly,played,Japan,JPN,JPN,AFC,Manchukuo,,,,FALSE,3,0,win,Xinjing,Manchuria,FALSE,,,,,
+,,,1942-08-10,Friendly,played,Japan,JPN,JPN,AFC,Mongolia,,,,TRUE,12,0,win,Xinjing,Manchuria,TRUE,,,,,
+,,,1951-03-07,Asian Games,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,New Delhi,India,TRUE,1289,1572,1302,1559,13
+,,,1951-03-08,Asian Games,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,2,3,loss,New Delhi,India,TRUE,1302,1559,1295,1566,-7
+,,,1951-03-09,Asian Games,played,Japan,JPN,JPN,AFC,Afghanistan,,,,TRUE,2,0,win,New Delhi,India,TRUE,1295,915,1301,909,6
+,,,1954-03-07,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,5,loss,Tokyo,Japan,FALSE,1301,1750,1292,1759,-9
+,,,1954-03-14,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,2,draw,Tokyo,Japan,FALSE,1292,1759,1308,1743,16
+,,,1954-05-01,Asian Games,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,TRUE,3,5,loss,Manila,Philippines,TRUE,1308,1476,1291,1493,-17
+,,,1954-05-03,Asian Games,played,Japan,JPN,JPN,AFC,India,,,,FALSE,2,3,loss,Manila,Philippines,TRUE,1291,1642,1286,1647,-5
+,,,1955-01-11,Friendly,played,Japan,JPN,JPN,AFC,Myanmar,,,,FALSE,1,0,win,Yangon,Burma,FALSE,1286,1296,1299,1283,13
+,,,1955-10-09,Friendly,played,Japan,JPN,JPN,AFC,Myanmar,,,,TRUE,0,0,draw,Tokyo,Japan,FALSE,1299,1283,1296,1286,-3
+,,,1958-05-26,Asian Games,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,0,1,loss,Tokyo,Japan,FALSE,1349,1058,1313,1094,-36
+,,,1958-05-28,Asian Games,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,0,2,loss,Tokyo,Japan,FALSE,1313,1496,1290,1519,-23
+,,,1958-12-25,Friendly,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,2,5,loss,So Kon Po,Hong Kong,FALSE,1290,1494,1285,1499,-5
+,,,1958-12-28,Friendly,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,2,6,loss,Kuala Lumpur,Malaya,FALSE,1285,1369,1275,1379,-10
+,,,1959-01-04,Friendly,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,3,1,win,George Town,Malaya,TRUE,1275,1379,1298,1356,23
+,,,1959-01-10,Friendly,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,4,3,win,Kallang,Singapore,FALSE,1298,1216,1309,1205,11
+,,,1959-01-11,Friendly,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,2,3,loss,Kallang,Singapore,FALSE,1309,1205,1299,1215,-10
+,,,1959-09-03,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,4,1,win,Kuala Lumpur,Malaya,TRUE,1294,1147,1310,1131,16
+,,,1959-09-05,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Kuala Lumpur,Malaya,TRUE,1310,1645,1321,1634,11
+,,,1959-09-06,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,3,loss,Kuala Lumpur,Malaya,TRUE,1321,1634,1315,1640,-6
+,,,1960-08-05,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,0,3,loss,Kuala Lumpur,Malaya,FALSE,,,,,
+,,,1960-08-10,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Pakistan,,,,FALSE,1,3,loss,Kuala Lumpur,Malaya,TRUE,,,,,
+,,,1960-08-12,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,3,1,win,Kuala Lumpur,Malaya,TRUE,,,,,
+,,,1960-11-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Seoul,South Korea,FALSE,1336,1706,1333,1709,-3
+,,,1961-05-28,Friendly,played,Japan,JPN,JPN,AFC,Malaysia,,,,TRUE,3,2,win,Tokyo,Japan,FALSE,1333,1414,1342,1405,9
+,,,1961-06-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Tokyo,Japan,FALSE,1342,1709,1331,1720,-11
+,,,1961-08-02,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,2,3,loss,Kuala Lumpur,Malaya,FALSE,1331,1405,1323,1413,-8
+,,,1961-08-06,Merdeka Tournament,played,Japan,JPN,JPN,AFC,India,,,,FALSE,3,1,win,Kuala Lumpur,Malaya,TRUE,1323,1457,1354,1426,31
+,,,1961-08-10,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Vietnam Republic,,,,TRUE,2,3,loss,Kuala Lumpur,Malaya,TRUE,,,,,
+,,,1961-08-15,Friendly,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,2,loss,Kallang,Singapore,TRUE,1341,1562,1331,1572,-10
+,,,1962-08-25,Asian Games,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,3,1,win,Jakarta,Indonesia,TRUE,1330,1222,1351,1201,21
+,,,1962-08-29,Asian Games,played,Japan,JPN,JPN,AFC,India,,,,FALSE,0,2,loss,Jakarta,Indonesia,TRUE,1351,1424,1327,1448,-24
+,,,1962-08-30,Asian Games,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Jakarta,Indonesia,TRUE,1327,1708,1323,1712,-4
+,,,1962-09-08,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,2,2,draw,Kuala Lumpur,Malaya,FALSE,1323,1481,1332,1472,9
+,,,1962-09-12,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Pakistan,,,,TRUE,1,1,draw,Kuala Lumpur,Malaya,TRUE,1332,1379,1334,1377,2
+,,,1962-09-15,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Myanmar,,,,FALSE,1,3,loss,Kuala Lumpur,Malaya,TRUE,1334,1202,1303,1233,-31
+,,,1962-09-21,Friendly,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,1,2,loss,Kallang,Singapore,FALSE,1303,1225,1294,1234,-9
+,,,1963-08-08,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,4,3,win,Kuala Lumpur,Malaya,FALSE,1292,1444,1316,1420,24
+,,,1963-08-10,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,4,1,win,Kuala Lumpur,Malaya,TRUE,1316,1192,1333,1175,17
+,,,1963-08-12,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Vietnam Republic,,,,FALSE,5,1,win,Kuala Lumpur,Malaya,TRUE,,,,,
+,,,1963-08-13,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,1,1,draw,Kuala Lumpur,Malaya,TRUE,1373,1700,1384,1689,11
+,,,1963-08-15,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Taiwan,,,,FALSE,0,2,loss,Kuala Lumpur,Malaya,TRUE,1384,1636,1375,1645,-9
+,,,1963-10-12,Friendly,played,Japan,JPN,JPN,AFC,Vietnam Republic,,,,TRUE,2,1,win,Tokyo,Japan,FALSE,,,,,
+,,,1964-03-03,Friendly,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,2,1,win,Kallang,Singapore,FALSE,1389,1251,1398,1242,9
+,,,1965-03-11,Friendly,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,4,1,win,So Kon Po,Hong Kong,FALSE,1390,1404,1413,1381,23
+,,,1965-03-15,Friendly,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,2,1,win,So Kon Po,Hong Kong,FALSE,1413,1381,1425,1369,12
+,,,1965-03-22,Friendly,played,Japan,JPN,JPN,AFC,Myanmar,,,,FALSE,1,1,draw,Yangon,Burma,FALSE,1425,1318,1425,1318,0
+,,,1965-03-25,Friendly,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,4,1,win,Kallang,Singapore,FALSE,1425,1256,1439,1242,14
+,,,1965-03-27,Friendly,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,FALSE,1439,1344,1439,1344,0
+,,,1965-08-14,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,2,2,draw,Kuala Lumpur,Malaysia,FALSE,,,,,
+,,,1965-08-15,Merdeka Tournament,played,Japan,JPN,JPN,AFC,India,,,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1965-08-18,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Taiwan,,,,TRUE,0,4,loss,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1965-08-20,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Myanmar,,,,TRUE,3,1,win,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1965-08-24,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1965-08-28,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Vietnam Republic,,,,TRUE,2,1,win,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1966-08-14,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1966-08-17,Merdeka Tournament,played,Japan,JPN,JPN,AFC,India,,,,FALSE,0,3,loss,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1966-08-20,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Taiwan,,,,TRUE,5,2,win,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1966-08-22,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Vietnam Republic,,,,TRUE,0,2,loss,Ipoh,Malaysia,TRUE,,,,,
+,,,1966-08-25,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,1,0,win,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1966-12-10,Asian Games,played,Japan,JPN,JPN,AFC,India,,,,TRUE,2,1,win,Bangkok,Thailand,TRUE,1438,1534,1463,1509,25
+,,,1966-12-11,Asian Games,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,3,1,win,Bangkok,Thailand,TRUE,1463,1611,1505,1569,42
+,,,1966-12-14,Asian Games,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,1,0,win,Bangkok,Thailand,TRUE,1505,1245,1512,1238,7
+,,,1966-12-16,Asian Games,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,5,1,win,Bangkok,Thailand,TRUE,1512,1373,1535,1350,23
+,,,1966-12-17,Asian Games,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,5,1,win,Bangkok,Thailand,FALSE,1535,1286,1557,1264,22
+,,,1966-12-18,Asian Games,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1557,1584,1539,1602,-18
+,,,1966-12-19,Asian Games,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,2,0,win,Bangkok,Thailand,TRUE,1539,1332,1553,1318,14
+,,,1967-07-28,Friendly,played,Japan,JPN,JPN,AFC,Peru,PER,PER,CONMEBOL,FALSE,0,1,loss,Lima,Peru,FALSE,1553,1612,1547,1618,-6
+,,,1967-07-30,Friendly,played,Japan,JPN,JPN,AFC,Peru,PER,PER,CONMEBOL,FALSE,0,0,draw,Lima,Peru,FALSE,1547,1618,1552,1613,5
+,,,1967-08-01,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,1,win,Taipei,Taiwan,TRUE,1548,1470,1564,1454,16
+,,,1967-08-03,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,2,0,win,Taipei,Taiwan,TRUE,1564,1007,1566,1005,2
+,,,1967-08-05,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,TRUE,2,1,win,Taipei,Taiwan,TRUE,,,,,
+,,,1968-03-26,Friendly,played,Japan,JPN,JPN,AFC,Mexico,MEX,MEX,CONCACAF,FALSE,0,4,loss,Mexico City,Mexico,FALSE,,,,,
+,,,1968-03-30,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,2,2,draw,Sydney,Australia,FALSE,1604,1590,1606,1588,2
+,,,1968-03-31,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,1,3,loss,Melbourne,Australia,FALSE,1606,1588,1594,1600,-12
+,,,1968-04-04,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,3,1,win,Adelaide,Australia,FALSE,1594,1600,1613,1581,19
+,,,1969-10-10,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,1,3,loss,Seoul,South Korea,TRUE,1652,1574,1615,1611,-37
+,,,1969-10-12,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,2,2,draw,Seoul,South Korea,FALSE,1615,1569,1618,1566,3
+,,,1969-10-16,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,1,1,draw,Seoul,South Korea,TRUE,1618,1634,1619,1633,1
+,,,1969-10-18,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Seoul,South Korea,FALSE,1619,1543,1591,1571,-28
+,,,1970-07-31,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,1,2,loss,Kuala Lumpur,Malaysia,TRUE,1591,1206,1564,1233,-27
+,,,1970-08-02,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1564,1588,1565,1587,1
+,,,1970-08-04,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1565,1299,1555,1309,-10
+,,,1970-08-08,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,4,3,win,Kuala Lumpur,Malaysia,TRUE,1555,1554,1570,1539,15
+,,,1970-08-10,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1570,1153,1575,1148,5
+,,,1970-08-16,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Taiwan,,,,TRUE,3,2,win,Kuala Lumpur,Malaysia,TRUE,1575,1315,1580,1310,5
+,,,1970-12-10,Asian Games,played,Japan,JPN,JPN,AFC,Malaysia,,,,TRUE,1,0,win,Bangkok,Thailand,TRUE,1580,1350,1588,1342,8
+,,,1970-12-12,Asian Games,played,Japan,JPN,JPN,AFC,Cambodia,,,,TRUE,1,0,win,Bangkok,Thailand,TRUE,,,,,
+,,,1970-12-14,Asian Games,played,Japan,JPN,JPN,AFC,Myanmar,,,,TRUE,2,1,win,Bangkok,Thailand,TRUE,1592,1547,1609,1530,17
+,,,1970-12-16,Asian Games,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,1,win,Bangkok,Thailand,TRUE,1609,1400,1618,1391,9
+,,,1970-12-17,Asian Games,played,Japan,JPN,JPN,AFC,India,,,,TRUE,1,0,win,Bangkok,Thailand,TRUE,1618,1416,1628,1406,10
+,,,1970-12-18,Asian Games,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,2,loss,Bangkok,Thailand,TRUE,1628,1624,1608,1644,-20
+,,,1970-12-19,Asian Games,played,Japan,JPN,JPN,AFC,India,,,,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1608,1388,1577,1419,-31
+,,,1971-07-28,Friendly,played,Japan,JPN,JPN,AFC,Denmark,DNK,DNK,UEFA,FALSE,2,3,loss,Copenhagen,Denmark,FALSE,1577,1567,1570,1574,-7
+,,,1971-08-13,Friendly,played,Japan,JPN,JPN,AFC,Iceland,ISL,ISL,UEFA,FALSE,2,0,win,Reykjavík,Iceland,FALSE,1570,1288,1578,1280,8
+,,,1972-07-12,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Cambodia,,,,TRUE,4,1,win,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1972-07-16,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Sri Lanka,,,,TRUE,5,0,win,Ipoh,Malaysia,TRUE,1543,975,1545,973,2
+,,,1972-07-18,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,5,1,win,Kuala Lumpur,Malaysia,TRUE,1545,1087,1549,1083,4
+,,,1972-07-22,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,1,3,loss,Kuala Lumpur,Malaysia,FALSE,1549,1465,1528,1486,-21
+,,,1972-07-26,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,3,loss,Kuala Lumpur,Malaysia,TRUE,1528,1558,1504,1582,-24
+,,,1972-08-04,Friendly,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,4,1,win,Kallang,Singapore,TRUE,1504,1075,1508,1071,4
+,,,1972-08-06,Friendly,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,1,loss,Kallang,Singapore,TRUE,1508,1446,1490,1464,-18
+,,,1972-09-14,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,2,draw,Tokyo,Japan,FALSE,1490,1597,1490,1597,0
+,,,1973-05-16,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Israel,ISR,ISR,UEFA,FALSE,1,2,loss,Seoul,South Korea,TRUE,1490,1705,1481,1714,-9
+,,,1973-05-20,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Vietnam Republic,,,,FALSE,4,0,win,Seoul,South Korea,TRUE,,,,,
+,,,1973-05-22,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,0,1,loss,Seoul,South Korea,TRUE,1505,1301,1474,1332,-31
+,,,1973-05-26,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Israel,ISR,ISR,UEFA,FALSE,0,1,loss,Seoul,South Korea,TRUE,1474,1726,1466,1734,-8
+,,,1973-06-23,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Seoul,South Korea,FALSE,1466,1589,1459,1596,-7
+,,,1974-02-12,Friendly,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,1,0,win,Kallang,Singapore,FALSE,1451,1112,1455,1108,4
+,,,1974-02-20,Friendly,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,0,0,draw,So Kon Po,Hong Kong,FALSE,1469,1343,1468,1344,-1
+,,,1974-09-03,Asian Games,played,Japan,JPN,JPN,AFC,Philippines,,,,TRUE,4,0,win,Tehran,Iran,TRUE,1465,1028,1471,1022,6
+,,,1974-09-05,Asian Games,played,Japan,JPN,JPN,AFC,Malaysia,,,,TRUE,1,1,draw,Tehran,Iran,TRUE,1471,1440,1469,1442,-2
+,,,1974-09-07,Asian Games,played,Japan,JPN,JPN,AFC,Israel,ISR,ISR,UEFA,TRUE,0,3,loss,Tehran,Iran,TRUE,1469,1730,1456,1743,-13
+,,,1974-09-28,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,4,1,win,Tokyo,Japan,FALSE,1456,1533,1472,1517,16
+,,,1975-06-14,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,0,0,draw,So Kon Po,Hong Kong,FALSE,1472,1371,1472,1371,0
+,,,1975-06-17,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,1472,1587,1458,1601,-14
+,,,1975-06-23,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,1,2,loss,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1975-07-30,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1472,1347,1442,1377,-30
+,,,1975-08-02,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,0,2,loss,Kuala Lumpur,Malaysia,FALSE,1442,1422,1425,1439,-17
+,,,1975-08-04,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Bangladesh,,,,FALSE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1425,1037,1430,1032,5
+,,,1975-08-07,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,4,1,win,Kuala Lumpur,Malaysia,TRUE,1430,1405,1454,1381,24
+,,,1975-08-09,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,3,loss,Kuala Lumpur,Malaysia,TRUE,1454,1585,1440,1599,-14
+,,,1975-08-11,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1440,1263,1455,1248,15
+,,,1975-08-14,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Myanmar,,,,FALSE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1455,1561,1484,1532,29
+,,,1975-09-08,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Seoul,South Korea,FALSE,1484,1628,1477,1635,-7
+,,,1976-01-25,Friendly,played,Japan,JPN,JPN,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,1,3,loss,Tokyo,Japan,FALSE,1477,1793,1470,1800,-7
+,,,1976-01-28,Friendly,played,Japan,JPN,JPN,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,1,1,draw,Osaka,Japan,FALSE,1470,1800,1476,1794,6
+,,,1976-02-01,Friendly,played,Japan,JPN,JPN,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,0,3,loss,Tokyo,Japan,FALSE,1476,1794,1468,1802,-8
+,,,1976-08-08,Merdeka Tournament,played,Japan,JPN,JPN,AFC,India,,,,FALSE,5,1,win,Kuala Lumpur,Malaysia,TRUE,1447,1323,1465,1305,18
+,,,1976-08-10,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,6,0,win,Kuala Lumpur,Malaysia,TRUE,1465,1353,1487,1331,22
+,,,1976-08-13,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Myanmar,,,,FALSE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,1487,1525,1489,1523,2
+,,,1976-08-16,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,1489,1311,1482,1318,-7
+,,,1976-08-18,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1482,1642,1488,1636,6
+,,,1976-08-20,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,2,2,draw,Kuala Lumpur,Malaysia,FALSE,1488,1452,1491,1449,3
+,,,1976-08-22,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,0,2,loss,Kuala Lumpur,Malaysia,FALSE,1491,1449,1472,1468,-19
+,,,1976-12-04,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,2,loss,Tokyo,Japan,FALSE,1472,1645,1464,1653,-8
+,,,1977-03-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Israel,ISR,ISR,UEFA,FALSE,0,2,loss,Ramat Gan,Israel,FALSE,1464,1718,1457,1725,-7
+,,,1977-03-10,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Israel,ISR,ISR,UEFA,FALSE,0,2,loss,Ramat Gan,Israel,FALSE,1457,1725,1451,1731,-6
+,,,1977-03-26,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Tokyo,Japan,FALSE,1451,1666,1457,1660,6
+,,,1977-04-03,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Seoul,South Korea,FALSE,1457,1660,1451,1666,-6
+,,,1977-06-15,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Seoul,South Korea,FALSE,1451,1666,1448,1669,-3
+,,,1978-05-23,Kirin Cup,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,3,0,win,Nagoya,Japan,FALSE,1448,1290,1458,1280,10
+,,,1978-07-13,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1458,1594,1464,1588,6
+,,,1978-07-15,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,1,2,loss,Kuala Lumpur,Malaysia,TRUE,1464,1363,1445,1382,-19
+,,,1978-07-17,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,3,2,win,Kuala Lumpur,Malaysia,TRUE,1445,1336,1455,1326,10
+,,,1978-07-19,Merdeka Tournament,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,4,loss,Kuala Lumpur,Malaysia,TRUE,1455,1747,1446,1756,-9
+,,,1978-07-21,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,1,4,loss,Kuala Lumpur,Malaysia,FALSE,1446,1444,1427,1463,-19
+,,,1978-07-23,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,1,2,loss,Kuala Lumpur,Malaysia,TRUE,1427,1134,1402,1159,-25
+,,,1978-07-26,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1402,1341,1425,1318,23
+,,,1978-11-19,Friendly,played,Japan,JPN,JPN,AFC,Soviet Union,SUN,SUN,UEFA,TRUE,1,4,loss,Tokyo,Japan,FALSE,1425,1907,1422,1910,-3
+,,,1978-11-23,Friendly,played,Japan,JPN,JPN,AFC,Soviet Union,SUN,SUN,UEFA,TRUE,1,4,loss,Tokyo,Japan,FALSE,1422,1910,1419,1913,-3
+,,,1978-11-26,Friendly,played,Japan,JPN,JPN,AFC,Soviet Union,SUN,SUN,UEFA,TRUE,0,3,loss,Osaka,Japan,FALSE,1419,1913,1416,1916,-3
+,,,1978-12-11,Asian Games,played,Japan,JPN,JPN,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,2,loss,Bangkok,Thailand,TRUE,1416,1686,1406,1696,-10
+,,,1978-12-13,Asian Games,played,Japan,JPN,JPN,AFC,Bahrain,,,,FALSE,4,0,win,Bangkok,Thailand,TRUE,1406,1122,1418,1110,12
+,,,1978-12-15,Asian Games,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,3,loss,Bangkok,Thailand,TRUE,1418,1801,1412,1807,-6
+,,,1979-03-04,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,1,win,Tokyo,Japan,FALSE,1412,1831,1429,1814,17
+,,,1979-05-31,Kirin Cup,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,TRUE,4,0,win,Tokyo,Japan,FALSE,1429,1256,1439,1246,10
+,,,1979-06-16,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,1,4,loss,Seoul,South Korea,FALSE,1439,1814,1437,1816,-2
+,,,1979-06-29,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,FALSE,,,,,
+,,,1979-06-29,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,2,0,win,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1979-07-01,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Myanmar,,,,FALSE,1,0,win,Kuala Lumpur,Malaysia,TRUE,1453,1393,1465,1381,12
+,,,1979-07-11,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1465,1268,1457,1276,-8
+,,,1979-07-13,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,3,1,win,Kuala Lumpur,Malaysia,TRUE,1457,1105,1462,1100,5
+,,,1979-08-23,Friendly,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,0,0,draw,Pyongyang,North Korea,FALSE,1462,1692,1469,1685,7
+,,,1980-05-11,Friendly,played,Japan,JPN,JPN,AFC,Luxembourg,,,,TRUE,1,0,win,Medan,Indonesia,TRUE,,,,,
+,,,1980-06-09,Guangzhou International Friendship Tournament,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,3,1,win,Guangzhou,China PR,TRUE,1487,1397,1504,1380,17
+,,,1980-06-11,Guangzhou International Friendship Tournament,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,0,1,loss,Guangzhou,China PR,FALSE,,,,,
+,,,1980-06-18,Guangzhou International Friendship Tournament,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,2,0,win,Guangzhou,China PR,TRUE,1497,1371,1512,1356,15
+,,,1980-12-22,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,1,0,win,So Kon Po,Hong Kong,TRUE,1512,1281,1520,1273,8
+,,,1980-12-26,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1980-12-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Macau,,,,TRUE,3,0,win,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1980-12-30,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,0,1,loss,So Kon Po,Hong Kong,TRUE,1508,1598,1493,1613,-15
+,,,1981-02-08,Friendly,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,0,1,loss,Kuantan,Malaysia,FALSE,1479,1445,1471,1453,-8
+,,,1981-02-10,Friendly,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,1,1,draw,Kuala Lumpur,Malaysia,FALSE,1471,1453,1473,1451,2
+,,,1981-02-17,Friendly,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,1,0,win,Kallang,Singapore,FALSE,1473,1278,1480,1271,7
+,,,1981-02-19,Friendly,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,0,0,draw,Kallang,Singapore,FALSE,1480,1271,1477,1274,-3
+,,,1981-02-24,Friendly,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,2,loss,Jakarta,Indonesia,FALSE,1477,1259,1457,1279,-20
+,,,1981-03-08,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Tokyo,Japan,FALSE,1461,1709,1455,1715,-6
+,,,1981-06-02,Kirin Cup,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,0,0,draw,Saitama,Japan,FALSE,,,,,
+,,,1981-06-19,Korea Cup,played,Japan,JPN,JPN,AFC,Malaysia,,,,TRUE,2,0,win,Daegu,South Korea,TRUE,1458,1401,1477,1382,19
+,,,1981-06-21,Korea Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Busan,South Korea,FALSE,1477,1704,1471,1710,-6
+,,,1981-08-30,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,2,0,win,Kuala Lumpur,Malaysia,FALSE,1471,1382,1494,1359,23
+,,,1981-09-03,Merdeka Tournament,played,Japan,JPN,JPN,AFC,India,,,,FALSE,3,2,win,Kuala Lumpur,Malaysia,TRUE,1494,1222,1499,1217,5
+,,,1981-09-08,Merdeka Tournament,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,3,2,win,Kuala Lumpur,Malaysia,TRUE,1499,1018,1501,1016,2
+,,,1981-09-12,Merdeka Tournament,played,Japan,JPN,JPN,AFC,New Zealand,NZL,NZL,OFC,TRUE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1501,1527,1487,1541,-14
+,,,1981-09-14,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1487,1220,1495,1212,8
+,,,1981-09-18,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1495,1713,1485,1723,-10
+,,,1982-03-21,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Seoul,South Korea,FALSE,1485,1668,1479,1674,-6
+,,,1982-06-02,Kirin Cup,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,2,0,win,Hiroshima,Japan,FALSE,1479,1235,1484,1230,5
+,,,1982-11-21,Asian Games,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,1,0,win,New Delhi,India,TRUE,1477,1757,1510,1724,33
+,,,1982-11-23,Asian Games,played,Japan,JPN,JPN,AFC,South Yemen,,,,TRUE,3,1,win,New Delhi,India,TRUE,1510,1231,1520,1221,10
+,,,1982-11-25,Asian Games,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,2,1,win,New Delhi,India,TRUE,1520,1613,1545,1588,25
+,,,1982-11-28,Asian Games,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,1,loss,New Delhi,India,TRUE,1545,1701,1533,1713,-12
+,,,1983-02-12,Friendly,played,Japan,JPN,JPN,AFC,Syria,,,,FALSE,2,2,draw,Damascus,Syria,FALSE,1533,1259,1528,1264,-5
+,,,1983-03-06,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Tokyo,Japan,FALSE,1513,1588,1512,1589,-1
+,,,1983-06-07,Kirin Cup,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,1,0,win,Tokyo,Japan,FALSE,1512,1264,1516,1260,4
+,,,1984-03-06,Friendly,played,Japan,JPN,JPN,AFC,Brunei,,,,FALSE,7,1,win,Bandar Seri Begawan,Brunei,FALSE,1485,946,1488,943,3
+,,,1984-05-31,Kirin Cup,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,1,0,win,Saitama,Japan,FALSE,,,,,
+,,,1984-09-30,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,2,1,win,Seoul,South Korea,FALSE,1415,1602,1432,1585,17
+,,,1985-02-23,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,3,1,win,Kallang,Singapore,FALSE,1432,1257,1456,1233,24
+,,,1985-03-21,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,1,0,win,Tokyo,Japan,FALSE,1456,1559,1476,1539,20
+,,,1985-04-30,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,0,0,draw,Pyongyang,North Korea,FALSE,1476,1539,1485,1530,9
+,,,1985-05-18,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,5,0,win,Tokyo,Japan,FALSE,1485,1233,1494,1224,9
+,,,1985-05-26,Kirin Cup,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,1,4,loss,Tokyo,Japan,FALSE,1494,1880,1486,1888,-8
+,,,1985-08-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,3,0,win,Kobe,Japan,FALSE,1486,1360,1501,1345,15
+,,,1985-09-22,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,2,1,win,Siu Sai Wan,Hong Kong,FALSE,1501,1345,1518,1328,17
+,,,1985-10-26,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,2,loss,Tokyo,Japan,FALSE,1518,1579,1496,1601,-22
+,,,1985-11-03,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Seoul,South Korea,FALSE,1496,1601,1487,1610,-9
+,,,1986-05-11,Kirin Cup,played,Japan,JPN,JPN,AFC,Algeria,DZA,DZA,CAF,TRUE,2,1,win,Matsuyama,Japan,FALSE,,,,,
+,,,1986-07-25,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,2,1,win,Kuala Lumpur,Malaysia,TRUE,1487,1379,1497,1369,10
+,,,1986-08-01,Merdeka Tournament,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,1,2,loss,Kuala Lumpur,Malaysia,FALSE,1497,1350,1480,1367,-17
+,,,1986-09-20,Asian Games,played,Japan,JPN,JPN,AFC,Nepal,,,,TRUE,5,0,win,Daejeon,South Korea,TRUE,1480,846,1482,844,2
+,,,1986-09-22,Asian Games,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,0,2,loss,Daejeon,South Korea,TRUE,1482,1675,1467,1690,-15
+,,,1986-09-24,Asian Games,played,Japan,JPN,JPN,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,2,loss,Daejeon,South Korea,TRUE,1467,1594,1448,1613,-19
+,,,1986-09-28,Asian Games,played,Japan,JPN,JPN,AFC,Bangladesh,,,,TRUE,4,0,win,Daejeon,South Korea,TRUE,1448,1112,1457,1103,9
+,,,1987-05-27,Kirin Cup,played,Japan,JPN,JPN,AFC,Senegal,SEN,SEN,CAF,TRUE,2,2,draw,Hiroshima,Japan,FALSE,1469,1579,1469,1579,0
+,,,1988-01-27,Friendly,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,1,draw,Dubai,United Arab Emirates,FALSE,1488,1391,1488,1391,0
+,,,1988-01-30,Friendly,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1488,1391,1473,1406,-15
+,,,1988-02-02,Friendly,played,Japan,JPN,JPN,AFC,Oman,,,,FALSE,1,1,draw,Muscat,Oman,FALSE,1473,1040,1466,1047,-7
+,,,1988-04-08,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1466,1523,1449,1540,-17
+,,,1988-04-11,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Malaysia,,,,FALSE,1,0,win,Kuala Lumpur,Malaysia,FALSE,1449,1287,1465,1271,16
+,,,1988-04-16,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Jordan,,,,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1465,1229,1453,1241,-12
+,,,1988-04-18,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Pakistan,,,,TRUE,4,1,win,Kuala Lumpur,Malaysia,TRUE,1453,1018,1458,1013,5
+,,,1988-06-02,Kirin Cup,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,0,3,loss,Nagoya,Japan,FALSE,,,,,
+,,,1988-10-26,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Tokyo,Japan,FALSE,1435,1612,1427,1620,-8
+,,,1988-12-04,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,0,0,draw,Doha,Qatar,TRUE,1427,1685,1443,1669,16
+,,,1988-12-06,AFC Asian Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Doha,Qatar,TRUE,1443,1637,1425,1655,-18
+,,,1988-12-10,AFC Asian Cup,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,1,loss,Doha,Qatar,TRUE,1425,1449,1402,1472,-23
+,,,1988-12-12,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Qatar,QAT,QAT,AFC,FALSE,0,3,loss,Doha,Qatar,FALSE,1402,1417,1372,1447,-30
+,,,1989-01-20,Friendly,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,2,2,draw,Tehran,Iran,FALSE,1372,1602,1379,1595,7
+,,,1989-05-05,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Seoul,South Korea,FALSE,1379,1723,1378,1724,-1
+,,,1989-05-10,Friendly,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,2,2,draw,Tokyo,Japan,FALSE,,,,,
+,,,1989-05-13,Friendly,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,2,0,win,Okayama,Japan,FALSE,,,,,
+,,,1989-05-22,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,0,0,draw,Victoria,Hong Kong,FALSE,1401,1293,1401,1293,0
+,,,1989-05-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,0,draw,Jakarta,Indonesia,FALSE,1401,1222,1397,1226,-4
+,,,1989-06-04,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,2,1,win,Tokyo,Japan,FALSE,1397,1563,1421,1539,24
+,,,1989-06-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,TRUE,5,0,win,Tokyo,Japan,FALSE,1421,1234,1434,1221,13
+,,,1989-06-18,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,0,0,draw,Kobe,Japan,FALSE,1434,1274,1421,1287,-13
+,,,1989-06-25,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,0,2,loss,Pyongyang,North Korea,FALSE,1421,1539,1408,1552,-13
+,,,1989-07-23,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1408,1980,1408,1980,0
+,,,1990-07-27,Dynasty Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Beijing,China PR,TRUE,1408,1675,1400,1683,-8
+,,,1990-07-29,Dynasty Cup,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,0,1,loss,Beijing,China PR,FALSE,,,,,
+,,,1990-07-31,Dynasty Cup,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,0,1,loss,Beijing,China PR,TRUE,1395,1496,1384,1507,-11
+,,,1990-09-26,Asian Games,played,Japan,JPN,JPN,AFC,Bangladesh,,,,FALSE,3,0,win,Beijing,China PR,TRUE,1384,1067,1394,1057,10
+,,,1990-09-28,Asian Games,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,2,loss,Beijing,China PR,TRUE,1394,1577,1378,1593,-16
+,,,1990-10-01,Asian Games,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Beijing,China PR,TRUE,1378,1594,1369,1603,-9
+,,,1991-06-02,Kirin Cup,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,1,0,win,Tendo,Japan,FALSE,1369,1320,1378,1311,9
+,,,1991-07-27,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Nagasaki,Japan,FALSE,1378,1709,1374,1713,-4
+,,,1992-05-30,Kirin Cup,played,Japan,JPN,JPN,AFC,Argentina,ARG,ARG,CONMEBOL,TRUE,0,1,loss,Tokyo,Japan,FALSE,1374,1985,1372,1987,-2
+,,,1992-06-07,Kirin Cup,played,Japan,JPN,JPN,AFC,Wales,WAL,WAL,UEFA,TRUE,0,1,loss,Matsuyama,Japan,FALSE,1372,1770,1367,1775,-5
+,,,1992-08-22,Dynasty Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Beijing,China PR,TRUE,1367,1682,1378,1671,11
+,,,1992-08-24,Dynasty Cup,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,2,0,win,Beijing,China PR,FALSE,,,,,
+,,,1992-08-26,Dynasty Cup,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,4,1,win,Beijing,China PR,TRUE,1413,1547,1449,1511,36
+,,,1992-08-29,Dynasty Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,2,draw,Beijing,China PR,TRUE,1449,1682,1458,1673,9
+,,,1992-10-30,AFC Asian Cup,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,0,draw,Onomichi,Japan,FALSE,1458,1483,1453,1488,-5
+,,,1992-11-01,AFC Asian Cup,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,1,1,draw,Hiroshima,Japan,FALSE,1453,1488,1448,1493,-5
+,,,1992-11-03,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,1,0,win,Hiroshima,Japan,FALSE,1448,1653,1480,1621,32
+,,,1992-11-06,AFC Asian Cup,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,3,2,win,Hiroshima,Japan,FALSE,,,,,
+,,,1992-11-08,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Hiroshima,Japan,FALSE,1498,1653,1527,1624,29
+,,,1993-01-23,Friendly,played,Japan,JPN,JPN,AFC,Switzerland,CHE,CHE,UEFA,TRUE,1,1,draw,Hong Kong,Hong Kong,TRUE,,,,,
+,,,1993-03-07,Kirin Cup,played,Japan,JPN,JPN,AFC,Hungary,HUN,HUN,UEFA,TRUE,0,1,loss,Fukuoka,Japan,FALSE,1527,1715,1516,1726,-11
+,,,1993-03-14,Kirin Cup,played,Japan,JPN,JPN,AFC,United States,USA,USA,CONCACAF,TRUE,3,1,win,Tokyo,Japan,FALSE,1516,1682,1543,1655,27
+,,,1993-04-08,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,1,0,win,Kobe,Japan,FALSE,1543,1343,1549,1337,6
+,,,1993-04-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bangladesh,,,,TRUE,8,0,win,Tokyo,Japan,FALSE,1549,1069,1552,1066,3
+,,,1993-04-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Sri Lanka,,,,TRUE,5,0,win,Tokyo,Japan,FALSE,1552,845,1553,844,1
+,,,1993-04-18,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,2,0,win,Tokyo,Japan,FALSE,1553,1535,1573,1515,20
+,,,1993-04-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,1,0,win,Dubai,United Arab Emirates,TRUE,1573,1342,1581,1334,8
+,,,1993-04-30,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bangladesh,,,,FALSE,4,1,win,Dubai,United Arab Emirates,TRUE,1581,1059,1584,1056,3
+,,,1993-05-05,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Sri Lanka,,,,FALSE,6,0,win,Dubai,United Arab Emirates,TRUE,1584,839,1585,838,1
+,,,1993-05-07,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1585,1526,1587,1524,2
+,,,1993-10-04,Friendly,played,Japan,JPN,JPN,AFC,Ivory Coast,CIV,CIV,CAF,TRUE,1,0,win,Tokyo,Japan,FALSE,1587,1640,1609,1618,22
+,,,1993-10-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Doha,Qatar,TRUE,1609,1648,1611,1646,2
+,,,1993-10-18,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,1,2,loss,Doha,Qatar,TRUE,1611,1559,1588,1582,-23
+,,,1993-10-21,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,3,0,win,Doha,Qatar,TRUE,1588,1574,1622,1540,34
+,,,1993-10-25,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,0,win,Doha,Qatar,TRUE,1622,1667,1645,1644,23
+,,,1993-10-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,FALSE,2,2,draw,Doha,Qatar,TRUE,1645,1655,1646,1654,1
+,,,1994-05-22,Kirin Cup,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,1,1,draw,Hiroshima,Japan,FALSE,1646,1721,1645,1722,-1
+,,,1994-05-29,Kirin Cup,played,Japan,JPN,JPN,AFC,France,FRA,FRA,UEFA,TRUE,1,4,loss,Tokyo,Japan,FALSE,1645,1915,1631,1929,-14
+,,,1994-07-08,Friendly,played,Japan,JPN,JPN,AFC,Ghana,GHA,GHA,CAF,TRUE,3,2,win,Nagoya,Japan,FALSE,1631,1622,1641,1612,10
+,,,1994-07-14,Friendly,played,Japan,JPN,JPN,AFC,Ghana,GHA,GHA,CAF,TRUE,2,1,win,Kobe,Japan,FALSE,1641,1612,1651,1602,10
+,,,1994-09-27,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,0,0,draw,Tokyo,Japan,FALSE,,,,,
+,,,1994-10-03,Asian Games,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,1,draw,Miyoshi,Japan,FALSE,1650,1484,1637,1497,-13
+,,,1994-10-05,Asian Games,played,Japan,JPN,JPN,AFC,Qatar,QAT,QAT,AFC,TRUE,1,1,draw,Hiroshima,Japan,FALSE,1637,1420,1623,1434,-14
+,,,1994-10-09,Asian Games,played,Japan,JPN,JPN,AFC,Myanmar,,,,TRUE,5,0,win,Onomichi,Japan,FALSE,1623,1194,1627,1190,4
+,,,1994-10-11,Asian Games,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,3,loss,Hiroshima,Japan,FALSE,1627,1657,1603,1681,-24
+,,,1995-01-06,Confederations Cup,played,Japan,JPN,JPN,AFC,Nigeria,NGA,NGA,CAF,TRUE,0,3,loss,Riyadh,Saudi Arabia,TRUE,1603,1779,1580,1802,-23
+,,,1995-01-08,Confederations Cup,played,Japan,JPN,JPN,AFC,Argentina,ARG,ARG,CONMEBOL,TRUE,1,5,loss,Riyadh,Saudi Arabia,TRUE,1580,1884,1566,1898,-14
+,,,1995-02-15,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,1,2,loss,Sydney,Australia,FALSE,1568,1714,1564,1718,-4
+,,,1995-02-19,Dynasty Cup,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,3,0,win,Victoria,Hong Kong,FALSE,,,,,
+,,,1995-02-21,Dynasty Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Victoria,Hong Kong,TRUE,1564,1636,1567,1633,3
+,,,1995-02-22,King's Cup,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,2,3,loss,Bangkok,Thailand,FALSE,,,,,
+,,,1995-02-23,Dynasty Cup,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,2,1,win,Victoria,Hong Kong,TRUE,,,,,
+,,,1995-02-26,Dynasty Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,2,draw,Victoria,Hong Kong,TRUE,1584,1633,1586,1631,2
+,,,1995-05-21,Kirin Cup,played,Japan,JPN,JPN,AFC,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Hiroshima,Japan,FALSE,1586,1770,1590,1766,4
+,,,1995-05-28,Kirin Cup,played,Japan,JPN,JPN,AFC,Ecuador,ECU,ECU,CONMEBOL,TRUE,3,0,win,Tokyo,Japan,FALSE,1590,1628,1612,1606,22
+,,,1995-06-03,Friendly,played,Japan,JPN,JPN,AFC,England,ENG,ENG,UEFA,FALSE,1,2,loss,London,England,FALSE,1612,1881,1609,1884,-3
+,,,1995-06-06,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,FALSE,0,3,loss,Liverpool,England,TRUE,1609,2070,1606,2073,-3
+,,,1995-06-10,Friendly,played,Japan,JPN,JPN,AFC,Sweden,SWE,SWE,UEFA,FALSE,2,2,draw,Nottingham,England,TRUE,1606,1861,1615,1852,9
+,,,1995-08-06,Friendly,played,Japan,JPN,JPN,AFC,Costa Rica,CRI,CRI,CONCACAF,TRUE,3,0,win,Kyoto,Japan,FALSE,1615,1622,1628,1609,13
+,,,1995-08-09,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,1,5,loss,Tokyo,Japan,FALSE,1628,2099,1624,2103,-4
+,,,1995-09-20,Friendly,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,2,loss,Tokyo,Japan,FALSE,1624,1760,1611,1773,-13
+,,,1995-10-24,Friendly,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,Tokyo,Japan,FALSE,1611,1588,1621,1578,10
+,,,1995-10-28,Friendly,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,Matsuyama,Japan,FALSE,1621,1578,1630,1569,9
+,,,1996-02-10,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,4,1,win,Wollongong,Australia,FALSE,1630,1710,1656,1684,26
+,,,1996-02-14,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,0,3,loss,Melbourne,Australia,FALSE,1656,1684,1645,1695,-11
+,,,1996-02-19,Lunar New Year Cup,played,Japan,JPN,JPN,AFC,Poland,POL,POL,UEFA,TRUE,5,0,win,So Kon Po,Hong Kong,TRUE,1645,1716,1681,1680,36
+,,,1996-02-22,Lunar New Year Cup,played,Japan,JPN,JPN,AFC,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,So Kon Po,Hong Kong,TRUE,1681,1847,1688,1840,7
+,,,1996-05-26,Kirin Cup,played,Japan,JPN,JPN,AFC,Serbia,SRB,SRB,UEFA,TRUE,1,0,win,Tokyo,Japan,FALSE,,,,,
+,,,1996-05-29,Kirin Cup,played,Japan,JPN,JPN,AFC,Mexico,MEX,MEX,CONCACAF,TRUE,3,2,win,Fukuoka,Japan,FALSE,1709,1870,1727,1852,18
+,,,1996-08-25,Friendly,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,5,3,win,Osaka,Japan,FALSE,1727,1782,1740,1769,13
+,,,1996-09-11,Friendly,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,TRUE,1,0,win,Tokyo,Japan,FALSE,1740,1672,1746,1666,6
+,,,1996-10-13,Friendly,played,Japan,JPN,JPN,AFC,Tunisia,TUN,TUN,CAF,TRUE,1,0,win,Kobe,Japan,FALSE,1746,1624,1750,1620,4
+,,,1996-12-06,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,2,1,win,Al Ain,United Arab Emirates,TRUE,1750,1487,1759,1478,9
+,,,1996-12-09,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,TRUE,4,0,win,Al Ain,United Arab Emirates,TRUE,1759,1666,1794,1631,35
+,,,1996-12-12,AFC Asian Cup,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,1,0,win,Al Ain,United Arab Emirates,TRUE,,,,,
+,,,1996-12-15,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,2,loss,Al Ain,United Arab Emirates,TRUE,1806,1582,1747,1641,-59
+,,,1997-02-09,King's Cup,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1747,1404,1738,1413,-9
+,,,1997-02-13,King's Cup,played,Japan,JPN,JPN,AFC,Sweden,SWE,SWE,UEFA,TRUE,0,1,loss,Bangkok,Thailand,TRUE,,,,,
+,,,1997-03-15,Friendly,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,1,3,loss,Bangkok,Thailand,FALSE,1738,1401,1714,1425,-24
+,,,1997-03-23,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,FALSE,1,0,win,Muscat,Oman,FALSE,1714,1255,1718,1251,4
+,,,1997-03-25,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Macau,,,,FALSE,10,0,win,Muscat,Oman,TRUE,,,,,
+,,,1997-03-27,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Nepal,,,,FALSE,6,0,win,Muscat,Oman,TRUE,1720,825,1720,825,0
+,,,1997-05-11,East Asian Games,played,Japan,JPN,JPN,AFC,Guam,,,,FALSE,12,0,win,Busan,South Korea,TRUE,,,,,
+,,,1997-05-13,East Asian Games,played,Japan,JPN,JPN,AFC,Mongolia,,,,TRUE,5,0,win,Busan,South Korea,TRUE,,,,,
+,,,1997-05-15,East Asian Games,played,Japan,JPN,JPN,AFC,Kazakhstan,,,,FALSE,2,2,draw,Busan,South Korea,TRUE,,,,,
+,,,1997-05-17,East Asian Games,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,0,2,loss,Busan,South Korea,TRUE,,,,,
+,,,1997-05-21,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Tokyo,Japan,FALSE,1720,1644,1715,1649,-5
+,,,1997-06-08,Kirin Cup,played,Japan,JPN,JPN,AFC,Croatia,HRV,HRV,UEFA,TRUE,4,3,win,Tokyo,Japan,FALSE,1715,1887,1733,1869,18
+,,,1997-06-15,Kirin Cup,played,Japan,JPN,JPN,AFC,Turkey,TUR,TUR,UEFA,TRUE,1,0,win,Osaka,Japan,FALSE,1733,1691,1742,1682,9
+,,,1997-06-22,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Macau,,,,TRUE,10,0,win,Tokyo,Japan,FALSE,,,,,
+,,,1997-06-25,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Nepal,,,,TRUE,3,0,win,Tokyo,Japan,FALSE,1743,819,1743,819,0
+,,,1997-06-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,TRUE,1,1,draw,Tokyo,Japan,FALSE,1743,1278,1724,1297,-19
+,,,1997-08-13,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,0,3,loss,Osaka,Japan,FALSE,1724,2143,1719,2148,-5
+,,,1997-09-07,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,TRUE,6,3,win,Tokyo,Japan,FALSE,1719,1602,1735,1586,16
+,,,1997-09-19,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1735,1580,1732,1583,-3
+,,,1997-09-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,2,loss,Tokyo,Japan,FALSE,1732,1694,1704,1722,-28
+,,,1997-10-04,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Kazakhstan,,,,FALSE,1,1,draw,Almaty,Kazakhstan,FALSE,1704,1492,1698,1498,-6
+,,,1997-10-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,FALSE,1,1,draw,Tashkent,Uzbekistan,FALSE,1698,1552,1695,1555,-3
+,,,1997-10-26,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,1,draw,Tokyo,Japan,FALSE,1695,1563,1683,1575,-12
+,,,1997-11-01,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,2,0,win,Seoul,South Korea,FALSE,1683,1760,1727,1716,44
+,,,1997-11-08,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Kazakhstan,,,,TRUE,5,1,win,Tokyo,Japan,FALSE,1727,1511,1737,1501,10
+,,,1997-11-16,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,3,2,win,Johor Bahru,Malaysia,TRUE,1737,1673,1753,1657,16
+,,,1998-02-15,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,3,0,win,Adelaide,Australia,FALSE,1753,1831,1792,1792,39
+,,,1998-03-01,Dynasty Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,1,win,Yokohama,Japan,FALSE,1792,1753,1801,1744,9
+,,,1998-03-04,Dynasty Cup,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,5,1,win,Yokohama,Japan,FALSE,,,,,
+,,,1998-03-07,Dynasty Cup,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,0,2,loss,Tokyo,Japan,FALSE,,,,,
+,,,1998-04-01,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Seoul,South Korea,FALSE,1764,1754,1757,1761,-7
+,,,1998-05-17,Kirin Cup,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,1,draw,Tokyo,Japan,FALSE,1757,1764,1753,1768,-4
+,,,1998-05-24,Kirin Cup,played,Japan,JPN,JPN,AFC,Czechia,CZE,CZE,UEFA,TRUE,0,0,draw,Yokohama,Japan,FALSE,1753,1887,1754,1886,1
+,,,1998-05-31,Friendly,played,Japan,JPN,JPN,AFC,Mexico,MEX,MEX,CONCACAF,TRUE,1,2,loss,Lausanne,Switzerland,TRUE,1754,1845,1747,1852,-7
+,,,1998-06-03,Friendly,played,Japan,JPN,JPN,AFC,Serbia,SRB,SRB,UEFA,FALSE,0,1,loss,Lausanne,Switzerland,TRUE,,,,,
+WC-1998,WC-1998_011,11,1998-06-14,FIFA World Cup,played,Japan,JPN,JPN,AFC,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Toulouse,France,TRUE,1743,1893,1725,1911,-18
+WC-1998,WC-1998_026,26,1998-06-20,FIFA World Cup,played,Japan,JPN,JPN,AFC,Croatia,HRV,HRV,UEFA,TRUE,0,1,loss,Nantes,France,TRUE,1725,1893,1708,1910,-17
+WC-1998,WC-1998_047,47,1998-06-26,FIFA World Cup,played,Japan,JPN,JPN,AFC,Jamaica,JAM,JAM,CONCACAF,TRUE,1,2,loss,Lyon,France,TRUE,1708,1607,1670,1645,-38
+,,,1998-10-28,Friendly,played,Japan,JPN,JPN,AFC,Egypt,EGY,EGY,CAF,TRUE,1,0,win,Osaka,Japan,FALSE,1670,1652,1677,1645,7
+,,,1998-12-01,Asian Games,played,Japan,JPN,JPN,AFC,Nepal,,,,FALSE,5,0,win,Trang,Thailand,TRUE,1677,755,1677,755,0
+,,,1998-12-03,Asian Games,played,Japan,JPN,JPN,AFC,India,,,,TRUE,1,0,win,Trang,Thailand,TRUE,1677,1114,1679,1112,2
+,,,1998-12-07,Asian Games,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Bangkok,Thailand,TRUE,1679,1697,1651,1725,-28
+,,,1998-12-09,Asian Games,played,Japan,JPN,JPN,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,1,win,Bangkok,Thailand,TRUE,1651,1720,1675,1696,24
+,,,1998-12-11,Asian Games,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1675,1511,1646,1540,-29
+,,,1999-03-31,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,0,2,loss,Tokyo,Japan,FALSE,1646,2035,1641,2040,-5
+,,,1999-06-03,Kirin Cup,played,Japan,JPN,JPN,AFC,Belgium,BEL,BEL,UEFA,TRUE,0,0,draw,Tokyo,Japan,FALSE,1641,1755,1642,1754,1
+,,,1999-06-06,Kirin Cup,played,Japan,JPN,JPN,AFC,Peru,PER,PER,CONMEBOL,TRUE,0,0,draw,Yokohama,Japan,FALSE,1642,1724,1641,1725,-1
+,,,1999-06-29,Copa América,played,Japan,JPN,JPN,AFC,Peru,PER,PER,CONMEBOL,FALSE,2,3,loss,Asunción,Paraguay,TRUE,1641,1704,1620,1725,-21
+,,,1999-07-02,Copa América,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,4,loss,Asunción,Paraguay,FALSE,1620,1777,1603,1794,-17
+,,,1999-07-05,Copa América,played,Japan,JPN,JPN,AFC,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,1,draw,Pedro Juan Caballero,Paraguay,TRUE,1603,1655,1607,1651,4
+,,,1999-09-08,Friendly,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,1,1,draw,Yokohama,Japan,FALSE,1607,1754,1608,1753,1
+,,,2000-02-05,Lunar New Year Cup,played,Japan,JPN,JPN,AFC,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,So Kon Po,Hong Kong,TRUE,1608,1911,1604,1915,-4
+,,,2000-02-13,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,3,0,win,Macau,Macau,TRUE,1604,1307,1615,1296,11
+,,,2000-02-16,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Brunei,,,,TRUE,9,0,win,Macau,Macau,TRUE,1615,759,1616,758,1
+,,,2000-02-20,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Macau,,,,FALSE,3,0,win,Macau,Macau,FALSE,,,,,
+,,,2000-03-15,Friendly,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,0,0,draw,Kobe,Japan,FALSE,,,,,
+,,,2000-04-26,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Seoul,South Korea,FALSE,1619,1713,1614,1718,-5
+,,,2000-06-04,King Hassan II Tournament,played,Japan,JPN,JPN,AFC,France,FRA,FRA,UEFA,FALSE,2,2,draw,Casablanca,Morocco,TRUE,1614,2065,1627,2052,13
+,,,2000-06-06,King Hassan II Tournament,played,Japan,JPN,JPN,AFC,Jamaica,JAM,JAM,CONCACAF,FALSE,4,0,win,Casablanca,Morocco,TRUE,1627,1521,1647,1501,20
+,,,2000-06-11,Kirin Cup,played,Japan,JPN,JPN,AFC,Slovakia,SVK,SVK,UEFA,TRUE,1,1,draw,Rifu,Japan,FALSE,1647,1694,1645,1696,-2
+,,,2000-06-18,Kirin Cup,played,Japan,JPN,JPN,AFC,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,0,win,Yokohama,Japan,FALSE,1645,1618,1660,1603,15
+,,,2000-08-16,Friendly,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,3,1,win,Hiroshima,Japan,FALSE,1660,1529,1666,1523,6
+,,,2000-10-14,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,4,1,win,Sidon,Lebanon,TRUE,1666,1656,1708,1614,42
+,,,2000-10-17,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,TRUE,8,1,win,Sidon,Lebanon,TRUE,1708,1523,1737,1494,29
+,,,2000-10-20,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Qatar,QAT,QAT,AFC,TRUE,1,1,draw,Beirut,Lebanon,TRUE,1737,1499,1722,1514,-15
+,,,2000-10-24,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,TRUE,4,1,win,Beirut,Lebanon,TRUE,1722,1656,1758,1620,36
+,,,2000-10-26,AFC Asian Cup,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,3,2,win,Beirut,Lebanon,TRUE,,,,,
+,,,2000-10-29,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Beirut,Lebanon,TRUE,1780,1697,1799,1678,19
+,,,2000-12-20,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Tokyo,Japan,FALSE,1799,1760,1795,1764,-4
+,,,2001-01-23,Millennium Cup,played,Japan,JPN,JPN,AFC,Serbia,SRB,SRB,UEFA,FALSE,0,1,loss,Calcutta,India,TRUE,,,,,
+,,,2001-03-24,Friendly,played,Japan,JPN,JPN,AFC,France,FRA,FRA,UEFA,FALSE,0,5,loss,Saint-Denis,France,FALSE,1795,2113,1792,2116,-3
+,,,2001-04-25,Friendly,played,Japan,JPN,JPN,AFC,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Córdoba,Spain,FALSE,1792,1956,1788,1960,-4
+,,,2001-05-31,Confederations Cup,played,Japan,JPN,JPN,AFC,Canada,CAN,CAN,CONCACAF,TRUE,3,0,win,Niigata,Japan,FALSE,1788,1634,1804,1618,16
+,,,2001-06-02,Confederations Cup,played,Japan,JPN,JPN,AFC,Cameroon,CMR,CMR,CAF,TRUE,2,0,win,Niigata,Japan,FALSE,1804,1693,1821,1676,17
+,,,2001-06-04,Confederations Cup,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,0,0,draw,Kashima,Japan,FALSE,1821,1971,1825,1967,4
+,,,2001-06-07,Confederations Cup,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,1,0,win,Yokohama,Japan,FALSE,1825,1833,1844,1814,19
+,,,2001-06-10,Confederations Cup,played,Japan,JPN,JPN,AFC,France,FRA,FRA,UEFA,TRUE,0,1,loss,Yokohama,Japan,FALSE,1844,2118,1831,2131,-13
+,,,2001-07-01,Kirin Cup,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,0,win,Sapporo,Japan,FALSE,1831,1887,1851,1867,20
+,,,2001-07-04,Kirin Cup,played,Japan,JPN,JPN,AFC,Serbia,SRB,SRB,UEFA,TRUE,1,0,win,Ōita,Japan,FALSE,,,,,
+,,,2001-08-15,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,3,0,win,Fukuroi,Japan,FALSE,1861,1866,1887,1840,26
+,,,2001-10-04,Friendly,played,Japan,JPN,JPN,AFC,Senegal,SEN,SEN,CAF,TRUE,0,2,loss,Lens,France,TRUE,1887,1558,1861,1584,-26
+,,,2001-10-07,Friendly,played,Japan,JPN,JPN,AFC,Nigeria,NGA,NGA,CAF,TRUE,2,2,draw,Southampton,England,TRUE,1861,1714,1857,1718,-4
+,,,2001-11-07,Friendly,played,Japan,JPN,JPN,AFC,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Saitama,Japan,FALSE,1857,2018,1859,2016,2
+,,,2002-03-21,Friendly,played,Japan,JPN,JPN,AFC,Ukraine,UKR,UKR,UEFA,TRUE,1,0,win,Osaka,Japan,FALSE,1859,1703,1863,1699,4
+,,,2002-03-27,Friendly,played,Japan,JPN,JPN,AFC,Poland,POL,POL,UEFA,FALSE,2,0,win,Łódź,Poland,FALSE,1863,1760,1878,1745,15
+,,,2002-04-17,Friendly,played,Japan,JPN,JPN,AFC,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Yokohama,Japan,FALSE,1878,1781,1873,1786,-5
+,,,2002-04-29,Kirin Cup,played,Japan,JPN,JPN,AFC,Slovakia,SVK,SVK,UEFA,TRUE,1,0,win,Tokyo,Japan,FALSE,1873,1703,1878,1698,5
+,,,2002-05-02,Kirin Cup,played,Japan,JPN,JPN,AFC,Honduras,HND,HND,CONCACAF,TRUE,3,3,draw,Kobe,Japan,FALSE,1878,1749,1869,1758,-9
+,,,2002-05-14,Friendly,played,Japan,JPN,JPN,AFC,Norway,NOR,NOR,UEFA,FALSE,0,3,loss,Oslo,Norway,FALSE,1869,1748,1850,1767,-19
+,,,2002-05-25,Friendly,played,Japan,JPN,JPN,AFC,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Tokyo,Japan,FALSE,1850,1864,1848,1866,-2
+WC-2002,WC-2002_013,13,2002-06-04,FIFA World Cup,played,Japan,JPN,JPN,AFC,Belgium,BEL,BEL,UEFA,TRUE,2,2,draw,Saitama,Japan,FALSE,1848,1837,1839,1846,-9
+WC-2002,WC-2002_028,28,2002-06-09,FIFA World Cup,played,Japan,JPN,JPN,AFC,Russia,RUS,RUS,UEFA,TRUE,1,0,win,Yokohama,Japan,FALSE,1839,1824,1859,1804,20
+WC-2002,WC-2002_046,46,2002-06-14,FIFA World Cup,played,Japan,JPN,JPN,AFC,Tunisia,TUN,TUN,CAF,TRUE,2,0,win,Osaka,Japan,FALSE,1859,1614,1870,1603,11
+WC-2002,WC-2002_055,55,2002-06-18,FIFA World Cup,played,Japan,JPN,JPN,AFC,Turkey,TUR,TUR,UEFA,TRUE,0,1,loss,Rifu,Japan,FALSE,1870,1777,1825,1822,-45
+,,,2002-10-16,Friendly,played,Japan,JPN,JPN,AFC,Jamaica,JAM,JAM,CONCACAF,TRUE,1,1,draw,Tokyo,Japan,FALSE,1825,1535,1817,1543,-8
+,,,2002-11-20,Friendly,played,Japan,JPN,JPN,AFC,Argentina,ARG,ARG,CONMEBOL,TRUE,0,2,loss,Saitama,Japan,FALSE,1817,1984,1805,1996,-12
+,,,2003-03-28,Friendly,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,2,2,draw,Tokyo,Japan,FALSE,1805,1778,1801,1782,-4
+,,,2003-04-16,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,1,0,win,Seoul,South Korea,FALSE,1801,1768,1813,1756,12
+,,,2003-05-31,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Tokyo,Japan,FALSE,1813,1756,1799,1770,-14
+,,,2003-06-08,Kirin Cup,played,Japan,JPN,JPN,AFC,Argentina,ARG,ARG,CONMEBOL,TRUE,1,4,loss,Osaka,Japan,FALSE,1799,2014,1781,2032,-18
+,,,2003-06-11,Kirin Cup,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,0,draw,Saitama,Japan,FALSE,1781,1774,1777,1778,-4
+,,,2003-06-18,Confederations Cup,played,Japan,JPN,JPN,AFC,New Zealand,NZL,NZL,OFC,FALSE,3,0,win,Saint-Denis,France,TRUE,1777,1568,1797,1548,20
+,,,2003-06-20,Confederations Cup,played,Japan,JPN,JPN,AFC,France,FRA,FRA,UEFA,FALSE,1,2,loss,Saint-Étienne,France,FALSE,1797,1973,1789,1981,-8
+,,,2003-06-22,Confederations Cup,played,Japan,JPN,JPN,AFC,Colombia,COL,COL,CONMEBOL,TRUE,0,1,loss,Saint-Étienne,France,TRUE,1789,1856,1769,1876,-20
+,,,2003-08-20,Friendly,played,Japan,JPN,JPN,AFC,Nigeria,NGA,NGA,CAF,TRUE,3,0,win,Tokyo,Japan,FALSE,1769,1748,1781,1736,12
+,,,2003-09-10,Friendly,played,Japan,JPN,JPN,AFC,Senegal,SEN,SEN,CAF,TRUE,0,1,loss,Niigata,Japan,FALSE,1781,1742,1767,1756,-14
+,,,2003-10-08,Friendly,played,Japan,JPN,JPN,AFC,Tunisia,TUN,TUN,CAF,FALSE,1,0,win,Tunis,Tunisia,FALSE,1767,1644,1776,1635,9
+,,,2003-10-11,Friendly,played,Japan,JPN,JPN,AFC,Romania,ROU,ROU,UEFA,FALSE,1,1,draw,Bucharest,Romania,FALSE,1776,1798,1779,1795,3
+,,,2003-11-19,Friendly,played,Japan,JPN,JPN,AFC,Cameroon,CMR,CMR,CAF,TRUE,0,0,draw,Ōita,Japan,FALSE,1779,1780,1776,1783,-3
+,,,2003-12-04,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,2,0,win,Tokyo,Japan,FALSE,,,,,
+,,,2003-12-10,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Yokohama,Japan,FALSE,1787,1683,1776,1694,-11
+,,,2004-02-07,Friendly,played,Japan,JPN,JPN,AFC,Malaysia,,,,TRUE,4,0,win,Kashima,Japan,FALSE,1776,1268,1777,1267,1
+,,,2004-02-12,Friendly,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,0,win,Tokyo,Japan,FALSE,1777,1616,1782,1611,5
+,,,2004-02-18,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,TRUE,1,0,win,Saitama,Japan,FALSE,1782,1548,1787,1543,5
+,,,2004-03-31,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,2,1,win,Singapore,Singapore,FALSE,1787,1169,1789,1167,2
+,,,2004-04-25,Friendly,played,Japan,JPN,JPN,AFC,Hungary,HUN,HUN,UEFA,FALSE,2,3,loss,Zalaegerszeg,Hungary,FALSE,1789,1542,1775,1556,-14
+,,,2004-04-28,Friendly,played,Japan,JPN,JPN,AFC,Czechia,CZE,CZE,UEFA,FALSE,1,0,win,Prague,Czech Republic,FALSE,1775,1968,1792,1951,17
+,,,2004-05-30,Friendly,played,Japan,JPN,JPN,AFC,Iceland,ISL,ISL,UEFA,FALSE,3,2,win,Manchester,England,TRUE,1792,1581,1799,1574,7
+,,,2004-06-01,Friendly,played,Japan,JPN,JPN,AFC,England,ENG,ENG,UEFA,FALSE,1,1,draw,Manchester,England,FALSE,1799,1943,1808,1934,9
+,,,2004-06-09,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,India,,,,TRUE,7,0,win,Saitama,Japan,FALSE,1808,1164,1809,1163,1
+,,,2004-07-09,Kirin Cup,played,Japan,JPN,JPN,AFC,Slovakia,SVK,SVK,UEFA,TRUE,3,1,win,Hiroshima,Japan,FALSE,1809,1664,1818,1655,9
+,,,2004-07-13,Kirin Cup,played,Japan,JPN,JPN,AFC,Serbia and Montenegro,SCG,SCG,UEFA,TRUE,1,0,win,Yokohama,Japan,FALSE,1818,1739,1826,1731,8
+,,,2004-07-20,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Oman,,,,TRUE,1,0,win,Chongqing,China PR,TRUE,1826,1563,1835,1554,9
+,,,2004-07-24,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,4,1,win,Chongqing,China PR,TRUE,1835,1389,1841,1383,6
+,,,2004-07-28,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,0,0,draw,Chongqing,China PR,TRUE,1841,1728,1833,1736,-8
+,,,2004-07-31,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Jordan,,,,TRUE,1,1,draw,Chongqing,China PR,TRUE,1833,1660,1821,1672,-12
+,,,2004-08-03,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Bahrain,,,,FALSE,4,3,win,Jinan,China PR,TRUE,1821,1592,1832,1581,11
+,,,2004-08-07,AFC Asian Cup,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,3,1,win,Beijing,China PR,FALSE,,,,,
+,,,2004-08-18,Friendly,played,Japan,JPN,JPN,AFC,Argentina,ARG,ARG,CONMEBOL,TRUE,1,2,loss,Fukuroi,Japan,FALSE,1861,2010,1852,2019,-9
+,,,2004-09-08,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,India,,,,FALSE,4,0,win,Calcutta,India,FALSE,1852,1170,1855,1167,3
+,,,2004-10-13,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,FALSE,1,0,win,Muscat,Oman,FALSE,1855,1601,1867,1589,12
+,,,2004-11-17,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,1,0,win,Saitama,Japan,FALSE,1867,1166,1867,1166,0
+,,,2004-12-16,Friendly,played,Japan,JPN,JPN,AFC,Germany,GER,DEU,UEFA,TRUE,0,3,loss,Yokohama,Japan,FALSE,1867,1876,1845,1898,-22
+,,,2005-01-29,Friendly,played,Japan,JPN,JPN,AFC,Kazakhstan,,,,TRUE,4,0,win,Yokohama,Japan,FALSE,1845,1348,1846,1347,1
+,,,2005-02-02,Friendly,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,3,0,win,Saitama,Japan,FALSE,1846,1450,1848,1448,2
+,,,2005-02-09,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,2,1,win,Saitama,Japan,FALSE,1848,1466,1850,1464,2
+,,,2005-03-25,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Tehran,Iran,FALSE,1850,1797,1833,1814,-17
+,,,2005-03-30,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,TRUE,1,0,win,Saitama,Japan,FALSE,1833,1614,1838,1609,5
+,,,2005-05-22,Kirin Cup,played,Japan,JPN,JPN,AFC,Peru,PER,PER,CONMEBOL,TRUE,0,1,loss,Niigata,Japan,FALSE,1838,1674,1813,1699,-25
+,,,2005-05-27,Kirin Cup,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,1,loss,Tokyo,Japan,FALSE,1813,1408,1785,1436,-28
+,,,2005-06-03,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1785,1612,1801,1596,16
+,,,2005-06-08,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,2,0,win,Bangkok,Thailand,TRUE,1801,1453,1808,1446,7
+,,,2005-06-16,Confederations Cup,played,Japan,JPN,JPN,AFC,Mexico,MEX,MEX,CONCACAF,TRUE,1,2,loss,Hanover,Germany,TRUE,1808,1911,1790,1929,-18
+,,,2005-06-19,Confederations Cup,played,Japan,JPN,JPN,AFC,Greece,GRC,GRC,UEFA,FALSE,1,0,win,Frankfurt am Main,Germany,TRUE,1790,1847,1819,1818,29
+,,,2005-06-22,Confederations Cup,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,2,2,draw,Cologne,Germany,TRUE,1819,1966,1829,1956,10
+,,,2005-07-31,EAFF Championship,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,0,1,loss,Daejeon,South Korea,TRUE,1829,1446,1793,1482,-36
+,,,2005-08-03,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,2,2,draw,Daejeon,South Korea,TRUE,,,,,
+,,,2005-08-07,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,1,0,win,Daegu,South Korea,FALSE,1784,1689,1804,1669,20
+,,,2005-08-17,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,TRUE,2,1,win,Yokohama,Japan,FALSE,1804,1834,1820,1818,16
+,,,2005-09-07,Friendly,played,Japan,JPN,JPN,AFC,Honduras,HND,HND,CONCACAF,TRUE,5,4,win,Rifu,Japan,FALSE,1820,1730,1825,1725,5
+,,,2005-10-08,Friendly,played,Japan,JPN,JPN,AFC,Latvia,,,,FALSE,2,2,draw,Riga,Latvia,FALSE,1825,1470,1819,1476,-6
+,,,2005-10-12,Friendly,played,Japan,JPN,JPN,AFC,Ukraine,UKR,UKR,UEFA,FALSE,0,1,loss,Kyiv,Ukraine,FALSE,1819,1766,1810,1775,-9
+,,,2005-11-16,Friendly,played,Japan,JPN,JPN,AFC,Angola,AGO,AGO,CAF,TRUE,1,0,win,Tokyo,Japan,FALSE,1810,1549,1812,1547,2
+,,,2006-02-10,Friendly,played,Japan,JPN,JPN,AFC,United States,USA,USA,CONCACAF,FALSE,2,3,loss,San Francisco,United States,FALSE,1812,1828,1805,1835,-7
+,,,2006-02-18,Friendly,played,Japan,JPN,JPN,AFC,Finland,,,,TRUE,2,0,win,Fukuroi,Japan,FALSE,1805,1646,1811,1640,6
+,,,2006-02-22,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,India,,,,TRUE,6,0,win,Yokohama,Japan,FALSE,1811,1186,1812,1185,1
+,,,2006-02-28,Friendly,played,Japan,JPN,JPN,AFC,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,2,2,draw,Dortmund,Germany,TRUE,1812,1630,1807,1635,-5
+,,,2006-03-30,Friendly,played,Japan,JPN,JPN,AFC,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Ōita,Japan,FALSE,1807,1720,1812,1715,5
+,,,2006-05-09,Kirin Cup,played,Japan,JPN,JPN,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,1,2,loss,Osaka,Japan,FALSE,1812,1723,1790,1745,-22
+,,,2006-05-13,Kirin Cup,played,Japan,JPN,JPN,AFC,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Saitama,Japan,FALSE,1790,1700,1783,1707,-7
+,,,2006-05-30,Friendly,played,Japan,JPN,JPN,AFC,Germany,GER,DEU,UEFA,FALSE,2,2,draw,Leverkusen,Germany,FALSE,1783,1892,1788,1887,5
+,,,2006-06-04,Friendly,played,Japan,JPN,JPN,AFC,Malta,,,,TRUE,1,0,win,Düsseldorf,Germany,TRUE,1788,1252,1789,1251,1
+WC-2006,WC-2006_009,9,2006-06-12,FIFA World Cup,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,1,3,loss,Kaiserslautern,Germany,TRUE,1789,1798,1745,1842,-44
+WC-2006,WC-2006_029,29,2006-06-18,FIFA World Cup,played,Japan,JPN,JPN,AFC,Croatia,HRV,HRV,UEFA,TRUE,0,0,draw,Nuremberg,Germany,TRUE,1745,1823,1752,1816,7
+WC-2006,WC-2006_044,44,2006-06-22,FIFA World Cup,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,1,4,loss,Dortmund,Germany,TRUE,1752,2070,1737,2085,-15
+,,,2006-08-09,Friendly,played,Japan,JPN,JPN,AFC,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,0,win,Tokyo,Japan,FALSE,1737,1553,1742,1548,5
+,,,2006-08-16,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Yemen,,,,TRUE,2,0,win,Niigata,Japan,FALSE,1742,1224,1744,1222,2
+,,,2006-09-03,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1744,1554,1719,1579,-25
+,,,2006-09-06,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Yemen,,,,FALSE,1,0,win,Sana'a,Yemen,FALSE,1719,1220,1723,1216,4
+,,,2006-10-04,Friendly,played,Japan,JPN,JPN,AFC,Ghana,GHA,GHA,CAF,TRUE,0,1,loss,Yokohama,Japan,FALSE,1723,1720,1710,1733,-13
+,,,2006-10-11,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,India,,,,FALSE,3,0,win,Bangalore,India,FALSE,1710,1054,1713,1051,3
+,,,2006-11-15,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,3,1,win,Sapporo,Japan,FALSE,1713,1592,1726,1579,13
+,,,2007-03-24,Friendly,played,Japan,JPN,JPN,AFC,Peru,PER,PER,CONMEBOL,TRUE,2,0,win,Yokohama,Japan,FALSE,1726,1631,1733,1624,7
+,,,2007-06-01,Kirin Cup,played,Japan,JPN,JPN,AFC,Montenegro,,,,TRUE,2,0,win,Fukuroi,Japan,FALSE,1733,1682,1746,1669,13
+,,,2007-06-05,Kirin Cup,played,Japan,JPN,JPN,AFC,Colombia,COL,COL,CONMEBOL,TRUE,0,0,draw,Saitama,Japan,FALSE,1746,1820,1745,1821,-1
+,,,2007-07-09,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Qatar,QAT,QAT,AFC,TRUE,1,1,draw,Hanoi,Vietnam,TRUE,1745,1489,1729,1505,-16
+,,,2007-07-13,AFC Asian Cup,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,3,1,win,Hanoi,Vietnam,TRUE,1729,1471,1743,1457,14
+,,,2007-07-16,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Vietnam,,,,FALSE,4,1,win,Hanoi,Vietnam,FALSE,1743,1337,1756,1324,13
+,,,2007-07-21,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,1,1,draw,Hanoi,Vietnam,TRUE,1756,1720,1753,1723,-3
+,,,2007-07-25,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,3,loss,Hanoi,Vietnam,TRUE,1753,1670,1722,1701,-31
+,,,2007-07-28,AFC Asian Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Palembang,Indonesia,TRUE,1722,1662,1718,1666,-4
+,,,2007-08-22,Friendly,played,Japan,JPN,JPN,AFC,Cameroon,CMR,CMR,CAF,TRUE,2,0,win,Ōita,Japan,FALSE,1718,1784,1732,1770,14
+,,,2007-09-07,Friendly,played,Japan,JPN,JPN,AFC,Austria,AUT,AUT,UEFA,FALSE,0,0,draw,Klagenfurt,Austria,FALSE,1732,1617,1731,1618,-1
+,,,2007-09-11,Friendly,played,Japan,JPN,JPN,AFC,Switzerland,CHE,CHE,UEFA,FALSE,4,3,win,Klagenfurt,Austria,TRUE,1731,1853,1751,1833,20
+,,,2007-10-17,Friendly,played,Japan,JPN,JPN,AFC,Egypt,EGY,EGY,CAF,TRUE,4,1,win,Osaka,Japan,FALSE,1751,1708,1778,1681,27
+,,,2008-01-26,Friendly,played,Japan,JPN,JPN,AFC,Chile,CHL,CHL,CONMEBOL,TRUE,0,0,draw,Tokyo,Japan,FALSE,1778,1728,1774,1732,-4
+,,,2008-01-30,Friendly,played,Japan,JPN,JPN,AFC,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,3,0,win,Tokyo,Japan,FALSE,1774,1541,1778,1537,4
+,,,2008-02-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,4,1,win,Saitama,Japan,FALSE,1778,1439,1783,1434,5
+,,,2008-02-17,EAFF Championship,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,1,1,draw,Chongqing,China PR,TRUE,1783,1497,1769,1511,-14
+,,,2008-02-20,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,1,0,win,Chongqing,China PR,FALSE,,,,,
+,,,2008-02-23,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Chongqing,China PR,TRUE,1783,1675,1777,1681,-6
+,,,2008-03-26,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1777,1505,1748,1534,-29
+,,,2008-05-24,Kirin Cup,played,Japan,JPN,JPN,AFC,Ivory Coast,CIV,CIV,CAF,TRUE,1,0,win,Toyota,Japan,FALSE,1748,1739,1758,1729,10
+,,,2008-05-27,Kirin Cup,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,0,draw,Saitama,Japan,FALSE,1758,1795,1755,1798,-3
+,,,2008-06-02,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,TRUE,3,0,win,Yokohama,Japan,FALSE,1755,1513,1764,1504,9
+,,,2008-06-07,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,FALSE,1,1,draw,Muscat,Oman,FALSE,1764,1504,1755,1513,-9
+,,,2008-06-14,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,3,0,win,Bangkok,Thailand,FALSE,1755,1424,1770,1409,15
+,,,2008-06-22,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,TRUE,1,0,win,Saitama,Japan,FALSE,1770,1542,1775,1537,5
+,,,2008-08-20,Friendly,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,1,3,loss,Sapporo,Japan,FALSE,1775,1810,1757,1828,-18
+,,,2008-09-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,FALSE,3,2,win,Riffa,Bahrain,FALSE,1757,1553,1771,1539,14
+,,,2008-10-09,Friendly,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,1,draw,Niigata,Japan,FALSE,1771,1403,1762,1412,-9
+,,,2008-10-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,TRUE,1,1,draw,Saitama,Japan,FALSE,1762,1538,1747,1553,-15
+,,,2008-11-13,Friendly,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,3,1,win,Kobe,Japan,FALSE,1747,1533,1751,1529,4
+,,,2008-11-19,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Qatar,QAT,QAT,AFC,FALSE,3,0,win,Doha,Qatar,FALSE,1751,1517,1773,1495,22
+,,,2009-01-20,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Yemen,,,,TRUE,2,1,win,Kumamoto,Japan,FALSE,1773,1190,1774,1189,1
+,,,2009-01-28,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1774,1525,1746,1553,-28
+,,,2009-02-04,Friendly,played,Japan,JPN,JPN,AFC,Finland,,,,TRUE,5,1,win,Tokyo,Japan,FALSE,1746,1671,1756,1661,10
+,,,2009-02-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,0,0,draw,Yokohama,Japan,FALSE,1756,1740,1750,1746,-6
+,,,2009-03-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,TRUE,1,0,win,Saitama,Japan,FALSE,1750,1589,1757,1582,7
+,,,2009-05-27,Kirin Cup,played,Japan,JPN,JPN,AFC,Chile,CHL,CHL,CONMEBOL,TRUE,4,0,win,Osaka,Japan,FALSE,1757,1811,1781,1787,24
+,,,2009-05-31,Kirin Cup,played,Japan,JPN,JPN,AFC,Belgium,BEL,BEL,UEFA,TRUE,4,0,win,Tokyo,Japan,FALSE,1781,1592,1790,1583,9
+,,,2009-06-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1790,1554,1803,1541,13
+,,,2009-06-10,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Qatar,QAT,QAT,AFC,TRUE,1,1,draw,Yokohama,Japan,FALSE,1803,1520,1787,1536,-16
+,,,2009-06-17,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,1,2,loss,Melbourne,Australia,FALSE,1787,1729,1769,1747,-18
+,,,2009-09-05,Friendly,played,Japan,JPN,JPN,AFC,Netherlands,NED,NLD,UEFA,FALSE,0,3,loss,Enschede,Netherlands,FALSE,1769,2032,1765,2036,-4
+,,,2009-09-09,Friendly,played,Japan,JPN,JPN,AFC,Ghana,GHA,GHA,CAF,TRUE,4,3,win,Utrecht,Netherlands,TRUE,1765,1750,1775,1740,10
+,,,2009-10-08,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,6,0,win,Shizuoka,Japan,FALSE,1775,1235,1777,1233,2
+,,,2009-10-10,Friendly,played,Japan,JPN,JPN,AFC,Scotland,SCO,SCO,UEFA,TRUE,2,0,win,Yokohama,Japan,FALSE,1777,1695,1785,1687,8
+,,,2009-10-14,Friendly,played,Japan,JPN,JPN,AFC,Togo,TGO,TGO,CAF,TRUE,5,0,win,Miyagi,Japan,FALSE,1785,1449,1788,1446,3
+,,,2009-11-14,Friendly,played,Japan,JPN,JPN,AFC,South Africa,ZAF,ZAF,CAF,FALSE,0,0,draw,Port Elizabeth,South Africa,FALSE,1788,1514,1783,1519,-5
+,,,2009-11-18,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Hong Kong,,,,FALSE,4,0,win,So Kon Po,Hong Kong,FALSE,1783,1233,1788,1228,5
+,,,2010-01-06,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Yemen,,,,FALSE,3,2,win,Sana'a,Yemen,FALSE,1788,1212,1790,1210,2
+,,,2010-02-02,Friendly,played,Japan,JPN,JPN,AFC,Venezuela,,,,TRUE,0,0,draw,Ōita,Japan,FALSE,1790,1721,1785,1726,-5
+,,,2010-02-06,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,0,0,draw,Tokyo,Japan,FALSE,,,,,
+,,,2010-02-11,EAFF Championship,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,3,0,win,Tokyo,Japan,FALSE,1770,1220,1772,1218,2
+,,,2010-02-14,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,3,loss,Tokyo,Japan,FALSE,1772,1696,1728,1740,-44
+,,,2010-03-03,AFC Asian Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,TRUE,2,0,win,Toyota,Japan,FALSE,1728,1535,1737,1526,9
+,,,2010-04-07,Friendly,played,Japan,JPN,JPN,AFC,Serbia,SRB,SRB,UEFA,TRUE,0,3,loss,Osaka,Japan,FALSE,1737,1841,1720,1858,-17
+,,,2010-05-24,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Saitama,Japan,FALSE,1720,1765,1703,1782,-17
+,,,2010-05-30,Friendly,played,Japan,JPN,JPN,AFC,England,ENG,ENG,UEFA,TRUE,1,2,loss,Graz,Austria,TRUE,1703,1998,1700,2001,-3
+,,,2010-06-04,Friendly,played,Japan,JPN,JPN,AFC,Ivory Coast,CIV,CIV,CAF,TRUE,0,2,loss,Sion,Switzerland,TRUE,1700,1725,1686,1739,-14
+WC-2010,WC-2010_010,10,2010-06-14,FIFA World Cup,played,Japan,JPN,JPN,AFC,Cameroon,CMR,CMR,CAF,TRUE,1,0,win,Bloemfontein,South Africa,TRUE,1678,1694,1709,1663,31
+WC-2010,WC-2010_026,26,2010-06-19,FIFA World Cup,played,Japan,JPN,JPN,AFC,Netherlands,NED,NLD,UEFA,FALSE,0,1,loss,Durban,South Africa,TRUE,1709,2059,1702,2066,-7
+WC-2010,WC-2010_042,42,2010-06-24,FIFA World Cup,played,Japan,JPN,JPN,AFC,Denmark,DNK,DNK,UEFA,FALSE,3,1,win,Rustenburg,South Africa,TRUE,1702,1784,1757,1729,55
+WC-2010,WC-2010_055,55,2010-06-29,FIFA World Cup,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,0,draw,Pretoria,South Africa,TRUE,1757,1790,1760,1787,3
+,,,2010-09-04,Friendly,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,0,win,Yokohama,Japan,FALSE,1760,1787,1768,1779,8
+,,,2010-09-07,Friendly,played,Japan,JPN,JPN,AFC,Guatemala,,,,TRUE,2,1,win,Osaka,Japan,FALSE,1768,1450,1770,1448,2
+,,,2010-10-08,Friendly,played,Japan,JPN,JPN,AFC,Argentina,ARG,ARG,CONMEBOL,TRUE,1,0,win,Saitama,Japan,FALSE,1770,1992,1783,1979,13
+,,,2010-10-12,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Seoul,South Korea,FALSE,1783,1737,1785,1735,2
+,,,2011-01-09,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Jordan,,,,TRUE,1,1,draw,Doha,Qatar,TRUE,1785,1472,1767,1490,-18
+,,,2011-01-13,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Syria,,,,FALSE,2,1,win,Doha,Qatar,TRUE,1767,1552,1778,1541,11
+,,,2011-01-17,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,5,0,win,Al Rayyan,Qatar,TRUE,1778,1584,1803,1559,25
+,,,2011-01-21,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Qatar,QAT,QAT,AFC,FALSE,3,2,win,Doha,Qatar,FALSE,1803,1557,1818,1542,15
+,,,2011-01-25,AFC Asian Cup,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,2,2,draw,Doha,Qatar,TRUE,1818,1776,1815,1779,-3
+,,,2011-01-29,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,1,0,win,Doha,Qatar,TRUE,1815,1818,1840,1793,25
+,,,2011-06-01,Kirin Cup,played,Japan,JPN,JPN,AFC,Peru,PER,PER,CONMEBOL,TRUE,0,0,draw,Niigata,Japan,FALSE,1840,1637,1829,1648,-11
+,,,2011-06-07,Kirin Cup,played,Japan,JPN,JPN,AFC,Czechia,CZE,CZE,UEFA,TRUE,0,0,draw,Yokohama,Japan,FALSE,1829,1730,1821,1738,-8
+,,,2011-08-10,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,3,0,win,Sapporo,Japan,FALSE,1821,1815,1833,1803,12
+,,,2011-09-02,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,1,0,win,Saitama,Japan,FALSE,1833,1496,1836,1493,3
+,,,2011-09-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,FALSE,1,1,draw,Tashkent,Uzbekistan,FALSE,1836,1579,1828,1587,-8
+,,,2011-10-07,Friendly,played,Japan,JPN,JPN,AFC,Vietnam,,,,TRUE,1,0,win,Kobe,Japan,FALSE,1828,1275,1828,1275,0
+,,,2011-10-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Tajikistan,,,,TRUE,8,0,win,Osaka,Japan,FALSE,1828,1255,1830,1253,2
+,,,2011-11-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Tajikistan,,,,FALSE,4,0,win,Dushanbe,Tajikistan,FALSE,1830,1253,1835,1248,5
+,,,2011-11-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,0,1,loss,Pyongyang,North Korea,FALSE,1835,1469,1802,1502,-33
+,,,2012-02-24,Friendly,played,Japan,JPN,JPN,AFC,Iceland,ISL,ISL,UEFA,TRUE,3,1,win,Osaka,Japan,FALSE,1802,1441,1804,1439,2
+,,,2012-02-29,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,TRUE,0,1,loss,Toyota,Japan,FALSE,1804,1593,1770,1627,-34
+,,,2012-05-23,Friendly,played,Japan,JPN,JPN,AFC,Azerbaijan,,,,TRUE,2,0,win,Shizuoka,Japan,FALSE,1770,1388,1772,1386,2
+,,,2012-06-03,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,TRUE,3,0,win,Saitama,Japan,FALSE,1772,1521,1780,1513,8
+,,,2012-06-08,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Jordan,,,,TRUE,6,0,win,Saitama,Japan,FALSE,1780,1559,1792,1547,12
+,,,2012-06-12,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,1,1,draw,Brisbane,Australia,FALSE,1792,1801,1798,1795,6
+,,,2012-08-15,Friendly,played,Japan,JPN,JPN,AFC,Venezuela,,,,TRUE,1,1,draw,Sapporo,Japan,FALSE,1798,1693,1793,1698,-5
+,,,2012-09-06,Friendly,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,0,win,Niigata,Japan,FALSE,1793,1421,1794,1420,1
+,,,2012-09-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,TRUE,1,0,win,Saitama,Japan,FALSE,1794,1612,1801,1605,7
+,,,2012-10-12,Friendly,played,Japan,JPN,JPN,AFC,France,FRA,FRA,UEFA,FALSE,1,0,win,Saint-Denis,France,FALSE,1801,1874,1816,1859,15
+,,,2012-10-16,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,0,4,loss,Wrocław,Poland,TRUE,1816,2073,1809,2080,-7
+,,,2012-11-14,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,FALSE,2,1,win,Muscat,Oman,FALSE,1809,1528,1819,1518,10
+,,,2013-02-06,Friendly,played,Japan,JPN,JPN,AFC,Latvia,,,,TRUE,3,0,win,Kobe,Japan,FALSE,1819,1510,1822,1507,3
+,,,2013-03-22,Friendly,played,Japan,JPN,JPN,AFC,Canada,CAN,CAN,CONCACAF,TRUE,2,1,win,Doha,Qatar,TRUE,1822,1591,1826,1587,4
+,,,2013-03-26,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Jordan,,,,FALSE,1,2,loss,Amman,Jordan,FALSE,1826,1514,1795,1545,-31
+,,,2013-05-30,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,0,2,loss,Toyota,Japan,FALSE,1795,1677,1772,1700,-23
+,,,2013-06-04,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,1,1,draw,Saitama,Japan,FALSE,1772,1747,1765,1754,-7
+,,,2013-06-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,0,win,Doha,Qatar,TRUE,1765,1568,1775,1558,10
+,,,2013-06-15,Confederations Cup,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,FALSE,0,3,loss,Brasília,Brazil,FALSE,1775,2042,1766,2051,-9
+,,,2013-06-19,Confederations Cup,played,Japan,JPN,JPN,AFC,Italy,ITA,ITA,UEFA,FALSE,3,4,loss,Recife,Brazil,TRUE,1766,1931,1752,1945,-14
+,,,2013-06-22,Confederations Cup,played,Japan,JPN,JPN,AFC,Mexico,MEX,MEX,CONCACAF,TRUE,1,2,loss,Belo Horizonte,Brazil,TRUE,1752,1829,1732,1849,-20
+,,,2013-07-21,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,3,3,draw,Seoul,South Korea,TRUE,,,,,
+,,,2013-07-25,EAFF Championship,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,3,2,win,Hwaseong,South Korea,TRUE,1723,1774,1746,1751,23
+,,,2013-07-28,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,2,1,win,Seoul,South Korea,FALSE,1746,1704,1769,1681,23
+,,,2013-08-14,Friendly,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,2,4,loss,Rifu,Japan,FALSE,1769,1855,1753,1871,-16
+,,,2013-09-06,Friendly,played,Japan,JPN,JPN,AFC,Guatemala,,,,TRUE,3,0,win,Osaka,Japan,FALSE,1753,1481,1757,1477,4
+,,,2013-09-10,Friendly,played,Japan,JPN,JPN,AFC,Ghana,GHA,GHA,CAF,TRUE,3,1,win,Saitama,Japan,FALSE,1757,1697,1766,1688,9
+,,,2013-10-11,Friendly,played,Japan,JPN,JPN,AFC,Serbia,SRB,SRB,UEFA,FALSE,0,2,loss,Novi Sad,Serbia,FALSE,1766,1727,1754,1739,-12
+,,,2013-10-15,Friendly,played,Japan,JPN,JPN,AFC,Belarus,,,,FALSE,0,1,loss,Minsk,Belarus,FALSE,1754,1582,1742,1594,-12
+,,,2013-11-16,Friendly,played,Japan,JPN,JPN,AFC,Netherlands,NED,NLD,UEFA,FALSE,2,2,draw,Genk,Belgium,TRUE,1742,2015,1749,2008,7
+,,,2013-11-19,Friendly,played,Japan,JPN,JPN,AFC,Belgium,BEL,BEL,UEFA,FALSE,3,2,win,Brussels,Belgium,FALSE,1749,1850,1764,1835,15
+,,,2014-03-05,Friendly,played,Japan,JPN,JPN,AFC,New Zealand,NZL,NZL,OFC,TRUE,4,2,win,Tokyo,Japan,FALSE,1764,1547,1768,1543,4
+,,,2014-05-27,Friendly,played,Japan,JPN,JPN,AFC,Cyprus,,,,TRUE,1,0,win,Saitama,Japan,FALSE,1768,1386,1769,1385,1
+,,,2014-06-02,Friendly,played,Japan,JPN,JPN,AFC,Costa Rica,CRI,CRI,CONCACAF,FALSE,3,1,win,Tampa,United States,TRUE,1769,1724,1782,1711,13
+,,,2014-06-06,Friendly,played,Japan,JPN,JPN,AFC,Zambia,,,,TRUE,4,3,win,Tampa,United States,TRUE,1782,1486,1785,1483,3
+WC-2014,WC-2014_007,7,2014-06-14,FIFA World Cup,played,Japan,JPN,JPN,AFC,Ivory Coast,CIV,CIV,CAF,FALSE,1,2,loss,Recife,Brazil,TRUE,1785,1772,1754,1803,-31
+WC-2014,WC-2014_022,22,2014-06-19,FIFA World Cup,played,Japan,JPN,JPN,AFC,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Natal,Brazil,TRUE,1754,1785,1757,1782,3
+WC-2014,WC-2014_040,40,2014-06-24,FIFA World Cup,played,Japan,JPN,JPN,AFC,Colombia,COL,COL,CONMEBOL,TRUE,1,4,loss,Cuiabá,Brazil,TRUE,1757,1977,1734,2000,-23
+,,,2014-09-05,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,0,2,loss,Sapporo,Japan,FALSE,1734,1879,1721,1892,-13
+,,,2014-09-09,Friendly,played,Japan,JPN,JPN,AFC,Venezuela,,,,TRUE,2,2,draw,Yokohama,Japan,FALSE,1721,1683,1717,1687,-4
+,,,2014-10-10,Friendly,played,Japan,JPN,JPN,AFC,Jamaica,JAM,JAM,CONCACAF,TRUE,1,0,win,Niigata,Japan,FALSE,1717,1509,1720,1506,3
+,,,2014-10-14,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,0,4,loss,Kallang,Singapore,TRUE,1720,2024,1714,2030,-6
+,,,2014-11-14,Friendly,played,Japan,JPN,JPN,AFC,Honduras,HND,HND,CONCACAF,TRUE,6,0,win,Toyota,Japan,FALSE,1714,1556,1722,1548,8
+,,,2014-11-18,Friendly,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,2,1,win,Osaka,Japan,FALSE,1722,1658,1728,1652,6
+,,,2015-01-12,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Palestine,,,,TRUE,4,0,win,Newcastle,Australia,TRUE,1728,1341,1737,1332,9
+,,,2015-01-16,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,0,win,Brisbane,Australia,TRUE,1737,1532,1749,1520,12
+,,,2015-01-20,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Jordan,,,,TRUE,2,0,win,Melbourne,Australia,TRUE,1749,1525,1765,1509,16
+,,,2015-01-23,AFC Asian Cup,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,1,draw,Sydney,Australia,TRUE,1765,1669,1758,1676,-7
+,,,2015-03-27,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Tunisia,TUN,TUN,CAF,TRUE,2,0,win,Ōita,Japan,FALSE,1758,1565,1763,1560,5
+,,,2015-03-31,Friendly,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,TRUE,5,1,win,Chōfu,Japan,FALSE,1763,1631,1771,1623,8
+,,,2015-06-11,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,TRUE,4,0,win,Yokohama,Japan,FALSE,1771,1533,1776,1528,5
+,,,2015-06-16,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Singapore,,,,TRUE,0,0,draw,Saitama,Japan,FALSE,1776,1178,1757,1197,-19
+,,,2015-08-02,EAFF Championship,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,FALSE,1,2,loss,Wuhan,China PR,TRUE,1757,1499,1724,1532,-33
+,,,2015-08-05,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Wuhan,China PR,TRUE,1724,1775,1727,1772,3
+,,,2015-08-09,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,1,1,draw,Wuhan,China PR,FALSE,,,,,
+,,,2015-09-03,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Cambodia,,,,TRUE,3,0,win,Saitama,Japan,FALSE,1725,734,1725,734,0
+,,,2015-09-08,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Afghanistan,,,,FALSE,6,0,win,Tehran,Iran,TRUE,1725,1097,1727,1095,2
+,,,2015-10-08,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Syria,,,,FALSE,3,0,win,Seeb,Oman,TRUE,1727,1520,1743,1504,16
+,,,2015-10-13,Friendly,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,1,1,draw,Tehran,Iran,FALSE,1743,1727,1745,1725,2
+,,,2015-11-12,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Singapore,,,,FALSE,3,0,win,Kallang,Singapore,FALSE,1745,1200,1750,1195,5
+,,,2015-11-17,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Cambodia,,,,FALSE,2,0,win,Phnom Penh,Cambodia,FALSE,1750,731,1750,731,0
+,,,2016-03-24,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Afghanistan,,,,TRUE,5,0,win,Saitama,Japan,FALSE,1750,1131,1751,1130,1
+,,,2016-03-29,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,5,0,win,Saitama,Japan,FALSE,1751,1530,1762,1519,11
+,,,2016-06-03,Kirin Cup,played,Japan,JPN,JPN,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,7,2,win,Toyota,Japan,FALSE,1762,1614,1774,1602,12
+,,,2016-06-07,Kirin Cup,played,Japan,JPN,JPN,AFC,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,1,2,loss,Suita,Japan,FALSE,1774,1741,1754,1761,-20
+,,,2016-09-01,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,2,loss,Saitama,Japan,FALSE,1754,1565,1720,1599,-34
+,,,2016-09-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Thailand,,,,FALSE,2,0,win,Bangkok,Thailand,FALSE,1720,1419,1734,1405,14
+,,,2016-10-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,1,win,Saitama,Japan,FALSE,1734,1460,1738,1456,4
+,,,2016-10-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,1,1,draw,Melbourne,Australia,FALSE,1738,1730,1743,1725,5
+,,,2016-11-11,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Oman,,,,TRUE,4,0,win,Kashima,Japan,FALSE,1743,1465,1747,1461,4
+,,,2016-11-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,Saitama,Japan,FALSE,1747,1587,1754,1580,7
+,,,2017-03-23,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,2,0,win,Al Ain,United Arab Emirates,FALSE,1754,1585,1778,1561,24
+,,,2017-03-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,4,0,win,Saitama,Japan,FALSE,1778,1393,1782,1389,4
+,,,2017-06-07,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,1,1,draw,Chōfu,Japan,FALSE,1782,1566,1775,1573,-7
+,,,2017-06-13,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,1,draw,Tehran,Iran,TRUE,1775,1509,1762,1522,-13
+,,,2017-08-31,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,2,0,win,Saitama,Japan,FALSE,1762,1723,1781,1704,19
+,,,2017-09-05,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1781,1590,1756,1615,-25
+,,,2017-10-06,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,New Zealand,NZL,NZL,OFC,TRUE,2,1,win,Toyota,Japan,FALSE,1756,1517,1758,1515,2
+,,,2017-10-10,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Haiti,HTI,HTI,CONCACAF,TRUE,3,3,draw,Yokohama,Japan,FALSE,1758,1471,1750,1479,-8
+,,,2017-11-10,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,1,3,loss,Villeneuve-d'Ascq,France,TRUE,1750,2112,1747,2115,-3
+,,,2017-11-14,Friendly,played,Japan,JPN,JPN,AFC,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Bruges,Belgium,FALSE,1747,1924,1744,1927,-3
+,,,2017-12-09,EAFF Championship,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,1,0,win,Chōfu,Japan,FALSE,1744,1455,1748,1451,4
+,,,2017-12-12,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,2,1,win,Chōfu,Japan,FALSE,,,,,
+,,,2017-12-16,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,1,4,loss,Chōfu,Japan,FALSE,1755,1711,1706,1760,-49
+,,,2018-03-23,Friendly,played,Japan,JPN,JPN,AFC,Mali,,,,TRUE,1,1,draw,Liège,Belgium,TRUE,1706,1511,1701,1516,-5
+,,,2018-03-27,Friendly,played,Japan,JPN,JPN,AFC,Ukraine,UKR,UKR,UEFA,FALSE,1,2,loss,Liège,Belgium,TRUE,1701,1733,1692,1742,-9
+,,,2018-05-30,Friendly,played,Japan,JPN,JPN,AFC,Ghana,GHA,GHA,CAF,TRUE,0,2,loss,Yokohama,Japan,FALSE,1692,1613,1670,1635,-22
+,,,2018-06-08,Friendly,played,Japan,JPN,JPN,AFC,Switzerland,CHE,CHE,UEFA,FALSE,0,2,loss,Lugano,Switzerland,FALSE,1670,1884,1666,1888,-4
+,,,2018-06-12,Friendly,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,4,2,win,Innsbruck,Austria,TRUE,1666,1745,1684,1727,18
+WC-2018,WC-2018_015,15,2018-06-19,FIFA World Cup,played,Japan,JPN,JPN,AFC,Colombia,COL,COL,CONMEBOL,FALSE,2,1,win,Saransk,Russia,TRUE,1684,1927,1732,1879,48
+WC-2018,WC-2018_031,31,2018-06-24,FIFA World Cup,played,Japan,JPN,JPN,AFC,Senegal,SEN,SEN,CAF,TRUE,2,2,draw,Ekaterinburg,Russia,TRUE,1732,1782,1736,1778,4
+WC-2018,WC-2018_045,45,2018-06-28,FIFA World Cup,played,Japan,JPN,JPN,AFC,Poland,POL,POL,UEFA,TRUE,0,1,loss,Volgograd,Russia,TRUE,1736,1753,1707,1782,-29
+WC-2018,WC-2018_054,54,2018-07-02,FIFA World Cup,played,Japan,JPN,JPN,AFC,Belgium,BEL,BEL,UEFA,FALSE,2,3,loss,Rostov-on-Don,Russia,TRUE,1707,1999,1698,2008,-9
+,,,2018-09-11,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Costa Rica,CRI,CRI,CONCACAF,TRUE,3,0,win,Suita,Japan,FALSE,1698,1715,1711,1702,13
+,,,2018-10-12,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Panama,PAN,PAN,CONCACAF,TRUE,3,0,win,Niigata,Japan,FALSE,1711,1579,1718,1572,7
+,,,2018-10-16,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,4,3,win,Saitama,Japan,FALSE,1718,1943,1731,1930,13
+,,,2018-11-16,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Venezuela,,,,TRUE,1,1,draw,Ōita,Japan,FALSE,1731,1752,1729,1754,-2
+,,,2018-11-20,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Kyrgyzstan,,,,TRUE,4,0,win,Toyota,Japan,FALSE,1729,1266,1730,1265,1
+,,,2019-01-09,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Turkmenistan,,,,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,TRUE,1730,1253,1733,1250,3
+,,,2019-01-13,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Oman,,,,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1733,1516,1744,1505,11
+,,,2019-01-17,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Uzbekistan,,,,TRUE,2,1,win,Al Ain,United Arab Emirates,TRUE,1744,1622,1761,1605,17
+,,,2019-01-21,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Sharjah,United Arab Emirates,TRUE,1761,1588,1774,1575,13
+,,,2019-01-24,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Vietnam,,,,FALSE,1,0,win,Dubai,United Arab Emirates,TRUE,1774,1360,1778,1356,4
+,,,2019-01-28,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,3,0,win,Al Ain,United Arab Emirates,TRUE,1778,1841,1830,1789,52
+,,,2019-02-01,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Qatar,QAT,QAT,AFC,TRUE,1,3,loss,Abu Dhabi,United Arab Emirates,TRUE,1830,1722,1781,1771,-49
+,,,2019-03-22,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Colombia,COL,COL,CONMEBOL,TRUE,0,1,loss,Yokohama,Japan,FALSE,1781,1960,1773,1968,-8
+,,,2019-03-26,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,0,win,Kobe,Japan,FALSE,1773,1642,1777,1638,4
+,,,2019-06-05,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,0,draw,Toyota,Japan,FALSE,1777,1430,1768,1439,-9
+,,,2019-06-09,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,El Salvador,SLV,SLV,CONCACAF,TRUE,2,0,win,Rifu,Japan,FALSE,1768,1536,1772,1532,4
+,,,2019-06-17,Copa América,played,Japan,JPN,JPN,AFC,Chile,CHL,CHL,CONMEBOL,TRUE,0,4,loss,São Paulo,Brazil,TRUE,1772,1836,1734,1874,-38
+,,,2019-06-20,Copa América,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,FALSE,2,2,draw,Porto Alegre,Brazil,TRUE,1734,1958,1748,1944,14
+,,,2019-06-24,Copa América,played,Japan,JPN,JPN,AFC,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,1,draw,Belo Horizonte,Brazil,TRUE,1748,1713,1745,1716,-3
+,,,2019-09-05,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,0,win,Kashima,Japan,FALSE,1745,1736,1755,1726,10
+,,,2019-09-10,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Myanmar,,,,FALSE,2,0,win,Yangon,Myanmar,FALSE,1755,1023,1757,1021,2
+,,,2019-10-10,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Mongolia,,,,TRUE,6,0,win,Saitama,Japan,FALSE,1757,733,1757,733,0
+,,,2019-10-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Tajikistan,,,,FALSE,3,0,win,Dushanbe,Tajikistan,FALSE,1757,1274,1764,1267,7
+,,,2019-11-14,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Kyrgyzstan,,,,FALSE,2,0,win,Bishkek,Kyrgyzstan,FALSE,1764,1287,1770,1281,6
+,,,2019-11-19,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Venezuela,,,,TRUE,1,4,loss,Suita,Japan,FALSE,1770,1809,1749,1830,-21
+,,,2019-12-10,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,2,1,win,Busan,South Korea,TRUE,,,,,
+,,,2019-12-14,EAFF Championship,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,5,0,win,Busan,South Korea,TRUE,1755,1185,1758,1182,3
+,,,2019-12-18,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Busan,South Korea,FALSE,1758,1758,1744,1772,-14
+,,,2020-10-09,Friendly,played,Japan,JPN,JPN,AFC,Cameroon,CMR,CMR,CAF,TRUE,0,0,draw,Utrecht,Netherlands,TRUE,1744,1578,1740,1582,-4
+,,,2020-10-13,Friendly,played,Japan,JPN,JPN,AFC,Ivory Coast,CIV,CIV,CAF,TRUE,1,0,win,Utrecht,Netherlands,TRUE,1740,1624,1747,1617,7
+,,,2020-11-13,Friendly,played,Japan,JPN,JPN,AFC,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Graz,Austria,TRUE,1747,1547,1752,1542,5
+,,,2020-11-17,Friendly,played,Japan,JPN,JPN,AFC,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,Graz,Austria,TRUE,1752,1920,1744,1928,-8
+,,,2021-03-25,Friendly,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,3,0,win,Yokohama,Japan,FALSE,1744,1773,1758,1759,14
+,,,2021-03-30,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Mongolia,,,,TRUE,14,0,win,Chiba,Japan,FALSE,1758,731,1758,731,0
+,,,2021-05-28,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Myanmar,,,,TRUE,10,0,win,Chiba,Japan,FALSE,1758,1051,1759,1050,1
+,,,2021-06-07,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Tajikistan,,,,TRUE,4,1,win,Suita,Japan,FALSE,1759,1255,1761,1253,2
+,,,2021-06-11,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Serbia,SRB,SRB,UEFA,TRUE,1,0,win,Kobe,Japan,FALSE,1761,1793,1769,1785,8
+,,,2021-06-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Kyrgyzstan,,,,TRUE,5,1,win,Suita,Japan,FALSE,1769,1258,1771,1256,2
+,,,2021-09-02,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,TRUE,0,1,loss,Suita,Japan,FALSE,1771,1504,1735,1540,-36
+,,,2021-09-07,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,1,0,win,Doha,Qatar,TRUE,,,,,
+,,,2021-10-07,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1743,1638,1723,1658,-20
+,,,2021-10-12,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,2,1,win,Saitama,Japan,FALSE,1723,1774,1740,1757,17
+,,,2021-11-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Vietnam,,,,FALSE,1,0,win,Hanoi,Vietnam,FALSE,1740,1375,1747,1368,7
+,,,2021-11-16,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Oman,,,,FALSE,1,0,win,Muscat,Oman,FALSE,1747,1519,1760,1506,13
+,,,2022-01-27,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,2,0,win,Saitama,Japan,FALSE,,,,,
+,,,2022-02-01,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,0,win,Saitama,Japan,FALSE,1767,1638,1780,1625,13
+,,,2022-03-24,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,2,0,win,Sydney,Australia,FALSE,1780,1732,1814,1698,34
+,,,2022-03-29,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Vietnam,,,,TRUE,1,1,draw,Saitama,Japan,FALSE,1814,1355,1796,1373,-18
+,,,2022-06-02,Friendly,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,4,1,win,Sapporo,Japan,FALSE,1796,1728,1806,1718,10
+,,,2022-06-06,Friendly,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Tokyo,Japan,FALSE,1806,2162,1802,2166,-4
+,,,2022-06-10,Kirin Cup,played,Japan,JPN,JPN,AFC,Ghana,GHA,GHA,CAF,TRUE,4,1,win,Kobe,Japan,FALSE,1802,1533,1808,1527,6
+,,,2022-06-14,Kirin Cup,played,Japan,JPN,JPN,AFC,Tunisia,TUN,TUN,CAF,TRUE,0,3,loss,Suita,Japan,FALSE,1808,1642,1765,1685,-43
+,,,2022-07-19,EAFF Championship,played,Japan,JPN,JPN,AFC,Hong Kong,,,,TRUE,6,0,win,Kashima,Japan,FALSE,1765,1151,1766,1150,1
+,,,2022-07-24,EAFF Championship,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,0,0,draw,Toyota,Japan,FALSE,,,,,
+,,,2022-07-27,EAFF Championship,played,Japan,JPN,JPN,AFC,South Korea,KOR,KOR,AFC,TRUE,3,0,win,Toyota,Japan,FALSE,1749,1815,1781,1783,32
+,,,2022-09-23,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,United States,USA,USA,CONCACAF,TRUE,2,0,win,Düsseldorf,Germany,TRUE,1781,1818,1798,1801,17
+,,,2022-09-27,Kirin Challenge Cup,played,Japan,JPN,JPN,AFC,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,Düsseldorf,Germany,TRUE,1798,1841,1799,1840,1
+,,,2022-11-17,Friendly,played,Japan,JPN,JPN,AFC,Canada,CAN,CAN,CONCACAF,TRUE,1,2,loss,Dubai,United Arab Emirates,TRUE,1799,1764,1788,1775,-11
+WC-2022,WC-2022_009,9,2022-11-23,FIFA World Cup,played,Japan,JPN,JPN,AFC,Germany,GER,DEU,UEFA,FALSE,2,1,win,Al Rayyan,Qatar,TRUE,1788,1962,1832,1918,44
+WC-2022,WC-2022_025,25,2022-11-27,FIFA World Cup,played,Japan,JPN,JPN,AFC,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Al Rayyan,Qatar,TRUE,1832,1723,1793,1762,-39
+WC-2022,WC-2022_041,41,2022-12-01,FIFA World Cup,played,Japan,JPN,JPN,AFC,Spain,ESP,ESP,UEFA,TRUE,2,1,win,Al Rayyan,Qatar,TRUE,1793,2056,1842,2007,49
+WC-2022,WC-2022_053,53,2022-12-05,FIFA World Cup,played,Japan,JPN,JPN,AFC,Croatia,HRV,HRV,UEFA,TRUE,1,1,draw,Al Wakrah,Qatar,TRUE,1842,1944,1851,1935,9
+,,,2023-03-24,Friendly,played,Japan,JPN,JPN,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,1,1,draw,Tokyo,Japan,FALSE,1851,1904,1850,1905,-1
+,,,2023-03-28,Friendly,played,Japan,JPN,JPN,AFC,Colombia,COL,COL,CONMEBOL,TRUE,1,2,loss,Osaka,Japan,FALSE,1850,1918,1839,1929,-11
+,,,2023-06-15,Friendly,played,Japan,JPN,JPN,AFC,El Salvador,SLV,SLV,CONCACAF,TRUE,6,0,win,Toyota,Japan,FALSE,1839,1469,1842,1466,3
+,,,2023-06-20,Friendly,played,Japan,JPN,JPN,AFC,Peru,PER,PER,CONMEBOL,TRUE,4,1,win,Suita,Japan,FALSE,1842,1856,1855,1843,13
+,,,2023-09-09,Friendly,played,Japan,JPN,JPN,AFC,Germany,GER,DEU,UEFA,FALSE,4,1,win,Wolfsburg,Germany,FALSE,1855,1913,1880,1888,25
+,,,2023-09-12,Friendly,played,Japan,JPN,JPN,AFC,Turkey,TUR,TUR,UEFA,TRUE,4,2,win,Genk,Belgium,TRUE,1880,1713,1888,1705,8
+,,,2023-10-13,Friendly,played,Japan,JPN,JPN,AFC,Canada,CAN,CAN,CONCACAF,TRUE,4,1,win,Niigata,Japan,FALSE,1888,1724,1894,1718,6
+,,,2023-11-16,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Myanmar,,,,TRUE,5,0,win,Suita,Japan,FALSE,1900,920,1900,920,0
+,,,2023-11-21,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Syria,,,,FALSE,5,0,win,Jeddah,Saudi Arabia,TRUE,1900,1431,1905,1426,5
+,,,2024-01-01,Friendly,played,Japan,JPN,JPN,AFC,Thailand,,,,TRUE,5,0,win,Tokyo,Japan,FALSE,1905,1384,1906,1383,1
+,,,2024-01-09,Friendly,played,Japan,JPN,JPN,AFC,Jordan,,,,TRUE,6,1,win,Doha,Qatar,TRUE,1906,1517,1910,1513,4
+,,,2024-01-14,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Vietnam,,,,TRUE,4,2,win,Doha,Qatar,TRUE,1910,1379,1913,1376,3
+,,,2024-01-19,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,2,loss,Al Rayyan,Qatar,TRUE,1913,1625,1871,1667,-42
+,,,2024-01-24,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,TRUE,3,1,win,Doha,Qatar,TRUE,1871,1286,1873,1284,2
+,,,2024-01-31,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Bahrain,,,,FALSE,3,1,win,Doha,Qatar,TRUE,1873,1466,1880,1459,7
+,,,2024-02-03,AFC Asian Cup,played,Japan,JPN,JPN,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Al Rayyan,Qatar,TRUE,1880,1824,1851,1853,-29
+,,,2024-03-21,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,North Korea,PRK,PRK,AFC,TRUE,1,0,win,Tokyo,Japan,FALSE,1851,1370,1852,1369,1
+,,,2024-06-06,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Myanmar,,,,FALSE,5,0,win,Yangon,Myanmar,FALSE,1852,923,1853,922,1
+,,,2024-06-11,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Syria,,,,TRUE,5,0,win,Hiroshima,Japan,FALSE,1853,1423,1857,1419,4
+,,,2024-09-05,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,China PR,,,,TRUE,7,0,win,Saitama,Japan,FALSE,,,,,
+,,,2024-09-10,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,FALSE,5,0,win,Riffa,Bahrain,FALSE,1860,1492,1874,1478,14
+,,,2024-10-10,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,0,win,Jeddah,Saudi Arabia,FALSE,1874,1589,1889,1574,15
+,,,2024-10-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,TRUE,1,1,draw,Saitama,Japan,FALSE,1889,1729,1876,1742,-13
+,,,2024-11-15,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,FALSE,4,0,win,Jakarta,Indonesia,FALSE,1876,1359,1882,1353,6
+,,,2024-11-19,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,China PR,,,,FALSE,3,1,win,Xiamen,China PR,FALSE,,,,,
+,,,2025-03-20,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Bahrain,,,,TRUE,2,0,win,Saitama,Japan,FALSE,1889,1530,1893,1526,4
+,,,2025-03-25,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,0,draw,Saitama,Japan,FALSE,1893,1545,1876,1562,-17
+,,,2025-06-05,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Perth,Australia,FALSE,1876,1737,1854,1759,-22
+,,,2025-06-10,FIFA World Cup qualification,played,Japan,JPN,JPN,AFC,Indonesia,IDN,IDN,AFC,TRUE,6,0,win,Suita,Japan,FALSE,1854,1360,1857,1357,3
+,,,2025-09-06,Friendly,played,Japan,JPN,JPN,AFC,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Oakland,United States,TRUE,1883,1861,1882,1862,-1
+,,,2025-09-09,Friendly,played,Japan,JPN,JPN,AFC,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Columbus,United States,FALSE,1882,1679,1863,1698,-19
+,,,2025-10-10,Kirin Cup,played,Japan,JPN,JPN,AFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,2,2,draw,Osaka,Japan,FALSE,1863,1844,1860,1847,-3
+,,,2025-10-14,Kirin Cup,played,Japan,JPN,JPN,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,3,2,win,Tokyo,Japan,FALSE,1860,1989,1871,1978,11
+,,,2025-11-14,Kirin Cup,played,Japan,JPN,JPN,AFC,Ghana,GHA,GHA,CAF,TRUE,2,0,win,Toyota,Japan,FALSE,1871,1513,1873,1511,2
+,,,2025-11-18,Kirin Cup,played,Japan,JPN,JPN,AFC,Bolivia,BOL,BOL,CONMEBOL,TRUE,3,0,win,Tokyo,Japan,FALSE,1873,1681,1878,1676,5
+,,,2026-03-28,Friendly,played,Japan,JPN,JPN,AFC,Scotland,SCO,SCO,UEFA,FALSE,1,0,win,Glasgow,Scotland,FALSE,1878,1790,1888,1780,10
+,,,2026-03-31,Friendly,played,Japan,JPN,JPN,AFC,England,ENG,ENG,UEFA,FALSE,1,0,win,London,England,FALSE,1888,2036,1904,2020,16

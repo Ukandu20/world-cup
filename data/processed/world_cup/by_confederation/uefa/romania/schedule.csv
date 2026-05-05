@@ -1,22 +1,22 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1930 FIFA Men's World Cup,WC-1930,1930,4,1930-07-14,Group Stage,played,Romania,ROU,Peru,PER,FALSE,Montevideo,Uruguay,TRUE,1561,1541
-1930 FIFA Men's World Cup,WC-1930,1930,14,1930-07-21,Group Stage,played,Romania,ROU,Uruguay,URY,FALSE,Montevideo,Uruguay,FALSE,1603,1970
-1934 FIFA Men's World Cup,WC-1934,1934,5,1934-05-27,Round of 16,played,Romania,ROU,Czechoslovakia,CSK,FALSE,Trieste,Italy,TRUE,1639,1847
-1938 FIFA Men's World Cup,WC-1938,1938,3,1938-06-05,Round of 16,played,Romania,ROU,Cuba,CUB,FALSE,Toulouse,France,TRUE,1557,1543
-1938 FIFA Men's World Cup,WC-1938,1938,8,1938-06-09,Round of 16,played,Romania,ROU,Cuba,CUB,FALSE,Toulouse,France,TRUE,1556,1544
-1970 FIFA Men's World Cup,WC-1970,1970,3,1970-06-02,Group Stage,played,Romania,ROU,England,ENG,FALSE,Guadalajara,Mexico,TRUE,1784,2070
-1970 FIFA Men's World Cup,WC-1970,1970,10,1970-06-06,Group Stage,played,Romania,ROU,Czechoslovakia,CSK,FALSE,Guadalajara,Mexico,TRUE,1774,1918
-1970 FIFA Men's World Cup,WC-1970,1970,17,1970-06-10,Group Stage,played,Romania,ROU,Brazil,BRA,FALSE,Guadalajara,Mexico,TRUE,1816,2088
-1990 FIFA Men's World Cup,WC-1990,1990,3,1990-06-09,Group Stage,played,Romania,ROU,Soviet Union,SUN,FALSE,Bari,Italy,TRUE,1894,1943
-1990 FIFA Men's World Cup,WC-1990,1990,14,1990-06-14,Group Stage,played,Romania,ROU,Cameroon,CMR,FALSE,Bari,Italy,TRUE,1945,1674
-1990 FIFA Men's World Cup,WC-1990,1990,25,1990-06-18,Group Stage,played,Romania,ROU,Argentina,ARG,FALSE,Naples,Italy,TRUE,1895,1813
-1990 FIFA Men's World Cup,WC-1990,1990,41,1990-06-25,Round of 16,played,Romania,ROU,Republic of Ireland,IRL,FALSE,Genoa,Italy,TRUE,1627,
-1994 FIFA Men's World Cup,WC-1994,1994,3,1994-06-18,Group Stage,played,Romania,ROU,Colombia,COL,FALSE,Pasadena,United States,TRUE,1836,1944
-1994 FIFA Men's World Cup,WC-1994,1994,14,1994-06-22,Group Stage,played,Romania,ROU,Switzerland,CHE,TRUE,Pontiac,United States,TRUE,1895,1860
-1994 FIFA Men's World Cup,WC-1994,1994,26,1994-06-26,Group Stage,played,Romania,ROU,United States,USA,FALSE,Pasadena,United States,FALSE,1837,1671
-1994 FIFA Men's World Cup,WC-1994,1994,39,1994-07-03,Round of 16,played,Romania,ROU,Argentina,ARG,TRUE,Pasadena,United States,TRUE,1861,1889
-1994 FIFA Men's World Cup,WC-1994,1994,48,1994-07-10,Quarter-final,played,Romania,ROU,Sweden,SWE,TRUE,Palo Alto,United States,TRUE,1893,1952
-1998 FIFA Men's World Cup,WC-1998,1998,16,1998-06-15,Group Stage,played,Romania,ROU,Colombia,COL,TRUE,Lyon,France,TRUE,1880,1778
-1998 FIFA Men's World Cup,WC-1998,1998,32,1998-06-22,Group Stage,played,Romania,ROU,England,ENG,TRUE,Toulouse,France,TRUE,1901,1985
-1998 FIFA Men's World Cup,WC-1998,1998,48,1998-06-26,Group Stage,played,Romania,ROU,Tunisia,TUN,TRUE,Saint-Denis,France,TRUE,1938,1602
-1998 FIFA Men's World Cup,WC-1998,1998,56,1998-06-30,Round of 16,played,Romania,ROU,Croatia,HRV,TRUE,Bordeaux,France,TRUE,1916,1882
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_004,4,1930-07-14,Group Stage,played,Romania,ROU,ROU,UEFA,Peru,PER,PER,CONMEBOL,FALSE,Montevideo,Uruguay,TRUE,1561,1541
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_014,14,1930-07-21,Group Stage,played,Romania,ROU,ROU,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,Montevideo,Uruguay,FALSE,1603,1970
+1934 FIFA Men's World Cup,WC-1934,1934,WC-1934_005,5,1934-05-27,Round of 16,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,Trieste,Italy,TRUE,1639,1847
+1938 FIFA Men's World Cup,WC-1938,1938,WC-1938_003,3,1938-06-05,Round of 16,played,Romania,ROU,ROU,UEFA,Cuba,CUB,CUB,CONCACAF,FALSE,Toulouse,France,TRUE,1557,1543
+1938 FIFA Men's World Cup,WC-1938,1938,WC-1938_008,8,1938-06-09,Round of 16,played,Romania,ROU,ROU,UEFA,Cuba,CUB,CUB,CONCACAF,FALSE,Toulouse,France,TRUE,1556,1544
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_003,3,1970-06-02,Group Stage,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,FALSE,Guadalajara,Mexico,TRUE,1784,2070
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_010,10,1970-06-06,Group Stage,played,Romania,ROU,ROU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,Guadalajara,Mexico,TRUE,1774,1918
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_017,17,1970-06-10,Group Stage,played,Romania,ROU,ROU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Guadalajara,Mexico,TRUE,1816,2088
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_003,3,1990-06-09,Group Stage,played,Romania,ROU,ROU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,Bari,Italy,TRUE,1894,1943
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_014,14,1990-06-14,Group Stage,played,Romania,ROU,ROU,UEFA,Cameroon,CMR,CMR,CAF,FALSE,Bari,Italy,TRUE,1945,1674
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_025,25,1990-06-18,Group Stage,played,Romania,ROU,ROU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Naples,Italy,TRUE,1895,1813
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_041,41,1990-06-25,Round of 16,played,Romania,ROU,ROU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,Genoa,Italy,TRUE,1627,
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_003,3,1994-06-18,Group Stage,played,Romania,ROU,ROU,UEFA,Colombia,COL,COL,CONMEBOL,FALSE,Pasadena,United States,TRUE,1836,1944
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_014,14,1994-06-22,Group Stage,played,Romania,ROU,ROU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,Pontiac,United States,TRUE,1895,1860
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_026,26,1994-06-26,Group Stage,played,Romania,ROU,ROU,UEFA,United States,USA,USA,CONCACAF,FALSE,Pasadena,United States,FALSE,1837,1671
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_039,39,1994-07-03,Round of 16,played,Romania,ROU,ROU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,Pasadena,United States,TRUE,1861,1889
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_048,48,1994-07-10,Quarter-final,played,Romania,ROU,ROU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,Palo Alto,United States,TRUE,1893,1952
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_016,16,1998-06-15,Group Stage,played,Romania,ROU,ROU,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,Lyon,France,TRUE,1880,1778
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_032,32,1998-06-22,Group Stage,played,Romania,ROU,ROU,UEFA,England,ENG,ENG,UEFA,TRUE,Toulouse,France,TRUE,1901,1985
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_048,48,1998-06-26,Group Stage,played,Romania,ROU,ROU,UEFA,Tunisia,TUN,TUN,CAF,TRUE,Saint-Denis,France,TRUE,1938,1602
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_056,56,1998-06-30,Round of 16,played,Romania,ROU,ROU,UEFA,Croatia,HRV,HRV,UEFA,TRUE,Bordeaux,France,TRUE,1916,1882

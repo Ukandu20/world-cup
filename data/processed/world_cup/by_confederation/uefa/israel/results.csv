@@ -1,498 +1,498 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1934-03-16,FIFA World Cup qualification,played,Israel,ISR,Egypt,EGY,FALSE,1,7,loss,Cairo,Egypt,FALSE,,,,,
-1934-04-06,FIFA World Cup qualification,played,Israel,ISR,Egypt,EGY,TRUE,1,4,loss,Tel Aviv,Mandatory Palestine,FALSE,,,,,
-1938-01-22,FIFA World Cup qualification,played,Israel,ISR,Greece,GRC,TRUE,1,3,loss,Tel Aviv,Mandatory Palestine,FALSE,,,,,
-1938-02-20,FIFA World Cup qualification,played,Israel,ISR,Greece,GRC,FALSE,0,1,loss,Athens,Greece,FALSE,,,,,
-1940-04-27,Friendly,played,Israel,ISR,Lebanon,,TRUE,5,1,win,Tel Aviv,Mandatory Palestine,FALSE,,,,,
-1948-09-26,Friendly,played,Israel,ISR,United States,USA,FALSE,1,3,loss,East Rutherford,United States,FALSE,,,,,
-1949-07-30,Friendly,played,Israel,ISR,Cyprus,,TRUE,3,1,win,Tel Aviv,Israel,FALSE,1500,1400,1507,1393,7
-1949-08-21,FIFA World Cup qualification,played,Israel,ISR,Yugoslavia,YUG,FALSE,0,6,loss,Belgrade,Yugoslavia,FALSE,1507,1769,1498,1778,-9
-1949-09-18,FIFA World Cup qualification,played,Israel,ISR,Yugoslavia,YUG,TRUE,2,5,loss,Tel Aviv,Israel,FALSE,1498,1778,1480,1796,-18
-1950-10-28,Friendly,played,Israel,ISR,Turkey,TUR,TRUE,5,1,win,Tel Aviv,Israel,FALSE,1480,1539,1497,1522,17
-1950-12-03,Friendly,played,Israel,ISR,Turkey,TUR,FALSE,2,3,loss,Istanbul,Turkey,FALSE,1497,1522,1490,1529,-7
-1953-11-01,FIFA World Cup qualification,played,Israel,ISR,Greece,GRC,FALSE,0,1,loss,Athens,Greece,FALSE,1490,1444,1473,1461,-17
-1953-11-08,FIFA World Cup qualification,played,Israel,ISR,Yugoslavia,YUG,FALSE,0,1,loss,Skopje,Yugoslavia,FALSE,1473,1940,1472,1941,-1
-1954-03-08,FIFA World Cup qualification,played,Israel,ISR,Greece,GRC,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1472,1461,1433,1500,-39
-1954-03-21,FIFA World Cup qualification,played,Israel,ISR,Yugoslavia,YUG,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1433,1941,1430,1944,-3
-1954-05-01,Friendly,played,Israel,ISR,South Africa,ZAF,FALSE,1,2,loss,Johannesburg,South Africa,FALSE,1430,1701,1428,1703,-2
-1954-05-03,Friendly,played,Israel,ISR,Zambia,,FALSE,0,0,draw,Kitwe,Northern Rhodesia,FALSE,1428,1558,1434,1552,6
-1954-05-05,Friendly,played,Israel,ISR,Zimbabwe,,FALSE,1,2,loss,Salisbury,Southern Rhodesia,FALSE,1434,1523,1429,1528,-5
-1954-05-09,Friendly,played,Israel,ISR,Zimbabwe,,FALSE,2,1,win,Bulawayo,Southern Rhodesia,FALSE,1429,1528,1444,1513,15
-1956-09-01,AFC Asian Cup,played,Israel,ISR,Hong Kong,,FALSE,3,2,win,So Kon Po,Hong Kong,FALSE,1431,1410,1462,1379,31
-1956-09-08,AFC Asian Cup,played,Israel,ISR,South Korea,KOR,TRUE,1,2,loss,So Kon Po,Hong Kong,TRUE,1462,1633,1448,1647,-14
-1956-09-12,AFC Asian Cup,played,Israel,ISR,Vietnam Republic,,TRUE,2,1,win,So Kon Po,Hong Kong,TRUE,,,,,
-1958-01-15,FIFA World Cup qualification,played,Israel,ISR,Wales,WAL,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1472,1696,1452,1716,-20
-1958-02-05,FIFA World Cup qualification,played,Israel,ISR,Wales,WAL,FALSE,0,2,loss,Cardiff,Wales,FALSE,1452,1716,1445,1723,-7
-1958-05-26,Asian Games,played,Israel,ISR,Iran,IRN,TRUE,4,0,win,Tokyo,Japan,TRUE,1445,1555,1494,1506,49
-1958-05-28,Asian Games,played,Israel,ISR,Singapore,,FALSE,2,1,win,Tokyo,Japan,TRUE,1494,1229,1501,1222,7
-1958-05-30,Asian Games,played,Israel,ISR,Taiwan,,FALSE,0,2,loss,Tokyo,Japan,TRUE,1501,1690,1486,1705,-15
-1959-06-21,Friendly,played,Israel,ISR,Poland,POL,FALSE,2,7,loss,Wrocław,Poland,FALSE,1486,1593,1477,1602,-9
-1959-11-29,Friendly,played,Israel,ISR,Poland,POL,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1492,1591,1492,1591,0
-1959-12-05,AFC Asian Cup qualification,played,Israel,ISR,Iran,IRN,FALSE,0,3,loss,Ernakulam,India,TRUE,1492,1483,1456,1519,-36
-1959-12-08,AFC Asian Cup qualification,played,Israel,ISR,India,,FALSE,3,1,win,Ernakulam,India,FALSE,1456,1520,1499,1477,43
-1959-12-10,AFC Asian Cup qualification,played,Israel,ISR,Pakistan,,TRUE,2,0,win,Ernakulam,India,TRUE,1499,1439,1524,1414,25
-1959-12-12,AFC Asian Cup qualification,played,Israel,ISR,Iran,IRN,TRUE,1,1,draw,Ernakulam,India,TRUE,1524,1451,1520,1455,-4
-1959-12-17,AFC Asian Cup qualification,played,Israel,ISR,Pakistan,,FALSE,2,2,draw,Ernakulam,India,TRUE,1543,1410,1536,1417,-7
-1960-10-17,AFC Asian Cup,played,Israel,ISR,South Korea,KOR,FALSE,0,3,loss,Seoul,South Korea,FALSE,1567,1664,1546,1685,-21
-1960-10-19,AFC Asian Cup,played,Israel,ISR,Vietnam Republic,,TRUE,5,1,win,Seoul,South Korea,TRUE,,,,,
-1960-10-23,AFC Asian Cup,played,Israel,ISR,Taiwan,,TRUE,1,0,win,Seoul,South Korea,TRUE,1579,1706,1613,1672,34
-1960-11-13,FIFA World Cup qualification,played,Israel,ISR,Cyprus,,FALSE,1,1,draw,Nicosia,Cyprus,FALSE,1613,1393,1606,1400,-7
-1960-11-27,FIFA World Cup qualification,played,Israel,ISR,Cyprus,,TRUE,6,1,win,Ramat Gan,Israel,FALSE,1606,1400,1618,1388,12
-1961-03-14,FIFA World Cup qualification,played,Israel,ISR,Ethiopia,,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1618,1430,1624,1424,6
-1961-03-19,FIFA World Cup qualification,played,Israel,ISR,Ethiopia,,TRUE,3,2,win,Ramat Gan,Israel,FALSE,1624,1424,1630,1418,6
-1961-10-15,FIFA World Cup qualification,played,Israel,ISR,Italy,ITA,TRUE,2,4,loss,Ramat Gan,Israel,FALSE,1630,1804,1606,1828,-24
-1961-10-22,Friendly,played,Israel,ISR,South Korea,KOR,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1606,1702,1606,1702,0
-1961-11-04,FIFA World Cup qualification,played,Israel,ISR,Italy,ITA,FALSE,0,6,loss,Turin,Italy,FALSE,1606,1828,1594,1840,-12
-1961-12-14,Friendly,played,Israel,ISR,Yugoslavia,YUG,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1594,1977,1589,1982,-5
-1962-05-16,Friendly,played,Israel,ISR,Turkey,TUR,FALSE,0,1,loss,Istanbul,Turkey,FALSE,1589,1716,1585,1720,-4
-1962-10-17,Friendly,played,Israel,ISR,Austria,AUT,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,,,,,
-1962-11-25,Friendly,played,Israel,ISR,Turkey,TUR,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1584,1725,1571,1738,-13
-1963-05-19,Friendly,played,Israel,ISR,Brazil,BRA,TRUE,0,5,loss,Ramat Gan,Israel,FALSE,1571,1941,1564,1948,-7
-1964-01-02,Friendly,played,Israel,ISR,Hong Kong,,FALSE,3,0,win,So Kon Po,Hong Kong,FALSE,,,,,
-1964-05-26,AFC Asian Cup,played,Israel,ISR,Hong Kong,,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1531,1479,1546,1464,15
-1964-05-29,AFC Asian Cup,played,Israel,ISR,India,,TRUE,2,0,win,Jaffa,Israel,FALSE,1546,1549,1573,1522,27
-1964-06-03,AFC Asian Cup,played,Israel,ISR,South Korea,KOR,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1573,1616,1594,1595,21
-1964-10-28,Friendly,played,Israel,ISR,Yugoslavia,YUG,TRUE,2,0,win,Jaffa,Israel,FALSE,1594,1880,1616,1858,22
-1964-12-01,Friendly,played,Israel,ISR,Denmark,DNK,TRUE,0,1,loss,Jaffa,Israel,FALSE,1616,1620,1603,1633,-13
-1965-01-26,Friendly,played,Israel,ISR,Netherlands,NLD,TRUE,0,1,loss,Jaffa,Israel,FALSE,1603,1686,1593,1696,-10
-1965-03-17,Friendly,played,Israel,ISR,Switzerland,CHE,TRUE,0,0,draw,Jaffa,Israel,FALSE,,,,,
-1965-05-09,FIFA World Cup qualification,played,Israel,ISR,Belgium,BEL,FALSE,0,1,loss,Brussels,Belgium,FALSE,1593,1736,1585,1744,-8
-1965-06-13,FIFA World Cup qualification,played,Israel,ISR,Bulgaria,BGR,FALSE,0,4,loss,Sofia,Bulgaria,FALSE,1585,1743,1571,1757,-14
-1965-11-10,FIFA World Cup qualification,played,Israel,ISR,Belgium,BEL,TRUE,0,5,loss,Ramat Gan,Israel,FALSE,1571,1752,1540,1783,-31
-1965-11-21,FIFA World Cup qualification,played,Israel,ISR,Bulgaria,BGR,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1540,1749,1526,1763,-14
-1966-04-06,Friendly,played,Israel,ISR,Finland,,TRUE,7,1,win,Jaffa,Israel,FALSE,,,,,
-1966-05-08,Friendly,played,Israel,ISR,Finland,,FALSE,3,0,win,Helsinki,Finland,FALSE,1526,1448,1545,1429,19
-1966-06-15,Friendly,played,Israel,ISR,Uruguay,URY,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1545,1862,1541,1866,-4
-1966-10-12,Friendly,played,Israel,ISR,Yugoslavia,YUG,TRUE,1,3,loss,Jaffa,Israel,FALSE,1541,1786,1532,1795,-9
-1966-10-26,Friendly,played,Israel,ISR,Denmark,DNK,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1532,1556,1522,1566,-10
-1966-12-03,Friendly,played,Israel,ISR,Poland,POL,TRUE,0,0,draw,Jaffa,Israel,FALSE,1522,1679,1524,1677,2
-1966-12-07,Friendly,played,Israel,ISR,Romania,ROU,TRUE,1,2,loss,Jaffa,Israel,FALSE,1524,1852,1520,1856,-4
-1967-05-16,Friendly,played,Israel,ISR,Scotland,SCO,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1520,1833,1515,1838,-5
-1968-01-10,Friendly,played,Israel,ISR,Belgium,BEL,TRUE,0,2,loss,Jaffa,Israel,FALSE,1515,1716,1504,1727,-11
-1968-02-14,Friendly,played,Israel,ISR,Switzerland,CHE,TRUE,2,1,win,Jaffa,Israel,FALSE,1504,1685,1516,1673,12
-1968-02-19,Friendly,played,Israel,ISR,Sweden,SWE,TRUE,0,3,loss,Jaffa,Israel,FALSE,1516,1718,1503,1731,-13
-1968-05-12,AFC Asian Cup,played,Israel,ISR,Hong Kong,,FALSE,6,1,win,Tehran,Iran,TRUE,1509,1221,1525,1205,16
-1968-05-14,AFC Asian Cup,played,Israel,ISR,Myanmar,,FALSE,0,1,loss,Tehran,Iran,TRUE,1525,1589,1505,1609,-20
-1968-05-17,AFC Asian Cup,played,Israel,ISR,Taiwan,,TRUE,4,1,win,Tehran,Iran,TRUE,1505,1332,1529,1308,24
-1968-05-19,AFC Asian Cup,played,Israel,ISR,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,1529,1623,1517,1635,-12
-1968-09-10,Friendly,played,Israel,ISR,Northern Ireland,NIR,TRUE,2,3,loss,Jaffa,Israel,FALSE,1517,1693,1509,1701,-8
-1968-09-15,Friendly,played,Israel,ISR,United States,USA,FALSE,3,3,draw,New York,United States,FALSE,1509,1490,1511,1488,2
-1968-09-25,Friendly,played,Israel,ISR,United States,USA,FALSE,4,0,win,Philadelphia,United States,FALSE,1511,1488,1534,1465,23
-1969-03-12,Friendly,played,Israel,ISR,Greece,GRC,TRUE,3,3,draw,Jaffa,Israel,FALSE,1651,1655,1648,1658,-3
-1969-04-23,Friendly,played,Israel,ISR,Austria,AUT,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1648,1687,1646,1689,-2
-1969-08-25,Friendly,played,Israel,ISR,Sweden,SWE,FALSE,1,3,loss,Solna,Sweden,FALSE,1646,1830,1641,1835,-5
-1969-09-28,FIFA World Cup qualification,played,Israel,ISR,New Zealand,NZL,TRUE,4,0,win,Ramat Gan,Israel,FALSE,1641,1479,1655,1465,14
-1969-10-01,FIFA World Cup qualification,played,Israel,ISR,New Zealand,NZL,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1655,1465,1665,1455,10
-1969-12-04,FIFA World Cup qualification,played,Israel,ISR,Australia,AUS,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1665,1631,1678,1618,13
-1969-12-14,FIFA World Cup qualification,played,Israel,ISR,Australia,AUS,FALSE,1,1,draw,Sydney,Australia,FALSE,1678,1618,1680,1616,2
-1970-01-28,Friendly,played,Israel,ISR,Netherlands,NLD,TRUE,0,1,loss,Jaffa,Israel,FALSE,1680,1723,1668,1735,-12
-1970-03-22,Friendly,played,Israel,ISR,Ethiopia,,FALSE,5,1,win,Addis Ababa,Ethiopia,FALSE,1668,1474,1682,1460,14
-1970-06-02,FIFA World Cup,played,Israel,ISR,Uruguay,URY,TRUE,0,2,loss,Puebla,Mexico,TRUE,1682,1867,1659,1890,-23
-1970-06-07,FIFA World Cup,played,Israel,ISR,Sweden,SWE,TRUE,1,1,draw,Toluca,Mexico,TRUE,1659,1829,1673,1815,14
-1970-06-11,FIFA World Cup,played,Israel,ISR,Italy,ITA,TRUE,0,0,draw,Toluca,Mexico,TRUE,1673,2013,1696,1990,23
-1971-11-11,Friendly,played,Israel,ISR,Australia,AUS,FALSE,2,2,draw,Brisbane,Australia,FALSE,1694,1675,1696,1673,2
-1971-11-14,Friendly,played,Israel,ISR,Australia,AUS,FALSE,0,1,loss,Sydney,Australia,FALSE,1696,1673,1688,1681,-8
-1971-11-21,Friendly,played,Israel,ISR,Australia,AUS,FALSE,3,1,win,Melbourne,Australia,FALSE,1688,1681,1707,1662,19
-1972-02-23,Friendly,played,Israel,ISR,Norway,NOR,TRUE,2,1,win,Jaffa,Israel,FALSE,1707,1467,1709,1465,2
-1973-02-20,Friendly,played,Israel,ISR,Argentina,ARG,TRUE,1,1,draw,Jaffa,Israel,FALSE,1703,1882,1705,1880,2
-1973-05-16,FIFA World Cup qualification,played,Israel,ISR,Japan,JPN,TRUE,2,1,win,Seoul,South Korea,TRUE,1705,1490,1714,1481,9
-1973-05-19,FIFA World Cup qualification,played,Israel,ISR,Malaysia,,TRUE,3,0,win,Seoul,South Korea,TRUE,1714,1395,1724,1385,10
-1973-05-21,FIFA World Cup qualification,played,Israel,ISR,Thailand,,TRUE,6,0,win,Seoul,South Korea,TRUE,1724,1260,1730,1254,6
-1973-05-23,FIFA World Cup qualification,played,Israel,ISR,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1730,1552,1726,1556,-4
-1973-05-26,FIFA World Cup qualification,played,Israel,ISR,Japan,JPN,TRUE,1,0,win,Seoul,South Korea,TRUE,1726,1474,1734,1466,8
-1973-05-28,FIFA World Cup qualification,played,Israel,ISR,South Korea,KOR,FALSE,0,1,loss,Seoul,South Korea,FALSE,1734,1565,1710,1589,-24
-1973-07-19,Friendly,played,Israel,ISR,Uruguay,URY,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1710,1759,1699,1770,-11
-1973-11-13,Friendly,played,Israel,ISR,United States,USA,TRUE,3,1,win,Jaffa,Israel,FALSE,1699,1458,1703,1454,4
-1973-11-15,Friendly,played,Israel,ISR,United States,USA,TRUE,2,0,win,Beer Sheva,Israel,FALSE,1703,1454,1707,1450,4
-1974-05-28,Friendly,played,Israel,ISR,Australia,AUS,TRUE,2,1,win,Jaffa,Israel,FALSE,1707,1694,1714,1687,7
-1974-09-03,Asian Games,played,Israel,ISR,Malaysia,,TRUE,8,3,win,Tehran,Iran,TRUE,1714,1455,1729,1440,15
-1974-09-05,Asian Games,played,Israel,ISR,Philippines,,TRUE,6,0,win,Tehran,Iran,TRUE,1729,1022,1730,1021,1
-1974-09-07,Asian Games,played,Israel,ISR,Japan,JPN,FALSE,3,0,win,Tehran,Iran,TRUE,1730,1469,1743,1456,13
-1974-09-10,Asian Games,played,Israel,ISR,Myanmar,,TRUE,3,0,win,Tehran,Iran,TRUE,1743,1600,1764,1579,21
-1974-09-12,Asian Games,played,Israel,ISR,North Korea,PRK,TRUE,2,0,win,Tehran,Iran,TRUE,,,,,
-1974-09-14,Asian Games,played,Israel,ISR,Kuwait,KWT,TRUE,2,0,win,Tehran,Iran,TRUE,,,,,
-1974-09-15,Asian Games,played,Israel,ISR,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1764,1656,1744,1676,-20
-1974-12-04,Friendly,played,Israel,ISR,Romania,ROU,TRUE,0,1,loss,Jaffa,Israel,FALSE,1744,1801,1733,1812,-11
-1975-10-20,Friendly,played,Israel,ISR,Mexico,MEX,TRUE,1,0,win,Jaffa,Israel,FALSE,1733,1759,1741,1751,8
-1976-02-04,Friendly,played,Israel,ISR,Denmark,DNK,TRUE,0,1,loss,Jaffa,Israel,FALSE,1741,1593,1725,1609,-16
-1976-03-03,Friendly,played,Israel,ISR,Northern Ireland,NIR,TRUE,1,1,draw,Jaffa,Israel,FALSE,1725,1786,1724,1787,-1
-1976-09-22,Friendly,played,Israel,ISR,Greece,GRC,FALSE,1,0,win,Patras,Greece,FALSE,1748,1652,1758,1642,10
-1976-11-03,Friendly,played,Israel,ISR,Australia,AUS,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1758,1680,1753,1685,-5
-1976-12-15,Friendly,played,Israel,ISR,Austria,AUT,TRUE,1,3,loss,Ramat Gan,Israel,FALSE,1753,1796,1736,1813,-17
-1977-01-26,Friendly,played,Israel,ISR,Greece,GRC,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1736,1633,1731,1638,-5
-1977-02-09,Friendly,played,Israel,ISR,Thailand,,FALSE,3,3,draw,Bangkok,Thailand,FALSE,1731,1340,1724,1347,-7
-1977-02-12,Friendly,played,Israel,ISR,Australia,AUS,FALSE,1,1,draw,Melbourne,Australia,FALSE,1724,1685,1726,1683,2
-1977-02-16,Friendly,played,Israel,ISR,Australia,AUS,FALSE,1,1,draw,Sydney,Australia,FALSE,1726,1683,1728,1681,2
-1977-02-27,FIFA World Cup qualification,played,Israel,ISR,South Korea,KOR,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1728,1626,1718,1636,-10
-1977-03-06,FIFA World Cup qualification,played,Israel,ISR,Japan,JPN,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1718,1464,1725,1457,7
-1977-03-10,FIFA World Cup qualification,played,Israel,ISR,Japan,JPN,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1725,1457,1731,1451,6
-1977-03-20,FIFA World Cup qualification,played,Israel,ISR,South Korea,KOR,FALSE,1,3,loss,Seoul,South Korea,FALSE,1731,1636,1701,1666,-30
-1978-02-08,Friendly,played,Israel,ISR,Denmark,DNK,TRUE,2,0,win,Jaffa,Israel,FALSE,1701,1640,1710,1631,9
-1978-02-22,Friendly,played,Israel,ISR,Netherlands,NLD,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1710,2076,1706,2080,-4
-1978-11-15,Friendly,played,Israel,ISR,Belgium,BEL,TRUE,1,0,win,Jaffa,Israel,FALSE,1706,1803,1716,1793,10
-1978-12-19,Friendly,played,Israel,ISR,Romania,ROU,TRUE,1,1,draw,Jaffa,Israel,FALSE,1716,1829,1716,1829,0
-1979-01-30,Friendly,played,Israel,ISR,Austria,AUT,TRUE,0,1,loss,Jaffa,Israel,FALSE,1716,1892,1708,1900,-8
-1979-02-14,Friendly,played,Israel,ISR,Greece,GRC,TRUE,4,1,win,Ramat Gan,Israel,FALSE,1708,1686,1720,1674,12
-1980-03-26,FIFA World Cup qualification,played,Israel,ISR,Northern Ireland,NIR,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1720,1717,1714,1723,-6
-1980-06-18,FIFA World Cup qualification,played,Israel,ISR,Sweden,SWE,FALSE,1,1,draw,Solna,Sweden,FALSE,1714,1666,1717,1663,3
-1980-11-12,FIFA World Cup qualification,played,Israel,ISR,Sweden,SWE,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1717,1632,1707,1642,-10
-1980-12-02,Friendly,played,Israel,ISR,Australia,AUS,TRUE,0,1,loss,Beer Sheva,Israel,FALSE,1707,1660,1693,1674,-14
-1980-12-17,FIFA World Cup qualification,played,Israel,ISR,Portugal,PRT,FALSE,0,3,loss,Lisbon,Portugal,FALSE,1693,1827,1679,1841,-14
-1981-02-25,FIFA World Cup qualification,played,Israel,ISR,Scotland,SCO,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1679,1795,1660,1814,-19
-1981-04-08,Friendly,played,Israel,ISR,Romania,ROU,TRUE,2,1,win,Jaffa,Israel,FALSE,1660,1844,1672,1832,12
-1981-04-28,FIFA World Cup qualification,played,Israel,ISR,Scotland,SCO,FALSE,1,3,loss,Glasgow,Scotland,FALSE,1672,1808,1660,1820,-12
-1981-10-28,FIFA World Cup qualification,played,Israel,ISR,Portugal,PRT,TRUE,4,1,win,Ramat Gan,Israel,FALSE,1660,1775,1697,1738,37
-1981-11-18,FIFA World Cup qualification,played,Israel,ISR,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1697,1777,1687,1787,-10
-1983-09-26,Friendly,played,Israel,ISR,Uruguay,URY,TRUE,2,2,draw,Jaffa,Israel,FALSE,1687,1782,1687,1782,0
-1983-11-08,Friendly,played,Israel,ISR,Romania,ROU,TRUE,1,1,draw,Jaffa,Israel,FALSE,1687,1817,1688,1816,1
-1984-04-04,Friendly,played,Israel,ISR,Republic of Ireland,IRL,TRUE,3,0,win,Jaffa,Israel,FALSE,,,,,
-1984-04-11,Friendly,played,Israel,ISR,Romania,ROU,FALSE,0,0,draw,Oradea,Romania,FALSE,1703,1829,1709,1823,6
-1984-06-10,Friendly,played,Israel,ISR,Wales,WAL,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1709,1820,1709,1820,0
-1984-09-06,Friendly,played,Israel,ISR,Malta,,TRUE,2,1,win,Jerusalem,Israel,FALSE,1709,1360,1710,1359,1
-1984-10-09,Friendly,played,Israel,ISR,Greece,GRC,FALSE,2,2,draw,Athens,Greece,FALSE,1710,1598,1710,1598,0
-1984-10-16,Friendly,played,Israel,ISR,Northern Ireland,NIR,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1710,1813,1702,1821,-8
-1984-11-21,Friendly,played,Israel,ISR,Romania,ROU,TRUE,1,1,draw,Petah Tikva,Israel,FALSE,1702,1778,1701,1779,-1
-1984-12-19,Friendly,played,Israel,ISR,Luxembourg,,TRUE,2,0,win,Petah Tikva,Israel,FALSE,1701,1173,1702,1172,1
-1985-01-09,Friendly,played,Israel,ISR,Greece,GRC,TRUE,0,2,loss,Jaffa,Israel,FALSE,1702,1613,1680,1635,-22
-1985-02-27,Friendly,played,Israel,ISR,Republic of Ireland,IRL,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,,,,,
-1985-05-01,Friendly,played,Israel,ISR,Sweden,SWE,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1678,1836,1680,1834,2
-1985-09-03,FIFA World Cup qualification,played,Israel,ISR,Taiwan,,TRUE,6,0,win,Ramat Gan,Israel,FALSE,1680,1210,1683,1207,3
-1985-09-08,FIFA World Cup qualification,played,Israel,ISR,Taiwan,,TRUE,5,0,win,Ramat Gan,Israel,FALSE,1683,1207,1686,1204,3
-1985-10-08,FIFA World Cup qualification,played,Israel,ISR,Australia,AUS,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1686,1593,1656,1623,-30
-1985-10-20,FIFA World Cup qualification,played,Israel,ISR,Australia,AUS,FALSE,1,1,draw,Melbourne,Australia,FALSE,1656,1623,1660,1619,4
-1985-10-26,FIFA World Cup qualification,played,Israel,ISR,New Zealand,NZL,FALSE,1,3,loss,Auckland,New Zealand,FALSE,1660,1526,1627,1559,-33
-1985-11-10,FIFA World Cup qualification,played,Israel,ISR,New Zealand,NZL,TRUE,3,0,win,Ramat Gan,Israel,FALSE,1627,1542,1645,1524,18
-1986-01-28,Friendly,played,Israel,ISR,Scotland,SCO,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1645,1864,1638,1871,-7
-1986-02-26,Friendly,played,Israel,ISR,England,ENG,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1638,1943,1633,1948,-5
-1986-10-08,Friendly,played,Israel,ISR,Romania,ROU,TRUE,2,4,loss,Ramat Gan,Israel,FALSE,1620,1828,1610,1838,-10
-1987-02-18,Friendly,played,Israel,ISR,Northern Ireland,NIR,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1610,1756,1611,1755,1
-1987-03-25,Friendly,played,Israel,ISR,Germany,DEU,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,,,,,
-1987-04-08,Friendly,played,Israel,ISR,Romania,ROU,FALSE,2,3,loss,Braşov,Romania,FALSE,1605,1840,1602,1843,-3
-1987-05-19,Friendly,played,Israel,ISR,Switzerland,CHE,FALSE,0,1,loss,Aarau,Switzerland,FALSE,1602,1724,1598,1728,-4
-1987-06-01,Friendly,played,Israel,ISR,Brazil,BRA,TRUE,0,4,loss,Ramat Gan,Israel,FALSE,1598,2022,1593,2027,-5
-1987-11-10,Friendly,played,Israel,ISR,Republic of Ireland,IRL,FALSE,0,5,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1987-12-02,Friendly,played,Israel,ISR,Malta,,TRUE,1,1,draw,Haifa,Israel,FALSE,1587,1374,1580,1381,-7
-1987-12-16,Friendly,played,Israel,ISR,Switzerland,CHE,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1580,1730,1567,1743,-13
-1988-01-19,Friendly,played,Israel,ISR,Belgium,BEL,TRUE,2,3,loss,Ramat Gan,Israel,FALSE,1567,1777,1560,1784,-7
-1988-01-27,Friendly,played,Israel,ISR,France,FRA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1560,1863,1565,1858,5
-1988-02-03,Friendly,played,Israel,ISR,Romania,ROU,TRUE,0,2,loss,Haifa,Israel,FALSE,1565,1860,1554,1871,-11
-1988-02-10,Friendly,played,Israel,ISR,Poland,POL,TRUE,1,3,loss,Ramat Gan,Israel,FALSE,1554,1752,1538,1768,-16
-1988-02-17,Friendly,played,Israel,ISR,England,ENG,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1538,2015,1546,2007,8
-1988-10-18,Friendly,played,Israel,ISR,Malta,,TRUE,2,0,win,Beer Sheva,Israel,FALSE,1609,1424,1614,1419,5
-1988-11-23,Friendly,played,Israel,ISR,Romania,ROU,FALSE,0,3,loss,Sibiu,Romania,FALSE,1614,1893,1610,1897,-4
-1989-01-04,Friendly,played,Israel,ISR,Netherlands,NLD,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1610,2047,1606,2051,-4
-1989-01-11,Friendly,played,Israel,ISR,Malta,,FALSE,2,1,win,Attard,Malta,FALSE,1606,1425,1614,1417,8
-1989-02-08,Friendly,played,Israel,ISR,Wales,WAL,TRUE,3,3,draw,Ramat Gan,Israel,FALSE,1614,1782,1616,1780,2
-1989-03-05,FIFA World Cup qualification,played,Israel,ISR,New Zealand,NZL,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1616,1490,1625,1481,9
-1989-03-19,FIFA World Cup qualification,played,Israel,ISR,Australia,AUS,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1625,1724,1625,1724,0
-1989-04-09,FIFA World Cup qualification,played,Israel,ISR,New Zealand,NZL,FALSE,2,2,draw,Auckland,New Zealand,FALSE,1625,1514,1624,1515,-1
-1989-04-16,FIFA World Cup qualification,played,Israel,ISR,Australia,AUS,FALSE,1,1,draw,Sydney,Australia,FALSE,1624,1682,1633,1673,9
-1989-10-15,FIFA World Cup qualification,played,Israel,ISR,Colombia,COL,FALSE,0,1,loss,Barranquilla,Colombia,FALSE,1633,1825,1627,1831,-6
-1989-10-30,FIFA World Cup qualification,played,Israel,ISR,Colombia,COL,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1627,1831,1633,1825,6
-1990-03-28,Friendly,played,Israel,ISR,Greece,GRC,FALSE,1,2,loss,Athens,Greece,FALSE,1633,1679,1627,1685,-6
-1990-04-25,Friendly,played,Israel,ISR,Romania,ROU,TRUE,1,4,loss,Haifa,Israel,FALSE,1627,1881,1617,1891,-10
-1990-05-16,Friendly,played,Israel,ISR,Soviet Union,SUN,TRUE,3,2,win,Ramat Gan,Israel,FALSE,1617,1959,1633,1943,16
-1990-05-22,Friendly,played,Israel,ISR,Argentina,ARG,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1633,1785,1624,1794,-9
-1992-02-12,Friendly,played,Israel,ISR,CIS,,TRUE,1,2,loss,Jerusalem,Israel,FALSE,,,,,
-1992-03-03,Friendly,played,Israel,ISR,Cyprus,,TRUE,2,1,win,Bat Yam,Israel,FALSE,1615,1256,1616,1255,1
-1992-04-08,Friendly,played,Israel,ISR,Iceland,ISL,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1616,1583,1612,1587,-4
-1992-08-05,Friendly,played,Israel,ISR,Faroe Islands,,FALSE,1,1,draw,Toftir,Faroe Islands,FALSE,1612,1222,1605,1229,-7
-1992-08-09,Friendly,played,Israel,ISR,Iceland,ISL,FALSE,2,0,win,Reykjavík,Iceland,FALSE,1605,1608,1624,1589,19
-1992-09-09,Friendly,played,Israel,ISR,Poland,POL,FALSE,1,1,draw,Mielec,Poland,FALSE,1624,1783,1630,1777,6
-1992-09-23,Friendly,played,Israel,ISR,Hungary,HUN,FALSE,0,0,draw,Budapest,Hungary,FALSE,1630,1708,1635,1703,5
-1992-10-28,FIFA World Cup qualification,played,Israel,ISR,Austria,AUT,FALSE,2,5,loss,Vienna,Austria,FALSE,1635,1607,1607,1635,-28
-1992-11-11,FIFA World Cup qualification,played,Israel,ISR,Sweden,SWE,TRUE,1,3,loss,Ramat Gan,Israel,FALSE,1607,1885,1591,1901,-16
-1992-12-02,FIFA World Cup qualification,played,Israel,ISR,Bulgaria,BGR,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1591,1782,1569,1804,-22
-1993-02-03,Friendly,played,Israel,ISR,Poland,POL,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1569,1802,1573,1798,4
-1993-02-17,FIFA World Cup qualification,played,Israel,ISR,France,FRA,TRUE,0,4,loss,Ramat Gan,Israel,FALSE,1573,1897,1557,1913,-16
-1993-03-24,Friendly,played,Israel,ISR,Russia,RUS,TRUE,2,2,draw,Haifa,Israel,FALSE,1557,1890,1563,1884,6
-1993-04-27,Friendly,played,Israel,ISR,Ukraine,UKR,FALSE,1,1,draw,Odessa,Ukraine,FALSE,1563,1622,1567,1618,4
-1993-05-12,FIFA World Cup qualification,played,Israel,ISR,Bulgaria,BGR,FALSE,2,2,draw,Sofia,Bulgaria,FALSE,1567,1748,1580,1735,13
-1993-06-02,FIFA World Cup qualification,played,Israel,ISR,Sweden,SWE,FALSE,0,5,loss,Solna,Sweden,FALSE,1580,1902,1574,1908,-6
-1993-06-16,FIFA World Cup qualification,played,Israel,ISR,Finland,,FALSE,0,0,draw,Lahti,Finland,FALSE,1574,1546,1578,1542,4
-1993-09-22,Friendly,played,Israel,ISR,Romania,ROU,FALSE,0,1,loss,Bucharest,Romania,FALSE,1578,1783,1575,1786,-3
-1993-10-05,Friendly,played,Israel,ISR,Cyprus,,FALSE,2,2,draw,Limassol,Cyprus,FALSE,1575,1364,1572,1367,-3
-1993-10-13,FIFA World Cup qualification,played,Israel,ISR,France,FRA,FALSE,3,2,win,Paris,France,FALSE,1572,1957,1610,1919,38
-1993-10-27,FIFA World Cup qualification,played,Israel,ISR,Austria,AUT,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1610,1634,1606,1638,-4
-1993-11-10,FIFA World Cup qualification,played,Israel,ISR,Finland,,TRUE,1,3,loss,Ramat Gan,Israel,FALSE,1606,1515,1561,1560,-45
-1994-02-23,Friendly,played,Israel,ISR,Georgia,,TRUE,2,0,win,Ashdod,Israel,FALSE,1561,1593,1573,1581,12
-1994-03-15,Friendly,played,Israel,ISR,Ukraine,UKR,TRUE,1,0,win,Haifa,Israel,FALSE,1573,1644,1582,1635,9
-1994-04-20,Friendly,played,Israel,ISR,Lithuania,,FALSE,1,1,draw,Vilnius,Lithuania,FALSE,1582,1347,1578,1351,-4
-1994-05-31,Friendly,played,Israel,ISR,Argentina,ARG,TRUE,0,3,loss,Ramat Gan,Israel,FALSE,1578,1906,1571,1913,-7
-1994-08-17,Friendly,played,Israel,ISR,Croatia,HRV,TRUE,0,4,loss,Ramat Gan,Israel,FALSE,1571,1864,1562,1873,-9
-1994-09-04,UEFA Euro qualification,played,Israel,ISR,Poland,POL,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1562,1694,1584,1672,22
-1994-10-12,UEFA Euro qualification,played,Israel,ISR,Slovakia,SVK,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1584,1672,1583,1673,-1
-1994-11-16,UEFA Euro qualification,played,Israel,ISR,Azerbaijan,,FALSE,2,0,win,Trabzon,Turkey,TRUE,1583,1508,1607,1484,24
-1994-11-29,Friendly,played,Israel,ISR,Cyprus,,TRUE,4,3,win,Jerusalem,Israel,FALSE,1607,1373,1610,1370,3
-1994-12-14,UEFA Euro qualification,played,Israel,ISR,Romania,ROU,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1610,1915,1621,1904,11
-1995-02-14,Friendly,played,Israel,ISR,Luxembourg,,TRUE,4,2,win,Ashdod,Israel,FALSE,1621,1162,1622,1161,1
-1995-03-08,Friendly,played,Israel,ISR,Turkey,TUR,FALSE,1,2,loss,Istanbul,Turkey,FALSE,1622,1622,1615,1629,-7
-1995-03-29,UEFA Euro qualification,played,Israel,ISR,France,FRA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1615,1922,1626,1911,11
-1995-04-25,UEFA Euro qualification,played,Israel,ISR,Poland,POL,FALSE,3,4,loss,Zabrze,Poland,FALSE,1626,1714,1616,1724,-10
-1995-05-17,Friendly,played,Israel,ISR,Brazil,BRA,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1616,2061,1614,2063,-2
-1995-06-07,UEFA Euro qualification,played,Israel,ISR,Romania,ROU,FALSE,1,2,loss,Bucharest,Romania,FALSE,1614,1898,1610,1902,-4
-1995-08-16,Friendly,played,Israel,ISR,Hungary,HUN,FALSE,2,0,win,Siófok,Hungary,FALSE,1610,1632,1630,1612,20
-1995-09-06,UEFA Euro qualification,played,Israel,ISR,Slovakia,SVK,FALSE,0,1,loss,Košice,Slovakia,FALSE,1630,1667,1618,1679,-12
-1995-09-20,Friendly,played,Israel,ISR,Uruguay,URY,TRUE,3,1,win,Jerusalem,Israel,FALSE,1618,1864,1639,1843,21
-1995-10-11,UEFA Euro qualification,played,Israel,ISR,Azerbaijan,,TRUE,2,0,win,Jaffa,Israel,FALSE,1639,1448,1648,1439,9
-1995-11-15,UEFA Euro qualification,played,Israel,ISR,France,FRA,FALSE,0,2,loss,Caen,France,FALSE,1648,1952,1643,1957,-5
-1996-01-24,Friendly,played,Israel,ISR,Greece,GRC,FALSE,1,2,loss,Chalcis,Greece,FALSE,1643,1597,1635,1605,-8
-1996-02-21,Friendly,played,Israel,ISR,Lithuania,,TRUE,4,2,win,Haifa,Israel,FALSE,1635,1458,1640,1453,5
-1996-03-26,Friendly,played,Israel,ISR,Croatia,HRV,FALSE,0,2,loss,Varaždin,Croatia,FALSE,1640,1891,1636,1895,-4
-1996-04-30,Friendly,played,Israel,ISR,South Korea,KOR,TRUE,4,5,loss,Jaffa,Israel,FALSE,1636,1600,1622,1614,-14
-1996-08-14,Friendly,played,Israel,ISR,Romania,ROU,FALSE,0,2,loss,Bucharest,Romania,FALSE,1622,1833,1618,1837,-4
-1996-09-01,FIFA World Cup qualification,played,Israel,ISR,Bulgaria,BGR,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1618,1849,1645,1822,27
-1996-10-09,FIFA World Cup qualification,played,Israel,ISR,Russia,RUS,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1645,1890,1653,1882,8
-1996-11-10,FIFA World Cup qualification,played,Israel,ISR,Cyprus,,FALSE,0,2,loss,Limassol,Cyprus,FALSE,1653,1394,1610,1437,-43
-1996-12-15,FIFA World Cup qualification,played,Israel,ISR,Luxembourg,,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1610,1258,1613,1255,3
-1997-01-22,Friendly,played,Israel,ISR,Greece,GRC,TRUE,1,1,draw,Jerusalem,Israel,FALSE,1613,1668,1612,1669,-1
-1997-02-26,Friendly,played,Israel,ISR,Germany,DEU,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1612,2081,1610,2083,-2
-1997-03-12,Friendly,played,Israel,ISR,Sweden,SWE,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1610,1819,1603,1826,-7
-1997-03-31,FIFA World Cup qualification,played,Israel,ISR,Luxembourg,,FALSE,3,0,win,Luxembourg,Luxembourg,FALSE,1603,1255,1617,1241,14
-1997-04-30,FIFA World Cup qualification,played,Israel,ISR,Cyprus,,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1617,1431,1627,1421,10
-1997-06-08,FIFA World Cup qualification,played,Israel,ISR,Russia,RUS,FALSE,0,2,loss,Moscow,Russia,FALSE,1627,1885,1620,1892,-7
-1997-06-17,Friendly,played,Israel,ISR,United States,USA,FALSE,1,2,loss,Jacksonville,United States,FALSE,1620,1669,1614,1675,-6
-1997-08-05,Friendly,played,Israel,ISR,Belarus,,FALSE,3,2,win,Minsk,Belarus,FALSE,1614,1373,1620,1367,6
-1997-08-20,FIFA World Cup qualification,played,Israel,ISR,Bulgaria,BGR,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1620,1818,1614,1824,-6
-1998-02-18,Friendly,played,Israel,ISR,Turkey,TUR,TRUE,4,0,win,Ramat Gan,Israel,FALSE,1614,1682,1631,1665,17
-1998-02-25,Friendly,played,Israel,ISR,Poland,POL,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1631,1666,1643,1654,12
-1998-03-18,Friendly,played,Israel,ISR,Romania,ROU,FALSE,1,0,win,Bucharest,Romania,FALSE,1643,1888,1661,1870,18
-1998-04-15,Friendly,played,Israel,ISR,Argentina,ARG,TRUE,2,1,win,Jerusalem,Israel,FALSE,1661,1861,1674,1848,13
-1998-05-17,Friendly,played,Israel,ISR,Latvia,,FALSE,5,1,win,Riga,Latvia,FALSE,1674,1370,1683,1361,9
-1998-08-18,Friendly,played,Israel,ISR,Poland,POL,FALSE,0,2,loss,Kraków,Poland,FALSE,1683,1689,1672,1700,-11
-1998-09-05,UEFA Euro qualification,played,Israel,ISR,Austria,AUT,FALSE,1,1,draw,Vienna,Austria,FALSE,1672,1709,1680,1701,8
-1998-10-10,UEFA Euro qualification,played,Israel,ISR,San Marino,,FALSE,5,0,win,Serravalle,San Marino,FALSE,1680,954,1682,952,2
-1998-10-14,UEFA Euro qualification,played,Israel,ISR,Spain,ESP,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1682,1964,1672,1974,-10
-1998-11-18,Friendly,played,Israel,ISR,Portugal,PRT,FALSE,0,2,loss,Setúbal,Portugal,FALSE,1672,1902,1668,1906,-4
-1998-12-23,Friendly,played,Israel,ISR,Serbia,SRB,TRUE,2,0,win,Ramat Gan,Israel,FALSE,,,,,
-1999-01-18,Friendly,played,Israel,ISR,Estonia,,TRUE,7,0,win,Ramat Gan,Israel,FALSE,1691,1213,1693,1211,2
-1999-01-20,Friendly,played,Israel,ISR,Norway,NOR,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1693,1830,1680,1843,-13
-1999-02-09,Friendly,played,Israel,ISR,Belarus,,TRUE,2,1,win,Haifa,Israel,FALSE,1680,1412,1682,1410,2
-1999-02-24,Friendly,played,Israel,ISR,Latvia,,TRUE,2,0,win,Jerusalem,Israel,FALSE,1682,1443,1686,1439,4
-1999-03-10,Friendly,played,Israel,ISR,Romania,ROU,FALSE,2,0,win,Bucharest,Romania,FALSE,1686,1906,1712,1880,26
-1999-03-28,UEFA Euro qualification,played,Israel,ISR,Cyprus,,TRUE,3,0,win,Ramat Gan,Israel,FALSE,1712,1498,1722,1488,10
-1999-06-06,UEFA Euro qualification,played,Israel,ISR,Austria,AUT,TRUE,5,0,win,Ramat Gan,Israel,FALSE,1722,1734,1752,1704,30
-1999-08-18,Friendly,played,Israel,ISR,Slovakia,SVK,FALSE,0,1,loss,Bratislava,Slovakia,FALSE,1752,1712,1744,1720,-8
-1999-09-05,UEFA Euro qualification,played,Israel,ISR,Cyprus,,FALSE,2,3,loss,Limassol,Cyprus,FALSE,1744,1495,1716,1523,-28
-1999-09-08,UEFA Euro qualification,played,Israel,ISR,San Marino,,TRUE,8,0,win,Ramat Gan,Israel,FALSE,1716,945,1717,944,1
-1999-10-10,UEFA Euro qualification,played,Israel,ISR,Spain,ESP,FALSE,0,3,loss,Albacete,Spain,FALSE,1717,2024,1711,2030,-6
-1999-11-13,UEFA Euro qualification,played,Israel,ISR,Denmark,DNK,TRUE,0,5,loss,Ramat Gan,Israel,FALSE,1711,1865,1677,1899,-34
-1999-11-17,UEFA Euro qualification,played,Israel,ISR,Denmark,DNK,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1677,1899,1668,1908,-9
-2000-02-23,Friendly,played,Israel,ISR,Russia,RUS,TRUE,4,1,win,Haifa,Israel,FALSE,1668,1821,1688,1801,20
-2000-03-29,Friendly,played,Israel,ISR,Georgia,,TRUE,1,1,draw,Ashkelon,Israel,FALSE,1688,1528,1682,1534,-6
-2000-04-26,Friendly,played,Israel,ISR,Czechia,CZE,FALSE,1,4,loss,Prague,Czech Republic,FALSE,1682,1949,1678,1953,-4
-2000-06-03,Friendly,played,Israel,ISR,Hungary,HUN,FALSE,1,2,loss,Budapest,Hungary,FALSE,1678,1614,1669,1623,-9
-2000-08-16,Friendly,played,Israel,ISR,Russia,RUS,FALSE,0,1,loss,Moscow,Russia,FALSE,1669,1809,1665,1813,-4
-2000-09-03,FIFA World Cup qualification,played,Israel,ISR,Liechtenstein,,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1665,1079,1666,1078,1
-2000-10-07,FIFA World Cup qualification,played,Israel,ISR,Spain,ESP,FALSE,0,2,loss,Madrid,Spain,FALSE,1666,1978,1661,1983,-5
-2000-10-11,FIFA World Cup qualification,played,Israel,ISR,Bosnia and Herzegovina,BIH,TRUE,3,1,win,Ramat Gan,Israel,FALSE,1661,1563,1676,1548,15
-2000-11-15,Friendly,played,Israel,ISR,Portugal,PRT,FALSE,1,2,loss,Braga,Portugal,FALSE,1676,2017,1675,2018,-1
-2001-01-17,Friendly,played,Israel,ISR,Uzbekistan,,TRUE,2,0,win,Beit She'an,Israel,FALSE,1675,1459,1679,1455,4
-2001-02-14,Friendly,played,Israel,ISR,Moldova,,TRUE,1,0,win,Herzliyya,Israel,FALSE,1679,1415,1681,1413,2
-2001-03-28,FIFA World Cup qualification,played,Israel,ISR,Austria,AUT,FALSE,1,2,loss,Vienna,Austria,FALSE,1681,1711,1668,1724,-13
-2001-04-24,Friendly,played,Israel,ISR,Georgia,,FALSE,2,3,loss,Tbilisi,Georgia,FALSE,1668,1537,1657,1548,-11
-2001-06-02,FIFA World Cup qualification,played,Israel,ISR,Liechtenstein,,FALSE,3,0,win,Vaduz,Liechtenstein,FALSE,1657,1062,1661,1058,4
-2001-06-06,FIFA World Cup qualification,played,Israel,ISR,Spain,ESP,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1661,1964,1672,1953,11
-2001-08-15,Friendly,played,Israel,ISR,Lithuania,,FALSE,3,2,win,Kaunas,Lithuania,FALSE,1672,1419,1678,1413,6
-2001-09-01,FIFA World Cup qualification,played,Israel,ISR,Bosnia and Herzegovina,BIH,FALSE,0,0,draw,Sarajevo,Bosnia and Herzegovina,FALSE,1678,1537,1676,1539,-2
-2001-10-27,FIFA World Cup qualification,played,Israel,ISR,Austria,AUT,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1676,1713,1672,1717,-4
-2002-02-13,Friendly,played,Israel,ISR,Germany,DEU,FALSE,1,7,loss,Kaiserslautern,Germany,FALSE,1672,1869,1665,1876,-7
-2002-04-17,Friendly,played,Israel,ISR,Denmark,DNK,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1665,1846,1660,1851,-5
-2002-08-21,Friendly,played,Israel,ISR,Lithuania,,FALSE,4,2,win,Kaunas,Lithuania,FALSE,1660,1396,1668,1388,8
-2002-09-05,Friendly,played,Israel,ISR,Luxembourg,,FALSE,5,0,win,Luxembourg,Luxembourg,FALSE,1668,1105,1671,1102,3
-2002-10-12,UEFA Euro qualification,played,Israel,ISR,Malta,,FALSE,2,0,win,Attard,Malta,FALSE,1671,1256,1679,1248,8
-2002-11-20,Friendly,played,Israel,ISR,North Macedonia,,FALSE,3,2,win,Skopje,North Macedonia,FALSE,1679,1471,1686,1464,7
-2003-02-12,Friendly,played,Israel,ISR,Armenia,,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1686,1419,1689,1416,3
-2003-03-05,Friendly,played,Israel,ISR,Moldova,,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1689,1361,1681,1369,-8
-2003-03-29,UEFA Euro qualification,played,Israel,ISR,Cyprus,,FALSE,1,1,draw,Limassol,Cyprus,FALSE,1681,1469,1675,1475,-6
-2003-04-02,UEFA Euro qualification,played,Israel,ISR,France,FRA,TRUE,1,2,loss,Palermo,Italy,TRUE,1675,1951,1668,1958,-7
-2003-04-30,UEFA Euro qualification,played,Israel,ISR,Cyprus,,TRUE,2,0,win,Palermo,Italy,TRUE,1668,1462,1682,1448,14
-2003-06-07,UEFA Euro qualification,played,Israel,ISR,Slovenia,SVN,TRUE,0,0,draw,Antalya,Turkey,TRUE,1682,1661,1681,1662,-1
-2003-08-20,Friendly,played,Israel,ISR,Russia,RUS,FALSE,2,1,win,Moscow,Russia,FALSE,1681,1763,1696,1748,15
-2003-09-06,UEFA Euro qualification,played,Israel,ISR,Slovenia,SVN,FALSE,1,3,loss,Ljubljana,Slovenia,FALSE,1696,1668,1672,1692,-24
-2003-09-10,UEFA Euro qualification,played,Israel,ISR,Malta,,TRUE,2,2,draw,Antalya,Turkey,TRUE,1672,1219,1655,1236,-17
-2003-10-11,UEFA Euro qualification,played,Israel,ISR,France,FRA,FALSE,0,3,loss,Saint-Denis,France,FALSE,1655,2029,1651,2033,-4
-2004-03-30,Friendly,played,Israel,ISR,Lithuania,,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1655,1426,1658,1423,3
-2004-04-28,Friendly,played,Israel,ISR,Moldova,,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1658,1402,1650,1410,-8
-2004-05-27,Friendly,played,Israel,ISR,Georgia,,FALSE,1,0,win,Tbilisi,Georgia,FALSE,1650,1504,1659,1495,9
-2004-08-18,Friendly,played,Israel,ISR,Croatia,HRV,FALSE,0,1,loss,Varaždin,Croatia,FALSE,1659,1817,1655,1821,-4
-2004-09-04,FIFA World Cup qualification,played,Israel,ISR,France,FRA,FALSE,0,0,draw,Saint-Denis,France,FALSE,1655,2016,1672,1999,17
-2004-09-08,FIFA World Cup qualification,played,Israel,ISR,Cyprus,,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1672,1478,1678,1472,6
-2004-10-09,FIFA World Cup qualification,played,Israel,ISR,Switzerland,CHE,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1678,1687,1673,1692,-5
-2004-11-17,FIFA World Cup qualification,played,Israel,ISR,Cyprus,,FALSE,2,1,win,Nicosia,Cyprus,FALSE,1673,1452,1686,1439,13
-2005-02-09,Friendly,played,Israel,ISR,Croatia,HRV,TRUE,3,3,draw,Jerusalem,Israel,FALSE,1686,1838,1687,1837,1
-2005-03-26,FIFA World Cup qualification,played,Israel,ISR,Republic of Ireland,IRL,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,,,,,
-2005-03-30,FIFA World Cup qualification,played,Israel,ISR,France,FRA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1692,1963,1701,1954,9
-2005-06-04,FIFA World Cup qualification,played,Israel,ISR,Republic of Ireland,IRL,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
-2005-08-15,Friendly,played,Israel,ISR,Ukraine,UKR,FALSE,0,0,draw,Kyiv,Ukraine,FALSE,1714,1817,1722,1809,8
-2005-08-17,Friendly,played,Israel,ISR,Poland,POL,FALSE,2,3,loss,Kyiv,Ukraine,TRUE,1722,1814,1711,1825,-11
-2005-09-03,FIFA World Cup qualification,played,Israel,ISR,Switzerland,CHE,FALSE,1,1,draw,Basel,Switzerland,FALSE,1711,1746,1718,1739,7
-2005-09-07,FIFA World Cup qualification,played,Israel,ISR,Faroe Islands,,FALSE,2,0,win,Tórshavn,Faroe Islands,FALSE,1718,1219,1723,1214,5
-2005-10-08,FIFA World Cup qualification,played,Israel,ISR,Faroe Islands,,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1723,1214,1724,1213,1
-2006-03-01,Friendly,played,Israel,ISR,Denmark,DNK,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1724,1888,1712,1900,-12
-2006-08-15,Friendly,played,Israel,ISR,Slovenia,SVN,FALSE,1,1,draw,Celje,Slovenia,FALSE,1712,1601,1712,1601,0
-2006-09-02,UEFA Euro qualification,played,Israel,ISR,Estonia,,FALSE,1,0,win,Tallinn,Estonia,FALSE,1712,1407,1721,1398,9
-2006-09-06,UEFA Euro qualification,played,Israel,ISR,Andorra,,TRUE,4,1,win,Nijmegen,Netherlands,TRUE,1721,1103,1723,1101,2
-2006-10-07,UEFA Euro qualification,played,Israel,ISR,Russia,RUS,FALSE,1,1,draw,Moscow,Russia,FALSE,1723,1760,1731,1752,8
-2006-11-15,UEFA Euro qualification,played,Israel,ISR,Croatia,HRV,TRUE,3,4,loss,Ramat Gan,Israel,FALSE,1731,1879,1714,1896,-17
-2007-02-07,Friendly,played,Israel,ISR,Ukraine,UKR,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1714,1804,1714,1804,0
-2007-03-24,UEFA Euro qualification,played,Israel,ISR,England,ENG,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1714,1946,1721,1939,7
-2007-03-28,UEFA Euro qualification,played,Israel,ISR,Estonia,,TRUE,4,0,win,Ramat Gan,Israel,FALSE,1721,1388,1727,1382,6
-2007-06-02,UEFA Euro qualification,played,Israel,ISR,North Macedonia,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1727,1541,1742,1526,15
-2007-06-06,UEFA Euro qualification,played,Israel,ISR,Andorra,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1742,1095,1744,1093,2
-2007-08-22,Friendly,played,Israel,ISR,Belarus,,FALSE,1,2,loss,Minsk,Belarus,FALSE,1744,1544,1731,1557,-13
-2007-09-08,UEFA Euro qualification,played,Israel,ISR,England,ENG,FALSE,0,3,loss,London,England,FALSE,1731,1934,1721,1944,-10
-2007-10-13,UEFA Euro qualification,played,Israel,ISR,Croatia,HRV,FALSE,0,1,loss,Zagreb,Croatia,FALSE,1721,1906,1715,1912,-6
-2007-10-17,Friendly,played,Israel,ISR,Belarus,,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1715,1492,1718,1489,3
-2007-11-17,UEFA Euro qualification,played,Israel,ISR,Russia,RUS,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1718,1808,1737,1789,19
-2007-11-21,UEFA Euro qualification,played,Israel,ISR,North Macedonia,,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1737,1563,1744,1556,7
-2008-02-06,Friendly,played,Israel,ISR,Romania,ROU,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1744,1907,1756,1895,12
-2008-03-26,Friendly,played,Israel,ISR,Chile,CHL,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1756,1743,1763,1736,7
-2008-08-20,Friendly,played,Israel,ISR,Finland,,FALSE,0,2,loss,Tampere,Finland,FALSE,1763,1659,1748,1674,-15
-2008-09-06,FIFA World Cup qualification,played,Israel,ISR,Switzerland,CHE,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1748,1791,1745,1794,-3
-2008-09-10,FIFA World Cup qualification,played,Israel,ISR,Moldova,,FALSE,2,1,win,Chișinău,Moldova,FALSE,1745,1471,1756,1460,11
-2008-10-11,FIFA World Cup qualification,played,Israel,ISR,Luxembourg,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1756,1077,1758,1075,2
-2008-10-15,FIFA World Cup qualification,played,Israel,ISR,Latvia,,FALSE,1,1,draw,Riga,Latvia,FALSE,1758,1518,1750,1526,-8
-2008-11-19,Friendly,played,Israel,ISR,Ivory Coast,CIV,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1750,1705,1746,1709,-4
-2009-02-11,Friendly,played,Israel,ISR,Hungary,HUN,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1746,1621,1750,1617,4
-2009-03-28,FIFA World Cup qualification,played,Israel,ISR,Greece,GRC,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1750,1772,1746,1776,-4
-2009-04-01,FIFA World Cup qualification,played,Israel,ISR,Greece,GRC,FALSE,1,2,loss,Heraklion,Greece,FALSE,1746,1776,1733,1789,-13
-2009-08-12,Friendly,played,Israel,ISR,Northern Ireland,NIR,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1733,1589,1732,1590,-1
-2009-09-05,FIFA World Cup qualification,played,Israel,ISR,Latvia,,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1732,1532,1698,1566,-34
-2009-09-09,FIFA World Cup qualification,played,Israel,ISR,Luxembourg,,TRUE,7,0,win,Ramat Gan,Israel,FALSE,1698,1101,1700,1099,2
-2009-10-10,FIFA World Cup qualification,played,Israel,ISR,Moldova,,TRUE,3,1,win,Ramat Gan,Israel,FALSE,1700,1458,1707,1451,7
-2009-10-14,FIFA World Cup qualification,played,Israel,ISR,Switzerland,CHE,FALSE,0,0,draw,Basel,Switzerland,FALSE,1707,1818,1718,1807,11
-2010-03-03,Friendly,played,Israel,ISR,Romania,ROU,FALSE,2,0,win,Timişoara,Romania,FALSE,1718,1773,1739,1752,21
-2010-05-26,Friendly,played,Israel,ISR,Uruguay,URY,FALSE,1,4,loss,Montevideo,Uruguay,FALSE,1739,1832,1726,1845,-13
-2010-05-30,Friendly,played,Israel,ISR,Chile,CHL,FALSE,0,3,loss,Concepción,Chile,FALSE,1726,1876,1719,1883,-7
-2010-09-02,UEFA Euro qualification,played,Israel,ISR,Malta,,TRUE,3,1,win,Ramat Gan,Israel,FALSE,1719,1223,1721,1221,2
-2010-09-07,UEFA Euro qualification,played,Israel,ISR,Georgia,,FALSE,0,0,draw,Tbilisi,Georgia,FALSE,1721,1467,1713,1475,-8
-2010-10-09,UEFA Euro qualification,played,Israel,ISR,Croatia,HRV,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1713,1890,1697,1906,-16
-2010-10-12,UEFA Euro qualification,played,Israel,ISR,Greece,GRC,FALSE,1,2,loss,Piraeus,Greece,FALSE,1697,1727,1684,1740,-13
-2010-11-17,Friendly,played,Israel,ISR,Iceland,ISL,TRUE,3,2,win,Jaffa,Israel,FALSE,1684,1437,1686,1435,2
-2011-02-09,Friendly,played,Israel,ISR,Serbia,SRB,TRUE,0,2,loss,Jaffa,Israel,FALSE,1686,1740,1669,1757,-17
-2011-03-26,UEFA Euro qualification,played,Israel,ISR,Latvia,,TRUE,2,1,win,Jaffa,Israel,FALSE,1669,1531,1677,1523,8
-2011-03-29,UEFA Euro qualification,played,Israel,ISR,Georgia,,TRUE,1,0,win,Jaffa,Israel,FALSE,1677,1547,1685,1539,8
-2011-06-04,UEFA Euro qualification,played,Israel,ISR,Latvia,,FALSE,2,1,win,Riga,Latvia,FALSE,1685,1523,1701,1507,16
-2011-08-10,Friendly,played,Israel,ISR,Ivory Coast,CIV,TRUE,3,4,loss,Geneva,Switzerland,TRUE,1701,1742,1692,1751,-9
-2011-09-02,UEFA Euro qualification,played,Israel,ISR,Greece,GRC,TRUE,0,1,loss,Jaffa,Israel,FALSE,1692,1751,1670,1773,-22
-2011-09-06,UEFA Euro qualification,played,Israel,ISR,Croatia,HRV,FALSE,1,3,loss,Zagreb,Croatia,FALSE,1670,1889,1662,1897,-8
-2011-10-11,UEFA Euro qualification,played,Israel,ISR,Malta,,FALSE,2,0,win,Attard,Malta,FALSE,1662,1218,1669,1211,7
-2012-02-29,Friendly,played,Israel,ISR,Ukraine,UKR,TRUE,2,3,loss,Petah Tikva,Israel,FALSE,1669,1766,1659,1776,-10
-2012-05-26,Friendly,played,Israel,ISR,Czechia,CZE,FALSE,1,2,loss,Graz,Austria,TRUE,1659,1797,1653,1803,-6
-2012-05-31,Friendly,played,Israel,ISR,Germany,DEU,FALSE,0,2,loss,Leipzig,Germany,FALSE,1653,2041,1651,2043,-2
-2012-08-15,Friendly,played,Israel,ISR,Hungary,HUN,FALSE,1,1,draw,Budapest,Hungary,FALSE,1651,1688,1655,1684,4
-2012-09-07,FIFA World Cup qualification,played,Israel,ISR,Azerbaijan,,FALSE,1,1,draw,Baku,Azerbaijan,FALSE,1655,1395,1646,1404,-9
-2012-09-11,FIFA World Cup qualification,played,Israel,ISR,Russia,RUS,TRUE,0,4,loss,Ramat Gan,Israel,FALSE,1646,1845,1619,1872,-27
-2012-10-12,FIFA World Cup qualification,played,Israel,ISR,Luxembourg,,FALSE,6,0,win,Luxembourg,Luxembourg,FALSE,1619,1162,1629,1152,10
-2012-10-16,FIFA World Cup qualification,played,Israel,ISR,Luxembourg,,TRUE,3,0,win,Ramat Gan,Israel,FALSE,1629,1152,1631,1150,2
-2012-11-14,Friendly,played,Israel,ISR,Belarus,,TRUE,1,2,loss,Jerusalem,Israel,FALSE,1631,1580,1617,1594,-14
-2013-02-06,Friendly,played,Israel,ISR,Finland,,TRUE,2,1,win,Netanya,Israel,FALSE,1617,1634,1625,1626,8
-2013-03-22,FIFA World Cup qualification,played,Israel,ISR,Portugal,PRT,TRUE,3,3,draw,Ramat Gan,Israel,FALSE,1625,1890,1634,1881,9
-2013-03-26,FIFA World Cup qualification,played,Israel,ISR,Northern Ireland,NIR,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1634,1440,1656,1418,22
-2013-06-02,Friendly,played,Israel,ISR,Honduras,HND,FALSE,2,0,win,New York,United States,TRUE,1656,1666,1671,1651,15
-2013-08-14,Friendly,played,Israel,ISR,Ukraine,UKR,FALSE,0,2,loss,Kyiv,Ukraine,FALSE,1671,1801,1665,1807,-6
-2013-09-07,FIFA World Cup qualification,played,Israel,ISR,Azerbaijan,,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1665,1402,1649,1418,-16
-2013-09-10,FIFA World Cup qualification,played,Israel,ISR,Russia,RUS,FALSE,1,3,loss,Saint Petersburg,Russia,FALSE,1649,1843,1640,1852,-9
-2013-10-11,FIFA World Cup qualification,played,Israel,ISR,Portugal,PRT,FALSE,1,1,draw,Lisbon,Portugal,FALSE,1640,1911,1656,1895,16
-2013-10-15,FIFA World Cup qualification,played,Israel,ISR,Northern Ireland,NIR,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1656,1397,1640,1413,-16
-2014-03-05,Friendly,played,Israel,ISR,Slovakia,SVK,TRUE,1,3,loss,Netanya,Israel,FALSE,1640,1605,1619,1626,-21
-2014-06-01,Friendly,played,Israel,ISR,Honduras,HND,FALSE,4,2,win,Houston,United States,TRUE,1614,1680,1632,1662,18
-2014-10-10,UEFA Euro qualification,played,Israel,ISR,Cyprus,,FALSE,2,1,win,Nicosia,Cyprus,FALSE,1632,1421,1646,1407,14
-2014-10-13,UEFA Euro qualification,played,Israel,ISR,Andorra,,FALSE,4,1,win,Sant Julià de Lòria,Andorra,FALSE,1646,983,1649,980,3
-2014-11-16,UEFA Euro qualification,played,Israel,ISR,Bosnia and Herzegovina,BIH,TRUE,3,0,win,Haifa,Israel,FALSE,1649,1744,1683,1710,34
-2015-03-28,UEFA Euro qualification,played,Israel,ISR,Wales,WAL,TRUE,0,3,loss,Haifa,Israel,FALSE,1683,1620,1633,1670,-50
-2015-03-31,UEFA Euro qualification,played,Israel,ISR,Belgium,BEL,TRUE,0,1,loss,Jerusalem,Israel,FALSE,1633,1901,1622,1912,-11
-2015-06-12,UEFA Euro qualification,played,Israel,ISR,Bosnia and Herzegovina,BIH,FALSE,1,3,loss,Zenica,Bosnia and Herzegovina,FALSE,1622,1715,1607,1730,-15
-2015-09-03,UEFA Euro qualification,played,Israel,ISR,Andorra,,TRUE,4,0,win,Haifa,Israel,FALSE,1607,963,1608,962,1
-2015-09-06,UEFA Euro qualification,played,Israel,ISR,Wales,WAL,FALSE,0,0,draw,Cardiff,Wales,FALSE,1608,1708,1618,1698,10
-2015-10-10,UEFA Euro qualification,played,Israel,ISR,Cyprus,,TRUE,1,2,loss,Jerusalem,Israel,FALSE,1618,1397,1583,1432,-35
-2015-10-13,UEFA Euro qualification,played,Israel,ISR,Belgium,BEL,FALSE,1,3,loss,Brussels,Belgium,FALSE,1583,1913,1578,1918,-5
-2016-03-23,Friendly,played,Israel,ISR,Croatia,HRV,FALSE,0,2,loss,Osijek,Croatia,FALSE,1578,1813,1574,1817,-4
-2016-05-31,Friendly,played,Israel,ISR,Serbia,SRB,FALSE,1,3,loss,Novi Sad,Serbia,FALSE,1574,1718,1568,1724,-6
-2016-09-05,FIFA World Cup qualification,played,Israel,ISR,Italy,ITA,TRUE,1,3,loss,Haifa,Israel,FALSE,1568,1931,1557,1942,-11
-2016-10-06,FIFA World Cup qualification,played,Israel,ISR,North Macedonia,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1557,1424,1575,1406,18
-2016-10-09,FIFA World Cup qualification,played,Israel,ISR,Liechtenstein,,TRUE,2,1,win,Jerusalem,Israel,FALSE,1575,1183,1577,1181,2
-2016-11-12,FIFA World Cup qualification,played,Israel,ISR,Albania,,FALSE,3,0,win,Elbasan,Albania,FALSE,1577,1628,1626,1579,49
-2017-03-24,FIFA World Cup qualification,played,Israel,ISR,Spain,ESP,FALSE,1,4,loss,Gijón,Spain,FALSE,1626,1978,1621,1983,-5
-2017-06-06,Friendly,played,Israel,ISR,Moldova,,TRUE,1,1,draw,Netanya,Israel,FALSE,1621,1344,1613,1352,-8
-2017-06-11,FIFA World Cup qualification,played,Israel,ISR,Albania,,TRUE,0,3,loss,Haifa,Israel,FALSE,1613,1551,1563,1601,-50
-2017-09-02,FIFA World Cup qualification,played,Israel,ISR,North Macedonia,,TRUE,0,1,loss,Haifa,Israel,FALSE,1563,1447,1532,1478,-31
-2017-09-05,FIFA World Cup qualification,played,Israel,ISR,Italy,ITA,FALSE,0,1,loss,Reggio Emilia,Italy,FALSE,1532,1947,1530,1949,-2
-2017-10-06,FIFA World Cup qualification,played,Israel,ISR,Liechtenstein,,FALSE,1,0,win,Vaduz,Liechtenstein,FALSE,1530,1161,1537,1154,7
-2017-10-09,FIFA World Cup qualification,played,Israel,ISR,Spain,ESP,TRUE,0,1,loss,Jerusalem,Israel,FALSE,1537,2028,1533,2032,-4
-2018-03-24,Friendly,played,Israel,ISR,Romania,ROU,TRUE,1,2,loss,Netanya,Israel,FALSE,1533,1687,1525,1695,-8
-2018-09-07,UEFA Nations League,played,Israel,ISR,Albania,,FALSE,0,1,loss,Elbasan,Albania,FALSE,1525,1560,1512,1573,-13
-2018-09-11,Friendly,played,Israel,ISR,Northern Ireland,NIR,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1512,1654,1505,1661,-7
-2018-10-11,UEFA Nations League,played,Israel,ISR,Scotland,SCO,TRUE,2,1,win,Haifa,Israel,FALSE,1505,1714,1531,1688,26
-2018-10-14,UEFA Nations League,played,Israel,ISR,Albania,,TRUE,2,0,win,Beer Sheva,Israel,FALSE,1531,1555,1555,1531,24
-2018-11-15,Friendly,played,Israel,ISR,Guatemala,,TRUE,7,0,win,Netanya,Israel,FALSE,1555,1509,1569,1495,14
-2018-11-20,UEFA Nations League,played,Israel,ISR,Scotland,SCO,FALSE,2,3,loss,Glasgow,Scotland,FALSE,1569,1712,1561,1720,-8
-2019-03-21,UEFA Euro qualification,played,Israel,ISR,Slovenia,SVN,TRUE,1,1,draw,Haifa,Israel,FALSE,1561,1561,1555,1567,-6
-2019-03-24,UEFA Euro qualification,played,Israel,ISR,Austria,AUT,TRUE,4,2,win,Haifa,Israel,FALSE,1555,1739,1592,1702,37
-2019-06-07,UEFA Euro qualification,played,Israel,ISR,Latvia,,FALSE,3,0,win,Riga,Latvia,FALSE,1592,1288,1609,1271,17
-2019-06-10,UEFA Euro qualification,played,Israel,ISR,Poland,POL,FALSE,0,4,loss,Warsaw,Poland,FALSE,1609,1791,1597,1803,-12
-2019-09-05,UEFA Euro qualification,played,Israel,ISR,North Macedonia,,TRUE,1,1,draw,Beer Sheva,Israel,FALSE,1597,1496,1587,1506,-10
-2019-09-09,UEFA Euro qualification,played,Israel,ISR,Slovenia,SVN,FALSE,2,3,loss,Ljubljana,Slovenia,FALSE,1587,1613,1574,1626,-13
-2019-10-10,UEFA Euro qualification,played,Israel,ISR,Austria,AUT,FALSE,1,3,loss,Vienna,Austria,FALSE,1574,1746,1564,1756,-10
-2019-10-15,UEFA Euro qualification,played,Israel,ISR,Latvia,,TRUE,3,1,win,Beer Sheva,Israel,FALSE,1564,1224,1568,1220,4
-2019-11-16,UEFA Euro qualification,played,Israel,ISR,Poland,POL,TRUE,1,2,loss,Jerusalem,Israel,FALSE,1568,1769,1554,1783,-14
-2019-11-19,UEFA Euro qualification,played,Israel,ISR,North Macedonia,,FALSE,0,1,loss,Skopje,North Macedonia,FALSE,1554,1530,1538,1546,-16
-2020-09-04,UEFA Nations League,played,Israel,ISR,Scotland,SCO,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1538,1639,1548,1629,10
-2020-09-07,UEFA Nations League,played,Israel,ISR,Slovakia,SVK,TRUE,1,1,draw,Netanya,Israel,FALSE,1548,1696,1551,1693,3
-2020-10-08,UEFA Euro qualification,played,Israel,ISR,Scotland,SCO,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1551,1661,1562,1650,11
-2020-10-11,UEFA Nations League,played,Israel,ISR,Czechia,CZE,TRUE,1,2,loss,Haifa,Israel,FALSE,1562,1744,1547,1759,-15
-2020-10-14,UEFA Nations League,played,Israel,ISR,Slovakia,SVK,FALSE,3,2,win,Trnava,Slovakia,FALSE,1547,1672,1578,1641,31
-2020-11-15,UEFA Nations League,played,Israel,ISR,Czechia,CZE,FALSE,0,1,loss,Plzeň,Czech Republic,FALSE,1578,1736,1571,1743,-7
-2020-11-18,UEFA Nations League,played,Israel,ISR,Scotland,SCO,TRUE,1,0,win,Netanya,Israel,FALSE,1571,1679,1591,1659,20
-2021-03-25,FIFA World Cup qualification,played,Israel,ISR,Denmark,DNK,TRUE,0,2,loss,Tel Aviv,Israel,FALSE,1591,1927,1579,1939,-12
-2021-03-28,FIFA World Cup qualification,played,Israel,ISR,Scotland,SCO,TRUE,1,1,draw,Tel Aviv,Israel,FALSE,1579,1661,1578,1662,-1
-2021-03-31,FIFA World Cup qualification,played,Israel,ISR,Moldova,,FALSE,4,1,win,Chișinău,Moldova,FALSE,1578,1221,1591,1208,13
-2021-06-05,Friendly,played,Israel,ISR,Montenegro,,FALSE,3,1,win,Podgorica,Montenegro,FALSE,1591,1535,1608,1518,17
-2021-06-09,Friendly,played,Israel,ISR,Portugal,PRT,FALSE,0,4,loss,Lisbon,Portugal,FALSE,1608,2037,1606,2039,-2
-2021-09-01,FIFA World Cup qualification,played,Israel,ISR,Faroe Islands,,FALSE,4,0,win,Tórshavn,Faroe Islands,FALSE,1606,1262,1621,1247,15
-2021-09-04,FIFA World Cup qualification,played,Israel,ISR,Austria,AUT,TRUE,5,2,win,Haifa,Israel,FALSE,1621,1781,1662,1740,41
-2021-09-07,FIFA World Cup qualification,played,Israel,ISR,Denmark,DNK,FALSE,0,5,loss,Copenhagen,Denmark,FALSE,1662,1971,1655,1978,-7
-2021-10-09,FIFA World Cup qualification,played,Israel,ISR,Scotland,SCO,FALSE,2,3,loss,Glasgow,Scotland,FALSE,1655,1657,1641,1671,-14
-2021-10-12,FIFA World Cup qualification,played,Israel,ISR,Moldova,,TRUE,2,1,win,Beer Sheva,Israel,FALSE,1641,1199,1643,1197,2
-2021-11-12,FIFA World Cup qualification,played,Israel,ISR,Austria,AUT,FALSE,2,4,loss,Klagenfurt,Austria,FALSE,1643,1712,1627,1728,-16
-2021-11-15,FIFA World Cup qualification,played,Israel,ISR,Faroe Islands,,TRUE,3,2,win,Netanya,Israel,FALSE,1627,1247,1629,1245,2
-2022-03-26,Friendly,played,Israel,ISR,Germany,DEU,FALSE,0,2,loss,Sinsheim,Germany,FALSE,1629,1962,1627,1964,-2
-2022-03-29,Friendly,played,Israel,ISR,Romania,ROU,TRUE,2,2,draw,Netanya,Israel,FALSE,1627,1653,1625,1655,-2
-2022-06-02,UEFA Nations League,played,Israel,ISR,Iceland,ISL,TRUE,2,2,draw,Haifa,Israel,FALSE,1625,1541,1615,1551,-10
-2022-06-10,UEFA Nations League,played,Israel,ISR,Albania,,FALSE,2,1,win,Tirana,Albania,FALSE,1615,1586,1639,1562,24
-2022-06-13,UEFA Nations League,played,Israel,ISR,Iceland,ISL,FALSE,2,2,draw,Reykjavík,Iceland,FALSE,1639,1547,1639,1547,0
-2022-09-24,UEFA Nations League,played,Israel,ISR,Albania,,TRUE,2,1,win,Tel Aviv,Israel,FALSE,1639,1556,1649,1546,10
-2022-09-27,Friendly,played,Israel,ISR,Malta,,FALSE,1,2,loss,Ta' Qali,Malta,FALSE,1649,1237,1632,1254,-17
-2022-11-17,Friendly,played,Israel,ISR,Zambia,,TRUE,4,2,win,Petah Tikva,Israel,FALSE,1632,1469,1637,1464,5
-2022-11-20,Friendly,played,Israel,ISR,Cyprus,,TRUE,2,3,loss,Petah Tikva,Israel,FALSE,1637,1337,1619,1355,-18
-2023-03-25,UEFA Euro qualification,played,Israel,ISR,Kosovo,,TRUE,1,1,draw,Tel Aviv,Israel,FALSE,1619,1507,1608,1518,-11
-2023-03-28,UEFA Euro qualification,played,Israel,ISR,Switzerland,CHE,FALSE,0,3,loss,Geneva,Switzerland,FALSE,1608,1883,1601,1890,-7
-2023-06-16,UEFA Euro qualification,played,Israel,ISR,Belarus,,FALSE,2,1,win,Budapest,Hungary,TRUE,1601,1404,1611,1394,10
-2023-06-19,UEFA Euro qualification,played,Israel,ISR,Andorra,,TRUE,2,1,win,Jerusalem,Israel,FALSE,1611,1121,1612,1120,1
-2023-09-09,UEFA Euro qualification,played,Israel,ISR,Romania,ROU,FALSE,1,1,draw,Bucharest,Romania,FALSE,1612,1636,1619,1629,7
-2023-09-12,UEFA Euro qualification,played,Israel,ISR,Belarus,,TRUE,1,0,win,Tel Aviv,Israel,FALSE,1619,1410,1625,1404,6
-2023-11-12,UEFA Euro qualification,played,Israel,ISR,Kosovo,,FALSE,0,1,loss,Pristina,Kosovo,FALSE,1625,1491,1603,1513,-22
-2023-11-15,UEFA Euro qualification,played,Israel,ISR,Switzerland,CHE,TRUE,1,1,draw,Felcsút,Hungary,TRUE,1603,1844,1615,1832,12
-2023-11-18,UEFA Euro qualification,played,Israel,ISR,Romania,ROU,TRUE,1,2,loss,Felcsút,Hungary,TRUE,1615,1631,1596,1650,-19
-2023-11-21,UEFA Euro qualification,played,Israel,ISR,Andorra,,FALSE,2,0,win,Andorra la Vella,Andorra,FALSE,1596,1108,1602,1102,6
-2024-03-21,UEFA Euro qualification,played,Israel,ISR,Iceland,ISL,TRUE,1,4,loss,Budapest,Hungary,TRUE,1602,1506,1558,1550,-44
-2024-06-08,Friendly,played,Israel,ISR,Hungary,HUN,FALSE,0,3,loss,Debrecen,Hungary,FALSE,1558,1827,1554,1831,-4
-2024-06-11,Friendly,played,Israel,ISR,Belarus,,TRUE,4,0,win,Budapest,Hungary,TRUE,1554,1446,1567,1433,13
-2024-09-06,UEFA Nations League,played,Israel,ISR,Belgium,BEL,FALSE,1,3,loss,Debrecen,Hungary,TRUE,1567,1934,1561,1940,-6
-2024-09-09,UEFA Nations League,played,Israel,ISR,Italy,ITA,TRUE,1,2,loss,Budapest,Hungary,TRUE,1561,1939,1557,1943,-4
-2024-10-10,UEFA Nations League,played,Israel,ISR,France,FRA,TRUE,1,4,loss,Budapest,Hungary,TRUE,1557,2015,1552,2020,-5
-2024-10-14,UEFA Nations League,played,Israel,ISR,Italy,ITA,FALSE,1,4,loss,Udine,Italy,FALSE,1552,1936,1548,1940,-4
-2024-11-14,UEFA Nations League,played,Israel,ISR,France,FRA,FALSE,0,0,draw,Paris,France,FALSE,1548,2041,1567,2022,19
-2024-11-17,UEFA Nations League,played,Israel,ISR,Belgium,BEL,TRUE,1,0,win,Budapest,Hungary,TRUE,1567,1885,1601,1851,34
-2025-03-22,FIFA World Cup qualification,played,Israel,ISR,Estonia,,TRUE,2,1,win,Debrecen,Hungary,TRUE,1601,1376,1610,1367,9
-2025-03-25,FIFA World Cup qualification,played,Israel,ISR,Norway,NOR,TRUE,2,4,loss,Debrecen,Hungary,TRUE,1610,1815,1596,1829,-14
-2025-06-06,FIFA World Cup qualification,played,Israel,ISR,Estonia,,FALSE,3,1,win,Tallinn,Estonia,FALSE,1596,1391,1617,1370,21
-2025-06-10,Friendly,played,Israel,ISR,Slovakia,SVK,TRUE,1,0,win,Debrecen,Hungary,TRUE,1617,1677,1629,1665,12
-2025-09-05,FIFA World Cup qualification,played,Israel,ISR,Moldova,,FALSE,4,0,win,Chișinău,Moldova,FALSE,1629,1319,1646,1302,17
-2025-09-08,FIFA World Cup qualification,played,Israel,ISR,Italy,ITA,TRUE,4,5,loss,Debrecen,Hungary,TRUE,1646,1884,1638,1892,-8
-2025-10-11,FIFA World Cup qualification,played,Israel,ISR,Norway,NOR,FALSE,0,5,loss,Oslo,Norway,FALSE,1638,1870,1628,1880,-10
-2025-10-14,FIFA World Cup qualification,played,Israel,ISR,Italy,ITA,FALSE,0,3,loss,Udine,Italy,FALSE,1628,1897,1621,1904,-7
-2025-11-13,Friendly,played,Israel,ISR,Lithuania,,FALSE,0,0,draw,Kaunas,Lithuania,FALSE,1621,1272,1615,1278,-6
-2025-11-16,FIFA World Cup qualification,played,Israel,ISR,Moldova,,FALSE,4,1,win,Chișinău,Moldova,FALSE,1615,1304,1631,1288,16
-2026-03-26,Friendly,played,Israel,ISR,Georgia,,FALSE,2,2,draw,Tbilisi,Georgia,FALSE,1631,1650,1634,1647,3
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1934-03-16,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Egypt,EGY,EGY,CAF,FALSE,1,7,loss,Cairo,Egypt,FALSE,,,,,
+,,,1934-04-06,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Egypt,EGY,EGY,CAF,TRUE,1,4,loss,Tel Aviv,Mandatory Palestine,FALSE,,,,,
+,,,1938-01-22,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,3,loss,Tel Aviv,Mandatory Palestine,FALSE,,,,,
+,,,1938-02-20,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Athens,Greece,FALSE,,,,,
+,,,1940-04-27,Friendly,played,Israel,ISR,ISR,UEFA,Lebanon,,,,TRUE,5,1,win,Tel Aviv,Mandatory Palestine,FALSE,,,,,
+,,,1948-09-26,Friendly,played,Israel,ISR,ISR,UEFA,United States,USA,USA,CONCACAF,FALSE,1,3,loss,East Rutherford,United States,FALSE,,,,,
+,,,1949-07-30,Friendly,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,3,1,win,Tel Aviv,Israel,FALSE,1500,1400,1507,1393,7
+,,,1949-08-21,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,6,loss,Belgrade,Yugoslavia,FALSE,1507,1769,1498,1778,-9
+,,,1949-09-18,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,5,loss,Tel Aviv,Israel,FALSE,1498,1778,1480,1796,-18
+,,,1950-10-28,Friendly,played,Israel,ISR,ISR,UEFA,Turkey,TUR,TUR,UEFA,TRUE,5,1,win,Tel Aviv,Israel,FALSE,1480,1539,1497,1522,17
+,,,1950-12-03,Friendly,played,Israel,ISR,ISR,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,3,loss,Istanbul,Turkey,FALSE,1497,1522,1490,1529,-7
+,,,1953-11-01,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Athens,Greece,FALSE,1490,1444,1473,1461,-17
+,,,1953-11-08,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,1,loss,Skopje,Yugoslavia,FALSE,1473,1940,1472,1941,-1
+,,,1954-03-08,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1472,1461,1433,1500,-39
+,,,1954-03-21,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1433,1941,1430,1944,-3
+,,,1954-05-01,Friendly,played,Israel,ISR,ISR,UEFA,South Africa,ZAF,ZAF,CAF,FALSE,1,2,loss,Johannesburg,South Africa,FALSE,1430,1701,1428,1703,-2
+,,,1954-05-03,Friendly,played,Israel,ISR,ISR,UEFA,Zambia,,,,FALSE,0,0,draw,Kitwe,Northern Rhodesia,FALSE,1428,1558,1434,1552,6
+,,,1954-05-05,Friendly,played,Israel,ISR,ISR,UEFA,Zimbabwe,,,,FALSE,1,2,loss,Salisbury,Southern Rhodesia,FALSE,1434,1523,1429,1528,-5
+,,,1954-05-09,Friendly,played,Israel,ISR,ISR,UEFA,Zimbabwe,,,,FALSE,2,1,win,Bulawayo,Southern Rhodesia,FALSE,1429,1528,1444,1513,15
+,,,1956-09-01,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Hong Kong,,,,FALSE,3,2,win,So Kon Po,Hong Kong,FALSE,1431,1410,1462,1379,31
+,,,1956-09-08,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,TRUE,1,2,loss,So Kon Po,Hong Kong,TRUE,1462,1633,1448,1647,-14
+,,,1956-09-12,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Vietnam Republic,,,,TRUE,2,1,win,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1958-01-15,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1472,1696,1452,1716,-20
+,,,1958-02-05,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,2,loss,Cardiff,Wales,FALSE,1452,1716,1445,1723,-7
+,,,1958-05-26,Asian Games,played,Israel,ISR,ISR,UEFA,Iran,IRN,IRN,AFC,TRUE,4,0,win,Tokyo,Japan,TRUE,1445,1555,1494,1506,49
+,,,1958-05-28,Asian Games,played,Israel,ISR,ISR,UEFA,Singapore,,,,FALSE,2,1,win,Tokyo,Japan,TRUE,1494,1229,1501,1222,7
+,,,1958-05-30,Asian Games,played,Israel,ISR,ISR,UEFA,Taiwan,,,,FALSE,0,2,loss,Tokyo,Japan,TRUE,1501,1690,1486,1705,-15
+,,,1959-06-21,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,FALSE,2,7,loss,Wrocław,Poland,FALSE,1486,1593,1477,1602,-9
+,,,1959-11-29,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1492,1591,1492,1591,0
+,,,1959-12-05,AFC Asian Cup qualification,played,Israel,ISR,ISR,UEFA,Iran,IRN,IRN,AFC,FALSE,0,3,loss,Ernakulam,India,TRUE,1492,1483,1456,1519,-36
+,,,1959-12-08,AFC Asian Cup qualification,played,Israel,ISR,ISR,UEFA,India,,,,FALSE,3,1,win,Ernakulam,India,FALSE,1456,1520,1499,1477,43
+,,,1959-12-10,AFC Asian Cup qualification,played,Israel,ISR,ISR,UEFA,Pakistan,,,,TRUE,2,0,win,Ernakulam,India,TRUE,1499,1439,1524,1414,25
+,,,1959-12-12,AFC Asian Cup qualification,played,Israel,ISR,ISR,UEFA,Iran,IRN,IRN,AFC,TRUE,1,1,draw,Ernakulam,India,TRUE,1524,1451,1520,1455,-4
+,,,1959-12-17,AFC Asian Cup qualification,played,Israel,ISR,ISR,UEFA,Pakistan,,,,FALSE,2,2,draw,Ernakulam,India,TRUE,1543,1410,1536,1417,-7
+,,,1960-10-17,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Seoul,South Korea,FALSE,1567,1664,1546,1685,-21
+,,,1960-10-19,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Vietnam Republic,,,,TRUE,5,1,win,Seoul,South Korea,TRUE,,,,,
+,,,1960-10-23,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Taiwan,,,,TRUE,1,0,win,Seoul,South Korea,TRUE,1579,1706,1613,1672,34
+,,,1960-11-13,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,FALSE,1,1,draw,Nicosia,Cyprus,FALSE,1613,1393,1606,1400,-7
+,,,1960-11-27,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,6,1,win,Ramat Gan,Israel,FALSE,1606,1400,1618,1388,12
+,,,1961-03-14,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Ethiopia,,,,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1618,1430,1624,1424,6
+,,,1961-03-19,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Ethiopia,,,,TRUE,3,2,win,Ramat Gan,Israel,FALSE,1624,1424,1630,1418,6
+,,,1961-10-15,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,4,loss,Ramat Gan,Israel,FALSE,1630,1804,1606,1828,-24
+,,,1961-10-22,Friendly,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1606,1702,1606,1702,0
+,,,1961-11-04,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,6,loss,Turin,Italy,FALSE,1606,1828,1594,1840,-12
+,,,1961-12-14,Friendly,played,Israel,ISR,ISR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1594,1977,1589,1982,-5
+,,,1962-05-16,Friendly,played,Israel,ISR,ISR,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,1,loss,Istanbul,Turkey,FALSE,1589,1716,1585,1720,-4
+,,,1962-10-17,Friendly,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,,,,,
+,,,1962-11-25,Friendly,played,Israel,ISR,ISR,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1584,1725,1571,1738,-13
+,,,1963-05-19,Friendly,played,Israel,ISR,ISR,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,5,loss,Ramat Gan,Israel,FALSE,1571,1941,1564,1948,-7
+,,,1964-01-02,Friendly,played,Israel,ISR,ISR,UEFA,Hong Kong,,,,FALSE,3,0,win,So Kon Po,Hong Kong,FALSE,,,,,
+,,,1964-05-26,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Hong Kong,,,,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1531,1479,1546,1464,15
+,,,1964-05-29,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,India,,,,TRUE,2,0,win,Jaffa,Israel,FALSE,1546,1549,1573,1522,27
+,,,1964-06-03,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1573,1616,1594,1595,21
+,,,1964-10-28,Friendly,played,Israel,ISR,ISR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Jaffa,Israel,FALSE,1594,1880,1616,1858,22
+,,,1964-12-01,Friendly,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,1,loss,Jaffa,Israel,FALSE,1616,1620,1603,1633,-13
+,,,1965-01-26,Friendly,played,Israel,ISR,ISR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,1,loss,Jaffa,Israel,FALSE,1603,1686,1593,1696,-10
+,,,1965-03-17,Friendly,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,0,draw,Jaffa,Israel,FALSE,,,,,
+,,,1965-05-09,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Brussels,Belgium,FALSE,1593,1736,1585,1744,-8
+,,,1965-06-13,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,4,loss,Sofia,Bulgaria,FALSE,1585,1743,1571,1757,-14
+,,,1965-11-10,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,5,loss,Ramat Gan,Israel,FALSE,1571,1752,1540,1783,-31
+,,,1965-11-21,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1540,1749,1526,1763,-14
+,,,1966-04-06,Friendly,played,Israel,ISR,ISR,UEFA,Finland,,,,TRUE,7,1,win,Jaffa,Israel,FALSE,,,,,
+,,,1966-05-08,Friendly,played,Israel,ISR,ISR,UEFA,Finland,,,,FALSE,3,0,win,Helsinki,Finland,FALSE,1526,1448,1545,1429,19
+,,,1966-06-15,Friendly,played,Israel,ISR,ISR,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1545,1862,1541,1866,-4
+,,,1966-10-12,Friendly,played,Israel,ISR,ISR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,3,loss,Jaffa,Israel,FALSE,1541,1786,1532,1795,-9
+,,,1966-10-26,Friendly,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1532,1556,1522,1566,-10
+,,,1966-12-03,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Jaffa,Israel,FALSE,1522,1679,1524,1677,2
+,,,1966-12-07,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,2,loss,Jaffa,Israel,FALSE,1524,1852,1520,1856,-4
+,,,1967-05-16,Friendly,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1520,1833,1515,1838,-5
+,,,1968-01-10,Friendly,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,2,loss,Jaffa,Israel,FALSE,1515,1716,1504,1727,-11
+,,,1968-02-14,Friendly,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,1,win,Jaffa,Israel,FALSE,1504,1685,1516,1673,12
+,,,1968-02-19,Friendly,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,3,loss,Jaffa,Israel,FALSE,1516,1718,1503,1731,-13
+,,,1968-05-12,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Hong Kong,,,,FALSE,6,1,win,Tehran,Iran,TRUE,1509,1221,1525,1205,16
+,,,1968-05-14,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Myanmar,,,,FALSE,0,1,loss,Tehran,Iran,TRUE,1525,1589,1505,1609,-20
+,,,1968-05-17,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Taiwan,,,,TRUE,4,1,win,Tehran,Iran,TRUE,1505,1332,1529,1308,24
+,,,1968-05-19,AFC Asian Cup,played,Israel,ISR,ISR,UEFA,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Tehran,Iran,FALSE,1529,1623,1517,1635,-12
+,,,1968-09-10,Friendly,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,3,loss,Jaffa,Israel,FALSE,1517,1693,1509,1701,-8
+,,,1968-09-15,Friendly,played,Israel,ISR,ISR,UEFA,United States,USA,USA,CONCACAF,FALSE,3,3,draw,New York,United States,FALSE,1509,1490,1511,1488,2
+,,,1968-09-25,Friendly,played,Israel,ISR,ISR,UEFA,United States,USA,USA,CONCACAF,FALSE,4,0,win,Philadelphia,United States,FALSE,1511,1488,1534,1465,23
+,,,1969-03-12,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,3,3,draw,Jaffa,Israel,FALSE,1651,1655,1648,1658,-3
+,,,1969-04-23,Friendly,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1648,1687,1646,1689,-2
+,,,1969-08-25,Friendly,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Solna,Sweden,FALSE,1646,1830,1641,1835,-5
+,,,1969-09-28,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,New Zealand,NZL,NZL,OFC,TRUE,4,0,win,Ramat Gan,Israel,FALSE,1641,1479,1655,1465,14
+,,,1969-10-01,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,New Zealand,NZL,NZL,OFC,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1655,1465,1665,1455,10
+,,,1969-12-04,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1665,1631,1678,1618,13
+,,,1969-12-14,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,FALSE,1,1,draw,Sydney,Australia,FALSE,1678,1618,1680,1616,2
+,,,1970-01-28,Friendly,played,Israel,ISR,ISR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,1,loss,Jaffa,Israel,FALSE,1680,1723,1668,1735,-12
+,,,1970-03-22,Friendly,played,Israel,ISR,ISR,UEFA,Ethiopia,,,,FALSE,5,1,win,Addis Ababa,Ethiopia,FALSE,1668,1474,1682,1460,14
+WC-1970,WC-1970_004,4,1970-06-02,FIFA World Cup,played,Israel,ISR,ISR,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,0,2,loss,Puebla,Mexico,TRUE,1682,1867,1659,1890,-23
+WC-1970,WC-1970_015,15,1970-06-07,FIFA World Cup,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Toluca,Mexico,TRUE,1659,1829,1673,1815,14
+WC-1970,WC-1970_023,23,1970-06-11,FIFA World Cup,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Toluca,Mexico,TRUE,1673,2013,1696,1990,23
+,,,1971-11-11,Friendly,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,FALSE,2,2,draw,Brisbane,Australia,FALSE,1694,1675,1696,1673,2
+,,,1971-11-14,Friendly,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Sydney,Australia,FALSE,1696,1673,1688,1681,-8
+,,,1971-11-21,Friendly,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,FALSE,3,1,win,Melbourne,Australia,FALSE,1688,1681,1707,1662,19
+,,,1972-02-23,Friendly,played,Israel,ISR,ISR,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,1,win,Jaffa,Israel,FALSE,1707,1467,1709,1465,2
+,,,1973-02-20,Friendly,played,Israel,ISR,ISR,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,1,draw,Jaffa,Israel,FALSE,1703,1882,1705,1880,2
+,,,1973-05-16,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Japan,JPN,JPN,AFC,TRUE,2,1,win,Seoul,South Korea,TRUE,1705,1490,1714,1481,9
+,,,1973-05-19,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Malaysia,,,,TRUE,3,0,win,Seoul,South Korea,TRUE,1714,1395,1724,1385,10
+,,,1973-05-21,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Thailand,,,,TRUE,6,0,win,Seoul,South Korea,TRUE,1724,1260,1730,1254,6
+,,,1973-05-23,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Seoul,South Korea,FALSE,1730,1552,1726,1556,-4
+,,,1973-05-26,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Japan,JPN,JPN,AFC,TRUE,1,0,win,Seoul,South Korea,TRUE,1726,1474,1734,1466,8
+,,,1973-05-28,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Seoul,South Korea,FALSE,1734,1565,1710,1589,-24
+,,,1973-07-19,Friendly,played,Israel,ISR,ISR,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1710,1759,1699,1770,-11
+,,,1973-11-13,Friendly,played,Israel,ISR,ISR,UEFA,United States,USA,USA,CONCACAF,TRUE,3,1,win,Jaffa,Israel,FALSE,1699,1458,1703,1454,4
+,,,1973-11-15,Friendly,played,Israel,ISR,ISR,UEFA,United States,USA,USA,CONCACAF,TRUE,2,0,win,Beer Sheva,Israel,FALSE,1703,1454,1707,1450,4
+,,,1974-05-28,Friendly,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,TRUE,2,1,win,Jaffa,Israel,FALSE,1707,1694,1714,1687,7
+,,,1974-09-03,Asian Games,played,Israel,ISR,ISR,UEFA,Malaysia,,,,TRUE,8,3,win,Tehran,Iran,TRUE,1714,1455,1729,1440,15
+,,,1974-09-05,Asian Games,played,Israel,ISR,ISR,UEFA,Philippines,,,,TRUE,6,0,win,Tehran,Iran,TRUE,1729,1022,1730,1021,1
+,,,1974-09-07,Asian Games,played,Israel,ISR,ISR,UEFA,Japan,JPN,JPN,AFC,FALSE,3,0,win,Tehran,Iran,TRUE,1730,1469,1743,1456,13
+,,,1974-09-10,Asian Games,played,Israel,ISR,ISR,UEFA,Myanmar,,,,TRUE,3,0,win,Tehran,Iran,TRUE,1743,1600,1764,1579,21
+,,,1974-09-12,Asian Games,played,Israel,ISR,ISR,UEFA,North Korea,PRK,PRK,AFC,TRUE,2,0,win,Tehran,Iran,TRUE,,,,,
+,,,1974-09-14,Asian Games,played,Israel,ISR,ISR,UEFA,Kuwait,KWT,KWT,AFC,TRUE,2,0,win,Tehran,Iran,TRUE,,,,,
+,,,1974-09-15,Asian Games,played,Israel,ISR,ISR,UEFA,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1764,1656,1744,1676,-20
+,,,1974-12-04,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,1,loss,Jaffa,Israel,FALSE,1744,1801,1733,1812,-11
+,,,1975-10-20,Friendly,played,Israel,ISR,ISR,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,1,0,win,Jaffa,Israel,FALSE,1733,1759,1741,1751,8
+,,,1976-02-04,Friendly,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,1,loss,Jaffa,Israel,FALSE,1741,1593,1725,1609,-16
+,,,1976-03-03,Friendly,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Jaffa,Israel,FALSE,1725,1786,1724,1787,-1
+,,,1976-09-22,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,0,win,Patras,Greece,FALSE,1748,1652,1758,1642,10
+,,,1976-11-03,Friendly,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1758,1680,1753,1685,-5
+,,,1976-12-15,Friendly,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,3,loss,Ramat Gan,Israel,FALSE,1753,1796,1736,1813,-17
+,,,1977-01-26,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1736,1633,1731,1638,-5
+,,,1977-02-09,Friendly,played,Israel,ISR,ISR,UEFA,Thailand,,,,FALSE,3,3,draw,Bangkok,Thailand,FALSE,1731,1340,1724,1347,-7
+,,,1977-02-12,Friendly,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,FALSE,1,1,draw,Melbourne,Australia,FALSE,1724,1685,1726,1683,2
+,,,1977-02-16,Friendly,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,FALSE,1,1,draw,Sydney,Australia,FALSE,1726,1683,1728,1681,2
+,,,1977-02-27,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1728,1626,1718,1636,-10
+,,,1977-03-06,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Japan,JPN,JPN,AFC,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1718,1464,1725,1457,7
+,,,1977-03-10,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Japan,JPN,JPN,AFC,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1725,1457,1731,1451,6
+,,,1977-03-20,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,FALSE,1,3,loss,Seoul,South Korea,FALSE,1731,1636,1701,1666,-30
+,,,1978-02-08,Friendly,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,0,win,Jaffa,Israel,FALSE,1701,1640,1710,1631,9
+,,,1978-02-22,Friendly,played,Israel,ISR,ISR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1710,2076,1706,2080,-4
+,,,1978-11-15,Friendly,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Jaffa,Israel,FALSE,1706,1803,1716,1793,10
+,,,1978-12-19,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Jaffa,Israel,FALSE,1716,1829,1716,1829,0
+,,,1979-01-30,Friendly,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,1,loss,Jaffa,Israel,FALSE,1716,1892,1708,1900,-8
+,,,1979-02-14,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,4,1,win,Ramat Gan,Israel,FALSE,1708,1686,1720,1674,12
+,,,1980-03-26,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1720,1717,1714,1723,-6
+,,,1980-06-18,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Solna,Sweden,FALSE,1714,1666,1717,1663,3
+,,,1980-11-12,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1717,1632,1707,1642,-10
+,,,1980-12-02,Friendly,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,TRUE,0,1,loss,Beer Sheva,Israel,FALSE,1707,1660,1693,1674,-14
+,,,1980-12-17,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,3,loss,Lisbon,Portugal,FALSE,1693,1827,1679,1841,-14
+,,,1981-02-25,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1679,1795,1660,1814,-19
+,,,1981-04-08,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,1,win,Jaffa,Israel,FALSE,1660,1844,1672,1832,12
+,,,1981-04-28,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,3,loss,Glasgow,Scotland,FALSE,1672,1808,1660,1820,-12
+,,,1981-10-28,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Portugal,PRT,PRT,UEFA,TRUE,4,1,win,Ramat Gan,Israel,FALSE,1660,1775,1697,1738,37
+,,,1981-11-18,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1697,1777,1687,1787,-10
+,,,1983-09-26,Friendly,played,Israel,ISR,ISR,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,2,2,draw,Jaffa,Israel,FALSE,1687,1782,1687,1782,0
+,,,1983-11-08,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Jaffa,Israel,FALSE,1687,1817,1688,1816,1
+,,,1984-04-04,Friendly,played,Israel,ISR,ISR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Jaffa,Israel,FALSE,,,,,
+,,,1984-04-11,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,0,draw,Oradea,Romania,FALSE,1703,1829,1709,1823,6
+,,,1984-06-10,Friendly,played,Israel,ISR,ISR,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1709,1820,1709,1820,0
+,,,1984-09-06,Friendly,played,Israel,ISR,ISR,UEFA,Malta,,,,TRUE,2,1,win,Jerusalem,Israel,FALSE,1709,1360,1710,1359,1
+,,,1984-10-09,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,2,draw,Athens,Greece,FALSE,1710,1598,1710,1598,0
+,,,1984-10-16,Friendly,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1710,1813,1702,1821,-8
+,,,1984-11-21,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Petah Tikva,Israel,FALSE,1702,1778,1701,1779,-1
+,,,1984-12-19,Friendly,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,TRUE,2,0,win,Petah Tikva,Israel,FALSE,1701,1173,1702,1172,1
+,,,1985-01-09,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,2,loss,Jaffa,Israel,FALSE,1702,1613,1680,1635,-22
+,,,1985-02-27,Friendly,played,Israel,ISR,ISR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,,,,,
+,,,1985-05-01,Friendly,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1678,1836,1680,1834,2
+,,,1985-09-03,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Taiwan,,,,TRUE,6,0,win,Ramat Gan,Israel,FALSE,1680,1210,1683,1207,3
+,,,1985-09-08,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Taiwan,,,,TRUE,5,0,win,Ramat Gan,Israel,FALSE,1683,1207,1686,1204,3
+,,,1985-10-08,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1686,1593,1656,1623,-30
+,,,1985-10-20,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,FALSE,1,1,draw,Melbourne,Australia,FALSE,1656,1623,1660,1619,4
+,,,1985-10-26,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,New Zealand,NZL,NZL,OFC,FALSE,1,3,loss,Auckland,New Zealand,FALSE,1660,1526,1627,1559,-33
+,,,1985-11-10,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,New Zealand,NZL,NZL,OFC,TRUE,3,0,win,Ramat Gan,Israel,FALSE,1627,1542,1645,1524,18
+,,,1986-01-28,Friendly,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1645,1864,1638,1871,-7
+,,,1986-02-26,Friendly,played,Israel,ISR,ISR,UEFA,England,ENG,ENG,UEFA,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1638,1943,1633,1948,-5
+,,,1986-10-08,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,4,loss,Ramat Gan,Israel,FALSE,1620,1828,1610,1838,-10
+,,,1987-02-18,Friendly,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1610,1756,1611,1755,1
+,,,1987-03-25,Friendly,played,Israel,ISR,ISR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,,,,,
+,,,1987-04-08,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,2,3,loss,Braşov,Romania,FALSE,1605,1840,1602,1843,-3
+,,,1987-05-19,Friendly,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,1,loss,Aarau,Switzerland,FALSE,1602,1724,1598,1728,-4
+,,,1987-06-01,Friendly,played,Israel,ISR,ISR,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,4,loss,Ramat Gan,Israel,FALSE,1598,2022,1593,2027,-5
+,,,1987-11-10,Friendly,played,Israel,ISR,ISR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,5,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1987-12-02,Friendly,played,Israel,ISR,ISR,UEFA,Malta,,,,TRUE,1,1,draw,Haifa,Israel,FALSE,1587,1374,1580,1381,-7
+,,,1987-12-16,Friendly,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1580,1730,1567,1743,-13
+,,,1988-01-19,Friendly,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,3,loss,Ramat Gan,Israel,FALSE,1567,1777,1560,1784,-7
+,,,1988-01-27,Friendly,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1560,1863,1565,1858,5
+,,,1988-02-03,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,2,loss,Haifa,Israel,FALSE,1565,1860,1554,1871,-11
+,,,1988-02-10,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,TRUE,1,3,loss,Ramat Gan,Israel,FALSE,1554,1752,1538,1768,-16
+,,,1988-02-17,Friendly,played,Israel,ISR,ISR,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1538,2015,1546,2007,8
+,,,1988-10-18,Friendly,played,Israel,ISR,ISR,UEFA,Malta,,,,TRUE,2,0,win,Beer Sheva,Israel,FALSE,1609,1424,1614,1419,5
+,,,1988-11-23,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,3,loss,Sibiu,Romania,FALSE,1614,1893,1610,1897,-4
+,,,1989-01-04,Friendly,played,Israel,ISR,ISR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1610,2047,1606,2051,-4
+,,,1989-01-11,Friendly,played,Israel,ISR,ISR,UEFA,Malta,,,,FALSE,2,1,win,Attard,Malta,FALSE,1606,1425,1614,1417,8
+,,,1989-02-08,Friendly,played,Israel,ISR,ISR,UEFA,Wales,WAL,WAL,UEFA,TRUE,3,3,draw,Ramat Gan,Israel,FALSE,1614,1782,1616,1780,2
+,,,1989-03-05,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,New Zealand,NZL,NZL,OFC,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1616,1490,1625,1481,9
+,,,1989-03-19,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1625,1724,1625,1724,0
+,,,1989-04-09,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,New Zealand,NZL,NZL,OFC,FALSE,2,2,draw,Auckland,New Zealand,FALSE,1625,1514,1624,1515,-1
+,,,1989-04-16,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Australia,AUS,AUS,AFC,FALSE,1,1,draw,Sydney,Australia,FALSE,1624,1682,1633,1673,9
+,,,1989-10-15,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Colombia,COL,COL,CONMEBOL,FALSE,0,1,loss,Barranquilla,Colombia,FALSE,1633,1825,1627,1831,-6
+,,,1989-10-30,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1627,1831,1633,1825,6
+,,,1990-03-28,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,2,loss,Athens,Greece,FALSE,1633,1679,1627,1685,-6
+,,,1990-04-25,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,4,loss,Haifa,Israel,FALSE,1627,1881,1617,1891,-10
+,,,1990-05-16,Friendly,played,Israel,ISR,ISR,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,3,2,win,Ramat Gan,Israel,FALSE,1617,1959,1633,1943,16
+,,,1990-05-22,Friendly,played,Israel,ISR,ISR,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1633,1785,1624,1794,-9
+,,,1992-02-12,Friendly,played,Israel,ISR,ISR,UEFA,CIS,,,,TRUE,1,2,loss,Jerusalem,Israel,FALSE,,,,,
+,,,1992-03-03,Friendly,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,2,1,win,Bat Yam,Israel,FALSE,1615,1256,1616,1255,1
+,,,1992-04-08,Friendly,played,Israel,ISR,ISR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1616,1583,1612,1587,-4
+,,,1992-08-05,Friendly,played,Israel,ISR,ISR,UEFA,Faroe Islands,,,,FALSE,1,1,draw,Toftir,Faroe Islands,FALSE,1612,1222,1605,1229,-7
+,,,1992-08-09,Friendly,played,Israel,ISR,ISR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,2,0,win,Reykjavík,Iceland,FALSE,1605,1608,1624,1589,19
+,,,1992-09-09,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,FALSE,1,1,draw,Mielec,Poland,FALSE,1624,1783,1630,1777,6
+,,,1992-09-23,Friendly,played,Israel,ISR,ISR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,0,draw,Budapest,Hungary,FALSE,1630,1708,1635,1703,5
+,,,1992-10-28,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,5,loss,Vienna,Austria,FALSE,1635,1607,1607,1635,-28
+,,,1992-11-11,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,3,loss,Ramat Gan,Israel,FALSE,1607,1885,1591,1901,-16
+,,,1992-12-02,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1591,1782,1569,1804,-22
+,,,1993-02-03,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1569,1802,1573,1798,4
+,,,1993-02-17,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,TRUE,0,4,loss,Ramat Gan,Israel,FALSE,1573,1897,1557,1913,-16
+,,,1993-03-24,Friendly,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,TRUE,2,2,draw,Haifa,Israel,FALSE,1557,1890,1563,1884,6
+,,,1993-04-27,Friendly,played,Israel,ISR,ISR,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,1,1,draw,Odessa,Ukraine,FALSE,1563,1622,1567,1618,4
+,,,1993-05-12,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,2,draw,Sofia,Bulgaria,FALSE,1567,1748,1580,1735,13
+,,,1993-06-02,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,5,loss,Solna,Sweden,FALSE,1580,1902,1574,1908,-6
+,,,1993-06-16,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Finland,,,,FALSE,0,0,draw,Lahti,Finland,FALSE,1574,1546,1578,1542,4
+,,,1993-09-22,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,1,loss,Bucharest,Romania,FALSE,1578,1783,1575,1786,-3
+,,,1993-10-05,Friendly,played,Israel,ISR,ISR,UEFA,Cyprus,,,,FALSE,2,2,draw,Limassol,Cyprus,FALSE,1575,1364,1572,1367,-3
+,,,1993-10-13,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,FALSE,3,2,win,Paris,France,FALSE,1572,1957,1610,1919,38
+,,,1993-10-27,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1610,1634,1606,1638,-4
+,,,1993-11-10,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Finland,,,,TRUE,1,3,loss,Ramat Gan,Israel,FALSE,1606,1515,1561,1560,-45
+,,,1994-02-23,Friendly,played,Israel,ISR,ISR,UEFA,Georgia,,,,TRUE,2,0,win,Ashdod,Israel,FALSE,1561,1593,1573,1581,12
+,,,1994-03-15,Friendly,played,Israel,ISR,ISR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,0,win,Haifa,Israel,FALSE,1573,1644,1582,1635,9
+,,,1994-04-20,Friendly,played,Israel,ISR,ISR,UEFA,Lithuania,,,,FALSE,1,1,draw,Vilnius,Lithuania,FALSE,1582,1347,1578,1351,-4
+,,,1994-05-31,Friendly,played,Israel,ISR,ISR,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,0,3,loss,Ramat Gan,Israel,FALSE,1578,1906,1571,1913,-7
+,,,1994-08-17,Friendly,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,4,loss,Ramat Gan,Israel,FALSE,1571,1864,1562,1873,-9
+,,,1994-09-04,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1562,1694,1584,1672,22
+,,,1994-10-12,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1584,1672,1583,1673,-1
+,,,1994-11-16,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Azerbaijan,,,,FALSE,2,0,win,Trabzon,Turkey,TRUE,1583,1508,1607,1484,24
+,,,1994-11-29,Friendly,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,4,3,win,Jerusalem,Israel,FALSE,1607,1373,1610,1370,3
+,,,1994-12-14,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1610,1915,1621,1904,11
+,,,1995-02-14,Friendly,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,TRUE,4,2,win,Ashdod,Israel,FALSE,1621,1162,1622,1161,1
+,,,1995-03-08,Friendly,played,Israel,ISR,ISR,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,2,loss,Istanbul,Turkey,FALSE,1622,1622,1615,1629,-7
+,,,1995-03-29,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1615,1922,1626,1911,11
+,,,1995-04-25,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,FALSE,3,4,loss,Zabrze,Poland,FALSE,1626,1714,1616,1724,-10
+,,,1995-05-17,Friendly,played,Israel,ISR,ISR,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1616,2061,1614,2063,-2
+,,,1995-06-07,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,2,loss,Bucharest,Romania,FALSE,1614,1898,1610,1902,-4
+,,,1995-08-16,Friendly,played,Israel,ISR,ISR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,0,win,Siófok,Hungary,FALSE,1610,1632,1630,1612,20
+,,,1995-09-06,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,0,1,loss,Košice,Slovakia,FALSE,1630,1667,1618,1679,-12
+,,,1995-09-20,Friendly,played,Israel,ISR,ISR,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,3,1,win,Jerusalem,Israel,FALSE,1618,1864,1639,1843,21
+,,,1995-10-11,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Azerbaijan,,,,TRUE,2,0,win,Jaffa,Israel,FALSE,1639,1448,1648,1439,9
+,,,1995-11-15,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Caen,France,FALSE,1648,1952,1643,1957,-5
+,,,1996-01-24,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,2,loss,Chalcis,Greece,FALSE,1643,1597,1635,1605,-8
+,,,1996-02-21,Friendly,played,Israel,ISR,ISR,UEFA,Lithuania,,,,TRUE,4,2,win,Haifa,Israel,FALSE,1635,1458,1640,1453,5
+,,,1996-03-26,Friendly,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,2,loss,Varaždin,Croatia,FALSE,1640,1891,1636,1895,-4
+,,,1996-04-30,Friendly,played,Israel,ISR,ISR,UEFA,South Korea,KOR,KOR,AFC,TRUE,4,5,loss,Jaffa,Israel,FALSE,1636,1600,1622,1614,-14
+,,,1996-08-14,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,2,loss,Bucharest,Romania,FALSE,1622,1833,1618,1837,-4
+,,,1996-09-01,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1618,1849,1645,1822,27
+,,,1996-10-09,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1645,1890,1653,1882,8
+,,,1996-11-10,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,FALSE,0,2,loss,Limassol,Cyprus,FALSE,1653,1394,1610,1437,-43
+,,,1996-12-15,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1610,1258,1613,1255,3
+,,,1997-01-22,Friendly,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,1,draw,Jerusalem,Israel,FALSE,1613,1668,1612,1669,-1
+,,,1997-02-26,Friendly,played,Israel,ISR,ISR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1612,2081,1610,2083,-2
+,,,1997-03-12,Friendly,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1610,1819,1603,1826,-7
+,,,1997-03-31,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,FALSE,3,0,win,Luxembourg,Luxembourg,FALSE,1603,1255,1617,1241,14
+,,,1997-04-30,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1617,1431,1627,1421,10
+,,,1997-06-08,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,FALSE,0,2,loss,Moscow,Russia,FALSE,1627,1885,1620,1892,-7
+,,,1997-06-17,Friendly,played,Israel,ISR,ISR,UEFA,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Jacksonville,United States,FALSE,1620,1669,1614,1675,-6
+,,,1997-08-05,Friendly,played,Israel,ISR,ISR,UEFA,Belarus,,,,FALSE,3,2,win,Minsk,Belarus,FALSE,1614,1373,1620,1367,6
+,,,1997-08-20,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1620,1818,1614,1824,-6
+,,,1998-02-18,Friendly,played,Israel,ISR,ISR,UEFA,Turkey,TUR,TUR,UEFA,TRUE,4,0,win,Ramat Gan,Israel,FALSE,1614,1682,1631,1665,17
+,,,1998-02-25,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1631,1666,1643,1654,12
+,,,1998-03-18,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,0,win,Bucharest,Romania,FALSE,1643,1888,1661,1870,18
+,,,1998-04-15,Friendly,played,Israel,ISR,ISR,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Jerusalem,Israel,FALSE,1661,1861,1674,1848,13
+,,,1998-05-17,Friendly,played,Israel,ISR,ISR,UEFA,Latvia,,,,FALSE,5,1,win,Riga,Latvia,FALSE,1674,1370,1683,1361,9
+,,,1998-08-18,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,FALSE,0,2,loss,Kraków,Poland,FALSE,1683,1689,1672,1700,-11
+,,,1998-09-05,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Vienna,Austria,FALSE,1672,1709,1680,1701,8
+,,,1998-10-10,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,San Marino,,,,FALSE,5,0,win,Serravalle,San Marino,FALSE,1680,954,1682,952,2
+,,,1998-10-14,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1682,1964,1672,1974,-10
+,,,1998-11-18,Friendly,played,Israel,ISR,ISR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,2,loss,Setúbal,Portugal,FALSE,1672,1902,1668,1906,-4
+,,,1998-12-23,Friendly,played,Israel,ISR,ISR,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,0,win,Ramat Gan,Israel,FALSE,,,,,
+,,,1999-01-18,Friendly,played,Israel,ISR,ISR,UEFA,Estonia,,,,TRUE,7,0,win,Ramat Gan,Israel,FALSE,1691,1213,1693,1211,2
+,,,1999-01-20,Friendly,played,Israel,ISR,ISR,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1693,1830,1680,1843,-13
+,,,1999-02-09,Friendly,played,Israel,ISR,ISR,UEFA,Belarus,,,,TRUE,2,1,win,Haifa,Israel,FALSE,1680,1412,1682,1410,2
+,,,1999-02-24,Friendly,played,Israel,ISR,ISR,UEFA,Latvia,,,,TRUE,2,0,win,Jerusalem,Israel,FALSE,1682,1443,1686,1439,4
+,,,1999-03-10,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,2,0,win,Bucharest,Romania,FALSE,1686,1906,1712,1880,26
+,,,1999-03-28,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,3,0,win,Ramat Gan,Israel,FALSE,1712,1498,1722,1488,10
+,,,1999-06-06,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,5,0,win,Ramat Gan,Israel,FALSE,1722,1734,1752,1704,30
+,,,1999-08-18,Friendly,played,Israel,ISR,ISR,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,0,1,loss,Bratislava,Slovakia,FALSE,1752,1712,1744,1720,-8
+,,,1999-09-05,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,FALSE,2,3,loss,Limassol,Cyprus,FALSE,1744,1495,1716,1523,-28
+,,,1999-09-08,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,San Marino,,,,TRUE,8,0,win,Ramat Gan,Israel,FALSE,1716,945,1717,944,1
+,,,1999-10-10,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,3,loss,Albacete,Spain,FALSE,1717,2024,1711,2030,-6
+,,,1999-11-13,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,5,loss,Ramat Gan,Israel,FALSE,1711,1865,1677,1899,-34
+,,,1999-11-17,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1677,1899,1668,1908,-9
+,,,2000-02-23,Friendly,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,TRUE,4,1,win,Haifa,Israel,FALSE,1668,1821,1688,1801,20
+,,,2000-03-29,Friendly,played,Israel,ISR,ISR,UEFA,Georgia,,,,TRUE,1,1,draw,Ashkelon,Israel,FALSE,1688,1528,1682,1534,-6
+,,,2000-04-26,Friendly,played,Israel,ISR,ISR,UEFA,Czechia,CZE,CZE,UEFA,FALSE,1,4,loss,Prague,Czech Republic,FALSE,1682,1949,1678,1953,-4
+,,,2000-06-03,Friendly,played,Israel,ISR,ISR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,2,loss,Budapest,Hungary,FALSE,1678,1614,1669,1623,-9
+,,,2000-08-16,Friendly,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,FALSE,0,1,loss,Moscow,Russia,FALSE,1669,1809,1665,1813,-4
+,,,2000-09-03,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Liechtenstein,,,,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1665,1079,1666,1078,1
+,,,2000-10-07,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Madrid,Spain,FALSE,1666,1978,1661,1983,-5
+,,,2000-10-11,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,3,1,win,Ramat Gan,Israel,FALSE,1661,1563,1676,1548,15
+,,,2000-11-15,Friendly,played,Israel,ISR,ISR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,2,loss,Braga,Portugal,FALSE,1676,2017,1675,2018,-1
+,,,2001-01-17,Friendly,played,Israel,ISR,ISR,UEFA,Uzbekistan,,,,TRUE,2,0,win,Beit She'an,Israel,FALSE,1675,1459,1679,1455,4
+,,,2001-02-14,Friendly,played,Israel,ISR,ISR,UEFA,Moldova,,,,TRUE,1,0,win,Herzliyya,Israel,FALSE,1679,1415,1681,1413,2
+,,,2001-03-28,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,2,loss,Vienna,Austria,FALSE,1681,1711,1668,1724,-13
+,,,2001-04-24,Friendly,played,Israel,ISR,ISR,UEFA,Georgia,,,,FALSE,2,3,loss,Tbilisi,Georgia,FALSE,1668,1537,1657,1548,-11
+,,,2001-06-02,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Liechtenstein,,,,FALSE,3,0,win,Vaduz,Liechtenstein,FALSE,1657,1062,1661,1058,4
+,,,2001-06-06,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1661,1964,1672,1953,11
+,,,2001-08-15,Friendly,played,Israel,ISR,ISR,UEFA,Lithuania,,,,FALSE,3,2,win,Kaunas,Lithuania,FALSE,1672,1419,1678,1413,6
+,,,2001-09-01,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,0,0,draw,Sarajevo,Bosnia and Herzegovina,FALSE,1678,1537,1676,1539,-2
+,,,2001-10-27,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1676,1713,1672,1717,-4
+,,,2002-02-13,Friendly,played,Israel,ISR,ISR,UEFA,Germany,GER,DEU,UEFA,FALSE,1,7,loss,Kaiserslautern,Germany,FALSE,1672,1869,1665,1876,-7
+,,,2002-04-17,Friendly,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,3,loss,Copenhagen,Denmark,FALSE,1665,1846,1660,1851,-5
+,,,2002-08-21,Friendly,played,Israel,ISR,ISR,UEFA,Lithuania,,,,FALSE,4,2,win,Kaunas,Lithuania,FALSE,1660,1396,1668,1388,8
+,,,2002-09-05,Friendly,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,FALSE,5,0,win,Luxembourg,Luxembourg,FALSE,1668,1105,1671,1102,3
+,,,2002-10-12,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Malta,,,,FALSE,2,0,win,Attard,Malta,FALSE,1671,1256,1679,1248,8
+,,,2002-11-20,Friendly,played,Israel,ISR,ISR,UEFA,North Macedonia,,,,FALSE,3,2,win,Skopje,North Macedonia,FALSE,1679,1471,1686,1464,7
+,,,2003-02-12,Friendly,played,Israel,ISR,ISR,UEFA,Armenia,,,,TRUE,2,0,win,Ramat Gan,Israel,FALSE,1686,1419,1689,1416,3
+,,,2003-03-05,Friendly,played,Israel,ISR,ISR,UEFA,Moldova,,,,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1689,1361,1681,1369,-8
+,,,2003-03-29,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,FALSE,1,1,draw,Limassol,Cyprus,FALSE,1681,1469,1675,1475,-6
+,,,2003-04-02,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,TRUE,1,2,loss,Palermo,Italy,TRUE,1675,1951,1668,1958,-7
+,,,2003-04-30,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,2,0,win,Palermo,Italy,TRUE,1668,1462,1682,1448,14
+,,,2003-06-07,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,0,0,draw,Antalya,Turkey,TRUE,1682,1661,1681,1662,-1
+,,,2003-08-20,Friendly,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,FALSE,2,1,win,Moscow,Russia,FALSE,1681,1763,1696,1748,15
+,,,2003-09-06,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,1,3,loss,Ljubljana,Slovenia,FALSE,1696,1668,1672,1692,-24
+,,,2003-09-10,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Malta,,,,TRUE,2,2,draw,Antalya,Turkey,TRUE,1672,1219,1655,1236,-17
+,,,2003-10-11,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,FALSE,0,3,loss,Saint-Denis,France,FALSE,1655,2029,1651,2033,-4
+,,,2004-03-30,Friendly,played,Israel,ISR,ISR,UEFA,Lithuania,,,,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1655,1426,1658,1423,3
+,,,2004-04-28,Friendly,played,Israel,ISR,ISR,UEFA,Moldova,,,,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1658,1402,1650,1410,-8
+,,,2004-05-27,Friendly,played,Israel,ISR,ISR,UEFA,Georgia,,,,FALSE,1,0,win,Tbilisi,Georgia,FALSE,1650,1504,1659,1495,9
+,,,2004-08-18,Friendly,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,1,loss,Varaždin,Croatia,FALSE,1659,1817,1655,1821,-4
+,,,2004-09-04,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Saint-Denis,France,FALSE,1655,2016,1672,1999,17
+,,,2004-09-08,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1672,1478,1678,1472,6
+,,,2004-10-09,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1678,1687,1673,1692,-5
+,,,2004-11-17,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,FALSE,2,1,win,Nicosia,Cyprus,FALSE,1673,1452,1686,1439,13
+,,,2005-02-09,Friendly,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,3,3,draw,Jerusalem,Israel,FALSE,1686,1838,1687,1837,1
+,,,2005-03-26,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,,,,,
+,,,2005-03-30,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1692,1963,1701,1954,9
+,,,2005-06-04,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2005-08-15,Friendly,played,Israel,ISR,ISR,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,0,draw,Kyiv,Ukraine,FALSE,1714,1817,1722,1809,8
+,,,2005-08-17,Friendly,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,FALSE,2,3,loss,Kyiv,Ukraine,TRUE,1722,1814,1711,1825,-11
+,,,2005-09-03,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,1,draw,Basel,Switzerland,FALSE,1711,1746,1718,1739,7
+,,,2005-09-07,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Faroe Islands,,,,FALSE,2,0,win,Tórshavn,Faroe Islands,FALSE,1718,1219,1723,1214,5
+,,,2005-10-08,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Faroe Islands,,,,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1723,1214,1724,1213,1
+,,,2006-03-01,Friendly,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,2,loss,Ramat Gan,Israel,FALSE,1724,1888,1712,1900,-12
+,,,2006-08-15,Friendly,played,Israel,ISR,ISR,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,1,1,draw,Celje,Slovenia,FALSE,1712,1601,1712,1601,0
+,,,2006-09-02,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Estonia,,,,FALSE,1,0,win,Tallinn,Estonia,FALSE,1712,1407,1721,1398,9
+,,,2006-09-06,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Andorra,,,,TRUE,4,1,win,Nijmegen,Netherlands,TRUE,1721,1103,1723,1101,2
+,,,2006-10-07,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,FALSE,1,1,draw,Moscow,Russia,FALSE,1723,1760,1731,1752,8
+,,,2006-11-15,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,3,4,loss,Ramat Gan,Israel,FALSE,1731,1879,1714,1896,-17
+,,,2007-02-07,Friendly,played,Israel,ISR,ISR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1714,1804,1714,1804,0
+,,,2007-03-24,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Ramat Gan,Israel,FALSE,1714,1946,1721,1939,7
+,,,2007-03-28,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Estonia,,,,TRUE,4,0,win,Ramat Gan,Israel,FALSE,1721,1388,1727,1382,6
+,,,2007-06-02,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,North Macedonia,,,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1727,1541,1742,1526,15
+,,,2007-06-06,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Andorra,,,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1742,1095,1744,1093,2
+,,,2007-08-22,Friendly,played,Israel,ISR,ISR,UEFA,Belarus,,,,FALSE,1,2,loss,Minsk,Belarus,FALSE,1744,1544,1731,1557,-13
+,,,2007-09-08,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,England,ENG,ENG,UEFA,FALSE,0,3,loss,London,England,FALSE,1731,1934,1721,1944,-10
+,,,2007-10-13,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,1,loss,Zagreb,Croatia,FALSE,1721,1906,1715,1912,-6
+,,,2007-10-17,Friendly,played,Israel,ISR,ISR,UEFA,Belarus,,,,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1715,1492,1718,1489,3
+,,,2007-11-17,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,TRUE,2,1,win,Ramat Gan,Israel,FALSE,1718,1808,1737,1789,19
+,,,2007-11-21,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,North Macedonia,,,,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1737,1563,1744,1556,7
+,,,2008-02-06,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1744,1907,1756,1895,12
+,,,2008-03-26,Friendly,played,Israel,ISR,ISR,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1756,1743,1763,1736,7
+,,,2008-08-20,Friendly,played,Israel,ISR,ISR,UEFA,Finland,,,,FALSE,0,2,loss,Tampere,Finland,FALSE,1763,1659,1748,1674,-15
+,,,2008-09-06,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1748,1791,1745,1794,-3
+,,,2008-09-10,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Moldova,,,,FALSE,2,1,win,Chișinău,Moldova,FALSE,1745,1471,1756,1460,11
+,,,2008-10-11,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1756,1077,1758,1075,2
+,,,2008-10-15,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Latvia,,,,FALSE,1,1,draw,Riga,Latvia,FALSE,1758,1518,1750,1526,-8
+,,,2008-11-19,Friendly,played,Israel,ISR,ISR,UEFA,Ivory Coast,CIV,CIV,CAF,TRUE,2,2,draw,Ramat Gan,Israel,FALSE,1750,1705,1746,1709,-4
+,,,2009-02-11,Friendly,played,Israel,ISR,ISR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,0,win,Ramat Gan,Israel,FALSE,1746,1621,1750,1617,4
+,,,2009-03-28,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1750,1772,1746,1776,-4
+,,,2009-04-01,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,2,loss,Heraklion,Greece,FALSE,1746,1776,1733,1789,-13
+,,,2009-08-12,Friendly,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1733,1589,1732,1590,-1
+,,,2009-09-05,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Latvia,,,,TRUE,0,1,loss,Ramat Gan,Israel,FALSE,1732,1532,1698,1566,-34
+,,,2009-09-09,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,TRUE,7,0,win,Ramat Gan,Israel,FALSE,1698,1101,1700,1099,2
+,,,2009-10-10,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Moldova,,,,TRUE,3,1,win,Ramat Gan,Israel,FALSE,1700,1458,1707,1451,7
+,,,2009-10-14,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,Basel,Switzerland,FALSE,1707,1818,1718,1807,11
+,,,2010-03-03,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,2,0,win,Timişoara,Romania,FALSE,1718,1773,1739,1752,21
+,,,2010-05-26,Friendly,played,Israel,ISR,ISR,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,1,4,loss,Montevideo,Uruguay,FALSE,1739,1832,1726,1845,-13
+,,,2010-05-30,Friendly,played,Israel,ISR,ISR,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,0,3,loss,Concepción,Chile,FALSE,1726,1876,1719,1883,-7
+,,,2010-09-02,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Malta,,,,TRUE,3,1,win,Ramat Gan,Israel,FALSE,1719,1223,1721,1221,2
+,,,2010-09-07,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Georgia,,,,FALSE,0,0,draw,Tbilisi,Georgia,FALSE,1721,1467,1713,1475,-8
+,,,2010-10-09,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,2,loss,Ramat Gan,Israel,FALSE,1713,1890,1697,1906,-16
+,,,2010-10-12,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,2,loss,Piraeus,Greece,FALSE,1697,1727,1684,1740,-13
+,,,2010-11-17,Friendly,played,Israel,ISR,ISR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,3,2,win,Jaffa,Israel,FALSE,1684,1437,1686,1435,2
+,,,2011-02-09,Friendly,played,Israel,ISR,ISR,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,2,loss,Jaffa,Israel,FALSE,1686,1740,1669,1757,-17
+,,,2011-03-26,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Latvia,,,,TRUE,2,1,win,Jaffa,Israel,FALSE,1669,1531,1677,1523,8
+,,,2011-03-29,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Georgia,,,,TRUE,1,0,win,Jaffa,Israel,FALSE,1677,1547,1685,1539,8
+,,,2011-06-04,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Latvia,,,,FALSE,2,1,win,Riga,Latvia,FALSE,1685,1523,1701,1507,16
+,,,2011-08-10,Friendly,played,Israel,ISR,ISR,UEFA,Ivory Coast,CIV,CIV,CAF,TRUE,3,4,loss,Geneva,Switzerland,TRUE,1701,1742,1692,1751,-9
+,,,2011-09-02,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,1,loss,Jaffa,Israel,FALSE,1692,1751,1670,1773,-22
+,,,2011-09-06,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,3,loss,Zagreb,Croatia,FALSE,1670,1889,1662,1897,-8
+,,,2011-10-11,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Malta,,,,FALSE,2,0,win,Attard,Malta,FALSE,1662,1218,1669,1211,7
+,,,2012-02-29,Friendly,played,Israel,ISR,ISR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,2,3,loss,Petah Tikva,Israel,FALSE,1669,1766,1659,1776,-10
+,,,2012-05-26,Friendly,played,Israel,ISR,ISR,UEFA,Czechia,CZE,CZE,UEFA,FALSE,1,2,loss,Graz,Austria,TRUE,1659,1797,1653,1803,-6
+,,,2012-05-31,Friendly,played,Israel,ISR,ISR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Leipzig,Germany,FALSE,1653,2041,1651,2043,-2
+,,,2012-08-15,Friendly,played,Israel,ISR,ISR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,1651,1688,1655,1684,4
+,,,2012-09-07,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Azerbaijan,,,,FALSE,1,1,draw,Baku,Azerbaijan,FALSE,1655,1395,1646,1404,-9
+,,,2012-09-11,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,TRUE,0,4,loss,Ramat Gan,Israel,FALSE,1646,1845,1619,1872,-27
+,,,2012-10-12,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,FALSE,6,0,win,Luxembourg,Luxembourg,FALSE,1619,1162,1629,1152,10
+,,,2012-10-16,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Luxembourg,,,,TRUE,3,0,win,Ramat Gan,Israel,FALSE,1629,1152,1631,1150,2
+,,,2012-11-14,Friendly,played,Israel,ISR,ISR,UEFA,Belarus,,,,TRUE,1,2,loss,Jerusalem,Israel,FALSE,1631,1580,1617,1594,-14
+,,,2013-02-06,Friendly,played,Israel,ISR,ISR,UEFA,Finland,,,,TRUE,2,1,win,Netanya,Israel,FALSE,1617,1634,1625,1626,8
+,,,2013-03-22,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Portugal,PRT,PRT,UEFA,TRUE,3,3,draw,Ramat Gan,Israel,FALSE,1625,1890,1634,1881,9
+,,,2013-03-26,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1634,1440,1656,1418,22
+,,,2013-06-02,Friendly,played,Israel,ISR,ISR,UEFA,Honduras,HND,HND,CONCACAF,FALSE,2,0,win,New York,United States,TRUE,1656,1666,1671,1651,15
+,,,2013-08-14,Friendly,played,Israel,ISR,ISR,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,2,loss,Kyiv,Ukraine,FALSE,1671,1801,1665,1807,-6
+,,,2013-09-07,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Azerbaijan,,,,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1665,1402,1649,1418,-16
+,,,2013-09-10,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Russia,RUS,RUS,UEFA,FALSE,1,3,loss,Saint Petersburg,Russia,FALSE,1649,1843,1640,1852,-9
+,,,2013-10-11,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,1,draw,Lisbon,Portugal,FALSE,1640,1911,1656,1895,16
+,,,2013-10-15,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Ramat Gan,Israel,FALSE,1656,1397,1640,1413,-16
+,,,2014-03-05,Friendly,played,Israel,ISR,ISR,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,3,loss,Netanya,Israel,FALSE,1640,1605,1619,1626,-21
+,,,2014-06-01,Friendly,played,Israel,ISR,ISR,UEFA,Honduras,HND,HND,CONCACAF,FALSE,4,2,win,Houston,United States,TRUE,1614,1680,1632,1662,18
+,,,2014-10-10,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,FALSE,2,1,win,Nicosia,Cyprus,FALSE,1632,1421,1646,1407,14
+,,,2014-10-13,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Andorra,,,,FALSE,4,1,win,Sant Julià de Lòria,Andorra,FALSE,1646,983,1649,980,3
+,,,2014-11-16,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,3,0,win,Haifa,Israel,FALSE,1649,1744,1683,1710,34
+,,,2015-03-28,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,3,loss,Haifa,Israel,FALSE,1683,1620,1633,1670,-50
+,,,2015-03-31,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,1,loss,Jerusalem,Israel,FALSE,1633,1901,1622,1912,-11
+,,,2015-06-12,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,1,3,loss,Zenica,Bosnia and Herzegovina,FALSE,1622,1715,1607,1730,-15
+,,,2015-09-03,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Andorra,,,,TRUE,4,0,win,Haifa,Israel,FALSE,1607,963,1608,962,1
+,,,2015-09-06,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1608,1708,1618,1698,10
+,,,2015-10-10,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,1,2,loss,Jerusalem,Israel,FALSE,1618,1397,1583,1432,-35
+,,,2015-10-13,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,3,loss,Brussels,Belgium,FALSE,1583,1913,1578,1918,-5
+,,,2016-03-23,Friendly,played,Israel,ISR,ISR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,2,loss,Osijek,Croatia,FALSE,1578,1813,1574,1817,-4
+,,,2016-05-31,Friendly,played,Israel,ISR,ISR,UEFA,Serbia,SRB,SRB,UEFA,FALSE,1,3,loss,Novi Sad,Serbia,FALSE,1574,1718,1568,1724,-6
+,,,2016-09-05,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,3,loss,Haifa,Israel,FALSE,1568,1931,1557,1942,-11
+,,,2016-10-06,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,North Macedonia,,,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1557,1424,1575,1406,18
+,,,2016-10-09,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Liechtenstein,,,,TRUE,2,1,win,Jerusalem,Israel,FALSE,1575,1183,1577,1181,2
+,,,2016-11-12,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Albania,,,,FALSE,3,0,win,Elbasan,Albania,FALSE,1577,1628,1626,1579,49
+,,,2017-03-24,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,4,loss,Gijón,Spain,FALSE,1626,1978,1621,1983,-5
+,,,2017-06-06,Friendly,played,Israel,ISR,ISR,UEFA,Moldova,,,,TRUE,1,1,draw,Netanya,Israel,FALSE,1621,1344,1613,1352,-8
+,,,2017-06-11,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Albania,,,,TRUE,0,3,loss,Haifa,Israel,FALSE,1613,1551,1563,1601,-50
+,,,2017-09-02,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,North Macedonia,,,,TRUE,0,1,loss,Haifa,Israel,FALSE,1563,1447,1532,1478,-31
+,,,2017-09-05,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,1,loss,Reggio Emilia,Italy,FALSE,1532,1947,1530,1949,-2
+,,,2017-10-06,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Liechtenstein,,,,FALSE,1,0,win,Vaduz,Liechtenstein,FALSE,1530,1161,1537,1154,7
+,,,2017-10-09,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,1,loss,Jerusalem,Israel,FALSE,1537,2028,1533,2032,-4
+,,,2018-03-24,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,2,loss,Netanya,Israel,FALSE,1533,1687,1525,1695,-8
+,,,2018-09-07,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Albania,,,,FALSE,0,1,loss,Elbasan,Albania,FALSE,1525,1560,1512,1573,-13
+,,,2018-09-11,Friendly,played,Israel,ISR,ISR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1512,1654,1505,1661,-7
+,,,2018-10-11,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Haifa,Israel,FALSE,1505,1714,1531,1688,26
+,,,2018-10-14,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Albania,,,,TRUE,2,0,win,Beer Sheva,Israel,FALSE,1531,1555,1555,1531,24
+,,,2018-11-15,Friendly,played,Israel,ISR,ISR,UEFA,Guatemala,,,,TRUE,7,0,win,Netanya,Israel,FALSE,1555,1509,1569,1495,14
+,,,2018-11-20,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,3,loss,Glasgow,Scotland,FALSE,1569,1712,1561,1720,-8
+,,,2019-03-21,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,1,1,draw,Haifa,Israel,FALSE,1561,1561,1555,1567,-6
+,,,2019-03-24,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,4,2,win,Haifa,Israel,FALSE,1555,1739,1592,1702,37
+,,,2019-06-07,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Latvia,,,,FALSE,3,0,win,Riga,Latvia,FALSE,1592,1288,1609,1271,17
+,,,2019-06-10,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,FALSE,0,4,loss,Warsaw,Poland,FALSE,1609,1791,1597,1803,-12
+,,,2019-09-05,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,North Macedonia,,,,TRUE,1,1,draw,Beer Sheva,Israel,FALSE,1597,1496,1587,1506,-10
+,,,2019-09-09,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,2,3,loss,Ljubljana,Slovenia,FALSE,1587,1613,1574,1626,-13
+,,,2019-10-10,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,3,loss,Vienna,Austria,FALSE,1574,1746,1564,1756,-10
+,,,2019-10-15,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Latvia,,,,TRUE,3,1,win,Beer Sheva,Israel,FALSE,1564,1224,1568,1220,4
+,,,2019-11-16,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Poland,POL,POL,UEFA,TRUE,1,2,loss,Jerusalem,Israel,FALSE,1568,1769,1554,1783,-14
+,,,2019-11-19,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,North Macedonia,,,,FALSE,0,1,loss,Skopje,North Macedonia,FALSE,1554,1530,1538,1546,-16
+,,,2020-09-04,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1538,1639,1548,1629,10
+,,,2020-09-07,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,1,draw,Netanya,Israel,FALSE,1548,1696,1551,1693,3
+,,,2020-10-08,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1551,1661,1562,1650,11
+,,,2020-10-11,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Czechia,CZE,CZE,UEFA,TRUE,1,2,loss,Haifa,Israel,FALSE,1562,1744,1547,1759,-15
+,,,2020-10-14,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,3,2,win,Trnava,Slovakia,FALSE,1547,1672,1578,1641,31
+,,,2020-11-15,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Czechia,CZE,CZE,UEFA,FALSE,0,1,loss,Plzeň,Czech Republic,FALSE,1578,1736,1571,1743,-7
+,,,2020-11-18,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,Netanya,Israel,FALSE,1571,1679,1591,1659,20
+,,,2021-03-25,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,2,loss,Tel Aviv,Israel,FALSE,1591,1927,1579,1939,-12
+,,,2021-03-28,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,1,draw,Tel Aviv,Israel,FALSE,1579,1661,1578,1662,-1
+,,,2021-03-31,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Moldova,,,,FALSE,4,1,win,Chișinău,Moldova,FALSE,1578,1221,1591,1208,13
+,,,2021-06-05,Friendly,played,Israel,ISR,ISR,UEFA,Montenegro,,,,FALSE,3,1,win,Podgorica,Montenegro,FALSE,1591,1535,1608,1518,17
+,,,2021-06-09,Friendly,played,Israel,ISR,ISR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,4,loss,Lisbon,Portugal,FALSE,1608,2037,1606,2039,-2
+,,,2021-09-01,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Faroe Islands,,,,FALSE,4,0,win,Tórshavn,Faroe Islands,FALSE,1606,1262,1621,1247,15
+,,,2021-09-04,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,TRUE,5,2,win,Haifa,Israel,FALSE,1621,1781,1662,1740,41
+,,,2021-09-07,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,5,loss,Copenhagen,Denmark,FALSE,1662,1971,1655,1978,-7
+,,,2021-10-09,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,3,loss,Glasgow,Scotland,FALSE,1655,1657,1641,1671,-14
+,,,2021-10-12,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Moldova,,,,TRUE,2,1,win,Beer Sheva,Israel,FALSE,1641,1199,1643,1197,2
+,,,2021-11-12,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,4,loss,Klagenfurt,Austria,FALSE,1643,1712,1627,1728,-16
+,,,2021-11-15,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Faroe Islands,,,,TRUE,3,2,win,Netanya,Israel,FALSE,1627,1247,1629,1245,2
+,,,2022-03-26,Friendly,played,Israel,ISR,ISR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Sinsheim,Germany,FALSE,1629,1962,1627,1964,-2
+,,,2022-03-29,Friendly,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,2,draw,Netanya,Israel,FALSE,1627,1653,1625,1655,-2
+,,,2022-06-02,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,2,2,draw,Haifa,Israel,FALSE,1625,1541,1615,1551,-10
+,,,2022-06-10,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Albania,,,,FALSE,2,1,win,Tirana,Albania,FALSE,1615,1586,1639,1562,24
+,,,2022-06-13,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,2,2,draw,Reykjavík,Iceland,FALSE,1639,1547,1639,1547,0
+,,,2022-09-24,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Albania,,,,TRUE,2,1,win,Tel Aviv,Israel,FALSE,1639,1556,1649,1546,10
+,,,2022-09-27,Friendly,played,Israel,ISR,ISR,UEFA,Malta,,,,FALSE,1,2,loss,Ta' Qali,Malta,FALSE,1649,1237,1632,1254,-17
+,,,2022-11-17,Friendly,played,Israel,ISR,ISR,UEFA,Zambia,,,,TRUE,4,2,win,Petah Tikva,Israel,FALSE,1632,1469,1637,1464,5
+,,,2022-11-20,Friendly,played,Israel,ISR,ISR,UEFA,Cyprus,,,,TRUE,2,3,loss,Petah Tikva,Israel,FALSE,1637,1337,1619,1355,-18
+,,,2023-03-25,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Kosovo,,,,TRUE,1,1,draw,Tel Aviv,Israel,FALSE,1619,1507,1608,1518,-11
+,,,2023-03-28,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,3,loss,Geneva,Switzerland,FALSE,1608,1883,1601,1890,-7
+,,,2023-06-16,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Belarus,,,,FALSE,2,1,win,Budapest,Hungary,TRUE,1601,1404,1611,1394,10
+,,,2023-06-19,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Andorra,,,,TRUE,2,1,win,Jerusalem,Israel,FALSE,1611,1121,1612,1120,1
+,,,2023-09-09,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,1,draw,Bucharest,Romania,FALSE,1612,1636,1619,1629,7
+,,,2023-09-12,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Belarus,,,,TRUE,1,0,win,Tel Aviv,Israel,FALSE,1619,1410,1625,1404,6
+,,,2023-11-12,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Kosovo,,,,FALSE,0,1,loss,Pristina,Kosovo,FALSE,1625,1491,1603,1513,-22
+,,,2023-11-15,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,1,draw,Felcsút,Hungary,TRUE,1603,1844,1615,1832,12
+,,,2023-11-18,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,2,loss,Felcsút,Hungary,TRUE,1615,1631,1596,1650,-19
+,,,2023-11-21,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Andorra,,,,FALSE,2,0,win,Andorra la Vella,Andorra,FALSE,1596,1108,1602,1102,6
+,,,2024-03-21,UEFA Euro qualification,played,Israel,ISR,ISR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,1,4,loss,Budapest,Hungary,TRUE,1602,1506,1558,1550,-44
+,,,2024-06-08,Friendly,played,Israel,ISR,ISR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,3,loss,Debrecen,Hungary,FALSE,1558,1827,1554,1831,-4
+,,,2024-06-11,Friendly,played,Israel,ISR,ISR,UEFA,Belarus,,,,TRUE,4,0,win,Budapest,Hungary,TRUE,1554,1446,1567,1433,13
+,,,2024-09-06,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,3,loss,Debrecen,Hungary,TRUE,1567,1934,1561,1940,-6
+,,,2024-09-09,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,2,loss,Budapest,Hungary,TRUE,1561,1939,1557,1943,-4
+,,,2024-10-10,UEFA Nations League,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,TRUE,1,4,loss,Budapest,Hungary,TRUE,1557,2015,1552,2020,-5
+,,,2024-10-14,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,4,loss,Udine,Italy,FALSE,1552,1936,1548,1940,-4
+,,,2024-11-14,UEFA Nations League,played,Israel,ISR,ISR,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Paris,France,FALSE,1548,2041,1567,2022,19
+,,,2024-11-17,UEFA Nations League,played,Israel,ISR,ISR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Budapest,Hungary,TRUE,1567,1885,1601,1851,34
+,,,2025-03-22,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Estonia,,,,TRUE,2,1,win,Debrecen,Hungary,TRUE,1601,1376,1610,1367,9
+,,,2025-03-25,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,4,loss,Debrecen,Hungary,TRUE,1610,1815,1596,1829,-14
+,,,2025-06-06,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Estonia,,,,FALSE,3,1,win,Tallinn,Estonia,FALSE,1596,1391,1617,1370,21
+,,,2025-06-10,Friendly,played,Israel,ISR,ISR,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,0,win,Debrecen,Hungary,TRUE,1617,1677,1629,1665,12
+,,,2025-09-05,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Moldova,,,,FALSE,4,0,win,Chișinău,Moldova,FALSE,1629,1319,1646,1302,17
+,,,2025-09-08,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,TRUE,4,5,loss,Debrecen,Hungary,TRUE,1646,1884,1638,1892,-8
+,,,2025-10-11,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,5,loss,Oslo,Norway,FALSE,1638,1870,1628,1880,-10
+,,,2025-10-14,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,3,loss,Udine,Italy,FALSE,1628,1897,1621,1904,-7
+,,,2025-11-13,Friendly,played,Israel,ISR,ISR,UEFA,Lithuania,,,,FALSE,0,0,draw,Kaunas,Lithuania,FALSE,1621,1272,1615,1278,-6
+,,,2025-11-16,FIFA World Cup qualification,played,Israel,ISR,ISR,UEFA,Moldova,,,,FALSE,4,1,win,Chișinău,Moldova,FALSE,1615,1304,1631,1288,16
+,,,2026-03-26,Friendly,played,Israel,ISR,ISR,UEFA,Georgia,,,,FALSE,2,2,draw,Tbilisi,Georgia,FALSE,1631,1650,1634,1647,3

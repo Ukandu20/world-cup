@@ -1,65 +1,65 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,2006-06-09,Group Stage,played,Germany,Costa Rica,DEU,CRI,1895,1724,Munich,Germany,FALSE
-2,2006-06-09,Group Stage,played,Poland,Ecuador,POL,ECU,1821,1700,Gelsenkirchen,Germany,TRUE
-3,2006-06-10,Group Stage,played,Argentina,Ivory Coast,ARG,CIV,1922,1766,Hamburg,Germany,TRUE
-4,2006-06-10,Group Stage,played,England,Paraguay,ENG,PRY,1973,1779,Frankfurt am Main,Germany,TRUE
-5,2006-06-10,Group Stage,played,Trinidad and Tobago,Sweden,TTO,SWE,1566,1859,Dortmund,Germany,TRUE
-6,2006-06-11,Group Stage,played,Angola,Portugal,AGO,PRT,1565,1915,Cologne,Germany,TRUE
-7,2006-06-11,Group Stage,played,Mexico,Iran,MEX,IRN,1839,1842,Nuremberg,Germany,TRUE
-8,2006-06-11,Group Stage,played,Serbia and Montenegro,Netherlands,SCG,NLD,1800,1994,Leipzig,Germany,TRUE
-9,2006-06-12,Group Stage,played,Australia,Japan,AUS,JPN,1798,1789,Kaiserslautern,Germany,TRUE
-10,2006-06-12,Group Stage,played,Italy,Ghana,ITA,GHA,1943,1616,Hanover,Germany,TRUE
-11,2006-06-12,Group Stage,played,United States,Czechia,USA,CZE,1824,1971,Gelsenkirchen,Germany,TRUE
-12,2006-06-13,Group Stage,played,Brazil,Croatia,BRA,HRV,2034,1838,Berlin,Germany,TRUE
-13,2006-06-13,Group Stage,played,France,Switzerland,FRA,CHE,1970,1799,Stuttgart,Germany,TRUE
-14,2006-06-13,Group Stage,played,South Korea,Togo,KOR,TGO,1744,1488,Frankfurt am Main,Germany,TRUE
-15,2006-06-14,Group Stage,played,Germany,Poland,DEU,POL,1911,1761,Dortmund,Germany,FALSE
-16,2006-06-14,Group Stage,played,Spain,Ukraine,ESP,UKR,1964,1790,Leipzig,Germany,TRUE
-17,2006-06-14,Group Stage,played,Tunisia,Saudi Arabia,TUN,SAU,1703,1554,Munich,Germany,TRUE
-18,2006-06-15,Group Stage,played,Ecuador,Costa Rica,ECU,CRI,1760,1708,Hamburg,Germany,TRUE
-19,2006-06-15,Group Stage,played,England,Trinidad and Tobago,ENG,TTO,1988,1587,Nuremberg,Germany,TRUE
-20,2006-06-15,Group Stage,played,Sweden,Paraguay,SWE,PRY,1838,1764,Berlin,Germany,TRUE
-21,2006-06-16,Group Stage,played,Argentina,Serbia and Montenegro,ARG,SCG,1939,1785,Gelsenkirchen,Germany,TRUE
-22,2006-06-16,Group Stage,played,Mexico,Angola,MEX,AGO,1884,1558,Hanover,Germany,TRUE
-23,2006-06-16,Group Stage,played,Netherlands,Ivory Coast,NLD,CIV,2009,1749,Stuttgart,Germany,TRUE
-24,2006-06-17,Group Stage,played,Czechia,Ghana,CZE,GHA,2003,1604,Cologne,Germany,TRUE
-25,2006-06-17,Group Stage,played,Italy,United States,ITA,USA,1955,1792,Kaiserslautern,Germany,TRUE
-26,2006-06-17,Group Stage,played,Portugal,Iran,PRT,IRN,1922,1797,Frankfurt am Main,Germany,TRUE
-27,2006-06-18,Group Stage,played,Brazil,Australia,BRA,AUS,2049,1842,Munich,Germany,TRUE
-28,2006-06-18,Group Stage,played,France,South Korea,FRA,KOR,1956,1755,Leipzig,Germany,TRUE
-29,2006-06-18,Group Stage,played,Japan,Croatia,JPN,HRV,1745,1823,Nuremberg,Germany,TRUE
-30,2006-06-19,Group Stage,played,Saudi Arabia,Ukraine,SAU,UKR,1566,1760,Hamburg,Germany,TRUE
-31,2006-06-19,Group Stage,played,Spain,Tunisia,ESP,TUN,1994,1691,Stuttgart,Germany,TRUE
-32,2006-06-19,Group Stage,played,Togo,Switzerland,TGO,CHE,1477,1813,Dortmund,Germany,TRUE
-33,2006-06-20,Group Stage,played,Costa Rica,Poland,CRI,POL,1663,1749,Hanover,Germany,TRUE
-34,2006-06-20,Group Stage,played,Germany,Ecuador,DEU,ECU,1923,1805,Berlin,Germany,FALSE
-35,2006-06-20,Group Stage,played,Paraguay,Trinidad and Tobago,PRY,TTO,1740,1579,Kaiserslautern,Germany,TRUE
-36,2006-06-20,Group Stage,played,Sweden,England,SWE,ENG,1862,1996,Cologne,Germany,TRUE
-37,2006-06-21,Group Stage,played,Iran,Angola,IRN,AGO,1768,1580,Leipzig,Germany,TRUE
-38,2006-06-21,Group Stage,played,Ivory Coast,Serbia and Montenegro,CIV,SCG,1738,1748,Munich,Germany,TRUE
-39,2006-06-21,Group Stage,played,Netherlands,Argentina,NLD,ARG,2020,1976,Frankfurt am Main,Germany,TRUE
-40,2006-06-21,Group Stage,played,Portugal,Mexico,PRT,MEX,1951,1862,Gelsenkirchen,Germany,TRUE
-41,2006-06-22,Group Stage,played,Croatia,Australia,HRV,AUS,1816,1821,Stuttgart,Germany,TRUE
-42,2006-06-22,Group Stage,played,Czechia,Italy,CZE,ITA,1921,1942,Hamburg,Germany,TRUE
-43,2006-06-22,Group Stage,played,Ghana,United States,GHA,USA,1686,1805,Nuremberg,Germany,TRUE
-44,2006-06-22,Group Stage,played,Japan,Brazil,JPN,BRA,1752,2070,Dortmund,Germany,TRUE
-45,2006-06-23,Group Stage,played,Saudi Arabia,Spain,SAU,ESP,1538,2007,Kaiserslautern,Germany,TRUE
-46,2006-06-23,Group Stage,played,Switzerland,South Korea,CHE,KOR,1824,1771,Hanover,Germany,TRUE
-47,2006-06-23,Group Stage,played,Togo,France,TGO,FRA,1466,1940,Cologne,Germany,TRUE
-48,2006-06-23,Group Stage,played,Ukraine,Tunisia,UKR,TUN,1788,1678,Berlin,Germany,TRUE
-49,2006-06-24,Round of 16,played,Argentina,Mexico,ARG,MEX,1980,1840,Leipzig,Germany,TRUE
-50,2006-06-24,Round of 16,played,Germany,Sweden,DEU,SWE,1946,1873,Munich,Germany,FALSE
-51,2006-06-25,Round of 16,played,England,Ecuador,ENG,ECU,1985,1782,Stuttgart,Germany,TRUE
-52,2006-06-25,Round of 16,played,Portugal,Netherlands,PRT,NLD,1973,2016,Nuremberg,Germany,TRUE
-53,2006-06-26,Round of 16,played,Italy,Australia,ITA,AUS,1984,1821,Kaiserslautern,Germany,TRUE
-54,2006-06-26,Round of 16,played,Switzerland,Ukraine,CHE,UKR,1862,1809,Cologne,Germany,TRUE
-55,2006-06-27,Round of 16,played,Brazil,Ghana,BRA,GHA,2085,1726,Dortmund,Germany,TRUE
-56,2006-06-27,Round of 16,played,Spain,France,ESP,FRA,2011,1946,Hanover,Germany,TRUE
-57,2006-06-30,Quarter-final,played,Germany,Argentina,DEU,ARG,1970,1999,Berlin,Germany,FALSE
-58,2006-06-30,Quarter-final,played,Italy,Ukraine,ITA,UKR,2001,1814,Hamburg,Germany,TRUE
-59,2006-07-01,Quarter-final,played,Brazil,France,BRA,FRA,2097,1999,Frankfurt am Main,Germany,TRUE
-60,2006-07-01,Quarter-final,played,England,Portugal,ENG,PRT,1999,2007,Gelsenkirchen,Germany,TRUE
-61,2006-07-04,Semi-final,played,Germany,Italy,DEU,ITA,1964,2028,Dortmund,Germany,FALSE
-62,2006-07-05,Semi-final,played,Portugal,France,PRT,FRA,2006,2037,Munich,Germany,TRUE
-63,2006-07-08,Third Place,played,Germany,Portugal,DEU,PRT,1914,1979,Stuttgart,Germany,FALSE
-64,2006-07-09,Final,played,Italy,France,ITA,FRA,2078,2064,Berlin,Germany,TRUE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-2006,WC-2006_001,1,2006-06-09,Group Stage,played,Germany,Costa Rica,GER,CRI,DEU,CRI,UEFA,CONCACAF,1895,1724,Munich,Germany,FALSE
+WC-2006,WC-2006_002,2,2006-06-09,Group Stage,played,Poland,Ecuador,POL,ECU,POL,ECU,UEFA,CONMEBOL,1821,1700,Gelsenkirchen,Germany,TRUE
+WC-2006,WC-2006_003,3,2006-06-10,Group Stage,played,Argentina,Ivory Coast,ARG,CIV,ARG,CIV,CONMEBOL,CAF,1922,1766,Hamburg,Germany,TRUE
+WC-2006,WC-2006_004,4,2006-06-10,Group Stage,played,England,Paraguay,ENG,PRY,ENG,PRY,UEFA,CONMEBOL,1973,1779,Frankfurt am Main,Germany,TRUE
+WC-2006,WC-2006_005,5,2006-06-10,Group Stage,played,Trinidad and Tobago,Sweden,TTO,SWE,TTO,SWE,CONCACAF,UEFA,1566,1859,Dortmund,Germany,TRUE
+WC-2006,WC-2006_006,6,2006-06-11,Group Stage,played,Angola,Portugal,AGO,PRT,AGO,PRT,CAF,UEFA,1565,1915,Cologne,Germany,TRUE
+WC-2006,WC-2006_007,7,2006-06-11,Group Stage,played,Mexico,Iran,MEX,IRN,MEX,IRN,CONCACAF,AFC,1839,1842,Nuremberg,Germany,TRUE
+WC-2006,WC-2006_008,8,2006-06-11,Group Stage,played,Serbia and Montenegro,Netherlands,SCG,NED,SCG,NLD,UEFA,UEFA,1800,1994,Leipzig,Germany,TRUE
+WC-2006,WC-2006_009,9,2006-06-12,Group Stage,played,Australia,Japan,AUS,JPN,AUS,JPN,AFC,AFC,1798,1789,Kaiserslautern,Germany,TRUE
+WC-2006,WC-2006_010,10,2006-06-12,Group Stage,played,Italy,Ghana,ITA,GHA,ITA,GHA,UEFA,CAF,1943,1616,Hanover,Germany,TRUE
+WC-2006,WC-2006_011,11,2006-06-12,Group Stage,played,United States,Czechia,USA,CZE,USA,CZE,CONCACAF,UEFA,1824,1971,Gelsenkirchen,Germany,TRUE
+WC-2006,WC-2006_012,12,2006-06-13,Group Stage,played,Brazil,Croatia,BRA,HRV,BRA,HRV,CONMEBOL,UEFA,2034,1838,Berlin,Germany,TRUE
+WC-2006,WC-2006_013,13,2006-06-13,Group Stage,played,France,Switzerland,FRA,CHE,FRA,CHE,UEFA,UEFA,1970,1799,Stuttgart,Germany,TRUE
+WC-2006,WC-2006_014,14,2006-06-13,Group Stage,played,South Korea,Togo,KOR,TGO,KOR,TGO,AFC,CAF,1744,1488,Frankfurt am Main,Germany,TRUE
+WC-2006,WC-2006_015,15,2006-06-14,Group Stage,played,Germany,Poland,GER,POL,DEU,POL,UEFA,UEFA,1911,1761,Dortmund,Germany,FALSE
+WC-2006,WC-2006_016,16,2006-06-14,Group Stage,played,Spain,Ukraine,ESP,UKR,ESP,UKR,UEFA,UEFA,1964,1790,Leipzig,Germany,TRUE
+WC-2006,WC-2006_017,17,2006-06-14,Group Stage,played,Tunisia,Saudi Arabia,TUN,KSA,TUN,SAU,CAF,AFC,1703,1554,Munich,Germany,TRUE
+WC-2006,WC-2006_018,18,2006-06-15,Group Stage,played,Ecuador,Costa Rica,ECU,CRI,ECU,CRI,CONMEBOL,CONCACAF,1760,1708,Hamburg,Germany,TRUE
+WC-2006,WC-2006_019,19,2006-06-15,Group Stage,played,England,Trinidad and Tobago,ENG,TTO,ENG,TTO,UEFA,CONCACAF,1988,1587,Nuremberg,Germany,TRUE
+WC-2006,WC-2006_020,20,2006-06-15,Group Stage,played,Sweden,Paraguay,SWE,PRY,SWE,PRY,UEFA,CONMEBOL,1838,1764,Berlin,Germany,TRUE
+WC-2006,WC-2006_021,21,2006-06-16,Group Stage,played,Argentina,Serbia and Montenegro,ARG,SCG,ARG,SCG,CONMEBOL,UEFA,1939,1785,Gelsenkirchen,Germany,TRUE
+WC-2006,WC-2006_022,22,2006-06-16,Group Stage,played,Mexico,Angola,MEX,AGO,MEX,AGO,CONCACAF,CAF,1884,1558,Hanover,Germany,TRUE
+WC-2006,WC-2006_023,23,2006-06-16,Group Stage,played,Netherlands,Ivory Coast,NED,CIV,NLD,CIV,UEFA,CAF,2009,1749,Stuttgart,Germany,TRUE
+WC-2006,WC-2006_024,24,2006-06-17,Group Stage,played,Czechia,Ghana,CZE,GHA,CZE,GHA,UEFA,CAF,2003,1604,Cologne,Germany,TRUE
+WC-2006,WC-2006_025,25,2006-06-17,Group Stage,played,Italy,United States,ITA,USA,ITA,USA,UEFA,CONCACAF,1955,1792,Kaiserslautern,Germany,TRUE
+WC-2006,WC-2006_026,26,2006-06-17,Group Stage,played,Portugal,Iran,PRT,IRN,PRT,IRN,UEFA,AFC,1922,1797,Frankfurt am Main,Germany,TRUE
+WC-2006,WC-2006_027,27,2006-06-18,Group Stage,played,Brazil,Australia,BRA,AUS,BRA,AUS,CONMEBOL,AFC,2049,1842,Munich,Germany,TRUE
+WC-2006,WC-2006_028,28,2006-06-18,Group Stage,played,France,South Korea,FRA,KOR,FRA,KOR,UEFA,AFC,1956,1755,Leipzig,Germany,TRUE
+WC-2006,WC-2006_029,29,2006-06-18,Group Stage,played,Japan,Croatia,JPN,HRV,JPN,HRV,AFC,UEFA,1745,1823,Nuremberg,Germany,TRUE
+WC-2006,WC-2006_030,30,2006-06-19,Group Stage,played,Saudi Arabia,Ukraine,KSA,UKR,SAU,UKR,AFC,UEFA,1566,1760,Hamburg,Germany,TRUE
+WC-2006,WC-2006_031,31,2006-06-19,Group Stage,played,Spain,Tunisia,ESP,TUN,ESP,TUN,UEFA,CAF,1994,1691,Stuttgart,Germany,TRUE
+WC-2006,WC-2006_032,32,2006-06-19,Group Stage,played,Togo,Switzerland,TGO,CHE,TGO,CHE,CAF,UEFA,1477,1813,Dortmund,Germany,TRUE
+WC-2006,WC-2006_033,33,2006-06-20,Group Stage,played,Costa Rica,Poland,CRI,POL,CRI,POL,CONCACAF,UEFA,1663,1749,Hanover,Germany,TRUE
+WC-2006,WC-2006_034,34,2006-06-20,Group Stage,played,Germany,Ecuador,GER,ECU,DEU,ECU,UEFA,CONMEBOL,1923,1805,Berlin,Germany,FALSE
+WC-2006,WC-2006_035,35,2006-06-20,Group Stage,played,Paraguay,Trinidad and Tobago,PRY,TTO,PRY,TTO,CONMEBOL,CONCACAF,1740,1579,Kaiserslautern,Germany,TRUE
+WC-2006,WC-2006_036,36,2006-06-20,Group Stage,played,Sweden,England,SWE,ENG,SWE,ENG,UEFA,UEFA,1862,1996,Cologne,Germany,TRUE
+WC-2006,WC-2006_037,37,2006-06-21,Group Stage,played,Iran,Angola,IRN,AGO,IRN,AGO,AFC,CAF,1768,1580,Leipzig,Germany,TRUE
+WC-2006,WC-2006_038,38,2006-06-21,Group Stage,played,Ivory Coast,Serbia and Montenegro,CIV,SCG,CIV,SCG,CAF,UEFA,1738,1748,Munich,Germany,TRUE
+WC-2006,WC-2006_039,39,2006-06-21,Group Stage,played,Netherlands,Argentina,NED,ARG,NLD,ARG,UEFA,CONMEBOL,2020,1976,Frankfurt am Main,Germany,TRUE
+WC-2006,WC-2006_040,40,2006-06-21,Group Stage,played,Portugal,Mexico,PRT,MEX,PRT,MEX,UEFA,CONCACAF,1951,1862,Gelsenkirchen,Germany,TRUE
+WC-2006,WC-2006_041,41,2006-06-22,Group Stage,played,Croatia,Australia,HRV,AUS,HRV,AUS,UEFA,AFC,1816,1821,Stuttgart,Germany,TRUE
+WC-2006,WC-2006_042,42,2006-06-22,Group Stage,played,Czechia,Italy,CZE,ITA,CZE,ITA,UEFA,UEFA,1921,1942,Hamburg,Germany,TRUE
+WC-2006,WC-2006_043,43,2006-06-22,Group Stage,played,Ghana,United States,GHA,USA,GHA,USA,CAF,CONCACAF,1686,1805,Nuremberg,Germany,TRUE
+WC-2006,WC-2006_044,44,2006-06-22,Group Stage,played,Japan,Brazil,JPN,BRA,JPN,BRA,AFC,CONMEBOL,1752,2070,Dortmund,Germany,TRUE
+WC-2006,WC-2006_045,45,2006-06-23,Group Stage,played,Saudi Arabia,Spain,KSA,ESP,SAU,ESP,AFC,UEFA,1538,2007,Kaiserslautern,Germany,TRUE
+WC-2006,WC-2006_046,46,2006-06-23,Group Stage,played,Switzerland,South Korea,CHE,KOR,CHE,KOR,UEFA,AFC,1824,1771,Hanover,Germany,TRUE
+WC-2006,WC-2006_047,47,2006-06-23,Group Stage,played,Togo,France,TGO,FRA,TGO,FRA,CAF,UEFA,1466,1940,Cologne,Germany,TRUE
+WC-2006,WC-2006_048,48,2006-06-23,Group Stage,played,Ukraine,Tunisia,UKR,TUN,UKR,TUN,UEFA,CAF,1788,1678,Berlin,Germany,TRUE
+WC-2006,WC-2006_049,49,2006-06-24,Round of 16,played,Argentina,Mexico,ARG,MEX,ARG,MEX,CONMEBOL,CONCACAF,1980,1840,Leipzig,Germany,TRUE
+WC-2006,WC-2006_050,50,2006-06-24,Round of 16,played,Germany,Sweden,GER,SWE,DEU,SWE,UEFA,UEFA,1946,1873,Munich,Germany,FALSE
+WC-2006,WC-2006_051,51,2006-06-25,Round of 16,played,England,Ecuador,ENG,ECU,ENG,ECU,UEFA,CONMEBOL,1985,1782,Stuttgart,Germany,TRUE
+WC-2006,WC-2006_052,52,2006-06-25,Round of 16,played,Portugal,Netherlands,PRT,NED,PRT,NLD,UEFA,UEFA,1973,2016,Nuremberg,Germany,TRUE
+WC-2006,WC-2006_053,53,2006-06-26,Round of 16,played,Italy,Australia,ITA,AUS,ITA,AUS,UEFA,AFC,1984,1821,Kaiserslautern,Germany,TRUE
+WC-2006,WC-2006_054,54,2006-06-26,Round of 16,played,Switzerland,Ukraine,CHE,UKR,CHE,UKR,UEFA,UEFA,1862,1809,Cologne,Germany,TRUE
+WC-2006,WC-2006_055,55,2006-06-27,Round of 16,played,Brazil,Ghana,BRA,GHA,BRA,GHA,CONMEBOL,CAF,2085,1726,Dortmund,Germany,TRUE
+WC-2006,WC-2006_056,56,2006-06-27,Round of 16,played,Spain,France,ESP,FRA,ESP,FRA,UEFA,UEFA,2011,1946,Hanover,Germany,TRUE
+WC-2006,WC-2006_057,57,2006-06-30,Quarter-final,played,Germany,Argentina,GER,ARG,DEU,ARG,UEFA,CONMEBOL,1970,1999,Berlin,Germany,FALSE
+WC-2006,WC-2006_058,58,2006-06-30,Quarter-final,played,Italy,Ukraine,ITA,UKR,ITA,UKR,UEFA,UEFA,2001,1814,Hamburg,Germany,TRUE
+WC-2006,WC-2006_059,59,2006-07-01,Quarter-final,played,Brazil,France,BRA,FRA,BRA,FRA,CONMEBOL,UEFA,2097,1999,Frankfurt am Main,Germany,TRUE
+WC-2006,WC-2006_060,60,2006-07-01,Quarter-final,played,England,Portugal,ENG,PRT,ENG,PRT,UEFA,UEFA,1999,2007,Gelsenkirchen,Germany,TRUE
+WC-2006,WC-2006_061,61,2006-07-04,Semi-final,played,Germany,Italy,GER,ITA,DEU,ITA,UEFA,UEFA,1964,2028,Dortmund,Germany,FALSE
+WC-2006,WC-2006_062,62,2006-07-05,Semi-final,played,Portugal,France,PRT,FRA,PRT,FRA,UEFA,UEFA,2006,2037,Munich,Germany,TRUE
+WC-2006,WC-2006_063,63,2006-07-08,Third Place,played,Germany,Portugal,GER,PRT,DEU,PRT,UEFA,UEFA,1914,1979,Stuttgart,Germany,FALSE
+WC-2006,WC-2006_064,64,2006-07-09,Final,played,Italy,France,ITA,FRA,ITA,FRA,UEFA,UEFA,2078,2064,Berlin,Germany,TRUE

@@ -1,36 +1,36 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,1958-06-08,Group Stage,played,Argentina,Germany,ARG,DEU,2113,1923,Malmö,Sweden,TRUE
-2,1958-06-08,Group Stage,played,Austria,Brazil,AUT,BRA,1906,1976,Uddevalla,Sweden,TRUE
-3,1958-06-08,Group Stage,played,Czechoslovakia,Northern Ireland,CSK,NIR,1894,1738,Halmstad,Sweden,TRUE
-4,1958-06-08,Group Stage,played,England,Soviet Union,ENG,SUN,2015,1893,Gothenburg,Sweden,TRUE
-5,1958-06-08,Group Stage,played,France,Paraguay,FRA,PRY,1840,1751,Norrköping,Sweden,TRUE
-6,1958-06-08,Group Stage,played,Hungary,Wales,HUN,WAL,2081,1718,Sandviken,Sweden,TRUE
-7,1958-06-08,Group Stage,played,Scotland,Yugoslavia,SCO,YUG,1829,1914,Västerås,Sweden,TRUE
-8,1958-06-08,Group Stage,played,Sweden,Mexico,SWE,MEX,1803,1776,Solna,Sweden,FALSE
-9,1958-06-11,Group Stage,played,Argentina,Northern Ireland,ARG,NIR,1984,1781,Halmstad,Sweden,TRUE
-10,1958-06-11,Group Stage,played,Austria,Soviet Union,AUT,SUN,1864,1903,Borås,Sweden,TRUE
-11,1958-06-11,Group Stage,played,Brazil,England,BRA,ENG,2018,2005,Gothenburg,Sweden,TRUE
-12,1958-06-11,Group Stage,played,Czechoslovakia,Germany,CSK,DEU,1844,1923,Helsingborg,Sweden,TRUE
-13,1958-06-11,Group Stage,played,France,Yugoslavia,FRA,YUG,1882,1907,Västerås,Sweden,TRUE
-14,1958-06-11,Group Stage,played,Mexico,Wales,MEX,WAL,1742,1741,Solna,Sweden,TRUE
-15,1958-06-11,Group Stage,played,Paraguay,Scotland,PRY,SCO,1709,1836,Norrköping,Sweden,TRUE
-16,1958-06-12,Group Stage,played,Sweden,Hungary,SWE,HUN,1837,2058,Solna,Sweden,FALSE
-17,1958-06-15,Group Stage,played,Argentina,Czechoslovakia,ARG,CSK,2005,1862,Helsingborg,Sweden,TRUE
-18,1958-06-15,Group Stage,played,Austria,England,AUT,ENG,1824,2006,Borås,Sweden,TRUE
-19,1958-06-15,Group Stage,played,Brazil,Soviet Union,BRA,SUN,2017,1943,Gothenburg,Sweden,TRUE
-20,1958-06-15,Group Stage,played,France,Scotland,FRA,SCO,1854,1795,Örebro,Sweden,TRUE
-21,1958-06-15,Group Stage,played,Germany,Northern Ireland,DEU,NIR,1923,1601,Malmö,Sweden,TRUE
-22,1958-06-15,Group Stage,played,Hungary,Mexico,HUN,MEX,2018,1742,Sandviken,Sweden,TRUE
-23,1958-06-15,Group Stage,played,Paraguay,Yugoslavia,PRY,YUG,1750,1935,Eskilstuna,Sweden,TRUE
-24,1958-06-15,Group Stage,played,Sweden,Wales,SWE,WAL,1877,1741,Solna,Sweden,FALSE
-25,1958-06-17,Group Stage,played,Czechoslovakia,Northern Ireland,CSK,NIR,1945,1776,Malmö,Sweden,TRUE
-26,1958-06-17,Group Stage,played,England,Soviet Union,ENG,SUN,1992,1907,Gothenburg,Sweden,TRUE
-27,1958-06-17,Group Stage,played,Hungary,Wales,HUN,WAL,2037,1759,Solna,Sweden,TRUE
-28,1958-06-19,Quarter-final,played,Brazil,Wales,BRA,WAL,2053,1809,Gothenburg,Sweden,TRUE
-29,1958-06-19,Quarter-final,played,France,Northern Ireland,FRA,NIR,1879,1820,Norrköping,Sweden,TRUE
-30,1958-06-19,Quarter-final,played,Germany,Yugoslavia,DEU,YUG,1923,1813,Malmö,Sweden,TRUE
-31,1958-06-19,Quarter-final,played,Sweden,Soviet Union,SWE,SUN,1859,1944,Solna,Sweden,FALSE
-32,1958-06-24,Semi-final,played,Brazil,France,BRA,FRA,2065,1926,Solna,Sweden,TRUE
-33,1958-06-24,Semi-final,played,Sweden,Germany,SWE,DEU,1719,1923,Gothenburg,Sweden,FALSE
-34,1958-06-28,Third Place,played,France,Germany,FRA,DEU,2082,1923,Gothenburg,Sweden,TRUE
-35,1958-06-29,Final,played,Sweden,Brazil,SWE,BRA,1945,2098,Solna,Sweden,FALSE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-1958,WC-1958_001,1,1958-06-08,Group Stage,played,Argentina,Germany,ARG,GER,ARG,DEU,CONMEBOL,UEFA,2113,1923,Malmö,Sweden,TRUE
+WC-1958,WC-1958_002,2,1958-06-08,Group Stage,played,Austria,Brazil,AUT,BRA,AUT,BRA,UEFA,CONMEBOL,1906,1976,Uddevalla,Sweden,TRUE
+WC-1958,WC-1958_003,3,1958-06-08,Group Stage,played,Czechoslovakia,Northern Ireland,CSK,NIR,CSK,NIR,UEFA,UEFA,1894,1738,Halmstad,Sweden,TRUE
+WC-1958,WC-1958_004,4,1958-06-08,Group Stage,played,England,Soviet Union,ENG,SUN,ENG,SUN,UEFA,UEFA,2015,1893,Gothenburg,Sweden,TRUE
+WC-1958,WC-1958_005,5,1958-06-08,Group Stage,played,France,Paraguay,FRA,PRY,FRA,PRY,UEFA,CONMEBOL,1840,1751,Norrköping,Sweden,TRUE
+WC-1958,WC-1958_006,6,1958-06-08,Group Stage,played,Hungary,Wales,HUN,WAL,HUN,WAL,UEFA,UEFA,2081,1718,Sandviken,Sweden,TRUE
+WC-1958,WC-1958_007,7,1958-06-08,Group Stage,played,Scotland,Yugoslavia,SCO,YUG,SCO,YUG,UEFA,UEFA,1829,1914,Västerås,Sweden,TRUE
+WC-1958,WC-1958_008,8,1958-06-08,Group Stage,played,Sweden,Mexico,SWE,MEX,SWE,MEX,UEFA,CONCACAF,1803,1776,Solna,Sweden,FALSE
+WC-1958,WC-1958_009,9,1958-06-11,Group Stage,played,Argentina,Northern Ireland,ARG,NIR,ARG,NIR,CONMEBOL,UEFA,1984,1781,Halmstad,Sweden,TRUE
+WC-1958,WC-1958_010,10,1958-06-11,Group Stage,played,Austria,Soviet Union,AUT,SUN,AUT,SUN,UEFA,UEFA,1864,1903,Borås,Sweden,TRUE
+WC-1958,WC-1958_011,11,1958-06-11,Group Stage,played,Brazil,England,BRA,ENG,BRA,ENG,CONMEBOL,UEFA,2018,2005,Gothenburg,Sweden,TRUE
+WC-1958,WC-1958_012,12,1958-06-11,Group Stage,played,Czechoslovakia,Germany,CSK,GER,CSK,DEU,UEFA,UEFA,1844,1923,Helsingborg,Sweden,TRUE
+WC-1958,WC-1958_013,13,1958-06-11,Group Stage,played,France,Yugoslavia,FRA,YUG,FRA,YUG,UEFA,UEFA,1882,1907,Västerås,Sweden,TRUE
+WC-1958,WC-1958_014,14,1958-06-11,Group Stage,played,Mexico,Wales,MEX,WAL,MEX,WAL,CONCACAF,UEFA,1742,1741,Solna,Sweden,TRUE
+WC-1958,WC-1958_015,15,1958-06-11,Group Stage,played,Paraguay,Scotland,PRY,SCO,PRY,SCO,CONMEBOL,UEFA,1709,1836,Norrköping,Sweden,TRUE
+WC-1958,WC-1958_016,16,1958-06-12,Group Stage,played,Sweden,Hungary,SWE,HUN,SWE,HUN,UEFA,UEFA,1837,2058,Solna,Sweden,FALSE
+WC-1958,WC-1958_017,17,1958-06-15,Group Stage,played,Argentina,Czechoslovakia,ARG,CSK,ARG,CSK,CONMEBOL,UEFA,2005,1862,Helsingborg,Sweden,TRUE
+WC-1958,WC-1958_018,18,1958-06-15,Group Stage,played,Austria,England,AUT,ENG,AUT,ENG,UEFA,UEFA,1824,2006,Borås,Sweden,TRUE
+WC-1958,WC-1958_019,19,1958-06-15,Group Stage,played,Brazil,Soviet Union,BRA,SUN,BRA,SUN,CONMEBOL,UEFA,2017,1943,Gothenburg,Sweden,TRUE
+WC-1958,WC-1958_020,20,1958-06-15,Group Stage,played,France,Scotland,FRA,SCO,FRA,SCO,UEFA,UEFA,1854,1795,Örebro,Sweden,TRUE
+WC-1958,WC-1958_021,21,1958-06-15,Group Stage,played,Germany,Northern Ireland,GER,NIR,DEU,NIR,UEFA,UEFA,1923,1601,Malmö,Sweden,TRUE
+WC-1958,WC-1958_022,22,1958-06-15,Group Stage,played,Hungary,Mexico,HUN,MEX,HUN,MEX,UEFA,CONCACAF,2018,1742,Sandviken,Sweden,TRUE
+WC-1958,WC-1958_023,23,1958-06-15,Group Stage,played,Paraguay,Yugoslavia,PRY,YUG,PRY,YUG,CONMEBOL,UEFA,1750,1935,Eskilstuna,Sweden,TRUE
+WC-1958,WC-1958_024,24,1958-06-15,Group Stage,played,Sweden,Wales,SWE,WAL,SWE,WAL,UEFA,UEFA,1877,1741,Solna,Sweden,FALSE
+WC-1958,WC-1958_025,25,1958-06-17,Group Stage,played,Czechoslovakia,Northern Ireland,CSK,NIR,CSK,NIR,UEFA,UEFA,1945,1776,Malmö,Sweden,TRUE
+WC-1958,WC-1958_026,26,1958-06-17,Group Stage,played,England,Soviet Union,ENG,SUN,ENG,SUN,UEFA,UEFA,1992,1907,Gothenburg,Sweden,TRUE
+WC-1958,WC-1958_027,27,1958-06-17,Group Stage,played,Hungary,Wales,HUN,WAL,HUN,WAL,UEFA,UEFA,2037,1759,Solna,Sweden,TRUE
+WC-1958,WC-1958_028,28,1958-06-19,Quarter-final,played,Brazil,Wales,BRA,WAL,BRA,WAL,CONMEBOL,UEFA,2053,1809,Gothenburg,Sweden,TRUE
+WC-1958,WC-1958_029,29,1958-06-19,Quarter-final,played,France,Northern Ireland,FRA,NIR,FRA,NIR,UEFA,UEFA,1879,1820,Norrköping,Sweden,TRUE
+WC-1958,WC-1958_030,30,1958-06-19,Quarter-final,played,Germany,Yugoslavia,GER,YUG,DEU,YUG,UEFA,UEFA,1923,1813,Malmö,Sweden,TRUE
+WC-1958,WC-1958_031,31,1958-06-19,Quarter-final,played,Sweden,Soviet Union,SWE,SUN,SWE,SUN,UEFA,UEFA,1859,1944,Solna,Sweden,FALSE
+WC-1958,WC-1958_032,32,1958-06-24,Semi-final,played,Brazil,France,BRA,FRA,BRA,FRA,CONMEBOL,UEFA,2065,1926,Solna,Sweden,TRUE
+WC-1958,WC-1958_033,33,1958-06-24,Semi-final,played,Sweden,Germany,SWE,GER,SWE,DEU,UEFA,UEFA,1719,1923,Gothenburg,Sweden,FALSE
+WC-1958,WC-1958_034,34,1958-06-28,Third Place,played,France,Germany,FRA,GER,FRA,DEU,UEFA,UEFA,2082,1923,Gothenburg,Sweden,TRUE
+WC-1958,WC-1958_035,35,1958-06-29,Final,played,Sweden,Brazil,SWE,BRA,SWE,BRA,UEFA,CONMEBOL,1945,2098,Solna,Sweden,FALSE

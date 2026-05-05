@@ -1,4 +1,4 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2006 FIFA Men's World Cup,WC-2006,2006,8,2006-06-11,Group Stage,played,Serbia and Montenegro,SCG,Netherlands,NLD,TRUE,Leipzig,Germany,TRUE,1800,1994
-2006 FIFA Men's World Cup,WC-2006,2006,21,2006-06-16,Group Stage,played,Serbia and Montenegro,SCG,Argentina,ARG,FALSE,Gelsenkirchen,Germany,TRUE,1785,1939
-2006 FIFA Men's World Cup,WC-2006,2006,38,2006-06-21,Group Stage,played,Serbia and Montenegro,SCG,Ivory Coast,CIV,FALSE,Munich,Germany,TRUE,1748,1738
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_008,8,2006-06-11,Group Stage,played,Serbia and Montenegro,SCG,SCG,UEFA,Netherlands,NED,NLD,UEFA,TRUE,Leipzig,Germany,TRUE,1800,1994
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_021,21,2006-06-16,Group Stage,played,Serbia and Montenegro,SCG,SCG,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,Gelsenkirchen,Germany,TRUE,1785,1939
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_038,38,2006-06-21,Group Stage,played,Serbia and Montenegro,SCG,SCG,UEFA,Ivory Coast,CIV,CIV,CAF,FALSE,Munich,Germany,TRUE,1748,1738

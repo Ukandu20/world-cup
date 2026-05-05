@@ -1,22 +1,22 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1978 FIFA Men's World Cup,WC-1978,1978,7,1978-06-03,Group Stage,played,Iran,IRN,Netherlands,NLD,TRUE,Mendoza,Argentina,TRUE,1803,2092
-1978 FIFA Men's World Cup,WC-1978,1978,15,1978-06-07,Group Stage,played,Iran,IRN,Scotland,SCO,TRUE,Córdoba,Argentina,TRUE,1786,1877
-1978 FIFA Men's World Cup,WC-1978,1978,22,1978-06-11,Group Stage,played,Iran,IRN,Peru,PER,TRUE,Córdoba,Argentina,TRUE,1794,1841
-1998 FIFA Men's World Cup,WC-1998,1998,13,1998-06-14,Group Stage,played,Iran,IRN,Serbia,SRB,FALSE,Saint-Étienne,France,TRUE,1760,1769
-1998 FIFA Men's World Cup,WC-1998,1998,30,1998-06-21,Group Stage,played,Iran,IRN,United States,USA,FALSE,Lyon,France,TRUE,1628,1745
-1998 FIFA Men's World Cup,WC-1998,1998,42,1998-06-25,Group Stage,played,Iran,IRN,Germany,DEU,FALSE,Montpellier,France,TRUE,1668,2064
-2006 FIFA Men's World Cup,WC-2006,2006,7,2006-06-11,Group Stage,played,Iran,IRN,Mexico,MEX,FALSE,Nuremberg,Germany,TRUE,1842,1839
-2006 FIFA Men's World Cup,WC-2006,2006,26,2006-06-17,Group Stage,played,Iran,IRN,Portugal,PRT,FALSE,Frankfurt am Main,Germany,TRUE,1797,1922
-2006 FIFA Men's World Cup,WC-2006,2006,37,2006-06-21,Group Stage,played,Iran,IRN,Angola,AGO,TRUE,Leipzig,Germany,TRUE,1768,1580
-2014 FIFA Men's World Cup,WC-2014,2014,14,2014-06-16,Group Stage,played,Iran,IRN,Nigeria,NGA,TRUE,Curitiba,Brazil,TRUE,1715,1727
-2014 FIFA Men's World Cup,WC-2014,2014,27,2014-06-21,Group Stage,played,Iran,IRN,Argentina,ARG,FALSE,Belo Horizonte,Brazil,TRUE,1716,2030
-2014 FIFA Men's World Cup,WC-2014,2014,41,2014-06-25,Group Stage,played,Iran,IRN,Bosnia and Herzegovina,BIH,FALSE,Salvador,Brazil,TRUE,1708,1739
-2018 FIFA Men's World Cup,WC-2018,2018,3,2018-06-15,Group Stage,played,Iran,IRN,Morocco,MAR,FALSE,Saint Petersburg,Russia,TRUE,1790,1731
-2018 FIFA Men's World Cup,WC-2018,2018,20,2018-06-20,Group Stage,played,Iran,IRN,Spain,ESP,TRUE,Kazan,Russia,TRUE,1815,2037
-2018 FIFA Men's World Cup,WC-2018,2018,36,2018-06-25,Group Stage,played,Iran,IRN,Portugal,PRT,TRUE,Saransk,Russia,TRUE,1802,1984
-2022 FIFA Men's World Cup,WC-2022,2022,3,2022-11-21,Group Stage,played,Iran,IRN,England,ENG,FALSE,Al Rayyan,Qatar,TRUE,1798,1919
-2022 FIFA Men's World Cup,WC-2022,2022,19,2022-11-25,Group Stage,played,Iran,IRN,Wales,WAL,FALSE,Al Rayyan,Qatar,TRUE,1761,1790
-2022 FIFA Men's World Cup,WC-2022,2022,36,2022-11-29,Group Stage,played,Iran,IRN,United States,USA,TRUE,Doha,Qatar,TRUE,1810,1808
-2026 FIFA Men's World Cup,WC-2026,2026,14,2026-06-15,Group Stage,scheduled,Iran,IRN,New Zealand,NZL,TRUE,Inglewood,United States,TRUE,1760,1585
-2026 FIFA Men's World Cup,WC-2026,2026,37,2026-06-21,Group Stage,scheduled,Iran,IRN,Belgium,BEL,FALSE,Inglewood,United States,TRUE,1760,1866
-2026 FIFA Men's World Cup,WC-2026,2026,61,2026-06-26,Group Stage,scheduled,Iran,IRN,Egypt,EGY,FALSE,Seattle,United States,TRUE,1760,1689
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_007,7,1978-06-03,Group Stage,played,Iran,IRN,IRN,AFC,Netherlands,NED,NLD,UEFA,TRUE,Mendoza,Argentina,TRUE,1803,2092
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_015,15,1978-06-07,Group Stage,played,Iran,IRN,IRN,AFC,Scotland,SCO,SCO,UEFA,TRUE,Córdoba,Argentina,TRUE,1786,1877
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_022,22,1978-06-11,Group Stage,played,Iran,IRN,IRN,AFC,Peru,PER,PER,CONMEBOL,TRUE,Córdoba,Argentina,TRUE,1794,1841
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_013,13,1998-06-14,Group Stage,played,Iran,IRN,IRN,AFC,Serbia,SRB,SRB,UEFA,FALSE,Saint-Étienne,France,TRUE,1760,1769
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_030,30,1998-06-21,Group Stage,played,Iran,IRN,IRN,AFC,United States,USA,USA,CONCACAF,FALSE,Lyon,France,TRUE,1628,1745
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_042,42,1998-06-25,Group Stage,played,Iran,IRN,IRN,AFC,Germany,GER,DEU,UEFA,FALSE,Montpellier,France,TRUE,1668,2064
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_007,7,2006-06-11,Group Stage,played,Iran,IRN,IRN,AFC,Mexico,MEX,MEX,CONCACAF,FALSE,Nuremberg,Germany,TRUE,1842,1839
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_026,26,2006-06-17,Group Stage,played,Iran,IRN,IRN,AFC,Portugal,PRT,PRT,UEFA,FALSE,Frankfurt am Main,Germany,TRUE,1797,1922
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_037,37,2006-06-21,Group Stage,played,Iran,IRN,IRN,AFC,Angola,AGO,AGO,CAF,TRUE,Leipzig,Germany,TRUE,1768,1580
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_014,14,2014-06-16,Group Stage,played,Iran,IRN,IRN,AFC,Nigeria,NGA,NGA,CAF,TRUE,Curitiba,Brazil,TRUE,1715,1727
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_027,27,2014-06-21,Group Stage,played,Iran,IRN,IRN,AFC,Argentina,ARG,ARG,CONMEBOL,FALSE,Belo Horizonte,Brazil,TRUE,1716,2030
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_041,41,2014-06-25,Group Stage,played,Iran,IRN,IRN,AFC,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,Salvador,Brazil,TRUE,1708,1739
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_003,3,2018-06-15,Group Stage,played,Iran,IRN,IRN,AFC,Morocco,MAR,MAR,CAF,FALSE,Saint Petersburg,Russia,TRUE,1790,1731
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_020,20,2018-06-20,Group Stage,played,Iran,IRN,IRN,AFC,Spain,ESP,ESP,UEFA,TRUE,Kazan,Russia,TRUE,1815,2037
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_036,36,2018-06-25,Group Stage,played,Iran,IRN,IRN,AFC,Portugal,PRT,PRT,UEFA,TRUE,Saransk,Russia,TRUE,1802,1984
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_003,3,2022-11-21,Group Stage,played,Iran,IRN,IRN,AFC,England,ENG,ENG,UEFA,FALSE,Al Rayyan,Qatar,TRUE,1798,1919
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_019,19,2022-11-25,Group Stage,played,Iran,IRN,IRN,AFC,Wales,WAL,WAL,UEFA,FALSE,Al Rayyan,Qatar,TRUE,1761,1790
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_036,36,2022-11-29,Group Stage,played,Iran,IRN,IRN,AFC,United States,USA,USA,CONCACAF,TRUE,Doha,Qatar,TRUE,1810,1808
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_014,14,2026-06-15,Group Stage,scheduled,Iran,IRN,IRN,AFC,New Zealand,NZL,NZL,OFC,TRUE,Inglewood,United States,TRUE,1760,1585
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_037,37,2026-06-21,Group Stage,scheduled,Iran,IRN,IRN,AFC,Belgium,BEL,BEL,UEFA,FALSE,Inglewood,United States,TRUE,1760,1866
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_061,61,2026-06-26,Group Stage,scheduled,Iran,IRN,IRN,AFC,Egypt,EGY,EGY,CAF,FALSE,Seattle,United States,TRUE,1760,1689

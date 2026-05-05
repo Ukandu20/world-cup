@@ -1,26 +1,26 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1962 FIFA Men's World Cup,WC-1962,1962,4,1962-05-30,Group Stage,played,Colombia,COL,Uruguay,URY,TRUE,Arica,Chile,TRUE,1440,1906
-1962 FIFA Men's World Cup,WC-1962,1962,14,1962-06-03,Group Stage,played,Colombia,COL,Soviet Union,SUN,TRUE,Arica,Chile,TRUE,1436,2070
-1962 FIFA Men's World Cup,WC-1962,1962,22,1962-06-07,Group Stage,played,Colombia,COL,Yugoslavia,YUG,TRUE,Arica,Chile,TRUE,1464,1985
-1990 FIFA Men's World Cup,WC-1990,1990,4,1990-06-09,Group Stage,played,Colombia,COL,United Arab Emirates,ARE,FALSE,Bologna,Italy,TRUE,1801,1454
-1990 FIFA Men's World Cup,WC-1990,1990,16,1990-06-14,Group Stage,played,Colombia,COL,Yugoslavia,YUG,FALSE,Bologna,Italy,TRUE,1812,1855
-1990 FIFA Men's World Cup,WC-1990,1990,28,1990-06-19,Group Stage,played,Colombia,COL,Germany,DEU,FALSE,Milan,Italy,TRUE,1975,1923
-1990 FIFA Men's World Cup,WC-1990,1990,37,1990-06-23,Round of 16,played,Colombia,COL,Cameroon,CMR,FALSE,Naples,Italy,TRUE,1805,1684
-1994 FIFA Men's World Cup,WC-1994,1994,3,1994-06-18,Group Stage,played,Colombia,COL,Romania,ROU,TRUE,Pasadena,United States,TRUE,1944,1836
-1994 FIFA Men's World Cup,WC-1994,1994,15,1994-06-22,Group Stage,played,Colombia,COL,United States,USA,FALSE,Pasadena,United States,FALSE,1885,1628
-1994 FIFA Men's World Cup,WC-1994,1994,25,1994-06-26,Group Stage,played,Colombia,COL,Switzerland,CHE,FALSE,Palo Alto,United States,TRUE,1842,1918
-1998 FIFA Men's World Cup,WC-1998,1998,16,1998-06-15,Group Stage,played,Colombia,COL,Romania,ROU,FALSE,Lyon,France,TRUE,1778,1880
-1998 FIFA Men's World Cup,WC-1998,1998,31,1998-06-22,Group Stage,played,Colombia,COL,Tunisia,TUN,TRUE,Montpellier,France,TRUE,1757,1621
-1998 FIFA Men's World Cup,WC-1998,1998,46,1998-06-26,Group Stage,played,Colombia,COL,England,ENG,TRUE,Lens,France,TRUE,1776,1948
-2014 FIFA Men's World Cup,WC-2014,2014,5,2014-06-14,Group Stage,played,Colombia,COL,Greece,GRC,TRUE,Belo Horizonte,Brazil,TRUE,1922,1823
-2014 FIFA Men's World Cup,WC-2014,2014,21,2014-06-19,Group Stage,played,Colombia,COL,Ivory Coast,CIV,TRUE,Brasília,Brazil,TRUE,1960,1803
-2014 FIFA Men's World Cup,WC-2014,2014,40,2014-06-24,Group Stage,played,Colombia,COL,Japan,JPN,FALSE,Cuiabá,Brazil,TRUE,1977,1757
-2014 FIFA Men's World Cup,WC-2014,2014,50,2014-06-28,Round of 16,played,Colombia,COL,Uruguay,URY,TRUE,Rio de Janeiro,Brazil,TRUE,2000,1913
-2014 FIFA Men's World Cup,WC-2014,2014,57,2014-07-04,Quarter-final,played,Colombia,COL,Brazil,BRA,FALSE,Fortaleza,Brazil,FALSE,2034,2103
-2018 FIFA Men's World Cup,WC-2018,2018,15,2018-06-19,Group Stage,played,Colombia,COL,Japan,JPN,TRUE,Saransk,Russia,TRUE,1927,1684
-2018 FIFA Men's World Cup,WC-2018,2018,32,2018-06-24,Group Stage,played,Colombia,COL,Poland,POL,FALSE,Kazan,Russia,TRUE,1879,1793
-2018 FIFA Men's World Cup,WC-2018,2018,46,2018-06-28,Group Stage,played,Colombia,COL,Senegal,SEN,FALSE,Samara,Russia,TRUE,1919,1778
-2018 FIFA Men's World Cup,WC-2018,2018,56,2018-07-03,Round of 16,played,Colombia,COL,England,ENG,TRUE,Moscow,Russia,TRUE,1937,1943
-2026 FIFA Men's World Cup,WC-2026,2026,22,2026-06-17,Group Stage,scheduled,Colombia,COL,Uzbekistan,,FALSE,Mexico City,Mexico,TRUE,1975,1727
-2026 FIFA Men's World Cup,WC-2026,2026,46,2026-06-23,Group Stage,scheduled,Colombia,COL,DR Congo,,TRUE,Zapopan,Mexico,TRUE,1975,1655
-2026 FIFA Men's World Cup,WC-2026,2026,69,2026-06-27,Group Stage,scheduled,Colombia,COL,Portugal,PRT,TRUE,Miami Gardens,United States,TRUE,1975,1984
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_004,4,1962-05-30,Group Stage,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,Arica,Chile,TRUE,1440,1906
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_014,14,1962-06-03,Group Stage,played,Colombia,COL,COL,CONMEBOL,Soviet Union,SUN,SUN,UEFA,TRUE,Arica,Chile,TRUE,1436,2070
+1962 FIFA Men's World Cup,WC-1962,1962,WC-1962_022,22,1962-06-07,Group Stage,played,Colombia,COL,COL,CONMEBOL,Yugoslavia,YUG,YUG,UEFA,TRUE,Arica,Chile,TRUE,1464,1985
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_004,4,1990-06-09,Group Stage,played,Colombia,COL,COL,CONMEBOL,United Arab Emirates,ARE,ARE,AFC,FALSE,Bologna,Italy,TRUE,1801,1454
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_016,16,1990-06-14,Group Stage,played,Colombia,COL,COL,CONMEBOL,Yugoslavia,YUG,YUG,UEFA,FALSE,Bologna,Italy,TRUE,1812,1855
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_028,28,1990-06-19,Group Stage,played,Colombia,COL,COL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,Milan,Italy,TRUE,1975,1923
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_037,37,1990-06-23,Round of 16,played,Colombia,COL,COL,CONMEBOL,Cameroon,CMR,CMR,CAF,FALSE,Naples,Italy,TRUE,1805,1684
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_003,3,1994-06-18,Group Stage,played,Colombia,COL,COL,CONMEBOL,Romania,ROU,ROU,UEFA,TRUE,Pasadena,United States,TRUE,1944,1836
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_015,15,1994-06-22,Group Stage,played,Colombia,COL,COL,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,Pasadena,United States,FALSE,1885,1628
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_025,25,1994-06-26,Group Stage,played,Colombia,COL,COL,CONMEBOL,Switzerland,CHE,CHE,UEFA,FALSE,Palo Alto,United States,TRUE,1842,1918
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_016,16,1998-06-15,Group Stage,played,Colombia,COL,COL,CONMEBOL,Romania,ROU,ROU,UEFA,FALSE,Lyon,France,TRUE,1778,1880
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_031,31,1998-06-22,Group Stage,played,Colombia,COL,COL,CONMEBOL,Tunisia,TUN,TUN,CAF,TRUE,Montpellier,France,TRUE,1757,1621
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_046,46,1998-06-26,Group Stage,played,Colombia,COL,COL,CONMEBOL,England,ENG,ENG,UEFA,TRUE,Lens,France,TRUE,1776,1948
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_005,5,2014-06-14,Group Stage,played,Colombia,COL,COL,CONMEBOL,Greece,GRC,GRC,UEFA,TRUE,Belo Horizonte,Brazil,TRUE,1922,1823
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_021,21,2014-06-19,Group Stage,played,Colombia,COL,COL,CONMEBOL,Ivory Coast,CIV,CIV,CAF,TRUE,Brasília,Brazil,TRUE,1960,1803
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_040,40,2014-06-24,Group Stage,played,Colombia,COL,COL,CONMEBOL,Japan,JPN,JPN,AFC,FALSE,Cuiabá,Brazil,TRUE,1977,1757
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_050,50,2014-06-28,Round of 16,played,Colombia,COL,COL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,Rio de Janeiro,Brazil,TRUE,2000,1913
+2014 FIFA Men's World Cup,WC-2014,2014,WC-2014_057,57,2014-07-04,Quarter-final,played,Colombia,COL,COL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,Fortaleza,Brazil,FALSE,2034,2103
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_015,15,2018-06-19,Group Stage,played,Colombia,COL,COL,CONMEBOL,Japan,JPN,JPN,AFC,TRUE,Saransk,Russia,TRUE,1927,1684
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_032,32,2018-06-24,Group Stage,played,Colombia,COL,COL,CONMEBOL,Poland,POL,POL,UEFA,FALSE,Kazan,Russia,TRUE,1879,1793
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_046,46,2018-06-28,Group Stage,played,Colombia,COL,COL,CONMEBOL,Senegal,SEN,SEN,CAF,FALSE,Samara,Russia,TRUE,1919,1778
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_056,56,2018-07-03,Round of 16,played,Colombia,COL,COL,CONMEBOL,England,ENG,ENG,UEFA,TRUE,Moscow,Russia,TRUE,1937,1943
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_022,22,2026-06-17,Group Stage,scheduled,Colombia,COL,COL,CONMEBOL,Uzbekistan,,,,FALSE,Mexico City,Mexico,TRUE,1975,1727
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_046,46,2026-06-23,Group Stage,scheduled,Colombia,COL,COL,CONMEBOL,DR Congo,,,,TRUE,Zapopan,Mexico,TRUE,1975,1655
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_069,69,2026-06-27,Group Stage,scheduled,Colombia,COL,COL,CONMEBOL,Portugal,PRT,PRT,UEFA,TRUE,Miami Gardens,United States,TRUE,1975,1984

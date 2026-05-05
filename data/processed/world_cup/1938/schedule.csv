@@ -1,19 +1,19 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,1938-06-04,Round of 16,played,Germany,Switzerland,DEU,CHE,1831,1670,Paris,France,TRUE
-2,1938-06-05,Round of 16,played,Brazil,Poland,BRA,POL,1904,1629,Strasbourg,France,TRUE
-3,1938-06-05,Round of 16,played,Cuba,Romania,CUB,ROU,1543,1557,Toulouse,France,TRUE
-4,1938-06-05,Round of 16,played,Czechoslovakia,Netherlands,CSK,NLD,1823,1707,Le Havre,France,TRUE
-5,1938-06-05,Round of 16,played,France,Belgium,FRA,BEL,1630,1567,Colombes,France,FALSE
-6,1938-06-05,Round of 16,played,Hungary,Indonesia,HUN,IDN,1929,1468,Reims,France,TRUE
-7,1938-06-05,Round of 16,played,Italy,Norway,ITA,NOR,2052,1730,Marseille,France,TRUE
-8,1938-06-09,Round of 16,played,Cuba,Romania,CUB,ROU,1544,1556,Toulouse,France,TRUE
-9,1938-06-09,Round of 16,played,Germany,Switzerland,DEU,CHE,1818,1683,Paris,France,TRUE
-10,1938-06-12,Quarter-final,played,Brazil,Czechoslovakia,BRA,CSK,1914,1859,Bordeaux,France,TRUE
-11,1938-06-12,Quarter-final,played,Cuba,Sweden,CUB,SWE,1575,1644,Antibes,France,TRUE
-12,1938-06-12,Quarter-final,played,France,Italy,FRA,ITA,1655,2060,Colombes,France,FALSE
-13,1938-06-12,Quarter-final,played,Hungary,Switzerland,HUN,CHE,1937,1745,Lille,France,TRUE
-14,1938-06-14,Quarter-final,played,Brazil,Czechoslovakia,BRA,CSK,1909,1864,Bordeaux,France,TRUE
-15,1938-06-16,Semi-final,played,Brazil,Italy,BRA,ITA,1935,2073,Marseille,France,TRUE
-16,1938-06-16,Semi-final,played,Hungary,Sweden,HUN,SWE,1959,1703,Paris,France,TRUE
-17,1938-06-19,Third Place,played,Brazil,Sweden,BRA,SWE,1916,1682,Bordeaux,France,TRUE
-18,1938-06-19,Final,played,Hungary,Italy,HUN,ITA,1980,2092,Colombes,France,TRUE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-1938,WC-1938_001,1,1938-06-04,Round of 16,played,Germany,Switzerland,GER,CHE,DEU,CHE,UEFA,UEFA,1831,1670,Paris,France,TRUE
+WC-1938,WC-1938_002,2,1938-06-05,Round of 16,played,Brazil,Poland,BRA,POL,BRA,POL,CONMEBOL,UEFA,1904,1629,Strasbourg,France,TRUE
+WC-1938,WC-1938_003,3,1938-06-05,Round of 16,played,Cuba,Romania,CUB,ROU,CUB,ROU,CONCACAF,UEFA,1543,1557,Toulouse,France,TRUE
+WC-1938,WC-1938_004,4,1938-06-05,Round of 16,played,Czechoslovakia,Netherlands,CSK,NED,CSK,NLD,UEFA,UEFA,1823,1707,Le Havre,France,TRUE
+WC-1938,WC-1938_005,5,1938-06-05,Round of 16,played,France,Belgium,FRA,BEL,FRA,BEL,UEFA,UEFA,1630,1567,Colombes,France,FALSE
+WC-1938,WC-1938_006,6,1938-06-05,Round of 16,played,Hungary,Indonesia,HUN,IDN,HUN,IDN,UEFA,AFC,1929,1468,Reims,France,TRUE
+WC-1938,WC-1938_007,7,1938-06-05,Round of 16,played,Italy,Norway,ITA,NOR,ITA,NOR,UEFA,UEFA,2052,1730,Marseille,France,TRUE
+WC-1938,WC-1938_008,8,1938-06-09,Round of 16,played,Cuba,Romania,CUB,ROU,CUB,ROU,CONCACAF,UEFA,1544,1556,Toulouse,France,TRUE
+WC-1938,WC-1938_009,9,1938-06-09,Round of 16,played,Germany,Switzerland,GER,CHE,DEU,CHE,UEFA,UEFA,1818,1683,Paris,France,TRUE
+WC-1938,WC-1938_010,10,1938-06-12,Quarter-final,played,Brazil,Czechoslovakia,BRA,CSK,BRA,CSK,CONMEBOL,UEFA,1914,1859,Bordeaux,France,TRUE
+WC-1938,WC-1938_011,11,1938-06-12,Quarter-final,played,Cuba,Sweden,CUB,SWE,CUB,SWE,CONCACAF,UEFA,1575,1644,Antibes,France,TRUE
+WC-1938,WC-1938_012,12,1938-06-12,Quarter-final,played,France,Italy,FRA,ITA,FRA,ITA,UEFA,UEFA,1655,2060,Colombes,France,FALSE
+WC-1938,WC-1938_013,13,1938-06-12,Quarter-final,played,Hungary,Switzerland,HUN,CHE,HUN,CHE,UEFA,UEFA,1937,1745,Lille,France,TRUE
+WC-1938,WC-1938_014,14,1938-06-14,Quarter-final,played,Brazil,Czechoslovakia,BRA,CSK,BRA,CSK,CONMEBOL,UEFA,1909,1864,Bordeaux,France,TRUE
+WC-1938,WC-1938_015,15,1938-06-16,Semi-final,played,Brazil,Italy,BRA,ITA,BRA,ITA,CONMEBOL,UEFA,1935,2073,Marseille,France,TRUE
+WC-1938,WC-1938_016,16,1938-06-16,Semi-final,played,Hungary,Sweden,HUN,SWE,HUN,SWE,UEFA,UEFA,1959,1703,Paris,France,TRUE
+WC-1938,WC-1938_017,17,1938-06-19,Third Place,played,Brazil,Sweden,BRA,SWE,BRA,SWE,CONMEBOL,UEFA,1916,1682,Bordeaux,France,TRUE
+WC-1938,WC-1938_018,18,1938-06-19,Final,played,Hungary,Italy,HUN,ITA,HUN,ITA,UEFA,UEFA,1980,2092,Colombes,France,TRUE

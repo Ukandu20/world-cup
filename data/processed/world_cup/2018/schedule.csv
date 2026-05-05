@@ -1,65 +1,65 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,2018-06-14,Group Stage,played,Russia,Saudi Arabia,RUS,SAU,1676,1588,Moscow,Russia,FALSE
-2,2018-06-15,Group Stage,played,Egypt,Uruguay,EGY,URY,1639,1892,Ekaterinburg,Russia,TRUE
-3,2018-06-15,Group Stage,played,Morocco,Iran,MAR,IRN,1731,1790,Saint Petersburg,Russia,TRUE
-4,2018-06-15,Group Stage,played,Portugal,Spain,PRT,ESP,1967,2043,Sochi,Russia,TRUE
-5,2018-06-16,Group Stage,played,France,Australia,FRA,AUS,1986,1743,Kazan,Russia,TRUE
-6,2018-06-16,Group Stage,played,Argentina,Iceland,ARG,ISL,1985,1764,Moscow,Russia,TRUE
-7,2018-06-16,Group Stage,played,Peru,Denmark,PER,DNK,1915,1854,Saransk,Russia,TRUE
-8,2018-06-16,Group Stage,played,Croatia,Nigeria,HRV,NGA,1853,1681,Kaliningrad,Russia,TRUE
-9,2018-06-17,Group Stage,played,Costa Rica,Serbia,CRI,SRB,1742,1787,Samara,Russia,TRUE
-10,2018-06-17,Group Stage,played,Germany,Mexico,DEU,MEX,2076,1849,Moscow,Russia,TRUE
-11,2018-06-17,Group Stage,played,Brazil,Switzerland,BRA,CHE,2141,1888,Rostov-on-Don,Russia,TRUE
-12,2018-06-18,Group Stage,played,Sweden,South Korea,SWE,KOR,1793,1713,Nizhny Novgorod,Russia,TRUE
-13,2018-06-18,Group Stage,played,Belgium,Panama,BEL,PAN,1936,1657,Sochi,Russia,TRUE
-14,2018-06-18,Group Stage,played,Tunisia,England,TUN,ENG,1651,1947,Volgograd,Russia,TRUE
-15,2018-06-19,Group Stage,played,Colombia,Japan,COL,JPN,1927,1684,Saransk,Russia,TRUE
-16,2018-06-19,Group Stage,played,Poland,Senegal,POL,SEN,1830,1745,Moscow,Russia,TRUE
-17,2018-06-19,Group Stage,played,Russia,Egypt,RUS,EGY,1706,1628,Saint Petersburg,Russia,FALSE
-18,2018-06-20,Group Stage,played,Portugal,Morocco,PRT,MAR,1973,1706,Moscow,Russia,TRUE
-19,2018-06-20,Group Stage,played,Uruguay,Saudi Arabia,URY,SAU,1903,1558,Rostov-on-Don,Russia,TRUE
-20,2018-06-20,Group Stage,played,Iran,Spain,IRN,ESP,1815,2037,Kazan,Russia,TRUE
-21,2018-06-21,Group Stage,played,Denmark,Australia,DNK,AUS,1889,1731,Samara,Russia,TRUE
-22,2018-06-21,Group Stage,played,France,Peru,FRA,PER,1998,1880,Ekaterinburg,Russia,TRUE
-23,2018-06-21,Group Stage,played,Argentina,Croatia,ARG,HRV,1968,1877,Nizhny Novgorod,Russia,TRUE
-24,2018-06-22,Group Stage,played,Brazil,Costa Rica,BRA,CRI,2122,1716,Saint Petersburg,Russia,TRUE
-25,2018-06-22,Group Stage,played,Nigeria,Iceland,NGA,ISL,1657,1781,Volgograd,Russia,TRUE
-26,2018-06-22,Group Stage,played,Serbia,Switzerland,SRB,CHE,1813,1907,Kaliningrad,Russia,TRUE
-27,2018-06-23,Group Stage,played,Belgium,Tunisia,BEL,TUN,1954,1642,Moscow,Russia,TRUE
-28,2018-06-23,Group Stage,played,South Korea,Mexico,KOR,MEX,1690,1896,Rostov-on-Don,Russia,TRUE
-29,2018-06-23,Group Stage,played,Germany,Sweden,DEU,SWE,2029,1816,Sochi,Russia,TRUE
-30,2018-06-24,Group Stage,played,England,Panama,ENG,PAN,1956,1639,Nizhny Novgorod,Russia,TRUE
-31,2018-06-24,Group Stage,played,Japan,Senegal,JPN,SEN,1732,1782,Ekaterinburg,Russia,TRUE
-32,2018-06-24,Group Stage,played,Poland,Colombia,POL,COL,1793,1879,Kazan,Russia,TRUE
-33,2018-06-25,Group Stage,played,Russia,Uruguay,RUS,URY,1730,1910,Samara,Russia,FALSE
-34,2018-06-25,Group Stage,played,Saudi Arabia,Egypt,SAU,EGY,1551,1604,Volgograd,Russia,TRUE
-35,2018-06-25,Group Stage,played,Spain,Morocco,ESP,MAR,2050,1695,Kaliningrad,Russia,TRUE
-36,2018-06-25,Group Stage,played,Iran,Portugal,IRN,PRT,1802,1984,Saransk,Russia,TRUE
-37,2018-06-26,Group Stage,played,Australia,Peru,AUS,PER,1744,1860,Sochi,Russia,TRUE
-38,2018-06-26,Group Stage,played,Denmark,France,DNK,FRA,1876,2018,Moscow,Russia,TRUE
-39,2018-06-26,Group Stage,played,Nigeria,Argentina,NGA,ARG,1717,1902,Saint Petersburg,Russia,TRUE
-40,2018-06-26,Group Stage,played,Iceland,Croatia,ISL,HRV,1721,1943,Rostov-on-Don,Russia,TRUE
-41,2018-06-27,Group Stage,played,South Korea,Germany,KOR,DEU,1676,2043,Kazan,Russia,TRUE
-42,2018-06-27,Group Stage,played,Mexico,Sweden,MEX,SWE,1910,1802,Ekaterinburg,Russia,TRUE
-43,2018-06-27,Group Stage,played,Serbia,Brazil,SRB,BRA,1791,2130,Moscow,Russia,TRUE
-44,2018-06-27,Group Stage,played,Switzerland,Costa Rica,CHE,CRI,1929,1708,Nizhny Novgorod,Russia,TRUE
-45,2018-06-28,Group Stage,played,Japan,Poland,JPN,POL,1736,1753,Volgograd,Russia,TRUE
-46,2018-06-28,Group Stage,played,Senegal,Colombia,SEN,COL,1778,1919,Samara,Russia,TRUE
-47,2018-06-28,Group Stage,played,Panama,Tunisia,PAN,TUN,1622,1627,Saransk,Russia,TRUE
-48,2018-06-28,Group Stage,played,England,Belgium,ENG,BEL,1973,1969,Kaliningrad,Russia,TRUE
-49,2018-06-30,Round of 16,played,France,Argentina,FRA,ARG,2006,1917,Kazan,Russia,TRUE
-50,2018-06-30,Round of 16,played,Uruguay,Portugal,URY,PRT,1951,1970,Sochi,Russia,TRUE
-51,2018-07-01,Round of 16,played,Russia,Spain,RUS,ESP,1689,2027,Moscow,Russia,FALSE
-52,2018-07-01,Round of 16,played,Croatia,Denmark,HRV,DNK,1956,1888,Nizhny Novgorod,Russia,TRUE
-53,2018-07-02,Round of 16,played,Brazil,Mexico,BRA,MEX,2141,1842,Samara,Russia,TRUE
-54,2018-07-02,Round of 16,played,Belgium,Japan,BEL,JPN,1999,1707,Rostov-on-Don,Russia,TRUE
-55,2018-07-03,Round of 16,played,Sweden,Switzerland,SWE,CHE,1870,1912,Saint Petersburg,Russia,TRUE
-56,2018-07-03,Round of 16,played,Colombia,England,COL,ENG,1937,1943,Moscow,Russia,TRUE
-57,2018-07-06,Quarter-final,played,Uruguay,France,URY,FRA,1983,2028,Nizhny Novgorod,Russia,TRUE
-58,2018-07-06,Quarter-final,played,Brazil,Belgium,BRA,BEL,2155,2008,Kazan,Russia,TRUE
-59,2018-07-07,Quarter-final,played,Sweden,England,SWE,ENG,1904,1942,Samara,Russia,TRUE
-60,2018-07-07,Quarter-final,played,Russia,Croatia,RUS,HRV,1707,1950,Sochi,Russia,FALSE
-61,2018-07-10,Semi-final,played,France,Belgium,FRA,BEL,2067,2050,Saint Petersburg,Russia,TRUE
-62,2018-07-11,Semi-final,played,Croatia,England,HRV,ENG,1938,1982,Moscow,Russia,TRUE
-63,2018-07-14,Third Place,played,Belgium,England,BEL,ENG,2021,1948,Saint Petersburg,Russia,TRUE
-64,2018-07-15,Final,played,France,Croatia,FRA,HRV,2096,1972,Moscow,Russia,TRUE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-2018,WC-2018_001,1,2018-06-14,Group Stage,played,Russia,Saudi Arabia,RUS,KSA,RUS,SAU,UEFA,AFC,1676,1588,Moscow,Russia,FALSE
+WC-2018,WC-2018_002,2,2018-06-15,Group Stage,played,Egypt,Uruguay,EGY,URY,EGY,URY,CAF,CONMEBOL,1639,1892,Ekaterinburg,Russia,TRUE
+WC-2018,WC-2018_003,3,2018-06-15,Group Stage,played,Morocco,Iran,MAR,IRN,MAR,IRN,CAF,AFC,1731,1790,Saint Petersburg,Russia,TRUE
+WC-2018,WC-2018_004,4,2018-06-15,Group Stage,played,Portugal,Spain,PRT,ESP,PRT,ESP,UEFA,UEFA,1967,2043,Sochi,Russia,TRUE
+WC-2018,WC-2018_005,5,2018-06-16,Group Stage,played,France,Australia,FRA,AUS,FRA,AUS,UEFA,AFC,1986,1743,Kazan,Russia,TRUE
+WC-2018,WC-2018_006,6,2018-06-16,Group Stage,played,Argentina,Iceland,ARG,ISL,ARG,ISL,CONMEBOL,UEFA,1985,1764,Moscow,Russia,TRUE
+WC-2018,WC-2018_007,7,2018-06-16,Group Stage,played,Peru,Denmark,PER,DNK,PER,DNK,CONMEBOL,UEFA,1915,1854,Saransk,Russia,TRUE
+WC-2018,WC-2018_008,8,2018-06-16,Group Stage,played,Croatia,Nigeria,HRV,NGA,HRV,NGA,UEFA,CAF,1853,1681,Kaliningrad,Russia,TRUE
+WC-2018,WC-2018_009,9,2018-06-17,Group Stage,played,Costa Rica,Serbia,CRI,SRB,CRI,SRB,CONCACAF,UEFA,1742,1787,Samara,Russia,TRUE
+WC-2018,WC-2018_010,10,2018-06-17,Group Stage,played,Germany,Mexico,GER,MEX,DEU,MEX,UEFA,CONCACAF,2076,1849,Moscow,Russia,TRUE
+WC-2018,WC-2018_011,11,2018-06-17,Group Stage,played,Brazil,Switzerland,BRA,CHE,BRA,CHE,CONMEBOL,UEFA,2141,1888,Rostov-on-Don,Russia,TRUE
+WC-2018,WC-2018_012,12,2018-06-18,Group Stage,played,Sweden,South Korea,SWE,KOR,SWE,KOR,UEFA,AFC,1793,1713,Nizhny Novgorod,Russia,TRUE
+WC-2018,WC-2018_013,13,2018-06-18,Group Stage,played,Belgium,Panama,BEL,PAN,BEL,PAN,UEFA,CONCACAF,1936,1657,Sochi,Russia,TRUE
+WC-2018,WC-2018_014,14,2018-06-18,Group Stage,played,Tunisia,England,TUN,ENG,TUN,ENG,CAF,UEFA,1651,1947,Volgograd,Russia,TRUE
+WC-2018,WC-2018_015,15,2018-06-19,Group Stage,played,Colombia,Japan,COL,JPN,COL,JPN,CONMEBOL,AFC,1927,1684,Saransk,Russia,TRUE
+WC-2018,WC-2018_016,16,2018-06-19,Group Stage,played,Poland,Senegal,POL,SEN,POL,SEN,UEFA,CAF,1830,1745,Moscow,Russia,TRUE
+WC-2018,WC-2018_017,17,2018-06-19,Group Stage,played,Russia,Egypt,RUS,EGY,RUS,EGY,UEFA,CAF,1706,1628,Saint Petersburg,Russia,FALSE
+WC-2018,WC-2018_018,18,2018-06-20,Group Stage,played,Portugal,Morocco,PRT,MAR,PRT,MAR,UEFA,CAF,1973,1706,Moscow,Russia,TRUE
+WC-2018,WC-2018_019,19,2018-06-20,Group Stage,played,Uruguay,Saudi Arabia,URY,KSA,URY,SAU,CONMEBOL,AFC,1903,1558,Rostov-on-Don,Russia,TRUE
+WC-2018,WC-2018_020,20,2018-06-20,Group Stage,played,Iran,Spain,IRN,ESP,IRN,ESP,AFC,UEFA,1815,2037,Kazan,Russia,TRUE
+WC-2018,WC-2018_021,21,2018-06-21,Group Stage,played,Denmark,Australia,DNK,AUS,DNK,AUS,UEFA,AFC,1889,1731,Samara,Russia,TRUE
+WC-2018,WC-2018_022,22,2018-06-21,Group Stage,played,France,Peru,FRA,PER,FRA,PER,UEFA,CONMEBOL,1998,1880,Ekaterinburg,Russia,TRUE
+WC-2018,WC-2018_023,23,2018-06-21,Group Stage,played,Argentina,Croatia,ARG,HRV,ARG,HRV,CONMEBOL,UEFA,1968,1877,Nizhny Novgorod,Russia,TRUE
+WC-2018,WC-2018_024,24,2018-06-22,Group Stage,played,Brazil,Costa Rica,BRA,CRI,BRA,CRI,CONMEBOL,CONCACAF,2122,1716,Saint Petersburg,Russia,TRUE
+WC-2018,WC-2018_025,25,2018-06-22,Group Stage,played,Nigeria,Iceland,NGA,ISL,NGA,ISL,CAF,UEFA,1657,1781,Volgograd,Russia,TRUE
+WC-2018,WC-2018_026,26,2018-06-22,Group Stage,played,Serbia,Switzerland,SRB,CHE,SRB,CHE,UEFA,UEFA,1813,1907,Kaliningrad,Russia,TRUE
+WC-2018,WC-2018_027,27,2018-06-23,Group Stage,played,Belgium,Tunisia,BEL,TUN,BEL,TUN,UEFA,CAF,1954,1642,Moscow,Russia,TRUE
+WC-2018,WC-2018_028,28,2018-06-23,Group Stage,played,South Korea,Mexico,KOR,MEX,KOR,MEX,AFC,CONCACAF,1690,1896,Rostov-on-Don,Russia,TRUE
+WC-2018,WC-2018_029,29,2018-06-23,Group Stage,played,Germany,Sweden,GER,SWE,DEU,SWE,UEFA,UEFA,2029,1816,Sochi,Russia,TRUE
+WC-2018,WC-2018_030,30,2018-06-24,Group Stage,played,England,Panama,ENG,PAN,ENG,PAN,UEFA,CONCACAF,1956,1639,Nizhny Novgorod,Russia,TRUE
+WC-2018,WC-2018_031,31,2018-06-24,Group Stage,played,Japan,Senegal,JPN,SEN,JPN,SEN,AFC,CAF,1732,1782,Ekaterinburg,Russia,TRUE
+WC-2018,WC-2018_032,32,2018-06-24,Group Stage,played,Poland,Colombia,POL,COL,POL,COL,UEFA,CONMEBOL,1793,1879,Kazan,Russia,TRUE
+WC-2018,WC-2018_033,33,2018-06-25,Group Stage,played,Russia,Uruguay,RUS,URY,RUS,URY,UEFA,CONMEBOL,1730,1910,Samara,Russia,FALSE
+WC-2018,WC-2018_034,34,2018-06-25,Group Stage,played,Saudi Arabia,Egypt,KSA,EGY,SAU,EGY,AFC,CAF,1551,1604,Volgograd,Russia,TRUE
+WC-2018,WC-2018_035,35,2018-06-25,Group Stage,played,Spain,Morocco,ESP,MAR,ESP,MAR,UEFA,CAF,2050,1695,Kaliningrad,Russia,TRUE
+WC-2018,WC-2018_036,36,2018-06-25,Group Stage,played,Iran,Portugal,IRN,PRT,IRN,PRT,AFC,UEFA,1802,1984,Saransk,Russia,TRUE
+WC-2018,WC-2018_037,37,2018-06-26,Group Stage,played,Australia,Peru,AUS,PER,AUS,PER,AFC,CONMEBOL,1744,1860,Sochi,Russia,TRUE
+WC-2018,WC-2018_038,38,2018-06-26,Group Stage,played,Denmark,France,DNK,FRA,DNK,FRA,UEFA,UEFA,1876,2018,Moscow,Russia,TRUE
+WC-2018,WC-2018_039,39,2018-06-26,Group Stage,played,Nigeria,Argentina,NGA,ARG,NGA,ARG,CAF,CONMEBOL,1717,1902,Saint Petersburg,Russia,TRUE
+WC-2018,WC-2018_040,40,2018-06-26,Group Stage,played,Iceland,Croatia,ISL,HRV,ISL,HRV,UEFA,UEFA,1721,1943,Rostov-on-Don,Russia,TRUE
+WC-2018,WC-2018_041,41,2018-06-27,Group Stage,played,South Korea,Germany,KOR,GER,KOR,DEU,AFC,UEFA,1676,2043,Kazan,Russia,TRUE
+WC-2018,WC-2018_042,42,2018-06-27,Group Stage,played,Mexico,Sweden,MEX,SWE,MEX,SWE,CONCACAF,UEFA,1910,1802,Ekaterinburg,Russia,TRUE
+WC-2018,WC-2018_043,43,2018-06-27,Group Stage,played,Serbia,Brazil,SRB,BRA,SRB,BRA,UEFA,CONMEBOL,1791,2130,Moscow,Russia,TRUE
+WC-2018,WC-2018_044,44,2018-06-27,Group Stage,played,Switzerland,Costa Rica,CHE,CRI,CHE,CRI,UEFA,CONCACAF,1929,1708,Nizhny Novgorod,Russia,TRUE
+WC-2018,WC-2018_045,45,2018-06-28,Group Stage,played,Japan,Poland,JPN,POL,JPN,POL,AFC,UEFA,1736,1753,Volgograd,Russia,TRUE
+WC-2018,WC-2018_046,46,2018-06-28,Group Stage,played,Senegal,Colombia,SEN,COL,SEN,COL,CAF,CONMEBOL,1778,1919,Samara,Russia,TRUE
+WC-2018,WC-2018_047,47,2018-06-28,Group Stage,played,Panama,Tunisia,PAN,TUN,PAN,TUN,CONCACAF,CAF,1622,1627,Saransk,Russia,TRUE
+WC-2018,WC-2018_048,48,2018-06-28,Group Stage,played,England,Belgium,ENG,BEL,ENG,BEL,UEFA,UEFA,1973,1969,Kaliningrad,Russia,TRUE
+WC-2018,WC-2018_049,49,2018-06-30,Round of 16,played,France,Argentina,FRA,ARG,FRA,ARG,UEFA,CONMEBOL,2006,1917,Kazan,Russia,TRUE
+WC-2018,WC-2018_050,50,2018-06-30,Round of 16,played,Uruguay,Portugal,URY,PRT,URY,PRT,CONMEBOL,UEFA,1951,1970,Sochi,Russia,TRUE
+WC-2018,WC-2018_051,51,2018-07-01,Round of 16,played,Russia,Spain,RUS,ESP,RUS,ESP,UEFA,UEFA,1689,2027,Moscow,Russia,FALSE
+WC-2018,WC-2018_052,52,2018-07-01,Round of 16,played,Croatia,Denmark,HRV,DNK,HRV,DNK,UEFA,UEFA,1956,1888,Nizhny Novgorod,Russia,TRUE
+WC-2018,WC-2018_053,53,2018-07-02,Round of 16,played,Brazil,Mexico,BRA,MEX,BRA,MEX,CONMEBOL,CONCACAF,2141,1842,Samara,Russia,TRUE
+WC-2018,WC-2018_054,54,2018-07-02,Round of 16,played,Belgium,Japan,BEL,JPN,BEL,JPN,UEFA,AFC,1999,1707,Rostov-on-Don,Russia,TRUE
+WC-2018,WC-2018_055,55,2018-07-03,Round of 16,played,Sweden,Switzerland,SWE,CHE,SWE,CHE,UEFA,UEFA,1870,1912,Saint Petersburg,Russia,TRUE
+WC-2018,WC-2018_056,56,2018-07-03,Round of 16,played,Colombia,England,COL,ENG,COL,ENG,CONMEBOL,UEFA,1937,1943,Moscow,Russia,TRUE
+WC-2018,WC-2018_057,57,2018-07-06,Quarter-final,played,Uruguay,France,URY,FRA,URY,FRA,CONMEBOL,UEFA,1983,2028,Nizhny Novgorod,Russia,TRUE
+WC-2018,WC-2018_058,58,2018-07-06,Quarter-final,played,Brazil,Belgium,BRA,BEL,BRA,BEL,CONMEBOL,UEFA,2155,2008,Kazan,Russia,TRUE
+WC-2018,WC-2018_059,59,2018-07-07,Quarter-final,played,Sweden,England,SWE,ENG,SWE,ENG,UEFA,UEFA,1904,1942,Samara,Russia,TRUE
+WC-2018,WC-2018_060,60,2018-07-07,Quarter-final,played,Russia,Croatia,RUS,HRV,RUS,HRV,UEFA,UEFA,1707,1950,Sochi,Russia,FALSE
+WC-2018,WC-2018_061,61,2018-07-10,Semi-final,played,France,Belgium,FRA,BEL,FRA,BEL,UEFA,UEFA,2067,2050,Saint Petersburg,Russia,TRUE
+WC-2018,WC-2018_062,62,2018-07-11,Semi-final,played,Croatia,England,HRV,ENG,HRV,ENG,UEFA,UEFA,1938,1982,Moscow,Russia,TRUE
+WC-2018,WC-2018_063,63,2018-07-14,Third Place,played,Belgium,England,BEL,ENG,BEL,ENG,UEFA,UEFA,2021,1948,Saint Petersburg,Russia,TRUE
+WC-2018,WC-2018_064,64,2018-07-15,Final,played,France,Croatia,FRA,HRV,FRA,HRV,UEFA,UEFA,2096,1972,Moscow,Russia,TRUE

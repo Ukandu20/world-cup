@@ -1,22 +1,22 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1978 FIFA Men's World Cup,WC-1978,1978,4,1978-06-02,Group Stage,played,Tunisia,TUN,Mexico,MEX,FALSE,Rosario,Argentina,TRUE,1660,1798
-1978 FIFA Men's World Cup,WC-1978,1978,12,1978-06-06,Group Stage,played,Tunisia,TUN,Poland,POL,FALSE,Rosario,Argentina,TRUE,1722,1942
-1978 FIFA Men's World Cup,WC-1978,1978,19,1978-06-10,Group Stage,played,Tunisia,TUN,Germany,DEU,FALSE,Córdoba,Argentina,TRUE,1636,1923
-1998 FIFA Men's World Cup,WC-1998,1998,14,1998-06-15,Group Stage,played,Tunisia,TUN,England,ENG,FALSE,Marseille,France,TRUE,1632,1974
-1998 FIFA Men's World Cup,WC-1998,1998,31,1998-06-22,Group Stage,played,Tunisia,TUN,Colombia,COL,FALSE,Montpellier,France,TRUE,1621,1757
-1998 FIFA Men's World Cup,WC-1998,1998,48,1998-06-26,Group Stage,played,Tunisia,TUN,Romania,ROU,FALSE,Saint-Denis,France,TRUE,1602,1938
-2002 FIFA Men's World Cup,WC-2002,2002,16,2002-06-05,Group Stage,played,Tunisia,TUN,Russia,RUS,FALSE,Kobe,Japan,TRUE,1618,1801
-2002 FIFA Men's World Cup,WC-2002,2002,32,2002-06-10,Group Stage,played,Tunisia,TUN,Belgium,BEL,TRUE,Ōita,Japan,TRUE,1595,1846
-2002 FIFA Men's World Cup,WC-2002,2002,46,2002-06-14,Group Stage,played,Tunisia,TUN,Japan,JPN,FALSE,Osaka,Japan,FALSE,1614,1859
-2006 FIFA Men's World Cup,WC-2006,2006,17,2006-06-14,Group Stage,played,Tunisia,TUN,Saudi Arabia,SAU,TRUE,Munich,Germany,TRUE,1703,1554
-2006 FIFA Men's World Cup,WC-2006,2006,31,2006-06-19,Group Stage,played,Tunisia,TUN,Spain,ESP,FALSE,Stuttgart,Germany,TRUE,1691,1994
-2006 FIFA Men's World Cup,WC-2006,2006,48,2006-06-23,Group Stage,played,Tunisia,TUN,Ukraine,UKR,FALSE,Berlin,Germany,TRUE,1678,1788
-2018 FIFA Men's World Cup,WC-2018,2018,14,2018-06-18,Group Stage,played,Tunisia,TUN,England,ENG,TRUE,Volgograd,Russia,TRUE,1651,1947
-2018 FIFA Men's World Cup,WC-2018,2018,27,2018-06-23,Group Stage,played,Tunisia,TUN,Belgium,BEL,FALSE,Moscow,Russia,TRUE,1642,1954
-2018 FIFA Men's World Cup,WC-2018,2018,47,2018-06-28,Group Stage,played,Tunisia,TUN,Panama,PAN,FALSE,Saransk,Russia,TRUE,1627,1622
-2022 FIFA Men's World Cup,WC-2022,2022,7,2022-11-22,Group Stage,played,Tunisia,TUN,Denmark,DNK,FALSE,Al Rayyan,Qatar,TRUE,1705,1971
-2022 FIFA Men's World Cup,WC-2022,2022,23,2022-11-26,Group Stage,played,Tunisia,TUN,Australia,AUS,TRUE,Al Wakrah,Qatar,TRUE,1724,1704
-2022 FIFA Men's World Cup,WC-2022,2022,40,2022-11-30,Group Stage,played,Tunisia,TUN,France,FRA,TRUE,Al Rayyan,Qatar,TRUE,1692,2046
-2026 FIFA Men's World Cup,WC-2026,2026,12,2026-06-14,Group Stage,scheduled,Tunisia,TUN,Sweden,SWE,FALSE,Guadalupe,Mexico,TRUE,1636,1719
-2026 FIFA Men's World Cup,WC-2026,2026,36,2026-06-20,Group Stage,scheduled,Tunisia,TUN,Japan,JPN,TRUE,Guadalupe,Mexico,TRUE,1636,1904
-2026 FIFA Men's World Cup,WC-2026,2026,60,2026-06-25,Group Stage,scheduled,Tunisia,TUN,Netherlands,NLD,TRUE,Kansas City,United States,TRUE,1636,1961
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_004,4,1978-06-02,Group Stage,played,Tunisia,TUN,TUN,CAF,Mexico,MEX,MEX,CONCACAF,FALSE,Rosario,Argentina,TRUE,1660,1798
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_012,12,1978-06-06,Group Stage,played,Tunisia,TUN,TUN,CAF,Poland,POL,POL,UEFA,FALSE,Rosario,Argentina,TRUE,1722,1942
+1978 FIFA Men's World Cup,WC-1978,1978,WC-1978_019,19,1978-06-10,Group Stage,played,Tunisia,TUN,TUN,CAF,Germany,GER,DEU,UEFA,FALSE,Córdoba,Argentina,TRUE,1636,1923
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_014,14,1998-06-15,Group Stage,played,Tunisia,TUN,TUN,CAF,England,ENG,ENG,UEFA,FALSE,Marseille,France,TRUE,1632,1974
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_031,31,1998-06-22,Group Stage,played,Tunisia,TUN,TUN,CAF,Colombia,COL,COL,CONMEBOL,FALSE,Montpellier,France,TRUE,1621,1757
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_048,48,1998-06-26,Group Stage,played,Tunisia,TUN,TUN,CAF,Romania,ROU,ROU,UEFA,FALSE,Saint-Denis,France,TRUE,1602,1938
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_016,16,2002-06-05,Group Stage,played,Tunisia,TUN,TUN,CAF,Russia,RUS,RUS,UEFA,FALSE,Kobe,Japan,TRUE,1618,1801
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_032,32,2002-06-10,Group Stage,played,Tunisia,TUN,TUN,CAF,Belgium,BEL,BEL,UEFA,TRUE,Ōita,Japan,TRUE,1595,1846
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_046,46,2002-06-14,Group Stage,played,Tunisia,TUN,TUN,CAF,Japan,JPN,JPN,AFC,FALSE,Osaka,Japan,FALSE,1614,1859
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_017,17,2006-06-14,Group Stage,played,Tunisia,TUN,TUN,CAF,Saudi Arabia,KSA,SAU,AFC,TRUE,Munich,Germany,TRUE,1703,1554
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_031,31,2006-06-19,Group Stage,played,Tunisia,TUN,TUN,CAF,Spain,ESP,ESP,UEFA,FALSE,Stuttgart,Germany,TRUE,1691,1994
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_048,48,2006-06-23,Group Stage,played,Tunisia,TUN,TUN,CAF,Ukraine,UKR,UKR,UEFA,FALSE,Berlin,Germany,TRUE,1678,1788
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_014,14,2018-06-18,Group Stage,played,Tunisia,TUN,TUN,CAF,England,ENG,ENG,UEFA,TRUE,Volgograd,Russia,TRUE,1651,1947
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_027,27,2018-06-23,Group Stage,played,Tunisia,TUN,TUN,CAF,Belgium,BEL,BEL,UEFA,FALSE,Moscow,Russia,TRUE,1642,1954
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_047,47,2018-06-28,Group Stage,played,Tunisia,TUN,TUN,CAF,Panama,PAN,PAN,CONCACAF,FALSE,Saransk,Russia,TRUE,1627,1622
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_007,7,2022-11-22,Group Stage,played,Tunisia,TUN,TUN,CAF,Denmark,DNK,DNK,UEFA,FALSE,Al Rayyan,Qatar,TRUE,1705,1971
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_023,23,2022-11-26,Group Stage,played,Tunisia,TUN,TUN,CAF,Australia,AUS,AUS,AFC,TRUE,Al Wakrah,Qatar,TRUE,1724,1704
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_040,40,2022-11-30,Group Stage,played,Tunisia,TUN,TUN,CAF,France,FRA,FRA,UEFA,TRUE,Al Rayyan,Qatar,TRUE,1692,2046
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_012,12,2026-06-14,Group Stage,scheduled,Tunisia,TUN,TUN,CAF,Sweden,SWE,SWE,UEFA,FALSE,Guadalupe,Mexico,TRUE,1636,1719
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_036,36,2026-06-20,Group Stage,scheduled,Tunisia,TUN,TUN,CAF,Japan,JPN,JPN,AFC,TRUE,Guadalupe,Mexico,TRUE,1636,1904
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_060,60,2026-06-25,Group Stage,scheduled,Tunisia,TUN,TUN,CAF,Netherlands,NED,NLD,UEFA,TRUE,Kansas City,United States,TRUE,1636,1961

@@ -1,24 +1,24 @@
-team,team_code,tournament,tournament_id,year,player_name,player_id,position,pos_code,shirt_number,date_of_birth,age,club,club_country,caps,goals
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Abdiel Arroyo,P-52444,forward,FW,16,1993-12-13,24,Árabe Unido Colón,Panama,3,1
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Adolfo Machado,P-77892,defender,DF,13,1985-02-14,33,Houston Dynamo,USA,7,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Aníbal Godoy,P-24760,midfielder,MF,20,1990-02-10,28,San Jose Earthquakes,USA,12,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Armando Cooper,P-06696,midfielder,MF,11,1987-11-26,30,Maccabi Petah-Tikva,Israel,5,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Blas Pérez,P-76850,forward,FW,7,1981-03-13,37,Árabe Unido Colón,Panama,4,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Erick Davis,P-44505,defender,DF,15,1991-03-31,27,,,,
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Felipe Baloy,P-76368,defender,DF,23,1981-02-24,37,Municipal Guatemala,Guatemala,2,1
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Fidel Escobar,P-91455,defender,DF,4,1995-01-09,23,Correcaminos UA Tamaulipas,Mexico,10,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Gabriel Gómez,P-32575,midfielder,MF,6,1984-05-29,34,CA Bucaramanga,Colombia,6,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Gabriel Torres,P-78106,forward,FW,9,1988-10-31,29,Huachipato Talcahuano,Chile,4,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Harold Cummings,P-53385,defender,DF,3,1992-03-01,26,San Jose Earthquakes,USA,4,1
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Ismael Díaz,P-09945,forward,FW,10,1997-05-12,21,El Tanque Sisley,Uruguay,0,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Jaime Penedo,P-77521,goal keeper,GK,1,1981-09-26,36,Dinamo Bucureşti,Romania,6,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,José Calderón,P-91983,goal keeper,GK,12,1985-08-14,32,CD Guastatoya,Guatemala,4,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,José Luis Rodríguez,P-34448,midfielder,MF,21,1998-06-19,19,Deportivo Alavés B,Spain,10,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Luis Ovalle,P-22016,defender,DF,17,1988-09-07,29,Sporting'89 San Miguelito,Panama,4,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Luis Tejada,P-03144,forward,FW,18,1982-03-28,36,Sport Boys Callao,Peru,1,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Michael Amir Murillo,P-72819,defender,DF,2,1996-02-11,22,,,,
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Ricardo Ávila,P-67176,midfielder,MF,19,1997-02-04,21,,,,
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Román Torres,P-02886,defender,DF,5,1986-03-20,32,Seattle Sounders,USA,6,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Valentín Pimentel,P-48670,midfielder,MF,14,1991-05-30,27,Plaza Amador Panamá,Panama,2,0
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Álex Rodríguez,P-80905,goal keeper,GK,22,1990-08-05,27,,,,
-Panama,PAN,2018 FIFA Men's World Cup,WC-2018,2018,Édgar Bárcenas,P-10561,midfielder,MF,8,1993-10-23,24,,,,
+team,team_id,team_code,confederation,tournament,tournament_id,year,player_name,player_id,position,pos_code,shirt_number,date_of_birth,age,club,club_country,caps,goals
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Abdiel Arroyo,P-52444,forward,FW,16,1993-12-13,24,Árabe Unido Colón,Panama,3,1
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Adolfo Machado,P-77892,defender,DF,13,1985-02-14,33,Houston Dynamo,USA,7,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Aníbal Godoy,P-24760,midfielder,MF,20,1990-02-10,28,San Jose Earthquakes,USA,12,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Armando Cooper,P-06696,midfielder,MF,11,1987-11-26,30,Maccabi Petah-Tikva,Israel,5,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Blas Pérez,P-76850,forward,FW,7,1981-03-13,37,Árabe Unido Colón,Panama,4,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Erick Davis,P-44505,defender,DF,15,1991-03-31,27,,,,
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Felipe Baloy,P-76368,defender,DF,23,1981-02-24,37,Municipal Guatemala,Guatemala,2,1
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Fidel Escobar,P-91455,defender,DF,4,1995-01-09,23,Correcaminos UA Tamaulipas,Mexico,10,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Gabriel Gómez,P-32575,midfielder,MF,6,1984-05-29,34,CA Bucaramanga,Colombia,6,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Gabriel Torres,P-78106,forward,FW,9,1988-10-31,29,Huachipato Talcahuano,Chile,4,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Harold Cummings,P-53385,defender,DF,3,1992-03-01,26,San Jose Earthquakes,USA,4,1
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Ismael Díaz,P-09945,forward,FW,10,1997-05-12,21,El Tanque Sisley,Uruguay,0,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Jaime Penedo,P-77521,goal keeper,GK,1,1981-09-26,36,Dinamo Bucureşti,Romania,6,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,José Calderón,P-91983,goal keeper,GK,12,1985-08-14,32,CD Guastatoya,Guatemala,4,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,José Luis Rodríguez,P-34448,midfielder,MF,21,1998-06-19,19,Deportivo Alavés B,Spain,10,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Luis Ovalle,P-22016,defender,DF,17,1988-09-07,29,Sporting'89 San Miguelito,Panama,4,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Luis Tejada,P-03144,forward,FW,18,1982-03-28,36,Sport Boys Callao,Peru,1,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Michael Amir Murillo,P-72819,defender,DF,2,1996-02-11,22,,,,
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Ricardo Ávila,P-67176,midfielder,MF,19,1997-02-04,21,,,,
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Román Torres,P-02886,defender,DF,5,1986-03-20,32,Seattle Sounders,USA,6,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Valentín Pimentel,P-48670,midfielder,MF,14,1991-05-30,27,Plaza Amador Panamá,Panama,2,0
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Álex Rodríguez,P-80905,goal keeper,GK,22,1990-08-05,27,,,,
+Panama,PAN,PAN,CONCACAF,2018 FIFA Men's World Cup,WC-2018,2018,Édgar Bárcenas,P-10561,midfielder,MF,8,1993-10-23,24,,,,

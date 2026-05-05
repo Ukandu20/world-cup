@@ -1,65 +1,65 @@
-match_number,date,stage,status,home_team,away_team,home_team_code,away_team_code,home_elo_start,away_elo_start,city,country,neutral
-1,2022-11-20,Group Stage,played,Qatar,Ecuador,QAT,ECU,1680,1833,Al Khor,Qatar,FALSE
-2,2022-11-21,Group Stage,played,Senegal,Netherlands,SEN,NLD,1684,2040,Doha,Qatar,TRUE
-3,2022-11-21,Group Stage,played,England,Iran,ENG,IRN,1919,1798,Al Rayyan,Qatar,TRUE
-4,2022-11-21,Group Stage,played,United States,Wales,USA,WAL,1796,1789,Al Rayyan,Qatar,TRUE
-5,2022-11-22,Group Stage,played,Argentina,Saudi Arabia,ARG,SAU,2143,1636,Lusail,Qatar,TRUE
-6,2022-11-22,Group Stage,played,Mexico,Poland,MEX,POL,1808,1813,Doha,Qatar,TRUE
-7,2022-11-22,Group Stage,played,Denmark,Tunisia,DNK,TUN,1971,1705,Al Rayyan,Qatar,TRUE
-8,2022-11-22,Group Stage,played,France,Australia,FRA,AUS,2005,1721,Al Wakrah,Qatar,TRUE
-9,2022-11-23,Group Stage,played,Germany,Japan,DEU,JPN,1962,1788,Al Rayyan,Qatar,TRUE
-10,2022-11-23,Group Stage,played,Spain,Costa Rica,ESP,CRI,2048,1743,Doha,Qatar,TRUE
-11,2022-11-23,Group Stage,played,Morocco,Croatia,MAR,HRV,1764,1926,Al Khor,Qatar,TRUE
-12,2022-11-23,Group Stage,played,Belgium,Canada,BEL,CAN,2006,1775,Al Rayyan,Qatar,TRUE
-13,2022-11-24,Group Stage,played,Switzerland,Cameroon,CHE,CMR,1901,1607,Al Wakrah,Qatar,TRUE
-14,2022-11-24,Group Stage,played,Brazil,Serbia,BRA,SRB,2169,1898,Lusail,Qatar,TRUE
-15,2022-11-24,Group Stage,played,Uruguay,South Korea,URY,KOR,1935,1786,Al Rayyan,Qatar,TRUE
-16,2022-11-24,Group Stage,played,Portugal,Ghana,PRT,GHA,2005,1564,Doha,Qatar,TRUE
-17,2022-11-25,Group Stage,played,Qatar,Senegal,QAT,SEN,1642,1674,Doha,Qatar,FALSE
-18,2022-11-25,Group Stage,played,Netherlands,Ecuador,NLD,ECU,2050,1871,Al Rayyan,Qatar,TRUE
-19,2022-11-25,Group Stage,played,Wales,Iran,WAL,IRN,1790,1761,Al Rayyan,Qatar,TRUE
-20,2022-11-25,Group Stage,played,England,United States,ENG,USA,1956,1795,Al Khor,Qatar,TRUE
-21,2022-11-26,Group Stage,played,Poland,Saudi Arabia,POL,SAU,1813,1693,Al Rayyan,Qatar,TRUE
-22,2022-11-26,Group Stage,played,Argentina,Mexico,ARG,MEX,2086,1808,Lusail,Qatar,TRUE
-23,2022-11-26,Group Stage,played,Tunisia,Australia,TUN,AUS,1724,1704,Al Wakrah,Qatar,TRUE
-24,2022-11-26,Group Stage,played,France,Denmark,FRA,DNK,2022,1952,Doha,Qatar,TRUE
-25,2022-11-27,Group Stage,played,Japan,Costa Rica,JPN,CRI,1832,1723,Al Rayyan,Qatar,TRUE
-26,2022-11-27,Group Stage,played,Spain,Germany,ESP,DEU,2068,1918,Al Khor,Qatar,TRUE
-27,2022-11-27,Group Stage,played,Belgium,Morocco,BEL,MAR,2019,1777,Doha,Qatar,TRUE
-28,2022-11-27,Group Stage,played,Croatia,Canada,HRV,CAN,1913,1762,Al Rayyan,Qatar,TRUE
-29,2022-11-28,Group Stage,played,Cameroon,Serbia,CMR,SRB,1598,1882,Al Wakrah,Qatar,TRUE
-30,2022-11-28,Group Stage,played,Brazil,Switzerland,BRA,CHE,2185,1910,Doha,Qatar,TRUE
-31,2022-11-28,Group Stage,played,South Korea,Ghana,KOR,GHA,1798,1560,Al Rayyan,Qatar,TRUE
-32,2022-11-28,Group Stage,played,Portugal,Uruguay,PRT,URY,2009,1923,Lusail,Qatar,TRUE
-33,2022-11-29,Group Stage,played,Ecuador,Senegal,ECU,SEN,1885,1728,Al Rayyan,Qatar,TRUE
-34,2022-11-29,Group Stage,played,Qatar,Netherlands,QAT,NLD,1588,2036,Al Khor,Qatar,FALSE
-35,2022-11-29,Group Stage,played,Wales,England,WAL,ENG,1741,1943,Al Rayyan,Qatar,TRUE
-36,2022-11-29,Group Stage,played,Iran,United States,IRN,USA,1810,1808,Doha,Qatar,TRUE
-37,2022-11-30,Group Stage,played,Poland,Argentina,POL,ARG,1843,2101,Doha,Qatar,TRUE
-38,2022-11-30,Group Stage,played,Saudi Arabia,Mexico,SAU,MEX,1663,1793,Lusail,Qatar,TRUE
-39,2022-11-30,Group Stage,played,Australia,Denmark,AUS,DNK,1736,1928,Al Wakrah,Qatar,TRUE
-40,2022-11-30,Group Stage,played,Tunisia,France,TUN,FRA,1692,2046,Al Rayyan,Qatar,TRUE
-41,2022-12-01,Group Stage,played,Japan,Spain,JPN,ESP,1793,2056,Al Rayyan,Qatar,TRUE
-42,2022-12-01,Group Stage,played,Costa Rica,Germany,CRI,DEU,1762,1930,Al Khor,Qatar,TRUE
-43,2022-12-01,Group Stage,played,Croatia,Belgium,HRV,BEL,1944,1947,Al Rayyan,Qatar,TRUE
-44,2022-12-01,Group Stage,played,Canada,Morocco,CAN,MAR,1731,1849,Doha,Qatar,TRUE
-45,2022-12-02,Group Stage,played,Serbia,Switzerland,SRB,CHE,1862,1900,Doha,Qatar,TRUE
-46,2022-12-02,Group Stage,played,Cameroon,Brazil,CMR,BRA,1618,2195,Lusail,Qatar,TRUE
-47,2022-12-02,Group Stage,played,Ghana,Uruguay,GHA,URY,1608,1889,Al Wakrah,Qatar,TRUE
-48,2022-12-02,Group Stage,played,South Korea,Portugal,KOR,PRT,1750,2043,Al Rayyan,Qatar,TRUE
-49,2022-12-03,Round of 16,played,Netherlands,United States,NLD,USA,2047,1838,Al Rayyan,Qatar,TRUE
-50,2022-12-03,Round of 16,played,Argentina,Australia,ARG,AUS,2118,1781,Al Rayyan,Qatar,TRUE
-51,2022-12-04,Round of 16,played,France,Poland,FRA,POL,1993,1826,Doha,Qatar,TRUE
-52,2022-12-04,Round of 16,played,England,Senegal,ENG,SEN,1968,1771,Al Khor,Qatar,TRUE
-53,2022-12-05,Round of 16,played,Japan,Croatia,JPN,HRV,1842,1944,Al Wakrah,Qatar,TRUE
-54,2022-12-05,Round of 16,played,Brazil,South Korea,BRA,KOR,2137,1801,Doha,Qatar,TRUE
-55,2022-12-06,Round of 16,played,Morocco,Spain,MAR,ESP,1869,2007,Al Rayyan,Qatar,TRUE
-56,2022-12-06,Round of 16,played,Portugal,Switzerland,PRT,CHE,1992,1927,Lusail,Qatar,TRUE
-57,2022-12-09,Quarter-final,played,Croatia,Brazil,HRV,BRA,1935,2150,Al Rayyan,Qatar,TRUE
-58,2022-12-09,Quarter-final,played,Netherlands,Argentina,NLD,ARG,2068,2126,Lusail,Qatar,TRUE
-59,2022-12-10,Quarter-final,played,Morocco,Portugal,MAR,PRT,1880,2041,Doha,Qatar,TRUE
-60,2022-12-10,Quarter-final,played,England,France,ENG,FRA,1994,2018,Al Khor,Qatar,TRUE
-61,2022-12-13,Semi-final,played,Argentina,Croatia,ARG,HRV,2121,1952,Lusail,Qatar,TRUE
-62,2022-12-14,Semi-final,played,France,Morocco,FRA,MAR,2046,1923,Al Khor,Qatar,TRUE
-63,2022-12-17,Third Place,played,Croatia,Morocco,HRV,MAR,1923,1893,Al Rayyan,Qatar,TRUE
-64,2022-12-18,Final,played,Argentina,France,ARG,FRA,2150,2076,Lusail,Qatar,TRUE
+tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
+WC-2022,WC-2022_001,1,2022-11-20,Group Stage,played,Qatar,Ecuador,QAT,ECU,QAT,ECU,AFC,CONMEBOL,1680,1833,Al Khor,Qatar,FALSE
+WC-2022,WC-2022_002,2,2022-11-21,Group Stage,played,Senegal,Netherlands,SEN,NED,SEN,NLD,CAF,UEFA,1684,2040,Doha,Qatar,TRUE
+WC-2022,WC-2022_003,3,2022-11-21,Group Stage,played,England,Iran,ENG,IRN,ENG,IRN,UEFA,AFC,1919,1798,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_004,4,2022-11-21,Group Stage,played,United States,Wales,USA,WAL,USA,WAL,CONCACAF,UEFA,1796,1789,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_005,5,2022-11-22,Group Stage,played,Argentina,Saudi Arabia,ARG,KSA,ARG,SAU,CONMEBOL,AFC,2143,1636,Lusail,Qatar,TRUE
+WC-2022,WC-2022_006,6,2022-11-22,Group Stage,played,Mexico,Poland,MEX,POL,MEX,POL,CONCACAF,UEFA,1808,1813,Doha,Qatar,TRUE
+WC-2022,WC-2022_007,7,2022-11-22,Group Stage,played,Denmark,Tunisia,DNK,TUN,DNK,TUN,UEFA,CAF,1971,1705,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_008,8,2022-11-22,Group Stage,played,France,Australia,FRA,AUS,FRA,AUS,UEFA,AFC,2005,1721,Al Wakrah,Qatar,TRUE
+WC-2022,WC-2022_009,9,2022-11-23,Group Stage,played,Germany,Japan,GER,JPN,DEU,JPN,UEFA,AFC,1962,1788,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_010,10,2022-11-23,Group Stage,played,Spain,Costa Rica,ESP,CRI,ESP,CRI,UEFA,CONCACAF,2048,1743,Doha,Qatar,TRUE
+WC-2022,WC-2022_011,11,2022-11-23,Group Stage,played,Morocco,Croatia,MAR,HRV,MAR,HRV,CAF,UEFA,1764,1926,Al Khor,Qatar,TRUE
+WC-2022,WC-2022_012,12,2022-11-23,Group Stage,played,Belgium,Canada,BEL,CAN,BEL,CAN,UEFA,CONCACAF,2006,1775,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_013,13,2022-11-24,Group Stage,played,Switzerland,Cameroon,CHE,CMR,CHE,CMR,UEFA,CAF,1901,1607,Al Wakrah,Qatar,TRUE
+WC-2022,WC-2022_014,14,2022-11-24,Group Stage,played,Brazil,Serbia,BRA,SRB,BRA,SRB,CONMEBOL,UEFA,2169,1898,Lusail,Qatar,TRUE
+WC-2022,WC-2022_015,15,2022-11-24,Group Stage,played,Uruguay,South Korea,URY,KOR,URY,KOR,CONMEBOL,AFC,1935,1786,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_016,16,2022-11-24,Group Stage,played,Portugal,Ghana,PRT,GHA,PRT,GHA,UEFA,CAF,2005,1564,Doha,Qatar,TRUE
+WC-2022,WC-2022_017,17,2022-11-25,Group Stage,played,Qatar,Senegal,QAT,SEN,QAT,SEN,AFC,CAF,1642,1674,Doha,Qatar,FALSE
+WC-2022,WC-2022_018,18,2022-11-25,Group Stage,played,Netherlands,Ecuador,NED,ECU,NLD,ECU,UEFA,CONMEBOL,2050,1871,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_019,19,2022-11-25,Group Stage,played,Wales,Iran,WAL,IRN,WAL,IRN,UEFA,AFC,1790,1761,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_020,20,2022-11-25,Group Stage,played,England,United States,ENG,USA,ENG,USA,UEFA,CONCACAF,1956,1795,Al Khor,Qatar,TRUE
+WC-2022,WC-2022_021,21,2022-11-26,Group Stage,played,Poland,Saudi Arabia,POL,KSA,POL,SAU,UEFA,AFC,1813,1693,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_022,22,2022-11-26,Group Stage,played,Argentina,Mexico,ARG,MEX,ARG,MEX,CONMEBOL,CONCACAF,2086,1808,Lusail,Qatar,TRUE
+WC-2022,WC-2022_023,23,2022-11-26,Group Stage,played,Tunisia,Australia,TUN,AUS,TUN,AUS,CAF,AFC,1724,1704,Al Wakrah,Qatar,TRUE
+WC-2022,WC-2022_024,24,2022-11-26,Group Stage,played,France,Denmark,FRA,DNK,FRA,DNK,UEFA,UEFA,2022,1952,Doha,Qatar,TRUE
+WC-2022,WC-2022_025,25,2022-11-27,Group Stage,played,Japan,Costa Rica,JPN,CRI,JPN,CRI,AFC,CONCACAF,1832,1723,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_026,26,2022-11-27,Group Stage,played,Spain,Germany,ESP,GER,ESP,DEU,UEFA,UEFA,2068,1918,Al Khor,Qatar,TRUE
+WC-2022,WC-2022_027,27,2022-11-27,Group Stage,played,Belgium,Morocco,BEL,MAR,BEL,MAR,UEFA,CAF,2019,1777,Doha,Qatar,TRUE
+WC-2022,WC-2022_028,28,2022-11-27,Group Stage,played,Croatia,Canada,HRV,CAN,HRV,CAN,UEFA,CONCACAF,1913,1762,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_029,29,2022-11-28,Group Stage,played,Cameroon,Serbia,CMR,SRB,CMR,SRB,CAF,UEFA,1598,1882,Al Wakrah,Qatar,TRUE
+WC-2022,WC-2022_030,30,2022-11-28,Group Stage,played,Brazil,Switzerland,BRA,CHE,BRA,CHE,CONMEBOL,UEFA,2185,1910,Doha,Qatar,TRUE
+WC-2022,WC-2022_031,31,2022-11-28,Group Stage,played,South Korea,Ghana,KOR,GHA,KOR,GHA,AFC,CAF,1798,1560,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_032,32,2022-11-28,Group Stage,played,Portugal,Uruguay,PRT,URY,PRT,URY,UEFA,CONMEBOL,2009,1923,Lusail,Qatar,TRUE
+WC-2022,WC-2022_033,33,2022-11-29,Group Stage,played,Ecuador,Senegal,ECU,SEN,ECU,SEN,CONMEBOL,CAF,1885,1728,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_034,34,2022-11-29,Group Stage,played,Qatar,Netherlands,QAT,NED,QAT,NLD,AFC,UEFA,1588,2036,Al Khor,Qatar,FALSE
+WC-2022,WC-2022_035,35,2022-11-29,Group Stage,played,Wales,England,WAL,ENG,WAL,ENG,UEFA,UEFA,1741,1943,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_036,36,2022-11-29,Group Stage,played,Iran,United States,IRN,USA,IRN,USA,AFC,CONCACAF,1810,1808,Doha,Qatar,TRUE
+WC-2022,WC-2022_037,37,2022-11-30,Group Stage,played,Poland,Argentina,POL,ARG,POL,ARG,UEFA,CONMEBOL,1843,2101,Doha,Qatar,TRUE
+WC-2022,WC-2022_038,38,2022-11-30,Group Stage,played,Saudi Arabia,Mexico,KSA,MEX,SAU,MEX,AFC,CONCACAF,1663,1793,Lusail,Qatar,TRUE
+WC-2022,WC-2022_039,39,2022-11-30,Group Stage,played,Australia,Denmark,AUS,DNK,AUS,DNK,AFC,UEFA,1736,1928,Al Wakrah,Qatar,TRUE
+WC-2022,WC-2022_040,40,2022-11-30,Group Stage,played,Tunisia,France,TUN,FRA,TUN,FRA,CAF,UEFA,1692,2046,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_041,41,2022-12-01,Group Stage,played,Japan,Spain,JPN,ESP,JPN,ESP,AFC,UEFA,1793,2056,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_042,42,2022-12-01,Group Stage,played,Costa Rica,Germany,CRI,GER,CRI,DEU,CONCACAF,UEFA,1762,1930,Al Khor,Qatar,TRUE
+WC-2022,WC-2022_043,43,2022-12-01,Group Stage,played,Croatia,Belgium,HRV,BEL,HRV,BEL,UEFA,UEFA,1944,1947,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_044,44,2022-12-01,Group Stage,played,Canada,Morocco,CAN,MAR,CAN,MAR,CONCACAF,CAF,1731,1849,Doha,Qatar,TRUE
+WC-2022,WC-2022_045,45,2022-12-02,Group Stage,played,Serbia,Switzerland,SRB,CHE,SRB,CHE,UEFA,UEFA,1862,1900,Doha,Qatar,TRUE
+WC-2022,WC-2022_046,46,2022-12-02,Group Stage,played,Cameroon,Brazil,CMR,BRA,CMR,BRA,CAF,CONMEBOL,1618,2195,Lusail,Qatar,TRUE
+WC-2022,WC-2022_047,47,2022-12-02,Group Stage,played,Ghana,Uruguay,GHA,URY,GHA,URY,CAF,CONMEBOL,1608,1889,Al Wakrah,Qatar,TRUE
+WC-2022,WC-2022_048,48,2022-12-02,Group Stage,played,South Korea,Portugal,KOR,PRT,KOR,PRT,AFC,UEFA,1750,2043,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_049,49,2022-12-03,Round of 16,played,Netherlands,United States,NED,USA,NLD,USA,UEFA,CONCACAF,2047,1838,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_050,50,2022-12-03,Round of 16,played,Argentina,Australia,ARG,AUS,ARG,AUS,CONMEBOL,AFC,2118,1781,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_051,51,2022-12-04,Round of 16,played,France,Poland,FRA,POL,FRA,POL,UEFA,UEFA,1993,1826,Doha,Qatar,TRUE
+WC-2022,WC-2022_052,52,2022-12-04,Round of 16,played,England,Senegal,ENG,SEN,ENG,SEN,UEFA,CAF,1968,1771,Al Khor,Qatar,TRUE
+WC-2022,WC-2022_053,53,2022-12-05,Round of 16,played,Japan,Croatia,JPN,HRV,JPN,HRV,AFC,UEFA,1842,1944,Al Wakrah,Qatar,TRUE
+WC-2022,WC-2022_054,54,2022-12-05,Round of 16,played,Brazil,South Korea,BRA,KOR,BRA,KOR,CONMEBOL,AFC,2137,1801,Doha,Qatar,TRUE
+WC-2022,WC-2022_055,55,2022-12-06,Round of 16,played,Morocco,Spain,MAR,ESP,MAR,ESP,CAF,UEFA,1869,2007,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_056,56,2022-12-06,Round of 16,played,Portugal,Switzerland,PRT,CHE,PRT,CHE,UEFA,UEFA,1992,1927,Lusail,Qatar,TRUE
+WC-2022,WC-2022_057,57,2022-12-09,Quarter-final,played,Croatia,Brazil,HRV,BRA,HRV,BRA,UEFA,CONMEBOL,1935,2150,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_058,58,2022-12-09,Quarter-final,played,Netherlands,Argentina,NED,ARG,NLD,ARG,UEFA,CONMEBOL,2068,2126,Lusail,Qatar,TRUE
+WC-2022,WC-2022_059,59,2022-12-10,Quarter-final,played,Morocco,Portugal,MAR,PRT,MAR,PRT,CAF,UEFA,1880,2041,Doha,Qatar,TRUE
+WC-2022,WC-2022_060,60,2022-12-10,Quarter-final,played,England,France,ENG,FRA,ENG,FRA,UEFA,UEFA,1994,2018,Al Khor,Qatar,TRUE
+WC-2022,WC-2022_061,61,2022-12-13,Semi-final,played,Argentina,Croatia,ARG,HRV,ARG,HRV,CONMEBOL,UEFA,2121,1952,Lusail,Qatar,TRUE
+WC-2022,WC-2022_062,62,2022-12-14,Semi-final,played,France,Morocco,FRA,MAR,FRA,MAR,UEFA,CAF,2046,1923,Al Khor,Qatar,TRUE
+WC-2022,WC-2022_063,63,2022-12-17,Third Place,played,Croatia,Morocco,HRV,MAR,HRV,MAR,UEFA,CAF,1923,1893,Al Rayyan,Qatar,TRUE
+WC-2022,WC-2022_064,64,2022-12-18,Final,played,Argentina,France,ARG,FRA,ARG,FRA,CONMEBOL,UEFA,2150,2076,Lusail,Qatar,TRUE

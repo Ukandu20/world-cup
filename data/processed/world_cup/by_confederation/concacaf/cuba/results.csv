@@ -1,398 +1,398 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1930-03-16,Central American and Caribbean Games,played,Cuba,CUB,Jamaica,JAM,TRUE,3,1,win,Havana,Cuba,FALSE,1600,1460,1612,1448,12
-1930-03-20,Central American and Caribbean Games,played,Cuba,CUB,Honduras,HND,TRUE,7,0,win,Havana,Cuba,FALSE,1612,1393,1624,1381,12
-1930-03-23,Central American and Caribbean Games,played,Cuba,CUB,Honduras,HND,TRUE,5,0,win,Havana,Cuba,FALSE,1624,1381,1634,1371,10
-1930-03-30,Central American and Caribbean Games,played,Cuba,CUB,Costa Rica,CRI,TRUE,2,1,win,Havana,Cuba,FALSE,1634,1861,1661,1834,27
-1930-04-01,Central American and Caribbean Games,played,Cuba,CUB,El Salvador,SLV,TRUE,5,2,win,Havana,Cuba,FALSE,1661,1462,1672,1451,11
-1934-01-28,FIFA World Cup qualification,played,Cuba,CUB,Haiti,HTI,FALSE,3,1,win,Port-au-Prince,Haiti,FALSE,1672,1290,1682,1280,10
-1934-02-01,FIFA World Cup qualification,played,Cuba,CUB,Haiti,HTI,FALSE,1,1,draw,Port-au-Prince,Haiti,FALSE,1682,1280,1668,1294,-14
-1934-02-04,FIFA World Cup qualification,played,Cuba,CUB,Haiti,HTI,FALSE,6,0,win,Port-au-Prince,Haiti,FALSE,1668,1294,1683,1279,15
-1934-03-04,FIFA World Cup qualification,played,Cuba,CUB,Mexico,MEX,FALSE,2,3,loss,Mexico City,Mexico,FALSE,1683,1498,1658,1523,-25
-1934-03-11,FIFA World Cup qualification,played,Cuba,CUB,Mexico,MEX,FALSE,0,5,loss,Mexico City,Mexico,FALSE,1658,1523,1614,1567,-44
-1934-03-18,FIFA World Cup qualification,played,Cuba,CUB,Mexico,MEX,FALSE,1,4,loss,Mexico City,Mexico,FALSE,1614,1567,1584,1597,-30
-1935-03-24,Central American and Caribbean Games,played,Cuba,CUB,El Salvador,SLV,FALSE,1,4,loss,San Salvador,El Salvador,FALSE,1584,1451,1546,1489,-38
-1935-03-25,Central American and Caribbean Games,played,Cuba,CUB,Honduras,HND,TRUE,3,0,win,San Salvador,El Salvador,TRUE,1546,1406,1568,1384,22
-1935-03-27,Central American and Caribbean Games,played,Cuba,CUB,Guatemala,,TRUE,2,1,win,San Salvador,El Salvador,TRUE,1568,1443,1581,1430,13
-1935-03-30,Central American and Caribbean Games,played,Cuba,CUB,Mexico,MEX,FALSE,1,6,loss,San Salvador,El Salvador,TRUE,1581,1649,1549,1681,-32
-1935-03-31,Central American and Caribbean Games,played,Cuba,CUB,Costa Rica,CRI,FALSE,1,2,loss,San Salvador,El Salvador,TRUE,1549,1856,1543,1862,-6
-1938-05-29,Friendly,played,Cuba,CUB,Basque Country,,TRUE,0,4,loss,Havana,Cuba,FALSE,,,,,
-1938-06-05,FIFA World Cup,played,Cuba,CUB,Romania,ROU,TRUE,3,3,draw,Toulouse,France,TRUE,1543,1557,1544,1556,1
-1938-06-09,FIFA World Cup,played,Cuba,CUB,Romania,ROU,TRUE,2,1,win,Toulouse,France,TRUE,1544,1556,1575,1525,31
-1938-06-12,FIFA World Cup,played,Cuba,CUB,Sweden,SWE,TRUE,0,8,loss,Antibes,France,TRUE,1575,1644,1518,1701,-57
-1938-06-20,Friendly,played,Cuba,CUB,Basque Country,,TRUE,3,4,loss,Havana,Cuba,FALSE,,,,,
-1939-08-06,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,4,0,win,Panama City,Panama,FALSE,,,,,
-1940-11-12,Friendly,played,Cuba,CUB,Puerto Rico,,TRUE,1,1,draw,Havana,Cuba,FALSE,,,,,
-1942-01-26,Friendly,played,Cuba,CUB,Puerto Rico,,TRUE,1,0,win,Havana,Cuba,FALSE,,,,,
-1942-01-29,Friendly,played,Cuba,CUB,Puerto Rico,,TRUE,1,0,win,Havana,Cuba,FALSE,,,,,
-1947-07-17,NAFC Championship,played,Cuba,CUB,Mexico,MEX,TRUE,1,3,loss,Havana,Cuba,FALSE,1518,1844,1502,1860,-16
-1947-07-20,NAFC Championship,played,Cuba,CUB,United States,USA,TRUE,5,2,win,Havana,Cuba,FALSE,1502,1639,1550,1591,48
-1947-12-06,Friendly,played,Cuba,CUB,Puerto Rico,,TRUE,4,0,win,Havana,Cuba,FALSE,,,,,
-1947-12-10,Friendly,played,Cuba,CUB,Puerto Rico,,TRUE,0,0,draw,Havana,Cuba,FALSE,,,,,
-1948-06-09,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,0,3,loss,Kingston,Jamaica,FALSE,,,,,
-1948-06-12,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,,,,,
-1949-05-09,Friendly,played,Cuba,CUB,Martinique,,TRUE,0,0,draw,Paramaribo,Dutch Guyana,TRUE,,,,,
-1949-05-12,Friendly,played,Cuba,CUB,Suriname,,FALSE,1,0,win,Paramaribo,Dutch Guyana,FALSE,,,,,
-1949-05-14,Friendly,played,Cuba,CUB,Dominican Republic,,TRUE,0,1,loss,Paramaribo,Dutch Guyana,TRUE,,,,,
-1949-09-11,NAFC Championship,played,Cuba,CUB,Mexico,MEX,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1550,1809,1542,1817,-8
-1949-09-14,NAFC Championship,played,Cuba,CUB,United States,USA,TRUE,1,1,draw,Mexico City,Mexico,TRUE,1542,1545,1542,1545,0
-1949-09-21,FIFA World Cup qualification,played,Cuba,CUB,United States,USA,FALSE,2,5,loss,Mexico City,Mexico,TRUE,1542,1535,1497,1580,-45
-1949-09-25,FIFA World Cup qualification,played,Cuba,CUB,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1497,1827,1490,1834,-7
-1949-12-18,Friendly,played,Cuba,CUB,Jamaica,JAM,TRUE,2,5,loss,Port-au-Prince,Haiti,TRUE,,,,,
-1949-12-20,Friendly,played,Cuba,CUB,Haiti,HTI,FALSE,0,3,loss,Port-au-Prince,Haiti,FALSE,,,,,
-1955-08-14,CCCF Championship,played,Cuba,CUB,Honduras,HND,FALSE,0,3,loss,Tegucigalpa,Honduras,FALSE,1395,1485,1373,1507,-22
-1955-08-16,CCCF Championship,played,Cuba,CUB,Costa Rica,CRI,FALSE,0,6,loss,Tegucigalpa,Honduras,TRUE,1373,1639,1354,1658,-19
-1955-08-19,CCCF Championship,played,Cuba,CUB,Aruba,,FALSE,1,4,loss,Tegucigalpa,Honduras,TRUE,,,,,
-1955-08-20,CCCF Championship,played,Cuba,CUB,El Salvador,SLV,FALSE,1,2,loss,Tegucigalpa,Honduras,TRUE,,,,,
-1955-08-28,CCCF Championship,played,Cuba,CUB,Curaçao,,FALSE,0,2,loss,Tegucigalpa,Honduras,TRUE,1293,1527,1278,1542,-15
-1957-08-14,CCCF Championship,played,Cuba,CUB,Panama,PAN,TRUE,0,1,loss,Willemstad,Curaçao,TRUE,1278,1249,1251,1276,-27
-1957-08-18,CCCF Championship,played,Cuba,CUB,Curaçao,,FALSE,0,2,loss,Willemstad,Curaçao,FALSE,1251,1503,1242,1512,-9
-1957-08-21,CCCF Championship,played,Cuba,CUB,Honduras,HND,TRUE,0,2,loss,Willemstad,Curaçao,TRUE,1242,1435,1223,1454,-19
-1957-08-23,CCCF Championship,played,Cuba,CUB,Haiti,HTI,TRUE,1,6,loss,Willemstad,Curaçao,TRUE,1223,1486,1205,1504,-18
-1960-02-23,CCCF Championship,played,Cuba,CUB,Curaçao,,TRUE,3,4,loss,Havana,Cuba,FALSE,1166,1487,1155,1498,-11
-1961-03-05,CCCF Championship,played,Cuba,CUB,Costa Rica,CRI,FALSE,1,4,loss,San José,Costa Rica,FALSE,1194,1681,1191,1684,-3
-1961-03-07,CCCF Championship,played,Cuba,CUB,Haiti,HTI,TRUE,1,2,loss,San José,Costa Rica,TRUE,1191,1507,1184,1514,-7
-1961-03-10,CCCF Championship,played,Cuba,CUB,Panama,PAN,TRUE,0,1,loss,San José,Costa Rica,TRUE,1184,1229,1162,1251,-22
-1961-03-12,CCCF Championship,played,Cuba,CUB,Guatemala,,TRUE,0,2,loss,San José,Costa Rica,TRUE,1162,1409,1147,1424,-15
-1965-01-16,FIFA World Cup qualification,played,Cuba,CUB,Jamaica,JAM,FALSE,0,2,loss,Kingston,Jamaica,FALSE,1125,1279,1114,1290,-11
-1965-01-20,FIFA World Cup qualification,played,Cuba,CUB,Curaçao,,TRUE,1,1,draw,Kingston,Jamaica,TRUE,1114,1563,1131,1546,17
-1965-01-30,FIFA World Cup qualification,played,Cuba,CUB,Curaçao,,TRUE,0,1,loss,Havana,Cuba,FALSE,1131,1503,1124,1510,-7
-1965-02-07,FIFA World Cup qualification,played,Cuba,CUB,Jamaica,JAM,TRUE,2,1,win,Havana,Cuba,FALSE,1124,1342,1151,1315,27
-1967-01-12,CONCACAF Championship qualification,played,Cuba,CUB,Haiti,HTI,TRUE,1,1,draw,Kingston,Jamaica,TRUE,1212,1446,1224,1434,12
-1967-01-14,CONCACAF Championship qualification,played,Cuba,CUB,Jamaica,JAM,FALSE,1,2,loss,Kingston,Jamaica,FALSE,1224,1277,1212,1289,-12
-1967-01-17,CONCACAF Championship qualification,played,Cuba,CUB,Curaçao,,FALSE,2,2,draw,Kingston,Jamaica,TRUE,1212,1487,1225,1474,13
-1967-01-20,CONCACAF Championship qualification,played,Cuba,CUB,Trinidad and Tobago,TTO,TRUE,1,2,loss,Kingston,Jamaica,TRUE,1225,1445,1216,1454,-9
-1970-09-20,Friendly,played,Cuba,CUB,North Vietnam,,FALSE,1,2,loss,Hanoi,North Vietnam,FALSE,1320,1275,1312,1283,-8
-1971-05-21,Friendly,played,Cuba,CUB,China PR,,FALSE,0,1,loss,Beijing,China PR,FALSE,,,,,
-1971-10-01,CONCACAF Championship qualification,played,Cuba,CUB,Jamaica,JAM,FALSE,1,0,win,Kingston,Jamaica,FALSE,1342,1250,1362,1230,20
-1971-10-04,CONCACAF Championship qualification,played,Cuba,CUB,Jamaica,JAM,TRUE,0,0,draw,Havana,Cuba,FALSE,1362,1230,1350,1242,-12
-1971-11-20,CONCACAF Championship,played,Cuba,CUB,Costa Rica,CRI,TRUE,0,3,loss,Port of Spain,Trinidad and Tobago,TRUE,1350,1698,1340,1708,-10
-1971-11-23,CONCACAF Championship,played,Cuba,CUB,Honduras,HND,TRUE,3,1,win,Port of Spain,Trinidad and Tobago,TRUE,1340,1470,1391,1419,51
-1971-11-28,CONCACAF Championship,played,Cuba,CUB,Mexico,MEX,TRUE,0,1,loss,San Fernando,Trinidad and Tobago,TRUE,1391,1717,1384,1724,-7
-1971-11-30,CONCACAF Championship,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,2,2,draw,Port of Spain,Trinidad and Tobago,FALSE,1384,1307,1386,1305,2
-1971-12-04,CONCACAF Championship,played,Cuba,CUB,Haiti,HTI,TRUE,0,0,draw,San Fernando,Trinidad and Tobago,TRUE,1386,1602,1400,1588,14
-1972-04-02,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,0,2,loss,Kingston,Jamaica,FALSE,1400,1257,1383,1274,-17
-1975-01-05,Friendly,played,Cuba,CUB,Canada,CAN,TRUE,4,0,win,Havana,Cuba,FALSE,1497,1548,1513,1532,16
-1975-09-05,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,1,0,win,Panama City,Panama,FALSE,1497,1237,1503,1231,6
-1975-09-07,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,2,2,draw,La Chorrera,Panama,FALSE,1503,1231,1498,1236,-5
-1975-09-16,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,3,2,win,Panama City,Panama,FALSE,1522,1236,1527,1231,5
-1976-04-21,Friendly,played,Cuba,CUB,Congo,,FALSE,1,3,loss,Brazzaville,Congo,FALSE,1558,1509,1545,1522,-13
-1976-08-15,CONCACAF Championship qualification,played,Cuba,CUB,Jamaica,JAM,FALSE,3,1,win,Kingston,Jamaica,FALSE,1557,1357,1579,1335,22
-1976-08-29,CONCACAF Championship qualification,played,Cuba,CUB,Jamaica,JAM,TRUE,2,0,win,Havana,Cuba,FALSE,1579,1335,1586,1328,7
-1976-11-28,CONCACAF Championship qualification,played,Cuba,CUB,Haiti,HTI,TRUE,1,1,draw,Havana,Cuba,FALSE,1586,1535,1578,1543,-8
-1976-12-11,CONCACAF Championship qualification,played,Cuba,CUB,Haiti,HTI,FALSE,1,1,draw,Port-au-Prince,Haiti,FALSE,1578,1543,1582,1539,4
-1976-12-23,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,5,0,win,Panama City,Panama,FALSE,1582,1232,1590,1224,8
-1976-12-29,CONCACAF Championship qualification,played,Cuba,CUB,Haiti,HTI,TRUE,0,2,loss,Panama City,Panama,TRUE,1590,1550,1557,1583,-33
-1977-05-30,Friendly,played,Cuba,CUB,Mozambique,,FALSE,2,0,win,Maputo,Mozambique,FALSE,,,,,
-1977-06-03,Friendly,played,Cuba,CUB,Libya,,FALSE,0,1,loss,Tripoli,Libya,FALSE,1557,1354,1544,1367,-13
-1977-06-10,Friendly,played,Cuba,CUB,Ethiopia,,FALSE,0,0,draw,Addis Ababa,Ethiopia,FALSE,1544,1443,1544,1443,0
-1977-06-12,Friendly,played,Cuba,CUB,Zambia,,FALSE,0,2,loss,Lusaka,Zambia,FALSE,1544,1540,1533,1551,-11
-1977-06-16,Friendly,played,Cuba,CUB,Zambia,,FALSE,1,0,win,Kitwe,Zambia,FALSE,1533,1551,1546,1538,13
-1980-06-24,Friendly,played,Cuba,CUB,Costa Rica,CRI,FALSE,0,3,loss,San José,Costa Rica,FALSE,1581,1632,1571,1642,-10
-1980-08-17,CONCACAF Championship qualification,played,Cuba,CUB,Suriname,,TRUE,3,0,win,Havana,Cuba,FALSE,1599,1554,1620,1533,21
-1980-09-07,CONCACAF Championship qualification,played,Cuba,CUB,Suriname,,FALSE,0,0,draw,Paramaribo,Suriname,FALSE,1620,1533,1621,1532,1
-1980-11-09,CONCACAF Championship qualification,played,Cuba,CUB,Guyana,,TRUE,1,0,win,Havana,Cuba,FALSE,1621,1257,1624,1254,3
-1980-11-22,Friendly,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,2,2,draw,San Fernando,Trinidad and Tobago,FALSE,1624,1425,1621,1428,-3
-1980-11-30,CONCACAF Championship qualification,played,Cuba,CUB,Guyana,,FALSE,3,0,win,Linden,Guyana,FALSE,1621,1254,1633,1242,12
-1981-05-19,Friendly,played,Cuba,CUB,German DR,DDR,FALSE,0,5,loss,Senftenberg,German DR,FALSE,1633,1932,1629,1936,-4
-1981-09-20,Friendly,played,Cuba,CUB,Venezuela,,FALSE,0,1,loss,Barquisimeto,Venezuela,FALSE,1629,1357,1607,1379,-22
-1981-11-01,CONCACAF Championship,played,Cuba,CUB,Mexico,MEX,FALSE,0,4,loss,Tegucigalpa,Honduras,TRUE,1607,1676,1569,1714,-38
-1981-11-08,CONCACAF Championship,played,Cuba,CUB,Honduras,HND,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1569,1594,1544,1619,-25
-1981-11-11,CONCACAF Championship,played,Cuba,CUB,El Salvador,SLV,TRUE,0,0,draw,Tegucigalpa,Honduras,TRUE,1544,1570,1546,1568,2
-1981-11-15,CONCACAF Championship,played,Cuba,CUB,Haiti,HTI,FALSE,2,0,win,Tegucigalpa,Honduras,TRUE,1546,1518,1580,1484,34
-1981-11-21,CONCACAF Championship,played,Cuba,CUB,Canada,CAN,TRUE,2,2,draw,Tegucigalpa,Honduras,TRUE,1580,1598,1581,1597,1
-1983-07-27,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1590,1186,1583,1193,-7
-1983-07-31,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,0,1,loss,La Chorrera,Panama,FALSE,1583,1193,1566,1210,-17
-1983-08-02,Friendly,played,Cuba,CUB,Costa Rica,CRI,FALSE,0,3,loss,Alajuela,Costa Rica,FALSE,1566,1532,1552,1546,-14
-1983-08-04,Friendly,played,Cuba,CUB,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1552,1546,1541,1557,-11
-1984-03-13,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,1,1,draw,Panama City,Panama,FALSE,1531,1210,1525,1216,-6
-1984-03-18,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,1,0,win,Panama City,Panama,FALSE,1523,1216,1528,1211,5
-1985-01-20,Friendly,played,Cuba,CUB,Guyana,,FALSE,1,2,loss,Georgetown,Guyana,FALSE,,,,,
-1985-01-27,Friendly,played,Cuba,CUB,Guyana,,FALSE,1,1,draw,Georgetown,Guyana,FALSE,,,,,
-1986-10-30,Friendly,played,Cuba,CUB,Panama,PAN,TRUE,1,1,draw,Managua,Nicaragua,TRUE,1520,1225,1510,1235,-10
-1987-02-20,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1510,1235,1495,1250,-15
-1987-02-22,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,3,1,win,Panama City,Panama,FALSE,1495,1250,1504,1241,9
-1987-03-25,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1510,1257,1506,1261,-4
-1987-03-31,Friendly,played,Cuba,CUB,Ecuador,ECU,FALSE,1,0,win,Machala,Ecuador,FALSE,1506,1527,1519,1514,13
-1987-04-02,Friendly,played,Cuba,CUB,Ecuador,ECU,FALSE,0,0,draw,Azogues,Ecuador,FALSE,1519,1514,1522,1511,3
-1987-04-29,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,0,2,loss,Kingston,Jamaica,FALSE,1519,1263,1498,1284,-21
-1987-12-08,Friendly,played,Cuba,CUB,Angola,AGO,FALSE,2,3,loss,Luanda,Angola,FALSE,1498,1492,1487,1503,-11
-1987-12-10,Friendly,played,Cuba,CUB,Ghana,GHA,TRUE,1,1,draw,Luanda,Angola,TRUE,1487,1629,1493,1623,6
-1988-04-30,CONCACAF Championship qualification,played,Cuba,CUB,Guatemala,,TRUE,0,1,loss,Havana,Cuba,FALSE,1493,1560,1471,1582,-22
-1988-05-15,CONCACAF Championship qualification,played,Cuba,CUB,Guatemala,,FALSE,1,1,draw,San Marcos,Guatemala,FALSE,1471,1582,1482,1571,11
-1988-08-06,Friendly,played,Cuba,CUB,Albania,,FALSE,0,0,draw,Berat,Albania,FALSE,1482,1443,1484,1441,2
-1992-05-02,CFU Caribbean Cup qualification,played,Cuba,CUB,Anguilla,,FALSE,3,0,win,The Valley,Anguilla,FALSE,1489,575,1490,574,1
-1992-05-09,CFU Caribbean Cup qualification,played,Cuba,CUB,Anguilla,,TRUE,5,0,win,Havana,Cuba,FALSE,1490,574,1490,574,0
-1992-06-22,CFU Caribbean Cup,played,Cuba,CUB,Jamaica,JAM,TRUE,0,0,draw,San Fernando,Trinidad and Tobago,TRUE,1520,1407,1514,1413,-6
-1992-06-24,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1514,1533,1501,1546,-13
-1992-06-27,CFU Caribbean Cup,played,Cuba,CUB,Martinique,,TRUE,1,1,draw,Port of Spain,Trinidad and Tobago,TRUE,,,,,
-1995-03-12,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1496,1436,1497,1435,1
-1995-05-23,CFU Caribbean Cup qualification,played,Cuba,CUB,Curaçao,,TRUE,3,0,win,Santo Domingo,Dominican Republic,TRUE,1497,1325,1516,1306,19
-1995-05-25,CFU Caribbean Cup qualification,played,Cuba,CUB,Dominican Republic,,FALSE,3,0,win,Santo Domingo,Dominican Republic,FALSE,1516,1039,1523,1032,7
-1995-05-27,CFU Caribbean Cup qualification,played,Cuba,CUB,Puerto Rico,,TRUE,9,0,win,Santo Domingo,Dominican Republic,TRUE,1523,1076,1530,1069,7
-1995-07-19,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,0,2,loss,Kingston,Jamaica,TRUE,1530,1535,1500,1565,-30
-1995-07-21,CFU Caribbean Cup,played,Cuba,CUB,Jamaica,JAM,FALSE,2,1,win,Montego Bay,Jamaica,FALSE,1500,1444,1523,1421,23
-1995-07-23,CFU Caribbean Cup,played,Cuba,CUB,Saint Lucia,,TRUE,2,0,win,Kingston,Jamaica,TRUE,1523,1289,1535,1277,12
-1995-07-30,CFU Caribbean Cup,played,Cuba,CUB,Cayman Islands,,FALSE,3,0,win,George Town,Cayman Islands,FALSE,1503,1091,1513,1081,10
-1996-01-14,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1513,1538,1516,1535,3
-1996-04-26,CFU Caribbean Cup qualification,played,Cuba,CUB,Cayman Islands,,FALSE,4,0,win,George Town,Cayman Islands,FALSE,1516,1066,1525,1057,9
-1996-05-12,FIFA World Cup qualification,played,Cuba,CUB,Cayman Islands,,FALSE,1,0,win,George Town,Cayman Islands,FALSE,1525,1057,1529,1053,4
-1996-05-14,FIFA World Cup qualification,played,Cuba,CUB,Cayman Islands,,FALSE,5,0,win,George Town,Cayman Islands,FALSE,1529,1053,1537,1045,8
-1996-05-25,CFU Caribbean Cup,played,Cuba,CUB,Saint Vincent and the Grenadines,,TRUE,2,0,win,San Fernando,Trinidad and Tobago,TRUE,1537,1326,1551,1312,14
-1996-05-27,CFU Caribbean Cup,played,Cuba,CUB,Martinique,,TRUE,1,0,win,Port of Spain,Trinidad and Tobago,TRUE,1551,1498,1568,1481,17
-1996-05-29,CFU Caribbean Cup,played,Cuba,CUB,Haiti,HTI,TRUE,0,0,draw,Arima,Trinidad and Tobago,TRUE,1568,1337,1556,1349,-12
-1996-06-03,CFU Caribbean Cup,played,Cuba,CUB,Suriname,,TRUE,4,0,win,Port of Spain,Trinidad and Tobago,TRUE,1556,1296,1570,1282,14
-1996-06-07,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1570,1543,1546,1567,-24
-1996-06-23,FIFA World Cup qualification,played,Cuba,CUB,Haiti,HTI,TRUE,6,1,win,Port of Spain,Trinidad and Tobago,TRUE,,,,,
-1996-06-30,FIFA World Cup qualification,played,Cuba,CUB,Haiti,HTI,FALSE,1,1,draw,Cap-Haïtien,Haiti,FALSE,1565,1330,1558,1337,-7
-1996-08-25,Friendly,played,Cuba,CUB,Honduras,HND,FALSE,0,4,loss,Tegucigalpa,Honduras,FALSE,1558,1548,1544,1562,-14
-1996-08-28,Friendly,played,Cuba,CUB,Honduras,HND,FALSE,2,2,draw,San Pedro Sula,Honduras,FALSE,1544,1562,1547,1559,3
-1996-08-30,Friendly,played,Cuba,CUB,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1547,1464,1547,1464,0
-1996-09-08,FIFA World Cup qualification,played,Cuba,CUB,El Salvador,SLV,FALSE,0,5,loss,San Salvador,El Salvador,FALSE,1547,1512,1514,1545,-33
-1996-09-22,FIFA World Cup qualification,played,Cuba,CUB,Panama,PAN,FALSE,3,1,win,Panama City,Panama,FALSE,1514,1362,1540,1336,26
-1996-10-10,FIFA World Cup qualification,played,Cuba,CUB,Canada,CAN,FALSE,0,2,loss,Edmonton,Canada,FALSE,1540,1614,1524,1630,-16
-1996-10-13,FIFA World Cup qualification,played,Cuba,CUB,Canada,CAN,FALSE,0,2,loss,Edmonton,Canada,FALSE,1524,1630,1510,1644,-14
-1996-12-01,FIFA World Cup qualification,played,Cuba,CUB,El Salvador,SLV,FALSE,0,3,loss,San Salvador,El Salvador,FALSE,1510,1526,1486,1550,-24
-1996-12-15,FIFA World Cup qualification,played,Cuba,CUB,Panama,PAN,FALSE,1,3,loss,Panama City,Panama,FALSE,1486,1340,1452,1374,-34
-1997-06-29,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,0,3,loss,Kingston,Jamaica,FALSE,,,,,
-1997-10-04,Gold Cup qualification,played,Cuba,CUB,Saint Kitts and Nevis,,FALSE,2,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1445,1237,1466,1216,21
-1997-10-20,Friendly,played,Cuba,CUB,Haiti,HTI,FALSE,2,2,draw,Port-au-Prince,Haiti,FALSE,1466,1332,1465,1333,-1
-1997-10-22,Friendly,played,Cuba,CUB,Cameroon,CMR,TRUE,1,1,draw,Port-au-Prince,Haiti,TRUE,1465,1559,1469,1555,4
-1998-02-01,Gold Cup,played,Cuba,CUB,United States,USA,FALSE,0,3,loss,Oakland,United States,FALSE,1469,1730,1459,1740,-10
-1998-02-04,Gold Cup,played,Cuba,CUB,Costa Rica,CRI,TRUE,2,7,loss,Oakland,United States,TRUE,1459,1599,1428,1630,-31
-1998-05-06,CFU Caribbean Cup qualification,played,Cuba,CUB,Cayman Islands,,FALSE,2,2,draw,George Town,Cayman Islands,FALSE,1428,1045,1415,1058,-13
-1998-05-08,CFU Caribbean Cup qualification,played,Cuba,CUB,Bermuda,,TRUE,2,1,win,George Town,Cayman Islands,TRUE,1415,1368,1432,1351,17
-1999-05-05,CFU Caribbean Cup qualification,played,Cuba,CUB,Cayman Islands,,TRUE,4,1,win,Hamilton,Bermuda,TRUE,1432,1135,1443,1124,11
-1999-05-07,CFU Caribbean Cup qualification,played,Cuba,CUB,Bahamas,,TRUE,7,0,win,Hamilton,Bermuda,TRUE,1443,852,1446,849,3
-1999-05-09,CFU Caribbean Cup qualification,played,Cuba,CUB,Bermuda,,FALSE,2,1,win,Hamilton,Bermuda,FALSE,1446,1311,1464,1293,18
-1999-06-04,CFU Caribbean Cup,played,Cuba,CUB,Haiti,HTI,TRUE,3,1,win,Macoya,Trinidad and Tobago,TRUE,1464,1401,1489,1376,25
-1999-06-08,CFU Caribbean Cup,played,Cuba,CUB,Saint Kitts and Nevis,,TRUE,2,0,win,Macoya,Trinidad and Tobago,TRUE,1489,1276,1503,1262,14
-1999-06-10,CFU Caribbean Cup,played,Cuba,CUB,Jamaica,JAM,TRUE,2,0,win,Port of Spain,Trinidad and Tobago,TRUE,1503,1646,1545,1604,42
-1999-06-13,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1545,1565,1532,1578,-13
-1999-10-06,Gold Cup qualification,played,Cuba,CUB,Canada,CAN,FALSE,0,0,draw,Los Angeles,United States,TRUE,1532,1542,1533,1541,1
-1999-10-08,Gold Cup qualification,played,Cuba,CUB,Haiti,HTI,TRUE,0,1,loss,Los Angeles,United States,TRUE,1533,1394,1505,1422,-28
-1999-10-10,Gold Cup qualification,played,Cuba,CUB,El Salvador,SLV,TRUE,3,1,win,Los Angeles,United States,TRUE,1505,1409,1527,1387,22
-1999-12-05,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1527,1335,1514,1348,-13
-2000-03-05,FIFA World Cup qualification,played,Cuba,CUB,Cayman Islands,,TRUE,4,0,win,Havana,Cuba,FALSE,1514,1123,1518,1119,4
-2000-03-09,Friendly,played,Cuba,CUB,Nicaragua,,TRUE,4,0,win,Havana,Cuba,FALSE,1518,934,1519,933,1
-2000-03-19,FIFA World Cup qualification,played,Cuba,CUB,Cayman Islands,,FALSE,0,0,draw,George Town,Cayman Islands,FALSE,1519,1119,1505,1133,-14
-2000-04-02,FIFA World Cup qualification,played,Cuba,CUB,Suriname,,TRUE,1,0,win,Havana,Cuba,FALSE,1505,1275,1510,1270,5
-2000-04-16,FIFA World Cup qualification,played,Cuba,CUB,Suriname,,FALSE,0,0,draw,Paramaribo,Suriname,FALSE,1510,1270,1502,1278,-8
-2000-05-07,FIFA World Cup qualification,played,Cuba,CUB,Barbados,,TRUE,1,1,draw,Havana,Cuba,FALSE,1502,1359,1490,1371,-12
-2000-05-21,FIFA World Cup qualification,played,Cuba,CUB,Barbados,,FALSE,1,1,draw,Bridgetown,Barbados,FALSE,1490,1371,1489,1372,-1
-2000-05-27,Friendly,played,Cuba,CUB,Haiti,HTI,TRUE,0,1,loss,Havana,Cuba,FALSE,1489,1428,1475,1442,-14
-2000-05-29,Friendly,played,Cuba,CUB,Haiti,HTI,TRUE,1,1,draw,Havana,Cuba,FALSE,1475,1442,1471,1446,-4
-2000-06-04,FIFA World Cup qualification,played,Cuba,CUB,Canada,CAN,TRUE,0,1,loss,Havana,Cuba,FALSE,1471,1721,1459,1733,-12
-2000-06-11,FIFA World Cup qualification,played,Cuba,CUB,Canada,CAN,FALSE,0,0,draw,Winnipeg,Canada,FALSE,1459,1733,1475,1717,16
-2000-07-02,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1475,1501,1478,1498,3
-2000-07-04,Friendly,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,1,4,loss,Macoya,Trinidad and Tobago,FALSE,1478,1573,1469,1582,-9
-2001-04-04,CFU Caribbean Cup qualification,played,Cuba,CUB,Dominica,,TRUE,3,1,win,Uitvlugt,Guyana,TRUE,1469,1101,1475,1095,6
-2001-04-06,CFU Caribbean Cup qualification,played,Cuba,CUB,Saint Martin,,TRUE,1,0,win,Uitvlugt,Guyana,TRUE,1475,1081,1479,1077,4
-2001-04-08,CFU Caribbean Cup qualification,played,Cuba,CUB,Guyana,,FALSE,3,0,win,Georgetown,Guyana,FALSE,1479,1116,1492,1103,13
-2001-05-16,CFU Caribbean Cup,played,Cuba,CUB,Suriname,,TRUE,4,3,win,Macoya,Trinidad and Tobago,TRUE,1492,1308,1502,1298,10
-2001-05-18,CFU Caribbean Cup,played,Cuba,CUB,Saint Kitts and Nevis,,FALSE,1,1,draw,Macoya,Trinidad and Tobago,TRUE,1502,1243,1489,1256,-13
-2001-05-20,CFU Caribbean Cup,played,Cuba,CUB,Haiti,HTI,FALSE,0,0,draw,Arima,Trinidad and Tobago,TRUE,1489,1424,1485,1428,-4
-2001-05-22,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1485,1615,1472,1628,-13
-2001-05-24,CFU Caribbean Cup,played,Cuba,CUB,Martinique,,FALSE,0,1,loss,Arima,Trinidad and Tobago,TRUE,1472,1389,1447,1414,-25
-2001-06-10,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,1,4,loss,Kingston,Jamaica,FALSE,1448,1587,1441,1594,-7
-2001-06-24,Friendly,played,Cuba,CUB,Belize,,FALSE,2,3,loss,Belize City,Belize,FALSE,1441,1099,1425,1115,-16
-2001-07-20,Friendly,played,Cuba,CUB,Jamaica,JAM,TRUE,0,0,draw,Havana,Cuba,FALSE,1425,1615,1428,1612,3
-2001-07-29,Gold Cup qualification,played,Cuba,CUB,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1428,1417,1433,1412,5
-2001-08-05,Gold Cup qualification,played,Cuba,CUB,Panama,PAN,TRUE,1,0,win,Havana,Cuba,FALSE,1433,1412,1446,1399,13
-2002-01-06,Friendly,played,Cuba,CUB,Guatemala,,TRUE,0,1,loss,Havana,Cuba,FALSE,1446,1579,1437,1588,-9
-2002-01-09,Friendly,played,Cuba,CUB,Guatemala,,TRUE,0,0,draw,Havana,Cuba,FALSE,1437,1588,1438,1587,1
-2002-01-21,Gold Cup,played,Cuba,CUB,United States,USA,FALSE,0,1,loss,Pasadena,United States,FALSE,1438,1774,1434,1778,-4
-2002-01-23,Gold Cup,played,Cuba,CUB,South Korea,KOR,FALSE,0,0,draw,Pasadena,United States,TRUE,1434,1784,1453,1765,19
-2002-11-27,Gold Cup qualification,played,Cuba,CUB,Cayman Islands,,FALSE,5,0,win,George Town,Cayman Islands,FALSE,1453,1122,1470,1105,17
-2002-11-29,Gold Cup qualification,played,Cuba,CUB,Martinique,,FALSE,2,1,win,George Town,Cayman Islands,TRUE,1470,1445,1489,1426,19
-2002-12-01,Gold Cup qualification,played,Cuba,CUB,Dominican Republic,,FALSE,2,1,win,George Town,Cayman Islands,TRUE,1489,1108,1493,1104,4
-2003-03-11,Friendly,played,Cuba,CUB,Jamaica,JAM,TRUE,0,0,draw,Havana,Cuba,FALSE,1493,1556,1492,1557,-1
-2003-03-13,Friendly,played,Cuba,CUB,Jamaica,JAM,TRUE,1,0,win,Havana,Cuba,FALSE,1492,1557,1501,1548,9
-2003-03-26,Gold Cup qualification,played,Cuba,CUB,Guadeloupe,,FALSE,3,2,win,Port of Spain,Trinidad and Tobago,TRUE,1501,1355,1513,1343,12
-2003-03-28,Gold Cup qualification,played,Cuba,CUB,Antigua and Barbuda,,TRUE,2,0,win,Macoya,Trinidad and Tobago,TRUE,1513,1102,1518,1097,5
-2003-03-30,Gold Cup qualification,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,3,1,win,San Fernando,Trinidad and Tobago,FALSE,1518,1478,1553,1443,35
-2003-06-27,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1553,1378,1535,1396,-18
-2003-06-29,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1535,1396,1524,1407,-11
-2003-07-06,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,2,1,win,Kingston,Jamaica,FALSE,1524,1574,1538,1560,14
-2003-07-14,Gold Cup,played,Cuba,CUB,Canada,CAN,FALSE,2,0,win,Foxborough,United States,TRUE,1538,1656,1588,1606,50
-2003-07-16,Gold Cup,played,Cuba,CUB,Costa Rica,CRI,TRUE,0,3,loss,Foxborough,United States,TRUE,1588,1736,1562,1762,-26
-2003-07-19,Gold Cup,played,Cuba,CUB,United States,USA,FALSE,0,5,loss,Foxborough,United States,FALSE,1562,1827,1551,1838,-11
-2003-11-19,Friendly,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1551,1406,1540,1417,-11
-2004-01-08,Friendly,played,Cuba,CUB,Martinique,,TRUE,0,0,draw,Havana,Cuba,FALSE,1540,1421,1534,1427,-6
-2004-02-22,FIFA World Cup qualification,played,Cuba,CUB,Cayman Islands,,FALSE,2,1,win,George Town,Cayman Islands,FALSE,1534,1104,1539,1099,5
-2004-03-16,Friendly,played,Cuba,CUB,Panama,PAN,TRUE,1,1,draw,Havana,Cuba,FALSE,1539,1401,1533,1407,-6
-2004-03-18,Friendly,played,Cuba,CUB,Panama,PAN,TRUE,3,0,win,Havana,Cuba,FALSE,1533,1407,1540,1400,7
-2004-03-27,FIFA World Cup qualification,played,Cuba,CUB,Cayman Islands,,TRUE,3,0,win,Havana,Cuba,FALSE,1540,1099,1543,1096,3
-2004-05-20,Friendly,played,Cuba,CUB,Grenada,,TRUE,2,2,draw,Havana,Cuba,FALSE,1543,1282,1535,1290,-8
-2004-06-12,FIFA World Cup qualification,played,Cuba,CUB,Costa Rica,CRI,TRUE,2,2,draw,Havana,Cuba,FALSE,1535,1723,1540,1718,5
-2004-06-20,FIFA World Cup qualification,played,Cuba,CUB,Costa Rica,CRI,FALSE,1,1,draw,Alajuela,Costa Rica,FALSE,1540,1718,1553,1705,13
-2004-12-12,CFU Caribbean Cup qualification,played,Cuba,CUB,Martinique,,TRUE,2,0,win,Havana,Cuba,FALSE,1553,1392,1564,1381,11
-2004-12-21,CFU Caribbean Cup qualification,played,Cuba,CUB,Martinique,,FALSE,2,0,win,Fort-de-France,Martinique,FALSE,1564,1381,1587,1358,23
-2005-01-09,CFU Caribbean Cup qualification,played,Cuba,CUB,Haiti,HTI,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1587,1480,1607,1460,20
-2005-01-16,CFU Caribbean Cup qualification,played,Cuba,CUB,Haiti,HTI,TRUE,1,1,draw,Havana,Cuba,FALSE,1607,1467,1595,1479,-12
-2005-02-20,CFU Caribbean Cup,played,Cuba,CUB,Barbados,,FALSE,3,0,win,Bridgetown,Barbados,FALSE,1595,1341,1615,1321,20
-2005-02-22,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,2,1,win,Bridgetown,Barbados,TRUE,1615,1468,1627,1456,12
-2005-02-24,CFU Caribbean Cup,played,Cuba,CUB,Jamaica,JAM,TRUE,0,1,loss,Bridgetown,Barbados,TRUE,1627,1636,1608,1655,-19
-2005-07-07,Gold Cup,played,Cuba,CUB,United States,USA,FALSE,1,4,loss,Seattle,United States,FALSE,1608,1865,1598,1875,-10
-2005-07-09,Gold Cup,played,Cuba,CUB,Costa Rica,CRI,FALSE,1,3,loss,Seattle,United States,TRUE,1598,1701,1571,1728,-27
-2005-07-12,Gold Cup,played,Cuba,CUB,Canada,CAN,FALSE,1,2,loss,Foxborough,United States,TRUE,1571,1538,1544,1565,-27
-2006-09-02,CFU Caribbean Cup qualification,played,Cuba,CUB,Turks and Caicos Islands,,TRUE,6,0,win,Havana,Cuba,FALSE,1544,764,1545,763,1
-2006-09-04,CFU Caribbean Cup qualification,played,Cuba,CUB,Bahamas,,TRUE,6,0,win,Havana,Cuba,FALSE,1545,876,1546,875,1
-2006-09-06,CFU Caribbean Cup qualification,played,Cuba,CUB,Cayman Islands,,TRUE,7,0,win,Havana,Cuba,FALSE,1546,982,1548,980,2
-2006-10-17,Friendly,played,Cuba,CUB,Haiti,HTI,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1548,1499,1549,1498,1
-2006-10-19,Friendly,played,Cuba,CUB,Haiti,HTI,FALSE,1,0,win,Cap-Haïtien,Haiti,FALSE,1549,1498,1560,1487,11
-2006-11-08,CFU Caribbean Cup qualification,played,Cuba,CUB,Haiti,HTI,FALSE,2,1,win,Fort-de-France,Martinique,TRUE,1560,1487,1576,1471,16
-2006-11-10,CFU Caribbean Cup qualification,played,Cuba,CUB,Suriname,,TRUE,3,1,win,Fort-de-France,Martinique,TRUE,1576,1227,1583,1220,7
-2006-11-12,CFU Caribbean Cup qualification,played,Cuba,CUB,Martinique,,FALSE,0,0,draw,Fort-de-France,Martinique,FALSE,1583,1377,1577,1383,-6
-2007-01-14,CFU Caribbean Cup,played,Cuba,CUB,Guadeloupe,,TRUE,1,2,loss,San Fernando,Trinidad and Tobago,TRUE,1577,1381,1547,1411,-30
-2007-01-18,CFU Caribbean Cup,played,Cuba,CUB,Guyana,,TRUE,0,0,draw,San Fernando,Trinidad and Tobago,TRUE,1567,1328,1555,1340,-12
-2007-01-20,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,FALSE,1555,1568,1534,1589,-21
-2007-01-23,CFU Caribbean Cup,played,Cuba,CUB,Guadeloupe,,TRUE,2,1,win,Port of Spain,Trinidad and Tobago,TRUE,1534,1380,1546,1368,12
-2007-03-24,Friendly,played,Cuba,CUB,Venezuela,,FALSE,1,3,loss,Mérida,Venezuela,FALSE,1546,1630,1538,1638,-8
-2007-05-09,Friendly,played,Cuba,CUB,Chile,CHL,FALSE,0,3,loss,Osorno,Chile,FALSE,1538,1743,1533,1748,-5
-2007-05-16,Friendly,played,Cuba,CUB,Chile,CHL,FALSE,0,2,loss,Temuco,Chile,FALSE,1533,1748,1529,1752,-4
-2007-06-08,Gold Cup,played,Cuba,CUB,Mexico,MEX,FALSE,1,2,loss,East Rutherford,United States,TRUE,1529,1830,1521,1838,-8
-2007-06-10,Gold Cup,played,Cuba,CUB,Panama,PAN,FALSE,2,2,draw,East Rutherford,United States,TRUE,1521,1587,1526,1582,5
-2007-06-13,Gold Cup,played,Cuba,CUB,Honduras,HND,TRUE,0,5,loss,Houston,United States,TRUE,1526,1681,1497,1710,-29
-2008-02-24,Friendly,played,Cuba,CUB,Guyana,,FALSE,0,0,draw,Georgetown,Guyana,FALSE,1485,1342,1484,1343,-1
-2008-06-07,Friendly,played,Cuba,CUB,Saint Vincent and the Grenadines,,TRUE,1,0,win,Havana,Cuba,FALSE,1476,1301,1479,1298,3
-2008-06-17,FIFA World Cup qualification,played,Cuba,CUB,Antigua and Barbuda,,FALSE,4,3,win,St. John's,Antigua and Barbuda,FALSE,1479,1146,1487,1138,8
-2008-06-22,FIFA World Cup qualification,played,Cuba,CUB,Antigua and Barbuda,,TRUE,4,0,win,Havana,Cuba,FALSE,1487,1138,1492,1133,5
-2008-08-20,FIFA World Cup qualification,played,Cuba,CUB,Trinidad and Tobago,TTO,TRUE,1,3,loss,Havana,Cuba,FALSE,1492,1515,1455,1552,-37
-2008-09-06,FIFA World Cup qualification,played,Cuba,CUB,United States,USA,TRUE,0,1,loss,Havana,Cuba,FALSE,1455,1807,1447,1815,-8
-2008-09-10,FIFA World Cup qualification,played,Cuba,CUB,Guatemala,,FALSE,1,4,loss,Guatemala City,Guatemala,FALSE,1447,1525,1429,1543,-18
-2008-10-11,FIFA World Cup qualification,played,Cuba,CUB,United States,USA,FALSE,1,6,loss,"Washington, D.C.",United States,FALSE,1429,1823,1425,1827,-4
-2008-10-15,FIFA World Cup qualification,played,Cuba,CUB,Guatemala,,TRUE,2,1,win,Havana,Cuba,FALSE,1425,1537,1446,1516,21
-2008-10-23,CFU Caribbean Cup qualification,played,Cuba,CUB,Curaçao,,TRUE,7,1,win,Havana,Cuba,FALSE,1446,1181,1455,1172,9
-2008-10-25,CFU Caribbean Cup qualification,played,Cuba,CUB,Barbados,,TRUE,1,1,draw,Havana,Cuba,FALSE,1455,1322,1443,1334,-12
-2008-10-27,CFU Caribbean Cup qualification,played,Cuba,CUB,Suriname,,TRUE,6,0,win,Havana,Cuba,FALSE,1443,1250,1456,1237,13
-2008-11-19,FIFA World Cup qualification,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,0,3,loss,Port of Spain,Trinidad and Tobago,FALSE,1456,1564,1440,1580,-16
-2008-12-04,CFU Caribbean Cup,played,Cuba,CUB,Guadeloupe,,FALSE,2,1,win,Montego Bay,Jamaica,TRUE,1440,1485,1463,1462,23
-2008-12-06,CFU Caribbean Cup,played,Cuba,CUB,Antigua and Barbuda,,TRUE,3,0,win,Falmouth,Jamaica,TRUE,1463,1240,1478,1225,15
-2008-12-08,CFU Caribbean Cup,played,Cuba,CUB,Haiti,HTI,TRUE,0,1,loss,Montego Bay,Jamaica,TRUE,1478,1389,1453,1414,-25
-2008-12-11,CFU Caribbean Cup,played,Cuba,CUB,Grenada,,TRUE,2,2,draw,Kingston,Jamaica,TRUE,1453,1301,1445,1309,-8
-2008-12-14,CFU Caribbean Cup,played,Cuba,CUB,Guadeloupe,,TRUE,0,0,draw,Kingston,Jamaica,TRUE,1445,1456,1446,1455,1
-2010-10-26,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,3,0,win,Panama City,Panama,FALSE,1446,1605,1475,1576,29
-2010-11-10,CFU Caribbean Cup qualification,played,Cuba,CUB,Dominica,,TRUE,4,2,win,St. John's,Antigua and Barbuda,TRUE,1475,1098,1481,1092,6
-2010-11-12,CFU Caribbean Cup qualification,played,Cuba,CUB,Suriname,,FALSE,3,3,draw,St. John's,Antigua and Barbuda,TRUE,1481,1226,1468,1239,-13
-2010-11-14,CFU Caribbean Cup qualification,played,Cuba,CUB,Antigua and Barbuda,,FALSE,0,0,draw,St. John's,Antigua and Barbuda,FALSE,1468,1242,1461,1249,-7
-2010-11-26,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,2,0,win,Fort-de-France,Martinique,TRUE,1461,1542,1498,1505,37
-2010-11-28,CFU Caribbean Cup,played,Cuba,CUB,Martinique,,FALSE,1,0,win,Fort-de-France,Martinique,FALSE,1498,1375,1517,1356,19
-2010-11-30,CFU Caribbean Cup,played,Cuba,CUB,Grenada,,TRUE,0,0,draw,Fort-de-France,Martinique,TRUE,1517,1304,1506,1315,-11
-2010-12-03,CFU Caribbean Cup,played,Cuba,CUB,Guadeloupe,,TRUE,1,2,loss,Fort-de-France,Martinique,TRUE,1506,1474,1484,1496,-22
-2010-12-05,CFU Caribbean Cup,played,Cuba,CUB,Grenada,,FALSE,1,0,win,Fort-de-France,Martinique,TRUE,1484,1310,1495,1299,11
-2011-03-24,Friendly,played,Cuba,CUB,El Salvador,SLV,TRUE,0,1,loss,Havana,Cuba,FALSE,1495,1481,1482,1494,-13
-2011-03-29,Friendly,played,Cuba,CUB,Panama,PAN,TRUE,0,2,loss,Havana,Cuba,FALSE,1482,1596,1468,1610,-14
-2011-05-26,Friendly,played,Cuba,CUB,Nicaragua,,TRUE,1,1,draw,Havana,Cuba,FALSE,1468,1065,1459,1074,-9
-2011-05-28,Friendly,played,Cuba,CUB,Nicaragua,,TRUE,2,1,win,Havana,Cuba,FALSE,1459,1074,1460,1073,1
-2011-06-05,Gold Cup,played,Cuba,CUB,Costa Rica,CRI,FALSE,0,5,loss,Arlington,United States,TRUE,1460,1670,1437,1693,-23
-2011-06-09,Gold Cup,played,Cuba,CUB,Mexico,MEX,TRUE,0,5,loss,Charlotte,United States,TRUE,1437,1873,1429,1881,-8
-2011-06-12,Gold Cup,played,Cuba,CUB,El Salvador,SLV,FALSE,1,6,loss,Chicago,United States,TRUE,1429,1493,1388,1534,-41
-2011-12-11,Friendly,played,Cuba,CUB,Costa Rica,CRI,TRUE,1,1,draw,Havana,Cuba,FALSE,1388,1644,1392,1640,4
-2012-02-22,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1392,1638,1390,1640,-2
-2012-02-24,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,0,3,loss,Montego Bay,Jamaica,FALSE,1390,1640,1386,1644,-4
-2012-02-29,Friendly,played,Cuba,CUB,Bolivia,BOL,FALSE,0,1,loss,Cochabamba,Bolivia,FALSE,1386,1535,1382,1539,-4
-2012-06-08,FIFA World Cup qualification,played,Cuba,CUB,Canada,CAN,TRUE,0,1,loss,Havana,Cuba,FALSE,1382,1578,1367,1593,-15
-2012-06-12,FIFA World Cup qualification,played,Cuba,CUB,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1367,1711,1364,1714,-3
-2012-09-07,FIFA World Cup qualification,played,Cuba,CUB,Honduras,HND,TRUE,0,3,loss,Havana,Cuba,FALSE,1364,1618,1344,1638,-20
-2012-09-11,FIFA World Cup qualification,played,Cuba,CUB,Honduras,HND,FALSE,0,1,loss,San Pedro Sula,Honduras,FALSE,1344,1638,1340,1642,-4
-2012-10-12,FIFA World Cup qualification,played,Cuba,CUB,Canada,CAN,FALSE,0,3,loss,Toronto,Canada,FALSE,1340,1604,1332,1612,-8
-2012-10-16,FIFA World Cup qualification,played,Cuba,CUB,Panama,PAN,TRUE,1,1,draw,Havana,Cuba,FALSE,1332,1697,1345,1684,13
-2012-11-14,CFU Caribbean Cup qualification,played,Cuba,CUB,Suriname,,TRUE,5,0,win,Bacolet,Trinidad and Tobago,TRUE,1345,1215,1371,1189,26
-2012-12-08,CFU Caribbean Cup,played,Cuba,CUB,Martinique,,FALSE,0,1,loss,North Sound,Antigua and Barbuda,TRUE,1354,1363,1335,1382,-19
-2012-12-10,CFU Caribbean Cup,played,Cuba,CUB,French Guiana,,TRUE,2,1,win,North Sound,Antigua and Barbuda,TRUE,1335,1275,1352,1258,17
-2012-12-12,CFU Caribbean Cup,played,Cuba,CUB,Jamaica,JAM,FALSE,1,0,win,North Sound,Antigua and Barbuda,TRUE,1352,1590,1384,1558,32
-2012-12-14,CFU Caribbean Cup,played,Cuba,CUB,Haiti,HTI,FALSE,1,0,win,St. John's,Antigua and Barbuda,TRUE,1384,1466,1409,1441,25
-2012-12-16,CFU Caribbean Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,TRUE,1,0,win,St. John's,Antigua and Barbuda,TRUE,1409,1458,1432,1435,23
-2013-07-09,Gold Cup,played,Cuba,CUB,Costa Rica,CRI,FALSE,0,3,loss,Portland,United States,TRUE,1432,1743,1419,1756,-13
-2013-07-13,Gold Cup,played,Cuba,CUB,United States,USA,FALSE,1,4,loss,Sandy,United States,FALSE,1419,1807,1414,1812,-5
-2013-07-16,Gold Cup,played,Cuba,CUB,Belize,,TRUE,4,0,win,East Hartford,United States,TRUE,1414,1171,1433,1152,19
-2013-07-20,Gold Cup,played,Cuba,CUB,Panama,PAN,FALSE,1,6,loss,Atlanta,United States,TRUE,1433,1703,1416,1720,-17
-2014-03-29,Friendly,played,Cuba,CUB,Indonesia,IDN,TRUE,1,0,win,Alzira,Spain,TRUE,1416,1229,1421,1224,5
-2014-08-20,Friendly,played,Cuba,CUB,Panama,PAN,FALSE,0,4,loss,Panama City,Panama,FALSE,1421,1686,1417,1690,-4
-2014-08-23,Friendly,played,Cuba,CUB,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1417,1479,1411,1485,-6
-2014-11-11,CFU Caribbean Cup,played,Cuba,CUB,French Guiana,,TRUE,1,1,draw,Montego Bay,Jamaica,TRUE,1411,1253,1402,1262,-9
-2014-11-13,CFU Caribbean Cup,played,Cuba,CUB,Curaçao,,FALSE,3,2,win,Montego Bay,Jamaica,TRUE,1402,1093,1408,1087,6
-2014-11-18,CFU Caribbean Cup,played,Cuba,CUB,Haiti,HTI,TRUE,1,2,loss,Montego Bay,Jamaica,TRUE,1414,1425,1395,1444,-19
-2015-03-25,Friendly,played,Cuba,CUB,Dominican Republic,,FALSE,3,0,win,Santiago de los Caballeros,Dominican Republic,FALSE,1395,1233,1409,1219,14
-2015-03-30,Friendly,played,Cuba,CUB,Jamaica,JAM,FALSE,0,3,loss,Montego Bay,Jamaica,FALSE,1409,1531,1401,1539,-8
-2015-06-10,FIFA World Cup qualification,played,Cuba,CUB,Curaçao,,FALSE,0,0,draw,Willemstad,Curaçao,FALSE,1401,1104,1391,1114,-10
-2015-06-14,FIFA World Cup qualification,played,Cuba,CUB,Curaçao,,TRUE,1,1,draw,Havana,Cuba,FALSE,1391,1114,1375,1130,-16
-2015-07-09,Gold Cup,played,Cuba,CUB,Mexico,MEX,FALSE,0,6,loss,Chicago,United States,TRUE,1375,1843,1368,1850,-7
-2015-07-12,Gold Cup,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,0,2,loss,Glendale,United States,TRUE,1368,1535,1347,1556,-21
-2015-07-15,Gold Cup,played,Cuba,CUB,Guatemala,,FALSE,1,0,win,Charlotte,United States,TRUE,1347,1494,1382,1459,35
-2015-07-18,Gold Cup,played,Cuba,CUB,United States,USA,FALSE,0,6,loss,Baltimore,United States,FALSE,1382,1852,1378,1856,-4
-2015-12-08,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,0,5,loss,Managua,Nicaragua,FALSE,1378,1214,1354,1238,-24
-2015-12-11,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,0,1,loss,Estelí,Nicaragua,FALSE,1354,1238,1344,1248,-10
-2015-12-16,Friendly,played,Cuba,CUB,Honduras,HND,FALSE,0,2,loss,Juticalpa,Honduras,FALSE,1344,1504,1339,1509,-5
-2016-01-08,Copa América qualification,played,Cuba,CUB,Panama,PAN,FALSE,0,4,loss,Panama City,Panama,FALSE,1339,1682,1334,1687,-5
-2016-03-22,CFU Caribbean Cup qualification,played,Cuba,CUB,Bermuda,,TRUE,2,1,win,Havana,Cuba,FALSE,1334,1220,1343,1211,9
-2016-03-29,CFU Caribbean Cup qualification,played,Cuba,CUB,French Guiana,,FALSE,0,3,loss,Cayenne,French Guiana,FALSE,1343,1266,1310,1299,-33
-2016-10-07,Friendly,played,Cuba,CUB,United States,USA,TRUE,0,2,loss,Havana,Cuba,FALSE,1310,1778,1307,1781,-3
-2018-03-22,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,1,3,loss,Managua,Nicaragua,FALSE,1307,1266,1295,1278,-12
-2018-03-25,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,3,3,draw,Managua,Nicaragua,FALSE,1295,1278,1297,1276,2
-2018-08-15,Friendly,played,Cuba,CUB,Guatemala,,FALSE,0,3,loss,Guatemala City,Guatemala,FALSE,1297,1511,1292,1516,-5
-2018-08-18,Friendly,played,Cuba,CUB,Guatemala,,FALSE,0,1,loss,Quetzaltenango,Guatemala,FALSE,1292,1516,1289,1519,-3
-2018-08-26,Friendly,played,Cuba,CUB,Barbados,,FALSE,0,0,draw,Bridgetown,Barbados,FALSE,1289,1136,1287,1138,-2
-2018-08-29,Friendly,played,Cuba,CUB,Barbados,,FALSE,2,0,win,Bridgetown,Barbados,FALSE,1287,1138,1300,1125,13
-2018-09-08,CONCACAF Nations League qualification,played,Cuba,CUB,Turks and Caicos Islands,,TRUE,11,0,win,Havana,Cuba,FALSE,1300,760,1303,757,3
-2018-10-12,CONCACAF Nations League qualification,played,Cuba,CUB,Grenada,,FALSE,2,0,win,St. George's,Grenada,FALSE,1306,1080,1326,1060,20
-2018-11-17,CONCACAF Nations League qualification,played,Cuba,CUB,Dominican Republic,,TRUE,1,0,win,Havana,Cuba,FALSE,1326,1276,1338,1264,12
-2019-02-27,Friendly,played,Cuba,CUB,Bermuda,,TRUE,5,0,win,Havana,Cuba,FALSE,1332,1187,1340,1179,8
-2019-03-24,CONCACAF Nations League qualification,played,Cuba,CUB,Haiti,HTI,FALSE,1,2,loss,Port-au-Prince,Haiti,FALSE,1340,1512,1333,1519,-7
-2019-06-15,Gold Cup,played,Cuba,CUB,Mexico,MEX,FALSE,0,7,loss,Los Angeles,United States,TRUE,1329,1831,1323,1837,-6
-2019-06-19,Gold Cup,played,Cuba,CUB,Martinique,,TRUE,0,3,loss,Denver,United States,TRUE,1323,1430,1292,1461,-31
-2019-06-23,Gold Cup,played,Cuba,CUB,Canada,CAN,FALSE,0,7,loss,Charlotte,United States,TRUE,1292,1584,1274,1602,-18
-2019-09-07,CONCACAF Nations League,played,Cuba,CUB,Canada,CAN,FALSE,0,6,loss,Toronto,Canada,FALSE,1274,1575,1266,1583,-8
-2019-09-10,CONCACAF Nations League,played,Cuba,CUB,Canada,CAN,TRUE,0,1,loss,George Town,Cayman Islands,TRUE,1266,1583,1260,1589,-6
-2019-10-11,CONCACAF Nations League,played,Cuba,CUB,United States,USA,FALSE,0,7,loss,"Washington, D.C.",United States,FALSE,1262,1726,1259,1729,-3
-2019-11-07,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,0,0,draw,Managua,Nicaragua,FALSE,1259,1239,1261,1237,2
-2019-11-10,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,1,0,win,Managua,Nicaragua,FALSE,1261,1237,1273,1225,12
-2019-11-19,CONCACAF Nations League,played,Cuba,CUB,United States,USA,TRUE,0,4,loss,George Town,Cayman Islands,TRUE,1273,1715,1268,1720,-5
-2021-03-24,FIFA World Cup qualification,played,Cuba,CUB,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1268,1489,1263,1494,-5
-2021-03-28,FIFA World Cup qualification,played,Cuba,CUB,Curaçao,,TRUE,1,2,loss,Guatemala City,Guatemala,TRUE,1263,1422,1252,1433,-11
-2021-06-02,FIFA World Cup qualification,played,Cuba,CUB,British Virgin Islands,,TRUE,5,0,win,Guatemala City,Guatemala,TRUE,1252,604,1254,602,2
-2021-06-08,FIFA World Cup qualification,played,Cuba,CUB,Saint Vincent and the Grenadines,,FALSE,1,0,win,St. George's,Grenada,TRUE,1254,1162,1269,1147,15
-2021-07-03,Gold Cup qualification,played,Cuba,CUB,French Guiana,,TRUE,0,3,loss,Fort Lauderdale,United States,TRUE,,,,,
-2021-11-10,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,3,0,win,Managua,Nicaragua,FALSE,1269,1236,1290,1215,21
-2021-11-13,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,0,2,loss,Managua,Nicaragua,FALSE,1290,1215,1276,1229,-14
-2021-11-14,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,0,2,loss,Managua,Nicaragua,FALSE,,,,,
-2022-03-24,Friendly,played,Cuba,CUB,Guatemala,,FALSE,0,1,loss,Antigua Guatemala City,Guatemala,FALSE,1276,1459,1273,1462,-3
-2022-03-27,Friendly,played,Cuba,CUB,Belize,,FALSE,3,0,win,Belmopan,Belize,FALSE,1273,1122,1288,1107,15
-2022-06-02,CONCACAF Nations League,played,Cuba,CUB,Guadeloupe,,FALSE,1,2,loss,Les Abymes,Guadeloupe,FALSE,1288,1201,1269,1220,-19
-2022-06-05,CONCACAF Nations League,played,Cuba,CUB,Barbados,,TRUE,3,0,win,Santiago,Cuba,FALSE,1269,1033,1278,1024,9
-2022-06-09,CONCACAF Nations League,played,Cuba,CUB,Antigua and Barbuda,,FALSE,2,0,win,Basseterre,Saint Kitts and Nevis,TRUE,1278,1199,1301,1176,23
-2022-06-12,CONCACAF Nations League,played,Cuba,CUB,Antigua and Barbuda,,TRUE,3,1,win,Santiago,Cuba,FALSE,1301,1176,1314,1163,13
-2022-11-16,Friendly,played,Cuba,CUB,Dominican Republic,,FALSE,4,2,win,Santiago de los Caballeros,Dominican Republic,FALSE,,,,,
-2022-11-18,Friendly,played,Cuba,CUB,Dominican Republic,,FALSE,1,1,draw,San Cristóbal,Dominican Republic,FALSE,1328,1173,1326,1175,-2
-2023-03-23,CONCACAF Nations League,played,Cuba,CUB,Barbados,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1326,1024,1336,1014,10
-2023-03-26,CONCACAF Nations League,played,Cuba,CUB,Guadeloupe,,TRUE,1,0,win,Santiago,Cuba,FALSE,1336,1187,1344,1179,8
-2023-06-11,Friendly,played,Cuba,CUB,Chile,CHL,FALSE,0,3,loss,Concepción,Chile,FALSE,1344,1704,1342,1706,-2
-2023-06-20,Friendly,played,Cuba,CUB,Uruguay,URY,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1342,1915,1341,1916,-1
-2023-06-27,Gold Cup,played,Cuba,CUB,Guatemala,,FALSE,0,1,loss,Fort Lauderdale,United States,TRUE,1341,1474,1325,1490,-16
-2023-07-01,Gold Cup,played,Cuba,CUB,Guadeloupe,,TRUE,1,4,loss,Houston,United States,TRUE,1325,1268,1274,1319,-51
-2023-07-04,Gold Cup,played,Cuba,CUB,Canada,CAN,FALSE,2,4,loss,Houston,United States,TRUE,1274,1704,1268,1710,-6
-2023-09-08,CONCACAF Nations League,played,Cuba,CUB,Haiti,HTI,FALSE,0,0,draw,Santo Domingo,Dominican Republic,TRUE,1268,1522,1280,1510,12
-2023-09-12,CONCACAF Nations League,played,Cuba,CUB,Suriname,,TRUE,1,0,win,Santiago,Cuba,FALSE,1280,1298,1295,1283,15
-2023-10-12,CONCACAF Nations League,played,Cuba,CUB,Honduras,HND,TRUE,0,0,draw,Santo Domingo,Dominican Republic,TRUE,1295,1487,1305,1477,10
-2023-10-15,CONCACAF Nations League,played,Cuba,CUB,Honduras,HND,FALSE,0,4,loss,Tegucigalpa,Honduras,FALSE,1305,1477,1292,1490,-13
-2023-11-20,Friendly,played,Cuba,CUB,Russia,RUS,FALSE,0,8,loss,Volgograd,Russia,FALSE,1292,1755,1290,1757,-2
-2024-03-26,Friendly,played,Cuba,CUB,Nicaragua,,FALSE,1,0,win,Managua,Nicaragua,FALSE,1290,1330,1304,1316,14
-2024-06-06,FIFA World Cup qualification,played,Cuba,CUB,Honduras,HND,FALSE,1,3,loss,Tegucigalpa,Honduras,FALSE,1304,1487,1294,1497,-10
-2024-06-11,FIFA World Cup qualification,played,Cuba,CUB,Cayman Islands,,TRUE,3,0,win,Santiago,Cuba,FALSE,,,,,
-2024-09-06,CONCACAF Nations League,played,Cuba,CUB,Jamaica,JAM,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1294,1588,1310,1572,16
-2024-09-10,CONCACAF Nations League,played,Cuba,CUB,Nicaragua,,TRUE,1,1,draw,Santiago,Cuba,FALSE,1310,1371,1308,1373,-2
-2024-10-10,CONCACAF Nations League,played,Cuba,CUB,Trinidad and Tobago,TTO,TRUE,2,2,draw,Santiago,Cuba,FALSE,1308,1383,1307,1384,-1
-2024-10-14,CONCACAF Nations League,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,1,3,loss,Bacolet,Trinidad and Tobago,FALSE,1307,1384,1291,1400,-16
-2024-11-14,CONCACAF Nations League,played,Cuba,CUB,Saint Kitts and Nevis,,FALSE,1,2,loss,Basseterre,Saint Kitts and Nevis,FALSE,1291,1092,1265,1118,-26
-2024-11-18,CONCACAF Nations League,played,Cuba,CUB,Saint Kitts and Nevis,,TRUE,4,0,win,Santiago,Cuba,FALSE,1265,1118,1280,1103,15
-2025-03-21,Gold Cup qualification,played,Cuba,CUB,Trinidad and Tobago,TTO,TRUE,1,2,loss,Santiago,Cuba,FALSE,1280,1398,1261,1417,-19
-2025-03-25,Gold Cup qualification,played,Cuba,CUB,Trinidad and Tobago,TTO,FALSE,0,4,loss,Couva,Trinidad and Tobago,FALSE,1261,1417,1247,1431,-14
-2025-06-06,FIFA World Cup qualification,played,Cuba,CUB,Antigua and Barbuda,,FALSE,1,0,win,Piggotts,Antigua and Barbuda,FALSE,1247,917,1255,909,8
-2025-06-10,FIFA World Cup qualification,played,Cuba,CUB,Bermuda,,TRUE,1,2,loss,Santiago de Cuba,Cuba,FALSE,1255,1136,1224,1167,-31
-2025-10-05,Friendly,played,Cuba,CUB,Saint Vincent and the Grenadines,,FALSE,0,7,loss,Arnos Vale,Saint Vincent and the Grenadines,FALSE,1224,1137,1202,1159,-22
-2025-10-08,Friendly,played,Cuba,CUB,Saint Vincent and the Grenadines,,FALSE,0,1,loss,Arnos Vale,Saint Vincent and the Grenadines,FALSE,1202,1159,1194,1167,-8
-2025-10-11,Friendly,played,Cuba,CUB,Grenada,,FALSE,0,2,loss,St. George's,Grenada,FALSE,1194,1107,1180,1121,-14
-2025-11-12,CONCACAF Series,played,Cuba,CUB,Saint Lucia,,TRUE,3,0,win,Santiago de los Caballeros,Dominican Republic,TRUE,1180,1038,1196,1022,16
-2025-11-15,CONCACAF Series,played,Cuba,CUB,Martinique,,FALSE,2,0,win,Santiago de los Caballeros,Dominican Republic,TRUE,1196,1372,1229,1339,33
-2026-03-26,CONCACAF Series,played,Cuba,CUB,Martinique,,FALSE,2,2,draw,Santiago de los Caballeros,Dominican Republic,TRUE,1229,1330,1233,1326,4
-2026-03-29,CONCACAF Series,played,Cuba,CUB,Dominican Republic,,FALSE,1,1,draw,Santiago de los Caballeros,Dominican Republic,FALSE,1233,1290,1239,1284,6
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1930-03-16,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,3,1,win,Havana,Cuba,FALSE,1600,1460,1612,1448,12
+,,,1930-03-20,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,7,0,win,Havana,Cuba,FALSE,1612,1393,1624,1381,12
+,,,1930-03-23,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,5,0,win,Havana,Cuba,FALSE,1624,1381,1634,1371,10
+,,,1930-03-30,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,Havana,Cuba,FALSE,1634,1861,1661,1834,27
+,,,1930-04-01,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,5,2,win,Havana,Cuba,FALSE,1661,1462,1672,1451,11
+,,,1934-01-28,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,3,1,win,Port-au-Prince,Haiti,FALSE,1672,1290,1682,1280,10
+,,,1934-02-01,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,1,draw,Port-au-Prince,Haiti,FALSE,1682,1280,1668,1294,-14
+,,,1934-02-04,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,6,0,win,Port-au-Prince,Haiti,FALSE,1668,1294,1683,1279,15
+,,,1934-03-04,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,2,3,loss,Mexico City,Mexico,FALSE,1683,1498,1658,1523,-25
+,,,1934-03-11,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,5,loss,Mexico City,Mexico,FALSE,1658,1523,1614,1567,-44
+,,,1934-03-18,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,4,loss,Mexico City,Mexico,FALSE,1614,1567,1584,1597,-30
+,,,1935-03-24,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,4,loss,San Salvador,El Salvador,FALSE,1584,1451,1546,1489,-38
+,,,1935-03-25,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,0,win,San Salvador,El Salvador,TRUE,1546,1406,1568,1384,22
+,,,1935-03-27,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,TRUE,2,1,win,San Salvador,El Salvador,TRUE,1568,1443,1581,1430,13
+,,,1935-03-30,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,6,loss,San Salvador,El Salvador,TRUE,1581,1649,1549,1681,-32
+,,,1935-03-31,Central American and Caribbean Games,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,San Salvador,El Salvador,TRUE,1549,1856,1543,1862,-6
+,,,1938-05-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Basque Country,,,,TRUE,0,4,loss,Havana,Cuba,FALSE,,,,,
+WC-1938,WC-1938_003,3,1938-06-05,FIFA World Cup,played,Cuba,CUB,CUB,CONCACAF,Romania,ROU,ROU,UEFA,TRUE,3,3,draw,Toulouse,France,TRUE,1543,1557,1544,1556,1
+WC-1938,WC-1938_008,8,1938-06-09,FIFA World Cup,played,Cuba,CUB,CUB,CONCACAF,Romania,ROU,ROU,UEFA,TRUE,2,1,win,Toulouse,France,TRUE,1544,1556,1575,1525,31
+WC-1938,WC-1938_011,11,1938-06-12,FIFA World Cup,played,Cuba,CUB,CUB,CONCACAF,Sweden,SWE,SWE,UEFA,TRUE,0,8,loss,Antibes,France,TRUE,1575,1644,1518,1701,-57
+,,,1938-06-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Basque Country,,,,TRUE,3,4,loss,Havana,Cuba,FALSE,,,,,
+,,,1939-08-06,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,4,0,win,Panama City,Panama,FALSE,,,,,
+,,,1940-11-12,Friendly,played,Cuba,CUB,CUB,CONCACAF,Puerto Rico,,,,TRUE,1,1,draw,Havana,Cuba,FALSE,,,,,
+,,,1942-01-26,Friendly,played,Cuba,CUB,CUB,CONCACAF,Puerto Rico,,,,TRUE,1,0,win,Havana,Cuba,FALSE,,,,,
+,,,1942-01-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Puerto Rico,,,,TRUE,1,0,win,Havana,Cuba,FALSE,,,,,
+,,,1947-07-17,NAFC Championship,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,3,loss,Havana,Cuba,FALSE,1518,1844,1502,1860,-16
+,,,1947-07-20,NAFC Championship,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,TRUE,5,2,win,Havana,Cuba,FALSE,1502,1639,1550,1591,48
+,,,1947-12-06,Friendly,played,Cuba,CUB,CUB,CONCACAF,Puerto Rico,,,,TRUE,4,0,win,Havana,Cuba,FALSE,,,,,
+,,,1947-12-10,Friendly,played,Cuba,CUB,CUB,CONCACAF,Puerto Rico,,,,TRUE,0,0,draw,Havana,Cuba,FALSE,,,,,
+,,,1948-06-09,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,3,loss,Kingston,Jamaica,FALSE,,,,,
+,,,1948-06-12,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,1,draw,Kingston,Jamaica,FALSE,,,,,
+,,,1949-05-09,Friendly,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,TRUE,0,0,draw,Paramaribo,Dutch Guyana,TRUE,,,,,
+,,,1949-05-12,Friendly,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,FALSE,1,0,win,Paramaribo,Dutch Guyana,FALSE,,,,,
+,,,1949-05-14,Friendly,played,Cuba,CUB,CUB,CONCACAF,Dominican Republic,,,,TRUE,0,1,loss,Paramaribo,Dutch Guyana,TRUE,,,,,
+,,,1949-09-11,NAFC Championship,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1550,1809,1542,1817,-8
+,,,1949-09-14,NAFC Championship,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,1,draw,Mexico City,Mexico,TRUE,1542,1545,1542,1545,0
+,,,1949-09-21,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,2,5,loss,Mexico City,Mexico,TRUE,1542,1535,1497,1580,-45
+,,,1949-09-25,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1497,1827,1490,1834,-7
+,,,1949-12-18,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,5,loss,Port-au-Prince,Haiti,TRUE,,,,,
+,,,1949-12-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,3,loss,Port-au-Prince,Haiti,FALSE,,,,,
+,,,1955-08-14,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,3,loss,Tegucigalpa,Honduras,FALSE,1395,1485,1373,1507,-22
+,,,1955-08-16,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,6,loss,Tegucigalpa,Honduras,TRUE,1373,1639,1354,1658,-19
+,,,1955-08-19,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Aruba,,,,FALSE,1,4,loss,Tegucigalpa,Honduras,TRUE,,,,,
+,,,1955-08-20,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,2,loss,Tegucigalpa,Honduras,TRUE,,,,,
+,,,1955-08-28,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,FALSE,0,2,loss,Tegucigalpa,Honduras,TRUE,1293,1527,1278,1542,-15
+,,,1957-08-14,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,Willemstad,Curaçao,TRUE,1278,1249,1251,1276,-27
+,,,1957-08-18,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,FALSE,0,2,loss,Willemstad,Curaçao,FALSE,1251,1503,1242,1512,-9
+,,,1957-08-21,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,2,loss,Willemstad,Curaçao,TRUE,1242,1435,1223,1454,-19
+,,,1957-08-23,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,6,loss,Willemstad,Curaçao,TRUE,1223,1486,1205,1504,-18
+,,,1960-02-23,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,TRUE,3,4,loss,Havana,Cuba,FALSE,1166,1487,1155,1498,-11
+,,,1961-03-05,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,4,loss,San José,Costa Rica,FALSE,1194,1681,1191,1684,-3
+,,,1961-03-07,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,2,loss,San José,Costa Rica,TRUE,1191,1507,1184,1514,-7
+,,,1961-03-10,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,San José,Costa Rica,TRUE,1184,1229,1162,1251,-22
+,,,1961-03-12,CCCF Championship,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,TRUE,0,2,loss,San José,Costa Rica,TRUE,1162,1409,1147,1424,-15
+,,,1965-01-16,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,2,loss,Kingston,Jamaica,FALSE,1125,1279,1114,1290,-11
+,,,1965-01-20,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,TRUE,1,1,draw,Kingston,Jamaica,TRUE,1114,1563,1131,1546,17
+,,,1965-01-30,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,TRUE,0,1,loss,Havana,Cuba,FALSE,1131,1503,1124,1510,-7
+,,,1965-02-07,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,1,win,Havana,Cuba,FALSE,1124,1342,1151,1315,27
+,,,1967-01-12,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,1,draw,Kingston,Jamaica,TRUE,1212,1446,1224,1434,12
+,,,1967-01-14,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,2,loss,Kingston,Jamaica,FALSE,1224,1277,1212,1289,-12
+,,,1967-01-17,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,FALSE,2,2,draw,Kingston,Jamaica,TRUE,1212,1487,1225,1474,13
+,,,1967-01-20,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,2,loss,Kingston,Jamaica,TRUE,1225,1445,1216,1454,-9
+,,,1970-09-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,North Vietnam,,,,FALSE,1,2,loss,Hanoi,North Vietnam,FALSE,1320,1275,1312,1283,-8
+,,,1971-05-21,Friendly,played,Cuba,CUB,CUB,CONCACAF,China PR,,,,FALSE,0,1,loss,Beijing,China PR,FALSE,,,,,
+,,,1971-10-01,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,0,win,Kingston,Jamaica,FALSE,1342,1250,1362,1230,20
+,,,1971-10-04,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,Havana,Cuba,FALSE,1362,1230,1350,1242,-12
+,,,1971-11-20,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,3,loss,Port of Spain,Trinidad and Tobago,TRUE,1350,1698,1340,1708,-10
+,,,1971-11-23,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,1,win,Port of Spain,Trinidad and Tobago,TRUE,1340,1470,1391,1419,51
+,,,1971-11-28,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,San Fernando,Trinidad and Tobago,TRUE,1391,1717,1384,1724,-7
+,,,1971-11-30,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,2,draw,Port of Spain,Trinidad and Tobago,FALSE,1384,1307,1386,1305,2
+,,,1971-12-04,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,0,draw,San Fernando,Trinidad and Tobago,TRUE,1386,1602,1400,1588,14
+,,,1972-04-02,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,2,loss,Kingston,Jamaica,FALSE,1400,1257,1383,1274,-17
+,,,1975-01-05,Friendly,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,4,0,win,Havana,Cuba,FALSE,1497,1548,1513,1532,16
+,,,1975-09-05,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,0,win,Panama City,Panama,FALSE,1497,1237,1503,1231,6
+,,,1975-09-07,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,2,draw,La Chorrera,Panama,FALSE,1503,1231,1498,1236,-5
+,,,1975-09-16,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,3,2,win,Panama City,Panama,FALSE,1522,1236,1527,1231,5
+,,,1976-04-21,Friendly,played,Cuba,CUB,CUB,CONCACAF,Congo,,,,FALSE,1,3,loss,Brazzaville,Congo,FALSE,1558,1509,1545,1522,-13
+,,,1976-08-15,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,3,1,win,Kingston,Jamaica,FALSE,1557,1357,1579,1335,22
+,,,1976-08-29,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,0,win,Havana,Cuba,FALSE,1579,1335,1586,1328,7
+,,,1976-11-28,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,1,draw,Havana,Cuba,FALSE,1586,1535,1578,1543,-8
+,,,1976-12-11,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,1,draw,Port-au-Prince,Haiti,FALSE,1578,1543,1582,1539,4
+,,,1976-12-23,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,5,0,win,Panama City,Panama,FALSE,1582,1232,1590,1224,8
+,,,1976-12-29,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,2,loss,Panama City,Panama,TRUE,1590,1550,1557,1583,-33
+,,,1977-05-30,Friendly,played,Cuba,CUB,CUB,CONCACAF,Mozambique,,,,FALSE,2,0,win,Maputo,Mozambique,FALSE,,,,,
+,,,1977-06-03,Friendly,played,Cuba,CUB,CUB,CONCACAF,Libya,,,,FALSE,0,1,loss,Tripoli,Libya,FALSE,1557,1354,1544,1367,-13
+,,,1977-06-10,Friendly,played,Cuba,CUB,CUB,CONCACAF,Ethiopia,,,,FALSE,0,0,draw,Addis Ababa,Ethiopia,FALSE,1544,1443,1544,1443,0
+,,,1977-06-12,Friendly,played,Cuba,CUB,CUB,CONCACAF,Zambia,,,,FALSE,0,2,loss,Lusaka,Zambia,FALSE,1544,1540,1533,1551,-11
+,,,1977-06-16,Friendly,played,Cuba,CUB,CUB,CONCACAF,Zambia,,,,FALSE,1,0,win,Kitwe,Zambia,FALSE,1533,1551,1546,1538,13
+,,,1980-06-24,Friendly,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,3,loss,San José,Costa Rica,FALSE,1581,1632,1571,1642,-10
+,,,1980-08-17,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,TRUE,3,0,win,Havana,Cuba,FALSE,1599,1554,1620,1533,21
+,,,1980-09-07,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,FALSE,0,0,draw,Paramaribo,Suriname,FALSE,1620,1533,1621,1532,1
+,,,1980-11-09,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Guyana,,,,TRUE,1,0,win,Havana,Cuba,FALSE,1621,1257,1624,1254,3
+,,,1980-11-22,Friendly,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,2,draw,San Fernando,Trinidad and Tobago,FALSE,1624,1425,1621,1428,-3
+,,,1980-11-30,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Guyana,,,,FALSE,3,0,win,Linden,Guyana,FALSE,1621,1254,1633,1242,12
+,,,1981-05-19,Friendly,played,Cuba,CUB,CUB,CONCACAF,German DR,DDR,DDR,UEFA,FALSE,0,5,loss,Senftenberg,German DR,FALSE,1633,1932,1629,1936,-4
+,,,1981-09-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Venezuela,,,,FALSE,0,1,loss,Barquisimeto,Venezuela,FALSE,1629,1357,1607,1379,-22
+,,,1981-11-01,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,4,loss,Tegucigalpa,Honduras,TRUE,1607,1676,1569,1714,-38
+,,,1981-11-08,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1569,1594,1544,1619,-25
+,,,1981-11-11,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,TRUE,1544,1570,1546,1568,2
+,,,1981-11-15,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,0,win,Tegucigalpa,Honduras,TRUE,1546,1518,1580,1484,34
+,,,1981-11-21,CONCACAF Championship,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,2,draw,Tegucigalpa,Honduras,TRUE,1580,1598,1581,1597,1
+,,,1983-07-27,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,0,draw,Panama City,Panama,FALSE,1590,1186,1583,1193,-7
+,,,1983-07-31,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,La Chorrera,Panama,FALSE,1583,1193,1566,1210,-17
+,,,1983-08-02,Friendly,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,3,loss,Alajuela,Costa Rica,FALSE,1566,1532,1552,1546,-14
+,,,1983-08-04,Friendly,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,FALSE,1552,1546,1541,1557,-11
+,,,1984-03-13,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,Panama City,Panama,FALSE,1531,1210,1525,1216,-6
+,,,1984-03-18,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,0,win,Panama City,Panama,FALSE,1523,1216,1528,1211,5
+,,,1985-01-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guyana,,,,FALSE,1,2,loss,Georgetown,Guyana,FALSE,,,,,
+,,,1985-01-27,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guyana,,,,FALSE,1,1,draw,Georgetown,Guyana,FALSE,,,,,
+,,,1986-10-30,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Managua,Nicaragua,TRUE,1520,1225,1510,1235,-10
+,,,1987-02-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1510,1235,1495,1250,-15
+,,,1987-02-22,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,3,1,win,Panama City,Panama,FALSE,1495,1250,1504,1241,9
+,,,1987-03-25,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,0,draw,Panama City,Panama,FALSE,1510,1257,1506,1261,-4
+,,,1987-03-31,Friendly,played,Cuba,CUB,CUB,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,0,win,Machala,Ecuador,FALSE,1506,1527,1519,1514,13
+,,,1987-04-02,Friendly,played,Cuba,CUB,CUB,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,0,draw,Azogues,Ecuador,FALSE,1519,1514,1522,1511,3
+,,,1987-04-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,2,loss,Kingston,Jamaica,FALSE,1519,1263,1498,1284,-21
+,,,1987-12-08,Friendly,played,Cuba,CUB,CUB,CONCACAF,Angola,AGO,AGO,CAF,FALSE,2,3,loss,Luanda,Angola,FALSE,1498,1492,1487,1503,-11
+,,,1987-12-10,Friendly,played,Cuba,CUB,CUB,CONCACAF,Ghana,GHA,GHA,CAF,TRUE,1,1,draw,Luanda,Angola,TRUE,1487,1629,1493,1623,6
+,,,1988-04-30,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,TRUE,0,1,loss,Havana,Cuba,FALSE,1493,1560,1471,1582,-22
+,,,1988-05-15,CONCACAF Championship qualification,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,1,1,draw,San Marcos,Guatemala,FALSE,1471,1582,1482,1571,11
+,,,1988-08-06,Friendly,played,Cuba,CUB,CUB,CONCACAF,Albania,,,,FALSE,0,0,draw,Berat,Albania,FALSE,1482,1443,1484,1441,2
+,,,1992-05-02,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Anguilla,,,,FALSE,3,0,win,The Valley,Anguilla,FALSE,1489,575,1490,574,1
+,,,1992-05-09,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Anguilla,,,,TRUE,5,0,win,Havana,Cuba,FALSE,1490,574,1490,574,0
+,,,1992-06-22,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,San Fernando,Trinidad and Tobago,TRUE,1520,1407,1514,1413,-6
+,,,1992-06-24,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1514,1533,1501,1546,-13
+,,,1992-06-27,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,TRUE,1,1,draw,Port of Spain,Trinidad and Tobago,TRUE,,,,,
+,,,1995-03-12,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1496,1436,1497,1435,1
+,,,1995-05-23,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,TRUE,3,0,win,Santo Domingo,Dominican Republic,TRUE,1497,1325,1516,1306,19
+,,,1995-05-25,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Dominican Republic,,,,FALSE,3,0,win,Santo Domingo,Dominican Republic,FALSE,1516,1039,1523,1032,7
+,,,1995-05-27,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Puerto Rico,,,,TRUE,9,0,win,Santo Domingo,Dominican Republic,TRUE,1523,1076,1530,1069,7
+,,,1995-07-19,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,Kingston,Jamaica,TRUE,1530,1535,1500,1565,-30
+,,,1995-07-21,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,2,1,win,Montego Bay,Jamaica,FALSE,1500,1444,1523,1421,23
+,,,1995-07-23,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Saint Lucia,,,,TRUE,2,0,win,Kingston,Jamaica,TRUE,1523,1289,1535,1277,12
+,,,1995-07-30,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,FALSE,3,0,win,George Town,Cayman Islands,FALSE,1503,1091,1513,1081,10
+,,,1996-01-14,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1513,1538,1516,1535,3
+,,,1996-04-26,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,FALSE,4,0,win,George Town,Cayman Islands,FALSE,1516,1066,1525,1057,9
+,,,1996-05-12,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,FALSE,1,0,win,George Town,Cayman Islands,FALSE,1525,1057,1529,1053,4
+,,,1996-05-14,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,FALSE,5,0,win,George Town,Cayman Islands,FALSE,1529,1053,1537,1045,8
+,,,1996-05-25,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,2,0,win,San Fernando,Trinidad and Tobago,TRUE,1537,1326,1551,1312,14
+,,,1996-05-27,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,TRUE,1,0,win,Port of Spain,Trinidad and Tobago,TRUE,1551,1498,1568,1481,17
+,,,1996-05-29,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,0,draw,Arima,Trinidad and Tobago,TRUE,1568,1337,1556,1349,-12
+,,,1996-06-03,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,TRUE,4,0,win,Port of Spain,Trinidad and Tobago,TRUE,1556,1296,1570,1282,14
+,,,1996-06-07,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1570,1543,1546,1567,-24
+,,,1996-06-23,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,6,1,win,Port of Spain,Trinidad and Tobago,TRUE,,,,,
+,,,1996-06-30,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,1,draw,Cap-Haïtien,Haiti,FALSE,1565,1330,1558,1337,-7
+,,,1996-08-25,Friendly,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,4,loss,Tegucigalpa,Honduras,FALSE,1558,1548,1544,1562,-14
+,,,1996-08-28,Friendly,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,2,2,draw,San Pedro Sula,Honduras,FALSE,1544,1562,1547,1559,3
+,,,1996-08-30,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1547,1464,1547,1464,0
+,,,1996-09-08,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,5,loss,San Salvador,El Salvador,FALSE,1547,1512,1514,1545,-33
+,,,1996-09-22,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,3,1,win,Panama City,Panama,FALSE,1514,1362,1540,1336,26
+,,,1996-10-10,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,2,loss,Edmonton,Canada,FALSE,1540,1614,1524,1630,-16
+,,,1996-10-13,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,2,loss,Edmonton,Canada,FALSE,1524,1630,1510,1644,-14
+,,,1996-12-01,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,0,3,loss,San Salvador,El Salvador,FALSE,1510,1526,1486,1550,-24
+,,,1996-12-15,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,3,loss,Panama City,Panama,FALSE,1486,1340,1452,1374,-34
+,,,1997-06-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,3,loss,Kingston,Jamaica,FALSE,,,,,
+,,,1997-10-04,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Saint Kitts and Nevis,,,,FALSE,2,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1445,1237,1466,1216,21
+,,,1997-10-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,2,draw,Port-au-Prince,Haiti,FALSE,1466,1332,1465,1333,-1
+,,,1997-10-22,Friendly,played,Cuba,CUB,CUB,CONCACAF,Cameroon,CMR,CMR,CAF,TRUE,1,1,draw,Port-au-Prince,Haiti,TRUE,1465,1559,1469,1555,4
+,,,1998-02-01,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,3,loss,Oakland,United States,FALSE,1469,1730,1459,1740,-10
+,,,1998-02-04,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,7,loss,Oakland,United States,TRUE,1459,1599,1428,1630,-31
+,,,1998-05-06,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,FALSE,2,2,draw,George Town,Cayman Islands,FALSE,1428,1045,1415,1058,-13
+,,,1998-05-08,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Bermuda,,,,TRUE,2,1,win,George Town,Cayman Islands,TRUE,1415,1368,1432,1351,17
+,,,1999-05-05,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,TRUE,4,1,win,Hamilton,Bermuda,TRUE,1432,1135,1443,1124,11
+,,,1999-05-07,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Bahamas,,,,TRUE,7,0,win,Hamilton,Bermuda,TRUE,1443,852,1446,849,3
+,,,1999-05-09,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Bermuda,,,,FALSE,2,1,win,Hamilton,Bermuda,FALSE,1446,1311,1464,1293,18
+,,,1999-06-04,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,1,win,Macoya,Trinidad and Tobago,TRUE,1464,1401,1489,1376,25
+,,,1999-06-08,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Saint Kitts and Nevis,,,,TRUE,2,0,win,Macoya,Trinidad and Tobago,TRUE,1489,1276,1503,1262,14
+,,,1999-06-10,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,0,win,Port of Spain,Trinidad and Tobago,TRUE,1503,1646,1545,1604,42
+,,,1999-06-13,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1545,1565,1532,1578,-13
+,,,1999-10-06,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,0,draw,Los Angeles,United States,TRUE,1532,1542,1533,1541,1
+,,,1999-10-08,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Los Angeles,United States,TRUE,1533,1394,1505,1422,-28
+,,,1999-10-10,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,3,1,win,Los Angeles,United States,TRUE,1505,1409,1527,1387,22
+,,,1999-12-05,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1527,1335,1514,1348,-13
+,,,2000-03-05,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,TRUE,4,0,win,Havana,Cuba,FALSE,1514,1123,1518,1119,4
+,,,2000-03-09,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,TRUE,4,0,win,Havana,Cuba,FALSE,1518,934,1519,933,1
+,,,2000-03-19,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,FALSE,0,0,draw,George Town,Cayman Islands,FALSE,1519,1119,1505,1133,-14
+,,,2000-04-02,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,TRUE,1,0,win,Havana,Cuba,FALSE,1505,1275,1510,1270,5
+,,,2000-04-16,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,FALSE,0,0,draw,Paramaribo,Suriname,FALSE,1510,1270,1502,1278,-8
+,,,2000-05-07,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Barbados,,,,TRUE,1,1,draw,Havana,Cuba,FALSE,1502,1359,1490,1371,-12
+,,,2000-05-21,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Barbados,,,,FALSE,1,1,draw,Bridgetown,Barbados,FALSE,1490,1371,1489,1372,-1
+,,,2000-05-27,Friendly,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Havana,Cuba,FALSE,1489,1428,1475,1442,-14
+,,,2000-05-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,1,draw,Havana,Cuba,FALSE,1475,1442,1471,1446,-4
+,,,2000-06-04,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,1,loss,Havana,Cuba,FALSE,1471,1721,1459,1733,-12
+,,,2000-06-11,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,0,draw,Winnipeg,Canada,FALSE,1459,1733,1475,1717,16
+,,,2000-07-02,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1475,1501,1478,1498,3
+,,,2000-07-04,Friendly,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,4,loss,Macoya,Trinidad and Tobago,FALSE,1478,1573,1469,1582,-9
+,,,2001-04-04,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Dominica,,,,TRUE,3,1,win,Uitvlugt,Guyana,TRUE,1469,1101,1475,1095,6
+,,,2001-04-06,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Saint Martin,,,,TRUE,1,0,win,Uitvlugt,Guyana,TRUE,1475,1081,1479,1077,4
+,,,2001-04-08,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Guyana,,,,FALSE,3,0,win,Georgetown,Guyana,FALSE,1479,1116,1492,1103,13
+,,,2001-05-16,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,TRUE,4,3,win,Macoya,Trinidad and Tobago,TRUE,1492,1308,1502,1298,10
+,,,2001-05-18,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Saint Kitts and Nevis,,,,FALSE,1,1,draw,Macoya,Trinidad and Tobago,TRUE,1502,1243,1489,1256,-13
+,,,2001-05-20,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Arima,Trinidad and Tobago,TRUE,1489,1424,1485,1428,-4
+,,,2001-05-22,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1485,1615,1472,1628,-13
+,,,2001-05-24,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,FALSE,0,1,loss,Arima,Trinidad and Tobago,TRUE,1472,1389,1447,1414,-25
+,,,2001-06-10,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,4,loss,Kingston,Jamaica,FALSE,1448,1587,1441,1594,-7
+,,,2001-06-24,Friendly,played,Cuba,CUB,CUB,CONCACAF,Belize,,,,FALSE,2,3,loss,Belize City,Belize,FALSE,1441,1099,1425,1115,-16
+,,,2001-07-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,Havana,Cuba,FALSE,1425,1615,1428,1612,3
+,,,2001-07-29,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,0,draw,Panama City,Panama,FALSE,1428,1417,1433,1412,5
+,,,2001-08-05,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Havana,Cuba,FALSE,1433,1412,1446,1399,13
+,,,2002-01-06,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,TRUE,0,1,loss,Havana,Cuba,FALSE,1446,1579,1437,1588,-9
+,,,2002-01-09,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Havana,Cuba,FALSE,1437,1588,1438,1587,1
+,,,2002-01-21,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Pasadena,United States,FALSE,1438,1774,1434,1778,-4
+,,,2002-01-23,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Pasadena,United States,TRUE,1434,1784,1453,1765,19
+,,,2002-11-27,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,FALSE,5,0,win,George Town,Cayman Islands,FALSE,1453,1122,1470,1105,17
+,,,2002-11-29,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,FALSE,2,1,win,George Town,Cayman Islands,TRUE,1470,1445,1489,1426,19
+,,,2002-12-01,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Dominican Republic,,,,FALSE,2,1,win,George Town,Cayman Islands,TRUE,1489,1108,1493,1104,4
+,,,2003-03-11,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,Havana,Cuba,FALSE,1493,1556,1492,1557,-1
+,,,2003-03-13,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,1,0,win,Havana,Cuba,FALSE,1492,1557,1501,1548,9
+,,,2003-03-26,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,FALSE,3,2,win,Port of Spain,Trinidad and Tobago,TRUE,1501,1355,1513,1343,12
+,,,2003-03-28,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Antigua and Barbuda,,,,TRUE,2,0,win,Macoya,Trinidad and Tobago,TRUE,1513,1102,1518,1097,5
+,,,2003-03-30,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,3,1,win,San Fernando,Trinidad and Tobago,FALSE,1518,1478,1553,1443,35
+,,,2003-06-27,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,2,loss,Panama City,Panama,FALSE,1553,1378,1535,1396,-18
+,,,2003-06-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1535,1396,1524,1407,-11
+,,,2003-07-06,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,2,1,win,Kingston,Jamaica,FALSE,1524,1574,1538,1560,14
+,,,2003-07-14,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,2,0,win,Foxborough,United States,TRUE,1538,1656,1588,1606,50
+,,,2003-07-16,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,3,loss,Foxborough,United States,TRUE,1588,1736,1562,1762,-26
+,,,2003-07-19,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,5,loss,Foxborough,United States,FALSE,1562,1827,1551,1838,-11
+,,,2003-11-19,Friendly,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1551,1406,1540,1417,-11
+,,,2004-01-08,Friendly,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,TRUE,0,0,draw,Havana,Cuba,FALSE,1540,1421,1534,1427,-6
+,,,2004-02-22,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,FALSE,2,1,win,George Town,Cayman Islands,FALSE,1534,1104,1539,1099,5
+,,,2004-03-16,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Havana,Cuba,FALSE,1539,1401,1533,1407,-6
+,,,2004-03-18,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,0,win,Havana,Cuba,FALSE,1533,1407,1540,1400,7
+,,,2004-03-27,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,TRUE,3,0,win,Havana,Cuba,FALSE,1540,1099,1543,1096,3
+,,,2004-05-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Grenada,,,,TRUE,2,2,draw,Havana,Cuba,FALSE,1543,1282,1535,1290,-8
+,,,2004-06-12,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,2,draw,Havana,Cuba,FALSE,1535,1723,1540,1718,5
+,,,2004-06-20,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,Alajuela,Costa Rica,FALSE,1540,1718,1553,1705,13
+,,,2004-12-12,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,TRUE,2,0,win,Havana,Cuba,FALSE,1553,1392,1564,1381,11
+,,,2004-12-21,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,FALSE,2,0,win,Fort-de-France,Martinique,FALSE,1564,1381,1587,1358,23
+,,,2005-01-09,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1587,1480,1607,1460,20
+,,,2005-01-16,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,1,draw,Havana,Cuba,FALSE,1607,1467,1595,1479,-12
+,,,2005-02-20,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Barbados,,,,FALSE,3,0,win,Bridgetown,Barbados,FALSE,1595,1341,1615,1321,20
+,,,2005-02-22,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,1,win,Bridgetown,Barbados,TRUE,1615,1468,1627,1456,12
+,,,2005-02-24,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,1,loss,Bridgetown,Barbados,TRUE,1627,1636,1608,1655,-19
+,,,2005-07-07,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,4,loss,Seattle,United States,FALSE,1608,1865,1598,1875,-10
+,,,2005-07-09,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,3,loss,Seattle,United States,TRUE,1598,1701,1571,1728,-27
+,,,2005-07-12,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,2,loss,Foxborough,United States,TRUE,1571,1538,1544,1565,-27
+,,,2006-09-02,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Turks and Caicos Islands,,,,TRUE,6,0,win,Havana,Cuba,FALSE,1544,764,1545,763,1
+,,,2006-09-04,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Bahamas,,,,TRUE,6,0,win,Havana,Cuba,FALSE,1545,876,1546,875,1
+,,,2006-09-06,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,TRUE,7,0,win,Havana,Cuba,FALSE,1546,982,1548,980,2
+,,,2006-10-17,Friendly,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1548,1499,1549,1498,1
+,,,2006-10-19,Friendly,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Cap-Haïtien,Haiti,FALSE,1549,1498,1560,1487,11
+,,,2006-11-08,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,1,win,Fort-de-France,Martinique,TRUE,1560,1487,1576,1471,16
+,,,2006-11-10,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,TRUE,3,1,win,Fort-de-France,Martinique,TRUE,1576,1227,1583,1220,7
+,,,2006-11-12,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,FALSE,0,0,draw,Fort-de-France,Martinique,FALSE,1583,1377,1577,1383,-6
+,,,2007-01-14,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,TRUE,1,2,loss,San Fernando,Trinidad and Tobago,TRUE,1577,1381,1547,1411,-30
+,,,2007-01-18,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Guyana,,,,TRUE,0,0,draw,San Fernando,Trinidad and Tobago,TRUE,1567,1328,1555,1340,-12
+,,,2007-01-20,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,3,loss,Port of Spain,Trinidad and Tobago,FALSE,1555,1568,1534,1589,-21
+,,,2007-01-23,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,TRUE,2,1,win,Port of Spain,Trinidad and Tobago,TRUE,1534,1380,1546,1368,12
+,,,2007-03-24,Friendly,played,Cuba,CUB,CUB,CONCACAF,Venezuela,,,,FALSE,1,3,loss,Mérida,Venezuela,FALSE,1546,1630,1538,1638,-8
+,,,2007-05-09,Friendly,played,Cuba,CUB,CUB,CONCACAF,Chile,CHL,CHL,CONMEBOL,FALSE,0,3,loss,Osorno,Chile,FALSE,1538,1743,1533,1748,-5
+,,,2007-05-16,Friendly,played,Cuba,CUB,CUB,CONCACAF,Chile,CHL,CHL,CONMEBOL,FALSE,0,2,loss,Temuco,Chile,FALSE,1533,1748,1529,1752,-4
+,,,2007-06-08,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,East Rutherford,United States,TRUE,1529,1830,1521,1838,-8
+,,,2007-06-10,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,2,draw,East Rutherford,United States,TRUE,1521,1587,1526,1582,5
+,,,2007-06-13,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,5,loss,Houston,United States,TRUE,1526,1681,1497,1710,-29
+,,,2008-02-24,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guyana,,,,FALSE,0,0,draw,Georgetown,Guyana,FALSE,1485,1342,1484,1343,-1
+,,,2008-06-07,Friendly,played,Cuba,CUB,CUB,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,1,0,win,Havana,Cuba,FALSE,1476,1301,1479,1298,3
+,,,2008-06-17,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Antigua and Barbuda,,,,FALSE,4,3,win,St. John's,Antigua and Barbuda,FALSE,1479,1146,1487,1138,8
+,,,2008-06-22,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Antigua and Barbuda,,,,TRUE,4,0,win,Havana,Cuba,FALSE,1487,1138,1492,1133,5
+,,,2008-08-20,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,3,loss,Havana,Cuba,FALSE,1492,1515,1455,1552,-37
+,,,2008-09-06,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,1,loss,Havana,Cuba,FALSE,1455,1807,1447,1815,-8
+,,,2008-09-10,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,1,4,loss,Guatemala City,Guatemala,FALSE,1447,1525,1429,1543,-18
+,,,2008-10-11,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,6,loss,"Washington, D.C.",United States,FALSE,1429,1823,1425,1827,-4
+,,,2008-10-15,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,TRUE,2,1,win,Havana,Cuba,FALSE,1425,1537,1446,1516,21
+,,,2008-10-23,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,TRUE,7,1,win,Havana,Cuba,FALSE,1446,1181,1455,1172,9
+,,,2008-10-25,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Barbados,,,,TRUE,1,1,draw,Havana,Cuba,FALSE,1455,1322,1443,1334,-12
+,,,2008-10-27,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,TRUE,6,0,win,Havana,Cuba,FALSE,1443,1250,1456,1237,13
+,,,2008-11-19,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,3,loss,Port of Spain,Trinidad and Tobago,FALSE,1456,1564,1440,1580,-16
+,,,2008-12-04,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,FALSE,2,1,win,Montego Bay,Jamaica,TRUE,1440,1485,1463,1462,23
+,,,2008-12-06,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Antigua and Barbuda,,,,TRUE,3,0,win,Falmouth,Jamaica,TRUE,1463,1240,1478,1225,15
+,,,2008-12-08,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Montego Bay,Jamaica,TRUE,1478,1389,1453,1414,-25
+,,,2008-12-11,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Grenada,,,,TRUE,2,2,draw,Kingston,Jamaica,TRUE,1453,1301,1445,1309,-8
+,,,2008-12-14,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,TRUE,0,0,draw,Kingston,Jamaica,TRUE,1445,1456,1446,1455,1
+,,,2010-10-26,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,3,0,win,Panama City,Panama,FALSE,1446,1605,1475,1576,29
+,,,2010-11-10,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Dominica,,,,TRUE,4,2,win,St. John's,Antigua and Barbuda,TRUE,1475,1098,1481,1092,6
+,,,2010-11-12,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,FALSE,3,3,draw,St. John's,Antigua and Barbuda,TRUE,1481,1226,1468,1239,-13
+,,,2010-11-14,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Antigua and Barbuda,,,,FALSE,0,0,draw,St. John's,Antigua and Barbuda,FALSE,1468,1242,1461,1249,-7
+,,,2010-11-26,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,0,win,Fort-de-France,Martinique,TRUE,1461,1542,1498,1505,37
+,,,2010-11-28,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,FALSE,1,0,win,Fort-de-France,Martinique,FALSE,1498,1375,1517,1356,19
+,,,2010-11-30,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Grenada,,,,TRUE,0,0,draw,Fort-de-France,Martinique,TRUE,1517,1304,1506,1315,-11
+,,,2010-12-03,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,TRUE,1,2,loss,Fort-de-France,Martinique,TRUE,1506,1474,1484,1496,-22
+,,,2010-12-05,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Grenada,,,,FALSE,1,0,win,Fort-de-France,Martinique,TRUE,1484,1310,1495,1299,11
+,,,2011-03-24,Friendly,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,1,loss,Havana,Cuba,FALSE,1495,1481,1482,1494,-13
+,,,2011-03-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,2,loss,Havana,Cuba,FALSE,1482,1596,1468,1610,-14
+,,,2011-05-26,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,TRUE,1,1,draw,Havana,Cuba,FALSE,1468,1065,1459,1074,-9
+,,,2011-05-28,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,TRUE,2,1,win,Havana,Cuba,FALSE,1459,1074,1460,1073,1
+,,,2011-06-05,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,5,loss,Arlington,United States,TRUE,1460,1670,1437,1693,-23
+,,,2011-06-09,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,5,loss,Charlotte,United States,TRUE,1437,1873,1429,1881,-8
+,,,2011-06-12,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,El Salvador,SLV,SLV,CONCACAF,FALSE,1,6,loss,Chicago,United States,TRUE,1429,1493,1388,1534,-41
+,,,2011-12-11,Friendly,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,Havana,Cuba,FALSE,1388,1644,1392,1640,4
+,,,2012-02-22,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1392,1638,1390,1640,-2
+,,,2012-02-24,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,3,loss,Montego Bay,Jamaica,FALSE,1390,1640,1386,1644,-4
+,,,2012-02-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,1,loss,Cochabamba,Bolivia,FALSE,1386,1535,1382,1539,-4
+,,,2012-06-08,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,1,loss,Havana,Cuba,FALSE,1382,1578,1367,1593,-15
+,,,2012-06-12,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1367,1711,1364,1714,-3
+,,,2012-09-07,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,3,loss,Havana,Cuba,FALSE,1364,1618,1344,1638,-20
+,,,2012-09-11,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,San Pedro Sula,Honduras,FALSE,1344,1638,1340,1642,-4
+,,,2012-10-12,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,3,loss,Toronto,Canada,FALSE,1340,1604,1332,1612,-8
+,,,2012-10-16,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Havana,Cuba,FALSE,1332,1697,1345,1684,13
+,,,2012-11-14,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,TRUE,5,0,win,Bacolet,Trinidad and Tobago,TRUE,1345,1215,1371,1189,26
+,,,2012-12-08,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,FALSE,0,1,loss,North Sound,Antigua and Barbuda,TRUE,1354,1363,1335,1382,-19
+,,,2012-12-10,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,French Guiana,,,,TRUE,2,1,win,North Sound,Antigua and Barbuda,TRUE,1335,1275,1352,1258,17
+,,,2012-12-12,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,0,win,North Sound,Antigua and Barbuda,TRUE,1352,1590,1384,1558,32
+,,,2012-12-14,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,St. John's,Antigua and Barbuda,TRUE,1384,1466,1409,1441,25
+,,,2012-12-16,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,0,win,St. John's,Antigua and Barbuda,TRUE,1409,1458,1432,1435,23
+,,,2013-07-09,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,3,loss,Portland,United States,TRUE,1432,1743,1419,1756,-13
+,,,2013-07-13,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,4,loss,Sandy,United States,FALSE,1419,1807,1414,1812,-5
+,,,2013-07-16,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Belize,,,,TRUE,4,0,win,East Hartford,United States,TRUE,1414,1171,1433,1152,19
+,,,2013-07-20,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,6,loss,Atlanta,United States,TRUE,1433,1703,1416,1720,-17
+,,,2014-03-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Indonesia,IDN,IDN,AFC,TRUE,1,0,win,Alzira,Spain,TRUE,1416,1229,1421,1224,5
+,,,2014-08-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,4,loss,Panama City,Panama,FALSE,1421,1686,1417,1690,-4
+,,,2014-08-23,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1417,1479,1411,1485,-6
+,,,2014-11-11,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,French Guiana,,,,TRUE,1,1,draw,Montego Bay,Jamaica,TRUE,1411,1253,1402,1262,-9
+,,,2014-11-13,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,FALSE,3,2,win,Montego Bay,Jamaica,TRUE,1402,1093,1408,1087,6
+,,,2014-11-18,CFU Caribbean Cup,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,2,loss,Montego Bay,Jamaica,TRUE,1414,1425,1395,1444,-19
+,,,2015-03-25,Friendly,played,Cuba,CUB,CUB,CONCACAF,Dominican Republic,,,,FALSE,3,0,win,Santiago de los Caballeros,Dominican Republic,FALSE,1395,1233,1409,1219,14
+,,,2015-03-30,Friendly,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,3,loss,Montego Bay,Jamaica,FALSE,1409,1531,1401,1539,-8
+,,,2015-06-10,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,FALSE,0,0,draw,Willemstad,Curaçao,FALSE,1401,1104,1391,1114,-10
+,,,2015-06-14,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,TRUE,1,1,draw,Havana,Cuba,FALSE,1391,1114,1375,1130,-16
+,,,2015-07-09,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,6,loss,Chicago,United States,TRUE,1375,1843,1368,1850,-7
+,,,2015-07-12,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,Glendale,United States,TRUE,1368,1535,1347,1556,-21
+,,,2015-07-15,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,1,0,win,Charlotte,United States,TRUE,1347,1494,1382,1459,35
+,,,2015-07-18,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,6,loss,Baltimore,United States,FALSE,1382,1852,1378,1856,-4
+,,,2015-12-08,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,0,5,loss,Managua,Nicaragua,FALSE,1378,1214,1354,1238,-24
+,,,2015-12-11,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,0,1,loss,Estelí,Nicaragua,FALSE,1354,1238,1344,1248,-10
+,,,2015-12-16,Friendly,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Juticalpa,Honduras,FALSE,1344,1504,1339,1509,-5
+,,,2016-01-08,Copa América qualification,played,Cuba,CUB,CUB,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,4,loss,Panama City,Panama,FALSE,1339,1682,1334,1687,-5
+,,,2016-03-22,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Bermuda,,,,TRUE,2,1,win,Havana,Cuba,FALSE,1334,1220,1343,1211,9
+,,,2016-03-29,CFU Caribbean Cup qualification,played,Cuba,CUB,CUB,CONCACAF,French Guiana,,,,FALSE,0,3,loss,Cayenne,French Guiana,FALSE,1343,1266,1310,1299,-33
+,,,2016-10-07,Friendly,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,2,loss,Havana,Cuba,FALSE,1310,1778,1307,1781,-3
+,,,2018-03-22,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,1,3,loss,Managua,Nicaragua,FALSE,1307,1266,1295,1278,-12
+,,,2018-03-25,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,3,3,draw,Managua,Nicaragua,FALSE,1295,1278,1297,1276,2
+,,,2018-08-15,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,0,3,loss,Guatemala City,Guatemala,FALSE,1297,1511,1292,1516,-5
+,,,2018-08-18,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Quetzaltenango,Guatemala,FALSE,1292,1516,1289,1519,-3
+,,,2018-08-26,Friendly,played,Cuba,CUB,CUB,CONCACAF,Barbados,,,,FALSE,0,0,draw,Bridgetown,Barbados,FALSE,1289,1136,1287,1138,-2
+,,,2018-08-29,Friendly,played,Cuba,CUB,CUB,CONCACAF,Barbados,,,,FALSE,2,0,win,Bridgetown,Barbados,FALSE,1287,1138,1300,1125,13
+,,,2018-09-08,CONCACAF Nations League qualification,played,Cuba,CUB,CUB,CONCACAF,Turks and Caicos Islands,,,,TRUE,11,0,win,Havana,Cuba,FALSE,1300,760,1303,757,3
+,,,2018-10-12,CONCACAF Nations League qualification,played,Cuba,CUB,CUB,CONCACAF,Grenada,,,,FALSE,2,0,win,St. George's,Grenada,FALSE,1306,1080,1326,1060,20
+,,,2018-11-17,CONCACAF Nations League qualification,played,Cuba,CUB,CUB,CONCACAF,Dominican Republic,,,,TRUE,1,0,win,Havana,Cuba,FALSE,1326,1276,1338,1264,12
+,,,2019-02-27,Friendly,played,Cuba,CUB,CUB,CONCACAF,Bermuda,,,,TRUE,5,0,win,Havana,Cuba,FALSE,1332,1187,1340,1179,8
+,,,2019-03-24,CONCACAF Nations League qualification,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,2,loss,Port-au-Prince,Haiti,FALSE,1340,1512,1333,1519,-7
+,,,2019-06-15,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,7,loss,Los Angeles,United States,TRUE,1329,1831,1323,1837,-6
+,,,2019-06-19,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,TRUE,0,3,loss,Denver,United States,TRUE,1323,1430,1292,1461,-31
+,,,2019-06-23,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,7,loss,Charlotte,United States,TRUE,1292,1584,1274,1602,-18
+,,,2019-09-07,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,6,loss,Toronto,Canada,FALSE,1274,1575,1266,1583,-8
+,,,2019-09-10,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,1,loss,George Town,Cayman Islands,TRUE,1266,1583,1260,1589,-6
+,,,2019-10-11,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,7,loss,"Washington, D.C.",United States,FALSE,1262,1726,1259,1729,-3
+,,,2019-11-07,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,0,0,draw,Managua,Nicaragua,FALSE,1259,1239,1261,1237,2
+,,,2019-11-10,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,1,0,win,Managua,Nicaragua,FALSE,1261,1237,1273,1225,12
+,,,2019-11-19,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,4,loss,George Town,Cayman Islands,TRUE,1273,1715,1268,1720,-5
+,,,2021-03-24,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1268,1489,1263,1494,-5
+,,,2021-03-28,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Curaçao,,,,TRUE,1,2,loss,Guatemala City,Guatemala,TRUE,1263,1422,1252,1433,-11
+,,,2021-06-02,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,British Virgin Islands,,,,TRUE,5,0,win,Guatemala City,Guatemala,TRUE,1252,604,1254,602,2
+,,,2021-06-08,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,1,0,win,St. George's,Grenada,TRUE,1254,1162,1269,1147,15
+,,,2021-07-03,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,French Guiana,,,,TRUE,0,3,loss,Fort Lauderdale,United States,TRUE,,,,,
+,,,2021-11-10,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,3,0,win,Managua,Nicaragua,FALSE,1269,1236,1290,1215,21
+,,,2021-11-13,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,0,2,loss,Managua,Nicaragua,FALSE,1290,1215,1276,1229,-14
+,,,2021-11-14,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,0,2,loss,Managua,Nicaragua,FALSE,,,,,
+,,,2022-03-24,Friendly,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Antigua Guatemala City,Guatemala,FALSE,1276,1459,1273,1462,-3
+,,,2022-03-27,Friendly,played,Cuba,CUB,CUB,CONCACAF,Belize,,,,FALSE,3,0,win,Belmopan,Belize,FALSE,1273,1122,1288,1107,15
+,,,2022-06-02,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,FALSE,1,2,loss,Les Abymes,Guadeloupe,FALSE,1288,1201,1269,1220,-19
+,,,2022-06-05,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Barbados,,,,TRUE,3,0,win,Santiago,Cuba,FALSE,1269,1033,1278,1024,9
+,,,2022-06-09,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Antigua and Barbuda,,,,FALSE,2,0,win,Basseterre,Saint Kitts and Nevis,TRUE,1278,1199,1301,1176,23
+,,,2022-06-12,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Antigua and Barbuda,,,,TRUE,3,1,win,Santiago,Cuba,FALSE,1301,1176,1314,1163,13
+,,,2022-11-16,Friendly,played,Cuba,CUB,CUB,CONCACAF,Dominican Republic,,,,FALSE,4,2,win,Santiago de los Caballeros,Dominican Republic,FALSE,,,,,
+,,,2022-11-18,Friendly,played,Cuba,CUB,CUB,CONCACAF,Dominican Republic,,,,FALSE,1,1,draw,San Cristóbal,Dominican Republic,FALSE,1328,1173,1326,1175,-2
+,,,2023-03-23,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Barbados,,,,FALSE,1,0,win,Bridgetown,Barbados,FALSE,1326,1024,1336,1014,10
+,,,2023-03-26,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,TRUE,1,0,win,Santiago,Cuba,FALSE,1336,1187,1344,1179,8
+,,,2023-06-11,Friendly,played,Cuba,CUB,CUB,CONCACAF,Chile,CHL,CHL,CONMEBOL,FALSE,0,3,loss,Concepción,Chile,FALSE,1344,1704,1342,1706,-2
+,,,2023-06-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Uruguay,URY,URY,CONMEBOL,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1342,1915,1341,1916,-1
+,,,2023-06-27,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Fort Lauderdale,United States,TRUE,1341,1474,1325,1490,-16
+,,,2023-07-01,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Guadeloupe,,,,TRUE,1,4,loss,Houston,United States,TRUE,1325,1268,1274,1319,-51
+,,,2023-07-04,Gold Cup,played,Cuba,CUB,CUB,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,2,4,loss,Houston,United States,TRUE,1274,1704,1268,1710,-6
+,,,2023-09-08,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Santo Domingo,Dominican Republic,TRUE,1268,1522,1280,1510,12
+,,,2023-09-12,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Suriname,,,,TRUE,1,0,win,Santiago,Cuba,FALSE,1280,1298,1295,1283,15
+,,,2023-10-12,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,0,draw,Santo Domingo,Dominican Republic,TRUE,1295,1487,1305,1477,10
+,,,2023-10-15,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,4,loss,Tegucigalpa,Honduras,FALSE,1305,1477,1292,1490,-13
+,,,2023-11-20,Friendly,played,Cuba,CUB,CUB,CONCACAF,Russia,RUS,RUS,UEFA,FALSE,0,8,loss,Volgograd,Russia,FALSE,1292,1755,1290,1757,-2
+,,,2024-03-26,Friendly,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,FALSE,1,0,win,Managua,Nicaragua,FALSE,1290,1330,1304,1316,14
+,,,2024-06-06,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,3,loss,Tegucigalpa,Honduras,FALSE,1304,1487,1294,1497,-10
+,,,2024-06-11,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Cayman Islands,,,,TRUE,3,0,win,Santiago,Cuba,FALSE,,,,,
+,,,2024-09-06,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1294,1588,1310,1572,16
+,,,2024-09-10,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Nicaragua,,,,TRUE,1,1,draw,Santiago,Cuba,FALSE,1310,1371,1308,1373,-2
+,,,2024-10-10,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,2,draw,Santiago,Cuba,FALSE,1308,1383,1307,1384,-1
+,,,2024-10-14,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,1,3,loss,Bacolet,Trinidad and Tobago,FALSE,1307,1384,1291,1400,-16
+,,,2024-11-14,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Saint Kitts and Nevis,,,,FALSE,1,2,loss,Basseterre,Saint Kitts and Nevis,FALSE,1291,1092,1265,1118,-26
+,,,2024-11-18,CONCACAF Nations League,played,Cuba,CUB,CUB,CONCACAF,Saint Kitts and Nevis,,,,TRUE,4,0,win,Santiago,Cuba,FALSE,1265,1118,1280,1103,15
+,,,2025-03-21,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,2,loss,Santiago,Cuba,FALSE,1280,1398,1261,1417,-19
+,,,2025-03-25,Gold Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,4,loss,Couva,Trinidad and Tobago,FALSE,1261,1417,1247,1431,-14
+,,,2025-06-06,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Antigua and Barbuda,,,,FALSE,1,0,win,Piggotts,Antigua and Barbuda,FALSE,1247,917,1255,909,8
+,,,2025-06-10,FIFA World Cup qualification,played,Cuba,CUB,CUB,CONCACAF,Bermuda,,,,TRUE,1,2,loss,Santiago de Cuba,Cuba,FALSE,1255,1136,1224,1167,-31
+,,,2025-10-05,Friendly,played,Cuba,CUB,CUB,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,0,7,loss,Arnos Vale,Saint Vincent and the Grenadines,FALSE,1224,1137,1202,1159,-22
+,,,2025-10-08,Friendly,played,Cuba,CUB,CUB,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,0,1,loss,Arnos Vale,Saint Vincent and the Grenadines,FALSE,1202,1159,1194,1167,-8
+,,,2025-10-11,Friendly,played,Cuba,CUB,CUB,CONCACAF,Grenada,,,,FALSE,0,2,loss,St. George's,Grenada,FALSE,1194,1107,1180,1121,-14
+,,,2025-11-12,CONCACAF Series,played,Cuba,CUB,CUB,CONCACAF,Saint Lucia,,,,TRUE,3,0,win,Santiago de los Caballeros,Dominican Republic,TRUE,1180,1038,1196,1022,16
+,,,2025-11-15,CONCACAF Series,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,FALSE,2,0,win,Santiago de los Caballeros,Dominican Republic,TRUE,1196,1372,1229,1339,33
+,,,2026-03-26,CONCACAF Series,played,Cuba,CUB,CUB,CONCACAF,Martinique,,,,FALSE,2,2,draw,Santiago de los Caballeros,Dominican Republic,TRUE,1229,1330,1233,1326,4
+,,,2026-03-29,CONCACAF Series,played,Cuba,CUB,CUB,CONCACAF,Dominican Republic,,,,FALSE,1,1,draw,Santiago de los Caballeros,Dominican Republic,FALSE,1233,1290,1239,1284,6

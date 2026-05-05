@@ -1,33 +1,33 @@
-country,team_code,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
-Italy,ITA,Winner,1,7,12,2,1943,2077,134,2010,Group Stage,32
-France,FRA,Runner-up,2,7,9,3,1970,2065,95,2010,Group Stage,32
-Germany,DEU,Third Place,3,7,14,6,1895,1954,59,2010,Third Place,3
-Portugal,PRT,Fourth Place,4,7,7,5,1915,1939,24,2010,Round of 16,16
-Argentina,ARG,Quarter-final,8,5,11,3,1922,2005,83,2010,Quarter-final,8
-Brazil,BRA,Quarter-final,8,5,10,2,2034,2059,25,2010,Quarter-final,8
-England,ENG,Quarter-final,8,5,6,2,1973,2000,27,2010,Round of 16,16
-Ukraine,UKR,Quarter-final,8,5,5,7,1790,1787,-3,,,
-Australia,AUS,Round of 16,16,4,5,6,1798,1804,6,2010,Group Stage,32
-Ecuador,ECU,Round of 16,16,4,5,4,1700,1768,68,2014,Group Stage,32
-Ghana,GHA,Round of 16,16,4,4,6,1616,1714,98,2010,Quarter-final,8
-Mexico,MEX,Round of 16,16,4,5,5,1839,1821,-18,2010,Round of 16,16
-Netherlands,NLD,Round of 16,16,4,3,2,1994,1982,-12,2010,Runner-up,2
-Spain,ESP,Round of 16,16,4,9,4,1964,1958,-6,2010,Winner,1
-Sweden,SWE,Round of 16,16,4,3,4,1859,1849,-10,2018,Quarter-final,8
-Switzerland,CHE,Round of 16,16,4,4,0,1799,1857,58,2010,Group Stage,32
-Angola,AGO,Group Stage,32,3,1,2,1565,1595,30,,,
-Costa Rica,CRI,Group Stage,32,3,3,9,1724,1640,-84,2014,Quarter-final,8
-Croatia,HRV,Group Stage,32,3,2,3,1838,1816,-22,2014,Group Stage,32
-Czechia,CZE,Group Stage,32,3,3,4,1971,1879,-92,,,
-Iran,IRN,Group Stage,32,3,2,6,1842,1753,-89,2014,Group Stage,32
-Ivory Coast,CIV,Group Stage,32,3,5,6,1766,1769,3,2010,Group Stage,32
-Japan,JPN,Group Stage,32,3,2,7,1789,1737,-52,2010,Round of 16,16
-Paraguay,PRY,Group Stage,32,3,2,2,1779,1766,-13,2010,Quarter-final,8
-Poland,POL,Group Stage,32,3,2,4,1821,1772,-49,2018,Group Stage,32
-Saudi Arabia,SAU,Group Stage,32,3,2,7,1554,1534,-20,2018,Group Stage,32
-Serbia and Montenegro,SCG,Group Stage,32,3,2,10,1800,1717,-83,,,
-South Korea,KOR,Group Stage,32,3,3,4,1744,1733,-11,2010,Round of 16,16
-Togo,TGO,Group Stage,32,3,1,6,1488,1460,-28,,,
-Trinidad and Tobago,TTO,Group Stage,32,3,0,4,1566,1553,-13,,,
-Tunisia,TUN,Group Stage,32,3,3,6,1703,1657,-46,2018,Group Stage,32
-United States,USA,Group Stage,32,3,2,6,1824,1765,-59,2010,Round of 16,16
+tournament_id,year,country,team_id,team_code,confederation,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
+WC-2006,2006,Italy,ITA,ITA,UEFA,Winner,1,7,12,2,1943,2077,134,2010,Group Stage,32
+WC-2006,2006,France,FRA,FRA,UEFA,Runner-up,2,7,9,3,1970,2065,95,2010,Group Stage,32
+WC-2006,2006,Germany,GER,DEU,UEFA,Third Place,3,7,14,6,1895,1954,59,2010,Third Place,3
+WC-2006,2006,Portugal,PRT,PRT,UEFA,Fourth Place,4,7,7,5,1915,1939,24,2010,Round of 16,16
+WC-2006,2006,Argentina,ARG,ARG,CONMEBOL,Quarter-final,8,5,11,3,1922,2005,83,2010,Quarter-final,8
+WC-2006,2006,Brazil,BRA,BRA,CONMEBOL,Quarter-final,8,5,10,2,2034,2059,25,2010,Quarter-final,8
+WC-2006,2006,England,ENG,ENG,UEFA,Quarter-final,8,5,6,2,1973,2000,27,2010,Round of 16,16
+WC-2006,2006,Ukraine,UKR,UKR,UEFA,Quarter-final,8,5,5,7,1790,1787,-3,,,
+WC-2006,2006,Australia,AUS,AUS,AFC,Round of 16,16,4,5,6,1798,1804,6,2010,Group Stage,32
+WC-2006,2006,Ecuador,ECU,ECU,CONMEBOL,Round of 16,16,4,5,4,1700,1768,68,2014,Group Stage,32
+WC-2006,2006,Ghana,GHA,GHA,CAF,Round of 16,16,4,4,6,1616,1714,98,2010,Quarter-final,8
+WC-2006,2006,Mexico,MEX,MEX,CONCACAF,Round of 16,16,4,5,5,1839,1821,-18,2010,Round of 16,16
+WC-2006,2006,Netherlands,NED,NLD,UEFA,Round of 16,16,4,3,2,1994,1982,-12,2010,Runner-up,2
+WC-2006,2006,Spain,ESP,ESP,UEFA,Round of 16,16,4,9,4,1964,1958,-6,2010,Winner,1
+WC-2006,2006,Sweden,SWE,SWE,UEFA,Round of 16,16,4,3,4,1859,1849,-10,2018,Quarter-final,8
+WC-2006,2006,Switzerland,CHE,CHE,UEFA,Round of 16,16,4,4,0,1799,1857,58,2010,Group Stage,32
+WC-2006,2006,Angola,AGO,AGO,CAF,Group Stage,32,3,1,2,1565,1595,30,,,
+WC-2006,2006,Costa Rica,CRI,CRI,CONCACAF,Group Stage,32,3,3,9,1724,1640,-84,2014,Quarter-final,8
+WC-2006,2006,Croatia,HRV,HRV,UEFA,Group Stage,32,3,2,3,1838,1816,-22,2014,Group Stage,32
+WC-2006,2006,Czechia,CZE,CZE,UEFA,Group Stage,32,3,3,4,1971,1879,-92,,,
+WC-2006,2006,Iran,IRN,IRN,AFC,Group Stage,32,3,2,6,1842,1753,-89,2014,Group Stage,32
+WC-2006,2006,Ivory Coast,CIV,CIV,CAF,Group Stage,32,3,5,6,1766,1769,3,2010,Group Stage,32
+WC-2006,2006,Japan,JPN,JPN,AFC,Group Stage,32,3,2,7,1789,1737,-52,2010,Round of 16,16
+WC-2006,2006,Paraguay,PRY,PRY,CONMEBOL,Group Stage,32,3,2,2,1779,1766,-13,2010,Quarter-final,8
+WC-2006,2006,Poland,POL,POL,UEFA,Group Stage,32,3,2,4,1821,1772,-49,2018,Group Stage,32
+WC-2006,2006,Saudi Arabia,KSA,SAU,AFC,Group Stage,32,3,2,7,1554,1534,-20,2018,Group Stage,32
+WC-2006,2006,Serbia and Montenegro,SCG,SCG,UEFA,Group Stage,32,3,2,10,1800,1717,-83,,,
+WC-2006,2006,South Korea,KOR,KOR,AFC,Group Stage,32,3,3,4,1744,1733,-11,2010,Round of 16,16
+WC-2006,2006,Togo,TGO,TGO,CAF,Group Stage,32,3,1,6,1488,1460,-28,,,
+WC-2006,2006,Trinidad and Tobago,TTO,TTO,CONCACAF,Group Stage,32,3,0,4,1566,1553,-13,,,
+WC-2006,2006,Tunisia,TUN,TUN,CAF,Group Stage,32,3,3,6,1703,1657,-46,2018,Group Stage,32
+WC-2006,2006,United States,USA,USA,CONCACAF,Group Stage,32,3,2,6,1824,1765,-59,2010,Round of 16,16

@@ -1,10 +1,10 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1982 FIFA Men's World Cup,WC-1982,1982,6,1982-06-15,Group Stage,played,New Zealand,NZL,Scotland,SCO,FALSE,Málaga,Spain,TRUE,1596,1840
-1982 FIFA Men's World Cup,WC-1982,1982,18,1982-06-19,Group Stage,played,New Zealand,NZL,Soviet Union,SUN,FALSE,Málaga,Spain,TRUE,1575,1989
-1982 FIFA Men's World Cup,WC-1982,1982,29,1982-06-23,Group Stage,played,New Zealand,NZL,Brazil,BRA,FALSE,Seville,Spain,TRUE,1566,2136
-2010 FIFA Men's World Cup,WC-2010,2010,14,2010-06-15,Group Stage,played,New Zealand,NZL,Slovakia,SVK,TRUE,Rustenburg,South Africa,TRUE,1527,1670
-2010 FIFA Men's World Cup,WC-2010,2010,28,2010-06-20,Group Stage,played,New Zealand,NZL,Italy,ITA,FALSE,Nelspruit,South Africa,TRUE,1539,1922
-2010 FIFA Men's World Cup,WC-2010,2010,43,2010-06-24,Group Stage,played,New Zealand,NZL,Paraguay,PRY,FALSE,Polokwane,South Africa,TRUE,1563,1808
-2026 FIFA Men's World Cup,WC-2026,2026,14,2026-06-15,Group Stage,scheduled,New Zealand,NZL,Iran,IRN,FALSE,Inglewood,United States,TRUE,1585,1760
-2026 FIFA Men's World Cup,WC-2026,2026,38,2026-06-21,Group Stage,scheduled,New Zealand,NZL,Egypt,EGY,TRUE,Vancouver,Canada,TRUE,1585,1689
-2026 FIFA Men's World Cup,WC-2026,2026,62,2026-06-26,Group Stage,scheduled,New Zealand,NZL,Belgium,BEL,TRUE,Vancouver,Canada,TRUE,1585,1866
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_006,6,1982-06-15,Group Stage,played,New Zealand,NZL,NZL,OFC,Scotland,SCO,SCO,UEFA,FALSE,Málaga,Spain,TRUE,1596,1840
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_018,18,1982-06-19,Group Stage,played,New Zealand,NZL,NZL,OFC,Soviet Union,SUN,SUN,UEFA,FALSE,Málaga,Spain,TRUE,1575,1989
+1982 FIFA Men's World Cup,WC-1982,1982,WC-1982_029,29,1982-06-23,Group Stage,played,New Zealand,NZL,NZL,OFC,Brazil,BRA,BRA,CONMEBOL,FALSE,Seville,Spain,TRUE,1566,2136
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_014,14,2010-06-15,Group Stage,played,New Zealand,NZL,NZL,OFC,Slovakia,SVK,SVK,UEFA,TRUE,Rustenburg,South Africa,TRUE,1527,1670
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_028,28,2010-06-20,Group Stage,played,New Zealand,NZL,NZL,OFC,Italy,ITA,ITA,UEFA,FALSE,Nelspruit,South Africa,TRUE,1539,1922
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_043,43,2010-06-24,Group Stage,played,New Zealand,NZL,NZL,OFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,Polokwane,South Africa,TRUE,1563,1808
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_014,14,2026-06-15,Group Stage,scheduled,New Zealand,NZL,NZL,OFC,Iran,IRN,IRN,AFC,FALSE,Inglewood,United States,TRUE,1585,1760
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_038,38,2026-06-21,Group Stage,scheduled,New Zealand,NZL,NZL,OFC,Egypt,EGY,EGY,CAF,TRUE,Vancouver,Canada,TRUE,1585,1689
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_062,62,2026-06-26,Group Stage,scheduled,New Zealand,NZL,NZL,OFC,Belgium,BEL,BEL,UEFA,TRUE,Vancouver,Canada,TRUE,1585,1866

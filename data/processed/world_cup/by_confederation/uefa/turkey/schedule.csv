@@ -1,14 +1,14 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1954 FIFA Men's World Cup,WC-1954,1954,6,1954-06-17,Group Stage,played,Turkey,TUR,Germany,DEU,FALSE,Bern,Switzerland,TRUE,1902,1923
-1954 FIFA Men's World Cup,WC-1954,1954,15,1954-06-20,Group Stage,played,Turkey,TUR,South Korea,KOR,FALSE,Geneva,Switzerland,TRUE,1586,1669
-1954 FIFA Men's World Cup,WC-1954,1954,17,1954-06-23,Group Stage,played,Turkey,TUR,Germany,DEU,FALSE,Zürich,Switzerland,TRUE,1902,1923
-2002 FIFA Men's World Cup,WC-2002,2002,9,2002-06-03,Group Stage,played,Turkey,TUR,Brazil,BRA,FALSE,Ulsan,South Korea,TRUE,1756,1867
-2002 FIFA Men's World Cup,WC-2002,2002,27,2002-06-09,Group Stage,played,Turkey,TUR,Costa Rica,CRI,FALSE,Incheon,South Korea,TRUE,1735,1792
-2002 FIFA Men's World Cup,WC-2002,2002,44,2002-06-13,Group Stage,played,Turkey,TUR,China PR,,TRUE,Seoul,South Korea,TRUE,1902,
-2002 FIFA Men's World Cup,WC-2002,2002,55,2002-06-18,Round of 16,played,Turkey,TUR,Japan,JPN,FALSE,Rifu,Japan,FALSE,1777,1870
-2002 FIFA Men's World Cup,WC-2002,2002,60,2002-06-22,Quarter-final,played,Turkey,TUR,Senegal,SEN,FALSE,Osaka,Japan,TRUE,1822,1808
-2002 FIFA Men's World Cup,WC-2002,2002,62,2002-06-26,Semi-final,played,Turkey,TUR,Brazil,BRA,FALSE,Saitama,Japan,TRUE,1851,2010
-2002 FIFA Men's World Cup,WC-2002,2002,63,2002-06-29,Third Place,played,Turkey,TUR,South Korea,KOR,FALSE,Daegu,South Korea,FALSE,1834,1818
-2026 FIFA Men's World Cup,WC-2026,2026,8,2026-06-13,Group Stage,scheduled,Turkey,TUR,Australia,AUS,FALSE,Vancouver,Canada,TRUE,1902,1783
-2026 FIFA Men's World Cup,WC-2026,2026,32,2026-06-19,Group Stage,scheduled,Turkey,TUR,Paraguay,PRY,TRUE,Santa Clara,United States,TRUE,1902,1833
-2026 FIFA Men's World Cup,WC-2026,2026,55,2026-06-25,Group Stage,scheduled,Turkey,TUR,United States,USA,FALSE,Inglewood,United States,FALSE,1902,1721
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_006,6,1954-06-17,Group Stage,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,Bern,Switzerland,TRUE,1902,1923
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_015,15,1954-06-20,Group Stage,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,FALSE,Geneva,Switzerland,TRUE,1586,1669
+1954 FIFA Men's World Cup,WC-1954,1954,WC-1954_017,17,1954-06-23,Group Stage,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,Zürich,Switzerland,TRUE,1902,1923
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_009,9,2002-06-03,Group Stage,played,Turkey,TUR,TUR,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Ulsan,South Korea,TRUE,1756,1867
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_027,27,2002-06-09,Group Stage,played,Turkey,TUR,TUR,UEFA,Costa Rica,CRI,CRI,CONCACAF,FALSE,Incheon,South Korea,TRUE,1735,1792
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_044,44,2002-06-13,Group Stage,played,Turkey,TUR,TUR,UEFA,China PR,,,,TRUE,Seoul,South Korea,TRUE,1902,
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_055,55,2002-06-18,Round of 16,played,Turkey,TUR,TUR,UEFA,Japan,JPN,JPN,AFC,FALSE,Rifu,Japan,FALSE,1777,1870
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_060,60,2002-06-22,Quarter-final,played,Turkey,TUR,TUR,UEFA,Senegal,SEN,SEN,CAF,FALSE,Osaka,Japan,TRUE,1822,1808
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_062,62,2002-06-26,Semi-final,played,Turkey,TUR,TUR,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,Saitama,Japan,TRUE,1851,2010
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_063,63,2002-06-29,Third Place,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,FALSE,Daegu,South Korea,FALSE,1834,1818
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_008,8,2026-06-13,Group Stage,scheduled,Turkey,TUR,TUR,UEFA,Australia,AUS,AUS,AFC,FALSE,Vancouver,Canada,TRUE,1902,1783
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_032,32,2026-06-19,Group Stage,scheduled,Turkey,TUR,TUR,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,Santa Clara,United States,TRUE,1902,1833
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_055,55,2026-06-25,Group Stage,scheduled,Turkey,TUR,TUR,UEFA,United States,USA,USA,CONCACAF,FALSE,Inglewood,United States,FALSE,1902,1721

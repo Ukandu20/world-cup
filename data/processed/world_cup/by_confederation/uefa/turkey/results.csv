@@ -1,641 +1,641 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1923-10-26,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1500,1588,1500,1588,0
-1924-05-25,Olympic Games,played,Turkey,TUR,Czechoslovakia,CSK,FALSE,2,5,loss,Paris,France,TRUE,1500,1913,1491,1922,-9
-1924-06-17,Friendly,played,Turkey,TUR,Finland,,FALSE,4,2,win,Helsinki,Finland,FALSE,1491,1572,1513,1550,22
-1924-06-19,Friendly,played,Turkey,TUR,Estonia,,FALSE,4,1,win,Tallinn,Estonia,FALSE,1513,1357,1528,1342,15
-1924-06-22,Friendly,played,Turkey,TUR,Latvia,,FALSE,3,1,win,Riga,Latvia,FALSE,1528,1376,1541,1363,13
-1924-06-29,Friendly,played,Turkey,TUR,Poland,POL,FALSE,0,2,loss,Łódź,Poland,FALSE,1541,1557,1531,1567,-10
-1924-11-16,Friendly,played,Turkey,TUR,Soviet Union,SUN,FALSE,0,3,loss,Moscow,Soviet Union,FALSE,1531,1467,1515,1483,-16
-1925-04-10,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,2,1,win,Istanbul,Turkey,FALSE,1515,1383,1519,1379,4
-1925-05-01,Friendly,played,Turkey,TUR,Romania,ROU,FALSE,2,1,win,Bucharest,Romania,FALSE,1519,1554,1533,1540,14
-1925-05-15,Friendly,played,Turkey,TUR,Soviet Union,SUN,TRUE,1,2,loss,Ankara,Turkey,FALSE,1533,1483,1519,1497,-14
-1925-10-02,Friendly,played,Turkey,TUR,Poland,POL,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1519,1559,1507,1571,-12
-1926-05-07,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1490,1575,1474,1591,-16
-1926-09-12,Friendly,played,Turkey,TUR,Poland,POL,FALSE,1,6,loss,Lwów,Poland,FALSE,1474,1574,1464,1584,-10
-1927-07-17,Friendly,played,Turkey,TUR,Bulgaria,BGR,FALSE,3,3,draw,Sofia,Bulgaria,FALSE,1464,1345,1463,1346,-1
-1927-10-14,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,3,1,win,Istanbul,Turkey,FALSE,1463,1346,1470,1339,7
-1928-04-08,Friendly,played,Turkey,TUR,Yugoslavia,YUG,FALSE,1,2,loss,Zagreb,Yugoslavia,FALSE,1470,1594,1466,1598,-4
-1928-04-15,Friendly,played,Turkey,TUR,Romania,ROU,FALSE,2,4,loss,Arad,Romania,FALSE,1466,1567,1459,1574,-7
-1928-05-28,Olympic Games,played,Turkey,TUR,Egypt,EGY,FALSE,1,7,loss,Amsterdam,Netherlands,TRUE,1459,1692,1433,1718,-26
-1931-09-27,Balkan Cup,played,Turkey,TUR,Bulgaria,BGR,FALSE,1,5,loss,Sofia,Bulgaria,FALSE,1422,1312,1383,1351,-39
-1931-10-02,Balkan Cup,played,Turkey,TUR,Yugoslavia,YUG,TRUE,2,0,win,Sofia,Bulgaria,TRUE,1383,1648,1432,1599,49
-1932-11-04,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,2,3,loss,Istanbul,Turkey,FALSE,1392,1493,1382,1503,-10
-1936-07-12,Friendly,played,Turkey,TUR,Yugoslavia,YUG,TRUE,3,3,draw,Istanbul,Turkey,FALSE,1376,1641,1380,1637,4
-1937-08-01,Friendly,played,Turkey,TUR,Yugoslavia,YUG,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,1364,1623,1361,1626,-3
-1947-10-26,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,3,1,win,Tehran,Iran,FALSE,,,,,
-1948-04-23,Friendly,played,Turkey,TUR,Greece,GRC,FALSE,3,1,win,Athens,Greece,FALSE,1358,1352,1377,1333,19
-1948-05-30,Friendly,played,Turkey,TUR,Austria,AUT,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1397,1889,1395,1891,-2
-1948-10-28,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,1,1,draw,Tehran,Iran,FALSE,,,,,
-1948-11-28,Friendly,played,Turkey,TUR,Greece,GRC,TRUE,2,1,win,Istanbul,Turkey,FALSE,1466,1313,1470,1309,4
-1949-03-20,Friendly,played,Turkey,TUR,Austria,AUT,FALSE,0,1,loss,Vienna,Austria,FALSE,1454,1804,1453,1805,-1
-1949-05-12,Friendly,played,Turkey,TUR,Egypt,EGY,FALSE,3,2,win,Athens,Greece,TRUE,,,,,
-1949-05-15,Friendly,played,Turkey,TUR,Greece,GRC,FALSE,2,1,win,Athens,Greece,FALSE,1481,1325,1498,1308,17
-1949-11-20,FIFA World Cup qualification,played,Turkey,TUR,Syria,,TRUE,7,0,win,Ankara,Turkey,FALSE,1498,1426,1522,1402,24
-1950-05-28,Friendly,played,Turkey,TUR,Iran,IRN,TRUE,6,1,win,Istanbul,Turkey,FALSE,1522,1571,1539,1554,17
-1950-10-28,Friendly,played,Turkey,TUR,Israel,ISR,FALSE,1,5,loss,Tel Aviv,Israel,FALSE,1539,1480,1522,1497,-17
-1950-12-03,Friendly,played,Turkey,TUR,Israel,ISR,TRUE,3,2,win,Istanbul,Turkey,FALSE,1522,1497,1529,1490,7
-1951-06-10,Friendly,played,Turkey,TUR,Sweden,SWE,FALSE,1,3,loss,Solna,Sweden,FALSE,1529,1935,1527,1937,-2
-1951-06-17,Friendly,played,Turkey,TUR,Germany,DEU,FALSE,2,1,win,Berlin,Germany,FALSE,,,,,
-1951-11-14,Friendly,played,Turkey,TUR,Sweden,SWE,TRUE,1,0,win,Istanbul,Turkey,FALSE,1546,1859,1561,1844,15
-1951-11-21,Friendly,played,Turkey,TUR,Germany,DEU,TRUE,0,2,loss,Istanbul,Turkey,FALSE,,,,,
-1952-06-01,Friendly,played,Turkey,TUR,Switzerland,CHE,TRUE,1,5,loss,Ankara,Turkey,FALSE,1545,1715,1530,1730,-15
-1952-06-08,Friendly,played,Turkey,TUR,Spain,ESP,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1530,1882,1536,1876,6
-1953-05-25,Friendly,played,Turkey,TUR,Switzerland,CHE,FALSE,2,1,win,Bern,Switzerland,FALSE,1536,1714,1553,1697,17
-1953-06-05,Friendly,played,Turkey,TUR,Yugoslavia,YUG,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1553,1938,1560,1931,7
-1954-01-06,FIFA World Cup qualification,played,Turkey,TUR,Spain,ESP,FALSE,1,4,loss,Madrid,Spain,FALSE,1560,1874,1554,1880,-6
-1954-03-14,FIFA World Cup qualification,played,Turkey,TUR,Spain,ESP,TRUE,1,0,win,Istanbul,Turkey,FALSE,1554,1880,1585,1849,31
-1954-03-17,FIFA World Cup qualification,played,Turkey,TUR,Spain,ESP,TRUE,2,2,draw,Rome,Italy,TRUE,1585,1849,1598,1836,13
-1954-06-17,FIFA World Cup,played,Turkey,TUR,Germany,DEU,FALSE,1,4,loss,Bern,Switzerland,TRUE,,,,,
-1954-06-20,FIFA World Cup,played,Turkey,TUR,South Korea,KOR,FALSE,7,0,win,Geneva,Switzerland,TRUE,1586,1669,1669,1586,83
-1954-06-23,FIFA World Cup,played,Turkey,TUR,Germany,DEU,FALSE,2,7,loss,Zürich,Switzerland,TRUE,,,,,
-1954-10-17,Friendly,played,Turkey,TUR,Yugoslavia,YUG,FALSE,1,5,loss,Sarajevo,Yugoslavia,FALSE,1647,1935,1643,1939,-4
-1955-12-18,Friendly,played,Turkey,TUR,Portugal,PRT,TRUE,3,1,win,Istanbul,Turkey,FALSE,1643,1655,1654,1644,11
-1956-02-19,Friendly,played,Turkey,TUR,Hungary,HUN,TRUE,3,1,win,Istanbul,Turkey,FALSE,1654,2214,1682,2186,28
-1956-03-25,Friendly,played,Turkey,TUR,Portugal,PRT,FALSE,1,3,loss,Oeiras,Portugal,FALSE,1682,1663,1670,1675,-12
-1956-05-01,Friendly,played,Turkey,TUR,Brazil,BRA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1670,2014,1666,2018,-4
-1956-11-16,Friendly,played,Turkey,TUR,Poland,POL,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1666,1544,1660,1550,-6
-1956-11-25,Friendly,played,Turkey,TUR,Czechoslovakia,CSK,FALSE,1,1,draw,Prague,Czechoslovakia,FALSE,1660,1852,1667,1845,7
-1957-05-19,Friendly,played,Turkey,TUR,Poland,POL,FALSE,1,0,win,Warsaw,Poland,FALSE,1715,1550,1723,1542,8
-1957-12-08,Friendly,played,Turkey,TUR,Belgium,BEL,TRUE,1,1,draw,Ankara,Turkey,FALSE,1715,1678,1711,1682,-4
-1958-05-04,Friendly,played,Turkey,TUR,Netherlands,NLD,FALSE,2,1,win,Amsterdam,Netherlands,FALSE,1711,1691,1723,1679,12
-1958-10-26,Friendly,played,Turkey,TUR,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1723,1651,1724,1650,1
-1958-11-02,UEFA Euro qualification,played,Turkey,TUR,Romania,ROU,FALSE,0,3,loss,Bucharest,Romania,FALSE,1724,1646,1691,1679,-33
-1958-12-07,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,0,0,draw,Ankara,Turkey,FALSE,1691,1701,1688,1704,-3
-1958-12-18,Friendly,played,Turkey,TUR,Czechoslovakia,CSK,TRUE,1,0,win,Istanbul,Turkey,FALSE,1688,1876,1700,1864,12
-1959-04-26,UEFA Euro qualification,played,Turkey,TUR,Romania,ROU,TRUE,2,0,win,Istanbul,Turkey,FALSE,1700,1679,1720,1659,20
-1959-05-10,Friendly,played,Turkey,TUR,Netherlands,NLD,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1720,1719,1717,1722,-3
-1960-06-08,Friendly,played,Turkey,TUR,Scotland,SCO,TRUE,4,2,win,Ankara,Turkey,FALSE,1717,1817,1732,1802,15
-1960-11-27,Friendly,played,Turkey,TUR,Bulgaria,BGR,FALSE,1,2,loss,Sofia,Bulgaria,FALSE,1732,1774,1726,1780,-6
-1961-05-14,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,0,1,loss,Ankara,Turkey,FALSE,1726,1636,1711,1651,-15
-1961-06-01,FIFA World Cup qualification,played,Turkey,TUR,Norway,NOR,FALSE,1,0,win,Oslo,Norway,FALSE,1711,1543,1727,1527,16
-1961-06-18,FIFA World Cup qualification,played,Turkey,TUR,Soviet Union,SUN,FALSE,0,1,loss,Moscow,Soviet Union,TRUE,1727,1969,1722,1974,-5
-1961-10-08,Friendly,played,Turkey,TUR,Romania,ROU,FALSE,0,4,loss,Bucharest,Romania,FALSE,1722,1651,1705,1668,-17
-1961-10-18,Friendly,played,Turkey,TUR,South Korea,KOR,TRUE,1,0,win,Ankara,Turkey,FALSE,1705,1709,1712,1702,7
-1961-10-29,FIFA World Cup qualification,played,Turkey,TUR,Norway,NOR,TRUE,2,1,win,Istanbul,Turkey,FALSE,1712,1457,1717,1452,5
-1961-11-12,FIFA World Cup qualification,played,Turkey,TUR,Soviet Union,SUN,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1717,1965,1705,1977,-12
-1962-04-29,Friendly,played,Turkey,TUR,Hungary,HUN,FALSE,1,2,loss,Budapest,Hungary,FALSE,1719,1951,1716,1954,-3
-1962-05-16,Friendly,played,Turkey,TUR,Israel,ISR,TRUE,1,0,win,Istanbul,Turkey,FALSE,1716,1589,1720,1585,4
-1962-10-10,Friendly,played,Turkey,TUR,Ethiopia,,TRUE,3,0,win,Ankara,Turkey,FALSE,1720,1516,1725,1511,5
-1962-11-25,Friendly,played,Turkey,TUR,Israel,ISR,FALSE,2,0,win,Ramat Gan,Israel,FALSE,1725,1584,1738,1571,13
-1962-12-02,UEFA Euro qualification,played,Turkey,TUR,Italy,ITA,FALSE,0,6,loss,Bologna,Italy,FALSE,1738,1885,1721,1902,-17
-1962-12-12,Friendly,played,Turkey,TUR,Denmark,DNK,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1721,1713,1718,1716,-3
-1962-12-16,Friendly,played,Turkey,TUR,Ethiopia,,FALSE,0,0,draw,Addis Ababa,Ethiopia,FALSE,1718,1503,1715,1506,-3
-1963-03-27,UEFA Euro qualification,played,Turkey,TUR,Italy,ITA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1715,1902,1700,1917,-15
-1963-09-22,Friendly,played,Turkey,TUR,Poland,POL,FALSE,0,0,draw,Poznań,Poland,FALSE,1700,1670,1702,1668,2
-1963-09-28,Friendly,played,Turkey,TUR,Germany,DEU,FALSE,0,3,loss,Frankfurt am Main,Germany,FALSE,,,,,
-1963-10-09,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,0,0,draw,Ankara,Turkey,FALSE,1697,1725,1695,1727,-2
-1964-09-27,Friendly,played,Turkey,TUR,Poland,POL,TRUE,2,3,loss,Istanbul,Turkey,FALSE,1695,1675,1682,1688,-13
-1964-11-01,Friendly,played,Turkey,TUR,Tunisia,TUN,TRUE,4,1,win,Ankara,Turkey,FALSE,1682,1591,1691,1582,9
-1964-12-20,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1691,1723,1689,1725,-2
-1965-01-24,FIFA World Cup qualification,played,Turkey,TUR,Portugal,PRT,FALSE,1,5,loss,Oeiras,Portugal,FALSE,1689,1688,1662,1715,-27
-1965-04-19,FIFA World Cup qualification,played,Turkey,TUR,Portugal,PRT,TRUE,0,1,loss,Ankara,Turkey,FALSE,1662,1715,1639,1738,-23
-1965-05-02,FIFA World Cup qualification,played,Turkey,TUR,Romania,ROU,FALSE,0,3,loss,Bucharest,Romania,FALSE,1639,1912,1632,1919,-7
-1965-05-09,Friendly,played,Turkey,TUR,Bulgaria,BGR,FALSE,1,4,loss,Sofia,Bulgaria,FALSE,1632,1733,1624,1741,-8
-1965-05-22,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,2,1,win,Tehran,Iran,FALSE,,,,,
-1965-05-24,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,,,,,
-1965-07-21,Friendly,played,Turkey,TUR,Pakistan,,FALSE,3,1,win,Tehran,Iran,TRUE,1624,1377,1633,1368,9
-1965-07-25,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,0,0,draw,Tehran,Iran,FALSE,1633,1603,1636,1600,3
-1965-10-09,FIFA World Cup qualification,played,Turkey,TUR,Czechoslovakia,CSK,TRUE,0,6,loss,Istanbul,Turkey,FALSE,1636,1876,1610,1902,-26
-1965-10-23,FIFA World Cup qualification,played,Turkey,TUR,Romania,ROU,TRUE,2,1,win,Ankara,Turkey,FALSE,1610,1882,1639,1853,29
-1965-11-21,FIFA World Cup qualification,played,Turkey,TUR,Czechoslovakia,CSK,FALSE,1,3,loss,Brno,Czechoslovakia,FALSE,1639,1902,1632,1909,-7
-1966-03-16,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,0,0,draw,Tehran,Iran,FALSE,1624,1608,1628,1604,4
-1966-05-30,Friendly,played,Turkey,TUR,Denmark,DNK,FALSE,0,0,draw,Copenhagen,Denmark,FALSE,1628,1616,1630,1614,2
-1966-10-12,Friendly,played,Turkey,TUR,Germany,DEU,TRUE,0,2,loss,Ankara,Turkey,FALSE,,,,,
-1966-10-16,Friendly,played,Turkey,TUR,Soviet Union,SUN,FALSE,2,0,win,Moscow,Soviet Union,FALSE,1626,2022,1654,1994,28
-1966-11-16,UEFA Euro qualification,played,Turkey,TUR,Republic of Ireland,IRL,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1967-01-22,Friendly,played,Turkey,TUR,Tunisia,TUN,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1640,1579,1641,1578,1
-1967-02-01,UEFA Euro qualification,played,Turkey,TUR,Spain,ESP,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1641,1867,1648,1860,7
-1967-02-22,UEFA Euro qualification,played,Turkey,TUR,Republic of Ireland,IRL,TRUE,2,1,win,Ankara,Turkey,FALSE,,,,,
-1967-05-31,UEFA Euro qualification,played,Turkey,TUR,Spain,ESP,FALSE,0,2,loss,Bilbao,Spain,FALSE,1664,1855,1655,1864,-9
-1967-06-18,UEFA Euro qualification,played,Turkey,TUR,Czechoslovakia,CSK,FALSE,0,3,loss,Bratislava,Czechoslovakia,FALSE,1655,1927,1648,1934,-7
-1967-11-15,UEFA Euro qualification,played,Turkey,TUR,Czechoslovakia,CSK,TRUE,0,0,draw,Ankara,Turkey,FALSE,1648,1925,1657,1916,9
-1967-11-26,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,1,0,win,Dhaka,Pakistan,TRUE,1657,1589,1669,1577,12
-1967-11-28,Friendly,played,Turkey,TUR,Pakistan,,FALSE,7,4,win,Dhaka,Pakistan,FALSE,1669,1294,1678,1285,9
-1968-03-13,Friendly,played,Turkey,TUR,Tunisia,TUN,TRUE,0,0,draw,İzmir,Turkey,FALSE,1678,1581,1673,1586,-5
-1968-04-24,Friendly,played,Turkey,TUR,Poland,POL,FALSE,0,8,loss,Chorzów,Poland,FALSE,1673,1686,1657,1702,-16
-1968-10-09,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,0,2,loss,Istanbul,Turkey,FALSE,1657,1872,1647,1882,-10
-1968-10-23,FIFA World Cup qualification,played,Turkey,TUR,Northern Ireland,NIR,FALSE,1,4,loss,Belfast,Northern Ireland,FALSE,1647,1701,1627,1721,-20
-1968-12-11,FIFA World Cup qualification,played,Turkey,TUR,Northern Ireland,NIR,TRUE,0,3,loss,Istanbul,Turkey,FALSE,1627,1721,1591,1757,-36
-1969-01-17,Friendly,played,Turkey,TUR,Saudi Arabia,SAU,FALSE,2,1,win,Riyadh,Saudi Arabia,FALSE,1591,1345,1597,1339,6
-1969-04-30,Friendly,played,Turkey,TUR,Poland,POL,TRUE,1,3,loss,Ankara,Turkey,FALSE,1597,1717,1583,1731,-14
-1969-09-10,Friendly,played,Turkey,TUR,Pakistan,,TRUE,4,2,win,Ankara,Turkey,FALSE,1583,1306,1588,1301,5
-1969-09-17,Friendly,played,Turkey,TUR,Iran,IRN,TRUE,4,0,win,Ankara,Turkey,FALSE,1588,1655,1613,1630,25
-1969-09-24,Friendly,played,Turkey,TUR,Switzerland,CHE,TRUE,3,0,win,Istanbul,Turkey,FALSE,1613,1680,1629,1664,16
-1969-10-15,FIFA World Cup qualification,played,Turkey,TUR,Soviet Union,SUN,FALSE,0,3,loss,Kyiv,Soviet Union,TRUE,1629,1931,1623,1937,-6
-1969-11-16,FIFA World Cup qualification,played,Turkey,TUR,Soviet Union,SUN,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1623,1953,1610,1966,-13
-1970-09-09,Friendly,played,Turkey,TUR,Pakistan,,FALSE,3,1,win,Tehran,Iran,TRUE,1610,1291,1616,1285,6
-1970-09-11,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,1,1,draw,Tehran,Iran,FALSE,1616,1635,1621,1630,5
-1970-10-17,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,FALSE,1,1,draw,Cologne,Germany,FALSE,,,,,
-1970-12-13,UEFA Euro qualification,played,Turkey,TUR,Albania,,TRUE,2,1,win,Istanbul,Turkey,FALSE,1639,1461,1646,1454,7
-1971-04-25,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,TRUE,0,3,loss,Istanbul,Turkey,FALSE,,,,,
-1971-09-22,UEFA Euro qualification,played,Turkey,TUR,Poland,POL,FALSE,1,5,loss,Kraków,Poland,FALSE,1635,1818,1623,1830,-12
-1971-09-26,Friendly,played,Turkey,TUR,Switzerland,CHE,FALSE,0,4,loss,Zürich,Switzerland,FALSE,1623,1696,1613,1706,-10
-1971-11-14,UEFA Euro qualification,played,Turkey,TUR,Albania,,FALSE,0,3,loss,Tirana,Albania,FALSE,1613,1453,1572,1494,-41
-1971-12-05,UEFA Euro qualification,played,Turkey,TUR,Poland,POL,TRUE,1,0,win,İzmir,Turkey,FALSE,1572,1825,1600,1797,28
-1972-10-04,Friendly,played,Turkey,TUR,Algeria,DZA,FALSE,0,1,loss,Algiers,Algeria,FALSE,1600,1552,1591,1561,-9
-1972-10-22,FIFA World Cup qualification,played,Turkey,TUR,Luxembourg,,FALSE,0,2,loss,Luxembourg,Luxembourg,FALSE,1591,1292,1545,1338,-46
-1972-12-10,FIFA World Cup qualification,played,Turkey,TUR,Luxembourg,,TRUE,3,0,win,Istanbul,Turkey,FALSE,1545,1338,1555,1328,10
-1973-01-13,FIFA World Cup qualification,played,Turkey,TUR,Italy,ITA,FALSE,0,0,draw,Naples,Italy,FALSE,1555,1957,1573,1939,18
-1973-02-14,Friendly,played,Turkey,TUR,Algeria,DZA,TRUE,4,0,win,İzmir,Turkey,FALSE,1573,1569,1586,1556,13
-1973-02-25,FIFA World Cup qualification,played,Turkey,TUR,Italy,ITA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1586,1939,1578,1947,-8
-1973-04-18,Balkan Cup,played,Turkey,TUR,Bulgaria,BGR,TRUE,5,2,win,İzmir,Turkey,FALSE,1578,1864,1630,1812,52
-1973-05-09,FIFA World Cup qualification,played,Turkey,TUR,Switzerland,CHE,FALSE,0,0,draw,Basel,Switzerland,FALSE,1630,1736,1641,1725,11
-1973-10-17,Friendly,played,Turkey,TUR,Spain,ESP,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1641,1888,1645,1884,4
-1973-11-18,FIFA World Cup qualification,played,Turkey,TUR,Switzerland,CHE,TRUE,2,0,win,İzmir,Turkey,FALSE,1645,1730,1674,1701,29
-1974-01-18,Friendly,played,Turkey,TUR,Pakistan,,FALSE,2,2,draw,Karachi,Pakistan,FALSE,1674,1275,1664,1285,-10
-1974-01-20,Friendly,played,Turkey,TUR,Iran,IRN,FALSE,1,0,win,Karachi,Pakistan,TRUE,1664,1608,1677,1595,13
-1974-05-08,Balkan Cup,played,Turkey,TUR,Bulgaria,BGR,FALSE,1,5,loss,Sofia,Bulgaria,FALSE,1677,1811,1662,1826,-15
-1974-11-13,Friendly,played,Turkey,TUR,Austria,AUT,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1662,1833,1654,1841,-8
-1974-11-20,UEFA Euro qualification,played,Turkey,TUR,Republic of Ireland,IRL,TRUE,1,1,draw,İzmir,Turkey,FALSE,,,,,
-1974-12-01,UEFA Euro qualification,played,Turkey,TUR,Switzerland,CHE,TRUE,2,1,win,İzmir,Turkey,FALSE,1649,1718,1667,1700,18
-1975-03-19,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1667,1812,1668,1811,1
-1975-04-02,UEFA Euro qualification,played,Turkey,TUR,Soviet Union,SUN,FALSE,0,3,loss,Kyiv,Soviet Union,FALSE,1668,1846,1656,1858,-12
-1975-04-30,UEFA Euro qualification,played,Turkey,TUR,Switzerland,CHE,FALSE,1,1,draw,Basel,Switzerland,FALSE,1656,1696,1664,1688,8
-1975-10-12,Friendly,played,Turkey,TUR,Romania,ROU,FALSE,2,2,draw,Bucharest,Romania,FALSE,1664,1849,1671,1842,7
-1975-10-29,UEFA Euro qualification,played,Turkey,TUR,Republic of Ireland,IRL,FALSE,0,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1975-11-23,UEFA Euro qualification,played,Turkey,TUR,Soviet Union,SUN,TRUE,1,0,win,İzmir,Turkey,FALSE,1644,1896,1672,1868,28
-1975-12-20,Friendly,played,Turkey,TUR,Germany,DEU,TRUE,0,5,loss,Istanbul,Turkey,FALSE,,,,,
-1976-02-08,Friendly,played,Turkey,TUR,Iraq,IRQ,FALSE,0,0,draw,Baghdad,Iraq,FALSE,1667,1579,1667,1579,0
-1976-08-25,Friendly,played,Turkey,TUR,Finland,,FALSE,1,2,loss,Helsinki,Finland,FALSE,1667,1409,1653,1423,-14
-1976-09-22,Friendly,played,Turkey,TUR,Bulgaria,BGR,FALSE,2,2,draw,Sofia,Bulgaria,FALSE,1653,1806,1659,1800,6
-1976-10-13,Friendly,played,Turkey,TUR,Republic of Ireland,IRL,TRUE,3,3,draw,Ankara,Turkey,FALSE,,,,,
-1976-10-31,FIFA World Cup qualification,played,Turkey,TUR,Malta,,TRUE,4,0,win,İzmir,Turkey,FALSE,1658,1386,1666,1378,8
-1976-11-17,FIFA World Cup qualification,played,Turkey,TUR,German DR,DDR,FALSE,1,1,draw,Dresden,German DR,FALSE,1666,1984,1683,1967,17
-1977-01-05,Friendly,played,Turkey,TUR,Northern Cyprus,,FALSE,1,0,win,Kyrenia,Cyprus,FALSE,1683,1486,1690,1479,7
-1977-02-16,Balkan Cup,played,Turkey,TUR,Bulgaria,BGR,TRUE,2,0,win,Istanbul,Turkey,FALSE,1690,1762,1718,1734,28
-1977-03-23,Balkan Cup,played,Turkey,TUR,Romania,ROU,FALSE,0,4,loss,Bucharest,Romania,FALSE,1718,1820,1700,1838,-18
-1977-04-06,Friendly,played,Turkey,TUR,Finland,,TRUE,1,2,loss,Ankara,Turkey,FALSE,1700,1439,1682,1457,-18
-1977-04-17,FIFA World Cup qualification,played,Turkey,TUR,Austria,AUT,FALSE,0,1,loss,Vienna,Austria,FALSE,1682,1818,1674,1826,-8
-1977-09-07,Friendly,played,Turkey,TUR,Czechoslovakia,CSK,FALSE,0,1,loss,Bratislava,Czechoslovakia,FALSE,1674,1894,1671,1897,-3
-1977-09-21,Balkan Cup,played,Turkey,TUR,Bulgaria,BGR,FALSE,1,3,loss,Sofia,Bulgaria,FALSE,1671,1756,1656,1771,-15
-1977-10-30,FIFA World Cup qualification,played,Turkey,TUR,Austria,AUT,TRUE,0,1,loss,İzmir,Turkey,FALSE,1656,1858,1642,1872,-14
-1977-11-16,FIFA World Cup qualification,played,Turkey,TUR,German DR,DDR,TRUE,1,2,loss,İzmir,Turkey,FALSE,1642,1965,1633,1974,-9
-1977-11-27,FIFA World Cup qualification,played,Turkey,TUR,Malta,,FALSE,3,0,win,Gżira,Malta,FALSE,1633,1384,1654,1363,21
-1978-03-22,Balkan Cup,played,Turkey,TUR,Romania,ROU,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1654,1853,1660,1847,6
-1978-04-05,Friendly,played,Turkey,TUR,Republic of Ireland,IRL,FALSE,2,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1978-09-23,Friendly,played,Turkey,TUR,Italy,ITA,FALSE,0,1,loss,Florence,Italy,FALSE,1651,2006,1650,2007,-1
-1978-10-05,Friendly,played,Turkey,TUR,Soviet Union,SUN,TRUE,0,2,loss,Ankara,Turkey,FALSE,1650,1935,1642,1943,-8
-1978-11-29,UEFA Euro qualification,played,Turkey,TUR,Wales,WAL,FALSE,0,1,loss,Wrexham,Wales,FALSE,1642,1810,1635,1817,-7
-1979-02-28,Friendly,played,Turkey,TUR,Algeria,DZA,TRUE,0,1,loss,Bursa,Turkey,FALSE,1635,1605,1621,1619,-14
-1979-03-18,UEFA Euro qualification,played,Turkey,TUR,Malta,,TRUE,2,1,win,İzmir,Turkey,FALSE,1621,1372,1626,1367,5
-1979-04-01,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,TRUE,0,0,draw,İzmir,Turkey,FALSE,,,,,
-1979-10-28,UEFA Euro qualification,played,Turkey,TUR,Malta,,FALSE,2,1,win,Gżira,Malta,FALSE,1640,1358,1650,1348,10
-1979-11-21,UEFA Euro qualification,played,Turkey,TUR,Wales,WAL,TRUE,1,0,win,İzmir,Turkey,FALSE,1650,1842,1675,1817,25
-1979-12-22,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,FALSE,0,2,loss,Gelsenkirchen,Germany,FALSE,,,,,
-1980-09-24,FIFA World Cup qualification,played,Turkey,TUR,Iceland,ISL,TRUE,1,3,loss,İzmir,Turkey,FALSE,1672,1363,1617,1418,-55
-1980-09-28,Friendly,played,Turkey,TUR,Northern Cyprus,,TRUE,5,0,win,İzmir,Turkey,FALSE,1617,1479,1633,1463,16
-1980-10-01,Friendly,played,Turkey,TUR,Libya,,TRUE,1,2,loss,İzmir,Turkey,FALSE,1633,1493,1601,1525,-32
-1980-10-03,Friendly,played,Turkey,TUR,Saudi Arabia,SAU,TRUE,3,0,win,İzmir,Turkey,FALSE,1601,1460,1615,1446,14
-1980-10-15,FIFA World Cup qualification,played,Turkey,TUR,Wales,WAL,FALSE,0,4,loss,Cardiff,Wales,FALSE,1624,1828,1613,1839,-11
-1980-12-03,FIFA World Cup qualification,played,Turkey,TUR,Czechoslovakia,CSK,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1613,1898,1607,1904,-6
-1981-03-25,FIFA World Cup qualification,played,Turkey,TUR,Wales,WAL,TRUE,0,1,loss,Ankara,Turkey,FALSE,1607,1873,1596,1884,-11
-1981-04-15,FIFA World Cup qualification,played,Turkey,TUR,Czechoslovakia,CSK,TRUE,0,3,loss,Istanbul,Turkey,FALSE,1596,1891,1579,1908,-17
-1981-09-09,FIFA World Cup qualification,played,Turkey,TUR,Iceland,ISL,FALSE,0,2,loss,Reykjavík,Iceland,FALSE,1579,1433,1545,1467,-34
-1981-09-23,FIFA World Cup qualification,played,Turkey,TUR,Soviet Union,SUN,FALSE,0,4,loss,Moscow,Soviet Union,TRUE,1545,1960,1541,1964,-4
-1981-10-07,FIFA World Cup qualification,played,Turkey,TUR,Soviet Union,SUN,TRUE,0,3,loss,İzmir,Turkey,FALSE,1541,1964,1532,1973,-9
-1982-09-22,Friendly,played,Turkey,TUR,Hungary,HUN,FALSE,0,5,loss,Győr,Hungary,FALSE,1532,1815,1528,1819,-4
-1982-10-27,UEFA Euro qualification,played,Turkey,TUR,Albania,,TRUE,1,0,win,İzmir,Turkey,FALSE,1528,1438,1538,1428,10
-1982-11-17,UEFA Euro qualification,played,Turkey,TUR,Austria,AUT,FALSE,0,4,loss,Vienna,Austria,FALSE,1538,1907,1533,1912,-5
-1983-01-29,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1525,1808,1530,1803,5
-1983-03-09,Friendly,played,Turkey,TUR,Romania,ROU,FALSE,1,3,loss,Târgu Mureș,Romania,FALSE,1530,1814,1527,1817,-3
-1983-03-30,UEFA Euro qualification,played,Turkey,TUR,Northern Ireland,NIR,FALSE,1,2,loss,Belfast,Northern Ireland,FALSE,1527,1769,1522,1774,-5
-1983-04-23,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,TRUE,0,3,loss,İzmir,Turkey,FALSE,,,,,
-1983-05-11,UEFA Euro qualification,played,Turkey,TUR,Albania,,FALSE,1,1,draw,Tirana,Albania,FALSE,1515,1434,1516,1433,1
-1983-08-24,Friendly,played,Turkey,TUR,Libya,,TRUE,0,0,draw,Istanbul,Turkey,FALSE,,,,,
-1983-10-12,UEFA Euro qualification,played,Turkey,TUR,Northern Ireland,NIR,TRUE,1,0,win,Ankara,Turkey,FALSE,1516,1802,1546,1772,30
-1983-10-26,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,FALSE,1,5,loss,Berlin,Germany,FALSE,,,,,
-1983-11-16,UEFA Euro qualification,played,Turkey,TUR,Austria,AUT,TRUE,3,1,win,Istanbul,Turkey,FALSE,1543,1867,1590,1820,47
-1984-01-20,Friendly,played,Turkey,TUR,Egypt,EGY,FALSE,0,1,loss,Cairo,Egypt,FALSE,1590,1647,1584,1653,-6
-1984-01-22,Friendly,played,Turkey,TUR,Egypt,EGY,FALSE,1,0,win,Port Said,Egypt,FALSE,1584,1653,1599,1638,15
-1984-03-03,Friendly,played,Turkey,TUR,Italy,ITA,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1599,1864,1593,1870,-6
-1984-03-11,Friendly,played,Turkey,TUR,Luxembourg,,FALSE,3,1,win,Esch-sur-Alzette,Luxembourg,FALSE,1593,1193,1598,1188,5
-1984-04-04,Friendly,played,Turkey,TUR,Hungary,HUN,TRUE,0,6,loss,Istanbul,Turkey,FALSE,1598,1761,1581,1778,-17
-1984-09-26,Friendly,played,Turkey,TUR,Poland,POL,FALSE,0,2,loss,Słupsk,Poland,FALSE,1581,1906,1579,1908,-2
-1984-10-16,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1579,1759,1581,1757,2
-1984-10-31,FIFA World Cup qualification,played,Turkey,TUR,Finland,,TRUE,1,2,loss,Antalya,Turkey,FALSE,1581,1464,1550,1495,-31
-1984-11-14,FIFA World Cup qualification,played,Turkey,TUR,England,ENG,TRUE,0,8,loss,Istanbul,Turkey,FALSE,1550,1956,1536,1970,-14
-1984-12-22,Friendly,played,Turkey,TUR,Luxembourg,,TRUE,1,0,win,Istanbul,Turkey,FALSE,1536,1172,1537,1171,1
-1985-03-28,Friendly,played,Turkey,TUR,Albania,,FALSE,0,0,draw,Tirana,Albania,FALSE,1537,1483,1538,1482,1
-1985-04-03,FIFA World Cup qualification,played,Turkey,TUR,Romania,ROU,FALSE,0,3,loss,Craiova,Romania,FALSE,1538,1781,1529,1790,-9
-1985-05-01,FIFA World Cup qualification,played,Turkey,TUR,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1529,1812,1523,1818,-6
-1985-08-28,Friendly,played,Turkey,TUR,Switzerland,CHE,FALSE,0,0,draw,St. Gallen,Switzerland,FALSE,1523,1745,1530,1738,7
-1985-09-11,FIFA World Cup qualification,played,Turkey,TUR,Northern Ireland,NIR,TRUE,0,0,draw,İzmir,Turkey,FALSE,1530,1818,1540,1808,10
-1985-09-25,FIFA World Cup qualification,played,Turkey,TUR,Finland,,FALSE,0,1,loss,Tampere,Finland,FALSE,1540,1497,1523,1514,-17
-1985-10-16,FIFA World Cup qualification,played,Turkey,TUR,England,ENG,FALSE,0,5,loss,London,England,FALSE,1523,1942,1519,1946,-4
-1985-11-13,FIFA World Cup qualification,played,Turkey,TUR,Romania,ROU,TRUE,1,3,loss,İzmir,Turkey,FALSE,1519,1774,1502,1791,-17
-1985-12-11,Friendly,played,Turkey,TUR,Poland,POL,TRUE,1,1,draw,Adana,Turkey,FALSE,1502,1821,1508,1815,6
-1986-03-12,Friendly,played,Turkey,TUR,Switzerland,CHE,TRUE,1,0,win,Adana,Turkey,FALSE,1508,1736,1522,1722,14
-1986-10-29,UEFA Euro qualification,played,Turkey,TUR,Yugoslavia,YUG,FALSE,0,4,loss,Split,Yugoslavia,FALSE,1522,1835,1516,1841,-6
-1986-11-12,UEFA Euro qualification,played,Turkey,TUR,Northern Ireland,NIR,TRUE,0,0,draw,İzmir,Turkey,FALSE,1516,1764,1524,1756,8
-1987-03-04,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,1,3,loss,Ankara,Turkey,FALSE,1524,1830,1517,1837,-7
-1987-03-25,Friendly,played,Turkey,TUR,German DR,DDR,TRUE,3,1,win,Istanbul,Turkey,FALSE,1517,1836,1540,1813,23
-1987-04-29,UEFA Euro qualification,played,Turkey,TUR,England,ENG,TRUE,0,0,draw,İzmir,Turkey,FALSE,1540,2016,1556,2000,16
-1987-10-14,UEFA Euro qualification,played,Turkey,TUR,England,ENG,FALSE,0,8,loss,London,England,FALSE,1556,1978,1552,1982,-4
-1987-11-11,UEFA Euro qualification,played,Turkey,TUR,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1552,1702,1544,1710,-8
-1987-12-16,UEFA Euro qualification,played,Turkey,TUR,Yugoslavia,YUG,TRUE,2,3,loss,İzmir,Turkey,FALSE,1544,1826,1534,1836,-10
-1988-03-16,Friendly,played,Turkey,TUR,Hungary,HUN,FALSE,0,1,loss,Budapest,Hungary,FALSE,1534,1789,1532,1791,-2
-1988-09-21,Friendly,played,Turkey,TUR,Greece,GRC,TRUE,3,1,win,Istanbul,Turkey,FALSE,1532,1713,1550,1695,18
-1988-10-12,FIFA World Cup qualification,played,Turkey,TUR,Iceland,ISL,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1550,1542,1544,1548,-6
-1988-11-02,FIFA World Cup qualification,played,Turkey,TUR,Austria,AUT,FALSE,2,3,loss,Vienna,Austria,FALSE,1544,1725,1537,1732,-7
-1988-11-30,FIFA World Cup qualification,played,Turkey,TUR,German DR,DDR,TRUE,3,1,win,Istanbul,Turkey,FALSE,1537,1816,1581,1772,44
-1989-03-29,Friendly,played,Turkey,TUR,Greece,GRC,FALSE,1,0,win,Athens,Greece,FALSE,1581,1700,1597,1684,16
-1989-04-12,FIFA World Cup qualification,played,Turkey,TUR,German DR,DDR,FALSE,2,0,win,Magdeburg,German DR,FALSE,1597,1774,1647,1724,50
-1989-05-10,FIFA World Cup qualification,played,Turkey,TUR,Soviet Union,SUN,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1647,1999,1639,2007,-8
-1989-09-20,FIFA World Cup qualification,played,Turkey,TUR,Iceland,ISL,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1639,1525,1618,1546,-21
-1989-10-25,FIFA World Cup qualification,played,Turkey,TUR,Austria,AUT,TRUE,3,0,win,Istanbul,Turkey,FALSE,1618,1725,1654,1689,36
-1989-11-15,FIFA World Cup qualification,played,Turkey,TUR,Soviet Union,SUN,FALSE,0,2,loss,Simferopol,Soviet Union,TRUE,1654,1949,1648,1955,-6
-1990-04-11,Friendly,played,Turkey,TUR,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1648,1895,1646,1897,-2
-1990-05-26,Friendly,played,Turkey,TUR,Republic of Ireland,IRL,TRUE,0,0,draw,İzmir,Turkey,FALSE,,,,,
-1990-09-05,Friendly,played,Turkey,TUR,Hungary,HUN,FALSE,1,4,loss,Budapest,Hungary,FALSE,1650,1739,1641,1748,-9
-1990-10-17,UEFA Euro qualification,played,Turkey,TUR,Republic of Ireland,IRL,FALSE,0,5,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1990-11-14,UEFA Euro qualification,played,Turkey,TUR,Poland,POL,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1631,1766,1613,1784,-18
-1991-02-27,Friendly,played,Turkey,TUR,Yugoslavia,YUG,TRUE,1,1,draw,İzmir,Turkey,FALSE,1613,1981,1619,1975,6
-1991-03-27,Friendly,played,Turkey,TUR,Tunisia,TUN,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1619,1493,1618,1494,-1
-1991-04-17,UEFA Euro qualification,played,Turkey,TUR,Poland,POL,FALSE,0,3,loss,Warsaw,Poland,FALSE,1618,1764,1604,1778,-14
-1991-05-01,UEFA Euro qualification,played,Turkey,TUR,England,ENG,TRUE,0,1,loss,İzmir,Turkey,FALSE,1604,1982,1597,1989,-7
-1991-07-15,Friendly,played,Turkey,TUR,Faroe Islands,,FALSE,1,1,draw,Tórshavn,Faroe Islands,FALSE,1597,1276,1591,1282,-6
-1991-07-17,Friendly,played,Turkey,TUR,Iceland,ISL,FALSE,1,5,loss,Reykjavík,Iceland,FALSE,1591,1534,1575,1550,-16
-1991-08-21,Friendly,played,Turkey,TUR,Bulgaria,BGR,FALSE,0,0,draw,Stara Zagora,Bulgaria,FALSE,1575,1729,1581,1723,6
-1991-09-04,Friendly,played,Turkey,TUR,United States,USA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1581,1720,1582,1719,1
-1991-10-16,UEFA Euro qualification,played,Turkey,TUR,England,ENG,FALSE,0,1,loss,London,England,FALSE,1582,1992,1580,1994,-2
-1991-11-13,UEFA Euro qualification,played,Turkey,TUR,Republic of Ireland,IRL,TRUE,1,3,loss,Istanbul,Turkey,FALSE,,,,,
-1992-02-12,Friendly,played,Turkey,TUR,Finland,,TRUE,1,1,draw,Adana,Turkey,FALSE,1567,1612,1565,1614,-2
-1992-03-25,Friendly,played,Turkey,TUR,Luxembourg,,FALSE,3,2,win,Luxembourg,Luxembourg,FALSE,1565,1180,1568,1177,3
-1992-04-08,Friendly,played,Turkey,TUR,Denmark,DNK,TRUE,2,1,win,Ankara,Turkey,FALSE,1568,1884,1584,1868,16
-1992-05-30,Friendly,played,Turkey,TUR,Germany,DEU,FALSE,0,1,loss,Gelsenkirchen,Germany,FALSE,1584,2075,1583,2076,-1
-1992-08-26,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,3,2,win,Trabzon,Turkey,FALSE,1583,1788,1596,1775,13
-1992-09-23,FIFA World Cup qualification,played,Turkey,TUR,Poland,POL,FALSE,0,1,loss,Poznań,Poland,FALSE,1596,1777,1589,1784,-7
-1992-10-28,FIFA World Cup qualification,played,Turkey,TUR,San Marino,,TRUE,4,1,win,Ankara,Turkey,FALSE,1589,998,1590,997,1
-1992-11-18,FIFA World Cup qualification,played,Turkey,TUR,England,ENG,FALSE,0,4,loss,London,England,FALSE,1590,1941,1585,1946,-5
-1992-12-16,FIFA World Cup qualification,played,Turkey,TUR,Netherlands,NLD,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1585,1957,1575,1967,-10
-1993-02-24,FIFA World Cup qualification,played,Turkey,TUR,Netherlands,NLD,FALSE,1,3,loss,Utrecht,Netherlands,FALSE,1575,1967,1572,1970,-3
-1993-03-10,FIFA World Cup qualification,played,Turkey,TUR,San Marino,,FALSE,0,0,draw,Serravalle,San Marino,FALSE,1572,997,1554,1015,-18
-1993-03-31,FIFA World Cup qualification,played,Turkey,TUR,England,ENG,TRUE,0,2,loss,İzmir,Turkey,FALSE,1554,1946,1545,1955,-9
-1993-04-28,FIFA World Cup qualification,played,Turkey,TUR,Norway,NOR,FALSE,1,3,loss,Oslo,Norway,FALSE,1545,1772,1537,1780,-8
-1993-10-27,FIFA World Cup qualification,played,Turkey,TUR,Poland,POL,TRUE,2,1,win,Istanbul,Turkey,FALSE,1537,1733,1562,1708,25
-1993-11-10,FIFA World Cup qualification,played,Turkey,TUR,Norway,NOR,TRUE,2,1,win,Istanbul,Turkey,FALSE,1562,1884,1593,1853,31
-1994-02-23,Friendly,played,Turkey,TUR,Czechia,CZE,TRUE,1,4,loss,Istanbul,Turkey,FALSE,1593,1844,1583,1854,-10
-1994-04-20,Friendly,played,Turkey,TUR,Russia,RUS,TRUE,0,1,loss,Bursa,Turkey,FALSE,1583,1859,1578,1864,-5
-1994-08-31,Friendly,played,Turkey,TUR,North Macedonia,,FALSE,2,0,win,Skopje,North Macedonia,FALSE,1578,1637,1599,1616,21
-1994-09-07,UEFA Euro qualification,played,Turkey,TUR,Hungary,HUN,FALSE,2,2,draw,Budapest,Hungary,FALSE,1599,1616,1605,1610,6
-1994-10-12,UEFA Euro qualification,played,Turkey,TUR,Iceland,ISL,TRUE,5,0,win,Istanbul,Turkey,FALSE,1605,1589,1632,1562,27
-1994-12-14,UEFA Euro qualification,played,Turkey,TUR,Switzerland,CHE,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1632,1858,1619,1871,-13
-1994-12-21,Friendly,played,Turkey,TUR,Italy,ITA,FALSE,1,3,loss,Pescara,Italy,FALSE,1619,1984,1617,1986,-2
-1995-02-15,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,1,1,draw,İzmir,Turkey,FALSE,1617,1890,1622,1885,5
-1995-03-08,Friendly,played,Turkey,TUR,Israel,ISR,TRUE,2,1,win,Istanbul,Turkey,FALSE,1622,1622,1629,1615,7
-1995-03-29,UEFA Euro qualification,played,Turkey,TUR,Sweden,SWE,TRUE,2,1,win,Istanbul,Turkey,FALSE,1629,1940,1660,1909,31
-1995-04-26,UEFA Euro qualification,played,Turkey,TUR,Switzerland,CHE,FALSE,2,1,win,Bern,Switzerland,FALSE,1660,1860,1694,1826,34
-1995-06-04,Friendly,played,Turkey,TUR,Canada,CAN,FALSE,3,1,win,Toronto,Canada,FALSE,1694,1600,1709,1585,15
-1995-06-07,Friendly,played,Turkey,TUR,Canada,CAN,FALSE,3,0,win,Montreal,Canada,FALSE,1709,1585,1725,1569,16
-1995-06-11,Friendly,played,Turkey,TUR,Honduras,HND,FALSE,1,0,win,Toronto,Canada,TRUE,1725,1540,1730,1535,5
-1995-06-20,Friendly,played,Turkey,TUR,New Zealand,NZL,FALSE,2,1,win,Coquimbo,Chile,TRUE,1728,1497,1734,1491,6
-1995-06-22,Friendly,played,Turkey,TUR,Chile,CHL,FALSE,0,0,draw,Santiago,Chile,FALSE,1734,1732,1738,1728,4
-1995-08-30,Friendly,played,Turkey,TUR,North Macedonia,,TRUE,2,1,win,Istanbul,Turkey,FALSE,1738,1588,1742,1584,4
-1995-09-06,UEFA Euro qualification,played,Turkey,TUR,Hungary,HUN,TRUE,2,0,win,Istanbul,Turkey,FALSE,1742,1612,1755,1599,13
-1995-10-04,Friendly,played,Turkey,TUR,Finland,,FALSE,0,0,draw,Helsinki,Finland,FALSE,1755,1531,1752,1534,-3
-1995-10-11,UEFA Euro qualification,played,Turkey,TUR,Iceland,ISL,FALSE,0,0,draw,Reykjavík,Iceland,FALSE,1752,1587,1748,1591,-4
-1995-11-15,UEFA Euro qualification,played,Turkey,TUR,Sweden,SWE,FALSE,2,2,draw,Solna,Sweden,FALSE,1748,1858,1759,1847,11
-1996-02-14,Friendly,played,Turkey,TUR,Belarus,,TRUE,3,2,win,İzmir,Turkey,FALSE,1759,1461,1761,1459,2
-1996-03-26,Friendly,played,Turkey,TUR,Czechia,CZE,FALSE,0,3,loss,Ostrava,Czech Republic,FALSE,1761,1896,1754,1903,-7
-1996-04-09,Friendly,played,Turkey,TUR,Azerbaijan,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1754,1451,1759,1446,5
-1996-05-01,Friendly,played,Turkey,TUR,Ukraine,UKR,TRUE,3,2,win,Samsun,Turkey,FALSE,1759,1604,1763,1600,4
-1996-05-29,Friendly,played,Turkey,TUR,Estonia,,FALSE,0,0,draw,Tallinn,Estonia,FALSE,1763,1093,1754,1102,-9
-1996-06-02,Friendly,played,Turkey,TUR,Finland,,FALSE,2,1,win,Helsinki,Finland,FALSE,1754,1501,1760,1495,6
-1996-06-11,UEFA Euro,played,Turkey,TUR,Croatia,HRV,TRUE,0,1,loss,Nottingham,England,TRUE,1760,1904,1745,1919,-15
-1996-06-14,UEFA Euro,played,Turkey,TUR,Portugal,PRT,FALSE,0,1,loss,Nottingham,England,TRUE,1745,1870,1729,1886,-16
-1996-06-19,UEFA Euro,played,Turkey,TUR,Denmark,DNK,TRUE,0,3,loss,Sheffield,England,TRUE,1729,1913,1706,1936,-23
-1996-08-14,Friendly,played,Turkey,TUR,Moldova,,TRUE,2,0,win,Istanbul,Turkey,FALSE,1706,1471,1710,1467,4
-1996-08-31,FIFA World Cup qualification,played,Turkey,TUR,Belgium,BEL,FALSE,1,2,loss,Brussels,Belgium,FALSE,1710,1775,1699,1786,-11
-1996-10-09,Friendly,played,Turkey,TUR,France,FRA,FALSE,0,4,loss,Paris,France,FALSE,1699,2021,1696,2024,-3
-1996-11-10,FIFA World Cup qualification,played,Turkey,TUR,San Marino,,TRUE,7,0,win,Istanbul,Turkey,FALSE,1696,958,1697,957,1
-1996-12-14,FIFA World Cup qualification,played,Turkey,TUR,Wales,WAL,FALSE,0,0,draw,Cardiff,Wales,FALSE,1697,1597,1697,1597,0
-1997-02-12,Friendly,played,Turkey,TUR,Finland,,TRUE,1,1,draw,Denizli,Turkey,FALSE,1697,1465,1690,1472,-7
-1997-04-02,FIFA World Cup qualification,played,Turkey,TUR,Netherlands,NLD,TRUE,1,0,win,Bursa,Turkey,FALSE,1690,1955,1719,1926,29
-1997-04-30,FIFA World Cup qualification,played,Turkey,TUR,Belgium,BEL,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1719,1755,1684,1790,-35
-1997-06-12,Kirin Cup,played,Turkey,TUR,Croatia,HRV,FALSE,1,1,draw,Sendai,Japan,TRUE,1684,1869,1691,1862,7
-1997-06-15,Kirin Cup,played,Turkey,TUR,Japan,JPN,FALSE,0,1,loss,Osaka,Japan,FALSE,1691,1733,1682,1742,-9
-1997-08-20,FIFA World Cup qualification,played,Turkey,TUR,Wales,WAL,TRUE,6,4,win,Istanbul,Turkey,FALSE,1682,1597,1697,1582,15
-1997-09-10,FIFA World Cup qualification,played,Turkey,TUR,San Marino,,FALSE,5,0,win,Serravalle,San Marino,FALSE,1697,956,1699,954,2
-1997-10-11,FIFA World Cup qualification,played,Turkey,TUR,Netherlands,NLD,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,1699,1953,1714,1938,15
-1998-01-21,Friendly,played,Turkey,TUR,Albania,,TRUE,1,4,loss,Antalya,Turkey,FALSE,1714,1411,1682,1443,-32
-1998-02-18,Friendly,played,Turkey,TUR,Israel,ISR,FALSE,0,4,loss,Ramat Gan,Israel,FALSE,1682,1614,1665,1631,-17
-1998-04-22,Friendly,played,Turkey,TUR,Russia,RUS,FALSE,0,1,loss,Moscow,Russia,FALSE,1665,1882,1662,1885,-3
-1998-09-05,UEFA Euro qualification,played,Turkey,TUR,Northern Ireland,NIR,TRUE,3,0,win,Istanbul,Turkey,FALSE,1662,1600,1682,1580,20
-1998-10-10,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,TRUE,1,0,win,Bursa,Turkey,FALSE,1682,2007,1713,1976,31
-1998-10-14,UEFA Euro qualification,played,Turkey,TUR,Finland,,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1713,1540,1663,1590,-50
-1999-03-27,UEFA Euro qualification,played,Turkey,TUR,Moldova,,TRUE,2,0,win,Istanbul,Turkey,FALSE,1663,1414,1670,1407,7
-1999-06-05,UEFA Euro qualification,played,Turkey,TUR,Finland,,FALSE,4,2,win,Helsinki,Finland,FALSE,1670,1571,1700,1541,30
-1999-09-04,UEFA Euro qualification,played,Turkey,TUR,Northern Ireland,NIR,FALSE,3,0,win,Belfast,Northern Ireland,FALSE,1700,1575,1732,1543,32
-1999-09-08,UEFA Euro qualification,played,Turkey,TUR,Moldova,,FALSE,1,1,draw,Chișinău,Moldova,FALSE,1732,1417,1721,1428,-11
-1999-10-09,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,FALSE,0,0,draw,Munich,Germany,FALSE,1721,1885,1734,1872,13
-1999-11-13,UEFA Euro qualification,played,Turkey,TUR,Republic of Ireland,IRL,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
-1999-11-17,UEFA Euro qualification,played,Turkey,TUR,Republic of Ireland,IRL,TRUE,0,0,draw,Bursa,Turkey,FALSE,,,,,
-2000-02-23,Friendly,played,Turkey,TUR,Norway,NOR,TRUE,0,2,loss,Istanbul,Turkey,FALSE,1738,1916,1726,1928,-12
-2000-06-11,UEFA Euro,played,Turkey,TUR,Italy,ITA,TRUE,1,2,loss,Arnhem,Netherlands,TRUE,1726,1929,1714,1941,-12
-2000-06-15,UEFA Euro,played,Turkey,TUR,Sweden,SWE,FALSE,0,0,draw,Eindhoven,Netherlands,TRUE,1714,1884,1725,1873,11
-2000-06-19,UEFA Euro,played,Turkey,TUR,Belgium,BEL,FALSE,2,0,win,Brussels,Belgium,FALSE,1725,1807,1781,1751,56
-2000-06-24,UEFA Euro,played,Turkey,TUR,Portugal,PRT,TRUE,0,2,loss,Amsterdam,Netherlands,TRUE,1781,1986,1763,2004,-18
-2000-08-16,Friendly,played,Turkey,TUR,Bosnia and Herzegovina,BIH,FALSE,0,2,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1763,1549,1743,1569,-20
-2000-09-02,FIFA World Cup qualification,played,Turkey,TUR,Moldova,,TRUE,2,0,win,Istanbul,Turkey,FALSE,1743,1428,1748,1423,5
-2000-10-07,FIFA World Cup qualification,played,Turkey,TUR,Sweden,SWE,FALSE,1,1,draw,Gothenburg,Sweden,FALSE,1748,1836,1758,1826,10
-2000-10-11,FIFA World Cup qualification,played,Turkey,TUR,Azerbaijan,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1758,1270,1762,1266,4
-2000-11-15,Friendly,played,Turkey,TUR,France,FRA,TRUE,0,4,loss,Istanbul,Turkey,FALSE,1762,2102,1754,2110,-8
-2001-02-28,Friendly,played,Turkey,TUR,Netherlands,NLD,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,1754,1998,1762,1990,8
-2001-03-24,FIFA World Cup qualification,played,Turkey,TUR,Slovakia,SVK,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1762,1751,1756,1757,-6
-2001-03-28,FIFA World Cup qualification,played,Turkey,TUR,North Macedonia,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1756,1529,1769,1516,13
-2001-04-25,Friendly,played,Turkey,TUR,Albania,,TRUE,0,2,loss,Gaziantep,Turkey,FALSE,1769,1489,1742,1516,-27
-2001-06-02,FIFA World Cup qualification,played,Turkey,TUR,Azerbaijan,,TRUE,3,0,win,Istanbul,Turkey,FALSE,1742,1259,1744,1257,2
-2001-06-06,FIFA World Cup qualification,played,Turkey,TUR,North Macedonia,,TRUE,3,3,draw,Bursa,Turkey,FALSE,1744,1505,1729,1520,-15
-2001-08-15,Friendly,played,Turkey,TUR,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1729,1756,1733,1752,4
-2001-09-01,FIFA World Cup qualification,played,Turkey,TUR,Slovakia,SVK,FALSE,1,0,win,Bratislava,Slovakia,FALSE,1733,1676,1755,1654,22
-2001-09-05,FIFA World Cup qualification,played,Turkey,TUR,Sweden,SWE,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1755,1868,1736,1887,-19
-2001-10-06,FIFA World Cup qualification,played,Turkey,TUR,Moldova,,FALSE,3,0,win,Chișinău,Moldova,FALSE,1736,1411,1751,1396,15
-2001-11-10,FIFA World Cup qualification,played,Turkey,TUR,Austria,AUT,FALSE,1,0,win,Vienna,Austria,FALSE,1751,1717,1775,1693,24
-2001-11-14,FIFA World Cup qualification,played,Turkey,TUR,Austria,AUT,TRUE,5,0,win,Istanbul,Turkey,FALSE,1775,1693,1796,1672,21
-2002-02-12,Friendly,played,Turkey,TUR,Ecuador,ECU,TRUE,0,1,loss,Breda,Netherlands,TRUE,1796,1707,1783,1720,-13
-2002-03-26,Friendly,played,Turkey,TUR,South Korea,KOR,FALSE,0,0,draw,Bochum,Germany,TRUE,1783,1711,1781,1713,-2
-2002-04-17,Friendly,played,Turkey,TUR,Chile,CHL,TRUE,2,0,win,Kerkrade,Netherlands,TRUE,1781,1598,1789,1590,8
-2002-05-23,Friendly,played,Turkey,TUR,South Africa,ZAF,FALSE,0,2,loss,So Kon Po,Hong Kong,TRUE,1789,1608,1756,1641,-33
-2002-06-03,FIFA World Cup,played,Turkey,TUR,Brazil,BRA,FALSE,1,2,loss,Ulsan,South Korea,TRUE,1756,1867,1735,1888,-21
-2002-06-09,FIFA World Cup,played,Turkey,TUR,Costa Rica,CRI,FALSE,1,1,draw,Incheon,South Korea,TRUE,1735,1792,1740,1787,5
-2002-06-13,FIFA World Cup,played,Turkey,TUR,China PR,,TRUE,3,0,win,Seoul,South Korea,TRUE,,,,,
-2002-06-18,FIFA World Cup,played,Turkey,TUR,Japan,JPN,FALSE,1,0,win,Rifu,Japan,FALSE,1777,1870,1822,1825,45
-2002-06-22,FIFA World Cup,played,Turkey,TUR,Senegal,SEN,FALSE,1,0,win,Osaka,Japan,TRUE,1822,1808,1851,1779,29
-2002-06-26,FIFA World Cup,played,Turkey,TUR,Brazil,BRA,FALSE,0,1,loss,Saitama,Japan,TRUE,1851,2010,1834,2027,-17
-2002-06-29,FIFA World Cup,played,Turkey,TUR,South Korea,KOR,FALSE,3,2,win,Daegu,South Korea,FALSE,1834,1818,1871,1781,37
-2002-08-21,Friendly,played,Turkey,TUR,Georgia,,TRUE,3,0,win,Trabzon,Turkey,FALSE,1871,1601,1875,1597,4
-2002-09-07,UEFA Euro qualification,played,Turkey,TUR,Slovakia,SVK,TRUE,3,0,win,Istanbul,Turkey,FALSE,1875,1697,1887,1685,12
-2002-10-12,UEFA Euro qualification,played,Turkey,TUR,North Macedonia,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1887,1457,1892,1452,5
-2002-10-16,UEFA Euro qualification,played,Turkey,TUR,Liechtenstein,,TRUE,5,0,win,Istanbul,Turkey,FALSE,1892,1070,1892,1070,0
-2002-11-20,Friendly,played,Turkey,TUR,Italy,ITA,FALSE,1,1,draw,Pescara,Italy,FALSE,1892,1880,1894,1878,2
-2003-02-12,Friendly,played,Turkey,TUR,Ukraine,UKR,TRUE,0,0,draw,İzmir,Turkey,FALSE,1894,1694,1887,1701,-7
-2003-04-02,UEFA Euro qualification,played,Turkey,TUR,England,ENG,FALSE,0,2,loss,Sunderland,England,FALSE,1887,1927,1868,1946,-19
-2003-04-30,Friendly,played,Turkey,TUR,Czechia,CZE,FALSE,0,4,loss,Teplice,Czech Republic,FALSE,1868,1912,1857,1923,-11
-2003-06-07,UEFA Euro qualification,played,Turkey,TUR,Slovakia,SVK,FALSE,1,0,win,Bratislava,Slovakia,FALSE,1857,1699,1874,1682,17
-2003-06-11,UEFA Euro qualification,played,Turkey,TUR,North Macedonia,,TRUE,3,2,win,Istanbul,Turkey,FALSE,1874,1449,1876,1447,2
-2003-06-19,Confederations Cup,played,Turkey,TUR,United States,USA,TRUE,2,1,win,Saint-Étienne,France,TRUE,1876,1839,1898,1817,22
-2003-06-21,Confederations Cup,played,Turkey,TUR,Cameroon,CMR,FALSE,0,1,loss,Saint-Denis,France,TRUE,1898,1788,1865,1821,-33
-2003-06-23,Confederations Cup,played,Turkey,TUR,Brazil,BRA,FALSE,2,2,draw,Saint-Étienne,France,TRUE,1865,2015,1875,2005,10
-2003-06-26,Confederations Cup,played,Turkey,TUR,France,FRA,FALSE,2,3,loss,Saint-Denis,France,FALSE,1875,1985,1864,1996,-11
-2003-06-28,Confederations Cup,played,Turkey,TUR,Colombia,COL,FALSE,2,1,win,Saint-Étienne,France,TRUE,1864,1847,1888,1823,24
-2003-08-20,Friendly,played,Turkey,TUR,Moldova,,TRUE,2,0,win,Ankara,Turkey,FALSE,1888,1390,1889,1389,1
-2003-09-06,UEFA Euro qualification,played,Turkey,TUR,Liechtenstein,,FALSE,3,0,win,Vaduz,Liechtenstein,FALSE,1889,1077,1890,1076,1
-2003-09-09,Friendly,played,Turkey,TUR,Republic of Ireland,IRL,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
-2003-10-11,UEFA Euro qualification,played,Turkey,TUR,England,ENG,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1892,1968,1891,1969,-1
-2003-11-15,UEFA Euro qualification,played,Turkey,TUR,Latvia,,FALSE,0,1,loss,Riga,Latvia,FALSE,1891,1509,1858,1542,-33
-2003-11-19,UEFA Euro qualification,played,Turkey,TUR,Latvia,,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1858,1542,1841,1559,-17
-2004-03-31,Friendly,played,Turkey,TUR,Croatia,HRV,FALSE,2,2,draw,Zagreb,Croatia,FALSE,1829,1817,1831,1815,2
-2004-04-28,Friendly,played,Turkey,TUR,Belgium,BEL,FALSE,3,2,win,Brussels,Belgium,FALSE,1831,1784,1843,1772,12
-2004-05-21,Friendly,played,Turkey,TUR,Australia,AUS,FALSE,3,1,win,Sydney,Australia,FALSE,1843,1822,1861,1804,18
-2004-05-24,Friendly,played,Turkey,TUR,Australia,AUS,FALSE,1,0,win,Melbourne,Australia,FALSE,1861,1804,1872,1793,11
-2004-06-02,Friendly,played,Turkey,TUR,South Korea,KOR,FALSE,1,0,win,Seoul,South Korea,FALSE,1872,1688,1880,1680,8
-2004-06-05,Friendly,played,Turkey,TUR,South Korea,KOR,FALSE,1,2,loss,Daegu,South Korea,FALSE,1880,1680,1867,1693,-13
-2004-08-18,Friendly,played,Turkey,TUR,Belarus,,TRUE,1,2,loss,Denizli,Turkey,FALSE,1867,1568,1849,1586,-18
-2004-09-04,FIFA World Cup qualification,played,Turkey,TUR,Georgia,,TRUE,1,1,draw,Trabzon,Turkey,FALSE,1849,1485,1832,1502,-17
-2004-09-08,FIFA World Cup qualification,played,Turkey,TUR,Greece,GRC,FALSE,0,0,draw,Piraeus,Greece,FALSE,1832,1898,1841,1889,9
-2004-10-09,FIFA World Cup qualification,played,Turkey,TUR,Kazakhstan,,TRUE,4,0,win,Istanbul,Turkey,FALSE,1841,1370,1844,1367,3
-2004-10-13,FIFA World Cup qualification,played,Turkey,TUR,Denmark,DNK,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1844,1879,1851,1872,7
-2004-11-17,FIFA World Cup qualification,played,Turkey,TUR,Ukraine,UKR,TRUE,0,3,loss,Istanbul,Turkey,FALSE,1851,1684,1793,1742,-58
-2005-03-26,FIFA World Cup qualification,played,Turkey,TUR,Albania,,TRUE,2,0,win,Istanbul,Turkey,FALSE,1793,1519,1799,1513,6
-2005-03-30,FIFA World Cup qualification,played,Turkey,TUR,Georgia,,FALSE,5,2,win,Tbilisi,Georgia,FALSE,1799,1524,1818,1505,19
-2005-06-04,FIFA World Cup qualification,played,Turkey,TUR,Greece,GRC,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1818,1911,1818,1911,0
-2005-06-08,FIFA World Cup qualification,played,Turkey,TUR,Kazakhstan,,FALSE,6,0,win,Almaty,Kazakhstan,FALSE,1818,1342,1827,1333,9
-2005-08-17,Friendly,played,Turkey,TUR,Bulgaria,BGR,FALSE,1,3,loss,Sofia,Bulgaria,FALSE,1827,1671,1810,1688,-17
-2005-09-03,FIFA World Cup qualification,played,Turkey,TUR,Denmark,DNK,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1810,1864,1807,1867,-3
-2005-09-07,FIFA World Cup qualification,played,Turkey,TUR,Ukraine,UKR,FALSE,1,0,win,Kyiv,Ukraine,FALSE,1807,1807,1833,1781,26
-2005-10-08,Friendly,played,Turkey,TUR,Germany,DEU,TRUE,2,1,win,Istanbul,Turkey,FALSE,1833,1892,1842,1883,9
-2005-10-12,FIFA World Cup qualification,played,Turkey,TUR,Albania,,FALSE,1,0,win,Tirana,Albania,FALSE,1842,1542,1852,1532,10
-2005-11-12,FIFA World Cup qualification,played,Turkey,TUR,Switzerland,CHE,FALSE,0,2,loss,Bern,Switzerland,FALSE,1852,1772,1824,1800,-28
-2005-11-16,FIFA World Cup qualification,played,Turkey,TUR,Switzerland,CHE,TRUE,4,2,win,Istanbul,Turkey,FALSE,1824,1800,1844,1780,20
-2006-03-01,Friendly,played,Turkey,TUR,Czechia,CZE,TRUE,2,2,draw,İzmir,Turkey,FALSE,1844,1965,1845,1964,1
-2006-04-12,Friendly,played,Turkey,TUR,Azerbaijan,,FALSE,1,1,draw,Baku,Azerbaijan,FALSE,1845,1356,1837,1364,-8
-2006-05-24,Friendly,played,Turkey,TUR,Belgium,BEL,FALSE,3,3,draw,Genk,Belgium,FALSE,1837,1708,1836,1709,-1
-2006-05-26,Friendly,played,Turkey,TUR,Ghana,GHA,TRUE,1,1,draw,Bochum,Germany,TRUE,1836,1566,1829,1573,-7
-2006-05-28,Friendly,played,Turkey,TUR,Estonia,,TRUE,1,1,draw,Hamburg,Germany,TRUE,1829,1420,1821,1428,-8
-2006-05-31,Friendly,played,Turkey,TUR,Saudi Arabia,SAU,FALSE,1,0,win,Offenbach am Main,Germany,TRUE,1821,1558,1825,1554,4
-2006-06-02,Friendly,played,Turkey,TUR,Angola,AGO,FALSE,3,2,win,Sittard,Netherlands,TRUE,1825,1573,1829,1569,4
-2006-06-04,Friendly,played,Turkey,TUR,North Macedonia,,TRUE,0,1,loss,Krefeld,Germany,TRUE,1829,1492,1812,1509,-17
-2006-08-16,Friendly,played,Turkey,TUR,Luxembourg,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1812,979,1812,979,0
-2006-09-06,UEFA Euro qualification,played,Turkey,TUR,Malta,,TRUE,2,0,win,Frankfurt am Main,Germany,TRUE,1812,1238,1814,1236,2
-2006-10-07,UEFA Euro qualification,played,Turkey,TUR,Hungary,HUN,FALSE,1,0,win,Budapest,Hungary,FALSE,1814,1625,1829,1610,15
-2006-10-11,UEFA Euro qualification,played,Turkey,TUR,Moldova,,TRUE,5,0,win,Frankfurt am Main,Germany,TRUE,1829,1427,1836,1420,7
-2006-11-15,Friendly,played,Turkey,TUR,Italy,ITA,FALSE,1,1,draw,Bergamo,Italy,FALSE,1836,2026,1843,2019,7
-2007-02-07,Friendly,played,Turkey,TUR,Georgia,,FALSE,0,1,loss,Tbilisi,Georgia,FALSE,1843,1527,1827,1543,-16
-2007-03-24,UEFA Euro qualification,played,Turkey,TUR,Greece,GRC,FALSE,4,1,win,Piraeus,Greece,FALSE,1827,1824,1872,1779,45
-2007-03-28,UEFA Euro qualification,played,Turkey,TUR,Norway,NOR,TRUE,2,2,draw,Frankfurt am Main,Germany,TRUE,1872,1729,1864,1737,-8
-2007-06-02,UEFA Euro qualification,played,Turkey,TUR,Bosnia and Herzegovina,BIH,FALSE,2,3,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1864,1597,1835,1626,-29
-2007-06-05,Friendly,played,Turkey,TUR,Brazil,BRA,TRUE,0,0,draw,Dortmund,Germany,TRUE,1835,2065,1841,2059,6
-2007-08-22,Friendly,played,Turkey,TUR,Romania,ROU,FALSE,0,2,loss,Bucharest,Romania,FALSE,1841,1894,1832,1903,-9
-2007-09-08,UEFA Euro qualification,played,Turkey,TUR,Malta,,FALSE,2,2,draw,Attard,Malta,FALSE,1832,1263,1815,1280,-17
-2007-09-12,UEFA Euro qualification,played,Turkey,TUR,Hungary,HUN,TRUE,3,0,win,Istanbul,Turkey,FALSE,1815,1612,1825,1602,10
-2007-10-13,UEFA Euro qualification,played,Turkey,TUR,Moldova,,FALSE,1,1,draw,Chișinău,Moldova,FALSE,1825,1435,1811,1449,-14
-2007-10-17,UEFA Euro qualification,played,Turkey,TUR,Greece,GRC,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1811,1796,1785,1822,-26
-2007-11-17,UEFA Euro qualification,played,Turkey,TUR,Norway,NOR,FALSE,2,1,win,Oslo,Norway,FALSE,1785,1792,1811,1766,26
-2007-11-21,UEFA Euro qualification,played,Turkey,TUR,Bosnia and Herzegovina,BIH,TRUE,1,0,win,Istanbul,Turkey,FALSE,1811,1545,1815,1541,4
-2008-02-06,Friendly,played,Turkey,TUR,Sweden,SWE,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1815,1793,1812,1796,-3
-2008-03-26,Friendly,played,Turkey,TUR,Belarus,,FALSE,2,2,draw,Minsk,Belarus,FALSE,1812,1565,1808,1569,-4
-2008-05-20,Friendly,played,Turkey,TUR,Slovakia,SVK,TRUE,1,0,win,Bielefeld,Germany,TRUE,1808,1634,1813,1629,5
-2008-05-25,Friendly,played,Turkey,TUR,Uruguay,URY,TRUE,2,3,loss,Bochum,Germany,TRUE,1813,1794,1802,1805,-11
-2008-05-29,Friendly,played,Turkey,TUR,Finland,,FALSE,2,0,win,Duisburg,Germany,TRUE,1802,1674,1812,1664,10
-2008-06-07,UEFA Euro,played,Turkey,TUR,Portugal,PRT,FALSE,0,2,loss,Geneva,Switzerland,TRUE,1812,1861,1780,1893,-32
-2008-06-11,UEFA Euro,played,Turkey,TUR,Switzerland,CHE,FALSE,2,1,win,Basel,Switzerland,FALSE,1780,1770,1811,1739,31
-2008-06-15,UEFA Euro,played,Turkey,TUR,Czechia,CZE,TRUE,3,2,win,Geneva,Switzerland,TRUE,1811,1899,1842,1868,31
-2008-06-20,UEFA Euro,played,Turkey,TUR,Croatia,HRV,FALSE,1,1,draw,Vienna,Austria,TRUE,1842,1930,1848,1924,6
-2008-06-25,UEFA Euro,played,Turkey,TUR,Germany,DEU,FALSE,2,3,loss,Basel,Switzerland,TRUE,1848,1977,1832,1993,-16
-2008-08-20,Friendly,played,Turkey,TUR,Chile,CHL,TRUE,1,0,win,İzmit,Turkey,FALSE,1832,1781,1838,1775,6
-2008-09-06,FIFA World Cup qualification,played,Turkey,TUR,Armenia,,FALSE,2,0,win,Yerevan,Armenia,FALSE,1838,1447,1847,1438,9
-2008-09-10,FIFA World Cup qualification,played,Turkey,TUR,Belgium,BEL,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1847,1621,1832,1636,-15
-2008-10-11,FIFA World Cup qualification,played,Turkey,TUR,Bosnia and Herzegovina,BIH,TRUE,2,1,win,Istanbul,Turkey,FALSE,1832,1551,1836,1547,4
-2008-10-15,FIFA World Cup qualification,played,Turkey,TUR,Estonia,,FALSE,0,0,draw,Tallinn,Estonia,FALSE,1836,1382,1821,1397,-15
-2008-11-19,Friendly,played,Turkey,TUR,Austria,AUT,FALSE,4,2,win,Vienna,Austria,FALSE,1821,1575,1830,1566,9
-2009-02-11,Friendly,played,Turkey,TUR,Ivory Coast,CIV,TRUE,1,1,draw,İzmir,Turkey,FALSE,1830,1709,1824,1715,-6
-2009-03-28,FIFA World Cup qualification,played,Turkey,TUR,Spain,ESP,FALSE,0,1,loss,Madrid,Spain,FALSE,1824,2107,1820,2111,-4
-2009-04-01,FIFA World Cup qualification,played,Turkey,TUR,Spain,ESP,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1820,2111,1810,2121,-10
-2009-06-02,Friendly,played,Turkey,TUR,Azerbaijan,,TRUE,2,0,win,Kayseri,Turkey,FALSE,1810,1375,1811,1374,1
-2009-06-05,Friendly,played,Turkey,TUR,France,FRA,FALSE,0,1,loss,Lyon,France,FALSE,1811,1876,1805,1882,-6
-2009-08-12,Friendly,played,Turkey,TUR,Ukraine,UKR,FALSE,3,0,win,Kyiv,Ukraine,FALSE,1805,1806,1827,1784,22
-2009-09-05,FIFA World Cup qualification,played,Turkey,TUR,Estonia,,TRUE,4,2,win,Kayseri,Turkey,FALSE,1827,1428,1830,1425,3
-2009-09-09,FIFA World Cup qualification,played,Turkey,TUR,Bosnia and Herzegovina,BIH,FALSE,1,1,draw,Zenica,Bosnia and Herzegovina,FALSE,1830,1648,1825,1653,-5
-2009-10-10,FIFA World Cup qualification,played,Turkey,TUR,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1825,1549,1781,1593,-44
-2009-10-14,FIFA World Cup qualification,played,Turkey,TUR,Armenia,,TRUE,2,0,win,Bursa,Turkey,FALSE,1781,1383,1784,1380,3
-2010-03-03,Friendly,played,Turkey,TUR,Honduras,HND,TRUE,2,0,win,Istanbul,Turkey,FALSE,1784,1766,1794,1756,10
-2010-05-22,Friendly,played,Turkey,TUR,Czechia,CZE,TRUE,2,1,win,Harrison,United States,TRUE,1794,1737,1802,1729,8
-2010-05-26,Friendly,played,Turkey,TUR,Northern Ireland,NIR,FALSE,2,0,win,New Britain,United States,TRUE,1802,1567,1808,1561,6
-2010-05-29,Friendly,played,Turkey,TUR,United States,USA,FALSE,1,2,loss,Philadelphia,United States,FALSE,1808,1759,1799,1768,-9
-2010-08-11,Friendly,played,Turkey,TUR,Romania,ROU,TRUE,2,0,win,Istanbul,Turkey,FALSE,1799,1749,1808,1740,9
-2010-09-03,UEFA Euro qualification,played,Turkey,TUR,Kazakhstan,,FALSE,3,0,win,Astana,Kazakhstan,FALSE,1808,1357,1816,1349,8
-2010-09-07,UEFA Euro qualification,played,Turkey,TUR,Belgium,BEL,TRUE,3,2,win,Istanbul,Turkey,FALSE,1816,1583,1821,1578,5
-2010-10-08,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,FALSE,0,3,loss,Berlin,Germany,FALSE,1821,2060,1812,2069,-9
-2010-10-12,UEFA Euro qualification,played,Turkey,TUR,Azerbaijan,,FALSE,0,1,loss,Baku,Azerbaijan,FALSE,1812,1428,1779,1461,-33
-2010-11-17,Friendly,played,Turkey,TUR,Netherlands,NLD,FALSE,0,1,loss,Amsterdam,Netherlands,FALSE,1779,2102,1777,2104,-2
-2011-02-09,Friendly,played,Turkey,TUR,South Korea,KOR,TRUE,0,0,draw,Trabzon,Turkey,FALSE,1777,1791,1775,1793,-2
-2011-03-29,UEFA Euro qualification,played,Turkey,TUR,Austria,AUT,TRUE,2,0,win,Istanbul,Turkey,FALSE,1775,1566,1784,1557,9
-2011-06-03,UEFA Euro qualification,played,Turkey,TUR,Belgium,BEL,FALSE,1,1,draw,Brussels,Belgium,FALSE,1784,1663,1783,1664,-1
-2011-08-10,Friendly,played,Turkey,TUR,Estonia,,TRUE,3,0,win,Istanbul,Turkey,FALSE,1783,1452,1786,1449,3
-2011-09-02,UEFA Euro qualification,played,Turkey,TUR,Kazakhstan,,TRUE,2,1,win,Istanbul,Turkey,FALSE,1786,1353,1788,1351,2
-2011-09-06,UEFA Euro qualification,played,Turkey,TUR,Austria,AUT,FALSE,0,0,draw,Vienna,Austria,FALSE,1788,1549,1780,1557,-8
-2011-10-07,UEFA Euro qualification,played,Turkey,TUR,Germany,DEU,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1780,2056,1764,2072,-16
-2011-10-11,UEFA Euro qualification,played,Turkey,TUR,Azerbaijan,,TRUE,1,0,win,Istanbul,Turkey,FALSE,1764,1393,1766,1391,2
-2011-11-11,UEFA Euro qualification,played,Turkey,TUR,Croatia,HRV,TRUE,0,3,loss,Istanbul,Turkey,FALSE,1766,1868,1731,1903,-35
-2011-11-15,UEFA Euro qualification,played,Turkey,TUR,Croatia,HRV,FALSE,0,0,draw,Zagreb,Croatia,FALSE,1731,1903,1744,1890,13
-2012-02-29,Friendly,played,Turkey,TUR,Slovakia,SVK,TRUE,1,2,loss,Bursa,Turkey,FALSE,1744,1579,1728,1595,-16
-2012-05-24,Friendly,played,Turkey,TUR,Georgia,,FALSE,3,1,win,Salzburg,Austria,TRUE,1728,1500,1734,1494,6
-2012-05-26,Friendly,played,Turkey,TUR,Finland,,FALSE,2,3,loss,Salzburg,Austria,TRUE,1734,1599,1720,1613,-14
-2012-05-29,Friendly,played,Turkey,TUR,Bulgaria,BGR,FALSE,2,0,win,Salzburg,Austria,TRUE,1720,1651,1732,1639,12
-2012-06-02,Friendly,played,Turkey,TUR,Portugal,PRT,FALSE,3,1,win,Lisbon,Portugal,FALSE,1732,1889,1756,1865,24
-2012-06-05,Friendly,played,Turkey,TUR,Ukraine,UKR,TRUE,2,0,win,Ingolstadt,Germany,TRUE,1756,1771,1772,1755,16
-2012-08-15,Friendly,played,Turkey,TUR,Austria,AUT,FALSE,0,2,loss,Vienna,Austria,FALSE,1772,1604,1754,1622,-18
-2012-09-07,FIFA World Cup qualification,played,Turkey,TUR,Netherlands,NLD,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1754,1943,1744,1953,-10
-2012-09-11,FIFA World Cup qualification,played,Turkey,TUR,Estonia,,TRUE,3,0,win,Istanbul,Turkey,FALSE,1744,1510,1753,1501,9
-2012-10-12,FIFA World Cup qualification,played,Turkey,TUR,Romania,ROU,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1753,1744,1727,1770,-26
-2012-10-16,FIFA World Cup qualification,played,Turkey,TUR,Hungary,HUN,FALSE,1,3,loss,Budapest,Hungary,FALSE,1727,1684,1702,1709,-25
-2012-11-14,Friendly,played,Turkey,TUR,Denmark,DNK,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1702,1774,1701,1775,-1
-2013-02-06,Friendly,played,Turkey,TUR,Czechia,CZE,TRUE,0,2,loss,Manisa,Turkey,FALSE,1701,1774,1685,1790,-16
-2013-03-22,FIFA World Cup qualification,played,Turkey,TUR,Andorra,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1685,992,1687,990,2
-2013-03-26,FIFA World Cup qualification,played,Turkey,TUR,Hungary,HUN,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1687,1687,1681,1693,-6
-2013-05-28,Friendly,played,Turkey,TUR,Latvia,,TRUE,3,3,draw,Duisburg,Germany,TRUE,1681,1483,1676,1488,-5
-2013-05-31,Friendly,played,Turkey,TUR,Slovenia,SVN,TRUE,0,2,loss,Bielefeld,Germany,TRUE,1676,1554,1656,1574,-20
-2013-08-14,Friendly,played,Turkey,TUR,Ghana,GHA,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1656,1701,1654,1703,-2
-2013-09-06,FIFA World Cup qualification,played,Turkey,TUR,Andorra,,TRUE,5,0,win,Kayseri,Turkey,FALSE,1654,997,1655,996,1
-2013-09-10,FIFA World Cup qualification,played,Turkey,TUR,Romania,ROU,FALSE,2,0,win,Bucharest,Romania,FALSE,1655,1772,1702,1725,47
-2013-10-11,FIFA World Cup qualification,played,Turkey,TUR,Estonia,,FALSE,2,0,win,Tallinn,Estonia,FALSE,1702,1476,1722,1456,20
-2013-10-15,FIFA World Cup qualification,played,Turkey,TUR,Netherlands,NLD,TRUE,0,2,loss,Istanbul,Turkey,FALSE,1722,1999,1706,2015,-16
-2013-11-15,Friendly,played,Turkey,TUR,Northern Ireland,NIR,TRUE,1,0,win,Adana,Turkey,FALSE,1706,1413,1708,1411,2
-2013-11-19,Friendly,played,Turkey,TUR,Belarus,,TRUE,2,1,win,Mersin,Turkey,FALSE,1708,1592,1712,1588,4
-2014-03-05,Friendly,played,Turkey,TUR,Sweden,SWE,TRUE,2,1,win,Ankara,Turkey,FALSE,1712,1833,1723,1822,11
-2014-05-21,Friendly,played,Turkey,TUR,Kosovo,,FALSE,6,1,win,Mitrovica,Kosovo,FALSE,1723,1379,1731,1371,8
-2014-05-25,Friendly,played,Turkey,TUR,Republic of Ireland,IRL,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
-2014-06-01,Friendly,played,Turkey,TUR,United States,USA,FALSE,1,2,loss,Harrison,United States,FALSE,1756,1847,1751,1852,-5
-2014-09-03,Friendly,played,Turkey,TUR,Denmark,DNK,FALSE,2,1,win,Odense,Denmark,FALSE,1751,1753,1764,1740,13
-2014-09-09,UEFA Euro qualification,played,Turkey,TUR,Iceland,ISL,FALSE,0,3,loss,Reykjavík,Iceland,FALSE,1764,1539,1717,1586,-47
-2014-10-10,UEFA Euro qualification,played,Turkey,TUR,Czechia,CZE,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1717,1764,1694,1787,-23
-2014-10-13,UEFA Euro qualification,played,Turkey,TUR,Latvia,,FALSE,1,1,draw,Riga,Latvia,FALSE,1694,1439,1686,1447,-8
-2014-11-12,Friendly,played,Turkey,TUR,Brazil,BRA,TRUE,0,4,loss,Istanbul,Turkey,FALSE,1686,2030,1679,2037,-7
-2014-11-16,UEFA Euro qualification,played,Turkey,TUR,Kazakhstan,,TRUE,3,1,win,Istanbul,Turkey,FALSE,1679,1358,1684,1353,5
-2015-03-28,UEFA Euro qualification,played,Turkey,TUR,Netherlands,NLD,FALSE,1,1,draw,Amsterdam,Netherlands,FALSE,1684,2029,1701,2012,17
-2015-03-31,Friendly,played,Turkey,TUR,Luxembourg,,FALSE,2,1,win,Luxembourg,Luxembourg,FALSE,1701,1223,1703,1221,2
-2015-06-08,Friendly,played,Turkey,TUR,Bulgaria,BGR,TRUE,4,0,win,Istanbul,Turkey,FALSE,1703,1615,1712,1606,9
-2015-06-12,UEFA Euro qualification,played,Turkey,TUR,Kazakhstan,,FALSE,1,0,win,Almaty,Kazakhstan,FALSE,1712,1348,1719,1341,7
-2015-09-03,UEFA Euro qualification,played,Turkey,TUR,Latvia,,TRUE,1,1,draw,Konya,Turkey,FALSE,1719,1466,1704,1481,-15
-2015-09-06,UEFA Euro qualification,played,Turkey,TUR,Netherlands,NLD,TRUE,3,0,win,Konya,Turkey,FALSE,1704,1972,1755,1921,51
-2015-10-10,UEFA Euro qualification,played,Turkey,TUR,Czechia,CZE,FALSE,2,0,win,Prague,Czech Republic,FALSE,1755,1771,1795,1731,40
-2015-10-13,UEFA Euro qualification,played,Turkey,TUR,Iceland,ISL,TRUE,1,0,win,Konya,Turkey,FALSE,1795,1700,1805,1690,10
-2015-11-13,Friendly,played,Turkey,TUR,Qatar,QAT,FALSE,2,1,win,Doha,Qatar,FALSE,1805,1575,1811,1569,6
-2015-11-17,Friendly,played,Turkey,TUR,Greece,GRC,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1811,1603,1804,1610,-7
-2016-03-24,Friendly,played,Turkey,TUR,Sweden,SWE,TRUE,2,1,win,Antalya,Turkey,FALSE,1804,1768,1810,1762,6
-2016-03-29,Friendly,played,Turkey,TUR,Austria,AUT,FALSE,2,1,win,Vienna,Austria,FALSE,1810,1804,1823,1791,13
-2016-05-22,Friendly,played,Turkey,TUR,England,ENG,FALSE,1,2,loss,Manchester,England,FALSE,1823,1958,1819,1962,-4
-2016-05-29,Friendly,played,Turkey,TUR,Montenegro,,TRUE,1,0,win,Antalya,Turkey,FALSE,1819,1558,1821,1556,2
-2016-06-05,Friendly,played,Turkey,TUR,Slovenia,SVN,FALSE,1,0,win,Ljubljana,Slovenia,FALSE,1821,1620,1828,1613,7
-2016-06-12,UEFA Euro,played,Turkey,TUR,Croatia,HRV,TRUE,0,1,loss,Paris,France,TRUE,1828,1818,1802,1844,-26
-2016-06-17,UEFA Euro,played,Turkey,TUR,Spain,ESP,FALSE,0,3,loss,Nice,France,TRUE,1802,2001,1781,2022,-21
-2016-06-21,UEFA Euro,played,Turkey,TUR,Czechia,CZE,FALSE,2,0,win,Lens,France,TRUE,1781,1751,1815,1717,34
-2016-08-31,Friendly,played,Turkey,TUR,Russia,RUS,TRUE,0,0,draw,Antalya,Turkey,FALSE,1815,1692,1809,1698,-6
-2016-09-05,FIFA World Cup qualification,played,Turkey,TUR,Croatia,HRV,FALSE,1,1,draw,Zagreb,Croatia,FALSE,1809,1849,1817,1841,8
-2016-10-06,FIFA World Cup qualification,played,Turkey,TUR,Ukraine,UKR,TRUE,2,2,draw,Konya,Turkey,FALSE,1817,1733,1807,1743,-10
-2016-10-09,FIFA World Cup qualification,played,Turkey,TUR,Iceland,ISL,FALSE,0,2,loss,Reykjavík,Iceland,FALSE,1807,1753,1781,1779,-26
-2016-11-12,FIFA World Cup qualification,played,Turkey,TUR,Kosovo,,TRUE,2,0,win,Antalya,Turkey,FALSE,1781,1397,1784,1394,3
-2017-03-24,FIFA World Cup qualification,played,Turkey,TUR,Finland,,TRUE,2,0,win,Antalya,Turkey,FALSE,1784,1551,1792,1543,8
-2017-03-27,Friendly,played,Turkey,TUR,Moldova,,TRUE,3,1,win,Eskişehir,Turkey,FALSE,1792,1345,1793,1344,1
-2017-06-05,Friendly,played,Turkey,TUR,North Macedonia,,FALSE,0,0,draw,Skopje,North Macedonia,FALSE,1793,1444,1787,1450,-6
-2017-06-11,FIFA World Cup qualification,played,Turkey,TUR,Kosovo,,FALSE,4,1,win,Shkodër,Albania,TRUE,1787,1390,1793,1384,6
-2017-09-02,FIFA World Cup qualification,played,Turkey,TUR,Ukraine,UKR,FALSE,0,2,loss,Kharkiv,Ukraine,FALSE,1793,1755,1768,1780,-25
-2017-09-05,FIFA World Cup qualification,played,Turkey,TUR,Croatia,HRV,TRUE,1,0,win,Eskişehir,Turkey,FALSE,1768,1852,1787,1833,19
-2017-10-06,FIFA World Cup qualification,played,Turkey,TUR,Iceland,ISL,TRUE,0,3,loss,Eskişehir,Turkey,FALSE,1787,1795,1743,1839,-44
-2017-10-09,FIFA World Cup qualification,played,Turkey,TUR,Finland,,FALSE,2,2,draw,Turku,Finland,FALSE,1743,1582,1740,1585,-3
-2017-11-09,Friendly,played,Turkey,TUR,Romania,ROU,FALSE,0,2,loss,Cluj,Romania,FALSE,1740,1688,1727,1701,-13
-2017-11-13,Friendly,played,Turkey,TUR,Albania,,TRUE,2,3,loss,Antalya,Turkey,FALSE,1727,1592,1711,1608,-16
-2018-03-23,Friendly,played,Turkey,TUR,Republic of Ireland,IRL,TRUE,1,0,win,Antalya,Turkey,FALSE,,,,,
-2018-03-27,Friendly,played,Turkey,TUR,Montenegro,,FALSE,2,2,draw,Podgorica,Montenegro,FALSE,1719,1609,1719,1609,0
-2018-05-28,Friendly,played,Turkey,TUR,Iran,IRN,TRUE,2,1,win,Istanbul,Turkey,FALSE,1719,1797,1728,1788,9
-2018-06-01,Friendly,played,Turkey,TUR,Tunisia,TUN,TRUE,2,2,draw,Geneva,Switzerland,TRUE,1728,1651,1726,1653,-2
-2018-06-05,Friendly,played,Turkey,TUR,Russia,RUS,FALSE,1,1,draw,Moscow,Russia,FALSE,1726,1677,1727,1676,1
-2018-09-07,UEFA Nations League,played,Turkey,TUR,Russia,RUS,TRUE,1,2,loss,Trabzon,Turkey,FALSE,1727,1719,1701,1745,-26
-2018-09-10,UEFA Nations League,played,Turkey,TUR,Sweden,SWE,FALSE,3,2,win,Stockholm,Sweden,FALSE,1701,1848,1733,1816,32
-2018-10-11,Friendly,played,Turkey,TUR,Bosnia and Herzegovina,BIH,TRUE,0,0,draw,Rize,Turkey,FALSE,1733,1780,1731,1782,-2
-2018-10-14,UEFA Nations League,played,Turkey,TUR,Russia,RUS,FALSE,0,2,loss,Sochi,Russia,FALSE,1731,1754,1711,1774,-20
-2018-11-17,UEFA Nations League,played,Turkey,TUR,Sweden,SWE,TRUE,0,1,loss,Konya,Turkey,FALSE,1711,1813,1691,1833,-20
-2018-11-20,Friendly,played,Turkey,TUR,Ukraine,UKR,TRUE,0,0,draw,Antalya,Turkey,FALSE,1691,1771,1690,1772,-1
-2019-03-22,UEFA Euro qualification,played,Turkey,TUR,Albania,,FALSE,2,0,win,Shkodër,Albania,FALSE,1690,1514,1714,1490,24
-2019-03-25,UEFA Euro qualification,played,Turkey,TUR,Moldova,,TRUE,4,0,win,Eskişehir,Turkey,FALSE,1714,1312,1718,1308,4
-2019-05-30,Friendly,played,Turkey,TUR,Greece,GRC,TRUE,2,1,win,Antalya,Turkey,FALSE,1718,1631,1723,1626,5
-2019-06-02,Friendly,played,Turkey,TUR,Uzbekistan,,TRUE,2,0,win,Alanya,Turkey,FALSE,1723,1620,1730,1613,7
-2019-06-08,UEFA Euro qualification,played,Turkey,TUR,France,FRA,TRUE,2,0,win,Konya,Turkey,FALSE,1730,2099,1779,2050,49
-2019-06-11,UEFA Euro qualification,played,Turkey,TUR,Iceland,ISL,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1779,1674,1759,1694,-20
-2019-09-07,UEFA Euro qualification,played,Turkey,TUR,Andorra,,TRUE,1,0,win,Istanbul,Turkey,FALSE,1759,1065,1759,1065,0
-2019-09-10,UEFA Euro qualification,played,Turkey,TUR,Moldova,,FALSE,4,0,win,Chișinău,Moldova,FALSE,1759,1299,1767,1291,8
-2019-10-11,UEFA Euro qualification,played,Turkey,TUR,Albania,,TRUE,1,0,win,Istanbul,Turkey,FALSE,1767,1539,1772,1534,5
-2019-10-14,UEFA Euro qualification,played,Turkey,TUR,France,FRA,FALSE,1,1,draw,Paris,France,FALSE,1772,2058,1788,2042,16
-2019-11-14,UEFA Euro qualification,played,Turkey,TUR,Iceland,ISL,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1788,1655,1776,1667,-12
-2019-11-17,UEFA Euro qualification,played,Turkey,TUR,Andorra,,FALSE,2,0,win,Andorra la Vella,Andorra,FALSE,1776,1109,1778,1107,2
-2020-09-03,UEFA Nations League,played,Turkey,TUR,Hungary,HUN,TRUE,0,1,loss,Sivas,Turkey,FALSE,1778,1618,1745,1651,-33
-2020-09-06,UEFA Nations League,played,Turkey,TUR,Serbia,SRB,FALSE,0,0,draw,Belgrade,Serbia,FALSE,1745,1772,1752,1765,7
-2020-10-07,Friendly,played,Turkey,TUR,Germany,DEU,FALSE,3,3,draw,Cologne,Germany,FALSE,1752,1963,1759,1956,7
-2020-10-11,UEFA Nations League,played,Turkey,TUR,Russia,RUS,FALSE,1,1,draw,Moscow,Russia,FALSE,1759,1818,1768,1809,9
-2020-10-14,UEFA Nations League,played,Turkey,TUR,Serbia,SRB,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1768,1758,1762,1764,-6
-2020-11-11,Friendly,played,Turkey,TUR,Croatia,HRV,TRUE,3,3,draw,Istanbul,Turkey,FALSE,1762,1897,1763,1896,1
-2020-11-15,UEFA Nations League,played,Turkey,TUR,Russia,RUS,TRUE,3,2,win,Istanbul,Turkey,FALSE,1763,1789,1779,1773,16
-2020-11-18,UEFA Nations League,played,Turkey,TUR,Hungary,HUN,FALSE,0,2,loss,Budapest,Hungary,FALSE,1779,1717,1752,1744,-27
-2021-03-24,FIFA World Cup qualification,played,Turkey,TUR,Netherlands,NLD,TRUE,4,2,win,Istanbul,Turkey,FALSE,1752,1994,1794,1952,42
-2021-03-27,FIFA World Cup qualification,played,Turkey,TUR,Norway,NOR,FALSE,3,0,win,Málaga,Spain,TRUE,1794,1766,1826,1734,32
-2021-03-30,FIFA World Cup qualification,played,Turkey,TUR,Latvia,,TRUE,3,3,draw,Istanbul,Turkey,FALSE,1826,1249,1807,1268,-19
-2021-05-27,Friendly,played,Turkey,TUR,Azerbaijan,,TRUE,2,1,win,Alanya,Turkey,FALSE,1807,1372,1808,1371,1
-2021-05-31,Friendly,played,Turkey,TUR,Guinea,,TRUE,0,0,draw,Antalya,Turkey,FALSE,1808,1432,1799,1441,-9
-2021-06-03,Friendly,played,Turkey,TUR,Moldova,,TRUE,2,0,win,Paderborn,Germany,TRUE,1799,1208,1800,1207,1
-2021-06-11,UEFA Euro,played,Turkey,TUR,Italy,ITA,FALSE,0,3,loss,Rome,Italy,FALSE,1800,2013,1788,2025,-12
-2021-06-16,UEFA Euro,played,Turkey,TUR,Wales,WAL,TRUE,0,2,loss,Baku,Azerbaijan,TRUE,1788,1837,1756,1869,-32
-2021-06-20,UEFA Euro,played,Turkey,TUR,Switzerland,CHE,FALSE,1,3,loss,Baku,Azerbaijan,TRUE,1756,1867,1730,1893,-26
-2021-09-01,FIFA World Cup qualification,played,Turkey,TUR,Montenegro,,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1730,1518,1716,1532,-14
-2021-09-04,FIFA World Cup qualification,played,Turkey,TUR,Gibraltar,,FALSE,3,0,win,Gibraltar,Gibraltar,FALSE,1716,1078,1719,1075,3
-2021-09-07,FIFA World Cup qualification,played,Turkey,TUR,Netherlands,NLD,FALSE,1,6,loss,Amsterdam,Netherlands,FALSE,1719,1920,1707,1932,-12
-2021-10-08,FIFA World Cup qualification,played,Turkey,TUR,Norway,NOR,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1707,1751,1704,1754,-3
-2021-10-11,FIFA World Cup qualification,played,Turkey,TUR,Latvia,,FALSE,2,1,win,Riga,Latvia,FALSE,1704,1296,1710,1290,6
-2021-11-13,FIFA World Cup qualification,played,Turkey,TUR,Gibraltar,,TRUE,6,0,win,Istanbul,Turkey,FALSE,1710,1065,1711,1064,1
-2021-11-16,FIFA World Cup qualification,played,Turkey,TUR,Montenegro,,FALSE,2,1,win,Podgorica,Montenegro,FALSE,1711,1529,1726,1514,15
-2022-03-24,FIFA World Cup qualification,played,Turkey,TUR,Portugal,PRT,FALSE,1,3,loss,Porto,Portugal,FALSE,1726,1972,1719,1979,-7
-2022-03-29,Friendly,played,Turkey,TUR,Italy,ITA,TRUE,2,3,loss,Konya,Turkey,FALSE,1719,1992,1714,1997,-5
-2022-06-04,UEFA Nations League,played,Turkey,TUR,Faroe Islands,,TRUE,4,0,win,Istanbul,Turkey,FALSE,1714,1248,1717,1245,3
-2022-06-07,UEFA Nations League,played,Turkey,TUR,Lithuania,,FALSE,6,0,win,Vilnius,Lithuania,FALSE,1717,1291,1728,1280,11
-2022-06-11,UEFA Nations League,played,Turkey,TUR,Luxembourg,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1728,1441,1743,1426,15
-2022-06-14,UEFA Nations League,played,Turkey,TUR,Lithuania,,TRUE,2,0,win,İzmir,Turkey,FALSE,1743,1263,1745,1261,2
-2022-09-22,UEFA Nations League,played,Turkey,TUR,Luxembourg,,TRUE,3,3,draw,Istanbul,Turkey,FALSE,1745,1413,1728,1430,-17
-2022-09-25,UEFA Nations League,played,Turkey,TUR,Faroe Islands,,FALSE,1,2,loss,Tórshavn,Faroe Islands,FALSE,1728,1266,1692,1302,-36
-2022-11-16,Friendly,played,Turkey,TUR,Scotland,SCO,TRUE,2,1,win,Diyarbakir,Turkey,FALSE,1692,1760,1701,1751,9
-2022-11-19,Friendly,played,Turkey,TUR,Czechia,CZE,TRUE,2,1,win,Gaziantep,Turkey,FALSE,1701,1788,1711,1778,10
-2023-03-25,UEFA Euro qualification,played,Turkey,TUR,Armenia,,FALSE,2,1,win,Yerevan,Armenia,FALSE,1711,1451,1722,1440,11
-2023-03-28,UEFA Euro qualification,played,Turkey,TUR,Croatia,HRV,TRUE,0,2,loss,Bursa,Turkey,FALSE,1722,1935,1701,1956,-21
-2023-06-16,UEFA Euro qualification,played,Turkey,TUR,Latvia,,FALSE,3,2,win,Riga,Latvia,FALSE,1701,1348,1709,1340,8
-2023-06-19,UEFA Euro qualification,played,Turkey,TUR,Wales,WAL,TRUE,2,0,win,Samsun,Turkey,FALSE,1709,1679,1728,1660,19
-2023-09-08,UEFA Euro qualification,played,Turkey,TUR,Armenia,,TRUE,1,1,draw,Eskişehir,Turkey,FALSE,1728,1497,1713,1512,-15
-2023-09-12,Friendly,played,Turkey,TUR,Japan,JPN,FALSE,2,4,loss,Genk,Belgium,TRUE,1713,1880,1705,1888,-8
-2023-10-12,UEFA Euro qualification,played,Turkey,TUR,Croatia,HRV,FALSE,1,0,win,Osijek,Croatia,FALSE,1705,2015,1742,1978,37
-2023-10-15,UEFA Euro qualification,played,Turkey,TUR,Latvia,,TRUE,4,0,win,Konya,Turkey,FALSE,1742,1356,1746,1352,4
-2023-11-18,Friendly,played,Turkey,TUR,Germany,DEU,FALSE,3,2,win,Berlin,Germany,FALSE,1746,1916,1763,1899,17
-2023-11-21,UEFA Euro qualification,played,Turkey,TUR,Wales,WAL,FALSE,1,1,draw,Cardiff,Wales,FALSE,1763,1697,1765,1695,2
-2024-03-22,Friendly,played,Turkey,TUR,Hungary,HUN,FALSE,0,1,loss,Budapest,Hungary,FALSE,1765,1833,1759,1839,-6
-2024-03-26,Friendly,played,Turkey,TUR,Austria,AUT,FALSE,1,6,loss,Vienna,Austria,FALSE,1759,1847,1749,1857,-10
-2024-06-04,Friendly,played,Turkey,TUR,Italy,ITA,FALSE,0,0,draw,Bologna,Italy,FALSE,1749,1955,1756,1948,7
-2024-06-10,Friendly,played,Turkey,TUR,Poland,POL,FALSE,1,2,loss,Warsaw,Poland,FALSE,1756,1737,1748,1745,-8
-2024-06-18,UEFA Euro,played,Turkey,TUR,Georgia,,TRUE,3,1,win,Dortmund,Germany,TRUE,1748,1666,1777,1637,29
-2024-06-22,UEFA Euro,played,Turkey,TUR,Portugal,PRT,TRUE,0,3,loss,Dortmund,Germany,TRUE,1777,2013,1759,2031,-18
-2024-06-26,UEFA Euro,played,Turkey,TUR,Czechia,CZE,FALSE,2,1,win,Hamburg,Germany,TRUE,1759,1756,1784,1731,25
-2024-07-02,UEFA Euro,played,Turkey,TUR,Austria,AUT,FALSE,2,1,win,Leipzig,Germany,TRUE,1784,1910,1818,1876,34
-2024-07-06,UEFA Euro,played,Turkey,TUR,Netherlands,NLD,FALSE,1,2,loss,Berlin,Germany,TRUE,1818,1975,1804,1989,-14
-2024-09-06,UEFA Nations League,played,Turkey,TUR,Wales,WAL,FALSE,0,0,draw,Cardiff,Wales,FALSE,1804,1683,1803,1684,-1
-2024-09-09,UEFA Nations League,played,Turkey,TUR,Iceland,ISL,TRUE,3,1,win,Izmir,Turkey,FALSE,1803,1582,1811,1574,8
-2024-10-11,UEFA Nations League,played,Turkey,TUR,Montenegro,,TRUE,1,0,win,Tekkeköy,Turkey,FALSE,1811,1516,1815,1512,4
-2024-10-14,UEFA Nations League,played,Turkey,TUR,Iceland,ISL,FALSE,4,2,win,Reykjavík,Iceland,FALSE,1815,1576,1834,1557,19
-2024-11-16,UEFA Nations League,played,Turkey,TUR,Wales,WAL,TRUE,0,0,draw,Kayseri,Turkey,FALSE,1834,1705,1822,1717,-12
-2024-11-19,UEFA Nations League,played,Turkey,TUR,Montenegro,,FALSE,1,3,loss,Podgorica,Montenegro,FALSE,1822,1472,1774,1520,-48
-2025-03-20,UEFA Nations League,played,Turkey,TUR,Hungary,HUN,TRUE,3,1,win,Istanbul,Turkey,FALSE,1774,1778,1796,1756,22
-2025-03-23,UEFA Nations League,played,Turkey,TUR,Hungary,HUN,FALSE,3,0,win,Budapest,Hungary,FALSE,1796,1756,1837,1715,41
-2025-06-07,Friendly,played,Turkey,TUR,United States,USA,FALSE,2,1,win,East Hartford,United States,FALSE,1837,1722,1847,1712,10
-2025-06-10,Friendly,played,Turkey,TUR,Mexico,MEX,FALSE,0,1,loss,Chapel Hill,United States,TRUE,1847,1802,1836,1813,-11
-2025-09-04,FIFA World Cup qualification,played,Turkey,TUR,Georgia,,FALSE,3,2,win,Tbilisi,Georgia,FALSE,1836,1710,1855,1691,19
-2025-09-07,FIFA World Cup qualification,played,Turkey,TUR,Spain,ESP,TRUE,0,6,loss,Konya,Turkey,FALSE,1855,2159,1835,2179,-20
-2025-10-11,FIFA World Cup qualification,played,Turkey,TUR,Bulgaria,BGR,FALSE,6,1,win,Sofia,Bulgaria,FALSE,1835,1441,1847,1429,12
-2025-10-14,FIFA World Cup qualification,played,Turkey,TUR,Georgia,,TRUE,4,1,win,Izmit,Turkey,FALSE,1847,1698,1860,1685,13
-2025-11-15,FIFA World Cup qualification,played,Turkey,TUR,Bulgaria,BGR,TRUE,2,0,win,Bursa,Turkey,FALSE,1860,1428,1863,1425,3
-2025-11-18,FIFA World Cup qualification,played,Turkey,TUR,Spain,ESP,FALSE,2,2,draw,Seville,Spain,FALSE,1863,2189,1880,2172,17
-2026-03-26,FIFA World Cup qualification,played,Turkey,TUR,Romania,ROU,TRUE,1,0,win,Istanbul,Turkey,FALSE,1880,1642,1885,1637,5
-2026-03-31,FIFA World Cup qualification,played,Turkey,TUR,Kosovo,,FALSE,1,0,win,Pristina,Kosovo,FALSE,1885,1738,1902,1721,17
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1923-10-26,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1500,1588,1500,1588,0
+,,,1924-05-25,Olympic Games,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,5,loss,Paris,France,TRUE,1500,1913,1491,1922,-9
+,,,1924-06-17,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,4,2,win,Helsinki,Finland,FALSE,1491,1572,1513,1550,22
+,,,1924-06-19,Friendly,played,Turkey,TUR,TUR,UEFA,Estonia,,,,FALSE,4,1,win,Tallinn,Estonia,FALSE,1513,1357,1528,1342,15
+,,,1924-06-22,Friendly,played,Turkey,TUR,TUR,UEFA,Latvia,,,,FALSE,3,1,win,Riga,Latvia,FALSE,1528,1376,1541,1363,13
+,,,1924-06-29,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,0,2,loss,Łódź,Poland,FALSE,1541,1557,1531,1567,-10
+,,,1924-11-16,Friendly,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,3,loss,Moscow,Soviet Union,FALSE,1531,1467,1515,1483,-16
+,,,1925-04-10,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1515,1383,1519,1379,4
+,,,1925-05-01,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,2,1,win,Bucharest,Romania,FALSE,1519,1554,1533,1540,14
+,,,1925-05-15,Friendly,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,2,loss,Ankara,Turkey,FALSE,1533,1483,1519,1497,-14
+,,,1925-10-02,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1519,1559,1507,1571,-12
+,,,1926-05-07,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1490,1575,1474,1591,-16
+,,,1926-09-12,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,1,6,loss,Lwów,Poland,FALSE,1474,1574,1464,1584,-10
+,,,1927-07-17,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,3,draw,Sofia,Bulgaria,FALSE,1464,1345,1463,1346,-1
+,,,1927-10-14,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,1,win,Istanbul,Turkey,FALSE,1463,1346,1470,1339,7
+,,,1928-04-08,Friendly,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,2,loss,Zagreb,Yugoslavia,FALSE,1470,1594,1466,1598,-4
+,,,1928-04-15,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,2,4,loss,Arad,Romania,FALSE,1466,1567,1459,1574,-7
+,,,1928-05-28,Olympic Games,played,Turkey,TUR,TUR,UEFA,Egypt,EGY,EGY,CAF,FALSE,1,7,loss,Amsterdam,Netherlands,TRUE,1459,1692,1433,1718,-26
+,,,1931-09-27,Balkan Cup,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,5,loss,Sofia,Bulgaria,FALSE,1422,1312,1383,1351,-39
+,,,1931-10-02,Balkan Cup,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Sofia,Bulgaria,TRUE,1383,1648,1432,1599,49
+,,,1932-11-04,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,3,loss,Istanbul,Turkey,FALSE,1392,1493,1382,1503,-10
+,,,1936-07-12,Friendly,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,3,draw,Istanbul,Turkey,FALSE,1376,1641,1380,1637,4
+,,,1937-08-01,Friendly,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,1364,1623,1361,1626,-3
+,,,1947-10-26,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,3,1,win,Tehran,Iran,FALSE,,,,,
+,,,1948-04-23,Friendly,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,1,win,Athens,Greece,FALSE,1358,1352,1377,1333,19
+,,,1948-05-30,Friendly,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1397,1889,1395,1891,-2
+,,,1948-10-28,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,1,1,draw,Tehran,Iran,FALSE,,,,,
+,,,1948-11-28,Friendly,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1466,1313,1470,1309,4
+,,,1949-03-20,Friendly,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,1,loss,Vienna,Austria,FALSE,1454,1804,1453,1805,-1
+,,,1949-05-12,Friendly,played,Turkey,TUR,TUR,UEFA,Egypt,EGY,EGY,CAF,FALSE,3,2,win,Athens,Greece,TRUE,,,,,
+,,,1949-05-15,Friendly,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,1,win,Athens,Greece,FALSE,1481,1325,1498,1308,17
+,,,1949-11-20,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Syria,,,,TRUE,7,0,win,Ankara,Turkey,FALSE,1498,1426,1522,1402,24
+,,,1950-05-28,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,TRUE,6,1,win,Istanbul,Turkey,FALSE,1522,1571,1539,1554,17
+,,,1950-10-28,Friendly,played,Turkey,TUR,TUR,UEFA,Israel,ISR,ISR,UEFA,FALSE,1,5,loss,Tel Aviv,Israel,FALSE,1539,1480,1522,1497,-17
+,,,1950-12-03,Friendly,played,Turkey,TUR,TUR,UEFA,Israel,ISR,ISR,UEFA,TRUE,3,2,win,Istanbul,Turkey,FALSE,1522,1497,1529,1490,7
+,,,1951-06-10,Friendly,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Solna,Sweden,FALSE,1529,1935,1527,1937,-2
+,,,1951-06-17,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Berlin,Germany,FALSE,,,,,
+,,,1951-11-14,Friendly,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,0,win,Istanbul,Turkey,FALSE,1546,1859,1561,1844,15
+,,,1951-11-21,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Istanbul,Turkey,FALSE,,,,,
+,,,1952-06-01,Friendly,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,5,loss,Ankara,Turkey,FALSE,1545,1715,1530,1730,-15
+,,,1952-06-08,Friendly,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1530,1882,1536,1876,6
+,,,1953-05-25,Friendly,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,1,win,Bern,Switzerland,FALSE,1536,1714,1553,1697,17
+,,,1953-06-05,Friendly,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1553,1938,1560,1931,7
+,,,1954-01-06,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,4,loss,Madrid,Spain,FALSE,1560,1874,1554,1880,-6
+,,,1954-03-14,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,0,win,Istanbul,Turkey,FALSE,1554,1880,1585,1849,31
+,,,1954-03-17,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,2,draw,Rome,Italy,TRUE,1585,1849,1598,1836,13
+WC-1954,WC-1954_006,6,1954-06-17,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Bern,Switzerland,TRUE,,,,,
+WC-1954,WC-1954_015,15,1954-06-20,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,FALSE,7,0,win,Geneva,Switzerland,TRUE,1586,1669,1669,1586,83
+WC-1954,WC-1954_017,17,1954-06-23,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,2,7,loss,Zürich,Switzerland,TRUE,,,,,
+,,,1954-10-17,Friendly,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,5,loss,Sarajevo,Yugoslavia,FALSE,1647,1935,1643,1939,-4
+,,,1955-12-18,Friendly,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,TRUE,3,1,win,Istanbul,Turkey,FALSE,1643,1655,1654,1644,11
+,,,1956-02-19,Friendly,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,1,win,Istanbul,Turkey,FALSE,1654,2214,1682,2186,28
+,,,1956-03-25,Friendly,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,3,loss,Oeiras,Portugal,FALSE,1682,1663,1670,1675,-12
+,,,1956-05-01,Friendly,played,Turkey,TUR,TUR,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1670,2014,1666,2018,-4
+,,,1956-11-16,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1666,1544,1660,1550,-6
+,,,1956-11-25,Friendly,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,1,draw,Prague,Czechoslovakia,FALSE,1660,1852,1667,1845,7
+,,,1957-05-19,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,1,0,win,Warsaw,Poland,FALSE,1715,1550,1723,1542,8
+,,,1957-12-08,Friendly,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,1,draw,Ankara,Turkey,FALSE,1715,1678,1711,1682,-4
+,,,1958-05-04,Friendly,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,1,win,Amsterdam,Netherlands,FALSE,1711,1691,1723,1679,12
+,,,1958-10-26,Friendly,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Brussels,Belgium,FALSE,1723,1651,1724,1650,1
+,,,1958-11-02,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,3,loss,Bucharest,Romania,FALSE,1724,1646,1691,1679,-33
+,,,1958-12-07,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Ankara,Turkey,FALSE,1691,1701,1688,1704,-3
+,,,1958-12-18,Friendly,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,Istanbul,Turkey,FALSE,1688,1876,1700,1864,12
+,,,1959-04-26,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,0,win,Istanbul,Turkey,FALSE,1700,1679,1720,1659,20
+,,,1959-05-10,Friendly,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1720,1719,1717,1722,-3
+,,,1960-06-08,Friendly,played,Turkey,TUR,TUR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,4,2,win,Ankara,Turkey,FALSE,1717,1817,1732,1802,15
+,,,1960-11-27,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,2,loss,Sofia,Bulgaria,FALSE,1732,1774,1726,1780,-6
+,,,1961-05-14,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,1,loss,Ankara,Turkey,FALSE,1726,1636,1711,1651,-15
+,,,1961-06-01,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,0,win,Oslo,Norway,FALSE,1711,1543,1727,1527,16
+,,,1961-06-18,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,1,loss,Moscow,Soviet Union,TRUE,1727,1969,1722,1974,-5
+,,,1961-10-08,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,4,loss,Bucharest,Romania,FALSE,1722,1651,1705,1668,-17
+,,,1961-10-18,Friendly,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,TRUE,1,0,win,Ankara,Turkey,FALSE,1705,1709,1712,1702,7
+,,,1961-10-29,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1712,1457,1717,1452,5
+,,,1961-11-12,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1717,1965,1705,1977,-12
+,,,1962-04-29,Friendly,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,2,loss,Budapest,Hungary,FALSE,1719,1951,1716,1954,-3
+,,,1962-05-16,Friendly,played,Turkey,TUR,TUR,UEFA,Israel,ISR,ISR,UEFA,TRUE,1,0,win,Istanbul,Turkey,FALSE,1716,1589,1720,1585,4
+,,,1962-10-10,Friendly,played,Turkey,TUR,TUR,UEFA,Ethiopia,,,,TRUE,3,0,win,Ankara,Turkey,FALSE,1720,1516,1725,1511,5
+,,,1962-11-25,Friendly,played,Turkey,TUR,TUR,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,0,win,Ramat Gan,Israel,FALSE,1725,1584,1738,1571,13
+,,,1962-12-02,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,6,loss,Bologna,Italy,FALSE,1738,1885,1721,1902,-17
+,,,1962-12-12,Friendly,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1721,1713,1718,1716,-3
+,,,1962-12-16,Friendly,played,Turkey,TUR,TUR,UEFA,Ethiopia,,,,FALSE,0,0,draw,Addis Ababa,Ethiopia,FALSE,1718,1503,1715,1506,-3
+,,,1963-03-27,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1715,1902,1700,1917,-15
+,,,1963-09-22,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,0,0,draw,Poznań,Poland,FALSE,1700,1670,1702,1668,2
+,,,1963-09-28,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Frankfurt am Main,Germany,FALSE,,,,,
+,,,1963-10-09,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,0,draw,Ankara,Turkey,FALSE,1697,1725,1695,1727,-2
+,,,1964-09-27,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,TRUE,2,3,loss,Istanbul,Turkey,FALSE,1695,1675,1682,1688,-13
+,,,1964-11-01,Friendly,played,Turkey,TUR,TUR,UEFA,Tunisia,TUN,TUN,CAF,TRUE,4,1,win,Ankara,Turkey,FALSE,1682,1591,1691,1582,9
+,,,1964-12-20,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1691,1723,1689,1725,-2
+,,,1965-01-24,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,5,loss,Oeiras,Portugal,FALSE,1689,1688,1662,1715,-27
+,,,1965-04-19,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,1,loss,Ankara,Turkey,FALSE,1662,1715,1639,1738,-23
+,,,1965-05-02,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,3,loss,Bucharest,Romania,FALSE,1639,1912,1632,1919,-7
+,,,1965-05-09,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,4,loss,Sofia,Bulgaria,FALSE,1632,1733,1624,1741,-8
+,,,1965-05-22,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,2,1,win,Tehran,Iran,FALSE,,,,,
+,,,1965-05-24,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Tehran,Iran,FALSE,,,,,
+,,,1965-07-21,Friendly,played,Turkey,TUR,TUR,UEFA,Pakistan,,,,FALSE,3,1,win,Tehran,Iran,TRUE,1624,1377,1633,1368,9
+,,,1965-07-25,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Tehran,Iran,FALSE,1633,1603,1636,1600,3
+,,,1965-10-09,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,6,loss,Istanbul,Turkey,FALSE,1636,1876,1610,1902,-26
+,,,1965-10-23,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,1,win,Ankara,Turkey,FALSE,1610,1882,1639,1853,29
+,,,1965-11-21,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,3,loss,Brno,Czechoslovakia,FALSE,1639,1902,1632,1909,-7
+,,,1966-03-16,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Tehran,Iran,FALSE,1624,1608,1628,1604,4
+,,,1966-05-30,Friendly,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,0,draw,Copenhagen,Denmark,FALSE,1628,1616,1630,1614,2
+,,,1966-10-12,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Ankara,Turkey,FALSE,,,,,
+,,,1966-10-16,Friendly,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,2,0,win,Moscow,Soviet Union,FALSE,1626,2022,1654,1994,28
+,,,1966-11-16,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1967-01-22,Friendly,played,Turkey,TUR,TUR,UEFA,Tunisia,TUN,TUN,CAF,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1640,1579,1641,1578,1
+,,,1967-02-01,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1641,1867,1648,1860,7
+,,,1967-02-22,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Ankara,Turkey,FALSE,,,,,
+,,,1967-05-31,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Bilbao,Spain,FALSE,1664,1855,1655,1864,-9
+,,,1967-06-18,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,3,loss,Bratislava,Czechoslovakia,FALSE,1655,1927,1648,1934,-7
+,,,1967-11-15,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,0,draw,Ankara,Turkey,FALSE,1648,1925,1657,1916,9
+,,,1967-11-26,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,1,0,win,Dhaka,Pakistan,TRUE,1657,1589,1669,1577,12
+,,,1967-11-28,Friendly,played,Turkey,TUR,TUR,UEFA,Pakistan,,,,FALSE,7,4,win,Dhaka,Pakistan,FALSE,1669,1294,1678,1285,9
+,,,1968-03-13,Friendly,played,Turkey,TUR,TUR,UEFA,Tunisia,TUN,TUN,CAF,TRUE,0,0,draw,İzmir,Turkey,FALSE,1678,1581,1673,1586,-5
+,,,1968-04-24,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,0,8,loss,Chorzów,Poland,FALSE,1673,1686,1657,1702,-16
+,,,1968-10-09,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,2,loss,Istanbul,Turkey,FALSE,1657,1872,1647,1882,-10
+,,,1968-10-23,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,4,loss,Belfast,Northern Ireland,FALSE,1647,1701,1627,1721,-20
+,,,1968-12-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,3,loss,Istanbul,Turkey,FALSE,1627,1721,1591,1757,-36
+,,,1969-01-17,Friendly,played,Turkey,TUR,TUR,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,2,1,win,Riyadh,Saudi Arabia,FALSE,1591,1345,1597,1339,6
+,,,1969-04-30,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,TRUE,1,3,loss,Ankara,Turkey,FALSE,1597,1717,1583,1731,-14
+,,,1969-09-10,Friendly,played,Turkey,TUR,TUR,UEFA,Pakistan,,,,TRUE,4,2,win,Ankara,Turkey,FALSE,1583,1306,1588,1301,5
+,,,1969-09-17,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,TRUE,4,0,win,Ankara,Turkey,FALSE,1588,1655,1613,1630,25
+,,,1969-09-24,Friendly,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,3,0,win,Istanbul,Turkey,FALSE,1613,1680,1629,1664,16
+,,,1969-10-15,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,3,loss,Kyiv,Soviet Union,TRUE,1629,1931,1623,1937,-6
+,,,1969-11-16,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1623,1953,1610,1966,-13
+,,,1970-09-09,Friendly,played,Turkey,TUR,TUR,UEFA,Pakistan,,,,FALSE,3,1,win,Tehran,Iran,TRUE,1610,1291,1616,1285,6
+,,,1970-09-11,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,1,1,draw,Tehran,Iran,FALSE,1616,1635,1621,1630,5
+,,,1970-10-17,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Cologne,Germany,FALSE,,,,,
+,,,1970-12-13,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Albania,,,,TRUE,2,1,win,Istanbul,Turkey,FALSE,1639,1461,1646,1454,7
+,,,1971-04-25,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,3,loss,Istanbul,Turkey,FALSE,,,,,
+,,,1971-09-22,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,1,5,loss,Kraków,Poland,FALSE,1635,1818,1623,1830,-12
+,,,1971-09-26,Friendly,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,4,loss,Zürich,Switzerland,FALSE,1623,1696,1613,1706,-10
+,,,1971-11-14,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Albania,,,,FALSE,0,3,loss,Tirana,Albania,FALSE,1613,1453,1572,1494,-41
+,,,1971-12-05,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,TRUE,1,0,win,İzmir,Turkey,FALSE,1572,1825,1600,1797,28
+,,,1972-10-04,Friendly,played,Turkey,TUR,TUR,UEFA,Algeria,DZA,DZA,CAF,FALSE,0,1,loss,Algiers,Algeria,FALSE,1600,1552,1591,1561,-9
+,,,1972-10-22,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,FALSE,0,2,loss,Luxembourg,Luxembourg,FALSE,1591,1292,1545,1338,-46
+,,,1972-12-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,TRUE,3,0,win,Istanbul,Turkey,FALSE,1545,1338,1555,1328,10
+,,,1973-01-13,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,0,draw,Naples,Italy,FALSE,1555,1957,1573,1939,18
+,,,1973-02-14,Friendly,played,Turkey,TUR,TUR,UEFA,Algeria,DZA,DZA,CAF,TRUE,4,0,win,İzmir,Turkey,FALSE,1573,1569,1586,1556,13
+,,,1973-02-25,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1586,1939,1578,1947,-8
+,,,1973-04-18,Balkan Cup,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,5,2,win,İzmir,Turkey,FALSE,1578,1864,1630,1812,52
+,,,1973-05-09,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,Basel,Switzerland,FALSE,1630,1736,1641,1725,11
+,,,1973-10-17,Friendly,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1641,1888,1645,1884,4
+,,,1973-11-18,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,0,win,İzmir,Turkey,FALSE,1645,1730,1674,1701,29
+,,,1974-01-18,Friendly,played,Turkey,TUR,TUR,UEFA,Pakistan,,,,FALSE,2,2,draw,Karachi,Pakistan,FALSE,1674,1275,1664,1285,-10
+,,,1974-01-20,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,FALSE,1,0,win,Karachi,Pakistan,TRUE,1664,1608,1677,1595,13
+,,,1974-05-08,Balkan Cup,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,5,loss,Sofia,Bulgaria,FALSE,1677,1811,1662,1826,-15
+,,,1974-11-13,Friendly,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1662,1833,1654,1841,-8
+,,,1974-11-20,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,İzmir,Turkey,FALSE,,,,,
+,,,1974-12-01,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,1,win,İzmir,Turkey,FALSE,1649,1718,1667,1700,18
+,,,1975-03-19,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1667,1812,1668,1811,1
+,,,1975-04-02,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,3,loss,Kyiv,Soviet Union,FALSE,1668,1846,1656,1858,-12
+,,,1975-04-30,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,1,draw,Basel,Switzerland,FALSE,1656,1696,1664,1688,8
+,,,1975-10-12,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,2,2,draw,Bucharest,Romania,FALSE,1664,1849,1671,1842,7
+,,,1975-10-29,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1975-11-23,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,İzmir,Turkey,FALSE,1644,1896,1672,1868,28
+,,,1975-12-20,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,5,loss,Istanbul,Turkey,FALSE,,,,,
+,,,1976-02-08,Friendly,played,Turkey,TUR,TUR,UEFA,Iraq,IRQ,IRQ,AFC,FALSE,0,0,draw,Baghdad,Iraq,FALSE,1667,1579,1667,1579,0
+,,,1976-08-25,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,1,2,loss,Helsinki,Finland,FALSE,1667,1409,1653,1423,-14
+,,,1976-09-22,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,2,draw,Sofia,Bulgaria,FALSE,1653,1806,1659,1800,6
+,,,1976-10-13,Friendly,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,3,draw,Ankara,Turkey,FALSE,,,,,
+,,,1976-10-31,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Malta,,,,TRUE,4,0,win,İzmir,Turkey,FALSE,1658,1386,1666,1378,8
+,,,1976-11-17,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,1,draw,Dresden,German DR,FALSE,1666,1984,1683,1967,17
+,,,1977-01-05,Friendly,played,Turkey,TUR,TUR,UEFA,Northern Cyprus,,,,FALSE,1,0,win,Kyrenia,Cyprus,FALSE,1683,1486,1690,1479,7
+,,,1977-02-16,Balkan Cup,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,0,win,Istanbul,Turkey,FALSE,1690,1762,1718,1734,28
+,,,1977-03-23,Balkan Cup,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,4,loss,Bucharest,Romania,FALSE,1718,1820,1700,1838,-18
+,,,1977-04-06,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,TRUE,1,2,loss,Ankara,Turkey,FALSE,1700,1439,1682,1457,-18
+,,,1977-04-17,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,1,loss,Vienna,Austria,FALSE,1682,1818,1674,1826,-8
+,,,1977-09-07,Friendly,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,1,loss,Bratislava,Czechoslovakia,FALSE,1674,1894,1671,1897,-3
+,,,1977-09-21,Balkan Cup,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,3,loss,Sofia,Bulgaria,FALSE,1671,1756,1656,1771,-15
+,,,1977-10-30,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,1,loss,İzmir,Turkey,FALSE,1656,1858,1642,1872,-14
+,,,1977-11-16,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,2,loss,İzmir,Turkey,FALSE,1642,1965,1633,1974,-9
+,,,1977-11-27,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Malta,,,,FALSE,3,0,win,Gżira,Malta,FALSE,1633,1384,1654,1363,21
+,,,1978-03-22,Balkan Cup,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1654,1853,1660,1847,6
+,,,1978-04-05,Friendly,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1978-09-23,Friendly,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,1,loss,Florence,Italy,FALSE,1651,2006,1650,2007,-1
+,,,1978-10-05,Friendly,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,2,loss,Ankara,Turkey,FALSE,1650,1935,1642,1943,-8
+,,,1978-11-29,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,1,loss,Wrexham,Wales,FALSE,1642,1810,1635,1817,-7
+,,,1979-02-28,Friendly,played,Turkey,TUR,TUR,UEFA,Algeria,DZA,DZA,CAF,TRUE,0,1,loss,Bursa,Turkey,FALSE,1635,1605,1621,1619,-14
+,,,1979-03-18,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Malta,,,,TRUE,2,1,win,İzmir,Turkey,FALSE,1621,1372,1626,1367,5
+,,,1979-04-01,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,0,draw,İzmir,Turkey,FALSE,,,,,
+,,,1979-10-28,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Malta,,,,FALSE,2,1,win,Gżira,Malta,FALSE,1640,1358,1650,1348,10
+,,,1979-11-21,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,0,win,İzmir,Turkey,FALSE,1650,1842,1675,1817,25
+,,,1979-12-22,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Gelsenkirchen,Germany,FALSE,,,,,
+,,,1980-09-24,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,1,3,loss,İzmir,Turkey,FALSE,1672,1363,1617,1418,-55
+,,,1980-09-28,Friendly,played,Turkey,TUR,TUR,UEFA,Northern Cyprus,,,,TRUE,5,0,win,İzmir,Turkey,FALSE,1617,1479,1633,1463,16
+,,,1980-10-01,Friendly,played,Turkey,TUR,TUR,UEFA,Libya,,,,TRUE,1,2,loss,İzmir,Turkey,FALSE,1633,1493,1601,1525,-32
+,,,1980-10-03,Friendly,played,Turkey,TUR,TUR,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,3,0,win,İzmir,Turkey,FALSE,1601,1460,1615,1446,14
+,,,1980-10-15,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,4,loss,Cardiff,Wales,FALSE,1624,1828,1613,1839,-11
+,,,1980-12-03,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,2,loss,Prague,Czechoslovakia,FALSE,1613,1898,1607,1904,-6
+,,,1981-03-25,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,1,loss,Ankara,Turkey,FALSE,1607,1873,1596,1884,-11
+,,,1981-04-15,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,3,loss,Istanbul,Turkey,FALSE,1596,1891,1579,1908,-17
+,,,1981-09-09,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,0,2,loss,Reykjavík,Iceland,FALSE,1579,1433,1545,1467,-34
+,,,1981-09-23,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,4,loss,Moscow,Soviet Union,TRUE,1545,1960,1541,1964,-4
+,,,1981-10-07,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,3,loss,İzmir,Turkey,FALSE,1541,1964,1532,1973,-9
+,,,1982-09-22,Friendly,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,5,loss,Győr,Hungary,FALSE,1532,1815,1528,1819,-4
+,,,1982-10-27,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Albania,,,,TRUE,1,0,win,İzmir,Turkey,FALSE,1528,1438,1538,1428,10
+,,,1982-11-17,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,4,loss,Vienna,Austria,FALSE,1538,1907,1533,1912,-5
+,,,1983-01-29,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1525,1808,1530,1803,5
+,,,1983-03-09,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,3,loss,Târgu Mureș,Romania,FALSE,1530,1814,1527,1817,-3
+,,,1983-03-30,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,2,loss,Belfast,Northern Ireland,FALSE,1527,1769,1522,1774,-5
+,,,1983-04-23,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,3,loss,İzmir,Turkey,FALSE,,,,,
+,,,1983-05-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Albania,,,,FALSE,1,1,draw,Tirana,Albania,FALSE,1515,1434,1516,1433,1
+,,,1983-08-24,Friendly,played,Turkey,TUR,TUR,UEFA,Libya,,,,TRUE,0,0,draw,Istanbul,Turkey,FALSE,,,,,
+,,,1983-10-12,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Ankara,Turkey,FALSE,1516,1802,1546,1772,30
+,,,1983-10-26,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Berlin,Germany,FALSE,,,,,
+,,,1983-11-16,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,TRUE,3,1,win,Istanbul,Turkey,FALSE,1543,1867,1590,1820,47
+,,,1984-01-20,Friendly,played,Turkey,TUR,TUR,UEFA,Egypt,EGY,EGY,CAF,FALSE,0,1,loss,Cairo,Egypt,FALSE,1590,1647,1584,1653,-6
+,,,1984-01-22,Friendly,played,Turkey,TUR,TUR,UEFA,Egypt,EGY,EGY,CAF,FALSE,1,0,win,Port Said,Egypt,FALSE,1584,1653,1599,1638,15
+,,,1984-03-03,Friendly,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1599,1864,1593,1870,-6
+,,,1984-03-11,Friendly,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,FALSE,3,1,win,Esch-sur-Alzette,Luxembourg,FALSE,1593,1193,1598,1188,5
+,,,1984-04-04,Friendly,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,6,loss,Istanbul,Turkey,FALSE,1598,1761,1581,1778,-17
+,,,1984-09-26,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,0,2,loss,Słupsk,Poland,FALSE,1581,1906,1579,1908,-2
+,,,1984-10-16,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1579,1759,1581,1757,2
+,,,1984-10-31,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Finland,,,,TRUE,1,2,loss,Antalya,Turkey,FALSE,1581,1464,1550,1495,-31
+,,,1984-11-14,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,TRUE,0,8,loss,Istanbul,Turkey,FALSE,1550,1956,1536,1970,-14
+,,,1984-12-22,Friendly,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,TRUE,1,0,win,Istanbul,Turkey,FALSE,1536,1172,1537,1171,1
+,,,1985-03-28,Friendly,played,Turkey,TUR,TUR,UEFA,Albania,,,,FALSE,0,0,draw,Tirana,Albania,FALSE,1537,1483,1538,1482,1
+,,,1985-04-03,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,3,loss,Craiova,Romania,FALSE,1538,1781,1529,1790,-9
+,,,1985-05-01,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1529,1812,1523,1818,-6
+,,,1985-08-28,Friendly,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,St. Gallen,Switzerland,FALSE,1523,1745,1530,1738,7
+,,,1985-09-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,İzmir,Turkey,FALSE,1530,1818,1540,1808,10
+,,,1985-09-25,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,0,1,loss,Tampere,Finland,FALSE,1540,1497,1523,1514,-17
+,,,1985-10-16,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,FALSE,0,5,loss,London,England,FALSE,1523,1942,1519,1946,-4
+,,,1985-11-13,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,3,loss,İzmir,Turkey,FALSE,1519,1774,1502,1791,-17
+,,,1985-12-11,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Adana,Turkey,FALSE,1502,1821,1508,1815,6
+,,,1986-03-12,Friendly,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Adana,Turkey,FALSE,1508,1736,1522,1722,14
+,,,1986-10-29,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,4,loss,Split,Yugoslavia,FALSE,1522,1835,1516,1841,-6
+,,,1986-11-12,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,İzmir,Turkey,FALSE,1516,1764,1524,1756,8
+,,,1987-03-04,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,3,loss,Ankara,Turkey,FALSE,1524,1830,1517,1837,-7
+,,,1987-03-25,Friendly,played,Turkey,TUR,TUR,UEFA,German DR,DDR,DDR,UEFA,TRUE,3,1,win,Istanbul,Turkey,FALSE,1517,1836,1540,1813,23
+,,,1987-04-29,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,İzmir,Turkey,FALSE,1540,2016,1556,2000,16
+,,,1987-10-14,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,FALSE,0,8,loss,London,England,FALSE,1556,1978,1552,1982,-4
+,,,1987-11-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1552,1702,1544,1710,-8
+,,,1987-12-16,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,3,loss,İzmir,Turkey,FALSE,1544,1826,1534,1836,-10
+,,,1988-03-16,Friendly,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,1,loss,Budapest,Hungary,FALSE,1534,1789,1532,1791,-2
+,,,1988-09-21,Friendly,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,TRUE,3,1,win,Istanbul,Turkey,FALSE,1532,1713,1550,1695,18
+,,,1988-10-12,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1550,1542,1544,1548,-6
+,,,1988-11-02,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,3,loss,Vienna,Austria,FALSE,1544,1725,1537,1732,-7
+,,,1988-11-30,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,German DR,DDR,DDR,UEFA,TRUE,3,1,win,Istanbul,Turkey,FALSE,1537,1816,1581,1772,44
+,,,1989-03-29,Friendly,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,0,win,Athens,Greece,FALSE,1581,1700,1597,1684,16
+,,,1989-04-12,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,German DR,DDR,DDR,UEFA,FALSE,2,0,win,Magdeburg,German DR,FALSE,1597,1774,1647,1724,50
+,,,1989-05-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1647,1999,1639,2007,-8
+,,,1989-09-20,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1639,1525,1618,1546,-21
+,,,1989-10-25,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,TRUE,3,0,win,Istanbul,Turkey,FALSE,1618,1725,1654,1689,36
+,,,1989-11-15,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,2,loss,Simferopol,Soviet Union,TRUE,1654,1949,1648,1955,-6
+,,,1990-04-11,Friendly,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1648,1895,1646,1897,-2
+,,,1990-05-26,Friendly,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,İzmir,Turkey,FALSE,,,,,
+,,,1990-09-05,Friendly,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,4,loss,Budapest,Hungary,FALSE,1650,1739,1641,1748,-9
+,,,1990-10-17,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,5,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1990-11-14,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1631,1766,1613,1784,-18
+,,,1991-02-27,Friendly,played,Turkey,TUR,TUR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,İzmir,Turkey,FALSE,1613,1981,1619,1975,6
+,,,1991-03-27,Friendly,played,Turkey,TUR,TUR,UEFA,Tunisia,TUN,TUN,CAF,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1619,1493,1618,1494,-1
+,,,1991-04-17,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,0,3,loss,Warsaw,Poland,FALSE,1618,1764,1604,1778,-14
+,,,1991-05-01,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,İzmir,Turkey,FALSE,1604,1982,1597,1989,-7
+,,,1991-07-15,Friendly,played,Turkey,TUR,TUR,UEFA,Faroe Islands,,,,FALSE,1,1,draw,Tórshavn,Faroe Islands,FALSE,1597,1276,1591,1282,-6
+,,,1991-07-17,Friendly,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,5,loss,Reykjavík,Iceland,FALSE,1591,1534,1575,1550,-16
+,,,1991-08-21,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,0,draw,Stara Zagora,Bulgaria,FALSE,1575,1729,1581,1723,6
+,,,1991-09-04,Friendly,played,Turkey,TUR,TUR,UEFA,United States,USA,USA,CONCACAF,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1581,1720,1582,1719,1
+,,,1991-10-16,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1582,1992,1580,1994,-2
+,,,1991-11-13,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,3,loss,Istanbul,Turkey,FALSE,,,,,
+,,,1992-02-12,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,TRUE,1,1,draw,Adana,Turkey,FALSE,1567,1612,1565,1614,-2
+,,,1992-03-25,Friendly,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,FALSE,3,2,win,Luxembourg,Luxembourg,FALSE,1565,1180,1568,1177,3
+,,,1992-04-08,Friendly,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,1,win,Ankara,Turkey,FALSE,1568,1884,1584,1868,16
+,,,1992-05-30,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Gelsenkirchen,Germany,FALSE,1584,2075,1583,2076,-1
+,,,1992-08-26,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,2,win,Trabzon,Turkey,FALSE,1583,1788,1596,1775,13
+,,,1992-09-23,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,0,1,loss,Poznań,Poland,FALSE,1596,1777,1589,1784,-7
+,,,1992-10-28,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,San Marino,,,,TRUE,4,1,win,Ankara,Turkey,FALSE,1589,998,1590,997,1
+,,,1992-11-18,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,FALSE,0,4,loss,London,England,FALSE,1590,1941,1585,1946,-5
+,,,1992-12-16,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1585,1957,1575,1967,-10
+,,,1993-02-24,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,3,loss,Utrecht,Netherlands,FALSE,1575,1967,1572,1970,-3
+,,,1993-03-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,San Marino,,,,FALSE,0,0,draw,Serravalle,San Marino,FALSE,1572,997,1554,1015,-18
+,,,1993-03-31,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,TRUE,0,2,loss,İzmir,Turkey,FALSE,1554,1946,1545,1955,-9
+,,,1993-04-28,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,3,loss,Oslo,Norway,FALSE,1545,1772,1537,1780,-8
+,,,1993-10-27,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1537,1733,1562,1708,25
+,,,1993-11-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1562,1884,1593,1853,31
+,,,1994-02-23,Friendly,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,TRUE,1,4,loss,Istanbul,Turkey,FALSE,1593,1844,1583,1854,-10
+,,,1994-04-20,Friendly,played,Turkey,TUR,TUR,UEFA,Russia,RUS,RUS,UEFA,TRUE,0,1,loss,Bursa,Turkey,FALSE,1583,1859,1578,1864,-5
+,,,1994-08-31,Friendly,played,Turkey,TUR,TUR,UEFA,North Macedonia,,,,FALSE,2,0,win,Skopje,North Macedonia,FALSE,1578,1637,1599,1616,21
+,,,1994-09-07,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,2,draw,Budapest,Hungary,FALSE,1599,1616,1605,1610,6
+,,,1994-10-12,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,5,0,win,Istanbul,Turkey,FALSE,1605,1589,1632,1562,27
+,,,1994-12-14,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1632,1858,1619,1871,-13
+,,,1994-12-21,Friendly,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,3,loss,Pescara,Italy,FALSE,1619,1984,1617,1986,-2
+,,,1995-02-15,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,İzmir,Turkey,FALSE,1617,1890,1622,1885,5
+,,,1995-03-08,Friendly,played,Turkey,TUR,TUR,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1622,1622,1629,1615,7
+,,,1995-03-29,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1629,1940,1660,1909,31
+,,,1995-04-26,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,1,win,Bern,Switzerland,FALSE,1660,1860,1694,1826,34
+,,,1995-06-04,Friendly,played,Turkey,TUR,TUR,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,3,1,win,Toronto,Canada,FALSE,1694,1600,1709,1585,15
+,,,1995-06-07,Friendly,played,Turkey,TUR,TUR,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,3,0,win,Montreal,Canada,FALSE,1709,1585,1725,1569,16
+,,,1995-06-11,Friendly,played,Turkey,TUR,TUR,UEFA,Honduras,HND,HND,CONCACAF,FALSE,1,0,win,Toronto,Canada,TRUE,1725,1540,1730,1535,5
+,,,1995-06-20,Friendly,played,Turkey,TUR,TUR,UEFA,New Zealand,NZL,NZL,OFC,FALSE,2,1,win,Coquimbo,Chile,TRUE,1728,1497,1734,1491,6
+,,,1995-06-22,Friendly,played,Turkey,TUR,TUR,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,0,0,draw,Santiago,Chile,FALSE,1734,1732,1738,1728,4
+,,,1995-08-30,Friendly,played,Turkey,TUR,TUR,UEFA,North Macedonia,,,,TRUE,2,1,win,Istanbul,Turkey,FALSE,1738,1588,1742,1584,4
+,,,1995-09-06,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,0,win,Istanbul,Turkey,FALSE,1742,1612,1755,1599,13
+,,,1995-10-04,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,0,0,draw,Helsinki,Finland,FALSE,1755,1531,1752,1534,-3
+,,,1995-10-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,0,0,draw,Reykjavík,Iceland,FALSE,1752,1587,1748,1591,-4
+,,,1995-11-15,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,2,draw,Solna,Sweden,FALSE,1748,1858,1759,1847,11
+,,,1996-02-14,Friendly,played,Turkey,TUR,TUR,UEFA,Belarus,,,,TRUE,3,2,win,İzmir,Turkey,FALSE,1759,1461,1761,1459,2
+,,,1996-03-26,Friendly,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,FALSE,0,3,loss,Ostrava,Czech Republic,FALSE,1761,1896,1754,1903,-7
+,,,1996-04-09,Friendly,played,Turkey,TUR,TUR,UEFA,Azerbaijan,,,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1754,1451,1759,1446,5
+,,,1996-05-01,Friendly,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,3,2,win,Samsun,Turkey,FALSE,1759,1604,1763,1600,4
+,,,1996-05-29,Friendly,played,Turkey,TUR,TUR,UEFA,Estonia,,,,FALSE,0,0,draw,Tallinn,Estonia,FALSE,1763,1093,1754,1102,-9
+,,,1996-06-02,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,2,1,win,Helsinki,Finland,FALSE,1754,1501,1760,1495,6
+,,,1996-06-11,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,1,loss,Nottingham,England,TRUE,1760,1904,1745,1919,-15
+,,,1996-06-14,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Nottingham,England,TRUE,1745,1870,1729,1886,-16
+,,,1996-06-19,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,3,loss,Sheffield,England,TRUE,1729,1913,1706,1936,-23
+,,,1996-08-14,Friendly,played,Turkey,TUR,TUR,UEFA,Moldova,,,,TRUE,2,0,win,Istanbul,Turkey,FALSE,1706,1471,1710,1467,4
+,,,1996-08-31,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,2,loss,Brussels,Belgium,FALSE,1710,1775,1699,1786,-11
+,,,1996-10-09,Friendly,played,Turkey,TUR,TUR,UEFA,France,FRA,FRA,UEFA,FALSE,0,4,loss,Paris,France,FALSE,1699,2021,1696,2024,-3
+,,,1996-11-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,San Marino,,,,TRUE,7,0,win,Istanbul,Turkey,FALSE,1696,958,1697,957,1
+,,,1996-12-14,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1697,1597,1697,1597,0
+,,,1997-02-12,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,TRUE,1,1,draw,Denizli,Turkey,FALSE,1697,1465,1690,1472,-7
+,,,1997-04-02,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,0,win,Bursa,Turkey,FALSE,1690,1955,1719,1926,29
+,,,1997-04-30,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1719,1755,1684,1790,-35
+,,,1997-06-12,Kirin Cup,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,1,draw,Sendai,Japan,TRUE,1684,1869,1691,1862,7
+,,,1997-06-15,Kirin Cup,played,Turkey,TUR,TUR,UEFA,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Osaka,Japan,FALSE,1691,1733,1682,1742,-9
+,,,1997-08-20,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,TRUE,6,4,win,Istanbul,Turkey,FALSE,1682,1597,1697,1582,15
+,,,1997-09-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,San Marino,,,,FALSE,5,0,win,Serravalle,San Marino,FALSE,1697,956,1699,954,2
+,,,1997-10-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,1699,1953,1714,1938,15
+,,,1998-01-21,Friendly,played,Turkey,TUR,TUR,UEFA,Albania,,,,TRUE,1,4,loss,Antalya,Turkey,FALSE,1714,1411,1682,1443,-32
+,,,1998-02-18,Friendly,played,Turkey,TUR,TUR,UEFA,Israel,ISR,ISR,UEFA,FALSE,0,4,loss,Ramat Gan,Israel,FALSE,1682,1614,1665,1631,-17
+,,,1998-04-22,Friendly,played,Turkey,TUR,TUR,UEFA,Russia,RUS,RUS,UEFA,FALSE,0,1,loss,Moscow,Russia,FALSE,1665,1882,1662,1885,-3
+,,,1998-09-05,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,0,win,Istanbul,Turkey,FALSE,1662,1600,1682,1580,20
+,,,1998-10-10,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Bursa,Turkey,FALSE,1682,2007,1713,1976,31
+,,,1998-10-14,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Finland,,,,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1713,1540,1663,1590,-50
+,,,1999-03-27,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Moldova,,,,TRUE,2,0,win,Istanbul,Turkey,FALSE,1663,1414,1670,1407,7
+,,,1999-06-05,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,4,2,win,Helsinki,Finland,FALSE,1670,1571,1700,1541,30
+,,,1999-09-04,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,0,win,Belfast,Northern Ireland,FALSE,1700,1575,1732,1543,32
+,,,1999-09-08,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Moldova,,,,FALSE,1,1,draw,Chișinău,Moldova,FALSE,1732,1417,1721,1428,-11
+,,,1999-10-09,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Munich,Germany,FALSE,1721,1885,1734,1872,13
+,,,1999-11-13,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1999-11-17,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Bursa,Turkey,FALSE,,,,,
+,,,2000-02-23,Friendly,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,2,loss,Istanbul,Turkey,FALSE,1738,1916,1726,1928,-12
+,,,2000-06-11,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,2,loss,Arnhem,Netherlands,TRUE,1726,1929,1714,1941,-12
+,,,2000-06-15,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,0,draw,Eindhoven,Netherlands,TRUE,1714,1884,1725,1873,11
+,,,2000-06-19,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,0,win,Brussels,Belgium,FALSE,1725,1807,1781,1751,56
+,,,2000-06-24,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,2,loss,Amsterdam,Netherlands,TRUE,1781,1986,1763,2004,-18
+,,,2000-08-16,Friendly,played,Turkey,TUR,TUR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,0,2,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1763,1549,1743,1569,-20
+,,,2000-09-02,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Moldova,,,,TRUE,2,0,win,Istanbul,Turkey,FALSE,1743,1428,1748,1423,5
+,,,2000-10-07,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Gothenburg,Sweden,FALSE,1748,1836,1758,1826,10
+,,,2000-10-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Azerbaijan,,,,FALSE,1,0,win,Baku,Azerbaijan,FALSE,1758,1270,1762,1266,4
+,,,2000-11-15,Friendly,played,Turkey,TUR,TUR,UEFA,France,FRA,FRA,UEFA,TRUE,0,4,loss,Istanbul,Turkey,FALSE,1762,2102,1754,2110,-8
+,,,2001-02-28,Friendly,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,1754,1998,1762,1990,8
+,,,2001-03-24,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1762,1751,1756,1757,-6
+,,,2001-03-28,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,North Macedonia,,,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1756,1529,1769,1516,13
+,,,2001-04-25,Friendly,played,Turkey,TUR,TUR,UEFA,Albania,,,,TRUE,0,2,loss,Gaziantep,Turkey,FALSE,1769,1489,1742,1516,-27
+,,,2001-06-02,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Azerbaijan,,,,TRUE,3,0,win,Istanbul,Turkey,FALSE,1742,1259,1744,1257,2
+,,,2001-06-06,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,North Macedonia,,,,TRUE,3,3,draw,Bursa,Turkey,FALSE,1744,1505,1729,1520,-15
+,,,2001-08-15,Friendly,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1729,1756,1733,1752,4
+,,,2001-09-01,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,0,win,Bratislava,Slovakia,FALSE,1733,1676,1755,1654,22
+,,,2001-09-05,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1755,1868,1736,1887,-19
+,,,2001-10-06,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Moldova,,,,FALSE,3,0,win,Chișinău,Moldova,FALSE,1736,1411,1751,1396,15
+,,,2001-11-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,0,win,Vienna,Austria,FALSE,1751,1717,1775,1693,24
+,,,2001-11-14,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,TRUE,5,0,win,Istanbul,Turkey,FALSE,1775,1693,1796,1672,21
+,,,2002-02-12,Friendly,played,Turkey,TUR,TUR,UEFA,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,1,loss,Breda,Netherlands,TRUE,1796,1707,1783,1720,-13
+,,,2002-03-26,Friendly,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Bochum,Germany,TRUE,1783,1711,1781,1713,-2
+,,,2002-04-17,Friendly,played,Turkey,TUR,TUR,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,2,0,win,Kerkrade,Netherlands,TRUE,1781,1598,1789,1590,8
+,,,2002-05-23,Friendly,played,Turkey,TUR,TUR,UEFA,South Africa,ZAF,ZAF,CAF,FALSE,0,2,loss,So Kon Po,Hong Kong,TRUE,1789,1608,1756,1641,-33
+WC-2002,WC-2002_009,9,2002-06-03,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Ulsan,South Korea,TRUE,1756,1867,1735,1888,-21
+WC-2002,WC-2002_027,27,2002-06-09,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,Incheon,South Korea,TRUE,1735,1792,1740,1787,5
+WC-2002,WC-2002_044,44,2002-06-13,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,China PR,,,,TRUE,3,0,win,Seoul,South Korea,TRUE,,,,,
+WC-2002,WC-2002_055,55,2002-06-18,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,Japan,JPN,JPN,AFC,FALSE,1,0,win,Rifu,Japan,FALSE,1777,1870,1822,1825,45
+WC-2002,WC-2002_060,60,2002-06-22,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,Senegal,SEN,SEN,CAF,FALSE,1,0,win,Osaka,Japan,TRUE,1822,1808,1851,1779,29
+WC-2002,WC-2002_062,62,2002-06-26,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Saitama,Japan,TRUE,1851,2010,1834,2027,-17
+WC-2002,WC-2002_063,63,2002-06-29,FIFA World Cup,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,FALSE,3,2,win,Daegu,South Korea,FALSE,1834,1818,1871,1781,37
+,,,2002-08-21,Friendly,played,Turkey,TUR,TUR,UEFA,Georgia,,,,TRUE,3,0,win,Trabzon,Turkey,FALSE,1871,1601,1875,1597,4
+,,,2002-09-07,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,3,0,win,Istanbul,Turkey,FALSE,1875,1697,1887,1685,12
+,,,2002-10-12,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,North Macedonia,,,,FALSE,2,1,win,Skopje,North Macedonia,FALSE,1887,1457,1892,1452,5
+,,,2002-10-16,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Liechtenstein,,,,TRUE,5,0,win,Istanbul,Turkey,FALSE,1892,1070,1892,1070,0
+,,,2002-11-20,Friendly,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Pescara,Italy,FALSE,1892,1880,1894,1878,2
+,,,2003-02-12,Friendly,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,0,0,draw,İzmir,Turkey,FALSE,1894,1694,1887,1701,-7
+,,,2003-04-02,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,Sunderland,England,FALSE,1887,1927,1868,1946,-19
+,,,2003-04-30,Friendly,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,FALSE,0,4,loss,Teplice,Czech Republic,FALSE,1868,1912,1857,1923,-11
+,,,2003-06-07,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,0,win,Bratislava,Slovakia,FALSE,1857,1699,1874,1682,17
+,,,2003-06-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,North Macedonia,,,,TRUE,3,2,win,Istanbul,Turkey,FALSE,1874,1449,1876,1447,2
+,,,2003-06-19,Confederations Cup,played,Turkey,TUR,TUR,UEFA,United States,USA,USA,CONCACAF,TRUE,2,1,win,Saint-Étienne,France,TRUE,1876,1839,1898,1817,22
+,,,2003-06-21,Confederations Cup,played,Turkey,TUR,TUR,UEFA,Cameroon,CMR,CMR,CAF,FALSE,0,1,loss,Saint-Denis,France,TRUE,1898,1788,1865,1821,-33
+,,,2003-06-23,Confederations Cup,played,Turkey,TUR,TUR,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,2,2,draw,Saint-Étienne,France,TRUE,1865,2015,1875,2005,10
+,,,2003-06-26,Confederations Cup,played,Turkey,TUR,TUR,UEFA,France,FRA,FRA,UEFA,FALSE,2,3,loss,Saint-Denis,France,FALSE,1875,1985,1864,1996,-11
+,,,2003-06-28,Confederations Cup,played,Turkey,TUR,TUR,UEFA,Colombia,COL,COL,CONMEBOL,FALSE,2,1,win,Saint-Étienne,France,TRUE,1864,1847,1888,1823,24
+,,,2003-08-20,Friendly,played,Turkey,TUR,TUR,UEFA,Moldova,,,,TRUE,2,0,win,Ankara,Turkey,FALSE,1888,1390,1889,1389,1
+,,,2003-09-06,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Liechtenstein,,,,FALSE,3,0,win,Vaduz,Liechtenstein,FALSE,1889,1077,1890,1076,1
+,,,2003-09-09,Friendly,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2003-10-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1892,1968,1891,1969,-1
+,,,2003-11-15,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Latvia,,,,FALSE,0,1,loss,Riga,Latvia,FALSE,1891,1509,1858,1542,-33
+,,,2003-11-19,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Latvia,,,,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1858,1542,1841,1559,-17
+,,,2004-03-31,Friendly,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,2,2,draw,Zagreb,Croatia,FALSE,1829,1817,1831,1815,2
+,,,2004-04-28,Friendly,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,2,win,Brussels,Belgium,FALSE,1831,1784,1843,1772,12
+,,,2004-05-21,Friendly,played,Turkey,TUR,TUR,UEFA,Australia,AUS,AUS,AFC,FALSE,3,1,win,Sydney,Australia,FALSE,1843,1822,1861,1804,18
+,,,2004-05-24,Friendly,played,Turkey,TUR,TUR,UEFA,Australia,AUS,AUS,AFC,FALSE,1,0,win,Melbourne,Australia,FALSE,1861,1804,1872,1793,11
+,,,2004-06-02,Friendly,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,FALSE,1,0,win,Seoul,South Korea,FALSE,1872,1688,1880,1680,8
+,,,2004-06-05,Friendly,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Daegu,South Korea,FALSE,1880,1680,1867,1693,-13
+,,,2004-08-18,Friendly,played,Turkey,TUR,TUR,UEFA,Belarus,,,,TRUE,1,2,loss,Denizli,Turkey,FALSE,1867,1568,1849,1586,-18
+,,,2004-09-04,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Georgia,,,,TRUE,1,1,draw,Trabzon,Turkey,FALSE,1849,1485,1832,1502,-17
+,,,2004-09-08,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,0,draw,Piraeus,Greece,FALSE,1832,1898,1841,1889,9
+,,,2004-10-09,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Kazakhstan,,,,TRUE,4,0,win,Istanbul,Turkey,FALSE,1841,1370,1844,1367,3
+,,,2004-10-13,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1844,1879,1851,1872,7
+,,,2004-11-17,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,0,3,loss,Istanbul,Turkey,FALSE,1851,1684,1793,1742,-58
+,,,2005-03-26,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Albania,,,,TRUE,2,0,win,Istanbul,Turkey,FALSE,1793,1519,1799,1513,6
+,,,2005-03-30,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Georgia,,,,FALSE,5,2,win,Tbilisi,Georgia,FALSE,1799,1524,1818,1505,19
+,,,2005-06-04,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1818,1911,1818,1911,0
+,,,2005-06-08,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Kazakhstan,,,,FALSE,6,0,win,Almaty,Kazakhstan,FALSE,1818,1342,1827,1333,9
+,,,2005-08-17,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,3,loss,Sofia,Bulgaria,FALSE,1827,1671,1810,1688,-17
+,,,2005-09-03,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1810,1864,1807,1867,-3
+,,,2005-09-07,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,1,0,win,Kyiv,Ukraine,FALSE,1807,1807,1833,1781,26
+,,,2005-10-08,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1833,1892,1842,1883,9
+,,,2005-10-12,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Albania,,,,FALSE,1,0,win,Tirana,Albania,FALSE,1842,1542,1852,1532,10
+,,,2005-11-12,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,2,loss,Bern,Switzerland,FALSE,1852,1772,1824,1800,-28
+,,,2005-11-16,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,2,win,Istanbul,Turkey,FALSE,1824,1800,1844,1780,20
+,,,2006-03-01,Friendly,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,TRUE,2,2,draw,İzmir,Turkey,FALSE,1844,1965,1845,1964,1
+,,,2006-04-12,Friendly,played,Turkey,TUR,TUR,UEFA,Azerbaijan,,,,FALSE,1,1,draw,Baku,Azerbaijan,FALSE,1845,1356,1837,1364,-8
+,,,2006-05-24,Friendly,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,3,draw,Genk,Belgium,FALSE,1837,1708,1836,1709,-1
+,,,2006-05-26,Friendly,played,Turkey,TUR,TUR,UEFA,Ghana,GHA,GHA,CAF,TRUE,1,1,draw,Bochum,Germany,TRUE,1836,1566,1829,1573,-7
+,,,2006-05-28,Friendly,played,Turkey,TUR,TUR,UEFA,Estonia,,,,TRUE,1,1,draw,Hamburg,Germany,TRUE,1829,1420,1821,1428,-8
+,,,2006-05-31,Friendly,played,Turkey,TUR,TUR,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,Offenbach am Main,Germany,TRUE,1821,1558,1825,1554,4
+,,,2006-06-02,Friendly,played,Turkey,TUR,TUR,UEFA,Angola,AGO,AGO,CAF,FALSE,3,2,win,Sittard,Netherlands,TRUE,1825,1573,1829,1569,4
+,,,2006-06-04,Friendly,played,Turkey,TUR,TUR,UEFA,North Macedonia,,,,TRUE,0,1,loss,Krefeld,Germany,TRUE,1829,1492,1812,1509,-17
+,,,2006-08-16,Friendly,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1812,979,1812,979,0
+,,,2006-09-06,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Malta,,,,TRUE,2,0,win,Frankfurt am Main,Germany,TRUE,1812,1238,1814,1236,2
+,,,2006-10-07,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,0,win,Budapest,Hungary,FALSE,1814,1625,1829,1610,15
+,,,2006-10-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Moldova,,,,TRUE,5,0,win,Frankfurt am Main,Germany,TRUE,1829,1427,1836,1420,7
+,,,2006-11-15,Friendly,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Bergamo,Italy,FALSE,1836,2026,1843,2019,7
+,,,2007-02-07,Friendly,played,Turkey,TUR,TUR,UEFA,Georgia,,,,FALSE,0,1,loss,Tbilisi,Georgia,FALSE,1843,1527,1827,1543,-16
+,,,2007-03-24,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,FALSE,4,1,win,Piraeus,Greece,FALSE,1827,1824,1872,1779,45
+,,,2007-03-28,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,2,draw,Frankfurt am Main,Germany,TRUE,1872,1729,1864,1737,-8
+,,,2007-06-02,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,2,3,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1864,1597,1835,1626,-29
+,,,2007-06-05,Friendly,played,Turkey,TUR,TUR,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,0,draw,Dortmund,Germany,TRUE,1835,2065,1841,2059,6
+,,,2007-08-22,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,2,loss,Bucharest,Romania,FALSE,1841,1894,1832,1903,-9
+,,,2007-09-08,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Malta,,,,FALSE,2,2,draw,Attard,Malta,FALSE,1832,1263,1815,1280,-17
+,,,2007-09-12,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,0,win,Istanbul,Turkey,FALSE,1815,1612,1825,1602,10
+,,,2007-10-13,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Moldova,,,,FALSE,1,1,draw,Chișinău,Moldova,FALSE,1825,1435,1811,1449,-14
+,,,2007-10-17,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1811,1796,1785,1822,-26
+,,,2007-11-17,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,1,win,Oslo,Norway,FALSE,1785,1792,1811,1766,26
+,,,2007-11-21,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,1,0,win,Istanbul,Turkey,FALSE,1811,1545,1815,1541,4
+,,,2008-02-06,Friendly,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1815,1793,1812,1796,-3
+,,,2008-03-26,Friendly,played,Turkey,TUR,TUR,UEFA,Belarus,,,,FALSE,2,2,draw,Minsk,Belarus,FALSE,1812,1565,1808,1569,-4
+,,,2008-05-20,Friendly,played,Turkey,TUR,TUR,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,0,win,Bielefeld,Germany,TRUE,1808,1634,1813,1629,5
+,,,2008-05-25,Friendly,played,Turkey,TUR,TUR,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,2,3,loss,Bochum,Germany,TRUE,1813,1794,1802,1805,-11
+,,,2008-05-29,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,2,0,win,Duisburg,Germany,TRUE,1802,1674,1812,1664,10
+,,,2008-06-07,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,2,loss,Geneva,Switzerland,TRUE,1812,1861,1780,1893,-32
+,,,2008-06-11,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,1,win,Basel,Switzerland,FALSE,1780,1770,1811,1739,31
+,,,2008-06-15,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,TRUE,3,2,win,Geneva,Switzerland,TRUE,1811,1899,1842,1868,31
+,,,2008-06-20,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,1,draw,Vienna,Austria,TRUE,1842,1930,1848,1924,6
+,,,2008-06-25,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,2,3,loss,Basel,Switzerland,TRUE,1848,1977,1832,1993,-16
+,,,2008-08-20,Friendly,played,Turkey,TUR,TUR,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,1,0,win,İzmit,Turkey,FALSE,1832,1781,1838,1775,6
+,,,2008-09-06,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Armenia,,,,FALSE,2,0,win,Yerevan,Armenia,FALSE,1838,1447,1847,1438,9
+,,,2008-09-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1847,1621,1832,1636,-15
+,,,2008-10-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,2,1,win,Istanbul,Turkey,FALSE,1832,1551,1836,1547,4
+,,,2008-10-15,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Estonia,,,,FALSE,0,0,draw,Tallinn,Estonia,FALSE,1836,1382,1821,1397,-15
+,,,2008-11-19,Friendly,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,4,2,win,Vienna,Austria,FALSE,1821,1575,1830,1566,9
+,,,2009-02-11,Friendly,played,Turkey,TUR,TUR,UEFA,Ivory Coast,CIV,CIV,CAF,TRUE,1,1,draw,İzmir,Turkey,FALSE,1830,1709,1824,1715,-6
+,,,2009-03-28,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Madrid,Spain,FALSE,1824,2107,1820,2111,-4
+,,,2009-04-01,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1820,2111,1810,2121,-10
+,,,2009-06-02,Friendly,played,Turkey,TUR,TUR,UEFA,Azerbaijan,,,,TRUE,2,0,win,Kayseri,Turkey,FALSE,1810,1375,1811,1374,1
+,,,2009-06-05,Friendly,played,Turkey,TUR,TUR,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Lyon,France,FALSE,1811,1876,1805,1882,-6
+,,,2009-08-12,Friendly,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,3,0,win,Kyiv,Ukraine,FALSE,1805,1806,1827,1784,22
+,,,2009-09-05,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Estonia,,,,TRUE,4,2,win,Kayseri,Turkey,FALSE,1827,1428,1830,1425,3
+,,,2009-09-09,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,1,1,draw,Zenica,Bosnia and Herzegovina,FALSE,1830,1648,1825,1653,-5
+,,,2009-10-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Brussels,Belgium,FALSE,1825,1549,1781,1593,-44
+,,,2009-10-14,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Armenia,,,,TRUE,2,0,win,Bursa,Turkey,FALSE,1781,1383,1784,1380,3
+,,,2010-03-03,Friendly,played,Turkey,TUR,TUR,UEFA,Honduras,HND,HND,CONCACAF,TRUE,2,0,win,Istanbul,Turkey,FALSE,1784,1766,1794,1756,10
+,,,2010-05-22,Friendly,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,TRUE,2,1,win,Harrison,United States,TRUE,1794,1737,1802,1729,8
+,,,2010-05-26,Friendly,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,0,win,New Britain,United States,TRUE,1802,1567,1808,1561,6
+,,,2010-05-29,Friendly,played,Turkey,TUR,TUR,UEFA,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Philadelphia,United States,FALSE,1808,1759,1799,1768,-9
+,,,2010-08-11,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,0,win,Istanbul,Turkey,FALSE,1799,1749,1808,1740,9
+,,,2010-09-03,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Kazakhstan,,,,FALSE,3,0,win,Astana,Kazakhstan,FALSE,1808,1357,1816,1349,8
+,,,2010-09-07,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,TRUE,3,2,win,Istanbul,Turkey,FALSE,1816,1583,1821,1578,5
+,,,2010-10-08,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Berlin,Germany,FALSE,1821,2060,1812,2069,-9
+,,,2010-10-12,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Azerbaijan,,,,FALSE,0,1,loss,Baku,Azerbaijan,FALSE,1812,1428,1779,1461,-33
+,,,2010-11-17,Friendly,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,1,loss,Amsterdam,Netherlands,FALSE,1779,2102,1777,2104,-2
+,,,2011-02-09,Friendly,played,Turkey,TUR,TUR,UEFA,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Trabzon,Turkey,FALSE,1777,1791,1775,1793,-2
+,,,2011-03-29,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,0,win,Istanbul,Turkey,FALSE,1775,1566,1784,1557,9
+,,,2011-06-03,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Brussels,Belgium,FALSE,1784,1663,1783,1664,-1
+,,,2011-08-10,Friendly,played,Turkey,TUR,TUR,UEFA,Estonia,,,,TRUE,3,0,win,Istanbul,Turkey,FALSE,1783,1452,1786,1449,3
+,,,2011-09-02,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Kazakhstan,,,,TRUE,2,1,win,Istanbul,Turkey,FALSE,1786,1353,1788,1351,2
+,,,2011-09-06,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,0,draw,Vienna,Austria,FALSE,1788,1549,1780,1557,-8
+,,,2011-10-07,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Istanbul,Turkey,FALSE,1780,2056,1764,2072,-16
+,,,2011-10-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Azerbaijan,,,,TRUE,1,0,win,Istanbul,Turkey,FALSE,1764,1393,1766,1391,2
+,,,2011-11-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,3,loss,Istanbul,Turkey,FALSE,1766,1868,1731,1903,-35
+,,,2011-11-15,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,0,draw,Zagreb,Croatia,FALSE,1731,1903,1744,1890,13
+,,,2012-02-29,Friendly,played,Turkey,TUR,TUR,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,2,loss,Bursa,Turkey,FALSE,1744,1579,1728,1595,-16
+,,,2012-05-24,Friendly,played,Turkey,TUR,TUR,UEFA,Georgia,,,,FALSE,3,1,win,Salzburg,Austria,TRUE,1728,1500,1734,1494,6
+,,,2012-05-26,Friendly,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,2,3,loss,Salzburg,Austria,TRUE,1734,1599,1720,1613,-14
+,,,2012-05-29,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,0,win,Salzburg,Austria,TRUE,1720,1651,1732,1639,12
+,,,2012-06-02,Friendly,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,3,1,win,Lisbon,Portugal,FALSE,1732,1889,1756,1865,24
+,,,2012-06-05,Friendly,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,2,0,win,Ingolstadt,Germany,TRUE,1756,1771,1772,1755,16
+,,,2012-08-15,Friendly,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,2,loss,Vienna,Austria,FALSE,1772,1604,1754,1622,-18
+,,,2012-09-07,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Amsterdam,Netherlands,FALSE,1754,1943,1744,1953,-10
+,,,2012-09-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Estonia,,,,TRUE,3,0,win,Istanbul,Turkey,FALSE,1744,1510,1753,1501,9
+,,,2012-10-12,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,1,loss,Istanbul,Turkey,FALSE,1753,1744,1727,1770,-26
+,,,2012-10-16,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,3,loss,Budapest,Hungary,FALSE,1727,1684,1702,1709,-25
+,,,2012-11-14,Friendly,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1702,1774,1701,1775,-1
+,,,2013-02-06,Friendly,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,TRUE,0,2,loss,Manisa,Turkey,FALSE,1701,1774,1685,1790,-16
+,,,2013-03-22,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Andorra,,,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1685,992,1687,990,2
+,,,2013-03-26,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1687,1687,1681,1693,-6
+,,,2013-05-28,Friendly,played,Turkey,TUR,TUR,UEFA,Latvia,,,,TRUE,3,3,draw,Duisburg,Germany,TRUE,1681,1483,1676,1488,-5
+,,,2013-05-31,Friendly,played,Turkey,TUR,TUR,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,0,2,loss,Bielefeld,Germany,TRUE,1676,1554,1656,1574,-20
+,,,2013-08-14,Friendly,played,Turkey,TUR,TUR,UEFA,Ghana,GHA,GHA,CAF,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1656,1701,1654,1703,-2
+,,,2013-09-06,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Andorra,,,,TRUE,5,0,win,Kayseri,Turkey,FALSE,1654,997,1655,996,1
+,,,2013-09-10,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,2,0,win,Bucharest,Romania,FALSE,1655,1772,1702,1725,47
+,,,2013-10-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Estonia,,,,FALSE,2,0,win,Tallinn,Estonia,FALSE,1702,1476,1722,1456,20
+,,,2013-10-15,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,2,loss,Istanbul,Turkey,FALSE,1722,1999,1706,2015,-16
+,,,2013-11-15,Friendly,played,Turkey,TUR,TUR,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Adana,Turkey,FALSE,1706,1413,1708,1411,2
+,,,2013-11-19,Friendly,played,Turkey,TUR,TUR,UEFA,Belarus,,,,TRUE,2,1,win,Mersin,Turkey,FALSE,1708,1592,1712,1588,4
+,,,2014-03-05,Friendly,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,1,win,Ankara,Turkey,FALSE,1712,1833,1723,1822,11
+,,,2014-05-21,Friendly,played,Turkey,TUR,TUR,UEFA,Kosovo,,,,FALSE,6,1,win,Mitrovica,Kosovo,FALSE,1723,1379,1731,1371,8
+,,,2014-05-25,Friendly,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2014-06-01,Friendly,played,Turkey,TUR,TUR,UEFA,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Harrison,United States,FALSE,1756,1847,1751,1852,-5
+,,,2014-09-03,Friendly,played,Turkey,TUR,TUR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,1,win,Odense,Denmark,FALSE,1751,1753,1764,1740,13
+,,,2014-09-09,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,0,3,loss,Reykjavík,Iceland,FALSE,1764,1539,1717,1586,-47
+,,,2014-10-10,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,TRUE,1,2,loss,Istanbul,Turkey,FALSE,1717,1764,1694,1787,-23
+,,,2014-10-13,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Latvia,,,,FALSE,1,1,draw,Riga,Latvia,FALSE,1694,1439,1686,1447,-8
+,,,2014-11-12,Friendly,played,Turkey,TUR,TUR,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,4,loss,Istanbul,Turkey,FALSE,1686,2030,1679,2037,-7
+,,,2014-11-16,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Kazakhstan,,,,TRUE,3,1,win,Istanbul,Turkey,FALSE,1679,1358,1684,1353,5
+,,,2015-03-28,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Amsterdam,Netherlands,FALSE,1684,2029,1701,2012,17
+,,,2015-03-31,Friendly,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,FALSE,2,1,win,Luxembourg,Luxembourg,FALSE,1701,1223,1703,1221,2
+,,,2015-06-08,Friendly,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,4,0,win,Istanbul,Turkey,FALSE,1703,1615,1712,1606,9
+,,,2015-06-12,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Kazakhstan,,,,FALSE,1,0,win,Almaty,Kazakhstan,FALSE,1712,1348,1719,1341,7
+,,,2015-09-03,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Latvia,,,,TRUE,1,1,draw,Konya,Turkey,FALSE,1719,1466,1704,1481,-15
+,,,2015-09-06,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,0,win,Konya,Turkey,FALSE,1704,1972,1755,1921,51
+,,,2015-10-10,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,FALSE,2,0,win,Prague,Czech Republic,FALSE,1755,1771,1795,1731,40
+,,,2015-10-13,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,1,0,win,Konya,Turkey,FALSE,1795,1700,1805,1690,10
+,,,2015-11-13,Friendly,played,Turkey,TUR,TUR,UEFA,Qatar,QAT,QAT,AFC,FALSE,2,1,win,Doha,Qatar,FALSE,1805,1575,1811,1569,6
+,,,2015-11-17,Friendly,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1811,1603,1804,1610,-7
+,,,2016-03-24,Friendly,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,1,win,Antalya,Turkey,FALSE,1804,1768,1810,1762,6
+,,,2016-03-29,Friendly,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,1,win,Vienna,Austria,FALSE,1810,1804,1823,1791,13
+,,,2016-05-22,Friendly,played,Turkey,TUR,TUR,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,Manchester,England,FALSE,1823,1958,1819,1962,-4
+,,,2016-05-29,Friendly,played,Turkey,TUR,TUR,UEFA,Montenegro,,,,TRUE,1,0,win,Antalya,Turkey,FALSE,1819,1558,1821,1556,2
+,,,2016-06-05,Friendly,played,Turkey,TUR,TUR,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,1,0,win,Ljubljana,Slovenia,FALSE,1821,1620,1828,1613,7
+,,,2016-06-12,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,1,loss,Paris,France,TRUE,1828,1818,1802,1844,-26
+,,,2016-06-17,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,3,loss,Nice,France,TRUE,1802,2001,1781,2022,-21
+,,,2016-06-21,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,FALSE,2,0,win,Lens,France,TRUE,1781,1751,1815,1717,34
+,,,2016-08-31,Friendly,played,Turkey,TUR,TUR,UEFA,Russia,RUS,RUS,UEFA,TRUE,0,0,draw,Antalya,Turkey,FALSE,1815,1692,1809,1698,-6
+,,,2016-09-05,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,1,draw,Zagreb,Croatia,FALSE,1809,1849,1817,1841,8
+,,,2016-10-06,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,2,2,draw,Konya,Turkey,FALSE,1817,1733,1807,1743,-10
+,,,2016-10-09,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,0,2,loss,Reykjavík,Iceland,FALSE,1807,1753,1781,1779,-26
+,,,2016-11-12,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Kosovo,,,,TRUE,2,0,win,Antalya,Turkey,FALSE,1781,1397,1784,1394,3
+,,,2017-03-24,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Finland,,,,TRUE,2,0,win,Antalya,Turkey,FALSE,1784,1551,1792,1543,8
+,,,2017-03-27,Friendly,played,Turkey,TUR,TUR,UEFA,Moldova,,,,TRUE,3,1,win,Eskişehir,Turkey,FALSE,1792,1345,1793,1344,1
+,,,2017-06-05,Friendly,played,Turkey,TUR,TUR,UEFA,North Macedonia,,,,FALSE,0,0,draw,Skopje,North Macedonia,FALSE,1793,1444,1787,1450,-6
+,,,2017-06-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Kosovo,,,,FALSE,4,1,win,Shkodër,Albania,TRUE,1787,1390,1793,1384,6
+,,,2017-09-02,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,2,loss,Kharkiv,Ukraine,FALSE,1793,1755,1768,1780,-25
+,,,2017-09-05,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,0,win,Eskişehir,Turkey,FALSE,1768,1852,1787,1833,19
+,,,2017-10-06,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,0,3,loss,Eskişehir,Turkey,FALSE,1787,1795,1743,1839,-44
+,,,2017-10-09,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Finland,,,,FALSE,2,2,draw,Turku,Finland,FALSE,1743,1582,1740,1585,-3
+,,,2017-11-09,Friendly,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,2,loss,Cluj,Romania,FALSE,1740,1688,1727,1701,-13
+,,,2017-11-13,Friendly,played,Turkey,TUR,TUR,UEFA,Albania,,,,TRUE,2,3,loss,Antalya,Turkey,FALSE,1727,1592,1711,1608,-16
+,,,2018-03-23,Friendly,played,Turkey,TUR,TUR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Antalya,Turkey,FALSE,,,,,
+,,,2018-03-27,Friendly,played,Turkey,TUR,TUR,UEFA,Montenegro,,,,FALSE,2,2,draw,Podgorica,Montenegro,FALSE,1719,1609,1719,1609,0
+,,,2018-05-28,Friendly,played,Turkey,TUR,TUR,UEFA,Iran,IRN,IRN,AFC,TRUE,2,1,win,Istanbul,Turkey,FALSE,1719,1797,1728,1788,9
+,,,2018-06-01,Friendly,played,Turkey,TUR,TUR,UEFA,Tunisia,TUN,TUN,CAF,TRUE,2,2,draw,Geneva,Switzerland,TRUE,1728,1651,1726,1653,-2
+,,,2018-06-05,Friendly,played,Turkey,TUR,TUR,UEFA,Russia,RUS,RUS,UEFA,FALSE,1,1,draw,Moscow,Russia,FALSE,1726,1677,1727,1676,1
+,,,2018-09-07,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Russia,RUS,RUS,UEFA,TRUE,1,2,loss,Trabzon,Turkey,FALSE,1727,1719,1701,1745,-26
+,,,2018-09-10,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,FALSE,3,2,win,Stockholm,Sweden,FALSE,1701,1848,1733,1816,32
+,,,2018-10-11,Friendly,played,Turkey,TUR,TUR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,0,0,draw,Rize,Turkey,FALSE,1733,1780,1731,1782,-2
+,,,2018-10-14,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Russia,RUS,RUS,UEFA,FALSE,0,2,loss,Sochi,Russia,FALSE,1731,1754,1711,1774,-20
+,,,2018-11-17,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,1,loss,Konya,Turkey,FALSE,1711,1813,1691,1833,-20
+,,,2018-11-20,Friendly,played,Turkey,TUR,TUR,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,0,0,draw,Antalya,Turkey,FALSE,1691,1771,1690,1772,-1
+,,,2019-03-22,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Albania,,,,FALSE,2,0,win,Shkodër,Albania,FALSE,1690,1514,1714,1490,24
+,,,2019-03-25,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Moldova,,,,TRUE,4,0,win,Eskişehir,Turkey,FALSE,1714,1312,1718,1308,4
+,,,2019-05-30,Friendly,played,Turkey,TUR,TUR,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,1,win,Antalya,Turkey,FALSE,1718,1631,1723,1626,5
+,,,2019-06-02,Friendly,played,Turkey,TUR,TUR,UEFA,Uzbekistan,,,,TRUE,2,0,win,Alanya,Turkey,FALSE,1723,1620,1730,1613,7
+,,,2019-06-08,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,France,FRA,FRA,UEFA,TRUE,2,0,win,Konya,Turkey,FALSE,1730,2099,1779,2050,49
+,,,2019-06-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,2,loss,Reykjavík,Iceland,FALSE,1779,1674,1759,1694,-20
+,,,2019-09-07,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Andorra,,,,TRUE,1,0,win,Istanbul,Turkey,FALSE,1759,1065,1759,1065,0
+,,,2019-09-10,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Moldova,,,,FALSE,4,0,win,Chișinău,Moldova,FALSE,1759,1299,1767,1291,8
+,,,2019-10-11,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Albania,,,,TRUE,1,0,win,Istanbul,Turkey,FALSE,1767,1539,1772,1534,5
+,,,2019-10-14,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,France,FRA,FRA,UEFA,FALSE,1,1,draw,Paris,France,FALSE,1772,2058,1788,2042,16
+,,,2019-11-14,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,0,0,draw,Istanbul,Turkey,FALSE,1788,1655,1776,1667,-12
+,,,2019-11-17,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Andorra,,,,FALSE,2,0,win,Andorra la Vella,Andorra,FALSE,1776,1109,1778,1107,2
+,,,2020-09-03,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,1,loss,Sivas,Turkey,FALSE,1778,1618,1745,1651,-33
+,,,2020-09-06,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,0,draw,Belgrade,Serbia,FALSE,1745,1772,1752,1765,7
+,,,2020-10-07,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,3,3,draw,Cologne,Germany,FALSE,1752,1963,1759,1956,7
+,,,2020-10-11,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Russia,RUS,RUS,UEFA,FALSE,1,1,draw,Moscow,Russia,FALSE,1759,1818,1768,1809,9
+,,,2020-10-14,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1768,1758,1762,1764,-6
+,,,2020-11-11,Friendly,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,3,3,draw,Istanbul,Turkey,FALSE,1762,1897,1763,1896,1
+,,,2020-11-15,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Russia,RUS,RUS,UEFA,TRUE,3,2,win,Istanbul,Turkey,FALSE,1763,1789,1779,1773,16
+,,,2020-11-18,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,2,loss,Budapest,Hungary,FALSE,1779,1717,1752,1744,-27
+,,,2021-03-24,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,TRUE,4,2,win,Istanbul,Turkey,FALSE,1752,1994,1794,1952,42
+,,,2021-03-27,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,FALSE,3,0,win,Málaga,Spain,TRUE,1794,1766,1826,1734,32
+,,,2021-03-30,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Latvia,,,,TRUE,3,3,draw,Istanbul,Turkey,FALSE,1826,1249,1807,1268,-19
+,,,2021-05-27,Friendly,played,Turkey,TUR,TUR,UEFA,Azerbaijan,,,,TRUE,2,1,win,Alanya,Turkey,FALSE,1807,1372,1808,1371,1
+,,,2021-05-31,Friendly,played,Turkey,TUR,TUR,UEFA,Guinea,,,,TRUE,0,0,draw,Antalya,Turkey,FALSE,1808,1432,1799,1441,-9
+,,,2021-06-03,Friendly,played,Turkey,TUR,TUR,UEFA,Moldova,,,,TRUE,2,0,win,Paderborn,Germany,TRUE,1799,1208,1800,1207,1
+,,,2021-06-11,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,3,loss,Rome,Italy,FALSE,1800,2013,1788,2025,-12
+,,,2021-06-16,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,2,loss,Baku,Azerbaijan,TRUE,1788,1837,1756,1869,-32
+,,,2021-06-20,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,3,loss,Baku,Azerbaijan,TRUE,1756,1867,1730,1893,-26
+,,,2021-09-01,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Montenegro,,,,TRUE,2,2,draw,Istanbul,Turkey,FALSE,1730,1518,1716,1532,-14
+,,,2021-09-04,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Gibraltar,,,,FALSE,3,0,win,Gibraltar,Gibraltar,FALSE,1716,1078,1719,1075,3
+,,,2021-09-07,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,6,loss,Amsterdam,Netherlands,FALSE,1719,1920,1707,1932,-12
+,,,2021-10-08,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,1,draw,Istanbul,Turkey,FALSE,1707,1751,1704,1754,-3
+,,,2021-10-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Latvia,,,,FALSE,2,1,win,Riga,Latvia,FALSE,1704,1296,1710,1290,6
+,,,2021-11-13,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Gibraltar,,,,TRUE,6,0,win,Istanbul,Turkey,FALSE,1710,1065,1711,1064,1
+,,,2021-11-16,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Montenegro,,,,FALSE,2,1,win,Podgorica,Montenegro,FALSE,1711,1529,1726,1514,15
+,,,2022-03-24,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,3,loss,Porto,Portugal,FALSE,1726,1972,1719,1979,-7
+,,,2022-03-29,Friendly,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,3,loss,Konya,Turkey,FALSE,1719,1992,1714,1997,-5
+,,,2022-06-04,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Faroe Islands,,,,TRUE,4,0,win,Istanbul,Turkey,FALSE,1714,1248,1717,1245,3
+,,,2022-06-07,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Lithuania,,,,FALSE,6,0,win,Vilnius,Lithuania,FALSE,1717,1291,1728,1280,11
+,,,2022-06-11,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1728,1441,1743,1426,15
+,,,2022-06-14,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Lithuania,,,,TRUE,2,0,win,İzmir,Turkey,FALSE,1743,1263,1745,1261,2
+,,,2022-09-22,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Luxembourg,,,,TRUE,3,3,draw,Istanbul,Turkey,FALSE,1745,1413,1728,1430,-17
+,,,2022-09-25,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Faroe Islands,,,,FALSE,1,2,loss,Tórshavn,Faroe Islands,FALSE,1728,1266,1692,1302,-36
+,,,2022-11-16,Friendly,played,Turkey,TUR,TUR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Diyarbakir,Turkey,FALSE,1692,1760,1701,1751,9
+,,,2022-11-19,Friendly,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,TRUE,2,1,win,Gaziantep,Turkey,FALSE,1701,1788,1711,1778,10
+,,,2023-03-25,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Armenia,,,,FALSE,2,1,win,Yerevan,Armenia,FALSE,1711,1451,1722,1440,11
+,,,2023-03-28,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,2,loss,Bursa,Turkey,FALSE,1722,1935,1701,1956,-21
+,,,2023-06-16,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Latvia,,,,FALSE,3,2,win,Riga,Latvia,FALSE,1701,1348,1709,1340,8
+,,,2023-06-19,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,0,win,Samsun,Turkey,FALSE,1709,1679,1728,1660,19
+,,,2023-09-08,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Armenia,,,,TRUE,1,1,draw,Eskişehir,Turkey,FALSE,1728,1497,1713,1512,-15
+,,,2023-09-12,Friendly,played,Turkey,TUR,TUR,UEFA,Japan,JPN,JPN,AFC,FALSE,2,4,loss,Genk,Belgium,TRUE,1713,1880,1705,1888,-8
+,,,2023-10-12,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,0,win,Osijek,Croatia,FALSE,1705,2015,1742,1978,37
+,,,2023-10-15,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Latvia,,,,TRUE,4,0,win,Konya,Turkey,FALSE,1742,1356,1746,1352,4
+,,,2023-11-18,Friendly,played,Turkey,TUR,TUR,UEFA,Germany,GER,DEU,UEFA,FALSE,3,2,win,Berlin,Germany,FALSE,1746,1916,1763,1899,17
+,,,2023-11-21,UEFA Euro qualification,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,1,draw,Cardiff,Wales,FALSE,1763,1697,1765,1695,2
+,,,2024-03-22,Friendly,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,1,loss,Budapest,Hungary,FALSE,1765,1833,1759,1839,-6
+,,,2024-03-26,Friendly,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,6,loss,Vienna,Austria,FALSE,1759,1847,1749,1857,-10
+,,,2024-06-04,Friendly,played,Turkey,TUR,TUR,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,0,draw,Bologna,Italy,FALSE,1749,1955,1756,1948,7
+,,,2024-06-10,Friendly,played,Turkey,TUR,TUR,UEFA,Poland,POL,POL,UEFA,FALSE,1,2,loss,Warsaw,Poland,FALSE,1756,1737,1748,1745,-8
+,,,2024-06-18,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Georgia,,,,TRUE,3,1,win,Dortmund,Germany,TRUE,1748,1666,1777,1637,29
+,,,2024-06-22,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,3,loss,Dortmund,Germany,TRUE,1777,2013,1759,2031,-18
+,,,2024-06-26,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Czechia,CZE,CZE,UEFA,FALSE,2,1,win,Hamburg,Germany,TRUE,1759,1756,1784,1731,25
+,,,2024-07-02,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,1,win,Leipzig,Germany,TRUE,1784,1910,1818,1876,34
+,,,2024-07-06,UEFA Euro,played,Turkey,TUR,TUR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,2,loss,Berlin,Germany,TRUE,1818,1975,1804,1989,-14
+,,,2024-09-06,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1804,1683,1803,1684,-1
+,,,2024-09-09,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,TRUE,3,1,win,Izmir,Turkey,FALSE,1803,1582,1811,1574,8
+,,,2024-10-11,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Montenegro,,,,TRUE,1,0,win,Tekkeköy,Turkey,FALSE,1811,1516,1815,1512,4
+,,,2024-10-14,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,4,2,win,Reykjavík,Iceland,FALSE,1815,1576,1834,1557,19
+,,,2024-11-16,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,0,draw,Kayseri,Turkey,FALSE,1834,1705,1822,1717,-12
+,,,2024-11-19,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Montenegro,,,,FALSE,1,3,loss,Podgorica,Montenegro,FALSE,1822,1472,1774,1520,-48
+,,,2025-03-20,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,1,win,Istanbul,Turkey,FALSE,1774,1778,1796,1756,22
+,,,2025-03-23,UEFA Nations League,played,Turkey,TUR,TUR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,3,0,win,Budapest,Hungary,FALSE,1796,1756,1837,1715,41
+,,,2025-06-07,Friendly,played,Turkey,TUR,TUR,UEFA,United States,USA,USA,CONCACAF,FALSE,2,1,win,East Hartford,United States,FALSE,1837,1722,1847,1712,10
+,,,2025-06-10,Friendly,played,Turkey,TUR,TUR,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Chapel Hill,United States,TRUE,1847,1802,1836,1813,-11
+,,,2025-09-04,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Georgia,,,,FALSE,3,2,win,Tbilisi,Georgia,FALSE,1836,1710,1855,1691,19
+,,,2025-09-07,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,6,loss,Konya,Turkey,FALSE,1855,2159,1835,2179,-20
+,,,2025-10-11,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,6,1,win,Sofia,Bulgaria,FALSE,1835,1441,1847,1429,12
+,,,2025-10-14,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Georgia,,,,TRUE,4,1,win,Izmit,Turkey,FALSE,1847,1698,1860,1685,13
+,,,2025-11-15,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,0,win,Bursa,Turkey,FALSE,1860,1428,1863,1425,3
+,,,2025-11-18,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,2,draw,Seville,Spain,FALSE,1863,2189,1880,2172,17
+,,,2026-03-26,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,0,win,Istanbul,Turkey,FALSE,1880,1642,1885,1637,5
+,,,2026-03-31,FIFA World Cup qualification,played,Turkey,TUR,TUR,UEFA,Kosovo,,,,FALSE,1,0,win,Pristina,Kosovo,FALSE,1885,1738,1902,1721,17

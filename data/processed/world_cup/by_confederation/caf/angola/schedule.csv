@@ -1,4 +1,4 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2006 FIFA Men's World Cup,WC-2006,2006,6,2006-06-11,Group Stage,played,Angola,AGO,Portugal,PRT,TRUE,Cologne,Germany,TRUE,1565,1915
-2006 FIFA Men's World Cup,WC-2006,2006,22,2006-06-16,Group Stage,played,Angola,AGO,Mexico,MEX,FALSE,Hanover,Germany,TRUE,1558,1884
-2006 FIFA Men's World Cup,WC-2006,2006,37,2006-06-21,Group Stage,played,Angola,AGO,Iran,IRN,FALSE,Leipzig,Germany,TRUE,1580,1768
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_006,6,2006-06-11,Group Stage,played,Angola,AGO,AGO,CAF,Portugal,PRT,PRT,UEFA,TRUE,Cologne,Germany,TRUE,1565,1915
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_022,22,2006-06-16,Group Stage,played,Angola,AGO,AGO,CAF,Mexico,MEX,MEX,CONCACAF,FALSE,Hanover,Germany,TRUE,1558,1884
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_037,37,2006-06-21,Group Stage,played,Angola,AGO,AGO,CAF,Iran,IRN,IRN,AFC,FALSE,Leipzig,Germany,TRUE,1580,1768

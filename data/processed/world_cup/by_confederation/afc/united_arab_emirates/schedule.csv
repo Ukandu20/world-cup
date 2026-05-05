@@ -1,4 +1,4 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1990 FIFA Men's World Cup,WC-1990,1990,4,1990-06-09,Group Stage,played,United Arab Emirates,ARE,Colombia,COL,TRUE,Bologna,Italy,TRUE,1454,1801
-1990 FIFA Men's World Cup,WC-1990,1990,18,1990-06-15,Group Stage,played,United Arab Emirates,ARE,Germany,DEU,FALSE,Milan,Italy,TRUE,1540,1923
-1990 FIFA Men's World Cup,WC-1990,1990,30,1990-06-19,Group Stage,played,United Arab Emirates,ARE,Yugoslavia,YUG,FALSE,Bologna,Italy,TRUE,1439,1881
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_004,4,1990-06-09,Group Stage,played,United Arab Emirates,ARE,ARE,AFC,Colombia,COL,COL,CONMEBOL,TRUE,Bologna,Italy,TRUE,1454,1801
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_018,18,1990-06-15,Group Stage,played,United Arab Emirates,ARE,ARE,AFC,Germany,GER,DEU,UEFA,FALSE,Milan,Italy,TRUE,1540,1923
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_030,30,1990-06-19,Group Stage,played,United Arab Emirates,ARE,ARE,AFC,Yugoslavia,YUG,YUG,UEFA,FALSE,Bologna,Italy,TRUE,1439,1881

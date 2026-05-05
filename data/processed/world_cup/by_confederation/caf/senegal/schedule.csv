@@ -1,16 +1,16 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2002 FIFA Men's World Cup,WC-2002,2002,1,2002-05-31,Group Stage,played,Senegal,SEN,France,FRA,FALSE,Seoul,South Korea,TRUE,1698,2093
-2002 FIFA Men's World Cup,WC-2002,2002,19,2002-06-06,Group Stage,played,Senegal,SEN,Denmark,DNK,FALSE,Daegu,South Korea,TRUE,1752,1887
-2002 FIFA Men's World Cup,WC-2002,2002,36,2002-06-11,Group Stage,played,Senegal,SEN,Uruguay,URY,TRUE,Suwon,South Korea,TRUE,1763,1804
-2002 FIFA Men's World Cup,WC-2002,2002,52,2002-06-16,Round of 16,played,Senegal,SEN,Sweden,SWE,FALSE,Ōita,Japan,TRUE,1767,1899
-2002 FIFA Men's World Cup,WC-2002,2002,60,2002-06-22,Quarter-final,played,Senegal,SEN,Turkey,TUR,TRUE,Osaka,Japan,TRUE,1808,1822
-2018 FIFA Men's World Cup,WC-2018,2018,16,2018-06-19,Group Stage,played,Senegal,SEN,Poland,POL,FALSE,Moscow,Russia,TRUE,1745,1830
-2018 FIFA Men's World Cup,WC-2018,2018,31,2018-06-24,Group Stage,played,Senegal,SEN,Japan,JPN,FALSE,Ekaterinburg,Russia,TRUE,1782,1732
-2018 FIFA Men's World Cup,WC-2018,2018,46,2018-06-28,Group Stage,played,Senegal,SEN,Colombia,COL,TRUE,Samara,Russia,TRUE,1778,1919
-2022 FIFA Men's World Cup,WC-2022,2022,2,2022-11-21,Group Stage,played,Senegal,SEN,Netherlands,NLD,TRUE,Doha,Qatar,TRUE,1684,2040
-2022 FIFA Men's World Cup,WC-2022,2022,17,2022-11-25,Group Stage,played,Senegal,SEN,Qatar,QAT,FALSE,Doha,Qatar,FALSE,1674,1642
-2022 FIFA Men's World Cup,WC-2022,2022,33,2022-11-29,Group Stage,played,Senegal,SEN,Ecuador,ECU,FALSE,Al Rayyan,Qatar,TRUE,1728,1885
-2022 FIFA Men's World Cup,WC-2022,2022,52,2022-12-04,Round of 16,played,Senegal,SEN,England,ENG,FALSE,Al Khor,Qatar,TRUE,1771,1968
-2026 FIFA Men's World Cup,WC-2026,2026,17,2026-06-16,Group Stage,scheduled,Senegal,SEN,France,FRA,FALSE,East Rutherford,United States,TRUE,1879,2082
-2026 FIFA Men's World Cup,WC-2026,2026,42,2026-06-22,Group Stage,scheduled,Senegal,SEN,Norway,NOR,FALSE,East Rutherford,United States,TRUE,1879,1912
-2026 FIFA Men's World Cup,WC-2026,2026,66,2026-06-26,Group Stage,scheduled,Senegal,SEN,Iraq,IRQ,TRUE,Toronto,Canada,TRUE,1879,1607
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_001,1,2002-05-31,Group Stage,played,Senegal,SEN,SEN,CAF,France,FRA,FRA,UEFA,FALSE,Seoul,South Korea,TRUE,1698,2093
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_019,19,2002-06-06,Group Stage,played,Senegal,SEN,SEN,CAF,Denmark,DNK,DNK,UEFA,FALSE,Daegu,South Korea,TRUE,1752,1887
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_036,36,2002-06-11,Group Stage,played,Senegal,SEN,SEN,CAF,Uruguay,URY,URY,CONMEBOL,TRUE,Suwon,South Korea,TRUE,1763,1804
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_052,52,2002-06-16,Round of 16,played,Senegal,SEN,SEN,CAF,Sweden,SWE,SWE,UEFA,FALSE,Ōita,Japan,TRUE,1767,1899
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_060,60,2002-06-22,Quarter-final,played,Senegal,SEN,SEN,CAF,Turkey,TUR,TUR,UEFA,TRUE,Osaka,Japan,TRUE,1808,1822
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_016,16,2018-06-19,Group Stage,played,Senegal,SEN,SEN,CAF,Poland,POL,POL,UEFA,FALSE,Moscow,Russia,TRUE,1745,1830
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_031,31,2018-06-24,Group Stage,played,Senegal,SEN,SEN,CAF,Japan,JPN,JPN,AFC,FALSE,Ekaterinburg,Russia,TRUE,1782,1732
+2018 FIFA Men's World Cup,WC-2018,2018,WC-2018_046,46,2018-06-28,Group Stage,played,Senegal,SEN,SEN,CAF,Colombia,COL,COL,CONMEBOL,TRUE,Samara,Russia,TRUE,1778,1919
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_002,2,2022-11-21,Group Stage,played,Senegal,SEN,SEN,CAF,Netherlands,NED,NLD,UEFA,TRUE,Doha,Qatar,TRUE,1684,2040
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_017,17,2022-11-25,Group Stage,played,Senegal,SEN,SEN,CAF,Qatar,QAT,QAT,AFC,FALSE,Doha,Qatar,FALSE,1674,1642
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_033,33,2022-11-29,Group Stage,played,Senegal,SEN,SEN,CAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,Al Rayyan,Qatar,TRUE,1728,1885
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_052,52,2022-12-04,Round of 16,played,Senegal,SEN,SEN,CAF,England,ENG,ENG,UEFA,FALSE,Al Khor,Qatar,TRUE,1771,1968
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_017,17,2026-06-16,Group Stage,scheduled,Senegal,SEN,SEN,CAF,France,FRA,FRA,UEFA,FALSE,East Rutherford,United States,TRUE,1879,2082
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_042,42,2026-06-22,Group Stage,scheduled,Senegal,SEN,SEN,CAF,Norway,NOR,NOR,UEFA,FALSE,East Rutherford,United States,TRUE,1879,1912
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_066,66,2026-06-26,Group Stage,scheduled,Senegal,SEN,SEN,CAF,Iraq,IRQ,IRQ,AFC,TRUE,Toronto,Canada,TRUE,1879,1607

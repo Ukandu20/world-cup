@@ -1,653 +1,653 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1960-06-05,Friendly,played,Iraq,IRQ,Tunisia,TUN,FALSE,1,2,loss,Tunis,Tunisia,FALSE,1678,1566,1668,1576,-10
-1960-12-23,Friendly,played,Iraq,IRQ,Tunisia,TUN,TRUE,3,2,win,Baghdad,Iraq,FALSE,1668,1499,1672,1495,4
-1964-11-13,Arab Cup,played,Iraq,IRQ,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1622,1197,1627,1192,5
-1964-11-16,Arab Cup,played,Iraq,IRQ,Lebanon,,TRUE,1,0,win,Kuwait City,Kuwait,TRUE,,,,,
-1964-11-17,Arab Cup,played,Iraq,IRQ,Libya,,TRUE,1,1,draw,Kuwait City,Kuwait,TRUE,,,,,
-1965-07-30,Friendly,played,Iraq,IRQ,Jordan,,FALSE,0,0,draw,Amman,Jordan,FALSE,1629,1100,1621,1108,-8
-1966-03-14,Friendly,played,Iraq,IRQ,Libya,,FALSE,2,0,win,Tripoli,Libya,FALSE,,,,,
-1966-03-18,Friendly,played,Iraq,IRQ,Morocco,MAR,TRUE,0,1,loss,Tripoli,Libya,TRUE,,,,,
-1966-03-19,Friendly,played,Iraq,IRQ,Morocco,MAR,TRUE,1,2,loss,Tripoli,Libya,TRUE,1629,1649,1615,1663,-14
-1966-04-01,Arab Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,3,1,win,Baghdad,Iraq,FALSE,1615,1190,1618,1187,3
-1966-04-02,Arab Cup,played,Iraq,IRQ,Jordan,,TRUE,2,1,win,Baghdad,Iraq,FALSE,1618,1108,1619,1107,1
-1966-04-05,Arab Cup,played,Iraq,IRQ,Bahrain,,TRUE,10,1,win,Baghdad,Iraq,FALSE,1619,1179,1623,1175,4
-1966-04-07,Arab Cup,played,Iraq,IRQ,Lebanon,,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1623,1416,1609,1430,-14
-1966-04-09,Arab Cup,played,Iraq,IRQ,Libya,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1609,1485,1622,1472,13
-1966-04-10,Arab Cup,played,Iraq,IRQ,Syria,,TRUE,2,1,win,Baghdad,Iraq,FALSE,1622,1430,1628,1424,6
-1967-02-12,Friendly,played,Iraq,IRQ,German DR,DDR,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1628,1831,1631,1828,3
-1967-03-10,Friendly,played,Iraq,IRQ,Sudan,,TRUE,2,2,draw,Tripoli,Libya,TRUE,1631,1649,1632,1648,1
-1967-03-12,Friendly,played,Iraq,IRQ,Libya,,FALSE,1,0,win,Tripoli,Libya,FALSE,1632,1472,1644,1460,12
-1969-03-07,Friendly,played,Iraq,IRQ,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,1610,1635,1600,1645,-10
-1969-03-10,Friendly,played,Iraq,IRQ,Pakistan,,TRUE,1,2,loss,Tehran,Iran,TRUE,1600,1285,1574,1311,-26
-1969-11-18,Friendly,played,Iraq,IRQ,Poland,POL,TRUE,1,1,draw,Baghdad,Iraq,FALSE,,,,,
-1969-12-08,Friendly,played,Iraq,IRQ,German DR,DDR,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1558,1874,1564,1868,6
-1970-07-22,Friendly,played,Iraq,IRQ,Poland,POL,FALSE,0,2,loss,Szczecin,Poland,FALSE,1557,1797,1553,1801,-4
-1970-07-26,Friendly,played,Iraq,IRQ,German DR,DDR,FALSE,0,5,loss,Jena,German DR,FALSE,1553,1889,1550,1892,-3
-1971-01-28,Friendly,played,Iraq,IRQ,Kuwait,KWT,FALSE,2,0,win,Kuwait City,Kuwait,FALSE,1550,1346,1554,1342,4
-1971-11-19,Friendly,played,Iraq,IRQ,Kuwait,KWT,TRUE,3,1,win,Baghdad,Iraq,FALSE,1581,1342,1585,1338,4
-1971-12-10,AFC Asian Cup qualification,played,Iraq,IRQ,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1572,1332,1564,1340,-8
-1971-12-13,AFC Asian Cup qualification,played,Iraq,IRQ,Sri Lanka,,TRUE,5,0,win,Kuwait City,Kuwait,TRUE,1564,1033,1568,1029,4
-1971-12-15,AFC Asian Cup qualification,played,Iraq,IRQ,Bahrain,,TRUE,1,0,win,Kuwait City,Kuwait,TRUE,1568,1132,1571,1129,3
-1971-12-18,AFC Asian Cup qualification,played,Iraq,IRQ,Jordan,,TRUE,2,0,win,Kuwait City,Kuwait,TRUE,1571,1157,1576,1152,5
-1971-12-22,AFC Asian Cup qualification,played,Iraq,IRQ,Lebanon,,TRUE,4,1,win,Kuwait City,Kuwait,TRUE,1576,1358,1592,1342,16
-1971-12-24,AFC Asian Cup qualification,played,Iraq,IRQ,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1592,1360,1605,1347,13
-1972-01-01,Palestine Cup,played,Iraq,IRQ,Egypt,EGY,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1605,1690,1604,1691,-1
-1972-01-05,Palestine Cup,played,Iraq,IRQ,Libya,,TRUE,3,0,win,Baghdad,Iraq,FALSE,1604,1452,1617,1439,13
-1972-01-07,Palestine Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,3,1,win,Baghdad,Iraq,FALSE,1617,1366,1624,1359,7
-1972-01-12,Palestine Cup,played,Iraq,IRQ,Algeria,DZA,TRUE,3,1,win,Baghdad,Iraq,FALSE,1624,1563,1641,1546,17
-1972-01-14,Palestine Cup,played,Iraq,IRQ,Egypt,EGY,TRUE,1,3,loss,Baghdad,Iraq,FALSE,1641,1697,1607,1731,-34
-1972-05-07,AFC Asian Cup,played,Iraq,IRQ,South Korea,KOR,FALSE,0,0,draw,Bangkok,Thailand,TRUE,1607,1597,1606,1598,-1
-1972-05-09,AFC Asian Cup,played,Iraq,IRQ,Iran,IRN,FALSE,0,3,loss,Bangkok,Thailand,TRUE,1606,1649,1568,1687,-38
-1972-05-11,AFC Asian Cup,played,Iraq,IRQ,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1568,1211,1552,1227,-16
-1973-03-11,FIFA World Cup qualification,played,Iraq,IRQ,Australia,AUS,FALSE,1,3,loss,Sydney,Australia,FALSE,1552,1675,1539,1688,-13
-1973-03-13,FIFA World Cup qualification,played,Iraq,IRQ,New Zealand,NZL,TRUE,2,0,win,Sydney,Australia,TRUE,1539,1500,1566,1473,27
-1973-03-16,FIFA World Cup qualification,played,Iraq,IRQ,Indonesia,IDN,TRUE,1,1,draw,Sydney,Australia,TRUE,1566,1401,1557,1410,-9
-1973-03-18,FIFA World Cup qualification,played,Iraq,IRQ,Australia,AUS,FALSE,0,0,draw,Melbourne,Australia,FALSE,1557,1677,1568,1666,11
-1973-03-21,FIFA World Cup qualification,played,Iraq,IRQ,Indonesia,IDN,TRUE,3,2,win,Sydney,Australia,TRUE,1568,1434,1581,1421,13
-1973-03-24,FIFA World Cup qualification,played,Iraq,IRQ,New Zealand,NZL,TRUE,4,0,win,Sydney,Australia,TRUE,1581,1464,1606,1439,25
-1973-08-13,Palestine Cup,played,Iraq,IRQ,Yemen,,TRUE,2,0,win,Benghazi,Libya,TRUE,,,,,
-1973-08-15,Palestine Cup,played,Iraq,IRQ,Algeria,DZA,FALSE,0,0,draw,Benghazi,Libya,TRUE,1607,1535,1603,1539,-4
-1973-08-18,Palestine Cup,played,Iraq,IRQ,Libya,,FALSE,0,0,draw,Benghazi,Libya,FALSE,1603,1417,1598,1422,-5
-1973-08-20,Palestine Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,3,1,win,Benghazi,Libya,TRUE,1598,1065,1601,1062,3
-1973-08-23,Palestine Cup,played,Iraq,IRQ,Tunisia,TUN,TRUE,0,2,loss,Tripoli,Libya,TRUE,1601,1663,1576,1688,-25
-1973-08-25,Palestine Cup,played,Iraq,IRQ,Algeria,DZA,FALSE,0,0,draw,Tripoli,Libya,TRUE,1576,1566,1575,1567,-1
-1974-02-22,Friendly,played,Iraq,IRQ,Morocco,MAR,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1575,1630,1574,1631,-1
-1974-02-24,Friendly,played,Iraq,IRQ,Morocco,MAR,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1574,1631,1573,1632,-1
-1974-05-02,Friendly,played,Iraq,IRQ,Yemen DPR,,FALSE,0,2,loss,Aden,Yemen DPR,FALSE,,,,,
-1974-06-02,Friendly,played,Iraq,IRQ,Tunisia,TUN,FALSE,1,2,loss,Tunis,Tunisia,FALSE,1548,1701,1544,1705,-4
-1974-06-07,Friendly,played,Iraq,IRQ,Libya,,FALSE,0,1,loss,Tripoli,Libya,FALSE,1544,1384,1532,1396,-12
-1974-08-14,Friendly,played,Iraq,IRQ,Bahrain,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1532,1120,1534,1118,2
-1974-09-02,Asian Games,played,Iraq,IRQ,India,,FALSE,3,0,win,Tehran,Iran,TRUE,1534,1366,1553,1347,19
-1974-09-04,Asian Games,played,Iraq,IRQ,North Korea,PRK,FALSE,1,0,win,Tehran,Iran,TRUE,1553,1633,1578,1608,25
-1974-09-06,Asian Games,played,Iraq,IRQ,China PR,,FALSE,1,0,win,Tehran,Iran,TRUE,,,,,
-1974-09-09,Asian Games,played,Iraq,IRQ,South Korea,KOR,TRUE,1,1,draw,Tehran,Iran,TRUE,1601,1576,1600,1577,-1
-1974-09-11,Asian Games,played,Iraq,IRQ,Malaysia,,FALSE,0,0,draw,Tehran,Iran,TRUE,1600,1444,1592,1452,-8
-1974-09-13,Asian Games,played,Iraq,IRQ,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1592,1644,1580,1656,-12
-1975-01-01,Friendly,played,Iraq,IRQ,Tunisia,TUN,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1580,1631,1579,1632,-1
-1975-01-09,Friendly,played,Iraq,IRQ,Libya,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1579,1395,1584,1390,5
-1975-04-02,AFC Asian Cup qualification,played,Iraq,IRQ,Qatar,QAT,TRUE,1,0,win,Baghdad,Iraq,FALSE,,,,,
-1975-04-04,AFC Asian Cup qualification,played,Iraq,IRQ,Afghanistan,,TRUE,4,0,win,Baghdad,Iraq,FALSE,,,,,
-1975-04-06,AFC Asian Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,1,1,draw,Baghdad,Iraq,FALSE,,,,,
-1975-04-10,AFC Asian Cup qualification,played,Iraq,IRQ,Qatar,QAT,TRUE,3,0,win,Baghdad,Iraq,FALSE,,,,,
-1975-04-12,AFC Asian Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,2,1,win,Baghdad,Iraq,FALSE,,,,,
-1975-04-14,AFC Asian Cup qualification,played,Iraq,IRQ,Afghanistan,,TRUE,3,1,win,Baghdad,Iraq,FALSE,,,,,
-1975-12-21,Palestine Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,5,0,win,Tunis,Tunisia,TRUE,1547,1083,1552,1078,5
-1975-12-23,Palestine Cup,played,Iraq,IRQ,Tunisia,TUN,FALSE,1,1,draw,Tunis,Tunisia,FALSE,1552,1603,1560,1595,8
-1975-12-26,Palestine Cup,played,Iraq,IRQ,Syria,,TRUE,4,0,win,Tunis,Tunisia,TRUE,,,,,
-1975-12-28,Palestine Cup,played,Iraq,IRQ,Egypt,EGY,FALSE,0,1,loss,Tunis,Tunisia,TRUE,1594,1690,1579,1705,-15
-1976-02-08,Friendly,played,Iraq,IRQ,Turkey,TUR,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1579,1667,1579,1667,0
-1976-02-17,Friendly,played,Iraq,IRQ,German DR,DDR,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1579,1905,1585,1899,6
-1976-03-27,Gulf Cup,played,Iraq,IRQ,Oman,,TRUE,4,0,win,Doha,Qatar,TRUE,1585,841,1586,840,1
-1976-03-29,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,4,1,win,Doha,Qatar,TRUE,1586,1097,1590,1093,4
-1976-04-01,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,7,1,win,Doha,Qatar,TRUE,1590,1305,1604,1291,14
-1976-04-03,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,FALSE,0,0,draw,Doha,Qatar,FALSE,1604,1069,1587,1086,-17
-1976-04-06,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,4,0,win,Doha,Qatar,TRUE,1587,1043,1590,1040,3
-1976-04-08,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,2,2,draw,Doha,Qatar,TRUE,1590,1575,1589,1576,-1
-1976-04-15,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,2,4,loss,Doha,Qatar,TRUE,1589,1585,1559,1615,-30
-1976-06-04,AFC Asian Cup,played,Iraq,IRQ,Iran,IRN,FALSE,0,2,loss,Tehran,Iran,FALSE,1559,1667,1542,1684,-17
-1976-06-06,AFC Asian Cup,played,Iraq,IRQ,Yemen DPR,,TRUE,1,0,win,Tehran,Iran,TRUE,,,,,
-1976-06-11,AFC Asian Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,2,3,loss,Tehran,Iran,TRUE,1549,1651,1531,1669,-18
-1976-06-13,AFC Asian Cup,played,Iraq,IRQ,China PR,,FALSE,0,1,loss,Tehran,Iran,TRUE,,,,,
-1976-09-05,Friendly,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1505,1256,1501,1260,-4
-1976-10-20,Friendly,played,Iraq,IRQ,Libya,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1501,1390,1506,1385,5
-1976-10-22,Friendly,played,Iraq,IRQ,Libya,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1506,1385,1513,1378,7
-1977-01-25,Friendly,played,Iraq,IRQ,Uganda,,FALSE,1,1,draw,Kampala,Uganda,FALSE,1513,1527,1516,1524,3
-1977-07-19,Merdeka Tournament,played,Iraq,IRQ,Libya,,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1516,1359,1510,1365,-6
-1977-07-21,Merdeka Tournament,played,Iraq,IRQ,Myanmar,,FALSE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1510,1474,1534,1450,24
-1977-07-23,Merdeka Tournament,played,Iraq,IRQ,Malaysia,,FALSE,0,0,draw,Kuala Lumpur,Malaysia,FALSE,1534,1483,1536,1481,2
-1977-07-25,Merdeka Tournament,played,Iraq,IRQ,Thailand,,TRUE,5,0,win,Kuala Lumpur,Malaysia,TRUE,1536,1290,1548,1278,12
-1977-07-28,Merdeka Tournament,played,Iraq,IRQ,South Korea,KOR,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1548,1698,1554,1692,6
-1977-07-31,Merdeka Tournament,played,Iraq,IRQ,South Korea,KOR,TRUE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1554,1692,1545,1701,-9
-1977-11-27,Friendly,played,Iraq,IRQ,Morocco,MAR,TRUE,3,0,win,Baghdad,Iraq,FALSE,,,,,
-1977-12-03,Friendly,played,Iraq,IRQ,Morocco,MAR,FALSE,0,0,draw,Casablanca,Morocco,FALSE,,,,,
-1978-02-21,Friendly,played,Iraq,IRQ,Algeria,DZA,TRUE,3,0,win,Baghdad,Iraq,FALSE,1569,1525,1580,1514,11
-1978-02-23,Friendly,played,Iraq,IRQ,Algeria,DZA,TRUE,1,0,win,Baghdad,Iraq,FALSE,1580,1514,1586,1508,6
-1978-02-27,Friendly,played,Iraq,IRQ,North Korea,PRK,TRUE,1,0,win,Baghdad,Iraq,FALSE,1586,1607,1594,1599,8
-1978-07-02,Friendly,played,Iraq,IRQ,Algeria,DZA,FALSE,1,1,draw,Algiers,Algeria,FALSE,1594,1500,1594,1500,0
-1978-07-04,Friendly,played,Iraq,IRQ,Algeria,DZA,FALSE,0,0,draw,Algiers,Algeria,FALSE,1594,1500,1594,1500,0
-1978-07-13,Merdeka Tournament,played,Iraq,IRQ,Japan,JPN,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1594,1458,1588,1464,-6
-1978-07-15,Merdeka Tournament,played,Iraq,IRQ,Syria,,TRUE,2,1,win,Kuala Lumpur,Malaysia,TRUE,1588,1342,1594,1336,6
-1978-07-17,Merdeka Tournament,played,Iraq,IRQ,Indonesia,IDN,FALSE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1594,1382,1607,1369,13
-1978-07-18,Merdeka Tournament,played,Iraq,IRQ,Malaysia,,FALSE,2,1,win,Kuala Lumpur,Malaysia,FALSE,,,,,
-1978-07-20,Merdeka Tournament,played,Iraq,IRQ,Singapore,,TRUE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1607,1137,1610,1134,3
-1978-07-22,Merdeka Tournament,played,Iraq,IRQ,South Korea,KOR,TRUE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1610,1756,1596,1770,-14
-1978-07-24,Merdeka Tournament,played,Iraq,IRQ,Thailand,,TRUE,1,0,win,Kuala Lumpur,Malaysia,TRUE,1596,1347,1602,1341,6
-1978-07-29,Merdeka Tournament,played,Iraq,IRQ,South Korea,KOR,TRUE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1616,1775,1603,1788,-13
-1978-12-10,Asian Games,played,Iraq,IRQ,Qatar,QAT,TRUE,2,1,win,Bangkok,Thailand,TRUE,1603,1097,1605,1095,2
-1978-12-12,Asian Games,played,Iraq,IRQ,China PR,,FALSE,2,0,win,Bangkok,Thailand,TRUE,,,,,
-1978-12-14,Asian Games,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1636,1351,1622,1365,-14
-1978-12-17,Asian Games,played,Iraq,IRQ,North Korea,PRK,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1622,1638,1603,1657,-19
-1978-12-18,Asian Games,played,Iraq,IRQ,Kuwait,KWT,TRUE,3,0,win,Bangkok,Thailand,TRUE,1603,1682,1646,1639,43
-1978-12-19,Asian Games,played,Iraq,IRQ,India,,FALSE,3,0,win,Bangkok,Thailand,TRUE,1646,1236,1652,1230,6
-1978-12-20,Asian Games,played,Iraq,IRQ,China PR,,TRUE,0,1,loss,Bangkok,Thailand,TRUE,,,,,
-1979-02-05,Friendly,played,Iraq,IRQ,Finland,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1630,1491,1634,1487,4
-1979-02-07,Friendly,played,Iraq,IRQ,Finland,,TRUE,2,0,win,Baghdad,Iraq,FALSE,1634,1487,1640,1481,6
-1979-02-09,Friendly,played,Iraq,IRQ,German DR,DDR,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1640,1936,1645,1931,5
-1979-02-11,Friendly,played,Iraq,IRQ,German DR,DDR,TRUE,2,1,win,Baghdad,Iraq,FALSE,1645,1931,1660,1916,15
-1979-03-23,Gulf Cup,played,Iraq,IRQ,Bahrain,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1660,1104,1662,1102,2
-1979-03-27,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,TRUE,2,0,win,Baghdad,Iraq,FALSE,,,,,
-1979-03-30,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,3,1,win,Baghdad,Iraq,FALSE,,,,,
-1979-04-04,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,5,0,win,Baghdad,Iraq,FALSE,,,,,
-1979-04-06,Gulf Cup,played,Iraq,IRQ,Oman,,TRUE,7,0,win,Baghdad,Iraq,FALSE,,,,,
-1979-04-08,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,2,0,win,Baghdad,Iraq,FALSE,1685,1396,1691,1390,6
-1980-02-27,Friendly,played,Iraq,IRQ,Poland,POL,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1691,1959,1695,1955,4
-1980-02-29,Friendly,played,Iraq,IRQ,Poland,POL,TRUE,1,0,win,Baghdad,Iraq,FALSE,1695,1955,1709,1941,14
-1980-06-22,Friendly,played,Iraq,IRQ,Poland,POL,FALSE,0,3,loss,Warsaw,Poland,FALSE,1677,1916,1673,1920,-4
-1981-02-06,Friendly,played,Iraq,IRQ,Jordan,,FALSE,2,0,win,Amman,Jordan,FALSE,1717,1142,1719,1140,2
-1981-02-08,Friendly,played,Iraq,IRQ,Jordan,,FALSE,2,0,win,Amman,Jordan,FALSE,1719,1140,1721,1138,2
-1981-03-08,Friendly,played,Iraq,IRQ,Morocco,MAR,FALSE,1,1,draw,Rabat,Morocco,FALSE,1721,1641,1722,1640,1
-1981-03-18,FIFA World Cup qualification,played,Iraq,IRQ,Qatar,QAT,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1722,1181,1724,1179,2
-1981-03-21,FIFA World Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1724,1427,1694,1457,-30
-1981-03-25,FIFA World Cup qualification,played,Iraq,IRQ,Bahrain,,TRUE,2,0,win,Riyadh,Saudi Arabia,TRUE,1694,1174,1697,1171,3
-1981-03-30,FIFA World Cup qualification,played,Iraq,IRQ,Syria,,TRUE,2,1,win,Riyadh,Saudi Arabia,TRUE,1697,1282,1700,1279,3
-1981-08-22,Friendly,played,Iraq,IRQ,Ghana,GHA,TRUE,4,0,win,Baghdad,Iraq,FALSE,,,,,
-1981-08-24,Friendly,played,Iraq,IRQ,Ghana,GHA,TRUE,2,2,draw,Baghdad,Iraq,FALSE,,,,,
-1981-09-10,Merdeka Tournament,played,Iraq,IRQ,Thailand,,TRUE,7,1,win,Kuala Lumpur,Malaysia,TRUE,1699,1410,1709,1400,10
-1981-09-13,Merdeka Tournament,played,Iraq,IRQ,South Korea,KOR,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1709,1716,1709,1716,0
-1981-09-16,Merdeka Tournament,played,Iraq,IRQ,Singapore,,TRUE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1709,1283,1713,1279,4
-1981-09-18,Merdeka Tournament,played,Iraq,IRQ,Japan,JPN,TRUE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1713,1495,1723,1485,10
-1982-03-02,Friendly,played,Iraq,IRQ,German DR,DDR,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1725,1913,1727,1911,2
-1982-03-07,Friendly,played,Iraq,IRQ,South Korea,KOR,TRUE,3,0,win,Baghdad,Iraq,FALSE,1729,1673,1739,1663,10
-1982-03-10,Friendly,played,Iraq,IRQ,South Korea,KOR,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1739,1663,1734,1668,-5
-1982-11-21,Asian Games,played,Iraq,IRQ,Myanmar,,TRUE,4,0,win,New Delhi,India,TRUE,1716,1348,1724,1340,8
-1982-11-23,Asian Games,played,Iraq,IRQ,Nepal,,TRUE,3,0,win,New Delhi,India,TRUE,1724,935,1725,934,1
-1982-11-25,Asian Games,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,2,loss,New Delhi,India,TRUE,1725,1648,1701,1672,-24
-1982-11-28,Asian Games,played,Iraq,IRQ,Japan,JPN,FALSE,1,0,win,New Delhi,India,TRUE,1701,1545,1713,1533,12
-1982-12-01,Asian Games,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,1,0,win,New Delhi,India,TRUE,1713,1442,1720,1435,7
-1982-12-03,Asian Games,played,Iraq,IRQ,Kuwait,KWT,FALSE,1,0,win,New Delhi,India,TRUE,1720,1710,1739,1691,19
-1983-04-28,Friendly,played,Iraq,IRQ,Egypt,EGY,TRUE,2,1,win,Baghdad,Iraq,FALSE,,,,,
-1984-02-27,Friendly,played,Iraq,IRQ,Egypt,EGY,FALSE,2,1,win,Cairo,Egypt,FALSE,1674,1653,1686,1641,12
-1984-02-29,Friendly,played,Iraq,IRQ,Egypt,EGY,FALSE,0,0,draw,Cairo,Egypt,FALSE,1686,1641,1688,1639,2
-1984-03-11,Gulf Cup,played,Iraq,IRQ,Oman,,FALSE,2,1,win,Muscat,Oman,FALSE,1688,819,1688,819,0
-1984-03-15,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,0,0,draw,Muscat,Oman,TRUE,1688,1271,1671,1288,-17
-1984-03-17,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,4,0,win,Muscat,Oman,TRUE,1671,1495,1691,1475,20
-1984-03-20,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,1,0,win,Muscat,Oman,TRUE,1691,1267,1694,1264,3
-1984-03-22,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,3,1,win,Muscat,Oman,TRUE,1694,1530,1711,1513,17
-1984-03-25,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,TRUE,1,2,loss,Muscat,Oman,TRUE,1711,1364,1676,1399,-35
-1984-03-28,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,TRUE,1,1,draw,Muscat,Oman,TRUE,1676,1399,1663,1412,-13
-1985-03-29,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,FALSE,3,2,win,Amman,Jordan,FALSE,1623,1179,1628,1174,5
-1985-04-05,FIFA World Cup qualification,played,Iraq,IRQ,Qatar,QAT,FALSE,0,3,loss,Doha,Qatar,FALSE,1628,1510,1591,1547,-37
-1985-04-19,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,TRUE,2,0,win,Kuwait City,Kuwait,TRUE,1591,1165,1596,1160,5
-1985-05-05,FIFA World Cup qualification,played,Iraq,IRQ,Qatar,QAT,TRUE,2,1,win,Calcutta,India,TRUE,1596,1551,1613,1534,17
-1985-06-09,Korea Cup,played,Iraq,IRQ,Canada,CAN,FALSE,6,1,win,Gwangju,South Korea,TRUE,1613,1669,1648,1634,35
-1985-06-15,Korea Cup,played,Iraq,IRQ,South Korea,KOR,FALSE,0,2,loss,Seoul,South Korea,FALSE,1648,1540,1625,1563,-23
-1985-07-04,Arab Cup,played,Iraq,IRQ,Bahrain,,FALSE,1,1,draw,Taif,Saudi Arabia,TRUE,1625,1354,1612,1367,-13
-1985-07-08,Arab Cup,played,Iraq,IRQ,Mauritania,,TRUE,2,0,win,Taif,Saudi Arabia,TRUE,1612,1105,1615,1102,3
-1985-07-10,Arab Cup,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,3,2,win,Taif,Saudi Arabia,FALSE,1615,1596,1640,1571,25
-1985-07-12,Arab Cup,played,Iraq,IRQ,Bahrain,,FALSE,1,0,win,Taif,Saudi Arabia,TRUE,1640,1386,1648,1378,8
-1985-09-20,FIFA World Cup qualification,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,3,2,win,Dubai,United Arab Emirates,FALSE,1694,1349,1702,1341,8
-1985-09-27,FIFA World Cup qualification,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,1,2,loss,Taif,Saudi Arabia,TRUE,1702,1341,1666,1377,-36
-1985-11-15,FIFA World Cup qualification,played,Iraq,IRQ,Syria,,FALSE,0,0,draw,Damascus,Syria,FALSE,1669,1374,1659,1384,-10
-1985-11-29,FIFA World Cup qualification,played,Iraq,IRQ,Syria,,TRUE,3,1,win,Taif,Saudi Arabia,TRUE,1659,1390,1670,1379,11
-1986-03-14,Friendly,played,Iraq,IRQ,Romania,ROU,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1670,1797,1671,1796,1
-1986-03-22,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,0,0,draw,Riffa,Bahrain,FALSE,1672,1335,1660,1347,-12
-1986-03-24,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,2,2,draw,Riffa,Bahrain,TRUE,1660,1384,1647,1397,-13
-1986-03-27,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,FALSE,1,1,draw,Riffa,Bahrain,TRUE,1647,1510,1639,1518,-8
-1986-03-30,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,1,2,loss,Riffa,Bahrain,TRUE,1639,1531,1613,1557,-26
-1986-04-03,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,2,loss,Riffa,Bahrain,TRUE,1613,1575,1591,1597,-22
-1986-04-06,Gulf Cup,played,Iraq,IRQ,Oman,,FALSE,3,2,win,Riffa,Bahrain,TRUE,1591,913,1592,912,1
-1986-06-04,FIFA World Cup,played,Iraq,IRQ,Paraguay,PRY,FALSE,0,1,loss,Toluca,Mexico,TRUE,1592,1812,1579,1825,-13
-1986-06-08,FIFA World Cup,played,Iraq,IRQ,Belgium,BEL,TRUE,1,2,loss,Toluca,Mexico,TRUE,1579,1804,1566,1817,-13
-1986-06-11,FIFA World Cup,played,Iraq,IRQ,Mexico,MEX,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1566,1850,1560,1856,-6
-1986-09-21,Asian Games,played,Iraq,IRQ,Oman,,TRUE,4,0,win,Daegu,South Korea,TRUE,1560,942,1562,940,2
-1986-09-23,Asian Games,played,Iraq,IRQ,Pakistan,,FALSE,5,1,win,Daegu,South Korea,TRUE,1562,1100,1567,1095,5
-1986-09-25,Asian Games,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,1,2,loss,Daegu,South Korea,TRUE,1567,1457,1541,1483,-26
-1986-09-27,Asian Games,played,Iraq,IRQ,Thailand,,FALSE,2,1,win,Daegu,South Korea,TRUE,1541,1212,1546,1207,5
-1986-10-01,Asian Games,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,1,1,draw,Seoul,South Korea,TRUE,1546,1585,1548,1583,2
-1987-02-21,Friendly,played,Iraq,IRQ,Kuwait,KWT,FALSE,0,2,loss,Kuwait City,Kuwait,FALSE,1548,1652,1541,1659,-7
-1987-04-08,Friendly,played,Iraq,IRQ,Bahrain,,FALSE,3,1,win,Manama,Bahrain,FALSE,1536,1302,1545,1293,9
-1987-04-10,Friendly,played,Iraq,IRQ,Bahrain,,FALSE,2,1,win,Manama,Bahrain,FALSE,1545,1293,1551,1287,6
-1988-02-25,Friendly,played,Iraq,IRQ,Tunisia,TUN,TRUE,2,0,win,Baghdad,Iraq,FALSE,1648,1479,1660,1467,12
-1988-03-04,Gulf Cup,played,Iraq,IRQ,Oman,,TRUE,1,1,draw,Riyadh,Saudi Arabia,TRUE,1660,1045,1641,1064,-19
-1988-03-08,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1641,1564,1657,1548,16
-1988-03-10,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1657,1458,1647,1468,-10
-1988-03-13,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,FALSE,3,0,win,Riyadh,Saudi Arabia,TRUE,1647,1442,1663,1426,16
-1988-03-16,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,2,0,win,Riyadh,Saudi Arabia,FALSE,1663,1516,1689,1490,26
-1988-03-18,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1689,1321,1693,1317,4
-1988-07-09,Arab Cup,played,Iraq,IRQ,Tunisia,TUN,TRUE,1,1,draw,Amman,Jordan,TRUE,1693,1461,1681,1473,-12
-1988-07-11,Arab Cup,played,Iraq,IRQ,Lebanon,,TRUE,0,0,draw,Amman,Jordan,TRUE,1681,1234,1664,1251,-17
-1988-07-17,Arab Cup,played,Iraq,IRQ,Egypt,EGY,FALSE,0,0,draw,Amman,Jordan,TRUE,1678,1671,1678,1671,0
-1988-07-19,Arab Cup,played,Iraq,IRQ,Jordan,,FALSE,3,0,win,Amman,Jordan,FALSE,1678,1321,1691,1308,13
-1988-07-21,Arab Cup,played,Iraq,IRQ,Syria,,TRUE,1,1,draw,Amman,Jordan,TRUE,1691,1502,1681,1512,-10
-1989-01-06,FIFA World Cup qualification,played,Iraq,IRQ,Oman,,FALSE,1,1,draw,Muscat,Oman,FALSE,1707,1061,1689,1079,-18
-1989-01-13,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,1689,1281,1695,1275,6
-1989-01-20,FIFA World Cup qualification,played,Iraq,IRQ,Qatar,QAT,FALSE,0,1,loss,Doha,Qatar,FALSE,1695,1441,1667,1469,-28
-1989-01-27,FIFA World Cup qualification,played,Iraq,IRQ,Oman,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1667,1082,1668,1081,1
-1989-02-03,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1668,1290,1672,1286,4
-1989-02-10,FIFA World Cup qualification,played,Iraq,IRQ,Qatar,QAT,TRUE,2,2,draw,Baghdad,Iraq,FALSE,1672,1468,1658,1482,-14
-1989-10-15,Friendly,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,0,win,Baghdad,Iraq,FALSE,1658,1499,1662,1495,4
-1989-10-31,Friendly,played,Iraq,IRQ,Guinea,,FALSE,0,1,loss,Kuwait City,Kuwait,TRUE,1662,1433,1638,1457,-24
-1989-11-03,Friendly,played,Iraq,IRQ,Yemen DPR,,TRUE,6,2,win,Kuwait City,Kuwait,TRUE,,,,,
-1989-11-05,Friendly,played,Iraq,IRQ,Iran,IRN,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1641,1603,1639,1605,-2
-1989-11-08,Friendly,played,Iraq,IRQ,Kuwait,KWT,FALSE,2,1,win,Kuwait City,Kuwait,FALSE,1639,1501,1652,1488,13
-1989-11-12,Friendly,played,Iraq,IRQ,Uganda,,TRUE,1,1,draw,Kuwait City,Kuwait,TRUE,1652,1496,1646,1502,-6
-1990-02-15,Friendly,played,Iraq,IRQ,South Korea,KOR,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1646,1744,1646,1744,0
-1990-06-01,Friendly,played,Iraq,IRQ,Jordan,,FALSE,2,0,win,Amman,Jordan,FALSE,,,,,
-1992-08-18,Jordan International Tournament,played,Iraq,IRQ,Ethiopia,,FALSE,13,0,win,Irbid,Jordan,TRUE,1646,1453,1668,1431,22
-1992-08-20,Jordan International Tournament,played,Iraq,IRQ,Congo,,FALSE,3,0,win,Irbid,Jordan,TRUE,1668,1474,1681,1461,13
-1992-08-26,Jordan International Tournament,played,Iraq,IRQ,Moldova,,TRUE,1,0,win,Irbid,Jordan,TRUE,1681,1483,1688,1476,7
-1992-08-28,Jordan International Tournament,played,Iraq,IRQ,Jordan,,FALSE,0,2,loss,Amman,Jordan,FALSE,1688,1366,1653,1401,-35
-1993-04-25,Friendly,played,Iraq,IRQ,South Korea,KOR,FALSE,1,1,draw,Changwon,South Korea,FALSE,1653,1644,1656,1641,3
-1993-04-28,Friendly,played,Iraq,IRQ,South Korea,KOR,FALSE,2,2,draw,Ulsan,South Korea,FALSE,1656,1641,1658,1639,2
-1993-05-24,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,FALSE,1,1,draw,Irbid,Jordan,FALSE,1658,1393,1649,1402,-9
-1993-05-26,FIFA World Cup qualification,played,Iraq,IRQ,Yemen,,FALSE,6,1,win,Irbid,Jordan,TRUE,1649,1209,1655,1203,6
-1993-05-28,FIFA World Cup qualification,played,Iraq,IRQ,Pakistan,,FALSE,8,0,win,Irbid,Jordan,TRUE,1655,979,1657,977,2
-1993-05-30,FIFA World Cup qualification,played,Iraq,IRQ,China PR,,TRUE,1,0,win,Irbid,Jordan,TRUE,,,,,
-1993-06-14,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,TRUE,4,0,win,Chengdu,China PR,TRUE,1668,1361,1679,1350,11
-1993-06-16,FIFA World Cup qualification,played,Iraq,IRQ,Yemen,,TRUE,3,0,win,Chengdu,China PR,TRUE,1679,1256,1685,1250,6
-1993-06-18,FIFA World Cup qualification,played,Iraq,IRQ,Pakistan,,TRUE,4,0,win,Chengdu,China PR,TRUE,1685,957,1686,956,1
-1993-06-20,FIFA World Cup qualification,played,Iraq,IRQ,China PR,,FALSE,1,2,loss,Chengdu,China PR,FALSE,,,,,
-1993-10-15,FIFA World Cup qualification,played,Iraq,IRQ,North Korea,PRK,FALSE,2,3,loss,Doha,Qatar,TRUE,1661,1566,1636,1591,-25
-1993-10-19,FIFA World Cup qualification,played,Iraq,IRQ,South Korea,KOR,TRUE,2,2,draw,Doha,Qatar,TRUE,1636,1669,1638,1667,2
-1993-10-22,FIFA World Cup qualification,played,Iraq,IRQ,Iran,IRN,FALSE,2,1,win,Doha,Qatar,TRUE,1638,1582,1655,1565,17
-1993-10-24,FIFA World Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,1,1,draw,Doha,Qatar,TRUE,1655,1663,1655,1663,0
-1993-10-28,FIFA World Cup qualification,played,Iraq,IRQ,Japan,JPN,TRUE,2,2,draw,Doha,Qatar,TRUE,1655,1645,1654,1646,-1
-1995-03-08,Nehru Cup,played,Iraq,IRQ,Uzbekistan,,TRUE,3,1,win,Calcutta,India,TRUE,,,,,
-1995-03-12,Nehru Cup,played,Iraq,IRQ,India,,FALSE,1,1,draw,Calcutta,India,FALSE,1654,1087,1637,1104,-17
-1995-03-14,Nehru Cup,played,Iraq,IRQ,Thailand,,TRUE,3,1,win,Calcutta,India,TRUE,1637,1372,1648,1361,11
-1995-07-21,Merdeka Tournament,played,Iraq,IRQ,Malaysia,,FALSE,2,1,win,Kuala Lumpur,Malaysia,FALSE,1648,1260,1653,1255,5
-1996-08-11,AFC Asian Cup qualification,played,Iraq,IRQ,Pakistan,,TRUE,3,0,win,Amman,Jordan,TRUE,,,,,
-1996-08-13,AFC Asian Cup qualification,played,Iraq,IRQ,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,,,,,
-1996-11-24,Friendly,played,Iraq,IRQ,Indonesia,IDN,FALSE,4,0,win,Genoa,Italy,TRUE,,,,,
-1996-12-05,AFC Asian Cup,played,Iraq,IRQ,Iran,IRN,FALSE,2,1,win,Dubai,United Arab Emirates,TRUE,1666,1571,1684,1553,18
-1996-12-08,AFC Asian Cup,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,0,1,loss,Dubai,United Arab Emirates,TRUE,1684,1621,1655,1650,-29
-1996-12-11,AFC Asian Cup,played,Iraq,IRQ,Thailand,,TRUE,4,1,win,Dubai,United Arab Emirates,TRUE,1655,1422,1673,1404,18
-1996-12-15,AFC Asian Cup,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1673,1583,1649,1607,-24
-1997-02-16,Friendly,played,Iraq,IRQ,Jordan,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1649,1341,1651,1339,2
-1997-03-30,Nehru Cup,played,Iraq,IRQ,China PR,,FALSE,2,0,win,Kochi,India,TRUE,,,,,
-1997-04-06,Nehru Cup,played,Iraq,IRQ,India,,FALSE,1,0,win,Kochi,India,FALSE,1653,1061,1655,1059,2
-1997-04-10,Nehru Cup,played,Iraq,IRQ,India,,FALSE,1,1,draw,Kochi,India,FALSE,1655,1059,1637,1077,-18
-1997-05-23,FIFA World Cup qualification,played,Iraq,IRQ,Pakistan,,FALSE,6,2,win,Lahore,Pakistan,FALSE,1642,870,1644,868,2
-1997-06-06,FIFA World Cup qualification,played,Iraq,IRQ,Kazakhstan,,TRUE,1,2,loss,Baghdad,Iraq,FALSE,1644,1471,1611,1504,-33
-1997-06-20,FIFA World Cup qualification,played,Iraq,IRQ,Pakistan,,TRUE,6,1,win,Baghdad,Iraq,FALSE,1611,864,1612,863,1
-1997-06-29,FIFA World Cup qualification,played,Iraq,IRQ,Kazakhstan,,FALSE,1,3,loss,Almaty,Kazakhstan,FALSE,1612,1508,1582,1538,-30
-1997-08-21,Friendly,played,Iraq,IRQ,Lebanon,,FALSE,2,0,win,Beirut,Lebanon,FALSE,1582,1424,1595,1411,13
-1999-06-28,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,1605,1456,1614,1447,9
-1999-06-30,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,1,draw,Amman,Jordan,FALSE,1614,1447,1612,1449,-2
-1999-08-03,AFC Asian Cup qualification,played,Iraq,IRQ,Tajikistan,,FALSE,2,1,win,Dushanbe,Tajikistan,FALSE,1612,1436,1628,1420,16
-1999-08-05,AFC Asian Cup qualification,played,Iraq,IRQ,Oman,,TRUE,2,0,win,Dushanbe,Tajikistan,TRUE,1628,1389,1640,1377,12
-1999-08-07,AFC Asian Cup qualification,played,Iraq,IRQ,Kyrgyzstan,,TRUE,5,1,win,Dushanbe,Tajikistan,TRUE,1640,1208,1646,1202,6
-1999-10-30,United Arab Emirates Friendship Tournament,played,Iraq,IRQ,Estonia,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1634,1300,1623,1311,-11
-1999-11-01,United Arab Emirates Friendship Tournament,played,Iraq,IRQ,Turkmenistan,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,TRUE,1623,1449,1637,1435,14
-1999-11-03,United Arab Emirates Friendship Tournament,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1637,1503,1636,1504,-1
-2000-05-23,WAFF Championship,played,Iraq,IRQ,Lebanon,,FALSE,2,1,win,Amman,Jordan,TRUE,1636,1418,1645,1409,9
-2000-05-25,WAFF Championship,played,Iraq,IRQ,Jordan,,FALSE,0,0,draw,Amman,Jordan,FALSE,1645,1494,1642,1497,-3
-2000-05-27,WAFF Championship,played,Iraq,IRQ,Kyrgyzstan,,TRUE,4,0,win,Amman,Jordan,TRUE,1642,1182,1647,1177,5
-2000-05-31,WAFF Championship,played,Iraq,IRQ,Syria,,TRUE,0,0,draw,Amman,Jordan,TRUE,1647,1534,1641,1540,-6
-2000-06-02,WAFF Championship,played,Iraq,IRQ,Jordan,,FALSE,4,1,win,Amman,Jordan,FALSE,1641,1476,1670,1447,29
-2000-08-28,Friendly,played,Iraq,IRQ,Taiwan,,TRUE,3,0,win,Jakarta,Indonesia,TRUE,,,,,
-2000-08-30,Friendly,played,Iraq,IRQ,Myanmar,,FALSE,1,0,win,Jakarta,Indonesia,TRUE,,,,,
-2000-09-01,Friendly,played,Iraq,IRQ,Indonesia,IDN,FALSE,0,0,draw,Jakarta,Indonesia,FALSE,,,,,
-2000-09-02,Friendly,played,Iraq,IRQ,Uzbekistan,,TRUE,2,0,win,Shanghai,China PR,TRUE,,,,,
-2000-09-03,Friendly,played,Iraq,IRQ,China PR,,FALSE,1,4,loss,Shanghai,China PR,FALSE,,,,,
-2000-09-03,Friendly,played,Iraq,IRQ,Indonesia,IDN,FALSE,0,3,loss,Jakarta,Indonesia,FALSE,,,,,
-2000-10-12,AFC Asian Cup,played,Iraq,IRQ,Thailand,,TRUE,2,0,win,Tripoli,Lebanon,TRUE,1667,1499,1688,1478,21
-2000-10-15,AFC Asian Cup,played,Iraq,IRQ,Lebanon,,FALSE,2,2,draw,Beirut,Lebanon,FALSE,1688,1409,1676,1421,-12
-2000-10-18,AFC Asian Cup,played,Iraq,IRQ,Iran,IRN,FALSE,0,1,loss,Sidon,Lebanon,TRUE,1676,1744,1656,1764,-20
-2000-10-24,AFC Asian Cup,played,Iraq,IRQ,Japan,JPN,FALSE,1,4,loss,Beirut,Lebanon,TRUE,1656,1722,1620,1758,-36
-2001-01-31,Friendly,played,Iraq,IRQ,Lebanon,,FALSE,0,0,draw,Beirut,Lebanon,FALSE,1620,1419,1617,1422,-3
-2001-04-12,FIFA World Cup qualification,played,Iraq,IRQ,Macau,,TRUE,8,0,win,Baghdad,Iraq,FALSE,,,,,
-2001-04-14,FIFA World Cup qualification,played,Iraq,IRQ,Nepal,,TRUE,9,1,win,Baghdad,Iraq,FALSE,1618,783,1618,783,0
-2001-04-16,FIFA World Cup qualification,played,Iraq,IRQ,Kazakhstan,,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1618,1444,1605,1457,-13
-2001-04-21,FIFA World Cup qualification,played,Iraq,IRQ,Macau,,FALSE,5,0,win,Almaty,Kazakhstan,TRUE,,,,,
-2001-04-23,FIFA World Cup qualification,played,Iraq,IRQ,Nepal,,TRUE,4,2,win,Almaty,Kazakhstan,TRUE,1606,834,1607,833,1
-2001-04-25,FIFA World Cup qualification,played,Iraq,IRQ,Kazakhstan,,FALSE,1,1,draw,Almaty,Kazakhstan,FALSE,1607,1460,1604,1463,-3
-2001-05-17,Friendly,played,Iraq,IRQ,Andalusia,,FALSE,1,3,loss,Vélez-Málaga,Spain,FALSE,,,,,
-2001-07-29,Friendly,played,Iraq,IRQ,Oman,,FALSE,0,1,loss,Muscat,Oman,FALSE,1604,1385,1591,1398,-13
-2001-08-02,Friendly,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1591,1462,1590,1463,-1
-2001-08-17,FIFA World Cup qualification,played,Iraq,IRQ,Thailand,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1590,1511,1610,1491,20
-2001-08-23,FIFA World Cup qualification,played,Iraq,IRQ,Bahrain,,FALSE,0,2,loss,Riffa,Bahrain,FALSE,1610,1408,1571,1447,-39
-2001-08-31,FIFA World Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,0,1,loss,Riffa,Bahrain,TRUE,1571,1655,1556,1670,-15
-2001-09-07,FIFA World Cup qualification,played,Iraq,IRQ,Iran,IRN,TRUE,1,2,loss,Baghdad,Iraq,FALSE,1556,1745,1541,1760,-15
-2001-09-14,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,0,0,draw,Doha,Qatar,FALSE,1541,1591,1545,1587,4
-2001-09-22,FIFA World Cup qualification,played,Iraq,IRQ,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1545,1477,1547,1475,2
-2001-09-28,FIFA World Cup qualification,played,Iraq,IRQ,Bahrain,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1547,1435,1556,1426,9
-2001-10-05,FIFA World Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,1,2,loss,Amman,Jordan,TRUE,1556,1693,1544,1705,-12
-2001-10-12,FIFA World Cup qualification,played,Iraq,IRQ,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,1544,1750,1538,1756,-6
-2002-01-11,Friendly,played,Iraq,IRQ,Oman,,TRUE,2,0,win,Doha,Qatar,TRUE,1538,1433,1549,1422,11
-2002-01-13,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,3,1,win,Doha,Qatar,FALSE,1549,1537,1568,1518,19
-2002-07-19,Friendly,played,Iraq,IRQ,Syria,,TRUE,2,0,win,Baghdad,Iraq,FALSE,1568,1458,1575,1451,7
-2002-07-22,Friendly,played,Iraq,IRQ,Syria,,TRUE,2,1,win,Baghdad,Iraq,FALSE,1575,1451,1579,1447,4
-2002-09-01,WAFF Championship,played,Iraq,IRQ,Palestine,,FALSE,2,0,win,Damascus,Syria,TRUE,1579,1261,1587,1253,8
-2002-09-03,WAFF Championship,played,Iraq,IRQ,Syria,,FALSE,1,0,win,Damascus,Syria,FALSE,1587,1454,1605,1436,18
-2002-09-05,WAFF Championship,played,Iraq,IRQ,Iran,IRN,TRUE,0,0,draw,Damascus,Syria,TRUE,1605,1729,1612,1722,7
-2002-09-07,WAFF Championship,played,Iraq,IRQ,Jordan,,FALSE,3,2,win,Damascus,Syria,TRUE,1612,1467,1624,1455,12
-2002-11-20,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,1,2,loss,Doha,Qatar,FALSE,1624,1571,1615,1580,-9
-2002-11-23,Friendly,played,Iraq,IRQ,Bahrain,,FALSE,2,2,draw,Doha,Qatar,TRUE,1615,1497,1612,1500,-3
-2003-08-13,Friendly,played,Iraq,IRQ,Iran,IRN,FALSE,1,0,win,Tehran,Iran,FALSE,1612,1699,1634,1677,22
-2003-08-15,Friendly,played,Iraq,IRQ,Uruguay,URY,TRUE,2,5,loss,Tehran,Iran,TRUE,1634,1849,1622,1861,-12
-2003-08-26,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,2,loss,Amman,Jordan,FALSE,1622,1535,1612,1545,-10
-2003-10-08,AFC Asian Cup qualification,played,Iraq,IRQ,Bahrain,,TRUE,5,1,win,Kuala Lumpur,Malaysia,TRUE,1612,1500,1638,1474,26
-2003-10-10,AFC Asian Cup qualification,played,Iraq,IRQ,Malaysia,,FALSE,0,0,draw,Kuala Lumpur,Malaysia,FALSE,1638,1303,1626,1315,-12
-2003-10-12,AFC Asian Cup qualification,played,Iraq,IRQ,Myanmar,,TRUE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1626,1130,1630,1126,4
-2003-10-20,AFC Asian Cup qualification,played,Iraq,IRQ,Malaysia,,TRUE,5,1,win,Riffa,Bahrain,TRUE,1630,1319,1641,1308,11
-2003-10-22,AFC Asian Cup qualification,played,Iraq,IRQ,Myanmar,,FALSE,3,1,win,Riffa,Bahrain,TRUE,1641,1121,1644,1118,3
-2003-10-24,AFC Asian Cup qualification,played,Iraq,IRQ,Bahrain,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1644,1493,1621,1516,-23
-2003-12-12,Prime Minister's Cup,played,Iraq,IRQ,Bahrain,,FALSE,2,2,draw,Riffa,Bahrain,FALSE,1621,1516,1621,1516,0
-2003-12-15,Prime Minister's Cup,played,Iraq,IRQ,Kenya,,TRUE,2,0,win,Riffa,Bahrain,TRUE,1621,1494,1636,1479,15
-2003-12-18,Prime Minister's Cup,played,Iraq,IRQ,Egypt,EGY,FALSE,0,2,loss,Riffa,Bahrain,TRUE,1636,1679,1616,1699,-20
-2003-12-21,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,0,0,draw,Doha,Qatar,FALSE,1616,1512,1616,1512,0
-2004-02-12,Friendly,played,Iraq,IRQ,Japan,JPN,FALSE,0,2,loss,Tokyo,Japan,FALSE,1616,1777,1611,1782,-5
-2004-02-18,FIFA World Cup qualification,played,Iraq,IRQ,Uzbekistan,,FALSE,1,1,draw,Tashkent,Uzbekistan,FALSE,1611,1508,1611,1508,0
-2004-03-31,FIFA World Cup qualification,played,Iraq,IRQ,Palestine,,FALSE,1,1,draw,Al Wakrah,Qatar,TRUE,1611,1280,1596,1295,-15
-2004-05-23,Friendly,played,Iraq,IRQ,Trinidad and Tobago,TTO,FALSE,0,2,loss,West Bromwich,England,TRUE,1596,1422,1574,1444,-22
-2004-06-09,FIFA World Cup qualification,played,Iraq,IRQ,Taiwan,,TRUE,6,1,win,Amman,Jordan,TRUE,1574,1045,1578,1041,4
-2004-06-19,WAFF Championship,played,Iraq,IRQ,Palestine,,TRUE,2,1,win,Tehran,Iran,TRUE,1578,1299,1585,1292,7
-2004-06-21,WAFF Championship,played,Iraq,IRQ,Jordan,,FALSE,0,2,loss,Tehran,Iran,TRUE,1585,1616,1558,1643,-27
-2004-06-23,WAFF Championship,played,Iraq,IRQ,Iran,IRN,FALSE,1,2,loss,Tehran,Iran,FALSE,1558,1714,1551,1721,-7
-2004-06-25,WAFF Championship,played,Iraq,IRQ,Jordan,,TRUE,1,3,loss,Tehran,Iran,TRUE,1551,1633,1528,1656,-23
-2004-07-18,AFC Asian Cup,played,Iraq,IRQ,Uzbekistan,,TRUE,0,1,loss,Chengdu,China PR,TRUE,1528,1506,1501,1533,-27
-2004-07-22,AFC Asian Cup,played,Iraq,IRQ,Turkmenistan,,FALSE,3,2,win,Chengdu,China PR,TRUE,1501,1468,1524,1445,23
-2004-07-26,AFC Asian Cup,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,2,1,win,Chengdu,China PR,TRUE,1524,1651,1558,1617,34
-2004-07-30,AFC Asian Cup,played,Iraq,IRQ,China PR,,FALSE,0,3,loss,Beijing,China PR,FALSE,,,,,
-2004-09-08,FIFA World Cup qualification,played,Iraq,IRQ,Taiwan,,FALSE,4,1,win,Taipei,Taiwan,FALSE,1534,1041,1541,1034,7
-2004-10-07,Friendly,played,Iraq,IRQ,Oman,,FALSE,0,1,loss,Muscat,Oman,FALSE,1541,1595,1535,1601,-6
-2004-10-13,FIFA World Cup qualification,played,Iraq,IRQ,Uzbekistan,,TRUE,1,2,loss,Amman,Jordan,TRUE,1535,1597,1519,1613,-16
-2004-11-16,FIFA World Cup qualification,played,Iraq,IRQ,Palestine,,TRUE,4,1,win,Doha,Qatar,TRUE,1519,1291,1534,1276,15
-2004-12-03,Friendly,played,Iraq,IRQ,Yemen,,TRUE,3,1,win,Dubai,United Arab Emirates,TRUE,1534,1207,1538,1203,4
-2004-12-10,Gulf Cup,played,Iraq,IRQ,Oman,,TRUE,1,3,loss,Doha,Qatar,TRUE,1538,1588,1512,1614,-26
-2004-12-13,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,FALSE,3,3,draw,Doha,Qatar,FALSE,1512,1486,1516,1482,4
-2004-12-16,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,1,1,draw,Al Rayyan,Qatar,TRUE,1516,1395,1509,1402,-7
-2005-03-26,Friendly,played,Iraq,IRQ,Australia,AUS,FALSE,1,2,loss,Sydney,Australia,FALSE,1509,1801,1507,1803,-2
-2005-06-08,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,1507,1573,1521,1559,14
-2005-08-07,Friendly,played,Iraq,IRQ,Bahrain,,FALSE,2,2,draw,Manama,Bahrain,FALSE,1521,1597,1526,1592,5
-2005-08-13,Friendly,played,Iraq,IRQ,Cyprus,,FALSE,1,2,loss,Limassol,Cyprus,FALSE,1526,1442,1516,1452,-10
-2005-10-11,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,0,0,draw,Doha,Qatar,FALSE,1516,1525,1519,1522,3
-2005-11-26,Friendly,played,Iraq,IRQ,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1519,1447,1520,1446,1
-2005-12-01,Friendly,played,Iraq,IRQ,Palestine,,TRUE,4,0,win,Al Rayyan,Qatar,TRUE,1520,1270,1534,1256,14
-2005-12-05,Friendly,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,5,1,win,Al Rayyan,Qatar,TRUE,1534,1658,1584,1608,50
-2005-12-08,Friendly,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,2,0,win,Doha,Qatar,TRUE,1584,1608,1616,1576,32
-2005-12-10,Friendly,played,Iraq,IRQ,Syria,,FALSE,2,2,draw,Doha,Qatar,TRUE,1616,1494,1609,1501,-7
-2006-02-13,Friendly,played,Iraq,IRQ,Oman,,FALSE,0,1,loss,Muscat,Oman,FALSE,1609,1567,1601,1575,-8
-2006-02-16,Friendly,played,Iraq,IRQ,Thailand,,FALSE,3,4,loss,Ayutthaya,Thailand,FALSE,1601,1321,1586,1336,-15
-2006-02-22,AFC Asian Cup qualification,played,Iraq,IRQ,Singapore,,FALSE,0,2,loss,Singapore,Singapore,FALSE,1586,1330,1543,1373,-43
-2006-03-01,AFC Asian Cup qualification,played,Iraq,IRQ,China PR,,TRUE,2,1,win,Al Ain,United Arab Emirates,TRUE,,,,,
-2006-03-15,Friendly,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,2,2,draw,Jeddah,Saudi Arabia,FALSE,1568,1567,1571,1564,3
-2006-07-15,Friendly,played,Iraq,IRQ,Syria,,FALSE,3,1,win,Damascus,Syria,FALSE,1571,1499,1587,1483,16
-2006-07-21,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,2,loss,Amman,Jordan,FALSE,1587,1511,1578,1520,-9
-2006-07-25,Friendly,played,Iraq,IRQ,Syria,,FALSE,2,1,win,Damascus,Syria,FALSE,1578,1483,1588,1473,10
-2006-08-09,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,1588,1531,1599,1520,11
-2006-08-17,AFC Asian Cup qualification,played,Iraq,IRQ,Palestine,,FALSE,3,0,win,Amman,Jordan,TRUE,1599,1269,1608,1260,9
-2006-09-06,AFC Asian Cup qualification,played,Iraq,IRQ,Palestine,,TRUE,2,2,draw,Al Ain,United Arab Emirates,TRUE,1608,1260,1593,1275,-15
-2006-10-04,Friendly,played,Iraq,IRQ,Iran,IRN,FALSE,0,2,loss,Amman,Jordan,TRUE,1593,1761,1581,1773,-12
-2006-10-11,AFC Asian Cup qualification,played,Iraq,IRQ,Singapore,,TRUE,4,2,win,Al Ain,United Arab Emirates,TRUE,1581,1350,1594,1337,13
-2006-11-15,AFC Asian Cup qualification,played,Iraq,IRQ,China PR,,FALSE,1,1,draw,Changsha,China PR,FALSE,,,,,
-2007-01-18,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1600,1545,1617,1528,17
-2007-01-21,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1617,1475,1609,1483,-8
-2007-01-24,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1609,1599,1588,1620,-21
-2007-06-08,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,1,draw,Amman,Jordan,FALSE,1588,1554,1590,1552,2
-2007-06-12,Friendly,played,Iraq,IRQ,Jordan,,FALSE,0,0,draw,Amman,Jordan,FALSE,1590,1552,1592,1550,2
-2007-06-16,WAFF Championship,played,Iraq,IRQ,Iran,IRN,FALSE,0,0,draw,Amman,Jordan,TRUE,1592,1778,1602,1768,10
-2007-06-18,WAFF Championship,played,Iraq,IRQ,Palestine,,FALSE,1,0,win,Amman,Jordan,TRUE,1602,1267,1607,1262,5
-2007-06-22,WAFF Championship,played,Iraq,IRQ,Syria,,FALSE,3,0,win,Amman,Jordan,TRUE,1607,1513,1633,1487,26
-2007-06-24,WAFF Championship,played,Iraq,IRQ,Iran,IRN,TRUE,1,2,loss,Amman,Jordan,TRUE,1633,1783,1621,1795,-12
-2007-06-29,Friendly,played,Iraq,IRQ,South Korea,KOR,FALSE,0,3,loss,Seogwipo,South Korea,FALSE,1621,1674,1611,1684,-10
-2007-07-02,Friendly,played,Iraq,IRQ,Uzbekistan,,TRUE,0,2,loss,Paju,South Korea,TRUE,1611,1533,1593,1551,-18
-2007-07-07,AFC Asian Cup,played,Iraq,IRQ,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1593,1371,1585,1379,-8
-2007-07-13,AFC Asian Cup,played,Iraq,IRQ,Australia,AUS,TRUE,3,1,win,Bangkok,Thailand,TRUE,1585,1748,1639,1694,54
-2007-07-16,AFC Asian Cup,played,Iraq,IRQ,Oman,,FALSE,0,0,draw,Bangkok,Thailand,TRUE,1639,1557,1633,1563,-6
-2007-07-21,AFC Asian Cup,played,Iraq,IRQ,Vietnam,,TRUE,2,0,win,Bangkok,Thailand,TRUE,1633,1324,1644,1313,11
-2007-07-25,AFC Asian Cup,played,Iraq,IRQ,South Korea,KOR,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1644,1663,1645,1662,1
-2007-07-29,AFC Asian Cup,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,1,0,win,Jakarta,Indonesia,TRUE,1645,1701,1674,1672,29
-2007-10-16,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,2,3,loss,Doha,Qatar,FALSE,1674,1472,1661,1485,-13
-2007-10-22,FIFA World Cup qualification,played,Iraq,IRQ,Pakistan,,FALSE,7,0,win,Lahore,Pakistan,FALSE,1661,897,1663,895,2
-2007-10-28,FIFA World Cup qualification,played,Iraq,IRQ,Pakistan,,TRUE,0,0,draw,Damascus,Syria,TRUE,1663,895,1643,915,-20
-2008-01-24,Friendly,played,Iraq,IRQ,Jordan,,TRUE,1,1,draw,Dubai,United Arab Emirates,TRUE,1643,1517,1640,1520,-3
-2008-01-31,Friendly,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1640,1438,1647,1431,7
-2008-02-06,FIFA World Cup qualification,played,Iraq,IRQ,China PR,,TRUE,1,1,draw,Dubai,United Arab Emirates,TRUE,,,,,
-2008-03-21,Friendly,played,Iraq,IRQ,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1643,1405,1639,1409,-4
-2008-03-26,FIFA World Cup qualification,played,Iraq,IRQ,Qatar,QAT,FALSE,0,2,loss,Doha,Qatar,FALSE,1639,1465,1603,1501,-36
-2008-05-17,Friendly,played,Iraq,IRQ,Syria,,FALSE,1,2,loss,Damascus,Syria,FALSE,1603,1532,1594,1541,-9
-2008-05-25,Friendly,played,Iraq,IRQ,Thailand,,FALSE,1,2,loss,Bangkok,Thailand,FALSE,1594,1419,1582,1431,-12
-2008-06-01,FIFA World Cup qualification,played,Iraq,IRQ,Australia,AUS,FALSE,0,1,loss,Brisbane,Australia,FALSE,1582,1735,1574,1743,-8
-2008-06-07,FIFA World Cup qualification,played,Iraq,IRQ,Australia,AUS,TRUE,1,0,win,Dubai,United Arab Emirates,TRUE,1574,1743,1603,1714,29
-2008-06-14,FIFA World Cup qualification,played,Iraq,IRQ,China PR,,FALSE,2,1,win,Tianjin,China PR,FALSE,,,,,
-2008-06-22,FIFA World Cup qualification,played,Iraq,IRQ,Qatar,QAT,TRUE,0,1,loss,Dubai,United Arab Emirates,TRUE,1625,1503,1598,1530,-27
-2008-12-27,Friendly,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,2,2,draw,Al Ain,United Arab Emirates,FALSE,1598,1418,1596,1420,-2
-2009-01-04,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,1,3,loss,Muscat,Oman,TRUE,1596,1518,1559,1555,-37
-2009-01-07,Gulf Cup,played,Iraq,IRQ,Oman,,FALSE,0,4,loss,Muscat,Oman,FALSE,1559,1553,1531,1581,-28
-2009-01-10,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,1,draw,Muscat,Oman,TRUE,1531,1460,1527,1464,-4
-2009-03-22,Friendly,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1527,1653,1533,1647,6
-2009-03-28,Friendly,played,Iraq,IRQ,South Korea,KOR,FALSE,1,2,loss,Suwon,South Korea,FALSE,1533,1725,1530,1728,-3
-2009-05-31,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,0,1,loss,Doha,Qatar,FALSE,1530,1506,1522,1514,-8
-2009-06-09,Friendly,played,Iraq,IRQ,Poland,POL,TRUE,1,1,draw,Cape Town,South Africa,TRUE,1522,1717,1527,1712,5
-2009-06-14,Confederations Cup,played,Iraq,IRQ,South Africa,ZAF,FALSE,0,0,draw,Johannesburg,South Africa,FALSE,1527,1556,1536,1547,9
-2009-06-17,Confederations Cup,played,Iraq,IRQ,Spain,ESP,FALSE,0,1,loss,Bloemfontein,South Africa,TRUE,1536,2125,1534,2127,-2
-2009-06-20,Confederations Cup,played,Iraq,IRQ,New Zealand,NZL,TRUE,0,0,draw,Johannesburg,South Africa,TRUE,1534,1466,1529,1471,-5
-2009-07-10,Friendly,played,Iraq,IRQ,Palestine,,TRUE,3,0,win,Erbil,Iraq,FALSE,1529,1211,1532,1208,3
-2009-07-13,Friendly,played,Iraq,IRQ,Palestine,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1532,1208,1535,1205,3
-2009-11-15,Friendly,played,Iraq,IRQ,Azerbaijan,,TRUE,1,0,win,Al Ain,United Arab Emirates,TRUE,1535,1388,1544,1379,9
-2009-11-18,Friendly,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,1,0,win,Al Ain,United Arab Emirates,FALSE,1544,1404,1557,1391,13
-2010-09-16,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,4,loss,Amman,Jordan,FALSE,1557,1458,1540,1475,-17
-2010-09-21,Friendly,played,Iraq,IRQ,Oman,,TRUE,3,2,win,Amman,Jordan,TRUE,1540,1591,1551,1580,11
-2010-09-25,WAFF Championship,played,Iraq,IRQ,Yemen,,TRUE,2,1,win,Amman,Jordan,TRUE,1551,1292,1558,1285,7
-2010-09-29,WAFF Championship,played,Iraq,IRQ,Palestine,,FALSE,3,0,win,Amman,Jordan,TRUE,1558,1192,1566,1184,8
-2010-10-01,WAFF Championship,played,Iraq,IRQ,Iran,IRN,FALSE,1,2,loss,Amman,Jordan,TRUE,1566,1716,1554,1728,-12
-2010-10-12,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,2,1,win,Doha,Qatar,FALSE,1554,1523,1566,1511,12
-2010-11-11,Friendly,played,Iraq,IRQ,India,,TRUE,2,0,win,Sharjah,United Arab Emirates,TRUE,1566,1165,1569,1162,3
-2010-11-17,Friendly,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1569,1545,1568,1546,-1
-2010-11-23,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,0,0,draw,Aden,Yemen,TRUE,1568,1433,1561,1440,-7
-2010-11-26,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,3,2,win,Aden,Yemen,TRUE,1561,1517,1578,1500,17
-2010-11-29,Gulf Cup,played,Iraq,IRQ,Oman,,FALSE,0,0,draw,Zinjibar,Yemen,TRUE,1578,1532,1575,1535,-3
-2010-12-02,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,FALSE,2,2,draw,Aden,Yemen,TRUE,1575,1593,1576,1592,1
-2010-12-18,Friendly,played,Iraq,IRQ,Syria,,TRUE,0,1,loss,Sulaymaniyah,Iraq,FALSE,1576,1534,1562,1548,-14
-2010-12-22,Friendly,played,Iraq,IRQ,Syria,,FALSE,1,0,win,Damascus,Syria,FALSE,1562,1548,1574,1536,12
-2010-12-28,Friendly,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,1,0,win,Dammam,Saudi Arabia,FALSE,1574,1666,1589,1651,15
-2011-01-02,Friendly,played,Iraq,IRQ,China PR,,TRUE,2,3,loss,Doha,Qatar,TRUE,,,,,
-2011-01-11,AFC Asian Cup,played,Iraq,IRQ,Iran,IRN,TRUE,1,2,loss,Al Rayyan,Qatar,TRUE,1580,1697,1563,1714,-17
-2011-01-15,AFC Asian Cup,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,1,0,win,Al Rayyan,Qatar,TRUE,1563,1491,1583,1471,20
-2011-01-19,AFC Asian Cup,played,Iraq,IRQ,North Korea,PRK,TRUE,1,0,win,Al Rayyan,Qatar,TRUE,1583,1520,1604,1499,21
-2011-01-22,AFC Asian Cup,played,Iraq,IRQ,Australia,AUS,FALSE,0,1,loss,Doha,Qatar,TRUE,1604,1778,1591,1791,-13
-2011-03-26,Friendly,played,Iraq,IRQ,North Korea,PRK,FALSE,0,2,loss,Sharjah,United Arab Emirates,TRUE,,,,,
-2011-03-29,Friendly,played,Iraq,IRQ,Kuwait,KWT,FALSE,0,1,loss,Sharjah,United Arab Emirates,TRUE,1602,1533,1590,1545,-12
-2011-06-29,Friendly,played,Iraq,IRQ,Syria,,TRUE,1,2,loss,Erbil,Iraq,FALSE,1590,1515,1575,1530,-15
-2011-07-13,Friendly,played,Iraq,IRQ,Kuwait,KWT,TRUE,0,2,loss,Amman,Jordan,TRUE,1575,1554,1551,1578,-24
-2011-07-16,Friendly,played,Iraq,IRQ,Jordan,,FALSE,1,1,draw,Amman,Jordan,FALSE,1551,1518,1554,1515,3
-2011-07-23,FIFA World Cup qualification,played,Iraq,IRQ,Yemen,,TRUE,2,0,win,Erbil,Iraq,FALSE,1554,1300,1561,1293,7
-2011-07-28,FIFA World Cup qualification,played,Iraq,IRQ,Yemen,,FALSE,0,0,draw,Al Ain,United Arab Emirates,TRUE,1561,1293,1548,1306,-13
-2011-08-19,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,1,0,win,Doha,Qatar,FALSE,1548,1504,1560,1492,12
-2011-09-02,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,TRUE,0,2,loss,Erbil,Iraq,FALSE,1560,1503,1517,1546,-43
-2011-09-06,FIFA World Cup qualification,played,Iraq,IRQ,Singapore,,FALSE,2,0,win,Singapore,Singapore,FALSE,1517,1340,1540,1317,23
-2011-10-11,FIFA World Cup qualification,played,Iraq,IRQ,China PR,,FALSE,1,0,win,Shenzhen,China PR,FALSE,,,,,
-2011-11-06,Friendly,played,Iraq,IRQ,Lebanon,,TRUE,1,0,win,Doha,Qatar,TRUE,1571,1225,1573,1223,2
-2011-11-11,FIFA World Cup qualification,played,Iraq,IRQ,China PR,,TRUE,1,0,win,Doha,Qatar,TRUE,,,,,
-2011-11-15,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,FALSE,3,1,win,Amman,Jordan,FALSE,1595,1593,1633,1555,38
-2012-01-22,Friendly,played,Iraq,IRQ,Lebanon,,FALSE,0,1,loss,Beirut,Lebanon,FALSE,1586,1320,1572,1334,-14
-2012-02-29,FIFA World Cup qualification,played,Iraq,IRQ,Singapore,,TRUE,7,1,win,Doha,Qatar,TRUE,1572,1279,1585,1266,13
-2012-04-17,Friendly,played,Iraq,IRQ,Egypt,EGY,FALSE,0,0,draw,Dubai,United Arab Emirates,TRUE,1585,1731,1589,1727,4
-2012-05-23,Friendly,played,Iraq,IRQ,Sierra Leone,,TRUE,1,0,win,Istanbul,Turkey,TRUE,1589,1304,1592,1301,3
-2012-05-28,Friendly,played,Iraq,IRQ,Botswana,,TRUE,1,1,draw,Istanbul,Turkey,TRUE,1592,1357,1586,1363,-6
-2012-06-03,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,FALSE,1,1,draw,Amman,Jordan,FALSE,1586,1563,1590,1559,4
-2012-06-12,FIFA World Cup qualification,played,Iraq,IRQ,Oman,,TRUE,1,1,draw,Doha,Qatar,TRUE,1590,1523,1586,1527,-4
-2012-06-24,Arab Cup,played,Iraq,IRQ,Lebanon,,TRUE,1,0,win,Jeddah,Saudi Arabia,TRUE,1586,1308,1593,1301,7
-2012-06-30,Arab Cup,played,Iraq,IRQ,Sudan,,FALSE,1,1,draw,Jeddah,Saudi Arabia,TRUE,1620,1470,1612,1478,-8
-2012-07-05,Arab Cup,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,1,0,win,Jeddah,Saudi Arabia,FALSE,1591,1502,1612,1481,21
-2012-09-11,FIFA World Cup qualification,played,Iraq,IRQ,Japan,JPN,FALSE,0,1,loss,Saitama,Japan,FALSE,1612,1794,1605,1801,-7
-2012-10-11,Friendly,played,Iraq,IRQ,Brazil,BRA,FALSE,0,6,loss,Malmö,Sweden,TRUE,1605,2070,1602,2073,-3
-2012-10-16,FIFA World Cup qualification,played,Iraq,IRQ,Australia,AUS,TRUE,1,2,loss,Doha,Qatar,TRUE,1602,1757,1590,1769,-12
-2012-11-14,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,TRUE,1,0,win,Doha,Qatar,TRUE,1579,1543,1597,1525,18
-2012-12-10,WAFF Championship,played,Iraq,IRQ,Jordan,,TRUE,1,0,win,Al Farwaniyah,Kuwait,TRUE,1593,1525,1609,1509,16
-2012-12-13,WAFF Championship,played,Iraq,IRQ,Syria,,TRUE,1,1,draw,Kuwait City,Kuwait,TRUE,1609,1488,1602,1495,-7
-2012-12-18,WAFF Championship,played,Iraq,IRQ,Oman,,FALSE,2,0,win,Al Farwaniyah,Kuwait,TRUE,1602,1538,1627,1513,25
-2012-12-20,WAFF Championship,played,Iraq,IRQ,Syria,,TRUE,0,1,loss,Kuwait City,Kuwait,TRUE,1627,1515,1601,1541,-26
-2012-12-30,Friendly,played,Iraq,IRQ,Tunisia,TUN,TRUE,1,2,loss,Baghdad,Iraq,FALSE,1601,1590,1591,1600,-10
-2013-01-06,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,2,0,win,Isa Town,Bahrain,TRUE,1591,1493,1613,1471,22
-2013-01-09,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,0,win,Isa Town,Bahrain,TRUE,1613,1505,1627,1491,14
-2013-01-12,Gulf Cup,played,Iraq,IRQ,Yemen,,TRUE,2,0,win,Isa Town,Bahrain,TRUE,1627,1238,1633,1232,6
-2013-01-15,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,1,1,draw,Riffa,Bahrain,FALSE,1633,1483,1630,1486,-3
-2013-01-18,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,1,2,loss,Riffa,Bahrain,TRUE,1630,1577,1607,1600,-23
-2013-02-06,AFC Asian Cup qualification,played,Iraq,IRQ,Indonesia,IDN,TRUE,1,0,win,Dubai,United Arab Emirates,TRUE,1610,1233,1614,1229,4
-2013-03-22,AFC Asian Cup qualification,played,Iraq,IRQ,China PR,,FALSE,0,1,loss,Changsha,China PR,FALSE,,,,,
-2013-03-26,Friendly,played,Iraq,IRQ,Syria,,TRUE,2,1,win,Baghdad,Iraq,FALSE,1598,1524,1603,1519,5
-2013-05-27,Friendly,played,Iraq,IRQ,Liberia,,TRUE,0,1,loss,Baghdad,Iraq,FALSE,1603,1344,1585,1362,-18
-2013-06-04,FIFA World Cup qualification,played,Iraq,IRQ,Oman,,FALSE,0,1,loss,Muscat,Oman,FALSE,1585,1540,1568,1557,-17
-2013-06-11,FIFA World Cup qualification,played,Iraq,IRQ,Japan,JPN,TRUE,0,1,loss,Doha,Qatar,TRUE,1568,1765,1558,1775,-10
-2013-06-18,FIFA World Cup qualification,played,Iraq,IRQ,Australia,AUS,FALSE,0,1,loss,Sydney,Australia,FALSE,1558,1765,1552,1771,-6
-2013-08-14,Friendly,played,Iraq,IRQ,Chile,CHL,FALSE,0,6,loss,Brøndby,Denmark,TRUE,1552,1852,1546,1858,-6
-2013-10-06,Friendly,played,Iraq,IRQ,Yemen,,TRUE,3,2,win,Beirut,Lebanon,TRUE,1546,1202,1548,1200,2
-2013-10-08,Friendly,played,Iraq,IRQ,Lebanon,,FALSE,1,1,draw,Beirut,Lebanon,FALSE,1548,1384,1546,1386,-2
-2013-10-15,AFC Asian Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,0,2,loss,Amman,Jordan,TRUE,1546,1459,1509,1496,-37
-2013-11-15,AFC Asian Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,1,2,loss,Dammam,Saudi Arabia,FALSE,1518,1496,1502,1512,-16
-2013-11-19,AFC Asian Cup qualification,played,Iraq,IRQ,Indonesia,IDN,FALSE,2,0,win,Jakarta,Indonesia,FALSE,1502,1248,1520,1230,18
-2013-12-28,WAFF Championship,played,Iraq,IRQ,Bahrain,,FALSE,0,0,draw,Doha,Qatar,TRUE,1520,1468,1517,1471,-3
-2013-12-31,WAFF Championship,played,Iraq,IRQ,Oman,,TRUE,0,0,draw,Doha,Qatar,TRUE,1517,1567,1520,1564,3
-2014-02-21,Friendly,played,Iraq,IRQ,North Korea,PRK,TRUE,2,0,win,Dubai,United Arab Emirates,TRUE,1520,1585,1538,1567,18
-2014-03-05,AFC Asian Cup qualification,played,Iraq,IRQ,China PR,,TRUE,3,1,win,Sharjah,United Arab Emirates,TRUE,,,,,
-2014-09-04,Friendly,played,Iraq,IRQ,Peru,PER,TRUE,0,2,loss,Dubai,United Arab Emirates,TRUE,1573,1713,1564,1722,-9
-2014-10-10,Friendly,played,Iraq,IRQ,Yemen,,FALSE,1,1,draw,Manama,Bahrain,TRUE,1564,1163,1556,1171,-8
-2014-10-14,Friendly,played,Iraq,IRQ,Bahrain,,FALSE,0,0,draw,Riffa,Bahrain,FALSE,1556,1490,1557,1489,1
-2014-11-14,Gulf Cup,played,Iraq,IRQ,Kuwait,KWT,TRUE,0,1,loss,Riyadh,Saudi Arabia,TRUE,1557,1518,1535,1540,-22
-2014-11-17,Gulf Cup,played,Iraq,IRQ,Oman,,TRUE,1,1,draw,Riyadh,Saudi Arabia,TRUE,1535,1566,1537,1564,2
-2014-11-20,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1537,1617,1514,1640,-23
-2014-12-22,Friendly,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,1,draw,Al Hamriyah,United Arab Emirates,TRUE,1514,1507,1514,1507,0
-2014-12-25,Friendly,played,Iraq,IRQ,Uzbekistan,,FALSE,0,1,loss,Sharjah,United Arab Emirates,TRUE,1514,1647,1508,1653,-6
-2014-12-28,Friendly,played,Iraq,IRQ,Uzbekistan,,FALSE,0,0,draw,Sharjah,United Arab Emirates,TRUE,1508,1653,1512,1649,4
-2015-01-04,Friendly,played,Iraq,IRQ,Iran,IRN,FALSE,0,1,loss,Wollongong,Australia,TRUE,1512,1673,1506,1679,-6
-2015-01-12,AFC Asian Cup,played,Iraq,IRQ,Jordan,,FALSE,1,0,win,Brisbane,Australia,TRUE,1506,1525,1532,1499,26
-2015-01-16,AFC Asian Cup,played,Iraq,IRQ,Japan,JPN,TRUE,0,1,loss,Brisbane,Australia,TRUE,1532,1737,1520,1749,-12
-2015-01-20,AFC Asian Cup,played,Iraq,IRQ,Palestine,,TRUE,2,0,win,Canberra,Australia,TRUE,1520,1306,1537,1289,17
-2015-01-23,AFC Asian Cup,played,Iraq,IRQ,Iran,IRN,FALSE,3,3,draw,Canberra,Australia,TRUE,1537,1737,1550,1724,13
-2015-01-26,AFC Asian Cup,played,Iraq,IRQ,South Korea,KOR,FALSE,0,2,loss,Sydney,Australia,TRUE,1550,1739,1531,1758,-19
-2015-01-30,AFC Asian Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,2,3,loss,Newcastle,Australia,TRUE,1531,1649,1514,1666,-17
-2015-03-28,Friendly,played,Iraq,IRQ,DR Congo,,TRUE,2,1,win,Sharjah,United Arab Emirates,TRUE,1514,1506,1524,1496,10
-2015-03-31,Friendly,played,Iraq,IRQ,DR Congo,,TRUE,1,0,win,Sharjah,United Arab Emirates,TRUE,1524,1496,1533,1487,9
-2015-06-11,Kirin Challenge Cup,played,Iraq,IRQ,Japan,JPN,FALSE,0,4,loss,Yokohama,Japan,FALSE,1533,1771,1528,1776,-5
-2015-08-26,Friendly,played,Iraq,IRQ,Lebanon,,FALSE,3,2,win,Sidon,Lebanon,FALSE,1528,1395,1537,1386,9
-2015-09-03,FIFA World Cup qualification,played,Iraq,IRQ,Taiwan,,TRUE,5,1,win,Tehran,Iran,TRUE,1537,788,1538,787,1
-2015-09-08,FIFA World Cup qualification,played,Iraq,IRQ,Thailand,,FALSE,2,2,draw,Bangkok,Thailand,FALSE,1538,1370,1534,1374,-4
-2015-10-03,Friendly,played,Iraq,IRQ,Jordan,,FALSE,0,3,loss,Amman,Jordan,FALSE,1534,1501,1520,1515,-14
-2015-10-08,FIFA World Cup qualification,played,Iraq,IRQ,Vietnam,,FALSE,1,1,draw,Hanoi,Vietnam,FALSE,1520,1239,1510,1249,-10
-2015-11-17,FIFA World Cup qualification,played,Iraq,IRQ,Taiwan,,FALSE,2,0,win,Kaohsiung,Taiwan,FALSE,1510,788,1512,786,2
-2016-03-18,Friendly,played,Iraq,IRQ,Syria,,TRUE,0,1,loss,Tehran,Iran,TRUE,1512,1519,1502,1529,-10
-2016-03-24,FIFA World Cup qualification,played,Iraq,IRQ,Thailand,,TRUE,2,2,draw,Tehran,Iran,TRUE,1502,1410,1497,1415,-5
-2016-03-29,FIFA World Cup qualification,played,Iraq,IRQ,Vietnam,,TRUE,1,0,win,Tehran,Iran,TRUE,1497,1220,1504,1213,7
-2016-07-24,Friendly,played,Iraq,IRQ,Uzbekistan,,FALSE,1,2,loss,Tashkent,Uzbekistan,FALSE,1504,1649,1500,1653,-4
-2016-08-08,Friendly,played,Iraq,IRQ,Qatar,QAT,FALSE,1,2,loss,Doha,Qatar,FALSE,1500,1538,1494,1544,-6
-2016-08-21,Friendly,played,Iraq,IRQ,North Korea,PRK,TRUE,1,1,draw,Paroi,Malaysia,TRUE,1484,1514,1485,1513,1
-2016-09-01,FIFA World Cup qualification,played,Iraq,IRQ,Australia,AUS,FALSE,0,2,loss,Perth,Australia,FALSE,1485,1707,1477,1715,-8
-2016-09-06,FIFA World Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,1,2,loss,Shah Alam,Malaysia,TRUE,1477,1538,1460,1555,-17
-2016-10-06,FIFA World Cup qualification,played,Iraq,IRQ,Japan,JPN,FALSE,1,2,loss,Saitama,Japan,FALSE,1460,1734,1456,1738,-4
-2016-10-11,FIFA World Cup qualification,played,Iraq,IRQ,Thailand,,TRUE,4,0,win,Tehran,Iran,TRUE,1456,1395,1487,1364,31
-2016-11-06,Friendly,played,Iraq,IRQ,Jordan,,FALSE,0,0,draw,Amman,Jordan,FALSE,1487,1519,1491,1515,4
-2016-11-15,FIFA World Cup qualification,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1491,1569,1475,1585,-16
-2017-03-18,Friendly,played,Iraq,IRQ,Iran,IRN,FALSE,1,0,win,Tehran,Iran,FALSE,1475,1775,1493,1757,18
-2017-03-23,FIFA World Cup qualification,played,Iraq,IRQ,Australia,AUS,TRUE,1,1,draw,Tehran,Iran,TRUE,1493,1712,1504,1701,11
-2017-03-28,FIFA World Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1504,1609,1495,1618,-9
-2017-06-01,Friendly,played,Iraq,IRQ,Jordan,,TRUE,1,0,win,Basra,Iraq,FALSE,1495,1518,1503,1510,8
-2017-06-07,Friendly,played,Iraq,IRQ,South Korea,KOR,TRUE,0,0,draw,Ras al-Khaimah,United Arab Emirates,TRUE,1503,1767,1509,1761,6
-2017-06-13,FIFA World Cup qualification,played,Iraq,IRQ,Japan,JPN,TRUE,1,1,draw,Tehran,Iran,TRUE,1509,1775,1522,1762,13
-2017-08-26,Friendly,played,Iraq,IRQ,Syria,,TRUE,1,1,draw,Paya Rumput,Malaysia,TRUE,1522,1574,1523,1573,1
-2017-08-31,FIFA World Cup qualification,played,Iraq,IRQ,Thailand,,FALSE,2,1,win,Bangkok,Thailand,FALSE,1523,1418,1543,1398,20
-2017-09-05,FIFA World Cup qualification,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,1,0,win,Amman,Jordan,TRUE,1543,1564,1564,1543,21
-2017-10-05,Friendly,played,Iraq,IRQ,Kenya,,TRUE,2,1,win,Basra,Iraq,FALSE,1564,1382,1567,1379,3
-2017-11-13,Friendly,played,Iraq,IRQ,Syria,,TRUE,1,1,draw,Karbala,Iraq,FALSE,1567,1609,1565,1611,-2
-2017-12-23,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,1,1,draw,Kuwait City,Kuwait,TRUE,1557,1400,1549,1408,-8
-2017-12-26,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,TRUE,2,1,win,Kuwait City,Kuwait,TRUE,1549,1473,1565,1457,16
-2017-12-29,Gulf Cup,played,Iraq,IRQ,Yemen,,TRUE,3,0,win,Kuwait City,Kuwait,TRUE,1565,1199,1573,1191,8
-2018-01-02,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1573,1563,1572,1564,-1
-2018-02-28,Friendly,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,4,1,win,Basra,Iraq,FALSE,1572,1574,1585,1561,13
-2018-03-21,Friendly,played,Iraq,IRQ,Qatar,QAT,TRUE,2,3,loss,Basra,Iraq,FALSE,1585,1455,1561,1479,-24
-2018-03-27,Friendly,played,Iraq,IRQ,Syria,,TRUE,1,1,draw,Basra,Iraq,FALSE,1561,1606,1559,1608,-2
-2018-05-08,Friendly,played,Iraq,IRQ,Palestine,,TRUE,0,0,draw,Basra,Iraq,FALSE,1559,1405,1553,1411,-6
-2018-08-04,Friendly,played,Iraq,IRQ,Palestine,,FALSE,3,0,win,Al-Ram,Palestine,FALSE,1553,1400,1568,1385,15
-2018-09-10,Friendly,played,Iraq,IRQ,Kuwait,KWT,FALSE,2,2,draw,Al Farwaniyah,Kuwait,FALSE,1568,1424,1567,1425,-1
-2018-10-11,Friendly,played,Iraq,IRQ,Argentina,ARG,FALSE,0,4,loss,Riyadh,Saudi Arabia,TRUE,1567,1900,1560,1907,-7
-2018-10-15,Friendly,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,1,1,draw,Riyadh,Saudi Arabia,FALSE,1560,1582,1565,1577,5
-2018-11-20,Friendly,played,Iraq,IRQ,Bolivia,BOL,TRUE,0,0,draw,Al-Ain,Iraq,FALSE,1565,1658,1568,1655,3
-2018-12-24,Friendly,played,Iraq,IRQ,China PR,,TRUE,2,1,win,Doha,Qatar,TRUE,,,,,
-2018-12-28,Friendly,played,Iraq,IRQ,Palestine,,TRUE,1,0,win,Doha,Qatar,TRUE,1577,1401,1582,1396,5
-2019-01-08,AFC Asian Cup,played,Iraq,IRQ,Vietnam,,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,TRUE,1582,1339,1592,1329,10
-2019-01-12,AFC Asian Cup,played,Iraq,IRQ,Yemen,,FALSE,3,0,win,Sharjah,United Arab Emirates,TRUE,1592,1188,1600,1180,8
-2019-01-16,AFC Asian Cup,played,Iraq,IRQ,Iran,IRN,FALSE,0,0,draw,Dubai,United Arab Emirates,TRUE,1600,1830,1614,1816,14
-2019-01-22,AFC Asian Cup,played,Iraq,IRQ,Qatar,QAT,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1614,1626,1590,1650,-24
-2019-06-07,Friendly,played,Iraq,IRQ,Tunisia,TUN,FALSE,0,2,loss,Radès,Tunisia,FALSE,1605,1638,1595,1648,-10
-2019-07-30,WAFF Championship,played,Iraq,IRQ,Lebanon,,TRUE,1,0,win,Karbala,Iraq,FALSE,1595,1445,1603,1437,8
-2019-08-02,WAFF Championship,played,Iraq,IRQ,Palestine,,TRUE,2,1,win,Karbala,Iraq,FALSE,1603,1402,1609,1396,6
-2019-08-08,WAFF Championship,played,Iraq,IRQ,Syria,,TRUE,0,0,draw,Karbala,Iraq,FALSE,1609,1450,1596,1463,-13
-2019-08-11,WAFF Championship,played,Iraq,IRQ,Yemen,,TRUE,2,1,win,Karbala,Iraq,FALSE,1596,1197,1598,1195,2
-2019-08-14,WAFF Championship,played,Iraq,IRQ,Bahrain,,TRUE,0,1,loss,Karbala,Iraq,FALSE,1598,1469,1566,1501,-32
-2019-09-05,FIFA World Cup qualification,played,Iraq,IRQ,Bahrain,,FALSE,1,1,draw,Riffa,Bahrain,FALSE,1566,1501,1568,1499,2
-2019-09-09,Friendly,played,Iraq,IRQ,Uzbekistan,,TRUE,0,0,draw,Amman,Jordan,TRUE,1568,1587,1569,1586,1
-2019-10-10,FIFA World Cup qualification,played,Iraq,IRQ,Hong Kong,,TRUE,2,0,win,Basra,Iraq,FALSE,1569,1173,1572,1170,3
-2019-10-15,FIFA World Cup qualification,played,Iraq,IRQ,Cambodia,,FALSE,4,0,win,Phnom Penh,Cambodia,FALSE,1572,852,1574,850,2
-2019-11-14,FIFA World Cup qualification,played,Iraq,IRQ,Iran,IRN,TRUE,2,1,win,Amman,Jordan,TRUE,1574,1769,1604,1739,30
-2019-11-19,FIFA World Cup qualification,played,Iraq,IRQ,Bahrain,,TRUE,0,0,draw,Amman,Jordan,TRUE,1604,1504,1598,1510,-6
-2019-11-26,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,FALSE,2,1,win,Doha,Qatar,FALSE,1598,1720,1629,1689,31
-2019-11-29,Gulf Cup,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,2,0,win,Doha,Qatar,TRUE,1629,1477,1647,1459,18
-2019-12-02,Gulf Cup,played,Iraq,IRQ,Yemen,,FALSE,0,0,draw,Doha,Qatar,TRUE,1647,1193,1630,1210,-17
-2019-12-05,Gulf Cup,played,Iraq,IRQ,Bahrain,,TRUE,2,2,draw,Doha,Qatar,TRUE,1630,1506,1623,1513,-7
-2020-11-12,Friendly,played,Iraq,IRQ,Jordan,,FALSE,0,0,draw,Dubai,United Arab Emirates,TRUE,1623,1478,1619,1482,-4
-2020-11-17,Friendly,played,Iraq,IRQ,Uzbekistan,,FALSE,2,1,win,Dubai,United Arab Emirates,TRUE,1619,1560,1627,1552,8
-2021-01-12,Friendly,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,0,0,draw,Dubai,United Arab Emirates,FALSE,1627,1429,1624,1432,-3
-2021-01-27,Friendly,played,Iraq,IRQ,Kuwait,KWT,TRUE,2,1,win,Basra,Iraq,FALSE,1624,1408,1627,1405,3
-2021-03-29,Friendly,played,Iraq,IRQ,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1627,1564,1638,1553,11
-2021-05-24,Friendly,played,Iraq,IRQ,Tajikistan,,TRUE,0,0,draw,Basra,Iraq,FALSE,1638,1243,1629,1252,-9
-2021-05-29,Friendly,played,Iraq,IRQ,Nepal,,TRUE,6,2,win,Basra,Iraq,FALSE,1629,912,1629,912,0
-2021-06-07,FIFA World Cup qualification,played,Iraq,IRQ,Cambodia,,TRUE,4,1,win,Arad,Iran,TRUE,1629,839,1630,838,1
-2021-06-11,FIFA World Cup qualification,played,Iraq,IRQ,Hong Kong,,FALSE,1,0,win,Arad,Iran,TRUE,1630,1169,1633,1166,3
-2021-06-15,FIFA World Cup qualification,played,Iraq,IRQ,Iran,IRN,FALSE,0,1,loss,Arad,Iran,FALSE,1633,1793,1622,1804,-11
-2021-09-02,FIFA World Cup qualification,played,Iraq,IRQ,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1622,1764,1634,1752,12
-2021-09-07,FIFA World Cup qualification,played,Iraq,IRQ,Iran,IRN,TRUE,0,3,loss,Doha,Qatar,TRUE,1634,1807,1615,1826,-19
-2021-10-07,FIFA World Cup qualification,played,Iraq,IRQ,Lebanon,,TRUE,0,0,draw,Doha,Qatar,TRUE,1615,1373,1603,1385,-12
-2021-10-12,FIFA World Cup qualification,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,2,2,draw,Dubai,United Arab Emirates,FALSE,1603,1470,1601,1472,-2
-2021-11-11,FIFA World Cup qualification,played,Iraq,IRQ,Syria,,TRUE,1,1,draw,Al Rayyan,Qatar,TRUE,1601,1420,1591,1430,-10
-2021-11-16,FIFA World Cup qualification,played,Iraq,IRQ,South Korea,KOR,TRUE,0,3,loss,Al Rayyan,Qatar,TRUE,1591,1770,1573,1788,-18
-2021-11-30,Arab Cup,played,Iraq,IRQ,Oman,,TRUE,1,1,draw,Al Wakrah,Qatar,TRUE,1573,1506,1569,1510,-4
-2021-12-03,Arab Cup,played,Iraq,IRQ,Bahrain,,FALSE,0,0,draw,Doha,Qatar,TRUE,1569,1543,1568,1544,-1
-2021-12-06,Arab Cup,played,Iraq,IRQ,Qatar,QAT,FALSE,0,3,loss,Al Khor,Qatar,FALSE,1568,1660,1551,1677,-17
-2022-01-21,Friendly,played,Iraq,IRQ,Uganda,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1551,1463,1556,1458,5
-2022-01-27,FIFA World Cup qualification,played,Iraq,IRQ,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1556,1837,1552,1841,-4
-2022-02-01,FIFA World Cup qualification,played,Iraq,IRQ,Lebanon,,FALSE,1,1,draw,Sidon,Lebanon,FALSE,1552,1378,1548,1382,-4
-2022-03-18,Friendly,played,Iraq,IRQ,Zambia,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1548,1424,1554,1418,6
-2022-03-24,FIFA World Cup qualification,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1554,1502,1571,1485,17
-2022-03-29,FIFA World Cup qualification,played,Iraq,IRQ,Syria,,FALSE,1,1,draw,Dubai,United Arab Emirates,TRUE,1571,1448,1564,1455,-7
-2022-09-23,Jordan International Tournament,played,Iraq,IRQ,Oman,,TRUE,1,1,draw,Amman,Jordan,TRUE,1564,1559,1564,1559,0
-2022-09-26,Jordan International Tournament,played,Iraq,IRQ,Syria,,TRUE,1,0,win,Amman,Jordan,TRUE,1564,1450,1574,1440,10
-2022-11-09,Friendly,played,Iraq,IRQ,Mexico,MEX,FALSE,0,4,loss,Girona,Spain,TRUE,1574,1812,1566,1820,-8
-2022-11-12,Friendly,played,Iraq,IRQ,Ecuador,ECU,TRUE,0,0,draw,Madrid,Spain,TRUE,1566,1840,1573,1833,7
-2022-12-30,Friendly,played,Iraq,IRQ,Kuwait,KWT,TRUE,1,0,win,Basra,Iraq,FALSE,1573,1317,1575,1315,2
-2023-01-06,Gulf Cup,played,Iraq,IRQ,Oman,,TRUE,0,0,draw,Basra,Iraq,FALSE,1575,1568,1569,1574,-6
-2023-01-09,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,2,0,win,Basra,Iraq,FALSE,1569,1646,1597,1618,28
-2023-01-12,Gulf Cup,played,Iraq,IRQ,Yemen,,TRUE,5,0,win,Basra,Iraq,FALSE,1597,1095,1599,1093,2
-2023-01-16,Gulf Cup,played,Iraq,IRQ,Qatar,QAT,TRUE,2,1,win,Basra,Iraq,FALSE,1599,1557,1611,1545,12
-2023-01-19,Gulf Cup,played,Iraq,IRQ,Oman,,TRUE,3,2,win,Basra,Iraq,FALSE,1611,1614,1626,1599,15
-2023-03-26,Friendly,played,Iraq,IRQ,Russia,RUS,FALSE,0,2,loss,Saint Petersburg,Russia,FALSE,1626,1757,1620,1763,-6
-2023-06-16,Friendly,played,Iraq,IRQ,Colombia,COL,FALSE,0,1,loss,Valencia,Spain,TRUE,1620,1929,1617,1932,-3
-2023-09-07,King's Cup,played,Iraq,IRQ,India,,TRUE,2,2,draw,Chiang Mai,Thailand,TRUE,1617,1271,1606,1282,-11
-2023-09-10,King's Cup,played,Iraq,IRQ,Thailand,,FALSE,2,2,draw,Chiang Mai,Thailand,FALSE,1606,1385,1601,1390,-5
-2023-10-13,Friendly,played,Iraq,IRQ,Qatar,QAT,TRUE,0,0,draw,Amman,Jordan,TRUE,1601,1511,1597,1515,-4
-2023-11-16,FIFA World Cup qualification,played,Iraq,IRQ,Indonesia,IDN,TRUE,5,1,win,Basra,Iraq,FALSE,1600,1300,1607,1293,7
-2023-11-21,FIFA World Cup qualification,played,Iraq,IRQ,Vietnam,,FALSE,1,0,win,Hanoi,Vietnam,FALSE,1607,1407,1621,1393,14
-2024-01-06,Friendly,played,Iraq,IRQ,South Korea,KOR,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1621,1799,1616,1804,-5
-2024-01-15,AFC Asian Cup,played,Iraq,IRQ,Indonesia,IDN,FALSE,3,1,win,Doha,Qatar,TRUE,1616,1262,1625,1253,9
-2024-01-19,AFC Asian Cup,played,Iraq,IRQ,Japan,JPN,TRUE,2,1,win,Al Rayyan,Qatar,TRUE,1625,1913,1667,1871,42
-2024-01-24,AFC Asian Cup,played,Iraq,IRQ,Vietnam,,TRUE,3,2,win,Doha,Qatar,TRUE,1667,1343,1674,1336,7
-2024-01-29,AFC Asian Cup,played,Iraq,IRQ,Jordan,,TRUE,2,3,loss,Al Rayyan,Qatar,TRUE,1674,1519,1639,1554,-35
-2024-03-21,FIFA World Cup qualification,played,Iraq,IRQ,Philippines,,TRUE,1,0,win,Basra,Iraq,FALSE,1639,1053,1640,1052,1
-2024-03-26,FIFA World Cup qualification,played,Iraq,IRQ,Philippines,,FALSE,5,0,win,Manila,Philippines,FALSE,1640,1052,1645,1047,5
-2024-06-06,FIFA World Cup qualification,played,Iraq,IRQ,Indonesia,IDN,FALSE,2,0,win,Jakarta,Indonesia,FALSE,1645,1341,1659,1327,14
-2024-06-11,FIFA World Cup qualification,played,Iraq,IRQ,Vietnam,,TRUE,3,1,win,Basra,Iraq,FALSE,1659,1276,1663,1272,4
-2024-09-05,FIFA World Cup qualification,played,Iraq,IRQ,Oman,,TRUE,1,0,win,Basra,Iraq,FALSE,1663,1532,1671,1524,8
-2024-09-10,FIFA World Cup qualification,played,Iraq,IRQ,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1671,1344,1660,1355,-11
-2024-10-10,FIFA World Cup qualification,played,Iraq,IRQ,Palestine,,TRUE,1,0,win,Basra,Iraq,FALSE,1660,1410,1665,1405,5
-2024-10-15,FIFA World Cup qualification,played,Iraq,IRQ,South Korea,KOR,FALSE,2,3,loss,Yongin,South Korea,FALSE,1665,1774,1656,1783,-9
-2024-11-14,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,TRUE,0,0,draw,Basra,Iraq,FALSE,1656,1620,1649,1627,-7
-2024-11-19,FIFA World Cup qualification,played,Iraq,IRQ,Oman,,FALSE,1,0,win,Muscat,Oman,FALSE,1649,1508,1667,1490,18
-2024-12-22,Gulf Cup,played,Iraq,IRQ,Yemen,,TRUE,1,0,win,Sulaibikhat,Kuwait,TRUE,1667,1092,1668,1091,1
-2024-12-25,Gulf Cup,played,Iraq,IRQ,Bahrain,,FALSE,0,2,loss,Kuwait City,Kuwait,TRUE,1668,1483,1623,1528,-45
-2024-12-28,Gulf Cup,played,Iraq,IRQ,Saudi Arabia,SAU,TRUE,1,3,loss,Kuwait City,Kuwait,TRUE,1623,1520,1584,1559,-39
-2025-03-20,FIFA World Cup qualification,played,Iraq,IRQ,Kuwait,KWT,TRUE,2,2,draw,Basra,Iraq,FALSE,1584,1322,1568,1338,-16
-2025-03-25,FIFA World Cup qualification,played,Iraq,IRQ,Palestine,,FALSE,1,2,loss,Amman,Jordan,TRUE,1568,1398,1539,1427,-29
-2025-06-05,FIFA World Cup qualification,played,Iraq,IRQ,South Korea,KOR,TRUE,0,2,loss,Basra,Iraq,FALSE,1539,1746,1518,1767,-21
-2025-06-10,FIFA World Cup qualification,played,Iraq,IRQ,Jordan,,FALSE,1,0,win,Amman,Jordan,FALSE,1518,1656,1550,1624,32
-2025-09-04,King's Cup,played,Iraq,IRQ,Hong Kong,,TRUE,2,1,win,Kanchanaburi,Thailand,TRUE,1550,1137,1553,1134,3
-2025-09-07,King's Cup,played,Iraq,IRQ,Thailand,,FALSE,1,0,win,Kanchanaburi,Thailand,FALSE,1553,1362,1564,1351,11
-2025-10-11,FIFA World Cup qualification,played,Iraq,IRQ,Indonesia,IDN,TRUE,1,0,win,Jeddah,Saudi Arabia,TRUE,1564,1350,1573,1341,9
-2025-10-14,FIFA World Cup qualification,played,Iraq,IRQ,Saudi Arabia,SAU,FALSE,0,0,draw,Jeddah,Saudi Arabia,FALSE,1573,1592,1580,1585,7
-2025-11-13,FIFA World Cup qualification,played,Iraq,IRQ,United Arab Emirates,ARE,FALSE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1580,1548,1584,1544,4
-2025-11-18,FIFA World Cup qualification,played,Iraq,IRQ,United Arab Emirates,ARE,TRUE,2,1,win,Basra,Iraq,FALSE,1584,1544,1596,1532,12
-2025-12-03,Arab Cup,played,Iraq,IRQ,Bahrain,,TRUE,2,1,win,Doha,Qatar,TRUE,1596,1410,1606,1400,10
-2025-12-06,Arab Cup,played,Iraq,IRQ,Sudan,,FALSE,2,0,win,Doha,Qatar,TRUE,1606,1396,1620,1382,14
-2025-12-09,Arab Cup,played,Iraq,IRQ,Algeria,DZA,FALSE,0,2,loss,Al Rayyan,Qatar,TRUE,1620,1713,1598,1735,-22
-2025-12-12,Arab Cup,played,Iraq,IRQ,Jordan,,FALSE,0,1,loss,Al Rayyan,Qatar,TRUE,1598,1669,1582,1685,-16
-2026-03-31,FIFA World Cup qualification,played,Iraq,IRQ,Bolivia,BOL,TRUE,2,1,win,Guadalupe,Mexico,TRUE,1582,1670,1607,1645,25
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1960-06-05,Friendly,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,FALSE,1,2,loss,Tunis,Tunisia,FALSE,1678,1566,1668,1576,-10
+,,,1960-12-23,Friendly,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,TRUE,3,2,win,Baghdad,Iraq,FALSE,1668,1499,1672,1495,4
+,,,1964-11-13,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1622,1197,1627,1192,5
+,,,1964-11-16,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,TRUE,1,0,win,Kuwait City,Kuwait,TRUE,,,,,
+,,,1964-11-17,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Libya,,,,TRUE,1,1,draw,Kuwait City,Kuwait,TRUE,,,,,
+,,,1965-07-30,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,0,draw,Amman,Jordan,FALSE,1629,1100,1621,1108,-8
+,,,1966-03-14,Friendly,played,Iraq,IRQ,IRQ,AFC,Libya,,,,FALSE,2,0,win,Tripoli,Libya,FALSE,,,,,
+,,,1966-03-18,Friendly,played,Iraq,IRQ,IRQ,AFC,Morocco,MAR,MAR,CAF,TRUE,0,1,loss,Tripoli,Libya,TRUE,,,,,
+,,,1966-03-19,Friendly,played,Iraq,IRQ,IRQ,AFC,Morocco,MAR,MAR,CAF,TRUE,1,2,loss,Tripoli,Libya,TRUE,1629,1649,1615,1663,-14
+,,,1966-04-01,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,1,win,Baghdad,Iraq,FALSE,1615,1190,1618,1187,3
+,,,1966-04-02,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,2,1,win,Baghdad,Iraq,FALSE,1618,1108,1619,1107,1
+,,,1966-04-05,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,10,1,win,Baghdad,Iraq,FALSE,1619,1179,1623,1175,4
+,,,1966-04-07,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1623,1416,1609,1430,-14
+,,,1966-04-09,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Libya,,,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1609,1485,1622,1472,13
+,,,1966-04-10,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,2,1,win,Baghdad,Iraq,FALSE,1622,1430,1628,1424,6
+,,,1967-02-12,Friendly,played,Iraq,IRQ,IRQ,AFC,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1628,1831,1631,1828,3
+,,,1967-03-10,Friendly,played,Iraq,IRQ,IRQ,AFC,Sudan,,,,TRUE,2,2,draw,Tripoli,Libya,TRUE,1631,1649,1632,1648,1
+,,,1967-03-12,Friendly,played,Iraq,IRQ,IRQ,AFC,Libya,,,,FALSE,1,0,win,Tripoli,Libya,FALSE,1632,1472,1644,1460,12
+,,,1969-03-07,Friendly,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Tehran,Iran,FALSE,1610,1635,1600,1645,-10
+,,,1969-03-10,Friendly,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,TRUE,1,2,loss,Tehran,Iran,TRUE,1600,1285,1574,1311,-26
+,,,1969-11-18,Friendly,played,Iraq,IRQ,IRQ,AFC,Poland,POL,POL,UEFA,TRUE,1,1,draw,Baghdad,Iraq,FALSE,,,,,
+,,,1969-12-08,Friendly,played,Iraq,IRQ,IRQ,AFC,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1558,1874,1564,1868,6
+,,,1970-07-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Poland,POL,POL,UEFA,FALSE,0,2,loss,Szczecin,Poland,FALSE,1557,1797,1553,1801,-4
+,,,1970-07-26,Friendly,played,Iraq,IRQ,IRQ,AFC,German DR,DDR,DDR,UEFA,FALSE,0,5,loss,Jena,German DR,FALSE,1553,1889,1550,1892,-3
+,,,1971-01-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,0,win,Kuwait City,Kuwait,FALSE,1550,1346,1554,1342,4
+,,,1971-11-19,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,1,win,Baghdad,Iraq,FALSE,1581,1342,1585,1338,4
+,,,1971-12-10,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1572,1332,1564,1340,-8
+,,,1971-12-13,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Sri Lanka,,,,TRUE,5,0,win,Kuwait City,Kuwait,TRUE,1564,1033,1568,1029,4
+,,,1971-12-15,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,1,0,win,Kuwait City,Kuwait,TRUE,1568,1132,1571,1129,3
+,,,1971-12-18,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,2,0,win,Kuwait City,Kuwait,TRUE,1571,1157,1576,1152,5
+,,,1971-12-22,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,TRUE,4,1,win,Kuwait City,Kuwait,TRUE,1576,1358,1592,1342,16
+,,,1971-12-24,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1592,1360,1605,1347,13
+,,,1972-01-01,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1605,1690,1604,1691,-1
+,,,1972-01-05,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Libya,,,,TRUE,3,0,win,Baghdad,Iraq,FALSE,1604,1452,1617,1439,13
+,,,1972-01-07,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,1,win,Baghdad,Iraq,FALSE,1617,1366,1624,1359,7
+,,,1972-01-12,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Algeria,DZA,DZA,CAF,TRUE,3,1,win,Baghdad,Iraq,FALSE,1624,1563,1641,1546,17
+,,,1972-01-14,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,TRUE,1,3,loss,Baghdad,Iraq,FALSE,1641,1697,1607,1731,-34
+,,,1972-05-07,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Bangkok,Thailand,TRUE,1607,1597,1606,1598,-1
+,,,1972-05-09,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,3,loss,Bangkok,Thailand,TRUE,1606,1649,1568,1687,-38
+,,,1972-05-11,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1568,1211,1552,1227,-16
+,,,1973-03-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,FALSE,1,3,loss,Sydney,Australia,FALSE,1552,1675,1539,1688,-13
+,,,1973-03-13,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,New Zealand,NZL,NZL,OFC,TRUE,2,0,win,Sydney,Australia,TRUE,1539,1500,1566,1473,27
+,,,1973-03-16,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,TRUE,1,1,draw,Sydney,Australia,TRUE,1566,1401,1557,1410,-9
+,,,1973-03-18,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,FALSE,0,0,draw,Melbourne,Australia,FALSE,1557,1677,1568,1666,11
+,,,1973-03-21,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,TRUE,3,2,win,Sydney,Australia,TRUE,1568,1434,1581,1421,13
+,,,1973-03-24,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,New Zealand,NZL,NZL,OFC,TRUE,4,0,win,Sydney,Australia,TRUE,1581,1464,1606,1439,25
+,,,1973-08-13,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,2,0,win,Benghazi,Libya,TRUE,,,,,
+,,,1973-08-15,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Algeria,DZA,DZA,CAF,FALSE,0,0,draw,Benghazi,Libya,TRUE,1607,1535,1603,1539,-4
+,,,1973-08-18,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Libya,,,,FALSE,0,0,draw,Benghazi,Libya,FALSE,1603,1417,1598,1422,-5
+,,,1973-08-20,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,3,1,win,Benghazi,Libya,TRUE,1598,1065,1601,1062,3
+,,,1973-08-23,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,TRUE,0,2,loss,Tripoli,Libya,TRUE,1601,1663,1576,1688,-25
+,,,1973-08-25,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Algeria,DZA,DZA,CAF,FALSE,0,0,draw,Tripoli,Libya,TRUE,1576,1566,1575,1567,-1
+,,,1974-02-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Morocco,MAR,MAR,CAF,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1575,1630,1574,1631,-1
+,,,1974-02-24,Friendly,played,Iraq,IRQ,IRQ,AFC,Morocco,MAR,MAR,CAF,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1574,1631,1573,1632,-1
+,,,1974-05-02,Friendly,played,Iraq,IRQ,IRQ,AFC,Yemen DPR,,,,FALSE,0,2,loss,Aden,Yemen DPR,FALSE,,,,,
+,,,1974-06-02,Friendly,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,FALSE,1,2,loss,Tunis,Tunisia,FALSE,1548,1701,1544,1705,-4
+,,,1974-06-07,Friendly,played,Iraq,IRQ,IRQ,AFC,Libya,,,,FALSE,0,1,loss,Tripoli,Libya,FALSE,1544,1384,1532,1396,-12
+,,,1974-08-14,Friendly,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1532,1120,1534,1118,2
+,,,1974-09-02,Asian Games,played,Iraq,IRQ,IRQ,AFC,India,,,,FALSE,3,0,win,Tehran,Iran,TRUE,1534,1366,1553,1347,19
+,,,1974-09-04,Asian Games,played,Iraq,IRQ,IRQ,AFC,North Korea,PRK,PRK,AFC,FALSE,1,0,win,Tehran,Iran,TRUE,1553,1633,1578,1608,25
+,,,1974-09-06,Asian Games,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,1,0,win,Tehran,Iran,TRUE,,,,,
+,,,1974-09-09,Asian Games,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Tehran,Iran,TRUE,1601,1576,1600,1577,-1
+,,,1974-09-11,Asian Games,played,Iraq,IRQ,IRQ,AFC,Malaysia,,,,FALSE,0,0,draw,Tehran,Iran,TRUE,1600,1444,1592,1452,-8
+,,,1974-09-13,Asian Games,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1592,1644,1580,1656,-12
+,,,1975-01-01,Friendly,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1580,1631,1579,1632,-1
+,,,1975-01-09,Friendly,played,Iraq,IRQ,IRQ,AFC,Libya,,,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1579,1395,1584,1390,5
+,,,1975-04-02,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,1,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,1975-04-04,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Afghanistan,,,,TRUE,4,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,1975-04-06,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,1,draw,Baghdad,Iraq,FALSE,,,,,
+,,,1975-04-10,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,3,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,1975-04-12,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,Baghdad,Iraq,FALSE,,,,,
+,,,1975-04-14,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Afghanistan,,,,TRUE,3,1,win,Baghdad,Iraq,FALSE,,,,,
+,,,1975-12-21,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,5,0,win,Tunis,Tunisia,TRUE,1547,1083,1552,1078,5
+,,,1975-12-23,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,FALSE,1,1,draw,Tunis,Tunisia,FALSE,1552,1603,1560,1595,8
+,,,1975-12-26,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,4,0,win,Tunis,Tunisia,TRUE,,,,,
+,,,1975-12-28,Palestine Cup,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,FALSE,0,1,loss,Tunis,Tunisia,TRUE,1594,1690,1579,1705,-15
+,,,1976-02-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Turkey,TUR,TUR,UEFA,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1579,1667,1579,1667,0
+,,,1976-02-17,Friendly,played,Iraq,IRQ,IRQ,AFC,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1579,1905,1585,1899,6
+,,,1976-03-27,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,4,0,win,Doha,Qatar,TRUE,1585,841,1586,840,1
+,,,1976-03-29,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,4,1,win,Doha,Qatar,TRUE,1586,1097,1590,1093,4
+,,,1976-04-01,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,7,1,win,Doha,Qatar,TRUE,1590,1305,1604,1291,14
+,,,1976-04-03,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Doha,Qatar,FALSE,1604,1069,1587,1086,-17
+,,,1976-04-06,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,4,0,win,Doha,Qatar,TRUE,1587,1043,1590,1040,3
+,,,1976-04-08,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,2,draw,Doha,Qatar,TRUE,1590,1575,1589,1576,-1
+,,,1976-04-15,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,4,loss,Doha,Qatar,TRUE,1589,1585,1559,1615,-30
+,,,1976-06-04,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,2,loss,Tehran,Iran,FALSE,1559,1667,1542,1684,-17
+,,,1976-06-06,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Yemen DPR,,,,TRUE,1,0,win,Tehran,Iran,TRUE,,,,,
+,,,1976-06-11,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,3,loss,Tehran,Iran,TRUE,1549,1651,1531,1669,-18
+,,,1976-06-13,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,0,1,loss,Tehran,Iran,TRUE,,,,,
+,,,1976-09-05,Friendly,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1505,1256,1501,1260,-4
+,,,1976-10-20,Friendly,played,Iraq,IRQ,IRQ,AFC,Libya,,,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1501,1390,1506,1385,5
+,,,1976-10-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Libya,,,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1506,1385,1513,1378,7
+,,,1977-01-25,Friendly,played,Iraq,IRQ,IRQ,AFC,Uganda,,,,FALSE,1,1,draw,Kampala,Uganda,FALSE,1513,1527,1516,1524,3
+,,,1977-07-19,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Libya,,,,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1516,1359,1510,1365,-6
+,,,1977-07-21,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Myanmar,,,,FALSE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1510,1474,1534,1450,24
+,,,1977-07-23,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Malaysia,,,,FALSE,0,0,draw,Kuala Lumpur,Malaysia,FALSE,1534,1483,1536,1481,2
+,,,1977-07-25,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,5,0,win,Kuala Lumpur,Malaysia,TRUE,1536,1290,1548,1278,12
+,,,1977-07-28,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1548,1698,1554,1692,6
+,,,1977-07-31,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1554,1692,1545,1701,-9
+,,,1977-11-27,Friendly,played,Iraq,IRQ,IRQ,AFC,Morocco,MAR,MAR,CAF,TRUE,3,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,1977-12-03,Friendly,played,Iraq,IRQ,IRQ,AFC,Morocco,MAR,MAR,CAF,FALSE,0,0,draw,Casablanca,Morocco,FALSE,,,,,
+,,,1978-02-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Algeria,DZA,DZA,CAF,TRUE,3,0,win,Baghdad,Iraq,FALSE,1569,1525,1580,1514,11
+,,,1978-02-23,Friendly,played,Iraq,IRQ,IRQ,AFC,Algeria,DZA,DZA,CAF,TRUE,1,0,win,Baghdad,Iraq,FALSE,1580,1514,1586,1508,6
+,,,1978-02-27,Friendly,played,Iraq,IRQ,IRQ,AFC,North Korea,PRK,PRK,AFC,TRUE,1,0,win,Baghdad,Iraq,FALSE,1586,1607,1594,1599,8
+,,,1978-07-02,Friendly,played,Iraq,IRQ,IRQ,AFC,Algeria,DZA,DZA,CAF,FALSE,1,1,draw,Algiers,Algeria,FALSE,1594,1500,1594,1500,0
+,,,1978-07-04,Friendly,played,Iraq,IRQ,IRQ,AFC,Algeria,DZA,DZA,CAF,FALSE,0,0,draw,Algiers,Algeria,FALSE,1594,1500,1594,1500,0
+,,,1978-07-13,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1594,1458,1588,1464,-6
+,,,1978-07-15,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,2,1,win,Kuala Lumpur,Malaysia,TRUE,1588,1342,1594,1336,6
+,,,1978-07-17,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,FALSE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1594,1382,1607,1369,13
+,,,1978-07-18,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Malaysia,,,,FALSE,2,1,win,Kuala Lumpur,Malaysia,FALSE,,,,,
+,,,1978-07-20,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Singapore,,,,TRUE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1607,1137,1610,1134,3
+,,,1978-07-22,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1610,1756,1596,1770,-14
+,,,1978-07-24,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,1,0,win,Kuala Lumpur,Malaysia,TRUE,1596,1347,1602,1341,6
+,,,1978-07-29,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1616,1775,1603,1788,-13
+,,,1978-12-10,Asian Games,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,2,1,win,Bangkok,Thailand,TRUE,1603,1097,1605,1095,2
+,,,1978-12-12,Asian Games,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,2,0,win,Bangkok,Thailand,TRUE,,,,,
+,,,1978-12-14,Asian Games,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1636,1351,1622,1365,-14
+,,,1978-12-17,Asian Games,played,Iraq,IRQ,IRQ,AFC,North Korea,PRK,PRK,AFC,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1622,1638,1603,1657,-19
+,,,1978-12-18,Asian Games,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,0,win,Bangkok,Thailand,TRUE,1603,1682,1646,1639,43
+,,,1978-12-19,Asian Games,played,Iraq,IRQ,IRQ,AFC,India,,,,FALSE,3,0,win,Bangkok,Thailand,TRUE,1646,1236,1652,1230,6
+,,,1978-12-20,Asian Games,played,Iraq,IRQ,IRQ,AFC,China PR,,,,TRUE,0,1,loss,Bangkok,Thailand,TRUE,,,,,
+,,,1979-02-05,Friendly,played,Iraq,IRQ,IRQ,AFC,Finland,,,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1630,1491,1634,1487,4
+,,,1979-02-07,Friendly,played,Iraq,IRQ,IRQ,AFC,Finland,,,,TRUE,2,0,win,Baghdad,Iraq,FALSE,1634,1487,1640,1481,6
+,,,1979-02-09,Friendly,played,Iraq,IRQ,IRQ,AFC,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1640,1936,1645,1931,5
+,,,1979-02-11,Friendly,played,Iraq,IRQ,IRQ,AFC,German DR,DDR,DDR,UEFA,TRUE,2,1,win,Baghdad,Iraq,FALSE,1645,1931,1660,1916,15
+,,,1979-03-23,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1660,1104,1662,1102,2
+,,,1979-03-27,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,2,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,1979-03-30,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,1,win,Baghdad,Iraq,FALSE,,,,,
+,,,1979-04-04,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,5,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,1979-04-06,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,7,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,1979-04-08,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,0,win,Baghdad,Iraq,FALSE,1685,1396,1691,1390,6
+,,,1980-02-27,Friendly,played,Iraq,IRQ,IRQ,AFC,Poland,POL,POL,UEFA,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1691,1959,1695,1955,4
+,,,1980-02-29,Friendly,played,Iraq,IRQ,IRQ,AFC,Poland,POL,POL,UEFA,TRUE,1,0,win,Baghdad,Iraq,FALSE,1695,1955,1709,1941,14
+,,,1980-06-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Poland,POL,POL,UEFA,FALSE,0,3,loss,Warsaw,Poland,FALSE,1677,1916,1673,1920,-4
+,,,1981-02-06,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,2,0,win,Amman,Jordan,FALSE,1717,1142,1719,1140,2
+,,,1981-02-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,2,0,win,Amman,Jordan,FALSE,1719,1140,1721,1138,2
+,,,1981-03-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Morocco,MAR,MAR,CAF,FALSE,1,1,draw,Rabat,Morocco,FALSE,1721,1641,1722,1640,1
+,,,1981-03-18,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1722,1181,1724,1179,2
+,,,1981-03-21,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1724,1427,1694,1457,-30
+,,,1981-03-25,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,2,0,win,Riyadh,Saudi Arabia,TRUE,1694,1174,1697,1171,3
+,,,1981-03-30,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,2,1,win,Riyadh,Saudi Arabia,TRUE,1697,1282,1700,1279,3
+,,,1981-08-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Ghana,GHA,GHA,CAF,TRUE,4,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,1981-08-24,Friendly,played,Iraq,IRQ,IRQ,AFC,Ghana,GHA,GHA,CAF,TRUE,2,2,draw,Baghdad,Iraq,FALSE,,,,,
+,,,1981-09-10,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,7,1,win,Kuala Lumpur,Malaysia,TRUE,1699,1410,1709,1400,10
+,,,1981-09-13,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1709,1716,1709,1716,0
+,,,1981-09-16,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Singapore,,,,TRUE,4,0,win,Kuala Lumpur,Malaysia,TRUE,1709,1283,1713,1279,4
+,,,1981-09-18,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,TRUE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1713,1495,1723,1485,10
+,,,1982-03-02,Friendly,played,Iraq,IRQ,IRQ,AFC,German DR,DDR,DDR,UEFA,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1725,1913,1727,1911,2
+,,,1982-03-07,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,3,0,win,Baghdad,Iraq,FALSE,1729,1673,1739,1663,10
+,,,1982-03-10,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1739,1663,1734,1668,-5
+,,,1982-11-21,Asian Games,played,Iraq,IRQ,IRQ,AFC,Myanmar,,,,TRUE,4,0,win,New Delhi,India,TRUE,1716,1348,1724,1340,8
+,,,1982-11-23,Asian Games,played,Iraq,IRQ,IRQ,AFC,Nepal,,,,TRUE,3,0,win,New Delhi,India,TRUE,1724,935,1725,934,1
+,,,1982-11-25,Asian Games,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,2,loss,New Delhi,India,TRUE,1725,1648,1701,1672,-24
+,,,1982-11-28,Asian Games,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,FALSE,1,0,win,New Delhi,India,TRUE,1701,1545,1713,1533,12
+,,,1982-12-01,Asian Games,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,New Delhi,India,TRUE,1713,1442,1720,1435,7
+,,,1982-12-03,Asian Games,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,0,win,New Delhi,India,TRUE,1720,1710,1739,1691,19
+,,,1983-04-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,TRUE,2,1,win,Baghdad,Iraq,FALSE,,,,,
+,,,1984-02-27,Friendly,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,FALSE,2,1,win,Cairo,Egypt,FALSE,1674,1653,1686,1641,12
+,,,1984-02-29,Friendly,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,FALSE,0,0,draw,Cairo,Egypt,FALSE,1686,1641,1688,1639,2
+,,,1984-03-11,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,2,1,win,Muscat,Oman,FALSE,1688,819,1688,819,0
+,,,1984-03-15,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,0,draw,Muscat,Oman,TRUE,1688,1271,1671,1288,-17
+,,,1984-03-17,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,4,0,win,Muscat,Oman,TRUE,1671,1495,1691,1475,20
+,,,1984-03-20,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,0,win,Muscat,Oman,TRUE,1691,1267,1694,1264,3
+,,,1984-03-22,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,1,win,Muscat,Oman,TRUE,1694,1530,1711,1513,17
+,,,1984-03-25,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,1,2,loss,Muscat,Oman,TRUE,1711,1364,1676,1399,-35
+,,,1984-03-28,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,1,1,draw,Muscat,Oman,TRUE,1676,1399,1663,1412,-13
+,,,1985-03-29,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,3,2,win,Amman,Jordan,FALSE,1623,1179,1628,1174,5
+,,,1985-04-05,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,3,loss,Doha,Qatar,FALSE,1628,1510,1591,1547,-37
+,,,1985-04-19,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,2,0,win,Kuwait City,Kuwait,TRUE,1591,1165,1596,1160,5
+,,,1985-05-05,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,2,1,win,Calcutta,India,TRUE,1596,1551,1613,1534,17
+,,,1985-06-09,Korea Cup,played,Iraq,IRQ,IRQ,AFC,Canada,CAN,CAN,CONCACAF,FALSE,6,1,win,Gwangju,South Korea,TRUE,1613,1669,1648,1634,35
+,,,1985-06-15,Korea Cup,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Seoul,South Korea,FALSE,1648,1540,1625,1563,-23
+,,,1985-07-04,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,1,draw,Taif,Saudi Arabia,TRUE,1625,1354,1612,1367,-13
+,,,1985-07-08,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Mauritania,,,,TRUE,2,0,win,Taif,Saudi Arabia,TRUE,1612,1105,1615,1102,3
+,,,1985-07-10,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,3,2,win,Taif,Saudi Arabia,FALSE,1615,1596,1640,1571,25
+,,,1985-07-12,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,0,win,Taif,Saudi Arabia,TRUE,1640,1386,1648,1378,8
+,,,1985-09-20,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,3,2,win,Dubai,United Arab Emirates,FALSE,1694,1349,1702,1341,8
+,,,1985-09-27,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,2,loss,Taif,Saudi Arabia,TRUE,1702,1341,1666,1377,-36
+,,,1985-11-15,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,0,0,draw,Damascus,Syria,FALSE,1669,1374,1659,1384,-10
+,,,1985-11-29,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,3,1,win,Taif,Saudi Arabia,TRUE,1659,1390,1670,1379,11
+,,,1986-03-14,Friendly,played,Iraq,IRQ,IRQ,AFC,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1670,1797,1671,1796,1
+,,,1986-03-22,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,0,0,draw,Riffa,Bahrain,FALSE,1672,1335,1660,1347,-12
+,,,1986-03-24,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,2,2,draw,Riffa,Bahrain,TRUE,1660,1384,1647,1397,-13
+,,,1986-03-27,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,1,1,draw,Riffa,Bahrain,TRUE,1647,1510,1639,1518,-8
+,,,1986-03-30,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,2,loss,Riffa,Bahrain,TRUE,1639,1531,1613,1557,-26
+,,,1986-04-03,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,2,loss,Riffa,Bahrain,TRUE,1613,1575,1591,1597,-22
+,,,1986-04-06,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,3,2,win,Riffa,Bahrain,TRUE,1591,913,1592,912,1
+WC-1986,WC-1986_010,10,1986-06-04,FIFA World Cup,played,Iraq,IRQ,IRQ,AFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,1,loss,Toluca,Mexico,TRUE,1592,1812,1579,1825,-13
+WC-1986,WC-1986_024,24,1986-06-08,FIFA World Cup,played,Iraq,IRQ,IRQ,AFC,Belgium,BEL,BEL,UEFA,TRUE,1,2,loss,Toluca,Mexico,TRUE,1579,1804,1566,1817,-13
+WC-1986,WC-1986_030,30,1986-06-11,FIFA World Cup,played,Iraq,IRQ,IRQ,AFC,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1566,1850,1560,1856,-6
+,,,1986-09-21,Asian Games,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,4,0,win,Daegu,South Korea,TRUE,1560,942,1562,940,2
+,,,1986-09-23,Asian Games,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,FALSE,5,1,win,Daegu,South Korea,TRUE,1562,1100,1567,1095,5
+,,,1986-09-25,Asian Games,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,2,loss,Daegu,South Korea,TRUE,1567,1457,1541,1483,-26
+,,,1986-09-27,Asian Games,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,2,1,win,Daegu,South Korea,TRUE,1541,1212,1546,1207,5
+,,,1986-10-01,Asian Games,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,1,draw,Seoul,South Korea,TRUE,1546,1585,1548,1583,2
+,,,1987-02-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,2,loss,Kuwait City,Kuwait,FALSE,1548,1652,1541,1659,-7
+,,,1987-04-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,3,1,win,Manama,Bahrain,FALSE,1536,1302,1545,1293,9
+,,,1987-04-10,Friendly,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,2,1,win,Manama,Bahrain,FALSE,1545,1293,1551,1287,6
+,,,1988-02-25,Friendly,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,TRUE,2,0,win,Baghdad,Iraq,FALSE,1648,1479,1660,1467,12
+,,,1988-03-04,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,1,1,draw,Riyadh,Saudi Arabia,TRUE,1660,1045,1641,1064,-19
+,,,1988-03-08,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1641,1564,1657,1548,16
+,,,1988-03-10,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1657,1458,1647,1468,-10
+,,,1988-03-13,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,3,0,win,Riyadh,Saudi Arabia,TRUE,1647,1442,1663,1426,16
+,,,1988-03-16,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,0,win,Riyadh,Saudi Arabia,FALSE,1663,1516,1689,1490,26
+,,,1988-03-18,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1689,1321,1693,1317,4
+,,,1988-07-09,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,TRUE,1,1,draw,Amman,Jordan,TRUE,1693,1461,1681,1473,-12
+,,,1988-07-11,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,TRUE,0,0,draw,Amman,Jordan,TRUE,1681,1234,1664,1251,-17
+,,,1988-07-17,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,FALSE,0,0,draw,Amman,Jordan,TRUE,1678,1671,1678,1671,0
+,,,1988-07-19,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,3,0,win,Amman,Jordan,FALSE,1678,1321,1691,1308,13
+,,,1988-07-21,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,1,1,draw,Amman,Jordan,TRUE,1691,1502,1681,1512,-10
+,,,1989-01-06,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,1,1,draw,Muscat,Oman,FALSE,1707,1061,1689,1079,-18
+,,,1989-01-13,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,0,win,Amman,Jordan,FALSE,1689,1281,1695,1275,6
+,,,1989-01-20,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,1,loss,Doha,Qatar,FALSE,1695,1441,1667,1469,-28
+,,,1989-01-27,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1667,1082,1668,1081,1
+,,,1989-02-03,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1668,1290,1672,1286,4
+,,,1989-02-10,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,2,2,draw,Baghdad,Iraq,FALSE,1672,1468,1658,1482,-14
+,,,1989-10-15,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Baghdad,Iraq,FALSE,1658,1499,1662,1495,4
+,,,1989-10-31,Friendly,played,Iraq,IRQ,IRQ,AFC,Guinea,,,,FALSE,0,1,loss,Kuwait City,Kuwait,TRUE,1662,1433,1638,1457,-24
+,,,1989-11-03,Friendly,played,Iraq,IRQ,IRQ,AFC,Yemen DPR,,,,TRUE,6,2,win,Kuwait City,Kuwait,TRUE,,,,,
+,,,1989-11-05,Friendly,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1641,1603,1639,1605,-2
+,,,1989-11-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,1,win,Kuwait City,Kuwait,FALSE,1639,1501,1652,1488,13
+,,,1989-11-12,Friendly,played,Iraq,IRQ,IRQ,AFC,Uganda,,,,TRUE,1,1,draw,Kuwait City,Kuwait,TRUE,1652,1496,1646,1502,-6
+,,,1990-02-15,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Baghdad,Iraq,FALSE,1646,1744,1646,1744,0
+,,,1990-06-01,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,2,0,win,Amman,Jordan,FALSE,,,,,
+,,,1992-08-18,Jordan International Tournament,played,Iraq,IRQ,IRQ,AFC,Ethiopia,,,,FALSE,13,0,win,Irbid,Jordan,TRUE,1646,1453,1668,1431,22
+,,,1992-08-20,Jordan International Tournament,played,Iraq,IRQ,IRQ,AFC,Congo,,,,FALSE,3,0,win,Irbid,Jordan,TRUE,1668,1474,1681,1461,13
+,,,1992-08-26,Jordan International Tournament,played,Iraq,IRQ,IRQ,AFC,Moldova,,,,TRUE,1,0,win,Irbid,Jordan,TRUE,1681,1483,1688,1476,7
+,,,1992-08-28,Jordan International Tournament,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,2,loss,Amman,Jordan,FALSE,1688,1366,1653,1401,-35
+,,,1993-04-25,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,1,1,draw,Changwon,South Korea,FALSE,1653,1644,1656,1641,3
+,,,1993-04-28,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,2,2,draw,Ulsan,South Korea,FALSE,1656,1641,1658,1639,2
+,,,1993-05-24,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,1,draw,Irbid,Jordan,FALSE,1658,1393,1649,1402,-9
+,,,1993-05-26,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,FALSE,6,1,win,Irbid,Jordan,TRUE,1649,1209,1655,1203,6
+,,,1993-05-28,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,FALSE,8,0,win,Irbid,Jordan,TRUE,1655,979,1657,977,2
+,,,1993-05-30,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,TRUE,1,0,win,Irbid,Jordan,TRUE,,,,,
+,,,1993-06-14,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,4,0,win,Chengdu,China PR,TRUE,1668,1361,1679,1350,11
+,,,1993-06-16,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,3,0,win,Chengdu,China PR,TRUE,1679,1256,1685,1250,6
+,,,1993-06-18,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,TRUE,4,0,win,Chengdu,China PR,TRUE,1685,957,1686,956,1
+,,,1993-06-20,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,1,2,loss,Chengdu,China PR,FALSE,,,,,
+,,,1993-10-15,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,North Korea,PRK,PRK,AFC,FALSE,2,3,loss,Doha,Qatar,TRUE,1661,1566,1636,1591,-25
+,,,1993-10-19,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,2,2,draw,Doha,Qatar,TRUE,1636,1669,1638,1667,2
+,,,1993-10-22,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,2,1,win,Doha,Qatar,TRUE,1638,1582,1655,1565,17
+,,,1993-10-24,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,1,draw,Doha,Qatar,TRUE,1655,1663,1655,1663,0
+,,,1993-10-28,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,TRUE,2,2,draw,Doha,Qatar,TRUE,1655,1645,1654,1646,-1
+,,,1995-03-08,Nehru Cup,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,TRUE,3,1,win,Calcutta,India,TRUE,,,,,
+,,,1995-03-12,Nehru Cup,played,Iraq,IRQ,IRQ,AFC,India,,,,FALSE,1,1,draw,Calcutta,India,FALSE,1654,1087,1637,1104,-17
+,,,1995-03-14,Nehru Cup,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,3,1,win,Calcutta,India,TRUE,1637,1372,1648,1361,11
+,,,1995-07-21,Merdeka Tournament,played,Iraq,IRQ,IRQ,AFC,Malaysia,,,,FALSE,2,1,win,Kuala Lumpur,Malaysia,FALSE,1648,1260,1653,1255,5
+,,,1996-08-11,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,TRUE,3,0,win,Amman,Jordan,TRUE,,,,,
+,,,1996-08-13,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,0,win,Amman,Jordan,FALSE,,,,,
+,,,1996-11-24,Friendly,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,FALSE,4,0,win,Genoa,Italy,TRUE,,,,,
+,,,1996-12-05,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,2,1,win,Dubai,United Arab Emirates,TRUE,1666,1571,1684,1553,18
+,,,1996-12-08,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Dubai,United Arab Emirates,TRUE,1684,1621,1655,1650,-29
+,,,1996-12-11,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,4,1,win,Dubai,United Arab Emirates,TRUE,1655,1422,1673,1404,18
+,,,1996-12-15,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1673,1583,1649,1607,-24
+,,,1997-02-16,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1649,1341,1651,1339,2
+,,,1997-03-30,Nehru Cup,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,2,0,win,Kochi,India,TRUE,,,,,
+,,,1997-04-06,Nehru Cup,played,Iraq,IRQ,IRQ,AFC,India,,,,FALSE,1,0,win,Kochi,India,FALSE,1653,1061,1655,1059,2
+,,,1997-04-10,Nehru Cup,played,Iraq,IRQ,IRQ,AFC,India,,,,FALSE,1,1,draw,Kochi,India,FALSE,1655,1059,1637,1077,-18
+,,,1997-05-23,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,FALSE,6,2,win,Lahore,Pakistan,FALSE,1642,870,1644,868,2
+,,,1997-06-06,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kazakhstan,,,,TRUE,1,2,loss,Baghdad,Iraq,FALSE,1644,1471,1611,1504,-33
+,,,1997-06-20,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,TRUE,6,1,win,Baghdad,Iraq,FALSE,1611,864,1612,863,1
+,,,1997-06-29,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kazakhstan,,,,FALSE,1,3,loss,Almaty,Kazakhstan,FALSE,1612,1508,1582,1538,-30
+,,,1997-08-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,FALSE,2,0,win,Beirut,Lebanon,FALSE,1582,1424,1595,1411,13
+,,,1999-06-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,0,win,Amman,Jordan,FALSE,1605,1456,1614,1447,9
+,,,1999-06-30,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,1,draw,Amman,Jordan,FALSE,1614,1447,1612,1449,-2
+,,,1999-08-03,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Tajikistan,,,,FALSE,2,1,win,Dushanbe,Tajikistan,FALSE,1612,1436,1628,1420,16
+,,,1999-08-05,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,2,0,win,Dushanbe,Tajikistan,TRUE,1628,1389,1640,1377,12
+,,,1999-08-07,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kyrgyzstan,,,,TRUE,5,1,win,Dushanbe,Tajikistan,TRUE,1640,1208,1646,1202,6
+,,,1999-10-30,United Arab Emirates Friendship Tournament,played,Iraq,IRQ,IRQ,AFC,Estonia,,,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1634,1300,1623,1311,-11
+,,,1999-11-01,United Arab Emirates Friendship Tournament,played,Iraq,IRQ,IRQ,AFC,Turkmenistan,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,TRUE,1623,1449,1637,1435,14
+,,,1999-11-03,United Arab Emirates Friendship Tournament,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1637,1503,1636,1504,-1
+,,,2000-05-23,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,FALSE,2,1,win,Amman,Jordan,TRUE,1636,1418,1645,1409,9
+,,,2000-05-25,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,0,draw,Amman,Jordan,FALSE,1645,1494,1642,1497,-3
+,,,2000-05-27,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Kyrgyzstan,,,,TRUE,4,0,win,Amman,Jordan,TRUE,1642,1182,1647,1177,5
+,,,2000-05-31,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,0,0,draw,Amman,Jordan,TRUE,1647,1534,1641,1540,-6
+,,,2000-06-02,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,4,1,win,Amman,Jordan,FALSE,1641,1476,1670,1447,29
+,,,2000-08-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Taiwan,,,,TRUE,3,0,win,Jakarta,Indonesia,TRUE,,,,,
+,,,2000-08-30,Friendly,played,Iraq,IRQ,IRQ,AFC,Myanmar,,,,FALSE,1,0,win,Jakarta,Indonesia,TRUE,,,,,
+,,,2000-09-01,Friendly,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,0,draw,Jakarta,Indonesia,FALSE,,,,,
+,,,2000-09-02,Friendly,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,TRUE,2,0,win,Shanghai,China PR,TRUE,,,,,
+,,,2000-09-03,Friendly,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,1,4,loss,Shanghai,China PR,FALSE,,,,,
+,,,2000-09-03,Friendly,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,3,loss,Jakarta,Indonesia,FALSE,,,,,
+,,,2000-10-12,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,2,0,win,Tripoli,Lebanon,TRUE,1667,1499,1688,1478,21
+,,,2000-10-15,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,FALSE,2,2,draw,Beirut,Lebanon,FALSE,1688,1409,1676,1421,-12
+,,,2000-10-18,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Sidon,Lebanon,TRUE,1676,1744,1656,1764,-20
+,,,2000-10-24,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,FALSE,1,4,loss,Beirut,Lebanon,TRUE,1656,1722,1620,1758,-36
+,,,2001-01-31,Friendly,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,FALSE,0,0,draw,Beirut,Lebanon,FALSE,1620,1419,1617,1422,-3
+,,,2001-04-12,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Macau,,,,TRUE,8,0,win,Baghdad,Iraq,FALSE,,,,,
+,,,2001-04-14,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Nepal,,,,TRUE,9,1,win,Baghdad,Iraq,FALSE,1618,783,1618,783,0
+,,,2001-04-16,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kazakhstan,,,,TRUE,1,1,draw,Baghdad,Iraq,FALSE,1618,1444,1605,1457,-13
+,,,2001-04-21,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Macau,,,,FALSE,5,0,win,Almaty,Kazakhstan,TRUE,,,,,
+,,,2001-04-23,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Nepal,,,,TRUE,4,2,win,Almaty,Kazakhstan,TRUE,1606,834,1607,833,1
+,,,2001-04-25,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kazakhstan,,,,FALSE,1,1,draw,Almaty,Kazakhstan,FALSE,1607,1460,1604,1463,-3
+,,,2001-05-17,Friendly,played,Iraq,IRQ,IRQ,AFC,Andalusia,,,,FALSE,1,3,loss,Vélez-Málaga,Spain,FALSE,,,,,
+,,,2001-07-29,Friendly,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,0,1,loss,Muscat,Oman,FALSE,1604,1385,1591,1398,-13
+,,,2001-08-02,Friendly,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1591,1462,1590,1463,-1
+,,,2001-08-17,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1590,1511,1610,1491,20
+,,,2001-08-23,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,0,2,loss,Riffa,Bahrain,FALSE,1610,1408,1571,1447,-39
+,,,2001-08-31,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Riffa,Bahrain,TRUE,1571,1655,1556,1670,-15
+,,,2001-09-07,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,TRUE,1,2,loss,Baghdad,Iraq,FALSE,1556,1745,1541,1760,-15
+,,,2001-09-14,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Doha,Qatar,FALSE,1541,1591,1545,1587,4
+,,,2001-09-22,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1545,1477,1547,1475,2
+,,,2001-09-28,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1547,1435,1556,1426,9
+,,,2001-10-05,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,2,loss,Amman,Jordan,TRUE,1556,1693,1544,1705,-12
+,,,2001-10-12,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Tehran,Iran,FALSE,1544,1750,1538,1756,-6
+,,,2002-01-11,Friendly,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,2,0,win,Doha,Qatar,TRUE,1538,1433,1549,1422,11
+,,,2002-01-13,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,3,1,win,Doha,Qatar,FALSE,1549,1537,1568,1518,19
+,,,2002-07-19,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,2,0,win,Baghdad,Iraq,FALSE,1568,1458,1575,1451,7
+,,,2002-07-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,2,1,win,Baghdad,Iraq,FALSE,1575,1451,1579,1447,4
+,,,2002-09-01,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,FALSE,2,0,win,Damascus,Syria,TRUE,1579,1261,1587,1253,8
+,,,2002-09-03,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,1,0,win,Damascus,Syria,FALSE,1587,1454,1605,1436,18
+,,,2002-09-05,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,TRUE,0,0,draw,Damascus,Syria,TRUE,1605,1729,1612,1722,7
+,,,2002-09-07,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,3,2,win,Damascus,Syria,TRUE,1612,1467,1624,1455,12
+,,,2002-11-20,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,1,2,loss,Doha,Qatar,FALSE,1624,1571,1615,1580,-9
+,,,2002-11-23,Friendly,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,2,2,draw,Doha,Qatar,TRUE,1615,1497,1612,1500,-3
+,,,2003-08-13,Friendly,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,1,0,win,Tehran,Iran,FALSE,1612,1699,1634,1677,22
+,,,2003-08-15,Friendly,played,Iraq,IRQ,IRQ,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,2,5,loss,Tehran,Iran,TRUE,1634,1849,1622,1861,-12
+,,,2003-08-26,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,2,loss,Amman,Jordan,FALSE,1622,1535,1612,1545,-10
+,,,2003-10-08,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,5,1,win,Kuala Lumpur,Malaysia,TRUE,1612,1500,1638,1474,26
+,,,2003-10-10,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Malaysia,,,,FALSE,0,0,draw,Kuala Lumpur,Malaysia,FALSE,1638,1303,1626,1315,-12
+,,,2003-10-12,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Myanmar,,,,TRUE,3,0,win,Kuala Lumpur,Malaysia,TRUE,1626,1130,1630,1126,4
+,,,2003-10-20,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Malaysia,,,,TRUE,5,1,win,Riffa,Bahrain,TRUE,1630,1319,1641,1308,11
+,,,2003-10-22,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Myanmar,,,,FALSE,3,1,win,Riffa,Bahrain,TRUE,1641,1121,1644,1118,3
+,,,2003-10-24,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,0,1,loss,Riffa,Bahrain,FALSE,1644,1493,1621,1516,-23
+,,,2003-12-12,Prime Minister's Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,2,2,draw,Riffa,Bahrain,FALSE,1621,1516,1621,1516,0
+,,,2003-12-15,Prime Minister's Cup,played,Iraq,IRQ,IRQ,AFC,Kenya,,,,TRUE,2,0,win,Riffa,Bahrain,TRUE,1621,1494,1636,1479,15
+,,,2003-12-18,Prime Minister's Cup,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,FALSE,0,2,loss,Riffa,Bahrain,TRUE,1636,1679,1616,1699,-20
+,,,2003-12-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Doha,Qatar,FALSE,1616,1512,1616,1512,0
+,,,2004-02-12,Friendly,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,FALSE,0,2,loss,Tokyo,Japan,FALSE,1616,1777,1611,1782,-5
+,,,2004-02-18,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,FALSE,1,1,draw,Tashkent,Uzbekistan,FALSE,1611,1508,1611,1508,0
+,,,2004-03-31,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,FALSE,1,1,draw,Al Wakrah,Qatar,TRUE,1611,1280,1596,1295,-15
+,,,2004-05-23,Friendly,played,Iraq,IRQ,IRQ,AFC,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,West Bromwich,England,TRUE,1596,1422,1574,1444,-22
+,,,2004-06-09,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Taiwan,,,,TRUE,6,1,win,Amman,Jordan,TRUE,1574,1045,1578,1041,4
+,,,2004-06-19,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,2,1,win,Tehran,Iran,TRUE,1578,1299,1585,1292,7
+,,,2004-06-21,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,2,loss,Tehran,Iran,TRUE,1585,1616,1558,1643,-27
+,,,2004-06-23,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Tehran,Iran,FALSE,1558,1714,1551,1721,-7
+,,,2004-06-25,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,1,3,loss,Tehran,Iran,TRUE,1551,1633,1528,1656,-23
+,,,2004-07-18,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,TRUE,0,1,loss,Chengdu,China PR,TRUE,1528,1506,1501,1533,-27
+,,,2004-07-22,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Turkmenistan,,,,FALSE,3,2,win,Chengdu,China PR,TRUE,1501,1468,1524,1445,23
+,,,2004-07-26,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,1,win,Chengdu,China PR,TRUE,1524,1651,1558,1617,34
+,,,2004-07-30,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,0,3,loss,Beijing,China PR,FALSE,,,,,
+,,,2004-09-08,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Taiwan,,,,FALSE,4,1,win,Taipei,Taiwan,FALSE,1534,1041,1541,1034,7
+,,,2004-10-07,Friendly,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,0,1,loss,Muscat,Oman,FALSE,1541,1595,1535,1601,-6
+,,,2004-10-13,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,TRUE,1,2,loss,Amman,Jordan,TRUE,1535,1597,1519,1613,-16
+,,,2004-11-16,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,4,1,win,Doha,Qatar,TRUE,1519,1291,1534,1276,15
+,,,2004-12-03,Friendly,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,3,1,win,Dubai,United Arab Emirates,TRUE,1534,1207,1538,1203,4
+,,,2004-12-10,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,1,3,loss,Doha,Qatar,TRUE,1538,1588,1512,1614,-26
+,,,2004-12-13,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,3,3,draw,Doha,Qatar,FALSE,1512,1486,1516,1482,4
+,,,2004-12-16,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,1,draw,Al Rayyan,Qatar,TRUE,1516,1395,1509,1402,-7
+,,,2005-03-26,Friendly,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,FALSE,1,2,loss,Sydney,Australia,FALSE,1509,1801,1507,1803,-2
+,,,2005-06-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,0,win,Amman,Jordan,FALSE,1507,1573,1521,1559,14
+,,,2005-08-07,Friendly,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,2,2,draw,Manama,Bahrain,FALSE,1521,1597,1526,1592,5
+,,,2005-08-13,Friendly,played,Iraq,IRQ,IRQ,AFC,Cyprus,,,,FALSE,1,2,loss,Limassol,Cyprus,FALSE,1526,1442,1516,1452,-10
+,,,2005-10-11,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Doha,Qatar,FALSE,1516,1525,1519,1522,3
+,,,2005-11-26,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1519,1447,1520,1446,1
+,,,2005-12-01,Friendly,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,4,0,win,Al Rayyan,Qatar,TRUE,1520,1270,1534,1256,14
+,,,2005-12-05,Friendly,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,5,1,win,Al Rayyan,Qatar,TRUE,1534,1658,1584,1608,50
+,,,2005-12-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,0,win,Doha,Qatar,TRUE,1584,1608,1616,1576,32
+,,,2005-12-10,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,2,2,draw,Doha,Qatar,TRUE,1616,1494,1609,1501,-7
+,,,2006-02-13,Friendly,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,0,1,loss,Muscat,Oman,FALSE,1609,1567,1601,1575,-8
+,,,2006-02-16,Friendly,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,3,4,loss,Ayutthaya,Thailand,FALSE,1601,1321,1586,1336,-15
+,,,2006-02-22,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Singapore,,,,FALSE,0,2,loss,Singapore,Singapore,FALSE,1586,1330,1543,1373,-43
+,,,2006-03-01,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,TRUE,2,1,win,Al Ain,United Arab Emirates,TRUE,,,,,
+,,,2006-03-15,Friendly,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,2,draw,Jeddah,Saudi Arabia,FALSE,1568,1567,1571,1564,3
+,,,2006-07-15,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,3,1,win,Damascus,Syria,FALSE,1571,1499,1587,1483,16
+,,,2006-07-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,2,loss,Amman,Jordan,FALSE,1587,1511,1578,1520,-9
+,,,2006-07-25,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,2,1,win,Damascus,Syria,FALSE,1578,1483,1588,1473,10
+,,,2006-08-09,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,0,win,Amman,Jordan,FALSE,1588,1531,1599,1520,11
+,,,2006-08-17,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,FALSE,3,0,win,Amman,Jordan,TRUE,1599,1269,1608,1260,9
+,,,2006-09-06,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,2,2,draw,Al Ain,United Arab Emirates,TRUE,1608,1260,1593,1275,-15
+,,,2006-10-04,Friendly,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,2,loss,Amman,Jordan,TRUE,1593,1761,1581,1773,-12
+,,,2006-10-11,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Singapore,,,,TRUE,4,2,win,Al Ain,United Arab Emirates,TRUE,1581,1350,1594,1337,13
+,,,2006-11-15,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,1,1,draw,Changsha,China PR,FALSE,,,,,
+,,,2007-01-18,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1600,1545,1617,1528,17
+,,,2007-01-21,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1617,1475,1609,1483,-8
+,,,2007-01-24,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1609,1599,1588,1620,-21
+,,,2007-06-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,1,draw,Amman,Jordan,FALSE,1588,1554,1590,1552,2
+,,,2007-06-12,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,0,draw,Amman,Jordan,FALSE,1590,1552,1592,1550,2
+,,,2007-06-16,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Amman,Jordan,TRUE,1592,1778,1602,1768,10
+,,,2007-06-18,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,FALSE,1,0,win,Amman,Jordan,TRUE,1602,1267,1607,1262,5
+,,,2007-06-22,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,3,0,win,Amman,Jordan,TRUE,1607,1513,1633,1487,26
+,,,2007-06-24,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,TRUE,1,2,loss,Amman,Jordan,TRUE,1633,1783,1621,1795,-12
+,,,2007-06-29,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Seogwipo,South Korea,FALSE,1621,1674,1611,1684,-10
+,,,2007-07-02,Friendly,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,TRUE,0,2,loss,Paju,South Korea,TRUE,1611,1533,1593,1551,-18
+,,,2007-07-07,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1593,1371,1585,1379,-8
+,,,2007-07-13,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,TRUE,3,1,win,Bangkok,Thailand,TRUE,1585,1748,1639,1694,54
+,,,2007-07-16,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,0,0,draw,Bangkok,Thailand,TRUE,1639,1557,1633,1563,-6
+,,,2007-07-21,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Vietnam,,,,TRUE,2,0,win,Bangkok,Thailand,TRUE,1633,1324,1644,1313,11
+,,,2007-07-25,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1644,1663,1645,1662,1
+,,,2007-07-29,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Jakarta,Indonesia,TRUE,1645,1701,1674,1672,29
+,,,2007-10-16,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,2,3,loss,Doha,Qatar,FALSE,1674,1472,1661,1485,-13
+,,,2007-10-22,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,FALSE,7,0,win,Lahore,Pakistan,FALSE,1661,897,1663,895,2
+,,,2007-10-28,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Pakistan,,,,TRUE,0,0,draw,Damascus,Syria,TRUE,1663,895,1643,915,-20
+,,,2008-01-24,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,1,1,draw,Dubai,United Arab Emirates,TRUE,1643,1517,1640,1520,-3
+,,,2008-01-31,Friendly,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1640,1438,1647,1431,7
+,,,2008-02-06,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,TRUE,1,1,draw,Dubai,United Arab Emirates,TRUE,,,,,
+,,,2008-03-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1643,1405,1639,1409,-4
+,,,2008-03-26,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,2,loss,Doha,Qatar,FALSE,1639,1465,1603,1501,-36
+,,,2008-05-17,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,1,2,loss,Damascus,Syria,FALSE,1603,1532,1594,1541,-9
+,,,2008-05-25,Friendly,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,1,2,loss,Bangkok,Thailand,FALSE,1594,1419,1582,1431,-12
+,,,2008-06-01,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Brisbane,Australia,FALSE,1582,1735,1574,1743,-8
+,,,2008-06-07,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,TRUE,1,0,win,Dubai,United Arab Emirates,TRUE,1574,1743,1603,1714,29
+,,,2008-06-14,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,2,1,win,Tianjin,China PR,FALSE,,,,,
+,,,2008-06-22,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,0,1,loss,Dubai,United Arab Emirates,TRUE,1625,1503,1598,1530,-27
+,,,2008-12-27,Friendly,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,2,2,draw,Al Ain,United Arab Emirates,FALSE,1598,1418,1596,1420,-2
+,,,2009-01-04,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,3,loss,Muscat,Oman,TRUE,1596,1518,1559,1555,-37
+,,,2009-01-07,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,0,4,loss,Muscat,Oman,FALSE,1559,1553,1531,1581,-28
+,,,2009-01-10,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,1,draw,Muscat,Oman,TRUE,1531,1460,1527,1464,-4
+,,,2009-03-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1527,1653,1533,1647,6
+,,,2009-03-28,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Suwon,South Korea,FALSE,1533,1725,1530,1728,-3
+,,,2009-05-31,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,1,loss,Doha,Qatar,FALSE,1530,1506,1522,1514,-8
+,,,2009-06-09,Friendly,played,Iraq,IRQ,IRQ,AFC,Poland,POL,POL,UEFA,TRUE,1,1,draw,Cape Town,South Africa,TRUE,1522,1717,1527,1712,5
+,,,2009-06-14,Confederations Cup,played,Iraq,IRQ,IRQ,AFC,South Africa,ZAF,ZAF,CAF,FALSE,0,0,draw,Johannesburg,South Africa,FALSE,1527,1556,1536,1547,9
+,,,2009-06-17,Confederations Cup,played,Iraq,IRQ,IRQ,AFC,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Bloemfontein,South Africa,TRUE,1536,2125,1534,2127,-2
+,,,2009-06-20,Confederations Cup,played,Iraq,IRQ,IRQ,AFC,New Zealand,NZL,NZL,OFC,TRUE,0,0,draw,Johannesburg,South Africa,TRUE,1534,1466,1529,1471,-5
+,,,2009-07-10,Friendly,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,3,0,win,Erbil,Iraq,FALSE,1529,1211,1532,1208,3
+,,,2009-07-13,Friendly,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,4,0,win,Baghdad,Iraq,FALSE,1532,1208,1535,1205,3
+,,,2009-11-15,Friendly,played,Iraq,IRQ,IRQ,AFC,Azerbaijan,,,,TRUE,1,0,win,Al Ain,United Arab Emirates,TRUE,1535,1388,1544,1379,9
+,,,2009-11-18,Friendly,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,0,win,Al Ain,United Arab Emirates,FALSE,1544,1404,1557,1391,13
+,,,2010-09-16,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,4,loss,Amman,Jordan,FALSE,1557,1458,1540,1475,-17
+,,,2010-09-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,3,2,win,Amman,Jordan,TRUE,1540,1591,1551,1580,11
+,,,2010-09-25,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,2,1,win,Amman,Jordan,TRUE,1551,1292,1558,1285,7
+,,,2010-09-29,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,FALSE,3,0,win,Amman,Jordan,TRUE,1558,1192,1566,1184,8
+,,,2010-10-01,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Amman,Jordan,TRUE,1566,1716,1554,1728,-12
+,,,2010-10-12,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,2,1,win,Doha,Qatar,FALSE,1554,1523,1566,1511,12
+,,,2010-11-11,Friendly,played,Iraq,IRQ,IRQ,AFC,India,,,,TRUE,2,0,win,Sharjah,United Arab Emirates,TRUE,1566,1165,1569,1162,3
+,,,2010-11-17,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,TRUE,1569,1545,1568,1546,-1
+,,,2010-11-23,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,0,draw,Aden,Yemen,TRUE,1568,1433,1561,1440,-7
+,,,2010-11-26,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,3,2,win,Aden,Yemen,TRUE,1561,1517,1578,1500,17
+,,,2010-11-29,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,0,0,draw,Zinjibar,Yemen,TRUE,1578,1532,1575,1535,-3
+,,,2010-12-02,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,2,draw,Aden,Yemen,TRUE,1575,1593,1576,1592,1
+,,,2010-12-18,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,0,1,loss,Sulaymaniyah,Iraq,FALSE,1576,1534,1562,1548,-14
+,,,2010-12-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,1,0,win,Damascus,Syria,FALSE,1562,1548,1574,1536,12
+,,,2010-12-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,Dammam,Saudi Arabia,FALSE,1574,1666,1589,1651,15
+,,,2011-01-02,Friendly,played,Iraq,IRQ,IRQ,AFC,China PR,,,,TRUE,2,3,loss,Doha,Qatar,TRUE,,,,,
+,,,2011-01-11,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,TRUE,1,2,loss,Al Rayyan,Qatar,TRUE,1580,1697,1563,1714,-17
+,,,2011-01-15,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,0,win,Al Rayyan,Qatar,TRUE,1563,1491,1583,1471,20
+,,,2011-01-19,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,North Korea,PRK,PRK,AFC,TRUE,1,0,win,Al Rayyan,Qatar,TRUE,1583,1520,1604,1499,21
+,,,2011-01-22,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Doha,Qatar,TRUE,1604,1778,1591,1791,-13
+,,,2011-03-26,Friendly,played,Iraq,IRQ,IRQ,AFC,North Korea,PRK,PRK,AFC,FALSE,0,2,loss,Sharjah,United Arab Emirates,TRUE,,,,,
+,,,2011-03-29,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,1,loss,Sharjah,United Arab Emirates,TRUE,1602,1533,1590,1545,-12
+,,,2011-06-29,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,1,2,loss,Erbil,Iraq,FALSE,1590,1515,1575,1530,-15
+,,,2011-07-13,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,2,loss,Amman,Jordan,TRUE,1575,1554,1551,1578,-24
+,,,2011-07-16,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,1,draw,Amman,Jordan,FALSE,1551,1518,1554,1515,3
+,,,2011-07-23,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,2,0,win,Erbil,Iraq,FALSE,1554,1300,1561,1293,7
+,,,2011-07-28,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,FALSE,0,0,draw,Al Ain,United Arab Emirates,TRUE,1561,1293,1548,1306,-13
+,,,2011-08-19,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Doha,Qatar,FALSE,1548,1504,1560,1492,12
+,,,2011-09-02,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,0,2,loss,Erbil,Iraq,FALSE,1560,1503,1517,1546,-43
+,,,2011-09-06,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Singapore,,,,FALSE,2,0,win,Singapore,Singapore,FALSE,1517,1340,1540,1317,23
+,,,2011-10-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,1,0,win,Shenzhen,China PR,FALSE,,,,,
+,,,2011-11-06,Friendly,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,TRUE,1,0,win,Doha,Qatar,TRUE,1571,1225,1573,1223,2
+,,,2011-11-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,TRUE,1,0,win,Doha,Qatar,TRUE,,,,,
+,,,2011-11-15,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,3,1,win,Amman,Jordan,FALSE,1595,1593,1633,1555,38
+,,,2012-01-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,FALSE,0,1,loss,Beirut,Lebanon,FALSE,1586,1320,1572,1334,-14
+,,,2012-02-29,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Singapore,,,,TRUE,7,1,win,Doha,Qatar,TRUE,1572,1279,1585,1266,13
+,,,2012-04-17,Friendly,played,Iraq,IRQ,IRQ,AFC,Egypt,EGY,EGY,CAF,FALSE,0,0,draw,Dubai,United Arab Emirates,TRUE,1585,1731,1589,1727,4
+,,,2012-05-23,Friendly,played,Iraq,IRQ,IRQ,AFC,Sierra Leone,,,,TRUE,1,0,win,Istanbul,Turkey,TRUE,1589,1304,1592,1301,3
+,,,2012-05-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Botswana,,,,TRUE,1,1,draw,Istanbul,Turkey,TRUE,1592,1357,1586,1363,-6
+,,,2012-06-03,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,1,draw,Amman,Jordan,FALSE,1586,1563,1590,1559,4
+,,,2012-06-12,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,1,1,draw,Doha,Qatar,TRUE,1590,1523,1586,1527,-4
+,,,2012-06-24,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,TRUE,1,0,win,Jeddah,Saudi Arabia,TRUE,1586,1308,1593,1301,7
+,,,2012-06-30,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Sudan,,,,FALSE,1,1,draw,Jeddah,Saudi Arabia,TRUE,1620,1470,1612,1478,-8
+,,,2012-07-05,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,Jeddah,Saudi Arabia,FALSE,1591,1502,1612,1481,21
+,,,2012-09-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Saitama,Japan,FALSE,1612,1794,1605,1801,-7
+,,,2012-10-11,Friendly,played,Iraq,IRQ,IRQ,AFC,Brazil,BRA,BRA,CONMEBOL,FALSE,0,6,loss,Malmö,Sweden,TRUE,1605,2070,1602,2073,-3
+,,,2012-10-16,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,TRUE,1,2,loss,Doha,Qatar,TRUE,1602,1757,1590,1769,-12
+,,,2012-11-14,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,1,0,win,Doha,Qatar,TRUE,1579,1543,1597,1525,18
+,,,2012-12-10,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,1,0,win,Al Farwaniyah,Kuwait,TRUE,1593,1525,1609,1509,16
+,,,2012-12-13,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,1,1,draw,Kuwait City,Kuwait,TRUE,1609,1488,1602,1495,-7
+,,,2012-12-18,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,2,0,win,Al Farwaniyah,Kuwait,TRUE,1602,1538,1627,1513,25
+,,,2012-12-20,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,0,1,loss,Kuwait City,Kuwait,TRUE,1627,1515,1601,1541,-26
+,,,2012-12-30,Friendly,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,TRUE,1,2,loss,Baghdad,Iraq,FALSE,1601,1590,1591,1600,-10
+,,,2013-01-06,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,0,win,Isa Town,Bahrain,TRUE,1591,1493,1613,1471,22
+,,,2013-01-09,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Isa Town,Bahrain,TRUE,1613,1505,1627,1491,14
+,,,2013-01-12,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,2,0,win,Isa Town,Bahrain,TRUE,1627,1238,1633,1232,6
+,,,2013-01-15,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,1,draw,Riffa,Bahrain,FALSE,1633,1483,1630,1486,-3
+,,,2013-01-18,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,2,loss,Riffa,Bahrain,TRUE,1630,1577,1607,1600,-23
+,,,2013-02-06,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,TRUE,1,0,win,Dubai,United Arab Emirates,TRUE,1610,1233,1614,1229,4
+,,,2013-03-22,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,FALSE,0,1,loss,Changsha,China PR,FALSE,,,,,
+,,,2013-03-26,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,2,1,win,Baghdad,Iraq,FALSE,1598,1524,1603,1519,5
+,,,2013-05-27,Friendly,played,Iraq,IRQ,IRQ,AFC,Liberia,,,,TRUE,0,1,loss,Baghdad,Iraq,FALSE,1603,1344,1585,1362,-18
+,,,2013-06-04,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,0,1,loss,Muscat,Oman,FALSE,1585,1540,1568,1557,-17
+,,,2013-06-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,TRUE,0,1,loss,Doha,Qatar,TRUE,1568,1765,1558,1775,-10
+,,,2013-06-18,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Sydney,Australia,FALSE,1558,1765,1552,1771,-6
+,,,2013-08-14,Friendly,played,Iraq,IRQ,IRQ,AFC,Chile,CHL,CHL,CONMEBOL,FALSE,0,6,loss,Brøndby,Denmark,TRUE,1552,1852,1546,1858,-6
+,,,2013-10-06,Friendly,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,3,2,win,Beirut,Lebanon,TRUE,1546,1202,1548,1200,2
+,,,2013-10-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,FALSE,1,1,draw,Beirut,Lebanon,FALSE,1548,1384,1546,1386,-2
+,,,2013-10-15,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,2,loss,Amman,Jordan,TRUE,1546,1459,1509,1496,-37
+,,,2013-11-15,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,2,loss,Dammam,Saudi Arabia,FALSE,1518,1496,1502,1512,-16
+,,,2013-11-19,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,0,win,Jakarta,Indonesia,FALSE,1502,1248,1520,1230,18
+,,,2013-12-28,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,0,0,draw,Doha,Qatar,TRUE,1520,1468,1517,1471,-3
+,,,2013-12-31,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,0,0,draw,Doha,Qatar,TRUE,1517,1567,1520,1564,3
+,,,2014-02-21,Friendly,played,Iraq,IRQ,IRQ,AFC,North Korea,PRK,PRK,AFC,TRUE,2,0,win,Dubai,United Arab Emirates,TRUE,1520,1585,1538,1567,18
+,,,2014-03-05,AFC Asian Cup qualification,played,Iraq,IRQ,IRQ,AFC,China PR,,,,TRUE,3,1,win,Sharjah,United Arab Emirates,TRUE,,,,,
+,,,2014-09-04,Friendly,played,Iraq,IRQ,IRQ,AFC,Peru,PER,PER,CONMEBOL,TRUE,0,2,loss,Dubai,United Arab Emirates,TRUE,1573,1713,1564,1722,-9
+,,,2014-10-10,Friendly,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,FALSE,1,1,draw,Manama,Bahrain,TRUE,1564,1163,1556,1171,-8
+,,,2014-10-14,Friendly,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,0,0,draw,Riffa,Bahrain,FALSE,1556,1490,1557,1489,1
+,,,2014-11-14,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,1,loss,Riyadh,Saudi Arabia,TRUE,1557,1518,1535,1540,-22
+,,,2014-11-17,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,1,1,draw,Riyadh,Saudi Arabia,TRUE,1535,1566,1537,1564,2
+,,,2014-11-20,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1537,1617,1514,1640,-23
+,,,2014-12-22,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,1,draw,Al Hamriyah,United Arab Emirates,TRUE,1514,1507,1514,1507,0
+,,,2014-12-25,Friendly,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,FALSE,0,1,loss,Sharjah,United Arab Emirates,TRUE,1514,1647,1508,1653,-6
+,,,2014-12-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,FALSE,0,0,draw,Sharjah,United Arab Emirates,TRUE,1508,1653,1512,1649,4
+,,,2015-01-04,Friendly,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Wollongong,Australia,TRUE,1512,1673,1506,1679,-6
+,,,2015-01-12,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,0,win,Brisbane,Australia,TRUE,1506,1525,1532,1499,26
+,,,2015-01-16,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,TRUE,0,1,loss,Brisbane,Australia,TRUE,1532,1737,1520,1749,-12
+,,,2015-01-20,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,2,0,win,Canberra,Australia,TRUE,1520,1306,1537,1289,17
+,,,2015-01-23,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,3,3,draw,Canberra,Australia,TRUE,1537,1737,1550,1724,13
+,,,2015-01-26,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Sydney,Australia,TRUE,1550,1739,1531,1758,-19
+,,,2015-01-30,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,2,3,loss,Newcastle,Australia,TRUE,1531,1649,1514,1666,-17
+,,,2015-03-28,Friendly,played,Iraq,IRQ,IRQ,AFC,DR Congo,,,,TRUE,2,1,win,Sharjah,United Arab Emirates,TRUE,1514,1506,1524,1496,10
+,,,2015-03-31,Friendly,played,Iraq,IRQ,IRQ,AFC,DR Congo,,,,TRUE,1,0,win,Sharjah,United Arab Emirates,TRUE,1524,1496,1533,1487,9
+,,,2015-06-11,Kirin Challenge Cup,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,FALSE,0,4,loss,Yokohama,Japan,FALSE,1533,1771,1528,1776,-5
+,,,2015-08-26,Friendly,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,FALSE,3,2,win,Sidon,Lebanon,FALSE,1528,1395,1537,1386,9
+,,,2015-09-03,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Taiwan,,,,TRUE,5,1,win,Tehran,Iran,TRUE,1537,788,1538,787,1
+,,,2015-09-08,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,2,2,draw,Bangkok,Thailand,FALSE,1538,1370,1534,1374,-4
+,,,2015-10-03,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,3,loss,Amman,Jordan,FALSE,1534,1501,1520,1515,-14
+,,,2015-10-08,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Vietnam,,,,FALSE,1,1,draw,Hanoi,Vietnam,FALSE,1520,1239,1510,1249,-10
+,,,2015-11-17,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Taiwan,,,,FALSE,2,0,win,Kaohsiung,Taiwan,FALSE,1510,788,1512,786,2
+,,,2016-03-18,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,0,1,loss,Tehran,Iran,TRUE,1512,1519,1502,1529,-10
+,,,2016-03-24,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,2,2,draw,Tehran,Iran,TRUE,1502,1410,1497,1415,-5
+,,,2016-03-29,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Vietnam,,,,TRUE,1,0,win,Tehran,Iran,TRUE,1497,1220,1504,1213,7
+,,,2016-07-24,Friendly,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,FALSE,1,2,loss,Tashkent,Uzbekistan,FALSE,1504,1649,1500,1653,-4
+,,,2016-08-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,1,2,loss,Doha,Qatar,FALSE,1500,1538,1494,1544,-6
+,,,2016-08-21,Friendly,played,Iraq,IRQ,IRQ,AFC,North Korea,PRK,PRK,AFC,TRUE,1,1,draw,Paroi,Malaysia,TRUE,1484,1514,1485,1513,1
+,,,2016-09-01,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,FALSE,0,2,loss,Perth,Australia,FALSE,1485,1707,1477,1715,-8
+,,,2016-09-06,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,2,loss,Shah Alam,Malaysia,TRUE,1477,1538,1460,1555,-17
+,,,2016-10-06,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,FALSE,1,2,loss,Saitama,Japan,FALSE,1460,1734,1456,1738,-4
+,,,2016-10-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,TRUE,4,0,win,Tehran,Iran,TRUE,1456,1395,1487,1364,31
+,,,2016-11-06,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,0,draw,Amman,Jordan,FALSE,1487,1519,1491,1515,4
+,,,2016-11-15,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1491,1569,1475,1585,-16
+,,,2017-03-18,Friendly,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,1,0,win,Tehran,Iran,FALSE,1475,1775,1493,1757,18
+,,,2017-03-23,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Australia,AUS,AUS,AFC,TRUE,1,1,draw,Tehran,Iran,TRUE,1493,1712,1504,1701,11
+,,,2017-03-28,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1504,1609,1495,1618,-9
+,,,2017-06-01,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,1,0,win,Basra,Iraq,FALSE,1495,1518,1503,1510,8
+,,,2017-06-07,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Ras al-Khaimah,United Arab Emirates,TRUE,1503,1767,1509,1761,6
+,,,2017-06-13,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,TRUE,1,1,draw,Tehran,Iran,TRUE,1509,1775,1522,1762,13
+,,,2017-08-26,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,1,1,draw,Paya Rumput,Malaysia,TRUE,1522,1574,1523,1573,1
+,,,2017-08-31,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,2,1,win,Bangkok,Thailand,FALSE,1523,1418,1543,1398,20
+,,,2017-09-05,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,0,win,Amman,Jordan,TRUE,1543,1564,1564,1543,21
+,,,2017-10-05,Friendly,played,Iraq,IRQ,IRQ,AFC,Kenya,,,,TRUE,2,1,win,Basra,Iraq,FALSE,1564,1382,1567,1379,3
+,,,2017-11-13,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,1,1,draw,Karbala,Iraq,FALSE,1567,1609,1565,1611,-2
+,,,2017-12-23,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,1,draw,Kuwait City,Kuwait,TRUE,1557,1400,1549,1408,-8
+,,,2017-12-26,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,2,1,win,Kuwait City,Kuwait,TRUE,1549,1473,1565,1457,16
+,,,2017-12-29,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,3,0,win,Kuwait City,Kuwait,TRUE,1565,1199,1573,1191,8
+,,,2018-01-02,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1573,1563,1572,1564,-1
+,,,2018-02-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,4,1,win,Basra,Iraq,FALSE,1572,1574,1585,1561,13
+,,,2018-03-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,2,3,loss,Basra,Iraq,FALSE,1585,1455,1561,1479,-24
+,,,2018-03-27,Friendly,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,1,1,draw,Basra,Iraq,FALSE,1561,1606,1559,1608,-2
+,,,2018-05-08,Friendly,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,0,0,draw,Basra,Iraq,FALSE,1559,1405,1553,1411,-6
+,,,2018-08-04,Friendly,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,FALSE,3,0,win,Al-Ram,Palestine,FALSE,1553,1400,1568,1385,15
+,,,2018-09-10,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,2,draw,Al Farwaniyah,Kuwait,FALSE,1568,1424,1567,1425,-1
+,,,2018-10-11,Friendly,played,Iraq,IRQ,IRQ,AFC,Argentina,ARG,ARG,CONMEBOL,FALSE,0,4,loss,Riyadh,Saudi Arabia,TRUE,1567,1900,1560,1907,-7
+,,,2018-10-15,Friendly,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,1,draw,Riyadh,Saudi Arabia,FALSE,1560,1582,1565,1577,5
+,,,2018-11-20,Friendly,played,Iraq,IRQ,IRQ,AFC,Bolivia,BOL,BOL,CONMEBOL,TRUE,0,0,draw,Al-Ain,Iraq,FALSE,1565,1658,1568,1655,3
+,,,2018-12-24,Friendly,played,Iraq,IRQ,IRQ,AFC,China PR,,,,TRUE,2,1,win,Doha,Qatar,TRUE,,,,,
+,,,2018-12-28,Friendly,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,1,0,win,Doha,Qatar,TRUE,1577,1401,1582,1396,5
+,,,2019-01-08,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Vietnam,,,,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,TRUE,1582,1339,1592,1329,10
+,,,2019-01-12,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,FALSE,3,0,win,Sharjah,United Arab Emirates,TRUE,1592,1188,1600,1180,8
+,,,2019-01-16,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Dubai,United Arab Emirates,TRUE,1600,1830,1614,1816,14
+,,,2019-01-22,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1614,1626,1590,1650,-24
+,,,2019-06-07,Friendly,played,Iraq,IRQ,IRQ,AFC,Tunisia,TUN,TUN,CAF,FALSE,0,2,loss,Radès,Tunisia,FALSE,1605,1638,1595,1648,-10
+,,,2019-07-30,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,TRUE,1,0,win,Karbala,Iraq,FALSE,1595,1445,1603,1437,8
+,,,2019-08-02,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,2,1,win,Karbala,Iraq,FALSE,1603,1402,1609,1396,6
+,,,2019-08-08,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,0,0,draw,Karbala,Iraq,FALSE,1609,1450,1596,1463,-13
+,,,2019-08-11,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,2,1,win,Karbala,Iraq,FALSE,1596,1197,1598,1195,2
+,,,2019-08-14,WAFF Championship,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,0,1,loss,Karbala,Iraq,FALSE,1598,1469,1566,1501,-32
+,,,2019-09-05,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,1,1,draw,Riffa,Bahrain,FALSE,1566,1501,1568,1499,2
+,,,2019-09-09,Friendly,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,TRUE,0,0,draw,Amman,Jordan,TRUE,1568,1587,1569,1586,1
+,,,2019-10-10,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Hong Kong,,,,TRUE,2,0,win,Basra,Iraq,FALSE,1569,1173,1572,1170,3
+,,,2019-10-15,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Cambodia,,,,FALSE,4,0,win,Phnom Penh,Cambodia,FALSE,1572,852,1574,850,2
+,,,2019-11-14,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,TRUE,2,1,win,Amman,Jordan,TRUE,1574,1769,1604,1739,30
+,,,2019-11-19,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,0,0,draw,Amman,Jordan,TRUE,1604,1504,1598,1510,-6
+,,,2019-11-26,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,2,1,win,Doha,Qatar,FALSE,1598,1720,1629,1689,31
+,,,2019-11-29,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,2,0,win,Doha,Qatar,TRUE,1629,1477,1647,1459,18
+,,,2019-12-02,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,FALSE,0,0,draw,Doha,Qatar,TRUE,1647,1193,1630,1210,-17
+,,,2019-12-05,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,2,2,draw,Doha,Qatar,TRUE,1630,1506,1623,1513,-7
+,,,2020-11-12,Friendly,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,0,draw,Dubai,United Arab Emirates,TRUE,1623,1478,1619,1482,-4
+,,,2020-11-17,Friendly,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,FALSE,2,1,win,Dubai,United Arab Emirates,TRUE,1619,1560,1627,1552,8
+,,,2021-01-12,Friendly,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,0,draw,Dubai,United Arab Emirates,FALSE,1627,1429,1624,1432,-3
+,,,2021-01-27,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,1,win,Basra,Iraq,FALSE,1624,1408,1627,1405,3
+,,,2021-03-29,Friendly,played,Iraq,IRQ,IRQ,AFC,Uzbekistan,,,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1627,1564,1638,1553,11
+,,,2021-05-24,Friendly,played,Iraq,IRQ,IRQ,AFC,Tajikistan,,,,TRUE,0,0,draw,Basra,Iraq,FALSE,1638,1243,1629,1252,-9
+,,,2021-05-29,Friendly,played,Iraq,IRQ,IRQ,AFC,Nepal,,,,TRUE,6,2,win,Basra,Iraq,FALSE,1629,912,1629,912,0
+,,,2021-06-07,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Cambodia,,,,TRUE,4,1,win,Arad,Iran,TRUE,1629,839,1630,838,1
+,,,2021-06-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Hong Kong,,,,FALSE,1,0,win,Arad,Iran,TRUE,1630,1169,1633,1166,3
+,,,2021-06-15,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Arad,Iran,FALSE,1633,1793,1622,1804,-11
+,,,2021-09-02,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Seoul,South Korea,FALSE,1622,1764,1634,1752,12
+,,,2021-09-07,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,TRUE,0,3,loss,Doha,Qatar,TRUE,1634,1807,1615,1826,-19
+,,,2021-10-07,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,TRUE,0,0,draw,Doha,Qatar,TRUE,1615,1373,1603,1385,-12
+,,,2021-10-12,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,2,2,draw,Dubai,United Arab Emirates,FALSE,1603,1470,1601,1472,-2
+,,,2021-11-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,1,1,draw,Al Rayyan,Qatar,TRUE,1601,1420,1591,1430,-10
+,,,2021-11-16,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,3,loss,Al Rayyan,Qatar,TRUE,1591,1770,1573,1788,-18
+,,,2021-11-30,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,1,1,draw,Al Wakrah,Qatar,TRUE,1573,1506,1569,1510,-4
+,,,2021-12-03,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,0,0,draw,Doha,Qatar,TRUE,1569,1543,1568,1544,-1
+,,,2021-12-06,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,FALSE,0,3,loss,Al Khor,Qatar,FALSE,1568,1660,1551,1677,-17
+,,,2022-01-21,Friendly,played,Iraq,IRQ,IRQ,AFC,Uganda,,,,TRUE,1,0,win,Baghdad,Iraq,FALSE,1551,1463,1556,1458,5
+,,,2022-01-27,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1556,1837,1552,1841,-4
+,,,2022-02-01,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Lebanon,,,,FALSE,1,1,draw,Sidon,Lebanon,FALSE,1552,1378,1548,1382,-4
+,,,2022-03-18,Friendly,played,Iraq,IRQ,IRQ,AFC,Zambia,,,,TRUE,3,1,win,Baghdad,Iraq,FALSE,1548,1424,1554,1418,6
+,,,2022-03-24,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1554,1502,1571,1485,17
+,,,2022-03-29,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Syria,,,,FALSE,1,1,draw,Dubai,United Arab Emirates,TRUE,1571,1448,1564,1455,-7
+,,,2022-09-23,Jordan International Tournament,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,1,1,draw,Amman,Jordan,TRUE,1564,1559,1564,1559,0
+,,,2022-09-26,Jordan International Tournament,played,Iraq,IRQ,IRQ,AFC,Syria,,,,TRUE,1,0,win,Amman,Jordan,TRUE,1564,1450,1574,1440,10
+,,,2022-11-09,Friendly,played,Iraq,IRQ,IRQ,AFC,Mexico,MEX,MEX,CONCACAF,FALSE,0,4,loss,Girona,Spain,TRUE,1574,1812,1566,1820,-8
+,,,2022-11-12,Friendly,played,Iraq,IRQ,IRQ,AFC,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,Madrid,Spain,TRUE,1566,1840,1573,1833,7
+,,,2022-12-30,Friendly,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Basra,Iraq,FALSE,1573,1317,1575,1315,2
+,,,2023-01-06,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,0,0,draw,Basra,Iraq,FALSE,1575,1568,1569,1574,-6
+,,,2023-01-09,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,0,win,Basra,Iraq,FALSE,1569,1646,1597,1618,28
+,,,2023-01-12,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,5,0,win,Basra,Iraq,FALSE,1597,1095,1599,1093,2
+,,,2023-01-16,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,2,1,win,Basra,Iraq,FALSE,1599,1557,1611,1545,12
+,,,2023-01-19,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,3,2,win,Basra,Iraq,FALSE,1611,1614,1626,1599,15
+,,,2023-03-26,Friendly,played,Iraq,IRQ,IRQ,AFC,Russia,RUS,RUS,UEFA,FALSE,0,2,loss,Saint Petersburg,Russia,FALSE,1626,1757,1620,1763,-6
+,,,2023-06-16,Friendly,played,Iraq,IRQ,IRQ,AFC,Colombia,COL,COL,CONMEBOL,FALSE,0,1,loss,Valencia,Spain,TRUE,1620,1929,1617,1932,-3
+,,,2023-09-07,King's Cup,played,Iraq,IRQ,IRQ,AFC,India,,,,TRUE,2,2,draw,Chiang Mai,Thailand,TRUE,1617,1271,1606,1282,-11
+,,,2023-09-10,King's Cup,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,2,2,draw,Chiang Mai,Thailand,FALSE,1606,1385,1601,1390,-5
+,,,2023-10-13,Friendly,played,Iraq,IRQ,IRQ,AFC,Qatar,QAT,QAT,AFC,TRUE,0,0,draw,Amman,Jordan,TRUE,1601,1511,1597,1515,-4
+,,,2023-11-16,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,TRUE,5,1,win,Basra,Iraq,FALSE,1600,1300,1607,1293,7
+,,,2023-11-21,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Vietnam,,,,FALSE,1,0,win,Hanoi,Vietnam,FALSE,1607,1407,1621,1393,14
+,,,2024-01-06,Friendly,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1621,1799,1616,1804,-5
+,,,2024-01-15,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,FALSE,3,1,win,Doha,Qatar,TRUE,1616,1262,1625,1253,9
+,,,2024-01-19,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Japan,JPN,JPN,AFC,TRUE,2,1,win,Al Rayyan,Qatar,TRUE,1625,1913,1667,1871,42
+,,,2024-01-24,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Vietnam,,,,TRUE,3,2,win,Doha,Qatar,TRUE,1667,1343,1674,1336,7
+,,,2024-01-29,AFC Asian Cup,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,2,3,loss,Al Rayyan,Qatar,TRUE,1674,1519,1639,1554,-35
+,,,2024-03-21,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Philippines,,,,TRUE,1,0,win,Basra,Iraq,FALSE,1639,1053,1640,1052,1
+,,,2024-03-26,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Philippines,,,,FALSE,5,0,win,Manila,Philippines,FALSE,1640,1052,1645,1047,5
+,,,2024-06-06,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,0,win,Jakarta,Indonesia,FALSE,1645,1341,1659,1327,14
+,,,2024-06-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Vietnam,,,,TRUE,3,1,win,Basra,Iraq,FALSE,1659,1276,1663,1272,4
+,,,2024-09-05,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Oman,,,,TRUE,1,0,win,Basra,Iraq,FALSE,1663,1532,1671,1524,8
+,,,2024-09-10,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1671,1344,1660,1355,-11
+,,,2024-10-10,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,TRUE,1,0,win,Basra,Iraq,FALSE,1660,1410,1665,1405,5
+,,,2024-10-15,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,FALSE,2,3,loss,Yongin,South Korea,FALSE,1665,1774,1656,1783,-9
+,,,2024-11-14,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,TRUE,0,0,draw,Basra,Iraq,FALSE,1656,1620,1649,1627,-7
+,,,2024-11-19,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Oman,,,,FALSE,1,0,win,Muscat,Oman,FALSE,1649,1508,1667,1490,18
+,,,2024-12-22,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Yemen,,,,TRUE,1,0,win,Sulaibikhat,Kuwait,TRUE,1667,1092,1668,1091,1
+,,,2024-12-25,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,FALSE,0,2,loss,Kuwait City,Kuwait,TRUE,1668,1483,1623,1528,-45
+,,,2024-12-28,Gulf Cup,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,3,loss,Kuwait City,Kuwait,TRUE,1623,1520,1584,1559,-39
+,,,2025-03-20,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,2,draw,Basra,Iraq,FALSE,1584,1322,1568,1338,-16
+,,,2025-03-25,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Palestine,,,,FALSE,1,2,loss,Amman,Jordan,TRUE,1568,1398,1539,1427,-29
+,,,2025-06-05,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Basra,Iraq,FALSE,1539,1746,1518,1767,-21
+,,,2025-06-10,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,1,0,win,Amman,Jordan,FALSE,1518,1656,1550,1624,32
+,,,2025-09-04,King's Cup,played,Iraq,IRQ,IRQ,AFC,Hong Kong,,,,TRUE,2,1,win,Kanchanaburi,Thailand,TRUE,1550,1137,1553,1134,3
+,,,2025-09-07,King's Cup,played,Iraq,IRQ,IRQ,AFC,Thailand,,,,FALSE,1,0,win,Kanchanaburi,Thailand,FALSE,1553,1362,1564,1351,11
+,,,2025-10-11,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Indonesia,IDN,IDN,AFC,TRUE,1,0,win,Jeddah,Saudi Arabia,TRUE,1564,1350,1573,1341,9
+,,,2025-10-14,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Jeddah,Saudi Arabia,FALSE,1573,1592,1580,1585,7
+,,,2025-11-13,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1580,1548,1584,1544,4
+,,,2025-11-18,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,2,1,win,Basra,Iraq,FALSE,1584,1544,1596,1532,12
+,,,2025-12-03,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Bahrain,,,,TRUE,2,1,win,Doha,Qatar,TRUE,1596,1410,1606,1400,10
+,,,2025-12-06,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Sudan,,,,FALSE,2,0,win,Doha,Qatar,TRUE,1606,1396,1620,1382,14
+,,,2025-12-09,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Algeria,DZA,DZA,CAF,FALSE,0,2,loss,Al Rayyan,Qatar,TRUE,1620,1713,1598,1735,-22
+,,,2025-12-12,Arab Cup,played,Iraq,IRQ,IRQ,AFC,Jordan,,,,FALSE,0,1,loss,Al Rayyan,Qatar,TRUE,1598,1669,1582,1685,-16
+,,,2026-03-31,FIFA World Cup qualification,played,Iraq,IRQ,IRQ,AFC,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,1,win,Guadalupe,Mexico,TRUE,1582,1670,1607,1645,25

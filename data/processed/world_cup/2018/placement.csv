@@ -1,33 +1,33 @@
-country,team_code,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
-France,FRA,Winner,1,7,14,6,1986,2126,140,2022,Runner-up,2
-Croatia,HRV,Runner-up,2,7,14,9,1853,1942,89,2022,Third Place,3
-Belgium,BEL,Third Place,3,7,16,6,1936,2057,121,2022,Group Stage,32
-England,ENG,Fourth Place,4,7,12,8,1947,1912,-35,2022,Quarter-final,8
-Brazil,BRA,Quarter-final,8,5,8,3,2141,2113,-28,2022,Quarter-final,8
-Russia,RUS,Quarter-final,8,5,11,7,1676,1719,43,,,
-Sweden,SWE,Quarter-final,8,5,6,4,1793,1864,71,,,
-Uruguay,URY,Quarter-final,8,5,7,3,1892,1944,52,2022,Group Stage,32
-Argentina,ARG,Round of 16,16,4,6,9,1985,1895,-90,2022,Winner,1
-Colombia,COL,Round of 16,16,4,6,3,1927,1938,11,,,
-Denmark,DNK,Round of 16,16,4,3,2,1854,1894,40,2022,Group Stage,32
-Japan,JPN,Round of 16,16,4,6,7,1684,1698,14,2022,Round of 16,16
-Mexico,MEX,Round of 16,16,4,3,6,1849,1828,-21,2022,Group Stage,32
-Portugal,PRT,Round of 16,16,4,6,6,1967,1938,-29,2022,Quarter-final,8
-Spain,ESP,Round of 16,16,4,7,6,2043,2009,-34,2022,Round of 16,16
-Switzerland,CHE,Round of 16,16,4,5,5,1888,1878,-10,2022,Round of 16,16
-Australia,AUS,Group Stage,32,3,2,5,1743,1713,-30,2022,Round of 16,16
-Costa Rica,CRI,Group Stage,32,3,2,5,1742,1725,-17,2022,Group Stage,32
-Egypt,EGY,Group Stage,32,3,2,6,1639,1569,-70,,,
-Germany,DEU,Group Stage,32,3,2,4,2076,1963,-113,2022,Group Stage,32
-Iceland,ISL,Group Stage,32,3,2,5,1764,1708,-56,,,
-Iran,IRN,Group Stage,32,3,2,2,1790,1816,26,2022,Group Stage,32
-Morocco,MAR,Group Stage,32,3,2,4,1731,1718,-13,2022,Fourth Place,4
-Nigeria,NGA,Group Stage,32,3,3,4,1681,1702,21,,,
-Panama,PAN,Group Stage,32,3,2,11,1657,1592,-65,,,
-Peru,PER,Group Stage,32,3,2,2,1915,1891,-24,,,
-Poland,POL,Group Stage,32,3,2,5,1830,1782,-48,2022,Round of 16,16
-Saudi Arabia,SAU,Group Stage,32,3,2,7,1588,1586,-2,2022,Group Stage,32
-Senegal,SEN,Group Stage,32,3,4,4,1745,1760,15,2022,Round of 16,16
-Serbia,SRB,Group Stage,32,3,2,4,1787,1780,-7,2022,Group Stage,32
-South Korea,KOR,Group Stage,32,3,3,3,1713,1756,43,2022,Round of 16,16
-Tunisia,TUN,Group Stage,32,3,5,8,1651,1657,6,2022,Group Stage,32
+tournament_id,year,country,team_id,team_code,confederation,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
+WC-2018,2018,France,FRA,FRA,UEFA,Winner,1,7,14,6,1986,2126,140,2022,Runner-up,2
+WC-2018,2018,Croatia,HRV,HRV,UEFA,Runner-up,2,7,14,9,1853,1942,89,2022,Third Place,3
+WC-2018,2018,Belgium,BEL,BEL,UEFA,Third Place,3,7,16,6,1936,2057,121,2022,Group Stage,32
+WC-2018,2018,England,ENG,ENG,UEFA,Fourth Place,4,7,12,8,1947,1912,-35,2022,Quarter-final,8
+WC-2018,2018,Brazil,BRA,BRA,CONMEBOL,Quarter-final,8,5,8,3,2141,2113,-28,2022,Quarter-final,8
+WC-2018,2018,Russia,RUS,RUS,UEFA,Quarter-final,8,5,11,7,1676,1719,43,,,
+WC-2018,2018,Sweden,SWE,SWE,UEFA,Quarter-final,8,5,6,4,1793,1864,71,,,
+WC-2018,2018,Uruguay,URY,URY,CONMEBOL,Quarter-final,8,5,7,3,1892,1944,52,2022,Group Stage,32
+WC-2018,2018,Argentina,ARG,ARG,CONMEBOL,Round of 16,16,4,6,9,1985,1895,-90,2022,Winner,1
+WC-2018,2018,Colombia,COL,COL,CONMEBOL,Round of 16,16,4,6,3,1927,1938,11,,,
+WC-2018,2018,Denmark,DNK,DNK,UEFA,Round of 16,16,4,3,2,1854,1894,40,2022,Group Stage,32
+WC-2018,2018,Japan,JPN,JPN,AFC,Round of 16,16,4,6,7,1684,1698,14,2022,Round of 16,16
+WC-2018,2018,Mexico,MEX,MEX,CONCACAF,Round of 16,16,4,3,6,1849,1828,-21,2022,Group Stage,32
+WC-2018,2018,Portugal,PRT,PRT,UEFA,Round of 16,16,4,6,6,1967,1938,-29,2022,Quarter-final,8
+WC-2018,2018,Spain,ESP,ESP,UEFA,Round of 16,16,4,7,6,2043,2009,-34,2022,Round of 16,16
+WC-2018,2018,Switzerland,CHE,CHE,UEFA,Round of 16,16,4,5,5,1888,1878,-10,2022,Round of 16,16
+WC-2018,2018,Australia,AUS,AUS,AFC,Group Stage,32,3,2,5,1743,1713,-30,2022,Round of 16,16
+WC-2018,2018,Costa Rica,CRI,CRI,CONCACAF,Group Stage,32,3,2,5,1742,1725,-17,2022,Group Stage,32
+WC-2018,2018,Egypt,EGY,EGY,CAF,Group Stage,32,3,2,6,1639,1569,-70,,,
+WC-2018,2018,Germany,GER,DEU,UEFA,Group Stage,32,3,2,4,2076,1963,-113,2022,Group Stage,32
+WC-2018,2018,Iceland,ISL,ISL,UEFA,Group Stage,32,3,2,5,1764,1708,-56,,,
+WC-2018,2018,Iran,IRN,IRN,AFC,Group Stage,32,3,2,2,1790,1816,26,2022,Group Stage,32
+WC-2018,2018,Morocco,MAR,MAR,CAF,Group Stage,32,3,2,4,1731,1718,-13,2022,Fourth Place,4
+WC-2018,2018,Nigeria,NGA,NGA,CAF,Group Stage,32,3,3,4,1681,1702,21,,,
+WC-2018,2018,Panama,PAN,PAN,CONCACAF,Group Stage,32,3,2,11,1657,1592,-65,,,
+WC-2018,2018,Peru,PER,PER,CONMEBOL,Group Stage,32,3,2,2,1915,1891,-24,,,
+WC-2018,2018,Poland,POL,POL,UEFA,Group Stage,32,3,2,5,1830,1782,-48,2022,Round of 16,16
+WC-2018,2018,Saudi Arabia,KSA,SAU,AFC,Group Stage,32,3,2,7,1588,1586,-2,2022,Group Stage,32
+WC-2018,2018,Senegal,SEN,SEN,CAF,Group Stage,32,3,4,4,1745,1760,15,2022,Round of 16,16
+WC-2018,2018,Serbia,SRB,SRB,UEFA,Group Stage,32,3,2,4,1787,1780,-7,2022,Group Stage,32
+WC-2018,2018,South Korea,KOR,KOR,AFC,Group Stage,32,3,3,3,1713,1756,43,2022,Round of 16,16
+WC-2018,2018,Tunisia,TUN,TUN,CAF,Group Stage,32,3,5,8,1651,1657,6,2022,Group Stage,32

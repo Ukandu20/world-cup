@@ -1,31 +1,31 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1930 FIFA Men's World Cup,WC-1930,1930,8,1930-07-17,Group Stage,played,Paraguay,PRY,United States,USA,TRUE,Montevideo,Uruguay,TRUE,1777,1723
-1930 FIFA Men's World Cup,WC-1930,1930,12,1930-07-20,Group Stage,played,Paraguay,PRY,Belgium,BEL,FALSE,Montevideo,Uruguay,TRUE,1716,1610
-1950 FIFA Men's World Cup,WC-1950,1950,10,1950-06-29,Group Stage,played,Paraguay,PRY,Sweden,SWE,TRUE,Curitiba,Brazil,TRUE,1877,2004
-1950 FIFA Men's World Cup,WC-1950,1950,15,1950-07-02,Group Stage,played,Paraguay,PRY,Italy,ITA,FALSE,São Paulo,Brazil,TRUE,1888,1943
-1958 FIFA Men's World Cup,WC-1958,1958,5,1958-06-08,Group Stage,played,Paraguay,PRY,France,FRA,FALSE,Norrköping,Sweden,TRUE,1751,1840
-1958 FIFA Men's World Cup,WC-1958,1958,15,1958-06-11,Group Stage,played,Paraguay,PRY,Scotland,SCO,TRUE,Norrköping,Sweden,TRUE,1709,1836
-1958 FIFA Men's World Cup,WC-1958,1958,23,1958-06-15,Group Stage,played,Paraguay,PRY,Yugoslavia,YUG,TRUE,Eskilstuna,Sweden,TRUE,1750,1935
-1986 FIFA Men's World Cup,WC-1986,1986,10,1986-06-04,Group Stage,played,Paraguay,PRY,Iraq,IRQ,TRUE,Toluca,Mexico,TRUE,1812,1592
-1986 FIFA Men's World Cup,WC-1986,1986,19,1986-06-07,Group Stage,played,Paraguay,PRY,Mexico,MEX,FALSE,Mexico City,Mexico,FALSE,1825,1861
-1986 FIFA Men's World Cup,WC-1986,1986,31,1986-06-11,Group Stage,played,Paraguay,PRY,Belgium,BEL,TRUE,Toluca,Mexico,TRUE,1836,1817
-1986 FIFA Men's World Cup,WC-1986,1986,44,1986-06-18,Round of 16,played,Paraguay,PRY,England,ENG,FALSE,Mexico City,Mexico,TRUE,1834,1963
-1998 FIFA Men's World Cup,WC-1998,1998,6,1998-06-12,Group Stage,played,Paraguay,PRY,Bulgaria,BGR,TRUE,Montpellier,France,TRUE,1742,1805
-1998 FIFA Men's World Cup,WC-1998,1998,24,1998-06-19,Group Stage,played,Paraguay,PRY,Spain,ESP,FALSE,Saint-Étienne,France,TRUE,1747,1987
-1998 FIFA Men's World Cup,WC-1998,1998,38,1998-06-24,Group Stage,played,Paraguay,PRY,Nigeria,NGA,FALSE,Toulouse,France,TRUE,1765,1789
-1998 FIFA Men's World Cup,WC-1998,1998,51,1998-06-28,Round of 16,played,Paraguay,PRY,France,FRA,FALSE,Lens,France,FALSE,1813,2028
-2002 FIFA Men's World Cup,WC-2002,2002,7,2002-06-02,Group Stage,played,Paraguay,PRY,South Africa,ZAF,TRUE,Busan,South Korea,TRUE,1731,1641
-2002 FIFA Men's World Cup,WC-2002,2002,22,2002-06-07,Group Stage,played,Paraguay,PRY,Spain,ESP,FALSE,Jeonju,South Korea,TRUE,1723,1983
-2002 FIFA Men's World Cup,WC-2002,2002,38,2002-06-12,Group Stage,played,Paraguay,PRY,Slovenia,SVN,FALSE,Seogwipo,South Korea,TRUE,1707,1689
-2002 FIFA Men's World Cup,WC-2002,2002,50,2002-06-15,Round of 16,played,Paraguay,PRY,Germany,DEU,FALSE,Seogwipo,South Korea,TRUE,1750,1939
-2006 FIFA Men's World Cup,WC-2006,2006,4,2006-06-10,Group Stage,played,Paraguay,PRY,England,ENG,FALSE,Frankfurt am Main,Germany,TRUE,1779,1973
-2006 FIFA Men's World Cup,WC-2006,2006,20,2006-06-15,Group Stage,played,Paraguay,PRY,Sweden,SWE,FALSE,Berlin,Germany,TRUE,1764,1838
-2006 FIFA Men's World Cup,WC-2006,2006,35,2006-06-20,Group Stage,played,Paraguay,PRY,Trinidad and Tobago,TTO,TRUE,Kaiserslautern,Germany,TRUE,1740,1579
-2010 FIFA Men's World Cup,WC-2010,2010,9,2010-06-14,Group Stage,played,Paraguay,PRY,Italy,ITA,FALSE,Cape Town,South Africa,TRUE,1764,1936
-2010 FIFA Men's World Cup,WC-2010,2010,29,2010-06-20,Group Stage,played,Paraguay,PRY,Slovakia,SVK,FALSE,Bloemfontein,South Africa,TRUE,1778,1658
-2010 FIFA Men's World Cup,WC-2010,2010,43,2010-06-24,Group Stage,played,Paraguay,PRY,New Zealand,NZL,TRUE,Polokwane,South Africa,TRUE,1808,1563
-2010 FIFA Men's World Cup,WC-2010,2010,55,2010-06-29,Round of 16,played,Paraguay,PRY,Japan,JPN,TRUE,Pretoria,South Africa,TRUE,1790,1757
-2010 FIFA Men's World Cup,WC-2010,2010,60,2010-07-03,Quarter-final,played,Paraguay,PRY,Spain,ESP,TRUE,Johannesburg,South Africa,TRUE,1787,2101
-2026 FIFA Men's World Cup,WC-2026,2026,4,2026-06-12,Group Stage,scheduled,Paraguay,PRY,United States,USA,FALSE,Inglewood,United States,FALSE,1833,1721
-2026 FIFA Men's World Cup,WC-2026,2026,32,2026-06-19,Group Stage,scheduled,Paraguay,PRY,Turkey,TUR,FALSE,Santa Clara,United States,TRUE,1833,1902
-2026 FIFA Men's World Cup,WC-2026,2026,56,2026-06-25,Group Stage,scheduled,Paraguay,PRY,Australia,AUS,TRUE,Santa Clara,United States,TRUE,1833,1783
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_008,8,1930-07-17,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,United States,USA,USA,CONCACAF,TRUE,Montevideo,Uruguay,TRUE,1777,1723
+1930 FIFA Men's World Cup,WC-1930,1930,WC-1930_012,12,1930-07-20,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Belgium,BEL,BEL,UEFA,FALSE,Montevideo,Uruguay,TRUE,1716,1610
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_010,10,1950-06-29,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Sweden,SWE,SWE,UEFA,TRUE,Curitiba,Brazil,TRUE,1877,2004
+1950 FIFA Men's World Cup,WC-1950,1950,WC-1950_015,15,1950-07-02,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Italy,ITA,ITA,UEFA,FALSE,São Paulo,Brazil,TRUE,1888,1943
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_005,5,1958-06-08,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,France,FRA,FRA,UEFA,FALSE,Norrköping,Sweden,TRUE,1751,1840
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_015,15,1958-06-11,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Scotland,SCO,SCO,UEFA,TRUE,Norrköping,Sweden,TRUE,1709,1836
+1958 FIFA Men's World Cup,WC-1958,1958,WC-1958_023,23,1958-06-15,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Yugoslavia,YUG,YUG,UEFA,TRUE,Eskilstuna,Sweden,TRUE,1750,1935
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_010,10,1986-06-04,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Iraq,IRQ,IRQ,AFC,TRUE,Toluca,Mexico,TRUE,1812,1592
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_019,19,1986-06-07,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,Mexico City,Mexico,FALSE,1825,1861
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_031,31,1986-06-11,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Belgium,BEL,BEL,UEFA,TRUE,Toluca,Mexico,TRUE,1836,1817
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_044,44,1986-06-18,Round of 16,played,Paraguay,PRY,PRY,CONMEBOL,England,ENG,ENG,UEFA,FALSE,Mexico City,Mexico,TRUE,1834,1963
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_006,6,1998-06-12,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Bulgaria,BGR,BGR,UEFA,TRUE,Montpellier,France,TRUE,1742,1805
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_024,24,1998-06-19,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Spain,ESP,ESP,UEFA,FALSE,Saint-Étienne,France,TRUE,1747,1987
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_038,38,1998-06-24,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Nigeria,NGA,NGA,CAF,FALSE,Toulouse,France,TRUE,1765,1789
+1998 FIFA Men's World Cup,WC-1998,1998,WC-1998_051,51,1998-06-28,Round of 16,played,Paraguay,PRY,PRY,CONMEBOL,France,FRA,FRA,UEFA,FALSE,Lens,France,FALSE,1813,2028
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_007,7,2002-06-02,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,South Africa,ZAF,ZAF,CAF,TRUE,Busan,South Korea,TRUE,1731,1641
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_022,22,2002-06-07,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Spain,ESP,ESP,UEFA,FALSE,Jeonju,South Korea,TRUE,1723,1983
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_038,38,2002-06-12,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Slovenia,SVN,SVN,UEFA,FALSE,Seogwipo,South Korea,TRUE,1707,1689
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_050,50,2002-06-15,Round of 16,played,Paraguay,PRY,PRY,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,Seogwipo,South Korea,TRUE,1750,1939
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_004,4,2006-06-10,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,England,ENG,ENG,UEFA,FALSE,Frankfurt am Main,Germany,TRUE,1779,1973
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_020,20,2006-06-15,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Sweden,SWE,SWE,UEFA,FALSE,Berlin,Germany,TRUE,1764,1838
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_035,35,2006-06-20,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,Kaiserslautern,Germany,TRUE,1740,1579
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_009,9,2010-06-14,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Italy,ITA,ITA,UEFA,FALSE,Cape Town,South Africa,TRUE,1764,1936
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_029,29,2010-06-20,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,Slovakia,SVK,SVK,UEFA,FALSE,Bloemfontein,South Africa,TRUE,1778,1658
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_043,43,2010-06-24,Group Stage,played,Paraguay,PRY,PRY,CONMEBOL,New Zealand,NZL,NZL,OFC,TRUE,Polokwane,South Africa,TRUE,1808,1563
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_055,55,2010-06-29,Round of 16,played,Paraguay,PRY,PRY,CONMEBOL,Japan,JPN,JPN,AFC,TRUE,Pretoria,South Africa,TRUE,1790,1757
+2010 FIFA Men's World Cup,WC-2010,2010,WC-2010_060,60,2010-07-03,Quarter-final,played,Paraguay,PRY,PRY,CONMEBOL,Spain,ESP,ESP,UEFA,TRUE,Johannesburg,South Africa,TRUE,1787,2101
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_004,4,2026-06-12,Group Stage,scheduled,Paraguay,PRY,PRY,CONMEBOL,United States,USA,USA,CONCACAF,FALSE,Inglewood,United States,FALSE,1833,1721
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_032,32,2026-06-19,Group Stage,scheduled,Paraguay,PRY,PRY,CONMEBOL,Turkey,TUR,TUR,UEFA,FALSE,Santa Clara,United States,TRUE,1833,1902
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_056,56,2026-06-25,Group Stage,scheduled,Paraguay,PRY,PRY,CONMEBOL,Australia,AUS,AUS,AFC,TRUE,Santa Clara,United States,TRUE,1833,1783

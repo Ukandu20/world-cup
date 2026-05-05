@@ -1,10 +1,10 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1986 FIFA Men's World Cup,WC-1986,1986,2,1986-06-01,Group Stage,played,Canada,CAN,France,FRA,TRUE,León,Mexico,TRUE,1648,1995
-1986 FIFA Men's World Cup,WC-1986,1986,18,1986-06-06,Group Stage,played,Canada,CAN,Hungary,HUN,FALSE,Irapuato,Mexico,TRUE,1641,1836
-1986 FIFA Men's World Cup,WC-1986,1986,26,1986-06-09,Group Stage,played,Canada,CAN,Soviet Union,SUN,FALSE,Irapuato,Mexico,TRUE,1619,1996
-2022 FIFA Men's World Cup,WC-2022,2022,12,2022-11-23,Group Stage,played,Canada,CAN,Belgium,BEL,FALSE,Al Rayyan,Qatar,TRUE,1775,2006
-2022 FIFA Men's World Cup,WC-2022,2022,28,2022-11-27,Group Stage,played,Canada,CAN,Croatia,HRV,FALSE,Al Rayyan,Qatar,TRUE,1762,1913
-2022 FIFA Men's World Cup,WC-2022,2022,44,2022-12-01,Group Stage,played,Canada,CAN,Morocco,MAR,TRUE,Doha,Qatar,TRUE,1731,1849
-2026 FIFA Men's World Cup,WC-2026,2026,3,2026-06-12,Group Stage,scheduled,Canada,CAN,Bosnia and Herzegovina,BIH,TRUE,Toronto,Canada,FALSE,1784,1594
-2026 FIFA Men's World Cup,WC-2026,2026,28,2026-06-18,Group Stage,scheduled,Canada,CAN,Qatar,QAT,TRUE,Vancouver,Canada,FALSE,1784,1425
-2026 FIFA Men's World Cup,WC-2026,2026,51,2026-06-24,Group Stage,scheduled,Canada,CAN,Switzerland,CHE,TRUE,Vancouver,Canada,FALSE,1784,1889
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_002,2,1986-06-01,Group Stage,played,Canada,CAN,CAN,CONCACAF,France,FRA,FRA,UEFA,TRUE,León,Mexico,TRUE,1648,1995
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_018,18,1986-06-06,Group Stage,played,Canada,CAN,CAN,CONCACAF,Hungary,HUN,HUN,UEFA,FALSE,Irapuato,Mexico,TRUE,1641,1836
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_026,26,1986-06-09,Group Stage,played,Canada,CAN,CAN,CONCACAF,Soviet Union,SUN,SUN,UEFA,FALSE,Irapuato,Mexico,TRUE,1619,1996
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_012,12,2022-11-23,Group Stage,played,Canada,CAN,CAN,CONCACAF,Belgium,BEL,BEL,UEFA,FALSE,Al Rayyan,Qatar,TRUE,1775,2006
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_028,28,2022-11-27,Group Stage,played,Canada,CAN,CAN,CONCACAF,Croatia,HRV,HRV,UEFA,FALSE,Al Rayyan,Qatar,TRUE,1762,1913
+2022 FIFA Men's World Cup,WC-2022,2022,WC-2022_044,44,2022-12-01,Group Stage,played,Canada,CAN,CAN,CONCACAF,Morocco,MAR,MAR,CAF,TRUE,Doha,Qatar,TRUE,1731,1849
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_003,3,2026-06-12,Group Stage,scheduled,Canada,CAN,CAN,CONCACAF,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,Toronto,Canada,FALSE,1784,1594
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_028,28,2026-06-18,Group Stage,scheduled,Canada,CAN,CAN,CONCACAF,Qatar,QAT,QAT,AFC,TRUE,Vancouver,Canada,FALSE,1784,1425
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_051,51,2026-06-24,Group Stage,scheduled,Canada,CAN,CAN,CONCACAF,Switzerland,CHE,CHE,UEFA,TRUE,Vancouver,Canada,FALSE,1784,1889

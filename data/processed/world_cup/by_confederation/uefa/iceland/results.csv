@@ -1,521 +1,521 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1946-07-17,Friendly,played,Iceland,ISL,Denmark,DNK,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1313,1718,1308,1723,-5
-1947-07-24,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,1308,1599,1301,1606,-7
-1948-07-02,Friendly,played,Iceland,ISL,Finland,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1301,1301,1312,1290,11
-1949-08-07,Friendly,played,Iceland,ISL,Denmark,DNK,FALSE,1,5,loss,Aarhus,Denmark,FALSE,1312,1794,1311,1795,-1
-1951-06-29,Friendly,played,Iceland,ISL,Sweden,SWE,TRUE,4,3,win,Reykjavík,Iceland,FALSE,1311,1933,1330,1914,19
-1951-07-26,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,1,3,loss,Trondheim,Norway,FALSE,1330,1592,1327,1595,-3
-1953-08-09,Friendly,played,Iceland,ISL,Denmark,DNK,FALSE,0,4,loss,Copenhagen,Denmark,FALSE,1327,1684,1324,1687,-3
-1953-08-13,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,1,3,loss,Bergen,Norway,FALSE,1324,1596,1321,1599,-3
-1954-07-04,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1321,1638,1337,1622,16
-1954-08-24,Friendly,played,Iceland,ISL,Sweden,SWE,FALSE,2,3,loss,Kalmar,Sweden,FALSE,1337,1835,1336,1836,-1
-1955-07-03,Friendly,played,Iceland,ISL,Denmark,DNK,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1336,1652,1328,1660,-8
-1955-08-25,Friendly,played,Iceland,ISL,United States,USA,TRUE,3,2,win,Reykjavík,Iceland,FALSE,1328,1573,1342,1559,14
-1956-06-29,Friendly,played,Iceland,ISL,Finland,,FALSE,1,2,loss,Helsinki,Finland,FALSE,1342,1369,1336,1375,-6
-1957-06-02,FIFA World Cup qualification,played,Iceland,ISL,France,FRA,FALSE,0,8,loss,Nantes,France,FALSE,1336,1866,1334,1868,-2
-1957-06-05,FIFA World Cup qualification,played,Iceland,ISL,Belgium,BEL,FALSE,3,8,loss,Brussels,Belgium,FALSE,1334,1669,1328,1675,-6
-1957-07-08,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1328,1609,1314,1623,-14
-1957-07-10,Friendly,played,Iceland,ISL,Denmark,DNK,TRUE,2,6,loss,Reykjavík,Iceland,FALSE,1314,1590,1299,1605,-15
-1957-09-01,FIFA World Cup qualification,played,Iceland,ISL,France,FRA,TRUE,1,5,loss,Reykjavík,Iceland,FALSE,1299,1868,1294,1873,-5
-1957-09-04,FIFA World Cup qualification,played,Iceland,ISL,Belgium,BEL,TRUE,2,5,loss,Reykjavík,Iceland,FALSE,1294,1675,1282,1687,-12
-1960-06-09,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,0,4,loss,Oslo,Norway,FALSE,1310,1495,1304,1501,-6
-1960-08-03,Friendly,played,Iceland,ISL,Germany,DEU,TRUE,0,5,loss,Reykjavík,Iceland,FALSE,,,,,
-1962-07-09,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1301,1464,1289,1476,-12
-1962-08-12,UEFA Euro qualification,played,Iceland,ISL,Republic of Ireland,IRL,FALSE,2,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1962-09-02,UEFA Euro qualification,played,Iceland,ISL,Republic of Ireland,IRL,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,,,,,
-1964-08-10,Friendly,played,Iceland,ISL,Bermuda,,TRUE,4,3,win,Reykjavík,Iceland,FALSE,1299,1400,1309,1390,10
-1964-08-23,Friendly,played,Iceland,ISL,Finland,,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1309,1338,1291,1356,-18
-1965-07-05,Friendly,played,Iceland,ISL,Denmark,DNK,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1291,1648,1285,1654,-6
-1967-08-23,Friendly,played,Iceland,ISL,Denmark,DNK,FALSE,2,14,loss,Copenhagen,Denmark,FALSE,1285,1557,1279,1563,-6
-1968-07-18,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1279,1517,1267,1529,-12
-1969-06-23,Friendly,played,Iceland,ISL,Bermuda,,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1267,1328,1276,1319,9
-1969-07-21,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,1,2,loss,Trondheim,Norway,FALSE,1276,1533,1274,1535,-2
-1969-07-24,Friendly,played,Iceland,ISL,Finland,,FALSE,1,3,loss,Helsinki,Finland,FALSE,1274,1413,1268,1419,-6
-1969-11-11,Friendly,played,Iceland,ISL,Bermuda,,FALSE,2,3,loss,Hamilton,Bermuda,FALSE,1268,1345,1263,1350,-5
-1970-07-07,Friendly,played,Iceland,ISL,Denmark,DNK,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1263,1648,1270,1641,7
-1970-07-20,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1270,1552,1292,1530,22
-1971-05-26,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,1,3,loss,Bergen,Norway,FALSE,1292,1539,1288,1543,-4
-1971-08-13,Friendly,played,Iceland,ISL,Japan,JPN,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1288,1570,1280,1578,-8
-1972-05-18,FIFA World Cup qualification,played,Iceland,ISL,Belgium,BEL,FALSE,0,4,loss,Liège,Belgium,FALSE,1280,1845,1278,1847,-2
-1972-05-22,FIFA World Cup qualification,played,Iceland,ISL,Belgium,BEL,FALSE,0,4,loss,Bruges,Belgium,FALSE,1278,1847,1276,1849,-2
-1972-07-03,Friendly,played,Iceland,ISL,Denmark,DNK,TRUE,2,5,loss,Reykjavík,Iceland,FALSE,1276,1651,1270,1657,-6
-1972-07-12,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1270,1287,1283,1274,13
-1972-08-03,FIFA World Cup qualification,played,Iceland,ISL,Norway,NOR,FALSE,1,4,loss,Stavanger,Norway,FALSE,1283,1462,1271,1474,-12
-1973-06-08,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,4,0,win,Klaksvík,Faroe Islands,FALSE,1271,1274,1295,1250,24
-1973-07-11,Friendly,played,Iceland,ISL,Sweden,SWE,FALSE,0,1,loss,Uddevalla,Sweden,FALSE,1295,1863,1295,1863,0
-1973-07-17,Friendly,played,Iceland,ISL,German DR,DDR,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1295,1859,1294,1860,-1
-1973-07-19,Friendly,played,Iceland,ISL,German DR,DDR,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1294,1860,1292,1862,-2
-1973-08-02,FIFA World Cup qualification,played,Iceland,ISL,Norway,NOR,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1292,1466,1262,1496,-30
-1973-08-22,FIFA World Cup qualification,played,Iceland,ISL,Netherlands,NLD,FALSE,0,5,loss,Amsterdam,Netherlands,FALSE,1262,1825,1260,1827,-2
-1973-08-29,FIFA World Cup qualification,played,Iceland,ISL,Netherlands,NLD,FALSE,1,8,loss,Deventer,Netherlands,FALSE,1260,1827,1258,1829,-2
-1974-07-03,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,3,2,win,Tórshavn,Faroe Islands,FALSE,1258,1250,1271,1237,13
-1974-08-19,Friendly,played,Iceland,ISL,Finland,,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1271,1426,1273,1424,2
-1974-09-08,UEFA Euro qualification,played,Iceland,ISL,Belgium,BEL,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1273,1887,1270,1890,-3
-1974-10-09,Friendly,played,Iceland,ISL,Denmark,DNK,FALSE,1,2,loss,Aalborg,Denmark,FALSE,1270,1622,1269,1623,-1
-1974-10-12,UEFA Euro qualification,played,Iceland,ISL,German DR,DDR,FALSE,1,1,draw,Magdeburg,German DR,FALSE,1269,1930,1289,1910,20
-1975-05-25,UEFA Euro qualification,played,Iceland,ISL,France,FRA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1289,1787,1305,1771,16
-1975-06-05,UEFA Euro qualification,played,Iceland,ISL,German DR,DDR,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1305,1877,1343,1839,38
-1975-06-23,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,6,0,win,Reykjavík,Iceland,FALSE,1343,1237,1353,1227,10
-1975-09-03,UEFA Euro qualification,played,Iceland,ISL,France,FRA,FALSE,0,3,loss,Nantes,France,FALSE,1345,1771,1342,1774,-3
-1975-09-06,UEFA Euro qualification,played,Iceland,ISL,Belgium,BEL,FALSE,0,1,loss,Liège,Belgium,FALSE,1342,1917,1341,1918,-1
-1976-05-19,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,1,0,win,Oslo,Norway,FALSE,1341,1459,1357,1443,16
-1976-06-16,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,6,1,win,Tórshavn,Faroe Islands,FALSE,1357,1227,1375,1209,18
-1976-07-14,Friendly,played,Iceland,ISL,Finland,,FALSE,0,1,loss,Helsinki,Finland,FALSE,1375,1406,1369,1412,-6
-1976-08-21,Friendly,played,Iceland,ISL,Luxembourg,,TRUE,3,1,win,Reykjavík,Iceland,FALSE,1369,1301,1377,1293,8
-1976-09-05,FIFA World Cup qualification,played,Iceland,ISL,Belgium,BEL,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1377,1859,1373,1863,-4
-1976-09-08,FIFA World Cup qualification,played,Iceland,ISL,Netherlands,NLD,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1373,2045,1372,2046,-1
-1977-06-11,FIFA World Cup qualification,played,Iceland,ISL,Northern Ireland,NIR,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1372,1721,1404,1689,32
-1977-06-30,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1404,1471,1413,1462,9
-1977-07-20,Friendly,played,Iceland,ISL,Sweden,SWE,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1413,1794,1410,1797,-3
-1977-08-31,FIFA World Cup qualification,played,Iceland,ISL,Netherlands,NLD,FALSE,1,4,loss,Nijmegen,Netherlands,FALSE,1410,2070,1409,2071,-1
-1977-09-03,FIFA World Cup qualification,played,Iceland,ISL,Belgium,BEL,FALSE,0,4,loss,Brussels,Belgium,FALSE,1409,1848,1406,1851,-3
-1977-09-21,FIFA World Cup qualification,played,Iceland,ISL,Northern Ireland,NIR,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1406,1689,1400,1695,-6
-1978-06-28,Friendly,played,Iceland,ISL,Denmark,DNK,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1400,1643,1404,1639,4
-1978-09-03,Friendly,played,Iceland,ISL,United States,USA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1404,1473,1403,1474,-1
-1978-09-06,UEFA Euro qualification,played,Iceland,ISL,Poland,POL,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1403,1932,1398,1937,-5
-1978-09-20,UEFA Euro qualification,played,Iceland,ISL,Netherlands,NLD,FALSE,0,3,loss,Nijmegen,Netherlands,FALSE,1398,2058,1397,2059,-1
-1978-10-04,UEFA Euro qualification,played,Iceland,ISL,German DR,DDR,FALSE,1,3,loss,Halle,German DR,FALSE,1397,1951,1396,1952,-1
-1979-05-22,UEFA Euro qualification,played,Iceland,ISL,Switzerland,CHE,FALSE,0,2,loss,Bern,Switzerland,FALSE,1396,1588,1387,1597,-9
-1979-05-26,Friendly,played,Iceland,ISL,Germany,DEU,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,,,,,
-1979-06-09,UEFA Euro qualification,played,Iceland,ISL,Switzerland,CHE,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1386,1597,1372,1611,-14
-1979-09-05,UEFA Euro qualification,played,Iceland,ISL,Netherlands,NLD,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1372,2024,1369,2027,-3
-1979-09-12,UEFA Euro qualification,played,Iceland,ISL,German DR,DDR,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1369,1913,1364,1918,-5
-1979-10-10,UEFA Euro qualification,played,Iceland,ISL,Poland,POL,FALSE,0,2,loss,Kraków,Poland,FALSE,1364,1967,1363,1968,-1
-1980-06-02,FIFA World Cup qualification,played,Iceland,ISL,Wales,WAL,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1363,1819,1354,1828,-9
-1980-06-25,Friendly,played,Iceland,ISL,Finland,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1354,1482,1355,1481,1
-1980-06-30,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,2,1,win,Akureyri,Iceland,FALSE,1355,1209,1361,1203,6
-1980-07-03,Friendly,played,Iceland,ISL,Greenland,,TRUE,4,1,win,Húsavík,Iceland,FALSE,1361,985,1364,982,3
-1980-07-14,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,1,3,loss,Oslo,Norway,FALSE,1364,1483,1357,1490,-7
-1980-07-17,Friendly,played,Iceland,ISL,Sweden,SWE,FALSE,1,1,draw,Halmstad,Sweden,FALSE,1357,1663,1365,1655,8
-1980-09-03,FIFA World Cup qualification,played,Iceland,ISL,Soviet Union,SUN,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1365,1949,1363,1951,-2
-1980-09-24,FIFA World Cup qualification,played,Iceland,ISL,Turkey,TUR,FALSE,3,1,win,İzmir,Turkey,FALSE,1363,1672,1418,1617,55
-1980-10-15,FIFA World Cup qualification,played,Iceland,ISL,Soviet Union,SUN,FALSE,0,5,loss,Moscow,Soviet Union,TRUE,1418,1951,1416,1953,-2
-1981-05-27,FIFA World Cup qualification,played,Iceland,ISL,Czechoslovakia,CSK,FALSE,1,6,loss,Bratislava,Czechoslovakia,FALSE,1416,1890,1413,1893,-3
-1981-08-22,Friendly,played,Iceland,ISL,Nigeria,NGA,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1413,1634,1436,1611,23
-1981-08-26,Friendly,played,Iceland,ISL,Denmark,DNK,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1436,1744,1433,1747,-3
-1981-09-09,FIFA World Cup qualification,played,Iceland,ISL,Turkey,TUR,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1433,1579,1467,1545,34
-1981-09-23,FIFA World Cup qualification,played,Iceland,ISL,Czechoslovakia,CSK,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1467,1916,1482,1901,15
-1981-10-14,FIFA World Cup qualification,played,Iceland,ISL,Wales,WAL,FALSE,2,2,draw,Swansea,Wales,FALSE,1482,1884,1500,1866,18
-1982-03-14,Friendly,played,Iceland,ISL,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1500,1660,1506,1654,6
-1982-06-02,Friendly,played,Iceland,ISL,England,ENG,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1506,1968,1514,1960,8
-1982-06-05,UEFA Euro qualification,played,Iceland,ISL,Malta,,FALSE,1,2,loss,Messina,Italy,TRUE,1514,1386,1487,1413,-27
-1982-07-11,Friendly,played,Iceland,ISL,Finland,,FALSE,2,3,loss,Helsinki,Finland,FALSE,1487,1477,1480,1484,-7
-1982-08-01,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,4,1,win,Tórshavn,Faroe Islands,FALSE,1480,1218,1490,1208,10
-1982-08-02,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,4,0,win,Gøta,Faroe Islands,FALSE,1490,1208,1500,1198,10
-1982-09-01,UEFA Euro qualification,played,Iceland,ISL,Netherlands,NLD,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1500,1895,1514,1881,14
-1982-09-08,Friendly,played,Iceland,ISL,German DR,DDR,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1514,1908,1511,1911,-3
-1982-10-13,UEFA Euro qualification,played,Iceland,ISL,Republic of Ireland,IRL,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
-1982-10-27,UEFA Euro qualification,played,Iceland,ISL,Spain,ESP,FALSE,0,1,loss,Málaga,Spain,FALSE,1503,1835,1500,1838,-3
-1983-05-29,UEFA Euro qualification,played,Iceland,ISL,Spain,ESP,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1500,1873,1493,1880,-7
-1983-06-05,UEFA Euro qualification,played,Iceland,ISL,Malta,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1493,1389,1502,1380,9
-1983-08-08,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,6,0,win,Njarðvík,Iceland,FALSE,1502,1204,1506,1200,4
-1983-08-17,Friendly,played,Iceland,ISL,Sweden,SWE,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1506,1757,1495,1768,-11
-1983-09-07,UEFA Euro qualification,played,Iceland,ISL,Netherlands,NLD,FALSE,0,3,loss,Groningen,Netherlands,FALSE,1495,1836,1490,1841,-5
-1983-09-21,UEFA Euro qualification,played,Iceland,ISL,Republic of Ireland,IRL,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,,,,,
-1984-06-20,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1468,1615,1459,1624,-9
-1984-08-01,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,0,0,draw,Tórshavn,Faroe Islands,FALSE,1459,1200,1453,1206,-6
-1984-08-03,Friendly,played,Iceland,ISL,Greenland,,FALSE,1,0,win,Fuglafjørður,Faroe Islands,TRUE,1453,976,1455,974,2
-1984-09-12,FIFA World Cup qualification,played,Iceland,ISL,Wales,WAL,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1455,1820,1488,1787,33
-1984-09-25,Friendly,played,Iceland,ISL,Saudi Arabia,SAU,FALSE,2,1,win,Khobar,Saudi Arabia,FALSE,1488,1567,1503,1552,15
-1984-10-17,FIFA World Cup qualification,played,Iceland,ISL,Scotland,SCO,FALSE,0,3,loss,Glasgow,Scotland,FALSE,1503,1855,1498,1860,-5
-1984-11-14,FIFA World Cup qualification,played,Iceland,ISL,Wales,WAL,FALSE,1,2,loss,Cardiff,Wales,FALSE,1498,1770,1494,1774,-4
-1985-03-31,Friendly,played,Iceland,ISL,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1494,1506,1497,1503,3
-1985-04-24,Friendly,played,Iceland,ISL,Luxembourg,,FALSE,0,0,draw,Ettelbruck,Luxembourg,FALSE,1497,1171,1491,1177,-6
-1985-05-28,FIFA World Cup qualification,played,Iceland,ISL,Scotland,SCO,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1491,1856,1484,1863,-7
-1985-06-12,FIFA World Cup qualification,played,Iceland,ISL,Spain,ESP,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1484,1851,1477,1858,-7
-1985-07-10,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,9,0,win,Keflavík,Iceland,FALSE,1477,1214,1483,1208,6
-1985-07-12,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,1,0,win,Akranes,Iceland,FALSE,1483,1208,1485,1206,2
-1985-09-25,FIFA World Cup qualification,played,Iceland,ISL,Spain,ESP,FALSE,1,2,loss,Seville,Spain,FALSE,1485,1858,1483,1860,-2
-1986-03-11,Friendly,played,Iceland,ISL,Bahrain,,FALSE,1,2,loss,Manama,Bahrain,FALSE,1483,1338,1472,1349,-11
-1986-03-15,Friendly,played,Iceland,ISL,Bahrain,,FALSE,2,0,win,Manama,Bahrain,FALSE,1472,1349,1486,1335,14
-1986-03-19,Friendly,played,Iceland,ISL,Kuwait,KWT,FALSE,0,1,loss,Kuwait City,Kuwait,FALSE,1486,1500,1479,1507,-7
-1986-05-25,Friendly,played,Iceland,ISL,Republic of Ireland,IRL,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,,,,,
-1986-05-29,Friendly,played,Iceland,ISL,Czechoslovakia,CSK,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1469,1824,1463,1830,-6
-1986-09-10,UEFA Euro qualification,played,Iceland,ISL,France,FRA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1463,1999,1480,1982,17
-1986-09-24,UEFA Euro qualification,played,Iceland,ISL,Soviet Union,SUN,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1480,1960,1496,1944,16
-1986-10-29,UEFA Euro qualification,played,Iceland,ISL,German DR,DDR,FALSE,0,2,loss,Karl-Marx-Stadt,German DR,FALSE,1496,1831,1491,1836,-5
-1987-02-26,Friendly,played,Iceland,ISL,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1491,1659,1497,1653,6
-1987-02-28,Friendly,played,Iceland,ISL,Kuwait,KWT,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1497,1634,1513,1618,16
-1987-04-29,UEFA Euro qualification,played,Iceland,ISL,France,FRA,FALSE,0,2,loss,Paris,France,FALSE,1513,1941,1510,1944,-3
-1987-06-03,UEFA Euro qualification,played,Iceland,ISL,German DR,DDR,TRUE,0,6,loss,Reykjavík,Iceland,FALSE,1510,1816,1490,1836,-20
-1987-09-09,UEFA Euro qualification,played,Iceland,ISL,Norway,NOR,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1490,1742,1518,1714,28
-1987-09-23,UEFA Euro qualification,played,Iceland,ISL,Norway,NOR,FALSE,1,0,win,Oslo,Norway,FALSE,1518,1714,1552,1680,34
-1987-10-28,UEFA Euro qualification,played,Iceland,ISL,Soviet Union,SUN,FALSE,0,2,loss,Simferopol,Soviet Union,FALSE,1552,1987,1549,1990,-3
-1988-05-04,Friendly,played,Iceland,ISL,Hungary,HUN,FALSE,0,3,loss,Budapest,Hungary,FALSE,1549,1781,1544,1786,-5
-1988-08-07,Friendly,played,Iceland,ISL,Bulgaria,BGR,TRUE,2,3,loss,Reykjavík,Iceland,FALSE,1544,1798,1538,1804,-6
-1988-08-24,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,1,0,win,Akranes,Iceland,FALSE,1538,1206,1540,1204,2
-1988-08-31,FIFA World Cup qualification,played,Iceland,ISL,Soviet Union,SUN,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1540,2004,1556,1988,16
-1988-09-21,Friendly,played,Iceland,ISL,Hungary,HUN,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1556,1761,1544,1773,-12
-1988-09-28,Friendly,played,Iceland,ISL,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1544,1831,1542,1833,-2
-1988-10-12,FIFA World Cup qualification,played,Iceland,ISL,Turkey,TUR,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1542,1550,1548,1544,6
-1988-10-19,FIFA World Cup qualification,played,Iceland,ISL,German DR,DDR,FALSE,0,2,loss,Berlin,German DR,FALSE,1548,1809,1541,1816,-7
-1989-05-31,FIFA World Cup qualification,played,Iceland,ISL,Soviet Union,SUN,FALSE,1,1,draw,Moscow,Soviet Union,TRUE,1541,2007,1560,1988,19
-1989-06-14,FIFA World Cup qualification,played,Iceland,ISL,Austria,AUT,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1560,1707,1563,1704,3
-1989-08-23,FIFA World Cup qualification,played,Iceland,ISL,Austria,AUT,FALSE,1,2,loss,Salzburg,Austria,FALSE,1563,1704,1555,1712,-8
-1989-09-06,FIFA World Cup qualification,played,Iceland,ISL,German DR,DDR,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1555,1707,1525,1737,-30
-1989-09-20,FIFA World Cup qualification,played,Iceland,ISL,Turkey,TUR,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1525,1639,1546,1618,21
-1990-03-28,Friendly,played,Iceland,ISL,Luxembourg,,FALSE,2,1,win,Esch-sur-Alzette,Luxembourg,FALSE,1546,1182,1550,1178,4
-1990-04-03,Friendly,played,Iceland,ISL,Bermuda,,FALSE,4,0,win,Hamilton,Bermuda,FALSE,1550,1354,1564,1340,14
-1990-04-08,Friendly,played,Iceland,ISL,United States,USA,FALSE,1,4,loss,St. Louis,United States,FALSE,1564,1584,1552,1596,-12
-1990-05-30,UEFA Euro qualification,played,Iceland,ISL,Albania,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1552,1419,1564,1407,12
-1990-08-08,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,3,2,win,Tórshavn,Faroe Islands,FALSE,1564,1224,1568,1220,4
-1990-09-05,UEFA Euro qualification,played,Iceland,ISL,France,FRA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1568,1904,1560,1912,-8
-1990-09-26,UEFA Euro qualification,played,Iceland,ISL,Czechoslovakia,CSK,FALSE,0,1,loss,Košice,Czechoslovakia,FALSE,1560,1877,1557,1880,-3
-1990-10-10,UEFA Euro qualification,played,Iceland,ISL,Spain,ESP,FALSE,1,2,loss,Seville,Spain,FALSE,1557,1951,1555,1953,-2
-1991-05-01,Friendly,played,Iceland,ISL,Wales,WAL,FALSE,0,1,loss,Cardiff,Wales,FALSE,1555,1756,1552,1759,-3
-1991-05-07,Friendly,played,Iceland,ISL,Malta,,FALSE,4,1,win,Attard,Malta,FALSE,1552,1357,1565,1344,13
-1991-05-26,UEFA Euro qualification,played,Iceland,ISL,Albania,,FALSE,0,1,loss,Tirana,Albania,FALSE,1565,1392,1541,1416,-24
-1991-06-05,UEFA Euro qualification,played,Iceland,ISL,Czechoslovakia,CSK,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1541,1916,1534,1923,-7
-1991-07-17,Friendly,played,Iceland,ISL,Turkey,TUR,TRUE,5,1,win,Reykjavík,Iceland,FALSE,1534,1591,1550,1575,16
-1991-09-04,Friendly,played,Iceland,ISL,Denmark,DNK,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1550,1853,1555,1848,5
-1991-09-25,UEFA Euro qualification,played,Iceland,ISL,Spain,ESP,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1555,1870,1602,1823,47
-1991-10-16,Friendly,played,Iceland,ISL,Cyprus,,FALSE,1,1,draw,Larnaca,Cyprus,FALSE,1602,1254,1596,1260,-6
-1991-11-20,UEFA Euro qualification,played,Iceland,ISL,France,FRA,FALSE,1,3,loss,Paris,France,FALSE,1596,2006,1593,2009,-3
-1992-02-10,Malta International Tournament,played,Iceland,ISL,Malta,,FALSE,0,1,loss,Attard,Malta,FALSE,1593,1392,1574,1411,-19
-1992-03-02,Friendly,played,Iceland,ISL,United Arab Emirates,ARE,FALSE,1,0,win,Dubai,United Arab Emirates,FALSE,1574,1425,1583,1416,9
-1992-04-08,Friendly,played,Iceland,ISL,Israel,ISR,FALSE,2,2,draw,Ramat Gan,Israel,FALSE,1583,1616,1587,1612,4
-1992-05-13,FIFA World Cup qualification,played,Iceland,ISL,Greece,GRC,FALSE,0,1,loss,Athens,Greece,FALSE,1587,1666,1576,1677,-11
-1992-06-03,FIFA World Cup qualification,played,Iceland,ISL,Hungary,HUN,FALSE,2,1,win,Budapest,Hungary,FALSE,1576,1728,1608,1696,32
-1992-08-09,Friendly,played,Iceland,ISL,Israel,ISR,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1608,1605,1589,1624,-19
-1992-10-07,FIFA World Cup qualification,played,Iceland,ISL,Greece,GRC,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1589,1658,1567,1680,-22
-1992-10-14,FIFA World Cup qualification,played,Iceland,ISL,Russia,RUS,FALSE,0,1,loss,Moscow,Russia,FALSE,1567,1880,1564,1883,-3
-1993-04-17,Friendly,played,Iceland,ISL,United States,USA,FALSE,1,1,draw,Costa Mesa,United States,FALSE,1564,1661,1569,1656,5
-1993-05-20,FIFA World Cup qualification,played,Iceland,ISL,Luxembourg,,FALSE,1,1,draw,Luxembourg,Luxembourg,FALSE,1569,1166,1555,1180,-14
-1993-06-02,FIFA World Cup qualification,played,Iceland,ISL,Russia,RUS,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1555,1883,1567,1871,12
-1993-06-16,FIFA World Cup qualification,played,Iceland,ISL,Hungary,HUN,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1567,1700,1600,1667,33
-1993-08-31,Friendly,played,Iceland,ISL,United States,USA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1600,1637,1588,1649,-12
-1993-09-08,FIFA World Cup qualification,played,Iceland,ISL,Luxembourg,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1588,1180,1590,1178,2
-1993-10-17,Friendly,played,Iceland,ISL,Tunisia,TUN,FALSE,1,3,loss,Tunis,Tunisia,FALSE,1590,1591,1579,1602,-11
-1994-04-20,Friendly,played,Iceland,ISL,Saudi Arabia,SAU,TRUE,0,2,loss,Toulon,France,TRUE,1579,1632,1566,1645,-13
-1994-04-24,Friendly,played,Iceland,ISL,United States,USA,FALSE,2,1,win,Chula Vista,United States,FALSE,1566,1627,1580,1613,14
-1994-05-04,Friendly,played,Iceland,ISL,Brazil,BRA,FALSE,0,3,loss,Florianópolis,Brazil,FALSE,1580,1961,1578,1963,-2
-1994-05-19,Friendly,played,Iceland,ISL,Bolivia,BOL,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1578,1720,1589,1709,11
-1994-08-16,Friendly,played,Iceland,ISL,Estonia,,TRUE,4,0,win,Akureyri,Iceland,FALSE,1589,1156,1591,1154,2
-1994-08-30,Friendly,played,Iceland,ISL,United Arab Emirates,ARE,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1591,1483,1596,1478,5
-1994-09-07,UEFA Euro qualification,played,Iceland,ISL,Sweden,SWE,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1596,1972,1589,1979,-7
-1994-10-12,UEFA Euro qualification,played,Iceland,ISL,Turkey,TUR,FALSE,0,5,loss,Istanbul,Turkey,FALSE,1589,1605,1562,1632,-27
-1994-10-29,Friendly,played,Iceland,ISL,Kuwait,KWT,FALSE,1,0,win,Al Ain,United Arab Emirates,TRUE,1562,1561,1572,1551,10
-1994-11-16,UEFA Euro qualification,played,Iceland,ISL,Switzerland,CHE,FALSE,0,1,loss,Lausanne,Switzerland,FALSE,1572,1854,1568,1858,-4
-1995-04-22,Friendly,played,Iceland,ISL,Chile,CHL,FALSE,1,1,draw,Temuco,Chile,FALSE,1568,1728,1574,1722,6
-1995-06-01,UEFA Euro qualification,played,Iceland,ISL,Sweden,SWE,FALSE,1,1,draw,Solna,Sweden,FALSE,1574,1879,1590,1863,16
-1995-06-11,UEFA Euro qualification,played,Iceland,ISL,Hungary,HUN,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1590,1650,1608,1632,18
-1995-07-02,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,2,0,win,Neskaupstaður,Iceland,FALSE,1608,1173,1609,1172,1
-1995-08-16,UEFA Euro qualification,played,Iceland,ISL,Switzerland,CHE,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1609,1802,1587,1824,-22
-1995-10-11,UEFA Euro qualification,played,Iceland,ISL,Turkey,TUR,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1587,1752,1591,1748,4
-1995-11-11,UEFA Euro qualification,played,Iceland,ISL,Hungary,HUN,FALSE,0,1,loss,Budapest,Hungary,FALSE,1591,1590,1577,1604,-14
-1996-02-07,Malta International Tournament,played,Iceland,ISL,Slovenia,SVN,TRUE,1,7,loss,Attard,Malta,TRUE,1577,1596,1547,1626,-30
-1996-02-09,Malta International Tournament,played,Iceland,ISL,Russia,RUS,TRUE,0,3,loss,Attard,Malta,TRUE,1547,1901,1541,1907,-6
-1996-02-11,Malta International Tournament,played,Iceland,ISL,Malta,,FALSE,4,1,win,Attard,Malta,FALSE,1541,1321,1559,1303,18
-1996-04-24,Friendly,played,Iceland,ISL,Estonia,,FALSE,3,0,win,Tallinn,Estonia,FALSE,1559,1097,1563,1093,4
-1996-06-01,FIFA World Cup qualification,played,Iceland,ISL,North Macedonia,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1563,1543,1556,1550,-7
-1996-06-05,Friendly,played,Iceland,ISL,Cyprus,,TRUE,2,1,win,Akranes,Iceland,FALSE,1556,1388,1560,1384,4
-1996-08-14,Friendly,played,Iceland,ISL,Malta,,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1560,1299,1562,1297,2
-1996-09-04,Friendly,played,Iceland,ISL,Czechia,CZE,FALSE,1,2,loss,Jablonec nad Nisou,Czech Republic,FALSE,1562,1932,1561,1933,-1
-1996-10-05,FIFA World Cup qualification,played,Iceland,ISL,Lithuania,,FALSE,0,2,loss,Vilnius,Lithuania,FALSE,1561,1449,1530,1480,-31
-1996-10-09,FIFA World Cup qualification,played,Iceland,ISL,Romania,ROU,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1530,1823,1511,1842,-19
-1996-11-10,FIFA World Cup qualification,played,Iceland,ISL,Republic of Ireland,IRL,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
-1997-04-29,Friendly,played,Iceland,ISL,Slovakia,SVK,FALSE,1,3,loss,Trnava,Slovakia,FALSE,1526,1717,1521,1722,-5
-1997-06-07,FIFA World Cup qualification,played,Iceland,ISL,North Macedonia,,FALSE,0,1,loss,Skopje,North Macedonia,FALSE,1521,1561,1509,1573,-12
-1997-06-11,FIFA World Cup qualification,played,Iceland,ISL,Lithuania,,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1509,1488,1502,1495,-7
-1997-07-20,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1502,1824,1498,1828,-4
-1997-07-27,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,1,0,win,Höfn,Iceland,FALSE,1498,1219,1500,1217,2
-1997-08-20,FIFA World Cup qualification,played,Iceland,ISL,Liechtenstein,,FALSE,4,0,win,Eschen,Liechtenstein,FALSE,1500,1064,1509,1055,9
-1997-09-06,FIFA World Cup qualification,played,Iceland,ISL,Republic of Ireland,IRL,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,,,,,
-1997-09-10,FIFA World Cup qualification,played,Iceland,ISL,Romania,ROU,FALSE,0,4,loss,Bucharest,Romania,FALSE,1486,1881,1482,1885,-4
-1997-10-11,FIFA World Cup qualification,played,Iceland,ISL,Liechtenstein,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1482,1054,1485,1051,3
-1997-12-07,Friendly,played,Iceland,ISL,Saudi Arabia,SAU,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1485,1662,1492,1655,7
-1998-02-05,Cyprus International Tournament,played,Iceland,ISL,Slovenia,SVN,TRUE,2,3,loss,Limassol,Cyprus,TRUE,1492,1530,1479,1543,-13
-1998-02-07,Cyprus International Tournament,played,Iceland,ISL,Slovakia,SVK,TRUE,1,2,loss,Limassol,Cyprus,TRUE,1479,1715,1473,1721,-6
-1998-05-13,Friendly,played,Iceland,ISL,Saudi Arabia,SAU,TRUE,1,1,draw,Cannes,France,TRUE,1473,1636,1477,1632,4
-1998-06-06,Friendly,played,Iceland,ISL,South Africa,ZAF,TRUE,1,1,draw,Baiersbronn,Germany,TRUE,1477,1641,1481,1637,4
-1998-08-19,Friendly,played,Iceland,ISL,Latvia,,TRUE,4,1,win,Reykjavík,Iceland,FALSE,1481,1385,1490,1376,9
-1998-09-05,UEFA Euro qualification,played,Iceland,ISL,France,FRA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1490,2082,1508,2064,18
-1998-10-10,UEFA Euro qualification,played,Iceland,ISL,Armenia,,FALSE,0,0,draw,Yerevan,Armenia,FALSE,1508,1380,1506,1382,-2
-1998-10-14,UEFA Euro qualification,played,Iceland,ISL,Russia,RUS,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1506,1814,1537,1783,31
-1999-03-10,Friendly,played,Iceland,ISL,Luxembourg,,FALSE,2,1,win,Luxembourg,Luxembourg,FALSE,1537,1208,1541,1204,4
-1999-03-27,UEFA Euro qualification,played,Iceland,ISL,Andorra,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1541,1060,1547,1054,6
-1999-03-31,UEFA Euro qualification,played,Iceland,ISL,Ukraine,UKR,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,1547,1747,1561,1733,14
-1999-04-28,Friendly,played,Iceland,ISL,Malta,,FALSE,2,1,win,Attard,Malta,FALSE,1561,1209,1565,1205,4
-1999-06-05,UEFA Euro qualification,played,Iceland,ISL,Armenia,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1565,1368,1574,1359,9
-1999-06-09,UEFA Euro qualification,played,Iceland,ISL,Russia,RUS,FALSE,0,1,loss,Moscow,Russia,FALSE,1574,1818,1569,1823,-5
-1999-08-18,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1569,1235,1573,1231,4
-1999-09-04,UEFA Euro qualification,played,Iceland,ISL,Andorra,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1573,1052,1575,1050,2
-1999-09-08,UEFA Euro qualification,played,Iceland,ISL,Ukraine,UKR,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1575,1728,1558,1745,-17
-1999-10-09,UEFA Euro qualification,played,Iceland,ISL,France,FRA,FALSE,2,3,loss,Saint-Denis,France,FALSE,1558,2032,1557,2033,-1
-2000-01-31,Nordic Championship,played,Iceland,ISL,Norway,NOR,TRUE,0,0,draw,Cartagena,Spain,TRUE,1557,1905,1568,1894,11
-2000-02-02,Nordic Championship,played,Iceland,ISL,Finland,,FALSE,1,0,win,Cartagena,Spain,TRUE,1568,1574,1583,1559,15
-2000-02-04,Nordic Championship,played,Iceland,ISL,Faroe Islands,,FALSE,3,2,win,Cartagena,Spain,TRUE,1583,1182,1586,1179,3
-2000-07-27,Friendly,played,Iceland,ISL,Malta,,TRUE,5,0,win,Reykjavík,Iceland,FALSE,1586,1233,1589,1230,3
-2000-08-16,Nordic Championship,played,Iceland,ISL,Sweden,SWE,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1589,1855,1611,1833,22
-2000-09-02,FIFA World Cup qualification,played,Iceland,ISL,Denmark,DNK,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1611,1770,1594,1787,-17
-2000-10-07,FIFA World Cup qualification,played,Iceland,ISL,Czechia,CZE,FALSE,0,4,loss,Teplice,Czech Republic,FALSE,1594,1930,1588,1936,-6
-2000-10-11,FIFA World Cup qualification,played,Iceland,ISL,Northern Ireland,NIR,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1588,1527,1599,1516,11
-2000-11-15,Friendly,played,Iceland,ISL,Poland,POL,FALSE,0,1,loss,Warsaw,Poland,FALSE,1599,1758,1595,1762,-4
-2001-01-13,Millennium Cup,played,Iceland,ISL,India,,FALSE,3,0,win,Kochi,India,FALSE,1595,1090,1600,1085,5
-2001-01-20,Millennium Cup,played,Iceland,ISL,Chile,CHL,FALSE,0,2,loss,Calcutta,India,TRUE,,,,,
-2001-03-24,FIFA World Cup qualification,played,Iceland,ISL,Bulgaria,BGR,FALSE,1,2,loss,Sofia,Bulgaria,FALSE,1600,1697,1590,1707,-10
-2001-04-25,FIFA World Cup qualification,played,Iceland,ISL,Malta,,FALSE,4,1,win,Attard,Malta,FALSE,1590,1227,1603,1214,13
-2001-06-02,FIFA World Cup qualification,played,Iceland,ISL,Malta,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1603,1214,1607,1210,4
-2001-06-06,FIFA World Cup qualification,played,Iceland,ISL,Bulgaria,BGR,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1607,1721,1608,1720,1
-2001-08-15,Friendly,played,Iceland,ISL,Poland,POL,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1608,1803,1611,1800,3
-2001-09-01,FIFA World Cup qualification,played,Iceland,ISL,Czechia,CZE,TRUE,3,1,win,Reykjavík,Iceland,FALSE,1611,1892,1655,1848,44
-2001-09-05,FIFA World Cup qualification,played,Iceland,ISL,Northern Ireland,NIR,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1655,1495,1614,1536,-41
-2001-10-06,FIFA World Cup qualification,played,Iceland,ISL,Denmark,DNK,FALSE,0,6,loss,Copenhagen,Denmark,FALSE,1614,1836,1602,1848,-12
-2002-01-08,Friendly,played,Iceland,ISL,Kuwait,KWT,FALSE,0,0,draw,Muscat,Oman,TRUE,1602,1565,1601,1566,-1
-2002-01-10,Friendly,played,Iceland,ISL,Saudi Arabia,SAU,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1601,1687,1596,1692,-5
-2002-03-07,Friendly,played,Iceland,ISL,Brazil,BRA,FALSE,1,6,loss,Cuiabá,Brazil,FALSE,1596,1847,1591,1852,-5
-2002-05-22,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,1,1,draw,Bodø,Norway,FALSE,1591,1767,1598,1760,7
-2002-08-21,Friendly,played,Iceland,ISL,Andorra,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1598,1077,1599,1076,1
-2002-09-07,Friendly,played,Iceland,ISL,Hungary,HUN,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1599,1565,1578,1586,-21
-2002-10-12,UEFA Euro qualification,played,Iceland,ISL,Scotland,SCO,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1578,1655,1546,1687,-32
-2002-10-16,UEFA Euro qualification,played,Iceland,ISL,Lithuania,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1546,1397,1559,1384,13
-2002-11-20,Friendly,played,Iceland,ISL,Estonia,,FALSE,0,2,loss,Tallinn,Estonia,FALSE,1559,1420,1542,1437,-17
-2003-03-29,UEFA Euro qualification,played,Iceland,ISL,Scotland,SCO,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1542,1679,1534,1687,-8
-2003-04-30,Friendly,played,Iceland,ISL,Finland,,FALSE,0,3,loss,Vantaa,Finland,FALSE,1534,1674,1527,1681,-7
-2003-06-07,UEFA Euro qualification,played,Iceland,ISL,Faroe Islands,,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1527,1277,1532,1272,5
-2003-06-11,UEFA Euro qualification,played,Iceland,ISL,Lithuania,,FALSE,3,0,win,Kaunas,Lithuania,FALSE,1532,1421,1566,1387,34
-2003-08-20,UEFA Euro qualification,played,Iceland,ISL,Faroe Islands,,FALSE,2,1,win,Tórshavn,Faroe Islands,FALSE,1566,1269,1576,1259,10
-2003-09-06,UEFA Euro qualification,played,Iceland,ISL,Germany,DEU,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1576,1895,1587,1884,11
-2003-10-11,UEFA Euro qualification,played,Iceland,ISL,Germany,DEU,FALSE,0,3,loss,Hamburg,Germany,FALSE,1587,1889,1581,1895,-6
-2003-11-19,Friendly,played,Iceland,ISL,Mexico,MEX,FALSE,0,0,draw,San Francisco,United States,TRUE,1581,1857,1588,1850,7
-2004-03-31,Friendly,played,Iceland,ISL,Albania,,FALSE,1,2,loss,Tirana,Albania,FALSE,1588,1531,1579,1540,-9
-2004-04-28,Friendly,played,Iceland,ISL,Latvia,,FALSE,0,0,draw,Riga,Latvia,FALSE,1579,1532,1581,1530,2
-2004-05-30,Friendly,played,Iceland,ISL,Japan,JPN,TRUE,2,3,loss,Manchester,England,TRUE,1581,1792,1574,1799,-7
-2004-06-05,Friendly,played,Iceland,ISL,England,ENG,FALSE,1,6,loss,Manchester,England,FALSE,1574,1934,1570,1938,-4
-2004-08-18,Friendly,played,Iceland,ISL,Italy,ITA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1570,1944,1595,1919,25
-2004-09-04,FIFA World Cup qualification,played,Iceland,ISL,Bulgaria,BGR,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1595,1689,1564,1720,-31
-2004-09-08,FIFA World Cup qualification,played,Iceland,ISL,Hungary,HUN,FALSE,2,3,loss,Budapest,Hungary,FALSE,1564,1590,1551,1603,-13
-2004-10-09,FIFA World Cup qualification,played,Iceland,ISL,Malta,,FALSE,0,0,draw,Attard,Malta,FALSE,1551,1251,1541,1261,-10
-2004-10-13,FIFA World Cup qualification,played,Iceland,ISL,Sweden,SWE,TRUE,1,4,loss,Reykjavík,Iceland,FALSE,1541,1846,1525,1862,-16
-2005-03-26,FIFA World Cup qualification,played,Iceland,ISL,Croatia,HRV,FALSE,0,4,loss,Zagreb,Croatia,FALSE,1525,1837,1519,1843,-6
-2005-03-30,Friendly,played,Iceland,ISL,Italy,ITA,FALSE,0,0,draw,Padua,Italy,FALSE,1519,1918,1528,1909,9
-2005-06-04,FIFA World Cup qualification,played,Iceland,ISL,Hungary,HUN,TRUE,2,3,loss,Reykjavík,Iceland,FALSE,1528,1596,1506,1618,-22
-2005-06-08,FIFA World Cup qualification,played,Iceland,ISL,Malta,,TRUE,4,1,win,Reykjavík,Iceland,FALSE,1506,1242,1514,1234,8
-2005-08-17,Friendly,played,Iceland,ISL,South Africa,ZAF,TRUE,4,1,win,Reykjavík,Iceland,FALSE,1514,1597,1531,1580,17
-2005-09-03,FIFA World Cup qualification,played,Iceland,ISL,Croatia,HRV,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1531,1872,1519,1884,-12
-2005-09-07,FIFA World Cup qualification,played,Iceland,ISL,Bulgaria,BGR,FALSE,2,3,loss,Sofia,Bulgaria,FALSE,1519,1678,1512,1685,-7
-2005-10-07,Friendly,played,Iceland,ISL,Poland,POL,FALSE,2,3,loss,Warsaw,Poland,FALSE,1512,1838,1510,1840,-2
-2005-10-12,FIFA World Cup qualification,played,Iceland,ISL,Sweden,SWE,FALSE,1,3,loss,Solna,Sweden,FALSE,1510,1904,1507,1907,-3
-2006-02-28,Friendly,played,Iceland,ISL,Trinidad and Tobago,TTO,TRUE,0,2,loss,London,England,TRUE,1507,1577,1495,1589,-12
-2006-08-15,Friendly,played,Iceland,ISL,Spain,ESP,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1495,1958,1503,1950,8
-2006-09-02,UEFA Euro qualification,played,Iceland,ISL,Northern Ireland,NIR,FALSE,3,0,win,Belfast,Northern Ireland,FALSE,1503,1515,1549,1469,46
-2006-09-06,UEFA Euro qualification,played,Iceland,ISL,Denmark,DNK,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1549,1906,1538,1917,-11
-2006-10-07,UEFA Euro qualification,played,Iceland,ISL,Latvia,,FALSE,0,4,loss,Riga,Latvia,FALSE,1538,1465,1503,1500,-35
-2006-10-11,UEFA Euro qualification,played,Iceland,ISL,Sweden,SWE,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1503,1876,1496,1883,-7
-2007-03-28,UEFA Euro qualification,played,Iceland,ISL,Spain,ESP,FALSE,0,1,loss,Palma de Mallorca,Spain,FALSE,1496,1913,1494,1915,-2
-2007-06-02,UEFA Euro qualification,played,Iceland,ISL,Liechtenstein,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1494,1137,1477,1154,-17
-2007-06-06,UEFA Euro qualification,played,Iceland,ISL,Sweden,SWE,FALSE,0,5,loss,Solna,Sweden,FALSE,1477,1805,1471,1811,-6
-2007-08-22,Friendly,played,Iceland,ISL,Canada,CAN,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1471,1648,1473,1646,2
-2007-09-08,UEFA Euro qualification,played,Iceland,ISL,Spain,ESP,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1473,1931,1488,1916,15
-2007-09-12,UEFA Euro qualification,played,Iceland,ISL,Northern Ireland,NIR,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1488,1553,1506,1535,18
-2007-10-13,UEFA Euro qualification,played,Iceland,ISL,Latvia,,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,1506,1425,1462,1469,-44
-2007-10-17,UEFA Euro qualification,played,Iceland,ISL,Liechtenstein,,FALSE,0,3,loss,Vaduz,Liechtenstein,FALSE,1462,1147,1408,1201,-54
-2007-11-21,UEFA Euro qualification,played,Iceland,ISL,Denmark,DNK,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1408,1818,1404,1822,-4
-2008-02-02,Malta International Tournament,played,Iceland,ISL,Belarus,,FALSE,0,2,loss,Attard,Malta,TRUE,1404,1566,1391,1579,-13
-2008-02-04,Malta International Tournament,played,Iceland,ISL,Malta,,FALSE,0,1,loss,Attard,Malta,FALSE,1391,1232,1373,1250,-18
-2008-02-06,Malta International Tournament,played,Iceland,ISL,Armenia,,FALSE,2,0,win,Attard,Malta,TRUE,1373,1454,1401,1426,28
-2008-03-16,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,3,0,win,Kópavogur,Iceland,FALSE,1401,1162,1405,1158,4
-2008-03-26,Friendly,played,Iceland,ISL,Slovakia,SVK,FALSE,2,1,win,Zlaté Moravce,Slovakia,FALSE,1405,1652,1423,1634,18
-2008-05-28,Friendly,played,Iceland,ISL,Wales,WAL,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1423,1651,1417,1657,-6
-2008-08-20,Friendly,played,Iceland,ISL,Azerbaijan,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1417,1368,1413,1372,-4
-2008-09-06,FIFA World Cup qualification,played,Iceland,ISL,Norway,NOR,FALSE,2,2,draw,Oslo,Norway,FALSE,1413,1734,1430,1717,17
-2008-09-10,FIFA World Cup qualification,played,Iceland,ISL,Scotland,SCO,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1430,1722,1420,1732,-10
-2008-10-11,FIFA World Cup qualification,played,Iceland,ISL,Netherlands,NLD,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1420,2013,1419,2014,-1
-2008-10-15,FIFA World Cup qualification,played,Iceland,ISL,North Macedonia,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1419,1588,1443,1564,24
-2008-11-19,Friendly,played,Iceland,ISL,Malta,,FALSE,1,0,win,Paola,Malta,FALSE,1443,1229,1450,1222,7
-2009-02-11,Friendly,played,Iceland,ISL,Liechtenstein,,FALSE,2,0,win,Cartagena,Spain,TRUE,1450,1185,1455,1180,5
-2009-03-22,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,1,2,loss,Kópavogur,Iceland,FALSE,1455,1169,1437,1187,-18
-2009-04-01,FIFA World Cup qualification,played,Iceland,ISL,Scotland,SCO,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1437,1714,1433,1718,-4
-2009-06-06,FIFA World Cup qualification,played,Iceland,ISL,Netherlands,NLD,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1433,2029,1431,2031,-2
-2009-06-10,FIFA World Cup qualification,played,Iceland,ISL,North Macedonia,,FALSE,0,2,loss,Skopje,North Macedonia,FALSE,1431,1556,1418,1569,-13
-2009-08-12,Friendly,played,Iceland,ISL,Slovakia,SVK,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1418,1640,1421,1637,3
-2009-09-05,FIFA World Cup qualification,played,Iceland,ISL,Norway,NOR,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1421,1733,1432,1722,11
-2009-09-09,Friendly,played,Iceland,ISL,Georgia,,TRUE,3,1,win,Reykjavík,Iceland,FALSE,1432,1459,1444,1447,12
-2009-10-13,Friendly,played,Iceland,ISL,South Africa,ZAF,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1444,1542,1454,1532,10
-2009-11-10,Friendly,played,Iceland,ISL,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1454,1699,1452,1701,-2
-2009-11-14,Friendly,played,Iceland,ISL,Luxembourg,,FALSE,1,1,draw,Luxembourg,Luxembourg,FALSE,1452,1097,1446,1103,-6
-2010-03-03,Friendly,played,Iceland,ISL,Cyprus,,FALSE,0,0,draw,Larnaca,Cyprus,FALSE,1446,1563,1452,1557,6
-2010-03-21,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,2,0,win,Kópavogur,Iceland,FALSE,1452,1212,1456,1208,4
-2010-03-24,Friendly,played,Iceland,ISL,Mexico,MEX,FALSE,0,0,draw,Charlotte,United States,TRUE,1456,1900,1465,1891,9
-2010-05-29,Friendly,played,Iceland,ISL,Andorra,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1465,1026,1467,1024,2
-2010-08-11,Friendly,played,Iceland,ISL,Liechtenstein,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1467,1158,1459,1166,-8
-2010-09-03,UEFA Euro qualification,played,Iceland,ISL,Norway,NOR,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1459,1757,1449,1767,-10
-2010-09-07,UEFA Euro qualification,played,Iceland,ISL,Denmark,DNK,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1449,1735,1445,1739,-4
-2010-10-12,UEFA Euro qualification,played,Iceland,ISL,Portugal,PRT,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1445,1863,1437,1871,-8
-2010-11-17,Friendly,played,Iceland,ISL,Israel,ISR,FALSE,2,3,loss,Jaffa,Israel,FALSE,1437,1684,1435,1686,-2
-2011-03-26,UEFA Euro qualification,played,Iceland,ISL,Cyprus,,FALSE,0,0,draw,Nicosia,Cyprus,FALSE,1435,1541,1446,1530,11
-2011-06-04,UEFA Euro qualification,played,Iceland,ISL,Denmark,DNK,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1446,1745,1432,1759,-14
-2011-08-10,Friendly,played,Iceland,ISL,Hungary,HUN,FALSE,0,4,loss,Budapest,Hungary,FALSE,1432,1642,1427,1647,-5
-2011-09-02,UEFA Euro qualification,played,Iceland,ISL,Norway,NOR,FALSE,0,1,loss,Oslo,Norway,FALSE,1427,1790,1424,1793,-3
-2011-09-06,UEFA Euro qualification,played,Iceland,ISL,Cyprus,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1424,1514,1443,1495,19
-2011-10-07,UEFA Euro qualification,played,Iceland,ISL,Portugal,PRT,FALSE,3,5,loss,Porto,Portugal,FALSE,1443,1913,1441,1915,-2
-2012-02-24,Friendly,played,Iceland,ISL,Japan,JPN,FALSE,1,3,loss,Osaka,Japan,FALSE,1441,1802,1439,1804,-2
-2012-02-29,Friendly,played,Iceland,ISL,Montenegro,,FALSE,1,2,loss,Podgorica,Montenegro,FALSE,1439,1634,1436,1637,-3
-2012-05-27,Friendly,played,Iceland,ISL,France,FRA,FALSE,2,3,loss,Valenciennes,France,FALSE,1436,1857,1435,1858,-1
-2012-05-30,Friendly,played,Iceland,ISL,Sweden,SWE,FALSE,2,3,loss,Gothenburg,Sweden,FALSE,1435,1886,1434,1887,-1
-2012-08-15,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1434,1222,1438,1218,4
-2012-09-07,FIFA World Cup qualification,played,Iceland,ISL,Norway,NOR,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1438,1747,1484,1701,46
-2012-09-11,FIFA World Cup qualification,played,Iceland,ISL,Cyprus,,FALSE,0,1,loss,Larnaca,Cyprus,FALSE,1484,1446,1468,1462,-16
-2012-10-12,FIFA World Cup qualification,played,Iceland,ISL,Albania,,FALSE,2,1,win,Tirana,Albania,FALSE,1468,1510,1496,1482,28
-2012-10-16,FIFA World Cup qualification,played,Iceland,ISL,Switzerland,CHE,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1496,1809,1482,1823,-14
-2012-11-14,Friendly,played,Iceland,ISL,Andorra,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1482,995,1485,992,3
-2013-02-06,Friendly,played,Iceland,ISL,Russia,RUS,TRUE,0,2,loss,Marbella,Spain,TRUE,1485,1886,1482,1889,-3
-2013-03-22,FIFA World Cup qualification,played,Iceland,ISL,Slovenia,SVN,FALSE,2,1,win,Ljubljana,Slovenia,FALSE,1482,1585,1513,1554,31
-2013-06-07,FIFA World Cup qualification,played,Iceland,ISL,Slovenia,SVN,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,1513,1574,1480,1607,-33
-2013-08-14,Friendly,played,Iceland,ISL,Faroe Islands,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1480,1202,1482,1200,2
-2013-09-06,FIFA World Cup qualification,played,Iceland,ISL,Switzerland,CHE,FALSE,4,4,draw,Bern,Switzerland,FALSE,1482,1835,1499,1818,17
-2013-09-10,FIFA World Cup qualification,played,Iceland,ISL,Albania,,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1499,1542,1516,1525,17
-2013-10-11,FIFA World Cup qualification,played,Iceland,ISL,Cyprus,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1516,1399,1529,1386,13
-2013-10-15,FIFA World Cup qualification,played,Iceland,ISL,Norway,NOR,FALSE,1,1,draw,Oslo,Norway,FALSE,1529,1652,1540,1641,11
-2013-11-15,FIFA World Cup qualification,played,Iceland,ISL,Croatia,HRV,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1540,1807,1549,1798,9
-2013-11-19,FIFA World Cup qualification,played,Iceland,ISL,Croatia,HRV,FALSE,0,2,loss,Zagreb,Croatia,FALSE,1549,1798,1542,1805,-7
-2014-01-21,Friendly,played,Iceland,ISL,Sweden,SWE,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,TRUE,1542,1828,1537,1833,-5
-2014-03-05,Friendly,played,Iceland,ISL,Wales,WAL,FALSE,1,3,loss,Cardiff,Wales,FALSE,1537,1585,1528,1594,-9
-2014-05-30,Friendly,played,Iceland,ISL,Austria,AUT,FALSE,1,1,draw,Innsbruck,Austria,FALSE,1528,1666,1534,1660,6
-2014-06-04,Friendly,played,Iceland,ISL,Estonia,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1534,1457,1539,1452,5
-2014-09-09,UEFA Euro qualification,played,Iceland,ISL,Turkey,TUR,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1539,1764,1586,1717,47
-2014-10-10,UEFA Euro qualification,played,Iceland,ISL,Latvia,,FALSE,3,0,win,Riga,Latvia,FALSE,1586,1473,1620,1439,34
-2014-10-13,UEFA Euro qualification,played,Iceland,ISL,Netherlands,NLD,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1620,2097,1674,2043,54
-2014-11-12,Friendly,played,Iceland,ISL,Belgium,BEL,FALSE,1,3,loss,Brussels,Belgium,FALSE,1674,1911,1670,1915,-4
-2014-11-16,UEFA Euro qualification,played,Iceland,ISL,Czechia,CZE,FALSE,1,2,loss,Plzeň,Czech Republic,FALSE,1670,1795,1661,1804,-9
-2015-01-16,Friendly,played,Iceland,ISL,Canada,CAN,FALSE,2,1,win,Orlando,United States,TRUE,1661,1508,1667,1502,6
-2015-01-19,Friendly,played,Iceland,ISL,Canada,CAN,FALSE,1,1,draw,Orlando,United States,TRUE,1667,1502,1663,1506,-4
-2015-03-28,UEFA Euro qualification,played,Iceland,ISL,Kazakhstan,,FALSE,3,0,win,Astana,Kazakhstan,FALSE,1663,1355,1679,1339,16
-2015-03-31,Friendly,played,Iceland,ISL,Estonia,,FALSE,1,1,draw,Tallinn,Estonia,FALSE,1679,1454,1676,1457,-3
-2015-06-12,UEFA Euro qualification,played,Iceland,ISL,Czechia,CZE,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1676,1779,1696,1759,20
-2015-09-03,UEFA Euro qualification,played,Iceland,ISL,Netherlands,NLD,FALSE,1,0,win,Amsterdam,Netherlands,FALSE,1696,2009,1733,1972,37
-2015-09-06,UEFA Euro qualification,played,Iceland,ISL,Kazakhstan,,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1733,1339,1715,1357,-18
-2015-10-10,UEFA Euro qualification,played,Iceland,ISL,Latvia,,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1715,1471,1700,1486,-15
-2015-10-13,UEFA Euro qualification,played,Iceland,ISL,Turkey,TUR,FALSE,0,1,loss,Konya,Turkey,FALSE,1700,1795,1690,1805,-10
-2015-11-13,Friendly,played,Iceland,ISL,Poland,POL,FALSE,2,4,loss,Warsaw,Poland,FALSE,1690,1753,1682,1761,-8
-2015-11-17,Friendly,played,Iceland,ISL,Slovakia,SVK,FALSE,1,3,loss,Žilina,Slovakia,FALSE,1682,1734,1673,1743,-9
-2016-01-13,Friendly,played,Iceland,ISL,Finland,,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1673,1592,1681,1584,8
-2016-01-16,Friendly,played,Iceland,ISL,United Arab Emirates,ARE,FALSE,1,2,loss,Dubai,United Arab Emirates,FALSE,1681,1627,1672,1636,-9
-2016-01-31,Friendly,played,Iceland,ISL,United States,USA,FALSE,2,3,loss,Carson,United States,FALSE,1672,1758,1667,1763,-5
-2016-03-24,Friendly,played,Iceland,ISL,Denmark,DNK,FALSE,1,2,loss,Herning,Denmark,FALSE,1667,1727,1661,1733,-6
-2016-03-29,Friendly,played,Iceland,ISL,Greece,GRC,FALSE,3,2,win,Piraeus,Greece,FALSE,1661,1616,1673,1604,12
-2016-06-01,Friendly,played,Iceland,ISL,Norway,NOR,FALSE,2,3,loss,Oslo,Norway,FALSE,1673,1629,1665,1637,-8
-2016-06-06,Friendly,played,Iceland,ISL,Liechtenstein,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1665,1193,1666,1192,1
-2016-06-14,UEFA Euro,played,Iceland,ISL,Portugal,PRT,FALSE,1,1,draw,Saint-Étienne,France,TRUE,1666,1908,1681,1893,15
-2016-06-18,UEFA Euro,played,Iceland,ISL,Hungary,HUN,TRUE,1,1,draw,Marseille,France,TRUE,1681,1742,1685,1738,4
-2016-06-22,UEFA Euro,played,Iceland,ISL,Austria,AUT,TRUE,2,1,win,Saint-Denis,France,TRUE,1685,1742,1714,1713,29
-2016-06-27,UEFA Euro,played,Iceland,ISL,England,ENG,FALSE,2,1,win,Nice,France,TRUE,1714,1952,1754,1912,40
-2016-07-03,UEFA Euro,played,Iceland,ISL,France,FRA,FALSE,2,5,loss,Saint-Denis,France,FALSE,1754,1975,1742,1987,-12
-2016-09-05,FIFA World Cup qualification,played,Iceland,ISL,Ukraine,UKR,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,1742,1738,1747,1733,5
-2016-10-06,FIFA World Cup qualification,played,Iceland,ISL,Finland,,TRUE,3,2,win,Reykjavík,Iceland,FALSE,1747,1561,1753,1555,6
-2016-10-09,FIFA World Cup qualification,played,Iceland,ISL,Turkey,TUR,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1753,1807,1779,1781,26
-2016-11-12,FIFA World Cup qualification,played,Iceland,ISL,Croatia,HRV,FALSE,0,2,loss,Zagreb,Croatia,FALSE,1779,1858,1763,1874,-16
-2016-11-15,Friendly,played,Iceland,ISL,Malta,,FALSE,2,0,win,Attard,Malta,FALSE,1763,1216,1765,1214,2
-2017-01-10,Friendly,played,Iceland,ISL,China PR,,FALSE,2,0,win,Nanning,China PR,FALSE,,,,,
-2017-01-15,Friendly,played,Iceland,ISL,Chile,CHL,TRUE,0,1,loss,Nanning,China PR,TRUE,1779,1977,1772,1984,-7
-2017-02-08,Friendly,played,Iceland,ISL,Mexico,MEX,FALSE,0,1,loss,Las Vegas,United States,TRUE,1772,1911,1766,1917,-6
-2017-03-24,FIFA World Cup qualification,played,Iceland,ISL,Kosovo,,FALSE,2,1,win,Shkodër,Albania,TRUE,1766,1394,1770,1390,4
-2017-03-28,Friendly,played,Iceland,ISL,Republic of Ireland,IRL,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
-2017-06-11,FIFA World Cup qualification,played,Iceland,ISL,Croatia,HRV,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1783,1870,1802,1851,19
-2017-09-02,FIFA World Cup qualification,played,Iceland,ISL,Finland,,FALSE,0,1,loss,Tampere,Finland,FALSE,1802,1526,1773,1555,-29
-2017-09-05,FIFA World Cup qualification,played,Iceland,ISL,Ukraine,UKR,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1773,1780,1795,1758,22
-2017-10-06,FIFA World Cup qualification,played,Iceland,ISL,Turkey,TUR,FALSE,3,0,win,Eskişehir,Turkey,FALSE,1795,1787,1839,1743,44
-2017-10-09,FIFA World Cup qualification,played,Iceland,ISL,Kosovo,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1839,1366,1841,1364,2
-2017-11-08,Friendly,played,Iceland,ISL,Czechia,CZE,TRUE,1,2,loss,Doha,Qatar,TRUE,1841,1681,1820,1702,-21
-2017-11-14,Friendly,played,Iceland,ISL,Qatar,QAT,FALSE,1,1,draw,Doha,Qatar,FALSE,1820,1466,1811,1475,-9
-2018-01-11,Friendly,played,Iceland,ISL,Indonesia,IDN,FALSE,6,0,win,Sleman,Indonesia,FALSE,,,,,
-2018-01-14,Friendly,played,Iceland,ISL,Indonesia,IDN,FALSE,4,1,win,Jakarta,Indonesia,FALSE,1811,1237,1813,1235,2
-2018-03-23,Friendly,played,Iceland,ISL,Mexico,MEX,FALSE,0,3,loss,Santa Clara,United States,TRUE,1813,1854,1798,1869,-15
-2018-03-27,Friendly,played,Iceland,ISL,Peru,PER,FALSE,1,3,loss,Harrison,United States,TRUE,1798,1895,1787,1906,-11
-2018-06-02,Friendly,played,Iceland,ISL,Norway,NOR,TRUE,2,3,loss,Reykjavík,Iceland,FALSE,1787,1614,1770,1631,-17
-2018-06-07,Friendly,played,Iceland,ISL,Ghana,GHA,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1770,1635,1764,1641,-6
-2018-06-16,FIFA World Cup,played,Iceland,ISL,Argentina,ARG,FALSE,1,1,draw,Moscow,Russia,TRUE,1764,1985,1781,1968,17
-2018-06-22,FIFA World Cup,played,Iceland,ISL,Nigeria,NGA,FALSE,0,2,loss,Volgograd,Russia,TRUE,1781,1657,1721,1717,-60
-2018-06-26,FIFA World Cup,played,Iceland,ISL,Croatia,HRV,TRUE,1,2,loss,Rostov-on-Don,Russia,TRUE,1721,1943,1708,1956,-13
-2018-09-08,UEFA Nations League,played,Iceland,ISL,Switzerland,CHE,FALSE,0,6,loss,St. Gallen,Switzerland,FALSE,1708,1878,1693,1893,-15
-2018-09-11,UEFA Nations League,played,Iceland,ISL,Belgium,BEL,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1693,2064,1681,2076,-12
-2018-10-11,Friendly,played,Iceland,ISL,France,FRA,FALSE,2,2,draw,Guingamp,France,FALSE,1681,2128,1690,2119,9
-2018-10-15,UEFA Nations League,played,Iceland,ISL,Switzerland,CHE,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1690,1880,1675,1895,-15
-2018-11-15,UEFA Nations League,played,Iceland,ISL,Belgium,BEL,FALSE,0,2,loss,Brussels,Belgium,FALSE,1675,2076,1672,2079,-3
-2018-11-19,Friendly,played,Iceland,ISL,Qatar,QAT,TRUE,2,2,draw,Eupen,Belgium,TRUE,1672,1526,1668,1530,-4
-2019-01-11,Friendly,played,Iceland,ISL,Sweden,SWE,TRUE,2,2,draw,Doha,Qatar,TRUE,1668,1834,1672,1830,4
-2019-01-15,Friendly,played,Iceland,ISL,Estonia,,FALSE,0,0,draw,Doha,Qatar,TRUE,1672,1482,1667,1487,-5
-2019-03-22,UEFA Euro qualification,played,Iceland,ISL,Andorra,,FALSE,2,0,win,Andorra la Vella,Andorra,FALSE,1667,1084,1671,1080,4
-2019-03-25,UEFA Euro qualification,played,Iceland,ISL,France,FRA,FALSE,0,4,loss,Paris,France,FALSE,1671,2094,1667,2098,-4
-2019-06-08,UEFA Euro qualification,played,Iceland,ISL,Albania,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1667,1500,1674,1493,7
-2019-06-11,UEFA Euro qualification,played,Iceland,ISL,Turkey,TUR,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1674,1779,1694,1759,20
-2019-09-07,UEFA Euro qualification,played,Iceland,ISL,Moldova,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1694,1303,1698,1299,4
-2019-09-10,UEFA Euro qualification,played,Iceland,ISL,Albania,,FALSE,2,4,loss,Elbasan,Albania,FALSE,1698,1501,1660,1539,-38
-2019-10-11,UEFA Euro qualification,played,Iceland,ISL,France,FRA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1660,2052,1654,2058,-6
-2019-10-14,UEFA Euro qualification,played,Iceland,ISL,Andorra,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1654,1092,1655,1091,1
-2019-11-14,UEFA Euro qualification,played,Iceland,ISL,Turkey,TUR,FALSE,0,0,draw,Istanbul,Turkey,FALSE,1655,1788,1667,1776,12
-2019-11-17,UEFA Euro qualification,played,Iceland,ISL,Moldova,,FALSE,2,1,win,Chișinău,Moldova,FALSE,1667,1244,1672,1239,5
-2020-01-15,Friendly,played,Iceland,ISL,Canada,CAN,FALSE,1,0,win,Irvine,United States,TRUE,1672,1607,1680,1599,8
-2020-01-19,Friendly,played,Iceland,ISL,El Salvador,SLV,FALSE,1,0,win,Carson,United States,TRUE,1680,1488,1685,1483,5
-2020-09-05,UEFA Nations League,played,Iceland,ISL,England,ENG,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1685,1955,1674,1966,-11
-2020-09-08,UEFA Nations League,played,Iceland,ISL,Belgium,BEL,FALSE,1,5,loss,Brussels,Belgium,FALSE,1674,2105,1671,2108,-3
-2020-10-08,UEFA Euro qualification,played,Iceland,ISL,Romania,ROU,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1671,1723,1688,1706,17
-2020-10-11,UEFA Nations League,played,Iceland,ISL,Denmark,DNK,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1688,1870,1661,1897,-27
-2020-10-14,UEFA Nations League,played,Iceland,ISL,Belgium,BEL,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1661,2077,1655,2083,-6
-2020-11-12,UEFA Euro qualification,played,Iceland,ISL,Hungary,HUN,FALSE,1,2,loss,Budapest,Hungary,FALSE,1655,1709,1643,1721,-12
-2020-11-15,UEFA Nations League,played,Iceland,ISL,Denmark,DNK,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1643,1934,1639,1938,-4
-2020-11-18,UEFA Nations League,played,Iceland,ISL,England,ENG,FALSE,0,4,loss,London,England,FALSE,1639,1955,1633,1961,-6
-2021-03-25,FIFA World Cup qualification,played,Iceland,ISL,Germany,DEU,FALSE,0,3,loss,Duisburg,Germany,FALSE,1633,1955,1627,1961,-6
-2021-03-28,FIFA World Cup qualification,played,Iceland,ISL,Armenia,,FALSE,0,2,loss,Yerevan,Armenia,FALSE,1627,1528,1597,1558,-30
-2021-03-31,FIFA World Cup qualification,played,Iceland,ISL,Liechtenstein,,FALSE,4,1,win,Vaduz,Liechtenstein,FALSE,1597,1106,1604,1099,7
-2021-05-29,Friendly,played,Iceland,ISL,Mexico,MEX,FALSE,1,2,loss,Arlington,United States,TRUE,1604,1921,1601,1924,-3
-2021-06-04,Friendly,played,Iceland,ISL,Faroe Islands,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1601,1259,1605,1255,4
-2021-06-08,Friendly,played,Iceland,ISL,Poland,POL,FALSE,2,2,draw,Poznań,Poland,FALSE,1605,1802,1612,1795,7
-2021-09-02,FIFA World Cup qualification,played,Iceland,ISL,Romania,ROU,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1612,1629,1575,1666,-37
-2021-09-05,FIFA World Cup qualification,played,Iceland,ISL,North Macedonia,,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1575,1558,1569,1564,-6
-2021-09-08,FIFA World Cup qualification,played,Iceland,ISL,Germany,DEU,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1569,1923,1555,1937,-14
-2021-10-08,FIFA World Cup qualification,played,Iceland,ISL,Armenia,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1555,1562,1550,1567,-5
-2021-10-11,FIFA World Cup qualification,played,Iceland,ISL,Liechtenstein,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1550,1100,1553,1097,3
-2021-11-11,FIFA World Cup qualification,played,Iceland,ISL,Romania,ROU,FALSE,0,0,draw,Bucharest,Romania,FALSE,1553,1673,1564,1662,11
-2021-11-14,FIFA World Cup qualification,played,Iceland,ISL,North Macedonia,,FALSE,1,3,loss,Skopje,North Macedonia,FALSE,1564,1611,1546,1629,-18
-2022-01-12,Friendly,played,Iceland,ISL,Uganda,,TRUE,1,1,draw,Belek,Turkey,TRUE,1546,1458,1544,1460,-2
-2022-01-15,Friendly,played,Iceland,ISL,South Korea,KOR,FALSE,1,5,loss,Antalya,Turkey,TRUE,1544,1788,1537,1795,-7
-2022-03-26,Friendly,played,Iceland,ISL,Finland,,FALSE,1,1,draw,Murcia,Spain,TRUE,1537,1722,1542,1717,5
-2022-03-29,Friendly,played,Iceland,ISL,Spain,ESP,FALSE,0,5,loss,La Coruña,Spain,FALSE,1542,2037,1541,2038,-1
-2022-06-02,UEFA Nations League,played,Iceland,ISL,Israel,ISR,FALSE,2,2,draw,Haifa,Israel,FALSE,1541,1625,1551,1615,10
-2022-06-06,UEFA Nations League,played,Iceland,ISL,Albania,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1551,1582,1547,1586,-4
-2022-06-09,Friendly,played,Iceland,ISL,San Marino,,FALSE,1,0,win,Serravalle,San Marino,FALSE,1547,782,1547,782,0
-2022-06-13,UEFA Nations League,played,Iceland,ISL,Israel,ISR,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1547,1639,1547,1639,0
-2022-09-22,Friendly,played,Iceland,ISL,Venezuela,,TRUE,1,0,win,Maria Enzersdorf,Austria,TRUE,1547,1686,1561,1672,14
-2022-09-27,UEFA Nations League,played,Iceland,ISL,Albania,,FALSE,1,1,draw,Tirana,Albania,FALSE,1561,1546,1566,1541,5
-2022-11-06,Friendly,played,Iceland,ISL,Saudi Arabia,SAU,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1566,1633,1558,1641,-8
-2022-11-11,Friendly,played,Iceland,ISL,South Korea,KOR,FALSE,0,1,loss,Hwaseong,South Korea,FALSE,1558,1783,1555,1786,-3
-2022-11-16,Baltic Cup,played,Iceland,ISL,Lithuania,,FALSE,0,0,draw,Kaunas,Lithuania,FALSE,1555,1248,1547,1256,-8
-2022-11-19,Baltic Cup,played,Iceland,ISL,Latvia,,FALSE,1,1,draw,Riga,Latvia,FALSE,1547,1348,1543,1352,-4
-2023-01-08,Friendly,played,Iceland,ISL,Estonia,,TRUE,1,1,draw,Albufeira,Portugal,TRUE,1543,1429,1540,1432,-3
-2023-01-12,Friendly,played,Iceland,ISL,Sweden,SWE,FALSE,1,2,loss,Faro-Loulé,Portugal,TRUE,1540,1769,1536,1773,-4
-2023-03-23,UEFA Euro qualification,played,Iceland,ISL,Bosnia and Herzegovina,BIH,FALSE,0,3,loss,Zenica,Bosnia and Herzegovina,FALSE,1536,1616,1518,1634,-18
-2023-03-26,UEFA Euro qualification,played,Iceland,ISL,Liechtenstein,,FALSE,7,0,win,Vaduz,Liechtenstein,FALSE,1518,977,1525,970,7
-2023-06-17,UEFA Euro qualification,played,Iceland,ISL,Slovakia,SVK,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1525,1594,1503,1616,-22
-2023-06-20,UEFA Euro qualification,played,Iceland,ISL,Portugal,PRT,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1503,2008,1499,2012,-4
-2023-09-08,UEFA Euro qualification,played,Iceland,ISL,Luxembourg,,FALSE,1,3,loss,Luxembourg,Luxembourg,FALSE,1499,1483,1476,1506,-23
-2023-09-11,UEFA Euro qualification,played,Iceland,ISL,Bosnia and Herzegovina,BIH,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1476,1555,1495,1536,19
-2023-10-13,UEFA Euro qualification,played,Iceland,ISL,Luxembourg,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1495,1503,1490,1508,-5
-2023-10-16,UEFA Euro qualification,played,Iceland,ISL,Liechtenstein,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1490,960,1492,958,2
-2023-11-16,UEFA Euro qualification,played,Iceland,ISL,Slovakia,SVK,FALSE,2,4,loss,Bratislava,Slovakia,FALSE,1492,1631,1480,1643,-12
-2023-11-19,UEFA Euro qualification,played,Iceland,ISL,Portugal,PRT,FALSE,0,2,loss,Lisbon,Portugal,FALSE,1480,2031,1479,2032,-1
-2024-01-13,Friendly,played,Iceland,ISL,Guatemala,,FALSE,1,0,win,Fort Lauderdale,United States,TRUE,1479,1494,1489,1484,10
-2024-01-17,Friendly,played,Iceland,ISL,Honduras,HND,FALSE,2,0,win,Fort Lauderdale,United States,TRUE,1489,1531,1506,1514,17
-2024-03-21,UEFA Euro qualification,played,Iceland,ISL,Israel,ISR,FALSE,4,1,win,Budapest,Hungary,TRUE,1506,1602,1550,1558,44
-2024-03-26,UEFA Euro qualification,played,Iceland,ISL,Ukraine,UKR,FALSE,1,2,loss,Wrocław,Poland,TRUE,1550,1857,1544,1863,-6
-2024-06-07,Friendly,played,Iceland,ISL,England,ENG,FALSE,1,0,win,London,England,FALSE,1544,1999,1563,1980,19
-2024-06-10,Friendly,played,Iceland,ISL,Netherlands,NLD,FALSE,0,4,loss,Rotterdam,Netherlands,FALSE,1563,1972,1561,1974,-2
-2024-09-06,UEFA Nations League,played,Iceland,ISL,Montenegro,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1561,1554,1582,1533,21
-2024-09-09,UEFA Nations League,played,Iceland,ISL,Turkey,TUR,FALSE,1,3,loss,Izmir,Turkey,FALSE,1582,1803,1574,1811,-8
-2024-10-11,UEFA Nations League,played,Iceland,ISL,Wales,WAL,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1574,1701,1576,1699,2
-2024-10-14,UEFA Nations League,played,Iceland,ISL,Turkey,TUR,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,1576,1815,1557,1834,-19
-2024-11-16,UEFA Nations League,played,Iceland,ISL,Montenegro,,FALSE,2,0,win,Nikšić,Montenegro,FALSE,1557,1506,1591,1472,34
-2024-11-19,UEFA Nations League,played,Iceland,ISL,Wales,WAL,FALSE,1,4,loss,Cardiff,Wales,FALSE,1591,1717,1576,1732,-15
-2025-03-20,UEFA Nations League,played,Iceland,ISL,Kosovo,,FALSE,1,2,loss,Pristina,Kosovo,FALSE,1576,1554,1560,1570,-16
-2025-03-23,UEFA Nations League,played,Iceland,ISL,Kosovo,,TRUE,1,3,loss,Murcia,Spain,TRUE,1560,1570,1531,1599,-29
-2025-06-06,Friendly,played,Iceland,ISL,Scotland,SCO,FALSE,3,1,win,Glasgow,Scotland,FALSE,1531,1742,1557,1716,26
-2025-06-10,Friendly,played,Iceland,ISL,Northern Ireland,NIR,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1557,1555,1550,1562,-7
-2025-09-05,FIFA World Cup qualification,played,Iceland,ISL,Azerbaijan,,TRUE,5,0,win,Reykjavík,Iceland,FALSE,1550,1365,1563,1352,13
-2025-09-09,FIFA World Cup qualification,played,Iceland,ISL,France,FRA,FALSE,1,2,loss,Paris,France,FALSE,1563,2067,1562,2068,-1
-2025-10-10,FIFA World Cup qualification,played,Iceland,ISL,Ukraine,UKR,TRUE,3,5,loss,Reykjavík,Iceland,FALSE,1562,1773,1541,1794,-21
-2025-10-13,FIFA World Cup qualification,played,Iceland,ISL,France,FRA,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1541,2069,1558,2052,17
-2025-11-13,FIFA World Cup qualification,played,Iceland,ISL,Azerbaijan,,FALSE,2,0,win,Baku,Azerbaijan,FALSE,1558,1363,1580,1341,22
-2025-11-16,FIFA World Cup qualification,played,Iceland,ISL,Ukraine,UKR,FALSE,0,2,loss,Warsaw,Poland,TRUE,1580,1788,1566,1802,-14
-2026-02-25,Friendly,played,Iceland,ISL,Mexico,MEX,FALSE,0,4,loss,Querétaro,Mexico,FALSE,1566,1853,1562,1857,-4
-2026-03-28,Friendly,played,Iceland,ISL,Canada,CAN,FALSE,2,2,draw,Toronto,Canada,FALSE,1562,1805,1573,1794,11
-2026-03-31,Friendly,played,Iceland,ISL,Haiti,HTI,FALSE,1,1,draw,Toronto,Canada,TRUE,1573,1530,1571,1532,-2
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1946-07-17,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1313,1718,1308,1723,-5
+,,,1947-07-24,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,1308,1599,1301,1606,-7
+,,,1948-07-02,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1301,1301,1312,1290,11
+,,,1949-08-07,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,5,loss,Aarhus,Denmark,FALSE,1312,1794,1311,1795,-1
+,,,1951-06-29,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,4,3,win,Reykjavík,Iceland,FALSE,1311,1933,1330,1914,19
+,,,1951-07-26,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,3,loss,Trondheim,Norway,FALSE,1330,1592,1327,1595,-3
+,,,1953-08-09,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,4,loss,Copenhagen,Denmark,FALSE,1327,1684,1324,1687,-3
+,,,1953-08-13,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,3,loss,Bergen,Norway,FALSE,1324,1596,1321,1599,-3
+,,,1954-07-04,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1321,1638,1337,1622,16
+,,,1954-08-24,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,3,loss,Kalmar,Sweden,FALSE,1337,1835,1336,1836,-1
+,,,1955-07-03,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1336,1652,1328,1660,-8
+,,,1955-08-25,Friendly,played,Iceland,ISL,ISL,UEFA,United States,USA,USA,CONCACAF,TRUE,3,2,win,Reykjavík,Iceland,FALSE,1328,1573,1342,1559,14
+,,,1956-06-29,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,1,2,loss,Helsinki,Finland,FALSE,1342,1369,1336,1375,-6
+,,,1957-06-02,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,0,8,loss,Nantes,France,FALSE,1336,1866,1334,1868,-2
+,,,1957-06-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,8,loss,Brussels,Belgium,FALSE,1334,1669,1328,1675,-6
+,,,1957-07-08,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1328,1609,1314,1623,-14
+,,,1957-07-10,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,6,loss,Reykjavík,Iceland,FALSE,1314,1590,1299,1605,-15
+,,,1957-09-01,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,TRUE,1,5,loss,Reykjavík,Iceland,FALSE,1299,1868,1294,1873,-5
+,,,1957-09-04,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,5,loss,Reykjavík,Iceland,FALSE,1294,1675,1282,1687,-12
+,,,1960-06-09,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,4,loss,Oslo,Norway,FALSE,1310,1495,1304,1501,-6
+,,,1960-08-03,Friendly,played,Iceland,ISL,ISL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,5,loss,Reykjavík,Iceland,FALSE,,,,,
+,,,1962-07-09,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1301,1464,1289,1476,-12
+,,,1962-08-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1962-09-02,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,,,,,
+,,,1964-08-10,Friendly,played,Iceland,ISL,ISL,UEFA,Bermuda,,,,TRUE,4,3,win,Reykjavík,Iceland,FALSE,1299,1400,1309,1390,10
+,,,1964-08-23,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1309,1338,1291,1356,-18
+,,,1965-07-05,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1291,1648,1285,1654,-6
+,,,1967-08-23,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,14,loss,Copenhagen,Denmark,FALSE,1285,1557,1279,1563,-6
+,,,1968-07-18,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1279,1517,1267,1529,-12
+,,,1969-06-23,Friendly,played,Iceland,ISL,ISL,UEFA,Bermuda,,,,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1267,1328,1276,1319,9
+,,,1969-07-21,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,2,loss,Trondheim,Norway,FALSE,1276,1533,1274,1535,-2
+,,,1969-07-24,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,1,3,loss,Helsinki,Finland,FALSE,1274,1413,1268,1419,-6
+,,,1969-11-11,Friendly,played,Iceland,ISL,ISL,UEFA,Bermuda,,,,FALSE,2,3,loss,Hamilton,Bermuda,FALSE,1268,1345,1263,1350,-5
+,,,1970-07-07,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1263,1648,1270,1641,7
+,,,1970-07-20,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1270,1552,1292,1530,22
+,,,1971-05-26,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,3,loss,Bergen,Norway,FALSE,1292,1539,1288,1543,-4
+,,,1971-08-13,Friendly,played,Iceland,ISL,ISL,UEFA,Japan,JPN,JPN,AFC,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1288,1570,1280,1578,-8
+,,,1972-05-18,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,4,loss,Liège,Belgium,FALSE,1280,1845,1278,1847,-2
+,,,1972-05-22,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,4,loss,Bruges,Belgium,FALSE,1278,1847,1276,1849,-2
+,,,1972-07-03,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,5,loss,Reykjavík,Iceland,FALSE,1276,1651,1270,1657,-6
+,,,1972-07-12,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1270,1287,1283,1274,13
+,,,1972-08-03,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,4,loss,Stavanger,Norway,FALSE,1283,1462,1271,1474,-12
+,,,1973-06-08,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,4,0,win,Klaksvík,Faroe Islands,FALSE,1271,1274,1295,1250,24
+,,,1973-07-11,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,1,loss,Uddevalla,Sweden,FALSE,1295,1863,1295,1863,0
+,,,1973-07-17,Friendly,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1295,1859,1294,1860,-1
+,,,1973-07-19,Friendly,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1294,1860,1292,1862,-2
+,,,1973-08-02,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1292,1466,1262,1496,-30
+,,,1973-08-22,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,5,loss,Amsterdam,Netherlands,FALSE,1262,1825,1260,1827,-2
+,,,1973-08-29,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,8,loss,Deventer,Netherlands,FALSE,1260,1827,1258,1829,-2
+,,,1974-07-03,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,3,2,win,Tórshavn,Faroe Islands,FALSE,1258,1250,1271,1237,13
+,,,1974-08-19,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1271,1426,1273,1424,2
+,,,1974-09-08,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1273,1887,1270,1890,-3
+,,,1974-10-09,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,2,loss,Aalborg,Denmark,FALSE,1270,1622,1269,1623,-1
+,,,1974-10-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,1,draw,Magdeburg,German DR,FALSE,1269,1930,1289,1910,20
+,,,1975-05-25,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1289,1787,1305,1771,16
+,,,1975-06-05,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1305,1877,1343,1839,38
+,,,1975-06-23,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,6,0,win,Reykjavík,Iceland,FALSE,1343,1237,1353,1227,10
+,,,1975-09-03,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,0,3,loss,Nantes,France,FALSE,1345,1771,1342,1774,-3
+,,,1975-09-06,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Liège,Belgium,FALSE,1342,1917,1341,1918,-1
+,,,1976-05-19,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,0,win,Oslo,Norway,FALSE,1341,1459,1357,1443,16
+,,,1976-06-16,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,6,1,win,Tórshavn,Faroe Islands,FALSE,1357,1227,1375,1209,18
+,,,1976-07-14,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,0,1,loss,Helsinki,Finland,FALSE,1375,1406,1369,1412,-6
+,,,1976-08-21,Friendly,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,TRUE,3,1,win,Reykjavík,Iceland,FALSE,1369,1301,1377,1293,8
+,,,1976-09-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1377,1859,1373,1863,-4
+,,,1976-09-08,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1373,2045,1372,2046,-1
+,,,1977-06-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1372,1721,1404,1689,32
+,,,1977-06-30,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1404,1471,1413,1462,9
+,,,1977-07-20,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1413,1794,1410,1797,-3
+,,,1977-08-31,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,4,loss,Nijmegen,Netherlands,FALSE,1410,2070,1409,2071,-1
+,,,1977-09-03,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,4,loss,Brussels,Belgium,FALSE,1409,1848,1406,1851,-3
+,,,1977-09-21,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1406,1689,1400,1695,-6
+,,,1978-06-28,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1400,1643,1404,1639,4
+,,,1978-09-03,Friendly,played,Iceland,ISL,ISL,UEFA,United States,USA,USA,CONCACAF,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1404,1473,1403,1474,-1
+,,,1978-09-06,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Poland,POL,POL,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1403,1932,1398,1937,-5
+,,,1978-09-20,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,3,loss,Nijmegen,Netherlands,FALSE,1398,2058,1397,2059,-1
+,,,1978-10-04,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,3,loss,Halle,German DR,FALSE,1397,1951,1396,1952,-1
+,,,1979-05-22,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,2,loss,Bern,Switzerland,FALSE,1396,1588,1387,1597,-9
+,,,1979-05-26,Friendly,played,Iceland,ISL,ISL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,,,,,
+,,,1979-06-09,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1386,1597,1372,1611,-14
+,,,1979-09-05,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1372,2024,1369,2027,-3
+,,,1979-09-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1369,1913,1364,1918,-5
+,,,1979-10-10,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Poland,POL,POL,UEFA,FALSE,0,2,loss,Kraków,Poland,FALSE,1364,1967,1363,1968,-1
+,,,1980-06-02,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1363,1819,1354,1828,-9
+,,,1980-06-25,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1354,1482,1355,1481,1
+,,,1980-06-30,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,2,1,win,Akureyri,Iceland,FALSE,1355,1209,1361,1203,6
+,,,1980-07-03,Friendly,played,Iceland,ISL,ISL,UEFA,Greenland,,,,TRUE,4,1,win,Húsavík,Iceland,FALSE,1361,985,1364,982,3
+,,,1980-07-14,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,3,loss,Oslo,Norway,FALSE,1364,1483,1357,1490,-7
+,,,1980-07-17,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Halmstad,Sweden,FALSE,1357,1663,1365,1655,8
+,,,1980-09-03,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1365,1949,1363,1951,-2
+,,,1980-09-24,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,1,win,İzmir,Turkey,FALSE,1363,1672,1418,1617,55
+,,,1980-10-15,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,5,loss,Moscow,Soviet Union,TRUE,1418,1951,1416,1953,-2
+,,,1981-05-27,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,6,loss,Bratislava,Czechoslovakia,FALSE,1416,1890,1413,1893,-3
+,,,1981-08-22,Friendly,played,Iceland,ISL,ISL,UEFA,Nigeria,NGA,NGA,CAF,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1413,1634,1436,1611,23
+,,,1981-08-26,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1436,1744,1433,1747,-3
+,,,1981-09-09,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1433,1579,1467,1545,34
+,,,1981-09-23,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1467,1916,1482,1901,15
+,,,1981-10-14,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,2,draw,Swansea,Wales,FALSE,1482,1884,1500,1866,18
+,,,1982-03-14,Friendly,played,Iceland,ISL,ISL,UEFA,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1500,1660,1506,1654,6
+,,,1982-06-02,Friendly,played,Iceland,ISL,ISL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1506,1968,1514,1960,8
+,,,1982-06-05,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,1,2,loss,Messina,Italy,TRUE,1514,1386,1487,1413,-27
+,,,1982-07-11,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,2,3,loss,Helsinki,Finland,FALSE,1487,1477,1480,1484,-7
+,,,1982-08-01,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,4,1,win,Tórshavn,Faroe Islands,FALSE,1480,1218,1490,1208,10
+,,,1982-08-02,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,4,0,win,Gøta,Faroe Islands,FALSE,1490,1208,1500,1198,10
+,,,1982-09-01,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1500,1895,1514,1881,14
+,,,1982-09-08,Friendly,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1514,1908,1511,1911,-3
+,,,1982-10-13,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1982-10-27,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Málaga,Spain,FALSE,1503,1835,1500,1838,-3
+,,,1983-05-29,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1500,1873,1493,1880,-7
+,,,1983-06-05,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Malta,,,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1493,1389,1502,1380,9
+,,,1983-08-08,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,6,0,win,Njarðvík,Iceland,FALSE,1502,1204,1506,1200,4
+,,,1983-08-17,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1506,1757,1495,1768,-11
+,,,1983-09-07,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,3,loss,Groningen,Netherlands,FALSE,1495,1836,1490,1841,-5
+,,,1983-09-21,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,,,,,
+,,,1984-06-20,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1468,1615,1459,1624,-9
+,,,1984-08-01,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,0,0,draw,Tórshavn,Faroe Islands,FALSE,1459,1200,1453,1206,-6
+,,,1984-08-03,Friendly,played,Iceland,ISL,ISL,UEFA,Greenland,,,,FALSE,1,0,win,Fuglafjørður,Faroe Islands,TRUE,1453,976,1455,974,2
+,,,1984-09-12,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1455,1820,1488,1787,33
+,,,1984-09-25,Friendly,played,Iceland,ISL,ISL,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,2,1,win,Khobar,Saudi Arabia,FALSE,1488,1567,1503,1552,15
+,,,1984-10-17,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,3,loss,Glasgow,Scotland,FALSE,1503,1855,1498,1860,-5
+,,,1984-11-14,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,2,loss,Cardiff,Wales,FALSE,1498,1770,1494,1774,-4
+,,,1985-03-31,Friendly,played,Iceland,ISL,ISL,UEFA,Kuwait,KWT,KWT,AFC,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1494,1506,1497,1503,3
+,,,1985-04-24,Friendly,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,FALSE,0,0,draw,Ettelbruck,Luxembourg,FALSE,1497,1171,1491,1177,-6
+,,,1985-05-28,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1491,1856,1484,1863,-7
+,,,1985-06-12,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1484,1851,1477,1858,-7
+,,,1985-07-10,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,9,0,win,Keflavík,Iceland,FALSE,1477,1214,1483,1208,6
+,,,1985-07-12,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,1,0,win,Akranes,Iceland,FALSE,1483,1208,1485,1206,2
+,,,1985-09-25,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,2,loss,Seville,Spain,FALSE,1485,1858,1483,1860,-2
+,,,1986-03-11,Friendly,played,Iceland,ISL,ISL,UEFA,Bahrain,,,,FALSE,1,2,loss,Manama,Bahrain,FALSE,1483,1338,1472,1349,-11
+,,,1986-03-15,Friendly,played,Iceland,ISL,ISL,UEFA,Bahrain,,,,FALSE,2,0,win,Manama,Bahrain,FALSE,1472,1349,1486,1335,14
+,,,1986-03-19,Friendly,played,Iceland,ISL,ISL,UEFA,Kuwait,KWT,KWT,AFC,FALSE,0,1,loss,Kuwait City,Kuwait,FALSE,1486,1500,1479,1507,-7
+,,,1986-05-25,Friendly,played,Iceland,ISL,ISL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,,,,,
+,,,1986-05-29,Friendly,played,Iceland,ISL,ISL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1469,1824,1463,1830,-6
+,,,1986-09-10,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1463,1999,1480,1982,17
+,,,1986-09-24,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1480,1960,1496,1944,16
+,,,1986-10-29,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,FALSE,0,2,loss,Karl-Marx-Stadt,German DR,FALSE,1496,1831,1491,1836,-5
+,,,1987-02-26,Friendly,played,Iceland,ISL,ISL,UEFA,Kuwait,KWT,KWT,AFC,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1491,1659,1497,1653,6
+,,,1987-02-28,Friendly,played,Iceland,ISL,ISL,UEFA,Kuwait,KWT,KWT,AFC,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1497,1634,1513,1618,16
+,,,1987-04-29,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Paris,France,FALSE,1513,1941,1510,1944,-3
+,,,1987-06-03,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,TRUE,0,6,loss,Reykjavík,Iceland,FALSE,1510,1816,1490,1836,-20
+,,,1987-09-09,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1490,1742,1518,1714,28
+,,,1987-09-23,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,0,win,Oslo,Norway,FALSE,1518,1714,1552,1680,34
+,,,1987-10-28,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,2,loss,Simferopol,Soviet Union,FALSE,1552,1987,1549,1990,-3
+,,,1988-05-04,Friendly,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,3,loss,Budapest,Hungary,FALSE,1549,1781,1544,1786,-5
+,,,1988-08-07,Friendly,played,Iceland,ISL,ISL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,3,loss,Reykjavík,Iceland,FALSE,1544,1798,1538,1804,-6
+,,,1988-08-24,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,1,0,win,Akranes,Iceland,FALSE,1538,1206,1540,1204,2
+,,,1988-08-31,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1540,2004,1556,1988,16
+,,,1988-09-21,Friendly,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1556,1761,1544,1773,-12
+,,,1988-09-28,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1544,1831,1542,1833,-2
+,,,1988-10-12,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,1,draw,Istanbul,Turkey,FALSE,1542,1550,1548,1544,6
+,,,1988-10-19,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,FALSE,0,2,loss,Berlin,German DR,FALSE,1548,1809,1541,1816,-7
+,,,1989-05-31,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,1,1,draw,Moscow,Soviet Union,TRUE,1541,2007,1560,1988,19
+,,,1989-06-14,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1560,1707,1563,1704,3
+,,,1989-08-23,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,2,loss,Salzburg,Austria,FALSE,1563,1704,1555,1712,-8
+,,,1989-09-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,German DR,DDR,DDR,UEFA,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1555,1707,1525,1737,-30
+,,,1989-09-20,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1525,1639,1546,1618,21
+,,,1990-03-28,Friendly,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,FALSE,2,1,win,Esch-sur-Alzette,Luxembourg,FALSE,1546,1182,1550,1178,4
+,,,1990-04-03,Friendly,played,Iceland,ISL,ISL,UEFA,Bermuda,,,,FALSE,4,0,win,Hamilton,Bermuda,FALSE,1550,1354,1564,1340,14
+,,,1990-04-08,Friendly,played,Iceland,ISL,ISL,UEFA,United States,USA,USA,CONCACAF,FALSE,1,4,loss,St. Louis,United States,FALSE,1564,1584,1552,1596,-12
+,,,1990-05-30,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Albania,,,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1552,1419,1564,1407,12
+,,,1990-08-08,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,3,2,win,Tórshavn,Faroe Islands,FALSE,1564,1224,1568,1220,4
+,,,1990-09-05,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1568,1904,1560,1912,-8
+,,,1990-09-26,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,1,loss,Košice,Czechoslovakia,FALSE,1560,1877,1557,1880,-3
+,,,1990-10-10,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,2,loss,Seville,Spain,FALSE,1557,1951,1555,1953,-2
+,,,1991-05-01,Friendly,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,1,loss,Cardiff,Wales,FALSE,1555,1756,1552,1759,-3
+,,,1991-05-07,Friendly,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,4,1,win,Attard,Malta,FALSE,1552,1357,1565,1344,13
+,,,1991-05-26,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Albania,,,,FALSE,0,1,loss,Tirana,Albania,FALSE,1565,1392,1541,1416,-24
+,,,1991-06-05,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1541,1916,1534,1923,-7
+,,,1991-07-17,Friendly,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,5,1,win,Reykjavík,Iceland,FALSE,1534,1591,1550,1575,16
+,,,1991-09-04,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1550,1853,1555,1848,5
+,,,1991-09-25,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1555,1870,1602,1823,47
+,,,1991-10-16,Friendly,played,Iceland,ISL,ISL,UEFA,Cyprus,,,,FALSE,1,1,draw,Larnaca,Cyprus,FALSE,1602,1254,1596,1260,-6
+,,,1991-11-20,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,1,3,loss,Paris,France,FALSE,1596,2006,1593,2009,-3
+,,,1992-02-10,Malta International Tournament,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,0,1,loss,Attard,Malta,FALSE,1593,1392,1574,1411,-19
+,,,1992-03-02,Friendly,played,Iceland,ISL,ISL,UEFA,United Arab Emirates,ARE,ARE,AFC,FALSE,1,0,win,Dubai,United Arab Emirates,FALSE,1574,1425,1583,1416,9
+,,,1992-04-08,Friendly,played,Iceland,ISL,ISL,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,2,draw,Ramat Gan,Israel,FALSE,1583,1616,1587,1612,4
+,,,1992-05-13,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Athens,Greece,FALSE,1587,1666,1576,1677,-11
+,,,1992-06-03,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,1,win,Budapest,Hungary,FALSE,1576,1728,1608,1696,32
+,,,1992-08-09,Friendly,played,Iceland,ISL,ISL,UEFA,Israel,ISR,ISR,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1608,1605,1589,1624,-19
+,,,1992-10-07,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1589,1658,1567,1680,-22
+,,,1992-10-14,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Russia,RUS,RUS,UEFA,FALSE,0,1,loss,Moscow,Russia,FALSE,1567,1880,1564,1883,-3
+,,,1993-04-17,Friendly,played,Iceland,ISL,ISL,UEFA,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Costa Mesa,United States,FALSE,1564,1661,1569,1656,5
+,,,1993-05-20,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,FALSE,1,1,draw,Luxembourg,Luxembourg,FALSE,1569,1166,1555,1180,-14
+,,,1993-06-02,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Russia,RUS,RUS,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1555,1883,1567,1871,12
+,,,1993-06-16,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1567,1700,1600,1667,33
+,,,1993-08-31,Friendly,played,Iceland,ISL,ISL,UEFA,United States,USA,USA,CONCACAF,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1600,1637,1588,1649,-12
+,,,1993-09-08,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1588,1180,1590,1178,2
+,,,1993-10-17,Friendly,played,Iceland,ISL,ISL,UEFA,Tunisia,TUN,TUN,CAF,FALSE,1,3,loss,Tunis,Tunisia,FALSE,1590,1591,1579,1602,-11
+,,,1994-04-20,Friendly,played,Iceland,ISL,ISL,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,0,2,loss,Toulon,France,TRUE,1579,1632,1566,1645,-13
+,,,1994-04-24,Friendly,played,Iceland,ISL,ISL,UEFA,United States,USA,USA,CONCACAF,FALSE,2,1,win,Chula Vista,United States,FALSE,1566,1627,1580,1613,14
+,,,1994-05-04,Friendly,played,Iceland,ISL,ISL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,3,loss,Florianópolis,Brazil,FALSE,1580,1961,1578,1963,-2
+,,,1994-05-19,Friendly,played,Iceland,ISL,ISL,UEFA,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1578,1720,1589,1709,11
+,,,1994-08-16,Friendly,played,Iceland,ISL,ISL,UEFA,Estonia,,,,TRUE,4,0,win,Akureyri,Iceland,FALSE,1589,1156,1591,1154,2
+,,,1994-08-30,Friendly,played,Iceland,ISL,ISL,UEFA,United Arab Emirates,ARE,ARE,AFC,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1591,1483,1596,1478,5
+,,,1994-09-07,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1596,1972,1589,1979,-7
+,,,1994-10-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,5,loss,Istanbul,Turkey,FALSE,1589,1605,1562,1632,-27
+,,,1994-10-29,Friendly,played,Iceland,ISL,ISL,UEFA,Kuwait,KWT,KWT,AFC,FALSE,1,0,win,Al Ain,United Arab Emirates,TRUE,1562,1561,1572,1551,10
+,,,1994-11-16,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,1,loss,Lausanne,Switzerland,FALSE,1572,1854,1568,1858,-4
+,,,1995-04-22,Friendly,played,Iceland,ISL,ISL,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Temuco,Chile,FALSE,1568,1728,1574,1722,6
+,,,1995-06-01,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Solna,Sweden,FALSE,1574,1879,1590,1863,16
+,,,1995-06-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1590,1650,1608,1632,18
+,,,1995-07-02,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,2,0,win,Neskaupstaður,Iceland,FALSE,1608,1173,1609,1172,1
+,,,1995-08-16,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1609,1802,1587,1824,-22
+,,,1995-10-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1587,1752,1591,1748,4
+,,,1995-11-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,1,loss,Budapest,Hungary,FALSE,1591,1590,1577,1604,-14
+,,,1996-02-07,Malta International Tournament,played,Iceland,ISL,ISL,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,1,7,loss,Attard,Malta,TRUE,1577,1596,1547,1626,-30
+,,,1996-02-09,Malta International Tournament,played,Iceland,ISL,ISL,UEFA,Russia,RUS,RUS,UEFA,TRUE,0,3,loss,Attard,Malta,TRUE,1547,1901,1541,1907,-6
+,,,1996-02-11,Malta International Tournament,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,4,1,win,Attard,Malta,FALSE,1541,1321,1559,1303,18
+,,,1996-04-24,Friendly,played,Iceland,ISL,ISL,UEFA,Estonia,,,,FALSE,3,0,win,Tallinn,Estonia,FALSE,1559,1097,1563,1093,4
+,,,1996-06-01,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,North Macedonia,,,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1563,1543,1556,1550,-7
+,,,1996-06-05,Friendly,played,Iceland,ISL,ISL,UEFA,Cyprus,,,,TRUE,2,1,win,Akranes,Iceland,FALSE,1556,1388,1560,1384,4
+,,,1996-08-14,Friendly,played,Iceland,ISL,ISL,UEFA,Malta,,,,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1560,1299,1562,1297,2
+,,,1996-09-04,Friendly,played,Iceland,ISL,ISL,UEFA,Czechia,CZE,CZE,UEFA,FALSE,1,2,loss,Jablonec nad Nisou,Czech Republic,FALSE,1562,1932,1561,1933,-1
+,,,1996-10-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Lithuania,,,,FALSE,0,2,loss,Vilnius,Lithuania,FALSE,1561,1449,1530,1480,-31
+,,,1996-10-09,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1530,1823,1511,1842,-19
+,,,1996-11-10,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1997-04-29,Friendly,played,Iceland,ISL,ISL,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,3,loss,Trnava,Slovakia,FALSE,1526,1717,1521,1722,-5
+,,,1997-06-07,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,North Macedonia,,,,FALSE,0,1,loss,Skopje,North Macedonia,FALSE,1521,1561,1509,1573,-12
+,,,1997-06-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Lithuania,,,,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1509,1488,1502,1495,-7
+,,,1997-07-20,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1502,1824,1498,1828,-4
+,,,1997-07-27,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,1,0,win,Höfn,Iceland,FALSE,1498,1219,1500,1217,2
+,,,1997-08-20,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,FALSE,4,0,win,Eschen,Liechtenstein,FALSE,1500,1064,1509,1055,9
+,,,1997-09-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,,,,,
+,,,1997-09-10,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,4,loss,Bucharest,Romania,FALSE,1486,1881,1482,1885,-4
+,,,1997-10-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1482,1054,1485,1051,3
+,,,1997-12-07,Friendly,played,Iceland,ISL,ISL,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1485,1662,1492,1655,7
+,,,1998-02-05,Cyprus International Tournament,played,Iceland,ISL,ISL,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,2,3,loss,Limassol,Cyprus,TRUE,1492,1530,1479,1543,-13
+,,,1998-02-07,Cyprus International Tournament,played,Iceland,ISL,ISL,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,2,loss,Limassol,Cyprus,TRUE,1479,1715,1473,1721,-6
+,,,1998-05-13,Friendly,played,Iceland,ISL,ISL,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,1,1,draw,Cannes,France,TRUE,1473,1636,1477,1632,4
+,,,1998-06-06,Friendly,played,Iceland,ISL,ISL,UEFA,South Africa,ZAF,ZAF,CAF,TRUE,1,1,draw,Baiersbronn,Germany,TRUE,1477,1641,1481,1637,4
+,,,1998-08-19,Friendly,played,Iceland,ISL,ISL,UEFA,Latvia,,,,TRUE,4,1,win,Reykjavík,Iceland,FALSE,1481,1385,1490,1376,9
+,,,1998-09-05,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1490,2082,1508,2064,18
+,,,1998-10-10,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Armenia,,,,FALSE,0,0,draw,Yerevan,Armenia,FALSE,1508,1380,1506,1382,-2
+,,,1998-10-14,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Russia,RUS,RUS,UEFA,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1506,1814,1537,1783,31
+,,,1999-03-10,Friendly,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,FALSE,2,1,win,Luxembourg,Luxembourg,FALSE,1537,1208,1541,1204,4
+,,,1999-03-27,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Andorra,,,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1541,1060,1547,1054,6
+,,,1999-03-31,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,1547,1747,1561,1733,14
+,,,1999-04-28,Friendly,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,2,1,win,Attard,Malta,FALSE,1561,1209,1565,1205,4
+,,,1999-06-05,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Armenia,,,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1565,1368,1574,1359,9
+,,,1999-06-09,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Russia,RUS,RUS,UEFA,FALSE,0,1,loss,Moscow,Russia,FALSE,1574,1818,1569,1823,-5
+,,,1999-08-18,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1569,1235,1573,1231,4
+,,,1999-09-04,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Andorra,,,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1573,1052,1575,1050,2
+,,,1999-09-08,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1575,1728,1558,1745,-17
+,,,1999-10-09,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,2,3,loss,Saint-Denis,France,FALSE,1558,2032,1557,2033,-1
+,,,2000-01-31,Nordic Championship,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,0,draw,Cartagena,Spain,TRUE,1557,1905,1568,1894,11
+,,,2000-02-02,Nordic Championship,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,1,0,win,Cartagena,Spain,TRUE,1568,1574,1583,1559,15
+,,,2000-02-04,Nordic Championship,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,3,2,win,Cartagena,Spain,TRUE,1583,1182,1586,1179,3
+,,,2000-07-27,Friendly,played,Iceland,ISL,ISL,UEFA,Malta,,,,TRUE,5,0,win,Reykjavík,Iceland,FALSE,1586,1233,1589,1230,3
+,,,2000-08-16,Nordic Championship,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1589,1855,1611,1833,22
+,,,2000-09-02,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1611,1770,1594,1787,-17
+,,,2000-10-07,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Czechia,CZE,CZE,UEFA,FALSE,0,4,loss,Teplice,Czech Republic,FALSE,1594,1930,1588,1936,-6
+,,,2000-10-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1588,1527,1599,1516,11
+,,,2000-11-15,Friendly,played,Iceland,ISL,ISL,UEFA,Poland,POL,POL,UEFA,FALSE,0,1,loss,Warsaw,Poland,FALSE,1599,1758,1595,1762,-4
+,,,2001-01-13,Millennium Cup,played,Iceland,ISL,ISL,UEFA,India,,,,FALSE,3,0,win,Kochi,India,FALSE,1595,1090,1600,1085,5
+,,,2001-01-20,Millennium Cup,played,Iceland,ISL,ISL,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,0,2,loss,Calcutta,India,TRUE,,,,,
+,,,2001-03-24,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,2,loss,Sofia,Bulgaria,FALSE,1600,1697,1590,1707,-10
+,,,2001-04-25,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,4,1,win,Attard,Malta,FALSE,1590,1227,1603,1214,13
+,,,2001-06-02,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Malta,,,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1603,1214,1607,1210,4
+,,,2001-06-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1607,1721,1608,1720,1
+,,,2001-08-15,Friendly,played,Iceland,ISL,ISL,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1608,1803,1611,1800,3
+,,,2001-09-01,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,3,1,win,Reykjavík,Iceland,FALSE,1611,1892,1655,1848,44
+,,,2001-09-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,3,loss,Belfast,Northern Ireland,FALSE,1655,1495,1614,1536,-41
+,,,2001-10-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,6,loss,Copenhagen,Denmark,FALSE,1614,1836,1602,1848,-12
+,,,2002-01-08,Friendly,played,Iceland,ISL,ISL,UEFA,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Muscat,Oman,TRUE,1602,1565,1601,1566,-1
+,,,2002-01-10,Friendly,played,Iceland,ISL,ISL,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1601,1687,1596,1692,-5
+,,,2002-03-07,Friendly,played,Iceland,ISL,ISL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,6,loss,Cuiabá,Brazil,FALSE,1596,1847,1591,1852,-5
+,,,2002-05-22,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Bodø,Norway,FALSE,1591,1767,1598,1760,7
+,,,2002-08-21,Friendly,played,Iceland,ISL,ISL,UEFA,Andorra,,,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1598,1077,1599,1076,1
+,,,2002-09-07,Friendly,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1599,1565,1578,1586,-21
+,,,2002-10-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1578,1655,1546,1687,-32
+,,,2002-10-16,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Lithuania,,,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1546,1397,1559,1384,13
+,,,2002-11-20,Friendly,played,Iceland,ISL,ISL,UEFA,Estonia,,,,FALSE,0,2,loss,Tallinn,Estonia,FALSE,1559,1420,1542,1437,-17
+,,,2003-03-29,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1542,1679,1534,1687,-8
+,,,2003-04-30,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,0,3,loss,Vantaa,Finland,FALSE,1534,1674,1527,1681,-7
+,,,2003-06-07,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1527,1277,1532,1272,5
+,,,2003-06-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Lithuania,,,,FALSE,3,0,win,Kaunas,Lithuania,FALSE,1532,1421,1566,1387,34
+,,,2003-08-20,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,2,1,win,Tórshavn,Faroe Islands,FALSE,1566,1269,1576,1259,10
+,,,2003-09-06,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1576,1895,1587,1884,11
+,,,2003-10-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Hamburg,Germany,FALSE,1587,1889,1581,1895,-6
+,,,2003-11-19,Friendly,played,Iceland,ISL,ISL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,San Francisco,United States,TRUE,1581,1857,1588,1850,7
+,,,2004-03-31,Friendly,played,Iceland,ISL,ISL,UEFA,Albania,,,,FALSE,1,2,loss,Tirana,Albania,FALSE,1588,1531,1579,1540,-9
+,,,2004-04-28,Friendly,played,Iceland,ISL,ISL,UEFA,Latvia,,,,FALSE,0,0,draw,Riga,Latvia,FALSE,1579,1532,1581,1530,2
+,,,2004-05-30,Friendly,played,Iceland,ISL,ISL,UEFA,Japan,JPN,JPN,AFC,TRUE,2,3,loss,Manchester,England,TRUE,1581,1792,1574,1799,-7
+,,,2004-06-05,Friendly,played,Iceland,ISL,ISL,UEFA,England,ENG,ENG,UEFA,FALSE,1,6,loss,Manchester,England,FALSE,1574,1934,1570,1938,-4
+,,,2004-08-18,Friendly,played,Iceland,ISL,ISL,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1570,1944,1595,1919,25
+,,,2004-09-04,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1595,1689,1564,1720,-31
+,,,2004-09-08,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,3,loss,Budapest,Hungary,FALSE,1564,1590,1551,1603,-13
+,,,2004-10-09,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,0,0,draw,Attard,Malta,FALSE,1551,1251,1541,1261,-10
+,,,2004-10-13,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,4,loss,Reykjavík,Iceland,FALSE,1541,1846,1525,1862,-16
+,,,2005-03-26,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,4,loss,Zagreb,Croatia,FALSE,1525,1837,1519,1843,-6
+,,,2005-03-30,Friendly,played,Iceland,ISL,ISL,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,0,draw,Padua,Italy,FALSE,1519,1918,1528,1909,9
+,,,2005-06-04,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,3,loss,Reykjavík,Iceland,FALSE,1528,1596,1506,1618,-22
+,,,2005-06-08,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Malta,,,,TRUE,4,1,win,Reykjavík,Iceland,FALSE,1506,1242,1514,1234,8
+,,,2005-08-17,Friendly,played,Iceland,ISL,ISL,UEFA,South Africa,ZAF,ZAF,CAF,TRUE,4,1,win,Reykjavík,Iceland,FALSE,1514,1597,1531,1580,17
+,,,2005-09-03,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1531,1872,1519,1884,-12
+,,,2005-09-07,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,3,loss,Sofia,Bulgaria,FALSE,1519,1678,1512,1685,-7
+,,,2005-10-07,Friendly,played,Iceland,ISL,ISL,UEFA,Poland,POL,POL,UEFA,FALSE,2,3,loss,Warsaw,Poland,FALSE,1512,1838,1510,1840,-2
+,,,2005-10-12,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Solna,Sweden,FALSE,1510,1904,1507,1907,-3
+,,,2006-02-28,Friendly,played,Iceland,ISL,ISL,UEFA,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,2,loss,London,England,TRUE,1507,1577,1495,1589,-12
+,,,2006-08-15,Friendly,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1495,1958,1503,1950,8
+,,,2006-09-02,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,0,win,Belfast,Northern Ireland,FALSE,1503,1515,1549,1469,46
+,,,2006-09-06,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1549,1906,1538,1917,-11
+,,,2006-10-07,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Latvia,,,,FALSE,0,4,loss,Riga,Latvia,FALSE,1538,1465,1503,1500,-35
+,,,2006-10-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1503,1876,1496,1883,-7
+,,,2007-03-28,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Palma de Mallorca,Spain,FALSE,1496,1913,1494,1915,-2
+,,,2007-06-02,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1494,1137,1477,1154,-17
+,,,2007-06-06,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,5,loss,Solna,Sweden,FALSE,1477,1805,1471,1811,-6
+,,,2007-08-22,Friendly,played,Iceland,ISL,ISL,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1471,1648,1473,1646,2
+,,,2007-09-08,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1473,1931,1488,1916,15
+,,,2007-09-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1488,1553,1506,1535,18
+,,,2007-10-13,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Latvia,,,,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,1506,1425,1462,1469,-44
+,,,2007-10-17,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,FALSE,0,3,loss,Vaduz,Liechtenstein,FALSE,1462,1147,1408,1201,-54
+,,,2007-11-21,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,3,loss,Copenhagen,Denmark,FALSE,1408,1818,1404,1822,-4
+,,,2008-02-02,Malta International Tournament,played,Iceland,ISL,ISL,UEFA,Belarus,,,,FALSE,0,2,loss,Attard,Malta,TRUE,1404,1566,1391,1579,-13
+,,,2008-02-04,Malta International Tournament,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,0,1,loss,Attard,Malta,FALSE,1391,1232,1373,1250,-18
+,,,2008-02-06,Malta International Tournament,played,Iceland,ISL,ISL,UEFA,Armenia,,,,FALSE,2,0,win,Attard,Malta,TRUE,1373,1454,1401,1426,28
+,,,2008-03-16,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,3,0,win,Kópavogur,Iceland,FALSE,1401,1162,1405,1158,4
+,,,2008-03-26,Friendly,played,Iceland,ISL,ISL,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,2,1,win,Zlaté Moravce,Slovakia,FALSE,1405,1652,1423,1634,18
+,,,2008-05-28,Friendly,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1423,1651,1417,1657,-6
+,,,2008-08-20,Friendly,played,Iceland,ISL,ISL,UEFA,Azerbaijan,,,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1417,1368,1413,1372,-4
+,,,2008-09-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,2,draw,Oslo,Norway,FALSE,1413,1734,1430,1717,17
+,,,2008-09-10,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1430,1722,1420,1732,-10
+,,,2008-10-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,2,loss,Rotterdam,Netherlands,FALSE,1420,2013,1419,2014,-1
+,,,2008-10-15,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,North Macedonia,,,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1419,1588,1443,1564,24
+,,,2008-11-19,Friendly,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,1,0,win,Paola,Malta,FALSE,1443,1229,1450,1222,7
+,,,2009-02-11,Friendly,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,FALSE,2,0,win,Cartagena,Spain,TRUE,1450,1185,1455,1180,5
+,,,2009-03-22,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,1,2,loss,Kópavogur,Iceland,FALSE,1455,1169,1437,1187,-18
+,,,2009-04-01,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1437,1714,1433,1718,-4
+,,,2009-06-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1433,2029,1431,2031,-2
+,,,2009-06-10,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,North Macedonia,,,,FALSE,0,2,loss,Skopje,North Macedonia,FALSE,1431,1556,1418,1569,-13
+,,,2009-08-12,Friendly,played,Iceland,ISL,ISL,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1418,1640,1421,1637,3
+,,,2009-09-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1421,1733,1432,1722,11
+,,,2009-09-09,Friendly,played,Iceland,ISL,ISL,UEFA,Georgia,,,,TRUE,3,1,win,Reykjavík,Iceland,FALSE,1432,1459,1444,1447,12
+,,,2009-10-13,Friendly,played,Iceland,ISL,ISL,UEFA,South Africa,ZAF,ZAF,CAF,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1444,1542,1454,1532,10
+,,,2009-11-10,Friendly,played,Iceland,ISL,ISL,UEFA,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1454,1699,1452,1701,-2
+,,,2009-11-14,Friendly,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,FALSE,1,1,draw,Luxembourg,Luxembourg,FALSE,1452,1097,1446,1103,-6
+,,,2010-03-03,Friendly,played,Iceland,ISL,ISL,UEFA,Cyprus,,,,FALSE,0,0,draw,Larnaca,Cyprus,FALSE,1446,1563,1452,1557,6
+,,,2010-03-21,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,2,0,win,Kópavogur,Iceland,FALSE,1452,1212,1456,1208,4
+,,,2010-03-24,Friendly,played,Iceland,ISL,ISL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Charlotte,United States,TRUE,1456,1900,1465,1891,9
+,,,2010-05-29,Friendly,played,Iceland,ISL,ISL,UEFA,Andorra,,,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1465,1026,1467,1024,2
+,,,2010-08-11,Friendly,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1467,1158,1459,1166,-8
+,,,2010-09-03,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1459,1757,1449,1767,-10
+,,,2010-09-07,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1449,1735,1445,1739,-4
+,,,2010-10-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Portugal,PRT,PRT,UEFA,TRUE,1,3,loss,Reykjavík,Iceland,FALSE,1445,1863,1437,1871,-8
+,,,2010-11-17,Friendly,played,Iceland,ISL,ISL,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,3,loss,Jaffa,Israel,FALSE,1437,1684,1435,1686,-2
+,,,2011-03-26,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Cyprus,,,,FALSE,0,0,draw,Nicosia,Cyprus,FALSE,1435,1541,1446,1530,11
+,,,2011-06-04,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1446,1745,1432,1759,-14
+,,,2011-08-10,Friendly,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,4,loss,Budapest,Hungary,FALSE,1432,1642,1427,1647,-5
+,,,2011-09-02,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,1,loss,Oslo,Norway,FALSE,1427,1790,1424,1793,-3
+,,,2011-09-06,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Cyprus,,,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1424,1514,1443,1495,19
+,,,2011-10-07,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,3,5,loss,Porto,Portugal,FALSE,1443,1913,1441,1915,-2
+,,,2012-02-24,Friendly,played,Iceland,ISL,ISL,UEFA,Japan,JPN,JPN,AFC,FALSE,1,3,loss,Osaka,Japan,FALSE,1441,1802,1439,1804,-2
+,,,2012-02-29,Friendly,played,Iceland,ISL,ISL,UEFA,Montenegro,,,,FALSE,1,2,loss,Podgorica,Montenegro,FALSE,1439,1634,1436,1637,-3
+,,,2012-05-27,Friendly,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,2,3,loss,Valenciennes,France,FALSE,1436,1857,1435,1858,-1
+,,,2012-05-30,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,3,loss,Gothenburg,Sweden,FALSE,1435,1886,1434,1887,-1
+,,,2012-08-15,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1434,1222,1438,1218,4
+,,,2012-09-07,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1438,1747,1484,1701,46
+,,,2012-09-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Cyprus,,,,FALSE,0,1,loss,Larnaca,Cyprus,FALSE,1484,1446,1468,1462,-16
+,,,2012-10-12,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Albania,,,,FALSE,2,1,win,Tirana,Albania,FALSE,1468,1510,1496,1482,28
+,,,2012-10-16,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1496,1809,1482,1823,-14
+,,,2012-11-14,Friendly,played,Iceland,ISL,ISL,UEFA,Andorra,,,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1482,995,1485,992,3
+,,,2013-02-06,Friendly,played,Iceland,ISL,ISL,UEFA,Russia,RUS,RUS,UEFA,TRUE,0,2,loss,Marbella,Spain,TRUE,1485,1886,1482,1889,-3
+,,,2013-03-22,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,2,1,win,Ljubljana,Slovenia,FALSE,1482,1585,1513,1554,31
+,,,2013-06-07,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,1513,1574,1480,1607,-33
+,,,2013-08-14,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1480,1202,1482,1200,2
+,,,2013-09-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,4,4,draw,Bern,Switzerland,FALSE,1482,1835,1499,1818,17
+,,,2013-09-10,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Albania,,,,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1499,1542,1516,1525,17
+,,,2013-10-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Cyprus,,,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1516,1399,1529,1386,13
+,,,2013-10-15,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1529,1652,1540,1641,11
+,,,2013-11-15,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1540,1807,1549,1798,9
+,,,2013-11-19,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,2,loss,Zagreb,Croatia,FALSE,1549,1798,1542,1805,-7
+,,,2014-01-21,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,TRUE,1542,1828,1537,1833,-5
+,,,2014-03-05,Friendly,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,3,loss,Cardiff,Wales,FALSE,1537,1585,1528,1594,-9
+,,,2014-05-30,Friendly,played,Iceland,ISL,ISL,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Innsbruck,Austria,FALSE,1528,1666,1534,1660,6
+,,,2014-06-04,Friendly,played,Iceland,ISL,ISL,UEFA,Estonia,,,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1534,1457,1539,1452,5
+,,,2014-09-09,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1539,1764,1586,1717,47
+,,,2014-10-10,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Latvia,,,,FALSE,3,0,win,Riga,Latvia,FALSE,1586,1473,1620,1439,34
+,,,2014-10-13,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1620,2097,1674,2043,54
+,,,2014-11-12,Friendly,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,3,loss,Brussels,Belgium,FALSE,1674,1911,1670,1915,-4
+,,,2014-11-16,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Czechia,CZE,CZE,UEFA,FALSE,1,2,loss,Plzeň,Czech Republic,FALSE,1670,1795,1661,1804,-9
+,,,2015-01-16,Friendly,played,Iceland,ISL,ISL,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,2,1,win,Orlando,United States,TRUE,1661,1508,1667,1502,6
+,,,2015-01-19,Friendly,played,Iceland,ISL,ISL,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,1,1,draw,Orlando,United States,TRUE,1667,1502,1663,1506,-4
+,,,2015-03-28,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Kazakhstan,,,,FALSE,3,0,win,Astana,Kazakhstan,FALSE,1663,1355,1679,1339,16
+,,,2015-03-31,Friendly,played,Iceland,ISL,ISL,UEFA,Estonia,,,,FALSE,1,1,draw,Tallinn,Estonia,FALSE,1679,1454,1676,1457,-3
+,,,2015-06-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1676,1779,1696,1759,20
+,,,2015-09-03,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,0,win,Amsterdam,Netherlands,FALSE,1696,2009,1733,1972,37
+,,,2015-09-06,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Kazakhstan,,,,TRUE,0,0,draw,Reykjavík,Iceland,FALSE,1733,1339,1715,1357,-18
+,,,2015-10-10,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Latvia,,,,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1715,1471,1700,1486,-15
+,,,2015-10-13,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,1,loss,Konya,Turkey,FALSE,1700,1795,1690,1805,-10
+,,,2015-11-13,Friendly,played,Iceland,ISL,ISL,UEFA,Poland,POL,POL,UEFA,FALSE,2,4,loss,Warsaw,Poland,FALSE,1690,1753,1682,1761,-8
+,,,2015-11-17,Friendly,played,Iceland,ISL,ISL,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,3,loss,Žilina,Slovakia,FALSE,1682,1734,1673,1743,-9
+,,,2016-01-13,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1673,1592,1681,1584,8
+,,,2016-01-16,Friendly,played,Iceland,ISL,ISL,UEFA,United Arab Emirates,ARE,ARE,AFC,FALSE,1,2,loss,Dubai,United Arab Emirates,FALSE,1681,1627,1672,1636,-9
+,,,2016-01-31,Friendly,played,Iceland,ISL,ISL,UEFA,United States,USA,USA,CONCACAF,FALSE,2,3,loss,Carson,United States,FALSE,1672,1758,1667,1763,-5
+,,,2016-03-24,Friendly,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,2,loss,Herning,Denmark,FALSE,1667,1727,1661,1733,-6
+,,,2016-03-29,Friendly,played,Iceland,ISL,ISL,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,2,win,Piraeus,Greece,FALSE,1661,1616,1673,1604,12
+,,,2016-06-01,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,3,loss,Oslo,Norway,FALSE,1673,1629,1665,1637,-8
+,,,2016-06-06,Friendly,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1665,1193,1666,1192,1
+,,,2016-06-14,UEFA Euro,played,Iceland,ISL,ISL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,1,draw,Saint-Étienne,France,TRUE,1666,1908,1681,1893,15
+,,,2016-06-18,UEFA Euro,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,1,draw,Marseille,France,TRUE,1681,1742,1685,1738,4
+,,,2016-06-22,UEFA Euro,played,Iceland,ISL,ISL,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,1,win,Saint-Denis,France,TRUE,1685,1742,1714,1713,29
+,,,2016-06-27,UEFA Euro,played,Iceland,ISL,ISL,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,Nice,France,TRUE,1714,1952,1754,1912,40
+,,,2016-07-03,UEFA Euro,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,2,5,loss,Saint-Denis,France,FALSE,1754,1975,1742,1987,-12
+,,,2016-09-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,1,1,draw,Kyiv,Ukraine,FALSE,1742,1738,1747,1733,5
+,,,2016-10-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Finland,,,,TRUE,3,2,win,Reykjavík,Iceland,FALSE,1747,1561,1753,1555,6
+,,,2016-10-09,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1753,1807,1779,1781,26
+,,,2016-11-12,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,2,loss,Zagreb,Croatia,FALSE,1779,1858,1763,1874,-16
+,,,2016-11-15,Friendly,played,Iceland,ISL,ISL,UEFA,Malta,,,,FALSE,2,0,win,Attard,Malta,FALSE,1763,1216,1765,1214,2
+,,,2017-01-10,Friendly,played,Iceland,ISL,ISL,UEFA,China PR,,,,FALSE,2,0,win,Nanning,China PR,FALSE,,,,,
+,,,2017-01-15,Friendly,played,Iceland,ISL,ISL,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,0,1,loss,Nanning,China PR,TRUE,1779,1977,1772,1984,-7
+,,,2017-02-08,Friendly,played,Iceland,ISL,ISL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Las Vegas,United States,TRUE,1772,1911,1766,1917,-6
+,,,2017-03-24,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Kosovo,,,,FALSE,2,1,win,Shkodër,Albania,TRUE,1766,1394,1770,1390,4
+,,,2017-03-28,Friendly,played,Iceland,ISL,ISL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2017-06-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1783,1870,1802,1851,19
+,,,2017-09-02,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,0,1,loss,Tampere,Finland,FALSE,1802,1526,1773,1555,-29
+,,,2017-09-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1773,1780,1795,1758,22
+,,,2017-10-06,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,0,win,Eskişehir,Turkey,FALSE,1795,1787,1839,1743,44
+,,,2017-10-09,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Kosovo,,,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1839,1366,1841,1364,2
+,,,2017-11-08,Friendly,played,Iceland,ISL,ISL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,1,2,loss,Doha,Qatar,TRUE,1841,1681,1820,1702,-21
+,,,2017-11-14,Friendly,played,Iceland,ISL,ISL,UEFA,Qatar,QAT,QAT,AFC,FALSE,1,1,draw,Doha,Qatar,FALSE,1820,1466,1811,1475,-9
+,,,2018-01-11,Friendly,played,Iceland,ISL,ISL,UEFA,Indonesia,IDN,IDN,AFC,FALSE,6,0,win,Sleman,Indonesia,FALSE,,,,,
+,,,2018-01-14,Friendly,played,Iceland,ISL,ISL,UEFA,Indonesia,IDN,IDN,AFC,FALSE,4,1,win,Jakarta,Indonesia,FALSE,1811,1237,1813,1235,2
+,,,2018-03-23,Friendly,played,Iceland,ISL,ISL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Santa Clara,United States,TRUE,1813,1854,1798,1869,-15
+,,,2018-03-27,Friendly,played,Iceland,ISL,ISL,UEFA,Peru,PER,PER,CONMEBOL,FALSE,1,3,loss,Harrison,United States,TRUE,1798,1895,1787,1906,-11
+,,,2018-06-02,Friendly,played,Iceland,ISL,ISL,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,3,loss,Reykjavík,Iceland,FALSE,1787,1614,1770,1631,-17
+,,,2018-06-07,Friendly,played,Iceland,ISL,ISL,UEFA,Ghana,GHA,GHA,CAF,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1770,1635,1764,1641,-6
+WC-2018,WC-2018_006,6,2018-06-16,FIFA World Cup,played,Iceland,ISL,ISL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Moscow,Russia,TRUE,1764,1985,1781,1968,17
+WC-2018,WC-2018_025,25,2018-06-22,FIFA World Cup,played,Iceland,ISL,ISL,UEFA,Nigeria,NGA,NGA,CAF,FALSE,0,2,loss,Volgograd,Russia,TRUE,1781,1657,1721,1717,-60
+WC-2018,WC-2018_040,40,2018-06-26,FIFA World Cup,played,Iceland,ISL,ISL,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,2,loss,Rostov-on-Don,Russia,TRUE,1721,1943,1708,1956,-13
+,,,2018-09-08,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,6,loss,St. Gallen,Switzerland,FALSE,1708,1878,1693,1893,-15
+,,,2018-09-11,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1693,2064,1681,2076,-12
+,,,2018-10-11,Friendly,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,2,2,draw,Guingamp,France,FALSE,1681,2128,1690,2119,9
+,,,2018-10-15,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1690,1880,1675,1895,-15
+,,,2018-11-15,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Brussels,Belgium,FALSE,1675,2076,1672,2079,-3
+,,,2018-11-19,Friendly,played,Iceland,ISL,ISL,UEFA,Qatar,QAT,QAT,AFC,TRUE,2,2,draw,Eupen,Belgium,TRUE,1672,1526,1668,1530,-4
+,,,2019-01-11,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,2,draw,Doha,Qatar,TRUE,1668,1834,1672,1830,4
+,,,2019-01-15,Friendly,played,Iceland,ISL,ISL,UEFA,Estonia,,,,FALSE,0,0,draw,Doha,Qatar,TRUE,1672,1482,1667,1487,-5
+,,,2019-03-22,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Andorra,,,,FALSE,2,0,win,Andorra la Vella,Andorra,FALSE,1667,1084,1671,1080,4
+,,,2019-03-25,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,0,4,loss,Paris,France,FALSE,1671,2094,1667,2098,-4
+,,,2019-06-08,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Albania,,,,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1667,1500,1674,1493,7
+,,,2019-06-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1674,1779,1694,1759,20
+,,,2019-09-07,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Moldova,,,,TRUE,3,0,win,Reykjavík,Iceland,FALSE,1694,1303,1698,1299,4
+,,,2019-09-10,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Albania,,,,FALSE,2,4,loss,Elbasan,Albania,FALSE,1698,1501,1660,1539,-38
+,,,2019-10-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1660,2052,1654,2058,-6
+,,,2019-10-14,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Andorra,,,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1654,1092,1655,1091,1
+,,,2019-11-14,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,0,draw,Istanbul,Turkey,FALSE,1655,1788,1667,1776,12
+,,,2019-11-17,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Moldova,,,,FALSE,2,1,win,Chișinău,Moldova,FALSE,1667,1244,1672,1239,5
+,,,2020-01-15,Friendly,played,Iceland,ISL,ISL,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,1,0,win,Irvine,United States,TRUE,1672,1607,1680,1599,8
+,,,2020-01-19,Friendly,played,Iceland,ISL,ISL,UEFA,El Salvador,SLV,SLV,CONCACAF,FALSE,1,0,win,Carson,United States,TRUE,1680,1488,1685,1483,5
+,,,2020-09-05,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1685,1955,1674,1966,-11
+,,,2020-09-08,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,5,loss,Brussels,Belgium,FALSE,1674,2105,1671,2108,-3
+,,,2020-10-08,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,1,win,Reykjavík,Iceland,FALSE,1671,1723,1688,1706,17
+,,,2020-10-11,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,3,loss,Reykjavík,Iceland,FALSE,1688,1870,1661,1897,-27
+,,,2020-10-14,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1661,2077,1655,2083,-6
+,,,2020-11-12,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,2,loss,Budapest,Hungary,FALSE,1655,1709,1643,1721,-12
+,,,2020-11-15,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1643,1934,1639,1938,-4
+,,,2020-11-18,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,England,ENG,ENG,UEFA,FALSE,0,4,loss,London,England,FALSE,1639,1955,1633,1961,-6
+,,,2021-03-25,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Duisburg,Germany,FALSE,1633,1955,1627,1961,-6
+,,,2021-03-28,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Armenia,,,,FALSE,0,2,loss,Yerevan,Armenia,FALSE,1627,1528,1597,1558,-30
+,,,2021-03-31,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,FALSE,4,1,win,Vaduz,Liechtenstein,FALSE,1597,1106,1604,1099,7
+,,,2021-05-29,Friendly,played,Iceland,ISL,ISL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Arlington,United States,TRUE,1604,1921,1601,1924,-3
+,,,2021-06-04,Friendly,played,Iceland,ISL,ISL,UEFA,Faroe Islands,,,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1601,1259,1605,1255,4
+,,,2021-06-08,Friendly,played,Iceland,ISL,ISL,UEFA,Poland,POL,POL,UEFA,FALSE,2,2,draw,Poznań,Poland,FALSE,1605,1802,1612,1795,7
+,,,2021-09-02,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,2,loss,Reykjavík,Iceland,FALSE,1612,1629,1575,1666,-37
+,,,2021-09-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,North Macedonia,,,,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1575,1558,1569,1564,-6
+,,,2021-09-08,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,4,loss,Reykjavík,Iceland,FALSE,1569,1923,1555,1937,-14
+,,,2021-10-08,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Armenia,,,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1555,1562,1550,1567,-5
+,,,2021-10-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1550,1100,1553,1097,3
+,,,2021-11-11,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,0,draw,Bucharest,Romania,FALSE,1553,1673,1564,1662,11
+,,,2021-11-14,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,North Macedonia,,,,FALSE,1,3,loss,Skopje,North Macedonia,FALSE,1564,1611,1546,1629,-18
+,,,2022-01-12,Friendly,played,Iceland,ISL,ISL,UEFA,Uganda,,,,TRUE,1,1,draw,Belek,Turkey,TRUE,1546,1458,1544,1460,-2
+,,,2022-01-15,Friendly,played,Iceland,ISL,ISL,UEFA,South Korea,KOR,KOR,AFC,FALSE,1,5,loss,Antalya,Turkey,TRUE,1544,1788,1537,1795,-7
+,,,2022-03-26,Friendly,played,Iceland,ISL,ISL,UEFA,Finland,,,,FALSE,1,1,draw,Murcia,Spain,TRUE,1537,1722,1542,1717,5
+,,,2022-03-29,Friendly,played,Iceland,ISL,ISL,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,5,loss,La Coruña,Spain,FALSE,1542,2037,1541,2038,-1
+,,,2022-06-02,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,2,draw,Haifa,Israel,FALSE,1541,1625,1551,1615,10
+,,,2022-06-06,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Albania,,,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1551,1582,1547,1586,-4
+,,,2022-06-09,Friendly,played,Iceland,ISL,ISL,UEFA,San Marino,,,,FALSE,1,0,win,Serravalle,San Marino,FALSE,1547,782,1547,782,0
+,,,2022-06-13,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1547,1639,1547,1639,0
+,,,2022-09-22,Friendly,played,Iceland,ISL,ISL,UEFA,Venezuela,,,,TRUE,1,0,win,Maria Enzersdorf,Austria,TRUE,1547,1686,1561,1672,14
+,,,2022-09-27,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Albania,,,,FALSE,1,1,draw,Tirana,Albania,FALSE,1561,1546,1566,1541,5
+,,,2022-11-06,Friendly,played,Iceland,ISL,ISL,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1566,1633,1558,1641,-8
+,,,2022-11-11,Friendly,played,Iceland,ISL,ISL,UEFA,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Hwaseong,South Korea,FALSE,1558,1783,1555,1786,-3
+,,,2022-11-16,Baltic Cup,played,Iceland,ISL,ISL,UEFA,Lithuania,,,,FALSE,0,0,draw,Kaunas,Lithuania,FALSE,1555,1248,1547,1256,-8
+,,,2022-11-19,Baltic Cup,played,Iceland,ISL,ISL,UEFA,Latvia,,,,FALSE,1,1,draw,Riga,Latvia,FALSE,1547,1348,1543,1352,-4
+,,,2023-01-08,Friendly,played,Iceland,ISL,ISL,UEFA,Estonia,,,,TRUE,1,1,draw,Albufeira,Portugal,TRUE,1543,1429,1540,1432,-3
+,,,2023-01-12,Friendly,played,Iceland,ISL,ISL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,2,loss,Faro-Loulé,Portugal,TRUE,1540,1769,1536,1773,-4
+,,,2023-03-23,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,0,3,loss,Zenica,Bosnia and Herzegovina,FALSE,1536,1616,1518,1634,-18
+,,,2023-03-26,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,FALSE,7,0,win,Vaduz,Liechtenstein,FALSE,1518,977,1525,970,7
+,,,2023-06-17,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,1,2,loss,Reykjavík,Iceland,FALSE,1525,1594,1503,1616,-22
+,,,2023-06-20,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,1,loss,Reykjavík,Iceland,FALSE,1503,2008,1499,2012,-4
+,,,2023-09-08,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,FALSE,1,3,loss,Luxembourg,Luxembourg,FALSE,1499,1483,1476,1506,-23
+,,,2023-09-11,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,1,0,win,Reykjavík,Iceland,FALSE,1476,1555,1495,1536,19
+,,,2023-10-13,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Luxembourg,,,,TRUE,1,1,draw,Reykjavík,Iceland,FALSE,1495,1503,1490,1508,-5
+,,,2023-10-16,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Liechtenstein,,,,TRUE,4,0,win,Reykjavík,Iceland,FALSE,1490,960,1492,958,2
+,,,2023-11-16,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,2,4,loss,Bratislava,Slovakia,FALSE,1492,1631,1480,1643,-12
+,,,2023-11-19,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,2,loss,Lisbon,Portugal,FALSE,1480,2031,1479,2032,-1
+,,,2024-01-13,Friendly,played,Iceland,ISL,ISL,UEFA,Guatemala,,,,FALSE,1,0,win,Fort Lauderdale,United States,TRUE,1479,1494,1489,1484,10
+,,,2024-01-17,Friendly,played,Iceland,ISL,ISL,UEFA,Honduras,HND,HND,CONCACAF,FALSE,2,0,win,Fort Lauderdale,United States,TRUE,1489,1531,1506,1514,17
+,,,2024-03-21,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Israel,ISR,ISR,UEFA,FALSE,4,1,win,Budapest,Hungary,TRUE,1506,1602,1550,1558,44
+,,,2024-03-26,UEFA Euro qualification,played,Iceland,ISL,ISL,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,1,2,loss,Wrocław,Poland,TRUE,1550,1857,1544,1863,-6
+,,,2024-06-07,Friendly,played,Iceland,ISL,ISL,UEFA,England,ENG,ENG,UEFA,FALSE,1,0,win,London,England,FALSE,1544,1999,1563,1980,19
+,,,2024-06-10,Friendly,played,Iceland,ISL,ISL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,4,loss,Rotterdam,Netherlands,FALSE,1563,1972,1561,1974,-2
+,,,2024-09-06,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Montenegro,,,,TRUE,2,0,win,Reykjavík,Iceland,FALSE,1561,1554,1582,1533,21
+,,,2024-09-09,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,3,loss,Izmir,Turkey,FALSE,1582,1803,1574,1811,-8
+,,,2024-10-11,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1574,1701,1576,1699,2
+,,,2024-10-14,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,4,loss,Reykjavík,Iceland,FALSE,1576,1815,1557,1834,-19
+,,,2024-11-16,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Montenegro,,,,FALSE,2,0,win,Nikšić,Montenegro,FALSE,1557,1506,1591,1472,34
+,,,2024-11-19,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,4,loss,Cardiff,Wales,FALSE,1591,1717,1576,1732,-15
+,,,2025-03-20,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Kosovo,,,,FALSE,1,2,loss,Pristina,Kosovo,FALSE,1576,1554,1560,1570,-16
+,,,2025-03-23,UEFA Nations League,played,Iceland,ISL,ISL,UEFA,Kosovo,,,,TRUE,1,3,loss,Murcia,Spain,TRUE,1560,1570,1531,1599,-29
+,,,2025-06-06,Friendly,played,Iceland,ISL,ISL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,3,1,win,Glasgow,Scotland,FALSE,1531,1742,1557,1716,26
+,,,2025-06-10,Friendly,played,Iceland,ISL,ISL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,1557,1555,1550,1562,-7
+,,,2025-09-05,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Azerbaijan,,,,TRUE,5,0,win,Reykjavík,Iceland,FALSE,1550,1365,1563,1352,13
+,,,2025-09-09,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Paris,France,FALSE,1563,2067,1562,2068,-1
+,,,2025-10-10,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,3,5,loss,Reykjavík,Iceland,FALSE,1562,1773,1541,1794,-21
+,,,2025-10-13,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,France,FRA,FRA,UEFA,TRUE,2,2,draw,Reykjavík,Iceland,FALSE,1541,2069,1558,2052,17
+,,,2025-11-13,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Azerbaijan,,,,FALSE,2,0,win,Baku,Azerbaijan,FALSE,1558,1363,1580,1341,22
+,,,2025-11-16,FIFA World Cup qualification,played,Iceland,ISL,ISL,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,2,loss,Warsaw,Poland,TRUE,1580,1788,1566,1802,-14
+,,,2026-02-25,Friendly,played,Iceland,ISL,ISL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,4,loss,Querétaro,Mexico,FALSE,1566,1853,1562,1857,-4
+,,,2026-03-28,Friendly,played,Iceland,ISL,ISL,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,2,2,draw,Toronto,Canada,FALSE,1562,1805,1573,1794,11
+,,,2026-03-31,Friendly,played,Iceland,ISL,ISL,UEFA,Haiti,HTI,HTI,CONCACAF,FALSE,1,1,draw,Toronto,Canada,TRUE,1573,1530,1571,1532,-2

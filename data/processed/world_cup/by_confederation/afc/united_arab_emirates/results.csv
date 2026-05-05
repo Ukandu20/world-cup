@@ -1,613 +1,613 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1972-03-17,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1100,1033,1116,1017,16
-1972-03-19,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,4,loss,Riyadh,Saudi Arabia,FALSE,1116,1287,1103,1300,-13
-1972-03-22,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,0,7,loss,Riyadh,Saudi Arabia,TRUE,1103,1365,1087,1381,-16
-1972-03-25,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1087,1163,1063,1187,-24
-1973-08-11,Palestine Cup,played,United Arab Emirates,ARE,Libya,,FALSE,2,2,draw,Benghazi,Libya,FALSE,1063,1432,1080,1415,17
-1973-08-13,Palestine Cup,played,United Arab Emirates,ARE,Algeria,DZA,FALSE,0,2,loss,Benghazi,Libya,TRUE,1080,1531,1076,1535,-4
-1973-08-16,Palestine Cup,played,United Arab Emirates,ARE,Yemen,,FALSE,1,1,draw,Benghazi,Libya,TRUE,,,,,
-1973-08-20,Palestine Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,1,3,loss,Benghazi,Libya,TRUE,1065,1598,1062,1601,-3
-1974-03-15,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,0,2,loss,Kuwait City,Kuwait,FALSE,1062,1438,1058,1442,-4
-1974-03-18,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,4,0,win,Kuwait City,Kuwait,TRUE,1058,1188,1109,1137,51
-1974-03-23,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,2,loss,Kuwait City,Kuwait,TRUE,1109,1346,1097,1358,-12
-1974-03-26,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,0,6,loss,Kuwait City,Kuwait,FALSE,1097,1446,1091,1452,-6
-1974-03-28,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,1,draw,Kuwait City,Kuwait,TRUE,1091,984,1085,990,-6
-1975-12-19,Palestine Cup,played,United Arab Emirates,ARE,Tunisia,TUN,FALSE,0,3,loss,Tunis,Tunisia,FALSE,1085,1601,1083,1603,-2
-1975-12-21,Palestine Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,0,5,loss,Tunis,Tunisia,TRUE,1083,1547,1078,1552,-5
-1976-03-27,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,2,3,loss,Doha,Qatar,TRUE,1078,1077,1058,1097,-20
-1976-03-29,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,2,loss,Doha,Qatar,TRUE,1058,1293,1046,1305,-12
-1976-04-01,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,3,loss,Doha,Qatar,FALSE,1046,1047,1024,1069,-22
-1976-04-03,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,0,0,draw,Doha,Qatar,TRUE,1024,1590,1043,1571,19
-1976-04-06,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,0,4,loss,Doha,Qatar,TRUE,1043,1587,1040,1590,-3
-1976-04-10,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,1,1,draw,Doha,Qatar,TRUE,1040,819,1029,830,-11
-1979-03-24,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,1,2,loss,Baghdad,Iraq,TRUE,1029,1365,1024,1370,-5
-1979-03-27,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,0,3,loss,Baghdad,Iraq,TRUE,,,,,
-1979-03-29,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,0,1,loss,Baghdad,Iraq,TRUE,,,,,
-1979-04-01,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,0,7,loss,Baghdad,Iraq,TRUE,,,,,
-1979-04-04,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,0,5,loss,Baghdad,Iraq,FALSE,,,,,
-1979-04-09,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,4,0,win,Baghdad,Iraq,TRUE,983,812,1003,792,20
-1979-10-21,Friendly,played,United Arab Emirates,ARE,India,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1003,1230,1007,1226,4
-1980-08-05,Friendly,played,United Arab Emirates,ARE,Iran,IRN,TRUE,0,2,loss,Al Ain,United Arab Emirates,FALSE,,,,,
-1980-08-07,Friendly,played,United Arab Emirates,ARE,Iran,IRN,TRUE,0,3,loss,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-1980-09-15,AFC Asian Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1045,1724,1069,1700,24
-1980-09-17,AFC Asian Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,2,loss,Kuwait City,Kuwait,TRUE,1069,1150,1050,1169,-19
-1980-09-20,AFC Asian Cup,played,United Arab Emirates,ARE,Malaysia,,TRUE,0,2,loss,Kuwait City,Kuwait,TRUE,1050,1485,1044,1491,-6
-1980-09-24,AFC Asian Cup,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,1,4,loss,Kuwait City,Kuwait,TRUE,1044,1799,1043,1800,-1
-1981-09-02,Merdeka Tournament,played,United Arab Emirates,ARE,Indonesia,IDN,FALSE,2,5,loss,Kuala Lumpur,Malaysia,TRUE,1043,1221,1029,1235,-14
-1981-09-05,Merdeka Tournament,played,United Arab Emirates,ARE,India,,FALSE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1029,1217,1018,1228,-11
-1981-09-08,Merdeka Tournament,played,United Arab Emirates,ARE,Japan,JPN,FALSE,2,3,loss,Kuala Lumpur,Malaysia,TRUE,1018,1499,1016,1501,-2
-1981-09-10,Merdeka Tournament,played,United Arab Emirates,ARE,New Zealand,NZL,FALSE,1,0,win,Kuala Lumpur,Malaysia,TRUE,1016,1556,1045,1527,29
-1981-09-12,Merdeka Tournament,played,United Arab Emirates,ARE,Malaysia,,FALSE,1,0,win,Kuala Lumpur,Malaysia,FALSE,1045,1359,1072,1332,27
-1981-10-26,Friendly,played,United Arab Emirates,ARE,India,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1072,1250,1090,1232,18
-1981-10-28,Friendly,played,United Arab Emirates,ARE,India,,TRUE,3,1,win,Sharjah,United Arab Emirates,FALSE,1090,1232,1107,1215,17
-1981-12-29,Friendly,played,United Arab Emirates,ARE,Tunisia,TUN,TRUE,1,4,loss,Al Ain,United Arab Emirates,FALSE,1106,1651,1103,1654,-3
-1982-03-01,Friendly,played,United Arab Emirates,ARE,Honduras,HND,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1103,1620,1101,1622,-2
-1982-03-03,Friendly,played,United Arab Emirates,ARE,Honduras,HND,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1101,1622,1109,1614,8
-1982-03-10,Friendly,played,United Arab Emirates,ARE,Singapore,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1109,1243,1128,1224,19
-1982-03-12,Friendly,played,United Arab Emirates,ARE,Singapore,,TRUE,5,3,win,Abu Dhabi,United Arab Emirates,FALSE,1128,1224,1143,1209,15
-1982-03-19,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1143,1235,1163,1215,20
-1982-03-21,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1163,1406,1191,1378,28
-1982-03-24,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1191,1658,1185,1664,-6
-1982-03-27,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,TRUE,2,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1185,1185,1159,1211,-26
-1982-04-02,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1156,829,1161,824,5
-1982-08-07,Merdeka Tournament,played,United Arab Emirates,ARE,Malaysia,,FALSE,0,1,loss,Kuala Lumpur,Malaysia,FALSE,1161,1263,1154,1270,-7
-1982-08-09,Merdeka Tournament,played,United Arab Emirates,ARE,Senegal,SEN,FALSE,1,3,loss,Kuala Lumpur,Malaysia,TRUE,1154,1567,1150,1571,-4
-1982-08-12,Merdeka Tournament,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,2,3,loss,Kuala Lumpur,Malaysia,TRUE,1150,1663,1149,1664,-1
-1982-08-14,Merdeka Tournament,played,United Arab Emirates,ARE,Indonesia,IDN,FALSE,2,1,win,Kuala Lumpur,Malaysia,TRUE,1149,1303,1170,1282,21
-1984-03-10,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,2,0,win,Muscat,Oman,TRUE,1190,1619,1245,1564,55
-1984-03-13,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,0,win,Muscat,Oman,TRUE,1245,1360,1271,1334,26
-1984-03-15,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,0,0,draw,Muscat,Oman,TRUE,1271,1688,1288,1671,17
-1984-03-18,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,1,1,draw,Muscat,Oman,TRUE,1288,1266,1287,1267,-1
-1984-03-21,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,1,1,draw,Muscat,Oman,FALSE,1287,813,1271,829,-16
-1984-03-23,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,2,loss,Muscat,Oman,TRUE,1271,1478,1257,1492,-14
-1984-10-22,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1257,1528,1253,1532,-4
-1984-10-24,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Oman,,TRUE,8,0,win,Jeddah,Saudi Arabia,TRUE,1253,852,1262,843,9
-1984-10-26,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Nepal,,TRUE,11,0,win,Jeddah,Saudi Arabia,TRUE,1262,872,1273,861,11
-1984-10-28,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Sri Lanka,,TRUE,5,1,win,Jeddah,Saudi Arabia,TRUE,1273,948,1283,938,10
-1984-11-25,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1283,1319,1291,1311,8
-1984-12-01,AFC Asian Cup,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,3,loss,Kallang,Singapore,TRUE,1291,1731,1285,1737,-6
-1984-12-04,AFC Asian Cup,played,United Arab Emirates,ARE,India,,TRUE,2,0,win,Kallang,Singapore,TRUE,1285,1231,1317,1199,32
-1984-12-08,AFC Asian Cup,played,United Arab Emirates,ARE,Singapore,,FALSE,1,0,win,Kallang,Singapore,FALSE,1317,1257,1345,1229,28
-1984-12-11,AFC Asian Cup,played,United Arab Emirates,ARE,China PR,,FALSE,0,5,loss,Kallang,Singapore,TRUE,,,,,
-1985-04-02,Friendly,played,United Arab Emirates,ARE,Syria,,FALSE,1,2,loss,Manama,Bahrain,TRUE,1309,1368,1301,1376,-8
-1985-04-05,Friendly,played,United Arab Emirates,ARE,Bahrain,,FALSE,2,3,loss,Manama,Bahrain,FALSE,1301,1337,1295,1343,-6
-1985-04-07,Friendly,played,United Arab Emirates,ARE,Syria,,FALSE,4,0,win,Manama,Bahrain,TRUE,1295,1376,1318,1353,23
-1985-04-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1318,1627,1335,1610,17
-1985-04-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1335,1610,1364,1581,29
-1985-09-20,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,3,loss,Dubai,United Arab Emirates,FALSE,1349,1694,1341,1702,-8
-1985-09-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,2,1,win,Taif,Saudi Arabia,TRUE,1341,1702,1377,1666,36
-1986-03-24,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,2,draw,Riffa,Bahrain,TRUE,1384,1660,1397,1647,13
-1986-03-28,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,0,1,loss,Manama,Bahrain,TRUE,1397,1545,1385,1557,-12
-1986-03-30,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,1,0,win,Riffa,Bahrain,TRUE,1385,896,1387,894,2
-1986-04-02,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,2,0,win,Riffa,Bahrain,TRUE,1387,1557,1431,1513,44
-1986-04-05,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,3,1,win,Riffa,Bahrain,FALSE,1431,1357,1463,1325,32
-1986-04-07,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,2,3,loss,Riffa,Bahrain,TRUE,1463,1468,1443,1488,-20
-1986-09-21,Asian Games,played,United Arab Emirates,ARE,Pakistan,,TRUE,1,0,win,Daegu,South Korea,TRUE,1443,1105,1448,1100,5
-1986-09-23,Asian Games,played,United Arab Emirates,ARE,Thailand,,TRUE,2,1,win,Daegu,South Korea,TRUE,1448,1235,1457,1226,9
-1986-09-25,Asian Games,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,1,win,Daegu,South Korea,TRUE,1457,1567,1483,1541,26
-1986-09-29,Asian Games,played,United Arab Emirates,ARE,Oman,,TRUE,0,0,draw,Daegu,South Korea,TRUE,1483,996,1465,1014,-18
-1986-10-01,Asian Games,played,United Arab Emirates,ARE,Indonesia,IDN,TRUE,2,2,draw,Seoul,South Korea,TRUE,1465,1194,1452,1207,-13
-1987-03-19,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1452,1353,1447,1358,-5
-1987-03-23,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1447,1358,1452,1353,5
-1988-01-15,Friendly,played,United Arab Emirates,ARE,Jordan,,FALSE,1,0,win,Manama,Bahrain,TRUE,1422,1178,1426,1174,4
-1988-01-18,Friendly,played,United Arab Emirates,ARE,Jordan,,FALSE,0,2,loss,Manama,Bahrain,TRUE,1426,1174,1402,1198,-24
-1988-01-23,Friendly,played,United Arab Emirates,ARE,Bulgaria,BGR,TRUE,0,3,loss,Doha,Qatar,TRUE,1402,1774,1396,1780,-6
-1988-01-27,Friendly,played,United Arab Emirates,ARE,Japan,JPN,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1391,1488,1391,1488,0
-1988-01-30,Friendly,played,United Arab Emirates,ARE,Japan,JPN,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1391,1488,1406,1473,15
-1988-02-04,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Thailand,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1406,1278,1421,1263,15
-1988-02-07,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Yemen,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-1988-02-10,AFC Asian Cup qualification,played,United Arab Emirates,ARE,China PR,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-1988-02-13,AFC Asian Cup qualification,played,United Arab Emirates,ARE,India,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1426,1133,1433,1126,7
-1988-02-17,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Bangladesh,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1433,1045,1437,1041,4
-1988-02-23,Friendly,played,United Arab Emirates,ARE,Egypt,EGY,TRUE,1,2,loss,Dubai,United Arab Emirates,FALSE,1437,1676,1431,1682,-6
-1988-02-26,Friendly,played,United Arab Emirates,ARE,Egypt,EGY,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1431,1682,1435,1678,4
-1988-03-03,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,TRUE,2,0,win,Riyadh,Saudi Arabia,TRUE,1435,1266,1451,1250,16
-1988-03-05,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1451,1592,1479,1564,28
-1988-03-08,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1479,1458,1458,1479,-21
-1988-03-10,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1458,1657,1468,1647,10
-1988-03-13,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,2,2,draw,Riyadh,Saudi Arabia,FALSE,1468,1524,1476,1516,8
-1988-03-17,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1476,1081,1480,1077,4
-1988-11-17,Friendly,played,United Arab Emirates,ARE,Jordan,,TRUE,2,1,win,Sharjah,United Arab Emirates,FALSE,1480,1297,1483,1294,3
-1988-11-20,Friendly,played,United Arab Emirates,ARE,Jordan,,TRUE,3,2,win,Dubai,United Arab Emirates,FALSE,1483,1294,1486,1291,3
-1988-11-24,Friendly,played,United Arab Emirates,ARE,Algeria,DZA,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1486,1592,1486,1592,0
-1988-12-03,AFC Asian Cup,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,0,1,loss,Doha,Qatar,TRUE,1501,1620,1484,1637,-17
-1988-12-05,AFC Asian Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,2,loss,Doha,Qatar,FALSE,1484,1411,1461,1434,-23
-1988-12-08,AFC Asian Cup,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,1,loss,Doha,Qatar,TRUE,1461,1669,1449,1681,-12
-1988-12-10,AFC Asian Cup,played,United Arab Emirates,ARE,Japan,JPN,TRUE,1,0,win,Doha,Qatar,TRUE,1449,1425,1472,1402,23
-1989-01-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,2,3,loss,Kuwait City,Kuwait,FALSE,1467,1481,1453,1495,-14
-1989-01-20,FIFA World Cup qualification,played,United Arab Emirates,ARE,Pakistan,,TRUE,5,0,win,Sharjah,United Arab Emirates,FALSE,1453,1009,1456,1006,3
-1989-02-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,1,0,win,Sharjah,United Arab Emirates,FALSE,1456,1497,1473,1480,17
-1989-02-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,Pakistan,,FALSE,4,1,win,Islamabad,Pakistan,FALSE,1473,1004,1480,997,7
-1989-10-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,North Korea,PRK,TRUE,0,0,draw,Singapore,Singapore,TRUE,1480,1562,1485,1557,5
-1989-10-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,China PR,,FALSE,2,1,win,Singapore,Singapore,TRUE,,,,,
-1989-10-21,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,0,draw,Singapore,Singapore,TRUE,1511,1561,1514,1558,3
-1989-10-24,FIFA World Cup qualification,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,1,1,draw,Singapore,Singapore,TRUE,1514,1456,1511,1459,-3
-1989-10-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1511,1753,1523,1741,12
-1990-01-25,Friendly,played,United Arab Emirates,ARE,Egypt,EGY,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-1990-01-27,Friendly,played,United Arab Emirates,ARE,Egypt,EGY,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-1990-02-05,Friendly,played,United Arab Emirates,ARE,Denmark,DNK,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1527,1905,1534,1898,7
-1990-02-12,Friendly,played,United Arab Emirates,ARE,Finland,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1534,1608,1533,1609,-1
-1990-02-14,Friendly,played,United Arab Emirates,ARE,Sweden,SWE,TRUE,2,1,win,Dubai,United Arab Emirates,FALSE,1533,1959,1550,1942,17
-1990-02-17,Friendly,played,United Arab Emirates,ARE,Sweden,SWE,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1550,1942,1545,1947,-5
-1990-02-22,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,1,1,draw,Kuwait City,Kuwait,TRUE,1545,1056,1527,1074,-18
-1990-02-27,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1527,1479,1524,1482,-3
-1990-03-05,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,0,1,loss,Kuwait City,Kuwait,TRUE,1531,1351,1501,1381,-30
-1990-03-09,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,6,loss,Kuwait City,Kuwait,FALSE,1501,1506,1473,1534,-28
-1990-05-21,Friendly,played,United Arab Emirates,ARE,Poland,POL,FALSE,0,4,loss,Marseille,France,TRUE,1466,1782,1461,1787,-5
-1990-05-28,Friendly,played,United Arab Emirates,ARE,Hungary,HUN,FALSE,0,3,loss,Nîmes,France,TRUE,1461,1717,1454,1724,-7
-1990-06-09,FIFA World Cup,played,United Arab Emirates,ARE,Colombia,COL,TRUE,0,2,loss,Bologna,Italy,TRUE,1454,1801,1443,1812,-11
-1990-06-15,FIFA World Cup,played,United Arab Emirates,ARE,Germany,DEU,FALSE,1,5,loss,Milan,Italy,TRUE,,,,,
-1990-06-19,FIFA World Cup,played,United Arab Emirates,ARE,Yugoslavia,YUG,FALSE,1,4,loss,Bologna,Italy,TRUE,1439,1881,1431,1889,-8
-1992-03-02,Friendly,played,United Arab Emirates,ARE,Iceland,ISL,TRUE,0,1,loss,Dubai,United Arab Emirates,FALSE,1425,1574,1416,1583,-9
-1992-05-14,Friendly,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1416,1468,1425,1459,9
-1992-05-17,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,2,0,win,Al Ain,United Arab Emirates,FALSE,1425,1490,1438,1477,13
-1992-05-20,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,0,0,draw,Sharjah,United Arab Emirates,FALSE,1438,1477,1436,1479,-2
-1992-10-21,Friendly,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,0,0,draw,Anyang,South Korea,FALSE,1469,1673,1476,1666,7
-1992-10-30,AFC Asian Cup,played,United Arab Emirates,ARE,Japan,JPN,FALSE,0,0,draw,Onomichi,Japan,FALSE,1483,1458,1488,1453,5
-1992-11-01,AFC Asian Cup,played,United Arab Emirates,ARE,Iran,IRN,TRUE,0,0,draw,Hiroshima,Japan,TRUE,1488,1665,1500,1653,12
-1992-11-03,AFC Asian Cup,played,United Arab Emirates,ARE,North Korea,PRK,TRUE,2,1,win,Hiroshima,Japan,TRUE,1500,1493,1524,1469,24
-1992-11-06,AFC Asian Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,2,loss,Hiroshima,Japan,TRUE,1524,1626,1497,1653,-27
-1992-11-08,AFC Asian Cup,played,United Arab Emirates,ARE,China PR,,FALSE,1,1,draw,Hiroshima,Japan,TRUE,,,,,
-1992-11-17,Friendly,played,United Arab Emirates,ARE,Senegal,SEN,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1494,1520,1492,1522,-2
-1992-11-19,Friendly,played,United Arab Emirates,ARE,Senegal,SEN,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1492,1522,1490,1524,-2
-1992-11-24,Friendly,played,United Arab Emirates,ARE,Algeria,DZA,FALSE,0,0,draw,Manama,Bahrain,TRUE,1490,1641,1494,1637,4
-1992-11-28,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,0,2,loss,Doha,Qatar,TRUE,1494,1507,1465,1536,-29
-1992-12-01,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,1,0,win,Doha,Qatar,TRUE,1465,1591,1492,1564,27
-1992-12-04,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,2,0,win,Doha,Qatar,TRUE,1492,1371,1512,1351,20
-1992-12-06,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,0,1,loss,Doha,Qatar,FALSE,1512,1501,1497,1516,-15
-1992-12-09,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,1,0,win,Doha,Qatar,TRUE,1497,1066,1500,1063,3
-1993-02-18,Friendly,played,United Arab Emirates,ARE,Bulgaria,BGR,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1500,1779,1515,1764,15
-1993-02-20,Friendly,played,United Arab Emirates,ARE,Bulgaria,BGR,TRUE,1,3,loss,Dubai,United Arab Emirates,FALSE,1515,1764,1506,1773,-9
-1993-04-02,Friendly,played,United Arab Emirates,ARE,Malaysia,,FALSE,1,0,win,Kuala Lumpur,Malaysia,FALSE,1514,1284,1520,1278,6
-1993-04-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,Sri Lanka,,FALSE,4,0,win,Kyoto,Japan,TRUE,1520,858,1522,856,2
-1993-04-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,Thailand,,TRUE,1,0,win,Tokyo,Japan,TRUE,1522,1339,1532,1329,10
-1993-04-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,Bangladesh,,TRUE,1,0,win,Yokohama,Japan,TRUE,1532,1075,1535,1072,3
-1993-04-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,Japan,JPN,FALSE,0,2,loss,Tokyo,Japan,FALSE,1535,1553,1515,1573,-20
-1993-04-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,Sri Lanka,,TRUE,3,0,win,Al Ain,United Arab Emirates,FALSE,1515,844,1516,843,1
-1993-04-30,FIFA World Cup qualification,played,United Arab Emirates,ARE,Thailand,,TRUE,2,1,win,Al Ain,United Arab Emirates,FALSE,1516,1334,1523,1327,7
-1993-05-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,Bangladesh,,TRUE,7,0,win,Al Ain,United Arab Emirates,FALSE,1523,1056,1526,1053,3
-1993-05-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,Japan,JPN,TRUE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1526,1585,1524,1587,-2
-1993-10-26,Friendly,played,United Arab Emirates,ARE,Jordan,,TRUE,2,1,win,Al Ain,United Arab Emirates,FALSE,1524,1343,1527,1340,3
-1993-10-28,Friendly,played,United Arab Emirates,ARE,Jordan,,TRUE,0,2,loss,Al Ain,United Arab Emirates,FALSE,1527,1340,1502,1365,-25
-1994-02-02,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Slovakia,SVK,TRUE,0,1,loss,Sharjah,United Arab Emirates,FALSE,1502,1663,1490,1675,-12
-1994-02-04,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Morocco,MAR,TRUE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1490,1662,1493,1659,3
-1994-02-06,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Egypt,EGY,TRUE,0,1,loss,Dubai,United Arab Emirates,FALSE,1493,1661,1481,1673,-12
-1994-04-27,Friendly,played,United Arab Emirates,ARE,Germany,DEU,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1481,2020,1479,2022,-2
-1994-08-26,Friendly,played,United Arab Emirates,ARE,Ukraine,UKR,FALSE,1,1,draw,Grassau,Austria,TRUE,1479,1645,1483,1641,4
-1994-08-30,Friendly,played,United Arab Emirates,ARE,Iceland,ISL,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1483,1591,1478,1596,-5
-1994-09-06,Friendly,played,United Arab Emirates,ARE,Switzerland,CHE,FALSE,0,1,loss,Sion,Switzerland,FALSE,1478,1818,1477,1819,-1
-1994-09-19,Friendly,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,0,0,draw,Seoul,South Korea,FALSE,1477,1688,1484,1681,7
-1994-10-03,Asian Games,played,United Arab Emirates,ARE,Japan,JPN,FALSE,1,1,draw,Miyoshi,Japan,FALSE,1484,1650,1497,1637,13
-1994-10-05,Asian Games,played,United Arab Emirates,ARE,Myanmar,,FALSE,2,0,win,Hiroshima,Japan,TRUE,1497,1203,1506,1194,9
-1994-10-09,Asian Games,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,2,2,draw,Onomichi,Japan,TRUE,1506,1434,1502,1438,-4
-1994-10-11,Asian Games,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,2,loss,Hiroshima,Japan,TRUE,1502,1542,1484,1560,-18
-1994-10-28,Friendly,played,United Arab Emirates,ARE,Senegal,SEN,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1484,1392,1489,1387,5
-1994-11-03,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1489,1438,1507,1420,18
-1994-11-06,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1507,1646,1509,1644,2
-1994-11-09,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1509,1538,1533,1514,24
-1994-11-12,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1533,1428,1522,1439,-11
-1994-11-16,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1522,1298,1530,1290,8
-1996-03-19,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,3,2,win,Dubai,United Arab Emirates,FALSE,1528,1613,1542,1599,14
-1996-03-22,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Egypt,EGY,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1542,1588,1540,1590,-2
-1996-03-26,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Morocco,MAR,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1540,1618,1554,1604,14
-1996-05-21,Friendly,played,United Arab Emirates,ARE,Slovenia,SVN,FALSE,2,2,draw,Ljubljana,Slovenia,FALSE,1554,1592,1558,1588,4
-1996-05-29,Friendly,played,United Arab Emirates,ARE,Russia,RUS,FALSE,0,1,loss,Moscow,Russia,FALSE,1558,1927,1557,1928,-1
-1996-06-02,Friendly,played,United Arab Emirates,ARE,Bulgaria,BGR,FALSE,1,4,loss,Sofia,Bulgaria,FALSE,1557,1832,1553,1836,-4
-1996-08-14,Friendly,played,United Arab Emirates,ARE,Hungary,HUN,FALSE,1,3,loss,Siófok,Hungary,FALSE,1553,1577,1543,1587,-10
-1996-08-20,Friendly,played,United Arab Emirates,ARE,Belarus,,FALSE,1,0,win,Fürth,Germany,TRUE,1543,1451,1550,1444,7
-1996-09-18,Friendly,played,United Arab Emirates,ARE,Romania,ROU,FALSE,2,1,win,Bucharest,Romania,FALSE,1550,1841,1568,1823,18
-1996-09-25,Friendly,played,United Arab Emirates,ARE,Poland,POL,FALSE,0,1,loss,Wodzisław Śląski,Poland,FALSE,1568,1649,1563,1654,-5
-1996-10-16,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,0,1,loss,Muscat,Oman,TRUE,1563,1460,1537,1486,-26
-1996-10-18,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,TRUE,1,1,draw,Muscat,Oman,TRUE,1537,1407,1530,1414,-7
-1996-10-22,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,2,1,win,Muscat,Oman,TRUE,1530,1545,1551,1524,21
-1996-10-24,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,0,0,draw,Muscat,Oman,FALSE,1551,1246,1540,1257,-11
-1996-10-27,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,2,2,draw,Muscat,Oman,TRUE,1540,1589,1543,1586,3
-1996-11-15,Friendly,played,United Arab Emirates,ARE,Malta,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1535,1299,1528,1306,-7
-1996-11-19,Friendly,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,4,2,win,Abu Dhabi,United Arab Emirates,FALSE,1528,1666,1545,1649,17
-1996-11-22,Friendly,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1545,1649,1560,1634,15
-1996-11-26,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1560,1488,1555,1493,-5
-1996-11-28,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1555,1493,1561,1487,6
-1996-12-04,AFC Asian Cup,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1561,1641,1560,1642,-1
-1996-12-07,AFC Asian Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1560,1549,1577,1532,17
-1996-12-10,AFC Asian Cup,played,United Arab Emirates,ARE,Indonesia,IDN,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1577,1242,1583,1236,6
-1996-12-15,AFC Asian Cup,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1583,1673,1607,1649,24
-1996-12-19,AFC Asian Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-1996-12-21,AFC Asian Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1627,1624,1620,1631,-7
-1997-03-19,Friendly,played,United Arab Emirates,ARE,Lebanon,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1612,1404,1615,1401,3
-1997-03-29,Friendly,played,United Arab Emirates,ARE,Norway,NOR,TRUE,1,4,loss,Sharjah,United Arab Emirates,FALSE,1615,1821,1603,1833,-12
-1997-04-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,Jordan,,FALSE,0,0,draw,Manama,Bahrain,TRUE,1579,1337,1567,1349,-12
-1997-04-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,Bahrain,,FALSE,2,1,win,Manama,Bahrain,FALSE,1567,1383,1582,1368,15
-1997-04-22,FIFA World Cup qualification,played,United Arab Emirates,ARE,Bahrain,,TRUE,3,0,win,Sharjah,United Arab Emirates,FALSE,1582,1341,1591,1332,9
-1997-04-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,Jordan,,TRUE,2,0,win,Sharjah,United Arab Emirates,FALSE,1591,1376,1599,1368,8
-1997-09-02,Friendly,played,United Arab Emirates,ARE,Iran,IRN,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1539,1706,1557,1688,18
-1997-09-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kazakhstan,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1557,1516,1580,1493,23
-1997-09-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,Japan,JPN,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1580,1735,1583,1732,3
-1997-09-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,FALSE,3,2,win,Tashkent,Uzbekistan,FALSE,1583,1577,1608,1552,25
-1997-10-04,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,0,3,loss,Seoul,South Korea,FALSE,1608,1722,1592,1738,-16
-1997-10-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kazakhstan,,FALSE,0,3,loss,Almaty,Kazakhstan,FALSE,1597,1506,1563,1540,-34
-1997-10-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,Japan,JPN,FALSE,1,1,draw,Tokyo,Japan,FALSE,1563,1695,1575,1683,12
-1997-11-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1575,1554,1568,1561,-7
-1997-11-09,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,1,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1568,1716,1542,1742,-26
-1997-12-13,Confederations Cup,played,United Arab Emirates,ARE,Uruguay,URY,TRUE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1542,1724,1523,1743,-19
-1997-12-15,Confederations Cup,played,United Arab Emirates,ARE,South Africa,ZAF,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1523,1728,1561,1690,38
-1997-12-17,Confederations Cup,played,United Arab Emirates,ARE,Czechia,CZE,TRUE,1,6,loss,Riyadh,Saudi Arabia,TRUE,1561,1843,1545,1859,-16
-1998-09-16,Friendly,played,United Arab Emirates,ARE,Libya,,TRUE,5,1,win,Abu Dhabi,United Arab Emirates,FALSE,1545,1388,1552,1381,7
-1998-09-27,Arab Cup,played,United Arab Emirates,ARE,Sudan,,TRUE,4,1,win,Doha,Qatar,TRUE,1544,1438,1569,1413,25
-1998-09-29,Arab Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,2,loss,Doha,Qatar,FALSE,1569,1553,1554,1568,-15
-1998-10-01,Arab Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,4,loss,Doha,Qatar,TRUE,1554,1628,1526,1656,-28
-1998-10-17,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Sudan,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1526,1424,1533,1417,7
-1998-10-19,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Syria,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1533,1509,1543,1499,10
-1998-10-21,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Lebanon,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1543,1373,1548,1368,5
-1998-10-30,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,1,0,win,Manama,Bahrain,FALSE,1548,1347,1562,1333,14
-1998-11-03,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,3,2,win,Manama,Bahrain,TRUE,1562,1361,1572,1351,10
-1998-11-05,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,0,0,draw,Manama,Bahrain,TRUE,1572,1479,1567,1484,-5
-1998-11-08,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,1,loss,Manama,Bahrain,TRUE,1567,1724,1555,1736,-12
-1998-11-12,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,1,4,loss,Manama,Bahrain,TRUE,1555,1683,1532,1706,-23
-1998-11-25,Friendly,played,United Arab Emirates,ARE,Singapore,,FALSE,4,0,win,Singapore,Singapore,FALSE,1532,1340,1546,1326,14
-1998-12-02,Asian Games,played,United Arab Emirates,ARE,North Korea,PRK,TRUE,3,3,draw,Songkhla,Thailand,TRUE,1546,1487,1543,1490,-3
-1998-12-07,Asian Games,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,0,5,loss,Bangkok,Thailand,TRUE,1543,1697,1520,1720,-23
-1998-12-09,Asian Games,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,1,2,loss,Bangkok,Thailand,TRUE,1520,1725,1511,1734,-9
-1998-12-11,Asian Games,played,United Arab Emirates,ARE,Japan,JPN,FALSE,1,0,win,Bangkok,Thailand,TRUE,1511,1675,1540,1646,29
-1999-10-16,Friendly,played,United Arab Emirates,ARE,Tunisia,TUN,FALSE,0,1,loss,Tunis,Tunisia,FALSE,1504,1628,1500,1632,-4
-1999-10-30,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Turkmenistan,,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1500,1463,1514,1449,14
-1999-11-01,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Estonia,,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1514,1311,1503,1322,-11
-1999-11-03,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1503,1637,1504,1636,1
-1999-11-21,AFC Asian Cup qualification,played,United Arab Emirates,ARE,India,,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1504,1132,1508,1128,4
-1999-11-23,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Bangladesh,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1508,1035,1510,1033,2
-1999-11-27,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1510,1548,1486,1572,-24
-1999-11-29,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Sri Lanka,,TRUE,6,0,win,Abu Dhabi,United Arab Emirates,FALSE,1486,825,1487,824,1
-2000-02-19,Friendly,played,United Arab Emirates,ARE,Slovenia,SVN,TRUE,1,1,draw,Muscat,Oman,TRUE,1487,1612,1492,1607,5
-2000-02-21,Friendly,played,United Arab Emirates,ARE,Oman,,FALSE,1,0,win,Muscat,Oman,FALSE,1492,1341,1505,1328,13
-2000-02-23,Friendly,played,United Arab Emirates,ARE,Switzerland,CHE,TRUE,1,0,win,Muscat,Oman,TRUE,1505,1743,1529,1719,24
-2000-08-16,Friendly,played,United Arab Emirates,ARE,Japan,JPN,FALSE,1,3,loss,Hiroshima,Japan,FALSE,1529,1660,1523,1666,-6
-2000-09-07,Friendly,played,United Arab Emirates,ARE,Lebanon,,FALSE,1,0,win,Beirut,Lebanon,FALSE,1523,1442,1534,1431,11
-2000-09-10,Friendly,played,United Arab Emirates,ARE,Lebanon,,FALSE,2,2,draw,Beirut,Lebanon,FALSE,1534,1431,1534,1431,0
-2000-09-28,Friendly,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,1,6,loss,Abha,Saudi Arabia,FALSE,1534,1637,1525,1646,-9
-2000-10-04,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1525,1756,1530,1751,5
-2000-10-07,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1530,1635,1545,1620,15
-2000-11-12,Friendly,played,United Arab Emirates,ARE,Hong Kong,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1545,1209,1537,1217,-8
-2001-01-06,Friendly,played,United Arab Emirates,ARE,Egypt,EGY,FALSE,1,2,loss,Cairo,Egypt,FALSE,1546,1682,1542,1686,-4
-2001-02-11,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,1,4,loss,Dubai,United Arab Emirates,FALSE,1542,1753,1524,1771,-18
-2001-02-14,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,Morocco,MAR,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1524,1695,1527,1692,3
-2001-03-27,Friendly,played,United Arab Emirates,ARE,Oman,,FALSE,1,2,loss,Muscat,Oman,FALSE,1527,1309,1514,1322,-13
-2001-04-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,India,,FALSE,0,1,loss,Bangalore,India,FALSE,1515,1085,1480,1120,-35
-2001-04-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,Brunei,,FALSE,12,0,win,Bandar Seri Begawan,Brunei,FALSE,1480,745,1483,742,3
-2001-04-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,India,,TRUE,1,0,win,Al Ain,United Arab Emirates,FALSE,1483,1118,1486,1115,3
-2001-05-04,FIFA World Cup qualification,played,United Arab Emirates,ARE,Brunei,,TRUE,4,0,win,Al Ain,United Arab Emirates,FALSE,1486,740,1487,739,1
-2001-05-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,Yemen,,FALSE,1,2,loss,Sana'a,Yemen,FALSE,1487,1186,1457,1216,-30
-2001-05-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,Yemen,,TRUE,3,2,win,Al Ain,United Arab Emirates,FALSE,1457,1216,1462,1211,5
-2001-08-02,Friendly,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1462,1591,1463,1590,1
-2001-08-08,Friendly,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,0,1,loss,Doha,Qatar,TRUE,1463,1684,1459,1688,-4
-2001-08-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,4,1,win,Abu Dhabi,United Arab Emirates,FALSE,1459,1540,1492,1507,33
-2001-08-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,China PR,,FALSE,0,3,loss,Shenyang,China PR,FALSE,,,,,
-2001-08-31,FIFA World Cup qualification,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1481,1558,1449,1590,-32
-2001-09-07,Friendly,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,2,0,win,Dammam,Saudi Arabia,FALSE,1449,1670,1475,1644,26
-2001-09-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,Oman,,FALSE,1,1,draw,Muscat,Oman,FALSE,1475,1376,1475,1376,0
-2001-09-22,FIFA World Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1475,1532,1503,1504,28
-2001-09-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,China PR,,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-2001-10-04,FIFA World Cup qualification,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,2,1,win,Doha,Qatar,FALSE,1490,1600,1521,1569,31
-2001-10-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,Oman,,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1521,1379,1509,1391,-12
-2001-10-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1509,1711,1503,1717,-6
-2001-10-31,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,TRUE,0,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1503,1717,1479,1741,-24
-2002-01-17,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1479,1422,1496,1405,17
-2002-01-20,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1496,1537,1470,1563,-26
-2002-01-24,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1470,1690,1465,1695,-5
-2002-01-27,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,TRUE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1465,1482,1446,1501,-19
-2002-01-29,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1446,1513,1430,1529,-16
-2002-09-25,Friendly,played,United Arab Emirates,ARE,Oman,,FALSE,1,2,loss,Muscat,Oman,FALSE,1430,1432,1423,1439,-7
-2002-12-16,Friendly,played,United Arab Emirates,ARE,Egypt,EGY,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1423,1599,1415,1607,-8
-2003-01-26,Friendly,played,United Arab Emirates,ARE,Norway,NOR,TRUE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1415,1801,1422,1794,7
-2003-10-11,Friendly,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,2,2,draw,Dubai,United Arab Emirates,FALSE,1402,1499,1402,1499,0
-2003-10-19,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Turkmenistan,,FALSE,0,1,loss,Ashgabat,Turkmenistan,FALSE,1402,1441,1390,1453,-12
-2003-10-30,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Turkmenistan,,TRUE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1390,1453,1388,1455,-2
-2003-11-07,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Syria,,FALSE,3,1,win,Damascus,Syria,FALSE,1388,1433,1430,1391,42
-2003-11-14,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Syria,,TRUE,3,1,win,Sharjah,United Arab Emirates,FALSE,1430,1391,1449,1372,19
-2003-11-18,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Sri Lanka,,TRUE,3,1,win,Dubai,United Arab Emirates,FALSE,1449,938,1451,936,2
-2003-11-22,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Sri Lanka,,TRUE,3,0,win,Dubai,United Arab Emirates,FALSE,1451,936,1453,934,2
-2003-12-14,Friendly,played,United Arab Emirates,ARE,Azerbaijan,,TRUE,3,3,draw,Dubai,United Arab Emirates,FALSE,1453,1347,1448,1352,-5
-2003-12-21,Friendly,played,United Arab Emirates,ARE,Kenya,,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1448,1469,1446,1471,-2
-2003-12-26,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,0,2,loss,Kuwait City,Kuwait,TRUE,1446,1656,1432,1670,-14
-2003-12-29,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,2,0,win,Kuwait City,Kuwait,FALSE,1432,1566,1480,1518,48
-2003-12-31,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,0,2,loss,Kuwait City,Kuwait,TRUE,1480,1535,1455,1560,-25
-2004-01-03,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1455,1521,1459,1517,4
-2004-01-07,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,TRUE,1,3,loss,Kuwait City,Kuwait,TRUE,1459,1534,1435,1558,-24
-2004-01-11,Gulf Cup,played,United Arab Emirates,ARE,Yemen,,FALSE,3,0,win,Kuwait City,Kuwait,TRUE,1435,1162,1447,1150,12
-2004-02-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,Thailand,,TRUE,1,0,win,Al Ain,United Arab Emirates,FALSE,1447,1443,1461,1429,14
-2004-03-31,FIFA World Cup qualification,played,United Arab Emirates,ARE,North Korea,PRK,FALSE,0,0,draw,Pyongyang,North Korea,FALSE,1461,1420,1464,1417,3
-2004-05-31,Friendly,played,United Arab Emirates,ARE,Bahrain,,TRUE,2,3,loss,Dubai,United Arab Emirates,FALSE,1464,1555,1454,1565,-10
-2004-06-09,FIFA World Cup qualification,played,United Arab Emirates,ARE,Yemen,,TRUE,3,0,win,Al Ain,United Arab Emirates,FALSE,1454,1136,1460,1130,6
-2004-07-10,Friendly,played,United Arab Emirates,ARE,China PR,,FALSE,2,2,draw,Hohhot,China PR,FALSE,,,,,
-2004-07-19,AFC Asian Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,3,loss,Jinan,China PR,TRUE,1466,1451,1427,1490,-39
-2004-07-23,AFC Asian Cup,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,0,2,loss,Jinan,China PR,TRUE,1427,1692,1414,1705,-13
-2004-07-27,AFC Asian Cup,played,United Arab Emirates,ARE,Jordan,,FALSE,0,0,draw,Beijing,China PR,TRUE,1414,1676,1430,1660,16
-2004-09-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,Yemen,,FALSE,1,3,loss,Sana'a,Yemen,FALSE,1430,1142,1385,1187,-45
-2004-10-08,Friendly,played,United Arab Emirates,ARE,Singapore,,FALSE,2,1,win,Singapore,Singapore,FALSE,1385,1163,1392,1156,7
-2004-10-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,Thailand,,FALSE,0,3,loss,Bangkok,Thailand,FALSE,1392,1327,1361,1358,-31
-2004-11-11,Friendly,played,United Arab Emirates,ARE,Jordan,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1361,1645,1389,1617,28
-2004-11-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,North Korea,PRK,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1389,1485,1409,1465,20
-2004-11-22,Friendly,played,United Arab Emirates,ARE,Belarus,,TRUE,2,3,loss,Dubai,United Arab Emirates,FALSE,1409,1608,1402,1615,-7
-2004-11-27,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1402,1507,1392,1517,-10
-2004-12-03,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1392,1517,1393,1516,1
-2004-12-10,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,2,2,draw,Doha,Qatar,FALSE,1393,1497,1404,1486,11
-2004-12-13,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,1,2,loss,Doha,Qatar,TRUE,1404,1614,1395,1623,-9
-2004-12-16,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,1,1,draw,Al Rayyan,Qatar,TRUE,1395,1516,1402,1509,7
-2005-02-09,Friendly,played,United Arab Emirates,ARE,Switzerland,CHE,TRUE,1,2,loss,Dubai,United Arab Emirates,FALSE,1402,1692,1397,1697,-5
-2005-05-24,Kirin Cup,played,United Arab Emirates,ARE,Peru,PER,FALSE,0,0,draw,Toyota,Japan,TRUE,1397,1699,1408,1688,11
-2005-05-27,Kirin Cup,played,United Arab Emirates,ARE,Japan,JPN,FALSE,1,0,win,Tokyo,Japan,FALSE,1408,1813,1436,1785,28
-2005-07-28,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,1,draw,Geneva,Switzerland,TRUE,,,,,
-2005-07-30,Friendly,played,United Arab Emirates,ARE,Egypt,EGY,FALSE,0,0,draw,Geneva,Switzerland,TRUE,,,,,
-2005-09-23,Friendly,played,United Arab Emirates,ARE,Benin,,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1448,1251,1441,1258,-7
-2005-10-11,Friendly,played,United Arab Emirates,ARE,Oman,,TRUE,2,2,draw,Al Ain,United Arab Emirates,FALSE,1441,1617,1443,1615,2
-2005-11-12,Friendly,played,United Arab Emirates,ARE,Brazil,BRA,TRUE,0,8,loss,Abu Dhabi,United Arab Emirates,FALSE,1443,2024,1440,2027,-3
-2005-11-16,Friendly,played,United Arab Emirates,ARE,Syria,,FALSE,3,0,win,Damascus,Syria,FALSE,1440,1454,1463,1431,23
-2005-12-02,Friendly,played,United Arab Emirates,ARE,Libya,,TRUE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1463,1479,1461,1481,-2
-2006-01-18,Friendly,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1461,1687,1474,1674,13
-2006-02-22,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Oman,,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1474,1575,1494,1555,20
-2006-03-01,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Pakistan,,FALSE,4,1,win,Karachi,Pakistan,FALSE,1494,883,1498,879,4
-2006-05-02,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,2,1,win,Dubai,United Arab Emirates,FALSE,1498,1506,1505,1499,7
-2006-08-08,Friendly,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1505,1753,1503,1755,-2
-2006-08-16,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Jordan,,FALSE,2,1,win,Amman,Jordan,FALSE,1503,1520,1529,1494,26
-2006-08-27,Friendly,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1529,1547,1522,1554,-7
-2006-09-06,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Jordan,,TRUE,0,0,draw,Sharjah,United Arab Emirates,FALSE,1522,1513,1516,1519,-6
-2006-10-11,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Oman,,FALSE,1,2,loss,Muscat,Oman,FALSE,1516,1590,1505,1601,-11
-2006-11-15,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Pakistan,,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1505,898,1506,897,1
-2006-12-06,Friendly,played,United Arab Emirates,ARE,Poland,POL,TRUE,2,5,loss,Abu Dhabi,United Arab Emirates,FALSE,1506,1769,1496,1779,-10
-2006-12-10,Friendly,played,United Arab Emirates,ARE,Slovakia,SVK,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1496,1710,1489,1717,-7
-2007-01-17,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1482,1565,1461,1586,-21
-2007-01-20,Gulf Cup,played,United Arab Emirates,ARE,Yemen,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1461,1238,1466,1233,5
-2007-01-23,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1466,1447,1479,1434,13
-2007-01-27,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1479,1620,1501,1598,22
-2007-01-30,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1501,1618,1522,1597,21
-2007-06-21,Friendly,played,United Arab Emirates,ARE,Malaysia,,FALSE,3,1,win,Petaling Jaya,Malaysia,FALSE,1522,1190,1528,1184,6
-2007-06-24,Friendly,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,0,2,loss,Singapore,Singapore,TRUE,1528,1582,1515,1595,-13
-2007-06-27,Friendly,played,United Arab Emirates,ARE,Bahrain,,TRUE,2,2,draw,Petaling Jaya,Malaysia,TRUE,1515,1491,1514,1492,-1
-2007-07-01,Friendly,played,United Arab Emirates,ARE,North Korea,PRK,TRUE,1,0,win,Singapore,Singapore,TRUE,1514,1479,1523,1470,9
-2007-07-08,AFC Asian Cup,played,United Arab Emirates,ARE,Vietnam,,FALSE,0,2,loss,Hanoi,Vietnam,FALSE,1523,1280,1471,1332,-52
-2007-07-13,AFC Asian Cup,played,United Arab Emirates,ARE,Japan,JPN,TRUE,1,3,loss,Hanoi,Vietnam,TRUE,1471,1729,1457,1743,-14
-2007-07-16,AFC Asian Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,2,1,win,Ho Chi Minh City,Vietnam,TRUE,1457,1500,1485,1472,28
-2007-09-12,Friendly,played,United Arab Emirates,ARE,Singapore,,FALSE,1,1,draw,Singapore,Singapore,FALSE,1485,1307,1483,1309,-2
-2007-09-23,Friendly,played,United Arab Emirates,ARE,Lebanon,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1483,1326,1477,1332,-6
-2007-10-03,Friendly,played,United Arab Emirates,ARE,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1477,1404,1478,1403,1
-2007-10-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,Vietnam,,FALSE,1,0,win,Hanoi,Vietnam,FALSE,1478,1313,1494,1297,16
-2007-10-17,Friendly,played,United Arab Emirates,ARE,Tunisia,TUN,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1494,1620,1485,1629,-9
-2007-10-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,Vietnam,,TRUE,5,0,win,Abu Dhabi,United Arab Emirates,FALSE,1485,1297,1498,1284,13
-2007-11-17,Friendly,played,United Arab Emirates,ARE,Benin,,FALSE,0,1,loss,Accra,Ghana,TRUE,1451,1363,1432,1382,-19
-2007-11-21,Friendly,played,United Arab Emirates,ARE,Togo,TGO,TRUE,0,5,loss,Accra,Ghana,TRUE,1471,1412,1436,1447,-35
-2008-01-10,Friendly,played,United Arab Emirates,ARE,China PR,,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,,,,,
-2008-01-31,Friendly,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1438,1640,1431,1647,-7
-2008-02-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1431,1426,1452,1405,21
-2008-03-19,Friendly,played,United Arab Emirates,ARE,Oman,,FALSE,1,1,draw,Muscat,Oman,FALSE,1452,1502,1456,1498,4
-2008-03-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,Syria,,FALSE,1,1,draw,Damascus,Syria,FALSE,1456,1534,1465,1525,9
-2008-06-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,0,draw,Tehran,Iran,FALSE,1465,1738,1481,1722,16
-2008-06-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,TRUE,0,1,loss,Al Ain,United Arab Emirates,FALSE,1481,1722,1469,1734,-12
-2008-06-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,3,2,win,Kuwait City,Kuwait,FALSE,1469,1447,1493,1423,24
-2008-06-22,FIFA World Cup qualification,played,United Arab Emirates,ARE,Syria,,TRUE,1,3,loss,Al Ain,United Arab Emirates,FALSE,1493,1492,1455,1530,-38
-2008-08-20,Friendly,played,United Arab Emirates,ARE,Algeria,DZA,FALSE,0,1,loss,Le Touquet-Paris-Plage,France,TRUE,1455,1406,1444,1417,-11
-2008-08-29,Friendly,played,United Arab Emirates,ARE,Bahrain,,TRUE,2,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1444,1543,1434,1553,-10
-2008-09-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,North Korea,PRK,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1434,1528,1414,1548,-20
-2008-09-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1414,1687,1403,1698,-11
-2008-10-09,Friendly,played,United Arab Emirates,ARE,Japan,JPN,FALSE,1,1,draw,Niigata,Japan,FALSE,1403,1771,1412,1762,9
-2008-10-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,1,4,loss,Seoul,South Korea,FALSE,1412,1679,1404,1687,-8
-2008-11-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1404,1796,1418,1782,14
-2008-12-27,Friendly,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,2,draw,Al Ain,United Arab Emirates,FALSE,1418,1598,1420,1596,2
-2008-12-30,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1420,1418,1417,1421,-3
-2009-01-05,Gulf Cup,played,United Arab Emirates,ARE,Yemen,,TRUE,3,1,win,Muscat,Oman,TRUE,1417,1216,1431,1202,14
-2009-01-08,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,0,0,draw,Muscat,Oman,TRUE,1431,1518,1436,1513,5
-2009-01-11,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,0,3,loss,Muscat,Oman,TRUE,1436,1646,1420,1662,-16
-2009-01-21,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Malaysia,,FALSE,5,0,win,Kuala Lumpur,Malaysia,FALSE,1420,1163,1443,1140,23
-2009-01-28,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,0,1,loss,Sharjah,United Arab Emirates,FALSE,1443,1553,1424,1572,-19
-2009-03-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,North Korea,PRK,FALSE,0,2,loss,Pyongyang,North Korea,FALSE,1424,1521,1409,1536,-15
-2009-04-01,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,2,3,loss,Riyadh,Saudi Arabia,FALSE,1409,1678,1405,1682,-4
-2009-06-02,Friendly,played,United Arab Emirates,ARE,Germany,DEU,TRUE,2,7,loss,Dubai,United Arab Emirates,FALSE,1405,1954,1402,1957,-3
-2009-06-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1402,1730,1389,1743,-13
-2009-06-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1389,1711,1386,1714,-3
-2009-10-10,Friendly,played,United Arab Emirates,ARE,Palestine,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1386,1203,1379,1210,-7
-2009-10-14,Friendly,played,United Arab Emirates,ARE,Jordan,,TRUE,3,1,win,Dubai,United Arab Emirates,FALSE,1379,1447,1393,1433,14
-2009-11-15,Friendly,played,United Arab Emirates,ARE,Czechia,CZE,TRUE,0,0,draw,Al Ain,United Arab Emirates,FALSE,1393,1798,1404,1787,11
-2009-11-18,Friendly,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,0,1,loss,Al Ain,United Arab Emirates,FALSE,1404,1544,1391,1557,-13
-2009-12-16,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1391,1476,1396,1471,5
-2010-01-06,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Malaysia,,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1396,1173,1401,1168,5
-2010-03-03,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1401,1546,1433,1514,32
-2010-05-29,Friendly,played,United Arab Emirates,ARE,Moldova,,FALSE,3,2,win,Anif,Austria,TRUE,1433,1449,1443,1439,10
-2010-06-05,Friendly,played,United Arab Emirates,ARE,Algeria,DZA,FALSE,0,1,loss,Fürth,Germany,TRUE,1443,1532,1436,1539,-7
-2010-09-07,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1436,1531,1453,1514,17
-2010-10-09,Friendly,played,United Arab Emirates,ARE,Chile,CHL,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1453,1872,1449,1876,-4
-2010-10-12,Friendly,played,United Arab Emirates,ARE,Angola,AGO,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1449,1438,1429,1458,-20
-2010-11-18,Friendly,played,United Arab Emirates,ARE,India,,TRUE,5,0,win,Dubai,United Arab Emirates,FALSE,1429,1157,1433,1153,4
-2010-11-23,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,0,0,draw,Aden,Yemen,TRUE,1433,1568,1440,1561,7
-2010-11-26,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,0,0,draw,Aden,Yemen,TRUE,1440,1537,1445,1532,5
-2010-11-29,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,TRUE,3,1,win,Zinjibar,Yemen,TRUE,1445,1500,1480,1465,35
-2010-12-02,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,0,1,loss,Aden,Yemen,TRUE,1480,1682,1470,1692,-10
-2011-01-02,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,2,0,win,Al Ain,United Arab Emirates,FALSE,1470,1531,1483,1518,13
-2011-01-05,Friendly,played,United Arab Emirates,ARE,Australia,AUS,TRUE,0,0,draw,Al Ain,United Arab Emirates,FALSE,1483,1775,1488,1770,5
-2011-01-11,AFC Asian Cup,played,United Arab Emirates,ARE,North Korea,PRK,FALSE,0,0,draw,Doha,Qatar,TRUE,1488,1536,1491,1533,3
-2011-01-15,AFC Asian Cup,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,0,1,loss,Al Rayyan,Qatar,TRUE,1491,1563,1471,1583,-20
-2011-01-19,AFC Asian Cup,played,United Arab Emirates,ARE,Iran,IRN,TRUE,0,3,loss,Doha,Qatar,TRUE,1471,1727,1455,1743,-16
-2011-07-17,Friendly,played,United Arab Emirates,ARE,Lebanon,,TRUE,6,2,win,Al Ain,United Arab Emirates,FALSE,1455,1208,1459,1204,4
-2011-07-23,FIFA World Cup qualification,played,United Arab Emirates,ARE,India,,TRUE,3,0,win,Al Ain,United Arab Emirates,FALSE,1459,1197,1467,1189,8
-2011-07-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,India,,FALSE,2,2,draw,New Delhi,India,FALSE,1467,1189,1458,1198,-9
-2011-08-25,Friendly,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,3,1,win,Al Ain,United Arab Emirates,FALSE,1458,1492,1470,1480,12
-2011-09-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,2,3,loss,Al Ain,United Arab Emirates,FALSE,1470,1582,1451,1601,-19
-2011-09-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,Lebanon,,FALSE,1,3,loss,Beirut,Lebanon,FALSE,1451,1166,1406,1211,-45
-2011-10-06,Friendly,played,United Arab Emirates,ARE,China PR,,FALSE,1,2,loss,Shenzhen,China PR,FALSE,,,,,
-2011-10-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,1,2,loss,Suwon,South Korea,FALSE,1403,1793,1401,1795,-2
-2011-11-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1401,1795,1392,1804,-9
-2011-11-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1392,1540,1384,1548,-8
-2012-01-29,Friendly,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1384,1612,1398,1598,14
-2012-02-24,Friendly,played,United Arab Emirates,ARE,Palestine,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1398,1242,1405,1235,7
-2012-02-29,FIFA World Cup qualification,played,United Arab Emirates,ARE,Lebanon,,TRUE,4,2,win,Abu Dhabi,United Arab Emirates,FALSE,1405,1334,1421,1318,16
-2012-09-06,Friendly,played,United Arab Emirates,ARE,Japan,JPN,FALSE,0,1,loss,Niigata,Japan,FALSE,1421,1793,1420,1794,-1
-2012-09-11,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,3,0,win,Dubai,United Arab Emirates,FALSE,1420,1545,1439,1526,19
-2012-10-12,Friendly,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,2,2,draw,Dubai,United Arab Emirates,FALSE,1439,1609,1441,1607,2
-2012-10-16,Friendly,played,United Arab Emirates,ARE,Bahrain,,TRUE,6,2,win,Dubai,United Arab Emirates,FALSE,1441,1438,1454,1425,13
-2012-11-14,Friendly,played,United Arab Emirates,ARE,Estonia,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1454,1503,1463,1494,9
-2012-12-25,Friendly,played,United Arab Emirates,ARE,Yemen,,TRUE,2,0,win,Doha,Qatar,TRUE,1463,1279,1471,1271,8
-2012-12-29,Friendly,played,United Arab Emirates,ARE,Yemen,,TRUE,3,1,win,Doha,Qatar,TRUE,1471,1271,1478,1264,7
-2013-01-05,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,3,1,win,Riffa,Bahrain,TRUE,1478,1476,1508,1446,30
-2013-01-08,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,2,1,win,Riffa,Bahrain,FALSE,1508,1493,1533,1468,25
-2013-01-11,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,2,0,win,Isa Town,Bahrain,TRUE,1533,1502,1560,1475,27
-2013-01-15,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,1,0,win,Riffa,Bahrain,TRUE,1560,1511,1577,1494,17
-2013-01-18,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,1,win,Riffa,Bahrain,TRUE,1577,1630,1600,1607,23
-2013-02-06,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Vietnam,,FALSE,2,1,win,Hanoi,Vietnam,FALSE,1590,1245,1598,1237,8
-2013-03-22,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1598,1630,1614,1614,16
-2013-09-05,OSN Cup,played,United Arab Emirates,ARE,Trinidad and Tobago,TTO,TRUE,3,3,draw,Riyadh,Saudi Arabia,TRUE,1614,1440,1607,1447,-7
-2013-09-09,OSN Cup,played,United Arab Emirates,ARE,New Zealand,NZL,TRUE,2,0,win,Riyadh,Saudi Arabia,TRUE,1607,1602,1629,1580,22
-2013-10-15,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Hong Kong,,FALSE,4,0,win,So Kon Po,Hong Kong,FALSE,1631,1200,1641,1190,10
-2013-11-09,Friendly,played,United Arab Emirates,ARE,Philippines,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1641,1201,1643,1199,2
-2013-11-15,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Hong Kong,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1643,1190,1646,1187,3
-2013-11-19,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Vietnam,,TRUE,5,0,win,Abu Dhabi,United Arab Emirates,FALSE,1646,1223,1650,1219,4
-2014-03-05,AFC Asian Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,FALSE,1,1,draw,Tashkent,Uzbekistan,FALSE,1650,1650,1656,1644,6
-2014-05-27,Friendly,played,United Arab Emirates,ARE,Armenia,,FALSE,3,4,loss,Carouge,Switzerland,TRUE,1656,1577,1644,1589,-12
-2014-06-03,Friendly,played,United Arab Emirates,ARE,Georgia,,FALSE,1,0,win,Meyrin,Switzerland,TRUE,1644,1511,1650,1505,6
-2014-08-27,Friendly,played,United Arab Emirates,ARE,Norway,NOR,FALSE,0,0,draw,Stavanger,Norway,FALSE,1650,1618,1652,1616,2
-2014-09-03,Friendly,played,United Arab Emirates,ARE,Lithuania,,FALSE,1,1,draw,Matrei in Osttirol,Austria,TRUE,1652,1465,1647,1470,-5
-2014-09-07,Friendly,played,United Arab Emirates,ARE,Paraguay,PRY,FALSE,0,0,draw,Villach,Austria,TRUE,1647,1708,1649,1706,2
-2014-10-10,Friendly,played,United Arab Emirates,ARE,Australia,AUS,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1649,1666,1647,1668,-2
-2014-10-14,Friendly,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,0,4,loss,Dubai,United Arab Emirates,FALSE,1647,1610,1621,1636,-26
-2014-11-06,Friendly,played,United Arab Emirates,ARE,Lebanon,,TRUE,3,2,win,Al Hofuf,Saudi Arabia,TRUE,1621,1415,1626,1410,5
-2014-11-14,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1626,1562,1622,1566,-4
-2014-11-17,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,2,2,draw,Riyadh,Saudi Arabia,TRUE,1622,1540,1617,1545,-5
-2014-11-20,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,0,win,Riyadh,Saudi Arabia,TRUE,1617,1537,1640,1514,23
-2014-11-23,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,2,3,loss,Riyadh,Saudi Arabia,FALSE,1640,1489,1617,1512,-23
-2014-11-25,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1617,1568,1634,1551,17
-2014-12-30,Friendly,played,United Arab Emirates,ARE,Jordan,,TRUE,1,0,win,Robina,Australia,TRUE,1634,1544,1641,1537,7
-2015-01-11,AFC Asian Cup,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,4,1,win,Canberra,Australia,TRUE,1641,1614,1681,1574,40
-2015-01-15,AFC Asian Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,2,1,win,Canberra,Australia,TRUE,1681,1468,1692,1457,11
-2015-01-19,AFC Asian Cup,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,1,loss,Brisbane,Australia,TRUE,1692,1714,1669,1737,-23
-2015-01-23,AFC Asian Cup,played,United Arab Emirates,ARE,Japan,JPN,FALSE,1,1,draw,Sydney,Australia,TRUE,1669,1765,1676,1758,7
-2015-01-27,AFC Asian Cup,played,United Arab Emirates,ARE,Australia,AUS,FALSE,0,2,loss,Newcastle,Australia,FALSE,1676,1679,1649,1706,-27
-2015-01-30,AFC Asian Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,3,2,win,Newcastle,Australia,TRUE,1649,1531,1666,1514,17
-2015-06-11,Friendly,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,0,3,loss,Kuala Lumpur,Malaysia,TRUE,1666,1734,1652,1748,-14
-2015-06-16,FIFA World Cup qualification,played,United Arab Emirates,ARE,Timor-Leste,,FALSE,3,0,win,Shah Alam,Malaysia,TRUE,,,,,
-2015-08-28,Friendly,played,United Arab Emirates,ARE,Myanmar,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1652,1038,1652,1038,0
-2015-09-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,Malaysia,,TRUE,10,0,win,Abu Dhabi,United Arab Emirates,FALSE,1652,1149,1655,1146,3
-2015-09-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,Palestine,,FALSE,0,0,draw,Al-Ram,Palestine,FALSE,1655,1332,1644,1343,-11
-2015-10-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,1,2,loss,Jeddah,Saudi Arabia,FALSE,1644,1498,1621,1521,-23
-2015-11-05,Friendly,played,United Arab Emirates,ARE,Turkmenistan,,TRUE,5,1,win,Abu Dhabi,United Arab Emirates,FALSE,1621,1253,1623,1251,2
-2015-11-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,Timor-Leste,,TRUE,8,0,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-2015-11-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,Malaysia,,FALSE,2,1,win,Shah Alam,Malaysia,FALSE,1623,1127,1627,1123,4
-2016-01-16,Friendly,played,United Arab Emirates,ARE,Iceland,ISL,TRUE,2,1,win,Dubai,United Arab Emirates,FALSE,1627,1681,1636,1672,9
-2016-03-18,Friendly,played,United Arab Emirates,ARE,Bangladesh,,TRUE,6,1,win,Abu Dhabi,United Arab Emirates,FALSE,1636,901,1636,901,0
-2016-03-24,FIFA World Cup qualification,played,United Arab Emirates,ARE,Palestine,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1636,1357,1642,1351,6
-2016-03-29,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1642,1516,1631,1527,-11
-2016-06-03,King's Cup,played,United Arab Emirates,ARE,Jordan,,TRUE,1,3,loss,Bangkok,Thailand,TRUE,1631,1533,1602,1562,-29
-2016-06-05,King's Cup,played,United Arab Emirates,ARE,Syria,,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1602,1497,1583,1516,-19
-2016-08-24,Friendly,played,United Arab Emirates,ARE,North Korea,PRK,FALSE,0,2,loss,Shanghai,China PR,TRUE,1583,1513,1565,1531,-18
-2016-09-01,FIFA World Cup qualification,played,United Arab Emirates,ARE,Japan,JPN,FALSE,2,1,win,Saitama,Japan,FALSE,1565,1754,1599,1720,34
-2016-09-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,Australia,AUS,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1599,1715,1580,1734,-19
-2016-10-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,Thailand,,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1580,1405,1590,1395,10
-2016-10-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,FALSE,0,3,loss,Jeddah,Saudi Arabia,FALSE,1590,1559,1562,1587,-28
-2016-11-09,Friendly,played,United Arab Emirates,ARE,Bahrain,,TRUE,2,0,win,Al Ain,United Arab Emirates,FALSE,1562,1447,1569,1440,7
-2016-11-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1569,1491,1585,1475,16
-2017-03-23,FIFA World Cup qualification,played,United Arab Emirates,ARE,Japan,JPN,TRUE,0,2,loss,Al Ain,United Arab Emirates,FALSE,1585,1754,1561,1778,-24
-2017-03-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,Australia,AUS,FALSE,0,2,loss,Sydney,Australia,FALSE,1561,1701,1549,1713,-12
-2017-06-07,Friendly,played,United Arab Emirates,ARE,Laos,,TRUE,4,0,win,Shah Alam,Malaysia,TRUE,1549,808,1550,807,1
-2017-06-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,Thailand,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1550,1386,1546,1390,-4
-2017-08-29,FIFA World Cup qualification,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,2,1,win,Al Ain,United Arab Emirates,FALSE,1546,1608,1564,1590,18
-2017-09-05,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,0,1,loss,Amman,Jordan,TRUE,1564,1543,1543,1564,-21
-2017-11-14,Friendly,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,1,0,win,Al Ain,United Arab Emirates,FALSE,1529,1621,1539,1611,10
-2017-12-22,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,1,0,win,Kuwait City,Kuwait,TRUE,1547,1464,1562,1449,15
-2017-12-25,Gulf Cup,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1562,1614,1565,1611,3
-2017-12-28,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1565,1424,1563,1426,-2
-2018-01-02,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1563,1573,1564,1572,1
-2018-01-05,Gulf Cup,played,United Arab Emirates,ARE,Oman,,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1564,1531,1562,1533,-2
-2018-03-22,Friendly,played,United Arab Emirates,ARE,Slovakia,SVK,FALSE,1,2,loss,Bangkok,Thailand,TRUE,1562,1747,1554,1755,-8
-2018-08-18,Friendly,played,United Arab Emirates,ARE,Andorra,,FALSE,0,0,draw,Grödig,Austria,TRUE,1533,1038,1524,1047,-9
-2018-09-06,Friendly,played,United Arab Emirates,ARE,Trinidad and Tobago,TTO,FALSE,0,2,loss,Llagostera,Trinidad and Tobago,FALSE,1524,1423,1505,1442,-19
-2018-09-11,Friendly,played,United Arab Emirates,ARE,Laos,,FALSE,3,0,win,Llagostera,Laos,FALSE,1505,771,1506,770,1
-2018-10-11,Friendly,played,United Arab Emirates,ARE,Honduras,HND,FALSE,1,1,draw,Barcelona,Spain,TRUE,1506,1590,1508,1588,2
-2018-10-16,Friendly,played,United Arab Emirates,ARE,Venezuela,,TRUE,0,2,loss,Barcelona,Spain,TRUE,1508,1746,1502,1752,-6
-2018-11-16,Friendly,played,United Arab Emirates,ARE,Bolivia,BOL,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1502,1660,1504,1658,2
-2018-11-20,Friendly,played,United Arab Emirates,ARE,Yemen,,TRUE,2,0,win,Dubai,United Arab Emirates,FALSE,1504,1196,1507,1193,3
-2018-12-28,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1507,1416,1484,1439,-23
-2019-01-05,AFC Asian Cup,played,United Arab Emirates,ARE,Bahrain,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1484,1432,1474,1442,-10
-2019-01-10,AFC Asian Cup,played,United Arab Emirates,ARE,India,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1474,1283,1486,1271,12
-2019-01-14,AFC Asian Cup,played,United Arab Emirates,ARE,Thailand,,TRUE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1486,1347,1471,1362,-15
-2019-01-21,AFC Asian Cup,played,United Arab Emirates,ARE,Kyrgyzstan,,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1471,1303,1480,1294,9
-2019-01-25,AFC Asian Cup,played,United Arab Emirates,ARE,Australia,AUS,TRUE,1,0,win,Al Ain,United Arab Emirates,FALSE,1480,1713,1514,1679,34
-2019-01-29,AFC Asian Cup,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,0,4,loss,Abu Dhabi,United Arab Emirates,FALSE,1514,1685,1477,1722,-37
-2019-03-21,Friendly,played,United Arab Emirates,ARE,Saudi Arabia,SAU,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1477,1575,1487,1565,10
-2019-03-26,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1487,1531,1485,1533,-2
-2019-08-29,Friendly,played,United Arab Emirates,ARE,Dominican Republic,,TRUE,4,0,win,Riffa,Bahrain,TRUE,,,,,
-2019-08-31,Friendly,played,United Arab Emirates,ARE,Sri Lanka,,TRUE,5,1,win,Riffa,Bahrain,TRUE,1492,685,1492,685,0
-2019-09-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,Malaysia,,FALSE,2,1,win,Kuala Lumpur,Malaysia,FALSE,1492,1158,1500,1150,8
-2019-10-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,Indonesia,IDN,TRUE,5,0,win,Dubai,United Arab Emirates,FALSE,1500,1164,1506,1158,6
-2019-10-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,Thailand,,FALSE,1,2,loss,Pathum Thani,Thailand,FALSE,1506,1355,1483,1378,-23
-2019-11-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,Vietnam,,FALSE,0,1,loss,Hanoi,Vietnam,FALSE,1483,1402,1464,1421,-19
-2019-11-26,Gulf Cup,played,United Arab Emirates,ARE,Yemen,,TRUE,3,0,win,Doha,Qatar,TRUE,1464,1209,1477,1196,13
-2019-11-29,Gulf Cup,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,0,2,loss,Doha,Qatar,TRUE,1477,1629,1459,1647,-18
-2019-12-02,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,2,4,loss,Doha,Qatar,FALSE,1459,1692,1451,1700,-8
-2020-10-12,Friendly,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,1,2,loss,Dubai,United Arab Emirates,FALSE,1451,1562,1441,1572,-10
-2020-11-12,Friendly,played,United Arab Emirates,ARE,Tajikistan,,TRUE,3,2,win,Dubai,United Arab Emirates,FALSE,1441,1232,1444,1229,3
-2020-11-16,Friendly,played,United Arab Emirates,ARE,Bahrain,,TRUE,1,3,loss,Dubai,United Arab Emirates,FALSE,1444,1549,1429,1564,-15
-2021-01-12,Friendly,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1429,1627,1432,1624,3
-2021-03-29,Friendly,played,United Arab Emirates,ARE,India,,TRUE,6,0,win,Dubai,United Arab Emirates,FALSE,1432,1200,1437,1195,5
-2021-05-24,Friendly,played,United Arab Emirates,ARE,Jordan,,TRUE,5,1,win,Dubai,United Arab Emirates,FALSE,1437,1492,1453,1476,16
-2021-06-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,Malaysia,,TRUE,4,0,win,Dubai,United Arab Emirates,FALSE,1453,1194,1461,1186,8
-2021-06-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,Thailand,,TRUE,3,1,win,Dubai,United Arab Emirates,FALSE,1461,1331,1474,1318,13
-2021-06-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,Indonesia,IDN,TRUE,5,0,win,Dubai,United Arab Emirates,FALSE,1474,1108,1479,1103,5
-2021-06-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,Vietnam,,TRUE,3,2,win,Dubai,United Arab Emirates,FALSE,1479,1434,1491,1422,12
-2021-09-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,Lebanon,,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1491,1364,1480,1375,-11
-2021-09-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,Syria,,FALSE,1,1,draw,Amman,Jordan,TRUE,1480,1444,1478,1446,-2
-2021-10-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,TRUE,0,1,loss,Dubai,United Arab Emirates,FALSE,1478,1826,1470,1834,-8
-2021-10-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,2,2,draw,Dubai,United Arab Emirates,FALSE,1470,1603,1472,1601,2
-2021-11-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,FALSE,0,1,loss,Goyang,South Korea,FALSE,1472,1766,1468,1770,-4
-2021-11-16,FIFA World Cup qualification,played,United Arab Emirates,ARE,Lebanon,,FALSE,1,0,win,Sidon,Lebanon,FALSE,1468,1402,1490,1380,22
-2021-11-30,Arab Cup,played,United Arab Emirates,ARE,Syria,,TRUE,2,1,win,Doha,Qatar,TRUE,1490,1424,1506,1408,16
-2021-12-03,Arab Cup,played,United Arab Emirates,ARE,Mauritania,,FALSE,1,0,win,Doha,Qatar,TRUE,1506,1328,1517,1317,11
-2021-12-06,Arab Cup,played,United Arab Emirates,ARE,Tunisia,TUN,FALSE,0,1,loss,Doha,Qatar,TRUE,1517,1606,1502,1621,-15
-2021-12-10,Arab Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,0,5,loss,Al Khor,Qatar,FALSE,1502,1677,1488,1691,-14
-2022-01-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,Syria,,TRUE,2,0,win,Dubai,United Arab Emirates,FALSE,1488,1428,1505,1411,17
-2022-02-01,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,1,loss,Tehran,Iran,FALSE,1505,1841,1502,1844,-3
-2022-03-24,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,0,1,loss,Riyadh,Saudi Arabia,TRUE,1502,1554,1485,1571,-17
-2022-03-29,FIFA World Cup qualification,played,United Arab Emirates,ARE,South Korea,KOR,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1485,1833,1517,1801,32
-2022-05-29,Friendly,played,United Arab Emirates,ARE,Gambia,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1517,1435,1512,1440,-5
-2022-06-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,Australia,AUS,TRUE,1,2,loss,Al Rayyan,Qatar,TRUE,1512,1685,1501,1696,-11
-2022-09-23,Friendly,played,United Arab Emirates,ARE,Paraguay,PRY,FALSE,0,1,loss,Wiener Neustadt,Austria,TRUE,1501,1736,1497,1740,-4
-2022-09-27,Friendly,played,United Arab Emirates,ARE,Venezuela,,TRUE,0,4,loss,Wiener Neustadt,Austria,TRUE,1497,1672,1487,1682,-10
-2022-11-16,Friendly,played,United Arab Emirates,ARE,Argentina,ARG,TRUE,0,5,loss,Abu Dhabi,United Arab Emirates,FALSE,1487,2141,1485,2143,-2
-2022-11-19,Friendly,played,United Arab Emirates,ARE,Kazakhstan,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1485,1396,1490,1391,5
-2022-12-30,Friendly,played,United Arab Emirates,ARE,Lebanon,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1490,1320,1493,1317,3
-2023-01-07,Gulf Cup,played,United Arab Emirates,ARE,Bahrain,,FALSE,1,2,loss,Basra,Iraq,TRUE,1493,1494,1473,1514,-20
-2023-01-10,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,0,1,loss,Basra,Iraq,TRUE,1473,1304,1444,1333,-29
-2023-01-13,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,1,draw,Basra,Iraq,TRUE,1444,1564,1451,1557,7
-2023-03-25,Friendly,played,United Arab Emirates,ARE,Tajikistan,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1451,1328,1445,1334,-6
-2023-03-28,Friendly,played,United Arab Emirates,ARE,Thailand,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1445,1388,1454,1379,9
-2023-09-12,Friendly,played,United Arab Emirates,ARE,Costa Rica,CRI,TRUE,4,1,win,Zagreb,Croatia,TRUE,1454,1649,1480,1623,26
-2023-10-17,Friendly,played,United Arab Emirates,ARE,Lebanon,,TRUE,2,1,win,Dubai,United Arab Emirates,FALSE,1485,1311,1488,1308,3
-2023-10-23,Friendly,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,,,,,
-2023-11-16,FIFA World Cup qualification,played,United Arab Emirates,ARE,Nepal,,TRUE,4,0,win,Dubai,United Arab Emirates,FALSE,1488,930,1490,928,2
-2023-11-21,FIFA World Cup qualification,played,United Arab Emirates,ARE,Bahrain,,FALSE,2,0,win,Riffa,Bahrain,FALSE,1490,1487,1528,1449,38
-2024-01-06,Friendly,played,United Arab Emirates,ARE,Oman,,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1530,1557,1518,1569,-12
-2024-01-14,AFC Asian Cup,played,United Arab Emirates,ARE,Hong Kong,,TRUE,3,1,win,Al Rayyan,Qatar,TRUE,1518,1080,1524,1074,6
-2024-01-18,AFC Asian Cup,played,United Arab Emirates,ARE,Palestine,,FALSE,1,1,draw,Al Wakrah,Qatar,TRUE,1524,1403,1516,1411,-8
-2024-01-23,AFC Asian Cup,played,United Arab Emirates,ARE,Iran,IRN,FALSE,1,2,loss,Al Rayyan,Qatar,TRUE,1516,1838,1509,1845,-7
-2024-01-28,AFC Asian Cup,played,United Arab Emirates,ARE,Tajikistan,,FALSE,1,1,draw,Al Rayyan,Qatar,TRUE,1509,1393,1501,1401,-8
-2024-03-21,FIFA World Cup qualification,played,United Arab Emirates,ARE,Yemen,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1501,1104,1503,1102,2
-2024-03-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,Yemen,,FALSE,3,0,win,Khobar,Saudi Arabia,TRUE,1503,1102,1509,1096,6
-2024-06-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,Nepal,,FALSE,4,0,win,Dammam,Saudi Arabia,TRUE,1509,896,1511,894,2
-2024-06-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,Bahrain,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1511,1446,1502,1455,-9
-2024-09-05,FIFA World Cup qualification,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,3,1,win,Al Rayyan,Qatar,FALSE,1502,1631,1549,1584,47
-2024-09-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,TRUE,0,1,loss,Al Ain,United Arab Emirates,FALSE,1549,1809,1538,1820,-11
-2024-10-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,North Korea,PRK,TRUE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1538,1407,1526,1419,-12
-2024-10-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,FALSE,0,1,loss,Tashkent,Uzbekistan,FALSE,1526,1693,1519,1700,-7
-2024-11-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kyrgyzstan,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1519,1293,1528,1284,9
-2024-11-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,Qatar,QAT,TRUE,5,0,win,Abu Dhabi,United Arab Emirates,FALSE,1528,1587,1563,1552,35
-2024-12-21,Gulf Cup,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,1,draw,Sulaibikhat,Kuwait,TRUE,1563,1552,1562,1553,-1
-2024-12-24,Gulf Cup,played,United Arab Emirates,ARE,Kuwait,KWT,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1562,1319,1534,1347,-28
-2024-12-27,Gulf Cup,played,United Arab Emirates,ARE,Oman,,TRUE,1,1,draw,Sulaibikhat,Kuwait,TRUE,1534,1511,1533,1512,-1
-2025-03-20,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iran,IRN,FALSE,0,2,loss,Tehran,Iran,FALSE,1533,1838,1528,1843,-5
-2025-03-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,North Korea,PRK,FALSE,2,1,win,Riyadh,Saudi Arabia,TRUE,1528,1394,1541,1381,13
-2025-06-05,FIFA World Cup qualification,played,United Arab Emirates,ARE,Uzbekistan,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1541,1697,1544,1694,3
-2025-06-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,Kyrgyzstan,,FALSE,1,1,draw,Bishkek,Kyrgyzstan,FALSE,1544,1325,1537,1332,-7
-2025-09-04,Friendly,played,United Arab Emirates,ARE,Syria,,TRUE,3,1,win,Dubai,United Arab Emirates,FALSE,1537,1443,1544,1436,7
-2025-09-08,Friendly,played,United Arab Emirates,ARE,Bahrain,,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1544,1453,1549,1448,5
-2025-10-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,Oman,,TRUE,2,1,win,Al Rayyan,Qatar,TRUE,1549,1521,1567,1503,18
-2025-10-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,Qatar,QAT,FALSE,1,2,loss,Al Rayyan,Qatar,FALSE,1567,1483,1548,1502,-19
-2025-11-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iraq,IRQ,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1548,1580,1544,1584,-4
-2025-11-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,Iraq,IRQ,FALSE,1,2,loss,Basra,Iraq,FALSE,1544,1584,1532,1596,-12
-2025-12-03,Arab Cup,played,United Arab Emirates,ARE,Jordan,,FALSE,1,2,loss,Al Khor,Qatar,TRUE,1532,1609,1516,1625,-16
-2025-12-06,Arab Cup,played,United Arab Emirates,ARE,Egypt,EGY,TRUE,1,1,draw,Lusail,Qatar,TRUE,1516,1630,1522,1624,6
-2025-12-09,Arab Cup,played,United Arab Emirates,ARE,Kuwait,KWT,TRUE,3,1,win,Doha,Qatar,TRUE,1522,1344,1538,1328,16
-2025-12-12,Arab Cup,played,United Arab Emirates,ARE,Algeria,DZA,FALSE,1,1,draw,Al Khor,Qatar,TRUE,1538,1735,1548,1725,10
-2025-12-15,Arab Cup,played,United Arab Emirates,ARE,Morocco,MAR,FALSE,0,3,loss,Al Rayyan,Qatar,TRUE,1548,1831,1537,1842,-11
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1972-03-17,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1100,1033,1116,1017,16
+,,,1972-03-19,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,4,loss,Riyadh,Saudi Arabia,FALSE,1116,1287,1103,1300,-13
+,,,1972-03-22,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,7,loss,Riyadh,Saudi Arabia,TRUE,1103,1365,1087,1381,-16
+,,,1972-03-25,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1087,1163,1063,1187,-24
+,,,1973-08-11,Palestine Cup,played,United Arab Emirates,ARE,ARE,AFC,Libya,,,,FALSE,2,2,draw,Benghazi,Libya,FALSE,1063,1432,1080,1415,17
+,,,1973-08-13,Palestine Cup,played,United Arab Emirates,ARE,ARE,AFC,Algeria,DZA,DZA,CAF,FALSE,0,2,loss,Benghazi,Libya,TRUE,1080,1531,1076,1535,-4
+,,,1973-08-16,Palestine Cup,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,FALSE,1,1,draw,Benghazi,Libya,TRUE,,,,,
+,,,1973-08-20,Palestine Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,3,loss,Benghazi,Libya,TRUE,1065,1598,1062,1601,-3
+,,,1974-03-15,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,2,loss,Kuwait City,Kuwait,FALSE,1062,1438,1058,1442,-4
+,,,1974-03-18,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,4,0,win,Kuwait City,Kuwait,TRUE,1058,1188,1109,1137,51
+,,,1974-03-23,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,2,loss,Kuwait City,Kuwait,TRUE,1109,1346,1097,1358,-12
+,,,1974-03-26,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,6,loss,Kuwait City,Kuwait,FALSE,1097,1446,1091,1452,-6
+,,,1974-03-28,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,1,draw,Kuwait City,Kuwait,TRUE,1091,984,1085,990,-6
+,,,1975-12-19,Palestine Cup,played,United Arab Emirates,ARE,ARE,AFC,Tunisia,TUN,TUN,CAF,FALSE,0,3,loss,Tunis,Tunisia,FALSE,1085,1601,1083,1603,-2
+,,,1975-12-21,Palestine Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,5,loss,Tunis,Tunisia,TRUE,1083,1547,1078,1552,-5
+,,,1976-03-27,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,2,3,loss,Doha,Qatar,TRUE,1078,1077,1058,1097,-20
+,,,1976-03-29,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,2,loss,Doha,Qatar,TRUE,1058,1293,1046,1305,-12
+,,,1976-04-01,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,3,loss,Doha,Qatar,FALSE,1046,1047,1024,1069,-22
+,,,1976-04-03,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Doha,Qatar,TRUE,1024,1590,1043,1571,19
+,,,1976-04-06,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,4,loss,Doha,Qatar,TRUE,1043,1587,1040,1590,-3
+,,,1976-04-10,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,1,draw,Doha,Qatar,TRUE,1040,819,1029,830,-11
+,,,1979-03-24,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,2,loss,Baghdad,Iraq,TRUE,1029,1365,1024,1370,-5
+,,,1979-03-27,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,0,3,loss,Baghdad,Iraq,TRUE,,,,,
+,,,1979-03-29,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,0,1,loss,Baghdad,Iraq,TRUE,,,,,
+,,,1979-04-01,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,7,loss,Baghdad,Iraq,TRUE,,,,,
+,,,1979-04-04,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,5,loss,Baghdad,Iraq,FALSE,,,,,
+,,,1979-04-09,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,4,0,win,Baghdad,Iraq,TRUE,983,812,1003,792,20
+,,,1979-10-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1003,1230,1007,1226,4
+,,,1980-08-05,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,2,loss,Al Ain,United Arab Emirates,FALSE,,,,,
+,,,1980-08-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,3,loss,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,1980-09-15,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,1,draw,Kuwait City,Kuwait,FALSE,1045,1724,1069,1700,24
+,,,1980-09-17,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,2,loss,Kuwait City,Kuwait,TRUE,1069,1150,1050,1169,-19
+,,,1980-09-20,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,TRUE,0,2,loss,Kuwait City,Kuwait,TRUE,1050,1485,1044,1491,-6
+,,,1980-09-24,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,1,4,loss,Kuwait City,Kuwait,TRUE,1044,1799,1043,1800,-1
+,,,1981-09-02,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,5,loss,Kuala Lumpur,Malaysia,TRUE,1043,1221,1029,1235,-14
+,,,1981-09-05,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,India,,,,FALSE,0,2,loss,Kuala Lumpur,Malaysia,TRUE,1029,1217,1018,1228,-11
+,,,1981-09-08,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,2,3,loss,Kuala Lumpur,Malaysia,TRUE,1018,1499,1016,1501,-2
+,,,1981-09-10,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,New Zealand,NZL,NZL,OFC,FALSE,1,0,win,Kuala Lumpur,Malaysia,TRUE,1016,1556,1045,1527,29
+,,,1981-09-12,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,FALSE,1,0,win,Kuala Lumpur,Malaysia,FALSE,1045,1359,1072,1332,27
+,,,1981-10-26,Friendly,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1072,1250,1090,1232,18
+,,,1981-10-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,3,1,win,Sharjah,United Arab Emirates,FALSE,1090,1232,1107,1215,17
+,,,1981-12-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Tunisia,TUN,TUN,CAF,TRUE,1,4,loss,Al Ain,United Arab Emirates,FALSE,1106,1651,1103,1654,-3
+,,,1982-03-01,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Honduras,HND,HND,CONCACAF,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1103,1620,1101,1622,-2
+,,,1982-03-03,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Honduras,HND,HND,CONCACAF,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1101,1622,1109,1614,8
+,,,1982-03-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Singapore,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1109,1243,1128,1224,19
+,,,1982-03-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Singapore,,,,TRUE,5,3,win,Abu Dhabi,United Arab Emirates,FALSE,1128,1224,1143,1209,15
+,,,1982-03-19,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1143,1235,1163,1215,20
+,,,1982-03-21,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1163,1406,1191,1378,28
+,,,1982-03-24,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1191,1658,1185,1664,-6
+,,,1982-03-27,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,2,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1185,1185,1159,1211,-26
+,,,1982-04-02,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1156,829,1161,824,5
+,,,1982-08-07,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,FALSE,0,1,loss,Kuala Lumpur,Malaysia,FALSE,1161,1263,1154,1270,-7
+,,,1982-08-09,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,Senegal,SEN,SEN,CAF,FALSE,1,3,loss,Kuala Lumpur,Malaysia,TRUE,1154,1567,1150,1571,-4
+,,,1982-08-12,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,2,3,loss,Kuala Lumpur,Malaysia,TRUE,1150,1663,1149,1664,-1
+,,,1982-08-14,Merdeka Tournament,played,United Arab Emirates,ARE,ARE,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,1,win,Kuala Lumpur,Malaysia,TRUE,1149,1303,1170,1282,21
+,,,1984-03-10,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,0,win,Muscat,Oman,TRUE,1190,1619,1245,1564,55
+,,,1984-03-13,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,0,win,Muscat,Oman,TRUE,1245,1360,1271,1334,26
+,,,1984-03-15,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,0,draw,Muscat,Oman,TRUE,1271,1688,1288,1671,17
+,,,1984-03-18,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,1,1,draw,Muscat,Oman,TRUE,1288,1266,1287,1267,-1
+,,,1984-03-21,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,1,draw,Muscat,Oman,FALSE,1287,813,1271,829,-16
+,,,1984-03-23,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,2,loss,Muscat,Oman,TRUE,1271,1478,1257,1492,-14
+,,,1984-10-22,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1257,1528,1253,1532,-4
+,,,1984-10-24,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,8,0,win,Jeddah,Saudi Arabia,TRUE,1253,852,1262,843,9
+,,,1984-10-26,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Nepal,,,,TRUE,11,0,win,Jeddah,Saudi Arabia,TRUE,1262,872,1273,861,11
+,,,1984-10-28,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Sri Lanka,,,,TRUE,5,1,win,Jeddah,Saudi Arabia,TRUE,1273,948,1283,938,10
+,,,1984-11-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1283,1319,1291,1311,8
+,,,1984-12-01,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,3,loss,Kallang,Singapore,TRUE,1291,1731,1285,1737,-6
+,,,1984-12-04,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,2,0,win,Kallang,Singapore,TRUE,1285,1231,1317,1199,32
+,,,1984-12-08,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Singapore,,,,FALSE,1,0,win,Kallang,Singapore,FALSE,1317,1257,1345,1229,28
+,,,1984-12-11,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,0,5,loss,Kallang,Singapore,TRUE,,,,,
+,,,1985-04-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,FALSE,1,2,loss,Manama,Bahrain,TRUE,1309,1368,1301,1376,-8
+,,,1985-04-05,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,2,3,loss,Manama,Bahrain,FALSE,1301,1337,1295,1343,-6
+,,,1985-04-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,FALSE,4,0,win,Manama,Bahrain,TRUE,1295,1376,1318,1353,23
+,,,1985-04-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Riyadh,Saudi Arabia,FALSE,1318,1627,1335,1610,17
+,,,1985-04-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1335,1610,1364,1581,29
+,,,1985-09-20,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,3,loss,Dubai,United Arab Emirates,FALSE,1349,1694,1341,1702,-8
+,,,1985-09-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,2,1,win,Taif,Saudi Arabia,TRUE,1341,1702,1377,1666,36
+,,,1986-03-24,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,2,draw,Riffa,Bahrain,TRUE,1384,1660,1397,1647,13
+,,,1986-03-28,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,1,loss,Manama,Bahrain,TRUE,1397,1545,1385,1557,-12
+,,,1986-03-30,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,0,win,Riffa,Bahrain,TRUE,1385,896,1387,894,2
+,,,1986-04-02,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,0,win,Riffa,Bahrain,TRUE,1387,1557,1431,1513,44
+,,,1986-04-05,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,3,1,win,Riffa,Bahrain,FALSE,1431,1357,1463,1325,32
+,,,1986-04-07,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,2,3,loss,Riffa,Bahrain,TRUE,1463,1468,1443,1488,-20
+,,,1986-09-21,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Pakistan,,,,TRUE,1,0,win,Daegu,South Korea,TRUE,1443,1105,1448,1100,5
+,,,1986-09-23,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,2,1,win,Daegu,South Korea,TRUE,1448,1235,1457,1226,9
+,,,1986-09-25,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,1,win,Daegu,South Korea,TRUE,1457,1567,1483,1541,26
+,,,1986-09-29,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,0,0,draw,Daegu,South Korea,TRUE,1483,996,1465,1014,-18
+,,,1986-10-01,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Indonesia,IDN,IDN,AFC,TRUE,2,2,draw,Seoul,South Korea,TRUE,1465,1194,1452,1207,-13
+,,,1987-03-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1452,1353,1447,1358,-5
+,,,1987-03-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1447,1358,1452,1353,5
+,,,1988-01-15,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,FALSE,1,0,win,Manama,Bahrain,TRUE,1422,1178,1426,1174,4
+,,,1988-01-18,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,FALSE,0,2,loss,Manama,Bahrain,TRUE,1426,1174,1402,1198,-24
+,,,1988-01-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,0,3,loss,Doha,Qatar,TRUE,1402,1774,1396,1780,-6
+,,,1988-01-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1391,1488,1391,1488,0
+,,,1988-01-30,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1391,1488,1406,1473,15
+,,,1988-02-04,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1406,1278,1421,1263,15
+,,,1988-02-07,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,1988-02-10,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,1988-02-13,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1426,1133,1433,1126,7
+,,,1988-02-17,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bangladesh,,,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1433,1045,1437,1041,4
+,,,1988-02-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,1,2,loss,Dubai,United Arab Emirates,FALSE,1437,1676,1431,1682,-6
+,,,1988-02-26,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1431,1682,1435,1678,4
+,,,1988-03-03,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,2,0,win,Riyadh,Saudi Arabia,TRUE,1435,1266,1451,1250,16
+,,,1988-03-05,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,0,win,Riyadh,Saudi Arabia,TRUE,1451,1592,1479,1564,28
+,,,1988-03-08,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1479,1458,1458,1479,-21
+,,,1988-03-10,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1458,1657,1468,1647,10
+,,,1988-03-13,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,2,draw,Riyadh,Saudi Arabia,FALSE,1468,1524,1476,1516,8
+,,,1988-03-17,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1476,1081,1480,1077,4
+,,,1988-11-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,2,1,win,Sharjah,United Arab Emirates,FALSE,1480,1297,1483,1294,3
+,,,1988-11-20,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,3,2,win,Dubai,United Arab Emirates,FALSE,1483,1294,1486,1291,3
+,,,1988-11-24,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Algeria,DZA,DZA,CAF,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1486,1592,1486,1592,0
+,,,1988-12-03,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Doha,Qatar,TRUE,1501,1620,1484,1637,-17
+,,,1988-12-05,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,2,loss,Doha,Qatar,FALSE,1484,1411,1461,1434,-23
+,,,1988-12-08,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Doha,Qatar,TRUE,1461,1669,1449,1681,-12
+,,,1988-12-10,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,TRUE,1,0,win,Doha,Qatar,TRUE,1449,1425,1472,1402,23
+,,,1989-01-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,3,loss,Kuwait City,Kuwait,FALSE,1467,1481,1453,1495,-14
+,,,1989-01-20,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Pakistan,,,,TRUE,5,0,win,Sharjah,United Arab Emirates,FALSE,1453,1009,1456,1006,3
+,,,1989-02-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Sharjah,United Arab Emirates,FALSE,1456,1497,1473,1480,17
+,,,1989-02-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Pakistan,,,,FALSE,4,1,win,Islamabad,Pakistan,FALSE,1473,1004,1480,997,7
+,,,1989-10-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,0,0,draw,Singapore,Singapore,TRUE,1480,1562,1485,1557,5
+,,,1989-10-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,2,1,win,Singapore,Singapore,TRUE,,,,,
+,,,1989-10-21,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Singapore,Singapore,TRUE,1511,1561,1514,1558,3
+,,,1989-10-24,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,1,1,draw,Singapore,Singapore,TRUE,1514,1456,1511,1459,-3
+,,,1989-10-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1511,1753,1523,1741,12
+,,,1990-01-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,1990-01-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,1990-02-05,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Denmark,DNK,DNK,UEFA,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1527,1905,1534,1898,7
+,,,1990-02-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Finland,,,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1534,1608,1533,1609,-1
+,,,1990-02-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Sweden,SWE,SWE,UEFA,TRUE,2,1,win,Dubai,United Arab Emirates,FALSE,1533,1959,1550,1942,17
+,,,1990-02-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Sweden,SWE,SWE,UEFA,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1550,1942,1545,1947,-5
+,,,1990-02-22,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,1,draw,Kuwait City,Kuwait,TRUE,1545,1056,1527,1074,-18
+,,,1990-02-27,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1527,1479,1524,1482,-3
+,,,1990-03-05,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,0,1,loss,Kuwait City,Kuwait,TRUE,1531,1351,1501,1381,-30
+,,,1990-03-09,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,6,loss,Kuwait City,Kuwait,FALSE,1501,1506,1473,1534,-28
+,,,1990-05-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Poland,POL,POL,UEFA,FALSE,0,4,loss,Marseille,France,TRUE,1466,1782,1461,1787,-5
+,,,1990-05-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Hungary,HUN,HUN,UEFA,FALSE,0,3,loss,Nîmes,France,TRUE,1461,1717,1454,1724,-7
+WC-1990,WC-1990_004,4,1990-06-09,FIFA World Cup,played,United Arab Emirates,ARE,ARE,AFC,Colombia,COL,COL,CONMEBOL,TRUE,0,2,loss,Bologna,Italy,TRUE,1454,1801,1443,1812,-11
+WC-1990,WC-1990_018,18,1990-06-15,FIFA World Cup,played,United Arab Emirates,ARE,ARE,AFC,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Milan,Italy,TRUE,,,,,
+WC-1990,WC-1990_030,30,1990-06-19,FIFA World Cup,played,United Arab Emirates,ARE,ARE,AFC,Yugoslavia,YUG,YUG,UEFA,FALSE,1,4,loss,Bologna,Italy,TRUE,1439,1881,1431,1889,-8
+,,,1992-03-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iceland,ISL,ISL,UEFA,TRUE,0,1,loss,Dubai,United Arab Emirates,FALSE,1425,1574,1416,1583,-9
+,,,1992-05-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1416,1468,1425,1459,9
+,,,1992-05-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,2,0,win,Al Ain,United Arab Emirates,FALSE,1425,1490,1438,1477,13
+,,,1992-05-20,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,0,0,draw,Sharjah,United Arab Emirates,FALSE,1438,1477,1436,1479,-2
+,,,1992-10-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Anyang,South Korea,FALSE,1469,1673,1476,1666,7
+,,,1992-10-30,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,0,0,draw,Onomichi,Japan,FALSE,1483,1458,1488,1453,5
+,,,1992-11-01,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,0,draw,Hiroshima,Japan,TRUE,1488,1665,1500,1653,12
+,,,1992-11-03,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,2,1,win,Hiroshima,Japan,TRUE,1500,1493,1524,1469,24
+,,,1992-11-06,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,2,loss,Hiroshima,Japan,TRUE,1524,1626,1497,1653,-27
+,,,1992-11-08,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,1,1,draw,Hiroshima,Japan,TRUE,,,,,
+,,,1992-11-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Senegal,SEN,SEN,CAF,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1494,1520,1492,1522,-2
+,,,1992-11-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Senegal,SEN,SEN,CAF,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1492,1522,1490,1524,-2
+,,,1992-11-24,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Algeria,DZA,DZA,CAF,FALSE,0,0,draw,Manama,Bahrain,TRUE,1490,1641,1494,1637,4
+,,,1992-11-28,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,2,loss,Doha,Qatar,TRUE,1494,1507,1465,1536,-29
+,,,1992-12-01,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,Doha,Qatar,TRUE,1465,1591,1492,1564,27
+,,,1992-12-04,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,2,0,win,Doha,Qatar,TRUE,1492,1371,1512,1351,20
+,,,1992-12-06,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,0,1,loss,Doha,Qatar,FALSE,1512,1501,1497,1516,-15
+,,,1992-12-09,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,0,win,Doha,Qatar,TRUE,1497,1066,1500,1063,3
+,,,1993-02-18,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1500,1779,1515,1764,15
+,,,1993-02-20,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bulgaria,BGR,BGR,UEFA,TRUE,1,3,loss,Dubai,United Arab Emirates,FALSE,1515,1764,1506,1773,-9
+,,,1993-04-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,FALSE,1,0,win,Kuala Lumpur,Malaysia,FALSE,1514,1284,1520,1278,6
+,,,1993-04-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Sri Lanka,,,,FALSE,4,0,win,Kyoto,Japan,TRUE,1520,858,1522,856,2
+,,,1993-04-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,1,0,win,Tokyo,Japan,TRUE,1522,1339,1532,1329,10
+,,,1993-04-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bangladesh,,,,TRUE,1,0,win,Yokohama,Japan,TRUE,1532,1075,1535,1072,3
+,,,1993-04-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,0,2,loss,Tokyo,Japan,FALSE,1535,1553,1515,1573,-20
+,,,1993-04-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Sri Lanka,,,,TRUE,3,0,win,Al Ain,United Arab Emirates,FALSE,1515,844,1516,843,1
+,,,1993-04-30,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,2,1,win,Al Ain,United Arab Emirates,FALSE,1516,1334,1523,1327,7
+,,,1993-05-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bangladesh,,,,TRUE,7,0,win,Al Ain,United Arab Emirates,FALSE,1523,1056,1526,1053,3
+,,,1993-05-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,TRUE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1526,1585,1524,1587,-2
+,,,1993-10-26,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,2,1,win,Al Ain,United Arab Emirates,FALSE,1524,1343,1527,1340,3
+,,,1993-10-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,0,2,loss,Al Ain,United Arab Emirates,FALSE,1527,1340,1502,1365,-25
+,,,1994-02-02,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Slovakia,SVK,SVK,UEFA,TRUE,0,1,loss,Sharjah,United Arab Emirates,FALSE,1502,1663,1490,1675,-12
+,,,1994-02-04,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Morocco,MAR,MAR,CAF,TRUE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1490,1662,1493,1659,3
+,,,1994-02-06,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,0,1,loss,Dubai,United Arab Emirates,FALSE,1493,1661,1481,1673,-12
+,,,1994-04-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1481,2020,1479,2022,-2
+,,,1994-08-26,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Ukraine,UKR,UKR,UEFA,FALSE,1,1,draw,Grassau,Austria,TRUE,1479,1645,1483,1641,4
+,,,1994-08-30,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iceland,ISL,ISL,UEFA,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1483,1591,1478,1596,-5
+,,,1994-09-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Switzerland,CHE,CHE,UEFA,FALSE,0,1,loss,Sion,Switzerland,FALSE,1478,1818,1477,1819,-1
+,,,1994-09-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Seoul,South Korea,FALSE,1477,1688,1484,1681,7
+,,,1994-10-03,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,1,1,draw,Miyoshi,Japan,FALSE,1484,1650,1497,1637,13
+,,,1994-10-05,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Myanmar,,,,FALSE,2,0,win,Hiroshima,Japan,TRUE,1497,1203,1506,1194,9
+,,,1994-10-09,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,2,2,draw,Onomichi,Japan,TRUE,1506,1434,1502,1438,-4
+,,,1994-10-11,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,2,loss,Hiroshima,Japan,TRUE,1502,1542,1484,1560,-18
+,,,1994-10-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Senegal,SEN,SEN,CAF,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1484,1392,1489,1387,5
+,,,1994-11-03,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1489,1438,1507,1420,18
+,,,1994-11-06,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1507,1646,1509,1644,2
+,,,1994-11-09,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1509,1538,1533,1514,24
+,,,1994-11-12,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1533,1428,1522,1439,-11
+,,,1994-11-16,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1522,1298,1530,1290,8
+,,,1996-03-19,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,3,2,win,Dubai,United Arab Emirates,FALSE,1528,1613,1542,1599,14
+,,,1996-03-22,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1542,1588,1540,1590,-2
+,,,1996-03-26,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Morocco,MAR,MAR,CAF,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1540,1618,1554,1604,14
+,,,1996-05-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Slovenia,SVN,SVN,UEFA,FALSE,2,2,draw,Ljubljana,Slovenia,FALSE,1554,1592,1558,1588,4
+,,,1996-05-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Russia,RUS,RUS,UEFA,FALSE,0,1,loss,Moscow,Russia,FALSE,1558,1927,1557,1928,-1
+,,,1996-06-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bulgaria,BGR,BGR,UEFA,FALSE,1,4,loss,Sofia,Bulgaria,FALSE,1557,1832,1553,1836,-4
+,,,1996-08-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Hungary,HUN,HUN,UEFA,FALSE,1,3,loss,Siófok,Hungary,FALSE,1553,1577,1543,1587,-10
+,,,1996-08-20,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Belarus,,,,FALSE,1,0,win,Fürth,Germany,TRUE,1543,1451,1550,1444,7
+,,,1996-09-18,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Romania,ROU,ROU,UEFA,FALSE,2,1,win,Bucharest,Romania,FALSE,1550,1841,1568,1823,18
+,,,1996-09-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Poland,POL,POL,UEFA,FALSE,0,1,loss,Wodzisław Śląski,Poland,FALSE,1568,1649,1563,1654,-5
+,,,1996-10-16,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,0,1,loss,Muscat,Oman,TRUE,1563,1460,1537,1486,-26
+,,,1996-10-18,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,1,1,draw,Muscat,Oman,TRUE,1537,1407,1530,1414,-7
+,,,1996-10-22,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,1,win,Muscat,Oman,TRUE,1530,1545,1551,1524,21
+,,,1996-10-24,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,0,0,draw,Muscat,Oman,FALSE,1551,1246,1540,1257,-11
+,,,1996-10-27,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,2,draw,Muscat,Oman,TRUE,1540,1589,1543,1586,3
+,,,1996-11-15,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Malta,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1535,1299,1528,1306,-7
+,,,1996-11-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,4,2,win,Abu Dhabi,United Arab Emirates,FALSE,1528,1666,1545,1649,17
+,,,1996-11-22,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1545,1649,1560,1634,15
+,,,1996-11-26,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1560,1488,1555,1493,-5
+,,,1996-11-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1555,1493,1561,1487,6
+,,,1996-12-04,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1561,1641,1560,1642,-1
+,,,1996-12-07,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1560,1549,1577,1532,17
+,,,1996-12-10,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Indonesia,IDN,IDN,AFC,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1577,1242,1583,1236,6
+,,,1996-12-15,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1583,1673,1607,1649,24
+,,,1996-12-19,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,1996-12-21,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1627,1624,1620,1631,-7
+,,,1997-03-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1612,1404,1615,1401,3
+,,,1997-03-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Norway,NOR,NOR,UEFA,TRUE,1,4,loss,Sharjah,United Arab Emirates,FALSE,1615,1821,1603,1833,-12
+,,,1997-04-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,FALSE,0,0,draw,Manama,Bahrain,TRUE,1579,1337,1567,1349,-12
+,,,1997-04-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,2,1,win,Manama,Bahrain,FALSE,1567,1383,1582,1368,15
+,,,1997-04-22,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,3,0,win,Sharjah,United Arab Emirates,FALSE,1582,1341,1591,1332,9
+,,,1997-04-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,2,0,win,Sharjah,United Arab Emirates,FALSE,1591,1376,1599,1368,8
+,,,1997-09-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1539,1706,1557,1688,18
+,,,1997-09-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kazakhstan,,,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1557,1516,1580,1493,23
+,,,1997-09-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1580,1735,1583,1732,3
+,,,1997-09-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,FALSE,3,2,win,Tashkent,Uzbekistan,FALSE,1583,1577,1608,1552,25
+,,,1997-10-04,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Seoul,South Korea,FALSE,1608,1722,1592,1738,-16
+,,,1997-10-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kazakhstan,,,,FALSE,0,3,loss,Almaty,Kazakhstan,FALSE,1597,1506,1563,1540,-34
+,,,1997-10-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,1,1,draw,Tokyo,Japan,FALSE,1563,1695,1575,1683,12
+,,,1997-11-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1575,1554,1568,1561,-7
+,,,1997-11-09,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1568,1716,1542,1742,-26
+,,,1997-12-13,Confederations Cup,played,United Arab Emirates,ARE,ARE,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1542,1724,1523,1743,-19
+,,,1997-12-15,Confederations Cup,played,United Arab Emirates,ARE,ARE,AFC,South Africa,ZAF,ZAF,CAF,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1523,1728,1561,1690,38
+,,,1997-12-17,Confederations Cup,played,United Arab Emirates,ARE,ARE,AFC,Czechia,CZE,CZE,UEFA,TRUE,1,6,loss,Riyadh,Saudi Arabia,TRUE,1561,1843,1545,1859,-16
+,,,1998-09-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Libya,,,,TRUE,5,1,win,Abu Dhabi,United Arab Emirates,FALSE,1545,1388,1552,1381,7
+,,,1998-09-27,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Sudan,,,,TRUE,4,1,win,Doha,Qatar,TRUE,1544,1438,1569,1413,25
+,,,1998-09-29,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,2,loss,Doha,Qatar,FALSE,1569,1553,1554,1568,-15
+,,,1998-10-01,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,4,loss,Doha,Qatar,TRUE,1554,1628,1526,1656,-28
+,,,1998-10-17,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Sudan,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1526,1424,1533,1417,7
+,,,1998-10-19,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1533,1509,1543,1499,10
+,,,1998-10-21,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1543,1373,1548,1368,5
+,,,1998-10-30,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,1,0,win,Manama,Bahrain,FALSE,1548,1347,1562,1333,14
+,,,1998-11-03,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,3,2,win,Manama,Bahrain,TRUE,1562,1361,1572,1351,10
+,,,1998-11-05,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Manama,Bahrain,TRUE,1572,1479,1567,1484,-5
+,,,1998-11-08,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Manama,Bahrain,TRUE,1567,1724,1555,1736,-12
+,,,1998-11-12,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,4,loss,Manama,Bahrain,TRUE,1555,1683,1532,1706,-23
+,,,1998-11-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Singapore,,,,FALSE,4,0,win,Singapore,Singapore,FALSE,1532,1340,1546,1326,14
+,,,1998-12-02,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,3,3,draw,Songkhla,Thailand,TRUE,1546,1487,1543,1490,-3
+,,,1998-12-07,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,5,loss,Bangkok,Thailand,TRUE,1543,1697,1520,1720,-23
+,,,1998-12-09,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,2,loss,Bangkok,Thailand,TRUE,1520,1725,1511,1734,-9
+,,,1998-12-11,Asian Games,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,1,0,win,Bangkok,Thailand,TRUE,1511,1675,1540,1646,29
+,,,1999-10-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Tunisia,TUN,TUN,CAF,FALSE,0,1,loss,Tunis,Tunisia,FALSE,1504,1628,1500,1632,-4
+,,,1999-10-30,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Turkmenistan,,,,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1500,1463,1514,1449,14
+,,,1999-11-01,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Estonia,,,,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1514,1311,1503,1322,-11
+,,,1999-11-03,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1503,1637,1504,1636,1
+,,,1999-11-21,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1504,1132,1508,1128,4
+,,,1999-11-23,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bangladesh,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1508,1035,1510,1033,2
+,,,1999-11-27,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1510,1548,1486,1572,-24
+,,,1999-11-29,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Sri Lanka,,,,TRUE,6,0,win,Abu Dhabi,United Arab Emirates,FALSE,1486,825,1487,824,1
+,,,2000-02-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Slovenia,SVN,SVN,UEFA,TRUE,1,1,draw,Muscat,Oman,TRUE,1487,1612,1492,1607,5
+,,,2000-02-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,0,win,Muscat,Oman,FALSE,1492,1341,1505,1328,13
+,,,2000-02-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Muscat,Oman,TRUE,1505,1743,1529,1719,24
+,,,2000-08-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,1,3,loss,Hiroshima,Japan,FALSE,1529,1660,1523,1666,-6
+,,,2000-09-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,FALSE,1,0,win,Beirut,Lebanon,FALSE,1523,1442,1534,1431,11
+,,,2000-09-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,FALSE,2,2,draw,Beirut,Lebanon,FALSE,1534,1431,1534,1431,0
+,,,2000-09-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,6,loss,Abha,Saudi Arabia,FALSE,1534,1637,1525,1646,-9
+,,,2000-10-04,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1525,1756,1530,1751,5
+,,,2000-10-07,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1530,1635,1545,1620,15
+,,,2000-11-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Hong Kong,,,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1545,1209,1537,1217,-8
+,,,2001-01-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,FALSE,1,2,loss,Cairo,Egypt,FALSE,1546,1682,1542,1686,-4
+,,,2001-02-11,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,4,loss,Dubai,United Arab Emirates,FALSE,1542,1753,1524,1771,-18
+,,,2001-02-14,United Arab Emirates Friendship Tournament,played,United Arab Emirates,ARE,ARE,AFC,Morocco,MAR,MAR,CAF,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1524,1695,1527,1692,3
+,,,2001-03-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,2,loss,Muscat,Oman,FALSE,1527,1309,1514,1322,-13
+,,,2001-04-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,India,,,,FALSE,0,1,loss,Bangalore,India,FALSE,1515,1085,1480,1120,-35
+,,,2001-04-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Brunei,,,,FALSE,12,0,win,Bandar Seri Begawan,Brunei,FALSE,1480,745,1483,742,3
+,,,2001-04-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,1,0,win,Al Ain,United Arab Emirates,FALSE,1483,1118,1486,1115,3
+,,,2001-05-04,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Brunei,,,,TRUE,4,0,win,Al Ain,United Arab Emirates,FALSE,1486,740,1487,739,1
+,,,2001-05-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,FALSE,1,2,loss,Sana'a,Yemen,FALSE,1487,1186,1457,1216,-30
+,,,2001-05-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,3,2,win,Al Ain,United Arab Emirates,FALSE,1457,1216,1462,1211,5
+,,,2001-08-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1462,1591,1463,1590,1
+,,,2001-08-08,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,1,loss,Doha,Qatar,TRUE,1463,1684,1459,1688,-4
+,,,2001-08-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,4,1,win,Abu Dhabi,United Arab Emirates,FALSE,1459,1540,1492,1507,33
+,,,2001-08-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,0,3,loss,Shenyang,China PR,FALSE,,,,,
+,,,2001-08-31,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1481,1558,1449,1590,-32
+,,,2001-09-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,0,win,Dammam,Saudi Arabia,FALSE,1449,1670,1475,1644,26
+,,,2001-09-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,1,draw,Muscat,Oman,FALSE,1475,1376,1475,1376,0
+,,,2001-09-22,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1475,1532,1503,1504,28
+,,,2001-09-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,2001-10-04,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,2,1,win,Doha,Qatar,FALSE,1490,1600,1521,1569,31
+,,,2001-10-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1521,1379,1509,1391,-12
+,,,2001-10-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1509,1711,1503,1717,-6
+,,,2001-10-31,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1503,1717,1479,1741,-24
+,,,2002-01-17,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1479,1422,1496,1405,17
+,,,2002-01-20,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,0,2,loss,Riyadh,Saudi Arabia,TRUE,1496,1537,1470,1563,-26
+,,,2002-01-24,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Riyadh,Saudi Arabia,FALSE,1470,1690,1465,1695,-5
+,,,2002-01-27,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1465,1482,1446,1501,-19
+,,,2002-01-29,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,2,loss,Riyadh,Saudi Arabia,TRUE,1446,1513,1430,1529,-16
+,,,2002-09-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,2,loss,Muscat,Oman,FALSE,1430,1432,1423,1439,-7
+,,,2002-12-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1423,1599,1415,1607,-8
+,,,2003-01-26,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Norway,NOR,NOR,UEFA,TRUE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1415,1801,1422,1794,7
+,,,2003-10-11,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,2,2,draw,Dubai,United Arab Emirates,FALSE,1402,1499,1402,1499,0
+,,,2003-10-19,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Turkmenistan,,,,FALSE,0,1,loss,Ashgabat,Turkmenistan,FALSE,1402,1441,1390,1453,-12
+,,,2003-10-30,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Turkmenistan,,,,TRUE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1390,1453,1388,1455,-2
+,,,2003-11-07,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,FALSE,3,1,win,Damascus,Syria,FALSE,1388,1433,1430,1391,42
+,,,2003-11-14,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,3,1,win,Sharjah,United Arab Emirates,FALSE,1430,1391,1449,1372,19
+,,,2003-11-18,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Sri Lanka,,,,TRUE,3,1,win,Dubai,United Arab Emirates,FALSE,1449,938,1451,936,2
+,,,2003-11-22,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Sri Lanka,,,,TRUE,3,0,win,Dubai,United Arab Emirates,FALSE,1451,936,1453,934,2
+,,,2003-12-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Azerbaijan,,,,TRUE,3,3,draw,Dubai,United Arab Emirates,FALSE,1453,1347,1448,1352,-5
+,,,2003-12-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kenya,,,,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1448,1469,1446,1471,-2
+,,,2003-12-26,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,2,loss,Kuwait City,Kuwait,TRUE,1446,1656,1432,1670,-14
+,,,2003-12-29,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,2,0,win,Kuwait City,Kuwait,FALSE,1432,1566,1480,1518,48
+,,,2003-12-31,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,0,2,loss,Kuwait City,Kuwait,TRUE,1480,1535,1455,1560,-25
+,,,2004-01-03,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1455,1521,1459,1517,4
+,,,2004-01-07,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,1,3,loss,Kuwait City,Kuwait,TRUE,1459,1534,1435,1558,-24
+,,,2004-01-11,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,FALSE,3,0,win,Kuwait City,Kuwait,TRUE,1435,1162,1447,1150,12
+,,,2004-02-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,1,0,win,Al Ain,United Arab Emirates,FALSE,1447,1443,1461,1429,14
+,,,2004-03-31,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,FALSE,0,0,draw,Pyongyang,North Korea,FALSE,1461,1420,1464,1417,3
+,,,2004-05-31,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,2,3,loss,Dubai,United Arab Emirates,FALSE,1464,1555,1454,1565,-10
+,,,2004-06-09,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,3,0,win,Al Ain,United Arab Emirates,FALSE,1454,1136,1460,1130,6
+,,,2004-07-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,2,2,draw,Hohhot,China PR,FALSE,,,,,
+,,,2004-07-19,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,3,loss,Jinan,China PR,TRUE,1466,1451,1427,1490,-39
+,,,2004-07-23,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Jinan,China PR,TRUE,1427,1692,1414,1705,-13
+,,,2004-07-27,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,FALSE,0,0,draw,Beijing,China PR,TRUE,1414,1676,1430,1660,16
+,,,2004-09-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,FALSE,1,3,loss,Sana'a,Yemen,FALSE,1430,1142,1385,1187,-45
+,,,2004-10-08,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Singapore,,,,FALSE,2,1,win,Singapore,Singapore,FALSE,1385,1163,1392,1156,7
+,,,2004-10-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,FALSE,0,3,loss,Bangkok,Thailand,FALSE,1392,1327,1361,1358,-31
+,,,2004-11-11,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1361,1645,1389,1617,28
+,,,2004-11-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1389,1485,1409,1465,20
+,,,2004-11-22,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Belarus,,,,TRUE,2,3,loss,Dubai,United Arab Emirates,FALSE,1409,1608,1402,1615,-7
+,,,2004-11-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1402,1507,1392,1517,-10
+,,,2004-12-03,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1392,1517,1393,1516,1
+,,,2004-12-10,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,2,2,draw,Doha,Qatar,FALSE,1393,1497,1404,1486,11
+,,,2004-12-13,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,2,loss,Doha,Qatar,TRUE,1404,1614,1395,1623,-9
+,,,2004-12-16,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,1,draw,Al Rayyan,Qatar,TRUE,1395,1516,1402,1509,7
+,,,2005-02-09,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Switzerland,CHE,CHE,UEFA,TRUE,1,2,loss,Dubai,United Arab Emirates,FALSE,1402,1692,1397,1697,-5
+,,,2005-05-24,Kirin Cup,played,United Arab Emirates,ARE,ARE,AFC,Peru,PER,PER,CONMEBOL,FALSE,0,0,draw,Toyota,Japan,TRUE,1397,1699,1408,1688,11
+,,,2005-05-27,Kirin Cup,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,1,0,win,Tokyo,Japan,FALSE,1408,1813,1436,1785,28
+,,,2005-07-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,1,draw,Geneva,Switzerland,TRUE,,,,,
+,,,2005-07-30,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,FALSE,0,0,draw,Geneva,Switzerland,TRUE,,,,,
+,,,2005-09-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Benin,,,,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1448,1251,1441,1258,-7
+,,,2005-10-11,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,2,2,draw,Al Ain,United Arab Emirates,FALSE,1441,1617,1443,1615,2
+,,,2005-11-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Brazil,BRA,BRA,CONMEBOL,TRUE,0,8,loss,Abu Dhabi,United Arab Emirates,FALSE,1443,2024,1440,2027,-3
+,,,2005-11-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,FALSE,3,0,win,Damascus,Syria,FALSE,1440,1454,1463,1431,23
+,,,2005-12-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Libya,,,,TRUE,1,1,draw,Sharjah,United Arab Emirates,FALSE,1463,1479,1461,1481,-2
+,,,2006-01-18,Friendly,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1461,1687,1474,1674,13
+,,,2006-02-22,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1474,1575,1494,1555,20
+,,,2006-03-01,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Pakistan,,,,FALSE,4,1,win,Karachi,Pakistan,FALSE,1494,883,1498,879,4
+,,,2006-05-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,2,1,win,Dubai,United Arab Emirates,FALSE,1498,1506,1505,1499,7
+,,,2006-08-08,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1505,1753,1503,1755,-2
+,,,2006-08-16,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,FALSE,2,1,win,Amman,Jordan,FALSE,1503,1520,1529,1494,26
+,,,2006-08-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Jeddah,Saudi Arabia,FALSE,1529,1547,1522,1554,-7
+,,,2006-09-06,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,0,0,draw,Sharjah,United Arab Emirates,FALSE,1522,1513,1516,1519,-6
+,,,2006-10-11,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,2,loss,Muscat,Oman,FALSE,1516,1590,1505,1601,-11
+,,,2006-11-15,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Pakistan,,,,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1505,898,1506,897,1
+,,,2006-12-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Poland,POL,POL,UEFA,TRUE,2,5,loss,Abu Dhabi,United Arab Emirates,FALSE,1506,1769,1496,1779,-10
+,,,2006-12-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Slovakia,SVK,SVK,UEFA,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1496,1710,1489,1717,-7
+,,,2007-01-17,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1482,1565,1461,1586,-21
+,,,2007-01-20,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1461,1238,1466,1233,5
+,,,2007-01-23,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1466,1447,1479,1434,13
+,,,2007-01-27,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1479,1620,1501,1598,22
+,,,2007-01-30,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1501,1618,1522,1597,21
+,,,2007-06-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,FALSE,3,1,win,Petaling Jaya,Malaysia,FALSE,1522,1190,1528,1184,6
+,,,2007-06-24,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,2,loss,Singapore,Singapore,TRUE,1528,1582,1515,1595,-13
+,,,2007-06-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,2,2,draw,Petaling Jaya,Malaysia,TRUE,1515,1491,1514,1492,-1
+,,,2007-07-01,Friendly,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,1,0,win,Singapore,Singapore,TRUE,1514,1479,1523,1470,9
+,,,2007-07-08,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Vietnam,,,,FALSE,0,2,loss,Hanoi,Vietnam,FALSE,1523,1280,1471,1332,-52
+,,,2007-07-13,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,TRUE,1,3,loss,Hanoi,Vietnam,TRUE,1471,1729,1457,1743,-14
+,,,2007-07-16,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,2,1,win,Ho Chi Minh City,Vietnam,TRUE,1457,1500,1485,1472,28
+,,,2007-09-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Singapore,,,,FALSE,1,1,draw,Singapore,Singapore,FALSE,1485,1307,1483,1309,-2
+,,,2007-09-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1483,1326,1477,1332,-6
+,,,2007-10-03,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1477,1404,1478,1403,1
+,,,2007-10-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Vietnam,,,,FALSE,1,0,win,Hanoi,Vietnam,FALSE,1478,1313,1494,1297,16
+,,,2007-10-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Tunisia,TUN,TUN,CAF,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1494,1620,1485,1629,-9
+,,,2007-10-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Vietnam,,,,TRUE,5,0,win,Abu Dhabi,United Arab Emirates,FALSE,1485,1297,1498,1284,13
+,,,2007-11-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Benin,,,,FALSE,0,1,loss,Accra,Ghana,TRUE,1451,1363,1432,1382,-19
+,,,2007-11-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Togo,TGO,TGO,CAF,TRUE,0,5,loss,Accra,Ghana,TRUE,1471,1412,1436,1447,-35
+,,,2008-01-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,,,,,
+,,,2008-01-31,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1438,1640,1431,1647,-7
+,,,2008-02-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1431,1426,1452,1405,21
+,,,2008-03-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,1,draw,Muscat,Oman,FALSE,1452,1502,1456,1498,4
+,,,2008-03-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,FALSE,1,1,draw,Damascus,Syria,FALSE,1456,1534,1465,1525,9
+,,,2008-06-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Tehran,Iran,FALSE,1465,1738,1481,1722,16
+,,,2008-06-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,1,loss,Al Ain,United Arab Emirates,FALSE,1481,1722,1469,1734,-12
+,,,2008-06-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,3,2,win,Kuwait City,Kuwait,FALSE,1469,1447,1493,1423,24
+,,,2008-06-22,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,1,3,loss,Al Ain,United Arab Emirates,FALSE,1493,1492,1455,1530,-38
+,,,2008-08-20,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Algeria,DZA,DZA,CAF,FALSE,0,1,loss,Le Touquet-Paris-Plage,France,TRUE,1455,1406,1444,1417,-11
+,,,2008-08-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,2,3,loss,Abu Dhabi,United Arab Emirates,FALSE,1444,1543,1434,1553,-10
+,,,2008-09-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1434,1528,1414,1548,-20
+,,,2008-09-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1414,1687,1403,1698,-11
+,,,2008-10-09,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,1,1,draw,Niigata,Japan,FALSE,1403,1771,1412,1762,9
+,,,2008-10-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,1,4,loss,Seoul,South Korea,FALSE,1412,1679,1404,1687,-8
+,,,2008-11-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1404,1796,1418,1782,14
+,,,2008-12-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,2,draw,Al Ain,United Arab Emirates,FALSE,1418,1598,1420,1596,2
+,,,2008-12-30,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1420,1418,1417,1421,-3
+,,,2009-01-05,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,3,1,win,Muscat,Oman,TRUE,1417,1216,1431,1202,14
+,,,2009-01-08,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Muscat,Oman,TRUE,1431,1518,1436,1513,5
+,,,2009-01-11,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,3,loss,Muscat,Oman,TRUE,1436,1646,1420,1662,-16
+,,,2009-01-21,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,FALSE,5,0,win,Kuala Lumpur,Malaysia,FALSE,1420,1163,1443,1140,23
+,,,2009-01-28,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,0,1,loss,Sharjah,United Arab Emirates,FALSE,1443,1553,1424,1572,-19
+,,,2009-03-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,FALSE,0,2,loss,Pyongyang,North Korea,FALSE,1424,1521,1409,1536,-15
+,,,2009-04-01,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,3,loss,Riyadh,Saudi Arabia,FALSE,1409,1678,1405,1682,-4
+,,,2009-06-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Germany,GER,DEU,UEFA,TRUE,2,7,loss,Dubai,United Arab Emirates,FALSE,1405,1954,1402,1957,-3
+,,,2009-06-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1402,1730,1389,1743,-13
+,,,2009-06-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1389,1711,1386,1714,-3
+,,,2009-10-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Palestine,,,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1386,1203,1379,1210,-7
+,,,2009-10-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,3,1,win,Dubai,United Arab Emirates,FALSE,1379,1447,1393,1433,14
+,,,2009-11-15,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Czechia,CZE,CZE,UEFA,TRUE,0,0,draw,Al Ain,United Arab Emirates,FALSE,1393,1798,1404,1787,11
+,,,2009-11-18,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,1,loss,Al Ain,United Arab Emirates,FALSE,1404,1544,1391,1557,-13
+,,,2009-12-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1391,1476,1396,1471,5
+,,,2010-01-06,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1396,1173,1401,1168,5
+,,,2010-03-03,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1401,1546,1433,1514,32
+,,,2010-05-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Moldova,,,,FALSE,3,2,win,Anif,Austria,TRUE,1433,1449,1443,1439,10
+,,,2010-06-05,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Algeria,DZA,DZA,CAF,FALSE,0,1,loss,Fürth,Germany,TRUE,1443,1532,1436,1539,-7
+,,,2010-09-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1436,1531,1453,1514,17
+,,,2010-10-09,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Chile,CHL,CHL,CONMEBOL,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1453,1872,1449,1876,-4
+,,,2010-10-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Angola,AGO,AGO,CAF,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1449,1438,1429,1458,-20
+,,,2010-11-18,Friendly,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,5,0,win,Dubai,United Arab Emirates,FALSE,1429,1157,1433,1153,4
+,,,2010-11-23,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,0,draw,Aden,Yemen,TRUE,1433,1568,1440,1561,7
+,,,2010-11-26,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,0,0,draw,Aden,Yemen,TRUE,1440,1537,1445,1532,5
+,,,2010-11-29,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,3,1,win,Zinjibar,Yemen,TRUE,1445,1500,1480,1465,35
+,,,2010-12-02,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,1,loss,Aden,Yemen,TRUE,1480,1682,1470,1692,-10
+,,,2011-01-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,2,0,win,Al Ain,United Arab Emirates,FALSE,1470,1531,1483,1518,13
+,,,2011-01-05,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Australia,AUS,AUS,AFC,TRUE,0,0,draw,Al Ain,United Arab Emirates,FALSE,1483,1775,1488,1770,5
+,,,2011-01-11,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,FALSE,0,0,draw,Doha,Qatar,TRUE,1488,1536,1491,1533,3
+,,,2011-01-15,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,1,loss,Al Rayyan,Qatar,TRUE,1491,1563,1471,1583,-20
+,,,2011-01-19,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,3,loss,Doha,Qatar,TRUE,1471,1727,1455,1743,-16
+,,,2011-07-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,6,2,win,Al Ain,United Arab Emirates,FALSE,1455,1208,1459,1204,4
+,,,2011-07-23,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,3,0,win,Al Ain,United Arab Emirates,FALSE,1459,1197,1467,1189,8
+,,,2011-07-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,India,,,,FALSE,2,2,draw,New Delhi,India,FALSE,1467,1189,1458,1198,-9
+,,,2011-08-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,3,1,win,Al Ain,United Arab Emirates,FALSE,1458,1492,1470,1480,12
+,,,2011-09-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,3,loss,Al Ain,United Arab Emirates,FALSE,1470,1582,1451,1601,-19
+,,,2011-09-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,FALSE,1,3,loss,Beirut,Lebanon,FALSE,1451,1166,1406,1211,-45
+,,,2011-10-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,1,2,loss,Shenzhen,China PR,FALSE,,,,,
+,,,2011-10-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Suwon,South Korea,FALSE,1403,1793,1401,1795,-2
+,,,2011-11-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1401,1795,1392,1804,-9
+,,,2011-11-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1392,1540,1384,1548,-8
+,,,2012-01-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1384,1612,1398,1598,14
+,,,2012-02-24,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Palestine,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1398,1242,1405,1235,7
+,,,2012-02-29,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,4,2,win,Abu Dhabi,United Arab Emirates,FALSE,1405,1334,1421,1318,16
+,,,2012-09-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Niigata,Japan,FALSE,1421,1793,1420,1794,-1
+,,,2012-09-11,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,0,win,Dubai,United Arab Emirates,FALSE,1420,1545,1439,1526,19
+,,,2012-10-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,2,2,draw,Dubai,United Arab Emirates,FALSE,1439,1609,1441,1607,2
+,,,2012-10-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,6,2,win,Dubai,United Arab Emirates,FALSE,1441,1438,1454,1425,13
+,,,2012-11-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Estonia,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1454,1503,1463,1494,9
+,,,2012-12-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,2,0,win,Doha,Qatar,TRUE,1463,1279,1471,1271,8
+,,,2012-12-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,3,1,win,Doha,Qatar,TRUE,1471,1271,1478,1264,7
+,,,2013-01-05,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,3,1,win,Riffa,Bahrain,TRUE,1478,1476,1508,1446,30
+,,,2013-01-08,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,2,1,win,Riffa,Bahrain,FALSE,1508,1493,1533,1468,25
+,,,2013-01-11,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,2,0,win,Isa Town,Bahrain,TRUE,1533,1502,1560,1475,27
+,,,2013-01-15,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Riffa,Bahrain,TRUE,1560,1511,1577,1494,17
+,,,2013-01-18,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,1,win,Riffa,Bahrain,TRUE,1577,1630,1600,1607,23
+,,,2013-02-06,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Vietnam,,,,FALSE,2,1,win,Hanoi,Vietnam,FALSE,1590,1245,1598,1237,8
+,,,2013-03-22,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1598,1630,1614,1614,16
+,,,2013-09-05,OSN Cup,played,United Arab Emirates,ARE,ARE,AFC,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,3,3,draw,Riyadh,Saudi Arabia,TRUE,1614,1440,1607,1447,-7
+,,,2013-09-09,OSN Cup,played,United Arab Emirates,ARE,ARE,AFC,New Zealand,NZL,NZL,OFC,TRUE,2,0,win,Riyadh,Saudi Arabia,TRUE,1607,1602,1629,1580,22
+,,,2013-10-15,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Hong Kong,,,,FALSE,4,0,win,So Kon Po,Hong Kong,FALSE,1631,1200,1641,1190,10
+,,,2013-11-09,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Philippines,,,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1641,1201,1643,1199,2
+,,,2013-11-15,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Hong Kong,,,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1643,1190,1646,1187,3
+,,,2013-11-19,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Vietnam,,,,TRUE,5,0,win,Abu Dhabi,United Arab Emirates,FALSE,1646,1223,1650,1219,4
+,,,2014-03-05,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,FALSE,1,1,draw,Tashkent,Uzbekistan,FALSE,1650,1650,1656,1644,6
+,,,2014-05-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Armenia,,,,FALSE,3,4,loss,Carouge,Switzerland,TRUE,1656,1577,1644,1589,-12
+,,,2014-06-03,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Georgia,,,,FALSE,1,0,win,Meyrin,Switzerland,TRUE,1644,1511,1650,1505,6
+,,,2014-08-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Norway,NOR,NOR,UEFA,FALSE,0,0,draw,Stavanger,Norway,FALSE,1650,1618,1652,1616,2
+,,,2014-09-03,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lithuania,,,,FALSE,1,1,draw,Matrei in Osttirol,Austria,TRUE,1652,1465,1647,1470,-5
+,,,2014-09-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,0,draw,Villach,Austria,TRUE,1647,1708,1649,1706,2
+,,,2014-10-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Australia,AUS,AUS,AFC,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1649,1666,1647,1668,-2
+,,,2014-10-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,0,4,loss,Dubai,United Arab Emirates,FALSE,1647,1610,1621,1636,-26
+,,,2014-11-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,3,2,win,Al Hofuf,Saudi Arabia,TRUE,1621,1415,1626,1410,5
+,,,2014-11-14,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,0,0,draw,Riyadh,Saudi Arabia,TRUE,1626,1562,1622,1566,-4
+,,,2014-11-17,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,2,draw,Riyadh,Saudi Arabia,TRUE,1622,1540,1617,1545,-5
+,,,2014-11-20,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,0,win,Riyadh,Saudi Arabia,TRUE,1617,1537,1640,1514,23
+,,,2014-11-23,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,3,loss,Riyadh,Saudi Arabia,FALSE,1640,1489,1617,1512,-23
+,,,2014-11-25,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,1,0,win,Riyadh,Saudi Arabia,TRUE,1617,1568,1634,1551,17
+,,,2014-12-30,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,1,0,win,Robina,Australia,TRUE,1634,1544,1641,1537,7
+,,,2015-01-11,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,4,1,win,Canberra,Australia,TRUE,1641,1614,1681,1574,40
+,,,2015-01-15,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,2,1,win,Canberra,Australia,TRUE,1681,1468,1692,1457,11
+,,,2015-01-19,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Brisbane,Australia,TRUE,1692,1714,1669,1737,-23
+,,,2015-01-23,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,1,1,draw,Sydney,Australia,TRUE,1669,1765,1676,1758,7
+,,,2015-01-27,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Australia,AUS,AUS,AFC,FALSE,0,2,loss,Newcastle,Australia,FALSE,1676,1679,1649,1706,-27
+,,,2015-01-30,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,3,2,win,Newcastle,Australia,TRUE,1649,1531,1666,1514,17
+,,,2015-06-11,Friendly,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Kuala Lumpur,Malaysia,TRUE,1666,1734,1652,1748,-14
+,,,2015-06-16,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Timor-Leste,,,,FALSE,3,0,win,Shah Alam,Malaysia,TRUE,,,,,
+,,,2015-08-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Myanmar,,,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1652,1038,1652,1038,0
+,,,2015-09-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,TRUE,10,0,win,Abu Dhabi,United Arab Emirates,FALSE,1652,1149,1655,1146,3
+,,,2015-09-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Palestine,,,,FALSE,0,0,draw,Al-Ram,Palestine,FALSE,1655,1332,1644,1343,-11
+,,,2015-10-08,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,2,loss,Jeddah,Saudi Arabia,FALSE,1644,1498,1621,1521,-23
+,,,2015-11-05,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Turkmenistan,,,,TRUE,5,1,win,Abu Dhabi,United Arab Emirates,FALSE,1621,1253,1623,1251,2
+,,,2015-11-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Timor-Leste,,,,TRUE,8,0,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,2015-11-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,FALSE,2,1,win,Shah Alam,Malaysia,FALSE,1623,1127,1627,1123,4
+,,,2016-01-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iceland,ISL,ISL,UEFA,TRUE,2,1,win,Dubai,United Arab Emirates,FALSE,1627,1681,1636,1672,9
+,,,2016-03-18,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bangladesh,,,,TRUE,6,1,win,Abu Dhabi,United Arab Emirates,FALSE,1636,901,1636,901,0
+,,,2016-03-24,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Palestine,,,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1636,1357,1642,1351,6
+,,,2016-03-29,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1642,1516,1631,1527,-11
+,,,2016-06-03,King's Cup,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,1,3,loss,Bangkok,Thailand,TRUE,1631,1533,1602,1562,-29
+,,,2016-06-05,King's Cup,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,0,1,loss,Bangkok,Thailand,TRUE,1602,1497,1583,1516,-19
+,,,2016-08-24,Friendly,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,FALSE,0,2,loss,Shanghai,China PR,TRUE,1583,1513,1565,1531,-18
+,,,2016-09-01,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,FALSE,2,1,win,Saitama,Japan,FALSE,1565,1754,1599,1720,34
+,,,2016-09-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Australia,AUS,AUS,AFC,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1599,1715,1580,1734,-19
+,,,2016-10-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,3,1,win,Abu Dhabi,United Arab Emirates,FALSE,1580,1405,1590,1395,10
+,,,2016-10-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,3,loss,Jeddah,Saudi Arabia,FALSE,1590,1559,1562,1587,-28
+,,,2016-11-09,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,2,0,win,Al Ain,United Arab Emirates,FALSE,1562,1447,1569,1440,7
+,,,2016-11-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1569,1491,1585,1475,16
+,,,2017-03-23,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,TRUE,0,2,loss,Al Ain,United Arab Emirates,FALSE,1585,1754,1561,1778,-24
+,,,2017-03-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Australia,AUS,AUS,AFC,FALSE,0,2,loss,Sydney,Australia,FALSE,1561,1701,1549,1713,-12
+,,,2017-06-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Laos,,,,TRUE,4,0,win,Shah Alam,Malaysia,TRUE,1549,808,1550,807,1
+,,,2017-06-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,1550,1386,1546,1390,-4
+,,,2017-08-29,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,Al Ain,United Arab Emirates,FALSE,1546,1608,1564,1590,18
+,,,2017-09-05,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,1,loss,Amman,Jordan,TRUE,1564,1543,1543,1564,-21
+,,,2017-11-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,1,0,win,Al Ain,United Arab Emirates,FALSE,1529,1621,1539,1611,10
+,,,2017-12-22,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,0,win,Kuwait City,Kuwait,TRUE,1547,1464,1562,1449,15
+,,,2017-12-25,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,0,draw,Kuwait City,Kuwait,TRUE,1562,1614,1565,1611,3
+,,,2017-12-28,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,FALSE,1565,1424,1563,1426,-2
+,,,2018-01-02,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1563,1573,1564,1572,1
+,,,2018-01-05,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,0,0,draw,Kuwait City,Kuwait,TRUE,1564,1531,1562,1533,-2
+,,,2018-03-22,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Slovakia,SVK,SVK,UEFA,FALSE,1,2,loss,Bangkok,Thailand,TRUE,1562,1747,1554,1755,-8
+,,,2018-08-18,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Andorra,,,,FALSE,0,0,draw,Grödig,Austria,TRUE,1533,1038,1524,1047,-9
+,,,2018-09-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,Llagostera,Trinidad and Tobago,FALSE,1524,1423,1505,1442,-19
+,,,2018-09-11,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Laos,,,,FALSE,3,0,win,Llagostera,Laos,FALSE,1505,771,1506,770,1
+,,,2018-10-11,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Honduras,HND,HND,CONCACAF,FALSE,1,1,draw,Barcelona,Spain,TRUE,1506,1590,1508,1588,2
+,,,2018-10-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Venezuela,,,,TRUE,0,2,loss,Barcelona,Spain,TRUE,1508,1746,1502,1752,-6
+,,,2018-11-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bolivia,BOL,BOL,CONMEBOL,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1502,1660,1504,1658,2
+,,,2018-11-20,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,2,0,win,Dubai,United Arab Emirates,FALSE,1504,1196,1507,1193,3
+,,,2018-12-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1507,1416,1484,1439,-23
+,,,2019-01-05,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1484,1432,1474,1442,-10
+,,,2019-01-10,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1474,1283,1486,1271,12
+,,,2019-01-14,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1486,1347,1471,1362,-15
+,,,2019-01-21,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Kyrgyzstan,,,,TRUE,3,2,win,Abu Dhabi,United Arab Emirates,FALSE,1471,1303,1480,1294,9
+,,,2019-01-25,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Australia,AUS,AUS,AFC,TRUE,1,0,win,Al Ain,United Arab Emirates,FALSE,1480,1713,1514,1679,34
+,,,2019-01-29,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,0,4,loss,Abu Dhabi,United Arab Emirates,FALSE,1514,1685,1477,1722,-37
+,,,2019-03-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1477,1575,1487,1565,10
+,,,2019-03-26,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1487,1531,1485,1533,-2
+,,,2019-08-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Dominican Republic,,,,TRUE,4,0,win,Riffa,Bahrain,TRUE,,,,,
+,,,2019-08-31,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Sri Lanka,,,,TRUE,5,1,win,Riffa,Bahrain,TRUE,1492,685,1492,685,0
+,,,2019-09-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,FALSE,2,1,win,Kuala Lumpur,Malaysia,FALSE,1492,1158,1500,1150,8
+,,,2019-10-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Indonesia,IDN,IDN,AFC,TRUE,5,0,win,Dubai,United Arab Emirates,FALSE,1500,1164,1506,1158,6
+,,,2019-10-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,FALSE,1,2,loss,Pathum Thani,Thailand,FALSE,1506,1355,1483,1378,-23
+,,,2019-11-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Vietnam,,,,FALSE,0,1,loss,Hanoi,Vietnam,FALSE,1483,1402,1464,1421,-19
+,,,2019-11-26,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,3,0,win,Doha,Qatar,TRUE,1464,1209,1477,1196,13
+,,,2019-11-29,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,2,loss,Doha,Qatar,TRUE,1477,1629,1459,1647,-18
+,,,2019-12-02,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,2,4,loss,Doha,Qatar,FALSE,1459,1692,1451,1700,-8
+,,,2020-10-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,1,2,loss,Dubai,United Arab Emirates,FALSE,1451,1562,1441,1572,-10
+,,,2020-11-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Tajikistan,,,,TRUE,3,2,win,Dubai,United Arab Emirates,FALSE,1441,1232,1444,1229,3
+,,,2020-11-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,1,3,loss,Dubai,United Arab Emirates,FALSE,1444,1549,1429,1564,-15
+,,,2021-01-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1429,1627,1432,1624,3
+,,,2021-03-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,6,0,win,Dubai,United Arab Emirates,FALSE,1432,1200,1437,1195,5
+,,,2021-05-24,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,TRUE,5,1,win,Dubai,United Arab Emirates,FALSE,1437,1492,1453,1476,16
+,,,2021-06-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Malaysia,,,,TRUE,4,0,win,Dubai,United Arab Emirates,FALSE,1453,1194,1461,1186,8
+,,,2021-06-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,3,1,win,Dubai,United Arab Emirates,FALSE,1461,1331,1474,1318,13
+,,,2021-06-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Indonesia,IDN,IDN,AFC,TRUE,5,0,win,Dubai,United Arab Emirates,FALSE,1474,1108,1479,1103,5
+,,,2021-06-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Vietnam,,,,TRUE,3,2,win,Dubai,United Arab Emirates,FALSE,1479,1434,1491,1422,12
+,,,2021-09-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1491,1364,1480,1375,-11
+,,,2021-09-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,FALSE,1,1,draw,Amman,Jordan,TRUE,1480,1444,1478,1446,-2
+,,,2021-10-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,1,loss,Dubai,United Arab Emirates,FALSE,1478,1826,1470,1834,-8
+,,,2021-10-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,2,draw,Dubai,United Arab Emirates,FALSE,1470,1603,1472,1601,2
+,,,2021-11-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Goyang,South Korea,FALSE,1472,1766,1468,1770,-4
+,,,2021-11-16,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,FALSE,1,0,win,Sidon,Lebanon,FALSE,1468,1402,1490,1380,22
+,,,2021-11-30,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,2,1,win,Doha,Qatar,TRUE,1490,1424,1506,1408,16
+,,,2021-12-03,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Mauritania,,,,FALSE,1,0,win,Doha,Qatar,TRUE,1506,1328,1517,1317,11
+,,,2021-12-06,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Tunisia,TUN,TUN,CAF,FALSE,0,1,loss,Doha,Qatar,TRUE,1517,1606,1502,1621,-15
+,,,2021-12-10,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,0,5,loss,Al Khor,Qatar,FALSE,1502,1677,1488,1691,-14
+,,,2022-01-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,2,0,win,Dubai,United Arab Emirates,FALSE,1488,1428,1505,1411,17
+,,,2022-02-01,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1505,1841,1502,1844,-3
+,,,2022-03-24,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,1,loss,Riyadh,Saudi Arabia,TRUE,1502,1554,1485,1571,-17
+,,,2022-03-29,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1485,1833,1517,1801,32
+,,,2022-05-29,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Gambia,,,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1517,1435,1512,1440,-5
+,,,2022-06-07,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Australia,AUS,AUS,AFC,TRUE,1,2,loss,Al Rayyan,Qatar,TRUE,1512,1685,1501,1696,-11
+,,,2022-09-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,1,loss,Wiener Neustadt,Austria,TRUE,1501,1736,1497,1740,-4
+,,,2022-09-27,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Venezuela,,,,TRUE,0,4,loss,Wiener Neustadt,Austria,TRUE,1497,1672,1487,1682,-10
+,,,2022-11-16,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Argentina,ARG,ARG,CONMEBOL,TRUE,0,5,loss,Abu Dhabi,United Arab Emirates,FALSE,1487,2141,1485,2143,-2
+,,,2022-11-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kazakhstan,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1485,1396,1490,1391,5
+,,,2022-12-30,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1490,1320,1493,1317,3
+,,,2023-01-07,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,1,2,loss,Basra,Iraq,TRUE,1493,1494,1473,1514,-20
+,,,2023-01-10,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,0,1,loss,Basra,Iraq,TRUE,1473,1304,1444,1333,-29
+,,,2023-01-13,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,1,draw,Basra,Iraq,TRUE,1444,1564,1451,1557,7
+,,,2023-03-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Tajikistan,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1451,1328,1445,1334,-6
+,,,2023-03-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1445,1388,1454,1379,9
+,,,2023-09-12,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Costa Rica,CRI,CRI,CONCACAF,TRUE,4,1,win,Zagreb,Croatia,TRUE,1454,1649,1480,1623,26
+,,,2023-10-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,TRUE,2,1,win,Dubai,United Arab Emirates,FALSE,1485,1311,1488,1308,3
+,,,2023-10-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,,,,,
+,,,2023-11-16,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Nepal,,,,TRUE,4,0,win,Dubai,United Arab Emirates,FALSE,1488,930,1490,928,2
+,,,2023-11-21,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,2,0,win,Riffa,Bahrain,FALSE,1490,1487,1528,1449,38
+,,,2024-01-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1530,1557,1518,1569,-12
+,,,2024-01-14,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Hong Kong,,,,TRUE,3,1,win,Al Rayyan,Qatar,TRUE,1518,1080,1524,1074,6
+,,,2024-01-18,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Palestine,,,,FALSE,1,1,draw,Al Wakrah,Qatar,TRUE,1524,1403,1516,1411,-8
+,,,2024-01-23,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,1,2,loss,Al Rayyan,Qatar,TRUE,1516,1838,1509,1845,-7
+,,,2024-01-28,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Tajikistan,,,,FALSE,1,1,draw,Al Rayyan,Qatar,TRUE,1509,1393,1501,1401,-8
+,,,2024-03-21,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,1501,1104,1503,1102,2
+,,,2024-03-26,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,FALSE,3,0,win,Khobar,Saudi Arabia,TRUE,1503,1102,1509,1096,6
+,,,2024-06-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Nepal,,,,FALSE,4,0,win,Dammam,Saudi Arabia,TRUE,1509,896,1511,894,2
+,,,2024-06-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,1,1,draw,Dubai,United Arab Emirates,FALSE,1511,1446,1502,1455,-9
+,,,2024-09-05,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,3,1,win,Al Rayyan,Qatar,FALSE,1502,1631,1549,1584,47
+,,,2024-09-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,1,loss,Al Ain,United Arab Emirates,FALSE,1549,1809,1538,1820,-11
+,,,2024-10-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,1,1,draw,Al Ain,United Arab Emirates,FALSE,1538,1407,1526,1419,-12
+,,,2024-10-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,FALSE,0,1,loss,Tashkent,Uzbekistan,FALSE,1526,1693,1519,1700,-7
+,,,2024-11-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kyrgyzstan,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1519,1293,1528,1284,9
+,,,2024-11-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,5,0,win,Abu Dhabi,United Arab Emirates,FALSE,1528,1587,1563,1552,35
+,,,2024-12-21,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,1,draw,Sulaibikhat,Kuwait,TRUE,1563,1552,1562,1553,-1
+,,,2024-12-24,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1562,1319,1534,1347,-28
+,,,2024-12-27,Gulf Cup,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,1,1,draw,Sulaibikhat,Kuwait,TRUE,1534,1511,1533,1512,-1
+,,,2025-03-20,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,2,loss,Tehran,Iran,FALSE,1533,1838,1528,1843,-5
+,,,2025-03-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,FALSE,2,1,win,Riyadh,Saudi Arabia,TRUE,1528,1394,1541,1381,13
+,,,2025-06-05,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1541,1697,1544,1694,3
+,,,2025-06-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kyrgyzstan,,,,FALSE,1,1,draw,Bishkek,Kyrgyzstan,FALSE,1544,1325,1537,1332,-7
+,,,2025-09-04,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,TRUE,3,1,win,Dubai,United Arab Emirates,FALSE,1537,1443,1544,1436,7
+,,,2025-09-08,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,1,0,win,Dubai,United Arab Emirates,FALSE,1544,1453,1549,1448,5
+,,,2025-10-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,2,1,win,Al Rayyan,Qatar,TRUE,1549,1521,1567,1503,18
+,,,2025-10-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,1,2,loss,Al Rayyan,Qatar,FALSE,1567,1483,1548,1502,-19
+,,,2025-11-13,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1548,1580,1544,1584,-4
+,,,2025-11-18,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,FALSE,1,2,loss,Basra,Iraq,FALSE,1544,1584,1532,1596,-12
+,,,2025-12-03,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,FALSE,1,2,loss,Al Khor,Qatar,TRUE,1532,1609,1516,1625,-16
+,,,2025-12-06,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,1,1,draw,Lusail,Qatar,TRUE,1516,1630,1522,1624,6
+,,,2025-12-09,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,3,1,win,Doha,Qatar,TRUE,1522,1344,1538,1328,16
+,,,2025-12-12,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Algeria,DZA,DZA,CAF,FALSE,1,1,draw,Al Khor,Qatar,TRUE,1538,1735,1548,1725,10
+,,,2025-12-15,Arab Cup,played,United Arab Emirates,ARE,ARE,AFC,Morocco,MAR,MAR,CAF,FALSE,0,3,loss,Al Rayyan,Qatar,TRUE,1548,1831,1537,1842,-11

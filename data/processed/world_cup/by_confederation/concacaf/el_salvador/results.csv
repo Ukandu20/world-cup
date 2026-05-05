@@ -1,613 +1,613 @@
-date,tournament,status,team,team_code,opponent,opponent_code,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
-1921-09-14,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,7,loss,Guatemala City,Guatemala,TRUE,1500,1800,1490,1810,-10
-1927-11-07,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1490,1382,1480,1392,-10
-1927-11-08,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1480,1392,1480,1392,0
-1928-12-07,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1480,1377,1489,1368,9
-1929-05-01,Friendly,played,El Salvador,SLV,Nicaragua,,TRUE,9,0,win,San Salvador,El Salvador,FALSE,1489,1000,1491,998,2
-1930-03-19,Central American and Caribbean Games,played,El Salvador,SLV,Guatemala,,TRUE,8,2,win,Havana,Cuba,TRUE,1491,1489,1533,1447,42
-1930-03-22,Central American and Caribbean Games,played,El Salvador,SLV,Costa Rica,CRI,FALSE,2,9,loss,Havana,Cuba,TRUE,1533,1838,1520,1851,-13
-1930-03-26,Central American and Caribbean Games,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,5,loss,Havana,Cuba,TRUE,1520,1851,1510,1861,-10
-1930-03-29,Central American and Caribbean Games,played,El Salvador,SLV,Honduras,HND,TRUE,1,4,loss,Havana,Cuba,TRUE,1510,1371,1462,1419,-48
-1930-04-01,Central American and Caribbean Games,played,El Salvador,SLV,Cuba,CUB,FALSE,2,5,loss,Havana,Cuba,FALSE,1462,1661,1451,1672,-11
-1935-03-24,Central American and Caribbean Games,played,El Salvador,SLV,Cuba,CUB,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1451,1584,1489,1546,38
-1935-03-27,Central American and Caribbean Games,played,El Salvador,SLV,Mexico,MEX,TRUE,1,8,loss,San Salvador,El Salvador,FALSE,1489,1585,1443,1631,-46
-1935-03-28,Central American and Caribbean Games,played,El Salvador,SLV,Honduras,HND,TRUE,3,4,loss,San Salvador,El Salvador,FALSE,1443,1384,1414,1413,-29
-1935-03-30,Central American and Caribbean Games,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,6,loss,San Salvador,El Salvador,FALSE,1414,1846,1404,1856,-10
-1935-04-03,Central American and Caribbean Games,played,El Salvador,SLV,Guatemala,,TRUE,6,1,win,San Salvador,El Salvador,FALSE,1404,1412,1434,1382,30
-1937-10-11,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1434,1391,1440,1385,6
-1938-02-12,Central American and Caribbean Games,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,7,loss,Panama City,Panama,TRUE,1440,1826,1431,1835,-9
-1938-02-16,Central American and Caribbean Games,played,El Salvador,SLV,Venezuela,,TRUE,3,2,win,Panama City,Panama,TRUE,1431,1284,1443,1272,12
-1938-02-18,Central American and Caribbean Games,played,El Salvador,SLV,Mexico,MEX,FALSE,0,6,loss,Panama City,Panama,TRUE,1443,1797,1433,1807,-10
-1938-02-21,Central American and Caribbean Games,played,El Salvador,SLV,Colombia,COL,FALSE,2,3,loss,Panama City,Panama,TRUE,1433,1423,1412,1444,-21
-1938-02-23,Central American and Caribbean Games,played,El Salvador,SLV,Panama,PAN,FALSE,2,1,win,Panama City,Panama,FALSE,1412,1291,1431,1272,19
-1941-05-11,CCCF Championship,played,El Salvador,SLV,Curaçao,,FALSE,2,2,draw,San José,Costa Rica,TRUE,1444,1572,1453,1563,9
-1941-05-13,CCCF Championship,played,El Salvador,SLV,Nicaragua,,TRUE,8,0,win,San José,Costa Rica,TRUE,1453,997,1461,989,8
-1941-05-15,CCCF Championship,played,El Salvador,SLV,Panama,PAN,TRUE,4,3,win,San José,Costa Rica,TRUE,1461,1275,1474,1262,13
-1941-05-18,CCCF Championship,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,3,loss,San José,Costa Rica,FALSE,1474,1827,1469,1832,-5
-1943-12-05,CCCF Championship,played,El Salvador,SLV,Guatemala,,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1482,1382,1469,1395,-13
-1943-12-07,CCCF Championship,played,El Salvador,SLV,Nicaragua,,TRUE,8,1,win,San Salvador,El Salvador,FALSE,1469,969,1472,966,3
-1943-12-09,CCCF Championship,played,El Salvador,SLV,Costa Rica,CRI,TRUE,4,2,win,San Salvador,El Salvador,FALSE,1472,1774,1529,1717,57
-1943-12-12,CCCF Championship,played,El Salvador,SLV,Guatemala,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1529,1447,1542,1434,13
-1943-12-16,CCCF Championship,played,El Salvador,SLV,Nicaragua,,TRUE,10,1,win,San Salvador,El Salvador,FALSE,1542,959,1544,957,2
-1943-12-19,CCCF Championship,played,El Salvador,SLV,Costa Rica,CRI,TRUE,2,4,loss,San Salvador,El Salvador,FALSE,1544,1655,1508,1691,-36
-1946-02-23,CCCF Championship,played,El Salvador,SLV,Guatemala,,TRUE,1,3,loss,San José,Costa Rica,TRUE,1508,1501,1470,1539,-38
-1946-02-28,CCCF Championship,played,El Salvador,SLV,Nicaragua,,TRUE,7,2,win,San José,Costa Rica,TRUE,1470,952,1475,947,5
-1946-03-07,CCCF Championship,played,El Salvador,SLV,Panama,PAN,TRUE,4,1,win,San José,Costa Rica,TRUE,1475,1303,1499,1279,24
-1946-03-10,CCCF Championship,played,El Salvador,SLV,Honduras,HND,TRUE,3,1,win,San José,Costa Rica,TRUE,1499,1399,1526,1372,27
-1946-03-13,CCCF Championship,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,4,loss,San José,Costa Rica,FALSE,1526,1632,1504,1654,-22
-1946-11-05,Friendly,played,El Salvador,SLV,Panama,PAN,TRUE,2,3,loss,San Salvador,El Salvador,FALSE,1504,1232,1486,1250,-18
-1946-11-10,Friendly,played,El Salvador,SLV,Panama,PAN,TRUE,3,3,draw,San Salvador,El Salvador,FALSE,1486,1250,1479,1257,-7
-1948-02-29,CCCF Championship,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,3,loss,Guatemala City,Guatemala,TRUE,1479,1545,1449,1575,-30
-1948-03-02,CCCF Championship,played,El Salvador,SLV,Guatemala,,FALSE,0,3,loss,Guatemala City,Guatemala,FALSE,1449,1420,1414,1455,-35
-1948-03-07,CCCF Championship,played,El Salvador,SLV,Panama,PAN,TRUE,1,2,loss,Guatemala City,Guatemala,TRUE,1414,1332,1383,1363,-31
-1948-03-09,CCCF Championship,played,El Salvador,SLV,Curaçao,,TRUE,1,0,win,Guatemala City,Guatemala,TRUE,1383,1488,1415,1456,32
-1948-03-11,CCCF Championship,played,El Salvador,SLV,Curaçao,,FALSE,2,0,win,Guatemala City,Guatemala,TRUE,1415,1456,1457,1414,42
-1948-03-13,CCCF Championship,played,El Salvador,SLV,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1457,1466,1465,1458,8
-1948-03-16,CCCF Championship,played,El Salvador,SLV,Panama,PAN,FALSE,0,2,loss,Guatemala City,Guatemala,TRUE,1465,1391,1420,1436,-45
-1948-03-18,CCCF Championship,played,El Salvador,SLV,Costa Rica,CRI,TRUE,0,6,loss,Guatemala City,Guatemala,TRUE,1420,1601,1392,1629,-28
-1949-08-03,Friendly,played,El Salvador,SLV,Panama,PAN,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1392,1470,1406,1456,14
-1949-08-04,Friendly,played,El Salvador,SLV,Panama,PAN,TRUE,2,3,loss,San Salvador,El Salvador,FALSE,1406,1456,1395,1467,-11
-1950-09-02,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,2,1,win,Willemstad,Curaçao,TRUE,,,,,
-1950-09-06,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,2,0,win,Willemstad,Curaçao,TRUE,,,,,
-1953-03-08,CCCF Championship,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,5,loss,San José,Costa Rica,FALSE,1393,1566,1377,1582,-16
-1953-03-10,CCCF Championship,played,El Salvador,SLV,Nicaragua,,TRUE,4,1,win,San José,Costa Rica,TRUE,1377,961,1384,954,7
-1953-03-13,CCCF Championship,played,El Salvador,SLV,Guatemala,,FALSE,2,3,loss,San José,Costa Rica,TRUE,1384,1426,1362,1448,-22
-1953-03-15,CCCF Championship,played,El Salvador,SLV,Honduras,HND,TRUE,0,3,loss,San José,Costa Rica,TRUE,1362,1392,1322,1432,-40
-1953-03-19,CCCF Championship,played,El Salvador,SLV,Panama,PAN,TRUE,2,1,win,San José,Costa Rica,TRUE,1322,1328,1347,1303,25
-1953-03-21,CCCF Championship,played,El Salvador,SLV,Curaçao,,TRUE,1,1,draw,San José,Costa Rica,TRUE,,,,,
-1955-06-18,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1414,1483,1413,1484,-1
-1955-06-19,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1413,1484,1412,1485,-1
-1955-08-15,CCCF Championship,played,El Salvador,SLV,Guatemala,,FALSE,3,2,win,Tegucigalpa,Honduras,TRUE,1412,1442,1439,1415,27
-1955-08-17,CCCF Championship,played,El Salvador,SLV,Honduras,HND,FALSE,1,3,loss,Tegucigalpa,Honduras,FALSE,1439,1507,1418,1528,-21
-1955-08-19,CCCF Championship,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,4,loss,Tegucigalpa,Honduras,TRUE,1418,1658,1399,1677,-19
-1955-08-20,CCCF Championship,played,El Salvador,SLV,Cuba,CUB,TRUE,2,1,win,Tegucigalpa,Honduras,TRUE,,,,,
-1955-08-24,CCCF Championship,played,El Salvador,SLV,Aruba,,TRUE,2,0,win,Tegucigalpa,Honduras,TRUE,1418,1444,1458,1404,40
-1955-08-26,CCCF Championship,played,El Salvador,SLV,Curaçao,,FALSE,0,3,loss,Tegucigalpa,Honduras,TRUE,1458,1487,1418,1527,-40
-1959-12-13,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1418,1465,1431,1452,13
-1961-03-06,CCCF Championship,played,El Salvador,SLV,Curaçao,,FALSE,0,0,draw,San José,Costa Rica,TRUE,1431,1522,1437,1516,6
-1963-03-23,CONCACAF Championship,played,El Salvador,SLV,Nicaragua,,TRUE,6,1,win,San Salvador,El Salvador,FALSE,1550,992,1552,990,2
-1963-03-25,CONCACAF Championship,played,El Salvador,SLV,Panama,PAN,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1552,1189,1530,1211,-22
-1963-03-27,CONCACAF Championship,played,El Salvador,SLV,Honduras,HND,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1530,1453,1518,1465,-12
-1963-03-31,CONCACAF Championship,played,El Salvador,SLV,Guatemala,,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1518,1389,1504,1403,-14
-1963-04-03,CONCACAF Championship,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,4,loss,San Salvador,El Salvador,FALSE,1504,1739,1476,1767,-28
-1963-04-05,CONCACAF Championship,played,El Salvador,SLV,Honduras,HND,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1476,1462,1506,1432,30
-1963-04-07,CONCACAF Championship,played,El Salvador,SLV,Curaçao,,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1506,1603,1531,1578,25
-1963-08-05,Friendly,played,El Salvador,SLV,Jamaica,JAM,FALSE,1,0,win,Kingston,Jamaica,FALSE,1531,1277,1537,1271,6
-1963-08-07,Friendly,played,El Salvador,SLV,Jamaica,JAM,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1537,1271,1533,1275,-4
-1963-08-09,Friendly,played,El Salvador,SLV,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1533,1275,1529,1279,-4
-1965-03-07,CONCACAF Championship qualification,played,El Salvador,SLV,Nicaragua,,TRUE,4,0,win,San Salvador,El Salvador,FALSE,1529,960,1531,958,2
-1965-03-14,CONCACAF Championship qualification,played,El Salvador,SLV,Honduras,HND,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1531,1359,1541,1349,10
-1965-03-28,CONCACAF Championship,played,El Salvador,SLV,Mexico,MEX,TRUE,0,2,loss,Guatemala City,Guatemala,TRUE,1541,1810,1528,1823,-13
-1965-03-30,CONCACAF Championship,played,El Salvador,SLV,Curaçao,,TRUE,1,1,draw,Guatemala City,Guatemala,TRUE,1528,1493,1525,1496,-3
-1965-04-04,CONCACAF Championship,played,El Salvador,SLV,Guatemala,,FALSE,1,4,loss,Guatemala City,Guatemala,FALSE,1525,1455,1485,1495,-40
-1965-04-08,CONCACAF Championship,played,El Salvador,SLV,Costa Rica,CRI,FALSE,2,1,win,Guatemala City,Guatemala,TRUE,1485,1826,1529,1782,44
-1965-04-11,CONCACAF Championship,played,El Salvador,SLV,Haiti,HTI,TRUE,3,1,win,Guatemala City,Guatemala,TRUE,1529,1444,1558,1415,29
-1966-03-25,Friendly,played,El Salvador,SLV,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1558,1214,1542,1230,-16
-1967-10-10,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1483,1425,1492,1416,9
-1967-10-22,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1492,1601,1482,1611,-10
-1967-10-29,Friendly,played,El Salvador,SLV,Costa Rica,CRI,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1482,1754,1504,1732,22
-1967-11-05,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,3,loss,San Salvador,El Salvador,FALSE,1504,1611,1489,1626,-15
-1968-05-07,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1541,1613,1557,1597,16
-1968-07-17,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1557,1384,1555,1386,-2
-1968-07-31,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1555,1386,1559,1382,4
-1968-08-15,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1559,1606,1567,1598,8
-1968-09-11,Friendly,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1567,1692,1568,1691,1
-1968-11-14,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,3,loss,San José,Costa Rica,FALSE,1538,1687,1531,1694,-7
-1968-12-01,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,TRUE,6,0,win,San Salvador,El Salvador,FALSE,,,,,
-1968-12-12,FIFA World Cup qualification,played,El Salvador,SLV,Curaçao,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1568,1459,1577,1450,9
-1968-12-15,FIFA World Cup qualification,played,El Salvador,SLV,Curaçao,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1577,1450,1586,1441,9
-1968-12-22,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,FALSE,1,4,loss,Paramaribo,Dutch Guyana,FALSE,,,,,
-1969-05-14,Friendly,played,El Salvador,SLV,Peru,PER,TRUE,1,4,loss,San Salvador,El Salvador,FALSE,1554,1611,1534,1631,-20
-1969-06-08,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1534,1452,1515,1471,-19
-1969-06-15,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1515,1471,1536,1450,21
-1969-06-27,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,FALSE,3,2,win,Mexico City,Mexico,TRUE,1536,1450,1551,1435,15
-1969-09-14,Friendly,played,El Salvador,SLV,Costa Rica,CRI,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1551,1655,1561,1645,10
-1969-09-21,FIFA World Cup qualification,played,El Salvador,SLV,Haiti,HTI,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1561,1512,1584,1489,23
-1969-09-28,FIFA World Cup qualification,played,El Salvador,SLV,Haiti,HTI,TRUE,0,3,loss,San Salvador,El Salvador,FALSE,1584,1489,1531,1542,-53
-1969-10-08,FIFA World Cup qualification,played,El Salvador,SLV,Haiti,HTI,FALSE,1,0,win,Kingston,Jamaica,TRUE,1531,1542,1552,1521,21
-1970-02-22,Friendly,played,El Salvador,SLV,Soviet Union,SUN,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1552,1941,1547,1946,-5
-1970-02-26,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1547,1692,1541,1698,-6
-1970-04-21,Friendly,played,El Salvador,SLV,Peru,PER,FALSE,0,3,loss,Lima,Peru,FALSE,1541,1685,1534,1692,-7
-1970-06-03,FIFA World Cup,played,El Salvador,SLV,Belgium,BEL,FALSE,0,3,loss,Mexico City,Mexico,TRUE,1534,1779,1513,1800,-21
-1970-06-07,FIFA World Cup,played,El Salvador,SLV,Mexico,MEX,FALSE,0,4,loss,Mexico City,Mexico,FALSE,1513,1714,1496,1731,-17
-1970-06-10,FIFA World Cup,played,El Salvador,SLV,Soviet Union,SUN,TRUE,0,2,loss,Mexico City,Mexico,TRUE,1496,1960,1490,1966,-6
-1971-02-28,Friendly,played,El Salvador,SLV,Soviet Union,SUN,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1490,1938,1488,1940,-2
-1971-09-09,CONCACAF Championship qualification,played,El Salvador,SLV,Nicaragua,,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1521,1031,1525,1027,4
-1971-09-15,CONCACAF Championship qualification,played,El Salvador,SLV,Nicaragua,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1525,1027,1526,1026,1
-1972-10-01,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1526,1630,1519,1637,-7
-1972-10-08,Friendly,played,El Salvador,SLV,Costa Rica,CRI,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1519,1637,1510,1646,-9
-1972-12-03,CONCACAF Championship qualification,played,El Salvador,SLV,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1510,1551,1498,1563,-12
-1972-12-10,CONCACAF Championship qualification,played,El Salvador,SLV,Guatemala,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1498,1563,1476,1585,-22
-1974-01-25,Friendly,played,El Salvador,SLV,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,,,,,
-1976-02-09,Friendly,played,El Salvador,SLV,Hungary,HUN,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1464,1811,1460,1815,-4
-1976-05-02,CONCACAF Championship qualification,played,El Salvador,SLV,Panama,PAN,FALSE,1,1,draw,Panama City,Panama,FALSE,1460,1264,1455,1269,-5
-1976-07-07,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1455,1556,1450,1561,-5
-1976-08-11,CONCACAF Championship qualification,played,El Salvador,SLV,Panama,PAN,TRUE,4,1,win,San Salvador,El Salvador,FALSE,,,,,
-1976-12-01,CONCACAF Championship qualification,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1461,1555,1461,1555,0
-1976-12-08,CONCACAF Championship qualification,played,El Salvador,SLV,Guatemala,,FALSE,1,3,loss,Guatemala City,Guatemala,FALSE,1461,1599,1449,1611,-12
-1976-12-15,CONCACAF Championship qualification,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,1,draw,San José,Costa Rica,FALSE,1449,1561,1460,1550,11
-1976-12-19,CONCACAF Championship qualification,played,El Salvador,SLV,Guatemala,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1460,1602,1494,1568,34
-1977-09-15,Friendly,played,El Salvador,SLV,United States,USA,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1494,1447,1480,1461,-14
-1977-09-30,Friendly,played,El Salvador,SLV,United States,USA,FALSE,0,0,draw,Monterey Park,United States,FALSE,1467,1456,1470,1453,3
-1977-10-08,CONCACAF Championship,played,El Salvador,SLV,Canada,CAN,FALSE,2,1,win,Monterrey,Mexico,TRUE,1470,1534,1500,1504,30
-1977-10-12,CONCACAF Championship,played,El Salvador,SLV,Mexico,MEX,FALSE,1,3,loss,Mexico City,Mexico,FALSE,1500,1758,1492,1766,-8
-1977-10-16,CONCACAF Championship,played,El Salvador,SLV,Haiti,HTI,TRUE,0,1,loss,Mexico City,Mexico,TRUE,1492,1590,1474,1608,-18
-1977-10-20,CONCACAF Championship,played,El Salvador,SLV,Suriname,,TRUE,3,2,win,Monterrey,Mexico,TRUE,1474,1439,1496,1417,22
-1977-10-23,CONCACAF Championship,played,El Salvador,SLV,Guatemala,,TRUE,2,2,draw,Mexico City,Mexico,TRUE,1496,1538,1499,1535,3
-1978-02-15,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,1,5,loss,San Salvador,El Salvador,FALSE,1499,1792,1490,1801,-9
-1979-12-04,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1479,1710,1469,1720,-10
-1979-12-18,Friendly,played,El Salvador,SLV,Mexico,MEX,FALSE,1,1,draw,Texcoco,Mexico,FALSE,1469,1720,1477,1712,8
-1980-05-09,Friendly,played,El Salvador,SLV,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1477,1244,1473,1248,-4
-1980-05-13,Friendly,played,El Salvador,SLV,Haiti,HTI,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,,,,,
-1980-06-04,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1467,1608,1487,1588,20
-1980-08-17,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1487,1515,1491,1511,4
-1980-08-24,CONCACAF Championship qualification,played,El Salvador,SLV,Panama,PAN,FALSE,3,1,win,Panama City,Panama,FALSE,1491,1227,1508,1210,17
-1980-09-30,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1508,1511,1515,1504,7
-1980-10-05,CONCACAF Championship qualification,played,El Salvador,SLV,Panama,PAN,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1515,1210,1521,1204,6
-1980-11-09,CONCACAF Championship qualification,played,El Salvador,SLV,Guatemala,,FALSE,0,0,draw,Guatemala City,Guatemala,FALSE,1521,1507,1526,1502,5
-1980-11-23,CONCACAF Championship qualification,played,El Salvador,SLV,Honduras,HND,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1526,1523,1540,1509,14
-1980-11-30,CONCACAF Championship qualification,played,El Salvador,SLV,Honduras,HND,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1540,1509,1516,1533,-24
-1980-12-10,CONCACAF Championship qualification,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,0,draw,San José,Costa Rica,FALSE,1516,1494,1520,1490,4
-1980-12-21,CONCACAF Championship qualification,played,El Salvador,SLV,Guatemala,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1520,1522,1535,1507,15
-1981-06-11,Friendly,played,El Salvador,SLV,Haiti,HTI,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1535,1549,1538,1546,3
-1981-06-13,Friendly,played,El Salvador,SLV,Haiti,HTI,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1538,1546,1541,1543,3
-1981-07-26,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,4,0,win,San Salvador,El Salvador,FALSE,1541,1543,1555,1529,14
-1981-11-02,CONCACAF Championship,played,El Salvador,SLV,Canada,CAN,FALSE,0,1,loss,Tegucigalpa,Honduras,TRUE,1555,1596,1533,1618,-22
-1981-11-06,CONCACAF Championship,played,El Salvador,SLV,Mexico,MEX,FALSE,1,0,win,Tegucigalpa,Honduras,TRUE,1533,1714,1570,1677,37
-1981-11-11,CONCACAF Championship,played,El Salvador,SLV,Cuba,CUB,FALSE,0,0,draw,Tegucigalpa,Honduras,TRUE,1570,1544,1568,1546,-2
-1981-11-16,CONCACAF Championship,played,El Salvador,SLV,Honduras,HND,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1568,1636,1579,1625,11
-1981-11-19,CONCACAF Championship,played,El Salvador,SLV,Haiti,HTI,TRUE,1,0,win,Tegucigalpa,Honduras,TRUE,1579,1484,1597,1466,18
-1982-04-18,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1597,1611,1605,1603,8
-1982-04-22,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,1,1,draw,San Pedro Sula,Honduras,FALSE,1605,1603,1608,1600,3
-1982-06-15,FIFA World Cup,played,El Salvador,SLV,Hungary,HUN,FALSE,1,10,loss,Elche,Spain,TRUE,1608,1797,1570,1835,-38
-1982-06-19,FIFA World Cup,played,El Salvador,SLV,Belgium,BEL,FALSE,0,1,loss,Elche,Spain,TRUE,1570,1954,1564,1960,-6
-1982-06-23,FIFA World Cup,played,El Salvador,SLV,Argentina,ARG,FALSE,0,2,loss,Alicante,Spain,TRUE,1564,2000,1557,2007,-7
-1983-07-26,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,Los Angeles,United States,TRUE,1488,1554,1491,1551,3
-1983-10-25,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,0,5,loss,Los Angeles,United States,TRUE,1491,1685,1481,1695,-10
-1984-05-29,Friendly,played,El Salvador,SLV,Panama,PAN,TRUE,2,1,win,San Salvador,El Salvador,FALSE,,,,,
-1984-06-27,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1478,1549,1492,1535,14
-1984-07-29,CONCACAF Championship qualification,played,El Salvador,SLV,Puerto Rico,,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1492,965,1494,963,2
-1984-08-05,CONCACAF Championship qualification,played,El Salvador,SLV,Puerto Rico,,FALSE,3,0,win,San Juan,Puerto Rico,FALSE,1494,963,1499,958,5
-1984-10-09,Friendly,played,El Salvador,SLV,United States,USA,FALSE,1,3,loss,Los Angeles,United States,FALSE,1499,1587,1488,1598,-11
-1984-10-11,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,0,1,loss,Los Angeles,United States,TRUE,1488,1764,1483,1769,-5
-1984-12-04,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,2,1,win,Los Angeles,United States,TRUE,1483,1548,1495,1536,12
-1984-12-12,Friendly,played,El Salvador,SLV,Ecuador,ECU,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1495,1525,1493,1527,-2
-1984-12-23,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,0,2,loss,Guatemala City,Guatemala,FALSE,1493,1553,1484,1562,-9
-1985-02-06,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,2,loss,San José,Costa Rica,FALSE,1484,1503,1477,1510,-7
-1985-02-13,Friendly,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1477,1510,1485,1502,8
-1985-02-24,CONCACAF Championship,played,El Salvador,SLV,Suriname,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1485,1452,1513,1424,28
-1985-02-27,CONCACAF Championship,played,El Salvador,SLV,Suriname,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1513,1424,1535,1402,22
-1985-03-10,CONCACAF Championship,played,El Salvador,SLV,Honduras,HND,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1535,1628,1509,1654,-26
-1985-03-14,CONCACAF Championship,played,El Salvador,SLV,Honduras,HND,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1509,1654,1524,1639,15
-1987-01-13,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,1,3,loss,Los Angeles,United States,TRUE,1526,1876,1522,1880,-4
-1987-03-22,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,0,2,loss,Guatemala City,Guatemala,FALSE,1522,1561,1513,1570,-9
-1987-04-29,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1505,1632,1501,1636,-4
-1987-05-06,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1501,1636,1492,1645,-9
-1987-09-30,Friendly,played,El Salvador,SLV,Canada,CAN,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1526,1581,1535,1572,9
-1987-10-07,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,0,win,Los Angeles,United States,TRUE,1535,1585,1546,1574,11
-1988-03-18,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,0,draw,Los Angeles,United States,TRUE,1511,1611,1514,1608,3
-1988-03-29,Friendly,played,El Salvador,SLV,Mexico,MEX,FALSE,0,8,loss,Mexico City,Mexico,FALSE,1514,1890,1511,1893,-3
-1988-04-10,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1511,1560,1510,1561,-1
-1988-04-21,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,0,win,Los Angeles,United States,TRUE,,,,,
-1988-08-05,Marlboro Cup,played,El Salvador,SLV,Guatemala,,TRUE,1,2,loss,Los Angeles,United States,TRUE,1468,1571,1457,1582,-11
-1988-09-25,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,0,draw,Los Angeles,United States,TRUE,1452,1577,1455,1574,3
-1988-10-01,CONCACAF Championship qualification,played,El Salvador,SLV,Curaçao,,FALSE,1,0,win,Willemstad,Curaçao,FALSE,1455,1343,1474,1324,19
-1988-10-16,CONCACAF Championship qualification,played,El Salvador,SLV,Curaçao,,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1474,1324,1489,1309,15
-1988-11-09,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,Los Angeles,United States,TRUE,1489,1504,1489,1504,0
-1989-02-21,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,1,draw,Los Angeles,United States,TRUE,1489,1556,1492,1553,3
-1989-02-23,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,0,2,loss,Los Angeles,United States,TRUE,1492,1887,1488,1891,-4
-1989-03-03,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,0,3,loss,Mazatenango,Guatemala,FALSE,1488,1513,1477,1524,-11
-1989-05-05,Friendly,played,El Salvador,SLV,Paraguay,PRY,TRUE,1,2,loss,Los Angeles,United States,TRUE,1477,1802,1473,1806,-4
-1989-05-07,Friendly,played,El Salvador,SLV,Chile,CHL,TRUE,0,1,loss,Los Angeles,United States,TRUE,1473,1772,1468,1777,-5
-1989-06-25,CONCACAF Championship,played,El Salvador,SLV,Costa Rica,CRI,TRUE,2,4,loss,San Salvador,El Salvador,FALSE,1468,1566,1430,1604,-38
-1989-07-16,CONCACAF Championship,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1430,1604,1421,1613,-9
-1989-07-30,CONCACAF Championship,played,El Salvador,SLV,Trinidad and Tobago,TTO,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1421,1514,1402,1533,-19
-1989-08-13,CONCACAF Championship,played,El Salvador,SLV,Trinidad and Tobago,TTO,TRUE,0,0,draw,Tegucigalpa,Honduras,TRUE,1402,1533,1411,1524,9
-1989-09-17,CONCACAF Championship,played,El Salvador,SLV,United States,USA,TRUE,0,1,loss,Tegucigalpa,Honduras,TRUE,1411,1579,1397,1593,-14
-1989-11-05,CONCACAF Championship,played,El Salvador,SLV,United States,USA,FALSE,0,0,draw,St. Louis,United States,FALSE,1397,1590,1414,1573,17
-1991-04-14,UNCAF Cup,played,El Salvador,SLV,Nicaragua,,FALSE,3,2,win,Managua,Nicaragua,FALSE,,,,,
-1991-05-26,UNCAF Cup,played,El Salvador,SLV,Guatemala,,FALSE,0,0,draw,San José,Costa Rica,TRUE,1422,1454,1424,1452,2
-1991-05-29,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,7,loss,San José,Costa Rica,FALSE,1424,1675,1414,1685,-10
-1991-06-02,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,1,2,loss,San José,Costa Rica,TRUE,1414,1516,1400,1530,-14
-1991-12-08,Friendly,played,El Salvador,SLV,Hungary,HUN,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1400,1724,1406,1718,6
-1992-01-29,Friendly,played,El Salvador,SLV,CIS,,TRUE,0,3,loss,San Salvador,El Salvador,FALSE,,,,,
-1992-02-18,Friendly,played,El Salvador,SLV,United States,USA,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1403,1704,1426,1681,23
-1992-03-04,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,1426,1592,1421,1597,-5
-1992-03-17,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,1,1,draw,Los Angeles,United States,TRUE,1421,1666,1427,1660,6
-1992-04-29,Friendly,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1427,1597,1429,1595,2
-1992-07-19,FIFA World Cup qualification,played,El Salvador,SLV,Nicaragua,,FALSE,5,0,win,Managua,Nicaragua,FALSE,1429,979,1438,970,9
-1992-07-23,FIFA World Cup qualification,played,El Salvador,SLV,Nicaragua,,TRUE,5,1,win,San Salvador,El Salvador,FALSE,1438,970,1441,967,3
-1992-07-26,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1441,1831,1438,1834,-3
-1992-08-12,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,3,loss,Los Angeles,United States,TRUE,1438,1677,1431,1684,-7
-1992-09-13,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1431,1684,1452,1663,21
-1992-09-18,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,1,1,draw,San Pedro Sula,Honduras,FALSE,1452,1663,1459,1656,7
-1992-10-07,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,0,2,loss,Los Angeles,United States,TRUE,1459,1795,1455,1799,-4
-1992-10-18,FIFA World Cup qualification,played,El Salvador,SLV,Bermuda,,FALSE,0,1,loss,Hamilton,Bermuda,FALSE,1455,1414,1438,1431,-17
-1992-10-25,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1438,1538,1438,1538,0
-1992-11-01,FIFA World Cup qualification,played,El Salvador,SLV,Bermuda,,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1438,1426,1462,1402,24
-1992-11-08,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,FALSE,3,2,win,Burnaby,Canada,FALSE,1462,1548,1492,1518,30
-1992-11-22,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,FALSE,2,0,win,Kingston,Jamaica,FALSE,1492,1451,1527,1416,35
-1992-12-06,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1527,1410,1536,1401,9
-1993-02-17,Friendly,played,El Salvador,SLV,Russia,RUS,TRUE,1,2,loss,Pasadena,United States,TRUE,1536,1891,1534,1893,-2
-1993-03-05,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,TRUE,0,1,loss,Tegucigalpa,Honduras,TRUE,1534,1605,1518,1621,-16
-1993-03-07,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,TRUE,1,1,draw,Tegucigalpa,Honduras,TRUE,1518,1310,1507,1321,-11
-1993-03-09,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,3,loss,Tegucigalpa,Honduras,FALSE,1507,1703,1496,1714,-11
-1993-03-12,Friendly,played,El Salvador,SLV,Bolivia,BOL,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1496,1563,1495,1564,-1
-1993-03-23,Friendly,played,El Salvador,SLV,United States,USA,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1495,1655,1497,1653,2
-1993-04-04,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1497,1798,1527,1768,30
-1993-04-11,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,FALSE,0,2,loss,Burnaby,Canada,FALSE,1527,1565,1508,1584,-19
-1993-04-18,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,FALSE,1,3,loss,Mexico City,Mexico,FALSE,1508,1787,1502,1793,-6
-1993-04-25,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1502,1650,1490,1662,-12
-1993-05-02,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1490,1601,1471,1620,-19
-1993-05-09,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1471,1631,1494,1608,23
-1993-12-05,Friendly,played,El Salvador,SLV,United States,USA,FALSE,0,7,loss,Mission Viejo,United States,FALSE,,,,,
-1994-05-03,Miami Cup,played,El Salvador,SLV,Honduras,HND,TRUE,3,1,win,Miami,United States,TRUE,1494,1551,1520,1525,26
-1994-05-05,Miami Cup,played,El Salvador,SLV,Colombia,COL,FALSE,0,3,loss,Miami,United States,TRUE,1520,1927,1515,1932,-5
-1994-06-12,Friendly,played,El Salvador,SLV,Brazil,BRA,TRUE,0,4,loss,Fresno,United States,TRUE,1515,1961,1512,1964,-3
-1995-11-12,Friendly,played,El Salvador,SLV,Serbia,SRB,TRUE,1,4,loss,San Salvador,El Salvador,FALSE,,,,,
-1995-11-29,UNCAF Cup,played,El Salvador,SLV,Belize,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1507,1113,1511,1109,4
-1995-12-03,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1511,1594,1530,1575,19
-1995-12-07,UNCAF Cup,played,El Salvador,SLV,Guatemala,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1530,1452,1501,1481,-29
-1995-12-10,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1501,1574,1519,1556,18
-1996-01-10,Gold Cup,played,El Salvador,SLV,Trinidad and Tobago,TTO,FALSE,3,2,win,Anaheim,United States,TRUE,1519,1531,1545,1505,26
-1996-01-16,Gold Cup,played,El Salvador,SLV,United States,USA,FALSE,0,2,loss,Anaheim,United States,FALSE,1545,1722,1532,1735,-13
-1996-05-05,Friendly,played,El Salvador,SLV,Bolivia,BOL,TRUE,1,1,draw,"Washington, D.C.",United States,TRUE,1532,1689,1536,1685,4
-1996-08-14,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,1,2,loss,San Pedro Sula,Honduras,FALSE,1536,1530,1529,1537,-7
-1996-08-21,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1529,1535,1516,1548,-13
-1996-08-30,Friendly,played,El Salvador,SLV,United States,USA,FALSE,1,3,loss,Los Angeles,United States,FALSE,1516,1721,1512,1725,-4
-1996-09-08,FIFA World Cup qualification,played,El Salvador,SLV,Cuba,CUB,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1512,1547,1545,1514,33
-1996-09-19,Friendly,played,El Salvador,SLV,Venezuela,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1545,1357,1528,1374,-17
-1996-09-25,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,2,1,win,Los Angeles,United States,TRUE,1528,1464,1536,1456,8
-1996-10-06,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,FALSE,1,1,draw,Panama City,Panama,FALSE,1536,1336,1530,1342,-6
-1996-10-21,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,1,1,draw,Tegucigalpa,Honduras,FALSE,1530,1575,1534,1571,4
-1996-11-03,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,FALSE,0,1,loss,Burnaby,Canada,FALSE,1534,1634,1524,1644,-10
-1996-11-10,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1524,1347,1531,1340,7
-1996-11-20,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,1,3,loss,Los Angeles,United States,TRUE,1531,1791,1526,1796,-5
-1996-12-01,FIFA World Cup qualification,played,El Salvador,SLV,Cuba,CUB,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1526,1510,1550,1486,24
-1996-12-15,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1550,1644,1519,1675,-31
-1997-03-13,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1519,1511,1516,1514,-3
-1997-04-06,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,FALSE,0,0,draw,Burnaby,Canada,FALSE,1516,1634,1527,1623,11
-1997-04-13,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,1,draw,"Washington, D.C.",United States,TRUE,1527,1516,1527,1516,0
-1997-04-18,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,3,loss,Guatemala City,Guatemala,TRUE,1527,1578,1497,1608,-30
-1997-04-20,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,TRUE,2,0,win,Guatemala City,Guatemala,TRUE,1497,1349,1515,1331,18
-1997-04-23,UNCAF Cup,played,El Salvador,SLV,Guatemala,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1515,1518,1501,1532,-14
-1997-04-25,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,1,loss,Guatemala City,Guatemala,TRUE,1501,1656,1489,1668,-12
-1997-04-27,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,0,draw,Guatemala City,Guatemala,TRUE,1489,1555,1493,1551,4
-1997-05-04,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1493,1667,1517,1643,24
-1997-05-18,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1517,1550,1504,1563,-13
-1997-05-28,Friendly,played,El Salvador,SLV,Ecuador,ECU,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1504,1692,1493,1703,-11
-1997-06-08,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1493,1811,1484,1820,-9
-1997-06-29,FIFA World Cup qualification,played,El Salvador,SLV,United States,USA,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1484,1675,1489,1670,5
-1997-08-10,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,0,draw,San José,Costa Rica,FALSE,1489,1624,1501,1612,12
-1997-09-06,Friendly,played,El Salvador,SLV,Colombia,COL,TRUE,2,2,draw,East Rutherford,United States,TRUE,,,,,
-1997-09-14,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1501,1604,1536,1569,35
-1997-09-24,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,1,loss,Los Angeles,United States,TRUE,1536,1550,1526,1560,-10
-1997-10-05,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,FALSE,0,5,loss,Mexico City,Mexico,FALSE,1526,1806,1518,1814,-8
-1997-11-09,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1518,1638,1519,1637,1
-1997-11-16,FIFA World Cup qualification,played,El Salvador,SLV,United States,USA,FALSE,2,4,loss,Foxborough,United States,FALSE,1519,1711,1510,1720,-9
-1998-01-21,Friendly,played,El Salvador,SLV,Trinidad and Tobago,TTO,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1510,1466,1519,1457,9
-1998-02-01,Gold Cup,played,El Salvador,SLV,Guatemala,,FALSE,0,0,draw,Los Angeles,United States,TRUE,1518,1561,1521,1558,3
-1998-02-08,Gold Cup,played,El Salvador,SLV,Brazil,BRA,TRUE,0,4,loss,Los Angeles,United States,TRUE,1521,2133,1518,2136,-3
-1998-02-09,Gold Cup,played,El Salvador,SLV,Jamaica,JAM,FALSE,0,2,loss,Los Angeles,United States,TRUE,1518,1679,1497,1700,-21
-1998-11-17,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,0,2,loss,Los Angeles,United States,TRUE,1497,1869,1492,1874,-5
-1998-11-18,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,1,2,loss,Los Angeles,United States,TRUE,1492,1515,1478,1529,-14
-1999-03-19,UNCAF Cup,played,El Salvador,SLV,Guatemala,,FALSE,1,1,draw,San José,Costa Rica,TRUE,1478,1536,1481,1533,3
-1999-03-21,UNCAF Cup,played,El Salvador,SLV,Nicaragua,,TRUE,1,0,win,San José,Costa Rica,TRUE,1481,937,1483,935,2
-1999-03-24,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,1,3,loss,San José,Costa Rica,TRUE,1483,1565,1460,1588,-23
-1999-03-26,UNCAF Cup,played,El Salvador,SLV,Guatemala,,FALSE,0,1,loss,San José,Costa Rica,TRUE,1460,1523,1444,1539,-16
-1999-03-28,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,4,loss,San José,Costa Rica,FALSE,1444,1598,1430,1612,-14
-1999-05-29,Friendly,played,El Salvador,SLV,Colombia,COL,TRUE,2,1,win,East Rutherford,United States,TRUE,1430,1765,1447,1748,17
-1999-07-28,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,2,loss,Los Angeles,United States,TRUE,1447,1547,1431,1563,-16
-1999-08-18,Friendly,played,El Salvador,SLV,Greece,GRC,FALSE,1,3,loss,Kavála,Greece,FALSE,1431,1699,1428,1702,-3
-1999-08-20,Friendly,played,El Salvador,SLV,Greece,GRC,FALSE,0,3,loss,Kavála,Greece,FALSE,1428,1702,1424,1706,-4
-1999-10-06,Gold Cup qualification,played,El Salvador,SLV,Haiti,HTI,TRUE,1,1,draw,Los Angeles,United States,TRUE,1424,1392,1422,1394,-2
-1999-10-08,Gold Cup qualification,played,El Salvador,SLV,Canada,CAN,FALSE,1,2,loss,Los Angeles,United States,TRUE,1422,1541,1409,1554,-13
-1999-10-10,Gold Cup qualification,played,El Salvador,SLV,Cuba,CUB,FALSE,1,3,loss,Los Angeles,United States,TRUE,1409,1505,1387,1527,-22
-2000-02-09,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,1,5,loss,San Pedro Sula,Honduras,FALSE,1387,1620,1382,1625,-5
-2000-02-16,Friendly,played,El Salvador,SLV,Panama,PAN,FALSE,1,4,loss,Panama City,Panama,FALSE,1382,1373,1369,1386,-13
-2000-02-29,Friendly,played,El Salvador,SLV,Panama,PAN,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1369,1386,1380,1375,11
-2000-03-05,FIFA World Cup qualification,played,El Salvador,SLV,Belize,,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1380,1080,1387,1073,7
-2000-03-28,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1387,1441,1400,1428,13
-2000-04-02,FIFA World Cup qualification,played,El Salvador,SLV,Guatemala,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1400,1528,1432,1496,32
-2000-04-16,FIFA World Cup qualification,played,El Salvador,SLV,Belize,,FALSE,3,1,win,Orange Walk,Belize,FALSE,1432,1070,1443,1059,11
-2000-05-07,FIFA World Cup qualification,played,El Salvador,SLV,Guatemala,,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1443,1496,1440,1499,-3
-2000-07-01,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,0,3,loss,San Francisco,United States,TRUE,1440,1835,1437,1838,-3
-2000-07-07,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,1,loss,Los Angeles,United States,TRUE,1437,1519,1429,1527,-8
-2000-07-16,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,TRUE,2,5,loss,San Salvador,El Salvador,FALSE,1429,1684,1409,1704,-20
-2000-07-23,FIFA World Cup qualification,played,El Salvador,SLV,Saint Vincent and the Grenadines,,TRUE,7,1,win,San Salvador,El Salvador,FALSE,1409,1301,1429,1281,20
-2000-08-05,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,1,2,loss,Foxborough,United States,TRUE,,,,,
-2000-08-16,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1418,1586,1411,1593,-7
-2000-09-02,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,FALSE,0,5,loss,San Pedro Sula,Honduras,FALSE,1411,1682,1403,1690,-8
-2000-10-08,FIFA World Cup qualification,played,El Salvador,SLV,Saint Vincent and the Grenadines,,FALSE,2,1,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1403,1271,1421,1253,18
-2000-11-15,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1421,1593,1457,1557,36
-2001-03-06,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,1,1,draw,Mazatenango,Guatemala,FALSE,1457,1541,1462,1536,5
-2001-03-14,Friendly,played,El Salvador,SLV,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1462,1392,1453,1401,-9
-2001-05-23,UNCAF Cup,played,El Salvador,SLV,Nicaragua,,TRUE,3,0,win,Puerto Cortés,Honduras,TRUE,1453,913,1456,910,3
-2001-05-25,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,TRUE,2,1,win,Tegucigalpa,Honduras,TRUE,1456,1454,1476,1434,20
-2001-05-27,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,1,1,draw,San Pedro Sula,Honduras,FALSE,1476,1666,1490,1652,14
-2001-05-30,UNCAF Cup,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,San Pedro Sula,Honduras,TRUE,1490,1520,1492,1518,2
-2001-06-01,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,TRUE,1,1,draw,Tegucigalpa,Honduras,TRUE,1492,1429,1488,1433,-4
-2001-06-03,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,1,draw,San Pedro Sula,Honduras,TRUE,1488,1610,1495,1603,7
-2001-07-02,Friendly,played,El Salvador,SLV,Ecuador,ECU,TRUE,0,1,loss,East Rutherford,United States,TRUE,1495,1776,1492,1779,-3
-2001-10-31,Friendly,played,El Salvador,SLV,Mexico,MEX,FALSE,1,4,loss,Puebla,Mexico,FALSE,1492,1788,1489,1791,-3
-2001-12-15,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,0,0,draw,Miami,United States,TRUE,1489,1456,1488,1457,-1
-2002-01-19,Gold Cup,played,El Salvador,SLV,Mexico,MEX,TRUE,0,1,loss,Pasadena,United States,TRUE,1488,1809,1481,1816,-7
-2002-01-23,Gold Cup,played,El Salvador,SLV,Guatemala,,FALSE,1,0,win,Pasadena,United States,TRUE,1481,1567,1512,1536,31
-2002-01-27,Gold Cup,played,El Salvador,SLV,United States,USA,FALSE,0,4,loss,Pasadena,United States,FALSE,1512,1778,1502,1788,-10
-2002-11-17,Friendly,played,El Salvador,SLV,United States,USA,FALSE,0,2,loss,"Washington, D.C.",United States,FALSE,1502,1824,1500,1826,-2
-2003-01-17,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,Santa Ana,United States,TRUE,1500,1533,1501,1532,1
-2003-01-19,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,Los Angeles,United States,TRUE,1501,1532,1502,1531,1
-2003-02-09,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,FALSE,2,1,win,Panama City,Panama,FALSE,1502,1397,1522,1377,20
-2003-02-11,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,1,loss,Panama City,Panama,TRUE,1522,1752,1514,1760,-8
-2003-02-13,UNCAF Cup,played,El Salvador,SLV,Nicaragua,,TRUE,3,0,win,Panama City,Panama,TRUE,1514,917,1516,915,2
-2003-02-15,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,1,0,win,Panama City,Panama,TRUE,1516,1758,1548,1726,32
-2003-02-20,UNCAF Cup,played,El Salvador,SLV,Guatemala,,TRUE,0,2,loss,Panama City,Panama,TRUE,1548,1510,1515,1543,-33
-2003-06-29,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,1,1,draw,Tegucigalpa,Honduras,FALSE,1515,1685,1522,1678,7
-2003-07-02,Friendly,played,El Salvador,SLV,Paraguay,PRY,TRUE,0,1,loss,San Francisco,United States,TRUE,1522,1778,1518,1782,-4
-2003-07-06,Friendly,played,El Salvador,SLV,Mexico,MEX,TRUE,2,1,win,Carson,United States,TRUE,1518,1839,1535,1822,17
-2003-07-08,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,2,loss,Houston,United States,TRUE,1535,1556,1526,1565,-9
-2003-07-12,Gold Cup,played,El Salvador,SLV,United States,USA,FALSE,0,2,loss,Foxborough,United States,FALSE,1526,1815,1519,1822,-7
-2003-07-16,Gold Cup,played,El Salvador,SLV,Martinique,,TRUE,1,0,win,Foxborough,United States,TRUE,1519,1440,1538,1421,19
-2003-07-19,Gold Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,2,5,loss,Foxborough,United States,TRUE,1538,1762,1519,1781,-19
-2003-11-16,Friendly,played,El Salvador,SLV,Jamaica,JAM,FALSE,0,3,loss,Kingston,Jamaica,FALSE,1519,1588,1509,1598,-10
-2004-01-28,Friendly,played,El Salvador,SLV,Panama,PAN,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1509,1396,1504,1401,-5
-2004-03-31,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,3,loss,San Salvador,El Salvador,FALSE,1504,1547,1484,1567,-20
-2004-04-28,Friendly,played,El Salvador,SLV,Colombia,COL,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1484,1744,1479,1749,-5
-2004-05-12,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,3,3,draw,Houston,United States,TRUE,1479,1461,1478,1462,-1
-2004-06-13,FIFA World Cup qualification,played,El Salvador,SLV,Bermuda,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1478,1198,1482,1194,4
-2004-06-20,FIFA World Cup qualification,played,El Salvador,SLV,Bermuda,,FALSE,2,2,draw,Hamilton,Bermuda,FALSE,1482,1194,1472,1204,-10
-2004-07-18,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,1,loss,Los Angeles,United States,TRUE,1472,1553,1464,1561,-8
-2004-08-03,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,4,loss,San Salvador,El Salvador,FALSE,1464,1632,1449,1647,-15
-2004-08-06,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1449,1561,1439,1571,-10
-2004-08-18,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1439,1475,1455,1459,16
-2004-09-04,FIFA World Cup qualification,played,El Salvador,SLV,United States,USA,FALSE,0,2,loss,Foxborough,United States,FALSE,1455,1837,1451,1841,-4
-2004-09-08,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,TRUE,0,3,loss,San Salvador,El Salvador,FALSE,1451,1590,1420,1621,-31
-2004-10-09,FIFA World Cup qualification,played,El Salvador,SLV,United States,USA,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1420,1829,1411,1838,-9
-2004-10-13,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1411,1621,1425,1607,14
-2004-11-17,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,FALSE,0,3,loss,Panama City,Panama,FALSE,1425,1499,1406,1518,-19
-2005-02-19,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,TRUE,0,1,loss,Guatemala City,Guatemala,TRUE,1406,1506,1392,1520,-14
-2005-02-21,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,2,loss,Guatemala City,Guatemala,TRUE,1392,1657,1385,1664,-7
-2005-08-17,Friendly,played,El Salvador,SLV,Paraguay,PRY,FALSE,0,3,loss,Ciudad del Este,Paraguay,FALSE,1385,1748,1383,1750,-2
-2006-09-06,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1383,1728,1381,1730,-2
-2006-10-07,Friendly,played,El Salvador,SLV,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1381,1515,1377,1519,-4
-2006-11-15,Friendly,played,El Salvador,SLV,Bolivia,BOL,FALSE,1,5,loss,La Paz,Bolivia,FALSE,1377,1559,1371,1565,-6
-2006-11-29,Friendly,played,El Salvador,SLV,Panama,PAN,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1371,1503,1372,1502,1
-2007-02-08,UNCAF Cup,played,El Salvador,SLV,Belize,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1372,1094,1376,1090,4
-2007-02-10,UNCAF Cup,played,El Salvador,SLV,Nicaragua,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1376,1026,1379,1023,3
-2007-02-12,UNCAF Cup,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1379,1550,1383,1546,4
-2007-02-16,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1383,1653,1367,1669,-16
-2007-02-18,UNCAF Cup,played,El Salvador,SLV,Guatemala,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1367,1516,1350,1533,-17
-2007-03-24,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,2,loss,Fort Lauderdale,United States,TRUE,1350,1694,1346,1698,-4
-2007-03-27,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,2,loss,Cary,United States,TRUE,1346,1698,1343,1701,-3
-2007-04-17,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1343,1553,1336,1560,-7
-2007-06-07,Gold Cup,played,El Salvador,SLV,Trinidad and Tobago,TTO,TRUE,2,1,win,Carson,United States,TRUE,1336,1544,1374,1506,38
-2007-06-09,Gold Cup,played,El Salvador,SLV,Guatemala,,FALSE,0,1,loss,Carson,United States,TRUE,1374,1531,1360,1545,-14
-2007-06-12,Gold Cup,played,El Salvador,SLV,United States,USA,FALSE,0,4,loss,Foxborough,United States,FALSE,1360,1799,1356,1803,-4
-2007-08-22,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1356,1667,1379,1644,23
-2007-09-08,Friendly,played,El Salvador,SLV,Ecuador,ECU,FALSE,1,5,loss,Quito,Ecuador,FALSE,1379,1698,1376,1701,-3
-2007-10-13,Friendly,played,El Salvador,SLV,Costa Rica,CRI,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1376,1648,1381,1643,5
-2007-10-17,Friendly,played,El Salvador,SLV,Trinidad and Tobago,TTO,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1381,1502,1382,1501,1
-2007-11-18,Friendly,played,El Salvador,SLV,Jamaica,JAM,FALSE,0,3,loss,Kingston,Jamaica,FALSE,1382,1545,1376,1551,-6
-2008-01-22,Friendly,played,El Salvador,SLV,Belize,,FALSE,1,0,win,San Ignacio,Belize,FALSE,1376,1052,1380,1048,4
-2008-01-26,Friendly,played,El Salvador,SLV,Haiti,HTI,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1380,1545,1386,1539,6
-2008-01-29,Friendly,played,El Salvador,SLV,Haiti,HTI,FALSE,0,0,draw,Saint-Marc,Haiti,FALSE,1386,1539,1392,1533,6
-2008-02-06,FIFA World Cup qualification,played,El Salvador,SLV,Anguilla,,TRUE,12,0,win,San Salvador,El Salvador,FALSE,1392,541,1392,541,0
-2008-03-19,Friendly,played,El Salvador,SLV,Trinidad and Tobago,TTO,FALSE,0,1,loss,Macoya,Trinidad and Tobago,FALSE,1392,1492,1387,1497,-5
-2008-03-23,Friendly,played,El Salvador,SLV,Venezuela,,FALSE,0,1,loss,Puerto Ordaz,Venezuela,FALSE,1387,1668,1385,1670,-2
-2008-03-26,FIFA World Cup qualification,played,El Salvador,SLV,Anguilla,,FALSE,4,0,win,"Washington, D.C.",United States,TRUE,1385,541,1386,540,1
-2008-04-23,Friendly,played,El Salvador,SLV,China PR,,TRUE,2,2,draw,Los Angeles,United States,TRUE,,,,,
-2008-05-30,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,0,0,draw,"Washington, D.C.",United States,TRUE,1390,1511,1393,1508,3
-2008-06-15,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1393,1584,1387,1590,-6
-2008-06-22,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1387,1590,1426,1551,39
-2008-07-20,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,Los Angeles,United States,TRUE,1426,1508,1428,1506,2
-2008-07-26,Friendly,played,El Salvador,SLV,Jamaica,JAM,TRUE,0,0,draw,Frisco,United States,TRUE,1428,1546,1431,1543,3
-2008-08-14,Friendly,played,El Salvador,SLV,Trinidad and Tobago,TTO,TRUE,1,3,loss,"Washington, D.C.",United States,TRUE,1431,1503,1419,1515,-12
-2008-08-20,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1419,1617,1413,1623,-6
-2008-09-06,FIFA World Cup qualification,played,El Salvador,SLV,Haiti,HTI,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1413,1494,1451,1456,38
-2008-09-10,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,FALSE,2,0,win,Paramaribo,Suriname,FALSE,1451,1299,1477,1273,26
-2008-10-11,FIFA World Cup qualification,played,El Salvador,SLV,Haiti,HTI,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1477,1432,1480,1429,3
-2008-10-15,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1480,1261,1490,1251,10
-2008-10-22,Friendly,played,El Salvador,SLV,Bolivia,BOL,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1490,1626,1511,1605,21
-2008-11-19,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,3,loss,San Salvador,El Salvador,FALSE,1511,1674,1486,1699,-25
-2009-01-22,UNCAF Cup,played,El Salvador,SLV,Nicaragua,,TRUE,1,1,draw,Tegucigalpa,Honduras,TRUE,1486,1019,1469,1036,-17
-2009-01-24,UNCAF Cup,played,El Salvador,SLV,Belize,,FALSE,4,1,win,Tegucigalpa,Honduras,TRUE,1469,1096,1476,1089,7
-2009-01-26,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1476,1743,1470,1749,-6
-2009-01-30,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,3,loss,Tegucigalpa,Honduras,TRUE,,,,,
-2009-02-01,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1463,1715,1458,1720,-5
-2009-02-06,Friendly,played,El Salvador,SLV,Peru,PER,TRUE,1,0,win,Los Angeles,United States,TRUE,1458,1611,1472,1597,14
-2009-02-11,FIFA World Cup qualification,played,El Salvador,SLV,Trinidad and Tobago,TTO,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1472,1563,1471,1564,-1
-2009-03-28,FIFA World Cup qualification,played,El Salvador,SLV,United States,USA,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1471,1833,1484,1820,13
-2009-04-01,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1484,1735,1479,1740,-5
-2009-05-27,Friendly,played,El Salvador,SLV,Ecuador,ECU,TRUE,3,1,win,Los Angeles,United States,TRUE,1479,1716,1503,1692,24
-2009-05-30,Friendly,played,El Salvador,SLV,Jamaica,JAM,TRUE,0,0,draw,"Washington, D.C.",United States,TRUE,1503,1632,1507,1628,4
-2009-06-06,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1507,1794,1537,1764,30
-2009-06-10,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,FALSE,0,1,loss,San Pedro Sula,Honduras,FALSE,1537,1718,1530,1725,-7
-2009-07-03,Gold Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,2,1,win,Carson,United States,TRUE,1530,1789,1571,1748,41
-2009-07-07,Gold Cup,played,El Salvador,SLV,Canada,CAN,TRUE,0,1,loss,Columbus,United States,TRUE,1571,1617,1549,1639,-22
-2009-07-10,Gold Cup,played,El Salvador,SLV,Jamaica,JAM,TRUE,0,1,loss,Miami,United States,TRUE,1549,1592,1527,1614,-22
-2009-08-07,Friendly,played,El Salvador,SLV,Colombia,COL,FALSE,1,2,loss,Houston,United States,TRUE,1527,1731,1522,1736,-5
-2009-08-12,FIFA World Cup qualification,played,El Salvador,SLV,Trinidad and Tobago,TTO,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1522,1549,1509,1562,-13
-2009-09-05,FIFA World Cup qualification,played,El Salvador,SLV,United States,USA,FALSE,1,2,loss,Sandy City,United States,FALSE,1509,1797,1505,1801,-4
-2009-09-09,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1505,1709,1531,1683,26
-2009-10-10,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,FALSE,1,4,loss,Mexico City,Mexico,FALSE,1531,1899,1527,1903,-4
-2009-10-14,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1527,1743,1513,1757,-14
-2010-02-24,Friendly,played,El Salvador,SLV,United States,USA,FALSE,1,2,loss,Tampa,United States,FALSE,1513,1780,1511,1782,-2
-2010-03-03,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,2,loss,Los Angeles,United States,TRUE,1511,1422,1498,1435,-13
-2010-09-04,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,2,2,draw,Los Angeles,United States,TRUE,1498,1697,1506,1689,8
-2010-09-07,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1506,1432,1488,1450,-18
-2010-10-08,Friendly,played,El Salvador,SLV,Panama,PAN,FALSE,0,1,loss,Panama City,Panama,FALSE,1488,1592,1483,1597,-5
-2010-10-12,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,2,loss,Ciudad Quesada,Costa Rica,FALSE,1483,1666,1480,1669,-3
-2011-01-14,UNCAF Cup,played,El Salvador,SLV,Nicaragua,,TRUE,2,0,win,Panama City,Panama,TRUE,1480,1075,1485,1070,5
-2011-01-16,UNCAF Cup,played,El Salvador,SLV,Belize,,FALSE,5,2,win,Panama City,Panama,TRUE,1485,1089,1491,1083,6
-2011-01-18,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,FALSE,0,2,loss,Panama City,Panama,FALSE,1491,1590,1477,1604,-14
-2011-01-21,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,2,loss,Panama City,Panama,TRUE,1477,1687,1463,1701,-14
-2011-01-23,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,FALSE,0,0,draw,Panama City,Panama,FALSE,1463,1603,1475,1591,12
-2011-02-09,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1475,1433,1481,1427,6
-2011-03-24,Friendly,played,El Salvador,SLV,Cuba,CUB,FALSE,1,0,win,Havana,Cuba,FALSE,1481,1495,1494,1482,13
-2011-03-29,Friendly,played,El Salvador,SLV,Jamaica,JAM,TRUE,2,3,loss,San Salvador,El Salvador,FALSE,1494,1637,1485,1646,-9
-2011-05-29,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,2,2,draw,Houston,United States,TRUE,1485,1690,1490,1685,5
-2011-06-05,Gold Cup,played,El Salvador,SLV,Mexico,MEX,FALSE,0,5,loss,Arlington,United States,TRUE,1490,1862,1479,1873,-11
-2011-06-09,Gold Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,1,draw,Charlotte,United States,TRUE,1479,1693,1493,1679,14
-2011-06-12,Gold Cup,played,El Salvador,SLV,Cuba,CUB,TRUE,6,1,win,Chicago,United States,TRUE,1493,1429,1534,1388,41
-2011-06-19,Gold Cup,played,El Salvador,SLV,Panama,PAN,FALSE,1,1,draw,"Washington, D.C.",United States,TRUE,1534,1666,1543,1657,9
-2011-08-07,Friendly,played,El Salvador,SLV,Venezuela,,TRUE,2,1,win,"Washington, D.C.",United States,TRUE,1543,1751,1558,1736,15
-2011-09-02,FIFA World Cup qualification,played,El Salvador,SLV,Dominican Republic,,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1558,1065,1559,1064,1
-2011-09-06,FIFA World Cup qualification,played,El Salvador,SLV,Cayman Islands,,FALSE,4,1,win,George Town,Cayman Islands,FALSE,1559,954,1563,950,4
-2011-10-07,FIFA World Cup qualification,played,El Salvador,SLV,Dominican Republic,,FALSE,2,1,win,San Cristóbal,Dominican Republic,FALSE,1563,1070,1567,1066,4
-2011-10-11,FIFA World Cup qualification,played,El Salvador,SLV,Cayman Islands,,TRUE,4,0,win,San Salvador,El Salvador,FALSE,1567,941,1568,940,1
-2011-11-11,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,FALSE,3,1,win,Paramaribo,Suriname,FALSE,1568,1218,1580,1206,12
-2011-11-15,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,TRUE,4,0,win,San Salvador,El Salvador,FALSE,1580,1206,1585,1201,5
-2012-02-29,Friendly,played,El Salvador,SLV,Estonia,,TRUE,0,2,loss,Los Angeles,United States,TRUE,1585,1523,1567,1541,-18
-2012-05-23,Friendly,played,El Salvador,SLV,New Zealand,NZL,TRUE,2,2,draw,Houston,United States,TRUE,1567,1553,1567,1553,0
-2012-05-26,Friendly,played,El Salvador,SLV,Moldova,,TRUE,2,0,win,Dallas,United States,TRUE,1567,1409,1576,1400,9
-2012-06-02,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,3,loss,"Washington, D.C.",United States,TRUE,1576,1636,1561,1651,-15
-2012-06-08,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,FALSE,2,2,draw,San José,Costa Rica,FALSE,1561,1665,1572,1654,11
-2012-06-12,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1572,1891,1563,1900,-9
-2012-08-11,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,0,win,Carson,United States,TRUE,1563,1523,1572,1514,9
-2012-08-15,Friendly,played,El Salvador,SLV,Jamaica,JAM,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1572,1631,1560,1643,-12
-2012-09-07,FIFA World Cup qualification,played,El Salvador,SLV,Guyana,,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1560,1338,1545,1353,-15
-2012-09-11,FIFA World Cup qualification,played,El Salvador,SLV,Guyana,,FALSE,3,2,win,Providence,Guyana,FALSE,1545,1353,1560,1338,15
-2012-10-12,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1560,1637,1539,1658,-21
-2012-10-16,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,FALSE,0,2,loss,Torreón,Mexico,FALSE,1539,1911,1535,1915,-4
-2013-01-18,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,FALSE,1,1,draw,San José,Costa Rica,TRUE,1535,1680,1543,1672,8
-2013-01-20,UNCAF Cup,played,El Salvador,SLV,Panama,PAN,TRUE,0,0,draw,San José,Costa Rica,TRUE,1543,1693,1551,1685,8
-2013-01-25,UNCAF Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,1,loss,San José,Costa Rica,FALSE,1551,1657,1542,1666,-9
-2013-01-27,UNCAF Cup,played,El Salvador,SLV,Belize,,TRUE,1,0,win,San José,Costa Rica,TRUE,1542,1166,1546,1162,4
-2013-03-21,Friendly,played,El Salvador,SLV,Ecuador,ECU,FALSE,0,5,loss,Quito,Ecuador,FALSE,1540,1864,1537,1867,-3
-2013-05-22,Friendly,played,El Salvador,SLV,Venezuela,,FALSE,1,2,loss,Mérida,Venezuela,FALSE,1537,1729,1534,1732,-3
-2013-07-08,Gold Cup,played,El Salvador,SLV,Trinidad and Tobago,TTO,TRUE,2,2,draw,Harrison,United States,TRUE,1534,1411,1526,1419,-8
-2013-07-12,Gold Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,1,loss,Miami Gardens,United States,TRUE,1526,1662,1510,1678,-16
-2013-07-15,Gold Cup,played,El Salvador,SLV,Haiti,HTI,TRUE,1,0,win,Houston,United States,TRUE,1510,1455,1531,1434,21
-2013-07-21,Gold Cup,played,El Salvador,SLV,United States,USA,FALSE,1,5,loss,Baltimore,United States,FALSE,1531,1827,1522,1836,-9
-2014-06-04,Friendly,played,El Salvador,SLV,Ivory Coast,CIV,TRUE,1,2,loss,Frisco,United States,TRUE,1522,1768,1518,1772,-4
-2014-06-07,Friendly,played,El Salvador,SLV,Spain,ESP,TRUE,0,2,loss,Landover,United States,TRUE,1518,2106,1517,2107,-1
-2014-08-30,Friendly,played,El Salvador,SLV,Dominican Republic,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1517,1260,1520,1257,3
-2014-11-18,Friendly,played,El Salvador,SLV,Nicaragua,,FALSE,2,0,win,Managua,Nicaragua,FALSE,1501,1110,1506,1105,5
-2015-03-28,Friendly,played,El Salvador,SLV,Argentina,ARG,FALSE,0,2,loss,Summerfield,United States,TRUE,1506,2050,1505,2051,-1
-2015-05-31,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1506,1507,1491,1522,-15
-2015-06-11,FIFA World Cup qualification,played,El Salvador,SLV,Saint Kitts and Nevis,,FALSE,2,2,draw,Basseterre,Saint Kitts and Nevis,FALSE,1490,1229,1481,1238,-9
-2015-06-16,FIFA World Cup qualification,played,El Salvador,SLV,Saint Kitts and Nevis,,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1481,1238,1490,1229,9
-2015-07-08,Gold Cup,played,El Salvador,SLV,Canada,CAN,TRUE,0,0,draw,Carson,United States,TRUE,1490,1527,1493,1524,3
-2015-07-11,Gold Cup,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,1,draw,Houston,United States,TRUE,1493,1820,1511,1802,18
-2015-07-14,Gold Cup,played,El Salvador,SLV,Jamaica,JAM,FALSE,0,1,loss,Toronto,Canada,TRUE,1511,1560,1490,1581,-21
-2015-09-04,FIFA World Cup qualification,played,El Salvador,SLV,Curaçao,,FALSE,1,0,win,Willemstad,Curaçao,FALSE,1490,1130,1497,1123,7
-2015-09-08,FIFA World Cup qualification,played,El Salvador,SLV,Curaçao,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1497,1123,1499,1121,2
-2015-10-13,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,1,draw,Carson,United States,TRUE,1483,1448,1481,1450,-2
-2015-11-13,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1481,1892,1477,1896,-4
-2016-03-25,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1461,1505,1458,1508,-3
-2016-03-29,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,FALSE,0,2,loss,San Pedro Sula,Honduras,FALSE,1458,1508,1440,1526,-18
-2016-05-28,Friendly,played,El Salvador,SLV,Peru,PER,TRUE,1,3,loss,Seattle,United States,TRUE,1440,1772,1436,1776,-4
-2016-06-01,Friendly,played,El Salvador,SLV,Armenia,,TRUE,0,4,loss,Carson,United States,TRUE,1436,1507,1421,1522,-15
-2016-09-02,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,TRUE,1,3,loss,San Salvador,El Salvador,FALSE,1421,1907,1415,1913,-6
-2016-09-06,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,FALSE,1,3,loss,Vancouver,Canada,FALSE,1415,1507,1400,1522,-15
-2017-01-15,UNCAF Cup,played,El Salvador,SLV,Honduras,HND,TRUE,1,2,loss,Panama City,Panama,TRUE,1417,1569,1405,1581,-12
-2017-01-17,UNCAF Cup,played,El Salvador,SLV,Belize,,TRUE,3,1,win,Panama City,Panama,TRUE,1405,1199,1419,1185,14
-2017-01-22,UNCAF Cup,played,El Salvador,SLV,Nicaragua,,TRUE,1,0,win,Panama City,Panama,TRUE,1414,1294,1427,1281,13
-2017-03-22,Friendly,played,El Salvador,SLV,Curaçao,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1427,1222,1424,1225,-3
-2017-05-28,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,2,2,draw,"Washington, D.C.",United States,TRUE,,,,,
-2017-06-13,Friendly,played,El Salvador,SLV,Ecuador,ECU,TRUE,0,3,loss,Harrison,United States,TRUE,1429,1798,1425,1802,-4
-2017-07-09,Gold Cup,played,El Salvador,SLV,Mexico,MEX,FALSE,1,3,loss,San Diego,United States,TRUE,1425,1897,1420,1902,-5
-2017-07-13,Gold Cup,played,El Salvador,SLV,Curaçao,,TRUE,2,0,win,Denver,United States,TRUE,1420,1272,1442,1250,22
-2017-07-16,Gold Cup,played,El Salvador,SLV,Jamaica,JAM,FALSE,1,1,draw,San Antonio,United States,TRUE,1442,1521,1448,1515,6
-2017-07-19,Gold Cup,played,El Salvador,SLV,United States,USA,FALSE,0,2,loss,Philadelphia,United States,FALSE,1448,1762,1442,1768,-6
-2017-10-08,Friendly,played,El Salvador,SLV,Canada,CAN,TRUE,1,0,win,Houston,United States,TRUE,1442,1536,1455,1523,13
-2018-06-02,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,1,0,win,Houston,United States,TRUE,1455,1604,1469,1590,14
-2018-09-08,CONCACAF Nations League qualification,played,El Salvador,SLV,Montserrat,,FALSE,2,1,win,Lookout,Montserrat,FALSE,1469,644,1470,643,1
-2018-09-12,Friendly,played,El Salvador,SLV,Brazil,BRA,FALSE,0,5,loss,Landover,United States,TRUE,,,,,
-2018-10-13,CONCACAF Nations League qualification,played,El Salvador,SLV,Barbados,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1469,1135,1474,1130,5
-2018-11-16,CONCACAF Nations League qualification,played,El Salvador,SLV,Bermuda,,FALSE,0,1,loss,Hamilton,Bermuda,FALSE,1474,1150,1443,1181,-31
-2018-11-20,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1443,1521,1452,1512,9
-2019-03-06,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,3,1,win,Los Angeles,United States,TRUE,1452,1495,1469,1478,17
-2019-03-24,CONCACAF Nations League qualification,played,El Salvador,SLV,Jamaica,JAM,TRUE,2,0,win,San Salvador,El Salvador,FALSE,,,,,
-2019-03-26,Friendly,played,El Salvador,SLV,Peru,PER,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1499,1861,1526,1834,27
-2019-06-02,Friendly,played,El Salvador,SLV,Haiti,HTI,TRUE,1,0,win,"Washington, D.C.",United States,TRUE,1526,1519,1536,1509,10
-2019-06-09,Kirin Challenge Cup,played,El Salvador,SLV,Japan,JPN,FALSE,0,2,loss,Rifu,Japan,FALSE,1536,1768,1532,1772,-4
-2019-06-17,Gold Cup,played,El Salvador,SLV,Curaçao,,FALSE,1,0,win,Kingston,Jamaica,TRUE,1532,1329,1544,1317,12
-2019-06-21,Gold Cup,played,El Salvador,SLV,Jamaica,JAM,TRUE,0,0,draw,Houston,United States,TRUE,1544,1573,1546,1571,2
-2019-06-25,Gold Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,4,loss,Los Angeles,United States,TRUE,1546,1538,1498,1586,-48
-2019-09-07,CONCACAF Nations League,played,El Salvador,SLV,Saint Lucia,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1498,1093,1502,1089,4
-2019-09-10,CONCACAF Nations League,played,El Salvador,SLV,Dominican Republic,,FALSE,0,1,loss,Santiago de los Caballeros,Dominican Republic,FALSE,1502,1188,1471,1219,-31
-2019-10-12,CONCACAF Nations League,played,El Salvador,SLV,Montserrat,,FALSE,2,0,win,Lookout,Montserrat,FALSE,1471,810,1473,808,2
-2019-10-15,CONCACAF Nations League,played,El Salvador,SLV,Saint Lucia,,FALSE,2,0,win,Gros Islet,Saint Lucia,FALSE,1473,1050,1481,1042,8
-2019-11-16,CONCACAF Nations League,played,El Salvador,SLV,Montserrat,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1481,826,1482,825,1
-2019-11-19,CONCACAF Nations League,played,El Salvador,SLV,Dominican Republic,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1482,1188,1488,1182,6
-2020-01-19,Friendly,played,El Salvador,SLV,Iceland,ISL,TRUE,0,1,loss,Carson,United States,TRUE,1488,1680,1483,1685,-5
-2020-12-09,Friendly,played,El Salvador,SLV,United States,USA,FALSE,0,6,loss,Fort Lauderdale,United States,FALSE,1483,1740,1478,1745,-5
-2021-03-25,FIFA World Cup qualification,played,El Salvador,SLV,Grenada,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1478,1211,1484,1205,6
-2021-03-28,FIFA World Cup qualification,played,El Salvador,SLV,Montserrat,,FALSE,1,1,draw,Willemstad,Curaçao,TRUE,1484,874,1465,893,-19
-2021-06-05,FIFA World Cup qualification,played,El Salvador,SLV,United States Virgin Islands,,FALSE,7,0,win,Saint Croix,United States Virgin Islands,FALSE,,,,,
-2021-06-08,FIFA World Cup qualification,played,El Salvador,SLV,Antigua and Barbuda,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1467,1169,1473,1163,6
-2021-06-12,FIFA World Cup qualification,played,El Salvador,SLV,Saint Kitts and Nevis,,FALSE,4,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1473,1225,1495,1203,22
-2021-06-15,FIFA World Cup qualification,played,El Salvador,SLV,Saint Kitts and Nevis,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1495,1203,1501,1197,6
-2021-06-27,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,0,draw,Los Angeles,United States,TRUE,,,,,
-2021-07-04,Friendly,played,El Salvador,SLV,Qatar,QAT,FALSE,0,1,loss,Pula,Croatia,TRUE,1501,1654,1495,1660,-6
-2021-07-11,Gold Cup,played,El Salvador,SLV,Guatemala,,TRUE,2,0,win,Frisco,United States,TRUE,1495,1500,1533,1462,38
-2021-07-14,Gold Cup,played,El Salvador,SLV,Trinidad and Tobago,TTO,FALSE,2,0,win,Frisco,United States,TRUE,1533,1383,1555,1361,22
-2021-07-18,Gold Cup,played,El Salvador,SLV,Mexico,MEX,FALSE,0,1,loss,Dallas,United States,TRUE,1555,1879,1548,1886,-7
-2021-07-24,Gold Cup,played,El Salvador,SLV,Qatar,QAT,FALSE,2,3,loss,Glendale,United States,TRUE,1548,1692,1533,1707,-15
-2021-08-21,Friendly,played,El Salvador,SLV,Costa Rica,CRI,TRUE,0,0,draw,Carson,United States,TRUE,1533,1630,1536,1627,3
-2021-09-02,FIFA World Cup qualification,played,El Salvador,SLV,United States,USA,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1536,1861,1547,1850,11
-2021-09-05,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1547,1596,1544,1599,-3
-2021-09-08,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,FALSE,0,3,loss,Toronto,Canada,FALSE,1544,1723,1532,1735,-12
-2021-09-24,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1532,1440,1513,1459,-19
-2021-10-07,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1513,1599,1532,1580,19
-2021-10-10,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,FALSE,1,2,loss,San José,Costa Rica,FALSE,1532,1611,1521,1622,-11
-2021-10-13,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1521,1887,1510,1898,-11
-2021-11-05,Friendly,played,El Salvador,SLV,Bolivia,BOL,TRUE,0,1,loss,"Washington, D.C.",United States,TRUE,1510,1651,1504,1657,-6
-2021-11-12,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1504,1575,1502,1577,-2
-2021-11-16,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,FALSE,1,2,loss,Panama City,Panama,FALSE,1502,1617,1493,1626,-9
-2021-12-04,Friendly,played,El Salvador,SLV,Ecuador,ECU,TRUE,1,1,draw,Houston,United States,TRUE,1493,1857,1501,1849,8
-2021-12-11,Friendly,played,El Salvador,SLV,Chile,CHL,TRUE,0,1,loss,Los Angeles,United States,TRUE,1501,1790,1498,1793,-3
-2022-01-27,FIFA World Cup qualification,played,El Salvador,SLV,United States,USA,FALSE,0,1,loss,Columbus,United States,FALSE,1498,1858,1495,1861,-3
-2022-01-30,FIFA World Cup qualification,played,El Salvador,SLV,Honduras,HND,FALSE,2,0,win,San Pedro Sula,Honduras,FALSE,1495,1478,1532,1441,37
-2022-02-02,FIFA World Cup qualification,played,El Salvador,SLV,Canada,CAN,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1532,1826,1517,1841,-15
-2022-03-24,FIFA World Cup qualification,played,El Salvador,SLV,Jamaica,JAM,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1517,1538,1524,1531,7
-2022-03-27,FIFA World Cup qualification,played,El Salvador,SLV,Costa Rica,CRI,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1524,1692,1508,1708,-16
-2022-03-30,FIFA World Cup qualification,played,El Salvador,SLV,Mexico,MEX,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1508,1842,1503,1847,-5
-2022-04-24,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,0,4,loss,San Jose,United States,TRUE,1503,1474,1483,1494,-20
-2022-06-04,CONCACAF Nations League,played,El Salvador,SLV,Grenada,,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1497,1126,1501,1122,4
-2022-06-07,CONCACAF Nations League,played,El Salvador,SLV,Grenada,,FALSE,2,2,draw,St. George's,Grenada,FALSE,1501,1122,1488,1135,-13
-2022-06-14,CONCACAF Nations League,played,El Salvador,SLV,United States,USA,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1488,1830,1500,1818,12
-2022-09-27,Friendly,played,El Salvador,SLV,Peru,PER,FALSE,1,4,loss,"Washington, D.C.",United States,TRUE,1500,1839,1496,1843,-4
-2022-11-16,Friendly,played,El Salvador,SLV,Nicaragua,,FALSE,0,1,loss,Managua,Nicaragua,FALSE,1496,1251,1482,1265,-14
-2023-03-22,Friendly,played,El Salvador,SLV,Honduras,HND,FALSE,0,1,loss,Los Angeles,United States,TRUE,1482,1471,1472,1481,-10
-2023-03-27,CONCACAF Nations League,played,El Salvador,SLV,United States,USA,FALSE,0,1,loss,Orlando,United States,FALSE,1472,1808,1469,1811,-3
-2023-06-15,Friendly,played,El Salvador,SLV,Japan,JPN,FALSE,0,6,loss,Toyota,Japan,FALSE,1469,1839,1466,1842,-3
-2023-06-20,Friendly,played,El Salvador,SLV,South Korea,KOR,FALSE,1,1,draw,Daejeon,South Korea,FALSE,1466,1768,1474,1760,8
-2023-06-26,Gold Cup,played,El Salvador,SLV,Martinique,,TRUE,1,2,loss,Fort Lauderdale,United States,TRUE,1474,1418,1445,1447,-29
-2023-06-30,Gold Cup,played,El Salvador,SLV,Costa Rica,CRI,TRUE,0,0,draw,Harrison,United States,TRUE,1445,1660,1459,1646,14
-2023-07-04,Gold Cup,played,El Salvador,SLV,Panama,PAN,FALSE,2,2,draw,Houston,United States,TRUE,1459,1673,1473,1659,14
-2023-09-07,CONCACAF Nations League,played,El Salvador,SLV,Guatemala,,FALSE,0,2,loss,Guatemala City,Guatemala,FALSE,1473,1497,1453,1517,-20
-2023-09-10,CONCACAF Nations League,played,El Salvador,SLV,Trinidad and Tobago,TTO,TRUE,2,3,loss,San Salvador,El Salvador,FALSE,1453,1384,1424,1413,-29
-2023-10-13,CONCACAF Nations League,played,El Salvador,SLV,Martinique,,FALSE,0,1,loss,Fort-de-France,Martinique,FALSE,1424,1422,1409,1437,-15
-2023-10-17,CONCACAF Nations League,played,El Salvador,SLV,Martinique,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1409,1437,1405,1441,-4
-2023-11-16,Friendly,played,El Salvador,SLV,Curaçao,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1405,1339,1406,1338,1
-2023-11-20,Friendly,played,El Salvador,SLV,Curaçao,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1406,1338,1407,1337,1
-2024-02-03,Friendly,played,El Salvador,SLV,Costa Rica,CRI,FALSE,0,2,loss,San José,Costa Rica,FALSE,,,,,
-2024-03-20,Friendly,played,El Salvador,SLV,Bonaire,,FALSE,1,1,draw,"Washington, D.C.",United States,TRUE,1402,832,1393,841,-9
-2024-03-22,Friendly,played,El Salvador,SLV,Argentina,ARG,FALSE,0,3,loss,Philadelphia,United States,TRUE,1393,2139,1393,2139,0
-2024-03-26,Friendly,played,El Salvador,SLV,Honduras,HND,TRUE,1,1,draw,Los Angeles,United States,TRUE,1393,1490,1396,1487,3
-2024-06-06,FIFA World Cup qualification,played,El Salvador,SLV,Puerto Rico,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1396,1129,1380,1145,-16
-2024-06-09,FIFA World Cup qualification,played,El Salvador,SLV,Saint Vincent and the Grenadines,,FALSE,3,1,win,Paramaribo,Suriname,TRUE,1380,1075,1389,1066,9
-2024-06-14,Friendly,played,El Salvador,SLV,Peru,PER,TRUE,0,1,loss,Philadelphia,United States,TRUE,1389,1742,1387,1744,-2
-2024-07-27,Friendly,played,El Salvador,SLV,Guatemala,,FALSE,1,0,win,Carson,United States,TRUE,1387,1486,1400,1473,13
-2024-09-05,CONCACAF Nations League,played,El Salvador,SLV,Montserrat,,FALSE,4,1,win,Rincon,Bonaire,TRUE,1400,1014,1407,1007,7
-2024-09-08,CONCACAF Nations League,played,El Salvador,SLV,Bonaire,,FALSE,2,1,win,Rincon,Bonaire,FALSE,1407,834,1409,832,2
-2024-10-10,CONCACAF Nations League,played,El Salvador,SLV,Saint Vincent and the Grenadines,,FALSE,3,2,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1409,1084,1418,1075,9
-2024-10-13,CONCACAF Nations League,played,El Salvador,SLV,Saint Vincent and the Grenadines,,FALSE,1,2,loss,Kingstown,Saint Vincent and the Grenadines,FALSE,1418,1075,1386,1107,-32
-2024-11-14,CONCACAF Nations League,played,El Salvador,SLV,Bonaire,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1386,849,1387,848,1
-2024-11-17,CONCACAF Nations League,played,El Salvador,SLV,Montserrat,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1387,952,1389,950,2
-2025-06-01,Friendly,played,El Salvador,SLV,Guatemala,,TRUE,1,1,draw,Chattanooga,United States,TRUE,,,,,
-2025-06-07,FIFA World Cup qualification,played,El Salvador,SLV,Anguilla,,FALSE,3,0,win,The Valley,Anguilla,FALSE,1392,617,1393,616,1
-2025-06-10,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1393,1405,1388,1410,-5
-2025-06-17,Gold Cup,played,El Salvador,SLV,Curaçao,,FALSE,0,0,draw,San Jose,United States,TRUE,1388,1389,1388,1389,0
-2025-06-21,Gold Cup,played,El Salvador,SLV,Honduras,HND,FALSE,0,2,loss,Houston,United States,TRUE,1388,1548,1367,1569,-21
-2025-06-24,Gold Cup,played,El Salvador,SLV,Canada,CAN,FALSE,0,2,loss,Houston,United States,TRUE,1367,1778,1361,1784,-6
-2025-09-04,FIFA World Cup qualification,played,El Salvador,SLV,Guatemala,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1361,1526,1394,1493,33
-2025-09-08,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1394,1399,1369,1424,-25
-2025-10-10,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1369,1733,1362,1740,-7
-2025-10-14,FIFA World Cup qualification,played,El Salvador,SLV,Guatemala,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1362,1509,1345,1526,-17
-2025-11-13,FIFA World Cup qualification,played,El Salvador,SLV,Suriname,,FALSE,0,4,loss,Paramaribo,Suriname,FALSE,1345,1440,1327,1458,-18
-2025-11-18,FIFA World Cup qualification,played,El Salvador,SLV,Panama,PAN,FALSE,0,3,loss,Panama City,Panama,FALSE,1327,1738,1323,1742,-4
-2026-03-26,CONCACAF Series,played,El Salvador,SLV,Dominican Republic,,FALSE,2,2,draw,Santiago de los Caballeros,Dominican Republic,FALSE,1323,1293,1326,1290,3
-2026-03-29,CONCACAF Series,played,El Salvador,SLV,Martinique,,FALSE,1,0,win,Santiago de los Caballeros,Dominican Republic,TRUE,1326,1326,1341,1311,15
+tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,team_score,opponent_score,result,city,country,neutral,team_elo_start,opponent_elo_start,team_elo_end,opponent_elo_end,team_elo_delta
+,,,1921-09-14,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,7,loss,Guatemala City,Guatemala,TRUE,1500,1800,1490,1810,-10
+,,,1927-11-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1490,1382,1480,1392,-10
+,,,1927-11-08,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1480,1392,1480,1392,0
+,,,1928-12-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1480,1377,1489,1368,9
+,,,1929-05-01,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,9,0,win,San Salvador,El Salvador,FALSE,1489,1000,1491,998,2
+,,,1930-03-19,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,8,2,win,Havana,Cuba,TRUE,1491,1489,1533,1447,42
+,,,1930-03-22,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,9,loss,Havana,Cuba,TRUE,1533,1838,1520,1851,-13
+,,,1930-03-26,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,5,loss,Havana,Cuba,TRUE,1520,1851,1510,1861,-10
+,,,1930-03-29,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,4,loss,Havana,Cuba,TRUE,1510,1371,1462,1419,-48
+,,,1930-04-01,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,2,5,loss,Havana,Cuba,FALSE,1462,1661,1451,1672,-11
+,,,1935-03-24,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1451,1584,1489,1546,38
+,,,1935-03-27,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,8,loss,San Salvador,El Salvador,FALSE,1489,1585,1443,1631,-46
+,,,1935-03-28,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,4,loss,San Salvador,El Salvador,FALSE,1443,1384,1414,1413,-29
+,,,1935-03-30,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,6,loss,San Salvador,El Salvador,FALSE,1414,1846,1404,1856,-10
+,,,1935-04-03,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,6,1,win,San Salvador,El Salvador,FALSE,1404,1412,1434,1382,30
+,,,1937-10-11,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1434,1391,1440,1385,6
+,,,1938-02-12,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,7,loss,Panama City,Panama,TRUE,1440,1826,1431,1835,-9
+,,,1938-02-16,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Venezuela,,,,TRUE,3,2,win,Panama City,Panama,TRUE,1431,1284,1443,1272,12
+,,,1938-02-18,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,6,loss,Panama City,Panama,TRUE,1443,1797,1433,1807,-10
+,,,1938-02-21,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Colombia,COL,COL,CONMEBOL,FALSE,2,3,loss,Panama City,Panama,TRUE,1433,1423,1412,1444,-21
+,,,1938-02-23,Central American and Caribbean Games,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,1,win,Panama City,Panama,FALSE,1412,1291,1431,1272,19
+,,,1941-05-11,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,2,2,draw,San José,Costa Rica,TRUE,1444,1572,1453,1563,9
+,,,1941-05-13,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,8,0,win,San José,Costa Rica,TRUE,1453,997,1461,989,8
+,,,1941-05-15,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,4,3,win,San José,Costa Rica,TRUE,1461,1275,1474,1262,13
+,,,1941-05-18,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,3,loss,San José,Costa Rica,FALSE,1474,1827,1469,1832,-5
+,,,1943-12-05,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1482,1382,1469,1395,-13
+,,,1943-12-07,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,8,1,win,San Salvador,El Salvador,FALSE,1469,969,1472,966,3
+,,,1943-12-09,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,4,2,win,San Salvador,El Salvador,FALSE,1472,1774,1529,1717,57
+,,,1943-12-12,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1529,1447,1542,1434,13
+,,,1943-12-16,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,10,1,win,San Salvador,El Salvador,FALSE,1542,959,1544,957,2
+,,,1943-12-19,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,4,loss,San Salvador,El Salvador,FALSE,1544,1655,1508,1691,-36
+,,,1946-02-23,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,3,loss,San José,Costa Rica,TRUE,1508,1501,1470,1539,-38
+,,,1946-02-28,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,7,2,win,San José,Costa Rica,TRUE,1470,952,1475,947,5
+,,,1946-03-07,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,4,1,win,San José,Costa Rica,TRUE,1475,1303,1499,1279,24
+,,,1946-03-10,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,1,win,San José,Costa Rica,TRUE,1499,1399,1526,1372,27
+,,,1946-03-13,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,4,loss,San José,Costa Rica,FALSE,1526,1632,1504,1654,-22
+,,,1946-11-05,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,3,loss,San Salvador,El Salvador,FALSE,1504,1232,1486,1250,-18
+,,,1946-11-10,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,3,draw,San Salvador,El Salvador,FALSE,1486,1250,1479,1257,-7
+,,,1948-02-29,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,3,loss,Guatemala City,Guatemala,TRUE,1479,1545,1449,1575,-30
+,,,1948-03-02,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,3,loss,Guatemala City,Guatemala,FALSE,1449,1420,1414,1455,-35
+,,,1948-03-07,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,2,loss,Guatemala City,Guatemala,TRUE,1414,1332,1383,1363,-31
+,,,1948-03-09,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,1,0,win,Guatemala City,Guatemala,TRUE,1383,1488,1415,1456,32
+,,,1948-03-11,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,2,0,win,Guatemala City,Guatemala,TRUE,1415,1456,1457,1414,42
+,,,1948-03-13,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1457,1466,1465,1458,8
+,,,1948-03-16,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,2,loss,Guatemala City,Guatemala,TRUE,1465,1391,1420,1436,-45
+,,,1948-03-18,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,6,loss,Guatemala City,Guatemala,TRUE,1420,1601,1392,1629,-28
+,,,1949-08-03,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1392,1470,1406,1456,14
+,,,1949-08-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,3,loss,San Salvador,El Salvador,FALSE,1406,1456,1395,1467,-11
+,,,1950-09-02,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,1,win,Willemstad,Curaçao,TRUE,,,,,
+,,,1950-09-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,0,win,Willemstad,Curaçao,TRUE,,,,,
+,,,1953-03-08,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,5,loss,San José,Costa Rica,FALSE,1393,1566,1377,1582,-16
+,,,1953-03-10,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,4,1,win,San José,Costa Rica,TRUE,1377,961,1384,954,7
+,,,1953-03-13,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,2,3,loss,San José,Costa Rica,TRUE,1384,1426,1362,1448,-22
+,,,1953-03-15,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,3,loss,San José,Costa Rica,TRUE,1362,1392,1322,1432,-40
+,,,1953-03-19,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,1,win,San José,Costa Rica,TRUE,1322,1328,1347,1303,25
+,,,1953-03-21,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,1,1,draw,San José,Costa Rica,TRUE,,,,,
+,,,1955-06-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1414,1483,1413,1484,-1
+,,,1955-06-19,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1413,1484,1412,1485,-1
+,,,1955-08-15,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,3,2,win,Tegucigalpa,Honduras,TRUE,1412,1442,1439,1415,27
+,,,1955-08-17,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,3,loss,Tegucigalpa,Honduras,FALSE,1439,1507,1418,1528,-21
+,,,1955-08-19,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,4,loss,Tegucigalpa,Honduras,TRUE,1418,1658,1399,1677,-19
+,,,1955-08-20,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,2,1,win,Tegucigalpa,Honduras,TRUE,,,,,
+,,,1955-08-24,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Aruba,,,,TRUE,2,0,win,Tegucigalpa,Honduras,TRUE,1418,1444,1458,1404,40
+,,,1955-08-26,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,0,3,loss,Tegucigalpa,Honduras,TRUE,1458,1487,1418,1527,-40
+,,,1959-12-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1418,1465,1431,1452,13
+,,,1961-03-06,CCCF Championship,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,0,0,draw,San José,Costa Rica,TRUE,1431,1522,1437,1516,6
+,,,1963-03-23,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,6,1,win,San Salvador,El Salvador,FALSE,1550,992,1552,990,2
+,,,1963-03-25,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1552,1189,1530,1211,-22
+,,,1963-03-27,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1530,1453,1518,1465,-12
+,,,1963-03-31,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1518,1389,1504,1403,-14
+,,,1963-04-03,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,4,loss,San Salvador,El Salvador,FALSE,1504,1739,1476,1767,-28
+,,,1963-04-05,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1476,1462,1506,1432,30
+,,,1963-04-07,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1506,1603,1531,1578,25
+,,,1963-08-05,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,0,win,Kingston,Jamaica,FALSE,1531,1277,1537,1271,6
+,,,1963-08-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1537,1271,1533,1275,-4
+,,,1963-08-09,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1533,1275,1529,1279,-4
+,,,1965-03-07,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,4,0,win,San Salvador,El Salvador,FALSE,1529,960,1531,958,2
+,,,1965-03-14,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1531,1359,1541,1349,10
+,,,1965-03-28,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,Guatemala City,Guatemala,TRUE,1541,1810,1528,1823,-13
+,,,1965-03-30,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,1,1,draw,Guatemala City,Guatemala,TRUE,1528,1493,1525,1496,-3
+,,,1965-04-04,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,4,loss,Guatemala City,Guatemala,FALSE,1525,1455,1485,1495,-40
+,,,1965-04-08,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,1,win,Guatemala City,Guatemala,TRUE,1485,1826,1529,1782,44
+,,,1965-04-11,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,1,win,Guatemala City,Guatemala,TRUE,1529,1444,1558,1415,29
+,,,1966-03-25,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1558,1214,1542,1230,-16
+,,,1967-10-10,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1483,1425,1492,1416,9
+,,,1967-10-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1492,1601,1482,1611,-10
+,,,1967-10-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1482,1754,1504,1732,22
+,,,1967-11-05,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,3,loss,San Salvador,El Salvador,FALSE,1504,1611,1489,1626,-15
+,,,1968-05-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1541,1613,1557,1597,16
+,,,1968-07-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1557,1384,1555,1386,-2
+,,,1968-07-31,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1555,1386,1559,1382,4
+,,,1968-08-15,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1559,1606,1567,1598,8
+,,,1968-09-11,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1567,1692,1568,1691,1
+,,,1968-11-14,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,3,loss,San José,Costa Rica,FALSE,1538,1687,1531,1694,-7
+,,,1968-12-01,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,TRUE,6,0,win,San Salvador,El Salvador,FALSE,,,,,
+,,,1968-12-12,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1568,1459,1577,1450,9
+,,,1968-12-15,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1577,1450,1586,1441,9
+,,,1968-12-22,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,FALSE,1,4,loss,Paramaribo,Dutch Guyana,FALSE,,,,,
+,,,1969-05-14,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,1,4,loss,San Salvador,El Salvador,FALSE,1554,1611,1534,1631,-20
+,,,1969-06-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1534,1452,1515,1471,-19
+,,,1969-06-15,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1515,1471,1536,1450,21
+,,,1969-06-27,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,3,2,win,Mexico City,Mexico,TRUE,1536,1450,1551,1435,15
+,,,1969-09-14,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1551,1655,1561,1645,10
+,,,1969-09-21,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,2,1,win,Port-au-Prince,Haiti,FALSE,1561,1512,1584,1489,23
+,,,1969-09-28,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,3,loss,San Salvador,El Salvador,FALSE,1584,1489,1531,1542,-53
+,,,1969-10-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Kingston,Jamaica,TRUE,1531,1542,1552,1521,21
+,,,1970-02-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Soviet Union,SUN,SUN,UEFA,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1552,1941,1547,1946,-5
+,,,1970-02-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,FALSE,1547,1692,1541,1698,-6
+,,,1970-04-21,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,0,3,loss,Lima,Peru,FALSE,1541,1685,1534,1692,-7
+WC-1970,WC-1970_005,5,1970-06-03,FIFA World Cup,played,El Salvador,SLV,SLV,CONCACAF,Belgium,BEL,BEL,UEFA,FALSE,0,3,loss,Mexico City,Mexico,TRUE,1534,1779,1513,1800,-21
+WC-1970,WC-1970_016,16,1970-06-07,FIFA World Cup,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,4,loss,Mexico City,Mexico,FALSE,1513,1714,1496,1731,-17
+WC-1970,WC-1970_018,18,1970-06-10,FIFA World Cup,played,El Salvador,SLV,SLV,CONCACAF,Soviet Union,SUN,SUN,UEFA,TRUE,0,2,loss,Mexico City,Mexico,TRUE,1496,1960,1490,1966,-6
+,,,1971-02-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Soviet Union,SUN,SUN,UEFA,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1490,1938,1488,1940,-2
+,,,1971-09-09,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1521,1031,1525,1027,4
+,,,1971-09-15,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1525,1027,1526,1026,1
+,,,1972-10-01,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,FALSE,1526,1630,1519,1637,-7
+,,,1972-10-08,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1519,1637,1510,1646,-9
+,,,1972-12-03,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1510,1551,1498,1563,-12
+,,,1972-12-10,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1498,1563,1476,1585,-22
+,,,1974-01-25,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,,,,,
+,,,1976-02-09,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Hungary,HUN,HUN,UEFA,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1464,1811,1460,1815,-4
+,,,1976-05-02,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,Panama City,Panama,FALSE,1460,1264,1455,1269,-5
+,,,1976-07-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1455,1556,1450,1561,-5
+,,,1976-08-11,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,4,1,win,San Salvador,El Salvador,FALSE,,,,,
+,,,1976-12-01,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1461,1555,1461,1555,0
+,,,1976-12-08,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,3,loss,Guatemala City,Guatemala,FALSE,1461,1599,1449,1611,-12
+,,,1976-12-15,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,FALSE,1449,1561,1460,1550,11
+,,,1976-12-19,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1460,1602,1494,1568,34
+,,,1977-09-15,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1494,1447,1480,1461,-14
+,,,1977-09-30,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,0,draw,Monterey Park,United States,FALSE,1467,1456,1470,1453,3
+,,,1977-10-08,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,2,1,win,Monterrey,Mexico,TRUE,1470,1534,1500,1504,30
+,,,1977-10-12,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,3,loss,Mexico City,Mexico,FALSE,1500,1758,1492,1766,-8
+,,,1977-10-16,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,Mexico City,Mexico,TRUE,1492,1590,1474,1608,-18
+,,,1977-10-20,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,TRUE,3,2,win,Monterrey,Mexico,TRUE,1474,1439,1496,1417,22
+,,,1977-10-23,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,2,draw,Mexico City,Mexico,TRUE,1496,1538,1499,1535,3
+,,,1978-02-15,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,5,loss,San Salvador,El Salvador,FALSE,1499,1792,1490,1801,-9
+,,,1979-12-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1479,1710,1469,1720,-10
+,,,1979-12-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,1,draw,Texcoco,Mexico,FALSE,1469,1720,1477,1712,8
+,,,1980-05-09,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,0,draw,Panama City,Panama,FALSE,1477,1244,1473,1248,-4
+,,,1980-05-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,2,loss,Port-au-Prince,Haiti,FALSE,,,,,
+,,,1980-06-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1467,1608,1487,1588,20
+,,,1980-08-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Guatemala City,Guatemala,FALSE,1487,1515,1491,1511,4
+,,,1980-08-24,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,3,1,win,Panama City,Panama,FALSE,1491,1227,1508,1210,17
+,,,1980-09-30,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1508,1511,1515,1504,7
+,,,1980-10-05,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1515,1210,1521,1204,6
+,,,1980-11-09,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,0,draw,Guatemala City,Guatemala,FALSE,1521,1507,1526,1502,5
+,,,1980-11-23,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1526,1523,1540,1509,14
+,,,1980-11-30,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1540,1509,1516,1533,-24
+,,,1980-12-10,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,0,draw,San José,Costa Rica,FALSE,1516,1494,1520,1490,4
+,,,1980-12-21,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1520,1522,1535,1507,15
+,,,1981-06-11,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1535,1549,1538,1546,3
+,,,1981-06-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1538,1546,1541,1543,3
+,,,1981-07-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,4,0,win,San Salvador,El Salvador,FALSE,1541,1543,1555,1529,14
+,,,1981-11-02,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,1,loss,Tegucigalpa,Honduras,TRUE,1555,1596,1533,1618,-22
+,,,1981-11-06,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,0,win,Tegucigalpa,Honduras,TRUE,1533,1714,1570,1677,37
+,,,1981-11-11,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,0,0,draw,Tegucigalpa,Honduras,TRUE,1570,1544,1568,1546,-2
+,,,1981-11-16,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1568,1636,1579,1625,11
+,,,1981-11-19,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,Tegucigalpa,Honduras,TRUE,1579,1484,1597,1466,18
+,,,1982-04-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1597,1611,1605,1603,8
+,,,1982-04-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,1,draw,San Pedro Sula,Honduras,FALSE,1605,1603,1608,1600,3
+WC-1982,WC-1982_004,4,1982-06-15,FIFA World Cup,played,El Salvador,SLV,SLV,CONCACAF,Hungary,HUN,HUN,UEFA,FALSE,1,10,loss,Elche,Spain,TRUE,1608,1797,1570,1835,-38
+WC-1982,WC-1982_016,16,1982-06-19,FIFA World Cup,played,El Salvador,SLV,SLV,CONCACAF,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Elche,Spain,TRUE,1570,1954,1564,1960,-6
+WC-1982,WC-1982_028,28,1982-06-23,FIFA World Cup,played,El Salvador,SLV,SLV,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,0,2,loss,Alicante,Spain,TRUE,1564,2000,1557,2007,-7
+,,,1983-07-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Los Angeles,United States,TRUE,1488,1554,1491,1551,3
+,,,1983-10-25,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,5,loss,Los Angeles,United States,TRUE,1491,1685,1481,1695,-10
+,,,1984-05-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,,,,,
+,,,1984-06-27,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1478,1549,1492,1535,14
+,,,1984-07-29,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Puerto Rico,,,,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1492,965,1494,963,2
+,,,1984-08-05,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Puerto Rico,,,,FALSE,3,0,win,San Juan,Puerto Rico,FALSE,1494,963,1499,958,5
+,,,1984-10-09,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,3,loss,Los Angeles,United States,FALSE,1499,1587,1488,1598,-11
+,,,1984-10-11,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,Los Angeles,United States,TRUE,1488,1764,1483,1769,-5
+,,,1984-12-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,1,win,Los Angeles,United States,TRUE,1483,1548,1495,1536,12
+,,,1984-12-12,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1495,1525,1493,1527,-2
+,,,1984-12-23,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,2,loss,Guatemala City,Guatemala,FALSE,1493,1553,1484,1562,-9
+,,,1985-02-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,San José,Costa Rica,FALSE,1484,1503,1477,1510,-7
+,,,1985-02-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1477,1510,1485,1502,8
+,,,1985-02-24,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1485,1452,1513,1424,28
+,,,1985-02-27,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1513,1424,1535,1402,22
+,,,1985-03-10,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1535,1628,1509,1654,-26
+,,,1985-03-14,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,0,draw,Tegucigalpa,Honduras,FALSE,1509,1654,1524,1639,15
+,,,1987-01-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,3,loss,Los Angeles,United States,TRUE,1526,1876,1522,1880,-4
+,,,1987-03-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,2,loss,Guatemala City,Guatemala,FALSE,1522,1561,1513,1570,-9
+,,,1987-04-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1505,1632,1501,1636,-4
+,,,1987-05-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1501,1636,1492,1645,-9
+,,,1987-09-30,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1526,1581,1535,1572,9
+,,,1987-10-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,0,win,Los Angeles,United States,TRUE,1535,1585,1546,1574,11
+,,,1988-03-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,0,draw,Los Angeles,United States,TRUE,1511,1611,1514,1608,3
+,,,1988-03-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,8,loss,Mexico City,Mexico,FALSE,1514,1890,1511,1893,-3
+,,,1988-04-10,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1511,1560,1510,1561,-1
+,,,1988-04-21,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,0,win,Los Angeles,United States,TRUE,,,,,
+,,,1988-08-05,Marlboro Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,2,loss,Los Angeles,United States,TRUE,1468,1571,1457,1582,-11
+,,,1988-09-25,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,0,draw,Los Angeles,United States,TRUE,1452,1577,1455,1574,3
+,,,1988-10-01,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,1,0,win,Willemstad,Curaçao,FALSE,1455,1343,1474,1324,19
+,,,1988-10-16,CONCACAF Championship qualification,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1474,1324,1489,1309,15
+,,,1988-11-09,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Los Angeles,United States,TRUE,1489,1504,1489,1504,0
+,,,1989-02-21,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,Los Angeles,United States,TRUE,1489,1556,1492,1553,3
+,,,1989-02-23,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,Los Angeles,United States,TRUE,1492,1887,1488,1891,-4
+,,,1989-03-03,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,3,loss,Mazatenango,Guatemala,FALSE,1488,1513,1477,1524,-11
+,,,1989-05-05,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,2,loss,Los Angeles,United States,TRUE,1477,1802,1473,1806,-4
+,,,1989-05-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,0,1,loss,Los Angeles,United States,TRUE,1473,1772,1468,1777,-5
+,,,1989-06-25,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,4,loss,San Salvador,El Salvador,FALSE,1468,1566,1430,1604,-38
+,,,1989-07-16,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,FALSE,1430,1604,1421,1613,-9
+,,,1989-07-30,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,2,loss,Port of Spain,Trinidad and Tobago,FALSE,1421,1514,1402,1533,-19
+,,,1989-08-13,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,0,draw,Tegucigalpa,Honduras,TRUE,1402,1533,1411,1524,9
+,,,1989-09-17,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,1,loss,Tegucigalpa,Honduras,TRUE,1411,1579,1397,1593,-14
+,,,1989-11-05,CONCACAF Championship,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,0,draw,St. Louis,United States,FALSE,1397,1590,1414,1573,17
+,,,1991-04-14,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,FALSE,3,2,win,Managua,Nicaragua,FALSE,,,,,
+,,,1991-05-26,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,0,draw,San José,Costa Rica,TRUE,1422,1454,1424,1452,2
+,,,1991-05-29,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,7,loss,San José,Costa Rica,FALSE,1424,1675,1414,1685,-10
+,,,1991-06-02,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,2,loss,San José,Costa Rica,TRUE,1414,1516,1400,1530,-14
+,,,1991-12-08,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Hungary,HUN,HUN,UEFA,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1400,1724,1406,1718,6
+,,,1992-01-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,CIS,,,,TRUE,0,3,loss,San Salvador,El Salvador,FALSE,,,,,
+,,,1992-02-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1403,1704,1426,1681,23
+,,,1992-03-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,FALSE,1426,1592,1421,1597,-5
+,,,1992-03-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,1,draw,Los Angeles,United States,TRUE,1421,1666,1427,1660,6
+,,,1992-04-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1427,1597,1429,1595,2
+,,,1992-07-19,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,FALSE,5,0,win,Managua,Nicaragua,FALSE,1429,979,1438,970,9
+,,,1992-07-23,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,5,1,win,San Salvador,El Salvador,FALSE,1438,970,1441,967,3
+,,,1992-07-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1441,1831,1438,1834,-3
+,,,1992-08-12,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,3,loss,Los Angeles,United States,TRUE,1438,1677,1431,1684,-7
+,,,1992-09-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1431,1684,1452,1663,21
+,,,1992-09-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,1,draw,San Pedro Sula,Honduras,FALSE,1452,1663,1459,1656,7
+,,,1992-10-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,Los Angeles,United States,TRUE,1459,1795,1455,1799,-4
+,,,1992-10-18,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Bermuda,,,,FALSE,0,1,loss,Hamilton,Bermuda,FALSE,1455,1414,1438,1431,-17
+,,,1992-10-25,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1438,1538,1438,1538,0
+,,,1992-11-01,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Bermuda,,,,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1438,1426,1462,1402,24
+,,,1992-11-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,3,2,win,Burnaby,Canada,FALSE,1462,1548,1492,1518,30
+,,,1992-11-22,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,2,0,win,Kingston,Jamaica,FALSE,1492,1451,1527,1416,35
+,,,1992-12-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1527,1410,1536,1401,9
+,,,1993-02-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Russia,RUS,RUS,UEFA,TRUE,1,2,loss,Pasadena,United States,TRUE,1536,1891,1534,1893,-2
+,,,1993-03-05,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Tegucigalpa,Honduras,TRUE,1534,1605,1518,1621,-16
+,,,1993-03-07,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,TRUE,1518,1310,1507,1321,-11
+,,,1993-03-09,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,3,loss,Tegucigalpa,Honduras,FALSE,1507,1703,1496,1714,-11
+,,,1993-03-12,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1496,1563,1495,1564,-1
+,,,1993-03-23,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1495,1655,1497,1653,2
+,,,1993-04-04,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1497,1798,1527,1768,30
+,,,1993-04-11,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,2,loss,Burnaby,Canada,FALSE,1527,1565,1508,1584,-19
+,,,1993-04-18,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,3,loss,Mexico City,Mexico,FALSE,1508,1787,1502,1793,-6
+,,,1993-04-25,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1502,1650,1490,1662,-12
+,,,1993-05-02,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1490,1601,1471,1620,-19
+,,,1993-05-09,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1471,1631,1494,1608,23
+,,,1993-12-05,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,7,loss,Mission Viejo,United States,FALSE,,,,,
+,,,1994-05-03,Miami Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,3,1,win,Miami,United States,TRUE,1494,1551,1520,1525,26
+,,,1994-05-05,Miami Cup,played,El Salvador,SLV,SLV,CONCACAF,Colombia,COL,COL,CONMEBOL,FALSE,0,3,loss,Miami,United States,TRUE,1520,1927,1515,1932,-5
+,,,1994-06-12,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Brazil,BRA,BRA,CONMEBOL,TRUE,0,4,loss,Fresno,United States,TRUE,1515,1961,1512,1964,-3
+,,,1995-11-12,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Serbia,SRB,SRB,UEFA,TRUE,1,4,loss,San Salvador,El Salvador,FALSE,,,,,
+,,,1995-11-29,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1507,1113,1511,1109,4
+,,,1995-12-03,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1511,1594,1530,1575,19
+,,,1995-12-07,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1530,1452,1501,1481,-29
+,,,1995-12-10,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1501,1574,1519,1556,18
+,,,1996-01-10,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,3,2,win,Anaheim,United States,TRUE,1519,1531,1545,1505,26
+,,,1996-01-16,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Anaheim,United States,FALSE,1545,1722,1532,1735,-13
+,,,1996-05-05,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,1,draw,"Washington, D.C.",United States,TRUE,1532,1689,1536,1685,4
+,,,1996-08-14,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,2,loss,San Pedro Sula,Honduras,FALSE,1536,1530,1529,1537,-7
+,,,1996-08-21,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1529,1535,1516,1548,-13
+,,,1996-08-30,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,3,loss,Los Angeles,United States,FALSE,1516,1721,1512,1725,-4
+,,,1996-09-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1512,1547,1545,1514,33
+,,,1996-09-19,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Venezuela,,,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1545,1357,1528,1374,-17
+,,,1996-09-25,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,1,win,Los Angeles,United States,TRUE,1528,1464,1536,1456,8
+,,,1996-10-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,Panama City,Panama,FALSE,1536,1336,1530,1342,-6
+,,,1996-10-21,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,1,draw,Tegucigalpa,Honduras,FALSE,1530,1575,1534,1571,4
+,,,1996-11-03,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,1,loss,Burnaby,Canada,FALSE,1534,1634,1524,1644,-10
+,,,1996-11-10,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1524,1347,1531,1340,7
+,,,1996-11-20,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,3,loss,Los Angeles,United States,TRUE,1531,1791,1526,1796,-5
+,,,1996-12-01,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1526,1510,1550,1486,24
+,,,1996-12-15,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1550,1644,1519,1675,-31
+,,,1997-03-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1519,1511,1516,1514,-3
+,,,1997-04-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,0,draw,Burnaby,Canada,FALSE,1516,1634,1527,1623,11
+,,,1997-04-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,1,draw,"Washington, D.C.",United States,TRUE,1527,1516,1527,1516,0
+,,,1997-04-18,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,3,loss,Guatemala City,Guatemala,TRUE,1527,1578,1497,1608,-30
+,,,1997-04-20,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,0,win,Guatemala City,Guatemala,TRUE,1497,1349,1515,1331,18
+,,,1997-04-23,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Guatemala City,Guatemala,FALSE,1515,1518,1501,1532,-14
+,,,1997-04-25,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,Guatemala City,Guatemala,TRUE,1501,1656,1489,1668,-12
+,,,1997-04-27,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,0,draw,Guatemala City,Guatemala,TRUE,1489,1555,1493,1551,4
+,,,1997-05-04,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1493,1667,1517,1643,24
+,,,1997-05-18,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1517,1550,1504,1563,-13
+,,,1997-05-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1504,1692,1493,1703,-11
+,,,1997-06-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1493,1811,1484,1820,-9
+,,,1997-06-29,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1484,1675,1489,1670,5
+,,,1997-08-10,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,0,draw,San José,Costa Rica,FALSE,1489,1624,1501,1612,12
+,,,1997-09-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,2,2,draw,East Rutherford,United States,TRUE,,,,,
+,,,1997-09-14,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1501,1604,1536,1569,35
+,,,1997-09-24,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,1,loss,Los Angeles,United States,TRUE,1536,1550,1526,1560,-10
+,,,1997-10-05,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,5,loss,Mexico City,Mexico,FALSE,1526,1806,1518,1814,-8
+,,,1997-11-09,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1518,1638,1519,1637,1
+,,,1997-11-16,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,2,4,loss,Foxborough,United States,FALSE,1519,1711,1510,1720,-9
+,,,1998-01-21,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1510,1466,1519,1457,9
+,,,1998-02-01,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,0,draw,Los Angeles,United States,TRUE,1518,1561,1521,1558,3
+,,,1998-02-08,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Brazil,BRA,BRA,CONMEBOL,TRUE,0,4,loss,Los Angeles,United States,TRUE,1521,2133,1518,2136,-3
+,,,1998-02-09,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,2,loss,Los Angeles,United States,TRUE,1518,1679,1497,1700,-21
+,,,1998-11-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,Los Angeles,United States,TRUE,1497,1869,1492,1874,-5
+,,,1998-11-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,2,loss,Los Angeles,United States,TRUE,1492,1515,1478,1529,-14
+,,,1999-03-19,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,1,draw,San José,Costa Rica,TRUE,1478,1536,1481,1533,3
+,,,1999-03-21,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,1,0,win,San José,Costa Rica,TRUE,1481,937,1483,935,2
+,,,1999-03-24,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,3,loss,San José,Costa Rica,TRUE,1483,1565,1460,1588,-23
+,,,1999-03-26,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,1,loss,San José,Costa Rica,TRUE,1460,1523,1444,1539,-16
+,,,1999-03-28,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,4,loss,San José,Costa Rica,FALSE,1444,1598,1430,1612,-14
+,,,1999-05-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,2,1,win,East Rutherford,United States,TRUE,1430,1765,1447,1748,17
+,,,1999-07-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,2,loss,Los Angeles,United States,TRUE,1447,1547,1431,1563,-16
+,,,1999-08-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Greece,GRC,GRC,UEFA,FALSE,1,3,loss,Kavála,Greece,FALSE,1431,1699,1428,1702,-3
+,,,1999-08-20,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Greece,GRC,GRC,UEFA,FALSE,0,3,loss,Kavála,Greece,FALSE,1428,1702,1424,1706,-4
+,,,1999-10-06,Gold Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,1,draw,Los Angeles,United States,TRUE,1424,1392,1422,1394,-2
+,,,1999-10-08,Gold Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,2,loss,Los Angeles,United States,TRUE,1422,1541,1409,1554,-13
+,,,1999-10-10,Gold Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,1,3,loss,Los Angeles,United States,TRUE,1409,1505,1387,1527,-22
+,,,2000-02-09,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,5,loss,San Pedro Sula,Honduras,FALSE,1387,1620,1382,1625,-5
+,,,2000-02-16,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,4,loss,Panama City,Panama,FALSE,1382,1373,1369,1386,-13
+,,,2000-02-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1369,1386,1380,1375,11
+,,,2000-03-05,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1380,1080,1387,1073,7
+,,,2000-03-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1387,1441,1400,1428,13
+,,,2000-04-02,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1400,1528,1432,1496,32
+,,,2000-04-16,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,FALSE,3,1,win,Orange Walk,Belize,FALSE,1432,1070,1443,1059,11
+,,,2000-05-07,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1443,1496,1440,1499,-3
+,,,2000-07-01,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,3,loss,San Francisco,United States,TRUE,1440,1835,1437,1838,-3
+,,,2000-07-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,1,loss,Los Angeles,United States,TRUE,1437,1519,1429,1527,-8
+,,,2000-07-16,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,5,loss,San Salvador,El Salvador,FALSE,1429,1684,1409,1704,-20
+,,,2000-07-23,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Saint Vincent and the Grenadines,,,,TRUE,7,1,win,San Salvador,El Salvador,FALSE,1409,1301,1429,1281,20
+,,,2000-08-05,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,2,loss,Foxborough,United States,TRUE,,,,,
+,,,2000-08-16,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,1,loss,Kingston,Jamaica,FALSE,1418,1586,1411,1593,-7
+,,,2000-09-02,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,5,loss,San Pedro Sula,Honduras,FALSE,1411,1682,1403,1690,-8
+,,,2000-10-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,2,1,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1403,1271,1421,1253,18
+,,,2000-11-15,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1421,1593,1457,1557,36
+,,,2001-03-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Mazatenango,Guatemala,FALSE,1457,1541,1462,1536,5
+,,,2001-03-14,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1462,1392,1453,1401,-9
+,,,2001-05-23,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,3,0,win,Puerto Cortés,Honduras,TRUE,1453,913,1456,910,3
+,,,2001-05-25,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,1,win,Tegucigalpa,Honduras,TRUE,1456,1454,1476,1434,20
+,,,2001-05-27,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,1,draw,San Pedro Sula,Honduras,FALSE,1476,1666,1490,1652,14
+,,,2001-05-30,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,San Pedro Sula,Honduras,TRUE,1490,1520,1492,1518,2
+,,,2001-06-01,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,Tegucigalpa,Honduras,TRUE,1492,1429,1488,1433,-4
+,,,2001-06-03,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,San Pedro Sula,Honduras,TRUE,1488,1610,1495,1603,7
+,,,2001-07-02,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,1,loss,East Rutherford,United States,TRUE,1495,1776,1492,1779,-3
+,,,2001-10-31,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,4,loss,Puebla,Mexico,FALSE,1492,1788,1489,1791,-3
+,,,2001-12-15,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,0,draw,Miami,United States,TRUE,1489,1456,1488,1457,-1
+,,,2002-01-19,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,1,loss,Pasadena,United States,TRUE,1488,1809,1481,1816,-7
+,,,2002-01-23,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,0,win,Pasadena,United States,TRUE,1481,1567,1512,1536,31
+,,,2002-01-27,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,4,loss,Pasadena,United States,FALSE,1512,1778,1502,1788,-10
+,,,2002-11-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,"Washington, D.C.",United States,FALSE,1502,1824,1500,1826,-2
+,,,2003-01-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Santa Ana,United States,TRUE,1500,1533,1501,1532,1
+,,,2003-01-19,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Los Angeles,United States,TRUE,1501,1532,1502,1531,1
+,,,2003-02-09,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,1,win,Panama City,Panama,FALSE,1502,1397,1522,1377,20
+,,,2003-02-11,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,Panama City,Panama,TRUE,1522,1752,1514,1760,-8
+,,,2003-02-13,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,3,0,win,Panama City,Panama,TRUE,1514,917,1516,915,2
+,,,2003-02-15,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,0,win,Panama City,Panama,TRUE,1516,1758,1548,1726,32
+,,,2003-02-20,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,2,loss,Panama City,Panama,TRUE,1548,1510,1515,1543,-33
+,,,2003-06-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,1,draw,Tegucigalpa,Honduras,FALSE,1515,1685,1522,1678,7
+,,,2003-07-02,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,1,loss,San Francisco,United States,TRUE,1522,1778,1518,1782,-4
+,,,2003-07-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,Carson,United States,TRUE,1518,1839,1535,1822,17
+,,,2003-07-08,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,2,loss,Houston,United States,TRUE,1535,1556,1526,1565,-9
+,,,2003-07-12,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Foxborough,United States,FALSE,1526,1815,1519,1822,-7
+,,,2003-07-16,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Martinique,,,,TRUE,1,0,win,Foxborough,United States,TRUE,1519,1440,1538,1421,19
+,,,2003-07-19,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,5,loss,Foxborough,United States,TRUE,1538,1762,1519,1781,-19
+,,,2003-11-16,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,3,loss,Kingston,Jamaica,FALSE,1519,1588,1509,1598,-10
+,,,2004-01-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1509,1396,1504,1401,-5
+,,,2004-03-31,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,3,loss,San Salvador,El Salvador,FALSE,1504,1547,1484,1567,-20
+,,,2004-04-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1484,1744,1479,1749,-5
+,,,2004-05-12,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,3,3,draw,Houston,United States,TRUE,1479,1461,1478,1462,-1
+,,,2004-06-13,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Bermuda,,,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1478,1198,1482,1194,4
+,,,2004-06-20,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Bermuda,,,,FALSE,2,2,draw,Hamilton,Bermuda,FALSE,1482,1194,1472,1204,-10
+,,,2004-07-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,1,loss,Los Angeles,United States,TRUE,1472,1553,1464,1561,-8
+,,,2004-08-03,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,4,loss,San Salvador,El Salvador,FALSE,1464,1632,1449,1647,-15
+,,,2004-08-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1449,1561,1439,1571,-10
+,,,2004-08-18,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1439,1475,1455,1459,16
+,,,2004-09-04,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Foxborough,United States,FALSE,1455,1837,1451,1841,-4
+,,,2004-09-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,3,loss,San Salvador,El Salvador,FALSE,1451,1590,1420,1621,-31
+,,,2004-10-09,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1420,1829,1411,1838,-9
+,,,2004-10-13,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1411,1621,1425,1607,14
+,,,2004-11-17,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,3,loss,Panama City,Panama,FALSE,1425,1499,1406,1518,-19
+,,,2005-02-19,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,Guatemala City,Guatemala,TRUE,1406,1506,1392,1520,-14
+,,,2005-02-21,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,Guatemala City,Guatemala,TRUE,1392,1657,1385,1664,-7
+,,,2005-08-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,3,loss,Ciudad del Este,Paraguay,FALSE,1385,1748,1383,1750,-2
+,,,2006-09-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1383,1728,1381,1730,-2
+,,,2006-10-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1381,1515,1377,1519,-4
+,,,2006-11-15,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,FALSE,1,5,loss,La Paz,Bolivia,FALSE,1377,1559,1371,1565,-6
+,,,2006-11-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1371,1503,1372,1502,1
+,,,2007-02-08,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1372,1094,1376,1090,4
+,,,2007-02-10,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1376,1026,1379,1023,3
+,,,2007-02-12,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1379,1550,1383,1546,4
+,,,2007-02-16,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1383,1653,1367,1669,-16
+,,,2007-02-18,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1367,1516,1350,1533,-17
+,,,2007-03-24,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,2,loss,Fort Lauderdale,United States,TRUE,1350,1694,1346,1698,-4
+,,,2007-03-27,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,2,loss,Cary,United States,TRUE,1346,1698,1343,1701,-3
+,,,2007-04-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1343,1553,1336,1560,-7
+,,,2007-06-07,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,Carson,United States,TRUE,1336,1544,1374,1506,38
+,,,2007-06-09,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,1,loss,Carson,United States,TRUE,1374,1531,1360,1545,-14
+,,,2007-06-12,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,4,loss,Foxborough,United States,FALSE,1360,1799,1356,1803,-4
+,,,2007-08-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1356,1667,1379,1644,23
+,,,2007-09-08,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,5,loss,Quito,Ecuador,FALSE,1379,1698,1376,1701,-3
+,,,2007-10-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1376,1648,1381,1643,5
+,,,2007-10-17,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1381,1502,1382,1501,1
+,,,2007-11-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,3,loss,Kingston,Jamaica,FALSE,1382,1545,1376,1551,-6
+,,,2008-01-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,FALSE,1,0,win,San Ignacio,Belize,FALSE,1376,1052,1380,1048,4
+,,,2008-01-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1380,1545,1386,1539,6
+,,,2008-01-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Saint-Marc,Haiti,FALSE,1386,1539,1392,1533,6
+,,,2008-02-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Anguilla,,,,TRUE,12,0,win,San Salvador,El Salvador,FALSE,1392,541,1392,541,0
+,,,2008-03-19,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,Macoya,Trinidad and Tobago,FALSE,1392,1492,1387,1497,-5
+,,,2008-03-23,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Venezuela,,,,FALSE,0,1,loss,Puerto Ordaz,Venezuela,FALSE,1387,1668,1385,1670,-2
+,,,2008-03-26,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Anguilla,,,,FALSE,4,0,win,"Washington, D.C.",United States,TRUE,1385,541,1386,540,1
+,,,2008-04-23,Friendly,played,El Salvador,SLV,SLV,CONCACAF,China PR,,,,TRUE,2,2,draw,Los Angeles,United States,TRUE,,,,,
+,,,2008-05-30,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,0,draw,"Washington, D.C.",United States,TRUE,1390,1511,1393,1508,3
+,,,2008-06-15,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1393,1584,1387,1590,-6
+,,,2008-06-22,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1387,1590,1426,1551,39
+,,,2008-07-20,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Los Angeles,United States,TRUE,1426,1508,1428,1506,2
+,,,2008-07-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,Frisco,United States,TRUE,1428,1546,1431,1543,3
+,,,2008-08-14,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,1,3,loss,"Washington, D.C.",United States,TRUE,1431,1503,1419,1515,-12
+,,,2008-08-20,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,FALSE,1419,1617,1413,1623,-6
+,,,2008-09-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,5,0,win,San Salvador,El Salvador,FALSE,1413,1494,1451,1456,38
+,,,2008-09-10,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,FALSE,2,0,win,Paramaribo,Suriname,FALSE,1451,1299,1477,1273,26
+,,,2008-10-11,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1477,1432,1480,1429,3
+,,,2008-10-15,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1480,1261,1490,1251,10
+,,,2008-10-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1490,1626,1511,1605,21
+,,,2008-11-19,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,3,loss,San Salvador,El Salvador,FALSE,1511,1674,1486,1699,-25
+,,,2009-01-22,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,1,1,draw,Tegucigalpa,Honduras,TRUE,1486,1019,1469,1036,-17
+,,,2009-01-24,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,FALSE,4,1,win,Tegucigalpa,Honduras,TRUE,1469,1096,1476,1089,7
+,,,2009-01-26,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Tegucigalpa,Honduras,FALSE,1476,1743,1470,1749,-6
+,,,2009-01-30,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,3,loss,Tegucigalpa,Honduras,TRUE,,,,,
+,,,2009-02-01,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1463,1715,1458,1720,-5
+,,,2009-02-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,1,0,win,Los Angeles,United States,TRUE,1458,1611,1472,1597,14
+,,,2009-02-11,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1472,1563,1471,1564,-1
+,,,2009-03-28,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1471,1833,1484,1820,13
+,,,2009-04-01,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,FALSE,1484,1735,1479,1740,-5
+,,,2009-05-27,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,3,1,win,Los Angeles,United States,TRUE,1479,1716,1503,1692,24
+,,,2009-05-30,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,"Washington, D.C.",United States,TRUE,1503,1632,1507,1628,4
+,,,2009-06-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,San Salvador,El Salvador,FALSE,1507,1794,1537,1764,30
+,,,2009-06-10,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,San Pedro Sula,Honduras,FALSE,1537,1718,1530,1725,-7
+,,,2009-07-03,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,1,win,Carson,United States,TRUE,1530,1789,1571,1748,41
+,,,2009-07-07,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,1,loss,Columbus,United States,TRUE,1571,1617,1549,1639,-22
+,,,2009-07-10,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,1,loss,Miami,United States,TRUE,1549,1592,1527,1614,-22
+,,,2009-08-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Colombia,COL,COL,CONMEBOL,FALSE,1,2,loss,Houston,United States,TRUE,1527,1731,1522,1736,-5
+,,,2009-08-12,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,0,1,loss,Port of Spain,Trinidad and Tobago,FALSE,1522,1549,1509,1562,-13
+,,,2009-09-05,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Sandy City,United States,FALSE,1509,1797,1505,1801,-4
+,,,2009-09-09,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1505,1709,1531,1683,26
+,,,2009-10-10,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,4,loss,Mexico City,Mexico,FALSE,1531,1899,1527,1903,-4
+,,,2009-10-14,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1527,1743,1513,1757,-14
+,,,2010-02-24,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,2,loss,Tampa,United States,FALSE,1513,1780,1511,1782,-2
+,,,2010-03-03,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,2,loss,Los Angeles,United States,TRUE,1511,1422,1498,1435,-13
+,,,2010-09-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,2,draw,Los Angeles,United States,TRUE,1498,1697,1506,1689,8
+,,,2010-09-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1506,1432,1488,1450,-18
+,,,2010-10-08,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,1,loss,Panama City,Panama,FALSE,1488,1592,1483,1597,-5
+,,,2010-10-12,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,Ciudad Quesada,Costa Rica,FALSE,1483,1666,1480,1669,-3
+,,,2011-01-14,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,2,0,win,Panama City,Panama,TRUE,1480,1075,1485,1070,5
+,,,2011-01-16,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,FALSE,5,2,win,Panama City,Panama,TRUE,1485,1089,1491,1083,6
+,,,2011-01-18,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,2,loss,Panama City,Panama,FALSE,1491,1590,1477,1604,-14
+,,,2011-01-21,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Panama City,Panama,TRUE,1477,1687,1463,1701,-14
+,,,2011-01-23,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,0,draw,Panama City,Panama,FALSE,1463,1603,1475,1591,12
+,,,2011-02-09,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1475,1433,1481,1427,6
+,,,2011-03-24,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,FALSE,1,0,win,Havana,Cuba,FALSE,1481,1495,1494,1482,13
+,,,2011-03-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,3,loss,San Salvador,El Salvador,FALSE,1494,1637,1485,1646,-9
+,,,2011-05-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,2,draw,Houston,United States,TRUE,1485,1690,1490,1685,5
+,,,2011-06-05,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,5,loss,Arlington,United States,TRUE,1490,1862,1479,1873,-11
+,,,2011-06-09,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,Charlotte,United States,TRUE,1479,1693,1493,1679,14
+,,,2011-06-12,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Cuba,CUB,CUB,CONCACAF,TRUE,6,1,win,Chicago,United States,TRUE,1493,1429,1534,1388,41
+,,,2011-06-19,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,1,draw,"Washington, D.C.",United States,TRUE,1534,1666,1543,1657,9
+,,,2011-08-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Venezuela,,,,TRUE,2,1,win,"Washington, D.C.",United States,TRUE,1543,1751,1558,1736,15
+,,,2011-09-02,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Dominican Republic,,,,TRUE,3,2,win,San Salvador,El Salvador,FALSE,1558,1065,1559,1064,1
+,,,2011-09-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Cayman Islands,,,,FALSE,4,1,win,George Town,Cayman Islands,FALSE,1559,954,1563,950,4
+,,,2011-10-07,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Dominican Republic,,,,FALSE,2,1,win,San Cristóbal,Dominican Republic,FALSE,1563,1070,1567,1066,4
+,,,2011-10-11,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Cayman Islands,,,,TRUE,4,0,win,San Salvador,El Salvador,FALSE,1567,941,1568,940,1
+,,,2011-11-11,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,FALSE,3,1,win,Paramaribo,Suriname,FALSE,1568,1218,1580,1206,12
+,,,2011-11-15,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,TRUE,4,0,win,San Salvador,El Salvador,FALSE,1580,1206,1585,1201,5
+,,,2012-02-29,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Estonia,,,,TRUE,0,2,loss,Los Angeles,United States,TRUE,1585,1523,1567,1541,-18
+,,,2012-05-23,Friendly,played,El Salvador,SLV,SLV,CONCACAF,New Zealand,NZL,NZL,OFC,TRUE,2,2,draw,Houston,United States,TRUE,1567,1553,1567,1553,0
+,,,2012-05-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Moldova,,,,TRUE,2,0,win,Dallas,United States,TRUE,1567,1409,1576,1400,9
+,,,2012-06-02,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,3,loss,"Washington, D.C.",United States,TRUE,1576,1636,1561,1651,-15
+,,,2012-06-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,2,draw,San José,Costa Rica,FALSE,1561,1665,1572,1654,11
+,,,2012-06-12,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1572,1891,1563,1900,-9
+,,,2012-08-11,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,0,win,Carson,United States,TRUE,1563,1523,1572,1514,9
+,,,2012-08-15,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1572,1631,1560,1643,-12
+,,,2012-09-07,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Guyana,,,,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1560,1338,1545,1353,-15
+,,,2012-09-11,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Guyana,,,,FALSE,3,2,win,Providence,Guyana,FALSE,1545,1353,1560,1338,15
+,,,2012-10-12,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1560,1637,1539,1658,-21
+,,,2012-10-16,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Torreón,Mexico,FALSE,1539,1911,1535,1915,-4
+,,,2013-01-18,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,1,1,draw,San José,Costa Rica,TRUE,1535,1680,1543,1672,8
+,,,2013-01-20,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,0,draw,San José,Costa Rica,TRUE,1543,1693,1551,1685,8
+,,,2013-01-25,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,FALSE,1551,1657,1542,1666,-9
+,,,2013-01-27,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,TRUE,1,0,win,San José,Costa Rica,TRUE,1542,1166,1546,1162,4
+,,,2013-03-21,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,FALSE,0,5,loss,Quito,Ecuador,FALSE,1540,1864,1537,1867,-3
+,,,2013-05-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Venezuela,,,,FALSE,1,2,loss,Mérida,Venezuela,FALSE,1537,1729,1534,1732,-3
+,,,2013-07-08,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,2,draw,Harrison,United States,TRUE,1534,1411,1526,1419,-8
+,,,2013-07-12,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Miami Gardens,United States,TRUE,1526,1662,1510,1678,-16
+,,,2013-07-15,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,Houston,United States,TRUE,1510,1455,1531,1434,21
+,,,2013-07-21,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,1,5,loss,Baltimore,United States,FALSE,1531,1827,1522,1836,-9
+,,,2014-06-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ivory Coast,CIV,CIV,CAF,TRUE,1,2,loss,Frisco,United States,TRUE,1522,1768,1518,1772,-4
+,,,2014-06-07,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Spain,ESP,ESP,UEFA,TRUE,0,2,loss,Landover,United States,TRUE,1518,2106,1517,2107,-1
+,,,2014-08-30,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Dominican Republic,,,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1517,1260,1520,1257,3
+,,,2014-11-18,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,FALSE,2,0,win,Managua,Nicaragua,FALSE,1501,1110,1506,1105,5
+,,,2015-03-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,0,2,loss,Summerfield,United States,TRUE,1506,2050,1505,2051,-1
+,,,2015-05-31,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1506,1507,1491,1522,-15
+,,,2015-06-11,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Saint Kitts and Nevis,,,,FALSE,2,2,draw,Basseterre,Saint Kitts and Nevis,FALSE,1490,1229,1481,1238,-9
+,,,2015-06-16,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Saint Kitts and Nevis,,,,TRUE,4,1,win,San Salvador,El Salvador,FALSE,1481,1238,1490,1229,9
+,,,2015-07-08,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,0,draw,Carson,United States,TRUE,1490,1527,1493,1524,3
+,,,2015-07-11,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,1,draw,Houston,United States,TRUE,1493,1820,1511,1802,18
+,,,2015-07-14,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,1,loss,Toronto,Canada,TRUE,1511,1560,1490,1581,-21
+,,,2015-09-04,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,1,0,win,Willemstad,Curaçao,FALSE,1490,1130,1497,1123,7
+,,,2015-09-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1497,1123,1499,1121,2
+,,,2015-10-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,1,draw,Carson,United States,TRUE,1483,1448,1481,1450,-2
+,,,2015-11-13,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1481,1892,1477,1896,-4
+,,,2016-03-25,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,2,draw,San Salvador,El Salvador,FALSE,1461,1505,1458,1508,-3
+,,,2016-03-29,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,San Pedro Sula,Honduras,FALSE,1458,1508,1440,1526,-18
+,,,2016-05-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,1,3,loss,Seattle,United States,TRUE,1440,1772,1436,1776,-4
+,,,2016-06-01,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Armenia,,,,TRUE,0,4,loss,Carson,United States,TRUE,1436,1507,1421,1522,-15
+,,,2016-09-02,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,3,loss,San Salvador,El Salvador,FALSE,1421,1907,1415,1913,-6
+,,,2016-09-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,1,3,loss,Vancouver,Canada,FALSE,1415,1507,1400,1522,-15
+,,,2017-01-15,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,2,loss,Panama City,Panama,TRUE,1417,1569,1405,1581,-12
+,,,2017-01-17,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Belize,,,,TRUE,3,1,win,Panama City,Panama,TRUE,1405,1199,1419,1185,14
+,,,2017-01-22,UNCAF Cup,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,TRUE,1,0,win,Panama City,Panama,TRUE,1414,1294,1427,1281,13
+,,,2017-03-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1427,1222,1424,1225,-3
+,,,2017-05-28,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,2,2,draw,"Washington, D.C.",United States,TRUE,,,,,
+,,,2017-06-13,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,3,loss,Harrison,United States,TRUE,1429,1798,1425,1802,-4
+,,,2017-07-09,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,1,3,loss,San Diego,United States,TRUE,1425,1897,1420,1902,-5
+,,,2017-07-13,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,TRUE,2,0,win,Denver,United States,TRUE,1420,1272,1442,1250,22
+,,,2017-07-16,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,1,draw,San Antonio,United States,TRUE,1442,1521,1448,1515,6
+,,,2017-07-19,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Philadelphia,United States,FALSE,1448,1762,1442,1768,-6
+,,,2017-10-08,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,1,0,win,Houston,United States,TRUE,1442,1536,1455,1523,13
+,,,2018-06-02,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,0,win,Houston,United States,TRUE,1455,1604,1469,1590,14
+,,,2018-09-08,CONCACAF Nations League qualification,played,El Salvador,SLV,SLV,CONCACAF,Montserrat,,,,FALSE,2,1,win,Lookout,Montserrat,FALSE,1469,644,1470,643,1
+,,,2018-09-12,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,0,5,loss,Landover,United States,TRUE,,,,,
+,,,2018-10-13,CONCACAF Nations League qualification,played,El Salvador,SLV,SLV,CONCACAF,Barbados,,,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1469,1135,1474,1130,5
+,,,2018-11-16,CONCACAF Nations League qualification,played,El Salvador,SLV,SLV,CONCACAF,Bermuda,,,,FALSE,0,1,loss,Hamilton,Bermuda,FALSE,1474,1150,1443,1181,-31
+,,,2018-11-20,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1443,1521,1452,1512,9
+,,,2019-03-06,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,3,1,win,Los Angeles,United States,TRUE,1452,1495,1469,1478,17
+,,,2019-03-24,CONCACAF Nations League qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,0,win,San Salvador,El Salvador,FALSE,,,,,
+,,,2019-03-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,2,0,win,"Washington, D.C.",United States,TRUE,1499,1861,1526,1834,27
+,,,2019-06-02,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Haiti,HTI,HTI,CONCACAF,TRUE,1,0,win,"Washington, D.C.",United States,TRUE,1526,1519,1536,1509,10
+,,,2019-06-09,Kirin Challenge Cup,played,El Salvador,SLV,SLV,CONCACAF,Japan,JPN,JPN,AFC,FALSE,0,2,loss,Rifu,Japan,FALSE,1536,1768,1532,1772,-4
+,,,2019-06-17,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,1,0,win,Kingston,Jamaica,TRUE,1532,1329,1544,1317,12
+,,,2019-06-21,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,Houston,United States,TRUE,1544,1573,1546,1571,2
+,,,2019-06-25,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,4,loss,Los Angeles,United States,TRUE,1546,1538,1498,1586,-48
+,,,2019-09-07,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Saint Lucia,,,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1498,1093,1502,1089,4
+,,,2019-09-10,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Dominican Republic,,,,FALSE,0,1,loss,Santiago de los Caballeros,Dominican Republic,FALSE,1502,1188,1471,1219,-31
+,,,2019-10-12,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Montserrat,,,,FALSE,2,0,win,Lookout,Montserrat,FALSE,1471,810,1473,808,2
+,,,2019-10-15,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Saint Lucia,,,,FALSE,2,0,win,Gros Islet,Saint Lucia,FALSE,1473,1050,1481,1042,8
+,,,2019-11-16,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Montserrat,,,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1481,826,1482,825,1
+,,,2019-11-19,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Dominican Republic,,,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1482,1188,1488,1182,6
+,,,2020-01-19,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Iceland,ISL,ISL,UEFA,TRUE,0,1,loss,Carson,United States,TRUE,1488,1680,1483,1685,-5
+,,,2020-12-09,Friendly,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,6,loss,Fort Lauderdale,United States,FALSE,1483,1740,1478,1745,-5
+,,,2021-03-25,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Grenada,,,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1478,1211,1484,1205,6
+,,,2021-03-28,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Montserrat,,,,FALSE,1,1,draw,Willemstad,Curaçao,TRUE,1484,874,1465,893,-19
+,,,2021-06-05,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States Virgin Islands,,,,FALSE,7,0,win,Saint Croix,United States Virgin Islands,FALSE,,,,,
+,,,2021-06-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Antigua and Barbuda,,,,TRUE,3,0,win,San Salvador,El Salvador,FALSE,1467,1169,1473,1163,6
+,,,2021-06-12,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Saint Kitts and Nevis,,,,FALSE,4,0,win,Basseterre,Saint Kitts and Nevis,FALSE,1473,1225,1495,1203,22
+,,,2021-06-15,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Saint Kitts and Nevis,,,,TRUE,2,0,win,San Salvador,El Salvador,FALSE,1495,1203,1501,1197,6
+,,,2021-06-27,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Los Angeles,United States,TRUE,,,,,
+,,,2021-07-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Qatar,QAT,QAT,AFC,FALSE,0,1,loss,Pula,Croatia,TRUE,1501,1654,1495,1660,-6
+,,,2021-07-11,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,2,0,win,Frisco,United States,TRUE,1495,1500,1533,1462,38
+,,,2021-07-14,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,FALSE,2,0,win,Frisco,United States,TRUE,1533,1383,1555,1361,22
+,,,2021-07-18,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Dallas,United States,TRUE,1555,1879,1548,1886,-7
+,,,2021-07-24,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Qatar,QAT,QAT,AFC,FALSE,2,3,loss,Glendale,United States,TRUE,1548,1692,1533,1707,-15
+,,,2021-08-21,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,Carson,United States,TRUE,1533,1630,1536,1627,3
+,,,2021-09-02,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1536,1861,1547,1850,11
+,,,2021-09-05,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1547,1596,1544,1599,-3
+,,,2021-09-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,3,loss,Toronto,Canada,FALSE,1544,1723,1532,1735,-12
+,,,2021-09-24,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,2,loss,"Washington, D.C.",United States,TRUE,1532,1440,1513,1459,-19
+,,,2021-10-07,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1513,1599,1532,1580,19
+,,,2021-10-10,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,San José,Costa Rica,FALSE,1532,1611,1521,1622,-11
+,,,2021-10-13,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1521,1887,1510,1898,-11
+,,,2021-11-05,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,TRUE,0,1,loss,"Washington, D.C.",United States,TRUE,1510,1651,1504,1657,-6
+,,,2021-11-12,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1504,1575,1502,1577,-2
+,,,2021-11-16,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,1,2,loss,Panama City,Panama,FALSE,1502,1617,1493,1626,-9
+,,,2021-12-04,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,1,draw,Houston,United States,TRUE,1493,1857,1501,1849,8
+,,,2021-12-11,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Chile,CHL,CHL,CONMEBOL,TRUE,0,1,loss,Los Angeles,United States,TRUE,1501,1790,1498,1793,-3
+,,,2022-01-27,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Columbus,United States,FALSE,1498,1858,1495,1861,-3
+,,,2022-01-30,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,2,0,win,San Pedro Sula,Honduras,FALSE,1495,1478,1532,1441,37
+,,,2022-02-02,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,2,loss,San Salvador,El Salvador,FALSE,1532,1826,1517,1841,-15
+,,,2022-03-24,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,1,draw,Kingston,Jamaica,FALSE,1517,1538,1524,1531,7
+,,,2022-03-27,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1524,1692,1508,1708,-16
+,,,2022-03-30,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1508,1842,1503,1847,-5
+,,,2022-04-24,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,4,loss,San Jose,United States,TRUE,1503,1474,1483,1494,-20
+,,,2022-06-04,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Grenada,,,,TRUE,3,1,win,San Salvador,El Salvador,FALSE,1497,1126,1501,1122,4
+,,,2022-06-07,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Grenada,,,,FALSE,2,2,draw,St. George's,Grenada,FALSE,1501,1122,1488,1135,-13
+,,,2022-06-14,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1488,1830,1500,1818,12
+,,,2022-09-27,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Peru,PER,PER,CONMEBOL,FALSE,1,4,loss,"Washington, D.C.",United States,TRUE,1500,1839,1496,1843,-4
+,,,2022-11-16,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Nicaragua,,,,FALSE,0,1,loss,Managua,Nicaragua,FALSE,1496,1251,1482,1265,-14
+,,,2023-03-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Los Angeles,United States,TRUE,1482,1471,1472,1481,-10
+,,,2023-03-27,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Orlando,United States,FALSE,1472,1808,1469,1811,-3
+,,,2023-06-15,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Japan,JPN,JPN,AFC,FALSE,0,6,loss,Toyota,Japan,FALSE,1469,1839,1466,1842,-3
+,,,2023-06-20,Friendly,played,El Salvador,SLV,SLV,CONCACAF,South Korea,KOR,KOR,AFC,FALSE,1,1,draw,Daejeon,South Korea,FALSE,1466,1768,1474,1760,8
+,,,2023-06-26,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Martinique,,,,TRUE,1,2,loss,Fort Lauderdale,United States,TRUE,1474,1418,1445,1447,-29
+,,,2023-06-30,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,Harrison,United States,TRUE,1445,1660,1459,1646,14
+,,,2023-07-04,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,2,2,draw,Houston,United States,TRUE,1459,1673,1473,1659,14
+,,,2023-09-07,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,0,2,loss,Guatemala City,Guatemala,FALSE,1473,1497,1453,1517,-20
+,,,2023-09-10,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,3,loss,San Salvador,El Salvador,FALSE,1453,1384,1424,1413,-29
+,,,2023-10-13,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Martinique,,,,FALSE,0,1,loss,Fort-de-France,Martinique,FALSE,1424,1422,1409,1437,-15
+,,,2023-10-17,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Martinique,,,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1409,1437,1405,1441,-4
+,,,2023-11-16,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1405,1339,1406,1338,1
+,,,2023-11-20,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,1,1,draw,Willemstad,Curaçao,FALSE,1406,1338,1407,1337,1
+,,,2024-02-03,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,2,loss,San José,Costa Rica,FALSE,,,,,
+,,,2024-03-20,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Bonaire,,,,FALSE,1,1,draw,"Washington, D.C.",United States,TRUE,1402,832,1393,841,-9
+,,,2024-03-22,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Argentina,ARG,ARG,CONMEBOL,FALSE,0,3,loss,Philadelphia,United States,TRUE,1393,2139,1393,2139,0
+,,,2024-03-26,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,1,draw,Los Angeles,United States,TRUE,1393,1490,1396,1487,3
+,,,2024-06-06,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Puerto Rico,,,,TRUE,0,0,draw,San Salvador,El Salvador,FALSE,1396,1129,1380,1145,-16
+,,,2024-06-09,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,3,1,win,Paramaribo,Suriname,TRUE,1380,1075,1389,1066,9
+,,,2024-06-14,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,0,1,loss,Philadelphia,United States,TRUE,1389,1742,1387,1744,-2
+,,,2024-07-27,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,0,win,Carson,United States,TRUE,1387,1486,1400,1473,13
+,,,2024-09-05,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Montserrat,,,,FALSE,4,1,win,Rincon,Bonaire,TRUE,1400,1014,1407,1007,7
+,,,2024-09-08,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Bonaire,,,,FALSE,2,1,win,Rincon,Bonaire,FALSE,1407,834,1409,832,2
+,,,2024-10-10,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,3,2,win,Kingstown,Saint Vincent and the Grenadines,FALSE,1409,1084,1418,1075,9
+,,,2024-10-13,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Saint Vincent and the Grenadines,,,,FALSE,1,2,loss,Kingstown,Saint Vincent and the Grenadines,FALSE,1418,1075,1386,1107,-32
+,,,2024-11-14,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Bonaire,,,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1386,849,1387,848,1
+,,,2024-11-17,CONCACAF Nations League,played,El Salvador,SLV,SLV,CONCACAF,Montserrat,,,,TRUE,1,0,win,San Salvador,El Salvador,FALSE,1387,952,1389,950,2
+,,,2025-06-01,Friendly,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,1,1,draw,Chattanooga,United States,TRUE,,,,,
+,,,2025-06-07,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Anguilla,,,,FALSE,3,0,win,The Valley,Anguilla,FALSE,1392,617,1393,616,1
+,,,2025-06-10,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,TRUE,1,1,draw,San Salvador,El Salvador,FALSE,1393,1405,1388,1410,-5
+,,,2025-06-17,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Curaçao,,,,FALSE,0,0,draw,San Jose,United States,TRUE,1388,1389,1388,1389,0
+,,,2025-06-21,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Honduras,HND,HND,CONCACAF,FALSE,0,2,loss,Houston,United States,TRUE,1388,1548,1367,1569,-21
+,,,2025-06-24,Gold Cup,played,El Salvador,SLV,SLV,CONCACAF,Canada,CAN,CAN,CONCACAF,FALSE,0,2,loss,Houston,United States,TRUE,1367,1778,1361,1784,-6
+,,,2025-09-04,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,FALSE,1,0,win,Guatemala City,Guatemala,FALSE,1361,1526,1394,1493,33
+,,,2025-09-08,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,TRUE,1,2,loss,San Salvador,El Salvador,FALSE,1394,1399,1369,1424,-25
+,,,2025-10-10,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1369,1733,1362,1740,-7
+,,,2025-10-14,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Guatemala,,,,TRUE,0,1,loss,San Salvador,El Salvador,FALSE,1362,1509,1345,1526,-17
+,,,2025-11-13,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Suriname,,,,FALSE,0,4,loss,Paramaribo,Suriname,FALSE,1345,1440,1327,1458,-18
+,,,2025-11-18,FIFA World Cup qualification,played,El Salvador,SLV,SLV,CONCACAF,Panama,PAN,PAN,CONCACAF,FALSE,0,3,loss,Panama City,Panama,FALSE,1327,1738,1323,1742,-4
+,,,2026-03-26,CONCACAF Series,played,El Salvador,SLV,SLV,CONCACAF,Dominican Republic,,,,FALSE,2,2,draw,Santiago de los Caballeros,Dominican Republic,FALSE,1323,1293,1326,1290,3
+,,,2026-03-29,CONCACAF Series,played,El Salvador,SLV,SLV,CONCACAF,Martinique,,,,FALSE,1,0,win,Santiago de los Caballeros,Dominican Republic,TRUE,1326,1326,1341,1311,15

@@ -1,33 +1,33 @@
-country,team_code,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
-France,FRA,Winner,1,7,15,2,2002,2089,87,2002,Group Stage,32
-Brazil,BRA,Runner-up,2,7,14,10,2092,2046,-46,2002,Winner,1
-Croatia,HRV,Third Place,3,7,11,5,1874,2008,134,2002,Group Stage,32
-Netherlands,NLD,Fourth Place,4,7,13,7,1959,1995,36,2006,Round of 16,16
-Argentina,ARG,Quarter-final,8,5,10,4,1893,1932,39,2002,Group Stage,32
-Denmark,DNK,Quarter-final,8,5,9,7,1882,1882,0,2002,Round of 16,16
-Germany,DEU,Quarter-final,8,5,8,6,2058,2010,-48,2002,Runner-up,2
-Italy,ITA,Quarter-final,8,5,8,3,1972,2016,44,2002,Round of 16,16
-Chile,CHL,Round of 16,16,4,5,8,1788,1762,-26,2010,Round of 16,16
-England,ENG,Round of 16,16,4,7,4,1974,1971,-3,2002,Quarter-final,8
-Mexico,MEX,Round of 16,16,4,8,7,1847,1869,22,2002,Round of 16,16
-Nigeria,NGA,Round of 16,16,4,6,9,1703,1706,3,2002,Group Stage,32
-Norway,NOR,Round of 16,16,4,5,5,1903,1902,-1,,,
-Paraguay,PRY,Round of 16,16,4,3,2,1742,1805,63,2002,Round of 16,16
-Romania,ROU,Round of 16,16,4,4,3,1880,1883,3,,,
-Serbia,SRB,Round of 16,16,4,5,4,,,,2010,Group Stage,32
-Austria,AUT,Group Stage,32,3,3,4,1715,1702,-13,,,
-Belgium,BEL,Group Stage,32,3,3,3,1822,1825,3,2002,Round of 16,16
-Bulgaria,BGR,Group Stage,32,3,1,7,1805,1738,-67,,,
-Cameroon,CMR,Group Stage,32,3,2,5,1591,1605,14,2002,Group Stage,32
-Colombia,COL,Group Stage,32,3,1,3,1778,1752,-26,2014,Quarter-final,8
-Iran,IRN,Group Stage,32,3,2,4,1628,1660,32,2006,Group Stage,32
-Jamaica,JAM,Group Stage,32,3,3,9,1645,1645,0,,,
-Japan,JPN,Group Stage,32,3,1,4,1743,1670,-73,2002,Round of 16,16
-Morocco,MAR,Group Stage,32,3,5,5,1727,1789,62,2018,Group Stage,32
-Saudi Arabia,SAU,Group Stage,32,3,2,7,1644,1627,-17,2002,Group Stage,32
-Scotland,SCO,Group Stage,32,3,2,6,1776,1718,-58,,,
-South Africa,ZAF,Group Stage,32,3,3,6,1637,1647,10,2002,Group Stage,32
-South Korea,KOR,Group Stage,32,3,2,9,1750,1704,-46,2002,Fourth Place,4
-Spain,ESP,Group Stage,32,3,8,4,2039,1997,-42,2002,Quarter-final,8
-Tunisia,TUN,Group Stage,32,3,1,4,1632,1624,-8,2002,Group Stage,32
-United States,USA,Group Stage,32,3,1,5,1759,1705,-54,2002,Quarter-final,8
+tournament_id,year,country,team_id,team_code,confederation,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
+WC-1998,1998,France,FRA,FRA,UEFA,Winner,1,7,15,2,2002,2089,87,2002,Group Stage,32
+WC-1998,1998,Brazil,BRA,BRA,CONMEBOL,Runner-up,2,7,14,10,2092,2046,-46,2002,Winner,1
+WC-1998,1998,Croatia,HRV,HRV,UEFA,Third Place,3,7,11,5,1874,2008,134,2002,Group Stage,32
+WC-1998,1998,Netherlands,NED,NLD,UEFA,Fourth Place,4,7,13,7,1959,1995,36,2006,Round of 16,16
+WC-1998,1998,Argentina,ARG,ARG,CONMEBOL,Quarter-final,8,5,10,4,1893,1932,39,2002,Group Stage,32
+WC-1998,1998,Denmark,DNK,DNK,UEFA,Quarter-final,8,5,9,7,1882,1882,0,2002,Round of 16,16
+WC-1998,1998,Germany,GER,DEU,UEFA,Quarter-final,8,5,8,6,2058,2010,-48,2002,Runner-up,2
+WC-1998,1998,Italy,ITA,ITA,UEFA,Quarter-final,8,5,8,3,1972,2016,44,2002,Round of 16,16
+WC-1998,1998,Chile,CHL,CHL,CONMEBOL,Round of 16,16,4,5,8,1788,1762,-26,2010,Round of 16,16
+WC-1998,1998,England,ENG,ENG,UEFA,Round of 16,16,4,7,4,1974,1971,-3,2002,Quarter-final,8
+WC-1998,1998,Mexico,MEX,MEX,CONCACAF,Round of 16,16,4,8,7,1847,1869,22,2002,Round of 16,16
+WC-1998,1998,Nigeria,NGA,NGA,CAF,Round of 16,16,4,6,9,1703,1706,3,2002,Group Stage,32
+WC-1998,1998,Norway,NOR,NOR,UEFA,Round of 16,16,4,5,5,1903,1902,-1,,,
+WC-1998,1998,Paraguay,PRY,PRY,CONMEBOL,Round of 16,16,4,3,2,1742,1805,63,2002,Round of 16,16
+WC-1998,1998,Romania,ROU,ROU,UEFA,Round of 16,16,4,4,3,1880,1883,3,,,
+WC-1998,1998,Serbia,SRB,SRB,UEFA,Round of 16,16,4,5,4,,,,2010,Group Stage,32
+WC-1998,1998,Austria,AUT,AUT,UEFA,Group Stage,32,3,3,4,1715,1702,-13,,,
+WC-1998,1998,Belgium,BEL,BEL,UEFA,Group Stage,32,3,3,3,1822,1825,3,2002,Round of 16,16
+WC-1998,1998,Bulgaria,BGR,BGR,UEFA,Group Stage,32,3,1,7,1805,1738,-67,,,
+WC-1998,1998,Cameroon,CMR,CMR,CAF,Group Stage,32,3,2,5,1591,1605,14,2002,Group Stage,32
+WC-1998,1998,Colombia,COL,COL,CONMEBOL,Group Stage,32,3,1,3,1778,1752,-26,2014,Quarter-final,8
+WC-1998,1998,Iran,IRN,IRN,AFC,Group Stage,32,3,2,4,1628,1660,32,2006,Group Stage,32
+WC-1998,1998,Jamaica,JAM,JAM,CONCACAF,Group Stage,32,3,3,9,1645,1645,0,,,
+WC-1998,1998,Japan,JPN,JPN,AFC,Group Stage,32,3,1,4,1743,1670,-73,2002,Round of 16,16
+WC-1998,1998,Morocco,MAR,MAR,CAF,Group Stage,32,3,5,5,1727,1789,62,2018,Group Stage,32
+WC-1998,1998,Saudi Arabia,KSA,SAU,AFC,Group Stage,32,3,2,7,1644,1627,-17,2002,Group Stage,32
+WC-1998,1998,Scotland,SCO,SCO,UEFA,Group Stage,32,3,2,6,1776,1718,-58,,,
+WC-1998,1998,South Africa,ZAF,ZAF,CAF,Group Stage,32,3,3,6,1637,1647,10,2002,Group Stage,32
+WC-1998,1998,South Korea,KOR,KOR,AFC,Group Stage,32,3,2,9,1750,1704,-46,2002,Fourth Place,4
+WC-1998,1998,Spain,ESP,ESP,UEFA,Group Stage,32,3,8,4,2039,1997,-42,2002,Quarter-final,8
+WC-1998,1998,Tunisia,TUN,TUN,CAF,Group Stage,32,3,1,4,1632,1624,-8,2002,Group Stage,32
+WC-1998,1998,United States,USA,USA,CONCACAF,Group Stage,32,3,1,5,1759,1705,-54,2002,Quarter-final,8

@@ -1,7 +1,7 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-2006 FIFA Men's World Cup,WC-2006,2006,11,2006-06-12,Group Stage,played,Czechia,CZE,United States,USA,FALSE,Gelsenkirchen,Germany,TRUE,1971,1824
-2006 FIFA Men's World Cup,WC-2006,2006,24,2006-06-17,Group Stage,played,Czechia,CZE,Ghana,GHA,TRUE,Cologne,Germany,TRUE,2003,1604
-2006 FIFA Men's World Cup,WC-2006,2006,42,2006-06-22,Group Stage,played,Czechia,CZE,Italy,ITA,TRUE,Hamburg,Germany,TRUE,1921,1942
-2026 FIFA Men's World Cup,WC-2026,2026,2,2026-06-11,Group Stage,scheduled,Czechia,CZE,South Korea,KOR,FALSE,Zapopan,Mexico,TRUE,1726,1752
-2026 FIFA Men's World Cup,WC-2026,2026,25,2026-06-18,Group Stage,scheduled,Czechia,CZE,South Africa,ZAF,TRUE,Atlanta,United States,TRUE,1726,1524
-2026 FIFA Men's World Cup,WC-2026,2026,49,2026-06-24,Group Stage,scheduled,Czechia,CZE,Mexico,MEX,FALSE,Mexico City,Mexico,FALSE,1726,1858
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_011,11,2006-06-12,Group Stage,played,Czechia,CZE,CZE,UEFA,United States,USA,USA,CONCACAF,FALSE,Gelsenkirchen,Germany,TRUE,1971,1824
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_024,24,2006-06-17,Group Stage,played,Czechia,CZE,CZE,UEFA,Ghana,GHA,GHA,CAF,TRUE,Cologne,Germany,TRUE,2003,1604
+2006 FIFA Men's World Cup,WC-2006,2006,WC-2006_042,42,2006-06-22,Group Stage,played,Czechia,CZE,CZE,UEFA,Italy,ITA,ITA,UEFA,TRUE,Hamburg,Germany,TRUE,1921,1942
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_002,2,2026-06-11,Group Stage,scheduled,Czechia,CZE,CZE,UEFA,South Korea,KOR,KOR,AFC,FALSE,Zapopan,Mexico,TRUE,1726,1752
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_025,25,2026-06-18,Group Stage,scheduled,Czechia,CZE,CZE,UEFA,South Africa,ZAF,ZAF,CAF,TRUE,Atlanta,United States,TRUE,1726,1524
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_049,49,2026-06-24,Group Stage,scheduled,Czechia,CZE,CZE,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,Mexico City,Mexico,FALSE,1726,1858

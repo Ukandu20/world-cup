@@ -1,7 +1,7 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1986 FIFA Men's World Cup,WC-1986,1986,10,1986-06-04,Group Stage,played,Iraq,IRQ,Paraguay,PRY,FALSE,Toluca,Mexico,TRUE,1592,1812
-1986 FIFA Men's World Cup,WC-1986,1986,24,1986-06-08,Group Stage,played,Iraq,IRQ,Belgium,BEL,TRUE,Toluca,Mexico,TRUE,1579,1804
-1986 FIFA Men's World Cup,WC-1986,1986,30,1986-06-11,Group Stage,played,Iraq,IRQ,Mexico,MEX,FALSE,Mexico City,Mexico,FALSE,1566,1850
-2026 FIFA Men's World Cup,WC-2026,2026,18,2026-06-16,Group Stage,scheduled,Iraq,IRQ,Norway,NOR,TRUE,Foxborough,United States,TRUE,1607,1912
-2026 FIFA Men's World Cup,WC-2026,2026,41,2026-06-22,Group Stage,scheduled,Iraq,IRQ,France,FRA,FALSE,Philadelphia,United States,TRUE,1607,2082
-2026 FIFA Men's World Cup,WC-2026,2026,66,2026-06-26,Group Stage,scheduled,Iraq,IRQ,Senegal,SEN,FALSE,Toronto,Canada,TRUE,1607,1879
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_010,10,1986-06-04,Group Stage,played,Iraq,IRQ,IRQ,AFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,Toluca,Mexico,TRUE,1592,1812
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_024,24,1986-06-08,Group Stage,played,Iraq,IRQ,IRQ,AFC,Belgium,BEL,BEL,UEFA,TRUE,Toluca,Mexico,TRUE,1579,1804
+1986 FIFA Men's World Cup,WC-1986,1986,WC-1986_030,30,1986-06-11,Group Stage,played,Iraq,IRQ,IRQ,AFC,Mexico,MEX,MEX,CONCACAF,FALSE,Mexico City,Mexico,FALSE,1566,1850
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_018,18,2026-06-16,Group Stage,scheduled,Iraq,IRQ,IRQ,AFC,Norway,NOR,NOR,UEFA,TRUE,Foxborough,United States,TRUE,1607,1912
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_041,41,2026-06-22,Group Stage,scheduled,Iraq,IRQ,IRQ,AFC,France,FRA,FRA,UEFA,FALSE,Philadelphia,United States,TRUE,1607,2082
+2026 FIFA Men's World Cup,WC-2026,2026,WC-2026_066,66,2026-06-26,Group Stage,scheduled,Iraq,IRQ,IRQ,AFC,Senegal,SEN,SEN,CAF,FALSE,Toronto,Canada,TRUE,1607,1879

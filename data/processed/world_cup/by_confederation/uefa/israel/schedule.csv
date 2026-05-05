@@ -1,4 +1,4 @@
-tournament,tournament_id,year,match_number,date,stage,status,team,team_code,opponent,opponent_code,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1970 FIFA Men's World Cup,WC-1970,1970,4,1970-06-02,Group Stage,played,Israel,ISR,Uruguay,URY,TRUE,Puebla,Mexico,TRUE,1682,1867
-1970 FIFA Men's World Cup,WC-1970,1970,15,1970-06-07,Group Stage,played,Israel,ISR,Sweden,SWE,TRUE,Toluca,Mexico,TRUE,1659,1829
-1970 FIFA Men's World Cup,WC-1970,1970,23,1970-06-11,Group Stage,played,Israel,ISR,Italy,ITA,TRUE,Toluca,Mexico,TRUE,1673,2013
+tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_004,4,1970-06-02,Group Stage,played,Israel,ISR,ISR,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,Puebla,Mexico,TRUE,1682,1867
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_015,15,1970-06-07,Group Stage,played,Israel,ISR,ISR,UEFA,Sweden,SWE,SWE,UEFA,TRUE,Toluca,Mexico,TRUE,1659,1829
+1970 FIFA Men's World Cup,WC-1970,1970,WC-1970_023,23,1970-06-11,Group Stage,played,Israel,ISR,ISR,UEFA,Italy,ITA,ITA,UEFA,TRUE,Toluca,Mexico,TRUE,1673,2013

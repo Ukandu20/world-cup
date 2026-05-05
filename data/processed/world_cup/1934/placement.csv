@@ -1,17 +1,17 @@
-country,team_code,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
-Italy,ITA,Winner,1,5,12,3,1975,2047,72,1938,Winner,1
-Czechoslovakia,CSK,Runner-up,2,4,9,6,1847,1903,56,1938,Quarter-final,8
-Germany,DEU,Third Place,3,4,11,8,1799,1853,54,1938,Round of 16,16
-Austria,AUT,Fourth Place,4,4,7,7,2050,1995,-55,1954,Third Place,3
-Hungary,HUN,Quarter-final,8,2,5,4,1829,1844,15,1938,Runner-up,2
-Spain,ESP,Quarter-final,8,3,4,3,1936,1969,33,1950,Fourth Place,4
-Sweden,SWE,Quarter-final,8,2,4,4,1730,1755,25,1938,Fourth Place,4
-Switzerland,CHE,Quarter-final,8,2,5,5,1615,1639,24,1938,Quarter-final,8
-Argentina,ARG,Round of 16,16,1,2,3,2062,2010,-52,1958,Group Stage,16
-Belgium,BEL,Round of 16,16,1,2,5,1549,1529,-20,1938,Round of 16,16
-Brazil,BRA,Round of 16,16,1,1,3,1934,1889,-45,1938,Third Place,3
-Egypt,EGY,Round of 16,16,1,2,4,1707,1677,-30,1990,Group Stage,24
-France,FRA,Round of 16,16,1,2,3,1626,1621,-5,1938,Quarter-final,8
-Netherlands,NLD,Round of 16,16,1,2,3,1707,1669,-38,1938,Round of 16,16
-Romania,ROU,Round of 16,16,1,1,2,1639,1625,-14,1938,Round of 16,16
-United States,USA,Round of 16,16,1,1,7,1778,1758,-20,1950,Group Stage,13
+tournament_id,year,country,team_id,team_code,confederation,placement,position,matches_played,gs,ga,start_elo,finish_elo,elo_change,next_edition,next_placement,next_position
+WC-1934,1934,Italy,ITA,ITA,UEFA,Winner,1,5,12,3,1975,2047,72,1938,Winner,1
+WC-1934,1934,Czechoslovakia,CSK,CSK,UEFA,Runner-up,2,4,9,6,1847,1903,56,1938,Quarter-final,8
+WC-1934,1934,Germany,GER,DEU,UEFA,Third Place,3,4,11,8,1799,1853,54,1938,Round of 16,16
+WC-1934,1934,Austria,AUT,AUT,UEFA,Fourth Place,4,4,7,7,2050,1995,-55,1954,Third Place,3
+WC-1934,1934,Hungary,HUN,HUN,UEFA,Quarter-final,8,2,5,4,1829,1844,15,1938,Runner-up,2
+WC-1934,1934,Spain,ESP,ESP,UEFA,Quarter-final,8,3,4,3,1936,1969,33,1950,Fourth Place,4
+WC-1934,1934,Sweden,SWE,SWE,UEFA,Quarter-final,8,2,4,4,1730,1755,25,1938,Fourth Place,4
+WC-1934,1934,Switzerland,CHE,CHE,UEFA,Quarter-final,8,2,5,5,1615,1639,24,1938,Quarter-final,8
+WC-1934,1934,Argentina,ARG,ARG,CONMEBOL,Round of 16,16,1,2,3,2062,2010,-52,1958,Group Stage,16
+WC-1934,1934,Belgium,BEL,BEL,UEFA,Round of 16,16,1,2,5,1549,1529,-20,1938,Round of 16,16
+WC-1934,1934,Brazil,BRA,BRA,CONMEBOL,Round of 16,16,1,1,3,1934,1889,-45,1938,Third Place,3
+WC-1934,1934,Egypt,EGY,EGY,CAF,Round of 16,16,1,2,4,1707,1677,-30,1990,Group Stage,24
+WC-1934,1934,France,FRA,FRA,UEFA,Round of 16,16,1,2,3,1626,1621,-5,1938,Quarter-final,8
+WC-1934,1934,Netherlands,NED,NLD,UEFA,Round of 16,16,1,2,3,1707,1669,-38,1938,Round of 16,16
+WC-1934,1934,Romania,ROU,ROU,UEFA,Round of 16,16,1,1,2,1639,1625,-14,1938,Round of 16,16
+WC-1934,1934,United States,USA,USA,CONCACAF,Round of 16,16,1,1,7,1778,1758,-20,1950,Group Stage,13
