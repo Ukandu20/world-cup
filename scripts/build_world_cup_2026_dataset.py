@@ -53,6 +53,7 @@ ELO_BASE_URL = "https://www.eloratings.net"
 WORLD_CUP_COMPETITION_ID = "17"
 WORLD_CUP_SEASON_ID = "285023"
 TOURNAMENT_ID = "WC-2026"
+TOURNAMENT_NAME = "2026 FIFA Men's World Cup"
 TOURNAMENT_START_DATE = date(2026, 6, 11)
 TOURNAMENT_END_DATE = date(2026, 7, 19)
 FREEZE_TARGET_DATE = date(2026, 6, 10)
@@ -886,9 +887,12 @@ def build_teams_rows(
         )
         rows.append(
             {
+                "tournament_id": TOURNAMENT_ID,
+                "year": "2026",
                 "team_id": team.team_id,
+                "team": team.tournament_name,
                 "canonical_name": team.canonical_name,
-                "tournament_name": team.tournament_name,
+                "tournament_name": TOURNAMENT_NAME,
                 "fifa_code": team.fifa_code,
                 "flag_icon_code": flag_icon_code,
                 "flag_icon_css_class": f"fi fi-{flag_icon_code}" if flag_icon_code else "",
@@ -1173,7 +1177,7 @@ def update_all_editions_outputs(teams_rows: list[dict[str, object]], elo_rows: l
             "team": row["canonical_name"],
             "team_code": row["fifa_code"],
             "confederation": row["confederation"],
-            "tournament_name": row["tournament_name"],
+            "tournament_name": TOURNAMENT_NAME,
             "placement": "Scheduled",
             "position": "",
             "matches_played": "",
@@ -1274,7 +1278,7 @@ def main() -> None:
     datasets = {
         "teams.csv": (
             teams_rows,
-            ["tournament_id", "year", "team_id", "canonical_name", "tournament_name", "fifa_code", "flag_icon_code", "flag_icon_css_class", "confederation", "group_code", "is_host", "qualification_path", "world_cup_participations", "weighted_world_cup_participations", "weighted_world_cup_placement_score", "squad_status", "source_url", "source_as_of"],
+            ["tournament_id", "year", "team_id", "team", "canonical_name", "tournament_name", "fifa_code", "flag_icon_code", "flag_icon_css_class", "confederation", "group_code", "is_host", "qualification_path", "world_cup_participations", "weighted_world_cup_participations", "weighted_world_cup_placement_score", "squad_status", "source_url", "source_as_of"],
         ),
         "groups.csv": (
             groups_rows,

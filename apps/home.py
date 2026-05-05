@@ -170,7 +170,7 @@ def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, str
     lead_in = pd.read_csv(DATA_DIR / "team_results_lead_in.csv")
     manifest = pd.read_json(DATA_DIR / "manifest.json", typ="series").to_dict()
 
-    text_columns = ["canonical_name", "tournament_name"]
+    text_columns = ["team", "canonical_name", "tournament_name"]
     for frame in (teams, groups, fifa, elo, fixtures, lead_in):
         for column in text_columns:
             if column in frame.columns:
@@ -196,6 +196,7 @@ def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, str
 
     team_columns = [
         "team_id",
+        "team",
         "tournament_name",
         "canonical_name",
         "flag_icon_code",
@@ -218,7 +219,14 @@ def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, str
         .merge(latest_elo, on="team_id", how="left")
     )
 
-    merged["display_name"] = merged["tournament_name"].fillna(merged["team_name"]).map(fix_mojibake)
+    display_name_source = (
+        merged["team"]
+        if "team" in merged.columns
+        else pd.Series(pd.NA, index=merged.index, dtype="object")
+    )
+    merged["display_name"] = (
+        display_name_source.fillna(merged.get("tournament_name")).fillna(merged["team_name"]).map(fix_mojibake)
+    )
     merged["world_rank"] = pd.to_numeric(merged["world_rank"], errors="coerce")
     merged["fifa_points"] = pd.to_numeric(merged["fifa_points"], errors="coerce")
     merged["elo_rating"] = pd.to_numeric(merged["elo_rating"], errors="coerce")
