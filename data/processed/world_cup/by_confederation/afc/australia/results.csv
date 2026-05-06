@@ -103,9 +103,9 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1974-05-21,Friendly,played,Australia,AUS,AUS,AFC,Indonesia,IDN,IDN,AFC,FALSE,2,1,win,Jakarta,Indonesia,FALSE,1688,1424,1694,1418,6
 ,,,1974-05-28,Friendly,played,Australia,AUS,AUS,AFC,Israel,ISR,ISR,UEFA,FALSE,1,2,loss,Jaffa,Israel,FALSE,1694,1707,1687,1714,-7
 WC-1974,WC-1974_003,3,1974-06-14,FIFA World Cup,played,Australia,AUS,AUS,AFC,German DR,DDR,DDR,UEFA,FALSE,0,2,loss,Hamburg,Germany,TRUE,1687,1939,1670,1956,-17
-WC-1974,WC-1974_010,10,1974-06-18,FIFA World Cup,played,Australia,AUS,AUS,AFC,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Hamburg,Germany,FALSE,,,,,
+WC-1974,WC-1974_010,10,1974-06-18,FIFA World Cup,played,Australia,AUS,AUS,AFC,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Hamburg,Germany,FALSE,1670,2117,1666,2121,-4
 WC-1974,WC-1974_017,17,1974-06-22,FIFA World Cup,played,Australia,AUS,AUS,AFC,Chile,CHL,CHL,CONMEBOL,TRUE,0,0,draw,Berlin,Germany,TRUE,1666,1786,1676,1776,10
-,,,1975-08-06,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,1,0,win,Melbourne,Australia,FALSE,,,,,
+,,,1975-08-06,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,1,0,win,Melbourne,Australia,FALSE,1676,1565,1681,1560,5
 ,,,1976-02-29,Friendly,played,Australia,AUS,AUS,AFC,New Zealand,NZL,NZL,OFC,FALSE,1,0,win,Auckland,New Zealand,FALSE,1682,1450,1688,1444,6
 ,,,1976-03-02,Friendly,played,Australia,AUS,AUS,AFC,New Zealand,NZL,NZL,OFC,TRUE,3,1,win,Melbourne,Australia,FALSE,1688,1444,1692,1440,4
 ,,,1976-08-11,Friendly,played,Australia,AUS,AUS,AFC,Hong Kong,,,,TRUE,0,1,loss,Canberra,Australia,FALSE,1692,1367,1674,1385,-18
@@ -163,11 +163,11 @@ WC-1974,WC-1974_017,17,1974-06-22,FIFA World Cup,played,Australia,AUS,AUS,AFC,Ch
 ,,,1983-06-12,Friendly,played,Australia,AUS,AUS,AFC,England,ENG,ENG,UEFA,TRUE,0,0,draw,Sydney,Australia,FALSE,1573,2023,1581,2015,8
 ,,,1983-06-15,Friendly,played,Australia,AUS,AUS,AFC,England,ENG,ENG,UEFA,TRUE,0,1,loss,Brisbane,Australia,FALSE,1581,2015,1578,2018,-3
 ,,,1983-06-19,Friendly,played,Australia,AUS,AUS,AFC,England,ENG,ENG,UEFA,TRUE,1,1,draw,Melbourne,Australia,FALSE,1578,2018,1586,2010,8
-,,,1983-12-04,Merlion Cup,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,1,2,loss,Kallang,Singapore,TRUE,,,,,
+,,,1983-12-04,Merlion Cup,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,1,2,loss,Kallang,Singapore,TRUE,1586,1578,1571,1593,-15
 ,,,1983-12-17,Merlion Cup,played,Australia,AUS,AUS,AFC,Singapore,,,,FALSE,4,2,win,Kallang,Singapore,FALSE,,,,,
-,,,1984-11-03,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,2,3,loss,Beijing,China PR,FALSE,,,,,
+,,,1984-11-03,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,2,3,loss,Beijing,China PR,FALSE,1581,1598,1571,1608,-10
 ,,,1985-09-21,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,New Zealand,NZL,NZL,OFC,FALSE,0,0,draw,Auckland,New Zealand,FALSE,1571,1517,1574,1514,3
-,,,1985-09-27,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,3,0,win,Brisbane,Australia,FALSE,,,,,
+,,,1985-09-27,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,3,0,win,Brisbane,Australia,FALSE,1574,1571,1593,1552,19
 ,,,1985-10-08,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Israel,ISR,ISR,UEFA,FALSE,2,1,win,Ramat Gan,Israel,FALSE,1593,1686,1623,1656,30
 ,,,1985-10-20,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Israel,ISR,ISR,UEFA,TRUE,1,1,draw,Melbourne,Australia,FALSE,1623,1656,1619,1660,-4
 ,,,1985-10-23,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Taiwan,,,,TRUE,7,0,win,Adelaide,Australia,FALSE,1619,1192,1623,1188,4
@@ -180,7 +180,7 @@ WC-1974,WC-1974_017,17,1974-06-22,FIFA World Cup,played,Australia,AUS,AUS,AFC,Ch
 ,,,1986-08-10,Friendly,played,Australia,AUS,AUS,AFC,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,3,loss,Parramatta,Australia,FALSE,1637,1836,1624,1849,-13
 ,,,1986-10-25,Trans-Tasman Cup,played,Australia,AUS,AUS,AFC,New Zealand,NZL,NZL,OFC,FALSE,1,1,draw,Auckland,New Zealand,FALSE,1624,1540,1625,1539,1
 ,,,1986-11-02,Trans-Tasman Cup,played,Australia,AUS,AUS,AFC,New Zealand,NZL,NZL,OFC,TRUE,2,1,win,Sydney,Australia,FALSE,1625,1539,1633,1531,8
-,,,1986-11-23,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,2,0,win,Guangzhou,China PR,FALSE,,,,,
+,,,1986-11-23,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,2,0,win,Guangzhou,China PR,FALSE,1633,1618,1661,1590,28
 ,,,1987-06-09,Korea Cup,played,Australia,AUS,AUS,AFC,Morocco,MAR,MAR,CAF,TRUE,1,0,win,Gangneung,South Korea,TRUE,1661,1722,1679,1704,18
 ,,,1987-06-19,Korea Cup,played,Australia,AUS,AUS,AFC,Egypt,EGY,EGY,CAF,TRUE,0,0,draw,Seoul,South Korea,TRUE,1679,1662,1678,1663,-1
 ,,,1987-06-21,Korea Cup,played,Australia,AUS,AUS,AFC,South Korea,KOR,KOR,AFC,FALSE,1,1,draw,Seoul,South Korea,FALSE,1678,1646,1681,1643,3
@@ -321,7 +321,7 @@ WC-1974,WC-1974_017,17,1974-06-22,FIFA World Cup,played,Australia,AUS,AUS,AFC,Ch
 ,,,2002-07-12,Oceania Nations Cup,played,Australia,AUS,AUS,AFC,Tahiti,,,,TRUE,2,1,win,Auckland,New Zealand,TRUE,1832,1359,1835,1356,3
 ,,,2002-07-14,Oceania Nations Cup,played,Australia,AUS,AUS,AFC,New Zealand,NZL,NZL,OFC,FALSE,0,1,loss,Auckland,New Zealand,FALSE,1835,1546,1798,1583,-37
 ,,,2003-02-12,Friendly,played,Australia,AUS,AUS,AFC,England,ENG,ENG,UEFA,FALSE,3,1,win,London,England,FALSE,1798,1950,1822,1926,24
-,,,2003-08-19,Friendly,played,Australia,AUS,AUS,AFC,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2003-08-19,Friendly,played,Australia,AUS,AUS,AFC,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,1822,1872,1816,1878,-6
 ,,,2003-09-07,Friendly,played,Australia,AUS,AUS,AFC,Jamaica,JAM,JAM,CONCACAF,TRUE,2,1,win,Reading,England,TRUE,1816,1594,1820,1590,4
 ,,,2004-02-18,Friendly,played,Australia,AUS,AUS,AFC,Venezuela,,,,FALSE,1,1,draw,Caracas,Venezuela,FALSE,1820,1643,1818,1645,-2
 ,,,2004-03-30,Friendly,played,Australia,AUS,AUS,AFC,South Africa,ZAF,ZAF,CAF,TRUE,1,0,win,London,England,TRUE,1818,1575,1822,1571,4
@@ -361,7 +361,7 @@ WC-2006,WC-2006_053,53,2006-06-26,FIFA World Cup,played,Australia,AUS,AUS,AFC,It
 ,,,2006-10-11,AFC Asian Cup qualification,played,Australia,AUS,AUS,AFC,Bahrain,,,,TRUE,2,0,win,Sydney,Australia,FALSE,1755,1467,1761,1461,6
 ,,,2006-11-14,Friendly,played,Australia,AUS,AUS,AFC,Ghana,GHA,GHA,CAF,TRUE,1,1,draw,London,England,TRUE,1761,1752,1761,1752,0
 ,,,2007-02-06,Friendly,played,Australia,AUS,AUS,AFC,Denmark,DNK,DNK,UEFA,TRUE,1,3,loss,London,England,TRUE,1761,1902,1752,1911,-9
-,,,2007-03-24,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,2,0,win,Guangzhou,China PR,FALSE,,,,,
+,,,2007-03-24,Friendly,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,2,0,win,Guangzhou,China PR,FALSE,1752,1606,1765,1593,13
 ,,,2007-06-02,Friendly,played,Australia,AUS,AUS,AFC,Uruguay,URY,URY,CONMEBOL,TRUE,1,2,loss,Sydney,Australia,FALSE,1765,1852,1755,1862,-10
 ,,,2007-06-30,Friendly,played,Australia,AUS,AUS,AFC,Singapore,,,,FALSE,3,0,win,Singapore,Singapore,FALSE,1755,1311,1759,1307,4
 ,,,2007-07-08,AFC Asian Cup,played,Australia,AUS,AUS,AFC,Oman,,,,TRUE,1,1,draw,Bangkok,Thailand,TRUE,1759,1597,1748,1608,-11
@@ -372,12 +372,12 @@ WC-2006,WC-2006_053,53,2006-06-26,FIFA World Cup,played,Australia,AUS,AUS,AFC,It
 ,,,2007-11-17,Friendly,played,Australia,AUS,AUS,AFC,Nigeria,NGA,NGA,CAF,TRUE,1,0,win,London,England,TRUE,1718,1746,1729,1735,11
 ,,,2008-02-06,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Qatar,QAT,QAT,AFC,TRUE,3,0,win,Melbourne,Australia,FALSE,1729,1478,1737,1470,8
 ,,,2008-03-22,Friendly,played,Australia,AUS,AUS,AFC,Singapore,,,,FALSE,0,0,draw,Singapore,Singapore,FALSE,1737,1363,1730,1370,-7
-,,,2008-03-26,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,0,0,draw,Kunming,China PR,FALSE,,,,,
+,,,2008-03-26,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,0,0,draw,Kunming,China PR,FALSE,1730,1553,1726,1557,-4
 ,,,2008-05-23,Friendly,played,Australia,AUS,AUS,AFC,Ghana,GHA,GHA,CAF,TRUE,1,0,win,Sydney,Australia,FALSE,1726,1789,1735,1780,9
 ,,,2008-06-01,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Iraq,IRQ,IRQ,AFC,TRUE,1,0,win,Brisbane,Australia,FALSE,1735,1582,1743,1574,8
 ,,,2008-06-07,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Iraq,IRQ,IRQ,AFC,FALSE,0,1,loss,Dubai,United Arab Emirates,TRUE,1743,1574,1714,1603,-29
 ,,,2008-06-14,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Qatar,QAT,QAT,AFC,FALSE,3,1,win,Doha,Qatar,FALSE,1714,1526,1737,1503,23
-,,,2008-06-22,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,0,1,loss,Sydney,Australia,FALSE,,,,,
+,,,2008-06-22,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,0,1,loss,Sydney,Australia,FALSE,1737,1510,1702,1545,-35
 ,,,2008-08-19,Friendly,played,Australia,AUS,AUS,AFC,South Africa,ZAF,ZAF,CAF,TRUE,2,2,draw,London,England,TRUE,1702,1500,1697,1505,-5
 ,,,2008-09-06,Friendly,played,Australia,AUS,AUS,AFC,Netherlands,NED,NLD,UEFA,FALSE,2,1,win,Eindhoven,Netherlands,FALSE,1697,2025,1715,2007,18
 ,,,2008-09-10,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Uzbekistan,,,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1715,1562,1732,1545,17
@@ -390,7 +390,7 @@ WC-2006,WC-2006_053,53,2006-06-26,FIFA World Cup,played,Australia,AUS,AUS,AFC,It
 ,,,2009-06-06,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Qatar,QAT,QAT,AFC,FALSE,0,0,draw,Doha,Qatar,FALSE,1721,1514,1715,1520,-6
 ,,,2009-06-10,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Bahrain,,,,TRUE,2,0,win,Sydney,Australia,FALSE,1715,1602,1729,1588,14
 ,,,2009-06-17,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Japan,JPN,JPN,AFC,TRUE,2,1,win,Melbourne,Australia,FALSE,1729,1787,1747,1769,18
-,,,2009-08-12,Friendly,played,Australia,AUS,AUS,AFC,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,0,win,Limerick,Republic of Ireland,FALSE,,,,,
+,,,2009-08-12,Friendly,played,Australia,AUS,AUS,AFC,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,0,win,Limerick,Republic of Ireland,FALSE,1747,1791,1771,1767,24
 ,,,2009-09-05,Friendly,played,Australia,AUS,AUS,AFC,South Korea,KOR,KOR,AFC,FALSE,1,3,loss,Seoul,South Korea,FALSE,1771,1736,1759,1748,-12
 ,,,2009-10-10,Friendly,played,Australia,AUS,AUS,AFC,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Sydney,Australia,FALSE,1759,2044,1764,2039,5
 ,,,2009-10-14,AFC Asian Cup qualification,played,Australia,AUS,AUS,AFC,Oman,,,,TRUE,1,0,win,Melbourne,Australia,FALSE,1764,1612,1772,1604,8
@@ -445,7 +445,7 @@ WC-2010,WC-2010_037,37,2010-06-23,FIFA World Cup,played,Australia,AUS,AUS,AFC,Se
 ,,,2013-06-18,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Iraq,IRQ,IRQ,AFC,TRUE,1,0,win,Sydney,Australia,FALSE,1765,1558,1771,1552,6
 ,,,2013-07-20,EAFF Championship,played,Australia,AUS,AUS,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Seoul,South Korea,FALSE,1771,1719,1774,1716,3
 ,,,2013-07-25,EAFF Championship,played,Australia,AUS,AUS,AFC,Japan,JPN,JPN,AFC,FALSE,2,3,loss,Hwaseong,South Korea,TRUE,1774,1723,1751,1746,-23
-,,,2013-07-28,EAFF Championship,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,3,4,loss,Seoul,South Korea,TRUE,,,,,
+,,,2013-07-28,EAFF Championship,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,3,4,loss,Seoul,South Korea,TRUE,1751,1579,1722,1608,-29
 ,,,2013-09-07,Friendly,played,Australia,AUS,AUS,AFC,Brazil,BRA,BRA,CONMEBOL,FALSE,0,6,loss,Brasília,Brazil,FALSE,1722,2110,1720,2112,-2
 ,,,2013-10-11,Friendly,played,Australia,AUS,AUS,AFC,France,FRA,FRA,UEFA,FALSE,0,6,loss,Saint-Denis,France,FALSE,1720,1865,1712,1873,-8
 ,,,2013-10-15,Friendly,played,Australia,AUS,AUS,AFC,Canada,CAN,CAN,CONCACAF,TRUE,3,0,win,London,England,TRUE,1712,1502,1720,1494,8
@@ -464,7 +464,7 @@ WC-2014,WC-2014_033,33,2014-06-23,FIFA World Cup,played,Australia,AUS,AUS,AFC,Sp
 ,,,2015-01-09,AFC Asian Cup,played,Australia,AUS,AUS,AFC,Kuwait,KWT,KWT,AFC,TRUE,4,1,win,Melbourne,Australia,FALSE,1652,1507,1669,1490,17
 ,,,2015-01-13,AFC Asian Cup,played,Australia,AUS,AUS,AFC,Oman,,,,TRUE,4,0,win,Sydney,Australia,FALSE,1669,1517,1687,1499,18
 ,,,2015-01-17,AFC Asian Cup,played,Australia,AUS,AUS,AFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Brisbane,Australia,FALSE,1687,1674,1654,1707,-33
-,,,2015-01-22,AFC Asian Cup,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,2,0,win,Brisbane,Australia,FALSE,,,,,
+,,,2015-01-22,AFC Asian Cup,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,2,0,win,Brisbane,Australia,FALSE,1654,1633,1679,1608,25
 ,,,2015-01-27,AFC Asian Cup,played,Australia,AUS,AUS,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,2,0,win,Newcastle,Australia,FALSE,1679,1676,1706,1649,27
 ,,,2015-01-31,AFC Asian Cup,played,Australia,AUS,AUS,AFC,South Korea,KOR,KOR,AFC,TRUE,2,1,win,Sydney,Australia,FALSE,1706,1758,1728,1736,22
 ,,,2015-03-25,Friendly,played,Australia,AUS,AUS,AFC,Germany,GER,DEU,UEFA,FALSE,2,2,draw,Kaiserslautern,Germany,FALSE,1728,2133,1737,2124,9
@@ -523,12 +523,12 @@ WC-2018,WC-2018_037,37,2018-06-26,FIFA World Cup,played,Australia,AUS,AUS,AFC,Pe
 ,,,2021-06-07,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Taiwan,,,,TRUE,5,1,win,Kuwait City,Kuwait,TRUE,1730,910,1731,909,1
 ,,,2021-06-11,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Nepal,,,,FALSE,3,0,win,Kuwait City,Kuwait,TRUE,1731,942,1732,941,1
 ,,,2021-06-15,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Jordan,,,,TRUE,1,0,win,Kuwait City,Kuwait,TRUE,1732,1478,1740,1470,8
-,,,2021-09-02,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,3,0,win,Doha,Qatar,TRUE,,,,,
+,,,2021-09-02,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,3,0,win,Doha,Qatar,TRUE,1740,1505,1754,1491,14
 ,,,2021-09-07,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Vietnam,,,,FALSE,1,0,win,Hanoi,Vietnam,FALSE,1754,1412,1762,1404,8
 ,,,2021-10-07,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Oman,,,,TRUE,3,1,win,Doha,Qatar,TRUE,1762,1520,1774,1508,12
 ,,,2021-10-12,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Japan,JPN,JPN,AFC,FALSE,1,2,loss,Saitama,Japan,FALSE,1774,1723,1757,1740,-17
 ,,,2021-11-11,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,0,draw,Sydney,Australia,FALSE,1757,1665,1747,1675,-10
-,,,2021-11-16,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,1,1,draw,Sharjah,United Arab Emirates,TRUE,,,,,
+,,,2021-11-16,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,1,1,draw,Sharjah,United Arab Emirates,TRUE,1747,1494,1735,1506,-12
 ,,,2022-01-27,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Vietnam,,,,TRUE,4,0,win,Melbourne,Australia,FALSE,1735,1341,1739,1337,4
 ,,,2022-02-01,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Oman,,,,FALSE,2,2,draw,Muscat,Oman,FALSE,1739,1517,1732,1524,-7
 ,,,2022-03-24,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Japan,JPN,JPN,AFC,TRUE,0,2,loss,Sydney,Australia,FALSE,1732,1780,1698,1814,-34
@@ -562,12 +562,12 @@ WC-2022,WC-2022_050,50,2022-12-03,FIFA World Cup,played,Australia,AUS,AUS,AFC,Ar
 ,,,2024-06-11,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Palestine,,,,TRUE,5,0,win,Perth,Australia,FALSE,1771,1413,1776,1408,5
 ,,,2024-09-05,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Bahrain,,,,TRUE,0,1,loss,Robina,Australia,FALSE,1776,1455,1739,1492,-37
 ,,,2024-09-10,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Indonesia,IDN,IDN,AFC,FALSE,0,0,draw,Jakarta,Indonesia,FALSE,1739,1348,1725,1362,-14
-,,,2024-10-10,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,3,1,win,Adelaide,Australia,FALSE,,,,,
+,,,2024-10-10,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,TRUE,3,1,win,Adelaide,Australia,FALSE,1725,1380,1729,1376,4
 ,,,2024-10-15,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Japan,JPN,JPN,AFC,FALSE,1,1,draw,Saitama,Japan,FALSE,1729,1889,1742,1876,13
 ,,,2024-11-14,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,0,draw,Melbourne,Australia,FALSE,1742,1563,1729,1576,-13
 ,,,2024-11-19,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Bahrain,,,,FALSE,2,2,draw,Riffa,Bahrain,FALSE,1729,1448,1719,1458,-10
 ,,,2025-03-20,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Indonesia,IDN,IDN,AFC,TRUE,5,1,win,Sydney,Australia,FALSE,1719,1320,1723,1316,4
-,,,2025-03-25,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,2,0,win,Hangzhou,China PR,FALSE,,,,,
+,,,2025-03-25,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,China PR,,,,FALSE,2,0,win,Hangzhou,China PR,FALSE,1723,1416,1737,1402,14
 ,,,2025-06-05,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Japan,JPN,JPN,AFC,TRUE,1,0,win,Perth,Australia,FALSE,1737,1876,1759,1854,22
 ,,,2025-06-10,FIFA World Cup qualification,played,Australia,AUS,AUS,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,1,win,Jeddah,Saudi Arabia,FALSE,1759,1608,1776,1591,17
 ,,,2025-09-05,Soccer Ashes,played,Australia,AUS,AUS,AFC,New Zealand,NZL,NZL,OFC,TRUE,1,0,win,Canberra,Australia,FALSE,1776,1602,1779,1599,3

@@ -45,7 +45,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1996-03-26,Friendly,played,Croatia,HRV,HRV,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,0,win,Varaždin,Croatia,FALSE,1891,1640,1895,1636,4
 ,,,1996-04-10,Friendly,played,Croatia,HRV,HRV,UEFA,Hungary,HUN,HUN,UEFA,TRUE,4,1,win,Osijek,Croatia,FALSE,1895,1604,1898,1601,3
 ,,,1996-04-24,Friendly,played,Croatia,HRV,HRV,UEFA,England,ENG,ENG,UEFA,FALSE,0,0,draw,London,England,FALSE,1898,1875,1900,1873,2
-,,,1996-06-02,Friendly,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1996-06-02,Friendly,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,1907,1713,1904,1716,-3
 ,,,1996-06-11,UEFA Euro,played,Croatia,HRV,HRV,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,0,win,Nottingham,England,TRUE,1904,1760,1919,1745,15
 ,,,1996-06-16,UEFA Euro,played,Croatia,HRV,HRV,UEFA,Denmark,DNK,DNK,UEFA,TRUE,3,0,win,Sheffield,England,TRUE,1919,1962,1968,1913,49
 ,,,1996-06-19,UEFA Euro,played,Croatia,HRV,HRV,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,3,loss,Nottingham,England,TRUE,1968,1886,1914,1940,-54
@@ -74,7 +74,7 @@ WC-1998,WC-1998_056,56,1998-06-30,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Rom
 WC-1998,WC-1998_059,59,1998-07-04,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Germany,GER,DEU,UEFA,FALSE,3,0,win,Lyon,France,TRUE,1915,2087,1992,2010,77
 WC-1998,WC-1998_062,62,1998-07-08,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Saint-Denis,France,FALSE,1992,2025,1973,2044,-19
 WC-1998,WC-1998_063,63,1998-07-11,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,1,win,Paris,France,TRUE,1973,2030,2008,1995,35
-,,,1998-09-05,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1998-09-05,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,2008,1699,1962,1745,-46
 ,,,1998-10-10,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Malta,,,,FALSE,4,1,win,Attard,Malta,FALSE,1962,1219,1964,1217,2
 ,,,1998-10-14,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,North Macedonia,,,,TRUE,3,2,win,Zagreb,Croatia,FALSE,1964,1563,1966,1561,2
 ,,,1999-02-10,Friendly,played,Croatia,HRV,HRV,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,1,loss,Split,Croatia,FALSE,1966,1820,1950,1836,-16
@@ -85,10 +85,10 @@ WC-1998,WC-1998_063,63,1998-07-11,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Net
 ,,,1999-06-13,Korea Cup,played,Croatia,HRV,HRV,UEFA,Egypt,EGY,EGY,CAF,TRUE,2,2,draw,Seoul,South Korea,TRUE,1914,1668,1905,1677,-9
 ,,,1999-06-16,Korea Cup,played,Croatia,HRV,HRV,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,Seoul,South Korea,TRUE,1905,1874,1919,1860,14
 ,,,1999-06-19,Korea Cup,played,Croatia,HRV,HRV,UEFA,South Korea,KOR,KOR,AFC,FALSE,1,1,draw,Seoul,South Korea,FALSE,1919,1720,1915,1724,-4
-,,,1999-08-18,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,0,draw,Belgrade,FR Yugoslavia,FALSE,,,,,
+,,,1999-08-18,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,0,draw,Belgrade,FR Yugoslavia,FALSE,1915,1945,1922,1938,7
 ,,,1999-08-21,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Malta,,,,TRUE,2,1,win,Zagreb,Croatia,FALSE,1922,1204,1922,1204,0
-,,,1999-09-04,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Zagreb,Croatia,FALSE,,,,,
-,,,1999-10-09,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,2,draw,Zagreb,Croatia,FALSE,,,,,
+,,,1999-09-04,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Zagreb,Croatia,FALSE,1922,1784,1930,1776,8
+,,,1999-10-09,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,2,draw,Zagreb,Croatia,FALSE,1930,1929,1924,1935,-6
 ,,,1999-11-13,Friendly,played,Croatia,HRV,HRV,UEFA,France,FRA,FRA,UEFA,FALSE,0,3,loss,Saint-Denis,France,FALSE,1924,2033,1916,2041,-8
 ,,,2000-02-23,Friendly,played,Croatia,HRV,HRV,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Split,Croatia,FALSE,1916,2010,1916,2010,0
 ,,,2000-03-29,Friendly,played,Croatia,HRV,HRV,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Zagreb,Croatia,FALSE,1916,1881,1912,1885,-4
@@ -102,7 +102,7 @@ WC-1998,WC-1998_063,63,1998-07-11,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Net
 ,,,2001-04-25,Friendly,played,Croatia,HRV,HRV,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,2,draw,Varaždin,Croatia,FALSE,1895,1684,1888,1691,-7
 ,,,2001-06-02,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,San Marino,,,,TRUE,4,0,win,Varaždin,Croatia,FALSE,1888,956,1888,956,0
 ,,,2001-06-06,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Latvia,,,,FALSE,1,0,win,Riga,Latvia,FALSE,1888,1397,1892,1393,4
-,,,2001-08-15,Friendly,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2001-08-15,Friendly,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,1892,1844,1893,1843,1
 ,,,2001-09-01,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1893,1746,1890,1749,-3
 ,,,2001-09-05,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,San Marino,,,,FALSE,4,0,win,Serravalle,San Marino,FALSE,1890,955,1891,954,1
 ,,,2001-10-06,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Zagreb,Croatia,FALSE,1891,1796,1901,1786,10
@@ -143,7 +143,7 @@ WC-2002,WC-2002_042,42,2002-06-13,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Ecu
 ,,,2004-09-04,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,0,win,Zagreb,Croatia,FALSE,1821,1599,1830,1590,9
 ,,,2004-09-08,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,0,win,Gothenburg,Sweden,FALSE,1830,1864,1857,1837,27
 ,,,2004-10-09,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,2,draw,Zagreb,Croatia,FALSE,1857,1720,1845,1732,-12
-,,,2004-11-16,Friendly,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2004-11-16,Friendly,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1845,1854,1838,1861,-7
 ,,,2005-02-09,Friendly,played,Croatia,HRV,HRV,UEFA,Israel,ISR,ISR,UEFA,FALSE,3,3,draw,Jerusalem,Israel,FALSE,1838,1686,1837,1687,-1
 ,,,2005-03-26,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Iceland,ISL,ISL,UEFA,TRUE,4,0,win,Zagreb,Croatia,FALSE,1837,1525,1843,1519,6
 ,,,2005-03-30,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Malta,,,,TRUE,3,0,win,Zagreb,Croatia,FALSE,1843,1244,1844,1243,1
@@ -216,7 +216,7 @@ WC-2006,WC-2006_041,41,2006-06-22,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Aus
 ,,,2011-03-26,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Georgia,,,,FALSE,0,1,loss,Tbilisi,Georgia,FALSE,1917,1513,1883,1547,-34
 ,,,2011-03-29,Friendly,played,Croatia,HRV,HRV,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Saint-Denis,France,FALSE,1883,1819,1884,1818,1
 ,,,2011-06-03,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Georgia,,,,TRUE,2,1,win,Split,Croatia,FALSE,1884,1539,1887,1536,3
-,,,2011-08-10,Friendly,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2011-08-10,Friendly,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1887,1800,1887,1800,0
 ,,,2011-09-02,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Malta,,,,FALSE,3,1,win,Attard,Malta,FALSE,1887,1216,1889,1214,2
 ,,,2011-09-06,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Israel,ISR,ISR,UEFA,TRUE,3,1,win,Zagreb,Croatia,FALSE,1889,1670,1897,1662,8
 ,,,2011-10-07,UEFA Euro qualification,played,Croatia,HRV,HRV,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,2,loss,Piraeus,Greece,FALSE,1897,1764,1864,1797,-33
@@ -226,7 +226,7 @@ WC-2006,WC-2006_041,41,2006-06-22,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Aus
 ,,,2012-02-29,Friendly,played,Croatia,HRV,HRV,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,3,loss,Zagreb,Croatia,FALSE,1890,1866,1870,1886,-20
 ,,,2012-05-25,Friendly,played,Croatia,HRV,HRV,UEFA,Estonia,,,,TRUE,3,1,win,Rijeka,Croatia,FALSE,1870,1541,1872,1539,2
 ,,,2012-06-02,Friendly,played,Croatia,HRV,HRV,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1872,1759,1872,1759,0
-,,,2012-06-10,UEFA Euro,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,1,win,Poznań,Poland,TRUE,,,,,
+,,,2012-06-10,UEFA Euro,played,Croatia,HRV,HRV,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,1,win,Poznań,Poland,TRUE,1872,1804,1902,1774,30
 ,,,2012-06-14,UEFA Euro,played,Croatia,HRV,HRV,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Poznań,Poland,TRUE,1902,1867,1899,1870,-3
 ,,,2012-06-18,UEFA Euro,played,Croatia,HRV,HRV,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,1,loss,Gdańsk,Poland,TRUE,1899,2121,1888,2132,-11
 ,,,2012-08-15,Friendly,played,Croatia,HRV,HRV,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,4,loss,Split,Croatia,FALSE,1888,1762,1864,1786,-24
@@ -280,7 +280,7 @@ WC-2014,WC-2014_035,35,2014-06-23,FIFA World Cup,played,Croatia,HRV,HRV,UEFA,Mex
 ,,,2016-11-12,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Iceland,ISL,ISL,UEFA,TRUE,2,0,win,Zagreb,Croatia,FALSE,1858,1779,1874,1763,16
 ,,,2016-11-15,Friendly,played,Croatia,HRV,HRV,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,3,0,win,Belfast,Northern Ireland,FALSE,1874,1659,1886,1647,12
 ,,,2017-01-11,Friendly,played,Croatia,HRV,HRV,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Nanning,China PR,TRUE,1886,1981,1890,1977,4
-,,,2017-01-14,Friendly,played,Croatia,HRV,HRV,UEFA,China PR,,,,FALSE,1,1,draw,Nanning,China PR,FALSE,,,,,
+,,,2017-01-14,Friendly,played,Croatia,HRV,HRV,UEFA,China PR,,,,FALSE,1,1,draw,Nanning,China PR,FALSE,1890,1509,1880,1519,-10
 ,,,2017-03-24,FIFA World Cup qualification,played,Croatia,HRV,HRV,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,0,win,Zagreb,Croatia,FALSE,1880,1769,1889,1760,9
 ,,,2017-03-28,Friendly,played,Croatia,HRV,HRV,UEFA,Estonia,,,,FALSE,0,3,loss,Tallinn,Estonia,FALSE,1889,1442,1858,1473,-31
 ,,,2017-05-28,Friendly,played,Croatia,HRV,HRV,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,2,1,win,Los Angeles,United States,TRUE,,,,,

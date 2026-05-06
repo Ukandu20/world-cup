@@ -419,7 +419,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1990,WC-1990,WC-1990_006,6,1990-06-10,Group Stage,played,Germany,Yugoslavia,GER,YUG,DEU,YUG,UEFA,UEFA,1923,1813,Milan,Italy,TRUE
 1990,WC-1990,WC-1990_007,7,1990-06-10,Group Stage,played,United States,Czechoslovakia,USA,CSK,USA,CSK,CONCACAF,UEFA,1586,1855,Florence,Italy,TRUE
 1990,WC-1990,WC-1990_008,8,1990-06-11,Group Stage,played,Costa Rica,Scotland,CRI,SCO,CRI,SCO,CONCACAF,UEFA,1612,1739,Genoa,Italy,TRUE
-1990,WC-1990,WC-1990_009,9,1990-06-11,Group Stage,played,England,Republic of Ireland,ENG,IRL,ENG,IRL,UEFA,UEFA,2020,,Cagliari,Italy,TRUE
+1990,WC-1990,WC-1990_009,9,1990-06-11,Group Stage,played,England,Republic of Ireland,ENG,IRL,ENG,IRL,UEFA,UEFA,2020,1892,Cagliari,Italy,TRUE
 1990,WC-1990,WC-1990_010,10,1990-06-12,Group Stage,played,Belgium,South Korea,BEL,KOR,BEL,KOR,UEFA,AFC,1845,1745,Verona,Italy,TRUE
 1990,WC-1990,WC-1990_011,11,1990-06-12,Group Stage,played,Netherlands,Egypt,NED,EGY,NLD,EGY,UEFA,CAF,2033,1627,Palermo,Italy,TRUE
 1990,WC-1990,WC-1990_012,12,1990-06-13,Group Stage,played,Argentina,Soviet Union,ARG,SUN,ARG,SUN,CONMEBOL,UEFA,1751,1892,Naples,Italy,TRUE
@@ -433,7 +433,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1990,WC-1990,WC-1990_020,20,1990-06-16,Group Stage,played,England,Netherlands,ENG,NED,ENG,NLD,UEFA,UEFA,1940,2008,Cagliari,Italy,TRUE
 1990,WC-1990,WC-1990_021,21,1990-06-16,Group Stage,played,Sweden,Scotland,SWE,SCO,SWE,SCO,UEFA,UEFA,1926,1698,Genoa,Italy,TRUE
 1990,WC-1990,WC-1990_022,22,1990-06-17,Group Stage,played,Belgium,Uruguay,BEL,URY,BEL,URY,UEFA,CONMEBOL,1877,1896,Verona,Italy,TRUE
-1990,WC-1990,WC-1990_023,23,1990-06-17,Group Stage,played,Republic of Ireland,Egypt,IRL,EGY,IRL,EGY,UEFA,CAF,,1689,Palermo,Italy,TRUE
+1990,WC-1990,WC-1990_023,23,1990-06-17,Group Stage,played,Republic of Ireland,Egypt,IRL,EGY,IRL,EGY,UEFA,CAF,1896,1689,Palermo,Italy,TRUE
 1990,WC-1990,WC-1990_024,24,1990-06-17,Group Stage,played,South Korea,Spain,KOR,ESP,KOR,ESP,AFC,UEFA,1713,1924,Udine,Italy,TRUE
 1990,WC-1990,WC-1990_025,25,1990-06-18,Group Stage,played,Argentina,Romania,ARG,ROU,ARG,ROU,CONMEBOL,UEFA,1813,1895,Naples,Italy,TRUE
 1990,WC-1990,WC-1990_026,26,1990-06-18,Group Stage,played,Cameroon,Soviet Union,CMR,SUN,CMR,SUN,CAF,UEFA,1724,1830,Bari,Italy,TRUE
@@ -445,17 +445,17 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1990,WC-1990,WC-1990_032,32,1990-06-20,Group Stage,played,Sweden,Costa Rica,SWE,CRI,SWE,CRI,UEFA,CONCACAF,1879,1646,Genoa,Italy,TRUE
 1990,WC-1990,WC-1990_033,33,1990-06-21,Group Stage,played,Belgium,Spain,BEL,ESP,BEL,ESP,UEFA,UEFA,1924,1945,Verona,Italy,TRUE
 1990,WC-1990,WC-1990_034,34,1990-06-21,Group Stage,played,England,Egypt,ENG,EGY,ENG,EGY,UEFA,CAF,1946,1670,Cagliari,Italy,TRUE
-1990,WC-1990,WC-1990_035,35,1990-06-21,Group Stage,played,Republic of Ireland,Netherlands,IRL,NED,IRL,NLD,UEFA,UEFA,,1961,Palermo,Italy,TRUE
+1990,WC-1990,WC-1990_035,35,1990-06-21,Group Stage,played,Republic of Ireland,Netherlands,IRL,NED,IRL,NLD,UEFA,UEFA,1878,1961,Palermo,Italy,TRUE
 1990,WC-1990,WC-1990_036,36,1990-06-21,Group Stage,played,South Korea,Uruguay,KOR,URY,KOR,URY,AFC,CONMEBOL,1692,1849,Udine,Italy,TRUE
 1990,WC-1990,WC-1990_037,37,1990-06-23,Round of 16,played,Cameroon,Colombia,CMR,COL,CMR,COL,CAF,CONMEBOL,1684,1805,Naples,Italy,TRUE
 1990,WC-1990,WC-1990_038,38,1990-06-23,Round of 16,played,Czechoslovakia,Costa Rica,CSK,CRI,CSK,CRI,UEFA,CONCACAF,1872,1694,Bari,Italy,TRUE
 1990,WC-1990,WC-1990_039,39,1990-06-24,Round of 16,played,Brazil,Argentina,BRA,ARG,BRA,ARG,CONMEBOL,CONMEBOL,2036,1820,Turin,Italy,TRUE
 1990,WC-1990,WC-1990_040,40,1990-06-24,Round of 16,played,Germany,Netherlands,GER,NED,DEU,NLD,UEFA,UEFA,1923,1961,Milan,Italy,TRUE
-1990,WC-1990,WC-1990_041,41,1990-06-25,Round of 16,played,Republic of Ireland,Romania,IRL,ROU,IRL,ROU,UEFA,UEFA,,1627,Genoa,Italy,TRUE
+1990,WC-1990,WC-1990_041,41,1990-06-25,Round of 16,played,Republic of Ireland,Romania,IRL,ROU,IRL,ROU,UEFA,UEFA,1888,1627,Genoa,Italy,TRUE
 1990,WC-1990,WC-1990_042,42,1990-06-25,Round of 16,played,Italy,Uruguay,ITA,URY,ITA,URY,UEFA,CONMEBOL,2001,1866,Rome,Italy,FALSE
 1990,WC-1990,WC-1990_043,43,1990-06-26,Round of 16,played,England,Belgium,ENG,BEL,ENG,BEL,UEFA,UEFA,1956,1896,Bologna,Italy,TRUE
 1990,WC-1990,WC-1990_044,44,1990-06-26,Round of 16,played,Spain,Yugoslavia,ESP,YUG,ESP,YUG,UEFA,UEFA,1973,1889,Verona,Italy,TRUE
-1990,WC-1990,WC-1990_045,45,1990-06-30,Quarter-final,played,Italy,Republic of Ireland,ITA,IRL,ITA,IRL,UEFA,UEFA,1856,,Rome,Italy,FALSE
+1990,WC-1990,WC-1990_045,45,1990-06-30,Quarter-final,played,Italy,Republic of Ireland,ITA,IRL,ITA,IRL,UEFA,UEFA,1856,1888,Rome,Italy,FALSE
 1990,WC-1990,WC-1990_046,46,1990-06-30,Quarter-final,played,Yugoslavia,Argentina,YUG,ARG,YUG,ARG,UEFA,CONMEBOL,1926,1867,Florence,Italy,TRUE
 1990,WC-1990,WC-1990_047,47,1990-07-01,Quarter-final,played,Cameroon,England,CMR,ENG,CMR,ENG,CAF,UEFA,1724,1981,Naples,Italy,TRUE
 1990,WC-1990,WC-1990_048,48,1990-07-01,Quarter-final,played,Germany,Czechoslovakia,GER,CSK,DEU,CSK,UEFA,UEFA,1923,1844,Milan,Italy,TRUE
@@ -466,7 +466,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1994,WC-1994,WC-1994_001,1,1994-06-17,Group Stage,played,Germany,Bolivia,GER,BOL,DEU,BOL,UEFA,CONMEBOL,2009,1703,Chicago,United States,TRUE
 1994,WC-1994,WC-1994_002,2,1994-06-17,Group Stage,played,Spain,South Korea,ESP,KOR,ESP,KOR,UEFA,AFC,1893,1666,Dallas,United States,TRUE
 1994,WC-1994,WC-1994_003,3,1994-06-18,Group Stage,played,Colombia,Romania,COL,ROU,COL,ROU,CONMEBOL,UEFA,1944,1836,Pasadena,United States,TRUE
-1994,WC-1994,WC-1994_004,4,1994-06-18,Group Stage,played,Italy,Republic of Ireland,ITA,IRL,ITA,IRL,UEFA,UEFA,1856,,East Rutherford,United States,TRUE
+1994,WC-1994,WC-1994_004,4,1994-06-18,Group Stage,played,Italy,Republic of Ireland,ITA,IRL,ITA,IRL,UEFA,UEFA,1856,1864,East Rutherford,United States,TRUE
 1994,WC-1994,WC-1994_005,5,1994-06-18,Group Stage,played,United States,Switzerland,USA,CHE,USA,CHE,CONCACAF,UEFA,1615,1873,Pontiac,United States,FALSE
 1994,WC-1994,WC-1994_006,6,1994-06-19,Group Stage,played,Belgium,Morocco,BEL,MAR,BEL,MAR,UEFA,CAF,1824,1666,Orlando,United States,TRUE
 1994,WC-1994,WC-1994_007,7,1994-06-19,Group Stage,played,Cameroon,Sweden,CMR,SWE,CMR,SWE,CAF,UEFA,1685,1905,Pasadena,United States,TRUE
@@ -481,7 +481,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1994,WC-1994,WC-1994_016,16,1994-06-23,Group Stage,played,Italy,Norway,ITA,NOR,ITA,NOR,UEFA,UEFA,1947,1881,East Rutherford,United States,TRUE
 1994,WC-1994,WC-1994_017,17,1994-06-23,Group Stage,played,South Korea,Bolivia,KOR,BOL,KOR,BOL,AFC,CONMEBOL,1683,1694,Foxborough,United States,TRUE
 1994,WC-1994,WC-1994_018,18,1994-06-24,Group Stage,played,Brazil,Cameroon,BRA,CMR,BRA,CMR,CONMEBOL,CAF,1997,1702,Palo Alto,United States,TRUE
-1994,WC-1994,WC-1994_019,19,1994-06-24,Group Stage,played,Mexico,Republic of Ireland,MEX,IRL,MEX,IRL,CONCACAF,UEFA,1858,,Orlando,United States,TRUE
+1994,WC-1994,WC-1994_019,19,1994-06-24,Group Stage,played,Mexico,Republic of Ireland,MEX,IRL,MEX,IRL,CONCACAF,UEFA,1858,1904,Orlando,United States,TRUE
 1994,WC-1994,WC-1994_020,20,1994-06-24,Group Stage,played,Sweden,Russia,SWE,RUS,SWE,RUS,UEFA,UEFA,1888,1834,Pontiac,United States,TRUE
 1994,WC-1994,WC-1994_021,21,1994-06-25,Group Stage,played,Argentina,Nigeria,ARG,NGA,ARG,NGA,CONMEBOL,CAF,1939,1793,Foxborough,United States,TRUE
 1994,WC-1994,WC-1994_022,22,1994-06-25,Group Stage,played,Belgium,Netherlands,BEL,NED,BEL,NLD,UEFA,UEFA,1841,1998,Orlando,United States,TRUE
@@ -492,7 +492,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1994,WC-1994,WC-1994_027,27,1994-06-27,Group Stage,played,Bolivia,Spain,BOL,ESP,BOL,ESP,CONMEBOL,UEFA,1693,1888,Chicago,United States,TRUE
 1994,WC-1994,WC-1994_028,28,1994-06-27,Group Stage,played,Germany,South Korea,GER,KOR,DEU,KOR,UEFA,AFC,2006,1684,Dallas,United States,TRUE
 1994,WC-1994,WC-1994_029,29,1994-06-28,Group Stage,played,Brazil,Sweden,BRA,SWE,BRA,SWE,CONMEBOL,UEFA,2013,1926,Pontiac,United States,TRUE
-1994,WC-1994,WC-1994_030,30,1994-06-28,Group Stage,played,Republic of Ireland,Norway,IRL,NOR,IRL,NOR,UEFA,UEFA,,1912,East Rutherford,United States,TRUE
+1994,WC-1994,WC-1994_030,30,1994-06-28,Group Stage,played,Republic of Ireland,Norway,IRL,NOR,IRL,NOR,UEFA,UEFA,1867,1912,East Rutherford,United States,TRUE
 1994,WC-1994,WC-1994_031,31,1994-06-28,Group Stage,played,Italy,Mexico,ITA,MEX,ITA,MEX,UEFA,CONCACAF,1971,1862,"Washington, D.C.",United States,TRUE
 1994,WC-1994,WC-1994_032,32,1994-06-28,Group Stage,played,Russia,Cameroon,RUS,CMR,RUS,CMR,UEFA,CAF,1796,1686,Palo Alto,United States,TRUE
 1994,WC-1994,WC-1994_033,33,1994-06-29,Group Stage,played,Belgium,Saudi Arabia,BEL,KSA,BEL,SAU,UEFA,AFC,1884,1662,"Washington, D.C.",United States,TRUE
@@ -503,7 +503,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1994,WC-1994,WC-1994_038,38,1994-07-02,Round of 16,played,Spain,Switzerland,ESP,CHE,ESP,CHE,UEFA,UEFA,1910,1863,"Washington, D.C.",United States,TRUE
 1994,WC-1994,WC-1994_039,39,1994-07-03,Round of 16,played,Romania,Argentina,ROU,ARG,ROU,ARG,UEFA,CONMEBOL,1861,1889,Pasadena,United States,TRUE
 1994,WC-1994,WC-1994_040,40,1994-07-03,Round of 16,played,Saudi Arabia,Sweden,KSA,SWE,SAU,SWE,AFC,UEFA,1709,1933,Dallas,United States,TRUE
-1994,WC-1994,WC-1994_041,41,1994-07-04,Round of 16,played,Netherlands,Republic of Ireland,NED,IRL,NLD,IRL,UEFA,UEFA,1961,,Orlando,United States,TRUE
+1994,WC-1994,WC-1994_041,41,1994-07-04,Round of 16,played,Netherlands,Republic of Ireland,NED,IRL,NLD,IRL,UEFA,UEFA,1961,1866,Orlando,United States,TRUE
 1994,WC-1994,WC-1994_042,42,1994-07-04,Round of 16,played,United States,Brazil,USA,BRA,USA,BRA,CONCACAF,CONMEBOL,1647,2006,Palo Alto,United States,FALSE
 1994,WC-1994,WC-1994_043,43,1994-07-05,Round of 16,played,Mexico,Bulgaria,MEX,BGR,MEX,BGR,CONCACAF,UEFA,1871,1830,East Rutherford,United States,TRUE
 1994,WC-1994,WC-1994_044,44,1994-07-05,Round of 16,played,Nigeria,Italy,NGA,ITA,NGA,ITA,CAF,UEFA,1801,1962,Foxborough,United States,TRUE
@@ -581,7 +581,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 1998,WC-1998,WC-1998_064,64,1998-07-12,Final,played,France,Brazil,FRA,BRA,FRA,BRA,UEFA,CONMEBOL,2044,2091,Saint-Denis,France,FALSE
 2002,WC-2002,WC-2002_001,1,2002-05-31,Group Stage,played,France,Senegal,FRA,SEN,FRA,SEN,UEFA,CAF,2093,1698,Seoul,South Korea,TRUE
 2002,WC-2002,WC-2002_002,2,2002-06-01,Group Stage,played,Germany,Saudi Arabia,GER,KSA,DEU,SAU,UEFA,AFC,1870,1696,Sapporo,Japan,TRUE
-2002,WC-2002,WC-2002_003,3,2002-06-01,Group Stage,played,Republic of Ireland,Cameroon,IRL,CMR,IRL,CMR,UEFA,CAF,,1614,Niigata,Japan,TRUE
+2002,WC-2002,WC-2002_003,3,2002-06-01,Group Stage,played,Republic of Ireland,Cameroon,IRL,CMR,IRL,CMR,UEFA,CAF,1873,1614,Niigata,Japan,TRUE
 2002,WC-2002,WC-2002_004,4,2002-06-01,Group Stage,played,Uruguay,Denmark,URY,DNK,URY,DNK,CONMEBOL,UEFA,1811,1861,Ulsan,South Korea,TRUE
 2002,WC-2002,WC-2002_005,5,2002-06-02,Group Stage,played,Argentina,Nigeria,ARG,NGA,ARG,NGA,CONMEBOL,CAF,2020,1765,Kashima,Japan,TRUE
 2002,WC-2002,WC-2002_006,6,2002-06-02,Group Stage,played,England,Sweden,ENG,SWE,ENG,SWE,UEFA,UEFA,1924,1866,Saitama,Japan,TRUE
@@ -590,10 +590,10 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 2002,WC-2002,WC-2002_009,9,2002-06-03,Group Stage,played,Brazil,Turkey,BRA,TUR,BRA,TUR,CONMEBOL,UEFA,1867,1756,Ulsan,South Korea,TRUE
 2002,WC-2002,WC-2002_010,10,2002-06-03,Group Stage,played,Croatia,Mexico,HRV,MEX,HRV,MEX,UEFA,CONCACAF,1881,1832,Niigata,Japan,TRUE
 2002,WC-2002,WC-2002_011,11,2002-06-03,Group Stage,played,Italy,Ecuador,ITA,ECU,ITA,ECU,UEFA,CONMEBOL,2008,1728,Sapporo,Japan,TRUE
-2002,WC-2002,WC-2002_012,12,2002-06-04,Group Stage,played,China PR,Costa Rica,CHN,CRI,CHN,CRI,AFC,CONCACAF,,1613,Gwangju,South Korea,TRUE
+2002,WC-2002,WC-2002_012,12,2002-06-04,Group Stage,played,China PR,Costa Rica,CHN,CRI,CHN,CRI,AFC,CONCACAF,1698,1613,Gwangju,South Korea,TRUE
 2002,WC-2002,WC-2002_013,13,2002-06-04,Group Stage,played,Japan,Belgium,JPN,BEL,JPN,BEL,AFC,UEFA,1848,1837,Saitama,Japan,FALSE
 2002,WC-2002,WC-2002_014,14,2002-06-04,Group Stage,played,South Korea,Poland,KOR,POL,KOR,POL,AFC,UEFA,1735,1735,Busan,South Korea,FALSE
-2002,WC-2002,WC-2002_015,15,2002-06-05,Group Stage,played,Germany,Republic of Ireland,GER,IRL,DEU,IRL,UEFA,UEFA,1923,,Kashima,Japan,TRUE
+2002,WC-2002,WC-2002_015,15,2002-06-05,Group Stage,played,Germany,Republic of Ireland,GER,IRL,DEU,IRL,UEFA,UEFA,1923,1867,Kashima,Japan,TRUE
 2002,WC-2002,WC-2002_016,16,2002-06-05,Group Stage,played,Russia,Tunisia,RUS,TUN,RUS,TUN,UEFA,CAF,1801,1618,Kobe,Japan,TRUE
 2002,WC-2002,WC-2002_017,17,2002-06-05,Group Stage,played,United States,Portugal,USA,PRT,USA,PRT,CONCACAF,UEFA,1808,1978,Suwon,South Korea,TRUE
 2002,WC-2002,WC-2002_018,18,2002-06-06,Group Stage,played,Cameroon,Saudi Arabia,CMR,KSA,CMR,SAU,CAF,AFC,1810,1658,Saitama,Japan,TRUE
@@ -602,7 +602,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 2002,WC-2002,WC-2002_021,21,2002-06-07,Group Stage,played,Argentina,England,ARG,ENG,ARG,ENG,CONMEBOL,UEFA,2031,1919,Sapporo,Japan,TRUE
 2002,WC-2002,WC-2002_022,22,2002-06-07,Group Stage,played,Spain,Paraguay,ESP,PRY,ESP,PRY,UEFA,CONMEBOL,1983,1723,Jeonju,South Korea,TRUE
 2002,WC-2002,WC-2002_023,23,2002-06-07,Group Stage,played,Sweden,Nigeria,SWE,NGA,SWE,NGA,UEFA,CAF,1871,1754,Kobe,Japan,TRUE
-2002,WC-2002,WC-2002_024,24,2002-06-08,Group Stage,played,Brazil,China PR,BRA,CHN,BRA,CHN,CONMEBOL,AFC,1984,,Seogwipo,South Korea,TRUE
+2002,WC-2002,WC-2002_024,24,2002-06-08,Group Stage,played,Brazil,China PR,BRA,CHN,BRA,CHN,CONMEBOL,AFC,1984,1660,Seogwipo,South Korea,TRUE
 2002,WC-2002,WC-2002_025,25,2002-06-08,Group Stage,played,Italy,Croatia,ITA,HRV,ITA,HRV,UEFA,UEFA,2023,1847,Kashima,Japan,TRUE
 2002,WC-2002,WC-2002_026,26,2002-06-08,Group Stage,played,South Africa,Slovenia,ZAF,SVN,ZAF,SVN,CAF,UEFA,1649,1725,Daegu,South Korea,TRUE
 2002,WC-2002,WC-2002_027,27,2002-06-09,Group Stage,played,Costa Rica,Turkey,CRI,TUR,CRI,TUR,CONCACAF,UEFA,1792,1735,Incheon,South Korea,TRUE
@@ -613,7 +613,7 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 2002,WC-2002,WC-2002_032,32,2002-06-10,Group Stage,played,Tunisia,Belgium,TUN,BEL,TUN,BEL,CAF,UEFA,1595,1846,Ōita,Japan,TRUE
 2002,WC-2002,WC-2002_033,33,2002-06-11,Group Stage,played,Cameroon,Germany,CMR,GER,CMR,DEU,CAF,UEFA,1828,1904,Fukuroi,Japan,TRUE
 2002,WC-2002,WC-2002_034,34,2002-06-11,Group Stage,played,Denmark,France,DNK,FRA,DNK,FRA,UEFA,UEFA,1876,2020,Incheon,South Korea,TRUE
-2002,WC-2002,WC-2002_035,35,2002-06-11,Group Stage,played,Saudi Arabia,Republic of Ireland,KSA,IRL,SAU,IRL,AFC,UEFA,1568,,Yokohama,Japan,TRUE
+2002,WC-2002,WC-2002_035,35,2002-06-11,Group Stage,played,Saudi Arabia,Republic of Ireland,KSA,IRL,SAU,IRL,AFC,UEFA,1568,1871,Yokohama,Japan,TRUE
 2002,WC-2002,WC-2002_036,36,2002-06-11,Group Stage,played,Senegal,Uruguay,SEN,URY,SEN,URY,CAF,CONMEBOL,1763,1804,Suwon,South Korea,TRUE
 2002,WC-2002,WC-2002_037,37,2002-06-12,Group Stage,played,Nigeria,England,NGA,ENG,NGA,ENG,CAF,UEFA,1734,1958,Osaka,Japan,TRUE
 2002,WC-2002,WC-2002_038,38,2002-06-12,Group Stage,played,Slovenia,Paraguay,SVN,PRY,SVN,PRY,UEFA,CONMEBOL,1689,1707,Seogwipo,South Korea,TRUE
@@ -622,14 +622,14 @@ edition,tournament_id,match_id,match_number,date,stage,status,home_team,away_tea
 2002,WC-2002,WC-2002_041,41,2002-06-13,Group Stage,played,Costa Rica,Brazil,CRI,BRA,CRI,BRA,CONCACAF,CONMEBOL,1787,1912,Suwon,South Korea,TRUE
 2002,WC-2002,WC-2002_042,42,2002-06-13,Group Stage,played,Ecuador,Croatia,ECU,HRV,ECU,HRV,CONMEBOL,UEFA,1695,1891,Yokohama,Japan,TRUE
 2002,WC-2002,WC-2002_043,43,2002-06-13,Group Stage,played,Mexico,Italy,MEX,ITA,MEX,ITA,CONCACAF,UEFA,1884,1979,Ōita,Japan,TRUE
-2002,WC-2002,WC-2002_044,44,2002-06-13,Group Stage,played,Turkey,China PR,TUR,CHN,TUR,CHN,UEFA,AFC,1902,,Seoul,South Korea,TRUE
+2002,WC-2002,WC-2002_044,44,2002-06-13,Group Stage,played,Turkey,China PR,TUR,CHN,TUR,CHN,UEFA,AFC,1902,1636,Seoul,South Korea,TRUE
 2002,WC-2002,WC-2002_045,45,2002-06-14,Group Stage,played,Belgium,Russia,BEL,RUS,BEL,RUS,UEFA,UEFA,1827,1804,Fukuroi,Japan,TRUE
 2002,WC-2002,WC-2002_046,46,2002-06-14,Group Stage,played,Japan,Tunisia,JPN,TUN,JPN,TUN,AFC,CAF,1859,1614,Osaka,Japan,FALSE
 2002,WC-2002,WC-2002_047,47,2002-06-14,Group Stage,played,South Korea,Portugal,KOR,PRT,KOR,PRT,AFC,UEFA,1766,1958,Incheon,South Korea,FALSE
 2002,WC-2002,WC-2002_048,48,2002-06-14,Group Stage,played,Poland,United States,POL,USA,POL,USA,UEFA,CONCACAF,1679,1853,Daejeon,South Korea,TRUE
 2002,WC-2002,WC-2002_049,49,2002-06-15,Round of 16,played,Denmark,England,DNK,ENG,DNK,ENG,UEFA,UEFA,1939,1941,Niigata,Japan,TRUE
 2002,WC-2002,WC-2002_050,50,2002-06-15,Round of 16,played,Germany,Paraguay,GER,PRY,DEU,PRY,UEFA,CONMEBOL,1939,1750,Seogwipo,South Korea,TRUE
-2002,WC-2002,WC-2002_051,51,2002-06-16,Round of 16,played,Spain,Republic of Ireland,ESP,IRL,ESP,IRL,UEFA,UEFA,2165,,Suwon,South Korea,TRUE
+2002,WC-2002,WC-2002_051,51,2002-06-16,Round of 16,played,Spain,Republic of Ireland,ESP,IRL,ESP,IRL,UEFA,UEFA,2165,1893,Suwon,South Korea,TRUE
 2002,WC-2002,WC-2002_052,52,2002-06-16,Round of 16,played,Sweden,Senegal,SWE,SEN,SWE,SEN,UEFA,CAF,1899,1767,Ōita,Japan,TRUE
 2002,WC-2002,WC-2002_053,53,2002-06-17,Round of 16,played,Brazil,Belgium,BRA,BEL,BRA,BEL,CONMEBOL,UEFA,1946,1855,Kobe,Japan,TRUE
 2002,WC-2002,WC-2002_054,54,2002-06-17,Round of 16,played,Mexico,United States,MEX,USA,MEX,USA,CONCACAF,CONCACAF,1892,1787,Jeonju,South Korea,TRUE

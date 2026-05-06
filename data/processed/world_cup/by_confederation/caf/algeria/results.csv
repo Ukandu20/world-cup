@@ -2,7 +2,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1963-01-06,Friendly,played,Algeria,DZA,DZA,CAF,Bulgaria,BGR,BGR,UEFA,TRUE,2,1,win,Algiers,Algeria,FALSE,1761,1734,1767,1728,6
 ,,,1963-07-07,Friendly,played,Algeria,DZA,DZA,CAF,Egypt,EGY,EGY,CAF,TRUE,2,2,draw,Oran,Algeria,FALSE,1762,1692,1757,1697,-5
 ,,,1963-12-15,Friendly,played,Algeria,DZA,DZA,CAF,Tunisia,TUN,TUN,CAF,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1757,1570,1755,1572,-2
-,,,1964-01-01,Friendly,played,Algeria,DZA,DZA,CAF,Germany,GER,DEU,UEFA,TRUE,2,0,win,Algiers,Algeria,FALSE,,,,,
+,,,1964-01-01,Friendly,played,Algeria,DZA,DZA,CAF,Germany,GER,DEU,UEFA,TRUE,2,0,win,Algiers,Algeria,FALSE,1755,1934,1773,1916,18
 ,,,1964-03-20,Friendly,played,Algeria,DZA,DZA,CAF,Egypt,EGY,EGY,CAF,FALSE,0,1,loss,Cairo,Egypt,FALSE,1773,1759,1765,1767,-8
 ,,,1964-11-04,Friendly,played,Algeria,DZA,DZA,CAF,Soviet Union,SUN,SUN,UEFA,TRUE,2,2,draw,Algiers,Algeria,FALSE,1749,1989,1753,1985,4
 ,,,1965-06-17,Friendly,played,Algeria,DZA,DZA,CAF,Brazil,BRA,BRA,CONMEBOL,TRUE,0,3,loss,Oran,Algeria,FALSE,1756,1953,1743,1966,-13
@@ -135,8 +135,8 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1982-03-16,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Ghana,GHA,GHA,CAF,TRUE,2,3,loss,Benghazi,Libya,TRUE,1694,1687,1668,1713,-26
 ,,,1982-03-18,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Zambia,,,,TRUE,0,2,loss,Tripoli,Libya,TRUE,1668,1585,1622,1631,-46
 ,,,1982-04-25,Friendly,played,Algeria,DZA,DZA,CAF,Peru,PER,PER,CONMEBOL,TRUE,1,1,draw,Algiers,Algeria,FALSE,1622,1750,1623,1749,1
-,,,1982-04-28,Friendly,played,Algeria,DZA,DZA,CAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Algiers,Algeria,FALSE,,,,,
-WC-1982,WC-1982_008,8,1982-06-16,FIFA World Cup,played,Algeria,DZA,DZA,CAF,Germany,GER,DEU,UEFA,FALSE,2,1,win,Gijón,Spain,TRUE,,,,,
+,,,1982-04-28,Friendly,played,Algeria,DZA,DZA,CAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Algiers,Algeria,FALSE,1623,1779,1640,1762,17
+WC-1982,WC-1982_008,8,1982-06-16,FIFA World Cup,played,Algeria,DZA,DZA,CAF,Germany,GER,DEU,UEFA,FALSE,2,1,win,Gijón,Spain,TRUE,1640,2111,1696,2055,56
 WC-1982,WC-1982_022,22,1982-06-21,FIFA World Cup,played,Algeria,DZA,DZA,CAF,Austria,AUT,AUT,UEFA,TRUE,0,2,loss,Oviedo,Spain,TRUE,1696,1938,1678,1956,-18
 WC-1982,WC-1982_031,31,1982-06-24,FIFA World Cup,played,Algeria,DZA,DZA,CAF,Chile,CHL,CHL,CONMEBOL,TRUE,3,2,win,Oviedo,Spain,TRUE,1678,1737,1713,1702,35
 ,,,1982-12-19,Friendly,played,Algeria,DZA,DZA,CAF,Tunisia,TUN,TUN,CAF,FALSE,1,0,win,Tunis,Tunisia,FALSE,1713,1586,1722,1577,9
@@ -200,7 +200,7 @@ WC-1986,WC-1986_033,33,1986-06-12,FIFA World Cup,played,Algeria,DZA,DZA,CAF,Spai
 ,,,1988-01-05,Friendly,played,Algeria,DZA,DZA,CAF,Congo,,,,TRUE,4,1,win,Annaba,Algeria,FALSE,,,,,
 ,,,1988-03-13,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,1,1,draw,Casablanca,Morocco,TRUE,1621,1642,1623,1640,2
 ,,,1988-03-16,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Morocco,MAR,MAR,CAF,FALSE,0,1,loss,Casablanca,Morocco,FALSE,1623,1676,1608,1691,-15
-,,,1988-03-19,African Cup of Nations,played,Algeria,DZA,DZA,CAF,DR Congo,,,,TRUE,1,0,win,Casablanca,Morocco,TRUE,,,,,
+,,,1988-03-19,African Cup of Nations,played,Algeria,DZA,DZA,CAF,DR Congo,,,,TRUE,1,0,win,Casablanca,Morocco,TRUE,1608,1597,1632,1573,24
 ,,,1988-03-23,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Nigeria,NGA,NGA,CAF,TRUE,1,1,draw,Rabat,Morocco,TRUE,1632,1607,1630,1609,-2
 ,,,1988-03-26,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Morocco,MAR,MAR,CAF,FALSE,1,1,draw,Casablanca,Morocco,FALSE,1630,1648,1638,1640,8
 ,,,1988-10-29,Friendly,played,Algeria,DZA,DZA,CAF,Angola,AGO,AGO,CAF,TRUE,1,1,draw,Mascara,Algeria,FALSE,1600,1491,1595,1496,-5
@@ -371,7 +371,7 @@ WC-1986,WC-1986_033,33,1986-06-12,FIFA World Cup,played,Algeria,DZA,DZA,CAF,Spai
 ,,,2004-01-29,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Egypt,EGY,EGY,CAF,TRUE,2,1,win,Sousse,Tunisia,TRUE,1517,1698,1554,1661,37
 ,,,2004-02-03,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Zimbabwe,,,,TRUE,1,2,loss,Sousse,Tunisia,TRUE,1554,1455,1522,1487,-32
 ,,,2004-02-08,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Morocco,MAR,MAR,CAF,FALSE,1,3,loss,Sfax,Tunisia,TRUE,1522,1617,1495,1644,-27
-,,,2004-04-28,Friendly,played,Algeria,DZA,DZA,CAF,China PR,,,,TRUE,0,1,loss,Clermont-Ferrand,France,TRUE,,,,,
+,,,2004-04-28,Friendly,played,Algeria,DZA,DZA,CAF,China PR,,,,TRUE,0,1,loss,Clermont-Ferrand,France,TRUE,1495,1599,1488,1606,-7
 ,,,2004-05-30,Friendly,played,Algeria,DZA,DZA,CAF,Jordan,,,,TRUE,1,1,draw,Annaba,Algeria,FALSE,1488,1600,1488,1600,0
 ,,,2004-06-05,FIFA World Cup qualification,played,Algeria,DZA,DZA,CAF,Angola,AGO,AGO,CAF,TRUE,0,0,draw,Annaba,Algeria,FALSE,1488,1480,1482,1486,-6
 ,,,2004-06-20,FIFA World Cup qualification,played,Algeria,DZA,DZA,CAF,Zimbabwe,,,,FALSE,1,1,draw,Harare,Zimbabwe,FALSE,1482,1477,1487,1472,5
@@ -426,7 +426,7 @@ WC-1986,WC-1986_033,33,1986-06-12,FIFA World Cup,played,Algeria,DZA,DZA,CAF,Spai
 ,,,2010-01-28,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Egypt,EGY,EGY,CAF,TRUE,0,4,loss,Benguela,Angola,TRUE,1583,1801,1562,1822,-21
 ,,,2010-01-30,African Cup of Nations,played,Algeria,DZA,DZA,CAF,Nigeria,NGA,NGA,CAF,FALSE,0,1,loss,Benguela,Angola,TRUE,1562,1683,1545,1700,-17
 ,,,2010-03-03,Friendly,played,Algeria,DZA,DZA,CAF,Serbia,SRB,SRB,UEFA,TRUE,0,3,loss,Algiers,Algeria,FALSE,1545,1832,1536,1841,-9
-,,,2010-05-28,Friendly,played,Algeria,DZA,DZA,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2010-05-28,Friendly,played,Algeria,DZA,DZA,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,1536,1770,1532,1774,-4
 ,,,2010-06-05,Friendly,played,Algeria,DZA,DZA,CAF,United Arab Emirates,ARE,ARE,AFC,TRUE,1,0,win,Fürth,Germany,TRUE,1532,1443,1539,1436,7
 WC-2010,WC-2010_006,6,2010-06-13,FIFA World Cup,played,Algeria,DZA,DZA,CAF,Slovenia,SVN,SVN,UEFA,TRUE,0,1,loss,Polokwane,South Africa,TRUE,1539,1686,1521,1704,-18
 WC-2010,WC-2010_021,21,2010-06-18,FIFA World Cup,played,Algeria,DZA,DZA,CAF,England,ENG,ENG,UEFA,FALSE,0,0,draw,Cape Town,South Africa,TRUE,1521,1984,1547,1958,26

@@ -50,10 +50,10 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1958-12-03,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,France,FRA,FRA,UEFA,TRUE,1,1,draw,Athens,Greece,FALSE,1488,1954,1504,1938,16
 ,,,1959-12-02,Friendly,played,Greece,GRC,GRC,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,3,loss,Athens,Greece,FALSE,1500,1626,1486,1640,-14
 ,,,1960-07-03,Friendly,played,Greece,GRC,GRC,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,7,loss,Copenhagen,Denmark,FALSE,1480,1645,1473,1652,-7
-,,,1960-11-20,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,0,3,loss,Athens,Greece,FALSE,,,,,
+,,,1960-11-20,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,0,3,loss,Athens,Greece,FALSE,1473,1879,1463,1889,-10
 ,,,1961-05-03,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,1,win,Athens,Greece,FALSE,1463,1630,1487,1606,24
 ,,,1961-10-17,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,2,loss,Belfast,Northern Ireland,FALSE,1487,1577,1472,1592,-15
-,,,1961-10-22,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Augsburg,Germany,FALSE,,,,,
+,,,1961-10-22,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Augsburg,Germany,FALSE,1472,1885,1470,1887,-2
 ,,,1962-10-18,Friendly,played,Greece,GRC,GRC,UEFA,Ethiopia,,,,TRUE,3,2,win,Athens,Greece,FALSE,1470,1511,1478,1503,8
 ,,,1963-05-22,Friendly,played,Greece,GRC,GRC,UEFA,Poland,POL,POL,UEFA,FALSE,0,4,loss,Warsaw,Poland,FALSE,1478,1657,1472,1663,-6
 ,,,1963-10-16,Friendly,played,Greece,GRC,GRC,UEFA,Poland,POL,POL,UEFA,TRUE,3,1,win,Athens,Greece,FALSE,1472,1668,1491,1649,19
@@ -84,7 +84,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1969-11-16,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,1,draw,Bucharest,Romania,FALSE,1704,1802,1714,1792,10
 ,,,1970-10-11,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Malta,,,,FALSE,1,1,draw,Gżira,Malta,FALSE,1714,1407,1703,1418,-11
 ,,,1970-10-28,Friendly,played,Greece,GRC,GRC,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,2,loss,Zaragoza,Spain,FALSE,1703,1840,1699,1844,-4
-,,,1970-11-22,Friendly,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Piraeus,Greece,FALSE,,,,,
+,,,1970-11-22,Friendly,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Piraeus,Greece,FALSE,1678,2028,1672,2034,-6
 ,,,1970-12-09,Friendly,played,Greece,GRC,GRC,UEFA,Cyprus,,,,TRUE,1,1,draw,Piraeus,Greece,FALSE,1672,1358,1664,1366,-8
 ,,,1970-12-16,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,1,loss,Piraeus,Greece,FALSE,1664,1653,1638,1679,-26
 ,,,1971-04-07,Friendly,played,Greece,GRC,GRC,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,1,loss,Piraeus,Greece,FALSE,1643,1733,1633,1743,-10
@@ -111,13 +111,13 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1974-05-29,Balkan Cup,played,Greece,GRC,GRC,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,3,loss,Bucharest,Romania,FALSE,1589,1788,1580,1797,-9
 ,,,1974-10-13,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,3,draw,Sofia,Bulgaria,FALSE,1580,1773,1594,1759,14
 ,,,1974-11-15,Friendly,played,Greece,GRC,GRC,UEFA,Cyprus,,,,TRUE,3,1,win,Piraeus,Greece,FALSE,1594,1321,1597,1318,3
-,,,1974-11-20,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,2,2,draw,Piraeus,Greece,FALSE,,,,,
+,,,1974-11-20,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,2,2,draw,Piraeus,Greece,FALSE,1597,2146,1614,2129,17
 ,,,1974-12-18,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,1,win,Piraeus,Greece,FALSE,1614,1759,1637,1736,23
 ,,,1975-02-23,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Malta,,,,FALSE,0,2,loss,Gżira,Malta,FALSE,1637,1374,1594,1417,-43
 ,,,1975-04-01,Friendly,played,Greece,GRC,GRC,UEFA,Cyprus,,,,FALSE,2,1,win,Nicosia,Cyprus,FALSE,1594,1318,1599,1313,5
 ,,,1975-06-04,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Malta,,,,TRUE,4,0,win,Salonica,Greece,FALSE,1599,1417,1611,1405,12
 ,,,1975-09-24,Balkan Cup,played,Greece,GRC,GRC,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Salonica,Greece,FALSE,1611,1857,1619,1849,8
-,,,1975-10-11,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Düsseldorf,Germany,FALSE,,,,,
+,,,1975-10-11,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Düsseldorf,Germany,FALSE,1619,2106,1638,2087,19
 ,,,1975-12-30,Friendly,played,Greece,GRC,GRC,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,3,loss,Florence,Italy,FALSE,1638,1951,1636,1953,-2
 ,,,1976-05-06,Friendly,played,Greece,GRC,GRC,UEFA,Poland,POL,POL,UEFA,TRUE,1,0,win,Athens,Greece,FALSE,1636,2002,1652,1986,16
 ,,,1976-09-22,Friendly,played,Greece,GRC,GRC,UEFA,Israel,ISR,ISR,UEFA,TRUE,0,1,loss,Patras,Greece,FALSE,1652,1748,1642,1758,-10
@@ -156,7 +156,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1980-05-14,Friendly,played,Greece,GRC,GRC,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Athens,Greece,FALSE,1676,1693,1674,1695,-2
 ,,,1980-06-11,UEFA Euro,played,Greece,GRC,GRC,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,1,loss,Naples,Italy,TRUE,1674,2031,1668,2037,-6
 ,,,1980-06-14,UEFA Euro,played,Greece,GRC,GRC,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,3,loss,Rome,Italy,TRUE,1668,1898,1652,1914,-16
-,,,1980-06-17,UEFA Euro,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,0,0,draw,Turin,Italy,TRUE,,,,,
+,,,1980-06-17,UEFA Euro,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,0,0,draw,Turin,Italy,TRUE,1652,2115,1674,2093,22
 ,,,1980-10-15,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,0,win,Copenhagen,Denmark,FALSE,1674,1684,1700,1658,26
 ,,,1980-11-11,Friendly,played,Greece,GRC,GRC,UEFA,Australia,AUS,AUS,AFC,TRUE,3,3,draw,Athens,Greece,FALSE,1700,1656,1696,1660,-4
 ,,,1980-12-06,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,2,loss,Athens,Greece,FALSE,1696,2003,1682,2017,-14
@@ -305,7 +305,7 @@ WC-1994,WC-1994_036,36,1994-06-30,FIFA World Cup,played,Greece,GRC,GRC,UEFA,Nige
 ,,,1995-06-11,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Finland,,,,FALSE,1,2,loss,Helsinki,Finland,FALSE,1627,1535,1607,1555,-20
 ,,,1995-08-16,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1607,1779,1600,1786,-7
 ,,,1995-09-06,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,San Marino,,,,FALSE,4,0,win,Serravalle,San Marino,FALSE,1600,990,1604,986,4
-,,,1995-09-20,Friendly,played,Greece,GRC,GRC,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,2,loss,Salonica,Greece,FALSE,,,,,
+,,,1995-09-20,Friendly,played,Greece,GRC,GRC,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,2,loss,Salonica,Greece,FALSE,1604,1908,1597,1915,-7
 ,,,1995-10-11,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Russia,RUS,RUS,UEFA,FALSE,1,2,loss,Moscow,Russia,FALSE,1597,1890,1593,1894,-4
 ,,,1995-11-15,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Faroe Islands,,,,TRUE,5,0,win,Heraklion,Greece,FALSE,1593,1193,1597,1189,4
 ,,,1996-01-24,Friendly,played,Greece,GRC,GRC,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,1,win,Chalcis,Greece,FALSE,1597,1643,1605,1635,8
@@ -350,14 +350,14 @@ WC-1994,WC-1994_036,36,1994-06-30,FIFA World Cup,played,Greece,GRC,GRC,UEFA,Nige
 ,,,1999-12-18,Friendly,played,Greece,GRC,GRC,UEFA,Estonia,,,,TRUE,2,2,draw,Tríkala,Greece,FALSE,1751,1327,1742,1336,-9
 ,,,2000-02-23,Friendly,played,Greece,GRC,GRC,UEFA,Austria,AUT,AUT,UEFA,TRUE,4,1,win,Kalamáta,Greece,FALSE,1742,1706,1753,1695,11
 ,,,2000-03-29,Friendly,played,Greece,GRC,GRC,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,0,win,Athens,Greece,FALSE,1753,1870,1769,1854,16
-,,,2000-04-26,Friendly,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2000-04-26,Friendly,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,1769,1780,1782,1767,13
 ,,,2000-06-03,Friendly,played,Greece,GRC,GRC,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,2,loss,Bucharest,Romania,FALSE,1782,1852,1777,1857,-5
 ,,,2000-08-16,Friendly,played,Greece,GRC,GRC,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,2,draw,St. Gallen,Switzerland,FALSE,1777,1728,1778,1727,1
 ,,,2000-09-02,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Hamburg,Germany,FALSE,1778,1850,1762,1866,-16
 ,,,2000-10-07,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Finland,,,,TRUE,1,0,win,Athens,Greece,FALSE,1762,1615,1770,1607,8
 ,,,2000-10-11,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Albania,,,,FALSE,0,2,loss,Tirana,Albania,FALSE,1770,1450,1723,1497,-47
 ,,,2000-11-15,Friendly,played,Greece,GRC,GRC,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,0,2,loss,Rhodes,Greece,FALSE,1723,1736,1704,1755,-19
-,,,2000-12-13,Friendly,played,Greece,GRC,GRC,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Xánthi,Greece,FALSE,,,,,
+,,,2000-12-13,Friendly,played,Greece,GRC,GRC,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Xánthi,Greece,FALSE,1704,1900,1707,1897,3
 ,,,2001-02-28,Friendly,played,Greece,GRC,GRC,UEFA,Russia,RUS,RUS,UEFA,TRUE,3,3,draw,Heraklion,Greece,FALSE,1707,1835,1708,1834,1
 ,,,2001-03-28,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,TRUE,2,4,loss,Athens,Greece,FALSE,1708,1881,1684,1905,-24
 ,,,2001-04-25,Friendly,played,Greece,GRC,GRC,UEFA,Croatia,HRV,HRV,UEFA,FALSE,2,2,draw,Varaždin,Croatia,FALSE,1684,1895,1691,1888,7
@@ -375,7 +375,7 @@ WC-1994,WC-1994_036,36,1994-06-30,FIFA World Cup,played,Greece,GRC,GRC,UEFA,Nige
 ,,,2002-09-07,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,2,loss,Athens,Greece,FALSE,1696,1985,1681,2000,-15
 ,,,2002-10-12,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,2,loss,Kyiv,Ukraine,FALSE,1681,1674,1659,1696,-22
 ,,,2002-10-16,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Armenia,,,,TRUE,2,0,win,Athens,Greece,FALSE,1659,1427,1667,1419,8
-,,,2002-11-20,Friendly,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Athens,Greece,FALSE,,,,,
+,,,2002-11-20,Friendly,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Athens,Greece,FALSE,1667,1850,1669,1848,2
 ,,,2003-01-29,Friendly,played,Greece,GRC,GRC,UEFA,Cyprus,,,,FALSE,2,1,win,Larnaca,Cyprus,FALSE,1669,1502,1677,1494,8
 ,,,2003-02-12,Friendly,played,Greece,GRC,GRC,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,0,win,Heraklion,Greece,FALSE,1677,1798,1688,1787,11
 ,,,2003-03-26,Friendly,played,Greece,GRC,GRC,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,2,draw,Graz,Austria,FALSE,1688,1681,1691,1678,3
@@ -497,7 +497,7 @@ WC-2010,WC-2010_033,33,2010-06-22,FIFA World Cup,played,Greece,GRC,GRC,UEFA,Arge
 ,,,2012-09-11,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Lithuania,,,,TRUE,2,0,win,Piraeus,Greece,FALSE,1801,1471,1806,1466,5
 ,,,2012-10-12,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,0,0,draw,Piraeus,Greece,FALSE,1806,1720,1796,1730,-10
 ,,,2012-10-16,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,0,win,Bratislava,Slovakia,FALSE,1796,1623,1812,1607,16
-,,,2012-11-14,Friendly,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2012-11-14,Friendly,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,1812,1738,1823,1727,11
 ,,,2013-02-06,Friendly,played,Greece,GRC,GRC,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,0,draw,Piraeus,Greece,FALSE,1823,1829,1820,1832,-3
 ,,,2013-03-22,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,1,3,loss,Zenica,Bosnia and Herzegovina,FALSE,1820,1761,1794,1787,-26
 ,,,2013-06-07,FIFA World Cup qualification,played,Greece,GRC,GRC,UEFA,Lithuania,,,,FALSE,1,0,win,Vilnius,Lithuania,FALSE,1794,1469,1803,1460,9
@@ -600,11 +600,11 @@ WC-2014,WC-2014_051,51,2014-06-29,FIFA World Cup,played,Greece,GRC,GRC,UEFA,Cost
 ,,,2022-11-20,Friendly,played,Greece,GRC,GRC,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,2,loss,Budapest,Hungary,FALSE,1693,1820,1689,1824,-4
 ,,,2023-03-24,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Gibraltar,,,,FALSE,3,0,win,Faro-Loulé,Portugal,TRUE,1689,1068,1691,1066,2
 ,,,2023-03-27,Friendly,played,Greece,GRC,GRC,UEFA,Lithuania,,,,TRUE,0,0,draw,Athens,Greece,FALSE,1691,1247,1682,1256,-9
-,,,2023-06-16,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Athens,Greece,FALSE,,,,,
+,,,2023-06-16,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Athens,Greece,FALSE,1682,1672,1696,1658,14
 ,,,2023-06-19,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Paris,France,FALSE,1696,2113,1694,2115,-2
 ,,,2023-09-07,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,3,loss,Eindhoven,Netherlands,FALSE,1694,1955,1686,1963,-8
 ,,,2023-09-10,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Gibraltar,,,,TRUE,5,0,win,Athens,Greece,FALSE,1686,1062,1687,1061,1
-,,,2023-10-13,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2023-10-13,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,1687,1648,1722,1613,35
 ,,,2023-10-16,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,1,loss,Athens,Greece,FALSE,1722,1954,1709,1967,-13
 ,,,2023-11-17,Friendly,played,Greece,GRC,GRC,UEFA,New Zealand,NZL,NZL,OFC,TRUE,2,0,win,Athens,Greece,FALSE,1709,1525,1714,1520,5
 ,,,2023-11-21,UEFA Euro qualification,played,Greece,GRC,GRC,UEFA,France,FRA,FRA,UEFA,TRUE,2,2,draw,Athens,Greece,FALSE,1714,2124,1728,2110,14
@@ -613,9 +613,9 @@ WC-2014,WC-2014_051,51,2014-06-29,FIFA World Cup,played,Greece,GRC,GRC,UEFA,Cost
 ,,,2024-06-07,Friendly,played,Greece,GRC,GRC,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Mönchengladbach,Germany,FALSE,1739,1916,1736,1919,-3
 ,,,2024-06-11,Friendly,played,Greece,GRC,GRC,UEFA,Malta,,,,TRUE,2,0,win,Grödig,Austria,TRUE,1736,1258,1738,1256,2
 ,,,2024-09-07,UEFA Nations League,played,Greece,GRC,GRC,UEFA,Finland,,,,TRUE,3,0,win,Piraeus,Greece,FALSE,1738,1627,1754,1611,16
-,,,2024-09-10,UEFA Nations League,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2024-09-10,UEFA Nations League,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,1754,1608,1780,1582,26
 ,,,2024-10-10,UEFA Nations League,played,Greece,GRC,GRC,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,London,England,FALSE,1780,1995,1814,1961,34
-,,,2024-10-13,UEFA Nations League,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Piraeus,Greece,FALSE,,,,,
+,,,2024-10-13,UEFA Nations League,played,Greece,GRC,GRC,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Piraeus,Greece,FALSE,1814,1609,1823,1600,9
 ,,,2024-11-14,UEFA Nations League,played,Greece,GRC,GRC,UEFA,England,ENG,ENG,UEFA,TRUE,0,3,loss,Athens,Greece,FALSE,1823,1971,1793,2001,-30
 ,,,2024-11-17,UEFA Nations League,played,Greece,GRC,GRC,UEFA,Finland,,,,FALSE,2,0,win,Helsinki,Finland,FALSE,1793,1557,1812,1538,19
 ,,,2025-03-20,UEFA Nations League,played,Greece,GRC,GRC,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Piraeus,Greece,FALSE,1812,1759,1784,1787,-28

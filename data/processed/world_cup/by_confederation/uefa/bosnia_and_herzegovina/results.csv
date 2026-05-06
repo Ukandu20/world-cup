@@ -11,7 +11,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1997-02-24,Dunhill Cup,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Zimbabwe,,,,TRUE,2,2,draw,Kuala Lumpur,Malaysia,TRUE,1611,1550,1608,1553,-3
 ,,,1997-02-26,Dunhill Cup,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Indonesia,IDN,IDN,AFC,TRUE,2,0,win,Kuala Lumpur,Malaysia,TRUE,1608,1262,1613,1257,5
 ,,,1997-02-28,Dunhill Cup,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Malaysia,,,,FALSE,1,0,win,Kuala Lumpur,Malaysia,FALSE,1613,1308,1620,1301,7
-,,,1997-03-02,Dunhill Cup,played,Bosnia and Herzegovina,BIH,BIH,UEFA,China PR,,,,TRUE,0,3,loss,Kuala Lumpur,Malaysia,TRUE,,,,,
+,,,1997-03-02,Dunhill Cup,played,Bosnia and Herzegovina,BIH,BIH,UEFA,China PR,,,,TRUE,0,3,loss,Kuala Lumpur,Malaysia,TRUE,1620,1613,1593,1640,-27
 ,,,1997-04-02,FIFA World Cup qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,1,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1593,1684,1572,1705,-21
 ,,,1997-06-08,FIFA World Cup qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,2,loss,Copenhagen,Denmark,FALSE,1572,1976,1569,1979,-3
 ,,,1997-08-20,FIFA World Cup qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Denmark,DNK,DNK,UEFA,TRUE,3,0,win,Sarajevo,Bosnia and Herzegovina,FALSE,1569,1979,1629,1919,60
@@ -60,7 +60,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,2001-10-07,FIFA World Cup qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Liechtenstein,,,,TRUE,5,0,win,Zenica,Bosnia and Herzegovina,FALSE,1528,1057,1531,1054,3
 ,,,2002-03-27,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,North Macedonia,,,,TRUE,4,4,draw,Sarajevo,Bosnia and Herzegovina,FALSE,1531,1445,1526,1450,-5
 ,,,2002-04-17,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Croatia,HRV,HRV,UEFA,FALSE,0,2,loss,Zagreb,Croatia,FALSE,1526,1872,1524,1874,-2
-,,,2002-08-21,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,2,loss,Sarajevo,Bosnia and Herzegovina,FALSE,,,,,
+,,,2002-08-21,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,2,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1524,1800,1516,1808,-8
 ,,,2002-09-07,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,3,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1516,1817,1499,1834,-17
 ,,,2002-10-11,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Sarajevo,Bosnia and Herzegovina,FALSE,1499,1959,1507,1951,8
 ,,,2002-10-16,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,2,loss,Oslo,Norway,FALSE,1507,1785,1501,1791,-6
@@ -145,7 +145,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,2011-11-11,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,0,draw,Zenica,Bosnia and Herzegovina,FALSE,1701,1894,1706,1889,5
 ,,,2011-11-15,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Portugal,PRT,PRT,UEFA,FALSE,2,6,loss,Lisbon,Portugal,FALSE,1706,1889,1694,1901,-12
 ,,,2012-02-28,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,St. Gallen,Switzerland,TRUE,1694,2064,1692,2066,-2
-,,,2012-05-26,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2012-05-26,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1692,1799,1687,1804,-5
 ,,,2012-05-31,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,1,2,loss,Chicago,United States,TRUE,1687,1861,1682,1866,-5
 ,,,2012-08-15,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,0,win,Llanelli,Wales,FALSE,1682,1628,1699,1611,17
 ,,,2012-09-07,FIFA World Cup qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Liechtenstein,,,,FALSE,8,1,win,Vaduz,Liechtenstein,FALSE,1699,1230,1709,1220,10
@@ -180,8 +180,8 @@ WC-2014,WC-2014_041,41,2014-06-25,FIFA World Cup,played,Bosnia and Herzegovina,B
 ,,,2015-09-06,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Andorra,,,,TRUE,3,0,win,Zenica,Bosnia and Herzegovina,FALSE,1719,962,1720,961,1
 ,,,2015-10-10,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,0,win,Zenica,Bosnia and Herzegovina,FALSE,1720,1698,1740,1678,20
 ,,,2015-10-13,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Cyprus,,,,FALSE,3,2,win,Nicosia,Cyprus,FALSE,1740,1432,1749,1423,9
-,,,2015-11-13,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Zenica,Bosnia and Herzegovina,FALSE,,,,,
-,,,2015-11-16,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2015-11-13,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Zenica,Bosnia and Herzegovina,FALSE,1749,1743,1743,1749,-6
+,,,2015-11-16,UEFA Euro qualification,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,1743,1749,1722,1770,-21
 ,,,2016-03-25,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Luxembourg,,,,FALSE,3,0,win,Luxembourg,Luxembourg,FALSE,1722,1254,1726,1250,4
 ,,,2016-03-29,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,0,win,Zürich,Switzerland,FALSE,1726,1800,1748,1778,22
 ,,,2016-05-29,Friendly,played,Bosnia and Herzegovina,BIH,BIH,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,3,loss,St. Gallen,Switzerland,TRUE,1748,1996,1742,2002,-6

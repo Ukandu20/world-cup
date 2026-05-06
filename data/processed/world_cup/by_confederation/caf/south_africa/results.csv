@@ -62,10 +62,10 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1996-09-14,Simba Tournament,played,South Africa,ZAF,ZAF,CAF,Kenya,,,,TRUE,1,0,win,Durban,South Africa,FALSE,1742,1470,1745,1467,3
 ,,,1996-09-18,Simba Tournament,played,South Africa,ZAF,ZAF,CAF,Australia,AUS,AUS,AFC,TRUE,2,0,win,Johannesburg,South Africa,FALSE,1745,1687,1758,1674,13
 ,,,1996-09-21,Simba Tournament,played,South Africa,ZAF,ZAF,CAF,Ghana,GHA,GHA,CAF,TRUE,0,0,draw,Pretoria,South Africa,FALSE,1758,1610,1749,1619,-9
-,,,1996-11-09,FIFA World Cup qualification,played,South Africa,ZAF,ZAF,CAF,DR Congo,,,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,,,,,
+,,,1996-11-09,FIFA World Cup qualification,played,South Africa,ZAF,ZAF,CAF,DR Congo,,,,TRUE,1,0,win,Johannesburg,South Africa,FALSE,1749,1501,1754,1496,5
 ,,,1997-01-11,FIFA World Cup qualification,played,South Africa,ZAF,ZAF,CAF,Zambia,,,,FALSE,0,0,draw,Lusaka,Zambia,FALSE,1754,1611,1752,1613,-2
 ,,,1997-04-06,FIFA World Cup qualification,played,South Africa,ZAF,ZAF,CAF,Congo,,,,FALSE,0,2,loss,Pointe-Noire,Congo,FALSE,1752,1430,1705,1477,-47
-,,,1997-04-27,FIFA World Cup qualification,played,South Africa,ZAF,ZAF,CAF,DR Congo,,,,FALSE,2,1,win,Lomé,Togo,TRUE,,,,,
+,,,1997-04-27,FIFA World Cup qualification,played,South Africa,ZAF,ZAF,CAF,DR Congo,,,,FALSE,2,1,win,Lomé,Togo,TRUE,1705,1512,1715,1502,10
 ,,,1997-05-24,Friendly,played,South Africa,ZAF,ZAF,CAF,England,ENG,ENG,UEFA,FALSE,1,2,loss,Manchester,England,FALSE,1715,1943,1712,1946,-3
 ,,,1997-06-04,Friendly,played,South Africa,ZAF,ZAF,CAF,Netherlands,NED,NLD,UEFA,TRUE,0,2,loss,Johannesburg,South Africa,FALSE,1712,1927,1697,1942,-15
 ,,,1997-06-08,FIFA World Cup qualification,played,South Africa,ZAF,ZAF,CAF,Zambia,,,,TRUE,3,0,win,Johannesburg,South Africa,FALSE,1697,1649,1718,1628,21
@@ -117,7 +117,7 @@ WC-1998,WC-1998_039,39,1998-06-24,FIFA World Cup,played,South Africa,ZAF,ZAF,CAF
 ,,,2000-05-28,Friendly,played,South Africa,ZAF,ZAF,CAF,Malta,,,,FALSE,1,0,win,Attard,Malta,FALSE,1676,1236,1678,1234,2
 ,,,2000-06-03,USA Cup,played,South Africa,ZAF,ZAF,CAF,United States,USA,USA,CONCACAF,FALSE,0,4,loss,"Washington, D.C.",United States,FALSE,1678,1800,1666,1812,-12
 ,,,2000-06-07,USA Cup,played,South Africa,ZAF,ZAF,CAF,Mexico,MEX,MEX,CONCACAF,FALSE,2,4,loss,Dallas,United States,TRUE,1666,1846,1654,1858,-12
-,,,2000-06-11,USA Cup,played,South Africa,ZAF,ZAF,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,East Rutherford,United States,TRUE,,,,,
+,,,2000-06-11,USA Cup,played,South Africa,ZAF,ZAF,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,East Rutherford,United States,TRUE,1654,1763,1644,1773,-10
 ,,,2000-06-18,COSAFA Cup,played,South Africa,ZAF,ZAF,CAF,Eswatini,,,,TRUE,2,0,win,Witbank,South Africa,FALSE,1644,1160,1646,1158,2
 ,,,2000-07-09,FIFA World Cup qualification,played,South Africa,ZAF,ZAF,CAF,Zimbabwe,,,,FALSE,2,0,win,Harare,Zimbabwe,FALSE,1646,1479,1670,1455,24
 ,,,2000-07-29,COSAFA Cup,played,South Africa,ZAF,ZAF,CAF,Zimbabwe,,,,TRUE,0,1,loss,Port Elizabeth,South Africa,FALSE,1670,1458,1636,1492,-34
@@ -260,7 +260,7 @@ WC-2002,WC-2002_039,39,2002-06-12,FIFA World Cup,played,South Africa,ZAF,ZAF,CAF
 ,,,2009-06-28,Confederations Cup,played,South Africa,ZAF,ZAF,CAF,Spain,ESP,ESP,UEFA,TRUE,2,3,loss,Rustenburg,South Africa,FALSE,1559,2067,1555,2071,-4
 ,,,2009-08-12,Friendly,played,South Africa,ZAF,ZAF,CAF,Serbia,SRB,SRB,UEFA,TRUE,1,3,loss,Atteridgeville,South Africa,FALSE,1555,1818,1547,1826,-8
 ,,,2009-09-05,Friendly,played,South Africa,ZAF,ZAF,CAF,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Leverkusen,Germany,FALSE,1547,1960,1546,1961,-1
-,,,2009-09-08,Friendly,played,South Africa,ZAF,ZAF,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Limerick,Republic of Ireland,FALSE,,,,,
+,,,2009-09-08,Friendly,played,South Africa,ZAF,ZAF,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Limerick,Republic of Ireland,FALSE,1546,1779,1543,1782,-3
 ,,,2009-09-19,Friendly,played,South Africa,ZAF,ZAF,CAF,Madagascar,,,,TRUE,1,0,win,Kimberley,South Africa,FALSE,1543,1270,1545,1268,2
 ,,,2009-10-10,Friendly,played,South Africa,ZAF,ZAF,CAF,Norway,NOR,NOR,UEFA,FALSE,0,1,loss,Oslo,Norway,FALSE,1545,1729,1542,1732,-3
 ,,,2009-10-13,Friendly,played,South Africa,ZAF,ZAF,CAF,Iceland,ISL,ISL,UEFA,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1542,1444,1532,1454,-10

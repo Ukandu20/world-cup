@@ -108,9 +108,9 @@ WC-1950,WC-1950_013,13,1950-07-02,FIFA World Cup,played,United States,USA,USA,CO
 ,,,1977-09-25,Friendly,played,United States,USA,USA,CONCACAF,Guatemala,,,,FALSE,0,2,loss,Guatemala City,Guatemala,FALSE,1467,1575,1460,1582,-7
 ,,,1977-09-27,Friendly,played,United States,USA,USA,CONCACAF,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Monterrey,Mexico,FALSE,1460,1738,1456,1742,-4
 ,,,1977-09-30,Friendly,played,United States,USA,USA,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,0,0,draw,Monterey Park,United States,FALSE,1456,1467,1453,1470,-3
-,,,1977-10-06,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,1,1,draw,"Washington, D.C.",United States,FALSE,,,,,
-,,,1977-10-10,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,1,0,win,Atlanta,United States,FALSE,,,,,
-,,,1977-10-16,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,2,1,win,San Francisco,United States,FALSE,,,,,
+,,,1977-10-06,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,1,1,draw,"Washington, D.C.",United States,FALSE,1453,1561,1453,1561,0
+,,,1977-10-10,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,1,0,win,Atlanta,United States,FALSE,1453,1561,1463,1551,10
+,,,1977-10-16,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,2,1,win,San Francisco,United States,FALSE,1463,1551,1473,1541,10
 ,,,1978-09-03,Friendly,played,United States,USA,USA,CONCACAF,Iceland,ISL,ISL,UEFA,FALSE,0,0,draw,Reykjavík,Iceland,FALSE,1473,1404,1474,1403,1
 ,,,1978-09-06,Friendly,played,United States,USA,USA,CONCACAF,Switzerland,CHE,CHE,UEFA,FALSE,0,2,loss,Lucerne,Switzerland,FALSE,1474,1611,1468,1617,-6
 ,,,1978-09-20,Friendly,played,United States,USA,USA,CONCACAF,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Setúbal,Portugal,FALSE,1468,1854,1467,1855,-1
@@ -118,7 +118,7 @@ WC-1950,WC-1950_013,13,1950-07-02,FIFA World Cup,played,United States,USA,USA,CO
 ,,,1979-10-07,Friendly,played,United States,USA,USA,CONCACAF,Bermuda,,,,FALSE,3,1,win,Hamilton,Bermuda,FALSE,1461,1335,1475,1321,14
 ,,,1979-10-10,Friendly,played,United States,USA,USA,CONCACAF,France,FRA,FRA,UEFA,FALSE,0,3,loss,Paris,France,FALSE,1475,1906,1473,1908,-2
 ,,,1979-10-26,Friendly,played,United States,USA,USA,CONCACAF,Hungary,HUN,HUN,UEFA,FALSE,2,0,win,Budapest,Hungary,FALSE,1473,1812,1501,1784,28
-,,,1979-10-29,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1979-10-29,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Republic of Ireland,FALSE,1501,1738,1498,1741,-3
 ,,,1980-10-04,Friendly,played,United States,USA,USA,CONCACAF,Luxembourg,,,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1498,1245,1507,1236,9
 ,,,1980-10-07,Friendly,played,United States,USA,USA,CONCACAF,Portugal,PRT,PRT,UEFA,FALSE,1,1,draw,Lisbon,Portugal,FALSE,1507,1815,1515,1807,8
 ,,,1980-10-25,CONCACAF Championship qualification,played,United States,USA,USA,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,0,0,draw,Fort Lauderdale,United States,FALSE,1515,1569,1512,1572,-3
@@ -199,7 +199,7 @@ WC-1990,WC-1990_027,27,1990-06-19,FIFA World Cup,played,United States,USA,USA,CO
 ,,,1991-03-16,NAFU Championship,played,United States,USA,USA,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,2,0,win,Torrance,United States,FALSE,1571,1612,1602,1581,31
 ,,,1991-05-05,Friendly,played,United States,USA,USA,CONCACAF,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Denver,United States,FALSE,1602,1848,1616,1834,14
 ,,,1991-05-19,Friendly,played,United States,USA,USA,CONCACAF,Argentina,ARG,ARG,CONMEBOL,TRUE,0,1,loss,Palo Alto,United States,FALSE,1616,1877,1610,1883,-6
-,,,1991-06-01,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Foxborough,United States,FALSE,,,,,
+,,,1991-06-01,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Foxborough,United States,FALSE,1610,1896,1615,1891,5
 ,,,1991-06-29,Gold Cup,played,United States,USA,USA,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,1,win,Pasadena,United States,FALSE,1615,1477,1625,1467,10
 ,,,1991-07-01,Gold Cup,played,United States,USA,USA,CONCACAF,Guatemala,,,,TRUE,3,0,win,Pasadena,United States,FALSE,1625,1435,1639,1421,14
 ,,,1991-07-03,Gold Cup,played,United States,USA,USA,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,3,2,win,Los Angeles,United States,FALSE,1639,1656,1658,1637,19
@@ -217,10 +217,10 @@ WC-1990,WC-1990_027,27,1990-06-19,FIFA World Cup,played,United States,USA,USA,CO
 ,,,1992-02-26,Friendly,played,United States,USA,USA,CONCACAF,Brazil,BRA,BRA,CONMEBOL,FALSE,0,3,loss,Fortaleza,Brazil,FALSE,1681,1958,1677,1962,-4
 ,,,1992-03-11,Friendly,played,United States,USA,USA,CONCACAF,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Valladolid,Spain,FALSE,1677,1829,1671,1835,-6
 ,,,1992-03-18,Friendly,played,United States,USA,USA,CONCACAF,Morocco,MAR,MAR,CAF,FALSE,1,3,loss,Casablanca,Morocco,FALSE,1671,1574,1656,1589,-15
-,,,1992-04-04,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,5,0,win,Palo Alto,United States,FALSE,,,,,
-,,,1992-04-29,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1992-04-04,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,5,0,win,Palo Alto,United States,FALSE,1656,1479,1663,1472,7
+,,,1992-04-29,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,4,loss,Dublin,Republic of Ireland,FALSE,1663,1901,1659,1905,-4
 ,,,1992-05-17,Friendly,played,United States,USA,USA,CONCACAF,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Denver,United States,FALSE,1659,1754,1649,1764,-10
-,,,1992-05-30,USA Cup,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,"Washington, D.C.",United States,FALSE,,,,,
+,,,1992-05-30,USA Cup,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,"Washington, D.C.",United States,FALSE,1649,1907,1681,1875,32
 ,,,1992-06-03,USA Cup,played,United States,USA,USA,CONCACAF,Portugal,PRT,PRT,UEFA,TRUE,1,0,win,Chicago,United States,FALSE,1681,1818,1698,1801,17
 ,,,1992-06-06,USA Cup,played,United States,USA,USA,CONCACAF,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Chicago,United States,FALSE,1698,1991,1706,1983,8
 ,,,1992-06-13,Friendly,played,United States,USA,USA,CONCACAF,Australia,AUS,AUS,AFC,TRUE,0,1,loss,Orlando,United States,FALSE,1706,1697,1693,1710,-13
@@ -309,7 +309,7 @@ WC-1994,WC-1994_042,42,1994-07-04,FIFA World Cup,played,United States,USA,USA,CO
 ,,,1996-01-18,Gold Cup,played,United States,USA,USA,CONCACAF,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Los Angeles,United States,FALSE,1735,2123,1727,2131,-8
 ,,,1996-01-21,Gold Cup,played,United States,USA,USA,CONCACAF,Guatemala,,,,TRUE,3,0,win,Los Angeles,United States,FALSE,1727,1467,1737,1457,10
 ,,,1996-05-26,Friendly,played,United States,USA,USA,CONCACAF,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,New Britain,United States,FALSE,1737,1782,1745,1774,8
-,,,1996-06-09,USA Cup,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Foxborough,United States,FALSE,,,,,
+,,,1996-06-09,USA Cup,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Foxborough,United States,FALSE,1745,1711,1754,1702,9
 ,,,1996-06-12,USA Cup,played,United States,USA,USA,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,TRUE,0,2,loss,"Washington, D.C.",United States,FALSE,1754,1667,1720,1701,-34
 ,,,1996-06-16,USA Cup,played,United States,USA,USA,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,2,draw,Pasadena,United States,FALSE,1720,1854,1721,1853,1
 ,,,1996-08-30,Friendly,played,United States,USA,USA,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,3,1,win,Los Angeles,United States,FALSE,1721,1516,1725,1512,4
@@ -322,8 +322,8 @@ WC-1994,WC-1994_042,42,1994-07-04,FIFA World Cup,played,United States,USA,USA,CO
 ,,,1996-12-21,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Guatemala,,,,FALSE,2,2,draw,San Salvador,El Salvador,TRUE,1721,1492,1709,1504,-12
 ,,,1997-01-17,USA Cup,played,United States,USA,USA,CONCACAF,Peru,PER,PER,CONMEBOL,TRUE,0,1,loss,San Diego,United States,FALSE,1709,1625,1687,1647,-22
 ,,,1997-01-19,USA Cup,played,United States,USA,USA,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,Pasadena,United States,FALSE,1687,1796,1665,1818,-22
-,,,1997-01-29,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,FALSE,1,2,loss,Kunming,China PR,FALSE,,,,,
-,,,1997-02-01,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,FALSE,1,1,draw,Guangzhou,China PR,FALSE,,,,,
+,,,1997-01-29,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,FALSE,1,2,loss,Kunming,China PR,FALSE,1665,1552,1655,1562,-10
+,,,1997-02-01,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,FALSE,1,1,draw,Guangzhou,China PR,FALSE,1655,1562,1655,1562,0
 ,,,1997-03-02,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Jamaica,JAM,JAM,CONCACAF,FALSE,0,0,draw,Kingston,Jamaica,FALSE,1655,1573,1656,1572,1
 ,,,1997-03-16,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Canada,CAN,CAN,CONCACAF,TRUE,3,0,win,Palo Alto,United States,FALSE,1656,1660,1682,1634,26
 ,,,1997-03-23,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,3,loss,San José,Costa Rica,FALSE,1682,1600,1663,1619,-19
@@ -351,7 +351,7 @@ WC-1994,WC-1994_042,42,1994-07-04,FIFA World Cup,played,United States,USA,USA,CO
 ,,,1998-05-30,Friendly,played,United States,USA,USA,CONCACAF,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,"Washington, D.C.",United States,FALSE,1761,1774,1759,1776,-2
 WC-1998,WC-1998_015,15,1998-06-15,FIFA World Cup,played,United States,USA,USA,CONCACAF,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Paris,France,TRUE,1759,2058,1745,2072,-14
 WC-1998,WC-1998_030,30,1998-06-21,FIFA World Cup,played,United States,USA,USA,CONCACAF,Iran,IRN,IRN,AFC,TRUE,1,2,loss,Lyon,France,TRUE,1745,1628,1705,1668,-40
-WC-1998,WC-1998_044,44,1998-06-25,FIFA World Cup,played,United States,USA,USA,CONCACAF,Serbia,SRB,SRB,UEFA,TRUE,0,1,loss,Nantes,France,TRUE,,,,,
+WC-1998,WC-1998_044,44,1998-06-25,FIFA World Cup,played,United States,USA,USA,CONCACAF,Serbia,SRB,SRB,UEFA,TRUE,0,1,loss,Nantes,France,TRUE,1705,1984,1695,1994,-10
 ,,,1998-11-06,Friendly,played,United States,USA,USA,CONCACAF,Australia,AUS,AUS,AFC,TRUE,0,0,draw,San Jose,United States,FALSE,1695,1745,1694,1746,-1
 ,,,1999-01-24,Friendly,played,United States,USA,USA,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,FALSE,0,0,draw,Santa Cruz,Bolivia,FALSE,1694,1696,1697,1693,3
 ,,,1999-02-06,Friendly,played,United States,USA,USA,CONCACAF,Germany,GER,DEU,UEFA,TRUE,3,0,win,Jacksonville,United States,FALSE,1697,1977,1723,1951,26
@@ -374,7 +374,7 @@ WC-1998,WC-1998_044,44,1998-06-25,FIFA World Cup,played,United States,USA,USA,CO
 ,,,2000-03-12,Friendly,played,United States,USA,USA,CONCACAF,Tunisia,TUN,TUN,CAF,TRUE,1,1,draw,Birmingham,United States,FALSE,1818,1616,1811,1623,-7
 ,,,2000-04-26,Friendly,played,United States,USA,USA,CONCACAF,Russia,RUS,RUS,UEFA,FALSE,0,2,loss,Moscow,Russia,FALSE,1811,1801,1800,1812,-11
 ,,,2000-06-03,USA Cup,played,United States,USA,USA,CONCACAF,South Africa,ZAF,ZAF,CAF,TRUE,4,0,win,"Washington, D.C.",United States,FALSE,1800,1678,1812,1666,12
-,,,2000-06-06,USA Cup,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Foxborough,United States,FALSE,,,,,
+,,,2000-06-06,USA Cup,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Foxborough,United States,FALSE,1812,1757,1806,1763,-6
 ,,,2000-06-11,USA Cup,played,United States,USA,USA,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,3,0,win,East Rutherford,United States,FALSE,1806,1858,1829,1835,23
 ,,,2000-07-16,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Guatemala,,,,FALSE,1,1,draw,Mazatenango,Guatemala,FALSE,1829,1527,1819,1537,-10
 ,,,2000-07-23,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,2,loss,San José,Costa Rica,FALSE,1819,1594,1792,1621,-27
@@ -383,7 +383,7 @@ WC-1998,WC-1998_044,44,1998-06-25,FIFA World Cup,played,United States,USA,USA,CO
 ,,,2000-10-11,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,0,draw,Columbus,United States,FALSE,1800,1610,1786,1624,-14
 ,,,2000-10-25,Friendly,played,United States,USA,USA,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,0,win,Los Angeles,United States,FALSE,1786,1858,1800,1844,14
 ,,,2000-11-15,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Barbados,,,,FALSE,4,0,win,Bridgetown,Barbados,FALSE,1800,1339,1808,1331,8
-,,,2001-01-27,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,2,1,win,Oakland,United States,FALSE,,,,,
+,,,2001-01-27,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,2,1,win,Oakland,United States,FALSE,1808,1663,1812,1659,4
 ,,,2001-02-03,Friendly,played,United States,USA,USA,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,0,1,loss,Miami,United States,FALSE,1812,1779,1798,1793,-14
 ,,,2001-02-28,FIFA World Cup qualification,played,United States,USA,USA,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,0,win,Columbus,United States,FALSE,1798,1788,1819,1767,21
 ,,,2001-03-03,Friendly,played,United States,USA,USA,CONCACAF,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,Pasadena,United States,FALSE,1819,2023,1812,2030,-7
@@ -407,7 +407,7 @@ WC-1998,WC-1998_044,44,1998-06-25,FIFA World Cup,played,United States,USA,USA,CO
 ,,,2002-03-02,Friendly,played,United States,USA,USA,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,4,0,win,Seattle,United States,FALSE,1798,1761,1810,1749,12
 ,,,2002-03-10,Friendly,played,United States,USA,USA,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,1,0,win,Birmingham,United States,FALSE,1810,1720,1815,1715,5
 ,,,2002-03-27,Friendly,played,United States,USA,USA,CONCACAF,Germany,GER,DEU,UEFA,FALSE,2,4,loss,Rostock,Germany,FALSE,1815,1876,1806,1885,-9
-,,,2002-04-17,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2002-04-17,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,1814,1884,1809,1889,-5
 ,,,2002-05-12,Friendly,played,United States,USA,USA,CONCACAF,Uruguay,URY,URY,CONMEBOL,TRUE,2,1,win,"Washington, D.C.",United States,FALSE,1809,1791,1816,1784,7
 ,,,2002-05-16,Friendly,played,United States,USA,USA,CONCACAF,Jamaica,JAM,JAM,CONCACAF,TRUE,5,0,win,East Rutherford,United States,FALSE,1816,1534,1820,1530,4
 ,,,2002-05-19,Friendly,played,United States,USA,USA,CONCACAF,Netherlands,NED,NLD,UEFA,TRUE,0,2,loss,Foxborough,United States,FALSE,1820,1997,1808,2009,-12
@@ -483,7 +483,7 @@ WC-2006,WC-2006_043,43,2006-06-22,FIFA World Cup,played,United States,USA,USA,CO
 ,,,2007-02-07,Friendly,played,United States,USA,USA,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,2,0,win,Glendale,United States,FALSE,1765,1821,1778,1808,13
 ,,,2007-03-25,Friendly,played,United States,USA,USA,CONCACAF,Ecuador,ECU,ECU,CONMEBOL,TRUE,3,1,win,Tampa,United States,FALSE,1778,1770,1788,1760,10
 ,,,2007-03-28,Friendly,played,United States,USA,USA,CONCACAF,Guatemala,,,,TRUE,0,0,draw,Frisco,United States,FALSE,1788,1529,1780,1537,-8
-,,,2007-06-02,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,4,1,win,San Jose,United States,FALSE,,,,,
+,,,2007-06-02,Friendly,played,United States,USA,USA,CONCACAF,China PR,,,,TRUE,4,1,win,San Jose,United States,FALSE,1780,1592,1786,1586,6
 ,,,2007-06-07,Gold Cup,played,United States,USA,USA,CONCACAF,Guatemala,,,,TRUE,1,0,win,Carson,United States,FALSE,1786,1537,1792,1531,6
 ,,,2007-06-09,Gold Cup,played,United States,USA,USA,CONCACAF,Trinidad and Tobago,TTO,TTO,CONCACAF,TRUE,2,0,win,Carson,United States,FALSE,1792,1506,1799,1499,7
 ,,,2007-06-12,Gold Cup,played,United States,USA,USA,CONCACAF,El Salvador,SLV,SLV,CONCACAF,TRUE,4,0,win,Foxborough,United States,FALSE,1799,1360,1803,1356,4
@@ -613,7 +613,7 @@ WC-2014,WC-2014_056,56,2014-07-01,FIFA World Cup,played,United States,USA,USA,CO
 ,,,2014-09-03,Friendly,played,United States,USA,USA,CONCACAF,Czechia,CZE,CZE,UEFA,FALSE,1,0,win,Prague,Czech Republic,FALSE,1836,1740,1846,1730,10
 ,,,2014-10-14,Friendly,played,United States,USA,USA,CONCACAF,Honduras,HND,HND,CONCACAF,TRUE,1,1,draw,Boca Raton,United States,FALSE,1843,1548,1835,1556,-8
 ,,,2014-11-14,Friendly,played,United States,USA,USA,CONCACAF,Colombia,COL,COL,CONMEBOL,TRUE,1,2,loss,London,England,TRUE,1835,2010,1830,2015,-5
-,,,2014-11-18,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2014-11-18,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,4,loss,Dublin,Republic of Ireland,FALSE,1830,1714,1812,1732,-18
 ,,,2015-01-28,Friendly,played,United States,USA,USA,CONCACAF,Chile,CHL,CHL,CONMEBOL,FALSE,2,3,loss,Rancagua,Chile,FALSE,1812,1963,1808,1967,-4
 ,,,2015-02-08,Friendly,played,United States,USA,USA,CONCACAF,Panama,PAN,PAN,CONCACAF,TRUE,2,0,win,Carson,United States,FALSE,1808,1712,1815,1705,7
 ,,,2015-03-25,Friendly,played,United States,USA,USA,CONCACAF,Denmark,DNK,DNK,UEFA,FALSE,2,3,loss,Aarhus,Denmark,FALSE,1815,1754,1806,1763,-9
@@ -667,7 +667,7 @@ WC-2014,WC-2014_056,56,2014-07-01,FIFA World Cup,played,United States,USA,USA,CO
 ,,,2018-01-28,Friendly,played,United States,USA,USA,CONCACAF,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,0,0,draw,Carson,United States,FALSE,1751,1723,1747,1727,-4
 ,,,2018-03-27,Friendly,played,United States,USA,USA,CONCACAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,0,win,Cary,United States,FALSE,1747,1752,1754,1745,7
 ,,,2018-05-28,Friendly,played,United States,USA,USA,CONCACAF,Bolivia,BOL,BOL,CONMEBOL,TRUE,3,0,win,Chester,United States,FALSE,1754,1681,1763,1672,9
-,,,2018-06-02,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2018-06-02,Friendly,played,United States,USA,USA,CONCACAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,1763,1721,1755,1729,-8
 ,,,2018-06-09,Friendly,played,United States,USA,USA,CONCACAF,France,FRA,FRA,UEFA,FALSE,1,1,draw,Lyon,France,FALSE,1755,1993,1762,1986,7
 ,,,2018-09-07,Friendly,played,United States,USA,USA,CONCACAF,Brazil,BRA,BRA,CONMEBOL,TRUE,0,2,loss,East Rutherford,United States,FALSE,1762,2113,1756,2119,-6
 ,,,2018-09-11,Friendly,played,United States,USA,USA,CONCACAF,Mexico,MEX,MEX,CONCACAF,TRUE,1,0,win,Nashville,United States,FALSE,1756,1816,1765,1807,9

@@ -6,7 +6,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1954-09-08,Friendly,played,Soviet Union,SUN,SUN,UEFA,Sweden,SWE,SWE,UEFA,TRUE,7,0,win,Moscow,Soviet Union,FALSE,1606,1836,1637,1805,31
 ,,,1954-09-26,Friendly,played,Soviet Union,SUN,SUN,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,1,draw,Moscow,Soviet Union,FALSE,1637,2191,1646,2182,9
 ,,,1955-06-26,Friendly,played,Soviet Union,SUN,SUN,UEFA,Sweden,SWE,SWE,UEFA,FALSE,6,0,win,Solna,Sweden,FALSE,1701,1814,1734,1781,33
-,,,1955-08-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,TRUE,3,2,win,Moscow,Soviet Union,FALSE,,,,,
+,,,1955-08-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,TRUE,3,2,win,Moscow,Soviet Union,FALSE,1734,2024,1749,2009,15
 ,,,1955-09-16,Friendly,played,Soviet Union,SUN,SUN,UEFA,India,,,,TRUE,11,1,win,Moscow,Soviet Union,FALSE,1749,1520,1756,1513,7
 ,,,1955-09-25,Friendly,played,Soviet Union,SUN,SUN,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,1756,2203,1765,2194,9
 ,,,1955-10-23,Friendly,played,Soviet Union,SUN,SUN,UEFA,France,FRA,FRA,UEFA,TRUE,2,2,draw,Moscow,Soviet Union,FALSE,1765,1850,1765,1850,0
@@ -15,7 +15,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1956-08-05,Friendly,played,Soviet Union,SUN,SUN,UEFA,Lithuania,,,,TRUE,2,0,win,Moscow,Soviet Union,FALSE,,,,,
 ,,,1956-08-09,Friendly,played,Soviet Union,SUN,SUN,UEFA,Belarus,,,,TRUE,5,1,win,Moscow,Soviet Union,FALSE,,,,,
 ,,,1956-08-11,Friendly,played,Soviet Union,SUN,SUN,UEFA,Belarus,,,,TRUE,4,2,win,Moscow,Soviet Union,FALSE,,,,,
-,,,1956-09-15,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Hanover,Germany,FALSE,,,,,
+,,,1956-09-15,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Hanover,Germany,FALSE,1804,1955,1820,1939,16
 ,,,1956-09-23,Friendly,played,Soviet Union,SUN,SUN,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,1,loss,Moscow,Soviet Union,FALSE,1820,2118,1815,2123,-5
 ,,,1956-10-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Colombes,France,FALSE,1815,1838,1808,1845,-7
 ,,,1957-06-01,Friendly,played,Soviet Union,SUN,SUN,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Moscow,Soviet Union,FALSE,1876,1622,1868,1630,-8
@@ -37,7 +37,7 @@ WC-1958,WC-1958_031,31,1958-06-19,FIFA World Cup,played,Soviet Union,SUN,SUN,UEF
 ,,,1958-10-22,Friendly,played,Soviet Union,SUN,SUN,UEFA,England,ENG,ENG,UEFA,FALSE,0,5,loss,London,England,FALSE,1942,1950,1928,1964,-14
 ,,,1959-09-06,Friendly,played,Soviet Union,SUN,SUN,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,1,win,Moscow,Soviet Union,FALSE,1909,1853,1918,1844,9
 ,,,1959-09-27,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,0,win,Budapest,Hungary,FALSE,1918,1995,1947,1966,29
-,,,1959-10-03,Friendly,played,Soviet Union,SUN,SUN,UEFA,China PR,,,,FALSE,1,0,win,Beijing,China PR,FALSE,,,,,
+,,,1959-10-03,Friendly,played,Soviet Union,SUN,SUN,UEFA,China PR,,,,FALSE,1,0,win,Beijing,China PR,FALSE,1947,1506,1951,1502,4
 ,,,1960-05-19,Friendly,played,Soviet Union,SUN,SUN,UEFA,Poland,POL,POL,UEFA,TRUE,7,1,win,Moscow,Soviet Union,FALSE,1939,1609,1942,1606,3
 ,,,1960-07-06,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,3,0,win,Marseille,France,TRUE,1942,1902,1981,1863,39
 ,,,1960-07-10,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,1,win,Paris,France,TRUE,1981,1921,2002,1900,21
@@ -98,7 +98,7 @@ WC-1966,WC-1966_004,4,1966-07-12,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA
 WC-1966,WC-1966_016,16,1966-07-16,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,0,win,Sunderland,England,TRUE,2026,1998,2054,1970,28
 WC-1966,WC-1966_022,22,1966-07-20,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,2,1,win,Sunderland,England,TRUE,2054,1735,2062,1727,8
 WC-1966,WC-1966_027,27,1966-07-23,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,1,win,Sunderland,England,TRUE,2062,1977,2085,1954,23
-WC-1966,WC-1966_029,29,1966-07-25,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Liverpool,England,TRUE,,,,,
+WC-1966,WC-1966_029,29,1966-07-25,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Liverpool,England,TRUE,2085,2040,2051,2074,-34
 WC-1966,WC-1966_031,31,1966-07-28,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,2,loss,London,England,TRUE,2051,1983,2015,2019,-36
 ,,,1966-09-18,Friendly,played,Soviet Union,SUN,SUN,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,2015,1793,2022,1786,7
 ,,,1966-10-16,Friendly,played,Soviet Union,SUN,SUN,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,2,loss,Moscow,Soviet Union,FALSE,2022,1626,1994,1654,-28
@@ -163,33 +163,33 @@ WC-1970,WC-1970_028,28,1970-06-14,FIFA World Cup,played,Soviet Union,SUN,SUN,UEF
 ,,,1972-04-19,Friendly,played,Soviet Union,SUN,SUN,UEFA,Peru,PER,PER,CONMEBOL,TRUE,2,0,win,Kyiv,Soviet Union,FALSE,1953,1720,1957,1716,4
 ,,,1972-04-30,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,0,draw,Belgrade,Yugoslavia,FALSE,1957,1865,1957,1865,0
 ,,,1972-05-13,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,0,win,Moscow,Soviet Union,FALSE,1957,1865,1974,1848,17
-,,,1972-05-26,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Munich,Germany,FALSE,,,,,
+,,,1972-05-26,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Munich,Germany,FALSE,1974,2092,1966,2100,-8
 ,,,1972-06-07,Friendly,played,Soviet Union,SUN,SUN,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Moscow,Soviet Union,FALSE,1966,1788,1969,1785,3
 ,,,1972-06-14,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,0,win,Brussels,Belgium,TRUE,1969,1936,1992,1913,23
-,,,1972-06-18,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Brussels,Belgium,TRUE,,,,,
+,,,1972-06-18,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,0,3,loss,Brussels,Belgium,TRUE,1992,2115,1963,2144,-29
 ,,,1972-06-29,Brazil Independence Cup,played,Soviet Union,SUN,SUN,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,1,0,win,São Paulo,Brazil,TRUE,1963,1812,1975,1800,12
 ,,,1972-07-02,Brazil Independence Cup,played,Soviet Union,SUN,SUN,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Belo Horizonte,Brazil,TRUE,1975,1849,1948,1876,-27
 ,,,1972-07-06,Brazil Independence Cup,played,Soviet Union,SUN,SUN,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Belo Horizonte,Brazil,TRUE,1948,1892,1925,1915,-23
 ,,,1972-07-16,Friendly,played,Soviet Union,SUN,SUN,UEFA,Finland,,,,FALSE,1,1,draw,Vaasa,Finland,FALSE,1925,1401,1917,1409,-8
 ,,,1972-08-06,Friendly,played,Soviet Union,SUN,SUN,UEFA,Sweden,SWE,SWE,UEFA,FALSE,4,4,draw,Solna,Sweden,FALSE,1917,1817,1917,1817,0
 ,,,1972-10-13,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Paris,France,FALSE,1943,1798,1920,1821,-23
-,,,1972-10-18,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1972-10-18,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,1920,1563,1927,1556,7
 ,,,1973-03-28,Friendly,played,Soviet Union,SUN,SUN,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,1,loss,Plovdiv,Bulgaria,FALSE,1927,1855,1918,1864,-9
 ,,,1973-04-18,Friendly,played,Soviet Union,SUN,SUN,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,0,win,Kyiv,Soviet Union,FALSE,1918,1787,1924,1781,6
-,,,1973-05-13,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Moscow,Soviet Union,TRUE,,,,,
+,,,1973-05-13,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Moscow,Soviet Union,TRUE,1924,1585,1927,1582,3
 ,,,1973-05-26,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,France,FRA,FRA,UEFA,TRUE,2,0,win,Moscow,Soviet Union,TRUE,1927,1769,1938,1758,11
 ,,,1973-06-10,Friendly,played,Soviet Union,SUN,SUN,UEFA,England,ENG,ENG,UEFA,TRUE,1,2,loss,Moscow,Soviet Union,FALSE,1938,1992,1927,2003,-11
 ,,,1973-06-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Moscow,Soviet Union,FALSE,1927,2137,1920,2144,-7
 ,,,1973-08-05,Friendly,played,Soviet Union,SUN,SUN,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,0,draw,Moscow,Soviet Union,FALSE,1920,1863,1916,1867,-4
-,,,1973-09-05,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Moscow,Soviet Union,FALSE,,,,,
+,,,1973-09-05,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Moscow,Soviet Union,FALSE,1916,2104,1908,2112,-8
 ,,,1973-09-26,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,0,0,draw,Moscow,Soviet Union,TRUE,1908,1776,1896,1788,-12
 ,,,1973-10-17,Friendly,played,Soviet Union,SUN,SUN,UEFA,German DR,DDR,DDR,UEFA,FALSE,0,1,loss,Leipzig,German DR,FALSE,1896,1880,1888,1888,-8
 ,,,1973-11-21,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,0,2,loss,Santiago,Chile,FALSE,,,,,
 ,,,1974-04-17,Friendly,played,Soviet Union,SUN,SUN,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,0,win,Zenica,Yugoslavia,FALSE,1888,1961,1903,1946,15
 ,,,1974-05-20,Friendly,played,Soviet Union,SUN,SUN,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,1,loss,Odessa,Soviet Union,FALSE,1903,1837,1889,1851,-14
-,,,1974-10-30,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1974-10-30,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,1889,1619,1838,1670,-51
 ,,,1975-04-02,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Kyiv,Soviet Union,FALSE,1846,1668,1858,1656,12
-,,,1975-05-18,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Kyiv,Soviet Union,FALSE,,,,,
+,,,1975-05-18,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Kyiv,Soviet Union,FALSE,1858,1690,1865,1683,7
 ,,,1975-06-08,Friendly,played,Soviet Union,SUN,SUN,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,0,win,Moscow,Soviet Union,FALSE,1865,1945,1874,1936,9
 ,,,1975-10-12,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Zürich,Switzerland,FALSE,1871,1690,1886,1675,15
 ,,,1975-11-12,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,1,win,Kyiv,Soviet Union,FALSE,1886,1675,1896,1665,10
@@ -218,7 +218,7 @@ WC-1970,WC-1970_028,28,1970-06-14,FIFA World Cup,played,Soviet Union,SUN,SUN,UEF
 ,,,1977-10-08,Friendly,played,Soviet Union,SUN,SUN,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Paris,France,FALSE,1904,1838,1905,1837,1
 ,,,1978-02-26,Friendly,played,Soviet Union,SUN,SUN,UEFA,Morocco,MAR,MAR,CAF,FALSE,3,2,win,Marrakech,Morocco,FALSE,1905,1664,1911,1658,6
 ,,,1978-03-02,Friendly,played,Soviet Union,SUN,SUN,UEFA,Basque Country,,,,FALSE,0,0,draw,Bilbao,Spain,FALSE,,,,,
-,,,1978-03-08,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Frankfurt am Main,Germany,FALSE,,,,,
+,,,1978-03-08,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Frankfurt am Main,Germany,FALSE,1911,2134,1908,2137,-3
 ,,,1978-04-05,Friendly,played,Soviet Union,SUN,SUN,UEFA,Finland,,,,TRUE,10,2,win,Yerevan,Soviet Union,FALSE,1908,1450,1910,1448,2
 ,,,1978-05-14,Friendly,played,Soviet Union,SUN,SUN,UEFA,Romania,ROU,ROU,UEFA,FALSE,1,0,win,Bucharest,Romania,FALSE,1910,1854,1921,1843,11
 ,,,1978-09-06,Friendly,played,Soviet Union,SUN,SUN,UEFA,Iran,IRN,IRN,AFC,FALSE,1,0,win,Tehran,Iran,FALSE,1921,1749,1929,1741,8
@@ -242,7 +242,7 @@ WC-1970,WC-1970_028,28,1970-06-14,FIFA World Cup,played,Soviet Union,SUN,SUN,UEF
 ,,,1979-09-12,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Athens,Greece,FALSE,1931,1679,1903,1707,-28
 ,,,1979-10-14,Friendly,played,Soviet Union,SUN,SUN,UEFA,Romania,ROU,ROU,UEFA,TRUE,3,1,win,Moscow,Soviet Union,FALSE,1903,1798,1910,1791,7
 ,,,1979-10-31,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Finland,,,,TRUE,2,2,draw,Moscow,Soviet Union,FALSE,1910,1491,1892,1509,-18
-,,,1979-11-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Tbilisi,Soviet Union,FALSE,,,,,
+,,,1979-11-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Tbilisi,Soviet Union,FALSE,1892,2054,1880,2066,-12
 ,,,1980-03-26,Friendly,played,Soviet Union,SUN,SUN,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,1,win,Sofia,Bulgaria,FALSE,1880,1705,1892,1693,12
 ,,,1980-04-29,Friendly,played,Soviet Union,SUN,SUN,UEFA,Sweden,SWE,SWE,UEFA,FALSE,5,1,win,Malmö,Sweden,FALSE,1892,1677,1905,1664,13
 ,,,1980-05-23,Friendly,played,Soviet Union,SUN,SUN,UEFA,France,FRA,FRA,UEFA,TRUE,1,0,win,Moscow,Soviet Union,FALSE,1905,1928,1913,1920,8
@@ -277,11 +277,11 @@ WC-1982,WC-1982_046,46,1982-07-04,FIFA World Cup,played,Soviet Union,SUN,SUN,UEF
 ,,,1983-07-26,Friendly,played,Soviet Union,SUN,SUN,UEFA,German DR,DDR,DDR,UEFA,FALSE,3,1,win,Leipzig,German DR,FALSE,2032,1858,2044,1846,12
 ,,,1983-10-09,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Poland,POL,POL,UEFA,TRUE,2,0,win,Moscow,Soviet Union,FALSE,2036,1961,2052,1945,16
 ,,,1983-11-13,UEFA Euro qualification,played,Soviet Union,SUN,SUN,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Lisbon,Portugal,FALSE,2052,1807,2024,1835,-28
-,,,1984-03-28,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Hanover,Germany,FALSE,,,,,
+,,,1984-03-28,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Hanover,Germany,FALSE,2024,2013,2017,2020,-7
 ,,,1984-05-15,Friendly,played,Soviet Union,SUN,SUN,UEFA,Finland,,,,FALSE,3,1,win,Kouvola,Finland,FALSE,2017,1451,2019,1449,2
 ,,,1984-06-02,Friendly,played,Soviet Union,SUN,SUN,UEFA,England,ENG,ENG,UEFA,FALSE,2,0,win,London,England,FALSE,2019,1969,2036,1952,17
 ,,,1984-08-19,Friendly,played,Soviet Union,SUN,SUN,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,3,0,win,Leningrad,Soviet Union,FALSE,2036,1730,2039,1727,3
-,,,1984-09-12,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1984-09-12,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,2039,1732,2008,1763,-31
 ,,,1984-10-10,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,2008,1605,1994,1619,-14
 ,,,1985-01-21,Nehru Cup,played,Soviet Union,SUN,SUN,UEFA,China PR,,,,FALSE,3,2,win,Ernakulam,India,TRUE,,,,,
 ,,,1985-01-25,Nehru Cup,played,Soviet Union,SUN,SUN,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,2,loss,Ernakulam,India,TRUE,1994,1823,1965,1852,-29
@@ -293,9 +293,9 @@ WC-1982,WC-1982_046,46,1982-07-04,FIFA World Cup,played,Soviet Union,SUN,SUN,UEF
 ,,,1985-05-02,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,0,win,Moscow,Soviet Union,TRUE,1992,1787,2003,1776,11
 ,,,1985-06-05,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,4,loss,Copenhagen,Denmark,FALSE,2003,1887,1972,1918,-31
 ,,,1985-08-07,Friendly,played,Soviet Union,SUN,SUN,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,0,win,Moscow,Soviet Union,FALSE,1972,1785,1977,1780,5
-,,,1985-08-28,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Moscow,Soviet Union,FALSE,,,,,
+,,,1985-08-28,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Moscow,Soviet Union,FALSE,1977,1954,1984,1947,7
 ,,,1985-09-25,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Moscow,Soviet Union,TRUE,1984,1893,1994,1883,10
-,,,1985-10-16,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Moscow,Soviet Union,TRUE,,,,,
+,,,1985-10-16,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Moscow,Soviet Union,TRUE,1994,1747,2001,1740,7
 ,,,1985-10-30,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,0,win,Moscow,Soviet Union,TRUE,2001,1678,2004,1675,3
 ,,,1986-01-22,Friendly,played,Soviet Union,SUN,SUN,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Las Palmas,Spain,FALSE,2004,1865,1987,1882,-17
 ,,,1986-02-19,Friendly,played,Soviet Union,SUN,SUN,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1987,1825,1975,1837,-12
@@ -327,13 +327,13 @@ WC-1986,WC-1986_038,38,1986-06-15,FIFA World Cup,played,Soviet Union,SUN,SUN,UEF
 ,,,1988-04-27,Friendly,played,Soviet Union,SUN,SUN,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,1,draw,Trnava,Czechoslovakia,FALSE,1974,1826,1973,1827,-1
 ,,,1988-06-01,Friendly,played,Soviet Union,SUN,SUN,UEFA,Poland,POL,POL,UEFA,TRUE,2,1,win,Moscow,Soviet Union,FALSE,1973,1760,1976,1757,3
 ,,,1988-06-12,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,0,win,Cologne,Germany,TRUE,1976,1934,1998,1912,22
-,,,1988-06-15,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Hanover,Germany,TRUE,,,,,
+,,,1988-06-15,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Hanover,Germany,TRUE,1998,1868,1989,1877,-9
 ,,,1988-06-18,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,England,ENG,ENG,UEFA,FALSE,3,1,win,Frankfurt am Main,Germany,TRUE,1989,1919,2019,1889,30
 ,,,1988-06-22,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,0,win,Stuttgart,Germany,TRUE,2019,1995,2054,1960,35
 ,,,1988-06-25,UEFA Euro,played,Soviet Union,SUN,SUN,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,2,loss,Munich,Germany,TRUE,2054,2007,2011,2050,-43
 ,,,1988-08-17,Friendly,played,Soviet Union,SUN,SUN,UEFA,Finland,,,,FALSE,0,0,draw,Turku,Finland,FALSE,2011,1607,2004,1614,-7
 ,,,1988-08-31,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,1,draw,Reykjavík,Iceland,FALSE,2004,1540,1988,1556,-16
-,,,1988-09-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Düsseldorf,Germany,FALSE,,,,,
+,,,1988-09-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Düsseldorf,Germany,FALSE,1988,1978,1981,1985,-7
 ,,,1988-10-19,FIFA World Cup qualification,played,Soviet Union,SUN,SUN,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,0,win,Kyiv,Soviet Union,TRUE,1981,1732,1988,1725,7
 ,,,1988-11-21,Friendly,played,Soviet Union,SUN,SUN,UEFA,Syria,,,,FALSE,2,0,win,Damascus,Syria,FALSE,1988,1512,1991,1509,3
 ,,,1988-11-23,Friendly,played,Soviet Union,SUN,SUN,UEFA,Kuwait,KWT,KWT,AFC,FALSE,1,0,win,Kuwait City,Kuwait,FALSE,1991,1503,1993,1501,2
@@ -351,7 +351,7 @@ WC-1986,WC-1986_038,38,1986-06-15,FIFA World Cup,played,Soviet Union,SUN,SUN,UEF
 ,,,1990-02-22,Marlboro Cup,played,Soviet Union,SUN,SUN,UEFA,Costa Rica,CRI,CRI,CONCACAF,FALSE,2,1,win,Los Angeles,United States,TRUE,1949,1634,1953,1630,4
 ,,,1990-02-24,Friendly,played,Soviet Union,SUN,SUN,UEFA,United States,USA,USA,CONCACAF,FALSE,3,1,win,Palo Alto,United States,FALSE,1953,1591,1958,1586,5
 ,,,1990-03-28,Friendly,played,Soviet Union,SUN,SUN,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,1,win,Kyiv,Soviet Union,FALSE,1958,2043,1968,2033,10
-,,,1990-04-25,Friendly,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1990-04-25,Friendly,played,Soviet Union,SUN,SUN,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1968,1892,1959,1901,-9
 ,,,1990-05-16,Friendly,played,Soviet Union,SUN,SUN,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,3,loss,Ramat Gan,Israel,FALSE,1959,1617,1943,1633,-16
 WC-1990,WC-1990_003,3,1990-06-09,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,2,loss,Bari,Italy,TRUE,1943,1894,1892,1945,-51
 WC-1990,WC-1990_012,12,1990-06-13,FIFA World Cup,played,Soviet Union,SUN,SUN,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,2,loss,Naples,Italy,TRUE,1892,1751,1830,1813,-62

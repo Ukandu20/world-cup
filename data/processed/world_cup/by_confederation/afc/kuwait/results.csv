@@ -65,7 +65,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1974-09-14,Asian Games,played,Kuwait,KWT,KWT,AFC,Israel,ISR,ISR,UEFA,FALSE,0,2,loss,Tehran,Iran,TRUE,,,,,
 ,,,1974-12-29,Friendly,played,Kuwait,KWT,KWT,AFC,Tunisia,TUN,TUN,CAF,TRUE,2,0,win,Kuwait City,Kuwait,FALSE,1552,1646,1567,1631,15
 ,,,1975-01-14,Friendly,played,Kuwait,KWT,KWT,AFC,Libya,,,,TRUE,1,0,win,Kuwait City,Kuwait,FALSE,1567,1390,1570,1387,3
-,,,1975-08-14,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,3,3,draw,Beijing,China PR,FALSE,,,,,
+,,,1975-08-14,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,3,3,draw,Beijing,China PR,FALSE,1570,1560,1573,1557,3
 ,,,1976-03-28,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Qatar,QAT,QAT,AFC,FALSE,4,0,win,Doha,Qatar,FALSE,1583,1053,1589,1047,6
 ,,,1976-03-31,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Oman,,,,TRUE,8,0,win,Doha,Qatar,TRUE,1589,840,1590,839,1
 ,,,1976-04-03,Gulf Cup,played,Kuwait,KWT,KWT,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,0,draw,Doha,Qatar,TRUE,1590,1024,1571,1043,-19
@@ -74,7 +74,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1976-04-11,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,3,1,win,Doha,Qatar,TRUE,1576,1265,1585,1256,9
 ,,,1976-04-15,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Iraq,IRQ,IRQ,AFC,FALSE,4,2,win,Doha,Qatar,TRUE,1585,1589,1615,1559,30
 ,,,1976-06-03,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Malaysia,,,,TRUE,2,0,win,Tehran,Iran,TRUE,1615,1394,1631,1378,16
-,,,1976-06-07,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,1,0,win,Tehran,Iran,TRUE,,,,,
+,,,1976-06-07,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,1,0,win,Tehran,Iran,TRUE,1631,1556,1651,1536,20
 ,,,1976-06-11,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Iraq,IRQ,IRQ,AFC,FALSE,3,2,win,Tehran,Iran,TRUE,1651,1549,1669,1531,18
 ,,,1976-06-13,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1669,1703,1653,1719,-16
 ,,,1977-03-11,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,FALSE,2,0,win,Doha,Qatar,TRUE,1653,1105,1655,1103,2
@@ -121,9 +121,9 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1981-04-25,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Malaysia,,,,TRUE,4,0,win,Kuwait City,Kuwait,FALSE,1597,1417,1609,1405,12
 ,,,1981-04-29,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,South Korea,KOR,KOR,AFC,TRUE,2,0,win,Kuwait City,Kuwait,FALSE,1609,1732,1641,1700,32
 ,,,1981-10-10,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,New Zealand,NZL,NZL,OFC,FALSE,2,1,win,Auckland,New Zealand,FALSE,1641,1568,1663,1546,22
-,,,1981-10-18,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,3,loss,Beijing,China PR,FALSE,,,,,
+,,,1981-10-18,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,3,loss,Beijing,China PR,FALSE,1663,1592,1631,1624,-32
 ,,,1981-11-04,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,Riyadh,Saudi Arabia,FALSE,1631,1491,1649,1473,18
-,,,1981-11-30,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,0,win,Kuwait City,Kuwait,FALSE,,,,,
+,,,1981-11-30,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,0,win,Kuwait City,Kuwait,FALSE,1649,1657,1664,1642,15
 ,,,1981-12-07,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,0,win,Kuwait City,Kuwait,FALSE,1664,1451,1672,1443,8
 ,,,1981-12-14,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,New Zealand,NZL,NZL,OFC,TRUE,2,2,draw,Kuwait City,Kuwait,FALSE,1672,1535,1660,1547,-12
 ,,,1982-03-14,Friendly,played,Kuwait,KWT,KWT,AFC,Iceland,ISL,ISL,UEFA,TRUE,0,0,draw,Kuwait City,Kuwait,FALSE,1660,1500,1654,1506,-6
@@ -154,7 +154,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,1984-12-05,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,South Korea,KOR,KOR,AFC,FALSE,0,0,draw,Kallang,Singapore,TRUE,1540,1611,1545,1606,5
 ,,,1984-12-09,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Syria,,,,TRUE,3,1,win,Kallang,Singapore,TRUE,1545,1355,1564,1336,19
 ,,,1984-12-11,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Kallang,Singapore,TRUE,1564,1551,1538,1577,-26
-,,,1984-12-14,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,0,1,loss,Kallang,Singapore,TRUE,,,,,
+,,,1984-12-14,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,0,1,loss,Kallang,Singapore,TRUE,1538,1628,1519,1647,-19
 ,,,1984-12-16,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Iran,IRN,IRN,AFC,FALSE,1,1,draw,Kallang,Singapore,TRUE,1519,1707,1531,1695,12
 ,,,1985-03-22,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Syria,,,,FALSE,0,1,loss,Damascus,Syria,FALSE,1531,1340,1506,1365,-25
 ,,,1985-03-31,Friendly,played,Kuwait,KWT,KWT,AFC,Iceland,ISL,ISL,UEFA,TRUE,1,1,draw,Kuwait City,Kuwait,FALSE,1506,1494,1503,1497,-3
@@ -173,7 +173,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,1986-09-22,Asian Games,played,Kuwait,KWT,KWT,AFC,Nepal,,,,FALSE,5,0,win,Daejeon,South Korea,TRUE,1593,844,1594,843,1
 ,,,1986-09-24,Asian Games,played,Kuwait,KWT,KWT,AFC,Japan,JPN,JPN,AFC,FALSE,2,0,win,Daejeon,South Korea,TRUE,1594,1467,1613,1448,19
 ,,,1986-09-26,Asian Games,played,Kuwait,KWT,KWT,AFC,Iran,IRN,IRN,AFC,FALSE,1,0,win,Daejeon,South Korea,TRUE,1613,1693,1638,1668,25
-,,,1986-10-01,Asian Games,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,1,draw,Busan,South Korea,TRUE,,,,,
+,,,1986-10-01,Asian Games,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,1,draw,Busan,South Korea,TRUE,1638,1617,1637,1618,-1
 ,,,1986-10-03,Asian Games,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,2,draw,Seoul,South Korea,TRUE,1637,1583,1634,1586,-3
 ,,,1986-10-04,Asian Games,played,Kuwait,KWT,KWT,AFC,Indonesia,IDN,IDN,AFC,FALSE,5,0,win,Seoul,South Korea,TRUE,1634,1203,1640,1197,6
 ,,,1987-02-16,Friendly,played,Kuwait,KWT,KWT,AFC,Algeria,DZA,DZA,CAF,TRUE,2,0,win,Kuwait City,Kuwait,FALSE,1640,1659,1652,1647,12
@@ -199,7 +199,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,1988-12-03,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,TRUE,0,0,draw,Doha,Qatar,TRUE,1501,1386,1493,1394,-8
 ,,,1988-12-05,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Doha,Qatar,TRUE,1493,1507,1494,1506,1
 ,,,1988-12-08,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Syria,,,,FALSE,0,1,loss,Doha,Qatar,TRUE,1494,1442,1465,1471,-29
-,,,1988-12-10,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,2,2,draw,Doha,Qatar,TRUE,,,,,
+,,,1988-12-10,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,2,2,draw,Doha,Qatar,TRUE,1465,1645,1477,1633,12
 ,,,1989-01-06,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Pakistan,,,,FALSE,1,0,win,Islamabad,Pakistan,FALSE,1477,1013,1481,1009,4
 ,,,1989-01-13,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,3,2,win,Kuwait City,Kuwait,FALSE,1481,1467,1495,1453,14
 ,,,1989-01-27,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Pakistan,,,,TRUE,2,0,win,Kuwait City,Kuwait,FALSE,1495,1006,1497,1004,2
@@ -242,7 +242,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,1992-12-06,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,2,loss,Doha,Qatar,TRUE,1505,1568,1489,1584,-16
 ,,,1992-12-10,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,TRUE,0,1,loss,Doha,Qatar,TRUE,1489,1363,1462,1390,-27
 ,,,1993-01-02,Friendly,played,Kuwait,KWT,KWT,AFC,Lebanon,,,,TRUE,2,0,win,Kuwait City,Kuwait,FALSE,1462,1266,1467,1261,5
-,,,1993-02-24,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,0,win,Kuwait City,Kuwait,FALSE,,,,,
+,,,1993-02-24,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,0,win,Kuwait City,Kuwait,FALSE,1467,1489,1475,1481,8
 ,,,1993-03-16,Friendly,played,Kuwait,KWT,KWT,AFC,Syria,,,,TRUE,2,1,win,Kuwait City,Kuwait,FALSE,1475,1430,1481,1424,6
 ,,,1993-04-04,Friendly,played,Kuwait,KWT,KWT,AFC,Egypt,EGY,EGY,CAF,TRUE,1,3,loss,Kuwait City,Kuwait,FALSE,1481,1644,1469,1656,-12
 ,,,1993-04-16,Friendly,played,Kuwait,KWT,KWT,AFC,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Singapore,Singapore,TRUE,1469,1745,1466,1748,-3
@@ -262,7 +262,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,1994-10-03,Asian Games,played,Kuwait,KWT,KWT,AFC,Nepal,,,,TRUE,8,0,win,Onomichi,Japan,TRUE,1510,889,1513,886,3
 ,,,1994-10-07,Asian Games,played,Kuwait,KWT,KWT,AFC,South Korea,KOR,KOR,AFC,FALSE,1,0,win,Miyoshi,Japan,TRUE,1513,1686,1542,1657,29
 ,,,1994-10-11,Asian Games,played,Kuwait,KWT,KWT,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,2,1,win,Hiroshima,Japan,TRUE,1542,1502,1560,1484,18
-,,,1994-10-13,Asian Games,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,2,loss,Hiroshima,Japan,TRUE,,,,,
+,,,1994-10-13,Asian Games,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,2,loss,Hiroshima,Japan,TRUE,1560,1604,1534,1630,-26
 ,,,1994-10-15,Asian Games,played,Kuwait,KWT,KWT,AFC,South Korea,KOR,KOR,AFC,TRUE,2,1,win,Hiroshima,Japan,TRUE,1534,1664,1561,1637,27
 ,,,1994-10-29,Friendly,played,Kuwait,KWT,KWT,AFC,Iceland,ISL,ISL,UEFA,TRUE,0,1,loss,Al Ain,United Arab Emirates,TRUE,1561,1562,1551,1572,-10
 ,,,1994-11-04,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,FALSE,1,2,loss,Abu Dhabi,United Arab Emirates,TRUE,1551,1423,1524,1450,-27
@@ -311,11 +311,11 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,1997-09-14,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,2,loss,Taif,Saudi Arabia,FALSE,1573,1628,1561,1640,-12
 ,,,1997-09-19,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Qatar,QAT,QAT,AFC,FALSE,2,0,win,Doha,Qatar,FALSE,1561,1511,1595,1477,34
 ,,,1997-09-26,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Iran,IRN,IRN,AFC,TRUE,1,1,draw,Kuwait City,Kuwait,FALSE,1595,1715,1596,1714,1
-,,,1997-10-10,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,2,loss,Kuwait City,Kuwait,FALSE,,,,,
+,,,1997-10-10,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,2,loss,Kuwait City,Kuwait,FALSE,1602,1647,1579,1670,-23
 ,,,1997-10-17,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,Kuwait City,Kuwait,FALSE,1579,1645,1597,1627,18
 ,,,1997-10-24,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Qatar,QAT,QAT,AFC,TRUE,0,1,loss,Kuwait City,Kuwait,FALSE,1597,1464,1565,1496,-32
 ,,,1997-10-31,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Tehran,Iran,FALSE,1565,1723,1578,1710,13
-,,,1997-11-12,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,1,loss,Dalian,China PR,FALSE,,,,,
+,,,1997-11-12,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,1,loss,Dalian,China PR,FALSE,1578,1624,1566,1636,-12
 ,,,1998-04-14,Friendly,played,Kuwait,KWT,KWT,AFC,Iran,IRN,IRN,AFC,FALSE,1,1,draw,Tehran,Iran,FALSE,1566,1665,1571,1660,5
 ,,,1998-05-24,Friendly,played,Kuwait,KWT,KWT,AFC,United States,USA,USA,CONCACAF,FALSE,0,2,loss,Portland,United States,FALSE,1571,1756,1566,1761,-5
 ,,,1998-09-09,Friendly,played,Kuwait,KWT,KWT,AFC,Lebanon,,,,TRUE,0,0,draw,Kuwait City,Kuwait,FALSE,1566,1362,1559,1369,-7
@@ -352,7 +352,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,2000-10-07,United Arab Emirates Friendship Tournament,played,Kuwait,KWT,KWT,AFC,United Arab Emirates,ARE,ARE,AFC,FALSE,0,1,loss,Dubai,United Arab Emirates,FALSE,1635,1530,1620,1545,-15
 ,,,2000-10-13,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Indonesia,IDN,IDN,AFC,TRUE,0,0,draw,Tripoli,Lebanon,TRUE,1620,1370,1605,1385,-15
 ,,,2000-10-16,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,South Korea,KOR,KOR,AFC,FALSE,1,0,win,Tripoli,Lebanon,TRUE,1605,1770,1641,1734,36
-,,,2000-10-19,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,0,draw,Tripoli,Lebanon,TRUE,,,,,
+,,,2000-10-19,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,0,draw,Tripoli,Lebanon,TRUE,1641,1708,1646,1703,5
 ,,,2000-10-24,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,3,loss,Beirut,Lebanon,TRUE,1646,1640,1621,1665,-25
 ,,,2001-01-12,Friendly,played,Kuwait,KWT,KWT,AFC,Qatar,QAT,QAT,AFC,FALSE,0,1,loss,Doha,Qatar,FALSE,1621,1505,1611,1515,-10
 ,,,2001-01-17,Friendly,played,Kuwait,KWT,KWT,AFC,Syria,,,,TRUE,2,0,win,Doha,Qatar,TRUE,1611,1528,1622,1517,11
@@ -398,7 +398,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,2004-01-04,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,1,1,draw,Kuwait City,Kuwait,FALSE,1524,1673,1527,1670,3
 ,,,2004-01-08,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Qatar,QAT,QAT,AFC,TRUE,1,2,loss,Kuwait City,Kuwait,FALSE,1527,1525,1501,1551,-26
 ,,,2004-01-10,Gulf Cup,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,TRUE,0,4,loss,Kuwait City,Kuwait,FALSE,1501,1558,1459,1600,-42
-,,,2004-02-18,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,1,loss,Guangzhou,China PR,FALSE,,,,,
+,,,2004-02-18,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,1,loss,Guangzhou,China PR,FALSE,1459,1592,1451,1600,-8
 ,,,2004-03-31,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Malaysia,,,,FALSE,2,0,win,Kuantan,Malaysia,FALSE,1451,1222,1470,1203,19
 ,,,2004-06-01,Friendly,played,Kuwait,KWT,KWT,AFC,Syria,,,,TRUE,0,1,loss,Kuwait City,Kuwait,FALSE,1470,1382,1455,1397,-15
 ,,,2004-06-03,Friendly,played,Kuwait,KWT,KWT,AFC,Syria,,,,TRUE,1,2,loss,Kuwait City,Kuwait,FALSE,1455,1397,1441,1411,-14
@@ -412,7 +412,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,2004-09-29,Friendly,played,Kuwait,KWT,KWT,AFC,Syria,,,,TRUE,1,1,draw,Tripoli,Lebanon,TRUE,1479,1476,1479,1476,0
 ,,,2004-10-03,Friendly,played,Kuwait,KWT,KWT,AFC,Lebanon,,,,FALSE,3,1,win,Tripoli,Lebanon,FALSE,1479,1374,1494,1359,15
 ,,,2004-10-06,Friendly,played,Kuwait,KWT,KWT,AFC,Lebanon,,,,FALSE,1,1,draw,Beirut,Lebanon,FALSE,1494,1359,1493,1360,-1
-,,,2004-10-13,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,0,win,Kuwait City,Kuwait,FALSE,,,,,
+,,,2004-10-13,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,1,0,win,Kuwait City,Kuwait,FALSE,1493,1629,1515,1607,22
 ,,,2004-11-05,Friendly,played,Kuwait,KWT,KWT,AFC,India,,,,TRUE,2,3,loss,Kuwait City,Kuwait,FALSE,1515,1145,1496,1164,-19
 ,,,2004-11-10,Friendly,played,Kuwait,KWT,KWT,AFC,Kyrgyzstan,,,,TRUE,3,0,win,Kuwait City,Kuwait,FALSE,1496,1161,1499,1158,3
 ,,,2004-11-17,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,Malaysia,,,,TRUE,6,1,win,Kuwait City,Kuwait,FALSE,1499,1206,1507,1198,8
@@ -482,7 +482,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,2009-10-10,Friendly,played,Kuwait,KWT,KWT,AFC,Jordan,,,,TRUE,2,1,win,Cairo,Egypt,TRUE,1440,1458,1451,1447,11
 ,,,2009-10-26,Friendly,played,Kuwait,KWT,KWT,AFC,Syria,,,,TRUE,1,0,win,Al-Jahra,Kuwait,FALSE,1451,1586,1462,1575,11
 ,,,2009-11-03,Friendly,played,Kuwait,KWT,KWT,AFC,Kenya,,,,FALSE,5,0,win,Cairo,Egypt,TRUE,1462,1385,1478,1369,16
-,,,2009-11-08,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,2,2,draw,Kuwait City,Kuwait,FALSE,,,,,
+,,,2009-11-08,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,2,2,draw,Kuwait City,Kuwait,FALSE,1478,1531,1477,1532,-1
 ,,,2009-11-14,AFC Asian Cup qualification,played,Kuwait,KWT,KWT,AFC,Indonesia,IDN,IDN,AFC,TRUE,2,1,win,Kuwait City,Kuwait,FALSE,1477,1265,1483,1259,6
 ,,,2009-11-18,AFC Asian Cup qualification,played,Kuwait,KWT,KWT,AFC,Indonesia,IDN,IDN,AFC,FALSE,1,1,draw,Jakarta,Indonesia,FALSE,1483,1259,1476,1266,-7
 ,,,2009-12-16,Friendly,played,Kuwait,KWT,KWT,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,0,draw,Kuwait City,Kuwait,FALSE,1476,1391,1471,1396,-5
@@ -509,7 +509,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,2010-12-24,Friendly,played,Kuwait,KWT,KWT,AFC,North Korea,PRK,PRK,AFC,TRUE,2,1,win,6th of October City,Egypt,TRUE,1618,1516,1625,1509,7
 ,,,2010-12-27,Friendly,played,Kuwait,KWT,KWT,AFC,North Korea,PRK,PRK,AFC,TRUE,2,2,draw,6th of October City,Egypt,TRUE,1625,1509,1622,1512,-3
 ,,,2010-12-31,Friendly,played,Kuwait,KWT,KWT,AFC,Zambia,,,,TRUE,4,0,win,6th of October City,Egypt,TRUE,1622,1518,1635,1505,13
-,,,2011-01-08,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,0,2,loss,Doha,Qatar,TRUE,,,,,
+,,,2011-01-08,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,China PR,,,,TRUE,0,2,loss,Doha,Qatar,TRUE,1635,1637,1598,1674,-37
 ,,,2011-01-12,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Uzbekistan,,,,FALSE,1,2,loss,Doha,Qatar,TRUE,1598,1555,1570,1583,-28
 ,,,2011-01-16,AFC Asian Cup,played,Kuwait,KWT,KWT,AFC,Qatar,QAT,QAT,AFC,FALSE,0,3,loss,Doha,Qatar,FALSE,1570,1519,1532,1557,-38
 ,,,2011-02-14,Friendly,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,FALSE,0,0,draw,Riffa,Bahrain,FALSE,1532,1455,1533,1454,1
@@ -531,7 +531,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,2011-11-15,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,United Arab Emirates,ARE,ARE,AFC,TRUE,2,1,win,Kuwait City,Kuwait,FALSE,1540,1392,1548,1384,8
 ,,,2012-01-17,Friendly,played,Kuwait,KWT,KWT,AFC,Uzbekistan,,,,TRUE,1,0,win,Kuwait City,Kuwait,FALSE,1581,1620,1589,1612,8
 ,,,2012-02-17,Friendly,played,Kuwait,KWT,KWT,AFC,North Korea,PRK,PRK,AFC,FALSE,1,1,draw,Changsha,China PR,TRUE,1589,1502,1587,1504,-2
-,,,2012-02-22,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,2,loss,Changsha,China PR,FALSE,,,,,
+,,,2012-02-22,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,0,2,loss,Changsha,China PR,FALSE,1587,1610,1577,1620,-10
 ,,,2012-02-29,FIFA World Cup qualification,played,Kuwait,KWT,KWT,AFC,South Korea,KOR,KOR,AFC,FALSE,0,2,loss,Seoul,South Korea,FALSE,1577,1772,1568,1781,-9
 ,,,2012-06-08,Friendly,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,FALSE,1,1,draw,6th of October City,Egypt,TRUE,1568,1578,1568,1578,0
 ,,,2012-06-12,Friendly,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,FALSE,1,0,win,6th of October City,Egypt,TRUE,1568,1578,1578,1568,10
@@ -569,7 +569,7 @@ WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,Kuwait,KWT,KWT,AFC,Engla
 ,,,2014-05-14,Friendly,played,Kuwait,KWT,KWT,AFC,Afghanistan,,,,TRUE,3,2,win,Kuwait City,Kuwait,FALSE,1526,1068,1527,1067,1
 ,,,2014-05-16,Friendly,played,Kuwait,KWT,KWT,AFC,Kyrgyzstan,,,,TRUE,2,2,draw,Kuwait City,Kuwait,FALSE,1527,1122,1518,1131,-9
 ,,,2014-05-25,Friendly,played,Kuwait,KWT,KWT,AFC,Thailand,,,,FALSE,1,1,draw,Bangkok,Thailand,FALSE,,,,,
-,,,2014-09-04,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,1,3,loss,Anshan,China PR,FALSE,,,,,
+,,,2014-09-04,Friendly,played,Kuwait,KWT,KWT,AFC,China PR,,,,FALSE,1,3,loss,Anshan,China PR,FALSE,1518,1542,1508,1552,-10
 ,,,2014-09-09,Friendly,played,Kuwait,KWT,KWT,AFC,Bahrain,,,,TRUE,0,1,loss,Al Farwaniyah,Kuwait,FALSE,1508,1472,1494,1486,-14
 ,,,2014-10-10,Friendly,played,Kuwait,KWT,KWT,AFC,Jordan,,,,FALSE,1,0,win,Amman,Jordan,FALSE,1494,1593,1509,1578,15
 ,,,2014-10-13,Friendly,played,Kuwait,KWT,KWT,AFC,Jordan,,,,FALSE,1,1,draw,Amman,Jordan,FALSE,1509,1578,1514,1573,5

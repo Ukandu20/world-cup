@@ -816,6 +816,56 @@ def parse_elo_match_rows(
     return lookup
 
 
+def elo_match_name_candidates(team_name: str, match_date: str) -> list[str]:
+    """Return historical name variants used by eloratings.net match rows."""
+    candidates = [team_name]
+    current_match_date = parse_iso_date(match_date)
+    if team_name == "Germany" and current_match_date <= date(1990, 10, 3):
+        candidates.append("West Germany")
+    elif team_name == "Republic of Ireland":
+        candidates.extend(["Ireland", "Northern Ireland"])
+    elif team_name == "Serbia" and date(1994, 12, 23) <= current_match_date <= date(2003, 2, 3):
+        candidates.extend(["Yugoslavia", "FR Yugoslavia"])
+    elif team_name == "China PR":
+        candidates.append("China")
+    elif team_name == "DR Congo" and date(1971, 1, 10) <= current_match_date <= date(1997, 4, 27):
+        candidates.append("Zaire")
+
+    seen: set[str] = set()
+    unique_candidates: list[str] = []
+    for candidate in candidates:
+        if candidate not in seen:
+            seen.add(candidate)
+            unique_candidates.append(candidate)
+    return unique_candidates
+
+
+def lookup_elo_match(
+    elo_lookup: dict[tuple[str, str, str, int, int], MatchElo],
+    match_date: str,
+    home_team: str,
+    away_team: str,
+    home_score: int,
+    away_score: int,
+) -> MatchElo | None:
+    """Find an Elo match row, allowing for historical naming variants."""
+    for home_candidate in elo_match_name_candidates(home_team, match_date):
+        for away_candidate in elo_match_name_candidates(away_team, match_date):
+            elo_match = elo_lookup.get((match_date, home_candidate, away_candidate, home_score, away_score))
+            if elo_match is not None:
+                return elo_match
+    return None
+
+
+def matching_dataset_team_names(parsed_elo_team_name: str, dataset_team_names: set[str], match_date: str) -> list[str]:
+    """Return dataset team names represented by one parsed Elo team name."""
+    return [
+        team_name
+        for team_name in sorted(dataset_team_names)
+        if parsed_elo_team_name in elo_match_name_candidates(team_name, match_date)
+    ]
+
+
 def top_four_placements(summary: dict[str, object]) -> dict[str, tuple[str, int]]:
     return {
         str(summary["winner"]): ("Winner", TOP_FOUR_POSITIONS["Winner"]),
@@ -1121,9 +1171,9 @@ def build_country_match_elo_lookup(
             pre1 = post1 - delta1
             pre2 = post2 + delta1
 
-            if team1 in teams_on_page:
-                lookup[(team1, match_date, team2, score1, score2)] = MatchElo(
-                    team=team1,
+            for dataset_team1 in matching_dataset_team_names(team1, teams_on_page, match_date):
+                lookup[(dataset_team1, match_date, team2, score1, score2)] = MatchElo(
+                    team=dataset_team1,
                     opponent=team2,
                     team_score=score1,
                     opponent_score=score2,
@@ -1133,9 +1183,9 @@ def build_country_match_elo_lookup(
                     opponent_elo_end=post2,
                     team_elo_delta=delta1,
                 )
-            if team2 in teams_on_page:
-                lookup[(team2, match_date, team1, score2, score1)] = MatchElo(
-                    team=team2,
+            for dataset_team2 in matching_dataset_team_names(team2, teams_on_page, match_date):
+                lookup[(dataset_team2, match_date, team1, score2, score1)] = MatchElo(
+                    team=dataset_team2,
                     opponent=team1,
                     team_score=score2,
                     opponent_score=score1,
@@ -1242,7 +1292,14 @@ def build_outputs_for_year(
         if status == "played":
             home_score = int(home_score_value)
             away_score = int(away_score_value)
-            elo_match = elo_lookup.get((str(row["date"]), home_team, away_team, home_score, away_score))
+            elo_match = lookup_elo_match(
+                elo_lookup,
+                str(row["date"]),
+                home_team,
+                away_team,
+                home_score,
+                away_score,
+            )
         home_schedule_elo = elo_match.team_elo_start if elo_match else latest_elo_by_team.get(home_team, "")
         away_schedule_elo = elo_match.opponent_elo_start if elo_match else latest_elo_by_team.get(away_team, "")
 
@@ -1570,7 +1627,16 @@ def build_country_exports(
         for team_name, opponent_name, team_score, opponent_score, is_home in perspectives:
             if team_name not in team_reference:
                 continue
-            elo = country_match_elo.get((team_name, match_date, opponent_name, team_score, opponent_score))
+            elo = None
+            for team_candidate in elo_match_name_candidates(team_name, match_date):
+                for opponent_candidate in elo_match_name_candidates(opponent_name, match_date):
+                    elo = country_match_elo.get(
+                        (team_candidate, match_date, opponent_candidate, team_score, opponent_score)
+                    )
+                    if elo is not None:
+                        break
+                if elo is not None:
+                    break
             result_label = "draw"
             if team_score > opponent_score:
                 result_label = "win"

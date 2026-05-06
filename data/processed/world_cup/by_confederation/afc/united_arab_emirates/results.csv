@@ -68,7 +68,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1984-12-01,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,3,loss,Kallang,Singapore,TRUE,1291,1731,1285,1737,-6
 ,,,1984-12-04,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,2,0,win,Kallang,Singapore,TRUE,1285,1231,1317,1199,32
 ,,,1984-12-08,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Singapore,,,,FALSE,1,0,win,Kallang,Singapore,FALSE,1317,1257,1345,1229,28
-,,,1984-12-11,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,0,5,loss,Kallang,Singapore,TRUE,,,,,
+,,,1984-12-11,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,0,5,loss,Kallang,Singapore,TRUE,1345,1610,1327,1628,-18
 ,,,1985-04-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,FALSE,1,2,loss,Manama,Bahrain,TRUE,1309,1368,1301,1376,-8
 ,,,1985-04-05,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,FALSE,2,3,loss,Manama,Bahrain,FALSE,1301,1337,1295,1343,-6
 ,,,1985-04-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Syria,,,,FALSE,4,0,win,Manama,Bahrain,TRUE,1295,1376,1318,1353,23
@@ -96,7 +96,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1988-01-30,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Japan,JPN,JPN,AFC,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1391,1488,1406,1473,15
 ,,,1988-02-04,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Thailand,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1406,1278,1421,1263,15
 ,,,1988-02-07,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,2,1,win,Abu Dhabi,United Arab Emirates,FALSE,,,,,
-,,,1988-02-10,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,1988-02-10,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,0,draw,Abu Dhabi,United Arab Emirates,FALSE,1422,1594,1426,1590,4
 ,,,1988-02-13,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,India,,,,TRUE,3,0,win,Abu Dhabi,United Arab Emirates,FALSE,1426,1133,1433,1126,7
 ,,,1988-02-17,AFC Asian Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Bangladesh,,,,TRUE,4,0,win,Abu Dhabi,United Arab Emirates,FALSE,1433,1045,1437,1041,4
 ,,,1988-02-23,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Egypt,EGY,EGY,CAF,TRUE,1,2,loss,Dubai,United Arab Emirates,FALSE,1437,1676,1431,1682,-6
@@ -119,7 +119,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1989-02-03,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Sharjah,United Arab Emirates,FALSE,1456,1497,1473,1480,17
 ,,,1989-02-10,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Pakistan,,,,FALSE,4,1,win,Islamabad,Pakistan,FALSE,1473,1004,1480,997,7
 ,,,1989-10-12,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,0,0,draw,Singapore,Singapore,TRUE,1480,1562,1485,1557,5
-,,,1989-10-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,2,1,win,Singapore,Singapore,TRUE,,,,,
+,,,1989-10-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,2,1,win,Singapore,Singapore,TRUE,1485,1597,1511,1571,26
 ,,,1989-10-21,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,0,draw,Singapore,Singapore,TRUE,1511,1561,1514,1558,3
 ,,,1989-10-24,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,1,1,draw,Singapore,Singapore,TRUE,1514,1456,1511,1459,-3
 ,,,1989-10-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,1,1,draw,Kuala Lumpur,Malaysia,TRUE,1511,1753,1523,1741,12
@@ -136,7 +136,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1990-05-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Poland,POL,POL,UEFA,FALSE,0,4,loss,Marseille,France,TRUE,1466,1782,1461,1787,-5
 ,,,1990-05-28,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Hungary,HUN,HUN,UEFA,FALSE,0,3,loss,Nîmes,France,TRUE,1461,1717,1454,1724,-7
 WC-1990,WC-1990_004,4,1990-06-09,FIFA World Cup,played,United Arab Emirates,ARE,ARE,AFC,Colombia,COL,COL,CONMEBOL,TRUE,0,2,loss,Bologna,Italy,TRUE,1454,1801,1443,1812,-11
-WC-1990,WC-1990_018,18,1990-06-15,FIFA World Cup,played,United Arab Emirates,ARE,ARE,AFC,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Milan,Italy,TRUE,,,,,
+WC-1990,WC-1990_018,18,1990-06-15,FIFA World Cup,played,United Arab Emirates,ARE,ARE,AFC,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Milan,Italy,TRUE,1443,2033,1439,2037,-4
 WC-1990,WC-1990_030,30,1990-06-19,FIFA World Cup,played,United Arab Emirates,ARE,ARE,AFC,Yugoslavia,YUG,YUG,UEFA,FALSE,1,4,loss,Bologna,Italy,TRUE,1439,1881,1431,1889,-8
 ,,,1992-03-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iceland,ISL,ISL,UEFA,TRUE,0,1,loss,Dubai,United Arab Emirates,FALSE,1425,1574,1416,1583,-9
 ,,,1992-05-14,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,1,0,win,Abu Dhabi,United Arab Emirates,FALSE,1416,1468,1425,1459,9
@@ -147,7 +147,7 @@ WC-1990,WC-1990_030,30,1990-06-19,FIFA World Cup,played,United Arab Emirates,ARE
 ,,,1992-11-01,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,TRUE,0,0,draw,Hiroshima,Japan,TRUE,1488,1665,1500,1653,12
 ,,,1992-11-03,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,TRUE,2,1,win,Hiroshima,Japan,TRUE,1500,1493,1524,1469,24
 ,,,1992-11-06,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,2,loss,Hiroshima,Japan,TRUE,1524,1626,1497,1653,-27
-,,,1992-11-08,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,1,1,draw,Hiroshima,Japan,TRUE,,,,,
+,,,1992-11-08,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,1,1,draw,Hiroshima,Japan,TRUE,1497,1458,1494,1461,-3
 ,,,1992-11-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Senegal,SEN,SEN,CAF,TRUE,1,1,draw,Abu Dhabi,United Arab Emirates,FALSE,1494,1520,1492,1522,-2
 ,,,1992-11-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Senegal,SEN,SEN,CAF,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1492,1522,1490,1524,-2
 ,,,1992-11-24,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Algeria,DZA,DZA,CAF,FALSE,0,0,draw,Manama,Bahrain,TRUE,1490,1641,1494,1637,4
@@ -279,12 +279,12 @@ WC-1990,WC-1990_030,30,1990-06-19,FIFA World Cup,played,United Arab Emirates,ARE
 ,,,2001-08-02,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1462,1591,1463,1590,1
 ,,,2001-08-08,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,TRUE,0,1,loss,Doha,Qatar,TRUE,1463,1684,1459,1688,-4
 ,,,2001-08-17,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,TRUE,4,1,win,Abu Dhabi,United Arab Emirates,FALSE,1459,1540,1492,1507,33
-,,,2001-08-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,0,3,loss,Shenyang,China PR,FALSE,,,,,
+,,,2001-08-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,0,3,loss,Shenyang,China PR,FALSE,1492,1689,1481,1700,-11
 ,,,2001-08-31,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,0,2,loss,Abu Dhabi,United Arab Emirates,FALSE,1481,1558,1449,1590,-32
 ,,,2001-09-07,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Saudi Arabia,KSA,SAU,AFC,FALSE,2,0,win,Dammam,Saudi Arabia,FALSE,1449,1670,1475,1644,26
 ,,,2001-09-14,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,1,draw,Muscat,Oman,FALSE,1475,1376,1475,1376,0
 ,,,2001-09-22,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Uzbekistan,,,,FALSE,1,0,win,Tashkent,Uzbekistan,FALSE,1475,1532,1503,1504,28
-,,,2001-09-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,,,,,
+,,,2001-09-27,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1503,1724,1490,1737,-13
 ,,,2001-10-04,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,FALSE,2,1,win,Doha,Qatar,FALSE,1490,1600,1521,1569,31
 ,,,2001-10-19,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,TRUE,2,2,draw,Abu Dhabi,United Arab Emirates,FALSE,1521,1379,1509,1391,-12
 ,,,2001-10-25,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Tehran,Iran,FALSE,1509,1711,1503,1717,-6
@@ -316,7 +316,7 @@ WC-1990,WC-1990_030,30,1990-06-19,FIFA World Cup,played,United Arab Emirates,ARE
 ,,,2004-03-31,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,North Korea,PRK,PRK,AFC,FALSE,0,0,draw,Pyongyang,North Korea,FALSE,1461,1420,1464,1417,3
 ,,,2004-05-31,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Bahrain,,,,TRUE,2,3,loss,Dubai,United Arab Emirates,FALSE,1464,1555,1454,1565,-10
 ,,,2004-06-09,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Yemen,,,,TRUE,3,0,win,Al Ain,United Arab Emirates,FALSE,1454,1136,1460,1130,6
-,,,2004-07-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,2,2,draw,Hohhot,China PR,FALSE,,,,,
+,,,2004-07-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,2,2,draw,Hohhot,China PR,FALSE,1460,1621,1466,1615,6
 ,,,2004-07-19,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,3,loss,Jinan,China PR,TRUE,1466,1451,1427,1490,-39
 ,,,2004-07-23,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Jinan,China PR,TRUE,1427,1692,1414,1705,-13
 ,,,2004-07-27,AFC Asian Cup,played,United Arab Emirates,ARE,ARE,AFC,Jordan,,,,FALSE,0,0,draw,Beijing,China PR,TRUE,1414,1676,1430,1660,16
@@ -373,7 +373,7 @@ WC-1990,WC-1990_030,30,1990-06-19,FIFA World Cup,played,United Arab Emirates,ARE
 ,,,2007-10-28,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Vietnam,,,,TRUE,5,0,win,Abu Dhabi,United Arab Emirates,FALSE,1485,1297,1498,1284,13
 ,,,2007-11-17,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Benin,,,,FALSE,0,1,loss,Accra,Ghana,TRUE,1451,1363,1432,1382,-19
 ,,,2007-11-21,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Togo,TGO,TGO,CAF,TRUE,0,5,loss,Accra,Ghana,TRUE,1471,1412,1436,1447,-35
-,,,2008-01-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,,,,,
+,,,2008-01-10,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,TRUE,0,0,draw,Dubai,United Arab Emirates,FALSE,1436,1574,1438,1572,2
 ,,,2008-01-31,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Iraq,IRQ,IRQ,AFC,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,FALSE,1438,1640,1431,1647,-7
 ,,,2008-02-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,1431,1426,1452,1405,21
 ,,,2008-03-19,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Oman,,,,FALSE,1,1,draw,Muscat,Oman,FALSE,1452,1502,1456,1498,4
@@ -429,7 +429,7 @@ WC-1990,WC-1990_030,30,1990-06-19,FIFA World Cup,played,United Arab Emirates,ARE
 ,,,2011-08-25,Friendly,played,United Arab Emirates,ARE,ARE,AFC,Qatar,QAT,QAT,AFC,TRUE,3,1,win,Al Ain,United Arab Emirates,FALSE,1458,1492,1470,1480,12
 ,,,2011-09-02,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,TRUE,2,3,loss,Al Ain,United Arab Emirates,FALSE,1470,1582,1451,1601,-19
 ,,,2011-09-06,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Lebanon,,,,FALSE,1,3,loss,Beirut,Lebanon,FALSE,1451,1166,1406,1211,-45
-,,,2011-10-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,1,2,loss,Shenzhen,China PR,FALSE,,,,,
+,,,2011-10-06,Friendly,played,United Arab Emirates,ARE,ARE,AFC,China PR,,,,FALSE,1,2,loss,Shenzhen,China PR,FALSE,1406,1642,1403,1645,-3
 ,,,2011-10-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Suwon,South Korea,FALSE,1403,1793,1401,1795,-2
 ,,,2011-11-11,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,South Korea,KOR,KOR,AFC,TRUE,0,2,loss,Dubai,United Arab Emirates,FALSE,1401,1795,1392,1804,-9
 ,,,2011-11-15,FIFA World Cup qualification,played,United Arab Emirates,ARE,ARE,AFC,Kuwait,KWT,KWT,AFC,FALSE,1,2,loss,Kuwait City,Kuwait,FALSE,1392,1540,1384,1548,-8

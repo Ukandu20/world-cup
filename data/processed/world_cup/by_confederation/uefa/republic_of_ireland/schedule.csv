@@ -1,14 +1,14 @@
 tournament,tournament_id,year,match_id,match_number,date,stage,status,team,team_id,team_code,team_confederation,opponent,opponent_id,opponent_code,opponent_confederation,is_home,city,country,neutral,team_elo_start,opponent_elo_start
-1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_009,9,1990-06-11,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,England,ENG,ENG,UEFA,FALSE,Cagliari,Italy,TRUE,,2020
-1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_023,23,1990-06-17,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Egypt,EGY,EGY,CAF,TRUE,Palermo,Italy,TRUE,,1689
-1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_035,35,1990-06-21,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,Palermo,Italy,TRUE,,1961
-1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_041,41,1990-06-25,Round of 16,played,Republic of Ireland,IRL,IRL,UEFA,Romania,ROU,ROU,UEFA,TRUE,Genoa,Italy,TRUE,,1627
-1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_045,45,1990-06-30,Quarter-final,played,Republic of Ireland,IRL,IRL,UEFA,Italy,ITA,ITA,UEFA,FALSE,Rome,Italy,FALSE,,1856
-1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_004,4,1994-06-18,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Italy,ITA,ITA,UEFA,FALSE,East Rutherford,United States,TRUE,,1856
-1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_019,19,1994-06-24,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,Orlando,United States,TRUE,,1858
-1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_030,30,1994-06-28,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Norway,NOR,NOR,UEFA,TRUE,East Rutherford,United States,TRUE,,1912
-1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_041,41,1994-07-04,Round of 16,played,Republic of Ireland,IRL,IRL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,Orlando,United States,TRUE,,1961
-2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_003,3,2002-06-01,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Cameroon,CMR,CMR,CAF,TRUE,Niigata,Japan,TRUE,,1614
-2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_015,15,2002-06-05,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Germany,GER,DEU,UEFA,FALSE,Kashima,Japan,TRUE,,1923
-2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_035,35,2002-06-11,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,Yokohama,Japan,TRUE,,1568
-2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_051,51,2002-06-16,Round of 16,played,Republic of Ireland,IRL,IRL,UEFA,Spain,ESP,ESP,UEFA,FALSE,Suwon,South Korea,TRUE,,2165
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_009,9,1990-06-11,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,England,ENG,ENG,UEFA,FALSE,Cagliari,Italy,TRUE,1892,2020
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_023,23,1990-06-17,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Egypt,EGY,EGY,CAF,TRUE,Palermo,Italy,TRUE,1896,1689
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_035,35,1990-06-21,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,Palermo,Italy,TRUE,1878,1961
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_041,41,1990-06-25,Round of 16,played,Republic of Ireland,IRL,IRL,UEFA,Romania,ROU,ROU,UEFA,TRUE,Genoa,Italy,TRUE,1888,1627
+1990 FIFA Men's World Cup,WC-1990,1990,WC-1990_045,45,1990-06-30,Quarter-final,played,Republic of Ireland,IRL,IRL,UEFA,Italy,ITA,ITA,UEFA,FALSE,Rome,Italy,FALSE,1888,1856
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_004,4,1994-06-18,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Italy,ITA,ITA,UEFA,FALSE,East Rutherford,United States,TRUE,1864,1856
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_019,19,1994-06-24,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,Orlando,United States,TRUE,1904,1858
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_030,30,1994-06-28,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Norway,NOR,NOR,UEFA,TRUE,East Rutherford,United States,TRUE,1867,1912
+1994 FIFA Men's World Cup,WC-1994,1994,WC-1994_041,41,1994-07-04,Round of 16,played,Republic of Ireland,IRL,IRL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,Orlando,United States,TRUE,1866,1961
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_003,3,2002-06-01,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Cameroon,CMR,CMR,CAF,TRUE,Niigata,Japan,TRUE,1873,1614
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_015,15,2002-06-05,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Germany,GER,DEU,UEFA,FALSE,Kashima,Japan,TRUE,1867,1923
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_035,35,2002-06-11,Group Stage,played,Republic of Ireland,IRL,IRL,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,Yokohama,Japan,TRUE,1871,1568
+2002 FIFA Men's World Cup,WC-2002,2002,WC-2002_051,51,2002-06-16,Round of 16,played,Republic of Ireland,IRL,IRL,UEFA,Spain,ESP,ESP,UEFA,FALSE,Suwon,South Korea,TRUE,1893,2165

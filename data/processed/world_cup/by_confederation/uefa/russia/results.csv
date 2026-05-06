@@ -29,7 +29,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1993-11-17,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Athens,Greece,FALSE,1864,1717,1841,1740,-23
 ,,,1994-01-29,Friendly,played,Russia,RUS,RUS,UEFA,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Seattle,United States,FALSE,1841,1639,1838,1642,-3
 ,,,1994-02-02,Friendly,played,Russia,RUS,RUS,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,4,1,win,Oakland,United States,TRUE,1838,1868,1857,1849,19
-,,,1994-03-23,Friendly,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1994-03-23,Friendly,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1857,1842,1859,1840,2
 ,,,1994-04-20,Friendly,played,Russia,RUS,RUS,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,0,win,Bursa,Turkey,FALSE,1859,1583,1864,1578,5
 ,,,1994-05-29,Friendly,played,Russia,RUS,RUS,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,1,win,Moscow,Russia,FALSE,1864,1674,1867,1671,3
 WC-1994,WC-1994_009,9,1994-06-20,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,2,loss,Palo Alto,United States,TRUE,1867,1964,1834,1997,-33
@@ -44,7 +44,7 @@ WC-1994,WC-1994_032,32,1994-06-28,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Came
 ,,,1995-03-29,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Moscow,Russia,FALSE,1832,1760,1823,1769,-9
 ,,,1995-04-26,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,0,win,Salonica,Greece,FALSE,1823,1669,1853,1639,30
 ,,,1995-05-06,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Faroe Islands,,,,TRUE,3,0,win,Moscow,Russia,FALSE,1853,1164,1854,1163,1
-,,,1995-05-31,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,FALSE,2,1,win,Belgrade,FR Yugoslavia,FALSE,,,,,
+,,,1995-05-31,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,FALSE,2,1,win,Belgrade,FR Yugoslavia,FALSE,1854,1922,1868,1908,14
 ,,,1995-06-07,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,San Marino,,,,FALSE,7,0,win,Serravalle,San Marino,FALSE,1868,991,1869,990,1
 ,,,1995-08-16,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Finland,,,,FALSE,6,0,win,Helsinki,Finland,FALSE,1869,1555,1888,1536,19
 ,,,1995-09-06,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Faroe Islands,,,,FALSE,5,2,win,Toftir,Faroe Islands,FALSE,1888,1172,1890,1170,2
@@ -53,7 +53,7 @@ WC-1994,WC-1994_032,32,1994-06-28,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Came
 ,,,1996-02-07,Malta International Tournament,played,Russia,RUS,RUS,UEFA,Malta,,,,FALSE,2,0,win,Attard,Malta,FALSE,1898,1316,1901,1313,3
 ,,,1996-02-09,Malta International Tournament,played,Russia,RUS,RUS,UEFA,Iceland,ISL,ISL,UEFA,FALSE,3,0,win,Attard,Malta,TRUE,1901,1547,1907,1541,6
 ,,,1996-02-11,Malta International Tournament,played,Russia,RUS,RUS,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,3,1,win,Attard,Malta,TRUE,1907,1618,1914,1611,7
-,,,1996-03-27,Friendly,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1996-03-27,Friendly,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,1914,1739,1926,1727,12
 ,,,1996-04-24,Friendly,played,Russia,RUS,RUS,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,0,draw,Brussels,Belgium,FALSE,1926,1766,1924,1768,-2
 ,,,1996-05-25,Friendly,played,Russia,RUS,RUS,UEFA,Qatar,QAT,QAT,AFC,FALSE,5,2,win,Doha,Qatar,FALSE,1924,1430,1927,1427,3
 ,,,1996-05-29,Friendly,played,Russia,RUS,RUS,UEFA,United Arab Emirates,ARE,ARE,AFC,TRUE,1,0,win,Moscow,Russia,FALSE,1927,1558,1928,1557,1
@@ -65,13 +65,13 @@ WC-1994,WC-1994_032,32,1994-06-28,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Came
 ,,,1996-09-01,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Cyprus,,,,TRUE,4,0,win,Moscow,Russia,FALSE,1888,1392,1890,1390,2
 ,,,1996-10-09,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Israel,ISR,ISR,UEFA,FALSE,1,1,draw,Ramat Gan,Israel,FALSE,1890,1645,1882,1653,-8
 ,,,1996-11-10,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Luxembourg,,,,FALSE,4,0,win,Luxembourg,Luxembourg,FALSE,1882,1262,1886,1258,4
-,,,1997-02-07,Lunar New Year Cup,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,So Kon Po,Hong Kong,TRUE,,,,,
+,,,1997-02-07,Lunar New Year Cup,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,So Kon Po,Hong Kong,TRUE,1886,1932,1888,1930,2
 ,,,1997-02-10,Lunar New Year Cup,played,Russia,RUS,RUS,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,1,win,So Kon Po,Hong Kong,TRUE,1888,1721,1896,1713,8
-,,,1997-03-12,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,0,draw,Belgrade,FR Yugoslavia,FALSE,,,,,
+,,,1997-03-12,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,FALSE,0,0,draw,Belgrade,FR Yugoslavia,FALSE,1896,1930,1900,1926,4
 ,,,1997-03-29,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Cyprus,,,,FALSE,1,1,draw,Paralímni,Cyprus,FALSE,1900,1419,1884,1435,-16
 ,,,1997-04-30,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Luxembourg,,,,TRUE,3,0,win,Moscow,Russia,FALSE,1884,1241,1885,1240,1
 ,,,1997-06-08,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,0,win,Moscow,Russia,FALSE,1885,1627,1892,1620,7
-,,,1997-08-20,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,1,loss,Saint Petersburg,Russia,FALSE,,,,,
+,,,1997-08-20,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,1,loss,Saint Petersburg,Russia,FALSE,1892,1943,1881,1954,-11
 ,,,1997-09-10,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,1,loss,Sofia,Bulgaria,FALSE,1881,1824,1863,1842,-18
 ,,,1997-10-11,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,4,2,win,Moscow,Russia,FALSE,1863,1842,1883,1822,20
 ,,,1997-10-29,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Moscow,Russia,FALSE,1883,1965,1882,1966,-1
@@ -106,31 +106,31 @@ WC-1994,WC-1994_032,32,1994-06-28,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Came
 ,,,2001-02-28,Friendly,played,Russia,RUS,RUS,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,3,draw,Heraklion,Greece,FALSE,1835,1707,1834,1708,-1
 ,,,2001-03-24,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,1,1,draw,Moscow,Russia,FALSE,1834,1648,1820,1662,-14
 ,,,2001-03-28,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Faroe Islands,,,,TRUE,1,0,win,Moscow,Russia,FALSE,1820,1250,1821,1249,1
-,,,2001-04-25,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,FALSE,1,0,win,Belgrade,FR Yugoslavia,FALSE,,,,,
-,,,2001-06-02,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Moscow,Russia,FALSE,,,,,
+,,,2001-04-25,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,FALSE,1,0,win,Belgrade,FR Yugoslavia,FALSE,1821,1876,1849,1848,28
+,,,2001-06-02,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Moscow,Russia,FALSE,1849,1848,1843,1854,-6
 ,,,2001-06-06,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Luxembourg,,,,FALSE,2,1,win,Luxembourg,Luxembourg,FALSE,1843,1136,1844,1135,1
 ,,,2001-08-15,Friendly,played,Russia,RUS,RUS,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Moscow,Russia,FALSE,1844,1676,1838,1682,-6
 ,,,2001-09-01,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,1,2,loss,Ljubljana,Slovenia,FALSE,1838,1693,1815,1716,-23
 ,,,2001-09-05,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Faroe Islands,,,,FALSE,3,0,win,Tórshavn,Faroe Islands,FALSE,1815,1248,1819,1244,4
 ,,,2001-10-06,FIFA World Cup qualification,played,Russia,RUS,RUS,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,0,win,Moscow,Russia,FALSE,1819,1675,1834,1660,15
 ,,,2001-11-14,Friendly,played,Russia,RUS,RUS,UEFA,Latvia,,,,FALSE,3,1,win,Riga,Latvia,FALSE,1834,1420,1838,1416,4
-,,,2002-02-13,Friendly,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2002-02-13,Friendly,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,1838,1862,1828,1872,-10
 ,,,2002-03-27,Friendly,played,Russia,RUS,RUS,UEFA,Estonia,,,,FALSE,1,2,loss,Tallinn,Estonia,FALSE,1828,1373,1810,1391,-18
 ,,,2002-04-17,Friendly,played,Russia,RUS,RUS,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Saint-Denis,France,FALSE,1810,2115,1818,2107,8
 ,,,2002-05-17,Friendly,played,Russia,RUS,RUS,UEFA,Belarus,,,,TRUE,1,1,draw,Moscow,Russia,FALSE,1818,1534,1806,1546,-12
-,,,2002-05-19,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Moscow,Russia,FALSE,,,,,
+,,,2002-05-19,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Moscow,Russia,FALSE,1806,1795,1801,1800,-5
 WC-2002,WC-2002_016,16,2002-06-05,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Tunisia,TUN,TUN,CAF,TRUE,2,0,win,Kobe,Japan,TRUE,1801,1618,1824,1595,23
 WC-2002,WC-2002_028,28,2002-06-09,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Japan,JPN,JPN,AFC,FALSE,0,1,loss,Yokohama,Japan,FALSE,1824,1839,1804,1859,-20
 WC-2002,WC-2002_045,45,2002-06-14,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,3,loss,Fukuroi,Japan,TRUE,1804,1827,1776,1855,-28
 ,,,2002-08-21,Friendly,played,Russia,RUS,RUS,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Moscow,Russia,FALSE,1776,1858,1775,1859,-1
-,,,2002-09-07,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,4,2,win,Moscow,Russia,FALSE,,,,,
+,,,2002-09-07,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,4,2,win,Moscow,Russia,FALSE,1775,1918,1809,1884,34
 ,,,2002-10-16,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Albania,,,,TRUE,4,1,win,Volgograd,Russia,FALSE,1802,1453,1807,1448,5
 ,,,2003-02-12,Cyprus International Tournament,played,Russia,RUS,RUS,UEFA,Cyprus,,,,FALSE,1,0,win,Limassol,Cyprus,FALSE,1807,1494,1814,1487,7
 ,,,2003-03-29,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Albania,,,,FALSE,1,3,loss,Shkodër,Albania,FALSE,1836,1459,1786,1509,-50
 ,,,2003-04-30,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Georgia,,,,FALSE,0,1,loss,Tbilisi,Georgia,FALSE,1786,1572,1760,1598,-26
 ,,,2003-06-07,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,2,draw,Basel,Switzerland,FALSE,1760,1718,1763,1715,3
 ,,,2003-08-20,Friendly,played,Russia,RUS,RUS,UEFA,Israel,ISR,ISR,UEFA,TRUE,1,2,loss,Moscow,Russia,FALSE,1763,1681,1748,1696,-15
-,,,2003-09-06,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2003-09-06,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1748,1878,1760,1866,12
 ,,,2003-09-10,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,1,win,Moscow,Russia,FALSE,1760,1713,1781,1692,21
 ,,,2003-10-11,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Georgia,,,,TRUE,3,1,win,Moscow,Russia,FALSE,1781,1576,1790,1567,9
 ,,,2003-11-15,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,0,draw,Moscow,Russia,FALSE,1790,1626,1777,1639,-13
@@ -200,7 +200,7 @@ WC-2002,WC-2002_045,45,2002-06-14,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Belg
 ,,,2010-08-11,Friendly,played,Russia,RUS,RUS,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Saint Petersburg,Russia,FALSE,1847,1725,1851,1721,4
 ,,,2010-09-03,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Andorra,,,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1851,1022,1852,1021,1
 ,,,2010-09-07,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,0,1,loss,Moscow,Russia,FALSE,1852,1686,1819,1719,-33
-,,,2010-10-08,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,2,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2010-10-08,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,2,win,Dublin,Republic of Ireland,FALSE,1819,1773,1842,1750,23
 ,,,2010-10-12,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,North Macedonia,,,,FALSE,1,0,win,Skopje,North Macedonia,FALSE,1842,1580,1853,1569,11
 ,,,2010-11-17,Friendly,played,Russia,RUS,RUS,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,2,loss,Voronezh,Russia,FALSE,1853,1592,1826,1619,-27
 ,,,2011-02-09,Friendly,played,Russia,RUS,RUS,UEFA,Iran,IRN,IRN,AFC,FALSE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,1826,1719,1813,1732,-13
@@ -210,7 +210,7 @@ WC-2002,WC-2002_045,45,2002-06-14,FIFA World Cup,played,Russia,RUS,RUS,UEFA,Belg
 ,,,2011-06-07,Friendly,played,Russia,RUS,RUS,UEFA,Cameroon,CMR,CMR,CAF,TRUE,0,0,draw,Salzburg,Austria,TRUE,1800,1633,1796,1637,-4
 ,,,2011-08-10,Friendly,played,Russia,RUS,RUS,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,0,win,Moscow,Russia,FALSE,1796,1752,1802,1746,6
 ,,,2011-09-02,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,North Macedonia,,,,TRUE,1,0,win,Moscow,Russia,FALSE,1802,1537,1806,1533,4
-,,,2011-09-06,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Moscow,Russia,FALSE,,,,,
+,,,2011-09-06,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Moscow,Russia,FALSE,1806,1787,1799,1794,-7
 ,,,2011-10-07,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,0,win,Žilina,Slovakia,FALSE,1799,1591,1813,1577,14
 ,,,2011-10-11,UEFA Euro qualification,played,Russia,RUS,RUS,UEFA,Andorra,,,,TRUE,6,0,win,Moscow,Russia,FALSE,1813,998,1813,998,0
 ,,,2011-11-11,Friendly,played,Russia,RUS,RUS,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,1,draw,Piraeus,Greece,FALSE,1813,1806,1816,1803,3

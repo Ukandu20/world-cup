@@ -53,12 +53,12 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1972-02-26,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,Togo,TGO,TGO,CAF,TRUE,2,0,win,Yaoundé,Cameroon,FALSE,1578,1529,1600,1507,22
 ,,,1972-02-28,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,Mali,,,,TRUE,1,1,draw,Yaoundé,Cameroon,FALSE,1600,1578,1592,1586,-8
 ,,,1972-03-02,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,Congo,,,,TRUE,0,1,loss,Yaoundé,Cameroon,FALSE,1592,1639,1563,1668,-29
-,,,1972-03-04,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,5,2,win,Yaoundé,Cameroon,FALSE,,,,,
-,,,1973-02-04,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,0,1,loss,Douala,Cameroon,FALSE,,,,,
-,,,1973-02-25,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,1,0,win,Kinshasa,Zaïre,FALSE,,,,,
-,,,1973-02-27,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,0,2,loss,Kinshasa,Zaïre,FALSE,,,,,
-,,,1973-05-27,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,2,1,win,Yaoundé,Cameroon,FALSE,,,,,
-,,,1973-06-14,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,0,2,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1972-03-04,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,5,2,win,Yaoundé,Cameroon,FALSE,1563,1712,1613,1662,50
+,,,1973-02-04,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,0,1,loss,Douala,Cameroon,FALSE,1621,1679,1599,1701,-22
+,,,1973-02-25,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,1,0,win,Kinshasa,Zaïre,FALSE,1599,1701,1629,1671,30
+,,,1973-02-27,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,0,2,loss,Kinshasa,Zaïre,FALSE,1629,1671,1611,1689,-18
+,,,1973-05-27,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,2,1,win,Yaoundé,Cameroon,FALSE,1611,1711,1631,1691,20
+,,,1973-06-14,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,0,2,loss,Kinshasa,Zaïre,FALSE,1631,1691,1614,1708,-17
 ,,,1974-12-29,Friendly,played,Cameroon,CMR,CMR,CAF,Guinea,,,,TRUE,1,1,draw,Yaoundé,Cameroon,FALSE,1614,1601,1611,1604,-3
 ,,,1975-01-01,Friendly,played,Cameroon,CMR,CMR,CAF,Guinea,,,,TRUE,1,0,win,Yaoundé,Cameroon,FALSE,1611,1604,1618,1597,7
 ,,,1975-01-22,Friendly,played,Cameroon,CMR,CMR,CAF,Nigeria,NGA,NGA,CAF,FALSE,0,1,loss,Lagos,Nigeria,FALSE,1618,1614,1611,1621,-7
@@ -67,8 +67,8 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1975-02-02,Friendly,played,Cameroon,CMR,CMR,CAF,Mali,,,,FALSE,2,1,win,Bamako,Mali,FALSE,1577,1530,1589,1518,12
 ,,,1975-04-13,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Togo,TGO,TGO,CAF,TRUE,3,0,win,Douala,Cameroon,FALSE,1589,1467,1604,1452,15
 ,,,1975-04-20,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Togo,TGO,TGO,CAF,FALSE,0,4,loss,Lomé,Togo,FALSE,1604,1437,1559,1482,-45
-,,,1975-11-19,Friendly,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,2,1,win,Yaoundé,Cameroon,FALSE,,,,,
-,,,1975-11-22,Friendly,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,2,2,draw,Yaoundé,Cameroon,FALSE,,,,,
+,,,1975-11-19,Friendly,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,2,1,win,Yaoundé,Cameroon,FALSE,1578,1711,1589,1700,11
+,,,1975-11-22,Friendly,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,2,2,draw,Yaoundé,Cameroon,FALSE,1589,1700,1589,1700,0
 ,,,1976-07-05,Friendly,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,2,1,win,Libreville,Gabon,TRUE,,,,,
 ,,,1976-10-17,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,Congo,,,,FALSE,2,2,draw,Brazzaville,Congo,FALSE,1619,1546,1621,1544,2
 ,,,1976-10-31,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,Congo,,,,TRUE,1,2,loss,Yaoundé,Cameroon,FALSE,1621,1544,1592,1573,-29
@@ -91,9 +91,9 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1980-11-16,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,Zimbabwe,,,,FALSE,0,1,loss,Harare,Zimbabwe,FALSE,1598,1483,1577,1504,-21
 ,,,1981-04-01,Friendly,played,Cameroon,CMR,CMR,CAF,Niger,,,,TRUE,2,0,win,Yaoundé,Cameroon,FALSE,1577,1193,1579,1191,2
 ,,,1981-04-05,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Togo,TGO,TGO,CAF,TRUE,4,0,win,Douala,Cameroon,FALSE,1579,1433,1594,1418,15
-,,,1981-04-12,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,0,1,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1981-04-12,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,0,1,loss,Kinshasa,Zaïre,FALSE,1594,1580,1579,1595,-15
 ,,,1981-04-19,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Togo,TGO,TGO,CAF,FALSE,2,2,draw,Lomé,Togo,FALSE,1579,1429,1576,1432,-3
-,,,1981-04-26,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,6,1,win,Douala,Cameroon,FALSE,,,,,
+,,,1981-04-26,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,6,1,win,Douala,Cameroon,FALSE,1576,1586,1606,1556,30
 ,,,1981-08-16,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Madagascar,,,,TRUE,5,1,win,Yaoundé,Cameroon,FALSE,1606,1436,1619,1423,13
 ,,,1981-08-30,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Madagascar,,,,FALSE,1,2,loss,Antananarivo,Madagascar,FALSE,1568,1423,1545,1446,-23
 ,,,1981-11-08,Friendly,played,Cameroon,CMR,CMR,CAF,Tunisia,TUN,TUN,CAF,FALSE,1,1,draw,Tunis,Tunisia,FALSE,1545,1655,1550,1650,5
@@ -220,7 +220,7 @@ WC-1990,WC-1990_047,47,1990-07-01,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Eng
 ,,,1991-09-30,Friendly,played,Cameroon,CMR,CMR,CAF,Tunisia,TUN,TUN,CAF,TRUE,1,0,win,Cairo,Egypt,TRUE,,,,,
 ,,,1991-12-25,Friendly,played,Cameroon,CMR,CMR,CAF,Tunisia,TUN,TUN,CAF,FALSE,2,2,draw,Tunis,Tunisia,FALSE,1674,1527,1673,1528,-1
 ,,,1992-01-12,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,Morocco,MAR,MAR,CAF,TRUE,1,0,win,Dakar,Senegal,TRUE,1673,1594,1692,1575,19
-,,,1992-01-16,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,1,1,draw,Dakar,Senegal,TRUE,,,,,
+,,,1992-01-16,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,1,1,draw,Dakar,Senegal,TRUE,1692,1560,1683,1569,-9
 ,,,1992-01-19,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,Senegal,SEN,SEN,CAF,FALSE,1,0,win,Dakar,Senegal,FALSE,1683,1543,1705,1521,22
 ,,,1992-01-23,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,0,0,draw,Dakar,Senegal,TRUE,1705,1722,1706,1721,1
 ,,,1992-01-25,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,Nigeria,NGA,NGA,CAF,TRUE,1,2,loss,Dakar,Senegal,TRUE,1706,1635,1676,1665,-30
@@ -234,13 +234,13 @@ WC-1990,WC-1990_047,47,1990-07-01,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Eng
 ,,,1992-10-04,Friendly,played,Cameroon,CMR,CMR,CAF,Iran,IRN,IRN,AFC,FALSE,0,0,draw,Tehran,Iran,FALSE,1658,1644,1660,1642,2
 ,,,1992-10-06,Friendly,played,Cameroon,CMR,CMR,CAF,Saudi Arabia,KSA,SAU,AFC,FALSE,1,2,loss,Riyadh,Saudi Arabia,FALSE,1660,1592,1651,1601,-9
 ,,,1992-10-18,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,Eswatini,,,,TRUE,5,0,win,Yaoundé,Cameroon,FALSE,1651,1173,1654,1170,3
-,,,1993-01-10,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,2,1,win,Kinshasa,Zaïre,FALSE,,,,,
+,,,1993-01-10,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,2,1,win,Kinshasa,Zaïre,FALSE,1654,1560,1674,1540,20
 ,,,1993-01-17,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,Eswatini,,,,FALSE,0,0,draw,Mbabane,Swaziland,FALSE,1674,1205,1658,1221,-16
 ,,,1993-01-22,Nehru Cup,played,Cameroon,CMR,CMR,CAF,Finland,,,,TRUE,0,0,draw,Madras,India,TRUE,1658,1560,1653,1565,-5
 ,,,1993-01-24,Nehru Cup,played,Cameroon,CMR,CMR,CAF,India,,,,FALSE,1,1,draw,Madras,India,FALSE,1653,1156,1637,1172,-16
 ,,,1993-01-28,Nehru Cup,played,Cameroon,CMR,CMR,CAF,Finland,,,,TRUE,2,0,win,Madras,India,TRUE,1637,1574,1662,1549,25
 ,,,1993-01-30,Nehru Cup,played,Cameroon,CMR,CMR,CAF,India,,,,FALSE,2,2,draw,Madras,India,FALSE,1662,1163,1646,1179,-16
-,,,1993-03-01,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,0,0,draw,Yaoundé,Cameroon,FALSE,,,,,
+,,,1993-03-01,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,0,0,draw,Yaoundé,Cameroon,FALSE,1646,1540,1635,1551,-11
 ,,,1993-04-11,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Niger,,,,FALSE,0,0,draw,Niamey,Niger,FALSE,1635,1336,1625,1346,-10
 ,,,1993-04-18,FIFA World Cup qualification,played,Cameroon,CMR,CMR,CAF,Guinea,,,,TRUE,3,1,win,Yaoundé,Cameroon,FALSE,1625,1412,1633,1404,8
 ,,,1993-04-25,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Gabon,,,,TRUE,0,0,draw,Yaoundé,Cameroon,FALSE,1633,1449,1620,1462,-13
@@ -258,7 +258,7 @@ WC-1990,WC-1990_047,47,1990-07-01,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Eng
 WC-1994,WC-1994_007,7,1994-06-19,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Sweden,SWE,SWE,UEFA,TRUE,2,2,draw,Pasadena,United States,TRUE,1685,1905,1702,1888,17
 WC-1994,WC-1994_018,18,1994-06-24,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Brazil,BRA,BRA,CONMEBOL,FALSE,0,3,loss,Palo Alto,United States,TRUE,1702,1997,1686,2013,-16
 WC-1994,WC-1994_032,32,1994-06-28,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Russia,RUS,RUS,UEFA,FALSE,1,6,loss,Palo Alto,United States,TRUE,1686,1796,1644,1838,-42
-,,,1994-10-16,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,1,0,win,Douala,Cameroon,FALSE,,,,,
+,,,1994-10-16,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,TRUE,1,0,win,Douala,Cameroon,FALSE,1644,1480,1651,1473,7
 ,,,1994-11-07,Friendly,played,Cameroon,CMR,CMR,CAF,Morocco,MAR,MAR,CAF,FALSE,1,1,draw,Casablanca,Morocco,FALSE,1651,1581,1652,1580,1
 ,,,1994-11-26,Simba Tournament,played,Cameroon,CMR,CMR,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,1,2,loss,Pretoria,South Africa,TRUE,1598,1649,1585,1662,-13
 ,,,1994-11-30,Simba Tournament,played,Cameroon,CMR,CMR,CAF,Ghana,GHA,GHA,CAF,TRUE,0,1,loss,Port Elizabeth,South Africa,TRUE,1585,1631,1572,1644,-13
@@ -266,7 +266,7 @@ WC-1994,WC-1994_032,32,1994-06-28,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Rus
 ,,,1994-12-18,Friendly,played,Cameroon,CMR,CMR,CAF,Togo,TGO,TGO,CAF,TRUE,1,1,draw,Douala,Cameroon,FALSE,1579,1352,1572,1359,-7
 ,,,1995-01-08,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Malawi,,,,TRUE,0,0,draw,Yaoundé,Cameroon,FALSE,1572,1435,1560,1447,-12
 ,,,1995-01-22,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Zimbabwe,,,,FALSE,1,4,loss,Harare,Zimbabwe,FALSE,1560,1522,1531,1551,-29
-,,,1995-04-23,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,1,2,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1995-04-23,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,DR Congo,,,,FALSE,1,2,loss,Kinshasa,Zaïre,FALSE,1531,1494,1515,1510,-16
 ,,,1995-07-16,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Malawi,,,,FALSE,3,1,win,Blantyre,Malawi,FALSE,1520,1452,1553,1419,33
 ,,,1995-07-30,African Cup of Nations qualification,played,Cameroon,CMR,CMR,CAF,Zimbabwe,,,,TRUE,1,0,win,Yaoundé,Cameroon,FALSE,1553,1502,1565,1490,12
 ,,,1995-11-26,Friendly,played,Cameroon,CMR,CMR,CAF,Gabon,,,,FALSE,2,1,win,Libreville,Gabon,FALSE,1565,1466,1580,1451,15
@@ -354,7 +354,7 @@ WC-1998,WC-1998_034,34,1998-06-23,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Chi
 ,,,2002-04-17,Friendly,played,Cameroon,CMR,CMR,CAF,Austria,AUT,AUT,UEFA,FALSE,0,0,draw,Vienna,Austria,FALSE,1807,1684,1806,1685,-1
 ,,,2002-05-17,Friendly,played,Cameroon,CMR,CMR,CAF,Denmark,DNK,DNK,UEFA,FALSE,1,2,loss,Copenhagen,Denmark,FALSE,1806,1851,1800,1857,-6
 ,,,2002-05-26,Friendly,played,Cameroon,CMR,CMR,CAF,England,ENG,ENG,UEFA,TRUE,2,2,draw,Kobe,Japan,TRUE,1800,1928,1804,1924,4
-WC-2002,WC-2002_003,3,2002-06-01,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Niigata,Japan,TRUE,,,,,
+WC-2002,WC-2002_003,3,2002-06-01,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Niigata,Japan,TRUE,1804,1873,1810,1867,6
 WC-2002,WC-2002_018,18,2002-06-06,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Saudi Arabia,KSA,SAU,AFC,TRUE,1,0,win,Saitama,Japan,TRUE,1810,1658,1828,1640,18
 WC-2002,WC-2002_033,33,2002-06-11,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Fukuroi,Japan,TRUE,1828,1904,1793,1939,-35
 ,,,2003-02-11,Friendly,played,Cameroon,CMR,CMR,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,0,3,loss,Châteauroux,France,TRUE,1793,1556,1765,1584,-28
@@ -614,4 +614,4 @@ WC-2022,WC-2022_046,46,2022-12-02,FIFA World Cup,played,Cameroon,CMR,CMR,CAF,Bra
 ,,,2026-01-04,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,South Africa,ZAF,ZAF,CAF,FALSE,2,1,win,Rabat,Morocco,TRUE,1594,1550,1616,1528,22
 ,,,2026-01-09,African Cup of Nations,played,Cameroon,CMR,CMR,CAF,Morocco,MAR,MAR,CAF,FALSE,0,2,loss,Rabat,Morocco,FALSE,1616,1842,1606,1852,-10
 ,,,2026-03-27,FIFA Series,played,Cameroon,CMR,CMR,CAF,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Sydney,Australia,FALSE,1606,1774,1601,1779,-5
-,,,2026-03-31,FIFA Series,played,Cameroon,CMR,CMR,CAF,China PR,,,,TRUE,2,0,win,Melbourne,Australia,TRUE,,,,,
+,,,2026-03-31,FIFA Series,played,Cameroon,CMR,CMR,CAF,China PR,,,,TRUE,2,0,win,Melbourne,Australia,TRUE,1601,1436,1614,1423,13

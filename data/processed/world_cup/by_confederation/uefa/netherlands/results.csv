@@ -58,7 +58,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1924-04-21,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Amsterdam,Netherlands,FALSE,1819,1672,1803,1688,-16
 ,,,1924-04-27,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Antwerp,Belgium,FALSE,1803,1874,1810,1867,7
 ,,,1924-05-27,Olympic Games,played,Netherlands,NED,NLD,UEFA,Romania,ROU,ROU,UEFA,TRUE,6,0,win,Colombes,France,TRUE,1810,1584,1837,1557,27
-,,,1924-06-02,Olympic Games,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Paris,France,TRUE,,,,,
+,,,1924-06-02,Olympic Games,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Paris,France,TRUE,1837,1597,1849,1585,12
 ,,,1924-06-06,Olympic Games,played,Netherlands,NED,NLD,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,1,2,loss,Colombes,France,TRUE,1849,2029,1833,2045,-16
 ,,,1924-06-08,Olympic Games,played,Netherlands,NED,NLD,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Colombes,France,TRUE,1833,1806,1831,1808,-2
 ,,,1924-06-09,Olympic Games,played,Netherlands,NED,NLD,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Colombes,France,TRUE,1831,1808,1783,1856,-48
@@ -107,7 +107,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1931-11-29,Friendly,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,FALSE,4,3,win,Colombes,France,FALSE,1632,1611,1644,1599,12
 ,,,1932-03-20,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,4,1,win,Antwerp,Belgium,FALSE,1630,1630,1664,1596,34
 ,,,1932-04-17,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,1,win,Amsterdam,Netherlands,FALSE,1664,1596,1670,1590,6
-,,,1932-05-08,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Amsterdam,Netherlands,FALSE,,,,,
+,,,1932-05-08,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Amsterdam,Netherlands,FALSE,1670,1654,1650,1674,-20
 ,,,1932-05-29,Friendly,played,Netherlands,NED,NLD,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,2,loss,Amsterdam,Netherlands,FALSE,1650,1815,1642,1823,-8
 ,,,1932-12-04,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,0,win,Düsseldorf,Germany,FALSE,1654,1794,1678,1770,24
 ,,,1933-01-22,Friendly,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,2,loss,Amsterdam,Netherlands,FALSE,1678,1637,1657,1658,-21
@@ -116,7 +116,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1933-05-07,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,2,loss,Amsterdam,Netherlands,FALSE,1665,1566,1650,1581,-15
 ,,,1933-12-10,Friendly,played,Netherlands,NED,NLD,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,1,loss,Amsterdam,Netherlands,FALSE,1662,1996,1658,2000,-4
 ,,,1934-03-11,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,9,3,win,Amsterdam,Netherlands,FALSE,1658,1585,1669,1574,11
-,,,1934-04-08,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,5,2,win,Amsterdam,Netherlands,FALSE,,,,,
+,,,1934-04-08,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,5,2,win,Amsterdam,Netherlands,FALSE,1669,1664,1694,1639,25
 ,,,1934-04-29,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,4,2,win,Antwerp,Belgium,FALSE,1694,1574,1722,1546,28
 ,,,1934-05-10,Friendly,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,TRUE,4,5,loss,Amsterdam,Netherlands,FALSE,1722,1611,1707,1626,-15
 WC-1934,WC-1934_008,8,1934-05-27,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,3,loss,Milan,Italy,TRUE,1707,1615,1669,1653,-38
@@ -126,7 +126,7 @@ WC-1934,WC-1934_008,8,1934-05-27,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,
 ,,,1935-05-12,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,0,win,Brussels,Belgium,FALSE,1686,1516,1698,1504,12
 ,,,1935-05-18,Friendly,played,Netherlands,NED,NLD,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Amsterdam,Netherlands,FALSE,1698,1999,1693,2004,-5
 ,,,1935-11-03,Friendly,played,Netherlands,NED,NLD,UEFA,Denmark,DNK,DNK,UEFA,TRUE,3,0,win,Amsterdam,Netherlands,FALSE,1684,1694,1697,1681,13
-,,,1935-12-08,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,5,3,win,Dublin,Irish Free State,FALSE,,,,,
+,,,1935-12-08,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,5,3,win,Dublin,Irish Free State,FALSE,1697,1621,1713,1605,16
 ,,,1936-01-12,Friendly,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,FALSE,6,1,win,Paris,France,FALSE,1713,1648,1735,1626,22
 ,,,1936-03-29,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,8,0,win,Amsterdam,Netherlands,FALSE,1735,1509,1741,1503,6
 ,,,1936-05-03,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Brussels,Belgium,FALSE,1741,1503,1737,1507,-4
@@ -201,21 +201,21 @@ WC-1938,WC-1938_004,4,1938-06-05,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,
 ,,,1954-10-24,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,4,loss,Antwerp,Belgium,FALSE,1556,1775,1553,1778,-3
 ,,,1955-03-13,Friendly,played,Netherlands,NED,NLD,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,1,draw,Amsterdam,Netherlands,FALSE,1553,1651,1553,1651,0
 ,,,1955-04-03,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Amsterdam,Netherlands,FALSE,1553,1776,1566,1763,13
-,,,1955-05-01,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1955-05-01,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1566,1646,1561,1651,-5
 ,,,1955-05-19,Friendly,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,1,win,Rotterdam,Netherlands,FALSE,1561,1709,1581,1689,20
 ,,,1955-10-16,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,2,draw,Rotterdam,Netherlands,FALSE,1581,1719,1582,1718,1
 ,,,1955-11-06,Friendly,played,Netherlands,NED,NLD,UEFA,Norway,NOR,NOR,UEFA,TRUE,3,0,win,Amsterdam,Netherlands,FALSE,1582,1633,1597,1618,15
 ,,,1955-11-16,Friendly,played,Netherlands,NED,NLD,UEFA,Saarland,,,,FALSE,2,1,win,Saarbrücken,Saarland,FALSE,,,,,
-,,,1956-03-14,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Düsseldorf,Germany,FALSE,,,,,
+,,,1956-03-14,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Düsseldorf,Germany,FALSE,1609,1988,1628,1969,19
 ,,,1956-04-08,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,0,win,Antwerp,Belgium,FALSE,1628,1708,1643,1693,15
-,,,1956-05-10,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,4,loss,Rotterdam,Netherlands,FALSE,,,,,
+,,,1956-05-10,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,4,loss,Rotterdam,Netherlands,FALSE,1643,1663,1622,1684,-21
 ,,,1956-06-06,Friendly,played,Netherlands,NED,NLD,UEFA,Saarland,,,,TRUE,3,2,win,Amsterdam,Netherlands,FALSE,,,,,
 ,,,1956-09-15,Friendly,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,2,win,Lausanne,Switzerland,FALSE,1628,1655,1642,1641,14
 ,,,1956-10-14,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,2,win,Antwerp,Belgium,FALSE,1642,1710,1656,1696,14
 ,,,1956-11-04,Friendly,played,Netherlands,NED,NLD,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,2,draw,Copenhagen,Denmark,FALSE,1656,1626,1658,1624,2
 ,,,1957-01-30,Friendly,played,Netherlands,NED,NLD,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,5,loss,Madrid,Spain,FALSE,1658,1812,1651,1819,-7
 ,,,1957-03-20,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Luxembourg,,,,TRUE,4,1,win,Rotterdam,Netherlands,FALSE,1651,1284,1655,1280,4
-,,,1957-04-03,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Amsterdam,Netherlands,FALSE,,,,,
+,,,1957-04-03,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Amsterdam,Netherlands,FALSE,1655,1907,1649,1913,-6
 ,,,1957-04-28,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,1,draw,Amsterdam,Netherlands,FALSE,1649,1660,1646,1663,-3
 ,,,1957-05-26,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,3,loss,Vienna,Austria,FALSE,1646,1896,1641,1901,-5
 ,,,1957-09-11,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Luxembourg,,,,TRUE,5,2,win,Rotterdam,Netherlands,FALSE,1641,1280,1646,1275,5
@@ -234,7 +234,7 @@ WC-1938,WC-1938_004,4,1938-06-05,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,
 ,,,1959-05-13,Friendly,played,Netherlands,NED,NLD,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,3,loss,Sofia,Bulgaria,FALSE,1722,1697,1714,1705,-8
 ,,,1959-05-27,Friendly,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,2,loss,Amsterdam,Netherlands,FALSE,1714,1810,1704,1820,-10
 ,,,1959-10-04,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,9,1,win,Rotterdam,Netherlands,FALSE,1711,1643,1724,1630,13
-,,,1959-10-21,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,0,7,loss,Cologne,Germany,FALSE,,,,,
+,,,1959-10-21,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,0,7,loss,Cologne,Germany,FALSE,1724,1864,1715,1873,-9
 ,,,1959-11-04,Friendly,played,Netherlands,NED,NLD,UEFA,Norway,NOR,NOR,UEFA,TRUE,7,1,win,Rotterdam,Netherlands,FALSE,1715,1512,1721,1506,6
 ,,,1960-04-03,Friendly,played,Netherlands,NED,NLD,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,4,2,win,Amsterdam,Netherlands,FALSE,1721,1703,1731,1693,10
 ,,,1960-04-24,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,2,loss,Antwerp,Belgium,FALSE,1731,1652,1722,1661,-9
@@ -276,7 +276,7 @@ WC-1938,WC-1938_004,4,1938-06-05,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,
 ,,,1965-04-07,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,0,draw,Rotterdam,Netherlands,FALSE,1679,1622,1671,1630,-8
 ,,,1965-10-17,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,0,draw,Amsterdam,Netherlands,FALSE,1674,1612,1665,1621,-9
 ,,,1965-11-14,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,2,loss,Bern,Switzerland,FALSE,1665,1621,1648,1638,-17
-,,,1966-03-23,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,2,4,loss,Rotterdam,Netherlands,FALSE,,,,,
+,,,1966-03-23,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,2,4,loss,Rotterdam,Netherlands,FALSE,1648,1911,1640,1919,-8
 ,,,1966-04-17,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,3,1,win,Rotterdam,Netherlands,FALSE,1640,1762,1656,1746,16
 ,,,1966-05-11,Friendly,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,FALSE,3,0,win,Glasgow,Scotland,FALSE,1656,1841,1685,1812,29
 ,,,1966-09-07,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,2,draw,Rotterdam,Netherlands,FALSE,1685,1954,1694,1945,9
@@ -333,13 +333,13 @@ WC-1974,WC-1974_022,22,1974-06-23,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 WC-1974,WC-1974_027,27,1974-06-26,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,4,0,win,Gelsenkirchen,Germany,TRUE,1921,1898,1974,1845,53
 WC-1974,WC-1974_030,30,1974-06-30,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,German DR,DDR,DDR,UEFA,FALSE,2,0,win,Gelsenkirchen,Germany,TRUE,1974,1970,2018,1926,44
 WC-1974,WC-1974_035,35,1974-07-03,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,2,0,win,Dortmund,Germany,TRUE,2018,2127,2077,2068,59
-WC-1974,WC-1974_038,38,1974-07-07,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Munich,Germany,FALSE,,,,,
+WC-1974,WC-1974_038,38,1974-07-07,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Munich,Germany,FALSE,2077,2126,2059,2144,-18
 ,,,1974-09-04,Friendly,played,Netherlands,NED,NLD,UEFA,Sweden,SWE,SWE,UEFA,FALSE,5,1,win,Solna,Sweden,FALSE,2059,1915,2075,1899,16
 ,,,1974-09-25,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Finland,,,,FALSE,3,1,win,Helsinki,Finland,FALSE,2075,1422,2077,1420,2
 ,,,1974-10-09,Friendly,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Rotterdam,Netherlands,FALSE,2077,1698,2078,1697,1
 ,,,1974-11-20,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Italy,ITA,ITA,UEFA,TRUE,3,1,win,Rotterdam,Netherlands,FALSE,2078,1960,2091,1947,13
 ,,,1975-04-30,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Antwerp,Belgium,FALSE,2091,1905,2079,1917,-12
-,,,1975-05-17,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Frankfurt am Main,Germany,FALSE,,,,,
+,,,1975-05-17,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Frankfurt am Main,Germany,FALSE,2079,2100,2082,2097,3
 ,,,1975-09-03,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Finland,,,,TRUE,4,1,win,Nijmegen,Netherlands,FALSE,2060,1385,2061,1384,1
 ,,,1975-09-10,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Poland,POL,POL,UEFA,FALSE,1,4,loss,Chorzów,Poland,FALSE,2061,2052,2035,2078,-26
 ,,,1975-10-15,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Poland,POL,POL,UEFA,TRUE,3,0,win,Amsterdam,Netherlands,FALSE,2035,2081,2065,2051,30
@@ -363,13 +363,13 @@ WC-1978,WC-1978_007,7,1978-06-03,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,
 WC-1978,WC-1978_016,16,1978-06-07,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Peru,PER,PER,CONMEBOL,TRUE,0,0,draw,Mendoza,Argentina,TRUE,2109,1821,2089,1841,-20
 WC-1978,WC-1978_023,23,1978-06-11,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,3,loss,Mendoza,Argentina,TRUE,2089,1869,2042,1916,-47
 WC-1978,WC-1978_026,26,1978-06-14,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Austria,AUT,AUT,UEFA,FALSE,5,1,win,Córdoba,Argentina,TRUE,2042,1902,2077,1867,35
-WC-1978,WC-1978_031,31,1978-06-18,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,2,draw,Córdoba,Argentina,TRUE,,,,,
+WC-1978,WC-1978_031,31,1978-06-18,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,2,draw,Córdoba,Argentina,TRUE,2077,2071,2076,2072,-1
 WC-1978,WC-1978_036,36,1978-06-21,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,1,win,Buenos Aires,Argentina,TRUE,2076,2054,2104,2026,28
 WC-1978,WC-1978_038,38,1978-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,2104,1995,2058,2041,-46
 ,,,1978-09-20,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Iceland,ISL,ISL,UEFA,TRUE,3,0,win,Nijmegen,Netherlands,FALSE,2058,1398,2059,1397,1
 ,,,1978-10-11,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,1,win,Bern,Switzerland,FALSE,2059,1617,2066,1610,7
 ,,,1978-11-15,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,German DR,DDR,DDR,UEFA,TRUE,3,0,win,Rotterdam,Netherlands,FALSE,2066,1952,2082,1936,16
-,,,1978-12-20,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Düsseldorf,Germany,FALSE,,,,,
+,,,1978-12-20,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Düsseldorf,Germany,FALSE,2082,2026,2069,2039,-13
 ,,,1979-02-24,Friendly,played,Netherlands,NED,NLD,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,3,loss,Milan,Italy,FALSE,2069,1996,2053,2012,-16
 ,,,1979-03-28,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,3,0,win,Eindhoven,Netherlands,FALSE,2053,1605,2056,1602,3
 ,,,1979-05-02,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Poland,POL,POL,UEFA,FALSE,0,2,loss,Chorzów,Poland,FALSE,2056,1923,2023,1956,-33
@@ -381,10 +381,10 @@ WC-1978,WC-1978_038,38,1978-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,1980-01-23,Friendly,played,Netherlands,NED,NLD,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Vigo,Spain,FALSE,2042,1894,2031,1905,-11
 ,,,1980-03-26,Friendly,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Paris,France,FALSE,2031,1928,2031,1928,0
 ,,,1980-06-11,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,0,win,Naples,Italy,TRUE,2031,1674,2037,1668,6
-,,,1980-06-14,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,3,loss,Naples,Italy,TRUE,,,,,
+,,,1980-06-14,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,3,loss,Naples,Italy,TRUE,2037,2094,2016,2115,-21
 ,,,1980-06-17,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Milan,Italy,TRUE,2016,1914,2009,1921,-7
-,,,1980-09-10,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
-,,,1980-10-11,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Eindhoven,Netherlands,FALSE,,,,,
+,,,1980-09-10,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,2009,1725,1979,1755,-30
+,,,1980-10-11,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Eindhoven,Netherlands,FALSE,1979,2111,1980,2110,1
 ,,,1980-11-19,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Brussels,Belgium,FALSE,1980,1934,1963,1951,-17
 ,,,1980-12-30,Mundialito,played,Netherlands,NED,NLD,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,0,2,loss,Montevideo,Uruguay,FALSE,1963,1688,1919,1732,-44
 ,,,1981-01-06,Mundialito,played,Netherlands,NED,NLD,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Montevideo,Uruguay,TRUE,1919,1972,1922,1969,3
@@ -392,21 +392,21 @@ WC-1978,WC-1978_038,38,1978-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,1981-03-25,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,TRUE,1,0,win,Rotterdam,Netherlands,FALSE,1923,1919,1937,1905,14
 ,,,1981-04-29,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Cyprus,,,,FALSE,1,0,win,Nicosia,Cyprus,FALSE,1937,1258,1938,1257,1
 ,,,1981-09-01,Friendly,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,2,loss,Zürich,Switzerland,FALSE,1938,1630,1923,1645,-15
-,,,1981-09-09,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Rotterdam,Netherlands,FALSE,,,,,
+,,,1981-09-09,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Rotterdam,Netherlands,FALSE,1923,1744,1910,1757,-13
 ,,,1981-10-14,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,3,0,win,Rotterdam,Netherlands,FALSE,1910,1961,1940,1931,30
 ,,,1981-11-18,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Paris,France,FALSE,1940,1868,1912,1896,-28
 ,,,1982-03-23,Friendly,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1912,1837,1903,1846,-9
 ,,,1982-04-14,Friendly,played,Netherlands,NED,NLD,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,0,win,Eindhoven,Netherlands,FALSE,1903,1644,1905,1642,2
 ,,,1982-05-25,Friendly,played,Netherlands,NED,NLD,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,London,England,FALSE,1905,1937,1895,1947,-10
 ,,,1982-09-01,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Iceland,ISL,ISL,UEFA,FALSE,1,1,draw,Reykjavík,Iceland,FALSE,1895,1500,1881,1514,-14
-,,,1982-09-22,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Rotterdam,Netherlands,FALSE,,,,,
+,,,1982-09-22,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Rotterdam,Netherlands,FALSE,1881,1737,1889,1729,8
 ,,,1982-11-10,Friendly,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,TRUE,1,2,loss,Rotterdam,Netherlands,FALSE,1889,1910,1877,1922,-12
 ,,,1982-12-19,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Malta,,,,FALSE,6,0,win,Aachen,Germany,TRUE,1877,1409,1882,1404,5
 ,,,1983-02-16,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Seville,Spain,FALSE,1882,1838,1865,1855,-17
 ,,,1983-04-27,Friendly,played,Netherlands,NED,NLD,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,3,loss,Utrecht,Netherlands,FALSE,1865,1701,1836,1730,-29
 ,,,1983-09-07,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Iceland,ISL,ISL,UEFA,TRUE,3,0,win,Groningen,Netherlands,FALSE,1836,1495,1841,1490,5
 ,,,1983-09-21,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Brussels,Belgium,FALSE,1841,1939,1846,1934,5
-,,,1983-10-12,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,2,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1983-10-12,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,2,win,Dublin,Republic of Ireland,FALSE,1846,1753,1866,1733,20
 ,,,1983-11-16,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,1,win,Rotterdam,Netherlands,FALSE,1866,1884,1881,1869,15
 ,,,1983-12-17,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Malta,,,,TRUE,5,0,win,Rotterdam,Netherlands,FALSE,1881,1368,1883,1366,2
 ,,,1984-03-14,Friendly,played,Netherlands,NED,NLD,UEFA,Denmark,DNK,DNK,UEFA,TRUE,6,0,win,Amsterdam,Netherlands,FALSE,1883,1826,1895,1814,12
@@ -421,7 +421,7 @@ WC-1978,WC-1978_038,38,1978-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,1985-11-20,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,1,win,Rotterdam,Netherlands,FALSE,1859,1858,1873,1844,14
 ,,,1986-03-12,Friendly,played,Netherlands,NED,NLD,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,0,win,Leipzig,German DR,FALSE,1873,1918,1887,1904,14
 ,,,1986-04-29,Friendly,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Eindhoven,Netherlands,FALSE,1887,1872,1884,1875,-3
-,,,1986-05-14,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Dortmund,Germany,FALSE,,,,,
+,,,1986-05-14,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Dortmund,Germany,FALSE,1884,1931,1875,1940,-9
 ,,,1986-09-10,Friendly,played,Netherlands,NED,NLD,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,1,loss,Prague,Czechoslovakia,FALSE,1875,1849,1867,1857,-8
 ,,,1986-10-15,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,0,win,Budapest,Hungary,FALSE,1867,1826,1890,1803,23
 ,,,1986-11-19,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Amsterdam,Netherlands,FALSE,1890,1770,1879,1781,-11
@@ -440,15 +440,15 @@ WC-1978,WC-1978_038,38,1978-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,1988-06-01,Friendly,played,Netherlands,NED,NLD,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,0,win,Amsterdam,Netherlands,FALSE,1926,1854,1934,1846,8
 ,,,1988-06-12,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,1,loss,Cologne,Germany,TRUE,1934,1976,1912,1998,-22
 ,,,1988-06-15,UEFA Euro,played,Netherlands,NED,NLD,UEFA,England,ENG,ENG,UEFA,FALSE,3,1,win,Düsseldorf,Germany,TRUE,1912,1962,1955,1919,43
-,,,1988-06-18,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Gelsenkirchen,Germany,TRUE,,,,,
-,,,1988-06-21,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Hamburg,Germany,FALSE,,,,,
+,,,1988-06-18,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Gelsenkirchen,Germany,TRUE,1955,1877,1974,1858,19
+,,,1988-06-21,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Hamburg,Germany,FALSE,1974,1997,2007,1964,33
 ,,,1988-06-25,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,2,0,win,Munich,Germany,TRUE,2007,2054,2050,2011,43
 ,,,1988-09-14,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,0,win,Amsterdam,Netherlands,FALSE,2050,1801,2055,1796,5
-,,,1988-10-19,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Munich,Germany,FALSE,,,,,
+,,,1988-10-19,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Munich,Germany,FALSE,2055,1985,2057,1983,2
 ,,,1988-11-16,Friendly,played,Netherlands,NED,NLD,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,1,loss,Rome,Italy,FALSE,2057,1962,2047,1972,-10
 ,,,1989-01-04,Friendly,played,Netherlands,NED,NLD,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,0,win,Ramat Gan,Israel,FALSE,2047,1610,2051,1606,4
 ,,,1989-03-22,Friendly,played,Netherlands,NED,NLD,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,0,win,Eindhoven,Netherlands,FALSE,2051,2000,2060,1991,9
-,,,1989-04-26,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Rotterdam,Netherlands,FALSE,,,,,
+,,,1989-04-26,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Rotterdam,Netherlands,FALSE,2060,1990,2051,1999,-9
 ,,,1989-05-31,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Finland,,,,FALSE,1,0,win,Helsinki,Finland,FALSE,2051,1591,2055,1587,4
 ,,,1989-09-06,Friendly,played,Netherlands,NED,NLD,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,2,draw,Amsterdam,Netherlands,FALSE,2055,1904,2049,1910,-6
 ,,,1989-10-11,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,1,win,Wrexham,Wales,FALSE,2049,1750,2059,1740,10
@@ -460,8 +460,8 @@ WC-1978,WC-1978_038,38,1978-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,1990-06-03,Friendly,played,Netherlands,NED,NLD,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,0,win,Zagreb,Yugoslavia,FALSE,2018,1908,2033,1893,15
 WC-1990,WC-1990_011,11,1990-06-12,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Egypt,EGY,EGY,CAF,TRUE,1,1,draw,Palermo,Italy,TRUE,2033,1627,2008,1652,-25
 WC-1990,WC-1990_020,20,1990-06-16,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,England,ENG,ENG,UEFA,FALSE,0,0,draw,Cagliari,Italy,TRUE,2008,1940,2002,1946,-6
-WC-1990,WC-1990_035,35,1990-06-21,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Palermo,Italy,TRUE,,,,,
-WC-1990,WC-1990_040,40,1990-06-24,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Milan,Italy,TRUE,,,,,
+WC-1990,WC-1990_035,35,1990-06-21,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Palermo,Italy,TRUE,2002,1878,1992,1888,-10
+WC-1990,WC-1990_040,40,1990-06-24,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Milan,Italy,TRUE,1992,2018,1964,2046,-28
 ,,,1990-09-26,Friendly,played,Netherlands,NED,NLD,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,1,loss,Palermo,Italy,FALSE,1964,2033,1959,2038,-5
 ,,,1990-10-17,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Porto,Portugal,FALSE,1959,1779,1934,1804,-25
 ,,,1990-11-21,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,0,win,Rotterdam,Netherlands,FALSE,1934,1713,1942,1705,8
@@ -494,14 +494,14 @@ WC-1990,WC-1990_040,40,1990-06-24,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,1993-11-17,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Poland,POL,POL,UEFA,FALSE,3,1,win,Poznań,Poland,FALSE,1978,1708,1994,1692,16
 ,,,1994-01-19,Friendly,played,Netherlands,NED,NLD,UEFA,Tunisia,TUN,TUN,CAF,FALSE,2,2,draw,Tunis,Tunisia,FALSE,1994,1635,1988,1641,-6
 ,,,1994-03-23,Friendly,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,0,win,Glasgow,Scotland,FALSE,1988,1765,1995,1758,7
-,,,1994-04-20,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Tilburg,Netherlands,FALSE,,,,,
+,,,1994-04-20,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Tilburg,Netherlands,FALSE,1995,1840,1979,1856,-16
 ,,,1994-05-27,Friendly,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,1,win,Utrecht,Netherlands,FALSE,1979,1768,1983,1764,4
 ,,,1994-06-01,Friendly,played,Netherlands,NED,NLD,UEFA,Hungary,HUN,HUN,UEFA,TRUE,7,1,win,Eindhoven,Netherlands,FALSE,1983,1624,1986,1621,3
 ,,,1994-06-12,Friendly,played,Netherlands,NED,NLD,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,3,0,win,Toronto,Canada,FALSE,1986,1591,1991,1586,5
 WC-1994,WC-1994_010,10,1994-06-20,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,2,1,win,"Washington, D.C.",United States,TRUE,1991,1637,1998,1630,7
 WC-1994,WC-1994_022,22,1994-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Orlando,United States,TRUE,1998,1841,1955,1884,-43
 WC-1994,WC-1994_034,34,1994-06-29,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Morocco,MAR,MAR,CAF,FALSE,2,1,win,Orlando,United States,TRUE,1955,1617,1963,1609,8
-WC-1994,WC-1994_041,41,1994-07-04,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Orlando,United States,TRUE,,,,,
+WC-1994,WC-1994_041,41,1994-07-04,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Orlando,United States,TRUE,1963,1866,1996,1833,33
 WC-1994,WC-1994_046,46,1994-07-09,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,2,3,loss,Dallas,United States,TRUE,1996,2017,1968,2045,-28
 ,,,1994-09-07,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Luxembourg,,,,FALSE,4,0,win,Luxembourg,Luxembourg,FALSE,1968,1170,1969,1169,1
 ,,,1994-10-12,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1969,1860,1968,1861,-1
@@ -515,10 +515,10 @@ WC-1994,WC-1994_046,46,1994-07-09,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,1995-09-06,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Belarus,,,,TRUE,1,0,win,Rotterdam,Netherlands,FALSE,1867,1444,1869,1442,2
 ,,,1995-10-11,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Malta,,,,FALSE,4,0,win,Attard,Malta,FALSE,1869,1353,1875,1347,6
 ,,,1995-11-15,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Norway,NOR,NOR,UEFA,TRUE,3,0,win,Rotterdam,Netherlands,FALSE,1875,1849,1898,1826,23
-,,,1995-12-13,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Liverpool,England,TRUE,,,,,
+,,,1995-12-13,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Liverpool,England,TRUE,1898,1757,1916,1739,18
 ,,,1996-04-24,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Rotterdam,Netherlands,FALSE,1916,2048,1907,2057,-9
-,,,1996-05-29,Friendly,played,Netherlands,NED,NLD,UEFA,China PR,,,,TRUE,2,0,win,Tilburg,Netherlands,FALSE,,,,,
-,,,1996-06-04,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,Rotterdam,Netherlands,FALSE,,,,,
+,,,1996-05-29,Friendly,played,Netherlands,NED,NLD,UEFA,China PR,,,,TRUE,2,0,win,Tilburg,Netherlands,FALSE,1907,1613,1910,1610,3
+,,,1996-06-04,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,Rotterdam,Netherlands,FALSE,1910,1716,1915,1711,5
 ,,,1996-06-10,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,0,draw,Birmingham,England,TRUE,1915,1767,1905,1777,-10
 ,,,1996-06-13,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,0,win,Birmingham,England,TRUE,1905,1815,1933,1787,28
 ,,,1996-06-18,UEFA Euro,played,Netherlands,NED,NLD,UEFA,England,ENG,ENG,UEFA,FALSE,1,4,loss,London,England,FALSE,1933,1892,1897,1928,-36
@@ -542,7 +542,7 @@ WC-1994,WC-1994_046,46,1994-07-09,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 WC-1998,WC-1998_009,9,1998-06-13,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,0,draw,Saint-Denis,France,TRUE,1959,1822,1948,1833,-11
 WC-1998,WC-1998_027,27,1998-06-20,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,South Korea,KOR,KOR,AFC,TRUE,5,0,win,Marseille,France,TRUE,1948,1717,1973,1692,25
 WC-1998,WC-1998_043,43,1998-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,2,2,draw,Saint-Étienne,France,TRUE,1973,1876,1965,1884,-8
-WC-1998,WC-1998_054,54,1998-06-29,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,1,win,Toulouse,France,TRUE,,,,,
+WC-1998,WC-1998_054,54,1998-06-29,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,1,win,Toulouse,France,TRUE,1965,1994,1997,1962,32
 WC-1998,WC-1998_060,60,1998-07-04,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Marseille,France,TRUE,1997,1959,2024,1932,27
 WC-1998,WC-1998_061,61,1998-07-07,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,Marseille,France,TRUE,2024,2097,2030,2091,6
 WC-1998,WC-1998_063,63,1998-07-11,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,2,loss,Paris,France,TRUE,2030,1973,1995,2008,-35
@@ -566,9 +566,9 @@ WC-1998,WC-1998_063,63,1998-07-11,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,2000-06-11,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Czechia,CZE,CZE,UEFA,TRUE,1,0,win,Amsterdam,Netherlands,FALSE,1962,1944,1979,1927,17
 ,,,2000-06-16,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Denmark,DNK,DNK,UEFA,TRUE,3,0,win,Rotterdam,Netherlands,FALSE,1979,1807,1994,1792,15
 ,,,2000-06-21,UEFA Euro,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,TRUE,3,2,win,Amsterdam,Netherlands,FALSE,1994,2097,2019,2072,25
-,,,2000-06-25,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Serbia,SRB,SRB,UEFA,TRUE,6,1,win,Rotterdam,Netherlands,FALSE,,,,,
+,,,2000-06-25,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Serbia,SRB,SRB,UEFA,TRUE,6,1,win,Rotterdam,Netherlands,FALSE,2019,1929,2044,1904,25
 ,,,2000-06-29,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Amsterdam,Netherlands,FALSE,2044,2021,2036,2029,-8
-,,,2000-09-02,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Amsterdam,Netherlands,FALSE,,,,,
+,,,2000-09-02,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Amsterdam,Netherlands,FALSE,2036,1773,2020,1789,-16
 ,,,2000-10-07,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Cyprus,,,,FALSE,4,0,win,Nicosia,Cyprus,FALSE,2020,1554,2028,1546,8
 ,,,2000-10-11,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,2,loss,Rotterdam,Netherlands,FALSE,2028,1975,1986,2017,-42
 ,,,2000-11-15,Friendly,played,Netherlands,NED,NLD,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,1,win,Seville,Spain,FALSE,1986,1974,1998,1962,12
@@ -578,7 +578,7 @@ WC-1998,WC-1998_063,63,1998-07-11,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,2001-04-25,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Cyprus,,,,TRUE,4,0,win,Eindhoven,Netherlands,FALSE,1997,1510,1999,1508,2
 ,,,2001-06-02,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Estonia,,,,FALSE,4,2,win,Tallinn,Estonia,FALSE,1999,1395,2002,1392,3
 ,,,2001-08-15,Friendly,played,Netherlands,NED,NLD,UEFA,England,ENG,ENG,UEFA,FALSE,2,0,win,London,England,FALSE,2002,1916,2018,1900,16
-,,,2001-09-01,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2001-09-01,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,2018,1843,1994,1867,-24
 ,,,2001-09-05,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Estonia,,,,TRUE,5,0,win,Eindhoven,Netherlands,FALSE,1994,1349,1995,1348,1
 ,,,2001-10-06,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Andorra,,,,TRUE,4,0,win,Arnhem,Netherlands,FALSE,1995,1051,1995,1051,0
 ,,,2001-11-10,Friendly,played,Netherlands,NED,NLD,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1995,1848,1994,1849,-1
@@ -605,7 +605,7 @@ WC-1998,WC-1998_063,63,1998-07-11,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,2004-04-28,Friendly,played,Netherlands,NED,NLD,UEFA,Greece,GRC,GRC,UEFA,TRUE,4,0,win,Eindhoven,Netherlands,FALSE,1993,1811,1999,1805,6
 ,,,2004-05-29,Friendly,played,Netherlands,NED,NLD,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,1,loss,Eindhoven,Netherlands,FALSE,1999,1772,1982,1789,-17
 ,,,2004-06-01,Friendly,played,Netherlands,NED,NLD,UEFA,Faroe Islands,,,,TRUE,3,0,win,Lausanne,Switzerland,TRUE,1982,1238,1982,1238,0
-,,,2004-06-05,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Amsterdam,Netherlands,FALSE,,,,,
+,,,2004-06-05,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Amsterdam,Netherlands,FALSE,1982,1828,1966,1844,-16
 ,,,2004-06-15,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Porto,Portugal,TRUE,1966,1867,1959,1874,-7
 ,,,2004-06-19,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Czechia,CZE,CZE,UEFA,TRUE,2,3,loss,Aveiro,Portugal,TRUE,1959,1961,1934,1986,-25
 ,,,2004-06-23,UEFA Euro,played,Netherlands,NED,NLD,UEFA,Latvia,,,,TRUE,3,0,win,Braga,Portugal,TRUE,1934,1539,1942,1531,8
@@ -636,7 +636,7 @@ WC-2006,WC-2006_008,8,2006-06-11,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,
 WC-2006,WC-2006_023,23,2006-06-16,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Ivory Coast,CIV,CIV,CAF,TRUE,2,1,win,Stuttgart,Germany,TRUE,2009,1749,2020,1738,11
 WC-2006,WC-2006_039,39,2006-06-21,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,0,0,draw,Frankfurt am Main,Germany,TRUE,2020,1976,2016,1980,-4
 WC-2006,WC-2006_052,52,2006-06-25,FIFA World Cup,played,Netherlands,NED,NLD,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Nuremberg,Germany,TRUE,2016,1973,1982,2007,-34
-,,,2006-08-16,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,4,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2006-08-16,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,4,0,win,Dublin,Republic of Ireland,FALSE,1982,1823,1998,1807,16
 ,,,2006-09-02,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Luxembourg,,,,FALSE,1,0,win,Luxembourg,Luxembourg,FALSE,1998,979,1998,979,0
 ,,,2006-09-06,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Belarus,,,,TRUE,3,0,win,Eindhoven,Netherlands,FALSE,1998,1559,2001,1556,3
 ,,,2006-10-07,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,2001,1738,1992,1747,-9
@@ -725,7 +725,7 @@ WC-2010,WC-2010_064,64,2010-07-11,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,2013-03-22,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Estonia,,,,TRUE,3,0,win,Amsterdam,Netherlands,FALSE,1991,1490,1993,1488,2
 ,,,2013-03-26,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Romania,ROU,ROU,UEFA,TRUE,4,0,win,Amsterdam,Netherlands,FALSE,1993,1766,2003,1756,10
 ,,,2013-06-07,Friendly,played,Netherlands,NED,NLD,UEFA,Indonesia,IDN,IDN,AFC,FALSE,3,0,win,Jakarta,Indonesia,FALSE,2003,1218,2004,1217,1
-,,,2013-06-11,Friendly,played,Netherlands,NED,NLD,UEFA,China PR,,,,FALSE,2,0,win,Beijing,China PR,FALSE,,,,,
+,,,2013-06-11,Friendly,played,Netherlands,NED,NLD,UEFA,China PR,,,,FALSE,2,0,win,Beijing,China PR,FALSE,2004,1596,2008,1592,4
 ,,,2013-08-14,Friendly,played,Netherlands,NED,NLD,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,1,draw,Faro,Portugal,FALSE,2008,1911,2008,1911,0
 ,,,2013-09-06,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Estonia,,,,FALSE,2,2,draw,Tallinn,Estonia,FALSE,2008,1471,1991,1488,-17
 ,,,2013-09-10,FIFA World Cup qualification,played,Netherlands,NED,NLD,UEFA,Andorra,,,,FALSE,2,0,win,Sant Julià de Lòria,Andorra,FALSE,1991,996,1991,996,0
@@ -761,7 +761,7 @@ WC-2014,WC-2014_063,63,2014-07-12,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,2015-11-13,Friendly,played,Netherlands,NED,NLD,UEFA,Wales,WAL,WAL,UEFA,FALSE,3,2,win,Cardiff,Wales,FALSE,1890,1679,1897,1672,7
 ,,,2016-03-25,Friendly,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,TRUE,2,3,loss,Amsterdam,Netherlands,FALSE,1897,1953,1886,1964,-11
 ,,,2016-03-29,Friendly,played,Netherlands,NED,NLD,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,London,England,FALSE,1886,1973,1901,1958,15
-,,,2016-05-27,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2016-05-27,Friendly,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1901,1774,1900,1775,-1
 ,,,2016-06-01,Friendly,played,Netherlands,NED,NLD,UEFA,Poland,POL,POL,UEFA,FALSE,2,1,win,Gdańsk,Poland,FALSE,1900,1784,1910,1774,10
 ,,,2016-06-04,Friendly,played,Netherlands,NED,NLD,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,0,win,Vienna,Austria,FALSE,1910,1791,1924,1777,14
 ,,,2016-09-01,Friendly,played,Netherlands,NED,NLD,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,2,loss,Eindhoven,Netherlands,FALSE,1924,1615,1906,1633,-18
@@ -843,10 +843,10 @@ WC-2022,WC-2022_058,58,2022-12-09,FIFA World Cup,played,Netherlands,NED,NLD,UEFA
 ,,,2023-06-14,UEFA Nations League,played,Netherlands,NED,NLD,UEFA,Croatia,HRV,HRV,UEFA,TRUE,2,4,loss,Rotterdam,Netherlands,FALSE,2047,1956,1991,2012,-56
 ,,,2023-06-18,UEFA Nations League,played,Netherlands,NED,NLD,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,3,loss,Enschede,Netherlands,FALSE,1991,1925,1955,1961,-36
 ,,,2023-09-07,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Greece,GRC,GRC,UEFA,TRUE,3,0,win,Eindhoven,Netherlands,FALSE,1955,1694,1963,1686,8
-,,,2023-09-10,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2023-09-10,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,1963,1657,1972,1648,9
 ,,,2023-10-13,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,France,FRA,FRA,UEFA,TRUE,1,2,loss,Amsterdam,Netherlands,FALSE,1972,2103,1954,2121,-18
 ,,,2023-10-16,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,0,win,Athens,Greece,FALSE,1954,1722,1967,1709,13
-,,,2023-11-18,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Amsterdam,Netherlands,FALSE,,,,,
+,,,2023-11-18,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Amsterdam,Netherlands,FALSE,1967,1616,1970,1613,3
 ,,,2023-11-21,UEFA Euro qualification,played,Netherlands,NED,NLD,UEFA,Gibraltar,,,,FALSE,6,0,win,Faro-Loulé,Portugal,TRUE,1970,1057,1970,1057,0
 ,,,2024-03-22,Friendly,played,Netherlands,NED,NLD,UEFA,Scotland,SCO,SCO,UEFA,TRUE,4,0,win,Amsterdam,Netherlands,FALSE,1970,1800,1977,1793,7
 ,,,2024-03-26,Friendly,played,Netherlands,NED,NLD,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Frankfurt,Germany,FALSE,1977,1911,1968,1920,-9

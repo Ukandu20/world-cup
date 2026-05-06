@@ -190,7 +190,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1956-06-24,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,3,loss,Copenhagen,Denmark,FALSE,1646,1606,1625,1627,-21
 ,,,1956-07-01,Friendly,played,Denmark,DNK,DNK,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,5,loss,Copenhagen,Denmark,FALSE,1625,1774,1610,1789,-15
 ,,,1956-09-16,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Finland,,,,FALSE,4,0,win,Helsinki,Finland,FALSE,1610,1386,1628,1368,18
-,,,1956-10-03,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1956-10-03,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,2,loss,Dublin,Republic of Ireland,FALSE,1628,1684,1616,1696,-12
 ,,,1956-10-21,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Solna,Sweden,FALSE,1616,1785,1626,1775,10
 ,,,1956-11-04,Friendly,played,Denmark,DNK,DNK,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,2,draw,Copenhagen,Denmark,FALSE,1626,1656,1624,1658,-2
 ,,,1956-12-05,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,England,ENG,ENG,UEFA,FALSE,2,5,loss,Wolverhampton,England,FALSE,1624,2000,1620,2004,-4
@@ -202,14 +202,14 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1957-07-10,Friendly,played,Denmark,DNK,DNK,UEFA,Iceland,ISL,ISL,UEFA,FALSE,6,2,win,Reykjavík,Iceland,FALSE,1590,1314,1605,1299,15
 ,,,1957-07-12,Friendly,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,3,loss,Reykjavík,Iceland,TRUE,1605,1623,1584,1644,-21
 ,,,1957-09-22,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,2,draw,Oslo,Norway,FALSE,1584,1658,1591,1651,7
-,,,1957-10-02,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Copenhagen,Denmark,FALSE,,,,,
+,,,1957-10-02,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Copenhagen,Denmark,FALSE,1591,1723,1564,1750,-27
 ,,,1957-10-13,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Finland,,,,TRUE,3,0,win,Copenhagen,Denmark,FALSE,1564,1333,1571,1326,7
 ,,,1958-01-25,Friendly,played,Denmark,DNK,DNK,UEFA,Malta,,,,FALSE,0,3,loss,Gżira,Malta,FALSE,,,,,
 ,,,1958-05-15,Friendly,played,Denmark,DNK,DNK,UEFA,Curaçao,,,,TRUE,3,2,win,Aarhus,Denmark,FALSE,,,,,
 ,,,1958-05-25,Friendly,played,Denmark,DNK,DNK,UEFA,Poland,POL,POL,UEFA,TRUE,3,2,win,Copenhagen,Denmark,FALSE,1577,1597,1585,1589,8
 ,,,1958-06-29,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,2,loss,Copenhagen,Denmark,FALSE,1585,1606,1567,1624,-18
 ,,,1958-09-14,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Finland,,,,FALSE,4,1,win,Helsinki,Finland,FALSE,1567,1309,1582,1294,15
-,,,1958-09-24,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Copenhagen,Denmark,FALSE,,,,,
+,,,1958-09-24,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Copenhagen,Denmark,FALSE,1582,1882,1587,1877,5
 ,,,1958-10-15,Friendly,played,Denmark,DNK,DNK,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,5,loss,Rotterdam,Netherlands,FALSE,1587,1687,1578,1696,-9
 ,,,1958-10-26,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,FALSE,4,4,draw,Solna,Sweden,FALSE,1578,1916,1591,1903,13
 ,,,1959-06-21,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,6,loss,Copenhagen,Denmark,FALSE,1591,1907,1577,1921,-14
@@ -226,7 +226,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1961-05-28,Friendly,played,Denmark,DNK,DNK,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Copenhagen,Denmark,FALSE,1698,1528,1691,1535,-7
 ,,,1961-06-18,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,2,loss,Copenhagen,Denmark,FALSE,1691,1912,1681,1922,-10
 ,,,1961-09-17,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,FALSE,4,0,win,Oslo,Norway,FALSE,1681,1479,1701,1459,20
-,,,1961-09-20,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Düsseldorf,Germany,FALSE,,,,,
+,,,1961-09-20,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Düsseldorf,Germany,FALSE,1701,1867,1694,1874,-7
 ,,,1961-10-15,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Finland,,,,TRUE,9,1,win,Copenhagen,Denmark,FALSE,1694,1282,1698,1278,4
 ,,,1961-11-05,Friendly,played,Denmark,DNK,DNK,UEFA,Poland,POL,POL,UEFA,FALSE,0,5,loss,Chorzów,Poland,FALSE,1698,1666,1682,1682,-16
 ,,,1962-05-23,Friendly,played,Denmark,DNK,DNK,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,4,loss,Leipzig,German DR,FALSE,1682,1508,1661,1529,-21
@@ -288,18 +288,18 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1968-10-16,Friendly,played,Denmark,DNK,DNK,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Copenhagen,Denmark,FALSE,1627,1845,1620,1852,-7
 ,,,1968-10-20,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,1,loss,Bratislava,Czechoslovakia,FALSE,1620,1921,1616,1925,-4
 ,,,1968-11-20,Friendly,played,Denmark,DNK,DNK,UEFA,Luxembourg,,,,TRUE,5,1,win,Copenhagen,Denmark,FALSE,1616,1316,1619,1313,3
-,,,1968-12-04,Friendly,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1968-12-04,Friendly,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1619,1665,1627,1657,8
 ,,,1969-01-12,Friendly,played,Denmark,DNK,DNK,UEFA,Bermuda,,,,FALSE,5,1,win,Hamilton,Bermuda,FALSE,1627,1337,1636,1328,9
 ,,,1969-01-15,Friendly,played,Denmark,DNK,DNK,UEFA,Suriname,,,,FALSE,1,2,loss,Paramaribo,Dutch Guyana,FALSE,,,,,
 ,,,1969-01-22,Friendly,played,Denmark,DNK,DNK,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Mexico City,Mexico,FALSE,1626,1853,1621,1858,-5
 ,,,1969-05-06,Friendly,played,Denmark,DNK,DNK,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,3,1,win,Copenhagen,Denmark,FALSE,1621,1826,1640,1807,19
-,,,1969-05-27,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Copenhagen,Denmark,FALSE,,,,,
+,,,1969-05-27,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Copenhagen,Denmark,FALSE,1640,1645,1662,1623,22
 ,,,1969-06-15,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,2,win,Copenhagen,Denmark,FALSE,1662,2009,1694,1977,32
 ,,,1969-06-25,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,1,loss,Copenhagen,Denmark,FALSE,1694,1799,1679,1814,-15
 ,,,1969-07-01,Friendly,played,Denmark,DNK,DNK,UEFA,Bermuda,,,,TRUE,6,0,win,Aalborg,Denmark,FALSE,1679,1319,1682,1316,3
 ,,,1969-09-10,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Finland,,,,TRUE,5,2,win,Copenhagen,Denmark,FALSE,1682,1420,1688,1414,6
 ,,,1969-09-21,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,2,loss,Oslo,Norway,FALSE,1688,1503,1660,1531,-28
-,,,1969-10-15,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1969-10-15,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1660,1613,1663,1610,3
 ,,,1969-10-22,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,3,loss,Budapest,Hungary,FALSE,1663,1961,1657,1967,-6
 ,,,1970-05-19,Friendly,played,Denmark,DNK,DNK,UEFA,Poland,POL,POL,UEFA,TRUE,0,2,loss,Copenhagen,Denmark,FALSE,1657,1789,1643,1803,-14
 ,,,1970-06-03,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Finland,,,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1643,1409,1637,1415,-6
@@ -314,7 +314,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1971-05-26,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,2,loss,Copenhagen,Denmark,FALSE,1569,1810,1557,1822,-12
 ,,,1971-06-09,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1557,1750,1582,1725,25
 ,,,1971-06-20,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,3,loss,Copenhagen,Denmark,FALSE,1582,1853,1570,1865,-12
-,,,1971-06-30,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Copenhagen,Denmark,FALSE,,,,,
+,,,1971-06-30,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Copenhagen,Denmark,FALSE,1570,2039,1567,2042,-3
 ,,,1971-07-28,Friendly,played,Denmark,DNK,DNK,UEFA,Japan,JPN,JPN,AFC,TRUE,3,2,win,Copenhagen,Denmark,FALSE,1567,1577,1574,1570,7
 ,,,1971-09-08,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Finland,,,,TRUE,0,0,draw,Copenhagen,Denmark,FALSE,1574,1395,1564,1405,-10
 ,,,1971-09-26,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,FALSE,4,1,win,Oslo,Norway,FALSE,1564,1499,1593,1470,29
@@ -365,14 +365,14 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1977-10-05,Friendly,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,1,loss,Malmö,Sweden,FALSE,1669,1757,1664,1762,-5
 ,,,1977-10-09,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,4,loss,Copenhagen,Denmark,FALSE,1664,1831,1640,1855,-24
 ,,,1978-02-08,Friendly,played,Denmark,DNK,DNK,UEFA,Israel,ISR,ISR,UEFA,FALSE,0,2,loss,Jaffa,Israel,FALSE,1640,1701,1631,1710,-9
-,,,1978-05-24,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,3,draw,Copenhagen,Denmark,FALSE,,,,,
+,,,1978-05-24,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,3,draw,Copenhagen,Denmark,FALSE,1631,1718,1630,1719,-1
 ,,,1978-05-31,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,1,win,Oslo,Norway,FALSE,1630,1484,1643,1471,13
 ,,,1978-06-28,Friendly,played,Denmark,DNK,DNK,UEFA,Iceland,ISL,ISL,UEFA,FALSE,0,0,draw,Reykjavík,Iceland,FALSE,1643,1400,1639,1404,-4
 ,,,1978-08-16,Nordic Championship,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,1,win,Copenhagen,Denmark,FALSE,1639,1774,1656,1757,17
 ,,,1978-09-20,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,England,ENG,ENG,UEFA,TRUE,3,4,loss,Copenhagen,Denmark,FALSE,1656,1998,1648,2006,-8
 ,,,1978-10-11,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,2,draw,Copenhagen,Denmark,FALSE,1648,1751,1648,1751,0
 ,,,1978-10-25,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,2,loss,Belfast,Northern Ireland,FALSE,1648,1732,1638,1742,-10
-,,,1979-05-02,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1979-05-02,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,1638,1724,1623,1739,-15
 ,,,1979-05-09,Friendly,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,2,draw,Copenhagen,Denmark,FALSE,1623,1734,1623,1734,0
 ,,,1979-06-06,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,4,0,win,Copenhagen,Denmark,FALSE,1623,1758,1664,1717,41
 ,,,1979-06-27,Friendly,played,Denmark,DNK,DNK,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,2,loss,Copenhagen,Denmark,FALSE,1664,1934,1659,1939,-5
@@ -427,7 +427,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1984-09-12,Friendly,played,Denmark,DNK,DNK,UEFA,Austria,AUT,AUT,UEFA,TRUE,3,1,win,Copenhagen,Denmark,FALSE,1889,1814,1897,1806,8
 ,,,1984-09-26,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1897,1609,1901,1605,4
 ,,,1984-10-17,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,1,loss,Bern,Switzerland,FALSE,1901,1742,1878,1765,-23
-,,,1984-11-14,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Copenhagen,Denmark,FALSE,,,,,
+,,,1984-11-14,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Copenhagen,Denmark,FALSE,1878,1740,1892,1726,14
 ,,,1985-01-27,Friendly,played,Denmark,DNK,DNK,UEFA,Honduras,HND,HND,CONCACAF,FALSE,0,1,loss,Tegucigalpa,Honduras,FALSE,1892,1625,1878,1639,-14
 ,,,1985-05-08,Friendly,played,Denmark,DNK,DNK,UEFA,German DR,DDR,DDR,UEFA,TRUE,4,1,win,Copenhagen,Denmark,FALSE,1878,1804,1887,1795,9
 ,,,1985-06-05,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,4,2,win,Copenhagen,Denmark,FALSE,1887,2003,1918,1972,31
@@ -435,7 +435,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1985-09-25,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,1,loss,Moscow,Soviet Union,TRUE,1893,1984,1883,1994,-10
 ,,,1985-10-09,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,0,draw,Copenhagen,Denmark,FALSE,1883,1733,1871,1745,-12
 ,,,1985-10-16,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,FALSE,5,1,win,Oslo,Norway,FALSE,1871,1709,1902,1678,31
-,,,1985-11-13,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,4,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1985-11-13,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,4,1,win,Dublin,Republic of Ireland,FALSE,1902,1740,1931,1711,29
 ,,,1986-03-06,Friendly,played,Denmark,DNK,DNK,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,1,1,draw,Los Angeles,United States,TRUE,,,,,
 ,,,1986-03-26,Friendly,played,Denmark,DNK,DNK,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1931,1850,1932,1849,1
 ,,,1986-04-09,Friendly,played,Denmark,DNK,DNK,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,3,loss,Sofia,Bulgaria,FALSE,1932,1815,1914,1833,-18
@@ -443,24 +443,24 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1986-05-16,Friendly,played,Denmark,DNK,DNK,UEFA,Poland,POL,POL,UEFA,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1901,1810,1906,1805,5
 WC-1986,WC-1986_011,11,1986-06-04,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,0,win,Nezahualcóyotl,Mexico,TRUE,1893,1874,1921,1846,28
 WC-1986,WC-1986_022,22,1986-06-08,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,6,1,win,Nezahualcóyotl,Mexico,TRUE,1921,1841,1967,1795,46
-WC-1986,WC-1986_035,35,1986-06-13,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,2,0,win,Querétaro,Mexico,TRUE,,,,,
+WC-1986,WC-1986_035,35,1986-06-13,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,2,0,win,Querétaro,Mexico,TRUE,1967,1954,2010,1911,43
 WC-1986,WC-1986_043,43,1986-06-18,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,5,loss,Querétaro,Mexico,TRUE,2010,1918,1939,1989,-71
 ,,,1986-09-10,Friendly,played,Denmark,DNK,DNK,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,0,win,Leipzig,German DR,FALSE,1939,1842,1949,1832,10
-,,,1986-09-24,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Copenhagen,Denmark,FALSE,,,,,
+,,,1986-09-24,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Copenhagen,Denmark,FALSE,1949,1965,1930,1984,-19
 ,,,1986-10-29,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Finland,,,,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1930,1566,1933,1563,3
 ,,,1986-11-12,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,0,draw,Bratislava,Czechoslovakia,FALSE,1933,1864,1935,1862,2
 ,,,1987-04-29,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Finland,,,,FALSE,1,0,win,Helsinki,Finland,FALSE,1935,1550,1941,1544,6
 ,,,1987-06-03,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Copenhagen,Denmark,FALSE,1941,1859,1931,1869,-10
 ,,,1987-08-26,Friendly,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,1,loss,Solna,Sweden,FALSE,1931,1919,1923,1927,-8
 ,,,1987-09-09,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,1,loss,Cardiff,Wales,FALSE,1923,1809,1902,1830,-21
-,,,1987-09-23,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Hamburg,Germany,FALSE,,,,,
+,,,1987-09-23,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Hamburg,Germany,FALSE,1902,1977,1897,1982,-5
 ,,,1987-10-14,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1897,1830,1908,1819,11
 ,,,1988-04-27,Friendly,played,Denmark,DNK,DNK,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,1,loss,Vienna,Austria,FALSE,1908,1711,1895,1724,-13
 ,,,1988-05-10,Friendly,played,Denmark,DNK,DNK,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,2,draw,Budapest,Hungary,FALSE,1895,1786,1895,1786,0
 ,,,1988-06-01,Friendly,played,Denmark,DNK,DNK,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,1,loss,Copenhagen,Denmark,FALSE,1895,1827,1881,1841,-14
 ,,,1988-06-05,Friendly,played,Denmark,DNK,DNK,UEFA,Belgium,BEL,BEL,UEFA,TRUE,3,1,win,Odense,Denmark,FALSE,1881,1797,1889,1789,8
 ,,,1988-06-11,UEFA Euro,played,Denmark,DNK,DNK,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,3,loss,Hanover,Germany,TRUE,1889,1905,1865,1929,-24
-,,,1988-06-14,UEFA Euro,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Gelsenkirchen,Germany,FALSE,,,,,
+,,,1988-06-14,UEFA Euro,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Gelsenkirchen,Germany,FALSE,1865,1958,1846,1977,-19
 ,,,1988-06-17,UEFA Euro,played,Denmark,DNK,DNK,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,2,loss,Cologne,Germany,TRUE,1846,1970,1821,1995,-25
 ,,,1988-08-31,Friendly,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,1,win,Solna,Sweden,FALSE,1821,1969,1837,1953,16
 ,,,1988-09-14,Friendly,played,Denmark,DNK,DNK,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1837,1889,1831,1895,-6
@@ -485,7 +485,7 @@ WC-1986,WC-1986_043,43,1986-06-18,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Spa
 ,,,1990-02-14,Friendly,played,Denmark,DNK,DNK,UEFA,Egypt,EGY,EGY,CAF,FALSE,0,0,draw,Cairo,Egypt,FALSE,1898,1687,1895,1690,-3
 ,,,1990-04-11,Friendly,played,Denmark,DNK,DNK,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1895,1648,1897,1646,2
 ,,,1990-05-15,Friendly,played,Denmark,DNK,DNK,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1897,1961,1891,1967,-6
-,,,1990-05-30,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Gelsenkirchen,Germany,FALSE,,,,,
+,,,1990-05-30,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Gelsenkirchen,Germany,FALSE,1891,1990,1886,1995,-5
 ,,,1990-06-06,Friendly,played,Denmark,DNK,DNK,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,1,win,Trondheim,Norway,FALSE,1886,1668,1893,1661,7
 ,,,1990-09-05,Friendly,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,0,win,Västerås,Sweden,FALSE,1893,1839,1904,1828,11
 ,,,1990-09-11,Friendly,played,Denmark,DNK,DNK,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1904,1732,1907,1729,3
@@ -512,13 +512,13 @@ WC-1986,WC-1986_043,43,1986-06-18,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Spa
 ,,,1992-08-26,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Latvia,,,,FALSE,0,0,draw,Riga,Latvia,FALSE,1953,1337,1935,1355,-18
 ,,,1992-09-09,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Copenhagen,Denmark,FALSE,1935,1992,1924,2003,-11
 ,,,1992-09-23,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Lithuania,,,,FALSE,0,0,draw,Vilnius,Lithuania,FALSE,1924,1346,1906,1364,-18
-,,,1992-10-14,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Copenhagen,Denmark,FALSE,,,,,
+,,,1992-10-14,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Copenhagen,Denmark,FALSE,1906,1880,1899,1887,-7
 ,,,1992-11-18,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1899,1665,1912,1652,13
 ,,,1993-01-30,Friendly,played,Denmark,DNK,DNK,UEFA,United States,USA,USA,CONCACAF,FALSE,2,2,draw,Tempe,United States,FALSE,1912,1686,1909,1689,-3
 ,,,1993-02-24,CONMEBOL–UEFA Cup of Champions,played,Denmark,DNK,DNK,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Mar del Plata,Argentina,FALSE,1909,2024,1923,2010,14
 ,,,1993-03-31,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1923,1830,1933,1820,10
 ,,,1993-04-14,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Latvia,,,,TRUE,2,0,win,Copenhagen,Denmark,FALSE,1933,1376,1934,1375,1
-,,,1993-04-28,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1993-04-28,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1934,1902,1938,1898,4
 ,,,1993-06-02,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Albania,,,,TRUE,4,0,win,Copenhagen,Denmark,FALSE,1938,1404,1940,1402,2
 ,,,1993-08-25,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Lithuania,,,,TRUE,4,0,win,Copenhagen,Denmark,FALSE,1940,1350,1941,1349,1
 ,,,1993-09-08,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Albania,,,,FALSE,1,0,win,Tirana,Albania,FALSE,1941,1402,1944,1399,3
@@ -605,7 +605,7 @@ WC-1998,WC-1998_057,57,1998-07-03,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Bra
 ,,,2001-10-06,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Iceland,ISL,ISL,UEFA,TRUE,6,0,win,Copenhagen,Denmark,FALSE,1836,1614,1848,1602,12
 ,,,2001-11-10,Friendly,played,Denmark,DNK,DNK,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,1,draw,Copenhagen,Denmark,FALSE,1848,1995,1849,1994,1
 ,,,2002-02-13,Friendly,played,Denmark,DNK,DNK,UEFA,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,Riyadh,Saudi Arabia,FALSE,1849,1707,1858,1698,9
-,,,2002-03-27,Friendly,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2002-03-27,Friendly,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,1858,1872,1846,1884,-12
 ,,,2002-04-17,Friendly,played,Denmark,DNK,DNK,UEFA,Israel,ISR,ISR,UEFA,TRUE,3,1,win,Copenhagen,Denmark,FALSE,1846,1665,1851,1660,5
 ,,,2002-05-17,Friendly,played,Denmark,DNK,DNK,UEFA,Cameroon,CMR,CMR,CAF,TRUE,2,1,win,Copenhagen,Denmark,FALSE,1851,1806,1857,1800,6
 ,,,2002-05-26,Friendly,played,Denmark,DNK,DNK,UEFA,Tunisia,TUN,TUN,CAF,TRUE,2,1,win,Wakayama,Japan,TRUE,1857,1622,1861,1618,4
@@ -664,7 +664,7 @@ WC-2002,WC-2002_049,49,2002-06-15,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Eng
 ,,,2007-03-28,Friendly,played,Denmark,DNK,DNK,UEFA,Germany,GER,DEU,UEFA,FALSE,1,0,win,Duisburg,Germany,FALSE,1896,2003,1911,1988,15
 ,,,2007-06-02,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,3,loss,Copenhagen,Denmark,FALSE,,,,,
 ,,,2007-06-06,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Latvia,,,,FALSE,2,0,win,Riga,Latvia,FALSE,1900,1422,1906,1416,6
-,,,2007-08-22,Friendly,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,4,loss,Aarhus,Denmark,FALSE,,,,,
+,,,2007-08-22,Friendly,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,4,loss,Aarhus,Denmark,FALSE,1906,1762,1876,1792,-30
 ,,,2007-09-08,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,0,draw,Solna,Sweden,FALSE,1876,1817,1878,1815,2
 ,,,2007-09-12,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Liechtenstein,,,,TRUE,4,0,win,Aarhus,Denmark,FALSE,1878,1150,1879,1149,1
 ,,,2007-10-13,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,3,loss,Aarhus,Denmark,FALSE,1879,1918,1844,1953,-35
@@ -771,8 +771,8 @@ WC-2010,WC-2010_042,42,2010-06-24,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Jap
 ,,,2017-09-04,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Armenia,,,,FALSE,4,1,win,Yerevan,Armenia,FALSE,1778,1493,1796,1475,18
 ,,,2017-10-05,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Montenegro,,,,FALSE,1,0,win,Podgorica,Montenegro,FALSE,1796,1637,1813,1620,17
 ,,,2017-10-08,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Copenhagen,Denmark,FALSE,1813,1676,1801,1688,-12
-,,,2017-11-11,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Copenhagen,Denmark,FALSE,,,,,
-,,,2017-11-14,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,5,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2017-11-11,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Copenhagen,Denmark,FALSE,1801,1771,1794,1778,-7
+,,,2017-11-14,FIFA World Cup qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,5,1,win,Dublin,Republic of Ireland,FALSE,1794,1778,1840,1732,46
 ,,,2018-01-11,Friendly,played,Denmark,DNK,DNK,UEFA,Sweden,SWE,SWE,UEFA,TRUE,0,1,loss,Abu Dhabi,United Arab Emirates,TRUE,,,,,
 ,,,2018-03-22,Friendly,played,Denmark,DNK,DNK,UEFA,Panama,PAN,PAN,CONCACAF,TRUE,1,0,win,Brøndby,Denmark,FALSE,1840,1670,1843,1667,3
 ,,,2018-03-27,Friendly,played,Denmark,DNK,DNK,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,0,0,draw,Aalborg,Denmark,FALSE,1843,1871,1841,1873,-2
@@ -784,20 +784,20 @@ WC-2018,WC-2018_038,38,2018-06-26,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Fra
 WC-2018,WC-2018_052,52,2018-07-01,FIFA World Cup,played,Denmark,DNK,DNK,UEFA,Croatia,HRV,HRV,UEFA,FALSE,1,1,draw,Nizhny Novgorod,Russia,TRUE,1888,1956,1894,1950,6
 ,,,2018-09-05,Friendly,played,Denmark,DNK,DNK,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,0,3,loss,Trnava,Slovakia,FALSE,1894,1751,1874,1771,-20
 ,,,2018-09-09,UEFA Nations League,played,Denmark,DNK,DNK,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,0,win,Aarhus,Denmark,FALSE,1874,1799,1890,1783,16
-,,,2018-10-13,UEFA Nations League,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2018-10-13,UEFA Nations League,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1890,1713,1886,1717,-4
 ,,,2018-10-16,Friendly,played,Denmark,DNK,DNK,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,0,win,Herning,Denmark,FALSE,1886,1754,1892,1748,6
 ,,,2018-11-16,UEFA Nations League,played,Denmark,DNK,DNK,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,1,win,Cardiff,Wales,FALSE,1892,1796,1912,1776,20
-,,,2018-11-19,UEFA Nations League,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Aarhus,Denmark,FALSE,,,,,
+,,,2018-11-19,UEFA Nations League,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Aarhus,Denmark,FALSE,1912,1690,1897,1705,-15
 ,,,2019-03-21,Friendly,played,Denmark,DNK,DNK,UEFA,Kosovo,,,,FALSE,2,2,draw,Pristina,Kosovo,FALSE,1897,1496,1890,1503,-7
 ,,,2019-03-26,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,3,draw,Basel,Switzerland,FALSE,1890,1931,1898,1923,8
-,,,2019-06-07,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Copenhagen,Denmark,FALSE,,,,,
+,,,2019-06-07,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Copenhagen,Denmark,FALSE,1898,1714,1885,1727,-13
 ,,,2019-06-10,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Georgia,,,,TRUE,5,1,win,Copenhagen,Denmark,FALSE,1885,1532,1890,1527,5
 ,,,2019-09-05,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Gibraltar,,,,FALSE,6,0,win,Gibraltar,Gibraltar,FALSE,1890,1093,1892,1091,2
 ,,,2019-09-08,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Georgia,,,,FALSE,0,0,draw,Tbilisi,Georgia,FALSE,1892,1533,1879,1546,-13
 ,,,2019-10-12,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Copenhagen,Denmark,FALSE,1879,1896,1894,1881,15
 ,,,2019-10-15,Friendly,played,Denmark,DNK,DNK,UEFA,Luxembourg,,,,TRUE,4,0,win,Aalborg,Denmark,FALSE,1894,1345,1895,1344,1
 ,,,2019-11-15,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Gibraltar,,,,TRUE,6,0,win,Copenhagen,Denmark,FALSE,1895,1086,1895,1086,0
-,,,2019-11-18,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2019-11-18,UEFA Euro qualification,played,Denmark,DNK,DNK,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1895,1725,1891,1729,-4
 ,,,2020-09-05,UEFA Nations League,played,Denmark,DNK,DNK,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,2,loss,Copenhagen,Denmark,FALSE,1891,2083,1869,2105,-22
 ,,,2020-09-08,UEFA Nations League,played,Denmark,DNK,DNK,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Copenhagen,Denmark,FALSE,1869,1966,1869,1966,0
 ,,,2020-10-07,Friendly,played,Denmark,DNK,DNK,UEFA,Faroe Islands,,,,TRUE,4,0,win,Herning,Denmark,FALSE,1869,1255,1870,1254,1

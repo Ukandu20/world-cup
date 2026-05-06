@@ -124,7 +124,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1978-05-19,Friendly,played,Tunisia,TUN,TUN,CAF,France,FRA,FRA,UEFA,FALSE,0,2,loss,Villeneuve-d'Ascq,France,FALSE,1664,1887,1660,1891,-4
 WC-1978,WC-1978_004,4,1978-06-02,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Mexico,MEX,MEX,CONCACAF,FALSE,3,1,win,Rosario,Argentina,TRUE,1660,1798,1722,1736,62
 WC-1978,WC-1978_012,12,1978-06-06,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Poland,POL,POL,UEFA,FALSE,0,1,loss,Rosario,Argentina,TRUE,1722,1942,1709,1955,-13
-WC-1978,WC-1978_019,19,1978-06-10,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Córdoba,Argentina,TRUE,,,,,
+WC-1978,WC-1978_019,19,1978-06-10,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Córdoba,Argentina,TRUE,1709,2099,1733,2075,24
 ,,,1978-12-19,Friendly,played,Tunisia,TUN,TUN,CAF,Syria,,,,FALSE,1,2,loss,Damascus,Syria,FALSE,1733,1253,1715,1271,-18
 ,,,1979-02-18,Friendly,played,Tunisia,TUN,TUN,CAF,Poland,POL,POL,UEFA,TRUE,0,2,loss,Tunis,Tunisia,FALSE,1715,1932,1705,1942,-10
 ,,,1979-08-28,Friendly,played,Tunisia,TUN,TUN,CAF,Malta,,,,TRUE,4,0,win,Tunis,Tunisia,FALSE,1656,1361,1659,1358,3
@@ -150,7 +150,7 @@ WC-1978,WC-1978_019,19,1978-06-10,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Germ
 ,,,1982-03-09,African Cup of Nations,played,Tunisia,TUN,TUN,CAF,Libya,,,,FALSE,0,2,loss,Tripoli,Libya,FALSE,1640,1561,1605,1596,-35
 ,,,1982-03-12,African Cup of Nations,played,Tunisia,TUN,TUN,CAF,Ghana,GHA,GHA,CAF,FALSE,0,1,loss,Tripoli,Libya,TRUE,1605,1666,1584,1687,-21
 ,,,1982-06-22,Friendly,played,Tunisia,TUN,TUN,CAF,China PR,,,,TRUE,1,0,win,Hammam Lif,Tunisia,FALSE,,,,,
-,,,1982-06-26,Friendly,played,Tunisia,TUN,TUN,CAF,China PR,,,,TRUE,1,2,loss,Tunis,Tunisia,FALSE,,,,,
+,,,1982-06-26,Friendly,played,Tunisia,TUN,TUN,CAF,China PR,,,,TRUE,1,2,loss,Tunis,Tunisia,FALSE,1592,1593,1579,1606,-13
 ,,,1982-12-08,Friendly,played,Tunisia,TUN,TUN,CAF,Angola,AGO,AGO,CAF,TRUE,3,1,win,Tunis,Tunisia,FALSE,1579,1465,1586,1458,7
 ,,,1982-12-19,Friendly,played,Tunisia,TUN,TUN,CAF,Algeria,DZA,DZA,CAF,TRUE,0,1,loss,Tunis,Tunisia,FALSE,1586,1713,1577,1722,-9
 ,,,1983-02-01,Friendly,played,Tunisia,TUN,TUN,CAF,Malta,,,,FALSE,2,1,win,Marsa,Malta,FALSE,1577,1409,1585,1401,8
@@ -202,19 +202,19 @@ WC-1978,WC-1978_019,19,1978-06-10,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Germ
 ,,,1988-07-17,Arab Cup,played,Tunisia,TUN,TUN,CAF,Lebanon,,,,FALSE,1,1,draw,Amman,Jordan,TRUE,1463,1276,1453,1286,-10
 ,,,1988-08-05,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,Guinea,,,,TRUE,5,0,win,Tunis,Tunisia,FALSE,1453,1410,1477,1386,24
 ,,,1988-08-21,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,Guinea,,,,FALSE,0,3,loss,Conakry,Guinea,FALSE,1477,1386,1443,1420,-34
-,,,1988-10-19,Friendly,played,Tunisia,TUN,TUN,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,4,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1988-10-19,Friendly,played,Tunisia,TUN,TUN,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,4,loss,Dublin,Republic of Ireland,FALSE,1457,1855,1455,1857,-2
 ,,,1988-11-08,Friendly,played,Tunisia,TUN,TUN,CAF,Angola,AGO,AGO,CAF,TRUE,5,0,win,Tunis,Tunisia,FALSE,1466,1496,1482,1480,16
 ,,,1988-11-29,Friendly,played,Tunisia,TUN,TUN,CAF,Saudi Arabia,KSA,SAU,AFC,FALSE,0,1,loss,Khobar,Saudi Arabia,FALSE,,,,,
 ,,,1988-12-10,Friendly,played,Tunisia,TUN,TUN,CAF,Ivory Coast,CIV,CIV,CAF,FALSE,0,1,loss,Abidjan,Ivory Coast,FALSE,1474,1647,1471,1650,-3
 ,,,1988-12-18,Friendly,played,Tunisia,TUN,TUN,CAF,Ivory Coast,CIV,CIV,CAF,FALSE,1,1,draw,Abidjan,Ivory Coast,FALSE,1471,1650,1478,1643,7
 ,,,1988-12-20,Friendly,played,Tunisia,TUN,TUN,CAF,Liberia,,,,FALSE,1,1,draw,Paynesville,Liberia,FALSE,1478,1357,1477,1358,-1
-,,,1989-01-08,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,DR Congo,,,,FALSE,1,3,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1989-01-08,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,DR Congo,,,,FALSE,1,3,loss,Kinshasa,Zaïre,FALSE,1489,1572,1473,1588,-16
 ,,,1989-01-22,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,Morocco,MAR,MAR,CAF,TRUE,2,1,win,Tunis,Tunisia,FALSE,1473,1660,1498,1635,25
 ,,,1989-03-15,Friendly,played,Tunisia,TUN,TUN,CAF,Egypt,EGY,EGY,CAF,TRUE,0,0,draw,Tunis,Tunisia,FALSE,1498,1655,1500,1653,2
 ,,,1989-04-04,Friendly,played,Tunisia,TUN,TUN,CAF,Algeria,DZA,DZA,CAF,FALSE,0,2,loss,Algiers,Algeria,FALSE,,,,,
 ,,,1989-06-03,Friendly,played,Tunisia,TUN,TUN,CAF,Malawi,,,,FALSE,0,1,loss,Lilongwe,Malawi,FALSE,1490,1548,1484,1554,-6
 ,,,1989-06-11,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,Zambia,,,,FALSE,0,1,loss,Lusaka,Zambia,FALSE,1484,1633,1476,1641,-8
-,,,1989-06-25,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,DR Congo,,,,TRUE,1,0,win,Tunis,Tunisia,FALSE,,,,,
+,,,1989-06-25,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,DR Congo,,,,TRUE,1,0,win,Tunis,Tunisia,FALSE,1483,1564,1502,1545,19
 ,,,1989-07-16,African Cup of Nations qualification,played,Tunisia,TUN,TUN,CAF,Senegal,SEN,SEN,CAF,FALSE,0,3,loss,Dakar,Senegal,FALSE,,,,,
 ,,,1989-07-30,African Cup of Nations qualification,played,Tunisia,TUN,TUN,CAF,Senegal,SEN,SEN,CAF,TRUE,0,1,loss,Tunis,Tunisia,FALSE,,,,,
 ,,,1989-08-05,Friendly,played,Tunisia,TUN,TUN,CAF,Malawi,,,,TRUE,3,0,win,Tunis,Tunisia,FALSE,1454,1457,1467,1444,13
@@ -265,7 +265,7 @@ WC-1978,WC-1978_019,19,1978-06-10,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Germ
 ,,,1994-02-12,Malta International Tournament,played,Tunisia,TUN,TUN,CAF,Georgia,,,,FALSE,0,2,loss,Attard,Malta,TRUE,1631,1566,1604,1593,-27
 ,,,1994-03-17,Friendly,played,Tunisia,TUN,TUN,CAF,Niger,,,,TRUE,4,2,win,Tunis,Tunisia,FALSE,1604,1354,1608,1350,4
 ,,,1994-03-26,African Cup of Nations,played,Tunisia,TUN,TUN,CAF,Mali,,,,TRUE,0,2,loss,Tunis,Tunisia,FALSE,1608,1427,1545,1490,-63
-,,,1994-03-30,African Cup of Nations,played,Tunisia,TUN,TUN,CAF,DR Congo,,,,TRUE,1,1,draw,Tunis,Tunisia,FALSE,,,,,
+,,,1994-03-30,African Cup of Nations,played,Tunisia,TUN,TUN,CAF,DR Congo,,,,TRUE,1,1,draw,Tunis,Tunisia,FALSE,1545,1513,1536,1522,-9
 ,,,1994-04-18,Friendly,played,Tunisia,TUN,TUN,CAF,Saudi Arabia,KSA,SAU,AFC,TRUE,2,0,win,Tunis,Tunisia,FALSE,1536,1648,1552,1632,16
 ,,,1994-11-08,Friendly,played,Tunisia,TUN,TUN,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,2,0,win,Tunis,Tunisia,FALSE,1567,1684,1583,1668,16
 ,,,1994-11-13,African Cup of Nations qualification,played,Tunisia,TUN,TUN,CAF,Togo,TGO,TGO,CAF,TRUE,1,1,draw,Tunis,Tunisia,FALSE,1583,1323,1567,1339,-16
@@ -312,7 +312,7 @@ WC-1978,WC-1978_019,19,1978-06-10,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Germ
 ,,,1997-08-09,Friendly,played,Tunisia,TUN,TUN,CAF,Nigeria,NGA,NGA,CAF,TRUE,2,0,win,Tunis,Tunisia,FALSE,1642,1766,1666,1742,24
 ,,,1997-08-17,FIFA World Cup qualification,played,Tunisia,TUN,TUN,CAF,Namibia,,,,TRUE,4,0,win,Tunis,Tunisia,FALSE,1666,1369,1673,1362,7
 ,,,1997-11-05,Friendly,played,Tunisia,TUN,TUN,CAF,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,2,1,win,Tunis,Tunisia,FALSE,1658,1635,1665,1628,7
-,,,1998-01-28,Friendly,played,Tunisia,TUN,TUN,CAF,Serbia,SRB,SRB,UEFA,TRUE,0,3,loss,Tunis,Tunisia,FALSE,,,,,
+,,,1998-01-28,Friendly,played,Tunisia,TUN,TUN,CAF,Serbia,SRB,SRB,UEFA,TRUE,0,3,loss,Tunis,Tunisia,FALSE,1665,1972,1657,1980,-8
 ,,,1998-01-31,Friendly,played,Tunisia,TUN,TUN,CAF,Guinea,,,,TRUE,4,1,win,Tunis,Tunisia,FALSE,1657,1478,1663,1472,6
 ,,,1998-02-04,Friendly,played,Tunisia,TUN,TUN,CAF,Mali,,,,FALSE,1,0,win,Bamako,Mali,FALSE,1663,1460,1670,1453,7
 ,,,1998-02-09,African Cup of Nations,played,Tunisia,TUN,TUN,CAF,Ghana,GHA,GHA,CAF,FALSE,0,2,loss,Ouagadougou,Burkina Faso,TRUE,1670,1477,1614,1533,-56
@@ -535,7 +535,7 @@ WC-2006,WC-2006_048,48,2006-06-23,FIFA World Cup,played,Tunisia,TUN,TUN,CAF,Ukra
 ,,,2015-01-26,African Cup of Nations,played,Tunisia,TUN,TUN,CAF,DR Congo,,,,FALSE,1,1,draw,Bata,Equatorial Guinea,TRUE,1608,1480,1599,1489,-9
 ,,,2015-01-31,African Cup of Nations,played,Tunisia,TUN,TUN,CAF,Equatorial Guinea,,,,FALSE,1,2,loss,Bata,Equatorial Guinea,FALSE,1599,1366,1565,1400,-34
 ,,,2015-03-27,Kirin Challenge Cup,played,Tunisia,TUN,TUN,CAF,Japan,JPN,JPN,AFC,FALSE,0,2,loss,Ōita,Japan,FALSE,1565,1758,1560,1763,-5
-,,,2015-03-31,Friendly,played,Tunisia,TUN,TUN,CAF,China PR,,,,FALSE,1,1,draw,Nanjing,China PR,FALSE,,,,,
+,,,2015-03-31,Friendly,played,Tunisia,TUN,TUN,CAF,China PR,,,,FALSE,1,1,draw,Nanjing,China PR,FALSE,1560,1602,1564,1598,4
 ,,,2015-06-12,African Cup of Nations qualification,played,Tunisia,TUN,TUN,CAF,Djibouti,,,,TRUE,8,1,win,Tunis,Tunisia,FALSE,1564,785,1565,784,1
 ,,,2015-09-05,African Cup of Nations qualification,played,Tunisia,TUN,TUN,CAF,Liberia,,,,FALSE,0,1,loss,Monrovia,Liberia,FALSE,1565,1283,1535,1313,-30
 ,,,2015-10-09,Friendly,played,Tunisia,TUN,TUN,CAF,Gabon,,,,TRUE,3,3,draw,Radès,Tunisia,FALSE,1535,1503,1531,1507,-4

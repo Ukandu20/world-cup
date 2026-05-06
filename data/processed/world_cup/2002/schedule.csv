@@ -1,7 +1,7 @@
 tournament_id,match_id,match_number,date,stage,status,home_team,away_team,home_team_id,away_team_id,home_team_code,away_team_code,home_team_confederation,away_team_confederation,home_elo_start,away_elo_start,city,country,neutral
 WC-2002,WC-2002_001,1,2002-05-31,Group Stage,played,France,Senegal,FRA,SEN,FRA,SEN,UEFA,CAF,2093,1698,Seoul,South Korea,TRUE
 WC-2002,WC-2002_002,2,2002-06-01,Group Stage,played,Germany,Saudi Arabia,GER,KSA,DEU,SAU,UEFA,AFC,1870,1696,Sapporo,Japan,TRUE
-WC-2002,WC-2002_003,3,2002-06-01,Group Stage,played,Republic of Ireland,Cameroon,IRL,CMR,IRL,CMR,UEFA,CAF,,1614,Niigata,Japan,TRUE
+WC-2002,WC-2002_003,3,2002-06-01,Group Stage,played,Republic of Ireland,Cameroon,IRL,CMR,IRL,CMR,UEFA,CAF,1873,1614,Niigata,Japan,TRUE
 WC-2002,WC-2002_004,4,2002-06-01,Group Stage,played,Uruguay,Denmark,URY,DNK,URY,DNK,CONMEBOL,UEFA,1811,1861,Ulsan,South Korea,TRUE
 WC-2002,WC-2002_005,5,2002-06-02,Group Stage,played,Argentina,Nigeria,ARG,NGA,ARG,NGA,CONMEBOL,CAF,2020,1765,Kashima,Japan,TRUE
 WC-2002,WC-2002_006,6,2002-06-02,Group Stage,played,England,Sweden,ENG,SWE,ENG,SWE,UEFA,UEFA,1924,1866,Saitama,Japan,TRUE
@@ -10,10 +10,10 @@ WC-2002,WC-2002_008,8,2002-06-02,Group Stage,played,Spain,Slovenia,ESP,SVN,ESP,S
 WC-2002,WC-2002_009,9,2002-06-03,Group Stage,played,Brazil,Turkey,BRA,TUR,BRA,TUR,CONMEBOL,UEFA,1867,1756,Ulsan,South Korea,TRUE
 WC-2002,WC-2002_010,10,2002-06-03,Group Stage,played,Croatia,Mexico,HRV,MEX,HRV,MEX,UEFA,CONCACAF,1881,1832,Niigata,Japan,TRUE
 WC-2002,WC-2002_011,11,2002-06-03,Group Stage,played,Italy,Ecuador,ITA,ECU,ITA,ECU,UEFA,CONMEBOL,2008,1728,Sapporo,Japan,TRUE
-WC-2002,WC-2002_012,12,2002-06-04,Group Stage,played,China PR,Costa Rica,CHN,CRI,CHN,CRI,AFC,CONCACAF,,1613,Gwangju,South Korea,TRUE
+WC-2002,WC-2002_012,12,2002-06-04,Group Stage,played,China PR,Costa Rica,CHN,CRI,CHN,CRI,AFC,CONCACAF,1698,1613,Gwangju,South Korea,TRUE
 WC-2002,WC-2002_013,13,2002-06-04,Group Stage,played,Japan,Belgium,JPN,BEL,JPN,BEL,AFC,UEFA,1848,1837,Saitama,Japan,FALSE
 WC-2002,WC-2002_014,14,2002-06-04,Group Stage,played,South Korea,Poland,KOR,POL,KOR,POL,AFC,UEFA,1735,1735,Busan,South Korea,FALSE
-WC-2002,WC-2002_015,15,2002-06-05,Group Stage,played,Germany,Republic of Ireland,GER,IRL,DEU,IRL,UEFA,UEFA,1923,,Kashima,Japan,TRUE
+WC-2002,WC-2002_015,15,2002-06-05,Group Stage,played,Germany,Republic of Ireland,GER,IRL,DEU,IRL,UEFA,UEFA,1923,1867,Kashima,Japan,TRUE
 WC-2002,WC-2002_016,16,2002-06-05,Group Stage,played,Russia,Tunisia,RUS,TUN,RUS,TUN,UEFA,CAF,1801,1618,Kobe,Japan,TRUE
 WC-2002,WC-2002_017,17,2002-06-05,Group Stage,played,United States,Portugal,USA,PRT,USA,PRT,CONCACAF,UEFA,1808,1978,Suwon,South Korea,TRUE
 WC-2002,WC-2002_018,18,2002-06-06,Group Stage,played,Cameroon,Saudi Arabia,CMR,KSA,CMR,SAU,CAF,AFC,1810,1658,Saitama,Japan,TRUE
@@ -22,7 +22,7 @@ WC-2002,WC-2002_020,20,2002-06-06,Group Stage,played,France,Uruguay,FRA,URY,FRA,
 WC-2002,WC-2002_021,21,2002-06-07,Group Stage,played,Argentina,England,ARG,ENG,ARG,ENG,CONMEBOL,UEFA,2031,1919,Sapporo,Japan,TRUE
 WC-2002,WC-2002_022,22,2002-06-07,Group Stage,played,Spain,Paraguay,ESP,PRY,ESP,PRY,UEFA,CONMEBOL,1983,1723,Jeonju,South Korea,TRUE
 WC-2002,WC-2002_023,23,2002-06-07,Group Stage,played,Sweden,Nigeria,SWE,NGA,SWE,NGA,UEFA,CAF,1871,1754,Kobe,Japan,TRUE
-WC-2002,WC-2002_024,24,2002-06-08,Group Stage,played,Brazil,China PR,BRA,CHN,BRA,CHN,CONMEBOL,AFC,1984,,Seogwipo,South Korea,TRUE
+WC-2002,WC-2002_024,24,2002-06-08,Group Stage,played,Brazil,China PR,BRA,CHN,BRA,CHN,CONMEBOL,AFC,1984,1660,Seogwipo,South Korea,TRUE
 WC-2002,WC-2002_025,25,2002-06-08,Group Stage,played,Italy,Croatia,ITA,HRV,ITA,HRV,UEFA,UEFA,2023,1847,Kashima,Japan,TRUE
 WC-2002,WC-2002_026,26,2002-06-08,Group Stage,played,South Africa,Slovenia,ZAF,SVN,ZAF,SVN,CAF,UEFA,1649,1725,Daegu,South Korea,TRUE
 WC-2002,WC-2002_027,27,2002-06-09,Group Stage,played,Costa Rica,Turkey,CRI,TUR,CRI,TUR,CONCACAF,UEFA,1792,1735,Incheon,South Korea,TRUE
@@ -33,7 +33,7 @@ WC-2002,WC-2002_031,31,2002-06-10,Group Stage,played,Portugal,Poland,PRT,POL,PRT
 WC-2002,WC-2002_032,32,2002-06-10,Group Stage,played,Tunisia,Belgium,TUN,BEL,TUN,BEL,CAF,UEFA,1595,1846,Ōita,Japan,TRUE
 WC-2002,WC-2002_033,33,2002-06-11,Group Stage,played,Cameroon,Germany,CMR,GER,CMR,DEU,CAF,UEFA,1828,1904,Fukuroi,Japan,TRUE
 WC-2002,WC-2002_034,34,2002-06-11,Group Stage,played,Denmark,France,DNK,FRA,DNK,FRA,UEFA,UEFA,1876,2020,Incheon,South Korea,TRUE
-WC-2002,WC-2002_035,35,2002-06-11,Group Stage,played,Saudi Arabia,Republic of Ireland,KSA,IRL,SAU,IRL,AFC,UEFA,1568,,Yokohama,Japan,TRUE
+WC-2002,WC-2002_035,35,2002-06-11,Group Stage,played,Saudi Arabia,Republic of Ireland,KSA,IRL,SAU,IRL,AFC,UEFA,1568,1871,Yokohama,Japan,TRUE
 WC-2002,WC-2002_036,36,2002-06-11,Group Stage,played,Senegal,Uruguay,SEN,URY,SEN,URY,CAF,CONMEBOL,1763,1804,Suwon,South Korea,TRUE
 WC-2002,WC-2002_037,37,2002-06-12,Group Stage,played,Nigeria,England,NGA,ENG,NGA,ENG,CAF,UEFA,1734,1958,Osaka,Japan,TRUE
 WC-2002,WC-2002_038,38,2002-06-12,Group Stage,played,Slovenia,Paraguay,SVN,PRY,SVN,PRY,UEFA,CONMEBOL,1689,1707,Seogwipo,South Korea,TRUE
@@ -42,14 +42,14 @@ WC-2002,WC-2002_040,40,2002-06-12,Group Stage,played,Sweden,Argentina,SWE,ARG,SW
 WC-2002,WC-2002_041,41,2002-06-13,Group Stage,played,Costa Rica,Brazil,CRI,BRA,CRI,BRA,CONCACAF,CONMEBOL,1787,1912,Suwon,South Korea,TRUE
 WC-2002,WC-2002_042,42,2002-06-13,Group Stage,played,Ecuador,Croatia,ECU,HRV,ECU,HRV,CONMEBOL,UEFA,1695,1891,Yokohama,Japan,TRUE
 WC-2002,WC-2002_043,43,2002-06-13,Group Stage,played,Mexico,Italy,MEX,ITA,MEX,ITA,CONCACAF,UEFA,1884,1979,Ōita,Japan,TRUE
-WC-2002,WC-2002_044,44,2002-06-13,Group Stage,played,Turkey,China PR,TUR,CHN,TUR,CHN,UEFA,AFC,1902,,Seoul,South Korea,TRUE
+WC-2002,WC-2002_044,44,2002-06-13,Group Stage,played,Turkey,China PR,TUR,CHN,TUR,CHN,UEFA,AFC,1902,1636,Seoul,South Korea,TRUE
 WC-2002,WC-2002_045,45,2002-06-14,Group Stage,played,Belgium,Russia,BEL,RUS,BEL,RUS,UEFA,UEFA,1827,1804,Fukuroi,Japan,TRUE
 WC-2002,WC-2002_046,46,2002-06-14,Group Stage,played,Japan,Tunisia,JPN,TUN,JPN,TUN,AFC,CAF,1859,1614,Osaka,Japan,FALSE
 WC-2002,WC-2002_047,47,2002-06-14,Group Stage,played,South Korea,Portugal,KOR,PRT,KOR,PRT,AFC,UEFA,1766,1958,Incheon,South Korea,FALSE
 WC-2002,WC-2002_048,48,2002-06-14,Group Stage,played,Poland,United States,POL,USA,POL,USA,UEFA,CONCACAF,1679,1853,Daejeon,South Korea,TRUE
 WC-2002,WC-2002_049,49,2002-06-15,Round of 16,played,Denmark,England,DNK,ENG,DNK,ENG,UEFA,UEFA,1939,1941,Niigata,Japan,TRUE
 WC-2002,WC-2002_050,50,2002-06-15,Round of 16,played,Germany,Paraguay,GER,PRY,DEU,PRY,UEFA,CONMEBOL,1939,1750,Seogwipo,South Korea,TRUE
-WC-2002,WC-2002_051,51,2002-06-16,Round of 16,played,Spain,Republic of Ireland,ESP,IRL,ESP,IRL,UEFA,UEFA,2165,,Suwon,South Korea,TRUE
+WC-2002,WC-2002_051,51,2002-06-16,Round of 16,played,Spain,Republic of Ireland,ESP,IRL,ESP,IRL,UEFA,UEFA,2165,1893,Suwon,South Korea,TRUE
 WC-2002,WC-2002_052,52,2002-06-16,Round of 16,played,Sweden,Senegal,SWE,SEN,SWE,SEN,UEFA,CAF,1899,1767,Ōita,Japan,TRUE
 WC-2002,WC-2002_053,53,2002-06-17,Round of 16,played,Brazil,Belgium,BRA,BEL,BRA,BEL,CONMEBOL,UEFA,1946,1855,Kobe,Japan,TRUE
 WC-2002,WC-2002_054,54,2002-06-17,Round of 16,played,Mexico,United States,MEX,USA,MEX,USA,CONCACAF,CONCACAF,1892,1787,Jeonju,South Korea,TRUE

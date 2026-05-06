@@ -71,13 +71,13 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1937-10-10,Friendly,played,Poland,POL,POL,UEFA,Latvia,,,,TRUE,2,1,win,Katowice,Poland,FALSE,1590,1407,1593,1404,3
 ,,,1938-03-13,Friendly,played,Poland,POL,POL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,3,draw,Zürich,Switzerland,FALSE,1624,1609,1626,1607,2
 ,,,1938-04-03,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,1,loss,Belgrade,Yugoslavia,FALSE,1626,1603,1610,1619,-16
-,,,1938-05-22,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,6,0,win,Warsaw,Poland,FALSE,,,,,
+,,,1938-05-22,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,6,0,win,Warsaw,Poland,FALSE,1610,1667,1629,1648,19
 WC-1938,WC-1938_002,2,1938-06-05,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,5,6,loss,Strasbourg,France,TRUE,1629,1904,1619,1914,-10
 ,,,1938-09-18,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Chemnitz,Germany,FALSE,1619,1756,1612,1763,-7
 ,,,1938-09-25,Friendly,played,Poland,POL,POL,UEFA,Latvia,,,,FALSE,1,2,loss,Riga,Latvia,FALSE,1612,1416,1599,1429,-13
 ,,,1938-09-25,Friendly,played,Poland,POL,POL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,4,4,draw,Warsaw,Poland,FALSE,1599,1609,1595,1613,-4
 ,,,1938-10-23,Friendly,played,Poland,POL,POL,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,2,draw,Warsaw,Poland,FALSE,1595,1744,1596,1743,1
-,,,1938-11-13,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Éire,FALSE,,,,,
+,,,1938-11-13,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Éire,FALSE,1596,1665,1591,1670,-5
 ,,,1939-01-22,Friendly,played,Poland,POL,POL,UEFA,France,FRA,FRA,UEFA,FALSE,0,4,loss,Paris,France,FALSE,1591,1641,1580,1652,-11
 ,,,1939-05-27,Friendly,played,Poland,POL,POL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,3,3,draw,Łódź,Poland,FALSE,1580,1518,1576,1522,-4
 ,,,1939-06-04,Friendly,played,Poland,POL,POL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,1,draw,Warsaw,Poland,FALSE,1576,1759,1578,1757,2
@@ -137,13 +137,13 @@ WC-1938,WC-1938_002,2,1938-06-05,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazi
 ,,,1957-10-20,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,1,win,Chorzów,Poland,FALSE,1565,1912,1597,1880,32
 ,,,1957-11-03,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Finland,,,,TRUE,4,0,win,Warsaw,Poland,FALSE,1597,1326,1605,1318,8
 ,,,1957-11-24,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,2,loss,Leipzig,German DR,TRUE,1605,1880,1595,1890,-10
-,,,1958-05-11,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Chorzów,Poland,FALSE,,,,,
+,,,1958-05-11,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Chorzów,Poland,FALSE,1595,1750,1597,1748,2
 ,,,1958-05-25,Friendly,played,Poland,POL,POL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,3,loss,Copenhagen,Denmark,FALSE,1597,1577,1589,1585,-8
 ,,,1958-06-01,Friendly,played,Poland,POL,POL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,2,loss,Warsaw,Poland,FALSE,1589,1823,1583,1829,-6
 ,,,1958-06-28,Friendly,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,FALSE,1,1,draw,Rostock,German DR,FALSE,1583,1483,1583,1483,0
 ,,,1958-09-14,Friendly,played,Poland,POL,POL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,3,loss,Chorzów,Poland,FALSE,1583,1987,1579,1991,-4
-,,,1958-10-05,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
-,,,1959-05-20,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Hamburg,Germany,FALSE,,,,,
+,,,1958-10-05,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,1579,1742,1585,1736,6
+,,,1959-05-20,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Hamburg,Germany,FALSE,1585,1861,1593,1853,8
 ,,,1959-06-21,Friendly,played,Poland,POL,POL,UEFA,Israel,ISR,ISR,UEFA,TRUE,7,2,win,Wrocław,Poland,FALSE,1593,1486,1602,1477,9
 ,,,1959-06-28,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,4,loss,Chorzów,Poland,FALSE,1602,1879,1586,1895,-16
 ,,,1959-08-30,Friendly,played,Poland,POL,POL,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,3,loss,Warsaw,Poland,FALSE,1586,1663,1575,1674,-11
@@ -157,7 +157,7 @@ WC-1938,WC-1938_002,2,1938-06-05,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazi
 ,,,1961-05-21,Friendly,played,Poland,POL,POL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,Warsaw,Poland,FALSE,1650,1985,1666,1969,16
 ,,,1961-06-04,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,2,loss,Belgrade,Yugoslavia,FALSE,1666,1932,1662,1936,-4
 ,,,1961-06-25,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Chorzów,Poland,FALSE,1662,1938,1671,1929,9
-,,,1961-10-08,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Warsaw,Poland,FALSE,,,,,
+,,,1961-10-08,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Warsaw,Poland,FALSE,1671,1874,1660,1885,-11
 ,,,1961-10-22,Friendly,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,TRUE,3,1,win,Wrocław,Poland,FALSE,1660,1522,1666,1516,6
 ,,,1961-11-05,Friendly,played,Poland,POL,POL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,5,0,win,Chorzów,Poland,FALSE,1666,1698,1682,1682,16
 ,,,1962-04-11,Friendly,played,Poland,POL,POL,UEFA,France,FRA,FRA,UEFA,FALSE,3,1,win,Paris,France,FALSE,1682,1783,1705,1760,23
@@ -175,11 +175,11 @@ WC-1938,WC-1938_002,2,1938-06-05,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazi
 ,,,1963-09-04,Friendly,played,Poland,POL,POL,UEFA,Norway,NOR,NOR,UEFA,TRUE,9,0,win,Szczecin,Poland,FALSE,1661,1504,1670,1495,9
 ,,,1963-09-22,Friendly,played,Poland,POL,POL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,0,draw,Poznań,Poland,FALSE,1670,1700,1668,1702,-2
 ,,,1963-10-16,Friendly,played,Poland,POL,POL,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,3,loss,Athens,Greece,FALSE,1668,1472,1649,1491,-19
-,,,1964-05-10,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,Kraków,Poland,FALSE,,,,,
+,,,1964-05-10,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,Kraków,Poland,FALSE,1649,1669,1661,1657,12
 ,,,1964-09-13,Friendly,played,Poland,POL,POL,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,1,win,Warsaw,Poland,FALSE,1661,1898,1675,1884,14
 ,,,1964-09-27,Friendly,played,Poland,POL,POL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,2,win,Istanbul,Turkey,FALSE,1675,1695,1688,1682,13
 ,,,1964-10-07,Friendly,played,Poland,POL,POL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,3,3,draw,Solna,Sweden,FALSE,1688,1864,1695,1857,7
-,,,1964-10-25,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1964-10-25,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Republic of Ireland,FALSE,1695,1663,1687,1671,-8
 ,,,1965-04-07,Friendly,played,Poland,POL,POL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,0,draw,Brussels,Belgium,FALSE,1687,1740,1691,1736,4
 ,,,1965-04-18,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Warsaw,Poland,FALSE,1691,1936,1699,1928,8
 ,,,1965-05-16,Friendly,played,Poland,POL,POL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,1,draw,Kraków,Poland,FALSE,1699,1741,1697,1743,-2
@@ -207,11 +207,11 @@ WC-1938,WC-1938_002,2,1938-06-05,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazi
 ,,,1967-10-29,Friendly,played,Poland,POL,POL,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,0,draw,Kraków,Poland,FALSE,1686,1796,1686,1796,0
 ,,,1968-04-24,Friendly,played,Poland,POL,POL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,8,0,win,Chorzów,Poland,FALSE,1686,1673,1702,1657,16
 ,,,1968-05-01,Friendly,played,Poland,POL,POL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Warsaw,Poland,FALSE,1702,1683,1699,1686,-3
-,,,1968-05-15,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1968-05-15,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,1699,1676,1701,1674,2
 ,,,1968-06-09,Friendly,played,Poland,POL,POL,UEFA,Norway,NOR,NOR,UEFA,FALSE,6,1,win,Oslo,Norway,FALSE,1701,1547,1718,1530,17
 ,,,1968-06-20,Friendly,played,Poland,POL,POL,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,3,6,loss,Warsaw,Poland,FALSE,1718,1958,1707,1969,-11
 ,,,1968-10-20,Friendly,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Szczecin,Poland,FALSE,1707,1861,1709,1859,2
-,,,1968-10-30,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Chorzów,Poland,FALSE,,,,,
+,,,1968-10-30,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Chorzów,Poland,FALSE,1709,1674,1715,1668,6
 ,,,1968-12-17,Friendly,played,Poland,POL,POL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Mar del Plata,Argentina,FALSE,1715,1896,1712,1899,-3
 ,,,1969-04-20,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Luxembourg,,,,TRUE,8,1,win,Kraków,Poland,FALSE,1712,1327,1717,1322,5
 ,,,1969-04-30,Friendly,played,Poland,POL,POL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,1,win,Ankara,Turkey,FALSE,1717,1597,1731,1583,14
@@ -223,20 +223,20 @@ WC-1938,WC-1938_002,2,1938-06-05,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazi
 ,,,1969-11-09,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,0,win,Warsaw,Poland,FALSE,1753,1896,1792,1857,39
 ,,,1969-11-18,Friendly,played,Poland,POL,POL,UEFA,Iraq,IRQ,IRQ,AFC,FALSE,1,1,draw,Baghdad,Iraq,FALSE,,,,,
 ,,,1970-05-02,Friendly,played,Poland,POL,POL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,2,loss,Budapest,Hungary,FALSE,1792,1930,1786,1936,-6
-,,,1970-05-06,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Poznań,Poland,FALSE,,,,,
+,,,1970-05-06,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Poznań,Poland,FALSE,1786,1605,1789,1602,3
 ,,,1970-05-16,Friendly,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Kraków,Poland,FALSE,1789,1889,1789,1889,0
 ,,,1970-05-19,Friendly,played,Poland,POL,POL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,0,win,Copenhagen,Denmark,FALSE,1789,1657,1803,1643,14
 ,,,1970-07-22,Friendly,played,Poland,POL,POL,UEFA,Iraq,IRQ,IRQ,AFC,TRUE,2,0,win,Szczecin,Poland,FALSE,1797,1557,1801,1553,4
 ,,,1970-09-02,Friendly,played,Poland,POL,POL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,5,0,win,Warsaw,Poland,FALSE,1801,1641,1808,1634,7
 ,,,1970-09-06,Friendly,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,FALSE,0,5,loss,Rostock,German DR,FALSE,1808,1892,1798,1902,-10
-,,,1970-09-23,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1970-09-23,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,1798,1601,1809,1590,11
 ,,,1970-10-14,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Albania,,,,TRUE,3,0,win,Chorzów,Poland,FALSE,1809,1466,1814,1461,5
 ,,,1970-10-25,Friendly,played,Poland,POL,POL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,2,draw,Prague,Czechoslovakia,FALSE,1814,1824,1817,1821,3
 ,,,1971-05-05,Friendly,played,Poland,POL,POL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,4,2,win,Lausanne,Switzerland,FALSE,1817,1698,1831,1684,14
 ,,,1971-05-12,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Albania,,,,FALSE,1,1,draw,Tirana,Albania,FALSE,1831,1449,1818,1462,-13
 ,,,1971-09-22,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,5,1,win,Kraków,Poland,FALSE,1818,1635,1830,1623,12
-,,,1971-10-10,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Warsaw,Poland,FALSE,,,,,
-,,,1971-11-17,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Hamburg,Germany,FALSE,,,,,
+,,,1971-10-10,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Warsaw,Poland,FALSE,1830,2045,1810,2065,-20
+,,,1971-11-17,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Hamburg,Germany,FALSE,1810,2065,1825,2050,15
 ,,,1971-12-05,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,1,loss,İzmir,Turkey,FALSE,1825,1572,1797,1600,-28
 ,,,1972-04-08,Friendly,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,TRUE,2,1,win,Łódź,Poland,FALSE,,,,,
 ,,,1972-05-10,Friendly,played,Poland,POL,POL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,0,draw,Poznań,Poland,FALSE,1804,1716,1799,1721,-5
@@ -244,7 +244,7 @@ WC-1938,WC-1938_002,2,1938-06-05,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazi
 ,,,1973-03-20,Friendly,played,Poland,POL,POL,UEFA,United States,USA,USA,CONCACAF,TRUE,4,0,win,Łódź,Poland,FALSE,1964,1430,1965,1429,1
 ,,,1973-03-28,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,2,loss,Cardiff,Wales,FALSE,1965,1662,1919,1708,-46
 ,,,1973-05-13,Friendly,played,Poland,POL,POL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,2,draw,Warsaw,Poland,FALSE,1919,1942,1917,1944,-2
-,,,1973-05-16,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Wrocław,Poland,FALSE,,,,,
+,,,1973-05-16,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Wrocław,Poland,FALSE,1917,1582,1919,1580,2
 ,,,1973-06-06,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,England,ENG,ENG,UEFA,TRUE,2,0,win,Chorzów,Poland,FALSE,1919,2022,1949,1992,30
 ,,,1973-08-01,Friendly,played,Poland,POL,POL,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,3,1,win,Toronto,Canada,FALSE,1949,1590,1955,1584,6
 ,,,1973-08-03,Friendly,played,Poland,POL,POL,UEFA,United States,USA,USA,CONCACAF,FALSE,1,0,win,Chicago,United States,FALSE,1955,1427,1957,1425,2
@@ -256,7 +256,7 @@ WC-1938,WC-1938_002,2,1938-06-05,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazi
 ,,,1973-09-26,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Wales,WAL,WAL,UEFA,TRUE,3,0,win,Chorzów,Poland,FALSE,1971,1658,1977,1652,6
 ,,,1973-10-10,Friendly,played,Poland,POL,POL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Rotterdam,Netherlands,FALSE,1977,1837,1976,1838,-1
 ,,,1973-10-17,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1976,1999,1983,1992,7
-,,,1973-10-21,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1973-10-21,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1983,1592,1966,1609,-17
 ,,,1974-04-13,Friendly,played,Poland,POL,POL,UEFA,Haiti,HTI,HTI,CONCACAF,FALSE,1,2,loss,Port-au-Prince,Haiti,FALSE,1966,1606,1950,1622,-16
 ,,,1974-04-15,Friendly,played,Poland,POL,POL,UEFA,Haiti,HTI,HTI,CONCACAF,FALSE,3,1,win,Port-au-Prince,Haiti,FALSE,1950,1622,1956,1616,6
 ,,,1974-04-17,Friendly,played,Poland,POL,POL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Liège,Belgium,FALSE,1956,1874,1957,1873,1
@@ -266,7 +266,7 @@ WC-1974,WC-1974_015,15,1974-06-19,FIFA World Cup,played,Poland,POL,POL,UEFA,Hait
 WC-1974,WC-1974_023,23,1974-06-23,FIFA World Cup,played,Poland,POL,POL,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,1,win,Stuttgart,Germany,TRUE,1997,1999,2027,1969,30
 WC-1974,WC-1974_028,28,1974-06-26,FIFA World Cup,played,Poland,POL,POL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,0,win,Stuttgart,Germany,TRUE,2027,1913,2047,1893,20
 WC-1974,WC-1974_032,32,1974-06-30,FIFA World Cup,played,Poland,POL,POL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,1,win,Frankfurt am Main,Germany,TRUE,2047,1954,2069,1932,22
-WC-1974,WC-1974_034,34,1974-07-03,FIFA World Cup,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Frankfurt am Main,Germany,FALSE,,,,,
+WC-1974,WC-1974_034,34,1974-07-03,FIFA World Cup,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Frankfurt am Main,Germany,FALSE,2069,2107,2050,2126,-19
 WC-1974,WC-1974_037,37,1974-07-06,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,0,win,Munich,Germany,TRUE,2050,2068,2082,2036,32
 ,,,1974-09-01,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Finland,,,,FALSE,2,1,win,Helsinki,Finland,FALSE,2082,1424,2084,1422,2
 ,,,1974-09-04,Friendly,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,3,loss,Warsaw,Poland,FALSE,2084,1918,2059,1943,-25
@@ -288,11 +288,11 @@ WC-1974,WC-1974_037,37,1974-07-06,FIFA World Cup,played,Poland,POL,POL,UEFA,Braz
 ,,,1976-04-24,Friendly,played,Poland,POL,POL,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Lens,France,FALSE,2023,1767,2002,1788,-21
 ,,,1976-05-06,Friendly,played,Poland,POL,POL,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,1,loss,Athens,Greece,FALSE,2002,1636,1986,1652,-16
 ,,,1976-05-11,Friendly,played,Poland,POL,POL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,2,loss,Basel,Switzerland,FALSE,1986,1654,1970,1670,-16
-,,,1976-05-26,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Poznań,Poland,FALSE,,,,,
+,,,1976-05-26,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Poznań,Poland,FALSE,1970,1700,1943,1727,-27
 ,,,1976-10-16,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,2,0,win,Porto,Portugal,FALSE,1904,1839,1937,1806,33
 ,,,1976-10-31,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Cyprus,,,,TRUE,5,0,win,Warsaw,Poland,FALSE,1937,1278,1938,1277,1
 ,,,1977-04-13,Friendly,played,Poland,POL,POL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,2,loss,Budapest,Hungary,FALSE,1938,1868,1929,1877,-9
-,,,1977-04-24,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1977-04-24,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1929,1732,1926,1735,-3
 ,,,1977-05-01,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,1,win,Copenhagen,Denmark,FALSE,1926,1647,1937,1636,11
 ,,,1977-05-15,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Cyprus,,,,FALSE,3,1,win,Limassol,Cyprus,FALSE,1937,1272,1939,1270,2
 ,,,1977-05-29,Friendly,played,Poland,POL,POL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,3,loss,Buenos Aires,Argentina,FALSE,1939,1925,1928,1936,-11
@@ -306,9 +306,9 @@ WC-1974,WC-1974_037,37,1974-07-06,FIFA World Cup,played,Poland,POL,POL,UEFA,Braz
 ,,,1977-11-12,Friendly,played,Poland,POL,POL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,1,win,Wrocław,Poland,FALSE,1911,1755,1915,1751,4
 ,,,1978-03-22,Friendly,played,Poland,POL,POL,UEFA,Luxembourg,,,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1915,1250,1916,1249,1
 ,,,1978-04-05,Friendly,played,Poland,POL,POL,UEFA,Greece,GRC,GRC,UEFA,TRUE,5,2,win,Poznań,Poland,FALSE,1916,1654,1920,1650,4
-,,,1978-04-12,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Łódź,Poland,FALSE,,,,,
+,,,1978-04-12,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Łódź,Poland,FALSE,1920,1727,1925,1722,5
 ,,,1978-04-26,Friendly,played,Poland,POL,POL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Warsaw,Poland,FALSE,1925,1748,1928,1745,3
-WC-1978,WC-1978_001,1,1978-06-01,FIFA World Cup,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Buenos Aires,Argentina,TRUE,,,,,
+WC-1978,WC-1978_001,1,1978-06-01,FIFA World Cup,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Buenos Aires,Argentina,TRUE,1928,2098,1942,2084,14
 WC-1978,WC-1978_012,12,1978-06-06,FIFA World Cup,played,Poland,POL,POL,UEFA,Tunisia,TUN,TUN,CAF,TRUE,1,0,win,Rosario,Argentina,TRUE,1942,1722,1955,1709,13
 WC-1978,WC-1978_020,20,1978-06-10,FIFA World Cup,played,Poland,POL,POL,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,3,1,win,Rosario,Argentina,TRUE,1955,1721,1974,1702,19
 WC-1978,WC-1978_025,25,1978-06-14,FIFA World Cup,played,Poland,POL,POL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,2,loss,Rosario,Argentina,FALSE,1974,1927,1936,1965,-38
@@ -337,7 +337,7 @@ WC-1978,WC-1978_035,35,1978-06-21,FIFA World Cup,played,Poland,POL,POL,UEFA,Braz
 ,,,1980-04-02,Friendly,played,Poland,POL,POL,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,2,loss,Brussels,Belgium,FALSE,1929,1902,1921,1910,-8
 ,,,1980-04-19,Friendly,played,Poland,POL,POL,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,2,draw,Turin,Italy,FALSE,1921,1996,1926,1991,5
 ,,,1980-04-26,Friendly,played,Poland,POL,POL,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,2,loss,Borovo,Yugoslavia,FALSE,1926,1911,1918,1919,-8
-,,,1980-05-13,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Frankfurt am Main,Germany,FALSE,,,,,
+,,,1980-05-13,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Frankfurt am Main,Germany,FALSE,1918,2074,1912,2080,-6
 ,,,1980-05-28,Friendly,played,Poland,POL,POL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,Poznań,Poland,FALSE,1912,1797,1916,1793,4
 ,,,1980-06-22,Friendly,played,Poland,POL,POL,UEFA,Iraq,IRQ,IRQ,AFC,TRUE,3,0,win,Warsaw,Poland,FALSE,1916,1677,1920,1673,4
 ,,,1980-06-29,Friendly,played,Poland,POL,POL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,São Paulo,Brazil,FALSE,1920,2038,1926,2032,6
@@ -351,7 +351,7 @@ WC-1978,WC-1978_035,35,1978-06-21,FIFA World Cup,played,Poland,POL,POL,UEFA,Braz
 ,,,1981-03-25,Friendly,played,Poland,POL,POL,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,2,loss,Bucharest,Romania,FALSE,1961,1828,1945,1844,-16
 ,,,1981-05-02,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,0,win,Chorzów,Poland,FALSE,1945,1946,1959,1932,14
 ,,,1981-05-23,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Bydgoszcz,Poland,FALSE,,,,,
-,,,1981-09-02,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Chorzów,Poland,FALSE,,,,,
+,,,1981-09-02,Friendly,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Chorzów,Poland,FALSE,1964,2065,1949,2080,-15
 ,,,1981-09-23,Friendly,played,Poland,POL,POL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,2,loss,Lisbon,Portugal,FALSE,1949,1788,1931,1806,-18
 ,,,1981-10-10,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,German DR,DDR,DDR,UEFA,FALSE,3,2,win,Leipzig,German DR,FALSE,1931,1936,1957,1910,26
 ,,,1981-10-28,Friendly,played,Poland,POL,POL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,2,1,win,Buenos Aires,Argentina,FALSE,1957,2029,1972,2014,15
@@ -374,12 +374,12 @@ WC-1982,WC-1982_051,51,1982-07-10,FIFA World Cup,played,Poland,POL,POL,UEFA,Fran
 ,,,1983-10-09,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,2,loss,Moscow,Soviet Union,FALSE,1961,2036,1945,2052,-16
 ,,,1983-10-28,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,1,loss,Wrocław,Poland,FALSE,1945,1774,1912,1807,-33
 ,,,1984-01-11,Nehru Cup,played,Poland,POL,POL,UEFA,India,,,,FALSE,2,1,win,Calcutta,India,FALSE,1912,1258,1914,1256,2
-,,,1984-01-15,Nehru Cup,played,Poland,POL,POL,UEFA,China PR,,,,FALSE,1,0,win,Calcutta,India,TRUE,,,,,
+,,,1984-01-15,Nehru Cup,played,Poland,POL,POL,UEFA,China PR,,,,FALSE,1,0,win,Calcutta,India,TRUE,1914,1568,1919,1563,5
 ,,,1984-01-17,Nehru Cup,played,Poland,POL,POL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Calcutta,India,TRUE,1919,1919,1919,1919,0
-,,,1984-01-27,Nehru Cup,played,Poland,POL,POL,UEFA,China PR,,,,FALSE,1,0,win,Calcutta,India,TRUE,,,,,
+,,,1984-01-27,Nehru Cup,played,Poland,POL,POL,UEFA,China PR,,,,FALSE,1,0,win,Calcutta,India,TRUE,1919,1612,1925,1606,6
 ,,,1984-03-27,Friendly,played,Poland,POL,POL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,1,draw,Zürich,Switzerland,FALSE,1925,1765,1923,1767,-2
 ,,,1984-04-17,Friendly,played,Poland,POL,POL,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,1,loss,Warsaw,Poland,FALSE,1923,1890,1909,1904,-14
-,,,1984-05-23,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1984-05-23,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1909,1724,1907,1726,-2
 ,,,1984-08-29,Friendly,played,Poland,POL,POL,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Drammen,Norway,FALSE,1907,1624,1902,1629,-5
 ,,,1984-09-12,Friendly,played,Poland,POL,POL,UEFA,Finland,,,,FALSE,2,0,win,Helsinki,Finland,FALSE,1902,1471,1906,1467,4
 ,,,1984-09-26,Friendly,played,Poland,POL,POL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,0,win,Słupsk,Poland,FALSE,1906,1581,1908,1579,2
@@ -410,7 +410,7 @@ WC-1986,WC-1986_029,29,1986-06-11,FIFA World Cup,played,Poland,POL,POL,UEFA,Engl
 WC-1986,WC-1986_040,40,1986-06-16,FIFA World Cup,played,Poland,POL,POL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,4,loss,Guadalajara,Mexico,TRUE,1789,1985,1761,2013,-28
 ,,,1986-10-07,Friendly,played,Poland,POL,POL,UEFA,North Korea,PRK,PRK,AFC,TRUE,2,2,draw,Bydgoszcz,Poland,FALSE,1761,1560,1754,1567,-7
 ,,,1986-10-15,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,1,win,Poznań,Poland,FALSE,1754,1628,1763,1619,9
-,,,1986-11-12,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Warsaw,Poland,FALSE,,,,,
+,,,1986-11-12,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Warsaw,Poland,FALSE,1763,1740,1770,1733,7
 ,,,1986-11-19,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,1770,1890,1781,1879,11
 ,,,1987-03-18,Friendly,played,Poland,POL,POL,UEFA,Finland,,,,TRUE,3,1,win,Rybnik,Poland,FALSE,1781,1563,1785,1559,4
 ,,,1987-03-24,Friendly,played,Poland,POL,POL,UEFA,Norway,NOR,NOR,UEFA,TRUE,4,1,win,Wrocław,Poland,FALSE,1785,1716,1795,1706,10
@@ -426,7 +426,7 @@ WC-1986,WC-1986_040,40,1986-06-16,FIFA World Cup,played,Poland,POL,POL,UEFA,Braz
 ,,,1988-02-06,Friendly,played,Poland,POL,POL,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,2,draw,Haifa,Israel,TRUE,1747,1871,1752,1866,5
 ,,,1988-02-10,Friendly,played,Poland,POL,POL,UEFA,Israel,ISR,ISR,UEFA,FALSE,3,1,win,Ramat Gan,Israel,FALSE,1752,1554,1768,1538,16
 ,,,1988-03-23,Friendly,played,Poland,POL,POL,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,1,draw,Belfast,Northern Ireland,FALSE,1768,1702,1769,1701,1
-,,,1988-05-22,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1988-05-22,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,3,loss,Dublin,Republic of Ireland,FALSE,1769,1824,1760,1833,-9
 ,,,1988-06-01,Friendly,played,Poland,POL,POL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,1,2,loss,Moscow,Soviet Union,FALSE,1760,1973,1757,1976,-3
 ,,,1988-07-13,Friendly,played,Poland,POL,POL,UEFA,United States,USA,USA,CONCACAF,FALSE,2,0,win,New Britain,United States,FALSE,1757,1573,1768,1562,11
 ,,,1988-07-15,Friendly,played,Poland,POL,POL,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,2,1,win,Toronto,Canada,FALSE,1768,1561,1775,1554,7
@@ -466,12 +466,12 @@ WC-1986,WC-1986_040,40,1986-06-16,FIFA World Cup,played,Poland,POL,POL,UEFA,Braz
 ,,,1991-03-13,Friendly,played,Poland,POL,POL,UEFA,Finland,,,,TRUE,1,1,draw,Warsaw,Poland,FALSE,1778,1621,1772,1627,-6
 ,,,1991-03-27,Friendly,played,Poland,POL,POL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,4,loss,Olomouc,Czechoslovakia,FALSE,1772,1903,1764,1911,-8
 ,,,1991-04-17,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Warsaw,Poland,FALSE,1764,1618,1778,1604,14
-,,,1991-05-01,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1991-05-01,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1778,1913,1790,1901,12
 ,,,1991-05-29,Friendly,played,Poland,POL,POL,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,0,draw,Radom,Poland,FALSE,1790,1759,1786,1763,-4
 ,,,1991-08-14,Friendly,played,Poland,POL,POL,UEFA,France,FRA,FRA,UEFA,TRUE,1,5,loss,Poznań,Poland,FALSE,1786,1952,1771,1967,-15
 ,,,1991-08-21,Friendly,played,Poland,POL,POL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,0,win,Gdynia,Poland,FALSE,1771,1846,1785,1832,14
 ,,,1991-09-11,Friendly,played,Poland,POL,POL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Eindhoven,Netherlands,FALSE,1785,1943,1791,1937,6
-,,,1991-10-16,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,3,draw,Poznań,Poland,FALSE,,,,,
+,,,1991-10-16,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,3,draw,Poznań,Poland,FALSE,1791,1900,1792,1899,1
 ,,,1991-11-13,UEFA Euro qualification,played,Poland,POL,POL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Poznań,Poland,FALSE,1792,1994,1798,1988,6
 ,,,1991-12-03,Friendly,played,Poland,POL,POL,UEFA,Egypt,EGY,EGY,CAF,FALSE,0,4,loss,Cairo,Egypt,FALSE,1798,1638,1776,1660,-22
 ,,,1991-12-05,Friendly,played,Poland,POL,POL,UEFA,Egypt,EGY,EGY,CAF,FALSE,0,0,draw,Cairo,Egypt,FALSE,1776,1660,1776,1660,0
@@ -619,7 +619,7 @@ WC-2002,WC-2002_048,48,2002-06-14,FIFA World Cup,played,Poland,POL,POL,UEFA,Unit
 ,,,2004-02-18,Friendly,played,Poland,POL,POL,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,2,0,win,San Fernando,Spain,TRUE,1742,1665,1754,1653,12
 ,,,2004-02-21,Friendly,played,Poland,POL,POL,UEFA,Faroe Islands,,,,TRUE,6,0,win,San Fernando,Spain,TRUE,1754,1231,1756,1229,2
 ,,,2004-03-31,Friendly,played,Poland,POL,POL,UEFA,United States,USA,USA,CONCACAF,TRUE,0,1,loss,Płock,Poland,FALSE,1756,1819,1745,1830,-11
-,,,2004-04-28,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Bydgoszcz,Poland,FALSE,,,,,
+,,,2004-04-28,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Bydgoszcz,Poland,FALSE,1745,1846,1745,1846,0
 ,,,2004-05-29,Friendly,played,Poland,POL,POL,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,0,win,Szczecin,Poland,FALSE,1745,1805,1754,1796,9
 ,,,2004-06-05,Friendly,played,Poland,POL,POL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Solna,Sweden,FALSE,1754,1791,1745,1800,-9
 ,,,2004-07-11,Friendly,played,Poland,POL,POL,UEFA,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Chicago,United States,FALSE,1745,1849,1750,1844,5
@@ -687,7 +687,7 @@ WC-2006,WC-2006_033,33,2006-06-20,FIFA World Cup,played,Poland,POL,POL,UEFA,Cost
 ,,,2008-09-10,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,San Marino,,,,FALSE,2,0,win,Serravalle,San Marino,FALSE,1724,926,1725,925,1
 ,,,2008-10-11,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,2,1,win,Chorzów,Poland,FALSE,1725,1862,1747,1840,22
 ,,,2008-10-15,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,2,loss,Bratislava,Slovakia,FALSE,1747,1606,1725,1628,-22
-,,,2008-11-19,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,2,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2008-11-19,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,2,win,Dublin,Republic of Ireland,FALSE,1725,1786,1739,1772,14
 ,,,2008-12-14,Friendly,played,Poland,POL,POL,UEFA,Serbia,SRB,SRB,UEFA,FALSE,1,0,win,Antalya,Turkey,TRUE,1739,1784,1750,1773,11
 ,,,2009-02-07,Friendly,played,Poland,POL,POL,UEFA,Lithuania,,,,FALSE,1,1,draw,Faro,Portugal,TRUE,1750,1630,1747,1633,-3
 ,,,2009-02-11,Friendly,played,Poland,POL,POL,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,0,win,Vila Real de Santo António,Portugal,TRUE,1747,1653,1754,1646,7
@@ -742,7 +742,7 @@ WC-2006,WC-2006_033,33,2006-06-20,FIFA World Cup,played,Poland,POL,POL,UEFA,Cost
 ,,,2012-10-17,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Warsaw,Poland,FALSE,1696,1975,1705,1966,9
 ,,,2012-11-14,Friendly,played,Poland,POL,POL,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,3,loss,Gdańsk,Poland,FALSE,1705,1842,1692,1855,-13
 ,,,2012-12-14,Friendly,played,Poland,POL,POL,UEFA,North Macedonia,,,,FALSE,4,1,win,Antalya,Turkey,TRUE,1692,1538,1702,1528,10
-,,,2013-02-06,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2013-02-06,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,1702,1727,1692,1737,-10
 ,,,2013-03-22,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Ukraine,UKR,UKR,UEFA,TRUE,1,3,loss,Warsaw,Poland,FALSE,1692,1730,1657,1765,-35
 ,,,2013-03-26,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,San Marino,,,,TRUE,5,0,win,Warsaw,Poland,FALSE,1657,884,1658,883,1
 ,,,2013-06-04,Friendly,played,Poland,POL,POL,UEFA,Liechtenstein,,,,TRUE,2,0,win,Kraków,Poland,FALSE,1658,1190,1659,1189,1
@@ -753,7 +753,7 @@ WC-2006,WC-2006_033,33,2006-06-20,FIFA World Cup,played,Poland,POL,POL,UEFA,Cost
 ,,,2013-10-11,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,0,1,loss,Kharkiv,Ukraine,FALSE,1655,1810,1648,1817,-7
 ,,,2013-10-15,FIFA World Cup qualification,played,Poland,POL,POL,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,London,England,FALSE,1648,1959,1643,1964,-5
 ,,,2013-11-15,Friendly,played,Poland,POL,POL,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,0,2,loss,Wrocław,Poland,FALSE,1643,1593,1622,1614,-21
-,,,2013-11-19,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Poznań,Poland,FALSE,,,,,
+,,,2013-11-19,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Poznań,Poland,FALSE,1622,1712,1622,1712,0
 ,,,2014-01-18,Friendly,played,Poland,POL,POL,UEFA,Norway,NOR,NOR,UEFA,FALSE,3,0,win,Abu Dhabi,United Arab Emirates,TRUE,1622,1630,1640,1612,18
 ,,,2014-01-20,Friendly,played,Poland,POL,POL,UEFA,Moldova,,,,FALSE,1,0,win,Abu Dhabi,United Arab Emirates,TRUE,1640,1437,1645,1432,5
 ,,,2014-03-05,Friendly,played,Poland,POL,POL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,0,1,loss,Warsaw,Poland,FALSE,1645,1698,1634,1709,-11
@@ -764,13 +764,13 @@ WC-2006,WC-2006_033,33,2006-06-20,FIFA World Cup,played,Poland,POL,POL,UEFA,Cost
 ,,,2014-10-14,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Warsaw,Poland,FALSE,1707,1714,1702,1719,-5
 ,,,2014-11-14,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Georgia,,,,FALSE,4,0,win,Tbilisi,Georgia,FALSE,1702,1493,1728,1467,26
 ,,,2014-11-18,Friendly,played,Poland,POL,POL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,2,draw,Wrocław,Poland,FALSE,1728,1790,1727,1791,-1
-,,,2015-03-29,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2015-03-29,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1727,1732,1733,1726,6
 ,,,2015-06-13,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Georgia,,,,TRUE,4,0,win,Warsaw,Poland,FALSE,1733,1466,1741,1458,8
 ,,,2015-06-16,Friendly,played,Poland,POL,POL,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Gdańsk,Poland,FALSE,1741,1641,1736,1646,-5
 ,,,2015-09-04,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Frankfurt am Main,Germany,FALSE,1736,2108,1732,2112,-4
 ,,,2015-09-07,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Gibraltar,,,,TRUE,8,1,win,Warsaw,Poland,FALSE,1732,1129,1734,1127,2
 ,,,2015-10-08,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,2,draw,Glasgow,Scotland,FALSE,1734,1699,1738,1695,4
-,,,2015-10-11,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Warsaw,Poland,FALSE,,,,,
+,,,2015-10-11,UEFA Euro qualification,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Warsaw,Poland,FALSE,1738,1758,1753,1743,15
 ,,,2015-11-13,Friendly,played,Poland,POL,POL,UEFA,Iceland,ISL,ISL,UEFA,TRUE,4,2,win,Warsaw,Poland,FALSE,1753,1690,1761,1682,8
 ,,,2015-11-17,Friendly,played,Poland,POL,POL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,3,1,win,Wrocław,Poland,FALSE,1761,1776,1772,1765,11
 ,,,2016-03-23,Friendly,played,Poland,POL,POL,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,0,win,Poznań,Poland,FALSE,1772,1715,1778,1709,6
@@ -803,7 +803,7 @@ WC-2018,WC-2018_016,16,2018-06-19,FIFA World Cup,played,Poland,POL,POL,UEFA,Sene
 WC-2018,WC-2018_032,32,2018-06-24,FIFA World Cup,played,Poland,POL,POL,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,0,3,loss,Kazan,Russia,TRUE,1793,1879,1753,1919,-40
 WC-2018,WC-2018_045,45,2018-06-28,FIFA World Cup,played,Poland,POL,POL,UEFA,Japan,JPN,JPN,AFC,FALSE,1,0,win,Volgograd,Russia,TRUE,1753,1736,1782,1707,29
 ,,,2018-09-07,UEFA Nations League,played,Poland,POL,POL,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Bologna,Italy,FALSE,1782,1890,1793,1879,11
-,,,2018-09-11,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Wrocław,Poland,FALSE,,,,,
+,,,2018-09-11,Friendly,played,Poland,POL,POL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Wrocław,Poland,FALSE,1793,1708,1788,1713,-5
 ,,,2018-10-11,UEFA Nations League,played,Poland,POL,POL,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,3,loss,Chorzów,Poland,FALSE,1788,1947,1771,1964,-17
 ,,,2018-10-14,UEFA Nations League,played,Poland,POL,POL,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,1,loss,Chorzów,Poland,FALSE,1771,1862,1750,1883,-21
 ,,,2018-11-15,Friendly,played,Poland,POL,POL,UEFA,Czechia,CZE,CZE,UEFA,TRUE,0,1,loss,Gdańsk,Poland,FALSE,1750,1697,1736,1711,-14

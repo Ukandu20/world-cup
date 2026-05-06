@@ -78,10 +78,10 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1973-03-18,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Indonesia,IDN,IDN,AFC,FALSE,0,1,loss,Melbourne,Australia,TRUE,1488,1410,1464,1434,-24
 ,,,1973-03-24,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Iraq,IRQ,IRQ,AFC,FALSE,0,4,loss,Sydney,Australia,TRUE,1464,1581,1439,1606,-25
 ,,,1973-08-12,Friendly,played,New Zealand,NZL,NZL,OFC,Iran,IRN,IRN,AFC,TRUE,0,0,draw,Auckland,New Zealand,FALSE,1439,1588,1440,1587,1
-,,,1975-07-20,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,1,win,Auckland,New Zealand,FALSE,,,,,
-,,,1975-07-23,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,2,draw,Wellington,New Zealand,FALSE,,,,,
-,,,1975-07-26,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,0,win,Christchurch,New Zealand,FALSE,,,,,
-,,,1975-10-19,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,1,2,loss,Beijing,China PR,FALSE,,,,,
+,,,1975-07-20,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,1,win,Auckland,New Zealand,FALSE,1440,1589,1451,1578,11
+,,,1975-07-23,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,2,draw,Wellington,New Zealand,FALSE,1451,1578,1452,1577,1
+,,,1975-07-26,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,0,win,Christchurch,New Zealand,FALSE,1452,1577,1468,1561,16
+,,,1975-10-19,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,1,2,loss,Beijing,China PR,FALSE,1468,1557,1463,1562,-5
 ,,,1975-11-05,Friendly,played,New Zealand,NZL,NZL,OFC,Macau,,,,FALSE,1,1,draw,Macau,Macau,FALSE,,,,,
 ,,,1975-11-09,Friendly,played,New Zealand,NZL,NZL,OFC,Singapore,,,,FALSE,2,2,draw,Kallang,Singapore,FALSE,1456,1130,1450,1136,-6
 ,,,1976-02-29,Friendly,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,TRUE,0,1,loss,Auckland,New Zealand,FALSE,1450,1682,1444,1688,-6
@@ -130,13 +130,13 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1981-09-07,Merdeka Tournament,played,New Zealand,NZL,NZL,OFC,Indonesia,IDN,IDN,AFC,FALSE,0,0,draw,Kuala Lumpur,Malaysia,TRUE,1567,1235,1556,1246,-11
 ,,,1981-09-10,Merdeka Tournament,played,New Zealand,NZL,NZL,OFC,United Arab Emirates,ARE,ARE,AFC,TRUE,0,1,loss,Kuala Lumpur,Malaysia,TRUE,1556,1016,1527,1045,-29
 ,,,1981-09-12,Merdeka Tournament,played,New Zealand,NZL,NZL,OFC,Japan,JPN,JPN,AFC,FALSE,1,0,win,Kuala Lumpur,Malaysia,TRUE,1527,1501,1541,1487,14
-,,,1981-09-24,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,0,0,draw,Beijing,China PR,FALSE,,,,,
-,,,1981-10-03,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,1,0,win,Auckland,New Zealand,FALSE,,,,,
+,,,1981-09-24,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,0,0,draw,Beijing,China PR,FALSE,1541,1619,1550,1610,9
+,,,1981-10-03,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,1,0,win,Auckland,New Zealand,FALSE,1550,1610,1568,1592,18
 ,,,1981-10-10,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Kuwait,KWT,KWT,AFC,TRUE,1,2,loss,Auckland,New Zealand,FALSE,1568,1641,1546,1663,-22
 ,,,1981-11-28,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Saudi Arabia,KSA,SAU,AFC,TRUE,2,2,draw,Auckland,New Zealand,FALSE,1546,1440,1535,1451,-11
 ,,,1981-12-14,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Kuwait,KWT,KWT,AFC,FALSE,2,2,draw,Kuwait City,Kuwait,FALSE,1535,1672,1547,1660,12
 ,,,1981-12-19,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Saudi Arabia,KSA,SAU,AFC,FALSE,5,0,win,Riyadh,Saudi Arabia,FALSE,1547,1443,1587,1403,40
-,,,1982-01-10,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,2,1,win,Kallang,Singapore,TRUE,,,,,
+,,,1982-01-10,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,2,1,win,Kallang,Singapore,TRUE,1587,1642,1610,1619,23
 ,,,1982-02-11,Friendly,played,New Zealand,NZL,NZL,OFC,Hungary,HUN,HUN,UEFA,TRUE,1,2,loss,Auckland,New Zealand,FALSE,1610,1809,1603,1816,-7
 ,,,1982-02-14,Friendly,played,New Zealand,NZL,NZL,OFC,Hungary,HUN,HUN,UEFA,TRUE,1,2,loss,Christchurch,New Zealand,FALSE,1603,1816,1596,1823,-7
 WC-1982,WC-1982_006,6,1982-06-15,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,Scotland,SCO,SCO,UEFA,FALSE,2,5,loss,Málaga,Spain,TRUE,1596,1840,1575,1861,-21
@@ -181,8 +181,8 @@ WC-1982,WC-1982_029,29,1982-06-23,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,
 ,,,1989-03-12,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,FALSE,1,4,loss,Sydney,Australia,FALSE,1481,1715,1472,1724,-9
 ,,,1989-04-02,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,TRUE,2,0,win,Auckland,New Zealand,FALSE,1472,1724,1514,1682,42
 ,,,1989-04-09,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Israel,ISR,ISR,UEFA,TRUE,2,2,draw,Auckland,New Zealand,FALSE,1514,1625,1515,1624,1
-,,,1990-08-16,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,1,win,Lower Hutt,New Zealand,FALSE,,,,,
-,,,1990-08-24,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,1,0,win,Auckland,New Zealand,FALSE,,,,,
+,,,1990-08-16,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,1,win,Lower Hutt,New Zealand,FALSE,1515,1556,1523,1548,8
+,,,1990-08-24,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,1,0,win,Auckland,New Zealand,FALSE,1523,1548,1531,1540,8
 ,,,1991-05-12,Trans-Tasman Cup,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,TRUE,0,1,loss,Christchurch,New Zealand,FALSE,1531,1650,1517,1664,-14
 ,,,1991-05-15,Trans-Tasman Cup,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,FALSE,1,2,loss,Adelaide,Australia,FALSE,1517,1664,1511,1670,-6
 ,,,1991-06-03,Friendly,played,New Zealand,NZL,NZL,OFC,England,ENG,ENG,UEFA,TRUE,0,1,loss,Auckland,New Zealand,FALSE,1511,1997,1509,1999,-2
@@ -204,7 +204,7 @@ WC-1982,WC-1982_029,29,1982-06-23,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,
 ,,,1995-06-28,Friendly,played,New Zealand,NZL,NZL,OFC,Uruguay,URY,URY,CONMEBOL,FALSE,2,2,draw,Rivera,Uruguay,FALSE,1480,1806,1488,1798,8
 ,,,1995-11-10,Trans-Tasman Cup,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,TRUE,0,0,draw,Christchurch,New Zealand,FALSE,1488,1705,1496,1697,8
 ,,,1995-11-15,Trans-Tasman Cup,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,FALSE,0,3,loss,Newcastle,Australia,FALSE,1496,1697,1483,1710,-13
-,,,1996-06-28,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,0,2,loss,Beijing,China PR,FALSE,,,,,
+,,,1996-06-28,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,0,2,loss,Beijing,China PR,FALSE,1483,1610,1477,1616,-6
 ,,,1996-09-29,Friendly,played,New Zealand,NZL,NZL,OFC,Oman,,,,FALSE,1,0,win,Muscat,Oman,FALSE,1477,1285,1484,1278,7
 ,,,1996-10-01,Friendly,played,New Zealand,NZL,NZL,OFC,Oman,,,,FALSE,2,1,win,Muscat,Oman,FALSE,1484,1278,1491,1271,7
 ,,,1996-10-03,Friendly,played,New Zealand,NZL,NZL,OFC,Saudi Arabia,KSA,SAU,AFC,FALSE,0,3,loss,Dhahran,Saudi Arabia,FALSE,1491,1588,1482,1597,-9
@@ -238,7 +238,7 @@ WC-1982,WC-1982_029,29,1982-06-23,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,
 ,,,1999-07-24,Confederations Cup,played,New Zealand,NZL,NZL,OFC,United States,USA,USA,CONCACAF,TRUE,1,2,loss,Guadalajara,Mexico,TRUE,1526,1737,1515,1748,-11
 ,,,1999-07-28,Confederations Cup,played,New Zealand,NZL,NZL,OFC,Germany,GER,DEU,UEFA,FALSE,0,2,loss,Guadalajara,Mexico,TRUE,1515,1919,1508,1926,-7
 ,,,1999-07-30,Confederations Cup,played,New Zealand,NZL,NZL,OFC,Brazil,BRA,BRA,CONMEBOL,TRUE,0,2,loss,Guadalajara,Mexico,TRUE,1508,2142,1506,2144,-2
-,,,2000-01-14,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,0,1,loss,Guangzhou,China PR,FALSE,,,,,
+,,,2000-01-14,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,0,1,loss,Guangzhou,China PR,FALSE,1506,1692,1501,1697,-5
 ,,,2000-01-16,Friendly,played,New Zealand,NZL,NZL,OFC,Jamaica,JAM,JAM,CONCACAF,FALSE,1,2,loss,Guangzhou,China PR,TRUE,1501,1589,1490,1600,-11
 ,,,2000-01-21,Friendly,played,New Zealand,NZL,NZL,OFC,South Korea,KOR,KOR,AFC,TRUE,0,1,loss,Auckland,New Zealand,FALSE,1490,1724,1484,1730,-6
 ,,,2000-01-23,Friendly,played,New Zealand,NZL,NZL,OFC,South Korea,KOR,KOR,AFC,TRUE,0,0,draw,Palmerston North,New Zealand,FALSE,1484,1730,1488,1726,4
@@ -311,7 +311,7 @@ WC-2010,WC-2010_028,28,2010-06-20,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,
 WC-2010,WC-2010_043,43,2010-06-24,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,Paraguay,PRY,PRY,CONMEBOL,FALSE,0,0,draw,Polokwane,South Africa,TRUE,1563,1808,1581,1790,18
 ,,,2010-10-09,Friendly,played,New Zealand,NZL,NZL,OFC,Honduras,HND,HND,CONCACAF,TRUE,1,1,draw,North Shore,New Zealand,FALSE,1581,1679,1581,1679,0
 ,,,2010-10-12,Friendly,played,New Zealand,NZL,NZL,OFC,Paraguay,PRY,PRY,CONMEBOL,TRUE,0,2,loss,Wellington,New Zealand,FALSE,1581,1770,1570,1781,-11
-,,,2011-03-25,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,1,1,draw,Wuhan,China PR,FALSE,,,,,
+,,,2011-03-25,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,1,1,draw,Wuhan,China PR,FALSE,1570,1623,1574,1619,4
 ,,,2011-06-01,Friendly,played,New Zealand,NZL,NZL,OFC,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Denver,United States,TRUE,1574,1856,1568,1862,-6
 ,,,2011-06-05,Friendly,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,FALSE,0,3,loss,Adelaide,Australia,FALSE,1568,1811,1564,1815,-4
 ,,,2012-02-29,Friendly,played,New Zealand,NZL,NZL,OFC,Jamaica,JAM,JAM,CONCACAF,TRUE,2,3,loss,Auckland,New Zealand,FALSE,1564,1644,1553,1655,-11
@@ -326,7 +326,7 @@ WC-2010,WC-2010_043,43,2010-06-24,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,
 ,,,2012-09-11,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Solomon Islands,,,,TRUE,6,1,win,Auckland,New Zealand,FALSE,1541,1271,1549,1263,8
 ,,,2012-10-12,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Tahiti,,,,FALSE,2,0,win,Pirae,Tahiti,FALSE,1549,1238,1563,1224,14
 ,,,2012-10-16,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Tahiti,,,,TRUE,3,0,win,Christchurch,New Zealand,FALSE,1563,1224,1568,1219,5
-,,,2012-11-14,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,1,1,draw,Shanghai,China PR,FALSE,,,,,
+,,,2012-11-14,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,1,1,draw,Shanghai,China PR,FALSE,1568,1632,1572,1628,4
 ,,,2013-03-22,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,New Caledonia,,,,TRUE,2,1,win,Dunedin,New Zealand,FALSE,1572,1349,1577,1344,5
 ,,,2013-03-26,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Solomon Islands,,,,FALSE,2,0,win,Honiara,Solomon Islands,FALSE,1577,1179,1586,1170,9
 ,,,2013-09-05,OSN Cup,played,New Zealand,NZL,NZL,OFC,Saudi Arabia,KSA,SAU,AFC,FALSE,1,0,win,Riyadh,Saudi Arabia,FALSE,1586,1506,1602,1490,16
@@ -337,7 +337,7 @@ WC-2010,WC-2010_043,43,2010-06-24,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,
 ,,,2014-03-05,Friendly,played,New Zealand,NZL,NZL,OFC,Japan,JPN,JPN,AFC,FALSE,2,4,loss,Tokyo,Japan,FALSE,1547,1764,1543,1768,-4
 ,,,2014-05-30,Friendly,played,New Zealand,NZL,NZL,OFC,South Africa,ZAF,ZAF,CAF,TRUE,0,0,draw,Auckland,New Zealand,FALSE,1543,1576,1541,1578,-2
 ,,,2014-09-08,Friendly,played,New Zealand,NZL,NZL,OFC,Uzbekistan,,,,FALSE,1,3,loss,Tashkent,Uzbekistan,FALSE,1541,1623,1533,1631,-8
-,,,2014-11-14,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,1,1,draw,Nanchang,China PR,FALSE,,,,,
+,,,2014-11-14,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,FALSE,1,1,draw,Nanchang,China PR,FALSE,1533,1565,1537,1561,4
 ,,,2014-11-18,Friendly,played,New Zealand,NZL,NZL,OFC,Thailand,,,,FALSE,0,2,loss,Nakhon Ratchasima,Thailand,FALSE,1537,1305,1517,1325,-20
 ,,,2015-03-31,Friendly,played,New Zealand,NZL,NZL,OFC,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Seoul,South Korea,FALSE,1517,1731,1514,1734,-3
 ,,,2015-09-07,Friendly,played,New Zealand,NZL,NZL,OFC,Myanmar,,,,FALSE,1,1,draw,Yangon,Myanmar,FALSE,1514,1031,1506,1039,-8
@@ -366,7 +366,7 @@ WC-2010,WC-2010_043,43,2010-06-24,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,
 ,,,2018-06-02,Intercontinental Cup,played,New Zealand,NZL,NZL,OFC,Kenya,,,,FALSE,1,2,loss,Mumbai,India,TRUE,1514,1364,1493,1385,-21
 ,,,2018-06-05,Intercontinental Cup,played,New Zealand,NZL,NZL,OFC,Taiwan,,,,FALSE,1,0,win,Mumbai,India,TRUE,1493,986,1495,984,2
 ,,,2018-06-07,Intercontinental Cup,played,New Zealand,NZL,NZL,OFC,India,,,,FALSE,2,1,win,Mumbai,India,FALSE,1495,1198,1502,1191,7
-,,,2019-11-14,Friendly,played,New Zealand,NZL,NZL,OFC,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2019-11-14,Friendly,played,New Zealand,NZL,NZL,OFC,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,3,loss,Dublin,Republic of Ireland,FALSE,1502,1721,1498,1725,-4
 ,,,2019-11-17,Friendly,played,New Zealand,NZL,NZL,OFC,Lithuania,,,,FALSE,0,1,loss,Vilnius,Lithuania,FALSE,1498,1307,1485,1320,-13
 ,,,2021-10-09,Friendly,played,New Zealand,NZL,NZL,OFC,Curaçao,,,,FALSE,2,1,win,Riffa,Bahrain,TRUE,1485,1416,1497,1404,12
 ,,,2021-10-12,Friendly,played,New Zealand,NZL,NZL,OFC,Bahrain,,,,FALSE,1,0,win,Riffa,Bahrain,FALSE,1497,1572,1519,1550,22
@@ -382,13 +382,13 @@ WC-2010,WC-2010_043,43,2010-06-24,FIFA World Cup,played,New Zealand,NZL,NZL,OFC,
 ,,,2022-06-14,FIFA World Cup qualification,played,New Zealand,NZL,NZL,OFC,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,Al Rayyan,Qatar,TRUE,1554,1715,1543,1726,-11
 ,,,2022-09-22,Friendly,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Brisbane,Australia,FALSE,1543,1705,1539,1709,-4
 ,,,2022-09-25,Friendly,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,TRUE,0,2,loss,Auckland,New Zealand,FALSE,1539,1709,1527,1721,-12
-,,,2023-03-23,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,0,0,draw,Auckland,New Zealand,FALSE,,,,,
-,,,2023-03-26,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,1,win,Wellington,New Zealand,FALSE,,,,,
+,,,2023-03-23,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,0,0,draw,Auckland,New Zealand,FALSE,1527,1471,1523,1475,-4
+,,,2023-03-26,Friendly,played,New Zealand,NZL,NZL,OFC,China PR,,,,TRUE,2,1,win,Wellington,New Zealand,FALSE,1523,1475,1529,1469,6
 ,,,2023-06-16,Friendly,played,New Zealand,NZL,NZL,OFC,Sweden,SWE,SWE,UEFA,FALSE,1,4,loss,Stockholm,Sweden,FALSE,1529,1751,1524,1756,-5
 ,,,2023-10-13,Friendly,played,New Zealand,NZL,NZL,OFC,DR Congo,,,,FALSE,1,1,draw,Murcia,Spain,TRUE,1535,1517,1534,1518,-1
 ,,,2023-10-17,Soccer Ashes,played,New Zealand,NZL,NZL,OFC,Australia,AUS,AUS,AFC,FALSE,0,2,loss,Brentford,England,TRUE,1534,1771,1525,1780,-9
 ,,,2023-11-17,Friendly,played,New Zealand,NZL,NZL,OFC,Greece,GRC,GRC,UEFA,FALSE,0,2,loss,Athens,Greece,FALSE,1525,1709,1520,1714,-5
-,,,2023-11-21,Friendly,played,New Zealand,NZL,NZL,OFC,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2023-11-21,Friendly,played,New Zealand,NZL,NZL,OFC,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1520,1613,1525,1608,5
 ,,,2024-03-22,FIFA Series,played,New Zealand,NZL,NZL,OFC,Egypt,EGY,EGY,CAF,FALSE,0,1,loss,Cairo,Egypt,FALSE,1525,1639,1518,1646,-7
 ,,,2024-03-26,FIFA Series,played,New Zealand,NZL,NZL,OFC,Tunisia,TUN,TUN,CAF,TRUE,0,0,draw,Cairo,Egypt,TRUE,1518,1684,1525,1677,7
 ,,,2024-06-18,Oceania Nations Cup,played,New Zealand,NZL,NZL,OFC,Solomon Islands,,,,TRUE,3,0,win,Port Vila,Vanuatu,TRUE,1525,1252,1540,1237,15

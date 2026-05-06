@@ -111,8 +111,8 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1973-04-21,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,Senegal,SEN,SEN,CAF,FALSE,0,1,loss,Dakar,Senegal,FALSE,1642,1525,1621,1546,-21
 ,,,1973-07-15,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,0,3,loss,Accra,Ghana,FALSE,,,,,
 ,,,1973-07-29,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,Ivory Coast,CIV,CIV,CAF,FALSE,0,1,loss,Abidjan,Ivory Coast,FALSE,,,,,
-,,,1973-08-05,FIFA World Cup qualification,played,Ghana,GHA,GHA,CAF,DR Congo,,,,TRUE,1,0,win,Accra,Ghana,FALSE,,,,,
-,,,1973-08-19,FIFA World Cup qualification,played,Ghana,GHA,GHA,CAF,DR Congo,,,,FALSE,1,4,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1973-08-05,FIFA World Cup qualification,played,Ghana,GHA,GHA,CAF,DR Congo,,,,TRUE,1,0,win,Accra,Ghana,FALSE,1621,1708,1640,1689,19
+,,,1973-08-19,FIFA World Cup qualification,played,Ghana,GHA,GHA,CAF,DR Congo,,,,FALSE,1,4,loss,Kinshasa,Zaïre,FALSE,1640,1689,1619,1710,-21
 ,,,1974-02-15,Friendly,played,Ghana,GHA,GHA,CAF,Guinea,,,,TRUE,5,2,win,Accra,Ghana,FALSE,1564,1651,1581,1634,17
 ,,,1974-02-17,Friendly,played,Ghana,GHA,GHA,CAF,Guinea,,,,TRUE,3,1,win,Accra,Ghana,FALSE,1581,1634,1594,1621,13
 ,,,1974-08-11,Friendly,played,Ghana,GHA,GHA,CAF,Nigeria,NGA,NGA,CAF,FALSE,1,1,draw,Lagos,Nigeria,FALSE,1596,1640,1602,1634,6
@@ -161,8 +161,8 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1981-04-26,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,Congo,,,,FALSE,1,0,win,Brazzaville,Congo,FALSE,1639,1545,1659,1525,20
 ,,,1981-06-27,Friendly,played,Ghana,GHA,GHA,CAF,Liberia,,,,FALSE,0,0,draw,Monrovia,Liberia,FALSE,1659,1374,1654,1379,-5
 ,,,1981-07-19,Friendly,played,Ghana,GHA,GHA,CAF,Benin,,,,FALSE,2,1,win,Cotonou,Benin,FALSE,1654,1315,1658,1311,4
-,,,1981-07-22,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,DR Congo,,,,TRUE,2,2,draw,Accra,Ghana,FALSE,,,,,
-,,,1981-08-02,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,DR Congo,,,,FALSE,2,1,win,Kinshasa,Zaïre,FALSE,,,,,
+,,,1981-07-22,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,DR Congo,,,,TRUE,2,2,draw,Accra,Ghana,FALSE,1658,1554,1647,1565,-11
+,,,1981-08-02,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,DR Congo,,,,FALSE,2,1,win,Kinshasa,Zaïre,FALSE,1647,1567,1668,1546,21
 ,,,1981-08-22,Friendly,played,Ghana,GHA,GHA,CAF,Iraq,IRQ,IRQ,AFC,FALSE,0,4,loss,Baghdad,Iraq,FALSE,,,,,
 ,,,1981-08-24,Friendly,played,Ghana,GHA,GHA,CAF,Iraq,IRQ,IRQ,AFC,FALSE,2,2,draw,Baghdad,Iraq,FALSE,,,,,
 ,,,1982-02-13,West African Cup,played,Ghana,GHA,GHA,CAF,Benin,,,,FALSE,4,0,win,Cotonou,Benin,FALSE,1668,1302,1681,1289,13
@@ -316,7 +316,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1996-01-14,African Cup of Nations,played,Ghana,GHA,GHA,CAF,Ivory Coast,CIV,CIV,CAF,FALSE,2,0,win,Port Elizabeth,South Africa,TRUE,1659,1652,1696,1615,37
 ,,,1996-01-19,African Cup of Nations,played,Ghana,GHA,GHA,CAF,Tunisia,TUN,TUN,CAF,TRUE,2,1,win,Port Elizabeth,South Africa,TRUE,1696,1542,1711,1527,15
 ,,,1996-01-25,African Cup of Nations,played,Ghana,GHA,GHA,CAF,Mozambique,,,,FALSE,2,0,win,Bloemfontein,South Africa,TRUE,1711,1414,1722,1403,11
-,,,1996-01-28,African Cup of Nations,played,Ghana,GHA,GHA,CAF,DR Congo,,,,TRUE,1,0,win,Port Elizabeth,South Africa,TRUE,,,,,
+,,,1996-01-28,African Cup of Nations,played,Ghana,GHA,GHA,CAF,DR Congo,,,,TRUE,1,0,win,Port Elizabeth,South Africa,TRUE,1722,1520,1734,1508,12
 ,,,1996-01-31,African Cup of Nations,played,Ghana,GHA,GHA,CAF,South Africa,ZAF,ZAF,CAF,FALSE,0,3,loss,Johannesburg,South Africa,FALSE,1734,1677,1696,1715,-38
 ,,,1996-02-03,African Cup of Nations,played,Ghana,GHA,GHA,CAF,Zambia,,,,FALSE,0,1,loss,Johannesburg,South Africa,TRUE,1696,1641,1667,1670,-29
 ,,,1996-03-27,Friendly,played,Ghana,GHA,GHA,CAF,Brazil,BRA,BRA,CONMEBOL,FALSE,2,8,loss,São José do Rio Preto,Brazil,FALSE,1667,2066,1665,2068,-2
@@ -341,7 +341,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1997-04-08,Nehru Cup,played,Ghana,GHA,GHA,CAF,India,,,,FALSE,2,2,draw,Kochi,India,FALSE,,,,,
 ,,,1997-04-27,FIFA World Cup qualification,played,Ghana,GHA,GHA,CAF,Gabon,,,,TRUE,3,0,win,Accra,Ghana,FALSE,1560,1440,1575,1425,15
 ,,,1997-06-08,FIFA World Cup qualification,played,Ghana,GHA,GHA,CAF,Morocco,MAR,MAR,CAF,FALSE,0,1,loss,Casablanca,Morocco,FALSE,,,,,
-,,,1997-06-12,Korea Cup,played,Ghana,GHA,GHA,CAF,Serbia,SRB,SRB,UEFA,TRUE,1,3,loss,Seoul,South Korea,TRUE,,,,,
+,,,1997-06-12,Korea Cup,played,Ghana,GHA,GHA,CAF,Serbia,SRB,SRB,UEFA,TRUE,1,3,loss,Seoul,South Korea,TRUE,1566,1959,1562,1963,-4
 ,,,1997-06-14,Korea Cup,played,Ghana,GHA,GHA,CAF,South Korea,KOR,KOR,AFC,FALSE,0,3,loss,Suwon,South Korea,FALSE,1562,1649,1549,1662,-13
 ,,,1997-06-16,Korea Cup,played,Ghana,GHA,GHA,CAF,Egypt,EGY,EGY,CAF,FALSE,0,2,loss,Seoul,South Korea,TRUE,1549,1553,1527,1575,-22
 ,,,1997-06-22,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,Angola,AGO,AGO,CAF,FALSE,0,1,loss,Luanda,Angola,FALSE,1527,1514,1512,1529,-15
@@ -516,7 +516,7 @@ WC-2010,WC-2010_058,58,2010-07-02,FIFA World Cup,played,Ghana,GHA,GHA,CAF,Urugua
 ,,,2012-02-29,Friendly,played,Ghana,GHA,GHA,CAF,Chile,CHL,CHL,CONMEBOL,FALSE,1,1,draw,Chester,United States,TRUE,1691,1870,1696,1865,5
 ,,,2012-06-01,FIFA World Cup qualification,played,Ghana,GHA,GHA,CAF,Lesotho,,,,TRUE,7,0,win,Kumasi,Ghana,FALSE,1696,1140,1698,1138,2
 ,,,2012-06-09,FIFA World Cup qualification,played,Ghana,GHA,GHA,CAF,Zambia,,,,FALSE,0,1,loss,Ndola,Zambia,FALSE,1698,1598,1678,1618,-20
-,,,2012-08-15,Friendly,played,Ghana,GHA,GHA,CAF,China PR,,,,FALSE,1,1,draw,Xi'an,China PR,FALSE,,,,,
+,,,2012-08-15,Friendly,played,Ghana,GHA,GHA,CAF,China PR,,,,FALSE,1,1,draw,Xi'an,China PR,FALSE,1678,1639,1680,1637,2
 ,,,2012-09-08,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,Malawi,,,,TRUE,2,0,win,Accra,Ghana,FALSE,1680,1404,1686,1398,6
 ,,,2012-09-11,Friendly,played,Ghana,GHA,GHA,CAF,Liberia,,,,FALSE,0,2,loss,Paynesville,Liberia,FALSE,1686,1291,1661,1316,-25
 ,,,2012-10-13,African Cup of Nations qualification,played,Ghana,GHA,GHA,CAF,Malawi,,,,FALSE,1,0,win,Lilongwe,Malawi,FALSE,1661,1398,1672,1387,11

@@ -55,7 +55,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1925-11-04,Friendly,played,Italy,ITA,ITA,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,1,win,Padua,Italy,FALSE,1713,1554,1717,1550,4
 ,,,1925-11-08,Friendly,played,Italy,ITA,ITA,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,1717,1807,1722,1802,5
 ,,,1926-01-17,Friendly,played,Italy,ITA,ITA,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,1,win,Turin,Italy,FALSE,1722,1890,1740,1872,18
-,,,1926-03-21,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Turin,Italy,FALSE,,,,,
+,,,1926-03-21,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Turin,Italy,FALSE,1740,1608,1747,1601,7
 ,,,1926-04-18,Friendly,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,1,draw,Zürich,Switzerland,FALSE,1747,1735,1749,1733,2
 ,,,1926-05-09,Friendly,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,3,2,win,Milan,Italy,FALSE,1749,1721,1755,1715,6
 ,,,1926-07-18,Friendly,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,FALSE,3,5,loss,Stockholm,Sweden,FALSE,1755,1869,1748,1876,-7
@@ -192,10 +192,10 @@ WC-1954,WC-1954_013,13,1954-06-20,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Belgi
 WC-1954,WC-1954_018,18,1954-06-23,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,4,loss,Basel,Switzerland,FALSE,1897,1690,1829,1758,-68
 ,,,1954-12-05,Friendly,played,Italy,ITA,ITA,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,0,win,Rome,Italy,FALSE,1829,2087,1850,2066,21
 ,,,1955-01-16,Friendly,played,Italy,ITA,ITA,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Bari,Italy,FALSE,1850,1782,1856,1776,6
-,,,1955-03-30,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Stuttgart,Germany,FALSE,,,,,
+,,,1955-03-30,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Stuttgart,Germany,FALSE,1856,2040,1873,2023,17
 ,,,1955-05-29,Central European International Cup,played,Italy,ITA,ITA,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,4,loss,Turin,Italy,FALSE,1873,1933,1831,1975,-42
 ,,,1955-11-27,Central European International Cup,played,Italy,ITA,ITA,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,2,loss,Budapest,Hungary,FALSE,1831,2210,1827,2214,-4
-,,,1955-12-18,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,2,1,win,Rome,Italy,FALSE,,,,,
+,,,1955-12-18,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,2,1,win,Rome,Italy,FALSE,1827,1998,1839,1986,12
 ,,,1956-02-15,Friendly,played,Italy,ITA,ITA,UEFA,France,FRA,FRA,UEFA,TRUE,2,0,win,Bologna,Italy,FALSE,1839,1839,1850,1828,11
 ,,,1956-04-25,Friendly,played,Italy,ITA,ITA,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,3,0,win,Milan,Italy,FALSE,1850,2036,1872,2014,22
 ,,,1956-06-24,Friendly,played,Italy,ITA,ITA,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Avellaneda,Argentina,FALSE,1872,2053,1869,2056,-3
@@ -225,7 +225,7 @@ WC-1954,WC-1954_018,18,1954-06-23,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Switz
 ,,,1961-11-04,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Israel,ISR,ISR,UEFA,TRUE,6,0,win,Turin,Italy,FALSE,1828,1606,1840,1594,12
 ,,,1962-05-05,Friendly,played,Italy,ITA,ITA,UEFA,France,FRA,FRA,UEFA,TRUE,2,1,win,Florence,Italy,FALSE,1863,1760,1868,1755,5
 ,,,1962-05-13,Friendly,played,Italy,ITA,ITA,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,1,win,Brussels,Belgium,FALSE,1882,1664,1892,1654,10
-WC-1962,WC-1962_007,7,1962-05-31,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Santiago,Chile,TRUE,,,,,
+WC-1962,WC-1962_007,7,1962-05-31,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Santiago,Chile,TRUE,1892,1901,1893,1900,1
 WC-1962,WC-1962_011,11,1962-06-02,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,0,2,loss,Santiago,Chile,FALSE,1893,1769,1845,1817,-48
 WC-1962,WC-1962_024,24,1962-06-07,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,3,0,win,Santiago,Chile,TRUE,1845,1665,1872,1638,27
 ,,,1962-11-11,Friendly,played,Italy,ITA,ITA,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,1,win,Vienna,Austria,FALSE,1872,1863,1885,1850,13
@@ -240,7 +240,7 @@ WC-1962,WC-1962_024,24,1962-06-07,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Switz
 ,,,1964-05-10,Friendly,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,1,win,Lausanne,Switzerland,FALSE,1923,1586,1929,1580,6
 ,,,1964-11-04,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Finland,,,,TRUE,6,1,win,Genoa,Italy,FALSE,1929,1377,1931,1375,2
 ,,,1964-12-05,Friendly,played,Italy,ITA,ITA,UEFA,Denmark,DNK,DNK,UEFA,TRUE,3,1,win,Bologna,Italy,FALSE,1931,1633,1934,1630,3
-,,,1965-03-13,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Hamburg,Germany,FALSE,,,,,
+,,,1965-03-13,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Hamburg,Germany,FALSE,1934,1895,1936,1893,2
 ,,,1965-04-18,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Poland,POL,POL,UEFA,FALSE,0,0,draw,Warsaw,Poland,FALSE,1936,1691,1928,1699,-8
 ,,,1965-05-01,Friendly,played,Italy,ITA,ITA,UEFA,Wales,WAL,WAL,UEFA,TRUE,4,1,win,Florence,Italy,FALSE,1928,1743,1934,1737,6
 ,,,1965-06-16,Friendly,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,2,draw,Malmö,Sweden,FALSE,1934,1857,1935,1856,1
@@ -283,13 +283,13 @@ WC-1970,WC-1970_008,8,1970-06-03,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Sweden
 WC-1970,WC-1970_011,11,1970-06-06,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,0,0,draw,Puebla,Mexico,TRUE,2024,1890,2013,1901,-11
 WC-1970,WC-1970_023,23,1970-06-11,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Israel,ISR,ISR,UEFA,FALSE,0,0,draw,Toluca,Mexico,TRUE,2013,1673,1990,1696,-23
 WC-1970,WC-1970_027,27,1970-06-14,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,4,1,win,Toluca,Mexico,FALSE,1990,1755,2023,1722,33
-WC-1970,WC-1970_030,30,1970-06-17,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,4,3,win,Mexico City,Mexico,TRUE,,,,,
+WC-1970,WC-1970_030,30,1970-06-17,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,4,3,win,Mexico City,Mexico,TRUE,2023,2078,2058,2043,35
 WC-1970,WC-1970_032,32,1970-06-21,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,4,loss,Mexico City,Mexico,TRUE,2058,2130,2016,2172,-42
 ,,,1970-10-17,Friendly,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,1,draw,Bern,Switzerland,FALSE,2016,1653,2010,1659,-6
 ,,,1970-10-31,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,1,win,Vienna,Austria,FALSE,2010,1731,2021,1720,11
-,,,1970-12-08,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Florence,Italy,FALSE,,,,,
+,,,1970-12-08,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Florence,Italy,FALSE,2021,1594,2024,1591,3
 ,,,1971-02-20,Friendly,played,Italy,ITA,ITA,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,2,loss,Cagliari,Italy,FALSE,2024,1858,2008,1874,-16
-,,,1971-05-10,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1971-05-10,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,2008,1591,2014,1585,6
 ,,,1971-06-09,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,0,draw,Solna,Sweden,FALSE,2014,1849,2010,1853,-4
 ,,,1971-09-25,Friendly,played,Italy,ITA,ITA,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,2,0,win,Genoa,Italy,FALSE,2010,1689,2012,1687,2
 ,,,1971-10-09,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,TRUE,3,0,win,Milan,Italy,FALSE,2012,1859,2025,1846,13
@@ -310,7 +310,7 @@ WC-1970,WC-1970_032,32,1970-06-21,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Brazi
 ,,,1973-09-29,Friendly,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,0,win,Milan,Italy,FALSE,1979,1871,1986,1864,7
 ,,,1973-10-20,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,0,win,Rome,Italy,FALSE,1986,1737,1993,1730,7
 ,,,1973-11-14,Friendly,played,Italy,ITA,ITA,UEFA,England,ENG,ENG,UEFA,FALSE,1,0,win,London,England,FALSE,1993,1992,2006,1979,13
-,,,1974-02-26,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,0,0,draw,Rome,Italy,FALSE,,,,,
+,,,1974-02-26,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,0,0,draw,Rome,Italy,FALSE,2006,2100,2006,2100,0
 ,,,1974-06-08,Friendly,played,Italy,ITA,ITA,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,0,draw,Vienna,Austria,FALSE,2006,1813,2003,1816,-3
 WC-1974,WC-1974_005,5,1974-06-15,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Haiti,HTI,HTI,CONCACAF,TRUE,3,1,win,Munich,Germany,TRUE,2003,1610,2011,1602,8
 WC-1974,WC-1974_013,13,1974-06-19,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Stuttgart,Germany,TRUE,2011,1870,1999,1882,-12
@@ -338,7 +338,7 @@ WC-1974,WC-1974_023,23,1974-06-23,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Polan
 ,,,1976-12-22,Friendly,played,Italy,ITA,ITA,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,2,loss,Lisbon,Portugal,FALSE,1976,1816,1964,1828,-12
 ,,,1977-01-26,Friendly,played,Italy,ITA,ITA,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,1,win,Rome,Italy,FALSE,1964,1877,1969,1872,5
 ,,,1977-06-08,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Finland,,,,FALSE,3,0,win,Helsinki,Finland,FALSE,1969,1472,1975,1466,6
-,,,1977-10-08,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Berlin,Germany,FALSE,,,,,
+,,,1977-10-08,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Berlin,Germany,FALSE,1975,2135,1971,2139,-4
 ,,,1977-10-15,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Finland,,,,TRUE,6,1,win,Turin,Italy,FALSE,1971,1452,1973,1450,2
 ,,,1977-11-16,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,London,England,FALSE,1973,1902,1945,1930,-28
 ,,,1977-12-03,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Luxembourg,,,,TRUE,3,0,win,Rome,Italy,FALSE,1945,1251,1946,1250,1
@@ -349,7 +349,7 @@ WC-1974,WC-1974_023,23,1974-06-23,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Polan
 WC-1978,WC-1978_003,3,1978-06-02,FIFA World Cup,played,Italy,ITA,ITA,UEFA,France,FRA,FRA,UEFA,FALSE,2,1,win,Mar del Plata,Argentina,TRUE,1937,1891,1963,1865,26
 WC-1978,WC-1978_011,11,1978-06-06,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Hungary,HUN,HUN,UEFA,FALSE,3,1,win,Mar del Plata,Argentina,TRUE,1963,1887,1998,1852,35
 WC-1978,WC-1978_017,17,1978-06-10,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,0,win,Buenos Aires,Argentina,FALSE,1998,1963,2034,1927,36
-WC-1978,WC-1978_028,28,1978-06-14,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Buenos Aires,Argentina,TRUE,,,,,
+WC-1978,WC-1978_028,28,1978-06-14,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Buenos Aires,Argentina,TRUE,2034,2075,2038,2071,4
 WC-1978,WC-1978_030,30,1978-06-18,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,0,win,Buenos Aires,Argentina,TRUE,2038,1867,2054,1851,16
 WC-1978,WC-1978_036,36,1978-06-21,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Buenos Aires,Argentina,TRUE,2054,2076,2026,2104,-28
 WC-1978,WC-1978_037,37,1978-06-24,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,2,loss,Buenos Aires,Argentina,TRUE,2026,2121,2004,2143,-22
@@ -391,7 +391,7 @@ WC-1982,WC-1982_030,30,1982-06-23,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Camer
 WC-1982,WC-1982_040,40,1982-06-29,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Barcelona,Spain,TRUE,1870,2007,1911,1966,41
 WC-1982,WC-1982_047,47,1982-07-05,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,3,2,win,Barcelona,Spain,TRUE,1911,2164,1960,2115,49
 WC-1982,WC-1982_050,50,1982-07-08,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Poland,POL,POL,UEFA,FALSE,2,0,win,Barcelona,Spain,TRUE,1960,2013,2012,1961,52
-WC-1982,WC-1982_052,52,1982-07-11,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,3,1,win,Madrid,Spain,TRUE,,,,,
+WC-1982,WC-1982_052,52,1982-07-11,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,3,1,win,Madrid,Spain,TRUE,2012,2091,2067,2036,55
 ,,,1982-10-27,Friendly,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,1,loss,Rome,Italy,FALSE,2067,1681,2048,1700,-19
 ,,,1982-11-13,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,2,draw,Milan,Italy,FALSE,2048,1851,2034,1865,-14
 ,,,1982-12-04,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Romania,ROU,ROU,UEFA,TRUE,0,0,draw,Florence,Italy,FALSE,2034,1793,2019,1808,-15
@@ -405,22 +405,22 @@ WC-1982,WC-1982_052,52,1982-07-11,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Germa
 ,,,1984-02-04,Friendly,played,Italy,ITA,ITA,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,5,0,win,Rome,Italy,FALSE,1856,1717,1864,1709,8
 ,,,1984-03-03,Friendly,played,Italy,ITA,ITA,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,1,win,Istanbul,Turkey,FALSE,1864,1599,1870,1593,6
 ,,,1984-04-07,Friendly,played,Italy,ITA,ITA,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,1,draw,Verona,Italy,FALSE,1870,1849,1867,1852,-3
-,,,1984-05-22,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Zürich,Switzerland,TRUE,,,,,
+,,,1984-05-22,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Zürich,Switzerland,TRUE,1867,2011,1861,2017,-6
 ,,,1984-05-26,Friendly,played,Italy,ITA,ITA,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,2,0,win,Toronto,Canada,FALSE,1861,1560,1868,1553,7
 ,,,1984-05-30,Friendly,played,Italy,ITA,ITA,UEFA,United States,USA,USA,CONCACAF,FALSE,0,0,draw,East Rutherford,United States,FALSE,1868,1545,1862,1551,-6
 ,,,1984-09-26,Friendly,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,0,win,Milan,Italy,FALSE,1862,1807,1868,1801,6
 ,,,1984-11-03,Friendly,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,1,draw,Lausanne,Switzerland,FALSE,1868,1765,1868,1765,0
 ,,,1984-12-08,Friendly,played,Italy,ITA,ITA,UEFA,Poland,POL,POL,UEFA,TRUE,2,0,win,Pescara,Italy,FALSE,1868,1894,1880,1882,12
-,,,1985-02-05,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1985-02-05,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,1880,1726,1888,1718,8
 ,,,1985-03-13,Friendly,played,Italy,ITA,ITA,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,0,draw,Athens,Greece,FALSE,1888,1647,1884,1651,-4
 ,,,1985-04-03,Friendly,played,Italy,ITA,ITA,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,0,win,Ascoli Piceno,Italy,FALSE,1884,1821,1892,1813,8
 ,,,1985-06-02,Friendly,played,Italy,ITA,ITA,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,1,1,draw,Mexico City,Mexico,FALSE,1892,1797,1892,1797,0
 ,,,1985-06-06,Friendly,played,Italy,ITA,ITA,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,Mexico City,Mexico,TRUE,1892,1951,1910,1933,18
 ,,,1985-09-25,Friendly,played,Italy,ITA,ITA,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,2,loss,Lecce,Italy,FALSE,1910,1692,1893,1709,-17
 ,,,1985-11-16,Friendly,played,Italy,ITA,ITA,UEFA,Poland,POL,POL,UEFA,FALSE,0,1,loss,Chorzów,Poland,FALSE,1893,1826,1884,1835,-9
-,,,1986-02-05,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Avellino,Italy,FALSE,,,,,
+,,,1986-02-05,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Avellino,Italy,FALSE,1884,1907,1872,1919,-12
 ,,,1986-03-26,Friendly,played,Italy,ITA,ITA,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,1,win,Udine,Italy,FALSE,1872,1752,1876,1748,4
-,,,1986-05-11,Friendly,played,Italy,ITA,ITA,UEFA,China PR,,,,TRUE,2,0,win,Naples,Italy,FALSE,,,,,
+,,,1986-05-11,Friendly,played,Italy,ITA,ITA,UEFA,China PR,,,,TRUE,2,0,win,Naples,Italy,FALSE,1876,1591,1879,1588,3
 WC-1986,WC-1986_001,1,1986-05-31,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,1,draw,Mexico City,Mexico,TRUE,1884,1844,1881,1847,-3
 WC-1986,WC-1986_014,14,1986-06-05,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,1,draw,Puebla,Mexico,TRUE,1881,1890,1882,1889,1
 WC-1986,WC-1986_028,28,1986-06-10,FIFA World Cup,played,Italy,ITA,ITA,UEFA,South Korea,KOR,KOR,AFC,FALSE,3,2,win,Puebla,Mexico,TRUE,1882,1615,1893,1604,11
@@ -430,7 +430,7 @@ WC-1986,WC-1986_041,41,1986-06-17,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Franc
 ,,,1986-12-06,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Malta,,,,FALSE,2,0,win,Attard,Malta,FALSE,1877,1356,1882,1351,5
 ,,,1987-01-24,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Malta,,,,TRUE,5,0,win,Bergamo,Italy,FALSE,1882,1351,1884,1349,2
 ,,,1987-02-14,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,0,win,Oeiras,Portugal,FALSE,1884,1764,1903,1745,19
-,,,1987-04-18,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Cologne,Germany,FALSE,,,,,
+,,,1987-04-18,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Cologne,Germany,FALSE,1903,1963,1907,1959,4
 ,,,1987-05-28,Friendly,played,Italy,ITA,ITA,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,0,draw,Oslo,Norway,FALSE,1907,1706,1904,1709,-3
 ,,,1987-06-03,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,1,loss,Solna,Sweden,FALSE,1904,1912,1890,1926,-14
 ,,,1987-06-10,Friendly,played,Italy,ITA,ITA,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,3,1,win,Zürich,Switzerland,TRUE,1890,2039,1911,2018,21
@@ -442,7 +442,7 @@ WC-1986,WC-1986_041,41,1986-06-17,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Franc
 ,,,1988-03-31,Friendly,played,Italy,ITA,ITA,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,1,draw,Split,Yugoslavia,FALSE,1953,1848,1953,1848,0
 ,,,1988-04-27,Friendly,played,Italy,ITA,ITA,UEFA,Luxembourg,,,,FALSE,3,0,win,Luxembourg,Luxembourg,FALSE,1953,1177,1954,1176,1
 ,,,1988-06-04,Friendly,played,Italy,ITA,ITA,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,1,loss,Brescia,Italy,FALSE,1954,1784,1937,1801,-17
-,,,1988-06-10,UEFA Euro,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Düsseldorf,Germany,FALSE,,,,,
+,,,1988-06-10,UEFA Euro,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Düsseldorf,Germany,FALSE,1937,1967,1946,1958,9
 ,,,1988-06-14,UEFA Euro,played,Italy,ITA,ITA,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,0,win,Frankfurt am Main,Germany,TRUE,1946,1929,1970,1905,24
 ,,,1988-06-17,UEFA Euro,played,Italy,ITA,ITA,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,0,win,Cologne,Germany,TRUE,1970,1846,1995,1821,25
 ,,,1988-06-22,UEFA Euro,played,Italy,ITA,ITA,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,2,loss,Stuttgart,Germany,TRUE,1995,2019,1960,2054,-35
@@ -466,7 +466,7 @@ WC-1990,WC-1990_002,2,1990-06-09,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Austri
 WC-1990,WC-1990_015,15,1990-06-14,FIFA World Cup,played,Italy,ITA,ITA,UEFA,United States,USA,USA,CONCACAF,TRUE,1,0,win,Rome,Italy,FALSE,1975,1566,1978,1563,3
 WC-1990,WC-1990_029,29,1990-06-19,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,0,win,Rome,Italy,FALSE,1978,1895,2001,1872,23
 WC-1990,WC-1990_042,42,1990-06-25,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,2,0,win,Rome,Italy,FALSE,2001,1866,2019,1848,18
-WC-1990,WC-1990_045,45,1990-06-30,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Rome,Italy,FALSE,,,,,
+WC-1990,WC-1990_045,45,1990-06-30,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Rome,Italy,FALSE,2019,1888,2032,1875,13
 WC-1990,WC-1990_049,49,1990-07-03,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,1,draw,Naples,Italy,FALSE,2032,1872,2013,1891,-19
 WC-1990,WC-1990_051,51,1990-07-07,FIFA World Cup,played,Italy,ITA,ITA,UEFA,England,ENG,ENG,UEFA,TRUE,2,1,win,Bari,Italy,FALSE,2013,1998,2033,1978,20
 ,,,1990-09-26,Friendly,played,Italy,ITA,ITA,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,0,win,Palermo,Italy,FALSE,2033,1964,2038,1959,5
@@ -485,7 +485,7 @@ WC-1990,WC-1990_051,51,1990-07-07,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Engla
 ,,,1992-02-19,Friendly,played,Italy,ITA,ITA,UEFA,San Marino,,,,TRUE,4,0,win,Cesena,Italy,FALSE,1971,1000,1971,1000,0
 ,,,1992-03-25,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Turin,Italy,FALSE,1971,2089,1982,2078,11
 ,,,1992-05-31,USA Cup,played,Italy,ITA,ITA,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,0,draw,New Haven,United States,TRUE,1982,1811,1975,1818,-7
-,,,1992-06-04,USA Cup,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Foxborough,United States,TRUE,,,,,
+,,,1992-06-04,USA Cup,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Foxborough,United States,TRUE,1975,1875,1991,1859,16
 ,,,1992-06-06,USA Cup,played,Italy,ITA,ITA,UEFA,United States,USA,USA,CONCACAF,FALSE,1,1,draw,Chicago,United States,FALSE,1991,1698,1983,1706,-8
 ,,,1992-09-09,Friendly,played,Italy,ITA,ITA,UEFA,Netherlands,NED,NLD,UEFA,FALSE,3,2,win,Eindhoven,Netherlands,FALSE,1983,2014,1997,2000,14
 ,,,1992-10-14,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,2,draw,Cagliari,Italy,FALSE,1997,1801,1983,1815,-14
@@ -504,7 +504,7 @@ WC-1990,WC-1990_051,51,1990-07-07,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Engla
 ,,,1994-05-27,Friendly,played,Italy,ITA,ITA,UEFA,Finland,,,,TRUE,2,0,win,Parma,Italy,FALSE,1979,1555,1980,1554,1
 ,,,1994-06-03,Friendly,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Rome,Italy,FALSE,1980,1883,1985,1878,5
 ,,,1994-06-11,Friendly,played,Italy,ITA,ITA,UEFA,Costa Rica,CRI,CRI,CONCACAF,FALSE,1,0,win,New Haven,United States,TRUE,1985,1618,1987,1616,2
-WC-1994,WC-1994_004,4,1994-06-18,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,East Rutherford,United States,TRUE,,,,,
+WC-1994,WC-1994_004,4,1994-06-18,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,East Rutherford,United States,TRUE,1987,1864,1947,1904,-40
 WC-1994,WC-1994_016,16,1994-06-23,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Norway,NOR,NOR,UEFA,TRUE,1,0,win,East Rutherford,United States,TRUE,1947,1881,1971,1857,24
 WC-1994,WC-1994_031,31,1994-06-28,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,1,1,draw,"Washington, D.C.",United States,TRUE,1971,1862,1962,1871,-9
 WC-1994,WC-1994_044,44,1994-07-05,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Nigeria,NGA,NGA,CAF,FALSE,2,1,win,Foxborough,United States,TRUE,1962,1801,1979,1784,17
@@ -597,7 +597,7 @@ WC-2002,WC-2002_043,43,2002-06-13,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Mexic
 WC-2002,WC-2002_056,56,2002-06-18,FIFA World Cup,played,Italy,ITA,ITA,UEFA,South Korea,KOR,KOR,AFC,FALSE,1,2,loss,Daejeon,South Korea,FALSE,1971,1804,1935,1840,-36
 ,,,2002-08-21,Friendly,played,Italy,ITA,ITA,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,0,1,loss,Trieste,Italy,FALSE,1935,1646,1917,1664,-18
 ,,,2002-09-07,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Azerbaijan,,,,FALSE,2,0,win,Baku,Azerbaijan,FALSE,1917,1328,1920,1325,3
-,,,2002-10-12,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Naples,Italy,FALSE,,,,,
+,,,2002-10-12,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,1,draw,Naples,Italy,FALSE,1920,1796,1909,1807,-11
 ,,,2002-10-16,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,2,loss,Cardiff,Wales,FALSE,1909,1637,1880,1666,-29
 ,,,2002-11-20,Friendly,played,Italy,ITA,ITA,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,1,draw,Pescara,Italy,FALSE,1880,1892,1878,1894,-2
 ,,,2003-02-12,Friendly,played,Italy,ITA,ITA,UEFA,Portugal,PRT,PRT,UEFA,TRUE,1,0,win,Genoa,Italy,FALSE,1878,1930,1887,1921,9
@@ -630,7 +630,7 @@ WC-2002,WC-2002_056,56,2002-06-18,FIFA World Cup,played,Italy,ITA,ITA,UEFA,South
 ,,,2005-06-04,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Norway,NOR,NOR,UEFA,FALSE,0,0,draw,Oslo,Norway,FALSE,1909,1793,1908,1794,-1
 ,,,2005-06-08,Friendly,played,Italy,ITA,ITA,UEFA,Serbia and Montenegro,SCG,SCG,UEFA,TRUE,1,1,draw,Toronto,Canada,TRUE,1908,1772,1904,1776,-4
 ,,,2005-06-11,Friendly,played,Italy,ITA,ITA,UEFA,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,1,draw,East Rutherford,United States,TRUE,1904,1751,1900,1755,-4
-,,,2005-08-17,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2005-08-17,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,1900,1856,1912,1844,12
 ,,,2005-09-03,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1912,1620,1902,1630,-10
 ,,,2005-09-07,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Belarus,,,,FALSE,4,1,win,Minsk,Belarus,FALSE,1902,1582,1917,1567,15
 ,,,2005-10-08,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,1,0,win,Palermo,Italy,FALSE,1917,1647,1921,1643,4
@@ -678,7 +678,7 @@ WC-2006,WC-2006_064,64,2006-07-09,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Franc
 ,,,2008-11-19,Friendly,played,Italy,ITA,ITA,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,1,draw,Piraeus,Greece,FALSE,2008,1769,2004,1773,-4
 ,,,2009-02-10,Friendly,played,Italy,ITA,ITA,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,2,loss,London,England,TRUE,2004,2017,1990,2031,-14
 ,,,2009-03-28,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Montenegro,,,,FALSE,2,0,win,Podgorica,Montenegro,FALSE,1990,1671,2003,1658,13
-,,,2009-04-01,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Bari,Italy,FALSE,,,,,
+,,,2009-04-01,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Bari,Italy,FALSE,2003,1772,1988,1787,-15
 ,,,2009-06-06,Friendly,played,Italy,ITA,ITA,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,3,0,win,Pisa,Italy,FALSE,1988,1591,1990,1589,2
 ,,,2009-06-10,Friendly,played,Italy,ITA,ITA,UEFA,New Zealand,NZL,NZL,OFC,TRUE,4,3,win,Atteridgeville,South Africa,TRUE,1990,1491,1991,1490,1
 ,,,2009-06-15,Confederations Cup,played,Italy,ITA,ITA,UEFA,United States,USA,USA,CONCACAF,FALSE,3,1,win,Pretoria,South Africa,TRUE,1991,1810,2011,1790,20
@@ -687,7 +687,7 @@ WC-2006,WC-2006_064,64,2006-07-09,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Franc
 ,,,2009-08-12,Friendly,played,Italy,ITA,ITA,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,Basel,Switzerland,FALSE,1938,1805,1937,1806,-1
 ,,,2009-09-05,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Georgia,,,,FALSE,2,0,win,Tbilisi,Georgia,FALSE,1937,1465,1943,1459,6
 ,,,2009-09-09,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,0,win,Turin,Italy,FALSE,1943,1808,1955,1796,12
-,,,2009-10-10,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2009-10-10,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,1955,1782,1951,1786,-4
 ,,,2009-10-14,FIFA World Cup qualification,played,Italy,ITA,ITA,UEFA,Cyprus,,,,TRUE,3,2,win,Parma,Italy,FALSE,1951,1565,1953,1563,2
 ,,,2009-11-14,Friendly,played,Italy,ITA,ITA,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Pescara,Italy,FALSE,1953,2039,1953,2039,0
 ,,,2009-11-18,Friendly,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,0,win,Cesena,Italy,FALSE,1953,1774,1956,1771,3
@@ -707,7 +707,7 @@ WC-2010,WC-2010_044,44,2010-06-24,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Slova
 ,,,2011-03-25,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,1,0,win,Ljubljana,Slovenia,FALSE,1838,1700,1856,1682,18
 ,,,2011-03-29,Friendly,played,Italy,ITA,ITA,UEFA,Ukraine,UKR,UKR,UEFA,FALSE,2,0,win,Kyiv,Ukraine,FALSE,1856,1805,1873,1788,17
 ,,,2011-06-03,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Estonia,,,,TRUE,3,0,win,Modena,Italy,FALSE,1873,1508,1878,1503,5
-,,,2011-06-07,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Liège,Belgium,TRUE,,,,,
+,,,2011-06-07,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Liège,Belgium,TRUE,1878,1781,1859,1800,-19
 ,,,2011-08-10,Friendly,played,Italy,ITA,ITA,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,1,win,Bari,Italy,FALSE,1859,2135,1874,2120,15
 ,,,2011-09-02,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Faroe Islands,,,,FALSE,1,0,win,Tórshavn,Faroe Islands,FALSE,1874,1226,1876,1224,2
 ,,,2011-09-06,UEFA Euro qualification,played,Italy,ITA,ITA,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,1,0,win,Florence,Italy,FALSE,1876,1648,1881,1643,5
@@ -719,7 +719,7 @@ WC-2010,WC-2010_044,44,2010-06-24,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Slova
 ,,,2012-06-01,Friendly,played,Italy,ITA,ITA,UEFA,Russia,RUS,RUS,UEFA,TRUE,0,3,loss,Zürich,Switzerland,TRUE,1869,1830,1850,1849,-19
 ,,,2012-06-10,UEFA Euro,played,Italy,ITA,ITA,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Gdańsk,Poland,TRUE,1850,2126,1867,2109,17
 ,,,2012-06-14,UEFA Euro,played,Italy,ITA,ITA,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,1,draw,Poznań,Poland,TRUE,1867,1902,1870,1899,3
-,,,2012-06-18,UEFA Euro,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Poznań,Poland,TRUE,,,,,
+,,,2012-06-18,UEFA Euro,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Poznań,Poland,TRUE,1870,1762,1896,1736,26
 ,,,2012-06-24,UEFA Euro,played,Italy,ITA,ITA,UEFA,England,ENG,ENG,UEFA,FALSE,0,0,draw,Kyiv,Ukraine,TRUE,1896,1984,1902,1978,6
 ,,,2012-06-28,UEFA Euro,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,2,1,win,Warsaw,Poland,TRUE,1902,2099,1940,2061,38
 ,,,2012-07-01,UEFA Euro,played,Italy,ITA,ITA,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,4,loss,Kyiv,Ukraine,TRUE,1940,2131,1917,2154,-23
@@ -748,7 +748,7 @@ WC-2010,WC-2010_044,44,2010-06-24,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Slova
 ,,,2013-11-15,Friendly,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Milan,Italy,FALSE,1909,2079,1911,2077,2
 ,,,2013-11-18,Friendly,played,Italy,ITA,ITA,UEFA,Nigeria,NGA,NGA,CAF,TRUE,2,2,draw,London,England,TRUE,1911,1722,1906,1727,-5
 ,,,2014-03-05,Friendly,played,Italy,ITA,ITA,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Madrid,Spain,FALSE,1906,2102,1903,2105,-3
-,,,2014-05-31,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,London,England,TRUE,,,,,
+,,,2014-05-31,Friendly,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,London,England,TRUE,1903,1688,1897,1694,-6
 ,,,2014-06-04,Friendly,played,Italy,ITA,ITA,UEFA,Luxembourg,,,,TRUE,1,1,draw,Perugia,Italy,FALSE,1897,1212,1887,1222,-10
 WC-2014,WC-2014_006,6,2014-06-14,FIFA World Cup,played,Italy,ITA,ITA,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,Manaus,Brazil,TRUE,1887,1931,1921,1897,34
 WC-2014,WC-2014_025,25,2014-06-20,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Costa Rica,CRI,CRI,CONCACAF,TRUE,0,1,loss,Recife,Brazil,TRUE,1921,1780,1879,1822,-42
@@ -775,7 +775,7 @@ WC-2014,WC-2014_039,39,2014-06-24,FIFA World Cup,played,Italy,ITA,ITA,UEFA,Urugu
 ,,,2016-06-06,Friendly,played,Italy,ITA,ITA,UEFA,Finland,,,,TRUE,2,0,win,Verona,Italy,FALSE,1871,1578,1874,1575,3
 ,,,2016-06-13,UEFA Euro,played,Italy,ITA,ITA,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,0,win,Lyon,France,TRUE,1874,1922,1917,1879,43
 ,,,2016-06-17,UEFA Euro,played,Italy,ITA,ITA,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,0,win,Toulouse,France,TRUE,1917,1762,1932,1747,15
-,,,2016-06-22,UEFA Euro,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Villeneuve-d'Ascq,France,TRUE,,,,,
+,,,2016-06-22,UEFA Euro,played,Italy,ITA,ITA,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Villeneuve-d'Ascq,France,TRUE,1932,1729,1894,1767,-38
 ,,,2016-06-27,UEFA Euro,played,Italy,ITA,ITA,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,0,win,Saint-Denis,France,TRUE,1894,1985,1941,1938,47
 ,,,2016-07-02,UEFA Euro,played,Italy,ITA,ITA,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Bordeaux,France,TRUE,1941,2056,1949,2048,8
 ,,,2016-09-01,Friendly,played,Italy,ITA,ITA,UEFA,France,FRA,FRA,UEFA,TRUE,1,3,loss,Bari,Italy,FALSE,1949,1982,1931,2000,-18

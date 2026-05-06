@@ -20,7 +20,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1963-06-16,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Tunisia,TUN,TUN,CAF,FALSE,1,4,loss,Tunis,Tunisia,FALSE,,,,,
 ,,,1963-07-02,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Tunisia,TUN,TUN,CAF,TRUE,4,2,win,Casablanca,Morocco,FALSE,1630,1612,1650,1592,20
 ,,,1963-12-01,Friendly,played,Morocco,MAR,MAR,CAF,Soviet Union,SUN,SUN,UEFA,TRUE,1,1,draw,Casablanca,Morocco,FALSE,1643,2014,1650,2007,7
-,,,1963-12-29,Friendly,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,TRUE,1,4,loss,Casablanca,Morocco,FALSE,,,,,
+,,,1963-12-29,Friendly,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,TRUE,1,4,loss,Casablanca,Morocco,FALSE,1650,1925,1641,1934,-9
 ,,,1965-02-28,Friendly,played,Morocco,MAR,MAR,CAF,Tunisia,TUN,TUN,CAF,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1675,1575,1675,1575,0
 ,,,1965-03-12,Friendly,played,Morocco,MAR,MAR,CAF,Kuwait,KWT,KWT,AFC,FALSE,2,0,win,Tripoli,Libya,TRUE,1675,1201,1678,1198,3
 ,,,1965-03-19,Friendly,played,Morocco,MAR,MAR,CAF,Libya,,,,FALSE,0,1,loss,Tripoli,Libya,FALSE,1674,1477,1655,1496,-19
@@ -31,7 +31,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1966-03-18,Friendly,played,Morocco,MAR,MAR,CAF,Iraq,IRQ,IRQ,AFC,FALSE,1,0,win,Tripoli,Libya,TRUE,,,,,
 ,,,1966-03-19,Friendly,played,Morocco,MAR,MAR,CAF,Iraq,IRQ,IRQ,AFC,FALSE,2,1,win,Tripoli,Libya,TRUE,1649,1629,1663,1615,14
 ,,,1966-11-24,Friendly,played,Morocco,MAR,MAR,CAF,Algeria,DZA,DZA,CAF,FALSE,2,2,draw,Algiers,Algeria,FALSE,1651,1692,1655,1688,4
-,,,1967-02-22,Friendly,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Karlsruhe,Germany,FALSE,,,,,
+,,,1967-02-22,Friendly,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,FALSE,1,5,loss,Karlsruhe,Germany,FALSE,1655,2043,1653,2045,-2
 ,,,1968-03-17,Friendly,played,Morocco,MAR,MAR,CAF,Algeria,DZA,DZA,CAF,TRUE,0,0,draw,Casablanca,Morocco,FALSE,,,,,
 ,,,1968-11-03,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Senegal,SEN,SEN,CAF,TRUE,1,0,win,Casablanca,Morocco,FALSE,1661,1615,1673,1603,12
 ,,,1969-01-05,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Senegal,SEN,SEN,CAF,FALSE,1,2,loss,Dakar,Senegal,FALSE,1673,1594,1654,1613,-19
@@ -49,7 +49,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1969-11-08,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Nigeria,NGA,NGA,CAF,FALSE,0,2,loss,Ibadan,Nigeria,FALSE,1682,1586,1652,1616,-30
 ,,,1969-11-09,Friendly,played,Morocco,MAR,MAR,CAF,Ivory Coast,CIV,CIV,CAF,FALSE,0,1,loss,Abidjan,Ivory Coast,FALSE,1652,1728,1647,1733,-5
 ,,,1969-12-28,Friendly,played,Morocco,MAR,MAR,CAF,Bulgaria,BGR,BGR,UEFA,TRUE,3,0,win,Casablanca,Morocco,FALSE,1647,1861,1670,1838,23
-WC-1970,WC-1970_007,7,1970-06-03,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,FALSE,1,2,loss,León,Mexico,TRUE,,,,,
+WC-1970,WC-1970_007,7,1970-06-03,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,FALSE,1,2,loss,León,Mexico,TRUE,1670,1998,1662,2006,-8
 WC-1970,WC-1970_012,12,1970-06-06,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Peru,PER,PER,CONMEBOL,TRUE,0,3,loss,León,Mexico,TRUE,1662,1733,1620,1775,-42
 WC-1970,WC-1970_021,21,1970-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Bulgaria,BGR,BGR,UEFA,FALSE,1,1,draw,León,Mexico,TRUE,1620,1759,1631,1748,11
 ,,,1970-12-10,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Algeria,DZA,DZA,CAF,FALSE,1,3,loss,Algiers,Algeria,FALSE,1631,1604,1607,1628,-24
@@ -60,7 +60,7 @@ WC-1970,WC-1970_021,21,1970-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Bulg
 ,,,1972-02-20,Friendly,played,Morocco,MAR,MAR,CAF,Nigeria,NGA,NGA,CAF,FALSE,0,3,loss,Lagos,Nigeria,FALSE,1695,1561,1676,1580,-19
 ,,,1972-02-25,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Congo,,,,FALSE,1,1,draw,Douala,Cameroon,TRUE,1676,1613,1672,1617,-4
 ,,,1972-02-27,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Sudan,,,,TRUE,1,1,draw,Douala,Cameroon,TRUE,1672,1695,1674,1693,2
-,,,1972-02-29,African Cup of Nations,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,1,draw,Douala,Cameroon,TRUE,,,,,
+,,,1972-02-29,African Cup of Nations,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,1,draw,Douala,Cameroon,TRUE,1674,1754,1680,1748,6
 ,,,1972-11-19,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Senegal,SEN,SEN,CAF,TRUE,0,0,draw,Rabat,Morocco,FALSE,1645,1569,1636,1578,-9
 ,,,1972-12-03,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Senegal,SEN,SEN,CAF,FALSE,2,1,win,Dakar,Senegal,FALSE,1636,1577,1658,1555,22
 ,,,1973-02-11,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Guinea,,,,FALSE,1,1,draw,Conakry,Guinea,FALSE,1658,1702,1666,1694,8
@@ -71,7 +71,7 @@ WC-1970,WC-1970_021,21,1970-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Bulg
 ,,,1973-10-21,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Zambia,,,,FALSE,0,4,loss,Lusaka,Zambia,FALSE,1716,1531,1670,1577,-46
 ,,,1973-10-31,Friendly,played,Morocco,MAR,MAR,CAF,Algeria,DZA,DZA,CAF,FALSE,0,2,loss,Algiers,Algeria,FALSE,1670,1567,1655,1582,-15
 ,,,1973-11-25,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Zambia,,,,TRUE,2,0,win,Tétouan,Morocco,FALSE,1655,1544,1669,1530,14
-,,,1973-12-09,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,FALSE,0,3,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1973-12-09,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,FALSE,0,3,loss,Kinshasa,Zaïre,FALSE,1647,1743,1630,1760,-17
 ,,,1974-02-22,Friendly,played,Morocco,MAR,MAR,CAF,Iraq,IRQ,IRQ,AFC,FALSE,0,0,draw,Baghdad,Iraq,FALSE,1630,1575,1631,1574,1
 ,,,1974-02-24,Friendly,played,Morocco,MAR,MAR,CAF,Iraq,IRQ,IRQ,AFC,FALSE,0,0,draw,Baghdad,Iraq,FALSE,1631,1574,1632,1573,1
 ,,,1974-02-25,Friendly,played,Morocco,MAR,MAR,CAF,Kuwait,KWT,KWT,AFC,FALSE,2,0,win,Kuwait City,Kuwait,FALSE,1632,1449,1643,1438,11
@@ -92,7 +92,7 @@ WC-1970,WC-1970_021,21,1970-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Bulg
 ,,,1975-07-13,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Ghana,GHA,GHA,CAF,TRUE,2,0,win,Casablanca,Morocco,FALSE,1685,1660,1705,1640,20
 ,,,1976-02-20,Friendly,played,Morocco,MAR,MAR,CAF,Saudi Arabia,KSA,SAU,AFC,FALSE,2,0,win,Riyadh,Saudi Arabia,FALSE,1729,1327,1733,1323,4
 ,,,1976-03-01,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Sudan,,,,TRUE,2,2,draw,Dire Dawa,Ethiopia,TRUE,1733,1538,1720,1551,-13
-,,,1976-03-04,African Cup of Nations,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,0,win,Dire Dawa,Ethiopia,TRUE,,,,,
+,,,1976-03-04,African Cup of Nations,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,0,win,Dire Dawa,Ethiopia,TRUE,1720,1632,1739,1613,19
 ,,,1976-03-06,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Nigeria,NGA,NGA,CAF,TRUE,3,1,win,Dire Dawa,Ethiopia,TRUE,1739,1691,1771,1659,32
 ,,,1976-03-09,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Egypt,EGY,EGY,CAF,FALSE,2,1,win,Addis Ababa,Ethiopia,TRUE,1771,1699,1791,1679,20
 ,,,1976-03-11,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Nigeria,NGA,NGA,CAF,TRUE,2,1,win,Addis Ababa,Ethiopia,TRUE,1791,1660,1807,1644,16
@@ -104,7 +104,7 @@ WC-1970,WC-1970_021,21,1970-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Bulg
 ,,,1977-03-23,Friendly,played,Morocco,MAR,MAR,CAF,Syria,,,,FALSE,2,0,win,Damascus,Syria,FALSE,1702,1390,1709,1383,7
 ,,,1977-04-03,Friendly,played,Morocco,MAR,MAR,CAF,Gabon,,,,TRUE,5,1,win,Rabat,Morocco,FALSE,,,,,
 ,,,1977-05-28,Friendly,played,Morocco,MAR,MAR,CAF,Senegal,SEN,SEN,CAF,FALSE,2,3,loss,Dakar,Senegal,FALSE,1712,1534,1700,1546,-12
-,,,1977-07-25,Beijing International Friendship Tournament,played,Morocco,MAR,MAR,CAF,China PR,,,,FALSE,2,3,loss,Beijing,China PR,FALSE,,,,,
+,,,1977-07-25,Beijing International Friendship Tournament,played,Morocco,MAR,MAR,CAF,China PR,,,,FALSE,2,3,loss,Beijing,China PR,FALSE,1700,1562,1683,1579,-17
 ,,,1977-07-27,Beijing International Friendship Tournament,played,Morocco,MAR,MAR,CAF,Iran,IRN,IRN,AFC,FALSE,1,1,draw,Beijing,China PR,TRUE,,,,,
 ,,,1977-11-27,Friendly,played,Morocco,MAR,MAR,CAF,Iraq,IRQ,IRQ,AFC,FALSE,0,3,loss,Baghdad,Iraq,FALSE,,,,,
 ,,,1977-12-03,Friendly,played,Morocco,MAR,MAR,CAF,Iraq,IRQ,IRQ,AFC,TRUE,0,0,draw,Casablanca,Morocco,FALSE,,,,,
@@ -151,7 +151,7 @@ WC-1970,WC-1970_021,21,1970-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Bulg
 ,,,1981-11-15,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Cameroon,CMR,CMR,CAF,TRUE,0,2,loss,Kenitra,Morocco,FALSE,1642,1550,1597,1595,-45
 ,,,1981-11-29,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Cameroon,CMR,CMR,CAF,FALSE,1,2,loss,Yaoundé,Cameroon,FALSE,1597,1595,1582,1610,-15
 ,,,1982-05-12,Friendly,played,Morocco,MAR,MAR,CAF,Senegal,SEN,SEN,CAF,TRUE,2,1,win,Casablanca,Morocco,FALSE,1582,1541,1588,1535,6
-,,,1982-07-23,Beijing International Friendship Tournament,played,Morocco,MAR,MAR,CAF,China PR,,,,FALSE,3,3,draw,Beijing,China PR,FALSE,,,,,
+,,,1982-07-23,Beijing International Friendship Tournament,played,Morocco,MAR,MAR,CAF,China PR,,,,FALSE,3,3,draw,Beijing,China PR,FALSE,1592,1611,1597,1606,5
 ,,,1982-07-25,Beijing International Friendship Tournament,played,Morocco,MAR,MAR,CAF,Hong Kong,,,,FALSE,0,0,draw,Beijing,China PR,TRUE,1597,1344,1588,1353,-9
 ,,,1982-10-03,Friendly,played,Morocco,MAR,MAR,CAF,Saudi Arabia,KSA,SAU,AFC,FALSE,1,2,loss,Riyadh,Saudi Arabia,FALSE,1588,1392,1575,1405,-13
 ,,,1983-03-09,Friendly,played,Morocco,MAR,MAR,CAF,Senegal,SEN,SEN,CAF,FALSE,0,1,loss,Dakar,Senegal,FALSE,1575,1504,1566,1513,-9
@@ -174,8 +174,8 @@ WC-1970,WC-1970_021,21,1970-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Bulg
 ,,,1985-04-21,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Malawi,,,,FALSE,0,0,draw,Blantyre,Malawi,FALSE,1685,1554,1683,1556,-2
 ,,,1985-07-12,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Egypt,EGY,EGY,CAF,FALSE,0,0,draw,Cairo,Egypt,FALSE,1683,1652,1687,1648,4
 ,,,1985-07-28,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Egypt,EGY,EGY,CAF,TRUE,2,0,win,Casablanca,Morocco,FALSE,1687,1648,1706,1629,19
-,,,1985-08-25,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,0,win,Casablanca,Morocco,FALSE,,,,,
-,,,1985-09-08,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,FALSE,0,0,draw,Lubumbashi,Zaïre,FALSE,,,,,
+,,,1985-08-25,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,0,win,Casablanca,Morocco,FALSE,1685,1626,1696,1615,11
+,,,1985-09-08,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,FALSE,0,0,draw,Lubumbashi,Zaïre,FALSE,1696,1615,1697,1614,1
 ,,,1985-10-06,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Libya,,,,TRUE,3,0,win,Rabat,Morocco,FALSE,1697,1580,1713,1564,16
 ,,,1985-10-18,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Libya,,,,FALSE,0,1,loss,Bin Ghashir,Libya,FALSE,1713,1586,1691,1608,-22
 ,,,1986-02-19,Friendly,played,Morocco,MAR,MAR,CAF,Bulgaria,BGR,BGR,UEFA,TRUE,0,0,draw,Rabat,Morocco,FALSE,1691,1816,1692,1815,1
@@ -188,13 +188,13 @@ WC-1970,WC-1970_021,21,1970-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Bulg
 WC-1986,WC-1986_005,5,1986-06-02,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Poland,POL,POL,UEFA,TRUE,0,0,draw,Monterrey,Mexico,TRUE,1642,1805,1655,1792,13
 WC-1986,WC-1986_017,17,1986-06-06,FIFA World Cup,played,Morocco,MAR,MAR,CAF,England,ENG,ENG,UEFA,FALSE,0,0,draw,Monterrey,Mexico,TRUE,1655,1946,1676,1925,21
 WC-1986,WC-1986_032,32,1986-06-11,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Portugal,PRT,PRT,UEFA,FALSE,3,1,win,Guadalajara,Mexico,TRUE,1676,1816,1738,1754,62
-WC-1986,WC-1986_042,42,1986-06-17,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Monterrey,Mexico,TRUE,,,,,
+WC-1986,WC-1986_042,42,1986-06-17,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Monterrey,Mexico,TRUE,1738,1911,1722,1927,-16
 ,,,1987-06-09,Korea Cup,played,Morocco,MAR,MAR,CAF,Australia,AUS,AUS,AFC,FALSE,0,1,loss,Gangneung,South Korea,TRUE,1722,1661,1704,1679,-18
 ,,,1987-07-26,Friendly,played,Morocco,MAR,MAR,CAF,Liberia,,,,FALSE,1,2,loss,Monrovia,Liberia,FALSE,,,,,
 ,,,1988-02-02,Tournoi de France,played,Morocco,MAR,MAR,CAF,Austria,AUT,AUT,UEFA,FALSE,3,1,win,Toulouse,France,TRUE,1658,1753,1687,1724,29
 ,,,1988-02-05,Tournoi de France,played,Morocco,MAR,MAR,CAF,France,FRA,FRA,UEFA,FALSE,1,2,loss,Monaco,Monaco,TRUE,1687,1865,1679,1873,-8
 ,,,1988-03-03,Friendly,played,Morocco,MAR,MAR,CAF,German DR,DDR,DDR,UEFA,TRUE,2,1,win,Mohammedia,Morocco,FALSE,,,,,
-,,,1988-03-13,African Cup of Nations,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,1,draw,Casablanca,Morocco,FALSE,,,,,
+,,,1988-03-13,African Cup of Nations,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,1,draw,Casablanca,Morocco,FALSE,1690,1580,1676,1594,-14
 ,,,1988-03-16,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Algeria,DZA,DZA,CAF,TRUE,1,0,win,Casablanca,Morocco,FALSE,1676,1623,1691,1608,15
 ,,,1988-03-19,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,0,0,draw,Casablanca,Morocco,FALSE,1691,1637,1681,1647,-10
 ,,,1988-03-23,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Cameroon,CMR,CMR,CAF,TRUE,0,1,loss,Casablanca,Morocco,FALSE,1681,1662,1648,1695,-33
@@ -208,15 +208,15 @@ WC-1986,WC-1986_042,42,1986-06-17,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Germ
 ,,,1989-04-09,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Mali,,,,FALSE,0,0,draw,Bamako,Mali,FALSE,1628,1398,1621,1405,-7
 ,,,1989-04-23,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Mali,,,,TRUE,1,1,draw,Marrakech,Morocco,FALSE,1621,1405,1607,1419,-14
 ,,,1989-05-24,Friendly,played,Morocco,MAR,MAR,CAF,Algeria,DZA,DZA,CAF,TRUE,1,0,win,Rabat,Morocco,FALSE,1607,1638,1615,1630,8
-,,,1989-06-11,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,FALSE,0,0,draw,Kinshasa,Zaïre,FALSE,,,,,
+,,,1989-06-11,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,FALSE,0,0,draw,Kinshasa,Zaïre,FALSE,1615,1567,1618,1564,3
 ,,,1989-06-25,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Zambia,,,,FALSE,1,2,loss,Lusaka,Zambia,FALSE,1618,1640,1605,1653,-13
 ,,,1989-08-13,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Tunisia,TUN,TUN,CAF,TRUE,0,0,draw,Casablanca,Morocco,FALSE,1605,1467,1593,1479,-12
-,,,1989-08-27,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,1,draw,Kenitra,Morocco,FALSE,,,,,
+,,,1989-08-27,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,1,draw,Kenitra,Morocco,FALSE,1593,1556,1585,1564,-8
 ,,,1990-02-21,Friendly,played,Morocco,MAR,MAR,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,2,1,win,Rabat,Morocco,FALSE,1585,1647,1594,1638,9
 ,,,1990-08-09,Friendly,played,Morocco,MAR,MAR,CAF,Tunisia,TUN,TUN,CAF,FALSE,0,0,draw,Tunis,Tunisia,FALSE,1601,1472,1600,1473,-1
 ,,,1990-08-19,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Niger,,,,TRUE,2,0,win,Casablanca,Morocco,FALSE,1600,1339,1607,1332,7
 ,,,1990-09-02,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Mauritania,,,,TRUE,4,0,win,Casablanca,Morocco,FALSE,1607,1098,1609,1096,2
-,,,1990-09-12,Friendly,played,Morocco,MAR,MAR,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1990-09-12,Friendly,played,Morocco,MAR,MAR,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1609,1875,1607,1877,-2
 ,,,1991-01-13,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,3,1,win,Rabat,Morocco,FALSE,1603,1635,1627,1611,24
 ,,,1991-01-27,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Niger,,,,FALSE,0,1,loss,Niamey,Niger,FALSE,1627,1338,1597,1368,-30
 ,,,1991-03-27,Friendly,played,Morocco,MAR,MAR,CAF,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Rabat,Morocco,FALSE,1597,1707,1597,1707,0
@@ -226,7 +226,7 @@ WC-1986,WC-1986_042,42,1986-06-17,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Germ
 ,,,1991-12-04,Friendly,played,Morocco,MAR,MAR,CAF,Mali,,,,TRUE,3,0,win,Casablanca,Morocco,FALSE,1588,1386,1593,1381,5
 ,,,1991-12-26,Friendly,played,Morocco,MAR,MAR,CAF,Algeria,DZA,DZA,CAF,TRUE,1,1,draw,Casablanca,Morocco,FALSE,1593,1741,1594,1740,1
 ,,,1992-01-12,African Cup of Nations,played,Morocco,MAR,MAR,CAF,Cameroon,CMR,CMR,CAF,FALSE,0,1,loss,Dakar,Senegal,TRUE,1594,1673,1575,1692,-19
-,,,1992-01-14,African Cup of Nations,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,1,draw,Dakar,Senegal,TRUE,,,,,
+,,,1992-01-14,African Cup of Nations,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,1,1,draw,Dakar,Senegal,TRUE,1575,1559,1574,1560,-1
 ,,,1992-03-18,Friendly,played,Morocco,MAR,MAR,CAF,United States,USA,USA,CONCACAF,TRUE,3,1,win,Casablanca,Morocco,FALSE,1574,1671,1589,1656,15
 ,,,1992-10-04,African Cup of Nations qualification,played,Morocco,MAR,MAR,CAF,Mali,,,,FALSE,1,2,loss,Bamako,Mali,FALSE,1589,1411,1565,1435,-24
 ,,,1992-10-11,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Ethiopia,,,,TRUE,5,0,win,Casablanca,Morocco,FALSE,1565,1426,1581,1410,16
@@ -271,7 +271,7 @@ WC-1994,WC-1994_034,34,1994-06-29,FIFA World Cup,played,Morocco,MAR,MAR,CAF,Neth
 ,,,1996-03-20,United Arab Emirates Friendship Tournament,played,Morocco,MAR,MAR,CAF,Egypt,EGY,EGY,CAF,FALSE,2,0,win,Dubai,United Arab Emirates,TRUE,1595,1612,1619,1588,24
 ,,,1996-03-23,United Arab Emirates Friendship Tournament,played,Morocco,MAR,MAR,CAF,South Korea,KOR,KOR,AFC,FALSE,2,2,draw,Dubai,United Arab Emirates,TRUE,1619,1599,1618,1600,-1
 ,,,1996-03-26,United Arab Emirates Friendship Tournament,played,Morocco,MAR,MAR,CAF,United Arab Emirates,ARE,ARE,AFC,FALSE,0,1,loss,Dubai,United Arab Emirates,FALSE,1618,1540,1604,1554,-14
-,,,1996-08-29,Friendly,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,7,0,win,Settat,Morocco,FALSE,,,,,
+,,,1996-08-29,Friendly,played,Morocco,MAR,MAR,CAF,DR Congo,,,,TRUE,7,0,win,Settat,Morocco,FALSE,1604,1524,1616,1512,12
 ,,,1996-11-09,FIFA World Cup qualification,played,Morocco,MAR,MAR,CAF,Sierra Leone,,,,TRUE,4,0,win,Rabat,Morocco,FALSE,1621,1424,1632,1413,11
 ,,,1996-12-11,King Hassan II Tournament,played,Morocco,MAR,MAR,CAF,Croatia,HRV,HRV,UEFA,TRUE,2,2,draw,Casablanca,Morocco,FALSE,1632,1894,1639,1887,7
 ,,,1996-12-12,King Hassan II Tournament,played,Morocco,MAR,MAR,CAF,Nigeria,NGA,NGA,CAF,TRUE,2,0,win,Casablanca,Morocco,FALSE,1639,1783,1664,1758,25

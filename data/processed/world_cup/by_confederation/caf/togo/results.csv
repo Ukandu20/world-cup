@@ -40,8 +40,8 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1972-02-24,African Cup of Nations,played,Togo,TGO,TGO,CAF,Mali,,,,FALSE,3,3,draw,Yaoundé,Cameroon,TRUE,1524,1596,1529,1591,5
 ,,,1972-02-26,African Cup of Nations,played,Togo,TGO,TGO,CAF,Cameroon,CMR,CMR,CAF,FALSE,0,2,loss,Yaoundé,Cameroon,FALSE,1529,1578,1507,1600,-22
 ,,,1972-02-28,African Cup of Nations,played,Togo,TGO,TGO,CAF,Kenya,,,,FALSE,1,1,draw,Yaoundé,Cameroon,TRUE,1507,1409,1500,1416,-7
-,,,1972-06-06,FIFA World Cup qualification,played,Togo,TGO,TGO,CAF,DR Congo,,,,TRUE,0,0,draw,Lomé,Togo,FALSE,,,,,
-,,,1972-06-20,FIFA World Cup qualification,played,Togo,TGO,TGO,CAF,DR Congo,,,,FALSE,0,4,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1972-06-06,FIFA World Cup qualification,played,Togo,TGO,TGO,CAF,DR Congo,,,,TRUE,0,0,draw,Lomé,Togo,FALSE,1445,1662,1451,1656,6
+,,,1972-06-20,FIFA World Cup qualification,played,Togo,TGO,TGO,CAF,DR Congo,,,,FALSE,0,4,loss,Kinshasa,Zaïre,FALSE,1451,1656,1440,1667,-11
 ,,,1972-12-28,Friendly,played,Togo,TGO,TGO,CAF,Ghana,GHA,GHA,CAF,FALSE,2,2,draw,Accra,Ghana,FALSE,1440,1634,1445,1629,5
 ,,,1974-03-06,Friendly,played,Togo,TGO,TGO,CAF,Denmark,DNK,DNK,UEFA,TRUE,0,2,loss,Lomé,Togo,FALSE,1445,1659,1435,1669,-10
 ,,,1974-07-04,Friendly,played,Togo,TGO,TGO,CAF,China PR,,,,FALSE,2,4,loss,Beijing,China PR,FALSE,,,,,
@@ -70,7 +70,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1979-06-03,Friendly,played,Togo,TGO,TGO,CAF,Benin,,,,FALSE,1,0,win,Cotonou,Benin,FALSE,1448,1358,1458,1348,10
 ,,,1979-06-24,African Cup of Nations qualification,played,Togo,TGO,TGO,CAF,Morocco,MAR,MAR,CAF,FALSE,0,7,loss,Mohammedia,Morocco,FALSE,1458,1593,1440,1611,-18
 ,,,1979-07-06,African Cup of Nations qualification,played,Togo,TGO,TGO,CAF,Morocco,MAR,MAR,CAF,TRUE,2,1,win,Lomé,Togo,FALSE,1440,1611,1464,1587,24
-,,,1979-07-08,Friendly,played,Togo,TGO,TGO,CAF,DR Congo,,,,FALSE,1,4,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1979-07-08,Friendly,played,Togo,TGO,TGO,CAF,DR Congo,,,,FALSE,1,4,loss,Kinshasa,Zaïre,FALSE,1464,1559,1455,1568,-9
 ,,,1979-10-21,Friendly,played,Togo,TGO,TGO,CAF,Ivory Coast,CIV,CIV,CAF,FALSE,0,3,loss,Abidjan,Ivory Coast,FALSE,1471,1522,1455,1538,-16
 ,,,1979-10-23,Friendly,played,Togo,TGO,TGO,CAF,Burkina Faso,,,,TRUE,5,3,win,Abidjan,Ivory Coast,TRUE,1455,1313,1469,1299,14
 ,,,1979-10-26,Friendly,played,Togo,TGO,TGO,CAF,Niger,,,,FALSE,2,2,draw,Abidjan,Ivory Coast,TRUE,1469,1140,1458,1151,-11
@@ -182,7 +182,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1997-01-12,FIFA World Cup qualification,played,Togo,TGO,TGO,CAF,Zimbabwe,,,,FALSE,0,3,loss,Harare,Zimbabwe,FALSE,1393,1533,1379,1547,-14
 ,,,1997-01-19,Friendly,played,Togo,TGO,TGO,CAF,Benin,,,,FALSE,1,1,draw,Cotonou,Benin,FALSE,1379,1189,1376,1192,-3
 ,,,1997-01-26,African Cup of Nations qualification,played,Togo,TGO,TGO,CAF,Liberia,,,,FALSE,2,1,win,Accra,Ghana,TRUE,1376,1403,1398,1381,22
-,,,1997-02-23,African Cup of Nations qualification,played,Togo,TGO,TGO,CAF,DR Congo,,,,TRUE,1,1,draw,Lomé,Togo,FALSE,,,,,
+,,,1997-02-23,African Cup of Nations qualification,played,Togo,TGO,TGO,CAF,DR Congo,,,,TRUE,1,1,draw,Lomé,Togo,FALSE,1398,1505,1398,1505,0
 ,,,1997-03-30,Friendly,played,Togo,TGO,TGO,CAF,Gabon,,,,FALSE,1,2,loss,Libreville,Gabon,FALSE,1398,1462,1392,1468,-6
 ,,,1997-04-06,FIFA World Cup qualification,played,Togo,TGO,TGO,CAF,Angola,AGO,AGO,CAF,FALSE,1,3,loss,Luanda,Angola,FALSE,1392,1497,1378,1511,-14
 ,,,1997-04-27,FIFA World Cup qualification,played,Togo,TGO,TGO,CAF,Cameroon,CMR,CMR,CAF,FALSE,0,2,loss,Yaoundé,Cameroon,FALSE,1378,1574,1369,1583,-9

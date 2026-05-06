@@ -614,9 +614,10 @@ def build_lead_in_match_elo_lookup(
             pre1 = post1 - delta1
             pre2 = post2 + delta1
 
-            if team1 in teams_on_page:
+            match_date_value = parse_iso_date(match_date)
+            for dataset_team1 in matching_dataset_team_names(team1, teams_on_page, match_date_value):
                 team1_match = MatchElo(
-                    team=team1,
+                    team=dataset_team1,
                     opponent=team2,
                     team_score=score1,
                     opponent_score=score2,
@@ -626,11 +627,11 @@ def build_lead_in_match_elo_lookup(
                     opponent_elo_end=post2,
                     team_elo_delta=delta1,
                 )
-                lookup[(team1, match_date, team2, score1, score2)] = team1_match
-                fallback_lookup[(team1, match_date, score1, score2)] = team1_match
-            if team2 in teams_on_page:
+                lookup[(dataset_team1, match_date, team2, score1, score2)] = team1_match
+                fallback_lookup[(dataset_team1, match_date, score1, score2)] = team1_match
+            for dataset_team2 in matching_dataset_team_names(team2, teams_on_page, match_date_value):
                 team2_match = MatchElo(
-                    team=team2,
+                    team=dataset_team2,
                     opponent=team1,
                     team_score=score2,
                     opponent_score=score1,
@@ -640,12 +641,76 @@ def build_lead_in_match_elo_lookup(
                     opponent_elo_end=post1,
                     team_elo_delta=-delta1,
                 )
-                lookup[(team2, match_date, team1, score2, score1)] = team2_match
-                fallback_lookup[(team2, match_date, score2, score1)] = team2_match
+                lookup[(dataset_team2, match_date, team1, score2, score1)] = team2_match
+                fallback_lookup[(dataset_team2, match_date, score2, score1)] = team2_match
         if index % 10 == 0:
             print(f"Fetched Elo team pages: {index}/{len(teams_by_page)}")
         time.sleep(0.05)
     return lookup, fallback_lookup
+
+
+def elo_match_name_candidates(team_name: str, match_date: date) -> list[str]:
+    """Return name variants used by eloratings.net match pages."""
+    candidates = [team_name]
+    if team_name == "Republic of Ireland":
+        candidates.extend(["Ireland", "Northern Ireland"])
+    elif team_name == "Serbia" and date(1994, 12, 23) <= match_date <= date(2003, 2, 3):
+        candidates.extend(["Yugoslavia", "FR Yugoslavia"])
+    elif team_name == "China PR":
+        candidates.append("China")
+    elif team_name == "DR Congo" and date(1971, 1, 10) <= match_date <= date(1997, 4, 27):
+        candidates.append("Zaire")
+    elif team_name == "South Korea":
+        candidates.extend(["Korea", "Korea Republic"])
+    elif team_name == "United States":
+        candidates.append("USA")
+    elif team_name == "Ivory Coast":
+        candidates.append("Cote d'Ivoire")
+    elif team_name == "Curacao":
+        candidates.append("Curaçao")
+    elif team_name == "Turkey":
+        candidates.append("Türkiye")
+
+    seen: set[str] = set()
+    unique_candidates: list[str] = []
+    for candidate in candidates:
+        if candidate not in seen:
+            seen.add(candidate)
+            unique_candidates.append(candidate)
+    return unique_candidates
+
+
+def matching_dataset_team_names(parsed_elo_team_name: str, dataset_team_names: set[str], match_date: date) -> list[str]:
+    """Return dataset team names represented by one parsed Elo team name."""
+    return [
+        team_name
+        for team_name in sorted(dataset_team_names)
+        if parsed_elo_team_name in elo_match_name_candidates(team_name, match_date)
+    ]
+
+
+def lookup_lead_in_elo_match(
+    match_elo_lookup: dict[tuple[str, str, str, int, int], MatchElo],
+    match_elo_fallback_lookup: dict[tuple[str, str, int, int], MatchElo],
+    team_name: str,
+    match_date: str,
+    opponent_name: str,
+    team_score: int,
+    opponent_score: int,
+) -> MatchElo | None:
+    """Find a lead-in Elo row using current and historical name variants."""
+    match_date_value = parse_iso_date(match_date)
+    for team_candidate in elo_match_name_candidates(team_name, match_date_value):
+        for opponent_candidate in elo_match_name_candidates(opponent_name, match_date_value):
+            elo_match = match_elo_lookup.get(
+                (team_candidate, match_date, opponent_candidate, team_score, opponent_score)
+            )
+            if elo_match is not None:
+                return elo_match
+        elo_match = match_elo_fallback_lookup.get((team_candidate, match_date, team_score, opponent_score))
+        if elo_match is not None:
+            return elo_match
+    return None
 
 
 def build_groups_rows(qualified_teams: dict[str, QualifiedTeam]) -> list[dict[str, object]]:
@@ -971,13 +1036,15 @@ def build_lead_in_rows(
         for perspective, source_team_name, canonical_team_name, source_opponent_name, canonical_opponent_name, team_score, opponent_score in perspectives:
             if canonical_team_name not in qualified_names:
                 continue
-            elo_match = match_elo_lookup.get(
-                (canonical_team_name, result["date"], canonical_opponent_name, team_score, opponent_score)
+            elo_match = lookup_lead_in_elo_match(
+                match_elo_lookup,
+                match_elo_fallback_lookup,
+                canonical_team_name,
+                result["date"],
+                canonical_opponent_name,
+                team_score,
+                opponent_score,
             )
-            if elo_match is None:
-                elo_match = match_elo_fallback_lookup.get(
-                    (canonical_team_name, result["date"], team_score, opponent_score)
-                )
             if team_score > opponent_score:
                 result_label = "win"
             elif team_score < opponent_score:

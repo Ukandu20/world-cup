@@ -234,7 +234,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1946-05-11,Friendly,played,England,ENG,ENG,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,1,win,London,England,FALSE,1927,1803,1935,1795,8
 ,,,1946-05-19,Friendly,played,England,ENG,ENG,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Colombes,France,FALSE,1935,1695,1921,1709,-14
 ,,,1946-09-28,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,7,2,win,Belfast,Northern Ireland,FALSE,1921,1673,1945,1649,24
-,,,1946-09-30,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Éire,FALSE,,,,,
+,,,1946-09-30,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Éire,FALSE,1945,1693,1951,1687,6
 ,,,1946-11-13,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,TRUE,3,0,win,Manchester,England,FALSE,1951,1886,1971,1866,20
 ,,,1946-11-27,Friendly,played,England,ENG,ENG,UEFA,Netherlands,NED,NLD,UEFA,TRUE,8,2,win,Huddersfield,England,FALSE,1971,1671,1975,1667,4
 ,,,1947-04-12,British Home Championship,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,1,draw,London,England,FALSE,1975,1973,1969,1979,-6
@@ -255,7 +255,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1949-05-13,Friendly,played,England,ENG,ENG,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Solna,Sweden,FALSE,2026,1997,2014,2009,-12
 ,,,1949-05-18,Friendly,played,England,ENG,ENG,UEFA,Norway,NOR,NOR,UEFA,FALSE,4,1,win,Oslo,Norway,FALSE,2014,1607,2019,1602,5
 ,,,1949-05-22,Friendly,played,England,ENG,ENG,UEFA,France,FRA,FRA,UEFA,FALSE,3,1,win,Colombes,France,FALSE,2019,1747,2027,1739,8
-,,,1949-09-21,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Liverpool,England,FALSE,,,,,
+,,,1949-09-21,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Liverpool,England,FALSE,2027,1634,1999,1662,-28
 ,,,1949-10-15,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,FALSE,4,1,win,Cardiff,Wales,FALSE,1999,1791,2023,1767,24
 ,,,1949-11-16,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,9,2,win,Manchester,England,FALSE,2023,1663,2029,1657,6
 ,,,1949-11-30,Friendly,played,England,ENG,ENG,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,0,win,London,England,FALSE,2029,2000,2039,1990,10
@@ -299,7 +299,7 @@ WC-1954,WC-1954_016,16,1954-06-20,FIFA World Cup,played,England,ENG,ENG,UEFA,Swi
 WC-1954,WC-1954_019,19,1954-06-26,FIFA World Cup,played,England,ENG,ENG,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,2,4,loss,Basel,Switzerland,TRUE,2026,1966,1973,2019,-53
 ,,,1954-10-02,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1973,1624,1985,1612,12
 ,,,1954-11-10,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,TRUE,3,2,win,London,England,FALSE,1985,1696,1989,1692,4
-,,,1954-12-01,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,3,1,win,London,England,FALSE,,,,,
+,,,1954-12-01,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,3,1,win,London,England,FALSE,1989,2047,2002,2034,13
 ,,,1955-04-02,British Home Championship,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,TRUE,7,2,win,London,England,FALSE,2002,1809,2014,1797,12
 ,,,1955-05-15,Friendly,played,England,ENG,ENG,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Colombes,France,FALSE,2014,1830,2002,1842,-12
 ,,,1955-05-18,Friendly,played,England,ENG,ENG,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Madrid,Spain,FALSE,2002,1822,2000,1824,-2
@@ -318,9 +318,9 @@ WC-1954,WC-1954_019,19,1954-06-26,FIFA World Cup,played,England,ENG,ENG,UEFA,Uru
 ,,,1956-11-28,Friendly,played,England,ENG,ENG,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,0,win,London,England,FALSE,1991,1902,2000,1893,9
 ,,,1956-12-05,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Denmark,DNK,DNK,UEFA,TRUE,5,2,win,Wolverhampton,England,FALSE,2000,1624,2004,1620,4
 ,,,1957-04-06,British Home Championship,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,London,England,FALSE,2004,1848,2011,1841,7
-,,,1957-05-08,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,5,1,win,London,England,FALSE,,,,,
+,,,1957-05-08,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,5,1,win,London,England,FALSE,2011,1719,2018,1712,7
 ,,,1957-05-15,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Denmark,DNK,DNK,UEFA,FALSE,4,1,win,Copenhagen,Denmark,FALSE,2018,1620,2029,1609,11
-,,,1957-05-19,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1957-05-19,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,2029,1712,2018,1723,-11
 ,,,1957-10-19,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,FALSE,4,0,win,Cardiff,Wales,FALSE,2018,1700,2035,1683,17
 ,,,1957-11-06,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,3,loss,London,England,FALSE,2035,1675,1998,1712,-37
 ,,,1957-11-27,Friendly,played,England,ENG,ENG,UEFA,France,FRA,FRA,UEFA,TRUE,4,0,win,London,England,FALSE,1998,1864,2006,1856,8
@@ -383,7 +383,7 @@ WC-1962,WC-1962_025,25,1962-06-10,FIFA World Cup,played,England,ENG,ENG,UEFA,Bra
 ,,,1964-04-11,British Home Championship,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1947,1912,1931,1928,-16
 ,,,1964-05-06,Friendly,played,England,ENG,ENG,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,2,1,win,London,England,FALSE,1931,1854,1936,1849,5
 ,,,1964-05-17,Friendly,played,England,ENG,ENG,UEFA,Portugal,PRT,PRT,UEFA,FALSE,4,3,win,Oeiras,Portugal,FALSE,1936,1684,1942,1678,6
-,,,1964-05-24,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1964-05-24,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,1,win,Dublin,Republic of Ireland,FALSE,1942,1671,1950,1663,8
 ,,,1964-05-27,Friendly,played,England,ENG,ENG,UEFA,United States,USA,USA,CONCACAF,FALSE,10,0,win,New York,United States,FALSE,1950,1433,1954,1429,4
 ,,,1964-05-30,Friendly,played,England,ENG,ENG,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,5,loss,Rio de Janeiro,Brazil,FALSE,1954,1948,1933,1969,-21
 ,,,1964-06-04,Friendly,played,England,ENG,ENG,UEFA,Portugal,PRT,PRT,UEFA,TRUE,1,1,draw,São Paulo,Brazil,TRUE,1933,1670,1923,1680,-10
@@ -395,14 +395,14 @@ WC-1962,WC-1962_025,25,1962-06-10,FIFA World Cup,played,England,ENG,ENG,UEFA,Bra
 ,,,1965-04-10,British Home Championship,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,London,England,FALSE,1918,1911,1912,1917,-6
 ,,,1965-05-05,Friendly,played,England,ENG,ENG,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,0,win,London,England,FALSE,1912,1973,1921,1964,9
 ,,,1965-05-09,Friendly,played,England,ENG,ENG,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,1,draw,Belgrade,Yugoslavia,FALSE,1921,1868,1922,1867,1
-,,,1965-05-12,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,1,0,win,Nuremberg,Germany,FALSE,,,,,
+,,,1965-05-12,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,1,0,win,Nuremberg,Germany,FALSE,1922,1896,1934,1884,12
 ,,,1965-05-16,Friendly,played,England,ENG,ENG,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,1,win,Gothenburg,Sweden,FALSE,1934,1868,1945,1857,11
 ,,,1965-10-02,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1945,1732,1939,1738,-6
 ,,,1965-10-20,Friendly,played,England,ENG,ENG,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,3,loss,London,England,FALSE,1939,1779,1923,1795,-16
 ,,,1965-11-10,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,1,win,London,England,FALSE,1923,1672,1928,1667,5
 ,,,1965-12-08,Friendly,played,England,ENG,ENG,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,0,win,Madrid,Spain,FALSE,1928,1918,1947,1899,19
 ,,,1966-01-05,Friendly,played,England,ENG,ENG,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Liverpool,England,FALSE,1947,1689,1939,1697,-8
-,,,1966-02-23,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,London,England,FALSE,,,,,
+,,,1966-02-23,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,London,England,FALSE,1939,1918,1946,1911,7
 ,,,1966-04-02,British Home Championship,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,FALSE,4,3,win,Glasgow,Scotland,FALSE,1946,1862,1967,1841,21
 ,,,1966-05-04,Friendly,played,England,ENG,ENG,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,London,England,FALSE,1967,1804,1972,1799,5
 ,,,1966-06-26,Friendly,played,England,ENG,ENG,UEFA,Finland,,,,FALSE,3,0,win,Helsinki,Finland,FALSE,1972,1453,1975,1450,3
@@ -414,7 +414,7 @@ WC-1966,WC-1966_015,15,1966-07-16,FIFA World Cup,played,England,ENG,ENG,UEFA,Mex
 WC-1966,WC-1966_023,23,1966-07-20,FIFA World Cup,played,England,ENG,ENG,UEFA,France,FRA,FRA,UEFA,TRUE,2,0,win,London,England,FALSE,1993,1746,2004,1735,11
 WC-1966,WC-1966_025,25,1966-07-23,FIFA World Cup,played,England,ENG,ENG,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,0,win,London,England,FALSE,2004,2004,2026,1982,22
 WC-1966,WC-1966_030,30,1966-07-26,FIFA World Cup,played,England,ENG,ENG,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,1,win,London,England,FALSE,2026,2003,2046,1983,20
-WC-1966,WC-1966_032,32,1966-07-30,FIFA World Cup,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,4,2,win,London,England,FALSE,,,,,
+WC-1966,WC-1966_032,32,1966-07-30,FIFA World Cup,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,4,2,win,London,England,FALSE,2046,2074,2082,2038,36
 ,,,1966-10-22,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,2082,1726,2093,1715,11
 ,,,1966-11-02,Friendly,played,England,ENG,ENG,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,0,draw,London,England,FALSE,2093,1890,2086,1897,-7
 ,,,1966-11-16,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,TRUE,5,1,win,London,England,FALSE,2086,1696,2090,1692,4
@@ -428,7 +428,7 @@ WC-1966,WC-1966_032,32,1966-07-30,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 ,,,1968-04-03,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,0,win,London,England,FALSE,2067,1879,2073,1873,6
 ,,,1968-05-08,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,1,win,Madrid,Spain,FALSE,2073,1872,2087,1858,14
 ,,,1968-05-22,Friendly,played,England,ENG,ENG,UEFA,Sweden,SWE,SWE,UEFA,TRUE,3,1,win,London,England,FALSE,2087,1726,2089,1724,2
-,,,1968-06-01,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Hanover,Germany,FALSE,,,,,
+,,,1968-06-01,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Hanover,Germany,FALSE,2089,1998,2079,2008,-10
 ,,,1968-06-05,UEFA Euro,played,England,ENG,ENG,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Florence,Italy,TRUE,2079,1839,2039,1879,-40
 ,,,1968-06-08,UEFA Euro,played,England,ENG,ENG,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,0,win,Rome,Italy,TRUE,2039,1989,2071,1957,32
 ,,,1968-11-06,Friendly,played,England,ENG,ENG,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,0,draw,Bucharest,Romania,FALSE,2071,1739,2065,1745,-6
@@ -454,7 +454,7 @@ WC-1966,WC-1966_032,32,1966-07-30,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 WC-1970,WC-1970_003,3,1970-06-02,FIFA World Cup,played,England,ENG,ENG,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,0,win,Guadalajara,Mexico,TRUE,2070,1784,2080,1774,10
 WC-1970,WC-1970_013,13,1970-06-07,FIFA World Cup,played,England,ENG,ENG,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Guadalajara,Mexico,TRUE,2080,2056,2048,2088,-32
 WC-1970,WC-1970_022,22,1970-06-11,FIFA World Cup,played,England,ENG,ENG,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,0,win,Guadalajara,Mexico,TRUE,2048,1876,2064,1860,16
-WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,2,3,loss,León,Mexico,TRUE,,,,,
+WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,2,3,loss,León,Mexico,TRUE,2064,2046,2032,2078,-32
 ,,,1970-11-25,Friendly,played,England,ENG,ENG,UEFA,German DR,DDR,DDR,UEFA,TRUE,3,1,win,London,England,FALSE,2032,1913,2039,1906,7
 ,,,1971-02-03,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Malta,,,,FALSE,1,0,win,Gżira,Malta,FALSE,2039,1407,2041,1405,2
 ,,,1971-04-21,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Greece,GRC,GRC,UEFA,TRUE,3,0,win,London,England,FALSE,2041,1633,2045,1629,4
@@ -465,8 +465,8 @@ WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 ,,,1971-10-13,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,2,win,Basel,Switzerland,FALSE,2042,1706,2050,1698,8
 ,,,1971-11-10,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,1,draw,London,England,FALSE,2050,1698,2033,1715,-17
 ,,,1971-12-01,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,0,win,Piraeus,Greece,FALSE,2033,1625,2042,1616,9
-,,,1972-04-29,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,London,England,FALSE,,,,,
-,,,1972-05-13,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Berlin,Germany,FALSE,,,,,
+,,,1972-04-29,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,London,England,FALSE,2042,2065,2005,2102,-37
+,,,1972-05-13,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Berlin,Germany,FALSE,2005,2102,2015,2092,10
 ,,,1972-05-20,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,FALSE,3,0,win,Cardiff,Wales,FALSE,2015,1675,2029,1661,14
 ,,,1972-05-23,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,1,loss,London,England,FALSE,2029,1727,1993,1763,-36
 ,,,1972-05-27,British Home Championship,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,0,win,Glasgow,Scotland,FALSE,1993,1793,2007,1779,14
@@ -494,7 +494,7 @@ WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 ,,,1974-06-05,Friendly,played,England,ENG,ENG,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,2,draw,Belgrade,Yugoslavia,FALSE,1966,1937,1968,1935,2
 ,,,1974-10-30,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,0,win,London,England,FALSE,1968,1881,1986,1863,18
 ,,,1974-11-20,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,0,draw,London,England,FALSE,1986,1847,1974,1859,-12
-,,,1975-03-12,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,2,0,win,London,England,FALSE,,,,,
+,,,1975-03-12,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,2,0,win,London,England,FALSE,1974,2130,1991,2113,17
 ,,,1975-04-16,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Cyprus,,,,TRUE,5,0,win,London,England,FALSE,1991,1313,1992,1312,1
 ,,,1975-05-11,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Cyprus,,,,FALSE,1,0,win,Limassol,Cyprus,FALSE,1992,1310,1993,1309,1
 ,,,1975-05-17,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,0,draw,Belfast,Northern Ireland,FALSE,1993,1814,1989,1818,-4
@@ -510,7 +510,7 @@ WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 ,,,1976-05-23,Friendly,played,England,ENG,ENG,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Los Angeles,United States,TRUE,1987,2046,1975,2058,-12
 ,,,1976-05-28,Friendly,played,England,ENG,ENG,UEFA,Italy,ITA,ITA,UEFA,TRUE,3,2,win,New York,United States,TRUE,1975,1960,1989,1946,14
 ,,,1976-06-13,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Finland,,,,FALSE,4,1,win,Helsinki,Finland,FALSE,1989,1410,1993,1406,4
-,,,1976-09-08,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,London,England,FALSE,,,,,
+,,,1976-09-08,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,London,England,FALSE,1993,1727,1985,1735,-8
 ,,,1976-10-13,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Finland,,,,TRUE,2,1,win,London,England,FALSE,1985,1440,1986,1439,1
 ,,,1976-11-17,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,2,loss,Rome,Italy,FALSE,1986,1952,1962,1976,-24
 ,,,1977-02-09,Friendly,played,England,ENG,ENG,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,2,loss,London,England,FALSE,1962,2030,1946,2046,-16
@@ -524,14 +524,14 @@ WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 ,,,1977-09-07,Friendly,played,England,ENG,ENG,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,0,0,draw,London,England,FALSE,1908,1602,1900,1610,-8
 ,,,1977-10-12,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Luxembourg,,,,FALSE,2,0,win,Luxembourg,Luxembourg,FALSE,1900,1253,1902,1251,2
 ,,,1977-11-16,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,0,win,London,England,FALSE,1902,1973,1930,1945,28
-,,,1978-02-22,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Munich,Germany,FALSE,,,,,
+,,,1978-02-22,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Munich,Germany,FALSE,1930,2131,1927,2134,-3
 ,,,1978-04-19,Friendly,played,England,ENG,ENG,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,1,draw,London,England,FALSE,1927,2073,1928,2072,1
 ,,,1978-05-13,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,FALSE,3,1,win,Cardiff,Wales,FALSE,1928,1808,1956,1780,28
 ,,,1978-05-16,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,0,win,London,England,FALSE,1956,1745,1962,1739,6
 ,,,1978-05-20,British Home Championship,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,0,win,Glasgow,Scotland,FALSE,1962,1970,1988,1944,26
 ,,,1978-05-24,Friendly,played,England,ENG,ENG,UEFA,Hungary,HUN,HUN,UEFA,TRUE,4,1,win,London,England,FALSE,1988,1917,1998,1907,10
 ,,,1978-09-20,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Denmark,DNK,DNK,UEFA,FALSE,4,3,win,Copenhagen,Denmark,FALSE,1998,1656,2006,1648,8
-,,,1978-10-25,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1978-10-25,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,2006,1714,1996,1724,-10
 ,,,1978-11-29,Friendly,played,England,ENG,ENG,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,London,England,FALSE,1996,1911,2001,1906,5
 ,,,1979-02-07,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,4,0,win,London,England,FALSE,2001,1781,2011,1771,10
 ,,,1979-05-19,British Home Championship,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,2011,1789,2031,1769,20
@@ -543,7 +543,7 @@ WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 ,,,1979-09-12,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,London,England,FALSE,2029,1656,2031,1654,2
 ,,,1979-10-17,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,5,1,win,Belfast,Northern Ireland,FALSE,2031,1717,2048,1700,17
 ,,,1979-11-22,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,2,0,win,London,England,FALSE,2048,1709,2052,1705,4
-,,,1980-02-06,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,London,England,FALSE,,,,,
+,,,1980-02-06,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,London,England,FALSE,2052,1724,2057,1719,5
 ,,,1980-03-26,Friendly,played,England,ENG,ENG,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,0,win,Barcelona,Spain,FALSE,2057,1892,2069,1880,12
 ,,,1980-05-13,Friendly,played,England,ENG,ENG,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,3,1,win,London,England,FALSE,2069,1976,2076,1969,7
 ,,,1980-05-17,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,4,loss,Wrexham,Wales,FALSE,2076,1817,2026,1867,-50
@@ -574,10 +574,10 @@ WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 WC-1982,WC-1982_007,7,1982-06-16,FIFA World Cup,played,England,ENG,ENG,UEFA,France,FRA,FRA,UEFA,TRUE,3,1,win,Bilbao,Spain,TRUE,1964,1880,1998,1846,34
 WC-1982,WC-1982_019,19,1982-06-20,FIFA World Cup,played,England,ENG,ENG,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,0,win,Bilbao,Spain,TRUE,1998,1877,2028,1847,30
 WC-1982,WC-1982_034,34,1982-06-25,FIFA World Cup,played,England,ENG,ENG,UEFA,Kuwait,KWT,KWT,AFC,TRUE,1,0,win,Bilbao,Spain,TRUE,2028,1623,2033,1618,5
-WC-1982,WC-1982_039,39,1982-06-29,FIFA World Cup,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Madrid,Spain,TRUE,,,,,
+WC-1982,WC-1982_039,39,1982-06-29,FIFA World Cup,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Madrid,Spain,TRUE,2033,2091,2038,2086,5
 WC-1982,WC-1982_048,48,1982-07-05,FIFA World Cup,played,England,ENG,ENG,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,0,draw,Madrid,Spain,FALSE,2038,1826,2029,1835,-9
 ,,,1982-09-22,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,2,draw,Copenhagen,Denmark,FALSE,2029,1735,2019,1745,-10
-,,,1982-10-13,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,London,England,FALSE,,,,,
+,,,1982-10-13,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,London,England,FALSE,2019,2030,2006,2043,-13
 ,,,1982-11-17,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,0,win,Salonica,Greece,FALSE,2006,1643,2019,1630,13
 ,,,1982-12-15,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Luxembourg,,,,TRUE,9,0,win,London,England,FALSE,2019,1204,2020,1203,1
 ,,,1983-02-23,British Home Championship,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,1,win,London,England,FALSE,2020,1863,2027,1856,7
@@ -603,13 +603,13 @@ WC-1982,WC-1982_048,48,1982-07-05,FIFA World Cup,played,England,ENG,ENG,UEFA,Spa
 ,,,1984-10-17,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Finland,,,,TRUE,5,0,win,London,England,FALSE,1953,1467,1956,1464,3
 ,,,1984-11-14,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Turkey,TUR,TUR,UEFA,FALSE,8,0,win,Istanbul,Turkey,FALSE,1956,1550,1970,1536,14
 ,,,1985-02-27,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,1,0,win,Belfast,Northern Ireland,FALSE,1970,1824,1987,1807,17
-,,,1985-03-26,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,London,England,FALSE,,,,,
+,,,1985-03-26,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,London,England,FALSE,1987,1720,1989,1718,2
 ,,,1985-05-01,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,0,draw,Bucharest,Romania,FALSE,1989,1790,1983,1796,-6
 ,,,1985-05-22,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Finland,,,,FALSE,1,1,draw,Helsinki,Finland,FALSE,1983,1476,1967,1492,-16
 ,,,1985-05-25,Rous Cup,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,1,loss,Glasgow,Scotland,FALSE,1967,1840,1951,1856,-16
 ,,,1985-06-06,Friendly,played,England,ENG,ENG,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,2,loss,Mexico City,Mexico,TRUE,1951,1892,1933,1910,-18
 ,,,1985-06-09,Friendly,played,England,ENG,ENG,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Mexico City,Mexico,FALSE,1933,1797,1916,1814,-17
-,,,1985-06-12,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,3,0,win,Mexico City,Mexico,TRUE,,,,,
+,,,1985-06-12,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,TRUE,3,0,win,Mexico City,Mexico,TRUE,1916,2014,1949,1981,33
 ,,,1985-06-16,Friendly,played,England,ENG,ENG,UEFA,United States,USA,USA,CONCACAF,FALSE,5,0,win,Los Angeles,United States,FALSE,1949,1557,1955,1551,6
 ,,,1985-09-11,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,London,England,FALSE,1955,1786,1942,1799,-13
 ,,,1985-10-16,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Turkey,TUR,TUR,UEFA,TRUE,5,0,win,London,England,FALSE,1942,1523,1946,1519,4
@@ -633,7 +633,7 @@ WC-1986,WC-1986_047,47,1986-06-22,FIFA World Cup,played,England,ENG,ENG,UEFA,Arg
 ,,,1987-04-29,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,0,draw,İzmir,Turkey,FALSE,2016,1540,2000,1556,-16
 ,,,1987-05-19,Rous Cup,played,England,ENG,ENG,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,1,draw,London,England,FALSE,2000,2017,1996,2021,-4
 ,,,1987-05-23,Rous Cup,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1996,1762,1990,1768,-6
-,,,1987-09-09,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Düsseldorf,Germany,FALSE,,,,,
+,,,1987-09-09,Friendly,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Düsseldorf,Germany,FALSE,1990,1965,1978,1977,-12
 ,,,1987-10-14,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Turkey,TUR,TUR,UEFA,TRUE,8,0,win,London,England,FALSE,1978,1556,1982,1552,4
 ,,,1987-11-11,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,4,1,win,Belgrade,Yugoslavia,FALSE,1982,1859,2015,1826,33
 ,,,1988-02-17,Friendly,played,England,ENG,ENG,UEFA,Israel,ISR,ISR,UEFA,FALSE,0,0,draw,Ramat Gan,Israel,FALSE,2015,1538,2007,1546,-8
@@ -642,7 +642,7 @@ WC-1986,WC-1986_047,47,1986-06-22,FIFA World Cup,played,England,ENG,ENG,UEFA,Arg
 ,,,1988-05-21,Rous Cup,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,London,England,FALSE,1999,1787,2003,1783,4
 ,,,1988-05-24,Rous Cup,played,England,ENG,ENG,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,1,1,draw,London,England,FALSE,2003,1795,1992,1806,-11
 ,,,1988-05-28,Friendly,played,England,ENG,ENG,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Basel,Switzerland,FALSE,1992,1747,1998,1741,6
-,,,1988-06-12,UEFA Euro,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Stuttgart,Germany,TRUE,,,,,
+,,,1988-06-12,UEFA Euro,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Stuttgart,Germany,TRUE,1998,1832,1962,1868,-36
 ,,,1988-06-15,UEFA Euro,played,England,ENG,ENG,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,3,loss,Düsseldorf,Germany,TRUE,1962,1912,1919,1955,-43
 ,,,1988-06-18,UEFA Euro,played,England,ENG,ENG,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,3,loss,Frankfurt am Main,Germany,TRUE,1919,1989,1889,2019,-30
 ,,,1988-09-14,Friendly,played,England,ENG,ENG,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,London,England,FALSE,1889,1837,1895,1831,6
@@ -664,18 +664,18 @@ WC-1986,WC-1986_047,47,1986-06-22,FIFA World Cup,played,England,ENG,ENG,UEFA,Arg
 ,,,1990-05-15,Friendly,played,England,ENG,ENG,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,London,England,FALSE,1961,1897,1967,1891,6
 ,,,1990-05-22,Friendly,played,England,ENG,ENG,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,2,loss,London,England,FALSE,1967,1878,1952,1893,-15
 ,,,1990-06-02,Friendly,played,England,ENG,ENG,UEFA,Tunisia,TUN,TUN,CAF,FALSE,1,1,draw,Tunis,Tunisia,FALSE,1952,1464,1944,1472,-8
-WC-1990,WC-1990_009,9,1990-06-11,FIFA World Cup,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Cagliari,Italy,TRUE,,,,,
+WC-1990,WC-1990_009,9,1990-06-11,FIFA World Cup,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Cagliari,Italy,TRUE,1944,1892,1940,1896,-4
 WC-1990,WC-1990_020,20,1990-06-16,FIFA World Cup,played,England,ENG,ENG,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Cagliari,Italy,TRUE,1940,2008,1946,2002,6
 WC-1990,WC-1990_034,34,1990-06-21,FIFA World Cup,played,England,ENG,ENG,UEFA,Egypt,EGY,EGY,CAF,TRUE,1,0,win,Cagliari,Italy,TRUE,1946,1670,1956,1660,10
 WC-1990,WC-1990_043,43,1990-06-26,FIFA World Cup,played,England,ENG,ENG,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Bologna,Italy,TRUE,1956,1896,1981,1871,25
 WC-1990,WC-1990_047,47,1990-07-01,FIFA World Cup,played,England,ENG,ENG,UEFA,Cameroon,CMR,CMR,CAF,FALSE,3,2,win,Naples,Italy,TRUE,1981,1724,1992,1713,11
-WC-1990,WC-1990_050,50,1990-07-04,FIFA World Cup,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Turin,Italy,TRUE,,,,,
+WC-1990,WC-1990_050,50,1990-07-04,FIFA World Cup,played,England,ENG,ENG,UEFA,Germany,GER,DEU,UEFA,FALSE,1,1,draw,Turin,Italy,TRUE,1992,2064,1998,2058,6
 WC-1990,WC-1990_051,51,1990-07-07,FIFA World Cup,played,England,ENG,ENG,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,2,loss,Bari,Italy,FALSE,1998,2013,1978,2033,-20
 ,,,1990-09-12,Friendly,played,England,ENG,ENG,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,0,win,London,England,FALSE,1978,1748,1981,1745,3
 ,,,1990-10-17,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Poland,POL,POL,UEFA,TRUE,2,0,win,London,England,FALSE,1981,1775,1990,1766,9
-,,,1990-11-14,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1990-11-14,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1990,1887,1990,1887,0
 ,,,1991-02-06,Friendly,played,England,ENG,ENG,UEFA,Cameroon,CMR,CMR,CAF,TRUE,2,0,win,London,England,FALSE,1990,1649,1992,1647,2
-,,,1991-03-27,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,London,England,FALSE,,,,,
+,,,1991-03-27,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,London,England,FALSE,1992,1903,1982,1913,-10
 ,,,1991-05-01,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,0,win,İzmir,Turkey,FALSE,1982,1604,1989,1597,7
 ,,,1991-05-21,Friendly,played,England,ENG,ENG,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,3,1,win,London,England,FALSE,1989,1913,2001,1901,12
 ,,,1991-05-25,Friendly,played,England,ENG,ENG,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,2,draw,London,England,FALSE,2001,1884,1993,1892,-8
@@ -715,7 +715,7 @@ WC-1990,WC-1990_051,51,1990-07-07,FIFA World Cup,played,England,ENG,ENG,UEFA,Ita
 ,,,1994-09-07,Friendly,played,England,ENG,ENG,UEFA,United States,USA,USA,CONCACAF,TRUE,2,0,win,London,England,FALSE,1888,1636,1891,1633,3
 ,,,1994-10-12,Friendly,played,England,ENG,ENG,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,London,England,FALSE,1891,1908,1889,1910,-2
 ,,,1994-11-16,Friendly,played,England,ENG,ENG,UEFA,Nigeria,NGA,NGA,CAF,TRUE,1,0,win,London,England,FALSE,1889,1784,1894,1779,5
-,,,1995-02-15,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1995-02-15,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1894,1873,1886,1881,-8
 ,,,1995-03-29,Friendly,played,England,ENG,ENG,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,0,0,draw,London,England,FALSE,1886,1798,1881,1803,-5
 ,,,1995-06-03,Friendly,played,England,ENG,ENG,UEFA,Japan,JPN,JPN,AFC,TRUE,2,1,win,London,England,FALSE,1881,1612,1884,1609,3
 ,,,1995-06-08,Friendly,played,England,ENG,ENG,UEFA,Sweden,SWE,SWE,UEFA,TRUE,3,3,draw,Leeds,England,FALSE,1884,1856,1879,1861,-5
@@ -727,7 +727,7 @@ WC-1990,WC-1990_051,51,1990-07-07,FIFA World Cup,played,England,ENG,ENG,UEFA,Ita
 ,,,1996-03-27,Friendly,played,England,ENG,ENG,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,London,England,FALSE,1869,1836,1875,1830,6
 ,,,1996-04-24,Friendly,played,England,ENG,ENG,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,0,draw,London,England,FALSE,1875,1898,1873,1900,-2
 ,,,1996-05-18,Friendly,played,England,ENG,ENG,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,0,win,London,England,FALSE,1873,1584,1876,1581,3
-,,,1996-05-23,Friendly,played,England,ENG,ENG,UEFA,China PR,,,,FALSE,3,0,win,Beijing,China PR,FALSE,,,,,
+,,,1996-05-23,Friendly,played,England,ENG,ENG,UEFA,China PR,,,,FALSE,3,0,win,Beijing,China PR,FALSE,1876,1623,1886,1613,10
 ,,,1996-06-08,UEFA Euro,played,England,ENG,ENG,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,1,draw,London,England,FALSE,1886,1803,1874,1815,-12
 ,,,1996-06-15,UEFA Euro,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,0,win,London,England,FALSE,1874,1777,1892,1759,18
 ,,,1996-06-18,UEFA Euro,played,England,ENG,ENG,UEFA,Netherlands,NED,NLD,UEFA,TRUE,4,1,win,London,England,FALSE,1892,1933,1928,1897,36
@@ -925,7 +925,7 @@ WC-2010,WC-2010_052,52,2010-06-27,FIFA World Cup,played,England,ENG,ENG,UEFA,Ger
 ,,,2013-02-06,Friendly,played,England,ENG,ENG,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,2,1,win,London,England,FALSE,1952,2061,1962,2051,10
 ,,,2013-03-22,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,San Marino,,,,FALSE,8,0,win,Serravalle,San Marino,FALSE,1962,884,1962,884,0
 ,,,2013-03-26,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Montenegro,,,,FALSE,1,1,draw,Podgorica,Montenegro,FALSE,1962,1686,1953,1695,-9
-,,,2013-05-29,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,London,England,FALSE,,,,,
+,,,2013-05-29,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,London,England,FALSE,1953,1738,1946,1745,-7
 ,,,2013-06-02,Friendly,played,England,ENG,ENG,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,2,2,draw,Rio de Janeiro,Brazil,FALSE,1946,2041,1951,2036,5
 ,,,2013-08-14,Friendly,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,2,win,London,England,FALSE,1951,1649,1953,1647,2
 ,,,2013-09-06,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Moldova,,,,TRUE,4,0,win,London,England,FALSE,1953,1384,1955,1382,2
@@ -949,7 +949,7 @@ WC-2014,WC-2014_037,37,2014-06-24,FIFA World Cup,played,England,ENG,ENG,UEFA,Cos
 ,,,2014-11-18,Friendly,played,England,ENG,ENG,UEFA,Scotland,SCO,SCO,UEFA,FALSE,3,1,win,Glasgow,Scotland,FALSE,1911,1734,1923,1722,12
 ,,,2015-03-27,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Lithuania,,,,TRUE,4,0,win,London,England,FALSE,1923,1466,1926,1463,3
 ,,,2015-03-31,Friendly,played,England,ENG,ENG,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Turin,Italy,FALSE,1926,1875,1927,1874,1
-,,,2015-06-07,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2015-06-07,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1927,1719,1924,1722,-3
 ,,,2015-06-14,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,3,2,win,Ljubljana,Slovenia,FALSE,1924,1644,1934,1634,10
 ,,,2015-09-05,UEFA Euro qualification,played,England,ENG,ENG,UEFA,San Marino,,,,FALSE,6,0,win,Serravalle,San Marino,FALSE,1934,886,1934,886,0
 ,,,2015-09-08,UEFA Euro qualification,played,England,ENG,ENG,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,0,win,London,England,FALSE,1934,1808,1947,1795,13
@@ -1013,7 +1013,7 @@ WC-2018,WC-2018_063,63,2018-07-14,FIFA World Cup,played,England,ENG,ENG,UEFA,Bel
 ,,,2020-10-08,Friendly,played,England,ENG,ENG,UEFA,Wales,WAL,WAL,UEFA,TRUE,3,0,win,London,England,FALSE,1966,1806,1972,1800,6
 ,,,2020-10-11,UEFA Nations League,played,England,ENG,ENG,UEFA,Belgium,BEL,BEL,UEFA,TRUE,2,1,win,London,England,FALSE,1972,2099,1994,2077,22
 ,,,2020-10-14,UEFA Nations League,played,England,ENG,ENG,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,1,loss,London,England,FALSE,1994,1897,1964,1927,-30
-,,,2020-11-12,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,London,England,FALSE,,,,,
+,,,2020-11-12,Friendly,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,London,England,FALSE,1964,1684,1968,1680,4
 ,,,2020-11-15,UEFA Nations League,played,England,ENG,ENG,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Leuven,Belgium,FALSE,1968,2086,1955,2099,-13
 ,,,2020-11-18,UEFA Nations League,played,England,ENG,ENG,UEFA,Iceland,ISL,ISL,UEFA,TRUE,4,0,win,London,England,FALSE,1955,1639,1961,1633,6
 ,,,2021-03-25,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,San Marino,,,,TRUE,5,0,win,London,England,FALSE,1961,830,1961,830,0
@@ -1069,12 +1069,12 @@ WC-2022,WC-2022_060,60,2022-12-10,FIFA World Cup,played,England,ENG,ENG,UEFA,Fra
 ,,,2024-07-06,UEFA Euro,played,England,ENG,ENG,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,1,draw,Düsseldorf,Germany,TRUE,1976,1897,1970,1903,-6
 ,,,2024-07-10,UEFA Euro,played,England,ENG,ENG,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,1,win,Dortmund,Germany,TRUE,1970,1989,1996,1963,26
 ,,,2024-07-14,UEFA Euro,played,England,ENG,ENG,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,2,loss,Berlin,Germany,TRUE,1996,2134,1980,2150,-16
-,,,2024-09-07,UEFA Nations League,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2024-09-07,UEFA Nations League,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,1980,1619,1991,1608,11
 ,,,2024-09-10,UEFA Nations League,played,England,ENG,ENG,UEFA,Finland,,,,TRUE,2,0,win,London,England,FALSE,1991,1611,1995,1607,4
 ,,,2024-10-10,UEFA Nations League,played,England,ENG,ENG,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,2,loss,London,England,FALSE,1995,1780,1961,1814,-34
 ,,,2024-10-13,UEFA Nations League,played,England,ENG,ENG,UEFA,Finland,,,,FALSE,3,1,win,Helsinki,Finland,FALSE,1961,1580,1971,1570,10
 ,,,2024-11-14,UEFA Nations League,played,England,ENG,ENG,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,0,win,Athens,Greece,FALSE,1971,1823,2001,1793,30
-,,,2024-11-17,UEFA Nations League,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,5,0,win,London,England,FALSE,,,,,
+,,,2024-11-17,UEFA Nations League,played,England,ENG,ENG,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,5,0,win,London,England,FALSE,2001,1613,2006,1608,5
 ,,,2025-03-21,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Albania,,,,TRUE,2,0,win,London,England,FALSE,2006,1635,2010,1631,4
 ,,,2025-03-24,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Latvia,,,,TRUE,3,0,win,London,England,FALSE,2010,1291,2011,1290,1
 ,,,2025-06-07,FIFA World Cup qualification,played,England,ENG,ENG,UEFA,Andorra,,,,FALSE,1,0,win,Barcelona,Spain,TRUE,2011,1066,2011,1066,0

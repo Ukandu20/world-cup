@@ -162,7 +162,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1985-01-01,Friendly,played,Ivory Coast,CIV,CIV,CAF,Algeria,DZA,DZA,CAF,TRUE,1,1,draw,Abidjan,Ivory Coast,FALSE,1584,1709,1585,1708,1
 ,,,1985-01-31,Friendly,played,Ivory Coast,CIV,CIV,CAF,Egypt,EGY,EGY,CAF,TRUE,0,1,loss,Abidjan,Ivory Coast,FALSE,1585,1654,1574,1665,-11
 ,,,1985-02-20,Friendly,played,Ivory Coast,CIV,CIV,CAF,Congo,,,,TRUE,2,1,win,Abidjan,Ivory Coast,FALSE,1574,1526,1580,1520,6
-,,,1985-03-05,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,2,1,win,Abidjan,Ivory Coast,FALSE,,,,,
+,,,1985-03-05,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,2,1,win,Abidjan,Ivory Coast,FALSE,1580,1583,1587,1576,7
 ,,,1985-03-31,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Mali,,,,TRUE,6,0,win,Abidjan,Ivory Coast,FALSE,1587,1485,1607,1465,20
 ,,,1985-04-07,FIFA World Cup qualification,played,Ivory Coast,CIV,CIV,CAF,Ghana,GHA,GHA,CAF,TRUE,0,0,draw,Abidjan,Ivory Coast,FALSE,1607,1605,1601,1611,-6
 ,,,1985-04-14,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Mali,,,,FALSE,1,1,draw,Bamako,Mali,FALSE,1601,1493,1601,1493,0
@@ -175,7 +175,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1985-09-01,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Ghana,GHA,GHA,CAF,FALSE,0,0,draw,Kumasi,Ghana,FALSE,1596,1581,1601,1576,5
 ,,,1985-11-19,Friendly,played,Ivory Coast,CIV,CIV,CAF,Egypt,EGY,EGY,CAF,FALSE,1,0,win,Kinshasa,Zaïre,TRUE,1601,1631,1617,1615,16
 ,,,1985-11-21,Friendly,played,Ivory Coast,CIV,CIV,CAF,Zambia,,,,TRUE,0,1,loss,Kinshasa,Zaïre,TRUE,1617,1600,1601,1616,-16
-,,,1985-11-24,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,FALSE,2,1,win,Kinshasa,Zaïre,FALSE,,,,,
+,,,1985-11-24,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,FALSE,2,1,win,Kinshasa,Zaïre,FALSE,1601,1605,1620,1586,19
 ,,,1985-11-27,Friendly,played,Ivory Coast,CIV,CIV,CAF,Congo,,,,FALSE,1,2,loss,Kinshasa,Zaïre,TRUE,,,,,
 ,,,1985-11-29,Friendly,played,Ivory Coast,CIV,CIV,CAF,Congo,,,,FALSE,1,0,win,Kinshasa,Zaïre,TRUE,,,,,
 ,,,1985-12-27,Friendly,played,Ivory Coast,CIV,CIV,CAF,Guinea,,,,TRUE,1,0,win,Dakar,Senegal,TRUE,1619,1363,1626,1356,7
@@ -192,8 +192,8 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1986-12-14,Friendly,played,Ivory Coast,CIV,CIV,CAF,Algeria,DZA,DZA,CAF,FALSE,1,2,loss,Mascara,Algeria,FALSE,1641,1617,1633,1625,-8
 ,,,1987-01-31,West African Cup,played,Ivory Coast,CIV,CIV,CAF,Ghana,GHA,GHA,CAF,TRUE,0,2,loss,Monrovia,Liberia,TRUE,1648,1604,1614,1638,-34
 ,,,1987-02-04,West African Cup,played,Ivory Coast,CIV,CIV,CAF,Niger,,,,FALSE,1,0,win,Monrovia,Liberia,TRUE,1585,1288,1591,1282,6
-,,,1987-03-18,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,2,1,win,Abidjan,Ivory Coast,FALSE,,,,,
-,,,1987-03-22,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,1,3,loss,Abidjan,Ivory Coast,FALSE,,,,,
+,,,1987-03-18,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,2,1,win,Abidjan,Ivory Coast,FALSE,1591,1602,1598,1595,7
+,,,1987-03-22,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,1,3,loss,Abidjan,Ivory Coast,FALSE,1598,1595,1579,1614,-19
 ,,,1987-03-29,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Congo,,,,TRUE,2,0,win,Abidjan,Ivory Coast,FALSE,1579,1487,1594,1472,15
 ,,,1987-04-05,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Congo,,,,FALSE,2,1,win,Brazzaville,Congo,FALSE,1594,1472,1613,1453,19
 ,,,1987-04-08,Friendly,played,Ivory Coast,CIV,CIV,CAF,Gabon,,,,FALSE,0,1,loss,Libreville,Gabon,FALSE,1613,1452,1601,1464,-12
@@ -209,7 +209,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1987-12-19,Friendly,played,Ivory Coast,CIV,CIV,CAF,Senegal,SEN,SEN,CAF,TRUE,1,0,win,Monrovia,Liberia,TRUE,1615,1499,1629,1485,14
 ,,,1987-12-23,Friendly,played,Ivory Coast,CIV,CIV,CAF,Liberia,,,,FALSE,2,1,win,Monrovia,Liberia,FALSE,1629,1398,1642,1385,13
 ,,,1988-03-13,African Cup of Nations,played,Ivory Coast,CIV,CIV,CAF,Algeria,DZA,DZA,CAF,FALSE,1,1,draw,Casablanca,Morocco,TRUE,1642,1621,1640,1623,-2
-,,,1988-03-16,African Cup of Nations,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,1,1,draw,Casablanca,Morocco,TRUE,,,,,
+,,,1988-03-16,African Cup of Nations,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,1,1,draw,Casablanca,Morocco,TRUE,1640,1594,1637,1597,-3
 ,,,1988-03-19,African Cup of Nations,played,Ivory Coast,CIV,CIV,CAF,Morocco,MAR,MAR,CAF,FALSE,0,0,draw,Casablanca,Morocco,FALSE,1637,1691,1647,1681,10
 ,,,1988-12-10,Friendly,played,Ivory Coast,CIV,CIV,CAF,Tunisia,TUN,TUN,CAF,TRUE,1,0,win,Abidjan,Ivory Coast,FALSE,1647,1474,1650,1471,3
 ,,,1988-12-18,Friendly,played,Ivory Coast,CIV,CIV,CAF,Tunisia,TUN,TUN,CAF,TRUE,1,1,draw,Abidjan,Ivory Coast,FALSE,1650,1471,1643,1478,-7
@@ -217,7 +217,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1989-01-22,FIFA World Cup qualification,played,Ivory Coast,CIV,CIV,CAF,Zimbabwe,,,,FALSE,0,0,draw,Harare,Zimbabwe,FALSE,1654,1463,1649,1468,-5
 ,,,1989-04-09,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Angola,AGO,AGO,CAF,FALSE,2,0,win,Luanda,Angola,FALSE,1642,1510,1669,1483,27
 ,,,1989-04-23,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Angola,AGO,AGO,CAF,TRUE,4,1,win,Abidjan,Ivory Coast,FALSE,1669,1483,1680,1472,11
-,,,1989-06-01,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,1,1,draw,Abidjan,Ivory Coast,FALSE,,,,,
+,,,1989-06-01,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,TRUE,1,1,draw,Abidjan,Ivory Coast,FALSE,1680,1562,1674,1568,-6
 ,,,1989-06-11,FIFA World Cup qualification,played,Ivory Coast,CIV,CIV,CAF,Algeria,DZA,DZA,CAF,TRUE,0,0,draw,Abidjan,Ivory Coast,FALSE,1674,1628,1666,1636,-8
 ,,,1989-07-16,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Mali,,,,FALSE,2,2,draw,Bamako,Mali,FALSE,1666,1449,1660,1455,-6
 ,,,1989-07-30,African Cup of Nations qualification,played,Ivory Coast,CIV,CIV,CAF,Mali,,,,TRUE,3,1,win,Abidjan,Ivory Coast,FALSE,1660,1455,1669,1446,9
@@ -247,7 +247,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1991-11-02,Friendly,played,Ivory Coast,CIV,CIV,CAF,Senegal,SEN,SEN,CAF,TRUE,1,0,win,Abidjan,Ivory Coast,FALSE,1682,1551,1690,1543,8
 ,,,1991-11-23,Friendly,played,Ivory Coast,CIV,CIV,CAF,Niger,,,,TRUE,5,2,win,Abidjan,Ivory Coast,FALSE,1690,1373,1693,1370,3
 ,,,1991-11-27,Friendly,played,Ivory Coast,CIV,CIV,CAF,Tunisia,TUN,TUN,CAF,FALSE,3,5,loss,Tunis,Tunisia,FALSE,1693,1508,1674,1527,-19
-,,,1992-01-05,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,FALSE,0,2,loss,Kinshasa,Zaïre,FALSE,,,,,
+,,,1992-01-05,Friendly,played,Ivory Coast,CIV,CIV,CAF,DR Congo,,,,FALSE,0,2,loss,Kinshasa,Zaïre,FALSE,1683,1542,1666,1559,-17
 ,,,1992-01-13,African Cup of Nations,played,Ivory Coast,CIV,CIV,CAF,Algeria,DZA,DZA,CAF,FALSE,3,0,win,Ziguinchor,Senegal,TRUE,1666,1740,1719,1687,53
 ,,,1992-01-15,African Cup of Nations,played,Ivory Coast,CIV,CIV,CAF,Congo,,,,TRUE,0,0,draw,Ziguinchor,Senegal,TRUE,1719,1483,1704,1498,-15
 ,,,1992-01-20,African Cup of Nations,played,Ivory Coast,CIV,CIV,CAF,Zambia,,,,TRUE,1,0,win,Dakar,Senegal,TRUE,1704,1603,1722,1585,18

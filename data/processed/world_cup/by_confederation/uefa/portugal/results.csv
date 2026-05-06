@@ -46,19 +46,19 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1945-05-06,Friendly,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,4,loss,La Coruña,Spain,FALSE,1669,1940,1666,1943,-3
 ,,,1945-05-21,Friendly,played,Portugal,PRT,PRT,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,1,loss,Basel,Switzerland,FALSE,1666,1749,1661,1754,-5
 ,,,1946-04-14,Friendly,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,TRUE,2,1,win,Oeiras,Portugal,FALSE,1661,1683,1669,1675,8
-,,,1946-06-16,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,Oeiras,Portugal,FALSE,,,,,
+,,,1946-06-16,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,Oeiras,Portugal,FALSE,1669,1686,1680,1675,11
 ,,,1947-01-05,Friendly,played,Portugal,PRT,PRT,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,2,draw,Lisbon,Portugal,FALSE,1680,1780,1680,1780,0
 ,,,1947-01-26,Friendly,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,TRUE,4,1,win,Oeiras,Portugal,FALSE,1680,1925,1704,1901,24
 ,,,1947-03-23,Friendly,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Colombes,France,FALSE,1704,1709,1697,1716,-7
-,,,1947-05-04,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Éire,FALSE,,,,,
+,,,1947-05-04,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Éire,FALSE,1697,1700,1716,1681,19
 ,,,1947-05-25,Friendly,played,Portugal,PRT,PRT,UEFA,England,ENG,ENG,UEFA,TRUE,0,10,loss,Oeiras,Portugal,FALSE,1716,1960,1700,1976,-16
 ,,,1947-11-23,Friendly,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,TRUE,2,4,loss,Oeiras,Portugal,FALSE,1700,1743,1683,1760,-17
 ,,,1948-03-21,Friendly,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Madrid,Spain,FALSE,1683,1888,1679,1892,-4
-,,,1948-05-23,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Oeiras,Portugal,FALSE,,,,,
+,,,1948-05-23,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,0,win,Oeiras,Portugal,FALSE,1679,1681,1690,1670,11
 ,,,1949-02-27,Friendly,played,Portugal,PRT,PRT,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,4,loss,Genoa,Italy,FALSE,1690,1971,1686,1975,-4
 ,,,1949-03-20,Friendly,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,1,draw,Oeiras,Portugal,FALSE,1686,1885,1689,1882,3
 ,,,1949-05-15,Friendly,played,Portugal,PRT,PRT,UEFA,Wales,WAL,WAL,UEFA,TRUE,3,2,win,Oeiras,Portugal,FALSE,1689,1841,1700,1830,11
-,,,1949-05-22,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Éire,FALSE,,,,,
+,,,1949-05-22,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Éire,FALSE,1700,1634,1691,1643,-9
 ,,,1950-04-02,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,5,loss,Madrid,Spain,FALSE,1691,1895,1680,1906,-11
 ,,,1950-04-09,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,2,draw,Oeiras,Portugal,FALSE,1680,1906,1687,1899,7
 ,,,1950-05-14,Friendly,played,Portugal,PRT,PRT,UEFA,England,ENG,ENG,UEFA,TRUE,3,5,loss,Oeiras,Portugal,FALSE,1687,2061,1682,2066,-5
@@ -75,7 +75,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1953-11-29,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,0,draw,Oeiras,Portugal,FALSE,1656,1867,1662,1861,6
 ,,,1954-03-14,Friendly,played,Portugal,PRT,PRT,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,0,draw,Brussels,Belgium,FALSE,1662,1754,1667,1749,5
 ,,,1954-11-28,Friendly,played,Portugal,PRT,PRT,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,3,loss,Oeiras,Portugal,FALSE,1667,2083,1663,2087,-4
-,,,1954-12-19,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,0,3,loss,Oeiras,Portugal,FALSE,,,,,
+,,,1954-12-19,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,0,3,loss,Oeiras,Portugal,FALSE,1663,2034,1657,2040,-6
 ,,,1955-05-04,Friendly,played,Portugal,PRT,PRT,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,3,loss,Glasgow,Scotland,FALSE,1657,1797,1650,1804,-7
 ,,,1955-05-22,Friendly,played,Portugal,PRT,PRT,UEFA,England,ENG,ENG,UEFA,TRUE,3,1,win,Porto,Portugal,FALSE,1650,2000,1674,1976,24
 ,,,1955-11-20,Friendly,played,Portugal,PRT,PRT,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,6,loss,Oeiras,Portugal,FALSE,1674,1772,1655,1791,-19
@@ -99,7 +99,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1959-06-21,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,German DR,DDR,DDR,UEFA,FALSE,2,0,win,Berlin,German DR,FALSE,1669,1515,1694,1490,25
 ,,,1959-06-28,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,German DR,DDR,DDR,UEFA,TRUE,3,2,win,Porto,Portugal,FALSE,1694,1490,1700,1484,6
 ,,,1959-11-11,Friendly,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,FALSE,3,5,loss,Colombes,France,FALSE,1700,1916,1696,1920,-4
-,,,1960-04-27,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Ludwigshafen,Germany,FALSE,,,,,
+,,,1960-04-27,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Ludwigshafen,Germany,FALSE,1696,1871,1693,1874,-3
 ,,,1960-05-08,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,1,win,Oeiras,Portugal,FALSE,1693,1892,1719,1866,26
 ,,,1960-05-22,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,5,loss,Belgrade,Yugoslavia,FALSE,1719,1870,1705,1884,-14
 ,,,1961-03-19,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Luxembourg,,,,TRUE,6,0,win,Oeiras,Portugal,FALSE,1705,1266,1709,1262,4
@@ -167,7 +167,7 @@ WC-1966,WC-1966_031,31,1966-07-28,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,So
 ,,,1972-06-11,Brazil Independence Cup,played,Portugal,PRT,PRT,UEFA,Ecuador,ECU,ECU,CONMEBOL,FALSE,3,0,win,Natal,Brazil,TRUE,1802,1443,1810,1435,8
 ,,,1972-06-14,Brazil Independence Cup,played,Portugal,PRT,PRT,UEFA,Iran,IRN,IRN,AFC,FALSE,3,0,win,Recife,Brazil,TRUE,1810,1712,1835,1687,25
 ,,,1972-06-18,Brazil Independence Cup,played,Portugal,PRT,PRT,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,4,1,win,Recife,Brazil,TRUE,1835,1733,1860,1708,25
-,,,1972-06-25,Brazil Independence Cup,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Recife,Brazil,TRUE,,,,,
+,,,1972-06-25,Brazil Independence Cup,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Recife,Brazil,TRUE,1860,1569,1866,1563,6
 ,,,1972-06-29,Brazil Independence Cup,played,Portugal,PRT,PRT,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,3,1,win,Rio de Janeiro,Brazil,TRUE,1866,1880,1897,1849,31
 ,,,1972-07-02,Brazil Independence Cup,played,Portugal,PRT,PRT,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,1,draw,Rio de Janeiro,Brazil,TRUE,1897,1800,1892,1805,-5
 ,,,1972-07-06,Brazil Independence Cup,played,Portugal,PRT,PRT,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,Belo Horizonte,Brazil,TRUE,1892,1948,1915,1925,23
@@ -223,13 +223,13 @@ WC-1966,WC-1966_031,31,1966-07-28,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,So
 ,,,1981-11-18,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Lisbon,Portugal,FALSE,1738,1870,1760,1848,22
 ,,,1981-12-16,Friendly,played,Portugal,PRT,PRT,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,5,loss,Haskovo,Bulgaria,FALSE,1760,1739,1746,1753,-14
 ,,,1982-01-20,Friendly,played,Portugal,PRT,PRT,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,1,win,Athens,Greece,FALSE,1746,1669,1757,1658,11
-,,,1982-02-17,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Hanover,Germany,FALSE,,,,,
+,,,1982-02-17,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,1,3,loss,Hanover,Germany,FALSE,1757,2112,1755,2114,-2
 ,,,1982-03-24,Friendly,played,Portugal,PRT,PRT,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,2,loss,Lugano,Switzerland,FALSE,1755,1665,1745,1675,-10
 ,,,1982-05-05,Friendly,played,Portugal,PRT,PRT,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,3,loss,São Luís,Brazil,FALSE,1745,2097,1743,2099,-2
 ,,,1982-09-22,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Finland,,,,FALSE,2,0,win,Helsinki,Finland,FALSE,1743,1478,1760,1461,17
 ,,,1982-10-10,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Poland,POL,POL,UEFA,TRUE,2,1,win,Lisbon,Portugal,FALSE,1760,2014,1788,1986,28
 ,,,1983-02-16,Friendly,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,TRUE,0,3,loss,Guimarães,Portugal,FALSE,1788,1922,1772,1938,-16
-,,,1983-02-23,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Lisbon,Portugal,FALSE,,,,,
+,,,1983-02-23,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Lisbon,Portugal,FALSE,1772,2013,1786,1999,14
 ,,,1983-04-13,Friendly,played,Portugal,PRT,PRT,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,0,draw,Coimbra,Portugal,FALSE,1786,1820,1784,1822,-2
 ,,,1983-04-27,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,5,loss,Moscow,Soviet Union,FALSE,1784,2016,1774,2026,-10
 ,,,1983-06-08,Friendly,played,Portugal,PRT,PRT,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,4,loss,Coimbra,Portugal,FALSE,1774,2116,1767,2123,-7
@@ -238,7 +238,7 @@ WC-1966,WC-1966_031,31,1966-07-28,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,So
 ,,,1983-11-13,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,Lisbon,Portugal,FALSE,1807,2052,1835,2024,28
 ,,,1984-06-02,Friendly,played,Portugal,PRT,PRT,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,3,loss,Oeiras,Portugal,FALSE,1835,1867,1823,1879,-12
 ,,,1984-06-09,Friendly,played,Portugal,PRT,PRT,UEFA,Luxembourg,,,,FALSE,2,1,win,Luxembourg,Luxembourg,FALSE,1823,1184,1824,1183,1
-,,,1984-06-14,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Strasbourg,France,TRUE,,,,,
+,,,1984-06-14,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Strasbourg,France,TRUE,1824,2017,1837,2004,13
 ,,,1984-06-17,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,1,draw,Marseille,France,TRUE,1837,1866,1839,1864,2
 ,,,1984-06-20,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,0,win,Nantes,France,TRUE,1839,1813,1862,1790,23
 ,,,1984-06-23,UEFA Euro,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,FALSE,2,3,loss,Marseille,France,FALSE,1862,2009,1852,2019,-10
@@ -247,11 +247,11 @@ WC-1966,WC-1966_031,31,1966-07-28,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,So
 ,,,1984-11-14,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,3,loss,Lisbon,Portugal,FALSE,1895,1790,1849,1836,-46
 ,,,1985-01-30,Friendly,played,Portugal,PRT,PRT,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,3,loss,Lisbon,Portugal,FALSE,1849,1767,1834,1782,-15
 ,,,1985-02-10,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Malta,,,,FALSE,3,1,win,Attard,Malta,FALSE,1834,1355,1840,1349,6
-,,,1985-02-24,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Oeiras,Portugal,FALSE,,,,,
+,,,1985-02-24,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Oeiras,Portugal,FALSE,1840,1957,1821,1976,-19
 ,,,1985-04-03,Friendly,played,Portugal,PRT,PRT,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,2,loss,Ascoli Piceno,Italy,FALSE,1821,1884,1813,1892,-8
 ,,,1985-09-25,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,1,loss,Prague,Czechoslovakia,FALSE,1813,1787,1797,1803,-16
 ,,,1985-10-12,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Malta,,,,TRUE,3,2,win,Lisbon,Portugal,FALSE,1797,1369,1799,1367,2
-,,,1985-10-16,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,1,0,win,Stuttgart,Germany,FALSE,,,,,
+,,,1985-10-16,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,1,0,win,Stuttgart,Germany,FALSE,1799,1949,1831,1917,32
 ,,,1986-01-22,Friendly,played,Portugal,PRT,PRT,UEFA,Finland,,,,TRUE,1,1,draw,Leiria,Portugal,FALSE,1831,1514,1823,1522,-8
 ,,,1986-02-05,Friendly,played,Portugal,PRT,PRT,UEFA,Luxembourg,,,,TRUE,2,0,win,Portimão,Portugal,FALSE,1823,1173,1823,1173,0
 ,,,1986-02-19,Friendly,played,Portugal,PRT,PRT,UEFA,German DR,DDR,DDR,UEFA,TRUE,1,3,loss,Braga,Portugal,FALSE,1823,1902,1807,1918,-16
@@ -281,7 +281,7 @@ WC-1986,WC-1986_032,32,1986-06-11,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Mo
 ,,,1989-10-06,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,2,loss,Prague,Czechoslovakia,FALSE,1785,1871,1775,1881,-10
 ,,,1989-10-11,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Luxembourg,,,,FALSE,3,0,win,Saarbrücken,Germany,TRUE,1775,1165,1777,1163,2
 ,,,1989-11-15,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,0,0,draw,Lisbon,Portugal,FALSE,1777,1892,1778,1891,1
-,,,1990-08-29,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Lisbon,Portugal,FALSE,,,,,
+,,,1990-08-29,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,1,1,draw,Lisbon,Portugal,FALSE,1778,2075,1783,2070,5
 ,,,1990-09-12,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Finland,,,,FALSE,0,0,draw,Helsinki,Finland,FALSE,1783,1618,1779,1622,-4
 ,,,1990-10-17,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,0,win,Porto,Portugal,FALSE,1779,1959,1804,1934,25
 ,,,1990-12-19,Friendly,played,Portugal,PRT,PRT,UEFA,United States,USA,USA,CONCACAF,TRUE,1,0,win,Maia,Portugal,FALSE,1804,1587,1807,1584,3
@@ -298,7 +298,7 @@ WC-1986,WC-1986_032,32,1986-06-11,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Mo
 ,,,1992-02-12,Friendly,played,Portugal,PRT,PRT,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,0,win,Faro,Portugal,FALSE,1793,1963,1811,1945,18
 ,,,1992-05-31,USA Cup,played,Portugal,PRT,PRT,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,0,draw,New Haven,United States,TRUE,1811,1982,1818,1975,7
 ,,,1992-06-03,USA Cup,played,Portugal,PRT,PRT,UEFA,United States,USA,USA,CONCACAF,FALSE,0,1,loss,Chicago,United States,FALSE,1818,1681,1801,1698,-17
-,,,1992-06-07,USA Cup,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Foxborough,United States,TRUE,,,,,
+,,,1992-06-07,USA Cup,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Foxborough,United States,TRUE,1801,1859,1782,1878,-19
 ,,,1992-09-02,Friendly,played,Portugal,PRT,PRT,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Linz,Austria,FALSE,1782,1611,1780,1613,-2
 ,,,1992-10-14,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,0,draw,Glasgow,Scotland,FALSE,1780,1791,1786,1785,6
 ,,,1992-11-11,Friendly,played,Portugal,PRT,PRT,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,1,win,Saint-Ouen,France,TRUE,1786,1792,1796,1782,10
@@ -320,16 +320,16 @@ WC-1986,WC-1986_032,32,1986-06-11,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Mo
 ,,,1994-12-18,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Liechtenstein,,,,TRUE,8,0,win,Lisbon,Portugal,FALSE,1865,1090,1866,1089,1
 ,,,1995-01-26,Friendly,played,Portugal,PRT,PRT,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,1,1,draw,Toronto,Canada,FALSE,1866,1586,1859,1593,-7
 ,,,1995-02-22,Friendly,played,Portugal,PRT,PRT,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,0,win,Eindhoven,Netherlands,FALSE,1859,1943,1874,1928,15
-,,,1995-04-26,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1995-04-26,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1874,1866,1859,1881,-15
 ,,,1995-06-03,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Latvia,,,,TRUE,3,2,win,Porto,Portugal,FALSE,1859,1367,1860,1366,1
 ,,,1995-08-15,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Liechtenstein,,,,FALSE,7,0,win,Eschen,Liechtenstein,FALSE,1860,1106,1862,1104,2
 ,,,1995-09-03,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,1,1,draw,Porto,Portugal,FALSE,1862,1608,1847,1623,-15
 ,,,1995-10-11,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Vienna,Austria,FALSE,1847,1676,1843,1680,-4
-,,,1995-11-15,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Lisbon,Portugal,FALSE,,,,,
+,,,1995-11-15,UEFA Euro qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Lisbon,Portugal,FALSE,1843,1776,1862,1757,19
 ,,,1995-12-12,Friendly,played,Portugal,PRT,PRT,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1862,1872,1865,1869,3
 ,,,1996-02-21,Friendly,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Porto,Portugal,FALSE,1860,2032,1852,2040,-8
 ,,,1996-03-27,Friendly,played,Portugal,PRT,PRT,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,0,win,Lisbon,Portugal,FALSE,1852,1603,1854,1601,2
-,,,1996-05-29,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1996-05-29,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,1854,1722,1863,1713,9
 ,,,1996-06-09,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,1,draw,Sheffield,England,TRUE,1863,1969,1870,1962,7
 ,,,1996-06-14,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,0,win,Nottingham,England,TRUE,1870,1745,1886,1729,16
 ,,,1996-06-19,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Croatia,HRV,HRV,UEFA,FALSE,3,0,win,Nottingham,England,TRUE,1886,1968,1940,1914,54
@@ -372,13 +372,13 @@ WC-1986,WC-1986_032,32,1986-06-11,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Mo
 ,,,2000-06-28,UEFA Euro,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Brussels,Belgium,TRUE,2004,2093,1985,2112,-19
 ,,,2000-08-16,Friendly,played,Portugal,PRT,PRT,UEFA,Lithuania,,,,TRUE,5,1,win,Viseu,Portugal,FALSE,1985,1459,1986,1458,1
 ,,,2000-09-03,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Estonia,,,,FALSE,3,1,win,Tallinn,Estonia,FALSE,1986,1351,1989,1348,3
-,,,2000-10-07,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Lisbon,Portugal,FALSE,,,,,
+,,,2000-10-07,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Lisbon,Portugal,FALSE,1989,1789,1975,1803,-14
 ,,,2000-10-11,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,0,win,Rotterdam,Netherlands,FALSE,1975,2028,2017,1986,42
 ,,,2000-11-15,Friendly,played,Portugal,PRT,PRT,UEFA,Israel,ISR,ISR,UEFA,TRUE,2,1,win,Braga,Portugal,FALSE,2017,1676,2018,1675,1
 ,,,2001-02-28,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Andorra,,,,TRUE,3,0,win,Funchal,Portugal,FALSE,2018,1052,2018,1052,0
 ,,,2001-03-28,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,2,draw,Porto,Portugal,FALSE,2018,1990,2011,1997,-7
 ,,,2001-04-25,Friendly,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,FALSE,0,4,loss,Saint-Denis,France,FALSE,2011,2104,2002,2113,-9
-,,,2001-06-02,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2001-06-02,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,2002,1833,1998,1837,-4
 ,,,2001-06-06,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Cyprus,,,,TRUE,6,0,win,Lisbon,Portugal,FALSE,1998,1508,2001,1505,3
 ,,,2001-08-15,Friendly,played,Portugal,PRT,PRT,UEFA,Moldova,,,,TRUE,3,0,win,Faro,Portugal,FALSE,2001,1405,2002,1404,1
 ,,,2001-09-01,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Andorra,,,,FALSE,7,1,win,Lleida,Spain,TRUE,2002,1051,2002,1051,0
@@ -388,7 +388,7 @@ WC-1986,WC-1986_032,32,1986-06-11,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Mo
 ,,,2002-02-13,Friendly,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Barcelona,Spain,FALSE,2009,1967,2011,1965,2
 ,,,2002-03-27,Friendly,played,Portugal,PRT,PRT,UEFA,Finland,,,,TRUE,1,4,loss,Porto,Portugal,FALSE,2011,1725,1979,1757,-32
 ,,,2002-04-17,Friendly,played,Portugal,PRT,PRT,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,1,draw,Lisbon,Portugal,FALSE,1979,1859,1973,1865,-6
-,,,2002-05-25,Friendly,played,Portugal,PRT,PRT,UEFA,China PR,,,,FALSE,2,0,win,Macau,Macau,TRUE,,,,,
+,,,2002-05-25,Friendly,played,Portugal,PRT,PRT,UEFA,China PR,,,,FALSE,2,0,win,Macau,Macau,TRUE,1973,1703,1978,1698,5
 WC-2002,WC-2002_017,17,2002-06-05,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,United States,USA,USA,CONCACAF,FALSE,2,3,loss,Suwon,South Korea,TRUE,1978,1808,1934,1852,-44
 WC-2002,WC-2002_031,31,2002-06-10,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Poland,POL,POL,UEFA,TRUE,4,0,win,Jeonju,South Korea,TRUE,1934,1703,1958,1679,24
 WC-2002,WC-2002_047,47,2002-06-14,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,South Korea,KOR,KOR,AFC,FALSE,0,1,loss,Incheon,South Korea,FALSE,1958,1766,1920,1804,-38
@@ -424,7 +424,7 @@ WC-2002,WC-2002_047,47,2002-06-14,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,So
 ,,,2004-10-09,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Liechtenstein,,,,FALSE,2,2,draw,Vaduz,Liechtenstein,FALSE,1902,1050,1883,1069,-19
 ,,,2004-10-13,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Russia,RUS,RUS,UEFA,TRUE,7,1,win,Lisbon,Portugal,FALSE,1883,1781,1903,1761,20
 ,,,2004-11-17,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Luxembourg,,,,FALSE,5,0,win,Luxembourg,Luxembourg,FALSE,1903,1014,1904,1013,1
-,,,2005-02-09,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2005-02-09,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,1904,1861,1896,1869,-8
 ,,,2005-03-26,Friendly,played,Portugal,PRT,PRT,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,4,1,win,Barcelos,Portugal,FALSE,1896,1573,1899,1570,3
 ,,,2005-03-30,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,1,1,draw,Bratislava,Slovakia,FALSE,1899,1681,1892,1688,-7
 ,,,2005-06-04,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Slovakia,SVK,SVK,UEFA,TRUE,2,0,win,Lisbon,Portugal,FALSE,1892,1688,1901,1679,9
@@ -488,7 +488,7 @@ WC-2006,WC-2006_063,63,2006-07-08,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Ge
 ,,,2009-10-14,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Malta,,,,TRUE,4,0,win,Guimarães,Portugal,FALSE,1853,1222,1854,1221,1
 ,,,2009-11-14,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,TRUE,1,0,win,Lisbon,Portugal,FALSE,1854,1662,1860,1656,6
 ,,,2009-11-18,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,1,0,win,Zenica,Bosnia and Herzegovina,FALSE,1860,1656,1874,1642,14
-,,,2010-03-03,Friendly,played,Portugal,PRT,PRT,UEFA,China PR,,,,TRUE,2,0,win,Coimbra,Portugal,FALSE,,,,,
+,,,2010-03-03,Friendly,played,Portugal,PRT,PRT,UEFA,China PR,,,,TRUE,2,0,win,Coimbra,Portugal,FALSE,1874,1626,1878,1622,4
 ,,,2010-05-24,Friendly,played,Portugal,PRT,PRT,UEFA,Cape Verde,,,,TRUE,0,0,draw,Covilhã,Portugal,FALSE,1878,1361,1869,1370,-9
 ,,,2010-06-01,Friendly,played,Portugal,PRT,PRT,UEFA,Cameroon,CMR,CMR,CAF,TRUE,3,1,win,Covilhã,Portugal,FALSE,1869,1703,1874,1698,5
 ,,,2010-06-08,Friendly,played,Portugal,PRT,PRT,UEFA,Mozambique,,,,FALSE,3,0,win,Johannesburg,South Africa,TRUE,1874,1372,1876,1370,2
@@ -540,7 +540,7 @@ WC-2010,WC-2010_056,56,2010-06-29,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Sp
 ,,,2014-03-05,Friendly,played,Portugal,PRT,PRT,UEFA,Cameroon,CMR,CMR,CAF,TRUE,5,1,win,Leiria,Portugal,FALSE,1931,1591,1934,1588,3
 ,,,2014-05-31,Friendly,played,Portugal,PRT,PRT,UEFA,Greece,GRC,GRC,UEFA,TRUE,0,0,draw,Oeiras,Portugal,FALSE,1934,1815,1928,1821,-6
 ,,,2014-06-06,Friendly,played,Portugal,PRT,PRT,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,1,0,win,Foxborough,United States,TRUE,1928,1821,1935,1814,7
-,,,2014-06-10,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,5,1,win,East Rutherford,United States,TRUE,,,,,
+,,,2014-06-10,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,5,1,win,East Rutherford,United States,TRUE,1935,1694,1942,1687,7
 WC-2014,WC-2014_012,12,2014-06-16,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,0,4,loss,Salvador,Brazil,TRUE,1942,2073,1906,2109,-36
 WC-2014,WC-2014_032,32,2014-06-22,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,United States,USA,USA,CONCACAF,FALSE,2,2,draw,Manaus,Brazil,TRUE,1906,1874,1903,1877,-3
 WC-2014,WC-2014_047,47,2014-06-26,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Ghana,GHA,GHA,CAF,TRUE,2,1,win,Brasília,Brazil,TRUE,1903,1711,1918,1696,15
@@ -633,12 +633,12 @@ WC-2018,WC-2018_050,50,2018-06-30,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Ur
 ,,,2021-06-19,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Germany,GER,DEU,UEFA,FALSE,2,4,loss,Munich,Germany,FALSE,2060,1914,2018,1956,-42
 ,,,2021-06-23,UEFA Euro,played,Portugal,PRT,PRT,UEFA,France,FRA,FRA,UEFA,TRUE,2,2,draw,Budapest,Hungary,TRUE,2018,2092,2023,2087,5
 ,,,2021-06-27,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,1,loss,Seville,Spain,TRUE,2023,2140,2006,2157,-17
-,,,2021-09-01,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Faro-Loulé,Portugal,FALSE,,,,,
+,,,2021-09-01,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Faro-Loulé,Portugal,FALSE,2006,1622,2008,1620,2
 ,,,2021-09-04,Friendly,played,Portugal,PRT,PRT,UEFA,Qatar,QAT,QAT,AFC,FALSE,3,1,win,Debrecen,Hungary,TRUE,2008,1682,2012,1678,4
 ,,,2021-09-07,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Azerbaijan,,,,FALSE,3,0,win,Baku,Azerbaijan,FALSE,2012,1377,2015,1374,3
 ,,,2021-10-09,Friendly,played,Portugal,PRT,PRT,UEFA,Qatar,QAT,QAT,AFC,TRUE,3,0,win,Faro-Loulé,Portugal,FALSE,2015,1673,2018,1670,3
 ,,,2021-10-12,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Luxembourg,,,,TRUE,5,0,win,Faro-Loulé,Portugal,FALSE,2018,1395,2019,1394,1
-,,,2021-11-11,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2021-11-11,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,2019,1647,2006,1660,-13
 ,,,2021-11-14,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,2,loss,Lisbon,Portugal,FALSE,2006,1812,1972,1846,-34
 ,,,2022-03-24,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,1,win,Porto,Portugal,FALSE,1972,1726,1979,1719,7
 ,,,2022-03-29,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,North Macedonia,,,,TRUE,2,0,win,Porto,Portugal,FALSE,1979,1667,1984,1662,5
@@ -668,7 +668,7 @@ WC-2022,WC-2022_059,59,2022-12-10,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Mo
 ,,,2024-03-26,Friendly,played,Portugal,PRT,PRT,UEFA,Slovenia,SVN,SVN,UEFA,FALSE,0,2,loss,Ljubljana,Slovenia,FALSE,2035,1716,2012,1739,-23
 ,,,2024-06-04,Friendly,played,Portugal,PRT,PRT,UEFA,Finland,,,,TRUE,4,2,win,Lisbon,Portugal,FALSE,2012,1623,2014,1621,2
 ,,,2024-06-08,Friendly,played,Portugal,PRT,PRT,UEFA,Croatia,HRV,HRV,UEFA,TRUE,1,2,loss,Oeiras,Portugal,FALSE,2014,1954,2000,1968,-14
-,,,2024-06-11,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Aveiro,Portugal,FALSE,,,,,
+,,,2024-06-11,Friendly,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Aveiro,Portugal,FALSE,2000,1621,2002,1619,2
 ,,,2024-06-18,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Czechia,CZE,CZE,UEFA,TRUE,2,1,win,Leipzig,Germany,TRUE,2002,1776,2013,1765,11
 ,,,2024-06-22,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,0,win,Dortmund,Germany,TRUE,2013,1777,2031,1759,18
 ,,,2024-06-26,UEFA Euro,played,Portugal,PRT,PRT,UEFA,Georgia,,,,FALSE,0,2,loss,Gelsenkirchen,Germany,TRUE,2031,1646,1963,1714,-68
@@ -686,9 +686,9 @@ WC-2022,WC-2022_059,59,2022-12-10,FIFA World Cup,played,Portugal,PRT,PRT,UEFA,Mo
 ,,,2025-06-08,UEFA Nations League,played,Portugal,PRT,PRT,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,2,draw,Munich,Germany,TRUE,2020,2167,2030,2157,10
 ,,,2025-09-06,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Armenia,,,,FALSE,5,0,win,Yerevan,Armenia,FALSE,2030,1387,2033,1384,3
 ,,,2025-09-09,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Hungary,HUN,HUN,UEFA,FALSE,3,2,win,Budapest,Hungary,FALSE,2033,1703,2041,1695,8
-,,,2025-10-11,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Lisbon,Portugal,FALSE,,,,,
+,,,2025-10-11,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Lisbon,Portugal,FALSE,2041,1603,2043,1601,2
 ,,,2025-10-14,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,2,draw,Lisbon,Portugal,FALSE,2043,1701,2026,1718,-17
-,,,2025-11-13,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2025-11-13,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,2026,1607,1974,1659,-52
 ,,,2025-11-16,FIFA World Cup qualification,played,Portugal,PRT,PRT,UEFA,Armenia,,,,TRUE,9,1,win,Porto,Portugal,FALSE,1974,1391,1976,1389,2
 ,,,2026-03-28,Friendly,played,Portugal,PRT,PRT,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Mexico City,Mexico,FALSE,1976,1857,1975,1858,-1
 ,,,2026-03-31,Friendly,played,Portugal,PRT,PRT,UEFA,United States,USA,USA,CONCACAF,FALSE,2,0,win,Atlanta,United States,FALSE,1975,1730,1984,1721,9

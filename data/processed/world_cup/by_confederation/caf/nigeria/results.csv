@@ -123,7 +123,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1976-02-08,Friendly,played,Nigeria,NGA,NGA,CAF,Kenya,,,,FALSE,1,1,draw,Nairobi,Kenya,FALSE,1622,1433,1619,1436,-3
 ,,,1976-02-14,Friendly,played,Nigeria,NGA,NGA,CAF,Zambia,,,,FALSE,3,1,win,Chingola,Zambia,FALSE,1619,1503,1633,1489,14
 ,,,1976-02-20,Friendly,played,Nigeria,NGA,NGA,CAF,Tanzania,,,,TRUE,0,0,draw,Lagos,Nigeria,FALSE,,,,,
-,,,1976-03-01,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,DR Congo,,,,TRUE,4,2,win,Dire Dawa,Ethiopia,TRUE,,,,,
+,,,1976-03-01,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,DR Congo,,,,TRUE,4,2,win,Dire Dawa,Ethiopia,TRUE,1633,1674,1675,1632,42
 ,,,1976-03-04,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Sudan,,,,TRUE,1,0,win,Dire Dawa,Ethiopia,TRUE,1675,1551,1691,1535,16
 ,,,1976-03-06,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Morocco,MAR,MAR,CAF,FALSE,1,3,loss,Dire Dawa,Ethiopia,TRUE,1691,1739,1659,1771,-32
 ,,,1976-03-09,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Guinea,,,,FALSE,1,1,draw,Addis Ababa,Ethiopia,TRUE,1659,1675,1660,1674,1
@@ -266,7 +266,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1991-11-02,Friendly,played,Nigeria,NGA,NGA,CAF,Ghana,GHA,GHA,CAF,FALSE,0,1,loss,Abidjan,Ivory Coast,TRUE,1627,1505,1600,1532,-27
 ,,,1992-01-12,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Senegal,SEN,SEN,CAF,FALSE,2,1,win,Dakar,Senegal,FALSE,1600,1546,1628,1518,28
 ,,,1992-01-14,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Kenya,,,,TRUE,2,1,win,Dakar,Senegal,TRUE,1628,1477,1643,1462,15
-,,,1992-01-19,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,DR Congo,,,,TRUE,1,0,win,Dakar,Senegal,TRUE,,,,,
+,,,1992-01-19,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,DR Congo,,,,TRUE,1,0,win,Dakar,Senegal,TRUE,1643,1569,1663,1549,20
 ,,,1992-01-23,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Ghana,GHA,GHA,CAF,TRUE,1,2,loss,Dakar,Senegal,TRUE,1663,1615,1635,1643,-28
 ,,,1992-01-25,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Cameroon,CMR,CMR,CAF,FALSE,2,1,win,Dakar,Senegal,TRUE,1635,1706,1665,1676,30
 ,,,1992-02-22,Friendly,played,Nigeria,NGA,NGA,CAF,Tunisia,TUN,TUN,CAF,FALSE,1,1,draw,Tunis,Tunisia,FALSE,1665,1528,1664,1529,-1
@@ -288,7 +288,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1994-03-09,Friendly,played,Nigeria,NGA,NGA,CAF,Ghana,GHA,GHA,CAF,TRUE,0,0,draw,Lagos,Nigeria,FALSE,1693,1619,1688,1624,-5
 ,,,1994-03-26,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Gabon,,,,TRUE,3,0,win,Tunis,Tunisia,TRUE,1688,1430,1704,1414,16
 ,,,1994-03-30,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Egypt,EGY,EGY,CAF,TRUE,0,0,draw,Tunis,Tunisia,TRUE,1704,1687,1703,1688,-1
-,,,1994-04-02,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,DR Congo,,,,FALSE,2,0,win,Tunis,Tunisia,TRUE,,,,,
+,,,1994-04-02,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,DR Congo,,,,FALSE,2,0,win,Tunis,Tunisia,TRUE,1703,1522,1723,1502,20
 ,,,1994-04-06,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Ivory Coast,CIV,CIV,CAF,TRUE,2,2,draw,Tunis,Tunisia,TRUE,1723,1653,1718,1658,-5
 ,,,1994-04-10,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Zambia,,,,TRUE,2,1,win,Tunis,Tunisia,TRUE,1718,1709,1742,1685,24
 ,,,1994-04-17,Friendly,played,Nigeria,NGA,NGA,CAF,Colombia,COL,COL,CONMEBOL,FALSE,0,1,loss,Armenia,Colombia,FALSE,1742,1921,1739,1924,-3
@@ -324,7 +324,7 @@ WC-1994,WC-1994_044,44,1994-07-05,FIFA World Cup,played,Nigeria,NGA,NGA,CAF,Ital
 ,,,1998-01-28,Lunar New Year Cup,played,Nigeria,NGA,NGA,CAF,Iran,IRN,IRN,AFC,FALSE,1,0,win,So Kon Po,Hong Kong,TRUE,1697,1675,1711,1661,14
 ,,,1998-02-22,Friendly,played,Nigeria,NGA,NGA,CAF,Jamaica,JAM,JAM,CONCACAF,FALSE,2,2,draw,Kingston,Jamaica,FALSE,1711,1679,1713,1677,2
 ,,,1998-04-22,Friendly,played,Nigeria,NGA,NGA,CAF,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Cologne,Germany,FALSE,1713,2062,1712,2063,-1
-,,,1998-05-29,Friendly,played,Nigeria,NGA,NGA,CAF,Serbia,SRB,SRB,UEFA,FALSE,0,3,loss,Belgrade,FR Yugoslavia,FALSE,,,,,
+,,,1998-05-29,Friendly,played,Nigeria,NGA,NGA,CAF,Serbia,SRB,SRB,UEFA,FALSE,0,3,loss,Belgrade,FR Yugoslavia,FALSE,1712,1965,1708,1969,-4
 ,,,1998-06-05,Friendly,played,Nigeria,NGA,NGA,CAF,Netherlands,NED,NLD,UEFA,FALSE,1,5,loss,Amsterdam,Netherlands,FALSE,1708,1954,1703,1959,-5
 WC-1998,WC-1998_010,10,1998-06-13,FIFA World Cup,played,Nigeria,NGA,NGA,CAF,Spain,ESP,ESP,UEFA,FALSE,3,2,win,Nantes,France,TRUE,1703,2039,1755,1987,52
 WC-1998,WC-1998_023,23,1998-06-19,FIFA World Cup,played,Nigeria,NGA,NGA,CAF,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Paris,France,TRUE,1755,1800,1789,1766,34
@@ -373,7 +373,7 @@ WC-1998,WC-1998_052,52,1998-06-28,FIFA World Cup,played,Nigeria,NGA,NGA,CAF,Denm
 ,,,2002-03-26,Friendly,played,Nigeria,NGA,NGA,CAF,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,1,draw,London,England,TRUE,1728,1720,1728,1720,0
 ,,,2002-04-17,Friendly,played,Nigeria,NGA,NGA,CAF,Scotland,SCO,SCO,UEFA,FALSE,2,1,win,Aberdeen,Scotland,FALSE,1728,1732,1741,1719,13
 ,,,2002-05-04,Friendly,played,Nigeria,NGA,NGA,CAF,Kenya,,,,TRUE,3,0,win,Lagos,Nigeria,FALSE,1741,1372,1743,1370,2
-,,,2002-05-16,Friendly,played,Nigeria,NGA,NGA,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2002-05-16,Friendly,played,Nigeria,NGA,NGA,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,1,win,Dublin,Republic of Ireland,FALSE,1743,1889,1759,1873,16
 ,,,2002-05-18,Unity Cup,played,Nigeria,NGA,NGA,CAF,Jamaica,JAM,JAM,CONCACAF,FALSE,1,0,win,London,England,TRUE,1759,1530,1765,1524,6
 WC-2002,WC-2002_005,5,2002-06-02,FIFA World Cup,played,Nigeria,NGA,NGA,CAF,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Kashima,Japan,TRUE,1765,2020,1754,2031,-11
 WC-2002,WC-2002_023,23,2002-06-07,FIFA World Cup,played,Nigeria,NGA,NGA,CAF,Sweden,SWE,SWE,UEFA,FALSE,1,2,loss,Kobe,Japan,TRUE,1754,1871,1734,1891,-20
@@ -398,7 +398,7 @@ WC-2002,WC-2002_037,37,2002-06-12,FIFA World Cup,played,Nigeria,NGA,NGA,CAF,Engl
 ,,,2004-02-08,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Cameroon,CMR,CMR,CAF,FALSE,2,1,win,Monastir,Tunisia,TRUE,1738,1769,1765,1742,27
 ,,,2004-02-11,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Tunisia,TUN,TUN,CAF,FALSE,1,1,draw,Radès,Tunisia,FALSE,1765,1677,1766,1676,1
 ,,,2004-02-13,African Cup of Nations,played,Nigeria,NGA,NGA,CAF,Mali,,,,TRUE,2,1,win,Monastir,Tunisia,TRUE,1766,1602,1780,1588,14
-,,,2004-05-29,Unity Cup,played,Nigeria,NGA,NGA,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,0,win,London,England,TRUE,,,,,
+,,,2004-05-29,Unity Cup,played,Nigeria,NGA,NGA,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,0,win,London,England,TRUE,1780,1853,1812,1821,32
 ,,,2004-05-31,Unity Cup,played,Nigeria,NGA,NGA,CAF,Jamaica,JAM,JAM,CONCACAF,TRUE,2,0,win,London,England,TRUE,1812,1628,1824,1616,12
 ,,,2004-06-05,FIFA World Cup qualification,played,Nigeria,NGA,NGA,CAF,Rwanda,,,,TRUE,2,0,win,Abuja,Nigeria,FALSE,1824,1357,1826,1355,2
 ,,,2004-06-20,FIFA World Cup qualification,played,Nigeria,NGA,NGA,CAF,Angola,AGO,AGO,CAF,FALSE,0,1,loss,Luanda,Angola,FALSE,1826,1486,1794,1518,-32
@@ -447,7 +447,7 @@ WC-2002,WC-2002_037,37,2002-06-12,FIFA World Cup,played,Nigeria,NGA,NGA,CAF,Engl
 ,,,2008-11-19,Friendly,played,Nigeria,NGA,NGA,CAF,Colombia,COL,COL,CONMEBOL,FALSE,0,1,loss,Palmira,Colombia,FALSE,1746,1740,1739,1747,-7
 ,,,2009-02-11,Friendly,played,Nigeria,NGA,NGA,CAF,Jamaica,JAM,JAM,CONCACAF,TRUE,0,0,draw,London,England,TRUE,1739,1635,1736,1638,-3
 ,,,2009-03-29,FIFA World Cup qualification,played,Nigeria,NGA,NGA,CAF,Mozambique,,,,FALSE,0,0,draw,Maputo,Mozambique,FALSE,1736,1401,1724,1413,-12
-,,,2009-05-29,Friendly,played,Nigeria,NGA,NGA,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,London,England,TRUE,,,,,
+,,,2009-05-29,Friendly,played,Nigeria,NGA,NGA,CAF,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,London,England,TRUE,1724,1787,1726,1785,2
 ,,,2009-06-02,Friendly,played,Nigeria,NGA,NGA,CAF,France,FRA,FRA,UEFA,FALSE,1,0,win,Saint-Étienne,France,FALSE,1726,1892,1742,1876,16
 ,,,2009-06-07,FIFA World Cup qualification,played,Nigeria,NGA,NGA,CAF,Kenya,,,,TRUE,3,0,win,Abuja,Nigeria,FALSE,1742,1404,1747,1399,5
 ,,,2009-06-20,FIFA World Cup qualification,played,Nigeria,NGA,NGA,CAF,Tunisia,TUN,TUN,CAF,FALSE,0,0,draw,Radès,Tunisia,FALSE,1747,1648,1747,1648,0

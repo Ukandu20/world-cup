@@ -157,8 +157,8 @@ WC-1950,WC-1950_013,13,1950-07-02,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,U
 ,,,1959-09-20,Copa Bernardo O'Higgins,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1713,2159,1712,2160,-1
 ,,,1959-11-18,Friendly,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,4,2,win,Santiago,Chile,FALSE,1712,1997,1734,1975,22
 ,,,1960-03-16,Friendly,played,Chile,CHL,CHL,CONMEBOL,France,FRA,FRA,UEFA,FALSE,0,6,loss,Paris,France,FALSE,1734,1929,1727,1936,-7
-,,,1960-03-23,Friendly,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Stuttgart,Germany,FALSE,,,,,
-,,,1960-03-30,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1960-03-23,Friendly,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Stuttgart,Germany,FALSE,1727,1867,1723,1871,-4
+,,,1960-03-30,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,FALSE,1723,1759,1714,1768,-9
 ,,,1960-04-06,Friendly,played,Chile,CHL,CHL,CONMEBOL,Switzerland,CHE,CHE,UEFA,FALSE,2,4,loss,Basel,Switzerland,FALSE,1714,1556,1697,1573,-17
 ,,,1960-04-13,Friendly,played,Chile,CHL,CHL,CONMEBOL,Belgium,BEL,BEL,UEFA,FALSE,1,1,draw,Brussels,Belgium,FALSE,1697,1654,1699,1652,2
 ,,,1960-06-01,Friendly,played,Chile,CHL,CHL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,3,loss,Santiago,Chile,FALSE,1699,1939,1693,1945,-6
@@ -169,7 +169,7 @@ WC-1950,WC-1950_013,13,1950-07-02,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,U
 ,,,1960-12-18,Friendly,played,Chile,CHL,CHL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,4,1,win,Santiago,Chile,FALSE,1676,1707,1690,1693,14
 ,,,1960-12-21,Friendly,played,Chile,CHL,CHL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,TRUE,3,1,win,Santiago,Chile,FALSE,1690,1693,1701,1682,11
 ,,,1961-03-19,Friendly,played,Chile,CHL,CHL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,5,2,win,Santiago,Chile,FALSE,1701,1761,1716,1746,15
-,,,1961-03-26,Friendly,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,3,1,win,Santiago,Chile,FALSE,,,,,
+,,,1961-03-26,Friendly,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,3,1,win,Santiago,Chile,FALSE,1716,1880,1734,1862,18
 ,,,1961-05-07,Copa Bernardo O'Higgins,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,Santiago,Chile,FALSE,1734,2078,1728,2084,-6
 ,,,1961-05-11,Copa Bernardo O'Higgins,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Santiago,Chile,FALSE,1728,2084,1722,2090,-6
 ,,,1961-10-12,Friendly,played,Chile,CHL,CHL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,3,loss,Santiago,Chile,FALSE,1722,1928,1715,1935,-7
@@ -178,7 +178,7 @@ WC-1950,WC-1950_013,13,1950-07-02,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,U
 ,,,1961-12-13,Friendly,played,Chile,CHL,CHL,CONMEBOL,Hungary,HUN,HUN,UEFA,TRUE,0,0,draw,Santiago,Chile,FALSE,1737,1956,1740,1953,3
 WC-1962,WC-1962_003,3,1962-05-30,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Switzerland,CHE,CHE,UEFA,TRUE,3,1,win,Santiago,Chile,FALSE,1740,1707,1769,1678,29
 WC-1962,WC-1962_011,11,1962-06-02,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Italy,ITA,ITA,UEFA,TRUE,2,0,win,Santiago,Chile,FALSE,1769,1893,1817,1845,48
-WC-1962,WC-1962_019,19,1962-06-06,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Santiago,Chile,FALSE,,,,,
+WC-1962,WC-1962_019,19,1962-06-06,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Santiago,Chile,FALSE,1817,1913,1771,1959,-46
 WC-1962,WC-1962_026,26,1962-06-10,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Soviet Union,SUN,SUN,UEFA,TRUE,2,1,win,Arica,Chile,FALSE,1771,2058,1816,2013,45
 WC-1962,WC-1962_029,29,1962-06-13,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,2,4,loss,Santiago,Chile,FALSE,1816,2148,1797,2167,-19
 WC-1962,WC-1962_031,31,1962-06-16,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Yugoslavia,YUG,YUG,UEFA,TRUE,1,0,win,Santiago,Chile,FALSE,1797,1968,1833,1932,36
@@ -228,7 +228,7 @@ WC-1966,WC-1966_022,22,1966-07-20,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,S
 ,,,1968-10-23,Friendly,played,Chile,CHL,CHL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,TRUE,3,1,win,Santiago,Chile,FALSE,1758,1841,1772,1827,14
 ,,,1968-11-27,Copa Carlos Dittborn,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,0,4,loss,Rosario,Argentina,FALSE,1772,1901,1760,1913,-12
 ,,,1968-12-04,Copa Carlos Dittborn,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Santiago,Chile,FALSE,1760,1913,1777,1896,17
-,,,1968-12-18,Friendly,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,2,1,win,Santiago,Chile,FALSE,,,,,
+,,,1968-12-18,Friendly,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,TRUE,2,1,win,Santiago,Chile,FALSE,1777,2027,1791,2013,14
 ,,,1969-05-28,Friendly,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,1,1,draw,Santiago,Chile,FALSE,1791,1887,1791,1887,0
 ,,,1969-06-08,Friendly,played,Chile,CHL,CHL,CONMEBOL,Paraguay,PRY,PRY,CONMEBOL,FALSE,1,0,win,Asunción,Paraguay,FALSE,1791,1755,1803,1743,12
 ,,,1969-06-11,Friendly,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,1,2,loss,La Plata,Argentina,FALSE,1803,1887,1798,1892,-5
@@ -258,7 +258,7 @@ WC-1966,WC-1966_022,22,1966-07-20,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,S
 ,,,1972-05-31,Copa Carlos Dittborn,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,3,4,loss,Santiago,Chile,FALSE,1741,1868,1727,1882,-14
 ,,,1972-06-14,Brazil Independence Cup,played,Chile,CHL,CHL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,2,1,win,Natal,Brazil,TRUE,1727,1435,1733,1429,6
 ,,,1972-06-18,Brazil Independence Cup,played,Chile,CHL,CHL,CONMEBOL,Portugal,PRT,PRT,UEFA,TRUE,1,4,loss,Recife,Brazil,TRUE,1733,1835,1708,1860,-25
-,,,1972-06-21,Brazil Independence Cup,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Recife,Brazil,TRUE,,,,,
+,,,1972-06-21,Brazil Independence Cup,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Recife,Brazil,TRUE,1708,1582,1721,1569,13
 ,,,1972-06-25,Brazil Independence Cup,played,Chile,CHL,CHL,CONMEBOL,Iran,IRN,IRN,AFC,TRUE,2,1,win,Recife,Brazil,TRUE,1721,1674,1738,1657,17
 ,,,1972-08-16,Friendly,played,Chile,CHL,CHL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,TRUE,0,2,loss,Santiago,Chile,FALSE,1738,1750,1719,1769,-19
 ,,,1973-02-14,Friendly,played,Chile,CHL,CHL,CONMEBOL,Tahiti,,,,TRUE,10,1,win,Santiago,Chile,FALSE,1710,1412,1715,1407,5
@@ -275,8 +275,8 @@ WC-1966,WC-1966_022,22,1966-07-20,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,S
 ,,,1973-11-21,FIFA World Cup qualification,played,Chile,CHL,CHL,CONMEBOL,Soviet Union,SUN,SUN,UEFA,TRUE,2,0,win,Santiago,Chile,FALSE,,,,,
 ,,,1974-04-24,Friendly,played,Chile,CHL,CHL,CONMEBOL,Haiti,HTI,HTI,CONCACAF,FALSE,1,0,win,Port-au-Prince,Haiti,FALSE,1788,1615,1796,1607,8
 ,,,1974-04-26,Friendly,played,Chile,CHL,CHL,CONMEBOL,Haiti,HTI,HTI,CONCACAF,FALSE,0,0,draw,Port-au-Prince,Haiti,FALSE,1796,1607,1793,1610,-3
-,,,1974-05-12,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,2,loss,Santiago,Chile,FALSE,,,,,
-WC-1974,WC-1974_004,4,1974-06-14,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Berlin,Germany,FALSE,,,,,
+,,,1974-05-12,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,2,loss,Santiago,Chile,FALSE,1793,1602,1776,1619,-17
+WC-1974,WC-1974_004,4,1974-06-14,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Berlin,Germany,FALSE,1776,2112,1771,2117,-5
 WC-1974,WC-1974_009,9,1974-06-18,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,German DR,DDR,DDR,UEFA,TRUE,1,1,draw,Berlin,Germany,TRUE,1771,1956,1786,1941,15
 WC-1974,WC-1974_017,17,1974-06-22,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Australia,AUS,AUS,AFC,FALSE,0,0,draw,Berlin,Germany,TRUE,1786,1666,1776,1676,-10
 ,,,1974-11-06,Copa Carlos Dittborn,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,0,2,loss,Santiago,Chile,FALSE,1776,1841,1751,1866,-25
@@ -329,9 +329,9 @@ WC-1974,WC-1974_017,17,1974-06-22,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,A
 ,,,1981-08-26,Friendly,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,TRUE,0,0,draw,Santiago,Chile,FALSE,1780,2094,1785,2089,5
 ,,,1982-03-23,Friendly,played,Chile,CHL,CHL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,2,1,win,Santiago,Chile,FALSE,1785,1727,1791,1721,6
 ,,,1982-03-30,Copa del Pacífico,played,Chile,CHL,CHL,CONMEBOL,Peru,PER,PER,CONMEBOL,FALSE,0,1,loss,Lima,Peru,FALSE,1791,1721,1777,1735,-14
-,,,1982-05-21,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Santiago,Chile,FALSE,,,,,
+,,,1982-05-21,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Santiago,Chile,FALSE,1764,1762,1771,1755,7
 WC-1982,WC-1982_010,10,1982-06-17,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Austria,AUT,AUT,UEFA,TRUE,0,1,loss,Oviedo,Spain,TRUE,1771,1920,1753,1938,-18
-WC-1982,WC-1982_020,20,1982-06-20,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Gijón,Spain,TRUE,,,,,
+WC-1982,WC-1982_020,20,1982-06-20,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Gijón,Spain,TRUE,1753,2055,1737,2071,-16
 WC-1982,WC-1982_031,31,1982-06-24,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,Algeria,DZA,DZA,CAF,FALSE,2,3,loss,Oviedo,Spain,TRUE,1737,1678,1702,1713,-35
 ,,,1983-04-28,Friendly,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,2,3,loss,Rio de Janeiro,Brazil,FALSE,1702,2115,1701,2116,-1
 ,,,1983-05-12,Friendly,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,TRUE,2,2,draw,Santiago,Chile,FALSE,1701,1942,1705,1938,4
@@ -412,7 +412,7 @@ WC-1982,WC-1982_031,31,1982-06-24,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,A
 ,,,1989-09-03,FIFA World Cup qualification,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,1785,1980,1779,1986,-6
 ,,,1990-11-08,Friendly,played,Chile,CHL,CHL,CONMEBOL,Brazil,BRA,BRA,CONMEBOL,FALSE,0,0,draw,Belém,Brazil,FALSE,1783,1970,1793,1960,10
 ,,,1991-04-09,Friendly,played,Chile,CHL,CHL,CONMEBOL,Mexico,MEX,MEX,CONCACAF,FALSE,0,1,loss,Veracruz,Mexico,FALSE,1793,1887,1788,1892,-5
-,,,1991-05-22,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1991-05-22,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1788,1901,1793,1896,5
 ,,,1991-05-30,Friendly,played,Chile,CHL,CHL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,TRUE,2,1,win,Santiago,Chile,FALSE,1793,1867,1802,1858,9
 ,,,1991-06-19,Friendly,played,Chile,CHL,CHL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,FALSE,1,2,loss,Guayaquil,Ecuador,FALSE,1802,1644,1790,1656,-12
 ,,,1991-06-26,Friendly,played,Chile,CHL,CHL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1790,1834,1784,1840,-6
@@ -548,7 +548,7 @@ WC-1998,WC-1998_049,49,1998-06-27,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,B
 ,,,2003-04-30,Friendly,played,Chile,CHL,CHL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,TRUE,1,0,win,Santiago,Chile,FALSE,1591,1780,1604,1767,13
 ,,,2003-06-08,Friendly,played,Chile,CHL,CHL,CONMEBOL,Costa Rica,CRI,CRI,CONCACAF,FALSE,0,1,loss,San José,Costa Rica,FALSE,1604,1767,1600,1771,-4
 ,,,2003-06-11,Friendly,played,Chile,CHL,CHL,CONMEBOL,Honduras,HND,HND,CONCACAF,FALSE,2,1,win,San Pedro Sula,Honduras,FALSE,1600,1693,1615,1678,15
-,,,2003-08-20,Friendly,played,Chile,CHL,CHL,CONMEBOL,China PR,,,,FALSE,0,0,draw,Tianjin,China PR,FALSE,,,,,
+,,,2003-08-20,Friendly,played,Chile,CHL,CHL,CONMEBOL,China PR,,,,FALSE,0,0,draw,Tianjin,China PR,FALSE,1615,1615,1618,1612,3
 ,,,2003-09-06,FIFA World Cup qualification,played,Chile,CHL,CHL,CONMEBOL,Argentina,ARG,ARG,CONMEBOL,FALSE,2,2,draw,Buenos Aires,Argentina,FALSE,1618,2035,1636,2017,18
 ,,,2003-09-09,FIFA World Cup qualification,played,Chile,CHL,CHL,CONMEBOL,Peru,PER,PER,CONMEBOL,TRUE,2,1,win,Santiago,Chile,FALSE,1636,1687,1653,1670,17
 ,,,2003-11-15,FIFA World Cup qualification,played,Chile,CHL,CHL,CONMEBOL,Uruguay,URY,URY,CONMEBOL,FALSE,1,2,loss,Montevideo,Uruguay,FALSE,1653,1841,1647,1847,-6
@@ -576,7 +576,7 @@ WC-1998,WC-1998_049,49,1998-06-27,FIFA World Cup,played,Chile,CHL,CHL,CONMEBOL,B
 ,,,2005-10-12,FIFA World Cup qualification,played,Chile,CHL,CHL,CONMEBOL,Ecuador,ECU,ECU,CONMEBOL,TRUE,0,0,draw,Santiago,Chile,FALSE,1682,1773,1681,1774,-1
 ,,,2006-04-25,Friendly,played,Chile,CHL,CHL,CONMEBOL,New Zealand,NZL,NZL,OFC,TRUE,4,1,win,Rancagua,Chile,FALSE,1681,1518,1687,1512,6
 ,,,2006-04-27,Friendly,played,Chile,CHL,CHL,CONMEBOL,New Zealand,NZL,NZL,OFC,TRUE,1,0,win,La Calera,Chile,FALSE,1687,1512,1690,1509,3
-,,,2006-05-24,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2006-05-24,Friendly,played,Chile,CHL,CHL,CONMEBOL,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,1690,1839,1706,1823,16
 ,,,2006-05-30,Friendly,played,Chile,CHL,CHL,CONMEBOL,Ivory Coast,CIV,CIV,CAF,TRUE,1,1,draw,Vittel,France,TRUE,1706,1756,1707,1755,1
 ,,,2006-06-02,Friendly,played,Chile,CHL,CHL,CONMEBOL,Sweden,SWE,SWE,UEFA,FALSE,1,1,draw,Solna,Sweden,FALSE,1707,1865,1713,1859,6
 ,,,2006-08-16,Friendly,played,Chile,CHL,CHL,CONMEBOL,Colombia,COL,COL,CONMEBOL,TRUE,1,2,loss,Santiago,Chile,FALSE,1713,1779,1702,1790,-11

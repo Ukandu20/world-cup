@@ -87,7 +87,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1927-05-26,Friendly,played,Belgium,BEL,BEL,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,0,4,loss,Prague,Czechoslovakia,FALSE,1711,1903,1705,1909,-6
 ,,,1927-09-04,Friendly,played,Belgium,BEL,BEL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,7,loss,Stockholm,Sweden,FALSE,1699,1828,1689,1838,-10
 ,,,1928-01-08,Friendly,played,Belgium,BEL,BEL,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,2,loss,Brussels,Belgium,FALSE,1689,1898,1682,1905,-7
-,,,1928-02-12,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,4,loss,Liège,Belgium,FALSE,,,,,
+,,,1928-02-12,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,4,loss,Liège,Belgium,FALSE,1682,1601,1660,1623,-22
 ,,,1928-03-11,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Amsterdam,Netherlands,FALSE,1660,1772,1665,1767,5
 ,,,1928-04-01,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,0,win,Antwerp,Belgium,FALSE,1665,1767,1680,1752,15
 ,,,1928-04-15,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,3,2,win,Colombes,France,FALSE,1680,1584,1690,1574,10
@@ -102,7 +102,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1929-05-26,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,4,1,win,Liège,Belgium,FALSE,1646,1556,1655,1547,9
 ,,,1930-04-13,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,6,1,win,Colombes,France,FALSE,1648,1539,1667,1520,19
 ,,,1930-05-04,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,2,draw,Amsterdam,Netherlands,FALSE,1667,1675,1670,1672,3
-,,,1930-05-11,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,3,loss,Brussels,Belgium,FALSE,,,,,
+,,,1930-05-11,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,3,loss,Brussels,Belgium,FALSE,1670,1638,1650,1658,-20
 ,,,1930-05-18,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,1,win,Antwerp,Belgium,FALSE,1650,1672,1668,1654,18
 ,,,1930-05-25,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,1,2,loss,Liège,Belgium,FALSE,1668,1514,1652,1530,-16
 ,,,1930-06-08,Friendly,played,Belgium,BEL,BEL,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,1,win,Antwerp,Belgium,FALSE,1652,1707,1661,1698,9
@@ -133,7 +133,7 @@ WC-1930,WC-1930_012,12,1930-07-20,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Par
 ,,,1933-10-22,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,8,loss,Duisburg,Germany,FALSE,1594,1758,1586,1766,-8
 ,,,1933-11-26,Friendly,played,Belgium,BEL,BEL,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,2,draw,Brussels,Belgium,FALSE,1586,1762,1588,1760,2
 ,,,1934-01-21,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,2,3,loss,Brussels,Belgium,FALSE,1588,1599,1575,1612,-13
-,,,1934-02-25,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,4,4,draw,Dublin,Irish Free State,TRUE,,,,,
+,,,1934-02-25,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,4,4,draw,Dublin,Irish Free State,TRUE,1575,1674,1585,1664,10
 ,,,1934-03-11,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,3,9,loss,Amsterdam,Netherlands,FALSE,1585,1658,1574,1669,-11
 ,,,1934-04-29,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,4,loss,Antwerp,Belgium,FALSE,1574,1694,1546,1722,-28
 WC-1934,WC-1934_003,3,1934-05-27,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,2,5,loss,Florence,Italy,TRUE,1549,1799,1529,1819,-20
@@ -194,14 +194,14 @@ WC-1938,WC-1938_005,5,1938-06-05,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Fran
 ,,,1948-11-21,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,1,draw,Antwerp,Belgium,FALSE,1550,1703,1552,1701,2
 ,,,1949-01-02,Friendly,played,Belgium,BEL,BEL,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Barcelona,Spain,FALSE,1552,1894,1561,1885,9
 ,,,1949-03-13,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,3,3,draw,Amsterdam,Netherlands,FALSE,1561,1701,1567,1695,6
-,,,1949-04-24,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Éire,FALSE,,,,,
+,,,1949-04-24,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Éire,FALSE,1567,1656,1589,1634,22
 ,,,1949-05-22,Friendly,played,Belgium,BEL,BEL,UEFA,Wales,WAL,WAL,UEFA,TRUE,3,1,win,Liège,Belgium,FALSE,1589,1830,1610,1809,21
 ,,,1949-10-02,Friendly,played,Belgium,BEL,BEL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,3,0,win,Brussels,Belgium,FALSE,1610,1747,1629,1728,19
 ,,,1949-11-06,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,0,win,Rotterdam,Netherlands,FALSE,1629,1731,1644,1716,15
 ,,,1949-11-23,Friendly,played,Belgium,BEL,BEL,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,5,loss,Cardiff,Wales,FALSE,1644,1758,1636,1766,-8
 ,,,1950-03-05,Friendly,played,Belgium,BEL,BEL,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,3,loss,Bologna,Italy,FALSE,1636,1990,1634,1992,-2
 ,,,1950-04-16,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,0,win,Antwerp,Belgium,FALSE,1634,1705,1648,1691,14
-,,,1950-05-10,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,5,1,win,Brussels,Belgium,FALSE,,,,,
+,,,1950-05-10,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,5,1,win,Brussels,Belgium,FALSE,1648,1638,1661,1625,13
 ,,,1950-05-18,Friendly,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,TRUE,1,4,loss,Brussels,Belgium,FALSE,1661,2066,1656,2071,-5
 ,,,1950-06-04,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,4,1,win,Brussels,Belgium,FALSE,1656,1721,1672,1705,16
 ,,,1950-11-01,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,3,3,draw,Colombes,France,FALSE,1672,1705,1676,1701,4
@@ -234,7 +234,7 @@ WC-1938,WC-1938_005,5,1938-06-05,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Fran
 ,,,1954-05-30,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,3,3,draw,Brussels,Belgium,FALSE,1780,1772,1777,1775,-3
 WC-1954,WC-1954_005,5,1954-06-17,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,TRUE,4,4,draw,Basel,Switzerland,TRUE,1777,2021,1795,2003,18
 WC-1954,WC-1954_013,13,1954-06-20,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,4,loss,Lugano,Switzerland,TRUE,1795,1853,1751,1897,-44
-,,,1954-09-26,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,2,0,win,Brussels,Belgium,FALSE,,,,,
+,,,1954-09-26,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,2,0,win,Brussels,Belgium,FALSE,1751,2098,1775,2074,24
 ,,,1954-10-24,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,4,3,win,Antwerp,Belgium,FALSE,1775,1556,1778,1553,3
 ,,,1954-11-11,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,2,2,draw,Colombes,France,FALSE,1778,1809,1782,1805,4
 ,,,1955-01-16,Friendly,played,Belgium,BEL,BEL,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,1,loss,Bari,Italy,FALSE,1782,1850,1776,1856,-6
@@ -249,7 +249,7 @@ WC-1954,WC-1954_013,13,1954-06-20,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Ita
 ,,,1956-06-03,Friendly,played,Belgium,BEL,BEL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,5,4,win,Brussels,Belgium,FALSE,1693,2114,1710,2097,17
 ,,,1956-10-14,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,3,loss,Antwerp,Belgium,FALSE,1710,1642,1696,1656,-14
 ,,,1956-11-11,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,3,6,loss,Colombes,France,FALSE,1696,1845,1683,1858,-13
-,,,1956-12-23,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Cologne,Germany,FALSE,,,,,
+,,,1956-12-23,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,FALSE,1,4,loss,Cologne,Germany,FALSE,1683,1889,1678,1894,-5
 ,,,1957-03-31,Friendly,played,Belgium,BEL,BEL,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,5,loss,Brussels,Belgium,FALSE,1678,1807,1660,1825,-18
 ,,,1957-04-28,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Amsterdam,Netherlands,FALSE,1660,1649,1663,1646,3
 ,,,1957-05-26,Friendly,played,Belgium,BEL,BEL,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,0,win,Brussels,Belgium,FALSE,1663,1628,1669,1622,6
@@ -258,7 +258,7 @@ WC-1954,WC-1954_013,13,1954-06-20,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Ita
 ,,,1957-10-27,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,0,0,draw,Brussels,Belgium,FALSE,1687,1869,1692,1864,5
 ,,,1957-11-17,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,5,loss,Rotterdam,Netherlands,FALSE,1692,1655,1678,1669,-14
 ,,,1957-12-08,Friendly,played,Belgium,BEL,BEL,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,1,draw,Ankara,Turkey,FALSE,1678,1715,1682,1711,4
-,,,1958-03-02,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Brussels,Belgium,FALSE,,,,,
+,,,1958-03-02,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Brussels,Belgium,FALSE,1682,1910,1672,1920,-10
 ,,,1958-04-13,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,7,loss,Antwerp,Belgium,FALSE,1672,1657,1646,1683,-26
 ,,,1958-05-26,Friendly,played,Belgium,BEL,BEL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,0,win,Zürich,Switzerland,FALSE,1646,1626,1664,1608,18
 ,,,1958-09-28,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,3,loss,Antwerp,Belgium,FALSE,1664,1674,1651,1687,-13
@@ -278,7 +278,7 @@ WC-1954,WC-1954_013,13,1954-06-20,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Ita
 ,,,1960-10-19,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,2,loss,Solna,Sweden,FALSE,1630,1890,1623,1897,-7
 ,,,1960-10-30,Friendly,played,Belgium,BEL,BEL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,1,win,Brussels,Belgium,FALSE,1623,1969,1639,1953,16
 ,,,1960-11-20,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,4,loss,Brussels,Belgium,FALSE,1639,1618,1599,1658,-40
-,,,1961-03-08,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Frankfurt am Main,Germany,FALSE,,,,,
+,,,1961-03-08,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,1,loss,Frankfurt am Main,Germany,FALSE,1599,1878,1597,1880,-2
 ,,,1961-03-15,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,1,1,draw,Paris,France,FALSE,1597,1858,1605,1850,8
 ,,,1961-03-22,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,6,loss,Rotterdam,Netherlands,FALSE,1605,1732,1597,1740,-8
 ,,,1961-05-20,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,2,loss,Lausanne,Switzerland,FALSE,1597,1643,1585,1655,-12
@@ -305,7 +305,7 @@ WC-1954,WC-1954_013,13,1954-06-20,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Ita
 ,,,1964-09-30,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,0,win,Antwerp,Belgium,FALSE,1695,1659,1701,1653,6
 ,,,1964-10-21,Friendly,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,FALSE,2,2,draw,London,England,FALSE,1701,1923,1708,1916,7
 ,,,1964-12-02,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,3,0,win,Brussels,Belgium,FALSE,1708,1767,1723,1752,15
-,,,1965-03-24,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1965-03-24,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,0,win,Dublin,Republic of Ireland,FALSE,1723,1671,1740,1654,17
 ,,,1965-04-07,Friendly,played,Belgium,BEL,BEL,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Brussels,Belgium,FALSE,1740,1687,1736,1691,-4
 ,,,1965-05-09,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Israel,ISR,ISR,UEFA,TRUE,1,0,win,Brussels,Belgium,FALSE,1736,1593,1744,1585,8
 ,,,1965-06-02,Friendly,played,Belgium,BEL,BEL,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,5,loss,Rio de Janeiro,Brazil,FALSE,1744,1940,1738,1946,-6
@@ -316,7 +316,7 @@ WC-1954,WC-1954_013,13,1954-06-20,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Ita
 ,,,1966-04-17,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,3,loss,Rotterdam,Netherlands,FALSE,1762,1640,1746,1656,-16
 ,,,1966-04-20,Friendly,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,3,0,win,Paris,France,FALSE,1746,1775,1770,1751,24
 ,,,1966-05-22,Friendly,played,Belgium,BEL,BEL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,1,loss,Brussels,Belgium,FALSE,1770,2005,1764,2011,-6
-,,,1966-05-25,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,3,loss,Liège,Belgium,FALSE,,,,,
+,,,1966-05-25,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,3,loss,Liège,Belgium,FALSE,1764,1649,1748,1665,-16
 ,,,1966-10-22,Friendly,played,Belgium,BEL,BEL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Bruges,Belgium,FALSE,1748,1617,1752,1613,4
 ,,,1966-11-11,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,2,1,win,Brussels,Belgium,FALSE,1752,1744,1766,1730,14
 ,,,1967-03-19,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Luxembourg,,,,FALSE,5,0,win,Luxembourg,Luxembourg,FALSE,1766,1327,1776,1317,10
@@ -326,7 +326,7 @@ WC-1954,WC-1954_013,13,1954-06-20,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Ita
 ,,,1967-10-28,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,1,1,draw,Nantes,France,FALSE,1704,1758,1712,1750,8
 ,,,1967-11-22,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Luxembourg,,,,TRUE,3,0,win,Bruges,Belgium,FALSE,1712,1330,1716,1326,4
 ,,,1968-01-10,Friendly,played,Belgium,BEL,BEL,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,0,win,Jaffa,Israel,FALSE,1716,1515,1727,1504,11
-,,,1968-03-06,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Brussels,Belgium,FALSE,,,,,
+,,,1968-03-06,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,3,loss,Brussels,Belgium,FALSE,1727,2001,1719,2009,-8
 ,,,1968-04-07,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,1,win,Amsterdam,Netherlands,FALSE,1719,1695,1731,1683,12
 ,,,1968-04-24,Friendly,played,Belgium,BEL,BEL,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,1,loss,Moscow,Soviet Union,FALSE,1731,1971,1729,1973,-2
 ,,,1968-06-19,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Finland,,,,FALSE,2,1,win,Helsinki,Finland,FALSE,1732,1408,1741,1399,9
@@ -354,7 +354,7 @@ WC-1970,WC-1970_024,24,1970-06-11,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Mex
 ,,,1972-05-13,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,1,win,Brussels,Belgium,FALSE,1822,1980,1845,1957,23
 ,,,1972-05-18,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Iceland,ISL,ISL,UEFA,TRUE,4,0,win,Liège,Belgium,FALSE,1845,1280,1847,1278,2
 ,,,1972-05-22,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Iceland,ISL,ISL,UEFA,TRUE,4,0,win,Bruges,Belgium,FALSE,1847,1278,1849,1276,2
-,,,1972-06-14,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Antwerp,Belgium,FALSE,,,,,
+,,,1972-06-14,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Antwerp,Belgium,FALSE,1849,2100,1834,2115,-15
 ,,,1972-06-17,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,1,win,Liège,Belgium,FALSE,1834,1913,1857,1890,23
 ,,,1972-10-04,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Norway,NOR,NOR,UEFA,FALSE,2,0,win,Oslo,Norway,FALSE,1857,1465,1866,1456,9
 ,,,1972-11-19,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Antwerp,Belgium,FALSE,1866,1815,1858,1823,-8
@@ -401,12 +401,12 @@ WC-1970,WC-1970_024,24,1970-06-11,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Mex
 ,,,1980-06-12,UEFA Euro,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Turin,Italy,TRUE,1914,2036,1922,2028,8
 ,,,1980-06-15,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,1,win,Milan,Italy,TRUE,1922,1889,1945,1866,23
 ,,,1980-06-18,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,0,draw,Rome,Italy,FALSE,1945,1998,1955,1988,10
-,,,1980-06-22,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Rome,Italy,TRUE,,,,,
-,,,1980-10-15,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1980-06-22,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,1,2,loss,Rome,Italy,TRUE,1955,2093,1939,2109,-16
+,,,1980-10-15,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1939,1755,1934,1760,-5
 ,,,1980-11-19,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,0,win,Brussels,Belgium,FALSE,1934,1980,1951,1963,17
 ,,,1980-12-21,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Cyprus,,,,FALSE,2,0,win,Nicosia,Cyprus,FALSE,1951,1264,1953,1262,2
 ,,,1981-02-18,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Cyprus,,,,TRUE,3,2,win,Brussels,Belgium,FALSE,1953,1262,1953,1262,0
-,,,1981-03-25,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Brussels,Belgium,FALSE,,,,,
+,,,1981-03-25,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Brussels,Belgium,FALSE,1953,1737,1959,1731,6
 ,,,1981-04-29,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,2,3,loss,Paris,France,FALSE,1959,1905,1942,1922,-17
 ,,,1981-09-09,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,TRUE,2,0,win,Brussels,Belgium,FALSE,1942,1909,1961,1890,19
 ,,,1981-10-14,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,3,loss,Rotterdam,Netherlands,FALSE,1961,1910,1931,1940,-30
@@ -419,7 +419,7 @@ WC-1982,WC-1982_016,16,1982-06-19,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,El 
 WC-1982,WC-1982_025,25,1982-06-22,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,1,draw,Elche,Spain,TRUE,1960,1802,1947,1815,-13
 WC-1982,WC-1982_038,38,1982-06-28,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Poland,POL,POL,UEFA,FALSE,0,3,loss,Barcelona,Spain,TRUE,1947,1963,1897,2013,-50
 WC-1982,WC-1982_042,42,1982-07-01,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,0,1,loss,Barcelona,Spain,TRUE,1897,1985,1874,2008,-23
-,,,1982-09-22,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Munich,Germany,FALSE,,,,,
+,,,1982-09-22,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,FALSE,0,0,draw,Munich,Germany,FALSE,1874,2036,1880,2030,6
 ,,,1982-10-06,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,3,0,win,Brussels,Belgium,FALSE,1880,1692,1891,1681,11
 ,,,1982-12-15,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,2,win,Brussels,Belgium,FALSE,1891,1843,1903,1831,12
 ,,,1983-03-30,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,German DR,DDR,DDR,UEFA,FALSE,2,1,win,Leipzig,German DR,FALSE,1903,1888,1928,1863,25
@@ -428,7 +428,7 @@ WC-1982,WC-1982_042,42,1982-07-01,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Sov
 ,,,1983-09-21,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,1,draw,Brussels,Belgium,FALSE,1939,1841,1934,1846,-5
 ,,,1983-10-12,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1934,1880,1937,1877,3
 ,,,1983-11-09,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,3,loss,Bern,Switzerland,FALSE,1937,1752,1900,1789,-37
-,,,1984-02-29,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Brussels,Belgium,FALSE,,,,,
+,,,1984-02-29,Friendly,played,Belgium,BEL,BEL,UEFA,Germany,GER,DEU,UEFA,TRUE,0,1,loss,Brussels,Belgium,FALSE,1900,2003,1890,2013,-10
 ,,,1984-04-17,Friendly,played,Belgium,BEL,BEL,UEFA,Poland,POL,POL,UEFA,FALSE,1,0,win,Warsaw,Poland,FALSE,1890,1923,1904,1909,14
 ,,,1984-06-06,Friendly,played,Belgium,BEL,BEL,UEFA,Hungary,HUN,HUN,UEFA,TRUE,2,2,draw,Brussels,Belgium,FALSE,1904,1771,1898,1777,-6
 ,,,1984-06-13,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Lens,France,TRUE,1898,1892,1935,1855,37
@@ -453,12 +453,12 @@ WC-1986,WC-1986_038,38,1986-06-15,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Sov
 WC-1986,WC-1986_048,48,1986-06-22,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Puebla,Mexico,TRUE,1864,1989,1874,1979,10
 WC-1986,WC-1986_049,49,1986-06-25,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,2,loss,Mexico City,Mexico,TRUE,1874,1979,1842,2011,-32
 WC-1986,WC-1986_051,51,1986-06-28,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,France,FRA,FRA,UEFA,FALSE,2,4,loss,Puebla,Mexico,TRUE,1842,1996,1816,2022,-26
-,,,1986-09-10,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Brussels,Belgium,FALSE,,,,,
+,,,1986-09-10,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,2,draw,Brussels,Belgium,FALSE,1816,1732,1806,1742,-10
 ,,,1986-10-14,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Luxembourg,,,,FALSE,6,0,win,Luxembourg,Luxembourg,FALSE,1806,1173,1810,1169,4
 ,,,1986-11-19,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,1,draw,Brussels,Belgium,FALSE,1810,1772,1802,1780,-8
 ,,,1987-02-04,Friendly,played,Belgium,BEL,BEL,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Braga,Portugal,FALSE,1802,1756,1794,1764,-8
 ,,,1987-04-01,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Scotland,SCO,SCO,UEFA,TRUE,4,1,win,Brussels,Belgium,FALSE,1794,1786,1818,1762,24
-,,,1987-04-29,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1987-04-29,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1818,1749,1820,1747,2
 ,,,1987-09-09,Friendly,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Rotterdam,Netherlands,FALSE,1820,1887,1824,1883,4
 ,,,1987-09-23,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,0,2,loss,Sofia,Bulgaria,FALSE,1824,1798,1800,1822,-24
 ,,,1987-10-14,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1800,1766,1776,1790,-24
@@ -539,8 +539,8 @@ WC-1994,WC-1994_037,37,1994-07-02,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Ger
 ,,,1997-06-07,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,San Marino,,,,TRUE,6,0,win,Brussels,Belgium,FALSE,1790,956,1790,956,0
 ,,,1997-09-06,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,3,loss,Rotterdam,Netherlands,FALSE,1790,1942,1779,1953,-11
 ,,,1997-10-11,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Wales,WAL,WAL,UEFA,TRUE,3,2,win,Brussels,Belgium,FALSE,1779,1582,1785,1576,6
-,,,1997-10-29,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
-,,,1997-11-15,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Brussels,Belgium,FALSE,,,,,
+,,,1997-10-29,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1785,1729,1788,1726,3
+,,,1997-11-15,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Brussels,Belgium,FALSE,1788,1726,1799,1715,11
 ,,,1998-02-25,Friendly,played,Belgium,BEL,BEL,UEFA,United States,USA,USA,CONCACAF,TRUE,2,0,win,Brussels,Belgium,FALSE,1799,1752,1808,1743,9
 ,,,1998-03-25,Friendly,played,Belgium,BEL,BEL,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,2,draw,Brussels,Belgium,FALSE,1808,1864,1807,1865,-1
 ,,,1998-04-22,Friendly,played,Belgium,BEL,BEL,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Brussels,Belgium,FALSE,1807,1874,1806,1875,-1
@@ -730,7 +730,7 @@ WC-2014,WC-2014_059,59,2014-07-05,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Arg
 ,,,2016-06-01,Friendly,played,Belgium,BEL,BEL,UEFA,Finland,,,,TRUE,1,1,draw,Brussels,Belgium,FALSE,1929,1569,1920,1578,-9
 ,,,2016-06-05,Friendly,played,Belgium,BEL,BEL,UEFA,Norway,NOR,NOR,UEFA,TRUE,3,2,win,Brussels,Belgium,FALSE,1920,1637,1922,1635,2
 ,,,2016-06-13,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,2,loss,Lyon,France,TRUE,1922,1874,1879,1917,-43
-,,,2016-06-18,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Bordeaux,France,TRUE,,,,,
+,,,2016-06-18,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Bordeaux,France,TRUE,1879,1758,1908,1729,29
 ,,,2016-06-22,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,0,win,Nice,France,TRUE,1908,1747,1922,1733,14
 ,,,2016-06-26,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Hungary,HUN,HUN,UEFA,FALSE,4,0,win,Toulouse,France,TRUE,1922,1748,1947,1723,25
 ,,,2016-07-01,UEFA Euro,played,Belgium,BEL,BEL,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,3,loss,Villeneuve-d'Ascq,France,TRUE,1947,1750,1890,1807,-57
@@ -802,7 +802,7 @@ WC-2018,WC-2018_063,63,2018-07-14,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Eng
 ,,,2021-10-10,UEFA Nations League,played,Belgium,BEL,BEL,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,2,loss,Turin,Italy,FALSE,2104,2035,2081,2058,-23
 ,,,2021-11-13,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Estonia,,,,TRUE,3,1,win,Brussels,Belgium,FALSE,2081,1432,2082,1431,1
 ,,,2021-11-16,FIFA World Cup qualification,played,Belgium,BEL,BEL,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,1,draw,Cardiff,Wales,FALSE,2082,1827,2074,1835,-8
-,,,2022-03-26,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2022-03-26,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,2,draw,Dublin,Republic of Ireland,FALSE,2074,1682,2067,1689,-7
 ,,,2022-03-29,Friendly,played,Belgium,BEL,BEL,UEFA,Burkina Faso,,,,TRUE,3,0,win,Anderlecht,Belgium,FALSE,2067,1548,2068,1547,1
 ,,,2022-06-03,UEFA Nations League,played,Belgium,BEL,BEL,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,4,loss,Brussels,Belgium,FALSE,2068,1938,2013,1993,-55
 ,,,2022-06-08,UEFA Nations League,played,Belgium,BEL,BEL,UEFA,Poland,POL,POL,UEFA,TRUE,6,1,win,Brussels,Belgium,FALSE,2013,1815,2025,1803,12
@@ -824,7 +824,7 @@ WC-2022,WC-2022_043,43,2022-12-01,FIFA World Cup,played,Belgium,BEL,BEL,UEFA,Cro
 ,,,2023-10-16,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Brussels,Belgium,FALSE,1999,1722,1983,1738,-16
 ,,,2023-11-15,Friendly,played,Belgium,BEL,BEL,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,0,win,Leuven,Belgium,FALSE,1983,1824,1987,1820,4
 ,,,2023-11-19,UEFA Euro qualification,played,Belgium,BEL,BEL,UEFA,Azerbaijan,,,,TRUE,5,0,win,Brussels,Belgium,FALSE,1987,1500,1990,1497,3
-,,,2024-03-23,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2024-03-23,Friendly,played,Belgium,BEL,BEL,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1990,1608,1983,1615,-7
 ,,,2024-03-26,Friendly,played,Belgium,BEL,BEL,UEFA,England,ENG,ENG,UEFA,FALSE,2,2,draw,London,England,FALSE,1983,2001,1986,1998,3
 ,,,2024-06-05,Friendly,played,Belgium,BEL,BEL,UEFA,Montenegro,,,,TRUE,2,0,win,Brussels,Belgium,FALSE,1986,1571,1987,1570,1
 ,,,2024-06-08,Friendly,played,Belgium,BEL,BEL,UEFA,Luxembourg,,,,TRUE,3,0,win,Brussels,Belgium,FALSE,1987,1512,1988,1511,1

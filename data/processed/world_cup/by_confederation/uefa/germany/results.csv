@@ -105,7 +105,7 @@ WC-1934,WC-1934_016,16,1934-06-07,FIFA World Cup,played,Germany,GER,DEU,UEFA,Aus
 ,,,1935-02-17,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,3,2,win,Amsterdam,Netherlands,FALSE,1882,1687,1889,1680,7
 ,,,1935-03-17,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,3,1,win,Paris,France,FALSE,1889,1624,1897,1616,8
 ,,,1935-04-28,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,6,1,win,Brussels,Belgium,FALSE,1897,1523,1904,1516,7
-,,,1935-05-08,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,Dortmund,Germany,FALSE,,,,,
+,,,1935-05-08,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,1,win,Dortmund,Germany,FALSE,1904,1624,1907,1621,3
 ,,,1935-05-12,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,1,2,loss,Cologne,Germany,FALSE,1907,1966,1896,1977,-11
 ,,,1935-05-26,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,1,win,Dresden,Germany,FALSE,1896,1908,1904,1900,8
 ,,,1935-06-27,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1904,1727,1902,1729,-2
@@ -125,7 +125,7 @@ WC-1934,WC-1934_016,16,1934-06-07,FIFA World Cup,played,Germany,GER,DEU,UEFA,Aus
 ,,,1936-09-27,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,1,win,Prague,Czechoslovakia,FALSE,1827,1926,1842,1911,15
 ,,,1936-09-27,Friendly,played,Germany,GER,DEU,UEFA,Luxembourg,,,,TRUE,7,2,win,Krefeld,Germany,FALSE,1842,1247,1843,1246,1
 ,,,1936-10-14,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,2,loss,Glasgow,Scotland,FALSE,1843,1958,1836,1965,-7
-,,,1936-10-17,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,5,loss,Dublin,Irish Free State,FALSE,,,,,
+,,,1936-10-17,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,5,loss,Dublin,Irish Free State,FALSE,1836,1629,1813,1652,-23
 ,,,1936-11-15,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,2,draw,Berlin,Germany,FALSE,1813,2069,1817,2065,4
 ,,,1937-01-31,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,2,draw,Düsseldorf,Germany,FALSE,1817,1726,1812,1731,-5
 ,,,1937-03-21,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,4,0,win,Stuttgart,Germany,FALSE,1812,1612,1818,1606,6
@@ -151,7 +151,7 @@ WC-1938,WC-1938_009,9,1938-06-09,FIFA World Cup,played,Germany,GER,DEU,UEFA,Swit
 ,,,1939-02-26,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,2,win,Berlin,Germany,FALSE,1785,1613,1788,1610,3
 ,,,1939-03-26,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,3,loss,Florence,Italy,FALSE,1788,2126,1787,2127,-1
 ,,,1939-03-26,Friendly,played,Germany,GER,DEU,UEFA,Luxembourg,,,,FALSE,1,2,loss,Differdange,Luxembourg,FALSE,1787,1231,1768,1250,-19
-,,,1939-05-23,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Bremen,Germany,FALSE,,,,,
+,,,1939-05-23,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Bremen,Germany,FALSE,1768,1681,1763,1686,-5
 ,,,1939-06-22,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,4,0,win,Oslo,Norway,FALSE,1763,1719,1785,1697,22
 ,,,1939-06-25,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,0,win,Copenhagen,Denmark,FALSE,1785,1718,1801,1702,16
 ,,,1939-06-29,Friendly,played,Germany,GER,DEU,UEFA,Estonia,,,,FALSE,2,0,win,Tallinn,Estonia,FALSE,1801,1284,1803,1282,2
@@ -191,376 +191,376 @@ WC-1938,WC-1938_009,9,1938-06-09,FIFA World Cup,played,Germany,GER,DEU,UEFA,Swit
 ,,,1942-10-18,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,5,3,win,Bern,Switzerland,FALSE,1869,1769,1884,1754,15
 ,,,1942-11-01,Friendly,played,Germany,GER,DEU,UEFA,Croatia,HRV,HRV,UEFA,TRUE,5,1,win,Stuttgart,Germany,FALSE,1884,1878,1897,1865,13
 ,,,1942-11-22,Friendly,played,Germany,GER,DEU,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,5,2,win,Bratislava,Slovakia,FALSE,1897,1677,1909,1665,12
-,,,1950-11-22,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Stuttgart,Germany,FALSE,,,,,
-,,,1951-04-15,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,2,win,Zürich,Switzerland,FALSE,,,,,
-,,,1951-06-17,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,2,loss,Berlin,Germany,FALSE,,,,,
-,,,1951-09-23,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,0,win,Vienna,Austria,FALSE,,,,,
-,,,1951-10-17,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Éire,FALSE,,,,,
-,,,1951-11-21,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,0,win,Istanbul,Turkey,FALSE,,,,,
-,,,1951-12-23,Friendly,played,Germany,GER,DEU,UEFA,Luxembourg,,,,TRUE,4,1,win,Essen,Germany,FALSE,,,,,
-,,,1952-04-20,Friendly,played,Germany,GER,DEU,UEFA,Luxembourg,,,,FALSE,3,0,win,Luxembourg,Luxembourg,FALSE,,,,,
-,,,1952-05-04,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Cologne,Germany,FALSE,,,,,
-,,,1952-10-05,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,1,3,loss,Colombes,France,FALSE,,,,,
-,,,1952-11-09,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,5,1,win,Augsburg,Germany,FALSE,,,,,
-,,,1952-12-21,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,2,win,Ludwigshafen,Germany,FALSE,,,,,
-,,,1952-12-28,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,2,draw,Madrid,Spain,FALSE,,,,,
-,,,1953-03-22,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,0,draw,Cologne,Germany,FALSE,,,,,
-,,,1953-08-19,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,,,,,
+,,,1950-11-22,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Stuttgart,Germany,FALSE,1909,1762,1913,1758,4
+,,,1951-04-15,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,2,win,Zürich,Switzerland,FALSE,1917,1750,1925,1742,8
+,,,1951-06-17,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,2,loss,Berlin,Germany,FALSE,1925,1527,1906,1546,-19
+,,,1951-09-23,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,0,win,Vienna,Austria,FALSE,1906,1906,1925,1887,19
+,,,1951-10-17,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,2,3,loss,Dublin,Éire,FALSE,1925,1631,1910,1646,-15
+,,,1951-11-21,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,0,win,Istanbul,Turkey,FALSE,1910,1561,1916,1555,6
+,,,1951-12-23,Friendly,played,Germany,GER,DEU,UEFA,Luxembourg,,,,TRUE,4,1,win,Essen,Germany,FALSE,1916,1320,1917,1319,1
+,,,1952-04-20,Friendly,played,Germany,GER,DEU,UEFA,Luxembourg,,,,FALSE,3,0,win,Luxembourg,Luxembourg,FALSE,1917,1319,1919,1317,2
+,,,1952-05-04,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Cologne,Germany,FALSE,1919,1646,1923,1642,4
+,,,1952-10-05,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,1,3,loss,Colombes,France,FALSE,1923,1752,1905,1770,-18
+,,,1952-11-09,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,5,1,win,Augsburg,Germany,FALSE,1910,1720,1916,1714,6
+,,,1952-12-21,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,2,win,Ludwigshafen,Germany,FALSE,1916,1929,1924,1921,8
+,,,1952-12-28,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,2,draw,Madrid,Spain,FALSE,1924,1869,1925,1868,1
+,,,1953-03-22,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,0,0,draw,Cologne,Germany,FALSE,1925,1874,1921,1878,-4
+,,,1953-08-19,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,1,1,draw,Oslo,Norway,FALSE,1921,1599,1910,1610,-11
 ,,,1953-10-11,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Saarland,,,,TRUE,3,0,win,Stuttgart,Germany,FALSE,,,,,
-,,,1953-11-22,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,TRUE,5,1,win,Hamburg,Germany,FALSE,,,,,
+,,,1953-11-22,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,TRUE,5,1,win,Hamburg,Germany,FALSE,1920,1639,1928,1631,8
 ,,,1954-03-28,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Saarland,,,,FALSE,3,1,win,Saarbrücken,Saarland,FALSE,,,,,
-,,,1954-04-25,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,5,3,win,Basel,Switzerland,FALSE,,,,,
-WC-1954,WC-1954_006,6,1954-06-17,FIFA World Cup,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,4,1,win,Bern,Switzerland,TRUE,,,,,
-WC-1954,WC-1954_014,14,1954-06-20,FIFA World Cup,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,8,loss,Basel,Switzerland,TRUE,,,,,
-WC-1954,WC-1954_017,17,1954-06-23,FIFA World Cup,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,7,2,win,Zürich,Switzerland,TRUE,,,,,
-WC-1954,WC-1954_022,22,1954-06-27,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Geneva,Switzerland,TRUE,,,,,
-WC-1954,WC-1954_023,23,1954-06-30,FIFA World Cup,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,6,1,win,Basel,Switzerland,TRUE,,,,,
-WC-1954,WC-1954_026,26,1954-07-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,2,win,Bern,Switzerland,TRUE,,,,,
-,,,1954-09-26,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Brussels,Belgium,FALSE,,,,,
-,,,1954-10-16,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,1,3,loss,Hanover,Germany,FALSE,,,,,
-,,,1954-12-01,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,1,3,loss,London,England,FALSE,,,,,
-,,,1954-12-19,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,3,0,win,Oeiras,Portugal,FALSE,,,,,
-,,,1955-03-30,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,2,loss,Stuttgart,Germany,FALSE,,,,,
-,,,1955-05-28,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Hamburg,Germany,FALSE,,,,,
-,,,1955-08-21,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,2,3,loss,Moscow,Soviet Union,FALSE,,,,,
-,,,1955-09-25,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,,,,,
-,,,1955-11-16,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,0,win,Karlsruhe,Germany,FALSE,,,,,
-,,,1955-12-18,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,2,loss,Rome,Italy,FALSE,,,,,
-,,,1956-03-14,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Düsseldorf,Germany,FALSE,,,,,
+,,,1954-04-25,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,5,3,win,Basel,Switzerland,FALSE,1941,1671,1949,1663,8
+WC-1954,WC-1954_006,6,1954-06-17,FIFA World Cup,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,4,1,win,Bern,Switzerland,TRUE,1949,1598,1961,1586,12
+WC-1954,WC-1954_014,14,1954-06-20,FIFA World Cup,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,8,loss,Basel,Switzerland,TRUE,1961,2156,1932,2185,-29
+WC-1954,WC-1954_017,17,1954-06-23,FIFA World Cup,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,7,2,win,Zürich,Switzerland,TRUE,1932,1669,1954,1647,22
+WC-1954,WC-1954_022,22,1954-06-27,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Geneva,Switzerland,TRUE,1954,1959,2000,1913,46
+WC-1954,WC-1954_023,23,1954-06-30,FIFA World Cup,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,6,1,win,Basel,Switzerland,TRUE,2000,1968,2054,1914,54
+WC-1954,WC-1954_026,26,1954-07-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,2,win,Bern,Switzerland,TRUE,2054,2234,2098,2190,44
+,,,1954-09-26,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Brussels,Belgium,FALSE,2098,1751,2074,1775,-24
+,,,1954-10-16,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,1,3,loss,Hanover,Germany,FALSE,2074,1782,2047,1809,-27
+,,,1954-12-01,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,1,3,loss,London,England,FALSE,2047,1989,2034,2002,-13
+,,,1954-12-19,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,3,0,win,Oeiras,Portugal,FALSE,2034,1663,2040,1657,6
+,,,1955-03-30,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,2,loss,Stuttgart,Germany,FALSE,2040,1856,2023,1873,-17
+,,,1955-05-28,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Hamburg,Germany,FALSE,2023,1670,2024,1669,1
+,,,1955-08-21,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,2,3,loss,Moscow,Soviet Union,FALSE,2024,1734,2009,1749,-15
+,,,1955-09-25,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,1,3,loss,Belgrade,Yugoslavia,FALSE,2009,1959,1996,1972,-13
+,,,1955-11-16,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,0,win,Karlsruhe,Germany,FALSE,1996,1618,1998,1616,2
+,,,1955-12-18,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,2,loss,Rome,Italy,FALSE,1998,1827,1986,1839,-12
+,,,1956-03-14,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Düsseldorf,Germany,FALSE,1988,1609,1969,1628,-19
 ,,,1956-05-26,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,1,3,loss,Berlin,Germany,FALSE,,,,,
-,,,1956-06-13,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,3,1,win,Oslo,Norway,FALSE,,,,,
-,,,1956-06-30,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,2,draw,Solna,Sweden,FALSE,,,,,
-,,,1956-09-15,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,2,loss,Hanover,Germany,FALSE,,,,,
-,,,1956-11-21,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,3,loss,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1956-11-25,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
-,,,1956-12-23,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,4,1,win,Cologne,Germany,FALSE,,,,,
-,,,1957-03-10,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,3,2,win,Vienna,Austria,FALSE,,,,,
-,,,1957-04-03,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,1,win,Amsterdam,Netherlands,FALSE,,,,,
-,,,1957-05-22,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,3,loss,Stuttgart,Germany,FALSE,,,,,
-,,,1957-11-20,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,0,win,Hamburg,Germany,FALSE,,,,,
-,,,1957-12-22,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,0,win,Hanover,Germany,FALSE,,,,,
-,,,1958-03-02,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,0,win,Brussels,Belgium,FALSE,,,,,
-,,,1958-03-19,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,0,win,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1958-04-02,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,3,loss,Prague,Czechoslovakia,FALSE,,,,,
-WC-1958,WC-1958_001,1,1958-06-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,3,1,win,Malmö,Sweden,TRUE,,,,,
-WC-1958,WC-1958_012,12,1958-06-11,FIFA World Cup,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,2,draw,Helsingborg,Sweden,TRUE,,,,,
-WC-1958,WC-1958_021,21,1958-06-15,FIFA World Cup,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,2,draw,Malmö,Sweden,TRUE,,,,,
-WC-1958,WC-1958_030,30,1958-06-19,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,0,win,Malmö,Sweden,TRUE,,,,,
-WC-1958,WC-1958_033,33,1958-06-24,FIFA World Cup,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Gothenburg,Sweden,FALSE,,,,,
-WC-1958,WC-1958_034,34,1958-06-28,FIFA World Cup,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,3,6,loss,Gothenburg,Sweden,TRUE,,,,,
-,,,1958-09-24,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,,,,,
-,,,1958-10-26,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,2,2,draw,Colombes,France,FALSE,,,,,
-,,,1958-11-19,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,2,draw,Berlin,Germany,FALSE,,,,,
-,,,1958-12-21,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,0,win,Augsburg,Germany,FALSE,,,,,
-,,,1958-12-28,Friendly,played,Germany,GER,DEU,UEFA,Egypt,EGY,EGY,CAF,FALSE,1,2,loss,Cairo,United Arab Republic,TRUE,,,,,
-,,,1959-05-06,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,3,loss,Glasgow,Scotland,FALSE,,,,,
-,,,1959-05-20,Friendly,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Hamburg,Germany,FALSE,,,,,
-,,,1959-10-04,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,4,0,win,Bern,Switzerland,FALSE,,,,,
-,,,1959-10-21,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,7,0,win,Cologne,Germany,FALSE,,,,,
-,,,1959-11-08,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,3,4,loss,Budapest,Hungary,FALSE,,,,,
-,,,1959-12-20,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Hanover,Germany,FALSE,,,,,
-,,,1960-03-23,Friendly,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,2,1,win,Stuttgart,Germany,FALSE,,,,,
-,,,1960-04-27,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,1,win,Ludwigshafen,Germany,FALSE,,,,,
-,,,1960-05-11,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Düsseldorf,Germany,FALSE,,,,,
-,,,1960-08-03,Friendly,played,Germany,GER,DEU,UEFA,Iceland,ISL,ISL,UEFA,FALSE,5,0,win,Reykjavík,Iceland,FALSE,,,,,
-,,,1960-10-26,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,4,3,win,Belfast,Northern Ireland,FALSE,,,,,
-,,,1960-11-20,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,0,win,Athens,Greece,FALSE,,,,,
-,,,1960-11-23,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,2,loss,Sofia,Bulgaria,FALSE,,,,,
-,,,1961-03-08,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1961-03-26,Friendly,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,1,3,loss,Santiago,Chile,FALSE,,,,,
-,,,1961-05-10,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,1,win,Berlin,Germany,FALSE,,,,,
-,,,1961-09-20,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,5,1,win,Düsseldorf,Germany,FALSE,,,,,
-,,,1961-10-08,Friendly,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,FALSE,2,0,win,Warsaw,Poland,FALSE,,,,,
-,,,1961-10-22,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,1,win,Augsburg,Germany,FALSE,,,,,
-,,,1962-04-11,Friendly,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,3,0,win,Hamburg,Germany,FALSE,,,,,
-WC-1962,WC-1962_007,7,1962-05-31,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Santiago,Chile,TRUE,,,,,
-WC-1962,WC-1962_015,15,1962-06-03,FIFA World Cup,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,1,win,Santiago,Chile,TRUE,,,,,
-WC-1962,WC-1962_019,19,1962-06-06,FIFA World Cup,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,2,0,win,Santiago,Chile,FALSE,,,,,
-WC-1962,WC-1962_028,28,1962-06-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Santiago,Chile,TRUE,,,,,
-,,,1962-09-30,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,3,2,win,Zagreb,Yugoslavia,FALSE,,,,,
-,,,1962-10-24,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,2,2,draw,Stuttgart,Germany,FALSE,,,,,
-,,,1962-12-23,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,5,1,win,Karlsruhe,Germany,FALSE,,,,,
-,,,1963-05-05,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,Hamburg,Germany,FALSE,,,,,
-,,,1963-09-28,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1963-11-03,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,2,loss,Solna,Sweden,FALSE,,,,,
-,,,1963-12-29,Friendly,played,Germany,GER,DEU,UEFA,Morocco,MAR,MAR,CAF,FALSE,4,1,win,Casablanca,Morocco,FALSE,,,,,
-,,,1964-01-01,Friendly,played,Germany,GER,DEU,UEFA,Algeria,DZA,DZA,CAF,FALSE,0,2,loss,Algiers,Algeria,FALSE,,,,,
-,,,1964-04-29,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,4,loss,Ludwigshafen,Germany,FALSE,,,,,
-,,,1964-05-12,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Hanover,Germany,FALSE,,,,,
-,,,1964-06-07,Friendly,played,Germany,GER,DEU,UEFA,Finland,,,,FALSE,4,1,win,Helsinki,Finland,FALSE,,,,,
-,,,1964-11-04,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Berlin,Germany,FALSE,,,,,
-,,,1965-03-13,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Hamburg,Germany,FALSE,,,,,
-,,,1965-04-24,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,TRUE,5,0,win,Karlsruhe,Germany,FALSE,,,,,
-,,,1965-05-12,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Nuremberg,Germany,FALSE,,,,,
-,,,1965-05-26,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Basel,Switzerland,FALSE,,,,,
-,,,1965-06-06,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,2,loss,Rio de Janeiro,Brazil,FALSE,,,,,
-,,,1965-09-26,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,1,win,Solna,Sweden,FALSE,,,,,
-,,,1965-10-09,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,4,1,win,Stuttgart,Germany,FALSE,,,,,
-,,,1965-11-14,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,FALSE,6,0,win,Nicosia,Cyprus,FALSE,,,,,
-,,,1966-02-23,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,,,,,
-,,,1966-03-23,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,4,2,win,Rotterdam,Netherlands,FALSE,,,,,
-,,,1966-05-04,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,4,0,win,Dublin,Republic of Ireland,FALSE,,,,,
-,,,1966-05-07,Friendly,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,,,,,
-,,,1966-06-01,Friendly,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,0,win,Ludwigshafen,Germany,FALSE,,,,,
-,,,1966-06-23,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Hanover,Germany,FALSE,,,,,
-WC-1966,WC-1966_003,3,1966-07-12,FIFA World Cup,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,5,0,win,Sheffield,England,TRUE,,,,,
-WC-1966,WC-1966_013,13,1966-07-16,FIFA World Cup,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,0,draw,Birmingham,England,TRUE,,,,,
-WC-1966,WC-1966_024,24,1966-07-20,FIFA World Cup,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,1,win,Birmingham,England,TRUE,,,,,
-WC-1966,WC-1966_026,26,1966-07-23,FIFA World Cup,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,4,0,win,Sheffield,England,TRUE,,,,,
-WC-1966,WC-1966_029,29,1966-07-25,FIFA World Cup,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,1,win,Liverpool,England,TRUE,,,,,
-WC-1966,WC-1966_032,32,1966-07-30,FIFA World Cup,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,2,4,loss,London,England,FALSE,,,,,
-,,,1966-10-12,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,0,win,Ankara,Turkey,FALSE,,,,,
-,,,1966-11-19,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,TRUE,3,0,win,Cologne,Germany,FALSE,,,,,
-,,,1967-02-22,Friendly,played,Germany,GER,DEU,UEFA,Morocco,MAR,MAR,CAF,TRUE,5,1,win,Karlsruhe,Germany,FALSE,,,,,
-,,,1967-03-22,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Hanover,Germany,FALSE,,,,,
-,,,1967-04-08,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,TRUE,6,0,win,Dortmund,Germany,FALSE,,,,,
-,,,1967-05-03,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,1,loss,Belgrade,Yugoslavia,FALSE,,,,,
-,,,1967-09-27,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,5,1,win,Berlin,Germany,FALSE,,,,,
-,,,1967-10-07,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,1,win,Hamburg,Germany,FALSE,,,,,
-,,,1967-11-22,Friendly,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,1,loss,Bucharest,Romania,FALSE,,,,,
-,,,1967-12-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,FALSE,0,0,draw,Tirana,Albania,FALSE,,,,,
-,,,1968-03-06,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,1,win,Brussels,Belgium,FALSE,,,,,
-,,,1968-04-17,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,Basel,Switzerland,FALSE,,,,,
-,,,1968-05-08,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,1,draw,Cardiff,Wales,FALSE,,,,,
-,,,1968-06-01,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,1,0,win,Hanover,Germany,FALSE,,,,,
-,,,1968-06-16,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,2,1,win,Stuttgart,Germany,FALSE,,,,,
-,,,1968-09-25,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,1,1,draw,Marseille,France,FALSE,,,,,
-,,,1968-10-13,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,0,win,Vienna,Austria,FALSE,,,,,
-,,,1968-11-23,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,FALSE,1,0,win,Nicosia,Cyprus,FALSE,,,,,
-,,,1968-12-14,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,2,2,draw,Rio de Janeiro,Brazil,FALSE,,,,,
-,,,1968-12-18,Friendly,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,1,2,loss,Santiago,Chile,FALSE,,,,,
-,,,1968-12-22,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Mexico City,Mexico,FALSE,,,,,
-,,,1969-03-26,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,1,draw,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1969-04-16,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,,,,,
-,,,1969-05-10,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Nuremberg,Germany,FALSE,,,,,
-,,,1969-05-21,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,TRUE,12,0,win,Essen,Germany,FALSE,,,,,
-,,,1969-09-21,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Vienna,Austria,FALSE,,,,,
-,,,1969-09-24,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,0,win,Sofia,Bulgaria,FALSE,,,,,
-,,,1969-10-22,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,2,win,Hamburg,Germany,FALSE,,,,,
-,,,1970-02-11,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Seville,Spain,FALSE,,,,,
-,,,1970-04-08,Friendly,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Stuttgart,Germany,FALSE,,,,,
-,,,1970-05-09,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Berlin,Germany,FALSE,,,,,
-,,,1970-05-13,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,0,win,Hanover,Germany,FALSE,,,,,
-WC-1970,WC-1970_007,7,1970-06-03,FIFA World Cup,played,Germany,GER,DEU,UEFA,Morocco,MAR,MAR,CAF,TRUE,2,1,win,León,Mexico,TRUE,,,,,
-WC-1970,WC-1970_014,14,1970-06-07,FIFA World Cup,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,5,2,win,León,Mexico,TRUE,,,,,
-WC-1970,WC-1970_019,19,1970-06-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Peru,PER,PER,CONMEBOL,TRUE,3,1,win,León,Mexico,TRUE,,,,,
-WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,3,2,win,León,Mexico,TRUE,,,,,
-WC-1970,WC-1970_030,30,1970-06-17,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,3,4,loss,Mexico City,Mexico,TRUE,,,,,
-WC-1970,WC-1970_031,31,1970-06-20,FIFA World Cup,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Mexico City,Mexico,TRUE,,,,,
-,,,1970-09-09,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,1,win,Nuremberg,Germany,FALSE,,,,,
-,,,1970-10-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,1,draw,Cologne,Germany,FALSE,,,,,
-,,,1970-11-18,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,2,loss,Zagreb,Yugoslavia,FALSE,,,,,
-,,,1970-11-22,Friendly,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,1,win,Piraeus,Greece,FALSE,,,,,
-,,,1971-02-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,FALSE,1,0,win,Tirana,Albania,FALSE,,,,,
-,,,1971-04-25,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,0,win,Istanbul,Turkey,FALSE,,,,,
-,,,1971-06-12,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,TRUE,2,0,win,Karlsruhe,Germany,FALSE,,,,,
-,,,1971-06-22,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,7,1,win,Oslo,Norway,FALSE,,,,,
-,,,1971-06-27,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,1,loss,Gothenburg,Sweden,FALSE,,,,,
-,,,1971-06-30,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,3,1,win,Copenhagen,Denmark,FALSE,,,,,
-,,,1971-09-08,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,5,0,win,Hanover,Germany,FALSE,,,,,
-,,,1971-10-10,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,FALSE,3,1,win,Warsaw,Poland,FALSE,,,,,
-,,,1971-11-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Hamburg,Germany,FALSE,,,,,
-,,,1972-03-29,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,0,win,Budapest,Hungary,FALSE,,,,,
-,,,1972-04-29,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,3,1,win,London,England,FALSE,,,,,
-,,,1972-05-13,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Berlin,Germany,FALSE,,,,,
-,,,1972-05-26,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,4,1,win,Munich,Germany,FALSE,,,,,
-,,,1972-06-14,UEFA Euro,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,1,win,Antwerp,Belgium,FALSE,,,,,
-,,,1972-06-18,UEFA Euro,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,3,0,win,Brussels,Belgium,TRUE,,,,,
-,,,1972-11-15,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,5,1,win,Düsseldorf,Germany,FALSE,,,,,
-,,,1973-02-14,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,3,loss,Munich,Germany,FALSE,,,,,
-,,,1973-03-28,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,0,win,Düsseldorf,Germany,FALSE,,,,,
-,,,1973-05-09,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Munich,Germany,FALSE,,,,,
-,,,1973-05-12,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,0,win,Hamburg,Germany,FALSE,,,,,
-,,,1973-06-16,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Berlin,Germany,FALSE,,,,,
-,,,1973-09-05,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,1,0,win,Moscow,Soviet Union,FALSE,,,,,
-,,,1973-10-10,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,4,0,win,Hanover,Germany,FALSE,,,,,
-,,,1973-10-13,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,2,1,win,Gelsenkirchen,Germany,FALSE,,,,,
-,,,1973-11-14,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,,,,,
-,,,1973-11-24,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,1,win,Stuttgart,Germany,FALSE,,,,,
-,,,1974-02-23,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Barcelona,Spain,FALSE,,,,,
-,,,1974-02-26,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,0,draw,Rome,Italy,FALSE,,,,,
-,,,1974-03-27,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1974-04-17,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,5,0,win,Dortmund,Germany,FALSE,,,,,
-,,,1974-05-01,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,0,win,Hamburg,Germany,FALSE,,,,,
-WC-1974,WC-1974_004,4,1974-06-14,FIFA World Cup,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,1,0,win,Berlin,Germany,FALSE,,,,,
-WC-1974,WC-1974_010,10,1974-06-18,FIFA World Cup,played,Germany,GER,DEU,UEFA,Australia,AUS,AUS,AFC,TRUE,3,0,win,Hamburg,Germany,FALSE,,,,,
-WC-1974,WC-1974_019,19,1974-06-22,FIFA World Cup,played,Germany,GER,DEU,UEFA,German DR,DDR,DDR,UEFA,TRUE,0,1,loss,Hamburg,Germany,FALSE,,,,,
-WC-1974,WC-1974_026,26,1974-06-26,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Düsseldorf,Germany,FALSE,,,,,
-WC-1974,WC-1974_031,31,1974-06-30,FIFA World Cup,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,4,2,win,Düsseldorf,Germany,FALSE,,,,,
-WC-1974,WC-1974_034,34,1974-07-03,FIFA World Cup,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,1,0,win,Frankfurt am Main,Germany,FALSE,,,,,
-WC-1974,WC-1974_038,38,1974-07-07,FIFA World Cup,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,1,win,Munich,Germany,FALSE,,,,,
-,,,1974-09-04,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,1,win,Basel,Switzerland,FALSE,,,,,
-,,,1974-11-20,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,2,draw,Piraeus,Greece,FALSE,,,,,
-,,,1974-12-22,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Malta,,,,FALSE,1,0,win,Gżira,Malta,FALSE,,,,,
-,,,1975-03-12,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,London,England,FALSE,,,,,
-,,,1975-04-27,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,,,,,
-,,,1975-05-17,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,1,draw,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1975-09-03,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,0,win,Vienna,Austria,FALSE,,,,,
-,,,1975-10-11,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,1,draw,Düsseldorf,Germany,FALSE,,,,,
-,,,1975-11-19,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Stuttgart,Germany,FALSE,,,,,
-,,,1975-12-20,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,5,0,win,Istanbul,Turkey,FALSE,,,,,
-,,,1976-02-28,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Malta,,,,TRUE,8,0,win,Dortmund,Germany,FALSE,,,,,
-,,,1976-04-24,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Madrid,Spain,FALSE,,,,,
-,,,1976-05-22,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,0,win,Munich,Germany,FALSE,,,,,
-,,,1976-06-17,UEFA Euro,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,4,2,win,Belgrade,Yugoslavia,FALSE,,,,,
-,,,1976-06-20,UEFA Euro,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,2,draw,Belgrade,Yugoslavia,TRUE,,,,,
-,,,1976-10-06,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,0,win,Cardiff,Wales,FALSE,,,,,
-,,,1976-11-17,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,0,win,Hanover,Germany,FALSE,,,,,
-,,,1977-02-23,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Paris,France,FALSE,,,,,
-,,,1977-04-27,Friendly,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,5,0,win,Cologne,Germany,FALSE,,,,,
-,,,1977-04-30,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,,,,,
-,,,1977-06-05,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,3,1,win,Buenos Aires,Argentina,FALSE,,,,,
-,,,1977-06-08,Friendly,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,2,0,win,Montevideo,Uruguay,FALSE,,,,,
-,,,1977-06-12,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,Rio de Janeiro,Brazil,FALSE,,,,,
-,,,1977-06-14,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,2,2,draw,Mexico City,Mexico,FALSE,,,,,
-,,,1977-09-07,Friendly,played,Germany,GER,DEU,UEFA,Finland,,,,FALSE,1,0,win,Helsinki,Finland,FALSE,,,,,
-,,,1977-10-08,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,1,win,Berlin,Germany,FALSE,,,,,
-,,,1977-11-16,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,1,win,Stuttgart,Germany,FALSE,,,,,
-,,,1977-12-14,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,1,draw,Dortmund,Germany,FALSE,,,,,
-,,,1978-02-22,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,2,1,win,Munich,Germany,FALSE,,,,,
-,,,1978-03-08,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1978-04-05,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Hamburg,Germany,FALSE,,,,,
-,,,1978-04-19,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Solna,Sweden,FALSE,,,,,
-WC-1978,WC-1978_001,1,1978-06-01,FIFA World Cup,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Buenos Aires,Argentina,TRUE,,,,,
-WC-1978,WC-1978_010,10,1978-06-06,FIFA World Cup,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,6,0,win,Córdoba,Argentina,TRUE,,,,,
-WC-1978,WC-1978_019,19,1978-06-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Tunisia,TUN,TUN,CAF,TRUE,0,0,draw,Córdoba,Argentina,TRUE,,,,,
-WC-1978,WC-1978_028,28,1978-06-14,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Buenos Aires,Argentina,TRUE,,,,,
-WC-1978,WC-1978_031,31,1978-06-18,FIFA World Cup,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,2,draw,Córdoba,Argentina,TRUE,,,,,
-WC-1978,WC-1978_034,34,1978-06-21,FIFA World Cup,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,3,loss,Córdoba,Argentina,TRUE,,,,,
-,,,1978-10-11,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,4,3,win,Prague,Czechoslovakia,FALSE,,,,,
-,,,1978-11-15,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,0,draw,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1978-12-20,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,1,win,Düsseldorf,Germany,FALSE,,,,,
-,,,1979-02-25,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Malta,,,,FALSE,0,0,draw,Gżira,Malta,FALSE,,,,,
-,,,1979-04-01,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,0,draw,İzmir,Turkey,FALSE,,,,,
-,,,1979-05-02,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,0,win,Wrexham,Wales,FALSE,,,,,
-,,,1979-05-22,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,1,win,Dublin,Republic of Ireland,FALSE,,,,,
-,,,1979-05-26,Friendly,played,Germany,GER,DEU,UEFA,Iceland,ISL,ISL,UEFA,FALSE,3,1,win,Reykjavík,Iceland,FALSE,,,,,
-,,,1979-09-12,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Berlin,Germany,FALSE,,,,,
-,,,1979-10-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,5,1,win,Cologne,Germany,FALSE,,,,,
-,,,1979-11-21,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,3,1,win,Tbilisi,Soviet Union,FALSE,,,,,
-,,,1979-12-22,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,0,win,Gelsenkirchen,Germany,FALSE,,,,,
-,,,1980-02-27,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Malta,,,,TRUE,8,0,win,Bremen,Germany,FALSE,,,,,
-,,,1980-04-02,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Munich,Germany,FALSE,,,,,
-,,,1980-05-13,Friendly,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,3,1,win,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1980-06-11,UEFA Euro,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,0,win,Rome,Italy,TRUE,,,,,
-,,,1980-06-14,UEFA Euro,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,2,win,Naples,Italy,TRUE,,,,,
-,,,1980-06-17,UEFA Euro,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,0,draw,Turin,Italy,TRUE,,,,,
-,,,1980-06-22,UEFA Euro,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,1,win,Rome,Italy,TRUE,,,,,
-,,,1980-09-10,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,2,win,Bern,Switzerland,FALSE,,,,,
-,,,1980-10-11,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Eindhoven,Netherlands,FALSE,,,,,
-,,,1980-11-19,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,4,1,win,Hanover,Germany,FALSE,,,,,
-,,,1980-12-03,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,1,win,Sofia,Bulgaria,FALSE,,,,,
-,,,1981-01-01,Mundialito,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,2,loss,Montevideo,Uruguay,TRUE,,,,,
-,,,1981-01-07,Mundialito,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,4,loss,Montevideo,Uruguay,TRUE,,,,,
-,,,1981-04-01,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Albania,,,,FALSE,2,0,win,Tirana,Albania,FALSE,,,,,
-,,,1981-04-29,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,0,win,Hamburg,Germany,FALSE,,,,,
-,,,1981-05-19,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,Stuttgart,Germany,FALSE,,,,,
-,,,1981-05-24,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Finland,,,,FALSE,4,0,win,Lahti,Finland,FALSE,,,,,
-,,,1981-09-02,Friendly,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,FALSE,2,0,win,Chorzów,Poland,FALSE,,,,,
-,,,1981-09-23,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Finland,,,,TRUE,7,1,win,Bochum,Germany,FALSE,,,,,
-,,,1981-10-14,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,3,1,win,Vienna,Austria,FALSE,,,,,
-,,,1981-11-18,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Albania,,,,TRUE,8,0,win,Dortmund,Germany,FALSE,,,,,
-,,,1981-11-22,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,4,0,win,Düsseldorf,Germany,FALSE,,,,,
-,,,1982-02-17,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,3,1,win,Hanover,Germany,FALSE,,,,,
-,,,1982-03-21,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,,,,,
-,,,1982-03-24,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,,,,,
-,,,1982-04-14,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,1,win,Cologne,Germany,FALSE,,,,,
-,,,1982-05-12,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,4,2,win,Oslo,Norway,FALSE,,,,,
-WC-1982,WC-1982_008,8,1982-06-16,FIFA World Cup,played,Germany,GER,DEU,UEFA,Algeria,DZA,DZA,CAF,TRUE,1,2,loss,Gijón,Spain,TRUE,,,,,
-WC-1982,WC-1982_020,20,1982-06-20,FIFA World Cup,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,4,1,win,Gijón,Spain,TRUE,,,,,
-WC-1982,WC-1982_035,35,1982-06-25,FIFA World Cup,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Gijón,Spain,TRUE,,,,,
-WC-1982,WC-1982_039,39,1982-06-29,FIFA World Cup,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Madrid,Spain,TRUE,,,,,
-WC-1982,WC-1982_044,44,1982-07-02,FIFA World Cup,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,1,win,Madrid,Spain,FALSE,,,,,
-WC-1982,WC-1982_049,49,1982-07-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,3,3,draw,Seville,Spain,TRUE,,,,,
-WC-1982,WC-1982_052,52,1982-07-11,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,3,loss,Madrid,Spain,TRUE,,,,,
-,,,1982-09-22,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,0,draw,Munich,Germany,FALSE,,,,,
-,,,1982-10-13,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,London,England,FALSE,,,,,
-,,,1982-11-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,,,,,
-,,,1983-02-23,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Lisbon,Portugal,FALSE,,,,,
-,,,1983-03-30,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,FALSE,2,1,win,Tirana,Albania,FALSE,,,,,
-,,,1983-04-23,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,0,win,İzmir,Turkey,FALSE,,,,,
-,,,1983-04-27,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,0,draw,Vienna,Austria,FALSE,,,,,
-,,,1983-06-07,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,4,2,win,Luxembourg,Luxembourg,TRUE,,,,,
-,,,1983-09-07,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,,,,,
-,,,1983-10-05,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,3,0,win,Gelsenkirchen,Germany,FALSE,,,,,
-,,,1983-10-26,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,5,1,win,Berlin,Germany,FALSE,,,,,
-,,,1983-11-16,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,1,loss,Hamburg,Germany,FALSE,,,,,
-,,,1983-11-20,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,TRUE,2,1,win,Saarbrücken,Germany,FALSE,,,,,
-,,,1984-02-15,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,2,win,Varna,Bulgaria,FALSE,,,,,
-,,,1984-02-29,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,0,win,Brussels,Belgium,FALSE,,,,,
-,,,1984-03-28,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,1,win,Hanover,Germany,FALSE,,,,,
-,,,1984-04-18,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Strasbourg,France,FALSE,,,,,
-,,,1984-05-22,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,0,win,Zürich,Switzerland,TRUE,,,,,
-,,,1984-06-14,UEFA Euro,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,0,draw,Strasbourg,France,TRUE,,,,,
-,,,1984-06-17,UEFA Euro,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,1,win,Lens,France,TRUE,,,,,
-,,,1984-06-20,UEFA Euro,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,1,loss,Paris,France,TRUE,,,,,
-,,,1984-09-12,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,3,loss,Düsseldorf,Germany,FALSE,,,,,
-,,,1984-10-17,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,0,win,Cologne,Germany,FALSE,,,,,
-,,,1984-12-16,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Malta,,,,FALSE,3,2,win,Attard,Malta,FALSE,,,,,
-,,,1985-01-29,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,1,loss,Hamburg,Germany,FALSE,,,,,
-,,,1985-02-24,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,2,1,win,Oeiras,Portugal,FALSE,,,,,
-,,,1985-03-27,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Malta,,,,TRUE,6,0,win,Saarbrücken,Germany,FALSE,,,,,
-,,,1985-04-17,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,4,1,win,Augsburg,Germany,FALSE,,,,,
-,,,1985-04-30,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,5,1,win,Prague,Czechoslovakia,FALSE,,,,,
-,,,1985-06-12,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,0,3,loss,Mexico City,Mexico,TRUE,,,,,
-,,,1985-06-15,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Mexico City,Mexico,FALSE,,,,,
-,,,1985-08-28,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,1,loss,Moscow,Soviet Union,FALSE,,,,,
-,,,1985-09-25,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,2,draw,Solna,Sweden,FALSE,,,,,
-,,,1985-10-16,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,1,loss,Stuttgart,Germany,FALSE,,,,,
-,,,1985-11-17,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,2,draw,Munich,Germany,FALSE,,,,,
-,,,1986-02-05,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,1,win,Avellino,Italy,FALSE,,,,,
-,,,1986-03-12,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,2,0,win,Frankfurt am Main,Germany,FALSE,,,,,
-,,,1986-04-09,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Basel,Switzerland,FALSE,,,,,
-,,,1986-05-11,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Bochum,Germany,FALSE,,,,,
-,,,1986-05-14,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,1,win,Dortmund,Germany,FALSE,,,,,
-WC-1986,WC-1986_012,12,1986-06-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,1,1,draw,Querétaro,Mexico,TRUE,,,,,
-WC-1986,WC-1986_023,23,1986-06-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Querétaro,Mexico,TRUE,,,,,
-WC-1986,WC-1986_035,35,1986-06-13,FIFA World Cup,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,2,loss,Querétaro,Mexico,TRUE,,,,,
-WC-1986,WC-1986_042,42,1986-06-17,FIFA World Cup,played,Germany,GER,DEU,UEFA,Morocco,MAR,MAR,CAF,FALSE,1,0,win,Monterrey,Mexico,TRUE,,,,,
-WC-1986,WC-1986_046,46,1986-06-21,FIFA World Cup,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Monterrey,Mexico,FALSE,,,,,
-WC-1986,WC-1986_050,50,1986-06-25,FIFA World Cup,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,2,0,win,Guadalajara,Mexico,TRUE,,,,,
-WC-1986,WC-1986_052,52,1986-06-29,FIFA World Cup,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,2,3,loss,Mexico City,Mexico,TRUE,,,,,
-,,,1986-09-24,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,0,win,Copenhagen,Denmark,FALSE,,,,,
-,,,1986-10-15,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,2,draw,Hanover,Germany,FALSE,,,,,
-,,,1986-10-29,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,4,loss,Vienna,Austria,FALSE,,,,,
-,,,1987-03-25,Friendly,played,Germany,GER,DEU,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,0,win,Ramat Gan,Israel,FALSE,,,,,
-,,,1987-04-18,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Cologne,Germany,FALSE,,,,,
-,,,1987-08-12,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,2,1,win,Berlin,Germany,FALSE,,,,,
-,,,1987-09-09,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,3,1,win,Düsseldorf,Germany,FALSE,,,,,
-,,,1987-09-23,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Hamburg,Germany,FALSE,,,,,
-,,,1987-10-14,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Gelsenkirchen,Germany,FALSE,,,,,
-,,,1987-11-18,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,0,draw,Budapest,Hungary,FALSE,,,,,
-,,,1987-12-12,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,Brasília,Brazil,FALSE,,,,,
-,,,1987-12-16,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,,,,,
-,,,1988-03-31,Four Nations Tournament,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Berlin,Germany,FALSE,,,,,
-,,,1988-04-02,Four Nations Tournament,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,0,win,Berlin,Germany,FALSE,,,,,
-,,,1988-04-27,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Kaiserslautern,Germany,FALSE,,,,,
-,,,1988-06-04,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Bremen,Germany,FALSE,,,,,
-,,,1988-06-10,UEFA Euro,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Düsseldorf,Germany,FALSE,,,,,
-,,,1988-06-14,UEFA Euro,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,0,win,Gelsenkirchen,Germany,FALSE,,,,,
-,,,1988-06-17,UEFA Euro,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,0,win,Munich,Germany,FALSE,,,,,
-,,,1988-06-21,UEFA Euro,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Hamburg,Germany,FALSE,,,,,
-,,,1988-08-31,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Finland,,,,FALSE,4,0,win,Helsinki,Finland,FALSE,,,,,
-,,,1988-09-21,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,Düsseldorf,Germany,FALSE,,,,,
-,,,1988-10-19,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Munich,Germany,FALSE,,,,,
-,,,1989-03-22,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,1,win,Sofia,Bulgaria,FALSE,,,,,
-,,,1989-04-26,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Rotterdam,Netherlands,FALSE,,,,,
-,,,1989-05-31,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,,,,,
-,,,1989-09-06,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
-,,,1989-10-04,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Finland,,,,TRUE,6,1,win,Dortmund,Germany,FALSE,,,,,
-,,,1989-11-15,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,1,win,Cologne,Germany,FALSE,,,,,
-,,,1990-02-28,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Montpellier,France,FALSE,,,,,
-,,,1990-04-25,Friendly,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,3,3,draw,Stuttgart,Germany,FALSE,,,,,
-,,,1990-05-26,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,Düsseldorf,Germany,FALSE,,,,,
-,,,1990-05-30,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Gelsenkirchen,Germany,FALSE,,,,,
-WC-1990,WC-1990_006,6,1990-06-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,4,1,win,Milan,Italy,TRUE,,,,,
-WC-1990,WC-1990_018,18,1990-06-15,FIFA World Cup,played,Germany,GER,DEU,UEFA,United Arab Emirates,ARE,ARE,AFC,TRUE,5,1,win,Milan,Italy,TRUE,,,,,
-WC-1990,WC-1990_028,28,1990-06-19,FIFA World Cup,played,Germany,GER,DEU,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,1,1,draw,Milan,Italy,TRUE,,,,,
-WC-1990,WC-1990_040,40,1990-06-24,FIFA World Cup,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,1,win,Milan,Italy,TRUE,,,,,
-WC-1990,WC-1990_048,48,1990-07-01,FIFA World Cup,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,Milan,Italy,TRUE,,,,,
-WC-1990,WC-1990_050,50,1990-07-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Turin,Italy,TRUE,,,,,
-WC-1990,WC-1990_052,52,1990-07-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,0,win,Rome,Italy,TRUE,,,,,
-,,,1990-08-29,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,1,draw,Lisbon,Portugal,FALSE,,,,,
+,,,1956-06-13,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,3,1,win,Oslo,Norway,FALSE,1950,1612,1956,1606,6
+,,,1956-06-30,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,2,draw,Solna,Sweden,FALSE,1956,1813,1955,1814,-1
+,,,1956-09-15,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,2,loss,Hanover,Germany,FALSE,1955,1804,1939,1820,-16
+,,,1956-11-21,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,3,loss,Frankfurt am Main,Germany,FALSE,1939,1648,1912,1675,-27
+,,,1956-11-25,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,1912,1696,1889,1719,-23
+,,,1956-12-23,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,4,1,win,Cologne,Germany,FALSE,1889,1683,1894,1678,5
+,,,1957-03-10,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,3,2,win,Vienna,Austria,FALSE,1894,1893,1907,1880,13
+,,,1957-04-03,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,1,win,Amsterdam,Netherlands,FALSE,1907,1655,1913,1649,6
+,,,1957-05-22,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,3,loss,Stuttgart,Germany,FALSE,1913,1876,1892,1897,-21
+,,,1957-11-20,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,0,win,Hamburg,Germany,FALSE,1892,1804,1897,1799,5
+,,,1957-12-22,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,0,win,Hanover,Germany,FALSE,1897,2092,1910,2079,13
+,,,1958-03-02,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,0,win,Brussels,Belgium,FALSE,1910,1682,1920,1672,10
+,,,1958-03-19,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,0,win,Frankfurt am Main,Germany,FALSE,1920,1875,1929,1866,9
+,,,1958-04-02,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,3,loss,Prague,Czechoslovakia,FALSE,1934,1885,1925,1894,-9
+WC-1958,WC-1958_001,1,1958-06-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,3,1,win,Malmö,Sweden,TRUE,1925,2044,1985,1984,60
+WC-1958,WC-1958_012,12,1958-06-11,FIFA World Cup,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,2,draw,Helsingborg,Sweden,TRUE,1985,1851,1974,1862,-11
+WC-1958,WC-1958_021,21,1958-06-15,FIFA World Cup,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,2,draw,Malmö,Sweden,TRUE,1974,1760,1958,1776,-16
+WC-1958,WC-1958_030,30,1958-06-19,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,0,win,Malmö,Sweden,TRUE,1958,1920,1985,1893,27
+WC-1958,WC-1958_033,33,1958-06-24,FIFA World Cup,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Gothenburg,Sweden,FALSE,1985,1902,1942,1945,-43
+WC-1958,WC-1958_034,34,1958-06-28,FIFA World Cup,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,3,6,loss,Gothenburg,Sweden,TRUE,1942,1893,1882,1953,-60
+,,,1958-09-24,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,1,1,draw,Copenhagen,Denmark,FALSE,1882,1582,1877,1587,-5
+,,,1958-10-26,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,2,2,draw,Colombes,France,FALSE,1877,1965,1882,1960,5
+,,,1958-11-19,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,2,draw,Berlin,Germany,FALSE,1882,1818,1878,1822,-4
+,,,1958-12-21,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,0,win,Augsburg,Germany,FALSE,1878,1704,1884,1698,6
+,,,1958-12-28,Friendly,played,Germany,GER,DEU,UEFA,Egypt,EGY,EGY,CAF,FALSE,1,2,loss,Cairo,United Arab Republic,TRUE,1884,1616,1870,1630,-14
+,,,1959-05-06,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,3,loss,Glasgow,Scotland,FALSE,1870,1801,1861,1810,-9
+,,,1959-05-20,Friendly,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Hamburg,Germany,FALSE,1861,1585,1853,1593,-8
+,,,1959-10-04,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,4,0,win,Bern,Switzerland,FALSE,1853,1589,1864,1578,11
+,,,1959-10-21,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,7,0,win,Cologne,Germany,FALSE,1864,1724,1873,1715,9
+,,,1959-11-08,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,3,4,loss,Budapest,Hungary,FALSE,1873,1988,1869,1992,-4
+,,,1959-12-20,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Hanover,Germany,FALSE,1869,1888,1867,1890,-2
+,,,1960-03-23,Friendly,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,2,1,win,Stuttgart,Germany,FALSE,1867,1727,1871,1723,4
+,,,1960-04-27,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,2,1,win,Ludwigshafen,Germany,FALSE,1871,1696,1874,1693,3
+,,,1960-05-11,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,1,loss,Düsseldorf,Germany,FALSE,1874,1768,1859,1783,-15
+,,,1960-08-03,Friendly,played,Germany,GER,DEU,UEFA,Iceland,ISL,ISL,UEFA,FALSE,5,0,win,Reykjavík,Iceland,FALSE,1859,1304,1862,1301,3
+,,,1960-10-26,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,4,3,win,Belfast,Northern Ireland,FALSE,1862,1703,1879,1686,17
+,,,1960-11-20,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,0,win,Athens,Greece,FALSE,1879,1473,1889,1463,10
+,,,1960-11-23,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,2,loss,Sofia,Bulgaria,FALSE,1889,1763,1878,1774,-11
+,,,1961-03-08,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,1,0,win,Frankfurt am Main,Germany,FALSE,1878,1599,1880,1597,2
+,,,1961-03-26,Friendly,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,1,3,loss,Santiago,Chile,FALSE,1880,1716,1862,1734,-18
+,,,1961-05-10,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,2,1,win,Berlin,Germany,FALSE,1862,1606,1867,1601,5
+,,,1961-09-20,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,5,1,win,Düsseldorf,Germany,FALSE,1867,1701,1874,1694,7
+,,,1961-10-08,Friendly,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,FALSE,2,0,win,Warsaw,Poland,FALSE,1874,1671,1885,1660,11
+,,,1961-10-22,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,1,win,Augsburg,Germany,FALSE,1885,1472,1887,1470,2
+,,,1962-04-11,Friendly,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,3,0,win,Hamburg,Germany,FALSE,1887,1921,1901,1907,14
+WC-1962,WC-1962_007,7,1962-05-31,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Santiago,Chile,TRUE,1901,1892,1900,1893,-1
+WC-1962,WC-1962_015,15,1962-06-03,FIFA World Cup,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,2,1,win,Santiago,Chile,TRUE,1900,1678,1913,1665,13
+WC-1962,WC-1962_019,19,1962-06-06,FIFA World Cup,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,2,0,win,Santiago,Chile,FALSE,1913,1817,1959,1771,46
+WC-1962,WC-1962_028,28,1962-06-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Santiago,Chile,TRUE,1959,1991,1932,2018,-27
+,,,1962-09-30,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,3,2,win,Zagreb,Yugoslavia,FALSE,1932,1927,1945,1914,13
+,,,1962-10-24,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,2,2,draw,Stuttgart,Germany,FALSE,1945,1768,1938,1775,-7
+,,,1962-12-23,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,5,1,win,Karlsruhe,Germany,FALSE,1938,1619,1941,1616,3
+,,,1963-05-05,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,Hamburg,Germany,FALSE,1941,1936,1928,1949,-13
+,,,1963-09-28,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,3,0,win,Frankfurt am Main,Germany,FALSE,1928,1702,1933,1697,5
+,,,1963-11-03,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,2,loss,Solna,Sweden,FALSE,1933,1896,1925,1904,-8
+,,,1963-12-29,Friendly,played,Germany,GER,DEU,UEFA,Morocco,MAR,MAR,CAF,FALSE,4,1,win,Casablanca,Morocco,FALSE,1925,1650,1934,1641,9
+,,,1964-01-01,Friendly,played,Germany,GER,DEU,UEFA,Algeria,DZA,DZA,CAF,FALSE,0,2,loss,Algiers,Algeria,FALSE,1934,1755,1916,1773,-18
+,,,1964-04-29,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,4,loss,Ludwigshafen,Germany,FALSE,1916,1897,1903,1910,-13
+,,,1964-05-12,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,2,draw,Hanover,Germany,FALSE,1903,1928,1901,1930,-2
+,,,1964-06-07,Friendly,played,Germany,GER,DEU,UEFA,Finland,,,,FALSE,4,1,win,Helsinki,Finland,FALSE,1901,1321,1903,1319,2
+,,,1964-11-04,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Berlin,Germany,FALSE,1903,1857,1895,1865,-8
+,,,1965-03-13,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Hamburg,Germany,FALSE,1895,1934,1893,1936,-2
+,,,1965-04-24,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,TRUE,5,0,win,Karlsruhe,Germany,FALSE,1893,1414,1896,1411,3
+,,,1965-05-12,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,0,1,loss,Nuremberg,Germany,FALSE,1896,1922,1884,1934,-12
+,,,1965-05-26,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Basel,Switzerland,FALSE,1884,1618,1890,1612,6
+,,,1965-06-06,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,2,loss,Rio de Janeiro,Brazil,FALSE,1890,1946,1881,1955,-9
+,,,1965-09-26,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,1,win,Solna,Sweden,FALSE,1881,1813,1903,1791,22
+,,,1965-10-09,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,4,1,win,Stuttgart,Germany,FALSE,1903,1787,1911,1779,8
+,,,1965-11-14,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,FALSE,6,0,win,Nicosia,Cyprus,FALSE,1911,1394,1918,1387,7
+,,,1966-02-23,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1918,1939,1911,1946,-7
+,,,1966-03-23,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,4,2,win,Rotterdam,Netherlands,FALSE,1911,1648,1919,1640,8
+,,,1966-05-04,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,4,0,win,Dublin,Republic of Ireland,FALSE,1928,1665,1939,1654,11
+,,,1966-05-07,Friendly,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,2,0,win,Belfast,Northern Ireland,FALSE,1939,1714,1949,1704,10
+,,,1966-06-01,Friendly,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,0,win,Ludwigshafen,Germany,FALSE,1949,1870,1954,1865,5
+,,,1966-06-23,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Hanover,Germany,FALSE,1954,1797,1960,1791,6
+WC-1966,WC-1966_003,3,1966-07-12,FIFA World Cup,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,5,0,win,Sheffield,England,TRUE,1960,1657,1978,1639,18
+WC-1966,WC-1966_013,13,1966-07-16,FIFA World Cup,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,0,draw,Birmingham,England,TRUE,1978,1996,1980,1994,2
+WC-1966,WC-1966_024,24,1966-07-20,FIFA World Cup,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,1,win,Birmingham,England,TRUE,1980,1884,2002,1862,22
+WC-1966,WC-1966_026,26,1966-07-23,FIFA World Cup,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,4,0,win,Sheffield,England,TRUE,2002,1884,2040,1846,38
+WC-1966,WC-1966_029,29,1966-07-25,FIFA World Cup,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,1,win,Liverpool,England,TRUE,2040,2085,2074,2051,34
+WC-1966,WC-1966_032,32,1966-07-30,FIFA World Cup,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,2,4,loss,London,England,FALSE,2074,2046,2038,2082,-36
+,,,1966-10-12,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,2,0,win,Ankara,Turkey,FALSE,2038,1630,2042,1626,4
+,,,1966-11-19,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,TRUE,3,0,win,Cologne,Germany,FALSE,2042,1541,2043,1540,1
+,,,1967-02-22,Friendly,played,Germany,GER,DEU,UEFA,Morocco,MAR,MAR,CAF,TRUE,5,1,win,Karlsruhe,Germany,FALSE,2043,1655,2045,1653,2
+,,,1967-03-22,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Hanover,Germany,FALSE,2045,1754,2047,1752,2
+,,,1967-04-08,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,TRUE,6,0,win,Dortmund,Germany,FALSE,2047,1467,2049,1465,2
+,,,1967-05-03,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,1,loss,Belgrade,Yugoslavia,FALSE,2049,1783,2020,1812,-29
+,,,1967-09-27,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,5,1,win,Berlin,Germany,FALSE,2020,1762,2024,1758,4
+,,,1967-10-07,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,3,1,win,Hamburg,Germany,FALSE,2024,1824,2033,1815,9
+,,,1967-11-22,Friendly,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,FALSE,0,1,loss,Bucharest,Romania,FALSE,2033,1784,2019,1798,-14
+,,,1967-12-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,FALSE,0,0,draw,Tirana,Albania,FALSE,2019,1448,2001,1466,-18
+,,,1968-03-06,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,3,1,win,Brussels,Belgium,FALSE,2001,1727,2009,1719,8
+,,,1968-04-17,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,0,0,draw,Basel,Switzerland,FALSE,2009,1642,2003,1648,-6
+,,,1968-05-08,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,1,draw,Cardiff,Wales,FALSE,2003,1703,1998,1708,-5
+,,,1968-06-01,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,1,0,win,Hanover,Germany,FALSE,1998,2089,2008,2079,10
+,,,1968-06-16,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,2,1,win,Stuttgart,Germany,FALSE,2008,1964,2014,1958,6
+,,,1968-09-25,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,1,1,draw,Marseille,France,FALSE,2014,1732,2009,1737,-5
+,,,1968-10-13,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,0,win,Vienna,Austria,FALSE,2009,1695,2023,1681,14
+,,,1968-11-23,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,FALSE,1,0,win,Nicosia,Cyprus,FALSE,2023,1387,2025,1385,2
+,,,1968-12-14,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,2,2,draw,Rio de Janeiro,Brazil,FALSE,2025,2000,2027,1998,2
+,,,1968-12-18,Friendly,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,1,2,loss,Santiago,Chile,FALSE,2027,1777,2013,1791,-14
+,,,1968-12-22,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Mexico City,Mexico,FALSE,2013,1860,2011,1862,-2
+,,,1969-03-26,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,1,draw,Frankfurt am Main,Germany,FALSE,2011,1697,2003,1705,-8
+,,,1969-04-16,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,2003,1867,2001,1869,-2
+,,,1969-05-10,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Nuremberg,Germany,FALSE,2001,1697,2005,1693,4
+,,,1969-05-21,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,TRUE,12,0,win,Essen,Germany,FALSE,2005,1364,2007,1362,2
+,,,1969-09-21,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,1,draw,Vienna,Austria,FALSE,2007,1693,2002,1698,-5
+,,,1969-09-24,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,0,win,Sofia,Bulgaria,FALSE,2002,1911,2012,1901,10
+,,,1969-10-22,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,3,2,win,Hamburg,Germany,FALSE,2012,1869,2020,1861,8
+,,,1970-02-11,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,2,loss,Seville,Spain,FALSE,2020,1811,2000,1831,-20
+,,,1970-04-08,Friendly,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,TRUE,1,1,draw,Stuttgart,Germany,FALSE,2000,1792,1993,1799,-7
+,,,1970-05-09,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,2,1,win,Berlin,Germany,FALSE,1993,1602,1994,1601,1
+,,,1970-05-13,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,0,win,Hanover,Germany,FALSE,1994,1833,1998,1829,4
+WC-1970,WC-1970_007,7,1970-06-03,FIFA World Cup,played,Germany,GER,DEU,UEFA,Morocco,MAR,MAR,CAF,TRUE,2,1,win,León,Mexico,TRUE,1998,1670,2006,1662,8
+WC-1970,WC-1970_014,14,1970-06-07,FIFA World Cup,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,5,2,win,León,Mexico,TRUE,2006,1782,2029,1759,23
+WC-1970,WC-1970_019,19,1970-06-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Peru,PER,PER,CONMEBOL,TRUE,3,1,win,León,Mexico,TRUE,2029,1775,2046,1758,17
+WC-1970,WC-1970_026,26,1970-06-14,FIFA World Cup,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,3,2,win,León,Mexico,TRUE,2046,2064,2078,2032,32
+WC-1970,WC-1970_030,30,1970-06-17,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,3,4,loss,Mexico City,Mexico,TRUE,2078,2023,2043,2058,-35
+WC-1970,WC-1970_031,31,1970-06-20,FIFA World Cup,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Mexico City,Mexico,TRUE,2043,1882,2060,1865,17
+,,,1970-09-09,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,3,1,win,Nuremberg,Germany,FALSE,2060,1921,2066,1915,6
+,,,1970-10-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,1,1,draw,Cologne,Germany,FALSE,2066,1621,2048,1639,-18
+,,,1970-11-18,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,0,2,loss,Zagreb,Yugoslavia,FALSE,2048,1834,2028,1854,-20
+,,,1970-11-22,Friendly,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,FALSE,3,1,win,Piraeus,Greece,FALSE,2028,1678,2034,1672,6
+,,,1971-02-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,FALSE,1,0,win,Tirana,Albania,FALSE,2034,1454,2036,1452,2
+,,,1971-04-25,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,0,win,Istanbul,Turkey,FALSE,2036,1646,2047,1635,11
+,,,1971-06-12,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,TRUE,2,0,win,Karlsruhe,Germany,FALSE,2047,1454,2048,1453,1
+,,,1971-06-22,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,7,1,win,Oslo,Norway,FALSE,2048,1522,2051,1519,3
+,,,1971-06-27,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,0,1,loss,Gothenburg,Sweden,FALSE,2051,1865,2039,1877,-12
+,,,1971-06-30,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,3,1,win,Copenhagen,Denmark,FALSE,2039,1570,2042,1567,3
+,,,1971-09-08,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,5,0,win,Hanover,Germany,FALSE,2042,1699,2045,1696,3
+,,,1971-10-10,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,FALSE,3,1,win,Warsaw,Poland,FALSE,2045,1830,2065,1810,20
+,,,1971-11-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Hamburg,Germany,FALSE,2065,1810,2050,1825,-15
+,,,1972-03-29,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,2,0,win,Budapest,Hungary,FALSE,2050,1941,2065,1926,15
+,,,1972-04-29,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,3,1,win,London,England,FALSE,2065,2042,2102,2005,37
+,,,1972-05-13,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Berlin,Germany,FALSE,2102,2005,2092,2015,-10
+,,,1972-05-26,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,4,1,win,Munich,Germany,FALSE,2092,1974,2100,1966,8
+,,,1972-06-14,UEFA Euro,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,1,win,Antwerp,Belgium,FALSE,2100,1849,2115,1834,15
+,,,1972-06-18,UEFA Euro,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,3,0,win,Brussels,Belgium,TRUE,2115,1992,2144,1963,29
+,,,1972-11-15,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,5,1,win,Düsseldorf,Germany,FALSE,2144,1732,2146,1730,2
+,,,1973-02-14,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,3,loss,Munich,Germany,FALSE,2146,1864,2128,1882,-18
+,,,1973-03-28,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,3,0,win,Düsseldorf,Germany,FALSE,2128,1827,2131,1824,3
+,,,1973-05-09,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,1,loss,Munich,Germany,FALSE,2131,1925,2114,1942,-17
+,,,1973-05-12,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,3,0,win,Hamburg,Germany,FALSE,2114,1832,2117,1829,3
+,,,1973-06-16,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Berlin,Germany,FALSE,2117,2124,2104,2137,-13
+,,,1973-09-05,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,1,0,win,Moscow,Soviet Union,FALSE,2104,1916,2112,1908,8
+,,,1973-10-10,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,4,0,win,Hanover,Germany,FALSE,2112,1822,2116,1818,4
+,,,1973-10-13,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,2,1,win,Gelsenkirchen,Germany,FALSE,2116,1763,2117,1762,1
+,,,1973-11-14,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,2117,1800,2111,1806,-6
+,,,1973-11-24,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,1,win,Stuttgart,Germany,FALSE,2111,1892,2114,1889,3
+,,,1974-02-23,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,1,loss,Barcelona,Spain,FALSE,2114,1872,2100,1886,-14
+,,,1974-02-26,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,0,0,draw,Rome,Italy,FALSE,2100,2006,2100,2006,0
+,,,1974-03-27,Friendly,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Frankfurt am Main,Germany,FALSE,2100,1806,2102,1804,2
+,,,1974-04-17,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,5,0,win,Dortmund,Germany,FALSE,2102,1904,2108,1898,6
+,,,1974-05-01,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,0,win,Hamburg,Germany,FALSE,2108,1885,2112,1881,4
+WC-1974,WC-1974_004,4,1974-06-14,FIFA World Cup,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,1,0,win,Berlin,Germany,FALSE,2112,1776,2117,1771,5
+WC-1974,WC-1974_010,10,1974-06-18,FIFA World Cup,played,Germany,GER,DEU,UEFA,Australia,AUS,AUS,AFC,TRUE,3,0,win,Hamburg,Germany,FALSE,2117,1670,2121,1666,4
+WC-1974,WC-1974_019,19,1974-06-22,FIFA World Cup,played,Germany,GER,DEU,UEFA,German DR,DDR,DDR,UEFA,TRUE,0,1,loss,Hamburg,Germany,FALSE,2121,1941,2071,1991,-50
+WC-1974,WC-1974_026,26,1974-06-26,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,2,0,win,Düsseldorf,Germany,FALSE,2071,1976,2093,1954,22
+WC-1974,WC-1974_031,31,1974-06-30,FIFA World Cup,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,4,2,win,Düsseldorf,Germany,FALSE,2093,1893,2107,1879,14
+WC-1974,WC-1974_034,34,1974-07-03,FIFA World Cup,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,1,0,win,Frankfurt am Main,Germany,FALSE,2107,2069,2126,2050,19
+WC-1974,WC-1974_038,38,1974-07-07,FIFA World Cup,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,1,win,Munich,Germany,FALSE,2126,2077,2144,2059,18
+,,,1974-09-04,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,2,1,win,Basel,Switzerland,FALSE,2144,1700,2146,1698,2
+,,,1974-11-20,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,FALSE,2,2,draw,Piraeus,Greece,FALSE,2146,1597,2129,1614,-17
+,,,1974-12-22,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Malta,,,,FALSE,1,0,win,Gżira,Malta,FALSE,2129,1375,2130,1374,1
+,,,1975-03-12,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,0,2,loss,London,England,FALSE,2130,1974,2113,1991,-17
+,,,1975-04-27,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,1,1,draw,Sofia,Bulgaria,FALSE,2113,1749,2100,1762,-13
+,,,1975-05-17,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,1,draw,Frankfurt am Main,Germany,FALSE,2100,2079,2097,2082,-3
+,,,1975-09-03,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,0,win,Vienna,Austria,FALSE,2097,1838,2106,1829,9
+,,,1975-10-11,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,TRUE,1,1,draw,Düsseldorf,Germany,FALSE,2106,1619,2087,1638,-19
+,,,1975-11-19,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,1,0,win,Stuttgart,Germany,FALSE,2087,1787,2091,1783,4
+,,,1975-12-20,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,5,0,win,Istanbul,Turkey,FALSE,2091,1672,2096,1667,5
+,,,1976-02-28,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Malta,,,,TRUE,8,0,win,Dortmund,Germany,FALSE,2096,1390,2097,1389,1
+,,,1976-04-24,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,1,draw,Madrid,Spain,FALSE,2097,1914,2092,1919,-5
+,,,1976-05-22,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,0,win,Munich,Germany,FALSE,2092,1919,2102,1909,10
+,,,1976-06-17,UEFA Euro,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,4,2,win,Belgrade,Yugoslavia,FALSE,2102,1947,2134,1915,32
+,,,1976-06-20,UEFA Euro,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,2,draw,Belgrade,Yugoslavia,TRUE,2134,1978,2123,1989,-11
+,,,1976-10-06,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,0,win,Cardiff,Wales,FALSE,2123,1743,2128,1738,5
+,,,1976-11-17,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,0,win,Hanover,Germany,FALSE,2128,2009,2135,2002,7
+,,,1977-02-23,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Paris,France,FALSE,2135,1818,2119,1834,-16
+,,,1977-04-27,Friendly,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,5,0,win,Cologne,Germany,FALSE,2119,1747,2121,1745,2
+,,,1977-04-30,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,FALSE,2,1,win,Belgrade,Yugoslavia,FALSE,2121,1842,2126,1837,5
+,,,1977-06-05,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,3,1,win,Buenos Aires,Argentina,FALSE,2126,1936,2137,1925,11
+,,,1977-06-08,Friendly,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,2,0,win,Montevideo,Uruguay,FALSE,2137,1655,2140,1652,3
+,,,1977-06-12,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,Rio de Janeiro,Brazil,FALSE,2140,2061,2141,2060,1
+,,,1977-06-14,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,2,2,draw,Mexico City,Mexico,FALSE,2141,1731,2134,1738,-7
+,,,1977-09-07,Friendly,played,Germany,GER,DEU,UEFA,Finland,,,,FALSE,1,0,win,Helsinki,Finland,FALSE,2134,1459,2135,1458,1
+,,,1977-10-08,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,1,win,Berlin,Germany,FALSE,2135,1975,2139,1971,4
+,,,1977-11-16,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,1,win,Stuttgart,Germany,FALSE,2139,1620,2140,1619,1
+,,,1977-12-14,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,1,draw,Dortmund,Germany,FALSE,2140,1786,2131,1795,-9
+,,,1978-02-22,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,2,1,win,Munich,Germany,FALSE,2131,1930,2134,1927,3
+,,,1978-03-08,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,Frankfurt am Main,Germany,FALSE,2134,1911,2137,1908,3
+,,,1978-04-05,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,0,1,loss,Hamburg,Germany,FALSE,2137,2058,2122,2073,-15
+,,,1978-04-19,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,1,3,loss,Solna,Sweden,FALSE,2122,1768,2098,1792,-24
+WC-1978,WC-1978_001,1,1978-06-01,FIFA World Cup,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,0,0,draw,Buenos Aires,Argentina,TRUE,2098,1928,2084,1942,-14
+WC-1978,WC-1978_010,10,1978-06-06,FIFA World Cup,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,6,0,win,Córdoba,Argentina,TRUE,2084,1736,2099,1721,15
+WC-1978,WC-1978_019,19,1978-06-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Tunisia,TUN,TUN,CAF,TRUE,0,0,draw,Córdoba,Argentina,TRUE,2099,1709,2075,1733,-24
+WC-1978,WC-1978_028,28,1978-06-14,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Buenos Aires,Argentina,TRUE,2075,2034,2071,2038,-4
+WC-1978,WC-1978_031,31,1978-06-18,FIFA World Cup,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,2,draw,Córdoba,Argentina,TRUE,2071,2077,2072,2076,1
+WC-1978,WC-1978_034,34,1978-06-21,FIFA World Cup,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,3,loss,Córdoba,Argentina,TRUE,2072,1851,2025,1898,-47
+,,,1978-10-11,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,4,3,win,Prague,Czechoslovakia,FALSE,2025,1902,2034,1893,9
+,,,1978-11-15,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,0,draw,Frankfurt am Main,Germany,FALSE,2034,1770,2026,1778,-8
+,,,1978-12-20,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,1,win,Düsseldorf,Germany,FALSE,2026,2082,2039,2069,13
+,,,1979-02-25,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Malta,,,,FALSE,0,0,draw,Gżira,Malta,FALSE,2039,1353,2020,1372,-19
+,,,1979-04-01,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,0,draw,İzmir,Turkey,FALSE,2020,1626,2006,1640,-14
+,,,1979-05-02,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,0,win,Wrexham,Wales,FALSE,2006,1817,2028,1795,22
+,,,1979-05-22,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,3,1,win,Dublin,Republic of Ireland,FALSE,2028,1723,2035,1716,7
+,,,1979-05-26,Friendly,played,Germany,GER,DEU,UEFA,Iceland,ISL,ISL,UEFA,FALSE,3,1,win,Reykjavík,Iceland,FALSE,2035,1387,2036,1386,1
+,,,1979-09-12,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,1,win,Berlin,Germany,FALSE,2036,1999,2042,1993,6
+,,,1979-10-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,5,1,win,Cologne,Germany,FALSE,2042,1854,2054,1842,12
+,,,1979-11-21,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,3,1,win,Tbilisi,Soviet Union,FALSE,2054,1892,2066,1880,12
+,,,1979-12-22,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,0,win,Gelsenkirchen,Germany,FALSE,2066,1675,2069,1672,3
+,,,1980-02-27,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Malta,,,,TRUE,8,0,win,Bremen,Germany,FALSE,2069,1348,2070,1347,1
+,,,1980-04-02,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Munich,Germany,FALSE,2070,1937,2074,1933,4
+,,,1980-05-13,Friendly,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,3,1,win,Frankfurt am Main,Germany,FALSE,2074,1918,2080,1912,6
+,,,1980-06-11,UEFA Euro,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,0,win,Rome,Italy,TRUE,2080,1912,2094,1898,14
+,,,1980-06-14,UEFA Euro,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,2,win,Naples,Italy,TRUE,2094,2037,2115,2016,21
+,,,1980-06-17,UEFA Euro,played,Germany,GER,DEU,UEFA,Greece,GRC,GRC,UEFA,FALSE,0,0,draw,Turin,Italy,TRUE,2115,1652,2093,1674,-22
+,,,1980-06-22,UEFA Euro,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,2,1,win,Rome,Italy,TRUE,2093,1955,2109,1939,16
+,,,1980-09-10,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,3,2,win,Bern,Switzerland,FALSE,2109,1622,2111,1620,2
+,,,1980-10-11,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Eindhoven,Netherlands,FALSE,2111,1979,2110,1980,-1
+,,,1980-11-19,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,4,1,win,Hanover,Germany,FALSE,2110,1935,2116,1929,6
+,,,1980-12-03,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,1,win,Sofia,Bulgaria,FALSE,2116,1685,2124,1677,8
+,,,1981-01-01,Mundialito,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,2,loss,Montevideo,Uruguay,TRUE,2124,2001,2097,2028,-27
+,,,1981-01-07,Mundialito,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,4,loss,Montevideo,Uruguay,TRUE,2097,2044,2057,2084,-40
+,,,1981-04-01,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Albania,,,,FALSE,2,0,win,Tirana,Albania,FALSE,2057,1479,2061,1475,4
+,,,1981-04-29,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,2,0,win,Hamburg,Germany,FALSE,2061,1932,2074,1919,13
+,,,1981-05-19,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,1,2,loss,Stuttgart,Germany,FALSE,2074,2079,2061,2092,-13
+,,,1981-05-24,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Finland,,,,FALSE,4,0,win,Lahti,Finland,FALSE,2061,1439,2065,1435,4
+,,,1981-09-02,Friendly,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,FALSE,2,0,win,Chorzów,Poland,FALSE,2065,1964,2080,1949,15
+,,,1981-09-23,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Finland,,,,TRUE,7,1,win,Bochum,Germany,FALSE,2080,1458,2081,1457,1
+,,,1981-10-14,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,3,1,win,Vienna,Austria,FALSE,2081,1926,2106,1901,25
+,,,1981-11-18,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Albania,,,,TRUE,8,0,win,Dortmund,Germany,FALSE,2106,1442,2107,1441,1
+,,,1981-11-22,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,4,0,win,Düsseldorf,Germany,FALSE,2107,1744,2112,1739,5
+,,,1982-02-17,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,3,1,win,Hanover,Germany,FALSE,2112,1757,2114,1755,2
+,,,1982-03-21,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,0,1,loss,Rio de Janeiro,Brazil,FALSE,2114,2089,2106,2097,-8
+,,,1982-03-24,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,1,draw,Buenos Aires,Argentina,FALSE,2106,2003,2106,2003,0
+,,,1982-04-14,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,1,win,Cologne,Germany,FALSE,2106,1906,2109,1903,3
+,,,1982-05-12,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,FALSE,4,2,win,Oslo,Norway,FALSE,2109,1514,2111,1512,2
+WC-1982,WC-1982_008,8,1982-06-16,FIFA World Cup,played,Germany,GER,DEU,UEFA,Algeria,DZA,DZA,CAF,TRUE,1,2,loss,Gijón,Spain,TRUE,2111,1640,2055,1696,-56
+WC-1982,WC-1982_020,20,1982-06-20,FIFA World Cup,played,Germany,GER,DEU,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,4,1,win,Gijón,Spain,TRUE,2055,1753,2071,1737,16
+WC-1982,WC-1982_035,35,1982-06-25,FIFA World Cup,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,0,win,Gijón,Spain,TRUE,2071,1956,2091,1936,20
+WC-1982,WC-1982_039,39,1982-06-29,FIFA World Cup,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,0,0,draw,Madrid,Spain,TRUE,2091,2033,2086,2038,-5
+WC-1982,WC-1982_044,44,1982-07-02,FIFA World Cup,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,2,1,win,Madrid,Spain,FALSE,2086,1844,2104,1826,18
+WC-1982,WC-1982_049,49,1982-07-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,3,3,draw,Seville,Spain,TRUE,2104,1942,2091,1955,-13
+WC-1982,WC-1982_052,52,1982-07-11,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,3,loss,Madrid,Spain,TRUE,2091,2012,2036,2067,-55
+,,,1982-09-22,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,TRUE,0,0,draw,Munich,Germany,FALSE,2036,1874,2030,1880,-6
+,,,1982-10-13,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,London,England,FALSE,2030,2019,2043,2006,13
+,,,1982-11-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,FALSE,0,1,loss,Belfast,Northern Ireland,FALSE,2043,1751,2013,1781,-30
+,,,1983-02-23,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,0,1,loss,Lisbon,Portugal,FALSE,2013,1772,1999,1786,-14
+,,,1983-03-30,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,FALSE,2,1,win,Tirana,Albania,FALSE,1999,1440,2002,1437,3
+,,,1983-04-23,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,3,0,win,İzmir,Turkey,FALSE,2002,1522,2009,1515,7
+,,,1983-04-27,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,0,draw,Vienna,Austria,FALSE,2009,1912,2009,1912,0
+,,,1983-06-07,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,4,2,win,Luxembourg,Luxembourg,TRUE,2009,1868,2018,1859,9
+,,,1983-09-07,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,1,1,draw,Budapest,Hungary,FALSE,2018,1754,2014,1758,-4
+,,,1983-10-05,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,3,0,win,Gelsenkirchen,Germany,FALSE,2014,1882,2029,1867,15
+,,,1983-10-26,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,TRUE,5,1,win,Berlin,Germany,FALSE,2029,1546,2032,1543,3
+,,,1983-11-16,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Northern Ireland,NIR,NIR,UEFA,TRUE,0,1,loss,Hamburg,Germany,FALSE,2032,1772,1996,1808,-36
+,,,1983-11-20,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Albania,,,,TRUE,2,1,win,Saarbrücken,Germany,FALSE,1996,1429,1997,1428,1
+,,,1984-02-15,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,3,2,win,Varna,Bulgaria,FALSE,1997,1763,2003,1757,6
+,,,1984-02-29,Friendly,played,Germany,GER,DEU,UEFA,Belgium,BEL,BEL,UEFA,FALSE,1,0,win,Brussels,Belgium,FALSE,2003,1900,2013,1890,10
+,,,1984-03-28,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,2,1,win,Hanover,Germany,FALSE,2013,2024,2020,2017,7
+,,,1984-04-18,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,0,1,loss,Strasbourg,France,FALSE,2020,1945,2011,1954,-9
+,,,1984-05-22,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,0,win,Zürich,Switzerland,TRUE,2011,1867,2017,1861,6
+,,,1984-06-14,UEFA Euro,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,0,draw,Strasbourg,France,TRUE,2017,1824,2004,1837,-13
+,,,1984-06-17,UEFA Euro,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,1,win,Lens,France,TRUE,2004,1826,2017,1813,13
+,,,1984-06-20,UEFA Euro,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,1,loss,Paris,France,TRUE,2017,1864,1982,1899,-35
+,,,1984-09-12,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,3,loss,Düsseldorf,Germany,FALSE,1982,1895,1960,1917,-22
+,,,1984-10-17,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,2,0,win,Cologne,Germany,FALSE,1960,1801,1971,1790,11
+,,,1984-12-16,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Malta,,,,FALSE,3,2,win,Attard,Malta,FALSE,1971,1357,1973,1355,2
+,,,1985-01-29,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,1,loss,Hamburg,Germany,FALSE,1973,1826,1957,1842,-16
+,,,1985-02-24,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,2,1,win,Oeiras,Portugal,FALSE,1957,1840,1976,1821,19
+,,,1985-03-27,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Malta,,,,TRUE,6,0,win,Saarbrücken,Germany,FALSE,1976,1349,1977,1348,1
+,,,1985-04-17,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,TRUE,4,1,win,Augsburg,Germany,FALSE,1977,1790,1983,1784,6
+,,,1985-04-30,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,5,1,win,Prague,Czechoslovakia,FALSE,1983,1822,2014,1791,31
+,,,1985-06-12,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,0,3,loss,Mexico City,Mexico,TRUE,2014,1916,1981,1949,-33
+,,,1985-06-15,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,2,loss,Mexico City,Mexico,FALSE,1981,1814,1954,1841,-27
+,,,1985-08-28,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,FALSE,0,1,loss,Moscow,Soviet Union,FALSE,1954,1977,1947,1984,-7
+,,,1985-09-25,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,2,2,draw,Solna,Sweden,FALSE,1947,1888,1949,1886,2
+,,,1985-10-16,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,0,1,loss,Stuttgart,Germany,FALSE,1949,1799,1917,1831,-32
+,,,1985-11-17,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,2,2,draw,Munich,Germany,FALSE,1917,1822,1907,1832,-10
+,,,1986-02-05,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,1,win,Avellino,Italy,FALSE,1907,1884,1919,1872,12
+,,,1986-03-12,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,TRUE,2,0,win,Frankfurt am Main,Germany,FALSE,1919,1921,1930,1910,11
+,,,1986-04-09,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,FALSE,1,0,win,Basel,Switzerland,FALSE,1930,1728,1937,1721,7
+,,,1986-05-11,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Bochum,Germany,FALSE,1937,1809,1931,1815,-6
+,,,1986-05-14,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,3,1,win,Dortmund,Germany,FALSE,1931,1884,1940,1875,9
+WC-1986,WC-1986_012,12,1986-06-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,FALSE,1,1,draw,Querétaro,Mexico,TRUE,1940,1832,1931,1841,-9
+WC-1986,WC-1986_023,23,1986-06-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Querétaro,Mexico,TRUE,1931,1846,1954,1823,23
+WC-1986,WC-1986_035,35,1986-06-13,FIFA World Cup,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,2,loss,Querétaro,Mexico,TRUE,1954,1967,1911,2010,-43
+WC-1986,WC-1986_042,42,1986-06-17,FIFA World Cup,played,Germany,GER,DEU,UEFA,Morocco,MAR,MAR,CAF,FALSE,1,0,win,Monterrey,Mexico,TRUE,1911,1738,1927,1722,16
+WC-1986,WC-1986_046,46,1986-06-21,FIFA World Cup,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Monterrey,Mexico,FALSE,1927,1881,1932,1876,5
+WC-1986,WC-1986_050,50,1986-06-25,FIFA World Cup,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,2,0,win,Guadalajara,Mexico,TRUE,1932,2057,1993,1996,61
+WC-1986,WC-1986_052,52,1986-06-29,FIFA World Cup,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,2,3,loss,Mexico City,Mexico,TRUE,1993,2011,1965,2039,-28
+,,,1986-09-24,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,FALSE,2,0,win,Copenhagen,Denmark,FALSE,1965,1949,1984,1930,19
+,,,1986-10-15,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,2,draw,Hanover,Germany,FALSE,1984,1981,1981,1984,-3
+,,,1986-10-29,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,1,4,loss,Vienna,Austria,FALSE,1981,1741,1957,1765,-24
+,,,1987-03-25,Friendly,played,Germany,GER,DEU,UEFA,Israel,ISR,ISR,UEFA,FALSE,2,0,win,Ramat Gan,Israel,FALSE,1957,1611,1963,1605,6
+,,,1987-04-18,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,0,draw,Cologne,Germany,FALSE,1963,1903,1959,1907,-4
+,,,1987-08-12,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,TRUE,2,1,win,Berlin,Germany,FALSE,1959,1902,1965,1896,6
+,,,1987-09-09,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,3,1,win,Düsseldorf,Germany,FALSE,1965,1990,1977,1978,12
+,,,1987-09-23,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Hamburg,Germany,FALSE,1977,1902,1982,1897,5
+,,,1987-10-14,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Gelsenkirchen,Germany,FALSE,1982,1893,1977,1898,-5
+,,,1987-11-18,Friendly,played,Germany,GER,DEU,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,0,draw,Budapest,Hungary,FALSE,1977,1785,1974,1788,-3
+,,,1987-12-12,Friendly,played,Germany,GER,DEU,UEFA,Brazil,BRA,BRA,CONMEBOL,FALSE,1,1,draw,Brasília,Brazil,FALSE,1974,1964,1977,1961,3
+,,,1987-12-16,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,0,1,loss,Buenos Aires,Argentina,FALSE,1977,1897,1968,1906,-9
+,,,1988-03-31,Four Nations Tournament,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,1,1,draw,Berlin,Germany,FALSE,1968,1914,1962,1920,-6
+,,,1988-04-02,Four Nations Tournament,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,0,win,Berlin,Germany,FALSE,1962,1888,1970,1880,8
+,,,1988-04-27,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,1,0,win,Kaiserslautern,Germany,FALSE,1970,1750,1973,1747,3
+,,,1988-06-04,Friendly,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,1,1,draw,Bremen,Germany,FALSE,1973,1836,1967,1842,-6
+,,,1988-06-10,UEFA Euro,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,1,1,draw,Düsseldorf,Germany,FALSE,1967,1937,1958,1946,-9
+,,,1988-06-14,UEFA Euro,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,0,win,Gelsenkirchen,Germany,FALSE,1958,1865,1977,1846,19
+,,,1988-06-17,UEFA Euro,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,TRUE,2,0,win,Munich,Germany,FALSE,1977,1905,1997,1885,20
+,,,1988-06-21,UEFA Euro,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,1,2,loss,Hamburg,Germany,FALSE,1997,1974,1964,2007,-33
+,,,1988-08-31,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Finland,,,,FALSE,4,0,win,Helsinki,Finland,FALSE,1964,1614,1978,1600,14
+,,,1988-09-21,Friendly,played,Germany,GER,DEU,UEFA,Soviet Union,SUN,SUN,UEFA,TRUE,1,0,win,Düsseldorf,Germany,FALSE,1978,1988,1985,1981,7
+,,,1988-10-19,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,0,0,draw,Munich,Germany,FALSE,1985,2055,1983,2057,-2
+,,,1989-03-22,Friendly,played,Germany,GER,DEU,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,1,win,Sofia,Bulgaria,FALSE,1983,1769,1990,1762,7
+,,,1989-04-26,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,1,1,draw,Rotterdam,Netherlands,FALSE,1990,2060,1999,2051,9
+,,,1989-05-31,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,0,draw,Cardiff,Wales,FALSE,1999,1768,1992,1775,-7
+,,,1989-09-06,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1992,1871,1991,1872,-1
+,,,1989-10-04,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Finland,,,,TRUE,6,1,win,Dortmund,Germany,FALSE,1991,1618,1996,1613,5
+,,,1989-11-15,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,2,1,win,Cologne,Germany,FALSE,1996,1740,2001,1735,5
+,,,1990-02-28,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,1,2,loss,Montpellier,France,FALSE,2001,1887,1991,1897,-10
+,,,1990-04-25,Friendly,played,Germany,GER,DEU,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,3,3,draw,Stuttgart,Germany,FALSE,1991,1895,1986,1900,-5
+,,,1990-05-26,Friendly,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,Düsseldorf,Germany,FALSE,1986,1859,1990,1855,4
+,,,1990-05-30,Friendly,played,Germany,GER,DEU,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,0,win,Gelsenkirchen,Germany,FALSE,1990,1891,1995,1886,5
+WC-1990,WC-1990_006,6,1990-06-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,4,1,win,Milan,Italy,TRUE,1995,1893,2033,1855,38
+WC-1990,WC-1990_018,18,1990-06-15,FIFA World Cup,played,Germany,GER,DEU,UEFA,United Arab Emirates,ARE,ARE,AFC,TRUE,5,1,win,Milan,Italy,TRUE,2033,1443,2037,1439,4
+WC-1990,WC-1990_028,28,1990-06-19,FIFA World Cup,played,Germany,GER,DEU,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,1,1,draw,Milan,Italy,TRUE,2037,1786,2018,1805,-19
+WC-1990,WC-1990_040,40,1990-06-24,FIFA World Cup,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,TRUE,2,1,win,Milan,Italy,TRUE,2018,1992,2046,1964,28
+WC-1990,WC-1990_048,48,1990-07-01,FIFA World Cup,played,Germany,GER,DEU,UEFA,Czechoslovakia,CSK,CSK,UEFA,TRUE,1,0,win,Milan,Italy,TRUE,2046,1900,2064,1882,18
+WC-1990,WC-1990_050,50,1990-07-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,1,1,draw,Turin,Italy,TRUE,2064,1992,2058,1998,-6
+WC-1990,WC-1990_052,52,1990-07-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,0,win,Rome,Italy,TRUE,2058,1891,2075,1874,17
+,,,1990-08-29,Friendly,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,FALSE,1,1,draw,Lisbon,Portugal,FALSE,2075,1778,2070,1783,-5
 ,,,1990-10-10,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,3,1,win,Solna,Sweden,FALSE,,,,,
 ,,,1990-10-31,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Luxembourg,,,,FALSE,3,2,win,Luxembourg,Luxembourg,FALSE,,,,,
 ,,,1990-12-19,Friendly,played,Germany,GER,DEU,UEFA,Switzerland,CHE,CHE,UEFA,TRUE,4,0,win,Stuttgart,Germany,FALSE,2079,1721,2082,1718,3
@@ -598,7 +598,7 @@ WC-1990,WC-1990_052,52,1990-07-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Arg
 ,,,1993-12-22,Friendly,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,0,draw,Mexico City,Mexico,FALSE,2015,1891,2014,1892,-1
 ,,,1994-03-23,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,2,1,win,Stuttgart,Germany,FALSE,2014,1985,2020,1979,6
 ,,,1994-04-27,Friendly,played,Germany,GER,DEU,UEFA,United Arab Emirates,ARE,ARE,AFC,FALSE,2,0,win,Abu Dhabi,United Arab Emirates,FALSE,2020,1481,2022,1479,2
-,,,1994-05-29,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Hanover,Germany,FALSE,,,,,
+,,,1994-05-29,Friendly,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,2,loss,Hanover,Germany,FALSE,2022,1860,1997,1885,-25
 ,,,1994-06-02,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,5,1,win,Vienna,Austria,FALSE,1997,1648,2004,1641,7
 ,,,1994-06-08,Friendly,played,Germany,GER,DEU,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,2,0,win,Toronto,Canada,FALSE,2004,1604,2009,1599,5
 WC-1994,WC-1994_001,1,1994-06-17,FIFA World Cup,played,Germany,GER,DEU,UEFA,Bolivia,BOL,BOL,CONMEBOL,TRUE,1,0,win,Chicago,United States,TRUE,2009,1703,2018,1694,9
@@ -656,7 +656,7 @@ WC-1994,WC-1994_047,47,1994-07-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Bul
 ,,,1998-05-30,Friendly,played,Germany,GER,DEU,UEFA,Colombia,COL,COL,CONMEBOL,TRUE,3,1,win,Frankfurt am Main,Germany,FALSE,2055,1791,2058,1788,3
 ,,,1998-06-05,Friendly,played,Germany,GER,DEU,UEFA,Luxembourg,,,,TRUE,7,0,win,Mannheim,Germany,FALSE,2058,1203,2058,1203,0
 WC-1998,WC-1998_015,15,1998-06-15,FIFA World Cup,played,Germany,GER,DEU,UEFA,United States,USA,USA,CONCACAF,TRUE,2,0,win,Paris,France,TRUE,2058,1759,2072,1745,14
-WC-1998,WC-1998_029,29,1998-06-21,FIFA World Cup,played,Germany,GER,DEU,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,2,draw,Lens,France,TRUE,,,,,
+WC-1998,WC-1998_029,29,1998-06-21,FIFA World Cup,played,Germany,GER,DEU,UEFA,Serbia,SRB,SRB,UEFA,TRUE,2,2,draw,Lens,France,TRUE,2072,1976,2064,1984,-8
 WC-1998,WC-1998_042,42,1998-06-25,FIFA World Cup,played,Germany,GER,DEU,UEFA,Iran,IRN,IRN,AFC,TRUE,2,0,win,Montpellier,France,TRUE,2064,1668,2072,1660,8
 WC-1998,WC-1998_053,53,1998-06-29,FIFA World Cup,played,Germany,GER,DEU,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,2,1,win,Montpellier,France,TRUE,2072,1884,2087,1869,15
 WC-1998,WC-1998_059,59,1998-07-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,Croatia,HRV,HRV,UEFA,TRUE,0,3,loss,Lyon,France,TRUE,2087,1915,2010,1992,-77
@@ -708,7 +708,7 @@ WC-1998,WC-1998_059,59,1998-07-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,Cro
 ,,,2002-05-14,Friendly,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,1,loss,Cardiff,Wales,FALSE,1879,1566,1864,1581,-15
 ,,,2002-05-18,Friendly,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,6,2,win,Leverkusen,Germany,FALSE,1864,1685,1870,1679,6
 WC-2002,WC-2002_002,2,2002-06-01,FIFA World Cup,played,Germany,GER,DEU,UEFA,Saudi Arabia,KSA,SAU,AFC,TRUE,8,0,win,Sapporo,Japan,TRUE,1870,1696,1908,1658,38
-WC-2002,WC-2002_015,15,2002-06-05,FIFA World Cup,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Kashima,Japan,TRUE,,,,,
+WC-2002,WC-2002_015,15,2002-06-05,FIFA World Cup,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Kashima,Japan,TRUE,1908,1867,1904,1871,-4
 WC-2002,WC-2002_033,33,2002-06-11,FIFA World Cup,played,Germany,GER,DEU,UEFA,Cameroon,CMR,CMR,CAF,FALSE,2,0,win,Fukuroi,Japan,TRUE,1904,1828,1939,1793,35
 WC-2002,WC-2002_050,50,2002-06-15,FIFA World Cup,played,Germany,GER,DEU,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,1,0,win,Seogwipo,South Korea,TRUE,1939,1750,1954,1735,15
 WC-2002,WC-2002_058,58,2002-06-21,FIFA World Cup,played,Germany,GER,DEU,UEFA,United States,USA,USA,CONCACAF,TRUE,1,0,win,Ulsan,South Korea,TRUE,1954,1845,1975,1824,21
@@ -759,7 +759,7 @@ WC-2002,WC-2002_064,64,2002-06-30,FIFA World Cup,played,Germany,GER,DEU,UEFA,Bra
 ,,,2005-09-03,Friendly,played,Germany,GER,DEU,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,0,2,loss,Bratislava,Slovakia,FALSE,1911,1664,1890,1685,-21
 ,,,2005-09-07,Friendly,played,Germany,GER,DEU,UEFA,South Africa,ZAF,ZAF,CAF,TRUE,4,2,win,Bremen,Germany,FALSE,1890,1540,1892,1538,2
 ,,,2005-10-08,Friendly,played,Germany,GER,DEU,UEFA,Turkey,TUR,TUR,UEFA,FALSE,1,2,loss,Istanbul,Turkey,FALSE,1892,1833,1883,1842,-9
-,,,2005-10-12,Friendly,played,Germany,GER,DEU,UEFA,China PR,,,,TRUE,1,0,win,Hamburg,Germany,FALSE,,,,,
+,,,2005-10-12,Friendly,played,Germany,GER,DEU,UEFA,China PR,,,,TRUE,1,0,win,Hamburg,Germany,FALSE,1883,1660,1886,1657,3
 ,,,2005-11-12,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,0,0,draw,Saint-Denis,France,FALSE,1886,1978,1891,1973,5
 ,,,2006-03-01,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,4,loss,Florence,Italy,FALSE,1891,1939,1881,1949,-10
 ,,,2006-03-22,Friendly,played,Germany,GER,DEU,UEFA,United States,USA,USA,CONCACAF,TRUE,4,1,win,Dortmund,Germany,FALSE,1881,1849,1892,1838,11
@@ -774,7 +774,7 @@ WC-2006,WC-2006_057,57,2006-06-30,FIFA World Cup,played,Germany,GER,DEU,UEFA,Arg
 WC-2006,WC-2006_061,61,2006-07-04,FIFA World Cup,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,TRUE,0,2,loss,Dortmund,Germany,FALSE,1964,2028,1914,2078,-50
 WC-2006,WC-2006_063,63,2006-07-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Portugal,PRT,PRT,UEFA,TRUE,3,1,win,Stuttgart,Germany,FALSE,1914,1979,1954,1939,40
 ,,,2006-08-16,Friendly,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,3,0,win,Gelsenkirchen,Germany,FALSE,1954,1849,1962,1841,8
-,,,2006-09-02,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Stuttgart,Germany,FALSE,,,,,
+,,,2006-09-02,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Stuttgart,Germany,FALSE,1962,1807,1969,1800,7
 ,,,2006-09-06,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,San Marino,,,,FALSE,13,0,win,Serravalle,San Marino,FALSE,1969,939,1970,938,1
 ,,,2006-10-07,Friendly,played,Germany,GER,DEU,UEFA,Georgia,,,,TRUE,2,0,win,Rostock,Germany,FALSE,1970,1509,1971,1508,1
 ,,,2006-10-11,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Slovakia,SVK,SVK,UEFA,FALSE,4,1,win,Bratislava,Slovakia,FALSE,1971,1718,1992,1697,21
@@ -787,7 +787,7 @@ WC-2006,WC-2006_063,63,2006-07-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Por
 ,,,2007-08-22,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,2,1,win,London,England,FALSE,1992,1946,2004,1934,12
 ,,,2007-09-08,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,0,win,Cardiff,Wales,FALSE,2004,1596,2013,1587,9
 ,,,2007-09-12,Friendly,played,Germany,GER,DEU,UEFA,Romania,ROU,ROU,UEFA,TRUE,3,1,win,Cologne,Germany,FALSE,2013,1915,2020,1908,7
-,,,2007-10-13,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2007-10-13,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,2020,1782,2012,1790,-8
 ,,,2007-10-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Czechia,CZE,CZE,UEFA,TRUE,0,3,loss,Munich,Germany,FALSE,2012,1872,1956,1928,-56
 ,,,2007-11-17,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Cyprus,,,,TRUE,4,0,win,Hanover,Germany,FALSE,1956,1546,1960,1542,4
 ,,,2007-11-21,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,0,draw,Frankfurt am Main,Germany,FALSE,1960,1613,1943,1630,-17
@@ -810,7 +810,7 @@ WC-2006,WC-2006_063,63,2006-07-08,FIFA World Cup,played,Germany,GER,DEU,UEFA,Por
 ,,,2009-02-11,Friendly,played,Germany,GER,DEU,UEFA,Norway,NOR,NOR,UEFA,TRUE,0,1,loss,Düsseldorf,Germany,FALSE,1966,1707,1948,1725,-18
 ,,,2009-03-28,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Liechtenstein,,,,TRUE,4,0,win,Leipzig,Germany,FALSE,1948,1180,1949,1179,1
 ,,,2009-04-01,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,0,win,Cardiff,Wales,FALSE,1949,1608,1961,1596,12
-,,,2009-05-29,Friendly,played,Germany,GER,DEU,UEFA,China PR,,,,FALSE,1,1,draw,Shanghai,China PR,FALSE,,,,,
+,,,2009-05-29,Friendly,played,Germany,GER,DEU,UEFA,China PR,,,,FALSE,1,1,draw,Shanghai,China PR,FALSE,1961,1528,1954,1535,-7
 ,,,2009-06-02,Friendly,played,Germany,GER,DEU,UEFA,United Arab Emirates,ARE,ARE,AFC,FALSE,7,2,win,Dubai,United Arab Emirates,FALSE,1954,1405,1957,1402,3
 ,,,2009-08-12,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Azerbaijan,,,,FALSE,2,0,win,Baku,Azerbaijan,FALSE,1957,1360,1960,1357,3
 ,,,2009-09-05,Friendly,played,Germany,GER,DEU,UEFA,South Africa,ZAF,ZAF,CAF,TRUE,2,0,win,Leverkusen,Germany,FALSE,1960,1547,1961,1546,1
@@ -859,7 +859,7 @@ WC-2010,WC-2010_063,63,2010-07-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Uru
 ,,,2012-08-15,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,1,3,loss,Frankfurt am Main,Germany,FALSE,2061,1956,2038,1979,-23
 ,,,2012-09-07,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Faroe Islands,,,,TRUE,3,0,win,Hanover,Germany,FALSE,2038,1218,2038,1218,0
 ,,,2012-09-11,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,1,win,Vienna,Austria,FALSE,2038,1622,2044,1616,6
-,,,2012-10-12,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,6,1,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2012-10-12,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,6,1,win,Dublin,Republic of Ireland,FALSE,2044,1752,2064,1732,20
 ,,,2012-10-16,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,TRUE,4,4,draw,Berlin,Germany,FALSE,2064,1880,2051,1893,-13
 ,,,2012-11-14,Friendly,played,Germany,GER,DEU,UEFA,Netherlands,NED,NLD,UEFA,FALSE,0,0,draw,Amsterdam,Netherlands,FALSE,2051,1997,2052,1996,1
 ,,,2013-02-06,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,2,1,win,Saint-Denis,France,FALSE,2052,1889,2060,1881,8
@@ -870,7 +870,7 @@ WC-2010,WC-2010_063,63,2010-07-10,FIFA World Cup,played,Germany,GER,DEU,UEFA,Uru
 ,,,2013-08-14,Friendly,played,Germany,GER,DEU,UEFA,Paraguay,PRY,PRY,CONMEBOL,TRUE,3,3,draw,Kaiserslautern,Germany,FALSE,2055,1701,2046,1710,-9
 ,,,2013-09-06,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Austria,AUT,AUT,UEFA,TRUE,3,0,win,Munich,Germany,FALSE,2046,1629,2049,1626,3
 ,,,2013-09-10,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Faroe Islands,,,,FALSE,3,0,win,Tórshavn,Faroe Islands,FALSE,2049,1193,2050,1192,1
-,,,2013-10-11,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Cologne,Germany,FALSE,,,,,
+,,,2013-10-11,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,3,0,win,Cologne,Germany,FALSE,2050,1709,2055,1704,5
 ,,,2013-10-15,FIFA World Cup qualification,played,Germany,GER,DEU,UEFA,Sweden,SWE,SWE,UEFA,FALSE,5,3,win,Solna,Sweden,FALSE,2055,1885,2079,1861,24
 ,,,2013-11-15,Friendly,played,Germany,GER,DEU,UEFA,Italy,ITA,ITA,UEFA,FALSE,1,1,draw,Milan,Italy,FALSE,2079,1909,2077,1911,-2
 ,,,2013-11-19,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,FALSE,1,0,win,London,England,FALSE,2077,1942,2086,1933,9
@@ -888,7 +888,7 @@ WC-2014,WC-2014_064,64,2014-07-13,FIFA World Cup,played,Germany,GER,DEU,UEFA,Arg
 ,,,2014-09-03,Friendly,played,Germany,GER,DEU,UEFA,Argentina,ARG,ARG,CONMEBOL,TRUE,2,4,loss,Düsseldorf,Germany,FALSE,2223,2063,2198,2088,-25
 ,,,2014-09-07,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,1,win,Dortmund,Germany,FALSE,2198,1710,2199,1709,1
 ,,,2014-10-11,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,FALSE,0,2,loss,Warsaw,Poland,FALSE,2199,1651,2143,1707,-56
-,,,2014-10-14,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Gelsenkirchen,Germany,FALSE,,,,,
+,,,2014-10-14,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Gelsenkirchen,Germany,FALSE,2143,1711,2125,1729,-18
 ,,,2014-11-14,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Gibraltar,,,,TRUE,4,0,win,Nuremberg,Germany,FALSE,2125,1132,2125,1132,0
 ,,,2014-11-18,Friendly,played,Germany,GER,DEU,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,0,win,Vigo,Spain,FALSE,2125,1960,2133,1952,8
 ,,,2015-03-25,Friendly,played,Germany,GER,DEU,UEFA,Australia,AUS,AUS,AFC,TRUE,2,2,draw,Kaiserslautern,Germany,FALSE,2133,1728,2124,1737,-9
@@ -897,7 +897,7 @@ WC-2014,WC-2014_064,64,2014-07-13,FIFA World Cup,played,Germany,GER,DEU,UEFA,Arg
 ,,,2015-06-13,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Gibraltar,,,,FALSE,7,0,win,Faro,Portugal,TRUE,2108,1131,2108,1131,0
 ,,,2015-09-04,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Poland,POL,POL,UEFA,TRUE,3,1,win,Frankfurt am Main,Germany,FALSE,2108,1736,2112,1732,4
 ,,,2015-09-07,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Scotland,SCO,SCO,UEFA,FALSE,3,2,win,Glasgow,Scotland,FALSE,2112,1705,2118,1699,6
-,,,2015-10-08,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2015-10-08,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,1,loss,Dublin,Republic of Ireland,FALSE,2118,1724,2084,1758,-34
 ,,,2015-10-11,UEFA Euro qualification,played,Germany,GER,DEU,UEFA,Georgia,,,,TRUE,2,1,win,Leipzig,Germany,FALSE,2084,1487,2085,1486,1
 ,,,2015-11-13,Friendly,played,Germany,GER,DEU,UEFA,France,FRA,FRA,UEFA,FALSE,0,2,loss,Saint-Denis,France,FALSE,2085,1948,2068,1965,-17
 ,,,2016-03-26,Friendly,played,Germany,GER,DEU,UEFA,England,ENG,ENG,UEFA,TRUE,2,3,loss,Berlin,Germany,FALSE,2068,1958,2053,1973,-15

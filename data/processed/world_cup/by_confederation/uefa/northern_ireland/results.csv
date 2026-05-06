@@ -204,7 +204,7 @@ tournament_id,match_id,match_number,date,tournament,status,team,team_id,team_cod
 ,,,1958-04-16,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,1,draw,Cardiff,Wales,FALSE,1733,1723,1738,1718,5
 WC-1958,WC-1958_003,3,1958-06-08,FIFA World Cup,played,Northern Ireland,NIR,NIR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,1,0,win,Halmstad,Sweden,TRUE,1738,1894,1781,1851,43
 WC-1958,WC-1958_009,9,1958-06-11,FIFA World Cup,played,Northern Ireland,NIR,NIR,UEFA,Argentina,ARG,ARG,CONMEBOL,FALSE,1,3,loss,Halmstad,Sweden,TRUE,1781,1984,1760,2005,-21
-WC-1958,WC-1958_021,21,1958-06-15,FIFA World Cup,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,2,2,draw,Malmö,Sweden,TRUE,,,,,
+WC-1958,WC-1958_021,21,1958-06-15,FIFA World Cup,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,2,2,draw,Malmö,Sweden,TRUE,1760,1974,1776,1958,16
 WC-1958,WC-1958_025,25,1958-06-17,FIFA World Cup,played,Northern Ireland,NIR,NIR,UEFA,Czechoslovakia,CSK,CSK,UEFA,FALSE,2,1,win,Malmö,Sweden,TRUE,1776,1945,1820,1901,44
 WC-1958,WC-1958_029,29,1958-06-19,FIFA World Cup,played,Northern Ireland,NIR,NIR,UEFA,France,FRA,FRA,UEFA,FALSE,0,4,loss,Norrköping,Sweden,TRUE,1820,1879,1773,1926,-47
 ,,,1958-10-04,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,TRUE,3,3,draw,Belfast,Northern Ireland,FALSE,1773,1955,1778,1950,5
@@ -215,12 +215,12 @@ WC-1958,WC-1958_029,29,1958-06-19,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1959-11-18,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,London,England,FALSE,1754,1901,1746,1909,-8
 ,,,1960-04-06,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,FALSE,2,3,loss,Wrexham,Wales,FALSE,1746,1755,1732,1769,-14
 ,,,1960-10-08,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,TRUE,2,5,loss,Belfast,Northern Ireland,FALSE,1732,1888,1703,1917,-29
-,,,1960-10-26,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,TRUE,3,4,loss,Belfast,Northern Ireland,FALSE,,,,,
+,,,1960-10-26,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,TRUE,3,4,loss,Belfast,Northern Ireland,FALSE,1703,1862,1686,1879,-17
 ,,,1960-11-09,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,2,5,loss,Glasgow,Scotland,FALSE,1686,1779,1669,1796,-17
 ,,,1961-04-12,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,5,loss,Belfast,Northern Ireland,FALSE,1669,1789,1634,1824,-35
 ,,,1961-04-25,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Italy,ITA,ITA,UEFA,FALSE,2,3,loss,Bologna,Italy,FALSE,1634,1785,1630,1789,-4
 ,,,1961-05-03,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Greece,GRC,GRC,UEFA,FALSE,1,2,loss,Athens,Greece,FALSE,1630,1463,1606,1487,-24
-,,,1961-05-10,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Berlin,Germany,FALSE,,,,,
+,,,1961-05-10,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,1,2,loss,Berlin,Germany,FALSE,1606,1862,1601,1867,-5
 ,,,1961-10-07,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,6,loss,Belfast,Northern Ireland,FALSE,1601,1846,1577,1870,-24
 ,,,1961-10-17,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Greece,GRC,GRC,UEFA,TRUE,2,0,win,Belfast,Northern Ireland,FALSE,1577,1487,1592,1472,15
 ,,,1961-11-22,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1592,1939,1609,1922,17
@@ -249,7 +249,7 @@ WC-1958,WC-1958_029,29,1958-06-19,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1965-11-10,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,FALSE,1,2,loss,London,England,FALSE,1672,1923,1667,1928,-5
 ,,,1965-11-24,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Albania,,,,FALSE,1,1,draw,Tirana,Albania,FALSE,1667,1461,1661,1467,-6
 ,,,1966-03-30,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,FALSE,4,1,win,Cardiff,Wales,FALSE,1661,1762,1714,1709,53
-,,,1966-05-07,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Belfast,Northern Ireland,FALSE,,,,,
+,,,1966-05-07,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,2,loss,Belfast,Northern Ireland,FALSE,1714,1939,1704,1949,-10
 ,,,1966-06-22,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Mexico,MEX,MEX,CONCACAF,TRUE,4,1,win,Belfast,Northern Ireland,FALSE,1704,1900,1726,1878,22
 ,,,1966-10-22,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,TRUE,0,2,loss,Belfast,Northern Ireland,FALSE,1726,2082,1715,2093,-11
 ,,,1966-11-16,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,2,loss,Glasgow,Scotland,FALSE,1715,1801,1705,1811,-10
@@ -307,7 +307,7 @@ WC-1958,WC-1958_029,29,1958-06-19,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1976-05-14,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,1,loss,Swansea,Wales,FALSE,1762,1719,1745,1736,-17
 ,,,1976-10-13,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Netherlands,NED,NLD,UEFA,FALSE,2,2,draw,Rotterdam,Netherlands,FALSE,1745,2046,1761,2030,16
 ,,,1976-11-10,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Belgium,BEL,BEL,UEFA,FALSE,0,2,loss,Liège,Belgium,FALSE,1761,1863,1747,1877,-14
-,,,1977-04-27,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,5,loss,Cologne,Germany,FALSE,,,,,
+,,,1977-04-27,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,5,loss,Cologne,Germany,FALSE,1747,2119,1745,2121,-2
 ,,,1977-05-28,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,TRUE,1,2,loss,Belfast,Northern Ireland,FALSE,1745,1947,1731,1961,-14
 ,,,1977-06-01,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,3,loss,Glasgow,Scotland,FALSE,1731,1938,1721,1948,-10
 ,,,1977-06-03,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,1,draw,Belfast,Northern Ireland,FALSE,1721,1819,1721,1819,0
@@ -318,7 +318,7 @@ WC-1958,WC-1958_029,29,1958-06-19,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1978-05-13,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,1,1,draw,Glasgow,Scotland,FALSE,1729,2000,1745,1984,16
 ,,,1978-05-16,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1745,1956,1739,1962,-6
 ,,,1978-05-19,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,1,loss,Wrexham,Wales,FALSE,1739,1794,1727,1806,-12
-,,,1978-09-20,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1978-09-20,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1727,1719,1732,1714,5
 ,,,1978-10-25,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,2,1,win,Belfast,Northern Ireland,FALSE,1732,1648,1742,1638,10
 ,,,1978-11-29,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Bulgaria,BGR,BGR,UEFA,FALSE,2,0,win,Sofia,Bulgaria,FALSE,1742,1751,1781,1712,39
 ,,,1979-02-07,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,FALSE,0,4,loss,London,England,FALSE,1781,2001,1771,2011,-10
@@ -328,7 +328,7 @@ WC-1958,WC-1958_029,29,1958-06-19,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1979-05-26,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,TRUE,1,1,draw,Belfast,Northern Ireland,FALSE,,,,,
 ,,,1979-06-06,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,4,loss,Copenhagen,Denmark,FALSE,1758,1623,1717,1664,-41
 ,,,1979-10-17,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,TRUE,1,5,loss,Belfast,Northern Ireland,FALSE,1717,2031,1700,2048,-17
-,,,1979-11-21,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Belfast,Northern Ireland,FALSE,,,,,
+,,,1979-11-21,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,0,win,Belfast,Northern Ireland,FALSE,1700,1741,1717,1724,17
 ,,,1980-03-26,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Israel,ISR,ISR,UEFA,FALSE,0,0,draw,Ramat Gan,Israel,FALSE,1717,1720,1723,1714,6
 ,,,1980-05-16,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,1,0,win,Belfast,Northern Ireland,FALSE,1723,1821,1743,1801,20
 ,,,1980-05-20,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,FALSE,1,1,draw,London,England,FALSE,1743,2026,1759,2010,16
@@ -353,7 +353,7 @@ WC-1982,WC-1982_036,36,1982-06-25,FIFA World Cup,played,Northern Ireland,NIR,NIR
 WC-1982,WC-1982_041,41,1982-07-01,FIFA World Cup,played,Northern Ireland,NIR,NIR,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,2,draw,Madrid,Spain,TRUE,1792,1900,1801,1891,9
 WC-1982,WC-1982_045,45,1982-07-04,FIFA World Cup,played,Northern Ireland,NIR,NIR,UEFA,France,FRA,FRA,UEFA,FALSE,1,4,loss,Madrid,Spain,TRUE,1801,1905,1764,1942,-37
 ,,,1982-10-13,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,2,loss,Vienna,Austria,FALSE,1764,1894,1751,1907,-13
-,,,1982-11-17,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Belfast,Northern Ireland,FALSE,,,,,
+,,,1982-11-17,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,TRUE,1,0,win,Belfast,Northern Ireland,FALSE,1751,2043,1781,2013,30
 ,,,1982-12-15,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Albania,,,,FALSE,0,0,draw,Tirana,Albania,FALSE,1781,1428,1769,1440,-12
 ,,,1983-03-30,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Turkey,TUR,TUR,UEFA,TRUE,2,1,win,Belfast,Northern Ireland,FALSE,1769,1527,1774,1522,5
 ,,,1983-04-27,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Albania,,,,TRUE,1,0,win,Belfast,Northern Ireland,FALSE,1774,1437,1777,1434,3
@@ -362,7 +362,7 @@ WC-1982,WC-1982_045,45,1982-07-04,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1983-05-31,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,TRUE,0,1,loss,Belfast,Northern Ireland,FALSE,1792,1821,1768,1845,-24
 ,,,1983-09-21,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Austria,AUT,AUT,UEFA,TRUE,3,1,win,Belfast,Northern Ireland,FALSE,1768,1916,1802,1882,34
 ,,,1983-10-12,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Turkey,TUR,TUR,UEFA,FALSE,0,1,loss,Ankara,Turkey,FALSE,1802,1516,1772,1546,-30
-,,,1983-11-16,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,1,0,win,Hamburg,Germany,FALSE,,,,,
+,,,1983-11-16,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,1,0,win,Hamburg,Germany,FALSE,1772,2032,1808,1996,36
 ,,,1983-12-13,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Scotland,SCO,SCO,UEFA,TRUE,2,0,win,Belfast,Northern Ireland,FALSE,1808,1861,1834,1835,26
 ,,,1984-04-04,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,England,ENG,ENG,UEFA,FALSE,0,1,loss,London,England,FALSE,1834,1986,1826,1994,-8
 ,,,1984-05-22,British Home Championship,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,FALSE,1,1,draw,Swansea,Wales,FALSE,1826,1840,1832,1834,6
@@ -393,14 +393,14 @@ WC-1986,WC-1986_034,34,1986-06-12,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1988-03-23,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Poland,POL,POL,UEFA,TRUE,1,1,draw,Belfast,Northern Ireland,FALSE,1702,1768,1701,1769,-1
 ,,,1988-04-27,Friendly,played,Northern Ireland,NIR,NIR,UEFA,France,FRA,FRA,UEFA,TRUE,0,0,draw,Belfast,Northern Ireland,FALSE,1701,1882,1703,1880,2
 ,,,1988-05-21,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Malta,,,,TRUE,3,0,win,Belfast,Northern Ireland,FALSE,1703,1426,1710,1419,7
-,,,1988-09-14,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Belfast,Northern Ireland,FALSE,,,,,
+,,,1988-09-14,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,0,draw,Belfast,Northern Ireland,FALSE,1858,1710,1855,1713,-3
 ,,,1988-10-19,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Hungary,HUN,HUN,UEFA,FALSE,0,1,loss,Budapest,Hungary,FALSE,1713,1773,1702,1784,-11
 ,,,1988-12-21,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Spain,ESP,ESP,UEFA,FALSE,0,4,loss,Seville,Spain,FALSE,1702,1887,1690,1899,-12
 ,,,1989-02-08,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,2,loss,Belfast,Northern Ireland,FALSE,1690,1905,1670,1925,-20
 ,,,1989-04-26,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Malta,,,,FALSE,2,0,win,Attard,Malta,FALSE,1670,1414,1687,1397,17
 ,,,1989-05-26,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Chile,CHL,CHL,CONMEBOL,TRUE,0,1,loss,Belfast,Northern Ireland,FALSE,1687,1786,1677,1796,-10
 ,,,1989-09-06,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,1,2,loss,Belfast,Northern Ireland,FALSE,1677,1730,1654,1753,-23
-,,,1989-10-11,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1989-10-11,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,1654,1872,1644,1882,-10
 ,,,1990-03-27,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Norway,NOR,NOR,UEFA,TRUE,2,3,loss,Belfast,Northern Ireland,FALSE,1644,1656,1632,1668,-12
 ,,,1990-05-18,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Uruguay,URY,URY,CONMEBOL,TRUE,1,0,win,Belfast,Northern Ireland,FALSE,1632,1900,1654,1878,22
 ,,,1990-09-12,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Yugoslavia,YUG,YUG,UEFA,TRUE,0,2,loss,Belfast,Northern Ireland,FALSE,1654,1921,1637,1938,-17
@@ -419,21 +419,21 @@ WC-1986,WC-1986_034,34,1986-06-12,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1992-10-14,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Spain,ESP,ESP,UEFA,TRUE,0,0,draw,Belfast,Northern Ireland,FALSE,1661,1834,1665,1830,4
 ,,,1992-11-18,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,0,1,loss,Belfast,Northern Ireland,FALSE,1665,1899,1652,1912,-13
 ,,,1993-02-17,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Albania,,,,FALSE,2,1,win,Tirana,Albania,FALSE,1652,1444,1666,1430,14
-,,,1993-03-31,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1993-03-31,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,FALSE,1666,1893,1657,1902,-9
 ,,,1993-04-28,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Spain,ESP,ESP,UEFA,FALSE,1,3,loss,Seville,Spain,FALSE,1657,1820,1646,1831,-11
 ,,,1993-05-25,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Lithuania,,,,FALSE,1,0,win,Vilnius,Lithuania,FALSE,1646,1393,1658,1381,12
 ,,,1993-06-02,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Latvia,,,,FALSE,2,1,win,Riga,Latvia,FALSE,1658,1371,1668,1361,10
 ,,,1993-09-08,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Latvia,,,,TRUE,2,0,win,Belfast,Northern Ireland,FALSE,1668,1373,1674,1367,6
 ,,,1993-10-13,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Denmark,DNK,DNK,UEFA,FALSE,0,1,loss,Copenhagen,Denmark,FALSE,1674,1944,1670,1948,-4
-,,,1993-11-17,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Belfast,Northern Ireland,FALSE,,,,,
+,,,1993-11-17,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,1,1,draw,Belfast,Northern Ireland,FALSE,1846,1670,1842,1674,-4
 ,,,1994-03-23,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Romania,ROU,ROU,UEFA,TRUE,2,0,win,Belfast,Northern Ireland,FALSE,1674,1845,1692,1827,18
 ,,,1994-04-20,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Liechtenstein,,,,TRUE,4,1,win,Belfast,Northern Ireland,FALSE,1692,1110,1693,1109,1
 ,,,1994-06-03,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Colombia,COL,COL,CONMEBOL,FALSE,0,2,loss,Foxborough,United States,TRUE,1693,1932,1687,1938,-6
 ,,,1994-06-11,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Mexico,MEX,MEX,CONCACAF,FALSE,0,3,loss,Miami,United States,TRUE,1687,1845,1677,1855,-10
 ,,,1994-09-07,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Portugal,PRT,PRT,UEFA,TRUE,1,2,loss,Belfast,Northern Ireland,FALSE,1677,1837,1660,1854,-17
 ,,,1994-10-12,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Austria,AUT,AUT,UEFA,FALSE,2,1,win,Vienna,Austria,FALSE,1660,1634,1684,1610,24
-,,,1994-11-16,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,4,loss,Belfast,Northern Ireland,FALSE,,,,,
-,,,1995-03-29,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1994-11-16,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,TRUE,0,4,loss,Belfast,Northern Ireland,FALSE,1684,1842,1653,1873,-31
+,,,1995-03-29,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,1,draw,Dublin,Republic of Ireland,FALSE,1653,1881,1668,1866,15
 ,,,1995-04-26,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Latvia,,,,FALSE,1,0,win,Riga,Latvia,FALSE,1668,1345,1677,1336,9
 ,,,1995-05-22,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Canada,CAN,CAN,CONCACAF,FALSE,0,2,loss,Edmonton,Canada,FALSE,1677,1593,1656,1614,-21
 ,,,1995-05-25,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Chile,CHL,CHL,CONMEBOL,FALSE,1,2,loss,Edmonton,Canada,TRUE,1656,1722,1644,1734,-12
@@ -466,7 +466,7 @@ WC-1986,WC-1986_034,34,1986-06-12,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,1999-03-27,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,TRUE,0,3,loss,Belfast,Northern Ireland,FALSE,1579,1946,1567,1958,-12
 ,,,1999-03-31,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Moldova,,,,FALSE,0,0,draw,Chișinău,Moldova,FALSE,1567,1407,1564,1410,-3
 ,,,1999-04-27,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Canada,CAN,CAN,CONCACAF,TRUE,1,1,draw,Belfast,Northern Ireland,FALSE,1564,1533,1560,1537,-4
-,,,1999-05-29,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,,,,,
+,,,1999-05-29,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,1,0,win,Dublin,Republic of Ireland,FALSE,1560,1771,1577,1754,17
 ,,,1999-08-18,Friendly,played,Northern Ireland,NIR,NIR,UEFA,France,FRA,FRA,UEFA,TRUE,0,1,loss,Belfast,Northern Ireland,FALSE,1577,2040,1575,2042,-2
 ,,,1999-09-04,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Turkey,TUR,TUR,UEFA,TRUE,0,3,loss,Belfast,Northern Ireland,FALSE,1575,1700,1543,1732,-32
 ,,,1999-09-08,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Germany,GER,DEU,UEFA,FALSE,0,4,loss,Dortmund,Germany,FALSE,1543,1879,1537,1885,-6
@@ -474,7 +474,7 @@ WC-1986,WC-1986_034,34,1986-06-12,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,2000-02-23,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Luxembourg,,,,FALSE,3,1,win,Luxembourg,Luxembourg,FALSE,1513,1189,1519,1183,6
 ,,,2000-03-28,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Malta,,,,FALSE,3,0,win,Attard,Malta,FALSE,1519,1245,1528,1236,9
 ,,,2000-04-26,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Hungary,HUN,HUN,UEFA,TRUE,0,1,loss,Belfast,Northern Ireland,FALSE,1528,1605,1517,1616,-11
-,,,2000-08-16,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,2,loss,Belfast,Northern Ireland,FALSE,,,,,
+,,,2000-08-16,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Serbia,SRB,SRB,UEFA,TRUE,1,2,loss,Belfast,Northern Ireland,FALSE,1517,1904,1514,1907,-3
 ,,,2000-09-02,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Malta,,,,TRUE,1,0,win,Belfast,Northern Ireland,FALSE,1514,1227,1518,1223,4
 ,,,2000-10-07,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Denmark,DNK,DNK,UEFA,TRUE,1,1,draw,Belfast,Northern Ireland,FALSE,1518,1787,1527,1778,9
 ,,,2000-10-11,FIFA World Cup qualification,played,Northern Ireland,NIR,NIR,UEFA,Iceland,ISL,ISL,UEFA,FALSE,0,1,loss,Reykjavík,Iceland,FALSE,1527,1588,1516,1599,-11
@@ -566,7 +566,7 @@ WC-1986,WC-1986_034,34,1986-06-12,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,2011-02-09,Nations Cup,played,Northern Ireland,NIR,NIR,UEFA,Scotland,SCO,SCO,UEFA,FALSE,0,3,loss,Dublin,Republic of Ireland,TRUE,1576,1657,1556,1677,-20
 ,,,2011-03-25,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Serbia,SRB,SRB,UEFA,FALSE,1,2,loss,Belgrade,Serbia,FALSE,1556,1757,1550,1763,-6
 ,,,2011-03-29,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Slovenia,SVN,SVN,UEFA,TRUE,0,0,draw,Belfast,Northern Ireland,FALSE,1550,1682,1552,1680,2
-,,,2011-05-24,Nations Cup,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,5,loss,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2011-05-24,Nations Cup,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,5,loss,Dublin,Republic of Ireland,FALSE,1552,1743,1543,1752,-9
 ,,,2011-05-27,Nations Cup,played,Northern Ireland,NIR,NIR,UEFA,Wales,WAL,WAL,UEFA,FALSE,0,2,loss,Dublin,Republic of Ireland,TRUE,1543,1519,1519,1543,-24
 ,,,2011-08-10,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Faroe Islands,,,,TRUE,4,0,win,Belfast,Northern Ireland,FALSE,1519,1233,1526,1226,7
 ,,,2011-09-02,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Serbia,SRB,SRB,UEFA,TRUE,0,1,loss,Belfast,Northern Ireland,FALSE,1526,1746,1513,1759,-13
@@ -632,7 +632,7 @@ WC-1986,WC-1986_034,34,1986-06-12,FIFA World Cup,played,Northern Ireland,NIR,NIR
 ,,,2018-09-11,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Israel,ISR,ISR,UEFA,TRUE,3,0,win,Belfast,Northern Ireland,FALSE,1654,1512,1661,1505,7
 ,,,2018-10-12,UEFA Nations League,played,Northern Ireland,NIR,NIR,UEFA,Austria,AUT,AUT,UEFA,FALSE,0,1,loss,Vienna,Austria,FALSE,1661,1744,1651,1754,-10
 ,,,2018-10-15,UEFA Nations League,played,Northern Ireland,NIR,NIR,UEFA,Bosnia and Herzegovina,BIH,BIH,UEFA,FALSE,0,2,loss,Sarajevo,Bosnia and Herzegovina,FALSE,1651,1782,1638,1795,-13
-,,,2018-11-15,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,,,,,
+,,,2018-11-15,Friendly,played,Northern Ireland,NIR,NIR,UEFA,Republic of Ireland,IRL,IRL,UEFA,FALSE,0,0,draw,Dublin,Republic of Ireland,FALSE,1638,1694,1642,1690,4
 ,,,2018-11-18,UEFA Nations League,played,Northern Ireland,NIR,NIR,UEFA,Austria,AUT,AUT,UEFA,TRUE,1,2,loss,Belfast,Northern Ireland,FALSE,1642,1745,1622,1765,-20
 ,,,2019-03-21,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Estonia,,,,TRUE,2,0,win,Belfast,Northern Ireland,FALSE,1622,1487,1634,1475,12
 ,,,2019-03-24,UEFA Euro qualification,played,Northern Ireland,NIR,NIR,UEFA,Belarus,,,,TRUE,2,1,win,Belfast,Northern Ireland,FALSE,1634,1535,1644,1525,10
