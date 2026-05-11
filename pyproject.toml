@@ -16,3 +16,22 @@ norecursedirs = [
     "INT-World Cup",
     "pytest-cache-files-*",
 ]
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+skip = [
+    ".agents",
+    ".cache",
+    ".dist",
+    ".git",
+    ".venv",
+    "INT-World Cup",
+    "__pycache__",
+    "archived_logs",
+    "data",
+    "latest_logs",
+]
+extend_skip_glob = [
+    "pytest-cache-files-*/*",
+]

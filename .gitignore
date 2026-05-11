@@ -12,6 +12,7 @@ assets/logos/world-cup/*
 !assets/logos/world-cup/Coupe-du-monde.svg
 !assets/logos/world-cup/fifa-world-cup-2026.football.cc.svg
 __pycache__/
+.venv/
 .cache/
 .agents/
 *.py[cod]

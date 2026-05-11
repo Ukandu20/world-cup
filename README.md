@@ -1,6 +1,6 @@
 # World Cup 2026 Dashboard
 
-This repository contains dataset-building scripts and a Streamlit dashboard for preseason World Cup 2026 tournament projections.
+This project contains dataset-building scripts and a Streamlit dashboard for preseason World Cup 2026 tournament projections.
 
 ## Setup
 
