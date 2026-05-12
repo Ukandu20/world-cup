@@ -1,0 +1,15 @@
+column,description
+year,Calendar year.
+entity_name,Country/state/football entity name.
+iso_alpha2,ISO alpha-2 where available or historical code.
+iso_alpha3,ISO alpha-3 where available or historical/manual code.
+entity_type,"Current ISO entity, historic state, historic football entity, or constituent FIFA entity."
+sovereign_status,Classification used to decide whether the row contributes to official_state_count.
+official_state_count_member,1 if included in yearly official_state_count; 0 otherwise.
+continent,Broad continent/region.
+subregion,More specific region where available.
+football_confederation,Current or historically appropriate football confederation mapping for project use.
+source_statehood,Source for state-system/statehood logic.
+source_continent,Source for continent metadata.
+source_confederation,Source for football-confederation mapping.
+notes,Caveats and manual mapping notes.

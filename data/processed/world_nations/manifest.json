@@ -1,0 +1,51 @@
+{
+  "dataset": "world_nations",
+  "year_min": 1930,
+  "year_max": 2026,
+  "rows": {
+    "country_year": 19886,
+    "data_dictionary": 14,
+    "entities": 269,
+    "yearly_counts": 97
+  },
+  "outputs": {
+    "country_year": "data/processed/world_nations/country_year_1930_2026.csv",
+    "data_dictionary": "data/processed/world_nations/data_dictionary.csv",
+    "entities": "data/processed/world_nations/entities_1930_2026.csv",
+    "yearly_counts": "data/processed/world_nations/yearly_counts_1930_2026.csv"
+  },
+  "source_files": {
+    "country_year": "data/world_nations_country_year_1930_2026.csv",
+    "data_dictionary": "data/world_nations_data_dictionary.csv",
+    "entities": "data/world_nations_entities_1930_2026.csv",
+    "yearly_counts": "data/world_nations_yearly_counts_1930_2026.csv"
+  },
+  "cleaning": {
+    "text_columns_trimmed": true,
+    "blank_text_normalized_to_empty_csv_fields": true,
+    "targeted_entity_fixes": [
+      "ALA",
+      "AND",
+      "ATA",
+      "ATF",
+      "BES",
+      "BLM",
+      "BVT",
+      "CUW",
+      "HMD",
+      "HUN",
+      "MAF",
+      "MMR",
+      "MNE",
+      "NAM",
+      "PSE",
+      "SXM",
+      "TCA",
+      "UMI",
+      "VAT",
+      "VGB",
+      "VIR"
+    ],
+    "yearly_counts_rebuilt_from_country_year": true
+  }
+}

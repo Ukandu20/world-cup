@@ -6,6 +6,7 @@ This project separates deployable data from rebuild-only raw data.
 
 - `data/processed/world_cup/`: cleaned World Cup data consumed by the Streamlit app, simulations, and tests.
 - `data/processed/international/results.csv`: international match results used by the V3 Poisson model.
+- `data/processed/world_nations/`: cleaned country/state/football-entity panel for 1930-2026, with entity intervals, country-year rows, yearly counts, and a data dictionary.
 
 These files are intentionally committed so a clean clone can run the app without a private local Kaggle cache.
 
@@ -17,6 +18,7 @@ Raw downloads stay ignored. Keep local Kaggle/source downloads outside `data/pro
 - `data/goalscorers.csv`
 - `data/shootouts.csv`
 - `data/former_names.csv`
+- `data/world_nations_*.csv`
 - `INT-World Cup/`
 
 The build scripts can use those local raw files to regenerate the processed snapshot, but the app should not depend on ignored paths at runtime.
