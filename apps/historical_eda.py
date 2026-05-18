@@ -87,6 +87,7 @@ PLOTLY_EXPORT_CONFIG = {
     }
 }
 SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
+TITLE_PREFIX = "FIFA Men's World Cup"
 
 PRE_TOURNAMENT_FEATURES = [
     "start_elo",
@@ -151,6 +152,7 @@ def compute_historical_eda_outputs(
     lookback: int,
 ) -> tuple[
     pd.DataFrame,
+    pd.DataFrame,
     dict[str, pd.DataFrame],
     dict[str, pd.DataFrame],
     dict[str, pd.DataFrame],
@@ -161,6 +163,7 @@ def compute_historical_eda_outputs(
     datasets = load_historical_eda_data()
     return (
         build_data_quality_summary(datasets),
+        datasets["placement"].copy(),
         build_participation_metrics(datasets),
         build_goal_metrics(datasets),
         build_host_effect_metrics(datasets),
@@ -176,8 +179,17 @@ def render_metric_row(values: dict[str, object]) -> None:
         column.metric(label, value)
 
 
+def world_cup_chart_title(title: str) -> str:
+    return title if TITLE_PREFIX in title else f"{TITLE_PREFIX} {title}"
+
+
+def country_world_cup_chart_title(country: str, title: str) -> str:
+    return f"{country}'s {TITLE_PREFIX} {title}"
+
+
 def apply_original_chart_style(fig, title: str, height: int = 560):
     """Apply the chart styling from main.ipynb at commit b88051c."""
+    title = world_cup_chart_title(title)
     fig.update_layout(
         height=height,
         title={
@@ -231,6 +243,15 @@ def render_plotly_chart(fig) -> None:
 
 
 def render_column_plotly_chart(column, fig) -> None:
+    fig.update_layout(
+        height=max(int(fig.layout.height or 560), 620),
+        margin={"l": 28, "r": 18, "t": 82, "b": 72},
+        title={"font": {"size": 16, "color": CHART_TEXT_COLOR}},
+        font={"size": 10, "color": CHART_TEXT_COLOR},
+        legend={"font": {"size": 9, "color": CHART_TEXT_COLOR}},
+    )
+    fig.update_xaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
+    fig.update_yaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
     column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
 
 
@@ -290,6 +311,27 @@ def prepare_country_goal_metrics(team_goals: pd.DataFrame) -> pd.DataFrame:
     return grouped
 
 
+def prepare_country_placement_metrics(placement: pd.DataFrame) -> pd.DataFrame:
+    placement_history = placement.copy()
+    placement_history["country"] = placement_history["country"].map(canonical_country_name)
+    placement_history["position"] = pd.to_numeric(placement_history["position"], errors="coerce")
+    placement_history = placement_history.sort_values(["country", "edition", "position"], na_position="last")
+    return (
+        placement_history.groupby(["edition", "era", "country"], as_index=False, observed=True)
+        .agg(
+            position=("position", "min"),
+            placement=("placement", lambda series: canonical_placement_label(series.dropna().iloc[0]) if not series.dropna().empty else ""),
+        )
+        .sort_values(["country", "edition"])
+        .reset_index(drop=True)
+    )
+
+
+def placement_axis_label(row) -> str:
+    placement_name = canonical_placement_label(row.placement)
+    return placement_name or f"Position {int(row.position)}"
+
+
 def expansion_editions(participating: pd.DataFrame) -> pd.DataFrame:
     expansion = participating.sort_values("edition").copy()
     expansion["previous_team_counts"] = expansion["team_counts"].shift(1)
@@ -299,7 +341,11 @@ def expansion_editions(participating: pd.DataFrame) -> pd.DataFrame:
     ].copy()
 
 
-def add_expansion_markers(fig, expansion: pd.DataFrame, y_position: float = 1.08):
+def add_expansion_markers(
+    fig,
+    expansion: pd.DataFrame,
+    show_labels: bool = True,
+):
     for row in expansion.itertuples(index=False):
         fig.add_vline(
             x=row.edition,
@@ -308,15 +354,20 @@ def add_expansion_markers(fig, expansion: pd.DataFrame, y_position: float = 1.08
             line_width=1,
             opacity=0.65,
         )
+        if not show_labels:
+            continue
         fig.add_annotation(
-            text=f"Expansion: {int(row.team_counts)} teams",
+            text=f"{int(row.team_counts)} teams",
             x=row.edition,
-            y=y_position,
+            y=0.985,
             xref="x",
             yref="paper",
             showarrow=False,
-            textangle=-35,
+            textangle=0,
+            xanchor="center",
+            yanchor="top",
             font={"size": 10, "color": CHART_AXIS_COLOR},
+            bgcolor="rgba(239,227,207,0.72)",
         )
     return fig
 
@@ -394,6 +445,47 @@ def add_country_best_finish_annotations(fig, country_goals: pd.DataFrame, y_colu
     return fig
 
 
+def format_chart_value(value: object, value_format: str) -> str:
+    numeric_value = pd.to_numeric(pd.Series([value]), errors="coerce").iloc[0]
+    if pd.isna(numeric_value):
+        return ""
+    return format(float(numeric_value), value_format)
+
+
+def render_country_goal_line(
+    country_goals: pd.DataFrame,
+    y_column: str,
+    y_label: str,
+    title: str,
+    value_format: str,
+    expansion: pd.DataFrame,
+    compact: bool = False,
+):
+    display_title = world_cup_chart_title(title)
+    text_values = country_goals[y_column].map(lambda value: format_chart_value(value, value_format))
+    fig = px.line(
+        country_goals,
+        x="edition",
+        y=y_column,
+        markers=True,
+        text=text_values,
+        hover_data={"era": True, "placement": True, "position": True, "team_matches": True, y_column: ":.3f"},
+        labels={"edition": "Edition", y_column: y_label},
+        title=display_title,
+    )
+    fig.update_traces(
+        textposition="top center",
+        line={"color": CHART_TEXT_COLOR, "width": 1.5},
+        marker={"color": CHART_TEXT_COLOR, "size": 4},
+    )
+    apply_original_chart_style(fig, display_title)
+    add_era_backgrounds(fig, country_goals)
+    add_expansion_markers(fig, expansion, show_labels=not compact)
+    add_country_best_finish_annotations(fig, country_goals, y_column)
+    set_edition_ticks(fig, country_goals, tickangle=45 if compact else 30)
+    return fig
+
+
 def feature_label(feature: str) -> str:
     return FEATURE_LABELS.get(feature, feature.replace("_", " ").title())
 
@@ -432,6 +524,7 @@ def render_correlation_bar(corr_df: pd.DataFrame, title: str) -> None:
     if corr_df.empty:
         st.info("No correlation data is available for this chart.")
         return
+    display_title = world_cup_chart_title(title)
     fig = px.bar(
         corr_df.sort_values("spearman_corr"),
         x="spearman_corr",
@@ -443,10 +536,10 @@ def render_correlation_bar(corr_df: pd.DataFrame, title: str) -> None:
         text=corr_df.sort_values("spearman_corr")["spearman_corr"].map(lambda value: f"{value:.2f}"),
         hover_data={"pearson_corr": ":.3f", "rows": True, "feature": False, "feature_label": False},
         labels={"spearman_corr": "Spearman correlation", "feature_label": "Feature"},
-        title=title,
+        title=display_title,
     )
     fig.update_traces(textposition="outside", cliponaxis=False)
-    apply_original_chart_style(fig, title, height=max(500, 42 * len(corr_df) + 180))
+    apply_original_chart_style(fig, display_title, height=max(500, 42 * len(corr_df) + 180))
     fig.update_layout(coloraxis_showscale=False)
     render_plotly_chart(fig)
 
@@ -456,6 +549,7 @@ def render_correlation_heatmap(df: pd.DataFrame, columns: list[str], title: str,
     if len(available) < 2:
         st.info("No heatmap data is available for this chart.")
         return
+    display_title = world_cup_chart_title(title)
     heatmap_corr = df[available].apply(pd.to_numeric, errors="coerce").corr(method="spearman")
     labels = [feature_label(column) for column in heatmap_corr.columns]
     heatmap_corr.index = labels
@@ -467,9 +561,9 @@ def render_correlation_heatmap(df: pd.DataFrame, columns: list[str], title: str,
         color_continuous_scale="RdYlGn",
         text_auto=".2f",
         aspect="auto",
-        title=title,
+        title=display_title,
     )
-    apply_original_chart_style(fig, title, height=max(620, 48 * len(labels) + 220))
+    apply_original_chart_style(fig, display_title, height=max(620, 48 * len(labels) + 220))
     fig.update_xaxes(tickangle=35)
     render_plotly_chart(fig)
 
@@ -484,7 +578,7 @@ def render_feature_scatter(df: pd.DataFrame, feature: str, target: str = "finish
     scatter_df = scatter_df.dropna(subset=[feature, target])
     if scatter_df.empty:
         return
-    title = f"{feature_label(feature)} vs {feature_label(target)}"
+    title = world_cup_chart_title(f"{feature_label(feature)} vs {feature_label(target)}")
     fig = px.scatter(
         scatter_df,
         x=feature,
@@ -500,11 +594,12 @@ def render_feature_scatter(df: pd.DataFrame, feature: str, target: str = "finish
     render_plotly_chart(fig)
 
 
-def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
+def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.DataFrame) -> None:
     participating = outputs["participating_teams"]
     confed = outputs["confederation_by_edition"]
     debutants = outputs["debutants_by_edition"]
     latest = outputs.get("latest_team_distribution")
+    placement_history = prepare_country_placement_metrics(placement)
 
     min_year = int(participating["edition"].min())
     max_year = int(participating["edition"].max())
@@ -559,11 +654,12 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
         color="tournament_count",
         color_discrete_map=FIELD_SIZE_COLORS,
         text="team_count_label",
-        labels={"edition": "Edition", "team_counts": "Teams", "tournament_count": "Field size"},
-        title="World Cup Field Size by Edition",
+        labels={"edition": "Edition", "team_counts": "Teams", "tournament_count": "Tournament size"},
+        title="FIFA Men's World Cup Tournament Size by Edition",
     )
     fig.update_traces(textposition="outside", cliponaxis=False)
-    apply_original_chart_style(fig, "World Cup Field Size by Edition")
+    apply_original_chart_style(fig, "FIFA Men's World Cup Tournament Size by Edition")
+    add_era_backgrounds(fig, filtered_participating)
     add_expansion_markers(fig, filtered_expansion)
     set_edition_ticks(fig, filtered_participating)
     render_plotly_chart(fig)
@@ -578,13 +674,65 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
         category_orders={"confederation": CONFEDERATION_ORDER},
         color_discrete_map=CONFEDERATION_COLORS,
         labels={"edition": "Edition", "participant_count": "Teams"},
-        title="Participation by Confederation",
+        title="FIFA Men's World Cup Participation by Confederation",
     )
     fig.update_traces(textposition="top center")
-    apply_original_chart_style(fig, "Participation by Confederation")
+    apply_original_chart_style(fig, "FIFA Men's World Cup Participation by Confederation")
+    add_era_backgrounds(fig, filtered_confed)
     add_expansion_markers(fig, filtered_expansion)
     set_edition_ticks(fig, filtered_confed)
     render_plotly_chart(fig)
+
+    placement_countries = sorted(placement_history["country"].dropna().unique())
+    selected_placement_country = st.selectbox(
+        "Placement country",
+        placement_countries,
+        index=placement_countries.index("Brazil") if "Brazil" in placement_countries else 0,
+        key="historical_eda_placement_country",
+    )
+    country_placement = placement_history.loc[
+        placement_history["country"].eq(selected_placement_country)
+        & placement_history["edition"].between(year_range[0], year_range[1])
+    ].copy()
+    country_placement["placement_label"] = country_placement.apply(placement_axis_label, axis=1)
+    country_placement["placement_short_label"] = country_placement["placement"].map(
+        PLACEMENT_SHORT_LABELS
+    ).fillna(country_placement["placement_label"])
+    placement_fig = px.line(
+        country_placement,
+        x="edition",
+        y="position",
+        markers=True,
+        text="placement_short_label",
+        hover_data={"era": True, "placement": True, "position": True},
+        labels={"edition": "Edition", "position": "Placement"},
+        title=country_world_cup_chart_title(selected_placement_country, "Placement by Edition"),
+    )
+    placement_fig.update_traces(
+        textposition="top center",
+        line={"color": CHART_TEXT_COLOR, "width": 1.5},
+        marker={"color": CHART_TEXT_COLOR, "size": 5},
+    )
+    apply_original_chart_style(
+        placement_fig,
+        country_world_cup_chart_title(selected_placement_country, "Placement by Edition"),
+    )
+    add_era_backgrounds(placement_fig, country_placement)
+    add_expansion_markers(placement_fig, filtered_expansion)
+    placement_ticks = (
+        country_placement.dropna(subset=["position"])
+        .sort_values("position")
+        .drop_duplicates("position")
+    )
+    placement_fig.update_yaxes(
+        autorange="reversed",
+        title="Placement",
+        tickmode="array",
+        tickvals=placement_ticks["position"].tolist(),
+        ticktext=placement_ticks["placement_label"].tolist(),
+    )
+    set_edition_ticks(placement_fig, country_placement)
+    render_plotly_chart(placement_fig)
 
     debutant_fig = px.bar(
         debutants,
@@ -595,11 +743,11 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
         category_orders={"era": ERA_LABELS},
         color_discrete_map=ERA_COLORS,
         labels={"edition": "Edition", "debutant_count": "Debutants"},
-        title="Debutants by Edition",
+        title="FIFA Men's World Cup Debutants by Edition",
     )
     debutant_fig.update_traces(textposition="outside", cliponaxis=False)
-    apply_original_chart_style(debutant_fig, "Debutants by Edition", height=500)
-    add_expansion_markers(debutant_fig, filtered_expansion, y_position=1.12)
+    apply_original_chart_style(debutant_fig, "FIFA Men's World Cup Debutants by Edition", height=500)
+    add_expansion_markers(debutant_fig, filtered_expansion)
     set_edition_ticks(debutant_fig, debutants)
 
     if latest is not None and not latest.empty:
@@ -611,7 +759,7 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
             color="confederation",
             color_discrete_map=CONFEDERATION_COLORS,
             custom_data=["country", "participation_count", "prior_participations", "is_first_timer"],
-            title=f"{latest_edition} Team Distribution",
+            title=f"FIFA Men's World Cup {latest_edition} Team Distribution",
         )
         first_timers = latest.loc[latest["is_first_timer"], "country"].sort_values().tolist()
         first_timer_summary = ", ".join(first_timers) if first_timers else "None"
@@ -628,7 +776,7 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
             ),
             marker={"cornerradius": 5},
         )
-        apply_original_chart_style(distribution_fig, f"{latest_edition} Team Distribution", height=640)
+        apply_original_chart_style(distribution_fig, f"FIFA Men's World Cup {latest_edition} Team Distribution", height=640)
         distribution_fig.add_annotation(
             text=f"First timers: {first_timer_summary}. Marked with '★'",
             x=0,
@@ -652,7 +800,7 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
             values="team_count",
             color="confederation",
             color_discrete_map=CONFEDERATION_COLORS,
-            title=f"{latest_edition} Team Distribution",
+            title=world_cup_chart_title(f"{latest_edition} Team Distribution"),
         )
         distribution_fig.update_traces(
             textinfo="label+value+percent parent",
@@ -660,17 +808,18 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
             textfont={"color": CHART_TEXT_COLOR},
             marker={"cornerradius": 5},
         )
-        apply_original_chart_style(distribution_fig, f"{latest_edition} Team Distribution", height=640)
+        apply_original_chart_style(distribution_fig, f"FIFA Men's World Cup {latest_edition} Team Distribution", height=640)
 
     left, right = st.columns(2)
     render_column_plotly_chart(left, debutant_fig)
     render_column_plotly_chart(right, distribution_fig)
 
 
-def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
+def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: dict[str, pd.DataFrame]) -> None:
     tournament_goals = outputs["tournament_goals"]
     team_goals = prepare_country_goal_metrics(outputs["team_goals"])
     placement_summary = outputs["placement_goal_summary"]
+    expansion = expansion_editions(participation_outputs["participating_teams"])
 
     goal_metric_mode = st.radio(
         "Goal metric",
@@ -691,18 +840,24 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
         tournament_label = "Total goals"
         tournament_title = "Tournament Total Goals"
         country_y = "gf"
-        country_text = "gf"
+        country_conceded_y = "ga"
         country_label = "Goals for"
-        country_title = f"{selected_country} Total Goals by Edition"
+        country_conceded_label = "Goals conceded"
+        country_title = country_world_cup_chart_title(selected_country, "Goals For")
+        country_conceded_title = country_world_cup_chart_title(selected_country, "Goals Conceded")
+        country_value_format = ".0f"
     else:
         tournament_y = "goals_per_match"
         tournament_text = tournament_goals[tournament_y].map(lambda value: f"{value:.2f}")
         tournament_label = "Goals per match"
         tournament_title = "Tournament Goals per Match"
         country_y = "goals_per_game"
-        country_text = team_goals[country_y].map(lambda value: f"{value:.2f}")
+        country_conceded_y = "goals_against_per_game"
         country_label = "Goals for per game"
-        country_title = f"{selected_country} Goals per Game by Edition"
+        country_conceded_label = "Goals conceded per game"
+        country_title = country_world_cup_chart_title(selected_country, "Goals For per Game")
+        country_conceded_title = country_world_cup_chart_title(selected_country, "Goals Conceded per Game")
+        country_value_format = ".2f"
 
     fig = px.line(
         tournament_goals,
@@ -712,7 +867,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
         text=tournament_text,
         hover_data={"era": True, "total_matches": True, tournament_y: ":.3f"},
         labels={"edition": "Edition", tournament_y: tournament_label},
-        title=tournament_title,
+        title=world_cup_chart_title(tournament_title),
     )
     fig.update_traces(
         textposition="top center",
@@ -721,32 +876,32 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
     )
     apply_original_chart_style(fig, tournament_title)
     add_era_backgrounds(fig, tournament_goals)
+    add_expansion_markers(fig, expansion)
     set_edition_ticks(fig, tournament_goals)
     render_plotly_chart(fig)
 
     country_goals = team_goals.loc[team_goals["country"].eq(selected_country)].sort_values("edition")
-    if goal_metric_mode == "Per game":
-        country_text = country_goals[country_y].map(lambda value: f"{value:.2f}")
-    fig = px.line(
-        country_goals,
-        x="edition",
-        y=country_y,
-        markers=True,
-        text=country_text,
-        hover_data={"era": True, "placement": True, "position": True, "team_matches": True, country_y: ":.3f"},
-        labels={"edition": "Edition", country_y: country_label},
+    scored_fig = render_country_goal_line(
+        country_goals=country_goals,
+        y_column=country_y,
+        y_label=country_label,
         title=country_title,
+        value_format=country_value_format,
+        expansion=expansion,
+        compact=True,
     )
-    fig.update_traces(
-        textposition="top center",
-        line={"color": CHART_TEXT_COLOR, "width": 1.5},
-        marker={"color": CHART_TEXT_COLOR, "size": 4},
+    conceded_fig = render_country_goal_line(
+        country_goals=country_goals,
+        y_column=country_conceded_y,
+        y_label=country_conceded_label,
+        title=country_conceded_title,
+        value_format=country_value_format,
+        expansion=expansion,
+        compact=True,
     )
-    apply_original_chart_style(fig, country_title)
-    add_era_backgrounds(fig, country_goals)
-    add_country_best_finish_annotations(fig, country_goals, country_y)
-    set_edition_ticks(fig, country_goals)
-    render_plotly_chart(fig)
+    scored_column, conceded_column = st.columns(2)
+    render_column_plotly_chart(scored_column, scored_fig)
+    render_column_plotly_chart(conceded_column, conceded_fig)
 
     st.dataframe(
         placement_summary,
@@ -779,10 +934,10 @@ def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
         category_orders={"confederation": CONFEDERATION_ORDER},
         color_discrete_map=CONFEDERATION_COLORS,
         labels={"edition": "Edition", "position": "Final position", "gf": "Goals for"},
-        title="Host Nation Finishes",
+        title="FIFA Men's World Cup Host Nation Finishes",
     )
     fig.update_traces(textposition="top center")
-    apply_original_chart_style(fig, "Host Nation Finishes")
+    apply_original_chart_style(fig, "FIFA Men's World Cup Host Nation Finishes")
     fig.update_yaxes(autorange="reversed")
     set_edition_ticks(fig, hosts)
     render_plotly_chart(fig)
@@ -826,10 +981,10 @@ def render_winner_followup_tab(winners: pd.DataFrame) -> None:
         hover_name="country",
         text="next_placement_short",
         labels={"edition": "Title edition", "next_position": "Next edition position"},
-        title="Champion Follow-up Performance",
+        title=world_cup_chart_title("Champion Follow-up Performance"),
     )
     fig.update_traces(textposition="outside", cliponaxis=False)
-    apply_original_chart_style(fig, f"World Cup Winners Placement the following Edition since {int(winners['edition'].min())}")
+    apply_original_chart_style(fig, f"Winners Placement the following Edition since {int(winners['edition'].min())}")
     fig.update_yaxes(autorange="reversed", title="Final Placement")
     fig.update_xaxes(title="Tournament Edition", tickangle=45)
     set_edition_ticks(fig, winners, tickangle=45)
@@ -938,7 +1093,7 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
         values="team_count",
         color="confederation",
         color_discrete_map=CONFEDERATION_COLORS,
-        title="2026 Confederation Share",
+        title=world_cup_chart_title("2026 Confederation Share"),
     )
     distribution_fig.update_traces(textinfo="label+value+percent", textposition="inside")
     apply_original_chart_style(distribution_fig, "2026 Confederation Share", height=500)
@@ -947,7 +1102,7 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
 
 
 def render_historical_eda_page() -> None:
-    st.title("Analysis")
+    st.title("FIFA Men's World Cup Analysis")
     st.caption(
         "Interactive companion to the executive notebook. The page uses processed datasets committed under data/processed/world_cup."
     )
@@ -962,6 +1117,7 @@ def render_historical_eda_page() -> None:
     )
     (
         quality,
+        placement,
         participation,
         goals,
         hosts,
@@ -984,9 +1140,9 @@ def render_historical_eda_page() -> None:
         ]
     )
     with tabs[0]:
-        render_participation_tab(participation)
+        render_participation_tab(participation, placement)
     with tabs[1]:
-        render_goals_tab(goals)
+        render_goals_tab(goals, participation)
     with tabs[2]:
         render_host_tab(hosts)
     with tabs[3]:
