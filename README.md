@@ -1,6 +1,15 @@
 # World Cup 2026 Dashboard
 
-This project contains dataset-building scripts and a Streamlit dashboard for preseason World Cup 2026 tournament projections.
+This project contains dataset-building scripts, a concise executive notebook, shared analysis/modeling modules, and a Streamlit dashboard for preseason World Cup 2026 tournament projections.
+
+## Project Tour
+
+- `main.ipynb`: executive research notebook with the project framing, data-quality snapshot, key historical findings, and model/app handoff.
+- `apps/home.py`: Streamlit entrypoint for the interactive dashboard.
+- `apps/pages/8_Historical_EDA.py`: historical EDA companion page with tabs for participation, goals, host effect, winner follow-up, correlations, and 2026 implications.
+- `world_cup_sim/analysis.py`: reusable historical EDA transformations shared by the notebook and Streamlit app.
+- `world_cup_simulation.py`: tournament simulation, model, and backtest logic.
+- `scripts/`: reproducible dataset builders.
 
 ## Setup
 
@@ -27,6 +36,7 @@ See [`data/README.md`](data/README.md) for the data layout and environment-varia
 Reference notes:
 
 - [`docs/elo_rating_reference.md`](docs/elo_rating_reference.md): stored Elo rating methodology reference based on the provided `eloratings.net` summary
+- [`docs/notebook_app_architecture.md`](docs/notebook_app_architecture.md): portfolio-oriented guide to the notebook/app split
 
 ## Validation Summary
 
