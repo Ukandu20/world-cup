@@ -51,6 +51,17 @@ FIELD_SIZE_COLORS = {
     "48-teams": "#0A2040",
 }
 
+ALL_CONFEDERATION_FILTER = "All confederations"
+COUNTRY_NAME_ALIASES = {
+    "China PR": "China",
+    "Czechia": "Czechoslovakia",
+    "DR Congo": "Zaire",
+    "German DR": "Germany",
+    "Serbia and Montenegro": "Serbia",
+    "Soviet Union": "Russia",
+    "Yugoslavia": "Serbia",
+}
+
 PLACEMENT_SHORT_LABELS = {
     "Winner": "W",
     "Runner-up": "F",
@@ -76,6 +87,58 @@ PLOTLY_EXPORT_CONFIG = {
     }
 }
 SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
+
+PRE_TOURNAMENT_FEATURES = [
+    "start_elo",
+    "elo_rank",
+    "is_host",
+    "prior_world_cup_participations",
+    "previous_finish_score",
+    "prior_avg_finish_score",
+    "prior_best_finish_score",
+    "prior_avg_goals_per_match",
+    "prior_avg_goal_diff_per_match",
+]
+
+IN_TOURNAMENT_FEATURES = [
+    "matches_played",
+    "gs",
+    "ga",
+    "goal_difference",
+    "goals_per_match",
+    "goals_against_per_match",
+    "goal_difference_per_match",
+    "elo_change",
+]
+
+LAST_K_FEATURES = [
+    "prior_appearance_rate",
+    "last_k_avg_finish_score",
+]
+
+FEATURE_LABELS = {
+    "start_elo": "Starting Elo",
+    "elo_rank": "Elo Rank",
+    "is_host": "Host",
+    "prior_world_cup_participations": "Prior WC Participations",
+    "previous_finish_score": "Previous Finish Score",
+    "prior_avg_finish_score": "Prior Avg Finish Score",
+    "prior_best_finish_score": "Prior Best Finish Score",
+    "prior_avg_goals_per_match": "Prior Avg Goals per Match",
+    "prior_avg_goal_diff_per_match": "Prior Avg Goal Diff per Match",
+    "matches_played": "Matches Played",
+    "gs": "Goals For",
+    "ga": "Goals Against",
+    "goal_difference": "Goal Difference",
+    "goals_per_match": "Goals per Match",
+    "goals_against_per_match": "Goals Against per Match",
+    "goal_difference_per_match": "Goal Difference per Match",
+    "elo_change": "Elo Change",
+    "prior_appearance_rate": "Last-k Appearance Rate",
+    "last_k_avg_finish_score": "Last-k Avg Finish Score",
+    "finish_score": "Finish Score",
+    "current_finish_score": "Current Finish Score",
+}
 
 
 @st.cache_data(show_spinner=False)
@@ -142,7 +205,8 @@ def apply_original_chart_style(fig, title: str, height: int = 560):
             "title": {"font": {"color": CHART_TEXT_COLOR}},
         },
         yaxis={
-            "showgrid": False,
+            "showgrid": True,
+            "gridcolor": "#D8C8AF",
             "zeroline": False,
             "linecolor": CHART_AXIS_COLOR,
             "tickcolor": CHART_AXIS_COLOR,
@@ -170,11 +234,277 @@ def render_column_plotly_chart(column, fig) -> None:
     column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
 
 
+def edition_tick_values(frame: pd.DataFrame) -> list[int]:
+    if "edition" not in frame.columns:
+        return []
+    return sorted(pd.to_numeric(frame["edition"], errors="coerce").dropna().astype(int).unique().tolist())
+
+
+def set_edition_ticks(fig, frame: pd.DataFrame, tickangle: int = 30):
+    tick_vals = edition_tick_values(frame)
+    if tick_vals:
+        fig.update_xaxes(
+            tickmode="array",
+            tickvals=tick_vals,
+            ticktext=[str(value) for value in tick_vals],
+            tickangle=tickangle,
+        )
+    return fig
+
+
+def canonical_country_name(country: object) -> str:
+    country_name = str(country)
+    return COUNTRY_NAME_ALIASES.get(country_name, country_name)
+
+
+def canonical_placement_label(placement: object) -> str:
+    placement_text = str(placement)
+    return "" if placement_text == "nan" else placement_text
+
+
+def prepare_country_goal_metrics(team_goals: pd.DataFrame) -> pd.DataFrame:
+    goals = team_goals.copy()
+    goals["country"] = goals["country"].map(canonical_country_name)
+    goals["gf"] = pd.to_numeric(goals["gf"], errors="coerce").fillna(0)
+    goals["ga"] = pd.to_numeric(goals["ga"], errors="coerce").fillna(0)
+    goals["team_matches"] = pd.to_numeric(goals["team_matches"], errors="coerce").fillna(0)
+    goals["position"] = pd.to_numeric(goals["position"], errors="coerce")
+    goals = goals.sort_values(["country", "edition", "position"], na_position="last")
+    grouped = (
+        goals.groupby(["edition", "era", "tournament_id", "country"], dropna=False, as_index=False, observed=True)
+        .agg(
+            gf=("gf", "sum"),
+            ga=("ga", "sum"),
+            team_matches=("team_matches", "sum"),
+            position=("position", "min"),
+            placement=("placement", lambda series: canonical_placement_label(series.dropna().iloc[0]) if not series.dropna().empty else ""),
+        )
+        .sort_values(["country", "edition"])
+        .reset_index(drop=True)
+    )
+    grouped["goal_difference"] = grouped["gf"] - grouped["ga"]
+    grouped["goals_per_game"] = (grouped["gf"] / grouped["team_matches"].replace(0, pd.NA)).astype("Float64").round(3)
+    grouped["goals_against_per_game"] = (
+        grouped["ga"] / grouped["team_matches"].replace(0, pd.NA)
+    ).astype("Float64").round(3)
+    return grouped
+
+
+def expansion_editions(participating: pd.DataFrame) -> pd.DataFrame:
+    expansion = participating.sort_values("edition").copy()
+    expansion["previous_team_counts"] = expansion["team_counts"].shift(1)
+    return expansion.loc[
+        expansion["previous_team_counts"].notna()
+        & expansion["team_counts"].gt(expansion["previous_team_counts"])
+    ].copy()
+
+
+def add_expansion_markers(fig, expansion: pd.DataFrame, y_position: float = 1.08):
+    for row in expansion.itertuples(index=False):
+        fig.add_vline(
+            x=row.edition,
+            line_dash="dot",
+            line_color=CHART_AXIS_COLOR,
+            line_width=1,
+            opacity=0.65,
+        )
+        fig.add_annotation(
+            text=f"Expansion: {int(row.team_counts)} teams",
+            x=row.edition,
+            y=y_position,
+            xref="x",
+            yref="paper",
+            showarrow=False,
+            textangle=-35,
+            font={"size": 10, "color": CHART_AXIS_COLOR},
+        )
+    return fig
+
+
+def add_era_backgrounds(fig, frame: pd.DataFrame):
+    era_frame = frame.dropna(subset=["edition", "era"]).copy()
+    if era_frame.empty:
+        return fig
+    era_ranges = (
+        era_frame.groupby("era", observed=True)["edition"]
+        .agg(["min", "max"])
+        .reset_index()
+        .sort_values("min")
+    )
+    for row in era_ranges.itertuples(index=False):
+        era_name = str(row.era)
+        fill_color = ERA_COLORS.get(era_name, "#8B7355")
+        fig.add_vrect(
+            x0=float(row.min) - 1.8,
+            x1=float(row.max) + 1.8,
+            fillcolor=fill_color,
+            opacity=0.12,
+            layer="below",
+            line_width=0,
+        )
+        fig.add_annotation(
+            text=era_name,
+            x=(float(row.min) + float(row.max)) / 2,
+            y=1.04,
+            xref="x",
+            yref="paper",
+            showarrow=False,
+            font={"size": 10, "color": CHART_AXIS_COLOR},
+        )
+    return fig
+
+
+def add_country_best_finish_annotations(fig, country_goals: pd.DataFrame, y_column: str):
+    if country_goals.empty or y_column not in country_goals.columns:
+        return fig
+    annotated = country_goals.copy()
+    annotated["position"] = pd.to_numeric(annotated["position"], errors="coerce")
+    annotated[y_column] = pd.to_numeric(annotated[y_column], errors="coerce")
+    annotated = annotated.dropna(subset=["edition", y_column])
+    winners = annotated.loc[annotated["placement"].eq("Winner")].copy()
+    if not winners.empty:
+        rows_to_annotate = winners.sort_values("edition")
+        label_for_row = lambda row: "Winner"
+    else:
+        finish_rows = annotated.dropna(subset=["position"]).sort_values(["position", "edition"])
+        if finish_rows.empty:
+            return fig
+        rows_to_annotate = finish_rows.head(1)
+        label_for_row = lambda row: f"Best finish: {row.placement}"
+
+    for row in rows_to_annotate.itertuples(index=False):
+        fig.add_annotation(
+            text=label_for_row(row),
+            x=row.edition,
+            y=getattr(row, y_column),
+            xref="x",
+            yref="y",
+            showarrow=True,
+            arrowhead=2,
+            arrowsize=1,
+            arrowwidth=1,
+            arrowcolor=CHART_AXIS_COLOR,
+            ax=0,
+            ay=-45,
+            bgcolor=CHART_BACKGROUND,
+            bordercolor=CHART_AXIS_COLOR,
+            borderwidth=1,
+            font={"size": 11, "color": CHART_TEXT_COLOR},
+        )
+    return fig
+
+
+def feature_label(feature: str) -> str:
+    return FEATURE_LABELS.get(feature, feature.replace("_", " ").title())
+
+
+def build_correlation_table(
+    df: pd.DataFrame,
+    feature_columns: list[str],
+    target: str = "finish_score",
+) -> pd.DataFrame:
+    rows = []
+    for feature in feature_columns:
+        if feature not in df.columns or target not in df.columns:
+            continue
+        analysis_df = df[[feature, target]].apply(pd.to_numeric, errors="coerce").dropna()
+        rows.append(
+            {
+                "feature": feature,
+                "feature_label": feature_label(feature),
+                "pearson_corr": analysis_df[feature].corr(analysis_df[target], method="pearson")
+                if len(analysis_df) > 2
+                else None,
+                "spearman_corr": analysis_df[feature].corr(analysis_df[target], method="spearman")
+                if len(analysis_df) > 2
+                else None,
+                "rows": len(analysis_df),
+            }
+        )
+    if not rows:
+        return pd.DataFrame(columns=["feature", "feature_label", "pearson_corr", "spearman_corr", "rows"])
+    corr_df = pd.DataFrame(rows)
+    corr_df["abs_spearman_corr"] = corr_df["spearman_corr"].abs()
+    return corr_df.sort_values("abs_spearman_corr", ascending=False).drop(columns="abs_spearman_corr")
+
+
+def render_correlation_bar(corr_df: pd.DataFrame, title: str) -> None:
+    if corr_df.empty:
+        st.info("No correlation data is available for this chart.")
+        return
+    fig = px.bar(
+        corr_df.sort_values("spearman_corr"),
+        x="spearman_corr",
+        y="feature_label",
+        orientation="h",
+        color="spearman_corr",
+        color_continuous_scale="RdYlGn",
+        range_color=[-1, 1],
+        text=corr_df.sort_values("spearman_corr")["spearman_corr"].map(lambda value: f"{value:.2f}"),
+        hover_data={"pearson_corr": ":.3f", "rows": True, "feature": False, "feature_label": False},
+        labels={"spearman_corr": "Spearman correlation", "feature_label": "Feature"},
+        title=title,
+    )
+    fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(fig, title, height=max(500, 42 * len(corr_df) + 180))
+    fig.update_layout(coloraxis_showscale=False)
+    render_plotly_chart(fig)
+
+
+def render_correlation_heatmap(df: pd.DataFrame, columns: list[str], title: str, target: str = "finish_score") -> None:
+    available = [column for column in [target, *columns] if column in df.columns]
+    if len(available) < 2:
+        st.info("No heatmap data is available for this chart.")
+        return
+    heatmap_corr = df[available].apply(pd.to_numeric, errors="coerce").corr(method="spearman")
+    labels = [feature_label(column) for column in heatmap_corr.columns]
+    heatmap_corr.index = labels
+    heatmap_corr.columns = labels
+    fig = px.imshow(
+        heatmap_corr,
+        zmin=-1,
+        zmax=1,
+        color_continuous_scale="RdYlGn",
+        text_auto=".2f",
+        aspect="auto",
+        title=title,
+    )
+    apply_original_chart_style(fig, title, height=max(620, 48 * len(labels) + 220))
+    fig.update_xaxes(tickangle=35)
+    render_plotly_chart(fig)
+
+
+def render_feature_scatter(df: pd.DataFrame, feature: str, target: str = "finish_score") -> None:
+    if feature not in df.columns or target not in df.columns:
+        return
+    scatter_columns = [column for column in ["edition", "country", "placement", target, feature] if column in df.columns]
+    scatter_df = df[scatter_columns].copy()
+    scatter_df[feature] = pd.to_numeric(scatter_df[feature], errors="coerce")
+    scatter_df[target] = pd.to_numeric(scatter_df[target], errors="coerce")
+    scatter_df = scatter_df.dropna(subset=[feature, target])
+    if scatter_df.empty:
+        return
+    title = f"{feature_label(feature)} vs {feature_label(target)}"
+    fig = px.scatter(
+        scatter_df,
+        x=feature,
+        y=target,
+        color="placement" if "placement" in scatter_df.columns else None,
+        hover_name="country",
+        hover_data={column: True for column in ["edition"] if column in scatter_df.columns}
+        | {feature: ":.3f", target: ":.3f"},
+        labels={feature: feature_label(feature), target: feature_label(target)},
+        title=title,
+    )
+    apply_original_chart_style(fig, title, height=550)
+    render_plotly_chart(fig)
+
+
 def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
     participating = outputs["participating_teams"]
     confed = outputs["confederation_by_edition"]
     debutants = outputs["debutants_by_edition"]
-    latest = outputs["latest_distribution"]
+    latest = outputs.get("latest_team_distribution")
 
     min_year = int(participating["edition"].min())
     max_year = int(participating["edition"].max())
@@ -186,14 +516,33 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
         step=4,
         key="historical_eda_participation_year_range",
     )
+    confederation_options = [
+        confederation
+        for confederation in CONFEDERATION_ORDER
+        if confederation in set(confed["confederation"].dropna())
+    ]
+    selected_confederations = st.multiselect(
+        "Confederation filter",
+        options=confederation_options,
+        default=confederation_options,
+        key="historical_eda_confederation_filter",
+    )
     filtered_participating = participating[
         participating["edition"].between(year_range[0], year_range[1])
     ].copy()
     filtered_confed = confed[confed["edition"].between(year_range[0], year_range[1])].copy()
+    if selected_confederations:
+        filtered_confed = filtered_confed.loc[
+            filtered_confed["confederation"].isin(selected_confederations)
+        ].copy()
+        if latest is not None and not latest.empty:
+            latest = latest.loc[latest["confederation"].isin(selected_confederations)].copy()
     filtered_participating["team_count_label"] = filtered_participating["team_counts"].astype(int).astype(str)
     filtered_confed["participant_count_label"] = filtered_confed["participant_count"].astype(int).astype(str)
     debutants = debutants.copy()
     debutants["debutant_count_label"] = debutants["debutant_count"].astype(int).astype(str)
+    expansion = expansion_editions(participating)
+    filtered_expansion = expansion.loc[expansion["edition"].between(year_range[0], year_range[1])]
 
     render_metric_row(
         {
@@ -215,6 +564,8 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
     )
     fig.update_traces(textposition="outside", cliponaxis=False)
     apply_original_chart_style(fig, "World Cup Field Size by Edition")
+    add_expansion_markers(fig, filtered_expansion)
+    set_edition_ticks(fig, filtered_participating)
     render_plotly_chart(fig)
 
     fig = px.line(
@@ -231,6 +582,8 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
     )
     fig.update_traces(textposition="top center")
     apply_original_chart_style(fig, "Participation by Confederation")
+    add_expansion_markers(fig, filtered_expansion)
+    set_edition_ticks(fig, filtered_confed)
     render_plotly_chart(fig)
 
     debutant_fig = px.bar(
@@ -246,20 +599,68 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
     )
     debutant_fig.update_traces(textposition="outside", cliponaxis=False)
     apply_original_chart_style(debutant_fig, "Debutants by Edition", height=500)
+    add_expansion_markers(debutant_fig, filtered_expansion, y_position=1.12)
+    set_edition_ticks(debutant_fig, debutants)
 
-    distribution_fig = px.treemap(
-        latest,
-        path=["confederation"],
-        values="team_count",
-        color="confederation",
-        color_discrete_map=CONFEDERATION_COLORS,
-        title="2026 Team Distribution",
-    )
-    distribution_fig.update_traces(
-        textinfo="label+value+percent parent",
-        textfont={"color": CHART_TEXT_COLOR},
-    )
-    apply_original_chart_style(distribution_fig, "2026 Team Distribution", height=500)
+    if latest is not None and not latest.empty:
+        latest_edition = int(latest["edition"].max())
+        distribution_fig = px.treemap(
+            latest,
+            path=[px.Constant(f"{latest_edition} FIFA Men's World Cup"), "confederation", "country_label"],
+            values="team_value",
+            color="confederation",
+            color_discrete_map=CONFEDERATION_COLORS,
+            custom_data=["country", "participation_count", "prior_participations", "is_first_timer"],
+            title=f"{latest_edition} Team Distribution",
+        )
+        first_timers = latest.loc[latest["is_first_timer"], "country"].sort_values().tolist()
+        first_timer_summary = ", ".join(first_timers) if first_timers else "None"
+        distribution_fig.update_traces(
+            textinfo="label+value+percent parent",
+            textposition="top left",
+            textfont={"color": CHART_TEXT_COLOR},
+            hovertemplate=(
+                "<b>%{customdata[0]}</b><br>"
+                "Participation count: %{customdata[1]}<br>"
+                "Previous participations: %{customdata[2]}<br>"
+                "First timer: %{customdata[3]}"
+                "<extra></extra>"
+            ),
+            marker={"cornerradius": 5},
+        )
+        apply_original_chart_style(distribution_fig, f"{latest_edition} Team Distribution", height=640)
+        distribution_fig.add_annotation(
+            text=f"First timers: {first_timer_summary}. Marked with '★'",
+            x=0,
+            y=1.05,
+            xref="paper",
+            yref="paper",
+            showarrow=False,
+            align="left",
+            font={"size": 11, "color": CHART_AXIS_COLOR},
+        )
+    else:
+        latest_distribution = outputs["latest_distribution"]
+        if selected_confederations:
+            latest_distribution = latest_distribution.loc[
+                latest_distribution["confederation"].isin(selected_confederations)
+            ].copy()
+        latest_edition = int(latest_distribution["edition"].max())
+        distribution_fig = px.treemap(
+            latest_distribution,
+            path=[px.Constant(f"{latest_edition} FIFA Men's World Cup"), "confederation"],
+            values="team_count",
+            color="confederation",
+            color_discrete_map=CONFEDERATION_COLORS,
+            title=f"{latest_edition} Team Distribution",
+        )
+        distribution_fig.update_traces(
+            textinfo="label+value+percent parent",
+            textposition="top left",
+            textfont={"color": CHART_TEXT_COLOR},
+            marker={"cornerradius": 5},
+        )
+        apply_original_chart_style(distribution_fig, f"{latest_edition} Team Distribution", height=640)
 
     left, right = st.columns(2)
     render_column_plotly_chart(left, debutant_fig)
@@ -268,9 +669,15 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
 
 def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
     tournament_goals = outputs["tournament_goals"]
-    team_goals = outputs["team_goals"]
+    team_goals = prepare_country_goal_metrics(outputs["team_goals"])
     placement_summary = outputs["placement_goal_summary"]
 
+    goal_metric_mode = st.radio(
+        "Goal metric",
+        ["Per game", "Totals"],
+        horizontal=True,
+        key="historical_eda_goal_metric_mode",
+    )
     countries = sorted(team_goals["country"].dropna().unique())
     selected_country = st.selectbox(
         "Country",
@@ -278,35 +685,67 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
         index=countries.index("Brazil") if "Brazil" in countries else 0,
         key="historical_eda_goal_country",
     )
+    if goal_metric_mode == "Totals":
+        tournament_y = "total_goals"
+        tournament_text = tournament_goals[tournament_y].map(lambda value: f"{value:.0f}")
+        tournament_label = "Total goals"
+        tournament_title = "Tournament Total Goals"
+        country_y = "gf"
+        country_text = "gf"
+        country_label = "Goals for"
+        country_title = f"{selected_country} Total Goals by Edition"
+    else:
+        tournament_y = "goals_per_match"
+        tournament_text = tournament_goals[tournament_y].map(lambda value: f"{value:.2f}")
+        tournament_label = "Goals per match"
+        tournament_title = "Tournament Goals per Match"
+        country_y = "goals_per_game"
+        country_text = team_goals[country_y].map(lambda value: f"{value:.2f}")
+        country_label = "Goals for per game"
+        country_title = f"{selected_country} Goals per Game by Edition"
 
     fig = px.line(
         tournament_goals,
         x="edition",
-        y="goals_per_match",
+        y=tournament_y,
         markers=True,
-        color="era",
-        text=tournament_goals["goals_per_match"].map(lambda value: f"{value:.2f}"),
-        category_orders={"era": ERA_LABELS},
-        color_discrete_map=ERA_COLORS,
-        labels={"edition": "Edition", "goals_per_match": "Goals per match"},
-        title="Tournament Goals per Match",
+        text=tournament_text,
+        hover_data={"era": True, "total_matches": True, tournament_y: ":.3f"},
+        labels={"edition": "Edition", tournament_y: tournament_label},
+        title=tournament_title,
     )
-    fig.update_traces(textposition="top center")
-    apply_original_chart_style(fig, "Tournament Goals per Match")
+    fig.update_traces(
+        textposition="top center",
+        line={"color": CHART_TEXT_COLOR, "width": 1.5},
+        marker={"color": CHART_TEXT_COLOR, "size": 4},
+    )
+    apply_original_chart_style(fig, tournament_title)
+    add_era_backgrounds(fig, tournament_goals)
+    set_edition_ticks(fig, tournament_goals)
     render_plotly_chart(fig)
 
     country_goals = team_goals.loc[team_goals["country"].eq(selected_country)].sort_values("edition")
-    fig = px.bar(
+    if goal_metric_mode == "Per game":
+        country_text = country_goals[country_y].map(lambda value: f"{value:.2f}")
+    fig = px.line(
         country_goals,
         x="edition",
-        y="gf",
-        color="placement",
-        text="gf",
-        labels={"edition": "Edition", "gf": "Goals for"},
-        title=f"{selected_country} Goals by Edition",
+        y=country_y,
+        markers=True,
+        text=country_text,
+        hover_data={"era": True, "placement": True, "position": True, "team_matches": True, country_y: ":.3f"},
+        labels={"edition": "Edition", country_y: country_label},
+        title=country_title,
     )
-    fig.update_traces(textposition="outside", cliponaxis=False)
-    apply_original_chart_style(fig, f"{selected_country} Goals by Edition")
+    fig.update_traces(
+        textposition="top center",
+        line={"color": CHART_TEXT_COLOR, "width": 1.5},
+        marker={"color": CHART_TEXT_COLOR, "size": 4},
+    )
+    apply_original_chart_style(fig, country_title)
+    add_era_backgrounds(fig, country_goals)
+    add_country_best_finish_annotations(fig, country_goals, country_y)
+    set_edition_ticks(fig, country_goals)
     render_plotly_chart(fig)
 
     st.dataframe(
@@ -345,6 +784,7 @@ def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
     fig.update_traces(textposition="top center")
     apply_original_chart_style(fig, "Host Nation Finishes")
     fig.update_yaxes(autorange="reversed")
+    set_edition_ticks(fig, hosts)
     render_plotly_chart(fig)
 
     st.dataframe(
@@ -392,13 +832,23 @@ def render_winner_followup_tab(winners: pd.DataFrame) -> None:
     apply_original_chart_style(fig, f"World Cup Winners Placement the following Edition since {int(winners['edition'].min())}")
     fig.update_yaxes(autorange="reversed", title="Final Placement")
     fig.update_xaxes(title="Tournament Edition", tickangle=45)
+    set_edition_ticks(fig, winners, tickangle=45)
     render_plotly_chart(fig)
     st.dataframe(winners, hide_index=True, width="stretch")
 
 
 def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
-    summary = outputs["correlation_summary"]
+    outcome = outputs["outcome_frame"].copy()
+    last_k_features = outputs["last_k_features"].copy()
     last_k_summary = outputs["last_k_summary"].iloc[0]
+    pre_features = [feature for feature in PRE_TOURNAMENT_FEATURES if feature in outcome.columns]
+    tournament_features = [feature for feature in IN_TOURNAMENT_FEATURES if feature in outcome.columns]
+    last_k_columns = [feature for feature in LAST_K_FEATURES if feature in last_k_features.columns]
+    pre_corr = build_correlation_table(outcome, pre_features)
+    tournament_corr = build_correlation_table(outcome, tournament_features)
+    last_k_analysis = last_k_features.rename(columns={"current_finish_score": "finish_score"})
+    last_k_corr = build_correlation_table(last_k_analysis, last_k_columns)
+
     render_metric_row(
         {
             "Last-k Lookback": int(last_k_summary["lookback"]),
@@ -406,20 +856,65 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
             "Last-k Correlation": f'{last_k_summary["correlation_with_finish_score"]:.3f}',
         }
     )
-    fig = px.bar(
-        summary,
-        x="correlation_with_finish_score",
-        y="feature",
-        orientation="h",
-        text=summary["correlation_with_finish_score"].map(lambda value: f"{value:.2f}"),
-        labels={"correlation_with_finish_score": "Correlation", "feature": "Feature"},
-        title="Correlation with Normalized Finish Score",
+
+    chart_tabs = st.tabs(
+        [
+            "Pre-Tournament",
+            "Tournament Stats",
+            "Last-k History",
+            "Strongest Scatters",
+            "Tables",
+        ]
     )
-    fig.update_traces(textposition="outside", cliponaxis=False)
-    apply_original_chart_style(fig, "Correlation with Normalized Finish Score")
-    fig.update_layout(yaxis={"categoryorder": "total ascending"})
-    render_plotly_chart(fig)
-    st.dataframe(summary, hide_index=True, width="stretch")
+
+    with chart_tabs[0]:
+        render_correlation_bar(pre_corr, "Pre-Tournament Feature Correlation with World Cup Finish Score")
+        render_correlation_heatmap(
+            outcome,
+            pre_features,
+            "Spearman Correlation Heatmap: Outcome and Predictors",
+        )
+
+    with chart_tabs[1]:
+        render_correlation_bar(tournament_corr, "In-Tournament Stat Correlation with World Cup Finish Score")
+        render_correlation_heatmap(
+            outcome,
+            tournament_features,
+            "Spearman Correlation Heatmap: Outcome and Tournament Stats",
+        )
+
+    with chart_tabs[2]:
+        render_correlation_bar(
+            last_k_corr,
+            f"Last-{int(last_k_summary['lookback'])} World Cup History Correlation with Finish Score",
+        )
+        render_correlation_heatmap(
+            last_k_analysis,
+            last_k_columns,
+            f"Spearman Correlation Heatmap: Outcome and Last-{int(last_k_summary['lookback'])} History",
+        )
+
+    with chart_tabs[3]:
+        strongest_pre_features = pre_corr.head(3)["feature"].tolist()
+        strongest_last_k_features = last_k_corr.head(3)["feature"].tolist()
+        if not strongest_pre_features and not strongest_last_k_features:
+            st.info("No scatter data is available for the strongest predictors.")
+        if strongest_pre_features:
+            st.markdown("**Strongest Pre-Tournament Predictors**")
+        for strongest_feature in strongest_pre_features:
+            render_feature_scatter(outcome, strongest_feature)
+        if strongest_last_k_features:
+            st.markdown(f"**Strongest Last-{int(last_k_summary['lookback'])} History Predictors**")
+        for strongest_feature in strongest_last_k_features:
+            render_feature_scatter(last_k_analysis, strongest_feature)
+
+    with chart_tabs[4]:
+        st.markdown("**Pre-Tournament Correlations**")
+        st.dataframe(pre_corr, hide_index=True, width="stretch")
+        st.markdown("**In-Tournament Correlations**")
+        st.dataframe(tournament_corr, hide_index=True, width="stretch")
+        st.markdown("**Last-k History Correlations**")
+        st.dataframe(last_k_corr, hide_index=True, width="stretch")
 
 
 def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:

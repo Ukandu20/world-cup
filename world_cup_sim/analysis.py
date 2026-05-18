@@ -301,6 +301,23 @@ def build_participation_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, 
     )
     latest_distribution["edition"] = latest_edition
 
+    team_distribution = teams.dropna(subset=["edition", "country", "confederation"]).copy()
+    team_distribution["edition"] = pd.to_numeric(team_distribution["edition"], errors="coerce").astype("Int64")
+    team_distribution = team_distribution.sort_values(["country", "edition"]).reset_index(drop=True)
+    team_distribution["prior_participations"] = team_distribution.groupby("country", observed=True).cumcount()
+    team_distribution["participation_count"] = team_distribution["prior_participations"] + 1
+    team_distribution["is_first_timer"] = team_distribution["prior_participations"].eq(0)
+    team_distribution["country_label"] = team_distribution["country"].where(
+        ~team_distribution["is_first_timer"],
+        team_distribution["country"] + " ★",
+    )
+    team_distribution["team_value"] = 1
+    latest_team_distribution = (
+        team_distribution.loc[team_distribution["edition"].eq(latest_edition)]
+        .sort_values(["confederation", "country"])
+        .reset_index(drop=True)
+    )
+
     return {
         "participating_teams": participating_teams,
         "confederation_by_edition": confederation_by_edition,
@@ -309,6 +326,7 @@ def build_participation_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, 
         "cumulative_participation": cumulative_participation,
         "edition_confederation_share": edition_confed,
         "latest_distribution": latest_distribution,
+        "latest_team_distribution": latest_team_distribution,
     }
 
 
