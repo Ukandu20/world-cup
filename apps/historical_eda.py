@@ -14,6 +14,7 @@ if str(ROOT) not in sys.path:
 
 from world_cup_sim.analysis import (  # noqa: E402
     CONFEDERATION_ORDER,
+    ERA_LABELS,
     build_2026_implication_tables,
     build_correlation_metrics,
     build_data_quality_summary,
@@ -33,6 +34,48 @@ CONFEDERATION_COLORS = {
     "CONCACAF": "#8E44AD",
     "OFC": "#17A8CD",
 }
+
+ERA_COLORS = {
+    "Early Era": "#7A4E2D",
+    "Golden Age": "#C99700",
+    "Modern Era": "#2F6F73",
+    "Contemporary": "#8A3FFC",
+    "Recent": "#D1495B",
+}
+
+FIELD_SIZE_COLORS = {
+    "<16-teams": "#C9DCF0",
+    "16-teams": "#8AAFD4",
+    "24-teams": "#4D7FB5",
+    "32-teams": "#1E4D82",
+    "48-teams": "#0A2040",
+}
+
+PLACEMENT_SHORT_LABELS = {
+    "Winner": "W",
+    "Runner-up": "F",
+    "Third Place": "3P",
+    "Fourth Place": "4P",
+    "Semi-final": "SF",
+    "Quarter-final": "QF",
+    "Round of 16": "R16",
+    "Group Stage": "GS",
+    "DNQ": "DNQ",
+}
+
+CHART_BACKGROUND = "#EFE3CF"
+CHART_TEXT_COLOR = "#3A2A1A"
+CHART_AXIS_COLOR = "#5A4632"
+CHART_FONT_FAMILY = "Gill Sans, sans-serif"
+PLOTLY_EXPORT_CONFIG = {
+    "toImageButtonOptions": {
+        "format": "png",
+        "height": 600,
+        "width": 1000,
+        "scale": 3,
+    }
+}
+SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
 
 
 @st.cache_data(show_spinner=False)
@@ -70,6 +113,63 @@ def render_metric_row(values: dict[str, object]) -> None:
         column.metric(label, value)
 
 
+def apply_original_chart_style(fig, title: str, height: int = 560):
+    """Apply the chart styling from main.ipynb at commit b88051c."""
+    fig.update_layout(
+        height=height,
+        title={
+            "text": title,
+            "x": 0.5,
+            "xanchor": "center",
+            "yanchor": "top",
+            "font": {"size": 20, "color": CHART_TEXT_COLOR},
+        },
+        font={
+            "family": CHART_FONT_FAMILY,
+            "size": 11,
+            "color": CHART_TEXT_COLOR,
+        },
+        margin={"l": 40, "r": 40, "t": 70, "b": 60},
+        paper_bgcolor=CHART_BACKGROUND,
+        plot_bgcolor=CHART_BACKGROUND,
+        legend={"font": {"color": CHART_TEXT_COLOR}, "title": {"font": {"color": CHART_TEXT_COLOR}}},
+        xaxis={
+            "showgrid": False,
+            "zeroline": False,
+            "linecolor": CHART_AXIS_COLOR,
+            "tickcolor": CHART_AXIS_COLOR,
+            "tickfont": {"size": 13, "color": CHART_AXIS_COLOR},
+            "title": {"font": {"color": CHART_TEXT_COLOR}},
+        },
+        yaxis={
+            "showgrid": False,
+            "zeroline": False,
+            "linecolor": CHART_AXIS_COLOR,
+            "tickcolor": CHART_AXIS_COLOR,
+            "tickfont": {"size": 13, "color": CHART_AXIS_COLOR},
+            "title": {"font": {"color": CHART_TEXT_COLOR}},
+        },
+    )
+    fig.add_annotation(
+        text=SOURCE_NOTE,
+        xref="paper",
+        yref="paper",
+        x=0,
+        y=-0.14,
+        showarrow=False,
+        font={"size": 10, "color": CHART_AXIS_COLOR},
+    )
+    return fig
+
+
+def render_plotly_chart(fig) -> None:
+    st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+
+
+def render_column_plotly_chart(column, fig) -> None:
+    column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+
+
 def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
     participating = outputs["participating_teams"]
     confed = outputs["confederation_by_edition"]
@@ -88,8 +188,12 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
     )
     filtered_participating = participating[
         participating["edition"].between(year_range[0], year_range[1])
-    ]
-    filtered_confed = confed[confed["edition"].between(year_range[0], year_range[1])]
+    ].copy()
+    filtered_confed = confed[confed["edition"].between(year_range[0], year_range[1])].copy()
+    filtered_participating["team_count_label"] = filtered_participating["team_counts"].astype(int).astype(str)
+    filtered_confed["participant_count_label"] = filtered_confed["participant_count"].astype(int).astype(str)
+    debutants = debutants.copy()
+    debutants["debutant_count_label"] = debutants["debutant_count"].astype(int).astype(str)
 
     render_metric_row(
         {
@@ -104,47 +208,62 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame]) -> None:
         x="edition",
         y="team_counts",
         color="tournament_count",
+        color_discrete_map=FIELD_SIZE_COLORS,
+        text="team_count_label",
         labels={"edition": "Edition", "team_counts": "Teams", "tournament_count": "Field size"},
         title="World Cup Field Size by Edition",
     )
-    st.plotly_chart(fig, use_container_width=True)
+    fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(fig, "World Cup Field Size by Edition")
+    render_plotly_chart(fig)
 
     fig = px.line(
         filtered_confed,
         x="edition",
         y="participant_count",
         color="confederation",
+        text="participant_count_label",
         markers=True,
         category_orders={"confederation": CONFEDERATION_ORDER},
         color_discrete_map=CONFEDERATION_COLORS,
         labels={"edition": "Edition", "participant_count": "Teams"},
         title="Participation by Confederation",
     )
-    st.plotly_chart(fig, use_container_width=True)
+    fig.update_traces(textposition="top center")
+    apply_original_chart_style(fig, "Participation by Confederation")
+    render_plotly_chart(fig)
+
+    debutant_fig = px.bar(
+        debutants,
+        x="edition",
+        y="debutant_count",
+        color="era",
+        text="debutant_count_label",
+        category_orders={"era": ERA_LABELS},
+        color_discrete_map=ERA_COLORS,
+        labels={"edition": "Edition", "debutant_count": "Debutants"},
+        title="Debutants by Edition",
+    )
+    debutant_fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(debutant_fig, "Debutants by Edition", height=500)
+
+    distribution_fig = px.treemap(
+        latest,
+        path=["confederation"],
+        values="team_count",
+        color="confederation",
+        color_discrete_map=CONFEDERATION_COLORS,
+        title="2026 Team Distribution",
+    )
+    distribution_fig.update_traces(
+        textinfo="label+value+percent parent",
+        textfont={"color": CHART_TEXT_COLOR},
+    )
+    apply_original_chart_style(distribution_fig, "2026 Team Distribution", height=500)
 
     left, right = st.columns(2)
-    left.plotly_chart(
-        px.bar(
-            debutants,
-            x="edition",
-            y="debutant_count",
-            color="era",
-            labels={"edition": "Edition", "debutant_count": "Debutants"},
-            title="Debutants by Edition",
-        ),
-        use_container_width=True,
-    )
-    right.plotly_chart(
-        px.treemap(
-            latest,
-            path=["confederation"],
-            values="team_count",
-            color="confederation",
-            color_discrete_map=CONFEDERATION_COLORS,
-            title="2026 Team Distribution",
-        ),
-        use_container_width=True,
-    )
+    render_column_plotly_chart(left, debutant_fig)
+    render_column_plotly_chart(right, distribution_fig)
 
 
 def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -166,10 +285,15 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
         y="goals_per_match",
         markers=True,
         color="era",
+        text=tournament_goals["goals_per_match"].map(lambda value: f"{value:.2f}"),
+        category_orders={"era": ERA_LABELS},
+        color_discrete_map=ERA_COLORS,
         labels={"edition": "Edition", "goals_per_match": "Goals per match"},
         title="Tournament Goals per Match",
     )
-    st.plotly_chart(fig, use_container_width=True)
+    fig.update_traces(textposition="top center")
+    apply_original_chart_style(fig, "Tournament Goals per Match")
+    render_plotly_chart(fig)
 
     country_goals = team_goals.loc[team_goals["country"].eq(selected_country)].sort_values("edition")
     fig = px.bar(
@@ -177,15 +301,18 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame]) -> None:
         x="edition",
         y="gf",
         color="placement",
+        text="gf",
         labels={"edition": "Edition", "gf": "Goals for"},
         title=f"{selected_country} Goals by Edition",
     )
-    st.plotly_chart(fig, use_container_width=True)
+    fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(fig, f"{selected_country} Goals by Edition")
+    render_plotly_chart(fig)
 
     st.dataframe(
         placement_summary,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -208,13 +335,17 @@ def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
         y="position",
         color="confederation",
         size="host_goal_size",
+        text="country",
         hover_name="country",
+        category_orders={"confederation": CONFEDERATION_ORDER},
         color_discrete_map=CONFEDERATION_COLORS,
         labels={"edition": "Edition", "position": "Final position", "gf": "Goals for"},
         title="Host Nation Finishes",
     )
+    fig.update_traces(textposition="top center")
+    apply_original_chart_style(fig, "Host Nation Finishes")
     fig.update_yaxes(autorange="reversed")
-    st.plotly_chart(fig, use_container_width=True)
+    render_plotly_chart(fig)
 
     st.dataframe(
         hosts[
@@ -231,11 +362,15 @@ def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
             ]
         ],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
 def render_winner_followup_tab(winners: pd.DataFrame) -> None:
+    winners = winners.copy()
+    winners["next_placement_short"] = winners["next_placement"].map(PLACEMENT_SHORT_LABELS).fillna(
+        winners["next_placement"].astype(str)
+    )
     render_metric_row(
         {
             "Champions Tracked": len(winners),
@@ -249,12 +384,16 @@ def render_winner_followup_tab(winners: pd.DataFrame) -> None:
         y="next_position",
         color="next_placement",
         hover_name="country",
+        text="next_placement_short",
         labels={"edition": "Title edition", "next_position": "Next edition position"},
         title="Champion Follow-up Performance",
     )
-    fig.update_yaxes(autorange="reversed")
-    st.plotly_chart(fig, use_container_width=True)
-    st.dataframe(winners, hide_index=True, use_container_width=True)
+    fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(fig, f"World Cup Winners Placement the following Edition since {int(winners['edition'].min())}")
+    fig.update_yaxes(autorange="reversed", title="Final Placement")
+    fig.update_xaxes(title="Tournament Edition", tickangle=45)
+    render_plotly_chart(fig)
+    st.dataframe(winners, hide_index=True, width="stretch")
 
 
 def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -272,12 +411,15 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
         x="correlation_with_finish_score",
         y="feature",
         orientation="h",
+        text=summary["correlation_with_finish_score"].map(lambda value: f"{value:.2f}"),
         labels={"correlation_with_finish_score": "Correlation", "feature": "Feature"},
         title="Correlation with Normalized Finish Score",
     )
+    fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(fig, "Correlation with Normalized Finish Score")
     fig.update_layout(yaxis={"categoryorder": "total ascending"})
-    st.plotly_chart(fig, use_container_width=True)
-    st.dataframe(summary, hide_index=True, use_container_width=True)
+    render_plotly_chart(fig)
+    st.dataframe(summary, hide_index=True, width="stretch")
 
 
 def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -295,22 +437,22 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
     )
 
     left, right = st.columns([1, 2])
-    left.plotly_chart(
-        px.pie(
-            distribution,
-            names="confederation",
-            values="team_count",
-            color="confederation",
-            color_discrete_map=CONFEDERATION_COLORS,
-            title="2026 Confederation Share",
-        ),
-        use_container_width=True,
+    distribution_fig = px.pie(
+        distribution,
+        names="confederation",
+        values="team_count",
+        color="confederation",
+        color_discrete_map=CONFEDERATION_COLORS,
+        title="2026 Confederation Share",
     )
-    right.dataframe(qualified, hide_index=True, use_container_width=True)
+    distribution_fig.update_traces(textinfo="label+value+percent", textposition="inside")
+    apply_original_chart_style(distribution_fig, "2026 Confederation Share", height=500)
+    render_column_plotly_chart(left, distribution_fig)
+    right.dataframe(qualified, hide_index=True, width="stretch")
 
 
 def render_historical_eda_page() -> None:
-    st.title("Historical World Cup EDA")
+    st.title("Analysis")
     st.caption(
         "Interactive companion to the executive notebook. The page uses processed datasets committed under data/processed/world_cup."
     )
@@ -334,7 +476,7 @@ def render_historical_eda_page() -> None:
     ) = compute_historical_eda_outputs(lookback=lookback)
 
     with st.expander("Data quality snapshot"):
-        st.dataframe(quality, hide_index=True, use_container_width=True)
+        st.dataframe(quality, hide_index=True, width="stretch")
 
     tabs = st.tabs(
         [

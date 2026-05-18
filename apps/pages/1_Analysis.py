@@ -19,6 +19,6 @@ configure_page = home.configure_page
 render_historical_eda_page = historical_eda.render_historical_eda_page
 
 
-configure_page("Historical World Cup EDA")
+configure_page("Analysis")
 st.sidebar.caption("Analysis companion page")
 render_historical_eda_page()

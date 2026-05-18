@@ -2382,7 +2382,7 @@ def render_v1_dashboard() -> None:
 
     action_cols = st.columns(2)
     with action_cols[0]:
-        if st.button("Export This V1 View", use_container_width=True, key="v1_export_current"):
+        if st.button("Export This V1 View", width="stretch", key="v1_export_current"):
             try:
                 export_path = export_current_view(
                     view_mode,
@@ -2398,7 +2398,7 @@ def render_v1_dashboard() -> None:
             except ValueError as exc:
                 st.error(str(exc))
     with action_cols[1]:
-        if st.button("Export All V1 Tables", use_container_width=True, key="v1_export_all"):
+        if st.button("Export All V1 Tables", width="stretch", key="v1_export_all"):
             try:
                 exported_paths = export_all_tables(
                     probability_df=dashboard_df,
@@ -2539,7 +2539,7 @@ def render_v2_dashboard() -> None:
 
     action_cols = st.columns(2)
     with action_cols[0]:
-        if st.button("Export This V2 Page", use_container_width=True, key="v2_export_current"):
+        if st.button("Export This V2 Page", width="stretch", key="v2_export_current"):
             try:
                 export_stem = "form_all_countries" if view_mode == "All Countries" else (
                     f"form_{selected_confederation.lower()}" if view_mode == "Single confederation" and selected_confederation else "form_all_confederations"
@@ -2558,7 +2558,7 @@ def render_v2_dashboard() -> None:
             except RuntimeError as exc:
                 st.error(str(exc))
     with action_cols[1]:
-        if st.button("Export All V2 Tables", use_container_width=True, key="v2_export_all"):
+        if st.button("Export All V2 Tables", width="stretch", key="v2_export_all"):
             try:
                 exported_paths = export_all_tables(
                     form_df=form_df,
@@ -2669,7 +2669,7 @@ def render_v2_probabilities_dashboard() -> None:
 
     action_cols = st.columns(2)
     with action_cols[0]:
-        if st.button("Export This V2 Probability View", use_container_width=True, key="v2_prob_export_current"):
+        if st.button("Export This V2 Probability View", width="stretch", key="v2_prob_export_current"):
             try:
                 export_path = export_current_view(
                     view_mode,
@@ -2685,7 +2685,7 @@ def render_v2_probabilities_dashboard() -> None:
             except ValueError as exc:
                 st.error(str(exc))
     with action_cols[1]:
-        if st.button("Export All V2 Probability Tables", use_container_width=True, key="v2_prob_export_all"):
+        if st.button("Export All V2 Probability Tables", width="stretch", key="v2_prob_export_all"):
             try:
                 exported_paths = export_all_tables(
                     probability_df=dashboard_df,
@@ -2798,7 +2798,7 @@ def render_v3_probabilities_dashboard() -> None:
 
     action_cols = st.columns(2)
     with action_cols[0]:
-        if st.button("Export This V3 Probability View", use_container_width=True, key="v3_prob_export_current"):
+        if st.button("Export This V3 Probability View", width="stretch", key="v3_prob_export_current"):
             try:
                 export_path = export_current_view(
                     view_mode,
@@ -2814,7 +2814,7 @@ def render_v3_probabilities_dashboard() -> None:
             except ValueError as exc:
                 st.error(str(exc))
     with action_cols[1]:
-        if st.button("Export All V3 Probability Tables", use_container_width=True, key="v3_prob_export_all"):
+        if st.button("Export All V3 Probability Tables", width="stretch", key="v3_prob_export_all"):
             try:
                 exported_paths = export_all_tables(
                     probability_df=dashboard_df,
@@ -2963,14 +2963,14 @@ def render_v2_2022_backtest_dashboard() -> None:
                 "top1_correct",
             ],
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
     st.markdown("**Group Finish Backtest**")
     st.dataframe(
         group_backtest_table,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -2991,7 +2991,7 @@ def render_v2_2022_backtest_dashboard() -> None:
                 "champion_prob",
             ],
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -3133,14 +3133,14 @@ def render_v3_2022_backtest_dashboard() -> None:
                 "top1_correct",
             ],
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
     st.markdown("**Group Finish Backtest**")
     st.dataframe(
         group_backtest_table,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -3161,7 +3161,7 @@ def render_v3_2022_backtest_dashboard() -> None:
                 "champion_prob",
             ],
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -3176,12 +3176,13 @@ def main() -> None:
     render_countdown_timer(fixtures_df)
     st.markdown(
         """
-        ### Versions
-        Use the sidebar pages to keep model versions isolated.
+        ### Page Directory
+        Use the sidebar pages to keep analysis and model versions isolated.
 
 
         #### These are the different models I have used against each other in order to simulate the 2026 FIFA World Cup tournament projections.
 
+        - `Analysis` contains the historical World Cup analysis companion with participation, goals, host effect, winner follow-up, correlations, and 2026 implications.
         - `V1:Team Strength Model` V1 simulates the probability odds for every possible finish based on the ELO difference from their last K-matches.
         - `V2 Form` contains the weighted-form tables and confederation splits.
         - `V2: Multinomial Model` contains the multinomial match model and full-tournament Monte Carlo outputs.

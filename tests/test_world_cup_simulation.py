@@ -2480,7 +2480,7 @@ def test_model_validation_training_excludes_2022_and_model_card_references_artif
 
 
 def test_v2_probabilities_page_exists_and_wires_home_renderer():
-    page_path = ROOT / "apps" / "pages" / "3_V2_Probabilities.py"
+    page_path = ROOT / "apps" / "pages" / "4_V2_Probabilities.py"
 
     assert page_path.exists()
     page_text = page_path.read_text(encoding="utf-8")
@@ -2488,7 +2488,7 @@ def test_v2_probabilities_page_exists_and_wires_home_renderer():
 
 
 def test_v2_2022_backtest_page_exists_and_wires_home_renderer():
-    page_path = ROOT / "apps" / "pages" / "4_V2_2022_Backtest.py"
+    page_path = ROOT / "apps" / "pages" / "5_V2_2022_Backtest.py"
 
     assert page_path.exists()
     page_text = page_path.read_text(encoding="utf-8")
@@ -2496,7 +2496,7 @@ def test_v2_2022_backtest_page_exists_and_wires_home_renderer():
 
 
 def test_v3_probabilities_page_exists_and_wires_home_renderer():
-    page_path = ROOT / "apps" / "pages" / "5_V3_Probabilities.py"
+    page_path = ROOT / "apps" / "pages" / "6_V3_Probabilities.py"
 
     assert page_path.exists()
     page_text = page_path.read_text(encoding="utf-8")
@@ -2504,7 +2504,7 @@ def test_v3_probabilities_page_exists_and_wires_home_renderer():
 
 
 def test_v3_2022_backtest_page_exists_and_wires_home_renderer():
-    page_path = ROOT / "apps" / "pages" / "6_V3_2022_Backtest.py"
+    page_path = ROOT / "apps" / "pages" / "7_V3_2022_Backtest.py"
 
     assert page_path.exists()
     page_text = page_path.read_text(encoding="utf-8")

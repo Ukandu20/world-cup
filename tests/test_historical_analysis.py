@@ -119,7 +119,7 @@ def test_historical_eda_modules_import_and_notebook_references_shared_analysis()
     import apps.historical_eda as historical_eda
 
     assert callable(historical_eda.render_historical_eda_page)
-    page = load_page_module("8_Historical_EDA.py")
+    page = load_page_module("1_Analysis.py")
     assert callable(page.render_historical_eda_page)
 
     notebook = nbformat.read(ROOT / "main.ipynb", as_version=4)

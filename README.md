@@ -6,7 +6,7 @@ This project contains dataset-building scripts, a concise executive notebook, sh
 
 - `main.ipynb`: executive research notebook with the project framing, data-quality snapshot, key historical findings, and model/app handoff.
 - `apps/home.py`: Streamlit entrypoint for the interactive dashboard.
-- `apps/pages/8_Historical_EDA.py`: historical EDA companion page with tabs for participation, goals, host effect, winner follow-up, correlations, and 2026 implications.
+- `apps/pages/1_Analysis.py`: analysis companion page with tabs for participation, goals, host effect, winner follow-up, correlations, and 2026 implications.
 - `world_cup_sim/analysis.py`: reusable historical EDA transformations shared by the notebook and Streamlit app.
 - `world_cup_simulation.py`: tournament simulation, model, and backtest logic.
 - `scripts/`: reproducible dataset builders.
