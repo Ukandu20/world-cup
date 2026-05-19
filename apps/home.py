@@ -3166,9 +3166,8 @@ def render_v3_2022_backtest_dashboard() -> None:
     )
 
 
-def main() -> None:
-    """Render the landing page for the versioned dashboard pages."""
-    configure_page("World Cup 2026 Dashboard")
+def render_home_page() -> None:
+    """Render the landing page for the grouped dashboard pages."""
     inject_styles()
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     _, fixtures_df, _, metadata = load_data()
@@ -3177,22 +3176,114 @@ def main() -> None:
     st.markdown(
         """
         ### Page Directory
-        Use the sidebar pages to keep analysis and model versions isolated.
+        Use the grouped sidebar navigation to keep reports, models, and backtests isolated.
 
 
         #### These are the different models I have used against each other in order to simulate the 2026 FIFA World Cup tournament projections.
 
-        - `Analysis` contains the historical World Cup analysis companion with participation, goals, host effect, winner follow-up, correlations, and 2026 implications.
-        - `V1:Team Strength Model` V1 simulates the probability odds for every possible finish based on the ELO difference from their last K-matches.
-        - `V2 Form` contains the weighted-form tables and confederation splits.
-        - `V2: Multinomial Model` contains the multinomial match model and full-tournament Monte Carlo outputs.
-        - `V2 2022 Backtest` evaluates the V2 model on the real 2022 tournament with 2022 excluded from training.
-        - `V3: Poisson Regression` contains the Poisson expected-goals model and full-tournament Monte Carlo outputs.
-        - `V3 2022 Backtest` evaluates the V3 model on the real 2022 tournament using only pre-tournament data.
+        - `Reports` contains `Analysis` and `Team Report Card`.
+        - `Models` contains `V1 Team Strength`, `V2 Form`, `V2 Probabilities`, and `V3 Poisson Regression`.
+        - `Backtests` contains `V2 2022 Backtest` and `V3 2022 Backtest`.
 
         Settings and exports are separated per page so changes in one version do not interfere with the other by accident.
         """
     )
+
+
+def render_analysis_page() -> None:
+    """Render the historical analysis page from the grouped navigation router."""
+    from apps import historical_eda
+
+    analysis = importlib.reload(historical_eda)
+    st.sidebar.caption("Analysis companion page")
+    analysis.render_historical_eda_page()
+
+
+def render_team_report_card_navigation_page() -> None:
+    """Render the team report card page from the grouped navigation router."""
+    from apps import team_report_card
+
+    report_card = importlib.reload(team_report_card)
+    st.sidebar.caption("Report page")
+    report_card.render_team_report_card_page()
+
+
+def render_v1_navigation_page() -> None:
+    """Render the V1 model page from the grouped navigation router."""
+    st.sidebar.caption("Models page")
+    render_v1_dashboard()
+
+
+def render_v2_form_navigation_page() -> None:
+    """Render the V2 form model page from the grouped navigation router."""
+    st.sidebar.caption("Models page")
+    render_v2_dashboard()
+
+
+def render_v2_probabilities_navigation_page() -> None:
+    """Render the V2 probability model page from the grouped navigation router."""
+    st.sidebar.caption("Models page")
+    render_v2_probabilities_dashboard()
+
+
+def render_v3_probabilities_navigation_page() -> None:
+    """Render the V3 probability model page from the grouped navigation router."""
+    st.sidebar.caption("Models page")
+    render_v3_probabilities_dashboard()
+
+
+def render_v2_backtest_navigation_page() -> None:
+    """Render the V2 2022 backtest page from the grouped navigation router."""
+    st.sidebar.caption("Backtest page")
+    render_v2_2022_backtest_dashboard()
+
+
+def render_v3_backtest_navigation_page() -> None:
+    """Render the V3 2022 backtest page from the grouped navigation router."""
+    st.sidebar.caption("Backtest page")
+    render_v3_2022_backtest_dashboard()
+
+
+def build_navigation_pages() -> dict[str, list[st.Page]]:
+    """Build grouped Streamlit pages for the dashboard sidebar."""
+    return {
+        "Home": [
+            st.Page(render_home_page, title="Dashboard", icon=":material/home:", default=True),
+        ],
+        "Reports": [
+            st.Page(render_analysis_page, title="Analysis", icon=":material/analytics:"),
+            st.Page(
+                render_team_report_card_navigation_page,
+                title="Team Report Card",
+                icon=":material/assignment:",
+            ),
+        ],
+        "Models": [
+            st.Page(render_v1_navigation_page, title="V1 Team Strength", icon=":material/looks_one:"),
+            st.Page(render_v2_form_navigation_page, title="V2 Form", icon=":material/looks_two:"),
+            st.Page(
+                render_v2_probabilities_navigation_page,
+                title="V2 Probabilities",
+                icon=":material/functions:",
+            ),
+            st.Page(
+                render_v3_probabilities_navigation_page,
+                title="V3 Poisson Regression",
+                icon=":material/looks_3:",
+            ),
+        ],
+        "Backtests": [
+            st.Page(render_v2_backtest_navigation_page, title="V2 2022 Backtest", icon=":material/history:"),
+            st.Page(render_v3_backtest_navigation_page, title="V3 2022 Backtest", icon=":material/history:"),
+        ],
+    }
+
+
+def main() -> None:
+    """Run the grouped Streamlit navigation entrypoint."""
+    configure_page("World Cup 2026 Dashboard")
+    selected_page = st.navigation(build_navigation_pages())
+    selected_page.run()
 
 
 if __name__ == "__main__":
