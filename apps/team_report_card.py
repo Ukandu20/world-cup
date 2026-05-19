@@ -101,6 +101,10 @@ CHART_TEXT_COLOR = "#3A2A1A"
 CHART_AXIS_COLOR = "#5A4632"
 CHART_GRID_COLOR = "#D8C8AF"
 CHART_FONT_FAMILY = "Gill Sans, sans-serif"
+CHART_POSITIVE_COLOR = "#2F6F3E"
+CHART_NEGATIVE_COLOR = "#B23A30"
+CHART_ACCENT_COLOR = "#7A4E2D"
+CHART_SECONDARY_COLOR = "#2F6F73"
 SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
 ERA_COLORS = {
     "Early Era": "#7A4E2D",
@@ -803,21 +807,28 @@ def apply_report_card_chart_style(fig: Any, title: str, height: int = 360, sourc
             "text": chart_title(title),
             "x": 0.5,
             "xanchor": "center",
+            "yanchor": "top",
             "font": {"size": 18, "color": CHART_TEXT_COLOR},
         },
         font={"family": CHART_FONT_FAMILY, "size": 11, "color": CHART_TEXT_COLOR},
-        margin={"l": 38, "r": 28, "t": 70, "b": 58},
+        margin={"l": 40, "r": 40, "t": 70, "b": 72},
         paper_bgcolor=CHART_BACKGROUND,
         plot_bgcolor=CHART_BACKGROUND,
         legend={"font": {"color": CHART_TEXT_COLOR}, "title": {"font": {"color": CHART_TEXT_COLOR}}},
+        hoverlabel={
+            "bgcolor": CHART_BACKGROUND,
+            "bordercolor": CHART_AXIS_COLOR,
+            "font": {"family": CHART_FONT_FAMILY, "color": CHART_TEXT_COLOR},
+        },
     )
     fig.update_xaxes(
         showgrid=False,
         zeroline=False,
         linecolor=CHART_AXIS_COLOR,
         tickcolor=CHART_AXIS_COLOR,
-        tickfont={"color": CHART_AXIS_COLOR},
+        tickfont={"size": 13, "color": CHART_AXIS_COLOR},
         title={"font": {"color": CHART_TEXT_COLOR}},
+        title_standoff=10,
     )
     fig.update_yaxes(
         showgrid=True,
@@ -825,8 +836,9 @@ def apply_report_card_chart_style(fig: Any, title: str, height: int = 360, sourc
         zeroline=False,
         linecolor=CHART_AXIS_COLOR,
         tickcolor=CHART_AXIS_COLOR,
-        tickfont={"color": CHART_AXIS_COLOR},
+        tickfont={"size": 13, "color": CHART_AXIS_COLOR},
         title={"font": {"color": CHART_TEXT_COLOR}},
+        title_standoff=10,
     )
     if source_note:
         fig.add_annotation(
@@ -846,9 +858,23 @@ def render_report_plotly_chart(fig: Any) -> None:
 
 
 def render_report_column_chart(column: Any, fig: Any) -> None:
-    fig.update_layout(height=max(int(fig.layout.height or 360), 430), title={"font": {"size": 15, "color": CHART_TEXT_COLOR}})
-    fig.update_xaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR})
-    fig.update_yaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR})
+    fig.update_layout(
+        height=max(int(fig.layout.height or 360), 620),
+        margin={"l": 28, "r": 18, "t": 82, "b": 72},
+        title={"font": {"size": 16, "color": CHART_TEXT_COLOR}},
+        font={"size": 10, "color": CHART_TEXT_COLOR},
+        legend={"font": {"size": 9, "color": CHART_TEXT_COLOR}, "title": {"font": {"color": CHART_TEXT_COLOR}}},
+    )
+    fig.update_xaxes(
+        tickfont={"size": 10, "color": CHART_AXIS_COLOR},
+        title={"font": {"color": CHART_TEXT_COLOR}},
+        title_standoff=8,
+    )
+    fig.update_yaxes(
+        tickfont={"size": 10, "color": CHART_AXIS_COLOR},
+        title={"font": {"color": CHART_TEXT_COLOR}},
+        title_standoff=8,
+    )
     column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
 
 
@@ -861,6 +887,10 @@ def set_edition_ticks(fig: Any, frame: pd.DataFrame, tickangle: int = 35) -> Any
     if ticks:
         fig.update_xaxes(tickmode="array", tickvals=ticks, ticktext=[str(tick) for tick in ticks], tickangle=tickangle)
     return fig
+
+
+def report_axis_title(text: str) -> dict[str, Any]:
+    return {"text": text, "font": {"color": CHART_TEXT_COLOR}}
 
 
 def add_era_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
@@ -1054,8 +1084,8 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
                 "Position: %{y}<extra></extra>"
             ),
             customdata=history[["placement"]],
-            line={"color": CHART_TEXT_COLOR, "width": 1.5},
-            marker={"color": CHART_TEXT_COLOR, "size": 5},
+            line={"color": CHART_ACCENT_COLOR, "width": 1.8},
+            marker={"color": CHART_ACCENT_COLOR, "size": 6},
         )
     )
     placement_ticks = history.dropna(subset=["position"]).sort_values("position").drop_duplicates("position")
@@ -1063,12 +1093,13 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
     add_era_backgrounds(placement_fig, history)
     placement_fig.update_yaxes(
         autorange="reversed",
-        title="Placement",
+        title=report_axis_title("Placement"),
         tickmode="array",
         tickvals=placement_ticks["position"].tolist(),
         ticktext=placement_ticks["placement_label"].tolist(),
     )
     set_edition_ticks(placement_fig, history)
+    placement_fig.update_xaxes(title=report_axis_title("Edition"))
     render_report_plotly_chart(placement_fig)
 
     goals_for_fig = go.Figure()
@@ -1080,14 +1111,16 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
             text=history["goals_for"].map(lambda value: f"{float(value):.0f}" if pd.notna(value) else ""),
             textposition="top center",
             name="Goals for",
-            line={"color": CHART_TEXT_COLOR, "width": 1.5},
-            marker={"color": CHART_TEXT_COLOR, "size": 5},
+            hovertemplate="Edition: %{x}<br>Goals for: %{y:.0f}<extra></extra>",
+            line={"color": CHART_POSITIVE_COLOR, "width": 1.8},
+            marker={"color": CHART_POSITIVE_COLOR, "size": 6},
         )
     )
     apply_report_card_chart_style(goals_for_fig, f"{team_name}'s Goals For", height=430, source_note=SOURCE_NOTE)
     add_era_backgrounds(goals_for_fig, history)
-    goals_for_fig.update_yaxes(title="Goals for")
+    goals_for_fig.update_yaxes(title=report_axis_title("Goals for"))
     set_edition_ticks(goals_for_fig, history, tickangle=45)
+    goals_for_fig.update_xaxes(title=report_axis_title("Edition"))
 
     goals_against_fig = go.Figure()
     goals_against_fig.add_trace(
@@ -1098,14 +1131,16 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
             text=history["goals_against"].map(lambda value: f"{float(value):.0f}" if pd.notna(value) else ""),
             textposition="top center",
             name="Goals conceded",
-            line={"color": CHART_TEXT_COLOR, "width": 1.5},
-            marker={"color": CHART_TEXT_COLOR, "size": 5},
+            hovertemplate="Edition: %{x}<br>Goals conceded: %{y:.0f}<extra></extra>",
+            line={"color": CHART_NEGATIVE_COLOR, "width": 1.8},
+            marker={"color": CHART_NEGATIVE_COLOR, "size": 6},
         )
     )
     apply_report_card_chart_style(goals_against_fig, f"{team_name}'s Goals Conceded", height=430, source_note=SOURCE_NOTE)
     add_era_backgrounds(goals_against_fig, history)
-    goals_against_fig.update_yaxes(title="Goals conceded")
+    goals_against_fig.update_yaxes(title=report_axis_title("Goals conceded"))
     set_edition_ticks(goals_against_fig, history, tickangle=45)
+    goals_against_fig.update_xaxes(title=report_axis_title("Edition"))
 
     scored_col, conceded_col = st.columns(2)
     render_report_column_chart(scored_col, goals_for_fig)
@@ -1123,18 +1158,99 @@ def render_charts(context: dict[str, Any]) -> None:
         labels = chart_df["Date"] + " vs " + chart_df["Opponent"]
 
         elo_fig = go.Figure()
-        elo_fig.add_trace(go.Scatter(x=labels, y=chart_df["post_match_elo"], mode="lines+markers", name="Post-match Elo"))
+        elo_fig.add_trace(
+            go.Scatter(
+                x=labels,
+                y=chart_df["post_match_elo"],
+                mode="lines+markers",
+                name="Post-match Elo",
+                line={"color": CHART_SECONDARY_COLOR, "width": 1.8},
+                marker={"color": CHART_SECONDARY_COLOR, "size": 6},
+                customdata=chart_df[["Elo Change", "Result", "Score"]],
+                hovertemplate=(
+                    "Match: %{x}<br>"
+                    "Post-match Elo: %{y:.0f}<br>"
+                    "Elo change: %{customdata[0]:+.1f}<br>"
+                    "Result: %{customdata[1]}<br>"
+                    "Score: %{customdata[2]}<extra></extra>"
+                ),
+            )
+        )
         apply_report_card_chart_style(elo_fig, "Recent Elo Trend", height=340)
+        elo_fig.update_xaxes(title=report_axis_title("Match"))
+        elo_fig.update_yaxes(title=report_axis_title("ELO Rating"))
 
         perf_fig = go.Figure()
-        perf_fig.add_trace(go.Scatter(x=labels, y=chart_df["actual_score"], mode="lines+markers", name="Actual Score"))
-        perf_fig.add_trace(go.Scatter(x=labels, y=chart_df["expected_score"], mode="lines+markers", name="Expected Score"))
-        apply_report_card_chart_style(perf_fig, "Expected vs Actual Performance", height=340)
+        performance_delta = chart_df["perf_vs_exp"].astype(float)
+        perf_fig.add_trace(
+            go.Bar(
+                x=labels,
+                y=performance_delta,
+                text=performance_delta.map(lambda value: f"{value:+.2f}"),
+                textposition="outside",
+                textfont={"color": CHART_TEXT_COLOR, "size": 10},
+                cliponaxis=False,
+                name="Actual minus expected",
+                marker={
+                    "color": performance_delta.map(lambda value: CHART_POSITIVE_COLOR if value >= 0 else CHART_NEGATIVE_COLOR),
+                    "line": {"color": CHART_AXIS_COLOR, "width": 0.5},
+                },
+                customdata=chart_df[["actual_score", "expected_score"]],
+                hovertemplate=(
+                    "Match: %{x}<br>"
+                    "Actual score: %{customdata[0]:.2f}<br>"
+                    "Expected score: %{customdata[1]:.2f}<br>"
+                    "Difference: %{y:+.2f}<extra></extra>"
+                ),
+            )
+        )
+        apply_report_card_chart_style(perf_fig, "Actual vs Expected Performance Difference", height=340)
+        perf_fig.add_hline(y=0, line_color=CHART_AXIS_COLOR, line_width=1)
+        perf_fig.update_xaxes(title=report_axis_title("Match"))
+        perf_fig.update_yaxes(title=report_axis_title("Performance Differential Score"))
 
         goal_fig = go.Figure()
-        goal_fig.add_trace(go.Bar(x=labels, y=chart_df["team_score"], name="Goals For"))
-        goal_fig.add_trace(go.Bar(x=labels, y=chart_df["opponent_score"], name="Goals Against"))
+        goal_fig.add_trace(
+            go.Bar(
+                x=labels,
+                y=chart_df["team_score"],
+                name="Goals For",
+                marker={"color": CHART_POSITIVE_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
+                text=chart_df["team_score"].map(lambda value: f"{float(value):.0f}"),
+                textposition="outside",
+                textfont={"color": CHART_TEXT_COLOR, "size": 10},
+                cliponaxis=False,
+                customdata=chart_df[["opponent_score", "Result"]],
+                hovertemplate=(
+                    "Match: %{x}<br>"
+                    "Goals for: %{y:.0f}<br>"
+                    "Goals against: %{customdata[0]:.0f}<br>"
+                    "Result: %{customdata[1]}<extra></extra>"
+                ),
+            )
+        )
+        goal_fig.add_trace(
+            go.Bar(
+                x=labels,
+                y=chart_df["opponent_score"],
+                name="Goals Against",
+                marker={"color": CHART_NEGATIVE_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
+                text=chart_df["opponent_score"].map(lambda value: f"{float(value):.0f}"),
+                textposition="outside",
+                textfont={"color": CHART_TEXT_COLOR, "size": 10},
+                cliponaxis=False,
+                customdata=chart_df[["team_score", "Result"]],
+                hovertemplate=(
+                    "Match: %{x}<br>"
+                    "Goals against: %{y:.0f}<br>"
+                    "Goals for: %{customdata[0]:.0f}<br>"
+                    "Result: %{customdata[1]}<extra></extra>"
+                ),
+            )
+        )
         apply_report_card_chart_style(goal_fig, "Goals For vs Goals Against", height=340)
+        goal_fig.update_xaxes(title=report_axis_title("Match"))
+        goal_fig.update_yaxes(title=report_axis_title("Goals"))
         goal_fig.update_layout(barmode="group")
 
         breakdown_fig = go.Figure(
@@ -1146,13 +1262,34 @@ def render_charts(context: dict[str, Any]) -> None:
                     int(chart_df["normalized_result"].eq("loss").sum()),
                 ],
                 hole=0.55,
+                marker={
+                    "colors": [CHART_POSITIVE_COLOR, "#C99700", CHART_NEGATIVE_COLOR],
+                    "line": {"color": CHART_BACKGROUND, "width": 2},
+                },
+                textfont={"color": CHART_TEXT_COLOR, "size": 12},
+                hovertemplate="%{label}: %{value} matches<br>%{percent}<extra></extra>",
             )
         )
         apply_report_card_chart_style(breakdown_fig, "Win / Draw / Loss Breakdown", height=340)
+        breakdown_fig.update_traces(textinfo="label+value", insidetextfont={"color": CHART_BACKGROUND})
 
         stage_prob = context["stage_probability_table"].copy()
-        prob_fig = go.Figure(go.Bar(x=stage_prob["Probability"], y=stage_prob["Stage"], orientation="h"))
+        prob_fig = go.Figure(
+            go.Bar(
+                x=stage_prob["Probability"],
+                y=stage_prob["Stage"],
+                orientation="h",
+                marker={"color": CHART_SECONDARY_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
+                text=stage_prob["Probability"].map(lambda value: f"{float(value):.1f}%"),
+                textposition="outside",
+                textfont={"color": CHART_TEXT_COLOR, "size": 10},
+                cliponaxis=False,
+                hovertemplate="Stage: %{y}<br>Probability: %{x:.1f}%<extra></extra>",
+            )
+        )
         apply_report_card_chart_style(prob_fig, "Tournament Probability Breakdown", height=340)
+        prob_fig.update_xaxes(title=report_axis_title("Probability"))
+        prob_fig.update_yaxes(title=report_axis_title("Stage"))
 
         radar_rows = context["subject_rows"]
         radar_labels = [row["subject"] for row in radar_rows]
@@ -1165,14 +1302,28 @@ def render_charts(context: dict[str, Any]) -> None:
                 theta=radar_labels,
                 fill="toself",
                 name=context["team_row"]["display_name"],
+                line={"color": CHART_ACCENT_COLOR, "width": 2},
+                marker={"color": CHART_ACCENT_COLOR, "size": 5},
+                fillcolor="rgba(122, 78, 45, 0.22)",
+                hovertemplate="%{theta}: %{r:.1f} / 10<extra></extra>",
             )
         )
         apply_report_card_chart_style(radar_fig, "Team Profile Radar", height=340)
         radar_fig.update_layout(
             polar={
                 "bgcolor": CHART_BACKGROUND,
-                "radialaxis": {"visible": True, "range": [1, 10], "gridcolor": CHART_GRID_COLOR},
-                "angularaxis": {"gridcolor": CHART_GRID_COLOR},
+                "radialaxis": {
+                    "visible": True,
+                    "range": [1, 10],
+                    "gridcolor": CHART_GRID_COLOR,
+                    "linecolor": CHART_AXIS_COLOR,
+                    "tickfont": {"color": CHART_AXIS_COLOR, "size": 10},
+                },
+                "angularaxis": {
+                    "gridcolor": CHART_GRID_COLOR,
+                    "linecolor": CHART_AXIS_COLOR,
+                    "tickfont": {"color": CHART_AXIS_COLOR, "size": 10},
+                },
             },
             showlegend=False,
         )
