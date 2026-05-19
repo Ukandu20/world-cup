@@ -411,6 +411,131 @@ def test_build_recent_matches_table_limits_to_latest_10_and_sorts_newest_first()
     assert recent["Grade"].isin({"A+", "A", "B", "C", "D", "F"}).all()
 
 
+def test_build_qualification_path_table_filters_and_derives_cycle_metrics():
+    report_card = load_team_report_card_module()
+    lead_in_df = pd.DataFrame(
+        [
+            {
+                "lead_in_id": "old",
+                "date": "2021-10-01",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Old Opp",
+                "team_score": 4,
+                "opponent_score": 0,
+                "team_elo_start": 1700,
+                "opponent_elo_start": 1600,
+                "team_elo_delta": 5,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Old City",
+                "country": "Old Country",
+            },
+            {
+                "lead_in_id": "friendly",
+                "date": "2024-01-01",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Friendly Opp",
+                "team_score": 1,
+                "opponent_score": 0,
+                "team_elo_start": 1710,
+                "opponent_elo_start": 1660,
+                "team_elo_delta": 2,
+                "result": "win",
+                "tournament": "Friendly",
+                "city": "Town",
+                "country": "Land",
+            },
+            {
+                "lead_in_id": "q1",
+                "date": "2024-03-01",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Beta",
+                "team_score": 2,
+                "opponent_score": 1,
+                "team_elo_start": 1720,
+                "opponent_elo_start": 1680,
+                "team_elo_delta": 7.5,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Alpha City",
+                "country": "Alpha Land",
+            },
+            {
+                "lead_in_id": "q2",
+                "date": "2024-03-05",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Gamma",
+                "team_score": 0,
+                "opponent_score": 0,
+                "team_elo_start": 1727.5,
+                "opponent_elo_start": 1750,
+                "team_elo_delta": 1.0,
+                "result": "draw",
+                "tournament": "FIFA World Cup inter-confederation playoff",
+                "city": "Neutral City",
+                "country": "Neutral Land",
+            },
+            {
+                "lead_in_id": "other_team",
+                "date": "2024-03-08",
+                "qualified_team_id": "BBB",
+                "opponent_name": "Alpha",
+                "team_score": 3,
+                "opponent_score": 0,
+                "team_elo_start": 1600,
+                "opponent_elo_start": 1500,
+                "team_elo_delta": 6,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Other",
+                "country": "Other",
+            },
+        ]
+    )
+
+    path = report_card.build_qualification_path_table(lead_in_df, "AAA")
+
+    assert path["lead_in_id"].tolist() == ["q1", "q2"]
+    assert path["Opponent"].tolist() == ["Beta", "Gamma"]
+    assert path["qualification_stage"].tolist() == ["Qualifiers", "Playoffs"]
+    assert path["Result"].tolist() == ["W", "D"]
+    assert path["points"].tolist() == [3, 1]
+    assert path["cumulative_points"].tolist() == [3, 4]
+    assert path["goal_difference"].tolist() == [1.0, 0.0]
+    assert path["cumulative_goal_difference"].tolist() == [1.0, 1.0]
+    assert path["Score"].tolist() == ["2-1", "0-0"]
+    assert path["team_elo_delta"].tolist() == [7.5, 1.0]
+    assert path["post_match_elo"].tolist() == [1727.5, 1728.5]
+
+
+def test_build_qualification_path_table_returns_empty_frame_without_qualifiers():
+    report_card = load_team_report_card_module()
+    lead_in_df = pd.DataFrame(
+        [
+            {
+                "lead_in_id": "friendly",
+                "date": "2024-01-01",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Friendly Opp",
+                "team_score": 1,
+                "opponent_score": 0,
+                "team_elo_start": 1710,
+                "opponent_elo_start": 1660,
+                "team_elo_delta": 2,
+                "result": "win",
+                "tournament": "Friendly",
+                "city": "Town",
+                "country": "Land",
+            }
+        ]
+    )
+
+    path = report_card.build_qualification_path_table(lead_in_df, "AAA")
+
+    assert path.empty
+    assert {"Date", "Opponent", "Competition", "points", "cumulative_points"}.issubset(path.columns)
+
+
 def test_build_knockout_path_table_handles_projected_exit_and_progression():
     report_card = load_team_report_card_module()
     display_lookup = {"AAA": "Alpha", "BBB": "Beta", "CCC": "Gamma"}

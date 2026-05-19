@@ -36,6 +36,7 @@ SUBJECT_ORDER = (
 )
 PENDING_SUBJECTS = ("Squad Quality", "Qualification Strength")
 PENDING_IDENTITY_FIELDS = ("Coach", "Captain")
+QUALIFICATION_CYCLE_START = pd.Timestamp("2022-12-19")
 GRADE_BANDS = (
     (9.5, "A+"),
     (8.8, "A"),
@@ -105,6 +106,7 @@ CHART_POSITIVE_COLOR = "#2F6F3E"
 CHART_NEGATIVE_COLOR = "#B23A30"
 CHART_ACCENT_COLOR = "#7A4E2D"
 CHART_SECONDARY_COLOR = "#2F6F73"
+QUALIFICATION_STAGE_COLORS = {"Qualifiers": CHART_SECONDARY_COLOR, "Playoffs": "#C99700"}
 SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
 ERA_COLORS = {
     "Early Era": "#7A4E2D",
@@ -398,6 +400,99 @@ def build_recent_matches_table(lead_in_df: pd.DataFrame, team_id: str, match_win
     return team_matches.sort_values(["date", "lead_in_id"], ascending=[False, False], kind="stable").reset_index(drop=True)
 
 
+def is_world_cup_qualification_row(tournament: object) -> bool:
+    """Return whether a tournament label is part of World Cup qualification."""
+    label = str(tournament or "").strip().lower()
+    if not label:
+        return False
+    if "world cup qualification" in label:
+        return True
+    if "world cup" in label and ("playoff" in label or "play-off" in label or "inter-confederation" in label):
+        return True
+    return False
+
+
+def qualification_stage_label(tournament: object) -> str:
+    label = str(tournament or "").strip().lower()
+    return "Playoffs" if "playoff" in label or "play-off" in label or "inter-confederation" in label else "Qualifiers"
+
+
+def build_qualification_path_table(lead_in_df: pd.DataFrame, team_id: str) -> pd.DataFrame:
+    """Return the selected team's 2026 qualification-cycle path."""
+    output_columns = [
+        "lead_in_id",
+        "date",
+        "Date",
+        "Opponent",
+        "Competition",
+        "Venue",
+        "qualification_stage",
+        "Result",
+        "Score",
+        "points",
+        "cumulative_points",
+        "goal_difference",
+        "cumulative_goal_difference",
+        "team_score",
+        "opponent_score",
+        "opponent_elo_start",
+        "team_elo_delta",
+        "post_match_elo",
+        "match_label",
+    ]
+    if lead_in_df.empty or "qualified_team_id" not in lead_in_df.columns:
+        return pd.DataFrame(columns=output_columns)
+
+    df = lead_in_df.loc[lead_in_df["qualified_team_id"].astype(str).eq(str(team_id))].copy()
+    if df.empty:
+        return pd.DataFrame(columns=output_columns)
+
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    tournament_mask = (
+        df["tournament"].map(is_world_cup_qualification_row)
+        if "tournament" in df.columns
+        else pd.Series(False, index=df.index)
+    )
+    df = df.loc[tournament_mask & df["date"].ge(QUALIFICATION_CYCLE_START)].copy()
+    if df.empty:
+        return pd.DataFrame(columns=output_columns)
+
+    for column_name in ("team_score", "opponent_score", "opponent_elo_start", "team_elo_start", "team_elo_delta"):
+        if column_name in df.columns:
+            df[column_name] = pd.to_numeric(df[column_name], errors="coerce")
+        else:
+            df[column_name] = np.nan
+
+    df = df.sort_values(["date", "lead_in_id"], kind="stable").copy()
+    df["normalized_result"] = normalize_weighted_form_result(
+        df["result"],
+        df["team_score"],
+        df["opponent_score"],
+    )
+    df["Result"] = df["normalized_result"].map({"win": "W", "draw": "D", "loss": "L"}).fillna("")
+    df["points"] = df["normalized_result"].map({"win": 3, "draw": 1, "loss": 0}).fillna(0).astype(int)
+    df["goal_difference"] = (df["team_score"] - df["opponent_score"]).fillna(0).astype(float)
+    df["cumulative_points"] = df["points"].cumsum()
+    df["cumulative_goal_difference"] = df["goal_difference"].cumsum()
+    df["post_match_elo"] = df["team_elo_start"].fillna(0.0) + df["team_elo_delta"].fillna(0.0)
+    df["Date"] = df["date"].dt.strftime("%Y-%m-%d")
+    df["Opponent"] = df["opponent_name"].fillna("").astype(str) if "opponent_name" in df.columns else ""
+    df["Competition"] = df["tournament"].fillna("").astype(str) if "tournament" in df.columns else ""
+    df["qualification_stage"] = df["Competition"].map(qualification_stage_label)
+    df["Venue"] = (
+        df["city"].fillna("").astype(str).str.strip()
+        + np.where(df.get("country", pd.Series("", index=df.index)).fillna("").astype(str).str.strip().ne(""), ", ", "")
+        + df.get("country", pd.Series("", index=df.index)).fillna("").astype(str).str.strip()
+    ).str.strip(", ")
+    df["Score"] = (
+        df["team_score"].fillna(0).astype(int).astype(str)
+        + "-"
+        + df["opponent_score"].fillna(0).astype(int).astype(str)
+    )
+    df["match_label"] = df["Date"] + " vs " + df["Opponent"]
+    return df.loc[:, output_columns].reset_index(drop=True)
+
+
 def build_group_fixtures_table(fixtures_df: pd.DataFrame, team_id: str, display_lookup: dict[str, str]) -> pd.DataFrame:
     """Return the selected team's upcoming group-stage fixtures."""
     df = fixtures_df.copy()
@@ -551,6 +646,7 @@ def select_report_card_context(dataset: dict[str, Any], team_id: str, recent_mat
             team_row[column_name] = value
 
     recent_matches = build_recent_matches_table(dataset["lead_in_df"], str(team_id), match_window=recent_match_count)
+    qualification_path = build_qualification_path_table(dataset["lead_in_df"], str(team_id))
     group_fixtures = build_group_fixtures_table(dataset["fixtures_df"], str(team_id), dataset["display_lookup"])
     knockout_path = build_knockout_path_table(dataset["bracket_data"], str(team_id), dataset["display_lookup"])
     group_finish_table, stage_probability_table = build_probability_tables(team_row)
@@ -569,6 +665,7 @@ def select_report_card_context(dataset: dict[str, Any], team_id: str, recent_mat
         "subject_rows": subject_rows,
         "pending_subject_rows": build_pending_subject_rows(),
         "recent_matches": recent_matches,
+        "qualification_path": qualification_path,
         "group_fixtures": group_fixtures,
         "knockout_path": knockout_path,
         "first_knockout_match": knockout_path.iloc[0].to_dict() if not knockout_path.empty else None,
@@ -761,6 +858,49 @@ def report_card_css() -> str:
         color: var(--trc-muted);
         font-weight: 700;
     }
+    .trc-kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 10px;
+        margin: 10px 0 18px;
+    }
+    .trc-kpi {
+        border: 1px solid var(--trc-line);
+        border-radius: 8px;
+        background: var(--trc-surface);
+        padding: 12px 14px;
+        box-shadow: 0 6px 14px rgba(58, 42, 26, 0.05);
+    }
+    .trc-kpi-label {
+        color: var(--trc-muted);
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        line-height: 1.2;
+        margin-bottom: 0.45rem;
+        text-transform: uppercase;
+    }
+    .trc-kpi-value {
+        color: var(--trc-text);
+        font-size: 1.85rem;
+        font-weight: 900;
+        line-height: 1;
+    }
+    .stTabs [data-baseweb="tab-list"] {
+        border-bottom: 1px solid var(--trc-line);
+        gap: 8px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        color: var(--trc-muted);
+        font-family: Gill Sans, Inter, sans-serif;
+        font-weight: 800;
+    }
+    .stTabs [data-baseweb="tab"][aria-selected="true"] {
+        color: var(--trc-text);
+    }
+    .stTabs [data-baseweb="tab-highlight"] {
+        background-color: var(--trc-muted);
+    }
     """
 
 
@@ -893,6 +1033,19 @@ def report_axis_title(text: str) -> dict[str, Any]:
     return {"text": text, "font": {"color": CHART_TEXT_COLOR}}
 
 
+def render_kpi_cards(values: list[tuple[str, object]]) -> None:
+    cards = "".join(
+        (
+            f'<div class="trc-kpi">'
+            f'<div class="trc-kpi-label">{label}</div>'
+            f'<div class="trc-kpi-value">{value}</div>'
+            f"</div>"
+        )
+        for label, value in values
+    )
+    st.markdown(f'<div class="trc-kpi-grid">{cards}</div>', unsafe_allow_html=True)
+
+
 def add_era_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
     if "era" not in frame.columns:
         return fig
@@ -923,6 +1076,43 @@ def add_era_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
             yref="paper",
             showarrow=False,
             font={"size": 9, "color": CHART_AXIS_COLOR},
+        )
+    return fig
+
+
+def add_qualification_stage_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
+    if frame.empty or "qualification_stage" not in frame.columns or "match_index" not in frame.columns:
+        return fig
+
+    stage_runs: list[dict[str, object]] = []
+    for row in frame.loc[:, ["match_index", "qualification_stage"]].itertuples(index=False):
+        stage = str(row.qualification_stage)
+        match_index = int(row.match_index)
+        if not stage_runs or stage_runs[-1]["stage"] != stage:
+            stage_runs.append({"stage": stage, "start": match_index, "end": match_index})
+        else:
+            stage_runs[-1]["end"] = match_index
+
+    for run in stage_runs:
+        stage = str(run["stage"])
+        start = int(run["start"])
+        end = int(run["end"])
+        fig.add_vrect(
+            x0=start - 0.5,
+            x1=end + 0.5,
+            fillcolor=QUALIFICATION_STAGE_COLORS.get(stage, CHART_AXIS_COLOR),
+            opacity=0.12,
+            layer="below",
+            line_width=0,
+        )
+        fig.add_annotation(
+            text=stage,
+            x=(start + end) / 2,
+            y=1.04,
+            xref="x",
+            yref="paper",
+            showarrow=False,
+            font={"size": 10, "color": CHART_AXIS_COLOR},
         )
     return fig
 
@@ -1147,6 +1337,140 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
     render_report_column_chart(conceded_col, goals_against_fig)
 
 
+def render_qualification_path_section(context: dict[str, Any]) -> None:
+    """Render the selected team's World Cup qualification path."""
+    qualification_path = context["qualification_path"].copy()
+    st.subheader("Qualification Path")
+    if qualification_path.empty:
+        st.info("No World Cup qualification path is available for this team in the current lead-in data.")
+        return
+
+    wins = int(qualification_path["Result"].eq("W").sum())
+    draws = int(qualification_path["Result"].eq("D").sum())
+    losses = int(qualification_path["Result"].eq("L").sum())
+    goals_for = int(qualification_path["team_score"].fillna(0).sum())
+    goals_against = int(qualification_path["opponent_score"].fillna(0).sum())
+    goal_difference = int(qualification_path["goal_difference"].sum())
+    points = int(qualification_path["points"].sum())
+    avg_opp_elo = qualification_path["opponent_elo_start"].dropna().mean()
+    total_elo_change = float(qualification_path["team_elo_delta"].fillna(0.0).sum())
+    render_kpi_cards(
+        [
+            ("Matches", len(qualification_path)),
+            ("W-D-L", f"{wins}-{draws}-{losses}"),
+            ("Goals", f"{goals_for}-{goals_against}"),
+            ("Goal Diff", f"{goal_difference:+d}"),
+            ("Points", points),
+            ("Avg Opp Elo", f"{avg_opp_elo:.0f}" if pd.notna(avg_opp_elo) else "N/A"),
+            ("Elo Change", f"{total_elo_change:+.1f}"),
+        ]
+    )
+
+    go, _ = build_plotly_figure_library()
+    chart_df = qualification_path.copy()
+    chart_df["match_index"] = range(len(chart_df))
+    result_colors = qualification_path["Result"].map(
+        {"W": CHART_POSITIVE_COLOR, "D": "#C99700", "L": CHART_NEGATIVE_COLOR}
+    ).fillna(CHART_AXIS_COLOR)
+    customdata = chart_df[["Opponent", "Score", "Venue", "Competition", "team_elo_delta", "Result", "Date"]]
+
+    timeline_fig = go.Figure()
+    timeline_fig.add_trace(
+        go.Scatter(
+            x=chart_df["match_index"],
+            y=chart_df["cumulative_points"],
+            mode="lines+markers+text",
+            text=chart_df["Result"],
+            textposition="top center",
+            name="Cumulative points",
+            line={"color": CHART_ACCENT_COLOR, "width": 1.8},
+            marker={"color": result_colors, "size": 8, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
+            customdata=customdata,
+            hovertemplate=(
+                "Date: %{customdata[6]}<br>"
+                "Opponent: %{customdata[0]}<br>"
+                "Score: %{customdata[1]} (%{customdata[5]})<br>"
+                "Cumulative points: %{y}<br>"
+                "Venue: %{customdata[2]}<br>"
+                "Competition: %{customdata[3]}<br>"
+                "Elo change: %{customdata[4]:+.1f}<extra></extra>"
+            ),
+        )
+    )
+    apply_report_card_chart_style(timeline_fig, "Qualification Results Timeline", height=420)
+    add_qualification_stage_backgrounds(timeline_fig, chart_df)
+    timeline_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["Date"], tickangle=35)
+    timeline_fig.update_xaxes(title=report_axis_title("Match Date"))
+    timeline_fig.update_yaxes(title=report_axis_title("Cumulative Points"))
+
+    goals_fig = go.Figure()
+    goals_fig.add_trace(
+        go.Bar(
+            x=chart_df["match_index"],
+            y=chart_df["team_score"],
+            name="Goals For",
+            marker={"color": CHART_POSITIVE_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
+            text=chart_df["team_score"].map(lambda value: f"{float(value):.0f}"),
+            textposition="outside",
+            textfont={"color": CHART_TEXT_COLOR, "size": 10},
+            cliponaxis=False,
+            customdata=chart_df[["Opponent", "Result", "match_label"]],
+            hovertemplate="Match: %{customdata[2]}<br>Opponent: %{customdata[0]}<br>Goals for: %{y:.0f}<br>Result: %{customdata[1]}<extra></extra>",
+        )
+    )
+    goals_fig.add_trace(
+        go.Bar(
+            x=chart_df["match_index"],
+            y=chart_df["opponent_score"],
+            name="Goals Against",
+            marker={"color": CHART_NEGATIVE_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
+            text=chart_df["opponent_score"].map(lambda value: f"{float(value):.0f}"),
+            textposition="outside",
+            textfont={"color": CHART_TEXT_COLOR, "size": 10},
+            cliponaxis=False,
+            customdata=chart_df[["Opponent", "Result", "match_label"]],
+            hovertemplate="Match: %{customdata[2]}<br>Opponent: %{customdata[0]}<br>Goals against: %{y:.0f}<br>Result: %{customdata[1]}<extra></extra>",
+        )
+    )
+    apply_report_card_chart_style(goals_fig, "Qualification Goals", height=420)
+    add_qualification_stage_backgrounds(goals_fig, chart_df)
+    goals_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["match_label"], tickangle=35)
+    goals_fig.update_xaxes(title=report_axis_title("Match"))
+    goals_fig.update_yaxes(title=report_axis_title("Goals"))
+    goals_fig.update_layout(barmode="group")
+
+    elo_fig = go.Figure()
+    elo_delta = chart_df["team_elo_delta"].fillna(0.0).astype(float)
+    elo_fig.add_trace(
+        go.Bar(
+            x=chart_df["match_index"],
+            y=elo_delta,
+            name="Elo change",
+            marker={
+                "color": elo_delta.map(lambda value: CHART_POSITIVE_COLOR if value >= 0 else CHART_NEGATIVE_COLOR),
+                "line": {"color": CHART_AXIS_COLOR, "width": 0.5},
+            },
+            text=elo_delta.map(lambda value: f"{value:+.1f}"),
+            textposition="outside",
+            textfont={"color": CHART_TEXT_COLOR, "size": 10},
+            cliponaxis=False,
+            customdata=chart_df[["Opponent", "Score", "Result", "match_label"]],
+            hovertemplate="Match: %{customdata[3]}<br>Opponent: %{customdata[0]}<br>Score: %{customdata[1]} (%{customdata[2]})<br>Elo change: %{y:+.1f}<extra></extra>",
+        )
+    )
+    apply_report_card_chart_style(elo_fig, "Qualification Elo Path", height=420)
+    add_qualification_stage_backgrounds(elo_fig, chart_df)
+    elo_fig.add_hline(y=0, line_color=CHART_AXIS_COLOR, line_width=1)
+    elo_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["match_label"], tickangle=35)
+    elo_fig.update_xaxes(title=report_axis_title("Match"))
+    elo_fig.update_yaxes(title=report_axis_title("Elo Change"))
+
+    render_report_plotly_chart(timeline_fig)
+    goals_column, elo_column = st.columns(2)
+    render_report_column_chart(goals_column, goals_fig)
+    render_report_column_chart(elo_column, elo_fig)
+
+
 def render_road_here_charts(context: dict[str, Any]) -> None:
     """Render recent lead-in charts for the selected team."""
     recent_matches = context["recent_matches"].copy()
@@ -1353,6 +1677,7 @@ def render_history_tab(context: dict[str, Any]) -> None:
 
 def render_road_here_tab(context: dict[str, Any]) -> None:
     st.subheader("Road Here")
+    render_qualification_path_section(context)
     render_road_here_charts(context)
     render_recent_performance(context)
 
