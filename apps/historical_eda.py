@@ -188,7 +188,6 @@ def country_world_cup_chart_title(country: str, title: str) -> str:
 
 
 def apply_original_chart_style(fig, title: str, height: int = 560):
-    """Apply the chart styling from main.ipynb at commit b88051c."""
     title = world_cup_chart_title(title)
     fig.update_layout(
         height=height,
@@ -843,7 +842,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
         country_conceded_y = "ga"
         country_label = "Goals for"
         country_conceded_label = "Goals conceded"
-        country_title = country_world_cup_chart_title(selected_country, "Goals For")
+        country_title = country_world_cup_chart_title(selected_country, "Goals Scored")
         country_conceded_title = country_world_cup_chart_title(selected_country, "Goals Conceded")
         country_value_format = ".0f"
     else:
@@ -853,9 +852,9 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
         tournament_title = "Tournament Goals per Match"
         country_y = "goals_per_game"
         country_conceded_y = "goals_against_per_game"
-        country_label = "Goals for per game"
+        country_label = "Goals Scored per game"
         country_conceded_label = "Goals conceded per game"
-        country_title = country_world_cup_chart_title(selected_country, "Goals For per Game")
+        country_title = country_world_cup_chart_title(selected_country, "Goals Scored per Game")
         country_conceded_title = country_world_cup_chart_title(selected_country, "Goals Conceded per Game")
         country_value_format = ".2f"
 

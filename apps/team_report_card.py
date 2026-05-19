@@ -20,6 +20,7 @@ from world_cup_sim.shared import (
     normalize_historical_team_name,
     normalize_weighted_form_result,
 )
+from world_cup_sim.analysis import add_era_column
 import world_cup_simulation as simulation
 
 
@@ -94,6 +95,38 @@ DRIVER_LABELS = {
     "placement_metric": "Strong World Cup history",
     "goals_for": "Reliable attacking output",
     "host_flag": "Host advantage",
+}
+CHART_BACKGROUND = "#EFE3CF"
+CHART_TEXT_COLOR = "#3A2A1A"
+CHART_AXIS_COLOR = "#5A4632"
+CHART_GRID_COLOR = "#D8C8AF"
+CHART_FONT_FAMILY = "Gill Sans, sans-serif"
+SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
+ERA_COLORS = {
+    "Early Era": "#7A4E2D",
+    "Golden Age": "#C99700",
+    "Modern Era": "#2F6F73",
+    "Contemporary": "#8A3FFC",
+    "Recent": "#D1495B",
+}
+PLACEMENT_SHORT_LABELS = {
+    "Winner": "W",
+    "Runner-up": "F",
+    "Third Place": "3P",
+    "Fourth Place": "4P",
+    "Semi-final": "SF",
+    "Quarter-final": "QF",
+    "Round of 16": "R16",
+    "Group Stage": "GS",
+    "DNQ": "DNQ",
+}
+PLOTLY_EXPORT_CONFIG = {
+    "toImageButtonOptions": {
+        "format": "png",
+        "height": 600,
+        "width": 1000,
+        "scale": 3,
+    }
 }
 
 
@@ -549,19 +582,35 @@ def select_report_card_context(dataset: dict[str, Any], team_id: str, recent_mat
 def report_card_css() -> str:
     """Return custom CSS used by the team report-card page."""
     return """
+    :root {
+        --trc-bg: #EFE3CF;
+        --trc-surface: #F6EBD8;
+        --trc-surface-strong: #E8D5B8;
+        --trc-text: #3A2A1A;
+        --trc-muted: #5A4632;
+        --trc-line: #D8C8AF;
+    }
+    .stApp {
+        background: var(--trc-bg);
+        color: var(--trc-text);
+        font-family: Gill Sans, Inter, sans-serif;
+    }
+    .block-container {
+        background: var(--trc-bg);
+    }
     .trc-shell {
         display: grid;
         gap: 18px;
         margin-top: 0.5rem;
+        color: var(--trc-text);
+        font-family: Gill Sans, Inter, sans-serif;
     }
     .trc-hero {
-        border: 1px solid #dbe4ef;
-        border-radius: 24px;
+        border: 1px solid var(--trc-line);
+        border-radius: 10px;
         padding: 22px 24px;
-        background:
-            radial-gradient(circle at top right, rgba(56, 189, 248, 0.16), transparent 28%),
-            linear-gradient(135deg, #f8fbff 0%, #eef4fb 100%);
-        box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+        background: var(--trc-surface);
+        box-shadow: 0 10px 22px rgba(58, 42, 26, 0.08);
     }
     .trc-hero-top {
         display: flex;
@@ -578,47 +627,58 @@ def report_card_css() -> str:
     .trc-title .fi {
         font-size: 1.8rem;
         border-radius: 999px;
-        box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.12);
+        box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.28);
     }
     .trc-title h1 {
         margin: 0;
         font-size: 2rem;
         line-height: 1.1;
+        color: var(--trc-text);
     }
     .trc-subhead {
         margin-top: 0.35rem;
-        color: #475569;
+        color: var(--trc-muted);
         font-weight: 600;
     }
     .trc-grade-panel {
         min-width: 220px;
-        border-radius: 20px;
+        border: 1px solid var(--trc-muted);
+        border-radius: 10px;
         padding: 18px 20px;
-        background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 100%);
-        color: #f8fafc;
+        background: var(--trc-surface-strong);
+        color: var(--trc-text);
         text-align: center;
+    }
+    .trc-grade-country {
+        margin-bottom: 0.35rem;
+        color: var(--trc-text);
+        font-size: 1.05rem;
+        font-weight: 800;
+        line-height: 1.2;
     }
     .trc-grade-kicker {
         text-transform: uppercase;
         letter-spacing: 0.08em;
         font-size: 0.72rem;
-        color: #bfdbfe;
+        color: var(--trc-muted);
         margin-bottom: 0.45rem;
     }
     .trc-grade {
         font-size: 2.9rem;
         font-weight: 900;
         line-height: 1;
+        color: var(--trc-text);
     }
     .trc-score {
         margin-top: 0.35rem;
         font-size: 1.05rem;
         font-weight: 700;
+        color: var(--trc-text);
     }
     .trc-verdict {
         margin-top: 0.55rem;
         font-size: 0.95rem;
-        color: #dbeafe;
+        color: var(--trc-muted);
     }
     .trc-facts {
         margin-top: 18px;
@@ -627,21 +687,21 @@ def report_card_css() -> str:
         gap: 12px;
     }
     .trc-fact {
-        border: 1px solid #e2e8f0;
-        border-radius: 18px;
+        border: 1px solid var(--trc-line);
+        border-radius: 8px;
         padding: 14px 15px;
-        background: rgba(255, 255, 255, 0.84);
+        background: rgba(239, 227, 207, 0.72);
     }
     .trc-fact-label {
         text-transform: uppercase;
         letter-spacing: 0.06em;
         font-size: 0.7rem;
-        color: #64748b;
+        color: var(--trc-muted);
         margin-bottom: 0.35rem;
     }
     .trc-fact-value {
         font-weight: 700;
-        color: #0f172a;
+        color: var(--trc-text);
         line-height: 1.3;
     }
     .trc-subject-grid {
@@ -650,16 +710,16 @@ def report_card_css() -> str:
         gap: 14px;
     }
     .trc-subject-card, .trc-pending-card {
-        border: 1px solid #dbe4ef;
-        border-radius: 20px;
-        background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+        border: 1px solid var(--trc-line);
+        border-radius: 8px;
+        background: var(--trc-surface);
         padding: 16px 17px;
-        box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.06);
     }
     .trc-subject-card h3, .trc-pending-card h3 {
         margin: 0;
         font-size: 1rem;
-        color: #0f172a;
+        color: var(--trc-text);
     }
     .trc-grade-chip {
         display: inline-flex;
@@ -668,8 +728,8 @@ def report_card_css() -> str:
         min-width: 2.3rem;
         padding: 0.28rem 0.6rem;
         border-radius: 999px;
-        background: #0f172a;
-        color: #ffffff;
+        background: var(--trc-muted);
+        color: var(--trc-bg);
         font-size: 0.8rem;
         font-weight: 800;
     }
@@ -684,17 +744,17 @@ def report_card_css() -> str:
         font-size: 2rem;
         line-height: 1;
         font-weight: 900;
-        color: #0f172a;
+        color: var(--trc-text);
     }
     .trc-subject-note {
         margin-top: 0.7rem;
-        color: #475569;
+        color: var(--trc-muted);
         line-height: 1.45;
         font-size: 0.92rem;
     }
     .trc-pending-value {
         margin-top: 0.75rem;
-        color: #64748b;
+        color: var(--trc-muted);
         font-weight: 700;
     }
     """
@@ -731,6 +791,112 @@ def format_percent(value: float) -> str:
     return f"{float(value):.1f}%"
 
 
+def chart_title(title: str) -> str:
+    return title if "FIFA Men's World Cup" in title else f"FIFA Men's World Cup {title}"
+
+
+def apply_report_card_chart_style(fig: Any, title: str, height: int = 360, source_note: str | None = None) -> Any:
+    """Apply the notebook-style historical EDA chart treatment to report-card figures."""
+    fig.update_layout(
+        height=height,
+        title={
+            "text": chart_title(title),
+            "x": 0.5,
+            "xanchor": "center",
+            "font": {"size": 18, "color": CHART_TEXT_COLOR},
+        },
+        font={"family": CHART_FONT_FAMILY, "size": 11, "color": CHART_TEXT_COLOR},
+        margin={"l": 38, "r": 28, "t": 70, "b": 58},
+        paper_bgcolor=CHART_BACKGROUND,
+        plot_bgcolor=CHART_BACKGROUND,
+        legend={"font": {"color": CHART_TEXT_COLOR}, "title": {"font": {"color": CHART_TEXT_COLOR}}},
+    )
+    fig.update_xaxes(
+        showgrid=False,
+        zeroline=False,
+        linecolor=CHART_AXIS_COLOR,
+        tickcolor=CHART_AXIS_COLOR,
+        tickfont={"color": CHART_AXIS_COLOR},
+        title={"font": {"color": CHART_TEXT_COLOR}},
+    )
+    fig.update_yaxes(
+        showgrid=True,
+        gridcolor=CHART_GRID_COLOR,
+        zeroline=False,
+        linecolor=CHART_AXIS_COLOR,
+        tickcolor=CHART_AXIS_COLOR,
+        tickfont={"color": CHART_AXIS_COLOR},
+        title={"font": {"color": CHART_TEXT_COLOR}},
+    )
+    if source_note:
+        fig.add_annotation(
+            text=source_note,
+            xref="paper",
+            yref="paper",
+            x=0,
+            y=-0.16,
+            showarrow=False,
+            font={"size": 10, "color": CHART_AXIS_COLOR},
+        )
+    return fig
+
+
+def render_report_plotly_chart(fig: Any) -> None:
+    st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+
+
+def render_report_column_chart(column: Any, fig: Any) -> None:
+    fig.update_layout(height=max(int(fig.layout.height or 360), 430), title={"font": {"size": 15, "color": CHART_TEXT_COLOR}})
+    fig.update_xaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR})
+    fig.update_yaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR})
+    column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+
+
+def edition_tick_values(frame: pd.DataFrame) -> list[int]:
+    return sorted(pd.to_numeric(frame.get("edition", pd.Series(dtype=float)), errors="coerce").dropna().astype(int).unique().tolist())
+
+
+def set_edition_ticks(fig: Any, frame: pd.DataFrame, tickangle: int = 35) -> Any:
+    ticks = edition_tick_values(frame)
+    if ticks:
+        fig.update_xaxes(tickmode="array", tickvals=ticks, ticktext=[str(tick) for tick in ticks], tickangle=tickangle)
+    return fig
+
+
+def add_era_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
+    if "era" not in frame.columns:
+        return fig
+    era_frame = frame.dropna(subset=["edition", "era"]).copy()
+    if era_frame.empty:
+        return fig
+    era_ranges = (
+        era_frame.groupby("era", observed=True)["edition"]
+        .agg(["min", "max"])
+        .reset_index()
+        .sort_values("min")
+    )
+    for row in era_ranges.itertuples(index=False):
+        era_name = str(row.era)
+        fig.add_vrect(
+            x0=float(row.min) - 1.8,
+            x1=float(row.max) + 1.8,
+            fillcolor=ERA_COLORS.get(era_name, "#8B7355"),
+            opacity=0.12,
+            layer="below",
+            line_width=0,
+        )
+        fig.add_annotation(
+            text=era_name,
+            x=(float(row.min) + float(row.max)) / 2,
+            y=1.04,
+            xref="x",
+            yref="paper",
+            showarrow=False,
+            font={"size": 9, "color": CHART_AXIS_COLOR},
+        )
+    return fig
+
+
 def render_identity_header(context: dict[str, Any]) -> None:
     """Render the top hero block for the selected team."""
     team_row = context["team_row"]
@@ -751,6 +917,7 @@ def render_identity_header(context: dict[str, Any]) -> None:
               </div>
             </div>
             <div class="trc-grade-panel">
+              <div class="trc-grade-country">{team_row['display_name']}</div>
               <div class="trc-grade-kicker">Overall Report Card</div>
               <div class="trc-grade">{overall['grade']}</div>
               <div class="trc-score">{overall['score']:.1f} / 10</div>
@@ -802,86 +969,228 @@ def build_plotly_figure_library() -> tuple[Any, Any]:
     return go, make_subplots
 
 
+@st.cache_data(show_spinner=False)
+def load_report_card_historical_placement() -> pd.DataFrame:
+    placement = pd.read_csv(WORLD_CUP_ROOT / "all_editions" / "placement.csv")
+    placement = add_era_column(placement)
+    placement["team_key"] = placement["country"].map(normalize_historical_team_name)
+    for column_name in ["edition", "position", "gs", "ga", "matches_played"]:
+        if column_name in placement.columns:
+            placement[column_name] = pd.to_numeric(placement[column_name], errors="coerce")
+    return placement
+
+
+def selected_team_history_keys(team_row: pd.Series) -> set[str]:
+    candidates = {
+        str(team_row.get("team_id", "")),
+        str(team_row.get("display_name", "")),
+        str(team_row.get("canonical_name", "")),
+        str(team_row.get("team_name", "")),
+        str(team_row.get("tournament_name", "")),
+    }
+    return {normalize_historical_team_name(candidate) for candidate in candidates if candidate and candidate != "nan"}
+
+
+def historical_placement_label(row: Any) -> str:
+    placement = str(getattr(row, "placement", "") or "")
+    return placement if placement and placement != "nan" else f"Position {int(getattr(row, 'position'))}"
+
+
+def prepare_team_historical_profile(context: dict[str, Any]) -> pd.DataFrame:
+    placement = load_report_card_historical_placement()
+    keys = selected_team_history_keys(context["team_row"])
+    team_history = placement.loc[placement["team_key"].isin(keys)].copy()
+    if team_history.empty:
+        return team_history
+    team_history = team_history.sort_values(["edition", "position"], na_position="last")
+    team_history = (
+        team_history.groupby(["edition", "era"], as_index=False, observed=True)
+        .agg(
+            country=("country", "first"),
+            placement=("placement", "first"),
+            position=("position", "min"),
+            goals_for=("gs", "sum"),
+            goals_against=("ga", "sum"),
+            matches_played=("matches_played", "sum"),
+        )
+        .sort_values("edition")
+        .reset_index(drop=True)
+    )
+    team_history["goals_for_per_game"] = (
+        team_history["goals_for"] / team_history["matches_played"].replace(0, pd.NA)
+    ).astype("Float64").round(3)
+    team_history["goals_against_per_game"] = (
+        team_history["goals_against"] / team_history["matches_played"].replace(0, pd.NA)
+    ).astype("Float64").round(3)
+    team_history["placement_label"] = [
+        historical_placement_label(row) for row in team_history.itertuples(index=False)
+    ]
+    team_history["placement_short_label"] = team_history["placement"].map(PLACEMENT_SHORT_LABELS).fillna(
+        team_history["placement_label"]
+    )
+    return team_history
+
+
+def render_historical_team_charts(context: dict[str, Any]) -> None:
+    history = prepare_team_historical_profile(context)
+    team_name = str(context["team_row"].get("display_name", context["team_row"].get("team_id", "Team")))
+    if history.empty:
+        st.info("No historical World Cup placement or scoring history is available for this team.")
+        return
+
+    go, _ = build_plotly_figure_library()
+    placement_fig = go.Figure()
+    placement_fig.add_trace(
+        go.Scatter(
+            x=history["edition"],
+            y=history["position"],
+            mode="lines+markers+text",
+            text=history["placement_short_label"],
+            textposition="top center",
+            name="Placement",
+            hovertemplate=(
+                "Edition: %{x}<br>"
+                "Placement: %{customdata[0]}<br>"
+                "Position: %{y}<extra></extra>"
+            ),
+            customdata=history[["placement"]],
+            line={"color": CHART_TEXT_COLOR, "width": 1.5},
+            marker={"color": CHART_TEXT_COLOR, "size": 5},
+        )
+    )
+    placement_ticks = history.dropna(subset=["position"]).sort_values("position").drop_duplicates("position")
+    apply_report_card_chart_style(placement_fig, f"{team_name}'s Placement by Edition", height=460, source_note=SOURCE_NOTE)
+    add_era_backgrounds(placement_fig, history)
+    placement_fig.update_yaxes(
+        autorange="reversed",
+        title="Placement",
+        tickmode="array",
+        tickvals=placement_ticks["position"].tolist(),
+        ticktext=placement_ticks["placement_label"].tolist(),
+    )
+    set_edition_ticks(placement_fig, history)
+    render_report_plotly_chart(placement_fig)
+
+    goals_for_fig = go.Figure()
+    goals_for_fig.add_trace(
+        go.Scatter(
+            x=history["edition"],
+            y=history["goals_for"],
+            mode="lines+markers+text",
+            text=history["goals_for"].map(lambda value: f"{float(value):.0f}" if pd.notna(value) else ""),
+            textposition="top center",
+            name="Goals for",
+            line={"color": CHART_TEXT_COLOR, "width": 1.5},
+            marker={"color": CHART_TEXT_COLOR, "size": 5},
+        )
+    )
+    apply_report_card_chart_style(goals_for_fig, f"{team_name}'s Goals For", height=430, source_note=SOURCE_NOTE)
+    add_era_backgrounds(goals_for_fig, history)
+    goals_for_fig.update_yaxes(title="Goals for")
+    set_edition_ticks(goals_for_fig, history, tickangle=45)
+
+    goals_against_fig = go.Figure()
+    goals_against_fig.add_trace(
+        go.Scatter(
+            x=history["edition"],
+            y=history["goals_against"],
+            mode="lines+markers+text",
+            text=history["goals_against"].map(lambda value: f"{float(value):.0f}" if pd.notna(value) else ""),
+            textposition="top center",
+            name="Goals conceded",
+            line={"color": CHART_TEXT_COLOR, "width": 1.5},
+            marker={"color": CHART_TEXT_COLOR, "size": 5},
+        )
+    )
+    apply_report_card_chart_style(goals_against_fig, f"{team_name}'s Goals Conceded", height=430, source_note=SOURCE_NOTE)
+    add_era_backgrounds(goals_against_fig, history)
+    goals_against_fig.update_yaxes(title="Goals conceded")
+    set_edition_ticks(goals_against_fig, history, tickangle=45)
+
+    scored_col, conceded_col = st.columns(2)
+    render_report_column_chart(scored_col, goals_for_fig)
+    render_report_column_chart(conceded_col, goals_against_fig)
+
+
 def render_charts(context: dict[str, Any]) -> None:
     """Render the report-card charts."""
     recent_matches = context["recent_matches"].copy()
     if recent_matches.empty:
         st.info("No recent match history is available for this team.")
-        return
+    else:
+        go, _ = build_plotly_figure_library()
+        chart_df = recent_matches.sort_values(["date", "lead_in_id"], kind="stable").copy()
+        labels = chart_df["Date"] + " vs " + chart_df["Opponent"]
 
-    go, _ = build_plotly_figure_library()
-    chart_df = recent_matches.sort_values(["date", "lead_in_id"], kind="stable").copy()
-    labels = chart_df["Date"] + " vs " + chart_df["Opponent"]
+        elo_fig = go.Figure()
+        elo_fig.add_trace(go.Scatter(x=labels, y=chart_df["post_match_elo"], mode="lines+markers", name="Post-match Elo"))
+        apply_report_card_chart_style(elo_fig, "Recent Elo Trend", height=340)
 
-    elo_fig = go.Figure()
-    elo_fig.add_trace(go.Scatter(x=labels, y=chart_df["post_match_elo"], mode="lines+markers", name="Post-match Elo"))
-    elo_fig.update_layout(title="Recent Elo Trend", margin=dict(l=20, r=20, t=44, b=20), height=320)
+        perf_fig = go.Figure()
+        perf_fig.add_trace(go.Scatter(x=labels, y=chart_df["actual_score"], mode="lines+markers", name="Actual Score"))
+        perf_fig.add_trace(go.Scatter(x=labels, y=chart_df["expected_score"], mode="lines+markers", name="Expected Score"))
+        apply_report_card_chart_style(perf_fig, "Expected vs Actual Performance", height=340)
 
-    perf_fig = go.Figure()
-    perf_fig.add_trace(go.Scatter(x=labels, y=chart_df["actual_score"], mode="lines+markers", name="Actual Score"))
-    perf_fig.add_trace(go.Scatter(x=labels, y=chart_df["expected_score"], mode="lines+markers", name="Expected Score"))
-    perf_fig.update_layout(title="Expected vs Actual Performance", margin=dict(l=20, r=20, t=44, b=20), height=320)
+        goal_fig = go.Figure()
+        goal_fig.add_trace(go.Bar(x=labels, y=chart_df["team_score"], name="Goals For"))
+        goal_fig.add_trace(go.Bar(x=labels, y=chart_df["opponent_score"], name="Goals Against"))
+        apply_report_card_chart_style(goal_fig, "Goals For vs Goals Against", height=340)
+        goal_fig.update_layout(barmode="group")
 
-    goal_fig = go.Figure()
-    goal_fig.add_trace(go.Bar(x=labels, y=chart_df["team_score"], name="Goals For"))
-    goal_fig.add_trace(go.Bar(x=labels, y=chart_df["opponent_score"], name="Goals Against"))
-    goal_fig.update_layout(title="Goals For vs Goals Against", barmode="group", margin=dict(l=20, r=20, t=44, b=20), height=320)
-
-    breakdown_fig = go.Figure(
-        go.Pie(
-            labels=["Wins", "Draws", "Losses"],
-            values=[
-                int(chart_df["normalized_result"].eq("win").sum()),
-                int(chart_df["normalized_result"].eq("draw").sum()),
-                int(chart_df["normalized_result"].eq("loss").sum()),
-            ],
-            hole=0.55,
+        breakdown_fig = go.Figure(
+            go.Pie(
+                labels=["Wins", "Draws", "Losses"],
+                values=[
+                    int(chart_df["normalized_result"].eq("win").sum()),
+                    int(chart_df["normalized_result"].eq("draw").sum()),
+                    int(chart_df["normalized_result"].eq("loss").sum()),
+                ],
+                hole=0.55,
+            )
         )
-    )
-    breakdown_fig.update_layout(title="Win / Draw / Loss Breakdown", margin=dict(l=20, r=20, t=44, b=20), height=320)
+        apply_report_card_chart_style(breakdown_fig, "Win / Draw / Loss Breakdown", height=340)
 
-    stage_prob = context["stage_probability_table"].copy()
-    prob_fig = go.Figure(go.Bar(x=stage_prob["Probability"], y=stage_prob["Stage"], orientation="h"))
-    prob_fig.update_layout(title="Tournament Probability Breakdown", margin=dict(l=20, r=20, t=44, b=20), height=320)
+        stage_prob = context["stage_probability_table"].copy()
+        prob_fig = go.Figure(go.Bar(x=stage_prob["Probability"], y=stage_prob["Stage"], orientation="h"))
+        apply_report_card_chart_style(prob_fig, "Tournament Probability Breakdown", height=340)
 
-    radar_rows = context["subject_rows"]
-    radar_labels = [row["subject"] for row in radar_rows]
-    radar_scores = [float(row["score"]) for row in radar_rows]
-    radar_labels.append(radar_labels[0])
-    radar_scores.append(radar_scores[0])
-    radar_fig = go.Figure(
-        go.Scatterpolar(
-            r=radar_scores,
-            theta=radar_labels,
-            fill="toself",
-            name=context["team_row"]["display_name"],
+        radar_rows = context["subject_rows"]
+        radar_labels = [row["subject"] for row in radar_rows]
+        radar_scores = [float(row["score"]) for row in radar_rows]
+        radar_labels.append(radar_labels[0])
+        radar_scores.append(radar_scores[0])
+        radar_fig = go.Figure(
+            go.Scatterpolar(
+                r=radar_scores,
+                theta=radar_labels,
+                fill="toself",
+                name=context["team_row"]["display_name"],
+            )
         )
-    )
-    radar_fig.update_layout(
-        title="Team Profile Radar",
-        polar=dict(radialaxis=dict(visible=True, range=[1, 10])),
-        margin=dict(l=20, r=20, t=44, b=20),
-        height=320,
-        showlegend=False,
-    )
+        apply_report_card_chart_style(radar_fig, "Team Profile Radar", height=340)
+        radar_fig.update_layout(
+            polar={
+                "bgcolor": CHART_BACKGROUND,
+                "radialaxis": {"visible": True, "range": [1, 10], "gridcolor": CHART_GRID_COLOR},
+                "angularaxis": {"gridcolor": CHART_GRID_COLOR},
+            },
+            showlegend=False,
+        )
 
-    top_cols = st.columns(2)
-    with top_cols[0]:
-        st.plotly_chart(elo_fig, width="stretch")
-    with top_cols[1]:
-        st.plotly_chart(perf_fig, width="stretch")
+        top_cols = st.columns(2)
+        render_report_column_chart(top_cols[0], elo_fig)
+        render_report_column_chart(top_cols[1], perf_fig)
 
-    middle_cols = st.columns(2)
-    with middle_cols[0]:
-        st.plotly_chart(goal_fig, width="stretch")
-    with middle_cols[1]:
-        st.plotly_chart(breakdown_fig, width="stretch")
+        middle_cols = st.columns(2)
+        render_report_column_chart(middle_cols[0], goal_fig)
+        render_report_column_chart(middle_cols[1], breakdown_fig)
 
-    bottom_cols = st.columns(2)
-    with bottom_cols[0]:
-        st.plotly_chart(prob_fig, width="stretch")
-    with bottom_cols[1]:
-        st.plotly_chart(radar_fig, width="stretch")
+        bottom_cols = st.columns(2)
+        render_report_column_chart(bottom_cols[0], prob_fig)
+        render_report_column_chart(bottom_cols[1], radar_fig)
+
+    st.subheader("Historical World Cup Profile")
+    render_historical_team_charts(context)
 
 
 def render_recent_performance(context: dict[str, Any]) -> None:
