@@ -87,6 +87,8 @@ PLACEMENT_SHORT_LABELS = {
 CHART_BACKGROUND = "#EFE3CF"
 CHART_TEXT_COLOR = "#3A2A1A"
 CHART_AXIS_COLOR = "#5A4632"
+CHART_POSITIVE_COLOR = "#2F6F3E"
+CHART_NEGATIVE_COLOR = "#B23A30"
 CHART_FONT_FAMILY = "Gill Sans, sans-serif"
 PLOTLY_EXPORT_CONFIG = {
     "toImageButtonOptions": {
@@ -678,6 +680,7 @@ def render_country_goal_line(
     title: str,
     value_format: str,
     expansion: pd.DataFrame,
+    trace_color: str,
     compact: bool = False,
 ):
     display_title = world_cup_chart_title(title)
@@ -694,8 +697,8 @@ def render_country_goal_line(
     )
     fig.update_traces(
         textposition="top center",
-        line={"color": CHART_TEXT_COLOR, "width": 1.5},
-        marker={"color": CHART_TEXT_COLOR, "size": 4},
+        line={"color": trace_color, "width": 1.8},
+        marker={"color": trace_color, "size": 6},
     )
     apply_original_chart_style(fig, display_title)
     add_era_backgrounds(fig, country_goals)
@@ -1090,8 +1093,8 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
     )
     fig.update_traces(
         textposition="top center",
-        line={"color": CHART_TEXT_COLOR, "width": 1.5},
-        marker={"color": CHART_TEXT_COLOR, "size": 4},
+        line={"color": CHART_POSITIVE_COLOR, "width": 1.8},
+        marker={"color": CHART_POSITIVE_COLOR, "size": 6},
     )
     apply_original_chart_style(fig, tournament_title)
     add_era_backgrounds(fig, tournament_goals)
@@ -1107,6 +1110,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
         title=country_title,
         value_format=country_value_format,
         expansion=expansion,
+        trace_color=CHART_POSITIVE_COLOR,
         compact=True,
     )
     conceded_fig = render_country_goal_line(
@@ -1116,6 +1120,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
         title=country_conceded_title,
         value_format=country_value_format,
         expansion=expansion,
+        trace_color=CHART_NEGATIVE_COLOR,
         compact=True,
     )
     scored_column, conceded_column = st.columns(2)
