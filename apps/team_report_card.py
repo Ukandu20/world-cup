@@ -290,6 +290,12 @@ def build_pending_subject_rows() -> list[dict[str, str]]:
     return [{"subject": subject, "value": "Pending data"} for subject in PENDING_SUBJECTS]
 
 
+def is_debut_tournament(team_row: pd.Series) -> bool:
+    """Return whether the selected team is making its first World Cup appearance."""
+    appearances_value = pd.to_numeric(team_row.get("world_cup_participations", np.nan), errors="coerce")
+    return bool(pd.notna(appearances_value) and int(appearances_value) == 1)
+
+
 def build_identity_rows(team_row: pd.Series, best_finish: str) -> list[dict[str, str]]:
     """Return the key identity facts for the selected team."""
     appearances_value = team_row.get("world_cup_participations", "")
@@ -297,6 +303,7 @@ def build_identity_rows(team_row: pd.Series, best_finish: str) -> list[dict[str,
         appearances_value = ""
     else:
         appearances_value = f"{int(float(appearances_value))}"
+    best_finish_value = "Debut tournament" if is_debut_tournament(team_row) and best_finish == "No appearances" else best_finish
 
     rows = [
         {"label": "Confederation", "value": str(team_row.get("confederation", ""))},
@@ -304,7 +311,7 @@ def build_identity_rows(team_row: pd.Series, best_finish: str) -> list[dict[str,
         {"label": "FIFA Rank", "value": f"{int(float(team_row['world_rank']))}" if pd.notna(team_row.get("world_rank")) else "N/A"},
         {"label": "Elo Rating", "value": f"{int(round(float(team_row['elo_rating'])))}" if pd.notna(team_row.get("elo_rating")) else "N/A"},
         {"label": "World Cup Appearances", "value": str(appearances_value or "N/A")},
-        {"label": "Best Finish", "value": best_finish},
+        {"label": "Best Finish", "value": best_finish_value},
     ]
     rows.extend({"label": field, "value": "Pending data"} for field in PENDING_IDENTITY_FIELDS)
     return rows
@@ -945,16 +952,30 @@ def format_percent(value: float) -> str:
     return f"{float(value):.1f}%"
 
 
-def chart_title(title: str) -> str:
-    return title if "FIFA Men's World Cup" in title else f"FIFA Men's World Cup {title}"
+def chart_title(title: str, country_name: str | None = None) -> str:
+    title_text = str(title)
+    country_text = str(country_name or "").strip()
+    if country_text and title_text.startswith(f"{country_text}'s "):
+        title_text = title_text[len(f"{country_text}'s ") :]
+    if "FIFA Men's World Cup" not in title_text:
+        title_text = f"FIFA Men's World Cup {title_text}"
+    if country_text and not title_text.startswith(f"{country_text}'s "):
+        title_text = f"{country_text}'s {title_text}"
+    return title_text
 
 
-def apply_report_card_chart_style(fig: Any, title: str, height: int = 360, source_note: str | None = None) -> Any:
+def apply_report_card_chart_style(
+    fig: Any,
+    title: str,
+    height: int = 360,
+    source_note: str | None = None,
+    country_name: str | None = None,
+) -> Any:
     """Apply the notebook-style historical EDA chart treatment to report-card figures."""
     fig.update_layout(
         height=height,
         title={
-            "text": chart_title(title),
+            "text": chart_title(title, country_name),
             "x": 0.5,
             "xanchor": "center",
             "yanchor": "top",
@@ -1265,6 +1286,9 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
     history = prepare_team_historical_profile(context)
     team_name = str(context["team_row"].get("display_name", context["team_row"].get("team_id", "Team")))
     if history.empty:
+        if is_debut_tournament(context["team_row"]):
+            st.info("No historical World Cup placement or scoring history is available for this team. This is their debut tournament.")
+            return
         st.info("No historical World Cup placement or scoring history is available for this team.")
         return
 
@@ -1289,7 +1313,13 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
         )
     )
     placement_ticks = history.dropna(subset=["position"]).sort_values("position").drop_duplicates("position")
-    apply_report_card_chart_style(placement_fig, f"{team_name}'s Placement by Edition", height=460, source_note=SOURCE_NOTE)
+    apply_report_card_chart_style(
+        placement_fig,
+        "Placement by Edition",
+        height=460,
+        source_note=SOURCE_NOTE,
+        country_name=team_name,
+    )
     add_era_backgrounds(placement_fig, history)
     placement_fig.update_yaxes(
         autorange="reversed",
@@ -1310,15 +1340,21 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
             mode="lines+markers+text",
             text=history["goals_for"].map(lambda value: f"{float(value):.0f}" if pd.notna(value) else ""),
             textposition="top center",
-            name="Goals for",
-            hovertemplate="Edition: %{x}<br>Goals for: %{y:.0f}<extra></extra>",
+            name="Goals scored",
+            hovertemplate="Edition: %{x}<br>Goals scored: %{y:.0f}<extra></extra>",
             line={"color": CHART_POSITIVE_COLOR, "width": 1.8},
             marker={"color": CHART_POSITIVE_COLOR, "size": 6},
         )
     )
-    apply_report_card_chart_style(goals_for_fig, f"{team_name}'s Goals For", height=430, source_note=SOURCE_NOTE)
+    apply_report_card_chart_style(
+        goals_for_fig,
+        "Goals Scored",
+        height=430,
+        source_note=SOURCE_NOTE,
+        country_name=team_name,
+    )
     add_era_backgrounds(goals_for_fig, history)
-    goals_for_fig.update_yaxes(title=report_axis_title("Goals for"))
+    goals_for_fig.update_yaxes(title=report_axis_title("Goals scored"))
     set_edition_ticks(goals_for_fig, history, tickangle=45)
     goals_for_fig.update_xaxes(title=report_axis_title("Edition"))
 
@@ -1336,7 +1372,13 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
             marker={"color": CHART_NEGATIVE_COLOR, "size": 6},
         )
     )
-    apply_report_card_chart_style(goals_against_fig, f"{team_name}'s Goals Conceded", height=430, source_note=SOURCE_NOTE)
+    apply_report_card_chart_style(
+        goals_against_fig,
+        "Goals Conceded",
+        height=430,
+        source_note=SOURCE_NOTE,
+        country_name=team_name,
+    )
     add_era_backgrounds(goals_against_fig, history)
     goals_against_fig.update_yaxes(title=report_axis_title("Goals conceded"))
     set_edition_ticks(goals_against_fig, history, tickangle=45)
@@ -1350,6 +1392,7 @@ def render_historical_team_charts(context: dict[str, Any]) -> None:
 def render_qualification_path_section(context: dict[str, Any]) -> None:
     """Render the selected team's World Cup qualification path."""
     qualification_path = context["qualification_path"].copy()
+    team_name = str(context["team_row"].get("display_name", context["team_row"].get("team_id", "Team")))
     st.subheader("Qualification Path")
     if qualification_path.empty:
         st.info("No World Cup qualification path is available for this team in the current lead-in data.")
@@ -1407,7 +1450,7 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
             ),
         )
     )
-    apply_report_card_chart_style(timeline_fig, "Qualification Results Timeline", height=420)
+    apply_report_card_chart_style(timeline_fig, "Qualification Results Timeline", height=420, country_name=team_name)
     add_qualification_stage_backgrounds(timeline_fig, chart_df)
     timeline_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["Date"], tickangle=35)
     timeline_fig.update_xaxes(title=report_axis_title("Match Date"))
@@ -1418,14 +1461,14 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
         go.Bar(
             x=chart_df["match_index"],
             y=chart_df["team_score"],
-            name="Goals For",
+            name="Goals Scored",
             marker={"color": CHART_POSITIVE_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
             text=chart_df["team_score"].map(lambda value: f"{float(value):.0f}"),
             textposition="outside",
             textfont={"color": CHART_TEXT_COLOR, "size": 10},
             cliponaxis=False,
             customdata=chart_df[["Opponent", "Result", "match_label"]],
-            hovertemplate="Match: %{customdata[2]}<br>Opponent: %{customdata[0]}<br>Goals for: %{y:.0f}<br>Result: %{customdata[1]}<extra></extra>",
+            hovertemplate="Match: %{customdata[2]}<br>Opponent: %{customdata[0]}<br>Goals scored: %{y:.0f}<br>Result: %{customdata[1]}<extra></extra>",
         )
     )
     goals_fig.add_trace(
@@ -1442,7 +1485,7 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
             hovertemplate="Match: %{customdata[2]}<br>Opponent: %{customdata[0]}<br>Goals against: %{y:.0f}<br>Result: %{customdata[1]}<extra></extra>",
         )
     )
-    apply_report_card_chart_style(goals_fig, "Qualification Goals", height=420)
+    apply_report_card_chart_style(goals_fig, "Qualification Goals", height=420, country_name=team_name)
     add_qualification_stage_backgrounds(goals_fig, chart_df)
     goals_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["match_label"], tickangle=35)
     goals_fig.update_xaxes(title=report_axis_title("Match"))
@@ -1468,7 +1511,7 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
             hovertemplate="Match: %{customdata[3]}<br>Opponent: %{customdata[0]}<br>Score: %{customdata[1]} (%{customdata[2]})<br>Elo change: %{y:+.1f}<extra></extra>",
         )
     )
-    apply_report_card_chart_style(elo_fig, "Qualification Elo Path", height=420)
+    apply_report_card_chart_style(elo_fig, "Qualification Elo Path", height=420, country_name=team_name)
     add_qualification_stage_backgrounds(elo_fig, chart_df)
     elo_fig.add_hline(y=0, line_color=CHART_AXIS_COLOR, line_width=1)
     elo_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["match_label"], tickangle=35)
@@ -1484,6 +1527,7 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
 def render_road_here_charts(context: dict[str, Any]) -> None:
     """Render recent lead-in charts for the selected team."""
     recent_matches = context["recent_matches"].copy()
+    team_name = str(context["team_row"].get("display_name", context["team_row"].get("team_id", "Team")))
     if recent_matches.empty:
         st.info("No recent match history is available for this team.")
         return
@@ -1511,7 +1555,7 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
             ),
         )
     )
-    apply_report_card_chart_style(elo_fig, "Recent Elo Trend", height=340)
+    apply_report_card_chart_style(elo_fig, "Recent Elo Trend", height=340, country_name=team_name)
     elo_fig.update_xaxes(title=report_axis_title("Match"))
     elo_fig.update_yaxes(title=report_axis_title("ELO Rating"))
 
@@ -1539,7 +1583,12 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
             ),
         )
     )
-    apply_report_card_chart_style(perf_fig, "Actual vs Expected Performance Difference", height=340)
+    apply_report_card_chart_style(
+        perf_fig,
+        "Actual vs Expected Performance Difference",
+        height=340,
+        country_name=team_name,
+    )
     perf_fig.add_hline(y=0, line_color=CHART_AXIS_COLOR, line_width=1)
     perf_fig.update_xaxes(title=report_axis_title("Match"))
     perf_fig.update_yaxes(title=report_axis_title("Performance Differential Score"))
@@ -1549,7 +1598,7 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
         go.Bar(
             x=labels,
             y=chart_df["team_score"],
-            name="Goals For",
+            name="Goals Scored",
             marker={"color": CHART_POSITIVE_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
             text=chart_df["team_score"].map(lambda value: f"{float(value):.0f}"),
             textposition="outside",
@@ -1558,7 +1607,7 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
             customdata=chart_df[["opponent_score", "Result"]],
             hovertemplate=(
                 "Match: %{x}<br>"
-                "Goals for: %{y:.0f}<br>"
+                "Goals scored: %{y:.0f}<br>"
                 "Goals against: %{customdata[0]:.0f}<br>"
                 "Result: %{customdata[1]}<extra></extra>"
             ),
@@ -1578,12 +1627,12 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
             hovertemplate=(
                 "Match: %{x}<br>"
                 "Goals against: %{y:.0f}<br>"
-                "Goals for: %{customdata[0]:.0f}<br>"
+                "Goals scored: %{customdata[0]:.0f}<br>"
                 "Result: %{customdata[1]}<extra></extra>"
             ),
         )
     )
-    apply_report_card_chart_style(goal_fig, "Goals For vs Goals Against", height=340)
+    apply_report_card_chart_style(goal_fig, "Goals Scored vs Goals Against", height=340, country_name=team_name)
     goal_fig.update_xaxes(title=report_axis_title("Match"))
     goal_fig.update_yaxes(title=report_axis_title("Goals"))
     goal_fig.update_layout(barmode="group")
@@ -1605,7 +1654,7 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
             hovertemplate="%{label}: %{value} matches<br>%{percent}<extra></extra>",
         )
     )
-    apply_report_card_chart_style(breakdown_fig, "Win / Draw / Loss Breakdown", height=340)
+    apply_report_card_chart_style(breakdown_fig, "Win / Draw / Loss Breakdown", height=340, country_name=team_name)
     breakdown_fig.update_traces(textinfo="label+value", insidetextfont={"color": CHART_BACKGROUND})
 
     top_cols = st.columns(2)
@@ -1619,6 +1668,7 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
 
 def render_outlook_charts(context: dict[str, Any]) -> None:
     """Render prediction-focused charts for the selected team."""
+    team_name = str(context["team_row"].get("display_name", context["team_row"].get("team_id", "Team")))
     go, _ = build_plotly_figure_library()
     stage_prob = context["stage_probability_table"].copy()
     prob_fig = go.Figure(
@@ -1634,7 +1684,7 @@ def render_outlook_charts(context: dict[str, Any]) -> None:
             hovertemplate="Stage: %{y}<br>Probability: %{x:.1f}%<extra></extra>",
         )
     )
-    apply_report_card_chart_style(prob_fig, "Tournament Probability Breakdown", height=340)
+    apply_report_card_chart_style(prob_fig, "Tournament Probability Breakdown", height=340, country_name=team_name)
     prob_fig.update_xaxes(title=report_axis_title("Probability"))
     prob_fig.update_yaxes(title=report_axis_title("Stage"))
 
@@ -1655,7 +1705,7 @@ def render_outlook_charts(context: dict[str, Any]) -> None:
             hovertemplate="%{theta}: %{r:.1f} / 10<extra></extra>",
         )
     )
-    apply_report_card_chart_style(radar_fig, "Team Profile Radar", height=340)
+    apply_report_card_chart_style(radar_fig, "Team Profile Radar", height=340, country_name=team_name)
     radar_fig.update_layout(
         polar={
             "bgcolor": CHART_BACKGROUND,

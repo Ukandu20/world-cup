@@ -2963,14 +2963,14 @@ def render_v2_2022_backtest_dashboard() -> None:
                 "top1_correct",
             ],
         ],
-        width="stretch",
+        use_container_width=True,
         hide_index=True,
     )
 
     st.markdown("**Group Finish Backtest**")
     st.dataframe(
         group_backtest_table,
-        width="stretch",
+        use_container_width=True,
         hide_index=True,
     )
 
@@ -2991,7 +2991,7 @@ def render_v2_2022_backtest_dashboard() -> None:
                 "champion_prob",
             ],
         ],
-        width="stretch",
+        use_container_width=True,
         hide_index=True,
     )
 
@@ -3133,14 +3133,14 @@ def render_v3_2022_backtest_dashboard() -> None:
                 "top1_correct",
             ],
         ],
-        width="stretch",
+        use_container_width=True,
         hide_index=True,
     )
 
     st.markdown("**Group Finish Backtest**")
     st.dataframe(
         group_backtest_table,
-        width="stretch",
+        use_container_width=True,
         hide_index=True,
     )
 
@@ -3161,7 +3161,7 @@ def render_v3_2022_backtest_dashboard() -> None:
                 "champion_prob",
             ],
         ],
-        width="stretch",
+        use_container_width=True,
         hide_index=True,
     )
 

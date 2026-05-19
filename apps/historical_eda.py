@@ -52,6 +52,16 @@ FIELD_SIZE_COLORS = {
 }
 
 ALL_CONFEDERATION_FILTER = "All confederations"
+QUALIFICATION_CYCLE_START = pd.Timestamp("2022-12-19")
+QUALIFICATION_PLAYOFF_START = pd.Timestamp("2026-03-26")
+QUALIFICATION_PLAYOFF_END = pd.Timestamp("2026-03-31")
+QUALIFIER_SCORE_WEIGHTS = {
+    "points_per_match": 0.35,
+    "goal_difference_per_match": 0.25,
+    "goals_for_per_match": 0.15,
+    "defensive_score": 0.15,
+    "elo_change_per_match": 0.10,
+}
 COUNTRY_NAME_ALIASES = {
     "China PR": "China",
     "Czechia": "Czechoslovakia",
@@ -173,6 +183,216 @@ def compute_historical_eda_outputs(
     )
 
 
+def is_world_cup_qualification_tournament(tournament: object) -> bool:
+    label = str(tournament or "").strip().lower()
+    if not label:
+        return False
+    if "world cup qualification" in label:
+        return True
+    return "world cup" in label and (
+        "playoff" in label or "play-off" in label or "inter-confederation" in label
+    )
+
+
+def qualifier_stage_label(tournament: object, match_date: object | None = None) -> str:
+    date_value = pd.to_datetime(match_date, errors="coerce")
+    if pd.notna(date_value) and QUALIFICATION_PLAYOFF_START <= date_value <= QUALIFICATION_PLAYOFF_END:
+        return "Qualifier playoffs"
+    label = str(tournament or "").strip().lower()
+    return "Qualifier playoffs" if "playoff" in label or "play-off" in label or "inter-confederation" in label else "Qualifiers"
+
+
+def minmax_score(values: pd.Series, *, invert: bool = False) -> pd.Series:
+    numeric = pd.to_numeric(values, errors="coerce").astype(float)
+    if numeric.empty:
+        return numeric
+    min_value = numeric.min()
+    max_value = numeric.max()
+    if pd.isna(min_value) or pd.isna(max_value):
+        return pd.Series(0.0, index=values.index)
+    if max_value == min_value:
+        return pd.Series(50.0, index=values.index)
+    if invert:
+        return ((max_value - numeric) / (max_value - min_value) * 100).fillna(0.0)
+    return ((numeric - min_value) / (max_value - min_value) * 100).fillna(0.0)
+
+
+def normalize_boolean_series(values: pd.Series) -> pd.Series:
+    if values.empty:
+        return pd.Series(dtype=bool)
+    if values.dtype == bool:
+        return values.fillna(False)
+    return values.fillna(False).astype(str).str.strip().str.upper().isin({"TRUE", "1", "YES"})
+
+
+def build_qualifier_performance_tables(lead_in_df: pd.DataFrame, teams_df: pd.DataFrame) -> dict[str, pd.DataFrame]:
+    summary_columns = [
+        "team_id",
+        "team",
+        "confederation",
+        "qualification_path",
+        "matches",
+        "wins",
+        "draws",
+        "losses",
+        "points",
+        "points_per_match",
+        "goals_for",
+        "goals_against",
+        "goal_difference",
+        "goals_for_per_match",
+        "goals_against_per_match",
+        "goal_difference_per_match",
+        "elo_change",
+        "elo_change_per_match",
+        "performance_score",
+    ]
+    match_columns = [
+        "date",
+        "Date",
+        "team_id",
+        "Team",
+        "Confederation",
+        "Opponent",
+        "Result",
+        "Score",
+        "Tournament",
+        "Stage",
+        "Venue",
+        "Elo Change",
+    ]
+    if lead_in_df.empty or teams_df.empty:
+        return {"summary": pd.DataFrame(columns=summary_columns), "matches": pd.DataFrame(columns=match_columns)}
+
+    teams = teams_df.copy()
+    teams["team_id"] = teams["team_id"].astype(str)
+    team_name_column = "team" if "team" in teams.columns else "country"
+    teams["team"] = teams[team_name_column].fillna(teams["team_id"]).astype(str)
+    teams["confederation"] = teams.get("confederation", pd.Series("", index=teams.index)).fillna("").astype(str)
+    teams["qualification_path"] = teams.get("qualification_path", pd.Series("", index=teams.index)).fillna("").astype(str)
+    teams["is_host"] = normalize_boolean_series(teams.get("is_host", pd.Series(False, index=teams.index)))
+    non_host_teams = teams.loc[~teams["is_host"], ["team_id", "team", "confederation", "qualification_path"]].drop_duplicates(
+        "team_id"
+    )
+    non_host_ids = set(non_host_teams["team_id"])
+
+    matches = lead_in_df.copy()
+    matches["qualified_team_id"] = matches["qualified_team_id"].astype(str)
+    matches["date"] = pd.to_datetime(matches["date"], errors="coerce")
+    tournament_mask = matches["tournament"].map(is_world_cup_qualification_tournament)
+    matches = matches.loc[
+        tournament_mask
+        & matches["date"].ge(QUALIFICATION_CYCLE_START)
+        & matches["qualified_team_id"].isin(non_host_ids)
+    ].copy()
+    if matches.empty:
+        return {"summary": pd.DataFrame(columns=summary_columns), "matches": pd.DataFrame(columns=match_columns)}
+
+    for column_name in ["team_score", "opponent_score", "team_elo_delta"]:
+        matches[column_name] = pd.to_numeric(matches[column_name], errors="coerce").fillna(0.0)
+    matches["result_normalized"] = matches["result"].fillna("").astype(str).str.lower()
+    matches["points"] = matches["result_normalized"].map({"win": 3, "draw": 1, "loss": 0}).fillna(0).astype(int)
+    matches["win"] = matches["result_normalized"].eq("win").astype(int)
+    matches["draw"] = matches["result_normalized"].eq("draw").astype(int)
+    matches["loss"] = matches["result_normalized"].eq("loss").astype(int)
+    matches["goal_difference"] = matches["team_score"] - matches["opponent_score"]
+    matches = matches.merge(
+        non_host_teams,
+        left_on="qualified_team_id",
+        right_on="team_id",
+        how="inner",
+        validate="many_to_one",
+    )
+
+    summary = (
+        matches.groupby(["team_id", "team", "confederation", "qualification_path"], as_index=False)
+        .agg(
+            matches=("lead_in_id", "count"),
+            wins=("win", "sum"),
+            draws=("draw", "sum"),
+            losses=("loss", "sum"),
+            points=("points", "sum"),
+            goals_for=("team_score", "sum"),
+            goals_against=("opponent_score", "sum"),
+            goal_difference=("goal_difference", "sum"),
+            elo_change=("team_elo_delta", "sum"),
+        )
+        .sort_values(["points", "goal_difference", "goals_for"], ascending=[False, False, False])
+        .reset_index(drop=True)
+    )
+    for numerator, output_column in [
+        ("points", "points_per_match"),
+        ("goals_for", "goals_for_per_match"),
+        ("goals_against", "goals_against_per_match"),
+        ("goal_difference", "goal_difference_per_match"),
+        ("elo_change", "elo_change_per_match"),
+    ]:
+        summary[output_column] = (summary[numerator] / summary["matches"].replace(0, pd.NA)).astype("Float64")
+
+    component_scores = {
+        "points_per_match": minmax_score(summary["points_per_match"]),
+        "goal_difference_per_match": minmax_score(summary["goal_difference_per_match"]),
+        "goals_for_per_match": minmax_score(summary["goals_for_per_match"]),
+        "defensive_score": minmax_score(summary["goals_against_per_match"], invert=True),
+        "elo_change_per_match": minmax_score(summary["elo_change_per_match"]),
+    }
+    summary["performance_score"] = sum(
+        component_scores[column_name] * weight for column_name, weight in QUALIFIER_SCORE_WEIGHTS.items()
+    ).round(1)
+    numeric_summary_columns = [
+        "points_per_match",
+        "goals_for_per_match",
+        "goals_against_per_match",
+        "goal_difference_per_match",
+        "elo_change",
+        "elo_change_per_match",
+    ]
+    for column_name in numeric_summary_columns:
+        summary[column_name] = pd.to_numeric(summary[column_name], errors="coerce").round(3)
+    for column_name in ["goals_for", "goals_against", "goal_difference"]:
+        summary[column_name] = pd.to_numeric(summary[column_name], errors="coerce").round(0).astype(int)
+    summary = summary.sort_values(
+        ["performance_score", "points_per_match", "goal_difference_per_match"],
+        ascending=[False, False, False],
+        kind="stable",
+    ).reset_index(drop=True)
+
+    matches["Date"] = matches["date"].dt.strftime("%Y-%m-%d")
+    matches["Team"] = matches["team"]
+    matches["Confederation"] = matches["confederation"]
+    matches["Opponent"] = matches.get("opponent_name", pd.Series("", index=matches.index)).fillna("").astype(str)
+    matches["Result"] = matches["result_normalized"].map({"win": "W", "draw": "D", "loss": "L"}).fillna("")
+    matches["Score"] = (
+        matches["team_score"].astype(int).astype(str) + "-" + matches["opponent_score"].astype(int).astype(str)
+    )
+    matches["Tournament"] = matches["tournament"].fillna("").astype(str)
+    matches["Stage"] = [
+        qualifier_stage_label(tournament, match_date)
+        for tournament, match_date in zip(matches["Tournament"], matches["date"], strict=False)
+    ]
+    matches["Venue"] = (
+        matches.get("city", pd.Series("", index=matches.index)).fillna("").astype(str).str.strip()
+        + matches.get("country", pd.Series("", index=matches.index))
+        .fillna("")
+        .astype(str)
+        .str.strip()
+        .map(lambda value: f", {value}" if value else "")
+    ).str.strip(", ")
+    matches["Elo Change"] = pd.to_numeric(matches["team_elo_delta"], errors="coerce").round(1)
+    matches = matches.sort_values(["date", "Team", "lead_in_id"], kind="stable").reset_index(drop=True)
+
+    return {"summary": summary.loc[:, summary_columns], "matches": matches.loc[:, match_columns]}
+
+
+@st.cache_data(show_spinner=False)
+def load_qualifier_performance_tables() -> dict[str, pd.DataFrame]:
+    data_root = ROOT / "data" / "processed" / "world_cup" / "2026"
+    return build_qualifier_performance_tables(
+        pd.read_csv(data_root / "team_results_lead_in.csv"),
+        pd.read_csv(data_root / "teams.csv"),
+    )
+
+
 def render_metric_row(values: dict[str, object]) -> None:
     columns = st.columns(len(values))
     for column, (label, value) in zip(columns, values.items()):
@@ -238,7 +458,7 @@ def apply_original_chart_style(fig, title: str, height: int = 560):
 
 
 def render_plotly_chart(fig) -> None:
-    st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+    st.plotly_chart(fig, use_container_width=True, config=PLOTLY_EXPORT_CONFIG)
 
 
 def render_column_plotly_chart(column, fig) -> None:
@@ -251,7 +471,7 @@ def render_column_plotly_chart(column, fig) -> None:
     )
     fig.update_xaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
     fig.update_yaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
-    column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+    column.plotly_chart(fig, use_container_width=True, config=PLOTLY_EXPORT_CONFIG)
 
 
 def edition_tick_values(frame: pd.DataFrame) -> list[int]:
@@ -905,7 +1125,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
     st.dataframe(
         placement_summary,
         hide_index=True,
-        width="stretch",
+        use_container_width=True,
     )
 
 
@@ -956,7 +1176,7 @@ def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
             ]
         ],
         hide_index=True,
-        width="stretch",
+        use_container_width=True,
     )
 
 
@@ -988,7 +1208,7 @@ def render_winner_followup_tab(winners: pd.DataFrame) -> None:
     fig.update_xaxes(title="Tournament Edition", tickangle=45)
     set_edition_ticks(fig, winners, tickangle=45)
     render_plotly_chart(fig)
-    st.dataframe(winners, hide_index=True, width="stretch")
+    st.dataframe(winners, hide_index=True, use_container_width=True)
 
 
 def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -1064,11 +1284,224 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
 
     with chart_tabs[4]:
         st.markdown("**Pre-Tournament Correlations**")
-        st.dataframe(pre_corr, hide_index=True, width="stretch")
+        st.dataframe(pre_corr, hide_index=True, use_container_width=True)
         st.markdown("**In-Tournament Correlations**")
-        st.dataframe(tournament_corr, hide_index=True, width="stretch")
+        st.dataframe(tournament_corr, hide_index=True, use_container_width=True)
         st.markdown("**Last-k History Correlations**")
-        st.dataframe(last_k_corr, hide_index=True, width="stretch")
+        st.dataframe(last_k_corr, hide_index=True, use_container_width=True)
+
+
+def render_qualifiers_tab(outputs: dict[str, pd.DataFrame]) -> None:
+    summary = outputs["summary"].copy()
+    matches = outputs["matches"].copy()
+    if summary.empty:
+        st.info("No 2026 qualifier performance data is available for non-host qualified teams.")
+        return
+
+    confederations = [
+        confederation
+        for confederation in CONFEDERATION_ORDER
+        if confederation in set(summary["confederation"].dropna().astype(str))
+    ]
+    extra_confederations = sorted(set(summary["confederation"].dropna().astype(str)).difference(confederations))
+    selected_confederation = st.selectbox(
+        "Confederation",
+        [ALL_CONFEDERATION_FILTER, *confederations, *extra_confederations],
+        key="historical_eda_qualifier_confederation",
+    )
+    if selected_confederation != ALL_CONFEDERATION_FILTER:
+        summary = summary.loc[summary["confederation"].eq(selected_confederation)].copy()
+        matches = matches.loc[matches["Confederation"].eq(selected_confederation)].copy()
+
+    if summary.empty:
+        st.info("No qualifier data is available for this confederation.")
+        return
+
+    top_team = summary.sort_values("performance_score", ascending=False, kind="stable").iloc[0]
+    total_matches = int(summary["matches"].sum())
+    avg_points = float(summary["points"].sum() / total_matches) if total_matches else 0.0
+    avg_goals = float(summary["goals_for"].sum() / total_matches) if total_matches else 0.0
+    render_metric_row(
+        {
+            "Teams": len(summary),
+            "Matches": total_matches,
+            "Avg Points/Match": f"{avg_points:.2f}",
+            "Avg Goals/Match": f"{avg_goals:.2f}",
+            "Top Performance Team": str(top_team["team"]),
+        }
+    )
+
+    chart_limit = min(20, len(summary))
+    performance_rank = summary.nlargest(chart_limit, "performance_score").sort_values("performance_score")
+    performance_fig = px.bar(
+        performance_rank,
+        x="performance_score",
+        y="team",
+        orientation="h",
+        color="confederation",
+        color_discrete_map=CONFEDERATION_COLORS,
+        text=performance_rank["performance_score"].map(lambda value: f"{value:.1f}"),
+        hover_data={
+            "matches": True,
+            "points_per_match": ":.2f",
+            "goal_difference_per_match": ":.2f",
+            "elo_change_per_match": ":.2f",
+            "confederation": False,
+            "team": False,
+        },
+        labels={"performance_score": "Performance Score", "team": "Team"},
+        title=world_cup_chart_title("2026 Qualifier Performance Score"),
+    )
+    performance_fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(performance_fig, "2026 Qualifier Performance Score", height=max(520, chart_limit * 28 + 180))
+    performance_fig.update_yaxes(categoryorder="array", categoryarray=performance_rank["team"].tolist())
+    render_plotly_chart(performance_fig)
+
+    goals_mode = st.radio(
+        "Goals chart values",
+        ["Totals", "Per game"],
+        horizontal=True,
+        key="historical_eda_qualifier_goals_mode",
+    )
+    goals_for_metric = "goals_for" if goals_mode == "Totals" else "goals_for_per_match"
+    goals_against_metric = "goals_against" if goals_mode == "Totals" else "goals_against_per_match"
+    goals_for_label = "Goals For" if goals_mode == "Totals" else "Goals For per Game"
+    goals_against_label = "Goals Against" if goals_mode == "Totals" else "Goals Against per Game"
+    goals_text_format = ".0f" if goals_mode == "Totals" else ".2f"
+
+    goals_for_rank = summary.nlargest(chart_limit, goals_for_metric).sort_values(goals_for_metric)
+    goals_against_rank = summary.nsmallest(chart_limit, goals_against_metric).sort_values(
+        goals_against_metric, ascending=False
+    )
+    left, right = st.columns(2)
+    goals_for_fig = px.bar(
+        goals_for_rank,
+        x=goals_for_metric,
+        y="team",
+        orientation="h",
+        color="confederation",
+        color_discrete_map=CONFEDERATION_COLORS,
+        text=goals_for_rank[goals_for_metric].map(lambda value: f"{value:{goals_text_format}}"),
+        hover_data={"matches": True, "goals_for_per_match": ":.2f", "confederation": False, "team": False},
+        labels={goals_for_metric: goals_for_label, "team": "Team"},
+        title=world_cup_chart_title(f"2026 Qualifier {goals_for_label}"),
+    )
+    goals_for_fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(goals_for_fig, f"2026 Qualifier {goals_for_label}", height=560)
+    goals_for_fig.update_yaxes(categoryorder="array", categoryarray=goals_for_rank["team"].tolist())
+    render_column_plotly_chart(left, goals_for_fig)
+
+    goals_against_fig = px.bar(
+        goals_against_rank,
+        x=goals_against_metric,
+        y="team",
+        orientation="h",
+        color="confederation",
+        color_discrete_map=CONFEDERATION_COLORS,
+        text=goals_against_rank[goals_against_metric].map(lambda value: f"{value:{goals_text_format}}"),
+        hover_data={"matches": True, "goals_against_per_match": ":.2f", "confederation": False, "team": False},
+        labels={goals_against_metric: goals_against_label, "team": "Team"},
+        title=world_cup_chart_title(f"2026 Qualifier {goals_against_label}"),
+    )
+    goals_against_fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(goals_against_fig, f"2026 Qualifier {goals_against_label}", height=560)
+    goals_against_fig.update_yaxes(categoryorder="array", categoryarray=goals_against_rank["team"].tolist())
+    render_column_plotly_chart(right, goals_against_fig)
+
+    scatter_fig = px.scatter(
+        summary,
+        x="goals_for_per_match",
+        y="goals_against_per_match",
+        color="confederation",
+        size="points_per_match",
+        hover_name="team",
+        color_discrete_map=CONFEDERATION_COLORS,
+        hover_data={
+            "matches": True,
+            "performance_score": ":.1f",
+            "goal_difference_per_match": ":.2f",
+            "elo_change_per_match": ":.2f",
+            "confederation": False,
+        },
+        labels={
+            "goals_for_per_match": "Goals For per Match",
+            "goals_against_per_match": "Goals Against per Match",
+            "points_per_match": "Points per Match",
+        },
+        title=world_cup_chart_title("2026 Qualifier Attack vs Defense"),
+    )
+    apply_original_chart_style(scatter_fig, "2026 Qualifier Attack vs Defense", height=620)
+    render_plotly_chart(scatter_fig)
+
+    display_summary = summary.rename(
+        columns={
+            "team": "Team",
+            "confederation": "Confederation",
+            "qualification_path": "Qualification Path",
+            "matches": "Matches",
+            "wins": "Wins",
+            "draws": "Draws",
+            "losses": "Losses",
+            "points": "Points",
+            "points_per_match": "Points/Match",
+            "goals_for": "Goals For",
+            "goals_against": "Goals Against",
+            "goal_difference": "Goal Difference",
+            "goals_for_per_match": "Goals For/Match",
+            "goals_against_per_match": "Goals Against/Match",
+            "goal_difference_per_match": "Goal Difference/Match",
+            "elo_change": "Elo Change",
+            "elo_change_per_match": "Elo Change/Match",
+            "performance_score": "Performance Score",
+        }
+    )
+    st.dataframe(
+        display_summary[
+            [
+                "Team",
+                "Confederation",
+                "Qualification Path",
+                "Matches",
+                "Wins",
+                "Draws",
+                "Losses",
+                "Points",
+                "Points/Match",
+                "Goals For",
+                "Goals Against",
+                "Goal Difference",
+                "Goals For/Match",
+                "Goals Against/Match",
+                "Goal Difference/Match",
+                "Elo Change",
+                "Elo Change/Match",
+                "Performance Score",
+            ]
+        ],
+        hide_index=True,
+        use_container_width=True,
+    )
+
+    with st.expander("Qualifier match details"):
+        st.dataframe(
+            matches.loc[
+                :,
+                [
+                    "Date",
+                    "Team",
+                    "Confederation",
+                    "Opponent",
+                    "Result",
+                    "Score",
+                    "Tournament",
+                    "Stage",
+                    "Venue",
+                    "Elo Change",
+                ],
+            ],
+            hide_index=True,
+            use_container_width=True,
+        )
 
 
 def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -1097,7 +1530,7 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
     distribution_fig.update_traces(textinfo="label+value+percent", textposition="inside")
     apply_original_chart_style(distribution_fig, "2026 Confederation Share", height=500)
     render_column_plotly_chart(left, distribution_fig)
-    right.dataframe(qualified, hide_index=True, width="stretch")
+    right.dataframe(qualified, hide_index=True, use_container_width=True)
 
 
 def render_historical_eda_page() -> None:
@@ -1126,7 +1559,9 @@ def render_historical_eda_page() -> None:
     ) = compute_historical_eda_outputs(lookback=lookback)
 
     with st.expander("Data quality snapshot"):
-        st.dataframe(quality, hide_index=True, width="stretch")
+        st.dataframe(quality, hide_index=True, use_container_width=True)
+
+    qualifier_outputs = load_qualifier_performance_tables()
 
     tabs = st.tabs(
         [
@@ -1135,6 +1570,7 @@ def render_historical_eda_page() -> None:
             "Host Effect",
             "Winner Follow-up",
             "Correlations",
+            "Qualifiers",
             "2026 Implications",
         ]
     )
@@ -1149,4 +1585,6 @@ def render_historical_eda_page() -> None:
     with tabs[4]:
         render_correlations_tab(correlations)
     with tabs[5]:
+        render_qualifiers_tab(qualifier_outputs)
+    with tabs[6]:
         render_2026_implications_tab(implications_2026)

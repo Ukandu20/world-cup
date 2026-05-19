@@ -121,6 +121,14 @@ def load_team_report_card_module():
     return module
 
 
+def load_historical_eda_module():
+    spec = importlib.util.spec_from_file_location("historical_eda", ROOT / "apps" / "historical_eda.py")
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    return module
+
+
 def test_processed_world_cup_dataset_has_normalized_ids_and_metadata():
     for year in WORLD_CUP_EDITIONS:
         edition_dir = WORLD_CUP_ROOT / str(year)
@@ -367,6 +375,12 @@ def test_report_card_grade_bands_and_scores_are_bounded():
     assert report_card.score_to_grade(6.0) == "C"
     assert report_card.score_to_grade(4.5) == "D"
     assert report_card.score_to_grade(4.4) == "F"
+    assert report_card.chart_title("Qualification Goals", "Brazil") == "Brazil's FIFA Men's World Cup Qualification Goals"
+    assert report_card.chart_title("Brazil's Goals Scored", "Brazil") == "Brazil's FIFA Men's World Cup Goals Scored"
+    assert (
+        report_card.chart_title("FIFA Men's World Cup Team Profile Radar", "Brazil")
+        == "Brazil's FIFA Men's World Cup Team Profile Radar"
+    )
 
 
 def test_build_best_finish_lookup_maps_historical_aliases():
@@ -647,6 +661,170 @@ def test_build_identity_rows_marks_pending_fields_cleanly():
     assert by_label["Best Finish"] == "Winner"
     assert by_label["Coach"] == "Pending data"
     assert by_label["Captain"] == "Pending data"
+
+    debut_row = pd.Series(
+        {
+            "confederation": "CAF",
+            "group_code": "A",
+            "world_rank": 61,
+            "elo_rating": 1540,
+            "world_cup_participations": 1,
+        }
+    )
+    debut_rows = report_card.build_identity_rows(debut_row, "No appearances")
+    debut_by_label = {row["label"]: row["value"] for row in debut_rows}
+
+    assert report_card.is_debut_tournament(debut_row)
+    assert debut_by_label["World Cup Appearances"] == "1"
+    assert debut_by_label["Best Finish"] == "Debut tournament"
+
+
+def test_build_qualifier_performance_tables_filters_hosts_and_scores_metrics():
+    historical_eda = load_historical_eda_module()
+    teams_df = pd.DataFrame(
+        [
+            {
+                "team_id": "AAA",
+                "team": "Alpha",
+                "confederation": "UEFA",
+                "qualification_path": "Group winner",
+                "is_host": False,
+            },
+            {
+                "team_id": "BBB",
+                "team": "Beta",
+                "confederation": "CAF",
+                "qualification_path": "Group winner",
+                "is_host": False,
+            },
+            {
+                "team_id": "HST",
+                "team": "Host",
+                "confederation": "CONCACAF",
+                "qualification_path": "Host nation",
+                "is_host": True,
+            },
+        ]
+    )
+    lead_in_df = pd.DataFrame(
+        [
+            {
+                "lead_in_id": "old_qualifier",
+                "date": "2022-12-18",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Old Opp",
+                "team_score": 9,
+                "opponent_score": 0,
+                "team_elo_delta": 90,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Old City",
+                "country": "Old Land",
+            },
+            {
+                "lead_in_id": "friendly",
+                "date": "2024-01-01",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Friendly Opp",
+                "team_score": 5,
+                "opponent_score": 0,
+                "team_elo_delta": 50,
+                "result": "win",
+                "tournament": "Friendly",
+                "city": "Friendly City",
+                "country": "Friendly Land",
+            },
+            {
+                "lead_in_id": "aaa_1",
+                "date": "2024-01-02",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Gamma",
+                "team_score": 3,
+                "opponent_score": 1,
+                "team_elo_delta": 8,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Alpha City",
+                "country": "Alpha Land",
+            },
+            {
+                "lead_in_id": "aaa_2",
+                "date": "2026-03-31",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Delta",
+                "team_score": 2,
+                "opponent_score": 1,
+                "team_elo_delta": 2,
+                "result": "draw",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Playoff City",
+                "country": "Playoff Land",
+            },
+            {
+                "lead_in_id": "bbb_1",
+                "date": "2024-01-03",
+                "qualified_team_id": "BBB",
+                "opponent_name": "Epsilon",
+                "team_score": 1,
+                "opponent_score": 0,
+                "team_elo_delta": 1,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Beta City",
+                "country": "Beta Land",
+            },
+            {
+                "lead_in_id": "bbb_2",
+                "date": "2024-01-04",
+                "qualified_team_id": "BBB",
+                "opponent_name": "Zeta",
+                "team_score": 1,
+                "opponent_score": 2,
+                "team_elo_delta": -5,
+                "result": "loss",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Beta City",
+                "country": "Beta Land",
+            },
+            {
+                "lead_in_id": "host_qualifier",
+                "date": "2024-01-05",
+                "qualified_team_id": "HST",
+                "opponent_name": "Host Opp",
+                "team_score": 4,
+                "opponent_score": 0,
+                "team_elo_delta": 40,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Host City",
+                "country": "Host Land",
+            },
+        ]
+    )
+
+    outputs = historical_eda.build_qualifier_performance_tables(lead_in_df, teams_df)
+    summary = outputs["summary"].set_index("team_id")
+    matches = outputs["matches"]
+
+    assert summary.index.tolist() == ["AAA", "BBB"]
+    assert summary.loc["AAA", "matches"] == 2
+    assert summary.loc["AAA", "wins"] == 1
+    assert summary.loc["AAA", "draws"] == 1
+    assert summary.loc["AAA", "losses"] == 0
+    assert summary.loc["AAA", "points"] == 4
+    assert summary.loc["AAA", "points_per_match"] == 2.0
+    assert summary.loc["AAA", "goals_for"] == 5
+    assert summary.loc["AAA", "goals_against"] == 2
+    assert summary.loc["AAA", "goal_difference"] == 3
+    assert summary.loc["AAA", "goal_difference_per_match"] == 1.5
+    assert summary.loc["AAA", "elo_change"] == 10
+    assert summary.loc["AAA", "elo_change_per_match"] == 5.0
+    assert summary.loc["AAA", "performance_score"] == 92.5
+    assert summary.loc["BBB", "performance_score"] == 7.5
+    assert len(matches) == 4
+    assert set(matches["team_id"]) == {"AAA", "BBB"}
+    assert pd.to_datetime(matches["date"]).min() >= pd.Timestamp("2022-12-19")
+    assert matches.loc[matches["Date"].eq("2026-03-31"), "Stage"].iloc[0] == "Qualifier playoffs"
 
 
 def test_build_model_reason_bullets_uses_team_id_index_not_range_index():
