@@ -11,7 +11,6 @@ import textwrap
 
 import pandas as pd
 import streamlit as st
-import streamlit.components.v1 as components
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -1034,7 +1033,7 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
 def render_countdown_timer(fixtures_df: pd.DataFrame) -> None:
     """Render a live countdown to the first scheduled group-stage kickoff."""
     kickoff_details = get_first_kickoff_details(fixtures_df)
-    components.html(build_countdown_html(kickoff_details), height=225)
+    st.iframe(build_countdown_html(kickoff_details), height=225)
 
 
 def format_percent(value: float) -> str:
@@ -2963,14 +2962,14 @@ def render_v2_2022_backtest_dashboard() -> None:
                 "top1_correct",
             ],
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
     st.markdown("**Group Finish Backtest**")
     st.dataframe(
         group_backtest_table,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -2991,7 +2990,7 @@ def render_v2_2022_backtest_dashboard() -> None:
                 "champion_prob",
             ],
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -3133,14 +3132,14 @@ def render_v3_2022_backtest_dashboard() -> None:
                 "top1_correct",
             ],
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
     st.markdown("**Group Finish Backtest**")
     st.dataframe(
         group_backtest_table,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -3161,7 +3160,7 @@ def render_v3_2022_backtest_dashboard() -> None:
                 "champion_prob",
             ],
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -3288,3 +3287,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

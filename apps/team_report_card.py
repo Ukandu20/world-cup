@@ -1025,7 +1025,7 @@ def apply_report_card_chart_style(
 
 
 def render_report_plotly_chart(fig: Any) -> None:
-    st.plotly_chart(fig, use_container_width=True, config=PLOTLY_EXPORT_CONFIG)
+    st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
 
 
 def render_report_column_chart(column: Any, fig: Any) -> None:
@@ -1046,7 +1046,7 @@ def render_report_column_chart(column: Any, fig: Any) -> None:
         title={"font": {"color": CHART_TEXT_COLOR}},
         title_standoff=8,
     )
-    column.plotly_chart(fig, use_container_width=True, config=PLOTLY_EXPORT_CONFIG)
+    column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
 
 
 def edition_tick_values(frame: pd.DataFrame) -> list[int]:
@@ -1756,7 +1756,7 @@ def render_recent_performance(context: dict[str, Any]) -> None:
         ["Date", "Opponent", "Competition", "Result", "Score", "Elo Change", "Performance Score", "Grade"],
     ]
     st.subheader("Recent Performance")
-    st.dataframe(recent_table, use_container_width=True, hide_index=True)
+    st.dataframe(recent_table, width="stretch", hide_index=True)
 
 
 def render_prediction_outlook(context: dict[str, Any]) -> None:
@@ -1767,12 +1767,12 @@ def render_prediction_outlook(context: dict[str, Any]) -> None:
         group_table = context["group_finish_table"].copy()
         group_table["Probability"] = group_table["Probability"].map(format_percent)
         st.caption("Group Finish Probabilities")
-        st.dataframe(group_table, use_container_width=True, hide_index=True)
+        st.dataframe(group_table, width="stretch", hide_index=True)
     with cols[1]:
         stage_table = context["stage_probability_table"].copy()
         stage_table["Probability"] = stage_table["Probability"].map(format_percent)
         st.caption("Tournament Stage Probabilities")
-        st.dataframe(stage_table, use_container_width=True, hide_index=True)
+        st.dataframe(stage_table, width="stretch", hide_index=True)
 
     st.caption("Why the model likes this team")
     for bullet in context["model_reason_bullets"]:
@@ -1785,7 +1785,7 @@ def render_fixtures_and_path(context: dict[str, Any]) -> None:
     cols = st.columns(2)
     with cols[0]:
         st.caption("Group Stage Fixtures")
-        st.dataframe(context["group_fixtures"], use_container_width=True, hide_index=True)
+        st.dataframe(context["group_fixtures"], width="stretch", hide_index=True)
     with cols[1]:
         first_knockout = context["first_knockout_match"]
         if first_knockout is None:
@@ -1804,7 +1804,7 @@ def render_fixtures_and_path(context: dict[str, Any]) -> None:
                         }
                     ]
                 ),
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
 
@@ -1814,7 +1814,7 @@ def render_fixtures_and_path(context: dict[str, Any]) -> None:
     else:
         path_table = context["knockout_path"].copy()
         path_table["Matchup Win %"] = path_table["Matchup Win %"].map(format_percent)
-        st.dataframe(path_table, use_container_width=True, hide_index=True)
+        st.dataframe(path_table, width="stretch", hide_index=True)
 
 
 def render_team_report_card_page() -> None:
@@ -1888,3 +1888,4 @@ def render_team_report_card_page() -> None:
         render_road_here_tab(context)
     with outlook_tab:
         render_outlook_tab(context)
+

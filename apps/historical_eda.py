@@ -460,7 +460,7 @@ def apply_original_chart_style(fig, title: str, height: int = 560):
 
 
 def render_plotly_chart(fig) -> None:
-    st.plotly_chart(fig, use_container_width=True, config=PLOTLY_EXPORT_CONFIG)
+    st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
 
 
 def render_column_plotly_chart(column, fig) -> None:
@@ -473,7 +473,7 @@ def render_column_plotly_chart(column, fig) -> None:
     )
     fig.update_xaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
     fig.update_yaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
-    column.plotly_chart(fig, use_container_width=True, config=PLOTLY_EXPORT_CONFIG)
+    column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
 
 
 def edition_tick_values(frame: pd.DataFrame) -> list[int]:
@@ -1130,7 +1130,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
     st.dataframe(
         placement_summary,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -1181,7 +1181,7 @@ def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
             ]
         ],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -1213,7 +1213,7 @@ def render_winner_followup_tab(winners: pd.DataFrame) -> None:
     fig.update_xaxes(title="Tournament Edition", tickangle=45)
     set_edition_ticks(fig, winners, tickangle=45)
     render_plotly_chart(fig)
-    st.dataframe(winners, hide_index=True, use_container_width=True)
+    st.dataframe(winners, hide_index=True, width="stretch")
 
 
 def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -1289,11 +1289,11 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
 
     with chart_tabs[4]:
         st.markdown("**Pre-Tournament Correlations**")
-        st.dataframe(pre_corr, hide_index=True, use_container_width=True)
+        st.dataframe(pre_corr, hide_index=True, width="stretch")
         st.markdown("**In-Tournament Correlations**")
-        st.dataframe(tournament_corr, hide_index=True, use_container_width=True)
+        st.dataframe(tournament_corr, hide_index=True, width="stretch")
         st.markdown("**Last-k History Correlations**")
-        st.dataframe(last_k_corr, hide_index=True, use_container_width=True)
+        st.dataframe(last_k_corr, hide_index=True, width="stretch")
 
 
 def render_qualifiers_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -1484,7 +1484,7 @@ def render_qualifiers_tab(outputs: dict[str, pd.DataFrame]) -> None:
             ]
         ],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
     with st.expander("Qualifier match details"):
@@ -1505,7 +1505,7 @@ def render_qualifiers_tab(outputs: dict[str, pd.DataFrame]) -> None:
                 ],
             ],
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
 
@@ -1535,7 +1535,7 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
     distribution_fig.update_traces(textinfo="label+value+percent", textposition="inside")
     apply_original_chart_style(distribution_fig, "2026 Confederation Share", height=500)
     render_column_plotly_chart(left, distribution_fig)
-    right.dataframe(qualified, hide_index=True, use_container_width=True)
+    right.dataframe(qualified, hide_index=True, width="stretch")
 
 
 def render_historical_eda_page() -> None:
@@ -1564,7 +1564,7 @@ def render_historical_eda_page() -> None:
     ) = compute_historical_eda_outputs(lookback=lookback)
 
     with st.expander("Data quality snapshot"):
-        st.dataframe(quality, hide_index=True, use_container_width=True)
+        st.dataframe(quality, hide_index=True, width="stretch")
 
     qualifier_outputs = load_qualifier_performance_tables()
 
@@ -1593,3 +1593,4 @@ def render_historical_eda_page() -> None:
         render_qualifiers_tab(qualifier_outputs)
     with tabs[6]:
         render_2026_implications_tab(implications_2026)
+
