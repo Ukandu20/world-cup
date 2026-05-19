@@ -476,6 +476,36 @@ def test_build_qualification_path_table_filters_and_derives_cycle_metrics():
                 "country": "Neutral Land",
             },
             {
+                "lead_in_id": "q3",
+                "date": "2026-03-25",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Delta",
+                "team_score": 1,
+                "opponent_score": 0,
+                "team_elo_start": 1728.5,
+                "opponent_elo_start": 1650,
+                "team_elo_delta": 4.0,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Qualifier City",
+                "country": "Qualifier Land",
+            },
+            {
+                "lead_in_id": "q4",
+                "date": "2026-03-31",
+                "qualified_team_id": "AAA",
+                "opponent_name": "Epsilon",
+                "team_score": 2,
+                "opponent_score": 1,
+                "team_elo_start": 1732.5,
+                "opponent_elo_start": 1690,
+                "team_elo_delta": 5.0,
+                "result": "win",
+                "tournament": "FIFA World Cup qualification",
+                "city": "Playoff City",
+                "country": "Playoff Land",
+            },
+            {
                 "lead_in_id": "other_team",
                 "date": "2024-03-08",
                 "qualified_team_id": "BBB",
@@ -495,17 +525,17 @@ def test_build_qualification_path_table_filters_and_derives_cycle_metrics():
 
     path = report_card.build_qualification_path_table(lead_in_df, "AAA")
 
-    assert path["lead_in_id"].tolist() == ["q1", "q2"]
-    assert path["Opponent"].tolist() == ["Beta", "Gamma"]
-    assert path["qualification_stage"].tolist() == ["Qualifiers", "Playoffs"]
-    assert path["Result"].tolist() == ["W", "D"]
-    assert path["points"].tolist() == [3, 1]
-    assert path["cumulative_points"].tolist() == [3, 4]
-    assert path["goal_difference"].tolist() == [1.0, 0.0]
-    assert path["cumulative_goal_difference"].tolist() == [1.0, 1.0]
-    assert path["Score"].tolist() == ["2-1", "0-0"]
-    assert path["team_elo_delta"].tolist() == [7.5, 1.0]
-    assert path["post_match_elo"].tolist() == [1727.5, 1728.5]
+    assert path["lead_in_id"].tolist() == ["q1", "q2", "q3", "q4"]
+    assert path["Opponent"].tolist() == ["Beta", "Gamma", "Delta", "Epsilon"]
+    assert path["qualification_stage"].tolist() == ["Qualifiers", "Playoffs", "Qualifiers", "Playoffs"]
+    assert path["Result"].tolist() == ["W", "D", "W", "W"]
+    assert path["points"].tolist() == [3, 1, 3, 3]
+    assert path["cumulative_points"].tolist() == [3, 4, 7, 10]
+    assert path["goal_difference"].tolist() == [1.0, 0.0, 1.0, 1.0]
+    assert path["cumulative_goal_difference"].tolist() == [1.0, 1.0, 2.0, 3.0]
+    assert path["Score"].tolist() == ["2-1", "0-0", "1-0", "2-1"]
+    assert path["team_elo_delta"].tolist() == [7.5, 1.0, 4.0, 5.0]
+    assert path["post_match_elo"].tolist() == [1727.5, 1728.5, 1732.5, 1737.5]
 
 
 def test_build_qualification_path_table_returns_empty_frame_without_qualifiers():

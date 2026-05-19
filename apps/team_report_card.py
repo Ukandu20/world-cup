@@ -37,6 +37,8 @@ SUBJECT_ORDER = (
 PENDING_SUBJECTS = ("Squad Quality", "Qualification Strength")
 PENDING_IDENTITY_FIELDS = ("Coach", "Captain")
 QUALIFICATION_CYCLE_START = pd.Timestamp("2022-12-19")
+QUALIFICATION_PLAYOFF_START = pd.Timestamp("2026-03-26")
+QUALIFICATION_PLAYOFF_END = pd.Timestamp("2026-03-31")
 GRADE_BANDS = (
     (9.5, "A+"),
     (8.8, "A"),
@@ -107,6 +109,7 @@ CHART_NEGATIVE_COLOR = "#B23A30"
 CHART_ACCENT_COLOR = "#7A4E2D"
 CHART_SECONDARY_COLOR = "#2F6F73"
 QUALIFICATION_STAGE_COLORS = {"Qualifiers": CHART_SECONDARY_COLOR, "Playoffs": "#C99700"}
+QUALIFICATION_STAGE_DISPLAY_LABELS = {"Qualifiers": "Qualifiers", "Playoffs": "Qualifier playoffs"}
 SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
 ERA_COLORS = {
     "Early Era": "#7A4E2D",
@@ -412,7 +415,11 @@ def is_world_cup_qualification_row(tournament: object) -> bool:
     return False
 
 
-def qualification_stage_label(tournament: object) -> str:
+def qualification_stage_label(tournament: object, match_date: object | None = None) -> str:
+    date_value = pd.to_datetime(match_date, errors="coerce")
+    if pd.notna(date_value) and QUALIFICATION_PLAYOFF_START <= date_value <= QUALIFICATION_PLAYOFF_END:
+        return "Playoffs"
+
     label = str(tournament or "").strip().lower()
     return "Playoffs" if "playoff" in label or "play-off" in label or "inter-confederation" in label else "Qualifiers"
 
@@ -478,7 +485,10 @@ def build_qualification_path_table(lead_in_df: pd.DataFrame, team_id: str) -> pd
     df["Date"] = df["date"].dt.strftime("%Y-%m-%d")
     df["Opponent"] = df["opponent_name"].fillna("").astype(str) if "opponent_name" in df.columns else ""
     df["Competition"] = df["tournament"].fillna("").astype(str) if "tournament" in df.columns else ""
-    df["qualification_stage"] = df["Competition"].map(qualification_stage_label)
+    df["qualification_stage"] = [
+        qualification_stage_label(tournament, match_date)
+        for tournament, match_date in zip(df["Competition"], df["date"], strict=False)
+    ]
     df["Venue"] = (
         df["city"].fillna("").astype(str).str.strip()
         + np.where(df.get("country", pd.Series("", index=df.index)).fillna("").astype(str).str.strip().ne(""), ", ", "")
@@ -994,7 +1004,7 @@ def apply_report_card_chart_style(fig: Any, title: str, height: int = 360, sourc
 
 
 def render_report_plotly_chart(fig: Any) -> None:
-    st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+    st.plotly_chart(fig, use_container_width=True, config=PLOTLY_EXPORT_CONFIG)
 
 
 def render_report_column_chart(column: Any, fig: Any) -> None:
@@ -1015,7 +1025,7 @@ def render_report_column_chart(column: Any, fig: Any) -> None:
         title={"font": {"color": CHART_TEXT_COLOR}},
         title_standoff=8,
     )
-    column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+    column.plotly_chart(fig, use_container_width=True, config=PLOTLY_EXPORT_CONFIG)
 
 
 def edition_tick_values(frame: pd.DataFrame) -> list[int]:
@@ -1106,7 +1116,7 @@ def add_qualification_stage_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
             line_width=0,
         )
         fig.add_annotation(
-            text=stage,
+            text=QUALIFICATION_STAGE_DISPLAY_LABELS.get(stage, stage),
             x=(start + end) / 2,
             y=1.04,
             xref="x",
@@ -1696,7 +1706,7 @@ def render_recent_performance(context: dict[str, Any]) -> None:
         ["Date", "Opponent", "Competition", "Result", "Score", "Elo Change", "Performance Score", "Grade"],
     ]
     st.subheader("Recent Performance")
-    st.dataframe(recent_table, width="stretch", hide_index=True)
+    st.dataframe(recent_table, use_container_width=True, hide_index=True)
 
 
 def render_prediction_outlook(context: dict[str, Any]) -> None:
@@ -1707,12 +1717,12 @@ def render_prediction_outlook(context: dict[str, Any]) -> None:
         group_table = context["group_finish_table"].copy()
         group_table["Probability"] = group_table["Probability"].map(format_percent)
         st.caption("Group Finish Probabilities")
-        st.dataframe(group_table, width="stretch", hide_index=True)
+        st.dataframe(group_table, use_container_width=True, hide_index=True)
     with cols[1]:
         stage_table = context["stage_probability_table"].copy()
         stage_table["Probability"] = stage_table["Probability"].map(format_percent)
         st.caption("Tournament Stage Probabilities")
-        st.dataframe(stage_table, width="stretch", hide_index=True)
+        st.dataframe(stage_table, use_container_width=True, hide_index=True)
 
     st.caption("Why the model likes this team")
     for bullet in context["model_reason_bullets"]:
@@ -1725,7 +1735,7 @@ def render_fixtures_and_path(context: dict[str, Any]) -> None:
     cols = st.columns(2)
     with cols[0]:
         st.caption("Group Stage Fixtures")
-        st.dataframe(context["group_fixtures"], width="stretch", hide_index=True)
+        st.dataframe(context["group_fixtures"], use_container_width=True, hide_index=True)
     with cols[1]:
         first_knockout = context["first_knockout_match"]
         if first_knockout is None:
@@ -1744,7 +1754,7 @@ def render_fixtures_and_path(context: dict[str, Any]) -> None:
                         }
                     ]
                 ),
-                width="stretch",
+                use_container_width=True,
                 hide_index=True,
             )
 
@@ -1754,7 +1764,7 @@ def render_fixtures_and_path(context: dict[str, Any]) -> None:
     else:
         path_table = context["knockout_path"].copy()
         path_table["Matchup Win %"] = path_table["Matchup Win %"].map(format_percent)
-        st.dataframe(path_table, width="stretch", hide_index=True)
+        st.dataframe(path_table, use_container_width=True, hide_index=True)
 
 
 def render_team_report_card_page() -> None:
