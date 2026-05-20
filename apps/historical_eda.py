@@ -1042,16 +1042,46 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.Dat
 def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: dict[str, pd.DataFrame]) -> None:
     tournament_goals = outputs["tournament_goals"]
     team_goals = prepare_country_goal_metrics(outputs["team_goals"])
-    placement_summary = outputs["placement_goal_summary"]
     match_scorelines = outputs.get("match_scorelines", pd.DataFrame()).copy()
     expansion = expansion_editions(participation_outputs["participating_teams"])
 
+    min_year = int(tournament_goals["edition"].min())
+    max_year = int(tournament_goals["edition"].max())
     goal_metric_mode = st.radio(
         "Goal metric",
         ["Per game", "Totals"],
         horizontal=True,
         key="historical_eda_goal_metric_mode",
     )
+    year_range = st.slider(
+        "Edition range",
+        min_value=min_year,
+        max_value=max_year,
+        value=(min_year, max_year),
+        step=4,
+        key="historical_eda_goals_year_range",
+    )
+    tournament_goals = tournament_goals.loc[tournament_goals["edition"].between(year_range[0], year_range[1])].copy()
+    team_goals = team_goals.loc[team_goals["edition"].between(year_range[0], year_range[1])].copy()
+    if not match_scorelines.empty:
+        match_scorelines = match_scorelines.loc[
+            match_scorelines["edition"].between(year_range[0], year_range[1])
+        ].copy()
+    expansion = expansion.loc[expansion["edition"].between(year_range[0], year_range[1])].copy()
+
+    placement_summary = (
+        team_goals.groupby("placement", as_index=False)
+        .agg(
+            avg_goals_for=("gf", "mean"),
+            avg_goals_against=("ga", "mean"),
+            avg_goal_difference=("goal_difference", "mean"),
+            rows=("country", "count"),
+        )
+        .round(2)
+        .sort_values("avg_goal_difference", ascending=False)
+        .reset_index(drop=True)
+    )
+
     countries = sorted(team_goals["country"].dropna().unique())
     selected_country = st.selectbox(
         "Country",
