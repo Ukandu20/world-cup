@@ -566,6 +566,7 @@ def _build_outcome_frame(datasets: dict[str, pd.DataFrame]) -> pd.DataFrame:
     team_history = placement.groupby("country", group_keys=False)
     placement["prior_world_cup_participations"] = team_history.cumcount()
     placement["previous_finish_score"] = team_history["finish_score"].shift(1)
+    placement["previous_position"] = team_history["position"].shift(1)
     placement["prior_avg_finish_score"] = team_history["finish_score"].transform(
         lambda series: series.shift(1).expanding().mean()
     )
@@ -578,7 +579,161 @@ def _build_outcome_frame(datasets: dict[str, pd.DataFrame]) -> pd.DataFrame:
     placement["prior_avg_goal_diff_per_match"] = team_history["goal_difference_per_match"].transform(
         lambda series: series.shift(1).expanding().mean()
     )
+    placement = _add_lead_in_form_features(placement)
     return placement
+
+
+def _safe_mean(values: list[Any] | pd.Series) -> float:
+    numeric = pd.to_numeric(pd.Series(values), errors="coerce")
+    valid = numeric.dropna()
+    return float(valid.mean()) if not valid.empty else np.nan
+
+
+def _safe_sum(values: list[Any] | pd.Series) -> float:
+    numeric = pd.to_numeric(pd.Series(values), errors="coerce")
+    valid = numeric.dropna()
+    return float(valid.sum()) if not valid.empty else np.nan
+
+
+def _weighted_mean(values: list[Any] | pd.Series, weights: list[Any] | pd.Series) -> float:
+    numeric = pd.to_numeric(pd.Series(values), errors="coerce")
+    weight_values = pd.Series(weights, index=numeric.index, dtype=float)
+    valid = numeric.notna()
+    return float(np.average(numeric[valid], weights=weight_values[valid])) if valid.any() else np.nan
+
+
+def _add_lead_in_form_features(outcome: pd.DataFrame, match_window: int = 10) -> pd.DataFrame:
+    results_root = WORLD_CUP_ROOT / "by_confederation"
+    edition_start_dates: dict[int, pd.Timestamp] = {}
+    for results_file in sorted(WORLD_CUP_ROOT.glob("[0-9][0-9][0-9][0-9]/results.csv")):
+        edition = int(results_file.parent.name)
+        edition_results = pd.read_csv(results_file, usecols=["date"])
+        edition_start_dates[edition] = pd.to_datetime(edition_results["date"], errors="coerce").min()
+
+    feature_columns = [
+        "form_l10_matches",
+        "form_l10_win_pct",
+        "form_l10_goals_for",
+        "form_l10_goals_against",
+        "form_l10_goal_difference",
+        "form_l10_goals_per_match",
+        "form_l10_goals_against_per_match",
+        "form_l10_goal_difference_per_match",
+        "form_l10_elo_change",
+        "form_l10_elo_change_per_match",
+        "weighted_form_l10_result_score",
+        "weighted_form_l10_win_pct",
+        "weighted_form_l10_goals_for_per_match",
+        "weighted_form_l10_goals_against_per_match",
+        "weighted_form_l10_goal_difference_per_match",
+        "weighted_form_l10_elo_change_per_match",
+    ]
+    if not results_root.exists():
+        for column in feature_columns:
+            outcome[column] = np.nan
+        outcome["edition_start_date"] = outcome["edition"].map(edition_start_dates)
+        return outcome
+
+    team_result_columns = [
+        "date",
+        "team",
+        "team_score",
+        "opponent_score",
+        "result",
+        "team_elo_delta",
+    ]
+    team_result_frames = []
+    for team_results_file in sorted(results_root.glob("*/*/results.csv")):
+        team_results = pd.read_csv(team_results_file, usecols=team_result_columns)
+        if not team_results.empty:
+            team_result_frames.append(team_results)
+    if not team_result_frames:
+        for column in feature_columns:
+            outcome[column] = np.nan
+        outcome["edition_start_date"] = outcome["edition"].map(edition_start_dates)
+        return outcome
+
+    team_results_history = pd.concat(team_result_frames, ignore_index=True)
+    team_results_history["date"] = pd.to_datetime(team_results_history["date"], errors="coerce")
+    for column in ["team_score", "opponent_score", "team_elo_delta"]:
+        team_results_history[column] = pd.to_numeric(team_results_history[column], errors="coerce")
+
+    normalized_result = (
+        team_results_history["result"]
+        .astype("string")
+        .str.strip()
+        .str.lower()
+        .map({"w": "win", "d": "draw", "l": "loss", "win": "win", "draw": "draw", "loss": "loss"})
+    )
+    score_based_result = pd.Series(
+        np.select(
+            [
+                team_results_history["team_score"] > team_results_history["opponent_score"],
+                team_results_history["team_score"] == team_results_history["opponent_score"],
+                team_results_history["team_score"] < team_results_history["opponent_score"],
+            ],
+            ["win", "draw", "loss"],
+            default=None,
+        ),
+        index=team_results_history.index,
+        dtype="object",
+    )
+    team_results_history["normalized_result"] = normalized_result.fillna(score_based_result)
+    team_results_history["actual_score"] = team_results_history["normalized_result"].map({"win": 1.0, "draw": 0.5, "loss": 0.0})
+    team_results_history["win_indicator"] = team_results_history["normalized_result"].eq("win").astype(float)
+    team_results_history["goal_difference"] = team_results_history["team_score"] - team_results_history["opponent_score"]
+    team_results_history = team_results_history.dropna(
+        subset=["date", "team", "team_score", "opponent_score", "actual_score"]
+    ).copy()
+    team_results_lookup = {
+        str(team): matches.sort_values("date", kind="stable").reset_index(drop=True)
+        for team, matches in team_results_history.groupby("team", sort=False)
+    }
+    country_form_aliases = {"China PR": "China", "DR Congo": "Zaire"}
+
+    form_rows = []
+    for row in outcome[["edition", "country"]].itertuples(index=False):
+        edition_start_date = edition_start_dates.get(int(row.edition))
+        lookup_country = country_form_aliases.get(str(row.country), str(row.country))
+        team_matches = team_results_lookup.get(lookup_country)
+        recent = (
+            pd.DataFrame(columns=team_results_history.columns)
+            if team_matches is None or pd.isna(edition_start_date)
+            else team_matches[team_matches["date"] < edition_start_date].tail(match_window).copy()
+        )
+        form_row = {"edition": int(row.edition), "country": str(row.country), **{column: np.nan for column in feature_columns}}
+        if not recent.empty:
+            match_count = len(recent)
+            weights = pd.Series(np.arange(1, match_count + 1, dtype=float), index=recent.index)
+            goals_for = recent["team_score"].sum()
+            goals_against = recent["opponent_score"].sum()
+            goal_difference = goals_for - goals_against
+            elo_change = recent["team_elo_delta"].sum(min_count=1)
+            form_row.update(
+                {
+                    "form_l10_matches": int(match_count),
+                    "form_l10_win_pct": float(recent["win_indicator"].mean()),
+                    "form_l10_goals_for": float(goals_for),
+                    "form_l10_goals_against": float(goals_against),
+                    "form_l10_goal_difference": float(goal_difference),
+                    "form_l10_goals_per_match": float(goals_for / match_count),
+                    "form_l10_goals_against_per_match": float(goals_against / match_count),
+                    "form_l10_goal_difference_per_match": float(goal_difference / match_count),
+                    "form_l10_elo_change": float(elo_change) if pd.notna(elo_change) else np.nan,
+                    "form_l10_elo_change_per_match": _safe_mean(recent["team_elo_delta"]),
+                    "weighted_form_l10_result_score": _weighted_mean(recent["actual_score"], weights),
+                    "weighted_form_l10_win_pct": _weighted_mean(recent["win_indicator"], weights),
+                    "weighted_form_l10_goals_for_per_match": _weighted_mean(recent["team_score"], weights),
+                    "weighted_form_l10_goals_against_per_match": _weighted_mean(recent["opponent_score"], weights),
+                    "weighted_form_l10_goal_difference_per_match": _weighted_mean(recent["goal_difference"], weights),
+                    "weighted_form_l10_elo_change_per_match": _weighted_mean(recent["team_elo_delta"], weights),
+                }
+            )
+        form_rows.append(form_row)
+
+    outcome = outcome.merge(pd.DataFrame(form_rows), on=["edition", "country"], how="left")
+    outcome["edition_start_date"] = outcome["edition"].map(edition_start_dates)
+    return outcome
 
 
 def build_correlation_metrics(
@@ -592,10 +747,28 @@ def build_correlation_metrics(
         "is_host",
         "prior_world_cup_participations",
         "previous_finish_score",
+        "previous_position",
         "prior_avg_finish_score",
         "prior_best_finish_score",
         "prior_avg_goals_per_match",
         "prior_avg_goal_diff_per_match",
+        "form_l10_matches",
+        "form_l10_win_pct",
+        "form_l10_goals_for",
+        "form_l10_goals_against",
+        "form_l10_goal_difference",
+        "form_l10_goals_per_match",
+        "form_l10_goals_against_per_match",
+        "form_l10_goal_difference_per_match",
+        "form_l10_elo_change",
+        "form_l10_elo_change_per_match",
+        "weighted_form_l10_result_score",
+        "weighted_form_l10_win_pct",
+        "weighted_form_l10_goals_for_per_match",
+        "weighted_form_l10_goals_against_per_match",
+        "weighted_form_l10_goal_difference_per_match",
+        "weighted_form_l10_elo_change_per_match",
+        "finish_elo",
         "goals_per_match",
         "goal_difference_per_match",
         "elo_change",
@@ -628,24 +801,73 @@ def build_correlation_metrics(
         for row in history.itertuples(index=False)
     }
     rows: list[dict[str, Any]] = []
-    for row in history[["edition", "country", "finish_score", "position"]].itertuples(index=False):
+    for row in history.itertuples(index=False):
         edition = int(row.edition)
         country = str(row.country)
         prior_editions = [prior for prior in all_editions if prior < edition][-lookback:]
         prior_rows = [team_edition_lookup.get((prior, country)) for prior in prior_editions]
         appeared_rows = [prior_row for prior_row in prior_rows if prior_row is not None]
+        appeared_weights = pd.Series(np.arange(1, len(appeared_rows) + 1, dtype=float))
+        appearance_flags = [1.0 if prior_row is not None else 0.0 for prior_row in prior_rows]
         finish_scores = [prior_row.finish_score for prior_row in appeared_rows]
+        positions = [prior_row.position for prior_row in appeared_rows]
+        goals_for = [prior_row.gs for prior_row in appeared_rows]
+        goals_against = [prior_row.ga for prior_row in appeared_rows]
+        goal_differences = [prior_row.goal_difference for prior_row in appeared_rows]
+        goals_per_match = [prior_row.goals_per_match for prior_row in appeared_rows]
+        goals_against_per_match = [prior_row.goals_against_per_match for prior_row in appeared_rows]
+        goal_difference_per_match = [prior_row.goal_difference_per_match for prior_row in appeared_rows]
+        elo_changes = [prior_row.elo_change for prior_row in appeared_rows]
         rows.append(
             {
                 "edition": edition,
                 "country": country,
+                "placement": row.placement,
                 "lookback": lookback,
                 "prior_editions": len(prior_editions),
                 "prior_appearances": len(appeared_rows),
                 "prior_appearance_rate": round(len(appeared_rows) / len(prior_editions), 3)
                 if prior_editions
                 else np.nan,
-                "last_k_avg_finish_score": float(np.nanmean(finish_scores)) if finish_scores else np.nan,
+                "last_k_appearances": len(appeared_rows),
+                "last_k_appearance_rate": round(len(appeared_rows) / len(prior_editions), 3)
+                if prior_editions
+                else np.nan,
+                "last_k_avg_finish_score": _safe_mean(finish_scores),
+                "last_k_best_finish_score": float(pd.to_numeric(pd.Series(finish_scores), errors="coerce").max())
+                if finish_scores
+                else np.nan,
+                "last_k_avg_position": _safe_mean(positions),
+                "last_k_goals_for": _safe_sum(goals_for),
+                "last_k_goals_against": _safe_sum(goals_against),
+                "last_k_goal_difference": _safe_sum(goal_differences),
+                "last_k_goals_per_match": _safe_mean(goals_per_match),
+                "last_k_goals_against_per_match": _safe_mean(goals_against_per_match),
+                "last_k_goal_difference_per_match": _safe_mean(goal_difference_per_match),
+                "last_k_elo_change": _safe_sum(elo_changes),
+                "last_k_elo_change_per_appearance": _safe_mean(elo_changes),
+                "weighted_last_k_appearance_rate": _weighted_mean(
+                    appearance_flags,
+                    pd.Series(np.arange(1, len(prior_editions) + 1, dtype=float)),
+                )
+                if prior_editions
+                else np.nan,
+                "weighted_last_k_finish_score": _weighted_mean(finish_scores, appeared_weights)
+                if finish_scores
+                else np.nan,
+                "weighted_last_k_position": _weighted_mean(positions, appeared_weights) if positions else np.nan,
+                "weighted_last_k_goals_per_match": _weighted_mean(goals_per_match, appeared_weights)
+                if goals_per_match
+                else np.nan,
+                "weighted_last_k_goals_against_per_match": _weighted_mean(goals_against_per_match, appeared_weights)
+                if goals_against_per_match
+                else np.nan,
+                "weighted_last_k_goal_difference_per_match": _weighted_mean(goal_difference_per_match, appeared_weights)
+                if goal_difference_per_match
+                else np.nan,
+                "weighted_last_k_elo_change_per_appearance": _weighted_mean(elo_changes, appeared_weights)
+                if elo_changes
+                else np.nan,
                 "current_finish_score": row.finish_score,
                 "current_position": row.position,
             }

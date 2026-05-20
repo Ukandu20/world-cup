@@ -109,10 +109,27 @@ PRE_TOURNAMENT_FEATURES = [
     "is_host",
     "prior_world_cup_participations",
     "previous_finish_score",
+    "previous_position",
     "prior_avg_finish_score",
     "prior_best_finish_score",
     "prior_avg_goals_per_match",
     "prior_avg_goal_diff_per_match",
+    "form_l10_matches",
+    "form_l10_win_pct",
+    "form_l10_goals_for",
+    "form_l10_goals_against",
+    "form_l10_goal_difference",
+    "form_l10_goals_per_match",
+    "form_l10_goals_against_per_match",
+    "form_l10_goal_difference_per_match",
+    "form_l10_elo_change",
+    "form_l10_elo_change_per_match",
+    "weighted_form_l10_result_score",
+    "weighted_form_l10_win_pct",
+    "weighted_form_l10_goals_for_per_match",
+    "weighted_form_l10_goals_against_per_match",
+    "weighted_form_l10_goal_difference_per_match",
+    "weighted_form_l10_elo_change_per_match",
 ]
 
 IN_TOURNAMENT_FEATURES = [
@@ -123,12 +140,31 @@ IN_TOURNAMENT_FEATURES = [
     "goals_per_match",
     "goals_against_per_match",
     "goal_difference_per_match",
+    "finish_elo",
     "elo_change",
 ]
 
 LAST_K_FEATURES = [
-    "prior_appearance_rate",
+    "last_k_appearances",
+    "last_k_appearance_rate",
     "last_k_avg_finish_score",
+    "last_k_best_finish_score",
+    "last_k_avg_position",
+    "last_k_goals_for",
+    "last_k_goals_against",
+    "last_k_goal_difference",
+    "last_k_goals_per_match",
+    "last_k_goals_against_per_match",
+    "last_k_goal_difference_per_match",
+    "last_k_elo_change",
+    "last_k_elo_change_per_appearance",
+    "weighted_last_k_appearance_rate",
+    "weighted_last_k_finish_score",
+    "weighted_last_k_position",
+    "weighted_last_k_goals_per_match",
+    "weighted_last_k_goals_against_per_match",
+    "weighted_last_k_goal_difference_per_match",
+    "weighted_last_k_elo_change_per_appearance",
 ]
 
 FEATURE_LABELS = {
@@ -137,10 +173,27 @@ FEATURE_LABELS = {
     "is_host": "Host",
     "prior_world_cup_participations": "Prior WC Participations",
     "previous_finish_score": "Previous Finish Score",
+    "previous_position": "Previous Position",
     "prior_avg_finish_score": "Prior Avg Finish Score",
     "prior_best_finish_score": "Prior Best Finish Score",
     "prior_avg_goals_per_match": "Prior Avg Goals per Match",
     "prior_avg_goal_diff_per_match": "Prior Avg Goal Diff per Match",
+    "form_l10_matches": "Last 10 Matches",
+    "form_l10_win_pct": "Last 10 Win Pct",
+    "form_l10_goals_for": "Last 10 Goals For",
+    "form_l10_goals_against": "Last 10 Goals Against",
+    "form_l10_goal_difference": "Last 10 Goal Difference",
+    "form_l10_goals_per_match": "Last 10 Goals per Match",
+    "form_l10_goals_against_per_match": "Last 10 Goals Against per Match",
+    "form_l10_goal_difference_per_match": "Last 10 Goal Difference per Match",
+    "form_l10_elo_change": "Last 10 Elo Change",
+    "form_l10_elo_change_per_match": "Last 10 Elo Change per Match",
+    "weighted_form_l10_result_score": "Weighted Last 10 Result Score",
+    "weighted_form_l10_win_pct": "Weighted Last 10 Win Pct",
+    "weighted_form_l10_goals_for_per_match": "Weighted Last 10 Goals per Match",
+    "weighted_form_l10_goals_against_per_match": "Weighted Last 10 Goals Against per Match",
+    "weighted_form_l10_goal_difference_per_match": "Weighted Last 10 Goal Difference per Match",
+    "weighted_form_l10_elo_change_per_match": "Weighted Last 10 Elo Change per Match",
     "matches_played": "Matches Played",
     "gs": "Goals For",
     "ga": "Goals Against",
@@ -148,9 +201,29 @@ FEATURE_LABELS = {
     "goals_per_match": "Goals per Match",
     "goals_against_per_match": "Goals Against per Match",
     "goal_difference_per_match": "Goal Difference per Match",
+    "finish_elo": "Finish Elo",
     "elo_change": "Elo Change",
     "prior_appearance_rate": "Last-k Appearance Rate",
+    "last_k_appearances": "Last-k Appearances",
+    "last_k_appearance_rate": "Last-k Appearance Rate",
     "last_k_avg_finish_score": "Last-k Avg Finish Score",
+    "last_k_best_finish_score": "Last-k Best Finish Score",
+    "last_k_avg_position": "Last-k Avg Position",
+    "last_k_goals_for": "Last-k Goals For",
+    "last_k_goals_against": "Last-k Goals Against",
+    "last_k_goal_difference": "Last-k Goal Difference",
+    "last_k_goals_per_match": "Last-k Goals per Match",
+    "last_k_goals_against_per_match": "Last-k Goals Against per Match",
+    "last_k_goal_difference_per_match": "Last-k Goal Difference per Match",
+    "last_k_elo_change": "Last-k Elo Change",
+    "last_k_elo_change_per_appearance": "Last-k Elo Change per Appearance",
+    "weighted_last_k_appearance_rate": "Weighted Last-k Appearance Rate",
+    "weighted_last_k_finish_score": "Weighted Last-k Finish Score",
+    "weighted_last_k_position": "Weighted Last-k Position",
+    "weighted_last_k_goals_per_match": "Weighted Last-k Goals per Match",
+    "weighted_last_k_goals_against_per_match": "Weighted Last-k Goals Against per Match",
+    "weighted_last_k_goal_difference_per_match": "Weighted Last-k Goal Difference per Match",
+    "weighted_last_k_elo_change_per_appearance": "Weighted Last-k Elo Change per Appearance",
     "finish_score": "Finish Score",
     "current_finish_score": "Current Finish Score",
 }
@@ -461,8 +534,8 @@ def apply_original_chart_style(fig, title: str, height: int = 560):
     return fig
 
 
-def render_plotly_chart(fig) -> None:
-    st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+def render_plotly_chart(fig, key: str | None = None) -> None:
+    st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG, key=key)
 
 
 def render_column_plotly_chart(column, fig) -> None:
@@ -744,7 +817,7 @@ def build_correlation_table(
     return corr_df.sort_values("abs_spearman_corr", ascending=False).drop(columns="abs_spearman_corr")
 
 
-def render_correlation_bar(corr_df: pd.DataFrame, title: str) -> None:
+def render_correlation_bar(corr_df: pd.DataFrame, title: str, key: str | None = None) -> None:
     if corr_df.empty:
         st.info("No correlation data is available for this chart.")
         return
@@ -765,10 +838,16 @@ def render_correlation_bar(corr_df: pd.DataFrame, title: str) -> None:
     fig.update_traces(textposition="outside", cliponaxis=False)
     apply_original_chart_style(fig, display_title, height=max(500, 42 * len(corr_df) + 180))
     fig.update_layout(coloraxis_showscale=False)
-    render_plotly_chart(fig)
+    render_plotly_chart(fig, key=key)
 
 
-def render_correlation_heatmap(df: pd.DataFrame, columns: list[str], title: str, target: str = "finish_score") -> None:
+def render_correlation_heatmap(
+    df: pd.DataFrame,
+    columns: list[str],
+    title: str,
+    target: str = "finish_score",
+    key: str | None = None,
+) -> None:
     available = [column for column in [target, *columns] if column in df.columns]
     if len(available) < 2:
         st.info("No heatmap data is available for this chart.")
@@ -789,10 +868,15 @@ def render_correlation_heatmap(df: pd.DataFrame, columns: list[str], title: str,
     )
     apply_original_chart_style(fig, display_title, height=max(620, 48 * len(labels) + 220))
     fig.update_xaxes(tickangle=35)
-    render_plotly_chart(fig)
+    render_plotly_chart(fig, key=key)
 
 
-def render_feature_scatter(df: pd.DataFrame, feature: str, target: str = "finish_score") -> None:
+def render_feature_scatter(
+    df: pd.DataFrame,
+    feature: str,
+    target: str = "finish_score",
+    key: str | None = None,
+) -> None:
     if feature not in df.columns or target not in df.columns:
         return
     scatter_columns = [column for column in ["edition", "country", "placement", target, feature] if column in df.columns]
@@ -815,7 +899,7 @@ def render_feature_scatter(df: pd.DataFrame, feature: str, target: str = "finish
         title=title,
     )
     apply_original_chart_style(fig, title, height=550)
-    render_plotly_chart(fig)
+    render_plotly_chart(fig, key=key)
 
 
 def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.DataFrame) -> None:
@@ -1342,6 +1426,14 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
     tournament_corr = build_correlation_table(outcome, tournament_features)
     last_k_analysis = last_k_features.rename(columns={"current_finish_score": "finish_score"})
     last_k_corr = build_correlation_table(last_k_analysis, last_k_columns)
+    combined_last_k_features = [*pre_features, *last_k_columns]
+    combined_last_k_analysis = outcome.merge(
+        last_k_analysis.drop(columns=["lookback"], errors="ignore"),
+        on=["edition", "country"],
+        how="left",
+        suffixes=("", "_last_k"),
+    )
+    combined_corr = build_correlation_table(combined_last_k_analysis, combined_last_k_features)
 
     render_metric_row(
         {
@@ -1356,59 +1448,95 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
             "Pre-Tournament",
             "Tournament Stats",
             "Last-k History",
+            "Baseline + Last-k",
             "Strongest Scatters",
             "Tables",
         ]
     )
 
     with chart_tabs[0]:
-        render_correlation_bar(pre_corr, "Pre-Tournament Feature Correlation with World Cup Finish Score")
+        render_correlation_bar(
+            pre_corr,
+            "Pre-Tournament Feature Correlation with World Cup Finish Score",
+            key="historical_corr_pre_bar",
+        )
         render_correlation_heatmap(
             outcome,
             pre_features,
             "Spearman Correlation Heatmap: Outcome and Predictors",
+            key="historical_corr_pre_heatmap",
         )
 
     with chart_tabs[1]:
-        render_correlation_bar(tournament_corr, "In-Tournament Stat Correlation with World Cup Finish Score")
+        render_correlation_bar(
+            tournament_corr,
+            "In-Tournament Stat Correlation with World Cup Finish Score",
+            key="historical_corr_tournament_bar",
+        )
         render_correlation_heatmap(
             outcome,
             tournament_features,
             "Spearman Correlation Heatmap: Outcome and Tournament Stats",
+            key="historical_corr_tournament_heatmap",
         )
 
     with chart_tabs[2]:
         render_correlation_bar(
             last_k_corr,
             f"Last-{int(last_k_summary['lookback'])} World Cup History Correlation with Finish Score",
+            key="historical_corr_last_k_bar",
         )
         render_correlation_heatmap(
             last_k_analysis,
             last_k_columns,
             f"Spearman Correlation Heatmap: Outcome and Last-{int(last_k_summary['lookback'])} History",
+            key="historical_corr_last_k_heatmap",
         )
 
     with chart_tabs[3]:
+        render_correlation_bar(
+            combined_corr,
+            f"Pre-Tournament Predictors + Last-{int(last_k_summary['lookback'])} World Cup History Correlation with Finish Score",
+            key="historical_corr_combined_bar",
+        )
+        render_correlation_heatmap(
+            combined_last_k_analysis,
+            combined_last_k_features,
+            f"Spearman Correlation Heatmap: Outcome, Baseline Predictors, and Last-{int(last_k_summary['lookback'])} World Cup History",
+            key="historical_corr_combined_heatmap",
+        )
+
+    with chart_tabs[4]:
         strongest_pre_features = pre_corr.head(3)["feature"].tolist()
-        strongest_last_k_features = last_k_corr.head(3)["feature"].tolist()
+        strongest_last_k_features = combined_corr.head(3)["feature"].tolist()
         if not strongest_pre_features and not strongest_last_k_features:
             st.info("No scatter data is available for the strongest predictors.")
         if strongest_pre_features:
             st.markdown("**Strongest Pre-Tournament Predictors**")
         for strongest_feature in strongest_pre_features:
-            render_feature_scatter(outcome, strongest_feature)
+            render_feature_scatter(
+                outcome,
+                strongest_feature,
+                key=f"historical_corr_pre_scatter_{strongest_feature}",
+            )
         if strongest_last_k_features:
-            st.markdown(f"**Strongest Last-{int(last_k_summary['lookback'])} History Predictors**")
+            st.markdown(f"**Strongest Baseline + Last-{int(last_k_summary['lookback'])} Predictors**")
         for strongest_feature in strongest_last_k_features:
-            render_feature_scatter(last_k_analysis, strongest_feature)
+            render_feature_scatter(
+                combined_last_k_analysis,
+                strongest_feature,
+                key=f"historical_corr_combined_scatter_{strongest_feature}",
+            )
 
-    with chart_tabs[4]:
+    with chart_tabs[5]:
         st.markdown("**Pre-Tournament Correlations**")
         st.dataframe(pre_corr, hide_index=True, width="stretch")
         st.markdown("**In-Tournament Correlations**")
         st.dataframe(tournament_corr, hide_index=True, width="stretch")
         st.markdown("**Last-k History Correlations**")
         st.dataframe(last_k_corr, hide_index=True, width="stretch")
+        st.markdown("**Baseline + Last-k Correlations**")
+        st.dataframe(combined_corr, hide_index=True, width="stretch")
 
 
 def render_qualifiers_tab(outputs: dict[str, pd.DataFrame]) -> None:
