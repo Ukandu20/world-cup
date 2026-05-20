@@ -1291,9 +1291,11 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
             key="historical_eda_scoreline_scope",
         )
         scoreline_plot = match_scorelines.copy()
+        scoreline_plot["total_goals"] = pd.to_numeric(scoreline_plot["total_goals"], errors="coerce")
         if scoreline_scope == "Knockouts only":
             scoreline_plot = scoreline_plot.loc[scoreline_plot["stage"].isin(GOALS_KNOCKOUT_STAGES)].copy()
         scoreline_plot = scoreline_plot.loc[scoreline_plot["stage"].isin(GOALS_STAGE_ORDER)].copy()
+        scoreline_plot = scoreline_plot.dropna(subset=["total_goals"])
 
         if scoreline_plot.empty:
             st.info("No match scoreline data is available for this scope.")
@@ -1361,7 +1363,9 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
                     align="center",
                     font={"size": 10, "color": CHART_AXIS_COLOR},
                 )
-            render_plotly_chart(scoreline_fig)
+            render_plotly_chart(scoreline_fig, key="historical_eda_scoreline_distribution")
+    else:
+        st.info("No match scoreline data is available for the selected edition range.")
 
     country_goals = team_goals.loc[team_goals["country"].eq(selected_country)].sort_values("edition")
     scored_fig = render_country_goal_line(
