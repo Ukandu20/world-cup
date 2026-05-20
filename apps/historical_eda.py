@@ -495,11 +495,11 @@ def chart_caption_from_title(title: object) -> str | None:
 
     caption_by_title = {
         "Tournament Size by Edition": "The above chart tracks how the FIFA Men's World Cup tournament size changed by over the decades; shaded eras and expansion markers show where format changes affect comparisons.",
-        "Participation by Confederation": "Compares the number of countries represented in each confederation at every tournament, highlighting expansion effects across eras.",
-        "Debutants by Edition": "Shows how many nations made their first World Cup appearance in each edition.",
-        "Match Scoreline Distribution by Round": "Groups match scorelines by total goals on the y-axis; each point is still an individual match with exact scoreline details in hover.",
-        "Host Nation Finishes": "Shows how host countries finished, with point size reflecting goals scored and color identifying confederation.",
-        "Champion Follow-up Performance": "Tracks how each champion performed at the next World Cup, including title defenses and failed qualifications.",
+        "Participation by Confederation": "The above chart compares the number of countries represented in each confederation at every tournament, highlighting expansion effects across eras.",
+        "Debutants by Edition": "The above chart shows how many nations made their first World Cup appearance in each edition.",
+        "Match Scoreline Distribution by Round": "The above chart groups match scorelines by total goals at each tournament stage; each point is an individual match with exact scoreline details in hover.",
+        "Host Nation Finishes": "The above chart shows how host countries finished, with point size reflecting goals scored and color identifying confederation.",
+        "Champion Follow-up Performance": "The above chart tracks how each champion performed at the next World Cup, including title defenses and failed qualifications.",
         "Pre-Tournament Feature Correlation with World Cup Finish Score": "Ranks leakage-safe pre-tournament indicators by Spearman correlation with normalized finish score.",
         "In-Tournament Stat Correlation with World Cup Finish Score": "Shows how tournament performance stats relate to final finish; these explain outcomes rather than predict them beforehand.",
         "Spearman Correlation Heatmap: Outcome and Predictors": "Displays pairwise Spearman correlations among finish score and pre-tournament predictors.",
@@ -513,15 +513,15 @@ def chart_caption_from_title(title: object) -> str | None:
     if "Placement by Edition" in base_title:
         return "Shows the selected country's placements over time."
     if "Goals Scored per Game" in base_title:
-        return "Shows the selected country's scoring rate by edition, adjusted for how many matches it played."
+        return "Shows the selected country's per-match scoring rate by edition."
     if "Goals Conceded per Game" in base_title:
-        return "Shows the selected country's defensive record by edition, adjusted for how many matches it played."
+        return "Shows the selected country's per-match defensive record by edition."
     if "Goals Scored" in base_title:
         return "Shows the selected country's goals for by edition, with expansion markers for tournament format context."
     if "Goals Conceded" in base_title:
         return "Shows the selected country's goals against by edition, with expansion markers for tournament format context."
     if "Tournament Goals per Match" in base_title:
-        return "Tracks scoring rate by tournament, which is more comparable across editions than raw goal totals."
+        return "Tracks per-tournament scoring rate, which is more comparable across editions than raw goal totals."
     if "Tournament Total Goals" in base_title:
         return "Tracks total goals by tournament; tournament size and match count changes should be considered when comparing eras."
     if "Team Distribution" in base_title:
@@ -600,7 +600,7 @@ def render_plotly_chart(fig, key: str | None = None, caption: str | None = None)
         st.caption(resolved_caption)
 
 
-def render_column_plotly_chart(column, fig, caption: str | None = None) -> None:
+def render_column_plotly_chart(column, fig, caption: str | None = None, key: str | None = None) -> None:
     fig.update_layout(
         height=max(int(fig.layout.height or 560), 620),
         margin={"l": 28, "r": 18, "t": 82, "b": 72},
@@ -610,7 +610,7 @@ def render_column_plotly_chart(column, fig, caption: str | None = None) -> None:
     )
     fig.update_xaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
     fig.update_yaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
-    column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+    column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG, key=key)
     resolved_caption = caption or chart_caption_from_title(fig.layout.title.text)
     if resolved_caption:
         column.caption(resolved_caption)
@@ -734,6 +734,8 @@ def add_expansion_markers(
 
 
 def add_era_backgrounds(fig, frame: pd.DataFrame):
+    if "edition" not in frame.columns or "era" not in frame.columns:
+        return fig
     era_frame = frame.dropna(subset=["edition", "era"]).copy()
     if era_frame.empty:
         return fig
@@ -846,6 +848,99 @@ def render_country_goal_line(
     add_country_best_finish_annotations(fig, country_goals, y_column)
     set_edition_ticks(fig, country_goals, tickangle=45 if compact else 30)
     return fig
+
+
+def render_scoreline_distribution_chart(
+    match_scorelines: pd.DataFrame,
+    scope_key: str,
+    chart_key: str,
+    empty_label: str,
+    title: str = "Match Scoreline Distribution by Round",
+) -> None:
+    if match_scorelines.empty:
+        st.info(f"No {empty_label} scoreline data is available for the selected edition range.")
+        return
+
+    scoreline_scope = st.selectbox(
+        "Scoreline box plot scope",
+        ["All stages", "Knockouts only"],
+        key=scope_key,
+    )
+    scoreline_plot = match_scorelines.copy()
+    scoreline_plot["total_goals"] = pd.to_numeric(scoreline_plot["total_goals"], errors="coerce")
+    if scoreline_scope == "Knockouts only":
+        scoreline_plot = scoreline_plot.loc[scoreline_plot["stage"].isin(GOALS_KNOCKOUT_STAGES)].copy()
+    scoreline_plot = scoreline_plot.loc[scoreline_plot["stage"].isin(GOALS_STAGE_ORDER)].copy()
+    scoreline_plot = scoreline_plot.dropna(subset=["total_goals"])
+
+    if scoreline_plot.empty:
+        st.info(f"No {empty_label} scoreline data is available for this scope.")
+        return
+
+    scoreline_summary = (
+        scoreline_plot.groupby("stage", observed=True)
+        .agg(avg_goals_per_match=("total_goals", "mean"), matches=("match_id", "count"))
+        .reset_index()
+    )
+    mode_scorelines = (
+        scoreline_plot.groupby(["stage", "scoreline"], observed=True)
+        .size()
+        .reset_index(name="scoreline_count")
+        .sort_values(["stage", "scoreline_count", "scoreline"], ascending=[True, False, True], kind="stable")
+        .drop_duplicates("stage")
+        .rename(columns={"scoreline": "mode_scoreline"})
+    )
+    scoreline_summary = scoreline_summary.merge(mode_scorelines, on="stage", how="left")
+    scoreline_fig = px.box(
+        scoreline_plot,
+        x="stage",
+        y="total_goals",
+        points="all",
+        category_orders={"stage": GOALS_STAGE_ORDER},
+        hover_data={
+            "edition": True,
+            "country": True,
+            "opponent": True,
+            "score": True,
+            "scoreline": True,
+            "match_id": True,
+            "scoreline_rank": False,
+        },
+        labels={
+            "stage": "Round",
+            "total_goals": "Total goals",
+            "country": "Team",
+            "score": "Original score",
+            "scoreline": "Canonical scoreline",
+            "match_id": "Match ID",
+        },
+        title=world_cup_chart_title(title),
+    )
+    scoreline_fig.update_traces(
+        marker={"color": CHART_POSITIVE_COLOR, "size": 4, "opacity": 0.6},
+        line={"color": CHART_AXIS_COLOR},
+        jitter=0.35,
+    )
+    apply_original_chart_style(scoreline_fig, title, height=620)
+    min_total_goals = int(scoreline_plot["total_goals"].min())
+    max_total_goals = int(scoreline_plot["total_goals"].max())
+    scoreline_fig.update_yaxes(
+        tickmode="array",
+        tickvals=list(range(min_total_goals, max_total_goals + 1)),
+        ticktext=[str(value) for value in range(min_total_goals, max_total_goals + 1)],
+    )
+    annotation_y = float(max_total_goals) + 0.9
+    scoreline_fig.update_yaxes(range=[max(-0.5, min_total_goals - 0.5), annotation_y + 0.6])
+    for row in scoreline_summary.itertuples(index=False):
+        scoreline_fig.add_annotation(
+            x=row.stage,
+            y=annotation_y,
+            text=f"Mode {row.mode_scoreline}<br>Mean {row.avg_goals_per_match:.2f} goals",
+            showarrow=False,
+            align="center",
+            font={"size": 10, "color": CHART_AXIS_COLOR},
+        )
+    render_plotly_chart(scoreline_fig, key=chart_key)
 
 
 def feature_label(feature: str) -> str:
@@ -1284,88 +1379,12 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
     set_edition_ticks(fig, tournament_goals)
     render_plotly_chart(fig)
 
-    if not match_scorelines.empty:
-        scoreline_scope = st.selectbox(
-            "Scoreline box plot scope",
-            ["All stages", "Knockouts only"],
-            key="historical_eda_scoreline_scope",
-        )
-        scoreline_plot = match_scorelines.copy()
-        scoreline_plot["total_goals"] = pd.to_numeric(scoreline_plot["total_goals"], errors="coerce")
-        if scoreline_scope == "Knockouts only":
-            scoreline_plot = scoreline_plot.loc[scoreline_plot["stage"].isin(GOALS_KNOCKOUT_STAGES)].copy()
-        scoreline_plot = scoreline_plot.loc[scoreline_plot["stage"].isin(GOALS_STAGE_ORDER)].copy()
-        scoreline_plot = scoreline_plot.dropna(subset=["total_goals"])
-
-        if scoreline_plot.empty:
-            st.info("No match scoreline data is available for this scope.")
-        else:
-            scoreline_summary = (
-                scoreline_plot.groupby("stage", observed=True)
-                .agg(avg_goals_per_match=("total_goals", "mean"), matches=("match_id", "count"))
-                .reset_index()
-            )
-            mode_scorelines = (
-                scoreline_plot.groupby(["stage", "scoreline"], observed=True)
-                .size()
-                .reset_index(name="scoreline_count")
-                .sort_values(["stage", "scoreline_count", "scoreline"], ascending=[True, False, True], kind="stable")
-                .drop_duplicates("stage")
-                .rename(columns={"scoreline": "mode_scoreline"})
-            )
-            scoreline_summary = scoreline_summary.merge(mode_scorelines, on="stage", how="left")
-            scoreline_fig = px.box(
-                scoreline_plot,
-                x="stage",
-                y="total_goals",
-                points="all",
-                category_orders={"stage": GOALS_STAGE_ORDER},
-                hover_data={
-                    "edition": True,
-                    "country": True,
-                    "opponent": True,
-                    "score": True,
-                    "scoreline": True,
-                    "match_id": True,
-                    "scoreline_rank": False,
-                },
-                labels={
-                    "stage": "Round",
-                    "total_goals": "Total goals",
-                    "country": "Team",
-                    "score": "Original score",
-                    "scoreline": "Canonical scoreline",
-                    "match_id": "Match ID",
-                },
-                title=world_cup_chart_title("Match Scoreline Distribution by Round"),
-            )
-            scoreline_fig.update_traces(
-                marker={"color": CHART_POSITIVE_COLOR, "size": 4, "opacity": 0.6},
-                line={"color": CHART_AXIS_COLOR},
-                jitter=0.35,
-            )
-            apply_original_chart_style(scoreline_fig, "Match Scoreline Distribution by Round", height=620)
-            min_total_goals = int(scoreline_plot["total_goals"].min())
-            max_total_goals = int(scoreline_plot["total_goals"].max())
-            scoreline_fig.update_yaxes(
-                tickmode="array",
-                tickvals=list(range(min_total_goals, max_total_goals + 1)),
-                ticktext=[str(value) for value in range(min_total_goals, max_total_goals + 1)],
-            )
-            annotation_y = float(max_total_goals) + 0.9
-            scoreline_fig.update_yaxes(range=[max(-0.5, min_total_goals - 0.5), annotation_y + 0.6])
-            for row in scoreline_summary.itertuples(index=False):
-                scoreline_fig.add_annotation(
-                    x=row.stage,
-                    y=annotation_y,
-                    text=f"Mode {row.mode_scoreline}<br>Mean {row.avg_goals_per_match:.2f} goals",
-                    showarrow=False,
-                    align="center",
-                    font={"size": 10, "color": CHART_AXIS_COLOR},
-                )
-            render_plotly_chart(scoreline_fig, key="historical_eda_scoreline_distribution")
-    else:
-        st.info("No match scoreline data is available for the selected edition range.")
+    render_scoreline_distribution_chart(
+        match_scorelines,
+        scope_key="historical_eda_scoreline_scope",
+        chart_key="historical_eda_scoreline_distribution",
+        empty_label="match",
+    )
 
     country_goals = team_goals.loc[team_goals["country"].eq(selected_country)].sort_values("edition")
     scored_fig = render_country_goal_line(
@@ -1450,11 +1469,128 @@ def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
     )
 
 
-def render_winner_followup_tab(winners: pd.DataFrame) -> None:
+def render_winner_goal_charts(
+    goals_outputs: dict[str, pd.DataFrame],
+    participation_outputs: dict[str, pd.DataFrame],
+) -> None:
+    winner_goals = prepare_country_goal_metrics(goals_outputs["team_goals"])
+    winner_goals = winner_goals.loc[winner_goals["placement"].eq("Winner")].copy()
+    winner_scorelines = goals_outputs.get("winner_match_scorelines", pd.DataFrame()).copy()
+    expansion = expansion_editions(participation_outputs["participating_teams"])
+
+    if winner_goals.empty:
+        st.info("No winner goal data is available.")
+        return
+
+    st.markdown("**Winner Goal Profiles**")
+    winner_goal_metric_mode = st.radio(
+        "Winner goal metric",
+        ["Per game", "Totals"],
+        horizontal=True,
+        key="historical_eda_winner_goal_metric_mode",
+    )
+    if winner_goal_metric_mode == "Totals":
+        champion_y = "gf"
+        champion_text = winner_goals[champion_y].map(lambda value: f"{value:.0f}")
+        champion_label = "Champion goals for"
+        champion_title = "Champion Goals Scored"
+        country_y = "gf"
+        country_conceded_y = "ga"
+        country_label = "Goals for"
+        country_conceded_label = "Goals conceded"
+        country_value_format = ".0f"
+    else:
+        champion_y = "goals_per_game"
+        champion_text = winner_goals[champion_y].map(lambda value: f"{value:.2f}")
+        champion_label = "Champion goals per game"
+        champion_title = "Champion Goals Scored per Game"
+        country_y = "goals_per_game"
+        country_conceded_y = "goals_against_per_game"
+        country_label = "Goals Scored per game"
+        country_conceded_label = "Goals conceded per game"
+        country_value_format = ".2f"
+
+    champion_fig = px.line(
+        winner_goals,
+        x="edition",
+        y=champion_y,
+        markers=True,
+        text=champion_text,
+        hover_name="country",
+        hover_data={"era": True, "team_matches": True, "placement": False, champion_y: ":.3f"},
+        labels={"edition": "Edition", champion_y: champion_label},
+        title=world_cup_chart_title(champion_title),
+    )
+    champion_fig.update_traces(
+        textposition="top center",
+        line={"color": CHART_POSITIVE_COLOR, "width": 1.8},
+        marker={"color": CHART_POSITIVE_COLOR, "size": 6},
+    )
+    apply_original_chart_style(champion_fig, champion_title)
+    add_era_backgrounds(champion_fig, winner_goals)
+    add_expansion_markers(champion_fig, expansion)
+    set_edition_ticks(champion_fig, winner_goals)
+    render_plotly_chart(champion_fig, key="historical_eda_winner_goal_trend")
+
+    render_scoreline_distribution_chart(
+        winner_scorelines,
+        scope_key="historical_eda_winner_scoreline_scope",
+        chart_key="historical_eda_winner_scoreline_distribution",
+        empty_label="winner match",
+        title="Champion Match Scoreline Distribution by Round",
+    )
+
+    winner_countries = sorted(winner_goals["country"].dropna().unique())
+    selected_winner_country = st.selectbox(
+        "Winner country",
+        winner_countries,
+        index=winner_countries.index("Brazil") if "Brazil" in winner_countries else 0,
+        key="historical_eda_winner_goal_country",
+    )
+    country_winner_goals = winner_goals.loc[winner_goals["country"].eq(selected_winner_country)].sort_values("edition")
+    if winner_goal_metric_mode == "Totals":
+        country_title = country_world_cup_chart_title(selected_winner_country, "Winner Goals Scored")
+        country_conceded_title = country_world_cup_chart_title(selected_winner_country, "Winner Goals Conceded")
+    else:
+        country_title = country_world_cup_chart_title(selected_winner_country, "Winner Goals Scored per Game")
+        country_conceded_title = country_world_cup_chart_title(selected_winner_country, "Winner Goals Conceded per Game")
+
+    scored_fig = render_country_goal_line(
+        country_goals=country_winner_goals,
+        y_column=country_y,
+        y_label=country_label,
+        title=country_title,
+        value_format=country_value_format,
+        expansion=expansion,
+        trace_color=CHART_POSITIVE_COLOR,
+        compact=True,
+    )
+    conceded_fig = render_country_goal_line(
+        country_goals=country_winner_goals,
+        y_column=country_conceded_y,
+        y_label=country_conceded_label,
+        title=country_conceded_title,
+        value_format=country_value_format,
+        expansion=expansion,
+        trace_color=CHART_NEGATIVE_COLOR,
+        compact=True,
+    )
+    scored_column, conceded_column = st.columns(2)
+    render_column_plotly_chart(scored_column, scored_fig, key="historical_eda_winner_country_scored")
+    render_column_plotly_chart(conceded_column, conceded_fig, key="historical_eda_winner_country_conceded")
+
+
+def render_winner_followup_tab(
+    winners: pd.DataFrame,
+    goals_outputs: dict[str, pd.DataFrame],
+    participation_outputs: dict[str, pd.DataFrame],
+) -> None:
     winners = winners.copy()
     winners["next_placement_short"] = winners["next_placement"].map(PLACEMENT_SHORT_LABELS).fillna(
         winners["next_placement"].astype(str)
     )
+    placement_order = [placement for placement in PLACEMENT_SHORT_LABELS if placement in set(winners["next_placement"])]
+    expansion = expansion_editions(participation_outputs["participating_teams"])
     render_metric_row(
         {
             "Champions Tracked": len(winners),
@@ -1462,23 +1598,36 @@ def render_winner_followup_tab(winners: pd.DataFrame) -> None:
             "Did Not Qualify Next": int(winners["next_placement"].eq("DNQ").sum()),
         }
     )
-    fig = px.bar(
+    fig = px.scatter(
         winners,
         x="edition",
-        y="next_position",
+        y="next_placement",
         color="next_placement",
         hover_name="country",
         text="next_placement_short",
-        labels={"edition": "Title edition", "next_position": "Next edition position"},
+        hover_data={"next_position": True},
+        category_orders={"next_placement": placement_order},
+        labels={"edition": "Title edition", "next_placement": "Following edition placement"},
         title=world_cup_chart_title("Champion Follow-up Performance"),
     )
-    fig.update_traces(textposition="outside", cliponaxis=False)
+    fig.update_traces(
+        textposition="top center",
+        cliponaxis=False,
+        marker={"size": 12, "line": {"width": 1, "color": CHART_BACKGROUND}},
+    )
     apply_original_chart_style(fig, f"Winners Placement the following Edition since {int(winners['edition'].min())}")
-    fig.update_yaxes(autorange="reversed", title="Final Placement")
+    add_era_backgrounds(fig, winners)
+    add_expansion_markers(fig, expansion)
+    fig.update_yaxes(
+        categoryorder="array",
+        categoryarray=list(reversed(placement_order)),
+        title="Following Edition Placement",
+    )
     fig.update_xaxes(title="Tournament Edition", tickangle=45)
     set_edition_ticks(fig, winners, tickangle=45)
-    render_plotly_chart(fig)
+    render_plotly_chart(fig, key="historical_eda_winner_followup")
     st.dataframe(winners, hide_index=True, width="stretch")
+    render_winner_goal_charts(goals_outputs, participation_outputs)
 
 
 def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -1882,7 +2031,7 @@ def render_historical_eda_page() -> None:
             "Participation",
             "Goals",
             "Host Effect",
-            "Winner Follow-up",
+            "Winners",
             "Correlations",
             "Qualifiers",
             "2026 Implications",
@@ -1895,7 +2044,7 @@ def render_historical_eda_page() -> None:
     with tabs[2]:
         render_host_tab(hosts)
     with tabs[3]:
-        render_winner_followup_tab(winners)
+        render_winner_followup_tab(winners, goals, participation)
     with tabs[4]:
         render_correlations_tab(correlations)
     with tabs[5]:

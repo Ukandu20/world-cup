@@ -386,6 +386,39 @@ def build_goal_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFr
         .sort_values(["edition", "match_number", "match_id"], kind="stable")
         .reset_index(drop=True)
     )
+    winner_lookup = (
+        placement.loc[placement["placement"].eq("Winner"), ["edition", "country"]]
+        .drop_duplicates()
+        .assign(is_winner=True)
+    )
+    winner_match_scorelines = results.merge(
+        winner_lookup,
+        on=["edition", "country"],
+        how="inner",
+        validate="many_to_one",
+    ).copy()
+    winner_match_scorelines["score_low"] = winner_match_scorelines[["team_score", "opponent_score"]].min(axis=1).astype(int)
+    winner_match_scorelines["score_high"] = winner_match_scorelines[["team_score", "opponent_score"]].max(axis=1).astype(int)
+    winner_match_scorelines["total_goals"] = winner_match_scorelines["score_low"] + winner_match_scorelines["score_high"]
+    winner_match_scorelines["scoreline"] = (
+        winner_match_scorelines["score_low"].astype(str) + "-" + winner_match_scorelines["score_high"].astype(str)
+    )
+    winner_match_scorelines = winner_match_scorelines.merge(
+        scoreline_order[["scoreline", "scoreline_rank"]],
+        on="scoreline",
+        how="left",
+        validate="many_to_one",
+    )
+    winner_match_scorelines["score"] = (
+        winner_match_scorelines["team_score"].astype(int).astype(str)
+        + "-"
+        + winner_match_scorelines["opponent_score"].astype(int).astype(str)
+    )
+    winner_match_scorelines = (
+        winner_match_scorelines[[column for column in match_scoreline_columns if column in winner_match_scorelines.columns]]
+        .sort_values(["edition", "match_number", "match_id"], kind="stable")
+        .reset_index(drop=True)
+    )
 
     matches = (
         results.groupby(["edition", "era", "tournament_id"], dropna=False, as_index=False, observed=True)
@@ -449,6 +482,7 @@ def build_goal_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFr
         "tournament_goals": tournament_goals.sort_values("edition").reset_index(drop=True),
         "placement_goal_summary": placement_goal_summary,
         "match_scorelines": match_scorelines,
+        "winner_match_scorelines": winner_match_scorelines,
     }
 
 
@@ -522,6 +556,7 @@ def build_winner_followup_metrics(datasets: dict[str, pd.DataFrame]) -> pd.DataF
     winners = placement.loc[placement["placement"].eq("Winner")].copy()
     columns = [
         "edition",
+        "era",
         "country",
         "position",
         "next_edition",

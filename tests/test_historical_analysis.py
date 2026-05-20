@@ -77,7 +77,11 @@ def test_goal_and_winner_followup_metrics_have_expected_columns():
     assert {"edition", "stage", "scoreline", "scoreline_rank", "match_id"}.issubset(
         goal_metrics["match_scorelines"].columns
     )
+    assert {"edition", "stage", "country", "score", "scoreline", "total_goals"}.issubset(
+        goal_metrics["winner_match_scorelines"].columns
+    )
     assert goal_metrics["match_scorelines"].duplicated(["edition", "match_id"]).sum() == 0
+    assert not goal_metrics["winner_match_scorelines"].empty
     assert {"edition", "country", "next_edition", "next_placement"}.issubset(winners.columns)
     assert winners["country"].notna().all()
 
