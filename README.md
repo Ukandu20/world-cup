@@ -19,6 +19,11 @@ Install the dashboard and dataset dependencies with:
 python -m pip install -r requirements.txt
 ```
 
+Use Python `3.12.x` for local development. The package metadata in
+`pyproject.toml` is the source of truth for the supported Python range and
+runtime dependencies; `requirements.txt` is kept for simple Streamlit/deploy
+installs.
+
 The app-ready dataset is committed under `data/processed/`, so a clean clone can run without your local Kaggle download cache:
 
 ```bash
@@ -85,7 +90,7 @@ Final blend:
 
 ### Group and Knockout Simulation
 
-By default, the dashboard runs `100,000` simulations per group.
+By default, the dashboard runs `20,000` simulations per group.
 
 In each simulation:
 

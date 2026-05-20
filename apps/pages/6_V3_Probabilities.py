@@ -1,5 +1,4 @@
 from pathlib import Path
-import importlib
 import sys
 
 import streamlit as st
@@ -12,7 +11,6 @@ if str(ROOT) not in sys.path:
 from apps import home as home
 
 
-home = importlib.reload(home)
 configure_page = home.configure_page
 render_v3_probabilities_dashboard = home.render_v3_probabilities_dashboard
 

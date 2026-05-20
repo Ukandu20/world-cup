@@ -56,6 +56,7 @@ from world_cup_simulation import (  # noqa: E402
     simulate_group_probabilities_v3,
 )
 from world_cup_sim.constants import WORLD_CUP_ROOT  # noqa: E402
+from world_cup_sim.constants import INTERNATIONAL_RESULTS_PATH  # noqa: E402
 from scripts.build_world_cup_2026_dataset import (  # noqa: E402
     QualifiedTeam,
     build_alias_maps,
@@ -2387,7 +2388,7 @@ def test_classify_competition_importance_uses_v3_scale():
 
 
 def test_build_v3_training_frame_respects_cutoff_and_columns():
-    results_df = pd.read_csv(ROOT / "data" / "results.csv")
+    results_df = pd.read_csv(INTERNATIONAL_RESULTS_PATH)
     cutoff = "2002-06-30"
 
     training_df = build_v3_training_frame(

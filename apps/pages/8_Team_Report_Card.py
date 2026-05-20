@@ -1,5 +1,4 @@
 from pathlib import Path
-import importlib
 import sys
 
 import streamlit as st
@@ -13,8 +12,6 @@ from apps import home as home
 from apps import team_report_card as team_report_card
 
 
-home = importlib.reload(home)
-team_report_card = importlib.reload(team_report_card)
 configure_page = home.configure_page
 render_team_report_card_page = team_report_card.render_team_report_card_page
 

@@ -1,5 +1,4 @@
 from pathlib import Path
-import importlib
 import sys
 
 import streamlit as st
@@ -13,8 +12,6 @@ from apps import historical_eda
 from apps import home
 
 
-home = importlib.reload(home)
-historical_eda = importlib.reload(historical_eda)
 configure_page = home.configure_page
 render_historical_eda_page = historical_eda.render_historical_eda_page
 
