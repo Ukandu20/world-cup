@@ -494,10 +494,10 @@ def chart_caption_from_title(title: object) -> str | None:
     base_title = clean_title.replace(TITLE_PREFIX, "").strip()
 
     caption_by_title = {
-        "Tournament Size by Edition": "Tracks how World Cup field size changed by edition; shaded eras and expansion markers show where format changes affect comparisons.",
-        "Participation by Confederation": "Compares the number of teams each confederation placed in every tournament, making expansion effects visible across eras.",
+        "Tournament Size by Edition": "The above chart tracks how the FIFA Men's World Cup tournament size changed by over the decades; shaded eras and expansion markers show where format changes affect comparisons.",
+        "Participation by Confederation": "Compares the number of countries represented in each confederation at every tournament, highlighting expansion effects across eras.",
         "Debutants by Edition": "Shows how many nations made their first World Cup appearance in each edition.",
-        "Match Scoreline Distribution by Round": "Compares scoreline spread by round; each point is a match and the annotations call out typical scorelines.",
+        "Match Scoreline Distribution by Round": "Groups match scorelines by total goals on the y-axis; each point is still an individual match with exact scoreline details in hover.",
         "Host Nation Finishes": "Shows how host countries finished, with point size reflecting goals for and color identifying confederation.",
         "Champion Follow-up Performance": "Tracks how each champion performed at the next World Cup, including title defenses and failed qualifications.",
         "Pre-Tournament Feature Correlation with World Cup Finish Score": "Ranks leakage-safe pre-tournament indicators by Spearman correlation with normalized finish score.",
@@ -511,7 +511,7 @@ def chart_caption_from_title(title: object) -> str | None:
     if base_title in caption_by_title:
         return caption_by_title[base_title]
     if "Placement by Edition" in base_title:
-        return "Shows the selected country's finishing position over time; lower y-axis values indicate deeper tournament runs."
+        return "Shows the selected country's placements over time."
     if "Goals Scored per Game" in base_title:
         return "Shows the selected country's scoring rate by edition, adjusted for how many matches it played."
     if "Goals Conceded per Game" in base_title:
@@ -523,7 +523,7 @@ def chart_caption_from_title(title: object) -> str | None:
     if "Tournament Goals per Match" in base_title:
         return "Tracks scoring rate by tournament, which is more comparable across editions than raw goal totals."
     if "Tournament Total Goals" in base_title:
-        return "Tracks raw goals by tournament; field size and match count changes should be considered when comparing eras."
+        return "Tracks total goals by tournament; tournament size and match count changes should be considered when comparing eras."
     if "Team Distribution" in base_title:
         return "Breaks down the selected edition's team field by confederation and country."
     if "Pre-Tournament Predictors + Last-" in base_title:
@@ -1298,11 +1298,6 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
         if scoreline_plot.empty:
             st.info("No match scoreline data is available for this scope.")
         else:
-            scoreline_ticks = (
-                scoreline_plot[["scoreline_rank", "scoreline"]]
-                .drop_duplicates()
-                .sort_values("scoreline_rank", kind="stable")
-            )
             scoreline_summary = (
                 scoreline_plot.groupby("stage", observed=True)
                 .agg(avg_goals_per_match=("total_goals", "mean"), matches=("match_id", "count"))
@@ -1320,7 +1315,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
             scoreline_fig = px.box(
                 scoreline_plot,
                 x="stage",
-                y="scoreline_rank",
+                y="total_goals",
                 points="all",
                 category_orders={"stage": GOALS_STAGE_ORDER},
                 hover_data={
@@ -1334,7 +1329,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
                 },
                 labels={
                     "stage": "Round",
-                    "scoreline_rank": "Canonical scoreline",
+                    "total_goals": "Total goals",
                     "country": "Team",
                     "score": "Original score",
                     "scoreline": "Canonical scoreline",
@@ -1348,13 +1343,15 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
                 jitter=0.35,
             )
             apply_original_chart_style(scoreline_fig, "Match Scoreline Distribution by Round", height=620)
+            min_total_goals = int(scoreline_plot["total_goals"].min())
+            max_total_goals = int(scoreline_plot["total_goals"].max())
             scoreline_fig.update_yaxes(
                 tickmode="array",
-                tickvals=scoreline_ticks["scoreline_rank"].tolist(),
-                ticktext=scoreline_ticks["scoreline"].tolist(),
+                tickvals=list(range(min_total_goals, max_total_goals + 1)),
+                ticktext=[str(value) for value in range(min_total_goals, max_total_goals + 1)],
             )
-            annotation_y = float(scoreline_plot["scoreline_rank"].max()) + 0.9
-            scoreline_fig.update_yaxes(range=[0.5, annotation_y + 0.6])
+            annotation_y = float(max_total_goals) + 0.9
+            scoreline_fig.update_yaxes(range=[max(-0.5, min_total_goals - 0.5), annotation_y + 0.6])
             for row in scoreline_summary.itertuples(index=False):
                 scoreline_fig.add_annotation(
                     x=row.stage,
