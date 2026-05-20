@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 import sys
 
 import pandas as pd
@@ -484,6 +485,64 @@ def country_world_cup_chart_title(country: str, title: str) -> str:
     return f"{country}'s {TITLE_PREFIX} {title}"
 
 
+def chart_caption_from_title(title: object) -> str | None:
+    raw_title = str(title or "").strip()
+    if not raw_title:
+        return None
+    clean_title = re.sub(r"<[^>]+>", "", raw_title)
+    clean_title = " ".join(clean_title.split())
+    base_title = clean_title.replace(TITLE_PREFIX, "").strip()
+
+    caption_by_title = {
+        "Tournament Size by Edition": "Tracks how World Cup field size changed by edition; shaded eras and expansion markers show where format changes affect comparisons.",
+        "Participation by Confederation": "Compares the number of teams each confederation placed in every tournament, making expansion effects visible across eras.",
+        "Debutants by Edition": "Shows how many nations made their first World Cup appearance in each edition.",
+        "Match Scoreline Distribution by Round": "Compares scoreline spread by round; each point is a match and the annotations call out typical scorelines.",
+        "Host Nation Finishes": "Shows how host countries finished, with point size reflecting goals for and color identifying confederation.",
+        "Champion Follow-up Performance": "Tracks how each champion performed at the next World Cup, including title defenses and failed qualifications.",
+        "Pre-Tournament Feature Correlation with World Cup Finish Score": "Ranks leakage-safe pre-tournament indicators by Spearman correlation with normalized finish score.",
+        "In-Tournament Stat Correlation with World Cup Finish Score": "Shows how tournament performance stats relate to final finish; these explain outcomes rather than predict them beforehand.",
+        "Spearman Correlation Heatmap: Outcome and Predictors": "Displays pairwise Spearman correlations among finish score and pre-tournament predictors.",
+        "Spearman Correlation Heatmap: Outcome and Tournament Stats": "Displays pairwise Spearman correlations among finish score and in-tournament performance stats.",
+        "2026 Qualifier Performance Score": "Ranks qualified teams by lead-in qualifier performance using points, goal difference, and Elo movement.",
+        "2026 Qualifier Attack vs Defense": "Places teams by qualifier scoring and concession rates; larger points indicate stronger points-per-match records.",
+        "2026 Confederation Share": "Compares confederation representation in the expanded 2026 field.",
+    }
+    if base_title in caption_by_title:
+        return caption_by_title[base_title]
+    if "Placement by Edition" in base_title:
+        return "Shows the selected country's finishing position over time; lower y-axis values indicate deeper tournament runs."
+    if "Goals Scored per Game" in base_title:
+        return "Shows the selected country's scoring rate by edition, adjusted for how many matches it played."
+    if "Goals Conceded per Game" in base_title:
+        return "Shows the selected country's defensive record by edition, adjusted for how many matches it played."
+    if "Goals Scored" in base_title:
+        return "Shows the selected country's goals for by edition, with expansion markers for tournament format context."
+    if "Goals Conceded" in base_title:
+        return "Shows the selected country's goals against by edition, with expansion markers for tournament format context."
+    if "Tournament Goals per Match" in base_title:
+        return "Tracks scoring rate by tournament, which is more comparable across editions than raw goal totals."
+    if "Tournament Total Goals" in base_title:
+        return "Tracks raw goals by tournament; field size and match count changes should be considered when comparing eras."
+    if "Team Distribution" in base_title:
+        return "Breaks down the selected edition's team field by confederation and country."
+    if "Pre-Tournament Predictors + Last-" in base_title:
+        return "Combines baseline pre-tournament predictors with recent World Cup history to compare their relationship with finish score."
+    if "Last-" in base_title and "World Cup History Correlation" in base_title:
+        return "Ranks recent World Cup history features by their Spearman correlation with current tournament finish score."
+    if "Outcome and Last-" in base_title:
+        return "Shows pairwise correlations among finish score and recent World Cup history features."
+    if "Outcome, Baseline Predictors, and Last-" in base_title:
+        return "Shows how baseline predictors and recent World Cup history features correlate with finish score and with each other."
+    if " vs Finish Score" in base_title:
+        return "Plots each team-edition observation to show the relationship between this feature and normalized finish score."
+    if "2026 Qualifier Goals For" in base_title:
+        return "Ranks qualified teams by attacking output during 2026 qualifying and playoff lead-in matches."
+    if "2026 Qualifier Goals Against" in base_title:
+        return "Ranks qualified teams by defensive record during 2026 qualifying and playoff lead-in matches."
+    return None
+
+
 def apply_original_chart_style(fig, title: str, height: int = 560):
     title = world_cup_chart_title(title)
     fig.update_layout(
@@ -534,11 +593,14 @@ def apply_original_chart_style(fig, title: str, height: int = 560):
     return fig
 
 
-def render_plotly_chart(fig, key: str | None = None) -> None:
+def render_plotly_chart(fig, key: str | None = None, caption: str | None = None) -> None:
     st.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG, key=key)
+    resolved_caption = caption or chart_caption_from_title(fig.layout.title.text)
+    if resolved_caption:
+        st.caption(resolved_caption)
 
 
-def render_column_plotly_chart(column, fig) -> None:
+def render_column_plotly_chart(column, fig, caption: str | None = None) -> None:
     fig.update_layout(
         height=max(int(fig.layout.height or 560), 620),
         margin={"l": 28, "r": 18, "t": 82, "b": 72},
@@ -549,6 +611,9 @@ def render_column_plotly_chart(column, fig) -> None:
     fig.update_xaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
     fig.update_yaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
     column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG)
+    resolved_caption = caption or chart_caption_from_title(fig.layout.title.text)
+    if resolved_caption:
+        column.caption(resolved_caption)
 
 
 def edition_tick_values(frame: pd.DataFrame) -> list[int]:
@@ -950,8 +1015,8 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.Dat
     render_metric_row(
         {
             "Editions": filtered_participating["edition"].nunique(),
-            "Largest Field": int(filtered_participating["team_counts"].max()),
-            "2026 Teams": int(participating.loc[participating["edition"].eq(2026), "team_counts"].max()),
+            "Largest Tournament Size": int(filtered_participating["team_counts"].max()),
+            "2026 Tournament Size": int(participating.loc[participating["edition"].eq(2026), "team_counts"].max()),
         }
     )
 
@@ -1784,7 +1849,7 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
 def render_historical_eda_page() -> None:
     st.title("FIFA Men's World Cup Analysis")
     st.caption(
-        "Interactive companion to the executive notebook. The page uses processed datasets committed under data/processed/world_cup."
+        "An iteractive analysis companion which covers the history of the FIFA Men's World Cup"
     )
 
     lookback = st.sidebar.slider(
@@ -1836,4 +1901,3 @@ def render_historical_eda_page() -> None:
         render_qualifiers_tab(qualifier_outputs)
     with tabs[6]:
         render_2026_implications_tab(implications_2026)
-
