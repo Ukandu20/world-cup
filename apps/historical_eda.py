@@ -634,6 +634,22 @@ def set_edition_ticks(fig, frame: pd.DataFrame, tickangle: int = 30):
     return fig
 
 
+def filter_edition_range(frame: pd.DataFrame, edition_range: tuple[int, int]) -> pd.DataFrame:
+    if "edition" not in frame.columns:
+        return frame.copy()
+    return frame.loc[frame["edition"].between(edition_range[0], edition_range[1])].copy()
+
+
+def add_era_from_participation(frame: pd.DataFrame, participation_outputs: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    if "edition" not in frame.columns:
+        return frame.copy()
+    if "era" in frame.columns and frame["era"].notna().any():
+        return frame.copy()
+    frame = frame.drop(columns=["era"], errors="ignore")
+    era_lookup = participation_outputs["participating_teams"][["edition", "era"]].drop_duplicates("edition")
+    return frame.merge(era_lookup, on="edition", how="left")
+
+
 def canonical_country_name(country: object) -> str:
     country_name = str(country)
     return COUNTRY_NAME_ALIASES.get(country_name, country_name)
@@ -1062,23 +1078,17 @@ def render_feature_scatter(
     render_plotly_chart(fig, key=key)
 
 
-def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.DataFrame) -> None:
+def render_participation_tab(
+    outputs: dict[str, pd.DataFrame],
+    placement: pd.DataFrame,
+    edition_range: tuple[int, int],
+) -> None:
     participating = outputs["participating_teams"]
     confed = outputs["confederation_by_edition"]
     debutants = outputs["debutants_by_edition"]
     latest = outputs.get("latest_team_distribution")
     placement_history = prepare_country_placement_metrics(placement)
 
-    min_year = int(participating["edition"].min())
-    max_year = int(participating["edition"].max())
-    year_range = st.slider(
-        "Edition range",
-        min_value=min_year,
-        max_value=max_year,
-        value=(min_year, max_year),
-        step=4,
-        key="historical_eda_participation_year_range",
-    )
     confederation_options = [
         confederation
         for confederation in CONFEDERATION_ORDER
@@ -1090,10 +1100,8 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.Dat
         default=confederation_options,
         key="historical_eda_confederation_filter",
     )
-    filtered_participating = participating[
-        participating["edition"].between(year_range[0], year_range[1])
-    ].copy()
-    filtered_confed = confed[confed["edition"].between(year_range[0], year_range[1])].copy()
+    filtered_participating = filter_edition_range(participating, edition_range)
+    filtered_confed = filter_edition_range(confed, edition_range)
     if selected_confederations:
         filtered_confed = filtered_confed.loc[
             filtered_confed["confederation"].isin(selected_confederations)
@@ -1105,7 +1113,7 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.Dat
     debutants = debutants.copy()
     debutants["debutant_count_label"] = debutants["debutant_count"].astype(int).astype(str)
     expansion = expansion_editions(participating)
-    filtered_expansion = expansion.loc[expansion["edition"].between(year_range[0], year_range[1])]
+    filtered_expansion = filter_edition_range(expansion, edition_range)
 
     render_metric_row(
         {
@@ -1160,7 +1168,7 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.Dat
     )
     country_placement = placement_history.loc[
         placement_history["country"].eq(selected_placement_country)
-        & placement_history["edition"].between(year_range[0], year_range[1])
+        & placement_history["edition"].between(edition_range[0], edition_range[1])
     ].copy()
     country_placement["placement_label"] = country_placement.apply(placement_axis_label, axis=1)
     country_placement["placement_short_label"] = country_placement["placement"].map(
@@ -1283,35 +1291,27 @@ def render_participation_tab(outputs: dict[str, pd.DataFrame], placement: pd.Dat
     render_column_plotly_chart(right, distribution_fig)
 
 
-def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: dict[str, pd.DataFrame]) -> None:
+def render_goals_tab(
+    outputs: dict[str, pd.DataFrame],
+    participation_outputs: dict[str, pd.DataFrame],
+    edition_range: tuple[int, int],
+) -> None:
     tournament_goals = outputs["tournament_goals"]
     team_goals = prepare_country_goal_metrics(outputs["team_goals"])
     match_scorelines = outputs.get("match_scorelines", pd.DataFrame()).copy()
     expansion = expansion_editions(participation_outputs["participating_teams"])
 
-    min_year = int(tournament_goals["edition"].min())
-    max_year = int(tournament_goals["edition"].max())
     goal_metric_mode = st.radio(
         "Goal metric",
         ["Per game", "Totals"],
         horizontal=True,
         key="historical_eda_goal_metric_mode",
     )
-    year_range = st.slider(
-        "Edition range",
-        min_value=min_year,
-        max_value=max_year,
-        value=(min_year, max_year),
-        step=4,
-        key="historical_eda_goals_year_range",
-    )
-    tournament_goals = tournament_goals.loc[tournament_goals["edition"].between(year_range[0], year_range[1])].copy()
-    team_goals = team_goals.loc[team_goals["edition"].between(year_range[0], year_range[1])].copy()
+    tournament_goals = filter_edition_range(tournament_goals, edition_range)
+    team_goals = filter_edition_range(team_goals, edition_range)
     if not match_scorelines.empty:
-        match_scorelines = match_scorelines.loc[
-            match_scorelines["edition"].between(year_range[0], year_range[1])
-        ].copy()
-    expansion = expansion.loc[expansion["edition"].between(year_range[0], year_range[1])].copy()
+        match_scorelines = filter_edition_range(match_scorelines, edition_range)
+    expansion = filter_edition_range(expansion, edition_range)
 
     placement_summary = (
         team_goals.groupby("placement", as_index=False)
@@ -1418,8 +1418,11 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
     )
 
 
-def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
-    hosts = outputs["hosts"].copy()
+def render_host_tab(outputs: dict[str, pd.DataFrame], edition_range: tuple[int, int]) -> None:
+    hosts = filter_edition_range(outputs["hosts"], edition_range)
+    if hosts.empty:
+        st.info("No host effect data is available for the selected edition range.")
+        return
     hosts["host_goal_size"] = pd.to_numeric(hosts["gf"], errors="coerce").fillna(1).clip(lower=1)
     summary = outputs["host_summary"].iloc[0]
     render_metric_row(
@@ -1472,11 +1475,16 @@ def render_host_tab(outputs: dict[str, pd.DataFrame]) -> None:
 def render_winner_goal_charts(
     goals_outputs: dict[str, pd.DataFrame],
     participation_outputs: dict[str, pd.DataFrame],
+    edition_range: tuple[int, int],
 ) -> None:
     winner_goals = prepare_country_goal_metrics(goals_outputs["team_goals"])
     winner_goals = winner_goals.loc[winner_goals["placement"].eq("Winner")].copy()
+    winner_goals = filter_edition_range(winner_goals, edition_range).sort_values("edition")
     winner_scorelines = goals_outputs.get("winner_match_scorelines", pd.DataFrame()).copy()
+    if not winner_scorelines.empty:
+        winner_scorelines = filter_edition_range(winner_scorelines, edition_range)
     expansion = expansion_editions(participation_outputs["participating_teams"])
+    expansion = filter_edition_range(expansion, edition_range)
 
     if winner_goals.empty:
         st.info("No winner goal data is available.")
@@ -1511,7 +1519,7 @@ def render_winner_goal_charts(
         country_value_format = ".2f"
 
     champion_fig = px.line(
-        winner_goals,
+        winner_goals.sort_values("edition"),
         x="edition",
         y=champion_y,
         markers=True,
@@ -1584,13 +1592,19 @@ def render_winner_followup_tab(
     winners: pd.DataFrame,
     goals_outputs: dict[str, pd.DataFrame],
     participation_outputs: dict[str, pd.DataFrame],
+    edition_range: tuple[int, int],
 ) -> None:
-    winners = winners.copy()
+    winners = filter_edition_range(winners, edition_range)
+    winners = add_era_from_participation(winners, participation_outputs)
+    if winners.empty:
+        st.info("No winner follow-up data is available for the selected edition range.")
+        return
     winners["next_placement_short"] = winners["next_placement"].map(PLACEMENT_SHORT_LABELS).fillna(
         winners["next_placement"].astype(str)
     )
     placement_order = [placement for placement in PLACEMENT_SHORT_LABELS if placement in set(winners["next_placement"])]
     expansion = expansion_editions(participation_outputs["participating_teams"])
+    expansion = filter_edition_range(expansion, edition_range)
     render_metric_row(
         {
             "Champions Tracked": len(winners),
@@ -1627,13 +1641,13 @@ def render_winner_followup_tab(
     set_edition_ticks(fig, winners, tickangle=45)
     render_plotly_chart(fig, key="historical_eda_winner_followup")
     st.dataframe(winners, hide_index=True, width="stretch")
-    render_winner_goal_charts(goals_outputs, participation_outputs)
+    render_winner_goal_charts(goals_outputs, participation_outputs, edition_range)
 
 
-def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
-    outcome = outputs["outcome_frame"].copy()
-    last_k_features = outputs["last_k_features"].copy()
-    last_k_summary = outputs["last_k_summary"].iloc[0]
+def render_correlations_tab(outputs: dict[str, pd.DataFrame], edition_range: tuple[int, int]) -> None:
+    outcome = filter_edition_range(outputs["outcome_frame"], edition_range)
+    last_k_features = filter_edition_range(outputs["last_k_features"], edition_range)
+    last_k_summary = outputs["last_k_summary"].iloc[0].copy()
     pre_features = [feature for feature in PRE_TOURNAMENT_FEATURES if feature in outcome.columns]
     tournament_features = [feature for feature in IN_TOURNAMENT_FEATURES if feature in outcome.columns]
     last_k_columns = [feature for feature in LAST_K_FEATURES if feature in last_k_features.columns]
@@ -1641,6 +1655,13 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
     tournament_corr = build_correlation_table(outcome, tournament_features)
     last_k_analysis = last_k_features.rename(columns={"current_finish_score": "finish_score"})
     last_k_corr = build_correlation_table(last_k_analysis, last_k_columns)
+    valid_last_k = last_k_features[["last_k_avg_finish_score", "current_finish_score"]].dropna()
+    last_k_summary["rows"] = int(len(valid_last_k))
+    last_k_summary["correlation_with_finish_score"] = (
+        float(valid_last_k["last_k_avg_finish_score"].corr(valid_last_k["current_finish_score"]))
+        if len(valid_last_k) > 2
+        else pd.NA
+    )
     combined_last_k_features = [*pre_features, *last_k_columns]
     combined_last_k_analysis = outcome.merge(
         last_k_analysis.drop(columns=["lookback"], errors="ignore"),
@@ -1654,7 +1675,9 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame]) -> None:
         {
             "Last-k Lookback": int(last_k_summary["lookback"]),
             "Last-k Rows": int(last_k_summary["rows"]),
-            "Last-k Correlation": f'{last_k_summary["correlation_with_finish_score"]:.3f}',
+            "Last-k Correlation": f'{last_k_summary["correlation_with_finish_score"]:.3f}'
+            if pd.notna(last_k_summary["correlation_with_finish_score"])
+            else "N/A",
         }
     )
 
@@ -2020,6 +2043,16 @@ def render_historical_eda_page() -> None:
         correlations,
         implications_2026,
     ) = compute_historical_eda_outputs(lookback=lookback)
+    edition_min = int(participation["participating_teams"]["edition"].min())
+    edition_max = int(participation["participating_teams"]["edition"].max())
+    edition_range = st.sidebar.slider(
+        "Edition range",
+        min_value=edition_min,
+        max_value=edition_max,
+        value=(edition_min, edition_max),
+        step=4,
+        key="historical_eda_global_edition_range",
+    )
 
     with st.expander("Data quality snapshot"):
         st.dataframe(quality, hide_index=True, width="stretch")
@@ -2038,15 +2071,15 @@ def render_historical_eda_page() -> None:
         ]
     )
     with tabs[0]:
-        render_participation_tab(participation, placement)
+        render_participation_tab(participation, placement, edition_range)
     with tabs[1]:
-        render_goals_tab(goals, participation)
+        render_goals_tab(goals, participation, edition_range)
     with tabs[2]:
-        render_host_tab(hosts)
+        render_host_tab(hosts, edition_range)
     with tabs[3]:
-        render_winner_followup_tab(winners, goals, participation)
+        render_winner_followup_tab(winners, goals, participation, edition_range)
     with tabs[4]:
-        render_correlations_tab(correlations)
+        render_correlations_tab(correlations, edition_range)
     with tabs[5]:
         render_qualifiers_tab(qualifier_outputs)
     with tabs[6]:
