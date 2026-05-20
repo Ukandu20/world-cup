@@ -498,13 +498,13 @@ def chart_caption_from_title(title: object) -> str | None:
         "Participation by Confederation": "Compares the number of countries represented in each confederation at every tournament, highlighting expansion effects across eras.",
         "Debutants by Edition": "Shows how many nations made their first World Cup appearance in each edition.",
         "Match Scoreline Distribution by Round": "Groups match scorelines by total goals on the y-axis; each point is still an individual match with exact scoreline details in hover.",
-        "Host Nation Finishes": "Shows how host countries finished, with point size reflecting goals for and color identifying confederation.",
+        "Host Nation Finishes": "Shows how host countries finished, with point size reflecting goals scored and color identifying confederation.",
         "Champion Follow-up Performance": "Tracks how each champion performed at the next World Cup, including title defenses and failed qualifications.",
         "Pre-Tournament Feature Correlation with World Cup Finish Score": "Ranks leakage-safe pre-tournament indicators by Spearman correlation with normalized finish score.",
         "In-Tournament Stat Correlation with World Cup Finish Score": "Shows how tournament performance stats relate to final finish; these explain outcomes rather than predict them beforehand.",
         "Spearman Correlation Heatmap: Outcome and Predictors": "Displays pairwise Spearman correlations among finish score and pre-tournament predictors.",
         "Spearman Correlation Heatmap: Outcome and Tournament Stats": "Displays pairwise Spearman correlations among finish score and in-tournament performance stats.",
-        "2026 Qualifier Performance Score": "Ranks qualified teams by lead-in qualifier performance using points, goal difference, and Elo movement.",
+        "2026 Qualifier Performance Score": "Ranks qualified teams by qualifiers performance using points, goal difference, and Elo movement.",
         "2026 Qualifier Attack vs Defense": "Places teams by qualifier scoring and concession rates; larger points indicate stronger points-per-match records.",
         "2026 Confederation Share": "Compares confederation representation in the expanded 2026 field.",
     }
@@ -537,9 +537,9 @@ def chart_caption_from_title(title: object) -> str | None:
     if " vs Finish Score" in base_title:
         return "Plots each team-edition observation to show the relationship between this feature and normalized finish score."
     if "2026 Qualifier Goals For" in base_title:
-        return "Ranks qualified teams by attacking output during 2026 qualifying and playoff lead-in matches."
+        return "Ranks qualified teams by attacking output [goals scored] during 2026 qualifying and playoff matches."
     if "2026 Qualifier Goals Against" in base_title:
-        return "Ranks qualified teams by defensive record during 2026 qualifying and playoff lead-in matches."
+        return "Ranks qualified teams by defensive record [goals conceded] during 2026 qualifying and playoff matches."
     return None
 
 
