@@ -512,14 +512,24 @@ def chart_caption_from_title(title: object) -> str | None:
         return caption_by_title[base_title]
     if "Placement by Edition" in base_title:
         return "Shows the selected country's placements over time."
+    if "Winners Placement the following Edition" in base_title:
+        return "Shows the selected winner's placements over time."
     if "Goals Scored per Game" in base_title:
         return "Shows the selected country's per-match scoring rate by edition."
     if "Goals Conceded per Game" in base_title:
         return "Shows the selected country's per-match defensive record by edition."
     if "Goals Scored" in base_title:
-        return "Shows the selected country's goals for by edition, with expansion markers for tournament format context."
+        return "Shows the selected country's goals for by edition."
     if "Goals Conceded" in base_title:
-        return "Shows the selected country's goals against by edition, with expansion markers for tournament format context."
+        return "Shows the selected country's goals against by edition."
+    if "Winner Goals Scored per Game" in base_title:
+        return "Shows the selected champion's per-match scoring rate by edition."
+    if "Winner Goals Conceded per Game" in base_title:
+        return "Shows the selected champion's per-match defensive record by edition."
+    if "Winner Goals Scored" in base_title:
+        return "Shows the selected champion's goals for by edition."
+    if "Winner Goals Conceded" in base_title:
+        return "Shows the selected champion's goals against by edition."
     if "Tournament Goals per Match" in base_title:
         return "Tracks per-tournament scoring rate, which is more comparable across editions than raw goal totals."
     if "Tournament Total Goals" in base_title:
