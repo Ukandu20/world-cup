@@ -802,7 +802,7 @@ def report_card_css() -> str:
     .trc-facts {
         margin-top: 18px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
         gap: 12px;
     }
     .trc-fact {
@@ -1875,7 +1875,6 @@ def render_team_report_card_page() -> None:
         model_label=home.V3_MODEL_LABEL,
     )
     st.caption(
-        f"Model {home.V3_MODEL_VERSION}: {home.V3_MODEL_SUMMARY}. "
         f"This report card uses the V3 Poisson model, the last {form_match_window} Elo-rated matches, "
         "historical World Cup pedigree, and the modal deterministic bracket."
     )

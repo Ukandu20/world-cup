@@ -938,19 +938,23 @@ def render_home_page() -> None:
     inject_styles()
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     _, fixtures_df, _, metadata = load_data()
-    render_dashboard_header(world_cup_logo_data_uri, metadata, SIMULATION_COUNT, title="World Cup 2026 Dashboard")
+    render_dashboard_header(world_cup_logo_data_uri, metadata, SIMULATION_COUNT, title="World Cup 2026 Projections Dashboard")
     render_countdown_timer(fixtures_df)
     st.markdown(
         """
+
+        ### Summary
+
+        This project explores historical FIFA Men's World Cup data to uncover patterns in tournament performance, scorelines, and team trajectories. Then applies those insights to project outcomes for the 2026 FIFA Men's World Cup.
         ### Page Directory
         Use the grouped sidebar navigation to keep reports, models, and backtests isolated.
 
 
-        #### These are the different models I have used against each other in order to simulate the 2026 FIFA World Cup tournament projections.
+        ###### These are the different models I have used against each other in order to simulate the 2026 FIFA World Cup tournament projections.
 
         - `Reports` contains `Analysis` and `Team Report Card`.
-        - `Models` contains `V1 Team Strength`, `V2 Form`, `V2 Probabilities`, and `V3 Poisson Regression`.
-        - `Backtests` contains `V2 2022 Backtest` and `V3 2022 Backtest`.
+        - `Models` contains `V1: Team Strength`, `V2: Form`, `V2: Probabilities`, and `V3: Poisson Regression`.
+        - `Backtests` contains `V2: 2022 Backtest` and `V3: 2022 Backtest`.
 
         Settings and exports are separated per page so changes in one version do not interfere with the other by accident.
         """

@@ -255,7 +255,7 @@ def build_navigation_pages() -> dict[str, list[st.Page]]:
 
 def main() -> None:
     """Run the grouped Streamlit navigation entrypoint."""
-    configure_page("World Cup 2026 Dashboard")
+    configure_page("World Cup 2026 Prediction Dashboard")
     selected_page = st.navigation(build_navigation_pages())
     selected_page.run()
 

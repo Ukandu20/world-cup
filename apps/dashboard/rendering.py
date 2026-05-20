@@ -80,11 +80,9 @@ def render_dashboard_header(
               <div class="wc-kicker">Pre-Tournament Predictions</div>
               <h1 style="margin:0;">{html.escape(title)}</h1>
               <div class="wc-meta">
-                Model: {html.escape(model_version)} ({html.escape(model_label)}) |
-                Build date: {html.escape(str(metadata["build_date"]))} |
-                FIFA snapshot: {html.escape(str(metadata["fifa_snapshot_date"]))} |
-                Elo snapshot: {html.escape(str(metadata["elo_snapshot_date"]))} |
-                Simulations per group: {simulation_count:,}
+                Author: Okechi Ukandu |
+                Build date: {html.escape(str(metadata["build_date"]))} |                
+                Simulations count: {simulation_count:,}
               </div>
             </div>
           </div>
@@ -148,6 +146,7 @@ def shared_css() -> str:
         background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
         box-shadow: 0 8px 24px rgba(17, 24, 39, 0.05);
         overflow: hidden;
+        height: 100%;
         margin: 0.55rem 0 0.85rem;
         padding-bottom: 0.6rem;
     }
