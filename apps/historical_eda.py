@@ -959,6 +959,10 @@ def render_scoreline_distribution_chart(
     render_plotly_chart(scoreline_fig, key=chart_key)
 
 
+def load_winner_match_scorelines_fallback() -> pd.DataFrame:
+    return build_goal_metrics(load_historical_eda_data()).get("winner_match_scorelines", pd.DataFrame()).copy()
+
+
 def feature_label(feature: str) -> str:
     return FEATURE_LABELS.get(feature, feature.replace("_", " ").title())
 
@@ -1481,6 +1485,8 @@ def render_winner_goal_charts(
     winner_goals = winner_goals.loc[winner_goals["placement"].eq("Winner")].copy()
     winner_goals = filter_edition_range(winner_goals, edition_range).sort_values("edition")
     winner_scorelines = goals_outputs.get("winner_match_scorelines", pd.DataFrame()).copy()
+    if winner_scorelines.empty:
+        winner_scorelines = load_winner_match_scorelines_fallback()
     if not winner_scorelines.empty:
         winner_scorelines = filter_edition_range(winner_scorelines, edition_range)
     expansion = expansion_editions(participation_outputs["participating_teams"])
