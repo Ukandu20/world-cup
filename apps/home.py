@@ -305,7 +305,11 @@ def load_v3_poisson_model(
     training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
 ) -> dict[str, object]:
     """Fit and cache the v3 Poisson model artifacts for the active form window."""
-    return fit_v3_poisson_models(match_window=form_match_window, training_scope=training_scope)
+    return fit_v3_poisson_models(
+        match_window=form_match_window,
+        training_scope=training_scope,
+        reference_edition_year=2026,
+    )
 
 
 @st.cache_data(show_spinner=False)

@@ -229,35 +229,131 @@ def build_v3_training_frame(
 
     country_results_lookup = load_historical_country_results_lookup()
     placement_df, edition_team_counts, edition_weight_map = load_historical_placement_history()
+    empty_form_snapshot = {
+        "results_form": 0.0,
+        "gd_form": 0.0,
+        "perf_vs_exp": 0.0,
+        "goals_for": 0.0,
+        "goals_against": 0.0,
+        "pre_tournament_elo": 0.0,
+    }
+    prepared_country_results: dict[str, dict[str, np.ndarray]] = {}
+    for team_key, team_results in country_results_lookup.items():
+        if team_results.empty:
+            continue
+        prepared = team_results.copy()
+        prepared["date"] = pd.to_datetime(prepared["date"], errors="coerce")
+        for column_name in ("team_score", "opponent_score", "team_elo_start", "opponent_elo_start", "team_elo_end"):
+            if column_name in prepared.columns:
+                prepared[column_name] = pd.to_numeric(prepared[column_name], errors="coerce")
+        if "team_elo_end" not in prepared.columns:
+            prepared["team_elo_end"] = np.nan
+        prepared = prepared.dropna(subset=["date"]).sort_values(["date"], kind="stable").reset_index(drop=True)
+        if prepared.empty:
+            continue
+        normalized_result = normalize_weighted_form_result(
+            prepared["result"],
+            prepared["team_score"],
+            prepared["opponent_score"],
+        )
+        actual_score = normalized_result.map({"win": 1.0, "draw": 0.5, "loss": 0.0})
+        goal_difference = prepared["team_score"] - prepared["opponent_score"]
+        perf_vs_exp = actual_score - compute_elo_expected_score(
+            prepared["team_elo_start"],
+            prepared["opponent_elo_start"],
+        ).astype(float)
+        eligible_mask = (
+            prepared["team_score"].notna()
+            & prepared["opponent_score"].notna()
+            & prepared["team_elo_start"].notna()
+            & prepared["opponent_elo_start"].notna()
+            & normalized_result.notna()
+        )
+        prepared_country_results[team_key] = {
+            "date": prepared["date"].to_numpy(dtype="datetime64[ns]"),
+            "eligible_index": np.flatnonzero(eligible_mask.to_numpy()),
+            "elo_end_index": np.flatnonzero(prepared["team_elo_end"].notna().to_numpy()),
+            "elo_start_index": np.flatnonzero(prepared["team_elo_start"].notna().to_numpy()),
+            "actual_score": actual_score.fillna(0.0).to_numpy(dtype=float),
+            "gd_capped": goal_difference.clip(
+                lower=-WEIGHTED_FORM_GOAL_DIFFERENCE_CAP,
+                upper=WEIGHTED_FORM_GOAL_DIFFERENCE_CAP,
+            ).fillna(0.0).to_numpy(dtype=float),
+            "perf_vs_exp": perf_vs_exp.fillna(0.0).to_numpy(dtype=float),
+            "goals_for": prepared["team_score"].fillna(0.0).to_numpy(dtype=float),
+            "goals_against": prepared["opponent_score"].fillna(0.0).to_numpy(dtype=float),
+            "team_elo_end": prepared["team_elo_end"].fillna(0.0).to_numpy(dtype=float),
+            "team_elo_start": prepared["team_elo_start"].fillna(0.0).to_numpy(dtype=float),
+        }
+
+    form_snapshot_cache: dict[tuple[str, pd.Timestamp], dict[str, float]] = {}
+    history_snapshot_cache: dict[tuple[str, int], dict[str, float]] = {}
+
+    def form_snapshot_before(team_key: str, match_date: pd.Timestamp) -> dict[str, float]:
+        cache_key = (team_key, match_date)
+        if cache_key not in form_snapshot_cache:
+            prepared = prepared_country_results.get(team_key)
+            if prepared is None:
+                form_snapshot_cache[cache_key] = empty_form_snapshot.copy()
+                return form_snapshot_cache[cache_key]
+
+            position = int(np.searchsorted(prepared["date"], np.datetime64(match_date), side="left"))
+            eligible_indices = prepared["eligible_index"]
+            recent_indices = eligible_indices[eligible_indices < position][-match_window:]
+
+            pre_tournament_elo = 0.0
+            elo_end_indices = prepared["elo_end_index"]
+            prior_elo_end_indices = elo_end_indices[elo_end_indices < position]
+            if len(prior_elo_end_indices):
+                pre_tournament_elo = float(prepared["team_elo_end"][prior_elo_end_indices[-1]])
+            else:
+                elo_start_indices = prepared["elo_start_index"]
+                prior_elo_start_indices = elo_start_indices[elo_start_indices < position]
+                if len(prior_elo_start_indices):
+                    pre_tournament_elo = float(prepared["team_elo_start"][prior_elo_start_indices[-1]])
+
+            if len(recent_indices) == 0:
+                snapshot = empty_form_snapshot.copy()
+                snapshot["pre_tournament_elo"] = pre_tournament_elo
+                form_snapshot_cache[cache_key] = snapshot
+                return snapshot
+
+            recency_weight = np.arange(1, len(recent_indices) + 1, dtype=float)
+            total_weight = float(recency_weight.sum())
+            form_snapshot_cache[cache_key] = {
+                "results_form": float(np.dot(prepared["actual_score"][recent_indices], recency_weight) / total_weight),
+                "gd_form": float(np.dot(prepared["gd_capped"][recent_indices], recency_weight) / total_weight),
+                "perf_vs_exp": float(np.dot(prepared["perf_vs_exp"][recent_indices], recency_weight) / total_weight),
+                "goals_for": float(np.dot(prepared["goals_for"][recent_indices], recency_weight) / total_weight),
+                "goals_against": float(np.dot(prepared["goals_against"][recent_indices], recency_weight) / total_weight),
+                "pre_tournament_elo": pre_tournament_elo,
+            }
+        return form_snapshot_cache[cache_key]
+
+    def history_snapshot_before(team_key: str, edition_year: int) -> dict[str, float]:
+        cache_key = (team_key, int(edition_year))
+        if cache_key not in history_snapshot_cache:
+            history_snapshot_cache[cache_key] = compute_pre_tournament_history_features(
+                team_key,
+                int(edition_year),
+                placement_df,
+                edition_team_counts,
+                edition_weight_map,
+                edition_lookback=edition_lookback,
+            )
+        return history_snapshot_cache[cache_key]
 
     rows: list[dict[str, object]] = []
     for match in training_source.sort_values(["date", "home_team", "away_team"], kind="stable").itertuples(index=False):
         match_date = pd.Timestamp(match.date)
         home_key = normalize_historical_team_name(str(match.home_team))
         away_key = normalize_historical_team_name(str(match.away_team))
-        home_results = country_results_lookup.get(home_key, pd.DataFrame())
-        away_results = country_results_lookup.get(away_key, pd.DataFrame())
-        home_prior = home_results[home_results["date"] < match_date].copy() if not home_results.empty else pd.DataFrame()
-        away_prior = away_results[away_results["date"] < match_date].copy() if not away_results.empty else pd.DataFrame()
+        edition_year = int(match_date.year)
 
-        home_form = compute_weighted_form_snapshot(home_prior, match_window=match_window)
-        away_form = compute_weighted_form_snapshot(away_prior, match_window=match_window)
-        home_history = compute_pre_tournament_history_features(
-            home_key,
-            int(match_date.year),
-            placement_df,
-            edition_team_counts,
-            edition_weight_map,
-            edition_lookback=edition_lookback,
-        )
-        away_history = compute_pre_tournament_history_features(
-            away_key,
-            int(match_date.year),
-            placement_df,
-            edition_team_counts,
-            edition_weight_map,
-            edition_lookback=edition_lookback,
-        )
+        home_form = form_snapshot_before(home_key, match_date)
+        away_form = form_snapshot_before(away_key, match_date)
+        home_history = history_snapshot_before(home_key, edition_year)
+        away_history = history_snapshot_before(away_key, edition_year)
 
         neutral_site_flag = 1.0 if is_neutral_site(getattr(match, "neutral", False)) else 0.0
         match_country_key = normalize_historical_team_name(getattr(match, "country", ""))

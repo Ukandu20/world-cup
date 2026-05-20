@@ -111,6 +111,7 @@ CHART_SECONDARY_COLOR = "#2F6F73"
 QUALIFICATION_STAGE_COLORS = {"Qualifiers": CHART_SECONDARY_COLOR, "Playoffs": "#C99700"}
 QUALIFICATION_STAGE_DISPLAY_LABELS = {"Qualifiers": "Qualifiers", "Playoffs": "Qualifier playoffs"}
 SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
+DEFAULT_REPORT_CARD_SIMULATION_LABEL = "250"
 ERA_COLORS = {
     "Early Era": "#7A4E2D",
     "Golden Age": "#C99700",
@@ -1824,7 +1825,7 @@ def render_team_report_card_page() -> None:
 
     default_settings = home.default_simulation_settings()
     simulation_options = list(home.SIMULATION_OPTIONS.keys())
-    default_simulation_label = str(default_settings["simulation_label"])
+    default_simulation_label = DEFAULT_REPORT_CARD_SIMULATION_LABEL
     default_simulation_index = simulation_options.index(default_simulation_label) if default_simulation_label in simulation_options else 0
 
     st.sidebar.subheader("Report Card Controls")
@@ -1843,7 +1844,8 @@ def render_team_report_card_page() -> None:
     )
 
     simulations = home.SIMULATION_OPTIONS[simulation_label]
-    dataset = build_report_card_dataset(simulations=simulations, match_window=form_match_window)
+    with st.spinner(f"Building report-card model view with {simulations:,} simulations..."):
+        dataset = build_report_card_dataset(simulations=simulations, match_window=form_match_window)
     team_choices = (
         dataset["dashboard_df"]
         .loc[:, ["team_id", "display_name", "group_code"]]
