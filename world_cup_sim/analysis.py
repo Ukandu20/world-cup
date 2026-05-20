@@ -337,6 +337,56 @@ def build_goal_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFr
     for column in ["team_score", "opponent_score"]:
         results[column] = pd.to_numeric(results[column], errors="coerce").fillna(0)
 
+    match_scorelines = results.drop_duplicates(["edition", "match_id"]).copy()
+    match_scorelines["score_low"] = match_scorelines[["team_score", "opponent_score"]].min(axis=1).astype(int)
+    match_scorelines["score_high"] = match_scorelines[["team_score", "opponent_score"]].max(axis=1).astype(int)
+    match_scorelines["total_goals"] = match_scorelines["score_low"] + match_scorelines["score_high"]
+    match_scorelines["scoreline"] = (
+        match_scorelines["score_low"].astype(str) + "-" + match_scorelines["score_high"].astype(str)
+    )
+    scoreline_order = (
+        match_scorelines[["scoreline", "total_goals", "score_low", "score_high"]]
+        .drop_duplicates()
+        .sort_values(["total_goals", "score_low", "score_high"], kind="stable")
+        .reset_index(drop=True)
+    )
+    scoreline_order["scoreline_rank"] = scoreline_order.index + 1
+    match_scorelines = match_scorelines.merge(
+        scoreline_order[["scoreline", "scoreline_rank"]],
+        on="scoreline",
+        how="left",
+        validate="many_to_one",
+    )
+    match_scorelines["score"] = (
+        match_scorelines["team_score"].astype(int).astype(str)
+        + "-"
+        + match_scorelines["opponent_score"].astype(int).astype(str)
+    )
+    match_scoreline_columns = [
+        "edition",
+        "era",
+        "tournament_id",
+        "match_id",
+        "match_number",
+        "date",
+        "stage",
+        "country",
+        "opponent",
+        "team_score",
+        "opponent_score",
+        "score",
+        "score_low",
+        "score_high",
+        "total_goals",
+        "scoreline",
+        "scoreline_rank",
+    ]
+    match_scorelines = (
+        match_scorelines[[column for column in match_scoreline_columns if column in match_scorelines.columns]]
+        .sort_values(["edition", "match_number", "match_id"], kind="stable")
+        .reset_index(drop=True)
+    )
+
     matches = (
         results.groupby(["edition", "era", "tournament_id"], dropna=False, as_index=False, observed=True)
         .agg(total_matches=("match_id", "nunique"))
@@ -398,6 +448,7 @@ def build_goal_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFr
         "team_goals": team_goals,
         "tournament_goals": tournament_goals.sort_values("edition").reset_index(drop=True),
         "placement_goal_summary": placement_goal_summary,
+        "match_scorelines": match_scorelines,
     }
 
 

@@ -83,6 +83,8 @@ PLACEMENT_SHORT_LABELS = {
     "Group Stage": "GS",
     "DNQ": "DNQ",
 }
+GOALS_STAGE_ORDER = ["Group Stage", "Round of 16", "Quarter-final", "Semi-final", "Third Place", "Final"]
+GOALS_KNOCKOUT_STAGES = ["Round of 16", "Quarter-final", "Semi-final", "Third Place", "Final"]
 
 CHART_BACKGROUND = "#EFE3CF"
 CHART_TEXT_COLOR = "#3A2A1A"
@@ -1041,6 +1043,7 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
     tournament_goals = outputs["tournament_goals"]
     team_goals = prepare_country_goal_metrics(outputs["team_goals"])
     placement_summary = outputs["placement_goal_summary"]
+    match_scorelines = outputs.get("match_scorelines", pd.DataFrame()).copy()
     expansion = expansion_editions(participation_outputs["participating_teams"])
 
     goal_metric_mode = st.radio(
@@ -1101,6 +1104,88 @@ def render_goals_tab(outputs: dict[str, pd.DataFrame], participation_outputs: di
     add_expansion_markers(fig, expansion)
     set_edition_ticks(fig, tournament_goals)
     render_plotly_chart(fig)
+
+    if not match_scorelines.empty:
+        scoreline_scope = st.selectbox(
+            "Scoreline box plot scope",
+            ["All stages", "Knockouts only"],
+            key="historical_eda_scoreline_scope",
+        )
+        scoreline_plot = match_scorelines.copy()
+        if scoreline_scope == "Knockouts only":
+            scoreline_plot = scoreline_plot.loc[scoreline_plot["stage"].isin(GOALS_KNOCKOUT_STAGES)].copy()
+        scoreline_plot = scoreline_plot.loc[scoreline_plot["stage"].isin(GOALS_STAGE_ORDER)].copy()
+
+        if scoreline_plot.empty:
+            st.info("No match scoreline data is available for this scope.")
+        else:
+            scoreline_ticks = (
+                scoreline_plot[["scoreline_rank", "scoreline"]]
+                .drop_duplicates()
+                .sort_values("scoreline_rank", kind="stable")
+            )
+            scoreline_summary = (
+                scoreline_plot.groupby("stage", observed=True)
+                .agg(avg_goals_per_match=("total_goals", "mean"), matches=("match_id", "count"))
+                .reset_index()
+            )
+            mode_scorelines = (
+                scoreline_plot.groupby(["stage", "scoreline"], observed=True)
+                .size()
+                .reset_index(name="scoreline_count")
+                .sort_values(["stage", "scoreline_count", "scoreline"], ascending=[True, False, True], kind="stable")
+                .drop_duplicates("stage")
+                .rename(columns={"scoreline": "mode_scoreline"})
+            )
+            scoreline_summary = scoreline_summary.merge(mode_scorelines, on="stage", how="left")
+            scoreline_fig = px.box(
+                scoreline_plot,
+                x="stage",
+                y="scoreline_rank",
+                points="all",
+                category_orders={"stage": GOALS_STAGE_ORDER},
+                hover_data={
+                    "edition": True,
+                    "country": True,
+                    "opponent": True,
+                    "score": True,
+                    "scoreline": True,
+                    "match_id": True,
+                    "scoreline_rank": False,
+                },
+                labels={
+                    "stage": "Round",
+                    "scoreline_rank": "Canonical scoreline",
+                    "country": "Team",
+                    "score": "Original score",
+                    "scoreline": "Canonical scoreline",
+                    "match_id": "Match ID",
+                },
+                title=world_cup_chart_title("Match Scoreline Distribution by Round"),
+            )
+            scoreline_fig.update_traces(
+                marker={"color": CHART_POSITIVE_COLOR, "size": 4, "opacity": 0.6},
+                line={"color": CHART_AXIS_COLOR},
+                jitter=0.35,
+            )
+            apply_original_chart_style(scoreline_fig, "Match Scoreline Distribution by Round", height=620)
+            scoreline_fig.update_yaxes(
+                tickmode="array",
+                tickvals=scoreline_ticks["scoreline_rank"].tolist(),
+                ticktext=scoreline_ticks["scoreline"].tolist(),
+            )
+            annotation_y = float(scoreline_plot["scoreline_rank"].max()) + 0.9
+            scoreline_fig.update_yaxes(range=[0.5, annotation_y + 0.6])
+            for row in scoreline_summary.itertuples(index=False):
+                scoreline_fig.add_annotation(
+                    x=row.stage,
+                    y=annotation_y,
+                    text=f"Mode {row.mode_scoreline}<br>Mean {row.avg_goals_per_match:.2f} goals",
+                    showarrow=False,
+                    align="center",
+                    font={"size": 10, "color": CHART_AXIS_COLOR},
+                )
+            render_plotly_chart(scoreline_fig)
 
     country_goals = team_goals.loc[team_goals["country"].eq(selected_country)].sort_values("edition")
     scored_fig = render_country_goal_line(

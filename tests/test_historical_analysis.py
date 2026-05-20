@@ -74,8 +74,86 @@ def test_goal_and_winner_followup_metrics_have_expected_columns():
     assert {"edition", "country", "gf", "ga", "goals_per_game"}.issubset(
         goal_metrics["team_goals"].columns
     )
+    assert {"edition", "stage", "scoreline", "scoreline_rank", "match_id"}.issubset(
+        goal_metrics["match_scorelines"].columns
+    )
+    assert goal_metrics["match_scorelines"].duplicated(["edition", "match_id"]).sum() == 0
     assert {"edition", "country", "next_edition", "next_placement"}.issubset(winners.columns)
     assert winners["country"].notna().all()
+
+
+def test_match_scorelines_canonicalize_reversed_scores():
+    results = pd.DataFrame(
+        [
+            {
+                "edition": 2030,
+                "era": "Test Era",
+                "tournament_id": "WC-2030",
+                "match_id": "WC-2030_001",
+                "match_number": 1,
+                "date": "2030-06-01",
+                "stage": "Group Stage",
+                "country": "Alpha",
+                "opponent": "Beta",
+                "team_score": 1,
+                "opponent_score": 0,
+            },
+            {
+                "edition": 2030,
+                "era": "Test Era",
+                "tournament_id": "WC-2030",
+                "match_id": "WC-2030_001",
+                "match_number": 1,
+                "date": "2030-06-01",
+                "stage": "Group Stage",
+                "country": "Beta",
+                "opponent": "Alpha",
+                "team_score": 0,
+                "opponent_score": 1,
+            },
+            {
+                "edition": 2030,
+                "era": "Test Era",
+                "tournament_id": "WC-2030",
+                "match_id": "WC-2030_002",
+                "match_number": 2,
+                "date": "2030-06-02",
+                "stage": "Group Stage",
+                "country": "Gamma",
+                "opponent": "Delta",
+                "team_score": 0,
+                "opponent_score": 1,
+            },
+            {
+                "edition": 2030,
+                "era": "Test Era",
+                "tournament_id": "WC-2030",
+                "match_id": "WC-2030_002",
+                "match_number": 2,
+                "date": "2030-06-02",
+                "stage": "Group Stage",
+                "country": "Delta",
+                "opponent": "Gamma",
+                "team_score": 1,
+                "opponent_score": 0,
+            },
+        ]
+    )
+    placement = pd.DataFrame(
+        [
+            {"edition": 2030, "country": "Alpha", "placement": "Group Stage", "position": 1},
+            {"edition": 2030, "country": "Beta", "placement": "Group Stage", "position": 2},
+            {"edition": 2030, "country": "Gamma", "placement": "Group Stage", "position": 3},
+            {"edition": 2030, "country": "Delta", "placement": "Group Stage", "position": 4},
+        ]
+    )
+
+    scorelines = build_goal_metrics({"results": results, "placement": placement})["match_scorelines"]
+
+    assert scorelines["match_id"].tolist() == ["WC-2030_001", "WC-2030_002"]
+    assert scorelines["score"].tolist() == ["1-0", "0-1"]
+    assert scorelines["scoreline"].tolist() == ["0-1", "0-1"]
+    assert scorelines["scoreline_rank"].nunique() == 1
 
 
 def test_host_effect_metrics_handle_multi_host_2026():
