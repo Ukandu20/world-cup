@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from .dashboard_config import (
+from .config import (
     ALL_COUNTRIES_KNOCKOUT_COLUMNS,
     BRACKET_EXPORT_VIEWPORT_SIZE,
     DEFAULT_RECENT_MATCH_WINDOW,
@@ -19,7 +19,7 @@ from .dashboard_config import (
     SCREENSHOT_CHANNELS,
     V1_VIEW_OPTIONS,
 )
-from .dashboard_rendering import (
+from .rendering import (
     build_bracket_html,
     build_table_html,
     current_form_view_tables,

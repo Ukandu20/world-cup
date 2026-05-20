@@ -6,7 +6,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from .dashboard_config import CHAMPION_TROPHY_PATH, DATA_DIR, WORLD_CUP_LOGO_PATH
+from .config import CHAMPION_TROPHY_PATH, DATA_DIR, WORLD_CUP_LOGO_PATH
 
 def fix_mojibake(value: str) -> str:
     """Repair common UTF-8 decoding artifacts in source text fields."""

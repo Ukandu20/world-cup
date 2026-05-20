@@ -9,7 +9,7 @@ from typing import Any
 import pandas as pd
 import streamlit as st
 
-from .dashboard_config import (
+from .config import (
     ALL_COUNTRIES_KNOCKOUT_COLUMNS,
     BRACKET_HEAD_TO_HEAD_SIMULATIONS,
     CURRENT_HOLDER_TEAM_ID,
@@ -42,8 +42,8 @@ from .dashboard_config import (
     build_v2_team_strengths,
     get_modal_group_rankings,
 )
-from .dashboard_data import load_champion_trophy_data_uri
-from .dashboard_modeling import ensure_dashboard_probability_columns
+from .data import load_champion_trophy_data_uri
+from .modeling import ensure_dashboard_probability_columns
 
 def chart_subtitle(base_label: str, simulation_count: int | None = None) -> str:
     """Return a chart subtitle with an optional simulation-count suffix."""

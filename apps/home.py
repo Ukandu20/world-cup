@@ -11,11 +11,11 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from apps.dashboard_config import *  # noqa: F401,F403
-from apps.dashboard_data import *  # noqa: F401,F403
-from apps.dashboard_modeling import *  # noqa: F401,F403
-from apps.dashboard_rendering import *  # noqa: F401,F403
-from apps.dashboard_export import (
+from apps.dashboard.config import *  # noqa: F401,F403
+from apps.dashboard.data import *  # noqa: F401,F403
+from apps.dashboard.modeling import *  # noqa: F401,F403
+from apps.dashboard.rendering import *  # noqa: F401,F403
+from apps.dashboard.export import (
     build_export_stem,
     build_screenshot_command,
     estimate_export_column_count,
@@ -24,7 +24,7 @@ from apps.dashboard_export import (
     export_document_png,
     generate_export_suffix,
 )
-from apps.dashboard_pages import *  # noqa: F401,F403
+from apps.dashboard.pages import *  # noqa: F401,F403
 
 
 @st.cache_data(show_spinner=False)

@@ -5,7 +5,7 @@ import inspect
 import pandas as pd
 import streamlit as st
 
-from .dashboard_config import (
+from .config import (
     DEFAULT_RECENT_MATCH_WINDOW,
     DEFAULT_SIMULATION_LABEL,
     DEFAULT_V2_TRAINING_SCOPE,

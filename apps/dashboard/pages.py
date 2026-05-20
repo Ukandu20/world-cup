@@ -3,7 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import streamlit as st
 
-from .dashboard_config import (
+from .config import (
     DEFAULT_SIMULATION_LABEL,
     DEFAULT_V2_TRAINING_SCOPE,
     DEFAULT_V3_TRAINING_SCOPE,
@@ -42,9 +42,9 @@ from .dashboard_config import (
     fit_v2_match_multinomial_model,
     fit_v3_poisson_models,
 )
-from .dashboard_data import load_data, load_world_cup_logo_data_uri
-from .dashboard_export import export_all_tables, export_current_view, export_document_png
-from .dashboard_modeling import (
+from .data import load_data, load_world_cup_logo_data_uri
+from .export import export_all_tables, export_current_view, export_document_png
+from .modeling import (
     default_simulation_settings,
     ensure_dashboard_probability_columns,
     load_v2_match_model,
@@ -55,7 +55,7 @@ from .dashboard_modeling import (
     simulate_probabilities_v2_dashboard,
     simulate_probabilities_v3_dashboard,
 )
-from .dashboard_rendering import (
+from .rendering import (
     all_teams_table_frame,
     build_confederation_form_tables,
     build_form_view_tables,
