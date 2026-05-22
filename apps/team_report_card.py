@@ -1828,7 +1828,7 @@ def render_team_report_card_page() -> None:
     default_simulation_label = DEFAULT_REPORT_CARD_SIMULATION_LABEL
     default_simulation_index = simulation_options.index(default_simulation_label) if default_simulation_label in simulation_options else 0
 
-    st.sidebar.subheader("Report Card Controls")
+    st.sidebar.subheader("Model Controls")
     simulation_label = st.sidebar.radio(
         "Simulations",
         simulation_options,
@@ -1857,15 +1857,6 @@ def render_team_report_card_page() -> None:
     labels = [f'{row.display_name} (Group {row.group_code})' for row in team_choices.itertuples(index=False)]
     query_team_id = get_query_team_param()
     selected_index = team_ids.index(query_team_id) if query_team_id in team_ids else 0
-    selected_team_id = st.sidebar.selectbox(
-        "Team",
-        team_ids,
-        index=selected_index,
-        format_func=lambda value: labels[team_ids.index(value)],
-        key="team_report_card_team_id",
-    )
-    set_query_team_param(selected_team_id)
-
     home.render_dashboard_header(
         home.load_world_cup_logo_data_uri(),
         dataset["metadata"],
@@ -1878,6 +1869,17 @@ def render_team_report_card_page() -> None:
         f"This report card uses the V3 Poisson model, the last {form_match_window} Elo-rated matches, "
         "historical World Cup pedigree, and the modal deterministic bracket."
     )
+
+    selector_columns = st.columns([2, 1])
+    with selector_columns[0]:
+        selected_team_id = st.selectbox(
+            "Team report",
+            team_ids,
+            index=selected_index,
+            format_func=lambda value: labels[team_ids.index(value)],
+            key="team_report_card_team_id",
+        )
+    set_query_team_param(selected_team_id)
 
     context = select_report_card_context(dataset, selected_team_id)
     render_identity_header(context)
