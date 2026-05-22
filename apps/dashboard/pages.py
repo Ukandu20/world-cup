@@ -945,7 +945,15 @@ def render_home_page() -> None:
 
         ### Summary
 
-        This project explores historical FIFA Men's World Cup data to uncover patterns in tournament performance, scorelines, and team trajectories. Then applies those insights to project outcomes for the 2026 FIFA Men's World Cup.
+        This project explores historical FIFA Men's World Cup data to uncover patterns in tournament performance, scorelines, and team trajectories. Then applies those insights to project probabilistic placement outcomes for the 2026 FIFA Men's World Cup.
+
+        ##### Key Metrics
+        ELO Rating - A numerical measure of a team's relative strength, 
+        updated after each match. Higher ratings indicate stronger teams.
+
+        ELO Change/Delta - The points gained or lost after a match, determined 
+        by three factors: the match result (W/D/L), the expected result based 
+        on the rating difference between teams, and the margin of victory.
         ### Page Directory
         Use the grouped sidebar navigation to keep reports, models, and backtests isolated.
 

@@ -80,6 +80,9 @@ def load_historical_world_cup_data(root: Path | None = None) -> dict[str, pd.Dat
     app_2026_teams = _read_csv_if_exists(data_root / "2026" / "teams.csv").rename(
         columns={"year": "edition", "team": "country"}
     )
+    app_2026_elo = _read_csv_if_exists(data_root / "2026" / "elo.csv").rename(
+        columns={"year": "edition", "team": "country", "elo_start": "start_elo"}
+    )
     if not app_2026_teams.empty:
         app_2026_columns = [
             column
@@ -130,7 +133,7 @@ def load_historical_world_cup_data(root: Path | None = None) -> dict[str, pd.Dat
         }
     )
 
-    for frame in (history, teams, placement, results, globe):
+    for frame in (history, teams, placement, results, globe, app_2026_elo):
         if "edition" in frame.columns:
             frame["edition"] = pd.to_numeric(frame["edition"], errors="coerce").astype("Int64")
 
@@ -168,6 +171,7 @@ def load_historical_world_cup_data(root: Path | None = None) -> dict[str, pd.Dat
         "placement": placement,
         "results": results,
         "globe": globe,
+        "elo_2026": app_2026_elo,
     }
 
 
@@ -489,6 +493,7 @@ def build_goal_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFr
 def build_host_effect_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFrame]:
     teams = datasets["teams"].copy()
     history = datasets["history"].copy()
+    placement = datasets["placement"].copy()
     goal_metrics = build_goal_metrics(datasets)
     team_goals = goal_metrics["team_goals"]
 
@@ -503,12 +508,13 @@ def build_host_effect_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd
         else False,
         axis=1,
     )
+    has_host_metadata = hosts["host_names"].apply(lambda value: isinstance(value, set) and bool(value))
     existing_host_flag = (
         hosts["is_host"].fillna(False).astype(bool)
         if "is_host" in hosts.columns
         else pd.Series(False, index=hosts.index)
     )
-    hosts["is_host"] = existing_host_flag | parsed_host_flag
+    hosts["is_host"] = parsed_host_flag | (existing_host_flag & ~has_host_metadata)
     hosts = hosts.loc[hosts["is_host"]].copy()
 
     editions = sorted(teams["edition"].dropna().astype(int).unique())
@@ -530,6 +536,26 @@ def build_host_effect_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd
         on=["edition", "country"],
         how="left",
     )
+    if "start_elo" in placement.columns:
+        hosts = hosts.merge(
+            placement[["edition", "country", "start_elo"]].drop_duplicates(["edition", "country"]),
+            on=["edition", "country"],
+            how="left",
+        )
+    if "start_elo" not in hosts.columns:
+        hosts["start_elo"] = pd.NA
+
+    elo_2026 = datasets.get("elo_2026", pd.DataFrame()).copy()
+    if not elo_2026.empty and {"edition", "team_id", "start_elo"}.issubset(elo_2026.columns):
+        hosts = hosts.merge(
+            elo_2026[["edition", "team_id", "start_elo"]]
+            .drop_duplicates(["edition", "team_id"])
+            .rename(columns={"start_elo": "start_elo_2026"}),
+            on=["edition", "team_id"],
+            how="left",
+        )
+        hosts["start_elo"] = hosts["start_elo"].fillna(hosts["start_elo_2026"])
+        hosts = hosts.drop(columns="start_elo_2026")
 
     host_summary = pd.DataFrame(
         [

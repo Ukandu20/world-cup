@@ -500,56 +500,56 @@ def chart_caption_from_title(title: object) -> str | None:
         "Match Scoreline Distribution by Round": "The above chart groups match scorelines by total goals at each tournament stage; each point is an individual match with exact scoreline details in hover.",
         "Host Nation Finishes": "The above chart shows how host countries finished, with point size reflecting goals scored and color identifying confederation.",
         "Champion Follow-up Performance": "The above chart tracks how each champion performed at the next World Cup, including title defenses and failed qualifications.",
-        "Pre-Tournament Feature Correlation with World Cup Finish Score": "Ranks leakage-safe pre-tournament indicators by Spearman correlation with normalized finish score.",
-        "In-Tournament Stat Correlation with World Cup Finish Score": "Shows how tournament performance stats relate to final finish; these explain outcomes rather than predict them beforehand.",
-        "Spearman Correlation Heatmap: Outcome and Predictors": "Displays pairwise Spearman correlations among finish score and pre-tournament predictors.",
-        "Spearman Correlation Heatmap: Outcome and Tournament Stats": "Displays pairwise Spearman correlations among finish score and in-tournament performance stats.",
-        "2026 Qualifier Performance Score": "Ranks qualified teams by qualifiers performance using points, goal difference, and Elo movement.",
-        "2026 Qualifier Attack vs Defense": "Places teams by qualifier scoring and concession rates; larger points indicate stronger points-per-match records.",
-        "2026 Confederation Share": "Compares confederation representation in the expanded 2026 field.",
+        "Pre-Tournament Feature Correlation with World Cup Finish Score": "The above chart ranks leakage-safe pre-tournament indicators by Spearman correlation with normalized finish score.",
+        "In-Tournament Stat Correlation with World Cup Finish Score": "The above chart shows how tournament performance stats relate to final finish; these explain outcomes rather than predict them beforehand.",
+        "Spearman Correlation Heatmap: Outcome and Predictors": "The above chart displays pairwise Spearman correlations among finish score and pre-tournament predictors.",
+        "Spearman Correlation Heatmap: Outcome and Tournament Stats": "The above chart displays pairwise Spearman correlations among finish score and in-tournament performance stats.",
+        "2026 Qualifier Performance Score": "The above chart ranks qualified teams by qualifiers performance using points, goal difference, and Elo movement.",
+        "2026 Qualifier Attack vs Defense": "The above chart places teams by qualifier scoring and concession rates; larger points indicate stronger points-per-match records.",
+        "2026 Confederation Share": "The above chart compares confederation representation in the expanded 2026 field.",
     }
     if base_title in caption_by_title:
         return caption_by_title[base_title]
     if "Placement by Edition" in base_title:
-        return "Shows the selected country's placements over time."
+        return "The above chart shows the selected country's placements over time."
     if "Winners Placement the following Edition" in base_title:
-        return "Shows the selected winner's placements over time."
+        return "The above chart shows the selected winner's placements over time."
     if "Goals Scored per Game" in base_title:
-        return "Shows the selected country's per-match scoring rate by edition."
+        return "The above chart shows the selected country's per-match scoring rate by edition."
     if "Goals Conceded per Game" in base_title:
-        return "Shows the selected country's per-match defensive record by edition."
+        return "The above chart shows the selected country's per-match defensive record by edition."
     if "Goals Scored" in base_title:
-        return "Shows the selected country's goals for by edition."
+        return "The above chart shows the selected country's goals for by edition."
     if "Goals Conceded" in base_title:
-        return "Shows the selected country's goals against by edition."
+        return "The above chart shows the selected country's goals against by edition."
     if "Winner Goals Scored per Game" in base_title:
-        return "Shows the selected champion's per-match scoring rate by edition."
+        return "The above chart shows the selected champion's per-match scoring rate by edition."
     if "Winner Goals Conceded per Game" in base_title:
-        return "Shows the selected champion's per-match defensive record by edition."
+        return "The above chart shows the selected champion's per-match defensive record by edition."
     if "Winner Goals Scored" in base_title:
-        return "Shows the selected champion's goals for by edition."
+        return "The above chart shows the selected champion's goals for by edition."
     if "Winner Goals Conceded" in base_title:
-        return "Shows the selected champion's goals against by edition."
+        return "The above chart shows the selected champion's goals against by edition."
     if "Tournament Goals per Match" in base_title:
-        return "Tracks per-tournament scoring rate, which is more comparable across editions than raw goal totals."
+        return "The above chart tracks per-tournament scoring rate, which is more comparable across editions than raw goal totals."
     if "Tournament Total Goals" in base_title:
-        return "Tracks total goals by tournament; tournament size and match count changes should be considered when comparing eras."
+        return "The above chart tracks total goals by tournament; tournament size and match count changes should be considered when comparing eras."
     if "Team Distribution" in base_title:
-        return "Breaks down the selected edition's team field by confederation and country."
+        return "The above chart breaks down the selected edition's team field by confederation and country."
     if "Pre-Tournament Predictors + Last-" in base_title:
-        return "Combines baseline pre-tournament predictors with recent World Cup history to compare their relationship with finish score."
+        return "The above chart combines baseline pre-tournament predictors with recent World Cup history to compare their relationship with finish score."
     if "Last-" in base_title and "World Cup History Correlation" in base_title:
-        return "Ranks recent World Cup history features by their Spearman correlation with current tournament finish score."
+        return "The above chart ranks recent World Cup history features by their Spearman correlation with current tournament finish score."
     if "Outcome and Last-" in base_title:
-        return "Shows pairwise correlations among finish score and recent World Cup history features."
+        return "The above chart shows pairwise correlations among finish score and recent World Cup history features."
     if "Outcome, Baseline Predictors, and Last-" in base_title:
-        return "Shows how baseline predictors and recent World Cup history features correlate with finish score and with each other."
+        return "The above chart shows how baseline predictors and recent World Cup history features correlate with finish score and with each other."
     if " vs Finish Score" in base_title:
-        return "Plots each team-edition observation to show the relationship between this feature and normalized finish score."
+        return "The above chart ranks each team-edition observation to show the relationship between this feature and normalized finish score."
     if "2026 Qualifier Goals For" in base_title:
-        return "Ranks qualified teams by attacking output [goals scored] during 2026 qualifying and playoff matches."
+        return "The above chart ranks qualified teams by attacking output [goals scored] during 2026 qualifying and playoff matches."
     if "2026 Qualifier Goals Against" in base_title:
-        return "Ranks qualified teams by defensive record [goals conceded] during 2026 qualifying and playoff matches."
+        return "The above chart ranks qualified teams by defensive record [goals conceded] during 2026 qualifying and playoff matches."
     return None
 
 
@@ -1456,6 +1456,7 @@ def render_host_tab(outputs: dict[str, pd.DataFrame], edition_range: tuple[int, 
         size="host_goal_size",
         text="country",
         hover_name="country",
+        hover_data={"gf": True, "ga": True, "host_goal_size": False},
         category_orders={"confederation": CONFEDERATION_ORDER},
         color_discrete_map=CONFEDERATION_COLORS,
         labels={"edition": "Edition", "position": "Final position", "gf": "Goals for"},
@@ -2038,7 +2039,7 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
 def render_historical_eda_page() -> None:
     st.title("FIFA Men's World Cup Analysis")
     st.caption(
-        "An iteractive analysis companion which covers the history of the FIFA Men's World Cup"
+        "An interactive analysis companion which covers the history of the FIFA Men's World Cup"
     )
 
     lookback = st.sidebar.slider(
