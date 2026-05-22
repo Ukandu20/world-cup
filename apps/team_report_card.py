@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 from collections.abc import Iterable
 from pathlib import Path
 from typing import Any
@@ -35,7 +36,6 @@ SUBJECT_ORDER = (
     "Tournament Outlook",
 )
 PENDING_SUBJECTS = ("Squad Quality", "Qualification Strength")
-PENDING_IDENTITY_FIELDS = ("Coach", "Captain")
 QUALIFICATION_CYCLE_START = pd.Timestamp("2022-12-19")
 QUALIFICATION_PLAYOFF_START = pd.Timestamp("2026-03-26")
 QUALIFICATION_PLAYOFF_END = pd.Timestamp("2026-03-31")
@@ -297,8 +297,60 @@ def is_debut_tournament(team_row: pd.Series) -> bool:
     return bool(pd.notna(appearances_value) and int(appearances_value) == 1)
 
 
-def build_identity_rows(team_row: pd.Series, best_finish: str) -> list[dict[str, str]]:
+@st.cache_data(show_spinner=False)
+def load_squad_identity_lookup() -> dict[str, dict[str, str]]:
+    """Load 2026 squad coach and captain facts for report-card identity KPIs."""
+    status_path = WORLD_CUP_ROOT / "2026" / "squads_teams_status.csv"
+    squads_path = WORLD_CUP_ROOT / "2026" / "squads.csv"
+    if not status_path.exists() or not squads_path.exists():
+        return {}
+
+    status = pd.read_csv(status_path).fillna("")
+    squads = pd.read_csv(squads_path).fillna("")
+    captains = squads.loc[squads.get("is_captain", "").astype(str).str.upper().eq("TRUE")].copy()
+    captain_lookup = (
+        captains.drop_duplicates(subset=["team_id"], keep="first")
+        .assign(team_id=lambda frame: frame["team_id"].astype(str), player_name=lambda frame: frame["player_name"].astype(str).map(home.fix_mojibake))
+        .set_index("team_id")["player_name"]
+        .to_dict()
+        if not captains.empty and {"team_id", "player_name"}.issubset(captains.columns)
+        else {}
+    )
+
+    lookup: dict[str, dict[str, str]] = {}
+    for row in status.itertuples(index=False):
+        team_id = str(getattr(row, "team_id", ""))
+        if not team_id:
+            continue
+        row_count = str(getattr(row, "row_count", ""))
+        is_final = str(getattr(row, "is_final_squad", "")).upper() == "TRUE"
+        if row_count in {"", "0"}:
+            squad_status = "pending_no_table"
+        elif is_final:
+            squad_status = "final"
+        else:
+            squad_status = "preliminary"
+        lookup[team_id] = {
+            "coach": home.fix_mojibake(str(getattr(row, "coach", ""))).strip(),
+            "captain": captain_lookup.get(team_id, "").strip(),
+            "squad_status": squad_status,
+            "row_count": row_count,
+            "source_as_of": str(getattr(row, "source_as_of", "")),
+        }
+    return lookup
+
+
+def pending_if_blank(value: object) -> str:
+    """Return a display value or the report-card pending placeholder."""
+    if value is None or pd.isna(value):
+        return "Pending data"
+    text = str(value).strip()
+    return text if text else "Pending data"
+
+
+def build_identity_rows(team_row: pd.Series, best_finish: str, squad_identity: dict[str, str] | None = None) -> list[dict[str, str]]:
     """Return the key identity facts for the selected team."""
+    squad_identity = squad_identity or {}
     appearances_value = team_row.get("world_cup_participations", "")
     if pd.isna(appearances_value) or appearances_value == "":
         appearances_value = ""
@@ -314,7 +366,12 @@ def build_identity_rows(team_row: pd.Series, best_finish: str) -> list[dict[str,
         {"label": "World Cup Appearances", "value": str(appearances_value or "N/A")},
         {"label": "Best Finish", "value": best_finish_value},
     ]
-    rows.extend({"label": field, "value": "Pending data"} for field in PENDING_IDENTITY_FIELDS)
+    rows.extend(
+        [
+            {"label": "Coach", "value": pending_if_blank(squad_identity.get("coach", ""))},
+            {"label": "Captain", "value": pending_if_blank(squad_identity.get("captain", ""))},
+        ]
+    )
     return rows
 
 
@@ -647,6 +704,7 @@ def build_report_card_dataset(simulations: int, match_window: int) -> dict[str, 
         "flag_lookup": build_flag_lookup(base_df),
         "best_finish_lookup": build_best_finish_lookup(base_df),
         "base_team_lookup": base_team_lookup,
+        "squad_identity_lookup": load_squad_identity_lookup(),
     }
 
 
@@ -679,7 +737,11 @@ def select_report_card_context(dataset: dict[str, Any], team_id: str, recent_mat
     overall_summary["summary"] = f"{strongest['subject']} leads this profile, while {weakest['subject']} is the main pressure point."
     return {
         "team_row": team_row,
-        "identity_rows": build_identity_rows(team_row, dataset["best_finish_lookup"].get(str(team_id), "No appearances")),
+        "identity_rows": build_identity_rows(
+            team_row,
+            dataset["best_finish_lookup"].get(str(team_id), "No appearances"),
+            dataset["squad_identity_lookup"].get(str(team_id), {}),
+        ),
         "subject_rows": subject_rows,
         "pending_subject_rows": build_pending_subject_rows(),
         "recent_matches": recent_matches,
@@ -1155,6 +1217,20 @@ def render_identity_header(context: dict[str, Any]) -> None:
     overall = context["overall_summary"]
     flag_code = str(team_row.get("flag_icon_code", "") or "")
     flag_html = f'<span class="fi fi-{flag_code}"></span>' if flag_code else ""
+    display_name = html.escape(str(team_row["display_name"]))
+    group_code = html.escape(str(team_row["group_code"]))
+    confederation = html.escape(str(team_row["confederation"]))
+    overall_grade = html.escape(str(overall["grade"]))
+    overall_verdict = html.escape(str(overall["verdict"]))
+    fact_cards = "".join(
+        (
+            f'<div class="trc-fact">'
+            f'<div class="trc-fact-label">{html.escape(str(row["label"]))}</div>'
+            f'<div class="trc-fact-value">{html.escape(str(row["value"]))}</div>'
+            f"</div>"
+        )
+        for row in context["identity_rows"]
+    )
     st.markdown(
         f"""
         <div class="trc-hero">
@@ -1163,24 +1239,21 @@ def render_identity_header(context: dict[str, Any]) -> None:
               <div class="trc-title">
                 {flag_html}
                 <div>
-                  <h1>{team_row['display_name']}</h1>
-                  <div class="trc-subhead">Group {team_row['group_code']} · {team_row['confederation']}</div>
+                  <h1>{display_name}</h1>
+                  <div class="trc-subhead">Group {group_code} · {confederation}</div>
                 </div>
               </div>
             </div>
             <div class="trc-grade-panel">
-              <div class="trc-grade-country">{team_row['display_name']}</div>
+              <div class="trc-grade-country">{display_name}</div>
               <div class="trc-grade-kicker">Overall Report Card</div>
-              <div class="trc-grade">{overall['grade']}</div>
+              <div class="trc-grade">{overall_grade}</div>
               <div class="trc-score">{overall['score']:.1f} / 10</div>
-              <div class="trc-verdict">{overall['verdict']}</div>
+              <div class="trc-verdict">{overall_verdict}</div>
             </div>
           </div>
           <div class="trc-facts">
-            {"".join(
-                f'<div class="trc-fact"><div class="trc-fact-label">{row["label"]}</div><div class="trc-fact-value">{row["value"]}</div></div>'
-                for row in context["identity_rows"]
-            )}
+            {fact_cards}
           </div>
         </div>
         """,
