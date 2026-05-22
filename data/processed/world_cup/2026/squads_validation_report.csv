@@ -1,0 +1,27 @@
+team_name,group,is_final_squad,row_count,expected_count,status,message
+Algeria,J,FALSE,0,,warning_missing_table,No squad table found for team section.
+Argentina,J,FALSE,55,,warning_non_final_squad,Squad is not finalized; extracted 55 listed players.
+Australia,D,FALSE,0,,warning_missing_table,No squad table found for team section.
+Canada,B,FALSE,0,,warning_missing_table,No squad table found for team section.
+Colombia,K,FALSE,55,,warning_non_final_squad,Squad is not finalized; extracted 55 listed players.
+Czech Republic,A,FALSE,29,,warning_non_final_squad,Squad is not finalized; extracted 29 listed players.
+Ecuador,E,FALSE,0,,warning_missing_table,No squad table found for team section.
+Egypt,G,FALSE,27,,warning_non_final_squad,Squad is not finalized; extracted 27 listed players.
+Ghana,L,FALSE,0,,warning_missing_table,No squad table found for team section.
+Iran,G,FALSE,30,,warning_non_final_squad,Squad is not finalized; extracted 30 listed players.
+Iraq,I,FALSE,34,,warning_non_final_squad,Squad is not finalized; extracted 34 listed players.
+Jordan,J,FALSE,30,,warning_non_final_squad,Squad is not finalized; extracted 30 listed players.
+Mexico,A,FALSE,55,,warning_non_final_squad,Squad is not finalized; extracted 55 listed players.
+Morocco,C,FALSE,0,,warning_missing_table,No squad table found for team section.
+Netherlands,F,FALSE,0,,warning_missing_table,No squad table found for team section.
+Panama,L,FALSE,0,,warning_missing_table,No squad table found for team section.
+Paraguay,D,FALSE,55,,warning_non_final_squad,Squad is not finalized; extracted 55 listed players.
+Qatar,B,FALSE,35,,warning_non_final_squad,Squad is not finalized; extracted 35 listed players.
+Saudi Arabia,H,FALSE,0,,warning_missing_table,No squad table found for team section.
+Senegal,I,FALSE,28,,warning_non_final_squad,Squad is not finalized; extracted 28 listed players.
+South Africa,A,FALSE,32,,warning_non_final_squad,Squad is not finalized; extracted 32 listed players.
+Spain,H,FALSE,0,,warning_missing_table,No squad table found for team section.
+Turkey,D,FALSE,35,,warning_non_final_squad,Squad is not finalized; extracted 35 listed players.
+United States,D,FALSE,0,,warning_missing_table,No squad table found for team section.
+Uruguay,H,FALSE,0,,warning_missing_table,No squad table found for team section.
+Uzbekistan,K,FALSE,40,,warning_non_final_squad,Squad is not finalized; extracted 40 listed players.
