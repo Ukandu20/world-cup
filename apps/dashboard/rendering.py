@@ -506,8 +506,196 @@ def shared_css() -> str:
         font-size: 0.9rem;
         margin: 0.35rem 0 0.2rem;
     }
+    .wc-home-intro {
+        display: grid;
+        grid-template-columns: minmax(0, 1.8fr) minmax(260px, 0.8fr);
+        gap: 1rem;
+        align-items: stretch;
+        border: 1px solid #dfe5ec;
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+        padding: 1.1rem 1.15rem;
+        margin: 0.5rem 0 1.1rem;
+    }
+    .wc-home-intro-kicker {
+        color: #2563eb;
+        font-size: 0.76rem;
+        font-weight: 850;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 0.35rem;
+    }
+    .wc-home-intro-title {
+        color: #0f172a;
+        font-size: 1.45rem;
+        line-height: 1.2;
+        font-weight: 850;
+        margin: 0 0 0.55rem;
+    }
+    .wc-home-intro-copy {
+        color: #334155;
+        font-size: 0.98rem;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 74rem;
+    }
+    .wc-home-intro-panel {
+        border-left: 1px solid #e2e8f0;
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 0;
+    }
+    .wc-home-intro-panel-title {
+        color: #64748b;
+        font-size: 0.75rem;
+        font-weight: 850;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        margin-bottom: 0.35rem;
+    }
+    .wc-home-intro-panel-value {
+        color: #0f172a;
+        font-size: 1.12rem;
+        line-height: 1.2;
+        font-weight: 850;
+        margin-bottom: 0.4rem;
+    }
+    .wc-home-intro-panel-copy {
+        color: #475569;
+        font-size: 0.88rem;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .wc-home-section {
+        margin: 1rem 0 1.35rem;
+    }
+    .wc-home-section-head {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 0 0 0.75rem;
+    }
+    .wc-home-section-title {
+        margin: 0;
+        font-size: 1.28rem;
+        line-height: 1.2;
+        font-weight: 800;
+        color: #0f172a;
+    }
+    .wc-home-section-note {
+        margin: 0.2rem 0 0;
+        color: #475569;
+        font-size: 0.94rem;
+        line-height: 1.45;
+    }
+    .wc-home-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        padding: 0.24rem 0.58rem;
+        background: #dcfce7;
+        color: #166534;
+        font-size: 0.74rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    .wc-home-metric-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.85rem;
+        margin: 0.8rem 0 1.05rem;
+    }
+    .wc-home-metric {
+        border: 1px solid #dfe5ec;
+        border-radius: 8px;
+        background: #ffffff;
+        padding: 0.95rem 1rem;
+        min-height: 116px;
+        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+    }
+    .wc-home-metric-label {
+        color: #64748b;
+        font-size: 0.75rem;
+        font-weight: 800;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        margin-bottom: 0.42rem;
+    }
+    .wc-home-metric-value {
+        color: #0f172a;
+        font-size: 1.35rem;
+        line-height: 1.15;
+        font-weight: 850;
+        overflow-wrap: anywhere;
+    }
+    .wc-home-metric-detail {
+        color: #475569;
+        font-size: 0.88rem;
+        line-height: 1.35;
+        margin-top: 0.42rem;
+    }
+    .wc-home-route-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.8rem;
+    }
+    .wc-home-route-card,
+    .wc-home-model-card {
+        border: 1px solid #dfe5ec;
+        border-radius: 8px;
+        background: #ffffff;
+        padding: 0.95rem 1rem;
+        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+    }
+    .wc-home-route-card {
+        min-height: 128px;
+    }
+    .wc-home-route-title,
+    .wc-home-model-title {
+        color: #0f172a;
+        font-size: 1rem;
+        line-height: 1.2;
+        font-weight: 800;
+        margin-bottom: 0.35rem;
+    }
+    .wc-home-route-destination,
+    .wc-home-model-version {
+        color: #2563eb;
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        margin-bottom: 0.42rem;
+    }
+    .wc-home-route-copy,
+    .wc-home-model-copy {
+        color: #475569;
+        font-size: 0.9rem;
+        line-height: 1.42;
+        margin: 0;
+    }
+    .wc-home-model-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.8rem;
+    }
+    .wc-home-model-card-recommended {
+        border-color: rgba(22, 163, 74, 0.45);
+        box-shadow: inset 0 0 0 1px rgba(22, 163, 74, 0.12), 0 8px 20px rgba(15, 23, 42, 0.04);
+    }
     @media (max-width: 1380px) {
         .wc-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .wc-home-metric-grid,
+        .wc-home-route-grid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
         }
         .wc-bracket-board {
@@ -528,6 +716,24 @@ def shared_css() -> str:
     @media (max-width: 860px) {
         .wc-grid {
             grid-template-columns: 1fr;
+        }
+        .wc-home-intro {
+            grid-template-columns: 1fr;
+        }
+        .wc-home-intro-panel {
+            border-left: none;
+            border-top: 1px solid #e2e8f0;
+            padding-left: 0;
+            padding-top: 0.85rem;
+        }
+        .wc-home-metric-grid,
+        .wc-home-route-grid,
+        .wc-home-model-grid {
+            grid-template-columns: 1fr;
+        }
+        .wc-home-section-head {
+            align-items: flex-start;
+            flex-direction: column;
         }
         .wc-bracket-side {
             grid-template-columns: 1fr;

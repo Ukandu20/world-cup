@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import html
+
 import pandas as pd
 import streamlit as st
 
@@ -79,6 +81,57 @@ from .rendering import (
     render_tables,
     team_metadata_lookup,
 )
+
+def build_home_metric_card(label: str, value: str, detail: str) -> str:
+    """Return one compact home-page metric card."""
+    return (
+        '<div class="wc-home-metric">'
+        f'<div class="wc-home-metric-label">{html.escape(label)}</div>'
+        f'<div class="wc-home-metric-value">{html.escape(value)}</div>'
+        f'<div class="wc-home-metric-detail">{html.escape(detail)}</div>'
+        "</div>"
+    )
+
+
+def build_home_route_card(title: str, destination: str, description: str) -> str:
+    """Return one home-page navigation card."""
+    return (
+        '<div class="wc-home-route-card">'
+        f'<div class="wc-home-route-title">{html.escape(title)}</div>'
+        f'<div class="wc-home-route-destination">{html.escape(destination)}</div>'
+        f'<p class="wc-home-route-copy">{html.escape(description)}</p>'
+        "</div>"
+    )
+
+
+def build_home_model_card(version: str, title: str, summary: str, recommended: bool = False) -> str:
+    """Return one compact model comparison card."""
+    recommended_badge = '<span class="wc-home-badge">Recommended</span>' if recommended else ""
+    card_class = "wc-home-model-card wc-home-model-card-recommended" if recommended else "wc-home-model-card"
+    return (
+        f'<div class="{card_class}">'
+        f'<div class="wc-home-model-version">{html.escape(version)} {recommended_badge}</div>'
+        f'<div class="wc-home-model-title">{html.escape(title)}</div>'
+        f'<p class="wc-home-model-copy">{html.escape(summary)}</p>'
+        "</div>"
+    )
+
+
+def first_team_by_metric(df: pd.DataFrame, metric_column: str) -> pd.Series:
+    """Return the leading team row for a numeric probability metric."""
+    sortable = df.copy()
+    sortable[metric_column] = pd.to_numeric(sortable[metric_column], errors="coerce").fillna(0.0)
+    return sortable.sort_values(
+        [metric_column, "elo_rating", "world_rank"],
+        ascending=[False, False, True],
+        kind="stable",
+    ).iloc[0]
+
+
+def team_value_detail(row: pd.Series, metric_column: str) -> tuple[str, str]:
+    """Return a display name and probability detail for a team metric row."""
+    return str(row["display_name"]), f'{format_percent(float(row[metric_column]))} probability'
+
 
 def render_v1_dashboard() -> None:
     """Render the version 1 probability and bracket dashboard."""
@@ -937,36 +990,125 @@ def render_home_page() -> None:
     """Render the landing page for the grouped dashboard pages."""
     inject_styles()
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
-    _, fixtures_df, _, metadata = load_data()
+    base_df, fixtures_df, lead_in_df, metadata = load_data()
     render_dashboard_header(world_cup_logo_data_uri, metadata, SIMULATION_COUNT, title="World Cup 2026 Projections Dashboard")
-    render_countdown_timer(fixtures_df)
+
     st.markdown(
         """
-
-        ### Summary
-
-        This project explores historical FIFA Men's World Cup data to uncover patterns in tournament performance, scorelines, and team trajectories. Then applies those insights to project probabilistic placement outcomes for the 2026 FIFA Men's World Cup.
-
-        ##### Key Metrics
-        ELO Rating - A numerical measure of a team's relative strength, 
-        updated after each match. Higher ratings indicate stronger teams.
-
-        ELO Change/Delta - The points gained or lost after a match, determined 
-        by three factors: the match result (W/D/L), the expected result based 
-        on the rating difference between teams, and the margin of victory.
-        ### Page Directory
-        Use the grouped sidebar navigation to keep reports, models, and backtests isolated.
-
-
-        ###### These are the different models I have used against each other in order to simulate the 2026 FIFA World Cup tournament projections.
-
-        - `Reports` contains `Analysis` and `Team Report Card`.
-        - `Models` contains `V1: Team Strength`, `V2: Form`, `V2: Probabilities`, and `V3: Poisson Regression`.
-        - `Backtests` contains `V2: 2022 Backtest` and `V3: 2022 Backtest`.
-
-        Settings and exports are separated per page so changes in one version do not interfere with the other by accident.
-        """
+        <div class="wc-home-intro">
+          <div>
+            <div class="wc-home-intro-kicker">What this project is</div>
+            <h2 class="wc-home-intro-title">A data-driven 2026 FIFA Men's World Cup research hub</h2>
+            <p class="wc-home-intro-copy">
+              This app brings together three views of the tournament: historical World Cup analysis, qualification
+              and team context, and simulation-based 2026 projections. Use the analysis pages to understand past
+              tournament patterns and qualification performance, the team report cards to inspect one country at a
+              time, and the model pages to compare how different methods project the group stage and knockout path.
+            </p>
+          </div>
+          <div class="wc-home-intro-panel">
+            <div class="wc-home-intro-panel-title">How to use it</div>
+            <div class="wc-home-intro-panel-value">Analyze, inspect, project</div>
+            <div class="wc-home-intro-panel-copy">Start with the section that matches your question: history and qualifiers, one-team reports, or model projections.</div>
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
+
+    home_settings = default_simulation_settings()
+    simulation_count = SIMULATION_OPTIONS[str(home_settings["simulation_label"])]
+    form_match_window = int(home_settings["form_match_window"])
+    training_scope = DEFAULT_V3_TRAINING_SCOPE
+    with st.spinner(f"Building V3 projection overview from {simulation_count:,} simulations..."):
+        dashboard_df = simulate_probabilities_v3_dashboard(
+            base_df=base_df,
+            fixtures_df=fixtures_df,
+            lead_in_df=lead_in_df,
+            simulations=simulation_count,
+            match_window=form_match_window,
+            training_scope=training_scope,
+        )
+    dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
+    dashboard_df["top2_prob"] = (
+        pd.to_numeric(dashboard_df["prob_1"], errors="coerce").fillna(0.0)
+        + pd.to_numeric(dashboard_df["prob_2"], errors="coerce").fillna(0.0)
+    )
+
+    champion_name, champion_detail = team_value_detail(first_team_by_metric(dashboard_df, "champion_prob"), "champion_prob")
+    finalist_name, finalist_detail = team_value_detail(first_team_by_metric(dashboard_df, "final_prob"), "final_prob")
+    group_name, group_detail = team_value_detail(first_team_by_metric(dashboard_df, "top2_prob"), "top2_prob")
+    knockout_name, knockout_detail = team_value_detail(first_team_by_metric(dashboard_df, "ko_prob"), "ko_prob")
+    first_kickoff = get_first_kickoff_details(fixtures_df)
+
+    st.markdown(
+        f"""
+        <div class="wc-home-section">
+          <div class="wc-home-section-head">
+            <div>
+              <h2 class="wc-home-section-title">Projection Snapshot</h2>
+              <p class="wc-home-section-note">Start with V3 for the current pre-tournament projection, then use the sidebar to move into team reports, model tables, and backtests.</p>
+            </div>
+            <span class="wc-home-badge">V3 Recommended</span>
+          </div>
+          <div class="wc-home-metric-grid">
+            {build_home_metric_card("Favorite to Win", champion_name, champion_detail)}
+            {build_home_metric_card("Most Likely Finalist", finalist_name, finalist_detail)}
+            {build_home_metric_card("Best Group Outlook", group_name, group_detail)}
+            {build_home_metric_card("Most Likely KO Team", knockout_name, knockout_detail)}
+            {build_home_metric_card("Opening Match", first_kickoff["match_label"], f'{first_kickoff["kickoff_date_label"]} at {first_kickoff["kickoff_utc_time_label"]} UTC')}
+            {build_home_metric_card("Projection Run", f'{simulation_count:,} simulations', f'Model {V3_MODEL_VERSION} | last {form_match_window} matches')}
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    render_countdown_timer(fixtures_df)
+
+    st.markdown(
+        f"""
+        <div class="wc-home-section">
+          <div class="wc-home-section-head">
+            <div>
+              <h2 class="wc-home-section-title">Where To Go Next</h2>
+              <p class="wc-home-section-note">Use the grouped sidebar navigation to choose between historical analysis, qualification context, team reports, projection models, and backtests.</p>
+            </div>
+          </div>
+          <div class="wc-home-route-grid">
+            {build_home_route_card("Team Report Card", "Reports > Team Report Card", "Deep dive into one country with history, qualification path, squad context, and projection outlook.")}
+            {build_home_route_card("V3 Poisson Regression", "Models > V3 Poisson Regression", "Start here for latest 2026 probabilities, group tables, all-country rankings, and bracket view.")}
+            {build_home_route_card("V2 Probabilities", "Models > V2 Probabilities", "Compare the current projection against the alternate form-weighted multinomial model.")}
+            {build_home_route_card("V2 Form", "Models > V2 Form", "Inspect recent form inputs, team strength components, and confederation-level form tables.")}
+            {build_home_route_card("Analysis", "Reports > Analysis", "Explore historical World Cup patterns behind participation, scoring, hosts, winners, and qualifiers.")}
+            {build_home_route_card("Backtests", "Backtests", "Check how V2 and V3 performed against the 2022 World Cup before trusting current projections.")}
+          </div>
+        </div>
+        <div class="wc-home-section">
+          <div class="wc-home-section-head">
+            <div>
+              <h2 class="wc-home-section-title">Model Guide</h2>
+              <p class="wc-home-section-note">Each model page keeps its own settings and exports, so comparisons do not interfere with each other.</p>
+            </div>
+          </div>
+          <div class="wc-home-model-grid">
+            {build_home_model_card(MODEL_VERSION, "V1 Team Strength", MODEL_SUMMARY)}
+            {build_home_model_card(V2_MODEL_VERSION, "V2 Form and Probabilities", V2_MODEL_SUMMARY)}
+            {build_home_model_card(V3_MODEL_VERSION, "V3 Poisson Regression", V3_MODEL_SUMMARY, recommended=True)}
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    with st.expander("Method notes"):
+        st.markdown(
+            f"""
+            - **ELO Rating:** numerical measure of a team's relative strength, updated after each match. Higher ratings indicate stronger teams.
+            - **ELO Change/Delta:** points gained or lost after a match based on result, expected result from rating difference, and margin of victory.
+            - **Simulation count:** the home snapshot uses the default V3 setting of `{simulation_count:,}` tournament simulations.
+            - **Interpretation:** projections are pre-tournament probabilities from model simulations, not guarantees.
+            """
+        )
 
 
 def render_analysis_page() -> None:
