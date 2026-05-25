@@ -11,6 +11,7 @@ from .config import (
     DEFAULT_SIMULATION_LABEL,
     DEFAULT_V2_TRAINING_SCOPE,
     DEFAULT_V3_TRAINING_SCOPE,
+    DEFAULT_V4_TRAINING_SCOPE,
     EXPORT_DIR,
     FORM_WINDOW_MAX,
     FORM_WINDOW_MIN,
@@ -37,11 +38,18 @@ from .config import (
     V3_MODEL_SUMMARY,
     V3_MODEL_VERSION,
     V3_PROB_STATE_KEY,
+    V4_BACKTEST_2022_STATE_KEY,
+    V4_MODEL_LABEL,
+    V4_MODEL_SUMMARY,
+    V4_MODEL_VERSION,
+    V4_PROB_STATE_KEY,
+    V4_ROLLING_BACKTEST_STATE_KEY,
     VIEW_OPTIONS,
     WEIGHTED_FORM_COMPOSITE_WEIGHTS,
     build_deterministic_bracket,
     build_deterministic_bracket_v2,
     build_deterministic_bracket_v3,
+    build_deterministic_bracket_v4,
     build_v2_team_strengths,
     build_v3_team_feature_table,
     build_weighted_form_table,
@@ -55,11 +63,15 @@ from .modeling import (
     ensure_dashboard_probability_columns,
     load_v2_match_model,
     load_v3_poisson_model,
+    load_v4_poisson_model,
     run_v2_backtest_2022_dashboard,
     run_v3_backtest_2022_dashboard,
+    run_v4_backtest_2022_dashboard,
+    run_v4_rolling_backtest_dashboard,
     simulate_probabilities,
     simulate_probabilities_v2_dashboard,
     simulate_probabilities_v3_dashboard,
+    simulate_probabilities_v4_dashboard,
 )
 from .rendering import (
     all_teams_table_frame,
@@ -650,6 +662,124 @@ def render_v3_probabilities_dashboard() -> None:
         render_tables(tables, multi_column=multi_column)
 
 
+def render_v4_probabilities_dashboard() -> None:
+    """Render the version 4 enhanced Poisson probability and bracket dashboard."""
+    inject_styles()
+
+    base_df, fixtures_df, lead_in_df, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    if V4_PROB_STATE_KEY not in st.session_state:
+        st.session_state[V4_PROB_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V4_PROB_STATE_KEY])
+
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+        key="v4_prob_simulation_label",
+    )
+    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+    form_match_window = int(
+        st.slider(
+            "Last k matches",
+            min_value=FORM_WINDOW_MIN,
+            max_value=FORM_WINDOW_MAX,
+            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+            key="v4_prob_form_match_window",
+        )
+    )
+    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V4_TRAINING_SCOPE))
+    training_scope_label = st.radio(
+        "Training data",
+        tuple(TRAINING_SCOPE_LABELS.keys()),
+        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+        ),
+        horizontal=True,
+        key="v4_prob_training_scope",
+    )
+    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
+    view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v4_prob_view_mode")
+    selected_group = (
+        st.selectbox("Group", GROUP_ORDER, index=0, key="v4_prob_selected_group")
+        if view_mode == "Single group"
+        else GROUP_ORDER[0]
+    )
+
+    st.session_state[V4_PROB_STATE_KEY] = {
+        "simulation_label": simulation_label,
+        "form_match_window": form_match_window,
+        "training_scope": training_scope,
+    }
+
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        simulation_count,
+        title="World Cup 2026 V4 Probabilities",
+        model_version=V4_MODEL_VERSION,
+        model_label=V4_MODEL_LABEL,
+    )
+    render_countdown_timer(fixtures_df)
+    st.caption(
+        f"Model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
+        f"V4 is the experimental enhanced Poisson model using quadratic last-{form_match_window} form, "
+        "World Cup last-5 goal history, Dixon-Coles low-score correction, stage lambda multipliers, "
+        f"and `{training_scope}` training data."
+    )
+    with st.spinner(f"Training v4 model and running {simulation_count:,} simulations..."):
+        model_bundle = load_v4_poisson_model(form_match_window, training_scope)
+        dashboard_df = simulate_probabilities_v4_dashboard(
+            base_df=base_df,
+            fixtures_df=fixtures_df,
+            lead_in_df=lead_in_df,
+            simulations=simulation_count,
+            match_window=form_match_window,
+            training_scope=training_scope,
+        )
+        bracket_data = build_deterministic_bracket_v4(
+            dashboard_df,
+            fixtures_df,
+            dashboard_df,
+            model_bundle,
+            head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        )
+    dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
+    st.caption(
+        " | ".join(
+            [
+                f"alpha={model_bundle.get('alpha')}",
+                f"rho={model_bundle.get('rho')}",
+                f"half-life={model_bundle.get('time_decay_halflife_days')} days",
+                f"scope={model_bundle.get('training_scope')}",
+            ]
+        )
+    )
+    with st.expander("V4 calibration metadata", expanded=False):
+        st.json(
+            {
+                "stage_multipliers": model_bundle.get("stage_multipliers"),
+                "alpha_source": model_bundle.get("alpha_source"),
+                "rho_source": model_bundle.get("rho_source"),
+                "quadratic_form_window": form_match_window,
+            }
+        )
+    metadata_lookup = team_metadata_lookup(dashboard_df)
+    tables = [] if view_mode == "Bracket" else current_view_tables(
+        dashboard_df,
+        view_mode,
+        selected_group,
+        simulation_count=simulation_count,
+    )
+    if view_mode == "Bracket":
+        render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
+    else:
+        render_tables(tables, multi_column=view_mode == "All groups")
+
+
 def render_v2_2022_backtest_dashboard() -> None:
     """Render the 2022 holdout backtest page for the V2 model."""
     inject_styles()
@@ -986,6 +1116,160 @@ def render_v3_2022_backtest_dashboard() -> None:
     )
 
 
+def render_v4_2022_backtest_dashboard() -> None:
+    """Render the 2022 holdout backtest page for the V4 model."""
+    inject_styles()
+
+    _, fixtures_df, _, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    if V4_BACKTEST_2022_STATE_KEY not in st.session_state:
+        st.session_state[V4_BACKTEST_2022_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V4_BACKTEST_2022_STATE_KEY])
+
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+        key="v4_backtest_2022_simulation_label",
+    )
+    form_match_window = int(
+        st.slider(
+            "Last k matches",
+            min_value=FORM_WINDOW_MIN,
+            max_value=FORM_WINDOW_MAX,
+            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW)))),
+            key="v4_backtest_2022_form_match_window",
+        )
+    )
+    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V4_TRAINING_SCOPE))
+    training_scope_label = st.radio(
+        "Training data",
+        tuple(TRAINING_SCOPE_LABELS.keys()),
+        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+        ),
+        horizontal=True,
+        key="v4_backtest_2022_training_scope",
+    )
+    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
+    st.session_state[V4_BACKTEST_2022_STATE_KEY] = {
+        "simulation_label": simulation_label,
+        "form_match_window": form_match_window,
+        "training_scope": training_scope,
+    }
+
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        simulation_count,
+        title="World Cup 2022 V4 Backtest",
+        model_version=V4_MODEL_VERSION,
+        model_label=V4_MODEL_LABEL,
+    )
+    st.caption(
+        f"Model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
+        "This V4 holdout uses quadratic form, Dixon-Coles probabilities, stage effects, and time-decayed training weights."
+    )
+    with st.spinner(f"Running the 2022 V4 backtest with {simulation_count:,} simulations..."):
+        backtest = run_v4_backtest_2022_dashboard(
+            simulations=simulation_count,
+            match_window=form_match_window,
+            training_scope=training_scope,
+        )
+
+    summary_metrics = dict(backtest["summary_metrics"])
+    match_predictions = pd.DataFrame(backtest["match_predictions"]).copy()
+    team_backtest_table = pd.DataFrame(backtest["team_backtest_table"]).copy()
+    group_backtest_table = pd.DataFrame(backtest["group_backtest_table"]).copy()
+    training_metadata = dict(backtest.get("training_metadata", {}))
+
+    metric_cols = st.columns(6)
+    metric_cols[0].metric("Log Loss", format_decimal(summary_metrics["multiclass_log_loss"], 4))
+    metric_cols[1].metric("Brier Score", format_decimal(summary_metrics["multiclass_brier_score"], 4))
+    metric_cols[2].metric("Top-1 Accuracy", format_percent(summary_metrics["top1_match_accuracy"]))
+    metric_cols[3].metric("Champion Hit", "Yes" if summary_metrics["exact_champion_hit"] else "No")
+    metric_cols[4].metric("Semi-final Hits", f"{int(summary_metrics['semifinal_hit_count'])}/4")
+    metric_cols[5].metric("R16 Hits", f"{int(summary_metrics['round_of_16_hit_count'])}/16")
+    st.caption(
+        f"Draw calibration: predicted {format_percent(summary_metrics['draw_rate_predicted'])} | actual {format_percent(summary_metrics['draw_rate_actual'])}"
+    )
+    with st.expander("V4 training metadata", expanded=False):
+        st.json(training_metadata)
+
+    st.markdown("**Match Predictions**")
+    match_columns = [
+        "match_number",
+        "stage",
+        "group_code",
+        "home_team",
+        "away_team",
+        "home_score",
+        "away_score",
+        "lambda_home_adj",
+        "lambda_away_adj",
+        "rho",
+        "home_win_prob",
+        "draw_prob",
+        "away_win_prob",
+        "predicted_outcome",
+        "actual_outcome",
+        "top1_correct",
+    ]
+    st.dataframe(match_predictions.loc[:, [column for column in match_columns if column in match_predictions.columns]], width="stretch", hide_index=True)
+    st.markdown("**Group Finish Backtest**")
+    st.dataframe(group_backtest_table, width="stretch", hide_index=True)
+    st.markdown("**Team Advancement Backtest**")
+    st.dataframe(team_backtest_table, width="stretch", hide_index=True)
+
+
+def render_v4_rolling_backtest_dashboard() -> None:
+    """Render the V4 rolling holdout backtest page."""
+    inject_styles()
+    _, _, _, metadata = load_data()
+    world_cup_logo_data_uri = load_world_cup_logo_data_uri()
+    if V4_ROLLING_BACKTEST_STATE_KEY not in st.session_state:
+        st.session_state[V4_ROLLING_BACKTEST_STATE_KEY] = default_simulation_settings()
+    current_settings = dict(st.session_state[V4_ROLLING_BACKTEST_STATE_KEY])
+
+    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
+    simulation_label = st.radio(
+        "Simulation runs",
+        simulation_labels,
+        index=simulation_labels.index(current_settings["simulation_label"]),
+        horizontal=True,
+        key="v4_rolling_simulation_label",
+    )
+    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+    training_scope = DEFAULT_V4_TRAINING_SCOPE
+    simulation_count = SIMULATION_OPTIONS[simulation_label]
+    st.session_state[V4_ROLLING_BACKTEST_STATE_KEY] = {
+        "simulation_label": simulation_label,
+        "form_match_window": form_match_window,
+        "training_scope": training_scope,
+    }
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        simulation_count,
+        title="V4 Rolling Backtest",
+        model_version=V4_MODEL_VERSION,
+        model_label=V4_MODEL_LABEL,
+    )
+    with st.spinner(f"Running V4 rolling backtest with {simulation_count:,} simulations..."):
+        backtest = run_v4_rolling_backtest_dashboard(
+            simulations=simulation_count,
+            match_window=form_match_window,
+            training_scope=training_scope,
+        )
+    st.markdown("**Fold Results**")
+    st.dataframe(pd.DataFrame(backtest["folds"]), width="stretch", hide_index=True)
+    st.markdown("**Aggregate Metrics**")
+    st.dataframe(pd.DataFrame(backtest["aggregate_metrics"]), width="stretch", hide_index=True)
+
+
 def render_home_page() -> None:
     """Render the landing page for the grouped dashboard pages."""
     inject_styles()
@@ -1151,6 +1435,12 @@ def render_v3_probabilities_navigation_page() -> None:
     render_v3_probabilities_dashboard()
 
 
+def render_v4_probabilities_navigation_page() -> None:
+    """Render the V4 probability model page from the grouped navigation router."""
+    st.sidebar.caption("Models page")
+    render_v4_probabilities_dashboard()
+
+
 def render_v2_backtest_navigation_page() -> None:
     """Render the V2 2022 backtest page from the grouped navigation router."""
     st.sidebar.caption("Backtest page")
@@ -1161,3 +1451,15 @@ def render_v3_backtest_navigation_page() -> None:
     """Render the V3 2022 backtest page from the grouped navigation router."""
     st.sidebar.caption("Backtest page")
     render_v3_2022_backtest_dashboard()
+
+
+def render_v4_backtest_navigation_page() -> None:
+    """Render the V4 2022 backtest page from the grouped navigation router."""
+    st.sidebar.caption("Backtest page")
+    render_v4_2022_backtest_dashboard()
+
+
+def render_v4_rolling_backtest_navigation_page() -> None:
+    """Render the V4 rolling backtest page from the grouped navigation router."""
+    st.sidebar.caption("Backtest page")
+    render_v4_rolling_backtest_dashboard()

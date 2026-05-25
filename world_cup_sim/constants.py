@@ -183,6 +183,61 @@ V3_2022_HOST_TEAM_IDS = frozenset({"QAT"})
 
 V3_2026_HOST_TEAM_IDS = frozenset({"CAN", "MEX", "USA"})
 
+V4_MODEL_VERSION = "v4"
+
+V4_MODEL_LABEL = "Enhanced Poisson Expected Goals Model"
+
+V4_MODEL_SUMMARY = "Quadratic-form Poisson model with Dixon-Coles correction and rolling validation"
+
+DEFAULT_V4_TRAINING_SCOPE = TRAINING_SCOPE_ALL_INTERNATIONAL
+
+V4_MATCH_START_YEAR = V3_MATCH_START_YEAR
+
+V4_COMPETITION_IMPORTANCE = V3_COMPETITION_IMPORTANCE
+
+V4_FEATURE_COLUMNS = (
+    "elo_diff",
+    "results_form_diff",
+    "goals_for_diff",
+    "goals_against_diff",
+    "gd_form_diff",
+    "perf_vs_exp_diff",
+    "placement_diff",
+    "appearance_diff",
+    "wc_l5_goal_diff_diff",
+    "has_wc_l5_history_diff",
+    "competition_importance",
+    "neutral_site_flag",
+    "net_host_flag",
+    "is_knockout",
+)
+
+V4_ALPHA_GRID = (0.01, 0.05, 0.1, 0.5, 1.0, 5.0, 10.0)
+
+V4_TIME_DECAY_GRID = (365, 730, 1095, 1460, 2190)
+
+V4_DEFAULT_TIME_DECAY_HALFLIFE_DAYS = 1095
+
+V4_RHO_BOUNDS = (-0.20, 0.20)
+
+V4_STAGE_MULTIPLIER_FALLBACKS = {
+    "group": 1.00,
+    "round_of_16": 0.91,
+    "quarter": 0.85,
+    "semi": 0.81,
+    "final": 0.80,
+}
+
+V4_POISSON_GOAL_CAP = V3_POISSON_GOAL_CAP
+
+V4_LAMBDA_MIN = V3_LAMBDA_MIN
+
+V4_LAMBDA_MAX = V3_LAMBDA_MAX
+
+V4_2022_HOST_TEAM_IDS = V3_2022_HOST_TEAM_IDS
+
+V4_2026_HOST_TEAM_IDS = V3_2026_HOST_TEAM_IDS
+
 DEFAULT_SCORELINE_BY_OUTCOME = {
     "home_win": (1, 0),
     "draw": (0, 0),
@@ -321,6 +376,23 @@ __all__ = [
     'V3_LAMBDA_MAX',
     'V3_2022_HOST_TEAM_IDS',
     'V3_2026_HOST_TEAM_IDS',
+    'V4_MODEL_VERSION',
+    'V4_MODEL_LABEL',
+    'V4_MODEL_SUMMARY',
+    'DEFAULT_V4_TRAINING_SCOPE',
+    'V4_MATCH_START_YEAR',
+    'V4_COMPETITION_IMPORTANCE',
+    'V4_FEATURE_COLUMNS',
+    'V4_ALPHA_GRID',
+    'V4_TIME_DECAY_GRID',
+    'V4_DEFAULT_TIME_DECAY_HALFLIFE_DAYS',
+    'V4_RHO_BOUNDS',
+    'V4_STAGE_MULTIPLIER_FALLBACKS',
+    'V4_POISSON_GOAL_CAP',
+    'V4_LAMBDA_MIN',
+    'V4_LAMBDA_MAX',
+    'V4_2022_HOST_TEAM_IDS',
+    'V4_2026_HOST_TEAM_IDS',
     'DEFAULT_SCORELINE_BY_OUTCOME',
     'HISTORICAL_TEAM_NAME_ALIASES',
     'THIRD_PLACE_ROUTING_COMPRESSED',

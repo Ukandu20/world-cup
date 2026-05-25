@@ -4,6 +4,7 @@ import importlib.util
 from pathlib import Path
 import sys
 
+import numpy as np
 import pandas as pd
 
 
@@ -24,11 +25,14 @@ from world_cup_simulation import (  # noqa: E402
     build_deterministic_bracket_v2,
     build_deterministic_bracket_v2_32team,
     build_deterministic_bracket_v3,
+    build_v4_score_matrix,
     build_v2_match_feature_table,
     build_v2_team_strengths,
     build_v2_training_frame,
     build_v3_team_feature_table,
     build_v3_training_frame,
+    compute_quadratic_form_snapshot,
+    dixon_coles_tau,
     build_weighted_form_table,
     build_team_strengths,
     build_recent_form_metrics,
@@ -46,6 +50,7 @@ from world_cup_simulation import (  # noqa: E402
     predict_knockout_matchup_v2,
     predict_match_lambdas_v3,
     predict_knockout_matchup_v3,
+    quadratic_recency_weights,
     rank_best_third_place_teams,
     rank_group_standings,
     run_v2_backtest_2022,
@@ -54,6 +59,7 @@ from world_cup_simulation import (  # noqa: E402
     simulate_group_probabilities_v2_32team,
     simulate_group_probabilities_v2,
     simulate_group_probabilities_v3,
+    strength_weighted_penalty_probability,
 )
 from world_cup_sim.constants import WORLD_CUP_ROOT  # noqa: E402
 from world_cup_sim.constants import INTERNATIONAL_RESULTS_PATH  # noqa: E402
@@ -2845,14 +2851,73 @@ def test_v3_2022_backtest_page_exists_and_wires_home_renderer():
     assert "render_v3_2022_backtest_dashboard" in page_text
 
 
+def test_v4_quadratic_recency_weights_and_snapshot():
+    weights = quadratic_recency_weights(4)
+
+    assert weights.tolist() == [1.0, 4.0, 9.0, 16.0]
+
+    results_df = pd.DataFrame(
+        {
+            "date": pd.date_range("2025-01-01", periods=4),
+            "result": ["loss", "draw", "win", "win"],
+            "goal_difference": [-2, 0, 1, 3],
+            "team_score": [0, 1, 2, 4],
+            "opponent_score": [2, 1, 1, 1],
+            "team_elo_start": [1500, 1510, 1520, 1530],
+            "opponent_elo_start": [1500, 1500, 1500, 1500],
+        }
+    )
+    snapshot = compute_quadratic_form_snapshot(results_df, match_window=4)
+
+    assert abs(snapshot["results_form"] - ((0 * 1 + 0.5 * 4 + 1 * 9 + 1 * 16) / 30)) < 1e-9
+    assert abs(snapshot["gd_form"] - ((-2 * 1 + 0 * 4 + 1 * 9 + 3 * 16) / 30)) < 1e-9
+    assert snapshot["pre_tournament_elo"] == 1530
+
+
+def test_v4_dixon_coles_score_matrix_and_penalties():
+    lambda_home = 1.2
+    lambda_away = 0.9
+    rho = 0.1
+
+    assert dixon_coles_tau(0, 0, lambda_home, lambda_away, rho) == 1 - lambda_home * lambda_away * rho
+    assert dixon_coles_tau(0, 1, lambda_home, lambda_away, rho) == 1 + lambda_home * rho
+    assert dixon_coles_tau(1, 0, lambda_home, lambda_away, rho) == 1 + lambda_away * rho
+    assert dixon_coles_tau(1, 1, lambda_home, lambda_away, rho) == 1 - rho
+    assert dixon_coles_tau(2, 2, lambda_home, lambda_away, rho) == 1.0
+
+    corrected = build_v4_score_matrix(lambda_home, lambda_away, rho=rho)
+    independent = build_v4_score_matrix(lambda_home, lambda_away, rho=0.0)
+
+    assert abs(float(corrected.sum()) - 1.0) < 1e-12
+    assert abs(float(independent.sum()) - 1.0) < 1e-12
+    assert np.allclose(independent, build_v4_score_matrix(lambda_home, lambda_away, rho=0.0))
+    assert strength_weighted_penalty_probability(1000, -1000) == 0.65
+    assert strength_weighted_penalty_probability(-1000, 1000) == 0.35
+
+
+def test_v4_pages_exist_and_wire_dashboard_renderers():
+    page_expectations = {
+        "9_V4_Probabilities.py": "render_v4_probabilities_dashboard",
+        "10_V4_2022_Backtest.py": "render_v4_2022_backtest_dashboard",
+        "11_V4_Rolling_Backtest.py": "render_v4_rolling_backtest_dashboard",
+    }
+    for page_name, renderer_name in page_expectations.items():
+        page_path = ROOT / "apps" / "pages" / page_name
+        assert page_path.exists()
+        assert renderer_name in page_path.read_text(encoding="utf-8")
+
+
 def test_world_cup_simulation_facade_exports_representative_symbols():
     import world_cup_simulation as simulation
 
     assert simulation.MODEL_VERSION == "v1"
     assert simulation.V2_MODEL_VERSION == "v2"
     assert simulation.V3_MODEL_VERSION == "v3"
+    assert simulation.V4_MODEL_VERSION == "v4"
     assert callable(simulation.simulate_group_probabilities)
     assert callable(simulation.simulate_group_probabilities_v2)
     assert callable(simulation.simulate_group_probabilities_v3)
+    assert callable(simulation.simulate_group_probabilities_v4)
     assert callable(simulation.fit_v2_match_multinomial_model)
     assert callable(simulation.fit_v3_poisson_models)
+    assert callable(simulation.fit_v4_poisson_models)

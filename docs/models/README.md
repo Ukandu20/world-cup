@@ -1,7 +1,7 @@
 # Model Documentation Index
 
 This directory documents the modeling surfaces used by the World Cup forecasting
-project. The project currently exposes four related but distinct model views:
+project. The project currently exposes five related but distinct model views:
 
 - [V1 Team Strength](v1_team_strength.md): the original handcrafted
   team-strength Monte Carlo simulator.
@@ -11,6 +11,9 @@ project. The project currently exposes four related but distinct model views:
   match model used for tournament probability simulation.
 - [V3 Poisson](v3_poisson.md): a trained expected-goals model using paired
   Poisson regressions.
+- [V4 Enhanced Poisson](v4_enhanced_poisson.md): an experimental V3 successor
+  with quadratic recent form, Dixon-Coles correction, stage effects, and
+  time-decayed training weights.
 
 The documents are written for a technical audience, but they avoid assuming
 advanced statistical training. Each page explains the purpose, inputs, formulas,
@@ -69,6 +72,7 @@ The current defaults are:
 ```text
 V2 default training scope = world_cup_only
 V3 default training scope = all_international_since_anchor
+V4 default training scope = all_international_since_anchor
 ```
 
 The trained models use this sample-weight policy:
@@ -107,6 +111,16 @@ V2 and V3 live model form uses the richer weighted form implementation in
 performance versus Elo expectation, and Elo delta. The EDA correlation table is
 useful for model interpretation and feature discovery, but it is not itself the
 live probability model.
+
+V4 uses a separate quadratic recent-form implementation. For the same
+last-up-to-10 match window, V4 weights the oldest-to-newest matches as:
+
+```text
+1, 4, 9, 16, 25, 36, 49, 64, 81, 100
+```
+
+This quadratic weighting is part of V4 only and does not change V2, V3, or the
+historical EDA `weighted_form_l10_*` columns.
 
 ## Validation Snapshot
 

@@ -245,10 +245,17 @@ def build_navigation_pages() -> dict[str, list[st.Page]]:
                 title="V3 Poisson Regression",
                 icon=":material/looks_3:",
             ),
+            st.Page(
+                render_v4_probabilities_navigation_page,
+                title="V4 Enhanced Poisson",
+                icon=":material/looks_4:",
+            ),
         ],
         "Backtests": [
             st.Page(render_v2_backtest_navigation_page, title="V2 2022 Backtest", icon=":material/history:"),
             st.Page(render_v3_backtest_navigation_page, title="V3 2022 Backtest", icon=":material/history:"),
+            st.Page(render_v4_backtest_navigation_page, title="V4 2022 Backtest", icon=":material/history:"),
+            st.Page(render_v4_rolling_backtest_navigation_page, title="V4 Rolling Backtest", icon=":material/query_stats:"),
         ],
     }
 

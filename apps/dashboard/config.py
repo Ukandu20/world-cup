@@ -7,7 +7,15 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+import world_cup_sim as simulation_core
 import world_cup_simulation as simulation
+
+
+def simulation_attr(name: str):
+    """Resolve public simulator symbols, tolerating partial hot-reload state."""
+    if hasattr(simulation, name):
+        return getattr(simulation, name)
+    return getattr(simulation_core, name)
 
 
 MODEL_LABEL = simulation.MODEL_LABEL
@@ -19,26 +27,36 @@ V2_MODEL_VERSION = simulation.V2_MODEL_VERSION
 V3_MODEL_LABEL = simulation.V3_MODEL_LABEL
 V3_MODEL_SUMMARY = simulation.V3_MODEL_SUMMARY
 V3_MODEL_VERSION = simulation.V3_MODEL_VERSION
+V4_MODEL_LABEL = simulation_attr("V4_MODEL_LABEL")
+V4_MODEL_SUMMARY = simulation_attr("V4_MODEL_SUMMARY")
+V4_MODEL_VERSION = simulation_attr("V4_MODEL_VERSION")
 DEFAULT_V2_TRAINING_SCOPE = simulation.DEFAULT_V2_TRAINING_SCOPE
 DEFAULT_V3_TRAINING_SCOPE = simulation.DEFAULT_V3_TRAINING_SCOPE
+DEFAULT_V4_TRAINING_SCOPE = simulation_attr("DEFAULT_V4_TRAINING_SCOPE")
 TRAINING_SCOPE_ALL_INTERNATIONAL = simulation.TRAINING_SCOPE_ALL_INTERNATIONAL
 TRAINING_SCOPE_WORLD_CUP_ONLY = simulation.TRAINING_SCOPE_WORLD_CUP_ONLY
 build_deterministic_bracket = simulation.build_deterministic_bracket
 build_deterministic_bracket_v2 = simulation.build_deterministic_bracket_v2
 build_deterministic_bracket_v3 = simulation.build_deterministic_bracket_v3
+build_deterministic_bracket_v4 = simulation_attr("build_deterministic_bracket_v4")
 build_v2_team_strengths = simulation.build_v2_team_strengths
 build_v2_match_feature_table = simulation.build_v2_match_feature_table
 build_v3_team_feature_table = simulation.build_v3_team_feature_table
+build_v4_team_feature_table = simulation_attr("build_v4_team_feature_table")
 build_weighted_form_table = simulation.build_weighted_form_table
 fit_v2_match_multinomial_model = simulation.fit_v2_match_multinomial_model
 fit_v3_poisson_models = simulation.fit_v3_poisson_models
+fit_v4_poisson_models = simulation_attr("fit_v4_poisson_models")
 FORM_SCHEDULE_DIFFICULTY_NEUTRAL = simulation.FORM_SCHEDULE_DIFFICULTY_NEUTRAL
 get_modal_group_rankings = simulation.get_modal_group_rankings
 run_v2_backtest_2022 = simulation.run_v2_backtest_2022
 run_v3_2022_backtest = simulation.run_v3_2022_backtest
+run_v4_2022_backtest = simulation_attr("run_v4_2022_backtest")
+run_v4_rolling_backtest = simulation_attr("run_v4_rolling_backtest")
 simulate_group_probabilities = simulation.simulate_group_probabilities
 simulate_group_probabilities_v2 = simulation.simulate_group_probabilities_v2
 simulate_group_probabilities_v3 = simulation.simulate_group_probabilities_v3
+simulate_group_probabilities_v4 = simulation_attr("simulate_group_probabilities_v4")
 WEIGHTED_FORM_COMPOSITE_WEIGHTS = simulation.WEIGHTED_FORM_COMPOSITE_WEIGHTS
 
 DATA_DIR = simulation.WORLD_CUP_ROOT / "2026"
@@ -83,6 +101,9 @@ V2_PROB_STATE_KEY = "simulation_settings_v2_prob"
 V2_BACKTEST_2022_STATE_KEY = "simulation_settings_v2_backtest_2022"
 V3_PROB_STATE_KEY = "simulation_settings_v3_prob"
 V3_BACKTEST_2022_STATE_KEY = "simulation_settings_v3_backtest_2022"
+V4_PROB_STATE_KEY = "simulation_settings_v4_prob"
+V4_BACKTEST_2022_STATE_KEY = "simulation_settings_v4_backtest_2022"
+V4_ROLLING_BACKTEST_STATE_KEY = "simulation_settings_v4_rolling_backtest"
 PROBABILITY_PALETTES = {
     "prob_1": ((220, 252, 231), (22, 163, 74)),
     "prob_2": ((219, 234, 254), (37, 99, 235)),
