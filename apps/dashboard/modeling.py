@@ -129,6 +129,7 @@ def simulate_probabilities_v3_dashboard(
     simulations: int = SIMULATION_COUNT,
     match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
     training_scope: str = DEFAULT_V3_TRAINING_SCOPE,
+    seed: int = 20260403,
 ) -> pd.DataFrame:
     """Estimate tournament probabilities from the v3 Poisson simulator."""
     return simulate_group_probabilities_v3(
@@ -138,6 +139,7 @@ def simulate_probabilities_v3_dashboard(
         simulations=simulations,
         match_window=match_window,
         training_scope=training_scope,
+        seed=seed,
     )
 
 
@@ -149,6 +151,7 @@ def simulate_probabilities_v4_dashboard(
     simulations: int = SIMULATION_COUNT,
     match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
     training_scope: str = DEFAULT_V4_TRAINING_SCOPE,
+    seed: int = 20260403,
 ) -> pd.DataFrame:
     """Estimate tournament probabilities from the v4 enhanced Poisson simulator."""
     return simulate_group_probabilities_v4(
@@ -158,6 +161,7 @@ def simulate_probabilities_v4_dashboard(
         simulations=simulations,
         match_window=match_window,
         training_scope=training_scope,
+        seed=seed,
     )
 
 

@@ -73,6 +73,7 @@ from .modeling import (
     simulate_probabilities_v3_dashboard,
     simulate_probabilities_v4_dashboard,
 )
+from .projection_jobs import build_v3_probability_artifact, build_v4_probability_artifact
 from .rendering import (
     all_teams_table_frame,
     build_confederation_form_tables,
@@ -92,6 +93,13 @@ from .rendering import (
     render_dashboard_header,
     render_tables,
     team_metadata_lookup,
+)
+from .simulation_store import (
+    DEFAULT_SIMULATION_SEED,
+    ArtifactLoadResult,
+    ArtifactSettings,
+    load_artifact,
+    load_or_create_artifact,
 )
 
 def build_home_metric_card(label: str, value: str, detail: str) -> str:
@@ -126,6 +134,49 @@ def build_home_model_card(version: str, title: str, summary: str, recommended: b
         f'<div class="wc-home-model-title">{html.escape(title)}</div>'
         f'<p class="wc-home-model-copy">{html.escape(summary)}</p>'
         "</div>"
+    )
+
+
+def display_artifact_status(load_result: ArtifactLoadResult, model_label: str) -> None:
+    """Render cache status and non-fatal artifact warnings."""
+    for warning in load_result.warnings:
+        st.warning(warning)
+    if load_result.artifact is None:
+        return
+    artifact = load_result.artifact
+    created_at = artifact.created_at_utc or "unknown time"
+    source_label = "runtime" if artifact.source == "runtime" else "official"
+    if load_result.created:
+        st.caption(f"Fresh {source_label} {model_label} simulation run saved at {created_at}.")
+    else:
+        st.caption(f"Using {source_label} cached {model_label} simulation run from {created_at}.")
+
+
+def load_or_run_probability_artifact(
+    settings: ArtifactSettings,
+    build_artifact,
+    *,
+    spinner_label: str,
+    force_refresh: bool,
+) -> ArtifactLoadResult:
+    """Load a cached probability artifact or run and save a fresh runtime artifact."""
+    loaded = ArtifactLoadResult(artifact=None)
+    if not force_refresh:
+        loaded = load_artifact(settings)
+        if loaded.artifact is not None:
+            return loaded
+
+    with st.spinner(spinner_label):
+        created = load_or_create_artifact(
+            settings,
+            build_artifact,
+            force_refresh=True,
+            write_tier="runtime",
+        )
+    return ArtifactLoadResult(
+        artifact=created.artifact,
+        warnings=loaded.warnings + created.warnings,
+        created=True,
     )
 
 
@@ -601,23 +652,38 @@ def render_v3_probabilities_dashboard() -> None:
         f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "prior-5-edition World Cup pedigree, competition-importance weighting, and host flags for Canada, Mexico, and the United States."
     )
-    with st.spinner(f"Training v3 model and running {simulation_count:,} simulations..."):
-        model_bundle = load_v3_poisson_model(form_match_window, training_scope)
-        dashboard_df = simulate_probabilities_v3_dashboard(
-            base_df=base_df,
-            fixtures_df=fixtures_df,
-            lead_in_df=lead_in_df,
+    rerun_simulations = st.button("Rerun V3 simulations", key="v3_prob_rerun_simulations")
+    artifact_settings = ArtifactSettings(
+        model_id="v3",
+        model_version=V3_MODEL_VERSION,
+        data_build_date=str(metadata.get("build_date", "")),
+        simulations=simulation_count,
+        match_window=form_match_window,
+        training_scope=training_scope,
+        seed=DEFAULT_SIMULATION_SEED,
+        bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+    )
+    load_result = load_or_run_probability_artifact(
+        artifact_settings,
+        lambda: build_v3_probability_artifact(
+            base_df,
+            fixtures_df,
+            lead_in_df,
             simulations=simulation_count,
             match_window=form_match_window,
             training_scope=training_scope,
-        )
-        bracket_data = build_deterministic_bracket_v3(
-            dashboard_df,
-            fixtures_df,
-            dashboard_df,
-            model_bundle,
-            head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
-        )
+            seed=DEFAULT_SIMULATION_SEED,
+            bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        ),
+        spinner_label=f"Training v3 model and running {simulation_count:,} simulations...",
+        force_refresh=rerun_simulations,
+    )
+    display_artifact_status(load_result, "V3")
+    if load_result.artifact is None:
+        st.error("V3 probability artifact could not be loaded or created.")
+        return
+    dashboard_df = load_result.artifact.dashboard_df
+    bracket_data = load_result.artifact.bracket_data
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
     metadata_lookup = team_metadata_lookup(dashboard_df)
     tables = [] if view_mode == "Bracket" else current_view_tables(
@@ -730,40 +796,56 @@ def render_v4_probabilities_dashboard() -> None:
         "World Cup last-5 goal history, Dixon-Coles low-score correction, stage lambda multipliers, "
         f"and `{training_scope}` training data."
     )
-    with st.spinner(f"Training v4 model and running {simulation_count:,} simulations..."):
-        model_bundle = load_v4_poisson_model(form_match_window, training_scope)
-        dashboard_df = simulate_probabilities_v4_dashboard(
-            base_df=base_df,
-            fixtures_df=fixtures_df,
-            lead_in_df=lead_in_df,
+    rerun_simulations = st.button("Rerun V4 simulations", key="v4_prob_rerun_simulations")
+    artifact_settings = ArtifactSettings(
+        model_id="v4",
+        model_version=V4_MODEL_VERSION,
+        data_build_date=str(metadata.get("build_date", "")),
+        simulations=simulation_count,
+        match_window=form_match_window,
+        training_scope=training_scope,
+        seed=DEFAULT_SIMULATION_SEED,
+        bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+    )
+    load_result = load_or_run_probability_artifact(
+        artifact_settings,
+        lambda: build_v4_probability_artifact(
+            base_df,
+            fixtures_df,
+            lead_in_df,
             simulations=simulation_count,
             match_window=form_match_window,
             training_scope=training_scope,
-        )
-        bracket_data = build_deterministic_bracket_v4(
-            dashboard_df,
-            fixtures_df,
-            dashboard_df,
-            model_bundle,
-            head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
-        )
+            seed=DEFAULT_SIMULATION_SEED,
+            bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        ),
+        spinner_label=f"Training v4 model and running {simulation_count:,} simulations...",
+        force_refresh=rerun_simulations,
+    )
+    display_artifact_status(load_result, "V4")
+    if load_result.artifact is None:
+        st.error("V4 probability artifact could not be loaded or created.")
+        return
+    dashboard_df = load_result.artifact.dashboard_df
+    bracket_data = load_result.artifact.bracket_data
+    artifact_metadata = load_result.artifact.metadata
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
     st.caption(
         " | ".join(
             [
-                f"alpha={model_bundle.get('alpha')}",
-                f"rho={model_bundle.get('rho')}",
-                f"half-life={model_bundle.get('time_decay_halflife_days')} days",
-                f"scope={model_bundle.get('training_scope')}",
+                f"alpha={artifact_metadata.get('alpha')}",
+                f"rho={artifact_metadata.get('rho')}",
+                f"half-life={artifact_metadata.get('time_decay_halflife_days')} days",
+                f"scope={artifact_metadata.get('training_scope')}",
             ]
         )
     )
     with st.expander("V4 calibration metadata", expanded=False):
         st.json(
             {
-                "stage_multipliers": model_bundle.get("stage_multipliers"),
-                "alpha_source": model_bundle.get("alpha_source"),
-                "rho_source": model_bundle.get("rho_source"),
+                "stage_multipliers": artifact_metadata.get("stage_multipliers"),
+                "alpha_source": artifact_metadata.get("alpha_source"),
+                "rho_source": artifact_metadata.get("rho_source"),
                 "quadratic_form_window": form_match_window,
             }
         )
