@@ -11,14 +11,12 @@ if str(ROOT) not in sys.path:
 from apps.dashboard.config import (  # noqa: E402
     BRACKET_HEAD_TO_HEAD_SIMULATIONS,
     DEFAULT_RECENT_MATCH_WINDOW,
-    DEFAULT_V3_TRAINING_SCOPE,
-    DEFAULT_V4_TRAINING_SCOPE,
     SIMULATION_COUNT,
-    V3_MODEL_VERSION,
-    V4_MODEL_VERSION,
 )
 from apps.dashboard.data import load_data  # noqa: E402
+from apps.dashboard.model_registry import MODEL_REGISTRY, PRIMARY_MODEL_ID  # noqa: E402
 from apps.dashboard.projection_jobs import (  # noqa: E402
+    build_v2_probability_artifact,
     build_v3_probability_artifact,
     build_v4_probability_artifact,
 )
@@ -29,10 +27,33 @@ from apps.dashboard.simulation_store import (  # noqa: E402
     save_artifact,
 )
 
+ARTIFACT_MODEL_IDS = tuple(
+    model_id
+    for model_id, entry in MODEL_REGISTRY.items()
+    if entry.supports_official_artifact and entry.artifact_builder_name is not None
+)
+
+
+def artifact_builder(model_id: str):
+    builder_name = MODEL_REGISTRY[model_id].artifact_builder_name
+    if builder_name is None:
+        raise ValueError(f"{model_id} does not support official artifact prewarming.")
+    return globals()[builder_name]
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Prewarm official dashboard simulation artifacts.")
-    parser.add_argument("--model", choices=("v3", "v4", "all"), default="all")
+    parser.add_argument(
+        "--model",
+        choices=ARTIFACT_MODEL_IDS,
+        default=None,
+        help="Prewarm one model. Defaults to the primary model unless --include-legacy is set.",
+    )
+    parser.add_argument(
+        "--include-legacy",
+        action="store_true",
+        help="Prewarm legacy artifact-backed models in addition to the primary model.",
+    )
     parser.add_argument("--simulations", type=int, default=SIMULATION_COUNT)
     parser.add_argument("--match-window", type=int, default=DEFAULT_RECENT_MATCH_WINDOW)
     parser.add_argument(
@@ -56,10 +77,12 @@ def prewarm_model(
     training_scope: str,
     force: bool,
 ) -> Path:
-    model_version = V3_MODEL_VERSION if model_id == "v3" else V4_MODEL_VERSION
+    registry_entry = MODEL_REGISTRY[model_id]
+    if not registry_entry.supports_official_artifact or registry_entry.artifact_builder_name is None:
+        raise ValueError(f"{model_id} does not support official artifact prewarming.")
     settings = ArtifactSettings(
         model_id=model_id,
-        model_version=model_version,
+        model_version=registry_entry.model_version,
         data_build_date=data_build_date,
         simulations=simulations,
         match_window=match_window,
@@ -72,28 +95,16 @@ def prewarm_model(
         print(f"Skipping existing {model_id.upper()} artifact: {destination}")
         return destination
 
-    if model_id == "v3":
-        payload = build_v3_probability_artifact(
-            base_df,
-            fixtures_df,
-            lead_in_df,
-            simulations=simulations,
-            match_window=match_window,
-            training_scope=training_scope,
-            seed=DEFAULT_SIMULATION_SEED,
-            bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
-        )
-    else:
-        payload = build_v4_probability_artifact(
-            base_df,
-            fixtures_df,
-            lead_in_df,
-            simulations=simulations,
-            match_window=match_window,
-            training_scope=training_scope,
-            seed=DEFAULT_SIMULATION_SEED,
-            bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
-        )
+    payload = artifact_builder(model_id)(
+        base_df,
+        fixtures_df,
+        lead_in_df,
+        simulations=simulations,
+        match_window=match_window,
+        training_scope=training_scope,
+        seed=DEFAULT_SIMULATION_SEED,
+        bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+    )
 
     artifact = save_artifact(
         settings,
@@ -109,9 +120,14 @@ def prewarm_model(
 def main() -> None:
     args = parse_args()
     base_df, fixtures_df, lead_in_df, metadata = load_data()
-    selected_models = ("v3", "v4") if args.model == "all" else (args.model,)
+    if args.model is not None:
+        selected_models = (args.model,)
+    elif args.include_legacy:
+        selected_models = ARTIFACT_MODEL_IDS
+    else:
+        selected_models = (PRIMARY_MODEL_ID,)
     for model_id in selected_models:
-        default_scope = DEFAULT_V3_TRAINING_SCOPE if model_id == "v3" else DEFAULT_V4_TRAINING_SCOPE
+        registry_entry = MODEL_REGISTRY[model_id]
         prewarm_model(
             model_id,
             base_df=base_df,
@@ -120,7 +136,7 @@ def main() -> None:
             data_build_date=str(metadata.get("build_date", "")),
             simulations=args.simulations,
             match_window=args.match_window,
-            training_scope=args.training_scope or default_scope,
+            training_scope=args.training_scope or registry_entry.default_training_scope,
             force=bool(args.force),
         )
 

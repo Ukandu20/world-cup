@@ -242,7 +242,7 @@ def build_navigation_pages() -> dict[str, list[st.Page]]:
             ),
             st.Page(
                 render_v3_probabilities_navigation_page,
-                title="V3 Poisson Regression",
+                title="V3 Poisson Regression (Legacy)",
                 icon=":material/looks_3:",
             ),
             st.Page(

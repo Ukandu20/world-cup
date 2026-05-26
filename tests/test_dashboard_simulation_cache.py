@@ -6,6 +6,7 @@ import inspect
 import pandas as pd
 
 from apps.dashboard import pages
+from apps.dashboard.model_registry import MODEL_REGISTRY, PRIMARY_MODEL_ID
 from apps.dashboard.simulation_store import (
     ArtifactSettings,
     artifact_dir,
@@ -14,6 +15,7 @@ from apps.dashboard.simulation_store import (
     save_artifact,
 )
 from scripts import prewarm_dashboard_simulations
+from apps import team_report_card
 
 
 def make_settings(**overrides) -> ArtifactSettings:
@@ -36,6 +38,7 @@ def test_artifact_key_is_stable_and_sensitive() -> None:
     assert artifact_key(settings) == artifact_key(make_settings())
 
     changed_keys = {
+        artifact_key(make_settings(model_id="v4")),
         artifact_key(make_settings(model_version="v4")),
         artifact_key(make_settings(data_build_date="2026-05-27")),
         artifact_key(make_settings(simulations=100_000)),
@@ -44,7 +47,16 @@ def test_artifact_key_is_stable_and_sensitive() -> None:
         artifact_key(make_settings(seed=17)),
     }
     assert artifact_key(settings) not in changed_keys
-    assert len(changed_keys) == 6
+    assert len(changed_keys) == 7
+
+
+def test_model_registry_marks_v4_primary_and_legacy_models_secondary() -> None:
+    assert PRIMARY_MODEL_ID == "v4"
+    assert MODEL_REGISTRY["v4"].is_primary is True
+    assert MODEL_REGISTRY["v4"].artifact_builder_name == "build_v4_probability_artifact"
+    assert MODEL_REGISTRY["v1"].supports_official_artifact is False
+    assert MODEL_REGISTRY["v2"].artifact_builder_name == "build_v2_probability_artifact"
+    assert MODEL_REGISTRY["v3"].is_primary is False
 
 
 def test_save_and_load_artifact_round_trip(tmp_path, monkeypatch) -> None:
@@ -122,14 +134,29 @@ def test_load_artifact_prefers_runtime_and_ignores_corrupt_official(tmp_path, mo
 
 
 def test_probability_pages_are_wired_to_artifact_loader() -> None:
+    v2_page_text = inspect.getsource(pages.render_v2_probabilities_dashboard)
     page_text = inspect.getsource(pages.render_v3_probabilities_dashboard)
     v4_page_text = inspect.getsource(pages.render_v4_probabilities_dashboard)
 
+    assert "load_or_run_probability_artifact" in v2_page_text
+    assert "build_v2_probability_artifact" in v2_page_text
     assert "load_or_run_probability_artifact" in page_text
     assert "build_v3_probability_artifact" in page_text
     assert "load_or_run_probability_artifact" in v4_page_text
     assert "build_v4_probability_artifact" in v4_page_text
     assert "artifact_metadata" in pages.render_v4_probabilities_dashboard.__code__.co_varnames
+
+
+def test_report_cards_use_primary_v4_artifact_path() -> None:
+    dataset_source = inspect.getsource(team_report_card.build_report_card_dataset)
+    page_source = inspect.getsource(team_report_card.render_team_report_card_page)
+
+    assert "ArtifactSettings" in dataset_source
+    assert "load_or_create_artifact" in dataset_source
+    assert "build_v4_probability_artifact" in dataset_source
+    assert "PRIMARY_MODEL" in dataset_source
+    assert "primary V4 enhanced Poisson model" in page_source
+    assert "home.V3_MODEL_VERSION" not in page_source
 
 
 def test_prewarm_model_writes_official_artifact_without_real_simulation(tmp_path, monkeypatch) -> None:
@@ -161,3 +188,11 @@ def test_prewarm_model_writes_official_artifact_without_real_simulation(tmp_path
     assert (path / "probabilities.csv.gz").exists()
     assert (path / "bracket.json").exists()
     assert (path / "metadata.json").exists()
+
+
+def test_prewarm_default_selection_is_primary_only(monkeypatch) -> None:
+    monkeypatch.setattr("sys.argv", ["prewarm_dashboard_simulations.py"])
+    args = prewarm_dashboard_simulations.parse_args()
+    assert PRIMARY_MODEL_ID == "v4"
+    assert args.model is None
+    assert args.include_legacy is False

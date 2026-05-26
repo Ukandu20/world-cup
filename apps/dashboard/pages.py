@@ -47,7 +47,6 @@ from .config import (
     VIEW_OPTIONS,
     WEIGHTED_FORM_COMPOSITE_WEIGHTS,
     build_deterministic_bracket,
-    build_deterministic_bracket_v2,
     build_deterministic_bracket_v3,
     build_deterministic_bracket_v4,
     build_v2_team_strengths,
@@ -61,7 +60,6 @@ from .export import export_all_tables, export_current_view, export_document_png,
 from .modeling import (
     default_simulation_settings,
     ensure_dashboard_probability_columns,
-    load_v2_match_model,
     load_v3_poisson_model,
     load_v4_poisson_model,
     run_v2_backtest_2022_dashboard,
@@ -69,11 +67,11 @@ from .modeling import (
     run_v4_backtest_2022_dashboard,
     run_v4_rolling_backtest_dashboard,
     simulate_probabilities,
-    simulate_probabilities_v2_dashboard,
     simulate_probabilities_v3_dashboard,
     simulate_probabilities_v4_dashboard,
 )
-from .projection_jobs import build_v3_probability_artifact, build_v4_probability_artifact
+from .model_registry import PRIMARY_MODEL
+from .projection_jobs import build_v2_probability_artifact, build_v3_probability_artifact, build_v4_probability_artifact
 from .rendering import (
     all_teams_table_frame,
     build_confederation_form_tables,
@@ -517,29 +515,44 @@ def render_v2_probabilities_dashboard() -> None:
     )
     render_countdown_timer(fixtures_df)
     st.caption(
-        f"Model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
+        f"Legacy comparison model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
         f"The v2 page trains a three-class multinomial regression using `{training_scope}` training data, "
         f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "and prior-5-edition World Cup history features. Knockout draws are interpreted using the local historical file semantics: "
         "level before penalties, then resolved by the model's non-draw split."
     )
-    with st.spinner(f"Training v2 model and running {simulation_count:,} simulations..."):
-        model_bundle = load_v2_match_model(form_match_window, training_scope)
-        dashboard_df = simulate_probabilities_v2_dashboard(
+    rerun_simulations = st.button("Rerun V2 simulations", key="v2_prob_rerun_simulations")
+    artifact_settings = ArtifactSettings(
+        model_id="v2",
+        model_version=V2_MODEL_VERSION,
+        data_build_date=str(metadata.get("build_date", "")),
+        simulations=simulation_count,
+        match_window=form_match_window,
+        training_scope=training_scope,
+        seed=DEFAULT_SIMULATION_SEED,
+        bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+    )
+    load_result = load_or_run_probability_artifact(
+        artifact_settings,
+        lambda: build_v2_probability_artifact(
             base_df=base_df,
             fixtures_df=fixtures_df,
             lead_in_df=lead_in_df,
             simulations=simulation_count,
             match_window=form_match_window,
             training_scope=training_scope,
-        )
-        bracket_data = build_deterministic_bracket_v2(
-            dashboard_df,
-            fixtures_df,
-            dashboard_df,
-            model_bundle,
-            head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
-        )
+            seed=DEFAULT_SIMULATION_SEED,
+            bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        ),
+        spinner_label=f"Training v2 model and running {simulation_count:,} simulations...",
+        force_refresh=rerun_simulations,
+    )
+    display_artifact_status(load_result, "V2 legacy")
+    if load_result.artifact is None:
+        st.error("V2 probability artifact could not be loaded or created.")
+        return
+    dashboard_df = load_result.artifact.dashboard_df
+    bracket_data = load_result.artifact.bracket_data
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
     metadata_lookup = team_metadata_lookup(dashboard_df)
     tables = [] if view_mode == "Bracket" else current_view_tables(
@@ -647,7 +660,7 @@ def render_v3_probabilities_dashboard() -> None:
     )
     render_countdown_timer(fixtures_df)
     st.caption(
-        f"Model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
+        f"Legacy comparison model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
         f"The v3 page trains paired Poisson regressors using `{training_scope}` training data, "
         f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "prior-5-edition World Cup pedigree, competition-importance weighting, and host flags for Canada, Mexico, and the United States."
@@ -791,8 +804,8 @@ def render_v4_probabilities_dashboard() -> None:
     )
     render_countdown_timer(fixtures_df)
     st.caption(
-        f"Model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
-        f"V4 is the experimental enhanced Poisson model using quadratic last-{form_match_window} form, "
+        f"Primary model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
+        f"V4 is the primary enhanced Poisson model using quadratic last-{form_match_window} form, "
         "World Cup last-5 goal history, Dixon-Coles low-score correction, stage lambda multipliers, "
         f"and `{training_scope}` training data."
     )
@@ -1385,16 +1398,37 @@ def render_home_page() -> None:
     home_settings = default_simulation_settings()
     simulation_count = SIMULATION_OPTIONS[str(home_settings["simulation_label"])]
     form_match_window = int(home_settings["form_match_window"])
-    training_scope = DEFAULT_V3_TRAINING_SCOPE
-    with st.spinner(f"Building V3 projection overview from {simulation_count:,} simulations..."):
-        dashboard_df = simulate_probabilities_v3_dashboard(
-            base_df=base_df,
-            fixtures_df=fixtures_df,
-            lead_in_df=lead_in_df,
+    training_scope = PRIMARY_MODEL.default_training_scope
+    artifact_settings = ArtifactSettings(
+        model_id=PRIMARY_MODEL.model_id,
+        model_version=PRIMARY_MODEL.model_version,
+        data_build_date=str(metadata.get("build_date", "")),
+        simulations=simulation_count,
+        match_window=form_match_window,
+        training_scope=training_scope,
+        seed=DEFAULT_SIMULATION_SEED,
+        bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+    )
+    load_result = load_or_run_probability_artifact(
+        artifact_settings,
+        lambda: build_v4_probability_artifact(
+            base_df,
+            fixtures_df,
+            lead_in_df,
             simulations=simulation_count,
             match_window=form_match_window,
             training_scope=training_scope,
-        )
+            seed=DEFAULT_SIMULATION_SEED,
+            bracket_head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        ),
+        spinner_label=f"Building V4 projection overview from {simulation_count:,} simulations...",
+        force_refresh=False,
+    )
+    display_artifact_status(load_result, "V4 primary")
+    if load_result.artifact is None:
+        st.error("Primary V4 probability artifact could not be loaded or created.")
+        return
+    dashboard_df = load_result.artifact.dashboard_df
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
     dashboard_df["top2_prob"] = (
         pd.to_numeric(dashboard_df["prob_1"], errors="coerce").fillna(0.0)
@@ -1413,9 +1447,9 @@ def render_home_page() -> None:
           <div class="wc-home-section-head">
             <div>
               <h2 class="wc-home-section-title">Projection Snapshot</h2>
-              <p class="wc-home-section-note">Start with V3 for the current pre-tournament projection, then use the sidebar to move into team reports, model tables, and backtests.</p>
+              <p class="wc-home-section-note">Start with V4 for the current pre-tournament projection, then use the sidebar to move into team reports, model tables, and backtests.</p>
             </div>
-            <span class="wc-home-badge">V3 Recommended</span>
+            <span class="wc-home-badge">V4 Primary</span>
           </div>
           <div class="wc-home-metric-grid">
             {build_home_metric_card("Favorite to Win", champion_name, champion_detail)}
@@ -1423,7 +1457,7 @@ def render_home_page() -> None:
             {build_home_metric_card("Best Group Outlook", group_name, group_detail)}
             {build_home_metric_card("Most Likely KO Team", knockout_name, knockout_detail)}
             {build_home_metric_card("Opening Match", first_kickoff["match_label"], f'{first_kickoff["kickoff_date_label"]} at {first_kickoff["kickoff_utc_time_label"]} UTC')}
-            {build_home_metric_card("Projection Run", f'{simulation_count:,} simulations', f'Model {V3_MODEL_VERSION} | last {form_match_window} matches')}
+            {build_home_metric_card("Projection Run", f'{simulation_count:,} simulations', f'Model {PRIMARY_MODEL.model_version} | last {form_match_window} matches')}
           </div>
         </div>
         """,
@@ -1443,7 +1477,7 @@ def render_home_page() -> None:
           </div>
           <div class="wc-home-route-grid">
             {build_home_route_card("Team Report Card", "Reports > Team Report Card", "Deep dive into one country with history, qualification path, squad context, and projection outlook.")}
-            {build_home_route_card("V3 Poisson Regression", "Models > V3 Poisson Regression", "Start here for latest 2026 probabilities, group tables, all-country rankings, and bracket view.")}
+            {build_home_route_card("V4 Enhanced Poisson", "Models > V4 Enhanced Poisson", "Start here for primary 2026 probabilities, group tables, all-country rankings, and bracket view.")}
             {build_home_route_card("V2 Probabilities", "Models > V2 Probabilities", "Compare the current projection against the alternate form-weighted multinomial model.")}
             {build_home_route_card("V2 Form", "Models > V2 Form", "Inspect recent form inputs, team strength components, and confederation-level form tables.")}
             {build_home_route_card("Analysis", "Reports > Analysis", "Explore historical World Cup patterns behind participation, scoring, hosts, winners, and qualifiers.")}
@@ -1460,7 +1494,8 @@ def render_home_page() -> None:
           <div class="wc-home-model-grid">
             {build_home_model_card(MODEL_VERSION, "V1 Team Strength", MODEL_SUMMARY)}
             {build_home_model_card(V2_MODEL_VERSION, "V2 Form and Probabilities", V2_MODEL_SUMMARY)}
-            {build_home_model_card(V3_MODEL_VERSION, "V3 Poisson Regression", V3_MODEL_SUMMARY, recommended=True)}
+            {build_home_model_card(V3_MODEL_VERSION, "V3 Poisson Regression", V3_MODEL_SUMMARY)}
+            {build_home_model_card(V4_MODEL_VERSION, "V4 Enhanced Poisson", V4_MODEL_SUMMARY, recommended=True)}
           </div>
         </div>
         """,
@@ -1471,7 +1506,7 @@ def render_home_page() -> None:
             f"""
             - **ELO Rating:** numerical measure of a team's relative strength, updated after each match. Higher ratings indicate stronger teams.
             - **ELO Change/Delta:** points gained or lost after a match based on result, expected result from rating difference, and margin of victory.
-            - **Simulation count:** the home snapshot uses the default V3 setting of `{simulation_count:,}` tournament simulations.
+            - **Simulation count:** the home snapshot uses the default V4 setting of `{simulation_count:,}` tournament simulations.
             - **Interpretation:** projections are pre-tournament probabilities from model simulations, not guarantees.
             """
         )

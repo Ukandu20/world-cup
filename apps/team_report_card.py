@@ -10,6 +10,13 @@ import pandas as pd
 import streamlit as st
 
 from apps import home
+from apps.dashboard.model_registry import PRIMARY_MODEL
+from apps.dashboard.projection_jobs import build_v4_probability_artifact
+from apps.dashboard.simulation_store import (
+    DEFAULT_SIMULATION_SEED,
+    ArtifactSettings,
+    load_or_create_artifact,
+)
 from world_cup_sim.constants import (
     WEIGHTED_FORM_ELO_BOUNDS,
     WEIGHTED_FORM_GD_BOUNDS,
@@ -669,37 +676,55 @@ def build_model_reason_bullets(team_row: pd.Series, full_df: pd.DataFrame) -> li
 
 @st.cache_data(show_spinner=False)
 def build_report_card_dataset(simulations: int, match_window: int) -> dict[str, Any]:
-    """Build and cache the shared V3 report-card dataset for the active controls."""
+    """Build and cache the shared primary-model report-card dataset for the active controls."""
     base_df, fixtures_df, lead_in_df, metadata = home.load_data()
     base_team_lookup = (
         base_df.drop_duplicates(subset=["team_id"], keep="first")
         .set_index("team_id")
         .to_dict("index")
     )
-    model_bundle = home.load_v3_poisson_model(match_window)
-    dashboard_df = home.simulate_probabilities_v3_dashboard(
-        base_df=base_df,
-        fixtures_df=fixtures_df,
-        lead_in_df=lead_in_df,
+    artifact_settings = ArtifactSettings(
+        model_id=PRIMARY_MODEL.model_id,
+        model_version=PRIMARY_MODEL.model_version,
+        data_build_date=str(metadata.get("build_date", "")),
         simulations=simulations,
         match_window=match_window,
+        training_scope=PRIMARY_MODEL.default_training_scope,
+        seed=DEFAULT_SIMULATION_SEED,
+        bracket_head_to_head_simulations=home.BRACKET_HEAD_TO_HEAD_SIMULATIONS,
     )
+    load_result = load_or_create_artifact(
+        artifact_settings,
+        lambda: build_v4_probability_artifact(
+            base_df,
+            fixtures_df,
+            lead_in_df,
+            simulations=simulations,
+            match_window=match_window,
+            training_scope=PRIMARY_MODEL.default_training_scope,
+            seed=DEFAULT_SIMULATION_SEED,
+            bracket_head_to_head_simulations=home.BRACKET_HEAD_TO_HEAD_SIMULATIONS,
+        ),
+        write_tier="runtime",
+    )
+    if load_result.artifact is None:
+        raise RuntimeError("Primary report-card simulation artifact could not be loaded or created.")
+    artifact = load_result.artifact
+    dashboard_df = artifact.dashboard_df
     dashboard_df = home.ensure_dashboard_probability_columns(dashboard_df)
     dashboard_df = add_report_card_metrics(dashboard_df)
-    bracket_data = simulation.build_deterministic_bracket_v3(
-        dashboard_df,
-        fixtures_df,
-        dashboard_df,
-        model_bundle,
-        head_to_head_simulations=home.BRACKET_HEAD_TO_HEAD_SIMULATIONS,
-    )
     return {
         "base_df": base_df,
         "fixtures_df": fixtures_df,
         "lead_in_df": lead_in_df,
         "metadata": metadata,
         "dashboard_df": dashboard_df,
-        "bracket_data": bracket_data,
+        "bracket_data": artifact.bracket_data,
+        "artifact_metadata": artifact.metadata,
+        "artifact_source": artifact.source,
+        "artifact_created": load_result.created,
+        "artifact_created_at_utc": artifact.created_at_utc,
+        "artifact_warnings": load_result.warnings,
         "display_lookup": build_display_lookup(base_df),
         "flag_lookup": build_flag_lookup(base_df),
         "best_finish_lookup": build_best_finish_lookup(base_df),
@@ -1892,7 +1917,7 @@ def render_fixtures_and_path(context: dict[str, Any]) -> None:
 
 
 def render_team_report_card_page() -> None:
-    """Render the dedicated V3 team report-card page."""
+    """Render the dedicated primary-model team report-card page."""
     home.inject_styles()
     st.markdown(f"<style>{report_card_css()}</style>", unsafe_allow_html=True)
 
@@ -1919,6 +1944,8 @@ def render_team_report_card_page() -> None:
     simulations = home.SIMULATION_OPTIONS[simulation_label]
     with st.spinner(f"Building report-card model view with {simulations:,} simulations..."):
         dataset = build_report_card_dataset(simulations=simulations, match_window=form_match_window)
+    for warning in dataset.get("artifact_warnings", ()):
+        st.warning(warning)
     team_choices = (
         dataset["dashboard_df"]
         .loc[:, ["team_id", "display_name", "group_code"]]
@@ -1935,11 +1962,14 @@ def render_team_report_card_page() -> None:
         dataset["metadata"],
         simulations,
         title="World Cup 2026 Team Report Card",
-        model_version=home.V3_MODEL_VERSION,
-        model_label=home.V3_MODEL_LABEL,
+        model_version=PRIMARY_MODEL.model_version,
+        model_label=PRIMARY_MODEL.model_label,
     )
+    artifact_source = dataset.get("artifact_source", "runtime")
+    artifact_created_at = dataset.get("artifact_created_at_utc") or "unknown time"
     st.caption(
-        f"This report card uses the V3 Poisson model, the last {form_match_window} Elo-rated matches, "
+        f"This report card uses the primary V4 enhanced Poisson model, cached from the {artifact_source} "
+        f"artifact created at {artifact_created_at}, with the last {form_match_window} Elo-rated matches, "
         "historical World Cup pedigree, and the modal deterministic bracket."
     )
 
