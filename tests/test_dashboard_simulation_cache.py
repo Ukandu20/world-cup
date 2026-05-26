@@ -84,6 +84,23 @@ def test_save_and_load_artifact_round_trip(tmp_path, monkeypatch) -> None:
     assert loaded.artifact.metadata["stage_multipliers"] == {"F": 1.1}
 
 
+def test_save_artifact_uses_unique_temp_directory_and_cleans_up(tmp_path, monkeypatch) -> None:
+    import apps.dashboard.simulation_store as store
+
+    monkeypatch.setattr(store, "OFFICIAL_ARTIFACT_ROOT", tmp_path / "official")
+    monkeypatch.setattr(store, "RUNTIME_ARTIFACT_ROOT", tmp_path / "runtime")
+    settings = make_settings()
+    dashboard_df = pd.DataFrame([{"team_id": "ARG", "prob_1": 1.0}])
+
+    first = save_artifact(settings, dashboard_df, {"rounds": []}, {"run": 1}, tier="runtime")
+    second = save_artifact(settings, dashboard_df, {"rounds": []}, {"run": 2}, tier="runtime")
+
+    assert first.artifact_dir == second.artifact_dir
+    assert second.metadata["run"] == 2
+    leftovers = list(second.artifact_dir.parent.glob(f".{second.artifact_dir.name}*.tmp"))
+    assert leftovers == []
+
+
 def test_load_artifact_prefers_runtime_and_ignores_corrupt_official(tmp_path, monkeypatch) -> None:
     import apps.dashboard.simulation_store as store
 

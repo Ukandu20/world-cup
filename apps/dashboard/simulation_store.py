@@ -2,7 +2,11 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import shutil
+import time
+import uuid
+from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -17,6 +21,8 @@ ArtifactTier = Literal["official", "runtime"]
 DEFAULT_SIMULATION_SEED = 20260403
 OFFICIAL_ARTIFACT_ROOT = ROOT / "data" / "processed" / "dashboard_simulations" / "official"
 RUNTIME_ARTIFACT_ROOT = ROOT / ".cache" / "dashboard_simulations" / "runtime"
+LOCK_TIMEOUT_SECONDS = 30.0
+LOCK_POLL_SECONDS = 0.1
 
 
 @dataclass(frozen=True)
@@ -93,6 +99,30 @@ def artifact_dir(settings: ArtifactSettings, tier: ArtifactTier) -> Path:
     return artifact_root(tier) / settings.model_id / artifact_key(settings)
 
 
+@contextmanager
+def _artifact_write_lock(directory: Path):
+    """Serialize writes for one artifact key across concurrent Streamlit reruns."""
+    directory.parent.mkdir(parents=True, exist_ok=True)
+    lock_path = directory.with_name(f".{directory.name}.lock")
+    deadline = time.monotonic() + LOCK_TIMEOUT_SECONDS
+    lock_fd: int | None = None
+    while lock_fd is None:
+        try:
+            lock_fd = os.open(str(lock_path), os.O_CREAT | os.O_EXCL | os.O_RDWR)
+        except FileExistsError:
+            if time.monotonic() >= deadline:
+                raise TimeoutError(f"Timed out waiting for artifact write lock: {lock_path}")
+            time.sleep(LOCK_POLL_SECONDS)
+    try:
+        yield
+    finally:
+        os.close(lock_fd)
+        try:
+            lock_path.unlink()
+        except FileNotFoundError:
+            pass
+
+
 def _required_paths(directory: Path) -> tuple[Path, Path, Path]:
     return (
         directory / "probabilities.csv.gz",
@@ -150,10 +180,7 @@ def save_artifact(
     """Persist a simulation artifact and return the saved result."""
     key = artifact_key(settings)
     directory = artifact_dir(settings, tier)
-    temp_directory = directory.with_name(f".{directory.name}.tmp")
-    if temp_directory.exists():
-        shutil.rmtree(temp_directory)
-    temp_directory.mkdir(parents=True, exist_ok=True)
+    temp_directory = directory.with_name(f".{directory.name}.{uuid.uuid4().hex}.tmp")
 
     created_at_utc = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     saved_metadata = {
@@ -171,20 +198,27 @@ def save_artifact(
         "training_scope": str(settings.training_scope),
     }
 
-    probabilities_path, bracket_path, metadata_path = _required_paths(temp_directory)
-    dashboard_df.to_csv(probabilities_path, index=False, compression="gzip")
-    bracket_path.write_text(
-        json.dumps(bracket_data, default=_json_default, indent=2, sort_keys=True),
-        encoding="utf-8",
-    )
-    metadata_path.write_text(
-        json.dumps(saved_metadata, default=_json_default, indent=2, sort_keys=True),
-        encoding="utf-8",
-    )
+    with _artifact_write_lock(directory):
+        temp_directory.mkdir(parents=True, exist_ok=False)
+        try:
+            probabilities_path, bracket_path, metadata_path = _required_paths(temp_directory)
+            dashboard_df.to_csv(probabilities_path, index=False, compression="gzip")
+            bracket_path.write_text(
+                json.dumps(bracket_data, default=_json_default, indent=2, sort_keys=True),
+                encoding="utf-8",
+            )
+            metadata_path.write_text(
+                json.dumps(saved_metadata, default=_json_default, indent=2, sort_keys=True),
+                encoding="utf-8",
+            )
 
-    if directory.exists():
-        shutil.rmtree(directory)
-    temp_directory.replace(directory)
+            if directory.exists():
+                shutil.rmtree(directory)
+            temp_directory.rename(directory)
+        except Exception:
+            if temp_directory.exists():
+                shutil.rmtree(temp_directory, ignore_errors=True)
+            raise
     return _load_from_directory(directory, tier)
 
 

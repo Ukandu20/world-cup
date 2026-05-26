@@ -1,0 +1,470 @@
+{
+  "modal_group_rankings": {
+    "A": [
+      "MEX",
+      "KOR",
+      "CZE",
+      "RSA"
+    ],
+    "B": [
+      "SUI",
+      "CAN",
+      "BIH",
+      "QAT"
+    ],
+    "C": [
+      "BRA",
+      "MAR",
+      "SCO",
+      "HAI"
+    ],
+    "D": [
+      "TUR",
+      "USA",
+      "AUS",
+      "PAR"
+    ],
+    "E": [
+      "GER",
+      "CIV",
+      "ECU",
+      "CUW"
+    ],
+    "F": [
+      "NED",
+      "JPN",
+      "SWE",
+      "TUN"
+    ],
+    "G": [
+      "BEL",
+      "IRN",
+      "EGY",
+      "NZL"
+    ],
+    "H": [
+      "ESP",
+      "URU",
+      "CPV",
+      "KSA"
+    ],
+    "I": [
+      "FRA",
+      "SEN",
+      "NOR",
+      "IRQ"
+    ],
+    "J": [
+      "ARG",
+      "AUT",
+      "ALG",
+      "JOR"
+    ],
+    "K": [
+      "POR",
+      "COL",
+      "COD",
+      "UZB"
+    ],
+    "L": [
+      "ENG",
+      "CRO",
+      "PAN",
+      "GHA"
+    ]
+  },
+  "qualifying_third_place_groups": "CDEFGIJL",
+  "qualifying_third_place_team_ids": [
+    "NOR",
+    "ECU",
+    "AUS",
+    "ALG",
+    "SCO",
+    "SWE",
+    "EGY",
+    "PAN"
+  ],
+  "rounds": [
+    {
+      "matches": [
+        {
+          "away_team_id": "CAN",
+          "away_win_prob": 31.150000000000006,
+          "home_team_id": "KOR",
+          "home_win_prob": 68.85,
+          "match_number": 73,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "KOR",
+          "winner_win_prob": 68.85
+        },
+        {
+          "away_team_id": "AUS",
+          "away_win_prob": 21.67,
+          "home_team_id": "GER",
+          "home_win_prob": 78.33,
+          "match_number": 74,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "GER",
+          "winner_win_prob": 78.33
+        },
+        {
+          "away_team_id": "MAR",
+          "away_win_prob": 25.83,
+          "home_team_id": "NED",
+          "home_win_prob": 74.17,
+          "match_number": 75,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "NED",
+          "winner_win_prob": 74.17
+        },
+        {
+          "away_team_id": "JPN",
+          "away_win_prob": 24.950000000000003,
+          "home_team_id": "BRA",
+          "home_win_prob": 75.05,
+          "match_number": 76,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "BRA",
+          "winner_win_prob": 75.05
+        },
+        {
+          "away_team_id": "SWE",
+          "away_win_prob": 17.820000000000007,
+          "home_team_id": "FRA",
+          "home_win_prob": 82.17999999999999,
+          "match_number": 77,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "FRA",
+          "winner_win_prob": 82.17999999999999
+        },
+        {
+          "away_team_id": "SEN",
+          "away_win_prob": 55.97,
+          "home_team_id": "CIV",
+          "home_win_prob": 44.03,
+          "match_number": 78,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "SEN",
+          "winner_win_prob": 55.97
+        },
+        {
+          "away_team_id": "SCO",
+          "away_win_prob": 21.89999999999999,
+          "home_team_id": "MEX",
+          "home_win_prob": 78.10000000000001,
+          "match_number": 79,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "MEX",
+          "winner_win_prob": 78.10000000000001
+        },
+        {
+          "away_team_id": "NOR",
+          "away_win_prob": 24.409999999999997,
+          "home_team_id": "ENG",
+          "home_win_prob": 75.59,
+          "match_number": 80,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "ENG",
+          "winner_win_prob": 75.59
+        },
+        {
+          "away_team_id": "ECU",
+          "away_win_prob": 44.269999999999996,
+          "home_team_id": "TUR",
+          "home_win_prob": 55.730000000000004,
+          "match_number": 81,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "TUR",
+          "winner_win_prob": 55.730000000000004
+        },
+        {
+          "away_team_id": "ALG",
+          "away_win_prob": 26.099999999999994,
+          "home_team_id": "BEL",
+          "home_win_prob": 73.9,
+          "match_number": 82,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "BEL",
+          "winner_win_prob": 73.9
+        },
+        {
+          "away_team_id": "CRO",
+          "away_win_prob": 52.75,
+          "home_team_id": "COL",
+          "home_win_prob": 47.25,
+          "match_number": 83,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "CRO",
+          "winner_win_prob": 52.75
+        },
+        {
+          "away_team_id": "AUT",
+          "away_win_prob": 23.85000000000001,
+          "home_team_id": "ESP",
+          "home_win_prob": 76.14999999999999,
+          "match_number": 84,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "ESP",
+          "winner_win_prob": 76.14999999999999
+        },
+        {
+          "away_team_id": "EGY",
+          "away_win_prob": 24.97,
+          "home_team_id": "SUI",
+          "home_win_prob": 75.03,
+          "match_number": 85,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "SUI",
+          "winner_win_prob": 75.03
+        },
+        {
+          "away_team_id": "URU",
+          "away_win_prob": 20.64,
+          "home_team_id": "ARG",
+          "home_win_prob": 79.36,
+          "match_number": 86,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "ARG",
+          "winner_win_prob": 79.36
+        },
+        {
+          "away_team_id": "PAN",
+          "away_win_prob": 22.870000000000005,
+          "home_team_id": "POR",
+          "home_win_prob": 77.13,
+          "match_number": 87,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "POR",
+          "winner_win_prob": 77.13
+        },
+        {
+          "away_team_id": "IRN",
+          "away_win_prob": 33.879999999999995,
+          "home_team_id": "USA",
+          "home_win_prob": 66.12,
+          "match_number": 88,
+          "round_code": "R32",
+          "round_label": "Round of 32",
+          "winner_team_id": "USA",
+          "winner_win_prob": 66.12
+        }
+      ],
+      "round_code": "R32",
+      "round_label": "Round of 32"
+    },
+    {
+      "matches": [
+        {
+          "away_team_id": "FRA",
+          "away_win_prob": 51.190000000000005,
+          "home_team_id": "GER",
+          "home_win_prob": 48.809999999999995,
+          "match_number": 89,
+          "round_code": "R16",
+          "round_label": "Round of 16",
+          "winner_team_id": "FRA",
+          "winner_win_prob": 51.190000000000005
+        },
+        {
+          "away_team_id": "NED",
+          "away_win_prob": 71.72,
+          "home_team_id": "KOR",
+          "home_win_prob": 28.28,
+          "match_number": 90,
+          "round_code": "R16",
+          "round_label": "Round of 16",
+          "winner_team_id": "NED",
+          "winner_win_prob": 71.72
+        },
+        {
+          "away_team_id": "SEN",
+          "away_win_prob": 23.599999999999994,
+          "home_team_id": "BRA",
+          "home_win_prob": 76.4,
+          "match_number": 91,
+          "round_code": "R16",
+          "round_label": "Round of 16",
+          "winner_team_id": "BRA",
+          "winner_win_prob": 76.4
+        },
+        {
+          "away_team_id": "ENG",
+          "away_win_prob": 47.72,
+          "home_team_id": "MEX",
+          "home_win_prob": 52.28,
+          "match_number": 92,
+          "round_code": "R16",
+          "round_label": "Round of 16",
+          "winner_team_id": "MEX",
+          "winner_win_prob": 52.28
+        },
+        {
+          "away_team_id": "ESP",
+          "away_win_prob": 62.980000000000004,
+          "home_team_id": "CRO",
+          "home_win_prob": 37.019999999999996,
+          "match_number": 93,
+          "round_code": "R16",
+          "round_label": "Round of 16",
+          "winner_team_id": "ESP",
+          "winner_win_prob": 62.980000000000004
+        },
+        {
+          "away_team_id": "BEL",
+          "away_win_prob": 69.96000000000001,
+          "home_team_id": "TUR",
+          "home_win_prob": 30.04,
+          "match_number": 94,
+          "round_code": "R16",
+          "round_label": "Round of 16",
+          "winner_team_id": "BEL",
+          "winner_win_prob": 69.96000000000001
+        },
+        {
+          "away_team_id": "USA",
+          "away_win_prob": 9.430000000000007,
+          "home_team_id": "ARG",
+          "home_win_prob": 90.57,
+          "match_number": 95,
+          "round_code": "R16",
+          "round_label": "Round of 16",
+          "winner_team_id": "ARG",
+          "winner_win_prob": 90.57
+        },
+        {
+          "away_team_id": "POR",
+          "away_win_prob": 51.879999999999995,
+          "home_team_id": "SUI",
+          "home_win_prob": 48.120000000000005,
+          "match_number": 96,
+          "round_code": "R16",
+          "round_label": "Round of 16",
+          "winner_team_id": "POR",
+          "winner_win_prob": 51.879999999999995
+        }
+      ],
+      "round_code": "R16",
+      "round_label": "Round of 16"
+    },
+    {
+      "matches": [
+        {
+          "away_team_id": "NED",
+          "away_win_prob": 38.41,
+          "home_team_id": "FRA",
+          "home_win_prob": 61.59,
+          "match_number": 97,
+          "round_code": "QF",
+          "round_label": "Quarter-finals",
+          "winner_team_id": "FRA",
+          "winner_win_prob": 61.59
+        },
+        {
+          "away_team_id": "BEL",
+          "away_win_prob": 37.970000000000006,
+          "home_team_id": "ESP",
+          "home_win_prob": 62.029999999999994,
+          "match_number": 98,
+          "round_code": "QF",
+          "round_label": "Quarter-finals",
+          "winner_team_id": "ESP",
+          "winner_win_prob": 62.029999999999994
+        },
+        {
+          "away_team_id": "MEX",
+          "away_win_prob": 21.74000000000001,
+          "home_team_id": "BRA",
+          "home_win_prob": 78.25999999999999,
+          "match_number": 99,
+          "round_code": "QF",
+          "round_label": "Quarter-finals",
+          "winner_team_id": "BRA",
+          "winner_win_prob": 78.25999999999999
+        },
+        {
+          "away_team_id": "POR",
+          "away_win_prob": 28.210000000000008,
+          "home_team_id": "ARG",
+          "home_win_prob": 71.78999999999999,
+          "match_number": 100,
+          "round_code": "QF",
+          "round_label": "Quarter-finals",
+          "winner_team_id": "ARG",
+          "winner_win_prob": 71.78999999999999
+        }
+      ],
+      "round_code": "QF",
+      "round_label": "Quarter-finals"
+    },
+    {
+      "matches": [
+        {
+          "away_team_id": "ESP",
+          "away_win_prob": 44.38999999999999,
+          "home_team_id": "FRA",
+          "home_win_prob": 55.61000000000001,
+          "match_number": 101,
+          "round_code": "SF",
+          "round_label": "Semi-finals",
+          "winner_team_id": "FRA",
+          "winner_win_prob": 55.61000000000001
+        },
+        {
+          "away_team_id": "ARG",
+          "away_win_prob": 55.58,
+          "home_team_id": "BRA",
+          "home_win_prob": 44.42,
+          "match_number": 102,
+          "round_code": "SF",
+          "round_label": "Semi-finals",
+          "winner_team_id": "ARG",
+          "winner_win_prob": 55.58
+        }
+      ],
+      "round_code": "SF",
+      "round_label": "Semi-finals"
+    },
+    {
+      "matches": [
+        {
+          "away_team_id": "ARG",
+          "away_win_prob": 52.46,
+          "home_team_id": "FRA",
+          "home_win_prob": 47.54,
+          "match_number": 104,
+          "round_code": "F",
+          "round_label": "Final",
+          "winner_team_id": "ARG",
+          "winner_win_prob": 52.46
+        }
+      ],
+      "round_code": "F",
+      "round_label": "Final"
+    }
+  ],
+  "third_place_routing": {
+    "74": "D",
+    "77": "F",
+    "79": "C",
+    "80": "I",
+    "81": "E",
+    "82": "J",
+    "85": "G",
+    "87": "L"
+  }
+}
