@@ -219,7 +219,7 @@ def export_all_tables(
 
 
 def build_navigation_pages() -> dict[str, list[st.Page]]:
-    """Build grouped Streamlit pages for the dashboard sidebar."""
+    """Build grouped Streamlit pages for the dashboard navigation."""
     return {
         "Home": [
             st.Page(render_home_page, title="Dashboard", icon=":material/home:", default=True),
@@ -263,7 +263,7 @@ def build_navigation_pages() -> dict[str, list[st.Page]]:
 def main() -> None:
     """Run the grouped Streamlit navigation entrypoint."""
     configure_page("World Cup 2026 Prediction Dashboard")
-    selected_page = st.navigation(build_navigation_pages())
+    selected_page = st.navigation(build_navigation_pages(), position="top")
     selected_page.run()
 
 

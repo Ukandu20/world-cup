@@ -1926,20 +1926,25 @@ def render_team_report_card_page() -> None:
     default_simulation_label = DEFAULT_REPORT_CARD_SIMULATION_LABEL
     default_simulation_index = simulation_options.index(default_simulation_label) if default_simulation_label in simulation_options else 0
 
-    st.sidebar.subheader("Model Controls")
-    simulation_label = st.sidebar.radio(
-        "Simulations",
-        simulation_options,
-        index=default_simulation_index,
-        key="team_report_card_simulation_label",
-    )
-    form_match_window = st.sidebar.slider(
-        "Recent-match window",
-        min_value=home.FORM_WINDOW_MIN,
-        max_value=home.FORM_WINDOW_MAX,
-        value=int(default_settings["form_match_window"]),
-        key="team_report_card_form_match_window",
-    )
+    filter_bar = home.render_filter_bar("Model Filters")
+    with filter_bar:
+        filter_columns = st.columns([2, 1])
+        with filter_columns[0]:
+            simulation_label = st.radio(
+                "Simulations",
+                simulation_options,
+                index=default_simulation_index,
+                key="team_report_card_simulation_label",
+                horizontal=True,
+            )
+        with filter_columns[1]:
+            form_match_window = st.slider(
+                "Recent-match window",
+                min_value=home.FORM_WINDOW_MIN,
+                max_value=home.FORM_WINDOW_MAX,
+                value=int(default_settings["form_match_window"]),
+                key="team_report_card_form_match_window",
+            )
 
     simulations = home.SIMULATION_OPTIONS[simulation_label]
     with st.spinner(f"Building report-card model view with {simulations:,} simulations..."):

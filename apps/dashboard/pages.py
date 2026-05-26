@@ -1442,7 +1442,7 @@ def render_home_page() -> None:
           <div class="wc-home-section-head">
             <div>
               <h2 class="wc-home-section-title">Projection Snapshot</h2>
-              <p class="wc-home-section-note">Start with V4 for the current pre-tournament projection, then use the sidebar to move into team reports, model tables, and backtests.</p>
+              <p class="wc-home-section-note">Start with V4 for the current pre-tournament projection, then use the top navigation to move into team reports, model tables, and backtests.</p>
             </div>
             <span class="wc-home-badge">V4 Primary</span>
           </div>
@@ -1465,7 +1465,7 @@ def render_home_page() -> None:
           <div class="wc-home-section-head">
             <div>
               <h2 class="wc-home-section-title">Where To Go Next</h2>
-              <p class="wc-home-section-note">Use the grouped sidebar navigation to choose between historical analysis, qualification context, team reports, projection models, and backtests.</p>
+              <p class="wc-home-section-note">Use the grouped top navigation to choose between historical analysis, qualification context, team reports, projection models, and backtests.</p>
             </div>
           </div>
           <div class="wc-home-route-grid">
@@ -1509,7 +1509,6 @@ def render_analysis_page() -> None:
     """Render the historical analysis page from the grouped navigation router."""
     from apps import historical_eda
 
-    st.sidebar.caption("Analysis companion page")
     historical_eda.render_historical_eda_page()
 
 
@@ -1517,59 +1516,49 @@ def render_team_report_card_navigation_page() -> None:
     """Render the team report card page from the grouped navigation router."""
     from apps import team_report_card
 
-    st.sidebar.caption("Report page")
     team_report_card.render_team_report_card_page()
 
 
 def render_v1_navigation_page() -> None:
     """Render the V1 model page from the grouped navigation router."""
-    st.sidebar.caption("Models page")
     render_v1_dashboard()
 
 
 def render_v2_form_navigation_page() -> None:
     """Render the V2 form model page from the grouped navigation router."""
-    st.sidebar.caption("Models page")
     render_v2_dashboard()
 
 
 def render_v2_probabilities_navigation_page() -> None:
     """Render the V2 probability model page from the grouped navigation router."""
-    st.sidebar.caption("Models page")
     render_v2_probabilities_dashboard()
 
 
 def render_v3_probabilities_navigation_page() -> None:
     """Render the V3 probability model page from the grouped navigation router."""
-    st.sidebar.caption("Models page")
     render_v3_probabilities_dashboard()
 
 
 def render_v4_probabilities_navigation_page() -> None:
     """Render the V4 probability model page from the grouped navigation router."""
-    st.sidebar.caption("Models page")
     render_v4_probabilities_dashboard()
 
 
 def render_v2_backtest_navigation_page() -> None:
     """Render the V2 2022 backtest page from the grouped navigation router."""
-    st.sidebar.caption("Backtest page")
     render_v2_2022_backtest_dashboard()
 
 
 def render_v3_backtest_navigation_page() -> None:
     """Render the V3 2022 backtest page from the grouped navigation router."""
-    st.sidebar.caption("Backtest page")
     render_v3_2022_backtest_dashboard()
 
 
 def render_v4_backtest_navigation_page() -> None:
     """Render the V4 2022 backtest page from the grouped navigation router."""
-    st.sidebar.caption("Backtest page")
     render_v4_2022_backtest_dashboard()
 
 
 def render_v4_rolling_backtest_navigation_page() -> None:
     """Render the V4 rolling backtest page from the grouped navigation router."""
-    st.sidebar.caption("Backtest page")
     render_v4_rolling_backtest_dashboard()

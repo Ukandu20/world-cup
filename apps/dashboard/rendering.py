@@ -45,6 +45,7 @@ from .config import (
 from .data import load_champion_trophy_data_uri
 from .modeling import ensure_dashboard_probability_columns
 
+
 def chart_subtitle(base_label: str, simulation_count: int | None = None) -> str:
     """Return a chart subtitle with an optional simulation-count suffix."""
     if simulation_count is None:
@@ -90,6 +91,14 @@ def render_dashboard_header(
         """,
         unsafe_allow_html=True,
     )
+
+
+def render_filter_bar(title: str | None = "Filters") -> st.delta_generator.DeltaGenerator:
+    """Render a compact in-page filter container and return it for controls."""
+    if title:
+        st.markdown(f'<div class="wc-filter-title">{html.escape(title)}</div>', unsafe_allow_html=True)
+    return st.container(border=True)
+
 
 def shared_css() -> str:
     """Return the shared CSS used by both Streamlit rendering and exported HTML files."""
@@ -365,6 +374,14 @@ def shared_css() -> str:
         height: 0.92rem;
         object-fit: contain;
         vertical-align: middle;
+    }
+    .wc-filter-title {
+        margin: 0.75rem 0 0.25rem;
+        color: #64748b;
+        font-size: 0.76rem;
+        font-weight: 850;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
     }
     .wc-bracket-board {
         display: grid;

@@ -1,8 +1,6 @@
 from pathlib import Path
 import sys
 
-import streamlit as st
-
 
 ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
@@ -17,5 +15,4 @@ render_historical_eda_page = historical_eda.render_historical_eda_page
 
 
 configure_page("Analysis")
-st.sidebar.caption("Analysis companion page")
 render_historical_eda_page()

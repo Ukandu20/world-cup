@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from apps.dashboard.rendering import inject_styles, render_filter_bar  # noqa: E402
 from world_cup_sim.analysis import (  # noqa: E402
     CONFEDERATION_ORDER,
     ERA_LABELS,
@@ -2037,19 +2038,24 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
 
 
 def render_historical_eda_page() -> None:
+    inject_styles()
     st.title("FIFA Men's World Cup Analysis")
     st.caption(
         "An interactive analysis companion which covers the history of the FIFA Men's World Cup"
     )
 
-    lookback = st.sidebar.slider(
-        "Correlation lookback",
-        min_value=2,
-        max_value=10,
-        value=5,
-        step=1,
-        key="historical_eda_lookback",
-    )
+    filter_bar = render_filter_bar()
+    with filter_bar:
+        filter_columns = st.columns(2)
+        with filter_columns[0]:
+            lookback = st.slider(
+                "Correlation lookback",
+                min_value=2,
+                max_value=10,
+                value=5,
+                step=1,
+                key="historical_eda_lookback",
+            )
     (
         quality,
         placement,
@@ -2062,14 +2068,15 @@ def render_historical_eda_page() -> None:
     ) = compute_historical_eda_outputs(lookback=lookback)
     edition_min = int(participation["participating_teams"]["edition"].min())
     edition_max = int(participation["participating_teams"]["edition"].max())
-    edition_range = st.sidebar.slider(
-        "Edition range",
-        min_value=edition_min,
-        max_value=edition_max,
-        value=(edition_min, edition_max),
-        step=4,
-        key="historical_eda_global_edition_range",
-    )
+    with filter_columns[1]:
+        edition_range = st.slider(
+            "Edition range",
+            min_value=edition_min,
+            max_value=edition_max,
+            value=(edition_min, edition_max),
+            step=4,
+            key="historical_eda_global_edition_range",
+        )
 
     with st.expander("Data quality snapshot"):
         st.dataframe(quality, hide_index=True, width="stretch")
