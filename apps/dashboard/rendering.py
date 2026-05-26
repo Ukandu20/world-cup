@@ -828,23 +828,131 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
     kickoff_local_time_label = html.escape(kickoff_details["kickoff_local_time_label"])
     match_label = html.escape(kickoff_details["match_label"])
     return f"""
-    <div style="margin:0 0 0.9rem;">
-      <div style="border:1px solid rgba(191,219,254,0.35);border-radius:22px;padding:22px 24px;background:
-      radial-gradient(circle at top, rgba(96,165,250,0.18), transparent 45%),
-      linear-gradient(135deg,#0f172a 0%,#172554 52%,#1e293b 100%);color:#f8fafc;box-shadow:0 16px 40px rgba(15,23,42,0.24);">
-        <div style="text-align:center;">
-          <div style="font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:#bfdbfe;margin-bottom:0.55rem;font-weight:700;">Countdown To Opening Kickoff</div>
-          <div style="font-size:1.45rem;font-weight:800;line-height:1.2;margin-bottom:0.5rem;">{match_label}</div>
-          <div id="wc-countdown-value" style="font-size:3.1rem;font-weight:900;line-height:1.02;letter-spacing:-0.04em;color:#ffffff;text-shadow:0 6px 24px rgba(147,197,253,0.22);margin:0.15rem 0 0.85rem;">Loading countdown...</div>
+    <style>
+      * {{
+        box-sizing: border-box;
+      }}
+      html,
+      body {{
+        margin: 0;
+        max-width: 100%;
+        overflow: hidden;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }}
+      .wc-countdown-wrap {{
+        margin: 0 0 0.85rem;
+        max-width: 100%;
+        min-width: 0;
+        overflow: hidden;
+      }}
+      .wc-countdown-card {{
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        overflow: hidden;
+        border: 1px solid rgba(191, 219, 254, 0.35);
+        border-radius: 18px;
+        padding: 20px 22px;
+        background:
+          radial-gradient(circle at top, rgba(96, 165, 250, 0.18), transparent 45%),
+          linear-gradient(135deg, #0f172a 0%, #172554 52%, #1e293b 100%);
+        color: #f8fafc;
+        box-shadow: 0 16px 40px rgba(15, 23, 42, 0.22);
+      }}
+      .wc-countdown-main {{
+        min-width: 0;
+        text-align: center;
+      }}
+      .wc-countdown-kicker,
+      .wc-countdown-meta-label {{
+        text-transform: uppercase;
+        color: #bfdbfe;
+        font-weight: 750;
+        overflow-wrap: anywhere;
+      }}
+      .wc-countdown-kicker {{
+        margin-bottom: 0.5rem;
+        font-size: 0.78rem;
+        letter-spacing: 0.08em;
+      }}
+      .wc-countdown-match {{
+        margin-bottom: 0.45rem;
+        color: #f8fafc;
+        font-size: clamp(1.05rem, 4vw, 1.42rem);
+        font-weight: 820;
+        line-height: 1.22;
+        overflow-wrap: anywhere;
+      }}
+      #wc-countdown-value {{
+        margin: 0.15rem 0 0.8rem;
+        color: #ffffff;
+        font-size: clamp(2rem, 8vw, 3rem);
+        font-weight: 900;
+        line-height: 1.08;
+        text-shadow: 0 6px 24px rgba(147, 197, 253, 0.22);
+        overflow-wrap: anywhere;
+      }}
+      .wc-countdown-meta {{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 1rem;
+        min-width: 0;
+        margin-top: 0.55rem;
+        padding-top: 0.85rem;
+        border-top: 1px solid rgba(191, 219, 254, 0.18);
+      }}
+      .wc-countdown-meta-item {{
+        min-width: 0;
+      }}
+      .wc-countdown-meta-item:last-child {{
+        text-align: right;
+      }}
+      .wc-countdown-meta-label {{
+        margin-bottom: 0.2rem;
+        color: #93c5fd;
+        font-size: 0.72rem;
+        letter-spacing: 0.06em;
+      }}
+      .wc-countdown-meta-value {{
+        color: #eff6ff;
+        font-size: 0.98rem;
+        font-weight: 750;
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+      }}
+      @media (max-width: 520px) {{
+        .wc-countdown-card {{
+          border-radius: 14px;
+          padding: 16px;
+        }}
+        .wc-countdown-meta {{
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 0.65rem;
+          align-items: start;
+        }}
+        .wc-countdown-meta-item,
+        .wc-countdown-meta-item:last-child {{
+          text-align: center;
+        }}
+      }}
+    </style>
+    <div class="wc-countdown-wrap">
+      <div class="wc-countdown-card">
+        <div class="wc-countdown-main">
+          <div class="wc-countdown-kicker">Countdown To Opening Kickoff</div>
+          <div class="wc-countdown-match">{match_label}</div>
+          <div id="wc-countdown-value">Loading countdown...</div>
         </div>
-        <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:18px;margin-top:0.55rem;padding-top:0.9rem;border-top:1px solid rgba(191,219,254,0.18);">
-          <div style="text-align:left;">
-            <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#93c5fd;margin-bottom:0.2rem;">Date</div>
-            <div style="font-size:1rem;font-weight:700;color:#eff6ff;">{kickoff_date_label}</div>
+        <div class="wc-countdown-meta">
+          <div class="wc-countdown-meta-item">
+            <div class="wc-countdown-meta-label">Date</div>
+            <div class="wc-countdown-meta-value">{kickoff_date_label}</div>
           </div>
-          <div style="text-align:right;">
-            <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#93c5fd;margin-bottom:0.2rem;">Time [local | UTC]</div>
-            <div style="font-size:1rem;font-weight:700;color:#eff6ff;">{kickoff_local_time_label} | {kickoff_utc_time_label}</div>
+          <div class="wc-countdown-meta-item">
+            <div class="wc-countdown-meta-label">Time [local | UTC]</div>
+            <div class="wc-countdown-meta-value">{kickoff_local_time_label} | {kickoff_utc_time_label}</div>
           </div>
         </div>
       </div>
@@ -877,7 +985,7 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
 def render_countdown_timer(fixtures_df: pd.DataFrame) -> None:
     """Render a live countdown to the first scheduled group-stage kickoff."""
     kickoff_details = get_first_kickoff_details(fixtures_df)
-    st.iframe(build_countdown_html(kickoff_details), height=225)
+    st.iframe(build_countdown_html(kickoff_details), height=235)
 
 
 def format_percent(value: float) -> str:

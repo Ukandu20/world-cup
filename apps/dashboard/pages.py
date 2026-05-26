@@ -226,8 +226,6 @@ def render_v1_dashboard() -> None:
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
     render_dashboard_header(world_cup_logo_data_uri, metadata, simulation_count, title="World Cup 2026 V1")
-    render_countdown_timer(fixtures_df)
-
     st.caption(
         f"Model {MODEL_VERSION}: {MODEL_SUMMARY}. "
         "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "
@@ -385,7 +383,6 @@ def render_v2_dashboard() -> None:
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
     render_dashboard_header(world_cup_logo_data_uri, metadata, simulation_count, title="World Cup 2026 V2")
-    render_countdown_timer(fixtures_df)
     st.caption(
         f"V2 isolates the history-aware model from V1. This page ranks all 48 teams using rating (40%), weighted lead-in form (40%), "
         f"and World Cup history (20%). Form covers the last {form_match_window} Elo-rated matches with component weights: "
@@ -513,7 +510,6 @@ def render_v2_probabilities_dashboard() -> None:
         model_version=V2_MODEL_VERSION,
         model_label=V2_MODEL_LABEL,
     )
-    render_countdown_timer(fixtures_df)
     st.caption(
         f"Legacy comparison model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
         f"The v2 page trains a three-class multinomial regression using `{training_scope}` training data, "
@@ -658,7 +654,6 @@ def render_v3_probabilities_dashboard() -> None:
         model_version=V3_MODEL_VERSION,
         model_label=V3_MODEL_LABEL,
     )
-    render_countdown_timer(fixtures_df)
     st.caption(
         f"Legacy comparison model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
         f"The v3 page trains paired Poisson regressors using `{training_scope}` training data, "
@@ -802,7 +797,6 @@ def render_v4_probabilities_dashboard() -> None:
         model_version=V4_MODEL_VERSION,
         model_label=V4_MODEL_LABEL,
     )
-    render_countdown_timer(fixtures_df)
     st.caption(
         f"Primary model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
         f"V4 is the primary enhanced Poisson model using quadratic last-{form_match_window} form, "
@@ -1371,6 +1365,7 @@ def render_home_page() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     base_df, fixtures_df, lead_in_df, metadata = load_data()
     render_dashboard_header(world_cup_logo_data_uri, metadata, SIMULATION_COUNT, title="World Cup 2026 Projections Dashboard")
+    render_countdown_timer(fixtures_df)
 
     st.markdown(
         """
@@ -1463,8 +1458,6 @@ def render_home_page() -> None:
         """,
         unsafe_allow_html=True,
     )
-
-    render_countdown_timer(fixtures_df)
 
     st.markdown(
         f"""
