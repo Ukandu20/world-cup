@@ -554,6 +554,10 @@ def chart_caption_from_title(title: object) -> str | None:
     return None
 
 
+def chart_axis_title(text: str) -> dict[str, object]:
+    return {"text": text, "font": {"color": CHART_TEXT_COLOR}}
+
+
 def apply_original_chart_style(fig, title: str, height: int = 560):
     title = world_cup_chart_title(title)
     fig.update_layout(
@@ -574,13 +578,19 @@ def apply_original_chart_style(fig, title: str, height: int = 560):
         paper_bgcolor=CHART_BACKGROUND,
         plot_bgcolor=CHART_BACKGROUND,
         legend={"font": {"color": CHART_TEXT_COLOR}, "title": {"font": {"color": CHART_TEXT_COLOR}}},
+        hoverlabel={
+            "bgcolor": CHART_BACKGROUND,
+            "bordercolor": CHART_AXIS_COLOR,
+            "font": {"family": CHART_FONT_FAMILY, "color": CHART_TEXT_COLOR},
+        },
         xaxis={
             "showgrid": False,
             "zeroline": False,
             "linecolor": CHART_AXIS_COLOR,
             "tickcolor": CHART_AXIS_COLOR,
             "tickfont": {"size": 13, "color": CHART_AXIS_COLOR},
-            "title": {"font": {"color": CHART_TEXT_COLOR}},
+            "title": chart_axis_title(str(fig.layout.xaxis.title.text or "")),
+            "title_standoff": 10,
         },
         yaxis={
             "showgrid": True,
@@ -589,7 +599,8 @@ def apply_original_chart_style(fig, title: str, height: int = 560):
             "linecolor": CHART_AXIS_COLOR,
             "tickcolor": CHART_AXIS_COLOR,
             "tickfont": {"size": 13, "color": CHART_AXIS_COLOR},
-            "title": {"font": {"color": CHART_TEXT_COLOR}},
+            "title": chart_axis_title(str(fig.layout.yaxis.title.text or "")),
+            "title_standoff": 10,
         },
     )
     fig.add_annotation(
@@ -619,8 +630,16 @@ def render_column_plotly_chart(column, fig, caption: str | None = None, key: str
         font={"size": 10, "color": CHART_TEXT_COLOR},
         legend={"font": {"size": 9, "color": CHART_TEXT_COLOR}},
     )
-    fig.update_xaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
-    fig.update_yaxes(tickfont={"size": 10, "color": CHART_AXIS_COLOR}, title_standoff=8)
+    fig.update_xaxes(
+        tickfont={"size": 10, "color": CHART_AXIS_COLOR},
+        title={"font": {"color": CHART_TEXT_COLOR}},
+        title_standoff=8,
+    )
+    fig.update_yaxes(
+        tickfont={"size": 10, "color": CHART_AXIS_COLOR},
+        title={"font": {"color": CHART_TEXT_COLOR}},
+        title_standoff=8,
+    )
     column.plotly_chart(fig, width="stretch", config=PLOTLY_EXPORT_CONFIG, key=key)
     resolved_caption = caption or chart_caption_from_title(fig.layout.title.text)
     if resolved_caption:
@@ -1217,7 +1236,7 @@ def render_participation_tab(
     )
     placement_fig.update_yaxes(
         autorange="reversed",
-        title="Placement",
+        title=chart_axis_title("Placement"),
         tickmode="array",
         tickvals=placement_ticks["position"].tolist(),
         ticktext=placement_ticks["placement_label"].tolist(),
@@ -1653,9 +1672,9 @@ def render_winner_followup_tab(
     fig.update_yaxes(
         categoryorder="array",
         categoryarray=list(reversed(placement_order)),
-        title="Following Edition Placement",
+        title=chart_axis_title("Following Edition Placement"),
     )
-    fig.update_xaxes(title="Tournament Edition", tickangle=45)
+    fig.update_xaxes(title=chart_axis_title("Tournament Edition"), tickangle=45)
     set_edition_ticks(fig, winners, tickangle=45)
     render_plotly_chart(fig, key="historical_eda_winner_followup")
     st.dataframe(winners, hide_index=True, width="stretch")

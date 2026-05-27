@@ -804,6 +804,58 @@ def report_card_css() -> str:
     .block-container {
         background: var(--trc-bg);
     }
+    [data-testid="stExpander"] {
+        border: 1px solid var(--trc-line);
+        border-radius: 8px;
+        background: var(--trc-surface);
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.05);
+    }
+    [data-testid="stExpander"] details {
+        border: none;
+    }
+    [data-testid="stExpander"] summary {
+        display: flex;
+        align-items: center;
+        gap: 0.55rem;
+        background: var(--trc-surface-strong);
+        color: var(--trc-text);
+        border-radius: 8px 8px 0 0;
+        font-family: Gill Sans, Inter, sans-serif;
+        font-weight: 800;
+        min-height: 2.65rem;
+        padding: 0.7rem 1rem;
+    }
+    [data-testid="stExpander"] summary svg {
+        color: var(--trc-muted);
+        flex: 0 0 auto;
+    }
+    [data-testid="stExpander"] summary p {
+        margin: 0;
+        color: var(--trc-text);
+        font-family: Gill Sans, Inter, sans-serif;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+    [data-testid="stExpander"] label,
+    [data-testid="stExpander"] p {
+        color: var(--trc-text);
+        font-family: Gill Sans, Inter, sans-serif;
+    }
+    [data-testid="stExpander"] [role="radiogroup"] label {
+        color: var(--trc-muted);
+        font-weight: 700;
+    }
+    [data-testid="stExpander"] [role="radiogroup"] label:has(input:checked) {
+        color: var(--trc-text);
+    }
+    [data-testid="stExpander"] [data-baseweb="slider"] div {
+        color: var(--trc-text);
+    }
+    [data-testid="stExpander"] [data-baseweb="select"] > div {
+        background: var(--trc-surface-strong);
+        border-color: var(--trc-muted);
+        color: var(--trc-text);
+    }
     .trc-shell {
         display: grid;
         gap: 18px;
@@ -889,7 +941,7 @@ def report_card_css() -> str:
     .trc-facts {
         margin-top: 18px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 12px;
     }
     .trc-fact {
@@ -912,7 +964,7 @@ def report_card_css() -> str:
     }
     .trc-subject-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 14px;
     }
     .trc-subject-card, .trc-pending-card {
@@ -965,7 +1017,7 @@ def report_card_css() -> str:
     }
     .trc-kpi-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 10px;
         margin: 10px 0 18px;
     }
@@ -1005,6 +1057,20 @@ def report_card_css() -> str:
     }
     .stTabs [data-baseweb="tab-highlight"] {
         background-color: var(--trc-muted);
+    }
+    @media (max-width: 1200px) {
+        .trc-facts,
+        .trc-subject-grid,
+        .trc-kpi-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+    @media (max-width: 700px) {
+        .trc-facts,
+        .trc-subject-grid,
+        .trc-kpi-grid {
+            grid-template-columns: 1fr;
+        }
     }
     """
 
