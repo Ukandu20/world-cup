@@ -12,6 +12,7 @@ from apps.dashboard.simulation_store import (
     artifact_dir,
     artifact_key,
     load_artifact,
+    load_official_artifact,
     save_artifact,
 )
 from scripts import prewarm_dashboard_simulations
@@ -133,6 +134,34 @@ def test_load_artifact_prefers_runtime_and_ignores_corrupt_official(tmp_path, mo
     assert loaded.artifact.dashboard_df.iloc[0]["team_id"] == "ARG"
 
 
+def test_load_official_artifact_ignores_runtime_cache(tmp_path, monkeypatch) -> None:
+    import apps.dashboard.simulation_store as store
+
+    monkeypatch.setattr(store, "OFFICIAL_ARTIFACT_ROOT", tmp_path / "official")
+    monkeypatch.setattr(store, "RUNTIME_ARTIFACT_ROOT", tmp_path / "runtime")
+    settings = make_settings(model_id="v4", model_version="v4")
+    save_artifact(
+        settings,
+        pd.DataFrame([{"team_id": "RUN", "prob_1": 1.0}]),
+        {"rounds": []},
+        {"created_by": "runtime"},
+        tier="runtime",
+    )
+    save_artifact(
+        settings,
+        pd.DataFrame([{"team_id": "OFF", "prob_1": 1.0}]),
+        {"rounds": []},
+        {"created_by": "official"},
+        tier="official",
+    )
+
+    loaded = load_official_artifact(settings)
+
+    assert loaded.artifact is not None
+    assert loaded.artifact.source == "official"
+    assert loaded.artifact.dashboard_df.iloc[0]["team_id"] == "OFF"
+
+
 def test_probability_pages_are_wired_to_artifact_loader() -> None:
     v2_page_text = inspect.getsource(pages.render_v2_probabilities_dashboard)
     page_text = inspect.getsource(pages.render_v3_probabilities_dashboard)
@@ -148,14 +177,18 @@ def test_probability_pages_are_wired_to_artifact_loader() -> None:
 
 
 def test_report_cards_use_primary_v4_artifact_path() -> None:
+    settings_source = inspect.getsource(team_report_card.official_report_card_settings)
     dataset_source = inspect.getsource(team_report_card.build_report_card_dataset)
     page_source = inspect.getsource(team_report_card.render_team_report_card_page)
 
-    assert "ArtifactSettings" in dataset_source
-    assert "load_or_create_artifact" in dataset_source
-    assert "build_v4_probability_artifact" in dataset_source
-    assert "PRIMARY_MODEL" in dataset_source
-    assert "primary V4 enhanced Poisson model" in page_source
+    assert "ArtifactSettings" in settings_source
+    assert "default_simulation_settings" in settings_source
+    assert "load_official_artifact" in dataset_source
+    assert "load_or_create_artifact" not in dataset_source
+    assert "build_v4_probability_artifact" not in dataset_source
+    assert "PRIMARY_MODEL" in settings_source
+    assert "official primary V4 enhanced Poisson model projection" in page_source
+    assert "render_filter_bar" not in page_source
     assert "home.V3_MODEL_VERSION" not in page_source
 
 

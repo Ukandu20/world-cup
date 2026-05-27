@@ -169,6 +169,20 @@ def load_artifact(settings: ArtifactSettings) -> ArtifactLoadResult:
     return ArtifactLoadResult(artifact=None, warnings=tuple(warnings))
 
 
+def load_official_artifact(settings: ArtifactSettings) -> ArtifactLoadResult:
+    """Load the matching official artifact without falling back to runtime caches."""
+    directory = artifact_dir(settings, "official")
+    if not directory.exists():
+        return ArtifactLoadResult(artifact=None)
+    try:
+        return ArtifactLoadResult(artifact=_load_from_directory(directory, "official"))
+    except Exception as exc:  # noqa: BLE001 - cache corruption should not break the app
+        return ArtifactLoadResult(
+            artifact=None,
+            warnings=(f"Ignored corrupt official simulation artifact at {directory}: {exc}",),
+        )
+
+
 def save_artifact(
     settings: ArtifactSettings,
     dashboard_df: pd.DataFrame,
