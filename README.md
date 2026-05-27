@@ -39,7 +39,7 @@ The historical EDA layer connects tournament outcomes to interpretable signals s
 
 ## Data Sources
 
-- [`jfjelstul/worldcup`](https://github.com/jfjelstul/worldcup): historical World Cup match, team, squad, placement, and tournament-structure reference data.
+- [`Fjelstul, Joshua C. "The Fjelstul World Cup Database v.1.2.0." July 19, 2023`](https://github.com/jfjelstul/worldcup): historical World Cup match, team, squad, placement, and tournament-structure reference data.
 - [Kaggle: FIFA World Cup Complete History 1930-2022](https://www.kaggle.com/datasets/mafaqbhatti/fifa-world-cup-complete-history-19302022): historical World Cup summaries and EDA inputs.
 - [Kaggle: International Football Results from 1872](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017): international match results, goalscorers, shootouts, and former-name data used for lead-in form and model training.
 - [World Football Elo Ratings](https://eloratings.net/): Elo snapshots, Elo changes, and team-strength signals.
