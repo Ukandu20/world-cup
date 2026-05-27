@@ -89,6 +89,7 @@ from .rendering import (
     render_bracket,
     render_countdown_timer,
     render_dashboard_header,
+    render_filter_bar,
     render_tables,
     team_metadata_lookup,
 )
@@ -205,19 +206,27 @@ def render_v1_dashboard() -> None:
     current_settings = dict(st.session_state[V1_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v1_simulation_label",
+    initial_simulation_label = str(st.session_state.get("v1_simulation_label", current_settings["simulation_label"]))
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2026 V1",
     )
-    view_mode = st.radio("View", V1_VIEW_OPTIONS, horizontal=True, key="v1_view_mode")
-    selected_group = (
-        st.selectbox("Group", GROUP_ORDER, index=0, key="v1_selected_group")
-        if view_mode == "Single group"
-        else GROUP_ORDER[0]
-    )
+    with render_filter_bar():
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v1_simulation_label",
+        )
+        view_mode = st.radio("View", V1_VIEW_OPTIONS, horizontal=True, key="v1_view_mode")
+        selected_group = (
+            st.selectbox("Group", GROUP_ORDER, index=0, key="v1_selected_group")
+            if view_mode == "Single group"
+            else GROUP_ORDER[0]
+        )
 
     st.session_state[V1_STATE_KEY] = {
         "simulation_label": simulation_label,
@@ -225,7 +234,6 @@ def render_v1_dashboard() -> None:
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
-    render_dashboard_header(world_cup_logo_data_uri, metadata, simulation_count, title="World Cup 2026 V1")
     st.caption(
         f"Model {MODEL_VERSION}: {MODEL_SUMMARY}. "
         "Probabilities come from a fixture-by-fixture group simulation using the real 2026 schedule, "
@@ -307,71 +315,80 @@ def render_v2_dashboard() -> None:
     current_settings = dict(st.session_state[V2_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v2_simulation_label",
+    initial_simulation_label = str(st.session_state.get("v2_simulation_label", current_settings["simulation_label"]))
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2026 V2",
     )
-    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
-    form_match_window = int(
-        st.slider(
-            "Last k matches",
-            min_value=FORM_WINDOW_MIN,
-            max_value=FORM_WINDOW_MAX,
-            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
-            key="v2_form_match_window",
+    filter_bar = render_filter_bar()
+    with filter_bar:
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v2_simulation_label",
         )
-    )
-    weight_cols = st.columns(4)
-    with weight_cols[0]:
-        results_weight = int(
+        form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+        form_match_window = int(
             st.slider(
-                "Results weight",
-                min_value=0,
-                max_value=100,
-                value=int(current_settings.get("v2_results_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[0] * 100)))),
-                key="v2_results_weight",
+                "Last k matches",
+                min_value=FORM_WINDOW_MIN,
+                max_value=FORM_WINDOW_MAX,
+                value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+                key="v2_form_match_window",
             )
         )
-    with weight_cols[1]:
-        gd_weight = int(
-            st.slider(
-                "GD weight",
-                min_value=0,
-                max_value=100,
-                value=int(current_settings.get("v2_gd_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[1] * 100)))),
-                key="v2_gd_weight",
+        weight_cols = st.columns(4)
+        with weight_cols[0]:
+            results_weight = int(
+                st.slider(
+                    "Results weight",
+                    min_value=0,
+                    max_value=100,
+                    value=int(current_settings.get("v2_results_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[0] * 100)))),
+                    key="v2_results_weight",
+                )
             )
-        )
-    with weight_cols[2]:
-        perf_weight = int(
-            st.slider(
-                "PoE weight",
-                min_value=0,
-                max_value=100,
-                value=int(current_settings.get("v2_perf_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[2] * 100)))),
-                key="v2_perf_weight",
+        with weight_cols[1]:
+            gd_weight = int(
+                st.slider(
+                    "GD weight",
+                    min_value=0,
+                    max_value=100,
+                    value=int(current_settings.get("v2_gd_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[1] * 100)))),
+                    key="v2_gd_weight",
+                )
             )
-        )
-    with weight_cols[3]:
-        elo_delta_weight = int(
-            st.slider(
-                "Elo-delta weight",
-                min_value=0,
-                max_value=100,
-                value=int(current_settings.get("v2_elo_delta_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[3] * 100)))),
-                key="v2_elo_delta_weight",
+        with weight_cols[2]:
+            perf_weight = int(
+                st.slider(
+                    "PoE weight",
+                    min_value=0,
+                    max_value=100,
+                    value=int(current_settings.get("v2_perf_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[2] * 100)))),
+                    key="v2_perf_weight",
+                )
             )
-        )
+        with weight_cols[3]:
+            elo_delta_weight = int(
+                st.slider(
+                    "Elo-delta weight",
+                    min_value=0,
+                    max_value=100,
+                    value=int(current_settings.get("v2_elo_delta_weight", int(round(WEIGHTED_FORM_COMPOSITE_WEIGHTS[3] * 100)))),
+                    key="v2_elo_delta_weight",
+                )
+            )
+        view_mode = st.radio("View", V2_VIEW_OPTIONS, horizontal=True, key="v2_view_mode")
     form_composite_weights = (
         results_weight,
         gd_weight,
         perf_weight,
         elo_delta_weight,
     )
-    view_mode = st.radio("View", V2_VIEW_OPTIONS, horizontal=True, key="v2_view_mode")
     st.session_state[V2_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
@@ -382,7 +399,6 @@ def render_v2_dashboard() -> None:
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
-    render_dashboard_header(world_cup_logo_data_uri, metadata, simulation_count, title="World Cup 2026 V2")
     st.caption(
         f"V2 isolates the history-aware model from V1. This page ranks all 48 teams using rating (40%), weighted lead-in form (40%), "
         f"and World Cup history (20%). Form covers the last {form_match_window} Elo-rated matches with component weights: "
@@ -398,16 +414,17 @@ def render_v2_dashboard() -> None:
             form_composite_weights=form_composite_weights,
         )
     available_confederations = ordered_confederations(form_df)
-    selected_confederation = (
-        st.selectbox(
-            "Confederation",
-            available_confederations,
-            index=0,
-            key="v2_selected_confederation",
+    with filter_bar:
+        selected_confederation = (
+            st.selectbox(
+                "Confederation",
+                available_confederations,
+                index=0,
+                key="v2_selected_confederation",
+            )
+            if view_mode == "Single confederation" and available_confederations
+            else ""
         )
-        if view_mode == "Single confederation" and available_confederations
-        else ""
-    )
     tables = current_form_view_tables(
         form_df,
         view_mode,
@@ -460,40 +477,51 @@ def render_v2_probabilities_dashboard() -> None:
     current_settings = dict(st.session_state[V2_PROB_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v2_prob_simulation_label",
+    initial_simulation_label = str(st.session_state.get("v2_prob_simulation_label", current_settings["simulation_label"]))
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2026 V2 Probabilities",
+        model_version=V2_MODEL_VERSION,
+        model_label=V2_MODEL_LABEL,
     )
-    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
-    form_match_window = int(
-        st.slider(
-            "Last k matches",
-            min_value=FORM_WINDOW_MIN,
-            max_value=FORM_WINDOW_MAX,
-            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
-            key="v2_prob_form_match_window",
+    with render_filter_bar("Model Filters"):
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v2_prob_simulation_label",
         )
-    )
-    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V2_TRAINING_SCOPE))
-    training_scope_label = st.radio(
-        "Training data",
-        tuple(TRAINING_SCOPE_LABELS.keys()),
-        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
-        ),
-        horizontal=True,
-        key="v2_prob_training_scope",
-    )
-    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
-    view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v2_prob_view_mode")
-    selected_group = (
-        st.selectbox("Group", GROUP_ORDER, index=0, key="v2_prob_selected_group")
-        if view_mode == "Single group"
-        else GROUP_ORDER[0]
-    )
+        form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+        form_match_window = int(
+            st.slider(
+                "Last k matches",
+                min_value=FORM_WINDOW_MIN,
+                max_value=FORM_WINDOW_MAX,
+                value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+                key="v2_prob_form_match_window",
+            )
+        )
+        current_training_scope = str(current_settings.get("training_scope", DEFAULT_V2_TRAINING_SCOPE))
+        training_scope_label = st.radio(
+            "Training data",
+            tuple(TRAINING_SCOPE_LABELS.keys()),
+            index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
+            ),
+            horizontal=True,
+            key="v2_prob_training_scope",
+        )
+        training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
+        view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v2_prob_view_mode")
+        selected_group = (
+            st.selectbox("Group", GROUP_ORDER, index=0, key="v2_prob_selected_group")
+            if view_mode == "Single group"
+            else GROUP_ORDER[0]
+        )
+        rerun_simulations = st.button("Rerun V2 simulations", key="v2_prob_rerun_simulations")
 
     st.session_state[V2_PROB_STATE_KEY] = {
         "simulation_label": simulation_label,
@@ -502,14 +530,6 @@ def render_v2_probabilities_dashboard() -> None:
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
-    render_dashboard_header(
-        world_cup_logo_data_uri,
-        metadata,
-        simulation_count,
-        title="World Cup 2026 V2 Probabilities",
-        model_version=V2_MODEL_VERSION,
-        model_label=V2_MODEL_LABEL,
-    )
     st.caption(
         f"Legacy comparison model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
         f"The v2 page trains a three-class multinomial regression using `{training_scope}` training data, "
@@ -517,7 +537,6 @@ def render_v2_probabilities_dashboard() -> None:
         "and prior-5-edition World Cup history features. Knockout draws are interpreted using the local historical file semantics: "
         "level before penalties, then resolved by the model's non-draw split."
     )
-    rerun_simulations = st.button("Rerun V2 simulations", key="v2_prob_rerun_simulations")
     artifact_settings = ArtifactSettings(
         model_id="v2",
         model_version=V2_MODEL_VERSION,
@@ -604,40 +623,51 @@ def render_v3_probabilities_dashboard() -> None:
     current_settings = dict(st.session_state[V3_PROB_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v3_prob_simulation_label",
+    initial_simulation_label = str(st.session_state.get("v3_prob_simulation_label", current_settings["simulation_label"]))
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2026 V3 Probabilities",
+        model_version=V3_MODEL_VERSION,
+        model_label=V3_MODEL_LABEL,
     )
-    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
-    form_match_window = int(
-        st.slider(
-            "Last k matches",
-            min_value=FORM_WINDOW_MIN,
-            max_value=FORM_WINDOW_MAX,
-            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
-            key="v3_prob_form_match_window",
+    with render_filter_bar("Model Filters"):
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v3_prob_simulation_label",
         )
-    )
-    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V3_TRAINING_SCOPE))
-    training_scope_label = st.radio(
-        "Training data",
-        tuple(TRAINING_SCOPE_LABELS.keys()),
-        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
-        ),
-        horizontal=True,
-        key="v3_prob_training_scope",
-    )
-    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
-    view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v3_prob_view_mode")
-    selected_group = (
-        st.selectbox("Group", GROUP_ORDER, index=0, key="v3_prob_selected_group")
-        if view_mode == "Single group"
-        else GROUP_ORDER[0]
-    )
+        form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+        form_match_window = int(
+            st.slider(
+                "Last k matches",
+                min_value=FORM_WINDOW_MIN,
+                max_value=FORM_WINDOW_MAX,
+                value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+                key="v3_prob_form_match_window",
+            )
+        )
+        current_training_scope = str(current_settings.get("training_scope", DEFAULT_V3_TRAINING_SCOPE))
+        training_scope_label = st.radio(
+            "Training data",
+            tuple(TRAINING_SCOPE_LABELS.keys()),
+            index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+            ),
+            horizontal=True,
+            key="v3_prob_training_scope",
+        )
+        training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
+        view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v3_prob_view_mode")
+        selected_group = (
+            st.selectbox("Group", GROUP_ORDER, index=0, key="v3_prob_selected_group")
+            if view_mode == "Single group"
+            else GROUP_ORDER[0]
+        )
+        rerun_simulations = st.button("Rerun V3 simulations", key="v3_prob_rerun_simulations")
 
     st.session_state[V3_PROB_STATE_KEY] = {
         "simulation_label": simulation_label,
@@ -646,21 +676,12 @@ def render_v3_probabilities_dashboard() -> None:
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
-    render_dashboard_header(
-        world_cup_logo_data_uri,
-        metadata,
-        simulation_count,
-        title="World Cup 2026 V3 Probabilities",
-        model_version=V3_MODEL_VERSION,
-        model_label=V3_MODEL_LABEL,
-    )
     st.caption(
         f"Legacy comparison model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
         f"The v3 page trains paired Poisson regressors using `{training_scope}` training data, "
         f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "prior-5-edition World Cup pedigree, competition-importance weighting, and host flags for Canada, Mexico, and the United States."
     )
-    rerun_simulations = st.button("Rerun V3 simulations", key="v3_prob_rerun_simulations")
     artifact_settings = ArtifactSettings(
         model_id="v3",
         model_version=V3_MODEL_VERSION,
@@ -747,40 +768,51 @@ def render_v4_probabilities_dashboard() -> None:
     current_settings = dict(st.session_state[V4_PROB_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v4_prob_simulation_label",
+    initial_simulation_label = str(st.session_state.get("v4_prob_simulation_label", current_settings["simulation_label"]))
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2026 V4 Probabilities",
+        model_version=V4_MODEL_VERSION,
+        model_label=V4_MODEL_LABEL,
     )
-    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
-    form_match_window = int(
-        st.slider(
-            "Last k matches",
-            min_value=FORM_WINDOW_MIN,
-            max_value=FORM_WINDOW_MAX,
-            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
-            key="v4_prob_form_match_window",
+    with render_filter_bar("Model Filters"):
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v4_prob_simulation_label",
         )
-    )
-    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V4_TRAINING_SCOPE))
-    training_scope_label = st.radio(
-        "Training data",
-        tuple(TRAINING_SCOPE_LABELS.keys()),
-        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
-        ),
-        horizontal=True,
-        key="v4_prob_training_scope",
-    )
-    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
-    view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v4_prob_view_mode")
-    selected_group = (
-        st.selectbox("Group", GROUP_ORDER, index=0, key="v4_prob_selected_group")
-        if view_mode == "Single group"
-        else GROUP_ORDER[0]
-    )
+        form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+        form_match_window = int(
+            st.slider(
+                "Last k matches",
+                min_value=FORM_WINDOW_MIN,
+                max_value=FORM_WINDOW_MAX,
+                value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+                key="v4_prob_form_match_window",
+            )
+        )
+        current_training_scope = str(current_settings.get("training_scope", DEFAULT_V4_TRAINING_SCOPE))
+        training_scope_label = st.radio(
+            "Training data",
+            tuple(TRAINING_SCOPE_LABELS.keys()),
+            index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+            ),
+            horizontal=True,
+            key="v4_prob_training_scope",
+        )
+        training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
+        view_mode = st.radio("View", V2_PROB_VIEW_OPTIONS, horizontal=True, key="v4_prob_view_mode")
+        selected_group = (
+            st.selectbox("Group", GROUP_ORDER, index=0, key="v4_prob_selected_group")
+            if view_mode == "Single group"
+            else GROUP_ORDER[0]
+        )
+        rerun_simulations = st.button("Rerun V4 simulations", key="v4_prob_rerun_simulations")
 
     st.session_state[V4_PROB_STATE_KEY] = {
         "simulation_label": simulation_label,
@@ -789,21 +821,12 @@ def render_v4_probabilities_dashboard() -> None:
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
-    render_dashboard_header(
-        world_cup_logo_data_uri,
-        metadata,
-        simulation_count,
-        title="World Cup 2026 V4 Probabilities",
-        model_version=V4_MODEL_VERSION,
-        model_label=V4_MODEL_LABEL,
-    )
     st.caption(
         f"Primary model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
         f"V4 is the primary enhanced Poisson model using quadratic last-{form_match_window} form, "
         "World Cup last-5 goal history, Dixon-Coles low-score correction, stage lambda multipliers, "
         f"and `{training_scope}` training data."
     )
-    rerun_simulations = st.button("Rerun V4 simulations", key="v4_prob_rerun_simulations")
     artifact_settings = ArtifactSettings(
         model_id="v4",
         model_version=V4_MODEL_VERSION,
@@ -880,34 +903,46 @@ def render_v2_2022_backtest_dashboard() -> None:
     current_settings = dict(st.session_state[V2_BACKTEST_2022_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v2_backtest_2022_simulation_label",
+    initial_simulation_label = str(
+        st.session_state.get("v2_backtest_2022_simulation_label", current_settings["simulation_label"])
     )
-    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
-    form_match_window = int(
-        st.slider(
-            "Last k matches",
-            min_value=FORM_WINDOW_MIN,
-            max_value=FORM_WINDOW_MAX,
-            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
-            key="v2_backtest_2022_form_match_window",
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2022 V2 Backtest",
+        model_version=V2_MODEL_VERSION,
+        model_label=V2_MODEL_LABEL,
+    )
+    with render_filter_bar("Model Filters"):
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v2_backtest_2022_simulation_label",
         )
-    )
-    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V2_TRAINING_SCOPE))
-    training_scope_label = st.radio(
-        "Training data",
-        tuple(TRAINING_SCOPE_LABELS.keys()),
-        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
-        ),
-        horizontal=True,
-        key="v2_backtest_2022_training_scope",
-    )
-    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
+        form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+        form_match_window = int(
+            st.slider(
+                "Last k matches",
+                min_value=FORM_WINDOW_MIN,
+                max_value=FORM_WINDOW_MAX,
+                value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+                key="v2_backtest_2022_form_match_window",
+            )
+        )
+        current_training_scope = str(current_settings.get("training_scope", DEFAULT_V2_TRAINING_SCOPE))
+        training_scope_label = st.radio(
+            "Training data",
+            tuple(TRAINING_SCOPE_LABELS.keys()),
+            index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
+            ),
+            horizontal=True,
+            key="v2_backtest_2022_training_scope",
+        )
+        training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
     st.session_state[V2_BACKTEST_2022_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
@@ -915,14 +950,6 @@ def render_v2_2022_backtest_dashboard() -> None:
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
-    render_dashboard_header(
-        world_cup_logo_data_uri,
-        metadata,
-        simulation_count,
-        title="World Cup 2022 V2 Backtest",
-        model_version=V2_MODEL_VERSION,
-        model_label=V2_MODEL_LABEL,
-    )
     st.caption(
         f"Model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
         f"This page trains the V2 multinomial model with 2022 excluded from training using `{training_scope}`, then backtests the actual 2022 World Cup "
@@ -1046,34 +1073,46 @@ def render_v3_2022_backtest_dashboard() -> None:
     current_settings = dict(st.session_state[V3_BACKTEST_2022_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v3_backtest_2022_simulation_label",
+    initial_simulation_label = str(
+        st.session_state.get("v3_backtest_2022_simulation_label", current_settings["simulation_label"])
     )
-    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
-    form_match_window = int(
-        st.slider(
-            "Last k matches",
-            min_value=FORM_WINDOW_MIN,
-            max_value=FORM_WINDOW_MAX,
-            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
-            key="v3_backtest_2022_form_match_window",
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2022 V3 Backtest",
+        model_version=V3_MODEL_VERSION,
+        model_label=V3_MODEL_LABEL,
+    )
+    with render_filter_bar("Model Filters"):
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v3_backtest_2022_simulation_label",
         )
-    )
-    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V3_TRAINING_SCOPE))
-    training_scope_label = st.radio(
-        "Training data",
-        tuple(TRAINING_SCOPE_LABELS.keys()),
-        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
-        ),
-        horizontal=True,
-        key="v3_backtest_2022_training_scope",
-    )
-    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
+        form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
+        form_match_window = int(
+            st.slider(
+                "Last k matches",
+                min_value=FORM_WINDOW_MIN,
+                max_value=FORM_WINDOW_MAX,
+                value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, form_match_window)),
+                key="v3_backtest_2022_form_match_window",
+            )
+        )
+        current_training_scope = str(current_settings.get("training_scope", DEFAULT_V3_TRAINING_SCOPE))
+        training_scope_label = st.radio(
+            "Training data",
+            tuple(TRAINING_SCOPE_LABELS.keys()),
+            index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+            ),
+            horizontal=True,
+            key="v3_backtest_2022_training_scope",
+        )
+        training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
     st.session_state[V3_BACKTEST_2022_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
@@ -1081,14 +1120,6 @@ def render_v3_2022_backtest_dashboard() -> None:
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
-    render_dashboard_header(
-        world_cup_logo_data_uri,
-        metadata,
-        simulation_count,
-        title="World Cup 2022 V3 Backtest",
-        model_version=V3_MODEL_VERSION,
-        model_label=V3_MODEL_LABEL,
-    )
     st.caption(
         f"Model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
         f"This page trains the V3 Poisson goal model using `{training_scope}` through the eve of the 2022 World Cup, "
@@ -1216,33 +1247,45 @@ def render_v4_2022_backtest_dashboard() -> None:
     current_settings = dict(st.session_state[V4_BACKTEST_2022_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v4_backtest_2022_simulation_label",
+    initial_simulation_label = str(
+        st.session_state.get("v4_backtest_2022_simulation_label", current_settings["simulation_label"])
     )
-    form_match_window = int(
-        st.slider(
-            "Last k matches",
-            min_value=FORM_WINDOW_MIN,
-            max_value=FORM_WINDOW_MAX,
-            value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW)))),
-            key="v4_backtest_2022_form_match_window",
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2022 V4 Backtest",
+        model_version=V4_MODEL_VERSION,
+        model_label=V4_MODEL_LABEL,
+    )
+    with render_filter_bar("Model Filters"):
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v4_backtest_2022_simulation_label",
         )
-    )
-    current_training_scope = str(current_settings.get("training_scope", DEFAULT_V4_TRAINING_SCOPE))
-    training_scope_label = st.radio(
-        "Training data",
-        tuple(TRAINING_SCOPE_LABELS.keys()),
-        index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-            TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
-        ),
-        horizontal=True,
-        key="v4_backtest_2022_training_scope",
-    )
-    training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
+        form_match_window = int(
+            st.slider(
+                "Last k matches",
+                min_value=FORM_WINDOW_MIN,
+                max_value=FORM_WINDOW_MAX,
+                value=max(FORM_WINDOW_MIN, min(FORM_WINDOW_MAX, int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW)))),
+                key="v4_backtest_2022_form_match_window",
+            )
+        )
+        current_training_scope = str(current_settings.get("training_scope", DEFAULT_V4_TRAINING_SCOPE))
+        training_scope_label = st.radio(
+            "Training data",
+            tuple(TRAINING_SCOPE_LABELS.keys()),
+            index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+            ),
+            horizontal=True,
+            key="v4_backtest_2022_training_scope",
+        )
+        training_scope = TRAINING_SCOPE_LABELS[training_scope_label]
     st.session_state[V4_BACKTEST_2022_STATE_KEY] = {
         "simulation_label": simulation_label,
         "form_match_window": form_match_window,
@@ -1250,14 +1293,6 @@ def render_v4_2022_backtest_dashboard() -> None:
     }
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
-    render_dashboard_header(
-        world_cup_logo_data_uri,
-        metadata,
-        simulation_count,
-        title="World Cup 2022 V4 Backtest",
-        model_version=V4_MODEL_VERSION,
-        model_label=V4_MODEL_LABEL,
-    )
     st.caption(
         f"Model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
         "This V4 holdout uses quadratic form, Dixon-Coles probabilities, stage effects, and time-decayed training weights."
@@ -1324,13 +1359,23 @@ def render_v4_rolling_backtest_dashboard() -> None:
     current_settings = dict(st.session_state[V4_ROLLING_BACKTEST_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    simulation_label = st.radio(
-        "Simulation runs",
-        simulation_labels,
-        index=simulation_labels.index(current_settings["simulation_label"]),
-        horizontal=True,
-        key="v4_rolling_simulation_label",
+    initial_simulation_label = str(st.session_state.get("v4_rolling_simulation_label", current_settings["simulation_label"]))
+    render_dashboard_header(
+        world_cup_logo_data_uri,
+        metadata,
+        SIMULATION_OPTIONS[initial_simulation_label],
+        title="V4 Rolling Backtest",
+        model_version=V4_MODEL_VERSION,
+        model_label=V4_MODEL_LABEL,
     )
+    with render_filter_bar("Model Filters"):
+        simulation_label = st.radio(
+            "Simulation runs",
+            simulation_labels,
+            index=simulation_labels.index(current_settings["simulation_label"]),
+            horizontal=True,
+            key="v4_rolling_simulation_label",
+        )
     form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
     training_scope = DEFAULT_V4_TRAINING_SCOPE
     simulation_count = SIMULATION_OPTIONS[simulation_label]
@@ -1339,14 +1384,6 @@ def render_v4_rolling_backtest_dashboard() -> None:
         "form_match_window": form_match_window,
         "training_scope": training_scope,
     }
-    render_dashboard_header(
-        world_cup_logo_data_uri,
-        metadata,
-        simulation_count,
-        title="V4 Rolling Backtest",
-        model_version=V4_MODEL_VERSION,
-        model_label=V4_MODEL_LABEL,
-    )
     with st.spinner(f"Running V4 rolling backtest with {simulation_count:,} simulations..."):
         backtest = run_v4_rolling_backtest_dashboard(
             simulations=simulation_count,

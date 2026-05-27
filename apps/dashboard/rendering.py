@@ -93,11 +93,9 @@ def render_dashboard_header(
     )
 
 
-def render_filter_bar(title: str | None = "Filters") -> st.delta_generator.DeltaGenerator:
-    """Render a compact in-page filter container and return it for controls."""
-    if title:
-        st.markdown(f'<div class="wc-filter-title">{html.escape(title)}</div>', unsafe_allow_html=True)
-    return st.container(border=True)
+def render_filter_bar(title: str = "Filters", expanded: bool = True) -> st.delta_generator.DeltaGenerator:
+    """Render a compact expandable in-page filter container."""
+    return st.expander(title, expanded=expanded)
 
 
 def shared_css() -> str:
@@ -117,7 +115,7 @@ def shared_css() -> str:
         min-width: 100%;
     }
     .block-container {
-        padding-top: 1.5rem;
+        padding-top: 4.25rem;
         padding-bottom: 2rem;
     }
     .wc-export-page {
@@ -345,7 +343,7 @@ def shared_css() -> str:
         height: 1.45rem;
     }
     .wc-header {
-        margin-bottom: 1.2rem;
+        margin-bottom: 0.85rem;
     }
     .wc-header-bar {
         display: flex;
@@ -375,13 +373,8 @@ def shared_css() -> str:
         object-fit: contain;
         vertical-align: middle;
     }
-    .wc-filter-title {
-        margin: 0.75rem 0 0.25rem;
-        color: #64748b;
-        font-size: 0.76rem;
-        font-weight: 850;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
+    [data-testid="stExpander"] {
+        margin: 0.25rem 0 1rem;
     }
     .wc-bracket-board {
         display: grid;

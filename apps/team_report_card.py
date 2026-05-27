@@ -1925,6 +1925,18 @@ def render_team_report_card_page() -> None:
     simulation_options = list(home.SIMULATION_OPTIONS.keys())
     default_simulation_label = DEFAULT_REPORT_CARD_SIMULATION_LABEL
     default_simulation_index = simulation_options.index(default_simulation_label) if default_simulation_label in simulation_options else 0
+    _, _, _, metadata = home.load_data()
+    initial_simulation_label = str(
+        st.session_state.get("team_report_card_simulation_label", default_simulation_label)
+    )
+    home.render_dashboard_header(
+        home.load_world_cup_logo_data_uri(),
+        metadata,
+        home.SIMULATION_OPTIONS[initial_simulation_label],
+        title="World Cup 2026 Team Report Card",
+        model_version=PRIMARY_MODEL.model_version,
+        model_label=PRIMARY_MODEL.model_label,
+    )
 
     filter_bar = home.render_filter_bar("Model Filters")
     with filter_bar:
@@ -1962,14 +1974,6 @@ def render_team_report_card_page() -> None:
     labels = [f'{row.display_name} (Group {row.group_code})' for row in team_choices.itertuples(index=False)]
     query_team_id = get_query_team_param()
     selected_index = team_ids.index(query_team_id) if query_team_id in team_ids else 0
-    home.render_dashboard_header(
-        home.load_world_cup_logo_data_uri(),
-        dataset["metadata"],
-        simulations,
-        title="World Cup 2026 Team Report Card",
-        model_version=PRIMARY_MODEL.model_version,
-        model_label=PRIMARY_MODEL.model_label,
-    )
     artifact_source = dataset.get("artifact_source", "runtime")
     artifact_created_at = dataset.get("artifact_created_at_utc") or "unknown time"
     st.caption(
