@@ -2783,6 +2783,7 @@ def test_model_validation_builder_returns_expected_models_and_numeric_metrics():
         "v2_all_international_since_anchor",
         "v3_world_cup_only",
         "v3_all_international_since_anchor",
+        "v4_all_international_since_anchor",
     }
     assert set(model_rows) == expected_models
     for row in model_rows.values():
@@ -2817,6 +2818,7 @@ def test_model_validation_training_excludes_2022_and_model_card_references_artif
     )
     assert "data/processed/validation/model_validation_2022.json" in markdown
     assert "all_international_since_anchor" in markdown
+    assert "V4 all international since anchor" in markdown
 
 
 def test_v2_probabilities_page_exists_and_wires_home_renderer():

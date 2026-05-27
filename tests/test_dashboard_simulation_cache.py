@@ -1,9 +1,15 @@
 from __future__ import annotations
 
-import json
 import inspect
+import json
+import sys
+from pathlib import Path
 
 import pandas as pd
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from apps.dashboard import pages
 from apps.dashboard.model_registry import MODEL_REGISTRY, PRIMARY_MODEL_ID

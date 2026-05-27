@@ -23,10 +23,12 @@ from world_cup_sim.constants import (
     V2_FEATURE_COLUMNS,
     V2_OUTCOME_LABELS,
     V3_FEATURE_COLUMNS,
+    V4_FEATURE_COLUMNS,
 )
 from world_cup_sim.shared import build_2022_backtest_data, outcome_label_from_scoreline, resolve_training_anchor_date
 from world_cup_sim.v2 import build_v2_training_frame, run_v2_backtest_2022
 from world_cup_sim.v3 import run_v3_2022_backtest
+from world_cup_sim.v4 import run_v4_2022_backtest
 
 
 VALIDATION_DIR = ROOT / "data" / "processed" / "validation"
@@ -294,6 +296,12 @@ def build_validation_artifacts(
         seed=seed,
         training_scope=TRAINING_SCOPE_ALL_INTERNATIONAL,
     )
+    v4_all_international = run_v4_2022_backtest(
+        match_window=match_window,
+        simulations=simulations,
+        seed=seed,
+        training_scope=TRAINING_SCOPE_ALL_INTERNATIONAL,
+    )
 
     model_rows = [
         build_summary_row(
@@ -341,6 +349,15 @@ def build_validation_artifacts(
             True,
             dict(v3_all_international["training_metadata"]),
         ),
+        build_summary_row(
+            "v4_all_international_since_anchor",
+            "V4 all international since anchor",
+            "Enhanced Poisson regression + Monte Carlo",
+            v4_all_international,
+            list(V4_FEATURE_COLUMNS),
+            True,
+            dict(v4_all_international["training_metadata"]),
+        ),
     ]
 
     match_predictions = pd.concat(
@@ -350,6 +367,7 @@ def build_validation_artifacts(
             normalize_backtest_match_predictions(v2_all_international, "v2_all_international_since_anchor", "V2 all international since anchor"),
             normalize_backtest_match_predictions(v3_world_cup, "v3_world_cup_only", "V3 World Cup only"),
             normalize_backtest_match_predictions(v3_all_international, "v3_all_international_since_anchor", "V3 all international since anchor"),
+            normalize_backtest_match_predictions(v4_all_international, "v4_all_international_since_anchor", "V4 all international since anchor"),
         ],
         ignore_index=True,
     )
@@ -359,6 +377,7 @@ def build_validation_artifacts(
             normalize_team_backtest(v2_all_international, "v2_all_international_since_anchor", "V2 all international since anchor"),
             normalize_team_backtest(v3_world_cup, "v3_world_cup_only", "V3 World Cup only"),
             normalize_team_backtest(v3_all_international, "v3_all_international_since_anchor", "V3 all international since anchor"),
+            normalize_team_backtest(v4_all_international, "v4_all_international_since_anchor", "V4 all international since anchor"),
         ],
         ignore_index=True,
     )
@@ -433,7 +452,9 @@ def build_model_card_markdown(payload: dict[str, object]) -> str:
 
 ## Purpose
 
-This project estimates preseason FIFA World Cup 2026 team and tournament probabilities. It is intended as a forecasting and portfolio dashboard, not as betting advice or a match-day injury-aware prediction service.
+This project estimates preseason FIFA Men's World Cup 2026 team and tournament probabilities. It is intended as a forecasting and portfolio dashboard, not as betting advice or a match-day injury-aware prediction service.
+
+The current dashboard primary model is V4, an enhanced Poisson expected-goals model. V4 is documented as the production-facing model because it includes the richest match-generation logic, but the validation table should be read across multiple metrics rather than as a single winner-takes-all leaderboard.
 
 ## Validation Snapshot
 
@@ -447,11 +468,20 @@ The committed validation artifact is `data/processed/validation/model_validation
 
 The Elo-only baseline is match-level only. Its tournament-stage fields are set to zero and flagged with `tournament_simulated=false` in the JSON artifact.
 
+## How To Read The Metrics
+
+- **Log loss** rewards calibrated probabilities assigned to the actual class; lower is better.
+- **Brier score** measures multiclass probability error; lower is better.
+- **Top-1 accuracy** measures whether the highest-probability match outcome occurred.
+- **Draw Pred./Actual** checks whether the model's average draw probability is close to the observed draw rate.
+- **R16, SF, and Champion hits** evaluate tournament simulation outputs against actual 2022 advancement outcomes.
+
 ## Model Families
 
 - **Baseline:** multinomial logistic regression using only pre-match Elo difference, trained on all international matches since the anchor date with tournament sample weights.
 - **V2:** multinomial logistic regression using Elo, recent form, goal profile, and prior World Cup history differences. It is validated under both World-Cup-only and all-international training scopes.
 - **V3:** Poisson expected-goals model using Elo, form, historical pedigree, host/neutral-site context, and competition importance. It is validated under both World-Cup-only and all-international training scopes.
+- **V4:** enhanced Poisson expected-goals model using quadratic recent form, World Cup last-5 goal-difference features, Dixon-Coles low-score correction, stage multipliers, time-decayed training weights, and alpha selection. It is the current primary dashboard model and is validated under the all-international training scope.
 
 ## Training Scopes And Weights
 
@@ -464,6 +494,7 @@ The Elo-only baseline is match-level only. Its tournament-stage fields are set t
 - All validation rows use a cutoff before the first 2022 World Cup match.
 - Team features for the 2022 holdout are built from pre-tournament data.
 - Tournament probabilities are evaluated against actual 2022 outcomes after simulation.
+- 2026 forecasts use pre-tournament team metadata, fixtures, rankings, Elo snapshots, and lead-in results only.
 
 ## Limitations
 
@@ -471,6 +502,7 @@ The Elo-only baseline is match-level only. Its tournament-stage fields are set t
 - The 2026 forecast is preseason-oriented and should not be interpreted as live match pricing.
 - The 2022 holdout is a useful sanity check, not a full multi-tournament validation suite.
 - Penalty shootouts and extra time are simplified relative to real match dynamics.
+- V4 has more components than V2/V3, so it carries higher overfitting risk until more rolling holdout folds are implemented.
 """
 
 

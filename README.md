@@ -1,225 +1,129 @@
-# World Cup 2026 Dashboard
+# World Cup 2026 Forecasting Dashboard
 
-This project contains dataset-building scripts, a concise executive notebook, shared analysis/modeling modules, and a Streamlit dashboard for preseason World Cup 2026 tournament projections.
+An end-to-end data science portfolio project for preseason FIFA Men's World Cup 2026 forecasting. The project combines cleaned football datasets, historical EDA, feature engineering, trained match models, Monte Carlo tournament simulation, validation artifacts, and a Streamlit dashboard for exploring team advancement probabilities.
+
+The current dashboard primary model is **V4 Enhanced Poisson**, which estimates expected goals with Elo, recent form, World Cup history, host/context features, Dixon-Coles correction, stage multipliers, and time-decayed training weights. Earlier V1/V2/V3 model surfaces remain available for comparison and explainability.
+
+## Results At A Glance
+
+- **Forecasting product:** Streamlit dashboard with group probabilities, all-country rankings, deterministic bracket projections, backtest pages, and team report cards.
+- **Primary model:** V4 enhanced Poisson expected-goals model with Monte Carlo tournament simulation.
+- **Validation design:** 2022 World Cup holdout; training data ends before the first 2022 tournament match.
+- **Simulation settings:** `20,000` tournament simulations, match window `10`, seed `20260403`.
+- **V4 holdout snapshot:** `1.0207` log loss, `0.5999` Brier score, `51.6%` top-1 match accuracy, and draw calibration of `23.1%` predicted vs `23.4%` actual.
+
+See the full [model card](docs/model_card.md) and committed validation artifact at [data/processed/validation/model_validation_2022.json](data/processed/validation/model_validation_2022.json).
+
+## Project Visuals
+
+![All countries probability view](assets/charts/generated/all_Countries_20260423_094740_649518.png)
+
+The dashboard ranks teams across group-stage placement, knockout qualification, deep-run probabilities, and championship odds.
+
+![Projected bracket view](assets/charts/generated/bracket_view_20260405_122411_025406.png)
+
+The bracket view turns simulated group outcomes into a position-based knockout path instead of simply selecting a global top-N list.
+
+![Goals and finish quadrants](assets/visualizations/goals_finish_quadrants.png)
+
+The historical EDA layer connects tournament outcomes to interpretable signals such as scoring profile, finishing strength, host context, and prior World Cup performance.
+
+## Skills Demonstrated
+
+- **Data preparation:** cleans and stages World Cup, international match, ranking, Elo, fixture, squad, and country/entity datasets into app-ready processed files.
+- **Feature engineering:** builds recent-form, goal-profile, historical-pedigree, host/context, competition-importance, and tournament-structure features.
+- **Modeling:** compares Elo-only baseline, multinomial logistic regression, paired Poisson expected-goals models, and enhanced Poisson simulation.
+- **Validation:** uses leakage-aware 2022 holdout evaluation with log loss, Brier score, top-1 accuracy, draw calibration, and tournament-stage hit metrics.
+- **Product analytics:** converts model output into a Streamlit dashboard, probability tables, bracket projections, and team report cards.
+- **Engineering hygiene:** includes reusable modules, dataset builders, model documentation, validation artifacts, GitHub Actions, and pytest coverage for simulation invariants.
+
+## Validation Summary
+
+The published validation is a 2022 World Cup holdout using `20,000` simulations, match window `10`, and seed `20260403`.
+
+| Model | Scope | Matches | Log Loss | Brier | Top-1 Acc. | Draw Pred./Actual | R16 Hits | SF Hits | Champion Hit |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Elo-only baseline | all_international_since_anchor | 22,843 | 1.0539 | 0.6353 | 42.2% | 24.2% / 23.4% | 0 | 0 | No |
+| V2 World Cup only | world_cup_only | 384 | 1.0640 | 0.6135 | 51.6% | 23.5% / 23.4% | 9 | 1 | Yes |
+| V2 all international since anchor | all_international_since_anchor | 22,843 | 1.0148 | 0.6018 | 48.4% | 22.1% / 23.4% | 9 | 2 | No |
+| V3 World Cup only | world_cup_only | 384 | 1.0276 | 0.6039 | 56.2% | 24.1% / 23.4% | 9 | 2 | No |
+| V3 all international since anchor | all_international_since_anchor | 22,843 | 1.0225 | 0.6042 | 50.0% | 21.6% / 23.4% | 10 | 2 | No |
+| V4 all international since anchor | all_international_since_anchor | 22,843 | 1.0207 | 0.5999 | 51.6% | 23.1% / 23.4% | 9 | 2 | No |
+
+V4 is the current dashboard primary because it has the richest match-generation logic and the best Brier score among the trained tournament models in this holdout. It should not be read as universally best on every metric: V2 all-international has the lowest log loss in this run, and V3 World-Cup-only has the highest top-1 accuracy.
 
 ## Project Tour
 
-- `main.ipynb`: executive research notebook with the project framing, data-quality snapshot, key historical findings, and model/app handoff.
-- `apps/home.py`: Streamlit entrypoint for the interactive dashboard.
-- `apps/pages/1_Analysis.py`: analysis companion page with tabs for participation, goals, host effect, winner follow-up, correlations, and 2026 implications.
-- `world_cup_sim/analysis.py`: reusable historical EDA transformations shared by the notebook and Streamlit app.
-- `world_cup_simulation.py`: tournament simulation, model, and backtest logic.
-- `scripts/`: reproducible dataset builders.
+- `main.ipynb`: concise executive notebook with framing, data-quality snapshot, historical findings, and model/app handoff.
+- `apps/home.py`: Streamlit dashboard entrypoint.
+- `apps/pages/1_Analysis.py`: historical analysis companion page for participation, goals, host effects, winner follow-up, correlations, and 2026 implications.
+- `apps/team_report_card.py`: team-level report-card surface for translating model outputs into an analyst-friendly profile.
+- `world_cup_sim/`: shared analysis, feature, model, and simulation modules.
+- `scripts/`: reproducible dataset and validation builders.
+- `docs/model_card.md`: validation, leakage controls, model-family summary, and limitations.
+- `docs/models/`: deeper model documentation for V1 through V4.
+
+Recommended reviewer path:
+
+1. Read this README for the project story and setup.
+2. Open `main.ipynb` for the concise analytical narrative.
+3. Run `streamlit run apps/home.py` for the interactive dashboard.
+4. Review `docs/model_card.md` for validation and limitations.
 
 ## Setup
 
-Install the dashboard and dataset dependencies with:
+Use Python `3.12.x` for local development. Install dependencies with:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Use Python `3.12.x` for local development. The package metadata in
-`pyproject.toml` is the source of truth for the supported Python range and
-runtime dependencies; `requirements.txt` is kept for simple Streamlit/deploy
-installs.
-
-The app-ready dataset is committed under `data/processed/`, so a clean clone can run without your local Kaggle download cache:
+The app-ready dataset is committed under `data/processed/`, so a clean clone can run without a private Kaggle cache:
 
 ```bash
 streamlit run apps/home.py
 ```
 
-Raw Kaggle/source downloads remain ignored and rebuild-only. To refresh the local Kaggle raw files used by the builders:
+For development and tests:
+
+```bash
+python -m pip install -r requirements-dev.txt
+pytest -q
+```
+
+Raw Kaggle/source downloads remain ignored and rebuild-only. To refresh the local raw files used by the builders:
 
 ```bash
 python scripts/bootstrap_kaggle_data.py
 ```
 
-See [`data/README.md`](data/README.md) for the data layout and environment-variable overrides.
+See [data/README.md](data/README.md) for the data layout and environment-variable overrides.
 
-Reference notes:
+## Current Modeling Flow
 
-- [`docs/elo_rating_reference.md`](docs/elo_rating_reference.md): stored Elo rating methodology reference based on the provided `eloratings.net` summary
-- [`docs/notebook_app_architecture.md`](docs/notebook_app_architecture.md): portfolio-oriented guide to the notebook/app split
+The dashboard simulates the full 2026 tournament fixture-by-fixture.
 
-## Validation Summary
+- Group matches are sampled in kickoff order.
+- Group standings use points, goal difference, goals scored, head-to-head tie-breakers, and deterministic strength fallback.
+- Top-two teams in each group qualify automatically.
+- The best eight third-place teams qualify through the official 2026 third-place routing map.
+- Knockout matches are simulated through the final, including simplified extra time and penalties.
+- Output probabilities include group finish, Round of 32, Round of 16, quarter-final, semi-final, final, and champion probabilities.
 
-The published model validation is a 2022 World Cup holdout using `20,000` simulations, match window `10`, and seed `20260403`. See the full [`model card`](docs/model_card.md) and the reproducible artifact at [`data/processed/validation/model_validation_2022.json`](data/processed/validation/model_validation_2022.json).
+The deterministic bracket view is position-based: it uses modal group finishers and official knockout slots rather than taking the highest global probabilities.
 
-| Model | Scope | Matches | Log Loss | Brier | Top-1 Acc. | Draw Pred./Actual | R16 Hits | SF Hits | Champion Hit |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Elo-only baseline | all_international_since_anchor | 22,843 | 1.0545 | 0.6358 | 42.2% | 24.1% / 23.4% | 0 | 0 | No |
-| V2 World Cup only | world_cup_only | 384 | 1.0170 | 0.5991 | 51.6% | 24.0% / 23.4% | 10 | 1 | Yes |
-| V2 all international since anchor | all_international_since_anchor | 22,843 | 1.0124 | 0.6004 | 48.4% | 22.0% / 23.4% | 9 | 2 | No |
-| V3 World Cup only | world_cup_only | 384 | 1.0204 | 0.6050 | 51.6% | 24.5% / 23.4% | 9 | 1 | No |
-| V3 all international since anchor | all_international_since_anchor | 22,843 | 1.0210 | 0.6033 | 50.0% | 21.6% / 23.4% | 10 | 2 | No |
+## Limitations
 
-## Current Probability Simulation Logic
+- Forecasts are preseason estimates, not live match prices.
+- The model does not ingest player-level injuries, lineups, market odds, tactical matchups, or live squad availability.
+- The current validation artifact uses a 2022 holdout; broader rolling validation is an important next improvement.
+- Penalty shootouts, extra time, fair-play tie-breakers, and drawing of lots are simplified.
+- V4 has more components than V2/V3, so it carries higher overfitting risk until more holdout folds are implemented.
 
-The dashboard in `apps/home.py` now uses a fixture-by-fixture Monte Carlo simulation for the full 2026 tournament.
+## Reference Docs
 
-### Inputs
-
-- Elo rating from `data/processed/world_cup/2026/elo_snapshots.csv`
-- FIFA points from `data/processed/world_cup/2026/fifa_rank_snapshots.csv`
-- Group-stage and knockout fixtures from `data/processed/world_cup/2026/fixtures.csv`
-- Lead-in results from `data/processed/world_cup/2026/team_results_lead_in.csv`
-
-### Strength Model
-
-Each team receives a pre-tournament `team_strength` built in two stages.
-
-Baseline rating score:
-
-- `65%` Elo rating
-- `35%` FIFA points
-
-Both inputs are standardized with a z-score first so they are on a comparable scale.
-
-Recent form score:
-
-- uses each team's last `8` lead-in matches
-- `points_per_match` is based on win/draw/loss points
-- `goal_diff_per_match` is based on average goal difference
-- `form_score = 70% * z(points_per_match) + 30% * z(goal_diff_per_match)`
-
-Final blend:
-
-- `team_strength = 75% * rating_score + 25% * form_score`
-
-### Group and Knockout Simulation
-
-By default, the dashboard runs `20,000` simulations per group.
-
-In each simulation:
-
-- the real six group fixtures are simulated in kickoff order
-- each match uses a Poisson goal model driven by the two teams' `team_strength` values
-- points, goals scored, and goals conceded are updated after every fixture
-- final standings are resolved with:
-  - total points
-  - goal difference
-  - goals scored
-  - head-to-head points among tied teams
-  - head-to-head goal difference among tied teams
-  - head-to-head goals scored among tied teams
-  - pre-tournament `team_strength` as the final deterministic fallback
-
-After the group stage in each simulation:
-
-- the top two teams in each group qualify automatically for the Round of 32
-- the 12 third-placed teams are ranked by points, goal difference, goals scored, then `team_strength`
-- the best eight third-placed teams qualify
-- the Round of 32 bracket is routed using the published 2026 knockout-stage combinations table
-- knockout matches from the Round of 32 through the final use the same strength-driven Poisson goal model
-- tied knockout matches go to extra time using one-third of regulation expected goals, then to a 50/50 penalty shootout if still level
-
-### Deterministic Bracket Logic
-
-The dashboard also builds one stable predicted bracket from the Monte Carlo output.
-
-- each group stores its most common full finishing order across all simulations as `modal_group_rankings`
-- the bracket uses those modal group finishers, not the display sort from the probability tables
-- the 12 modal third-placed teams are ranked again by average simulated third-place points, goal difference, goals scored, then `team_strength`
-- the best eight third-placed groups are mapped into the Round of 32 using the fixed 2026 third-place routing combinations
-- every knockout matchup in that bracket is then simulated head-to-head multiple times to estimate the likely winner and win percentage
-
-This means the bracket is position-based: it follows projected group winners, runners-up, and qualifying third-place teams through the official knockout slots rather than taking a global top-N list of teams.
-
-### Output Probabilities
-
-After all simulations:
-
-- `prob_1` is the percentage of runs where the team finishes 1st
-- `prob_2` is the percentage of runs where the team finishes 2nd
-- `prob_3` is the percentage of runs where the team finishes 3rd
-- `prob_4` is the percentage of runs where the team finishes 4th
-- `top8_third_prob` is the percentage of runs where the team qualifies as one of the eight best third-placed teams
-- `ko_prob` is the percentage of runs where the team reaches the Round of 32 either via a top-two finish or as one of the eight best third-place teams
-- `r16_prob` is the percentage of runs where the team reaches the Round of 16
-- `qf_prob` is the percentage of runs where the team reaches the quarter-finals
-- `sf_prob` is the percentage of runs where the team reaches the semi-finals
-- `final_prob` is the percentage of runs where the team reaches the final
-- `champion_prob` is the percentage of runs where the team wins the tournament
-
-The `Single group` and `All groups` views now use the bracket-aligned `Projected Order` by default, so those tables match the modal group rankings that feed the deterministic bracket. The combined `All Countries` table also shows `Top 8 3rd %`, `KO %`, `R16 %`, `QF %`, `SF %`, `Final %`, and `Champion %`.
-
-Each table card and the bracket card display the simulation count used for that render.
-
-### Current Limitations
-
-The current model does not yet simulate:
-
-- host advantage or venue-specific effects
-- fair-play points or drawing of lots as final FIFA tiebreakers
-- squad availability or injuries
-
-This means the current probabilities should still be interpreted as pre-tournament forecasts rather than match-specific predictions.
-
-## V2 Multinomial Probabilities
-
-The dashboard also includes separate `V2 Form`, `V2 Probabilities`, and `V2 2022 Backtest` pages.
-
-### Current V2 Model Card
-
-Model type:
-
-- multinomial logistic regression for match outcomes
-- output classes: `home_win`, `draw`, `away_win`
-- tournament probabilities are produced by Monte Carlo simulation on top of those match probabilities
-
-Training window:
-
-- uses the previous `5` completed World Cup editions
-- includes both group-stage and knockout matches
-- the `2022` backtest excludes `2022` from training, so it uses the previous `5` editions before that
-
-V2 team-strength inputs:
-
-- rating block: currently `Elo-only` in practice because `BASELINE_RATING_WEIGHTS = (1.0, 0.0)`
-- weighted recent form block:
-  - `results_form`
-  - `gd_form`
-  - `perf_vs_exp`
-  - `elo_delta_form`
-- World Cup history block from the previous `5` editions:
-  - weighted placement score
-  - weighted participation ratio
-
-V2 team-strength blend:
-
-- `40%` rating
-- `40%` weighted recent form
-- `20%` World Cup history
-
-History sub-weights:
-
-- `70%` weighted placement score
-- `30%` weighted participation ratio
-
-Weighted form sub-weights:
-
-- `40%` results
-- `25%` goal difference
-- `25%` performance versus Elo expectation
-- `10%` Elo delta
-
-Match-model feature set:
-
-- `elo_diff`
-- `results_form_diff`
-- `gd_form_diff`
-- `perf_vs_exp_diff`
-- `goals_for_diff`
-- `goals_against_diff`
-- `placement_diff`
-- `appearance_diff`
-
-Behavior:
-
-- `V2 Form` exposes the history-aware team ranking surface
-- `V2 Probabilities` uses the multinomial match model to simulate the 2026 tournament
-- `V2 2022 Backtest` evaluates the same model family on the real 2022 tournament with `2022` held out from training
-
-The original `V1 Probabilities` page remains unchanged.
+- [Model card](docs/model_card.md)
+- [Model documentation index](docs/models/README.md)
+- [Notebook and app architecture](docs/notebook_app_architecture.md)
+- [Elo rating reference](docs/elo_rating_reference.md)
+- [Data layout](data/README.md)

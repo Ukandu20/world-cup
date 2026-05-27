@@ -11,9 +11,9 @@ project. The project currently exposes five related but distinct model views:
   match model used for tournament probability simulation.
 - [V3 Poisson](v3_poisson.md): a trained expected-goals model using paired
   Poisson regressions.
-- [V4 Enhanced Poisson](v4_enhanced_poisson.md): an experimental V3 successor
-  with quadratic recent form, Dixon-Coles correction, stage effects, and
-  time-decayed training weights.
+- [V4 Enhanced Poisson](v4_enhanced_poisson.md): the current primary dashboard
+  model, extending V3 with quadratic recent form, Dixon-Coles correction, stage
+  effects, and time-decayed training weights.
 
 The documents are written for a technical audience, but they avoid assuming
 advanced statistical training. Each page explains the purpose, inputs, formulas,
@@ -54,7 +54,7 @@ The models draw from these broad data groups:
 
 ## Training Scopes
 
-The trained V2 and V3 models support two scopes:
+The trained V2, V3, and V4 models support these scopes:
 
 ```text
 world_cup_only

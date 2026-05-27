@@ -1448,7 +1448,7 @@ def render_goals_tab(
     st.dataframe(
         placement_summary,
         hide_index=True,
-        width="stretch",
+        use_container_width=True,
     )
 
 
@@ -1503,7 +1503,7 @@ def render_host_tab(outputs: dict[str, pd.DataFrame], edition_range: tuple[int, 
             ]
         ],
         hide_index=True,
-        width="stretch",
+        use_container_width=True,
     )
 
 
@@ -1677,7 +1677,7 @@ def render_winner_followup_tab(
     fig.update_xaxes(title=chart_axis_title("Tournament Edition"), tickangle=45)
     set_edition_ticks(fig, winners, tickangle=45)
     render_plotly_chart(fig, key="historical_eda_winner_followup")
-    st.dataframe(winners, hide_index=True, width="stretch")
+    st.dataframe(winners, hide_index=True, use_container_width=True)
     render_winner_goal_charts(goals_outputs, participation_outputs, edition_range)
 
 
@@ -1805,13 +1805,13 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame], edition_range: tup
 
     with chart_tabs[5]:
         st.markdown("**Pre-Tournament Correlations**")
-        st.dataframe(pre_corr, hide_index=True, width="stretch")
+        st.dataframe(pre_corr, hide_index=True, use_container_width=True)
         st.markdown("**In-Tournament Correlations**")
-        st.dataframe(tournament_corr, hide_index=True, width="stretch")
+        st.dataframe(tournament_corr, hide_index=True, use_container_width=True)
         st.markdown("**Last-k History Correlations**")
-        st.dataframe(last_k_corr, hide_index=True, width="stretch")
+        st.dataframe(last_k_corr, hide_index=True, use_container_width=True)
         st.markdown("**Baseline + Last-k Correlations**")
-        st.dataframe(combined_corr, hide_index=True, width="stretch")
+        st.dataframe(combined_corr, hide_index=True, use_container_width=True)
 
 
 def render_qualifiers_tab(outputs: dict[str, pd.DataFrame]) -> None:
@@ -2002,7 +2002,7 @@ def render_qualifiers_tab(outputs: dict[str, pd.DataFrame]) -> None:
             ]
         ],
         hide_index=True,
-        width="stretch",
+        use_container_width=True,
     )
 
     with st.expander("Qualifier match details"):
@@ -2023,7 +2023,7 @@ def render_qualifiers_tab(outputs: dict[str, pd.DataFrame]) -> None:
                 ],
             ],
             hide_index=True,
-            width="stretch",
+            use_container_width=True,
         )
 
 
@@ -2053,7 +2053,7 @@ def render_2026_implications_tab(outputs: dict[str, pd.DataFrame]) -> None:
     distribution_fig.update_traces(textinfo="label+value+percent", textposition="inside")
     apply_original_chart_style(distribution_fig, "2026 Confederation Share", height=500)
     render_column_plotly_chart(left, distribution_fig)
-    right.dataframe(qualified, hide_index=True, width="stretch")
+    right.dataframe(qualified, hide_index=True, use_container_width=True)
 
 
 def render_historical_eda_page() -> None:
@@ -2098,7 +2098,7 @@ def render_historical_eda_page() -> None:
         )
 
     with st.expander("Data quality snapshot"):
-        st.dataframe(quality, hide_index=True, width="stretch")
+        st.dataframe(quality, hide_index=True, use_container_width=True)
 
     qualifier_outputs = load_qualifier_performance_tables()
 

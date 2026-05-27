@@ -1,129 +1,161 @@
 model_id,model_label,team_id,display_name,group_code,r16_prob,qf_prob,sf_prob,final_prob,champion_prob,actual_stage,actual_r16,actual_sf,actual_final,actual_champion
-v2_world_cup_only,V2 World Cup only,ARG,Argentina,C,96.26,88.255,80.285,51.13999999999999,39.489999999999995,Champion,True,True,True,True
-v2_world_cup_only,V2 World Cup only,BRA,Brazil,G,97.15,84.65,74.175,49.845,39.15,Quarter-final,True,False,False,False
-v2_world_cup_only,V2 World Cup only,URY,Uruguay,H,79.66499999999999,44.214999999999996,28.735,16.705000000000002,4.675,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,DEU,Germany,E,66.905,48.480000000000004,19.48,9.475,2.86,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,ESP,Spain,E,68.12,49.32,19.225,9.125,2.67,Round of 16,True,False,False,False
-v2_world_cup_only,V2 World Cup only,FRA,France,D,78.365,35.56,23.0,10.305,2.06,Final,True,True,True,False
-v2_world_cup_only,V2 World Cup only,MEX,Mexico,C,65.885,39.65,24.925,10.12,1.825,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,PRT,Portugal,H,67.585,28.475,15.375,7.475,1.685,Quarter-final,True,False,False,False
-v2_world_cup_only,V2 World Cup only,ENG,England,B,76.185,50.544999999999995,18.905,7.049999999999999,1.23,Quarter-final,True,False,False,False
-v2_world_cup_only,V2 World Cup only,NLD,Netherlands,A,81.22500000000001,49.145,14.875,4.44,0.97,Quarter-final,True,False,False,False
-v2_world_cup_only,V2 World Cup only,USA,United States,B,70.94500000000001,44.87,15.075,5.050000000000001,0.96,Round of 16,True,False,False,False
-v2_world_cup_only,V2 World Cup only,BEL,Belgium,F,72.96000000000001,33.47,11.915000000000001,5.13,0.855,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,JPN,Japan,E,41.33,23.085,6.485,2.445,0.445,Round of 16,True,False,False,False
-v2_world_cup_only,V2 World Cup only,SRB,Serbia,G,48.74,17.435000000000002,7.090000000000001,2.495,0.24,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,KOR,South Korea,H,39.085,10.100000000000001,3.765,1.23,0.165,Round of 16,True,False,False,False
-v2_world_cup_only,V2 World Cup only,MAR,Morocco,F,50.044999999999995,15.920000000000002,3.35,0.84,0.15,Semi-final,True,True,False,False
-v2_world_cup_only,V2 World Cup only,HRV,Croatia,F,47.795,13.835,2.9899999999999998,0.8699999999999999,0.11,Semi-final,True,True,False,False
-v2_world_cup_only,V2 World Cup only,DNK,Denmark,D,44.505,9.78,4.14,1.0,0.065,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,CRI,Costa Rica,E,23.645,10.105,2.2849999999999997,0.5700000000000001,0.065,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,AUS,Australia,D,37.769999999999996,7.6899999999999995,2.995,0.58,0.06,Round of 16,True,False,False,False
-v2_world_cup_only,V2 World Cup only,CHE,Switzerland,G,31.395,8.645,2.91,0.8049999999999999,0.04,Round of 16,True,False,False,False
-v2_world_cup_only,V2 World Cup only,SAU,Saudi Arabia,C,18.645,5.67,1.855,0.35500000000000004,0.04,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,CMR,Cameroon,G,22.715,4.82,1.15,0.295,0.04,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,SEN,Senegal,A,39.305,12.24,2.305,0.41000000000000003,0.03,Round of 16,True,False,False,False
-v2_world_cup_only,V2 World Cup only,IRN,Iran,B,32.975,12.625,1.92,0.35000000000000003,0.03,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,ECU,Ecuador,A,43.45,14.594999999999999,2.63,0.475,0.025,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,QAT,Qatar,A,36.02,10.290000000000001,1.7950000000000002,0.215,0.025,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,TUN,Tunisia,D,39.36,7.6,2.85,0.585,0.02,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,POL,Poland,C,19.21,5.795,1.905,0.35000000000000003,0.01,Round of 16,True,False,False,False
-v2_world_cup_only,V2 World Cup only,CAN,Canada,F,29.2,5.785,0.76,0.16,0.005,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,GHA,Ghana,H,13.665,1.66,0.31,0.05,0.005,Group Stage,False,False,False,False
-v2_world_cup_only,V2 World Cup only,WAL,Wales,B,19.895,5.6899999999999995,0.54,0.06,0.0,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,BRA,Brazil,G,96.05,83.32000000000001,59.145,48.199999999999996,40.239999999999995,Quarter-final,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,ARG,Argentina,C,92.69,78.89500000000001,59.95,28.599999999999998,20.53,Champion,True,True,True,True
-v2_all_international_since_anchor,V2 all international since anchor,DEU,Germany,E,67.915,48.69,27.705000000000002,18.615000000000002,8.625,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,ESP,Spain,E,69.16,48.125,24.785,15.225,6.795,Round of 16,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,FRA,France,D,85.55,52.44,39.235,16.17,4.635,Final,True,True,True,False
-v2_all_international_since_anchor,V2 all international since anchor,URY,Uruguay,H,69.69,35.05,15.75,10.37,3.35,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,BEL,Belgium,F,79.43,42.075,23.65,13.794999999999998,3.225,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,PRT,Portugal,H,73.95,40.949999999999996,17.93,11.485,3.0700000000000003,Quarter-final,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,NLD,Netherlands,A,75.31,47.21,19.88,4.745,1.95,Quarter-final,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,ENG,England,B,79.05499999999999,55.03,21.05,6.6000000000000005,1.905,Quarter-final,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,MEX,Mexico,C,63.025,30.835,19.134999999999998,6.035,1.7000000000000002,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,JPN,Japan,E,44.41,21.975,8.5,3.975,1.065,Round of 16,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,USA,United States,B,60.099999999999994,35.515,12.155000000000001,3.0349999999999997,0.8500000000000001,Round of 16,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,HRV,Croatia,F,56.42,18.275,6.965000000000001,3.06,0.485,Semi-final,True,True,False,False
-v2_all_international_since_anchor,V2 all international since anchor,KOR,South Korea,H,40.39,12.065,3.055,1.365,0.29,Round of 16,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,DNK,Denmark,D,47.980000000000004,13.74,6.845,1.455,0.25,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,CHE,Switzerland,G,40.32,11.745,3.105,1.3599999999999999,0.22999999999999998,Round of 16,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,MAR,Morocco,F,35.655,8.52,2.56,0.9199999999999999,0.12,Semi-final,True,True,False,False
-v2_all_international_since_anchor,V2 all international since anchor,CRI,Costa Rica,E,18.515,6.47,1.9300000000000002,0.7100000000000001,0.12,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,ECU,Ecuador,A,45.43,17.26,4.005,0.545,0.095,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,SRB,Serbia,G,38.515,9.535,2.13,0.8999999999999999,0.08,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,AUS,Australia,D,32.625,7.015000000000001,2.77,0.415,0.06,Round of 16,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,IRN,Iran,B,28.84,10.475,2.145,0.215,0.055,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,QAT,Qatar,A,45.745000000000005,12.93,2.42,0.24,0.05,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,TUN,Tunisia,D,33.845,6.455,2.445,0.27999999999999997,0.045,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,SEN,Senegal,A,33.515,10.43,2.03,0.16,0.045,Round of 16,True,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,CMR,Cameroon,G,25.115,4.22,0.64,0.17500000000000002,0.034999999999999996,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,CAN,Canada,F,28.494999999999997,5.87,1.67,0.49,0.03,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,WAL,Wales,B,32.005,11.15,2.1149999999999998,0.22999999999999998,0.025,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,GHA,Ghana,H,15.97,3.115,0.48,0.13999999999999999,0.02,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,SAU,Saudi Arabia,C,20.685000000000002,4.93,1.865,0.255,0.015,Group Stage,False,False,False,False
-v2_all_international_since_anchor,V2 all international since anchor,POL,Poland,C,23.599999999999998,5.6899999999999995,1.955,0.23500000000000001,0.01,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,BRA,Brazil,G,96.8,76.455,62.614999999999995,42.795,32.79,Quarter-final,True,False,False,False
-v3_world_cup_only,V3 World Cup only,ARG,Argentina,C,95.825,80.25,67.39,42.57,31.285,Champion,True,True,True,True
-v3_world_cup_only,V3 World Cup only,URY,Uruguay,H,75.71,39.190000000000005,24.66,13.79,5.53,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,PRT,Portugal,H,74.05000000000001,36.785000000000004,22.29,12.405,4.8500000000000005,Quarter-final,True,False,False,False
-v3_world_cup_only,V3 World Cup only,FRA,France,D,73.775,35.089999999999996,21.785,10.38,3.565,Final,True,True,True,False
-v3_world_cup_only,V3 World Cup only,ESP,Spain,E,64.7,41.735,16.82,8.434999999999999,3.245,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,DEU,Germany,E,61.885,38.629999999999995,15.545,7.5,2.825,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,MEX,Mexico,C,63.06,35.095,20.615,9.105,2.455,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,NLD,Netherlands,A,71.92,41.71,16.189999999999998,6.145,2.1350000000000002,Quarter-final,True,False,False,False
-v3_world_cup_only,V3 World Cup only,USA,United States,B,71.675,42.27,17.505000000000003,7.135,1.9949999999999999,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,BEL,Belgium,F,66.32000000000001,32.345,11.945,5.655,1.645,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,ENG,England,B,63.019999999999996,34.44,12.379999999999999,4.405,1.29,Quarter-final,True,False,False,False
-v3_world_cup_only,V3 World Cup only,SRB,Serbia,G,52.285000000000004,21.035,10.36,4.795,1.145,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,JPN,Japan,E,42.65,23.355,7.8950000000000005,3.325,0.8699999999999999,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,MAR,Morocco,F,51.910000000000004,21.085,6.04,2.2399999999999998,0.5349999999999999,Semi-final,True,True,False,False
-v3_world_cup_only,V3 World Cup only,DNK,Denmark,D,48.385,15.015,7.295,2.18,0.48,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,HRV,Croatia,F,45.07,16.625,4.390000000000001,1.5,0.41000000000000003,Semi-final,True,True,False,False
-v3_world_cup_only,V3 World Cup only,AUS,Australia,D,43.13,11.945,5.680000000000001,1.6150000000000002,0.385,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,KOR,South Korea,H,35.275,9.879999999999999,4.3999999999999995,1.54,0.38,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,ECU,Ecuador,A,49.25,22.705000000000002,6.915,1.9849999999999999,0.35500000000000004,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,CRI,Costa Rica,E,30.764999999999997,14.49,4.415,1.51,0.33,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,IRN,Iran,B,42.04,18.404999999999998,4.784999999999999,1.31,0.23500000000000001,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,SEN,Senegal,A,41.885,17.735,5.045,1.2550000000000001,0.215,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,CAN,Canada,F,36.7,11.735,2.74,0.9199999999999999,0.2,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,QAT,Qatar,A,36.945,15.02,3.9149999999999996,1.09,0.17500000000000002,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,SAU,Saudi Arabia,C,24.33,9.045,3.8150000000000004,1.115,0.155,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,TUN,Tunisia,D,34.71,8.175,3.495,0.865,0.155,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,CHE,Switzerland,G,29.18,8.709999999999999,3.2800000000000002,0.9950000000000001,0.145,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,CMR,Cameroon,G,21.735,5.52,1.875,0.64,0.075,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,POL,Poland,C,16.785,5.385,1.7950000000000002,0.365,0.06999999999999999,Round of 16,True,False,False,False
-v3_world_cup_only,V3 World Cup only,WAL,Wales,B,23.265,7.715,1.395,0.3,0.06,Group Stage,False,False,False,False
-v3_world_cup_only,V3 World Cup only,GHA,Ghana,H,14.965,2.4250000000000003,0.73,0.135,0.015,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,BRA,Brazil,G,96.69,80.045,59.23500000000001,44.379999999999995,34.52,Quarter-final,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,ARG,Argentina,C,94.03,75.72,57.464999999999996,31.3,21.48,Champion,True,True,True,True
-v3_all_international_since_anchor,V3 all international since anchor,DEU,Germany,E,71.265,49.7,25.905,15.9,7.66,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,ESP,Spain,E,68.035,44.775,22.515,12.754999999999999,5.775,Round of 16,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,FRA,France,D,81.74,44.265,28.665000000000003,13.745,5.085,Final,True,True,True,False
-v3_all_international_since_anchor,V3 all international since anchor,BEL,Belgium,F,76.495,38.82,19.825,10.795,3.5900000000000003,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,URY,Uruguay,H,68.675,33.305,16.64,9.325,3.385,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,NLD,Netherlands,A,73.82,45.635,20.435,7.180000000000001,3.055,Quarter-final,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,MEX,Mexico,C,69.435,37.805,22.48,9.245000000000001,2.97,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,ENG,England,B,77.955,50.245,22.07,8.865,2.92,Quarter-final,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,PRT,Portugal,H,66.66,30.36,14.344999999999999,7.8950000000000005,2.5700000000000003,Quarter-final,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,USA,United States,B,62.915,34.839999999999996,13.485,4.315,1.3050000000000002,Round of 16,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,JPN,Japan,E,36.5,17.83,6.710000000000001,2.82,0.765,Round of 16,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,KOR,South Korea,H,47.14,16.064999999999998,6.015000000000001,2.565,0.745,Round of 16,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,SRB,Serbia,G,44.345,17.27,6.295000000000001,2.79,0.635,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,HRV,Croatia,F,50.13999999999999,16.835,5.62,2.22,0.6,Semi-final,True,True,False,False
-v3_all_international_since_anchor,V3 all international since anchor,DNK,Denmark,D,47.985,14.35,6.619999999999999,2.13,0.53,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,CHE,Switzerland,G,39.074999999999996,14.085,4.81,1.8800000000000001,0.415,Round of 16,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,CRI,Costa Rica,E,24.2,10.61,3.63,1.37,0.32,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,MAR,Morocco,F,40.465,12.559999999999999,4.015,1.385,0.27,Semi-final,True,True,False,False
-v3_all_international_since_anchor,V3 all international since anchor,SEN,Senegal,A,36.18,14.49,4.109999999999999,1.0250000000000001,0.22999999999999998,Round of 16,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,QAT,Qatar,A,59.105,22.595000000000002,6.39,0.73,0.185,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,AUS,Australia,D,36.394999999999996,9.56,3.95,0.98,0.185,Round of 16,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,IRN,Iran,B,35.254999999999995,13.8,3.56,0.79,0.15,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,TUN,Tunisia,D,33.879999999999995,7.9350000000000005,3.125,0.67,0.135,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,CAN,Canada,F,32.9,8.870000000000001,2.34,0.745,0.135,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,ECU,Ecuador,A,30.895,10.99,2.5700000000000003,0.605,0.125,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,POL,Poland,C,20.445,6.055,2.095,0.475,0.075,Round of 16,True,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,CMR,Cameroon,G,19.89,5.305,1.23,0.35000000000000003,0.06,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,SAU,Saudi Arabia,C,16.09,4.31,1.53,0.23500000000000001,0.055,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,GHA,Ghana,H,17.525,3.565,0.8699999999999999,0.305,0.04,Group Stage,False,False,False,False
-v3_all_international_since_anchor,V3 all international since anchor,WAL,Wales,B,23.875,7.405,1.4500000000000002,0.22999999999999998,0.03,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,ARG,Argentina,C,97.875,89.24,75.645,49.3,39.125,Champion,True,True,True,True
+v2_world_cup_only,V2 World Cup only,BRA,Brazil,G,96.80499999999999,84.69,72.64500000000001,46.505,36.765,Quarter-final,True,False,False,False
+v2_world_cup_only,V2 World Cup only,NLD,Netherlands,A,96.09,80.92,30.880000000000003,13.895,5.875,Quarter-final,True,False,False,False
+v2_world_cup_only,V2 World Cup only,ESP,Spain,E,82.78999999999999,61.385,25.91,13.415,4.535,Round of 16,True,False,False,False
+v2_world_cup_only,V2 World Cup only,URY,Uruguay,H,81.33,36.86,21.275,11.265,2.685,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,PRT,Portugal,H,79.57,35.14,19.34,9.754999999999999,2.2399999999999998,Quarter-final,True,False,False,False
+v2_world_cup_only,V2 World Cup only,DEU,Germany,E,70.16,45.205,17.335,8.23,1.975,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,FRA,France,D,74.765,33.684999999999995,20.185,7.88,1.23,Final,True,True,True,False
+v2_world_cup_only,V2 World Cup only,ENG,England,B,78.885,47.96,21.47,8.195,1.145,Quarter-final,True,False,False,False
+v2_world_cup_only,V2 World Cup only,DNK,Denmark,D,70.92500000000001,29.54,17.16,6.465,1.11,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,BEL,Belgium,F,74.8,34.435,11.825,5.4399999999999995,0.9450000000000001,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,HRV,Croatia,F,73.18,32.26,10.5,4.585,0.74,Semi-final,True,True,False,False
+v2_world_cup_only,V2 World Cup only,SRB,Serbia,G,55.989999999999995,23.49,10.16,4.38,0.695,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,MEX,Mexico,C,45.739999999999995,18.73,8.545,2.395,0.24,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,POL,Poland,C,44.535000000000004,17.145,7.775,1.8900000000000001,0.185,Round of 16,True,False,False,False
+v2_world_cup_only,V2 World Cup only,CHE,Switzerland,G,40.445,13.63,4.825,1.9,0.185,Round of 16,True,False,False,False
+v2_world_cup_only,V2 World Cup only,USA,United States,B,53.09,20.62,5.38,1.13,0.08,Round of 16,True,False,False,False
+v2_world_cup_only,V2 World Cup only,JPN,Japan,E,28.165000000000003,10.505,2.1999999999999997,0.6799999999999999,0.065,Round of 16,True,False,False,False
+v2_world_cup_only,V2 World Cup only,ECU,Ecuador,A,50.235,18.94,4.24,0.6,0.06,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,KOR,South Korea,H,31.965,5.24,1.39,0.28500000000000003,0.025,Round of 16,True,False,False,False
+v2_world_cup_only,V2 World Cup only,CRI,Costa Rica,E,18.884999999999998,5.82,1.03,0.27,0.025,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,TUN,Tunisia,D,32.81,6.565,2.255,0.385,0.015,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,MAR,Morocco,F,32.525,7.3,1.205,0.24,0.015,Semi-final,True,True,False,False
+v2_world_cup_only,V2 World Cup only,IRN,Iran,B,31.86,8.72,1.4749999999999999,0.265,0.01,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,QAT,Qatar,A,28.799999999999997,6.955,1.035,0.1,0.01,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,WAL,Wales,B,36.165000000000006,10.440000000000001,1.805,0.22999999999999998,0.005,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,AUS,Australia,D,21.5,3.215,0.88,0.125,0.005,Round of 16,True,False,False,False
+v2_world_cup_only,V2 World Cup only,SAU,Saudi Arabia,C,11.85,1.8800000000000001,0.475,0.03,0.005,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,CAN,Canada,F,19.495,3.09,0.3,0.06999999999999999,0.005,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,SEN,Senegal,A,24.875,5.445,0.795,0.095,0.0,Round of 16,True,False,False,False
+v2_world_cup_only,V2 World Cup only,CMR,Cameroon,G,6.76,0.65,0.05,0.0,0.0,Group Stage,False,False,False,False
+v2_world_cup_only,V2 World Cup only,GHA,Ghana,H,7.135,0.3,0.01,0.0,0.0,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,BRA,Brazil,G,96.075,83.23,59.56,48.55,40.535,Quarter-final,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,ARG,Argentina,C,92.92,79.57,61.519999999999996,29.38,21.44,Champion,True,True,True,True
+v2_all_international_since_anchor,V2 all international since anchor,DEU,Germany,E,67.295,48.230000000000004,26.85,17.28,7.8549999999999995,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,ESP,Spain,E,69.24,48.3,24.474999999999998,14.879999999999999,6.505,Round of 16,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,FRA,France,D,85.11,51.7,38.955,16.305,4.38,Final,True,True,True,False
+v2_all_international_since_anchor,V2 all international since anchor,PRT,Portugal,H,74.24,41.69,18.945,12.445,3.64,Quarter-final,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,URY,Uruguay,H,69.27,35.02,16.485,10.76,3.4799999999999995,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,BEL,Belgium,F,79.255,41.94,23.135,13.58,3.1350000000000002,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,NLD,Netherlands,A,74.75500000000001,46.98,19.285,4.6850000000000005,2.12,Quarter-final,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,MEX,Mexico,C,63.01,30.795,19.005,6.13,1.6650000000000003,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,ENG,England,B,77.8,53.56999999999999,20.24,6.13,1.5350000000000001,Quarter-final,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,JPN,Japan,E,44.955,22.314999999999998,8.584999999999999,4.0,0.9950000000000001,Round of 16,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,USA,United States,B,60.114999999999995,35.65,12.16,2.9499999999999997,0.8,Round of 16,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,HRV,Croatia,F,55.47,17.515,6.285,2.62,0.40499999999999997,Semi-final,True,True,False,False
+v2_all_international_since_anchor,V2 all international since anchor,DNK,Denmark,D,48.235,13.79,6.75,1.52,0.23500000000000001,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,KOR,South Korea,H,41.565000000000005,12.565000000000001,3.245,1.375,0.2,Round of 16,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,CHE,Switzerland,G,39.37,10.79,2.675,1.2349999999999999,0.19499999999999998,Round of 16,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,MAR,Morocco,F,36.059999999999995,8.975,2.785,0.9450000000000001,0.155,Semi-final,True,True,False,False
+v2_all_international_since_anchor,V2 all international since anchor,SRB,Serbia,G,39.725,9.835,2.3449999999999998,0.975,0.145,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,ECU,Ecuador,A,46.025,17.794999999999998,4.45,0.625,0.135,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,CRI,Costa Rica,E,18.509999999999998,6.77,2.04,0.695,0.1,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,CAN,Canada,F,29.215000000000003,5.955,1.505,0.5499999999999999,0.09,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,QAT,Qatar,A,45.839999999999996,13.084999999999999,2.21,0.24,0.055,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,SEN,Senegal,A,33.379999999999995,10.424999999999999,2.11,0.29,0.04,Round of 16,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,IRN,Iran,B,29.15,10.59,2.1,0.21,0.04,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,TUN,Tunisia,D,34.37,6.69,2.555,0.325,0.03,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,AUS,Australia,D,32.285000000000004,6.88,2.71,0.375,0.025,Round of 16,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,WAL,Wales,B,32.934999999999995,11.905000000000001,2.1399999999999997,0.2,0.025,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,POL,Poland,C,23.645,5.6899999999999995,2.07,0.245,0.015,Round of 16,True,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,SAU,Saudi Arabia,C,20.424999999999997,4.885,1.7399999999999998,0.22,0.015,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,CMR,Cameroon,G,24.83,4.305,0.675,0.215,0.005,Group Stage,False,False,False,False
+v2_all_international_since_anchor,V2 all international since anchor,GHA,Ghana,H,14.924999999999999,2.565,0.41000000000000003,0.065,0.005,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,BRA,Brazil,G,97.71,77.995,64.545,43.65,33.965,Quarter-final,True,False,False,False
+v3_world_cup_only,V3 World Cup only,ARG,Argentina,C,97.2,83.33,70.34,43.49,32.714999999999996,Champion,True,True,True,True
+v3_world_cup_only,V3 World Cup only,PRT,Portugal,H,77.69500000000001,39.065,24.735,14.280000000000001,5.319999999999999,Quarter-final,True,False,False,False
+v3_world_cup_only,V3 World Cup only,URY,Uruguay,H,75.075,36.425000000000004,22.43,12.584999999999999,4.64,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,ESP,Spain,E,70.23,46.22,18.37,9.11,3.4450000000000003,Round of 16,True,False,False,False
+v3_world_cup_only,V3 World Cup only,FRA,France,D,74.07000000000001,36.045,22.525000000000002,10.645,3.32,Final,True,True,True,False
+v3_world_cup_only,V3 World Cup only,NLD,Netherlands,A,80.285,51.665000000000006,20.505000000000003,8.110000000000001,3.08,Quarter-final,True,False,False,False
+v3_world_cup_only,V3 World Cup only,DEU,Germany,E,61.839999999999996,38.06,14.465,6.855,2.305,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,MEX,Mexico,C,60.25,31.04,17.115,7.17,1.58,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,BEL,Belgium,F,67.565,33.25,12.215,5.734999999999999,1.51,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,USA,United States,B,67.255,36.620000000000005,13.62,5.140000000000001,1.265,Round of 16,True,False,False,False
+v3_world_cup_only,V3 World Cup only,SRB,Serbia,G,58.02,23.585,11.865,5.355,1.265,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,ENG,England,B,64.69,34.975,12.97,4.585,1.0699999999999998,Quarter-final,True,False,False,False
+v3_world_cup_only,V3 World Cup only,DNK,Denmark,D,56.37,19.57,10.355,3.7249999999999996,0.865,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,JPN,Japan,E,39.79,20.1,6.39,2.45,0.59,Round of 16,True,False,False,False
+v3_world_cup_only,V3 World Cup only,HRV,Croatia,F,50.785000000000004,20.25,5.715,2.15,0.475,Semi-final,True,True,False,False
+v3_world_cup_only,V3 World Cup only,MAR,Morocco,F,47.285,18.47,4.984999999999999,1.815,0.44999999999999996,Semi-final,True,True,False,False
+v3_world_cup_only,V3 World Cup only,ECU,Ecuador,A,50.019999999999996,23.22,7.08,1.965,0.33,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,KOR,South Korea,H,36.605,9.82,4.154999999999999,1.4749999999999999,0.33,Round of 16,True,False,False,False
+v3_world_cup_only,V3 World Cup only,AUS,Australia,D,37.19,9.55,4.324999999999999,1.165,0.22999999999999998,Round of 16,True,False,False,False
+v3_world_cup_only,V3 World Cup only,CHE,Switzerland,G,30.12,9.06,3.47,1.2449999999999999,0.22999999999999998,Round of 16,True,False,False,False
+v3_world_cup_only,V3 World Cup only,IRN,Iran,B,40.839999999999996,16.855,4.385,1.045,0.19,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,CRI,Costa Rica,E,28.139999999999997,12.385,3.225,1.13,0.16999999999999998,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,SEN,Senegal,A,36.46,14.45,3.8600000000000003,0.9400000000000001,0.11499999999999999,Round of 16,True,False,False,False
+v3_world_cup_only,V3 World Cup only,CAN,Canada,F,34.365,11.265,2.365,0.7000000000000001,0.11,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,QAT,Qatar,A,33.235,13.13,3.415,0.89,0.1,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,TUN,Tunisia,D,32.37,6.98,2.825,0.7100000000000001,0.08499999999999999,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,POL,Poland,C,21.85,7.22,2.595,0.74,0.08499999999999999,Round of 16,True,False,False,False
+v3_world_cup_only,V3 World Cup only,SAU,Saudi Arabia,C,20.7,6.265,2.265,0.565,0.08499999999999999,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,WAL,Wales,B,27.215,9.085,1.82,0.33999999999999997,0.055,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,CMR,Cameroon,G,14.149999999999999,2.87,0.8099999999999999,0.185,0.025,Group Stage,False,False,False,False
+v3_world_cup_only,V3 World Cup only,GHA,Ghana,H,10.625,1.18,0.26,0.055,0.0,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,BRA,Brazil,G,96.705,79.67,59.105,45.225,35.565000000000005,Quarter-final,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,ARG,Argentina,C,94.08,76.455,57.915000000000006,31.35,21.935,Champion,True,True,True,True
+v3_all_international_since_anchor,V3 all international since anchor,DEU,Germany,E,71.15,49.64,25.724999999999998,15.35,7.19,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,ESP,Spain,E,68.91000000000001,45.015,22.515,13.0,5.715,Round of 16,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,FRA,France,D,81.905,44.074999999999996,29.39,13.639999999999999,4.97,Final,True,True,True,False
+v3_all_international_since_anchor,V3 all international since anchor,BEL,Belgium,F,76.775,38.86,19.52,10.81,3.5900000000000003,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,URY,Uruguay,H,67.46,33.21,16.75,9.264999999999999,3.04,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,MEX,Mexico,C,68.88,37.169999999999995,22.31,9.25,2.8649999999999998,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,NLD,Netherlands,A,74.035,45.7,20.175,7.01,2.835,Quarter-final,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,ENG,England,B,77.81,50.029999999999994,21.8,8.555,2.8049999999999997,Quarter-final,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,PRT,Portugal,H,66.095,30.145,14.205000000000002,7.575,2.5100000000000002,Quarter-final,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,USA,United States,B,62.224999999999994,34.089999999999996,12.540000000000001,4.03,1.3,Round of 16,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,KOR,South Korea,H,49.705,18.365000000000002,6.98,3.145,0.8500000000000001,Round of 16,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,JPN,Japan,E,35.735,16.735,6.505,2.73,0.645,Round of 16,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,HRV,Croatia,F,49.325,16.74,5.775,2.4250000000000003,0.63,Semi-final,True,True,False,False
+v3_all_international_since_anchor,V3 all international since anchor,SRB,Serbia,G,45.315,17.25,6.23,2.8049999999999997,0.6,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,DNK,Denmark,D,47.57,14.549999999999999,6.959999999999999,1.92,0.46499999999999997,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,CHE,Switzerland,G,37.76,12.85,4.475,1.92,0.345,Round of 16,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,MAR,Morocco,F,40.86,12.9,4.055000000000001,1.4449999999999998,0.345,Semi-final,True,True,False,False
+v3_all_international_since_anchor,V3 all international since anchor,CRI,Costa Rica,E,24.205,10.825,3.73,1.5,0.335,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,AUS,Australia,D,36.595,9.115,3.755,0.935,0.22999999999999998,Round of 16,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,QAT,Qatar,A,58.575,21.9,6.155,0.645,0.215,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,CAN,Canada,F,33.040000000000006,9.285,2.41,0.7799999999999999,0.21,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,IRN,Iran,B,36.199999999999996,14.940000000000001,4.135,0.915,0.19,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,SEN,Senegal,A,36.215,14.46,3.83,0.8999999999999999,0.155,Round of 16,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,ECU,Ecuador,A,31.175000000000004,11.31,2.7449999999999997,0.625,0.12,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,TUN,Tunisia,D,33.93,7.6899999999999995,2.97,0.5950000000000001,0.105,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,POL,Poland,C,20.875,6.49,2.29,0.43499999999999994,0.075,Round of 16,True,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,GHA,Ghana,H,16.74,3.375,0.855,0.26,0.05,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,CMR,Cameroon,G,20.22,5.135,1.165,0.38999999999999996,0.045,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,SAU,Saudi Arabia,C,16.165,4.455,1.635,0.295,0.034999999999999996,Group Stage,False,False,False,False
+v3_all_international_since_anchor,V3 all international since anchor,WAL,Wales,B,23.765,7.57,1.395,0.27499999999999997,0.034999999999999996,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,BRA,Brazil,G,97.225,79.77,64.115,45.905,36.04,Quarter-final,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,ARG,Argentina,C,95.165,79.16,64.605,38.714999999999996,27.41,Champion,True,True,True,True
+v4_all_international_since_anchor,V4 all international since anchor,DEU,Germany,E,74.335,53.125,23.78,12.86,5.7700000000000005,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,FRA,France,D,80.36,39.684999999999995,25.41,12.385,4.255,Final,True,True,True,False
+v4_all_international_since_anchor,V4 all international since anchor,ESP,Spain,E,66.685,45.51,20.19,10.495000000000001,3.965,Round of 16,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,URY,Uruguay,H,72.655,35.425000000000004,20.305,10.945,3.7800000000000002,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,PRT,Portugal,H,71.655,34.294999999999995,18.865000000000002,10.040000000000001,3.465,Quarter-final,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,MEX,Mexico,C,70.93,41.05,25.03,10.89,3.295,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,NLD,Netherlands,A,76.3,47.894999999999996,19.665,7.93,2.945,Quarter-final,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,BEL,Belgium,F,75.58500000000001,36.309999999999995,15.065000000000001,7.124999999999999,2.075,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,ENG,England,B,72.775,45.96,18.065,6.895,2.03,Quarter-final,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,USA,United States,B,67.04,40.19,14.555000000000001,4.99,1.185,Round of 16,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,SRB,Serbia,G,47.12,18.27,8.200000000000001,3.225,0.655,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,DNK,Denmark,D,53.945,16.205,8.125,2.55,0.49,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,HRV,Croatia,F,51.185,17.755000000000003,5.1450000000000005,1.775,0.395,Semi-final,True,True,False,False
+v4_all_international_since_anchor,V4 all international since anchor,KOR,South Korea,H,39.785,11.655,4.784999999999999,1.6199999999999999,0.38999999999999996,Round of 16,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,CHE,Switzerland,G,38.675,13.81,5.185,1.965,0.345,Round of 16,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,JPN,Japan,E,33.655,16.38,5.1499999999999995,1.7950000000000002,0.33,Round of 16,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,CRI,Costa Rica,E,25.324999999999996,11.04,3.06,1.055,0.19,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,SEN,Senegal,A,37.305,14.305000000000001,3.705,0.91,0.16999999999999998,Round of 16,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,MAR,Morocco,F,45.22,13.77,3.2199999999999998,0.98,0.155,Semi-final,True,True,False,False
+v4_all_international_since_anchor,V4 all international since anchor,AUS,Australia,D,38.39,8.68,3.4750000000000005,0.815,0.145,Round of 16,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,ECU,Ecuador,A,41.025,16.575,4.465,1.105,0.13999999999999999,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,IRN,Iran,B,37.025000000000006,15.934999999999999,3.7350000000000003,0.775,0.13,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,POL,Poland,C,17.37,5.33,2.09,0.5,0.075,Round of 16,True,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,TUN,Tunisia,D,27.305,4.845,1.775,0.27499999999999997,0.04,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,CAN,Canada,F,28.01,6.11,0.9900000000000001,0.245,0.04,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,SAU,Saudi Arabia,C,16.535,5.045,1.725,0.38999999999999996,0.034999999999999996,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,CMR,Cameroon,G,16.98,4.255,1.28,0.37,0.025,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,WAL,Wales,B,23.16,7.71,1.385,0.26,0.02,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,QAT,Qatar,A,45.37,11.43,2.19,0.06999999999999999,0.01,Group Stage,False,False,False,False
+v4_all_international_since_anchor,V4 all international since anchor,GHA,Ghana,H,15.905,2.52,0.6649999999999999,0.145,0.005,Group Stage,False,False,False,False

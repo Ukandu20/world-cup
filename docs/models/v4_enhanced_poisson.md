@@ -2,9 +2,9 @@
 
 ## Purpose
 
-V4 is an experimental model family built alongside V3. It keeps the V3 expected-goals structure but adds the main improvements identified in `v3_poisson_updated.md`: quadratic recent-form weighting, World Cup last-5 goal-difference features, Dixon-Coles low-score correction, stage-specific lambda multipliers, time-decayed training weights, alpha cross-validation, and a rolling-backtest dashboard surface.
+V4 is the current primary dashboard model. It keeps the V3 expected-goals structure but adds the main improvements identified in `v3_poisson_updated.md`: quadratic recent-form weighting, World Cup last-5 goal-difference features, Dixon-Coles low-score correction, stage-specific lambda multipliers, time-decayed training weights, alpha cross-validation, and a rolling-backtest dashboard surface.
 
-V3 remains the stable baseline. V4 should be treated as an improved candidate until validation shows that it is better calibrated and more predictive.
+The 2022 holdout in `docs/model_card.md` now includes V4. V4 should still be read as a richer production-facing model, not as a universal winner on every validation metric.
 
 ## Inputs
 
