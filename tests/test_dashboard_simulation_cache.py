@@ -187,9 +187,22 @@ def test_report_cards_use_primary_v4_artifact_path() -> None:
     assert "load_or_create_artifact" not in dataset_source
     assert "build_v4_probability_artifact" not in dataset_source
     assert "PRIMARY_MODEL" in settings_source
-    assert "official primary V4 enhanced Poisson model projection" in page_source
+    assert "official Enhanced Poisson Model projections" in page_source
     assert "render_filter_bar" not in page_source
     assert "home.V3_MODEL_VERSION" not in page_source
+
+
+def test_report_card_artifact_updated_at_formatter() -> None:
+    assert (
+        team_report_card.format_artifact_updated_at("2026-05-26T06:10:37Z")
+        == "last updated on 2026-05-26 @ 06:10am"
+    )
+    assert (
+        team_report_card.format_artifact_updated_at("2026-05-26T18:45:02Z")
+        == "last updated on 2026-05-26 @ 06:45pm"
+    )
+    assert team_report_card.format_artifact_updated_at(None) == "last updated time unavailable"
+    assert team_report_card.format_artifact_updated_at("not-a-date") == "last updated time unavailable"
 
 
 def test_prewarm_model_writes_official_artifact_without_real_simulation(tmp_path, monkeypatch) -> None:

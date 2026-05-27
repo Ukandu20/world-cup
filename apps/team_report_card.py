@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import html
 from collections.abc import Iterable
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -143,6 +144,18 @@ PLOTLY_EXPORT_CONFIG = {
         "scale": 3,
     }
 }
+
+
+def format_artifact_updated_at(value: str | None) -> str:
+    """Return a compact report-card artifact timestamp label."""
+    if not value:
+        return "last updated time unavailable"
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return "last updated time unavailable"
+    period_label = parsed.strftime("%p").lower()
+    return f"last updated on {parsed:%Y-%m-%d} @ {parsed:%I:%M}{period_label}"
 
 
 def score_to_grade(score: float) -> str:
@@ -2017,11 +2030,10 @@ def render_team_report_card_page() -> None:
     labels = [f'{row.display_name} (Group {row.group_code})' for row in team_choices.itertuples(index=False)]
     query_team_id = get_query_team_param()
     selected_index = team_ids.index(query_team_id) if query_team_id in team_ids else 0
-    artifact_source = dataset.get("artifact_source", "runtime")
-    artifact_created_at = dataset.get("artifact_created_at_utc") or "unknown time"
+    artifact_updated_at = format_artifact_updated_at(dataset.get("artifact_created_at_utc"))
     st.caption(
-        f"This report card uses the official primary V4 enhanced Poisson model projection, cached from the {artifact_source} "
-        f"artifact created at {artifact_created_at}, with {official_simulations:,} simulations, "
+        f"This report card uses the official Enhanced Poisson Model projections | "
+        f"{artifact_updated_at} |  "
         f"the last {official_match_window} Elo-rated matches, "
         "historical World Cup pedigree, and the modal deterministic bracket."
     )
@@ -2029,7 +2041,7 @@ def render_team_report_card_page() -> None:
     selector_columns = st.columns([2, 1])
     with selector_columns[0]:
         selected_team_id = st.selectbox(
-            "Team report",
+            "Choose a team to view",
             team_ids,
             index=selected_index,
             format_func=lambda value: labels[team_ids.index(value)],
