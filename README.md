@@ -37,6 +37,18 @@ The historical EDA layer connects tournament outcomes to interpretable signals s
 - **Product analytics:** converts model output into a Streamlit dashboard, probability tables, bracket projections, and team report cards.
 - **Engineering hygiene:** includes reusable modules, dataset builders, model documentation, validation artifacts, GitHub Actions, and pytest coverage for simulation invariants.
 
+## Data Sources
+
+- [`jfjelstul/worldcup`](https://github.com/jfjelstul/worldcup): historical World Cup match, team, squad, placement, and tournament-structure reference data.
+- [Kaggle: FIFA World Cup Complete History 1930-2022](https://www.kaggle.com/datasets/mafaqbhatti/fifa-world-cup-complete-history-19302022): historical World Cup summaries and EDA inputs.
+- [Kaggle: International Football Results from 1872](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017): international match results, goalscorers, shootouts, and former-name data used for lead-in form and model training.
+- [World Football Elo Ratings](https://eloratings.net/): Elo snapshots, Elo changes, and team-strength signals.
+- [FIFA.com](https://www.fifa.com/): official 2026 tournament, ranking, fixture, host, and competition reference information.
+- [Wikipedia: 2026 FIFA World Cup](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup): 2026 tournament format, group, venue, and fixture cross-checking.
+- [Wikipedia: 2026 FIFA World Cup squads](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads): squad/status reference where applicable.
+
+Original sources retain their own licenses and terms. This repository stores processed snapshots for portfolio, research, and reproducibility purposes.
+
 ## Validation Summary
 
 The published validation is a 2022 World Cup holdout using `20,000` simulations, match window `10`, and seed `20260403`.
