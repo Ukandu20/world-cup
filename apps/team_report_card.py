@@ -1121,6 +1121,36 @@ def report_card_css() -> str:
         font-weight: 900;
         line-height: 1;
     }
+    .trc-what-matters {
+        border: 1px solid var(--trc-line);
+        border-radius: 8px;
+        background: rgba(246, 235, 216, 0.88);
+        padding: 14px 16px;
+        margin: 0.5rem 0 1rem;
+        color: var(--trc-text);
+        box-shadow: 0 6px 14px rgba(58, 42, 26, 0.05);
+    }
+    .trc-what-title {
+        color: var(--trc-muted);
+        font-size: 0.74rem;
+        font-weight: 900;
+        letter-spacing: 0.07em;
+        margin-bottom: 0.55rem;
+        text-transform: uppercase;
+    }
+    .trc-what-matters ul {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.45rem 1rem;
+        margin: 0;
+        padding-left: 1.05rem;
+    }
+    .trc-what-matters li {
+        margin: 0;
+        color: var(--trc-text);
+        line-height: 1.35;
+        font-size: 0.94rem;
+    }
     .stTabs [data-baseweb="tab-list"] {
         border-bottom: 1px solid var(--trc-line);
         gap: 8px;
@@ -1139,14 +1169,16 @@ def report_card_css() -> str:
     @media (max-width: 1200px) {
         .trc-facts,
         .trc-subject-grid,
-        .trc-kpi-grid {
+        .trc-kpi-grid,
+        .trc-what-matters ul {
             grid-template-columns: repeat(2, minmax(0, 1fr));
         }
     }
     @media (max-width: 700px) {
         .trc-facts,
         .trc-subject-grid,
-        .trc-kpi-grid {
+        .trc-kpi-grid,
+        .trc-what-matters ul {
             grid-template-columns: 1fr;
         }
     }
@@ -1300,13 +1332,38 @@ def render_kpi_cards(values: list[tuple[str, object]]) -> None:
     cards = "".join(
         (
             f'<div class="trc-kpi">'
-            f'<div class="trc-kpi-label">{label}</div>'
-            f'<div class="trc-kpi-value">{value}</div>'
+            f'<div class="trc-kpi-label">{html.escape(str(label))}</div>'
+            f'<div class="trc-kpi-value">{html.escape(str(value))}</div>'
             f"</div>"
         )
         for label, value in values
     )
     st.markdown(f'<div class="trc-kpi-grid">{cards}</div>', unsafe_allow_html=True)
+
+
+def render_what_matters_summary(title: str, bullets: list[str]) -> None:
+    resolved_bullets = [str(bullet).strip() for bullet in bullets if str(bullet).strip()]
+    if not resolved_bullets:
+        return
+    bullet_items = "".join(f"<li>{html.escape(bullet)}</li>" for bullet in resolved_bullets)
+    st.markdown(
+        (
+            '<section class="trc-what-matters">'
+            f'<div class="trc-what-title">{html.escape(str(title))}</div>'
+            f"<ul>{bullet_items}</ul>"
+            "</section>"
+        ),
+        unsafe_allow_html=True,
+    )
+
+
+def short_match_label(match_date: object, opponent: object, max_opponent_chars: int = 18) -> str:
+    date_value = pd.to_datetime(match_date, errors="coerce")
+    date_text = date_value.strftime("%m-%d") if pd.notna(date_value) else str(match_date or "").strip()
+    opponent_text = str(opponent or "").strip()
+    if len(opponent_text) > max_opponent_chars:
+        opponent_text = f"{opponent_text[: max_opponent_chars - 3].rstrip()}..."
+    return f"{date_text} {opponent_text}".strip()
 
 
 def add_era_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
@@ -1446,7 +1503,7 @@ def render_identity_header(context: dict[str, Any]) -> None:
                 {flag_html}
                 <div>
                   <h1>{display_name}</h1>
-                  <div class="trc-subhead">Group {group_code} · {confederation}</div>
+                  <div class="trc-subhead">Group {group_code} | {confederation}</div>
                 </div>
               </div>
             </div>
@@ -1562,8 +1619,144 @@ def prepare_team_historical_profile(context: dict[str, Any]) -> pd.DataFrame:
     return team_history
 
 
-def render_historical_team_charts(context: dict[str, Any]) -> None:
-    history = prepare_team_historical_profile(context)
+def build_history_kpis(history: pd.DataFrame) -> list[tuple[str, object]]:
+    if history.empty:
+        return []
+    ranked_history = history.dropna(subset=["position"]).sort_values(["position", "edition"], kind="stable")
+    best_row = ranked_history.iloc[0] if not ranked_history.empty else history.sort_values("edition", kind="stable").iloc[0]
+    latest_row = history.sort_values("edition", kind="stable").iloc[-1]
+    appearances = int(history["edition"].nunique())
+    matches = pd.to_numeric(history["matches_played"], errors="coerce").fillna(0.0)
+    goals_for = pd.to_numeric(history["goals_for"], errors="coerce").fillna(0.0).sum()
+    goals_against = pd.to_numeric(history["goals_against"], errors="coerce").fillna(0.0).sum()
+    total_matches = float(matches.sum())
+    placement_labels = history["placement"].fillna("").astype(str).str.lower()
+    advanced_finishes = int(placement_labels.ne("group stage").sum())
+    return [
+        ("Appearances", appearances),
+        ("Best Finish", str(best_row["placement_label"])),
+        ("Latest", f"{int(latest_row['edition'])}: {latest_row['placement_label']}"),
+        ("Goals/Game", f"{goals_for / total_matches:.2f}" if total_matches else "N/A"),
+        ("Against/Game", f"{goals_against / total_matches:.2f}" if total_matches else "N/A"),
+        ("Advanced Runs", advanced_finishes),
+    ]
+
+
+def build_history_summary(context: dict[str, Any], history: pd.DataFrame) -> list[str]:
+    team_name = str(context["team_row"].get("display_name", context["team_row"].get("team_id", "This team")))
+    if history.empty:
+        if is_debut_tournament(context["team_row"]):
+            return [f"{team_name} is making a debut World Cup appearance, so the history tab is intentionally sparse."]
+        return [f"No historical World Cup placement or scoring history is available for {team_name} in the current data."]
+
+    ranked_history = history.dropna(subset=["position"]).sort_values(["position", "edition"], kind="stable")
+    best_row = ranked_history.iloc[0] if not ranked_history.empty else history.sort_values("edition", kind="stable").iloc[0]
+    latest_row = history.sort_values("edition", kind="stable").iloc[-1]
+    matches = pd.to_numeric(history["matches_played"], errors="coerce").fillna(0.0)
+    goals_for = pd.to_numeric(history["goals_for"], errors="coerce").fillna(0.0).sum()
+    goals_against = pd.to_numeric(history["goals_against"], errors="coerce").fillna(0.0).sum()
+    total_matches = float(matches.sum())
+    scoring_note = (
+        f"Historical World Cup scoring balance is {goals_for / total_matches:.2f} for and {goals_against / total_matches:.2f} against per match."
+        if total_matches
+        else "Historical scoring-rate context is unavailable because match counts are missing."
+    )
+    return [
+        f"{team_name} has {history['edition'].nunique()} World Cup appearance(s) in the historical data.",
+        f"Best finish: {best_row['placement_label']} in {int(best_row['edition'])}.",
+        f"Most recent appearance: {int(latest_row['edition'])}, finishing {latest_row['placement_label']}.",
+        scoring_note,
+    ]
+
+
+def build_road_here_summary(context: dict[str, Any]) -> list[str]:
+    bullets: list[str] = []
+    qualification_path = context["qualification_path"].copy()
+    recent_matches = context["recent_matches"].copy()
+    if not qualification_path.empty:
+        wins = int(qualification_path["Result"].eq("W").sum())
+        draws = int(qualification_path["Result"].eq("D").sum())
+        losses = int(qualification_path["Result"].eq("L").sum())
+        points = int(qualification_path["points"].sum())
+        goal_difference = int(qualification_path["goal_difference"].sum())
+        bullets.append(f"Qualification record: {wins}-{draws}-{losses}, {points} points, {goal_difference:+d} goal difference.")
+    else:
+        bullets.append("No dedicated World Cup qualification-path data is available for this team.")
+
+    if not recent_matches.empty:
+        wins = int(recent_matches["Result"].eq("W").sum())
+        draws = int(recent_matches["Result"].eq("D").sum())
+        losses = int(recent_matches["Result"].eq("L").sum())
+        latest = recent_matches.sort_values(["date", "lead_in_id"], ascending=[False, False], kind="stable").iloc[0]
+        score_series = pd.to_numeric(recent_matches["Performance Score"], errors="coerce")
+        bullets.extend(
+            [
+                f"Recent form over the selected window: {wins}-{draws}-{losses}.",
+                f"Latest match: {latest['Date']} vs {latest['Opponent']}, {latest['Score']} ({latest['Result']}), Elo {latest['Elo Change']}.",
+            ]
+        )
+        if score_series.notna().any():
+            strongest = recent_matches.loc[score_series.idxmax()]
+            weakest = recent_matches.loc[score_series.idxmin()]
+            bullets.append(
+                f"Best recent signal: {strongest['Date']} vs {strongest['Opponent']} graded {strongest['Grade']}; weakest: {weakest['Date']} vs {weakest['Opponent']} graded {weakest['Grade']}."
+            )
+    else:
+        bullets.append("No recent match history is available for this team.")
+    return bullets
+
+
+def build_outlook_summary(context: dict[str, Any]) -> list[str]:
+    group_table = context["group_finish_table"].copy()
+    stage_table = context["stage_probability_table"].copy()
+    expected_group = group_table.sort_values("Probability", ascending=False, kind="stable").iloc[0]
+    knockout_prob = float(stage_table.loc[stage_table["Stage"].eq("Round of 32"), "Probability"].iloc[0])
+    champion_prob = float(stage_table.loc[stage_table["Stage"].eq("Winner"), "Probability"].iloc[0])
+    first_knockout = context["first_knockout_match"]
+    if first_knockout is None:
+        path_note = "Modal bracket status: projected group-stage exit."
+    else:
+        path_note = (
+            f"Modal first knockout test: {first_knockout['Stage']} vs {first_knockout['Opponent']} "
+            f"at {format_percent(first_knockout['Matchup Win %'])} matchup win probability."
+        )
+    return [
+        f"Most likely group finish: {expected_group['Finish']} ({format_percent(expected_group['Probability'])}).",
+        f"Knockout qualification chance: {format_percent(knockout_prob)}; title chance: {format_percent(champion_prob)}.",
+        path_note,
+        "All outlook items are model projections, not fixed tournament outcomes.",
+    ]
+
+
+def build_outlook_decision_notes(context: dict[str, Any]) -> tuple[list[str], list[str]]:
+    stage_table = context["stage_probability_table"].copy()
+    group_table = context["group_finish_table"].copy()
+    subject_rows = list(context["subject_rows"])
+    strongest = max(subject_rows, key=lambda row: float(row["score"]))
+    weakest = min(subject_rows, key=lambda row: float(row["score"]))
+    top_two_prob = float(group_table.loc[group_table["Finish"].isin(["1st", "2nd"]), "Probability"].sum())
+    qf_prob = float(stage_table.loc[stage_table["Stage"].eq("Quarter-finals"), "Probability"].iloc[0])
+    champion_prob = float(stage_table.loc[stage_table["Stage"].eq("Winner"), "Probability"].iloc[0])
+    first_knockout = context["first_knockout_match"]
+    if first_knockout is None:
+        path_requirement = "Outperform the modal bracket enough to escape the group."
+    else:
+        path_requirement = f"Convert the projected {first_knockout['Stage']} matchup against {first_knockout['Opponent']}."
+    upside = [
+        f"Lean on the strongest report-card area: {strongest['subject']} ({float(strongest['score']):.1f}/10).",
+        f"Finish top two in the group path often enough ({format_percent(top_two_prob)} combined model probability).",
+        path_requirement,
+    ]
+    risks = [
+        f"Main report-card pressure point: {weakest['subject']} ({float(weakest['score']):.1f}/10).",
+        f"Quarter-final-or-better probability is {format_percent(qf_prob)}, so deep-run margin is limited if early matchups turn unfavorable.",
+        f"Title probability remains {format_percent(champion_prob)}, which keeps expectations grounded even for strong teams.",
+    ]
+    return upside, risks
+
+
+def render_historical_team_charts(context: dict[str, Any], history: pd.DataFrame | None = None) -> None:
+    history = prepare_team_historical_profile(context) if history is None else history
     team_name = str(context["team_row"].get("display_name", context["team_row"].get("team_id", "Team")))
     if history.empty:
         if is_debut_tournament(context["team_row"]):
@@ -1702,6 +1895,10 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
     go, _ = build_plotly_figure_library()
     chart_df = qualification_path.copy()
     chart_df["match_index"] = range(len(chart_df))
+    chart_df["short_match_label"] = [
+        short_match_label(match_date, opponent)
+        for match_date, opponent in zip(chart_df["date"], chart_df["Opponent"], strict=False)
+    ]
     result_colors = qualification_path["Result"].map(
         {"W": CHART_POSITIVE_COLOR, "D": "#C99700", "L": CHART_NEGATIVE_COLOR}
     ).fillna(CHART_AXIS_COLOR)
@@ -1732,8 +1929,8 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
     )
     apply_report_card_chart_style(timeline_fig, "Qualification Results Timeline", height=420, country_name=team_name)
     add_qualification_stage_backgrounds(timeline_fig, chart_df)
-    timeline_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["Date"], tickangle=35)
-    timeline_fig.update_xaxes(title=report_axis_title("Match Date"))
+    timeline_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["short_match_label"], tickangle=35)
+    timeline_fig.update_xaxes(title=report_axis_title("Match"))
     timeline_fig.update_yaxes(title=report_axis_title("Cumulative Points"))
 
     goals_fig = go.Figure()
@@ -1767,7 +1964,7 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
     )
     apply_report_card_chart_style(goals_fig, "Qualification Goals", height=420, country_name=team_name)
     add_qualification_stage_backgrounds(goals_fig, chart_df)
-    goals_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["match_label"], tickangle=35)
+    goals_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["short_match_label"], tickangle=35)
     goals_fig.update_xaxes(title=report_axis_title("Match"))
     goals_fig.update_yaxes(title=report_axis_title("Goals"))
     goals_fig.update_layout(barmode="group")
@@ -1794,14 +1991,15 @@ def render_qualification_path_section(context: dict[str, Any]) -> None:
     apply_report_card_chart_style(elo_fig, "Qualification Elo Path", height=420, country_name=team_name)
     add_qualification_stage_backgrounds(elo_fig, chart_df)
     elo_fig.add_hline(y=0, line_color=CHART_AXIS_COLOR, line_width=1)
-    elo_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["match_label"], tickangle=35)
+    elo_fig.update_xaxes(tickmode="array", tickvals=chart_df["match_index"], ticktext=chart_df["short_match_label"], tickangle=35)
     elo_fig.update_xaxes(title=report_axis_title("Match"))
     elo_fig.update_yaxes(title=report_axis_title("Elo Change"))
 
     render_report_plotly_chart(timeline_fig)
-    goals_column, elo_column = st.columns(2)
-    render_report_column_chart(goals_column, goals_fig)
-    render_report_column_chart(elo_column, elo_fig)
+    with st.expander("Qualification detail charts"):
+        goals_column, elo_column = st.columns(2)
+        render_report_column_chart(goals_column, goals_fig)
+        render_report_column_chart(elo_column, elo_fig)
 
 
 def render_road_here_charts(context: dict[str, Any]) -> None:
@@ -1816,6 +2014,10 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
     chart_df = recent_matches.sort_values(["date", "lead_in_id"], kind="stable").copy()
     chart_df["match_index"] = range(len(chart_df))
     chart_df["match_label"] = chart_df["Date"] + " vs " + chart_df["Opponent"]
+    chart_df["short_match_label"] = [
+        short_match_label(match_date, opponent)
+        for match_date, opponent in zip(chart_df["date"], chart_df["Opponent"], strict=False)
+    ]
     chart_df["match_type"] = [
         match_type_label(competition, match_date)
         for competition, match_date in zip(chart_df["Competition"], chart_df["date"], strict=False)
@@ -1846,7 +2048,7 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
     elo_fig.update_xaxes(
         tickmode="array",
         tickvals=chart_df["match_index"],
-        ticktext=chart_df["match_label"],
+        ticktext=chart_df["short_match_label"],
         tickangle=35,
         title=report_axis_title("Match"),
     )
@@ -1888,7 +2090,7 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
     perf_fig.update_xaxes(
         tickmode="array",
         tickvals=chart_df["match_index"],
-        ticktext=chart_df["match_label"],
+        ticktext=chart_df["short_match_label"],
         tickangle=35,
         title=report_axis_title("Match"),
     )
@@ -1940,40 +2142,19 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
     goal_fig.update_xaxes(
         tickmode="array",
         tickvals=chart_df["match_index"],
-        ticktext=chart_df["match_label"],
+        ticktext=chart_df["short_match_label"],
         tickangle=35,
         title=report_axis_title("Match"),
     )
     goal_fig.update_yaxes(title=report_axis_title("Goals"))
     goal_fig.update_layout(barmode="group")
 
-    breakdown_fig = go.Figure(
-        go.Pie(
-            labels=["Wins", "Draws", "Losses"],
-            values=[
-                int(chart_df["normalized_result"].eq("win").sum()),
-                int(chart_df["normalized_result"].eq("draw").sum()),
-                int(chart_df["normalized_result"].eq("loss").sum()),
-            ],
-            hole=0.55,
-            marker={
-                "colors": [CHART_POSITIVE_COLOR, "#C99700", CHART_NEGATIVE_COLOR],
-                "line": {"color": CHART_BACKGROUND, "width": 2},
-            },
-            textfont={"color": CHART_TEXT_COLOR, "size": 12},
-            hovertemplate="%{label}: %{value} matches<br>%{percent}<extra></extra>",
-        )
-    )
-    apply_report_card_chart_style(breakdown_fig, "Win / Draw / Loss Breakdown", height=340, country_name=team_name)
-    breakdown_fig.update_traces(textinfo="label+value", insidetextfont={"color": CHART_BACKGROUND})
-
     top_cols = st.columns(2)
     render_report_column_chart(top_cols[0], elo_fig)
     render_report_column_chart(top_cols[1], perf_fig)
 
-    middle_cols = st.columns(2)
-    render_report_column_chart(middle_cols[0], goal_fig)
-    render_report_column_chart(middle_cols[1], breakdown_fig)
+    with st.expander("Recent goals detail"):
+        render_report_plotly_chart(goal_fig)
 
 
 def render_outlook_charts(context: dict[str, Any]) -> None:
@@ -2042,11 +2223,17 @@ def render_outlook_charts(context: dict[str, Any]) -> None:
 
 def render_history_tab(context: dict[str, Any]) -> None:
     st.subheader("Historical World Cup Performance")
-    render_historical_team_charts(context)
+    history = prepare_team_historical_profile(context)
+    render_what_matters_summary("What matters", build_history_summary(context, history))
+    history_kpis = build_history_kpis(history)
+    if history_kpis:
+        render_kpi_cards(history_kpis)
+    render_historical_team_charts(context, history)
 
 
 def render_road_here_tab(context: dict[str, Any]) -> None:
     st.subheader("Road Here")
+    render_what_matters_summary("What matters", build_road_here_summary(context))
     render_qualification_path_section(context)
     render_road_here_charts(context)
     render_recent_performance(context)
@@ -2054,6 +2241,7 @@ def render_road_here_tab(context: dict[str, Any]) -> None:
 
 def render_outlook_tab(context: dict[str, Any]) -> None:
     st.subheader("Tournament Outlook")
+    render_what_matters_summary("Projected outlook", build_outlook_summary(context))
     render_outlook_charts(context)
     render_prediction_outlook(context)
     render_fixtures_and_path(context)
@@ -2065,24 +2253,35 @@ def render_recent_performance(context: dict[str, Any]) -> None:
         :,
         ["Date", "Opponent", "Competition", "Result", "Score", "Elo Change", "Performance Score", "Grade"],
     ]
-    st.subheader("Recent Performance")
-    st.dataframe(recent_table, width="stretch", hide_index=True)
+    with st.expander("Recent match log"):
+        st.dataframe(recent_table, width="stretch", hide_index=True)
 
 
 def render_prediction_outlook(context: dict[str, Any]) -> None:
     """Render the probability tables and model explanation."""
-    st.subheader("Prediction Outlook")
+    st.subheader("Projection Tables")
     cols = st.columns(2)
     with cols[0]:
         group_table = context["group_finish_table"].copy()
         group_table["Probability"] = group_table["Probability"].map(format_percent)
-        st.caption("Group Finish Probabilities")
+        st.caption("Model projection: group finish probabilities")
         st.dataframe(group_table, width="stretch", hide_index=True)
     with cols[1]:
         stage_table = context["stage_probability_table"].copy()
         stage_table["Probability"] = stage_table["Probability"].map(format_percent)
-        st.caption("Tournament Stage Probabilities")
+        st.caption("Model projection: tournament stage probabilities")
         st.dataframe(stage_table, width="stretch", hide_index=True)
+
+    upside, risks = build_outlook_decision_notes(context)
+    decision_cols = st.columns(2)
+    with decision_cols[0]:
+        st.caption("What has to go right")
+        for bullet in upside:
+            st.write(f"- {bullet}")
+    with decision_cols[1]:
+        st.caption("Main risk")
+        for bullet in risks:
+            st.write(f"- {bullet}")
 
     st.caption("Why the model likes this team")
     for bullet in context["model_reason_bullets"]:
@@ -2091,18 +2290,18 @@ def render_prediction_outlook(context: dict[str, Any]) -> None:
 
 def render_fixtures_and_path(context: dict[str, Any]) -> None:
     """Render upcoming fixtures and projected knockout path."""
-    st.subheader("Fixtures And Path")
+    st.subheader("Fixtures And Projected Path")
     cols = st.columns(2)
     with cols[0]:
-        st.caption("Group Stage Fixtures")
+        st.caption("Scheduled group-stage fixtures")
         st.dataframe(context["group_fixtures"], width="stretch", hide_index=True)
     with cols[1]:
         first_knockout = context["first_knockout_match"]
         if first_knockout is None:
-            st.caption("Projected Knockout Entry")
+            st.caption("Model projection: knockout entry")
             st.info("The modal bracket currently projects a group-stage exit.")
         else:
-            st.caption("Projected First Knockout Match")
+            st.caption("Model projection: first knockout match")
             st.dataframe(
                 pd.DataFrame(
                     [
@@ -2118,7 +2317,7 @@ def render_fixtures_and_path(context: dict[str, Any]) -> None:
                 hide_index=True,
             )
 
-    st.caption("Projected Knockout Path")
+    st.caption("Model projection: modal knockout path")
     if context["knockout_path"].empty:
         st.info("No knockout path is projected for this team in the modal bracket.")
     else:
