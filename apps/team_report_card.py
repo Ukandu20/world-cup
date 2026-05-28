@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html
+import unicodedata
 from collections.abc import Iterable
 from datetime import datetime
 from pathlib import Path
@@ -117,6 +118,26 @@ CHART_ACCENT_COLOR = "#7A4E2D"
 CHART_SECONDARY_COLOR = "#2F6F73"
 QUALIFICATION_STAGE_COLORS = {"Qualifiers": CHART_SECONDARY_COLOR, "Playoffs": "#C99700"}
 QUALIFICATION_STAGE_DISPLAY_LABELS = {"Qualifiers": "Qualifiers", "Playoffs": "Qualifier playoffs"}
+MATCH_TYPE_COLORS = {
+    "Friendlies": "#8B7355",
+    "World Cup qualifiers": CHART_SECONDARY_COLOR,
+    "Qualifier playoffs": "#C99700",
+    "World Cup finals": CHART_ACCENT_COLOR,
+    "Continental finals": "#8A3FFC",
+    "Continental qualifiers": "#D1495B",
+    "Nations League": "#2F6F3E",
+    "Other tournaments": CHART_AXIS_COLOR,
+}
+MATCH_TYPE_DISPLAY_LABELS = {
+    "Friendlies": "Friendlies",
+    "World Cup qualifiers": "WC qualifiers",
+    "Qualifier playoffs": "Playoffs",
+    "World Cup finals": "WC finals",
+    "Continental finals": "Continental finals",
+    "Continental qualifiers": "Continental qualifiers",
+    "Nations League": "Nations League",
+    "Other tournaments": "Other",
+}
 SOURCE_NOTE = "Data Source: Kaggle | @cartierkut1"
 ERA_COLORS = {
     "Early Era": "#7A4E2D",
@@ -505,6 +526,50 @@ def qualification_stage_label(tournament: object, match_date: object | None = No
 
     label = str(tournament or "").strip().lower()
     return "Playoffs" if "playoff" in label or "play-off" in label or "inter-confederation" in label else "Qualifiers"
+
+
+def match_type_label(tournament: object, match_date: object | None = None) -> str:
+    """Return the report-card match category used for Road Here background bands."""
+    label = (
+        unicodedata.normalize("NFKD", str(tournament or "").strip())
+        .encode("ascii", "ignore")
+        .decode("ascii")
+        .lower()
+    )
+    date_value = pd.to_datetime(match_date, errors="coerce")
+    is_playoff_window = pd.notna(date_value) and QUALIFICATION_PLAYOFF_START <= date_value <= QUALIFICATION_PLAYOFF_END
+
+    if (
+        "inter-confederation" in label
+        or ("world cup" in label and ("playoff" in label or "play-off" in label))
+        or ("fifa world cup qualification" in label and is_playoff_window)
+    ):
+        return "Qualifier playoffs"
+    if "fifa world cup qualification" in label:
+        return "World Cup qualifiers"
+    if "friendly" in label:
+        return "Friendlies"
+    if "nations league" in label:
+        return "Nations League"
+    if "qualification" in label or "qualifier" in label:
+        return "Continental qualifiers"
+    if label == "fifa world cup":
+        return "World Cup finals"
+
+    continental_final_markers = (
+        "african cup of nations",
+        "afc asian cup",
+        "copa america",
+        "gold cup",
+        "uefa euro",
+        "arab cup",
+        "oceania nations cup",
+        "concacaf championship",
+        "copa centroamericana",
+    )
+    if any(marker in label for marker in continental_final_markers):
+        return "Continental finals"
+    return "Other tournaments"
 
 
 def build_qualification_path_table(lead_in_df: pd.DataFrame, team_id: str) -> pd.DataFrame:
@@ -1315,6 +1380,43 @@ def add_qualification_stage_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
     return fig
 
 
+def add_match_type_backgrounds(fig: Any, frame: pd.DataFrame) -> Any:
+    if frame.empty or "match_type" not in frame.columns or "match_index" not in frame.columns:
+        return fig
+
+    match_type_runs: list[dict[str, object]] = []
+    for row in frame.loc[:, ["match_index", "match_type"]].itertuples(index=False):
+        match_type = str(row.match_type)
+        match_index = int(row.match_index)
+        if not match_type_runs or match_type_runs[-1]["match_type"] != match_type:
+            match_type_runs.append({"match_type": match_type, "start": match_index, "end": match_index})
+        else:
+            match_type_runs[-1]["end"] = match_index
+
+    for run in match_type_runs:
+        match_type = str(run["match_type"])
+        start = int(run["start"])
+        end = int(run["end"])
+        fig.add_vrect(
+            x0=start - 0.5,
+            x1=end + 0.5,
+            fillcolor=MATCH_TYPE_COLORS.get(match_type, CHART_AXIS_COLOR),
+            opacity=0.11,
+            layer="below",
+            line_width=0,
+        )
+        fig.add_annotation(
+            text=MATCH_TYPE_DISPLAY_LABELS.get(match_type, match_type),
+            x=(start + end) / 2,
+            y=1.04,
+            xref="x",
+            yref="paper",
+            showarrow=False,
+            font={"size": 9, "color": CHART_AXIS_COLOR},
+        )
+    return fig
+
+
 def render_identity_header(context: dict[str, Any]) -> None:
     """Render the top hero block for the selected team."""
     team_row = context["team_row"]
@@ -1712,36 +1814,49 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
 
     go, _ = build_plotly_figure_library()
     chart_df = recent_matches.sort_values(["date", "lead_in_id"], kind="stable").copy()
-    labels = chart_df["Date"] + " vs " + chart_df["Opponent"]
+    chart_df["match_index"] = range(len(chart_df))
+    chart_df["match_label"] = chart_df["Date"] + " vs " + chart_df["Opponent"]
+    chart_df["match_type"] = [
+        match_type_label(competition, match_date)
+        for competition, match_date in zip(chart_df["Competition"], chart_df["date"], strict=False)
+    ]
 
     elo_fig = go.Figure()
     elo_fig.add_trace(
         go.Scatter(
-            x=labels,
+            x=chart_df["match_index"],
             y=chart_df["post_match_elo"],
             mode="lines+markers",
             name="Post-match Elo",
             line={"color": CHART_SECONDARY_COLOR, "width": 1.8},
             marker={"color": CHART_SECONDARY_COLOR, "size": 6},
-            customdata=chart_df[["Elo Change", "Result", "Score"]],
+            customdata=chart_df[["match_label", "Elo Change", "Result", "Score", "match_type"]],
             hovertemplate=(
-                "Match: %{x}<br>"
+                "Match: %{customdata[0]}<br>"
+                "Type: %{customdata[4]}<br>"
                 "Post-match Elo: %{y:.0f}<br>"
-                "Elo change: %{customdata[0]:+.1f}<br>"
-                "Result: %{customdata[1]}<br>"
-                "Score: %{customdata[2]}<extra></extra>"
+                "Elo change: %{customdata[1]}<br>"
+                "Result: %{customdata[2]}<br>"
+                "Score: %{customdata[3]}<extra></extra>"
             ),
         )
     )
     apply_report_card_chart_style(elo_fig, "Recent Elo Trend", height=340, country_name=team_name)
-    elo_fig.update_xaxes(title=report_axis_title("Match"))
+    add_match_type_backgrounds(elo_fig, chart_df)
+    elo_fig.update_xaxes(
+        tickmode="array",
+        tickvals=chart_df["match_index"],
+        ticktext=chart_df["match_label"],
+        tickangle=35,
+        title=report_axis_title("Match"),
+    )
     elo_fig.update_yaxes(title=report_axis_title("ELO Rating"))
 
     perf_fig = go.Figure()
     performance_delta = chart_df["perf_vs_exp"].astype(float)
     perf_fig.add_trace(
         go.Bar(
-            x=labels,
+            x=chart_df["match_index"],
             y=performance_delta,
             text=performance_delta.map(lambda value: f"{value:+.2f}"),
             textposition="outside",
@@ -1752,11 +1867,12 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
                 "color": performance_delta.map(lambda value: CHART_POSITIVE_COLOR if value >= 0 else CHART_NEGATIVE_COLOR),
                 "line": {"color": CHART_AXIS_COLOR, "width": 0.5},
             },
-            customdata=chart_df[["actual_score", "expected_score"]],
+            customdata=chart_df[["match_label", "actual_score", "expected_score", "match_type"]],
             hovertemplate=(
-                "Match: %{x}<br>"
-                "Actual score: %{customdata[0]:.2f}<br>"
-                "Expected score: %{customdata[1]:.2f}<br>"
+                "Match: %{customdata[0]}<br>"
+                "Type: %{customdata[3]}<br>"
+                "Actual score: %{customdata[1]:.2f}<br>"
+                "Expected score: %{customdata[2]:.2f}<br>"
                 "Difference: %{y:+.2f}<extra></extra>"
             ),
         )
@@ -1767,14 +1883,21 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
         height=340,
         country_name=team_name,
     )
+    add_match_type_backgrounds(perf_fig, chart_df)
     perf_fig.add_hline(y=0, line_color=CHART_AXIS_COLOR, line_width=1)
-    perf_fig.update_xaxes(title=report_axis_title("Match"))
+    perf_fig.update_xaxes(
+        tickmode="array",
+        tickvals=chart_df["match_index"],
+        ticktext=chart_df["match_label"],
+        tickangle=35,
+        title=report_axis_title("Match"),
+    )
     perf_fig.update_yaxes(title=report_axis_title("Performance Differential Score"))
 
     goal_fig = go.Figure()
     goal_fig.add_trace(
         go.Bar(
-            x=labels,
+            x=chart_df["match_index"],
             y=chart_df["team_score"],
             name="Goals Scored",
             marker={"color": CHART_POSITIVE_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
@@ -1782,18 +1905,19 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
             textposition="outside",
             textfont={"color": CHART_TEXT_COLOR, "size": 10},
             cliponaxis=False,
-            customdata=chart_df[["opponent_score", "Result"]],
+            customdata=chart_df[["match_label", "opponent_score", "Result", "match_type"]],
             hovertemplate=(
-                "Match: %{x}<br>"
+                "Match: %{customdata[0]}<br>"
+                "Type: %{customdata[3]}<br>"
                 "Goals scored: %{y:.0f}<br>"
-                "Goals against: %{customdata[0]:.0f}<br>"
-                "Result: %{customdata[1]}<extra></extra>"
+                "Goals against: %{customdata[1]:.0f}<br>"
+                "Result: %{customdata[2]}<extra></extra>"
             ),
         )
     )
     goal_fig.add_trace(
         go.Bar(
-            x=labels,
+            x=chart_df["match_index"],
             y=chart_df["opponent_score"],
             name="Goals Against",
             marker={"color": CHART_NEGATIVE_COLOR, "line": {"color": CHART_AXIS_COLOR, "width": 0.5}},
@@ -1801,17 +1925,25 @@ def render_road_here_charts(context: dict[str, Any]) -> None:
             textposition="outside",
             textfont={"color": CHART_TEXT_COLOR, "size": 10},
             cliponaxis=False,
-            customdata=chart_df[["team_score", "Result"]],
+            customdata=chart_df[["match_label", "team_score", "Result", "match_type"]],
             hovertemplate=(
-                "Match: %{x}<br>"
+                "Match: %{customdata[0]}<br>"
+                "Type: %{customdata[3]}<br>"
                 "Goals against: %{y:.0f}<br>"
-                "Goals scored: %{customdata[0]:.0f}<br>"
-                "Result: %{customdata[1]}<extra></extra>"
+                "Goals scored: %{customdata[1]:.0f}<br>"
+                "Result: %{customdata[2]}<extra></extra>"
             ),
         )
     )
     apply_report_card_chart_style(goal_fig, "Goals Scored vs Goals Against", height=340, country_name=team_name)
-    goal_fig.update_xaxes(title=report_axis_title("Match"))
+    add_match_type_backgrounds(goal_fig, chart_df)
+    goal_fig.update_xaxes(
+        tickmode="array",
+        tickvals=chart_df["match_index"],
+        ticktext=chart_df["match_label"],
+        tickangle=35,
+        title=report_axis_title("Match"),
+    )
     goal_fig.update_yaxes(title=report_axis_title("Goals"))
     goal_fig.update_layout(barmode="group")
 
