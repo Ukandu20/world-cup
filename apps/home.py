@@ -16,12 +16,19 @@ from apps.dashboard.data import *  # noqa: F401,F403
 from apps.dashboard.modeling import *  # noqa: F401,F403
 from apps.dashboard.rendering import *  # noqa: F401,F403
 from apps.dashboard.export import (
+    BatchExportArtifact,
+    ExportArtifact,
     build_export_stem,
     build_screenshot_command,
+    cleanup_export_artifacts,
+    create_export_zip,
     estimate_export_column_count,
     estimate_export_viewport_size,
+    export_all_tables,
     export_bracket_png,
+    export_current_view,
     export_document_png,
+    export_table_view,
     generate_export_suffix,
 )
 from apps.dashboard.pages import *  # noqa: F401,F403
@@ -64,158 +71,6 @@ def simulate_probabilities(
         if key in simulator_signature.parameters:
             simulator_kwargs[key] = value
     return simulate_group_probabilities(**simulator_kwargs)
-
-
-def export_current_view(
-    view_mode: str,
-    selected_group: str,
-    tables: list[dict[str, object]],
-    bracket_data: dict[str, object] | None = None,
-    metadata_lookup: dict[str, dict[str, str]] | None = None,
-    simulation_count: int | None = None,
-) -> Path:
-    """Export the currently visible dashboard view as one PNG file."""
-    export_suffix = generate_export_suffix()
-    if view_mode == "Single group":
-        return export_document_png(
-            f"group_{selected_group.lower()}_view",
-            f"Group {selected_group} View",
-            tables,
-            multi_column=False,
-            export_suffix=export_suffix,
-        )
-    if view_mode == "All groups":
-        return export_document_png(
-            "all_groups_view",
-            "All Groups View",
-            tables,
-            multi_column=True,
-            export_suffix=export_suffix,
-        )
-    if view_mode == "Bracket":
-        if bracket_data is None or metadata_lookup is None:
-            raise ValueError("Bracket export requires bracket_data and metadata_lookup")
-        return export_bracket_png(
-            "bracket_view",
-            "Bracket View",
-            bracket_data,
-            metadata_lookup,
-            simulation_count=simulation_count,
-            export_suffix=export_suffix,
-        )
-    if view_mode == "Form":
-        return export_document_png(
-            "form_view",
-            "Form View",
-            tables,
-            multi_column=False,
-            export_suffix=export_suffix,
-        )
-    return export_document_png(
-        "all_Countries_view",
-        "All Countries View",
-        tables,
-        multi_column=False,
-        export_suffix=export_suffix,
-    )
-
-
-def export_all_tables(
-    probability_df: pd.DataFrame | None = None,
-    form_df: pd.DataFrame | None = None,
-    simulation_count: int | None = None,
-    form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
-) -> list[Path]:
-    """Export the probability tables and optionally the form table as PNG files."""
-    exported_paths: list[Path] = []
-    export_suffix = generate_export_suffix()
-    if probability_df is not None:
-        for group_code in GROUP_ORDER:
-            group_df = projected_group_table_frame(probability_df, group_code)
-            if group_df.empty:
-                continue
-            exported_paths.append(
-                export_document_png(
-                    f"group_{group_code.lower()}",
-                    f"Group {group_code}",
-                    [
-                        {
-                            "title": f"Group {group_code}",
-                            "frame": group_df,
-                            "include_group_column": False,
-                            "include_ko_column": False,
-                            "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
-                            "group_pill_label": group_code,
-                            "table_kind": "probability",
-                        }
-                    ],
-                    multi_column=False,
-                    export_suffix=export_suffix,
-                )
-            )
-
-        combined = all_teams_table_frame(probability_df)
-        exported_paths.append(
-            export_document_png(
-                "all_Countries",
-                "All Countries",
-                [
-                    {
-                        "title": "All Countries",
-                        "frame": combined,
-                        "include_group_column": True,
-                        "include_ko_column": True,
-                        "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
-                        "group_pill_label": None,
-                        "table_kind": "probability",
-                    }
-                ],
-                multi_column=False,
-                export_suffix=export_suffix,
-            )
-        )
-    if form_df is not None:
-        all_countries_tables = current_form_view_tables(
-            form_df,
-            "All Countries",
-            "",
-            form_match_window=form_match_window,
-        )
-        all_confederations_tables = current_form_view_tables(
-            form_df,
-            "All confederations",
-            "",
-            form_match_window=form_match_window,
-        )
-        exported_paths.append(
-            export_document_png(
-                "form_all_countries",
-                "All Countries",
-                all_countries_tables,
-                multi_column=False,
-                export_suffix=export_suffix,
-            )
-        )
-        exported_paths.append(
-            export_document_png(
-                "form_all_confederations",
-                "All Confederations",
-                all_confederations_tables,
-                multi_column=False,
-                export_suffix=export_suffix,
-            )
-        )
-        for table in all_confederations_tables:
-            exported_paths.append(
-                export_document_png(
-                    str(table["stem"]),
-                    str(table["title"]),
-                    [table],
-                    multi_column=False,
-                    export_suffix=export_suffix,
-                )
-            )
-    return exported_paths
 
 
 def build_navigation_pages() -> dict[str, list[st.Page]]:

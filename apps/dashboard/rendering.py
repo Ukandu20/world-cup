@@ -98,10 +98,14 @@ def render_filter_bar(title: str = "Filters", expanded: bool = True) -> st.delta
     return st.expander(title, expanded=expanded)
 
 
-def shared_css() -> str:
+def shared_css(include_flag_icons: bool = True) -> str:
     """Return the shared CSS used by both Streamlit rendering and exported HTML files."""
-    return """
-    @import url('https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css');
+    flag_icons_import = (
+        "@import url('https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css');\n\n"
+        if include_flag_icons
+        else ""
+    )
+    return flag_icons_import + """
 
     :root {
         --wc-bg: #EFE3CF;
@@ -1247,7 +1251,7 @@ def shared_css() -> str:
 
 def inject_styles() -> None:
     """Inject the dashboard CSS and flag-icons stylesheet into the Streamlit page."""
-    st.markdown(f"<style>{shared_css()}</style>", unsafe_allow_html=True)
+    st.markdown(f"<style>{shared_css(include_flag_icons=True)}</style>", unsafe_allow_html=True)
 
 
 def get_first_kickoff_details(fixtures_df: pd.DataFrame) -> dict[str, str]:
@@ -2364,7 +2368,7 @@ def render_export_document(
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(page_title)}</title>
-  <style>{shared_css()}</style>
+  <style>{shared_css(include_flag_icons=False)}</style>
 </head>
 <body class="wc-export-mode">
   <div class="wc-export-page">
@@ -2393,7 +2397,7 @@ def render_bracket_document(
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(page_title)}</title>
-  <style>{shared_css()}</style>
+  <style>{shared_css(include_flag_icons=False)}</style>
 </head>
 <body class="wc-export-mode">
   <div class="wc-export-page">

@@ -2,8 +2,11 @@ from __future__ import annotations
 
 import subprocess
 import tempfile
+import zipfile
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+from typing import Callable
 
 import pandas as pd
 
@@ -17,16 +20,40 @@ from .config import (
     EXPORT_VIEWPORT_HEIGHT,
     GROUP_ORDER,
     SCREENSHOT_CHANNELS,
-    V1_VIEW_OPTIONS,
 )
 from .rendering import (
-    build_bracket_html,
-    build_table_html,
+    all_teams_table_frame,
     current_form_view_tables,
-    current_view_tables,
+    chart_subtitle,
+    projected_group_table_frame,
     render_bracket_document,
     render_export_document,
 )
+
+ProgressCallback = Callable[[int, int, str], None]
+
+
+@dataclass(frozen=True)
+class ExportArtifact:
+    """Download-ready export artifact."""
+
+    path: Path
+    filename: str
+    mime: str
+    data: bytes
+
+
+@dataclass(frozen=True)
+class BatchExportArtifact(ExportArtifact):
+    """Download-ready batch export artifact."""
+
+    png_count: int
+
+
+def build_export_artifact(path: Path, mime: str = "image/png") -> ExportArtifact:
+    """Read an export file and return metadata suitable for st.download_button."""
+    return ExportArtifact(path=path, filename=path.name, mime=mime, data=path.read_bytes())
+
 
 def build_export_stem(filename_stem: str, export_suffix: str | None = None) -> str:
     """Build the export filename stem, adding a unique suffix when requested."""
@@ -36,6 +63,24 @@ def build_export_stem(filename_stem: str, export_suffix: str | None = None) -> s
 def generate_export_suffix() -> str:
     """Generate a timestamp suffix so each export writes a fresh artifact."""
     return datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+
+
+def cleanup_export_artifacts(limit: int = 50) -> None:
+    """Keep only the newest generated PNG/ZIP export artifacts."""
+    if limit < 0 or not EXPORT_DIR.exists():
+        return
+
+    artifacts = [
+        path
+        for path in EXPORT_DIR.iterdir()
+        if path.is_file() and path.suffix.lower() in {".png", ".zip"}
+    ]
+    artifacts.sort(key=lambda path: path.stat().st_mtime, reverse=True)
+    for stale_path in artifacts[limit:]:
+        try:
+            stale_path.unlink(missing_ok=True)
+        except OSError:
+            continue
 
 
 def estimate_export_column_count(table: dict[str, object]) -> int:
@@ -93,7 +138,7 @@ def export_document_png(
     output_stem = build_export_stem(filename_stem, export_suffix=export_suffix)
     output_path = EXPORT_DIR / f"{output_stem}.png"
 
-    with tempfile.TemporaryDirectory(prefix="wc_export_", dir=str(EXPORT_DIR)) as temp_dir:
+    with tempfile.TemporaryDirectory(prefix="wc_export_", ignore_cleanup_errors=True) as temp_dir:
         temp_html_path = Path(temp_dir) / f"{output_stem}.html"
         temp_html_path.write_text(document, encoding="utf-8")
         page_url = temp_html_path.resolve().as_uri()
@@ -111,7 +156,7 @@ def export_document_png(
                 subprocess.run(command, check=True, capture_output=True, text=True)
                 return output_path
             except FileNotFoundError:
-                last_error = "playwright.exe was not found on PATH."
+                last_error = "Playwright was not found on PATH. Install Playwright and a supported browser to use PNG export."
                 break
             except subprocess.CalledProcessError as exc:
                 last_error = (exc.stderr or exc.stdout or str(exc)).strip()
@@ -160,7 +205,7 @@ def export_bracket_png(
     output_stem = build_export_stem(filename_stem, export_suffix=export_suffix)
     output_path = EXPORT_DIR / f"{output_stem}.png"
 
-    with tempfile.TemporaryDirectory(prefix="wc_export_", dir=str(EXPORT_DIR)) as temp_dir:
+    with tempfile.TemporaryDirectory(prefix="wc_export_", ignore_cleanup_errors=True) as temp_dir:
         temp_html_path = Path(temp_dir) / f"{output_stem}.html"
         temp_html_path.write_text(document, encoding="utf-8")
         page_url = temp_html_path.resolve().as_uri()
@@ -177,7 +222,7 @@ def export_bracket_png(
                 subprocess.run(command, check=True, capture_output=True, text=True)
                 return output_path
             except FileNotFoundError:
-                last_error = "playwright.exe was not found on PATH."
+                last_error = "Playwright was not found on PATH. Install Playwright and a supported browser to use PNG export."
                 break
             except subprocess.CalledProcessError as exc:
                 last_error = (exc.stderr or exc.stdout or str(exc)).strip()
@@ -192,29 +237,29 @@ def export_current_view(
     bracket_data: dict[str, object] | None = None,
     metadata_lookup: dict[str, dict[str, str]] | None = None,
     simulation_count: int | None = None,
-) -> Path:
+) -> ExportArtifact:
     """Export the currently visible dashboard view as one PNG file."""
     export_suffix = generate_export_suffix()
     if view_mode == "Single group":
-        return export_document_png(
+        export_path = export_document_png(
             f"group_{selected_group.lower()}_view",
             f"Group {selected_group} View",
             tables,
             multi_column=False,
             export_suffix=export_suffix,
         )
-    if view_mode == "All groups":
-        return export_document_png(
+    elif view_mode == "All groups":
+        export_path = export_document_png(
             "all_groups_view",
             "All Groups View",
             tables,
             multi_column=True,
             export_suffix=export_suffix,
         )
-    if view_mode == "Bracket":
+    elif view_mode == "Bracket":
         if bracket_data is None or metadata_lookup is None:
             raise ValueError("Bracket export requires bracket_data and metadata_lookup")
-        return export_bracket_png(
+        export_path = export_bracket_png(
             "bracket_view",
             "Bracket View",
             bracket_data,
@@ -222,20 +267,61 @@ def export_current_view(
             simulation_count=simulation_count,
             export_suffix=export_suffix,
         )
-    if view_mode == "Form":
-        return export_document_png(
+    elif view_mode == "Form":
+        export_path = export_document_png(
             "form_view",
             "Form View",
             tables,
             multi_column=False,
             export_suffix=export_suffix,
         )
-    return export_document_png(
-        "all_Countries_view",
-        "All Countries View",
+    else:
+        export_path = export_document_png(
+            "all_countries_view",
+            "All Countries View",
+            tables,
+            multi_column=False,
+            export_suffix=export_suffix,
+        )
+
+    cleanup_export_artifacts()
+    return build_export_artifact(export_path)
+
+
+def export_table_view(
+    filename_stem: str,
+    page_title: str,
+    tables: list[dict[str, object]],
+    multi_column: bool,
+    separate_sections: bool = False,
+) -> ExportArtifact:
+    """Export one table view and return a download-ready PNG artifact."""
+    export_path = export_document_png(
+        filename_stem,
+        page_title,
         tables,
-        multi_column=False,
-        export_suffix=export_suffix,
+        multi_column=multi_column,
+        separate_sections=separate_sections,
+        export_suffix=generate_export_suffix(),
+    )
+    cleanup_export_artifacts()
+    return build_export_artifact(export_path)
+
+
+def create_export_zip(exported_paths: list[Path], filename_stem: str, export_suffix: str) -> BatchExportArtifact:
+    """Package generated PNG exports into one flat ZIP artifact."""
+    EXPORT_DIR.mkdir(parents=True, exist_ok=True)
+    zip_path = EXPORT_DIR / f"{build_export_stem(filename_stem, export_suffix)}.zip"
+    with zipfile.ZipFile(zip_path, mode="w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for export_path in exported_paths:
+            archive.write(export_path, arcname=export_path.name)
+    artifact = build_export_artifact(zip_path, mime="application/zip")
+    return BatchExportArtifact(
+        path=artifact.path,
+        filename=artifact.filename,
+        mime=artifact.mime,
+        data=artifact.data,
+        png_count=len(exported_paths),
     )
 
 
@@ -244,53 +330,63 @@ def export_all_tables(
     form_df: pd.DataFrame | None = None,
     simulation_count: int | None = None,
     form_match_window: int = DEFAULT_RECENT_MATCH_WINDOW,
-) -> list[Path]:
-    """Export the probability tables and optionally the form table as PNG files."""
+    progress_callback: ProgressCallback | None = None,
+    zip_filename_stem: str = "dashboard_exports",
+) -> BatchExportArtifact:
+    """Export the probability tables and optionally the form table as one ZIP file."""
     exported_paths: list[Path] = []
     export_suffix = generate_export_suffix()
+    export_jobs: list[tuple[str, Callable[[], Path]]] = []
+
     if probability_df is not None:
         for group_code in GROUP_ORDER:
             group_df = projected_group_table_frame(probability_df, group_code)
             if group_df.empty:
                 continue
-            exported_paths.append(
-                export_document_png(
-                    f"group_{group_code.lower()}",
+            export_jobs.append(
+                (
                     f"Group {group_code}",
+                    lambda group_code=group_code, group_df=group_df: export_document_png(
+                        f"group_{group_code.lower()}",
+                        f"Group {group_code}",
+                        [
+                            {
+                                "title": f"Group {group_code}",
+                                "frame": group_df,
+                                "include_group_column": False,
+                                "include_ko_column": False,
+                                "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
+                                "group_pill_label": group_code,
+                                "table_kind": "probability",
+                            }
+                        ],
+                        multi_column=False,
+                        export_suffix=export_suffix,
+                    ),
+                )
+            )
+
+        combined = all_teams_table_frame(probability_df)
+        export_jobs.append(
+            (
+                "All Countries",
+                lambda combined=combined: export_document_png(
+                    "all_countries",
+                    "All Countries",
                     [
                         {
-                            "title": f"Group {group_code}",
-                            "frame": group_df,
-                            "include_group_column": False,
-                            "include_ko_column": False,
-                            "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
-                            "group_pill_label": group_code,
+                            "title": "All Countries",
+                            "frame": combined,
+                            "include_group_column": True,
+                            "include_ko_column": True,
+                            "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
+                            "group_pill_label": None,
                             "table_kind": "probability",
                         }
                     ],
                     multi_column=False,
                     export_suffix=export_suffix,
-                )
-            )
-
-        combined = all_teams_table_frame(probability_df)
-        exported_paths.append(
-            export_document_png(
-                "all_Countries",
-                "All Countries",
-                [
-                    {
-                        "title": "All Countries",
-                        "frame": combined,
-                        "include_group_column": True,
-                        "include_ko_column": True,
-                        "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
-                        "group_pill_label": None,
-                        "table_kind": "probability",
-                    }
-                ],
-                multi_column=False,
-                export_suffix=export_suffix,
+                ),
             )
         )
     if form_df is not None:
@@ -306,32 +402,50 @@ def export_all_tables(
             "",
             form_match_window=form_match_window,
         )
-        exported_paths.append(
-            export_document_png(
-                "form_all_countries",
-                "All Countries",
-                all_countries_tables,
-                multi_column=False,
-                export_suffix=export_suffix,
+        export_jobs.append(
+            (
+                "Form All Countries",
+                lambda all_countries_tables=all_countries_tables: export_document_png(
+                    "form_all_countries",
+                    "All Countries",
+                    all_countries_tables,
+                    multi_column=False,
+                    export_suffix=export_suffix,
+                ),
             )
         )
-        exported_paths.append(
-            export_document_png(
-                "form_all_confederations",
-                "All Confederations",
-                all_confederations_tables,
-                multi_column=False,
-                export_suffix=export_suffix,
+        export_jobs.append(
+            (
+                "Form All Confederations",
+                lambda all_confederations_tables=all_confederations_tables: export_document_png(
+                    "form_all_confederations",
+                    "All Confederations",
+                    all_confederations_tables,
+                    multi_column=False,
+                    export_suffix=export_suffix,
+                ),
             )
         )
         for table in all_confederations_tables:
-            exported_paths.append(
-                export_document_png(
-                    str(table["stem"]),
+            export_jobs.append(
+                (
                     str(table["title"]),
-                    [table],
-                    multi_column=False,
-                    export_suffix=export_suffix,
+                    lambda table=table: export_document_png(
+                        str(table["stem"]),
+                        str(table["title"]),
+                        [table],
+                        multi_column=False,
+                        export_suffix=export_suffix,
+                    ),
                 )
             )
-    return exported_paths
+
+    total = len(export_jobs)
+    for index, (label, export_job) in enumerate(export_jobs, start=1):
+        if progress_callback is not None:
+            progress_callback(index, total, label)
+        exported_paths.append(export_job())
+
+    artifact = create_export_zip(exported_paths, zip_filename_stem, export_suffix)
+    cleanup_export_artifacts()
+    return artifact

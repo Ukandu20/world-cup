@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+import apps.dashboard.export as dashboard_export  # noqa: E402
+
 from world_cup_simulation import (  # noqa: E402
     THIRD_PLACE_ROUTING_MAP,
     SAMPLE_WEIGHT_POLICY,
@@ -1847,6 +1849,7 @@ def test_v2_view_options_include_confederation_views():
 def test_export_all_tables_uses_single_column_all_confederations_export(monkeypatch):
     home = load_home_module()
     captured_calls = []
+    captured_zip_paths = []
 
     def fake_export_document_png(
         filename_stem,
@@ -1867,8 +1870,19 @@ def test_export_all_tables_uses_single_column_all_confederations_export(monkeypa
         )
         return Path(f"{filename_stem}.png")
 
-    monkeypatch.setattr(home, "export_document_png", fake_export_document_png)
-    monkeypatch.setattr(home, "generate_export_suffix", lambda: "stamp")
+    def fake_create_export_zip(exported_paths, filename_stem, export_suffix):
+        captured_zip_paths.extend(path.name for path in exported_paths)
+        return dashboard_export.BatchExportArtifact(
+            path=Path(f"{filename_stem}_{export_suffix}.zip"),
+            filename=f"{filename_stem}_{export_suffix}.zip",
+            mime="application/zip",
+            data=b"zip",
+            png_count=len(exported_paths),
+        )
+
+    monkeypatch.setattr(dashboard_export, "export_document_png", fake_export_document_png)
+    monkeypatch.setattr(dashboard_export, "create_export_zip", fake_create_export_zip)
+    monkeypatch.setattr(dashboard_export, "generate_export_suffix", lambda: "stamp")
 
     form_df = pd.DataFrame(
         [
@@ -1919,12 +1933,15 @@ def test_export_all_tables_uses_single_column_all_confederations_export(monkeypa
         ]
     )
 
-    home.export_all_tables(form_df=form_df, form_match_window=10)
+    artifact = home.export_all_tables(form_df=form_df, form_match_window=10)
 
     all_confed_call = next(call for call in captured_calls if call["filename_stem"] == "form_all_confederations")
     assert all_confed_call["page_title"] == "All Confederations"
     assert all_confed_call["multi_column"] is False
     assert all_confed_call["separate_sections"] is False
+    assert artifact.filename == "dashboard_exports_stamp.zip"
+    assert artifact.png_count == 4
+    assert "form_all_confederations.png" in captured_zip_paths
 
 
 def test_render_tables_uses_single_column_wrapper_for_stacked_sections(monkeypatch):
@@ -2149,7 +2166,12 @@ def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
         )
         return Path("dummy.png")
 
-    monkeypatch.setattr(home, "export_bracket_png", fake_export_bracket_png)
+    monkeypatch.setattr(dashboard_export, "export_bracket_png", fake_export_bracket_png)
+    monkeypatch.setattr(
+        dashboard_export,
+        "build_export_artifact",
+        lambda path, mime="image/png": dashboard_export.ExportArtifact(path=path, filename=path.name, mime=mime, data=b"png"),
+    )
 
     result = home.export_current_view(
         "Bracket",
@@ -2160,7 +2182,8 @@ def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
         simulation_count=100000,
     )
 
-    assert str(result) == "dummy.png"
+    assert result.filename == "dummy.png"
+    assert result.data == b"png"
     assert captured["filename_stem"] == "bracket_view"
     assert captured["page_title"] == "Bracket View"
     assert captured["simulation_count"] == 100000
@@ -2179,6 +2202,165 @@ def test_build_screenshot_command_supports_forced_viewport():
     assert "--viewport-size" in command
     viewport_index = command.index("--viewport-size")
     assert command[viewport_index + 1] == home.BRACKET_EXPORT_VIEWPORT_SIZE
+
+
+def test_export_document_temp_directory_stays_outside_export_dir(monkeypatch):
+    calls = []
+
+    class FakeTemporaryDirectory:
+        def __init__(self, *args, **kwargs):
+            calls.append(kwargs)
+            self.path = ROOT / "pytest-cache-files-fake-temp"
+
+        def __enter__(self):
+            self.path.mkdir(exist_ok=True)
+            return str(self.path)
+
+        def __exit__(self, exc_type, exc, traceback):
+            return False
+
+    monkeypatch.setattr(dashboard_export.tempfile, "TemporaryDirectory", FakeTemporaryDirectory)
+    monkeypatch.setattr(dashboard_export.subprocess, "run", lambda *args, **kwargs: None)
+
+    dashboard_export.export_document_png("sample", "Sample", [], multi_column=False)
+
+    assert calls
+    assert calls[0]["ignore_cleanup_errors"] is True
+    assert "dir" not in calls[0]
+
+
+def test_export_table_view_returns_download_ready_artifact(monkeypatch):
+    home = load_home_module()
+
+    def fake_export_document_png(*args, **kwargs):
+        return Path("single.png")
+
+    monkeypatch.setattr(dashboard_export, "export_document_png", fake_export_document_png)
+    monkeypatch.setattr(
+        dashboard_export,
+        "build_export_artifact",
+        lambda path, mime="image/png": dashboard_export.ExportArtifact(
+            path=path,
+            filename=path.name,
+            mime=mime,
+            data=b"single png",
+        ),
+    )
+
+    artifact = home.export_table_view("single", "Single", [], multi_column=False)
+
+    assert artifact.filename == "single.png"
+    assert artifact.mime == "image/png"
+    assert artifact.data == b"single png"
+
+
+def test_export_all_tables_invokes_progress_callback(monkeypatch):
+    home = load_home_module()
+    progress_calls = []
+
+    def fake_export_document_png(filename_stem, *args, **kwargs):
+        return Path(f"{filename_stem}.png")
+
+    def fake_create_export_zip(exported_paths, filename_stem, export_suffix):
+        return dashboard_export.BatchExportArtifact(
+            path=Path(f"{filename_stem}_{export_suffix}.zip"),
+            filename=f"{filename_stem}_{export_suffix}.zip",
+            mime="application/zip",
+            data=b"zip",
+            png_count=len(exported_paths),
+        )
+
+    monkeypatch.setattr(dashboard_export, "export_document_png", fake_export_document_png)
+    monkeypatch.setattr(dashboard_export, "create_export_zip", fake_create_export_zip)
+    monkeypatch.setattr(dashboard_export, "generate_export_suffix", lambda: "stamp")
+
+    probability_df = pd.DataFrame(
+        [
+            {
+                "team_id": "ARG",
+                "group_code": "J",
+                "flag_icon_code": "ar",
+                "display_name": "Argentina",
+                "confederation": "CONMEBOL",
+                "world_rank": 1,
+                "elo_rating": 2140,
+                "prob_1": 80.0,
+                "prob_2": 10.0,
+                "prob_3": 5.0,
+                "prob_4": 5.0,
+                "top8_third_prob": 4.0,
+                "ko_prob": 94.0,
+                "r16_prob": 70.0,
+                "qf_prob": 50.0,
+                "sf_prob": 30.0,
+                "final_prob": 20.0,
+                "champion_prob": 10.0,
+            }
+        ]
+    )
+
+    artifact = home.export_all_tables(
+        probability_df=probability_df,
+        progress_callback=lambda index, total, label: progress_calls.append((index, total, label)),
+    )
+
+    assert artifact.png_count == 2
+    assert progress_calls == [(1, 2, "Group J"), (2, 2, "All Countries")]
+
+
+def test_cleanup_export_artifacts_keeps_latest_and_gitkeep(monkeypatch):
+    deleted = []
+
+    class FakeExportPath:
+        def __init__(self, name: str, mtime: float):
+            self.name = name
+            self.suffix = Path(name).suffix
+            self._mtime = mtime
+
+        def is_file(self):
+            return True
+
+        def stat(self):
+            return types.SimpleNamespace(st_mtime=self._mtime)
+
+        def unlink(self, missing_ok=False):
+            deleted.append(self.name)
+
+    class FakeExportDir:
+        def __init__(self, paths):
+            self._paths = paths
+
+        def exists(self):
+            return True
+
+        def iterdir(self):
+            return iter(self._paths)
+
+    fake_paths = [FakeExportPath(f"export_{index:02d}.png", index) for index in range(55)]
+    fake_paths.extend([FakeExportPath(".gitkeep", 100), FakeExportPath("notes.txt", 101)])
+    monkeypatch.setattr(dashboard_export, "EXPORT_DIR", FakeExportDir(fake_paths))
+
+    dashboard_export.cleanup_export_artifacts(limit=50)
+
+    assert sorted(deleted) == [f"export_{index:02d}.png" for index in range(5)]
+    assert ".gitkeep" not in deleted
+    assert "notes.txt" not in deleted
+
+
+def test_export_document_css_omits_flag_icons_cdn():
+    home = load_home_module()
+
+    document = home.render_export_document("Export", [], multi_column=False)
+
+    assert "cdn.jsdelivr.net/npm/flag-icons" not in document
+    assert "wc-export-mode" in document
+
+
+def test_home_reexports_centralized_export_functions():
+    home = load_home_module()
+
+    assert home.export_current_view is dashboard_export.export_current_view
+    assert home.export_all_tables is dashboard_export.export_all_tables
 
 
 def test_build_table_html_all_countries_includes_ko_column_only_when_requested():
