@@ -103,11 +103,42 @@ def shared_css() -> str:
     return """
     @import url('https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css');
 
+    :root {
+        --wc-bg: #EFE3CF;
+        --wc-surface: #F6EBD8;
+        --wc-surface-strong: #E8D5B8;
+        --wc-text: #3A2A1A;
+        --wc-muted: #5A4632;
+        --wc-line: #D8C8AF;
+        --wc-positive: #2F6F3E;
+        --wc-positive-soft: rgba(47, 111, 62, 0.12);
+        --wc-gold: #C99700;
+        --wc-gold-soft: rgba(201, 151, 0, 0.16);
+        --wc-danger: #B23A30;
+        --wc-shadow: rgba(58, 42, 26, 0.07);
+        --wc-font: Gill Sans, Inter, sans-serif;
+    }
     body {
         margin: 0;
-        background: #eef3f8;
-        color: #0f172a;
-        font-family: "Segoe UI", Tahoma, sans-serif;
+        background: var(--wc-bg);
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    .stApp {
+        background: var(--wc-bg);
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    h1, h2, h3, h4, h5, h6,
+    p, label, span,
+    [data-testid="stMarkdownContainer"],
+    [data-testid="stCaptionContainer"] {
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    [data-testid="stCaptionContainer"],
+    .stMarkdown small {
+        color: var(--wc-muted);
     }
     html.wc-export-mode,
     body.wc-export-mode {
@@ -115,10 +146,12 @@ def shared_css() -> str:
         min-width: 100%;
     }
     .block-container {
+        background: var(--wc-bg);
         padding-top: 4.25rem;
         padding-bottom: 2rem;
     }
     .wc-export-page {
+        background: var(--wc-bg);
         padding: 24px;
     }
     .wc-grid {
@@ -148,10 +181,10 @@ def shared_css() -> str:
         min-width: 0;
     }
     .wc-card {
-        border: 1px solid #dfe5ec;
-        border-radius: 18px;
-        background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
-        box-shadow: 0 8px 24px rgba(17, 24, 39, 0.05);
+        border: 1px solid var(--wc-line);
+        border-radius: 10px;
+        background: var(--wc-surface);
+        box-shadow: 0 10px 22px var(--wc-shadow);
         overflow: hidden;
         height: 100%;
         margin: 0.55rem 0 0.85rem;
@@ -169,14 +202,15 @@ def shared_css() -> str:
     }
     .wc-card-title {
         font-size: 1.02rem;
-        font-weight: 700;
-        color: #0f172a;
+        font-weight: 800;
+        color: var(--wc-text);
     }
     .wc-card-subtitle {
         font-size: 0.8rem;
-        color: #64748b;
+        color: var(--wc-muted);
         text-transform: uppercase;
         letter-spacing: 0.05em;
+        font-weight: 800;
     }
     .wc-group-pill {
         min-width: 2.1rem;
@@ -185,9 +219,9 @@ def shared_css() -> str:
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        background: #0f172a;
-        color: #ffffff;
-        font-weight: 700;
+        background: var(--wc-muted);
+        color: var(--wc-bg);
+        font-weight: 800;
         font-size: 0.92rem;
     }
     .wc-table-wrap {
@@ -204,10 +238,10 @@ def shared_css() -> str:
         table-layout: auto;
     }
     .wc-table thead th {
-        background: #0f172a;
-        color: #ffffff;
+        background: var(--wc-muted);
+        color: var(--wc-bg);
         font-size: clamp(0.68rem, 0.64rem + 0.18vw, 0.76rem);
-        font-weight: 700;
+        font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 0.04em;
         padding: 0.78rem 0.65rem;
@@ -225,12 +259,12 @@ def shared_css() -> str:
         width: 56px;
     }
     .wc-table tbody td {
-        border-bottom: 1px solid #e8eef5;
+        border-bottom: 1px solid var(--wc-line);
         padding: 0.72rem 0.65rem;
-        color: #0f172a;
+        color: var(--wc-text);
         font-size: clamp(0.82rem, 0.78rem + 0.2vw, 0.93rem);
         vertical-align: middle;
-        background-color: rgba(255, 255, 255, 0.82);
+        background-color: rgba(246, 235, 216, 0.86);
         overflow-wrap: anywhere;
     }
     .wc-table tbody tr:last-child td {
@@ -255,7 +289,7 @@ def shared_css() -> str:
     .wc-name-cell .fi {
         font-size: 1.18rem;
         border-radius: 999px;
-        box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.08);
+        box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.22);
         flex: 0 0 auto;
     }
     .wc-name-text {
@@ -271,8 +305,8 @@ def shared_css() -> str:
         height: 1.75rem;
         border-radius: 999px;
         overflow: hidden;
-        background: rgba(148, 163, 184, 0.16);
-        box-shadow: inset 0 0 0 1px rgba(148, 163, 184, 0.12);
+        background: rgba(90, 70, 50, 0.14);
+        box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.12);
     }
     .wc-qual-segment {
         position: absolute;
@@ -281,21 +315,21 @@ def shared_css() -> str:
     }
     .wc-qual-segment-top2 {
         bottom: 0;
-        background: linear-gradient(180deg, #22c55e 0%, #15803d 100%);
+        background: linear-gradient(180deg, #4F8A5B 0%, var(--wc-positive) 100%);
     }
     .wc-qual-segment-third {
-        background: linear-gradient(180deg, #fb923c 0%, #ea580c 100%);
+        background: linear-gradient(180deg, #E1B94F 0%, var(--wc-gold) 100%);
     }
     .wc-holder-cell {
-        background: linear-gradient(180deg, #fef3c7 0%, #fde68a 100%);
-        color: #7c4a03;
+        background: linear-gradient(180deg, #F3E4B4 0%, #E8D5A1 100%);
+        color: var(--wc-text);
     }
     .wc-holder-cell .wc-name-text {
-        color: #7c4a03;
+        color: var(--wc-text);
         font-weight: 800;
     }
     .wc-holder-cell .fi {
-        box-shadow: inset 0 0 0 1px rgba(124, 74, 3, 0.18), 0 0 0 2px rgba(251, 191, 36, 0.22);
+        box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.24), 0 0 0 2px var(--wc-gold-soft);
     }
     .wc-prob {
         font-variant-numeric: tabular-nums;
@@ -305,8 +339,9 @@ def shared_css() -> str:
         letter-spacing: 0.08em;
         text-transform: uppercase;
         font-size: 0.78rem;
-        color: #475569;
+        color: var(--wc-muted);
         margin-bottom: 0.35rem;
+        font-weight: 800;
     }
     .wc-grid .wc-table-wrap {
         overflow-x: visible;
@@ -344,6 +379,7 @@ def shared_css() -> str:
     }
     .wc-header {
         margin-bottom: 0.85rem;
+        color: var(--wc-text);
     }
     .wc-header-bar {
         display: flex;
@@ -357,7 +393,7 @@ def shared_css() -> str:
         flex: 0 0 auto;
     }
     .wc-meta {
-        color: #475569;
+        color: var(--wc-muted);
         font-size: 0.92rem;
         margin-top: 0.35rem;
     }
@@ -374,7 +410,59 @@ def shared_css() -> str:
         vertical-align: middle;
     }
     [data-testid="stExpander"] {
+        border: 1px solid var(--wc-line);
+        border-radius: 8px;
+        background: var(--wc-surface);
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.05);
         margin: 0.25rem 0 1rem;
+    }
+    [data-testid="stExpander"] details {
+        border: none;
+    }
+    [data-testid="stExpander"] summary {
+        background: var(--wc-surface-strong);
+        color: var(--wc-text);
+        border-radius: 8px 8px 0 0;
+        font-family: var(--wc-font);
+        font-weight: 800;
+        min-height: 2.65rem;
+        padding: 0.7rem 1rem;
+    }
+    [data-testid="stExpander"] summary svg {
+        color: var(--wc-muted);
+    }
+    [data-testid="stExpander"] summary p,
+    [data-testid="stExpander"] label,
+    [data-testid="stExpander"] p {
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    [data-testid="stExpander"] [role="radiogroup"] label {
+        color: var(--wc-muted);
+        font-weight: 700;
+    }
+    [data-testid="stExpander"] [role="radiogroup"] label:has(input:checked) {
+        color: var(--wc-text);
+    }
+    [data-testid="stExpander"] [data-baseweb="select"] > div {
+        background: var(--wc-surface-strong);
+        border-color: var(--wc-muted);
+        color: var(--wc-text);
+    }
+    .stTabs [data-baseweb="tab-list"] {
+        border-bottom: 1px solid var(--wc-line);
+        gap: 8px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        color: var(--wc-muted);
+        font-family: var(--wc-font);
+        font-weight: 800;
+    }
+    .stTabs [data-baseweb="tab"][aria-selected="true"] {
+        color: var(--wc-text);
+    }
+    .stTabs [data-baseweb="tab-highlight"] {
+        background-color: var(--wc-muted);
     }
     .wc-bracket-board {
         display: grid;
@@ -416,7 +504,7 @@ def shared_css() -> str:
         font-weight: 800;
         letter-spacing: 0.08em;
         text-transform: uppercase;
-        color: #0f172a;
+        color: var(--wc-text);
         padding: 0.2rem 0.1rem;
     }
     .wc-bracket-side-right .wc-bracket-round-title {
@@ -435,19 +523,19 @@ def shared_css() -> str:
         font-weight: 900;
         letter-spacing: 0.12em;
         text-transform: uppercase;
-        color: #0f172a;
+        color: var(--wc-text);
     }
     .wc-bracket-match {
-        border: 1px solid #dfe5ec;
-        border-radius: 16px;
-        background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-        box-shadow: 0 8px 20px rgba(17, 24, 39, 0.05);
+        border: 1px solid var(--wc-line);
+        border-radius: 8px;
+        background: var(--wc-surface);
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.06);
         padding: 0.65rem 0.7rem;
     }
     .wc-bracket-final-column .wc-bracket-match {
         width: 100%;
         max-width: 220px;
-        box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+        box-shadow: 0 12px 26px rgba(58, 42, 26, 0.12);
     }
     .wc-bracket-match-head {
         display: flex;
@@ -461,16 +549,16 @@ def shared_css() -> str:
     }
     .wc-bracket-match-number {
         font-size: 0.72rem;
-        color: #64748b;
-        font-weight: 700;
+        color: var(--wc-muted);
+        font-weight: 800;
         letter-spacing: 0.06em;
         text-transform: uppercase;
     }
     .wc-bracket-match-prob {
         font-size: 0.76rem;
         font-weight: 800;
-        color: #0f766e;
-        background: rgba(13, 148, 136, 0.1);
+        color: var(--wc-bg);
+        background: var(--wc-positive);
         border-radius: 999px;
         padding: 0.18rem 0.45rem;
         white-space: nowrap;
@@ -486,15 +574,15 @@ def shared_css() -> str:
         gap: 0.55rem;
         border-radius: 12px;
         padding: 0.38rem 0.48rem;
-        color: #0f172a;
-        background: rgba(248, 250, 252, 0.9);
+        color: var(--wc-text);
+        background: rgba(239, 227, 207, 0.72);
     }
     .wc-bracket-side-right .wc-bracket-team {
         flex-direction: row-reverse;
     }
     .wc-bracket-team-win {
-        background: linear-gradient(180deg, #dcfce7 0%, #bbf7d0 100%);
-        box-shadow: inset 0 0 0 1px rgba(34, 197, 94, 0.18);
+        background: var(--wc-positive-soft);
+        box-shadow: inset 0 0 0 1px rgba(47, 111, 62, 0.22);
         font-weight: 700;
     }
     .wc-bracket-team .fi {
@@ -512,7 +600,7 @@ def shared_css() -> str:
         text-align: right;
     }
     .wc-bracket-note {
-        color: #475569;
+        color: var(--wc-muted);
         font-size: 0.9rem;
         margin: 0.35rem 0 0.2rem;
     }
@@ -521,15 +609,15 @@ def shared_css() -> str:
         grid-template-columns: minmax(0, 1.8fr) minmax(260px, 0.8fr);
         gap: 1rem;
         align-items: stretch;
-        border: 1px solid #dfe5ec;
+        border: 1px solid var(--wc-line);
         border-radius: 8px;
-        background: #ffffff;
-        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+        background: var(--wc-surface);
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.05);
         padding: 1.1rem 1.15rem;
         margin: 0.5rem 0 1.1rem;
     }
     .wc-home-intro-kicker {
-        color: #2563eb;
+        color: var(--wc-positive);
         font-size: 0.76rem;
         font-weight: 850;
         letter-spacing: 0.08em;
@@ -537,21 +625,21 @@ def shared_css() -> str:
         margin-bottom: 0.35rem;
     }
     .wc-home-intro-title {
-        color: #0f172a;
+        color: var(--wc-text);
         font-size: 1.45rem;
         line-height: 1.2;
         font-weight: 850;
         margin: 0 0 0.55rem;
     }
     .wc-home-intro-copy {
-        color: #334155;
+        color: var(--wc-text);
         font-size: 0.98rem;
         line-height: 1.5;
         margin: 0;
         max-width: 74rem;
     }
     .wc-home-intro-panel {
-        border-left: 1px solid #e2e8f0;
+        border-left: 1px solid var(--wc-line);
         padding-left: 1rem;
         display: flex;
         flex-direction: column;
@@ -559,7 +647,7 @@ def shared_css() -> str:
         min-width: 0;
     }
     .wc-home-intro-panel-title {
-        color: #64748b;
+        color: var(--wc-muted);
         font-size: 0.75rem;
         font-weight: 850;
         letter-spacing: 0.07em;
@@ -567,14 +655,14 @@ def shared_css() -> str:
         margin-bottom: 0.35rem;
     }
     .wc-home-intro-panel-value {
-        color: #0f172a;
+        color: var(--wc-text);
         font-size: 1.12rem;
         line-height: 1.2;
         font-weight: 850;
         margin-bottom: 0.4rem;
     }
     .wc-home-intro-panel-copy {
-        color: #475569;
+        color: var(--wc-muted);
         font-size: 0.88rem;
         line-height: 1.4;
         margin: 0;
@@ -594,11 +682,11 @@ def shared_css() -> str:
         font-size: 1.28rem;
         line-height: 1.2;
         font-weight: 800;
-        color: #0f172a;
+        color: var(--wc-text);
     }
     .wc-home-section-note {
         margin: 0.2rem 0 0;
-        color: #475569;
+        color: var(--wc-muted);
         font-size: 0.94rem;
         line-height: 1.45;
     }
@@ -608,8 +696,8 @@ def shared_css() -> str:
         justify-content: center;
         border-radius: 999px;
         padding: 0.24rem 0.58rem;
-        background: #dcfce7;
-        color: #166534;
+        background: var(--wc-positive);
+        color: var(--wc-bg);
         font-size: 0.74rem;
         font-weight: 800;
         letter-spacing: 0.06em;
@@ -623,15 +711,15 @@ def shared_css() -> str:
         margin: 0.8rem 0 1.05rem;
     }
     .wc-home-metric {
-        border: 1px solid #dfe5ec;
+        border: 1px solid var(--wc-line);
         border-radius: 8px;
-        background: #ffffff;
+        background: var(--wc-surface);
         padding: 0.95rem 1rem;
         min-height: 116px;
-        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.05);
     }
     .wc-home-metric-label {
-        color: #64748b;
+        color: var(--wc-muted);
         font-size: 0.75rem;
         font-weight: 800;
         letter-spacing: 0.07em;
@@ -639,14 +727,14 @@ def shared_css() -> str:
         margin-bottom: 0.42rem;
     }
     .wc-home-metric-value {
-        color: #0f172a;
+        color: var(--wc-text);
         font-size: 1.35rem;
         line-height: 1.15;
         font-weight: 850;
         overflow-wrap: anywhere;
     }
     .wc-home-metric-detail {
-        color: #475569;
+        color: var(--wc-muted);
         font-size: 0.88rem;
         line-height: 1.35;
         margin-top: 0.42rem;
@@ -658,18 +746,18 @@ def shared_css() -> str:
     }
     .wc-home-route-card,
     .wc-home-model-card {
-        border: 1px solid #dfe5ec;
+        border: 1px solid var(--wc-line);
         border-radius: 8px;
-        background: #ffffff;
+        background: var(--wc-surface);
         padding: 0.95rem 1rem;
-        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.05);
     }
     .wc-home-route-card {
         min-height: 128px;
     }
     .wc-home-route-title,
     .wc-home-model-title {
-        color: #0f172a;
+        color: var(--wc-text);
         font-size: 1rem;
         line-height: 1.2;
         font-weight: 800;
@@ -677,7 +765,7 @@ def shared_css() -> str:
     }
     .wc-home-route-destination,
     .wc-home-model-version {
-        color: #2563eb;
+        color: var(--wc-positive);
         font-size: 0.78rem;
         font-weight: 800;
         letter-spacing: 0.04em;
@@ -686,7 +774,7 @@ def shared_css() -> str:
     }
     .wc-home-route-copy,
     .wc-home-model-copy {
-        color: #475569;
+        color: var(--wc-muted);
         font-size: 0.9rem;
         line-height: 1.42;
         margin: 0;
@@ -697,8 +785,8 @@ def shared_css() -> str:
         gap: 0.8rem;
     }
     .wc-home-model-card-recommended {
-        border-color: rgba(22, 163, 74, 0.45);
-        box-shadow: inset 0 0 0 1px rgba(22, 163, 74, 0.12), 0 8px 20px rgba(15, 23, 42, 0.04);
+        border-color: rgba(47, 111, 62, 0.45);
+        box-shadow: inset 0 0 0 1px rgba(47, 111, 62, 0.12), 0 8px 18px rgba(58, 42, 26, 0.05);
     }
     @media (max-width: 1380px) {
         .wc-grid {
@@ -732,7 +820,7 @@ def shared_css() -> str:
         }
         .wc-home-intro-panel {
             border-left: none;
-            border-top: 1px solid #e2e8f0;
+            border-top: 1px solid var(--wc-line);
             padding-left: 0;
             padding-top: 0.85rem;
         }
@@ -847,7 +935,9 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
         margin: 0;
         max-width: 100%;
         overflow: hidden;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #EFE3CF;
+        color: #3A2A1A;
+        font-family: Gill Sans, Inter, sans-serif;
       }}
       .wc-countdown-wrap {{
         margin: 0 0 0.85rem;
@@ -860,14 +950,14 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
         max-width: 100%;
         min-width: 0;
         overflow: hidden;
-        border: 1px solid rgba(191, 219, 254, 0.35);
-        border-radius: 18px;
+        border: 1px solid #D8C8AF;
+        border-radius: 10px;
         padding: 20px 22px;
         background:
-          radial-gradient(circle at top, rgba(96, 165, 250, 0.18), transparent 45%),
-          linear-gradient(135deg, #0f172a 0%, #172554 52%, #1e293b 100%);
-        color: #f8fafc;
-        box-shadow: 0 16px 40px rgba(15, 23, 42, 0.22);
+          radial-gradient(circle at top, rgba(201, 151, 0, 0.16), transparent 42%),
+          linear-gradient(135deg, #F6EBD8 0%, #E8D5B8 100%);
+        color: #3A2A1A;
+        box-shadow: 0 12px 26px rgba(58, 42, 26, 0.10);
       }}
       .wc-countdown-main {{
         min-width: 0;
@@ -876,8 +966,8 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
       .wc-countdown-kicker,
       .wc-countdown-meta-label {{
         text-transform: uppercase;
-        color: #bfdbfe;
-        font-weight: 750;
+        color: #5A4632;
+        font-weight: 850;
         overflow-wrap: anywhere;
       }}
       .wc-countdown-kicker {{
@@ -887,7 +977,7 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
       }}
       .wc-countdown-match {{
         margin-bottom: 0.45rem;
-        color: #f8fafc;
+        color: #3A2A1A;
         font-size: clamp(1.05rem, 4vw, 1.42rem);
         font-weight: 820;
         line-height: 1.22;
@@ -895,11 +985,11 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
       }}
       #wc-countdown-value {{
         margin: 0.15rem 0 0.8rem;
-        color: #ffffff;
+        color: #2F6F3E;
         font-size: clamp(2rem, 8vw, 3rem);
         font-weight: 900;
         line-height: 1.08;
-        text-shadow: 0 6px 24px rgba(147, 197, 253, 0.22);
+        text-shadow: 0 5px 18px rgba(47, 111, 62, 0.14);
         overflow-wrap: anywhere;
       }}
       .wc-countdown-meta {{
@@ -910,7 +1000,7 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
         min-width: 0;
         margin-top: 0.55rem;
         padding-top: 0.85rem;
-        border-top: 1px solid rgba(191, 219, 254, 0.18);
+        border-top: 1px solid #D8C8AF;
       }}
       .wc-countdown-meta-item {{
         min-width: 0;
@@ -920,12 +1010,12 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
       }}
       .wc-countdown-meta-label {{
         margin-bottom: 0.2rem;
-        color: #93c5fd;
+        color: #5A4632;
         font-size: 0.72rem;
         letter-spacing: 0.06em;
       }}
       .wc-countdown-meta-value {{
-        color: #eff6ff;
+        color: #3A2A1A;
         font-size: 0.98rem;
         font-weight: 750;
         line-height: 1.25;
