@@ -3,6 +3,7 @@ from __future__ import annotations
 import importlib.util
 from pathlib import Path
 import sys
+import types
 
 import numpy as np
 import pandas as pd
@@ -134,6 +135,115 @@ def load_historical_eda_module():
     assert spec.loader is not None
     spec.loader.exec_module(module)
     return module
+
+
+class StreamlitStub(types.ModuleType):
+    def __init__(self):
+        super().__init__("streamlit")
+        self.query_params = {}
+        self.session_state = {}
+
+    def cache_data(self, *args, **kwargs):
+        if args and callable(args[0]) and len(args) == 1 and not kwargs:
+            return args[0]
+
+        def decorator(func):
+            return func
+
+        return decorator
+
+    cache_resource = cache_data
+
+    def selectbox(self, label, options, index=0, key=None, format_func=None, on_change=None):
+        selected = list(options)[index]
+        if key is not None:
+            self.session_state[key] = selected
+        return selected
+
+    def caption(self, *args, **kwargs):
+        return None
+
+    def __getattr__(self, name):
+        def noop(*args, **kwargs):
+            return None
+
+        return noop
+
+
+def load_team_selection_module(monkeypatch, streamlit_stub: StreamlitStub):
+    monkeypatch.setitem(sys.modules, "streamlit", streamlit_stub)
+    spec = importlib.util.spec_from_file_location("team_selection_test", ROOT / "apps" / "team_selection.py")
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    module.st = streamlit_stub
+    return module
+
+
+def test_global_team_state_prefers_query_param(monkeypatch):
+    streamlit_stub = StreamlitStub()
+    streamlit_stub.query_params["team"] = "BRA"
+    streamlit_stub.session_state["global_team_id"] = "ARG"
+    team_selection = load_team_selection_module(monkeypatch, streamlit_stub)
+
+    selected = team_selection.get_global_team_id(["ARG", "BRA"], "ARG")
+
+    assert selected == "BRA"
+    assert streamlit_stub.session_state["global_team_id"] == "BRA"
+
+
+def test_global_team_state_uses_session_then_default(monkeypatch):
+    streamlit_stub = StreamlitStub()
+    streamlit_stub.session_state["global_team_id"] = "ARG"
+    team_selection = load_team_selection_module(monkeypatch, streamlit_stub)
+
+    assert team_selection.get_global_team_id(["ARG", "BRA"], "BRA") == "ARG"
+    streamlit_stub.session_state["global_team_id"] = "XXX"
+    assert team_selection.get_global_team_id(["ARG", "BRA"], "BRA") == "BRA"
+    assert streamlit_stub.session_state["global_team_id"] == "BRA"
+
+
+def test_set_global_team_id_updates_session_and_query(monkeypatch):
+    streamlit_stub = StreamlitStub()
+    team_selection = load_team_selection_module(monkeypatch, streamlit_stub)
+
+    team_selection.set_global_team_id("CZE")
+
+    assert streamlit_stub.session_state["global_team_id"] == "CZE"
+    assert streamlit_stub.query_params["team"] == "CZE"
+
+
+def test_resolve_team_country_name_uses_aliases(monkeypatch):
+    streamlit_stub = StreamlitStub()
+    team_selection = load_team_selection_module(monkeypatch, streamlit_stub)
+    team_row = pd.Series({"team_id": "CZE", "display_name": "Czechia", "canonical_name": "Czechia"})
+
+    assert team_selection.resolve_team_country_name(
+        team_row,
+        ["Brazil", "Czechoslovakia"],
+        aliases={"Czechia": "Czechoslovakia"},
+    ) == "Czechoslovakia"
+
+
+def test_historical_eda_team_country_lookup_and_missing_winner_default(monkeypatch):
+    streamlit_stub = StreamlitStub()
+    streamlit_stub.session_state["global_team_id"] = "CZE"
+    monkeypatch.setitem(sys.modules, "streamlit", streamlit_stub)
+    historical_eda = load_historical_eda_module()
+    historical_eda.st = streamlit_stub
+    historical_eda.team_selection.st = streamlit_stub
+    base_df = pd.DataFrame(
+        [
+            {"team_id": "CZE", "display_name": "Czechia", "canonical_name": "Czechia", "tournament_name": "Czechia"},
+            {"team_id": "BRA", "display_name": "Brazil", "canonical_name": "Brazil", "tournament_name": "Brazil"},
+        ]
+    )
+
+    lookup = historical_eda.build_team_country_lookup(base_df, ["Brazil", "Czechoslovakia"])
+
+    assert lookup["CZE"] == "Czechoslovakia"
+    assert historical_eda.global_country_default(["Brazil"], base_df, "Brazil") == "Brazil"
+    assert streamlit_stub.session_state["global_team_id"] == "CZE"
 
 
 def test_processed_world_cup_dataset_has_normalized_ids_and_metadata():
@@ -661,13 +771,37 @@ def test_build_identity_rows_marks_pending_fields_cleanly():
             "world_cup_participations": 12,
         }
     )
+    history_summary = {
+        "appearances": "12",
+        "best_finish": "Winner",
+        "best_finish_years": [1998, 2018],
+        "latest_world_cup": "2022",
+        "latest_finish": "Runner-up",
+        "goals_scored_per_game": "2.10",
+        "goals_conceded_per_game": "0.90",
+    }
 
-    rows = report_card.build_identity_rows(team_row, "Winner")
+    rows = report_card.build_identity_rows(team_row, history_summary)
     by_label = {row["label"]: row["value"] for row in rows}
 
+    assert list(by_label) == [
+        "FIFA Ranking",
+        "Elo Rating",
+        "World Cup Appearances",
+        "Best Finish",
+        "Latest World Cup",
+        "Latest Finish",
+        "Goals Scored/Game",
+        "Goals Conceded/Game",
+    ]
+    assert "Confederation" not in by_label
+    assert "Group" not in by_label
+    assert "Coach" not in by_label
+    assert "Captain" not in by_label
+    assert by_label["FIFA Ranking"] == "7"
+    assert by_label["Elo Rating"] == "1892"
     assert by_label["Best Finish"] == "Winner"
-    assert by_label["Coach"] == "Pending data"
-    assert by_label["Captain"] == "Pending data"
+    assert rows[3]["value_html"] == 'Winner<span class="trc-fact-subscript">[1998, 2018]</span>'
 
     debut_row = pd.Series(
         {
@@ -678,12 +812,58 @@ def test_build_identity_rows_marks_pending_fields_cleanly():
             "world_cup_participations": 1,
         }
     )
-    debut_rows = report_card.build_identity_rows(debut_row, "No appearances")
+    debut_summary = report_card.build_header_history_summary(pd.DataFrame(), debut_row)
+    debut_rows = report_card.build_identity_rows(debut_row, debut_summary)
     debut_by_label = {row["label"]: row["value"] for row in debut_rows}
 
     assert report_card.is_debut_tournament(debut_row)
     assert debut_by_label["World Cup Appearances"] == "1"
     assert debut_by_label["Best Finish"] == "Debut tournament"
+
+
+def test_build_header_history_summary_formats_best_finish_and_goal_rates():
+    report_card = load_team_report_card_module()
+    history = pd.DataFrame(
+        [
+            {
+                "edition": 1998,
+                "position": 1,
+                "placement_label": "Winner",
+                "goals_for": 15,
+                "goals_against": 2,
+                "matches_played": 7,
+            },
+            {
+                "edition": 2018,
+                "position": 1,
+                "placement_label": "Winner",
+                "goals_for": 14,
+                "goals_against": 6,
+                "matches_played": 7,
+            },
+            {
+                "edition": 2022,
+                "position": 2,
+                "placement_label": "Runner-up",
+                "goals_for": 16,
+                "goals_against": 8,
+                "matches_played": 7,
+            },
+        ]
+    )
+    summary = report_card.build_header_history_summary(history, pd.Series({"world_cup_participations": 12}))
+
+    assert summary["appearances"] == "12"
+    assert summary["best_finish"] == "Winner"
+    assert summary["best_finish_years"] == [1998, 2018]
+    assert summary["latest_world_cup"] == "2022"
+    assert summary["latest_finish"] == "Runner-up"
+    assert summary["goals_scored_per_game"] == "2.14"
+    assert summary["goals_conceded_per_game"] == "0.76"
+    assert (
+        report_card.format_best_finish_value_html(summary["best_finish"], summary["best_finish_years"])
+        == 'Winner<span class="trc-fact-subscript">[1998, 2018]</span>'
+    )
 
 
 def test_build_qualifier_performance_tables_filters_hosts_and_scores_metrics():

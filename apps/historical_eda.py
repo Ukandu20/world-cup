@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections.abc import Iterable
 from pathlib import Path
 import re
 import sys
@@ -13,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from apps import team_selection  # noqa: E402
+from apps.dashboard.data import load_data as load_dashboard_data  # noqa: E402
 from apps.dashboard.rendering import inject_styles, render_filter_bar  # noqa: E402
 from world_cup_sim.analysis import (  # noqa: E402
     CONFEDERATION_ORDER,
@@ -685,6 +688,97 @@ def canonical_country_name(country: object) -> str:
     return COUNTRY_NAME_ALIASES.get(country_name, country_name)
 
 
+def build_team_country_lookup(base_df: pd.DataFrame, available_country_names: Iterable[str]) -> dict[str, str]:
+    """Map dashboard team ids to historical-analysis country labels."""
+    lookup: dict[str, str] = {}
+    if base_df.empty or "team_id" not in base_df.columns:
+        return lookup
+    for row in base_df.drop_duplicates(subset=["team_id"], keep="first").to_dict("records"):
+        team_id = str(row.get("team_id", ""))
+        if not team_id:
+            continue
+        resolved_country = team_selection.resolve_team_country_name(
+            row,
+            available_country_names,
+            aliases=COUNTRY_NAME_ALIASES,
+        )
+        if resolved_country:
+            lookup[team_id] = resolved_country
+    return lookup
+
+
+def country_to_team_id_lookup(base_df: pd.DataFrame, available_country_names: Iterable[str]) -> dict[str, str]:
+    """Map historical-analysis country labels back to dashboard team ids when possible."""
+    return {country: team_id for team_id, country in build_team_country_lookup(base_df, available_country_names).items()}
+
+
+def global_country_default(
+    available_country_names: list[str],
+    base_df: pd.DataFrame,
+    fallback_country: str,
+    sync_missing: bool = False,
+) -> str:
+    """Return the country selected by global team state, or the page fallback."""
+    resolved_country = active_global_country(available_country_names, base_df, sync_missing=sync_missing)
+    if resolved_country:
+        return resolved_country
+    return fallback_country if fallback_country in available_country_names else available_country_names[0]
+
+
+def active_global_country(
+    available_country_names: list[str],
+    base_df: pd.DataFrame,
+    sync_missing: bool = False,
+) -> str | None:
+    """Return the historical country label for the active global team, if available."""
+    if not available_country_names:
+        return None
+    valid_team_ids = base_df["team_id"].dropna().astype(str).tolist() if "team_id" in base_df.columns else []
+    selected_team_id = team_selection.get_query_team_id()
+    if selected_team_id not in valid_team_ids:
+        session_team_id = st.session_state.get(team_selection.GLOBAL_TEAM_SESSION_KEY)
+        selected_team_id = str(session_team_id) if str(session_team_id) in valid_team_ids else ""
+    country_lookup = build_team_country_lookup(base_df, available_country_names)
+    resolved_country = country_lookup.get(str(selected_team_id))
+    if resolved_country in available_country_names:
+        return resolved_country
+    if selected_team_id and sync_missing:
+        st.caption("The globally selected team is not available for this historical chart.")
+    return None
+
+
+def render_synced_country_selectbox(
+    label: str,
+    countries: list[str],
+    base_df: pd.DataFrame,
+    fallback_country: str,
+    key: str,
+    sync_missing: bool = False,
+) -> str:
+    """Render a country selectbox initialized from shared team state and sync valid picks back."""
+    if not countries:
+        return ""
+    synced_country = active_global_country(countries, base_df, sync_missing=sync_missing)
+    default_country = synced_country or (fallback_country if fallback_country in countries else countries[0])
+    if synced_country or key not in st.session_state or st.session_state.get(key) not in countries:
+        st.session_state[key] = default_country
+    reverse_lookup = country_to_team_id_lookup(base_df, countries)
+
+    def sync_country_selection_to_global() -> None:
+        selected_team_id = reverse_lookup.get(str(st.session_state.get(key, "")))
+        if selected_team_id:
+            team_selection.set_global_team_id(selected_team_id)
+
+    selected_country = st.selectbox(
+        label,
+        countries,
+        index=countries.index(default_country) if default_country in countries else 0,
+        key=key,
+        on_change=sync_country_selection_to_global,
+    )
+    return str(selected_country)
+
+
 def canonical_placement_label(placement: object) -> str:
     placement_text = str(placement)
     return "" if placement_text == "nan" else placement_text
@@ -1116,6 +1210,7 @@ def render_participation_tab(
     outputs: dict[str, pd.DataFrame],
     placement: pd.DataFrame,
     edition_range: tuple[int, int],
+    dashboard_base_df: pd.DataFrame,
 ) -> None:
     participating = outputs["participating_teams"]
     confed = outputs["confederation_by_edition"]
@@ -1194,10 +1289,11 @@ def render_participation_tab(
     render_plotly_chart(fig)
 
     placement_countries = sorted(placement_history["country"].dropna().unique())
-    selected_placement_country = st.selectbox(
+    selected_placement_country = render_synced_country_selectbox(
         "Placement country",
         placement_countries,
-        index=placement_countries.index("Brazil") if "Brazil" in placement_countries else 0,
+        dashboard_base_df,
+        "Brazil",
         key="historical_eda_placement_country",
     )
     country_placement = placement_history.loc[
@@ -1329,6 +1425,7 @@ def render_goals_tab(
     outputs: dict[str, pd.DataFrame],
     participation_outputs: dict[str, pd.DataFrame],
     edition_range: tuple[int, int],
+    dashboard_base_df: pd.DataFrame,
 ) -> None:
     tournament_goals = outputs["tournament_goals"]
     team_goals = prepare_country_goal_metrics(outputs["team_goals"])
@@ -1361,10 +1458,11 @@ def render_goals_tab(
     )
 
     countries = sorted(team_goals["country"].dropna().unique())
-    selected_country = st.selectbox(
+    selected_country = render_synced_country_selectbox(
         "Country",
         countries,
-        index=countries.index("Brazil") if "Brazil" in countries else 0,
+        dashboard_base_df,
+        "Brazil",
         key="historical_eda_goal_country",
     )
     if goal_metric_mode == "Totals":
@@ -1586,11 +1684,13 @@ def render_winner_goal_charts(
     )
 
     winner_countries = sorted(winner_goals["country"].dropna().unique())
-    selected_winner_country = st.selectbox(
+    selected_winner_country = render_synced_country_selectbox(
         "Winner country",
         winner_countries,
-        index=winner_countries.index("Brazil") if "Brazil" in winner_countries else 0,
+        dashboard_base_df,
+        "Brazil",
         key="historical_eda_winner_goal_country",
+        sync_missing=True,
     )
     country_winner_goals = winner_goals.loc[winner_goals["country"].eq(selected_winner_country)].sort_values("edition")
     if winner_goal_metric_mode == "Totals":
@@ -1630,6 +1730,7 @@ def render_winner_followup_tab(
     goals_outputs: dict[str, pd.DataFrame],
     participation_outputs: dict[str, pd.DataFrame],
     edition_range: tuple[int, int],
+    dashboard_base_df: pd.DataFrame,
 ) -> None:
     winners = filter_edition_range(winners, edition_range)
     winners = add_era_from_participation(winners, participation_outputs)
@@ -2062,6 +2163,7 @@ def render_historical_eda_page() -> None:
     st.caption(
         "An interactive analysis companion which covers the history of the FIFA Men's World Cup"
     )
+    dashboard_base_df, _, _, _ = load_dashboard_data()
 
     filter_bar = render_filter_bar()
     with filter_bar:
@@ -2114,13 +2216,13 @@ def render_historical_eda_page() -> None:
         ]
     )
     with tabs[0]:
-        render_participation_tab(participation, placement, edition_range)
+        render_participation_tab(participation, placement, edition_range, dashboard_base_df)
     with tabs[1]:
-        render_goals_tab(goals, participation, edition_range)
+        render_goals_tab(goals, participation, edition_range, dashboard_base_df)
     with tabs[2]:
         render_host_tab(hosts, edition_range)
     with tabs[3]:
-        render_winner_followup_tab(winners, goals, participation, edition_range)
+        render_winner_followup_tab(winners, goals, participation, edition_range, dashboard_base_df)
     with tabs[4]:
         render_correlations_tab(correlations, edition_range)
     with tabs[5]:

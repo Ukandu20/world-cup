@@ -32,6 +32,7 @@ from world_cup_sim.shared import (
 )
 from world_cup_sim.analysis import add_era_column
 import world_cup_simulation as simulation
+from apps import team_selection
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -407,31 +408,80 @@ def pending_if_blank(value: object) -> str:
     return text if text else "Pending data"
 
 
-def build_identity_rows(team_row: pd.Series, best_finish: str, squad_identity: dict[str, str] | None = None) -> list[dict[str, str]]:
-    """Return the key identity facts for the selected team."""
-    squad_identity = squad_identity or {}
-    appearances_value = team_row.get("world_cup_participations", "")
-    if pd.isna(appearances_value) or appearances_value == "":
-        appearances_value = ""
-    else:
-        appearances_value = f"{int(float(appearances_value))}"
-    best_finish_value = "Debut tournament" if is_debut_tournament(team_row) and best_finish == "No appearances" else best_finish
+def build_header_history_summary(history: pd.DataFrame, team_row: pd.Series) -> dict[str, object]:
+    """Return compact historical KPI values for the report-card header."""
+    appearances_value = pd.to_numeric(team_row.get("world_cup_participations", np.nan), errors="coerce")
+    appearances_display = f"{int(appearances_value)}" if pd.notna(appearances_value) else "N/A"
+    if history.empty:
+        best_finish_value = "Debut tournament" if is_debut_tournament(team_row) else "N/A"
+        return {
+            "appearances": appearances_display,
+            "best_finish": best_finish_value,
+            "best_finish_years": [],
+            "latest_world_cup": "N/A",
+            "latest_finish": "N/A",
+            "goals_scored_per_game": "N/A",
+            "goals_conceded_per_game": "N/A",
+        }
 
-    rows = [
-        {"label": "Confederation", "value": str(team_row.get("confederation", ""))},
-        {"label": "Group", "value": f"Group {team_row.get('group_code', '')}"},
-        {"label": "FIFA Rank", "value": f"{int(float(team_row['world_rank']))}" if pd.notna(team_row.get("world_rank")) else "N/A"},
+    sorted_history = history.sort_values("edition", kind="stable")
+    latest_row = sorted_history.iloc[-1]
+    ranked_history = history.dropna(subset=["position"]).sort_values(["position", "edition"], kind="stable")
+    best_finish = "N/A"
+    best_finish_years: list[int] = []
+    if not ranked_history.empty:
+        best_position = ranked_history.iloc[0]["position"]
+        best_rows = ranked_history.loc[ranked_history["position"].eq(best_position)].sort_values("edition", kind="stable")
+        best_finish = str(best_rows.iloc[0]["placement_label"])
+        best_finish_years = pd.to_numeric(best_rows["edition"], errors="coerce").dropna().astype(int).tolist()
+
+    matches = pd.to_numeric(history["matches_played"], errors="coerce").fillna(0.0)
+    goals_for = pd.to_numeric(history["goals_for"], errors="coerce").fillna(0.0).sum()
+    goals_against = pd.to_numeric(history["goals_against"], errors="coerce").fillna(0.0).sum()
+    total_matches = float(matches.sum())
+    return {
+        "appearances": appearances_display if appearances_display != "N/A" else f"{int(history['edition'].nunique())}",
+        "best_finish": best_finish,
+        "best_finish_years": best_finish_years,
+        "latest_world_cup": f"{int(latest_row['edition'])}" if pd.notna(latest_row.get("edition")) else "N/A",
+        "latest_finish": str(latest_row.get("placement_label", "N/A")),
+        "goals_scored_per_game": f"{goals_for / total_matches:.2f}" if total_matches else "N/A",
+        "goals_conceded_per_game": f"{goals_against / total_matches:.2f}" if total_matches else "N/A",
+    }
+
+
+def format_best_finish_value_html(best_finish: object, years: Iterable[int]) -> str:
+    """Return escaped rich HTML for the best-finish KPI value."""
+    placement = str(best_finish or "N/A").strip() or "N/A"
+    escaped_placement = html.escape(placement)
+    year_values = [int(year) for year in years if pd.notna(year)]
+    if not year_values:
+        return escaped_placement
+    year_text = ", ".join(str(year) for year in year_values)
+    return f'{escaped_placement}<span class="trc-fact-subscript">[{html.escape(year_text)}]</span>'
+
+
+def build_identity_rows(team_row: pd.Series, history_summary: dict[str, object] | None = None) -> list[dict[str, str]]:
+    """Return the compact header KPI facts for the selected team."""
+    history_summary = history_summary or {}
+    best_finish_years = history_summary.get("best_finish_years", [])
+    if not isinstance(best_finish_years, Iterable) or isinstance(best_finish_years, str):
+        best_finish_years = []
+
+    return [
+        {"label": "FIFA Ranking", "value": f"{int(float(team_row['world_rank']))}" if pd.notna(team_row.get("world_rank")) else "N/A"},
         {"label": "Elo Rating", "value": f"{int(round(float(team_row['elo_rating'])))}" if pd.notna(team_row.get("elo_rating")) else "N/A"},
-        {"label": "World Cup Appearances", "value": str(appearances_value or "N/A")},
-        {"label": "Best Finish", "value": best_finish_value},
+        {"label": "World Cup Appearances", "value": str(history_summary.get("appearances", "N/A"))},
+        {
+            "label": "Best Finish",
+            "value": str(history_summary.get("best_finish", "N/A")),
+            "value_html": format_best_finish_value_html(history_summary.get("best_finish", "N/A"), best_finish_years),
+        },
+        {"label": "Latest World Cup", "value": str(history_summary.get("latest_world_cup", "N/A"))},
+        {"label": "Latest Finish", "value": str(history_summary.get("latest_finish", "N/A"))},
+        {"label": "Goals Scored/Game", "value": str(history_summary.get("goals_scored_per_game", "N/A"))},
+        {"label": "Goals Conceded/Game", "value": str(history_summary.get("goals_conceded_per_game", "N/A"))},
     ]
-    rows.extend(
-        [
-            {"label": "Coach", "value": pending_if_blank(squad_identity.get("coach", ""))},
-            {"label": "Captain", "value": pending_if_blank(squad_identity.get("captain", ""))},
-        ]
-    )
-    return rows
 
 
 def normalize_team_best_finish(placement_df: pd.DataFrame, team_names: Iterable[str]) -> str:
@@ -1005,15 +1055,14 @@ def select_report_card_context(dataset: dict[str, Any], team_id: str, recent_mat
     strongest = max(subject_rows, key=lambda row: float(row["score"]))
     weakest = min(subject_rows, key=lambda row: float(row["score"]))
     overall_summary["summary"] = f"{strongest['subject']} leads this profile, while {weakest['subject']} is the main pressure point."
+    history = prepare_team_historical_profile({"team_row": team_row})
+    header_history_summary = build_header_history_summary(history, team_row)
     return {
         "team_row": team_row,
-        "identity_rows": build_identity_rows(
-            team_row,
-            dataset["best_finish_lookup"].get(str(team_id), "No appearances"),
-            dataset["squad_identity_lookup"].get(str(team_id), {}),
-        ),
+        "identity_rows": build_identity_rows(team_row, header_history_summary),
         "subject_rows": subject_rows,
         "pending_subject_rows": build_pending_subject_rows(),
+        "history": history,
         "recent_matches": recent_matches,
         "qualification_path": qualification_path,
         "group_fixtures": group_fixtures,
@@ -1117,11 +1166,21 @@ def report_card_css() -> str:
         box-shadow: 0 10px 22px rgba(58, 42, 26, 0.08);
     }
     .trc-hero-top {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(210px, 260px);
+        align-items: stretch;
+        gap: 14px;
+    }
+    .trc-header-main {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        gap: 12px;
+        min-width: 0;
+    }
+    .trc-hero-identity {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 18px;
-        flex-wrap: wrap;
+        align-items: center;
+        min-width: 0;
     }
     .trc-title {
         display: flex;
@@ -1139,19 +1198,28 @@ def report_card_css() -> str:
         line-height: 1.1;
         color: var(--trc-text);
     }
+    .trc-title-line {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
     .trc-subhead {
-        margin-top: 0.35rem;
         color: var(--trc-muted);
         font-weight: 600;
+        white-space: nowrap;
     }
     .trc-grade-panel {
-        min-width: 220px;
         border: 1px solid var(--trc-muted);
         border-radius: 10px;
-        padding: 18px 20px;
+        padding: 15px 18px;
         background: var(--trc-surface-strong);
         color: var(--trc-text);
         text-align: center;
+        min-width: 0;
+        height: 100%;
+        display: grid;
+        align-content: center;
     }
     .trc-grade-country {
         margin-bottom: 0.35rem;
@@ -1185,16 +1253,17 @@ def report_card_css() -> str:
         color: var(--trc-muted);
     }
     .trc-facts {
-        margin-top: 18px;
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 12px;
+        gap: 10px;
+        min-width: 0;
     }
     .trc-fact {
         border: 1px solid var(--trc-line);
         border-radius: 8px;
-        padding: 14px 15px;
+        padding: 11px 12px;
         background: rgba(239, 227, 207, 0.72);
+        min-width: 0;
     }
     .trc-fact-label {
         text-transform: uppercase;
@@ -1206,7 +1275,16 @@ def report_card_css() -> str:
     .trc-fact-value {
         font-weight: 700;
         color: var(--trc-text);
-        line-height: 1.3;
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+    }
+    .trc-fact-subscript {
+        display: inline-block;
+        margin-left: 0.22rem;
+        color: var(--trc-muted);
+        font-size: 0.72em;
+        font-weight: 700;
+        transform: translateY(0.12em);
     }
     .trc-subject-grid {
         display: grid;
@@ -1503,6 +1581,9 @@ def report_card_css() -> str:
         background-color: var(--trc-muted);
     }
     @media (max-width: 1200px) {
+        .trc-hero-top {
+            grid-template-columns: minmax(0, 1fr) minmax(190px, 230px);
+        }
         .trc-facts,
         .trc-subject-grid,
         .trc-kpi-grid,
@@ -1512,6 +1593,15 @@ def report_card_css() -> str:
         }
     }
     @media (max-width: 700px) {
+        .trc-hero-top {
+            grid-template-columns: 1fr;
+        }
+        .trc-grade-panel {
+            min-height: 180px;
+        }
+        .trc-hero-identity {
+            align-items: flex-start;
+        }
         .trc-facts,
         .trc-subject-grid,
         .trc-kpi-grid,
@@ -1941,7 +2031,7 @@ def render_identity_header(context: dict[str, Any]) -> None:
         (
             f'<div class="trc-fact">'
             f'<div class="trc-fact-label">{html.escape(str(row["label"]))}</div>'
-            f'<div class="trc-fact-value">{html.escape(str(row["value"]))}</div>'
+            f'<div class="trc-fact-value">{row.get("value_html", html.escape(str(row["value"])))}</div>'
             f"</div>"
         )
         for row in context["identity_rows"]
@@ -1950,13 +2040,18 @@ def render_identity_header(context: dict[str, Any]) -> None:
         f"""
         <div class="trc-hero">
           <div class="trc-hero-top">
-            <div>
-              <div class="trc-title">
-                {flag_html}
-                <div>
-                  <h1>{display_name}</h1>
-                  <div class="trc-subhead">Group {group_code} | {confederation}</div>
+            <div class="trc-header-main">
+              <div class="trc-hero-identity">
+                <div class="trc-title">
+                  {flag_html}
+                  <div class="trc-title-line">
+                    <h1>{display_name}</h1>
+                    <div class="trc-subhead">Group {group_code} | {confederation}</div>
+                  </div>
                 </div>
+              </div>
+              <div class="trc-facts">
+                {fact_cards}
               </div>
             </div>
             <div class="trc-grade-panel">
@@ -1966,9 +2061,6 @@ def render_identity_header(context: dict[str, Any]) -> None:
               <div class="trc-score">{overall['score']:.1f} / 10</div>
               <div class="trc-verdict">{overall_verdict}</div>
             </div>
-          </div>
-          <div class="trc-facts">
-            {fact_cards}
           </div>
         </div>
         """,
@@ -2675,11 +2767,9 @@ def render_outlook_charts(context: dict[str, Any]) -> None:
 
 def render_history_tab(context: dict[str, Any]) -> None:
     st.subheader("Historical World Cup Performance")
-    history = prepare_team_historical_profile(context)
-    render_what_matters_summary("What matters", build_history_summary(context, history))
-    history_kpis = build_history_kpis(history)
-    if history_kpis:
-        render_kpi_cards(history_kpis)
+    history = context.get("history")
+    if not isinstance(history, pd.DataFrame):
+        history = prepare_team_historical_profile(context)
     render_historical_team_charts(context, history)
 
 
@@ -2791,8 +2881,6 @@ def render_team_report_card_page() -> None:
     )
     team_ids = team_choices["team_id"].astype(str).tolist()
     labels = [f'{row.display_name} (Group {row.group_code})' for row in team_choices.itertuples(index=False)]
-    query_team_id = get_query_team_param()
-    selected_index = team_ids.index(query_team_id) if query_team_id in team_ids else 0
     artifact_updated_at = format_artifact_updated_at(dataset.get("artifact_created_at_utc"))
     st.caption(
         f"This report card uses the official Enhanced Poisson Model projections | "
@@ -2803,14 +2891,12 @@ def render_team_report_card_page() -> None:
 
     selector_columns = st.columns([2, 1])
     with selector_columns[0]:
-        selected_team_id = st.selectbox(
+        selected_team_id = team_selection.render_global_team_selectbox(
             "Choose a team to view",
             team_ids,
-            index=selected_index,
-            format_func=lambda value: labels[team_ids.index(value)],
             key="team_report_card_team_id",
+            format_func=lambda value: labels[team_ids.index(value)],
         )
-    set_query_team_param(selected_team_id)
 
     context = select_report_card_context(dataset, selected_team_id)
     render_identity_header(context)
