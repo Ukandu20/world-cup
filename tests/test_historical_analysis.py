@@ -24,6 +24,10 @@ from world_cup_sim.analysis import (  # noqa: E402
 )
 
 
+def canonical_standing_country(country: object) -> str:
+    return "Germany" if str(country) == "West Germany" else str(country)
+
+
 def load_page_module(page_name: str):
     spec = importlib.util.spec_from_file_location(page_name, ROOT / "apps" / "pages" / page_name)
     module = importlib.util.module_from_spec(spec)
@@ -84,6 +88,55 @@ def test_goal_and_winner_followup_metrics_have_expected_columns():
     assert not goal_metrics["winner_match_scorelines"].empty
     assert {"edition", "country", "next_edition", "next_placement"}.issubset(winners.columns)
     assert winners["country"].notna().all()
+
+
+def test_historical_placements_match_raw_top_four_and_use_immediate_next_edition():
+    placement_df = pd.read_csv(ROOT / "data" / "processed" / "world_cup" / "all_editions" / "placement.csv")
+    standings_df = pd.read_csv(ROOT / "worldcup" / "data-raw" / "hand-coded-tables" / "tournament_standings.csv")
+    standings_df = standings_df.loc[standings_df["tournament"].eq("FIFA Men's World Cup")].copy()
+    standings_df["country"] = standings_df["team_name"].map(canonical_standing_country)
+    expected_labels = {1: "Winner", 2: "Runner-up", 3: "Third Place", 4: "Fourth Place"}
+
+    completed_editions = sorted(standings_df["year"].astype(int).unique().tolist())
+    for edition in completed_editions:
+        edition_rows = placement_df.loc[placement_df["edition"].eq(edition)]
+        winners = edition_rows.loc[edition_rows["placement"].eq("Winner")]
+        assert len(winners) == 1
+        for standing in standings_df.loc[standings_df["year"].eq(edition)].itertuples(index=False):
+            actual = edition_rows.loc[edition_rows["country"].eq(standing.country)].iloc[0]
+            assert actual["placement"] == expected_labels[int(standing.position)]
+            assert int(actual["position"]) == int(standing.position)
+
+    germany_wins = placement_df.loc[
+        placement_df["edition"].isin([1954, 1974, 1990]) & placement_df["country"].eq("Germany")
+    ]
+    assert germany_wins["placement"].tolist() == ["Winner", "Winner", "Winner"]
+
+    uruguay_1930 = placement_df.loc[
+        placement_df["edition"].eq(1930) & placement_df["country"].eq("Uruguay")
+    ].iloc[0]
+    assert int(uruguay_1930["next_edition"]) == 1934
+    assert uruguay_1930["next_placement"] == "DNP"
+    assert pd.isna(uruguay_1930["next_position"])
+
+    italy_1934 = placement_df.loc[
+        placement_df["edition"].eq(1934) & placement_df["country"].eq("Italy")
+    ].iloc[0]
+    assert int(italy_1934["next_edition"]) == 1938
+    assert italy_1934["next_placement"] == "Winner"
+    assert int(italy_1934["next_position"]) == 1
+
+    italy_1938 = placement_df.loc[
+        placement_df["edition"].eq(1938) & placement_df["country"].eq("Italy")
+    ].iloc[0]
+    assert int(italy_1938["next_edition"]) == 1950
+    assert italy_1938["next_placement"] == "Group Stage"
+
+    germany_1990 = placement_df.loc[
+        placement_df["edition"].eq(1990) & placement_df["country"].eq("Germany")
+    ].iloc[0]
+    assert int(germany_1990["next_edition"]) == 1994
+    assert germany_1990["next_placement"] == "Quarter-final"
 
 
 def test_match_scorelines_canonicalize_reversed_scores():
@@ -201,6 +254,8 @@ def test_historical_eda_modules_import_and_notebook_references_shared_analysis()
     import apps.historical_eda as historical_eda
 
     assert callable(historical_eda.render_historical_eda_page)
+    assert historical_eda.PLACEMENT_SHORT_LABELS["DNP"] == "DNP"
+    assert "DNQ" not in historical_eda.PLACEMENT_SHORT_LABELS
     page = load_page_module("1_Analysis.py")
     assert callable(page.render_historical_eda_page)
 

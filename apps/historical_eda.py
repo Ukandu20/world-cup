@@ -71,7 +71,6 @@ COUNTRY_NAME_ALIASES = {
     "China PR": "China",
     "Czechia": "Czechoslovakia",
     "DR Congo": "Zaire",
-    "German DR": "Germany",
     "Serbia and Montenegro": "Serbia",
     "Soviet Union": "Russia",
     "Yugoslavia": "Serbia",
@@ -86,7 +85,7 @@ PLACEMENT_SHORT_LABELS = {
     "Quarter-final": "QF",
     "Round of 16": "R16",
     "Group Stage": "GS",
-    "DNQ": "DNQ",
+    "DNP": "DNP",
 }
 GOALS_STAGE_ORDER = ["Group Stage", "Round of 16", "Quarter-final", "Semi-final", "Third Place", "Final"]
 GOALS_KNOCKOUT_STAGES = ["Round of 16", "Quarter-final", "Semi-final", "Third Place", "Final"]
@@ -1002,7 +1001,7 @@ def render_scoreline_distribution_chart(
         return
 
     scoreline_scope = st.selectbox(
-        "Scoreline box plot scope",
+        "Scoreline Distribution plot",
         ["All stages", "Knockouts only"],
         key=scope_key,
     )
@@ -1290,7 +1289,7 @@ def render_participation_tab(
 
     placement_countries = sorted(placement_history["country"].dropna().unique())
     selected_placement_country = render_synced_country_selectbox(
-        "Placement country",
+        "Select a country to view",
         placement_countries,
         dashboard_base_df,
         "Brazil",
@@ -1459,7 +1458,7 @@ def render_goals_tab(
 
     countries = sorted(team_goals["country"].dropna().unique())
     selected_country = render_synced_country_selectbox(
-        "Country",
+        "Select a country to view",
         countries,
         dashboard_base_df,
         "Brazil",
@@ -1609,6 +1608,7 @@ def render_winner_goal_charts(
     goals_outputs: dict[str, pd.DataFrame],
     participation_outputs: dict[str, pd.DataFrame],
     edition_range: tuple[int, int],
+    dashboard_base_df: pd.DataFrame,
 ) -> None:
     winner_goals = prepare_country_goal_metrics(goals_outputs["team_goals"])
     winner_goals = winner_goals.loc[winner_goals["placement"].eq("Winner")].copy()
@@ -1747,7 +1747,7 @@ def render_winner_followup_tab(
         {
             "Champions Tracked": len(winners),
             "Repeated as Champion": int(winners["next_placement"].eq("Winner").sum()),
-            "Did Not Qualify Next": int(winners["next_placement"].eq("DNQ").sum()),
+            "Did Not Participate Next": int(winners["next_placement"].eq("DNP").sum()),
         }
     )
     fig = px.scatter(
@@ -1779,7 +1779,7 @@ def render_winner_followup_tab(
     set_edition_ticks(fig, winners, tickangle=45)
     render_plotly_chart(fig, key="historical_eda_winner_followup")
     st.dataframe(winners, hide_index=True, use_container_width=True)
-    render_winner_goal_charts(goals_outputs, participation_outputs, edition_range)
+    render_winner_goal_charts(goals_outputs, participation_outputs, edition_range, dashboard_base_df)
 
 
 def render_correlations_tab(outputs: dict[str, pd.DataFrame], edition_range: tuple[int, int]) -> None:

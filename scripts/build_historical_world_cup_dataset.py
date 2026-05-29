@@ -251,9 +251,11 @@ PRESERVE_HISTORICAL = {
     "German DR",
     "Serbia and Montenegro",
     "Soviet Union",
-    "West Germany",
     "Yugoslavia",
     "Zaire",
+}
+GEOGRAPHIC_ENTITY_ALIASES = {
+    "West Germany": "Germany",
 }
 DIRECT_ALIASES = {
     "Bosnia-Herzegovina": "Bosnia and Herzegovina",
@@ -569,6 +571,7 @@ def canonicalize_name(
     match_date: str | None = None,
 ) -> str:
     stripped = OUTPUT_TEAM_ALIASES.get(name.strip(), name.strip())
+    stripped = GEOGRAPHIC_ENTITY_ALIASES.get(stripped, stripped)
     if stripped in PRESERVE_HISTORICAL:
         return stripped
     key = normalize_key(stripped)
@@ -928,16 +931,62 @@ def build_placement_rows(
 
 
 def annotate_next_edition_placements(placement_rows_by_year: dict[int, list[dict[str, object]]]) -> None:
-    by_country: dict[str, list[dict[str, object]]] = defaultdict(list)
-    for year in sorted(placement_rows_by_year):
+    years = sorted(placement_rows_by_year)
+    for index, year in enumerate(years):
+        is_latest_completed_year = index == len(years) - 1
+        next_year = None if is_latest_completed_year else years[index + 1]
+        next_rows_by_country = (
+            {}
+            if next_year is None
+            else {str(row["country"]): row for row in placement_rows_by_year[next_year]}
+        )
         for row in placement_rows_by_year[year]:
-            by_country[str(row["country"])].append(row)
-    for country_rows in by_country.values():
-        for index, row in enumerate(country_rows[:-1]):
-            next_row = country_rows[index + 1]
-            row["next_edition"] = next_row["edition"]
+            row["next_edition"] = "" if next_year is None else next_year
+            row["next_placement"] = ""
+            row["next_position"] = ""
+            if next_year is None:
+                continue
+            next_row = next_rows_by_country.get(str(row["country"]))
+            if next_row is None:
+                row["next_placement"] = "DNP"
+                continue
             row["next_placement"] = next_row["placement"]
             row["next_position"] = next_row["position"]
+
+
+def validate_winner_placement(year: int, placement_rows: list[dict[str, object]], summary: dict[str, object]) -> None:
+    winners = [row for row in placement_rows if row["placement"] == "Winner"]
+    if len(winners) != 1:
+        raise ValueError(f"{year}: expected exactly one winner, found {len(winners)}")
+    actual_winner = str(winners[0]["country"])
+    expected_winner = str(summary["winner"])
+    if actual_winner != expected_winner:
+        raise ValueError(f"{year}: winner mismatch {actual_winner!r} != {expected_winner!r}")
+
+
+def validate_next_edition_placements(placement_rows_by_year: dict[int, list[dict[str, object]]]) -> None:
+    years = sorted(placement_rows_by_year)
+    for index, year in enumerate(years):
+        expected_next_year = "" if index == len(years) - 1 else years[index + 1]
+        next_rows_by_country = (
+            {}
+            if expected_next_year == ""
+            else {str(row["country"]): row for row in placement_rows_by_year[int(expected_next_year)]}
+        )
+        for row in placement_rows_by_year[year]:
+            if row.get("next_edition", "") != expected_next_year:
+                raise ValueError(f"{year}: next_edition must be immediate next edition")
+            if expected_next_year == "":
+                if row.get("next_placement", "") or row.get("next_position", ""):
+                    raise ValueError(f"{year}: latest edition should not have next placement data")
+                continue
+            next_row = next_rows_by_country.get(str(row["country"]))
+            if next_row is None:
+                if row.get("next_placement") != "DNP" or row.get("next_position", ""):
+                    raise ValueError(f"{year}: missing next-edition participant should be marked DNP")
+                continue
+            if row.get("next_placement") != next_row["placement"] or row.get("next_position") != next_row["position"]:
+                raise ValueError(f"{year}: next placement does not match immediate next edition")
 
 
 def validate_year(
@@ -964,6 +1013,7 @@ def validate_year(
     total_ga = sum(int(row["ga"]) for row in placement_rows)
     if total_gs != int(summary["total_goals"]) or total_ga != int(summary["total_goals"]):
         raise ValueError(f"{year}: goal totals mismatch")
+    validate_winner_placement(year, placement_rows, summary)
 
 
 def build_ntf_country_index() -> dict[str, NtfCountry]:
@@ -1808,6 +1858,7 @@ def main() -> None:
         time.sleep(0.05)
 
     annotate_next_edition_placements(placement_rows_by_year)
+    validate_next_edition_placements(placement_rows_by_year)
     for year, annotated_rows in placement_rows_by_year.items():
         output_dir = INT_WORLD_CUP_DIR / str(year)
         per_year_rows = [{field: row.get(field, "") for field in PLACEMENT_FIELDS} for row in annotated_rows]

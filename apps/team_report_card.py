@@ -157,6 +157,7 @@ PLACEMENT_SHORT_LABELS = {
     "Quarter-final": "QF",
     "Round of 16": "R16",
     "Group Stage": "GS",
+    "DNP": "DNP",
     "DNQ": "DNQ",
 }
 PLOTLY_EXPORT_CONFIG = {

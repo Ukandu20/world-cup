@@ -528,7 +528,7 @@ def build_host_effect_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd
         }
     )
     hosts = hosts.merge(next_lookup, on=["country", "next_edition"], how="left")
-    hosts.loc[hosts["next_edition"].notna() & hosts["next_placement"].isna(), "next_placement"] = "DNQ"
+    hosts.loc[hosts["next_edition"].notna() & hosts["next_placement"].isna(), "next_placement"] = "DNP"
     hosts.loc[hosts["next_edition"].isna(), "next_placement"] = "TBD"
     hosts["next_position"] = pd.to_numeric(hosts["next_position"], errors="coerce").fillna(0)
     hosts = hosts.merge(

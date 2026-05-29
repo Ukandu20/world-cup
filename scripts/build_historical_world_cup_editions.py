@@ -427,15 +427,24 @@ def build_placement_rows(
 def annotate_next_edition_placements(
     placement_rows_by_year: dict[int, list[dict[str, object]]]
 ) -> None:
-    by_country: dict[str, list[dict[str, object]]] = defaultdict(list)
-    for year in sorted(placement_rows_by_year):
+    years = sorted(placement_rows_by_year)
+    for index, year in enumerate(years):
+        next_year = None if index == len(years) - 1 else years[index + 1]
+        next_rows_by_country = (
+            {}
+            if next_year is None
+            else {str(row["country"]): row for row in placement_rows_by_year[next_year]}
+        )
         for row in placement_rows_by_year[year]:
-            by_country[str(row["country"])].append(row)
-
-    for country_rows in by_country.values():
-        for index, row in enumerate(country_rows[:-1]):
-            next_row = country_rows[index + 1]
-            row["next_edition"] = next_row["edition"]
+            row["next_edition"] = "" if next_year is None else next_year
+            row["next_placement"] = ""
+            row["next_position"] = ""
+            if next_year is None:
+                continue
+            next_row = next_rows_by_country.get(str(row["country"]))
+            if next_row is None:
+                row["next_placement"] = "DNP"
+                continue
             row["next_placement"] = next_row["placement"]
             row["next_position"] = next_row["position"]
 
