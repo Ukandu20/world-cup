@@ -1152,6 +1152,103 @@ def report_card_css() -> str:
         border-color: var(--trc-muted);
         color: var(--trc-text);
     }
+    [data-testid="stButton"] button,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]) {
+        border: 1px solid var(--trc-muted);
+        border-radius: 8px;
+        background: var(--trc-surface-strong);
+        color: var(--trc-text);
+        box-shadow: 0 6px 14px rgba(58, 42, 26, 0.06);
+        font-family: Gill Sans, Inter, sans-serif;
+        font-weight: 800;
+    }
+    [data-testid="stButton"] button *,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]) * {
+        color: var(--trc-text);
+        font-family: Gill Sans, Inter, sans-serif;
+    }
+    [data-testid="stButton"] button:hover,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):hover {
+        border-color: #2F6F3E;
+        background: #2F6F3E;
+        color: var(--trc-bg);
+        box-shadow: 0 8px 18px rgba(47, 111, 62, 0.16);
+    }
+    [data-testid="stButton"] button:hover *,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):hover * {
+        color: var(--trc-bg);
+    }
+    [data-testid="stButton"] button:focus,
+    [data-testid="stButton"] button:focus-visible,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):focus,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):focus-visible {
+        outline: none;
+        border-color: #2F6F3E;
+        box-shadow: 0 0 0 3px rgba(47, 111, 62, 0.20);
+    }
+    [data-testid="stButton"] button:disabled,
+    [data-testid^="stBaseButton-"]:disabled,
+    button:disabled {
+        border-color: var(--trc-line);
+        background: rgba(232, 213, 184, 0.58);
+        color: rgba(90, 70, 50, 0.62);
+        box-shadow: none;
+        cursor: not-allowed;
+    }
+    [data-baseweb="radio"] div[role="radio"] {
+        border-color: var(--trc-muted);
+        background-color: var(--trc-bg);
+    }
+    [data-baseweb="radio"] div[role="radio"][aria-checked="true"] {
+        border-color: #2F6F3E;
+        background-color: #2F6F3E;
+        box-shadow: inset 0 0 0 4px var(--trc-bg);
+    }
+    [data-baseweb="slider"] [role="slider"] {
+        background-color: #2F6F3E;
+        border-color: #2F6F3E;
+        box-shadow: 0 0 0 3px rgba(47, 111, 62, 0.14);
+    }
+    [data-baseweb="slider"] div[style*="background-color: rgb(255, 75, 75)"],
+    [data-baseweb="slider"] div[style*="background: rgb(255, 75, 75)"] {
+        background-color: #2F6F3E !important;
+    }
+    [data-baseweb="slider"] div[style*="background-color: rgb(240, 242, 246)"],
+    [data-baseweb="slider"] div[style*="background: rgb(240, 242, 246)"] {
+        background-color: var(--trc-line) !important;
+    }
+    [data-baseweb="select"] > div,
+    [data-baseweb="input"] > div,
+    [data-testid="stMultiSelect"] [data-baseweb="select"] > div {
+        border-color: var(--trc-line);
+        background: var(--trc-surface);
+        color: var(--trc-text);
+        font-family: Gill Sans, Inter, sans-serif;
+    }
+    [data-baseweb="select"] > div:focus-within,
+    [data-baseweb="input"] > div:focus-within {
+        border-color: #2F6F3E;
+        box-shadow: 0 0 0 3px rgba(47, 111, 62, 0.16);
+    }
+    [data-testid="stAlert"],
+    [data-testid="stDataFrame"],
+    [data-testid="stTable"] {
+        border: 1px solid var(--trc-line);
+        border-radius: 8px;
+        background: var(--trc-surface);
+        color: var(--trc-text);
+        box-shadow: 0 6px 14px rgba(58, 42, 26, 0.05);
+    }
+    [data-testid="stJson"],
+    [data-testid="stCodeBlock"],
+    pre,
+    code {
+        border-radius: 6px;
+        background: rgba(90, 70, 50, 0.12);
+        color: #2F6F3E;
+        font-family: Consolas, "Courier New", monospace;
+        font-weight: 700;
+    }
     .trc-shell {
         display: grid;
         gap: 18px;

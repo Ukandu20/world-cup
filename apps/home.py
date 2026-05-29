@@ -233,6 +233,13 @@ def build_navigation_pages() -> dict[str, list[st.Page]]:
             ),
         ],
         "Models": [
+            st.Page(
+                render_v4_probabilities_navigation_page,
+                title="V4 Enhanced Poisson",
+                icon=":material/looks_4:",
+            ),
+        ],
+        "Legacy": [
             st.Page(render_v1_navigation_page, title="V1 Team Strength", icon=":material/looks_one:"),
             st.Page(render_v2_form_navigation_page, title="V2 Form", icon=":material/looks_two:"),
             st.Page(
@@ -242,13 +249,8 @@ def build_navigation_pages() -> dict[str, list[st.Page]]:
             ),
             st.Page(
                 render_v3_probabilities_navigation_page,
-                title="V3 Poisson Regression (Legacy)",
+                title="V3 Poisson Regression",
                 icon=":material/looks_3:",
-            ),
-            st.Page(
-                render_v4_probabilities_navigation_page,
-                title="V4 Enhanced Poisson",
-                icon=":material/looks_4:",
             ),
         ],
         "Backtests": [

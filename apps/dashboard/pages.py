@@ -886,6 +886,35 @@ def render_v4_probabilities_dashboard() -> None:
         selected_group,
         simulation_count=simulation_count,
     )
+
+    action_cols = st.columns(2)
+    with action_cols[0]:
+        if st.button("Export This V4 Probability View", width="stretch", key="v4_prob_export_current"):
+            try:
+                export_path = export_current_view(
+                    view_mode,
+                    selected_group,
+                    tables,
+                    bracket_data=bracket_data,
+                    metadata_lookup=metadata_lookup,
+                    simulation_count=simulation_count,
+                )
+                st.success(f"Exported current view to {export_path}")
+            except RuntimeError as exc:
+                st.error(str(exc))
+            except ValueError as exc:
+                st.error(str(exc))
+    with action_cols[1]:
+        if st.button("Export All V4 Probability Tables", width="stretch", key="v4_prob_export_all"):
+            try:
+                exported_paths = export_all_tables(
+                    probability_df=dashboard_df,
+                    simulation_count=simulation_count,
+                )
+                st.success(f"Exported {len(exported_paths)} PNG tables to {EXPORT_DIR}")
+            except RuntimeError as exc:
+                st.error(str(exc))
+
     if view_mode == "Bracket":
         render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
     else:
@@ -1508,8 +1537,8 @@ def render_home_page() -> None:
           <div class="wc-home-route-grid">
             {build_home_route_card("Team Report Card", "Reports > Team Report Card", "Deep dive into one country with history, qualification path, squad context, and projection outlook.")}
             {build_home_route_card("V4 Enhanced Poisson", "Models > V4 Enhanced Poisson", "Start here for primary 2026 probabilities, group tables, all-country rankings, and bracket view.")}
-            {build_home_route_card("V2 Probabilities", "Models > V2 Probabilities", "Compare the current projection against the alternate form-weighted multinomial model.")}
-            {build_home_route_card("V2 Form", "Models > V2 Form", "Inspect recent form inputs, team strength components, and confederation-level form tables.")}
+            {build_home_route_card("V2 Probabilities", "Legacy > V2 Probabilities", "Compare the current projection against the alternate form-weighted multinomial model.")}
+            {build_home_route_card("V2 Form", "Legacy > V2 Form", "Inspect recent form inputs, team strength components, and confederation-level form tables.")}
             {build_home_route_card("Analysis", "Reports > Analysis", "Explore historical World Cup patterns behind participation, scoring, hosts, winners, and qualifiers.")}
             {build_home_route_card("Backtests", "Backtests", "Check how V2 and V3 performed against the 2022 World Cup before trusting current projections.")}
           </div>

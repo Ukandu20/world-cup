@@ -50,7 +50,7 @@ def chart_subtitle(base_label: str, simulation_count: int | None = None) -> str:
     """Return a chart subtitle with an optional simulation-count suffix."""
     if simulation_count is None:
         return base_label
-    return f"{base_label} | {simulation_count:,} simulations | @cartierkut1 | data: Kaggle,eloratings.net"
+    return f"@cartierkut1"
 
 
 def configure_page(page_title: str) -> None:
@@ -136,9 +136,363 @@ def shared_css() -> str:
         color: var(--wc-text);
         font-family: var(--wc-font);
     }
+    span[class*="material-symbols"],
+    i[class*="material-symbols"],
+    [data-testid="stIconMaterial"],
+    [class*="material-symbols"] {
+        font-family: "Material Symbols Rounded", "Material Symbols Outlined", "Material Icons" !important;
+        font-weight: normal !important;
+        font-style: normal !important;
+        font-size: 1.15em !important;
+        line-height: 1 !important;
+        letter-spacing: normal !important;
+        text-transform: none !important;
+        white-space: nowrap !important;
+        word-wrap: normal !important;
+        direction: ltr !important;
+        -webkit-font-feature-settings: "liga" !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-feature-settings: "liga" !important;
+    }
     [data-testid="stCaptionContainer"],
     .stMarkdown small {
         color: var(--wc-muted);
+    }
+    [data-testid="stHeader"],
+    header[data-testid="stHeader"],
+    [data-testid="stToolbar"],
+    [data-testid="stDecoration"] {
+        background: var(--wc-bg);
+        color: var(--wc-text);
+    }
+    [data-testid="stHeader"]::before,
+    header[data-testid="stHeader"]::before {
+        background: var(--wc-bg);
+    }
+    [data-testid="stAppViewContainer"] > header {
+        background: var(--wc-bg);
+        color: var(--wc-text);
+        box-shadow: inset 0 -1px 0 var(--wc-line);
+    }
+    [data-testid="stToolbar"] button,
+    [data-testid="stToolbar"] a,
+    [data-testid="stToolbar"] svg,
+    [data-testid="stHeader"] button,
+    [data-testid="stHeader"] a,
+    [data-testid="stHeader"] svg {
+        color: var(--wc-muted);
+        fill: var(--wc-muted);
+    }
+    [data-testid="stToolbar"] button:hover,
+    [data-testid="stHeader"] button:hover {
+        color: var(--wc-text);
+        background: var(--wc-surface-strong);
+    }
+    [data-testid="stNav"],
+    nav,
+    [role="navigation"] {
+        background: var(--wc-bg);
+        color: var(--wc-text);
+        border-bottom: 1px solid var(--wc-line);
+        font-family: var(--wc-font);
+    }
+    [data-testid="stNav"] *,
+    nav *,
+    [role="navigation"] * {
+        font-family: var(--wc-font);
+    }
+    [data-testid="stNav"] button,
+    [data-testid="stNav"] a,
+    nav button,
+    nav a,
+    [role="navigation"] button,
+    [role="navigation"] a {
+        color: var(--wc-muted);
+        background: transparent;
+        border-radius: 8px;
+        font-weight: 800;
+    }
+    [data-testid="stNav"] button:hover,
+    [data-testid="stNav"] a:hover,
+    nav button:hover,
+    nav a:hover,
+    [role="navigation"] button:hover,
+    [role="navigation"] a:hover {
+        color: var(--wc-text);
+        background: var(--wc-surface-strong);
+    }
+    [data-testid="stNav"] button[aria-current="page"],
+    [data-testid="stNav"] a[aria-current="page"],
+    nav button[aria-current="page"],
+    nav a[aria-current="page"],
+    [role="navigation"] button[aria-current="page"],
+    [role="navigation"] a[aria-current="page"],
+    [data-baseweb="menu"] [aria-selected="true"] {
+        color: var(--wc-bg);
+        background: var(--wc-muted);
+    }
+    [data-baseweb="popover"],
+    [data-baseweb="menu"] {
+        background: var(--wc-surface);
+        color: var(--wc-text);
+        border: 1px solid var(--wc-line);
+        box-shadow: 0 12px 26px rgba(58, 42, 26, 0.12);
+        font-family: var(--wc-font);
+    }
+    [data-baseweb="menu"] li,
+    [data-baseweb="menu"] [role="option"],
+    [data-baseweb="menu"] [role="menuitem"] {
+        color: var(--wc-text);
+        background: var(--wc-surface);
+        font-family: var(--wc-font);
+        font-weight: 700;
+    }
+    [data-baseweb="menu"] li:hover,
+    [data-baseweb="menu"] [role="option"]:hover,
+    [data-baseweb="menu"] [role="menuitem"]:hover {
+        color: var(--wc-text);
+        background: var(--wc-surface-strong);
+    }
+    [data-baseweb="popover"] > div,
+    [data-baseweb="popover"] ul,
+    [data-baseweb="popover"] li,
+    [data-baseweb="popover"] a,
+    [data-baseweb="popover"] button,
+    [data-baseweb="popover"] [role="menu"],
+    [data-baseweb="popover"] [role="menuitem"],
+    [data-baseweb="popover"] [role="listbox"],
+    [data-baseweb="popover"] [role="option"] {
+        background-color: var(--wc-surface) !important;
+        color: var(--wc-text) !important;
+        border-color: var(--wc-line) !important;
+        font-family: var(--wc-font) !important;
+    }
+    [data-baseweb="popover"] svg,
+    [data-baseweb="popover"] span,
+    [data-baseweb="popover"] p {
+        color: var(--wc-text) !important;
+        fill: var(--wc-text) !important;
+    }
+    [data-baseweb="popover"] span:not([class*="material-symbols"]):not([data-testid="stIconMaterial"]),
+    [data-baseweb="popover"] p {
+        font-family: var(--wc-font) !important;
+    }
+    [data-baseweb="popover"] li:hover,
+    [data-baseweb="popover"] a:hover,
+    [data-baseweb="popover"] button:hover,
+    [data-baseweb="popover"] [role="menuitem"]:hover,
+    [data-baseweb="popover"] [role="option"]:hover,
+    [data-baseweb="popover"] [aria-selected="true"]:hover {
+        background-color: var(--wc-surface-strong) !important;
+        color: var(--wc-text) !important;
+    }
+    [data-baseweb="popover"] [aria-selected="true"],
+    [data-baseweb="popover"] [aria-current="page"],
+    [data-baseweb="popover"] a[aria-current="page"],
+    [data-baseweb="popover"] button[aria-current="page"] {
+        background-color: var(--wc-surface-strong) !important;
+        color: var(--wc-text) !important;
+        box-shadow: none !important;
+    }
+    [data-baseweb="popover"] [aria-selected="true"] *,
+    [data-baseweb="popover"] [aria-current="page"] *,
+    [data-baseweb="popover"] a[aria-current="page"] *,
+    [data-baseweb="popover"] button[aria-current="page"] * {
+        color: var(--wc-text) !important;
+        fill: var(--wc-text) !important;
+    }
+    [data-baseweb="popover"] a:focus,
+    [data-baseweb="popover"] button:focus,
+    [data-baseweb="popover"] [role="menuitem"]:focus,
+    [data-baseweb="popover"] [role="option"]:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    [data-testid="stBaseButton-header"],
+    [data-testid="stBaseButton-headerNoPadding"] {
+        color: var(--wc-muted);
+    }
+    [data-testid="stButton"] button,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]),
+    button[kind="primary"],
+    button[kind="secondary"] {
+        border: 1px solid var(--wc-muted);
+        border-radius: 8px;
+        background: var(--wc-surface-strong);
+        color: var(--wc-text);
+        box-shadow: 0 6px 14px rgba(58, 42, 26, 0.06);
+        font-family: var(--wc-font);
+        font-weight: 800;
+    }
+    [data-testid="stButton"] button *,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]) * {
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    [data-testid="stButton"] button:hover,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):hover,
+    button[kind="primary"]:hover,
+    button[kind="secondary"]:hover {
+        border-color: var(--wc-positive);
+        background: var(--wc-positive);
+        color: var(--wc-bg);
+        box-shadow: 0 8px 18px rgba(47, 111, 62, 0.16);
+    }
+    [data-testid="stButton"] button:hover *,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):hover * {
+        color: var(--wc-bg);
+    }
+    [data-testid="stButton"] button:focus,
+    [data-testid="stButton"] button:focus-visible,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):focus,
+    [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):focus-visible {
+        outline: none;
+        border-color: var(--wc-positive);
+        box-shadow: 0 0 0 3px rgba(47, 111, 62, 0.20);
+    }
+    [data-testid="stButton"] button:disabled,
+    [data-testid^="stBaseButton-"]:disabled,
+    button:disabled {
+        border-color: var(--wc-line);
+        background: rgba(232, 213, 184, 0.58);
+        color: rgba(90, 70, 50, 0.62);
+        box-shadow: none;
+        cursor: not-allowed;
+    }
+    [data-testid="stButton"] button:disabled *,
+    [data-testid^="stBaseButton-"]:disabled * {
+        color: rgba(90, 70, 50, 0.62);
+    }
+    [data-testid="stRadio"] label,
+    [data-baseweb="radio"] label {
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+        font-weight: 700;
+    }
+    [data-baseweb="radio"] div[role="radio"] {
+        border-color: var(--wc-muted);
+        background-color: var(--wc-bg);
+    }
+    [data-baseweb="radio"] div[role="radio"][aria-checked="true"] {
+        border-color: var(--wc-positive);
+        background-color: var(--wc-positive);
+        box-shadow: inset 0 0 0 4px var(--wc-bg);
+    }
+    [data-baseweb="radio"] div[role="radio"]:focus,
+    [data-baseweb="radio"] div[role="radio"]:focus-visible {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(47, 111, 62, 0.20);
+    }
+    [data-baseweb="slider"] [role="slider"] {
+        background-color: var(--wc-positive);
+        border-color: var(--wc-positive);
+        box-shadow: 0 0 0 3px rgba(47, 111, 62, 0.14);
+    }
+    [data-baseweb="slider"] [role="slider"]:focus,
+    [data-baseweb="slider"] [role="slider"]:focus-visible {
+        outline: none;
+        box-shadow: 0 0 0 4px rgba(47, 111, 62, 0.22);
+    }
+    [data-baseweb="slider"] div {
+        color: var(--wc-text);
+    }
+    [data-baseweb="slider"] div[style*="background-color: rgb(255, 75, 75)"],
+    [data-baseweb="slider"] div[style*="background: rgb(255, 75, 75)"] {
+        background-color: var(--wc-positive) !important;
+    }
+    [data-baseweb="slider"] div[style*="background-color: rgb(240, 242, 246)"],
+    [data-baseweb="slider"] div[style*="background: rgb(240, 242, 246)"] {
+        background-color: var(--wc-line) !important;
+    }
+    [data-baseweb="select"] > div,
+    [data-baseweb="input"] > div,
+    [data-baseweb="textarea"] > div,
+    [data-testid="stMultiSelect"] [data-baseweb="select"] > div {
+        border-color: var(--wc-line);
+        background: var(--wc-surface);
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    [data-baseweb="select"] > div:hover,
+    [data-baseweb="input"] > div:hover,
+    [data-baseweb="textarea"] > div:hover {
+        border-color: var(--wc-muted);
+    }
+    [data-baseweb="select"] > div:focus-within,
+    [data-baseweb="input"] > div:focus-within,
+    [data-baseweb="textarea"] > div:focus-within {
+        border-color: var(--wc-positive);
+        box-shadow: 0 0 0 3px rgba(47, 111, 62, 0.16);
+    }
+    [data-baseweb="select"] span,
+    [data-baseweb="select"] input,
+    [data-baseweb="input"] input,
+    [data-baseweb="textarea"] textarea {
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    [data-baseweb="tag"] {
+        border: 1px solid rgba(47, 111, 62, 0.30);
+        background: var(--wc-positive-soft);
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+        font-weight: 800;
+    }
+    [data-baseweb="checkbox"] label,
+    [data-testid="stCheckbox"] label,
+    [data-testid="stToggle"] label {
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    [data-testid="stCheckbox"] [data-testid="stWidgetLabel"],
+    [data-testid="stToggle"] [data-testid="stWidgetLabel"] {
+        color: var(--wc-text);
+    }
+    [data-testid="stAlert"] {
+        border: 1px solid var(--wc-line);
+        border-radius: 8px;
+        background: var(--wc-surface);
+        color: var(--wc-text);
+        box-shadow: 0 6px 14px rgba(58, 42, 26, 0.05);
+    }
+    [data-testid="stAlert"] *,
+    [data-testid="stException"] * {
+        color: var(--wc-text);
+        font-family: var(--wc-font);
+    }
+    [data-testid="stDataFrame"],
+    [data-testid="stTable"] {
+        border: 1px solid var(--wc-line);
+        border-radius: 8px;
+        background: var(--wc-surface);
+        color: var(--wc-text);
+        box-shadow: 0 6px 14px rgba(58, 42, 26, 0.05);
+        overflow: hidden;
+    }
+    [data-testid="stDataFrame"] *,
+    [data-testid="stTable"] * {
+        font-family: var(--wc-font);
+    }
+    [data-testid="stJson"],
+    [data-testid="stCodeBlock"],
+    pre,
+    code {
+        border-radius: 6px;
+        background: rgba(90, 70, 50, 0.12);
+        color: var(--wc-positive);
+        font-family: Consolas, "Courier New", monospace;
+        font-weight: 700;
+    }
+    [data-testid="stJson"] {
+        border: 1px solid var(--wc-line);
+        padding: 0.7rem;
+    }
+    hr {
+        border-color: var(--wc-line);
+    }
+    ::selection {
+        background: var(--wc-gold-soft);
+        color: var(--wc-text);
     }
     html.wc-export-mode,
     body.wc-export-mode {
@@ -1872,7 +2226,6 @@ def current_view_tables(
                 "frame": projected_group_table_frame(df, selected_group),
                 "include_group_column": False,
                 "include_ko_column": False,
-                "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
                 "group_pill_label": selected_group,
                 "table_kind": "probability",
             },
@@ -1890,7 +2243,6 @@ def current_view_tables(
                     "frame": group_df,
                     "include_group_column": False,
                     "include_ko_column": False,
-                    "card_subtitle": chart_subtitle("Bracket-Aligned Projected Order", simulation_count),
                     "group_pill_label": group_code,
                     "table_kind": "probability",
                 }
@@ -1904,7 +2256,6 @@ def current_view_tables(
             "frame": combined,
             "include_group_column": True,
             "include_ko_column": True,
-            "card_subtitle": chart_subtitle("Pre-Tournament Probability Table", simulation_count),
             "group_pill_label": None,
             "table_kind": "probability",
         }
@@ -1963,7 +2314,6 @@ def render_bracket(
         build_bracket_html(
             bracket_data,
             metadata_lookup,
-            card_subtitle=chart_subtitle("Predicted Knockout Bracket", simulation_count),
         ),
         unsafe_allow_html=True,
     )
@@ -2036,7 +2386,6 @@ def render_bracket_document(
     bracket_html = build_bracket_html(
         bracket_data,
         metadata_lookup,
-        card_subtitle=chart_subtitle("Predicted Knockout Bracket", simulation_count),
     )
     return f"""<!DOCTYPE html>
 <html class="wc-export-mode" lang="en">
