@@ -690,6 +690,7 @@ def fixture_card_columns() -> list[str]:
         "draw_prob",
         "away_win_prob",
         "Projected Winner",
+        "Projected Winner ID",
         "Opponent",
         "Matchup Win %",
     ]
@@ -782,6 +783,7 @@ def build_group_fixtures_table(
     team_fixtures["draw_prob"] = draw_probabilities
     team_fixtures["away_win_prob"] = away_probabilities
     team_fixtures["Projected Winner"] = ""
+    team_fixtures["Projected Winner ID"] = ""
     team_fixtures["Matchup Win %"] = np.nan
     return team_fixtures.loc[:, fixture_card_columns()].reset_index(drop=True)
 
@@ -814,6 +816,7 @@ def build_knockout_path_table(
             is_home = str(team_id) == home_team_id
             opponent_id = away_team_id if is_home else home_team_id
             matchup_win_prob = float(match.get("home_win_prob" if is_home else "away_win_prob", 0.0))
+            projected_winner_id = str(match.get("winner_team_id", ""))
             rows.append(
                 {
                     "match_number": match_number,
@@ -834,7 +837,8 @@ def build_knockout_path_table(
                     "away_win_prob": round(float(match.get("away_win_prob", 0.0)), 1),
                     "Opponent": display_lookup.get(opponent_id, opponent_id),
                     "Matchup Win %": round(matchup_win_prob, 1),
-                    "Projected Winner": display_lookup.get(str(match.get("winner_team_id", "")), str(match.get("winner_team_id", ""))),
+                    "Projected Winner": display_lookup.get(projected_winner_id, projected_winner_id),
+                    "Projected Winner ID": projected_winner_id,
                 }
             )
             break
@@ -1328,88 +1332,139 @@ def report_card_css() -> str:
     }
     .trc-fixture-grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 14px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
     }
     .trc-fixture-card {
+        position: relative;
         border: 1px solid var(--trc-line);
         border-radius: 8px;
         background: var(--trc-surface);
-        padding: 15px 16px;
+        padding: 12px 13px;
         box-shadow: 0 8px 18px rgba(58, 42, 26, 0.06);
     }
-    .trc-fixture-meta {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        margin-bottom: 12px;
-        color: var(--trc-muted);
-        font-size: 0.78rem;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-    .trc-fixture-date,
-    .trc-fixture-stage {
+    .trc-fixture-card-knockout::after {
+        content: ">";
+        position: absolute;
+        right: -11px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
         border: 1px solid var(--trc-line);
         border-radius: 999px;
-        background: rgba(239, 227, 207, 0.72);
-        padding: 0.22rem 0.58rem;
+        background: var(--trc-surface-strong);
+        color: var(--trc-muted);
+        display: grid;
+        place-items: center;
+        font-size: 0.72rem;
+        font-weight: 900;
+        z-index: 1;
+    }
+    .trc-fixture-card-knockout:nth-child(3n)::after,
+    .trc-fixture-card-knockout:last-child::after {
+        display: none;
+    }
+    .trc-fixture-meta {
+        display: grid;
+        justify-items: center;
+        gap: 2px;
+        margin-bottom: 10px;
+        color: var(--trc-muted);
+        font-size: 0.72rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 1.25;
+    }
+    .trc-fixture-stage {
+        color: var(--trc-text);
+        font-weight: 900;
+    }
+    .trc-fixture-detail {
+        color: var(--trc-muted);
+        font-size: 0.7rem;
+        font-weight: 800;
     }
     .trc-fixture-body {
         display: grid;
         grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
         align-items: center;
-        gap: 12px;
+        gap: 9px;
     }
     .trc-fixture-team {
+        position: relative;
         min-width: 0;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        padding: 8px 8px 9px;
         text-align: center;
+    }
+    .trc-fixture-team-favorite {
+        border-color: rgba(47, 111, 62, 0.38);
+        background: rgba(47, 111, 62, 0.08);
+        box-shadow: inset 0 0 0 1px rgba(47, 111, 62, 0.08);
+    }
+    .trc-fixture-team-advance {
+        border-color: rgba(47, 111, 62, 0.52);
+        background: rgba(47, 111, 62, 0.12);
     }
     .trc-fixture-team .fi {
         display: inline-block;
-        margin-bottom: 0.45rem;
-        font-size: 1.55rem;
+        margin-bottom: 0.28rem;
+        font-size: 1.25rem;
         border-radius: 999px;
         box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.22);
     }
     .trc-fixture-code {
         color: var(--trc-text);
-        font-size: 1.12rem;
+        font-size: 1rem;
         font-weight: 900;
         line-height: 1;
-    }
-    .trc-fixture-name {
-        overflow-wrap: anywhere;
-        margin-top: 0.25rem;
-        color: var(--trc-muted);
-        font-size: 0.88rem;
-        font-weight: 700;
-        line-height: 1.2;
     }
     .trc-fixture-prob {
         display: inline-flex;
         justify-content: center;
-        min-width: 4.1rem;
-        margin-top: 0.65rem;
+        min-width: 3.8rem;
+        margin-top: 0.45rem;
         border: 1px solid var(--trc-line);
         border-radius: 999px;
-        background: var(--trc-surface-strong);
+        background: rgba(232, 213, 184, 0.72);
         color: var(--trc-text);
-        padding: 0.28rem 0.62rem;
-        font-size: 0.84rem;
+        padding: 0.22rem 0.5rem;
+        font-size: 0.78rem;
         font-weight: 900;
+    }
+    .trc-fixture-prob-favorite {
+        border-color: rgba(47, 111, 62, 0.45);
+        background: #2F6F3E;
+        color: var(--trc-bg);
+    }
+    .trc-fixture-badge {
+        position: absolute;
+        top: -0.58rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid rgba(47, 111, 62, 0.45);
+        border-radius: 999px;
+        background: #2F6F3E;
+        color: var(--trc-bg);
+        padding: 0.1rem 0.38rem;
+        font-size: 0.58rem;
+        font-weight: 900;
+        line-height: 1.1;
+        white-space: nowrap;
+        text-transform: uppercase;
     }
     .trc-fixture-center {
         display: grid;
         justify-items: center;
-        gap: 8px;
+        gap: 6px;
         color: var(--trc-muted);
         font-weight: 900;
     }
     .trc-fixture-vs {
         color: var(--trc-text);
-        font-size: 0.86rem;
+        font-size: 0.78rem;
         letter-spacing: 0.08em;
     }
     .trc-fixture-draw {
@@ -1417,16 +1472,20 @@ def report_card_css() -> str:
         border-radius: 999px;
         background: rgba(239, 227, 207, 0.86);
         color: var(--trc-muted);
-        padding: 0.25rem 0.58rem;
-        font-size: 0.78rem;
+        padding: 0.2rem 0.46rem;
+        font-size: 0.72rem;
         white-space: nowrap;
     }
-    .trc-fixture-venue {
-        margin-top: 12px;
-        color: var(--trc-muted);
-        font-size: 0.82rem;
-        font-weight: 700;
-        text-align: center;
+    .trc-fixture-draw-favorite {
+        border-color: rgba(47, 111, 62, 0.45);
+        background: rgba(47, 111, 62, 0.12);
+        color: var(--trc-text);
+    }
+    .trc-fixture-draw-badge {
+        margin-left: 0.2rem;
+        color: #2F6F3E;
+        font-weight: 900;
+        text-transform: uppercase;
     }
     .stTabs [data-baseweb="tab-list"] {
         border-bottom: 1px solid var(--trc-line);
@@ -1462,6 +1521,9 @@ def report_card_css() -> str:
         }
         .trc-fixture-body {
             grid-template-columns: minmax(0, 1fr);
+        }
+        .trc-fixture-card-knockout::after {
+            display: none;
         }
     }
     """
@@ -1653,44 +1715,84 @@ def fixture_value(row: pd.Series, key: str, default: str = "") -> str:
     return str(value)
 
 
+def fixture_probability_number(row: pd.Series, key: str) -> float:
+    value = pd.to_numeric(row.get(key, np.nan), errors="coerce")
+    return float(value) if pd.notna(value) else float("nan")
+
+
+def fixture_outcome_classes(row: pd.Series, is_knockout: bool) -> dict[str, str]:
+    probabilities = {
+        "home": fixture_probability_number(row, "home_win_prob"),
+        "away": fixture_probability_number(row, "away_win_prob"),
+    }
+    if not is_knockout:
+        probabilities["draw"] = fixture_probability_number(row, "draw_prob")
+    valid_probabilities = {key: value for key, value in probabilities.items() if np.isfinite(value)}
+    favorite = max(valid_probabilities, key=valid_probabilities.get) if valid_probabilities else ""
+    projected_winner_id = fixture_value(row, "Projected Winner ID")
+    home_advances = is_knockout and projected_winner_id and projected_winner_id == fixture_value(row, "home_team_id")
+    away_advances = is_knockout and projected_winner_id and projected_winner_id == fixture_value(row, "away_team_id")
+    return {
+        "home_team": " trc-fixture-team-favorite" if favorite == "home" else "",
+        "away_team": " trc-fixture-team-favorite" if favorite == "away" else "",
+        "draw": " trc-fixture-draw-favorite" if favorite == "draw" else "",
+        "home_prob": " trc-fixture-prob-favorite" if favorite == "home" else "",
+        "away_prob": " trc-fixture-prob-favorite" if favorite == "away" else "",
+        "home_advance": " trc-fixture-team-advance" if home_advances else "",
+        "away_advance": " trc-fixture-team-advance" if away_advances else "",
+        "home_badge": '<div class="trc-fixture-badge">Advances</div>' if home_advances else ('<div class="trc-fixture-badge">Fav</div>' if favorite == "home" else ""),
+        "away_badge": '<div class="trc-fixture-badge">Advances</div>' if away_advances else ('<div class="trc-fixture-badge">Fav</div>' if favorite == "away" else ""),
+        "draw_badge": '<span class="trc-fixture-draw-badge">Fav</span>' if favorite == "draw" else "",
+    }
+
+
+def fixture_meta_html(row: pd.Series) -> str:
+    stage = fixture_value(row, "Stage")
+    date = fixture_value(row, "Date Short")
+    venue = fixture_value(row, "Venue")
+    detail = " @ ".join(value for value in [date, venue] if value)
+    stage_html = f'<div class="trc-fixture-stage">{html.escape(stage)}</div>' if stage else ""
+    detail_html = f'<div class="trc-fixture-detail">{html.escape(detail)}</div>' if detail else ""
+    return f"{stage_html}{detail_html}"
+
+
 def build_fixture_card_html(row: pd.Series) -> str:
     home_flag = fixture_value(row, "home_flag")
     away_flag = fixture_value(row, "away_flag")
     home_flag_html = f'<span class="fi fi-{html.escape(home_flag)}"></span>' if home_flag else ""
     away_flag_html = f'<span class="fi fi-{html.escape(away_flag)}"></span>' if away_flag else ""
+    is_knockout = pd.isna(pd.to_numeric(row.get("draw_prob", np.nan), errors="coerce"))
+    outcome_classes = fixture_outcome_classes(row, is_knockout=is_knockout)
     draw_probability = pd.to_numeric(row.get("draw_prob", np.nan), errors="coerce")
     draw_html = (
-        f'<div class="trc-fixture-draw">Draw {fixture_probability_label(draw_probability)}</div>'
+        f'<div class="trc-fixture-draw{outcome_classes["draw"]}">Draw {fixture_probability_label(draw_probability)} {outcome_classes["draw_badge"]}</div>'
         if pd.notna(draw_probability)
         else ""
     )
-    venue = fixture_value(row, "Venue")
-    venue_html = f'<div class="trc-fixture-venue">{html.escape(venue)}</div>' if venue else ""
+    card_classes = "trc-fixture-card trc-fixture-card-knockout" if is_knockout else "trc-fixture-card"
     return (
-        '<article class="trc-fixture-card">'
+        f'<article class="{card_classes}">'
         '<div class="trc-fixture-meta">'
-        f'<span class="trc-fixture-date">{html.escape(fixture_value(row, "Date Short"))}</span>'
-        f'<span class="trc-fixture-stage">{html.escape(fixture_value(row, "Stage"))}</span>'
+        f"{fixture_meta_html(row)}"
         "</div>"
         '<div class="trc-fixture-body">'
-        '<div class="trc-fixture-team">'
+        f'<div class="trc-fixture-team{outcome_classes["home_team"]}{outcome_classes["home_advance"]}">'
+        f"{outcome_classes['home_badge']}"
         f"{home_flag_html}"
         f'<div class="trc-fixture-code">{html.escape(fixture_value(row, "home_code"))}</div>'
-        f'<div class="trc-fixture-name">{html.escape(fixture_value(row, "home_name"))}</div>'
-        f'<div class="trc-fixture-prob">{fixture_probability_label(row.get("home_win_prob"))}</div>'
+        f'<div class="trc-fixture-prob{outcome_classes["home_prob"]}">{fixture_probability_label(row.get("home_win_prob"))}</div>'
         "</div>"
         '<div class="trc-fixture-center">'
         '<div class="trc-fixture-vs">VS</div>'
         f"{draw_html}"
         "</div>"
-        '<div class="trc-fixture-team">'
+        f'<div class="trc-fixture-team{outcome_classes["away_team"]}{outcome_classes["away_advance"]}">'
+        f"{outcome_classes['away_badge']}"
         f"{away_flag_html}"
         f'<div class="trc-fixture-code">{html.escape(fixture_value(row, "away_code"))}</div>'
-        f'<div class="trc-fixture-name">{html.escape(fixture_value(row, "away_name"))}</div>'
-        f'<div class="trc-fixture-prob">{fixture_probability_label(row.get("away_win_prob"))}</div>'
+        f'<div class="trc-fixture-prob{outcome_classes["away_prob"]}">{fixture_probability_label(row.get("away_win_prob"))}</div>'
         "</div>"
         "</div>"
-        f"{venue_html}"
         "</article>"
     )
 
