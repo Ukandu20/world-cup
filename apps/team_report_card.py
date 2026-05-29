@@ -12,6 +12,7 @@ import pandas as pd
 import streamlit as st
 
 from apps import home
+from apps.dashboard.modeling import load_v4_poisson_model
 from apps.dashboard.model_registry import PRIMARY_MODEL
 from apps.dashboard.simulation_store import (
     DEFAULT_SIMULATION_SEED,
@@ -230,6 +231,25 @@ def build_flag_lookup(df: pd.DataFrame) -> dict[str, str]:
         .set_index("team_id")["flag_icon_code"]
         .to_dict()
     )
+
+
+def build_team_code_lookup(df: pd.DataFrame) -> dict[str, str]:
+    """Return a team-id to short display code lookup."""
+    code_column = choose_column(df, ("fifa_code", "team_id"), fallback="team_id")
+    lookup_frame = df.loc[:, ["team_id"]].drop_duplicates(subset=["team_id"], keep="first").copy()
+    lookup_frame["team_id"] = lookup_frame["team_id"].astype(str)
+    if code_column != "team_id" and code_column in df.columns:
+        code_lookup = (
+            df.loc[:, ["team_id", code_column]]
+            .drop_duplicates(subset=["team_id"], keep="first")
+            .assign(team_id=lambda frame: frame["team_id"].astype(str))
+            .set_index("team_id")[code_column]
+            .to_dict()
+        )
+        lookup_frame["code"] = lookup_frame["team_id"].map(code_lookup).fillna(lookup_frame["team_id"]).astype(str)
+    else:
+        lookup_frame["code"] = lookup_frame["team_id"]
+    return lookup_frame.set_index("team_id")["code"].to_dict()
 
 
 def series_to_report_scores(series: pd.Series, reverse: bool = False) -> pd.Series:
@@ -651,8 +671,54 @@ def build_qualification_path_table(lead_in_df: pd.DataFrame, team_id: str) -> pd
     return df.loc[:, output_columns].reset_index(drop=True)
 
 
-def build_group_fixtures_table(fixtures_df: pd.DataFrame, team_id: str, display_lookup: dict[str, str]) -> pd.DataFrame:
-    """Return the selected team's upcoming group-stage fixtures."""
+def fixture_card_columns() -> list[str]:
+    return [
+        "match_number",
+        "Date",
+        "Date Short",
+        "Stage",
+        "Venue",
+        "home_team_id",
+        "away_team_id",
+        "home_name",
+        "away_name",
+        "home_code",
+        "away_code",
+        "home_flag",
+        "away_flag",
+        "home_win_prob",
+        "draw_prob",
+        "away_win_prob",
+        "Projected Winner",
+        "Opponent",
+        "Matchup Win %",
+    ]
+
+
+def fixture_display_date(frame: pd.DataFrame) -> pd.Series:
+    local_dates = pd.to_datetime(frame.get("kickoff_datetime_local", pd.Series(pd.NaT, index=frame.index)), errors="coerce", utc=True)
+    utc_dates = pd.to_datetime(frame.get("kickoff_datetime_utc", pd.Series(pd.NaT, index=frame.index)), errors="coerce", utc=True)
+    resolved_dates = local_dates.dt.tz_convert(None).fillna(utc_dates.dt.tz_convert(None))
+    return resolved_dates.dt.strftime("%Y-%m-%d").fillna("")
+
+
+def fixture_short_date(frame: pd.DataFrame) -> pd.Series:
+    local_dates = pd.to_datetime(frame.get("kickoff_datetime_local", pd.Series(pd.NaT, index=frame.index)), errors="coerce", utc=True)
+    utc_dates = pd.to_datetime(frame.get("kickoff_datetime_utc", pd.Series(pd.NaT, index=frame.index)), errors="coerce", utc=True)
+    resolved_dates = local_dates.dt.tz_convert(None).fillna(utc_dates.dt.tz_convert(None))
+    return resolved_dates.dt.strftime("%m-%d").fillna("")
+
+
+def build_group_fixtures_table(
+    fixtures_df: pd.DataFrame,
+    team_id: str,
+    display_lookup: dict[str, str],
+    flag_lookup: dict[str, str],
+    code_lookup: dict[str, str],
+    team_feature_lookup: dict[str, dict[str, Any]],
+    model_bundle: dict[str, object],
+) -> pd.DataFrame:
+    """Return the selected team's upcoming group-stage fixtures as fixture-card rows."""
     df = fixtures_df.copy()
     df["match_number"] = pd.to_numeric(df["match_number"], errors="coerce")
     df["kickoff_datetime_utc"] = pd.to_datetime(df["kickoff_datetime_utc"], errors="coerce", utc=True)
@@ -664,9 +730,13 @@ def build_group_fixtures_table(fixtures_df: pd.DataFrame, team_id: str, display_
         )
     ].copy()
     if team_fixtures.empty:
-        return pd.DataFrame(columns=["Date", "Opponent", "Stage", "Venue"])
+        return pd.DataFrame(columns=fixture_card_columns())
 
-    team_fixtures["Date"] = team_fixtures["kickoff_datetime_utc"].dt.strftime("%Y-%m-%d")
+    team_fixtures = team_fixtures.sort_values(["kickoff_datetime_utc", "match_number"], kind="stable").copy()
+    team_fixtures["home_team_id"] = team_fixtures["home_team_id"].astype(str)
+    team_fixtures["away_team_id"] = team_fixtures["away_team_id"].astype(str)
+    team_fixtures["Date"] = fixture_display_date(team_fixtures)
+    team_fixtures["Date Short"] = fixture_short_date(team_fixtures)
     team_fixtures["Opponent"] = np.where(
         team_fixtures["home_team_id"].astype(str).eq(str(team_id)),
         team_fixtures["away_team_id"].map(display_lookup).fillna(team_fixtures["away_tournament_name"]),
@@ -674,11 +744,64 @@ def build_group_fixtures_table(fixtures_df: pd.DataFrame, team_id: str, display_
     )
     team_fixtures["Stage"] = "Group Stage"
     team_fixtures["Venue"] = team_fixtures["venue_name"].fillna("").astype(str)
-    return team_fixtures.sort_values(["kickoff_datetime_utc", "match_number"], kind="stable").loc[:, ["Date", "Opponent", "Stage", "Venue"]].reset_index(drop=True)
+    team_fixtures["home_name"] = team_fixtures["home_team_id"].map(display_lookup).fillna(team_fixtures["home_tournament_name"]).astype(str)
+    team_fixtures["away_name"] = team_fixtures["away_team_id"].map(display_lookup).fillna(team_fixtures["away_tournament_name"]).astype(str)
+    team_fixtures["home_code"] = team_fixtures["home_team_id"].map(code_lookup).fillna(team_fixtures["home_team_id"]).astype(str)
+    team_fixtures["away_code"] = team_fixtures["away_team_id"].map(code_lookup).fillna(team_fixtures["away_team_id"]).astype(str)
+    team_fixtures["home_flag"] = team_fixtures["home_team_id"].map(flag_lookup).fillna("").astype(str)
+    team_fixtures["away_flag"] = team_fixtures["away_team_id"].map(flag_lookup).fillna("").astype(str)
+
+    home_probabilities: list[float] = []
+    draw_probabilities: list[float] = []
+    away_probabilities: list[float] = []
+    for row in team_fixtures.itertuples(index=False):
+        home_team_id = str(row.home_team_id)
+        away_team_id = str(row.away_team_id)
+        if home_team_id in team_feature_lookup and away_team_id in team_feature_lookup:
+            neutral_site = not (
+                float(team_feature_lookup[home_team_id].get("host_flag", 0.0))
+                or float(team_feature_lookup[away_team_id].get("host_flag", 0.0))
+            )
+            probabilities = simulation.predict_match_lambdas_v4(
+                home_team_id,
+                away_team_id,
+                team_feature_lookup,
+                model_bundle,
+                neutral_site=neutral_site,
+                stage="group",
+            )
+            home_probabilities.append(float(probabilities["home_win_prob"]) * 100.0)
+            draw_probabilities.append(float(probabilities["draw_prob"]) * 100.0)
+            away_probabilities.append(float(probabilities["away_win_prob"]) * 100.0)
+        else:
+            home_probabilities.append(float("nan"))
+            draw_probabilities.append(float("nan"))
+            away_probabilities.append(float("nan"))
+
+    team_fixtures["home_win_prob"] = home_probabilities
+    team_fixtures["draw_prob"] = draw_probabilities
+    team_fixtures["away_win_prob"] = away_probabilities
+    team_fixtures["Projected Winner"] = ""
+    team_fixtures["Matchup Win %"] = np.nan
+    return team_fixtures.loc[:, fixture_card_columns()].reset_index(drop=True)
 
 
-def build_knockout_path_table(bracket_data: dict[str, Any], team_id: str, display_lookup: dict[str, str]) -> pd.DataFrame:
-    """Return the selected team's projected knockout path from the deterministic bracket."""
+def build_knockout_path_table(
+    bracket_data: dict[str, Any],
+    fixtures_df: pd.DataFrame,
+    team_id: str,
+    display_lookup: dict[str, str],
+    flag_lookup: dict[str, str],
+    code_lookup: dict[str, str],
+) -> pd.DataFrame:
+    """Return the selected team's projected knockout path as fixture-card rows."""
+    fixture_meta = fixtures_df.copy()
+    fixture_meta["match_number"] = pd.to_numeric(fixture_meta["match_number"], errors="coerce")
+    fixture_meta = fixture_meta.dropna(subset=["match_number"]).copy()
+    fixture_meta["match_number"] = fixture_meta["match_number"].astype(int)
+    fixture_meta["Date"] = fixture_display_date(fixture_meta)
+    fixture_meta["Date Short"] = fixture_short_date(fixture_meta)
+    fixture_meta = fixture_meta.set_index("match_number")
     rows: list[dict[str, str | float]] = []
     for round_data in bracket_data.get("rounds", []):
         for match in round_data.get("matches", []):
@@ -686,19 +809,36 @@ def build_knockout_path_table(bracket_data: dict[str, Any], team_id: str, displa
             away_team_id = str(match.get("away_team_id", ""))
             if str(team_id) not in {home_team_id, away_team_id}:
                 continue
+            match_number = int(match.get("match_number", 0) or 0)
+            meta = fixture_meta.loc[match_number] if match_number in fixture_meta.index else pd.Series(dtype=object)
             is_home = str(team_id) == home_team_id
             opponent_id = away_team_id if is_home else home_team_id
             matchup_win_prob = float(match.get("home_win_prob" if is_home else "away_win_prob", 0.0))
             rows.append(
                 {
+                    "match_number": match_number,
+                    "Date": str(meta.get("Date", "")),
+                    "Date Short": str(meta.get("Date Short", "")),
                     "Stage": str(match.get("round_label", match.get("round_code", ""))),
+                    "Venue": str(meta.get("venue_name", "")),
+                    "home_team_id": home_team_id,
+                    "away_team_id": away_team_id,
+                    "home_name": display_lookup.get(home_team_id, home_team_id),
+                    "away_name": display_lookup.get(away_team_id, away_team_id),
+                    "home_code": code_lookup.get(home_team_id, home_team_id),
+                    "away_code": code_lookup.get(away_team_id, away_team_id),
+                    "home_flag": flag_lookup.get(home_team_id, ""),
+                    "away_flag": flag_lookup.get(away_team_id, ""),
+                    "home_win_prob": round(float(match.get("home_win_prob", 0.0)), 1),
+                    "draw_prob": np.nan,
+                    "away_win_prob": round(float(match.get("away_win_prob", 0.0)), 1),
                     "Opponent": display_lookup.get(opponent_id, opponent_id),
                     "Matchup Win %": round(matchup_win_prob, 1),
                     "Projected Winner": display_lookup.get(str(match.get("winner_team_id", "")), str(match.get("winner_team_id", ""))),
                 }
             )
             break
-    return pd.DataFrame(rows)
+    return pd.DataFrame(rows, columns=fixture_card_columns())
 
 
 def build_probability_tables(team_row: pd.Series) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -805,6 +945,7 @@ def build_report_card_dataset() -> dict[str, Any]:
         "official_match_window": match_window,
         "display_lookup": build_display_lookup(base_df),
         "flag_lookup": build_flag_lookup(base_df),
+        "code_lookup": build_team_code_lookup(base_df),
         "best_finish_lookup": build_best_finish_lookup(base_df),
         "base_team_lookup": base_team_lookup,
         "squad_identity_lookup": load_squad_identity_lookup(),
@@ -824,10 +965,32 @@ def select_report_card_context(dataset: dict[str, Any], team_id: str, recent_mat
         if column_name not in team_row.index or pd.isna(team_row[column_name]):
             team_row[column_name] = value
 
+    model_bundle = load_v4_poisson_model(int(dataset["official_match_window"]), PRIMARY_MODEL.default_training_scope)
+    team_feature_lookup = (
+        dashboard_df.assign(team_id=lambda frame: frame["team_id"].astype(str))
+        .drop_duplicates(subset=["team_id"], keep="first")
+        .set_index("team_id")
+        .to_dict("index")
+    )
     recent_matches = build_recent_matches_table(dataset["lead_in_df"], str(team_id), match_window=recent_match_count)
     qualification_path = build_qualification_path_table(dataset["lead_in_df"], str(team_id))
-    group_fixtures = build_group_fixtures_table(dataset["fixtures_df"], str(team_id), dataset["display_lookup"])
-    knockout_path = build_knockout_path_table(dataset["bracket_data"], str(team_id), dataset["display_lookup"])
+    group_fixtures = build_group_fixtures_table(
+        dataset["fixtures_df"],
+        str(team_id),
+        dataset["display_lookup"],
+        dataset["flag_lookup"],
+        dataset["code_lookup"],
+        team_feature_lookup,
+        model_bundle,
+    )
+    knockout_path = build_knockout_path_table(
+        dataset["bracket_data"],
+        dataset["fixtures_df"],
+        str(team_id),
+        dataset["display_lookup"],
+        dataset["flag_lookup"],
+        dataset["code_lookup"],
+    )
     group_finish_table, stage_probability_table = build_probability_tables(team_row)
     subject_rows = build_subject_rows(team_row)
     overall_summary = {
@@ -858,6 +1021,7 @@ def select_report_card_context(dataset: dict[str, Any], team_id: str, recent_mat
         "model_reason_bullets": build_model_reason_bullets(team_row, dashboard_df),
         "display_lookup": dataset["display_lookup"],
         "flag_lookup": dataset["flag_lookup"],
+        "code_lookup": dataset["code_lookup"],
         "metadata": dataset["metadata"],
         "simulation_count": len(dashboard_df),
     }
@@ -1151,6 +1315,119 @@ def report_card_css() -> str:
         line-height: 1.35;
         font-size: 0.94rem;
     }
+    .trc-fixture-section {
+        margin: 0.85rem 0 1.35rem;
+    }
+    .trc-fixture-section-title {
+        color: var(--trc-muted);
+        font-size: 0.78rem;
+        font-weight: 900;
+        letter-spacing: 0.07em;
+        margin: 0 0 0.65rem;
+        text-transform: uppercase;
+    }
+    .trc-fixture-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+    .trc-fixture-card {
+        border: 1px solid var(--trc-line);
+        border-radius: 8px;
+        background: var(--trc-surface);
+        padding: 15px 16px;
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.06);
+    }
+    .trc-fixture-meta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 12px;
+        color: var(--trc-muted);
+        font-size: 0.78rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .trc-fixture-date,
+    .trc-fixture-stage {
+        border: 1px solid var(--trc-line);
+        border-radius: 999px;
+        background: rgba(239, 227, 207, 0.72);
+        padding: 0.22rem 0.58rem;
+    }
+    .trc-fixture-body {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        align-items: center;
+        gap: 12px;
+    }
+    .trc-fixture-team {
+        min-width: 0;
+        text-align: center;
+    }
+    .trc-fixture-team .fi {
+        display: inline-block;
+        margin-bottom: 0.45rem;
+        font-size: 1.55rem;
+        border-radius: 999px;
+        box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.22);
+    }
+    .trc-fixture-code {
+        color: var(--trc-text);
+        font-size: 1.12rem;
+        font-weight: 900;
+        line-height: 1;
+    }
+    .trc-fixture-name {
+        overflow-wrap: anywhere;
+        margin-top: 0.25rem;
+        color: var(--trc-muted);
+        font-size: 0.88rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .trc-fixture-prob {
+        display: inline-flex;
+        justify-content: center;
+        min-width: 4.1rem;
+        margin-top: 0.65rem;
+        border: 1px solid var(--trc-line);
+        border-radius: 999px;
+        background: var(--trc-surface-strong);
+        color: var(--trc-text);
+        padding: 0.28rem 0.62rem;
+        font-size: 0.84rem;
+        font-weight: 900;
+    }
+    .trc-fixture-center {
+        display: grid;
+        justify-items: center;
+        gap: 8px;
+        color: var(--trc-muted);
+        font-weight: 900;
+    }
+    .trc-fixture-vs {
+        color: var(--trc-text);
+        font-size: 0.86rem;
+        letter-spacing: 0.08em;
+    }
+    .trc-fixture-draw {
+        border: 1px solid var(--trc-line);
+        border-radius: 999px;
+        background: rgba(239, 227, 207, 0.86);
+        color: var(--trc-muted);
+        padding: 0.25rem 0.58rem;
+        font-size: 0.78rem;
+        white-space: nowrap;
+    }
+    .trc-fixture-venue {
+        margin-top: 12px;
+        color: var(--trc-muted);
+        font-size: 0.82rem;
+        font-weight: 700;
+        text-align: center;
+    }
     .stTabs [data-baseweb="tab-list"] {
         border-bottom: 1px solid var(--trc-line);
         gap: 8px;
@@ -1170,7 +1447,8 @@ def report_card_css() -> str:
         .trc-facts,
         .trc-subject-grid,
         .trc-kpi-grid,
-        .trc-what-matters ul {
+        .trc-what-matters ul,
+        .trc-fixture-grid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
         }
     }
@@ -1178,8 +1456,12 @@ def report_card_css() -> str:
         .trc-facts,
         .trc-subject-grid,
         .trc-kpi-grid,
-        .trc-what-matters ul {
+        .trc-what-matters ul,
+        .trc-fixture-grid {
             grid-template-columns: 1fr;
+        }
+        .trc-fixture-body {
+            grid-template-columns: minmax(0, 1fr);
         }
     }
     """
@@ -1353,6 +1635,74 @@ def render_what_matters_summary(title: str, bullets: list[str]) -> None:
             f"<ul>{bullet_items}</ul>"
             "</section>"
         ),
+        unsafe_allow_html=True,
+    )
+
+
+def fixture_probability_label(value: object) -> str:
+    numeric = pd.to_numeric(value, errors="coerce")
+    if pd.isna(numeric):
+        return "N/A"
+    return f"{float(numeric):.1f}%"
+
+
+def fixture_value(row: pd.Series, key: str, default: str = "") -> str:
+    value = row.get(key, default)
+    if value is None or pd.isna(value):
+        return default
+    return str(value)
+
+
+def build_fixture_card_html(row: pd.Series) -> str:
+    home_flag = fixture_value(row, "home_flag")
+    away_flag = fixture_value(row, "away_flag")
+    home_flag_html = f'<span class="fi fi-{html.escape(home_flag)}"></span>' if home_flag else ""
+    away_flag_html = f'<span class="fi fi-{html.escape(away_flag)}"></span>' if away_flag else ""
+    draw_probability = pd.to_numeric(row.get("draw_prob", np.nan), errors="coerce")
+    draw_html = (
+        f'<div class="trc-fixture-draw">Draw {fixture_probability_label(draw_probability)}</div>'
+        if pd.notna(draw_probability)
+        else ""
+    )
+    venue = fixture_value(row, "Venue")
+    venue_html = f'<div class="trc-fixture-venue">{html.escape(venue)}</div>' if venue else ""
+    return (
+        '<article class="trc-fixture-card">'
+        '<div class="trc-fixture-meta">'
+        f'<span class="trc-fixture-date">{html.escape(fixture_value(row, "Date Short"))}</span>'
+        f'<span class="trc-fixture-stage">{html.escape(fixture_value(row, "Stage"))}</span>'
+        "</div>"
+        '<div class="trc-fixture-body">'
+        '<div class="trc-fixture-team">'
+        f"{home_flag_html}"
+        f'<div class="trc-fixture-code">{html.escape(fixture_value(row, "home_code"))}</div>'
+        f'<div class="trc-fixture-name">{html.escape(fixture_value(row, "home_name"))}</div>'
+        f'<div class="trc-fixture-prob">{fixture_probability_label(row.get("home_win_prob"))}</div>'
+        "</div>"
+        '<div class="trc-fixture-center">'
+        '<div class="trc-fixture-vs">VS</div>'
+        f"{draw_html}"
+        "</div>"
+        '<div class="trc-fixture-team">'
+        f"{away_flag_html}"
+        f'<div class="trc-fixture-code">{html.escape(fixture_value(row, "away_code"))}</div>'
+        f'<div class="trc-fixture-name">{html.escape(fixture_value(row, "away_name"))}</div>'
+        f'<div class="trc-fixture-prob">{fixture_probability_label(row.get("away_win_prob"))}</div>'
+        "</div>"
+        "</div>"
+        f"{venue_html}"
+        "</article>"
+    )
+
+
+def render_fixture_cards(title: str, rows: pd.DataFrame, empty_message: str) -> None:
+    st.markdown(f'<div class="trc-fixture-section-title">{html.escape(title)}</div>', unsafe_allow_html=True)
+    if rows.empty:
+        st.info(empty_message)
+        return
+    cards_html = "".join(build_fixture_card_html(row) for _, row in rows.iterrows())
+    st.markdown(
+        f'<section class="trc-fixture-section"><div class="trc-fixture-grid">{cards_html}</div></section>',
         unsafe_allow_html=True,
     )
 
@@ -2291,39 +2641,19 @@ def render_prediction_outlook(context: dict[str, Any]) -> None:
 def render_fixtures_and_path(context: dict[str, Any]) -> None:
     """Render upcoming fixtures and projected knockout path."""
     st.subheader("Fixtures And Projected Path")
-    cols = st.columns(2)
-    with cols[0]:
-        st.caption("Scheduled group-stage fixtures")
-        st.dataframe(context["group_fixtures"], width="stretch", hide_index=True)
-    with cols[1]:
-        first_knockout = context["first_knockout_match"]
-        if first_knockout is None:
-            st.caption("Model projection: knockout entry")
-            st.info("The modal bracket currently projects a group-stage exit.")
-        else:
-            st.caption("Model projection: first knockout match")
-            st.dataframe(
-                pd.DataFrame(
-                    [
-                        {
-                            "Stage": first_knockout["Stage"],
-                            "Opponent": first_knockout["Opponent"],
-                            "Matchup Win %": format_percent(first_knockout["Matchup Win %"]),
-                            "Projected Winner": first_knockout["Projected Winner"],
-                        }
-                    ]
-                ),
-                width="stretch",
-                hide_index=True,
-            )
-
-    st.caption("Model projection: modal knockout path")
+    render_fixture_cards(
+        "Scheduled group-stage fixtures",
+        context["group_fixtures"],
+        "No scheduled group-stage fixtures are available for this team.",
+    )
     if context["knockout_path"].empty:
         st.info("No knockout path is projected for this team in the modal bracket.")
     else:
-        path_table = context["knockout_path"].copy()
-        path_table["Matchup Win %"] = path_table["Matchup Win %"].map(format_percent)
-        st.dataframe(path_table, width="stretch", hide_index=True)
+        render_fixture_cards(
+            "Projected path matches",
+            context["knockout_path"],
+            "No knockout path is projected for this team in the modal bracket.",
+        )
 
 
 def render_team_report_card_page() -> None:
