@@ -55,7 +55,12 @@ from .config import (
     fit_v3_poisson_models,
 )
 from .data import load_data, load_world_cup_logo_data_uri
-from .export import BatchExportArtifact, ExportArtifact, export_all_tables, export_current_view, export_table_view
+from .export import (
+    bracket_to_download_frame,
+    combine_table_download_frames,
+    dataframe_to_csv_bytes,
+    tables_to_download_frame,
+)
 from .modeling import (
     default_simulation_settings,
     ensure_dashboard_probability_columns,
@@ -150,62 +155,75 @@ def display_artifact_status(load_result: ArtifactLoadResult, model_label: str) -
         st.caption(f"Using {source_label} cached {model_label} simulation run from {created_at}.")
 
 
-def render_export_download(artifact: ExportArtifact, label: str, key: str) -> None:
-    """Render a download button for a generated export artifact."""
-    download_label = label
-    if artifact.mime == "text/html":
-        download_label = label.replace("PNG", "HTML").replace("png", "HTML")
-    st.download_button(
-        download_label,
-        data=artifact.data,
-        file_name=artifact.filename,
-        mime=artifact.mime,
-        width="stretch",
-        key=key,
+def render_table_data_downloads(
+    *,
+    key_prefix: str,
+    current_frame: pd.DataFrame,
+    current_filename: str,
+    all_frame: pd.DataFrame | None = None,
+    all_filename: str | None = None,
+) -> None:
+    """Render a collapsed table preview with CSV download buttons."""
+    with st.expander("Download table data", expanded=False):
+        if current_frame.empty:
+            st.caption("No table data is available for this view.")
+        else:
+            st.table(current_frame)
+            st.download_button(
+                "Download current view CSV",
+                data=dataframe_to_csv_bytes(current_frame),
+                file_name=current_filename,
+                mime="text/csv",
+                width="stretch",
+                key=f"{key_prefix}_current_table_csv",
+            )
+
+        if all_frame is not None and all_filename is not None and not all_frame.empty:
+            st.download_button(
+                "Download all tables CSV",
+                data=dataframe_to_csv_bytes(all_frame),
+                file_name=all_filename,
+                mime="text/csv",
+                width="stretch",
+                key=f"{key_prefix}_all_tables_csv",
+            )
+
+
+def probability_all_tables_download_frame(
+    dashboard_df: pd.DataFrame,
+    simulation_count: int | None = None,
+) -> pd.DataFrame:
+    """Return group tables plus the all-country table as one CSV-ready frame."""
+    group_tables = current_view_tables(
+        dashboard_df,
+        "All groups",
+        "",
+        simulation_count=simulation_count,
     )
+    all_countries_table = current_view_tables(
+        dashboard_df,
+        "All Countries",
+        "",
+        simulation_count=simulation_count,
+    )
+    return combine_table_download_frames(group_tables + all_countries_table, section_column="section")
 
 
-def render_single_export_action(button_label: str, key: str, export_callback, download_label: str) -> None:
-    """Run one export action with status feedback and a download button."""
-    if not st.button(button_label, width="stretch", key=key):
-        return
-    try:
-        with st.status("Preparing export...", expanded=True) as status:
-            artifact = export_callback()
-            status.update(label="Export ready.", state="complete")
-        st.success(f"Prepared {artifact.filename} for download.")
-        render_export_download(artifact, download_label, f"{key}_download")
-    except RuntimeError as exc:
-        st.error(str(exc))
-    except ValueError as exc:
-        st.error(str(exc))
-    except OSError as exc:
-        st.error(f"Export failed because the server could not read or write the export file: {exc}")
-
-
-def render_batch_export_action(button_label: str, key: str, export_callback, download_label: str) -> None:
-    """Run a batch export action with progress feedback and a ZIP download button."""
-    if not st.button(button_label, width="stretch", key=key):
-        return
-    try:
-        with st.status("Preparing export bundle...", expanded=True) as status:
-            progress_bar = st.progress(0.0)
-
-            def progress_callback(index: int, total: int, label: str) -> None:
-                st.write(f"Exporting {label} ({index} of {total})")
-                progress_bar.progress(index / total if total else 1.0)
-
-            artifact: BatchExportArtifact = export_callback(progress_callback)
-            progress_bar.progress(1.0)
-            status.update(label="Export bundle ready.", state="complete")
-        st.success(f"Prepared {artifact.png_count} exports in {artifact.filename}.")
-        render_export_download(artifact, download_label, f"{key}_download")
-    except RuntimeError as exc:
-        st.error(str(exc))
-    except ValueError as exc:
-        st.error(str(exc))
-    except OSError as exc:
-        st.error(f"Export failed because the server could not read or write the export file: {exc}")
+def form_all_tables_download_frame(form_df: pd.DataFrame, form_match_window: int) -> pd.DataFrame:
+    """Return all V2 form tables as one CSV-ready frame."""
+    all_countries_table = current_form_view_tables(
+        form_df,
+        "All Countries",
+        "",
+        form_match_window=form_match_window,
+    )
+    confederation_tables = current_form_view_tables(
+        form_df,
+        "All confederations",
+        "",
+        form_match_window=form_match_window,
+    )
+    return combine_table_download_frames(all_countries_table + confederation_tables, section_column="section")
 
 
 def load_or_run_probability_artifact(
@@ -324,33 +342,18 @@ def render_v1_dashboard() -> None:
     )
     multi_column = view_mode == "All groups"
 
-    action_cols = st.columns(2)
-    with action_cols[0]:
-        render_single_export_action(
-            "Export This V1 View",
-            "v1_export_current",
-            lambda: export_current_view(
-                view_mode,
-                selected_group,
-                tables,
-                bracket_data=bracket_data,
-                metadata_lookup=metadata_lookup,
-                simulation_count=simulation_count,
-            ),
-            "Download V1 view PNG",
-        )
-    with action_cols[1]:
-        render_batch_export_action(
-            "Export All V1 Tables",
-            "v1_export_all",
-            lambda progress_callback: export_all_tables(
-                probability_df=dashboard_df,
-                simulation_count=simulation_count,
-                progress_callback=progress_callback,
-                zip_filename_stem="v1_probability_exports",
-            ),
-            "Download V1 exports ZIP",
-        )
+    current_download_frame = (
+        bracket_to_download_frame(bracket_data, metadata_lookup)
+        if view_mode == "Bracket"
+        else tables_to_download_frame(tables, section_column="group")
+    )
+    render_table_data_downloads(
+        key_prefix="v1",
+        current_frame=current_download_frame,
+        current_filename=f"v1_{view_mode.lower().replace(' ', '_')}.csv",
+        all_frame=probability_all_tables_download_frame(dashboard_df, simulation_count=simulation_count),
+        all_filename="v1_probability_tables.csv",
+    )
 
     if view_mode == "Bracket":
         if bracket_data is None or metadata_lookup is None:
@@ -489,38 +492,13 @@ def render_v2_dashboard() -> None:
         form_match_window=form_match_window,
     )
 
-    action_cols = st.columns(2)
-    with action_cols[0]:
-        export_stem = "form_all_countries" if view_mode == "All Countries" else (
-            f"form_{selected_confederation.lower()}" if view_mode == "Single confederation" and selected_confederation else "form_all_confederations"
-        )
-        export_title = "All Countries" if view_mode == "All Countries" else (
-            selected_confederation if view_mode == "Single confederation" and selected_confederation else "All Confederations"
-        )
-        render_single_export_action(
-            "Export This V2 Page",
-            "v2_export_current",
-            lambda: export_table_view(
-                export_stem,
-                export_title,
-                tables,
-                multi_column=False,
-            ),
-            "Download V2 page PNG",
-        )
-    with action_cols[1]:
-        render_batch_export_action(
-            "Export All V2 Tables",
-            "v2_export_all",
-            lambda progress_callback: export_all_tables(
-                form_df=form_df,
-                simulation_count=simulation_count,
-                form_match_window=form_match_window,
-                progress_callback=progress_callback,
-                zip_filename_stem="v2_form_exports",
-            ),
-            "Download V2 exports ZIP",
-        )
+    render_table_data_downloads(
+        key_prefix="v2_form",
+        current_frame=tables_to_download_frame(tables, section_column="confederation"),
+        current_filename=f"v2_form_{view_mode.lower().replace(' ', '_')}.csv",
+        all_frame=form_all_tables_download_frame(form_df, form_match_window=form_match_window),
+        all_filename="v2_form_tables.csv",
+    )
     render_tables(tables, multi_column=False)
 
 
@@ -636,33 +614,18 @@ def render_v2_probabilities_dashboard() -> None:
     )
     multi_column = view_mode == "All groups"
 
-    action_cols = st.columns(2)
-    with action_cols[0]:
-        render_single_export_action(
-            "Export This V2 Probability View",
-            "v2_prob_export_current",
-            lambda: export_current_view(
-                view_mode,
-                selected_group,
-                tables,
-                bracket_data=bracket_data,
-                metadata_lookup=metadata_lookup,
-                simulation_count=simulation_count,
-            ),
-            "Download V2 probability PNG",
-        )
-    with action_cols[1]:
-        render_batch_export_action(
-            "Export All V2 Probability Tables",
-            "v2_prob_export_all",
-            lambda progress_callback: export_all_tables(
-                probability_df=dashboard_df,
-                simulation_count=simulation_count,
-                progress_callback=progress_callback,
-                zip_filename_stem="v2_probability_exports",
-            ),
-            "Download V2 probability exports ZIP",
-        )
+    current_download_frame = (
+        bracket_to_download_frame(bracket_data, metadata_lookup)
+        if view_mode == "Bracket"
+        else tables_to_download_frame(tables, section_column="group")
+    )
+    render_table_data_downloads(
+        key_prefix="v2_prob",
+        current_frame=current_download_frame,
+        current_filename=f"v2_probability_{view_mode.lower().replace(' ', '_')}.csv",
+        all_frame=probability_all_tables_download_frame(dashboard_df, simulation_count=simulation_count),
+        all_filename="v2_probability_tables.csv",
+    )
 
     if view_mode == "Bracket":
         render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
@@ -781,33 +744,18 @@ def render_v3_probabilities_dashboard() -> None:
     )
     multi_column = view_mode == "All groups"
 
-    action_cols = st.columns(2)
-    with action_cols[0]:
-        render_single_export_action(
-            "Export This V3 Probability View",
-            "v3_prob_export_current",
-            lambda: export_current_view(
-                view_mode,
-                selected_group,
-                tables,
-                bracket_data=bracket_data,
-                metadata_lookup=metadata_lookup,
-                simulation_count=simulation_count,
-            ),
-            "Download V3 probability PNG",
-        )
-    with action_cols[1]:
-        render_batch_export_action(
-            "Export All V3 Probability Tables",
-            "v3_prob_export_all",
-            lambda progress_callback: export_all_tables(
-                probability_df=dashboard_df,
-                simulation_count=simulation_count,
-                progress_callback=progress_callback,
-                zip_filename_stem="v3_probability_exports",
-            ),
-            "Download V3 probability exports ZIP",
-        )
+    current_download_frame = (
+        bracket_to_download_frame(bracket_data, metadata_lookup)
+        if view_mode == "Bracket"
+        else tables_to_download_frame(tables, section_column="group")
+    )
+    render_table_data_downloads(
+        key_prefix="v3_prob",
+        current_frame=current_download_frame,
+        current_filename=f"v3_probability_{view_mode.lower().replace(' ', '_')}.csv",
+        all_frame=probability_all_tables_download_frame(dashboard_df, simulation_count=simulation_count),
+        all_filename="v3_probability_tables.csv",
+    )
 
     if view_mode == "Bracket":
         render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
@@ -945,33 +893,18 @@ def render_v4_probabilities_dashboard() -> None:
         simulation_count=simulation_count,
     )
 
-    action_cols = st.columns(2)
-    with action_cols[0]:
-        render_single_export_action(
-            "Export This V4 Probability View",
-            "v4_prob_export_current",
-            lambda: export_current_view(
-                view_mode,
-                selected_group,
-                tables,
-                bracket_data=bracket_data,
-                metadata_lookup=metadata_lookup,
-                simulation_count=simulation_count,
-            ),
-            "Download V4 probability PNG",
-        )
-    with action_cols[1]:
-        render_batch_export_action(
-            "Export All V4 Probability Tables",
-            "v4_prob_export_all",
-            lambda progress_callback: export_all_tables(
-                probability_df=dashboard_df,
-                simulation_count=simulation_count,
-                progress_callback=progress_callback,
-                zip_filename_stem="v4_probability_exports",
-            ),
-            "Download V4 probability exports ZIP",
-        )
+    current_download_frame = (
+        bracket_to_download_frame(bracket_data, metadata_lookup)
+        if view_mode == "Bracket"
+        else tables_to_download_frame(tables, section_column="group")
+    )
+    render_table_data_downloads(
+        key_prefix="v4_prob",
+        current_frame=current_download_frame,
+        current_filename=f"v4_probability_{view_mode.lower().replace(' ', '_')}.csv",
+        all_frame=probability_all_tables_download_frame(dashboard_df, simulation_count=simulation_count),
+        all_filename="v4_probability_tables.csv",
+    )
 
     if view_mode == "Bracket":
         render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)

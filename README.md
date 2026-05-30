@@ -96,7 +96,7 @@ The app-ready dataset is committed under `data/processed/`, so a clean clone can
 streamlit run apps/home.py
 ```
 
-Export renders from in-memory HTML and sends PNG/HTML/ZIP bytes through Streamlit download buttons. PNG rendering uses `wkhtmltoimage` from the `wkhtmltopdf` system package first, with Playwright as a fallback; if both PNG renderers are unavailable, the app downloads a standalone HTML table export instead. On Debian/Ubuntu or Streamlit deployments, `packages.txt` installs `wkhtmltopdf` and `setup.sh` installs the Chromium browser for Playwright; on Windows, install wkhtmltopdf and make sure `wkhtmltoimage.exe` is on `PATH`.
+Dashboard table data is available through collapsed Streamlit table previews and CSV download buttons. The temporary CSV export path is dependency-light for Streamlit deployments: it does not require `wkhtmltopdf`, `wkhtmltoimage`, Playwright, or a server-side browser install.
 
 For development and tests:
 

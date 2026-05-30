@@ -1,2 +1,2 @@
 #!/bin/bash
-playwright install chromium
+echo "No setup steps required."

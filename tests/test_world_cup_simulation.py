@@ -1846,49 +1846,8 @@ def test_v2_view_options_include_confederation_views():
     assert home.V2_VIEW_OPTIONS == ("All Countries", "Single confederation", "All confederations")
 
 
-def test_export_all_tables_uses_single_column_all_confederations_export(monkeypatch):
+def test_form_all_tables_download_frame_includes_confederation_sections():
     home = load_home_module()
-    captured_calls = []
-    captured_zip_filenames = []
-
-    def fake_export_document_png_artifact(
-        filename_stem,
-        page_title,
-        tables,
-        multi_column,
-        separate_sections=False,
-        export_suffix=None,
-    ):
-        captured_calls.append(
-            {
-                "filename_stem": filename_stem,
-                "page_title": page_title,
-                "tables": tables,
-                "multi_column": multi_column,
-                "separate_sections": separate_sections,
-            }
-        )
-        return dashboard_export.ExportArtifact(
-            path=Path(f"{filename_stem}.png"),
-            filename=f"{filename_stem}.png",
-            mime="image/png",
-            data=b"png",
-        )
-
-    def fake_create_export_zip_from_artifacts(exported_artifacts, filename_stem, export_suffix):
-        captured_zip_filenames.extend(artifact.filename for artifact in exported_artifacts)
-        return dashboard_export.BatchExportArtifact(
-            path=Path(f"{filename_stem}_{export_suffix}.zip"),
-            filename=f"{filename_stem}_{export_suffix}.zip",
-            mime="application/zip",
-            data=b"zip",
-            png_count=len(exported_artifacts),
-        )
-
-    monkeypatch.setattr(dashboard_export, "export_document_png_artifact", fake_export_document_png_artifact)
-    monkeypatch.setattr(dashboard_export, "create_export_zip_from_artifacts", fake_create_export_zip_from_artifacts)
-    monkeypatch.setattr(dashboard_export, "generate_export_suffix", lambda: "stamp")
-
     form_df = pd.DataFrame(
         [
             {
@@ -1938,15 +1897,11 @@ def test_export_all_tables_uses_single_column_all_confederations_export(monkeypa
         ]
     )
 
-    artifact = home.export_all_tables(form_df=form_df, form_match_window=10)
+    download_frame = home.form_all_tables_download_frame(form_df, form_match_window=10)
 
-    all_confed_call = next(call for call in captured_calls if call["filename_stem"] == "form_all_confederations")
-    assert all_confed_call["page_title"] == "All Confederations"
-    assert all_confed_call["multi_column"] is False
-    assert all_confed_call["separate_sections"] is False
-    assert artifact.filename == "dashboard_exports_stamp.zip"
-    assert artifact.png_count == 4
-    assert "form_all_confederations.png" in captured_zip_filenames
+    assert "section" in download_frame.columns
+    assert set(download_frame["section"]) == {"All Countries", "CAF", "UEFA"}
+    assert set(download_frame["confederation"]) == {"CAF", "UEFA"}
 
 
 def test_render_tables_uses_single_column_wrapper_for_stacked_sections(monkeypatch):
@@ -2147,218 +2102,8 @@ def test_build_bracket_html_renders_rounds_and_winner_probabilities():
     assert "Play-off for third place" not in html
 
 
-def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
+def test_single_group_download_frame_preserves_probability_columns():
     home = load_home_module()
-    captured = {}
-
-    def fake_export_bracket_png_artifact(
-        filename_stem,
-        page_title,
-        bracket_data,
-        metadata_lookup,
-        simulation_count=None,
-        export_suffix=None,
-    ):
-        captured.update(
-            {
-                "filename_stem": filename_stem,
-                "page_title": page_title,
-                "bracket_data": bracket_data,
-                "metadata_lookup": metadata_lookup,
-                "simulation_count": simulation_count,
-                "export_suffix": export_suffix,
-            }
-        )
-        return dashboard_export.ExportArtifact(
-            path=Path("dummy.png"),
-            filename="dummy.png",
-            mime="image/png",
-            data=b"png",
-        )
-
-    monkeypatch.setattr(dashboard_export, "export_bracket_png_artifact", fake_export_bracket_png_artifact)
-
-    result = home.export_current_view(
-        "Bracket",
-        "A",
-        [],
-        bracket_data={"rounds": []},
-        metadata_lookup={},
-        simulation_count=100000,
-    )
-
-    assert result.filename == "dummy.png"
-    assert result.data == b"png"
-    assert captured["filename_stem"] == "bracket_view"
-    assert captured["page_title"] == "Bracket View"
-    assert captured["simulation_count"] == 100000
-
-
-def test_build_screenshot_command_supports_forced_viewport():
-    home = load_home_module()
-
-    command = home.build_screenshot_command(
-        "file:///tmp/test.html",
-        Path("test.png"),
-        "chrome",
-        viewport_size=home.BRACKET_EXPORT_VIEWPORT_SIZE,
-    )
-
-    assert "--viewport-size" in command
-    viewport_index = command.index("--viewport-size")
-    assert command[viewport_index + 1] == home.BRACKET_EXPORT_VIEWPORT_SIZE
-
-
-def test_build_wkhtmltoimage_command_supports_forced_width():
-    home = load_home_module()
-
-    command = home.build_wkhtmltoimage_command(
-        r"C:\tmp\test.html",
-        Path("test.png"),
-        viewport_size="1800,1200",
-    )
-
-    assert command[0] == "wkhtmltoimage"
-    assert "--enable-local-file-access" in command
-    assert "--width" in command
-    width_index = command.index("--width")
-    assert command[width_index + 1] == "1800"
-    assert "--height" not in command
-    assert command[-2:] == [r"C:\tmp\test.html", "test.png"]
-
-
-def test_run_png_export_prefers_wkhtmltoimage(monkeypatch):
-    calls = []
-
-    def fake_run(command, check, capture_output, text):
-        calls.append(command)
-
-    monkeypatch.setattr(dashboard_export.subprocess, "run", fake_run)
-    monkeypatch.setattr(dashboard_export, "wkhtmltoimage_executables", lambda: ["wkhtmltoimage"])
-
-    result = dashboard_export.run_png_export(
-        html_input=r"C:\tmp\test.html",
-        browser_input="file:///C:/tmp/test.html",
-        output_path=Path("test.png"),
-        viewport_size="1400,1200",
-    )
-
-    assert result == Path("test.png")
-    assert calls[0][0] == "wkhtmltoimage"
-    assert all("playwright.exe" not in call for call in calls)
-
-
-def test_export_document_temp_directory_uses_system_temp_first(monkeypatch, tmp_path):
-    calls = []
-
-    def fake_mkdtemp(*args, **kwargs):
-        calls.append(kwargs)
-        path = tmp_path / "fake-temp"
-        path.mkdir(exist_ok=True)
-        return str(path)
-
-    monkeypatch.setattr(dashboard_export.tempfile, "mkdtemp", fake_mkdtemp)
-    monkeypatch.setattr(dashboard_export.subprocess, "run", lambda *args, **kwargs: None)
-
-    dashboard_export.export_document_png("sample", "Sample", [], multi_column=False)
-
-    assert calls
-    assert "dir" not in calls[0]
-
-
-def test_export_document_temp_directory_falls_back_when_system_temp_is_denied(monkeypatch, tmp_path):
-    calls = []
-    denied_root = tmp_path / "denied-temp"
-    fallback_root = tmp_path / "fallback-temp"
-
-    def fake_mkdtemp(*args, **kwargs):
-        calls.append(kwargs)
-        if "dir" not in kwargs:
-            denied_root.mkdir(exist_ok=True)
-            return str(denied_root)
-        path = Path(kwargs["dir"]) / "wc_export_fallback"
-        path.mkdir(parents=True, exist_ok=True)
-        return str(path)
-
-    def fake_write_text(self, *args, **kwargs):
-        if self.is_relative_to(denied_root):
-            raise PermissionError("denied")
-        return original_write_text(self, *args, **kwargs)
-
-    monkeypatch.setattr(dashboard_export, "EXPORT_DIR", fallback_root)
-    monkeypatch.setattr(dashboard_export.tempfile, "mkdtemp", fake_mkdtemp)
-    monkeypatch.setattr(dashboard_export.subprocess, "run", lambda *args, **kwargs: None)
-    original_write_text = Path.write_text
-    monkeypatch.setattr(Path, "write_text", fake_write_text)
-
-    dashboard_export.export_document_png("sample", "Sample", [], multi_column=False)
-
-    assert len(calls) == 2
-    assert calls[1]["dir"] == fallback_root / ".tmp"
-
-
-def test_export_table_view_returns_download_ready_artifact(monkeypatch):
-    home = load_home_module()
-
-    def fake_export_document_png_artifact(*args, **kwargs):
-        return dashboard_export.ExportArtifact(
-            path=Path("single.png"),
-            filename="single.png",
-            mime="image/png",
-            data=b"single png",
-        )
-
-    monkeypatch.setattr(dashboard_export, "export_document_png_artifact", fake_export_document_png_artifact)
-
-    artifact = home.export_table_view("single", "Single", [], multi_column=False)
-
-    assert artifact.filename == "single.png"
-    assert artifact.mime == "image/png"
-    assert artifact.data == b"single png"
-
-
-def test_export_table_view_falls_back_to_html_when_png_rendering_fails(monkeypatch):
-    home = load_home_module()
-
-    monkeypatch.setattr(
-        dashboard_export,
-        "render_png_bytes",
-        lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("blocked")),
-    )
-    monkeypatch.setattr(dashboard_export, "generate_export_suffix", lambda: "stamp")
-
-    artifact = home.export_table_view("single", "Single", [], multi_column=False)
-
-    assert artifact.filename == "single_stamp.html"
-    assert artifact.mime == "text/html"
-    assert b"wc-export-mode" in artifact.data
-
-
-def test_export_all_tables_invokes_progress_callback(monkeypatch):
-    home = load_home_module()
-    progress_calls = []
-
-    def fake_export_document_png_artifact(filename_stem, *args, **kwargs):
-        return dashboard_export.ExportArtifact(
-            path=Path(f"{filename_stem}.png"),
-            filename=f"{filename_stem}.png",
-            mime="image/png",
-            data=b"png",
-        )
-
-    def fake_create_export_zip_from_artifacts(exported_artifacts, filename_stem, export_suffix):
-        return dashboard_export.BatchExportArtifact(
-            path=Path(f"{filename_stem}_{export_suffix}.zip"),
-            filename=f"{filename_stem}_{export_suffix}.zip",
-            mime="application/zip",
-            data=b"zip",
-            png_count=len(exported_artifacts),
-        )
-
-    monkeypatch.setattr(dashboard_export, "export_document_png_artifact", fake_export_document_png_artifact)
-    monkeypatch.setattr(dashboard_export, "create_export_zip_from_artifacts", fake_create_export_zip_from_artifacts)
-    monkeypatch.setattr(dashboard_export, "generate_export_suffix", lambda: "stamp")
-
     probability_df = pd.DataFrame(
         [
             {
@@ -2384,52 +2129,51 @@ def test_export_all_tables_invokes_progress_callback(monkeypatch):
         ]
     )
 
-    artifact = home.export_all_tables(
-        probability_df=probability_df,
-        progress_callback=lambda index, total, label: progress_calls.append((index, total, label)),
+    tables = home.current_view_tables(
+        probability_df,
+        "Single group",
+        "J",
+        simulation_count=1000,
     )
+    download_frame = home.tables_to_download_frame(tables, section_column="group")
 
-    assert artifact.png_count == 2
-    assert progress_calls == [(1, 2, "Group J"), (2, 2, "All Countries")]
+    assert "display_name" in download_frame.columns
+    assert "prob_1" in download_frame.columns
+    assert download_frame.loc[0, "display_name"] == "Argentina"
+    assert download_frame.loc[0, "prob_1"] == 80.0
 
 
-def test_cleanup_export_artifacts_keeps_latest_and_gitkeep(monkeypatch):
-    deleted = []
+def test_bracket_download_frame_flattens_matches_without_png_renderer():
+    home = load_home_module()
+    metadata_lookup = {
+        "ARG": {"display_name": "Argentina", "flag_icon_code": "ar"},
+        "FRA": {"display_name": "France", "flag_icon_code": "fr"},
+    }
+    bracket_data = {
+        "rounds": [
+            {
+                "round_code": "R32",
+                "round_label": "Round of 32",
+                "matches": [
+                    {
+                        "match_number": 73,
+                        "home_team_id": "ARG",
+                        "away_team_id": "FRA",
+                        "winner_team_id": "ARG",
+                        "winner_win_prob": 61.5,
+                    }
+                ],
+            }
+        ]
+    }
 
-    class FakeExportPath:
-        def __init__(self, name: str, mtime: float):
-            self.name = name
-            self.suffix = Path(name).suffix
-            self._mtime = mtime
+    download_frame = home.bracket_to_download_frame(bracket_data, metadata_lookup)
 
-        def is_file(self):
-            return True
-
-        def stat(self):
-            return types.SimpleNamespace(st_mtime=self._mtime)
-
-        def unlink(self, missing_ok=False):
-            deleted.append(self.name)
-
-    class FakeExportDir:
-        def __init__(self, paths):
-            self._paths = paths
-
-        def exists(self):
-            return True
-
-        def iterdir(self):
-            return iter(self._paths)
-
-    fake_paths = [FakeExportPath(f"export_{index:02d}.png", index) for index in range(55)]
-    fake_paths.extend([FakeExportPath(".gitkeep", 100), FakeExportPath("notes.txt", 101)])
-    monkeypatch.setattr(dashboard_export, "EXPORT_DIR", FakeExportDir(fake_paths))
-
-    dashboard_export.cleanup_export_artifacts(limit=50)
-
-    assert sorted(deleted) == [f"export_{index:02d}.png" for index in range(5)]
-    assert ".gitkeep" not in deleted
-    assert "notes.txt" not in deleted
+    assert download_frame.loc[0, "round_code"] == "R32"
+    assert download_frame.loc[0, "slot"] == 1
+    assert download_frame.loc[0, "home_team"] == "Argentina"
+    assert download_frame.loc[0, "away_team"] == "France"
+    assert download_frame.loc[0, "winner_win_prob"] == 61.5
 
 
 def test_export_document_css_omits_flag_icons_cdn():
@@ -2441,7 +2185,7 @@ def test_export_document_css_omits_flag_icons_cdn():
     assert "wc-export-mode" in document
 
 
-def test_export_document_includes_wkhtmltoimage_compat_css():
+def test_export_document_includes_standalone_compat_css():
     home = load_home_module()
 
     document = home.render_export_document("Export", [], multi_column=False)
@@ -2457,6 +2201,21 @@ def test_export_document_includes_wkhtmltoimage_compat_css():
     assert document.index("var(--wc-muted)") < document.index(".wc-export-mode .wc-table thead th")
 
 
+def test_shared_css_hides_country_names_on_narrow_screens():
+    home = load_home_module()
+
+    css = home.shared_css()
+    media_start = css.index("@media (max-width: 1100px)")
+    media_end = css.index("@media (max-width: 860px)")
+    responsive_css = css[media_start:media_end]
+
+    assert ".wc-name-cell" in responsive_css
+    assert ".wc-name-main" in responsive_css
+    assert ".wc-name-text" in responsive_css
+    assert "display: none;" in responsive_css
+    assert ".wc-qual-marker" in responsive_css
+
+
 def test_render_name_cell_includes_image_flag_fallback():
     home = load_home_module()
 
@@ -2467,11 +2226,11 @@ def test_render_name_cell_includes_image_flag_fallback():
     assert "https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/flags/4x3/ar.svg" in cell_html
 
 
-def test_home_reexports_centralized_export_functions():
+def test_home_reexports_csv_export_helpers():
     home = load_home_module()
 
-    assert home.export_current_view is dashboard_export.export_current_view
-    assert home.export_all_tables is dashboard_export.export_all_tables
+    assert home.tables_to_download_frame is dashboard_export.tables_to_download_frame
+    assert home.bracket_to_download_frame is dashboard_export.bracket_to_download_frame
 
 
 def test_build_table_html_all_countries_includes_ko_column_only_when_requested():
