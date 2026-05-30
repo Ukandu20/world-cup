@@ -1172,6 +1172,27 @@ def shared_css(include_flag_icons: bool = True) -> str:
             padding-top: 0;
         }
     }
+    @media (max-width: 1100px) {
+        .wc-name-cell {
+            justify-content: center;
+            gap: 0;
+        }
+        .wc-name-main {
+            justify-content: center;
+            gap: 0;
+            flex: 0 0 auto;
+        }
+        .wc-name-cell .fi {
+            font-size: 1.28rem;
+        }
+        .wc-name-text {
+            display: none;
+        }
+        .wc-qual-marker {
+            margin-left: 0.24rem;
+            height: 1.5rem;
+        }
+    }
     @media (max-width: 860px) {
         .wc-grid {
             grid-template-columns: 1fr;
@@ -1227,24 +1248,6 @@ def shared_css(include_flag_icons: bool = True) -> str:
         table.wc-table {
             min-width: 560px;
         }
-        .wc-name-cell {
-            justify-content: center;
-            gap: 0;
-        }
-        .wc-name-main {
-            justify-content: center;
-            gap: 0;
-        }
-        .wc-name-cell .fi {
-            font-size: 1.28rem;
-        }
-        .wc-name-text {
-            display: none;
-        }
-        .wc-qual-marker {
-            margin-left: 0.24rem;
-            height: 1.5rem;
-        }
         .wc-bracket-side {
             grid-template-columns: 1fr;
         }
@@ -1253,7 +1256,7 @@ def shared_css(include_flag_icons: bool = True) -> str:
 
 
 def export_compat_css() -> str:
-    """Return wkhtmltoimage-safe CSS overrides for standalone export documents."""
+    """Return CSS overrides for standalone table documents."""
     return """
     html.wc-export-mode,
     body.wc-export-mode {
