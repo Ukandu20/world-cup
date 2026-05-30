@@ -152,8 +152,11 @@ def display_artifact_status(load_result: ArtifactLoadResult, model_label: str) -
 
 def render_export_download(artifact: ExportArtifact, label: str, key: str) -> None:
     """Render a download button for a generated export artifact."""
+    download_label = label
+    if artifact.mime == "text/html":
+        download_label = label.replace("PNG", "HTML").replace("png", "HTML")
     st.download_button(
-        label,
+        download_label,
         data=artifact.data,
         file_name=artifact.filename,
         mime=artifact.mime,
@@ -176,6 +179,8 @@ def render_single_export_action(button_label: str, key: str, export_callback, do
         st.error(str(exc))
     except ValueError as exc:
         st.error(str(exc))
+    except OSError as exc:
+        st.error(f"Export failed because the server could not read or write the export file: {exc}")
 
 
 def render_batch_export_action(button_label: str, key: str, export_callback, download_label: str) -> None:
@@ -193,12 +198,14 @@ def render_batch_export_action(button_label: str, key: str, export_callback, dow
             artifact: BatchExportArtifact = export_callback(progress_callback)
             progress_bar.progress(1.0)
             status.update(label="Export bundle ready.", state="complete")
-        st.success(f"Prepared {artifact.png_count} PNG exports in {artifact.filename}.")
+        st.success(f"Prepared {artifact.png_count} exports in {artifact.filename}.")
         render_export_download(artifact, download_label, f"{key}_download")
     except RuntimeError as exc:
         st.error(str(exc))
     except ValueError as exc:
         st.error(str(exc))
+    except OSError as exc:
+        st.error(f"Export failed because the server could not read or write the export file: {exc}")
 
 
 def load_or_run_probability_artifact(

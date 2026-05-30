@@ -650,6 +650,9 @@ def shared_css(include_flag_icons: bool = True) -> str:
         box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.22);
         flex: 0 0 auto;
     }
+    .wc-flag-fallback {
+        display: none;
+    }
     .wc-name-text {
         overflow: hidden;
         text-overflow: ellipsis;
@@ -1249,6 +1252,203 @@ def shared_css(include_flag_icons: bool = True) -> str:
     """
 
 
+def export_compat_css() -> str:
+    """Return wkhtmltoimage-safe CSS overrides for standalone export documents."""
+    return """
+    html.wc-export-mode,
+    body.wc-export-mode {
+        margin: 0;
+        background: #EFE3CF;
+        color: #3A2A1A;
+        font-family: "Gill Sans", "Segoe UI", Arial, sans-serif;
+        font-size: 16px;
+        width: auto;
+        min-width: 100%;
+    }
+    .wc-export-mode .wc-export-page {
+        background: #EFE3CF;
+        padding: 24px;
+    }
+    .wc-export-mode .wc-grid {
+        display: block;
+        width: 100%;
+        font-size: 0;
+    }
+    .wc-export-mode .wc-grid .wc-card {
+        display: inline-block;
+        vertical-align: top;
+        width: 31.6%;
+        margin: 8px 0.8% 14px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    .wc-export-mode .wc-grid-single {
+        display: block;
+        width: auto;
+    }
+    .wc-export-mode .wc-card {
+        border: 1px solid #D8C8AF;
+        border-radius: 10px;
+        background: #F6EBD8;
+        box-shadow: 0 10px 22px rgba(58, 42, 26, 0.07);
+        overflow: visible;
+        margin: 8px 0 14px;
+        padding-bottom: 10px;
+    }
+    .wc-export-mode .wc-card-header {
+        display: table;
+        width: 100%;
+        padding: 14px 16px 10px;
+        box-sizing: border-box;
+    }
+    .wc-export-mode .wc-card-header > div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .wc-export-mode .wc-card-header > .wc-group-pill {
+        display: table-cell;
+        vertical-align: middle;
+        float: right;
+    }
+    .wc-export-mode .wc-card-title {
+        color: #3A2A1A;
+        font-size: 17px;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+    .wc-export-mode .wc-card-subtitle {
+        color: #5A4632;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        line-height: 1.2;
+        margin-bottom: 4px;
+    }
+    .wc-export-mode .wc-group-pill {
+        display: inline-block;
+        min-width: 34px;
+        height: 34px;
+        line-height: 34px;
+        border-radius: 999px;
+        background: #5A4632;
+        color: #EFE3CF;
+        font-size: 15px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .wc-export-mode .wc-table-wrap {
+        width: 100%;
+        overflow: visible;
+        padding-bottom: 2px;
+    }
+    .wc-export-mode table.wc-table {
+        width: 100%;
+        min-width: 720px;
+        border-collapse: collapse;
+        border-spacing: 0;
+        table-layout: auto;
+        background: #F6EBD8;
+    }
+    .wc-export-mode .wc-grid table.wc-table {
+        min-width: 0;
+        table-layout: fixed;
+    }
+    .wc-export-mode .wc-table thead th {
+        background: #5A4632;
+        color: #EFE3CF;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        line-height: 1.2;
+        padding: 13px 11px;
+        text-align: left;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    .wc-export-mode .wc-grid .wc-table thead th {
+        font-size: 10px;
+        padding: 9px 6px;
+    }
+    .wc-export-mode .wc-table tbody td {
+        border-bottom: 1px solid #D8C8AF;
+        background-color: rgba(246, 235, 216, 0.86);
+        color: #3A2A1A;
+        font-size: 15px;
+        line-height: 1.25;
+        padding: 12px 11px;
+        vertical-align: middle;
+    }
+    .wc-export-mode .wc-grid .wc-table tbody td {
+        font-size: 13px;
+        padding: 9px 6px;
+    }
+    .wc-export-mode .wc-table tbody tr:last-child td {
+        border-bottom: 0;
+    }
+    .wc-export-mode .wc-table thead th.wc-num,
+    .wc-export-mode .wc-table tbody td.wc-num {
+        text-align: right;
+        white-space: nowrap;
+    }
+    .wc-export-mode .wc-table thead th.wc-group-col,
+    .wc-export-mode .wc-table tbody td.wc-group-col {
+        text-align: center;
+        width: 56px;
+    }
+    .wc-export-mode .wc-name-cell,
+    .wc-export-mode .wc-name-main {
+        display: inline-block;
+        color: #3A2A1A;
+        font-weight: 700;
+        line-height: 1.22;
+        white-space: normal;
+    }
+    .wc-export-mode .wc-name-cell .fi {
+        display: none;
+    }
+    .wc-export-mode .wc-flag-fallback {
+        display: inline-block;
+        width: 28px;
+        height: 20px;
+        margin-right: 9px;
+        border-radius: 999px;
+        box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.22);
+        object-fit: cover;
+        vertical-align: -2px;
+    }
+    .wc-export-mode .wc-name-text {
+        color: #3A2A1A;
+        font-weight: 700;
+        line-height: 1.22;
+        white-space: normal;
+    }
+    .wc-export-mode .wc-holder-cell {
+        background: #E8D5A1;
+    }
+    .wc-export-mode .wc-holder-cell .wc-name-text {
+        color: #3A2A1A;
+        font-weight: 800;
+    }
+    .wc-export-mode .wc-prob {
+        color: #1E160F;
+        font-weight: 800;
+        font-variant-numeric: tabular-nums;
+    }
+    .wc-export-mode .wc-header-icon {
+        display: inline-block;
+        height: 1em;
+        width: auto;
+        margin-right: 4px;
+        vertical-align: -0.12em;
+    }
+    .wc-export-mode .wc-header-icon-label {
+        display: inline-block;
+        white-space: nowrap;
+    }
+    """
+
+
 def inject_styles() -> None:
     """Inject the dashboard CSS and flag-icons stylesheet into the Streamlit page."""
     st.markdown(f"<style>{shared_css(include_flag_icons=True)}</style>", unsafe_allow_html=True)
@@ -1579,6 +1779,14 @@ def render_group_qualification_marker(top2_prob: float, third_prob: float) -> st
     return f'<span class="wc-qual-marker" aria-hidden="true">{"".join(segments)}</span>'
 
 
+def flag_icon_code_to_svg_url(flag_icon_code: str) -> str:
+    """Return a direct flag-icons SVG URL for export renderers."""
+    normalized_code = flag_icon_code.strip().lower()
+    if not normalized_code.replace("-", "").isalnum():
+        return ""
+    return f"https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/flags/4x3/{normalized_code}.svg"
+
+
 def render_name_cell(
     flag_icon_code: str,
     display_name: str,
@@ -1590,10 +1798,17 @@ def render_name_cell(
     safe_name = html.escape(display_name)
     marker = render_group_qualification_marker(top2_prob, third_prob) if show_group_qualification_marker else ""
     if isinstance(flag_icon_code, str) and flag_icon_code:
+        flag_fallback = flag_icon_code_to_svg_url(flag_icon_code)
+        fallback_html = (
+            f'<img class="wc-flag-fallback" src="{html.escape(flag_fallback)}" alt="" aria-hidden="true" />'
+            if flag_fallback
+            else ""
+        )
         return (
             '<div class="wc-name-cell">'
             '<span class="wc-name-main">'
             f'<span class="fi fi-{html.escape(flag_icon_code)}"></span>'
+            f"{fallback_html}"
             f'<span class="wc-name-text">{safe_name}</span>'
             "</span>"
             f"{marker}"
@@ -2369,6 +2584,7 @@ def render_export_document(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(page_title)}</title>
   <style>{shared_css(include_flag_icons=False)}</style>
+  <style>{export_compat_css()}</style>
 </head>
 <body class="wc-export-mode">
   <div class="wc-export-page">
@@ -2398,6 +2614,7 @@ def render_bracket_document(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(page_title)}</title>
   <style>{shared_css(include_flag_icons=False)}</style>
+  <style>{export_compat_css()}</style>
 </head>
 <body class="wc-export-mode">
   <div class="wc-export-page">

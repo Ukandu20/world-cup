@@ -1849,9 +1849,9 @@ def test_v2_view_options_include_confederation_views():
 def test_export_all_tables_uses_single_column_all_confederations_export(monkeypatch):
     home = load_home_module()
     captured_calls = []
-    captured_zip_paths = []
+    captured_zip_filenames = []
 
-    def fake_export_document_png(
+    def fake_export_document_png_artifact(
         filename_stem,
         page_title,
         tables,
@@ -1868,20 +1868,25 @@ def test_export_all_tables_uses_single_column_all_confederations_export(monkeypa
                 "separate_sections": separate_sections,
             }
         )
-        return Path(f"{filename_stem}.png")
+        return dashboard_export.ExportArtifact(
+            path=Path(f"{filename_stem}.png"),
+            filename=f"{filename_stem}.png",
+            mime="image/png",
+            data=b"png",
+        )
 
-    def fake_create_export_zip(exported_paths, filename_stem, export_suffix):
-        captured_zip_paths.extend(path.name for path in exported_paths)
+    def fake_create_export_zip_from_artifacts(exported_artifacts, filename_stem, export_suffix):
+        captured_zip_filenames.extend(artifact.filename for artifact in exported_artifacts)
         return dashboard_export.BatchExportArtifact(
             path=Path(f"{filename_stem}_{export_suffix}.zip"),
             filename=f"{filename_stem}_{export_suffix}.zip",
             mime="application/zip",
             data=b"zip",
-            png_count=len(exported_paths),
+            png_count=len(exported_artifacts),
         )
 
-    monkeypatch.setattr(dashboard_export, "export_document_png", fake_export_document_png)
-    monkeypatch.setattr(dashboard_export, "create_export_zip", fake_create_export_zip)
+    monkeypatch.setattr(dashboard_export, "export_document_png_artifact", fake_export_document_png_artifact)
+    monkeypatch.setattr(dashboard_export, "create_export_zip_from_artifacts", fake_create_export_zip_from_artifacts)
     monkeypatch.setattr(dashboard_export, "generate_export_suffix", lambda: "stamp")
 
     form_df = pd.DataFrame(
@@ -1941,7 +1946,7 @@ def test_export_all_tables_uses_single_column_all_confederations_export(monkeypa
     assert all_confed_call["separate_sections"] is False
     assert artifact.filename == "dashboard_exports_stamp.zip"
     assert artifact.png_count == 4
-    assert "form_all_confederations.png" in captured_zip_paths
+    assert "form_all_confederations.png" in captured_zip_filenames
 
 
 def test_render_tables_uses_single_column_wrapper_for_stacked_sections(monkeypatch):
@@ -2146,7 +2151,7 @@ def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
     home = load_home_module()
     captured = {}
 
-    def fake_export_bracket_png(
+    def fake_export_bracket_png_artifact(
         filename_stem,
         page_title,
         bracket_data,
@@ -2164,14 +2169,14 @@ def test_export_current_view_uses_bracket_export_when_selected(monkeypatch):
                 "export_suffix": export_suffix,
             }
         )
-        return Path("dummy.png")
+        return dashboard_export.ExportArtifact(
+            path=Path("dummy.png"),
+            filename="dummy.png",
+            mime="image/png",
+            data=b"png",
+        )
 
-    monkeypatch.setattr(dashboard_export, "export_bracket_png", fake_export_bracket_png)
-    monkeypatch.setattr(
-        dashboard_export,
-        "build_export_artifact",
-        lambda path, mime="image/png": dashboard_export.ExportArtifact(path=path, filename=path.name, mime=mime, data=b"png"),
-    )
+    monkeypatch.setattr(dashboard_export, "export_bracket_png_artifact", fake_export_bracket_png_artifact)
 
     result = home.export_current_view(
         "Bracket",
@@ -2204,48 +2209,106 @@ def test_build_screenshot_command_supports_forced_viewport():
     assert command[viewport_index + 1] == home.BRACKET_EXPORT_VIEWPORT_SIZE
 
 
-def test_export_document_temp_directory_stays_outside_export_dir(monkeypatch):
+def test_build_wkhtmltoimage_command_supports_forced_width():
+    home = load_home_module()
+
+    command = home.build_wkhtmltoimage_command(
+        r"C:\tmp\test.html",
+        Path("test.png"),
+        viewport_size="1800,1200",
+    )
+
+    assert command[0] == "wkhtmltoimage"
+    assert "--enable-local-file-access" in command
+    assert "--width" in command
+    width_index = command.index("--width")
+    assert command[width_index + 1] == "1800"
+    assert "--height" not in command
+    assert command[-2:] == [r"C:\tmp\test.html", "test.png"]
+
+
+def test_run_png_export_prefers_wkhtmltoimage(monkeypatch):
     calls = []
 
-    class FakeTemporaryDirectory:
-        def __init__(self, *args, **kwargs):
-            calls.append(kwargs)
-            self.path = ROOT / "pytest-cache-files-fake-temp"
+    def fake_run(command, check, capture_output, text):
+        calls.append(command)
 
-        def __enter__(self):
-            self.path.mkdir(exist_ok=True)
-            return str(self.path)
+    monkeypatch.setattr(dashboard_export.subprocess, "run", fake_run)
+    monkeypatch.setattr(dashboard_export, "wkhtmltoimage_executables", lambda: ["wkhtmltoimage"])
 
-        def __exit__(self, exc_type, exc, traceback):
-            return False
+    result = dashboard_export.run_png_export(
+        html_input=r"C:\tmp\test.html",
+        browser_input="file:///C:/tmp/test.html",
+        output_path=Path("test.png"),
+        viewport_size="1400,1200",
+    )
 
-    monkeypatch.setattr(dashboard_export.tempfile, "TemporaryDirectory", FakeTemporaryDirectory)
+    assert result == Path("test.png")
+    assert calls[0][0] == "wkhtmltoimage"
+    assert all("playwright.exe" not in call for call in calls)
+
+
+def test_export_document_temp_directory_uses_system_temp_first(monkeypatch, tmp_path):
+    calls = []
+
+    def fake_mkdtemp(*args, **kwargs):
+        calls.append(kwargs)
+        path = tmp_path / "fake-temp"
+        path.mkdir(exist_ok=True)
+        return str(path)
+
+    monkeypatch.setattr(dashboard_export.tempfile, "mkdtemp", fake_mkdtemp)
     monkeypatch.setattr(dashboard_export.subprocess, "run", lambda *args, **kwargs: None)
 
     dashboard_export.export_document_png("sample", "Sample", [], multi_column=False)
 
     assert calls
-    assert calls[0]["ignore_cleanup_errors"] is True
     assert "dir" not in calls[0]
+
+
+def test_export_document_temp_directory_falls_back_when_system_temp_is_denied(monkeypatch, tmp_path):
+    calls = []
+    denied_root = tmp_path / "denied-temp"
+    fallback_root = tmp_path / "fallback-temp"
+
+    def fake_mkdtemp(*args, **kwargs):
+        calls.append(kwargs)
+        if "dir" not in kwargs:
+            denied_root.mkdir(exist_ok=True)
+            return str(denied_root)
+        path = Path(kwargs["dir"]) / "wc_export_fallback"
+        path.mkdir(parents=True, exist_ok=True)
+        return str(path)
+
+    def fake_write_text(self, *args, **kwargs):
+        if self.is_relative_to(denied_root):
+            raise PermissionError("denied")
+        return original_write_text(self, *args, **kwargs)
+
+    monkeypatch.setattr(dashboard_export, "EXPORT_DIR", fallback_root)
+    monkeypatch.setattr(dashboard_export.tempfile, "mkdtemp", fake_mkdtemp)
+    monkeypatch.setattr(dashboard_export.subprocess, "run", lambda *args, **kwargs: None)
+    original_write_text = Path.write_text
+    monkeypatch.setattr(Path, "write_text", fake_write_text)
+
+    dashboard_export.export_document_png("sample", "Sample", [], multi_column=False)
+
+    assert len(calls) == 2
+    assert calls[1]["dir"] == fallback_root / ".tmp"
 
 
 def test_export_table_view_returns_download_ready_artifact(monkeypatch):
     home = load_home_module()
 
-    def fake_export_document_png(*args, **kwargs):
-        return Path("single.png")
-
-    monkeypatch.setattr(dashboard_export, "export_document_png", fake_export_document_png)
-    monkeypatch.setattr(
-        dashboard_export,
-        "build_export_artifact",
-        lambda path, mime="image/png": dashboard_export.ExportArtifact(
-            path=path,
-            filename=path.name,
-            mime=mime,
+    def fake_export_document_png_artifact(*args, **kwargs):
+        return dashboard_export.ExportArtifact(
+            path=Path("single.png"),
+            filename="single.png",
+            mime="image/png",
             data=b"single png",
-        ),
-    )
+        )
+
+    monkeypatch.setattr(dashboard_export, "export_document_png_artifact", fake_export_document_png_artifact)
 
     artifact = home.export_table_view("single", "Single", [], multi_column=False)
 
@@ -2254,24 +2317,46 @@ def test_export_table_view_returns_download_ready_artifact(monkeypatch):
     assert artifact.data == b"single png"
 
 
+def test_export_table_view_falls_back_to_html_when_png_rendering_fails(monkeypatch):
+    home = load_home_module()
+
+    monkeypatch.setattr(
+        dashboard_export,
+        "render_png_bytes",
+        lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("blocked")),
+    )
+    monkeypatch.setattr(dashboard_export, "generate_export_suffix", lambda: "stamp")
+
+    artifact = home.export_table_view("single", "Single", [], multi_column=False)
+
+    assert artifact.filename == "single_stamp.html"
+    assert artifact.mime == "text/html"
+    assert b"wc-export-mode" in artifact.data
+
+
 def test_export_all_tables_invokes_progress_callback(monkeypatch):
     home = load_home_module()
     progress_calls = []
 
-    def fake_export_document_png(filename_stem, *args, **kwargs):
-        return Path(f"{filename_stem}.png")
+    def fake_export_document_png_artifact(filename_stem, *args, **kwargs):
+        return dashboard_export.ExportArtifact(
+            path=Path(f"{filename_stem}.png"),
+            filename=f"{filename_stem}.png",
+            mime="image/png",
+            data=b"png",
+        )
 
-    def fake_create_export_zip(exported_paths, filename_stem, export_suffix):
+    def fake_create_export_zip_from_artifacts(exported_artifacts, filename_stem, export_suffix):
         return dashboard_export.BatchExportArtifact(
             path=Path(f"{filename_stem}_{export_suffix}.zip"),
             filename=f"{filename_stem}_{export_suffix}.zip",
             mime="application/zip",
             data=b"zip",
-            png_count=len(exported_paths),
+            png_count=len(exported_artifacts),
         )
 
-    monkeypatch.setattr(dashboard_export, "export_document_png", fake_export_document_png)
-    monkeypatch.setattr(dashboard_export, "create_export_zip", fake_create_export_zip)
+    monkeypatch.setattr(dashboard_export, "export_document_png_artifact", fake_export_document_png_artifact)
+    monkeypatch.setattr(dashboard_export, "create_export_zip_from_artifacts", fake_create_export_zip_from_artifacts)
     monkeypatch.setattr(dashboard_export, "generate_export_suffix", lambda: "stamp")
 
     probability_df = pd.DataFrame(
@@ -2354,6 +2439,32 @@ def test_export_document_css_omits_flag_icons_cdn():
 
     assert "cdn.jsdelivr.net/npm/flag-icons" not in document
     assert "wc-export-mode" in document
+
+
+def test_export_document_includes_wkhtmltoimage_compat_css():
+    home = load_home_module()
+
+    document = home.render_export_document("Export", [], multi_column=False)
+
+    assert ".wc-export-mode .wc-table thead th" in document
+    assert ".wc-export-mode .wc-flag-fallback" in document
+    assert ".wc-export-mode .wc-grid .wc-card" in document
+    assert "display: inline-block;" in document
+    assert "width: 31.6%;" in document
+    assert "#5A4632" in document
+    assert "#F6EBD8" in document
+    assert "var(--wc-muted)" in document
+    assert document.index("var(--wc-muted)") < document.index(".wc-export-mode .wc-table thead th")
+
+
+def test_render_name_cell_includes_image_flag_fallback():
+    home = load_home_module()
+
+    cell_html = home.render_name_cell("ar", "Argentina")
+
+    assert 'class="fi fi-ar"' in cell_html
+    assert '<img class="wc-flag-fallback"' in cell_html
+    assert "https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/flags/4x3/ar.svg" in cell_html
 
 
 def test_home_reexports_centralized_export_functions():
