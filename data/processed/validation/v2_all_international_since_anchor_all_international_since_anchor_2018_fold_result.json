@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "fold_year": 2018,
+    "model": "v2_all_international_since_anchor",
+    "scope": "all_international_since_anchor",
+    "n_matches": 64,
+    "log_loss": 0.978,
+    "brier": 0.5813,
+    "top1_acc_pct": 53.1,
+    "draw_pred_pct": 25.8,
+    "draw_actual_pct": 20.3,
+    "r16_hits": 12,
+    "sf_hits": 1,
+    "champion_hit": "No",
+    "n_training_matches": 2905,
+    "n_simulations": 20000
+  },
+  "actual": {
+    "r16_teams": [
+      "ARG",
+      "BEL",
+      "BRA",
+      "CHE",
+      "COL",
+      "DNK",
+      "ENG",
+      "ESP",
+      "FRA",
+      "HRV",
+      "JPN",
+      "MEX",
+      "PRT",
+      "RUS",
+      "SWE",
+      "URY"
+    ],
+    "sf_teams": [
+      "BEL",
+      "ENG",
+      "FRA",
+      "HRV"
+    ],
+    "champion": "FRA"
+  },
+  "simulated": {
+    "r16_teams": [
+      "ARG",
+      "BEL",
+      "BRA",
+      "COL",
+      "DEU",
+      "DNK",
+      "ENG",
+      "ESP",
+      "FRA",
+      "MEX",
+      "NGA",
+      "POL",
+      "RUS",
+      "SAU",
+      "SWE",
+      "URY"
+    ],
+    "sf_teams": [
+      "ARG",
+      "BRA",
+      "ESP",
+      "FRA"
+    ],
+    "champion": "BRA"
+  },
+  "metadata": {
+    "training_scope": "all_international_since_anchor",
+    "anchor_year": 1994,
+    "anchor_date": "1994-06-17",
+    "training_start_date": "1994-06-17",
+    "training_end_date": "2018-06-12",
+    "training_match_count": 2905,
+    "sample_weight_policy": "World Cup finals=3.0; continental finals=2.5; qualifiers=2.0; other competitive=1.5; friendlies=1.0"
+  }
+}

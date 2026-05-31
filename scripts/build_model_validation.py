@@ -102,6 +102,14 @@ def build_model_runner_registry() -> dict[str, dict[str, object]]:
             "feature_columns": list(V3_FEATURE_COLUMNS),
             "tournament_simulated": True,
         },
+        "v4_world_cup_only": {
+            "runner": lambda **kwargs: run_v4_historical_backtest(**kwargs),
+            "scopes": [TRAINING_SCOPE_WORLD_CUP_ONLY],
+            "label": "V4 World Cup only",
+            "type": "Enhanced World Cup Poisson regression + Monte Carlo",
+            "feature_columns": list(V4_FEATURE_COLUMNS),
+            "tournament_simulated": True,
+        },
         "v4_all_international_since_anchor": {
             "runner": lambda **kwargs: run_v4_historical_backtest(**kwargs),
             "scopes": [TRAINING_SCOPE_ALL_INTERNATIONAL],
@@ -324,7 +332,7 @@ def build_calibration_results(
     results: list[CalibrationResult] = []
     if not match_predictions.empty and "model_id" in match_predictions.columns:
         for model_id, group in match_predictions.groupby("model_id", sort=False):
-            for target in ("home_win", "draw"):
+            for target in ("home_win", "draw", "away_win"):
                 results.append(
                     compute_calibration(
                         group,
@@ -442,18 +450,26 @@ def artifacts_from_fold_results(
                     "seed": int(seed),
                 }
             )
-        model_rows.append(
-            build_summary_row(
-                fr.model_name,
-                str(spec["label"]),
-                str(spec["type"]),
-                backtest,
-                list(spec["feature_columns"]),
-                bool(spec["tournament_simulated"]),
-                dict(backtest.get("training_metadata", fr.metadata)),
-                holdout_label,
-            )
+        row = build_summary_row(
+            fr.model_name,
+            str(spec["label"]),
+            str(spec["type"]),
+            backtest,
+            list(spec["feature_columns"]),
+            bool(spec["tournament_simulated"]),
+            dict(backtest.get("training_metadata", fr.metadata)),
+            holdout_label,
         )
+        row["fold_year"] = int(fr.fold_year)
+        row["multiclass_log_loss"] = float(fr.log_loss_score)
+        row["multiclass_brier_score"] = float(fr.brier_score)
+        row["top1_match_accuracy"] = float(fr.top1_accuracy * 100.0)
+        row["draw_rate_predicted"] = float(fr.mean_draw_prediction * 100.0)
+        row["draw_rate_actual"] = float(fr.actual_draw_rate * 100.0)
+        row["round_of_16_hit_count"] = float(fr.r16_hits)
+        row["semifinal_hit_count"] = float(fr.sf_hits)
+        row["exact_champion_hit"] = 1.0 if fr.champion_hit else 0.0
+        model_rows.append(row)
 
         if fr.model_name == "baseline_elo":
             match_predictions = fr.match_predictions_df.copy()
@@ -599,11 +615,12 @@ def aggregate_model_rows(model_rows: list[dict[str, object]]) -> list[dict[str, 
             "model_label": model_label,
             "training_scope": training_scope,
             "fold_count": int(group["holdout"].nunique()),
+            "champion_hits": int(pd.to_numeric(group["exact_champion_hit"], errors="coerce").fillna(0.0).sum()),
         }
         for column in metric_columns:
             values = pd.to_numeric(group[column], errors="coerce").dropna()
             row[f"{column}_mean"] = float(values.mean()) if not values.empty else 0.0
-            row[f"{column}_std"] = float(values.std(ddof=0)) if len(values) > 1 else 0.0
+            row[f"{column}_std"] = float(values.std(ddof=1)) if len(values) > 1 else 0.0
         aggregate_rows.append(row)
     return aggregate_rows
 
@@ -692,23 +709,45 @@ def markdown_metric_table(models: list[dict[str, object]]) -> str:
 
 def markdown_aggregate_metric_table(aggregate_models: list[dict[str, object]]) -> str:
     rows = [
-        "| Model | Scope | Folds | Log Loss Mean+/-Std | Brier Mean+/-Std | Top-1 Mean+/-Std | Draw Pred./Actual Mean |",
-        "| --- | --- | ---: | ---: | ---: | ---: | ---: |",
+        "| model | scope | log_loss mean+/-std | brier mean+/-std | top1_acc mean+/-std | champion_hits/3 |",
+        "| --- | --- | ---: | ---: | ---: | ---: |",
     ]
     for model in aggregate_models:
         rows.append(
-            "| {label} | {scope} | {folds} | {log_loss} +/- {log_loss_std} | {brier} +/- {brier_std} | {accuracy} +/- {accuracy_std} | {draw_pred} / {draw_actual} |".format(
+            "| {label} | {scope} | {log_loss} +/- {log_loss_std} | {brier} +/- {brier_std} | {accuracy} +/- {accuracy_std} | {champion_hits}/3 |".format(
                 label=model["model_label"],
                 scope=model.get("training_scope", ""),
-                folds=int(model.get("fold_count", 0)),
                 log_loss=decimal(float(model["multiclass_log_loss_mean"])),
                 log_loss_std=decimal(float(model["multiclass_log_loss_std"])),
                 brier=decimal(float(model["multiclass_brier_score_mean"])),
                 brier_std=decimal(float(model["multiclass_brier_score_std"])),
                 accuracy=pct(float(model["top1_match_accuracy_mean"])),
                 accuracy_std=pct(float(model["top1_match_accuracy_std"])),
-                draw_pred=pct(float(model["draw_rate_predicted_mean"])),
-                draw_actual=pct(float(model["draw_rate_actual_mean"])),
+                champion_hits=int(model.get("champion_hits", 0)),
+            )
+        )
+    return "\n".join(rows)
+
+
+def markdown_per_fold_validation_table(models: list[dict[str, object]]) -> str:
+    rows = [
+        "| fold_year | model | scope | log_loss | brier | top1_acc | draw_pred | draw_actual | r16_hits | sf_hits | champion_hit |",
+        "| ---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |",
+    ]
+    for model in sorted(models, key=lambda row: (int(row.get("fold_year", 0)), str(row.get("model_id", "")))):
+        rows.append(
+            "| {fold_year} | {label} | {scope} | {log_loss} | {brier} | {accuracy} | {draw_pred} | {draw_actual} | {r16} | {sf} | {champion} |".format(
+                fold_year=int(model.get("fold_year", 0)),
+                label=model["model_label"],
+                scope=model.get("training_scope", ""),
+                log_loss=decimal(float(model["multiclass_log_loss"])),
+                brier=decimal(float(model["multiclass_brier_score"])),
+                accuracy=pct(float(model["top1_match_accuracy"])),
+                draw_pred=pct(float(model["draw_rate_predicted"])),
+                draw_actual=pct(float(model["draw_rate_actual"])),
+                r16=int(float(model["round_of_16_hit_count"])),
+                sf=int(float(model["semifinal_hit_count"])),
+                champion="Yes" if float(model["exact_champion_hit"]) >= 1.0 else "No",
             )
         )
     return "\n".join(rows)
@@ -736,26 +775,64 @@ def markdown_tournament_fold_table(models: list[dict[str, object]]) -> str:
 
 
 def markdown_calibration_table(calibration_rows: list[dict[str, object]]) -> str:
+    return markdown_calibration_ece_table(calibration_rows)
+
+
+def markdown_calibration_ece_table(calibration_rows: list[dict[str, object]]) -> str:
     rows = [
-        "| Model | Target | Folds | ECE | Brier | Samples |",
-        "| --- | --- | ---: | ---: | ---: | ---: |",
+        "| model | home_win ECE | draw ECE | away_win ECE |",
+        "| --- | ---: | ---: | ---: |",
     ]
     frame = pd.DataFrame(calibration_rows)
     if frame.empty:
-        rows.append("| n/a | n/a | 0 | 0.0000 | 0.0000 | 0 |")
+        rows.append("| n/a | 0.0000 | 0.0000 | 0.0000 |")
         return "\n".join(rows)
-    for (model_id, target), group in frame.groupby(["model_id", "target"], sort=False):
+    frame = frame[frame["target"].isin(["home_win", "draw", "away_win"])].copy()
+    for model_id, group in frame.groupby("model_id", sort=False):
+        ece_by_target = group.groupby("target")["ece"].mean().to_dict()
         rows.append(
-            "| {model} | {target} | {folds} | {ece} | {brier} | {samples} |".format(
+            "| {model} | {home_win} | {draw} | {away_win} |".format(
                 model=model_id,
-                target=target,
-                folds=int(group["holdout_year"].nunique()),
-                ece=decimal(float(pd.to_numeric(group["ece"], errors="coerce").mean()), 4),
-                brier=decimal(float(pd.to_numeric(group["brier_score"], errors="coerce").mean()), 4),
-                samples=int(pd.to_numeric(group["sample_count"], errors="coerce").sum()),
+                home_win=decimal(float(ece_by_target.get("home_win", 0.0)), 4),
+                draw=decimal(float(ece_by_target.get("draw", 0.0)), 4),
+                away_win=decimal(float(ece_by_target.get("away_win", 0.0)), 4),
             )
         )
     return "\n".join(rows)
+
+
+def validation_anomaly_notes(models: list[dict[str, object]], aggregate_models: list[dict[str, object]]) -> list[str]:
+    notes: list[str] = []
+    aggregate_frame = pd.DataFrame(aggregate_models)
+    if not aggregate_frame.empty:
+        for row in aggregate_frame.itertuples(index=False):
+            label = str(getattr(row, "model_label"))
+            scope = str(getattr(row, "training_scope"))
+            log_std = float(getattr(row, "multiclass_log_loss_std", 0.0))
+            brier_std = float(getattr(row, "multiclass_brier_score_std", 0.0))
+            draw_gap = abs(float(getattr(row, "draw_rate_predicted_mean", 0.0)) - float(getattr(row, "draw_rate_actual_mean", 0.0)))
+            if log_std > 0.02 or brier_std > 0.02:
+                notes.append(f"{label} ({scope}) has elevated fold dispersion: log-loss std {log_std:.4f}, Brier std {brier_std:.4f}.")
+            if draw_gap > 3.0:
+                notes.append(f"{label} ({scope}) has mean draw prediction {draw_gap:.1f} percentage points from actual.")
+
+    model_frame = pd.DataFrame(models)
+    if not model_frame.empty:
+        for (fold_year, scope), group in model_frame.groupby(["fold_year", "training_scope"], sort=True):
+            v4_rows = group[group["model_id"].astype(str).str.startswith("v4_")]
+            if v4_rows.empty:
+                continue
+            v4 = v4_rows.sort_values("model_id", kind="stable").iloc[0]
+            simpler = group[~group["model_id"].astype(str).str.startswith("v4_")]
+            winners = simpler[
+                (pd.to_numeric(simpler["multiclass_log_loss"], errors="coerce") < float(v4["multiclass_log_loss"]))
+                & (pd.to_numeric(simpler["multiclass_brier_score"], errors="coerce") < float(v4["multiclass_brier_score"]))
+            ]
+            for winner in winners.itertuples(index=False):
+                notes.append(
+                    f"{int(fold_year)} {scope}: {winner.model_label} beat {v4['model_label']} on both log loss and Brier."
+                )
+    return notes
 
 
 def build_model_card_markdown(payload: dict[str, object]) -> str:
@@ -769,15 +846,21 @@ def build_model_card_markdown(payload: dict[str, object]) -> str:
         validation_artifact = "model_validation_folds.json"
         validation_table = f"""### Match-Level Metrics
 
+#### Per-Fold
+
+{markdown_per_fold_validation_table(models)}
+
+#### Aggregate
+
 {markdown_aggregate_metric_table(aggregate_models)}
-
-### Tournament Simulation
-
-{markdown_tournament_fold_table(models)}
 
 ### Calibration
 
-{markdown_calibration_table(calibration_rows)}"""
+{markdown_calibration_ece_table(calibration_rows)}
+
+### Anomaly Flags
+
+{chr(10).join(f"- {note}" for note in validation_anomaly_notes(models, aggregate_models)) or "- No anomaly flags crossed the configured thresholds."}"""
         limitation_holdout = "The rolling holdouts are useful sanity checks, not a complete validation of every tournament format."
     else:
         holdout_year = int(validation.get("holdout_year", 2022))
@@ -822,7 +905,7 @@ The Elo-only baseline is match-level only. Its tournament-stage fields are set t
 - **Baseline:** multinomial logistic regression using only pre-match Elo difference, trained on all international matches since the anchor date with tournament sample weights.
 - **V2:** multinomial logistic regression using Elo, recent form, goal profile, and prior World Cup history differences. It is validated under both World-Cup-only and all-international training scopes.
 - **V3:** Poisson expected-goals model using Elo, form, historical pedigree, host/neutral-site context, and competition importance. It is validated under both World-Cup-only and all-international training scopes.
-- **V4:** enhanced Poisson expected-goals model using quadratic recent form, World Cup last-5 goal-difference features, Dixon-Coles low-score correction, stage multipliers, time-decayed training weights, and alpha selection. It is the current primary dashboard model and is validated under the all-international training scope.
+- **V4:** enhanced Poisson expected-goals model using quadratic recent form, World Cup last-5 goal-difference features, Dixon-Coles low-score correction, stage multipliers, time-decayed training weights, and alpha selection. It is the current primary dashboard model and is validated under both World-Cup-only and all-international training scopes.
 
 ## Training Scopes And Weights
 

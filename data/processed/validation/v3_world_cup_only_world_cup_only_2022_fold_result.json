@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "fold_year": 2022,
+    "model": "v3_world_cup_only",
+    "scope": "world_cup_only",
+    "n_matches": 64,
+    "log_loss": 1.0356,
+    "brier": 0.6171,
+    "top1_acc_pct": 53.1,
+    "draw_pred_pct": 25.5,
+    "draw_actual_pct": 23.4,
+    "r16_hits": 10,
+    "sf_hits": 2,
+    "champion_hit": "No",
+    "n_training_matches": 384,
+    "n_simulations": 20000
+  },
+  "actual": {
+    "r16_teams": [
+      "ARG",
+      "AUS",
+      "BRA",
+      "CHE",
+      "ENG",
+      "ESP",
+      "FRA",
+      "HRV",
+      "JPN",
+      "KOR",
+      "MAR",
+      "NED",
+      "POL",
+      "PRT",
+      "SEN",
+      "USA"
+    ],
+    "sf_teams": [
+      "ARG",
+      "FRA",
+      "HRV",
+      "MAR"
+    ],
+    "champion": "ARG"
+  },
+  "simulated": {
+    "r16_teams": [
+      "ARG",
+      "AUS",
+      "BEL",
+      "BRA",
+      "DEU",
+      "ENG",
+      "ESP",
+      "FRA",
+      "KOR",
+      "MAR",
+      "MEX",
+      "NLD",
+      "PRT",
+      "QAT",
+      "URY",
+      "USA"
+    ],
+    "sf_teams": [
+      "ARG",
+      "BRA",
+      "ESP",
+      "FRA"
+    ],
+    "champion": "BRA"
+  },
+  "metadata": {
+    "training_scope": "world_cup_only",
+    "anchor_year": 1998,
+    "anchor_date": "1998-06-10",
+    "training_start_date": "1998-06-10",
+    "training_end_date": "2018-07-15",
+    "training_match_count": 384,
+    "sample_weight_policy": "World Cup finals=3.0; continental finals=2.5; qualifiers=2.0; other competitive=1.5; friendlies=1.0"
+  }
+}

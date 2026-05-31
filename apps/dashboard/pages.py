@@ -42,7 +42,6 @@ from .config import (
     V4_MODEL_SUMMARY,
     V4_MODEL_VERSION,
     V4_PROB_STATE_KEY,
-    V4_ROLLING_BACKTEST_STATE_KEY,
     VIEW_OPTIONS,
     WEIGHTED_FORM_COMPOSITE_WEIGHTS,
     build_deterministic_bracket,
@@ -54,7 +53,7 @@ from .config import (
     fit_v2_match_multinomial_model,
     fit_v3_poisson_models,
 )
-from .data import load_data, load_world_cup_logo_data_uri
+from .data import load_data, load_validation_artifacts, load_world_cup_logo_data_uri
 from .export import (
     bracket_to_download_frame,
     combine_table_download_frames,
@@ -69,7 +68,6 @@ from .modeling import (
     run_v2_backtest_2022_dashboard,
     run_v3_backtest_2022_dashboard,
     run_v4_backtest_2022_dashboard,
-    run_v4_rolling_backtest_dashboard,
     simulate_probabilities,
     simulate_probabilities_v3_dashboard,
     simulate_probabilities_v4_dashboard,
@@ -153,6 +151,46 @@ def display_artifact_status(load_result: ArtifactLoadResult, model_label: str) -
         st.caption(f"Fresh {source_label} {model_label} simulation run saved at {created_at}.")
     else:
         st.caption(f"Using {source_label} cached {model_label} simulation run from {created_at}.")
+
+
+def _validation_filter_options(frame: pd.DataFrame, column: str) -> list:
+    if frame.empty or column not in frame.columns:
+        return []
+    return sorted(frame[column].dropna().unique().tolist())
+
+
+def _filter_validation_frame(
+    frame: pd.DataFrame,
+    *,
+    model_families: list[str] | None = None,
+    scopes: list[str] | None = None,
+    fold_years: list[int] | None = None,
+) -> pd.DataFrame:
+    filtered = frame.copy()
+    if model_families and "model_family" in filtered.columns:
+        filtered = filtered[filtered["model_family"].isin(model_families)]
+    if scopes and "scope" in filtered.columns:
+        filtered = filtered[filtered["scope"].isin(scopes)]
+    if fold_years and "fold_year" in filtered.columns:
+        filtered = filtered[filtered["fold_year"].isin(fold_years)]
+    return filtered
+
+
+def render_validation_findings_cards(headline_findings: dict[str, str]) -> None:
+    """Render the multi-fold validation headline cards."""
+    cards = st.columns(4)
+    cards[0].metric("Best mean log loss", headline_findings.get("best_log_loss", "Unavailable"))
+    cards[1].metric("Best mean Brier", headline_findings.get("best_brier", "Unavailable"))
+    cards[2].metric("Best top-1 accuracy", headline_findings.get("best_top1", "Unavailable"))
+    cards[3].metric("Dominance conclusion", headline_findings.get("dominance", "Unavailable"))
+
+
+def render_drilldown_backtest_banner() -> None:
+    """Point users from one-year backtest drilldowns to the current multi-fold findings."""
+    st.info(
+        "For the current 2014/2018/2022 multi-fold validation findings, open Backtests > Multi-Fold Backtests. "
+        "This page remains an interactive 2022 single-holdout drilldown."
+    )
 
 
 def render_table_data_downloads(
@@ -977,6 +1015,7 @@ def render_v2_2022_backtest_dashboard() -> None:
         "and prior-5-edition World Cup history features. "
         "It reports match-level calibration plus tournament-level hit rates."
     )
+    render_drilldown_backtest_banner()
 
     with st.spinner(f"Running the 2022 holdout backtest with {simulation_count:,} simulations..."):
         backtest = run_v2_backtest_2022_dashboard(
@@ -1146,6 +1185,7 @@ def render_v3_2022_backtest_dashboard() -> None:
         f"then backtests the actual tournament using weighted form from the last {form_match_window} Elo-rated matches and prior-5-edition pedigree features. "
         "It reports match-level calibration plus tournament-level hit rates."
     )
+    render_drilldown_backtest_banner()
 
     with st.spinner(f"Running the 2022 V3 backtest with {simulation_count:,} simulations..."):
         backtest = run_v3_backtest_2022_dashboard(
@@ -1317,6 +1357,7 @@ def render_v4_2022_backtest_dashboard() -> None:
         f"Model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
         "This V4 holdout uses quadratic form, Dixon-Coles probabilities, stage effects, and time-decayed training weights."
     )
+    render_drilldown_backtest_banner()
     with st.spinner(f"Running the 2022 V4 backtest with {simulation_count:,} simulations..."):
         backtest = run_v4_backtest_2022_dashboard(
             simulations=simulation_count,
@@ -1370,50 +1411,130 @@ def render_v4_2022_backtest_dashboard() -> None:
 
 
 def render_v4_rolling_backtest_dashboard() -> None:
-    """Render the V4 rolling holdout backtest page."""
+    """Render artifact-backed multi-fold validation findings."""
     inject_styles()
     _, _, _, metadata = load_data()
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
-    if V4_ROLLING_BACKTEST_STATE_KEY not in st.session_state:
-        st.session_state[V4_ROLLING_BACKTEST_STATE_KEY] = default_simulation_settings()
-    current_settings = dict(st.session_state[V4_ROLLING_BACKTEST_STATE_KEY])
-
-    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    initial_simulation_label = str(st.session_state.get("v4_rolling_simulation_label", current_settings["simulation_label"]))
     render_dashboard_header(
         world_cup_logo_data_uri,
         metadata,
-        SIMULATION_OPTIONS[initial_simulation_label],
-        title="V4 Rolling Backtest",
-        model_version=V4_MODEL_VERSION,
-        model_label=V4_MODEL_LABEL,
+        SIMULATION_COUNT,
+        title="Multi-Fold Backtest Findings",
+        model_version="Validation",
+        model_label="2014, 2018, and 2022 holdout folds",
     )
-    with render_filter_bar("Model Filters"):
-        simulation_label = st.radio(
-            "Simulation runs",
-            simulation_labels,
-            index=simulation_labels.index(current_settings["simulation_label"]),
-            horizontal=True,
-            key="v4_rolling_simulation_label",
+
+    artifacts = load_validation_artifacts()
+    if not artifacts["available"]:
+        st.warning(artifacts["warning"])
+        return
+
+    metadata = dict(artifacts["metadata"])
+    run_settings = dict(metadata.get("run_settings", {}))
+    st.caption(
+        "Committed validation artifacts are loaded from disk, so this page does not rerun the expensive 20,000-simulation "
+        "multi-fold backtest. See [docs/model_card.md](docs/model_card.md) for full validation detail."
+    )
+    st.caption(
+        f"Generated at {metadata.get('generated_at_utc', 'unknown time')} | "
+        f"seed {run_settings.get('seed', 'unknown')} | simulations {int(run_settings.get('simulations', 0)):,}"
+    )
+
+    aggregate_display = artifacts["aggregate_display"]
+    per_fold_display = artifacts["per_fold_display"]
+    calibration_display = artifacts["calibration_display"]
+
+    model_families = _validation_filter_options(aggregate_display, "model_family")
+    scopes = _validation_filter_options(aggregate_display, "scope")
+    fold_years = _validation_filter_options(per_fold_display, "fold_year")
+    with render_filter_bar("Validation Filters"):
+        selected_models = st.multiselect(
+            "Model family",
+            model_families,
+            default=model_families,
+            key="multi_fold_model_family",
         )
-    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
-    training_scope = DEFAULT_V4_TRAINING_SCOPE
-    simulation_count = SIMULATION_OPTIONS[simulation_label]
-    st.session_state[V4_ROLLING_BACKTEST_STATE_KEY] = {
-        "simulation_label": simulation_label,
-        "form_match_window": form_match_window,
-        "training_scope": training_scope,
-    }
-    with st.spinner(f"Running V4 rolling backtest with {simulation_count:,} simulations..."):
-        backtest = run_v4_rolling_backtest_dashboard(
-            simulations=simulation_count,
-            match_window=form_match_window,
-            training_scope=training_scope,
+        selected_scopes = st.multiselect(
+            "Training scope",
+            scopes,
+            default=scopes,
+            key="multi_fold_training_scope",
         )
-    st.markdown("**Fold Results**")
-    st.dataframe(pd.DataFrame(backtest["folds"]), width="stretch", hide_index=True)
-    st.markdown("**Aggregate Metrics**")
-    st.dataframe(pd.DataFrame(backtest["aggregate_metrics"]), width="stretch", hide_index=True)
+        selected_folds = st.multiselect(
+            "Fold year",
+            fold_years,
+            default=fold_years,
+            key="multi_fold_year",
+        )
+
+    render_validation_findings_cards(artifacts["headline_findings"])
+
+    aggregate_filtered = _filter_validation_frame(
+        aggregate_display,
+        model_families=selected_models,
+        scopes=selected_scopes,
+    )
+    aggregate_columns = [
+        "model",
+        "scope",
+        "log_loss mean+/-std",
+        "brier mean+/-std",
+        "top1_acc mean+/-std",
+        "champion_hits/3",
+    ]
+    st.markdown("**Aggregate Validation**")
+    st.dataframe(
+        aggregate_filtered.loc[:, [column for column in aggregate_columns if column in aggregate_filtered.columns]],
+        width="stretch",
+        hide_index=True,
+    )
+
+    per_fold_filtered = _filter_validation_frame(
+        per_fold_display,
+        model_families=selected_models,
+        scopes=selected_scopes,
+        fold_years=selected_folds,
+    )
+    per_fold_columns = [
+        "fold_year",
+        "model",
+        "scope",
+        "log_loss",
+        "brier",
+        "top1_acc",
+        "draw_pred",
+        "draw_actual",
+        "r16_hits",
+        "sf_hits",
+        "champion_hit",
+    ]
+    st.markdown("**Per-Fold Results**")
+    st.dataframe(
+        per_fold_filtered.loc[:, [column for column in per_fold_columns if column in per_fold_filtered.columns]],
+        width="stretch",
+        hide_index=True,
+    )
+
+    calibration_filtered = _filter_validation_frame(
+        calibration_display,
+        model_families=selected_models,
+    )
+    st.markdown("**Calibration ECE**")
+    st.dataframe(
+        calibration_filtered.loc[
+            :,
+            [column for column in ["model", "home_win_ece", "draw_ece", "away_win_ece"] if column in calibration_filtered.columns],
+        ],
+        width="stretch",
+        hide_index=True,
+    )
+
+    st.markdown("**Anomaly Flags**")
+    anomaly_notes = list(artifacts["anomaly_notes"])
+    if anomaly_notes:
+        st.dataframe(pd.DataFrame({"flag": anomaly_notes}), width="stretch", hide_index=True)
+    else:
+        st.caption("No anomaly flags were generated from the current validation thresholds.")
 
 
 def render_home_page() -> None:

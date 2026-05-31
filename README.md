@@ -51,18 +51,21 @@ Original sources retain their own licenses and terms. This repository stores pro
 
 ## Validation Summary
 
-The published validation is a 2022 World Cup holdout using `20,000` simulations, match window `10`, and seed `20260403`.
+The published validation now uses 2014, 2018, and 2022 World Cup holdout folds with `20,000` simulations, match window `10`, and seed `20260403`.
 
-| Model | Scope | Matches | Log Loss | Brier | Top-1 Acc. | Draw Pred./Actual | R16 Hits | SF Hits | Champion Hit |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Elo-only baseline | all_international_since_anchor | 22,843 | 1.0539 | 0.6353 | 42.2% | 24.2% / 23.4% | 0 | 0 | No |
-| V2 World Cup only | world_cup_only | 384 | 1.0640 | 0.6135 | 51.6% | 23.5% / 23.4% | 9 | 1 | Yes |
-| V2 all international since anchor | all_international_since_anchor | 22,843 | 1.0148 | 0.6018 | 48.4% | 22.1% / 23.4% | 9 | 2 | No |
-| V3 World Cup only | world_cup_only | 384 | 1.0276 | 0.6039 | 56.2% | 24.1% / 23.4% | 9 | 2 | No |
-| V3 all international since anchor | all_international_since_anchor | 22,843 | 1.0225 | 0.6042 | 50.0% | 21.6% / 23.4% | 10 | 2 | No |
-| V4 all international since anchor | all_international_since_anchor | 22,843 | 1.0207 | 0.5999 | 51.6% | 23.1% / 23.4% | 9 | 2 | No |
+| model | scope | log_loss mean+/-std | brier mean+/-std | top1_acc mean+/-std | champion_hits/3 |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Elo-only baseline | all_international_since_anchor | 0.9932 +/- 0.0665 | 0.5879 +/- 0.0381 | 54.7% +/- 7.2% | 0/3 |
+| V2 World Cup only | world_cup_only | 0.9951 +/- 0.0320 | 0.5897 +/- 0.0169 | 54.2% +/- 3.9% | 0/3 |
+| V2 all international since anchor | all_international_since_anchor | 1.0270 +/- 0.0443 | 0.6051 +/- 0.0206 | 52.6% +/- 2.4% | 0/3 |
+| V3 World Cup only | world_cup_only | 0.9937 +/- 0.0381 | 0.5917 +/- 0.0230 | 54.2% +/- 0.9% | 0/3 |
+| V3 all international since anchor | all_international_since_anchor | 1.0120 +/- 0.0416 | 0.6025 +/- 0.0245 | 57.8% +/- 5.7% | 0/3 |
+| V4 World Cup only | world_cup_only | 0.9912 +/- 0.0189 | 0.5904 +/- 0.0117 | 53.6% +/- 2.3% | 0/3 |
+| V4 all international since anchor | all_international_since_anchor | 1.0121 +/- 0.0320 | 0.6032 +/- 0.0193 | 55.2% +/- 5.5% | 0/3 |
 
-V4 is the current dashboard primary because it has the richest match-generation logic and the best Brier score among the trained tournament models in this holdout. It should not be read as universally best on every metric: V2 all-international has the lowest log loss in this run, and V3 World-Cup-only has the highest top-1 accuracy.
+V4 World Cup only (world_cup_only) has the lowest mean log loss, while Elo-only baseline (all_international_since_anchor) has the lowest mean Brier score. V3 all international since anchor (all_international_since_anchor) has the highest mean top-1 accuracy. No model consistently dominates all headline match metrics across the folds.
+
+See [docs/model_card.md](docs/model_card.md) for per-fold metrics, calibration details, anomaly flags, and limitations.
 
 ## Project Tour
 

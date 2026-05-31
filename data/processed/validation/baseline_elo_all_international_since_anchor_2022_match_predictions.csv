@@ -1,0 +1,65 @@
+fold_year,model,scope,match_id,home_team_id,away_team_id,home_win_prob,draw_prob,away_win_prob,actual_outcome,stage
+2022,baseline_elo,all_international_since_anchor,1,Qatar,Ecuador,0.3056115172155605,0.27698535729348456,0.4174031254909548,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,2,Senegal,Netherlands,0.16162907224590975,0.23776009433854717,0.6006108334155431,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,3,England,Iran,0.547907754360297,0.25828406911294116,0.19380817652676177,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,4,United States,Wales,0.44657072189734487,0.27631096297134233,0.27711831513131274,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,5,Argentina,Saudi Arabia,0.8061721163948709,0.15131276521974266,0.04251511838538652,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,6,Mexico,Poland,0.4357145360623536,0.2774235729034148,0.2868618910342316,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,7,Denmark,Tunisia,0.6637486347330344,0.22138918016641743,0.1148621851005482,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,8,France,Australia,0.6766460314163152,0.21620420059241108,0.10714976799127375,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,9,Germany,Japan,0.5924912565673378,0.24612614573275596,0.1613825976999062,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,10,Spain,Costa Rica,0.6912342443433799,0.21007255169299674,0.09869320396362344,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,11,Morocco,Croatia,0.2981718008268381,0.2761078432342735,0.42572035593888846,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,12,Belgium,Canada,0.6376588733617691,0.2312093346683486,0.1311317919698824,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,13,Switzerland,Cameroon,0.6836548767198866,0.2132938351331498,0.10305128814696352,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,14,Brazil,Serbia,0.6673672820595459,0.2199566323920236,0.11267608554843048,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,15,Uruguay,South Korea,0.5717387250439209,0.2521020734538928,0.17615920150218625,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,16,Portugal,Ghana,0.773562132264011,0.16995225324296842,0.056485614493020635,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,17,Qatar,Senegal,0.41132088479813017,0.27931696676271456,0.3093621484391552,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,18,Netherlands,Ecuador,0.5965768777967432,0.2448846826380812,0.1585384395651757,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,19,Wales,Iran,0.466448604783957,0.27385269870470863,0.2596986965113343,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,20,England,United States,0.5817657726349313,0.24928349992879215,0.1689507274362765,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,21,Poland,Saudi Arabia,0.5470462209664295,0.2584939097372076,0.19445986929636275,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,22,Argentina,Mexico,0.6723869127485742,0.21794081028645004,0.10967227696497568,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,23,Tunisia,Australia,0.4583237310711066,0.2749227331219642,0.2667535358069293,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,24,France,Denmark,0.5032087519479777,0.267904794812323,0.22888645323969933,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,25,Japan,Costa Rica,0.5375258021583023,0.2607491676065854,0.20172503023511235,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,26,Spain,Germany,0.5725787921055929,0.2518708725175181,0.17555033537688897,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,27,Belgium,Morocco,0.6459996597478925,0.22816652288497286,0.12583381736713461,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,28,Croatia,Canada,0.5734180573968686,0.25163899009198176,0.17494295251114958,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,29,Cameroon,Serbia,0.2064240724511721,0.2557285259721508,0.5378474015766771,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,30,Brazil,Switzerland,0.6702423030693166,0.21880614024560693,0.11095155668507636,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,31,South Korea,Ghana,0.6429813871054512,0.2292780696648385,0.12774054322971035,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,32,Portugal,Uruguay,0.5173832602555695,0.26513481036913933,0.21748192937529126,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,33,Ecuador,Senegal,0.5784365967927901,0.25023359186610455,0.1713298113411054,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,34,Qatar,Netherlands,0.11519432916128435,0.21104430537981914,0.6737613654588964,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,35,Wales,England,0.26611533610497723,0.27109835650353953,0.46278630739148324,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,36,Iran,United States,0.44204749300795676,0.2767944658006586,0.28115804119138466,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,37,Poland,Argentina,0.22439679651504138,0.26127410113327953,0.5143291023516791,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,38,Saudi Arabia,Mexico,0.32495921620999363,0.2787951337434031,0.3962456500466033,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,39,Australia,Denmark,0.2739660525092475,0.27251633019352367,0.4535176172972288,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,40,Tunisia,France,0.16277261031215937,0.23830248554226724,0.5989249041455735,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,41,Japan,Spain,0.2208689441489734,0.2602525332012207,0.5188785226498059,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,42,Costa Rica,Germany,0.29325589969932997,0.2754708532176787,0.43127324708299125,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,43,Croatia,Belgium,0.43752389813564346,0.27724955083885927,0.28522655102549715,draw,Group Stage
+2022,baseline_elo,all_international_since_anchor,44,Canada,Morocco,0.3352282549728222,0.2794882182545707,0.38528352677260697,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,45,Serbia,Switzerland,0.40591581103056146,0.2796206524915945,0.3144635364778441,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,46,Cameroon,Brazil,0.06877174377823474,0.17140049580490882,0.7598277604168564,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,47,Ghana,Uruguay,0.2084504006077115,0.25639715812287767,0.535152441269411,away_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,48,South Korea,Portugal,0.20042050857727223,0.2536799098785214,0.5458995815442064,home_win,Group Stage
+2022,baseline_elo,all_international_since_anchor,49,Netherlands,United States,0.6206023375697896,0.23715102541588132,0.14224663701432907,home_win,Round of 16
+2022,baseline_elo,all_international_since_anchor,50,Argentina,Australia,0.7124996814455543,0.20061938517225783,0.08688093338218789,home_win,Round of 16
+2022,baseline_elo,all_international_since_anchor,51,France,Poland,0.5867341725087524,0.24783921744927684,0.16542661004197076,home_win,Round of 16
+2022,baseline_elo,all_international_since_anchor,52,England,Senegal,0.6110950553495744,0.240300022361652,0.1486049222887735,home_win,Round of 16
+2022,baseline_elo,all_international_since_anchor,53,Japan,Croatia,0.3490849263905574,0.28014060519858736,0.37077446841085526,draw,Round of 16
+2022,baseline_elo,all_international_since_anchor,54,Brazil,South Korea,0.7118528703861877,0.2009160268533712,0.08723110276044106,home_win,Round of 16
+2022,baseline_elo,all_international_since_anchor,55,Morocco,Spain,0.31817749314917454,0.2782369138017367,0.40358559304908875,draw,Round of 16
+2022,baseline_elo,all_international_since_anchor,56,Portugal,Switzerland,0.4987559862680596,0.2687206384169379,0.23252337531500245,home_win,Round of 16
+2022,baseline_elo,all_international_since_anchor,57,Croatia,Brazil,0.2560833920531915,0.2690964429059512,0.4748201650408572,draw,Quarter-final
+2022,baseline_elo,all_international_since_anchor,58,Netherlands,Argentina,0.38796998176514347,0.28031981904397885,0.33171019919087774,draw,Quarter-final
+2022,baseline_elo,all_international_since_anchor,59,Morocco,Portugal,0.2989945793809375,0.2762099822713998,0.4247954383476627,home_win,Quarter-final
+2022,baseline_elo,all_international_since_anchor,60,England,France,0.41853884746152453,0.2788453256350207,0.30261582690345484,away_win,Quarter-final
+2022,baseline_elo,all_international_since_anchor,61,Argentina,Croatia,0.5883834277509111,0.24735280391530715,0.16426376833378173,home_win,Semi-final
+2022,baseline_elo,all_international_since_anchor,62,France,Morocco,0.5496287773454717,0.25786202921955825,0.19250919343497014,home_win,Semi-final
+2022,baseline_elo,all_international_since_anchor,63,Croatia,Morocco,0.4673505340004005,0.27372839428467677,0.25892107171492285,home_win,Third Place
+2022,baseline_elo,all_international_since_anchor,64,Argentina,France,0.5067633921976052,0.2672348259214072,0.2260017818809875,draw,Final

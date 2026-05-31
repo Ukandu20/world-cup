@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "fold_year": 2014,
+    "model": "v4_all_international_since_anchor",
+    "scope": "all_international_since_anchor",
+    "n_matches": 64,
+    "log_loss": 1.0377,
+    "brier": 0.618,
+    "top1_acc_pct": 50.0,
+    "draw_pred_pct": 26.1,
+    "draw_actual_pct": 20.3,
+    "r16_hits": 8,
+    "sf_hits": 2,
+    "champion_hit": "No",
+    "n_training_matches": 2052,
+    "n_simulations": 20000
+  },
+  "actual": {
+    "r16_teams": [
+      "ARG",
+      "BEL",
+      "BRA",
+      "CHE",
+      "CHL",
+      "COL",
+      "CRI",
+      "DZA",
+      "FRA",
+      "GER",
+      "GRC",
+      "MEX",
+      "NED",
+      "NGA",
+      "URY",
+      "USA"
+    ],
+    "sf_teams": [
+      "ARG",
+      "BRA",
+      "GER",
+      "NED"
+    ],
+    "champion": "GER"
+  },
+  "simulated": {
+    "r16_teams": [
+      "ARG",
+      "BEL",
+      "BRA",
+      "CIV",
+      "COL",
+      "DEU",
+      "ECU",
+      "ENG",
+      "ESP",
+      "FRA",
+      "ITA",
+      "JPN",
+      "KOR",
+      "MEX",
+      "URY",
+      "USA"
+    ],
+    "sf_teams": [
+      "ARG",
+      "BRA",
+      "ESP",
+      "FRA"
+    ],
+    "champion": "BRA"
+  },
+  "metadata": {
+    "training_scope": "all_international_since_anchor",
+    "anchor_year": 1990,
+    "anchor_date": "1990-06-08",
+    "training_start_date": "1998-01-24",
+    "training_end_date": "2014-06-09",
+    "training_match_count": 2052,
+    "sample_weight_policy": "World Cup finals=3.0; continental finals=2.5; qualifiers=2.0; other competitive=1.5; friendlies=1.0",
+    "time_decay_halflife_days": 1095,
+    "alpha": 0.5,
+    "alpha_source": "time_series_cv",
+    "alpha_cv_scores": [
+      {
+        "alpha": 0.01,
+        "mean_poisson_deviance": 1.2173960523193341
+      },
+      {
+        "alpha": 0.05,
+        "mean_poisson_deviance": 1.2135017575586429
+      },
+      {
+        "alpha": 0.1,
+        "mean_poisson_deviance": 1.2110132656425219
+      },
+      {
+        "alpha": 0.5,
+        "mean_poisson_deviance": 1.208166412021654
+      },
+      {
+        "alpha": 1.0,
+        "mean_poisson_deviance": 1.2116153226800344
+      },
+      {
+        "alpha": 5.0,
+        "mean_poisson_deviance": 1.238994595399257
+      },
+      {
+        "alpha": 10.0,
+        "mean_poisson_deviance": 1.256666451569414
+      }
+    ],
+    "rho": -0.020000000000000018,
+    "rho_source": "time_series_oof_grid_search",
+    "stage_multipliers": {
+      "group": 1.0,
+      "round_of_32": 0.94,
+      "round_of_16": 0.960539714867617,
+      "quarter": 0.7983706720977596,
+      "semi": 0.7983706720977596,
+      "final": 0.7983706720977596
+    },
+    "wc_l5_goal_difference_impute": 2.663336582196231
+  }
+}

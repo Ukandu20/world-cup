@@ -1,0 +1,65 @@
+fold_year,model,scope,match_id,home_team_id,away_team_id,home_win_prob,draw_prob,away_win_prob,actual_outcome,stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,1,RUS,SAU,0.42516364203777457,0.2614524047772061,0.3133839531850194,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,2,EGY,URY,0.250069760789439,0.24575204794253985,0.5041781912680211,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,3,MAR,IRN,0.37249006672652674,0.27218280053364247,0.3553271327398308,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,4,PRT,ESP,0.21856578427540269,0.2459000123655846,0.5355342033590127,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,5,FRA,AUS,0.6210951485714953,0.21516256727375738,0.16374228415474743,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,6,ARG,ISL,0.6159522610903049,0.21492841786653255,0.16911932104316263,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,7,PER,DNK,0.35722194793325995,0.2716469048236095,0.37113114724313057,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,8,HRV,NGA,0.40508586761907683,0.2640061577333434,0.33090797464757965,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,9,CRI,SRB,0.3961858069509634,0.2675444085452522,0.3362697845037845,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,10,DEU,MEX,0.46491315148773527,0.2628582164593306,0.2722286320529341,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,11,BRA,CHE,0.6847754432560506,0.19180768042598365,0.12341687631796576,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,12,SWE,KOR,0.45783711503852403,0.26262546751715393,0.2795374174443221,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,13,BEL,PAN,0.6118884227735351,0.22660117493423135,0.16151040229223368,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,14,TUN,ENG,0.17655863756780085,0.2222424839626099,0.6011988784695893,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,15,COL,JPN,0.5698272111527612,0.23237069334646454,0.19780209550077432,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,16,POL,SEN,0.39024207603779376,0.27222670879686794,0.3375312151653384,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,17,RUS,EGY,0.4734404514422079,0.25833335399202295,0.26822619456576907,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,18,PRT,MAR,0.42276254599273266,0.26368722920460985,0.3135502248026575,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,19,URY,SAU,0.4720111617937501,0.2610801288216805,0.26690870938456945,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,20,IRN,ESP,0.1914649596876693,0.23165897780110298,0.5768760625112278,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,21,DNK,AUS,0.4170778256630267,0.26479253609712594,0.31812963823984736,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,22,FRA,PER,0.6091832871132321,0.21742799131452334,0.17338872157224455,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,23,ARG,HRV,0.5627434283515415,0.2334539311297249,0.20380264051873373,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,24,BRA,CRI,0.7223828294845821,0.17582886854050908,0.10178830197490885,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,25,NGA,ISL,0.40441544194932605,0.2669131126223087,0.3286714454283652,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,26,SRB,CHE,0.32255871186433954,0.26256414336380623,0.4148771447718542,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,27,BEL,TUN,0.5943120153389551,0.22905529155352713,0.17663269310751778,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,28,KOR,MEX,0.25420875153036415,0.25015482781004683,0.495636420659589,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,29,DEU,SWE,0.5239988536879795,0.25164922523819616,0.2243519210738243,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,30,ENG,PAN,0.6397819415260882,0.2152163572353339,0.14500170123857783,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,31,JPN,SEN,0.31513845883912095,0.2642311448692241,0.42063039629165494,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,32,POL,COL,0.2845347543631636,0.27046482411767553,0.4450004215191609,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,33,RUS,URY,0.3335736231291211,0.2598874950025728,0.4065388818683062,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,34,SAU,EGY,0.42698096493960935,0.2683110539896487,0.30470798107074193,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,35,ESP,MAR,0.61503092827893,0.21698196986928375,0.16798710185178617,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,36,IRN,PRT,0.3457332246310935,0.2644255450214403,0.38984123034746615,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,37,AUS,PER,0.3665550927574542,0.2648171361964554,0.3686277710460905,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,38,DNK,FRA,0.209722280461843,0.24260778982700623,0.5476699297111508,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,39,NGA,ARG,0.20776889115466365,0.24663738777262295,0.5455937210727134,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,40,ISL,HRV,0.33240922125755057,0.2689620448263915,0.39862873391605796,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,41,KOR,DEU,0.18613662048993437,0.2218375934446793,0.5920257860653864,home_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,42,MEX,SWE,0.43820271705492847,0.26482842469258466,0.296968858252487,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,43,SRB,BRA,0.10524412117053944,0.17253652952688942,0.7222193493025711,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,44,CHE,CRI,0.42251188942666396,0.26760464696676617,0.30988346360657004,draw,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,45,JPN,POL,0.3041958741333439,0.25783811122717776,0.43796601463947843,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,46,SEN,COL,0.2741881015616374,0.26308522375794186,0.4627266746804208,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,47,PAN,TUN,0.35856624373961843,0.2621586659625055,0.3792750902978761,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,48,ENG,BEL,0.4075494913530985,0.2654649560249366,0.326985552621965,away_win,Group Stage
+2018,v4_all_international_since_anchor,all_international_since_anchor,49,FRA,ARG,0.3812894589351346,0.28339086533869834,0.3353196757261671,home_win,Round of 16
+2018,v4_all_international_since_anchor,all_international_since_anchor,50,URY,PRT,0.3797055401588635,0.28564326181681443,0.3346511980243222,home_win,Round of 16
+2018,v4_all_international_since_anchor,all_international_since_anchor,51,RUS,ESP,0.18988902983763062,0.2455129709037395,0.56459799925863,draw,Round of 16
+2018,v4_all_international_since_anchor,all_international_since_anchor,52,HRV,DNK,0.382778668751094,0.2795629087994606,0.33765842244944555,draw,Round of 16
+2018,v4_all_international_since_anchor,all_international_since_anchor,53,BRA,MEX,0.6023293762983933,0.23383241910017624,0.16383820460143045,home_win,Round of 16
+2018,v4_all_international_since_anchor,all_international_since_anchor,54,BEL,JPN,0.5750959586407643,0.24805865084923068,0.17684539051000492,home_win,Round of 16
+2018,v4_all_international_since_anchor,all_international_since_anchor,55,SWE,CHE,0.38029543080375694,0.27722291820950923,0.3424816509867339,home_win,Round of 16
+2018,v4_all_international_since_anchor,all_international_since_anchor,56,COL,ENG,0.3211634843642323,0.26849937713906274,0.4103371384967049,draw,Round of 16
+2018,v4_all_international_since_anchor,all_international_since_anchor,57,URY,FRA,0.23047123596917596,0.3233403439233815,0.44618842010744264,away_win,Quarter-final
+2018,v4_all_international_since_anchor,all_international_since_anchor,58,BRA,BEL,0.5291886157815262,0.2905040562080093,0.1803073280104645,away_win,Quarter-final
+2018,v4_all_international_since_anchor,all_international_since_anchor,59,SWE,ENG,0.26267805672608485,0.3165679892169469,0.42075395405696836,away_win,Quarter-final
+2018,v4_all_international_since_anchor,all_international_since_anchor,60,RUS,HRV,0.33108290522238126,0.32726035449665913,0.3416567402809596,draw,Quarter-final
+2018,v4_all_international_since_anchor,all_international_since_anchor,61,FRA,BEL,0.4426953582152978,0.26706861141322064,0.2902360303714815,home_win,Semi-final
+2018,v4_all_international_since_anchor,all_international_since_anchor,62,HRV,ENG,0.24721623775238483,0.2603199094771362,0.492463852770479,home_win,Semi-final
+2018,v4_all_international_since_anchor,all_international_since_anchor,63,BEL,ENG,0.3531283121973071,0.2685565626188378,0.3783151251838551,home_win,Third Place
+2018,v4_all_international_since_anchor,all_international_since_anchor,64,FRA,HRV,0.5030126202898187,0.3021965977085074,0.194790782001674,home_win,Final

@@ -1,0 +1,65 @@
+fold_year,model,scope,match_id,home_team_id,away_team_id,home_win_prob,draw_prob,away_win_prob,actual_outcome,stage
+2018,baseline_elo,all_international_since_anchor,1,Russia,Saudi Arabia,0.5240430035135183,0.2675976111821656,0.2083593853043161,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,2,Egypt,Uruguay,0.2199705207847466,0.26796914908740327,0.5120603301278501,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,3,Morocco,Iran,0.38541845375672396,0.28630417544859327,0.3282773707946828,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,4,Portugal,Spain,0.36955783423556726,0.2866833518364957,0.34375881392793706,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,5,France,Australia,0.657030271884495,0.22597585811003112,0.11699387000547384,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,6,Argentina,Iceland,0.6396523504478506,0.23269244244236736,0.12765520710978195,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,7,Peru,Denmark,0.4989149733510099,0.27292303179351324,0.22816199485547686,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,8,Croatia,Nigeria,0.5989973412461811,0.2469011598687255,0.1541014988850935,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,9,Costa Rica,Serbia,0.3985773984496012,0.2856965528142242,0.3157260487361746,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,10,Germany,Mexico,0.6444478024801997,0.23087767952195984,0.12467451799784034,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,11,Brazil,Switzerland,0.6647398315929692,0.22287169020739236,0.1123884781996384,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,12,Sweden,South Korea,0.5166371057494611,0.26925245286322586,0.21411044138731317,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,13,Belgium,Panama,0.6842152812328086,0.21468661855698912,0.10109810021020237,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,14,Tunisia,England,0.18981321571348356,0.2580255080907687,0.5521612761957476,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,15,Colombia,Japan,0.657030271884495,0.22597585811003112,0.11699387000547384,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,16,Poland,Senegal,0.5212700522310196,0.26822553367882185,0.21050441409015855,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,17,Russia,Egypt,0.514780091679417,0.26965626117990144,0.21556364714068163,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,18,Portugal,Morocco,0.6753297499099045,0.21848229084968834,0.10618795924040711,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,19,Uruguay,Saudi Arabia,0.7298598744231926,0.19353826960473852,0.07660185597206896,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,20,Iran,Spain,0.2434284040861218,0.2740083755161389,0.4825632203977393,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,21,Denmark,Australia,0.5869246851410344,0.2507168115083765,0.16235850335058916,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,22,France,Peru,0.5514549338018183,0.26085847422105773,0.18768659197712398,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,23,Argentina,Croatia,0.5268106455295231,0.2669609931346218,0.2062283613358552,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,24,Brazil,Costa Rica,0.7671753289437969,0.17413011378188162,0.05869455727432141,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,25,Nigeria,Iceland,0.3257695202049341,0.2856163860583959,0.38861409373667005,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,26,Serbia,Switzerland,0.35294286948208464,0.2866531388602142,0.3604039916577012,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,27,Belgium,Tunisia,0.7077242053501657,0.204142691038171,0.0881331036116634,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,28,South Korea,Mexico,0.25606633936103046,0.2767117124270852,0.4672219482118842,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,29,Germany,Sweden,0.6331943196778975,0.23508994633785044,0.13171573398425213,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,30,England,Panama,0.711166607230309,0.20253701814848946,0.08629637462120142,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,31,Japan,Senegal,0.3938691278756878,0.2859440103598135,0.3201868617644988,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,32,Poland,Colombia,0.3603020307436441,0.28672148070010683,0.352976488556249,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,33,Russia,Uruguay,0.27732279988064246,0.28045915904573265,0.44221804107362483,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,34,Saudi Arabia,Egypt,0.39104859982112533,0.2860762708149895,0.3228751293638852,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,35,Spain,Morocco,0.7362959910324262,0.19032960263104187,0.07337440633653192,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,36,Iran,Portugal,0.2756574557740353,0.2802002296007918,0.44414231462517295,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,37,Australia,Peru,0.33294438454504716,0.28601288411241577,0.3810427313425371,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,38,Denmark,France,0.30984026959668,0.28440862488534874,0.4057511055179713,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,39,Nigeria,Argentina,0.27316864048819717,0.2798025208088119,0.44702883870299087,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,40,Iceland,Croatia,0.2434284040861218,0.2740083755161389,0.4825632203977393,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,41,South Korea,Germany,0.1463703204121879,0.23845739180175263,0.6151722877860595,home_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,42,Mexico,Sweden,0.5423861039829825,0.2631945778848161,0.19441931813220142,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,43,Serbia,Brazil,0.16254789063794703,0.24656612737319203,0.5908859819888609,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,44,Switzerland,Costa Rica,0.6396523504478506,0.23269244244236736,0.12765520710978195,draw,Group Stage
+2018,baseline_elo,all_international_since_anchor,45,Japan,Poland,0.4250731986570846,0.28369414013425537,0.29123266120866,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,46,Senegal,Colombia,0.3107170028912894,0.28448709707975733,0.4047959000289532,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,47,Panama,Tunisia,0.43646900530298893,0.28252175686720365,0.28100923782980736,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,48,England,Belgium,0.4450203471797538,0.28152193765788985,0.27345771516235634,away_win,Group Stage
+2018,baseline_elo,all_international_since_anchor,49,France,Argentina,0.5249661486539621,0.267386365944095,0.2076474854019429,home_win,Round of 16
+2018,baseline_elo,all_international_since_anchor,50,Uruguay,Portugal,0.42317535564001785,0.28387144090498745,0.2929532034549947,home_win,Round of 16
+2018,baseline_elo,all_international_since_anchor,51,Russia,Spain,0.16314864847958552,0.24684720285522221,0.5900041486651922,draw,Round of 16
+2018,baseline_elo,all_international_since_anchor,52,Croatia,Denmark,0.50546423606804,0.2716143175765094,0.2229214463554506,draw,Round of 16
+2018,baseline_elo,all_international_since_anchor,53,Brazil,Mexico,0.6986263332226125,0.20831005627269042,0.09306361050469718,home_win,Round of 16
+2018,baseline_elo,all_international_since_anchor,54,Belgium,Japan,0.6936394040468501,0.21054768164381707,0.0958129143093327,home_win,Round of 16
+2018,baseline_elo,all_international_since_anchor,55,Sweden,Switzerland,0.4014064684780881,0.28553191664655003,0.31306161487536177,home_win,Round of 16
+2018,baseline_elo,all_international_since_anchor,56,Colombia,England,0.43551895842247484,0.28262651303242686,0.2818545285450983,draw,Round of 16
+2018,baseline_elo,all_international_since_anchor,57,Uruguay,France,0.3985773984496012,0.2856965528142242,0.3157260487361746,away_win,Quarter-final
+2018,baseline_elo,all_international_since_anchor,58,Brazil,Belgium,0.5773089213728184,0.2536238880440446,0.16906719058313704,away_win,Quarter-final
+2018,baseline_elo,all_international_since_anchor,59,Sweden,England,0.4051829377488204,0.28529361927511576,0.3095234429760639,away_win,Quarter-final
+2018,baseline_elo,all_international_since_anchor,60,Russia,Croatia,0.22738513200997468,0.2700280732931292,0.5025867946968962,draw,Quarter-final
+2018,baseline_elo,all_international_since_anchor,61,France,Belgium,0.457367191498013,0.2798993461065589,0.262733462395428,home_win,Semi-final
+2018,baseline_elo,all_international_since_anchor,62,Croatia,England,0.3995200943478633,0.2856430183820873,0.3148368872700494,home_win,Semi-final
+2018,baseline_elo,all_international_since_anchor,63,Belgium,England,0.5101283962631216,0.27064810790736976,0.21922349582950876,home_win,Third Place
+2018,baseline_elo,all_international_since_anchor,64,France,Croatia,0.5568602530365031,0.2594161842841828,0.18372356267931408,home_win,Final
