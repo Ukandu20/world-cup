@@ -503,6 +503,7 @@ def chart_caption_from_title(title: object) -> str | None:
         "Match Scoreline Distribution by Round": "The above chart groups match scorelines by total goals at each tournament stage; each point is an individual match with exact scoreline details in hover.",
         "Host Nation Finishes": "The above chart shows how host countries finished, with point size reflecting goals scored and color identifying confederation.",
         "Champion Follow-up Performance": "The above chart tracks how each champion performed at the next World Cup, including title defenses and failed qualifications.",
+        "Champion Wins by Country": "The above chart ranks World Cup champion countries by title count in the selected edition range.",
         "Pre-Tournament Feature Correlation with World Cup Finish Score": "The above chart ranks leakage-safe pre-tournament indicators by Spearman correlation with normalized finish score.",
         "In-Tournament Stat Correlation with World Cup Finish Score": "The above chart shows how tournament performance stats relate to final finish; these explain outcomes rather than predict them beforehand.",
         "Spearman Correlation Heatmap: Outcome and Predictors": "The above chart displays pairwise Spearman correlations among finish score and pre-tournament predictors.",
@@ -1745,11 +1746,42 @@ def render_winner_followup_tab(
     expansion = filter_edition_range(expansion, edition_range)
     render_metric_row(
         {
-            "Champions Tracked": len(winners),
+            "Unique Champions": int(winners["country"].nunique()),
             "Repeated as Champion": int(winners["next_placement"].eq("Winner").sum()),
             "Did Not Participate Next": int(winners["next_placement"].eq("DNP").sum()),
         }
     )
+    champion_counts = (
+        winners.groupby("country", as_index=False)
+        .agg(wins=("edition", "count"))
+        .sort_values(["wins", "country"], ascending=[False, True], kind="stable")
+        .reset_index(drop=True)
+    )
+    champion_fig = px.bar(
+        champion_counts,
+        x="wins",
+        y="country",
+        orientation="h",
+        text=champion_counts["wins"].map(str),
+        color_discrete_sequence=[CHART_POSITIVE_COLOR],
+        hover_data={"wins": True, "country": False},
+        labels={"wins": "World Cup wins", "country": "Champion"},
+        title=world_cup_chart_title("Champion Wins by Country"),
+    )
+    champion_fig.update_traces(textposition="outside", cliponaxis=False)
+    apply_original_chart_style(
+        champion_fig,
+        "Champion Wins by Country",
+        height=max(460, 38 * len(champion_counts) + 180),
+    )
+    champion_fig.update_xaxes(title=chart_axis_title("World Cup Wins"), dtick=1)
+    champion_fig.update_yaxes(
+        categoryorder="array",
+        categoryarray=list(reversed(champion_counts["country"].tolist())),
+        title=chart_axis_title("Champion"),
+    )
+    render_plotly_chart(champion_fig, key="historical_eda_champion_wins")
+
     fig = px.scatter(
         winners,
         x="edition",
