@@ -227,7 +227,7 @@ def ensure_dashboard_probability_columns(df: pd.DataFrame) -> pd.DataFrame:
     for column_name in ("prob_1", "prob_2", "prob_3", "prob_4"):
         if column_name not in normalized.columns:
             normalized[column_name] = 0.0
-    for column_name in ("top8_third_prob", "r16_prob", "qf_prob", "sf_prob", "final_prob", "champion_prob"):
+    for column_name in ("top8_third_prob", "r32_prob", "r16_prob", "qf_prob", "sf_prob", "final_prob", "champion_prob"):
         if column_name not in normalized.columns:
             normalized[column_name] = 0.0
     if "ko_prob" not in normalized.columns:
@@ -235,6 +235,11 @@ def ensure_dashboard_probability_columns(df: pd.DataFrame) -> pd.DataFrame:
             normalized["prob_1"].fillna(0.0)
             + normalized["prob_2"].fillna(0.0)
             + normalized["top8_third_prob"].fillna(0.0)
+        )
+    if "r32_prob" in normalized.columns:
+        normalized["r32_prob"] = normalized["r32_prob"].where(
+            normalized["r32_prob"].notna() & normalized["r32_prob"].ne(0.0),
+            normalized["ko_prob"],
         )
     return normalized
 

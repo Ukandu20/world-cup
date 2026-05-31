@@ -128,12 +128,54 @@ def build_v2_training_frame(
     training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
     reference_edition_year: int = 2026,
     end_date: str | pd.Timestamp | None = None,
+    data: dict[str, pd.DataFrame] | None = None,
 ) -> pd.DataFrame:
     """Build the historical match-level training frame for the v2 multinomial model."""
     scope = normalize_training_scope(training_scope)
+    cutoff = pd.Timestamp(end_date) if end_date is not None else None
+
+    if data is not None:
+        if scope == TRAINING_SCOPE_ALL_INTERNATIONAL:
+            match_source = lead_in_to_match_level_results(data["lead_in"])
+        else:
+            match_source = world_cup_results_to_match_level_results(data["results"])
+            excluded = set(normalize_excluded_editions(exclude_editions))
+            if excluded and "edition" in match_source.columns:
+                match_source = match_source[~pd.to_numeric(match_source["edition"], errors="coerce").isin(excluded)].copy()
+        training_df = build_snapshot_training_frame(
+            match_source,
+            data,
+            reference_edition_year=reference_edition_year,
+            match_window=match_window,
+            training_scope=scope,
+            model_version="v2",
+            edition_lookback=edition_lookback,
+            end_date=end_date,
+            quadratic_weights=False,
+        )
+        training_df["stage"] = training_df.get("stage", "").replace("", "International Match")
+        training_df["stage_bucket"] = training_df["stage"].map(match_stage_bucket)
+        keep_columns = [
+            "date",
+            "edition",
+            "stage",
+            "stage_bucket",
+            "home_team",
+            "away_team",
+            "tournament",
+            "home_score",
+            "away_score",
+            "outcome_label",
+            *V2_FEATURE_COLUMNS,
+            "sample_weight",
+            "training_scope",
+            "anchor_year",
+            "anchor_date",
+        ]
+        return training_df.loc[:, keep_columns].copy()
+
     anchor_year = resolve_training_anchor_year(reference_edition_year, lookback_editions=edition_lookback)
     anchor_date = resolve_training_anchor_date(reference_edition_year, lookback_editions=edition_lookback)
-    cutoff = pd.Timestamp(end_date) if end_date is not None else None
 
     if scope == TRAINING_SCOPE_ALL_INTERNATIONAL:
         from .v3 import build_v3_training_frame
@@ -181,13 +223,13 @@ def build_v2_training_frame(
         raise ValueError("Historical World Cup training frame is empty after anchor filtering")
 
     country_results_lookup = load_historical_country_results_lookup()
-    placement_df, edition_team_counts, edition_weight_map = load_historical_placement_history()
+    team_history_df, edition_team_counts, edition_weight_map = load_historical_team_history()
     rows: list[dict[str, object]] = []
     for edition_year, edition_matches in historical_results.groupby("edition", sort=True):
         team_features = build_pre_tournament_team_features_by_edition(
             edition_matches,
             country_results_lookup,
-            placement_df,
+            team_history_df,
             edition_team_counts,
             edition_weight_map,
             match_window=match_window,
@@ -257,7 +299,6 @@ def build_v2_scoreline_distributions(training_df: pd.DataFrame) -> dict[tuple[st
     return distributions
 
 
-@lru_cache(maxsize=16)
 def fit_v2_match_multinomial_model(
     match_window: int = RECENT_MATCH_WINDOW,
     exclude_editions: tuple[int, ...] = (),
@@ -265,6 +306,7 @@ def fit_v2_match_multinomial_model(
     training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
     reference_edition_year: int = 2026,
     end_date: str | None = None,
+    data: dict[str, pd.DataFrame] | None = None,
 ) -> dict[str, object]:
     """Fit the sklearn multinomial model plus empirical scoreline samplers for v2."""
     normalized_exclusions = normalize_excluded_editions(exclude_editions)
@@ -276,6 +318,7 @@ def fit_v2_match_multinomial_model(
         training_scope=scope,
         reference_edition_year=reference_edition_year,
         end_date=end_date,
+        data=data,
     )
     try:
         from sklearn.linear_model import LogisticRegression
@@ -292,12 +335,12 @@ def fit_v2_match_multinomial_model(
         solver="lbfgs",
         C=1.0,
         max_iter=5000,
-        random_state=20260403,
+        random_state=DEFAULT_MODEL_RANDOM_STATE,
     )
     model.fit(X_scaled, y, sample_weight=sample_weight)
     anchor_year = int(training_df["anchor_year"].iloc[0])
     anchor_date = pd.Timestamp(training_df["anchor_date"].iloc[0])
-    return {
+    result = {
         "training_frame": training_df,
         "feature_columns": V2_FEATURE_COLUMNS,
         "scaler": scaler,
@@ -308,6 +351,14 @@ def fit_v2_match_multinomial_model(
         "scoreline_distributions": build_v2_scoreline_distributions(training_df),
         **training_metadata_from_frame(training_df, scope, anchor_year, anchor_date),
     }
+    for attr_name in (
+        "training_rows_before_snapshot_filter",
+        "training_rows_after_snapshot_filter",
+        "training_rows_dropped_snapshot_missing",
+    ):
+        if attr_name in training_df.attrs:
+            result[attr_name] = int(training_df.attrs[attr_name])
+    return result
 
 
 def build_v2_match_feature_table(
@@ -628,6 +679,8 @@ def simulate_group_probabilities_v2_32team(
     exclude_editions: Iterable[int] = (),
     training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
     training_end_date: str | pd.Timestamp | None = None,
+    reference_edition_year: int = 2022,
+    model_bundle: dict[str, object] | None = None,
 ) -> pd.DataFrame:
     """Simulate a 32-team tournament using the V2 multinomial model."""
     if simulations <= 0:
@@ -636,18 +689,19 @@ def simulate_group_probabilities_v2_32team(
     group_order = list(group_order)
     normalized_exclusions = normalize_excluded_editions(exclude_editions)
     scope = normalize_training_scope(training_scope)
-    model_bundle = fit_v2_match_multinomial_model(
-        match_window=match_window,
-        exclude_editions=normalized_exclusions,
-        training_scope=scope,
-        reference_edition_year=2022,
-        end_date=None if training_end_date is None else str(pd.Timestamp(training_end_date).date()),
-    )
+    if model_bundle is None:
+        model_bundle = fit_v2_match_multinomial_model(
+            match_window=match_window,
+            exclude_editions=normalized_exclusions,
+            training_scope=scope,
+            reference_edition_year=reference_edition_year,
+            end_date=None if training_end_date is None else str(pd.Timestamp(training_end_date).date()),
+        )
     feature_df = build_v2_match_feature_table(
         base_df,
         lead_in_df,
         match_window=match_window,
-        reference_edition_year=2022,
+        reference_edition_year=reference_edition_year,
     )
     group_fixtures = extract_group_stage_fixtures(fixtures_df, group_order=group_order)
     knockout_fixtures = (
@@ -931,19 +985,22 @@ def build_deterministic_bracket_v2_32team(
     }
 
 
-def run_v2_backtest_2022(
+def run_v2_historical_backtest(
+    holdout_year: int = 2022,
     match_window: int = RECENT_MATCH_WINDOW,
     simulations: int = 20000,
     seed: int = 20260403,
     training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
+    data: dict[str, pd.DataFrame] | None = None,
 ) -> dict[str, object]:
-    """Run a leakage-free V2 backtest against the actual 2022 World Cup."""
-    dataset = build_2022_backtest_data()
+    """Run a leakage-free V2 backtest against one historical World Cup."""
+    holdout_year = int(holdout_year)
+    dataset = build_historical_world_cup_backtest_data(holdout_year, data=data)
     base_df = dataset["base_df"]
     lead_in_df = dataset["lead_in_df"]
     fixtures_df = dataset["fixtures_df"]
     results_df = dataset["results_df"]
-    placement_df = dataset["placement_df"]
+    actual_teams_df = dataset["teams_df"]
     group_code_lookup = dataset["group_code_lookup"]
     edition_start = pd.to_datetime(pd.DataFrame(results_df)["date"], errors="coerce").min()
     training_end_date = None if pd.isna(edition_start) else str((pd.Timestamp(edition_start) - pd.Timedelta(days=1)).date())
@@ -951,16 +1008,17 @@ def run_v2_backtest_2022(
 
     model_bundle = fit_v2_match_multinomial_model(
         match_window=match_window,
-        exclude_editions=(2022,),
+        exclude_editions=(holdout_year,),
         training_scope=scope,
-        reference_edition_year=2022,
+        reference_edition_year=holdout_year,
         end_date=training_end_date,
+        data=data,
     )
     feature_df = build_v2_match_feature_table(
         base_df,
         lead_in_df,
         match_window=match_window,
-        reference_edition_year=2022,
+        reference_edition_year=holdout_year,
     )
     simulation_df = simulate_group_probabilities_v2_32team(
         base_df=base_df,
@@ -969,9 +1027,11 @@ def run_v2_backtest_2022(
         simulations=simulations,
         seed=seed,
         match_window=match_window,
-        exclude_editions=(2022,),
+        exclude_editions=(holdout_year,),
         training_scope=scope,
         training_end_date=training_end_date,
+        reference_edition_year=holdout_year,
+        model_bundle=model_bundle,
     )
     deterministic_bracket = build_deterministic_bracket_v2_32team(
         simulation_df,
@@ -1038,7 +1098,7 @@ def run_v2_backtest_2022(
     multiclass_brier_score = float(np.mean(np.sum((y_pred - y_true) ** 2, axis=1)))
     top1_match_accuracy = float(match_predictions["top1_correct"].mean() * 100.0)
 
-    actual_group_standings = build_2022_actual_group_standings(results_df, group_code_lookup, feature_df)
+    actual_group_standings = build_actual_group_standings(results_df, group_code_lookup, feature_df)
     actual_group_rank_lookup = actual_group_standings.set_index("team_id")["actual_group_rank"].astype(int).to_dict()
     modal_group_rankings = get_modal_group_rankings(simulation_df)
     modal_group_rank_lookup = {
@@ -1047,15 +1107,15 @@ def run_v2_backtest_2022(
         for rank, team_id in enumerate(ranked_team_ids, start=1)
     }
 
-    placement_df = placement_df.copy()
-    placement_df["team_id"] = placement_df["country"].map(name_to_team_id)
-    placement_df["actual_stage"] = placement_df["position"].map(stage_label_from_position)
-    actual_stage_lookup = placement_df.set_index("team_id")["actual_stage"].astype(str).to_dict()
-    actual_position_lookup = placement_df.set_index("team_id")["position"].astype(int).to_dict()
-    actual_r16_team_ids = set(placement_df.loc[placement_df["position"] <= 16, "team_id"].dropna().astype(str))
-    actual_semifinalist_team_ids = set(placement_df.loc[placement_df["position"] <= 4, "team_id"].dropna().astype(str))
-    actual_finalist_team_ids = set(placement_df.loc[placement_df["position"] <= 2, "team_id"].dropna().astype(str))
-    actual_champion_team_id = str(placement_df.loc[placement_df["position"] == 1, "team_id"].iloc[0])
+    actual_teams_df = actual_teams_df.copy()
+    actual_teams_df["team_id"] = actual_teams_df["country"].map(name_to_team_id).fillna(actual_teams_df["team_id"])
+    actual_teams_df["actual_stage"] = actual_teams_df["position"].map(stage_label_from_position)
+    actual_stage_lookup = actual_teams_df.set_index("team_id")["actual_stage"].astype(str).to_dict()
+    actual_position_lookup = actual_teams_df.set_index("team_id")["position"].astype(int).to_dict()
+    actual_r16_team_ids = set(actual_teams_df.loc[actual_teams_df["position"] <= 16, "team_id"].dropna().astype(str))
+    actual_semifinalist_team_ids = set(actual_teams_df.loc[actual_teams_df["position"] <= 4, "team_id"].dropna().astype(str))
+    actual_finalist_team_ids = set(actual_teams_df.loc[actual_teams_df["position"] <= 2, "team_id"].dropna().astype(str))
+    actual_champion_team_id = str(actual_teams_df.loc[actual_teams_df["position"] == 1, "team_id"].iloc[0])
 
     team_backtest_table = simulation_df.copy()
     team_backtest_table["actual_group_rank"] = team_backtest_table["team_id"].map(actual_group_rank_lookup)
@@ -1166,6 +1226,22 @@ def run_v2_backtest_2022(
             ]
         },
     }
+
+
+def run_v2_backtest_2022(
+    match_window: int = RECENT_MATCH_WINDOW,
+    simulations: int = 20000,
+    seed: int = 20260403,
+    training_scope: str = DEFAULT_V2_TRAINING_SCOPE,
+) -> dict[str, object]:
+    """Run a leakage-free V2 backtest against the actual 2022 World Cup."""
+    return run_v2_historical_backtest(
+        holdout_year=2022,
+        match_window=match_window,
+        simulations=simulations,
+        seed=seed,
+        training_scope=training_scope,
+    )
 
 
 def simulate_group_probabilities_v2(
@@ -1462,6 +1538,7 @@ __all__ = [
     'build_deterministic_bracket_v2',
     'simulate_group_probabilities_v2_32team',
     'build_deterministic_bracket_v2_32team',
+    'run_v2_historical_backtest',
     'run_v2_backtest_2022',
     'simulate_group_probabilities_v2',
 ]

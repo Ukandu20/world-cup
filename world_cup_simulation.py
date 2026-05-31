@@ -28,6 +28,7 @@ from world_cup_sim import (
     WORLD_CUP_ROOT,
     WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT,
     build_2022_backtest_data,
+    build_historical_world_cup_backtest_data,
     build_deterministic_bracket,
     build_deterministic_bracket_v2,
     build_deterministic_bracket_v2_32team,
@@ -48,6 +49,7 @@ from world_cup_sim import (
     classify_competition_importance,
     compute_elo_expected_score,
     compute_quadratic_form_snapshot,
+    derive_knockout_slot_lookup,
     dixon_coles_tau,
     extract_group_stage_fixtures,
     fit_v2_match_multinomial_model,
@@ -67,6 +69,7 @@ from world_cup_sim import (
     quadratic_recency_weights,
     rank_best_third_place_teams,
     rank_group_standings,
+    round_code_from_stage,
     resolve_training_anchor_date,
     resolve_training_anchor_year,
     run_v2_backtest_2022,
@@ -80,6 +83,8 @@ from world_cup_sim import (
     simulate_group_probabilities_v4,
     simulate_group_probabilities_v4_32team,
     strength_weighted_penalty_probability,
+    tournament_holdout_label,
+    validation_artifact_filenames,
 )
 
 __all__ = [
@@ -110,6 +115,7 @@ __all__ = [
     'WORLD_CUP_ROOT',
     'WORLD_CUP_HISTORY_TOTAL_EDITION_WEIGHT',
     'build_2022_backtest_data',
+    'build_historical_world_cup_backtest_data',
     'build_deterministic_bracket',
     'build_deterministic_bracket_v2',
     'build_deterministic_bracket_v2_32team',
@@ -130,6 +136,7 @@ __all__ = [
     'classify_competition_importance',
     'compute_elo_expected_score',
     'compute_quadratic_form_snapshot',
+    'derive_knockout_slot_lookup',
     'dixon_coles_tau',
     'extract_group_stage_fixtures',
     'fit_v2_match_multinomial_model',
@@ -149,6 +156,7 @@ __all__ = [
     'quadratic_recency_weights',
     'rank_best_third_place_teams',
     'rank_group_standings',
+    'round_code_from_stage',
     'resolve_training_anchor_date',
     'resolve_training_anchor_year',
     'run_v2_backtest_2022',
@@ -162,4 +170,6 @@ __all__ = [
     'simulate_group_probabilities_v4',
     'simulate_group_probabilities_v4_32team',
     'strength_weighted_penalty_probability',
+    'tournament_holdout_label',
+    'validation_artifact_filenames',
 ]

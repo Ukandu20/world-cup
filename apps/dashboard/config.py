@@ -111,6 +111,7 @@ PROBABILITY_PALETTES = {
     "prob_4": ((254, 226, 226), (220, 38, 38)),
     "top8_third_prob": ((250, 245, 200), (202, 138, 4)),
     "ko_prob": ((224, 242, 254), (8, 145, 178)),
+    "r32_prob": ((224, 242, 254), (14, 116, 144)),
     "r16_prob": ((224, 231, 255), (79, 70, 229)),
     "qf_prob": ((233, 213, 255), (147, 51, 234)),
     "sf_prob": ((255, 228, 230), (225, 29, 72)),
@@ -125,6 +126,7 @@ FORM_AMBER_GRADIENT = ("#FAEEDA", "#FAC775", "#EF9F27", "#BA7517", "#854F0B")
 FORM_GREEN_GRADIENT = ("#EAF3DE", "#C0DD97", "#97C459", "#639922", "#3B6D11")
 ALL_COUNTRIES_KNOCKOUT_COLUMNS = (
     ("ko_prob", "KO %"),
+    ("r32_prob", "R32 %"),
     ("r16_prob", "R16 %"),
     ("qf_prob", "QF %"),
     ("sf_prob", "SF %"),
