@@ -13,6 +13,7 @@ if str(ROOT) not in sys.path:
 
 from apps.dashboard import pages
 from apps.dashboard import data as dashboard_data
+from apps.dashboard.config import TRAINING_SCOPE_ALL_INTERNATIONAL, TRAINING_SCOPE_WORLD_CUP_ONLY
 from apps.dashboard.model_registry import MODEL_REGISTRY, PRIMARY_MODEL_ID
 from apps.dashboard.simulation_store import (
     ArtifactSettings,
@@ -62,10 +63,56 @@ def test_artifact_key_is_stable_and_sensitive() -> None:
 def test_model_registry_marks_v4_primary_and_legacy_models_secondary() -> None:
     assert PRIMARY_MODEL_ID == "v4"
     assert MODEL_REGISTRY["v4"].is_primary is True
+    assert MODEL_REGISTRY["v4"].default_training_scope == TRAINING_SCOPE_WORLD_CUP_ONLY
     assert MODEL_REGISTRY["v4"].artifact_builder_name == "build_v4_probability_artifact"
     assert MODEL_REGISTRY["v1"].supports_official_artifact is False
     assert MODEL_REGISTRY["v2"].artifact_builder_name == "build_v2_probability_artifact"
+    assert MODEL_REGISTRY["v3"].default_training_scope == TRAINING_SCOPE_WORLD_CUP_ONLY
     assert MODEL_REGISTRY["v3"].is_primary is False
+
+
+def test_home_dashboard_uses_world_cup_only_primary_projection_copy() -> None:
+    source = inspect.getsource(pages.render_home_page)
+
+    assert "training_scope = PRIMARY_MODEL.default_training_scope" in source
+    assert "V4 Primary | {artifact_scope_display}" in source
+    assert "historical World Cup finals only" in source
+    assert "artifact_scope_display" in source
+    assert "Training scope:" in source
+    assert "V4 multi-fold validation" in source
+
+
+def test_probability_pages_migrate_stale_all_international_state() -> None:
+    source = inspect.getsource(pages.render_v4_probabilities_dashboard)
+    helper_source = inspect.getsource(pages.migrate_default_training_scope)
+
+    assert "migrate_default_training_scope" in source
+    assert "st.session_state.pop(widget_key, None)" in helper_source
+    assert "TRAINING_SCOPE_ALL_INTERNATIONAL" in helper_source
+    assert TRAINING_SCOPE_ALL_INTERNATIONAL == "all_international_since_anchor"
+    assert TRAINING_SCOPE_WORLD_CUP_ONLY == MODEL_REGISTRY["v4"].default_training_scope
+
+
+def test_official_v4_world_cup_only_artifact_metadata_is_committed() -> None:
+    metadata_path = (
+        ROOT
+        / "data"
+        / "processed"
+        / "dashboard_simulations"
+        / "official"
+        / "v4"
+        / "f48403bd87c0f74265ee0e46"
+        / "metadata.json"
+    )
+
+    metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+
+    assert metadata["model_id"] == "v4"
+    assert metadata["model_version"] == "v4"
+    assert metadata["simulations"] == 20_000
+    assert metadata["match_window"] == 10
+    assert metadata["training_scope"] == TRAINING_SCOPE_WORLD_CUP_ONLY
+    assert metadata["seed"] == 20260403
 
 
 def test_save_and_load_artifact_round_trip(tmp_path, monkeypatch) -> None:

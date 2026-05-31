@@ -71,8 +71,8 @@ The current defaults are:
 
 ```text
 V2 default training scope = world_cup_only
-V3 default training scope = all_international_since_anchor
-V4 default training scope = all_international_since_anchor
+V3 default training scope = world_cup_only
+V4 default training scope = world_cup_only
 ```
 
 The trained models use this sample-weight policy:

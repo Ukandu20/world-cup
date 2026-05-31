@@ -20,6 +20,7 @@ from .config import (
     MODEL_VERSION,
     SIMULATION_COUNT,
     SIMULATION_OPTIONS,
+    TRAINING_SCOPE_ALL_INTERNATIONAL,
     TRAINING_SCOPE_LABEL_BY_VALUE,
     TRAINING_SCOPE_LABELS,
     V1_STATE_KEY,
@@ -290,6 +291,27 @@ def load_or_run_probability_artifact(
         warnings=loaded.warnings + created.warnings,
         created=True,
     )
+
+
+def migrate_default_training_scope(
+    state_key: str,
+    *,
+    default_scope: str,
+    widget_key: str | None = None,
+) -> None:
+    """Reset stale pre-default-change training scope state to the active default."""
+    current_settings = st.session_state.get(state_key)
+    if (
+        isinstance(current_settings, dict)
+        and str(current_settings.get("training_scope", "")) == TRAINING_SCOPE_ALL_INTERNATIONAL
+        and default_scope != TRAINING_SCOPE_ALL_INTERNATIONAL
+    ):
+        st.session_state[state_key] = {
+            **current_settings,
+            "training_scope": default_scope,
+        }
+        if widget_key is not None:
+            st.session_state.pop(widget_key, None)
 
 
 def first_team_by_metric(df: pd.DataFrame, metric_column: str) -> pd.Series:
@@ -679,6 +701,11 @@ def render_v3_probabilities_dashboard() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     if V3_PROB_STATE_KEY not in st.session_state:
         st.session_state[V3_PROB_STATE_KEY] = default_simulation_settings()
+    migrate_default_training_scope(
+        V3_PROB_STATE_KEY,
+        default_scope=DEFAULT_V3_TRAINING_SCOPE,
+        widget_key="v3_prob_training_scope",
+    )
     current_settings = dict(st.session_state[V3_PROB_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
@@ -714,7 +741,7 @@ def render_v3_probabilities_dashboard() -> None:
             "Training data",
             tuple(TRAINING_SCOPE_LABELS.keys()),
             index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
             ),
             horizontal=True,
             key="v3_prob_training_scope",
@@ -809,6 +836,11 @@ def render_v4_probabilities_dashboard() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     if V4_PROB_STATE_KEY not in st.session_state:
         st.session_state[V4_PROB_STATE_KEY] = default_simulation_settings()
+    migrate_default_training_scope(
+        V4_PROB_STATE_KEY,
+        default_scope=DEFAULT_V4_TRAINING_SCOPE,
+        widget_key="v4_prob_training_scope",
+    )
     current_settings = dict(st.session_state[V4_PROB_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
@@ -844,7 +876,7 @@ def render_v4_probabilities_dashboard() -> None:
             "Training data",
             tuple(TRAINING_SCOPE_LABELS.keys()),
             index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
             ),
             horizontal=True,
             key="v4_prob_training_scope",
@@ -1129,6 +1161,11 @@ def render_v3_2022_backtest_dashboard() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     if V3_BACKTEST_2022_STATE_KEY not in st.session_state:
         st.session_state[V3_BACKTEST_2022_STATE_KEY] = default_simulation_settings()
+    migrate_default_training_scope(
+        V3_BACKTEST_2022_STATE_KEY,
+        default_scope=DEFAULT_V3_TRAINING_SCOPE,
+        widget_key="v3_backtest_2022_training_scope",
+    )
     current_settings = dict(st.session_state[V3_BACKTEST_2022_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
@@ -1166,7 +1203,7 @@ def render_v3_2022_backtest_dashboard() -> None:
             "Training data",
             tuple(TRAINING_SCOPE_LABELS.keys()),
             index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
             ),
             horizontal=True,
             key="v3_backtest_2022_training_scope",
@@ -1304,6 +1341,11 @@ def render_v4_2022_backtest_dashboard() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     if V4_BACKTEST_2022_STATE_KEY not in st.session_state:
         st.session_state[V4_BACKTEST_2022_STATE_KEY] = default_simulation_settings()
+    migrate_default_training_scope(
+        V4_BACKTEST_2022_STATE_KEY,
+        default_scope=DEFAULT_V4_TRAINING_SCOPE,
+        widget_key="v4_backtest_2022_training_scope",
+    )
     current_settings = dict(st.session_state[V4_BACKTEST_2022_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
@@ -1340,7 +1382,7 @@ def render_v4_2022_backtest_dashboard() -> None:
             "Training data",
             tuple(TRAINING_SCOPE_LABELS.keys()),
             index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
             ),
             horizontal=True,
             key="v4_backtest_2022_training_scope",
@@ -1601,6 +1643,8 @@ def render_home_page() -> None:
     if load_result.artifact is None:
         st.error("Primary V4 probability artifact could not be loaded or created.")
         return
+    artifact_scope = str(load_result.artifact.metadata.get("training_scope", training_scope))
+    artifact_scope_display = TRAINING_SCOPE_LABEL_BY_VALUE.get(artifact_scope, artifact_scope)
     dashboard_df = load_result.artifact.dashboard_df
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
     dashboard_df["top2_prob"] = (
@@ -1620,9 +1664,9 @@ def render_home_page() -> None:
           <div class="wc-home-section-head">
             <div>
               <h2 class="wc-home-section-title">Projection Snapshot</h2>
-              <p class="wc-home-section-note">Start with V4 for the current pre-tournament projection, then use the top navigation to move into team reports, model tables, and backtests.</p>
+              <p class="wc-home-section-note">Start with V4 for the current pre-tournament projection. This snapshot trains on historical World Cup finals only; use the top navigation to move into team reports, model tables, and backtests.</p>
             </div>
-            <span class="wc-home-badge">V4 Primary</span>
+            <span class="wc-home-badge">V4 Primary | {artifact_scope_display}</span>
           </div>
           <div class="wc-home-metric-grid">
             {build_home_metric_card("Favorite to Win", champion_name, champion_detail)}
@@ -1630,7 +1674,7 @@ def render_home_page() -> None:
             {build_home_metric_card("Best Group Outlook", group_name, group_detail)}
             {build_home_metric_card("Most Likely KO Team", knockout_name, knockout_detail)}
             {build_home_metric_card("Opening Match", first_kickoff["match_label"], f'{first_kickoff["kickoff_date_label"]} at {first_kickoff["kickoff_utc_time_label"]} UTC')}
-            {build_home_metric_card("Projection Run", f'{simulation_count:,} simulations', f'Model {PRIMARY_MODEL.model_version} | last {form_match_window} matches')}
+            {build_home_metric_card("Projection Run", f'{simulation_count:,} simulations', f'Model {PRIMARY_MODEL.model_version} | last {form_match_window} matches | {artifact_scope_display} training')}
           </div>
         </div>
         """,
@@ -1652,7 +1696,7 @@ def render_home_page() -> None:
             {build_home_route_card("V2 Probabilities", "Legacy > V2 Probabilities", "Compare the current projection against the alternate form-weighted multinomial model.")}
             {build_home_route_card("V2 Form", "Legacy > V2 Form", "Inspect recent form inputs, team strength components, and confederation-level form tables.")}
             {build_home_route_card("Analysis", "Reports > Analysis", "Explore historical World Cup patterns behind participation, scoring, hosts, winners, and qualifiers.")}
-            {build_home_route_card("Backtests", "Backtests", "Check how V2 and V3 performed against the 2022 World Cup before trusting current projections.")}
+            {build_home_route_card("Backtests", "Backtests", "Review V4 multi-fold validation and 2022 drilldowns before trusting current projections.")}
           </div>
         </div>
         <div class="wc-home-section">
@@ -1677,6 +1721,7 @@ def render_home_page() -> None:
             f"""
             - **ELO Rating:** numerical measure of a team's relative strength, updated after each match. Higher ratings indicate stronger teams.
             - **ELO Change/Delta:** points gained or lost after a match based on result, expected result from rating difference, and margin of victory.
+            - **Training scope:** `{artifact_scope}` uses historical World Cup finals matches for the home projection snapshot.
             - **Simulation count:** the home snapshot uses the default V4 setting of `{simulation_count:,}` tournament simulations.
             - **Interpretation:** projections are pre-tournament probabilities from model simulations, not guarantees.
             """

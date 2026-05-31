@@ -32,7 +32,7 @@ is_knockout
 The default training scope is:
 
 ```text
-all_international_since_anchor
+world_cup_only
 ```
 
 ## Core Method

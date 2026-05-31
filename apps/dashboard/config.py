@@ -92,7 +92,7 @@ V2_VIEW_OPTIONS = ("All Countries", "Single confederation", "All confederations"
 V2_PROB_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
 TRAINING_SCOPE_LABELS = {
     "World Cup only": TRAINING_SCOPE_WORLD_CUP_ONLY,
-    "All international since anchor": TRAINING_SCOPE_ALL_INTERNATIONAL,
+    "All Internationals": TRAINING_SCOPE_ALL_INTERNATIONAL,
 }
 TRAINING_SCOPE_LABEL_BY_VALUE = {value: label for label, value in TRAINING_SCOPE_LABELS.items()}
 V1_STATE_KEY = "simulation_settings_v1"
