@@ -1,0 +1,65 @@
+fold_year,model,scope,match_id,home_team_id,away_team_id,home_win_prob,draw_prob,away_win_prob,actual_outcome,stage
+2014,baseline_elo,all_international_since_anchor,1,Brazil,Croatia,0.7037702218222462,0.21787091183152343,0.07835886634623038,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,2,Chile,Australia,0.6251150486309066,0.25252534048346315,0.12235961088563015,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,3,Mexico,Cameroon,0.621952422413026,0.2537364103954491,0.12431116719152499,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,4,Spain,Netherlands,0.550208072459206,0.2774507109408557,0.17234121659993837,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,5,Colombia,Greece,0.5299733457345364,0.28283064063279467,0.18719601363266897,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,6,England,Italy,0.48032810689091326,0.29354109343782053,0.2261307996712662,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,7,Ivory Coast,Japan,0.42783422844974306,0.3008882441897635,0.2712775273604934,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,8,Uruguay,Costa Rica,0.6211591421476843,0.25403798750374434,0.12480287034857138,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,9,Argentina,Bosnia and Herzegovina,0.641438368508696,0.24605189191096044,0.11250973958034359,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,10,France,Honduras,0.6375951525461155,0.24760964169396665,0.1147952057599177,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,11,Switzerland,Ecuador,0.4564473483565403,0.29740317676870853,0.24614947487475125,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,12,Germany,Portugal,0.5580206075209468,0.27521857025939506,0.16676082221965816,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,13,Ghana,United States,0.30291847039464725,0.30005914944708273,0.39702238015827,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,14,Iran,Nigeria,0.42875774884073486,0.3007956289754516,0.2704466221838136,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,15,Belgium,Algeria,0.6368232333603533,0.24792002027322627,0.11525674636642042,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,16,Brazil,Mexico,0.701767210699883,0.2188627737797967,0.07937001552032029,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,17,Russia,South Korea,0.6001745453611496,0.2616961671373998,0.1381292875014507,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,18,Australia,Netherlands,0.14565579315535,0.2487212813068669,0.6056229255377831,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,19,Cameroon,Croatia,0.2482444718414781,0.29004209414095156,0.46171343401757037,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,20,Spain,Chile,0.5228522713687528,0.2845854298950815,0.1925622987361657,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,21,Colombia,Ivory Coast,0.5802188433665005,0.26840791478401177,0.15137324184948767,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,22,Japan,Greece,0.4112240271965143,0.30232283365517953,0.2864531391483062,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,23,Uruguay,England,0.3955842364402567,0.3032662389078937,0.3011495246518495,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,24,Honduras,Ecuador,0.2952880555964613,0.29906003932806663,0.40565190507547216,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,25,Italy,Costa Rica,0.5666257490695674,0.27266052185700856,0.16071372907342396,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,26,Switzerland,France,0.40569698458249154,0.3027019176287279,0.29160109778878046,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,27,Argentina,Iran,0.6997536211529232,0.2198540364670799,0.08039234237999705,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,28,Germany,Ghana,0.7661701614688976,0.184021142195747,0.04980869633535546,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,29,Nigeria,Bosnia and Herzegovina,0.3965023131409995,0.303221965950957,0.30027572090804344,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,30,Belgium,Russia,0.46840917500554596,0.2955754123769132,0.23601541261754083,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,31,South Korea,Algeria,0.5030784685581136,0.2890764972659278,0.20784503417595862,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,32,United States,Portugal,0.41030240712002763,0.30238948589426246,0.2873081069857099,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,33,Australia,Spain,0.19389141532582124,0.2725220125842552,0.5335865720899235,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,34,Brazil,Cameroon,0.8282844090844104,0.14441155217966314,0.027304038735926444,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,35,Croatia,Mexico,0.42414059542233984,0.3012452109236732,0.274614193653987,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,36,Netherlands,Chile,0.5021736516738725,0.2892684908709137,0.2085578574552137,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,37,Costa Rica,England,0.4020162774650937,0.3029267649398972,0.2950569575950092,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,38,Greece,Ivory Coast,0.4361464592054624,0.3000064948722659,0.2638470459222716,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,39,Italy,Uruguay,0.4361464592054624,0.3000064948722659,0.2638470459222716,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,40,Japan,Colombia,0.24746894458479668,0.2898493337489223,0.4626817216662811,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,41,Bosnia and Herzegovina,Iran,0.46840917500554596,0.2955754123769132,0.23601541261754083,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,42,Ecuador,France,0.31234985125985365,0.30112771358814816,0.38652243515199824,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,43,Honduras,Switzerland,0.25923531962840307,0.2926128944312473,0.4481517859403496,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,44,Nigeria,Argentina,0.20481218251927968,0.27674279701773125,0.518445020462989,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,45,Algeria,Russia,0.31234985125985365,0.30112771358814816,0.38652243515199824,draw,Group Stage
+2014,baseline_elo,all_international_since_anchor,46,South Korea,Belgium,0.2139619803284404,0.27999169231949095,0.5060463273520687,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,47,Portugal,Ghana,0.6091359450210168,0.25850105632531173,0.1323629986536715,home_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,48,United States,Germany,0.25765015968933935,0.2922604256316812,0.4500894146789795,away_win,Group Stage
+2014,baseline_elo,all_international_since_anchor,49,Brazil,Chile,0.5827424900001653,0.26758989678982764,0.1496676132100071,draw,Round of 16
+2014,baseline_elo,all_international_since_anchor,50,Colombia,Uruguay,0.5192770898545237,0.2854390854770798,0.19528382466839653,home_win,Round of 16
+2014,baseline_elo,all_international_since_anchor,51,Costa Rica,Greece,0.4527603395891161,0.2979229147625244,0.24931674564835943,draw,Round of 16
+2014,baseline_elo,all_international_since_anchor,52,Netherlands,Mexico,0.6203648170926682,0.25433907988159354,0.12529610302573826,home_win,Round of 16
+2014,baseline_elo,all_international_since_anchor,53,France,Nigeria,0.6187730421938485,0.2549397932302621,0.12628716457588943,home_win,Round of 16
+2014,baseline_elo,all_international_since_anchor,54,Germany,Algeria,0.7645248066271236,0.1849884151296474,0.050486778243228884,home_win,Round of 16
+2014,baseline_elo,all_international_since_anchor,55,Argentina,Switzerland,0.6058911471907961,0.2596709206633286,0.13443793214587535,home_win,Round of 16
+2014,baseline_elo,all_international_since_anchor,56,Belgium,United States,0.4766661466897423,0.2941885953287136,0.229145257981544,home_win,Round of 16
+2014,baseline_elo,all_international_since_anchor,57,Brazil,Colombia,0.5030784685581136,0.2890764972659278,0.20784503417595862,home_win,Quarter-final
+2014,baseline_elo,all_international_since_anchor,58,France,Germany,0.32363530378670946,0.3021713674229736,0.3741933287903169,away_win,Quarter-final
+2014,baseline_elo,all_international_since_anchor,59,Argentina,Belgium,0.5597481141677696,0.27471338962956043,0.16553849620266994,home_win,Quarter-final
+2014,baseline_elo,all_international_since_anchor,60,Netherlands,Costa Rica,0.6839653885108922,0.22742434857689764,0.08861026291221011,draw,Quarter-final
+2014,baseline_elo,all_international_since_anchor,61,Brazil,Germany,0.43707001416466135,0.29990186312258615,0.26302812271275255,away_win,Semi-final
+2014,baseline_elo,all_international_since_anchor,62,Netherlands,Argentina,0.45183821130342683,0.2980496672012028,0.25011212149537043,draw,Semi-final
+2014,baseline_elo,all_international_since_anchor,63,Brazil,Netherlands,0.38825031302864044,0.30356950028768903,0.3081801866836706,away_win,Third Place
+2014,baseline_elo,all_international_since_anchor,64,Germany,Argentina,0.5484635496221286,0.2779373820043539,0.17359906837351755,home_win,Final

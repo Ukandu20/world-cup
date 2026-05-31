@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+import world_cup_sim.v4 as v4_module  # noqa: E402
 import apps.dashboard.export as dashboard_export  # noqa: E402
 
 from world_cup_simulation import (  # noqa: E402
@@ -66,6 +67,8 @@ from world_cup_simulation import (  # noqa: E402
 )
 from world_cup_sim.constants import WORLD_CUP_ROOT  # noqa: E402
 from world_cup_sim.constants import INTERNATIONAL_RESULTS_PATH  # noqa: E402
+from world_cup_sim.shared import build_historical_world_cup_backtest_data, validation_artifact_filenames  # noqa: E402
+from world_cup_sim.v4 import compute_v4_stage_multipliers, fit_v4_dixon_coles_rho, v4_stage_key  # noqa: E402
 from scripts.build_world_cup_2026_dataset import (  # noqa: E402
     QualifiedTeam,
     build_alias_maps,
@@ -2415,6 +2418,7 @@ def test_ensure_dashboard_probability_columns_backfills_missing_ko_prob():
 
     assert "top8_third_prob" in normalized.columns
     assert "ko_prob" in normalized.columns
+    assert "r32_prob" in normalized.columns
     assert "r16_prob" in normalized.columns
     assert "qf_prob" in normalized.columns
     assert "sf_prob" in normalized.columns
@@ -2422,6 +2426,7 @@ def test_ensure_dashboard_probability_columns_backfills_missing_ko_prob():
     assert "champion_prob" in normalized.columns
     assert normalized.loc[0, "top8_third_prob"] == 0.0
     assert normalized.loc[0, "ko_prob"] == 75.0
+    assert normalized.loc[0, "r32_prob"] == 75.0
 
 
 def test_simulate_probabilities_accepts_custom_weight_filters():
@@ -2759,6 +2764,39 @@ def test_build_2022_backtest_data_constructs_expected_tournament_shape():
     assert knockout_labels[64] == {"home_slot_label": "W61", "away_slot_label": "W62"}
 
 
+def test_historical_backtest_builder_derives_non_2022_fixture_shape():
+    backtest_data = build_historical_world_cup_backtest_data(2018)
+    base_df = pd.DataFrame(backtest_data["base_df"])
+    fixtures_df = pd.DataFrame(backtest_data["fixtures_df"])
+
+    assert len(base_df) == 32
+    assert set(base_df["group_code"]) == set("ABCDEFGH")
+    assert len(fixtures_df[fixtures_df["round_code"] == "GS"]) == 48
+    assert len(fixtures_df[fixtures_df["round_code"].isin(["R16", "QF", "SF", "3P", "F"])]) == 16
+    assert fixtures_df.loc[fixtures_df["round_code"].eq("R16"), "home_slot_label"].str.match(r"^[12][A-H]$").all()
+    assert fixtures_df.loc[fixtures_df["round_code"].eq("R16"), "away_slot_label"].str.match(r"^[12][A-H]$").all()
+
+
+def test_v4_stage_multiplier_cutoff_excludes_holdout_rows(monkeypatch):
+    historical_results = pd.DataFrame(
+        [
+            {"edition": 2018, "stage": "Group Stage", "home_score": 1, "away_score": 1},
+            {"edition": 2022, "stage": "Group Stage", "home_score": 10, "away_score": 10},
+        ]
+    )
+    monkeypatch.setattr(v4_module, "load_historical_world_cup_results", lambda exclude_editions=(): historical_results)
+
+    multipliers = compute_v4_stage_multipliers(cutoff_year=2022)
+
+    assert abs(multipliers["group"] - 1.0) < 1e-12
+
+
+def test_v4_stage_key_distinguishes_round_of_32_and_round_of_16():
+    assert v4_stage_key("R32") == "round_of_32"
+    assert v4_stage_key("Round of 32") == "round_of_32"
+    assert v4_stage_key("R16") == "round_of_16"
+
+
 def test_predict_knockout_matchup_v2_returns_valid_winner_and_probability():
     home = load_home_module()
     base_df, _, lead_in_df, _ = home.load_data()
@@ -3039,6 +3077,7 @@ def test_model_validation_training_excludes_2022_and_model_card_references_artif
     assert baseline["training_metadata"]["training_end_date"] < "2022-11-20"
 
     artifacts = build_validation_artifacts(match_window=4, simulations=8, seed=17)
+    assert artifacts["validation_window"]["holdout_year"] == 2022
     for row in artifacts["models"]:
         assert row["training_end_date"] < "2022-11-20"
 
@@ -3049,6 +3088,7 @@ def test_model_validation_training_excludes_2022_and_model_card_references_artif
         }
     )
     assert "data/processed/validation/model_validation_2022.json" in markdown
+    assert validation_artifact_filenames(2022)["json"] in markdown
     assert "all_international_since_anchor" in markdown
     assert "V4 all international since anchor" in markdown
 
@@ -3127,6 +3167,27 @@ def test_v4_dixon_coles_score_matrix_and_penalties():
     assert np.allclose(independent, build_v4_score_matrix(lambda_home, lambda_away, rho=0.0))
     assert strength_weighted_penalty_probability(1000, -1000) == 0.65
     assert strength_weighted_penalty_probability(-1000, 1000) == 0.35
+
+
+def test_v4_dixon_coles_rho_fits_from_supplied_lambdas():
+    training_df = pd.DataFrame(
+        {
+            "home_score": [0, 1, 2, 1],
+            "away_score": [0, 1, 1, 0],
+        }
+    )
+    lambda_home = np.array([1.0, 1.1, 1.3, 1.0])
+    lambda_away = np.array([1.0, 1.1, 0.9, 0.8])
+
+    rho, source = fit_v4_dixon_coles_rho(
+        training_df,
+        lambda_home,
+        lambda_away,
+        source="time_series_oof_grid_search",
+    )
+
+    assert source == "time_series_oof_grid_search"
+    assert -0.2 <= rho <= 0.2
 
 
 def test_v4_pages_exist_and_wire_dashboard_renderers():

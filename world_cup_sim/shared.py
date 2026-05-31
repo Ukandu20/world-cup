@@ -166,6 +166,12 @@ def load_world_cup_edition_start_dates() -> dict[int, pd.Timestamp]:
     if not results_path.exists():
         raise ValueError(f"World Cup all-editions results file not found: {results_path}")
     results_df = pd.read_csv(results_path)
+    return world_cup_edition_start_dates_from_results(results_df)
+
+
+def world_cup_edition_start_dates_from_results(results_df: pd.DataFrame) -> dict[int, pd.Timestamp]:
+    """Return edition start dates from a preloaded all-editions results frame."""
+    results_df = results_df.copy()
     results_df["edition"] = pd.to_numeric(results_df["edition"], errors="coerce")
     results_df["date"] = pd.to_datetime(results_df["date"], errors="coerce")
     starts = (
@@ -194,6 +200,36 @@ def resolve_training_anchor_date(reference_edition_year: int, lookback_editions:
     """Resolve the start date of the anchor World Cup edition."""
     anchor_year = resolve_training_anchor_year(reference_edition_year, lookback_editions=lookback_editions)
     starts = load_world_cup_edition_start_dates()
+    return pd.Timestamp(starts[anchor_year]).normalize()
+
+
+def resolve_training_anchor_year_from_results(
+    reference_edition_year: int,
+    results_df: pd.DataFrame,
+    lookback_editions: int = 5,
+) -> int:
+    starts = world_cup_edition_start_dates_from_results(results_df)
+    prior_editions = [edition for edition in sorted(starts) if edition < int(reference_edition_year)]
+    required = int(lookback_editions) + 1
+    if len(prior_editions) < required:
+        raise ValueError(
+            f"Need at least {required} prior World Cup editions before {reference_edition_year}; "
+            f"found {len(prior_editions)}"
+        )
+    return int(prior_editions[-required])
+
+
+def resolve_training_anchor_date_from_results(
+    reference_edition_year: int,
+    results_df: pd.DataFrame,
+    lookback_editions: int = 5,
+) -> pd.Timestamp:
+    anchor_year = resolve_training_anchor_year_from_results(
+        reference_edition_year,
+        results_df,
+        lookback_editions=lookback_editions,
+    )
+    starts = world_cup_edition_start_dates_from_results(results_df)
     return pd.Timestamp(starts[anchor_year]).normalize()
 
 
@@ -252,11 +288,17 @@ def extract_group_stage_fixtures(fixtures_df: pd.DataFrame, group_order: Iterabl
         group = group_fixtures[group_fixtures["group_code"] == group_code]
         if group.empty:
             continue
-        if len(group) != 6:
-            raise ValueError(f"Expected 6 group-stage fixtures for Group {group_code}, found {len(group)}")
         appearance_counts = pd.concat([group["home_team_id"], group["away_team_id"]]).value_counts()
-        if len(appearance_counts) != 4 or not appearance_counts.eq(3).all():
-            raise ValueError(f"Expected 4 teams with 3 fixtures each in Group {group_code}")
+        team_count = len(appearance_counts)
+        expected_fixtures = team_count * (team_count - 1) // 2
+        expected_appearances = max(team_count - 1, 0)
+        if team_count < 2 or len(group) != expected_fixtures:
+            raise ValueError(
+                f"Expected complete round-robin fixtures for Group {group_code}, "
+                f"found {len(group)} fixtures across {team_count} teams"
+            )
+        if not appearance_counts.eq(expected_appearances).all():
+            raise ValueError(f"Expected each team in Group {group_code} to play {expected_appearances} fixtures")
 
     return group_fixtures
 
@@ -544,7 +586,8 @@ def outcome_label_from_scoreline(home_score: int, away_score: int) -> str:
 
 def match_stage_bucket(stage: str) -> str:
     """Bucket a World Cup stage into group-stage vs knockout for scoreline sampling."""
-    return V2_STAGE_GROUP if str(stage).strip() == "Group Stage" else V2_STAGE_KNOCKOUT
+    normalized = normalize_key(str(stage))
+    return V2_STAGE_GROUP if "group" in normalized or normalized == "gs" else V2_STAGE_KNOCKOUT
 
 
 def compute_history_placement_score(
@@ -756,34 +799,292 @@ def normalize_match_level_results(results_df: pd.DataFrame) -> pd.DataFrame:
     return parsed.reset_index(drop=True)
 
 
-def load_historical_placement_history() -> tuple[pd.DataFrame, dict[int, int], dict[int, int]]:
-    """Load placement history plus global edition weights and team counts."""
-    placement_df = pd.read_csv(WORLD_CUP_ROOT / "all_editions" / "placement.csv")
-    history_df = pd.read_csv(WORLD_CUP_ROOT / "fifa_world_cup_history.csv")
-    placement_df["edition"] = pd.to_numeric(placement_df["edition"], errors="coerce").astype(int)
-    placement_df["position"] = pd.to_numeric(placement_df["position"], errors="coerce")
-    if "start_elo" not in placement_df.columns:
-        placement_df["start_elo"] = np.nan
-    placement_df["start_elo"] = pd.to_numeric(placement_df["start_elo"], errors="coerce")
-    placement_df["team_key"] = placement_df["country"].map(normalize_historical_team_name)
-    edition_years = sorted(pd.to_numeric(history_df["Year"], errors="coerce").dropna().astype(int).tolist())
-    edition_weight_map = {edition: (index + 1) ** 2 for index, edition in enumerate(edition_years)}
-    edition_team_counts = {
-        int(year): int(teams)
-        for year, teams in zip(
-            pd.to_numeric(history_df["Year"], errors="coerce"),
-            pd.to_numeric(history_df["Teams"], errors="coerce"),
-            strict=False,
-        )
-        if pd.notna(year) and pd.notna(teams)
+def lead_in_to_match_level_results(lead_in_df: pd.DataFrame) -> pd.DataFrame:
+    """Convert canonical team-perspective lead-in rows into deduplicated match rows."""
+    df = lead_in_df.copy()
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    for column_name in ("team_score", "opponent_score"):
+        df[column_name] = pd.to_numeric(df[column_name], errors="coerce")
+    is_home = df.get("is_home_perspective", False)
+    is_home = is_home.astype(str).str.upper().isin({"TRUE", "1", "YES"}) if hasattr(is_home, "astype") else False
+    out = pd.DataFrame(
+        {
+            "date": df["date"],
+            "edition": pd.to_datetime(df["date"], errors="coerce").dt.year,
+            "home_team_id": np.where(is_home, df["qualified_team_id"], df["opponent_team_id"]),
+            "away_team_id": np.where(is_home, df["opponent_team_id"], df["qualified_team_id"]),
+            "home_team": df.get("home_team_canonical", df.get("home_team", "")),
+            "away_team": df.get("away_team_canonical", df.get("away_team", "")),
+            "home_score": np.where(is_home, df["team_score"], df["opponent_score"]),
+            "away_score": np.where(is_home, df["opponent_score"], df["team_score"]),
+            "tournament": df.get("tournament", ""),
+            "stage": df.get("stage", df.get("tournament", "")),
+            "country": df.get("country", ""),
+            "neutral": df.get("neutral", False),
+            "match_key": df.get("match_key", ""),
+        }
+    )
+    dedupe_columns = [column for column in ("match_key", "date", "home_team_id", "away_team_id") if column in out.columns]
+    if dedupe_columns:
+        out = out.drop_duplicates(dedupe_columns, keep="first")
+    return out.dropna(subset=["date", "home_team_id", "away_team_id", "home_score", "away_score"]).reset_index(drop=True)
+
+
+def world_cup_results_to_match_level_results(results_df: pd.DataFrame) -> pd.DataFrame:
+    """Convert all-editions World Cup results into one row per match."""
+    parsed = normalize_match_level_results(results_df)
+    parsed = parsed.copy()
+    parsed["date"] = pd.to_datetime(parsed["date"], errors="coerce")
+    parsed["edition"] = pd.to_numeric(parsed.get("edition", parsed["date"].dt.year), errors="coerce")
+    for column_name in ("home_score", "away_score"):
+        parsed[column_name] = pd.to_numeric(parsed[column_name], errors="coerce")
+    if "home_team_id" not in parsed.columns:
+        parsed["home_team_id"] = parsed.get("home_team_code", parsed.get("team_id", parsed.get("home_team", "")))
+    if "away_team_id" not in parsed.columns:
+        parsed["away_team_id"] = parsed.get("away_team_code", parsed.get("opponent_id", parsed.get("away_team", "")))
+    if "tournament" not in parsed.columns:
+        parsed["tournament"] = "FIFA World Cup"
+    if "country" not in parsed.columns:
+        parsed["country"] = ""
+    if "neutral" not in parsed.columns:
+        parsed["neutral"] = True
+    return parsed.dropna(subset=["date", "home_team_id", "away_team_id", "home_score", "away_score"]).reset_index(drop=True)
+
+
+def _snapshot_position_score(position: object) -> float:
+    value = pd.to_numeric(position, errors="coerce")
+    if pd.isna(value) or float(value) <= 0:
+        return 0.0
+    return float(np.clip(1.0 - ((float(value) - 1.0) / 31.0), 0.0, 1.0))
+
+
+def _snapshot_float(value: object, default: float = 0.0) -> float:
+    parsed = pd.to_numeric(value, errors="coerce")
+    return float(default if pd.isna(parsed) else parsed)
+
+
+def _snapshot_team_values(snapshot_row: pd.Series) -> dict[str, float]:
+    return {
+        "elo": _snapshot_float(snapshot_row.get("start_elo", 0.0)),
+        "results_form": _snapshot_float(snapshot_row.get("results_form", 0.0)),
+        "gd_form": _snapshot_float(snapshot_row.get("gd_form", 0.0)),
+        "perf_vs_exp": _snapshot_float(snapshot_row.get("perf_vs_exp", 0.0)),
+        "goals_for": _snapshot_float(snapshot_row.get("goals_for", 0.0)),
+        "goals_against": _snapshot_float(snapshot_row.get("goals_against", 0.0)),
+        "placement": _snapshot_position_score(snapshot_row.get("best_position", np.nan)),
+        "appearance": _snapshot_float(snapshot_row.get("appearance_count", 0.0)),
+        "wc_l5_goal_diff": _snapshot_float(snapshot_row.get("wc_l5_goal_diff", 0.0)),
+        "has_wc_l5_history": _snapshot_float(snapshot_row.get("has_wc_l5_history", 0.0)),
     }
-    return placement_df, edition_team_counts, edition_weight_map
+
+
+def build_snapshot_training_frame(
+    match_source: pd.DataFrame,
+    data: dict[str, pd.DataFrame],
+    *,
+    reference_edition_year: int,
+    match_window: int,
+    training_scope: str,
+    model_version: str,
+    edition_lookback: int = V2_PREVIOUS_EDITION_LOOKBACK,
+    start_year: int | None = None,
+    end_date: str | pd.Timestamp | None = None,
+    exclude_tournament: Iterable[str] = (),
+    quadratic_weights: bool = False,
+) -> pd.DataFrame:
+    """Build match-level model features from point-in-time team snapshots."""
+    from .feature_snapshots import get_team_features_at_date
+
+    source = match_source.copy()
+    source["date"] = pd.to_datetime(source["date"], errors="coerce")
+    for column_name in ("home_score", "away_score"):
+        source[column_name] = pd.to_numeric(source[column_name], errors="coerce")
+    source = source.dropna(subset=["date", "home_team_id", "away_team_id", "home_score", "away_score"]).copy()
+    anchor_date = resolve_training_anchor_date_from_results(
+        reference_edition_year,
+        data["results"],
+        lookback_editions=edition_lookback,
+    )
+    source = source[source["date"] >= anchor_date].copy()
+    if start_year is not None:
+        source = source[source["date"].dt.year >= int(start_year)].copy()
+    if end_date is not None:
+        source = source[source["date"] <= pd.Timestamp(end_date)].copy()
+    excluded = {normalize_key(value) for value in exclude_tournament if normalize_key(value)}
+    if excluded:
+        if "tournament" not in source.columns:
+            source["tournament"] = ""
+        source["_tournament_key"] = source["tournament"].map(normalize_key)
+        source = source[~source["_tournament_key"].isin(excluded)].copy()
+
+    rows_before_snapshot_filter = int(len(source))
+    known_team_ids = set(data["lead_in"]["qualified_team_id"].dropna().astype(str))
+    known_team_ids.update(data["teams"]["team_id"].dropna().astype(str))
+    source = source[
+        source["home_team_id"].astype(str).isin(known_team_ids)
+        & source["away_team_id"].astype(str).isin(known_team_ids)
+    ].copy()
+
+    source["_snapshot_date"] = source["date"].dt.normalize()
+    teams_by_snapshot_date = {
+        snapshot_date: sorted(
+            set(group["home_team_id"].astype(str)).union(set(group["away_team_id"].astype(str)))
+        )
+        for snapshot_date, group in source.groupby("_snapshot_date", sort=False)
+    }
+    snapshot_cache: dict[pd.Timestamp, pd.DataFrame] = {}
+
+    def snapshot_for(team_id: str, match_date: pd.Timestamp) -> pd.Series:
+        cache_key = match_date.normalize()
+        if cache_key not in snapshot_cache:
+            team_ids_for_date = teams_by_snapshot_date.get(cache_key, [str(team_id)])
+            snapshot_cache[cache_key] = get_team_features_at_date(
+                team_ids_for_date,
+                int(match_date.year),
+                match_date.date(),
+                data,
+                k=match_window,
+                quadratic_weights=quadratic_weights,
+            )
+        return snapshot_cache[cache_key].loc[str(team_id)]
+
+    rows: list[dict[str, object]] = []
+    for match in source.sort_values(["date", "home_team_id", "away_team_id"], kind="stable").itertuples(index=False):
+        match_date = pd.Timestamp(match.date)
+        home_id = str(match.home_team_id)
+        away_id = str(match.away_team_id)
+        home_values = _snapshot_team_values(snapshot_for(home_id, match_date))
+        away_values = _snapshot_team_values(snapshot_for(away_id, match_date))
+        neutral_site_flag = 1.0 if str(getattr(match, "neutral", "")).strip().lower() in {"true", "1", "yes", "y"} else 0.0
+        country_key = normalize_historical_team_name(getattr(match, "country", ""))
+        home_host_flag = 1.0 if not neutral_site_flag and country_key == normalize_historical_team_name(getattr(match, "home_team", "")) else 0.0
+        away_host_flag = 1.0 if not neutral_site_flag and country_key == normalize_historical_team_name(getattr(match, "away_team", "")) else 0.0
+        stage = str(getattr(match, "stage", ""))
+        competition_importance = classify_competition_importance(getattr(match, "tournament", ""))
+        row = {
+            "date": match_date,
+            "edition": int(getattr(match, "edition", match_date.year)) if pd.notna(getattr(match, "edition", match_date.year)) else int(match_date.year),
+            "home_team": str(getattr(match, "home_team", home_id)),
+            "away_team": str(getattr(match, "away_team", away_id)),
+            "home_team_id": home_id,
+            "away_team_id": away_id,
+            "tournament": str(getattr(match, "tournament", "")),
+            "stage": stage,
+            "stage_bucket": match_stage_bucket(stage),
+            "home_score": int(match.home_score),
+            "away_score": int(match.away_score),
+            "outcome_label": outcome_label_from_scoreline(int(match.home_score), int(match.away_score)),
+            "elo_diff": home_values["elo"] - away_values["elo"],
+            "results_form_diff": home_values["results_form"] - away_values["results_form"],
+            "goals_for_diff": home_values["goals_for"] - away_values["goals_for"],
+            "goals_against_diff": home_values["goals_against"] - away_values["goals_against"],
+            "placement_diff": home_values["placement"] - away_values["placement"],
+            "appearance_diff": home_values["appearance"] - away_values["appearance"],
+            "gd_form_diff": home_values["gd_form"] - away_values["gd_form"],
+            "perf_vs_exp_diff": home_values["perf_vs_exp"] - away_values["perf_vs_exp"],
+            "competition_importance": competition_importance,
+            "neutral_site_flag": neutral_site_flag,
+            "net_host_flag": home_host_flag - away_host_flag,
+            "sample_weight": competition_importance,
+        }
+        if model_version == "v4":
+            row.update(
+                {
+                    "home_wc_l5_goal_difference": home_values["wc_l5_goal_diff"],
+                    "away_wc_l5_goal_difference": away_values["wc_l5_goal_diff"],
+                    "home_has_wc_l5_history": home_values["has_wc_l5_history"],
+                    "away_has_wc_l5_history": away_values["has_wc_l5_history"],
+                    "is_knockout": 0.0 if match_stage_bucket(stage) == V2_STAGE_GROUP else 1.0,
+                    "competition_weight": competition_importance,
+                }
+            )
+        rows.append(row)
+
+    training_df = pd.DataFrame(rows)
+    if training_df.empty:
+        raise ValueError(f"{model_version.upper()} snapshot training frame is empty")
+    training_df["training_scope"] = normalize_training_scope(training_scope)
+    training_df["anchor_year"] = int(
+        resolve_training_anchor_year_from_results(
+            reference_edition_year,
+            data["results"],
+            lookback_editions=edition_lookback,
+        )
+    )
+    training_df["anchor_date"] = anchor_date.strftime("%Y-%m-%d")
+    training_df.attrs["training_rows_before_snapshot_filter"] = rows_before_snapshot_filter
+    training_df.attrs["training_rows_after_snapshot_filter"] = int(len(training_df))
+    training_df.attrs["training_rows_dropped_snapshot_missing"] = rows_before_snapshot_filter - int(len(training_df))
+    return training_df
+
+
+def load_historical_team_history(data: dict[str, pd.DataFrame] | None = None) -> tuple[pd.DataFrame, dict[int, int], dict[int, int]]:
+    """Load modeling-safe team history, goal history, Elo starts, and edition metadata."""
+    if data is None:
+        teams_df = pd.read_csv(WORLD_CUP_ROOT / "all_editions" / "teams.csv")
+        results_df = pd.read_csv(WORLD_CUP_ROOT / "all_editions" / "results.csv")
+        history_df = pd.read_csv(WORLD_CUP_ROOT / "fifa_world_cup_history.csv")
+        edition_years = sorted(pd.to_numeric(history_df["Year"], errors="coerce").dropna().astype(int).tolist())
+        edition_team_counts = {
+            int(year): int(teams)
+            for year, teams in zip(
+                pd.to_numeric(history_df["Year"], errors="coerce"),
+                pd.to_numeric(history_df["Teams"], errors="coerce"),
+                strict=False,
+            )
+            if pd.notna(year) and pd.notna(teams)
+        }
+    else:
+        teams_df = data["teams"].copy()
+        results_df = data["results"].copy()
+        edition_years = sorted(pd.to_numeric(teams_df["year"], errors="coerce").dropna().astype(int).unique().tolist())
+        edition_team_counts = (
+            teams_df.assign(edition=pd.to_numeric(teams_df["year"], errors="coerce"))
+            .dropna(subset=["edition"])
+            .groupby("edition")["team_id"]
+            .nunique()
+            .astype(int)
+            .to_dict()
+        )
+        edition_team_counts = {int(year): int(count) for year, count in edition_team_counts.items()}
+
+    teams_df["edition"] = pd.to_numeric(teams_df["year"], errors="coerce").astype(int)
+    teams_df["position"] = pd.to_numeric(teams_df["position"], errors="coerce")
+    teams_df["matches_played"] = pd.to_numeric(teams_df.get("matches_played", 0), errors="coerce").fillna(0.0)
+    teams_df["country"] = teams_df["team"]
+    teams_df["team_key"] = teams_df["team"].map(normalize_historical_team_name)
+
+    results = results_df.copy()
+    results["edition"] = pd.to_numeric(results["edition"], errors="coerce")
+    results["team_score"] = pd.to_numeric(results["team_score"], errors="coerce").fillna(0.0)
+    results["opponent_score"] = pd.to_numeric(results["opponent_score"], errors="coerce").fillna(0.0)
+    results["team_elo_start"] = pd.to_numeric(results["team_elo_start"], errors="coerce")
+    results["date"] = pd.to_datetime(results["date"], errors="coerce")
+    results["match_number"] = pd.to_numeric(results["match_number"], errors="coerce")
+    result_summary = (
+        results.dropna(subset=["edition", "team_id"])
+        .sort_values(["edition", "team_id", "date", "match_number"], kind="stable")
+        .groupby(["edition", "team_id"], as_index=False)
+        .agg(
+            gs=("team_score", "sum"),
+            ga=("opponent_score", "sum"),
+            start_elo=("team_elo_start", "first"),
+        )
+    )
+    result_summary["edition"] = result_summary["edition"].astype(int)
+
+    team_history = teams_df.merge(result_summary, on=["edition", "team_id"], how="left")
+    for column_name in ("gs", "ga", "start_elo"):
+        team_history[column_name] = pd.to_numeric(team_history[column_name], errors="coerce")
+
+    edition_weight_map = {edition: (index + 1) ** 2 for index, edition in enumerate(edition_years)}
+    return team_history, edition_team_counts, edition_weight_map
 
 
 def compute_pre_tournament_history_features(
     team_key: str,
     edition_year: int,
-    placement_df: pd.DataFrame,
+    team_history_df: pd.DataFrame,
     edition_team_counts: dict[int, int],
     edition_weight_map: dict[int, int],
     edition_lookback: int = V2_PREVIOUS_EDITION_LOOKBACK,
@@ -797,7 +1098,7 @@ def compute_pre_tournament_history_features(
     if not earlier_editions:
         return {"placement": 0.0, "appearance": 0.0}
 
-    team_rows = placement_df[(placement_df["team_key"] == team_key) & (placement_df["edition"] < int(edition_year))]
+    team_rows = team_history_df[(team_history_df["team_key"] == team_key) & (team_history_df["edition"] < int(edition_year))]
     position_by_edition = {
         int(row.edition): int(row.position)
         for row in team_rows.dropna(subset=["position"]).drop_duplicates(subset=["edition"], keep="first").itertuples(index=False)
@@ -824,7 +1125,7 @@ def compute_pre_tournament_history_features(
 def build_pre_tournament_team_features_by_edition(
     edition_matches: pd.DataFrame,
     country_results_lookup: dict[str, pd.DataFrame],
-    placement_df: pd.DataFrame,
+    team_history_df: pd.DataFrame,
     edition_team_counts: dict[int, int],
     edition_weight_map: dict[int, int],
     match_window: int = RECENT_MATCH_WINDOW,
@@ -833,17 +1134,11 @@ def build_pre_tournament_team_features_by_edition(
     """Build raw team features for every participant in one historical edition."""
     edition_year = int(edition_matches["edition"].iloc[0])
     edition_start = pd.to_datetime(edition_matches["date"], errors="coerce").min()
-    edition_placement_path = WORLD_CUP_ROOT / str(edition_year) / "placement.csv"
-    if edition_placement_path.exists():
-        placement_rows = pd.read_csv(edition_placement_path)
-        if "start_elo" not in placement_rows.columns:
-            placement_rows["start_elo"] = np.nan
-    else:
-        placement_rows = placement_df[placement_df["edition"] == edition_year].copy()
-    placement_rows["start_elo"] = pd.to_numeric(placement_rows["start_elo"], errors="coerce")
-    placement_elo_lookup = {
+    edition_team_rows = team_history_df[team_history_df["edition"] == edition_year].copy()
+    edition_team_rows["start_elo"] = pd.to_numeric(edition_team_rows["start_elo"], errors="coerce")
+    team_start_elo_lookup = {
         str(row.country): float(row.start_elo)
-        for row in placement_rows.dropna(subset=["start_elo"]).itertuples(index=False)
+        for row in edition_team_rows.dropna(subset=["start_elo"]).itertuples(index=False)
     }
 
     team_names = sorted(
@@ -862,14 +1157,14 @@ def build_pre_tournament_team_features_by_edition(
         history_features = compute_pre_tournament_history_features(
             team_key,
             edition_year,
-            placement_df,
+            team_history_df,
             edition_team_counts,
             edition_weight_map,
             edition_lookback=edition_lookback,
         )
         pre_tournament_elo = snapshot["pre_tournament_elo"]
         if pre_tournament_elo == 0.0:
-            pre_tournament_elo = float(placement_elo_lookup.get(team_name, 0.0))
+            pre_tournament_elo = float(team_start_elo_lookup.get(team_name, 0.0))
         features[team_name] = {
             **snapshot,
             **history_features,
@@ -908,7 +1203,7 @@ def build_recent_history_feature_table(
     edition_lookback: int = V2_PREVIOUS_EDITION_LOOKBACK,
 ) -> pd.DataFrame:
     """Build a trailing-window World Cup history table for current teams."""
-    placement_df, edition_team_counts, edition_weight_map = load_historical_placement_history()
+    team_history_df, edition_team_counts, edition_weight_map = load_historical_team_history()
     prior_editions = select_prior_editions(
         reference_edition_year,
         edition_weight_map,
@@ -936,12 +1231,12 @@ def build_recent_history_feature_table(
         )
 
         team_key = normalize_historical_team_name(team_name)
-        matched_rows = placement_df[placement_df["team_key"] == team_key]
+        matched_rows = team_history_df[team_history_df["team_key"] == team_key]
         if team_key and not matched_rows.empty:
             history_features = compute_pre_tournament_history_features(
                 team_key,
                 reference_edition_year,
-                placement_df,
+                team_history_df,
                 edition_team_counts,
                 edition_weight_map,
                 edition_lookback=edition_lookback,
@@ -1030,62 +1325,336 @@ def build_2022_group_code_lookup(results_df: pd.DataFrame) -> dict[str, str]:
     return lookup
 
 
-@lru_cache(maxsize=1)
-def build_2022_backtest_data() -> dict[str, object]:
-    """Build the 2022 World Cup inputs needed for a leakage-free V2 backtest."""
-    results_path = WORLD_CUP_ROOT / "2022" / "results.csv"
-    placement_path = WORLD_CUP_ROOT / "2022" / "placement.csv"
-    if not results_path.exists() or not placement_path.exists():
-        raise ValueError("2022 World Cup files are unavailable for backtesting")
+def build_historical_group_code_lookup(results_df: pd.DataFrame, group_order: Iterable[str] = BACKTEST_2022_GROUP_ORDER) -> dict[str, str]:
+    """Derive group codes from the group-stage opponent graph for a 32-team World Cup."""
+    group_matches = (
+        results_df[results_df["stage"].map(match_stage_bucket).eq(V2_STAGE_GROUP)]
+        .sort_values(["match_number", "date"], kind="stable")
+        .reset_index(drop=True)
+    )
+    if group_matches.empty:
+        raise ValueError("Expected group-stage results to derive group codes")
 
-    results_df = normalize_match_level_results(pd.read_csv(results_path))
-    placement_df = pd.read_csv(placement_path).copy()
+    adjacency: dict[str, set[str]] = {}
+    first_match_by_team: dict[str, int] = {}
+    for row in group_matches.itertuples(index=False):
+        home_team = str(row.home_team)
+        away_team = str(row.away_team)
+        match_number = int(row.match_number)
+        adjacency.setdefault(home_team, set()).add(away_team)
+        adjacency.setdefault(away_team, set()).add(home_team)
+        first_match_by_team.setdefault(home_team, match_number)
+        first_match_by_team.setdefault(away_team, match_number)
+
+    remaining = set(adjacency)
+    components: list[list[str]] = []
+    while remaining:
+        start = min(remaining, key=lambda team_name: first_match_by_team.get(team_name, 999))
+        stack = [start]
+        component: list[str] = []
+        while stack:
+            team_name = stack.pop()
+            if team_name not in remaining:
+                continue
+            remaining.remove(team_name)
+            component.append(team_name)
+            for opponent in sorted(adjacency.get(team_name, set()), reverse=True):
+                if opponent in remaining:
+                    stack.append(opponent)
+        components.append(sorted(component))
+
+    group_order = list(group_order)
+    components = sorted(
+        components,
+        key=lambda teams: min(first_match_by_team.get(team_name, 999) for team_name in teams),
+    )
+    if len(components) != len(group_order):
+        raise ValueError(f"Expected {len(group_order)} connected groups, found {len(components)}")
+
+    lookup: dict[str, str] = {}
+    for group_code, teams in zip(group_order, components, strict=False):
+        for team_name in teams:
+            lookup[str(team_name)] = group_code
+    return lookup
+
+
+ROUND_CODE_BY_STAGE = {
+    "group stage": "GS",
+    "round of 32": "R32",
+    "round of 16": "R16",
+    "quarter final": "QF",
+    "quarter finals": "QF",
+    "quarter-final": "QF",
+    "quarter-finals": "QF",
+    "semi final": "SF",
+    "semi finals": "SF",
+    "semi-final": "SF",
+    "semi-finals": "SF",
+    "third place": "3P",
+    "third-place": "3P",
+    "final": "F",
+}
+
+
+BACKTEST_2022_KNOCKOUT_SLOT_LOOKUP = {
+    49: ("1A", "2B"),
+    50: ("1C", "2D"),
+    51: ("1D", "2C"),
+    52: ("1B", "2A"),
+    53: ("1E", "2F"),
+    54: ("1G", "2H"),
+    55: ("1F", "2E"),
+    56: ("1H", "2G"),
+    57: ("W53", "W54"),
+    58: ("W49", "W50"),
+    59: ("W55", "W56"),
+    60: ("W51", "W52"),
+    61: ("W57", "W58"),
+    62: ("W59", "W60"),
+    63: ("L61", "L62"),
+    64: ("W61", "W62"),
+}
+
+
+def round_code_from_stage(stage: object) -> str:
+    """Normalize a World Cup stage label into the simulator's round code."""
+    normalized = normalize_key(str(stage))
+    if normalized in ROUND_CODE_BY_STAGE:
+        return ROUND_CODE_BY_STAGE[normalized]
+    if "group" in normalized:
+        return "GS"
+    if "32" in normalized:
+        return "R32"
+    if "16" in normalized:
+        return "R16"
+    if "quarter" in normalized:
+        return "QF"
+    if "semi" in normalized:
+        return "SF"
+    if "third" in normalized:
+        return "3P"
+    if "final" in normalized:
+        return "F"
+    raise ValueError(f"Unsupported World Cup stage label: {stage}")
+
+
+def tournament_holdout_label(edition_year: int) -> str:
+    """Return the public validation holdout label for one World Cup edition."""
+    return f"{int(edition_year)} FIFA World Cup"
+
+
+def validation_artifact_filenames(edition_year: int) -> dict[str, str]:
+    """Return fold-aware validation artifact filenames for one holdout edition."""
+    year = int(edition_year)
+    return {
+        "json": f"model_validation_{year}.json",
+        "match_predictions": f"match_predictions_{year}.csv",
+        "team_backtest": f"team_backtest_{year}.csv",
+    }
+
+
+def _actual_group_rank_lookup(
+    results_df: pd.DataFrame,
+    group_code_lookup: dict[str, str],
+    final_position_lookup: dict[str, int],
+) -> dict[str, tuple[int, str]]:
+    """Rank actual group-stage tables and return team -> (rank, group_code)."""
+    group_matches = results_df[results_df["stage"].map(match_stage_bucket).eq(V2_STAGE_GROUP)].copy()
+    rank_lookup: dict[str, tuple[int, str]] = {}
+    for group_code in sorted(set(group_code_lookup.values())):
+        group_teams = sorted([team_name for team_name, code in group_code_lookup.items() if code == group_code])
+        table = {
+            team_name: {"points": 0, "goals_for": 0, "goals_against": 0}
+            for team_name in group_teams
+        }
+        group_fixture_rows = group_matches[
+            group_matches["home_team"].isin(group_teams) & group_matches["away_team"].isin(group_teams)
+        ].sort_values(["match_number"], kind="stable")
+        for match in group_fixture_rows.itertuples(index=False):
+            home_team = str(match.home_team)
+            away_team = str(match.away_team)
+            home_score = int(match.home_score)
+            away_score = int(match.away_score)
+            table[home_team]["goals_for"] += home_score
+            table[home_team]["goals_against"] += away_score
+            table[away_team]["goals_for"] += away_score
+            table[away_team]["goals_against"] += home_score
+            if home_score > away_score:
+                table[home_team]["points"] += 3
+            elif away_score > home_score:
+                table[away_team]["points"] += 3
+            else:
+                table[home_team]["points"] += 1
+                table[away_team]["points"] += 1
+
+        ranked = sorted(
+            table,
+            key=lambda team_name: (
+                -table[team_name]["points"],
+                -(table[team_name]["goals_for"] - table[team_name]["goals_against"]),
+                -table[team_name]["goals_for"],
+                final_position_lookup.get(team_name, 999),
+                team_name,
+            ),
+        )
+        for index, team_name in enumerate(ranked, start=1):
+            rank_lookup[team_name] = (index, group_code)
+    return rank_lookup
+
+
+def _match_winner_loser(row: object) -> tuple[str, str]:
+    """Return winner and loser team names for a played knockout match row."""
+    home_team = str(getattr(row, "home_team"))
+    away_team = str(getattr(row, "away_team"))
+    home_score = int(getattr(row, "home_score"))
+    away_score = int(getattr(row, "away_score"))
+    if home_score > away_score:
+        return home_team, away_team
+    if away_score > home_score:
+        return away_team, home_team
+    shootout_winner = str(getattr(row, "shootout_winner", "") or "")
+    if shootout_winner:
+        if shootout_winner in {home_team, str(getattr(row, "home_team_code", ""))}:
+            return home_team, away_team
+        if shootout_winner in {away_team, str(getattr(row, "away_team_code", ""))}:
+            return away_team, home_team
+    return home_team, away_team
+
+
+def derive_knockout_slot_lookup(
+    results_df: pd.DataFrame,
+    group_code_lookup: dict[str, str],
+    final_position_lookup: dict[str, int],
+) -> dict[int, tuple[str, str]]:
+    """Derive bracket slot labels from actual group ranks and prior knockout results."""
+    group_rank_lookup = _actual_group_rank_lookup(results_df, group_code_lookup, final_position_lookup)
+    knockout_rows = (
+        results_df[~results_df["stage"].map(match_stage_bucket).eq(V2_STAGE_GROUP)]
+        .sort_values(["match_number"], kind="stable")
+        .reset_index(drop=True)
+    )
+    if knockout_rows.empty:
+        return {}
+
+    participant_sources: dict[str, list[tuple[int, str]]] = {}
+    slot_lookup: dict[int, tuple[str, str]] = {}
+    for row in knockout_rows.itertuples(index=False):
+        match_number = int(row.match_number)
+        labels: list[str] = []
+        for team_name in [str(row.home_team), str(row.away_team)]:
+            prior_sources = participant_sources.get(team_name, [])
+            if prior_sources:
+                labels.append(prior_sources[-1][1])
+            else:
+                rank, group_code = group_rank_lookup[team_name]
+                labels.append(f"{rank}{group_code}")
+        slot_lookup[match_number] = (labels[0], labels[1])
+
+        winner, loser = _match_winner_loser(row)
+        participant_sources.setdefault(winner, []).append((match_number, f"W{match_number}"))
+        participant_sources.setdefault(loser, []).append((match_number, f"L{match_number}"))
+    return slot_lookup
+
+
+def tournament_knockout_slot_lookup(
+    edition_year: int,
+    results_df: pd.DataFrame,
+    group_code_lookup: dict[str, str],
+    final_position_lookup: dict[str, int],
+) -> dict[int, tuple[str, str]]:
+    """Return simulator bracket slot labels, preserving legacy 2022 orientation."""
+    derived_lookup = derive_knockout_slot_lookup(results_df, group_code_lookup, final_position_lookup)
+    if int(edition_year) == 2022:
+        return dict(BACKTEST_2022_KNOCKOUT_SLOT_LOOKUP)
+    return derived_lookup
+
+
+@lru_cache(maxsize=8)
+def _build_historical_world_cup_backtest_data_cached(edition_year: int = 2022) -> dict[str, object]:
+    return _build_historical_world_cup_backtest_data_uncached(edition_year, data=None)
+
+
+def build_historical_world_cup_backtest_data(
+    edition_year: int = 2022,
+    data: dict[str, pd.DataFrame] | None = None,
+) -> dict[str, object]:
+    """Build one historical World Cup's leakage-free backtest inputs."""
+    if data is None:
+        return _build_historical_world_cup_backtest_data_cached(int(edition_year))
+    return _build_historical_world_cup_backtest_data_uncached(int(edition_year), data=data)
+
+
+def _build_historical_world_cup_backtest_data_uncached(
+    edition_year: int = 2022,
+    data: dict[str, pd.DataFrame] | None = None,
+) -> dict[str, object]:
+    """Build one historical World Cup's leakage-free backtest inputs."""
+    edition_year = int(edition_year)
+    if data is None:
+        results_path = WORLD_CUP_ROOT / str(edition_year) / "results.csv"
+        if not results_path.exists():
+            raise ValueError(f"{edition_year} World Cup files are unavailable for backtesting")
+        results_source = pd.read_csv(results_path)
+    else:
+        results_source = data["results"].copy()
+        results_source["edition"] = pd.to_numeric(results_source["edition"], errors="coerce")
+        results_source = results_source[results_source["edition"].eq(edition_year)].copy()
+        if results_source.empty:
+            raise ValueError(f"{edition_year} World Cup rows are unavailable in preloaded validation data")
+
+    results_df = normalize_match_level_results(results_source)
     results_df["match_number"] = pd.to_numeric(results_df["match_number"], errors="coerce").astype(int)
     results_df["date"] = pd.to_datetime(results_df["date"], errors="coerce")
-    placement_df["position"] = pd.to_numeric(placement_df["position"], errors="coerce").astype(int)
-    placement_df["start_elo"] = pd.to_numeric(placement_df["start_elo"], errors="coerce")
 
-    group_code_lookup = build_2022_group_code_lookup(results_df)
-    confederation_lookup = load_historical_confederation_lookup()
-    all_placement_df, edition_team_counts, edition_weight_map = load_historical_placement_history()
+    group_code_lookup = build_historical_group_code_lookup(results_df)
+    team_history_df, edition_team_counts, edition_weight_map = load_historical_team_history(data)
+    teams_df = team_history_df[team_history_df["edition"].eq(edition_year)].copy()
+    if teams_df.empty:
+        raise ValueError(f"{edition_year} team history is unavailable for backtesting")
+    teams_df["position"] = pd.to_numeric(teams_df["position"], errors="coerce").astype(int)
+    teams_df["start_elo"] = pd.to_numeric(teams_df["start_elo"], errors="coerce")
+    if data is None:
+        confederation_lookup = load_historical_confederation_lookup()
+    else:
+        confederation_lookup = teams_df.set_index("team_key")["confederation"].fillna("").astype(str).to_dict()
 
     code_lookup: dict[str, str] = {}
     for row in results_df.itertuples(index=False):
         code_lookup[str(row.home_team)] = str(row.home_team_code)
         code_lookup[str(row.away_team)] = str(row.away_team_code)
-    if "team_code" in placement_df.columns:
-        for row in placement_df.dropna(subset=["team_code"]).itertuples(index=False):
+    if "team_code" in teams_df.columns:
+        for row in teams_df.dropna(subset=["team_code"]).itertuples(index=False):
             code_lookup[str(row.country)] = str(row.team_code)
 
     edition_start = pd.to_datetime(results_df["date"], errors="coerce").min()
     if pd.isna(edition_start):
-        raise ValueError("2022 results are missing valid match dates")
+        raise ValueError(f"{edition_year} results are missing valid match dates")
 
     base_rows: list[dict[str, object]] = []
     elo_ranks = (
-        placement_df.loc[:, ["country", "start_elo"]]
+        teams_df.loc[:, ["country", "start_elo"]]
         .sort_values(["start_elo", "country"], ascending=[False, True], kind="stable")
         .reset_index(drop=True)
     )
     elo_rank_lookup = {str(row.country): index + 1 for index, row in elo_ranks.iterrows()}
 
-    for row in placement_df.sort_values(["position", "country"], kind="stable").itertuples(index=False):
+    for row in teams_df.sort_values(["position", "country"], kind="stable").itertuples(index=False):
         team_name = str(row.country)
         team_key = normalize_historical_team_name(team_name)
         prior_editions = select_prior_editions(
-            2022,
+            edition_year,
             edition_weight_map,
             edition_lookback=V2_PREVIOUS_EDITION_LOOKBACK,
         )
-        prior_rows = all_placement_df[
-            all_placement_df["team_key"].eq(team_key) & all_placement_df["edition"].isin(prior_editions)
+        prior_rows = team_history_df[
+            team_history_df["team_key"].eq(team_key) & team_history_df["edition"].isin(prior_editions)
         ]
         team_prior_editions = sorted({int(edition) for edition in prior_rows["edition"].dropna().astype(int).tolist()})
         weighted_participations = float(sum(edition_weight_map[int(edition)] for edition in prior_editions))
         history_features = compute_pre_tournament_history_features(
             team_key,
-            2022,
-            all_placement_df,
+            edition_year,
+            team_history_df,
             edition_team_counts,
             edition_weight_map,
             edition_lookback=V2_PREVIOUS_EDITION_LOOKBACK,
@@ -1114,77 +1683,80 @@ def build_2022_backtest_data() -> dict[str, object]:
         kind="stable",
     ).reset_index(drop=True)
 
-    lead_in_rows: list[dict[str, object]] = []
-    country_results_lookup = load_historical_country_results_lookup()
-    lead_in_counter = 1
-    for team_row in base_df.itertuples(index=False):
-        team_key = normalize_historical_team_name(str(team_row.canonical_name))
-        team_results = country_results_lookup.get(team_key, pd.DataFrame()).copy()
-        if team_results.empty:
-            continue
-        team_results["date"] = pd.to_datetime(team_results["date"], errors="coerce")
-        team_results = team_results[team_results["date"] < edition_start].sort_values(["date"], kind="stable")
-        for result_row in team_results.itertuples(index=False):
-            lead_in_rows.append(
-                {
-                    "lead_in_id": f"2022_lead_in_{lead_in_counter:06d}",
-                    "date": pd.Timestamp(result_row.date).strftime("%Y-%m-%d"),
-                    "qualified_team_id": str(team_row.team_id),
-                    "qualified_team_name": str(team_row.canonical_name),
-                    "opponent_name": str(getattr(result_row, "opponent", "")),
-                    "team_score": getattr(result_row, "team_score", np.nan),
-                    "opponent_score": getattr(result_row, "opponent_score", np.nan),
-                    "goal_difference": (
-                        pd.to_numeric(getattr(result_row, "team_score", np.nan), errors="coerce")
-                        - pd.to_numeric(getattr(result_row, "opponent_score", np.nan), errors="coerce")
-                    ),
-                    "result": str(getattr(result_row, "result", "")),
-                    "team_elo_start": getattr(result_row, "team_elo_start", np.nan),
-                    "opponent_elo_start": getattr(result_row, "opponent_elo_start", np.nan),
-                    "team_elo_delta": getattr(result_row, "team_elo_delta", np.nan),
-                }
-            )
-            lead_in_counter += 1
-    lead_in_df = pd.DataFrame(lead_in_rows)
+    if data is not None and "lead_in" in data:
+        lead_in_df = data["lead_in"].copy()
+        lead_in_df["date"] = pd.to_datetime(lead_in_df["date"], errors="coerce")
+        lead_in_df = lead_in_df[
+            lead_in_df["qualified_team_id"].astype(str).isin(set(base_df["team_id"].astype(str)))
+            & (lead_in_df["date"] < edition_start)
+        ].copy()
+    else:
+        lead_in_rows: list[dict[str, object]] = []
+        country_results_lookup = load_historical_country_results_lookup()
+        lead_in_counter = 1
+        for team_row in base_df.itertuples(index=False):
+            team_key = normalize_historical_team_name(str(team_row.canonical_name))
+            team_results = country_results_lookup.get(team_key, pd.DataFrame()).copy()
+            if team_results.empty:
+                continue
+            team_results["date"] = pd.to_datetime(team_results["date"], errors="coerce")
+            team_results = team_results[team_results["date"] < edition_start].sort_values(["date"], kind="stable")
+            for result_row in team_results.itertuples(index=False):
+                lead_in_rows.append(
+                    {
+                        "lead_in_id": f"{edition_year}_lead_in_{lead_in_counter:06d}",
+                        "date": pd.Timestamp(result_row.date).strftime("%Y-%m-%d"),
+                        "qualified_team_id": str(team_row.team_id),
+                        "qualified_team_name": str(team_row.canonical_name),
+                        "opponent_name": str(getattr(result_row, "opponent", "")),
+                        "team_score": getattr(result_row, "team_score", np.nan),
+                        "opponent_score": getattr(result_row, "opponent_score", np.nan),
+                        "goal_difference": (
+                            pd.to_numeric(getattr(result_row, "team_score", np.nan), errors="coerce")
+                            - pd.to_numeric(getattr(result_row, "opponent_score", np.nan), errors="coerce")
+                        ),
+                        "result": str(getattr(result_row, "result", "")),
+                        "team_elo_start": getattr(result_row, "team_elo_start", np.nan),
+                        "opponent_elo_start": getattr(result_row, "opponent_elo_start", np.nan),
+                        "team_elo_delta": getattr(result_row, "team_elo_delta", np.nan),
+                    }
+                )
+                lead_in_counter += 1
+        lead_in_df = pd.DataFrame(lead_in_rows)
 
+    snapshot_features_df = pd.DataFrame()
+    if data is not None:
+        from .feature_snapshots import get_team_features_at_date
+
+        snapshot_features_df = get_team_features_at_date(
+            base_df["team_id"].astype(str).tolist(),
+            edition_year,
+            pd.Timestamp(edition_start).date(),
+            data,
+        )
+        base_df = base_df.copy()
+        base_df["elo_rating"] = base_df["team_id"].astype(str).map(snapshot_features_df["start_elo"]).fillna(base_df["elo_rating"])
+
+    final_position_lookup = {str(row.country): int(row.position) for row in teams_df.itertuples(index=False)}
+    knockout_slot_lookup = tournament_knockout_slot_lookup(
+        edition_year,
+        results_df,
+        group_code_lookup,
+        final_position_lookup,
+    )
     fixtures_rows: list[dict[str, object]] = []
-    knockout_slot_lookup = {
-        49: ("1A", "2B"),
-        50: ("1C", "2D"),
-        51: ("1D", "2C"),
-        52: ("1B", "2A"),
-        53: ("1E", "2F"),
-        54: ("1G", "2H"),
-        55: ("1F", "2E"),
-        56: ("1H", "2G"),
-        57: ("W53", "W54"),
-        58: ("W49", "W50"),
-        59: ("W55", "W56"),
-        60: ("W51", "W52"),
-        61: ("W57", "W58"),
-        62: ("W59", "W60"),
-        63: ("L61", "L62"),
-        64: ("W61", "W62"),
-    }
-    round_code_lookup = {
-        "Group Stage": "GS",
-        "Round of 16": "R16",
-        "Quarter-final": "QF",
-        "Semi-final": "SF",
-        "Third Place": "3P",
-        "Final": "F",
-    }
     for row in results_df.sort_values(["match_number"], kind="stable").itertuples(index=False):
         match_number = int(row.match_number)
         home_slot_label, away_slot_label = knockout_slot_lookup.get(match_number, ("", ""))
+        is_group_stage = match_stage_bucket(str(row.stage)) == V2_STAGE_GROUP
         fixtures_rows.append(
             {
-                "match_id": f"2022_{match_number}",
+                "match_id": f"{edition_year}_{match_number}",
                 "match_number": match_number,
-                "edition_year": 2022,
-                "round_code": round_code_lookup[str(row.stage)],
+                "edition_year": edition_year,
+                "round_code": round_code_from_stage(row.stage),
                 "round_name": str(row.stage),
-                "group_code": group_code_lookup.get(str(row.home_team), "") if str(row.stage) == "Group Stage" else "",
+                "group_code": group_code_lookup.get(str(row.home_team), "") if is_group_stage else "",
                 "kickoff_datetime_utc": f"{pd.Timestamp(row.date).strftime('%Y-%m-%d')}T00:00:00Z",
                 "home_team_id": str(code_lookup[str(row.home_team)]),
                 "away_team_id": str(code_lookup[str(row.away_team)]),
@@ -1206,9 +1778,16 @@ def build_2022_backtest_data() -> dict[str, object]:
         "lead_in_df": lead_in_df,
         "fixtures_df": fixtures_df,
         "results_df": results_df,
-        "placement_df": placement_df,
+        "teams_df": teams_df,
         "group_code_lookup": group_code_lookup,
+        "snapshot_features_df": snapshot_features_df,
     }
+
+
+@lru_cache(maxsize=1)
+def build_2022_backtest_data() -> dict[str, object]:
+    """Build the 2022 World Cup inputs needed for leakage-free backtests."""
+    return build_historical_world_cup_backtest_data(2022)
 
 
 def _head_to_head_stats(
@@ -1431,18 +2010,20 @@ def get_average_third_place_stats(simulation_df: pd.DataFrame) -> dict[str, dict
     }
 
 
-def build_2022_actual_group_standings(
+def build_actual_group_standings(
     results_df: pd.DataFrame,
     group_code_lookup: dict[str, str],
     team_feature_df: pd.DataFrame,
+    group_order: Iterable[str] | None = None,
 ) -> pd.DataFrame:
-    """Rank the real 2022 groups using the simulator's tie-break logic."""
+    """Rank real group-stage tables using the simulator's tie-break logic."""
     actual_rows: list[pd.DataFrame] = []
     strength_lookup = team_feature_df.set_index("team_id")["team_strength"].astype(float).to_dict()
     name_to_team_id = team_feature_df.set_index("display_name")["team_id"].astype(str).to_dict()
-    group_matches = results_df[results_df["stage"] == "Group Stage"].copy()
+    group_matches = results_df[results_df["stage"].map(match_stage_bucket).eq(V2_STAGE_GROUP)].copy()
+    resolved_group_order = list(group_order) if group_order is not None else sorted(set(group_code_lookup.values()))
 
-    for group_code in BACKTEST_2022_GROUP_ORDER:
+    for group_code in resolved_group_order:
         group_teams = sorted([team_name for team_name, code in group_code_lookup.items() if code == group_code])
         if not group_teams:
             continue
@@ -1502,6 +2083,20 @@ def build_2022_actual_group_standings(
     return pd.concat(actual_rows, ignore_index=True)
 
 
+def build_2022_actual_group_standings(
+    results_df: pd.DataFrame,
+    group_code_lookup: dict[str, str],
+    team_feature_df: pd.DataFrame,
+) -> pd.DataFrame:
+    """Compatibility wrapper for callers/tests that still use the 2022 name."""
+    return build_actual_group_standings(
+        results_df,
+        group_code_lookup,
+        team_feature_df,
+        group_order=BACKTEST_2022_GROUP_ORDER,
+    )
+
+
 def stage_label_from_position(position: int) -> str:
     """Convert a placement position into the farthest stage reached label."""
     position = int(position)
@@ -1530,13 +2125,22 @@ __all__ = [
     'normalize_training_scope',
     'classify_competition_importance',
     'load_world_cup_edition_start_dates',
+    'world_cup_edition_start_dates_from_results',
     'resolve_training_anchor_year',
     'resolve_training_anchor_date',
+    'resolve_training_anchor_year_from_results',
+    'resolve_training_anchor_date_from_results',
     'training_metadata_from_frame',
     'select_prior_editions',
     'extract_group_stage_fixtures',
     'extract_knockout_fixtures',
     'extract_main_bracket_fixtures',
+    'build_historical_world_cup_backtest_data',
+    'derive_knockout_slot_lookup',
+    'tournament_knockout_slot_lookup',
+    'round_code_from_stage',
+    'tournament_holdout_label',
+    'validation_artifact_filenames',
     'build_recent_form_metrics',
     'build_weighted_form_table',
     'build_team_strengths',
@@ -1549,8 +2153,11 @@ __all__ = [
     'latest_pre_tournament_elo',
     'compute_weighted_form_snapshot',
     'build_weighted_form_feature_lookup',
+    'lead_in_to_match_level_results',
+    'world_cup_results_to_match_level_results',
+    'build_snapshot_training_frame',
     'load_historical_world_cup_results',
-    'load_historical_placement_history',
+    'load_historical_team_history',
     'compute_pre_tournament_history_features',
     'build_pre_tournament_team_features_by_edition',
     'load_historical_confederation_lookup',
@@ -1566,6 +2173,7 @@ __all__ = [
     'stable_seed_from_tokens',
     'get_modal_group_rankings',
     'get_average_third_place_stats',
+    'build_actual_group_standings',
     'build_2022_actual_group_standings',
     'stage_label_from_position'
 ]

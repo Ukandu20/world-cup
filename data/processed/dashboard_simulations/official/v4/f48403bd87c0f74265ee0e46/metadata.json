@@ -1,0 +1,26 @@
+{
+  "alpha": 1.0,
+  "alpha_source": "time_series_cv",
+  "artifact_key": "f48403bd87c0f74265ee0e46",
+  "bracket_head_to_head_simulations": 10000,
+  "created_at_utc": "2026-05-31T11:15:43Z",
+  "data_build_date": "2026-04-03",
+  "match_window": 10,
+  "model_id": "v4",
+  "model_version": "v4",
+  "rho": 0.0,
+  "rho_source": "time_series_oof_grid_search",
+  "seed": 20260403,
+  "simulations": 20000,
+  "source_tier": "official",
+  "stage_multipliers": {
+    "final": 1.15,
+    "group": 1.0,
+    "quarter": 0.8101482326111745,
+    "round_of_16": 1.0266533637400228,
+    "round_of_32": 0.94,
+    "semi": 0.9218928164196123
+  },
+  "time_decay_halflife_days": 1095,
+  "training_scope": "world_cup_only"
+}

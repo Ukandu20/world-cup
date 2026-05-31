@@ -20,6 +20,7 @@ from .config import (
     MODEL_VERSION,
     SIMULATION_COUNT,
     SIMULATION_OPTIONS,
+    TRAINING_SCOPE_ALL_INTERNATIONAL,
     TRAINING_SCOPE_LABEL_BY_VALUE,
     TRAINING_SCOPE_LABELS,
     V1_STATE_KEY,
@@ -42,7 +43,6 @@ from .config import (
     V4_MODEL_SUMMARY,
     V4_MODEL_VERSION,
     V4_PROB_STATE_KEY,
-    V4_ROLLING_BACKTEST_STATE_KEY,
     VIEW_OPTIONS,
     WEIGHTED_FORM_COMPOSITE_WEIGHTS,
     build_deterministic_bracket,
@@ -54,7 +54,7 @@ from .config import (
     fit_v2_match_multinomial_model,
     fit_v3_poisson_models,
 )
-from .data import load_data, load_world_cup_logo_data_uri
+from .data import load_data, load_validation_artifacts, load_world_cup_logo_data_uri
 from .export import (
     bracket_to_download_frame,
     combine_table_download_frames,
@@ -69,7 +69,6 @@ from .modeling import (
     run_v2_backtest_2022_dashboard,
     run_v3_backtest_2022_dashboard,
     run_v4_backtest_2022_dashboard,
-    run_v4_rolling_backtest_dashboard,
     simulate_probabilities,
     simulate_probabilities_v3_dashboard,
     simulate_probabilities_v4_dashboard,
@@ -153,6 +152,46 @@ def display_artifact_status(load_result: ArtifactLoadResult, model_label: str) -
         st.caption(f"Fresh {source_label} {model_label} simulation run saved at {created_at}.")
     else:
         st.caption(f"Using {source_label} cached {model_label} simulation run from {created_at}.")
+
+
+def _validation_filter_options(frame: pd.DataFrame, column: str) -> list:
+    if frame.empty or column not in frame.columns:
+        return []
+    return sorted(frame[column].dropna().unique().tolist())
+
+
+def _filter_validation_frame(
+    frame: pd.DataFrame,
+    *,
+    model_families: list[str] | None = None,
+    scopes: list[str] | None = None,
+    fold_years: list[int] | None = None,
+) -> pd.DataFrame:
+    filtered = frame.copy()
+    if model_families and "model_family" in filtered.columns:
+        filtered = filtered[filtered["model_family"].isin(model_families)]
+    if scopes and "scope" in filtered.columns:
+        filtered = filtered[filtered["scope"].isin(scopes)]
+    if fold_years and "fold_year" in filtered.columns:
+        filtered = filtered[filtered["fold_year"].isin(fold_years)]
+    return filtered
+
+
+def render_validation_findings_cards(headline_findings: dict[str, str]) -> None:
+    """Render the multi-fold validation headline cards."""
+    cards = st.columns(4)
+    cards[0].metric("Best mean log loss", headline_findings.get("best_log_loss", "Unavailable"))
+    cards[1].metric("Best mean Brier", headline_findings.get("best_brier", "Unavailable"))
+    cards[2].metric("Best top-1 accuracy", headline_findings.get("best_top1", "Unavailable"))
+    cards[3].metric("Dominance conclusion", headline_findings.get("dominance", "Unavailable"))
+
+
+def render_drilldown_backtest_banner() -> None:
+    """Point users from one-year backtest drilldowns to the current multi-fold findings."""
+    st.info(
+        "For the current 2014/2018/2022 multi-fold validation findings, open Backtests > Multi-Fold Backtests. "
+        "This page remains an interactive 2022 single-holdout drilldown."
+    )
 
 
 def render_table_data_downloads(
@@ -252,6 +291,27 @@ def load_or_run_probability_artifact(
         warnings=loaded.warnings + created.warnings,
         created=True,
     )
+
+
+def migrate_default_training_scope(
+    state_key: str,
+    *,
+    default_scope: str,
+    widget_key: str | None = None,
+) -> None:
+    """Reset stale pre-default-change training scope state to the active default."""
+    current_settings = st.session_state.get(state_key)
+    if (
+        isinstance(current_settings, dict)
+        and str(current_settings.get("training_scope", "")) == TRAINING_SCOPE_ALL_INTERNATIONAL
+        and default_scope != TRAINING_SCOPE_ALL_INTERNATIONAL
+    ):
+        st.session_state[state_key] = {
+            **current_settings,
+            "training_scope": default_scope,
+        }
+        if widget_key is not None:
+            st.session_state.pop(widget_key, None)
 
 
 def first_team_by_metric(df: pd.DataFrame, metric_column: str) -> pd.Series:
@@ -641,6 +701,11 @@ def render_v3_probabilities_dashboard() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     if V3_PROB_STATE_KEY not in st.session_state:
         st.session_state[V3_PROB_STATE_KEY] = default_simulation_settings()
+    migrate_default_training_scope(
+        V3_PROB_STATE_KEY,
+        default_scope=DEFAULT_V3_TRAINING_SCOPE,
+        widget_key="v3_prob_training_scope",
+    )
     current_settings = dict(st.session_state[V3_PROB_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
@@ -676,7 +741,7 @@ def render_v3_probabilities_dashboard() -> None:
             "Training data",
             tuple(TRAINING_SCOPE_LABELS.keys()),
             index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
             ),
             horizontal=True,
             key="v3_prob_training_scope",
@@ -771,6 +836,11 @@ def render_v4_probabilities_dashboard() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     if V4_PROB_STATE_KEY not in st.session_state:
         st.session_state[V4_PROB_STATE_KEY] = default_simulation_settings()
+    migrate_default_training_scope(
+        V4_PROB_STATE_KEY,
+        default_scope=DEFAULT_V4_TRAINING_SCOPE,
+        widget_key="v4_prob_training_scope",
+    )
     current_settings = dict(st.session_state[V4_PROB_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
@@ -806,7 +876,7 @@ def render_v4_probabilities_dashboard() -> None:
             "Training data",
             tuple(TRAINING_SCOPE_LABELS.keys()),
             index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
             ),
             horizontal=True,
             key="v4_prob_training_scope",
@@ -977,6 +1047,7 @@ def render_v2_2022_backtest_dashboard() -> None:
         "and prior-5-edition World Cup history features. "
         "It reports match-level calibration plus tournament-level hit rates."
     )
+    render_drilldown_backtest_banner()
 
     with st.spinner(f"Running the 2022 holdout backtest with {simulation_count:,} simulations..."):
         backtest = run_v2_backtest_2022_dashboard(
@@ -1090,6 +1161,11 @@ def render_v3_2022_backtest_dashboard() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     if V3_BACKTEST_2022_STATE_KEY not in st.session_state:
         st.session_state[V3_BACKTEST_2022_STATE_KEY] = default_simulation_settings()
+    migrate_default_training_scope(
+        V3_BACKTEST_2022_STATE_KEY,
+        default_scope=DEFAULT_V3_TRAINING_SCOPE,
+        widget_key="v3_backtest_2022_training_scope",
+    )
     current_settings = dict(st.session_state[V3_BACKTEST_2022_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
@@ -1127,7 +1203,7 @@ def render_v3_2022_backtest_dashboard() -> None:
             "Training data",
             tuple(TRAINING_SCOPE_LABELS.keys()),
             index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
             ),
             horizontal=True,
             key="v3_backtest_2022_training_scope",
@@ -1146,6 +1222,7 @@ def render_v3_2022_backtest_dashboard() -> None:
         f"then backtests the actual tournament using weighted form from the last {form_match_window} Elo-rated matches and prior-5-edition pedigree features. "
         "It reports match-level calibration plus tournament-level hit rates."
     )
+    render_drilldown_backtest_banner()
 
     with st.spinner(f"Running the 2022 V3 backtest with {simulation_count:,} simulations..."):
         backtest = run_v3_backtest_2022_dashboard(
@@ -1264,6 +1341,11 @@ def render_v4_2022_backtest_dashboard() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     if V4_BACKTEST_2022_STATE_KEY not in st.session_state:
         st.session_state[V4_BACKTEST_2022_STATE_KEY] = default_simulation_settings()
+    migrate_default_training_scope(
+        V4_BACKTEST_2022_STATE_KEY,
+        default_scope=DEFAULT_V4_TRAINING_SCOPE,
+        widget_key="v4_backtest_2022_training_scope",
+    )
     current_settings = dict(st.session_state[V4_BACKTEST_2022_STATE_KEY])
 
     simulation_labels = tuple(SIMULATION_OPTIONS.keys())
@@ -1300,7 +1382,7 @@ def render_v4_2022_backtest_dashboard() -> None:
             "Training data",
             tuple(TRAINING_SCOPE_LABELS.keys()),
             index=tuple(TRAINING_SCOPE_LABELS.keys()).index(
-                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "All international since anchor")
+                TRAINING_SCOPE_LABEL_BY_VALUE.get(current_training_scope, "World Cup only")
             ),
             horizontal=True,
             key="v4_backtest_2022_training_scope",
@@ -1317,6 +1399,7 @@ def render_v4_2022_backtest_dashboard() -> None:
         f"Model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
         "This V4 holdout uses quadratic form, Dixon-Coles probabilities, stage effects, and time-decayed training weights."
     )
+    render_drilldown_backtest_banner()
     with st.spinner(f"Running the 2022 V4 backtest with {simulation_count:,} simulations..."):
         backtest = run_v4_backtest_2022_dashboard(
             simulations=simulation_count,
@@ -1370,50 +1453,130 @@ def render_v4_2022_backtest_dashboard() -> None:
 
 
 def render_v4_rolling_backtest_dashboard() -> None:
-    """Render the V4 rolling holdout backtest page."""
+    """Render artifact-backed multi-fold validation findings."""
     inject_styles()
     _, _, _, metadata = load_data()
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
-    if V4_ROLLING_BACKTEST_STATE_KEY not in st.session_state:
-        st.session_state[V4_ROLLING_BACKTEST_STATE_KEY] = default_simulation_settings()
-    current_settings = dict(st.session_state[V4_ROLLING_BACKTEST_STATE_KEY])
-
-    simulation_labels = tuple(SIMULATION_OPTIONS.keys())
-    initial_simulation_label = str(st.session_state.get("v4_rolling_simulation_label", current_settings["simulation_label"]))
     render_dashboard_header(
         world_cup_logo_data_uri,
         metadata,
-        SIMULATION_OPTIONS[initial_simulation_label],
-        title="V4 Rolling Backtest",
-        model_version=V4_MODEL_VERSION,
-        model_label=V4_MODEL_LABEL,
+        SIMULATION_COUNT,
+        title="Multi-Fold Backtest Findings",
+        model_version="Validation",
+        model_label="2014, 2018, and 2022 holdout folds",
     )
-    with render_filter_bar("Model Filters"):
-        simulation_label = st.radio(
-            "Simulation runs",
-            simulation_labels,
-            index=simulation_labels.index(current_settings["simulation_label"]),
-            horizontal=True,
-            key="v4_rolling_simulation_label",
+
+    artifacts = load_validation_artifacts()
+    if not artifacts["available"]:
+        st.warning(artifacts["warning"])
+        return
+
+    metadata = dict(artifacts["metadata"])
+    run_settings = dict(metadata.get("run_settings", {}))
+    st.caption(
+        "Committed validation artifacts are loaded from disk, so this page does not rerun the expensive 20,000-simulation "
+        "multi-fold backtest. See [docs/model_card.md](docs/model_card.md) for full validation detail."
+    )
+    st.caption(
+        f"Generated at {metadata.get('generated_at_utc', 'unknown time')} | "
+        f"seed {run_settings.get('seed', 'unknown')} | simulations {int(run_settings.get('simulations', 0)):,}"
+    )
+
+    aggregate_display = artifacts["aggregate_display"]
+    per_fold_display = artifacts["per_fold_display"]
+    calibration_display = artifacts["calibration_display"]
+
+    model_families = _validation_filter_options(aggregate_display, "model_family")
+    scopes = _validation_filter_options(aggregate_display, "scope")
+    fold_years = _validation_filter_options(per_fold_display, "fold_year")
+    with render_filter_bar("Validation Filters"):
+        selected_models = st.multiselect(
+            "Model family",
+            model_families,
+            default=model_families,
+            key="multi_fold_model_family",
         )
-    form_match_window = int(current_settings.get("form_match_window", DEFAULT_RECENT_MATCH_WINDOW))
-    training_scope = DEFAULT_V4_TRAINING_SCOPE
-    simulation_count = SIMULATION_OPTIONS[simulation_label]
-    st.session_state[V4_ROLLING_BACKTEST_STATE_KEY] = {
-        "simulation_label": simulation_label,
-        "form_match_window": form_match_window,
-        "training_scope": training_scope,
-    }
-    with st.spinner(f"Running V4 rolling backtest with {simulation_count:,} simulations..."):
-        backtest = run_v4_rolling_backtest_dashboard(
-            simulations=simulation_count,
-            match_window=form_match_window,
-            training_scope=training_scope,
+        selected_scopes = st.multiselect(
+            "Training scope",
+            scopes,
+            default=scopes,
+            key="multi_fold_training_scope",
         )
-    st.markdown("**Fold Results**")
-    st.dataframe(pd.DataFrame(backtest["folds"]), width="stretch", hide_index=True)
-    st.markdown("**Aggregate Metrics**")
-    st.dataframe(pd.DataFrame(backtest["aggregate_metrics"]), width="stretch", hide_index=True)
+        selected_folds = st.multiselect(
+            "Fold year",
+            fold_years,
+            default=fold_years,
+            key="multi_fold_year",
+        )
+
+    render_validation_findings_cards(artifacts["headline_findings"])
+
+    aggregate_filtered = _filter_validation_frame(
+        aggregate_display,
+        model_families=selected_models,
+        scopes=selected_scopes,
+    )
+    aggregate_columns = [
+        "model",
+        "scope",
+        "log_loss mean+/-std",
+        "brier mean+/-std",
+        "top1_acc mean+/-std",
+        "champion_hits/3",
+    ]
+    st.markdown("**Aggregate Validation**")
+    st.dataframe(
+        aggregate_filtered.loc[:, [column for column in aggregate_columns if column in aggregate_filtered.columns]],
+        width="stretch",
+        hide_index=True,
+    )
+
+    per_fold_filtered = _filter_validation_frame(
+        per_fold_display,
+        model_families=selected_models,
+        scopes=selected_scopes,
+        fold_years=selected_folds,
+    )
+    per_fold_columns = [
+        "fold_year",
+        "model",
+        "scope",
+        "log_loss",
+        "brier",
+        "top1_acc",
+        "draw_pred",
+        "draw_actual",
+        "r16_hits",
+        "sf_hits",
+        "champion_hit",
+    ]
+    st.markdown("**Per-Fold Results**")
+    st.dataframe(
+        per_fold_filtered.loc[:, [column for column in per_fold_columns if column in per_fold_filtered.columns]],
+        width="stretch",
+        hide_index=True,
+    )
+
+    calibration_filtered = _filter_validation_frame(
+        calibration_display,
+        model_families=selected_models,
+    )
+    st.markdown("**Calibration ECE**")
+    st.dataframe(
+        calibration_filtered.loc[
+            :,
+            [column for column in ["model", "home_win_ece", "draw_ece", "away_win_ece"] if column in calibration_filtered.columns],
+        ],
+        width="stretch",
+        hide_index=True,
+    )
+
+    st.markdown("**Anomaly Flags**")
+    anomaly_notes = list(artifacts["anomaly_notes"])
+    if anomaly_notes:
+        st.dataframe(pd.DataFrame({"flag": anomaly_notes}), width="stretch", hide_index=True)
+    else:
+        st.caption("No anomaly flags were generated from the current validation thresholds.")
 
 
 def render_home_page() -> None:
@@ -1480,6 +1643,8 @@ def render_home_page() -> None:
     if load_result.artifact is None:
         st.error("Primary V4 probability artifact could not be loaded or created.")
         return
+    artifact_scope = str(load_result.artifact.metadata.get("training_scope", training_scope))
+    artifact_scope_display = TRAINING_SCOPE_LABEL_BY_VALUE.get(artifact_scope, artifact_scope)
     dashboard_df = load_result.artifact.dashboard_df
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
     dashboard_df["top2_prob"] = (
@@ -1499,9 +1664,9 @@ def render_home_page() -> None:
           <div class="wc-home-section-head">
             <div>
               <h2 class="wc-home-section-title">Projection Snapshot</h2>
-              <p class="wc-home-section-note">Start with V4 for the current pre-tournament projection, then use the top navigation to move into team reports, model tables, and backtests.</p>
+              <p class="wc-home-section-note">Start with V4 for the current pre-tournament projection. This snapshot trains on historical World Cup finals only; use the top navigation to move into team reports, model tables, and backtests.</p>
             </div>
-            <span class="wc-home-badge">V4 Primary</span>
+            <span class="wc-home-badge">V4 Primary | {artifact_scope_display}</span>
           </div>
           <div class="wc-home-metric-grid">
             {build_home_metric_card("Favorite to Win", champion_name, champion_detail)}
@@ -1509,7 +1674,7 @@ def render_home_page() -> None:
             {build_home_metric_card("Best Group Outlook", group_name, group_detail)}
             {build_home_metric_card("Most Likely KO Team", knockout_name, knockout_detail)}
             {build_home_metric_card("Opening Match", first_kickoff["match_label"], f'{first_kickoff["kickoff_date_label"]} at {first_kickoff["kickoff_utc_time_label"]} UTC')}
-            {build_home_metric_card("Projection Run", f'{simulation_count:,} simulations', f'Model {PRIMARY_MODEL.model_version} | last {form_match_window} matches')}
+            {build_home_metric_card("Projection Run", f'{simulation_count:,} simulations', f'Model {PRIMARY_MODEL.model_version} | last {form_match_window} matches | {artifact_scope_display} training')}
           </div>
         </div>
         """,
@@ -1531,7 +1696,7 @@ def render_home_page() -> None:
             {build_home_route_card("V2 Probabilities", "Legacy > V2 Probabilities", "Compare the current projection against the alternate form-weighted multinomial model.")}
             {build_home_route_card("V2 Form", "Legacy > V2 Form", "Inspect recent form inputs, team strength components, and confederation-level form tables.")}
             {build_home_route_card("Analysis", "Reports > Analysis", "Explore historical World Cup patterns behind participation, scoring, hosts, winners, and qualifiers.")}
-            {build_home_route_card("Backtests", "Backtests", "Check how V2 and V3 performed against the 2022 World Cup before trusting current projections.")}
+            {build_home_route_card("Backtests", "Backtests", "Review V4 multi-fold validation and 2022 drilldowns before trusting current projections.")}
           </div>
         </div>
         <div class="wc-home-section">
@@ -1556,6 +1721,7 @@ def render_home_page() -> None:
             f"""
             - **ELO Rating:** numerical measure of a team's relative strength, updated after each match. Higher ratings indicate stronger teams.
             - **ELO Change/Delta:** points gained or lost after a match based on result, expected result from rating difference, and margin of victory.
+            - **Training scope:** `{artifact_scope}` uses historical World Cup finals matches for the home projection snapshot.
             - **Simulation count:** the home snapshot uses the default V4 setting of `{simulation_count:,}` tournament simulations.
             - **Interpretation:** projections are pre-tournament probabilities from model simulations, not guarantees.
             """

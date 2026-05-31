@@ -12,6 +12,8 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from apps.dashboard import pages
+from apps.dashboard import data as dashboard_data
+from apps.dashboard.config import TRAINING_SCOPE_ALL_INTERNATIONAL, TRAINING_SCOPE_WORLD_CUP_ONLY
 from apps.dashboard.model_registry import MODEL_REGISTRY, PRIMARY_MODEL_ID
 from apps.dashboard.simulation_store import (
     ArtifactSettings,
@@ -22,6 +24,7 @@ from apps.dashboard.simulation_store import (
     save_artifact,
 )
 from scripts import prewarm_dashboard_simulations
+from apps import home
 from apps import team_report_card
 
 
@@ -60,10 +63,56 @@ def test_artifact_key_is_stable_and_sensitive() -> None:
 def test_model_registry_marks_v4_primary_and_legacy_models_secondary() -> None:
     assert PRIMARY_MODEL_ID == "v4"
     assert MODEL_REGISTRY["v4"].is_primary is True
+    assert MODEL_REGISTRY["v4"].default_training_scope == TRAINING_SCOPE_WORLD_CUP_ONLY
     assert MODEL_REGISTRY["v4"].artifact_builder_name == "build_v4_probability_artifact"
     assert MODEL_REGISTRY["v1"].supports_official_artifact is False
     assert MODEL_REGISTRY["v2"].artifact_builder_name == "build_v2_probability_artifact"
+    assert MODEL_REGISTRY["v3"].default_training_scope == TRAINING_SCOPE_WORLD_CUP_ONLY
     assert MODEL_REGISTRY["v3"].is_primary is False
+
+
+def test_home_dashboard_uses_world_cup_only_primary_projection_copy() -> None:
+    source = inspect.getsource(pages.render_home_page)
+
+    assert "training_scope = PRIMARY_MODEL.default_training_scope" in source
+    assert "V4 Primary | {artifact_scope_display}" in source
+    assert "historical World Cup finals only" in source
+    assert "artifact_scope_display" in source
+    assert "Training scope:" in source
+    assert "V4 multi-fold validation" in source
+
+
+def test_probability_pages_migrate_stale_all_international_state() -> None:
+    source = inspect.getsource(pages.render_v4_probabilities_dashboard)
+    helper_source = inspect.getsource(pages.migrate_default_training_scope)
+
+    assert "migrate_default_training_scope" in source
+    assert "st.session_state.pop(widget_key, None)" in helper_source
+    assert "TRAINING_SCOPE_ALL_INTERNATIONAL" in helper_source
+    assert TRAINING_SCOPE_ALL_INTERNATIONAL == "all_international_since_anchor"
+    assert TRAINING_SCOPE_WORLD_CUP_ONLY == MODEL_REGISTRY["v4"].default_training_scope
+
+
+def test_official_v4_world_cup_only_artifact_metadata_is_committed() -> None:
+    metadata_path = (
+        ROOT
+        / "data"
+        / "processed"
+        / "dashboard_simulations"
+        / "official"
+        / "v4"
+        / "f48403bd87c0f74265ee0e46"
+        / "metadata.json"
+    )
+
+    metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+
+    assert metadata["model_id"] == "v4"
+    assert metadata["model_version"] == "v4"
+    assert metadata["simulations"] == 20_000
+    assert metadata["match_window"] == 10
+    assert metadata["training_scope"] == TRAINING_SCOPE_WORLD_CUP_ONLY
+    assert metadata["seed"] == 20260403
 
 
 def test_save_and_load_artifact_round_trip(tmp_path, monkeypatch) -> None:
@@ -248,3 +297,54 @@ def test_prewarm_default_selection_is_primary_only(monkeypatch) -> None:
     assert PRIMARY_MODEL_ID == "v4"
     assert args.model is None
     assert args.include_legacy is False
+
+
+def test_validation_artifact_loader_exposes_committed_multi_fold_rows() -> None:
+    artifacts = dashboard_data.load_validation_artifacts()
+
+    assert artifacts["available"] is True
+    assert len(artifacts["per_fold_rows"]) == 21
+    assert len(artifacts["aggregate_rows"]) == 7
+    assert len(artifacts["aggregate_model_rows"]) == 7
+    assert not artifacts["aggregate_display"].empty
+    assert not artifacts["per_fold_display"].empty
+    assert not artifacts["calibration_display"].empty
+
+
+def test_multi_fold_backtest_page_uses_validation_artifacts_not_live_rolling_runner() -> None:
+    page_source = inspect.getsource(pages.render_v4_rolling_backtest_dashboard)
+
+    assert "load_validation_artifacts" in page_source
+    assert "run_v4_rolling_backtest_dashboard" not in page_source
+    assert "Multi-Fold Backtest Findings" in page_source
+
+
+def test_navigation_exposes_multi_fold_backtests_label() -> None:
+    navigation_source = inspect.getsource(home.build_navigation_pages)
+
+    assert "Multi-Fold Backtests" in navigation_source
+    assert "V2 2022 Drilldown" in navigation_source
+    assert "V3 2022 Drilldown" in navigation_source
+    assert "V4 2022 Drilldown" in navigation_source
+    assert "V4 Rolling Backtest" not in navigation_source
+
+
+def test_validation_headline_findings_match_model_card_summary() -> None:
+    artifacts = dashboard_data.load_validation_artifacts()
+    findings = artifacts["headline_findings"]
+
+    assert findings["best_log_loss"] == "V4 World Cup only"
+    assert findings["best_brier"] == "Elo-only baseline"
+    assert findings["best_top1"] == "V3 all international since anchor"
+    assert findings["dominance"] == "No model consistently dominates all headline metrics."
+
+
+def test_missing_validation_artifact_returns_warning_state(tmp_path) -> None:
+    missing_path = tmp_path / "aggregate_validation.json"
+    artifacts = dashboard_data.load_validation_artifacts(str(missing_path))
+
+    assert artifacts["available"] is False
+    assert str(missing_path) in artifacts["warning"]
+    assert "python scripts/run_multi_fold_validation.py" in artifacts["warning"]
+    assert artifacts["aggregate_rows"].empty
+    assert artifacts["per_fold_rows"].empty
