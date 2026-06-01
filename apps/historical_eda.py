@@ -5,6 +5,7 @@ from pathlib import Path
 import re
 import sys
 
+import numpy as np
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -23,6 +24,7 @@ from world_cup_sim.analysis import (  # noqa: E402
     build_2026_implication_tables,
     build_correlation_metrics,
     build_data_quality_summary,
+    build_elo_metrics,
     build_goal_metrics,
     build_host_effect_metrics,
     build_participation_metrics,
@@ -89,6 +91,7 @@ PLACEMENT_SHORT_LABELS = {
 }
 GOALS_STAGE_ORDER = ["Group Stage", "Round of 16", "Quarter-final", "Semi-final", "Third Place", "Final"]
 GOALS_KNOCKOUT_STAGES = ["Round of 16", "Quarter-final", "Semi-final", "Third Place", "Final"]
+MAIN_BRACKET_STAGES = ["Round of 16", "Quarter-final", "Semi-final", "Final"]
 
 CHART_BACKGROUND = "#EFE3CF"
 CHART_TEXT_COLOR = "#3A2A1A"
@@ -250,6 +253,7 @@ def compute_historical_eda_outputs(
     pd.DataFrame,
     dict[str, pd.DataFrame],
     dict[str, pd.DataFrame],
+    dict[str, pd.DataFrame],
 ]:
     datasets = load_historical_eda_data()
     return (
@@ -259,6 +263,7 @@ def compute_historical_eda_outputs(
         build_goal_metrics(datasets),
         build_host_effect_metrics(datasets),
         build_winner_followup_metrics(datasets),
+        build_elo_metrics(datasets),
         build_correlation_metrics(datasets, lookback=lookback),
         build_2026_implication_tables(datasets),
     )
@@ -504,6 +509,9 @@ def chart_caption_from_title(title: object) -> str | None:
         "Host Nation Finishes": "The above chart shows how host countries finished, with point size reflecting goals scored and color identifying confederation.",
         "Champion Follow-up Performance": "The above chart tracks how each champion performed at the next World Cup, including title defenses and failed qualifications.",
         "Champion Wins by Country": "The above chart ranks World Cup champion countries by title count in the selected edition range.",
+        "Elo Upset Frequency by Stage": "The above chart shows the share of main-bracket knockout matches won by the worse tournament-start Elo-ranked team.",
+        "Champion Start-Elo Rank Outcome": "The above chart compares how often the tournament-start Elo leader won the World Cup against all other champion outcomes.",
+        "Elo Predictive Power by Edition": "The above chart tracks how strongly tournament-start Elo differences correlate with match results in each edition.",
         "Pre-Tournament Feature Correlation with World Cup Finish Score": "The above chart ranks leakage-safe pre-tournament indicators by Spearman correlation with normalized finish score.",
         "In-Tournament Stat Correlation with World Cup Finish Score": "The above chart shows how tournament performance stats relate to final finish; these explain outcomes rather than predict them beforehand.",
         "Spearman Correlation Heatmap: Outcome and Predictors": "The above chart displays pairwise Spearman correlations among finish score and pre-tournament predictors.",
@@ -973,7 +981,11 @@ def render_country_goal_line(
         y=y_column,
         markers=True,
         text=text_values,
-        hover_data={"era": True, "placement": True, "position": True, "team_matches": True, y_column: ":.3f"},
+        hover_data={
+            column: (":.3f" if column == y_column else True)
+            for column in ["era", "placement", "position", "elo_rank", "team_matches", y_column]
+            if column in country_goals.columns
+        },
         labels={"edition": "Edition", y_column: y_label},
         title=display_title,
     )
@@ -1175,35 +1187,163 @@ def render_correlation_heatmap(
     render_plotly_chart(fig, key=key)
 
 
+def format_optional_decimal(value: object, digits: int = 3) -> str:
+    if pd.isna(value):
+        return "N/A"
+    return f"{float(value):.{digits}f}"
+
+
+def scatter_analysis_frame(df: pd.DataFrame, feature: str, target: str) -> pd.DataFrame:
+    context_columns = [
+        "edition",
+        "country",
+        "placement",
+        "position",
+        "current_position",
+        "elo_rank",
+        "era",
+        "is_host",
+        target,
+        feature,
+    ]
+    scatter_columns = list(dict.fromkeys([column for column in context_columns if column in df.columns]))
+    scatter_df = df[scatter_columns].copy()
+    scatter_df[feature] = pd.to_numeric(scatter_df[feature], errors="coerce")
+    scatter_df[target] = pd.to_numeric(scatter_df[target], errors="coerce")
+    return scatter_df.dropna(subset=[feature, target]).reset_index(drop=True)
+
+
+def scatter_correlation_stats(
+    scatter_df: pd.DataFrame,
+    feature: str,
+    target: str,
+    correlation_row: pd.Series | None = None,
+) -> dict[str, object]:
+    stats: dict[str, object] = {
+        "rows": len(scatter_df),
+        "pearson_corr": pd.NA,
+        "spearman_corr": pd.NA,
+        "ols_slope": pd.NA,
+        "ols_intercept": pd.NA,
+    }
+    if correlation_row is not None:
+        stats["pearson_corr"] = correlation_row.get("pearson_corr", pd.NA)
+        stats["spearman_corr"] = correlation_row.get("spearman_corr", pd.NA)
+        stats["rows"] = int(correlation_row.get("rows", len(scatter_df)))
+    elif len(scatter_df) > 2:
+        stats["pearson_corr"] = scatter_df[feature].corr(scatter_df[target], method="pearson")
+        stats["spearman_corr"] = scatter_df[feature].corr(scatter_df[target], method="spearman")
+
+    if len(scatter_df) >= 2 and scatter_df[feature].nunique() > 1:
+        slope, intercept = np.polyfit(scatter_df[feature].astype(float), scatter_df[target].astype(float), 1)
+        stats["ols_slope"] = float(slope)
+        stats["ols_intercept"] = float(intercept)
+    return stats
+
+
+def scatter_caption(stats: dict[str, object]) -> str:
+    return (
+        f"Rows: {int(stats['rows'])} | "
+        f"Spearman: {format_optional_decimal(stats['spearman_corr'])} | "
+        f"Pearson: {format_optional_decimal(stats['pearson_corr'])} | "
+        f"OLS slope: {format_optional_decimal(stats['ols_slope'])}"
+    )
+
+
+def add_scatter_trendline_and_labels(fig, scatter_df: pd.DataFrame, feature: str, target: str, stats: dict[str, object]) -> None:
+    if pd.isna(stats["ols_slope"]) or pd.isna(stats["ols_intercept"]):
+        return
+    slope = float(stats["ols_slope"])
+    intercept = float(stats["ols_intercept"])
+    x_min = float(scatter_df[feature].min())
+    x_max = float(scatter_df[feature].max())
+    if x_min == x_max:
+        return
+
+    trend_x = [x_min, x_max]
+    trend_y = [intercept + slope * x_min, intercept + slope * x_max]
+    fig.add_scatter(
+        x=trend_x,
+        y=trend_y,
+        mode="lines",
+        name="OLS trend",
+        line={"color": CHART_AXIS_COLOR, "width": 2, "dash": "dash"},
+        hovertemplate="OLS trend<br>%{y:.3f}<extra></extra>",
+    )
+
+    label_df = scatter_df.copy()
+    label_df["_predicted_finish_score"] = intercept + slope * label_df[feature]
+    label_df["_abs_residual"] = (label_df[target] - label_df["_predicted_finish_score"]).abs()
+    label_df = label_df.sort_values("_abs_residual", ascending=False, kind="stable").head(6)
+    if label_df.empty or "country" not in label_df.columns:
+        return
+    if "edition" in label_df.columns:
+        label_text = label_df["country"].astype(str) + " " + label_df["edition"].astype(str)
+    else:
+        label_text = label_df["country"].astype(str)
+    fig.add_scatter(
+        x=label_df[feature],
+        y=label_df[target],
+        mode="text",
+        text=label_text,
+        textposition="top center",
+        textfont={"size": 10, "color": CHART_TEXT_COLOR},
+        showlegend=False,
+        hoverinfo="skip",
+    )
+
+
 def render_feature_scatter(
     df: pd.DataFrame,
     feature: str,
     target: str = "finish_score",
     key: str | None = None,
+    correlation_row: pd.Series | None = None,
 ) -> None:
     if feature not in df.columns or target not in df.columns:
         return
-    scatter_columns = [column for column in ["edition", "country", "placement", target, feature] if column in df.columns]
-    scatter_df = df[scatter_columns].copy()
-    scatter_df[feature] = pd.to_numeric(scatter_df[feature], errors="coerce")
-    scatter_df[target] = pd.to_numeric(scatter_df[target], errors="coerce")
-    scatter_df = scatter_df.dropna(subset=[feature, target])
+    scatter_df = scatter_analysis_frame(df, feature, target)
     if scatter_df.empty:
         return
+    stats = scatter_correlation_stats(scatter_df, feature, target, correlation_row)
     title = world_cup_chart_title(f"{feature_label(feature)} vs {feature_label(target)}")
+    color_column = "era" if "era" in scatter_df.columns and scatter_df["era"].notna().any() else None
+    hover_data = {}
+    for column in ["edition", "placement", "position", "current_position", "elo_rank", "era", "is_host", feature, target]:
+        if column not in scatter_df.columns:
+            continue
+        hover_data[column] = ":.3f" if column in {feature, target} else True
     fig = px.scatter(
         scatter_df,
         x=feature,
         y=target,
-        color="placement" if "placement" in scatter_df.columns else None,
-        hover_name="country",
-        hover_data={column: True for column in ["edition"] if column in scatter_df.columns}
-        | {feature: ":.3f", target: ":.3f"},
-        labels={feature: feature_label(feature), target: feature_label(target)},
+        color=color_column,
+        color_discrete_map=ERA_COLORS if color_column == "era" else None,
+        category_orders={"era": ERA_LABELS},
+        hover_name="country" if "country" in scatter_df.columns else None,
+        hover_data=hover_data,
+        labels={feature: feature_label(feature), target: "Finish Score (0 = worst, 1 = champion)", "era": "Era"},
         title=title,
     )
+    fig.update_traces(
+        marker={"size": 9, "opacity": 0.78, "line": {"width": 1, "color": CHART_BACKGROUND}},
+        selector={"mode": "markers"},
+    )
+    add_scatter_trendline_and_labels(fig, scatter_df, feature, target, stats)
     apply_original_chart_style(fig, title, height=550)
-    render_plotly_chart(fig, key=key)
+    fig.update_yaxes(title=chart_axis_title("Finish Score (0 = worst, 1 = champion)"))
+    render_plotly_chart(fig, key=key, caption=scatter_caption(stats))
+
+
+def top_correlation_display_frame(corr_df: pd.DataFrame, limit: int = 5) -> pd.DataFrame:
+    if corr_df.empty:
+        return pd.DataFrame()
+    display = corr_df.head(limit).copy()
+    display["Feature"] = display["feature"].map(feature_label)
+    display["Spearman"] = display["spearman_corr"].map(lambda value: format_optional_decimal(value))
+    display["Pearson"] = display["pearson_corr"].map(lambda value: format_optional_decimal(value))
+    display["Rows"] = display["rows"].astype(int)
+    return display.loc[:, ["Feature", "Spearman", "Pearson", "Rows"]]
 
 
 def render_participation_tab(
@@ -1661,7 +1801,11 @@ def render_winner_goal_charts(
         markers=True,
         text=champion_text,
         hover_name="country",
-        hover_data={"era": True, "team_matches": True, "placement": False, champion_y: ":.3f"},
+        hover_data={
+            column: (":.3f" if column == champion_y else False if column == "placement" else True)
+            for column in ["era", "team_matches", "elo_rank", "placement", champion_y]
+            if column in winner_goals.columns
+        },
         labels={"edition": "Edition", champion_y: champion_label},
         title=world_cup_chart_title(champion_title),
     )
@@ -1753,7 +1897,7 @@ def render_winner_followup_tab(
     )
     champion_counts = (
         winners.groupby("country", as_index=False)
-        .agg(wins=("edition", "count"))
+        .agg(wins=("edition", "count"), win_years=("edition", lambda values: ", ".join(map(str, sorted(values)))))
         .sort_values(["wins", "country"], ascending=[False, True], kind="stable")
         .reset_index(drop=True)
     )
@@ -1763,9 +1907,9 @@ def render_winner_followup_tab(
         y="country",
         orientation="h",
         text=champion_counts["wins"].map(str),
-        color_discrete_sequence=[CHART_POSITIVE_COLOR],
-        hover_data={"wins": True, "country": False},
-        labels={"wins": "World Cup wins", "country": "Champion"},
+        color="country",
+        hover_data={"wins": True, "win_years": True, "country": False},
+        labels={"wins": "World Cup wins", "country": "Champion", "win_years": "Win years"},
         title=world_cup_chart_title("Champion Wins by Country"),
     )
     champion_fig.update_traces(textposition="outside", cliponaxis=False)
@@ -1786,10 +1930,10 @@ def render_winner_followup_tab(
         winners,
         x="edition",
         y="next_placement",
-        color="next_placement",
+        color="country",
         hover_name="country",
         text="next_placement_short",
-        hover_data={"next_position": True},
+        hover_data={column: True for column in ["elo_rank", "next_position"] if column in winners.columns},
         category_orders={"next_placement": placement_order},
         labels={"edition": "Title edition", "next_placement": "Following edition placement"},
         title=world_cup_chart_title("Champion Follow-up Performance"),
@@ -1814,6 +1958,150 @@ def render_winner_followup_tab(
     render_winner_goal_charts(goals_outputs, participation_outputs, edition_range, dashboard_base_df)
 
 
+def elo_upset_by_stage(match_elo_frame: pd.DataFrame) -> pd.DataFrame:
+    if match_elo_frame.empty:
+        return pd.DataFrame(columns=["stage", "matches", "upsets", "upset_pct"])
+    knockouts = match_elo_frame.loc[
+        match_elo_frame["stage"].isin(MAIN_BRACKET_STAGES)
+        & match_elo_frame["winner"].notna()
+        & match_elo_frame["winner_elo_rank"].notna()
+        & match_elo_frame["loser_elo_rank"].notna()
+    ].copy()
+    if knockouts.empty:
+        return pd.DataFrame(columns=["stage", "matches", "upsets", "upset_pct"])
+    summary = (
+        knockouts.groupby("stage", as_index=False)
+        .agg(matches=("match_id", "nunique"), upsets=("is_upset", "sum"))
+    )
+    summary["upset_pct"] = (summary["upsets"] / summary["matches"] * 100).round(1)
+    summary["upset_label"] = summary["upset_pct"].map(lambda value: f"{value:.1f}%")
+    summary["stage_order"] = pd.Categorical(summary["stage"], categories=MAIN_BRACKET_STAGES, ordered=True)
+    return summary.sort_values("stage_order").drop(columns="stage_order").reset_index(drop=True)
+
+
+def champion_elo_rank_summary(champion_by_edition: pd.DataFrame) -> pd.DataFrame:
+    if champion_by_edition.empty:
+        return pd.DataFrame(columns=["result", "editions", "edition_count", "pct", "pct_label"])
+    total_editions = len(champion_by_edition)
+    rows = []
+    for result in ["Top Elo won", "Other champion"]:
+        editions = (
+            champion_by_edition.loc[champion_by_edition["result"].eq(result), "edition"]
+            .dropna()
+            .astype(int)
+            .tolist()
+        )
+        pct = round(len(editions) / total_editions * 100, 1) if total_editions else 0.0
+        rows.append(
+            {
+                "result": result,
+                "editions": ", ".join(map(str, editions)),
+                "edition_count": len(editions),
+                "pct": pct,
+                "pct_label": f"{pct:.1f}%",
+            }
+        )
+    return pd.DataFrame(rows)
+
+
+def render_elo_tab(outputs: dict[str, pd.DataFrame], edition_range: tuple[int, int]) -> None:
+    match_elo_frame = filter_edition_range(outputs["match_elo_frame"], edition_range)
+    champion_by_edition = filter_edition_range(outputs["champion_elo_rank_by_edition"], edition_range)
+    predictive = filter_edition_range(outputs["elo_predictive_power_by_edition"], edition_range)
+    if match_elo_frame.empty and champion_by_edition.empty and predictive.empty:
+        st.info("No Elo analysis data is available for the selected edition range.")
+        return
+
+    upset_summary = elo_upset_by_stage(match_elo_frame)
+    champion_summary = champion_elo_rank_summary(champion_by_edition)
+    valid_match_count = int(match_elo_frame[["elo_difference", "actual_score"]].dropna().shape[0])
+    top_elo_titles = int(champion_summary.loc[champion_summary["result"].eq("Top Elo won"), "edition_count"].sum())
+    overall_upset_pct = (
+        float(upset_summary["upsets"].sum() / upset_summary["matches"].sum() * 100)
+        if not upset_summary.empty and int(upset_summary["matches"].sum()) > 0
+        else 0.0
+    )
+    render_metric_row(
+        {
+            "Elo-rated Matches": valid_match_count,
+            "Main Bracket Upset Rate": f"{overall_upset_pct:.1f}%",
+            "Top Elo Titles": top_elo_titles,
+        }
+    )
+
+    upset_column, champion_column = st.columns(2)
+    with upset_column:
+        if upset_summary.empty:
+            st.info("No main-bracket knockout upset data is available for the selected edition range.")
+        else:
+            upset_fig = px.bar(
+                upset_summary,
+                x="stage",
+                y="upset_pct",
+                text="upset_label",
+                hover_data={"matches": True, "upsets": True, "upset_pct": ":.1f", "stage": False},
+                category_orders={"stage": MAIN_BRACKET_STAGES},
+                labels={"stage": "Stage", "upset_pct": "Upset frequency (%)", "matches": "Matches", "upsets": "Upsets"},
+                title=world_cup_chart_title("Elo Upset Frequency by Stage"),
+            )
+            upset_fig.update_traces(
+                textposition="outside",
+                cliponaxis=False,
+                marker={"color": CHART_NEGATIVE_COLOR, "line": {"width": 1, "color": CHART_BACKGROUND}},
+            )
+            apply_original_chart_style(upset_fig, "Elo Upset Frequency by Stage", height=520)
+            upset_fig.update_yaxes(title=chart_axis_title("Upset Frequency (%)"), range=[0, max(50, float(upset_summary["upset_pct"].max()) + 10)])
+            render_column_plotly_chart(upset_column, upset_fig, key="historical_eda_elo_upset_frequency")
+
+    with champion_column:
+        if champion_summary.empty:
+            st.info("No champion Elo-rank data is available for the selected edition range.")
+        else:
+            champion_fig = px.bar(
+                champion_summary,
+                x="result",
+                y="edition_count",
+                text="pct_label",
+                color="result",
+                color_discrete_map={"Top Elo won": CHART_POSITIVE_COLOR, "Other champion": CHART_NEGATIVE_COLOR},
+                hover_data={"edition_count": True, "pct": ":.1f", "editions": True, "result": False},
+                labels={"result": "Champion outcome", "edition_count": "Editions", "pct": "Share (%)", "editions": "Editions"},
+                title=world_cup_chart_title("Champion Start-Elo Rank Outcome"),
+            )
+            champion_fig.update_traces(textposition="outside", cliponaxis=False)
+            apply_original_chart_style(champion_fig, "Champion Start-Elo Rank Outcome", height=500)
+            champion_fig.update_yaxes(title=chart_axis_title("Editions"))
+            render_column_plotly_chart(champion_column, champion_fig, key="historical_eda_elo_champion_rank")
+
+    predictive = predictive.copy()
+    predictive["corr_label"] = predictive["elo_result_corr"].map(
+        lambda value: f"{value:.2f}" if pd.notna(value) else "N/A"
+    )
+    if predictive.empty:
+        st.info("No Elo predictive-power data is available for the selected edition range.")
+    else:
+        predictive_fig = px.line(
+            predictive,
+            x="edition",
+            y="elo_result_corr",
+            markers=True,
+            text="corr_label",
+            hover_data={"era": True, "matches": True, "elo_result_corr": ":.3f"},
+            labels={"edition": "Edition", "elo_result_corr": "Pearson correlation", "matches": "Matches"},
+            title=world_cup_chart_title("Elo Predictive Power by Edition"),
+        )
+        predictive_fig.update_traces(
+            textposition="top center",
+            line={"color": CHART_POSITIVE_COLOR, "width": 1.8},
+            marker={"color": CHART_POSITIVE_COLOR, "size": 6},
+        )
+        apply_original_chart_style(predictive_fig, "Elo Predictive Power by Edition", height=560)
+        add_era_backgrounds(predictive_fig, predictive)
+        set_edition_ticks(predictive_fig, predictive, tickangle=45)
+        predictive_fig.update_yaxes(title=chart_axis_title("Correlation"), range=[-1, 1])
+        render_plotly_chart(predictive_fig, key="historical_eda_elo_predictive_power")
+
+
 def render_correlations_tab(outputs: dict[str, pd.DataFrame], edition_range: tuple[int, int]) -> None:
     outcome = filter_edition_range(outputs["outcome_frame"], edition_range)
     last_k_features = filter_edition_range(outputs["last_k_features"], edition_range)
@@ -1824,6 +2112,18 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame], edition_range: tup
     pre_corr = build_correlation_table(outcome, pre_features)
     tournament_corr = build_correlation_table(outcome, tournament_features)
     last_k_analysis = last_k_features.rename(columns={"current_finish_score": "finish_score"})
+    last_k_context_value_columns = [
+        column
+        for column in ["era", "is_host", "elo_rank"]
+        if column in outcome.columns and column not in last_k_analysis.columns
+    ]
+    if {"edition", "country"}.issubset(last_k_analysis.columns) and last_k_context_value_columns:
+        last_k_analysis = last_k_analysis.merge(
+            outcome[["edition", "country", *last_k_context_value_columns]].drop_duplicates(["edition", "country"]),
+            on=["edition", "country"],
+            how="left",
+            validate="many_to_one",
+        )
     last_k_corr = build_correlation_table(last_k_analysis, last_k_columns)
     valid_last_k = last_k_features[["last_k_avg_finish_score", "current_finish_score"]].dropna()
     last_k_summary["rows"] = int(len(valid_last_k))
@@ -1915,25 +2215,47 @@ def render_correlations_tab(outputs: dict[str, pd.DataFrame], edition_range: tup
         )
 
     with chart_tabs[4]:
-        strongest_pre_features = pre_corr.head(3)["feature"].tolist()
-        strongest_last_k_features = combined_corr.head(3)["feature"].tolist()
-        if not strongest_pre_features and not strongest_last_k_features:
+        scatter_sources = {
+            "Pre-Tournament": {"frame": outcome, "corr": pre_corr, "key": "pre"},
+            "Tournament Stats": {"frame": outcome, "corr": tournament_corr, "key": "tournament"},
+            "Last-k History": {"frame": last_k_analysis, "corr": last_k_corr, "key": "last_k"},
+            "Baseline + Last-k": {"frame": combined_last_k_analysis, "corr": combined_corr, "key": "combined"},
+        }
+        available_sources = {
+            source: config
+            for source, config in scatter_sources.items()
+            if not config["corr"].empty and not config["corr"]["feature"].dropna().empty
+        }
+        if not available_sources:
             st.info("No scatter data is available for the strongest predictors.")
-        if strongest_pre_features:
-            st.markdown("**Strongest Pre-Tournament Predictors**")
-        for strongest_feature in strongest_pre_features:
-            render_feature_scatter(
-                outcome,
-                strongest_feature,
-                key=f"historical_corr_pre_scatter_{strongest_feature}",
+        else:
+            selected_source = st.selectbox(
+                "Feature source",
+                list(available_sources.keys()),
+                key="historical_corr_scatter_source",
             )
-        if strongest_last_k_features:
-            st.markdown(f"**Strongest Baseline + Last-{int(last_k_summary['lookback'])} Predictors**")
-        for strongest_feature in strongest_last_k_features:
+            selected_source_config = available_sources[selected_source]
+            selected_corr = selected_source_config["corr"].copy()
+            feature_options = selected_corr["feature"].dropna().tolist()
+            selected_feature = st.selectbox(
+                "Feature",
+                feature_options,
+                format_func=feature_label,
+                key=f"historical_corr_scatter_feature_{selected_source_config['key']}",
+            )
+            selected_corr_row = selected_corr.loc[selected_corr["feature"].eq(selected_feature)].iloc[0]
+
+            st.markdown("**Top Correlations**")
+            st.dataframe(
+                top_correlation_display_frame(selected_corr),
+                hide_index=True,
+                use_container_width=True,
+            )
             render_feature_scatter(
-                combined_last_k_analysis,
-                strongest_feature,
-                key=f"historical_corr_combined_scatter_{strongest_feature}",
+                selected_source_config["frame"],
+                selected_feature,
+                key=f"historical_corr_scatter_{selected_source_config['key']}_{selected_feature}",
+                correlation_row=selected_corr_row,
             )
 
     with chart_tabs[5]:
@@ -2216,6 +2538,7 @@ def render_historical_eda_page() -> None:
         goals,
         hosts,
         winners,
+        elo,
         correlations,
         implications_2026,
     ) = compute_historical_eda_outputs(lookback=lookback)
@@ -2242,6 +2565,7 @@ def render_historical_eda_page() -> None:
             "Goals",
             "Host Effect",
             "Winners",
+            "Elo",
             "Correlations",
             "Qualifiers",
             "2026 Implications",
@@ -2256,8 +2580,10 @@ def render_historical_eda_page() -> None:
     with tabs[3]:
         render_winner_followup_tab(winners, goals, participation, edition_range, dashboard_base_df)
     with tabs[4]:
-        render_correlations_tab(correlations, edition_range)
+        render_elo_tab(elo, edition_range)
     with tabs[5]:
-        render_qualifiers_tab(qualifier_outputs)
+        render_correlations_tab(correlations, edition_range)
     with tabs[6]:
+        render_qualifiers_tab(qualifier_outputs)
+    with tabs[7]:
         render_2026_implications_tab(implications_2026)
