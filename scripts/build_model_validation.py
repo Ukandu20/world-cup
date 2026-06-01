@@ -656,7 +656,7 @@ def build_multi_fold_validation_artifacts(
 
 def write_multi_fold_validation_artifacts(artifacts: dict[str, object], output_dir: Path) -> dict[str, Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
-    json_path = output_dir / "model_validation_folds.json"
+    json_path = output_dir / "aggregate_validation.json"
     fold_results_path = output_dir / "fold_results.csv"
     match_predictions_path = output_dir / "match_predictions_folds.csv"
     team_backtest_path = output_dir / "team_backtest_folds.csv"
@@ -843,7 +843,7 @@ def build_model_card_markdown(payload: dict[str, object]) -> str:
     is_multi_fold = bool(aggregate_models)
     if is_multi_fold:
         holdout_label = str(validation.get("holdout", "2014/2018/2022 FIFA World Cup folds"))
-        validation_artifact = "model_validation_folds.json"
+        validation_artifact = "aggregate_validation.json"
         validation_table = f"""### Match-Level Metrics
 
 #### Per-Fold

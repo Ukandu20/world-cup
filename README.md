@@ -1,30 +1,40 @@
 # World Cup 2026 Forecasting Dashboard
 
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
+[![Streamlit Demo](https://img.shields.io/badge/demo-Streamlit-ff4b4b.svg)](https://2026-world-cup.streamlit.app/)
+![Tests](https://img.shields.io/badge/tests-pytest-green.svg)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-informational.svg)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+
 An end-to-end data science portfolio project for preseason FIFA Men's World Cup 2026 forecasting. The project combines cleaned football datasets, historical EDA, feature engineering, trained match models, Monte Carlo tournament simulation, validation artifacts, and a Streamlit dashboard for exploring team advancement probabilities.
 
 The current dashboard primary model is **V4 Enhanced Poisson**, which estimates expected goals with Elo, recent form, World Cup history, host/context features, Dixon-Coles correction, stage multipliers, and time-decayed training weights. Earlier V1/V2/V3 model surfaces remain available for comparison and explainability.
+
+**Live demo:** [2026-world-cup.streamlit.app](https://2026-world-cup.streamlit.app/)
+
+## Portfolio Summary
+
+This project turns historical football data into a reproducible forecasting product: cleaned tournament datasets, feature builders, probabilistic match models, Monte Carlo tournament simulation, validation artifacts, and an interactive dashboard. It is designed to demonstrate practical data science delivery, from data preparation and leakage-aware evaluation through to a polished product surface that non-technical reviewers can explore.
 
 ## Results At A Glance
 
 - **Forecasting product:** Streamlit dashboard with group probabilities, all-country rankings, deterministic bracket projections, backtest pages, and team report cards.
 - **Primary model:** V4 enhanced Poisson expected-goals model with Monte Carlo tournament simulation.
-- **Validation design:** 2022 World Cup holdout; training data ends before the first 2022 tournament match.
+- **Validation design:** 2014, 2018, and 2022 World Cup holdout folds; each fold trains only on data available before that tournament starts.
 - **Simulation settings:** `20,000` tournament simulations, match window `10`, seed `20260403`.
-- **V4 holdout snapshot:** `1.0207` log loss, `0.5999` Brier score, `51.6%` top-1 match accuracy, and draw calibration of `23.1%` predicted vs `23.4%` actual.
+- **V4 multi-fold snapshot:** V4 World Cup only has the best mean log loss (`0.9912 +/- 0.0189`), while the Elo baseline has the best mean Brier score and V3 all-international has the best mean top-1 accuracy.
 
-See the full [model card](docs/model_card.md) and committed validation artifact at [data/processed/validation/model_validation_2022.json](data/processed/validation/model_validation_2022.json).
+See the full [model card](docs/model_card.md) and committed aggregate validation artifact at [data/processed/validation/aggregate_validation.json](data/processed/validation/aggregate_validation.json). The 2022 single-fold drilldown remains available at [data/processed/validation/model_validation_2022.json](data/processed/validation/model_validation_2022.json).
 
 ## Project Visuals
 
-![All countries probability view](assets/charts/generated/all_Countries_20260423_094740_649518.png)
+![All countries probability view](docs/images/dashboard-probabilities.png)
 
 The dashboard ranks teams across group-stage placement, knockout qualification, deep-run probabilities, and championship odds.
 
-![Projected bracket view](assets/charts/generated/bracket_view_20260405_122411_025406.png)
+The live dashboard also includes a deterministic bracket view that turns simulated group outcomes into a position-based knockout path instead of simply selecting a global top-N list.
 
-The bracket view turns simulated group outcomes into a position-based knockout path instead of simply selecting a global top-N list.
-
-![Goals and finish quadrants](assets/visualizations/goals_finish_quadrants.png)
+![Goals and finish quadrants](docs/images/historical-goals-finish-quadrants.png)
 
 The historical EDA layer connects tournament outcomes to interpretable signals such as scoring profile, finishing strength, host context, and prior World Cup performance.
 
@@ -133,7 +143,7 @@ The deterministic bracket view is position-based: it uses modal group finishers 
 
 - Forecasts are preseason estimates, not live match prices.
 - The model does not ingest player-level injuries, lineups, market odds, tactical matchups, or live squad availability.
-- The current validation artifact uses a 2022 holdout; broader rolling validation is an important next improvement.
+- The current validation covers 2014, 2018, and 2022 World Cup holdout folds; broader rolling validation and live pre-tournament updates would strengthen the evidence base.
 - Penalty shootouts, extra time, fair-play tie-breakers, and drawing of lots are simplified.
 - V4 has more components than V2/V3, so it carries higher overfitting risk until more holdout folds are implemented.
 

@@ -125,7 +125,7 @@ historical EDA `weighted_form_l10_*` columns.
 ## Validation Snapshot
 
 The current validation reference is `docs/model_card.md`, backed by the
-committed artifact `data/processed/validation/model_validation_2022.json`.
-That validation is a 2022 holdout check. It is useful for sanity checking model
-behavior, but it should not be treated as a full multi-tournament validation
-suite.
+committed artifact `data/processed/validation/aggregate_validation.json`.
+That validation uses 2014, 2018, and 2022 World Cup holdout folds. It is useful
+for comparing model families across multiple tournament snapshots, while the
+single-fold 2022 drilldown remains available under `data/processed/validation/`.
