@@ -2206,7 +2206,68 @@ def test_export_document_includes_standalone_compat_css():
     assert document.index("var(--wc-muted)") < document.index(".wc-export-mode .wc-table thead th")
 
 
-def test_shared_css_hides_country_names_on_narrow_screens():
+def test_dashboard_image_export_jobs_use_stable_default_names():
+    from scripts import export_dashboard_images
+
+    jobs = export_dashboard_images.build_export_jobs("default", Path("docs/images"), "A")
+
+    assert [job.output_path.name for job in jobs] == [
+        "dashboard-probabilities.png",
+        "dashboard-group-a.png",
+    ]
+    assert export_dashboard_images.slugify("Group A") == "group-a"
+    assert export_dashboard_images.default_output_filename("group", "A") == "dashboard-group-a.png"
+
+
+def test_dashboard_image_export_tables_render_export_markup():
+    from scripts import export_dashboard_images
+
+    home = load_home_module()
+    probability_df = pd.DataFrame(
+        [
+            {
+                "team_id": "ARG",
+                "group_code": "A",
+                "flag_icon_code": "ar",
+                "display_name": "Argentina",
+                "confederation": "CONMEBOL",
+                "world_rank": 1,
+                "elo_rating": 2140,
+                "prob_1": 80.0,
+                "prob_2": 10.0,
+                "prob_3": 5.0,
+                "prob_4": 5.0,
+                "top8_third_prob": 4.0,
+                "ko_prob": 94.0,
+                "r32_prob": 90.0,
+                "r16_prob": 70.0,
+                "qf_prob": 50.0,
+                "sf_prob": 30.0,
+                "final_prob": 20.0,
+                "champion_prob": 10.0,
+            }
+        ]
+    )
+    job = export_dashboard_images.ExportJob(
+        view="all-countries",
+        output_path=Path("docs/images/dashboard-probabilities.png"),
+        title="Export",
+    )
+
+    tables, multi_column, separate_sections = export_dashboard_images.tables_for_job(probability_df, job)
+    document = home.render_export_document(
+        "Export",
+        tables,
+        multi_column=multi_column,
+        separate_sections=separate_sections,
+    )
+
+    assert tables[0]["title"] == "All Countries"
+    assert "wc-export-mode" in document
+    assert "Argentina" in document
+
+
+def test_shared_css_keeps_country_names_visible_on_narrow_screens():
     home = load_home_module()
 
     css = home.shared_css()
@@ -2217,7 +2278,7 @@ def test_shared_css_hides_country_names_on_narrow_screens():
     assert ".wc-name-cell" in responsive_css
     assert ".wc-name-main" in responsive_css
     assert ".wc-name-text" in responsive_css
-    assert "display: none;" in responsive_css
+    assert "display: inline;" in responsive_css
     assert ".wc-qual-marker" in responsive_css
 
 
