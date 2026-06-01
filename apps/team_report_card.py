@@ -3,7 +3,6 @@ from __future__ import annotations
 import html
 import unicodedata
 from collections.abc import Iterable
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -12,6 +11,7 @@ import pandas as pd
 import streamlit as st
 
 from apps import home
+from apps.dashboard.artifact_formatting import format_artifact_timestamp
 from apps.dashboard.modeling import load_v4_poisson_model
 from apps.dashboard.model_registry import PRIMARY_MODEL
 from apps.dashboard.simulation_store import (
@@ -172,14 +172,10 @@ PLOTLY_EXPORT_CONFIG = {
 
 def format_artifact_updated_at(value: str | None) -> str:
     """Return a compact report-card artifact timestamp label."""
-    if not value:
+    timestamp = format_artifact_timestamp(value)
+    if timestamp == "time unavailable":
         return "last updated time unavailable"
-    try:
-        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
-    except ValueError:
-        return "last updated time unavailable"
-    period_label = parsed.strftime("%p").lower()
-    return f"last updated on {parsed:%Y-%m-%d} @ {parsed:%I:%M}{period_label}"
+    return f"last updated on {timestamp}"
 
 
 def score_to_grade(score: float) -> str:
@@ -2982,9 +2978,7 @@ def render_team_report_card_page() -> None:
     artifact_updated_at = format_artifact_updated_at(dataset.get("artifact_created_at_utc"))
     st.caption(
         f"This report card uses the official Enhanced Poisson Model projections | "
-        f"{artifact_updated_at} |  "
-        f"the last {official_match_window} Elo-rated matches, "
-        "historical World Cup pedigree, and the modal deterministic bracket."
+        f"{artifact_updated_at}"
     )
 
     selector_columns = st.columns([2, 1])

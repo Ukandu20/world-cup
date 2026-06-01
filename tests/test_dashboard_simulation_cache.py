@@ -4,6 +4,7 @@ import inspect
 import json
 import sys
 from pathlib import Path
+from types import SimpleNamespace
 
 import pandas as pd
 
@@ -13,6 +14,7 @@ if str(ROOT) not in sys.path:
 
 from apps.dashboard import pages
 from apps.dashboard import data as dashboard_data
+from apps.dashboard.artifact_formatting import format_artifact_timestamp
 from apps.dashboard.config import TRAINING_SCOPE_ALL_INTERNATIONAL, TRAINING_SCOPE_WORLD_CUP_ONLY
 from apps.dashboard.model_registry import MODEL_REGISTRY, PRIMARY_MODEL_ID
 from apps.dashboard.simulation_store import (
@@ -258,6 +260,38 @@ def test_report_card_artifact_updated_at_formatter() -> None:
     )
     assert team_report_card.format_artifact_updated_at(None) == "last updated time unavailable"
     assert team_report_card.format_artifact_updated_at("not-a-date") == "last updated time unavailable"
+
+
+def test_shared_artifact_timestamp_formatter() -> None:
+    assert format_artifact_timestamp("2026-05-26T06:10:37Z") == "2026-05-26 @ 06:10am"
+    assert format_artifact_timestamp("2026-05-26T18:45:02Z") == "2026-05-26 @ 06:45pm"
+    assert format_artifact_timestamp(None) == "time unavailable"
+    assert format_artifact_timestamp("not-a-date") == "time unavailable"
+
+
+def test_display_artifact_status_uses_shared_timestamp_format(monkeypatch) -> None:
+    captions: list[str] = []
+    monkeypatch.setattr(pages.st, "caption", captions.append)
+
+    cached_result = SimpleNamespace(
+        warnings=(),
+        created=False,
+        artifact=SimpleNamespace(source="official", created_at_utc="2026-05-26T18:45:02Z"),
+    )
+    pages.display_artifact_status(cached_result, "V4")
+
+    fresh_result = SimpleNamespace(
+        warnings=(),
+        created=True,
+        artifact=SimpleNamespace(source="runtime", created_at_utc="2026-05-26T06:10:37Z"),
+    )
+    pages.display_artifact_status(fresh_result, "V4")
+
+    assert captions == [
+        "Using official cached V4 simulation run from 2026-05-26 @ 06:45pm.",
+        "Fresh runtime V4 simulation run saved at 2026-05-26 @ 06:10am.",
+    ]
+    assert all("T" not in caption and "Z" not in caption for caption in captions)
 
 
 def test_prewarm_model_writes_official_artifact_without_real_simulation(tmp_path, monkeypatch) -> None:

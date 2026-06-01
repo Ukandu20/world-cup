@@ -5,6 +5,7 @@ import html
 import pandas as pd
 import streamlit as st
 
+from .artifact_formatting import format_artifact_timestamp
 from .config import (
     BRACKET_HEAD_TO_HEAD_SIMULATIONS,
     DEFAULT_RECENT_MATCH_WINDOW,
@@ -139,7 +140,7 @@ def display_artifact_status(load_result: ArtifactLoadResult, model_label: str) -
     if load_result.artifact is None:
         return
     artifact = load_result.artifact
-    created_at = artifact.created_at_utc or "unknown time"
+    created_at = format_artifact_timestamp(artifact.created_at_utc)
     source_label = "runtime" if artifact.source == "runtime" else "official"
     if load_result.created:
         st.caption(f"Fresh {source_label} {model_label} simulation run saved at {created_at}.")
@@ -857,10 +858,8 @@ def render_v4_probabilities_dashboard() -> None:
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
     st.caption(
-        f"Primary model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
-        f"V4 is the primary enhanced Poisson model using quadratic last-{form_match_window} form, "
-        "World Cup last-5 goal history, Dixon-Coles low-score correction, stage lambda multipliers, "
-        f"and `{training_scope}` training data."
+        f"Primary model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}, "
+        f"with `{training_scope}` training data."
     )
     artifact_settings = ArtifactSettings(
         model_id="v4",
@@ -894,16 +893,6 @@ def render_v4_probabilities_dashboard() -> None:
     dashboard_df = load_result.artifact.dashboard_df
     artifact_metadata = load_result.artifact.metadata
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
-    st.caption(
-        " | ".join(
-            [
-                f"alpha={artifact_metadata.get('alpha')}",
-                f"rho={artifact_metadata.get('rho')}",
-                f"half-life={artifact_metadata.get('time_decay_halflife_days')} days",
-                f"scope={artifact_metadata.get('training_scope')}",
-            ]
-        )
-    )
     with st.expander("V4 calibration metadata", expanded=False):
         st.json(
             {
@@ -1542,12 +1531,11 @@ def render_home_page() -> None:
         <div class="wc-home-intro">
           <div>
             <div class="wc-home-intro-kicker">What this project is</div>
-            <h2 class="wc-home-intro-title">A data-driven 2026 FIFA Men's World Cup research hub</h2>
+            <h2 class="wc-home-intro-title">2026 FIFA World Cup Forecaster</h2>
             <p class="wc-home-intro-copy">
-              This app brings together three views of the tournament: historical World Cup analysis, qualification
-              and team context, and simulation-based 2026 projections. Use the analysis pages to understand past
-              tournament patterns and qualification performance, the team report cards to inspect one country at a
-              time, and the model pages to compare how different methods project the group stage and knockout path.
+              This app covers the 2026 FIFA World Cup from three angles: historical tournament patterns, team and qualification context, and simulation-based projections. 
+              The analysis pages trace trends across past tournaments; the team report cards let you profile any country in depth; 
+              the model pages run Monte Carlo simulations across different configurations to forecast group finishes and knockout paths.
             </p>
           </div>
           <div class="wc-home-intro-panel">

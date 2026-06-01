@@ -1379,8 +1379,8 @@ def render_participation_tab(
             latest = latest.loc[latest["confederation"].isin(selected_confederations)].copy()
     filtered_participating["team_count_label"] = filtered_participating["team_counts"].astype(int).astype(str)
     filtered_confed["participant_count_label"] = filtered_confed["participant_count"].astype(int).astype(str)
-    debutants = debutants.copy()
-    debutants["debutant_count_label"] = debutants["debutant_count"].astype(int).astype(str)
+    filtered_debutants = filter_edition_range(debutants, edition_range)
+    filtered_debutants["debutant_count_label"] = filtered_debutants["debutant_count"].astype(int).astype(str)
     expansion = expansion_editions(participating)
     filtered_expansion = filter_edition_range(expansion, edition_range)
 
@@ -1481,7 +1481,7 @@ def render_participation_tab(
     render_plotly_chart(placement_fig)
 
     debutant_fig = px.bar(
-        debutants,
+        filtered_debutants,
         x="edition",
         y="debutant_count",
         color="era",
@@ -1493,8 +1493,9 @@ def render_participation_tab(
     )
     debutant_fig.update_traces(textposition="outside", cliponaxis=False)
     apply_original_chart_style(debutant_fig, "FIFA Men's World Cup Debutants by Edition", height=500)
+    add_era_backgrounds(debutant_fig, filtered_debutants)
     add_expansion_markers(debutant_fig, filtered_expansion)
-    set_edition_ticks(debutant_fig, debutants)
+    set_edition_ticks(debutant_fig, filtered_debutants)
 
     if latest is not None and not latest.empty:
         latest_edition = int(latest["edition"].max())
