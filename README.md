@@ -1,6 +1,6 @@
 # World Cup 2026 Forecasting Dashboard
 
-[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
+[![Python 3.14](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![Streamlit Demo](https://img.shields.io/badge/demo-Streamlit-ff4b4b.svg)](https://2026-world-cup.streamlit.app/)
 ![Tests](https://img.shields.io/badge/tests-pytest-green.svg)
 ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-informational.svg)
@@ -116,6 +116,30 @@ For development and tests:
 ```bash
 python -m pip install -r requirements-dev.txt
 pytest -q
+```
+
+## Refresh Showcase Images
+
+The hosted Streamlit app keeps export dependency-light: probability data is available through CSV download buttons, while polished PNG screenshots are generated locally for README and LinkedIn use.
+
+Install the development dependencies and Playwright browser once:
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m playwright install chromium
+```
+
+Refresh the default V4 all-countries and Group A probability images with:
+
+```bash
+python scripts/export_dashboard_images.py
+```
+
+To export only one view:
+
+```bash
+python scripts/export_dashboard_images.py --view all-countries
+python scripts/export_dashboard_images.py --view group --group A
 ```
 
 Raw Kaggle/source downloads remain ignored and rebuild-only. To refresh the local raw files used by the builders:

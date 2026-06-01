@@ -98,7 +98,7 @@ CHART_TEXT_COLOR = "#3A2A1A"
 CHART_AXIS_COLOR = "#5A4632"
 CHART_POSITIVE_COLOR = "#2F6F3E"
 CHART_NEGATIVE_COLOR = "#B23A30"
-CHART_FONT_FAMILY = "Gill Sans, sans-serif"
+CHART_FONT_FAMILY = "Inter, Segoe UI, Arial, sans-serif"
 PLOTLY_EXPORT_CONFIG = {
     "toImageButtonOptions": {
         "format": "png",

@@ -120,7 +120,7 @@ def shared_css(include_flag_icons: bool = True) -> str:
         --wc-gold-soft: rgba(201, 151, 0, 0.16);
         --wc-danger: #B23A30;
         --wc-shadow: rgba(58, 42, 26, 0.07);
-        --wc-font: Gill Sans, Inter, sans-serif;
+        --wc-font: Inter, "Segoe UI", Arial, sans-serif;
     }
     body {
         margin: 0;
@@ -1174,19 +1174,17 @@ def shared_css(include_flag_icons: bool = True) -> str:
     }
     @media (max-width: 1100px) {
         .wc-name-cell {
-            justify-content: center;
-            gap: 0;
+            gap: 0.48rem;
         }
         .wc-name-main {
-            justify-content: center;
-            gap: 0;
-            flex: 0 0 auto;
+            gap: 0.48rem;
+            flex: 1 1 auto;
         }
         .wc-name-cell .fi {
             font-size: 1.28rem;
         }
         .wc-name-text {
-            display: none;
+            display: inline;
         }
         .wc-qual-marker {
             margin-left: 0.24rem;
@@ -1263,7 +1261,7 @@ def export_compat_css() -> str:
         margin: 0;
         background: #EFE3CF;
         color: #3A2A1A;
-        font-family: "Gill Sans", "Segoe UI", Arial, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
         font-size: 16px;
         width: auto;
         min-width: 100%;
@@ -1498,7 +1496,7 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
         overflow: hidden;
         background: #EFE3CF;
         color: #3A2A1A;
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
       }}
       .wc-countdown-wrap {{
         margin: 0 0 0.85rem;

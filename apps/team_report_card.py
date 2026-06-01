@@ -113,7 +113,7 @@ CHART_BACKGROUND = "#EFE3CF"
 CHART_TEXT_COLOR = "#3A2A1A"
 CHART_AXIS_COLOR = "#5A4632"
 CHART_GRID_COLOR = "#D8C8AF"
-CHART_FONT_FAMILY = "Gill Sans, sans-serif"
+CHART_FONT_FAMILY = "Inter, Segoe UI, Arial, sans-serif"
 CHART_POSITIVE_COLOR = "#2F6F3E"
 CHART_NEGATIVE_COLOR = "#B23A30"
 CHART_ACCENT_COLOR = "#7A4E2D"
@@ -1091,7 +1091,7 @@ def report_card_css() -> str:
     .stApp {
         background: var(--trc-bg);
         color: var(--trc-text);
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
     }
     .block-container {
         background: var(--trc-bg);
@@ -1112,7 +1112,7 @@ def report_card_css() -> str:
         background: var(--trc-surface-strong);
         color: var(--trc-text);
         border-radius: 8px 8px 0 0;
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
         font-weight: 800;
         min-height: 2.65rem;
         padding: 0.7rem 1rem;
@@ -1124,14 +1124,14 @@ def report_card_css() -> str:
     [data-testid="stExpander"] summary p {
         margin: 0;
         color: var(--trc-text);
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
         font-weight: 800;
         line-height: 1.2;
     }
     [data-testid="stExpander"] label,
     [data-testid="stExpander"] p {
         color: var(--trc-text);
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
     }
     [data-testid="stExpander"] [role="radiogroup"] label {
         color: var(--trc-muted);
@@ -1155,13 +1155,13 @@ def report_card_css() -> str:
         background: var(--trc-surface-strong);
         color: var(--trc-text);
         box-shadow: 0 6px 14px rgba(58, 42, 26, 0.06);
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
         font-weight: 800;
     }
     [data-testid="stButton"] button *,
     [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]) * {
         color: var(--trc-text);
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
     }
     [data-testid="stButton"] button:hover,
     [data-testid^="stBaseButton-"]:not([data-testid="stBaseButton-header"]):not([data-testid="stBaseButton-headerNoPadding"]):hover {
@@ -1219,7 +1219,7 @@ def report_card_css() -> str:
         border-color: var(--trc-line);
         background: var(--trc-surface);
         color: var(--trc-text);
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
     }
     [data-baseweb="select"] > div:focus-within,
     [data-baseweb="input"] > div:focus-within {
@@ -1250,7 +1250,7 @@ def report_card_css() -> str:
         gap: 18px;
         margin-top: 0.5rem;
         color: var(--trc-text);
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
     }
     .trc-hero {
         border: 1px solid var(--trc-line);
@@ -1665,7 +1665,7 @@ def report_card_css() -> str:
     }
     .stTabs [data-baseweb="tab"] {
         color: var(--trc-muted);
-        font-family: Gill Sans, Inter, sans-serif;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
         font-weight: 800;
     }
     .stTabs [data-baseweb="tab"][aria-selected="true"] {
