@@ -5,6 +5,7 @@ import html
 import pandas as pd
 import streamlit as st
 
+from .artifact_formatting import format_artifact_timestamp
 from .config import (
     BRACKET_HEAD_TO_HEAD_SIMULATIONS,
     DEFAULT_RECENT_MATCH_WINDOW,
@@ -43,11 +44,7 @@ from .config import (
     V4_MODEL_SUMMARY,
     V4_MODEL_VERSION,
     V4_PROB_STATE_KEY,
-    VIEW_OPTIONS,
     WEIGHTED_FORM_COMPOSITE_WEIGHTS,
-    build_deterministic_bracket,
-    build_deterministic_bracket_v3,
-    build_deterministic_bracket_v4,
     build_v2_team_strengths,
     build_v3_team_feature_table,
     build_weighted_form_table,
@@ -56,7 +53,6 @@ from .config import (
 )
 from .data import load_data, load_validation_artifacts, load_world_cup_logo_data_uri
 from .export import (
-    bracket_to_download_frame,
     combine_table_download_frames,
     dataframe_to_csv_bytes,
     tables_to_download_frame,
@@ -89,12 +85,10 @@ from .rendering import (
     get_first_kickoff_details,
     inject_styles,
     ordered_confederations,
-    render_bracket,
     render_countdown_timer,
     render_dashboard_header,
     render_filter_bar,
     render_tables,
-    team_metadata_lookup,
 )
 from .simulation_store import (
     DEFAULT_SIMULATION_SEED,
@@ -146,7 +140,7 @@ def display_artifact_status(load_result: ArtifactLoadResult, model_label: str) -
     if load_result.artifact is None:
         return
     artifact = load_result.artifact
-    created_at = artifact.created_at_utc or "unknown time"
+    created_at = format_artifact_timestamp(artifact.created_at_utc)
     source_label = "runtime" if artifact.source == "runtime" else "official"
     if load_result.created:
         st.caption(f"Fresh {source_label} {model_label} simulation run saved at {created_at}.")
@@ -331,7 +325,7 @@ def team_value_detail(row: pd.Series, metric_column: str) -> tuple[str, str]:
 
 
 def render_v1_dashboard() -> None:
-    """Render the version 1 probability and bracket dashboard."""
+    """Render the version 1 probability dashboard."""
     inject_styles()
 
     base_df, fixtures_df, lead_in_df, metadata = load_data()
@@ -378,7 +372,7 @@ def render_v1_dashboard() -> None:
         "and a ratings-vs-form blend (50% / 50%). "
         "Top 8 3rd% is the share of runs where a team finishes third and still advances. "
         "KO% means reaching the Round of 32; R16%, QF%, SF%, Final%, and Champion% track deeper knockout progression. "
-        "This page is isolated to the original probability and bracket model."
+        "This page is isolated to the original probability model."
     )
     with st.spinner(f"Running {simulation_count:,} simulations..."):
         dashboard_df = simulate_probabilities(
@@ -387,14 +381,8 @@ def render_v1_dashboard() -> None:
             lead_in_df=lead_in_df,
             simulations=simulation_count,
         )
-        bracket_data = build_deterministic_bracket(
-            dashboard_df,
-            fixtures_df,
-            head_to_head_simulations=BRACKET_HEAD_TO_HEAD_SIMULATIONS,
-        )
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
-    metadata_lookup = team_metadata_lookup(dashboard_df)
-    tables = [] if view_mode == "Bracket" else current_view_tables(
+    tables = current_view_tables(
         dashboard_df,
         view_mode,
         selected_group,
@@ -402,11 +390,7 @@ def render_v1_dashboard() -> None:
     )
     multi_column = view_mode == "All groups"
 
-    current_download_frame = (
-        bracket_to_download_frame(bracket_data, metadata_lookup)
-        if view_mode == "Bracket"
-        else tables_to_download_frame(tables, section_column="group")
-    )
+    current_download_frame = tables_to_download_frame(tables, section_column="group")
     render_table_data_downloads(
         key_prefix="v1",
         current_frame=current_download_frame,
@@ -415,13 +399,7 @@ def render_v1_dashboard() -> None:
         all_filename="v1_probability_tables.csv",
     )
 
-    if view_mode == "Bracket":
-        if bracket_data is None or metadata_lookup is None:
-            st.error("Bracket view is unavailable because no bracket data was generated.")
-            return
-        render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
-    else:
-        render_tables(tables, multi_column=multi_column)
+    render_tables(tables, multi_column=multi_column)
 
 
 def render_v2_dashboard() -> None:
@@ -563,7 +541,7 @@ def render_v2_dashboard() -> None:
 
 
 def render_v2_probabilities_dashboard() -> None:
-    """Render the version 2 multinomial probability and bracket dashboard."""
+    """Render the version 2 multinomial probability dashboard."""
     inject_styles()
 
     base_df, fixtures_df, lead_in_df, metadata = load_data()
@@ -629,7 +607,7 @@ def render_v2_probabilities_dashboard() -> None:
     st.caption(
         f"Legacy comparison model {V2_MODEL_VERSION}: {V2_MODEL_SUMMARY}. "
         f"The v2 page trains a three-class multinomial regression using `{training_scope}` training data, "
-        f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
+        f"then simulates 2026 tournament outcomes using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "and prior-5-edition World Cup history features. Knockout draws are interpreted using the local historical file semantics: "
         "level before penalties, then resolved by the model's non-draw split."
     )
@@ -663,10 +641,8 @@ def render_v2_probabilities_dashboard() -> None:
         st.error("V2 probability artifact could not be loaded or created.")
         return
     dashboard_df = load_result.artifact.dashboard_df
-    bracket_data = load_result.artifact.bracket_data
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
-    metadata_lookup = team_metadata_lookup(dashboard_df)
-    tables = [] if view_mode == "Bracket" else current_view_tables(
+    tables = current_view_tables(
         dashboard_df,
         view_mode,
         selected_group,
@@ -674,11 +650,7 @@ def render_v2_probabilities_dashboard() -> None:
     )
     multi_column = view_mode == "All groups"
 
-    current_download_frame = (
-        bracket_to_download_frame(bracket_data, metadata_lookup)
-        if view_mode == "Bracket"
-        else tables_to_download_frame(tables, section_column="group")
-    )
+    current_download_frame = tables_to_download_frame(tables, section_column="group")
     render_table_data_downloads(
         key_prefix="v2_prob",
         current_frame=current_download_frame,
@@ -687,14 +659,11 @@ def render_v2_probabilities_dashboard() -> None:
         all_filename="v2_probability_tables.csv",
     )
 
-    if view_mode == "Bracket":
-        render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
-    else:
-        render_tables(tables, multi_column=multi_column)
+    render_tables(tables, multi_column=multi_column)
 
 
 def render_v3_probabilities_dashboard() -> None:
-    """Render the version 3 Poisson probability and bracket dashboard."""
+    """Render the version 3 Poisson probability dashboard."""
     inject_styles()
 
     base_df, fixtures_df, lead_in_df, metadata = load_data()
@@ -765,7 +734,7 @@ def render_v3_probabilities_dashboard() -> None:
     st.caption(
         f"Legacy comparison model {V3_MODEL_VERSION}: {V3_MODEL_SUMMARY}. "
         f"The v3 page trains paired Poisson regressors using `{training_scope}` training data, "
-        f"then simulates the real 2026 bracket using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
+        f"then simulates 2026 tournament outcomes using pre-tournament Elo, weighted form from the last {form_match_window} Elo-rated matches, "
         "prior-5-edition World Cup pedigree, competition-importance weighting, and host flags for Canada, Mexico, and the United States."
     )
     artifact_settings = ArtifactSettings(
@@ -798,10 +767,8 @@ def render_v3_probabilities_dashboard() -> None:
         st.error("V3 probability artifact could not be loaded or created.")
         return
     dashboard_df = load_result.artifact.dashboard_df
-    bracket_data = load_result.artifact.bracket_data
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
-    metadata_lookup = team_metadata_lookup(dashboard_df)
-    tables = [] if view_mode == "Bracket" else current_view_tables(
+    tables = current_view_tables(
         dashboard_df,
         view_mode,
         selected_group,
@@ -809,11 +776,7 @@ def render_v3_probabilities_dashboard() -> None:
     )
     multi_column = view_mode == "All groups"
 
-    current_download_frame = (
-        bracket_to_download_frame(bracket_data, metadata_lookup)
-        if view_mode == "Bracket"
-        else tables_to_download_frame(tables, section_column="group")
-    )
+    current_download_frame = tables_to_download_frame(tables, section_column="group")
     render_table_data_downloads(
         key_prefix="v3_prob",
         current_frame=current_download_frame,
@@ -822,14 +785,11 @@ def render_v3_probabilities_dashboard() -> None:
         all_filename="v3_probability_tables.csv",
     )
 
-    if view_mode == "Bracket":
-        render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
-    else:
-        render_tables(tables, multi_column=multi_column)
+    render_tables(tables, multi_column=multi_column)
 
 
 def render_v4_probabilities_dashboard() -> None:
-    """Render the version 4 enhanced Poisson probability and bracket dashboard."""
+    """Render the version 4 enhanced Poisson probability dashboard."""
     inject_styles()
 
     base_df, fixtures_df, lead_in_df, metadata = load_data()
@@ -898,10 +858,8 @@ def render_v4_probabilities_dashboard() -> None:
 
     simulation_count = SIMULATION_OPTIONS[simulation_label]
     st.caption(
-        f"Primary model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}. "
-        f"V4 is the primary enhanced Poisson model using quadratic last-{form_match_window} form, "
-        "World Cup last-5 goal history, Dixon-Coles low-score correction, stage lambda multipliers, "
-        f"and `{training_scope}` training data."
+        f"Primary model {V4_MODEL_VERSION}: {V4_MODEL_SUMMARY}, "
+        f"with `{training_scope}` training data."
     )
     artifact_settings = ArtifactSettings(
         model_id="v4",
@@ -933,19 +891,8 @@ def render_v4_probabilities_dashboard() -> None:
         st.error("V4 probability artifact could not be loaded or created.")
         return
     dashboard_df = load_result.artifact.dashboard_df
-    bracket_data = load_result.artifact.bracket_data
     artifact_metadata = load_result.artifact.metadata
     dashboard_df = ensure_dashboard_probability_columns(dashboard_df)
-    st.caption(
-        " | ".join(
-            [
-                f"alpha={artifact_metadata.get('alpha')}",
-                f"rho={artifact_metadata.get('rho')}",
-                f"half-life={artifact_metadata.get('time_decay_halflife_days')} days",
-                f"scope={artifact_metadata.get('training_scope')}",
-            ]
-        )
-    )
     with st.expander("V4 calibration metadata", expanded=False):
         st.json(
             {
@@ -955,19 +902,14 @@ def render_v4_probabilities_dashboard() -> None:
                 "quadratic_form_window": form_match_window,
             }
         )
-    metadata_lookup = team_metadata_lookup(dashboard_df)
-    tables = [] if view_mode == "Bracket" else current_view_tables(
+    tables = current_view_tables(
         dashboard_df,
         view_mode,
         selected_group,
         simulation_count=simulation_count,
     )
 
-    current_download_frame = (
-        bracket_to_download_frame(bracket_data, metadata_lookup)
-        if view_mode == "Bracket"
-        else tables_to_download_frame(tables, section_column="group")
-    )
+    current_download_frame = tables_to_download_frame(tables, section_column="group")
     render_table_data_downloads(
         key_prefix="v4_prob",
         current_frame=current_download_frame,
@@ -976,10 +918,7 @@ def render_v4_probabilities_dashboard() -> None:
         all_filename="v4_probability_tables.csv",
     )
 
-    if view_mode == "Bracket":
-        render_bracket(bracket_data, metadata_lookup, simulation_count=simulation_count)
-    else:
-        render_tables(tables, multi_column=view_mode == "All groups")
+    render_tables(tables, multi_column=view_mode == "All groups")
 
 
 def render_v2_2022_backtest_dashboard() -> None:
@@ -1592,12 +1531,11 @@ def render_home_page() -> None:
         <div class="wc-home-intro">
           <div>
             <div class="wc-home-intro-kicker">What this project is</div>
-            <h2 class="wc-home-intro-title">A data-driven 2026 FIFA Men's World Cup research hub</h2>
+            <h2 class="wc-home-intro-title">2026 FIFA World Cup Forecaster</h2>
             <p class="wc-home-intro-copy">
-              This app brings together three views of the tournament: historical World Cup analysis, qualification
-              and team context, and simulation-based 2026 projections. Use the analysis pages to understand past
-              tournament patterns and qualification performance, the team report cards to inspect one country at a
-              time, and the model pages to compare how different methods project the group stage and knockout path.
+              This app covers the 2026 FIFA World Cup from three angles: historical tournament patterns, team and qualification context, and simulation-based projections. 
+              The analysis pages trace trends across past tournaments; the team report cards let you profile any country in depth; 
+              the model pages run Monte Carlo simulations across different configurations to forecast group finishes and knockout paths.
             </p>
           </div>
           <div class="wc-home-intro-panel">
@@ -1692,7 +1630,7 @@ def render_home_page() -> None:
           </div>
           <div class="wc-home-route-grid">
             {build_home_route_card("Team Report Card", "Reports > Team Report Card", "Deep dive into one country with history, qualification path, squad context, and projection outlook.")}
-            {build_home_route_card("V4 Enhanced Poisson", "Models > V4 Enhanced Poisson", "Start here for primary 2026 probabilities, group tables, all-country rankings, and bracket view.")}
+            {build_home_route_card("V4 Enhanced Poisson", "Models > V4 Enhanced Poisson", "Start here for primary 2026 probabilities, group tables, and all-country rankings.")}
             {build_home_route_card("V2 Probabilities", "Legacy > V2 Probabilities", "Compare the current projection against the alternate form-weighted multinomial model.")}
             {build_home_route_card("V2 Form", "Legacy > V2 Form", "Inspect recent form inputs, team strength components, and confederation-level form tables.")}
             {build_home_route_card("Analysis", "Reports > Analysis", "Explore historical World Cup patterns behind participation, scoring, hosts, winners, and qualifiers.")}

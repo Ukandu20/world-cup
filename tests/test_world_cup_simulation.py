@@ -2050,11 +2050,13 @@ def test_render_tables_can_render_separate_single_column_sections(monkeypatch):
     assert captured["unsafe_allow_html"] is True
 
 
-def test_view_options_include_form_and_bracket():
+def test_probability_view_options_hide_bracket():
     home = load_home_module()
 
     assert "Form" in home.VIEW_OPTIONS
-    assert "Bracket" in home.VIEW_OPTIONS
+    assert "Bracket" not in home.VIEW_OPTIONS
+    assert "Bracket" not in home.V1_VIEW_OPTIONS
+    assert "Bracket" not in home.V2_PROB_VIEW_OPTIONS
 
 
 def test_build_bracket_html_renders_rounds_and_winner_probabilities():

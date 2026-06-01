@@ -187,7 +187,7 @@ V4_MODEL_VERSION = "v4"
 
 V4_MODEL_LABEL = "Enhanced Poisson Expected Goals Model"
 
-V4_MODEL_SUMMARY = "Quadratic-form Poisson model with Dixon-Coles correction and rolling validation"
+V4_MODEL_SUMMARY = "Poisson model with Dixon-Coles correction and rolling validation"
 
 DEFAULT_V4_TRAINING_SCOPE = TRAINING_SCOPE_WORLD_CUP_ONLY
 

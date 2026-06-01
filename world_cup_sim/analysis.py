@@ -12,6 +12,7 @@ from world_cup_sim.constants import WORLD_CUP_ROOT
 ERA_BINS = [1929, 1950, 1970, 1990, 2010, 2026]
 ERA_LABELS = ["Early Era", "Golden Age", "Modern Era", "Contemporary", "Recent"]
 CONFEDERATION_ORDER = ["AFC", "CAF", "CONCACAF", "CONMEBOL", "OFC", "UEFA"]
+MAIN_BRACKET_STAGES = ["Round of 16", "Quarter-final", "Semi-final", "Final"]
 PLACEMENT_SCORE_MAP = {
     "Winner": 7,
     "Runner-up": 6,
@@ -442,8 +443,13 @@ def build_goal_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFr
     team_goals["gls_rank"] = team_goals.groupby(["edition", "tournament_id"])["gf"].rank(
         method="min", ascending=False
     )
+    placement_goal_columns = [
+        column
+        for column in ["edition", "country", "placement", "position", "elo_rank"]
+        if column in placement.columns
+    ]
     team_goals = team_goals.merge(
-        placement[["edition", "country", "placement", "position"]],
+        placement[placement_goal_columns],
         on=["edition", "country"],
         how="left",
     )
@@ -589,6 +595,7 @@ def build_winner_followup_metrics(datasets: dict[str, pd.DataFrame]) -> pd.DataF
         "next_placement",
         "next_position",
         "start_elo",
+        "elo_rank",
         "finish_elo",
         "elo_change",
     ]
@@ -597,6 +604,196 @@ def build_winner_followup_metrics(datasets: dict[str, pd.DataFrame]) -> pd.DataF
     if "next_position" in winners.columns:
         winners["next_position"] = pd.to_numeric(winners["next_position"], errors="coerce")
     return winners
+
+
+def _build_match_elo_frame(datasets: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    results = datasets["results"].copy()
+    placement = datasets["placement"].copy()
+    if results.empty or placement.empty:
+        return pd.DataFrame()
+
+    match_columns = [
+        "edition",
+        "era",
+        "tournament_id",
+        "match_id",
+        "match_number",
+        "stage",
+        "country",
+        "opponent",
+        "team_score",
+        "opponent_score",
+        "decided_by_shootout",
+        "shootout_winner",
+    ]
+    matches = (
+        results[[column for column in match_columns if column in results.columns]]
+        .drop_duplicates(["edition", "match_id"])
+        .copy()
+    )
+    for column in ["team_score", "opponent_score"]:
+        if column in matches.columns:
+            matches[column] = pd.to_numeric(matches[column], errors="coerce")
+
+    elo_lookup = placement[["edition", "country", "start_elo", "elo_rank"]].drop_duplicates(["edition", "country"])
+    matches = matches.merge(
+        elo_lookup.rename(
+            columns={
+                "country": "country",
+                "start_elo": "country_start_elo",
+                "elo_rank": "country_elo_rank",
+            }
+        ),
+        on=["edition", "country"],
+        how="left",
+        validate="many_to_one",
+    )
+    matches = matches.merge(
+        elo_lookup.rename(
+            columns={
+                "country": "opponent",
+                "start_elo": "opponent_start_elo",
+                "elo_rank": "opponent_elo_rank",
+            }
+        ),
+        on=["edition", "opponent"],
+        how="left",
+        validate="many_to_one",
+    )
+    for column in ["country_start_elo", "opponent_start_elo", "country_elo_rank", "opponent_elo_rank"]:
+        matches[column] = pd.to_numeric(matches[column], errors="coerce")
+
+    shootout_winner = matches.get("shootout_winner", pd.Series(pd.NA, index=matches.index)).fillna("")
+    decided_by_shootout = (
+        matches.get("decided_by_shootout", pd.Series(False, index=matches.index))
+        .fillna(False)
+        .astype(str)
+        .str.upper()
+        .isin({"TRUE", "1", "YES"})
+    )
+    score_winner = np.select(
+        [
+            matches["team_score"].gt(matches["opponent_score"]),
+            matches["team_score"].lt(matches["opponent_score"]),
+        ],
+        [matches["country"], matches["opponent"]],
+        default="",
+    )
+    matches["winner"] = np.where(decided_by_shootout & shootout_winner.ne(""), shootout_winner, score_winner)
+    winner = matches["winner"].fillna("")
+    country = matches["country"].fillna("")
+    opponent = matches["opponent"].fillna("")
+    matches["loser"] = np.select(
+        [
+            winner.eq(country),
+            winner.eq(opponent),
+        ],
+        [matches["opponent"], matches["country"]],
+        default="",
+    )
+    matches["actual_score"] = np.select(
+        [
+            winner.eq(country),
+            winner.eq(opponent),
+            matches["team_score"].eq(matches["opponent_score"]),
+        ],
+        [1.0, 0.0, 0.5],
+        default=np.nan,
+    )
+    matches["elo_difference"] = matches["country_start_elo"] - matches["opponent_start_elo"]
+    matches["winner_elo_rank"] = np.select(
+        [
+            winner.eq(country),
+            winner.eq(opponent),
+        ],
+        [matches["country_elo_rank"], matches["opponent_elo_rank"]],
+        default=np.nan,
+    )
+    matches["loser_elo_rank"] = np.select(
+        [
+            winner.eq(country),
+            winner.eq(opponent),
+        ],
+        [matches["opponent_elo_rank"], matches["country_elo_rank"]],
+        default=np.nan,
+    )
+    matches["winner"] = matches["winner"].replace("", pd.NA)
+    matches["loser"] = matches["loser"].replace("", pd.NA)
+    matches["is_upset"] = matches["winner_elo_rank"] > matches["loser_elo_rank"]
+    return matches.sort_values(["edition", "match_number", "match_id"], kind="stable").reset_index(drop=True)
+
+
+def _summarize_upsets_by_stage(match_elo_frame: pd.DataFrame) -> pd.DataFrame:
+    if match_elo_frame.empty:
+        return pd.DataFrame(columns=["stage", "matches", "upsets", "upset_pct"])
+    knockouts = match_elo_frame.loc[
+        match_elo_frame["stage"].isin(MAIN_BRACKET_STAGES)
+        & match_elo_frame["winner"].notna()
+        & match_elo_frame["winner_elo_rank"].notna()
+        & match_elo_frame["loser_elo_rank"].notna()
+    ].copy()
+    summary = (
+        knockouts.groupby("stage", as_index=False)
+        .agg(matches=("match_id", "nunique"), upsets=("is_upset", "sum"))
+    )
+    summary["upset_pct"] = (summary["upsets"] / summary["matches"] * 100).round(1)
+    stage_order = pd.Categorical(summary["stage"], categories=MAIN_BRACKET_STAGES, ordered=True)
+    return summary.assign(stage_order=stage_order).sort_values("stage_order").drop(columns="stage_order").reset_index(drop=True)
+
+
+def _summarize_champion_elo_rank(placement: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    winners = placement.loc[placement["placement"].eq("Winner"), ["edition", "country", "elo_rank"]].copy()
+    winners["top_elo_won"] = pd.to_numeric(winners["elo_rank"], errors="coerce").eq(1)
+    winners["result"] = np.where(winners["top_elo_won"], "Top Elo won", "Other champion")
+    by_edition = winners.sort_values("edition").reset_index(drop=True)
+    rows = []
+    total_editions = int(len(by_edition))
+    for result in ["Top Elo won", "Other champion"]:
+        editions = by_edition.loc[by_edition["result"].eq(result), "edition"].dropna().astype(int).tolist()
+        rows.append(
+            {
+                "result": result,
+                "editions": ", ".join(map(str, editions)),
+                "edition_count": len(editions),
+                "pct": round((len(editions) / total_editions * 100), 1) if total_editions else 0.0,
+            }
+        )
+    return by_edition, pd.DataFrame(rows)
+
+
+def _summarize_elo_predictive_power(match_elo_frame: pd.DataFrame) -> pd.DataFrame:
+    if match_elo_frame.empty:
+        return pd.DataFrame(columns=["edition", "era", "matches", "elo_result_corr"])
+    valid = match_elo_frame.dropna(subset=["elo_difference", "actual_score"]).copy()
+    rows = []
+    for (edition, era), rows_for_edition in valid.groupby(["edition", "era"], dropna=False, observed=True):
+        correlation = (
+            rows_for_edition["elo_difference"].corr(rows_for_edition["actual_score"], method="pearson")
+            if len(rows_for_edition) > 2 and rows_for_edition["elo_difference"].nunique() > 1
+            else np.nan
+        )
+        rows.append(
+            {
+                "edition": int(edition),
+                "era": era,
+                "matches": int(len(rows_for_edition)),
+                "elo_result_corr": correlation,
+            }
+        )
+    return pd.DataFrame(rows).sort_values("edition").reset_index(drop=True)
+
+
+def build_elo_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFrame]:
+    """Return tournament-start Elo analysis tables for historical World Cups."""
+    match_elo_frame = _build_match_elo_frame(datasets)
+    champion_by_edition, champion_summary = _summarize_champion_elo_rank(datasets["placement"].copy())
+    return {
+        "match_elo_frame": match_elo_frame,
+        "upset_by_stage": _summarize_upsets_by_stage(match_elo_frame),
+        "champion_elo_rank_by_edition": champion_by_edition,
+        "champion_elo_rank_summary": champion_summary,
+        "elo_predictive_power_by_edition": _summarize_elo_predictive_power(match_elo_frame),
+    }
 
 
 def _build_outcome_frame(datasets: dict[str, pd.DataFrame]) -> pd.DataFrame:

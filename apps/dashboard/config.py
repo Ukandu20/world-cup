@@ -76,7 +76,7 @@ SIMULATION_OPTIONS = {
 DEFAULT_RECENT_MATCH_WINDOW = 10
 DEFAULT_SIMULATION_LABEL = "20k"
 GROUP_ORDER = list("ABCDEFGHIJKL")
-VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Form", "Bracket")
+VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Form")
 SCREENSHOT_CHANNELS = ("chrome", "msedge")
 CURRENT_HOLDER_TEAM_ID = "ARG"
 BRACKET_HEAD_TO_HEAD_SIMULATIONS = 10000
@@ -87,9 +87,9 @@ EXPORT_MAX_VIEWPORT_WIDTH = 3200
 FORM_WINDOW_MIN = 3
 FORM_WINDOW_MAX = 20
 FORM_CONFEDERATION_ORDER = ("AFC", "CAF", "CONCACAF", "CONMEBOL", "OFC", "UEFA")
-V1_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
+V1_VIEW_OPTIONS = ("Single group", "All groups", "All Countries")
 V2_VIEW_OPTIONS = ("All Countries", "Single confederation", "All confederations")
-V2_PROB_VIEW_OPTIONS = ("Single group", "All groups", "All Countries", "Bracket")
+V2_PROB_VIEW_OPTIONS = ("Single group", "All groups", "All Countries")
 TRAINING_SCOPE_LABELS = {
     "World Cup only": TRAINING_SCOPE_WORLD_CUP_ONLY,
     "All Internationals": TRAINING_SCOPE_ALL_INTERNATIONAL,

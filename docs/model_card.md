@@ -8,7 +8,7 @@ The current dashboard primary model is V4, an enhanced Poisson expected-goals mo
 
 ## Validation Snapshot
 
-The committed validation artifact is `data/processed/validation/model_validation_folds.json`. The validation window is 2014/2018/2022 FIFA World Cup folds. Each trained row uses a cutoff before the first match in its holdout World Cup.
+The committed validation artifact is `data/processed/validation/aggregate_validation.json`. The validation window is 2014/2018/2022 FIFA World Cup folds. Each trained row uses a cutoff before the first match in its holdout World Cup.
 
 - Match window: `10`
 - Monte Carlo simulations: `20,000`

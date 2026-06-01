@@ -16,6 +16,7 @@ from world_cup_sim.analysis import (  # noqa: E402
     build_2026_implication_tables,
     build_correlation_metrics,
     build_data_quality_summary,
+    build_elo_metrics,
     build_goal_metrics,
     build_host_effect_metrics,
     build_participation_metrics,
@@ -75,7 +76,7 @@ def test_goal_and_winner_followup_metrics_have_expected_columns():
     assert {"edition", "total_goals", "total_matches", "goals_per_match"}.issubset(
         goal_metrics["tournament_goals"].columns
     )
-    assert {"edition", "country", "gf", "ga", "goals_per_game"}.issubset(
+    assert {"edition", "country", "gf", "ga", "goals_per_game", "elo_rank"}.issubset(
         goal_metrics["team_goals"].columns
     )
     assert {"edition", "stage", "scoreline", "scoreline_rank", "match_id"}.issubset(
@@ -86,7 +87,7 @@ def test_goal_and_winner_followup_metrics_have_expected_columns():
     )
     assert goal_metrics["match_scorelines"].duplicated(["edition", "match_id"]).sum() == 0
     assert not goal_metrics["winner_match_scorelines"].empty
-    assert {"edition", "country", "next_edition", "next_placement"}.issubset(winners.columns)
+    assert {"edition", "country", "next_edition", "next_placement", "elo_rank"}.issubset(winners.columns)
     assert winners["country"].notna().all()
 
 
@@ -235,6 +236,28 @@ def test_correlation_metrics_default_lookback_returns_numeric_fields():
     assert pd.api.types.is_numeric_dtype(summary["correlation_with_finish_score"])
     assert int(last_k_summary.loc[0, "lookback"]) == 5
     assert pd.api.types.is_numeric_dtype(last_k_summary["correlation_with_finish_score"])
+
+
+def test_elo_metrics_include_upsets_champion_rank_and_predictive_power():
+    datasets = load_historical_world_cup_data()
+    metrics = build_elo_metrics(datasets)
+
+    assert {"upset_by_stage", "champion_elo_rank_summary", "elo_predictive_power_by_edition"}.issubset(metrics)
+
+    upset_by_stage = metrics["upset_by_stage"]
+    assert {"stage", "matches", "upsets", "upset_pct"}.issubset(upset_by_stage.columns)
+    assert pd.api.types.is_numeric_dtype(upset_by_stage["upset_pct"])
+    assert upset_by_stage["upset_pct"].between(0, 100).all()
+
+    champion_summary = metrics["champion_elo_rank_summary"]
+    assert {"Top Elo won", "Other champion"}.issubset(set(champion_summary["result"]))
+    assert {"edition_count", "pct", "editions"}.issubset(champion_summary.columns)
+
+    predictive = metrics["elo_predictive_power_by_edition"]
+    assert {"edition", "matches", "elo_result_corr"}.issubset(predictive.columns)
+    assert pd.api.types.is_numeric_dtype(predictive["elo_result_corr"])
+    valid_predictive = predictive["elo_result_corr"].dropna()
+    assert valid_predictive.between(-1, 1).all()
 
 
 def test_2026_implication_tables_include_distribution_and_qualified_teams():
