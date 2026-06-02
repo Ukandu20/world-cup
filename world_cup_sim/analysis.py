@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 
 from world_cup_sim.constants import WORLD_CUP_ROOT
+from world_cup_sim.shared import normalize_historical_team_name
 
 
 ERA_BINS = [1929, 1950, 1970, 1990, 2010, 2026]
@@ -31,6 +32,16 @@ HOST_NAME_ALIASES = {
     "republic of korea": "south korea",
     "west germany": "germany",
 }
+PARTICIPATION_TEAM_ID_ALIASES = {
+    "che": "sui",
+    "dza": "alg",
+    "hrv": "cro",
+    "hti": "hai",
+    "prt": "por",
+    "pry": "par",
+    "ury": "uru",
+    "zaf": "rsa",
+}
 
 
 def _world_nations_path(root: Path) -> Path:
@@ -46,6 +57,20 @@ def _read_csv_if_exists(path: Path) -> pd.DataFrame:
 def normalize_country_name(value: object) -> str:
     normalized = str(value).strip().lower()
     return HOST_NAME_ALIASES.get(normalized, normalized)
+
+
+def participation_identity_key(row: pd.Series) -> str:
+    """Return a stable team identity for historical participation counts."""
+    team_id = row.get("team_id", "")
+    if pd.notna(team_id) and str(team_id).strip():
+        normalized_team_id = str(team_id).strip().lower()
+        return PARTICIPATION_TEAM_ID_ALIASES.get(normalized_team_id, normalized_team_id)
+
+    for column_name in ("canonical_name", "country"):
+        value = row.get(column_name, "")
+        if pd.notna(value) and str(value).strip():
+            return normalize_historical_team_name(str(value))
+    return ""
 
 
 def parse_host_countries(value: object) -> set[str]:
@@ -269,12 +294,16 @@ def build_participation_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, 
     )
     avg_by_confederation["avg_participant_count"] = avg_by_confederation["avg_participant_count"].round(2)
 
-    debutants = teams.dropna(subset=["country", "edition"]).copy()
-    debutants["first_edition"] = debutants.groupby("country")["edition"].transform("min")
+    teams_with_identity = teams.dropna(subset=["country", "edition"]).copy()
+    teams_with_identity["participation_key"] = teams_with_identity.apply(participation_identity_key, axis=1)
+    teams_with_identity = teams_with_identity.loc[teams_with_identity["participation_key"].ne("")].copy()
+
+    debutants = teams_with_identity.copy()
+    debutants["first_edition"] = debutants.groupby("participation_key")["edition"].transform("min")
     debutants_by_edition = (
         debutants.loc[debutants["edition"].eq(debutants["first_edition"])]
         .groupby(["edition", "era"], as_index=False, observed=True)
-        .agg(debutant_count=("country", "nunique"))
+        .agg(debutant_count=("participation_key", "nunique"))
         .sort_values("edition")
         .reset_index(drop=True)
     )
@@ -306,15 +335,17 @@ def build_participation_metrics(datasets: dict[str, pd.DataFrame]) -> dict[str, 
     )
     latest_distribution["edition"] = latest_edition
 
-    team_distribution = teams.dropna(subset=["edition", "country", "confederation"]).copy()
+    team_distribution = teams_with_identity.dropna(subset=["edition", "country", "confederation"]).copy()
     team_distribution["edition"] = pd.to_numeric(team_distribution["edition"], errors="coerce").astype("Int64")
-    team_distribution = team_distribution.sort_values(["country", "edition"]).reset_index(drop=True)
-    team_distribution["prior_participations"] = team_distribution.groupby("country", observed=True).cumcount()
+    team_distribution = team_distribution.sort_values(["participation_key", "edition"]).reset_index(drop=True)
+    team_distribution["prior_participations"] = team_distribution.groupby(
+        "participation_key", observed=True
+    ).cumcount()
     team_distribution["participation_count"] = team_distribution["prior_participations"] + 1
     team_distribution["is_first_timer"] = team_distribution["prior_participations"].eq(0)
     team_distribution["country_label"] = team_distribution["country"].where(
         ~team_distribution["is_first_timer"],
-        team_distribution["country"] + " ★",
+        team_distribution["country"] + " *",
     )
     team_distribution["team_value"] = 1
     latest_team_distribution = (

@@ -66,6 +66,18 @@ def test_participation_metrics_include_2026_and_stable_debutants():
     assert {"edition", "debutant_count"}.issubset(debutants.columns)
     assert debutants["edition"].is_unique
     assert pd.to_numeric(debutants["debutant_count"], errors="coerce").ge(0).all()
+    assert int(debutants.loc[debutants["edition"].eq(2026), "debutant_count"].iloc[0]) == 4
+
+    latest = metrics["latest_team_distribution"]
+    first_timers = set(latest.loc[latest["is_first_timer"], "country"])
+    false_first_timers = {"IR Iran", "Korea Republic", "USA", "Türkiye", "Côte d'Ivoire", "Congo DR"}
+    true_first_timers = {"Jordan", "Uzbekistan", "Cabo Verde", "Curaçao"}
+
+    assert false_first_timers.isdisjoint(first_timers)
+    assert true_first_timers == first_timers
+
+    participation_counts = pd.to_numeric(latest["world_cup_participations"], errors="coerce")
+    assert not latest.loc[participation_counts.gt(1), "is_first_timer"].any()
 
 
 def test_goal_and_winner_followup_metrics_have_expected_columns():
