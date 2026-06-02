@@ -5,6 +5,7 @@ import textwrap
 from datetime import datetime
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import streamlit as st
@@ -1174,17 +1175,19 @@ def shared_css(include_flag_icons: bool = True) -> str:
     }
     @media (max-width: 1100px) {
         .wc-name-cell {
-            gap: 0.48rem;
+            justify-content: center;
+            gap: 0;
         }
         .wc-name-main {
-            gap: 0.48rem;
-            flex: 1 1 auto;
+            justify-content: center;
+            gap: 0;
+            flex: 0 0 auto;
         }
         .wc-name-cell .fi {
             font-size: 1.28rem;
         }
         .wc-name-text {
-            display: inline;
+            display: none;
         }
         .wc-qual-marker {
             margin-left: 0.24rem;
@@ -1455,7 +1458,7 @@ def inject_styles() -> None:
     st.markdown(f"<style>{shared_css(include_flag_icons=True)}</style>", unsafe_allow_html=True)
 
 
-def get_first_kickoff_details(fixtures_df: pd.DataFrame) -> dict[str, str]:
+def get_first_kickoff_details(fixtures_df: pd.DataFrame, teams_df: pd.DataFrame | None = None) -> dict[str, str]:
     """Return the earliest scheduled group-stage fixture and its formatted kickoff strings."""
     fixtures = fixtures_df.copy()
     fixtures["match_number"] = pd.to_numeric(fixtures["match_number"], errors="coerce")
@@ -1466,26 +1469,74 @@ def get_first_kickoff_details(fixtures_df: pd.DataFrame) -> dict[str, str]:
         .iloc[0]
     )
     kickoff_utc = first_fixture["kickoff_datetime_utc"]
+    kickoff_et = kickoff_utc.tz_convert(ZoneInfo("America/New_York"))
     kickoff_local_raw = str(first_fixture.get("kickoff_datetime_local", "")).strip()
     local_time_label = kickoff_local_raw[11:16] if len(kickoff_local_raw) >= 16 else kickoff_utc.strftime("%H:%M")
+
+    team_metadata: dict[str, dict[str, str]] = {}
+    if teams_df is not None and not teams_df.empty and "team_id" in teams_df.columns:
+        for row in teams_df.fillna("").itertuples(index=False):
+            team_id = str(getattr(row, "team_id", ""))
+            if not team_id:
+                continue
+            team_metadata[team_id] = {
+                "display_name": str(
+                    getattr(row, "display_name", "")
+                    or getattr(row, "team", "")
+                    or getattr(row, "canonical_name", "")
+                    or team_id
+                ),
+                "team_code": str(getattr(row, "fifa_code", "") or team_id),
+                "flag_icon_code": str(getattr(row, "flag_icon_code", "")),
+            }
+
+    home_team_id = str(first_fixture.get("home_team_id", ""))
+    away_team_id = str(first_fixture.get("away_team_id", ""))
+    home_meta = team_metadata.get(home_team_id, {})
+    away_meta = team_metadata.get(away_team_id, {})
+    round_code = str(first_fixture.get("round_code", ""))
+    stage_label = "Group Stage" if round_code == "GS" else str(first_fixture.get("round_name", "")).strip()
+    stage_label = stage_label or round_code
     return {
         "kickoff_iso_utc": kickoff_utc.isoformat().replace("+00:00", "Z"),
         "kickoff_date_label": kickoff_utc.strftime("%B-%d-%Y"),
         "kickoff_utc_time_label": kickoff_utc.strftime("%H:%M"),
         "kickoff_local_time_label": local_time_label,
+        "kickoff_et_time_label": kickoff_et.strftime("%H:%M"),
+        "kickoff_compact_time_label": (
+            f'{kickoff_et.strftime("%m-%d")} | {kickoff_et.strftime("%H:%M")} ET | {kickoff_utc.strftime("%H:%M")} UTC'
+        ),
         "match_label": f'{first_fixture["home_tournament_name"]} vs {first_fixture["away_tournament_name"]}',
+        "home_team_id": home_team_id,
+        "away_team_id": away_team_id,
+        "home_team_name": home_meta.get("display_name") or str(first_fixture.get("home_tournament_name", "")),
+        "away_team_name": away_meta.get("display_name") or str(first_fixture.get("away_tournament_name", "")),
+        "home_team_code": home_meta.get("team_code") or home_team_id,
+        "away_team_code": away_meta.get("team_code") or away_team_id,
+        "home_flag_icon_code": home_meta.get("flag_icon_code", ""),
+        "away_flag_icon_code": away_meta.get("flag_icon_code", ""),
+        "venue_name": str(first_fixture.get("venue_name", "")).strip(),
+        "stage_label": stage_label,
     }
 
 
 def build_countdown_html(kickoff_details: dict[str, str]) -> str:
     """Build the live countdown widget markup for the first World Cup kickoff."""
     kickoff_iso_utc = html.escape(kickoff_details["kickoff_iso_utc"])
-    kickoff_date_label = html.escape(kickoff_details["kickoff_date_label"])
-    kickoff_utc_time_label = html.escape(kickoff_details["kickoff_utc_time_label"])
-    kickoff_local_time_label = html.escape(kickoff_details["kickoff_local_time_label"])
-    match_label = html.escape(kickoff_details["match_label"])
+    kickoff_compact_time_label = html.escape(kickoff_details["kickoff_compact_time_label"])
+    stage_label = html.escape(kickoff_details.get("stage_label", ""))
+    venue_name = html.escape(kickoff_details.get("venue_name", ""))
+    home_team_name = html.escape(kickoff_details.get("home_team_name", ""))
+    away_team_name = html.escape(kickoff_details.get("away_team_name", ""))
+    home_team_code = html.escape(kickoff_details.get("home_team_code", ""))
+    away_team_code = html.escape(kickoff_details.get("away_team_code", ""))
+    home_flag = html.escape(kickoff_details.get("home_flag_icon_code", ""))
+    away_flag = html.escape(kickoff_details.get("away_flag_icon_code", ""))
+    home_flag_html = f'<span class="fi fi-{home_flag}"></span>' if home_flag else ""
+    away_flag_html = f'<span class="fi fi-{away_flag}"></span>' if away_flag else ""
     return f"""
     <style>
+      @import url('https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css');
       * {{
         box-sizing: border-box;
       }}
@@ -1511,109 +1562,146 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
         overflow: hidden;
         border: 1px solid #D8C8AF;
         border-radius: 10px;
-        padding: 20px 22px;
-        background:
-          radial-gradient(circle at top, rgba(201, 151, 0, 0.16), transparent 42%),
-          linear-gradient(135deg, #F6EBD8 0%, #E8D5B8 100%);
+        padding: 16px;
+        background: #F6EBD8;
         color: #3A2A1A;
-        box-shadow: 0 12px 26px rgba(58, 42, 26, 0.10);
-      }}
-      .wc-countdown-main {{
-        min-width: 0;
-        text-align: center;
-      }}
-      .wc-countdown-kicker,
-      .wc-countdown-meta-label {{
-        text-transform: uppercase;
-        color: #5A4632;
-        font-weight: 850;
-        overflow-wrap: anywhere;
+        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.06);
       }}
       .wc-countdown-kicker {{
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.6rem;
+        color: #5A4632;
+        font-size: 0.72rem;
+        font-weight: 900;
+        letter-spacing: 0.07em;
+        text-align: center;
+        text-transform: uppercase;
+      }}
+      .wc-countdown-time-label {{
+        color: #3A2A1A;
+        font-size: clamp(1rem, 3.5vw, 1.24rem);
+        font-weight: 900;
+        line-height: 1.15;
+        text-align: center;
+        white-space: nowrap;
+      }}
+      #wc-countdown-value {{
+        margin: 0.28rem 0 0.75rem;
+        color: #2F6F3E;
+        font-size: clamp(1.85rem, 7vw, 2.7rem);
+        font-weight: 900;
+        line-height: 1.05;
+        text-align: center;
+      }}
+      .wc-countdown-fixture-meta {{
+        display: grid;
+        justify-items: center;
+        gap: 2px;
+        margin: 0.2rem 0 0.75rem;
+        color: #5A4632;
+        font-size: 0.72rem;
+        font-weight: 800;
+        line-height: 1.25;
+        text-transform: uppercase;
+      }}
+      .wc-countdown-stage {{
+        color: #3A2A1A;
+        font-weight: 900;
+      }}
+      .wc-countdown-fixture-body {{
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        align-items: center;
+        gap: 10px;
+      }}
+      .wc-countdown-team {{
+        min-width: 0;
+        border-radius: 8px;
+        padding: 9px 8px;
+        text-align: center;
+      }}
+      .wc-countdown-team .fi {{
+        display: inline-block;
+        margin-bottom: 0.28rem;
+        font-size: 1.35rem;
+        border-radius: 999px;
+        box-shadow: inset 0 0 0 1px rgba(90, 70, 50, 0.22);
+      }}
+      .wc-countdown-team-code {{
+        color: #3A2A1A;
+        font-size: 1rem;
+        font-weight: 900;
+        line-height: 1;
+      }}
+      .wc-countdown-team-name {{
+        margin-top: 0.35rem;
+        color: #5A4632;
+        font-size: 0.72rem;
+        font-weight: 800;
+        line-height: 1.16;
+        overflow-wrap: anywhere;
+      }}
+      .wc-countdown-center {{
+        display: grid;
+        justify-items: center;
+        gap: 7px;
+        color: #5A4632;
+        font-weight: 900;
+      }}
+      .wc-countdown-vs {{
+        color: #3A2A1A;
         font-size: 0.78rem;
         letter-spacing: 0.08em;
       }}
-      .wc-countdown-match {{
-        margin-bottom: 0.45rem;
-        color: #3A2A1A;
-        font-size: clamp(1.05rem, 4vw, 1.42rem);
-        font-weight: 820;
-        line-height: 1.22;
-        overflow-wrap: anywhere;
-      }}
-      #wc-countdown-value {{
-        margin: 0.15rem 0 0.8rem;
-        color: #2F6F3E;
-        font-size: clamp(2rem, 8vw, 3rem);
-        font-weight: 900;
-        line-height: 1.08;
-        text-shadow: 0 5px 18px rgba(47, 111, 62, 0.14);
-        overflow-wrap: anywhere;
-      }}
-      .wc-countdown-meta {{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        gap: 1rem;
-        min-width: 0;
-        margin-top: 0.55rem;
-        padding-top: 0.85rem;
+      .wc-countdown-venue {{
+        margin-top: 0.75rem;
+        padding-top: 0.75rem;
         border-top: 1px solid #D8C8AF;
-      }}
-      .wc-countdown-meta-item {{
-        min-width: 0;
-      }}
-      .wc-countdown-meta-item:last-child {{
-        text-align: right;
-      }}
-      .wc-countdown-meta-label {{
-        margin-bottom: 0.2rem;
         color: #5A4632;
-        font-size: 0.72rem;
-        letter-spacing: 0.06em;
-      }}
-      .wc-countdown-meta-value {{
-        color: #3A2A1A;
-        font-size: 0.98rem;
-        font-weight: 750;
+        font-size: 0.78rem;
+        font-weight: 800;
         line-height: 1.25;
-        overflow-wrap: anywhere;
+        text-align: center;
+        min-width: 0;
       }}
       @media (max-width: 520px) {{
         .wc-countdown-card {{
-          border-radius: 14px;
           padding: 16px;
         }}
-        .wc-countdown-meta {{
-          display: grid;
-          grid-template-columns: 1fr;
-          gap: 0.65rem;
-          align-items: start;
+        .wc-countdown-time-label {{
+          white-space: normal;
         }}
-        .wc-countdown-meta-item,
-        .wc-countdown-meta-item:last-child {{
-          text-align: center;
+        .wc-countdown-fixture-body {{
+          grid-template-columns: 1fr;
+        }}
+        .wc-countdown-center {{
+          gap: 5px;
         }}
       }}
     </style>
     <div class="wc-countdown-wrap">
       <div class="wc-countdown-card">
-        <div class="wc-countdown-main">
-          <div class="wc-countdown-kicker">Countdown To Opening Kickoff</div>
-          <div class="wc-countdown-match">{match_label}</div>
-          <div id="wc-countdown-value">Loading countdown...</div>
+        <div class="wc-countdown-kicker">Countdown To Opening Kickoff</div>
+        <div class="wc-countdown-time-label">{kickoff_compact_time_label}</div>
+        <div id="wc-countdown-value">Loading countdown...</div>
+        <div class="wc-countdown-fixture-meta">
+          <div class="wc-countdown-stage">{stage_label}</div>
         </div>
-        <div class="wc-countdown-meta">
-          <div class="wc-countdown-meta-item">
-            <div class="wc-countdown-meta-label">Date</div>
-            <div class="wc-countdown-meta-value">{kickoff_date_label}</div>
+        <div class="wc-countdown-fixture-body">
+          <div class="wc-countdown-team">
+            {home_flag_html}
+            <div class="wc-countdown-team-code">{home_team_code}</div>
+            <div class="wc-countdown-team-name">{home_team_name}</div>
           </div>
-          <div class="wc-countdown-meta-item">
-            <div class="wc-countdown-meta-label">Time [local | UTC]</div>
-            <div class="wc-countdown-meta-value">{kickoff_local_time_label} | {kickoff_utc_time_label}</div>
+          <div class="wc-countdown-center">
+            <div class="wc-countdown-vs">VS</div>
+          </div>
+          <div class="wc-countdown-team">
+            {away_flag_html}
+            <div class="wc-countdown-team-code">{away_team_code}</div>
+            <div class="wc-countdown-team-name">{away_team_name}</div>
           </div>
         </div>
+        <div class="wc-countdown-venue">{venue_name}</div>
       </div>
     </div>
     <script>
@@ -1641,10 +1729,10 @@ def build_countdown_html(kickoff_details: dict[str, str]) -> str:
     """
 
 
-def render_countdown_timer(fixtures_df: pd.DataFrame) -> None:
+def render_countdown_timer(fixtures_df: pd.DataFrame, teams_df: pd.DataFrame | None = None) -> None:
     """Render a live countdown to the first scheduled group-stage kickoff."""
-    kickoff_details = get_first_kickoff_details(fixtures_df)
-    st.iframe(build_countdown_html(kickoff_details), height=235)
+    kickoff_details = get_first_kickoff_details(fixtures_df, teams_df)
+    st.iframe(build_countdown_html(kickoff_details), height=360)
 
 
 def format_percent(value: float) -> str:

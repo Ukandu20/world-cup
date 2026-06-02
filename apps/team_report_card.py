@@ -45,7 +45,6 @@ SUBJECT_ORDER = (
     "World Cup History",
     "Tournament Outlook",
 )
-PENDING_SUBJECTS = ("Squad Quality", "Qualification Strength")
 QUALIFICATION_CYCLE_START = pd.Timestamp("2022-12-19")
 QUALIFICATION_PLAYOFF_START = pd.Timestamp("2026-03-26")
 QUALIFICATION_PLAYOFF_END = pd.Timestamp("2026-03-31")
@@ -341,11 +340,6 @@ def build_subject_rows(team_row: pd.Series) -> list[dict[str, str | float]]:
             }
         )
     return rows
-
-
-def build_pending_subject_rows() -> list[dict[str, str]]:
-    """Return the unsupported subject rows for the MVP."""
-    return [{"subject": subject, "value": "Pending data"} for subject in PENDING_SUBJECTS]
 
 
 def is_debut_tournament(team_row: pd.Series) -> bool:
@@ -1058,7 +1052,6 @@ def select_report_card_context(dataset: dict[str, Any], team_id: str, recent_mat
         "team_row": team_row,
         "identity_rows": build_identity_rows(team_row, header_history_summary),
         "subject_rows": subject_rows,
-        "pending_subject_rows": build_pending_subject_rows(),
         "history": history,
         "recent_matches": recent_matches,
         "qualification_path": qualification_path,
@@ -1382,19 +1375,19 @@ def report_card_css() -> str:
     }
     .trc-subject-grid {
         display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 14px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
     }
-    .trc-subject-card, .trc-pending-card {
+    .trc-subject-card {
         border: 1px solid var(--trc-line);
         border-radius: 8px;
         background: var(--trc-surface);
-        padding: 16px 17px;
-        box-shadow: 0 8px 18px rgba(58, 42, 26, 0.06);
+        padding: 12px 14px;
+        box-shadow: 0 6px 14px rgba(58, 42, 26, 0.05);
     }
-    .trc-subject-card h3, .trc-pending-card h3 {
+    .trc-subject-card h3 {
         margin: 0;
-        font-size: 1rem;
+        font-size: 0.94rem;
         color: var(--trc-text);
     }
     .trc-grade-chip {
@@ -1416,22 +1409,17 @@ def report_card_css() -> str:
         gap: 12px;
     }
     .trc-subject-score {
-        margin-top: 0.7rem;
-        font-size: 2rem;
+        margin-top: 0.52rem;
+        font-size: 1.65rem;
         line-height: 1;
         font-weight: 900;
         color: var(--trc-text);
     }
     .trc-subject-note {
-        margin-top: 0.7rem;
+        margin-top: 0.48rem;
         color: var(--trc-muted);
-        line-height: 1.45;
-        font-size: 0.92rem;
-    }
-    .trc-pending-value {
-        margin-top: 0.75rem;
-        color: var(--trc-muted);
-        font-weight: 700;
+        line-height: 1.32;
+        font-size: 0.86rem;
     }
     .trc-kpi-grid {
         display: grid;
@@ -2164,7 +2152,7 @@ def render_identity_header(context: dict[str, Any]) -> None:
 
 
 def render_subject_cards(context: dict[str, Any]) -> None:
-    """Render the scored and pending subject cards."""
+    """Render the scored subject cards."""
     scored_html = "".join(
         (
             f'<div class="trc-subject-card">'
@@ -2175,16 +2163,7 @@ def render_subject_cards(context: dict[str, Any]) -> None:
         )
         for row in context["subject_rows"]
     )
-    pending_html = "".join(
-        (
-            f'<div class="trc-pending-card">'
-            f"<h3>{row['subject']}</h3>"
-            f'<div class="trc-pending-value">{row["value"]}</div>'
-            f"</div>"
-        )
-        for row in context["pending_subject_rows"]
-    )
-    st.markdown(f'<div class="trc-subject-grid">{scored_html}{pending_html}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="trc-subject-grid">{scored_html}</div>', unsafe_allow_html=True)
 
 
 def build_plotly_figure_library() -> tuple[Any, Any]:

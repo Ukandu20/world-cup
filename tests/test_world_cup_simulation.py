@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import inspect
 from pathlib import Path
 import sys
 import types
@@ -503,6 +504,21 @@ def test_report_card_grade_bands_and_scores_are_bounded():
         report_card.chart_title("FIFA Men's World Cup Team Profile Radar", "Brazil")
         == "Brazil's FIFA Men's World Cup Team Profile Radar"
     )
+
+
+def test_report_card_subject_cards_exclude_pending_placeholders():
+    report_card = load_team_report_card_module()
+
+    source = inspect.getsource(report_card.render_subject_cards)
+    css = report_card.report_card_css()
+
+    assert not hasattr(report_card, "PENDING_SUBJECTS")
+    assert "pending_subject_rows" not in source
+    assert "Pending data" not in source
+    assert "Squad Quality" not in source
+    assert "Qualification Strength" not in source
+    assert ".trc-subject-grid" in css
+    assert "grid-template-columns: repeat(3, minmax(0, 1fr));" in css
 
 
 def test_build_best_finish_lookup_maps_historical_aliases():
@@ -2267,7 +2283,7 @@ def test_dashboard_image_export_tables_render_export_markup():
     assert "Argentina" in document
 
 
-def test_shared_css_keeps_country_names_visible_on_narrow_screens():
+def test_shared_css_hides_country_names_on_narrow_screens():
     home = load_home_module()
 
     css = home.shared_css()
@@ -2278,7 +2294,7 @@ def test_shared_css_keeps_country_names_visible_on_narrow_screens():
     assert ".wc-name-cell" in responsive_css
     assert ".wc-name-main" in responsive_css
     assert ".wc-name-text" in responsive_css
-    assert "display: inline;" in responsive_css
+    assert "display: none;" in responsive_css
     assert ".wc-qual-marker" in responsive_css
 
 
@@ -2619,14 +2635,39 @@ def test_build_export_stem_appends_suffix_without_overwriting_base_name():
 def test_get_first_kickoff_details_uses_earliest_group_stage_fixture():
     home = load_home_module()
     fixtures_df = pd.read_csv(DATA_DIR / "fixtures.csv")
+    teams_df = pd.read_csv(DATA_DIR / "teams.csv")
 
-    kickoff = home.get_first_kickoff_details(fixtures_df)
+    kickoff = home.get_first_kickoff_details(fixtures_df, teams_df)
 
     assert kickoff["match_label"] == "Mexico vs South Africa"
     assert kickoff["kickoff_iso_utc"] == "2026-06-11T19:00:00Z"
     assert kickoff["kickoff_date_label"] == "June-11-2026"
     assert kickoff["kickoff_local_time_label"] == "13:00"
     assert kickoff["kickoff_utc_time_label"] == "19:00"
+    assert kickoff["kickoff_et_time_label"] == "15:00"
+    assert kickoff["kickoff_compact_time_label"] == "06-11 | 15:00 ET | 19:00 UTC"
+    assert kickoff["home_team_id"] == "MEX"
+    assert kickoff["away_team_id"] == "RSA"
+    assert kickoff["home_team_name"] == "Mexico"
+    assert kickoff["away_team_name"] == "South Africa"
+    assert kickoff["home_team_code"] == "MEX"
+    assert kickoff["away_team_code"] == "RSA"
+    assert kickoff["home_flag_icon_code"] == "mx"
+    assert kickoff["away_flag_icon_code"] == "za"
+    assert kickoff["stage_label"] == "Group Stage"
+    assert kickoff["venue_name"] == "Mexico City Stadium"
+
+    countdown_html = home.build_countdown_html(kickoff)
+
+    assert "wc-countdown-fixture-body" in countdown_html
+    assert "fi-mx" in countdown_html
+    assert "fi-za" in countdown_html
+    assert "06-11 | 15:00 ET | 19:00 UTC" in countdown_html
+    assert countdown_html.count("06-11 | 15:00 ET | 19:00 UTC") == 1
+    assert "Mexico City Stadium" in countdown_html
+    assert "Group Stage" in countdown_html
+    assert "wc-countdown-match" not in countdown_html
+    assert "Mexico vs South Africa" not in countdown_html
 
 
 def test_training_anchor_resolution_uses_five_prior_world_cup_start():

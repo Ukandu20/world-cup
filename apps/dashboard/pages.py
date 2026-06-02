@@ -1524,7 +1524,7 @@ def render_home_page() -> None:
     world_cup_logo_data_uri = load_world_cup_logo_data_uri()
     base_df, fixtures_df, lead_in_df, metadata = load_data()
     render_dashboard_header(world_cup_logo_data_uri, metadata, SIMULATION_COUNT, title="World Cup 2026 Projections Dashboard")
-    render_countdown_timer(fixtures_df)
+    render_countdown_timer(fixtures_df, base_df)
 
     st.markdown(
         """
